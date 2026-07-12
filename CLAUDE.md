@@ -39,6 +39,8 @@ Do not pre-create empty folders. Create a type folder the first time a page of t
 - **decision** — PRIMARY page type. What was decided, when, by whom, the rationale, the source, and `status: active | superseded`.
 - **meeting / event** — THIN STUB ONLY: date, attendees, a one-line purpose, and links out to the person/topic/decision pages where the substance actually lives. Do not put analysis on meeting pages.
 
+- **This list is open.** If the material repeatedly produces knowledge that fits none of the existing types, propose a new page type at the next lint pass (name, template, folder) rather than forcing it into a bad fit. New types are added to this section once the owner approves — the schema co-evolves with the content.
+
 Each page begins with frontmatter (Section 5), then an H1 title, then content. End every page with a `## Sources` list of the raw files it draws from.
 
 ## 4. Naming & alias conventions
@@ -70,15 +72,18 @@ Frontmatter enables Obsidian Dataview tables. Keep `source-count` current.
 
 ## 7. `index.md` format
 
-- Fixed category headings: `## People`, `## Organizations`, `## Topics & Concepts`, `## Projects`, `## Decisions`, `## Meetings`.
+- **Category headings are emergent, not fixed.** Create a heading the first time the content needs one; name headings after what the material actually contains. Split a heading that grows unwieldy; merge headings that stay thin. Never force a page into a heading that fits it badly — create a better one instead.
+- Any category that survives 2+ lint passes unchanged is **promoted**: record it below as an established category (with a one-line definition), so future sessions use it consistently. Promoted categories can still be split or renamed later — via a lint proposal, not silently.
 - One line per page: `- [[wiki/people/jane-doe.md]] — one-line summary; aka <key aliases> (N sources, updated YYYY-MM-DD)`.
 - Update `index.md` **in the same pass** as any page change. It must never drift from the actual pages.
 - If a category passes ~75 entries, split it into a sub-index file and link it from `index.md`.
 
+**Promoted categories** (established; use consistently): *none yet — populated as categories survive 2+ lint passes.*
+
 ## 8. `log.md` format
 
 - Append-only. Never rewrite or delete past entries.
-- Every entry starts with a searchable prefix: `## [YYYY-MM-DD] <op> | <title>` where `<op>` is `ingest`, `query`, or `lint`.
+- Every entry starts with a searchable prefix: `## [YYYY-MM-DD] <op> | <title>` where `<op>` is `ingest`, `query`, `lint`, or `schema`.
 - An ingest entry lists: files ingested, pages created, pages updated, contradictions flagged, and the verification result.
 - This makes the log greppable: `grep "^## \[" log.md | tail`.
 
@@ -128,8 +133,10 @@ The started/completed pair makes a mid-batch crash recoverable: on restart, any 
 
 - Run automatically **every 3–5 ingest batches**, and on demand.
 - Check for: contradictions between pages, stale claims newer sources have superseded, orphan pages (no inbound links), important concepts lacking their own page, missing cross-references, duplicate person/entity pages, `index.md` vs page drift.
+- **Category fit:** do the index headings still match what the wiki actually contains? Propose splits, merges, renames, or promotions (Section 7) in the lint report.
+- **Type fit:** is any recurring kind of knowledge poorly served by the existing page types? Propose additions (Section 3) in the lint report.
 - Output a **plain-language report** the owner reads. This report + `log.md` + per-batch verification **are the owner's review surface** — he will not read the whole wiki. Treat lint as not optional.
-- **Lint only diagnoses and reports — it never edits content pages itself.** Never delete pages unilaterally; flag for owner approval.
+- **Lint only diagnoses and reports — it never edits content pages itself** — except routine category creation/split/merge in `index.md`, which ingest and lint may do directly (catalog housekeeping, not content editing). Never delete pages unilaterally; flag for owner approval.
 - Refresh `wiki/overview.md` at each lint pass (a short, plain-language "state of the wiki" for the owner).
 
 ## 14. Scale / search (qmd)
