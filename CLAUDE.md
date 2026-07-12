@@ -18,6 +18,7 @@ second-brain/
   raw/          immutable source transcripts (flat; never edit/rename/delete)
   wiki/         everything you write
     index.md    catalog of all pages (you keep current)
+    overview.md short plain-language state-of-the-wiki summary (refreshed at each lint)
     log.md      append-only diary of everything you do
     people/            person pages          (create folder on first use)
     organizations/     org/team pages
@@ -50,7 +51,7 @@ Each page begins with frontmatter (Section 5), then an H1 title, then content. E
 
 ```yaml
 ---
-type: person | organization | topic | project | decision | meeting
+type: person | organization | topic | project | decision | meeting | synthesis
 title: Human Readable Title
 date: YYYY-MM-DD          # for dated pages; else creation date
 aliases: [Bob, Robert S.] # all names this entity is known by
@@ -70,7 +71,7 @@ Frontmatter enables Obsidian Dataview tables. Keep `source-count` current.
 ## 7. `index.md` format
 
 - Fixed category headings: `## People`, `## Organizations`, `## Topics & Concepts`, `## Projects`, `## Decisions`, `## Meetings`.
-- One line per page: `- [[wiki/people/jane-doe.md]] — one-line summary (N sources, updated YYYY-MM-DD)`.
+- One line per page: `- [[wiki/people/jane-doe.md]] — one-line summary; aka <key aliases> (N sources, updated YYYY-MM-DD)`.
 - Update `index.md` **in the same pass** as any page change. It must never drift from the actual pages.
 - If a category passes ~75 entries, split it into a sub-index file and link it from `index.md`.
 
@@ -83,29 +84,34 @@ Frontmatter enables Obsidian Dataview tables. Keep `source-count` current.
 
 ## 9. Ingest workflow
 
-1. List raw files not yet recorded as ingested in `log.md`.
+**Batch size:** ~8–10 source files per batch (not per calendar month). The pilot is the first ~2 batches (~15–20 files total).
+
+**What to extract — and what to skip:** record only *durable* knowledge — decisions, commitments, relationships, role changes, recurring topics, open questions. **Never** record scheduling logistics, small talk, or pleasantries. Transcripts are ~90% chatter. If a page would merely restate a single transcript, do not create it.
+
+1. List raw files not yet recorded as ingested in `log.md`. A source whose content has **changed** since it was last ingested (compare by content hash) counts as new — re-ingest it and note the re-ingest.
 2. Apply de-dup / conversion (Section 12) if needed.
 3. Write a `## [date] ingest | batch N started` line to `log.md`.
 4. Read the batch (process **oldest source date first** — chronological, from 2025-01-01 forward).
 5. For each source: identify entities, decisions, topics → **update existing pages or create new ones** (Sections 3–6). Update-vs-create heuristic: *new page* if it's a distinct entity you'd link to from elsewhere; *edit in place* if it's an attribute or update of an existing entity.
 6. Update `index.md` (Section 7).
-7. **Verification:** check ~10 random facts against their cited raw sources; record pass/fail.
+7. **Verification:** check 10 random facts against their cited raw sources — ideally in a fresh session that did not write the pages. **≥9/10 verbatim-supported = pass.** Below that, **halt: do not start the next batch until the owner is notified.** Record the result in `log.md`.
 8. Write `## [date] ingest | batch N completed` to `log.md` with the summary + verification result.
 9. Commit to git: `ingest: batch N, YYYY-MM, K files`.
 
-The started/completed pair makes a mid-batch crash recoverable: on restart, any batch with "started" but no "completed" is re-run from its file list.
+The started/completed pair makes a mid-batch crash recoverable: on restart, any batch with "started" but no "completed" is incomplete. **Before re-running it, `git reset --hard` to the last *completed* batch's commit** to discard half-applied edits, then re-run from its file list. (This is the only sanctioned hard reset — it only ever discards an unfinished batch.)
 
 ## 10. Query workflow
 
 1. Read `index.md`; use qmd search (Section 14) to find relevant pages.
 2. Read the relevant pages; answer the owner **with citations**, in plain language.
-3. **File useful answers back into the wiki** — a comparison, analysis, or discovered connection becomes a new page + an `index.md` entry + a `## [date] query | <title>` log entry. Explorations must compound, not vanish into chat.
+3. **File answers back only when they add durable synthesis** — the answer combines **3+ sources** or captures a genuinely new connection. Do **not** file back answers that merely restate facts already retrievable from existing pages (those are negative value — they rot). When you do file one: **ask the owner first**, then create it as a new page with `type: synthesis` + an `index.md` entry + a `## [date] query | <title>` log entry. **No other page may cite a synthesis page as a source** — synthesis pages cite raw files, never the reverse.
 
 ## 11. Update semantics (temporal rule)
 
 - We process **oldest → newest** (chronological), so newer facts naturally arrive later and update older ones. The rules below still hold if a batch is ever out of order.
 - **Every fact carries an as-of date** (the source's own date).
 - **Source date sets precedence, not ingest order.** A source dated *earlier* than a page's current content may **only add to a `## History` section** — it must **never overwrite** a current-state statement. Conversely, a newer source supersedes an older current-state claim (move the old claim to `## History`).
+- **Evolution vs. contradiction — decide which before writing:** two sources making *incompatible claims about the same time period* = a **contradiction** → record both under `## Open contradictions`, resolve nothing. A later source *updating an earlier state of affairs* = **evolution** → the newer claim becomes current, the older moves to `## History`.
 - **Fact-level merge, not pile-up:** recurring meetings restate the same facts. Update the existing current-state line; do not stack identical entries. Pages must not become chronological sediment.
 - **Contradictions are recorded, not resolved:** when two sources disagree, put both claims, both citations, and both dates under `## Open contradictions` on the page. Do not silently pick one.
 
@@ -123,7 +129,8 @@ The started/completed pair makes a mid-batch crash recoverable: on restart, any 
 - Run automatically **every 3–5 ingest batches**, and on demand.
 - Check for: contradictions between pages, stale claims newer sources have superseded, orphan pages (no inbound links), important concepts lacking their own page, missing cross-references, duplicate person/entity pages, `index.md` vs page drift.
 - Output a **plain-language report** the owner reads. This report + `log.md` + per-batch verification **are the owner's review surface** — he will not read the whole wiki. Treat lint as not optional.
-- Never delete pages unilaterally during lint; flag for owner approval.
+- **Lint only diagnoses and reports — it never edits content pages itself.** Never delete pages unilaterally; flag for owner approval.
+- Refresh `wiki/overview.md` at each lint pass (a short, plain-language "state of the wiki" for the owner).
 
 ## 14. Scale / search (qmd)
 
