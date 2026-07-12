@@ -1,0 +1,13 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+
+# qmd local index / caches (rebuildable; never commit)
+.qmd/
+*.qmd-index
+*.sqlite
+*.db
+
+# scratch
+/tmp/
