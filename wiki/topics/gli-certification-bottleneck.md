@@ -3,7 +3,7 @@ type: topic
 title: GLI certification cost and speed (the scaling bottleneck)
 date: 2026-07-12
 aliases: [game certification, GLI approval, math testing, GLI automation]
-source-count: 2
+source-count: 3
 ---
 
 # GLI certification cost and speed (the scaling bottleneck)
@@ -35,7 +35,12 @@ Getting each game approved by the testing lab GLI is slow and expensive. Val see
 
 - As an independent, accredited lab, GLI must not coach a client on how to pass its tests. That neutrality is why GLI pulls back and calls things "proprietary" — not the ordinary trade-secret meaning. [[raw/gli_visit-jan-7-2025.md]]
 
+## Build approach to ease GLI review
+
+- Under the new build system, JVL plans to submit a **non-instrumented** build to GLI plus a documented procedure for installing the instrumentation — so GLI can do a lighter review and inspect the instrumentation only if it wishes. See [[wiki/decisions/2025-01-15-reduce-build-variants-with-post-build-instrumentation.md]]. [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]]
+
 ## Sources
 
 - [[raw/gli_visit-jan-7-2025.md]]
 - [[raw/jvl_strategic_plan_and_vision_2025_2025-01-08.md]]
+- [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]]

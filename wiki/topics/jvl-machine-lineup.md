@@ -2,8 +2,8 @@
 type: topic
 title: JVL machine and cabinet lineup
 date: 2026-07-12
-aliases: [Flex cabinets, Altera, Maple, Echo, Flex S, Flex C, cabinets, VLT, video lottery terminal]
-source-count: 5
+aliases: [Flex cabinets, Altera, Maple, Echo, Flex S, Flex C, cabinets, VLT, video lottery terminal, Flex SD27, V43, C10-VLOT-TERM-RU]
+source-count: 6
 ---
 
 # JVL machine and cabinet lineup
@@ -45,6 +45,7 @@ A running glossary of the machine models, cabinet types, and product families th
 ## How customers see the products
 
 - To customers and financiers, all JVL machines are described broadly as **video lottery terminals**; price and description vary only by hardware configuration (e.g. one vs. two screens) and software (number of games, features). Example naming: "video lottery terminal, Flex D27." [[raw/james_reble_elevate_january_14_2025.md]]
+- **Item numbers / older quote:** A May 11, 2022 quote used item number **"C10-VLOT-TERM-RU"** — a video lottery terminal with **one monitor** and a different (simpler) software set. The current **Flex-S** machines have **two monitors** and more/more-complex games (hence higher price); **"Flex SD27" is itself the item number** for that model, and **V43** is another. Val confirmed C10-VLOT-TERM-RU is a *different* hardware+software combination, not the same as Flex-S. [[raw/elevate_convo_w_scott_rambeau_january_15_2025.md]]
 
 ## Sources
 
@@ -53,3 +54,4 @@ A running glossary of the machine models, cabinet types, and product families th
 - [[raw/jvl_strategic_plan_and_vision_2025_2025-01-08.md]]
 - [[raw/fp-7_performance_analysis_january_13_2025.md]]
 - [[raw/james_reble_elevate_january_14_2025.md]]
+- [[raw/elevate_convo_w_scott_rambeau_january_15_2025.md]]

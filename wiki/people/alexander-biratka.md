@@ -3,7 +3,9 @@ type: person
 title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka]
-source-count: 3
+source-count: 5
+open-commitments: 1
+open-questions: 0
 ---
 
 # Alexander Biratka
@@ -18,6 +20,14 @@ Alexander Biratka (called "Sasha") is a JVL engineer, part of the Minsk engineer
 - He took the homework (with the QA team) to define which parameters QA needs when building the final ISO. [[raw/development_pipeline_january_13_2025.md]]
 - Attended the Jan 14 AI-assisted-development workshop as a participant; Aaron suggested Sasha try the AI tools on the Omni framework or LGS codebase. [[raw/ai-assisted_development_with_vs_code_git_and_mcp_january_14_2025.md]]
 
+## Build-pipeline decision meeting (Jan 15)
+
+- Sasha wrote a small script that generates a build-config file and creates an "envelope," demonstrating the Git-native approach. He agreed with the simplification ("I like any simple solutions") but asked not to hard-cap the number of build variants — add more only if needed. He also proposed the pragmatic fallback of re-attaching Jenkins on top to generate the config if all else fails. See [[wiki/decisions/2025-01-15-move-to-git-native-build-system.md]]. [[raw/parameterization_in_the_development_pipeline_part_1_january_15_2025.md]] [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]]
+
+## Open commitments
+
+- [ ] Sasha (Alexander Biratka) — write a real build-config file (game, framework, LGS, hardware abstraction layer), put it in Git, and set up a job that produces an image/archive (not a full ISO yet) — due by the next meeting (Monday) — [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]]
+
 Note: the correct surname is **Biratka** (confirmed by Val). The transcripts spell it inconsistently — mostly "Beratka", once "Biratka" — so both forms are kept as aliases for search. The transcripts also use "Sasha" as a short form, and once the garble "Pasha" appears near his name; "Pasha" is treated as Pavel elsewhere. See [[wiki/people/pavel.md]].
 
 ## Sources
@@ -25,3 +35,5 @@ Note: the correct surname is **Biratka** (confirmed by Val). The transcripts spe
 - [[raw/fp-7_performance_analysis_january_13_2025.md]]
 - [[raw/development_pipeline_january_13_2025.md]]
 - [[raw/ai-assisted_development_with_vs_code_git_and_mcp_january_14_2025.md]]
+- [[raw/parameterization_in_the_development_pipeline_part_1_january_15_2025.md]]
+- [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]]
