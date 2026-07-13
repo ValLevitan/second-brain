@@ -2,8 +2,8 @@
 type: person
 title: Jason (QA / test-automation consultant)
 date: 2025-01-15
-aliases: [Jason, test automation consultant, QA consultant]
-source-count: 1
+aliases: [Jason, Jason Welco, test automation consultant, QA consultant]
+source-count: 2
 open-commitments: 0
 open-questions: 0
 ---
@@ -12,7 +12,7 @@ open-questions: 0
 
 An outside QA / test-automation consultant Val engaged to design a testing approach for JVL. He is distinct from Aaron — he says he worked on his proposal "in consultation with Aaron" and discussed it with Aaron the prior week. He appears to be US-based (his background looked "like Arizona" and he once described a cold trip to Toronto). [[raw/integration_and_testing_procedures_january_15_2025.md]]
 
-(Name is uncertain: Val greets him once as "Mr. Jason." Recorded under that transcribed form and flagged as unclear — this is a single-source, single-mention name.) [[raw/integration_and_testing_procedures_january_15_2025.md]]
+His full name is recorded as **Jason Welco** on the Jan 21 continuous-delivery call transcript (earlier only "Mr. Jason" appeared; still worth confirming the spelling). [[raw/continues_release_infrastructure_architecture_2025-01-21 1.md]]
 
 ## Role
 
@@ -24,6 +24,12 @@ An outside QA / test-automation consultant Val engaged to design a testing appro
 
 See [[wiki/topics/test-automation-strategy.md]].
 
+## Continuous-delivery architecture call (Jan 21)
+
+- Presented (with Aaron) the end-to-end continuous-delivery picture to Val, sharing a Miro diagram he had prepared; argued the pipeline can run in several places (Bitbucket, cloud, EGM) and that JVL will want more than one target over time. See [[wiki/topics/continuous-delivery-pipeline-architecture.md]]. [[raw/continues_release_infrastructure_architecture_2025-01-21 1.md]]
+- Strongly advocated buying a real test tool (named **Tosca / SmartBear**, and a record-and-playback "WYSIWYG" wizard) so non-coding testers can author test steps, rather than relying on raw Cucumber/BDD; Val was reluctant to spend on tooling. He warned delaying testing builds up "technical debt." [[raw/continues_release_infrastructure_architecture_2025-01-21 1.md]]
+
 ## Sources
 
 - [[raw/integration_and_testing_procedures_january_15_2025.md]]
+- [[raw/continues_release_infrastructure_architecture_2025-01-21 1.md]]

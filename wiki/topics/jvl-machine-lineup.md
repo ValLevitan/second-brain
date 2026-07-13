@@ -2,8 +2,8 @@
 type: topic
 title: JVL machine and cabinet lineup
 date: 2026-07-12
-aliases: [Flex cabinets, Altera, Maple, Echo, Flex S, Flex C, cabinets, VLT, video lottery terminal, Flex SD27, V43, C10-VLOT-TERM-RU]
-source-count: 7
+aliases: [Flex cabinets, Altera, Maple, Echo, Flex S, Flex C, cabinets, VLT, video lottery terminal, Flex SD27, V43, C10-VLOT-TERM-RU, Epic 950, FutureLogic, FlexPort]
+source-count: 9
 ---
 
 # JVL machine and cabinet lineup
@@ -24,6 +24,12 @@ A running glossary of the machine models, cabinet types, and product families th
 
 - **Payment Platform** initiative: the payment **kiosk** itself; **Port**, the lighter version of the AFT; and **Pay Cloud**, what the kiosk will "morph into." Plus a **Payment Mobile Admin** application under discussion. [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]
 - **Flex Mount** and a **CPU Kit** sit under accessories; the rest is online distribution. [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]
+- **FlexPort** — a payment device that communicates with **FlexPay** and can push updates; on Jan 24 its beta was ~3 weeks out (~Feb 15 2025), to be tested with a Flex-S machine and a FlexPay kiosk assembled together. Ticket (TITO) validation is done by FlexPay: the machine reads the ticket code and passes it to FlexPay, which confirms it printed it. See [[wiki/meetings/2025-01-24-flexport-flexpay-beta.md]]. [[raw/flex_port_hardware_up-jan-24-2025.md]]
+
+## Printers
+
+- **Transact Epic 950** — the #1 printer used in the South Dakota market; JVL decided to support it. See [[wiki/decisions/2025-01-22-support-epic-950-printer-for-south-dakota.md]]. [[raw/sd_vlt_recap-jan-22-2025.md]]
+- **FutureLogic** printers — JVL's software was written for the **Gen 2**; on the Gen 5 a "void after business day" ticket-printing issue appeared that is said to be already fixed and committed, to ship in the next ISO. The market's #2 printer family is referred to as "Paycheck" / FutureLogic. Operators can choose Epic 950 or FutureLogic in the machine menu. [[raw/sd_vlt_recap-jan-22-2025.md]]
 
 ## Older machines being retrofitted (the used fleet)
 
@@ -63,3 +69,5 @@ A running glossary of the machine models, cabinet types, and product families th
 - [[raw/james_reble_elevate_january_14_2025.md]]
 - [[raw/elevate_convo_w_scott_rambeau_january_15_2025.md]]
 - [[raw/game_design_january_16_2025.md]]
+- [[raw/sd_vlt_recap-jan-22-2025.md]]
+- [[raw/flex_port_hardware_up-jan-24-2025.md]]

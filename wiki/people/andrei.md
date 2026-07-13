@@ -3,7 +3,7 @@ type: person
 title: Andrei
 date: 2026-07-12
 aliases: [Andrei, Andrey]
-source-count: 6
+source-count: 8
 ---
 
 # Andrei
@@ -25,7 +25,12 @@ Andrei (also spelled "Andrey") is a JVL engineer on the Minsk team who works on 
 - In the DevSecOps 2025-plan grooming session, Andrei (with Dima) was coached on aligning a Miro board with the Jira roadmap (initiatives → products → features) and on the ITSM model. His homework: rework the DevSecOps Jira structure to match the Miro board. See [[wiki/projects/jvl-2025-plan-and-jira-roadmap.md]]. [[raw/meeting_various-jan-20-2025.md]]
 - He described how RGS is deployed today: a Jenkins job writes a manifest YAML to a Bitbucket repo, and Argo CD in the cloud deploys the new container. [[raw/meeting_various-jan-20-2025.md]]
 
-His last name is not stated.
+## CD setup and taking on DevOps (Jan 21–22)
+
+- On the Jan 21 continuous-delivery call, Andrei was named as one of the people (with Anton and a Russian-speaking DevOps engineer) who would help stand up the "Hello World" pipeline; Aaron noted Andrei can currently run the Kubernetes setup he inherited but needs to grow into being able to build/vary it himself ("master baker"). See [[wiki/topics/continuous-delivery-pipeline-architecture.md]]. [[raw/continues_release_infrastructure_architecture_2025-01-21 1.md]]
+- On the Jan 22 Minsk IT-structure call, Aaron/Val decided to route the DevOps work to Andrei (and application-support work to Dima) and to educate Andrei on DevOps; **Andrei agreed** to take that path. See [[wiki/projects/jvl-2025-plan-and-jira-roadmap.md]]. [[raw/it_structure_minsk-jan-22-2025.md]]
+
+His last name is not stated. (Distinct from [[wiki/people/andrei-klimovich.md|Andrei Klimovich]], who runs the online-games commercial business — see Owner Decisions.)
 
 ## Sources
 
@@ -35,3 +40,5 @@ His last name is not stated.
 - [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]]
 - [[raw/github_organization-jan-20-2025.md]]
 - [[raw/meeting_various-jan-20-2025.md]]
+- [[raw/continues_release_infrastructure_architecture_2025-01-21 1.md]]
+- [[raw/it_structure_minsk-jan-22-2025.md]]

@@ -3,7 +3,7 @@ type: topic
 title: FlexPay mobile app and service advocates
 date: 2026-07-12
 aliases: [FlexPay mobile app, service advocate, service advocates, whale, whale UI, Felipe]
-source-count: 1
+source-count: 2
 ---
 
 # FlexPay mobile app and service advocates
@@ -30,6 +30,11 @@ A JVL discussion (Jan 13 2025) about a planned FlexPay mobile app and a new user
 
 Unclear: "whale" (appears as "whale"/"wial") — a tool or profile system JVL uses; and whether the "Igor" it was "too early" to involve on the UI is the same Igor who handles Puerto Rico setup. Flagged.
 
+## Note: FlexPay the payment product vs. the mobile app
+
+The **FlexPay** payment product itself is confirmed progressing — the Jan 24 2025 call put the related **FlexPort** device's beta ~3 weeks out and described FlexPay validating tickets. That hardware is documented in [[wiki/topics/jvl-machine-lineup.md]]. However, the **mobile app** and the **service-advocate persona** that this page is about remain **single-source** (Jan 13) and stay FLAGGED until a second source confirms them. [[raw/flex_port_hardware_up-jan-24-2025.md]]
+
 ## Sources
 
 - [[raw/mobile_app_advocate_persona_profile_january_13_2025.md]]
+- [[raw/flex_port_hardware_up-jan-24-2025.md]]

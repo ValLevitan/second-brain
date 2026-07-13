@@ -2,8 +2,8 @@
 type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
-aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anton]
-source-count: 3
+aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross]
+source-count: 4
 ---
 
 # AI-assisted development adoption
@@ -29,11 +29,16 @@ JVL's push to get its engineers using AI coding tools. Aaron led a hands-on work
 - Val wants a **leader** on MCP/AI tooling — someone who learns it better than Aaron and leads JVL there, with financial reward for whoever takes it on. [[raw/ai-assisted_development_with_vs_code_git_and_mcp_january_14_2025.md]]
 - Cost model: competent AI use could save at least ~20 hours/month per developer; across 10 developers that's ~2,000 hours/year — roughly one employee. JVL frames this as scale-up capacity, not headcount cuts. Val said he personally dropped a personal assistant and a receptionist by being more efficient. [[raw/ai-assisted_development_with_vs_code_git_and_mcp_january_14_2025.md]]
 - Homework: don't commit AI-generated code to the real codebase yet — instead use the tools to read/explore a familiar codebase (Sasha → Omni framework / LGS, Anton → RGS, Andrei → build/Kubernetes scripts) and produce a `docs/` folder documenting it. A follow-up MCP session was offered. [[raw/ai-assisted_development_with_vs_code_git_and_mcp_january_14_2025.md]]
-- Participants included **Anton** (JVL Minsk engineer), whose repo access worked throughout the session and who received an OpenRouter API key from Andrei; Aaron suggested he try the tools on the RGS codebase. His last name is not stated. [[raw/ai-assisted_development_with_vs_code_git_and_mcp_january_14_2025.md]]
+- Participants included **Anton** ([[wiki/people/anton-leshkevich.md|Anton Leshkevich]], JVL Minsk engineer), whose repo access worked throughout the session and who received an OpenRouter API key from Andrei; Aaron suggested he try the tools on the RGS codebase. [[raw/ai-assisted_development_with_vs_code_git_and_mcp_january_14_2025.md]]
 
 ## Val's personal knowledge-base method (Jan 20)
 
 Coaching Andrei, Val described the workflow he uses himself and wants his managers to adopt: record every meeting (any language — ChatGPT moves between Russian/English easily), turn it into a transcript, feed it to ChatGPT, have it summarize and propose a title and ~20 tags, pick the tags to use, tell it to update memory, and derive a taxonomy — then circulate the conversation. This lets someone with limited English/vocabulary produce a correct taxonomy through dialogue with the AI. Val frames refusing to adopt these tools as a 1990s "knowledge-tribune" mindset he will progressively replace. Aaron separately demoed using Claude prompt styles ("explanatory", "intellectual dissector") to draft and critique JIRA features — see the DTP-53 section of [[wiki/topics/build-pipeline-parameterization.md]]. [[raw/github_organization-jan-20-2025.md]]
+
+## AI in the CD pipeline and a data project (Jan 21 / Jan 30)
+
+- On the Jan 21 continuous-delivery call, Aaron demoed generating Terraform, a Docker file and even tests for a "Hello World" AWS deployment using AI (Claude / Anthropic under the hood), arguing it lets JVL reach a first result in ~a day. See [[wiki/topics/continuous-delivery-pipeline-architecture.md]]. [[raw/continues_release_infrastructure_architecture_2025-01-21 1.md]]
+- On the Jan 30 recap, Andrei Klimovich raised a data-collection MVP ("Norcross"/"North Cross") that would use Anthropic; a candidate developer (Sergei) and a Minsk studio (€40/hr) were both interested in learning Anthropic. Val said he does not want to pay for anyone's Anthropic learning curve. See [[wiki/people/andrei-klimovich.md]] (and Owner Decisions on Sergei). [[raw/Recap with Andrei Klimovich - January 30, 2025.md]]
 
 ## Connection to the pipeline debate
 
@@ -44,3 +49,5 @@ Coaching Andrei, Val described the workflow he uses himself and wants his manage
 - [[raw/ai-assisted_development_with_vs_code_git_and_mcp_january_14_2025.md]]
 - [[raw/development_pipeline_january_13_2025.md]]
 - [[raw/github_organization-jan-20-2025.md]]
+- [[raw/continues_release_infrastructure_architecture_2025-01-21 1.md]]
+- [[raw/Recap with Andrei Klimovich - January 30, 2025.md]]

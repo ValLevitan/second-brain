@@ -2,8 +2,8 @@
 type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
-aliases: [test automation, testing architecture, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing]
-source-count: 2
+aliases: [test automation, testing architecture, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca]
+source-count: 3
 open-commitments: 2
 open-questions: 1
 ---
@@ -68,6 +68,16 @@ Val questioned a JVL technical colleague (speaker identity unclear) to pin down 
 - **Prior work reference:** Lyuba Volodko previously wrote tests using **Selenium** (a Java library) against a deployed CMS environment — the same kind of thing Catalon abstracts. (Single mention; no page yet — see Owner Decisions.) [[raw/test_automation_philosophy-jan-20-2025.md]]
 - Aim over time: a **library of building blocks** from which non-programmer testers assemble test cases, with harder cases written directly in code. [[raw/test_automation_philosophy-jan-20-2025.md]]
 
+## The standalone test tool (Jan 21)
+
+On the Jan 21 continuous-delivery call, Val asked for the QA/GLI test tool to be treated as a separate effort from the CD pipeline. The MVP of the tool, as Anton described it, is three blocks: [[raw/continues_release_infrastructure_architecture_2025-01-21 1.md]]
+
+- **Test management** — store and organise test cases.
+- **Test authoring** — build test cases without scripting (or with it).
+- **Test runner** — run the cases against a freshly deployed environment and produce results; later upload results back to X-Ray / Jira.
+
+Val asked that the **math test** be the first test built, since GLI spends most of its time checking math (see [[wiki/topics/gli-certification-bottleneck.md]]). Jason argued for buying a real test tool (named **Tosca / SmartBear**, and a record-and-playback "WYSIWYG" wizard) so non-coding testers can author steps, warning that raw Cucumber/BDD "turns into goo"; Aaron reframed it as **"not a tool but a solution — a series of tools"** used in the right stages. The testing pyramid (unit → component → integration → end-to-end, with ITL/GLI on top) and where each layer runs is detailed on [[wiki/topics/continuous-delivery-pipeline-architecture.md]]. Val stayed reluctant to spend on tooling. [[raw/continues_release_infrastructure_architecture_2025-01-21 1.md]]
+
 ## Open commitments
 
 - [ ] Val — set up a ~2-hour testing-architecture meeting with Pavel, Irina, Anton and Aaron — due next week (of Jan 15) — [[raw/integration_and_testing_procedures_january_15_2025.md]]
@@ -81,3 +91,4 @@ Val questioned a JVL technical colleague (speaker identity unclear) to pin down 
 
 - [[raw/integration_and_testing_procedures_january_15_2025.md]]
 - [[raw/test_automation_philosophy-jan-20-2025.md]]
+- [[raw/continues_release_infrastructure_architecture_2025-01-21 1.md]]

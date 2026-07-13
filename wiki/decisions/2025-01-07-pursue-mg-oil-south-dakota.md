@@ -27,6 +27,10 @@ JVL will meet with MG Oil to pursue the South Dakota route-machine opportunity. 
 
 - Separately, Aaron confirmed he will still go out to get the machine up and running in the lab on the 16th of the month. [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]
 
+## Follow-through
+
+- This opportunity became the broader South Dakota VLT market-entry effort; by Jan 22 JVL was in lab testing with the South Dakota lottery. See [[wiki/projects/south-dakota-vlt-market.md]].
+
 ## Sources
 
 - [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]

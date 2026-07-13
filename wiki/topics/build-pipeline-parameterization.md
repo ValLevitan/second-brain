@@ -3,7 +3,7 @@ type: topic
 title: Build pipeline and ISO parameterization
 date: 2026-07-12
 aliases: [build pipeline, ISO parameterization, Jenkins debate, devops pipeline, DTP-53, DTP 53]
-source-count: 7
+source-count: 8
 open-commitments: 2
 open-questions: 1
 ---
@@ -11,6 +11,8 @@ open-questions: 1
 # Build pipeline and ISO parameterization
 
 An ongoing JVL engineering debate about how to build the game "ISO image" in a flexible way — letting a user pick which games, library versions, LGS/Math versions, etc. go into a build. It is the recurring sticking point (item "2.3") carried over from a December 20 2024 meeting into the Jan 13 2025 call.
+
+> The Jan 21 2025 continuous-delivery call took this further into a full pipeline architecture — the three-layer "everything as code" model (product / environment / platform repos plus an integrator) and the "Hello World first" MVP step. See [[wiki/topics/continuous-delivery-pipeline-architecture.md]] and [[wiki/decisions/2025-01-21-build-git-native-hello-world-environment-first.md]]. [[raw/continues_release_infrastructure_architecture_2025-01-21 1.md]]
 
 ## The core problem
 
@@ -73,3 +75,4 @@ The build-system work is now tracked as JIRA feature **DTP-53** (under "DevOps t
 - [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]]
 - [[raw/dtp-53_feature_planning_meeting_january_16_2025.md]]
 - [[raw/dtp-53_action_builder_pipeline_definition_of_features_january_17_2025.md]]
+- [[raw/continues_release_infrastructure_architecture_2025-01-21 1.md]]

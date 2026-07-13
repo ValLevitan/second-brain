@@ -3,7 +3,7 @@ type: project
 title: JVL 2025 strategic plan and Jira roadmap
 date: 2026-07-12
 aliases: [2025 plan, strategic plan 2025, Jira value stream, distribution infrastructure, DevSecOps grooming, ITSM]
-source-count: 6
+source-count: 7
 open-commitments: 1
 ---
 
@@ -49,6 +49,10 @@ Two Jan 20 sessions moved the DevSecOps pillar from strategy into concrete tool 
   - **Change management:** "if it works, don't touch it" — track every change; DevSecOps holds the authority to promote to production and must prove a change works before promoting it. Teams can do what they want in dev/staging. [[raw/meeting_various-jan-20-2025.md]]
   - **Products named:** RGS (runs on AWS; deployed via a Jenkins job that writes a manifest YAML to a Bitbucket repo, which Argo CD then deploys), LGS, the CMS website; plus containers/Docker and "cloud fabric" (Kubernetes), Hyper-V, EC2, Azure as infrastructure. A product's dependencies (platform, identity, containers) cross-cut all the initiatives. [[raw/meeting_various-jan-20-2025.md]]
 
+## Minsk IT-structure follow-through (Jan 22)
+
+- A short Jan 22 call turned the DevSecOps grooming into a work split: convert the Miro board into initiatives/products for the Jira plans view; **Andrei** takes the DevOps work (and will be educated on DevOps, which he agreed to), while **Dima** takes application-support/install-and-configure work. Aaron acknowledged a reminder placed in the middle of the Miro board. See [[wiki/meetings/2025-01-22-minsk-it-structure.md]]. (Whether "Dima" is [[wiki/people/dmitry-khandov.md|Dmitry Khandov]] is unconfirmed — see Owner Decisions.) [[raw/it_structure_minsk-jan-22-2025.md]]
+
 ## Open commitments
 
 - [ ] Andrei — rework the DevSecOps initiatives/products in Jira to align with the Miro board (rename initiatives + descriptions, create initiative and product cards, every Miro card = a Jira issue); demo a small slice at a Wednesday check-in — due Friday (with Wednesday check-in) — [[raw/meeting_various-jan-20-2025.md]]
@@ -61,3 +65,4 @@ Two Jan 20 sessions moved the DevSecOps pillar from strategy into concrete tool 
 - [[raw/ai-assisted_development_with_vs_code_git_and_mcp_january_14_2025.md]]
 - [[raw/github_organization-jan-20-2025.md]]
 - [[raw/meeting_various-jan-20-2025.md]]
+- [[raw/it_structure_minsk-jan-22-2025.md]]

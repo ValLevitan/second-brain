@@ -3,7 +3,7 @@ type: person
 title: Irina Makarych
 date: 2025-01-15
 aliases: [Irina Makarych, Irina, Irina Makarich]
-source-count: 2
+source-count: 3
 open-commitments: 0
 open-questions: 0
 ---
@@ -21,7 +21,10 @@ Irina Makarych is a JVL programmer on the Minsk side, described as relatively ju
 
 See [[wiki/topics/build-pipeline-parameterization.md]] and [[wiki/topics/test-automation-strategy.md]].
 
+- On the Jan 22 South Dakota recap, the FutureLogic Gen 2 printer was said to have been tested "per Pavel and Irina" (i.e. Irina was involved in the Minsk printer testing), though Juan had not personally tested Gen 2 in the lab. See [[wiki/projects/south-dakota-vlt-market.md]]. [[raw/sd_vlt_recap-jan-22-2025.md]]
+
 ## Sources
 
 - [[raw/integration_and_testing_procedures_january_15_2025.md]]
 - [[raw/parameterization_in_the_development_pipeline_part_3_january_15_2025.md]]
+- [[raw/sd_vlt_recap-jan-22-2025.md]]

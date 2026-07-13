@@ -2,8 +2,8 @@
 type: topic
 title: GLI certification cost and speed (the scaling bottleneck)
 date: 2026-07-12
-aliases: [game certification, GLI approval, math testing, GLI automation]
-source-count: 3
+aliases: [game certification, GLI approval, math testing, GLI automation, RiskCherry, certification cost]
+source-count: 4
 ---
 
 # GLI certification cost and speed (the scaling bottleneck)
@@ -39,8 +39,14 @@ Getting each game approved by the testing lab GLI is slow and expensive. Val see
 
 - Under the new build system, JVL plans to submit a **non-instrumented** build to GLI plus a documented procedure for installing the instrumentation — so GLI can do a lighter review and inspect the instrumentation only if it wishes. See [[wiki/decisions/2025-01-15-reduce-build-variants-with-post-build-instrumentation.md]]. [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]]
 
+## Alternative labs and certification economics (Jan 30, online games)
+
+- **RiskCherry** — an alternative certification lab evaluated for the online-games side. Its total cost came out about the same as GLI (slightly cheaper); its pitch is speed — ~2 weeks for a pack of 10 games versus GLI's ~3. Val's takeaway: certification prices are just "what the market is" right now. [[raw/Recap with Andrei Klimovich - January 30, 2025.md]]
+- **Val's payback rule:** a per-game certification spend (~$2,500/game for online) must pay back in ~3–5 months, not a year; because cert cost can't be spread across other markets, it must be recovered from that one game in that one market — driving the push to re-negotiate revenue share (~5% up toward 8–10%) in regulated markets. See [[wiki/topics/online-games-rgs-distribution.md]]. [[raw/Recap with Andrei Klimovich - January 30, 2025.md]]
+
 ## Sources
 
 - [[raw/gli_visit-jan-7-2025.md]]
 - [[raw/jvl_strategic_plan_and_vision_2025_2025-01-08.md]]
 - [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]]
+- [[raw/Recap with Andrei Klimovich - January 30, 2025.md]]

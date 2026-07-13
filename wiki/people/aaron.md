@@ -2,8 +2,8 @@
 type: person
 title: Aaron
 date: 2026-07-12
-aliases: [Aaron, Aron, Erin, Eric]
-source-count: 10
+aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie]
+source-count: 12
 ---
 
 # Aaron
@@ -38,7 +38,12 @@ Aaron works with Val on JVL's product roadmap and Jira planning, and leads JVL's
 - **FP7 bottleneck testing (Jan 17):** attended and helped drive the bottleneck questioning; Val repeatedly held Aaron up as the model of pushing him hard without worrying about his feelings. [[raw/fr-7_identifying_bottlenecks_in_performance_during_testing_january_17_2025.md]]
 - **GitHub org structure + DevSecOps grooming (Jan 20):** co-coached Andrei with Val on GitHub organization structure and on aligning a Miro board with the Jira roadmap plus the ITSM operating model. See [[wiki/decisions/2025-01-20-github-orgs-mirror-value-streams.md]] and [[wiki/projects/jvl-2025-plan-and-jira-roadmap.md]]. [[raw/github_organization-jan-20-2025.md]] [[raw/meeting_various-jan-20-2025.md]]
 
-His last name is not stated. (May appear elsewhere transcribed as "Aron," "Erin," or "Eric.")
+His surname is given as **Bockelie** on the Jan 21 continuous-delivery transcript. (First name may appear elsewhere transcribed as "Aron," "Erin," or "Eric.") [[raw/continues_release_infrastructure_architecture_2025-01-21 1.md]]
+
+## Continuous-delivery architecture and Minsk IT structure (Jan 21–22)
+
+- **CD architecture (Jan 21):** with Jason, walked Val through the three-layer "everything as code" pipeline (product / environment / platform repos plus an integrator), the testing pyramid, and containers-over-disk-images; drove the group to the MVP "Hello World first" step. See [[wiki/topics/continuous-delivery-pipeline-architecture.md]] and [[wiki/decisions/2025-01-21-build-git-native-hello-world-environment-first.md]]. [[raw/continues_release_infrastructure_architecture_2025-01-21 1.md]]
+- **Minsk IT structure (Jan 22):** in a short planning call, agreed to convert the Miro board into Jira initiatives/products, shift application-support work to Dima and DevOps work to Andrei, and educate Andrei on DevOps (Andrei agreed). See [[wiki/projects/jvl-2025-plan-and-jira-roadmap.md]]. [[raw/it_structure_minsk-jan-22-2025.md]]
 
 ## Sources
 
@@ -52,3 +57,5 @@ His last name is not stated. (May appear elsewhere transcribed as "Aron," "Erin,
 - [[raw/fr-7_identifying_bottlenecks_in_performance_during_testing_january_17_2025.md]]
 - [[raw/github_organization-jan-20-2025.md]]
 - [[raw/meeting_various-jan-20-2025.md]]
+- [[raw/continues_release_infrastructure_architecture_2025-01-21 1.md]]
+- [[raw/it_structure_minsk-jan-22-2025.md]]
