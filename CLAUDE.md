@@ -97,7 +97,7 @@ Frontmatter enables Obsidian Dataview tables. Keep `source-count` current. Keep 
 
 1. List raw files not yet recorded as ingested in `log.md`. A source whose content has **changed** since it was last ingested (compare by content hash) counts as new — re-ingest it and note the re-ingest.
 2. Apply de-dup / conversion (Section 12) if needed.
-3. Write a `## [date] ingest | batch N started` line to `log.md`. **Before writing any pages, verify the qmd index is fresh** (`qmd status` — it must reflect the last completed batch; re-index if stale). A stale index makes search-before-create miss existing pages and silently create duplicates.
+3. Write a `## [date] ingest | batch N started` line to `log.md`. **Before writing any pages, run `qmd update` unconditionally** (no freshness check first — just run it). A stale index makes search-before-create miss existing pages and silently create duplicates; running it every time is cheap and removes the judgment call.
 4. Read the batch (process **oldest source date first** — chronological, from 2025-01-01 forward).
 5. For each source: identify entities, decisions, topics → **update existing pages or create new ones** (Sections 3–6). Update-vs-create heuristic: *new page* if it's a distinct entity you'd link to from elsewhere; *edit in place* if it's an attribute or update of an existing entity.
    - **Separation of writer and verifier (standard pattern):** delegate the page-writing for each batch to a subagent that reads `CLAUDE.md` and the raw batch files itself. The main context then performs step 7's verification — it must not verify pages it wrote. If subagent delegation is unavailable, fall back to verifying in a fresh session, and say so in the log entry.
@@ -105,7 +105,7 @@ Frontmatter enables Obsidian Dataview tables. Keep `source-count` current. Keep 
 6. Update `index.md` (Section 7).
 7. **Verification:** check 10 random facts against their cited raw sources — by a context that did not write the pages (see the writer/verifier rule above). **≥9/10 verbatim-supported = pass.** Below that, **halt: do not start the next batch until the owner is notified.** Record the result in `log.md`.
 8. Write `## [date] ingest | batch N completed` to `log.md` with the summary + verification result.
-9. **Re-index qmd** over the wiki (Section 14) so the next batch's search-before-create sees this batch's new pages. Confirm with `qmd status`.
+9. **Run `qmd update` unconditionally** over the wiki (Section 14) so the next batch's search-before-create sees this batch's new pages, then `qmd embed` to refresh vectors. Confirm with `qmd status`.
 10. Commit to git: `ingest: batch N, YYYY-MM, K files`.
 
 The started/completed pair makes a mid-batch crash recoverable: on restart, any batch with "started" but no "completed" is incomplete. **Before re-running it, `git reset --hard` to the commit immediately *before* that batch's `started` entry** — i.e. the last commit made before the crashed batch began, which may itself be a `lint`, `schema`, or `query` commit, not necessarily the previous ingest batch. This discards only the half-applied batch while preserving any legitimate non-ingest commits that landed after the last batch. Then re-run from the batch's file list. (This is the only sanctioned hard reset — it only ever discards an unfinished batch. Confirm the target with `git log --oneline` and verify `raw/` is unchanged after the reset.)
