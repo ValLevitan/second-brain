@@ -3,7 +3,7 @@ type: topic
 title: JVL machine and cabinet lineup
 date: 2026-07-12
 aliases: [Flex cabinets, Altera, Maple, Echo, Flex S, Flex C, cabinets, VLT, video lottery terminal, Flex SD27, V43, C10-VLOT-TERM-RU]
-source-count: 6
+source-count: 7
 ---
 
 # JVL machine and cabinet lineup
@@ -36,6 +36,13 @@ A running glossary of the machine models, cabinet types, and product families th
 
 - **Fortune Fu Paws** series (also "Fortune full pause"/"future full pause"/"FuPos" in the audio transcripts) — a modular game series used to spawn market-specific variants quickly. Targeted for Class 3 Florida market, on the Omni platform, to be in the lab by June and market by September. It has heavy simultaneous on-screen action (objects, "cats," sparkles), which is what stresses the hardware. [[raw/jvl_strategic_plan_and_vision_2025_2025-01-08.md]] [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]] [[raw/fp-7_performance_analysis_january_13_2025.md]]
 - HHR games, Florida Market Games, and a "Peach1234" release are named in the 2025 roadmap. [[raw/jvl_strategic_plan_and_vision_2025_2025-01-08.md]] [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]
+- **Games in production (Jan 16 design review):** [[raw/game_design_january_16_2025.md]]
+  - **Rodeo** ("Rodeo Clean") — a country-music-themed slot; the free-spins music was praised as an "earworm," with expanding wilds and a girl/flag/horseshoe animation. Composed with an outside music partner.
+  - **Crescent City Carnival** — Val and Juan agreed to give the woman character "nondescript ethnicity" (Cuban/Puerto Rican/exotic) so games reflect the diverse Florida market.
+  - **Roger Green** — a game looking "really good," reviewed alongside Crescent City Carnival.
+  - **Fortune Football** — the next big game to move the whole team onto; needs a new dashboard, new system-framework messages, a gambling feature and a "local" (fractional-bet) feature; production being planned as a block diagram of milestones in the new Omni workflow.
+  - **The "fat cat" / mannequin-cat persistence game** — a perceived-persistence game whose core hook is inflating a cat across ~10 states; the design must tune how much the cat inflates per hit (Goldilocks: noticeable but leaving runway) and the ratio of false hits to real hits (e.g. ~9 false to 1 real). Math is easy to change but animation states must not paint the design into a corner. **Progressive-in-game gambling** is wanted eventually in this framework but deferred to save time. [[raw/game_design_january_16_2025.md]]
+  - **Coin Trio** — referenced as a competitor/reference game whose bonus-coin distribution JVL is interpolating from. [[raw/game_design_january_16_2025.md]]
 
 ## Screens, formats, and game-build terms
 
@@ -55,3 +62,4 @@ A running glossary of the machine models, cabinet types, and product families th
 - [[raw/fp-7_performance_analysis_january_13_2025.md]]
 - [[raw/james_reble_elevate_january_14_2025.md]]
 - [[raw/elevate_convo_w_scott_rambeau_january_15_2025.md]]
+- [[raw/game_design_january_16_2025.md]]

@@ -2,9 +2,9 @@
 type: topic
 title: Build pipeline and ISO parameterization
 date: 2026-07-12
-aliases: [build pipeline, ISO parameterization, Jenkins debate, devops pipeline]
-source-count: 5
-open-commitments: 1
+aliases: [build pipeline, ISO parameterization, Jenkins debate, devops pipeline, DTP-53, DTP 53]
+source-count: 7
+open-commitments: 2
 open-questions: 1
 ---
 
@@ -41,9 +41,17 @@ A key insight from the meeting: JVL's sprawling Jenkins build parameters had eff
 
 The work is to be tracked as JIRA features on the engineering board (under "IP-767 production services" / the DTP DevOps project), treated as a high-ranking backlog item in a two-week sprint rather than an ad-hoc side project. [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]]
 
+## DTP-53 feature (the Git-native pipeline as a JIRA feature)
+
+The build-system work is now tracked as JIRA feature **DTP-53** (under "DevOps tools and processes"), the follow-through on the Jan 15 commitment to break the work into features. Two planning sessions, Aaron coaching Pavel: [[raw/dtp-53_feature_planning_meeting_january_16_2025.md]] [[raw/dtp-53_action_builder_pipeline_definition_of_features_january_17_2025.md]]
+
+- **Jan 16 (planning):** DTP-53's business value is to switch from Jenkins to a Git-native pipeline — improving build reliability, reducing overhead, enabling better test automation, and reducing build complexity. Pavel's first insight was that there are **several separate pipelines** (each model gets its own simple pipeline with minor parameters); Aaron, playing "Scrum Master," treated "several pipelines" as the first stories and had Pavel list them on a Miro board. [[raw/dtp-53_feature_planning_meeting_january_16_2025.md]]
+- **Jan 17 (feature definition):** Aaron pushed Pavel to write **features from the customer's perspective**, not user stories from his own — a feature must describe capabilities, customer, purpose and business value so another engineer can build it. Named pipeline modules: an **installer pipeline** (top layer, builds installable USB/ISO images from OS + application + config), **long-term artifact storage** (secure storage with metadata, access control, retention/purge, and integration — treated as an architectural design, not just a JIRA issue), and **GitHub configuration**. Aaron demoed using Claude with "explanatory" and "intellectual dissector" prompt styles to draft and critique the feature, but warned against over-reliance on AI ("regular old brains" first). Guidance: keep features **traceable and documented in Git** (markdown docs in the repo, JIRA reference in commits) so they evolve with the feature over years. [[raw/dtp-53_action_builder_pipeline_definition_of_features_january_17_2025.md]]
+
 ## Open commitments
 
-- [ ] Aaron (with Pavel) — break the build-system work out into JIRA features on the board and rank it in the sprint backlog — due unspecified — [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]]
+- [ ] Aaron (with Pavel) — break the build-system work out into JIRA features on the board and rank it in the sprint backlog — due unspecified — [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]] (in progress: now tracked as JIRA feature DTP-53 [[raw/dtp-53_feature_planning_meeting_january_16_2025.md]])
+- [ ] Pavel — rewrite the DTP-53 pipeline modules as proper feature descriptions (reverse-engineer the existing user stories back into features), documented Git-natively — due Wednesday (~Jan 22), reviewed at a team meeting Aaron will set for 9am — [[raw/dtp-53_action_builder_pipeline_definition_of_features_january_17_2025.md]]
 
 (Two more build commitments from this meeting are tracked on their owners' pages: Sasha's build-config file [[wiki/people/alexander-biratka.md]] and Pavel's module image files [[wiki/people/pavel.md]].)
 
@@ -63,3 +71,5 @@ The work is to be tracked as JIRA features on the engineering board (under "IP-7
 - [[raw/parameterization_in_the_development_pipeline_part_2_january_15_2025.md]]
 - [[raw/parameterization_in_the_development_pipeline_part_3_january_15_2025.md]]
 - [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]]
+- [[raw/dtp-53_feature_planning_meeting_january_16_2025.md]]
+- [[raw/dtp-53_action_builder_pipeline_definition_of_features_january_17_2025.md]]

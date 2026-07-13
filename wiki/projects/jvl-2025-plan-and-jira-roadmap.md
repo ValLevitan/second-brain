@@ -2,8 +2,9 @@
 type: project
 title: JVL 2025 strategic plan and Jira roadmap
 date: 2026-07-12
-aliases: [2025 plan, strategic plan 2025, Jira value stream, distribution infrastructure]
-source-count: 4
+aliases: [2025 plan, strategic plan 2025, Jira value stream, distribution infrastructure, DevSecOps grooming, ITSM]
+source-count: 6
+open-commitments: 1
 ---
 
 # JVL 2025 strategic plan and Jira roadmap
@@ -38,9 +39,25 @@ JVL's plan for 2025, both as a written executive strategy and as the Jira struct
 - The Jan 13 development-pipeline meeting is the DevSecOps pillar in action: the debate over how to build the Omni-platform ISO image flexibly (Jenkins vs. a Git-native pipeline). See [[wiki/topics/build-pipeline-parameterization.md]]. [[raw/development_pipeline_january_13_2025.md]]
 - The Jan 14 AI-development workshop advances the same modernization: getting engineers onto Git-native, AI-assisted tooling, which Val ties directly to the pipeline goal and to scaling the company. See [[wiki/topics/ai-assisted-development.md]]. [[raw/ai-assisted_development_with_vs_code_git_and_mcp_january_14_2025.md]]
 
+## DevSecOps pillar execution (Jan 20)
+
+Two Jan 20 sessions moved the DevSecOps pillar from strategy into concrete tool structure, with Val and Aaron coaching Andrei:
+
+- **GitHub organization structure** — orgs mirror the value streams (Game Dev, Core Technology, Distribution, DevSecOps); Andrei owns DevSecOps and lets teams create their own repos. See [[wiki/decisions/2025-01-20-github-orgs-mirror-value-streams.md]]. [[raw/github_organization-jan-20-2025.md]]
+- **Miro ↔ Jira alignment + ITSM model** — the DevSecOps 2025-plan grooming session. Val and Aaron taught Andrei to structure the portfolio as **initiatives → products → features** in Jira, mirrored on a Miro board, and that every Miro card must map to a Jira issue. Key reframing: things like GitHub/Bitbucket/SVN are **products** (too big to be features) inside initiatives such as pipeline automation, infrastructure & network services, identity, ERP, AI/ML, data & analytics, etc. [[raw/meeting_various-jan-20-2025.md]]
+  - **ITSM three pillars taught:** (1) **Jira Service Management** = customer requests (a Jira project type, not shown on the team's timeline); (2) **Jira issues / operations** = the change and task work; (3) **asset/CMDB database** (the "Assos" / Azure asset DB) = tracking objects. Nothing is created automatically from a request — someone decides what work (change/task) it becomes. [[raw/meeting_various-jan-20-2025.md]]
+  - **Change management:** "if it works, don't touch it" — track every change; DevSecOps holds the authority to promote to production and must prove a change works before promoting it. Teams can do what they want in dev/staging. [[raw/meeting_various-jan-20-2025.md]]
+  - **Products named:** RGS (runs on AWS; deployed via a Jenkins job that writes a manifest YAML to a Bitbucket repo, which Argo CD then deploys), LGS, the CMS website; plus containers/Docker and "cloud fabric" (Kubernetes), Hyper-V, EC2, Azure as infrastructure. A product's dependencies (platform, identity, containers) cross-cut all the initiatives. [[raw/meeting_various-jan-20-2025.md]]
+
+## Open commitments
+
+- [ ] Andrei — rework the DevSecOps initiatives/products in Jira to align with the Miro board (rename initiatives + descriptions, create initiative and product cards, every Miro card = a Jira issue); demo a small slice at a Wednesday check-in — due Friday (with Wednesday check-in) — [[raw/meeting_various-jan-20-2025.md]]
+
 ## Sources
 
 - [[raw/jvl_strategic_plan_and_vision_2025_2025-01-08.md]]
 - [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]
 - [[raw/development_pipeline_january_13_2025.md]]
 - [[raw/ai-assisted_development_with_vs_code_git_and_mcp_january_14_2025.md]]
+- [[raw/github_organization-jan-20-2025.md]]
+- [[raw/meeting_various-jan-20-2025.md]]

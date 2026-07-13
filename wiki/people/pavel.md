@@ -2,15 +2,15 @@
 type: person
 title: Pavel
 date: 2026-07-12
-aliases: [Pavel, Pasha]
-source-count: 5
+aliases: [Pavel, Pasha, Pavel Frolov]
+source-count: 8
 open-commitments: 1
 open-questions: 0
 ---
 
 # Pavel
 
-Pavel (called "Pasha") is a JVL engineer on the Minsk team who works on system/driver and pipeline matters.
+Pavel (called "Pasha") is a JVL engineer on the Minsk team who works on system/driver and pipeline matters. On the Jan 17 DTP-53 call Aaron refers to him as an **engineering director** whose job is now to write specifications, not code. [[raw/dtp-53_action_builder_pipeline_definition_of_features_january_17_2025.md]]
 
 ## Role
 
@@ -24,11 +24,16 @@ Pavel (called "Pasha") is a JVL engineer on the Minsk team who works on system/d
 - Pavel agreed with (and helped shape) the move to a Git-native build system. His key requirement: any build's config must be saved in Git so a shipped production build can later be rebuilt — e.g. as a debug build to investigate a problem. He argued games should be Docker volumes (mounted), not standalone images, to avoid overhead. [[raw/parameterization_in_the_development_pipeline_part_2_january_15_2025.md]] [[raw/parameterization_in_the_development_pipeline_part_3_january_15_2025.md]]
 - Pavel favours submitting a non-instrumented build to GLI plus a procedure to install the instrumentation. [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]]
 
+## DTP-53 feature and FP7 testing (Jan 16–17)
+
+- **DTP-53 (Jan 16–17):** Pavel owns the Git-native pipeline work as JIRA feature DTP-53. He first framed it as several separate per-model pipelines; Aaron then coached him to write proper customer-focused feature descriptions (installer pipeline, long-term artifact storage, GitHub configuration). His homework is to rewrite them as features (see the commitment on [[wiki/topics/build-pipeline-parameterization.md]]). [[raw/dtp-53_feature_planning_meeting_january_16_2025.md]] [[raw/dtp-53_action_builder_pipeline_definition_of_features_january_17_2025.md]]
+- **FP7 bottleneck testing (Jan 17):** with Alexander, ran the deeper video-stream tests, translated between the Russian- and English-speakers, and concluded the bottleneck is the CPU. Pavel argued the key question is *where* the bottleneck is, and pushed to switch to the new Pixi engine version and to define which Omni components need continuous updates. His undertaking: check for a better Linux driver and revisit the Omni architecture (see [[wiki/decisions/2025-01-17-remain-on-fp7-hardware-ceiling.md]]). [[raw/fr-7_identifying_bottlenecks_in_performance_during_testing_january_17_2025.md]]
+
 ## Open commitments
 
 - [ ] Pavel — produce image files (e.g. an ext2/ext4 partition or a Docker/Docker-Compose image) that collect the modules for local deployment; full ISO assembly deferred to a later milestone — due by the next meeting (Monday) — [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]]
 
-Note: "Pasha" and "Sasha" are sometimes confused in the transcripts; "Pasha" maps here to Pavel, "Sasha" to Alexander Biratka. See [[wiki/people/alexander-biratka.md]]. His last name is not stated.
+Note: "Pasha" and "Sasha" are sometimes confused in the transcripts; "Pasha" maps here to Pavel, "Sasha" to Alexander Biratka. See [[wiki/people/alexander-biratka.md]]. His surname is given once as **"Frolov"** in the Jan 17 FP7 meeting ("Pavel Frolov has to see if there is a better Linux driver"). [[raw/fr-7_identifying_bottlenecks_in_performance_during_testing_january_17_2025.md]]
 
 ## Sources
 
@@ -37,3 +42,6 @@ Note: "Pasha" and "Sasha" are sometimes confused in the transcripts; "Pasha" map
 - [[raw/parameterization_in_the_development_pipeline_part_2_january_15_2025.md]]
 - [[raw/parameterization_in_the_development_pipeline_part_3_january_15_2025.md]]
 - [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]]
+- [[raw/dtp-53_feature_planning_meeting_january_16_2025.md]]
+- [[raw/dtp-53_action_builder_pipeline_definition_of_features_january_17_2025.md]]
+- [[raw/fr-7_identifying_bottlenecks_in_performance_during_testing_january_17_2025.md]]

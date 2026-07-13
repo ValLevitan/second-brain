@@ -2,9 +2,9 @@
 type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
-aliases: [test automation, testing architecture, QA automation, shift-left testing, proof of concept testing]
-source-count: 1
-open-commitments: 1
+aliases: [test automation, testing architecture, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing]
+source-count: 2
+open-commitments: 2
 open-questions: 1
 ---
 
@@ -48,9 +48,30 @@ Val declined to add more goals or more wording, wanting the objective kept tight
 - Val decided JVL will **not buy any testing tool this year**. See [[wiki/decisions/2025-01-15-defer-test-tool-purchases.md]]. [[raw/integration_and_testing_procedures_january_15_2025.md]]
 - Val wants to "nail the architecture of testing" (both technical and process) first, via a dedicated ~2-hour meeting with Pavel, Irina, Anton and Aaron. [[raw/integration_and_testing_procedures_january_15_2025.md]]
 
+## Test types clarified (Jan 20 philosophy discussion)
+
+Val questioned a JVL technical colleague (speaker identity unclear) to pin down what "automation testing" actually means. The distinctions drawn: [[raw/test_automation_philosophy-jan-20-2025.md]]
+
+- **Unit tests** — test small pieces of code, written by developers, run automatically on each commit (CI/CD); isolated to one repository. No QA or GLI involvement. Merging two feature-branches within one repo (e.g. LGS) just runs both sets of unit tests — no integration build needed if you only work within LGS.
+- **Integration / end-to-end tests** — test the whole assembled system; require an extra step: deploy the built system somewhere (server or local) and run tests against that deployment. This is what the colleague calls "GLI-type" testing. Hard to run per-commit because you must build and deploy the whole JVL/EGM architecture.
+- Each repository (LGS, a game, RGS) has its own **trunk** (main branch); features are feature-branches merged into their own repo's trunk. [[raw/test_automation_philosophy-jan-20-2025.md]]
+
+### GLI as the testing "customer"
+
+- The colleague deliberately treats **GLI** as the client for the cleanest test system (higher bar than JVL's own QA). The plan: give GLI a set of tests (e.g. against the GLI-11 specification) that they run on each JVL change; if they pass, GLI can skip re-testing that area. Test harnesses / "test-enablers" would be built into the game/EGM and enabled only in debug builds (e.g. an `enable test harness` flag). [[raw/test_automation_philosophy-jan-20-2025.md]]
+- GLI says most of their time goes to **checking the math**; they mainly take **screenshots** and verify with internal tools, and are not very forthcoming with details. JVL's idea: build a tool/harness that generates predefined outcomes per paytable and produces screenshots for GLI — GLI was lukewarm, wanting to keep part of the check on their own tools. Both Val and the colleague found it hard to pin down exactly what GLI wants. [[raw/test_automation_philosophy-jan-20-2025.md]]
+
+### Low-code test tooling
+
+- **Catalon Studio** — a low-code test-case IDE (evolved from the free "Test Project", now freemium) that lets non-programmers assemble test cases from readable steps while still allowing scripting. Test cases and reusable "building blocks" (e.g. imported LGS APIs like `setTilt`/`removeTilt`) are stored in Git. It integrates with Jira. Presented as one example among similar paid tools. [[raw/test_automation_philosophy-jan-20-2025.md]]
+- A tool called **Tasker** was demoed to Jason and the colleague; the vendor said many manual (non-coding) testers use it. [[raw/test_automation_philosophy-jan-20-2025.md]]
+- **Prior work reference:** Lyuba Volodko previously wrote tests using **Selenium** (a Java library) against a deployed CMS environment — the same kind of thing Catalon abstracts. (Single mention; no page yet — see Owner Decisions.) [[raw/test_automation_philosophy-jan-20-2025.md]]
+- Aim over time: a **library of building blocks** from which non-programmer testers assemble test cases, with harder cases written directly in code. [[raw/test_automation_philosophy-jan-20-2025.md]]
+
 ## Open commitments
 
 - [ ] Val — set up a ~2-hour testing-architecture meeting with Pavel, Irina, Anton and Aaron — due next week (of Jan 15) — [[raw/integration_and_testing_procedures_january_15_2025.md]]
+- [ ] Val + the technical colleague — follow-up working session (~8:00–8:30am, to be confirmed) to figure out how to proceed on test automation; Val wants Aaron's help — due next morning (~Jan 21) — [[raw/test_automation_philosophy-jan-20-2025.md]]
 
 ## Open questions
 
@@ -59,3 +80,4 @@ Val declined to add more goals or more wording, wanting the objective kept tight
 ## Sources
 
 - [[raw/integration_and_testing_procedures_january_15_2025.md]]
+- [[raw/test_automation_philosophy-jan-20-2025.md]]

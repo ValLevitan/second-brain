@@ -3,7 +3,7 @@ type: person
 title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka]
-source-count: 5
+source-count: 7
 open-commitments: 1
 open-questions: 0
 ---
@@ -24,6 +24,11 @@ Alexander Biratka (called "Sasha") is a JVL engineer, part of the Minsk engineer
 
 - Sasha wrote a small script that generates a build-config file and creates an "envelope," demonstrating the Git-native approach. He agreed with the simplification ("I like any simple solutions") but asked not to hard-cap the number of build variants — add more only if needed. He also proposed the pragmatic fallback of re-attaching Jenkins on top to generate the config if all else fails. See [[wiki/decisions/2025-01-15-move-to-git-native-build-system.md]]. [[raw/parameterization_in_the_development_pipeline_part_1_january_15_2025.md]] [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]]
 
+## FP7 video testing and Pixi upgrade (Jan 16–17)
+
+- On the Jan 16 game-design review, Sasha (with a colleague noted as "Emma") tried a new video format that improved FP7 performance slightly. [[raw/game_design_january_16_2025.md]]
+- On the Jan 17 bottleneck testing, Sasha ran the video-stream tests, found VP9 best in Chromium and VP8 in Firefox, and reproduced the same limit on his own PC with a powerful Radeon 6650 XT — showing the bottleneck is the CPU, not the GPU. He proposed upgrading to the new Pixi engine version, and is to do that upgrade (~a week). See [[wiki/decisions/2025-01-17-upgrade-omni-to-pixi-8-6.md]]. The transcript credits "Beratka" with coining the term **"manifest"** for the asset-creation guideline. [[raw/fr-7_identifying_bottlenecks_in_performance_during_testing_january_17_2025.md]]
+
 ## Open commitments
 
 - [ ] Sasha (Alexander Biratka) — write a real build-config file (game, framework, LGS, hardware abstraction layer), put it in Git, and set up a job that produces an image/archive (not a full ISO yet) — due by the next meeting (Monday) — [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]]
@@ -37,3 +42,5 @@ Note: the correct surname is **Biratka** (confirmed by Val). The transcripts spe
 - [[raw/ai-assisted_development_with_vs_code_git_and_mcp_january_14_2025.md]]
 - [[raw/parameterization_in_the_development_pipeline_part_1_january_15_2025.md]]
 - [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]]
+- [[raw/game_design_january_16_2025.md]]
+- [[raw/fr-7_identifying_bottlenecks_in_performance_during_testing_january_17_2025.md]]

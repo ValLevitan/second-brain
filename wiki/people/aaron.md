@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric]
-source-count: 5
+source-count: 10
 ---
 
 # Aaron
@@ -32,6 +32,12 @@ Aaron works with Val on JVL's product roadmap and Jira planning, and leads JVL's
 - Val asked Aaron (with Pavel) to break the build-system work out into JIRA features on the board rather than run it as a side project. [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]]
 - Separately, the QA/test-automation consultant said his testing proposal was developed "in consultation with Aaron"; Aaron is to attend the planned testing-architecture meeting. See [[wiki/topics/test-automation-strategy.md]]. [[raw/integration_and_testing_procedures_january_15_2025.md]]
 
+## Feature-coaching and DevSecOps grooming (Jan 16–20)
+
+- **DTP-53 (Jan 16–17):** Aaron coached Pavel to turn the Git-native pipeline work (JIRA feature DTP-53) into proper stories and feature descriptions — playing "Scrum Master" on Jan 16, then on Jan 17 insisting features be written from the customer's perspective and documented Git-natively. He demoed prompt styles in Claude but warned against over-relying on AI. See [[wiki/topics/build-pipeline-parameterization.md]]. [[raw/dtp-53_feature_planning_meeting_january_16_2025.md]] [[raw/dtp-53_action_builder_pipeline_definition_of_features_january_17_2025.md]]
+- **FP7 bottleneck testing (Jan 17):** attended and helped drive the bottleneck questioning; Val repeatedly held Aaron up as the model of pushing him hard without worrying about his feelings. [[raw/fr-7_identifying_bottlenecks_in_performance_during_testing_january_17_2025.md]]
+- **GitHub org structure + DevSecOps grooming (Jan 20):** co-coached Andrei with Val on GitHub organization structure and on aligning a Miro board with the Jira roadmap plus the ITSM operating model. See [[wiki/decisions/2025-01-20-github-orgs-mirror-value-streams.md]] and [[wiki/projects/jvl-2025-plan-and-jira-roadmap.md]]. [[raw/github_organization-jan-20-2025.md]] [[raw/meeting_various-jan-20-2025.md]]
+
 His last name is not stated. (May appear elsewhere transcribed as "Aron," "Erin," or "Eric.")
 
 ## Sources
@@ -41,3 +47,8 @@ His last name is not stated. (May appear elsewhere transcribed as "Aron," "Erin,
 - [[raw/ai-assisted_development_with_vs_code_git_and_mcp_january_14_2025.md]]
 - [[raw/integration_and_testing_procedures_january_15_2025.md]]
 - [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]]
+- [[raw/dtp-53_feature_planning_meeting_january_16_2025.md]]
+- [[raw/dtp-53_action_builder_pipeline_definition_of_features_january_17_2025.md]]
+- [[raw/fr-7_identifying_bottlenecks_in_performance_during_testing_january_17_2025.md]]
+- [[raw/github_organization-jan-20-2025.md]]
+- [[raw/meeting_various-jan-20-2025.md]]

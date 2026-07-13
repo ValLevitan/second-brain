@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anton]
-source-count: 2
+source-count: 3
 ---
 
 # AI-assisted development adoption
@@ -31,6 +31,10 @@ JVL's push to get its engineers using AI coding tools. Aaron led a hands-on work
 - Homework: don't commit AI-generated code to the real codebase yet — instead use the tools to read/explore a familiar codebase (Sasha → Omni framework / LGS, Anton → RGS, Andrei → build/Kubernetes scripts) and produce a `docs/` folder documenting it. A follow-up MCP session was offered. [[raw/ai-assisted_development_with_vs_code_git_and_mcp_january_14_2025.md]]
 - Participants included **Anton** (JVL Minsk engineer), whose repo access worked throughout the session and who received an OpenRouter API key from Andrei; Aaron suggested he try the tools on the RGS codebase. His last name is not stated. [[raw/ai-assisted_development_with_vs_code_git_and_mcp_january_14_2025.md]]
 
+## Val's personal knowledge-base method (Jan 20)
+
+Coaching Andrei, Val described the workflow he uses himself and wants his managers to adopt: record every meeting (any language — ChatGPT moves between Russian/English easily), turn it into a transcript, feed it to ChatGPT, have it summarize and propose a title and ~20 tags, pick the tags to use, tell it to update memory, and derive a taxonomy — then circulate the conversation. This lets someone with limited English/vocabulary produce a correct taxonomy through dialogue with the AI. Val frames refusing to adopt these tools as a 1990s "knowledge-tribune" mindset he will progressively replace. Aaron separately demoed using Claude prompt styles ("explanatory", "intellectual dissector") to draft and critique JIRA features — see the DTP-53 section of [[wiki/topics/build-pipeline-parameterization.md]]. [[raw/github_organization-jan-20-2025.md]]
+
 ## Connection to the pipeline debate
 
 - Val explicitly linked adopting Git-native, AI-friendly practices to resolving the ISO build-pipeline problem: a natural-language/AI interface should be a standard part of a pipeline built to last 10 years. See [[wiki/topics/build-pipeline-parameterization.md]]. [[raw/development_pipeline_january_13_2025.md]]
@@ -39,3 +43,4 @@ JVL's push to get its engineers using AI coding tools. Aaron led a hands-on work
 
 - [[raw/ai-assisted_development_with_vs_code_git_and_mcp_january_14_2025.md]]
 - [[raw/development_pipeline_january_13_2025.md]]
+- [[raw/github_organization-jan-20-2025.md]]
