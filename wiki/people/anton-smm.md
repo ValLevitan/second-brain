@@ -3,6 +3,7 @@ type: person
 title: Anton (SMM / Meta-ads marketer)
 date: 2026-07-13
 aliases: [Anton]
+disambiguation: "One of THREE distinct Antons. This = the SMM/Meta-ads contractor (Minsk, ECHO marketing). Distinct from Anton Leshkevich (engineer, wiki/people/anton-leshkevich.md) and Anton Seregin (Minsk payroll, wiki/people/anton-seregin.md). Owner-confirmed 2026-07-13. Resolve 'Anton' by context; queue if unclear."
 source-count: 2
 open-commitments: 0
 open-questions: 0

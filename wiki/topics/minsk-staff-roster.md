@@ -27,7 +27,7 @@ Confirmed against existing pages (surnames now corroborated by payroll):
 - **Zaharenkov, Yury** → matches the `Contract Renewal - Zaharenkov Yuri 2025.pdf` on file (Legal/).
 
 Flagged (do not force):
-- **Seregin, Anton** — the payroll lists an **Anton Seregin**. The wiki has [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] (engineer, surname never sourced from a transcript). These may be the same person (Seregin being the real surname) or two Antons. **Unresolved** — reconcile in the next stage; do not overwrite Leshkevich yet.
+- **Seregin, Anton** → [[wiki/people/anton-seregin.md|Anton Seregin]] — **owner-confirmed (2026-07-13) a DIFFERENT person** from [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] (engineer) and the [[wiki/people/anton-smm.md|SMM contractor]]. Three distinct Antons; resolve by context, queue if unclear.
 - **Multiple Igors on payroll:** *Hrybko, Igar* and *Miatselski, Igar* — distinct from the ops [[wiki/people/igor.md|Igor]] and the designer [[wiki/people/igor-designer.md|Igor]]. At least four "Igor/Igar"s exist; resolve by context, never by name.
 
 Not yet in the wiki (new names — person pages deferred to the next stage; they gain pages when they appear in transcripts): Hurin Vladislav, Kashyn Raman, Kastsiukou Vitali, Khamin Aliaksey, Kirkitski Maksim, Kleimenychev Sergey, Korachkin Aliaksandr, Lyashenko Tatyana, Miatselski Igar, Ramanishkina Alla, Samusenka Uladzimir, Shavialeu Artur, Shkaptsova Nataliya, Shyshko Iryna, Tsymanau Siarhei, Hrybko Igar.

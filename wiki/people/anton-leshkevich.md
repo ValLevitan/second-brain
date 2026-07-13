@@ -2,7 +2,8 @@
 type: person
 title: Anton Leshkevich
 date: 2025-01-21
-aliases: [Anton, Anton Leshkevich]
+aliases: [Anton Leshkevich, Anton]
+disambiguation: "One of THREE distinct Antons. Anton Leshkevich = Minsk engineer (Omni/RGS, this page). Distinct from Anton Seregin (Minsk payroll, wiki/people/anton-seregin.md) and the SMM/Meta-ads contractor (wiki/people/anton-smm.md). Owner-confirmed 2026-07-13. Resolve 'Anton' by context; queue if unclear."
 source-count: 2
 open-commitments: 0
 open-questions: 0
@@ -12,7 +13,7 @@ open-questions: 0
 
 Anton Leshkevich is a JVL Minsk engineer. He knows the Omni framework and RGS codebases well and acts as a bridge between the Russian-speaking Minsk team and the English-speaking advisers (Aaron, Jason). His surname is given on the Jan 21 continuous-delivery call. [[raw/continues_release_infrastructure_architecture_2025-01-21 1.md]]
 
-(Earlier batches folded "Anton" into the AI-assisted-development topic without a person page; this page splits him out — see [[wiki/topics/ai-assisted-development.md]].)
+**Owner ruling (2026-07-13):** distinct from [[wiki/people/anton-seregin.md|Anton Seregin]] (Minsk payroll) — shared given name only — and from the [[wiki/people/anton-smm.md|SMM ad contractor "Anton"]]. (Earlier batches folded "Anton" into the AI-assisted-development topic without a person page; this page splits him out — see [[wiki/topics/ai-assisted-development.md]].)
 
 ## Role
 

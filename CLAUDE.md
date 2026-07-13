@@ -54,6 +54,7 @@ Each page begins with frontmatter (Section 5), then an H1 title, then content. E
   - **"Dima"** = short form of Dmitry / Dmitriy / Dmitri (all full-name variants). Distinct people: **Dmitri Kovalchuk** = IT (GitHub-admin, IT-structure, infrastructure, IT monitoring, AI-tool accounts); **Dmitriy Khandov** = Senior 3D Graphic Designer (graphics/3D/design/video); **Dmitri Chudinov** = back-end architect / Java (backend/server/Java; Belarusian spelling *Dzmitry Dudzinau*; the "Dima Chudinov" of the Observability Platform org). Andrey/Andrew **Khandov** (Miranda developer) shares only the surname with Dmitriy Khandov — different people; note the confusion risk on both pages.
   - **"Misha"** = short form of Mikhail. **Michael Gottlieb** = Senior VP of Game Design (game design/production/slot design, works with Juan); **Mikhail Perelman** = Procurement Manager (procurement/purchasing/parts/vendors/shipments; the retrofit-lead "Misha"). Distinct people; transcripts use Michael/Mikhail/Misha loosely — resolve by context.
   - **"Zhenya"** = short form of Evgeny/Evgeniy. **Eugine Yavorski** = FlexPort/FlexPay integration engineer; **Evgeniy Alekseev** = owner of the main embedded code branch. Distinct people.
+  - **"Anton"** — three distinct people (owner-confirmed): **Anton Leshkevich** = Minsk engineer (Omni/RGS); **Anton Seregin** = Minsk payroll staff; **Anton (SMM)** = Meta-ads contractor (ECHO marketing). Resolve by context; queue if none fits.
 
 ## 5. Frontmatter schema (top of every wiki page)
 
