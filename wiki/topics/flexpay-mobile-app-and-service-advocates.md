@@ -3,7 +3,7 @@ type: topic
 title: FlexPay mobile app and service advocates
 date: 2026-07-12
 aliases: [FlexPay mobile app, service advocate, service advocates, whale, whale UI, Incom]
-source-count: 3
+source-count: 4
 ---
 
 # FlexPay mobile app and service advocates
@@ -36,8 +36,11 @@ The **FlexPay** payment product itself is confirmed progressing — the Jan 24 2
 
 - **FlexPort ↔ FlexPay integration progressing (Feb 11):** the Feb 11 embedded standup advanced the FlexPort-module-to-FlexPay-kiosk connection (WebSocket, device registration before accepting money, PIN/ticket validation), with the payment processor **Incom** supplying the test server and a production contract awaiting Val's signature; **Felipe** ("Filippo") to host a multi-machine production test in his office. Details on [[wiki/topics/jvl-machine-lineup.md]] and [[wiki/meetings/2025-02-11-embedded-group-flexport-flexpay.md]]. This is the payment product/hardware, still not the mobile app. (Whether "Felipe"/"Filippo" is the same Felipe who issues JVL parts invoices is unclear — see Owner Decisions.) [[raw/Embedded_Group_alignment_and_update_2025-02-11.md]]
 
+- **Embedded group progress (Feb 18):** the FlexPort↔FlexPay integration is being brought up on a real machine by [[wiki/people/evgeny.md|Evgeny]] ("Zhenya") for the first field locations. A "Dima" (software; not attributed — see Owner Decisions) is delivering a new FlexPay build that **bypasses the card dispenser**, and adding **server-side log hooks** so an internet-connected FlexPay's logs can be pulled directly for fast feedback. A gap was found: the protocol has **no command for FlexPort to signal it is in an error state** to FlexPay — to be added. The FlexPay **activation sequence** was documented: (0) switch the factory QR scanner from Serial/HID to CDC mode; (1) **registration** (scan a QR in setup → bind the device serial number in JVL's device-management system); (2) create a **license** on the server ("Лиза"/"license") and apply it via a QR round-trip (FlexPay need not be online); then fill the **Incom** card-provider fields (manually or via a QR). Val has an **Incom** contract in its final stage and must arrange a production-server test (the test environment worked; production couldn't connect). Timeline: at least another week; Val pushed for a two-week (~March 5) buffer. See [[wiki/meetings/2025-02-18-embedded-group-flexport-flexpay.md]] and [[wiki/topics/jvl-machine-lineup.md]]. [[raw/Embedded_Group_alignment_and_update_2025-02-18.md]]
+
 ## Sources
 
 - [[raw/mobile_app_advocate_persona_profile_january_13_2025.md]]
 - [[raw/flex_port_hardware_up-jan-24-2025.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-02-11.md]]
+- [[raw/Embedded_Group_alignment_and_update_2025-02-18.md]]

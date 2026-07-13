@@ -2,8 +2,8 @@
 type: topic
 title: JFrog Artifactory and artifact/binary management
 date: 2025-02-06
-aliases: [JFrog, Artifactory, JFrog Connect, artifact repository, binary management, LFS, ISO image storage, SCA, software bill of materials, artifact storage dilemma]
-source-count: 1
+aliases: [JFrog, Artifactory, JFrog Connect, artifact repository, binary management, LFS, ISO image storage, SCA, software bill of materials, artifact storage dilemma, Sonatype, Nexus]
+source-count: 2
 open-questions: 1
 ---
 
@@ -41,10 +41,18 @@ Val flagged these as real, separate issues to solve (artifact-repository choice 
 
 - Val and Andrei made **no decision** — they said they already expected these capabilities and their real question is **which package** (Pro vs. Enterprise) and how the GitHub/JFrog pieces fit together. The rep (contact **Eddie**) is to send a written recap, the $21k proposal, and calculation details. Artifact-storage choice was explicitly parked for a separate meeting. [[raw/JFrog transcript - February-6-2025.md]]
 
+## The Sonatype / Nexus alternative (Feb 12)
+
+- JVL already runs **Nexus Repository OSS (community), self-hosted, v3.17** as its artifact repository (Jenkins pushes to it). On Feb 12 Val and Andrei took a **Sonatype** sales/discovery call to evaluate a **cloud SaaS** Nexus — the more-comfortable migration path from their current Nexus install. See [[wiki/organizations/sonatype.md]]. [[raw/sonotype_meeting_feb-12-2025.md]]
+- Sonatype's own Nexus **SaaS is GA July 1 2025** (~$10k/yr); before that a partner (Saltworks) hosts Pro-SaaS for ~3 months, then Sonatype takes it over. SaaS requires Pro. JVL wants a one-year trial term. [[raw/sonotype_meeting_feb-12-2025.md]]
+- So JVL is weighing two artifact-repository directions: **JFrog Artifactory** (universal binary management, GitHub+JFrog split) vs. staying on **Sonatype Nexus** but moving it to cloud SaaS. No decision on either. Val again noted large graphic files / **LFS** likely fall outside a Nexus-style artifact repo (and are being handled via Git LFS — see [[wiki/topics/ai-assisted-development.md]]). [[raw/sonotype_meeting_feb-12-2025.md]] [[raw/JFrog transcript - February-6-2025.md]]
+
 ## Open questions
 
 - Which JFrog package does JVL actually need (Pro vs. Enterprise X), and where does the line fall between GitHub's and JFrog's capabilities? (Val's stated core confusion.) [[raw/JFrog transcript - February-6-2025.md]]
+- JFrog Artifactory vs. Sonatype Nexus SaaS as JVL's artifact repository — no decision taken on either. [[raw/sonotype_meeting_feb-12-2025.md]]
 
 ## Sources
 
 - [[raw/JFrog transcript - February-6-2025.md]]
+- [[raw/sonotype_meeting_feb-12-2025.md]]

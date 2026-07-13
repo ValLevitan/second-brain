@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie]
-source-count: 14
+source-count: 18
 ---
 
 # Aaron
@@ -50,6 +50,12 @@ His surname is given as **Bockelie** on the Jan 21 continuous-delivery transcrip
 - **RGS API (Feb 11):** with Val, pushed [[wiki/people/efim-podvoiski.md|Efim Podvoiski]] to make the RGS integrable by outsiders — a **Postman collection** and/or **OpenAPI** document, and moving the source off SVN to Git. Said JVL's API "could use a little love" before offering integration, and cited example RGS vendors (Comtrade Gaming etc.) that publish specs/examples. See [[wiki/topics/rgs-architecture-and-integration.md]]. [[raw/Aaron_Val_2025-02-11.md]]
 - **GitHub repo structure (Feb 11):** co-drove the org-naming convention and migration plan — argued for human-readable, capitalised, JVL-prefixed **org** names (GitHub forms the slug) and short lowercase-hyphen **repo** names with no JVL prefix (citing the Home Assistant org and having set up **Ford**'s ~50,000 repos as his credibility). See [[wiki/decisions/2025-02-11-github-org-naming-and-structure.md]] and [[wiki/decisions/2025-02-11-git-migration-sequence.md]]. [[raw/Git_repo_structure_part_2_2025-02-11.md]]
 
+## GitHub access, meeting-tracking AI, and LFS onboarding (Feb 12–18)
+
+- **GitHub access model (Feb 12):** introduced **Codespaces** (browser-hosted dev environment so code never lands locally) and the GitHub **audit log** / activity-based access-revocation pattern; argued **trust-but-verify** over trying to physically prevent copying; used **Ford**'s cloud-GitHub migration as the large-scale reference; and pushed Andrei to fix the Entra-ID/SSO admin-account issue and to use the "Well-Architected GitHub" guide + paid support. See [[wiki/topics/github-access-and-security-model.md]] and [[wiki/decisions/2025-02-12-github-repos-private-by-default.md]]. [[raw/Check_in_on_GitHub_2025-02-12.md]]
+- **Meeting-tracking + cloud file architecture (Feb 17):** told Val that the source of truth for tracking a feature's progress must be GitHub (a Git repo) and demoed the GitHub **MCP** tool (branches, PRs, CI, permissions) alongside the Google Workspace tool. Then coached Val to think as a "DevOps engineer, not a user": treat your work as a product — "engineer Val" creates, "consumer Val" consumes — and **publish** distilled/consumable copies (PDF/web/Word) to OneDrive rather than syncing the original Git working repo there; GitHub stays the source of truth across devices. See [[wiki/topics/ai-assisted-development.md]]. [[raw/detailed_transcript_meeting_tracking_and_AI_Integration-feb-17-2025.md]] [[raw/cloud_file_architecture_transcript_aaron-2025-02-17.md]]
+- **Git-LFS / VS Code onboarding (Feb 18):** ran a hands-on session onboarding [[wiki/people/dmitry-khandov.md|Dmitriy Khandov]] (and the graphics team) to VS Code + Git Graph + **Copilot** + committing via source control; quoted Copilot Business at ~$19/seat and said everyone should use it; deferred the spend decision to Val. See [[wiki/meetings/2025-02-18-git-lfs-vscode-onboarding.md]]. [[raw/GitHub_Commit_LFS-Feb-18-2025.md]]
+
 ## Sources
 
 - [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]
@@ -66,3 +72,7 @@ His surname is given as **Bockelie** on the Jan 21 continuous-delivery transcrip
 - [[raw/it_structure_minsk-jan-22-2025.md]]
 - [[raw/Aaron_Val_2025-02-11.md]]
 - [[raw/Git_repo_structure_part_2_2025-02-11.md]]
+- [[raw/Check_in_on_GitHub_2025-02-12.md]]
+- [[raw/detailed_transcript_meeting_tracking_and_AI_Integration-feb-17-2025.md]]
+- [[raw/cloud_file_architecture_transcript_aaron-2025-02-17.md]]
+- [[raw/GitHub_Commit_LFS-Feb-18-2025.md]]

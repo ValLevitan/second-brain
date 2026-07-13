@@ -2,8 +2,8 @@
 type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
-aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross]
-source-count: 4
+aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, meeting tracking]
+source-count: 7
 ---
 
 # AI-assisted development adoption
@@ -40,6 +40,20 @@ Coaching Andrei, Val described the workflow he uses himself and wants his manage
 - On the Jan 21 continuous-delivery call, Aaron demoed generating Terraform, a Docker file and even tests for a "Hello World" AWS deployment using AI (Claude / Anthropic under the hood), arguing it lets JVL reach a first result in ~a day. See [[wiki/topics/continuous-delivery-pipeline-architecture.md]]. [[raw/continues_release_infrastructure_architecture_2025-01-21 1.md]]
 - On the Jan 30 recap, Andrei Klimovich raised a data-collection MVP ("Norcross"/"North Cross") that would use Anthropic; a candidate developer (Sergei) and a Minsk studio (€40/hr) were both interested in learning Anthropic. Val said he does not want to pay for anyone's Anthropic learning curve. See [[wiki/people/andrei-klimovich.md]] (and Owner Decisions on Sergei). [[raw/Recap with Andrei Klimovich - January 30, 2025.md]]
 
+## Meeting-tracking with GitHub as source of truth (Feb 17)
+
+- Val described what he wants to build (and which prefigures this second brain): tag each meeting conversation by subject/feature, then use AI to show a subject's **evolution** across meetings — is it progressing, stuck, is there a commit against it? He insisted the **source of truth is the code**: "the only source of truth is the code, and eventually a release of a feature… nothing else brings money, everything else only burns money." His cost argument: five people at $100/hr across five one-hour meetings is $2,500 — against zero commits, that's "$2,500 burned with 0 commits." [[raw/detailed_transcript_meeting_tracking_and_AI_Integration-feb-17-2025.md]]
+- Aaron connected this to the **GitHub MCP tool** (a container that lets the AI create branches/repos/PRs/CI and set permissions) alongside a Google Workspace tool, so Val could ask "how is project X doing, how many commits this week?" and have the AI report developer performance and even draft the follow-up email. Val added he is indifferent to Office 365 vs Google Workspace ("I'm happy to move to Google") — it's just a communications platform. [[raw/detailed_transcript_meeting_tracking_and_AI_Integration-feb-17-2025.md]]
+
+## Cloud file architecture — "engineer Val vs user Val" (Feb 17)
+
+- Val wanted his Git working repository against **OneDrive** instead of the local OS drive, to avoid being laptop-dependent and work across devices. Aaron's coaching: think as a **DevOps engineer, not a user** — treat your work as a product where "engineer Val" creates and "consumer Val" consumes. Rather than syncing the original Git repo to OneDrive, **publish** distilled/consumable copies (a PDF, a web page, Word distillations) to OneDrive; keep **GitHub as the source of truth** and make it easy to stand up the same dev environment on any device. [[raw/cloud_file_architecture_transcript_aaron-2025-02-17.md]] [[raw/detailed_transcript_meeting_tracking_and_AI_Integration-feb-17-2025.md]]
+
+## Copilot and shared AI accounts for the whole team (Feb 18)
+
+- On the Feb 18 Git-LFS onboarding session, Aaron pushed to enable **GitHub Copilot** ("like ChatGPT for anything in VS Code") for everyone; on the enterprise plan it needs paid seats at ~**$19/month** (Business). Val questioned the cost and who would use it; Aaron said everybody should. [[raw/GitHub_Commit_LFS-Feb-18-2025.md]]
+- Andrei confirmed he already uses **Cline + OpenRouter** in his own work and can teach the graphics team; the team agreed to use **one shared OpenRouter account** (it shows only aggregate, not per-user, activity — "we don't need 40 accounts"). Val's aim: onboard at least half the graphic department (like Lena and Dima) to commit their large assets themselves via Git LFS. See [[wiki/meetings/2025-02-18-git-lfs-vscode-onboarding.md]]. [[raw/GitHub_Commit_LFS-Feb-18-2025.md]]
+
 ## Connection to the pipeline debate
 
 - Val explicitly linked adopting Git-native, AI-friendly practices to resolving the ISO build-pipeline problem: a natural-language/AI interface should be a standard part of a pipeline built to last 10 years. See [[wiki/topics/build-pipeline-parameterization.md]]. [[raw/development_pipeline_january_13_2025.md]]
@@ -51,3 +65,6 @@ Coaching Andrei, Val described the workflow he uses himself and wants his manage
 - [[raw/github_organization-jan-20-2025.md]]
 - [[raw/continues_release_infrastructure_architecture_2025-01-21 1.md]]
 - [[raw/Recap with Andrei Klimovich - January 30, 2025.md]]
+- [[raw/detailed_transcript_meeting_tracking_and_AI_Integration-feb-17-2025.md]]
+- [[raw/cloud_file_architecture_transcript_aaron-2025-02-17.md]]
+- [[raw/GitHub_Commit_LFS-Feb-18-2025.md]]

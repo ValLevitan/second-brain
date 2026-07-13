@@ -3,7 +3,7 @@ type: person
 title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov]
-source-count: 11
+source-count: 13
 open-commitments: 1
 open-questions: 0
 ---
@@ -38,6 +38,11 @@ Pavel (called "Pasha") is a JVL engineer on the Minsk team who works on system/d
 
 - On the Feb 11 org-structure session Pavel ("Pasha") pushed the naming details (e.g. replace "OmniEngine" with the hardware-abstraction-layer "HAL"), agreed to restructure the Jira value streams to match the GitHub orgs, and confirmed he wants "as close an integration as possible" between Jira and GitHub. He flagged that the **FlexPay** project should be added to the first migration batch (Omni + Miranda). See [[wiki/decisions/2025-02-11-github-org-naming-and-structure.md]] and [[wiki/decisions/2025-02-11-git-migration-sequence.md]]. [[raw/Git_repo_structure_part_2_2025-02-11.md]]
 
+## GitHub check-in and market alignment (Feb 12, Feb 19)
+
+- **GitHub check-in (Feb 12):** attended as a reviewer ("Pasha") on Andrei's DevOps-repo pull requests and the repository-access discussion. See [[wiki/meetings/2025-02-12-github-check-in.md]]. [[raw/Check_in_on_GitHub_2025-02-12.md]]
+- **Outstanding-subjects alignment (Feb 19):** Pavel is the technical owner across the market releases. He is injecting **Epic 950** printer support into the SD software (~end of next week) and will judge whether Epic Edge can be added; he taught Val the correct taxonomy — a printer's **firmware** sits on the printer, while JVL's side is a **hardware-abstraction-layer library**; the third printer connector is a **harness** (not a jumper); printer library types split into Gen 2 / Gen 5 (JCM) + nano-optics vs Epic. He proposed defaulting/relabelling the third COM port so operators can't misassign SAS ports. Val also pressed him on the English precision of "it seems to be working." See [[wiki/projects/south-dakota-vlt-market.md]] and [[wiki/projects/georgia-market-rollout.md]]. [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
+
 ## Open commitments
 
 - [ ] Pavel — produce image files (e.g. an ext2/ext4 partition or a Docker/Docker-Compose image) that collect the modules for local deployment; full ISO assembly deferred to a later milestone — due by the next meeting (Monday) — [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]]
@@ -57,3 +62,5 @@ Note: "Pasha" and "Sasha" are sometimes confused in the transcripts; "Pasha" map
 - [[raw/sd_vlt_recap-jan-22-2025.md]]
 - [[raw/flex_port_hardware_up-jan-24-2025.md]]
 - [[raw/Git_repo_structure_part_2_2025-02-11.md]]
+- [[raw/Check_in_on_GitHub_2025-02-12.md]]
+- [[raw/Alignment_outstanding_subjects_2025-02-19.md]]

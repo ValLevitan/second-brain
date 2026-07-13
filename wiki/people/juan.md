@@ -3,7 +3,7 @@ type: person
 title: Juan
 date: 2026-07-12
 aliases: [Juan]
-source-count: 6
+source-count: 7
 ---
 
 # Juan
@@ -24,6 +24,10 @@ Juan works on JVL's commercial side, its relationship with the game-testing lab 
 
 - **Game-design review (Feb 6):** feedback was requested from Juan (he could not view live) on the Nico-cat topper — the promotional text ("hold and re-spin feature with up to three bonuses") and the low-angle Nico-cat topper image. See [[wiki/topics/jvl-machine-lineup.md]]. [[raw/Game design meeting - February 6, 2025.md]]
 
+## Outstanding-subjects alignment (Feb 19)
+
+- Juan is the field/customer-facing lead across the market releases. Val credited him with building a good **rapport with Lonnie** (the SD lab lets JVL pre-test unapproved software as an exception, not an obligation — to be handled with care), discussed sending [[wiki/people/sebastian.md|Sebastian]] to South Dakota, and worked through the Georgia dual-SAS/third-printer-port design and the Florida CPU-kit ("Florida Ruta") single-monitor requirements. See [[wiki/projects/south-dakota-vlt-market.md]] and [[wiki/projects/georgia-market-rollout.md]]. [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
+
 The transcripts do not give Juan's last name.
 
 ## Sources
@@ -34,3 +38,4 @@ The transcripts do not give Juan's last name.
 - [[raw/sd_vlt_recap-jan-22-2025.md]]
 - [[raw/Puerto Rico progress report - January 29, 2025.md]]
 - [[raw/Game design meeting - February 6, 2025.md]]
+- [[raw/Alignment_outstanding_subjects_2025-02-19.md]]

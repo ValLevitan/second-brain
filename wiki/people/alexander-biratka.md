@@ -3,7 +3,7 @@ type: person
 title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex]
-source-count: 8
+source-count: 9
 open-commitments: 1
 open-questions: 0
 ---
@@ -33,6 +33,10 @@ Alexander Biratka (called "Sasha") is a JVL engineer, part of the Minsk engineer
 
 - On the Feb 11 org-structure session Sasha ("Alex") argued for shorter names in the URL and, for sorting/filtering, suggested the "JVL" tag belong at the **end** of org names (Aaron/Val kept it at the front). He asked to keep repo/org names readable and confirmed the naming standard. See [[wiki/decisions/2025-02-11-github-org-naming-and-structure.md]]. [[raw/Git_repo_structure_part_2_2025-02-11.md]]
 
+## GitHub check-in (Feb 12)
+
+- On the Feb 12 GitHub check-in Sasha was named a reviewer (with Val and Pasha) on Andrei's DevOps-repo pull requests, and his GitHub user account (rendered "Alexander Beratko" in the transcript) was used to demonstrate how an internal repo is visible to a non-member. See [[wiki/topics/github-access-and-security-model.md]]. [[raw/Check_in_on_GitHub_2025-02-12.md]]
+
 ## Open commitments
 
 - [ ] Sasha (Alexander Biratka) — write a real build-config file (game, framework, LGS, hardware abstraction layer), put it in Git, and set up a job that produces an image/archive (not a full ISO yet) — due by the next meeting (Monday) — [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]]
@@ -49,3 +53,4 @@ Note: the correct surname is **Biratka** (confirmed by Val). The transcripts spe
 - [[raw/game_design_january_16_2025.md]]
 - [[raw/fr-7_identifying_bottlenecks_in_performance_during_testing_january_17_2025.md]]
 - [[raw/Git_repo_structure_part_2_2025-02-11.md]]
+- [[raw/Check_in_on_GitHub_2025-02-12.md]]

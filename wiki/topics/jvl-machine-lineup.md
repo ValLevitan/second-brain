@@ -2,8 +2,8 @@
 type: topic
 title: JVL machine and cabinet lineup
 date: 2026-07-12
-aliases: [Flex cabinets, Altera, Maple, Echo, Flex S, Flex C, cabinets, VLT, video lottery terminal, Flex SD27, V43, C10-VLOT-TERM-RU, Epic 950, FutureLogic, FlexPort, FlexPay, Nico, Miranda, Omni]
-source-count: 14
+aliases: [Flex cabinets, Altera, Maple, Echo, Flex S, Flex C, cabinets, VLT, video lottery terminal, Flex SD27, V43, C10-VLOT-TERM-RU, Epic 950, FutureLogic, FlexPort, FlexPay, Nico, Miranda, Omni, Florida Ruta, CPU kit, coffin, iOBoard, Bally iview, Diamondlink, nano-optics, JCM, dual SAS, HAL]
+source-count: 16
 ---
 
 # JVL machine and cabinet lineup
@@ -31,6 +31,19 @@ A running glossary of the machine models, cabinet types, and product families th
 
 - **Transact Epic 950** — the #1 printer used in the South Dakota market; JVL decided to support it. See [[wiki/decisions/2025-01-22-support-epic-950-printer-for-south-dakota.md]]. [[raw/sd_vlt_recap-jan-22-2025.md]]
 - **FutureLogic** printers — JVL's software was written for the **Gen 2**; on the Gen 5 a "void after business day" ticket-printing issue appeared that is said to be already fixed and committed, to ship in the next ISO. The market's #2 printer family is referred to as "Paycheck" / FutureLogic. Operators can choose Epic 950 or FutureLogic in the machine menu. [[raw/sd_vlt_recap-jan-22-2025.md]]
+- **Printer library taxonomy (Feb 19):** each printer is driven by a **hardware-abstraction-layer (HAL) library** on JVL's side (Pavel corrected Val: "firmware" sits on the printer, not on the machine). Two comms types: **Gen 2 / Gen 5** (made by **JCM**, "future logic") **and nano-optics** share one communication language; **Epic** (Transact) uses a different one — so two libraries. The **Epic 950** is JVL's first supported model; **Epic Edge** may follow. [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
+
+## SAS ports and the "coffin" (Feb 19)
+
+- The **CPU box** is called the **"coffin"** internally (Russian "гроб"/grob). Georgia machines have **dual SAS** (two DB9 serial connectors, primary + secondary; primary controlled by the Georgia Lottery). To drive a pay-kiosk printer, JVL adds a **third dedicated printer port** — a new DB9 connector (a **harness**, jumpered inside the coffin) with the printer HAL library. All three are interchangeable RS-232/DB9 serial ports logically, but the printer port is meant to always run as the printer so operators don't misassign SAS ports. See [[wiki/projects/georgia-market-rollout.md]]. [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
+- **Bally iview** is the casino accounting/reporting system the Georgia machines report to; a Feb 19 finding: JVL sends correct data but Bally's final report doesn't match (cause unknown). The Georgia test/cert lab is **Eclipse**. [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
+
+## Cabinet monitor configs and the Florida Ruta CPU kits (Feb 19)
+
+- **Echo vs Altera monitors:** the **Echo** cabinet is a **single-monitor** machine (selecting it disables the DSAP/progressive top display — no space to show it on the old software); **Altera** is a **dual-monitor** cabinet (pay table or progressive on the top screen). Selecting one monitor on an Altera works until a reboot, after which the progressive display is lost — an open single-monitor persistence bug to reproduce. [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
+- **Florida Ruta CPU kits:** a JVL **CPU kit** installed inside a customer's own (often single-screen, minimal-button, touchscreen) cabinet for the Florida **amusement** market (max ~5 machines/location, similar to Georgia; ~80% of that market is single-screen). Termed **"Florida Ruta"** — needs **no GLI/lab approval** (Puerto Rico, using the same HitGames-6 software, does). Config differences by jurisdiction (denominations, "display most recent tilts," stacker-door check) live in per-locality XMLs; **show mode** and **stacker-door** default to unchecked for production. Machines are moving from an **SD card** to an **SSD drive** for faster boot. [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
+- **iOBoard (input/output board):** a Feb 18 embedded-group issue — the board is sometimes not detected on software **4.10** (and, less often, **4.09**), resembling a field symptom; cause not yet found. Some printers plug directly into the motherboard rather than through the i-board. [[raw/Embedded_Group_alignment_and_update_2025-02-18.md]]
+- **Progressive Controller:** an initial-setup screen picks the progressive controller available on the network; an **embedded progressive controller** runs inside a single machine (the approach used for the Florida "JPRE" market), so it works even where a location has one machine. [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 
 ## Older machines being retrofitted (the used fleet)
 
@@ -78,3 +91,5 @@ A running glossary of the machine models, cabinet types, and product families th
 - [[raw/Game design meeting - February 6, 2025.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-02-11.md]]
 - [[raw/Git_repo_structure_part_2_2025-02-11.md]]
+- [[raw/Embedded_Group_alignment_and_update_2025-02-18.md]]
+- [[raw/Alignment_outstanding_subjects_2025-02-19.md]]

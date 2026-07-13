@@ -17,6 +17,11 @@ status: active
 2. **RGS** second — Efim's real production project, still in SVN, a multi-day job, so done as its own step. See [[wiki/topics/rgs-architecture-and-integration.md]]. [[raw/Git_repo_structure_part_2_2025-02-11.md]]
 3. **Inventory and map everything else** — make a spreadsheet of all Git and all SVN repos with old name → new name → location, and migrate only the ones worth keeping (there had been "fast and loose" repo creation in Bitbucket). Bitbucket cleanup to be discussed in a separate meeting with the internal team. [[raw/Git_repo_structure_part_2_2025-02-11.md]]
 
+## Execution note (Feb 18)
+
+- Onboarding of the **graphics department to Git + Git LFS** began Feb 18: Aaron ran a hands-on VS Code / Copilot / LFS session for [[wiki/people/dmitry-khandov.md|Dmitriy Khandov]], with Andrei to set up [[wiki/people/lena.md|Lena]] and write a handout so the rest of the graphics team can commit large assets themselves. See [[wiki/meetings/2025-02-18-git-lfs-vscode-onboarding.md]]. [[raw/GitHub_Commit_LFS-Feb-18-2025.md]]
+
 ## Sources
 
 - [[raw/Git_repo_structure_part_2_2025-02-11.md]]
+- [[raw/GitHub_Commit_LFS-Feb-18-2025.md]]

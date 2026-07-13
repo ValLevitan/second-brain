@@ -3,7 +3,7 @@ type: person
 title: Irina Makarych
 date: 2025-01-15
 aliases: [Irina Makarych, Irina, Irina Makarich]
-source-count: 3
+source-count: 4
 open-commitments: 0
 open-questions: 0
 ---
@@ -23,8 +23,13 @@ See [[wiki/topics/build-pipeline-parameterization.md]] and [[wiki/topics/test-au
 
 - On the Jan 22 South Dakota recap, the FutureLogic Gen 2 printer was said to have been tested "per Pavel and Irina" (i.e. Irina was involved in the Minsk printer testing), though Juan had not personally tested Gen 2 in the lab. See [[wiki/projects/south-dakota-vlt-market.md]]. [[raw/sd_vlt_recap-jan-22-2025.md]]
 
+## Outstanding-subjects alignment (Feb 19)
+
+- Irina confirmed the printer testing status ("it's working" on the last build given to Juan) and analysed the **Bally iview** logs for the Georgia Peach1234 work — finding JVL sends the correct data to the machines but Bally's final report is wrong. She also prepares the **diffs document** for GLI (a file-level description of what changed and how to check it), which Val praised as essential but flagged as a double job alongside proper release notes. See [[wiki/projects/georgia-market-rollout.md]] and [[wiki/projects/south-dakota-vlt-market.md]]. [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
+
 ## Sources
 
 - [[raw/integration_and_testing_procedures_january_15_2025.md]]
 - [[raw/parameterization_in_the_development_pipeline_part_3_january_15_2025.md]]
 - [[raw/sd_vlt_recap-jan-22-2025.md]]
+- [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
