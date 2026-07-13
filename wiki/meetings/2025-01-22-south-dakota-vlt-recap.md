@@ -8,7 +8,7 @@ source-count: 1
 
 # South Dakota VLT recap (Jan 22, 2025)
 
-**Attendees:** [[wiki/people/val-levitan.md|Val]], [[wiki/people/juan.md|Juan]], [[wiki/people/pavel.md|Pavel]]. [[raw/sd_vlt_recap-jan-22-2025.md]]
+**Attendees:** [[wiki/people/val-levitan.md|Val]], [[wiki/people/juan-martinez.md|Juan]], [[wiki/people/pavel.md|Pavel]]. [[raw/sd_vlt_recap-jan-22-2025.md]]
 
 **Purpose:** recap the South Dakota lab visit and agree next steps — printer support, software bugs, and the path to a first field release. [[raw/sd_vlt_recap-jan-22-2025.md]]
 

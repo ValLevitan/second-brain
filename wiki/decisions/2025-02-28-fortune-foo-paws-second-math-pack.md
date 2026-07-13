@@ -8,7 +8,7 @@ status: active
 
 # Second math pack for Fortune Foo Paws (Chinese bet levels) to A/B test on the floor
 
-On the Feb 28 2025 game-design review, Val, [[wiki/people/juan.md|Juan]] and [[wiki/people/michael-game-producer.md|Michael]] decided to produce a **second math program** for **Fortune Foo Paws** alongside the standard one, so JVL can try both bet configurations on the floor and see which performs. [[raw/Game design part 2 - Feb-28-2025.md]]
+On the Feb 28 2025 game-design review, Val, [[wiki/people/juan-martinez.md|Juan]] and [[wiki/people/michael-game-producer.md|Michael]] decided to produce a **second math program** for **Fortune Foo Paws** alongside the standard one, so JVL can try both bet configurations on the floor and see which performs. [[raw/Game design part 2 - Feb-28-2025.md]]
 
 ## What was decided
 
@@ -19,7 +19,7 @@ On the Feb 28 2025 game-design review, Val, [[wiki/people/juan.md|Juan]] and [[w
 
 ## Follow-up
 
-- [[wiki/people/juan.md|Juan]] to write a **JIRA REQ** for the second math program with the Chinese bet levels; he has sample bets from competitors to fine-tune. [[raw/Game design part 2 - Feb-28-2025.md]]
+- [[wiki/people/juan-martinez.md|Juan]] to write a **JIRA REQ** for the second math program with the Chinese bet levels; he has sample bets from competitors to fine-tune. [[raw/Game design part 2 - Feb-28-2025.md]]
 
 ## Sources
 

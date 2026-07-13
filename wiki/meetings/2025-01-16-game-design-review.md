@@ -10,7 +10,7 @@ source-count: 1
 
 Art/music/math review of several JVL games in production, plus a hardware check-in confirming the FP7 board is enough for the Fortune Football game.
 
-- **Attendees:** [[wiki/people/val-levitan.md|Val]], [[wiki/people/lena.md|Lena]], [[wiki/people/dmitry-khandov.md|Dima Khandov]], and a lead game designer (identity unclear in transcript); [[wiki/people/juan.md|Juan]] referenced. [[wiki/people/alexander-biratka.md|Sasha]] referenced on the video test. [[raw/game_design_january_16_2025.md]]
+- **Attendees:** [[wiki/people/val-levitan.md|Val]], [[wiki/people/lena.md|Lena]], [[wiki/people/dmitry-khandov.md|Dima Khandov]], and a lead game designer (identity unclear in transcript); [[wiki/people/juan-martinez.md|Juan]] referenced. [[wiki/people/alexander-biratka.md|Sasha]] referenced on the video test. [[raw/game_design_january_16_2025.md]]
 - **Purpose:** review game art/music/animation, plan Fortune Football production flow, and confirm FP7 hardware sufficiency.
 
 Substance lives on:

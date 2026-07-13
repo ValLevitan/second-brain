@@ -9,7 +9,7 @@ open-questions: 2
 
 # Georgia market rollout (Peach1234 / DLKG)
 
-JVL's core land-based market — the conventional **Georgia co-op / COAM** business — and the software releases (**Peach1234** and **DLKG**) needed to keep it and roll out the new payment-kiosk/printer support. Worked through on the Feb 19 2025 outstanding-subjects alignment call with [[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel]], [[wiki/people/irina-makarych.md|Irina]] and [[wiki/people/juan.md|Juan]]. [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
+JVL's core land-based market — the conventional **Georgia co-op / COAM** business — and the software releases (**Peach1234** and **DLKG**) needed to keep it and roll out the new payment-kiosk/printer support. Worked through on the Feb 19 2025 outstanding-subjects alignment call with [[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel]], [[wiki/people/irina-makarych.md|Irina]] and [[wiki/people/juan-martinez.md|Juan]]. [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 
 ## Why it matters (Val's revenue warning)
 

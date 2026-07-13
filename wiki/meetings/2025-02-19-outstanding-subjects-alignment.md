@@ -9,7 +9,7 @@ source-count: 1
 # Alignment on all outstanding subjects (Feb 19)
 
 **Date:** 2025-02-19 (a long ~2-hour call)
-**Attendees:** [[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel]] ("Pasha"), [[wiki/people/irina-makarych.md|Irina]], [[wiki/people/juan.md|Juan]]. Puerto Rico was deferred (Val left before it; the team continued).
+**Attendees:** [[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel]] ("Pasha"), [[wiki/people/irina-makarych.md|Irina]], [[wiki/people/juan-martinez.md|Juan]]. Puerto Rico was deferred (Val left before it; the team continued).
 **Purpose:** Line-by-line status across all open market/software subjects — South Dakota VLT, Georgia (Peach1234/DLKG), and Florida CPU kits ("Florida Ruta").
 
 Substance lives in:

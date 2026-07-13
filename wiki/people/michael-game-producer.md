@@ -8,7 +8,7 @@ source-count: 5
 
 # Michael (game producer)
 
-Michael is a **game producer / designer on JVL's game side**, working closely with [[wiki/people/juan.md|Juan]] and reviewing the design team's output. Created as a distinct page under a descriptive title because the transcripts give only the first name.
+Michael is a **game producer / designer on JVL's game side**, working closely with [[wiki/people/juan-martinez.md|Juan]] and reviewing the design team's output. Created as a distinct page under a descriptive title because the transcripts give only the first name.
 
 > **Identity flagged (see Owner Decisions).** Prior batches flagged a "Michael" and asked whether he is the same person as [[wiki/people/misha.md|Misha]] (the used-machine retrofit/technical lead). This batch shows Michael clearly acting as a **game producer/designer** (commenting on comp art, game math, help screens, alongside Juan) — a role distinct from Misha's retrofit work — which is why he is recorded separately, not merged. Confirm identity before merging.
 

@@ -26,7 +26,7 @@ JVL will add support for the **Transact Epic 950** printer, because it is the #1
 
 ## Who
 
-- Decided by [[wiki/people/val-levitan.md|Val]] with [[wiki/people/juan.md|Juan]] and [[wiki/people/pavel.md|Pavel]]. [[raw/sd_vlt_recap-jan-22-2025.md]]
+- Decided by [[wiki/people/val-levitan.md|Val]] with [[wiki/people/juan-martinez.md|Juan]] and [[wiki/people/pavel.md|Pavel]]. [[raw/sd_vlt_recap-jan-22-2025.md]]
 
 ## Sources
 
