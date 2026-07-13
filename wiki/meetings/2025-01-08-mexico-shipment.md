@@ -9,7 +9,7 @@ source-count: 1
 # Mexico machine shipment call
 
 **Date:** 2025-01-08
-**Attendees:** Val Levitan; Miguel (Mexico warehouse); Mary (translating). [[raw/shipment_of_machines_from_mexico_january_8_2025.md]]
+**Attendees:** [[wiki/people/val-levitan.md|Val Levitan]]; [[wiki/people/miguel.md|Miguel]] (Mexico warehouse); [[wiki/people/mary.md|Mary]] (translating). [[raw/shipment_of_machines_from_mexico_january_8_2025.md]]
 **Purpose:** Arrange shipping the 100 best machines from the Mexico warehouse and plan the warehouse clear-out.
 
 Substance lives on:

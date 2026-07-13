@@ -10,7 +10,7 @@ source-count: 1
 
 **Purpose:** Discuss closing the Peru office, preparing machines for shipment, and Anibal's possible relocation to help open the Puerto Rico operation. (Call dated Jan 13; notes written Jan 14.)
 
-**Attendees:** Anibal, Juan (Igor and Mery referenced).
+**Attendees:** [[wiki/people/anibal.md|Anibal]], [[wiki/people/juan.md|Juan]] ([[wiki/people/igor.md|Igor]] and [[wiki/people/mary.md|Mery]] referenced).
 
 Substance lives on:
 - [[wiki/projects/puerto-rico-expansion.md]]

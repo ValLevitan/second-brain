@@ -2,7 +2,7 @@
 type: person
 title: Taylor
 date: 2026-07-12
-aliases: [Taylor]
+aliases: [Taylor, Michelle Tumby, Michelle]
 source-count: 1
 ---
 
@@ -17,6 +17,10 @@ Taylor is JVL's ongoing primary contact at CIBC US for the cross-border business
 - She said she would send a secure email with fees and requirements, plus a business questionnaire to complete before opening. [[raw/cibc_account_the_january_6_2025.md]]
 
 Her last name is not stated.
+
+## History
+
+- Taylor took over from **Michelle Tumby**, who managed the cross-border process at CIBC US and said on the Jan 6 2025 call that she was retiring "next week." Michelle brought Taylor onto that call as her replacement — deliberately, so JVL would not get used to dealing with Michelle first. On the call Michelle explained the money-movement rules (US↔Canada only by wire or cheque) and the US credit-card process (via partner Elan Financial; needs a US tax ID and US address); those bank-process details live on [[wiki/organizations/cibc.md]]. [[raw/cibc_account_the_january_6_2025.md]]
 
 ## Sources
 

@@ -9,7 +9,7 @@ source-count: 1
 # CIBC US account setup call
 
 **Date:** 2025-01-06
-**Attendees:** Val Levitan, Monica (JVL); Tony, Michelle Tumby, Taylor (CIBC). [[raw/cibc_account_the_january_6_2025.md]]
+**Attendees:** [[wiki/people/val-levitan.md|Val Levitan]], [[wiki/people/monica.md|Monica]] (JVL); [[wiki/people/tony.md|Tony]], Michelle Tumby, [[wiki/people/taylor.md|Taylor]] (CIBC). [[raw/cibc_account_the_january_6_2025.md]]
 **Purpose:** Set up US-dollar business accounts at CIBC for the JVL companies.
 
 Substance lives on:

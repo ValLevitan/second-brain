@@ -59,9 +59,11 @@ date: YYYY-MM-DD          # for dated pages; else creation date
 aliases: [Bob, Robert S.] # all names this entity is known by
 source-count: N           # how many raw files feed this page
 status: active | superseded   # decisions only
+open-commitments: N       # count of open (undischarged) commitment lines on this page; omit or 0 if none
+open-questions: N         # count of open-question lines on this page; omit or 0 if none
 ---
 ```
-Frontmatter enables Obsidian Dataview tables. Keep `source-count` current.
+Frontmatter enables Obsidian Dataview tables. Keep `source-count` current. Keep `open-commitments`/`open-questions` current so lint can roll them up (Section 9a, Section 13) — decrement when a commitment is discharged or a question is answered by a later source.
 
 ## 6. Citation rules
 
@@ -106,7 +108,18 @@ Frontmatter enables Obsidian Dataview tables. Keep `source-count` current.
 9. **Re-index qmd** over the wiki (Section 14) so the next batch's search-before-create sees this batch's new pages. Confirm with `qmd status`.
 10. Commit to git: `ingest: batch N, YYYY-MM, K files`.
 
-The started/completed pair makes a mid-batch crash recoverable: on restart, any batch with "started" but no "completed" is incomplete. **Before re-running it, `git reset --hard` to the last *completed* batch's commit** to discard half-applied edits, then re-run from its file list. (This is the only sanctioned hard reset — it only ever discards an unfinished batch.)
+The started/completed pair makes a mid-batch crash recoverable: on restart, any batch with "started" but no "completed" is incomplete. **Before re-running it, `git reset --hard` to the commit immediately *before* that batch's `started` entry** — i.e. the last commit made before the crashed batch began, which may itself be a `lint`, `schema`, or `query` commit, not necessarily the previous ingest batch. This discards only the half-applied batch while preserving any legitimate non-ingest commits that landed after the last batch. Then re-run from the batch's file list. (This is the only sanctioned hard reset — it only ever discards an unfinished batch. Confirm the target with `git log --oneline` and verify `raw/` is unchanged after the reset.)
+
+## 9a. Commitments & open questions (lightweight capture)
+
+Not a page type — a capture convention so commitments and open questions stay queryable without their own pages (revisit as a first-class type after the backlog if the rollup strains).
+
+- **Capture in place, where it arises.** When a source produces a commitment, record it as a one-line entry on the page where it naturally belongs (the person who owes it, the decision, or the project) under a `## Open commitments` heading, in this exact shape:
+  `- [ ] <who> — <committed to what> — due <when / "unspecified"> — [[raw/<file>.md]]`
+  Mark it `- [x]` and move it to `## History` when a later source shows it discharged.
+- **Open questions** use a parallel `## Open questions` heading, one line each: `- <the question> — [[raw/<file>.md]]`. (This is distinct from `## Open contradictions`, Section 11, which is for conflicting sources.)
+- **Keep frontmatter counts current** (`open-commitments`, `open-questions`) so a Dataview/grep rollup is trivial.
+- **Rollup at every lint pass:** lint gathers all open (`- [ ]`) commitments and all open questions across the wiki and lists them in `wiki/overview.md` under "Open commitments" and "Open questions", each with its owner/page and source. This is the owner's single view of what's outstanding.
 
 ## 10. Query workflow
 
@@ -140,6 +153,7 @@ The started/completed pair makes a mid-batch crash recoverable: on restart, any 
 - **Type fit:** is any recurring kind of knowledge poorly served by the existing page types? Propose additions (Section 3) in the lint report.
 - **Regression re-verification (drift guard):** re-verify a sample of ~10 facts drawn from **older** batches (not just the most recent), each against its cited raw source. The per-batch gate tolerates ~1 miss per batch; across a 100+-batch backlog those misses must not accumulate silently. Report any fact that no longer checks out.
 - **Outside-view engine audit:** every ~10 batches, have a **fresh session with no prior repo context** read `CLAUDE.md` and compare it against the wiki's actual state, reporting discrepancies (rules not being followed, wording that no longer matches practice). The engine must not be audited only by the contexts that operate under it.
+- **Commitments & open-questions rollup (Section 9a):** gather every open (`- [ ]`) commitment and every open question across the wiki and refresh the "Open commitments" and "Open questions" lists in `wiki/overview.md`, each with owner/page and source. Flag commitments long past their stated due date.
 - Output a **plain-language report** the owner reads. This report + `log.md` + per-batch verification **are the owner's review surface** — he will not read the whole wiki. Treat lint as not optional.
 - **Lint only diagnoses and reports — it never edits content pages itself** — except routine category creation/split/merge in `index.md`, which ingest and lint may do directly (catalog housekeeping, not content editing). Never delete pages unilaterally; flag for owner approval.
 - Refresh `wiki/overview.md` at each lint pass (a short, plain-language "state of the wiki" for the owner).

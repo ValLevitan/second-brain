@@ -10,7 +10,7 @@ source-count: 1
 
 **Purpose:** Reconcile Elevate's EDC financing approval (~700 machines, described as video lottery terminals) against JVL's current invoices, which show different unit prices and Flex model names; confirm the shipment/payment schedule.
 
-**Attendees:** Val, James Reble (Elevate); Elevate's CFO was expected but did not join.
+**Attendees:** [[wiki/people/val-levitan.md|Val]], [[wiki/people/james-reble.md|James Reble]] (Elevate); Elevate's CFO was expected but did not join.
 
 Substance lives on:
 - [[wiki/people/james-reble.md]]

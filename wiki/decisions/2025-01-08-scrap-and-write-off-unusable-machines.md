@@ -15,7 +15,7 @@ After the 100 machines ship, Miguel will sort the Mexico warehouse — scrap on 
 
 ## Who and when
 
-- Given as a direct order (not a request) by Val to Miguel via Mary on the Jan 8, 2025 call. Val stressed "it's an order how to do things," not a question. [[raw/shipment_of_machines_from_mexico_january_8_2025.md]]
+- Given as a direct order (not a request) by [[wiki/people/val-levitan.md|Val]] to [[wiki/people/miguel.md|Miguel]] via [[wiki/people/mary.md|Mary]] on the Jan 8, 2025 call. Val stressed "it's an order how to do things," not a question. [[raw/shipment_of_machines_from_mexico_january_8_2025.md]]
 
 ## Important clarifications
 

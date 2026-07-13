@@ -2,7 +2,7 @@
 type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
-aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools]
+aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anton]
 source-count: 2
 ---
 
@@ -29,6 +29,7 @@ JVL's push to get its engineers using AI coding tools. Aaron led a hands-on work
 - Val wants a **leader** on MCP/AI tooling — someone who learns it better than Aaron and leads JVL there, with financial reward for whoever takes it on. [[raw/ai-assisted_development_with_vs_code_git_and_mcp_january_14_2025.md]]
 - Cost model: competent AI use could save at least ~20 hours/month per developer; across 10 developers that's ~2,000 hours/year — roughly one employee. JVL frames this as scale-up capacity, not headcount cuts. Val said he personally dropped a personal assistant and a receptionist by being more efficient. [[raw/ai-assisted_development_with_vs_code_git_and_mcp_january_14_2025.md]]
 - Homework: don't commit AI-generated code to the real codebase yet — instead use the tools to read/explore a familiar codebase (Sasha → Omni framework / LGS, Anton → RGS, Andrei → build/Kubernetes scripts) and produce a `docs/` folder documenting it. A follow-up MCP session was offered. [[raw/ai-assisted_development_with_vs_code_git_and_mcp_january_14_2025.md]]
+- Participants included **Anton** (JVL Minsk engineer), whose repo access worked throughout the session and who received an OpenRouter API key from Andrei; Aaron suggested he try the tools on the RGS codebase. His last name is not stated. [[raw/ai-assisted_development_with_vs_code_git_and_mcp_january_14_2025.md]]
 
 ## Connection to the pipeline debate
 

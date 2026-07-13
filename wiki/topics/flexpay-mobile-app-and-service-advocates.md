@@ -2,7 +2,7 @@
 type: topic
 title: FlexPay mobile app and service advocates
 date: 2026-07-12
-aliases: [FlexPay mobile app, service advocate, service advocates, whale, whale UI]
+aliases: [FlexPay mobile app, service advocate, service advocates, whale, whale UI, Felipe]
 source-count: 1
 ---
 
@@ -20,6 +20,7 @@ A JVL discussion (Jan 13 2025) about a planned FlexPay mobile app and a new user
 
 - Chain: a master hires a service company; the service company employs the advocates/techs who go to locations. Advocates report to the master via their operations manager. [[raw/mobile_app_advocate_persona_profile_january_13_2025.md]]
 - Advocates generally do **not** buy parts under their own name or handle invoicing — JVL invoices the master directly. A rare exception: a company with its own LLC can be invoiced directly (e.g. "Diamond Services"), maybe one or two at most. There is no markup by advocates. [[raw/mobile_app_advocate_persona_profile_january_13_2025.md]]
+- Example used in the call: "I got an invoice from Felipe for a CPU for $400" — Felipe is named on the JVL side that issues a parts invoice. The point was whether a service advocate could mark that up when charging the master (answer: no — advocates don't handle invoicing). Felipe's exact role/last name is not stated. [[raw/mobile_app_advocate_persona_profile_january_13_2025.md]]
 
 ## Product significance
 

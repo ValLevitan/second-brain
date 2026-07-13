@@ -15,7 +15,7 @@ JVL will meet with MG Oil to pursue the South Dakota route-machine opportunity. 
 
 ## Who and when
 
-- Decided by Val with Aaron on the Jan 7, 2025 Jira/2025-plan call. Aaron is waiting on the introductory contact from Maurice. [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]
+- Decided by [[wiki/people/val-levitan.md|Val]] with [[wiki/people/aaron.md|Aaron]] on the Jan 7, 2025 Jira/2025-plan call. Aaron is waiting on the introductory contact from Maurice. [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]
 
 ## Why (the market case)
 

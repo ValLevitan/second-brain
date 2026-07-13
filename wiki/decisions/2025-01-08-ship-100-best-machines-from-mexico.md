@@ -15,7 +15,7 @@ JVL will ship the **100 best-condition machines** out of the Mexico warehouse fi
 
 ## Who and when
 
-- Decided by Val on the Jan 8, 2025 call, with Miguel (warehouse, selected the 100 best) and Mary (translating). [[raw/shipment_of_machines_from_mexico_january_8_2025.md]]
+- Decided by [[wiki/people/val-levitan.md|Val]] on the Jan 8, 2025 call, with [[wiki/people/miguel.md|Miguel]] (warehouse, selected the 100 best) and [[wiki/people/mary.md|Mary]] (translating). [[raw/shipment_of_machines_from_mexico_january_8_2025.md]]
 
 ## Details and costs
 
