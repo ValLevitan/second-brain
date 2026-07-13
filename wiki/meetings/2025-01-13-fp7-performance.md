@@ -10,7 +10,7 @@ source-count: 1
 
 **Purpose:** Review the FP7 sample CPU board's video-performance test results and decide whether it is good enough for the Flex-S cabinet and the Fortune Fu Paws game on the Omni platform.
 
-**Attendees:** [[wiki/people/val-levitan.md|Val]], [[wiki/people/alexander-beratka.md|Alexander Beratka]] (Sasha), [[wiki/people/dmitry-khandov.md|Dmitry Khandov]] (Dima), [[wiki/people/lena.md|Lena]], [[wiki/people/gennady-perry.md|Gennady Perry]], [[wiki/people/pavel.md|Pavel]]; [[wiki/people/aaron.md|Aaron]] referenced at the end.
+**Attendees:** [[wiki/people/val-levitan.md|Val]], [[wiki/people/alexander-biratka.md|Alexander Biratka]] (Sasha), [[wiki/people/dmitry-khandov.md|Dmitry Khandov]] (Dima), [[wiki/people/lena.md|Lena]], [[wiki/people/gennady-perry.md|Gennady Perry]], [[wiki/people/pavel.md|Pavel]]; [[wiki/people/aaron.md|Aaron]] referenced at the end.
 
 Substance lives on:
 - [[wiki/topics/fp7-hardware-platform.md]]

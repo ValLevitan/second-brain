@@ -18,7 +18,7 @@ FP7 is a JVL CPU-board hardware platform being evaluated for the Flex-S cabinet,
 
 ## The performance test (Jan 13)
 
-- A sample board was sent from China to Minsk. Dmitry Khandov built a test scene of 13 simultaneous HD (1920×1080) videos; Alexander Beratka fed them through the board, which nearly choked at about 5 FPS. [[raw/fp-7_performance_analysis_january_13_2025.md]]
+- A sample board was sent from China to Minsk. Dmitry Khandov built a test scene of 13 simultaneous HD (1920×1080) videos; Alexander Biratka fed them through the board, which nearly choked at about 5 FPS. [[raw/fp-7_performance_analysis_january_13_2025.md]]
 - Reducing the video count found a "tolerable" threshold (about 20 FPS) at 7 simultaneous HD videos plus 2 half-screens on V-Deck. Val and Lena agree 20 FPS is not satisfactory but is the working ceiling for now. [[raw/fp-7_performance_analysis_january_13_2025.md]]
 - Videos were in VP8/VP9 format (chosen because they support alpha transparency); OS was standard Linux with no special drivers; profiling was by visual observation only (no deep instrumentation). RAM and memory bandwidth were not the bottleneck. [[raw/fp-7_performance_analysis_january_13_2025.md]]
 - "Spine" objects (skeletal animation) ran smoothly even when videos dropped frames — so shifting effects from video to spine animation reduces load, at the cost of extra design effort to synchronize the two. [[raw/fp-7_performance_analysis_january_13_2025.md]]

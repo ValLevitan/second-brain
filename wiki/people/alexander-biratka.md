@@ -1,14 +1,14 @@
 ---
 type: person
-title: Alexander Beratka
+title: Alexander Biratka
 date: 2026-07-12
-aliases: [Alexander Beratka, Alexander, Sasha, Sasha Beratka]
+aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka]
 source-count: 3
 ---
 
-# Alexander Beratka
+# Alexander Biratka
 
-Alexander Beratka (called "Sasha") is a JVL engineer, part of the Minsk engineering team. He runs hardware/performance tests and works on the build pipeline.
+Alexander Biratka (called "Sasha") is a JVL engineer, part of the Minsk engineering team. He runs hardware/performance tests and works on the build pipeline.
 
 ## Role
 
@@ -18,7 +18,7 @@ Alexander Beratka (called "Sasha") is a JVL engineer, part of the Minsk engineer
 - He took the homework (with the QA team) to define which parameters QA needs when building the final ISO. [[raw/development_pipeline_january_13_2025.md]]
 - Attended the Jan 14 AI-assisted-development workshop as a participant; Aaron suggested Sasha try the AI tools on the Omni framework or LGS codebase. [[raw/ai-assisted_development_with_vs_code_git_and_mcp_january_14_2025.md]]
 
-Note: the transcripts also use "Sasha" as a short form and once the garble "Pasha" appears near his name; "Pasha" is treated as Pavel elsewhere. See [[wiki/people/pavel.md]].
+Note: the correct surname is **Biratka** (confirmed by Val). The transcripts spell it inconsistently — mostly "Beratka", once "Biratka" — so both forms are kept as aliases for search. The transcripts also use "Sasha" as a short form, and once the garble "Pasha" appears near his name; "Pasha" is treated as Pavel elsewhere. See [[wiki/people/pavel.md]].
 
 ## Sources
 
