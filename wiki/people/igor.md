@@ -20,6 +20,8 @@ Igor handles operations and setup for JVL's new markets — helping register com
 
 Note: the mobile-app persona call mentions an "Igor" whom the speaker felt it was "too early" to involve on the UI — likely the same person, but the transcript does not confirm it, so left unasserted. His last name is not stated.
 
+Cross-reference: a JVL **industrial/product designer** also named "Igor" appears on the Feb 27 Flex V42/C cabinet review — recorded separately as [[wiki/people/igor-designer.md|Igor (industrial designer)]] (create-not-merge). Whether that designer is this ops Igor is unconfirmed (see Owner Decisions).
+
 ## Sources
 
 - [[raw/anibal_call_011325_meeting_notes_2025-01-14.md]]

@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie]
-source-count: 21
+source-count: 22
 ---
 
 # Aaron
@@ -62,6 +62,10 @@ His surname is given as **Bockelie** on the Jan 21 continuous-delivery transcrip
 - **Game/design repo split + docs-as-code (Feb 21):** in the LFS demo with [[wiki/people/lena.md|Lena]], Aaron proposed two repos per game (game + LFS design repo, joined by a git submodule; build doesn't need the comp art) and demoed docs-as-code — Markdown docs auto-rendered to a per-project website (Docusaurus/MkDocs/GitHub Docs) with Mermaid diagrams. He declared "the only source of truth is what's in git" and that his and Val's goal is to **retire Atlassian** (Confluence now, Jira in "a year or two") in favour of GitHub. He took on migrating Fortune Foo Paws' Confluence content into a GitHub docs site. See [[wiki/decisions/2025-02-21-separate-game-and-design-repos.md]] and [[wiki/topics/docs-as-code-and-atlassian-exit.md]]. [[raw/GitHub_commit_of_LFS_demo_by_Lena_2025-02-21.md]]
 - **Designer branching workflow (Feb 26):** coached the design team (Lena, Dima Khandov, Yulia, Anastasia) on feature/story branches, PR-only merges to `main`, and a branch-lifespan performance metric (3 days amazing → 10 days worst-acceptable) — applied to PSD files too; is building a Photoshop→contact-sheet GitHub Action; and set the plan to keep Juan/Michael out ~30 days until the core four are comfortable. See [[wiki/decisions/2025-02-26-designer-branching-workflow.md]]. [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]
 
+## Git progress check-in with the designers (Feb 28)
+
+- Aaron ran a hands-on Git check-in with [[wiki/people/lena.md|Lena]], [[wiki/people/yulia.md|Yulia]], [[wiki/people/anastasia.md|Anastasia]] and [[wiki/people/andrei.md|Andre]] on the Fortune Foo Paws repo: put the repo-usage rules into the repo ("general instructions are better than no instructions"), **don't commit the GDD yet** ([[wiki/people/efim-podvoiski.md|Efim]]/Michael still writing it), and **clone this repo as the future game template**. He walked them through resolving a live **gitignore merge conflict** caused by direct commits to `main`, teaching that the repo owner merges PRs and that pending PRs must be ordered — and set Andre homework on the `.github` contact-sheet Action. He noted he should be used as a **consultant, not an employee**. See [[wiki/topics/docs-as-code-and-atlassian-exit.md]]. [[raw/Git_progress_check_in_2025-02-28.md]]
+
 ## Sources
 
 - [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]
@@ -85,3 +89,4 @@ His surname is given as **Bockelie** on the Jan 21 continuous-delivery transcrip
 - [[raw/Call_with_Aaron_Bockelie_2025-02-21.md]]
 - [[raw/GitHub_commit_of_LFS_demo_by_Lena_2025-02-21.md]]
 - [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]
+- [[raw/Git_progress_check_in_2025-02-28.md]]

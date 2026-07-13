@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena]
-source-count: 6
+source-count: 7
 ---
 
 # Genadi Peari
@@ -35,6 +35,11 @@ Genadi Peari is JVL's hardware lead. He develops the CPU boards and advises on p
 
 - On the Feb 25 embedded standup Genadi ("Геннадий") is the one preparing the hardware **configuration** to ship (~4 machines per FlexPay; 4 FlexPay + ~15 ports); Val pressed him to have it ready by **Thursday**. After the FlexPay+second-machine test ships, Genadi is to finish the hard-to-start machine and do a **full firmware update**. See [[wiki/meetings/2025-02-25-embedded-group-flexport-flexpay.md]]. [[raw/Embedded_Group_alignment_and_update_2025-02-25.md]]
 
+## Flex V42/C design review (Feb 27)
+
+- On the Feb 27 cabinet review Genadi ("Gennady") is the hardware/mechanical side: he flags that the **player-tracking bracket has predefined dimensions**, so the group agreed to keep three physical pieces made to look like one continuous piece rather than redesign the bracket ("less work for Gennady"), and he works through where the wiring/speaker channels and the credit-card reader go. See [[wiki/decisions/2025-02-27-flex-street-cabinet-design-direction.md]]. [[raw/Flex_V42_C_design_evolution_review_2025-02-27.md]]
+- Note: here "Gennady" is doing cabinet **hardware/brackets**, while a separate **[[wiki/people/igor-designer.md|Igor]]** does the industrial-design renderings — the two are distinct on this call. [[raw/Flex_V42_C_design_evolution_review_2025-02-27.md]]
+
 Name confirmed by Val as **Genadi Peari**; the transcripts render it "Gennady Perry" / "Gena", kept as aliases for search.
 
 ## Sources
@@ -45,3 +50,4 @@ Name confirmed by Val as **Genadi Peari**; the transcripts render it "Gennady Pe
 - [[raw/Embedded_Group_alignment_and_update_2025-02-18.md]]
 - [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-02-25.md]]
+- [[raw/Flex_V42_C_design_evolution_review_2025-02-27.md]]

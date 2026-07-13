@@ -3,7 +3,8 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova]
-source-count: 8
+source-count: 11
+open-commitments: 1
 ---
 
 # Lena
@@ -42,6 +43,18 @@ Her surname is given as **Zhukova** on the Feb 18 onboarding session (WEBVTT).
 
 - On the Feb 26 coaching Lena is the designer drawing Photoshop comp art within a feature (with [[wiki/people/yulia.md|Yulia]] modelling and [[wiki/people/anastasia.md|Anastasia]] texturing). She questioned why PSD files need branch/PR discipline and worried about premature comments on unfinished cats — Aaron's answer: unfinished branch work is fine to show, and [[wiki/people/michael-game-producer.md|Michael]] only comments at PR time. She asked Andrei/Dima to create a **design** space and separate repositories, including one for the **Fortune 4 Progressive Sign** (a separate IP). See [[wiki/decisions/2025-02-26-designer-branching-workflow.md]]. [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]
 
+## Game-design review (Feb 28)
+
+- Lena reported the **Fortune Foo Paws bonus topper** done (larger bonus-name text, promoting "win all three bonuses"). She is refining the **shiny cat texture** (matte looked "plasticky"; shadows lightened) and will insert the cat into the master file to judge in context; final color correction waits until the game runs on a real monitor. She confirmed the **HG-6 COAM nudge/button** modification is "not a NASA project" — within about a month for all games, exact estimate after production issues are created. She was tasked to prepare the **V-Deck visual proposal** (the bet-up flame effect on buttons 3/4/5) as a **visual storyboard by next Friday** (visuals, no animation yet). See [[wiki/topics/slot-game-design-principles.md]]. [[raw/Game design part 1 - Feb-28-2025.md]] [[raw/Game design part 2 - Feb-28-2025.md]]
+
+## Git progress check-in (Feb 28)
+
+- One of the three designers (with [[wiki/people/yulia.md|Yulia]] and [[wiki/people/anastasia.md|Anastasia]]) Aaron coached to put the repo-usage rules into the Fortune Foo Paws repo and keep making pull requests. See [[wiki/topics/docs-as-code-and-atlassian-exit.md]]. [[raw/Git_progress_check_in_2025-02-28.md]]
+
+## Open commitments
+
+- [ ] Lena — prepare a **visual storyboard** of the V-Deck bet-up incentive (escalating flame/particles on bet buttons 3/4/5) — due **next Friday** — [[raw/Game design part 2 - Feb-28-2025.md]]
+
 ## Sources
 
 - [[raw/fp-7_performance_analysis_january_13_2025.md]]
@@ -52,3 +65,6 @@ Her surname is given as **Zhukova** on the Feb 18 onboarding session (WEBVTT).
 - [[raw/GitHub_commit_of_LFS_demo_by_Lena_2025-02-21.md]]
 - [[raw/game_design_meeting_february_21_2025.md]]
 - [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]
+- [[raw/Game design part 1 - Feb-28-2025.md]]
+- [[raw/Game design part 2 - Feb-28-2025.md]]
+- [[raw/Git_progress_check_in_2025-02-28.md]]

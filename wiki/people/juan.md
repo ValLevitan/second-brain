@@ -2,8 +2,9 @@
 type: person
 title: Juan
 date: 2026-07-12
-aliases: [Juan]
-source-count: 7
+aliases: [Juan, Juan Martinez]
+source-count: 11
+open-commitments: 2
 ---
 
 # Juan
@@ -28,7 +29,21 @@ Juan works on JVL's commercial side, its relationship with the game-testing lab 
 
 - Juan is the field/customer-facing lead across the market releases. Val credited him with building a good **rapport with Lonnie** (the SD lab lets JVL pre-test unapproved software as an exception, not an obligation — to be handled with care), discussed sending [[wiki/people/sebastian.md|Sebastian]] to South Dakota, and worked through the Georgia dual-SAS/third-printer-port design and the Florida CPU-kit ("Florida Ruta") single-monitor requirements. See [[wiki/projects/south-dakota-vlt-market.md]] and [[wiki/projects/georgia-market-rollout.md]]. [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 
-The transcripts do not give Juan's last name.
+## Flex cabinet review + Incom (Feb 27)
+
+- **Kiosk-repurpose idea (Flex V42/C review):** Juan brainstormed that since the payment **kiosk uses the same CPU as a Flex machine**, JVL could pitch masters that at end-of-life the kiosk converts into a standalone machine (remove dispenser/card reader + software upgrade + Georgia software) — "not a paperweight." See [[wiki/topics/jvl-machine-lineup.md]]. [[raw/Flex_V42_C_design_evolution_review_2025-02-27.md]]
+- **Incom commissioning call:** Val designated **"Juan Martinez"** as JVL's **first point of contact** for the Incom payment-processor relationship (Val stepping to the background for executive/legal aspects, with [[wiki/people/pavel.md|Pavel]] as Director of Engineering). Likely this same Juan, giving a surname — but not independently confirmed (see Owner Decisions); "Juan Martinez" kept as an alias. See [[wiki/organizations/incom.md]]. [[raw/incomm_commissioning_plan_february-27-2025.md]]
+
+## Game-design review (Feb 28)
+
+- Juan (now present for the parked debate) sided with Val that the game should visibly reward betting up; the group landed on the **jackpot-rush flame on bet buttons 3/4/5 + sound** presentation. He also drove the **minimum-bet / bet-configuration** discussion. See [[wiki/topics/slot-game-design-principles.md]]. [[raw/Game design part 1 - Feb-28-2025.md]] [[raw/Game design part 2 - Feb-28-2025.md]]
+
+## Open commitments
+
+- [ ] Juan — write a JIRA **REQ** for a **second math program** for Fortune Foo Paws with the Chinese bet levels (88–888); he has competitor sample bets to fine-tune — due unspecified — [[raw/Game design part 2 - Feb-28-2025.md]]
+- [ ] Juan — write the **requirements for the V-Deck (VDEC) behavior** (button special effects + escalating sound on bet levels 3/4/5) — due unspecified — [[raw/Game design part 2 - Feb-28-2025.md]]
+
+The transcripts do not otherwise give Juan's last name (see the Feb 27 "Juan Martinez" note above).
 
 ## Sources
 
@@ -39,3 +54,7 @@ The transcripts do not give Juan's last name.
 - [[raw/Puerto Rico progress report - January 29, 2025.md]]
 - [[raw/Game design meeting - February 6, 2025.md]]
 - [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
+- [[raw/Flex_V42_C_design_evolution_review_2025-02-27.md]]
+- [[raw/incomm_commissioning_plan_february-27-2025.md]]
+- [[raw/Game design part 1 - Feb-28-2025.md]]
+- [[raw/Game design part 2 - Feb-28-2025.md]]

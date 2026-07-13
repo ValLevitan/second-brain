@@ -3,7 +3,7 @@ type: person
 title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov]
-source-count: 15
+source-count: 18
 open-commitments: 1
 open-questions: 0
 ---
@@ -51,6 +51,12 @@ Pavel (called "Pasha") is a JVL engineer on the Minsk team who works on system/d
 
 - In a Feb 21 call Aaron used Pavel as the example of a role to automate: the step-by-step deployment/build flow Pavel performs could be baked into an MCP so an AI orchestrates it. See [[wiki/topics/ai-assisted-development.md]]. [[raw/Call_with_Aaron_Bockelie_2025-02-21.md]]
 
+## Flex card reader, Incom, and game engineering (Feb 27–28)
+
+- **Flex V42/C credit-card reader (Feb 27):** the full-insert credit-card reader is a **USB device**; Pavel already has a sample; it needs a **software** (not firmware) upgrade to drive it. See [[wiki/decisions/2025-02-27-flex-street-cabinet-design-direction.md]]. [[raw/Flex_V42_C_design_evolution_review_2025-02-27.md]]
+- **Incom commissioning (Feb 27):** Val named Pavel as JVL's **Director of Engineering** and the engineering point of contact for the Incom payment-processor integration (with [[wiki/people/juan.md|Juan]] as first point of contact). See [[wiki/organizations/incom.md]]. [[raw/incomm_commissioning_plan_february-27-2025.md]]
+- **Progressive per denomination (Feb 28):** Pavel's engineering group confirmed it is easier to add a progressive level **by denomination** on the **HG-6** CPU kits, removing the max-denom-only limit; committed to have it in ~2–3 weeks with an individual progressive per denomination. See [[wiki/decisions/2025-02-28-hg6-individual-progressive-by-denomination.md]]. [[raw/Game design part 1 - Feb-28-2025.md]]
+
 ## Open commitments
 
 - [ ] Pavel — produce image files (e.g. an ext2/ext4 partition or a Docker/Docker-Compose image) that collect the modules for local deployment; full ISO assembly deferred to a later milestone — due by the next meeting (Monday) — [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]]
@@ -74,3 +80,6 @@ Note: "Pasha" and "Sasha" are sometimes confused in the transcripts; "Pasha" map
 - [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 - [[raw/Call_with_Aaron_Bockelie_2025-02-21.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-02-25.md]]
+- [[raw/Flex_V42_C_design_evolution_review_2025-02-27.md]]
+- [[raw/incomm_commissioning_plan_february-27-2025.md]]
+- [[raw/Game design part 1 - Feb-28-2025.md]]

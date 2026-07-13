@@ -3,8 +3,8 @@ type: person
 title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich]
-source-count: 3
-open-commitments: 4
+source-count: 4
+open-commitments: 3
 open-questions: 0
 ---
 
@@ -36,15 +36,28 @@ Andrei Klimovich runs JVL's **online-games / RGS commercial operations** — the
 - **Contractors engaged:** [[wiki/people/anton-smm.md|Anton]] for Meta (FB/IG) ads focused on **Florida** (~$500 initial test budget); [[wiki/people/maxim-3d.md|Maxim]] for high-poly ECHO/slot renders. See [[wiki/topics/echo-home-gaming-device.md]]. [[raw/recap_meeting_andrei-February-21-2025.md]]
 - **Marketplace research:** evaluating online-casino platform capabilities for JVL's marketplace — multi-tenant architecture, player-account management/VIP, AI-driven fraud/AML, multi-currency + crypto payments. See [[wiki/topics/online-games-rgs-distribution.md]]. [[raw/recap_meeting_andrei-February-21-2025.md]]
 
+## Feb 27 recap — account-manager candidate review
+
+Andrei Klimovich presented three candidates for the online **Account Manager** role and the account economics. See [[wiki/topics/online-games-rgs-distribution.md]]. [[raw/meeting_summary_andrei_klimovich-Feb-27-2025.md]]
+
+- **Sam Mamedov** — Ukraine; ~3 years in slot-game marketing / business development, minimal direct account-management experience; expects **$4,500/month incl. bonuses**. Recommended for future **digital-marketing consulting**, not the current AM role. [[raw/meeting_summary_andrei_klimovich-Feb-27-2025.md]]
+- **Egor** — Ukraine (can't leave the country due to military restrictions); 6 years total incl. 3 recent with **Platipus Games**; strong industry knowledge, excellent English, good with numbers/analytics; expects **$2,500 base + bonuses up to ~$3,000 net/month**; motivated and immediately available; possible future military-draft risk. [[raw/meeting_summary_andrei_klimovich-Feb-27-2025.md]]
+- **Charlotte** — in Latvia, originally from Colombia; experience with **Endorphina Gaming** and **Vegangster**; manages 70 accounts (30 very active); English/Spanish/Portuguese/French; expects **$3,200 base + bonuses to ~$5,000/month**; could bring accounts from Baltic/USA/Canada/Latin America/UK. [[raw/meeting_summary_andrei_klimovich-Feb-27-2025.md]]
+- **Recommendation:** exclude Sam from the immediate AM role (keep for marketing consulting); choose between Egor (cheaper, motivated, available) and Charlotte (pricier, broader portfolio). Consider hiring two temporarily to hedge; verify candidate claims (salary, account numbers) via documentation such as tax records; continue the search and re-evaluate after ~3 months; prepare formal offers with clear bonus targets. [[raw/meeting_summary_andrei_klimovich-Feb-27-2025.md]]
+
 ## Open commitments
 
 - [ ] Andrei Klimovich — commission the high-poly ECHO 3D model from [[wiki/people/maxim-3d.md|Maxim]] and launch Meta (Instagram/Facebook) ads via [[wiki/people/anton-smm.md|Anton]] driving traffic to the Amazon page — due unspecified — [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
 - [ ] Andrei Klimovich — produce a quality premium landing page for ECHO before starting paid Meta traffic — due unspecified — [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
-- [ ] Andrei Klimovich — finish hiring a cheap online account manager and bring candidate(s) to Val next week — due next week — [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
 - [ ] Andrei Klimovich — investigate ECHO packaging (find a packaging studio) — due unspecified — [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
+
+## History
+
+- [x] Andrei Klimovich — finish hiring a cheap online account manager and bring candidate(s) to Val next week — **discharged Feb 27**: presented three candidates (Sam Mamedov, Egor, Charlotte) to Val with a recommendation. [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]] [[raw/meeting_summary_andrei_klimovich-Feb-27-2025.md]]
 
 ## Sources
 
 - [[raw/Recap with Andrei Klimovich - January 30, 2025.md]]
 - [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
 - [[raw/recap_meeting_andrei-February-21-2025.md]]
+- [[raw/meeting_summary_andrei_klimovich-Feb-27-2025.md]]

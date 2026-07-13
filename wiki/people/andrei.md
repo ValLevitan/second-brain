@@ -2,9 +2,9 @@
 type: person
 title: Andrei
 date: 2026-07-12
-aliases: [Andrei, Andrey, Andrei Bosik]
-source-count: 15
-open-commitments: 3
+aliases: [Andrei, Andrey, Andrei Bosik, Andre]
+source-count: 16
+open-commitments: 4
 ---
 
 # Andrei
@@ -49,11 +49,16 @@ Andrei (also spelled "Andrey") is a JVL engineer on the Minsk team who works on 
 
 His surname is given as **Bosik** on the Feb 12 GitHub check-in (WEBVTT). (Distinct from [[wiki/people/andrei-klimovich.md|Andrei Klimovich]], who runs the online-games commercial business — see Owner Decisions. Also distinct from [[wiki/people/andrey-khandov.md|Andrey Khandov]], the Miranda developer coached Feb 3 — Andrei is a named escalation contact there, not the coachee.)
 
+## Git progress check-in (Feb 28)
+
+- On the Feb 28 designer Git check-in, Andrei ("Andre") is the repo administrator: Aaron asked whether he had **disabled auto-resolve of conflicts** in the repo settings (he'd check), and Andrei said he had already **fixed the GitHub Actions** in the repo. His homework: understand the `.github` **contact-sheet automation** (Photoshop→thumbnail), create Git-access **credentials** for it and modify its **YAML** so it can commit, for a Wednesday-9am demo. See [[wiki/topics/docs-as-code-and-atlassian-exit.md]]. [[raw/Git_progress_check_in_2025-02-28.md]]
+
 ## Open commitments
 
 - [ ] Andrei — create the 7 JVL-prefixed GitHub organizations and move current repos in (migrate Omni/Miranda/FlexPay first, ~1 hour), then inventory-map all remaining Bitbucket/SVN repos (old → new name → location) — due unspecified — [[raw/Git_repo_structure_part_2_2025-02-11.md]]
 - [ ] Andrei — enable GitHub Copilot for the whole team, set up Lena on the tooling, and write a step-by-step VS Code / Git-LFS onboarding handout (draft with Andre, then test on Lena) — due unspecified — [[raw/GitHub_Commit_LFS-Feb-18-2025.md]]
 - [ ] Andrei — create the two new **Game Concepts** and **Game Designs** GitHub organizations (mirroring the Jira concept/design/production stages) and grant Lena repo-creation rights — due unspecified — [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]
+- [ ] Andrei ("Andre") — get the Fortune Foo Paws `.github` **contact-sheet Action** working as a functional repo action (set up Git-access credentials, modify the YAML to use them) and demo it committing a Photoshop file — due by the Wednesday 9am meeting — [[raw/Git_progress_check_in_2025-02-28.md]]
 
 ## Sources
 
@@ -72,3 +77,4 @@ His surname is given as **Bosik** on the Feb 12 GitHub check-in (WEBVTT). (Disti
 - [[raw/GitHub_Commit_LFS-Feb-18-2025.md]]
 - [[raw/GitHub_commit_of_LFS_demo_by_Lena_2025-02-21.md]]
 - [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]
+- [[raw/Git_progress_check_in_2025-02-28.md]]
