@@ -22,6 +22,8 @@ Note: the mobile-app persona call mentions an "Igor" whom the speaker felt it wa
 
 Cross-reference: a JVL **industrial/product designer** also named "Igor" appears on the Feb 27 Flex V42/C cabinet review — recorded separately as [[wiki/people/igor-designer.md|Igor (industrial designer)]] (create-not-merge). Whether that designer is this ops Igor is unconfirmed (see Owner Decisions).
 
+Cross-reference: a JVL **Financial Controller named Igor Donis** appears in the 2026 corporate-identity/tax documents (day-to-day owner of JVL Systems' California franchise tax) — recorded separately as [[wiki/people/igor-donis.md|Igor Donis]] (create-not-merge). Whether Igor Donis is this ops Igor is unconfirmed; the contexts differ (operations/office-setup vs. finance/corporate-tax). Flagged for the owner (see Owner Decisions).
+
 ## Sources
 
 - [[raw/anibal_call_011325_meeting_notes_2025-01-14.md]]
