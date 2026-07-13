@@ -51,7 +51,7 @@ Two Jan 20 sessions moved the DevSecOps pillar from strategy into concrete tool 
 
 ## Minsk IT-structure follow-through (Jan 22)
 
-- A short Jan 22 call turned the DevSecOps grooming into a work split: convert the Miro board into initiatives/products for the Jira plans view; **Andrei** takes the DevOps work (and will be educated on DevOps, which he agreed to), while **Dima** takes application-support/install-and-configure work. Aaron acknowledged a reminder placed in the middle of the Miro board. See [[wiki/meetings/2025-01-22-minsk-it-structure.md]]. (Whether "Dima" is [[wiki/people/dmitry-khandov.md|Dmitry Khandov]] is unconfirmed — see Owner Decisions.) [[raw/it_structure_minsk-jan-22-2025.md]]
+- A short Jan 22 call turned the DevSecOps grooming into a work split: convert the Miro board into initiatives/products for the Jira plans view; **Andrei** takes the DevOps work (and will be educated on DevOps, which he agreed to), while **[[wiki/people/dmitri-kovalchuk.md|Dima]]** (JVL IT) takes application-support/install-and-configure work. Aaron acknowledged a reminder placed in the middle of the Miro board. See [[wiki/meetings/2025-01-22-minsk-it-structure.md]]. (The IT "Dima" is [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — owner-confirmed 2026-07-13.) [[raw/it_structure_minsk-jan-22-2025.md]]
 
 ## GitHub enterprise structure finalized (Feb 11)
 

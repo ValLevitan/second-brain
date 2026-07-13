@@ -15,7 +15,7 @@ JVL will open US-dollar business accounts at CIBC for its three companies, done 
 
 ## Who and when
 
-- Decided on the Jan 6, 2025 CIBC account-setup call, with [[wiki/people/val-levitan.md|Val]] leading and [[wiki/people/monica.md|Monica]] on the call; [[wiki/people/ina-levitan.md|Ina]], Val, and Monica will be the three signers. [[raw/cibc_account_the_january_6_2025.md]]
+- Decided on the Jan 6, 2025 CIBC account-setup call, with [[wiki/people/val-levitan.md|Val]] leading and [[wiki/people/monica.md|Monica]] on the call; [[wiki/people/inna-levitan.md|Ina]], Val, and Monica will be the three signers. [[raw/cibc_account_the_january_6_2025.md]]
 - CIBC contacts: [[wiki/people/tony.md|Tony]] (relationship), Michelle Tumby (retiring), and [[wiki/people/taylor.md|Taylor]] (ongoing primary contact). [[raw/cibc_account_the_january_6_2025.md]]
 
 ## Why

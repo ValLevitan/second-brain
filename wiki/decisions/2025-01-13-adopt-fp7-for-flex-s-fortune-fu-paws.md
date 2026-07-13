@@ -15,7 +15,7 @@ JVL will move forward with the FP7 CPU board, especially for the Flex-S cabinet,
 
 ## Who and when
 
-- Decided by [[wiki/people/val-levitan.md|Val]] at the Jan 13 2025 FP7 performance review, with agreement from the design side ([[wiki/people/lena.md|Lena]], [[wiki/people/dmitry-khandov.md|Dmitry Khandov]]) and hardware ([[wiki/people/genadi-peari.md|Genadi Peari]]). [[raw/fp-7_performance_analysis_january_13_2025.md]]
+- Decided by [[wiki/people/val-levitan.md|Val]] at the Jan 13 2025 FP7 performance review, with agreement from the design side ([[wiki/people/lena.md|Lena]], [[wiki/people/dmitriy-khandov.md|Dmitry Khandov]]) and hardware ([[wiki/people/genadi-peari.md|Genadi Peari]]). [[raw/fp-7_performance_analysis_january_13_2025.md]]
 
 ## Rationale
 

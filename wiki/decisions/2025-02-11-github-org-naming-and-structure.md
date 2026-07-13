@@ -20,9 +20,9 @@ status: active
 
 ## The organization list (7), mirrored onto the Jira value streams
 
-Named (all JVL-prefixed): **Games Production**; **Math & Game Mechanics** ("Games Math & Mechanics"); **Platform** (a.k.a. gaming/backend platform); **Observability Platform** (the CMS replacement, owned by "Dima Chudinov"); **Core Technology / Core Tech** (holds Linux and the hardware-abstraction-layer HAL); **Systems Operations** (Andrei's — operating everything, kept separate from observability); and **Hardware & Firmware** (formerly "distribution infrastructure" — Flex, countertops, payment platform, progressive controller, device drivers; cabinets tracked separately). Pavel and Aaron agreed to restructure the Jira value streams to match. [[raw/Git_repo_structure_part_2_2025-02-11.md]]
+Named (all JVL-prefixed): **Games Production**; **Math & Game Mechanics** ("Games Math & Mechanics"); **Platform** (a.k.a. gaming/backend platform); **Observability Platform** (the CMS replacement, owned by [[wiki/people/dmitri-kovalchuk.md|Dima]] — transcribed "Dima Chudinov"); **Core Technology / Core Tech** (holds Linux and the hardware-abstraction-layer HAL); **Systems Operations** (Andrei's — operating everything, kept separate from observability); and **Hardware & Firmware** (formerly "distribution infrastructure" — Flex, countertops, payment platform, progressive controller, device drivers; cabinets tracked separately). Pavel and Aaron agreed to restructure the Jira value streams to match. [[raw/Git_repo_structure_part_2_2025-02-11.md]]
 
-> "Dima Chudinov" (owner of the Observability Platform / CMS-replacement org) may be distinct from [[wiki/people/dmitry-khandov.md|Dmitry Khandov]] — recorded in Owner Decisions, not merged. [[raw/Git_repo_structure_part_2_2025-02-11.md]]
+> The Observability-Platform owner (transcribed "Dima Chudinov") is [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]], JVL's IT person (owner ruling 2026-07-13); "Chudinov" kept as a transcription variant. [[raw/Git_repo_structure_part_2_2025-02-11.md]]
 
 ## Two more design orgs added (Feb 26)
 

@@ -2,7 +2,8 @@
 type: person
 title: Andrey Khandov
 date: 2026-07-13
-aliases: [Andrey Khandov, Andrey Handov, Andrei Handov]
+aliases: [Andrey Khandov, Andrew Khandov, Andrey Handov, Andrei Handov]
+disambiguation: "Miranda developer. Distinct from Dmitriy Khandov, JVL's Senior 3D Graphic Designer (same surname, different person — wiki/people/dmitriy-khandov.md). Owner-confirmed 2026-07-13. Owner has referred to him as both 'Andrey' and 'Andrew' Khandov; first-name spelling not yet locked — flagged."
 source-count: 2
 open-commitments: 1
 open-questions: 0
@@ -12,7 +13,7 @@ open-questions: 0
 
 Andrey Khandov is a **JVL developer** whose code feeds the **Miranda** software product. In a Feb 3 2025 coaching recording, Val lays out homework to organise Khandov's code into GitHub feature branches for the features being released in **Miranda 8**. [[raw/github_explained-feb-3-2025.md]]
 
-- Name confirmed by Val as **Andrey Khandov** (transcript spelled it "Handov"/"Andrei Handov"; kept as aliases). He shares the surname **Khandov** with [[wiki/people/dmitry-khandov.md|Dmitry Khandov]] (design/video engineer, "Dima") — whether they are related is not stated; treated as **distinct people**, not merged. Whether Andrey is himself the person being coached in the Feb 3 recording or a third party whose code is being migrated is still **unclear** (escalation contacts named were "Andre" = [[wiki/people/andrei.md|Andrei]], "Dimitri" = [[wiki/people/dmitry-khandov.md|Dmitry]]?, and Val). [[raw/github_explained-feb-3-2025.md]]
+- **Owner-confirmed (2026-07-13):** he is a **distinct person** from [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]] (JVL's Senior 3D Graphic Designer) — same surname, different people; the two-page split stays and the confusion risk is noted in both pages' frontmatter. The owner referred to him here as **"Andrew Khandov"** but earlier explicitly as **"Andrey Khandov"**; kept under "Andrey" with "Andrew" as an alias until the first-name spelling is locked. Transcript spelled the surname "Handov"/"Andrei Handov" (aliases). Whether Andrey is the person coached in the Feb 3 recording or a third party whose code is migrated is still **unclear**. [[raw/github_explained-feb-3-2025.md]]
 
 ## Feature-branch discipline (Val's rules, Feb 3)
 

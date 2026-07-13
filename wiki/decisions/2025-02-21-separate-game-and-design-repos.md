@@ -9,7 +9,7 @@ status: active
 
 # Split each game into a "game" repo and a "design" repo
 
-**Decision (Feb 21 2025, [[wiki/people/aaron.md|Aaron]] proposing, [[wiki/people/val-levitan.md|Val]] + [[wiki/people/lena.md|Lena]] + [[wiki/people/andrei.md|Andrei (Bosik)]] + [[wiki/people/dmitry-khandov.md|Dima Khandov]]):** each game gets **two repositories**, not one — a **game** repo and a **design** repo (e.g. "Fortune Foo Paws game" and "Fortune Foo Paws design"). [[raw/GitHub_commit_of_LFS_demo_by_Lena_2025-02-21.md]]
+**Decision (Feb 21 2025, [[wiki/people/aaron.md|Aaron]] proposing, [[wiki/people/val-levitan.md|Val]] + [[wiki/people/lena.md|Lena]] + [[wiki/people/andrei.md|Andrei (Bosik)]] + [[wiki/people/dmitriy-khandov.md|Dima Khandov]]):** each game gets **two repositories**, not one — a **game** repo and a **design** repo (e.g. "Fortune Foo Paws game" and "Fortune Foo Paws design"). [[raw/GitHub_commit_of_LFS_demo_by_Lena_2025-02-21.md]]
 
 ## Why two repos
 

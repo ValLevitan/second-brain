@@ -12,7 +12,7 @@ Eugine Yavorski (surname confirmed by Val; called "Zhenya" / "Женя" in the t
 
 ## Role
 
-- On the Feb 18 embedded-group standup, Evgeny is the person running FlexPay on the machine at the first-location site; work stalled because he could not start FlexPay until [[wiki/people/dmitry-khandov.md|"Dima"]] delivered a new FlexPay build that ignores the card dispenser (see Owner Decisions — this embedded "Dima" is not attributed). He worked closely and near-continuously with the Minsk team last week, giving Pavel remote access to his machine. [[raw/Embedded_Group_alignment_and_update_2025-02-18.md]]
+- On the Feb 18 embedded-group standup, Evgeny is the person running FlexPay on the machine at the first-location site; work stalled because he could not start FlexPay until "Dima" delivered a new FlexPay build that ignores the card dispenser (this embedded build-delivery "Dima" is a developer — not the 3D designer, and not clearly the IT Dima; left UNRESOLVED per the owner ruling). He worked closely and near-continuously with the Minsk team last week, giving Pavel remote access to his machine. [[raw/Embedded_Group_alignment_and_update_2025-02-18.md]]
 - His encoding tests matched the samples he was sent; he had assembled the pieces individually and needed at least another week to integrate everything. He is targeting placing machines at the first locations, but Val pushed him to allow two weeks (~March 5) rather than one. See [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]]. [[raw/Embedded_Group_alignment_and_update_2025-02-18.md]]
 
 ## Embedded group — cash-out edge case (Feb 25)

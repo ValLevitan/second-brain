@@ -9,7 +9,7 @@ status: active
 
 # Feature/story branch discipline for the design team
 
-**Decision (Feb 26 2025, [[wiki/people/aaron.md|Aaron]] + [[wiki/people/val-levitan.md|Val]] coaching [[wiki/people/lena.md|Lena]], [[wiki/people/dmitry-khandov.md|Dima Khandov]], [[wiki/people/yulia.md|Yulia]], [[wiki/people/anastasia.md|Anastasia]]):** JVL's graphic designers adopt the same Git branching workflow as the code teams — including for **Photoshop/PSD design files**, not just code. [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]
+**Decision (Feb 26 2025, [[wiki/people/aaron.md|Aaron]] + [[wiki/people/val-levitan.md|Val]] coaching [[wiki/people/lena.md|Lena]], [[wiki/people/dmitriy-khandov.md|Dima Khandov]], [[wiki/people/yulia.md|Yulia]], [[wiki/people/anastasia.md|Anastasia]]):** JVL's graphic designers adopt the same Git branching workflow as the code teams — including for **Photoshop/PSD design files**, not just code. [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]
 
 ## The workflow
 
