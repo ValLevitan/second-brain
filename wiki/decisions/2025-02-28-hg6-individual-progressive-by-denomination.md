@@ -3,6 +3,7 @@ type: decision
 title: Individual progressive per denomination on HG-6 CPU kits
 date: 2025-02-28
 aliases: [progressive by denomination, HG-6 progressive, HG6 individual progressive, progressive per denom]
+source-count: 1
 status: active
 ---
 

@@ -42,7 +42,7 @@ Do not pre-create empty folders. Create a type folder the first time a page of t
 
 - **This list is open.** If the material repeatedly produces knowledge that fits none of the existing types, propose a new page type at the next lint pass (name, template, folder) rather than forcing it into a bad fit. New types are added to this section once the owner approves — the schema co-evolves with the content.
 
-Each page begins with frontmatter (Section 5), then an H1 title, then content. End every page with a `## Sources` list of the raw files it draws from.
+Each page begins with frontmatter (Section 5), then an H1 title, then content. End every page with a `## Sources` list of the raw files it draws from. (Exception: **pointer/register pages** — see §5/§6 — map where source documents live and need no `## Sources` list.)
 
 ## 4. Naming & alias conventions
 
@@ -70,14 +70,18 @@ source-count: N           # how many raw files feed this page
 status: active | superseded   # decisions only
 open-commitments: N       # count of open (undischarged) commitment lines on this page; omit or 0 if none
 open-questions: N         # count of open-question lines on this page; omit or 0 if none
+disambiguation: "..."     # optional: when the page's identity collides with a same-name entity (Section 4), a one-line who-vs-who + resolve-by-context note
 ---
 ```
 Frontmatter enables Obsidian Dataview tables. Keep `source-count` current. Keep `open-commitments`/`open-questions` current so lint can roll them up (Section 9a, Section 13) — decrement when a commitment is discharged or a question is answered by a later source.
+- **This schema governs CONTENT pages** (person/organization/topic/project/decision/meeting/synthesis). The structural files `index.md`, `overview.md`, `log.md` carry their own minimal frontmatter (`type: index|overview|log`, plus an `updated:` date on index/overview) and are exempt from the content-page fields above.
+- **Pointer / register pages** (e.g. the corporate/financial document register, §1) are a sanctioned exception to the citation rules: they map where source documents live rather than asserting facts from them, so they may use `source-count: 0`, omit the `## Sources` list, and reference vault-relative paths instead of `[[raw/…]]`. See §3/§6.
 
 ## 6. Citation rules
 
 - **Every factual claim carries an inline citation** to its raw file: `[[raw/2026-03-12-board-meeting.md]]`.
 - **No uncited facts.** If you can't cite it, don't state it as fact.
+- **Pointer/register-page exception:** a page whose purpose is to map *where source documents live* (e.g. the §1 corporate/financial document register) may cite vault-relative paths in prose instead of `[[raw/…]]`, because it asserts locations, not facts drawn from the documents. Any actual *fact* absorbed from a document still requires a `[[raw/…]]` citation on the page that states it.
 - Anything you infer or synthesize is **labeled as an inference**, not presented as sourced fact.
 - If a transcript is unclear or ambiguous, write "unclear" and flag it — never guess or invent.
 

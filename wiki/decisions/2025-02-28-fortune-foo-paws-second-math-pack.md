@@ -3,6 +3,7 @@ type: decision
 title: Second math pack for Fortune Foo Paws (Chinese bet levels) to A/B test on the floor
 date: 2025-02-28
 aliases: [Fortune Foo Paws math pack two, Chinese bet levels, 88 to 888, math pack two]
+source-count: 1
 status: active
 ---
 

@@ -3,6 +3,7 @@ type: decision
 title: Flex V42/C street-machine cabinet design direction
 date: 2025-02-27
 aliases: [Flex V42, Flex V42/C, carbon fiber panel, floating monitor, street machine cabinet, credit card reader requirement]
+source-count: 1
 status: active
 ---
 
