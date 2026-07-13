@@ -95,14 +95,16 @@ Frontmatter enables Obsidian Dataview tables. Keep `source-count` current.
 
 1. List raw files not yet recorded as ingested in `log.md`. A source whose content has **changed** since it was last ingested (compare by content hash) counts as new — re-ingest it and note the re-ingest.
 2. Apply de-dup / conversion (Section 12) if needed.
-3. Write a `## [date] ingest | batch N started` line to `log.md`.
+3. Write a `## [date] ingest | batch N started` line to `log.md`. **Before writing any pages, verify the qmd index is fresh** (`qmd status` — it must reflect the last completed batch; re-index if stale). A stale index makes search-before-create miss existing pages and silently create duplicates.
 4. Read the batch (process **oldest source date first** — chronological, from 2025-01-01 forward).
 5. For each source: identify entities, decisions, topics → **update existing pages or create new ones** (Sections 3–6). Update-vs-create heuristic: *new page* if it's a distinct entity you'd link to from elsewhere; *edit in place* if it's an attribute or update of an existing entity.
    - **Separation of writer and verifier (standard pattern):** delegate the page-writing for each batch to a subagent that reads `CLAUDE.md` and the raw batch files itself. The main context then performs step 7's verification — it must not verify pages it wrote. If subagent delegation is unavailable, fall back to verifying in a fresh session, and say so in the log entry.
+   - **Writer subagent does its own entity lookup.** The writer subagent MUST run the §4 search-before-create check itself via qmd for **every** entity before creating a page — it must NOT rely on a curated list of existing pages handed down by the parent context (that list goes stale and causes duplicate pages). The parent may point at the batch; the writer owns the dedup search.
 6. Update `index.md` (Section 7).
 7. **Verification:** check 10 random facts against their cited raw sources — by a context that did not write the pages (see the writer/verifier rule above). **≥9/10 verbatim-supported = pass.** Below that, **halt: do not start the next batch until the owner is notified.** Record the result in `log.md`.
 8. Write `## [date] ingest | batch N completed` to `log.md` with the summary + verification result.
-9. Commit to git: `ingest: batch N, YYYY-MM, K files`.
+9. **Re-index qmd** over the wiki (Section 14) so the next batch's search-before-create sees this batch's new pages. Confirm with `qmd status`.
+10. Commit to git: `ingest: batch N, YYYY-MM, K files`.
 
 The started/completed pair makes a mid-batch crash recoverable: on restart, any batch with "started" but no "completed" is incomplete. **Before re-running it, `git reset --hard` to the last *completed* batch's commit** to discard half-applied edits, then re-run from its file list. (This is the only sanctioned hard reset — it only ever discards an unfinished batch.)
 
@@ -136,6 +138,8 @@ The started/completed pair makes a mid-batch crash recoverable: on restart, any 
 - Check for: contradictions between pages, stale claims newer sources have superseded, orphan pages (no inbound links), important concepts lacking their own page, missing cross-references, duplicate person/entity pages, `index.md` vs page drift.
 - **Category fit:** do the index headings still match what the wiki actually contains? Propose splits, merges, renames, or promotions (Section 7) in the lint report.
 - **Type fit:** is any recurring kind of knowledge poorly served by the existing page types? Propose additions (Section 3) in the lint report.
+- **Regression re-verification (drift guard):** re-verify a sample of ~10 facts drawn from **older** batches (not just the most recent), each against its cited raw source. The per-batch gate tolerates ~1 miss per batch; across a 100+-batch backlog those misses must not accumulate silently. Report any fact that no longer checks out.
+- **Outside-view engine audit:** every ~10 batches, have a **fresh session with no prior repo context** read `CLAUDE.md` and compare it against the wiki's actual state, reporting discrepancies (rules not being followed, wording that no longer matches practice). The engine must not be audited only by the contexts that operate under it.
 - Output a **plain-language report** the owner reads. This report + `log.md` + per-batch verification **are the owner's review surface** — he will not read the whole wiki. Treat lint as not optional.
 - **Lint only diagnoses and reports — it never edits content pages itself** — except routine category creation/split/merge in `index.md`, which ingest and lint may do directly (catalog housekeeping, not content editing). Never delete pages unilaterally; flag for owner approval.
 - Refresh `wiki/overview.md` at each lint pass (a short, plain-language "state of the wiki" for the owner).
