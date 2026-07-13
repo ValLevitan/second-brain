@@ -3,7 +3,7 @@ type: topic
 title: JVL machine and cabinet lineup
 date: 2026-07-12
 aliases: [Flex cabinets, Altera, Maple, Echo, Flex S, Flex C, Flex V42, Flex V42/C, cabinets, VLT, video lottery terminal, Flex SD27, V43, C10-VLOT-TERM-RU, Epic 950, FutureLogic, FlexPort, FlexPay, Nico, Miranda, Omni, Florida Ruta, CPU kit, coffin, iOBoard, Bally iview, Diamondlink, nano-optics, JCM, dual SAS, HAL, FireEyes Wink, Dragon Supreme, Kai-Ocho, Maneki-neko, HG-6, kiosk, Incom]
-source-count: 22
+source-count: 23
 ---
 
 # JVL machine and cabinet lineup
@@ -71,7 +71,9 @@ A running glossary of the machine models, cabinet types, and product families th
   - **Game statuses (Feb 28 review):** [[raw/Game design part 1 - Feb-28-2025.md]]
     - **Fortune Foo Paws** — the bonus topper now uses larger text for the bonus names to promote "win all three bonuses"; already in the contract. A **second math pack** with Chinese bet levels (88–888) is being produced to A/B on the floor ([[wiki/decisions/2025-02-28-fortune-foo-paws-second-math-pack.md]]). The V-Deck bet-up incentive (flame on buttons 3/4/5 + sound) is on [[wiki/topics/slot-game-design-principles.md]].
     - **FireEyes Wink** — build has the new full-screen **attract-mode demo videos** of all games; behaves differently with vs without credits; teases the free-spins mechanic but hides the "fiery ice" bonus. Target install ~**March 9–10**; Juan to review by Tuesday. [[raw/Game design part 1 - Feb-28-2025.md]]
-    - **Dragon Supreme** and **Kai-Ocho** — both **approved by GLI**. Kai-Ocho to install ~**March 8–9** (delayed to the Monday after a Kai-Ocho music festival); Dragon Supreme at the **Seminole Casino** the following week. [[raw/Game design part 1 - Feb-28-2025.md]]
+    - **Dragon Supreme** and **Kai-Ocho** — both **approved by GLI**. Kai-Ocho to install ~**March 8–9** (delayed to the Monday after a Kai-Ocho music festival); Dragon Supreme at the **Seminole Casino** the following week. [[raw/Game design part 1 - Feb-28-2025.md]] **Mar 7 update:** Val/Juan want Kai-Ocho's Hold-and-Respin **bonus music** changed (techno clashes with the salsa main-game music; Michael to source 3–4 samples), and observed a **stutter / frame-freeze** bug (main screen + bonus) that install is held on — driving the "sign off on final assembled machines" ruling ([[wiki/decisions/2025-03-07-final-signoff-on-assembled-machines.md]]). Kai-Ocho is the fourth game in the **"Firelink" family** (with Roosters, Dragons of Rain, Radio Queen), so its music must be neutral across all four. [[raw/game_design_meeting_march_7_2025.md]]
+    - **Diamond Link** — a JVL game/machine JVL wants to sell; on the Georgia release plan it is to be "snuck in" right after the Peach 2 package. Uses the per-denomination RTP tiering (89/90/92%). See [[wiki/projects/georgia-market-rollout.md]] and [[wiki/topics/slot-game-design-principles.md]]. [[raw/game_design_meeting_march_7_2025.md]]
+    - **Jackpot Rush / JPRE for Georgia** — to be built on the **old framework** with the **curved-monitor cabinet** targeted for **summer / the August gaming show**; only new games move to the new "omni" framework (Fortune Foo Paws first). The **nudge mechanic** needs updating, and keeping new product on the old framework means maintaining Rage Studio / the old stations longer. See [[wiki/projects/georgia-market-rollout.md]]. [[raw/game_design_meeting_march_7_2025.md]]
     - **"Game 6" / Hit Game 6 (HG-6):** progressive can now be set **per denomination** (see [[wiki/decisions/2025-02-28-hg6-individual-progressive-by-denomination.md]]); COAM nudge/button-color modifications and a subtle reel-dimming effect are in work; the button-deck denom colors and "insert credits" idle state were reviewed. [[raw/Game design part 1 - Feb-28-2025.md]]
     - **Maneki-neko ("Manikineka") Cats** — a Florida-specific product with different math. **Miranda 9** grooming with Timo on Monday; **HHR** work progressing slowly (twice-weekly, stories + sequence diagrams). [[raw/Game design part 1 - Feb-28-2025.md]]
   - **"Nico" cat game (Feb 6 review):** a game with a **"Nico" cat** character reviewed as still-image mockups (Lena presenting) — idle-with-meters, an attraction mode with promo text and character animation, and an on-machine view. Open feedback items for Juan: the topper **promotional text** (draft: "hold and re-spin feature with up to three bonuses") and the low-camera-angle, "huge and majestic" Nico-cat **topper** image. (Transcript otherwise blank.) [[raw/Game design meeting - February 6, 2025.md]]
@@ -110,3 +112,4 @@ A running glossary of the machine models, cabinet types, and product families th
 - [[raw/incomm_commissioning_plan_february-27-2025.md]]
 - [[raw/Game design part 1 - Feb-28-2025.md]]
 - [[raw/Game design part 2 - Feb-28-2025.md]]
+- [[raw/game_design_meeting_march_7_2025.md]]

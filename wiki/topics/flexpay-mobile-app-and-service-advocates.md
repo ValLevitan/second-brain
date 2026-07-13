@@ -3,7 +3,7 @@ type: topic
 title: FlexPay mobile app and service advocates
 date: 2026-07-12
 aliases: [FlexPay mobile app, service advocate, service advocates, whale, whale UI, Incom]
-source-count: 5
+source-count: 7
 ---
 
 # FlexPay mobile app and service advocates
@@ -40,6 +40,9 @@ The **FlexPay** payment product itself is confirmed progressing — the Jan 24 2
 
 - **Embedded group (Feb 25):** debugging continued. The FlexPort↔FlexPay **WebSocket connection drops even though [[wiki/people/pavel.md|Pavel]]'s keepalive ping-pong runs every second** and is received — cause unknown; pings weren't appearing in the logs. Two durable outcomes: (1) Val ruled on the **abandoned-cash-out** case ([[wiki/people/evgeny.md|Evgeny]]'s question) — if a player cashes out and leaves without scanning a ticket / entering a PIN, cancel the ticket as **"not claimed,"** pull the credits off the machine, report it to FlexPay, and restore the money on paper via FlexPay during audit if the player returns; this needs a **new informational protocol command** for abnormal states (device failure, not-claimed funds). (2) Val directed that **detailed comms logging become a formal requirement** — an enable-able log mode like Bally/Konami AFT provide. Ship config: ~4 machines per FlexPay; 4 FlexPay + ~15 ports; FlexPort installed in JVL's own machines too (Val's uniformity requirement), working across all software including old versions. Target: config + working protocol by Thursday. See [[wiki/meetings/2025-02-25-embedded-group-flexport-flexpay.md]]. [[raw/Embedded_Group_alignment_and_update_2025-02-25.md]]
 
+- **Embedded group (Mar 4):** [[wiki/people/evgeny.md|Evgeny]] ("Женя") reported the FlexPort↔FlexPay data exchange working at a **minimal level** — data flowing both ways. He traced the earlier disconnect problem to needing to **ping with text messages**. He can read a **barcode ticket** and the ping-code verifies; still needs a validator to confirm credits are transferred onto the gaming machine. He is adding a **watchdog** (to auto-restart on hangs) and a **log file**, and the group agreed on **event-based state reporting** to FlexPay after registration — report "all clear," "in error," or "recovery needed," and specifically flag **unclaimed money** (the abandoned-cash-out case) — rather than periodic polling. The **firmware ("repair") update** protocol is not yet started; the group decided machines can ship for experiments **without** it because units can update from a **flash drive**. A **magnetic-card-reader** request was raised (Val heard "all the pays want it"): deferred — not this release, no task set. Open sub-question: support only the **Incom** card protocol (relatively easy) or **any** payment card (needs a full payment-terminal/kiosk tied to a money-handling system); needs an **investigation** into whether an Incom API can debit part of a card's balance. [[raw/Embedded_Group_alignment_and_update_2025-03-04.md]]
+- **Embedded group (Mar 11):** Evgeny reported the integration **nearly feature-complete**, finishing the last stage — **cash-out** (credit withdrawal from the EGM to FlexPay); all protocol commands worked out but "very raw." **Firmware update** still unimplemented (~1 week); currently over serial port, but a **USB-stick** update already works and is preferred. Testing is blocked on getting a **bill acceptor** that can be wired in — JVL's bill acceptors (GCM / "High Vision") use different cables than the standard, so [[wiki/people/genadi-peari.md|Genadi]] is to supply the pinout to re-solder a cable; alternatively a **stub/plug** lets FlexPort **emulate** the bill acceptor (ticket-only), making the bill acceptor **non-mandatory**. Plan for the **log file**: FlexPort logs the whole FlexPay↔FlexPort protocol exchange; pull it **once a day** via a new protocol command, with an option to dump to a **USB stick** if the network fails (encryption deemed unnecessary — the log is just numbers, read-only). Code merge: the integration dev is merging his branch into the **main branch owned by [[wiki/people/evgeny-alekseev.md|Zhenya Alekseev]]** (commit ~175); the **watchdog** still isn't firing in the main branch. Next-day plan: bring FlexPorts to the **Toronto office** to run **two machines on one bus/station** together before shipping — the Toronto hardware is tested (one JVL machine + one older machine); a **machine emulator** on a laptop can stand in for a real machine. [[raw/Embedded_Group_alignment_and_update_2025-03-11.md]]
+
 ## Sources
 
 - [[raw/mobile_app_advocate_persona_profile_january_13_2025.md]]
@@ -47,3 +50,5 @@ The **FlexPay** payment product itself is confirmed progressing — the Jan 24 2
 - [[raw/Embedded_Group_alignment_and_update_2025-02-11.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-02-18.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-02-25.md]]
+- [[raw/Embedded_Group_alignment_and_update_2025-03-04.md]]
+- [[raw/Embedded_Group_alignment_and_update_2025-03-11.md]]

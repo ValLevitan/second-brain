@@ -2,9 +2,9 @@
 type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
-aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port]
-source-count: 1
-open-questions: 2
+aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve]
+source-count: 2
+open-questions: 3
 ---
 
 # Georgia market rollout (Peach1234 / DLKG)
@@ -30,11 +30,20 @@ JVL's core land-based market — the conventional **Georgia co-op / COAM** busin
 - Peach1234 and DLKG will use the **same LGS version** to simplify submission to Eclipse, and the same **Progressive Controller** setup approach as the Florida "JPRE" market (an initial-setup screen picks the controller on the network; an **embedded progressive controller** works for a single machine, since Georgia locations usually have one machine). [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 - **Felipe** has the current **Diamondlink** software that supports the printer; the printer work is urgent for him. See [[wiki/people/felipe-miranda.md|Felipe Miranda]]. [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 
+## Release cadence — staged "Peach" packages (Mar 7)
+
+- Georgia will be released in **four staged packages** — **Peach 1, Peach 2, Peach 3, Peach 4** — at roughly **six games at a time**, on ~one-to-two-week intervals, rather than all games at once. Staging is more expensive on **Eclipse** approvals but necessary because [[wiki/people/lena.md|Lena]]'s team is a bottleneck implementing changes across all games. [[wiki/people/felipe-miranda.md|Felipe]] confirmed the tests passed, so releasing can start. [[raw/game_design_meeting_march_7_2025.md]]
+- **Sequencing:** Peach 1 and Peach 2 make up ~**80%** of what's installed in the field; Peach 3 has little install base and Peach 4 isn't installed yet. **Diamond Link** is to be "snuck in" right after Peach 2 (to help sell that machine), then Peach 3 and 4 follow. **Ivan** (release) needs ~**10 days** from starting with Eclipse to issuing a purchase order and submitting the FTP link; Val asked to add a 25% time buffer. [[raw/game_design_meeting_march_7_2025.md]]
+- **Pay-table-ID risk:** JVL wanted operators to be able to check the **pay table ID**, but **United** said on a call they **can't** do that — so JVL must take a "leap of faith" that the E9 team's pay table IDs work. Val flagged he dislikes it. [[raw/game_design_meeting_march_7_2025.md]]
+- **Old framework for Georgia:** **Jackpot Rush** (and **JPRE**) for Georgia stay on the **old framework** with the **curved-monitor cabinet** targeted for the **summer / gaming show (August)**; only new games go on the new "omni" framework, starting with the Fortune Foo Paws pilot. Keeping new product on the old framework means maintaining Rage Studio and the old stations longer, and the **nudge mechanic** needs updating — parked for a later meeting. [[raw/game_design_meeting_march_7_2025.md]]
+
 ## Open questions
 
+- Was routing Jackpot Rush / JPRE for Georgia onto the **old framework** (curved cabinet) a deliberate plan or an oversight? Val said he didn't recall discussing it and parked it for a later meeting. [[raw/game_design_meeting_march_7_2025.md]]
 - Why does the Bally iview final report disagree with the (correct) data JVL sends, and does the iview system need a protocol JVL can't currently select? [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 - Will the third dedicated printer port become JVL's standard on all future machines? (Raised, not settled.) [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 
 ## Sources
 
 - [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
+- [[raw/game_design_meeting_march_7_2025.md]]

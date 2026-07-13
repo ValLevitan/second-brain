@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie]
-source-count: 22
+source-count: 23
 ---
 
 # Aaron
@@ -66,6 +66,10 @@ His surname is given as **Bockelie** on the Jan 21 continuous-delivery transcrip
 
 - Aaron ran a hands-on Git check-in with [[wiki/people/lena.md|Lena]], [[wiki/people/yulia.md|Yulia]], [[wiki/people/anastasia.md|Anastasia]] and [[wiki/people/andrei.md|Andre]] on the Fortune Foo Paws repo: put the repo-usage rules into the repo ("general instructions are better than no instructions"), **don't commit the GDD yet** ([[wiki/people/efim-podvoiski.md|Efim]]/Michael still writing it), and **clone this repo as the future game template**. He walked them through resolving a live **gitignore merge conflict** caused by direct commits to `main`, teaching that the repo owner merges PRs and that pending PRs must be ordered — and set Andre homework on the `.github` contact-sheet Action. He noted he should be used as a **consultant, not an employee**. See [[wiki/topics/docs-as-code-and-atlassian-exit.md]]. [[raw/Git_progress_check_in_2025-02-28.md]]
 
+## Minsk persona / orchestration-platform workshop (Mar 10)
+
+- Aaron co-led (with Val, in English, via a "Dima" translating) a long teaching session pushing the Minsk team toward **persona-driven, interview-based requirements** for JVL's planned new operations **orchestration platform** — reinforcing the "understand the customer, don't just re-build the software you have" theme and his earlier "you can't write monolithic software that way" point. He probed how the team gauges "feasibility medium / error cost low" tags on the reformatted persona. See [[wiki/topics/persona-driven-design-and-orchestration-platform.md]]. [[raw/persona_development_journey_meeting_with_minsk-2025-03-10.md]]
+
 ## Sources
 
 - [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]
@@ -90,3 +94,4 @@ His surname is given as **Bockelie** on the Jan 21 continuous-delivery transcrip
 - [[raw/GitHub_commit_of_LFS_demo_by_Lena_2025-02-21.md]]
 - [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]
 - [[raw/Git_progress_check_in_2025-02-28.md]]
+- [[raw/persona_development_journey_meeting_with_minsk-2025-03-10.md]]

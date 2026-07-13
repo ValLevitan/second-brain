@@ -2,9 +2,9 @@
 type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
-aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode]
-source-count: 3
-open-questions: 0
+aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP]
+source-count: 4
+open-questions: 1
 ---
 
 # Slot game-design principles and the progressive-bet-incentive debate
@@ -46,8 +46,30 @@ The central argument of the Feb 21 call, which this resolves:
 - **"Maneki-neko"/"Manikineka Cats"** is a Florida-specific product with different math from the South Dakota/Georgia versions. [[raw/Game design part 1 - Feb-28-2025.md]]
 - **Taxonomy discipline:** Val asked everyone to use consistent, proper taxonomy in meeting invites/descriptions (Michael links conversations and documentation to specific meetings), and asked Michael to state each meeting's objective in the invite so reviews aren't open-ended standbys. [[raw/Game design part 2 - Feb-28-2025.md]]
 
+## Bet-up flame buttons — visual spec (Mar 7)
+
+- The "hot / hotter / hottest" flame treatment on the three higher bet buttons was made concrete: **flames on the bottom** of the 180 button, **top and bottom** on the 300 button, and **all around** the 600 button; the **60 and 120** buttons carry no flame. The **selected** bet button is shown **white**. When credits are too low to afford the higher bets, those buttons show in a **deactivated (grayed) state** rather than disappearing. At zero credits the message must read **"insert money."** [[raw/game_design_meeting_march_7_2025.md]]
+- **Sound effect** on buttons 3/4/5 only, and **only the first time** the player steps up to a higher level (a swoosh/ignition, not a repeated bell/gong) — the cue signals the higher level without "banging the player over the head." Michael cautioned that a congratulatory message on the highest bet ("you're on fire") could risk a **GLI** violation and over-set player expectations; keep celebratory messaging to **outcomes** (big win / mega win). [[raw/game_design_meeting_march_7_2025.md]]
+
+## Per-denomination RTP and how to signal it (Mar 7)
+
+- JVL **can** set a different RTP **per denomination** (not per bet). Michael's standard configuration (shown on screen, used for **Jackpot Rush** and **Diamond Link**): **1¢ and 2¢ at 89%, 5¢ and 10¢ at 90%, 50¢ and $1 at 92%** — averaging **90.3%** for the box, excluding progressive contributions. He always rewards the higher-denomination player; this is **not done in South America** (Colombia confirmed, likely Peru). [[raw/game_design_meeting_march_7_2025.md]]
+- **Do not expose the actual RTP** to players or attendants (operators like Hialeah don't want employees seeing hold settings; publishing per-button percentages can be used against a property by competitors). Instead Val wants a **visual conveyance** of "this denom is looser" without stating a number — e.g. a **three-tier colour code** (green → yellow → red for low → mid → high RTP, mapped to the three RTP tiers), or **larger icons** for higher denominations. Copy like "win more at higher denom" is allowed because it's non-specific. [[raw/game_design_meeting_march_7_2025.md]]
+- **Historical caution (Michael):** manufacturers (Aruze, Konami) experimented with per-denomination RTP ~10–15 years ago (e.g. 85% at the lowest denom, 92% at the highest); players **couldn't feel** the difference, casinos pushed RTPs **lower** (Caesars pushing 85%), and it "went the way of the dodo bird" because no one delivered materially better financial results with it. [[raw/game_design_meeting_march_7_2025.md]]
+
+## The progressive-per-denomination debate (Mar 7 — unresolved, Val's opinion recorded)
+
+- Val argued it is **illogical ("stupid")** that JVL's progressive value is the **same across denominations** — he believes a higher denomination should carry a proportionally higher progressive (e.g. $500 at 1¢, $5,000 at 10¢) as an incentive to bet up. He stressed it is his opinion, and that "for the first time in JVL's history" he has enough engineering horsepower to develop his own game-design philosophy. [[raw/game_design_meeting_march_7_2025.md]]
+- **Michael/Efim's rationale for the current design:** players like **big, life-changing numbers** and want to see them **even at the lowest bet**. Dynamically scaling the progressive to the bet was tried historically and **discouraged** players (e.g. a $25,000 mega at 600 credits dropping to $2,500 at 60 credits feels like something taken away). The **"jackpot rush" genre** keeps the big number visible at all bets and has held roughly **25% of the casino floor for ~30 years** across all manufacturers — evidence the design works. Fortune Foo Paws' brief was to get **as close as possible to "Coin Trio"** (a proven competitor), which does **not** scale the progressive to denomination — so the current implementation is faithful to Coin Trio. Val conceded he would love a visual conveyance **only** when a machine is set to different RTPs, but the base math stays as-is. [[raw/game_design_meeting_march_7_2025.md]]
+
+## Kai-Ocho audio and the stutter bug (Mar 7)
+
+- Val and Juan want the **Kai-Ocho** ("Kaiocho"/"gaiocho"/"Caglioccio") **Hold-and-Respin bonus music** changed — the 80s electronic techno clashes with the gentle salsa main-game music. Michael chose it intentionally (low-energy background so the player focuses on the diamonds being hit) but agreed to source **three or four audio samples**; the music must be **neutral** across the whole "Firelink" family (Roosters, Kai-Ocho, Dragons of Rain, Radio Queen). Changing an audio file changes the master checksum, but for online games the rules are relaxed and JVL can tell GLI/the lab to re-check **only** the audio for a quick turnaround. [[raw/game_design_meeting_march_7_2025.md]]
+- A **stutter / frame-freeze** defect on Kai-Ocho (main screen and during the bonus) that wasn't caught before shipping drove a durable **sign-off decision** — games must be validated on **final assembled machines**, not open racks/PCs. See [[wiki/decisions/2025-03-07-final-signoff-on-assembled-machines.md]]. An "Anton" (transcribed **"Anton Mishkevich"**) is credited with resolving earlier performance issues. [[raw/game_design_meeting_march_7_2025.md]]
+
 ## Open questions
 
+- Should JVL scale the **progressive value to denomination** (Val's view) or keep it flat and only *signal* higher-RTP denominations visually (the industry norm Michael/Efim defend)? Recorded as an **open product debate** — Val's opinion is logged, nothing is changed to the base math. [[raw/game_design_meeting_march_7_2025.md]]
 - ~~The progressive-bet-incentive question~~ **resolved Feb 28** (see the debate section above): use the V-Deck flame-on-buttons-3/4/5 + sound presentation and A/B a second higher-bet math pack; the base math is unchanged. [[raw/Game design part 1 - Feb-28-2025.md]]
 
 ## Sources
@@ -55,3 +77,4 @@ The central argument of the Feb 21 call, which this resolves:
 - [[raw/game_design_meeting_february_21_2025.md]]
 - [[raw/Game design part 1 - Feb-28-2025.md]]
 - [[raw/Game design part 2 - Feb-28-2025.md]]
+- [[raw/game_design_meeting_march_7_2025.md]]

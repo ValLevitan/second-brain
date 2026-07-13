@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova]
-source-count: 11
+source-count: 12
 open-commitments: 1
 ---
 
@@ -51,6 +51,10 @@ Her surname is given as **Zhukova** on the Feb 18 onboarding session (WEBVTT).
 
 - One of the three designers (with [[wiki/people/yulia.md|Yulia]] and [[wiki/people/anastasia.md|Anastasia]]) Aaron coached to put the repo-usage rules into the Fortune Foo Paws repo and keep making pull requests. See [[wiki/topics/docs-as-code-and-atlassian-exit.md]]. [[raw/Git_progress_check_in_2025-02-28.md]]
 
+## Game-design review (Mar 7)
+
+- Lena's team is the release **bottleneck** that drives the staged four-package "Peach" release plan for Georgia (she can't implement all game changes at once). She was working on the **denomination screen** and the V-Deck this week and will change the **"insert money"** warning on the no-credit screen. She is one of the **final sign-offs** (with Michael and Juan) — machines must be shipped to her from the Georgia assembly floor (office or home) so she validates the final assembled product, not a rack. The **V-Dec / GNOME (keynote) buttons** and future Georgia "flex curve" development are the next meeting's objectives. See [[wiki/decisions/2025-03-07-final-signoff-on-assembled-machines.md]] and [[wiki/projects/georgia-market-rollout.md]]. [[raw/game_design_meeting_march_7_2025.md]]
+
 ## Open commitments
 
 - [ ] Lena — prepare a **visual storyboard** of the V-Deck bet-up incentive (escalating flame/particles on bet buttons 3/4/5) — due **next Friday** — [[raw/Game design part 2 - Feb-28-2025.md]]
@@ -68,3 +72,4 @@ Her surname is given as **Zhukova** on the Feb 18 onboarding session (WEBVTT).
 - [[raw/Game design part 1 - Feb-28-2025.md]]
 - [[raw/Game design part 2 - Feb-28-2025.md]]
 - [[raw/Git_progress_check_in_2025-02-28.md]]
+- [[raw/game_design_meeting_march_7_2025.md]]

@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena]
-source-count: 7
+source-count: 9
 ---
 
 # Genadi Peari
@@ -40,6 +40,11 @@ Genadi Peari is JVL's hardware lead. He develops the CPU boards and advises on p
 - On the Feb 27 cabinet review Genadi ("Gennady") is the hardware/mechanical side: he flags that the **player-tracking bracket has predefined dimensions**, so the group agreed to keep three physical pieces made to look like one continuous piece rather than redesign the bracket ("less work for Gennady"), and he works through where the wiring/speaker channels and the credit-card reader go. See [[wiki/decisions/2025-02-27-flex-street-cabinet-design-direction.md]]. [[raw/Flex_V42_C_design_evolution_review_2025-02-27.md]]
 - Note: here "Gennady" is doing cabinet **hardware/brackets**, while a separate **[[wiki/people/igor-designer.md|Igor]]** does the industrial-design renderings — the two are distinct on this call. [[raw/Flex_V42_C_design_evolution_review_2025-02-27.md]]
 
+## Embedded group — FlexPort cabling (Mar 4, Mar 11)
+
+- **Mar 4:** Genadi ("Гена") is the hardware side of the FlexPort test. He sent the **bill acceptor** (used in-line on the wire to credit the machine, while FlexPort reads the counters back off the machine), and flagged **cable errors** to fix — an **RX/TX swap** and a **jumper between pins 1 and 6** to wire the first counter — plus the electromagnetic **counter** wiring (two outputs on the large white connector). He was to send the schematics. [[raw/Embedded_Group_alignment_and_update_2025-03-04.md]]
+- **Mar 11:** He is to supply the **pinout** so [[wiki/people/evgeny.md|Evgeny]] can re-solder a cable for JVL's own bill acceptors (**GCM** / "High Vision"), which use different connectors than the standard; one standard **UBA** was still en route. He also raised making the bill acceptor **non-mandatory** via a stub/emulation, and adding a protocol command to pull/ship the **log file**. [[raw/Embedded_Group_alignment_and_update_2025-03-11.md]]
+
 Name confirmed by Val as **Genadi Peari**; the transcripts render it "Gennady Perry" / "Gena", kept as aliases for search.
 
 ## Sources
@@ -51,3 +56,5 @@ Name confirmed by Val as **Genadi Peari**; the transcripts render it "Gennady Pe
 - [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-02-25.md]]
 - [[raw/Flex_V42_C_design_evolution_review_2025-02-27.md]]
+- [[raw/Embedded_Group_alignment_and_update_2025-03-04.md]]
+- [[raw/Embedded_Group_alignment_and_update_2025-03-11.md]]

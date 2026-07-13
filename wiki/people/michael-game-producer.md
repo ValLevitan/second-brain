@@ -3,7 +3,8 @@ type: person
 title: Michael (game producer)
 date: 2025-02-21
 aliases: [Michael, Mike]
-source-count: 5
+source-count: 6
+open-commitments: 1
 ---
 
 # Michael (game producer)
@@ -24,10 +25,20 @@ Michael is a **game producer / designer on JVL's game side**, working closely wi
 - On the **minimum bet**, Michael pushed to raise Fortune Foo Paws' minimum from 60 to at least **70 credits** (70/88 are "the new norms"), and framed reserving higher bets for the next cabinet. Val ceded final creative/visual control of the game to Michael ("it's Michael"), positioning himself as a contributing partner. Michael is to show V-Deck **creative** for the bet-up transformation. [[raw/Game design part 1 - Feb-28-2025.md]] [[raw/Game design part 2 - Feb-28-2025.md]]
 - Referenced (Feb 28 Git check-in): Michael and [[wiki/people/efim-podvoiski.md|Efim]] are jointly writing the **Game Design Document (GDD)** in Confluence — not yet committed to the repo. See [[wiki/topics/docs-as-code-and-atlassian-exit.md]]. [[raw/Git_progress_check_in_2025-02-28.md]]
 
+## Game-design review (Mar 7)
+
+- Michael explained the **per-denomination RTP** standard he always uses (1¢/2¢ at 89%, 5¢/10¢ at 90%, 50¢/$1 at 92%, ~90.3% box average) and defended the industry norm that the **progressive value stays flat across denominations** (players want big numbers even at low bets; the "jackpot rush" genre has held ~25% of the floor for ~30 years) against Val's "it's stupid" objection. He gave the visual-signalling guidance (three-tier green/yellow/red colour code) and the GLI caution against congratulatory bet-up messaging. See [[wiki/topics/slot-game-design-principles.md]]. [[raw/game_design_meeting_march_7_2025.md]]
+- He defended the **Kai-Ocho** bonus music as an intentional low-energy background choice but agreed to source **3–4 audio samples** after Val and Juan said the techno clashes with the salsa main-game music. He accepted he'd made "a grave error in judgment" testing on PC/hardware rather than final machines, and is one of the **final sign-offs** (with Lena and Juan) who must validate the fully assembled machine. See [[wiki/decisions/2025-03-07-final-signoff-on-assembled-machines.md]]. [[raw/game_design_meeting_march_7_2025.md]]
+
+## Open commitments
+
+- [ ] Michael — get **3–4 neutral audio samples** for the Kai-Ocho / Firelink-family bonus music (must blend across Roosters, Kai-Ocho, Dragons of Rain, Radio Queen) for Val/Juan to choose from — due unspecified — [[raw/game_design_meeting_march_7_2025.md]]
+
 ## Sources
 
 - [[raw/game_design_meeting_february_21_2025.md]]
 - [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]
+- [[raw/game_design_meeting_march_7_2025.md]]
 - [[raw/Game design part 1 - Feb-28-2025.md]]
 - [[raw/Game design part 2 - Feb-28-2025.md]]
 - [[raw/Git_progress_check_in_2025-02-28.md]]
