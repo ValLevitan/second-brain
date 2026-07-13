@@ -8,7 +8,7 @@ source-count: 2
 
 # James Reble
 
-James Reble is the contact at Elevate, a JVL customer that buys JVL machines and finances them through Export Development Canada (EDC).
+James Reble is JVL's day-to-day contact at Elevate, a **specialty lender** that financed a gaming operator's purchase of JVL machines and took a pledge on them (owner-confirmed 2026-07-13; Elevate is **not** a JVL customer — see [[wiki/organizations/elevate.md]]).
 
 ## Role
 

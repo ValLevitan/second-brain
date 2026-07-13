@@ -8,7 +8,7 @@ source-count: 1
 
 # EDC (Export Development Canada)
 
-EDC (Export Development Canada) is the financing body a JVL customer, Elevate, uses to fund its purchase of JVL machines.
+EDC (Export Development Canada) was named in the Jan 14 2025 call as the financing body behind the Elevate/JVL machine deal. NOTE: that call framed Elevate as a JVL *customer financed through EDC*, which the owner later corrected (2026-07-13) — Elevate is a **lender** that took a pledge on the machines — so EDC's exact role in this deal is now **uncertain** and single-source. See [[wiki/organizations/elevate.md]].
 
 ## Relationship with JVL
 
