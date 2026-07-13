@@ -3,7 +3,7 @@ type: topic
 title: FlexPay mobile app and service advocates
 date: 2026-07-12
 aliases: [FlexPay mobile app, service advocate, service advocates, whale, whale UI, Incom]
-source-count: 4
+source-count: 5
 ---
 
 # FlexPay mobile app and service advocates
@@ -38,9 +38,12 @@ The **FlexPay** payment product itself is confirmed progressing — the Jan 24 2
 
 - **Embedded group progress (Feb 18):** the FlexPort↔FlexPay integration is being brought up on a real machine by [[wiki/people/evgeny.md|Evgeny]] ("Zhenya") for the first field locations. A "Dima" (software; not attributed — see Owner Decisions) is delivering a new FlexPay build that **bypasses the card dispenser**, and adding **server-side log hooks** so an internet-connected FlexPay's logs can be pulled directly for fast feedback. A gap was found: the protocol has **no command for FlexPort to signal it is in an error state** to FlexPay — to be added. The FlexPay **activation sequence** was documented: (0) switch the factory QR scanner from Serial/HID to CDC mode; (1) **registration** (scan a QR in setup → bind the device serial number in JVL's device-management system); (2) create a **license** on the server ("Лиза"/"license") and apply it via a QR round-trip (FlexPay need not be online); then fill the **Incom** card-provider fields (manually or via a QR). Val has an **Incom** contract in its final stage and must arrange a production-server test (the test environment worked; production couldn't connect). Timeline: at least another week; Val pushed for a two-week (~March 5) buffer. See [[wiki/meetings/2025-02-18-embedded-group-flexport-flexpay.md]] and [[wiki/topics/jvl-machine-lineup.md]]. [[raw/Embedded_Group_alignment_and_update_2025-02-18.md]]
 
+- **Embedded group (Feb 25):** debugging continued. The FlexPort↔FlexPay **WebSocket connection drops even though [[wiki/people/pavel.md|Pavel]]'s keepalive ping-pong runs every second** and is received — cause unknown; pings weren't appearing in the logs. Two durable outcomes: (1) Val ruled on the **abandoned-cash-out** case ([[wiki/people/evgeny.md|Evgeny]]'s question) — if a player cashes out and leaves without scanning a ticket / entering a PIN, cancel the ticket as **"not claimed,"** pull the credits off the machine, report it to FlexPay, and restore the money on paper via FlexPay during audit if the player returns; this needs a **new informational protocol command** for abnormal states (device failure, not-claimed funds). (2) Val directed that **detailed comms logging become a formal requirement** — an enable-able log mode like Bally/Konami AFT provide. Ship config: ~4 machines per FlexPay; 4 FlexPay + ~15 ports; FlexPort installed in JVL's own machines too (Val's uniformity requirement), working across all software including old versions. Target: config + working protocol by Thursday. See [[wiki/meetings/2025-02-25-embedded-group-flexport-flexpay.md]]. [[raw/Embedded_Group_alignment_and_update_2025-02-25.md]]
+
 ## Sources
 
 - [[raw/mobile_app_advocate_persona_profile_january_13_2025.md]]
 - [[raw/flex_port_hardware_up-jan-24-2025.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-02-11.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-02-18.md]]
+- [[raw/Embedded_Group_alignment_and_update_2025-02-25.md]]

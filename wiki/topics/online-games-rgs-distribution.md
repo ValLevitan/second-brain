@@ -3,7 +3,7 @@ type: topic
 title: Online games / RGS distribution business
 date: 2025-01-30
 aliases: [online games, RGS distribution, EveryMatrix, RGS Matrix, Brazil market, iGaming, certification economics, revenue share, MaxBet, JVL Marketplace, marketplace, platform services, Golden Palace, Digitain, Hub88, BetConstruct, wallet]
-source-count: 2
+source-count: 3
 ---
 
 # Online games / RGS distribution business
@@ -46,6 +46,8 @@ Andrei Klimovich mapped the full stack of turnkey services an online-casino plat
 
 - Current channels: **Digitain** (first, reverse, complete), **Golden Palace** (first Direct integration, in progress), and aggregators **Hub88** and **BetConstruct**, plus **EveryMatrix**. The RGS architecture, the reverse-vs-direct model, and the "easy-integration/installer" goal are on [[wiki/topics/rgs-architecture-and-integration.md]]. [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
 
+- **Feb 21 reaffirmation:** the Feb 21 recap continued the marketplace/platform-services research, re-listing the capabilities JVL would need to evaluate or replicate — **multi-tenant architecture** (one account, many sites), **player account management** (VIP segmentation, support), **AI-driven fraud prevention & AML compliance**, and **multi-currency + crypto payment integrations**. [[raw/recap_meeting_andrei-February-21-2025.md]]
+
 ## Game-mechanics strategy
 
 - Val's ruling that online games derive from land-based mechanics on a **separate production line** (not porting), with land-based as priority: [[wiki/decisions/2025-02-01-online-games-derive-from-land-based-mechanics.md]]. [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
@@ -58,3 +60,4 @@ Andrei Klimovich mapped the full stack of turnkey services an online-casino plat
 
 - [[raw/Recap with Andrei Klimovich - January 30, 2025.md]]
 - [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
+- [[raw/recap_meeting_andrei-February-21-2025.md]]

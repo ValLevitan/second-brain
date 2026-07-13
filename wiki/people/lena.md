@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova]
-source-count: 5
+source-count: 8
 ---
 
 # Lena
@@ -32,6 +32,16 @@ Lena leads JVL's game design / art team. She judges whether the visual quality o
 
 Her surname is given as **Zhukova** on the Feb 18 onboarding session (WEBVTT).
 
+## Comp-art storage and game-design review (Feb 21)
+
+- On the Feb 21 LFS session Lena raised the core storage problem: the large composition-art ("comp art") files are big, numerous, change rarely, and can't be diffed by Git, so committing them into the game repo would slow the build — she needed a dedicated place and rules on commit frequency/size. This drove the game-repo/design-repo split (comp art → LFS design repo, pulled as a submodule; build doesn't need it). She had created her branch + a `comparts` folder and committed one file. See [[wiki/decisions/2025-02-21-separate-game-and-design-repos.md]]. [[raw/GitHub_commit_of_LFS_demo_by_Lena_2025-02-21.md]]
+- She pushed back that Markdown documentation would be inconvenient for Juan and Michael versus one-click Confluence; Aaron's docs-as-code answer (auto-rendered site) addressed it. See [[wiki/topics/docs-as-code-and-atlassian-exit.md]]. [[raw/GitHub_commit_of_LFS_demo_by_Lena_2025-02-21.md]]
+- Same day she ran the **Fortune Foo Paws** design review (signage/V-Deck/toppers, help screens, the progressive-bet-incentive debate), and was tasked to present a **visual proposal on the bet-up incentive** the following Friday. See [[wiki/topics/slot-game-design-principles.md]]. [[raw/game_design_meeting_february_21_2025.md]]
+
+## Designer branching workflow (Feb 26)
+
+- On the Feb 26 coaching Lena is the designer drawing Photoshop comp art within a feature (with [[wiki/people/yulia.md|Yulia]] modelling and [[wiki/people/anastasia.md|Anastasia]] texturing). She questioned why PSD files need branch/PR discipline and worried about premature comments on unfinished cats — Aaron's answer: unfinished branch work is fine to show, and [[wiki/people/michael-game-producer.md|Michael]] only comments at PR time. She asked Andrei/Dima to create a **design** space and separate repositories, including one for the **Fortune 4 Progressive Sign** (a separate IP). See [[wiki/decisions/2025-02-26-designer-branching-workflow.md]]. [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]
+
 ## Sources
 
 - [[raw/fp-7_performance_analysis_january_13_2025.md]]
@@ -39,3 +49,6 @@ Her surname is given as **Zhukova** on the Feb 18 onboarding session (WEBVTT).
 - [[raw/fr-7_identifying_bottlenecks_in_performance_during_testing_january_17_2025.md]]
 - [[raw/Game design meeting - February 6, 2025.md]]
 - [[raw/GitHub_Commit_LFS-Feb-18-2025.md]]
+- [[raw/GitHub_commit_of_LFS_demo_by_Lena_2025-02-21.md]]
+- [[raw/game_design_meeting_february_21_2025.md]]
+- [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]

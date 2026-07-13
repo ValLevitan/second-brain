@@ -3,7 +3,7 @@ type: decision
 title: GitHub org naming convention and the JVL enterprise org list
 date: 2025-02-11
 aliases: [GitHub org naming, JVL prefix, org naming convention, enterprise organizations, repo naming]
-source-count: 1
+source-count: 2
 status: active
 ---
 
@@ -24,6 +24,11 @@ Named (all JVL-prefixed): **Games Production**; **Math & Game Mechanics** ("Game
 
 > "Dima Chudinov" (owner of the Observability Platform / CMS-replacement org) may be distinct from [[wiki/people/dmitry-khandov.md|Dmitry Khandov]] — recorded in Owner Decisions, not merged. [[raw/Git_repo_structure_part_2_2025-02-11.md]]
 
+## Two more design orgs added (Feb 26)
+
+On the Feb 26 designer-migration call, [[wiki/people/lena.md|Lena]] needed a home for design-stage work (initial comp art) and JVL agreed to **create two more organizations — "Game Concepts" and "Game Designs" (plural)** — so the GitHub orgs mirror the **three Jira stages: concept → design → production** ("JVL Games Production" already existed). [[wiki/people/andrei.md|Andrei]] is to create them and grant Lena repo-creation rights; a separate repository is also planned for the **Fortune 4 Progressive Sign** (a separate IP). See [[wiki/decisions/2025-02-26-designer-branching-workflow.md]]. [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]
+
 ## Sources
 
 - [[raw/Git_repo_structure_part_2_2025-02-11.md]]
+- [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]

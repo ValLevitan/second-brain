@@ -3,7 +3,7 @@ type: person
 title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich]
-source-count: 2
+source-count: 3
 open-commitments: 4
 open-questions: 0
 ---
@@ -29,6 +29,13 @@ Andrei Klimovich runs JVL's **online-games / RGS commercial operations** — the
 - **Website vendor** — [[wiki/people/monica.md|Monica]] revised the website contract; "Dmitriy" to sign (~next day); the vendor's designers are already working ahead of prepayment. [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
 - **Online account manager** — finishing interviews; will bring candidate(s) to Val the following week and wants Val's read on the choice. [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
 
+## Feb 21 recap — ECHO sales, ads, marketplace
+
+- **Direct sale:** a buyer named **Jeff** asked for a **15% discount** on the ECHO home device; Andrei is monitoring his purchase decision. [[raw/recap_meeting_andrei-February-21-2025.md]]
+- **Ad results:** the premium-segment ad test (≈4,000 rubles) got **no traction on kitchenware** but good engagement from **high-end audio, TVs, and robot vacuums** — so ads are being narrowed to premium electronics. Amazon still gives no way to track a buyer's origin. [[raw/recap_meeting_andrei-February-21-2025.md]]
+- **Contractors engaged:** [[wiki/people/anton-smm.md|Anton]] for Meta (FB/IG) ads focused on **Florida** (~$500 initial test budget); [[wiki/people/maxim-3d.md|Maxim]] for high-poly ECHO/slot renders. See [[wiki/topics/echo-home-gaming-device.md]]. [[raw/recap_meeting_andrei-February-21-2025.md]]
+- **Marketplace research:** evaluating online-casino platform capabilities for JVL's marketplace — multi-tenant architecture, player-account management/VIP, AI-driven fraud/AML, multi-currency + crypto payments. See [[wiki/topics/online-games-rgs-distribution.md]]. [[raw/recap_meeting_andrei-February-21-2025.md]]
+
 ## Open commitments
 
 - [ ] Andrei Klimovich — commission the high-poly ECHO 3D model from [[wiki/people/maxim-3d.md|Maxim]] and launch Meta (Instagram/Facebook) ads via [[wiki/people/anton-smm.md|Anton]] driving traffic to the Amazon page — due unspecified — [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
@@ -40,3 +47,4 @@ Andrei Klimovich runs JVL's **online-games / RGS commercial operations** — the
 
 - [[raw/Recap with Andrei Klimovich - January 30, 2025.md]]
 - [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
+- [[raw/recap_meeting_andrei-February-21-2025.md]]

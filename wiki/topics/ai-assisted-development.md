@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, meeting tracking]
-source-count: 7
+source-count: 9
 ---
 
 # AI-assisted development adoption
@@ -54,6 +54,14 @@ Coaching Andrei, Val described the workflow he uses himself and wants his manage
 - On the Feb 18 Git-LFS onboarding session, Aaron pushed to enable **GitHub Copilot** ("like ChatGPT for anything in VS Code") for everyone; on the enterprise plan it needs paid seats at ~**$19/month** (Business). Val questioned the cost and who would use it; Aaron said everybody should. [[raw/GitHub_Commit_LFS-Feb-18-2025.md]]
 - Andrei confirmed he already uses **Cline + OpenRouter** in his own work and can teach the graphics team; the team agreed to use **one shared OpenRouter account** (it shows only aggregate, not per-user, activity — "we don't need 40 accounts"). Val's aim: onboard at least half the graphic department (like Lena and Dima) to commit their large assets themselves via Git LFS. See [[wiki/meetings/2025-02-18-git-lfs-vscode-onboarding.md]]. [[raw/GitHub_Commit_LFS-Feb-18-2025.md]]
 
+## MCP to automate engineering work — "replacing Pavel" (Feb 21)
+
+- In a short Feb 21 call, Aaron extended the MCP idea to **automating an engineer's role**. The simplest MCP is point-to-point (the AI sees raw API endpoints and connects the dots), but you can build **flows/actions with business logic inside the MCP** — e.g. a single "deploy a new machine to an environment" or "reconfigure" tool that internally calls many endpoints and reports each step. The step-by-step flow a person like [[wiki/people/pavel.md|Pavel]] follows to make something work can be baked into an MCP, giving "an AI tool orchestrating the actions Pavel was doing." Aaron noted CI/CD build automation in GitHub follows the same convention, so the same pattern applies to integrating assets, deploying SQL, scaling environments, or configuring Kubernetes. [[raw/Call_with_Aaron_Bockelie_2025-02-21.md]]
+
+## ChatGPT as a self-teaching tool for Git (Feb 21)
+
+- On the Feb 21 LFS session Val and [[wiki/people/andrei.md|Andrei]] both pushed the team to **learn Git by thinking, not by following step-by-step instructions** — using YouTube and especially **ChatGPT** as the tutor. Val's method: when stuck on Git, screenshot the problem into ChatGPT and ask it to "explain it in a primitive way," give the next step, or "explain the philosophy of why this is a structure." This is the same self-teaching stance behind onboarding the graphics team. See [[wiki/topics/docs-as-code-and-atlassian-exit.md]]. [[raw/GitHub_commit_of_LFS_demo_by_Lena_2025-02-21.md]]
+
 ## Connection to the pipeline debate
 
 - Val explicitly linked adopting Git-native, AI-friendly practices to resolving the ISO build-pipeline problem: a natural-language/AI interface should be a standard part of a pipeline built to last 10 years. See [[wiki/topics/build-pipeline-parameterization.md]]. [[raw/development_pipeline_january_13_2025.md]]
@@ -68,3 +76,5 @@ Coaching Andrei, Val described the workflow he uses himself and wants his manage
 - [[raw/detailed_transcript_meeting_tracking_and_AI_Integration-feb-17-2025.md]]
 - [[raw/cloud_file_architecture_transcript_aaron-2025-02-17.md]]
 - [[raw/GitHub_Commit_LFS-Feb-18-2025.md]]
+- [[raw/Call_with_Aaron_Bockelie_2025-02-21.md]]
+- [[raw/GitHub_commit_of_LFS_demo_by_Lena_2025-02-21.md]]

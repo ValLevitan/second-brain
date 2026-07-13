@@ -3,7 +3,7 @@ type: topic
 title: JVL machine and cabinet lineup
 date: 2026-07-12
 aliases: [Flex cabinets, Altera, Maple, Echo, Flex S, Flex C, cabinets, VLT, video lottery terminal, Flex SD27, V43, C10-VLOT-TERM-RU, Epic 950, FutureLogic, FlexPort, FlexPay, Nico, Miranda, Omni, Florida Ruta, CPU kit, coffin, iOBoard, Bally iview, Diamondlink, nano-optics, JCM, dual SAS, HAL]
-source-count: 16
+source-count: 18
 ---
 
 # JVL machine and cabinet lineup
@@ -25,6 +25,7 @@ A running glossary of the machine models, cabinet types, and product families th
 - **Payment Platform** initiative: the payment **kiosk** itself; **Port**, the lighter version of the AFT; and **Pay Cloud**, what the kiosk will "morph into." Plus a **Payment Mobile Admin** application under discussion. [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]
 - **Flex Mount** and a **CPU Kit** sit under accessories; the rest is online distribution. [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]
 - **FlexPort** — a payment device (a hardware **EFT / electronic-fund-transfer module installed on the machine**) that communicates with **FlexPay** and can push updates; on Jan 24 its beta was ~3 weeks out (~Feb 15 2025), to be tested with a Flex-S machine and a FlexPay kiosk assembled together. Ticket (TITO) validation is done by FlexPay: the machine reads the ticket code and passes it to FlexPay, which confirms it printed it. See [[wiki/meetings/2025-01-24-flexport-flexpay-beta.md]]. [[raw/flex_port_hardware_up-jan-24-2025.md]]
+  - **FlexPort ↔ FlexPay integration (Feb 25):** debugging continued — the WebSocket connection **drops despite a 1-second ping-pong keepalive** (cause unknown; pings absent from logs). Val settled the **abandoned-cash-out** rule (cancel unclaimed ticket → pull credits → report "not claimed" to FlexPay → restore on paper at audit) and made **detailed comms logging a formal requirement**. Ship config: **~4 machines per FlexPay**, 4 FlexPay + ~15 ports; FlexPort goes into JVL's own machines too for uniformity, working across all software including old. See [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]] and [[wiki/meetings/2025-02-25-embedded-group-flexport-flexpay.md]]. [[raw/Embedded_Group_alignment_and_update_2025-02-25.md]]
   - **FlexPort ↔ FlexPay integration (Feb 11):** the FlexPort module connects to the FlexPay kiosk over a **WebSocket** (handshake → device registration). Agreed logic: the machine **accepts no money or tickets until the device registers** with FlexPay; cash-out is only via FlexPay (the old RS-485/Mutagus path is fully disabled when FlexPort is installed); a bad ticket or 3 wrong PIN attempts sends the player to an administrator, with a ~15-minute ticket lockout to be added FlexPay-side. A test-utility showed a WebSocket 200 instead of the expected 101 upgrade — to be retested against a real FlexPay kiosk. Production shipment likely needs ~1 more week after FlexPay comes up. The payment processor **Incom** supplies the test server; a production contract was received and awaits Val's signature; [[wiki/people/felipe-miranda.md|Felipe]] ("Filippo") to host a multi-machine production test in his office. See [[wiki/meetings/2025-02-11-embedded-group-flexport-flexpay.md]]. [[raw/Embedded_Group_alignment_and_update_2025-02-11.md]]
 
 ## Printers
@@ -63,6 +64,7 @@ A running glossary of the machine models, cabinet types, and product families th
   - **Fortune Football** — the next big game to move the whole team onto; needs a new dashboard, new system-framework messages, a gambling feature and a "local" (fractional-bet) feature; production being planned as a block diagram of milestones in the new Omni workflow.
   - **The "fat cat" / mannequin-cat persistence game** — a perceived-persistence game whose core hook is inflating a cat across ~10 states; the design must tune how much the cat inflates per hit (Goldilocks: noticeable but leaving runway) and the ratio of false hits to real hits (e.g. ~9 false to 1 real). Math is easy to change but animation states must not paint the design into a corner. **Progressive-in-game gambling** is wanted eventually in this framework but deferred to save time. [[raw/game_design_january_16_2025.md]]
   - **Coin Trio** — referenced as a competitor/reference game whose bonus-coin distribution JVL is interpolating from. [[raw/game_design_january_16_2025.md]]
+  - **Fortune Foo Paws (Feb 21 review):** the progressive game with **perceived-persistence cat toppers** and gold/white/blue **Caban coins**; bet levels set to **60/120/180/300/600 credits**; two topper modes (idle-meters / attraction). The design-philosophy detail (signage-vs-game-screen detail, help-screen icon versions, and the open progressive-bet-incentive debate) lives on [[wiki/topics/slot-game-design-principles.md]]. A Miranda→math ("mass") test tool is being built to play-test the math. Also under review: **Rodeo Queen** (horse animation + static horse symbol approved). [[raw/game_design_meeting_february_21_2025.md]]
   - **"Nico" cat game (Feb 6 review):** a game with a **"Nico" cat** character reviewed as still-image mockups (Lena presenting) — idle-with-meters, an attraction mode with promo text and character animation, and an on-machine view. Open feedback items for Juan: the topper **promotional text** (draft: "hold and re-spin feature with up to three bonuses") and the low-camera-angle, "huge and majestic" Nico-cat **topper** image. (Transcript otherwise blank.) [[raw/Game design meeting - February 6, 2025.md]]
 
 ## Screens, formats, and game-build terms
@@ -93,3 +95,5 @@ A running glossary of the machine models, cabinet types, and product families th
 - [[raw/Git_repo_structure_part_2_2025-02-11.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-02-18.md]]
 - [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
+- [[raw/game_design_meeting_february_21_2025.md]]
+- [[raw/Embedded_Group_alignment_and_update_2025-02-25.md]]

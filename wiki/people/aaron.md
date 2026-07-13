@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie]
-source-count: 18
+source-count: 21
 ---
 
 # Aaron
@@ -56,6 +56,12 @@ His surname is given as **Bockelie** on the Jan 21 continuous-delivery transcrip
 - **Meeting-tracking + cloud file architecture (Feb 17):** told Val that the source of truth for tracking a feature's progress must be GitHub (a Git repo) and demoed the GitHub **MCP** tool (branches, PRs, CI, permissions) alongside the Google Workspace tool. Then coached Val to think as a "DevOps engineer, not a user": treat your work as a product — "engineer Val" creates, "consumer Val" consumes — and **publish** distilled/consumable copies (PDF/web/Word) to OneDrive rather than syncing the original Git working repo there; GitHub stays the source of truth across devices. See [[wiki/topics/ai-assisted-development.md]]. [[raw/detailed_transcript_meeting_tracking_and_AI_Integration-feb-17-2025.md]] [[raw/cloud_file_architecture_transcript_aaron-2025-02-17.md]]
 - **Git-LFS / VS Code onboarding (Feb 18):** ran a hands-on session onboarding [[wiki/people/dmitry-khandov.md|Dmitriy Khandov]] (and the graphics team) to VS Code + Git Graph + **Copilot** + committing via source control; quoted Copilot Business at ~$19/seat and said everyone should use it; deferred the spend decision to Val. See [[wiki/meetings/2025-02-18-git-lfs-vscode-onboarding.md]]. [[raw/GitHub_Commit_LFS-Feb-18-2025.md]]
 
+## MCP automation, graphics migration, docs-as-code (Feb 21–26)
+
+- **MCP automation ("replacing Pavel") (Feb 21):** in a short call Aaron explained that MCP servers can wrap raw API endpoints in higher-level "tools" carrying business logic (e.g. "deploy a machine to an environment"), and that the step-by-step flow a person like [[wiki/people/pavel.md|Pavel]] follows can be baked into an MCP so an AI orchestrates it — the same convention CI/CD build automation uses in GitHub. See [[wiki/topics/ai-assisted-development.md]]. [[raw/Call_with_Aaron_Bockelie_2025-02-21.md]]
+- **Game/design repo split + docs-as-code (Feb 21):** in the LFS demo with [[wiki/people/lena.md|Lena]], Aaron proposed two repos per game (game + LFS design repo, joined by a git submodule; build doesn't need the comp art) and demoed docs-as-code — Markdown docs auto-rendered to a per-project website (Docusaurus/MkDocs/GitHub Docs) with Mermaid diagrams. He declared "the only source of truth is what's in git" and that his and Val's goal is to **retire Atlassian** (Confluence now, Jira in "a year or two") in favour of GitHub. He took on migrating Fortune Foo Paws' Confluence content into a GitHub docs site. See [[wiki/decisions/2025-02-21-separate-game-and-design-repos.md]] and [[wiki/topics/docs-as-code-and-atlassian-exit.md]]. [[raw/GitHub_commit_of_LFS_demo_by_Lena_2025-02-21.md]]
+- **Designer branching workflow (Feb 26):** coached the design team (Lena, Dima Khandov, Yulia, Anastasia) on feature/story branches, PR-only merges to `main`, and a branch-lifespan performance metric (3 days amazing → 10 days worst-acceptable) — applied to PSD files too; is building a Photoshop→contact-sheet GitHub Action; and set the plan to keep Juan/Michael out ~30 days until the core four are comfortable. See [[wiki/decisions/2025-02-26-designer-branching-workflow.md]]. [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]
+
 ## Sources
 
 - [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]
@@ -76,3 +82,6 @@ His surname is given as **Bockelie** on the Jan 21 continuous-delivery transcrip
 - [[raw/detailed_transcript_meeting_tracking_and_AI_Integration-feb-17-2025.md]]
 - [[raw/cloud_file_architecture_transcript_aaron-2025-02-17.md]]
 - [[raw/GitHub_Commit_LFS-Feb-18-2025.md]]
+- [[raw/Call_with_Aaron_Bockelie_2025-02-21.md]]
+- [[raw/GitHub_commit_of_LFS_demo_by_Lena_2025-02-21.md]]
+- [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]
