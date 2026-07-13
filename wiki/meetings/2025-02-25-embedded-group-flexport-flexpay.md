@@ -8,7 +8,7 @@ source-count: 1
 
 # Embedded group — FlexPort/FlexPay (Feb 25 2025)
 
-~23-min embedded-group standup (Russian). Attendees: [[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel]] ("Pasha"), [[wiki/people/evgeny.md|Evgeny]] ("Женя"), [[wiki/people/genadi-peari.md|Genadi]]; "Dima" (software, unattributed) referenced. Purpose: debug the dropped WebSocket connection and settle cash-out handling before shipping. [[raw/Embedded_Group_alignment_and_update_2025-02-25.md]]
+~23-min embedded-group standup (Russian). Attendees: [[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel]] ("Pasha"), [[wiki/people/eugine-yavorski.md|Evgeny]] ("Женя"), [[wiki/people/genadi-peari.md|Genadi]]; "Dima" (software, unattributed) referenced. Purpose: debug the dropped WebSocket connection and settle cash-out handling before shipping. [[raw/Embedded_Group_alignment_and_update_2025-02-25.md]]
 
 Substance lives on [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]] (FlexPort↔FlexPay integration) and [[wiki/topics/jvl-machine-lineup.md]]:
 - Connection **drops despite a 1-second ping-pong** — cause not found; JVL side to investigate; pings not appearing in the logs.

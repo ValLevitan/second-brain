@@ -9,7 +9,7 @@ source-count: 1
 # Embedded group — FlexPort/FlexPay alignment (Feb 18)
 
 **Date:** 2025-02-18
-**Attendees (Russian-language call):** [[wiki/people/val-levitan.md|Val]], [[wiki/people/andrei.md|Andrei]], [[wiki/people/evgeny.md|Evgeny]] ("Zhenya"), [[wiki/people/genadi-peari.md|Genadi Peari]] ("Gena"), [[wiki/people/pavel.md|Pavel]], and a "Dima" (FlexPay software; not attributed — see Owner Decisions).
+**Attendees (Russian-language call):** [[wiki/people/val-levitan.md|Val]], [[wiki/people/andrei.md|Andrei]], [[wiki/people/eugine-yavorski.md|Evgeny]] ("Zhenya"), [[wiki/people/genadi-peari.md|Genadi Peari]] ("Gena"), [[wiki/people/pavel.md|Pavel]], and a "Dima" (FlexPay software; not attributed — see Owner Decisions).
 **Purpose:** Weekly embedded-group status on the FlexPort↔FlexPay integration and getting machines to the first locations.
 
 Substance lives in:
