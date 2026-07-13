@@ -3,7 +3,7 @@ type: project
 title: JVL 2025 strategic plan and Jira roadmap
 date: 2026-07-12
 aliases: [2025 plan, strategic plan 2025, Jira value stream, distribution infrastructure]
-source-count: 2
+source-count: 4
 ---
 
 # JVL 2025 strategic plan and Jira roadmap
@@ -33,7 +33,14 @@ JVL's plan for 2025, both as a written executive strategy and as the Jira struct
 
 - During the same Jan 7 planning call, Val discussed a South Dakota opportunity via MG Oil. See [[wiki/decisions/2025-01-07-pursue-mg-oil-south-dakota.md]]. [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]
 
+## Executing the Core Technology and DevSecOps pillars (Jan 13–14)
+
+- The Jan 13 development-pipeline meeting is the DevSecOps pillar in action: the debate over how to build the Omni-platform ISO image flexibly (Jenkins vs. a Git-native pipeline). See [[wiki/topics/build-pipeline-parameterization.md]]. [[raw/development_pipeline_january_13_2025.md]]
+- The Jan 14 AI-development workshop advances the same modernization: getting engineers onto Git-native, AI-assisted tooling, which Val ties directly to the pipeline goal and to scaling the company. See [[wiki/topics/ai-assisted-development.md]]. [[raw/ai-assisted_development_with_vs_code_git_and_mcp_january_14_2025.md]]
+
 ## Sources
 
 - [[raw/jvl_strategic_plan_and_vision_2025_2025-01-08.md]]
 - [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]
+- [[raw/development_pipeline_january_13_2025.md]]
+- [[raw/ai-assisted_development_with_vs_code_git_and_mcp_january_14_2025.md]]

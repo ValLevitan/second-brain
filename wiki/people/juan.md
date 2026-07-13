@@ -3,19 +3,21 @@ type: person
 title: Juan
 date: 2026-07-12
 aliases: [Juan]
-source-count: 1
+source-count: 2
 ---
 
 # Juan
 
-Juan works on JVL's commercial side and its relationship with the game-testing lab GLI.
+Juan works on JVL's commercial side, its relationship with the game-testing lab GLI, and international operations/expansion.
 
 ## Role
 
 - Juan is named alongside Val as the JVL people who deal with GLI; the GLI representative mentioned that "neither Juan or myself" would be at the amusement trade show. [[raw/gli_visit-jan-7-2025.md]]
+- Anibal reported to Juan on preparing Peru machines for shipment to Toronto, and Juan was on the call discussing the Peru office closure and Anibal's possible move to Puerto Rico. See [[wiki/projects/puerto-rico-expansion.md]]. [[raw/anibal_call_011325_meeting_notes_2025-01-14.md]]
 
-Beyond being tied to the GLI relationship, the transcript does not give further detail on Juan's role or his last name.
+The transcripts do not give Juan's last name.
 
 ## Sources
 
 - [[raw/gli_visit-jan-7-2025.md]]
+- [[raw/anibal_call_011325_meeting_notes_2025-01-14.md]]
