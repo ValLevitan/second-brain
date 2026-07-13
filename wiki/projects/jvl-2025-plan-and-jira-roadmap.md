@@ -3,7 +3,7 @@ type: project
 title: JVL 2025 strategic plan and Jira roadmap
 date: 2026-07-12
 aliases: [2025 plan, strategic plan 2025, Jira value stream, distribution infrastructure, DevSecOps grooming, ITSM]
-source-count: 7
+source-count: 8
 open-commitments: 1
 ---
 
@@ -53,6 +53,10 @@ Two Jan 20 sessions moved the DevSecOps pillar from strategy into concrete tool 
 
 - A short Jan 22 call turned the DevSecOps grooming into a work split: convert the Miro board into initiatives/products for the Jira plans view; **Andrei** takes the DevOps work (and will be educated on DevOps, which he agreed to), while **Dima** takes application-support/install-and-configure work. Aaron acknowledged a reminder placed in the middle of the Miro board. See [[wiki/meetings/2025-01-22-minsk-it-structure.md]]. (Whether "Dima" is [[wiki/people/dmitry-khandov.md|Dmitry Khandov]] is unconfirmed — see Owner Decisions.) [[raw/it_structure_minsk-jan-22-2025.md]]
 
+## GitHub enterprise structure finalized (Feb 11)
+
+- The Feb 11 repo-structure session locked the GitHub org naming convention and the **7-organization list** (Games Production; Math & Game Mechanics; Platform; Observability Platform; Core Technology; Systems Operations; Hardware & Firmware), with Pavel and Aaron agreeing to **restructure the Jira value streams to match** the orgs. Repo migration sequenced: Omni/Miranda/FlexPay → RGS → inventory-map the rest. See [[wiki/decisions/2025-02-11-github-org-naming-and-structure.md]] and [[wiki/decisions/2025-02-11-git-migration-sequence.md]]. [[raw/Git_repo_structure_part_2_2025-02-11.md]]
+
 ## Open commitments
 
 - [ ] Andrei — rework the DevSecOps initiatives/products in Jira to align with the Miro board (rename initiatives + descriptions, create initiative and product cards, every Miro card = a Jira issue); demo a small slice at a Wednesday check-in — due Friday (with Wednesday check-in) — [[raw/meeting_various-jan-20-2025.md]]
@@ -66,3 +70,4 @@ Two Jan 20 sessions moved the DevSecOps pillar from strategy into concrete tool 
 - [[raw/github_organization-jan-20-2025.md]]
 - [[raw/meeting_various-jan-20-2025.md]]
 - [[raw/it_structure_minsk-jan-22-2025.md]]
+- [[raw/Git_repo_structure_part_2_2025-02-11.md]]

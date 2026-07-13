@@ -3,7 +3,7 @@ type: person
 title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov]
-source-count: 10
+source-count: 11
 open-commitments: 1
 open-questions: 0
 ---
@@ -34,6 +34,10 @@ Pavel (called "Pasha") is a JVL engineer on the Minsk team who works on system/d
 - **South Dakota (Jan 22):** Pavel handles the Minsk software for the SD lab machine — the FutureLogic Gen 5/Gen 2 printer behaviour, the erroneous game-shutdown countdown, CRC validation, and printing via the Minsk SAS emulator. Val told him to contact Light & Wonder for logs but not to wait for them — to find the shutdown-trigger cause himself. See [[wiki/projects/south-dakota-vlt-market.md]] and [[wiki/decisions/2025-01-22-support-epic-950-printer-for-south-dakota.md]]. [[raw/sd_vlt_recap-jan-22-2025.md]]
 - **FlexPort beta (Jan 24):** the FlexPort beta (~3 weeks out) and its assembled testing with FlexPay are attributed to Pavel's group; ticket validation is handled by FlexPay. See [[wiki/topics/jvl-machine-lineup.md]]. [[raw/flex_port_hardware_up-jan-24-2025.md]]
 
+## GitHub repo structure (Feb 11)
+
+- On the Feb 11 org-structure session Pavel ("Pasha") pushed the naming details (e.g. replace "OmniEngine" with the hardware-abstraction-layer "HAL"), agreed to restructure the Jira value streams to match the GitHub orgs, and confirmed he wants "as close an integration as possible" between Jira and GitHub. He flagged that the **FlexPay** project should be added to the first migration batch (Omni + Miranda). See [[wiki/decisions/2025-02-11-github-org-naming-and-structure.md]] and [[wiki/decisions/2025-02-11-git-migration-sequence.md]]. [[raw/Git_repo_structure_part_2_2025-02-11.md]]
+
 ## Open commitments
 
 - [ ] Pavel — produce image files (e.g. an ext2/ext4 partition or a Docker/Docker-Compose image) that collect the modules for local deployment; full ISO assembly deferred to a later milestone — due by the next meeting (Monday) — [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]]
@@ -52,3 +56,4 @@ Note: "Pasha" and "Sasha" are sometimes confused in the transcripts; "Pasha" map
 - [[raw/fr-7_identifying_bottlenecks_in_performance_during_testing_january_17_2025.md]]
 - [[raw/sd_vlt_recap-jan-22-2025.md]]
 - [[raw/flex_port_hardware_up-jan-24-2025.md]]
+- [[raw/Git_repo_structure_part_2_2025-02-11.md]]

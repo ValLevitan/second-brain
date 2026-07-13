@@ -2,8 +2,8 @@
 type: topic
 title: JVL machine and cabinet lineup
 date: 2026-07-12
-aliases: [Flex cabinets, Altera, Maple, Echo, Flex S, Flex C, cabinets, VLT, video lottery terminal, Flex SD27, V43, C10-VLOT-TERM-RU, Epic 950, FutureLogic, FlexPort]
-source-count: 9
+aliases: [Flex cabinets, Altera, Maple, Echo, Flex S, Flex C, cabinets, VLT, video lottery terminal, Flex SD27, V43, C10-VLOT-TERM-RU, Epic 950, FutureLogic, FlexPort, FlexPay, Nico, Miranda, Omni]
+source-count: 14
 ---
 
 # JVL machine and cabinet lineup
@@ -17,14 +17,15 @@ A running glossary of the machine models, cabinet types, and product families th
 - **Flex C** — a planned stronger, more robust casino cabinet with a larger screen; big enough that JVL may treat signage/progressive as a separate element. Distinct from the earlier "Flex C43 Curve" game-design item below. [[raw/fp-7_performance_analysis_january_13_2025.md]]
 - **Flex Top** — a new countertop cabinet with a dual screen, roughly 24-inch; temporary plastic exists and one sample is assembled, but permanent tooling not yet ordered. [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]
 - **Flex Flat** (renamed from "Flex Pay") — a small flat 15-degree-angle 16-inch plastic top piece that sits on the Flex Pay pedestal. [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]
-- **Echo** — a countertop model being converted back to a gaming cabinet, fitted with HG6 games for conversion in Colombia. [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]
+- **Echo** — a countertop model being converted back to a gaming cabinet, fitted with HG6 games for conversion in Colombia. [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]] Separately, an **ECHO consumer home device** (149 offline games, sold on Amazon) is the online team's go-to-market product — whether it is the same product line as this Echo cabinet is **unclear**. See [[wiki/topics/echo-home-gaming-device.md]]. [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
 - **Flex C43 Curve** — a curved cabinet tied to game design work ("Georgia Co-op Jack Patrasche"). [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]
 
 ## Payment / distribution products
 
 - **Payment Platform** initiative: the payment **kiosk** itself; **Port**, the lighter version of the AFT; and **Pay Cloud**, what the kiosk will "morph into." Plus a **Payment Mobile Admin** application under discussion. [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]
 - **Flex Mount** and a **CPU Kit** sit under accessories; the rest is online distribution. [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]
-- **FlexPort** — a payment device that communicates with **FlexPay** and can push updates; on Jan 24 its beta was ~3 weeks out (~Feb 15 2025), to be tested with a Flex-S machine and a FlexPay kiosk assembled together. Ticket (TITO) validation is done by FlexPay: the machine reads the ticket code and passes it to FlexPay, which confirms it printed it. See [[wiki/meetings/2025-01-24-flexport-flexpay-beta.md]]. [[raw/flex_port_hardware_up-jan-24-2025.md]]
+- **FlexPort** — a payment device (a hardware **EFT / electronic-fund-transfer module installed on the machine**) that communicates with **FlexPay** and can push updates; on Jan 24 its beta was ~3 weeks out (~Feb 15 2025), to be tested with a Flex-S machine and a FlexPay kiosk assembled together. Ticket (TITO) validation is done by FlexPay: the machine reads the ticket code and passes it to FlexPay, which confirms it printed it. See [[wiki/meetings/2025-01-24-flexport-flexpay-beta.md]]. [[raw/flex_port_hardware_up-jan-24-2025.md]]
+  - **FlexPort ↔ FlexPay integration (Feb 11):** the FlexPort module connects to the FlexPay kiosk over a **WebSocket** (handshake → device registration). Agreed logic: the machine **accepts no money or tickets until the device registers** with FlexPay; cash-out is only via FlexPay (the old RS-485/Mutagus path is fully disabled when FlexPort is installed); a bad ticket or 3 wrong PIN attempts sends the player to an administrator, with a ~15-minute ticket lockout to be added FlexPay-side. A test-utility showed a WebSocket 200 instead of the expected 101 upgrade — to be retested against a real FlexPay kiosk. Production shipment likely needs ~1 more week after FlexPay comes up. The payment processor **Incom** supplies the test server; a production contract was received and awaits Val's signature; [[wiki/people/felipe-miranda.md|Felipe]] ("Filippo") to host a multi-machine production test in his office. See [[wiki/meetings/2025-02-11-embedded-group-flexport-flexpay.md]]. [[raw/Embedded_Group_alignment_and_update_2025-02-11.md]]
 
 ## Printers
 
@@ -49,11 +50,12 @@ A running glossary of the machine models, cabinet types, and product families th
   - **Fortune Football** — the next big game to move the whole team onto; needs a new dashboard, new system-framework messages, a gambling feature and a "local" (fractional-bet) feature; production being planned as a block diagram of milestones in the new Omni workflow.
   - **The "fat cat" / mannequin-cat persistence game** — a perceived-persistence game whose core hook is inflating a cat across ~10 states; the design must tune how much the cat inflates per hit (Goldilocks: noticeable but leaving runway) and the ratio of false hits to real hits (e.g. ~9 false to 1 real). Math is easy to change but animation states must not paint the design into a corner. **Progressive-in-game gambling** is wanted eventually in this framework but deferred to save time. [[raw/game_design_january_16_2025.md]]
   - **Coin Trio** — referenced as a competitor/reference game whose bonus-coin distribution JVL is interpolating from. [[raw/game_design_january_16_2025.md]]
+  - **"Nico" cat game (Feb 6 review):** a game with a **"Nico" cat** character reviewed as still-image mockups (Lena presenting) — idle-with-meters, an attraction mode with promo text and character animation, and an on-machine view. Open feedback items for Juan: the topper **promotional text** (draft: "hold and re-spin feature with up to three bonuses") and the low-camera-angle, "huge and majestic" Nico-cat **topper** image. (Transcript otherwise blank.) [[raw/Game design meeting - February 6, 2025.md]]
 
 ## Screens, formats, and game-build terms
 
 - **V-Deck** — a full-HD secondary screen on the machine; **Topper** — the top screen used for progressive signage. A typical layout runs videos across topper, main screen, and V-Deck. [[raw/fp-7_performance_analysis_january_13_2025.md]]
-- Game videos use the **VP8/VP9** format (chosen for alpha transparency). **Spine** objects are skeletal animations that run more efficiently than video; JVL balances spine animation against video to manage hardware load. **Miranda** is the tool with an "animation controller" feature that can swap objects without programmers. [[raw/fp-7_performance_analysis_january_13_2025.md]]
+- Game videos use the **VP8/VP9** format (chosen for alpha transparency). **Spine** objects are skeletal animations that run more efficiently than video; JVL balances spine animation against video to manage hardware load. **Miranda** is the tool/software product with an "animation controller" feature that can swap objects without programmers. [[raw/fp-7_performance_analysis_january_13_2025.md]] Miranda is a versioned JVL software product (versions "V8"/"Miranda 8", V9); its source is being migrated from SVN/Bitbucket into GitHub as part of the first migration batch (with Omni and FlexPay). See [[wiki/decisions/2025-02-11-git-migration-sequence.md]]. [[raw/Git_repo_structure_part_2_2025-02-11.md]] [[raw/github_explained-feb-3-2025.md]]
 
 ## How customers see the products
 
@@ -71,3 +73,8 @@ A running glossary of the machine models, cabinet types, and product families th
 - [[raw/game_design_january_16_2025.md]]
 - [[raw/sd_vlt_recap-jan-22-2025.md]]
 - [[raw/flex_port_hardware_up-jan-24-2025.md]]
+- [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
+- [[raw/github_explained-feb-3-2025.md]]
+- [[raw/Game design meeting - February 6, 2025.md]]
+- [[raw/Embedded_Group_alignment_and_update_2025-02-11.md]]
+- [[raw/Git_repo_structure_part_2_2025-02-11.md]]

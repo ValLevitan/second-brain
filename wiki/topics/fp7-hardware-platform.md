@@ -41,7 +41,7 @@ FP7 is a JVL CPU-board hardware platform being evaluated for the Flex-S cabinet,
 ## Conclusion and open items (Jan 13)
 
 - Consensus: FP7 is workable for the Fortune Fu Paws game and the Flex-S / Omni platform, but only "with a lot of effort for optimization." See [[wiki/decisions/2025-01-13-adopt-fp7-for-flex-s-fortune-fu-paws.md]]. [[raw/fp-7_performance_analysis_january_13_2025.md]]
-- Undertakings: Gennady Perry to ship 8000-processor samples (two to Minsk, ~two to Canada; ~30 days to Minsk); Pavel and Alexander to run further tests with a measurement tool to locate the true bottleneck. [[raw/fp-7_performance_analysis_january_13_2025.md]]
+- Undertakings: Genadi Peari to ship 8000-processor samples (two to Minsk, ~two to Canada; ~30 days to Minsk); Pavel and Alexander to run further tests with a measurement tool to locate the true bottleneck. [[raw/fp-7_performance_analysis_january_13_2025.md]]
 - Aaron raised (but Val deferred) whether a Thunderbolt-connected external GPU could offload video rendering — Val called it the wrong question for now. [[raw/fp-7_performance_analysis_january_13_2025.md]]
 - Plan B floated by Lena: if performance falls short once the game is built, move signage/progressive off this hardware onto a standalone controller. Val leans toward standalone progressive hardware but did not lock it as architecture. [[raw/fp-7_performance_analysis_january_13_2025.md]]
 

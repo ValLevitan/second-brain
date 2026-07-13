@@ -2,8 +2,8 @@
 type: topic
 title: FlexPay mobile app and service advocates
 date: 2026-07-12
-aliases: [FlexPay mobile app, service advocate, service advocates, whale, whale UI, Felipe]
-source-count: 2
+aliases: [FlexPay mobile app, service advocate, service advocates, whale, whale UI, Incom]
+source-count: 3
 ---
 
 # FlexPay mobile app and service advocates
@@ -20,7 +20,7 @@ A JVL discussion (Jan 13 2025) about a planned FlexPay mobile app and a new user
 
 - Chain: a master hires a service company; the service company employs the advocates/techs who go to locations. Advocates report to the master via their operations manager. [[raw/mobile_app_advocate_persona_profile_january_13_2025.md]]
 - Advocates generally do **not** buy parts under their own name or handle invoicing — JVL invoices the master directly. A rare exception: a company with its own LLC can be invoiced directly (e.g. "Diamond Services"), maybe one or two at most. There is no markup by advocates. [[raw/mobile_app_advocate_persona_profile_january_13_2025.md]]
-- Example used in the call: "I got an invoice from Felipe for a CPU for $400" — Felipe is named on the JVL side that issues a parts invoice. The point was whether a service advocate could mark that up when charging the master (answer: no — advocates don't handle invoicing). Felipe's exact role/last name is not stated. [[raw/mobile_app_advocate_persona_profile_january_13_2025.md]]
+- Example used in the call: "I got an invoice from Felipe for a CPU for $400" — [[wiki/people/felipe-miranda.md|Felipe Miranda]] is named on the JVL side that issues a parts invoice. The point was whether a service advocate could mark that up when charging the master (answer: no — advocates don't handle invoicing). Felipe's exact role/last name is not stated. [[raw/mobile_app_advocate_persona_profile_january_13_2025.md]]
 
 ## Product significance
 
@@ -34,7 +34,10 @@ Unclear: "whale" (appears as "whale"/"wial") — a tool or profile system JVL us
 
 The **FlexPay** payment product itself is confirmed progressing — the Jan 24 2025 call put the related **FlexPort** device's beta ~3 weeks out and described FlexPay validating tickets. That hardware is documented in [[wiki/topics/jvl-machine-lineup.md]]. However, the **mobile app** and the **service-advocate persona** that this page is about remain **single-source** (Jan 13) and stay FLAGGED until a second source confirms them. [[raw/flex_port_hardware_up-jan-24-2025.md]]
 
+- **FlexPort ↔ FlexPay integration progressing (Feb 11):** the Feb 11 embedded standup advanced the FlexPort-module-to-FlexPay-kiosk connection (WebSocket, device registration before accepting money, PIN/ticket validation), with the payment processor **Incom** supplying the test server and a production contract awaiting Val's signature; **Felipe** ("Filippo") to host a multi-machine production test in his office. Details on [[wiki/topics/jvl-machine-lineup.md]] and [[wiki/meetings/2025-02-11-embedded-group-flexport-flexpay.md]]. This is the payment product/hardware, still not the mobile app. (Whether "Felipe"/"Filippo" is the same Felipe who issues JVL parts invoices is unclear — see Owner Decisions.) [[raw/Embedded_Group_alignment_and_update_2025-02-11.md]]
+
 ## Sources
 
 - [[raw/mobile_app_advocate_persona_profile_january_13_2025.md]]
 - [[raw/flex_port_hardware_up-jan-24-2025.md]]
+- [[raw/Embedded_Group_alignment_and_update_2025-02-11.md]]

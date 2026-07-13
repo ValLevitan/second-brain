@@ -2,8 +2,8 @@
 type: topic
 title: Online games / RGS distribution business
 date: 2025-01-30
-aliases: [online games, RGS distribution, EveryMatrix, RGS Matrix, Brazil market, iGaming, certification economics, revenue share, MaxBet]
-source-count: 1
+aliases: [online games, RGS distribution, EveryMatrix, RGS Matrix, Brazil market, iGaming, certification economics, revenue share, MaxBet, JVL Marketplace, marketplace, platform services, Golden Palace, Digitain, Hub88, BetConstruct, wallet]
+source-count: 2
 ---
 
 # Online games / RGS distribution business
@@ -32,6 +32,24 @@ JVL's online casino games business: its games run on JVL's RGS (remote game serv
 
 - **MaxBet limit standardised at 250,000** across all games in the category. Only ~10 of the ~40 games currently exceed 250k; the rest are already under it, so only those ~10 need tuning. 250k was judged a good, mid-market limit. To be applied with EPUM. [[raw/Recap with Andrei Klimovich - January 30, 2025.md]]
 
+## What online platforms sell operators (Feb 1 analysis)
+
+Andrei Klimovich mapped the full stack of turnkey services an online-casino platform provides an operator, to frame the marketplace idea. The layers: a **website** (front/back-end + CMS, optionally managed for you); **multi-tenant architecture** (one account → many brands); **player account management** (customer support, player **segmentation**, CRM/VIP); **player verification** (ID check, facial recognition, address verification, global watch-list); **anti-fraud** (AML, fraud detection, multi-account prevention); **payments** (multi-currency + crypto, regional **wallets**); **data/analytics** (real-time dashboards, reporting); **content** (aggregation, curation, regional restriction/certification enforcement); **engagement & retention** (promos, jackpots, tournaments, free-spins, loyalty, social features); **affiliates**; and **licensing/certification** cover. Andrei flagged three under-served niches platforms don't yet package: news aggregation, streamers/influencers, and slot-review sites. [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
+
+## The JVL Marketplace concept (Feb 1)
+
+- Andrei's idea: a **game-provider marketplace** where operators integrate **directly** and pay JVL a **membership** for unlimited access to JVL's games, cutting out the platform's markup. Platforms typically take ~10% of GGR, but layered with content-provider and other cuts an operator loses ~30% on top of ~50% marketing spend — the marketplace targets that markup. [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
+- **How operators unbundle:** an established operator first takes back the **website + affiliates** (most control/cost), then the **wallet** (a separate third-party business); once it has a site and a wallet it is the "perfect target" — JVL plugs into its wallet and supplies only game content + RGS. [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
+- **MVP (Val's framing):** not the full marketplace — just a JVL **website** with well-polished digital steps to embed JVL's RGS and take JVL's games (a "pump" pushing games out), i.e. one convenient entry point for **direct integration**. Andrei worries the end-state marketplace makes JVL "just another platform on a different business model," and that platforms could **replicate** the membership model quickly and out-scale JVL — his main concern, for which he wanted Val's feedback (Val declined to argue either way). [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
+
+## Current integrations and RGS technical side
+
+- Current channels: **Digitain** (first, reverse, complete), **Golden Palace** (first Direct integration, in progress), and aggregators **Hub88** and **BetConstruct**, plus **EveryMatrix**. The RGS architecture, the reverse-vs-direct model, and the "easy-integration/installer" goal are on [[wiki/topics/rgs-architecture-and-integration.md]]. [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
+
+## Game-mechanics strategy
+
+- Val's ruling that online games derive from land-based mechanics on a **separate production line** (not porting), with land-based as priority: [[wiki/decisions/2025-02-01-online-games-derive-from-land-based-mechanics.md]]. [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
+
 ## Related ventures recapped in the same call
 
 - An **Amazon consumer device** (marketed for man-caves / game rooms) and a **data-collection project ("Norcross"/"North Cross")** using Anthropic were reported by Andrei Klimovich in the same recap — captured on his person page. See [[wiki/people/andrei-klimovich.md]]. [[raw/Recap with Andrei Klimovich - January 30, 2025.md]]
@@ -39,3 +57,4 @@ JVL's online casino games business: its games run on JVL's RGS (remote game serv
 ## Sources
 
 - [[raw/Recap with Andrei Klimovich - January 30, 2025.md]]
+- [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]

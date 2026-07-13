@@ -2,8 +2,8 @@
 type: person
 title: Alexander Biratka
 date: 2026-07-12
-aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka]
-source-count: 7
+aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex]
+source-count: 8
 open-commitments: 1
 open-questions: 0
 ---
@@ -29,6 +29,10 @@ Alexander Biratka (called "Sasha") is a JVL engineer, part of the Minsk engineer
 - On the Jan 16 game-design review, Sasha (with a colleague noted as "Emma") tried a new video format that improved FP7 performance slightly. [[raw/game_design_january_16_2025.md]]
 - On the Jan 17 bottleneck testing, Sasha ran the video-stream tests, found VP9 best in Chromium and VP8 in Firefox, and reproduced the same limit on his own PC with a powerful Radeon 6650 XT — showing the bottleneck is the CPU, not the GPU. He proposed upgrading to the new Pixi engine version, and is to do that upgrade (~a week). See [[wiki/decisions/2025-01-17-upgrade-omni-to-pixi-8-6.md]]. The transcript credits "Beratka" with coining the term **"manifest"** for the asset-creation guideline. [[raw/fr-7_identifying_bottlenecks_in_performance_during_testing_january_17_2025.md]]
 
+## GitHub repo structure (Feb 11)
+
+- On the Feb 11 org-structure session Sasha ("Alex") argued for shorter names in the URL and, for sorting/filtering, suggested the "JVL" tag belong at the **end** of org names (Aaron/Val kept it at the front). He asked to keep repo/org names readable and confirmed the naming standard. See [[wiki/decisions/2025-02-11-github-org-naming-and-structure.md]]. [[raw/Git_repo_structure_part_2_2025-02-11.md]]
+
 ## Open commitments
 
 - [ ] Sasha (Alexander Biratka) — write a real build-config file (game, framework, LGS, hardware abstraction layer), put it in Git, and set up a job that produces an image/archive (not a full ISO yet) — due by the next meeting (Monday) — [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]]
@@ -44,3 +48,4 @@ Note: the correct surname is **Biratka** (confirmed by Val). The transcripts spe
 - [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]]
 - [[raw/game_design_january_16_2025.md]]
 - [[raw/fr-7_identifying_bottlenecks_in_performance_during_testing_january_17_2025.md]]
+- [[raw/Git_repo_structure_part_2_2025-02-11.md]]

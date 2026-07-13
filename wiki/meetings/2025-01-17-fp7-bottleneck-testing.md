@@ -10,7 +10,7 @@ source-count: 1
 
 Follow-up to the Jan 13 FP7 review: Pavel and Alexander report the results of their bottleneck measurements. The team concludes the CPU is the bottleneck, resolves to stay on FP7 and optimize, and agrees to upgrade the Pixi engine.
 
-- **Attendees:** [[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel]], [[wiki/people/alexander-biratka.md|Sasha]], [[wiki/people/gennady-perry.md|Gennady]], [[wiki/people/dmitry-khandov.md|Dima Khandov]], [[wiki/people/aaron.md|Aaron]]. [[raw/fr-7_identifying_bottlenecks_in_performance_during_testing_january_17_2025.md]]
+- **Attendees:** [[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel]], [[wiki/people/alexander-biratka.md|Sasha]], [[wiki/people/genadi-peari.md|Gennady]], [[wiki/people/dmitry-khandov.md|Dima Khandov]], [[wiki/people/aaron.md|Aaron]]. [[raw/fr-7_identifying_bottlenecks_in_performance_during_testing_january_17_2025.md]]
 - **Purpose:** review the deeper FP7 performance tests, locate the bottleneck, and decide next steps.
 
 Substance lives on:

@@ -15,7 +15,7 @@ JVL will move forward with the FP7 CPU board, especially for the Flex-S cabinet,
 
 ## Who and when
 
-- Decided by [[wiki/people/val-levitan.md|Val]] at the Jan 13 2025 FP7 performance review, with agreement from the design side ([[wiki/people/lena.md|Lena]], [[wiki/people/dmitry-khandov.md|Dmitry Khandov]]) and hardware ([[wiki/people/gennady-perry.md|Gennady Perry]]). [[raw/fp-7_performance_analysis_january_13_2025.md]]
+- Decided by [[wiki/people/val-levitan.md|Val]] at the Jan 13 2025 FP7 performance review, with agreement from the design side ([[wiki/people/lena.md|Lena]], [[wiki/people/dmitry-khandov.md|Dmitry Khandov]]) and hardware ([[wiki/people/genadi-peari.md|Genadi Peari]]). [[raw/fp-7_performance_analysis_january_13_2025.md]]
 
 ## Rationale
 
@@ -25,7 +25,7 @@ JVL will move forward with the FP7 CPU board, especially for the Flex-S cabinet,
 ## Guidance and undertakings attached
 
 - Lena's team develops Fortune Fu Paws under the current performance limits (staying under the established video-count threshold). [[raw/fp-7_performance_analysis_january_13_2025.md]]
-- Gennady Perry to ship 8000-processor board samples (two to Minsk, ~two to Canada) as a performance upgrade path (~20% more power). [[raw/fp-7_performance_analysis_january_13_2025.md]]
+- Genadi Peari to ship 8000-processor board samples (two to Minsk, ~two to Canada) as a performance upgrade path (~20% more power). [[raw/fp-7_performance_analysis_january_13_2025.md]]
 - Pavel and Alexander to run further tests with a measurement tool to locate the bottleneck; follow-up hardware meeting set for that Friday. [[raw/fp-7_performance_analysis_january_13_2025.md]]
 
 See [[wiki/topics/fp7-hardware-platform.md]].

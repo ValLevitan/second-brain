@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena]
-source-count: 3
+source-count: 4
 ---
 
 # Lena
@@ -22,6 +22,10 @@ Lena leads JVL's game design / art team. She judges whether the visual quality o
 - On the Jan 16 game-design review, Lena reported the tests show FP7 will work for the Fortune Football games, and repeated her proposal to treat the machine as three screens with a separate/autonomous signage controller. [[raw/game_design_january_16_2025.md]]
 - On the Jan 17 bottleneck meeting, her minimum viable requirement was noted as ~4 videos; the test hit 8, twice her minimum. [[raw/fr-7_identifying_bottlenecks_in_performance_during_testing_january_17_2025.md]]
 
+## Game-design review (Feb 6)
+
+- Lena screen-shared her team's still-image mockups of a game with a **"Nico" cat** character on the topper — idle-with-meters → attraction mode with promo text and character animation → on-machine view — for Val's and Juan's feedback. (No animation yet; still compacts.) See [[wiki/topics/jvl-machine-lineup.md]]. [[raw/Game design meeting - February 6, 2025.md]]
+
 Her last name is not stated.
 
 ## Sources
@@ -29,3 +33,4 @@ Her last name is not stated.
 - [[raw/fp-7_performance_analysis_january_13_2025.md]]
 - [[raw/game_design_january_16_2025.md]]
 - [[raw/fr-7_identifying_bottlenecks_in_performance_during_testing_january_17_2025.md]]
+- [[raw/Game design meeting - February 6, 2025.md]]

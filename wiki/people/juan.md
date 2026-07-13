@@ -3,7 +3,7 @@ type: person
 title: Juan
 date: 2026-07-12
 aliases: [Juan]
-source-count: 5
+source-count: 6
 ---
 
 # Juan
@@ -22,6 +22,8 @@ Juan works on JVL's commercial side, its relationship with the game-testing lab 
 - **South Dakota (Jan 22):** Juan is the field/regulator-facing lead on the SD VLT effort — he visited the lab, relayed the regulator's printer preferences (Epic 950) and the unapproved-software allowance, coordinated with Light & Wonder and Lonnie, and did test-play. See [[wiki/projects/south-dakota-vlt-market.md]]. [[raw/sd_vlt_recap-jan-22-2025.md]]
 - **Puerto Rico (Jan 29):** Juan narrated Igor's Puerto Rico status document in English on the progress call and is expected to help vet the incoming law-firm quotes before they reach Val. See [[wiki/projects/puerto-rico-expansion.md]]. [[raw/Puerto Rico progress report - January 29, 2025.md]]
 
+- **Game-design review (Feb 6):** feedback was requested from Juan (he could not view live) on the Nico-cat topper — the promotional text ("hold and re-spin feature with up to three bonuses") and the low-angle Nico-cat topper image. See [[wiki/topics/jvl-machine-lineup.md]]. [[raw/Game design meeting - February 6, 2025.md]]
+
 The transcripts do not give Juan's last name.
 
 ## Sources
@@ -31,3 +33,4 @@ The transcripts do not give Juan's last name.
 - [[raw/game_design_january_16_2025.md]]
 - [[raw/sd_vlt_recap-jan-22-2025.md]]
 - [[raw/Puerto Rico progress report - January 29, 2025.md]]
+- [[raw/Game design meeting - February 6, 2025.md]]

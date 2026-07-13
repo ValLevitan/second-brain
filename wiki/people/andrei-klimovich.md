@@ -3,8 +3,8 @@ type: person
 title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich]
-source-count: 1
-open-commitments: 0
+source-count: 2
+open-commitments: 4
 open-questions: 0
 ---
 
@@ -22,6 +22,21 @@ Andrei Klimovich runs JVL's **online-games / RGS commercial operations** — the
 - **An Amazon consumer device** — a gaming device marketed for man-caves / game rooms. A paid-ad test was starting ($100/day for 4 days) to measure click and purchase conversion against Helium-10 historical data (target ~$68 of ad spend per sale). Wholesalers/studios that furnish game rooms said the device is too expensive at its current price and declined to stock it; a discount-code/commission model was floated. (Scope unclear — see Owner Decisions.) [[raw/Recap with Andrei Klimovich - January 30, 2025.md]]
 - **A data-collection project ("Norcross"/"North Cross")** — an MVP to find and collect data sources, possibly using Anthropic. A candidate developer, **Sergei**, would try a first free data-collection pass at ~8 hours/week; Val asked to see Sergei's CV first and flagged not wanting to pay for anyone's Anthropic learning curve. (See Owner Decisions — Sergei's situation includes a sensitive personal matter.) [[raw/Recap with Andrei Klimovich - January 30, 2025.md]]
 
+## Feb 1 recap — ECHO, marketplace, hiring
+
+- **[[wiki/topics/echo-home-gaming-device.md|ECHO home device]]** — drove the premium re-targeting and Amazon ad tests, engaged [[wiki/people/anton-smm.md|Anton]] (Meta ads) and [[wiki/people/maxim-3d.md|Maxim]] (3D renders), and works with "Igor, our design(er)" on the landing page and a designer named **Fedor** investigating Amazon ad-attribution. (Whether "Igor" here is [[wiki/people/igor.md|Igor]] the ops/Puerto-Rico man is unclear — see Owner Decisions.) [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
+- **JVL Marketplace concept** — pitched a game-provider marketplace that lets operators buy JVL content on a membership and cut out platforms' ~30% take; mapped the full stack of services platforms sell operators, and his own fear that platforms could copy the model quickly. See [[wiki/topics/online-games-rgs-distribution.md]]. [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
+- **Website vendor** — [[wiki/people/monica.md|Monica]] revised the website contract; "Dmitriy" to sign (~next day); the vendor's designers are already working ahead of prepayment. [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
+- **Online account manager** — finishing interviews; will bring candidate(s) to Val the following week and wants Val's read on the choice. [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
+
+## Open commitments
+
+- [ ] Andrei Klimovich — commission the high-poly ECHO 3D model from [[wiki/people/maxim-3d.md|Maxim]] and launch Meta (Instagram/Facebook) ads via [[wiki/people/anton-smm.md|Anton]] driving traffic to the Amazon page — due unspecified — [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
+- [ ] Andrei Klimovich — produce a quality premium landing page for ECHO before starting paid Meta traffic — due unspecified — [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
+- [ ] Andrei Klimovich — finish hiring a cheap online account manager and bring candidate(s) to Val next week — due next week — [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
+- [ ] Andrei Klimovich — investigate ECHO packaging (find a packaging studio) — due unspecified — [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
+
 ## Sources
 
 - [[raw/Recap with Andrei Klimovich - January 30, 2025.md]]
+- [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]

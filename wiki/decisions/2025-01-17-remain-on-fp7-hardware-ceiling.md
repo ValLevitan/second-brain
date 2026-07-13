@@ -29,7 +29,7 @@ open-questions: 1
 ## Open commitments
 
 - [ ] Dima Khandov — write a complete asset-creation manifest (video, spine, etc.) for the FP7 platform, tested with Sasha — due Feb 15 2025 — [[raw/fr-7_identifying_bottlenecks_in_performance_during_testing_january_17_2025.md]]
-- [ ] Gennady Perry — ship an FP7 board with the 8000 processor and four video outputs — due ~March 1 2025 — [[raw/fr-7_identifying_bottlenecks_in_performance_during_testing_january_17_2025.md]]
+- [ ] Genadi Peari — ship an FP7 board with the 8000 processor and four video outputs — due ~March 1 2025 — [[raw/fr-7_identifying_bottlenecks_in_performance_during_testing_january_17_2025.md]]
 - [ ] Pavel Frolov — check whether a better Linux driver can optimize the FP7 platform; with Sasha, revisit the Omni architecture to define which components (e.g. Pixi) need continuous updates and how they pass through GLI — due by the next meeting (Jan 31) — [[raw/fr-7_identifying_bottlenecks_in_performance_during_testing_january_17_2025.md]]
 
 ## Open questions

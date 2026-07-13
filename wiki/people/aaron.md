@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie]
-source-count: 12
+source-count: 14
 ---
 
 # Aaron
@@ -45,6 +45,11 @@ His surname is given as **Bockelie** on the Jan 21 continuous-delivery transcrip
 - **CD architecture (Jan 21):** with Jason, walked Val through the three-layer "everything as code" pipeline (product / environment / platform repos plus an integrator), the testing pyramid, and containers-over-disk-images; drove the group to the MVP "Hello World first" step. See [[wiki/topics/continuous-delivery-pipeline-architecture.md]] and [[wiki/decisions/2025-01-21-build-git-native-hello-world-environment-first.md]]. [[raw/continues_release_infrastructure_architecture_2025-01-21 1.md]]
 - **Minsk IT structure (Jan 22):** in a short planning call, agreed to convert the Miro board into Jira initiatives/products, shift application-support work to Dima and DevOps work to Andrei, and educate Andrei on DevOps (Andrei agreed). See [[wiki/projects/jvl-2025-plan-and-jira-roadmap.md]]. [[raw/it_structure_minsk-jan-22-2025.md]]
 
+## RGS integration and GitHub structure (Feb 11)
+
+- **RGS API (Feb 11):** with Val, pushed [[wiki/people/efim-podvoiski.md|Efim Podvoiski]] to make the RGS integrable by outsiders — a **Postman collection** and/or **OpenAPI** document, and moving the source off SVN to Git. Said JVL's API "could use a little love" before offering integration, and cited example RGS vendors (Comtrade Gaming etc.) that publish specs/examples. See [[wiki/topics/rgs-architecture-and-integration.md]]. [[raw/Aaron_Val_2025-02-11.md]]
+- **GitHub repo structure (Feb 11):** co-drove the org-naming convention and migration plan — argued for human-readable, capitalised, JVL-prefixed **org** names (GitHub forms the slug) and short lowercase-hyphen **repo** names with no JVL prefix (citing the Home Assistant org and having set up **Ford**'s ~50,000 repos as his credibility). See [[wiki/decisions/2025-02-11-github-org-naming-and-structure.md]] and [[wiki/decisions/2025-02-11-git-migration-sequence.md]]. [[raw/Git_repo_structure_part_2_2025-02-11.md]]
+
 ## Sources
 
 - [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]
@@ -59,3 +64,5 @@ His surname is given as **Bockelie** on the Jan 21 continuous-delivery transcrip
 - [[raw/meeting_various-jan-20-2025.md]]
 - [[raw/continues_release_infrastructure_architecture_2025-01-21 1.md]]
 - [[raw/it_structure_minsk-jan-22-2025.md]]
+- [[raw/Aaron_Val_2025-02-11.md]]
+- [[raw/Git_repo_structure_part_2_2025-02-11.md]]
