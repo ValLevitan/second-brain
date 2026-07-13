@@ -10,7 +10,7 @@ source-count: 1
 
 Sales/discovery call with a JFrog representative ("Eddie") about Artifactory for JVL's artifact/binary management and the GitHub+JFrog pipeline. Substance on [[wiki/topics/jfrog-artifactory-artifact-management.md]].
 
-- Attendees: Val, [[wiki/people/andrei.md|Andrei]] (DevSecOps), JFrog rep "Eddie".
+- Attendees: Val, [[wiki/people/andrey-bosik.md|Andrei]] (DevSecOps), JFrog rep "Eddie".
 - Outcome: no decision; JVL's open question is Pro vs. Enterprise X and where GitHub ends and JFrog begins. Rep to send a recap, a ~$21k proposal, and calculations. Contact for JVL is Val (val@jvl.ca).
 
 ## Sources

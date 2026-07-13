@@ -10,7 +10,7 @@ source-count: 4
 
 **Purpose:** The follow-up decision meeting (set at the Jan 13 call) to settle how JVL builds its game ISO image — resolving in favour of a Git-native, GitHub-based build system with a small set of official builds and post-build instrumentation. Recorded in four parts. [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]]
 
-**Attendees:** [[wiki/people/val-levitan.md|Val]], [[wiki/people/aaron.md|Aaron]], [[wiki/people/pavel.md|Pavel]], [[wiki/topics/ai-assisted-development.md|Anton]], [[wiki/people/andrei.md|Andrei]], [[wiki/people/alexander-biratka.md|Sasha]].
+**Attendees:** [[wiki/people/val-levitan.md|Val]], [[wiki/people/aaron.md|Aaron]], [[wiki/people/pavel.md|Pavel]], [[wiki/topics/ai-assisted-development.md|Anton]], [[wiki/people/andrey-bosik.md|Andrei]], [[wiki/people/alexander-biratka.md|Sasha]].
 
 Substance lives on:
 - [[wiki/decisions/2025-01-15-move-to-git-native-build-system.md]]

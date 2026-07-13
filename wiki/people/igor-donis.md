@@ -3,7 +3,7 @@ type: person
 title: Igor Donis
 date: 2026-07-13
 aliases: [Igor Donis, Igor]
-disambiguation: The Financial Controller Igor (corporate/tax context) — distinct by context from the ops/new-markets Igor at [[wiki/people/igor.md]]; same-person link unconfirmed.
+disambiguation: "JVL Financial Controller = the finance/corporate 'Igor'. Owner-confirmed 2026-07-13 a DIFFERENT person from the mobile-application Igor (wiki/people/igor.md). Two Igors only; finance/controller/corporate → Donis; everything-else Igor → the other."
 source-count: 1
 ---
 
@@ -19,7 +19,7 @@ Igor Donis is JVL's **Financial Controller**. [[raw/jvl_systems_corporate_identi
 
 ## Identity note
 
-There is a separate JVL "Igor" in the transcripts who runs new-market operations and the Puerto Rico gaming-license outreach ([[wiki/people/igor.md]]). Whether that ops-Igor and this Financial-Controller Igor Donis are the same person is **not confirmed** — the roles/contexts differ (operations & office setup vs. finance & corporate tax). Recorded as separate pages per the create-not-merge rule; flagged for the owner (see Owner Decisions in [[wiki/overview.md]]).
+**Owner-confirmed (2026-07-13):** Igor Donis (this page, finance/corporate) and the [[wiki/people/igor.md|mobile-application Igor]] are **two different people** — those are the only two Igors. Finance/controller/corporate mentions → Donis; product/UI/ops/Puerto-Rico → the other Igor. Queue any "Igor" that fits neither.
 
 ## Sources
 

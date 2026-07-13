@@ -10,7 +10,7 @@ source-count: 1
 
 **Purpose:** Hands-on workshop to get JVL's engineers using AI coding tools (VS Code + Cline + OpenRouter + MCP), plus Val's pitch for a company-wide adoption and a lead on the subject.
 
-**Attendees:** [[wiki/people/aaron.md|Aaron]] (leading), [[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel]] (Pasha), [[wiki/people/andrei.md|Andrei]], Anton, [[wiki/people/alexander-biratka.md|Alexander Biratka]] (Sasha).
+**Attendees:** [[wiki/people/aaron.md|Aaron]] (leading), [[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel]] (Pasha), [[wiki/people/andrey-bosik.md|Andrei]], Anton, [[wiki/people/alexander-biratka.md|Alexander Biratka]] (Sasha).
 
 Substance lives on:
 - [[wiki/topics/ai-assisted-development.md]]

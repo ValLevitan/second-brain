@@ -8,9 +8,9 @@ source-count: 1
 
 # Feature-branch discipline coaching (Miranda 8/9)
 
-Short (~5 min) coaching recording: Val dictates homework and feature-branch best practices for organising [[wiki/people/andrey-khandov.md|Andrey Khandov]]'s code into GitHub feature branches for the **Miranda 8** release, then V9 work. Substance and Val's branch rules are on [[wiki/people/andrey-khandov.md]].
+Short (~5 min) coaching recording: Val dictates homework and feature-branch best practices for organising [[wiki/people/andrew-khandov.md|Andrey Khandov]]'s code into GitHub feature branches for the **Miranda 8** release, then V9 work. Substance and Val's branch rules are on [[wiki/people/andrew-khandov.md]].
 
-- Attendees: Val (dictating) + a developer being coached (identity vs. Andrey Khandov unclear — see Owner Decisions). Escalation contacts named: [[wiki/people/andrei.md|Andrei]], "Dimitri", Val.
+- Attendees: Val (dictating) + a developer being coached (identity vs. Andrey Khandov unclear — see Owner Decisions). Escalation contacts named: [[wiki/people/andrey-bosik.md|Andrei]], "Dimitri", Val.
 
 ## Sources
 

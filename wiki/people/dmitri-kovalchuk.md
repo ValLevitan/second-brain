@@ -24,7 +24,7 @@ Per the owner ruling, these IT-context "Dima" mentions — previously flagged un
 - **DevSecOps/GitHub coaching (Jan 20):** attends the GitHub-org-structure and DevSecOps-grooming sessions with Andrei. [[raw/github_organization-jan-20-2025.md]] [[raw/meeting_various-jan-20-2025.md]]
 - **IT observability / monitoring** as an operations function sits with IT (Kovalchuk). NOTE: the **"Observability Platform" GitHub org** named on Feb 11 (owner transcribed "Dima Chudinov") is **[[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]**, the back-end architect who builds that CMS-replacement backend — a distinct person (owner ruling 2026-07-13, correcting the earlier fold of "Chudinov" into this page).
 
-**Distinct people (do not merge), all sometimes "Dima":** [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]] (Senior 3D Graphic Designer), [[wiki/people/andrey-khandov.md|Andrey/Andrew Khandov]] (Miranda developer), [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] (back-end architect). A "Dima" who **delivers FlexPay builds** in the embedded group is a developer, not clearly IT — left **unresolved** per the ruling's "if a mention clearly isn't IT-related, leave it unresolved."
+**Distinct people (do not merge), all sometimes "Dima":** [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]] (Senior 3D Graphic Designer), [[wiki/people/andrew-khandov.md|Andrey/Andrew Khandov]] (Miranda developer), [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] (back-end architect). A "Dima" who **delivers FlexPay builds** in the embedded group is a developer, not clearly IT — left **unresolved** per the ruling's "if a mention clearly isn't IT-related, leave it unresolved."
 
 ## Sources
 

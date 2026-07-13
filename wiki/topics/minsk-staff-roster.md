@@ -16,7 +16,7 @@ Canonical proper names of the JVL **Minsk** payroll, absorbed per owner approval
 
 Confirmed against existing pages (surnames now corroborated by payroll):
 - **Biratka, Aliaksandr** → [[wiki/people/alexander-biratka.md|Alexander Biratka]] ("Sasha") ✓
-- **Bosik, Andrei** → [[wiki/people/andrei.md|Andrei Bosik]] (DevSecOps) ✓
+- **Bosik, Andrei** → [[wiki/people/andrey-bosik.md|Andrei Bosik]] (DevSecOps) ✓
 - **Chudzinau, Dzmitry** → [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] (back-end architect; confirms the Belarusian spelling Chudzinau/Dudzinau) ✓
 - **Frolov, Pavel** → [[wiki/people/pavel.md|Pavel Frolov]] ✓
 - **Kovalchuk, Dmitri** → [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] (IT) ✓
@@ -28,7 +28,7 @@ Confirmed against existing pages (surnames now corroborated by payroll):
 
 Flagged (do not force):
 - **Seregin, Anton** → [[wiki/people/anton-seregin.md|Anton Seregin]] — **owner-confirmed (2026-07-13) a DIFFERENT person** from [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] (engineer) and the [[wiki/people/anton-smm.md|SMM contractor]]. Three distinct Antons; resolve by context, queue if unclear.
-- **Multiple Igors on payroll:** *Hrybko, Igar* and *Miatselski, Igar* — distinct from the ops [[wiki/people/igor.md|Igor]] and the designer [[wiki/people/igor-designer.md|Igor]]. At least four "Igor/Igar"s exist; resolve by context, never by name.
+- **Multiple Igors on payroll:** *Hrybko, Igar* and *Miatselski, Igar* — distinct from the ops [[wiki/people/igor.md|Igor]] and the designer [[wiki/people/igor.md|Igor]]. At least four "Igor/Igar"s exist; resolve by context, never by name.
 
 Not yet in the wiki (new names — person pages deferred to the next stage; they gain pages when they appear in transcripts): Hurin Vladislav, Kashyn Raman, Kastsiukou Vitali, Khamin Aliaksey, Kirkitski Maksim, Kleimenychev Sergey, Korachkin Aliaksandr, Lyashenko Tatyana, Miatselski Igar, Ramanishkina Alla, Samusenka Uladzimir, Shavialeu Artur, Shkaptsova Nataliya, Shyshko Iryna, Tsymanau Siarhei, Hrybko Igar.
 

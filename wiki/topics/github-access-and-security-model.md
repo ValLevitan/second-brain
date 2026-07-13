@@ -9,7 +9,7 @@ open-questions: 1
 
 # GitHub access and security model
 
-How JVL will control who can see and change code once its repositories live in the GitHub enterprise. Worked out on the Feb 12 2025 GitHub check-in (Val, [[wiki/people/aaron.md|Aaron]], [[wiki/people/andrei.md|Andrei]], [[wiki/people/pavel.md|Pavel]], [[wiki/people/alexander-biratka.md|Alexander]]). The core ruling — repos private by default, access granted per repository — is on [[wiki/decisions/2025-02-12-github-repos-private-by-default.md]]. [[raw/Check_in_on_GitHub_2025-02-12.md]]
+How JVL will control who can see and change code once its repositories live in the GitHub enterprise. Worked out on the Feb 12 2025 GitHub check-in (Val, [[wiki/people/aaron.md|Aaron]], [[wiki/people/andrey-bosik.md|Andrei]], [[wiki/people/pavel.md|Pavel]], [[wiki/people/alexander-biratka.md|Alexander]]). The core ruling — repos private by default, access granted per repository — is on [[wiki/decisions/2025-02-12-github-repos-private-by-default.md]]. [[raw/Check_in_on_GitHub_2025-02-12.md]]
 
 ## Private vs internal repositories
 

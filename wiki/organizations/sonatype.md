@@ -8,7 +8,7 @@ source-count: 1
 
 # Sonatype (Nexus Repository)
 
-Sonatype makes **Nexus Repository**, the artifact-repository software JVL already uses (self-hosted) and evaluated for a cloud (SaaS) upgrade. Discussed in a Feb 12 2025 sales/discovery call with two Sonatype reps, attended by [[wiki/people/val-levitan.md|Val]] and [[wiki/people/andrei.md|Andrei]]. [[raw/sonotype_meeting_feb-12-2025.md]] (The transcript spells it "Sonotype"; a rep also said "Stone Tech," likely a mis-transcription — kept as aliases.)
+Sonatype makes **Nexus Repository**, the artifact-repository software JVL already uses (self-hosted) and evaluated for a cloud (SaaS) upgrade. Discussed in a Feb 12 2025 sales/discovery call with two Sonatype reps, attended by [[wiki/people/val-levitan.md|Val]] and [[wiki/people/andrey-bosik.md|Andrei]]. [[raw/sonotype_meeting_feb-12-2025.md]] (The transcript spells it "Sonotype"; a rep also said "Stone Tech," likely a mis-transcription — kept as aliases.)
 
 ## The reps
 

@@ -9,7 +9,7 @@ status: active
 
 # GitHub repositories private by default; access granted per repository
 
-**Decision (Feb 12 2025, Val + [[wiki/people/aaron.md|Aaron]] + [[wiki/people/andrei.md|Andrei]] ("Andrei Bosik") + [[wiki/people/pavel.md|Pavel]] + [[wiki/people/alexander-biratka.md|Alexander]]):** On the GitHub check-in meeting the group settled how repository access will work across JVL's GitHub enterprise. [[raw/Check_in_on_GitHub_2025-02-12.md]] Builds on [[wiki/decisions/2025-02-11-github-org-naming-and-structure.md]].
+**Decision (Feb 12 2025, Val + [[wiki/people/aaron.md|Aaron]] + [[wiki/people/andrey-bosik.md|Andrei]] ("Andrei Bosik") + [[wiki/people/pavel.md|Pavel]] + [[wiki/people/alexander-biratka.md|Alexander]]):** On the GitHub check-in meeting the group settled how repository access will work across JVL's GitHub enterprise. [[raw/Check_in_on_GitHub_2025-02-12.md]] Builds on [[wiki/decisions/2025-02-11-github-org-naming-and-structure.md]].
 
 ## What was decided
 

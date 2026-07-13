@@ -60,7 +60,7 @@ Coaching Andrei, Val described the workflow he uses himself and wants his manage
 
 ## ChatGPT as a self-teaching tool for Git (Feb 21)
 
-- On the Feb 21 LFS session Val and [[wiki/people/andrei.md|Andrei]] both pushed the team to **learn Git by thinking, not by following step-by-step instructions** — using YouTube and especially **ChatGPT** as the tutor. Val's method: when stuck on Git, screenshot the problem into ChatGPT and ask it to "explain it in a primitive way," give the next step, or "explain the philosophy of why this is a structure." This is the same self-teaching stance behind onboarding the graphics team. See [[wiki/topics/docs-as-code-and-atlassian-exit.md]]. [[raw/GitHub_commit_of_LFS_demo_by_Lena_2025-02-21.md]]
+- On the Feb 21 LFS session Val and [[wiki/people/andrey-bosik.md|Andrei]] both pushed the team to **learn Git by thinking, not by following step-by-step instructions** — using YouTube and especially **ChatGPT** as the tutor. Val's method: when stuck on Git, screenshot the problem into ChatGPT and ask it to "explain it in a primitive way," give the next step, or "explain the philosophy of why this is a structure." This is the same self-teaching stance behind onboarding the graphics team. See [[wiki/topics/docs-as-code-and-atlassian-exit.md]]. [[raw/GitHub_commit_of_LFS_demo_by_Lena_2025-02-21.md]]
 
 ## Connection to the pipeline debate
 

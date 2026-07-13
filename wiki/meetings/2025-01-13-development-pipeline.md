@@ -10,7 +10,7 @@ source-count: 1
 
 **Purpose:** Review undertakings from the Dec 20 2024 meeting and settle how to build the ISO image flexibly — the Jenkins vs. Git-native debate (carried-over item "2.3").
 
-**Attendees:** [[wiki/people/val-levitan.md|Val]], [[wiki/people/aaron.md|Aaron]], [[wiki/people/alexander-biratka.md|Alexander Biratka]] (Sasha), [[wiki/people/andrei.md|Andrei]]; the Minsk engineering team.
+**Attendees:** [[wiki/people/val-levitan.md|Val]], [[wiki/people/aaron.md|Aaron]], [[wiki/people/alexander-biratka.md|Alexander Biratka]] (Sasha), [[wiki/people/andrey-bosik.md|Andrei]]; the Minsk engineering team.
 
 Substance lives on:
 - [[wiki/topics/build-pipeline-parameterization.md]]

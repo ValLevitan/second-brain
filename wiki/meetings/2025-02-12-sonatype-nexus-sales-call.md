@@ -9,7 +9,7 @@ source-count: 1
 # Sonatype Nexus SaaS sales/discovery call
 
 **Date:** 2025-02-12
-**Attendees:** [[wiki/people/val-levitan.md|Val]], [[wiki/people/andrei.md|Andrei]]; Sonatype reps Johnny Berry (account manager) and Alex Patel (senior solutions architect).
+**Attendees:** [[wiki/people/val-levitan.md|Val]], [[wiki/people/andrey-bosik.md|Andrei]]; Sonatype reps Johnny Berry (account manager) and Alex Patel (senior solutions architect).
 **Purpose:** Evaluate Sonatype's cloud (SaaS) **Nexus Repository** as JVL's artifact-storage solution for its cloud migration.
 
 Substance lives in:

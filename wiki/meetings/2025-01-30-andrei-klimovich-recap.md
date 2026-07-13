@@ -17,7 +17,7 @@ Substance lives on:
 - [[wiki/people/andrei-klimovich.md]] — his role, the Amazon device, the Norcross data project.
 - [[wiki/topics/gli-certification-bottleneck.md]] — the RiskCherry alternative-lab comparison.
 
-(This Andrei Klimovich is a different person from the Minsk DevSecOps engineer [[wiki/people/andrei.md|Andrei]] — see Owner Decisions.)
+(This Andrei Klimovich is a different person from the Minsk DevSecOps engineer [[wiki/people/andrey-bosik.md|Andrei]] — see Owner Decisions.)
 
 ## Sources
 

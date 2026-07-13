@@ -9,7 +9,7 @@ status: active
 
 # GitHub org naming convention and the JVL enterprise org list
 
-**Decision (Feb 11 2025, Val + Aaron + [[wiki/people/andrei.md|Andrei]] + [[wiki/people/pavel.md|Pavel]]/[[wiki/people/alexander-biratka.md|Sasha]]):** JVL uses a **multi-organization GitHub enterprise** (confirming the prior day's direction), with a fixed naming convention and a finalized list of organizations. [[raw/Git_repo_structure_part_2_2025-02-11.md]] This builds on [[wiki/decisions/2025-01-20-github-orgs-mirror-value-streams.md]] (orgs mirror the Jira value streams).
+**Decision (Feb 11 2025, Val + Aaron + [[wiki/people/andrey-bosik.md|Andrei]] + [[wiki/people/pavel.md|Pavel]]/[[wiki/people/alexander-biratka.md|Sasha]]):** JVL uses a **multi-organization GitHub enterprise** (confirming the prior day's direction), with a fixed naming convention and a finalized list of organizations. [[raw/Git_repo_structure_part_2_2025-02-11.md]] This builds on [[wiki/decisions/2025-01-20-github-orgs-mirror-value-streams.md]] (orgs mirror the Jira value streams).
 
 ## Naming convention
 
@@ -26,7 +26,7 @@ Named (all JVL-prefixed): **Games Production**; **Math & Game Mechanics** ("Game
 
 ## Two more design orgs added (Feb 26)
 
-On the Feb 26 designer-migration call, [[wiki/people/lena.md|Lena]] needed a home for design-stage work (initial comp art) and JVL agreed to **create two more organizations — "Game Concepts" and "Game Designs" (plural)** — so the GitHub orgs mirror the **three Jira stages: concept → design → production** ("JVL Games Production" already existed). [[wiki/people/andrei.md|Andrei]] is to create them and grant Lena repo-creation rights; a separate repository is also planned for the **Fortune 4 Progressive Sign** (a separate IP). See [[wiki/decisions/2025-02-26-designer-branching-workflow.md]]. [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]
+On the Feb 26 designer-migration call, [[wiki/people/lena.md|Lena]] needed a home for design-stage work (initial comp art) and JVL agreed to **create two more organizations — "Game Concepts" and "Game Designs" (plural)** — so the GitHub orgs mirror the **three Jira stages: concept → design → production** ("JVL Games Production" already existed). [[wiki/people/andrey-bosik.md|Andrei]] is to create them and grant Lena repo-creation rights; a separate repository is also planned for the **Fortune 4 Progressive Sign** (a separate IP). See [[wiki/decisions/2025-02-26-designer-branching-workflow.md]]. [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]
 
 ## Sources
 

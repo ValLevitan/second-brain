@@ -1,30 +1,34 @@
 ---
 type: person
 title: Igor
-date: 2026-07-12
-aliases: [Igor]
-source-count: 2
+date: 2026-07-13
+aliases: [Igor, Igor designer]
+disambiguation: "The 'mobile-application Igor' (surname unknown — queued). Owner ruling 2026-07-13: only TWO Igors exist — this one and Igor Donis (Financial Controller; finance/corporate → wiki/people/igor-donis.md). Non-finance Igor mentions (mobile app, product/industrial design, new-market ops, Puerto Rico) → THIS page; finance/controller/corporate → Donis; queue anything fitting neither."
+source-count: 4
 ---
 
 # Igor
 
-Igor handles operations and setup for JVL's new markets — helping register companies and set up offices abroad.
+Igor is the JVL **"mobile-application Igor"** (owner ruling 2026-07-13; surname not yet known — queued for discovery). Per the owner there are only two Igors in play — this one and [[wiki/people/igor-donis.md|Igor Donis]] the Financial Controller — so the non-finance Igor mentions (product/UI design, new-market operations, Puerto Rico setup) are all **this person**. Resolve by context; finance/corporate → Donis.
 
-## Role
+## Role — product / mobile-app & design
 
-- Igor is assisting with the paperwork and legal steps to register the company and set up an office in Puerto Rico, expected in about 2–3 months. [[raw/anibal_call_011325_meeting_notes_2025-01-14.md]]
+- On the Jan 13 mobile-app persona call, the speaker felt it was "too early" to involve Igor on the **UI** — placing him on the mobile-app/product side. [[raw/mobile_app_advocate_persona_profile_january_13_2025.md]]
+- Referenced by [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] as "Igor, our design(er)" working on the **ECHO landing page** (Feb 1). [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
+- On the Feb 27 Flex V42/C cabinet review, Val directed the team to "let Igor finish the design" and "let our industrial designer just play with it" — the **industrial / product designer** for the Flex cabinets. [[raw/Flex_V42_C_design_evolution_review_2025-02-27.md]]
+  - (Owner ruling folds the former separate "Igor (industrial designer)" page into this one — only two Igors exist. If a later source clearly distinguishes a separate design-only Igor, re-split.)
 
-## Puerto Rico licensing outreach (Jan 29)
+## Role — new-market operations / Puerto Rico
 
-- Igor prepared the Puerto Rico status document and is the main operator on the ground work: he is the primary contact with the Gaming Commission's Idaline (who responded to him faster than to Juan), compiled the Commission's five recommended law firms into a spreadsheet, and reached out to all of them by phone/email. All but CS2 Consulting had responded by Jan 29. He is arranging a meeting with CS2 (Victor Zutera / Tamara) and will vet the incoming quotes with Juan before sending them to Val. See [[wiki/projects/puerto-rico-expansion.md]]. [[raw/Puerto Rico progress report - January 29, 2025.md]]
+- Assisting with the paperwork and legal steps to register the company and set up the Puerto Rico office (~2–3 months). [[raw/anibal_call_011325_meeting_notes_2025-01-14.md]]
+- **Puerto Rico licensing (Jan 29):** prepared the PR status document; primary contact with the Gaming Commission's Idaline (who responded to him faster than to Juan); compiled the five recommended law firms into a spreadsheet and reached out to all; arranging the CS2 Consulting meeting (Victor Zutera / Tamara); vets incoming quotes with Juan before Val. See [[wiki/projects/puerto-rico-expansion.md]]. [[raw/Puerto Rico progress report - January 29, 2025.md]] (Owner ruling: the PR Igor is most likely this mobile-app Igor.)
 
-Note: the mobile-app persona call mentions an "Igor" whom the speaker felt it was "too early" to involve on the UI — likely the same person, but the transcript does not confirm it, so left unasserted. His last name is not stated.
-
-Cross-reference: a JVL **industrial/product designer** also named "Igor" appears on the Feb 27 Flex V42/C cabinet review — recorded separately as [[wiki/people/igor-designer.md|Igor (industrial designer)]] (create-not-merge). Whether that designer is this ops Igor is unconfirmed (see Owner Decisions).
-
-Cross-reference: a JVL **Financial Controller named Igor Donis** appears in the 2026 corporate-identity/tax documents (day-to-day owner of JVL Systems' California franchise tax) — recorded separately as [[wiki/people/igor-donis.md|Igor Donis]] (create-not-merge). Whether Igor Donis is this ops Igor is unconfirmed; the contexts differ (operations/office-setup vs. finance/corporate-tax). Flagged for the owner (see Owner Decisions).
+Distinct from [[wiki/people/igor-donis.md|Igor Donis]] (Financial Controller, finance/corporate). Note: the Minsk payroll additionally lists two names-only "Igar"s (Hrybko, Miatselski) — reconcile only if they appear in transcripts.
 
 ## Sources
 
+- [[raw/mobile_app_advocate_persona_profile_january_13_2025.md]]
+- [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
 - [[raw/anibal_call_011325_meeting_notes_2025-01-14.md]]
 - [[raw/Puerto Rico progress report - January 29, 2025.md]]
+- [[raw/Flex_V42_C_design_evolution_review_2025-02-27.md]]

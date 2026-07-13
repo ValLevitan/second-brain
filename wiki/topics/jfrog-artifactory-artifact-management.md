@@ -9,7 +9,7 @@ open-questions: 1
 
 # JFrog Artifactory and artifact/binary management
 
-JVL's evaluation of **JFrog Artifactory** for managing binaries and build artifacts, part of the wider Git-migration + build-pipeline modernization. Discussed in a Feb 6 2025 sales call with a JFrog rep ("Eddie"), attended by Val and [[wiki/people/andrei.md|Andrei]]. [[raw/JFrog transcript - February-6-2025.md]]
+JVL's evaluation of **JFrog Artifactory** for managing binaries and build artifacts, part of the wider Git-migration + build-pipeline modernization. Discussed in a Feb 6 2025 sales call with a JFrog rep ("Eddie"), attended by Val and [[wiki/people/andrey-bosik.md|Andrei]]. [[raw/JFrog transcript - February-6-2025.md]]
 
 ## The GitHub + JFrog split (as pitched)
 

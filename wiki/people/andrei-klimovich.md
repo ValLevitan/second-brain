@@ -12,7 +12,7 @@ open-questions: 0
 
 Andrei Klimovich runs JVL's **online-games / RGS commercial operations** — the distribution of JVL's online casino games through aggregators, market licensing, certification economics, and related product/marketing ventures Val oversees. He gives Val a weekly business recap; Val's standing instruction to him is to make proposals and drive the business, with Val approving spend where he sees a return. [[raw/Recap with Andrei Klimovich - January 30, 2025.md]]
 
-**Distinct from [[wiki/people/andrei.md|Andrei (Andrey)]]**, the Minsk build-infrastructure/DevSecOps engineer. That Andrei is coached by Aaron on GitHub/Kubernetes/Jira; this Andrei Klimovich manages the commercial online-games business. They are treated as two different people (see Owner Decisions). [[raw/Recap with Andrei Klimovich - January 30, 2025.md]]
+**Distinct from [[wiki/people/andrey-bosik.md|Andrei (Andrey)]]**, the Minsk build-infrastructure/DevSecOps engineer. That Andrei is coached by Aaron on GitHub/Kubernetes/Jira; this Andrei Klimovich manages the commercial online-games business. They are treated as two different people (see Owner Decisions). [[raw/Recap with Andrei Klimovich - January 30, 2025.md]]
 
 ## What he manages (Jan 30 recap)
 

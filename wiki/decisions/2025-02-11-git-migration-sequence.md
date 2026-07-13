@@ -9,7 +9,7 @@ status: active
 
 # Git migration sequence — Omni/Miranda/FlexPay, then RGS, then map the rest
 
-**Decision (Feb 11 2025, Val + Aaron + [[wiki/people/andrei.md|Andrei]] + [[wiki/people/pavel.md|Pavel]] + [[wiki/people/alexander-biratka.md|Alexander]] + [[wiki/people/efim-podvoiski.md|Efim Podvoiski]]):** JVL migrates its repositories into the new GitHub organizations in three stages. [[raw/Git_repo_structure_part_2_2025-02-11.md]] Depends on [[wiki/decisions/2025-02-11-github-org-naming-and-structure.md]].
+**Decision (Feb 11 2025, Val + Aaron + [[wiki/people/andrey-bosik.md|Andrei]] + [[wiki/people/pavel.md|Pavel]] + [[wiki/people/alexander-biratka.md|Alexander]] + [[wiki/people/efim-podvoiski.md|Efim Podvoiski]]):** JVL migrates its repositories into the new GitHub organizations in three stages. [[raw/Git_repo_structure_part_2_2025-02-11.md]] Depends on [[wiki/decisions/2025-02-11-github-org-naming-and-structure.md]].
 
 ## The three stages
 

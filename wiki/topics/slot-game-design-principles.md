@@ -34,7 +34,7 @@ The central argument of the Feb 21 call, which this resolves:
 
 ## The math/mass test tool
 
-- [[wiki/people/dmitriy-khandov.md|Dima]] and [[wiki/people/andrey-khandov.md|Andrey]] Khandov are building a **primitive playable game version** that connects **Miranda to the math ("mass") server**, so Michael and Efim can play-test the real math with placeholders (no final animation) — "what we always wanted and never had," and critical because the math can't wait for a finished machine. Val wants QA ([[wiki/people/ivan.md|Ivan]] or [[wiki/people/irina-makarych.md|Irina]]) to verify the brand-new tool, since it is a different product from the shipping game and won't translate one-to-one. The tool needs a **show-mode** menu (to force specific bonus outcomes) in addition to pushing random numbers, but that is for later QA stages. [[raw/game_design_meeting_february_21_2025.md]]
+- [[wiki/people/dmitriy-khandov.md|Dima]] and [[wiki/people/andrew-khandov.md|Andrey]] Khandov are building a **primitive playable game version** that connects **Miranda to the math ("mass") server**, so Michael and Efim can play-test the real math with placeholders (no final animation) — "what we always wanted and never had," and critical because the math can't wait for a finished machine. Val wants QA ([[wiki/people/ivan.md|Ivan]] or [[wiki/people/irina-makarych.md|Irina]]) to verify the brand-new tool, since it is a different product from the shipping game and won't translate one-to-one. The tool needs a **show-mode** menu (to force specific bonus outcomes) in addition to pushing random numbers, but that is for later QA stages. [[raw/game_design_meeting_february_21_2025.md]]
 
 ## Further design principles (Feb 28)
 
