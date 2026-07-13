@@ -38,7 +38,7 @@ Genadi Peari is JVL's hardware lead. He develops the CPU boards and advises on p
 ## Flex V42/C design review (Feb 27)
 
 - On the Feb 27 cabinet review Genadi ("Gennady") is the hardware/mechanical side: he flags that the **player-tracking bracket has predefined dimensions**, so the group agreed to keep three physical pieces made to look like one continuous piece rather than redesign the bracket ("less work for Gennady"), and he works through where the wiring/speaker channels and the credit-card reader go. See [[wiki/decisions/2025-02-27-flex-street-cabinet-design-direction.md]]. [[raw/Flex_V42_C_design_evolution_review_2025-02-27.md]]
-- Note: here "Gennady" is doing cabinet **hardware/brackets**, while a separate **[[wiki/people/igor.md|Igor]]** does the industrial-design renderings — the two are distinct on this call. [[raw/Flex_V42_C_design_evolution_review_2025-02-27.md]]
+- Note: here "Gennady" is doing cabinet **hardware/brackets**, while a separate **[[wiki/people/igor-starovoytov.md|Igor Starovoytov]]** (contractor industrial designer) does the industrial-design renderings — the two are distinct on this call. [[raw/Flex_V42_C_design_evolution_review_2025-02-27.md]]
 
 ## Embedded group — FlexPort cabling (Mar 4, Mar 11)
 

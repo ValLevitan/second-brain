@@ -9,7 +9,7 @@ status: active
 
 # Flex V42/C street-machine cabinet design direction
 
-Design direction Val gave the industrial designer ([[wiki/people/igor.md|Igor]]) and hardware lead ([[wiki/people/genadi-peari.md|Gennady]]) on the Feb 27 2025 Flex V42/C review for the evolved **street-machine** cabinet (with a curved monitor). Treated as a decision because Val closed with "you've collected our comments now" and set the team to continue on this direction; several points are firm directives, one is a formal requirement. [[raw/Flex_V42_C_design_evolution_review_2025-02-27.md]]
+Design direction Val gave the industrial designer ([[wiki/people/igor-starovoytov.md|Igor Starovoytov]]) and hardware lead ([[wiki/people/genadi-peari.md|Gennady]]) on the Feb 27 2025 Flex V42/C review for the evolved **street-machine** cabinet (with a curved monitor). Treated as a decision because Val closed with "you've collected our comments now" and set the team to continue on this direction; several points are firm directives, one is a formal requirement. [[raw/Flex_V42_C_design_evolution_review_2025-02-27.md]]
 
 ## The direction
 

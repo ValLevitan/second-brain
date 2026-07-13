@@ -3,20 +3,18 @@ type: person
 title: Igor
 date: 2026-07-13
 aliases: [Igor, Igor designer]
-disambiguation: "The 'mobile-application Igor' (surname unknown — queued). Owner ruling 2026-07-13: only TWO Igors exist — this one and Igor Donis (Financial Controller; finance/corporate → wiki/people/igor-donis.md). Non-finance Igor mentions (mobile app, product/industrial design, new-market ops, Puerto Rico) → THIS page; finance/controller/corporate → Donis; queue anything fitting neither."
-source-count: 4
+disambiguation: "The 'mobile-application Igor' (surname unknown — queued). One of THREE Igors (owner-ruled): this one (mobile app/UI + new-market ops/Puerto Rico), Igor Donis (Financial Controller → wiki/people/igor-donis.md), and Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md). Resolve by context; queue anything fitting none."
+source-count: 3
 ---
 
 # Igor
 
-Igor is the JVL **"mobile-application Igor"** (owner ruling 2026-07-13; surname not yet known — queued for discovery). Per the owner there are only two Igors in play — this one and [[wiki/people/igor-donis.md|Igor Donis]] the Financial Controller — so the non-finance Igor mentions (product/UI design, new-market operations, Puerto Rico setup) are all **this person**. Resolve by context; finance/corporate → Donis.
+Igor is the JVL **"mobile-application Igor"** (owner ruling 2026-07-13; surname not yet known — queued; the owner notes it may be in the JVL Obsidian Contractors records). He is **one of three Igors** — distinct from [[wiki/people/igor-donis.md|Igor Donis]] (Financial Controller) and [[wiki/people/igor-starovoytov.md|Igor Starovoytov]] (contractor industrial designer). Resolve by context: mobile app/UI + new-market ops/Puerto Rico → this Igor; finance/corporate → Donis; cabinet/industrial/product design → Starovoytov.
 
-## Role — product / mobile-app & design
+## Role — mobile app / product
 
 - On the Jan 13 mobile-app persona call, the speaker felt it was "too early" to involve Igor on the **UI** — placing him on the mobile-app/product side. [[raw/mobile_app_advocate_persona_profile_january_13_2025.md]]
-- Referenced by [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] as "Igor, our design(er)" working on the **ECHO landing page** (Feb 1). [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
-- On the Feb 27 Flex V42/C cabinet review, Val directed the team to "let Igor finish the design" and "let our industrial designer just play with it" — the **industrial / product designer** for the Flex cabinets. [[raw/Flex_V42_C_design_evolution_review_2025-02-27.md]]
-  - (Owner ruling folds the former separate "Igor (industrial designer)" page into this one — only two Igors exist. If a later source clearly distinguishes a separate design-only Igor, re-split.)
+- Referenced by [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] as "Igor, our design(er)" working on the **ECHO landing page** (Feb 1). Whether this design mention is this mobile-app Igor or [[wiki/people/igor-starovoytov.md|Igor Starovoytov]] (industrial/product designer) is unclear — flagged, resolve by context. [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
 
 ## Role — new-market operations / Puerto Rico
 
@@ -31,4 +29,3 @@ Distinct from [[wiki/people/igor-donis.md|Igor Donis]] (Financial Controller, fi
 - [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
 - [[raw/anibal_call_011325_meeting_notes_2025-01-14.md]]
 - [[raw/Puerto Rico progress report - January 29, 2025.md]]
-- [[raw/Flex_V42_C_design_evolution_review_2025-02-27.md]]
