@@ -98,8 +98,9 @@ Frontmatter enables Obsidian Dataview tables. Keep `source-count` current.
 3. Write a `## [date] ingest | batch N started` line to `log.md`.
 4. Read the batch (process **oldest source date first** — chronological, from 2025-01-01 forward).
 5. For each source: identify entities, decisions, topics → **update existing pages or create new ones** (Sections 3–6). Update-vs-create heuristic: *new page* if it's a distinct entity you'd link to from elsewhere; *edit in place* if it's an attribute or update of an existing entity.
+   - **Separation of writer and verifier (standard pattern):** delegate the page-writing for each batch to a subagent that reads `CLAUDE.md` and the raw batch files itself. The main context then performs step 7's verification — it must not verify pages it wrote. If subagent delegation is unavailable, fall back to verifying in a fresh session, and say so in the log entry.
 6. Update `index.md` (Section 7).
-7. **Verification:** check 10 random facts against their cited raw sources — ideally in a fresh session that did not write the pages. **≥9/10 verbatim-supported = pass.** Below that, **halt: do not start the next batch until the owner is notified.** Record the result in `log.md`.
+7. **Verification:** check 10 random facts against their cited raw sources — by a context that did not write the pages (see the writer/verifier rule above). **≥9/10 verbatim-supported = pass.** Below that, **halt: do not start the next batch until the owner is notified.** Record the result in `log.md`.
 8. Write `## [date] ingest | batch N completed` to `log.md` with the summary + verification result.
 9. Commit to git: `ingest: batch N, YYYY-MM, K files`.
 
