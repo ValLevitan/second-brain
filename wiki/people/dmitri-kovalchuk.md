@@ -2,8 +2,8 @@
 type: person
 title: Dmitri Kovalchuk
 date: 2026-07-13
-aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima, Dima Chudinov]
-disambiguation: "JVL's IT person = the recurring IT-context 'Dima'. Distinct from Dmitriy Khandov (Senior 3D Graphic Designer) and Andrey/Andrew Khandov (Miranda dev). Owner-confirmed 2026-07-13."
+aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
+disambiguation: "JVL's IT person = the recurring IT-context 'Dima'. Distinct from Dmitriy Khandov (Senior 3D Graphic Designer), Andrey/Andrew Khandov (Miranda dev), and Dmitri Chudinov (back-end architect, who is the 'Dima Chudinov' of the Observability Platform org). Owner-confirmed 2026-07-13."
 source-count: 1
 ---
 
@@ -22,9 +22,9 @@ Per the owner ruling, these IT-context "Dima" mentions — previously flagged un
 - **GitHub admin seat:** "Dima" added as a GitHub administrator among the ~8 purchased seats. See [[wiki/decisions/2025-01-15-adopt-github-over-bitbucket.md]]. [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]]
 - **Minsk IT-structure (Jan 22):** takes the **application-support / install-and-configure** work while Andrei takes DevOps. See [[wiki/meetings/2025-01-22-minsk-it-structure.md]]. [[raw/it_structure_minsk-jan-22-2025.md]]
 - **DevSecOps/GitHub coaching (Jan 20):** attends the GitHub-org-structure and DevSecOps-grooming sessions with Andrei. [[raw/github_organization-jan-20-2025.md]] [[raw/meeting_various-jan-20-2025.md]]
-- **Observability Platform org (Feb 11):** owns the "Observability Platform" GitHub org (the CMS replacement). That transcript renders the surname as **"Dima Chudinov"** — recorded as a transcription variant of this IT Dima per the owner ruling (kept as an alias); flag if a later source shows Chudinov is genuinely a separate person. See [[wiki/decisions/2025-02-11-github-org-naming-and-structure.md]]. [[raw/Git_repo_structure_part_2_2025-02-11.md]]
+- **IT observability / monitoring** as an operations function sits with IT (Kovalchuk). NOTE: the **"Observability Platform" GitHub org** named on Feb 11 (owner transcribed "Dima Chudinov") is **[[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]**, the back-end architect who builds that CMS-replacement backend — a distinct person (owner ruling 2026-07-13, correcting the earlier fold of "Chudinov" into this page).
 
-**Distinct people (do not merge):** [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]] (Senior 3D Graphic Designer — the design/video "Dima") and [[wiki/people/andrey-khandov.md|Andrey/Andrew Khandov]] (Miranda developer). A "Dima" who **delivers FlexPay builds** in the embedded group is a developer, not clearly IT — left **unresolved** per the ruling's "if a mention clearly isn't IT-related, leave it unresolved."
+**Distinct people (do not merge), all sometimes "Dima":** [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]] (Senior 3D Graphic Designer), [[wiki/people/andrey-khandov.md|Andrey/Andrew Khandov]] (Miranda developer), [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] (back-end architect). A "Dima" who **delivers FlexPay builds** in the embedded group is a developer, not clearly IT — left **unresolved** per the ruling's "if a mention clearly isn't IT-related, leave it unresolved."
 
 ## Sources
 

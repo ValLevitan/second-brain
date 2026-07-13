@@ -14,7 +14,7 @@ Substance lives on:
 - [[wiki/decisions/2025-02-26-designer-branching-workflow.md]] — feature/story branches, PR-only merges to `main`, the branch-lifespan performance metric, Michael comments only at PR time; applies to PSD files too.
 - [[wiki/decisions/2025-02-11-github-org-naming-and-structure.md]] — two new orgs, **Game Concepts** and **Game Designs**, added Feb 26 (Andrei to create); mirrors the Jira concept/design/production stages; a separate repo for the Fortune 4 Progressive Sign.
 - [[wiki/topics/docs-as-code-and-atlassian-exit.md]] — the Photoshop→contact-sheet action Aaron is building.
-- Roll-in plan: keep [[wiki/people/juan-martinez.md|Juan]]/[[wiki/people/michael-game-producer.md|Michael]] out ~30 days until the four core designers are comfortable. [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]
+- Roll-in plan: keep [[wiki/people/juan-martinez.md|Juan]]/[[wiki/people/michael-gottlieb.md|Michael]] out ~30 days until the four core designers are comfortable. [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]
 
 ## Sources
 

@@ -9,7 +9,7 @@ source-count: 1
 # Retrofit planning call
 
 **Date:** 2025-01-07
-**Attendees:** [[wiki/people/val-levitan.md|Val Levitan]] and [[wiki/people/misha.md|Misha]] (JVL). Conducted in Russian. [[raw/retrofit_january_7_2025.md]]
+**Attendees:** [[wiki/people/val-levitan.md|Val Levitan]] and [[wiki/people/mikhail-perelman.md|Misha]] (JVL). Conducted in Russian. [[raw/retrofit_january_7_2025.md]]
 **Purpose:** Plan how to retrofit the incoming used machines and what parts to order now.
 
 Substance lives on:

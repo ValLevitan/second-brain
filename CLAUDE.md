@@ -48,6 +48,11 @@ Each page begins with frontmatter (Section 5), then an H1 title, then content. E
 - Files: kebab-case, ASCII, no spaces. People: `people/firstname-lastname.md`.
 - Dated pages (meetings, decisions): prefix `YYYY-MM-DD-`.
 - **Alias resolution:** before creating any page, search `index.md` for an existing page or alias. The same person appears as "Bob", "Robert S.", or a misspelled transcript variant — these map to ONE page. Record every variant in the page's `aliases:` frontmatter. Never create a second page for an entity that already exists under another name.
+- **Short-forms resolve by CONTEXT, never by name alone.** A short form or common given name can belong to several distinct people. Decide who is meant from the *context* of the mention (their role/topic), not the name string. When a page's identity turns on this, put the disambiguation in a `disambiguation:` frontmatter field. If a mention's context fits no known person clearly, **leave it unresolved and queue it — do not force a match.**
+- **Owner-ruled same-name registry** (owner corrections; govern all future batches):
+  - **"Dima"** = short form of Dmitry / Dmitriy / Dmitri (all full-name variants). Distinct people: **Dmitri Kovalchuk** = IT (GitHub-admin, IT-structure, infrastructure, IT monitoring, AI-tool accounts); **Dmitriy Khandov** = Senior 3D Graphic Designer (graphics/3D/design/video); **Dmitri Chudinov** = back-end architect / Java (backend/server/Java; Belarusian spelling *Dzmitry Dudzinau*; the "Dima Chudinov" of the Observability Platform org). Andrey/Andrew **Khandov** (Miranda developer) shares only the surname with Dmitriy Khandov — different people; note the confusion risk on both pages.
+  - **"Misha"** = short form of Mikhail. **Michael Gottlieb** = Senior VP of Game Design (game design/production/slot design, works with Juan); **Mikhail Perelman** = Procurement Manager (procurement/purchasing/parts/vendors/shipments; the retrofit-lead "Misha"). Distinct people; transcripts use Michael/Mikhail/Misha loosely — resolve by context.
+  - **"Zhenya"** = short form of Evgeny/Evgeniy. **Eugine Yavorski** = FlexPort/FlexPay integration engineer; **Evgeniy Alekseev** = owner of the main embedded code branch. Distinct people.
 
 ## 5. Frontmatter schema (top of every wiki page)
 

@@ -41,7 +41,7 @@ Her surname is given as **Zhukova** on the Feb 18 onboarding session (WEBVTT).
 
 ## Designer branching workflow (Feb 26)
 
-- On the Feb 26 coaching Lena is the designer drawing Photoshop comp art within a feature (with [[wiki/people/yulia.md|Yulia]] modelling and [[wiki/people/anastasia.md|Anastasia]] texturing). She questioned why PSD files need branch/PR discipline and worried about premature comments on unfinished cats — Aaron's answer: unfinished branch work is fine to show, and [[wiki/people/michael-game-producer.md|Michael]] only comments at PR time. She asked Andrei/Dima to create a **design** space and separate repositories, including one for the **Fortune 4 Progressive Sign** (a separate IP). See [[wiki/decisions/2025-02-26-designer-branching-workflow.md]]. [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]
+- On the Feb 26 coaching Lena is the designer drawing Photoshop comp art within a feature (with [[wiki/people/yulia.md|Yulia]] modelling and [[wiki/people/anastasia.md|Anastasia]] texturing). She questioned why PSD files need branch/PR discipline and worried about premature comments on unfinished cats — Aaron's answer: unfinished branch work is fine to show, and [[wiki/people/michael-gottlieb.md|Michael]] only comments at PR time. She asked Andrei/Dima to create a **design** space and separate repositories, including one for the **Fortune 4 Progressive Sign** (a separate IP). See [[wiki/decisions/2025-02-26-designer-branching-workflow.md]]. [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]
 
 ## Game-design review (Feb 28)
 

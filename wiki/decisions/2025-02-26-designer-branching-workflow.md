@@ -24,7 +24,7 @@ Aaron said he will eventually **measure** how fast a feature branch is opened an
 
 ## Unfinished work and when Michael comments
 
-- It is fine for a designer's **unfinished** work to be visible to everyone in a non-`main` branch; it is **not** okay for [[wiki/people/michael-game-producer.md|Michael]] (or anyone) to criticise work still in a branch. Lena's objection — that she doesn't want comments on cats that "look completely unfinished" — was answered this way. [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]
+- It is fine for a designer's **unfinished** work to be visible to everyone in a non-`main` branch; it is **not** okay for [[wiki/people/michael-gottlieb.md|Michael]] (or anyone) to criticise work still in a branch. Lena's objection — that she doesn't want comments on cats that "look completely unfinished" — was answered this way. [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]
 - **Michael's time to comment is at the pull request**: issuing a PR is literally the request to have the work reviewed. [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]
 
 ## Rationale (Val's framing)

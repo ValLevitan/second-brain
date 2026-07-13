@@ -20,7 +20,7 @@ For the incoming used machines, JVL will order parts cautiously rather than comm
 
 ## Who and when
 
-- Decided by [[wiki/people/val-levitan.md|Val]] with [[wiki/people/misha.md|Misha]] on the Jan 7, 2025 retrofit call. [[raw/retrofit_january_7_2025.md]]
+- Decided by [[wiki/people/val-levitan.md|Val]] with [[wiki/people/mikhail-perelman.md|Misha]] on the Jan 7, 2025 retrofit call. [[raw/retrofit_january_7_2025.md]]
 
 ## Why
 

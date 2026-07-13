@@ -9,7 +9,7 @@ open-questions: 1
 
 # Slot game-design principles and the progressive-bet-incentive debate
 
-Durable design principles and one live, unresolved product debate from JVL's game-design reviews. Synthesised from the Feb 21 2025 Fortune Foo Paws review with [[wiki/people/val-levitan.md|Val]], [[wiki/people/lena.md|Lena]], [[wiki/people/efim-podvoiski.md|Efim]] (transcribed "Athim"/"Athene"/"Athena") and [[wiki/people/michael-game-producer.md|Michael]]. Game-by-game details live in [[wiki/topics/jvl-machine-lineup.md]]; this page holds the cross-game design thinking. [[raw/game_design_meeting_february_21_2025.md]]
+Durable design principles and one live, unresolved product debate from JVL's game-design reviews. Synthesised from the Feb 21 2025 Fortune Foo Paws review with [[wiki/people/val-levitan.md|Val]], [[wiki/people/lena.md|Lena]], [[wiki/people/efim-podvoiski.md|Efim]] (transcribed "Athim"/"Athene"/"Athena") and [[wiki/people/michael-gottlieb.md|Michael]]. Game-by-game details live in [[wiki/topics/jvl-machine-lineup.md]]; this page holds the cross-game design thinking. [[raw/game_design_meeting_february_21_2025.md]]
 
 ## The progressive-bet-incentive debate (RESOLVED Feb 28 — do it on the V-Deck, not the math)
 

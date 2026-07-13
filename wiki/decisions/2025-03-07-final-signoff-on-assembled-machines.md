@@ -15,7 +15,7 @@ On the March 7 2025 game-design meeting, [[wiki/people/val-levitan.md|Val]] rule
 
 ## What was decided
 
-- [[wiki/people/lena.md|Lena]], [[wiki/people/michael-game-producer.md|Michael]] and [[wiki/people/juan-martinez.md|Juan]] are the **final sign-off** on a game. Machines must be shipped to them from the **Georgia office assembly floor** (current product, current machines, current firmware); Lena may go to the office or have machines shipped to her home, but they must come off the assembly floor. Michael should ask to be put on a **video-conference call** to watch the machines being fully tested, assembled, packaged and shipped. [[raw/game_design_meeting_march_7_2025.md]]
+- [[wiki/people/lena.md|Lena]], [[wiki/people/michael-gottlieb.md|Michael]] and [[wiki/people/juan-martinez.md|Juan]] are the **final sign-off** on a game. Machines must be shipped to them from the **Georgia office assembly floor** (current product, current machines, current firmware); Lena may go to the office or have machines shipped to her home, but they must come off the assembly floor. Michael should ask to be put on a **video-conference call** to watch the machines being fully tested, assembled, packaged and shipped. [[raw/game_design_meeting_march_7_2025.md]]
 - Rationale (Val): "you can do 99 things right… all you have to do is one thing wrong, and that is what the player notices"; the definition of quality is that every last detail — sound, vibration, touch, glare, the touchscreen — must be right, and those only show up on the final product in its enclosure. [[raw/game_design_meeting_march_7_2025.md]]
 
 ## Why the bug was missed (root-cause hypothesis)
