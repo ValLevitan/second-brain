@@ -103,7 +103,7 @@ Frontmatter enables Obsidian Dataview tables. Keep `source-count` current. Keep 
    - **Separation of writer and verifier (standard pattern):** delegate the page-writing for each batch to a subagent that reads `CLAUDE.md` and the raw batch files itself. The main context then performs step 7's verification — it must not verify pages it wrote. If subagent delegation is unavailable, fall back to verifying in a fresh session, and say so in the log entry.
    - **Writer subagent does its own entity lookup.** The writer subagent MUST run the §4 search-before-create check itself via qmd for **every** entity before creating a page — it must NOT rely on a curated list of existing pages handed down by the parent context (that list goes stale and causes duplicate pages). The parent may point at the batch; the writer owns the dedup search.
 6. Update `index.md` (Section 7).
-7. **Verification:** check 10 random facts against their cited raw sources — by a context that did not write the pages (see the writer/verifier rule above). **≥9/10 verbatim-supported = pass.** Below that, **halt: do not start the next batch until the owner is notified.** Record the result in `log.md`.
+7. **Verification:** check 10 random facts against their cited raw sources — by a context that did not write the pages (see the writer/verifier rule above). **≥9/10 verbatim-supported = pass.** Below that: in normal (batch-by-batch) mode, **halt: do not start the next batch until the owner is notified.** In backlog deferred-review mode, follow the retry/quarantine rule in Section 9b instead of halting. Record the result in `log.md`.
 8. Write `## [date] ingest | batch N completed` to `log.md` with the summary + verification result.
 9. **Run `qmd update` unconditionally** over the wiki (Section 14) so the next batch's search-before-create sees this batch's new pages, then `qmd embed` to refresh vectors. Confirm with `qmd status`.
 10. Commit to git: `ingest: batch N, YYYY-MM, K files`.
@@ -120,6 +120,19 @@ Not a page type — a capture convention so commitments and open questions stay 
 - **Open questions** use a parallel `## Open questions` heading, one line each: `- <the question> — [[raw/<file>.md]]`. (This is distinct from `## Open contradictions`, Section 11, which is for conflicting sources.)
 - **Keep frontmatter counts current** (`open-commitments`, `open-questions`) so a Dataview/grep rollup is trivial.
 - **Rollup at every lint pass:** lint gathers all open (`- [ ]`) commitments and all open questions across the wiki and lists them in `wiki/overview.md` under "Open commitments" and "Open questions", each with its owner/page and source. This is the owner's single view of what's outstanding.
+
+## 9b. Backlog deferred-review mode (owner-approved autonomy)
+
+Applies once the owner says "unlock" and the full backlog run begins. Goal: run end-to-end with **one** owner review at the very end, not an approval every few batches. The owner has judged that spot-fixing afterward is faster than stopping mid-run.
+
+- **Do not pause for soft decisions.** For every judgment that would normally ask the owner — new page type, category split/merge/rename, thin-page merge, deletion, a name/fact confirmation, a contradiction, an "unclear" flag — **do not act on the irreversible version and do not stop.** Take the **safe, reversible default** and record the item for later review:
+  - Unsure create-vs-merge → **create** the separate page (merging later is easy; un-merging is not).
+  - Uncertain spelling/name → keep the page under the transcribed form and record **all** variants as `aliases`.
+  - Conflicting sources → record both under `## Open contradictions`; resolve nothing.
+  - Never delete or merge pages during the run.
+- **One queue: `## Owner Decisions` in `wiki/overview.md`.** Append each deferred item as one line: *what I found / the safe default I took / the action I recommend / `[[raw/…]]` source*. This queue is the owner's single decision surface at the end.
+- **Verification is the one hard signal, handled without stopping:** on a batch scoring <9/10, re-write that batch with a fresh writer subagent and re-verify **once**. If it then passes, continue. If it still fails, **quarantine** it (log it, add it to Owner Decisions, move on). **Only if two consecutive batches fail after retry do you halt and notify the owner** — that pattern signals the engine itself is broken, not a one-off, and pouring the rest of the backlog through it would compound errors.
+- **End-of-run gate:** after the last batch, run a full Section 13 lint and present the owner **one** package: the lint report + the `## Owner Decisions` queue + overall verification stats. The owner rules on the queue in a single pass; I then apply the approved merges/renames/deletions/confirmations as a normal follow-up batch.
 
 ## 10. Query workflow
 
