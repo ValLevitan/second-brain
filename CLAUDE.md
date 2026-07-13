@@ -194,3 +194,14 @@ Applies once the owner says "unlock" and the full backlog run begins. Goal: run 
 6. Never delete a wiki page without explicit owner approval.
 7. Never ingest both the `.docx` and `.md` of the same transcript.
 8. Never commit credentials or secrets. Flag content that looks like HR/legal/medical/compensation material for the owner's decision rather than silently ingesting it.
+
+## 16. Worldview essay (recurring comprehension check)
+
+A plain-language prose essay — **"The world as this second brain currently sees it"** — that lets the owner judge whether the *assembled picture* (emphasis, causal links, who/what is central) is right, which per-fact verification cannot prove.
+
+- **Cadence:** first at the batch boundary after this rule is added; then after each **quarter of ingested timeline (~every 20 batches)**. Written at a batch boundary; **do not pause the backlog** for it beyond that boundary.
+- **Source:** written **from the wiki pages only** — never re-read `raw/` for it. The point is to expose what the wiki itself contains. Each essay is written **fresh** from current wiki state; never start from or lean on a previous essay (the owner compares them).
+- **Form:** narrative prose for a non-technical reader, ~800–1,200 words, no bullet dumps. **Number every paragraph** (¶1, ¶2 …) with short 3–5 sentence paragraphs so the owner can comment by reference. Cover: (1) the world in one page; (2) the ~10 most central people + relationships/tensions; (3) state of play (projects/decisions at the latest ingested date — momentum vs blocked); (4) through-lines (recurring themes/pressures/risks); (5) what changed (early beliefs later revised); (6) **honest uncertainty — mandatory and weighted most** (what the wiki understands least well, thin coverage, seemingly-important-but-underdocumented people/topics, and the 3–5 questions it would most want answered). An essay with no admitted uncertainty is a failed essay.
+- **Rules:** light citations only (page names where helpful, no per-sentence clutter). Where the wiki holds an open contradiction, say so — don't pick a side. Label interpretation (vs wiki content) as such.
+- **Storage:** `reports/worldview-YYYY-MM-DD.md` (folder sits OUTSIDE `wiki/`; already excluded from the qmd `wiki` collection). It is an owner review artifact like a lint report — **no wiki page may cite it.** Log as `## [date] query | worldview essay N` and commit; present the essay to the owner.
+- **Owner corrections** (replies referencing ¶ numbers) are **owner rulings**: record them as owner-note context / queue resolutions and let them steer future ingestion emphasis. An owner correction is its own citation — never fabricate sourcing for it.
