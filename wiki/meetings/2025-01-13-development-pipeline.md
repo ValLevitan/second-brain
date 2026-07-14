@@ -3,7 +3,7 @@ type: meeting
 title: Development pipeline review
 date: 2025-01-13
 aliases: [development pipeline meeting]
-source-count: 1
+source-count: 2
 ---
 
 # Development pipeline review (2025-01-13)
@@ -18,6 +18,9 @@ Substance lives on:
 
 Homework set; decision meeting scheduled for Jan 15 8am Eastern.
 
+A companion **executive-summary document** of this meeting exists, including a "ChatGPT-01 Pro" consultation on the Git-native pipeline design — see the new section on [[wiki/topics/build-pipeline-parameterization.md]]. [[raw/development_pipeline_–_executive_summary_the_meeting_–_1_2025-03-29.md]]
+
 ## Sources
 
 - [[raw/development_pipeline_january_13_2025.md]]
+- [[raw/development_pipeline_–_executive_summary_the_meeting_–_1_2025-03-29.md]]

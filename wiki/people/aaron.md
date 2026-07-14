@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie]
-source-count: 30
+source-count: 32
 ---
 
 # Aaron
@@ -92,8 +92,15 @@ His surname is given as **Bockelie** on the Jan 21 continuous-delivery transcrip
 
 - Aaron screen-shared to configure a self-hosted **Open WebUI** on Val's laptop end-to-end (settings, memory, models, web search via DuckDuckGo, image generation, connecting OpenAI's Whisper-1 and importing the **Anthropic** function so both Claude and GPT models are available in one UI), flagged that it could be deployed on **JVL's Active Directory** to replace individual ChatGPT accounts, and noted OpenAI had just adopted **MCP** across its products. He closed with a lesson on **good-vs-bad MCP-server design** (raw-endpoint vs consolidated-tool vs stateful/suggesting), and had cancelled a Minsk meeting to focus on it. See [[wiki/topics/ai-assisted-development.md]] and [[wiki/meetings/2025-03-27-openwebui-aaron-setup.md]]. [[raw/OpenWebUI_aaron_march-27-2025.md]]
 
+## History — 2024 and earlier (sources staged 2025-03-29)
+
+- **JVL Insights (~2023–24):** Aaron's earliest recorded JVL engagement — named **"Aaron Bockelie (Atlassian Specialist) - Consultant"** in the JVL Insights knowledge-base proposal, scoped to integrate it with JIRA/Confluence, set up project-tracking/documentation workflows, and train the team on Atlassian tools. See [[wiki/projects/jvl-insights-knowledge-base.md]]. (Compensation figures in the source withheld, §15.8.) [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
+- **SQL/OLAP visualization architecture (~2024, likely Q4):** on the broader architecture session he proposed the low-hardware alternative to Pavel's SAS-host designs — commodity serial→Ethernet converters plus a **container host with virtual serial-adapter drivers**, cloud-deployable, "turn everything into casino as a service" — and pressed the team on SAS's acknowledgement/retry robustness. See [[wiki/topics/olap-power-bi-architecture.md]] and [[wiki/meetings/2024-sql-olap-visualization-architecture-2.md]]. [[raw/architecture_sql_olap_visualization_2_2025-03-29.md]]
+
 ## Sources
 
+- [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
+- [[raw/architecture_sql_olap_visualization_2_2025-03-29.md]]
 - [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]
 - [[raw/development_pipeline_january_13_2025.md]]
 - [[raw/ai-assisted_development_with_vs_code_git_and_mcp_january_14_2025.md]]

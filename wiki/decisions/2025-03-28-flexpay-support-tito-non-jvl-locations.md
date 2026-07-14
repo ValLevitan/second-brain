@@ -3,7 +3,7 @@ type: decision
 title: FlexPay to support TITO at non-JVL locations via a FlexPort-hosted SAS server
 date: 2025-03-28
 aliases: [FlexPay TITO decision, TITO support, SAS server on FlexPay, FlexServer, non-JVL location TITO]
-source-count: 1
+source-count: 2
 status: active
 ---
 
@@ -46,6 +46,10 @@ On the Mar 28 2025 scope-gap meeting, JVL agreed the business requirement and an
 - [ ] Val — write the meeting summary + undertakings and schedule the follow-up for Tuesday 7:00 am Eastern — due after the meeting — [[raw/scope_gap_tito_flex_pay-march-28-2025.md]]
 - [ ] Minsk team — make as much progress as possible on Monday — due Monday — [[raw/scope_gap_tito_flex_pay-march-28-2025.md]]
 
+## History
+
+- The core design was **prefigured in a ~2024 architecture meeting**: Pavel presented the same two options (third-party SAS host vs. a JVL-proprietary SAS host in/beside the kiosk, preferred as cheaper for the operator), the WSS link to FlexPay, and the **9-bit serial** converter blocker ("we need to use 9 bits operation… quite different"), with converters to be bought and tested. See [[wiki/topics/olap-power-bi-architecture.md]] and [[wiki/meetings/2024-sql-olap-visualization-architecture-2.md]]. [[raw/architecture_sql_olap_visualization_2_2025-03-29.md]]
+
 ## Open questions
 
 - Whether a reliable **9-bit Ethernet-to-RS232 adapter** can be sourced (which would cheapen the hardware) — otherwise a local TITO server must be built on the kiosk or a chosen board regardless. [[raw/scope_gap_tito_flex_pay-march-28-2025.md]]
@@ -54,3 +58,4 @@ On the Mar 28 2025 scope-gap meeting, JVL agreed the business requirement and an
 ## Sources
 
 - [[raw/scope_gap_tito_flex_pay-march-28-2025.md]]
+- [[raw/architecture_sql_olap_visualization_2_2025-03-29.md]]

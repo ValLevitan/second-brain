@@ -4,7 +4,7 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "JVL's IT person = the recurring IT-context 'Dima'. Distinct from Dmitriy Khandov (Senior 3D Graphic Designer), Andrey/Andrew Khandov (Miranda dev), and Dmitri Chudinov (back-end architect, who is the 'Dima Chudinov' of the Observability Platform org). Owner-confirmed 2026-07-13."
-source-count: 2
+source-count: 4
 ---
 
 # Dmitri Kovalchuk
@@ -28,7 +28,14 @@ Per the owner ruling, these IT-context "Dima" mentions — previously flagged un
 
 - **GitHub-commits template check-in (Mar 26):** present as "Dima Kovalchuk"; Val questioned whether the meeting was productive for him ("it seems like Dima Kovalchuk doesn't need to be here") — consistent with his IT (not game-dev) role. He is also among the team members using the VS Code / MCP tooling Aaron pushes. See [[wiki/topics/graphics-team-git-workflow.md]] and [[wiki/topics/ai-assisted-development.md]]. [[raw/github_commits-march-26-2025.md]]
 
+## History
+
+- **JVL Insights (~2023–24):** named **"Dmitri Kovalchuk (Sr. System Administrator, MS SQL Specialist) - Consultant"** in the JVL Insights knowledge-base proposal — to manage/optimize its MS SQL database, ensure data integrity/security, and build the data aggregation/categorization. Compensation figures withheld (§15.8). See [[wiki/projects/jvl-insights-knowledge-base.md]]. [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
+- **SQL/OLAP architecture, part 1 (~2024, likely Q4):** provisionally, the "Дима" called in (with Andrey) to explain how the local three-site Active Directory and the separate Azure AD (mail/Teams) work — an IT-infrastructure context that fits this page per the owner's Dima rule; **flagged, not certain**. See [[wiki/meetings/2024-sql-olap-visualization-architecture-1.md]]. [[raw/architecture_sql_olap_visualization_1_2025-03-29.md]]
+
 ## Sources
 
+- [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
+- [[raw/architecture_sql_olap_visualization_1_2025-03-29.md]]
 - [[raw/GitHub_Commit_LFS-Feb-18-2025.md]]
 - [[raw/github_commits-march-26-2025.md]]

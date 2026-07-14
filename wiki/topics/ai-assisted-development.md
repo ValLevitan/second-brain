@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower]
-source-count: 13
+source-count: 16
 ---
 
 # AI-assisted development adoption
@@ -94,6 +94,12 @@ A separate, earlier hands-on session shows the **installation** of Open WebUI th
 ## Connection to the pipeline debate
 
 - Val explicitly linked adopting Git-native, AI-friendly practices to resolving the ISO build-pipeline problem: a natural-language/AI interface should be a standard part of a pipeline built to last 10 years. See [[wiki/topics/build-pipeline-parameterization.md]]. [[raw/development_pipeline_january_13_2025.md]]
+- A concrete instance of AI-in-the-loop decision support: the Jan-13 pipeline meeting's executive summary records Val asking **"ChatGPT-01 Pro"** to propose the Git-native pipeline design — its answer prefigures the Jan-15 decisions. See [[wiki/topics/build-pipeline-parameterization.md]]. [[raw/development_pipeline_–_executive_summary_the_meeting_–_1_2025-03-29.md]]
+
+## History — earlier AI-consultation artifacts (undated, pre-2025)
+
+- **SolidWorks integration memo from ChatGPT:** a reference document titled "Solid work integration and the overall architecture suggestion from ChatGPT" shows JVL (before the 2025 tooling push) using ChatGPT to draft an IT-integration architecture connecting **SolidWorks** (3D CAD) with **Atlassian Jira/Confluence** and **Microsoft Business Central** — file attachments/version control of CAD files, BOM synchronization into the ERP, middleware/connectors, OAuth security, monitoring, and staged testing. The content is generic AI output (no JVL-specific decisions); its durable value is evidence that JVL's CAD/PLM–ERP–Atlassian integration question was explored via ChatGPT. Undated; consistent with the ~2023–24 Atlassian/Business-Central era of [[wiki/projects/jvl-insights-knowledge-base.md]] (inference, flagged). [[raw/solid_work_integration_and_the_overall_architecture_suggesti_2025-03-29.md]]
+- **JVL Insights (2024 proposal):** the earliest recorded company-wide AI initiative — an AI-driven knowledge base with named staff/consultants (including Aaron as "Atlassian Specialist") — predating everything above. See [[wiki/projects/jvl-insights-knowledge-base.md]]. [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
 
 ## Sources
 
@@ -111,3 +117,6 @@ A separate, earlier hands-on session shows the **installation** of Open WebUI th
 - [[raw/mcp_unity_visualcode-march-26-2025.md]]
 - [[raw/OpenWebUI_aaron_march-27-2025.md]]
 - [[raw/aaron_visualization_making_use_of_knowledge-march-28-2025.md]]
+- [[raw/development_pipeline_–_executive_summary_the_meeting_–_1_2025-03-29.md]]
+- [[raw/solid_work_integration_and_the_overall_architecture_suggesti_2025-03-29.md]]
+- [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]

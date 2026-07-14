@@ -3,7 +3,7 @@ type: decision
 title: Move JVL's build system off Jenkins to a Git-native pipeline
 date: 2025-01-15
 aliases: [Git-native build, serverless build, drop Jenkins]
-source-count: 4
+source-count: 5
 status: active
 open-commitments: 0
 open-questions: 0
@@ -29,9 +29,12 @@ open-questions: 0
 
 This resolves the debate left open on Jan 13. See [[wiki/topics/build-pipeline-parameterization.md]]. Related platform choice: [[wiki/decisions/2025-01-15-adopt-github-over-bitbucket.md]].
 
+**Supporting input:** between the Jan 13 debate and this decision, an executive-summary document recorded Val consulting **"ChatGPT-01 Pro"** on how to build the pipeline assuming the Bitbucket/GitHub direction; its answer (YAML pipeline-as-code, branch-edited `build-config.yml`, artifact repo tagged to commit SHA, ephemeral container builds, AI-friendliness, Jenkins only on standby) closely matches what was decided here. Detail on [[wiki/topics/build-pipeline-parameterization.md]]. [[raw/development_pipeline_–_executive_summary_the_meeting_–_1_2025-03-29.md]]
+
 ## Sources
 
 - [[raw/parameterization_in_the_development_pipeline_part_1_january_15_2025.md]]
 - [[raw/parameterization_in_the_development_pipeline_part_2_january_15_2025.md]]
 - [[raw/parameterization_in_the_development_pipeline_part_3_january_15_2025.md]]
 - [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]]
+- [[raw/development_pipeline_–_executive_summary_the_meeting_–_1_2025-03-29.md]]

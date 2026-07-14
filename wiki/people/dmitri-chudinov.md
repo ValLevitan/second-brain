@@ -4,7 +4,7 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dima]
 disambiguation: "Back-end architect / Java developer. Owner-confirmed 2026-07-13. Belarusian spelling Dzmitry Dudzinau = same person. Distinct from Dmitri Kovalchuk (IT), Dmitriy Khandov (Senior 3D Graphic Designer), and Andrey/Andrew Khandov (Miranda dev). Resolve 'Dima' by context: backend/Java/server-architecture → Chudinov."
-source-count: 4
+source-count: 6
 open-commitments: 1
 open-questions: 0
 ---
@@ -23,12 +23,18 @@ Dmitri Chudinov is a JVL **back-end architect / Java developer** (owner ruling 2
 
 **Distinct people (do not merge), all sometimes called "Dima":** [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] (IT), [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]] (Senior 3D Graphic Designer), and [[wiki/people/andrew-khandov.md|Andrey/Andrew Khandov]] (Miranda developer). Resolve every bare "Dima" by context, never by name alone.
 
+## History
+
+- **SQL/OLAP architecture, part 2 (~2024, likely Q4):** provisionally, the "Dima" Val introduces with "Dima and Sergei are designing back office solutions, back office architecture" — the back-office/architecture context fits Chudinov (who later leads the CMS-replacement backend with the same Sergey), but [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] (the MS-SQL Dima) is also plausible; **flagged, not certain**. Part 1 also notes a "Дима" should join "по поводу флэкспей, портов флэкспей" — consistent with Chudinov's later FlexPort role, likewise flagged. See [[wiki/meetings/2024-sql-olap-visualization-architecture-2.md]]. [[raw/architecture_sql_olap_visualization_2_2025-03-29.md]] [[raw/architecture_sql_olap_visualization_1_2025-03-29.md]]
+
 ## Open commitments
 
 - [ ] Dima Chudinov — send Eugine the minimal list of **SAS commands** to implement first for the TITO/SAS-server work — due unspecified — [[raw/scope_gap_tito_flex_pay-march-28-2025.md]]
 
 ## Sources
 
+- [[raw/architecture_sql_olap_visualization_1_2025-03-29.md]]
+- [[raw/architecture_sql_olap_visualization_2_2025-03-29.md]]
 - [[raw/Git_repo_structure_part_2_2025-02-11.md]]
 - [[raw/cms_persona_requirements-march-23-2025.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-03-25.md]]

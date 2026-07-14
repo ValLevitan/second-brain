@@ -3,7 +3,7 @@ type: topic
 title: FlexPay mobile app and service advocates
 date: 2026-07-12
 aliases: [FlexPay mobile app, service advocate, service advocates, whale, whale UI, Incom, TITO, SMIB, SAS server, FlexServer, FlexPay discovery contractor]
-source-count: 13
+source-count: 15
 ---
 
 # FlexPay mobile app and service advocates
@@ -11,6 +11,10 @@ source-count: 13
 A JVL discussion (Jan 13 2025) about a planned FlexPay mobile app and a new user type — the "service advocate" — that the app should serve. The call was framed as building a persona profile so the product can target this role.
 
 **Earlier origin (Nov 24 2024).** An older source (staged 2025-03-29) shows this app track began earlier: [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] had **selected an external contractor** (Poland legal entity + Belarus dev team) for a **~$8,000 FlexPay discovery phase** (spec + mockups → a later fixed-price build). Whether that contractor was actually engaged or was later superseded by JVL's in-house work is unconfirmed — see [[wiki/decisions/2024-11-24-engage-flexpay-discovery-contractor.md]] and Owner Decisions. [[raw/andrei_klimovich_update_report_online_strategy1_2025-03-29.md]]
+
+**Even earlier (Nov 6 2024):** on the website-alignment call Andrei reported he had already sent the FlexPay **mobile-application** vision document ("этот визжен, который я вам отослал раньше" — Val confirms it is the FlexPay app) to **three studios — one large, two in Belarus** — with contacts for several more expected, and answers due within days; a dedicated follow-up call was set for **Nov 20, 10:30**. See [[wiki/meetings/2024-11-06-website-architecture-and-design.md]]. [[raw/business_architecture_and_the_website_design_for_online_2025-03-29.md]]
+
+**2024 SAS/TITO precursor:** a ~2024 architecture meeting already sketched the "FlexPay with integrated SAS" idea — JVL running its **own SAS host** inside the kiosk (vs. connecting to third-party back offices), speaking **WSS** upward, with the **9-bit serial** converter problem already identified — the direct ancestor of the Mar-28 2025 TITO decision below. See [[wiki/topics/olap-power-bi-architecture.md]]. [[raw/architecture_sql_olap_visualization_2_2025-03-29.md]]
 
 ## What a service advocate is
 
@@ -68,3 +72,5 @@ The **FlexPay** payment product itself is confirmed progressing — the Jan 24 2
 - [[raw/flex_pay_production-march-27-2025.md]]
 - [[raw/scope_gap_tito_flex_pay-march-28-2025.md]]
 - [[raw/andrei_klimovich_update_report_online_strategy1_2025-03-29.md]]
+- [[raw/business_architecture_and_the_website_design_for_online_2025-03-29.md]]
+- [[raw/architecture_sql_olap_visualization_2_2025-03-29.md]]

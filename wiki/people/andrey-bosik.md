@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre]
 disambiguation: "JVL DevOps manager. Distinct from Andrei Klimovich (online-games commercial lead) and from Andrew Khandov (C# Miranda developer). Owner-confirmed 2026-07-13. Canonical first name 'Andrey'."
-source-count: 19
+source-count: 22
 open-commitments: 5
 ---
 
@@ -14,6 +14,8 @@ Andrey Bosik is JVL's **DevOps manager** (owner ruling 2026-07-13; canonical spe
 
 ## History
 
+- **JVL Insights (~2023–24):** named **"Andrei Bosik (Sr. Amazon Cloud Specialist) - Consultant"** in the JVL Insights knowledge-base proposal — AWS infrastructure setup/management, scalability/reliability, cloud security. His earliest recorded JVL role. Compensation figures withheld (§15.8). See [[wiki/projects/jvl-insights-knowledge-base.md]]. [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
+- **SQL/OLAP architecture (~2024, likely Q4):** the "Андрей" who explained JVL's directory layout — local AD (2 servers × 3 sites, replicated) vs the separate Azure AD used for mail/Teams ("он в облаках, он настроил") — in part 1, and whom Val introduces in part 2 as "Andrej is designing DevOps." See [[wiki/topics/olap-power-bi-architecture.md]] and the two meeting stubs. [[raw/architecture_sql_olap_visualization_1_2025-03-29.md]] [[raw/architecture_sql_olap_visualization_2_2025-03-29.md]]
 - Through Jan–Feb 2025 he was framed as an engineer **being groomed** to own DevSecOps (Val/Aaron coaching him from "engineer" toward running it). As of the owner ruling (2026-07-13) his standing role is **DevOps manager** — the earlier "being groomed" framing is superseded. The build-up is captured in the coaching sections below. [[raw/it_structure_minsk-jan-22-2025.md]]
 
 ## Role
@@ -81,6 +83,9 @@ His surname is given as **Bosik** on the Feb 12 GitHub check-in (WEBVTT). (Disti
 
 ## Sources
 
+- [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
+- [[raw/architecture_sql_olap_visualization_1_2025-03-29.md]]
+- [[raw/architecture_sql_olap_visualization_2_2025-03-29.md]]
 - [[raw/development_pipeline_january_13_2025.md]]
 - [[raw/ai-assisted_development_with_vs_code_git_and_mcp_january_14_2025.md]]
 - [[raw/parameterization_in_the_development_pipeline_part_1_january_15_2025.md]]

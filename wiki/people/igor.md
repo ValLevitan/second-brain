@@ -21,7 +21,7 @@ Igor is the JVL **"mobile-application Igor"** (owner ruling 2026-07-13; surname 
 - Assisting with the paperwork and legal steps to register the company and set up the Puerto Rico office (~2–3 months). [[raw/anibal_call_011325_meeting_notes_2025-01-14.md]]
 - **Puerto Rico licensing (Jan 29):** prepared the PR status document; primary contact with the Gaming Commission's Idaline (who responded to him faster than to Juan); compiled the five recommended law firms into a spreadsheet and reached out to all; arranging the CS2 Consulting meeting (Victor Zutera / Tamara); vets incoming quotes with Juan before Val. See [[wiki/projects/puerto-rico-expansion.md]]. [[raw/Puerto Rico progress report - January 29, 2025.md]] (Owner ruling: the PR Igor is most likely this mobile-app Igor.)
 
-Distinct from [[wiki/people/igor-donis.md|Igor Donis]] (Financial Controller, finance/corporate). Note: the Minsk payroll additionally lists two names-only "Igar"s (Hrybko, Miatselski) — reconcile only if they appear in transcripts.
+Distinct from [[wiki/people/igor-donis.md|Igor Donis]] (Financial Controller, finance/corporate). Note: the payroll "Igar"s are now both reconciled — Miatselski = [[wiki/people/igor-metelski.md]], and Hrybko = [[wiki/people/ihar-hrybko.md|Ihar Hrybko]] (UX/UI, from the JVL Insights proposal) — making five Igor-named people in total; resolve by context, never by name.
 
 ## Sources
 

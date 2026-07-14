@@ -3,7 +3,7 @@ type: topic
 title: Build pipeline and ISO parameterization
 date: 2026-07-12
 aliases: [build pipeline, ISO parameterization, Jenkins debate, devops pipeline, DTP-53, DTP 53]
-source-count: 8
+source-count: 9
 open-commitments: 2
 open-questions: 1
 ---
@@ -30,6 +30,12 @@ An ongoing JVL engineering debate about how to build the game "ISO image" in a f
 - He challenged whether the complexity is real or inherited: is the parameterization need driven by ~20 years of legacy architecture, or a genuine requirement? [[raw/development_pipeline_january_13_2025.md]]
 - He wants QA embedded with the build system — QA should branch a copy (e.g. a big YAML file of parameters), configure and test against it, then close the branch — rather than being handed a Jenkins "control panel" that limits them. He argued QA engineers should be able to run basic Git commands. [[raw/development_pipeline_january_13_2025.md]]
 - He tied it to AI: a Git-native pipeline lets AI tools drive builds naturally, whereas Jenkins forces screen-scraping a web page. See [[wiki/topics/ai-assisted-development.md]]. [[raw/development_pipeline_january_13_2025.md]]
+
+## The executive summary + ChatGPT-o1-Pro consultation (between Jan 13 and Jan 15)
+
+A companion document to the Jan 13 meeting — "Development Pipeline – Executive summary of the meeting – meat and potato – January 13, 2025" — restates the core tension in non-technical terms (Jenkins = easy parameter dashboard but legacy; Bitbucket/GitHub = modern, single-platform, AI-integrable but weak at pre-build parameter picking) and then records a question Val put to **"ChatGPT-01 Pro"** (as written in the document): *"Assuming that we prefer to Leverage Bitbucket/GitHub direction, offer the proper solution of how to build the development pipeline?"* [[raw/development_pipeline_–_executive_summary_the_meeting_–_1_2025-03-29.md]]
+
+The AI's recorded answer maps almost point-for-point onto what was then decided on Jan 15: one Git repository as the single source of truth; the build defined **as-code in a YAML pipeline file** parameterized by variables (its examples: `GAME_VERSION`, `LGS_VERSION`, `PROGRESSIVE_LIB_VERSION`); version selection via a **`build-config.yml` edited in a QA feature branch** (commit → pipeline triggers), optionally a small internal web form; artifacts stored in a repository (it names Artifactory / Nexus / S3) tagged to the commit SHA; **ephemeral container-based builds** (no long-lived Jenkins servers); and explicit positioning for **future AI integration** ("If you rely heavily on Jenkins with a big customized UI, hooking into advanced AI solutions can get trickier"). Jenkins kept only "on standby for any specialized tasks." [[raw/development_pipeline_–_executive_summary_the_meeting_–_1_2025-03-29.md]]
 
 ## Resolution (Jan 15 decision meeting)
 
@@ -69,6 +75,7 @@ The build-system work is now tracked as JIRA feature **DTP-53** (under "DevOps t
 ## Sources
 
 - [[raw/development_pipeline_january_13_2025.md]]
+- [[raw/development_pipeline_–_executive_summary_the_meeting_–_1_2025-03-29.md]]
 - [[raw/parameterization_in_the_development_pipeline_part_1_january_15_2025.md]]
 - [[raw/parameterization_in_the_development_pipeline_part_2_january_15_2025.md]]
 - [[raw/parameterization_in_the_development_pipeline_part_3_january_15_2025.md]]
