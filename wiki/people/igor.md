@@ -9,7 +9,7 @@ source-count: 3
 
 # Igor
 
-Igor is the JVL **"mobile-application Igor"** (owner ruling 2026-07-13; surname not yet known — queued; the owner notes it may be in the JVL Obsidian Contractors records). He is **one of three Igors** — distinct from [[wiki/people/igor-donis.md|Igor Donis]] (Financial Controller) and [[wiki/people/igor-starovoytov.md|Igor Starovoytov]] (contractor industrial designer). Resolve by context: mobile app/UI + new-market ops/Puerto Rico → this Igor; finance/corporate → Donis; cabinet/industrial/product design → Starovoytov.
+Igor is the JVL **"mobile-application Igor"** (owner ruling 2026-07-13; surname not yet known — queued). **Surname candidate:** the contractor roster lists **Ihar Nazarenka** ("Ihar" = Igor); a plausible match for this Igor but **not confirmed by role** — flagged, not asserted (see [[wiki/topics/jvl-contractor-roster.md]]). He is **one of three Igors** — distinct from [[wiki/people/igor-donis.md|Igor Donis]] (Financial Controller) and [[wiki/people/igor-starovoytov.md|Igor Starovoytov]] (contractor industrial designer). Resolve by context: mobile app/UI + new-market ops/Puerto Rico → this Igor; finance/corporate → Donis; cabinet/industrial/product design → Starovoytov.
 
 ## Role — mobile app / product
 

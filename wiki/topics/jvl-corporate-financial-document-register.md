@@ -34,6 +34,10 @@ A **location map** of JVL's corporate and financial reference documents in the J
 - `Minsk Office/` — Bank Reconciliation, monthly Expenses, Invoices (XLSX/XLS, 2024–26). **[deferred]** (granular)
 - `Initiatives/HR/Recurring Wage Review/Minsk/` — `Minsk_payroll_source_index.md`, `Salary/` (actual registers), `Salary Estimates/`. **[names-absorbed]** for the roster ([[wiki/topics/minsk-staff-roster.md]]); **[hold]** on all compensation figures (§15.8) unless the owner approves that section explicitly.
 
+## Contractors Control (owner-approved 2026-07-13 — names/process only)
+- `Contractors Control/` monthly invoices + AP Authorizations + cost-per-artifact analyses — **[hold]** (§15.8 figures) — names/roles absorbed to [[wiki/topics/jvl-contractor-roster.md]]; billing amounts held.
+- `Contractors Control/CONTRACTOR_NOTES.md` + `_Standard/` (invoice template, jira_billing_rules v1.4) — **[absorbed 2026-07-13 → [[wiki/topics/jvl-contractor-billing-process.md]]]** (process only, rates redacted; rules doc ingested as [[raw/jvl_contractor_billing_rules_v1.4_2026.md]]).
+
 ## Not in listed scope (present but not surveyed)
 - Most of `Finance/` — `Loans Records/` (~90 files), `EDS Elevate/`, forecasts, KPIs, expense sheets. **[out-of-scope]** — flag if any is wanted.
 - Most of `Legal/` — customer license/deal agreements (Ainsworth, Seminole, Hollywood Bets, BetConstruct), NDAs, leases, Mexico Tax Dispute litigation, voting-trust/shareholder docs. **[out-of-scope]** for this exception (corporate-identity/trademark/FS only); flag if wanted.
