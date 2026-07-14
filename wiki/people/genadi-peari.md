@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena]
-source-count: 9
+source-count: 11
 ---
 
 # Genadi Peari
@@ -47,6 +47,10 @@ Genadi Peari is JVL's hardware lead. He develops the CPU boards and advises on p
 
 Name confirmed by Val as **Genadi Peari**; the transcripts render it "Gennady Perry" / "Gena", kept as aliases for search.
 
+## Puerto Rico product line (Mar 21)
+
+- On the Mar 21 Puerto Rico product-matrix call, Genadi advised on the button panels: he offered to make the wiring/key mapping **identical** across old and new counter boards, but the team chose the software/XML route instead (his approach would need firmware changes). He also raised a cheaper board option — the **V1000 on an ARC-2000** low-power mobile platform (~**$130**, compatible but weaker) — which Val deferred. See [[wiki/topics/puerto-rico-product-configuration.md]]. [[raw/product_matrix_puerto_rico-march21-2025.md]] [[raw/requirements_puerto_rico-march-21-2025.md]]
+
 ## Sources
 
 - [[raw/fp-7_performance_analysis_january_13_2025.md]]
@@ -58,3 +62,5 @@ Name confirmed by Val as **Genadi Peari**; the transcripts render it "Gennady Pe
 - [[raw/Flex_V42_C_design_evolution_review_2025-02-27.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-03-04.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-03-11.md]]
+- [[raw/product_matrix_puerto_rico-march21-2025.md]]
+- [[raw/requirements_puerto_rico-march-21-2025.md]]

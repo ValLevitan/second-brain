@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie]
-source-count: 24
+source-count: 28
 ---
 
 # Aaron
@@ -74,6 +74,16 @@ His surname is given as **Bockelie** on the Jan 21 continuous-delivery transcrip
 
 - Aaron handled the designers' **PSD-conflict** complaint (separate branches with separate files shouldn't truly conflict; the contact-sheet Action just runs twice on `main` — fix the script, don't debug it live with eight people) and pushed the rule that broken tooling goes into the **help-desk queue as a ticket**, connected to the PR/commit, not saved for meetings ("everybody is made the same"). He and Val told [[wiki/people/lena.md|Lena]] to **start the new-game repo now and "fake the review"** via a colleague, and to **fork from a generic template** (which [[wiki/people/andrey-bosik.md|Andrei]] must build). See [[wiki/topics/graphics-team-git-workflow.md]] and [[wiki/decisions/2025-03-12-fork-game-repos-from-generic-template.md]]. [[raw/GitHub_for_Graphic_Design_evolution_2025-03-12.md]]
 
+## SVN→Git migration of Efim's codebase (Mar 17)
+
+- Aaron drove the plan to move [[wiki/people/efim-podvoiski.md|Efim]]'s codebase off **SVN** onto JVL's Git platform, then migrate the **Jenkins** builders to **GitHub Actions** in stages (black-box the scripts first, refine later). He framed it as understanding/documenting the code (static analysis) to improve commercial viability and cut the bus-factor risk that only Efim and [[wiki/people/igor-metelski.md|Igor Metelski]] can maintain it. See [[wiki/decisions/2025-03-17-migrate-rgs-codebase-svn-to-git.md]]. [[raw/reversing_distilling_from_ready_code_into_requir_2025-03-17.md]]
+
+## Knowledge-base tooling and the funding arrangement (Mar 20–21)
+
+- **Knowledge graph / tagging (Mar 20):** Aaron demoed a **3D force-directed graph** and D3 tree-map/chord/calendar views of a document set, critiqued Val's Cline/ChatGPT tagging pass as too simplistic, and proposed a **SQL database + Markov/Bayesian n-gram** classifier. As a **GitHub admin for JVL**, he had Val push ~171 tagged files to a new `text_analysis` repo and took on writing the classifier/visualizer. See [[wiki/topics/transcript-knowledge-base-tooling.md]]. [[raw/aaron_3d_force_directed_graph-March-20-2025.md]]
+- **Building tools (Mar 21):** flagged OpenAI's new **GPT-4o Transcribe** models (shared by [[wiki/people/clayton.md|Clayton]]) to replace Whisper (diarization, longer files), noted Whisper's file-size limit and a possible splitter, and demoed running the Whisper MCP. He and Val agreed the arrangement where **Val funds guaranteed hours** for Aaron + Clayton to build bespoke AI tools that Aaron may then commercialise — part of Aaron's enterprise-AI-architecture consultancy (an alternative to **CPRIME**), tools to live in a "Foray" GitHub space. See [[wiki/decisions/2025-03-21-fund-aaron-clayton-bespoke-ai-tools.md]] and the transcription section of [[wiki/topics/ai-assisted-development.md]]. [[raw/aaron_building_tools-march-21-2025.md]]
+- **Tagging science (Mar 21):** detailed the classification method (emergent no-hint AI tagging, term normalization, rare-tag "departures" as data-science signal, AI as a first-order thinking tool, an MCP pointed at the database, later vectorization) using his Chase bank-statement categorization project as the model; rejected an off-the-shelf docs-RAG MCP and is building his own. See [[wiki/topics/transcript-knowledge-base-tooling.md]]. [[raw/aaron_tagging_science-march-21-2025.md]]
+
 ## Sources
 
 - [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]
@@ -100,3 +110,7 @@ His surname is given as **Bockelie** on the Jan 21 continuous-delivery transcrip
 - [[raw/Git_progress_check_in_2025-02-28.md]]
 - [[raw/persona_development_journey_meeting_with_minsk-2025-03-10.md]]
 - [[raw/GitHub_for_Graphic_Design_evolution_2025-03-12.md]]
+- [[raw/reversing_distilling_from_ready_code_into_requir_2025-03-17.md]]
+- [[raw/aaron_3d_force_directed_graph-March-20-2025.md]]
+- [[raw/aaron_building_tools-march-21-2025.md]]
+- [[raw/aaron_tagging_science-march-21-2025.md]]

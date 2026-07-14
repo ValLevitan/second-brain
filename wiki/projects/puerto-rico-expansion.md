@@ -3,7 +3,7 @@ type: project
 title: Puerto Rico expansion
 date: 2026-07-12
 aliases: [Puerto Rico expansion, Puerto Rico office, PR route market, gaming license, resident agent, FYC Consulting]
-source-count: 2
+source-count: 4
 ---
 
 # Puerto Rico expansion
@@ -45,7 +45,13 @@ Val directed the Puerto Rico setup to follow the structure he uses in Mexico, Co
 
 (Some contact identities — Julian, and a greeting to "Ivan" — are unclear; see Owner Decisions.)
 
+## Product line for Puerto Rico (Mar 21 2025)
+
+Which JVL machines and software ship into the Puerto Rico route market was worked out on a Mar 21 call ([[wiki/people/val-levitan.md|Val]], Irina, [[wiki/people/pavel.md|Pavel]], [[wiki/people/genadi-peari.md|Genadi Peari]]) and a follow-up requirements document — full detail on the dedicated page **[[wiki/topics/puerto-rico-product-configuration.md]]**. In brief: three families (HG6 CPU kits with new electronics; HG6 retrofit machines keeping old electronics; Flex-S on the V1000 board with Megahit, split into V43 vertical / D27 horizontal); one HG6 software supporting both old and new button panels via XML key-code mapping ([[wiki/decisions/2025-03-21-hg6-support-legacy-and-new-button-panels.md]]); the five production Puerto Rico machines to get their cabinet removed and a V1000 installed; [[wiki/people/juan-martinez.md|Juan Martinez]] (then in Puerto Rico walking locations) holds final approval on panel, game selection and limitations; GLI certification required for all configs. [[raw/product_matrix_puerto_rico-march21-2025.md]] [[raw/requirements_puerto_rico-march-21-2025.md]]
+
 ## Sources
 
 - [[raw/anibal_call_011325_meeting_notes_2025-01-14.md]]
 - [[raw/Puerto Rico progress report - January 29, 2025.md]]
+- [[raw/product_matrix_puerto_rico-march21-2025.md]]
+- [[raw/requirements_puerto_rico-march-21-2025.md]]

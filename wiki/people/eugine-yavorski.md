@@ -3,7 +3,7 @@ type: person
 title: Eugine Yavorski
 date: 2025-02-18
 aliases: [Eugine Yavorski, Evgeny Yavorsky, Yavorski, Yavorsky, Яворский, Evgeny, Yevgeny, Zhenya, Женя, Евгений]
-source-count: 4
+source-count: 6
 ---
 
 # Eugine Yavorski
@@ -26,9 +26,15 @@ Eugine Yavorski (surname confirmed by Val; called "Zhenya" / "Женя" in the t
 
 Name confirmed by Val as **Eugine Yavorski** (the Mar 11 transcript renders it "Evgeny Yavorsky" / Евгений Яворский). He is a **distinct person** from **[[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]]**, the main-branch owner — both are colloquially "Женя"/"Zhenya," and the owner has confirmed they are two different people.
 
+## Embedded standup (Mar 17)
+
+- On the Mar 17 standup (reporting as "Евгений"/Zhenya), Yavorski reported one game machine passing almost all functionality **except cash-out**, with **FlexPay working** at both stations and a new printer printing tickets. He needs to cooperate with [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] on the cash-out work, and flagged that the money-transfer protocol currently runs in **one phase** but must be reworked to the **two-phase** request/confirm (reject/commit) model — he is to verify whether funds are debited at phase one. See [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]]. [[raw/Flex-port-update-March-17-2025.md]] [[raw/Embedded_Group_alignment_and_update_2025-03-18.md]]
+
 ## Sources
 
 - [[raw/Embedded_Group_alignment_and_update_2025-02-18.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-02-25.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-03-04.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-03-11.md]]
+- [[raw/Flex-port-update-March-17-2025.md]]
+- [[raw/Embedded_Group_alignment_and_update_2025-03-18.md]]
