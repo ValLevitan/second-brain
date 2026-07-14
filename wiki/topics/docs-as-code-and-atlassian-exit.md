@@ -3,7 +3,7 @@ type: topic
 title: Docs-as-code and the plan to exit Atlassian
 date: 2025-02-21
 aliases: [docs as code, documentation site, GitHub Pages, GitHub Docs, mermaid, Confluence exit, Atlassian exit, single source of truth, template repo, contact sheet, GDD]
-source-count: 4
+source-count: 5
 open-questions: 1
 ---
 
@@ -39,6 +39,16 @@ The Feb 28 Git check-in put these principles into practice on the **Fortune Foo 
 - **The commit-to-main lesson.** A live gitignore **merge conflict** arose because designers had committed directly to `main` (adding Blender `blend1` temp files + logs), which broke Aaron's open pull request. He walked them through resolving it in the GitHub UI, and drew the lesson: **don't blindly commit to `main`** — pending pull requests must be merged in the right order, and the **repo owner merges the PR** (a contributor requests, the owner pulls it in). [[raw/Git_progress_check_in_2025-02-28.md]]
 - **Contact-sheet automation.** [[wiki/people/andrey-bosik.md|Andre]] fixed the GitHub Action in the repo's `.github` folder (the Photoshop→contact-sheet automation) and is to set up Git-access credentials for it and modify its YAML so it can commit; the Wednesday-9am demo target is to commit a Photoshop file and see it added to the contact sheet. Aaron noted [[wiki/people/aaron.md|Aaron]] himself should be used as a **consultant, not an employee**. [[raw/Git_progress_check_in_2025-02-28.md]]
 
+## History — the origin debate, Bitbucket era (late Jan–early Feb 2025)
+
+The doctrine above was first argued out weeks earlier, while JVL was still on Bitbucket ([[wiki/meetings/2025-02-01-docs-in-git-vs-confluence.md]]; day placeholder — dated by content to before the Feb 7–10 GitHub transfer): [[raw/the_importance_of_storing_artifacts_in_git.md]]
+
+- **Learn Git in Git:** a practice repository was being set up ("Dimitri is setting up a repository for people to practice using Git"), and Aaron insisted its instructions live in Git itself — "We learn how to drive Git by operating in Git, not reading about it in Confluence or Word." [[raw/the_importance_of_storing_artifacts_in_git.md]]
+- **Confluence = convenient throwaway; engineering docs pair with code:** Confluence "provide[s] convenience of interface," but a doc like Efim's *Jackpot Rush Georgia* math concept "is forever paired with the actual XML files and framework and game pieces" once committed — surviving Confluence refactors. Update flows work either **idea-centric** (edit docs → edit code → commit both in one PR) or **code-centric** (edit code → update docs → same PR). [[raw/the_importance_of_storing_artifacts_in_git.md]]
+- **Val's resistance:** "at least 50% of our company… are Confluence comfortable and Bitbucket uncomfortable"; people won't voluntarily deposit into the repo; JVL lacks the "**culture of courtesy**" Aaron's model assumes ("we're not courteous to each other. Even with… how we say good morning") — "I don't know if you could force non-courteous people to have a courteous repository." [[raw/the_importance_of_storing_artifacts_in_git.md]]
+- **What converted Val — the QA hook:** "Actually, I think you just convinced me, because I understood what the hook is. It's the QA" — a QA engineer testing from the docs beside the code (plus the pull-request reviewer) is the enforcement mechanism that keeps docs current. [[raw/the_importance_of_storing_artifacts_in_git.md]]
+- **The live branch-discipline lesson:** "Dimitri" had committed **LFS documentation as .docx straight to main** that morning; Aaron used it to teach the flow — commit to a development branch, PR to main, reviewer flags format ("this has to be in markdown format, not doc format," fixable via pull-request commentary rather than a meeting). [[raw/the_importance_of_storing_artifacts_in_git.md]]
+
 ## Confluence whiteboard as the current diagram home (~Mar 19 2025)
 
 - By mid-March the interim state was: JVL **left Miro** ("мы же ушли от мира") and Val had emailed everyone that **"we are switching to Confluence"** — Confluence has a whiteboard — as the place for architecture diagrams, with **Mermaid** in active use for drawing (Chudinov drew his diagram in "Мермейн" — Mermaid — having been told "сейчас рисуют через Мермейн"). [[wiki/people/dmitri-chudinov.md|Dima Chudinov]] had saved his Miro exports but not yet transferred them; access reportedly requires Git accounts. (Consistent with the Feb rule that Confluence is transitional — this is the sandbox tier, while committed markdown remains the source of truth.) See [[wiki/meetings/2025-03-19-back-office-architecture-chudinov.md]]. [[raw/back_office_next_step_forward_dzima_chudinov.md]]
@@ -49,6 +59,7 @@ The Feb 28 Git check-in put these principles into practice on the **Fortune Foo 
 
 ## Sources
 
+- [[raw/the_importance_of_storing_artifacts_in_git.md]]
 - [[raw/GitHub_commit_of_LFS_demo_by_Lena_2025-02-21.md]]
 - [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]
 - [[raw/Git_progress_check_in_2025-02-28.md]]

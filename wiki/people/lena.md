@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina]
-source-count: 19
+source-count: 20
 open-commitments: 1
 ---
 
@@ -26,6 +26,10 @@ Lena leads JVL's game design / art team. She judges whether the visual quality o
 ## Game-design review (Feb 6)
 
 - Lena screen-shared her team's still-image mockups of a game with a **"Nico" cat** character on the topper — idle-with-meters → attraction mode with promo text and character animation → on-machine view — for Val's and Juan's feedback. (No animation yet; still compacts.) See [[wiki/topics/jvl-machine-lineup.md]]. [[raw/Game design meeting - February 6, 2025.md]]
+
+## Val's restructuring plan and the "Chinese wall" (Feb 10)
+
+On the GitHub-structure part-1 meeting Val named Lena the responsible owner for the **game-development GitHub organization**, described her current position as "not a producer… basically, manufacturing manager. The output manager," and stated his plan: "split Lena's responsibilities and move her to assistant or deputy game producer," appointing **Julia on land-based and Anastasia on online** in her current position — "so these two branches will start growing separately." He also drew the "Chinese wall": game production works only with the released, documented platform + Miranda — "Lena should have zero communication with you [Sasha]… I don't want Lena and you to socialize over anything"; Sasha agreed ("This is how it will be"). See [[wiki/meetings/2025-02-10-github-repo-structure-part-1.md]] and [[wiki/topics/game-production-throughput-strategy.md]]. [[raw/github _structure-pavel-aaron-andrei.md]] *(This is Val's stated plan on Feb 10, not an executed role change; by Mar 12 the same idea appears as the parallel-art-director test — see below.)*
 
 ## Git-LFS onboarding (Feb 18)
 
@@ -89,6 +93,8 @@ Her surname is given as **Zhukova** on the Feb 18 onboarding session (WEBVTT).
 - [ ] Lena — prepare a **visual storyboard** of the V-Deck bet-up incentive (escalating flame/particles on bet buttons 3/4/5) — due **next Friday** — [[raw/Game design part 2 - Feb-28-2025.md]]
 
 ## Sources
+
+- [[raw/github _structure-pavel-aaron-andrei.md]]
 
 - [[raw/fp-7_performance_analysis_january_13_2025.md]]
 - [[raw/game_design_january_16_2025.md]]

@@ -3,7 +3,7 @@ type: person
 title: Irina Makarych
 date: 2025-01-15
 aliases: [Irina Makarych, Irina, Irina Makarich]
-source-count: 6
+source-count: 7
 open-commitments: 0
 open-questions: 0
 ---
@@ -23,6 +23,10 @@ See [[wiki/topics/build-pipeline-parameterization.md]] and [[wiki/topics/test-au
 
 - On the Jan 22 South Dakota recap, the FutureLogic Gen 2 printer was said to have been tested "per Pavel and Irina" (i.e. Irina was involved in the Minsk printer testing), though Juan had not personally tested Gen 2 in the lab. See [[wiki/projects/south-dakota-vlt-market.md]]. [[raw/sd_vlt_recap-jan-22-2025.md]]
 
+## The math→game XML hand-off (late Jan–early Feb)
+
+- On the docs-in-Git session, an engineer on the call (speaker not labelled) described her standing role in the math pipeline: [[wiki/people/efim-podvoiski.md|Efim]] gives her "an XML file or description of each math of new game… and she will create XML file for game, understandable for our framework to use this math." Val guessed she was the person closest to Efim's work; the answer was no — Anton Leshkevich is. See [[wiki/meetings/2025-02-01-docs-in-git-vs-confluence.md]]. [[raw/the_importance_of_storing_artifacts_in_git.md]]
+
 ## Outstanding-subjects alignment (Feb 19)
 
 - Irina confirmed the printer testing status ("it's working" on the last build given to Juan) and analysed the **Bally iview** logs for the Georgia Peach1234 work — finding JVL sends the correct data to the machines but Bally's final report is wrong. She also prepares the **diffs document** for GLI (a file-level description of what changed and how to check it), which Val praised as essential but flagged as a double job alongside proper release notes. See [[wiki/projects/georgia-market-rollout.md]] and [[wiki/projects/south-dakota-vlt-market.md]]. [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
@@ -40,6 +44,7 @@ See [[wiki/topics/build-pipeline-parameterization.md]] and [[wiki/topics/test-au
 - [[raw/integration_and_testing_procedures_january_15_2025.md]]
 - [[raw/parameterization_in_the_development_pipeline_part_3_january_15_2025.md]]
 - [[raw/sd_vlt_recap-jan-22-2025.md]]
+- [[raw/the_importance_of_storing_artifacts_in_git.md]]
 - [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 - [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
 - [[raw/github_jira_alignment-march-31-2025.md]]

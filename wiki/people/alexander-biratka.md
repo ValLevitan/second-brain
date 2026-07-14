@@ -3,7 +3,7 @@ type: person
 title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex]
-source-count: 9
+source-count: 11
 open-commitments: 1
 open-questions: 0
 ---
@@ -29,6 +29,12 @@ Alexander Biratka (called "Sasha") is a JVL engineer, part of the Minsk engineer
 - On the Jan 16 game-design review, Sasha (with a colleague noted as "Emma") tried a new video format that improved FP7 performance slightly. [[raw/game_design_january_16_2025.md]]
 - On the Jan 17 bottleneck testing, Sasha ran the video-stream tests, found VP9 best in Chromium and VP8 in Firefox, and reproduced the same limit on his own PC with a powerful Radeon 6650 XT — showing the bottleneck is the CPU, not the GPU. He proposed upgrading to the new Pixi engine version, and is to do that upgrade (~a week). See [[wiki/decisions/2025-01-17-upgrade-omni-to-pixi-8-6.md]]. The transcript credits "Beratka" with coining the term **"manifest"** for the asset-creation guideline. [[raw/fr-7_identifying_bottlenecks_in_performance_during_testing_january_17_2025.md]]
 
+## GitHub structure homework and part-1 debate (Feb 7–10)
+
+- **Feb 7 (Friday homework session):** among the homework group ("Sasha and Andre and Aaron"); Val asked him to put his diagram into GitHub as Andrei transferred the repository from Bitbucket. See [[wiki/meetings/2025-02-07-github-homework-and-bitbucket-transfer.md]]. [[raw/GitHub repository structure.md]]
+- **Feb 10 (part 1):** Sasha presented the team's resolution — **one organization "or probably two"** (company-wide + a private one for the math sources), arguing **groups** are more flexible than organizations for rights and that mirroring Jira "didn't work out"; under Val's and Aaron's scaling challenge the meeting ended at **five organizations**. He named the shared codebases ("globally we have three projects. Lendbase, online, and server" with common libraries and people crossing projects) and dismissed the 100-directories management fear: "I'm not going to work with 100 directories all the time… we give them a group, that's it." He resisted splitting game production from platform ("If we divide the organizations, we create technical difficulties, but we do not solve the problem that you have voiced") but conceded on Lena: "This is how it will be. There are no problems" (Lena not working through him). (The "омни-платформа… по факту является игрой" example-game description in the same meeting has an unclear speaker — Pasha was asked to repeat it for Aaron — so it is not attributed to Sasha.) See [[wiki/meetings/2025-02-10-github-repo-structure-part-1.md]] and [[wiki/decisions/2025-02-11-github-org-naming-and-structure.md]]. [[raw/github _structure-pavel-aaron-andrei.md]]
+- Val's meta-criticism in that meeting: Pavel gives up his questioning too easily when Alexander answers — "clearly, Alexander is a prominent, trusted senior engineer, and we love him," but disagreement between them is "a very good instrument to finding the truth." [[raw/github _structure-pavel-aaron-andrei.md]]
+
 ## GitHub repo structure (Feb 11)
 
 - On the Feb 11 org-structure session Sasha ("Alex") argued for shorter names in the URL and, for sorting/filtering, suggested the "JVL" tag belong at the **end** of org names (Aaron/Val kept it at the front). He asked to keep repo/org names readable and confirmed the naming standard. See [[wiki/decisions/2025-02-11-github-org-naming-and-structure.md]]. [[raw/Git_repo_structure_part_2_2025-02-11.md]]
@@ -46,6 +52,8 @@ Note: the correct surname is **Biratka** (confirmed by Val). The transcripts spe
 ## Sources
 
 - [[raw/fp-7_performance_analysis_january_13_2025.md]]
+- [[raw/GitHub repository structure.md]]
+- [[raw/github _structure-pavel-aaron-andrei.md]]
 - [[raw/development_pipeline_january_13_2025.md]]
 - [[raw/ai-assisted_development_with_vs_code_git_and_mcp_january_14_2025.md]]
 - [[raw/parameterization_in_the_development_pipeline_part_1_january_15_2025.md]]

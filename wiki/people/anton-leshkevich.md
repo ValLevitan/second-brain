@@ -4,7 +4,7 @@ title: Anton Leshkevich
 date: 2025-01-21
 aliases: [Anton Leshkevich, Anton]
 disambiguation: "One of THREE distinct Antons. Anton Leshkevich = Minsk engineer (Omni/RGS, this page). Distinct from Anton Seregin (Minsk payroll, wiki/people/anton-seregin.md) and the SMM/Meta-ads contractor (wiki/people/anton-smm.md). Owner-confirmed 2026-07-13. Resolve 'Anton' by context; queue if unclear."
-source-count: 3
+source-count: 4
 open-commitments: 0
 open-questions: 0
 ---
@@ -22,6 +22,8 @@ Anton Leshkevich is a JVL Minsk engineer. He knows the Omni framework and RGS co
 - He said he can write the **environment** definition for the Omni framework himself (he used to work with that codebase); noted he recently could not set up the LGS environment because of missing dependencies and had to ask Alexander for help — used as evidence the reproducible-environment approach is worth doing. [[raw/continues_release_infrastructure_architecture_2025-01-21 1.md]]
 - Val repeatedly used Anton as the check on whether an explanation had landed ("Anton, do you understand this?"), positioning him as the team member who must be able to re-tell the plan. [[raw/continues_release_infrastructure_architecture_2025-01-21 1.md]]
 
+- **Closest person to Efim's math (late Jan–early Feb):** on the docs-in-Git session Val named him the nearest thing to redundancy on the company's most guarded asset — "I think the closest person right now is Anton Leshkevich" (to [[wiki/people/efim-podvoiski.md|Efim]]'s math work); Aaron's takeaway: then at least one other person can review what Efim commits. See [[wiki/meetings/2025-02-01-docs-in-git-vs-confluence.md]]. [[raw/the_importance_of_storing_artifacts_in_git.md]]
+
 ## History
 
 - **JVL Insights (~2023–24):** named **"Anton Leshkevich (Sr. Programmer) - Consultant"** in the JVL Insights knowledge-base proposal — to develop/integrate AI algorithms in **Python**, build front-ends in **JavaScript**, and ensure compatibility with existing **Java** applications. (Note the draft labels him a consultant; 2025 sources treat him as a JVL Minsk engineer — both recorded.) Compensation figures withheld (§15.8). See [[wiki/projects/jvl-insights-knowledge-base.md]]. [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
@@ -31,3 +33,4 @@ Anton Leshkevich is a JVL Minsk engineer. He knows the Omni framework and RGS co
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
 - [[raw/ai-assisted_development_with_vs_code_git_and_mcp_january_14_2025.md]]
 - [[raw/continues_release_infrastructure_architecture_2025-01-21 1.md]]
+- [[raw/the_importance_of_storing_artifacts_in_git.md]]

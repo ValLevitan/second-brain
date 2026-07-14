@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest]
-source-count: 18
+source-count: 20
 ---
 
 # AI-assisted development adoption
@@ -68,6 +68,17 @@ Coaching Andrei, Val described the workflow he uses himself and wants his manage
 - **Whisper file-size limit:** ~140 of Val's audio files are too large for the current endpoint (a **file-size**, not duration, limit). Aaron may build a **splitter** (convert to a byte stream, split in half); Val's interim workaround is to **stop recording at one hour** and start a new recording. [[raw/aaron_building_tools-march-21-2025.md]]
 - This transcription work is the front end of the broader knowledge-base tool — see [[wiki/topics/transcript-knowledge-base-tooling.md]] — and is the "first real tool" in the funding arrangement [[wiki/decisions/2025-03-21-fund-aaron-clayton-bespoke-ai-tools.md]]. [[raw/aaron_building_tools-march-21-2025.md]]
 
+## Workspace hygiene, key security and the "70% problem" (directory-management class, ≤Mar 21)
+
+A one-on-one where Aaron coached Val on organising his AI-tool workspace ([[wiki/meetings/2025-03-21-directory-management-class.md]]; date inferred from transcription stamp): [[raw/Class on Directory management - Aaron.md]]
+
+- **Aaron's packaged Whisper service:** he had Cline turn "the same code that it created for you, that uses FFmpeg" into a **Docker-compose "Whisper Service"** that runs persistently on his machine ("no longer running in Visual Studio Code… running all the time, waiting for me"), plus a `whisper` CLI client that can transcribe single files, videos, YouTube videos or whole directories — built because he had "hundreds and hundreds of hours of audio" to run overnight. [[raw/Class on Directory management - Aaron.md]]
+- **Val's workspace untangled:** Val's transcription work (PowerShell tools, chunk processors, batch files, Node bits, temp audio) had grown inside his **Acquire360** project directory; Aaron had Cline **split the transcription tool into its own directory**, with **TerraLogic** noted as a third separate project ("We have a mix of two different projects… don't do a three-way split. Just divide it in half"). Lesson: keep a clean workspace, know which folder VS Code has open, and clean up before initialising Git ("before you commit a bunch of potentially messy temp work to Git… do a bit of cleanup first"). [[raw/Class on Directory management - Aaron.md]]
+- **Filesystem basics:** Aaron taught the 50-year-old `.` / `..` convention (current vs parent directory) across "Unix, Linux, DOS, CPM, AIX… IBM mainframe stuff." [[raw/Class on Directory management - Aaron.md]]
+- **Key security:** a script contained "a very specific OpenAI API key" — "you should never have this embedded in a script, because if you upload this to GitHub… somebody else can use it. Good development practices mean you have to keep your keys separate from your code." Val: "But I would have never known that." [[raw/Class on Directory management - Aaron.md]]
+- **The improvement-loop trap, in Val's own words:** "Every time it runs a transcript, it suggests an improvement. I immediately agree… it implements the improvement, which just amplifies the issue… and then it compiles a bunch of shit together, and then nothing works." Aaron matched it to the **"70% problem"** article: "seniors use AI to start… juniors… use AI to learn what to do" — Val is "in a way, a very junior developer… jumping into the swimming pool." [[raw/Class on Directory management - Aaron.md]]
+- **The five-step supervision pattern (Val's homework** on the split-out transcription tool**):** create the basic implementation; ask "is this code modular?" (not one monolith); check error handling; check tests; "please write down the key decisions we've made together." [[raw/Class on Directory management - Aaron.md]]
+
 ## VS Code + MCPs, and a Unity MCP (Mar 26)
 
 - Aaron introduced a new **Unity MCP server** (one of several then appearing; a "leading one" — brand not stated). An MCP is a layer between a data source (Unity, SQL, a weather station, Jira) and the AI that presents a unified set of tools/resources; the AI can call, e.g., a `get assets` tool that reaches the Unity API and serialises assets back as text. Beyond *reading*, the Unity MCP can **set** state — create and place objects/shapes in a scene automatically — and, because it runs in VS Code with the Git repo context, could combine with **Miranda** to pull library assets and lay out scenes on request. [[raw/mcp_unity_visualcode-march-26-2025.md]]
@@ -119,6 +130,7 @@ On the Mar 31 Val-Aaron session (see [[wiki/meetings/2025-03-31-vector-db-second
 
 ## Sources
 
+- [[raw/Class on Directory management - Aaron.md]]
 - [[raw/ai-assisted_development_with_vs_code_git_and_mcp_january_14_2025.md]]
 - [[raw/development_pipeline_january_13_2025.md]]
 - [[raw/github_organization-jan-20-2025.md]]

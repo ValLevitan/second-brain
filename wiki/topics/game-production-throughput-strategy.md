@@ -4,7 +4,7 @@ title: Game production throughput strategy (Val's "much faster" push)
 date: 2025-03-12
 aliases: [developing games faster, production throughput, game a month, game a week, parallel tracks, disjoint animation, zero to GLI, production time, scaling game output]
 open-questions: 1
-source-count: 1
+source-count: 2
 ---
 
 # Game production throughput strategy (Val's "much faster" push)
@@ -41,6 +41,10 @@ Val defined "output" narrowly as **production time from requirement to commit** 
 - He predicted that **"programmers will no longer be necessary 12 months from now"** and that with the new framework JVL **"will not need integration developers"** — only "one or two people, one and a half" whom it employed for that, not expensive. He said he writes scripts himself through a "human interface" knowing nothing about programming. The combination of **Miranda + the new framework + the changed deployment cycle** is what removes the integration programmers. [[raw/developing_games_faster_michael_gottlieb_march_12-2025.md]]
 - **Just-in-time testing:** testing moves *into* integration (write test scripts from the requirements, forward-load environments) instead of a serial pass at the end; testers are kept, redeployed mid-process. [[raw/developing_games_faster_michael_gottlieb_march_12-2025.md]]
 
+## Origin — the Feb 10 two-branch plan
+
+The parallel-track idea predates the Mar 12 Gottlieb call: on the Feb 10 GitHub-structure meeting Val already stated the plan to "split [[wiki/people/lena.md|Lena]]'s responsibilities and move her to assistant or deputy game producer" and put "**Julia on LAN-based and Anastasia on online**… so these two branches will start growing separately," alongside "I am planning to put a lot of scaling into this" (a clean, separate game-development GitHub org he can drive "hard for efficiencies"). See [[wiki/meetings/2025-02-10-github-repo-structure-part-1.md]]. [[raw/github _structure-pavel-aaron-andrei.md]]
+
 ## The art-team scaling debate (parked)
 
 - Val proposed running **Anastasia and Julia** as art directors in parallel to **Lena**, each dedicated to a market (Georgia, South Dakota, a junior on Puerto Rico), leaving Lena for class-three — to multiply output. [[raw/developing_games_faster_michael_gottlieb_march_12-2025.md]]
@@ -56,5 +60,7 @@ Val defined "output" narrowly as **production time from requirement to commit** 
 - Nothing was decided — Val closed with "I'm going to think about it. We'll have another conversation on this." Whether JVL adopts the two-team split, the parallel-track/disjoint-animation model, or the junior-art-director experiment is unresolved. [[raw/developing_games_faster_michael_gottlieb_march_12-2025.md]]
 
 ## Sources
+
+- [[raw/github _structure-pavel-aaron-andrei.md]]
 
 - [[raw/developing_games_faster_michael_gottlieb_march_12-2025.md]]

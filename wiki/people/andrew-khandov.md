@@ -4,7 +4,7 @@ title: Andrew Khandov
 date: 2026-07-13
 aliases: [Andrew Khandov, Andrey Khandov, Andrey Handov, Andrei Handov]
 disambiguation: "JVL C# developer for Miranda (the product). Canonical first name 'Andrew' (owner-confirmed 2026-07-13; 'Andrey' kept as a transcript-variant alias). Distinct person from Dmitriy Khandov, JVL's Senior 3D Graphic Designer (same surname only — wiki/people/dmitriy-khandov.md); keep the confusion-risk note on both pages."
-source-count: 2
+source-count: 3
 open-commitments: 1
 open-questions: 0
 ---
@@ -23,6 +23,10 @@ Val's homework and standing rules for the Miranda work: baseline all V8 features
 
 On the Feb 21 game-design review, "Dima and Andrey" (Dima Khandov + Andrey Khandov) are named as the pair building a **primitive playable game version** that connects **Miranda to the math ("mass") server**, so Michael and Efim can play-test the real math with placeholders (no final animation). See [[wiki/topics/slot-game-design-principles.md]]. [[raw/game_design_meeting_february_21_2025.md]] (This "Andrey" is inferred to be Andrey Khandov from the "Handoff"/Khandov context; he is elsewhere paired with Dima Khandov on the game side.)
 
+## Possible family link to Dmitriy Khandov (Mar 2025, inference)
+
+- The Mar 2025 Miranda coaching session tells "Dimitri" (context-resolved to [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]) that his **dedicated Miranda developer is his dad** ("the development team, which is your dad"). Since Andrew is the owner-confirmed **C# developer for Miranda**, the inference is that **Andrew is Dmitriy Khandov's father** — same surname, so plausible, but the source never names the developer. Queued for owner confirmation; the two remain distinct people per the standing ruling. [[raw/Even more on Miranda.md]]
+
 ## Open commitments
 
 - [ ] Andrey Khandov (or the Feb 3 coachee) — baseline all V8 features on one "V8" branch and PR-merge to main; open weekly-lifespan feature branches for in-progress V9 work, each tied to a correctly-stated Jira story — due unspecified — [[raw/github_explained-feb-3-2025.md]]
@@ -31,3 +35,4 @@ On the Feb 21 game-design review, "Dima and Andrey" (Dima Khandov + Andrey Khand
 
 - [[raw/github_explained-feb-3-2025.md]]
 - [[raw/game_design_meeting_february_21_2025.md]]
+- [[raw/Even more on Miranda.md]]

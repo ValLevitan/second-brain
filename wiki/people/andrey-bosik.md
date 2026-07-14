@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre]
 disambiguation: "JVL DevOps manager. Distinct from Andrei Klimovich (online-games commercial lead) and from Andrew Khandov (C# Miranda developer). Owner-confirmed 2026-07-13. Canonical first name 'Andrey'."
-source-count: 25
+source-count: 27
 open-commitments: 5
 ---
 
@@ -41,6 +41,8 @@ Andrey Bosik is JVL's **DevOps manager** (owner ruling 2026-07-13; canonical spe
 ## JFrog and GitHub migration (Feb 6–11)
 
 - **JFrog Artifactory call (Feb 6):** attended as JVL's DevOps voice ("Andre, walk me through how you do DevOps") — described JVL's USB-stick lab-compliance deployment and probed the artifact/binary-management fit. He is keen on the artifactory build-caching angle. See [[wiki/topics/jfrog-artifactory-artifact-management.md]]. [[raw/JFrog transcript - February-6-2025.md]]
+- **Bitbucket→GitHub transfer, live (Feb 7):** on the Friday homework session Val leaned on him — "Andre, I'm working the entire weekend on learning git… I need access to github… can you do it right now?" — and Andrei **transferred the repository from Bitbucket to GitHub during the call** ("take me two minutes I transfer the repository") and was sending the invites as it ended. See [[wiki/meetings/2025-02-07-github-homework-and-bitbucket-transfer.md]]. [[raw/GitHub repository structure.md]]
+- **GitHub repo structure part 1 (Feb 10):** presented the team's one-org-leaning resolution, explained the submodule mechanics — the team uses **GitHub Apps** rather than deploy keys, though "these GitHub applications work only in one organization" (his cross-org access solution followed on Feb 11) — and took the homework to **collapse his DevOps-documentation feature branches into main via a pull request** with Sasha and Pasha as approvers. Val, in Russian, called him "красивый парень, которого я доверяю" (a good guy he trusts) while insisting the structure must not depend on trusted individuals. See [[wiki/meetings/2025-02-10-github-repo-structure-part-1.md]]. [[raw/github _structure-pavel-aaron-andrei.md]]
 - **GitHub repo structure (Feb 11):** drove the session — built the Mermaid org-structure diagram, created the JVL-prefixed organizations, and agreed to move current repos in. He argued (with Sasha) for shorter URL names and GitHub-doc lowercase conventions, but conceded to Val/Aaron's human-readable, capitalised, JVL-prefixed org names. See [[wiki/decisions/2025-02-11-github-org-naming-and-structure.md]] and [[wiki/decisions/2025-02-11-git-migration-sequence.md]]. [[raw/Git_repo_structure_part_2_2025-02-11.md]]
 
 ## GitHub access model and AI-tools rollout (Feb 12, Feb 18)
@@ -88,6 +90,9 @@ His surname is given as **Bosik** on the Feb 12 GitHub check-in (WEBVTT). (Disti
 - [ ] Andrei ("Andre") — get the Fortune Foo Paws `.github` **contact-sheet Action** working as a functional repo action (set up Git-access credentials, modify the YAML to use them) and demo it committing a Photoshop file — due by the Wednesday 9am meeting — [[raw/Git_progress_check_in_2025-02-28.md]]
 
 ## Sources
+
+- [[raw/GitHub repository structure.md]]
+- [[raw/github _structure-pavel-aaron-andrei.md]]
 
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
 - [[raw/architecture_sql_olap_visualization_1_2025-03-29.md]]
