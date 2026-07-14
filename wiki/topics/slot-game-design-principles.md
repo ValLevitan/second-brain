@@ -2,8 +2,8 @@
 type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
-aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands]
-source-count: 5
+aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin]
+source-count: 6
 open-questions: 1
 ---
 
@@ -73,6 +73,20 @@ The central argument of the Feb 21 call, which this resolves:
 - The **"hands"** display (a Georgia skill-market requirement) is **part of a common UI used across all games**, so it can be **removed cleanly** for markets like Nebraska that don't require it. [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
 - The **VDEC flame-button** treatment recurs as the skill-market bet-up cue: flame only the **highest three** bet buttons, not the first two "big bad buttons" — consistent with the Mar 7 flame spec above. [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
 
+## Nudge-event animation freeze (Mar 28)
+
+- On Peach 1 games the nudge arrows sit on a nearly-static frame, so nothing distracts. But **Peach 2** games run **particle animations across the top and bottom frame border**, which clash with the nudge event: the incorrect choice's arrow is greyed out, yet animated effects still play all around it — a "mixed message" that could hint the player toward the wrong choice. Michael's fix, adopted for design: when the nudge event initiates, **freeze all animation** except the correct arrow's sparkle ("tinkly-winklies"), then resume all animation once the player picks. Still to be seen implemented to confirm no odd behaviour. [[raw/games_design_meeting-march-28-2025.md]]
+- Schedule impact: because of this discovery, **Peach 2 takes longer** (original estimate was ~two days per game theme → the two-week figure); **Peach 3** should be back on track once the animation-freeze method is known. [[raw/games_design_meeting-march-28-2025.md]]
+- **Attract/bonus videos:** attraction videos are being updated for **FireEyes only** (not the Georgia sequence), and attraction mode is being added to **single-game mode** too. Juan changed his earlier ask — he now wants a **bonus-reveal** video (not just the free-spin video), so a new game reads as "a new game with a new feature," not "just another JBL [JVL] game," to maximize floor performance. [[raw/games_design_meeting-march-28-2025.md]]
+
+## Recycle math and mechanics, not look-and-feel (Mar 28)
+
+A design-philosophy debate that recurs across La Rosa and the Nebraska bonus (see [[wiki/topics/jvl-machine-lineup.md]] and [[wiki/projects/nebraska-skill-market.md]]):
+
+- Michael's default is to **amortize investment by reskinning** existing games — take what JVL already has and reimagine it "with the least amount of people hours." [[raw/games_design_meeting-march-28-2025.md]]
+- Val drew a **sharp line**: he is **fully for recycling the math and game mechanics** (they sit in the background, are accepted, and are cheap to reuse), but is **~70% against recycling old graphics / look-and-feel / audio** — reusing the old visuals "ages" a game, ties it to the era/style/intent it was made for, and makes it "a non-transportable item" when moving to a new market. [[raw/games_design_meeting-march-28-2025.md]]
+- **Conceptual continuity in naming.** Michael's rule that a bonus's **name should be evocative of the visuals on screen** decided the Nebraska bonus: with **corn on the coin and corn stalks**, "Golden Husk" fits, whereas "Buffalo Bounty / Bison Bucks" would read as strange (no buffalo on screen). "Buffalo" was also rejected because it evokes **Aristocrat's** top-five game **Buffalo**, and a bison isn't worth building/animating. See the Golden Husk naming on [[wiki/projects/nebraska-skill-market.md]]. [[raw/games_design_meeting-march-28-2025.md]]
+
 ## Open questions
 
 - Should JVL scale the **progressive value to denomination** (Val's view) or keep it flat and only *signal* higher-RTP denominations visually (the industry norm Michael/Efim defend)? Recorded as an **open product debate** — Val's opinion is logged, nothing is changed to the base math. [[raw/game_design_meeting_march_7_2025.md]]
@@ -85,3 +99,4 @@ The central argument of the Feb 21 call, which this resolves:
 - [[raw/Game design part 2 - Feb-28-2025.md]]
 - [[raw/game_design_meeting_march_7_2025.md]]
 - [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
+- [[raw/games_design_meeting-march-28-2025.md]]

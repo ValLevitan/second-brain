@@ -3,7 +3,8 @@ type: person
 title: Eugine Yavorski
 date: 2025-02-18
 aliases: [Eugine Yavorski, Evgeny Yavorsky, Yavorski, Yavorsky, Яворский, Evgeny, Yevgeny, Zhenya, Женя, Евгений]
-source-count: 7
+source-count: 8
+open-commitments: 1
 ---
 
 # Eugine Yavorski
@@ -34,6 +35,14 @@ Name confirmed by Val as **Eugine Yavorski** (the Mar 11 transcript renders it "
 
 - Now working **full-time** for JVL (Val: "Женя сейчас фулл-тайм работает"), which Val treats as removing the timezone excuse — he wants Yavorski to pair with the back-end "Dima" ([[wiki/people/dmitri-chudinov.md|Chudinov]]) on FlexPort **daily** (Yavorski can work 7–10am while Dima is available). The remaining FlexPort issue: **cash-out succeeds only once** per ticket (credits leave the gaming machine but don't get credited back to the ticket on repeat). Yavorski is to reproduce it right after the meeting and hand fresh logs to Dima. See [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]]. [[raw/Embedded_Group_alignment_and_update_2025-03-25.md]]
 
+## FlexPay TITO scope-gap (Mar 28)
+
+- On the Mar-28 TITO meeting Yavorski (Евгений) was assigned the **WSS-protocol implementation** for the new TITO/SAS-server work: he agreed to read the WSS protocol over the weekend and report Monday on how long it would take, estimating **~two weeks**. He asked for a **test machine** to develop against; the plan is for Pavel to instruct the setup remotely and send him the IGT SAS-emulator utility (with "Ira" or "Vlad" helping find the RS-232 port). See [[wiki/decisions/2025-03-28-flexpay-support-tito-non-jvl-locations.md]] and [[wiki/meetings/2025-03-28-flexpay-tito-scope-gap.md]]. [[raw/scope_gap_tito_flex_pay-march-28-2025.md]]
+
+## Open commitments
+
+- [ ] Eugine Yavorski — read the FlexPay↔FlexPort **WSS protocol** over the weekend, report the effort estimate Monday, then implement the TITO extension — due Monday (report) — [[raw/scope_gap_tito_flex_pay-march-28-2025.md]]
+
 ## Sources
 
 - [[raw/Embedded_Group_alignment_and_update_2025-02-18.md]]
@@ -43,3 +52,4 @@ Name confirmed by Val as **Eugine Yavorski** (the Mar 11 transcript renders it "
 - [[raw/Flex-port-update-March-17-2025.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-03-18.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-03-25.md]]
+- [[raw/scope_gap_tito_flex_pay-march-28-2025.md]]

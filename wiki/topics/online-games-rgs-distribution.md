@@ -2,8 +2,8 @@
 type: topic
 title: Online games / RGS distribution business
 date: 2025-01-30
-aliases: [online games, RGS distribution, EveryMatrix, RGS Matrix, Brazil market, iGaming, certification economics, revenue share, MaxBet, JVL Marketplace, marketplace, platform services, Golden Palace, Digitain, Hub88, BetConstruct, wallet, account manager, Platipus, Endorphina, SlotCatalog, Microgaming, NetEnt, Netflix for games]
-source-count: 5
+aliases: [online games, RGS distribution, EveryMatrix, RGS Matrix, Brazil market, iGaming, certification economics, revenue share, MaxBet, JVL Marketplace, marketplace, platform services, Golden Palace, Digitain, Hub88, BetConstruct, wallet, account manager, Platipus, Endorphina, SlotCatalog, Microgaming, NetEnt, Netflix for games, stealth launch, JVL Netflix, arbitrage]
+source-count: 6
 ---
 
 # Online games / RGS distribution business
@@ -70,6 +70,18 @@ On the Mar 12 2025 "developing games faster" call, [[wiki/people/michael-gottlie
 - **Margins don't work:** online **RTPs run ~96%**, and the number of spins needed to grind out profit is enormous (he cited a **Village People** game he built); land-based margins are far better. He likened it to sports betting, which needs ~10x the volume for the same money. [[raw/developing_games_faster_michael_gottlieb_march_12-2025.md]]
 - **Val's counter (30%):** Val agreed ~70% but kept alive a **"Netflix for games" digital-distribution** idea — a JVL platform where operators **rent** or hold a **membership** for seamless RGS integration instead of buying games — while conceding 70% might be enough to "step away and stop burning money." He framed JVL's real edge as its **licenses and relationships** in physical territories. This aligns with the earlier ruling that land-based is the priority: [[wiki/decisions/2025-02-01-online-games-derive-from-land-based-mechanics.md]]. [[raw/developing_games_faster_michael_gottlieb_march_12-2025.md]]
 
+## The "JVL Netflix" stealth-launch platform vision (Mar 28)
+
+A short two-person conversation fleshed out Val's **"Netflix for games"** idea (first raised Mar 12) into a concrete build plan for an **independent games-distribution platform**. Speaker other than Val is unidentified — see [[wiki/meetings/2025-03-28-jvl-netflix-platform-vision.md]]. [[raw/jvl_netflix-march-28-2025.md]]
+
+- **Independent, not first-party (the Steam lesson).** The other speaker noted **Electronic Arts, Activision, Epic** all built their own Steam-equivalents on *better* terms than Steam, yet players stayed with Steam **because it is independent** and already had the inertia/variety of many publishers — likened to **Disney+** being all-Disney when players "want non-Disney things too." The catch that makes JVL's platform work: **open it to other developers** and make it "uber easy" for them to place their games. [[raw/jvl_netflix-march-28-2025.md]]
+- **Stealth-seed then launch.** Val's method: **before launch, quietly seed the platform with JVL's own games** so it isn't empty, keep it secret (if it leaks, competitors will jump in and dilute the market), **build and test** the system, then **raise a lot of money and advertise heavily** so no competitor can pivot in. Then open it to **other publishing houses** and to **online casinos**, with an easy publishing mechanism. [[raw/jvl_netflix-march-28-2025.md]]
+- **Business model = arbitrage.** Anyone can operate their games **"at cost"** on JVL's platform; JVL's profit comes from the **arbitrage** — it is cheaper for small operators to run on JVL's platform than to build/run their own on Amazon/AWS. JVL funds it early for developers and counts on the arbitrage over the longer term. [[raw/jvl_netflix-march-28-2025.md]]
+- **Team (12-month objective):** an **art director, a full-stack engineer, a QA engineer, a game producer, and a business developer**. [[raw/jvl_netflix-march-28-2025.md]]
+- **Physical-floor tie-in turns the CMS into an asset.** The platform's **top-performing games** (e.g. a top-10 that could rotate monthly) from *other* publishers get hand-picked and packaged onto **JVL's physical casino machines** (which JVL bills to operate in casinos under existing contracts) — giving those publishers real-floor exposure plus a **cut of the machine-operating profits**. In exchange JVL **shares play data** (who played what, cross-market insight) with publishers and operators. This makes the back-office **CMS** "a revenue-producing thing" rather than a liability. Val's framing: with "the old JVL… the food is emptying out of the fridge," JVL must put its own games on the platform because "that's where we're putting our bets." [[raw/jvl_netflix-march-28-2025.md]]
+
+This extends the Feb-1 JVL Marketplace concept (Andrei Klimovich) and Val's Mar-12 "Netflix for games" counter above; it remains a **vision — nothing was decided or resourced** in this call.
+
 ## Sources
 
 - [[raw/Recap with Andrei Klimovich - January 30, 2025.md]]
@@ -77,3 +89,4 @@ On the Mar 12 2025 "developing games faster" call, [[wiki/people/michael-gottlie
 - [[raw/recap_meeting_andrei-February-21-2025.md]]
 - [[raw/meeting_summary_andrei_klimovich-Feb-27-2025.md]]
 - [[raw/developing_games_faster_michael_gottlieb_march_12-2025.md]]
+- [[raw/jvl_netflix-march-28-2025.md]]

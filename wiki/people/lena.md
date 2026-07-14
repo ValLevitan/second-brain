@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina]
-source-count: 17
+source-count: 18
 open-commitments: 1
 ---
 
@@ -76,6 +76,10 @@ Her surname is given as **Zhukova** on the Feb 18 onboarding session (WEBVTT).
 
 - On Andrei's template-repo demo, Lena gave the key **"when to update the template" signal**: when there's a **new reusable script** useful across all games. She also mapped the future to **per-game-type templates** — a base template now, then dedicated templates for **Georgia / Omnia framework games**, **Persistence games**, and **classical games**, each with structure appropriate to that game mechanic. See [[wiki/topics/graphics-team-git-workflow.md]]. [[raw/github_commits-march-26-2025.md]]
 
+## Game-design review (Mar 28)
+
+- As **art director** Lena presented and defended the Peach-4 reskin art: **La Rosa** (Pink Princess assets repainted — purse, pumps, luxury car, hacienda), noting the team reused Pink Princess's 3D models to save "a couple of weeks." She agreed to redo the male lead's haircut/face and pointed out how much rework a full symbol change ("paper game") would cost. She is implementing the **nudge animation-freeze** on Peach 2 and updating **FireEyes** attraction videos + single-game attraction mode. She is to decide the **5X Peppers vs 5X Pimentos** naming. Her team remains the release bottleneck. See [[wiki/topics/slot-game-design-principles.md]] and [[wiki/topics/jvl-machine-lineup.md]]. [[raw/games_design_meeting-march-28-2025.md]]
+
 ## Open commitments
 
 - [ ] Lena — prepare a **visual storyboard** of the V-Deck bet-up incentive (escalating flame/particles on bet buttons 3/4/5) — due **next Friday** — [[raw/Game design part 2 - Feb-28-2025.md]]
@@ -99,3 +103,4 @@ Her surname is given as **Zhukova** on the Feb 18 onboarding session (WEBVTT).
 - [[raw/GitHub_for_Graphic_Design_evolution_2025-03-12.md]]
 - [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
 - [[raw/github_commits-march-26-2025.md]]
+- [[raw/games_design_meeting-march-28-2025.md]]

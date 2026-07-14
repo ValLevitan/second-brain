@@ -2,8 +2,8 @@
 type: topic
 title: FlexPay mobile app and service advocates
 date: 2026-07-12
-aliases: [FlexPay mobile app, service advocate, service advocates, whale, whale UI, Incom]
-source-count: 11
+aliases: [FlexPay mobile app, service advocate, service advocates, whale, whale UI, Incom, TITO, SMIB, SAS server, FlexServer]
+source-count: 12
 ---
 
 # FlexPay mobile app and service advocates
@@ -49,6 +49,8 @@ The **FlexPay** payment product itself is confirmed progressing — the Jan 24 2
 
 - **Embedded group (Mar 25):** the FlexPort↔FlexPay bring-up continued with two durable symptoms. (1) **Cash-out works only once** per ticket: on the setup [[wiki/people/eugine-yavorski.md|Yavorski]] runs, money is removed from the gaming machine but is **not re-credited to the ticket** on a second attempt (the machine debits, but FlexPay never sees it). (2) **FlexPort still hangs** — [[wiki/people/pavel.md|Pavel]] suspects a **collision when two async messages** (e.g. a ping and a new command like a barcode/ticket check) are sent at nearly the same time; his fix idea is to **queue outgoing messages in a pool** so they go one-by-one, and to hold one back if two arrive together. The prior "hangs during the night" freeze is reported **mostly fixed** — progress. A **QR-scanner motion-detection** quirk was raised by [[wiki/people/genadi-peari.md|Genadi]] (it only scans when it detects movement, sometimes going unresponsive after sitting idle). **Process:** with the April expo approaching, Val insisted on **live working meetings** (Yavorski now full-time, pairing daily with the back-end "Dima"/[[wiki/people/dmitri-chudinov.md|Chudinov]] on fresh logs) rather than only async chat. See [[wiki/meetings/2025-03-25-embedded-group-flexport-flexpay.md]]. [[raw/Embedded_Group_alignment_and_update_2025-03-25.md]]
 
+- **TITO for non-JVL locations — scope gap (Mar 28):** a new requirement extends FlexPay beyond JVL's own machines: **issue and validate TITO tickets** at locations with **no JVL machines** (e.g. five non-JVL machines running on TITO). The MVP puts **FlexPort inside each machine as a SMIB** (SAS port ↔ CAT6/router ↔ FlexPay) and adds a **"Flex SAS server"** proxy split between FlexPort and FlexPay, converting **SAS ↔ the existing WSS/VCC protocol** with at least one new "issue ticket" command. Blocker on the cheaper adapter route: SAS needs **9-bit** serial and most Ethernet-to-RS232 adapters do only 8-bit. Legal limit reaffirmed: **only winnings** (not inserted "Money In") convert to a card, though on a TITO ticket all money through the machine is redeemable. [[wiki/people/pavel.md|Pavel]] designed it, [[wiki/people/dmitri-chudinov.md|Dima Chudinov]] to supply the SAS command list, [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] to implement the WSS side (~2 weeks). Full detail on [[wiki/decisions/2025-03-28-flexpay-support-tito-non-jvl-locations.md]] and [[wiki/meetings/2025-03-28-flexpay-tito-scope-gap.md]]. [[raw/scope_gap_tito_flex_pay-march-28-2025.md]]
+
 ## Sources
 
 - [[raw/mobile_app_advocate_persona_profile_january_13_2025.md]]
@@ -62,3 +64,4 @@ The **FlexPay** payment product itself is confirmed progressing — the Jan 24 2
 - [[raw/Embedded_Group_alignment_and_update_2025-03-18.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-03-25.md]]
 - [[raw/flex_pay_production-march-27-2025.md]]
+- [[raw/scope_gap_tito_flex_pay-march-28-2025.md]]

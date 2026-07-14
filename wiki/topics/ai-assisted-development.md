@@ -2,8 +2,8 @@
 type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
-aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7]
-source-count: 12
+aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower]
+source-count: 13
 ---
 
 # AI-assisted development adoption
@@ -82,6 +82,15 @@ Coaching Andrei, Val described the workflow he uses himself and wants his manage
 - **OpenAI adopts MCP:** Aaron noted OpenAI had just announced it will incorporate **MCP** into all its products (adopting the Model Context Protocol as its tool-use standard) and had significantly improved its image generator; he demoed GPT-4o's precise image generation (a dimensionally-correct fence elevation from a prompt). Val remarked he now uses natural language for ~**60–80%** of his tasks. [[raw/OpenWebUI_aaron_march-27-2025.md]]
 - **The good-vs-bad MCP lesson:** Aaron taught three levels of MCP-server design using JIRA as the example — (1) a **lazy** MCP that just exposes each raw API endpoint as its own tool (100 endpoints → 100 tools); (2) a **consolidated** tool (e.g. one "manage JIRA issue" tool with transition/comment/edit sub-operations); (3) a **stateful** server that remembers context and offers the AI a suggestion (e.g. "you last searched this JQL — save it as a filter?") so the AI just says "yes" instead of regenerating everything. A good MCP does the work internally in the developer's best order; a bad one forces the user to read the docs and think through every step. [[raw/OpenWebUI_aaron_march-27-2025.md]]
 
+## Open WebUI — the Docker/CUDA install session (Mar 26)
+
+A separate, earlier hands-on session shows the **installation** of Open WebUI that the Mar-27 configuration tour (above) then built on. [[wiki/people/aaron.md|Aaron]] screen-shared and walked [[wiki/people/val-levitan.md|Val]] through standing it up on Val's laptop; see the date note on [[wiki/meetings/2025-03-26-aaron-knowledge-visualization-openwebui.md]]. [[raw/aaron_visualization_making_use_of_knowledge-march-28-2025.md]]
+
+- **Setup mechanics:** Aaron shared a GitHub **gist**; they created a `Docker/OpenWebUI` folder, ran **`git init`** (Aaron using the moment to teach Val what a Git repo is via `ls -la` / the `.git` directory), opened **VS Code**, created a **`docker-compose.yaml`** (first mis-named `.yml`, then renamed), pasted the gist (removing the `version:` line), and ran **`docker compose up -d`** (detached). [[raw/aaron_visualization_making_use_of_knowledge-march-28-2025.md]]
+- **The compose file:** pulls the **`open-webui:cuda`** image (the GPU-accelerated build); container name **OpenWebUI**, **restart-unless-stopped**; a Docker-managed volume **`OpenWebUIData`** mapped to **`/app/backend/data`** for persistent data; env `NVIDIA_VISIBLE_DEVICES=all`. **Watchtower** keeps the image auto-updated. It is a **~3 GB+** open-source image needing no payment/licensing. [[raw/aaron_visualization_making_use_of_knowledge-march-28-2025.md]]
+- **Why the GPU:** loading documents into **Retrieval-Augmented Generation / a vector database** is computationally intensive (every document is decomposed and the relative scores of all its words computed), so they installed the **NVIDIA Container Toolkit** + **CUDA drivers** (`cuda-toolkit`) and configured Docker's NVIDIA runtime, to use the laptop's built-in GPU; a reboot was needed after the driver install. [[raw/aaron_visualization_making_use_of_knowledge-march-28-2025.md]]
+- **Hosting angle:** Aaron noted this is the kind of service that might run better in **a more central location than the laptop** — Val could ask **"Andrea"** (transcribed; likely [[wiki/people/andrey-bosik.md|Andrei Bosik]], DevOps — flagged) to set it up in JVL's **AWS cluster or Azure** — consistent with the Mar-27 multi-user / Active-Directory deployment idea above. [[raw/aaron_visualization_making_use_of_knowledge-march-28-2025.md]]
+
 ## Connection to the pipeline debate
 
 - Val explicitly linked adopting Git-native, AI-friendly practices to resolving the ISO build-pipeline problem: a natural-language/AI interface should be a standard part of a pipeline built to last 10 years. See [[wiki/topics/build-pipeline-parameterization.md]]. [[raw/development_pipeline_january_13_2025.md]]
@@ -101,3 +110,4 @@ Coaching Andrei, Val described the workflow he uses himself and wants his manage
 - [[raw/aaron_building_tools-march-21-2025.md]]
 - [[raw/mcp_unity_visualcode-march-26-2025.md]]
 - [[raw/OpenWebUI_aaron_march-27-2025.md]]
+- [[raw/aaron_visualization_making_use_of_knowledge-march-28-2025.md]]

@@ -2,8 +2,8 @@
 type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
-aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge]
-source-count: 6
+aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze]
+source-count: 7
 open-questions: 3
 ---
 
@@ -56,6 +56,11 @@ JVL's core land-based market — the conventional **Georgia co-op / COAM** busin
 - On the Mar 24 markets call, Val noted the Georgia system providers include **Win Systems** and **Access**, both on the standard **SAS 6.0** protocol; JVL verified full **SAS compatibility** with the Georgia system a few weeks earlier — relevant because the same systems (or Access specifically) may appear in Nebraska/Puerto Rico. [[raw/games_markets-march-24-2025.md]]
 - **Peach 1** revision / nudge-enhancement items were mostly closed and on track for completion by month-end (Michael reviewing). The Peach bonus is being reskinned with a corn-stalk theme for Nebraska (see [[wiki/projects/nebraska-skill-market.md]]). [[raw/games_markets-march-24-2025.md]]
 
+## Peach 2 nudge-freeze and Peach 4 reskins (Mar 28)
+
+- On the Mar 28 game-design review, **Peach 1** revision was awaiting Juan's review (he planned to go into the office the following Tuesday). **Peach 2** got a new **nudge animation-freeze** requirement — its games run particle animations on the frame border that clash with the nudge arrows, so all animation now freezes during a nudge event except the correct arrow; this makes **Peach 2 longer** but **Peach 3** should be back on track. See [[wiki/topics/slot-game-design-principles.md]]. [[raw/games_design_meeting-march-28-2025.md]]
+- **Peach 4** remains **uncommitted / undeployed** — its games (**La Rosa**, **El Jaguar**, **5X Peppers**, **Cold Cash**) are the testbed for reskinning existing games (details on [[wiki/topics/jvl-machine-lineup.md]]). Games ship as **packs of six**. [[raw/games_design_meeting-march-28-2025.md]]
+
 ## Open questions
 
 - Was routing Jackpot Rush / JPRE for Georgia onto the **old framework** (curved cabinet) a deliberate plan or an oversight? Val said he didn't recall discussing it and parked it for a later meeting. [[raw/game_design_meeting_march_7_2025.md]]
@@ -70,3 +75,4 @@ JVL's core land-based market — the conventional **Georgia co-op / COAM** busin
 - [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
 - [[raw/doug_update_jvl-march-23-2025.md]]
 - [[raw/games_markets-march-24-2025.md]]
+- [[raw/games_design_meeting-march-28-2025.md]]
