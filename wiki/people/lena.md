@@ -2,8 +2,8 @@
 type: person
 title: Lena
 date: 2026-07-12
-aliases: [Lena, Lena Zhukova]
-source-count: 12
+aliases: [Lena, Lena Zhukova, Laina, Elina]
+source-count: 16
 open-commitments: 1
 ---
 
@@ -55,6 +55,23 @@ Her surname is given as **Zhukova** on the Feb 18 onboarding session (WEBVTT).
 
 - Lena's team is the release **bottleneck** that drives the staged four-package "Peach" release plan for Georgia (she can't implement all game changes at once). She was working on the **denomination screen** and the V-Deck this week and will change the **"insert money"** warning on the no-credit screen. She is one of the **final sign-offs** (with Michael and Juan) — machines must be shipped to her from the Georgia assembly floor (office or home) so she validates the final assembled product, not a rack. The **V-Dec / GNOME (keynote) buttons** and future Georgia "flex curve" development are the next meeting's objectives. See [[wiki/decisions/2025-03-07-final-signoff-on-assembled-machines.md]] and [[wiki/projects/georgia-market-rollout.md]]. [[raw/game_design_meeting_march_7_2025.md]]
 
+## Animation-process walkthrough (Mar 12)
+
+- Lena gave Val a full step-by-step explanation of how JVL turns a concept into finished art and animation, as **art director**: she takes Michael's emailed vision, produces the **fundamentals** comp art first, then designs animations (**storyboards** for complex ones, **verbal descriptions** for simple ones), and only works on animation **after the final comp art** (it's a production, not a design, activity). She detailed the **3D→Blender / illustration→Spine** tool choice, the **After Effects** post-production, and assembly of placeholder and animated symbols inside **Miranda**. See [[wiki/topics/game-art-animation-production-pipeline.md]]. [[raw/Game Development How animation are made with Lena - March 12-2025.md]]
+- She noted **Juan wants some symbols changed to Mexican symbols** in the Peach games (transcribed "Pitch 4") because there are many Mexican workers in Georgia — a "very important" cultural-market feedback she values. [[raw/Game Development How animation are made with Lena - March 12-2025.md]]
+
+## Art-team scaling debate (Mar 12, on the Gottlieb call)
+
+- Val proposed making **Anastasia and Julia** parallel art directors alongside Lena to multiply output; Michael defended Lena as the one who **consistently makes better decisions** ("her sensibility is outstanding"), gives **top-line direction and lets the team run** (not a control freak), and must at least **review** all games. The compromise was to test the theory on a Mexican-theme comp art (5X Peppers / Pink Princess → "La Rosa"). See [[wiki/topics/game-production-throughput-strategy.md]]. [[raw/developing_games_faster_michael_gottlieb_march_12-2025.md]]
+
+## GitHub for graphic design (Mar 12)
+
+- Lena raised the **PSD-commit conflict** problem and asked **when to create a repo for a new game** (e.g. **Cache Kittens**) given Michael/Juan/Yefim aren't on Git yet (design still in **Zephyr**). Val/Aaron told her to **start the repo now and "fake the review"** via Julia/Anastasia or Dima Khandov, and to fork new games from a generic template Andrei will build. See [[wiki/topics/graphics-team-git-workflow.md]] and [[wiki/decisions/2025-03-12-fork-game-repos-from-generic-template.md]]. (Also confirmed **Heat Game 6** and **Georgia** are the urgent side projects, with Natasha continuing Georgia while Lena returns to FFP.) [[raw/GitHub_for_Graphic_Design_evolution_2025-03-12.md]]
+
+## Nebraska skill market (Mar 14)
+
+- Lena confirmed the **"hands" is part of the common UI** used in all games and can simply be removed for the no-hands Nebraska build, and helped work through the software approach (revert to conservative nudge, keep the other enhancements). See [[wiki/projects/nebraska-skill-market.md]]. (The transcript also renders a "Elina" in this call — inferred to be Lena or Irina; kept ambiguous.) [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
+
 ## Open commitments
 
 - [ ] Lena — prepare a **visual storyboard** of the V-Deck bet-up incentive (escalating flame/particles on bet buttons 3/4/5) — due **next Friday** — [[raw/Game design part 2 - Feb-28-2025.md]]
@@ -73,3 +90,7 @@ Her surname is given as **Zhukova** on the Feb 18 onboarding session (WEBVTT).
 - [[raw/Game design part 2 - Feb-28-2025.md]]
 - [[raw/Git_progress_check_in_2025-02-28.md]]
 - [[raw/game_design_meeting_march_7_2025.md]]
+- [[raw/Game Development How animation are made with Lena - March 12-2025.md]]
+- [[raw/developing_games_faster_michael_gottlieb_march_12-2025.md]]
+- [[raw/GitHub_for_Graphic_Design_evolution_2025-03-12.md]]
+- [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]

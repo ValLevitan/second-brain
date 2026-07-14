@@ -2,8 +2,8 @@
 type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
-aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP]
-source-count: 4
+aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands]
+source-count: 5
 open-questions: 1
 ---
 
@@ -67,6 +67,12 @@ The central argument of the Feb 21 call, which this resolves:
 - Val and Juan want the **Kai-Ocho** ("Kaiocho"/"gaiocho"/"Caglioccio") **Hold-and-Respin bonus music** changed — the 80s electronic techno clashes with the gentle salsa main-game music. Michael chose it intentionally (low-energy background so the player focuses on the diamonds being hit) but agreed to source **three or four audio samples**; the music must be **neutral** across the whole "Firelink" family (Roosters, Kai-Ocho, Dragons of Rain, Radio Queen). Changing an audio file changes the master checksum, but for online games the rules are relaxed and JVL can tell GLI/the lab to re-check **only** the audio for a quick turnaround. [[raw/game_design_meeting_march_7_2025.md]]
 - A **stutter / frame-freeze** defect on Kai-Ocho (main screen and during the bonus) that wasn't caught before shipping drove a durable **sign-off decision** — games must be validated on **final assembled machines**, not open racks/PCs. See [[wiki/decisions/2025-03-07-final-signoff-on-assembled-machines.md]]. An "Anton" (transcribed **"Anton Mishkevich"**) is credited with resolving earlier performance issues. [[raw/game_design_meeting_march_7_2025.md]]
 
+## Skill-market "nudge" presentation and the "hands" feature (Mar 14)
+
+- JVL's skill games have **two presentations of the nudge feature**: a **conservative** one (the current/older presentation) and an **enhanced/advanced** one (matching what competitors are introducing). The two can be swapped in software — the Nebraska build reverts to the conservative nudge while keeping the other feature enhancements. See [[wiki/projects/nebraska-skill-market.md]]. [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
+- The **"hands"** display (a Georgia skill-market requirement) is **part of a common UI used across all games**, so it can be **removed cleanly** for markets like Nebraska that don't require it. [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
+- The **VDEC flame-button** treatment recurs as the skill-market bet-up cue: flame only the **highest three** bet buttons, not the first two "big bad buttons" — consistent with the Mar 7 flame spec above. [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
+
 ## Open questions
 
 - Should JVL scale the **progressive value to denomination** (Val's view) or keep it flat and only *signal* higher-RTP denominations visually (the industry norm Michael/Efim defend)? Recorded as an **open product debate** — Val's opinion is logged, nothing is changed to the base math. [[raw/game_design_meeting_march_7_2025.md]]
@@ -78,3 +84,4 @@ The central argument of the Feb 21 call, which this resolves:
 - [[raw/Game design part 1 - Feb-28-2025.md]]
 - [[raw/Game design part 2 - Feb-28-2025.md]]
 - [[raw/game_design_meeting_march_7_2025.md]]
+- [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]

@@ -2,8 +2,8 @@
 type: topic
 title: Online games / RGS distribution business
 date: 2025-01-30
-aliases: [online games, RGS distribution, EveryMatrix, RGS Matrix, Brazil market, iGaming, certification economics, revenue share, MaxBet, JVL Marketplace, marketplace, platform services, Golden Palace, Digitain, Hub88, BetConstruct, wallet, account manager, Platipus, Endorphina]
-source-count: 4
+aliases: [online games, RGS distribution, EveryMatrix, RGS Matrix, Brazil market, iGaming, certification economics, revenue share, MaxBet, JVL Marketplace, marketplace, platform services, Golden Palace, Digitain, Hub88, BetConstruct, wallet, account manager, Platipus, Endorphina, SlotCatalog, Microgaming, NetEnt, Netflix for games]
+source-count: 5
 ---
 
 # Online games / RGS distribution business
@@ -61,9 +61,19 @@ Andrei Klimovich mapped the full stack of turnkey services an online-casino plat
 
 - An **Amazon consumer device** (marketed for man-caves / game rooms) and a **data-collection project ("Norcross"/"North Cross")** using Anthropic were reported by Andrei Klimovich in the same recap — captured on his person page. See [[wiki/people/andrei-klimovich.md]]. [[raw/Recap with Andrei Klimovich - January 30, 2025.md]]
 
+## Michael Gottlieb's "online is unwinnable" assessment (Mar 12)
+
+On the Mar 12 2025 "developing games faster" call, [[wiki/people/michael-gottlieb.md|Michael Gottlieb]] gave [[wiki/people/val-levitan.md|Val]] a blunt argument that JVL cannot make money in the online space, drawing on his time working for a top provider. [[raw/developing_games_faster_michael_gottlieb_march_12-2025.md]]
+
+- **It's a flooded, no-barrier market:** the top-tier players release around **20 games a month**, of which maybe **one sticks** — "they throw a lot of crap against the wall." A newcomer coming from outside "ends up on the bottom of the list" no matter how good the game is. [[raw/developing_games_faster_michael_gottlieb_march_12-2025.md]]
+- **Providers secretly own the casinos:** many online game providers **also own the online casinos** (he named **Bet88**, **Casino Stars**, **Jackpot Winners** as re-skinned front ends run off the same servers in **Malta**); they promote their own products, share player data across their casinos, and target incentives to retain players — "the game is rigged." He said he saw this firsthand at the **Isle of Man**. **Microgaming** allegedly owns **17 studios** and **40 or 50 online casinos** (with **"for the win"** among the studios) without acknowledging it; the company was privately owned by "**Martin Moshal**." **SlotCatalog.com** is the tool that reveals top products and who's behind them. [[raw/developing_games_faster_michael_gottlieb_march_12-2025.md]]
+- **Margins don't work:** online **RTPs run ~96%**, and the number of spins needed to grind out profit is enormous (he cited a **Village People** game he built); land-based margins are far better. He likened it to sports betting, which needs ~10x the volume for the same money. [[raw/developing_games_faster_michael_gottlieb_march_12-2025.md]]
+- **Val's counter (30%):** Val agreed ~70% but kept alive a **"Netflix for games" digital-distribution** idea — a JVL platform where operators **rent** or hold a **membership** for seamless RGS integration instead of buying games — while conceding 70% might be enough to "step away and stop burning money." He framed JVL's real edge as its **licenses and relationships** in physical territories. This aligns with the earlier ruling that land-based is the priority: [[wiki/decisions/2025-02-01-online-games-derive-from-land-based-mechanics.md]]. [[raw/developing_games_faster_michael_gottlieb_march_12-2025.md]]
+
 ## Sources
 
 - [[raw/Recap with Andrei Klimovich - January 30, 2025.md]]
 - [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
 - [[raw/recap_meeting_andrei-February-21-2025.md]]
 - [[raw/meeting_summary_andrei_klimovich-Feb-27-2025.md]]
+- [[raw/developing_games_faster_michael_gottlieb_march_12-2025.md]]

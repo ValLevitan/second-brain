@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie]
-source-count: 23
+source-count: 24
 ---
 
 # Aaron
@@ -70,6 +70,10 @@ His surname is given as **Bockelie** on the Jan 21 continuous-delivery transcrip
 
 - Aaron co-led (with Val, in English, via a "Dima" translating) a long teaching session pushing the Minsk team toward **persona-driven, interview-based requirements** for JVL's planned new operations **orchestration platform** — reinforcing the "understand the customer, don't just re-build the software you have" theme and his earlier "you can't write monolithic software that way" point. He probed how the team gauges "feasibility medium / error cost low" tags on the reformatted persona. See [[wiki/topics/persona-driven-design-and-orchestration-platform.md]]. [[raw/persona_development_journey_meeting_with_minsk-2025-03-10.md]]
 
+## GitHub for graphic design check-in (Mar 12)
+
+- Aaron handled the designers' **PSD-conflict** complaint (separate branches with separate files shouldn't truly conflict; the contact-sheet Action just runs twice on `main` — fix the script, don't debug it live with eight people) and pushed the rule that broken tooling goes into the **help-desk queue as a ticket**, connected to the PR/commit, not saved for meetings ("everybody is made the same"). He and Val told [[wiki/people/lena.md|Lena]] to **start the new-game repo now and "fake the review"** via a colleague, and to **fork from a generic template** (which [[wiki/people/andrey-bosik.md|Andrei]] must build). See [[wiki/topics/graphics-team-git-workflow.md]] and [[wiki/decisions/2025-03-12-fork-game-repos-from-generic-template.md]]. [[raw/GitHub_for_Graphic_Design_evolution_2025-03-12.md]]
+
 ## Sources
 
 - [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]
@@ -95,3 +99,4 @@ His surname is given as **Bockelie** on the Jan 21 continuous-delivery transcrip
 - [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]
 - [[raw/Git_progress_check_in_2025-02-28.md]]
 - [[raw/persona_development_journey_meeting_with_minsk-2025-03-10.md]]
+- [[raw/GitHub_for_Graphic_Design_evolution_2025-03-12.md]]

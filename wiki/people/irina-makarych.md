@@ -3,7 +3,7 @@ type: person
 title: Irina Makarych
 date: 2025-01-15
 aliases: [Irina Makarych, Irina, Irina Makarich]
-source-count: 4
+source-count: 5
 open-commitments: 0
 open-questions: 0
 ---
@@ -27,9 +27,14 @@ See [[wiki/topics/build-pipeline-parameterization.md]] and [[wiki/topics/test-au
 
 - Irina confirmed the printer testing status ("it's working" on the last build given to Juan) and analysed the **Bally iview** logs for the Georgia Peach1234 work — finding JVL sends the correct data to the machines but Bally's final report is wrong. She also prepares the **diffs document** for GLI (a file-level description of what changed and how to check it), which Val praised as essential but flagged as a double job alongside proper release notes. See [[wiki/projects/georgia-market-rollout.md]] and [[wiki/projects/south-dakota-vlt-market.md]]. [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 
+## Nebraska skill market (Mar 14)
+
+- On the Nebraska call, Irina ("Ira"/"Irina") made the recommendation the team adopted: take the **latest version 1.14 (already in VDEC)** and just **revert the nudge to its old presentation**, rather than modifying the old software — "everything is here, it's all working… easier and more reliable." See [[wiki/projects/nebraska-skill-market.md]] and [[wiki/decisions/2025-03-14-base-nebraska-on-georgia-conservative-nudge.md]]. [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
+
 ## Sources
 
 - [[raw/integration_and_testing_procedures_january_15_2025.md]]
 - [[raw/parameterization_in_the_development_pipeline_part_3_january_15_2025.md]]
 - [[raw/sd_vlt_recap-jan-22-2025.md]]
 - [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
+- [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]

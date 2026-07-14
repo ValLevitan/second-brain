@@ -2,8 +2,8 @@
 type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
-aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve]
-source-count: 2
+aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge]
+source-count: 4
 open-questions: 3
 ---
 
@@ -37,6 +37,16 @@ JVL's core land-based market — the conventional **Georgia co-op / COAM** busin
 - **Pay-table-ID risk:** JVL wanted operators to be able to check the **pay table ID**, but **United** said on a call they **can't** do that — so JVL must take a "leap of faith" that the E9 team's pay table IDs work. Val flagged he dislikes it. [[raw/game_design_meeting_march_7_2025.md]]
 - **Old framework for Georgia:** **Jackpot Rush** (and **JPRE**) for Georgia stay on the **old framework** with the **curved-monitor cabinet** targeted for the **summer / gaming show (August)**; only new games go on the new "omni" framework, starting with the Fortune Foo Paws pilot. Keeping new product on the old framework means maintaining Rage Studio and the old stations longer, and the **nudge mechanic** needs updating — parked for a later meeting. [[raw/game_design_meeting_march_7_2025.md]]
 
+## Peach 3/4 "finished but not deployed" (Mar 12)
+
+- On the Mar 12 Gottlieb call, [[wiki/people/michael-gottlieb.md|Michael]] relayed that per Juan and Felipe, only **Peach 1 and Peach 2** are really deployed — **Peach 3 and Peach 4 are finished but not yet in the field** (Jackpot Rush too) — and questioned why Val kept pushing for more product when what's done isn't deployed. [[raw/developing_games_faster_michael_gottlieb_march_12-2025.md]]
+- **Val's explanation:** there is **latency between perception and reality** — two large competitors entered the market with worthwhile innovations, which consumed operators' resources (slowing JVL's deployment) and weren't detected immediately; there was also hesitance about the new payment system. He **pressed the brakes at Peach 4** once demand was seen to have dropped, and said in hindsight he would not have pushed Peach 4 — though he'd partly treated it as an "insurance policy" / show-floor bragging rights. Going forward he favours **amortizing the existing library** (e.g. HHR as least-investment/most-revenue, or reviving a 20-year-old "wolves" animal title in class three) over building Peach 5/6. [[raw/developing_games_faster_michael_gottlieb_march_12-2025.md]]
+
+## "Georgia 1" vs "Georgia 2" nudge, and the Nebraska spin-off (Mar 14)
+
+- Val's framing on the Mar 14 Nebraska call: **Georgia 1** is the current **conservative skill nudge**; **Georgia 2** is the **advanced/enhanced skill nudge** the competitors are introducing. The advanced feature is to be deployed onto **Nebraska as it rolls out for Georgia** — acceptance risk being lower than depending on it from launch. [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
+- Nebraska reuses the Georgia Peach 1/2/3 software (hands removed, nudge reverted to conservative, other enhancements kept) — the full plan is its own project: [[wiki/projects/nebraska-skill-market.md]] and [[wiki/decisions/2025-03-14-base-nebraska-on-georgia-conservative-nudge.md]]. [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
+
 ## Open questions
 
 - Was routing Jackpot Rush / JPRE for Georgia onto the **old framework** (curved cabinet) a deliberate plan or an oversight? Val said he didn't recall discussing it and parked it for a later meeting. [[raw/game_design_meeting_march_7_2025.md]]
@@ -47,3 +57,5 @@ JVL's core land-based market — the conventional **Georgia co-op / COAM** busin
 
 - [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 - [[raw/game_design_meeting_march_7_2025.md]]
+- [[raw/developing_games_faster_michael_gottlieb_march_12-2025.md]]
+- [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
