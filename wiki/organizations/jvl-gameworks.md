@@ -17,8 +17,8 @@ JVL Gameworks Corp. is a **US operating company**, a Florida corporation, **100%
 - **State of incorporation:** Florida. [[raw/jvl_gameworks_corporate_identity_tax_ids_2026-07-13.md]]
 - **Incorporated:** April 12, 2024. [[raw/jvl_gameworks_corporate_identity_tax_ids_2026-07-13.md]]
 - **FEIN:** ***REMOVED*** — per the IRS FEIN letter dated 2024-07-12, on file. [[raw/jvl_gameworks_corporate_identity_tax_ids_2026-07-13.md]]
-- **Business / mailing address:** Industrious (coworking), **19495 Biscayne Blvd, Suite 2350, Aventura, FL 33180** (owner ruling 2026-07-14: 19495 is correct; the "19505" that appeared in the adoption note was a typo). The Georgia warehouse (6500 McDonough Dr) was only a mailing address, not the place of formation. [[raw/jvl_gameworks_corporate_identity_tax_ids_2026-07-13.md]]
-- **Address contradiction RESOLVED (owner ruling 2026-07-14):** the IRS EIN letter's **19495** Biscayne Blvd is correct; "19505" was a typo in the adoption note. (History: flagged 2026-07-13 as 19495-vs-19505; Val had emailed Monica Levitan re Form 8822-B — superseded by this ruling.) [[raw/jvl_gameworks_corporate_identity_tax_ids_2026-07-13.md]]
+- **Business / mailing address:** Industrious (coworking), **19505 Biscayne Blvd, Suite 2350, Aventura, FL 33180 USA** (owner FINAL ruling 2026-07-14). The Georgia warehouse (6500 McDonough Dr) was only a mailing address, not the place of formation. [[raw/jvl_gameworks_corporate_identity_tax_ids_2026-07-13.md]]
+- **Address contradiction RESOLVED (owner FINAL ruling 2026-07-14):** the correct address is **19505** Biscayne Blvd, Suite 2350; the IRS EIN letter's **19495** is the erroneous one (being corrected via Monica Levitan / Form 8822-B, emailed 2026-07-13). (Ruling history: an earlier same-day ruling briefly said 19495 — reversed by the owner within hours; 19505 is final.) [[raw/jvl_gameworks_corporate_identity_tax_ids_2026-07-13.md]]
 
 ## Tax, financials & banking
 

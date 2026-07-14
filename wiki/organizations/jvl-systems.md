@@ -17,7 +17,7 @@ JVL Systems, Inc. is the group's **US operating company**, a Florida corporation
 - **FEIN:** ***REMOVED*** — used on federal and all state filings, including Georgia. [[raw/jvl_systems_corporate_identity_tax_ids_2026-06-04.md]]
 - **Registered to operate / file taxes in:** Georgia and California. [[raw/jvl_systems_corporate_identity_tax_ids_2026-06-04.md]]
 - **California FTB entity ID:** ***REMOVED***. [[raw/jvl_systems_corporate_identity_tax_ids_2026-06-04.md]]
-- **Business / mailing address:** Industrious (coworking), **19495** Biscayne Blvd, Suite 2350, Aventura, FL 33180 (owner ruling 2026-07-14: 19495 correct, "19505" was a typo). Per a group decision dated 2026-07-13, all correspondence and the business address route here so the group's nexus sits in Florida; the Georgia warehouse is a physical address only. [[raw/jvl_systems_corporate_identity_tax_ids_2026-06-04.md]]
+- **Business / mailing address:** Industrious (coworking), **19505** Biscayne Blvd, Suite 2350, Aventura, FL 33180 USA (owner FINAL ruling 2026-07-14). Per a group decision dated 2026-07-13, all correspondence and the business address route here so the group's nexus sits in Florida; the Georgia warehouse is a physical address only. [[raw/jvl_systems_corporate_identity_tax_ids_2026-06-04.md]]
 
 ## California franchise tax
 
