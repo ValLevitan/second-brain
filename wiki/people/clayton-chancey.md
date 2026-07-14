@@ -1,16 +1,14 @@
 ---
 type: person
-title: Clayton
+title: Clayton Chancey
 date: 2026-07-14
-aliases: [Clayton, Clayton Chancey, Foray Consulting]
+aliases: [Clayton Chancey, Clayton, Foray Consulting]
 source-count: 1
 ---
 
-# Clayton
+# Clayton Chancey
 
-Clayton is a colleague of [[wiki/people/aaron.md|Aaron]]'s — described by Aaron as a friend and a **data scientist** — with whom Aaron has been building a consulting brand around **enterprise AI architecture** (workflow optimization and automation). He surfaces on the Mar 21 2025 "building tools" call. [[raw/aaron_building_tools-march-21-2025.md]]
-
-The JVL 2026 contractor roster lists his full name as **Clayton Chancey (Foray Consulting)** — consistent with the "Foray space" GitHub org Aaron said Val's tools would eventually live in. See [[wiki/topics/jvl-contractor-roster.md]]. (Inference: the "Clayton" of this call and "Clayton Chancey" on the roster are the same person; not owner-confirmed — see Owner Decisions.)
+Clayton Chancey (Foray Consulting) is a JVL **contractor** — a data scientist / enterprise-AI-architecture consultant, a colleague of [[wiki/people/aaron.md|Aaron]]'s, with whom Aaron has been building a consulting brand (workflow optimization and automation). **Owner-confirmed (2026-07-14):** he is a genuine new contractor and his engagement is **current and expected to continue** — treat future "Clayton" mentions as this person. He surfaces on the Mar 21 2025 "building tools" call and on the 2026 contractor roster ([[wiki/topics/jvl-contractor-roster.md]]); the "Foray space" GitHub org Aaron mentioned matches his Foray Consulting. [[raw/aaron_building_tools-march-21-2025.md]]
 
 ## Role and the proposed arrangement (Mar 21 2025)
 
