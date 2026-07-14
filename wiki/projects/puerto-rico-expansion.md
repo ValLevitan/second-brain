@@ -3,7 +3,7 @@ type: project
 title: Puerto Rico expansion
 date: 2026-07-12
 aliases: [Puerto Rico expansion, Puerto Rico office, PR route market, gaming license, resident agent, FYC Consulting]
-source-count: 4
+source-count: 5
 ---
 
 # Puerto Rico expansion
@@ -49,9 +49,19 @@ Val directed the Puerto Rico setup to follow the structure he uses in Mexico, Co
 
 Which JVL machines and software ship into the Puerto Rico route market was worked out on a Mar 21 call ([[wiki/people/val-levitan.md|Val]], Irina, [[wiki/people/pavel.md|Pavel]], [[wiki/people/genadi-peari.md|Genadi Peari]]) and a follow-up requirements document — full detail on the dedicated page **[[wiki/topics/puerto-rico-product-configuration.md]]**. In brief: three families (HG6 CPU kits with new electronics; HG6 retrofit machines keeping old electronics; Flex-S on the V1000 board with Megahit, split into V43 vertical / D27 horizontal); one HG6 software supporting both old and new button panels via XML key-code mapping ([[wiki/decisions/2025-03-21-hg6-support-legacy-and-new-button-panels.md]]); the five production Puerto Rico machines to get their cabinet removed and a V1000 installed; [[wiki/people/juan-martinez.md|Juan Martinez]] (then in Puerto Rico walking locations) holds final approval on panel, game selection and limitations; GLI certification required for all configs. [[raw/product_matrix_puerto_rico-march21-2025.md]] [[raw/requirements_puerto_rico-march-21-2025.md]]
 
+## The market, from Val's site tour (Mar 24 2025)
+
+After touring Puerto Rico locations, Val described the route market as "insanely large" and broke the island into **three distinct markets**: [[raw/games_markets-march-24-2025.md]]
+
+- **Casinos** — only in resort hotels, taxed and regulated by the government (which does the physical cash **drop**, not the casino). **21 casinos with north of 5,000 machines.** [[raw/games_markets-march-24-2025.md]]
+- **OTB / horse tracks** — an **exclusive contract held by [[wiki/organizations/scientific-games.md|Scientific Games]]**; thousands of small OTB outlets, upwards of **5,000 machines** (SciGames VLTs + generic third-party VLTs, all SciGames-managed), currently **tax-free**. [[raw/games_markets-march-24-2025.md]]
+- **Route market** — largely unregulated; by any account **70,000–100,000 illegal machines** (old Atari-style units and copied Chinese machines, e.g. a copied WMS "Zeus/Kronos"). The government's stated goal is to **regulate, tax and standardise**, starting with a first tranche of **25,000** machines, then further tranches of ~25,000. Games often need to be **bilingual (Spanish)** for neighbourhoods outside San Juan. [[raw/games_markets-march-24-2025.md]]
+- Machines that "cash out" do so via **pulse-metered POS** systems (like Georgia's "mother goose") rather than a true system. Val plans to go back within **two weeks**; [[wiki/people/juan-martinez.md|Juan]] to travel too (while also returning to Georgia). [[raw/games_markets-march-24-2025.md]]
+
 ## Sources
 
 - [[raw/anibal_call_011325_meeting_notes_2025-01-14.md]]
 - [[raw/Puerto Rico progress report - January 29, 2025.md]]
 - [[raw/product_matrix_puerto_rico-march21-2025.md]]
 - [[raw/requirements_puerto_rico-march-21-2025.md]]
+- [[raw/games_markets-march-24-2025.md]]

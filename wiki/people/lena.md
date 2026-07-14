@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina]
-source-count: 16
+source-count: 17
 open-commitments: 1
 ---
 
@@ -72,6 +72,10 @@ Her surname is given as **Zhukova** on the Feb 18 onboarding session (WEBVTT).
 
 - Lena confirmed the **"hands" is part of the common UI** used in all games and can simply be removed for the no-hands Nebraska build, and helped work through the software approach (revert to conservative nudge, keep the other enhancements). See [[wiki/projects/nebraska-skill-market.md]]. (The transcript also renders a "Elina" in this call — inferred to be Lena or Irina; kept ambiguous.) [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
 
+## GitHub template check-in (Mar 26)
+
+- On Andrei's template-repo demo, Lena gave the key **"when to update the template" signal**: when there's a **new reusable script** useful across all games. She also mapped the future to **per-game-type templates** — a base template now, then dedicated templates for **Georgia / Omnia framework games**, **Persistence games**, and **classical games**, each with structure appropriate to that game mechanic. See [[wiki/topics/graphics-team-git-workflow.md]]. [[raw/github_commits-march-26-2025.md]]
+
 ## Open commitments
 
 - [ ] Lena — prepare a **visual storyboard** of the V-Deck bet-up incentive (escalating flame/particles on bet buttons 3/4/5) — due **next Friday** — [[raw/Game design part 2 - Feb-28-2025.md]]
@@ -94,3 +98,4 @@ Her surname is given as **Zhukova** on the Feb 18 onboarding session (WEBVTT).
 - [[raw/developing_games_faster_michael_gottlieb_march_12-2025.md]]
 - [[raw/GitHub_for_Graphic_Design_evolution_2025-03-12.md]]
 - [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
+- [[raw/github_commits-march-26-2025.md]]

@@ -2,8 +2,8 @@
 type: topic
 title: Graphics team Git workflow (PR discipline, CI tickets, deploy pipeline)
 date: 2025-03-12
-aliases: [designer git workflow, graphics PR discipline, pull request discipline, contact sheet action, assets deploy pipeline, fork from template, help desk CI tickets, performative pull request]
-source-count: 1
+aliases: [designer git workflow, graphics PR discipline, pull request discipline, contact sheet action, assets deploy pipeline, fork from template, help desk CI tickets, performative pull request, pull request back to template, template per game type]
+source-count: 2
 ---
 
 # Graphics team Git workflow (PR discipline, CI tickets, deploy pipeline)
@@ -44,6 +44,17 @@ The working practices JVL's design team follows on GitHub, as coached by [[wiki/
 
 - The team is **not full-time on Fortune 4 (FFP)** this period; **Heat Game 6** and **Georgia** are the urgent side projects, and **Natasha** is continuing Georgia while Lena returns to FFP. The next check-in was set for the **26th** (Wednesday, two weeks out); Val books these meetings for **30 minutes or less**. [[raw/GitHub_for_Graphic_Design_evolution_2025-03-12.md]]
 
+## Template repo check-in (Mar 26 2025)
+
+A follow-up "GitHub commits" check-in where [[wiki/people/andrey-bosik.md|Andrei]] demoed the working **template repository** (with [[wiki/people/val-levitan.md|Val]], [[wiki/people/lena.md|Lena]], [[wiki/people/dmitri-kovalchuk.md|Dima Kovalchuk]], and an "Igor" whose identity is unresolved — see Owner Decisions). [[raw/github_commits-march-26-2025.md]]
+
+- The template can be **instanced with one button** into a new repo (a variable/repo with a single initial commit, all pre-structured) and carries **predefined GitHub Actions** for contact sheets, sprites, and **migrating/updating pull requests**. Val's forward idea: on instancing, an Action does **word-replacement across the docs** so a new project's README/files are auto-named. [[raw/github_commits-march-26-2025.md]]
+- **Close the loop back to the template (Val's main point):** there was **no process to return improvements to the parent template**. Val pushed hard on the *culture*: when a game produces something worth keeping, feed it back into the template **via a pull request** ("I request you to pull my good changes into your thing"), so the template doesn't go stale — you'd **fork** the template, incorporate changes from the working repo, and PR them back. Use Git terms, not "I'll just edit it by hand." [[raw/github_commits-march-26-2025.md]]
+- **Signals it's time to update the template** (Val's coaching, with Lena): a **new reusable script** useful across all games; or finding yourself **repeatedly adding the same things** after cloning each new project. [[raw/github_commits-march-26-2025.md]]
+- **Templates per game type (Lena):** the current base template just holds shared structure; in future JVL will have separate templates for **Georgia / Omnia framework games**, **Persistence games**, and **classical games**, each with a more appropriate structure per game mechanic. [[raw/github_commits-march-26-2025.md]]
+- **Follow-up:** GitHub-commits check-in set for **April 9, 9:30am Eastern** (later merged with the MCP test — see [[wiki/meetings/2025-03-26-mcp-unity-visualcode.md]]). [[raw/github_commits-march-26-2025.md]]
+
 ## Sources
 
 - [[raw/GitHub_for_Graphic_Design_evolution_2025-03-12.md]]
+- [[raw/github_commits-march-26-2025.md]]

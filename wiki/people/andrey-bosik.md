@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre]
 disambiguation: "JVL DevOps manager. Distinct from Andrei Klimovich (online-games commercial lead) and from Andrew Khandov (C# Miranda developer). Owner-confirmed 2026-07-13. Canonical first name 'Andrey'."
-source-count: 17
+source-count: 19
 open-commitments: 5
 ---
 
@@ -63,6 +63,14 @@ His surname is given as **Bosik** on the Feb 12 GitHub check-in (WEBVTT). (Disti
 - Andrei diagnosed the designers' **PSD-commit conflicts**: the auto-generated contact-sheet `index.md` carries a changing **"generated on" date/time line** — he proposed deleting it. He walked the group through the **assets deploy pipeline** he built: artists commit to the **production source game assets** repo → a GitHub **Action auto-archives and deploys** to the game repo (a "complete assets bundle artifact") → a next step meant to trigger the **game-mechanic repo** Action, which **didn't work yet**. His support team is the destination for **help-desk CI tickets** (dispatching to Anton/Sasha/Pavel). See [[wiki/topics/graphics-team-git-workflow.md]]. [[raw/GitHub_for_Graphic_Design_evolution_2025-03-12.md]]
 - He had **disabled fork-from-template "for security reasons"**; Val overrode this and Andrei **enabled forking from template repos for all repos** on the call, and is to build a **generic base template** that new game repos fork from. See [[wiki/decisions/2025-03-12-fork-game-repos-from-generic-template.md]]. [[raw/GitHub_for_Graphic_Design_evolution_2025-03-12.md]]
 
+## CMS persona-requirements call (Mar 23)
+
+- Val invited "Andre" (Bosik) to the CMS-persona meeting to help and to **translate**, and asked him to **rename the Git repo** from "understandings"/"понятия CMS" to **"CMS"** — which he actioned. See [[wiki/decisions/2025-03-23-migrate-legacy-cms-svn-to-github-by-features.md]]. [[raw/cms_persona_requirements-march-23-2025.md]]
+
+## GitHub commits — template demo (Mar 26)
+
+- Andrei **demoed the working template repository** (one-button instancing; predefined Actions for contact sheets, sprites, and PR migration/update). Val pushed him and the team to build a **pull-request-back-to-template** loop (fork the template → incorporate a project's improvements → PR back) so templates don't go stale, and — with [[wiki/people/lena.md|Lena]] — flagged future **per-game-type templates** (Georgia/Omnia, Persistence, classical). This continues his generic-template commitment below. See [[wiki/topics/graphics-team-git-workflow.md]]. [[raw/github_commits-march-26-2025.md]]
+
 ## Open commitments
 
 - [ ] Andrei — build a **generic base template** GitHub repo (from the Fortune Fupa template) that new game repos fork from — due unspecified — [[raw/GitHub_for_Graphic_Design_evolution_2025-03-12.md]]
@@ -90,3 +98,5 @@ His surname is given as **Bosik** on the Feb 12 GitHub check-in (WEBVTT). (Disti
 - [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]
 - [[raw/Git_progress_check_in_2025-02-28.md]]
 - [[raw/GitHub_for_Graphic_Design_evolution_2025-03-12.md]]
+- [[raw/cms_persona_requirements-march-23-2025.md]]
+- [[raw/github_commits-march-26-2025.md]]

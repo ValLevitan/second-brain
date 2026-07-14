@@ -3,7 +3,7 @@ type: person
 title: Evgeniy Alekseev
 date: 2025-03-11
 aliases: [Evgeniy Alekseev, Evgeny Alekseev, Zhenya Alekseev, Женя Алексеев, Alekseev]
-source-count: 3
+source-count: 4
 ---
 
 # Evgeniy Alekseev
@@ -14,8 +14,11 @@ Evgeniy Alekseev (name confirmed by Val; "Zhenya Alekseev" / "Женя Алек�
 
 On the Mar 17 standup, [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] again said he needs to **cooperate with "Женя Алексеев"** to finish the **cash-out** work — reinforcing that Alekseev owns the code the integration must land in. See [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]]. [[raw/Flex-port-update-March-17-2025.md]] [[raw/Embedded_Group_alignment_and_update_2025-03-18.md]]
 
+On the Mar 25 standup, Alekseev is again the one who **can see behaviour the others cannot** on the FlexPay/machine side (Val: "то, чего мы сейчас не видим, а Евгений Алексеев видит"), so the cash-out debugging depends on him and Yavorski working together. (The transcript also renders a "Женя Львовский"/Zhenya Lvovsky, likely a mis-transcription of Yavorski — flagged, see Owner Decisions.) [[raw/Embedded_Group_alignment_and_update_2025-03-25.md]]
+
 ## Sources
 
 - [[raw/Embedded_Group_alignment_and_update_2025-03-11.md]]
 - [[raw/Flex-port-update-March-17-2025.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-03-18.md]]
+- [[raw/Embedded_Group_alignment_and_update_2025-03-25.md]]

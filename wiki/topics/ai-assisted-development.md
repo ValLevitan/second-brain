@@ -2,8 +2,8 @@
 type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
-aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, meeting tracking, GPT-4o Transcribe, Whisper]
-source-count: 10
+aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7]
+source-count: 11
 ---
 
 # AI-assisted development adoption
@@ -68,6 +68,12 @@ Coaching Andrei, Val described the workflow he uses himself and wants his manage
 - **Whisper file-size limit:** ~140 of Val's audio files are too large for the current endpoint (a **file-size**, not duration, limit). Aaron may build a **splitter** (convert to a byte stream, split in half); Val's interim workaround is to **stop recording at one hour** and start a new recording. [[raw/aaron_building_tools-march-21-2025.md]]
 - This transcription work is the front end of the broader knowledge-base tool — see [[wiki/topics/transcript-knowledge-base-tooling.md]] — and is the "first real tool" in the funding arrangement [[wiki/decisions/2025-03-21-fund-aaron-clayton-bespoke-ai-tools.md]]. [[raw/aaron_building_tools-march-21-2025.md]]
 
+## VS Code + MCPs, and a Unity MCP (Mar 26)
+
+- Aaron introduced a new **Unity MCP server** (one of several then appearing; a "leading one" — brand not stated). An MCP is a layer between a data source (Unity, SQL, a weather station, Jira) and the AI that presents a unified set of tools/resources; the AI can call, e.g., a `get assets` tool that reaches the Unity API and serialises assets back as text. Beyond *reading*, the Unity MCP can **set** state — create and place objects/shapes in a scene automatically — and, because it runs in VS Code with the Git repo context, could combine with **Miranda** to pull library assets and lay out scenes on request. [[raw/mcp_unity_visualcode-march-26-2025.md]]
+- Aaron's own stack of MCPs (the model he holds up): **Atlassian, Anthropic "Cloud" (i.e. Claude), Microsoft 365, GitHub, Whisper** — used through a human-language interface. (The transcript renders Claude as "Cloud"/"Cloud AI"; recorded as such, likely a mis-transcription of "Claude.") [[raw/mcp_unity_visualcode-march-26-2025.md]]
+- **Val's directive:** the team should keep using VS Code with these integrations and prefer **Anthropic Claude with Sonnet 3.7** (called "considerably better than ChatGPT" for many cases) over ChatGPT; before the **April 9** meeting everyone must install the **GitHub MCP** and **Anthropic "Cloud" (Sonnet 3.7)** and run them through **OpenRouter** (JVL has an auto-refill corporate-card subscription). That meeting was extended 30 min (start **9:00**): Val will test each person's VS Code + MCP usage, then the GitHub portion. Team members already trying it: Lena, Yuli, Nastya, Dima Khandov. [[raw/mcp_unity_visualcode-march-26-2025.md]]
+
 ## Connection to the pipeline debate
 
 - Val explicitly linked adopting Git-native, AI-friendly practices to resolving the ISO build-pipeline problem: a natural-language/AI interface should be a standard part of a pipeline built to last 10 years. See [[wiki/topics/build-pipeline-parameterization.md]]. [[raw/development_pipeline_january_13_2025.md]]
@@ -85,3 +91,4 @@ Coaching Andrei, Val described the workflow he uses himself and wants his manage
 - [[raw/Call_with_Aaron_Bockelie_2025-02-21.md]]
 - [[raw/GitHub_commit_of_LFS_demo_by_Lena_2025-02-21.md]]
 - [[raw/aaron_building_tools-march-21-2025.md]]
+- [[raw/mcp_unity_visualcode-march-26-2025.md]]

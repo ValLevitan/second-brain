@@ -4,7 +4,7 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "JVL's IT person = the recurring IT-context 'Dima'. Distinct from Dmitriy Khandov (Senior 3D Graphic Designer), Andrey/Andrew Khandov (Miranda dev), and Dmitri Chudinov (back-end architect, who is the 'Dima Chudinov' of the Observability Platform org). Owner-confirmed 2026-07-13."
-source-count: 1
+source-count: 2
 ---
 
 # Dmitri Kovalchuk
@@ -26,6 +26,9 @@ Per the owner ruling, these IT-context "Dima" mentions — previously flagged un
 
 **Distinct people (do not merge), all sometimes "Dima":** [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]] (Senior 3D Graphic Designer), [[wiki/people/andrew-khandov.md|Andrey/Andrew Khandov]] (Miranda developer), [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] (back-end architect). A "Dima" who **delivers FlexPay builds** in the embedded group is a developer, not clearly IT — left **unresolved** per the ruling's "if a mention clearly isn't IT-related, leave it unresolved."
 
+- **GitHub-commits template check-in (Mar 26):** present as "Dima Kovalchuk"; Val questioned whether the meeting was productive for him ("it seems like Dima Kovalchuk doesn't need to be here") — consistent with his IT (not game-dev) role. He is also among the team members using the VS Code / MCP tooling Aaron pushes. See [[wiki/topics/graphics-team-git-workflow.md]] and [[wiki/topics/ai-assisted-development.md]]. [[raw/github_commits-march-26-2025.md]]
+
 ## Sources
 
 - [[raw/GitHub_Commit_LFS-Feb-18-2025.md]]
+- [[raw/github_commits-march-26-2025.md]]

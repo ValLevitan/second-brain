@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge]
-source-count: 4
+source-count: 6
 open-questions: 3
 ---
 
@@ -47,6 +47,15 @@ JVL's core land-based market — the conventional **Georgia co-op / COAM** busin
 - Val's framing on the Mar 14 Nebraska call: **Georgia 1** is the current **conservative skill nudge**; **Georgia 2** is the **advanced/enhanced skill nudge** the competitors are introducing. The advanced feature is to be deployed onto **Nebraska as it rolls out for Georgia** — acceptance risk being lower than depending on it from launch. [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
 - Nebraska reuses the Georgia Peach 1/2/3 software (hands removed, nudge reverted to conservative, other enhancements kept) — the full plan is its own project: [[wiki/projects/nebraska-skill-market.md]] and [[wiki/decisions/2025-03-14-base-nebraska-on-georgia-conservative-nudge.md]]. [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
 
+## New Georgia financial product (Mar 23, from the Doug update)
+
+- Beyond slot machines, JVL developed a **new financial product for Georgia** — **not a slot machine** — built to support **changed Georgia legislation** and **symbiotic** with JVL's slot product. **Mandatory installation is by June 2026.** Val expects purchases to start ~**November 2025** and intensify toward mid-2026. JVL is one of **three players** in that market, with ~**6,000 installations** in play; the machine sells for ~**$12,000**. This is the diversification hedge against the Georgia slot-revenue decline. [[raw/doug_update_jvl-march-23-2025.md]]
+
+## System compatibility and Peach 1 (Mar 24, games/markets)
+
+- On the Mar 24 markets call, Val noted the Georgia system providers include **Win Systems** and **Access**, both on the standard **SAS 6.0** protocol; JVL verified full **SAS compatibility** with the Georgia system a few weeks earlier — relevant because the same systems (or Access specifically) may appear in Nebraska/Puerto Rico. [[raw/games_markets-march-24-2025.md]]
+- **Peach 1** revision / nudge-enhancement items were mostly closed and on track for completion by month-end (Michael reviewing). The Peach bonus is being reskinned with a corn-stalk theme for Nebraska (see [[wiki/projects/nebraska-skill-market.md]]). [[raw/games_markets-march-24-2025.md]]
+
 ## Open questions
 
 - Was routing Jackpot Rush / JPRE for Georgia onto the **old framework** (curved cabinet) a deliberate plan or an oversight? Val said he didn't recall discussing it and parked it for a later meeting. [[raw/game_design_meeting_march_7_2025.md]]
@@ -59,3 +68,5 @@ JVL's core land-based market — the conventional **Georgia co-op / COAM** busin
 - [[raw/game_design_meeting_march_7_2025.md]]
 - [[raw/developing_games_faster_michael_gottlieb_march_12-2025.md]]
 - [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
+- [[raw/doug_update_jvl-march-23-2025.md]]
+- [[raw/games_markets-march-24-2025.md]]
