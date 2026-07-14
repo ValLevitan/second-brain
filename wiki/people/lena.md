@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina]
-source-count: 18
+source-count: 19
 open-commitments: 1
 ---
 
@@ -76,6 +76,10 @@ Her surname is given as **Zhukova** on the Feb 18 onboarding session (WEBVTT).
 
 - On Andrei's template-repo demo, Lena gave the key **"when to update the template" signal**: when there's a **new reusable script** useful across all games. She also mapped the future to **per-game-type templates** — a base template now, then dedicated templates for **Georgia / Omnia framework games**, **Persistence games**, and **classical games**, each with structure appropriate to that game mechanic. See [[wiki/topics/graphics-team-git-workflow.md]]. [[raw/github_commits-march-26-2025.md]]
 
+## Subject of the Val–Gottlieb Teams-visibility talk (Mar 26)
+
+- Lena triggered the Mar 26 one-on-one by telling [[wiki/people/michael-gottlieb.md|Michael]] that Val wanted to be copied on their game-development Teams chats; per Michael, "she didn't tell me anything… She said this is what Val wants… she doesn't really contradict you. I think she's afraid of you." Val rejected the fear reading and cited history: **Lena has known him for 26 years**; "Lena has been loyal to me, and I have been loyal to Lena for two decades, to her and to her father." Michael described their working dynamic (she posts Jira links for symbol review; he can signal "let's try something different" without spelling out rejection) and his worry that CEO visibility would make her more conservative; he also said Val needs to plan for "what happens if Lena is not around," which both treated as a real continuity question. The **La Rosa** comp flow was shown as the example: Lena sends variant treatments → Michael picks one ("zoomed in tighter, base shown more prominently") → she refines → it goes to [[wiki/people/juan-martinez.md|Juan]]. See [[wiki/meetings/2025-03-26-gottlieb-val-one-on-one.md]]. [[raw/michael_gottlieb_val_meeting-26-2025.md]]
+
 ## Game-design review (Mar 28)
 
 - As **art director** Lena presented and defended the Peach-4 reskin art: **La Rosa** (Pink Princess assets repainted — purse, pumps, luxury car, hacienda), noting the team reused Pink Princess's 3D models to save "a couple of weeks." She agreed to redo the male lead's haircut/face and pointed out how much rework a full symbol change ("paper game") would cost. She is implementing the **nudge animation-freeze** on Peach 2 and updating **FireEyes** attraction videos + single-game attraction mode. She is to decide the **5X Peppers vs 5X Pimentos** naming. Her team remains the release bottleneck. See [[wiki/topics/slot-game-design-principles.md]] and [[wiki/topics/jvl-machine-lineup.md]]. [[raw/games_design_meeting-march-28-2025.md]]
@@ -104,3 +108,4 @@ Her surname is given as **Zhukova** on the Feb 18 onboarding session (WEBVTT).
 - [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
 - [[raw/github_commits-march-26-2025.md]]
 - [[raw/games_design_meeting-march-28-2025.md]]
+- [[raw/michael_gottlieb_val_meeting-26-2025.md]]

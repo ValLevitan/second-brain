@@ -3,8 +3,8 @@ type: person
 title: Hector
 date: 2026-07-14
 aliases: [Hector]
-source-count: 1
-open-commitments: 1
+source-count: 2
+open-commitments: 2
 ---
 
 # Hector
@@ -18,10 +18,16 @@ Hector is a member of JVL's **finance back-office** whom Val wants narrowed down
 - **System access:** Val wants Hector limited to only what he needs, but for audit/controlling he needs review access across **finance, customer invoicing, banking and procurement** (read vs write distinction discussed). [[raw/financial_alka_alignment-march-24-2025.md]]
 - The task transfer had been stalled because Hector "felt exposed with Igor leaving"; once Igor was gone Val pushed the handover. (Which Igor is unresolved — see Owner Decisions.) [[raw/financial_alka_alignment-march-24-2025.md]]
 
+## History
+
+- **Asimex importation call (~Mar 19 2025, date inferred):** a "Hector" joined Val's call with Alejandro of ASIMEX about importing Flex machines into Mexico — he opened the call having pre-briefed with Alejandro, translated/relayed for him, fielded the Mexico **import-VAT reclaim** question, and took the action to consult "Alejandro, the accountant" about it. *Attribution is an inference:* the transcript gives no surname; the Mexico-finance/VAT context fits this finance back-office Hector, but no source states they are the same person (queued). See [[wiki/meetings/2025-03-19-asimex-flex-importation.md]] and [[wiki/organizations/shipping-vendors.md]]. [[raw/Asimex - Importation of Flex machines_2.md]]
+
 ## Open commitments
 
 - [ ] Hector — hand the four vendor-bill tasks to Mary and start producing Val's report wish-list "as of next Monday" — due ~next week — [[raw/financial_alka_alignment-march-24-2025.md]]
+- [ ] Hector — speak to "Alejandro, the accountant" about the Mexico import-VAT reclaim and get back to Val — due unspecified — [[raw/Asimex - Importation of Flex machines_2.md]]
 
 ## Sources
 
 - [[raw/financial_alka_alignment-march-24-2025.md]]
+- [[raw/Asimex - Importation of Flex machines_2.md]]

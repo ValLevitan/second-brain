@@ -3,7 +3,7 @@ type: topic
 title: Graphics team Git workflow (PR discipline, CI tickets, deploy pipeline)
 date: 2025-03-12
 aliases: [designer git workflow, graphics PR discipline, pull request discipline, contact sheet action, assets deploy pipeline, fork from template, help desk CI tickets, performative pull request, pull request back to template, template per game type]
-source-count: 2
+source-count: 3
 ---
 
 # Graphics team Git workflow (PR discipline, CI tickets, deploy pipeline)
@@ -54,7 +54,12 @@ A follow-up "GitHub commits" check-in where [[wiki/people/andrey-bosik.md|Andrei
 - **Templates per game type (Lena):** the current base template just holds shared structure; in future JVL will have separate templates for **Georgia / Omnia framework games**, **Persistence games**, and **classical games**, each with a more appropriate structure per game mechanic. [[raw/github_commits-march-26-2025.md]]
 - **Follow-up:** GitHub-commits check-in set for **April 9, 9:30am Eastern** (later merged with the MCP test — see [[wiki/meetings/2025-03-26-mcp-unity-visualcode.md]]). [[raw/github_commits-march-26-2025.md]]
 
+## Moving art-asset evolution out of Jira into GitHub (stated Mar 26)
+
+In the Val–Gottlieb one-on-one (same day as the template check-in above), Val stated the review flow itself is changing: "as of this moment, we already experimenting with **not putting it into Jira**, because Jira has multiple reiterations. We want to have only one asset… and an account of this evolution" — moved into **GitHub**, where each person works in a local **sandbox** and pushes when ready, so reviewers see the final with a **"differential evolution"** (rollback shows what changed — "purple was changed to green"). Val's claims for it: educational replay for young designers ("these are the errors that you're making"), and instant **scale-up/scale-down** of outside hires with no learning curve. He added that Jira/GitHub can now be driven by a **human-language interface** ("we don't even need to know GitHub") and predicted JVL can eventually "push away from Jira." Gottlieb noted the team had put everything **into** Jira under Val's own earlier direction — recorded as evolution of that instruction, not a contradiction. See [[wiki/meetings/2025-03-26-gottlieb-val-one-on-one.md]]. [[raw/michael_gottlieb_val_meeting-26-2025.md]]
+
 ## Sources
 
 - [[raw/GitHub_for_Graphic_Design_evolution_2025-03-12.md]]
 - [[raw/github_commits-march-26-2025.md]]
+- [[raw/michael_gottlieb_val_meeting-26-2025.md]]

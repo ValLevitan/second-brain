@@ -3,7 +3,7 @@ type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
 aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin]
-source-count: 6
+source-count: 7
 open-questions: 1
 ---
 
@@ -87,6 +87,11 @@ A design-philosophy debate that recurs across La Rosa and the Nebraska bonus (se
 - Val drew a **sharp line**: he is **fully for recycling the math and game mechanics** (they sit in the background, are accepted, and are cheap to reuse), but is **~70% against recycling old graphics / look-and-feel / audio** — reusing the old visuals "ages" a game, ties it to the era/style/intent it was made for, and makes it "a non-transportable item" when moving to a new market. [[raw/games_design_meeting-march-28-2025.md]]
 - **Conceptual continuity in naming.** Michael's rule that a bonus's **name should be evocative of the visuals on screen** decided the Nebraska bonus: with **corn on the coin and corn stalks**, "Golden Husk" fits, whereas "Buffalo Bounty / Bison Bucks" would read as strange (no buffalo on screen). "Buffalo" was also rejected because it evokes **Aristocrat's** top-five game **Buffalo**, and a bison isn't worth building/animating. See the Golden Husk naming on [[wiki/projects/nebraska-skill-market.md]]. [[raw/games_design_meeting-march-28-2025.md]]
 
+## Aspirational, ethnically representative themes (Mar 26, Gottlieb one-on-one)
+
+- [[wiki/people/michael-gottlieb.md|Gottlieb]] framed a principle from his Bally history: Bally would not let him put **people of color on slot machines** ("they were afraid of ethnic people… it's kind of a racist world"), which he sees JVL correcting — **Kai-Ocho** shows "the beauty of people of different ethnicities," and players want to see themselves ("it's a black Barbie… People want to see them. Aspirational"). **La Rosa** applies the same logic for Juan's Mexican audience ("she's the Mexican princess" — the car, mansion, diamonds); a **Quinceañera** concept was explicitly dropped because the girls are 14–15 ("we're not going there") in favor of "the Jennifer Lopez approach." His rule: "I want to create games for the player," not for himself ("an old white Jewish guy") — citing **Wonder Woman**'s success over internal doubts. [[raw/michael_gottlieb_val_meeting-26-2025.md]]
+- **Advertising-vs-game decoupling (open disagreement):** Val argued the marketing "wedges" are **advertising, not game continuation** — unconventional attention-grabbers are the point (his 1970s pasta-ad example; a rooster holding sparkling diamonds) — while Gottlieb held that elements a player never sees in the game (a rooster with a diamond; an orange diamond that doesn't exist; vertical text — "something I was taught you never do") make it "completely decoupled from the game." Tried as an experiment; Gottlieb warned against making *everything* unconventional. [[raw/michael_gottlieb_val_meeting-26-2025.md]]
+
 ## Open questions
 
 - Should JVL scale the **progressive value to denomination** (Val's view) or keep it flat and only *signal* higher-RTP denominations visually (the industry norm Michael/Efim defend)? Recorded as an **open product debate** — Val's opinion is logged, nothing is changed to the base math. [[raw/game_design_meeting_march_7_2025.md]]
@@ -100,3 +105,4 @@ A design-philosophy debate that recurs across La Rosa and the Nebraska bonus (se
 - [[raw/game_design_meeting_march_7_2025.md]]
 - [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
 - [[raw/games_design_meeting-march-28-2025.md]]
+- [[raw/michael_gottlieb_val_meeting-26-2025.md]]

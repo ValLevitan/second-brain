@@ -3,7 +3,7 @@ type: organization
 title: Incom (payment processor)
 date: 2025-02-27
 aliases: [Incom, InComm, Incomm, Income, Incom Payments]
-source-count: 3
+source-count: 4
 open-commitments: 2
 open-questions: 2
 ---
@@ -38,6 +38,10 @@ The onboarding kickoff between JVL and Incom. [[raw/incomm_commissioning_plan_fe
 ### The COAM / debit-card legal state (per Incom)
 - The industry read Incom gave: using a **credit card** is prohibited, using a **debit card** is unknown, and using a **debit card issued as a prize redemption** is allowed — "the state of the market today." At least two operators are already doing this; one restricts to **COAM cards** only, the other may accept any debit card. Whether a regulator (the "GLC" — Georgia Lottery Corporation) would treat a Walgreens open-loop gift card the same is unclear. [[raw/incomm_commissioning_plan_february-27-2025.md]]
 
+## Status (Mar 27 2025)
+
+- Val reported: **all contractual agreements with Incom are signed**; the additional information Incom requested was supplied by **Monika** (see [[wiki/people/monica.md]]); "any day they will approve us as a vendor and will open the connection for testing." The planned beta (3–5 free-of-charge operator locations) runs connected to Incom in both regimes (QR-code/FlexPort and TITO). See [[wiki/meetings/2025-03-27-flexpay-scope-gap-discovery.md]]. [[raw/flex_pay_scope_gap-mach-27-2025.md]]
+
 ## Open commitments
 
 - [ ] Incom (Alan) — send JVL the blank **location onboarding / merchant setup form** and (Adam) the standard consumer-facing language/terms — due "after this call" (Feb 27) — [[raw/incomm_commissioning_plan_february-27-2025.md]]
@@ -53,3 +57,4 @@ The onboarding kickoff between JVL and Incom. [[raw/incomm_commissioning_plan_fe
 - [[raw/Embedded_Group_alignment_and_update_2025-02-11.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-02-18.md]]
 - [[raw/incomm_commissioning_plan_february-27-2025.md]]
+- [[raw/flex_pay_scope_gap-mach-27-2025.md]]

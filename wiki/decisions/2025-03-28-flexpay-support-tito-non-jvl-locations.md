@@ -3,7 +3,7 @@ type: decision
 title: FlexPay to support TITO at non-JVL locations via a FlexPort-hosted SAS server
 date: 2025-03-28
 aliases: [FlexPay TITO decision, TITO support, SAS server on FlexPay, FlexServer, non-JVL location TITO]
-source-count: 2
+source-count: 3
 status: active
 ---
 
@@ -48,6 +48,7 @@ On the Mar 28 2025 scope-gap meeting, JVL agreed the business requirement and an
 
 ## History
 
+- **The gap was discovered the day before (Mar 27), in an English meeting:** Val learned FlexPay cannot stand alone at a third-party-machine location (FlexPort has no SAS software; "we only have RS232 connector"), called it "a huge, huge scope gap," dictated the MVP ("FlexPay must support Tito operation in a location" — a local 24-hour-expiry validation database), rejected partnering with a third-party SMIB provider (EasyLink), and named **Evgeniy Alekseev + Evgeniy Yavorsky, "nobody else"** for the make-do mini-server. The SMIB/"REV-B FlexPort" idea formalized here originated there. See [[wiki/meetings/2025-03-27-flexpay-scope-gap-discovery.md]] and [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]]. [[raw/flex_pay_scope_gap-mach-27-2025.md]]
 - The core design was **prefigured in a ~2024 architecture meeting**: Pavel presented the same two options (third-party SAS host vs. a JVL-proprietary SAS host in/beside the kiosk, preferred as cheaper for the operator), the WSS link to FlexPay, and the **9-bit serial** converter blocker ("we need to use 9 bits operation… quite different"), with converters to be bought and tested. See [[wiki/topics/olap-power-bi-architecture.md]] and [[wiki/meetings/2024-sql-olap-visualization-architecture-2.md]]. [[raw/architecture_sql_olap_visualization_2_2025-03-29.md]]
 
 ## Open questions
@@ -58,4 +59,5 @@ On the Mar 28 2025 scope-gap meeting, JVL agreed the business requirement and an
 ## Sources
 
 - [[raw/scope_gap_tito_flex_pay-march-28-2025.md]]
+- [[raw/flex_pay_scope_gap-mach-27-2025.md]]
 - [[raw/architecture_sql_olap_visualization_2_2025-03-29.md]]

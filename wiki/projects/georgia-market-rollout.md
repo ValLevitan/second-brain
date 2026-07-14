@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze]
-source-count: 7
+source-count: 8
 open-questions: 3
 ---
 
@@ -61,6 +61,10 @@ JVL's core land-based market — the conventional **Georgia co-op / COAM** busin
 - On the Mar 28 game-design review, **Peach 1** revision was awaiting Juan's review (he planned to go into the office the following Tuesday). **Peach 2** got a new **nudge animation-freeze** requirement — its games run particle animations on the frame border that clash with the nudge arrows, so all animation now freezes during a nudge event except the correct arrow; this makes **Peach 2 longer** but **Peach 3** should be back on track. See [[wiki/topics/slot-game-design-principles.md]]. [[raw/games_design_meeting-march-28-2025.md]]
 - **Peach 4** remains **uncommitted / undeployed** — its games (**La Rosa**, **El Jaguar**, **5X Peppers**, **Cold Cash**) are the testbed for reskinning existing games (details on [[wiki/topics/jvl-machine-lineup.md]]). Games ship as **packs of six**. [[raw/games_design_meeting-march-28-2025.md]]
 
+## FlexPay kiosk demo for GAMOA (Apr 18, planned as of Mar 27)
+
+- On **April 18** [[wiki/people/felipe-miranda.md|Felipe]] is to demo the FlexPay kiosk **in a private room at a hotel** "for the Gamoa" (transcript rendering — the Georgia operators' audience; spelling unclear), a repeat of the show demo. The 3D-printed prototype kiosk in the Georgia office is to be discarded; newly assembled hardware ships from Toronto. See [[wiki/meetings/2025-03-27-flexpay-scope-gap-discovery.md]]. [[raw/flex_pay_scope_gap-mach-27-2025.md]]
+
 ## Open questions
 
 - Was routing Jackpot Rush / JPRE for Georgia onto the **old framework** (curved cabinet) a deliberate plan or an oversight? Val said he didn't recall discussing it and parked it for a later meeting. [[raw/game_design_meeting_march_7_2025.md]]
@@ -76,3 +80,4 @@ JVL's core land-based market — the conventional **Georgia co-op / COAM** busin
 - [[raw/doug_update_jvl-march-23-2025.md]]
 - [[raw/games_markets-march-24-2025.md]]
 - [[raw/games_design_meeting-march-28-2025.md]]
+- [[raw/flex_pay_scope_gap-mach-27-2025.md]]

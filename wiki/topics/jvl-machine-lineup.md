@@ -3,7 +3,7 @@ type: topic
 title: JVL machine and cabinet lineup
 date: 2026-07-12
 aliases: [Flex cabinets, Altera, Maple, Echo, Flex S, Flex C, Flex V42, Flex V42/C, cabinets, VLT, video lottery terminal, Flex SD27, V43, C10-VLOT-TERM-RU, Epic 950, FutureLogic, FlexPort, FlexPay, Nico, Miranda, Omni, Florida Ruta, CPU kit, coffin, iOBoard, Bally iview, Diamondlink, nano-optics, JCM, dual SAS, HAL, FireEyes Wink, Dragon Supreme, Kai-Ocho, Maneki-neko, HG-6, kiosk, Incom, TITO, SMIB, SAS server, La Rosa, El Jaguar, Golden Husk, 5X Peppers, Cold Cash, Pink Princess, Jungle Jaguar]
-source-count: 27
+source-count: 28
 ---
 
 # JVL machine and cabinet lineup
@@ -86,6 +86,7 @@ A running glossary of the machine models, cabinet types, and product families th
     - **Cold Cash** — the **sixth game in Peach 4**; kept **as-is** (older animation) because some players still like that style ("a different flavor of ice cream"), against an earlier suggestion to change a different game. [[raw/games_design_meeting-march-28-2025.md]]
     - **Fortune Football** — bonus to be tried and pushed **early the following week** (GMI/GLI "pretty close," ~Tuesday). [[raw/games_design_meeting-march-28-2025.md]]
     - **Kai-Ocho ("Kaio-Jo") and Dragons of Rain (fiery-ice / Firelink family)** — deployment was waiting on a **new GLI sound file**, which Juan received and was installing in the office on Tuesday (updates the Mar-7 Kai-Ocho audio item). Juan planned to discuss with Val **installing it as-is at ≥1 location "at risk of losing our footprint."** [[raw/games_design_meeting-march-28-2025.md]]
+  - **Kai-Ocho praise + continue-the-theme rulings (Mar 26, Val–Gottlieb one-on-one):** both called **Kai-Ocho** "some of the best work the team has done" (Val: "I'm so happy with that product, and I can't wait to get it deployed"); Val wants the theme **grown into more advanced mechanics**, "just like Jackpot Rush," and likewise wants the **"festive German beer girl"** game — designed by a **"David"** (first mention of this designer name; unresolved, no other context) — continued. Gottlieb's supporting principle: "you take the stuff that works, and you continue on with it" (his father's 15–20 poker-themed pinballs). [[raw/michael_gottlieb_val_meeting-26-2025.md]]
   - **"Nico" cat game (Feb 6 review):** a game with a **"Nico" cat** character reviewed as still-image mockups (Lena presenting) — idle-with-meters, an attraction mode with promo text and character animation, and an on-machine view. Open feedback items for Juan: the topper **promotional text** (draft: "hold and re-spin feature with up to three bonuses") and the low-camera-angle, "huge and majestic" Nico-cat **topper** image. (Transcript otherwise blank.) [[raw/Game design meeting - February 6, 2025.md]]
 
 ## Screens, formats, and game-build terms
@@ -127,3 +128,4 @@ A running glossary of the machine models, cabinet types, and product families th
 - [[raw/Hardware_redesign-march-27-2025.md]]
 - [[raw/games_design_meeting-march-28-2025.md]]
 - [[raw/scope_gap_tito_flex_pay-march-28-2025.md]]
+- [[raw/michael_gottlieb_val_meeting-26-2025.md]]

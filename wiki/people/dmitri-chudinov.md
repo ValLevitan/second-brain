@@ -4,8 +4,8 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dima]
 disambiguation: "Back-end architect / Java developer. Owner-confirmed 2026-07-13. Belarusian spelling Dzmitry Dudzinau = same person. Distinct from Dmitri Kovalchuk (IT), Dmitriy Khandov (Senior 3D Graphic Designer), and Andrey/Andrew Khandov (Miranda dev). Resolve 'Dima' by context: backend/Java/server-architecture → Chudinov."
-source-count: 6
-open-commitments: 1
+source-count: 8
+open-commitments: 2
 open-questions: 0
 ---
 
@@ -19,7 +19,21 @@ Dmitri Chudinov is a JVL **back-end architect / Java developer** (owner ruling 2
 - **Legacy-CMS requirements lead (Mar 23 2025):** the "Dima" who produced the whiteboard **CMS legacy block diagram**, and who (with [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]]) drafts the CMS requirements and proposes the microservices/repo architecture. Context (CMS/backend/architecture) resolves this "Dima" to Chudinov. See [[wiki/decisions/2025-03-23-migrate-legacy-cms-svn-to-github-by-features.md]] and [[wiki/topics/persona-driven-design-and-orchestration-platform.md]]. [[raw/cms_persona_requirements-march-23-2025.md]]
 - **FlexPort back-end debugging (Mar 25 2025):** on the embedded standup the transcript names "Чудинов" (Chudinov) as the one to pair with [[wiki/people/eugine-yavorski.md|Yavorski]] on FlexPort logs. Notably, Val describes this Dima as **moonlighting** — he has a day job and can only work FlexPort around it (reachable ~7–11am Toronto time), which Val treats as a scheduling constraint. See [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]]. [[raw/Embedded_Group_alignment_and_update_2025-03-25.md]]
 
+- **FlexPay backend author (stated Mar 27 2025):** on the English scope-gap meeting Pavel described the FlexPay software stack as "backend introduced by Dima, and frontend implemented by Igor Hrybko and Anton Seregin" (HTML5/JavaScript GUI) — backend context resolves this Dima to Chudinov; he would add/extend the small ticket-number server for the TITO MVP. See [[wiki/meetings/2025-03-27-flexpay-scope-gap-discovery.md]]. [[raw/flex_pay_scope_gap-mach-27-2025.md]]
 - **FlexPay TITO scope-gap (Mar 28 2025):** on the TITO meeting the transcript names "Дима Чудинов"; he takes part in the SAS-server / WSS-protocol design (e.g. that the SAS test-tool functionality can be reused) and is tasked to **send Eugine the list of SAS commands** to implement first. See [[wiki/decisions/2025-03-28-flexpay-support-tito-non-jvl-locations.md]]. [[raw/scope_gap_tito_flex_pay-march-28-2025.md]]
+
+## The back-office monolith one-on-one (~Mar 19 2025, date inferred)
+
+A Russian one-on-one with Val (see [[wiki/meetings/2025-03-19-back-office-architecture-chudinov.md]]), triggered by a **QR-code failure**, in which Chudinov explained and defended the back-office server he owns: [[raw/back_office_next_step_forward_dzima_chudinov.md]]
+
+- **How the QR flow works:** scanning the QR turns the picture into a URL-style request carrying the machine's address, identity, and statistics; the server checks the machine exists, saves the statistics, verifies the machine still has a working **"Лиза"** (lease/license), and if so issues a new apply-code back to the machine — a small piece of information travelling from machine, through the user's phone, encrypted. [[raw/back_office_next_step_forward_dzima_chudinov.md]]
+- **Why it broke:** hard to say — the server uses third-party application libraries he called "morally outdated"; this error had never occurred before and can't even be handed to QA to reproduce. [[raw/back_office_next_step_forward_dzima_chudinov.md]]
+- **The monolith:** "99%" of the work today is **one application on one server with one database** ("MainJVL Server" on his diagram) that does everything — issues leases, saves statistics, machine creation/installation/remote setup and more — so any update or outage takes *all* functions down (QR and online lease issuance, statistics, registration). His proposed direction: **break the monolith into functional services**, starting with the most business-critical (leases and statistics), with DevOps-level parallel service redundancy later. [[raw/back_office_next_step_forward_dzima_chudinov.md]]
+- **The diagram fight:** he had drawn a current/future diagram in **Mermaid** (25 minutes' work, after checking with an Andrei about the Confluence whiteboard — see the meeting stub for the unresolved Andreis); Val was angry that his emailed instruction to move diagrams to **Confluence** (which has a whiteboard) had been set aside, and that no proper as-is architecture diagrams exist at all. Chudinov said his Miro exports are saved and he'll transfer them when time frees up; his position was that the architecture hasn't changed so redrawing the as-is has little point — Val insisted the as-is must be drawn before any move-forward can be assessed, and Chudinov agreed. [[raw/back_office_next_step_forward_dzima_chudinov.md]]
+- **Workload:** he protested being asked for a full solution in a 20–30-minute slot while carrying a "burning FlexPay" (горящий FlexPay); he asked to finish the FlexPay work first. Estimate for assembling the architecture schemas: **"a couple of days… maybe by the end of next week."** Val said he would schedule a **two-hour architecture meeting on Thursday at 8 am**. [[raw/back_office_next_step_forward_dzima_chudinov.md]]
+- Val's method suggestion to him: **record yourself on audio narrating the architecture diagram**, feed it to **ChatGPT**, and let it produce a concise story and diagram to rework before showing the group. Chudinov agreed. [[raw/back_office_next_step_forward_dzima_chudinov.md]]
+
+*(Note: by Mar 23 a "CMS legacy block diagram" whiteboard by Dima existed — see [[wiki/decisions/2025-03-23-migrate-legacy-cms-svn-to-github-by-features.md]] — which may be this deliverable or part of it; the sources don't connect them explicitly, so the commitment below stays open.)*
 
 **Distinct people (do not merge), all sometimes called "Dima":** [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] (IT), [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]] (Senior 3D Graphic Designer), and [[wiki/people/andrew-khandov.md|Andrey/Andrew Khandov]] (Miranda developer). Resolve every bare "Dima" by context, never by name alone.
 
@@ -30,6 +44,7 @@ Dmitri Chudinov is a JVL **back-end architect / Java developer** (owner ruling 2
 ## Open commitments
 
 - [ ] Dima Chudinov — send Eugine the minimal list of **SAS commands** to implement first for the TITO/SAS-server work — due unspecified — [[raw/scope_gap_tito_flex_pay-march-28-2025.md]]
+- [ ] Dima Chudinov — assemble and properly format the back-office architecture schemas (as-is + future) for the Thursday 8 am architecture meeting — due "a couple of days… maybe end of next week" — [[raw/back_office_next_step_forward_dzima_chudinov.md]]
 
 ## Sources
 
@@ -38,4 +53,6 @@ Dmitri Chudinov is a JVL **back-end architect / Java developer** (owner ruling 2
 - [[raw/Git_repo_structure_part_2_2025-02-11.md]]
 - [[raw/cms_persona_requirements-march-23-2025.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-03-25.md]]
+- [[raw/back_office_next_step_forward_dzima_chudinov.md]]
+- [[raw/flex_pay_scope_gap-mach-27-2025.md]]
 - [[raw/scope_gap_tito_flex_pay-march-28-2025.md]]

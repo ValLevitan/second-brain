@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest]
-source-count: 17
+source-count: 18
 ---
 
 # AI-assisted development adoption
@@ -71,6 +71,7 @@ Coaching Andrei, Val described the workflow he uses himself and wants his manage
 ## VS Code + MCPs, and a Unity MCP (Mar 26)
 
 - Aaron introduced a new **Unity MCP server** (one of several then appearing; a "leading one" — brand not stated). An MCP is a layer between a data source (Unity, SQL, a weather station, Jira) and the AI that presents a unified set of tools/resources; the AI can call, e.g., a `get assets` tool that reaches the Unity API and serialises assets back as text. Beyond *reading*, the Unity MCP can **set** state — create and place objects/shapes in a scene automatically — and, because it runs in VS Code with the Git repo context, could combine with **Miranda** to pull library assets and lay out scenes on request. [[raw/mcp_unity_visualcode-march-26-2025.md]]
+- Corroboration: in the same-day Gottlieb one-on-one Val cited it as news — "Two days ago, there was a new MCP introduced in the market that communicates with Unity in human language" — and defined MCP for Gottlieb ("Model Context Protocol… It's not an API… MCP talks to an API"). [[raw/michael_gottlieb_val_meeting-26-2025.md]]
 - Aaron's own stack of MCPs (the model he holds up): **Atlassian, Anthropic "Cloud" (i.e. Claude), Microsoft 365, GitHub, Whisper** — used through a human-language interface. (The transcript renders Claude as "Cloud"/"Cloud AI"; recorded as such, likely a mis-transcription of "Claude.") [[raw/mcp_unity_visualcode-march-26-2025.md]]
 - **Val's directive:** the team should keep using VS Code with these integrations and prefer **Anthropic Claude with Sonnet 3.7** (called "considerably better than ChatGPT" for many cases) over ChatGPT; before the **April 9** meeting everyone must install the **GitHub MCP** and **Anthropic "Cloud" (Sonnet 3.7)** and run them through **OpenRouter** (JVL has an auto-refill corporate-card subscription). That meeting was extended 30 min (start **9:00**): Val will test each person's VS Code + MCP usage, then the GitHub portion. Team members already trying it: Lena, Yuli, Nastya, Dima Khandov. [[raw/mcp_unity_visualcode-march-26-2025.md]]
 
@@ -136,3 +137,4 @@ On the Mar 31 Val-Aaron session (see [[wiki/meetings/2025-03-31-vector-db-second
 - [[raw/development_pipeline_–_executive_summary_the_meeting_–_1_2025-03-29.md]]
 - [[raw/solid_work_integration_and_the_overall_architecture_suggesti_2025-03-29.md]]
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
+- [[raw/michael_gottlieb_val_meeting-26-2025.md]]

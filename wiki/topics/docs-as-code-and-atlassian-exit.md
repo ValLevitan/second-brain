@@ -3,7 +3,7 @@ type: topic
 title: Docs-as-code and the plan to exit Atlassian
 date: 2025-02-21
 aliases: [docs as code, documentation site, GitHub Pages, GitHub Docs, mermaid, Confluence exit, Atlassian exit, single source of truth, template repo, contact sheet, GDD]
-source-count: 3
+source-count: 4
 open-questions: 1
 ---
 
@@ -39,6 +39,10 @@ The Feb 28 Git check-in put these principles into practice on the **Fortune Foo 
 - **The commit-to-main lesson.** A live gitignore **merge conflict** arose because designers had committed directly to `main` (adding Blender `blend1` temp files + logs), which broke Aaron's open pull request. He walked them through resolving it in the GitHub UI, and drew the lesson: **don't blindly commit to `main`** — pending pull requests must be merged in the right order, and the **repo owner merges the PR** (a contributor requests, the owner pulls it in). [[raw/Git_progress_check_in_2025-02-28.md]]
 - **Contact-sheet automation.** [[wiki/people/andrey-bosik.md|Andre]] fixed the GitHub Action in the repo's `.github` folder (the Photoshop→contact-sheet automation) and is to set up Git-access credentials for it and modify its YAML so it can commit; the Wednesday-9am demo target is to commit a Photoshop file and see it added to the contact sheet. Aaron noted [[wiki/people/aaron.md|Aaron]] himself should be used as a **consultant, not an employee**. [[raw/Git_progress_check_in_2025-02-28.md]]
 
+## Confluence whiteboard as the current diagram home (~Mar 19 2025)
+
+- By mid-March the interim state was: JVL **left Miro** ("мы же ушли от мира") and Val had emailed everyone that **"we are switching to Confluence"** — Confluence has a whiteboard — as the place for architecture diagrams, with **Mermaid** in active use for drawing (Chudinov drew his diagram in "Мермейн" — Mermaid — having been told "сейчас рисуют через Мермейн"). [[wiki/people/dmitri-chudinov.md|Dima Chudinov]] had saved his Miro exports but not yet transferred them; access reportedly requires Git accounts. (Consistent with the Feb rule that Confluence is transitional — this is the sandbox tier, while committed markdown remains the source of truth.) See [[wiki/meetings/2025-03-19-back-office-architecture-chudinov.md]]. [[raw/back_office_next_step_forward_dzima_chudinov.md]]
+
 ## Open questions
 
 - The initial Confluence-to-Markdown export was **incomplete**: the symbol table (symbol names + export naming) that exists in Confluence did **not** port. Aaron said Confluence's export may be lossy and it must be reconciled. [[raw/GitHub_commit_of_LFS_demo_by_Lena_2025-02-21.md]]
@@ -48,3 +52,4 @@ The Feb 28 Git check-in put these principles into practice on the **Fortune Foo 
 - [[raw/GitHub_commit_of_LFS_demo_by_Lena_2025-02-21.md]]
 - [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]
 - [[raw/Git_progress_check_in_2025-02-28.md]]
+- [[raw/back_office_next_step_forward_dzima_chudinov.md]]
