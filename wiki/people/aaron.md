@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie]
-source-count: 32
+source-count: 34
 ---
 
 # Aaron
@@ -92,6 +92,12 @@ His surname is given as **Bockelie** on the Jan 21 continuous-delivery transcrip
 
 - Aaron screen-shared to configure a self-hosted **Open WebUI** on Val's laptop end-to-end (settings, memory, models, web search via DuckDuckGo, image generation, connecting OpenAI's Whisper-1 and importing the **Anthropic** function so both Claude and GPT models are available in one UI), flagged that it could be deployed on **JVL's Active Directory** to replace individual ChatGPT accounts, and noted OpenAI had just adopted **MCP** across its products. He closed with a lesson on **good-vs-bad MCP-server design** (raw-endpoint vs consolidated-tool vs stateful/suggesting), and had cancelled a Minsk meeting to focus on it. See [[wiki/topics/ai-assisted-development.md]] and [[wiki/meetings/2025-03-27-openwebui-aaron-setup.md]]. [[raw/OpenWebUI_aaron_march-27-2025.md]]
 
+## RGS Git session + vector-DB teaching day (Mar 31)
+
+- **RGS migration session:** drove the plan to make the freshly-cloned RGS "whole on GitHub" — assigned [[wiki/people/igor-metelski.md|Igor Metelski]] the local-build task and a findings log, taught him git submodules, read the SVN `Checkout All` batch file into a repo map (MathEngine etc.), and challenged JVL's dev/prod "artificial wall" (agreeing to a one-on-one with [[wiki/people/efim-podvoiski.md|Efim]] on running the RGS in future). See [[wiki/decisions/2025-03-17-migrate-rgs-codebase-svn-to-git.md]] and [[wiki/meetings/2025-03-31-rgs-git-migration-working-session.md]]. [[raw/rgs_git_migration-march-31-2025.md]]
+- **Vector-DB / Open Semantic Search session:** walked Val through where Open WebUI stores his vectorized transcripts, the internal-vs-Pinecone/Chroma trade-off, semantic search and diarization limits, and attempted an Open Semantic Search (Apache Solr) install via Cline — unfinished (Solr 503). See [[wiki/topics/transcript-knowledge-base-tooling.md]] and [[wiki/meetings/2025-03-31-vector-db-second-brain-session.md]]. [[raw/vector_meeting_db-march-31-2025.md]]
+- **Consulting-spend calculus:** showed Val his own AI usage — "I spent $1,300 over the last four months on my account"; "A lot of what you're paying me, I'm turning back into this to make sure that I can do things correctly and faster... I can do it real slow by myself, by hand, or we can do it really fast." He recommended JVL issue **separate API keys per developer** to measure adoption, and delivered the farmer/combine and dark-forest adoption arguments — see [[wiki/topics/ai-assisted-development.md]]. [[raw/vector_meeting_db-march-31-2025.md]]
+
 ## History — 2024 and earlier (sources staged 2025-03-29)
 
 - **JVL Insights (~2023–24):** Aaron's earliest recorded JVL engagement — named **"Aaron Bockelie (Atlassian Specialist) - Consultant"** in the JVL Insights knowledge-base proposal, scoped to integrate it with JIRA/Confluence, set up project-tracking/documentation workflows, and train the team on Atlassian tools. See [[wiki/projects/jvl-insights-knowledge-base.md]]. (Compensation figures in the source withheld, §15.8.) [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
@@ -131,3 +137,5 @@ His surname is given as **Bockelie** on the Jan 21 continuous-delivery transcrip
 - [[raw/aaron_tagging_science-march-21-2025.md]]
 - [[raw/OpenWebUI_aaron_march-27-2025.md]]
 - [[raw/aaron_visualization_making_use_of_knowledge-march-28-2025.md]]
+- [[raw/rgs_git_migration-march-31-2025.md]]
+- [[raw/vector_meeting_db-march-31-2025.md]]

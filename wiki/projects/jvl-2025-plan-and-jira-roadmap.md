@@ -2,9 +2,10 @@
 type: project
 title: JVL 2025 strategic plan and Jira roadmap
 date: 2026-07-12
-aliases: [2025 plan, strategic plan 2025, Jira value stream, distribution infrastructure, DevSecOps grooming, ITSM]
-source-count: 8
+aliases: [2025 plan, strategic plan 2025, Jira value stream, distribution infrastructure, DevSecOps grooming, ITSM, GitHub Jira alignment]
+source-count: 9
 open-commitments: 1
+open-questions: 1
 ---
 
 # JVL 2025 strategic plan and Jira roadmap
@@ -57,6 +58,21 @@ Two Jan 20 sessions moved the DevSecOps pillar from strategy into concrete tool 
 
 - The Feb 11 repo-structure session locked the GitHub org naming convention and the **7-organization list** (Games Production; Math & Game Mechanics; Platform; Observability Platform; Core Technology; Systems Operations; Hardware & Firmware), with Pavel and Aaron agreeing to **restructure the Jira value streams to match** the orgs. Repo migration sequenced: Omni/Miranda/FlexPay → RGS → inventory-map the rest. See [[wiki/decisions/2025-02-11-github-org-naming-and-structure.md]] and [[wiki/decisions/2025-02-11-git-migration-sequence.md]]. [[raw/Git_repo_structure_part_2_2025-02-11.md]]
 
+## GitHub-Jira level alignment debate (Mar 31)
+
+A Russian-language Mar 31 meeting (Val with Irina, Andrey, Pavel and a "Yura" — see [[wiki/meetings/2025-03-31-github-jira-alignment.md]]) took up making the GitHub and Jira hierarchies match level-for-level ("уровни были одинаково распланированы и в гитте, и в Jira"): [[raw/github_jira_alignment-march-31-2025.md]]
+
+- **What already matches:** features and the tasks under features sit at the same level in both GitHub and Jira ("фичер и таски уже под фичер, они на одном и том же уровне всегда"); feature branches correspond to features, features roll up into a **product**, and the product is then the **repository**. [[raw/github_jira_alignment-march-31-2025.md]]
+- **The open question — what is the GitHub organization?** Val proposed the organization = the Jira **initiative** ("организация является инышарев" — the transcript garbles "initiative" as "инышарев" throughout). The counter-argument (speaker not attributable from the transcript): initiatives can end and close, JVL would get "very many organizations," and a GitHub organization name is globally **unique** — it is meant to be a very large abstract entity "usually including hundreds of repositories." That implies skipping the initiative level and rolling all products under **value streams** in Jira. [[raw/github_jira_alignment-march-31-2025.md]]
+- **Proposed consequence:** reorganize Jira — possibly drop the top initiative level and go straight from value streams to products ("Тогда я предлагаю переорганизовать джиру... Сразу от value streams идти к продукту"). A participant declined to decide on the spot: "Я не готов принять сейчас такое решение. Надо подумать." [[raw/github_jira_alignment-march-31-2025.md]]
+- **Homework, no decision:** study the topic that evening — talk to ChatGPT, read GitHub best practice, look for articles on how large companies solved this — and reconvene **Wednesday at 7 a.m.** [[raw/github_jira_alignment-march-31-2025.md]]
+
+This debate revisits (but does not supersede) [[wiki/decisions/2025-01-20-github-orgs-mirror-value-streams.md]] and the Feb 11 org structure [[wiki/decisions/2025-02-11-github-org-naming-and-structure.md]].
+
+## Open questions
+
+- Should the GitHub organization map to the Jira **initiative** or the **value stream** — and should Jira drop its initiative level and go value stream → product? (Homework set; follow-up Wednesday 7 a.m.) — [[raw/github_jira_alignment-march-31-2025.md]]
+
 ## Open commitments
 
 - [ ] Andrei — rework the DevSecOps initiatives/products in Jira to align with the Miro board (rename initiatives + descriptions, create initiative and product cards, every Miro card = a Jira issue); demo a small slice at a Wednesday check-in — due Friday (with Wednesday check-in) — [[raw/meeting_various-jan-20-2025.md]]
@@ -71,3 +87,4 @@ Two Jan 20 sessions moved the DevSecOps pillar from strategy into concrete tool 
 - [[raw/meeting_various-jan-20-2025.md]]
 - [[raw/it_structure_minsk-jan-22-2025.md]]
 - [[raw/Git_repo_structure_part_2_2025-02-11.md]]
+- [[raw/github_jira_alignment-march-31-2025.md]]

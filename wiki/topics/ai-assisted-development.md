@@ -2,8 +2,8 @@
 type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
-aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower]
-source-count: 16
+aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest]
+source-count: 17
 ---
 
 # AI-assisted development adoption
@@ -91,6 +91,21 @@ A separate, earlier hands-on session shows the **installation** of Open WebUI th
 - **Why the GPU:** loading documents into **Retrieval-Augmented Generation / a vector database** is computationally intensive (every document is decomposed and the relative scores of all its words computed), so they installed the **NVIDIA Container Toolkit** + **CUDA drivers** (`cuda-toolkit`) and configured Docker's NVIDIA runtime, to use the laptop's built-in GPU; a reboot was needed after the driver install. [[raw/aaron_visualization_making_use_of_knowledge-march-28-2025.md]]
 - **Hosting angle:** Aaron noted this is the kind of service that might run better in **a more central location than the laptop** — Val could ask **"Andrea"** (transcribed; likely [[wiki/people/andrey-bosik.md|Andrei Bosik]], DevOps — flagged) to set it up in JVL's **AWS cluster or Azure** — consistent with the Mar-27 multi-user / Active-Directory deployment idea above. [[raw/aaron_visualization_making_use_of_knowledge-march-28-2025.md]]
 
+## The OpenRouter spend audit — "nobody's really using it" (Mar 31)
+
+On the Mar 31 Val-Aaron session (see [[wiki/meetings/2025-03-31-vector-db-second-brain-session.md]]) Aaron used token spend as the adoption metric: [[raw/vector_meeting_db-march-31-2025.md]]
+
+- **The test:** "If they were [using these techniques], I would have already expected to see all the code bases and stuff moved over. I would have expected to have seen several thousand dollars worth of token use on your OpenRouter account." [[raw/vector_meeting_db-march-31-2025.md]]
+- **The actual numbers** (from Val's OpenRouter account, after resolving a comma-vs-decimal confusion — an apparent "$3,000" was a decimal comma): **Igor ~$155** worth of tokens (the top JVL user — "Igor's used a lot... $155"; context suggests [[wiki/people/igor-metelski.md|Igor Metelski]] from that morning's RGS session — inference, flagged), **Efim ~$55** (third in line — the transcript's "FEMA is third in line" read as Efim, inference from the $55 line), **Andre "a little bit"** ([[wiki/people/andrey-bosik.md|Andrey Bosik]], inference by DevOps context), nobody else. Aaron's own comparison: "I used $173" and "I spent $1,300 over the last four months on my account." Verdict: "So nobody's really using it." [[raw/vector_meeting_db-march-31-2025.md]]
+- **Recommendation:** "make sure that you give everybody separate API keys so you can track to see who's using it. That'll give you a metric right there" — and treat tokens like **fuel for the combine**: expect waste while learning, then a minimum competency level, then a continued budget "for your fuel... to be able to develop faster." (This per-developer-keys advice reverses the Feb 18 one-shared-account arrangement — evolution, newer stance recorded here.) [[raw/vector_meeting_db-march-31-2025.md]]
+
+## Aaron's adoption thesis — farmers, combines, and the dark forest (Mar 31)
+
+- **The farmer/combine analogy:** software engineers are "like highly paid specialized farmers" tending crops by hand for 20 years; AI tooling is Aaron arriving "with a fucking combine and a huge tractor... It'll take me 10 minutes. Usually it takes you a month." "The farmers that do want to learn how to drive it are the successful ones and the ones that do not, no longer farm." The combine won't pick the crops or read the market — that engineering judgment stays human; the tool is for "writing the code faster." [[raw/vector_meeting_db-march-31-2025.md]]
+- **Timeline claim:** asked how far away the shift is, Aaron: "I'd say a year. Give it 12 months. It's happening right now." He cited Amazon — "Amazon retired 10,000 people" under a flattening/maturity narrative he called "total bullshit... They just pick a couple good people that know how to use this, and they replace five, ten people with that." (Source claims, recorded as said.) [[raw/vector_meeting_db-march-31-2025.md]]
+- **Dark forest theory:** companies succeeding with AI tools "are not telling anybody... they don't want to let their competitors actually let them understand what's going on" — so the revolution looks quieter than it is. [[raw/vector_meeting_db-march-31-2025.md]]
+- **JVL's culture gap:** Aaron and Val noted [[wiki/people/efim-podvoiski.md|Efim]] and Igor were "totally unaware... They had no curiosity either" during that morning's session; Aaron: "This is how JVL engineers should be working because they know a lot about what they're doing." Val on the "vibe coding" label put on him: "it's a bit of a slur... I'm not trying to become an engineer. I'm just trying to become a better executive." [[raw/vector_meeting_db-march-31-2025.md]]
+
 ## Connection to the pipeline debate
 
 - Val explicitly linked adopting Git-native, AI-friendly practices to resolving the ISO build-pipeline problem: a natural-language/AI interface should be a standard part of a pipeline built to last 10 years. See [[wiki/topics/build-pipeline-parameterization.md]]. [[raw/development_pipeline_january_13_2025.md]]
@@ -117,6 +132,7 @@ A separate, earlier hands-on session shows the **installation** of Open WebUI th
 - [[raw/mcp_unity_visualcode-march-26-2025.md]]
 - [[raw/OpenWebUI_aaron_march-27-2025.md]]
 - [[raw/aaron_visualization_making_use_of_knowledge-march-28-2025.md]]
+- [[raw/vector_meeting_db-march-31-2025.md]]
 - [[raw/development_pipeline_–_executive_summary_the_meeting_–_1_2025-03-29.md]]
 - [[raw/solid_work_integration_and_the_overall_architecture_suggesti_2025-03-29.md]]
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]

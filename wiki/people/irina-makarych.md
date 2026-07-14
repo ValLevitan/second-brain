@@ -3,7 +3,7 @@ type: person
 title: Irina Makarych
 date: 2025-01-15
 aliases: [Irina Makarych, Irina, Irina Makarich]
-source-count: 5
+source-count: 6
 open-commitments: 0
 open-questions: 0
 ---
@@ -31,6 +31,10 @@ See [[wiki/topics/build-pipeline-parameterization.md]] and [[wiki/topics/test-au
 
 - On the Nebraska call, Irina ("Ira"/"Irina") made the recommendation the team adopted: take the **latest version 1.14 (already in VDEC)** and just **revert the nudge to its old presentation**, rather than modifying the old software — "everything is here, it's all working… easier and more reliable." See [[wiki/projects/nebraska-skill-market.md]] and [[wiki/decisions/2025-03-14-base-nebraska-on-georgia-conservative-nudge.md]]. [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
 
+## GitHub-Jira alignment (Mar 31)
+
+- An "Ирина" attended the Mar 31 Russian-language meeting on aligning GitHub and Jira hierarchy levels (with Val, Andrey, Pavel and an unresolved "Yura") — resolved here by context (the only known Irina in JVL Minsk engineering planning; inference). See [[wiki/meetings/2025-03-31-github-jira-alignment.md]]. [[raw/github_jira_alignment-march-31-2025.md]]
+
 ## Sources
 
 - [[raw/integration_and_testing_procedures_january_15_2025.md]]
@@ -38,3 +42,4 @@ See [[wiki/topics/build-pipeline-parameterization.md]] and [[wiki/topics/test-au
 - [[raw/sd_vlt_recap-jan-22-2025.md]]
 - [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 - [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
+- [[raw/github_jira_alignment-march-31-2025.md]]

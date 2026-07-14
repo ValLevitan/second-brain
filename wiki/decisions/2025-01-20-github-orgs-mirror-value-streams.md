@@ -3,10 +3,10 @@ type: decision
 title: Structure GitHub organizations to mirror the Jira value streams (2025-01-20)
 date: 2025-01-20
 aliases: [GitHub org structure, GitHub organizations value streams, GitHub champions]
-source-count: 1
+source-count: 2
 status: active
 open-commitments: 1
-open-questions: 0
+open-questions: 1
 ---
 
 # Structure GitHub organizations to mirror the Jira value streams (2025-01-20)
@@ -24,6 +24,14 @@ open-questions: 0
 
 Relates to [[wiki/decisions/2025-01-15-adopt-github-over-bitbucket.md]] and [[wiki/topics/ai-assisted-development.md]].
 
+## Follow-up (Mar 31) — the org-level question reopened
+
+On Mar 31 Val proposed mapping GitHub organizations to Jira **initiatives** instead; the counter-argument (org names are globally unique, orgs are very large entities, initiatives close) pointed back toward value streams and possibly dropping Jira's initiative level. No decision — homework set, follow-up Wednesday 7 a.m. This decision stays **active** until that is resolved. Details on [[wiki/projects/jvl-2025-plan-and-jira-roadmap.md]]. [[raw/github_jira_alignment-march-31-2025.md]]
+
+## Open questions
+
+- Does the GitHub organization map to the Jira initiative or the value stream (Mar 31 debate, unresolved)? — [[raw/github_jira_alignment-march-31-2025.md]]
+
 ## Open commitments
 
 - [ ] Andrei — create the DevSecOps GitHub organization and begin setting it up (repos + projects); read the leadership/modern-software-org material Aaron shared; grow into the DevSecOps (not just engineer) role — due unspecified — [[raw/github_organization-jan-20-2025.md]]
@@ -31,3 +39,4 @@ Relates to [[wiki/decisions/2025-01-15-adopt-github-over-bitbucket.md]] and [[wi
 ## Sources
 
 - [[raw/github_organization-jan-20-2025.md]]
+- [[raw/github_jira_alignment-march-31-2025.md]]

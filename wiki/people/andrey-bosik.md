@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre]
 disambiguation: "JVL DevOps manager. Distinct from Andrei Klimovich (online-games commercial lead) and from Andrew Khandov (C# Miranda developer). Owner-confirmed 2026-07-13. Canonical first name 'Andrey'."
-source-count: 22
+source-count: 25
 open-commitments: 5
 ---
 
@@ -73,6 +73,12 @@ His surname is given as **Bosik** on the Feb 12 GitHub check-in (WEBVTT). (Disti
 
 - Andrei **demoed the working template repository** (one-button instancing; predefined Actions for contact sheets, sprites, and PR migration/update). Val pushed him and the team to build a **pull-request-back-to-template** loop (fork the template → incorporate a project's improvements → PR back) so templates don't go stale, and — with [[wiki/people/lena.md|Lena]] — flagged future **per-game-type templates** (Georgia/Omnia, Persistence, classical). This continues his generic-template commitment below. See [[wiki/topics/graphics-team-git-workflow.md]]. [[raw/github_commits-march-26-2025.md]]
 
+## Mar 31 — GitHub-Jira alignment and the RGS migration
+
+- **GitHub-Jira alignment (Mar 31):** an "Андрей" attended the Russian-language meeting on making GitHub and Jira hierarchy levels match (with Val, Irina, Pavel, and an unresolved "Yura") — resolved to Bosik by context (GitHub/Jira structure is his domain; inference). No decision; homework and a Wednesday-7 a.m. follow-up. See [[wiki/meetings/2025-03-31-github-jira-alignment.md]] and [[wiki/projects/jvl-2025-plan-and-jira-roadmap.md]]. [[raw/github_jira_alignment-march-31-2025.md]]
+- **RGS migration (Mar 31):** Aaron assigned [[wiki/people/igor-metelski.md|Igor Metelski]] to "work with Andre and Afim to get the remaining... SPN [SVN] repos mapped over to git"; Efim confirmed "we" (his side with Andrei) can easily migrate the parts visible in the RGS checkout batch file for a Windows local build. See [[wiki/decisions/2025-03-17-migrate-rgs-codebase-svn-to-git.md]]. [[raw/rgs_git_migration-march-31-2025.md]]
+- **OpenRouter usage:** in the same-day spend audit, "Andre is using it a little bit" (resolved to Bosik by context — he is the established Cline/OpenRouter user among the Minsk engineers; inference). [[raw/vector_meeting_db-march-31-2025.md]]
+
 ## Open commitments
 
 - [ ] Andrei — build a **generic base template** GitHub repo (from the Fortune Fupa template) that new game repos fork from — due unspecified — [[raw/GitHub_for_Graphic_Design_evolution_2025-03-12.md]]
@@ -105,3 +111,6 @@ His surname is given as **Bosik** on the Feb 12 GitHub check-in (WEBVTT). (Disti
 - [[raw/GitHub_for_Graphic_Design_evolution_2025-03-12.md]]
 - [[raw/cms_persona_requirements-march-23-2025.md]]
 - [[raw/github_commits-march-26-2025.md]]
+- [[raw/github_jira_alignment-march-31-2025.md]]
+- [[raw/rgs_git_migration-march-31-2025.md]]
+- [[raw/vector_meeting_db-march-31-2025.md]]
