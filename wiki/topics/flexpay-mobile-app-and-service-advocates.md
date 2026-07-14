@@ -2,13 +2,15 @@
 type: topic
 title: FlexPay mobile app and service advocates
 date: 2026-07-12
-aliases: [FlexPay mobile app, service advocate, service advocates, whale, whale UI, Incom, TITO, SMIB, SAS server, FlexServer]
-source-count: 12
+aliases: [FlexPay mobile app, service advocate, service advocates, whale, whale UI, Incom, TITO, SMIB, SAS server, FlexServer, FlexPay discovery contractor]
+source-count: 13
 ---
 
 # FlexPay mobile app and service advocates
 
 A JVL discussion (Jan 13 2025) about a planned FlexPay mobile app and a new user type — the "service advocate" — that the app should serve. The call was framed as building a persona profile so the product can target this role.
+
+**Earlier origin (Nov 24 2024).** An older source (staged 2025-03-29) shows this app track began earlier: [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] had **selected an external contractor** (Poland legal entity + Belarus dev team) for a **~$8,000 FlexPay discovery phase** (spec + mockups → a later fixed-price build). Whether that contractor was actually engaged or was later superseded by JVL's in-house work is unconfirmed — see [[wiki/decisions/2024-11-24-engage-flexpay-discovery-contractor.md]] and Owner Decisions. [[raw/andrei_klimovich_update_report_online_strategy1_2025-03-29.md]]
 
 ## What a service advocate is
 
@@ -65,3 +67,4 @@ The **FlexPay** payment product itself is confirmed progressing — the Jan 24 2
 - [[raw/Embedded_Group_alignment_and_update_2025-03-25.md]]
 - [[raw/flex_pay_production-march-27-2025.md]]
 - [[raw/scope_gap_tito_flex_pay-march-28-2025.md]]
+- [[raw/andrei_klimovich_update_report_online_strategy1_2025-03-29.md]]

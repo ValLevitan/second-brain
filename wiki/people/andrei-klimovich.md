@@ -3,7 +3,7 @@ type: person
 title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich]
-source-count: 4
+source-count: 8
 open-commitments: 3
 open-questions: 0
 ---
@@ -51,12 +51,25 @@ Andrei Klimovich presented three candidates for the online **Account Manager** r
 - [ ] Andrei Klimovich — produce a quality premium landing page for ECHO before starting paid Meta traffic — due unspecified — [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
 - [ ] Andrei Klimovich — investigate ECHO packaging (find a packaging studio) — due unspecified — [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
 
-## History
+## History — 2023–2024 (batch 16, earlier than the recaps above)
+
+Four older sources (staged 2025-03-29, internally dated 2023–2024) place Andrei Klimovich in his online-distribution role well before the wiki's Jan-2025 start.
+
+- **Aug 8 2023 (earliest record):** he was already running JVL's online distribution and reported a full aggregator/operator pipeline to [[wiki/people/val-levitan.md|Val]] and [[wiki/people/monica.md|Monica]] — Relax Gaming, Pariplay, Spearhead, Hollywood Bets, Apuesta Total and others. This pushes his JVL involvement back to at least Aug 2023. See [[wiki/meetings/2023-08-08-online-platforms-aggregators-status.md]] and [[wiki/topics/online-games-rgs-distribution.md]]. [[raw/jvl_online_sync_2025-03-29 1.md]]
+- **Nov 12 2024:** attended Val's online-vision / RGS-scaling meeting. See [[wiki/meetings/2024-11-12-online-vision-and-rgs-scaling.md]]. [[raw/online_vision_efim_2025-03-29.md]]
+- **Nov 24 2024:** delivered the outsourcing/RGS-economics update, **selected the FlexPay discovery contractor** ([[wiki/decisions/2024-11-24-engage-flexpay-discovery-contractor.md]]), and kicked off the Amazon/ECHO work via [[wiki/people/fedor.md|Fedor]] plus the website redesign. See [[wiki/meetings/2024-11-24-andrei-klimovich-online-strategy-update.md]]. [[raw/andrei_klimovich_update_report_online_strategy1_2025-03-29.md]]
+- **Dec 2024:** brainstormed the fixed-price sales / digital-storefront model with Val. He draws market intel from an external contact, [[wiki/people/pavel-studio-owner.md|Pavel]] (a Ukrainian outsourcing-studio owner he has known 10+ years, and whom he helped seek investment ~2 years before joining JVL). See [[wiki/meetings/2024-12-online-strategy-storefront-brainstorm.md]]. [[raw/online_strategy_brainstorm_with_andrei_klimovich_decembe_2025-03-29.md]]
+
+## Discharged commitments
 
 - [x] Andrei Klimovich — finish hiring a cheap online account manager and bring candidate(s) to Val next week — **discharged Feb 27**: presented three candidates (Sam Mamedov, Egor, Charlotte) to Val with a recommendation. [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]] [[raw/meeting_summary_andrei_klimovich-Feb-27-2025.md]]
 
 ## Sources
 
+- [[raw/jvl_online_sync_2025-03-29 1.md]]
+- [[raw/online_vision_efim_2025-03-29.md]]
+- [[raw/andrei_klimovich_update_report_online_strategy1_2025-03-29.md]]
+- [[raw/online_strategy_brainstorm_with_andrei_klimovich_decembe_2025-03-29.md]]
 - [[raw/Recap with Andrei Klimovich - January 30, 2025.md]]
 - [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
 - [[raw/recap_meeting_andrei-February-21-2025.md]]

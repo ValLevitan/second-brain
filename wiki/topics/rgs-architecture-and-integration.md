@@ -2,8 +2,8 @@
 type: topic
 title: RGS architecture and operator integration
 date: 2025-02-01
-aliases: [RGS, remote game server, RGS API, math container, direct integration, reverse integration, Golden Palace, Digitain, Hub88, BetConstruct, Comtrade Gaming, Postman, OpenAPI]
-source-count: 3
+aliases: [RGS, remote game server, RGS API, math container, direct integration, reverse integration, Golden Palace, Digitain, Hub88, BetConstruct, Comtrade Gaming, Postman, OpenAPI, RGS scaling, 1000 casinos, container model, custom portal]
+source-count: 4
 open-questions: 2
 ---
 
@@ -44,6 +44,15 @@ How JVL's **RGS** (remote game server) is built and how JVL connects it to onlin
 - Val's larger vision (his "dream integration"): an operator self-serves on a JVL website — reviews/marks-up/signs the contract online — and then RGS integration happens almost automatically, "like downloading an installer," instead of engineer-to-engineer Skype threads. Val cited having connected Atlassian and GitHub via MCP through VS Code (done for him by an IT person in ~45 minutes) and Cline's new MCP marketplace as proof such near-automatic connection is possible. See [[wiki/topics/online-games-rgs-distribution.md]] (marketplace). [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
 - Efim's counter-view: the important thing to protect is the math container (plus 2–3 nodes); everything else can be documented and published, and each integration makes the docs better. Val respects but does not fully accept this — he notes Efim is a mathematician, not an architect, and did not design/program the RGS. (Recorded as differing views, not a contradiction between sources.) [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
 
+## History — the 1,000-instance scaling challenge (Nov 12 2024)
+
+An older source (staged 2025-03-29, internally dated **Nov 12 2024**) predates the Feb-2025 material above and is recorded as history. On that call [[wiki/people/val-levitan.md|Val]] set the goal of scaling the RGS from ~**150 casino accounts** to ~**1,000**, integrated **directly** (see the vision on [[wiki/topics/online-games-rgs-distribution.md]]). The engineers (incl. [[wiki/people/efim-podvoiski.md|Efim Podvoiski]]) flagged what has to change. See [[wiki/meetings/2024-11-12-online-vision-and-rgs-scaling.md]]. [[raw/online_vision_efim_2025-03-29.md]]
+
+- **Two integration models named:** via **containers** (as with EveryMatrix, JVL's first integration) or via the **RGS directly**; the operator configures the rest itself. [[raw/online_vision_efim_2025-03-29.md]]
+- **Current architecture assumes tens of accounts, not thousands** — each new casino needs manual setup (config entries / per-instance data), and the "JVL PIR/RGS" part must be re-architected to work from a database for ~1,000 instances. The team judged "1,000 instances" as sounding strange and needing rethinking; a **custom portal** where casinos enter their own data (with human validation of that data) would likely be needed. [[raw/online_vision_efim_2025-03-29.md]]
+- **Platforms seen as increasingly unnecessary:** content doesn't come from the platform; the **RGS + wallet** are what matter, and land-based casinos in well-regulated markets already own/buy their platform. Val floated **renting the RGS (~$100/year)** or even **opening its code** to undercut the platform business. [[raw/online_vision_efim_2025-03-29.md]]
+- **Releasing one game/week** would require minimising the current ~1 hour of manual game-parameter entry per game; a manifest/testing step still needs a human, so the target was to reduce (not fully eliminate) manual work. A follow-up architecture meeting was set for ~**Dec 10 2024**. [[raw/online_vision_efim_2025-03-29.md]]
+
 ## Open questions
 
 - Can the near-automatic "installer-magic" RGS integration actually be achieved, given that JVL cannot control the (varying) API quality on the operators' side? — [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
@@ -54,3 +63,4 @@ How JVL's **RGS** (remote game server) is built and how JVL connects it to onlin
 - [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
 - [[raw/JFrog transcript - February-6-2025.md]]
 - [[raw/Aaron_Val_2025-02-11.md]]
+- [[raw/online_vision_efim_2025-03-29.md]]

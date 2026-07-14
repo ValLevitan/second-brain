@@ -2,8 +2,8 @@
 type: topic
 title: Online games / RGS distribution business
 date: 2025-01-30
-aliases: [online games, RGS distribution, EveryMatrix, RGS Matrix, Brazil market, iGaming, certification economics, revenue share, MaxBet, JVL Marketplace, marketplace, platform services, Golden Palace, Digitain, Hub88, BetConstruct, wallet, account manager, Platipus, Endorphina, SlotCatalog, Microgaming, NetEnt, Netflix for games, stealth launch, JVL Netflix, arbitrage]
-source-count: 6
+aliases: [online games, RGS distribution, EveryMatrix, RGS Matrix, Brazil market, iGaming, certification economics, revenue share, MaxBet, JVL Marketplace, marketplace, platform services, Golden Palace, Digitain, Hub88, BetConstruct, wallet, account manager, Platipus, Endorphina, SlotCatalog, Microgaming, NetEnt, Netflix for games, stealth launch, JVL Netflix, arbitrage, Relax Gaming, Pariplay, Spearhead, Hollywood Bets, fixed-price sales, digital storefront, one game a week, outsourcing studio, land-based licences]
+source-count: 10
 ---
 
 # Online games / RGS distribution business
@@ -82,6 +82,33 @@ A short two-person conversation fleshed out Val's **"Netflix for games"** idea (
 
 This extends the Feb-1 JVL Marketplace concept (Andrei Klimovich) and Val's Mar-12 "Netflix for games" counter above; it remains a **vision — nothing was decided or resourced** in this call.
 
+## History — 2023–2024 origins (batch 16)
+
+Four older sources (staged 2025-03-29 but internally dated 2023–2024) predate all the Jan–Mar 2025 material above. Per the temporal rule they are recorded here as history, not current state. Together they show the online-distribution business, the marketplace/"Netflix" idea, and the ECHO/Amazon push all began well before 2025. Meeting stubs: [[wiki/meetings/2023-08-08-online-platforms-aggregators-status.md]], [[wiki/meetings/2024-11-12-online-vision-and-rgs-scaling.md]], [[wiki/meetings/2024-11-24-andrei-klimovich-online-strategy-update.md]], [[wiki/meetings/2024-12-online-strategy-storefront-brainstorm.md]].
+
+**Aug 8 2023 — aggregator pipeline & economics (earliest record).** [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] was already running JVL's online distribution and reported a full aggregator/operator pipeline to Val and [[wiki/people/monica.md|Monica]]. [[raw/jvl_online_sync_2025-03-29 1.md]]
+- **Relax Gaming** was the lead aggregator prospect (contact **Matthew Williams**, partner commercial manager): 67 game providers integrated, 120 in line; they want fewer, higher-quality providers; they reviewed and liked JVL's collection. Relax charges JVL **2% of GGR** (not the operator). Val's math: 2% on an 8% operator deal = **25% of JVL's take**; on a 6% deal = 33% — so quotes must be watched. [[raw/jvl_online_sync_2025-03-29 1.md]]
+- **Rev-share benchmarks (Val's knowledge):** Novomatic ~12%, Light & Wonder 12–15%, GreenTube 11%. JVL competes with Novomatic, so pricing ~10% would be 20–50% cheaper and get JVL's content prioritised. [[raw/jvl_online_sync_2025-03-29 1.md]]
+- **Licensing strategy:** Relax needs an **MGA** licence for MGA operators (an Isle of Man licence is not enough there); the cheap/quick route is a **Romanian** licence → an MGA "letter of recognition" → then Greece/Sweden. [[raw/jvl_online_sync_2025-03-29 1.md]]
+- **JVL land-based gaming licences (Val, for credibility):** Chile, Florida, Georgia, Peru, South Dakota, and Oklahoma. **Raul Mondragon** obtained the Chilean licence for JVL long ago. [[raw/jvl_online_sync_2025-03-29 1.md]]
+- **Crypto payments:** Monica researched it — no legal barrier to JVL accepting crypto, provided it is converted to fiat immediately and declared. [[raw/jvl_online_sync_2025-03-29 1.md]]
+- Other named partners/prospects (mostly single-mention pipeline entries, no pages): **Pariplay/Pinnacle** (Ashley Blur, ex-EveryMatrix; 7% GGR + progressive discount; Latin America/Peru), **Spearhead** (games shown under the brand "gimmicks"; 6-month per-game exclusivity), **Hollywood Bets** (big in Africa; wants South Africa/Kenya/Ghana exclusivity), **Baden/Merkur** (Gauselmann family, Graz, Austria — a competitor Val warned to avoid; "they will truncate your content"), **Apuesta Total** (Peru; contact David Escalante; JVL's **Juan Jose Castillo** connection), **Bally** (Steven Acrow, on hold), **Solbet/Sorbet** (9% flat), **BetConstruct** and **Hub88**. [[raw/jvl_online_sync_2025-03-29 1.md]]
+
+**Nov 12 2024 — Val's scaling vision (origin of the marketplace/Netflix idea).** Val told the RGS engineers he wants to **release one online game per week**, **integrate directly with ~1,000 casinos** (from ~150 accounts then), and build an **Amazon-style self-serve storefront** where a casino signs the contract online via **DocuSign**, downloads the RGS API + samples/videos, and self-integrates with minimal JVL help — the same idea that resurfaces as the Feb-2025 "JVL Marketplace" and Mar-2025 "JVL Netflix." He wanted it broken into monthly milestones. The RGS-scaling architecture is on [[wiki/topics/rgs-architecture-and-integration.md]]. [[raw/online_vision_efim_2025-03-29.md]]
+
+**Nov 24 2024 — game-outsourcing / RGS economics.** Andrei walked Val through the model of a Ukrainian outsourcing studio (owner [[wiki/people/pavel-studio-owner.md|Pavel]]): sell games **flat-fee ($15k–$25k)** + charge **RGS maintenance**, no revenue share, then upsell its own titles into operator collections for a **direct ~7%**. [[raw/andrei_klimovich_update_report_online_strategy1_2025-03-29.md]]
+- Central point (Val and Andrei agreed): **earnings come from distribution/exposure, not game quality or mechanics.** Evidence Andrei pulled from the studio's RGS: its **5 top games earned $92k GGR in 2 weeks on one Turkish operator** (~$18k each); one game did **$35k GGR in 2 weeks**. [[raw/andrei_klimovich_update_report_online_strategy1_2025-03-29.md]]
+- **JVL's own share:** ~**5%** via an aggregator, up to **~7%** on a direct integration (Val corrected the earlier "always 5%" framing to "5–7% on average"). [[raw/andrei_klimovich_update_report_online_strategy1_2025-03-29.md]]
+- **Hypothesis to test:** buy a game for ~$15k, run it on JVL's existing operators for 2–3 months, and measure earnings; at a 5% share a $15k game must generate ~**20× ($300k GGR)** to break even. Also reverse-engineer the two sample game estimates in-house to learn JVL's own build cost. [[raw/andrei_klimovich_update_report_online_strategy1_2025-03-29.md]]
+
+**Dec 2024 — fixed-price sales model & digital storefront (brainstorm).** Val and Andrei brainstormed selling games **outright at a fixed price** as an alternative to revenue-share, in a **tiered digital storefront** with discounts. [[raw/online_strategy_brainstorm_with_andrei_klimovich_decembe_2025-03-29.md]]
+- Offer both in parallel — e.g. a game at **$25k outright or 7% rev-share**, a cheaper game at **$8k–$12k or 4%**; a perpetual **"God license"** floated at ~$2k–$5k; non-exclusive (buyer can't stop others buying the same game). **Try-and-buy:** a ~2-week trial, then credit **50–100%** of trial earnings against the purchase price. [[raw/online_strategy_brainstorm_with_andrei_klimovich_decembe_2025-03-29.md]]
+- **Distributor variant:** a platform buys at a ~**20% discount** (e.g. $2,000 → $1,600) and pays JVL per copy it resells. [[raw/online_strategy_brainstorm_with_andrei_klimovich_decembe_2025-03-29.md]]
+- **Market-research task:** assign a partnership manager to survey custom online-slot developers in the CIS (Ukraine, Belarus, Russia) and cheaper Europe (Poland, Bulgaria) — pricing and RGS-billing models. [[raw/online_strategy_brainstorm_with_andrei_klimovich_decembe_2025-03-29.md]]
+- **Risks (Val):** most operators sit on third-party platforms and lack tech teams, so only large operators can integrate directly; platforms may block/impede a direct JVL integration. JVL's first two direct integrations were **Golden Palace** and **Golden Matrix**. [[raw/online_strategy_brainstorm_with_andrei_klimovich_decembe_2025-03-29.md]]
+- **Regulated-market edge:** JVL's advantage is its licences + history; Ukrainian studios can't get licensed or sheltered. **EveryMatrix sheltering was shrinking in Europe**, so JVL planned to move to **Pariplay ("Parry Play") sheltering**; Brazil was becoming regulated, opening space as uncertified providers exit. Val was skeptical of Andrei's claim of ~100 established competitor studios. [[raw/online_strategy_brainstorm_with_andrei_klimovich_decembe_2025-03-29.md]]
+- **Market shift (via Pavel):** operators had, over the prior ~6 months, stopped paying separate RGS fees, so Pavel now bundles RGS into the game price and deploys it on the operator's server — detail on [[wiki/people/pavel-studio-owner.md|Pavel's page]]. [[raw/online_strategy_brainstorm_with_andrei_klimovich_decembe_2025-03-29.md]]
+
 ## Sources
 
 - [[raw/Recap with Andrei Klimovich - January 30, 2025.md]]
@@ -90,3 +117,7 @@ This extends the Feb-1 JVL Marketplace concept (Andrei Klimovich) and Val's Mar-
 - [[raw/meeting_summary_andrei_klimovich-Feb-27-2025.md]]
 - [[raw/developing_games_faster_michael_gottlieb_march_12-2025.md]]
 - [[raw/jvl_netflix-march-28-2025.md]]
+- [[raw/jvl_online_sync_2025-03-29 1.md]]
+- [[raw/online_vision_efim_2025-03-29.md]]
+- [[raw/andrei_klimovich_update_report_online_strategy1_2025-03-29.md]]
+- [[raw/online_strategy_brainstorm_with_andrei_klimovich_decembe_2025-03-29.md]]
