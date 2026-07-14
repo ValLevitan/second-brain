@@ -3,6 +3,7 @@ type: person
 title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich]
+disambiguation: "Online-games/RGS commercial lead. One of THREE Andreis (owner-ruled): Andrey Bosik (DevOps manager → wiki/people/andrey-bosik.md), Andrew Khandov (C# developer, Miranda → wiki/people/andrew-khandov.md), Andrei Klimovich (online-games/RGS commercial lead → wiki/people/andrei-klimovich.md). Resolve by context; queue if unclear."
 source-count: 9
 open-commitments: 3
 open-questions: 0
@@ -40,9 +41,9 @@ Andrei Klimovich runs JVL's **online-games / RGS commercial operations** — the
 
 Andrei Klimovich presented three candidates for the online **Account Manager** role and the account economics. See [[wiki/topics/online-games-rgs-distribution.md]]. [[raw/meeting_summary_andrei_klimovich-Feb-27-2025.md]]
 
-- **Sam Mamedov** — Ukraine; ~3 years in slot-game marketing / business development, minimal direct account-management experience; expects **$4,500/month incl. bonuses**. Recommended for future **digital-marketing consulting**, not the current AM role. [[raw/meeting_summary_andrei_klimovich-Feb-27-2025.md]]
-- **Egor** — Ukraine (can't leave the country due to military restrictions); 6 years total incl. 3 recent with **Platipus Games**; strong industry knowledge, excellent English, good with numbers/analytics; expects **$2,500 base + bonuses up to ~$3,000 net/month**; motivated and immediately available; possible future military-draft risk. [[raw/meeting_summary_andrei_klimovich-Feb-27-2025.md]]
-- **Charlotte** — in Latvia, originally from Colombia; experience with **Endorphina Gaming** and **Vegangster**; manages 70 accounts (30 very active); English/Spanish/Portuguese/French; expects **$3,200 base + bonuses to ~$5,000/month**; could bring accounts from Baltic/USA/Canada/Latin America/UK. [[raw/meeting_summary_andrei_klimovich-Feb-27-2025.md]]
+- **Sam Mamedov** — Ukraine; ~3 years in slot-game marketing / business development, minimal direct account-management experience; salary expectation **held per §15.8**. Recommended for future **digital-marketing consulting**, not the current AM role. [[raw/meeting_summary_andrei_klimovich-Feb-27-2025.md]]
+- **Egor** — Ukraine (can't leave the country due to military restrictions); 6 years total incl. 3 recent with **Platipus Games**; strong industry knowledge, excellent English, good with numbers/analytics; salary expectation **held per §15.8**; motivated and immediately available; possible future military-draft risk. [[raw/meeting_summary_andrei_klimovich-Feb-27-2025.md]]
+- **Charlotte** — in Latvia, originally from Colombia; experience with **Endorphina Gaming** and **Vegangster**; manages 70 accounts (30 very active); English/Spanish/Portuguese/French; salary expectation **held per §15.8**; could bring accounts from Baltic/USA/Canada/Latin America/UK. [[raw/meeting_summary_andrei_klimovich-Feb-27-2025.md]]
 - **Recommendation:** exclude Sam from the immediate AM role (keep for marketing consulting); choose between Egor (cheaper, motivated, available) and Charlotte (pricier, broader portfolio). Consider hiring two temporarily to hedge; verify candidate claims (salary, account numbers) via documentation such as tax records; continue the search and re-evaluate after ~3 months; prepare formal offers with clear bonus targets. [[raw/meeting_summary_andrei_klimovich-Feb-27-2025.md]]
 
 ## Open commitments

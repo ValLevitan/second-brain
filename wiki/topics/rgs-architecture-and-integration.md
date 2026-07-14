@@ -3,7 +3,7 @@ type: topic
 title: RGS architecture and operator integration
 date: 2025-02-01
 aliases: [RGS, remote game server, RGS API, math container, direct integration, reverse integration, Golden Palace, Digitain, Hub88, BetConstruct, Comtrade Gaming, Postman, OpenAPI, RGS scaling, 1000 casinos, container model, custom portal]
-source-count: 4
+source-count: 5
 open-questions: 2
 ---
 
@@ -64,3 +64,4 @@ An older source (staged 2025-03-29, internally dated **Nov 12 2024**) predates t
 - [[raw/JFrog transcript - February-6-2025.md]]
 - [[raw/Aaron_Val_2025-02-11.md]]
 - [[raw/online_vision_efim_2025-03-29.md]]
+- [[raw/Git_repo_structure_part_2_2025-02-11.md]]

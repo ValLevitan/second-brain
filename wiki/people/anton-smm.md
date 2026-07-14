@@ -18,11 +18,11 @@ Anton is a **social-media-marketing (SMM) contractor** based in **Minsk** whom [
 ## What he does / terms
 
 - Builds and runs the ad campaigns (targeting, creatives management, killing losing ads, analysing results); JVL supplies the visuals to his brief. Experienced in Meta; can refer Google/YouTube specialists; advises **against LinkedIn** (~10× Meta's cost, wrong for a consumer product). [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
-- **Rate schedule:** month 1 **$50** for 30 hours (ad-account setup, ~15–20 h); month 2 **$150** for 30 hours; month 3+ **€7/hour** (≈€210 for 30 h). Suggested first-month **ad budget ~$500** to run ~10 ad variations. Geo-targeting to start in wealthy Florida areas. [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
+- **Rate schedule:** ramped monthly engagement, ~30 h/month; personal rate figures **held per §15.8** (in the cited raw). Suggested first-month **ad budget ~$500** to run ~10 ad variations (ad spend, not comp). Geo-targeting to start in wealthy Florida areas. [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
 
 ## Confirmation (Feb 21)
 
-- The Feb 21 recap confirms Anton is engaged as the **SMM expert from Minsk** running Meta ads, with **experience running campaigns for medical devices in Europe**, a **$500 initial test budget**, LinkedIn avoided for cost, and the same rate schedule (month 1 $50 / month 2 $150 / month 3+ €7/hr ≈ €210/mo). Meta campaigns to focus on **Florida**. [[raw/recap_meeting_andrei-February-21-2025.md]]
+- The Feb 21 recap confirms Anton is engaged as the **SMM expert from Minsk** running Meta ads, with **experience running campaigns for medical devices in Europe**, a **$500 initial test budget**, LinkedIn avoided for cost, and the same ramped rate schedule (figures held per §15.8). Meta campaigns to focus on **Florida**. [[raw/recap_meeting_andrei-February-21-2025.md]]
 
 ## Sources
 

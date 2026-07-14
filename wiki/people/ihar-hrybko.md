@@ -4,7 +4,7 @@ title: Ihar Hrybko
 date: 2024-01-01
 aliases: [Ihar Hrybko, Igar Hrybko, Hrybko]
 source-count: 2
-disambiguation: "'Ihar/Igar' is a Belarusian form of Igor — this is a FIFTH Igor-named person, distinct from the four ruled Igors (Donis / mobile-app Igor / Starovoytov / Metelski). Resolve any bare 'Igor' by context, never by name. This page reconciles the Minsk-payroll names-only 'Hrybko, Igar' with his first substantive appearance."
+disambiguation: "UX/UI (payroll Igar Hrybko; JVL Insights-era consultant). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
 ---
 
 # Ihar Hrybko

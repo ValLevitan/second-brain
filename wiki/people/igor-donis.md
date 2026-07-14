@@ -3,7 +3,7 @@ type: person
 title: Igor Donis
 date: 2026-07-13
 aliases: [Igor Donis, Igor]
-disambiguation: "JVL Financial Controller = the finance/corporate 'Igor'. Owner-confirmed 2026-07-13 a DIFFERENT person from the mobile-application Igor (wiki/people/igor-nazarenka.md). Two Igors only; finance/controller/corporate → Donis; everything-else Igor → the other."
+disambiguation: "JVL Financial Controller — the finance/corporate Igor. One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
 source-count: 1
 ---
 
@@ -19,7 +19,7 @@ Igor Donis is JVL's **Financial Controller**. [[raw/jvl_systems_corporate_identi
 
 ## Identity note
 
-**Owner-confirmed:** Igor Donis (this page, finance/corporate) is distinct from the other Igors — there are now **four** (see §4 registry): the [[wiki/people/igor-nazarenka.md|mobile-application Igor]], [[wiki/people/igor-starovoytov.md|Igor Starovoytov]] (industrial designer), and [[wiki/people/igor-metelski.md|Igor Metelski]] (RGS engineer). Finance/controller/corporate → Donis. Queue any "Igor" that fits none.
+**Owner-confirmed:** Igor Donis (this page, finance/corporate) is distinct from the other Igor-named people — there are **five** (see the §4 registry): [[wiki/people/igor-nazarenka.md|Igor (Ihar) Nazarenka]] (mobile-app, owner-confirmed 2026-07-14), [[wiki/people/igor-starovoytov.md|Igor Starovoytov]] (industrial designer), [[wiki/people/igor-metelski.md|Igor Metelski]] (RGS engineer), and [[wiki/people/ihar-hrybko.md|Ihar Hrybko]] (UX/UI). Finance/controller/corporate → Donis. Queue any "Igor" that fits none.
 
 ## Sources
 

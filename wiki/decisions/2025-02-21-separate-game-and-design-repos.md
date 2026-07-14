@@ -3,7 +3,7 @@ type: decision
 title: Split each game into a "game" repo and a "design" repo (composition art via LFS + submodule)
 date: 2025-02-21
 aliases: [game repo, design repo, comp art repo, composition art repository, git submodule, two repos per game]
-source-count: 1
+source-count: 2
 status: active
 ---
 
@@ -27,3 +27,4 @@ The Feb 26 follow-up extended the structure with two **new GitHub organizations*
 ## Sources
 
 - [[raw/GitHub_commit_of_LFS_demo_by_Lena_2025-02-21.md]]
+- [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]

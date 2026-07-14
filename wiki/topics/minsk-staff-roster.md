@@ -3,7 +3,7 @@ type: topic
 title: Minsk staff roster
 date: 2026-07-13
 aliases: [Minsk roster, Minsk payroll roster, Minsk team]
-source-count: 1
+source-count: 2
 ---
 
 # Minsk staff roster
@@ -35,3 +35,4 @@ Not yet in the wiki (new names — person pages deferred to the next stage; they
 ## Sources
 
 - [[raw/minsk_staff_roster_2025_names-only.md]]
+- [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]

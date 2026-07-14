@@ -4,7 +4,7 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "JVL's IT person = the recurring IT-context 'Dima'. Distinct from Dmitriy Khandov (Senior 3D Graphic Designer), Andrey/Andrew Khandov (Miranda dev), and Dmitri Chudinov (back-end architect, who is the 'Dima Chudinov' of the Observability Platform org). Owner-confirmed 2026-07-13."
-source-count: 4
+source-count: 8
 ---
 
 # Dmitri Kovalchuk
@@ -39,3 +39,7 @@ Per the owner ruling, these IT-context "Dima" mentions — previously flagged un
 - [[raw/architecture_sql_olap_visualization_1_2025-03-29.md]]
 - [[raw/GitHub_Commit_LFS-Feb-18-2025.md]]
 - [[raw/github_commits-march-26-2025.md]]
+- [[raw/github_organization-jan-20-2025.md]]
+- [[raw/it_structure_minsk-jan-22-2025.md]]
+- [[raw/meeting_various-jan-20-2025.md]]
+- [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]]

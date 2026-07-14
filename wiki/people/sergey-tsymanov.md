@@ -27,3 +27,4 @@ Sergey Tsymanov is a JVL **Minsk engineer** who works on the **legacy CMS requir
 - [[raw/architecture_sql_olap_visualization_1_2025-03-29.md]]
 - [[raw/architecture_sql_olap_visualization_2_2025-03-29.md]]
 - [[raw/cms_persona_requirements-march-23-2025.md]]
+- [[raw/minsk_staff_roster_2025_names-only.md]]

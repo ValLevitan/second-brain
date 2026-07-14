@@ -45,6 +45,8 @@ Do not pre-create empty folders. Create a type folder the first time a page of t
 
 Each page begins with frontmatter (Section 5), then an H1 title, then content. End every page with a `## Sources` list of the raw files it draws from. (Exception: **pointer/register pages** — see §5/§6 — map where source documents live and need no `## Sources` list.)
 
+- **Meeting-stub citation convention:** a single-source meeting stub implicitly cites its one transcript for the whole page (the `## Sources` entry suffices); inline `[[raw/…]]` cites are optional there. A stub citing MORE than one source must cite inline per claim. All non-meeting pages always cite inline per §6.
+
 ## 4. Naming & alias conventions
 
 - Files: kebab-case, ASCII, no spaces. People: `people/firstname-lastname.md`.
@@ -94,7 +96,7 @@ Frontmatter enables Obsidian Dataview tables. Keep `source-count` current. Keep 
 - Update `index.md` **in the same pass** as any page change. It must never drift from the actual pages.
 - If a category passes ~75 entries, split it into a sub-index file and link it from `index.md`.
 
-**Promoted categories** (established; use consistently): *none yet — populated as categories survive 2+ lint passes.*
+**Promoted categories** (established; use consistently — survived 5 lint passes): **People** (individuals, one page per person, `disambiguation:` on same-name clusters) · **Organizations** (companies/entities/vendors) · **Topics & Concepts** (subjects, grouped in the index under 6 sub-headings) · **Projects** (bounded initiatives with an end state) · **Decisions** (dated rulings, one page each, grouped under 5 sub-headings) · **Meetings** (thin stubs, grouped by month).
 
 ## 8. `log.md` format
 
@@ -132,6 +134,10 @@ Frontmatter enables Obsidian Dataview tables. Keep `source-count` current. Keep 
 - **Path A — assess & finish (preferred when the write is complete).** The writer subagent often finishes writing all pages, then the run dies later (e.g. an API/spend-limit error during its own self-check, a killed process). In that case the content is already on disk and re-running would only duplicate it. **Audit the on-disk output:** (1) every raw file in the batch is cited by ≥1 wiki page; (2) no partial/truncated/half-written pages; (3) no duplicate pages or duplicate `index.md` lines; (4) index = pages on disk. If it passes, **finish the batch normally** — run step 7 verification, do the dup/dangling audit, write the `completed` + `verify` log entries **noting the interruption and that the caller verified the completed output**, then commit. (This is the Batch 12 recovery.)
 - **Path B — reset & re-run (only when the write is partial or unauditable).** If pages are half-applied, truncated, or you cannot confirm the audit above, **`git reset --hard` to the commit immediately *before* that batch's `started` entry** — i.e. the last commit before the batch began, which may itself be a `lint`, `schema`, or `query` commit, not necessarily the previous ingest batch. This discards only the half-applied batch while preserving legitimate non-ingest commits that landed after the last batch. Then re-run from the batch's file list. (This is the only sanctioned hard reset — it only ever discards an unfinished batch. Confirm the target with `git log --oneline` and verify `raw/` is unchanged after the reset.)
 
+- **Verifier independence:** at least half of the verified facts must be drawn by the verifier directly from the written pages at random — not from the writer's own spot-check list (the writer must not choose everything that gets checked).
+- **Registry-change sweep:** whenever the §4 same-name registry changes (new member, rename, owner ruling), the SAME pass must update the `disambiguation:` frontmatter on EVERY page in that cluster to the identical full membership list — stale cluster counts on sibling pages cause future mis-attribution.
+- **Sources-list hygiene:** a page's `## Sources` list must contain every raw file cited in its body (and `source-count` must match). Lint runs a mechanical body↔Sources diff.
+
 ## 9a. Commitments & open questions (lightweight capture)
 
 Not a page type — a capture convention so commitments and open questions stay queryable without their own pages (revisit as a first-class type after the backlog if the rollup strains).
@@ -157,6 +163,8 @@ Applies once the owner says "unlock" and the full backlog run begins. Goal: run 
 - **Maintenance passes still run ON CADENCE during the run — they are NOT deferred to the end.** The Section 13 lint fires every **3–5 batches** and the outside-view engine audit (fresh, no-context session) every **~10 batches**, exactly as normal. What is deferred is only the *owner-facing decisions* those passes surface: lint/audit findings that need an owner ruling are appended to the `## Owner Decisions` queue instead of pausing the run, but the passes themselves (contradiction/orphan/drift checks, regression re-verification, commitments & open-questions rollup into overview.md, category/type-fit review) execute and are logged as they come due. Running them mid-flight is what keeps drift from compounding across 100+ batches.
 - **End-of-run gate:** after the last batch, run a final Section 13 lint and present the owner **one** package: the lint report + the `## Owner Decisions` queue + overall verification stats. The owner rules on the queue in a single pass; I then apply the approved merges/renames/deletions/confirmations as a normal follow-up batch.
 
+- **Two-tier Owner Decisions queue:** Tier A — rulings that steer future ingestion (identity/merge questions, scope calls, §15.8 holds) are surfaced to the owner opportunistically mid-run (next reply, not a stop). Tier B — cosmetic confirmations (dedup calls, dating notes, create-vs-mention) accumulate silently for the end-gate review. Items superseded by later sources are marked superseded in place, not re-asked.
+
 ## 10. Query workflow
 
 1. Read `index.md`; use qmd search (Section 14) to find relevant pages.
@@ -167,6 +175,8 @@ Applies once the owner says "unlock" and the full backlog run begins. Goal: run 
 
 - We process **oldest → newest** (chronological), so newer facts naturally arrive later and update older ones. The rules below still hold if a batch is ever out of order.
 - **Every fact carries an as-of date** (the source's own date).
+- **Date precedence for undated/mis-dated files:** content-internal date (what the meeting says about itself) > audio-file metadata > transcription stamp > filename/folder date. Filename dates are often just export/staging dates. When the date is inferred, label it (`date inferred from …`) on the meeting page; when only a month/era is known, use a placeholder day and flag it.
+- **Date-labeled origin paragraphs are permitted in page intros:** a clearly dated sentence like "the Nov-2024 origin of X was …" may sit in an intro for readability without moving to `## History`, provided it cannot be mistaken for current state. Undated old substance still goes under `## History`.
 - **Source date sets precedence, not ingest order.** A source dated *earlier* than a page's current content may **only add to a `## History` section** — it must **never overwrite** a current-state statement. Conversely, a newer source supersedes an older current-state claim (move the old claim to `## History`).
 - **Evolution vs. contradiction — decide which before writing:** two sources making *incompatible claims about the same time period* = a **contradiction** → record both under `## Open contradictions`, resolve nothing. A later source *updating an earlier state of affairs* = **evolution** → the newer claim becomes current, the older moves to `## History`.
 - **Fact-level merge, not pile-up:** recurring meetings restate the same facts. Update the existing current-state line; do not stack identical entries. Pages must not become chronological sediment.
@@ -179,6 +189,7 @@ Applies once the owner says "unlock" and the full backlog run begins. Goal: run 
 - If the `.md` is lossy → re-convert fresh from the `.docx`.
 - Orphan `.docx` (no `.md`) → convert to `.md` (strip images; v1 is text-only).
 - **Never ingest both.** Log any conversion.
+- **Re-transcription clusters (the common case in practice):** the same audio often exists as 2–3 separate transcription runs under different filenames. Compare CONTENT, not filenames. Source-of-record selection: the **fullest** copy wins (most words, speaker labels kept, no stuck repetition loops, unique details preserved); skip the rest with a one-line logged reason each. A file that contains **only a title line** is a stub → skip. A transcript that **internally duplicates its own content** (the same passage repeated) is one meeting — take each fact once and note the artifact on the meeting stub.
 - (Phase 0 already deduped/converted the existing backlog; this rule governs new arrivals.)
 
 ## 13. Lint / maintenance passes (mandatory)

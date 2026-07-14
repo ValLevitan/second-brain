@@ -3,7 +3,7 @@ type: person
 title: Igor Starovoytov
 date: 2026-07-13
 aliases: [Igor Starovoytov, Igor, Starovoytov]
-disambiguation: "Contractor — industrial designer (Flex cabinets); sometimes engaged by Genadi Peari. Owner-confirmed 2026-07-13. One of FOUR Igors: Igor Donis (Financial Controller), the mobile-application Igor (surname unknown, wiki/people/igor-nazarenka.md), and this one. Resolve by context: cabinet/industrial/product design → Starovoytov; mobile app/UI/ops → the mobile-app Igor; finance → Donis."
+disambiguation: "Contractor industrial designer (Flex cabinets; via Genadi Peari). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
 source-count: 2
 ---
 
