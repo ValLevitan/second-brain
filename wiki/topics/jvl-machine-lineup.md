@@ -3,7 +3,7 @@ type: topic
 title: JVL machine and cabinet lineup
 date: 2026-07-12
 aliases: [Flex cabinets, Altera, Maple, Echo, Flex S, Flex C, Flex V42, Flex V42/C, cabinets, VLT, video lottery terminal, Flex SD27, V43, C10-VLOT-TERM-RU, Epic 950, FutureLogic, FlexPort, FlexPay, Nico, Miranda, Omni, Florida Ruta, CPU kit, coffin, iOBoard, Bally iview, Diamondlink, nano-optics, JCM, dual SAS, HAL, FireEyes Wink, Dragon Supreme, Kai-Ocho, Maneki-neko, HG-6, kiosk, Incom]
-source-count: 23
+source-count: 25
 ---
 
 # JVL machine and cabinet lineup
@@ -26,6 +26,8 @@ A running glossary of the machine models, cabinet types, and product families th
 - **Payment Platform** initiative: the payment **kiosk** itself; **Port**, the lighter version of the AFT; and **Pay Cloud**, what the kiosk will "morph into." Plus a **Payment Mobile Admin** application under discussion. [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]
 - **Flex Mount** and a **CPU Kit** sit under accessories; the rest is online distribution. [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]
 - **Kiosk-repurpose idea (Feb 27):** [[wiki/people/juan-martinez.md|Juan]] floated that the payment **kiosk uses the same CPU as a Flex machine**, so at end-of-life it could be converted into a standalone gaming machine (remove the dispenser + card reader, do a software upgrade, install Georgia software) — a value-add pitch to masters that "it's not a paperweight." Its screen is **much smaller than an Echo**, so it isn't a full-blown machine; also floated as a betting station. Val: "need to think about it." [[raw/Flex_V42_C_design_evolution_review_2025-02-27.md]]
+- **FlexPay kiosk production/tooling (Mar 27):** how the kiosk is manufactured fast enough for the Georgia market (tooling-vs-assembly-throughput debate, plastic-vs-metal cabinet, a possible dispenser-only "skinny unit") is on [[wiki/topics/flexpay-kiosk-production-and-tooling.md]]. [[raw/flex_pay_production-march-27-2025.md]]
+- **Flex sound/power redesign (Mar 27):** [[wiki/people/genadi-peari.md|Genadi]] is redesigning the Flex power distributor (new regulators/filtration, 5V/12V converters) and audio (uprated amplifier, high-fidelity speakers, ~$200 component budget). See [[wiki/decisions/2025-03-27-invest-in-flex-sound-and-power-redesign.md]]. [[raw/Hardware_redesign-march-27-2025.md]]
 - **Incom card-activation commissioning (Feb 27):** the kiosk's COAM-card activation/balance-check runs through the payment processor **Incom**; the Feb 27 commissioning call set out the test-vs-production credential flow, the balance-check API (test PANs, MAG reader, no EMV), and the COAM/debit-card legal state. See [[wiki/organizations/incom.md]]. [[raw/incomm_commissioning_plan_february-27-2025.md]]
 - **FlexPort** — a payment device (a hardware **EFT / electronic-fund-transfer module installed on the machine**) that communicates with **FlexPay** and can push updates; on Jan 24 its beta was ~3 weeks out (~Feb 15 2025), to be tested with a Flex-S machine and a FlexPay kiosk assembled together. Ticket (TITO) validation is done by FlexPay: the machine reads the ticket code and passes it to FlexPay, which confirms it printed it. See [[wiki/meetings/2025-01-24-flexport-flexpay-beta.md]]. [[raw/flex_port_hardware_up-jan-24-2025.md]]
   - **FlexPort ↔ FlexPay integration (Feb 25):** debugging continued — the WebSocket connection **drops despite a 1-second ping-pong keepalive** (cause unknown; pings absent from logs). Val settled the **abandoned-cash-out** rule (cancel unclaimed ticket → pull credits → report "not claimed" to FlexPay → restore on paper at audit) and made **detailed comms logging a formal requirement**. Ship config: **~4 machines per FlexPay**, 4 FlexPay + ~15 ports; FlexPort goes into JVL's own machines too for uniformity, working across all software including old. See [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]] and [[wiki/meetings/2025-02-25-embedded-group-flexport-flexpay.md]]. [[raw/Embedded_Group_alignment_and_update_2025-02-25.md]]
@@ -113,3 +115,5 @@ A running glossary of the machine models, cabinet types, and product families th
 - [[raw/Game design part 1 - Feb-28-2025.md]]
 - [[raw/Game design part 2 - Feb-28-2025.md]]
 - [[raw/game_design_meeting_march_7_2025.md]]
+- [[raw/flex_pay_production-march-27-2025.md]]
+- [[raw/Hardware_redesign-march-27-2025.md]]

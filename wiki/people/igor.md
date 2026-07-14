@@ -3,13 +3,13 @@ type: person
 title: Igor
 date: 2026-07-13
 aliases: [Igor, Igor designer]
-disambiguation: "The 'mobile-application Igor' (surname unknown — queued). One of THREE Igors (owner-ruled): this one (mobile app/UI + new-market ops/Puerto Rico), Igor Donis (Financial Controller → wiki/people/igor-donis.md), and Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md). Resolve by context; queue anything fitting none."
+disambiguation: "The 'mobile-application Igor' (surname unknown — queued). One of FOUR Igors (owner-ruled): this one (mobile app/UI + new-market ops/Puerto Rico), Igor Donis (Financial Controller → wiki/people/igor-donis.md), and Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md). Resolve by context; queue anything fitting none."
 source-count: 3
 ---
 
 # Igor
 
-Igor is the JVL **"mobile-application Igor"** (owner ruling 2026-07-13; surname not yet known — queued). **Surname candidate:** the contractor roster lists **Ihar Nazarenka** ("Ihar" = Igor); a plausible match for this Igor but **not confirmed by role** — flagged, not asserted (see [[wiki/topics/jvl-contractor-roster.md]]). He is **one of three Igors** — distinct from [[wiki/people/igor-donis.md|Igor Donis]] (Financial Controller) and [[wiki/people/igor-starovoytov.md|Igor Starovoytov]] (contractor industrial designer). Resolve by context: mobile app/UI + new-market ops/Puerto Rico → this Igor; finance/corporate → Donis; cabinet/industrial/product design → Starovoytov.
+Igor is the JVL **"mobile-application Igor"** (owner ruling 2026-07-13; surname not yet known — queued). **Surname candidate:** the contractor roster lists **Ihar Nazarenka** ("Ihar" = Igor); a plausible match for this Igor but **not confirmed by role** — flagged, not asserted (see [[wiki/topics/jvl-contractor-roster.md]]). He is **one of four Igors** — distinct from [[wiki/people/igor-donis.md|Igor Donis]] (Financial Controller) and [[wiki/people/igor-starovoytov.md|Igor Starovoytov]] (contractor industrial designer). Resolve by context: mobile app/UI + new-market ops/Puerto Rico → this Igor; finance/corporate → Donis; cabinet/industrial/product design → Starovoytov.
 
 ## Role — mobile app / product
 

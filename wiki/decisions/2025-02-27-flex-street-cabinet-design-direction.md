@@ -24,6 +24,8 @@ Design direction Val gave the industrial designer ([[wiki/people/igor-starovoyto
 
 This is an **evolutionary** change to the street machine (Flex S) that comes with the curved monitor — not a redesign of how the panels sit on the machine, and mainstream/existing configurations are left as they are. [[raw/Flex_V42_C_design_evolution_review_2025-02-27.md]]
 
+**Later evolution (Mar 27):** Val broadened the approach — before detailing the curve machine, do a **preliminary industrial design across all three Flex machines as one family**, with monitor-angle and light-fixture changes and an amplifier box mounted on the base unit. See [[wiki/decisions/2025-03-27-preliminary-industrial-design-all-three-flex-cabinets.md]]. [[raw/Flex-S-design-March-27-2025.md]]
+
 ## Sources
 
 - [[raw/Flex_V42_C_design_evolution_review_2025-02-27.md]]

@@ -19,7 +19,7 @@ Igor Donis is JVL's **Financial Controller**. [[raw/jvl_systems_corporate_identi
 
 ## Identity note
 
-**Owner-confirmed (2026-07-13):** Igor Donis (this page, finance/corporate) and the [[wiki/people/igor.md|mobile-application Igor]] are **two different people** — those are the only two Igors. Finance/controller/corporate mentions → Donis; product/UI/ops/Puerto-Rico → the other Igor. Queue any "Igor" that fits neither.
+**Owner-confirmed:** Igor Donis (this page, finance/corporate) is distinct from the other Igors — there are now **four** (see §4 registry): the [[wiki/people/igor.md|mobile-application Igor]], [[wiki/people/igor-starovoytov.md|Igor Starovoytov]] (industrial designer), and [[wiki/people/igor-metelski.md|Igor Metelski]] (RGS engineer). Finance/controller/corporate → Donis. Queue any "Igor" that fits none.
 
 ## Sources
 

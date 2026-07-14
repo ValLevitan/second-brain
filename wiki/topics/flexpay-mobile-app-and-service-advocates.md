@@ -3,7 +3,7 @@ type: topic
 title: FlexPay mobile app and service advocates
 date: 2026-07-12
 aliases: [FlexPay mobile app, service advocate, service advocates, whale, whale UI, Incom]
-source-count: 10
+source-count: 11
 ---
 
 # FlexPay mobile app and service advocates
@@ -32,6 +32,8 @@ Unclear: "whale" (appears as "whale"/"wial") — a tool or profile system JVL us
 
 ## Note: FlexPay the payment product vs. the mobile app
 
+The **manufacturing** of the FlexPay kiosks (tooling, cabinet material, assembly throughput, and the Georgia market-sizing) is covered separately on [[wiki/topics/flexpay-kiosk-production-and-tooling.md]] (Mar 27). [[raw/flex_pay_production-march-27-2025.md]]
+
 The **FlexPay** payment product itself is confirmed progressing — the Jan 24 2025 call put the related **FlexPort** device's beta ~3 weeks out and described FlexPay validating tickets. That hardware is documented in [[wiki/topics/jvl-machine-lineup.md]]. However, the **mobile app** and the **service-advocate persona** that this page is about remain **single-source** (Jan 13) and stay FLAGGED until a second source confirms them. [[raw/flex_port_hardware_up-jan-24-2025.md]]
 
 - **FlexPort ↔ FlexPay integration progressing (Feb 11):** the Feb 11 embedded standup advanced the FlexPort-module-to-FlexPay-kiosk connection (WebSocket, device registration before accepting money, PIN/ticket validation), with the payment processor **Incom** supplying the test server and a production contract awaiting Val's signature; **Felipe** ("Filippo") to host a multi-machine production test in his office. Details on [[wiki/topics/jvl-machine-lineup.md]] and [[wiki/meetings/2025-02-11-embedded-group-flexport-flexpay.md]]. This is the payment product/hardware, still not the mobile app. (Whether "Felipe"/"Filippo" is the same Felipe who issues JVL parts invoices is unclear — see Owner Decisions.) [[raw/Embedded_Group_alignment_and_update_2025-02-11.md]]
@@ -59,3 +61,4 @@ The **FlexPay** payment product itself is confirmed progressing — the Jan 24 2
 - [[raw/Flex-port-update-March-17-2025.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-03-18.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-03-25.md]]
+- [[raw/flex_pay_production-march-27-2025.md]]

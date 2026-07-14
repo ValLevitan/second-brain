@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7]
-source-count: 11
+source-count: 12
 ---
 
 # AI-assisted development adoption
@@ -74,6 +74,14 @@ Coaching Andrei, Val described the workflow he uses himself and wants his manage
 - Aaron's own stack of MCPs (the model he holds up): **Atlassian, Anthropic "Cloud" (i.e. Claude), Microsoft 365, GitHub, Whisper** — used through a human-language interface. (The transcript renders Claude as "Cloud"/"Cloud AI"; recorded as such, likely a mis-transcription of "Claude.") [[raw/mcp_unity_visualcode-march-26-2025.md]]
 - **Val's directive:** the team should keep using VS Code with these integrations and prefer **Anthropic Claude with Sonnet 3.7** (called "considerably better than ChatGPT" for many cases) over ChatGPT; before the **April 9** meeting everyone must install the **GitHub MCP** and **Anthropic "Cloud" (Sonnet 3.7)** and run them through **OpenRouter** (JVL has an auto-refill corporate-card subscription). That meeting was extended 30 min (start **9:00**): Val will test each person's VS Code + MCP usage, then the GitHub portion. Team members already trying it: Lena, Yuli, Nastya, Dima Khandov. [[raw/mcp_unity_visualcode-march-26-2025.md]]
 
+## Self-hosted Open WebUI + the good-vs-bad MCP lesson (Mar 27)
+
+- On Mar 27 [[wiki/people/aaron.md|Aaron]] screen-shared and walked Val through configuring a self-hosted **Open WebUI** instance running as a local server on Val's laptop (localhost:8080) — a multi-model LLM chat UI. He toured its settings: themes, a **system prompt**, **memory** (turned on), audio TTS/STT, per-user API-key connections, model list (turn off the dated duplicate models to declutter), document handling (PDF image extraction, embedding model, full-context mode), **web search** (enabled with **DuckDuckGo**, chosen because it needs no API key), a code-execution sandbox, image generation (OpenAI / ComfyUI / Stable Diffusion, Dall-E 3), and a database export. See [[wiki/meetings/2025-03-27-openwebui-aaron-setup.md]]. [[raw/OpenWebUI_aaron_march-27-2025.md]]
+- **Multi-user / JVL deployment angle:** Aaron flagged that Open WebUI is built as a **multi-user** system and can connect to an **LDAP / Active Directory** identity server — so it could be hosted on **JVL's infrastructure** (not Val's laptop) and give every JVL user an account with API keys, **replacing individual ChatGPT accounts**. [[raw/OpenWebUI_aaron_march-27-2025.md]]
+- **Both providers behind one UI:** the speech-to-text engine was switched from **Whisper (local, slow)** to OpenAI **Whisper-1** using Val's own API key (the same endpoints as Aaron's Whisper service). Aaron imported the community **Anthropic** function so Open WebUI can serve **both Claude and GPT models at once** — needing an Anthropic API key with console billing set up. [[raw/OpenWebUI_aaron_march-27-2025.md]]
+- **OpenAI adopts MCP:** Aaron noted OpenAI had just announced it will incorporate **MCP** into all its products (adopting the Model Context Protocol as its tool-use standard) and had significantly improved its image generator; he demoed GPT-4o's precise image generation (a dimensionally-correct fence elevation from a prompt). Val remarked he now uses natural language for ~**60–80%** of his tasks. [[raw/OpenWebUI_aaron_march-27-2025.md]]
+- **The good-vs-bad MCP lesson:** Aaron taught three levels of MCP-server design using JIRA as the example — (1) a **lazy** MCP that just exposes each raw API endpoint as its own tool (100 endpoints → 100 tools); (2) a **consolidated** tool (e.g. one "manage JIRA issue" tool with transition/comment/edit sub-operations); (3) a **stateful** server that remembers context and offers the AI a suggestion (e.g. "you last searched this JQL — save it as a filter?") so the AI just says "yes" instead of regenerating everything. A good MCP does the work internally in the developer's best order; a bad one forces the user to read the docs and think through every step. [[raw/OpenWebUI_aaron_march-27-2025.md]]
+
 ## Connection to the pipeline debate
 
 - Val explicitly linked adopting Git-native, AI-friendly practices to resolving the ISO build-pipeline problem: a natural-language/AI interface should be a standard part of a pipeline built to last 10 years. See [[wiki/topics/build-pipeline-parameterization.md]]. [[raw/development_pipeline_january_13_2025.md]]
@@ -92,3 +100,4 @@ Coaching Andrei, Val described the workflow he uses himself and wants his manage
 - [[raw/GitHub_commit_of_LFS_demo_by_Lena_2025-02-21.md]]
 - [[raw/aaron_building_tools-march-21-2025.md]]
 - [[raw/mcp_unity_visualcode-march-26-2025.md]]
+- [[raw/OpenWebUI_aaron_march-27-2025.md]]

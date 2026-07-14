@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie]
-source-count: 28
+source-count: 29
 ---
 
 # Aaron
@@ -84,6 +84,10 @@ His surname is given as **Bockelie** on the Jan 21 continuous-delivery transcrip
 - **Building tools (Mar 21):** flagged OpenAI's new **GPT-4o Transcribe** models (shared by [[wiki/people/clayton-chancey.md|Clayton]]) to replace Whisper (diarization, longer files), noted Whisper's file-size limit and a possible splitter, and demoed running the Whisper MCP. He and Val agreed the arrangement where **Val funds guaranteed hours** for Aaron + Clayton to build bespoke AI tools that Aaron may then commercialise — part of Aaron's enterprise-AI-architecture consultancy (an alternative to **CPRIME**), tools to live in a "Foray" GitHub space. See [[wiki/decisions/2025-03-21-fund-aaron-clayton-bespoke-ai-tools.md]] and the transcription section of [[wiki/topics/ai-assisted-development.md]]. [[raw/aaron_building_tools-march-21-2025.md]]
 - **Tagging science (Mar 21):** detailed the classification method (emergent no-hint AI tagging, term normalization, rare-tag "departures" as data-science signal, AI as a first-order thinking tool, an MCP pointed at the database, later vectorization) using his Chase bank-statement categorization project as the model; rejected an off-the-shelf docs-RAG MCP and is building his own. See [[wiki/topics/transcript-knowledge-base-tooling.md]]. [[raw/aaron_tagging_science-march-21-2025.md]]
 
+## Open WebUI setup + MCP-design lesson (Mar 27)
+
+- Aaron screen-shared to configure a self-hosted **Open WebUI** on Val's laptop end-to-end (settings, memory, models, web search via DuckDuckGo, image generation, connecting OpenAI's Whisper-1 and importing the **Anthropic** function so both Claude and GPT models are available in one UI), flagged that it could be deployed on **JVL's Active Directory** to replace individual ChatGPT accounts, and noted OpenAI had just adopted **MCP** across its products. He closed with a lesson on **good-vs-bad MCP-server design** (raw-endpoint vs consolidated-tool vs stateful/suggesting), and had cancelled a Minsk meeting to focus on it. See [[wiki/topics/ai-assisted-development.md]] and [[wiki/meetings/2025-03-27-openwebui-aaron-setup.md]]. [[raw/OpenWebUI_aaron_march-27-2025.md]]
+
 ## Sources
 
 - [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]
@@ -114,3 +118,4 @@ His surname is given as **Bockelie** on the Jan 21 continuous-delivery transcrip
 - [[raw/aaron_3d_force_directed_graph-March-20-2025.md]]
 - [[raw/aaron_building_tools-march-21-2025.md]]
 - [[raw/aaron_tagging_science-march-21-2025.md]]
+- [[raw/OpenWebUI_aaron_march-27-2025.md]]
