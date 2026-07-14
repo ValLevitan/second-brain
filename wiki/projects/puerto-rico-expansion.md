@@ -3,7 +3,7 @@ type: project
 title: Puerto Rico expansion
 date: 2026-07-12
 aliases: [Puerto Rico expansion, Puerto Rico office, PR route market, gaming license, resident agent, FYC Consulting]
-source-count: 5
+source-count: 6
 ---
 
 # Puerto Rico expansion
@@ -58,6 +58,11 @@ After touring Puerto Rico locations, Val described the route market as "insanely
 - **Route market** — largely unregulated; by any account **70,000–100,000 illegal machines** (old Atari-style units and copied Chinese machines, e.g. a copied WMS "Zeus/Kronos"). The government's stated goal is to **regulate, tax and standardise**, starting with a first tranche of **25,000** machines, then further tranches of ~25,000. Games often need to be **bilingual (Spanish)** for neighbourhoods outside San Juan. [[raw/games_markets-march-24-2025.md]]
 - Machines that "cash out" do so via **pulse-metered POS** systems (like Georgia's "mother goose") rather than a true system. Val plans to go back within **two weeks**; [[wiki/people/juan-martinez.md|Juan]] to travel too (while also returning to Georgia). [[raw/games_markets-march-24-2025.md]]
 
+## The earlier "Puerto Rico proposal" to Julian Puerta (referenced Mar 29 2025)
+
+- On the Mar 29 Nebraska recruitment call, Val reminded [[wiki/people/julian-puerta.md|Julian Puerta]]: "Do you remember the proposal that I gave you for Puerto Rico?" — meaning Val had at some earlier point offered Julian terms for the **Puerto Rico area**. Neither man could recall the details; both only remembered it was "very generous." Val said he would keep the **same proposal** for the Nebraska/South Dakota area. [[raw/julian _puerta_nebraska-march-29-2025.md]]
+- *Inference:* this strengthens (but does not confirm) the possibility that the unidentified **"Julian"** who attended the first law-firm call with Igor (Jan 29, above) is Julian Puerta — see the open question on [[wiki/people/julian-puerta.md]].
+
 ## Sources
 
 - [[raw/anibal_call_011325_meeting_notes_2025-01-14.md]]
@@ -65,3 +70,4 @@ After touring Puerto Rico locations, Val described the route market as "insanely
 - [[raw/product_matrix_puerto_rico-march21-2025.md]]
 - [[raw/requirements_puerto_rico-march-21-2025.md]]
 - [[raw/games_markets-march-24-2025.md]]
+- [[raw/julian _puerta_nebraska-march-29-2025.md]]
