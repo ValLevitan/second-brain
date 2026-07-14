@@ -1,15 +1,15 @@
 ---
 type: person
-title: Igor
-date: 2026-07-13
-aliases: [Igor, Igor designer]
-disambiguation: "The 'mobile-application Igor' (surname unknown — queued). One of FOUR Igors (owner-ruled): this one (mobile app/UI + new-market ops/Puerto Rico), Igor Donis (Financial Controller → wiki/people/igor-donis.md), and Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md). Resolve by context; queue anything fitting none."
+title: Igor Nazarenka
+date: 2026-07-14
+aliases: [Igor Nazarenka, Ihar Nazarenka, Igor, Igor designer]
+disambiguation: "The 'mobile-application Igor' — surname Nazarenka, OWNER-CONFIRMED 2026-07-14. One of FIVE Igor-named people (owner-ruled): this one (mobile app/UI + new-market ops/Puerto Rico), Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context; queue anything fitting none."
 source-count: 3
 ---
 
-# Igor
+# Igor Nazarenka
 
-Igor is the JVL **"mobile-application Igor"** (owner ruling 2026-07-13; surname not yet known — queued). **Surname candidate:** the contractor roster lists **Ihar Nazarenka** ("Ihar" = Igor); a plausible match for this Igor but **not confirmed by role** — flagged, not asserted (see [[wiki/topics/jvl-contractor-roster.md]]). He is **one of four Igors** — distinct from [[wiki/people/igor-donis.md|Igor Donis]] (Financial Controller) and [[wiki/people/igor-starovoytov.md|Igor Starovoytov]] (contractor industrial designer). Resolve by context: mobile app/UI + new-market ops/Puerto Rico → this Igor; finance/corporate → Donis; cabinet/industrial/product design → Starovoytov.
+Igor (Ihar) Nazarenka is the JVL **"mobile-application Igor"** — **surname owner-confirmed 2026-07-14**, matching the contractor roster's **Ihar Nazarenka** ("Ihar" = Igor; see [[wiki/topics/jvl-contractor-roster.md]]). He is one of five Igor-named people — distinct from [[wiki/people/igor-donis.md|Igor Donis]] (Financial Controller), [[wiki/people/igor-starovoytov.md|Igor Starovoytov]] (contractor industrial designer), [[wiki/people/igor-metelski.md|Igor Metelski]] (RGS engineer), and [[wiki/people/ihar-hrybko.md|Ihar Hrybko]] (UX/UI). Resolve by context: mobile app/UI + new-market ops/Puerto Rico → Nazarenka; finance/corporate → Donis; cabinet/industrial/product design → Starovoytov; RGS/online-integration code → Metelski.
 
 ## Role — mobile app / product
 

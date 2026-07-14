@@ -19,7 +19,7 @@ JVL's plan to open an operation in Puerto Rico, tied to the closure of its Peru 
 
 ## Staffing
 
-- The Peru office is set to close at the end of February (no exact date given). Anibal, who runs Peru, may relocate to Puerto Rico; his concern is support for the move (salary, living arrangements), and he wants no gap in work. Mery suggested the relocation. See [[wiki/people/anibal.md]], [[wiki/people/igor.md]], [[wiki/people/mary.md]]. [[raw/anibal_call_011325_meeting_notes_2025-01-14.md]]
+- The Peru office is set to close at the end of February (no exact date given). Anibal, who runs Peru, may relocate to Puerto Rico; his concern is support for the move (salary, living arrangements), and he wants no gap in work. Mery suggested the relocation. See [[wiki/people/anibal.md]], [[wiki/people/igor-nazarenka.md]], [[wiki/people/mary.md]]. [[raw/anibal_call_011325_meeting_notes_2025-01-14.md]]
 
 ## Follow-ups noted
 

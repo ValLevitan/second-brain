@@ -3,7 +3,7 @@ type: person
 title: Igor Donis
 date: 2026-07-13
 aliases: [Igor Donis, Igor]
-disambiguation: "JVL Financial Controller = the finance/corporate 'Igor'. Owner-confirmed 2026-07-13 a DIFFERENT person from the mobile-application Igor (wiki/people/igor.md). Two Igors only; finance/controller/corporate → Donis; everything-else Igor → the other."
+disambiguation: "JVL Financial Controller = the finance/corporate 'Igor'. Owner-confirmed 2026-07-13 a DIFFERENT person from the mobile-application Igor (wiki/people/igor-nazarenka.md). Two Igors only; finance/controller/corporate → Donis; everything-else Igor → the other."
 source-count: 1
 ---
 
@@ -19,7 +19,7 @@ Igor Donis is JVL's **Financial Controller**. [[raw/jvl_systems_corporate_identi
 
 ## Identity note
 
-**Owner-confirmed:** Igor Donis (this page, finance/corporate) is distinct from the other Igors — there are now **four** (see §4 registry): the [[wiki/people/igor.md|mobile-application Igor]], [[wiki/people/igor-starovoytov.md|Igor Starovoytov]] (industrial designer), and [[wiki/people/igor-metelski.md|Igor Metelski]] (RGS engineer). Finance/controller/corporate → Donis. Queue any "Igor" that fits none.
+**Owner-confirmed:** Igor Donis (this page, finance/corporate) is distinct from the other Igors — there are now **four** (see §4 registry): the [[wiki/people/igor-nazarenka.md|mobile-application Igor]], [[wiki/people/igor-starovoytov.md|Igor Starovoytov]] (industrial designer), and [[wiki/people/igor-metelski.md|Igor Metelski]] (RGS engineer). Finance/controller/corporate → Donis. Queue any "Igor" that fits none.
 
 ## Sources
 

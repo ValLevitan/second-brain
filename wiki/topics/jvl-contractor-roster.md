@@ -18,7 +18,7 @@ Confirms / resolves existing people:
 - **Nathan Carver** (Code Carver LLC, engineering/DevOps) — resolves the earlier "Nathan" flag. · **Fedor Globa** (Amazon account manager) — resolves the "Fedor" flag. · **Anastasiya Okarak** → [[wiki/people/anastasia.md|Anastasia]]. · **Yulia Aksamit** → [[wiki/people/yulia.md|Yulia]]. · **Mery Villavicencio Alvarado** → [[wiki/people/mary.md|Mary/Mery]]. · **Chris/Cris Nacarino** = the A/P contact "Cris". · **Alka Sood** (Cogna) = finance "Alka".
 
 Flagged:
-- **Ihar Nazarenka** — CANDIDATE for the [[wiki/people/igor.md|mobile-application Igor]]'s surname ("Ihar" = Igor). **Not confirmed** by role — queued; do not assert on igor.md until a source ties them.
+- **Ihar Nazarenka** — **CONFIRMED (owner ruling 2026-07-14)** as the [[wiki/people/igor-nazarenka.md|mobile-application Igor]] ("Ihar" = Igor).
 - **More Antons:** **Anton Rodionov** (graphics artist, "Artysta Malarz") and **Anton Pankou** are contractor Antons — beyond the three already ruled (Leshkevich / Seregin / SMM). Added to the watch-list; resolve by context, queue.
 - **"Dmitri" Sadouski** (Dzmitry Sadouski, engineering) — another Dmitri; distinct from the ruled three (Kovalchuk / Dmitriy Khandov / Chudinov). Resolve by context.
 - **Bulldozer** — a contractor entity (PDF-invoice exception; associated with Inna Levitan/Chairman per the notes).
