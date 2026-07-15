@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre]
 disambiguation: "JVL DevOps manager. Distinct from Andrei Klimovich (online-games commercial lead) and from Andrew Khandov (C# Miranda developer). Owner-confirmed 2026-07-13. Canonical first name 'Andrey'."
-source-count: 28
+source-count: 29
 open-commitments: 5
 ---
 
@@ -126,3 +126,4 @@ His surname is given as **Bosik** on the Feb 12 GitHub check-in (WEBVTT). (Disti
 - [[raw/rgs_git_migration-march-31-2025.md]]
 - [[raw/vector_meeting_db-march-31-2025.md]]
 - [[raw/cms_requirements_development-dzima-sergei-andrei.md]]
+- [[raw/Explain RGS.md]]
