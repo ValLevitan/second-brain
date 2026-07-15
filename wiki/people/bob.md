@@ -10,6 +10,9 @@ open-questions: 1
 
 # Bob (American FlexPay/Georgia colleague — identity unresolved)
 
+> **Identity — owner-deferred (2026-07-15):** Val does not recall who Bob is; ruling is to resolve his identity from future transcript context rather than force a match now. Watch for an American FlexPay/Georgia colleague with Bally-iView/M3T knowledge (cf. the Mar-27 unnamed scope-gap attendee). Do NOT merge into Michael Gottlieb without a source that names him.
+
+
 "Bob" is the name by which an **American colleague** on JVL's FlexPay/Georgia side is addressed in the Apr 7 2025 SMIB/TITO meeting ("I agree with that, Bob"). No surname or role title is stated. [[raw/flex_pay_tito_smib_port-april7-2025.md]]
 
 ## What he does (Apr 7 2025)
