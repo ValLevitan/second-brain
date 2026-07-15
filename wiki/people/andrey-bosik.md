@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre]
 disambiguation: "JVL DevOps manager. Distinct from Andrei Klimovich (online-games commercial lead) and from Andrew Khandov (C# Miranda developer). Owner-confirmed 2026-07-13. Canonical first name 'Andrey'."
-source-count: 32
+source-count: 35
 open-commitments: 5
 ---
 
@@ -100,6 +100,10 @@ His surname is given as **Bosik** on the Feb 12 GitHub check-in (WEBVTT). (Disti
 - In the Apr 14–15 CMS sessions he is the GitHub-mechanics voice (production deploys via GitHub Actions; Jira feature ↔ GitHub branch flow) and received Chudinov's list of the ~15 SVN repositories to move; his stated position on the split-vs-move dispute: "последнее слово надо отдать разработчикам, чтобы им с этим работать и нести за это ответственность." [[raw/cms_svn_github-april-14-2025.md]] [[raw/cms_github_svn-apr-15-2025.md]]
 - On the Apr 15 Omni daily he walked the group through the designer asset flow (sandbox sources repo → GitHub-Action export into the game repo's assets directory → pull request) and is Val's preferred help channel — "я предпочитаю, чтобы все вопросы были адресованы к Андрею, а не к Паше." [[raw/daily_omni_progress-apr-15-2025.md]]
 
+## Apr 16 2025 — repo naming/master→main, feature branches, MCP installs
+
+In the Omni daily Andrei confirmed the GitHub repo-naming changes (renamed the asset repo to "asset src"), is the point of contact for feature-branch creation, and was tasked to rename `master`→`main` as the standard main branch across repos (safest done by whoever works the repo). He is installing Aaron's Jira MCP for himself and Yuri Zakharenko. [[raw/daily_omni_progress-april-16-2025 (Val Levitan's conflicted copy).md]] In the IT meeting Val had him install the Jira MCP + VS Code (Russian) on Yuri's machine [[raw/it_automation_schemas_secrets_server-apr-16-2025.md]]; in the AI-tooling meeting Aaron pushed him (DevOps) to capture the designers' local-build learnings back into CI. [[raw/mcp_experiences_tech-apr-16-2025.md]]
+
 ## Sources
 
 - [[raw/GitHub repository structure.md]]
@@ -135,3 +139,6 @@ His surname is given as **Bosik** on the Feb 12 GitHub check-in (WEBVTT). (Disti
 - [[raw/cms_svn_github-april-14-2025.md]]
 - [[raw/cms_github_svn-apr-15-2025.md]]
 - [[raw/daily_omni_progress-apr-15-2025.md]]
+- [[raw/daily_omni_progress-april-16-2025 (Val Levitan's conflicted copy).md]]
+- [[raw/it_automation_schemas_secrets_server-apr-16-2025.md]]
+- [[raw/mcp_experiences_tech-apr-16-2025.md]]

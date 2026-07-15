@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena]
-source-count: 20
+source-count: 21
 ---
 
 # Genadi Peari
@@ -69,6 +69,10 @@ On a four-segment Mar 27 call with Val ([[wiki/meetings/2025-03-27-genadi-hardwa
 
 - In the payout-device strategy sessions ([[wiki/topics/flexpay-business-architecture-payout-devices.md]]) "Gennady" is the hardware/dispenser voice: proposed the minimal cage flow (attendant just hands the card — "хорошо, что аттендант выдал карту … больше ничего не должен делать"), was asked to research **card-dispensing unit sizes** for the tower concept (possibly smaller capacity than FlexPay's 200–300-card minimum since a cashier can refill through a back panel), and backed concentrating on the cheapest POS version. Attribution to Genadi Peari is by context (hardware lead researching dispensers), labeled inference. [[raw/flex_pay_evolution-april-8-2025.md]] [[raw/evolution_flex_pay-april-11-2025.md]]
 
+## Apr 16 2025 — dispensing tower / POS design one-on-one
+
+Val worked the payout-device design directly with Genadi (a Wednesday one-on-one; "I wish to have Pavel and Juan Martinez here, but … they're busy"). They scoped two devices — a cage **POS** and a self-serve **card-dispensing tower** — and Val decided to build the tower first, magnetic-stripe-only, on the FlexPort base (see [[wiki/decisions/2025-04-16-dispensing-tower-first-magnetic-stripe.md]]). Genadi is to prepare models for Igor Starovoytov's industrial-design sketch by the next day; Val floated (with unease) handing the whole tower project to others to free Genadi for the Flex-S machines. [[raw/fkex_pay_evolution-apr-16-2025.md]]
+
 ## Sources
 
 - [[raw/fp-7_performance_analysis_january_13_2025.md]]
@@ -91,3 +95,4 @@ On a four-segment Mar 27 call with Val ([[wiki/meetings/2025-03-27-genadi-hardwa
 - [[raw/flex_pay_tito_smib_port-april7-2025.md]]
 - [[raw/flex_pay_evolution-april-8-2025.md]]
 - [[raw/evolution_flex_pay-april-11-2025.md]]
+- [[raw/fkex_pay_evolution-apr-16-2025.md]]

@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina]
-source-count: 20
+source-count: 22
 open-commitments: 1
 ---
 
@@ -92,6 +92,10 @@ Her surname is given as **Zhukova** on the Feb 18 onboarding session (WEBVTT).
 
 - [ ] Lena — prepare a **visual storyboard** of the V-Deck bet-up incentive (escalating flame/particles on bet buttons 3/4/5) — due **next Friday** — [[raw/Game design part 2 - Feb-28-2025.md]]
 
+## Apr 16 2025 — graphics priority change; comp-art via Cline
+
+In the Omni daily Val flagged a separate task for "Лена Жукова" to change the graphic designers' priorities (especially the cladding/окление work) per the framework changes; he also noted Lena had made the earlier list of jackpot/feature "штуки." [[raw/daily_omni_progress-april-16-2025 (Val Levitan's conflicted copy).md]] In the AI-tooling knowledge share, Lena described generating concept/comp-art images with ChatGPT (DALL·E) and now Cline as well — same model, sometimes different results. [[raw/mcp_experiences_tech-apr-16-2025.md]]
+
 ## Sources
 
 - [[raw/github _structure-pavel-aaron-andrei.md]]
@@ -115,3 +119,5 @@ Her surname is given as **Zhukova** on the Feb 18 onboarding session (WEBVTT).
 - [[raw/github_commits-march-26-2025.md]]
 - [[raw/games_design_meeting-march-28-2025.md]]
 - [[raw/michael_gottlieb_val_meeting-26-2025.md]]
+- [[raw/daily_omni_progress-april-16-2025 (Val Levitan's conflicted copy).md]]
+- [[raw/mcp_experiences_tech-apr-16-2025.md]]

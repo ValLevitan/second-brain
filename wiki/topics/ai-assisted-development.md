@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest]
-source-count: 20
+source-count: 22
 ---
 
 # AI-assisted development adoption
@@ -123,6 +123,17 @@ On the Mar 31 Val-Aaron session (see [[wiki/meetings/2025-03-31-vector-db-second
 - Val explicitly linked adopting Git-native, AI-friendly practices to resolving the ISO build-pipeline problem: a natural-language/AI interface should be a standard part of a pipeline built to last 10 years. See [[wiki/topics/build-pipeline-parameterization.md]]. [[raw/development_pipeline_january_13_2025.md]]
 - A concrete instance of AI-in-the-loop decision support: the Jan-13 pipeline meeting's executive summary records Val asking **"ChatGPT-01 Pro"** to propose the Git-native pipeline design — its answer prefigures the Jan-15 decisions. See [[wiki/topics/build-pipeline-parameterization.md]]. [[raw/development_pipeline_–_executive_summary_the_meeting_–_1_2025-03-29.md]]
 
+## Apr 16 2025 — team MCP/Cline experiences + Aaron's Jira MCP
+
+A ~45-minute recurring AI-tooling knowledge-share hosted by Aaron ([[wiki/meetings/2025-04-16-ai-tooling-mcp-experiences.md]]), where the graphics/game-dev team reports real usage of the AI coding agent (transcribed "client"/"Klein"/"Clang"/"Climb" = **Cline**) and MCP servers. Meets every two weeks (next ~9:15 am); Val/Aaron want to broaden it company-wide. [[raw/mcp_experiences_tech-apr-16-2025.md]]
+
+- **Cline workflows shared:** porting Confluence docs to GitHub Markdown (fixing links, generating PDFs for diagram pages) and generating DALL·E images; a Git+Jira flow that takes an issue number → creates a branch, commits/pushes, opens a PR, assigns reviewer, closes the task and logs time in Jira; documenting Spine animations from a JSON/Atlas export; and building a game from Sasha's repo via a Cline-generated BAT file (Omni now runs the build in-browser; build still too slow). [[raw/mcp_experiences_tech-apr-16-2025.md]]
+- **Recursive-memory practice:** the team asks Cline to keep a `readme.md` + a "client recursive memory" file + a "best prompts" inventory per session; a new session "familiarizes itself" with the folder to skip repetition and can unwind mistakes several steps back. [[raw/mcp_experiences_tech-apr-16-2025.md]]
+- **The MCP verdict:** the third-party Atlassian/"class" MCP the team used is buggy and tool-limited (it resorts to writing scripts); **Aaron's own Jira MCP** works cleanly and bi-directionally (manage issues/search/boards, create sprints, many fields), with a companion Confluence MCP. Everyone to switch to Aaron's (on his GitHub, shared with Andrei); Atlassian has announced official MCPs are coming. Aaron also demoed a **memory-graph MCP** (local SQL store of rules/memories, visualized/pruned) and a **Comfy UI MCP** for precise local GPU image generation — his vision: a Jira user story → Jira MCP + Comfy flow + Comfy-UI MCP + GitHub MCP → out pops usable comp-art. [[raw/mcp_experiences_tech-apr-16-2025.md]]
+- **Val's transcript→template method:** record a meeting on his phone → **Whisper** transcript → feed to **Anthropic Claude 3.7 Sonnet** (which can research the web) to build a fuller framework and distill a story/game-template/storyboard; point Anthropic at a folder of prior conversations/templates to develop new, near-templated stories. "Strongly recommend this." [[raw/mcp_experiences_tech-apr-16-2025.md]]
+- **Docker:** Aaron runs his MCP on Node.js (no Docker required) but recommends moving toward the Docker version for future enhancements. Homework/extra-credit: generate content with Comfy UI + an MCP, demo in two weeks. [[raw/mcp_experiences_tech-apr-16-2025.md]]
+- **IT-side rollout (same day):** in the Apr-16 IT meeting Val had [[wiki/people/andrey-bosik.md|Andrei]] install Aaron's Jira MCP + **VS Code (in Russian)** on [[wiki/people/yuri-zakharenko.md|Yuri Zakharenko]]'s machine and start training Yuri to read story-level descriptions, reverse them into a feature, and check the match — Val wants Yuri to control this. [[raw/it_automation_schemas_secrets_server-apr-16-2025.md]]
+
 ## History — earlier AI-consultation artifacts (undated, pre-2025)
 
 - **SolidWorks integration memo from ChatGPT:** a reference document titled "Solid work integration and the overall architecture suggestion from ChatGPT" shows JVL (before the 2025 tooling push) using ChatGPT to draft an IT-integration architecture connecting **SolidWorks** (3D CAD) with **Atlassian Jira/Confluence** and **Microsoft Business Central** — file attachments/version control of CAD files, BOM synchronization into the ERP, middleware/connectors, OAuth security, monitoring, and staged testing. The content is generic AI output (no JVL-specific decisions); its durable value is evidence that JVL's CAD/PLM–ERP–Atlassian integration question was explored via ChatGPT. Undated; consistent with the ~2023–24 Atlassian/Business-Central era of [[wiki/projects/jvl-insights-knowledge-base.md]] (inference, flagged). [[raw/solid_work_integration_and_the_overall_architecture_suggesti_2025-03-29.md]]
@@ -150,3 +161,5 @@ On the Mar 31 Val-Aaron session (see [[wiki/meetings/2025-03-31-vector-db-second
 - [[raw/solid_work_integration_and_the_overall_architecture_suggesti_2025-03-29.md]]
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
 - [[raw/michael_gottlieb_val_meeting-26-2025.md]]
+- [[raw/mcp_experiences_tech-apr-16-2025.md]]
+- [[raw/it_automation_schemas_secrets_server-apr-16-2025.md]]

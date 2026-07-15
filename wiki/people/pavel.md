@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov]
 disambiguation: "One of TWO Pavels: Pavel Frolov (JVL Minsk → wiki/people/pavel.md, this page) and the external Ukrainian outsourcing-studio owner Pavel (wiki/people/pavel-studio-owner.md). Resolve by context; queue if unclear."
-source-count: 36
+source-count: 38
 open-commitments: 4
 open-questions: 0
 ---
@@ -112,6 +112,10 @@ Note: "Pasha" and "Sasha" are sometimes confused in the transcripts; "Pasha" map
 - In the Apr 8/11 business-architecture sessions ([[wiki/topics/flexpay-business-architecture-payout-devices.md]]) Pavel argued **against basing the cheap payout devices on the embedded FlexPort** — "MBED is a difficult solution … not predictable in terms of development time" — preferring a standard cheap x86 board + ~10-inch touchscreen at "the same money"; he estimated a FlexPort-master device at ~3 months of embedded work, sized FlexPay's BOM against the tower idea, proposed the dual-dispenser cheap-kiosk variant and the (rebuffed) **NFC-card** idea, and confirmed the master/slave failover exists "in our embedded progressive." He also supplied the pulse-security rebuttal line: the pulses "live only within a cabinet up to Flexport. We do not move the signal outside the cabinet." [[raw/flex_pay_evolution-april-8-2025.md]] [[raw/evolution_flex_pay-april-11-2025.md]]
 - On the Apr 8 recap he explained the two-counter temporary-wallet mechanics (playable vs cashed value; no value printed on the ticket) and the router requirement (all FlexPorts + FlexPay on one router, dynamic IPs). [[raw/flex_port_recap_felipe_juan_pavel-april-8-2025.md]]
 
+## Apr 16 2025 — runs the Omni planning daily; barcode reader tested
+
+Pavel (Pasha) ran the Omni daily as meeting secretary, walking the Jira feature list (IP 416 Omni Land Base Framework / IP 610 Omni Core) and creating features/stories; he is weighing lengthening the sprint from two weeks to three (maybe four), which Val capped at +1 week. Val nudged him to shift planning to smaller groups so he stops being "секретарь митинга." [[raw/daily_omni_progress-april-16-2025 (Val Levitan's conflicted copy).md]] Separately, on the Genadi hardware call, Val reported Pavel had tested the TITO-barcode reader — he inverted the image black/white "и потом он читает все" — confirming the scanner works after a settings reprogram. [[raw/fkex_pay_evolution-apr-16-2025.md]]
+
 ## Sources
 
 - [[raw/GitHub repository structure.md]]
@@ -151,3 +155,5 @@ Note: "Pasha" and "Sasha" are sometimes confused in the transcripts; "Pasha" map
 - [[raw/flex_pay_evolution-april-8-2025.md]]
 - [[raw/flex_port_recap_felipe_juan_pavel-april-8-2025.md]]
 - [[raw/evolution_flex_pay-april-11-2025.md]]
+- [[raw/daily_omni_progress-april-16-2025 (Val Levitan's conflicted copy).md]]
+- [[raw/fkex_pay_evolution-apr-16-2025.md]]

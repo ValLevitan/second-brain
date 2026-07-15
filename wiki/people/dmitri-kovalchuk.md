@@ -4,7 +4,7 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "JVL's IT person = the recurring IT-context 'Dima'. Distinct from Dmitriy Khandov (Senior 3D Graphic Designer), Andrey/Andrew Khandov (Miranda dev), and Dmitri Chudinov (back-end architect, who is the 'Dima Chudinov' of the Observability Platform org). Owner-confirmed 2026-07-13."
-source-count: 8
+source-count: 9
 ---
 
 # Dmitri Kovalchuk
@@ -33,6 +33,10 @@ Per the owner ruling, these IT-context "Dima" mentions — previously flagged un
 - **JVL Insights (~2023–24):** named **"Dmitri Kovalchuk (Sr. System Administrator, MS SQL Specialist) - Consultant"** in the JVL Insights knowledge-base proposal — to manage/optimize its MS SQL database, ensure data integrity/security, and build the data aggregation/categorization. Compensation figures withheld (§15.8). See [[wiki/projects/jvl-insights-knowledge-base.md]]. [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
 - **SQL/OLAP architecture, part 1 (~2024, likely Q4):** provisionally, the "Дима" called in (with Andrey) to explain how the local three-site Active Directory and the separate Azure AD (mail/Teams) work — an IT-infrastructure context that fits this page per the owner's Dima rule; **flagged, not certain**. See [[wiki/meetings/2024-sql-olap-visualization-architecture-1.md]]. [[raw/architecture_sql_olap_visualization_1_2025-03-29.md]]
 
+## Apr 16 2025 — assets schema and secrets server
+
+In an Aaron-led IT meeting, Dmitri showed progress on Atlassian **Assets/Discovery** — he has automated pulling all computers from Discovery into Jira, and creates/routes requests in Jira Service Management. Next step (Aaron): link the user record (source of truth = **Microsoft Entra**) to machines via a last-logged-in-user automation. He researched secrets management and proposed a **Microsoft secret server in Azure (Azure Key Vault)**, which Val endorsed. Blocker: an old **Windows 2008** box can't export (WMI); to be upgraded after a Proxmox node. [[raw/it_automation_schemas_secrets_server-apr-16-2025.md]] See [[wiki/decisions/2025-04-16-adopt-azure-microsoft-secret-server.md]].
+
 ## Sources
 
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
@@ -43,3 +47,4 @@ Per the owner ruling, these IT-context "Dima" mentions — previously flagged un
 - [[raw/it_structure_minsk-jan-22-2025.md]]
 - [[raw/meeting_various-jan-20-2025.md]]
 - [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]]
+- [[raw/it_automation_schemas_secrets_server-apr-16-2025.md]]

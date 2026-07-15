@@ -4,7 +4,7 @@ title: Evgeniy Alekseev
 date: 2025-03-11
 aliases: [Evgeniy Alekseev, Evgeny Alekseev, Zhenya Alekseev, Женя Алексеев, Alekseev]
 disambiguation: "One of TWO Zhenyas (owner-ruled), both contractors via EAleks Technology: Eugine Yavorski (wiki/people/eugine-yavorski.md) and Evgeniy Alekseev (wiki/people/evgeniy-alekseev.md). Resolve by context; queue if unclear."
-source-count: 6
+source-count: 7
 open-commitments: 1
 ---
 
@@ -28,6 +28,10 @@ On the Apr 1 standup ([[wiki/meetings/2025-04-01-flexport-flexpay-dev-update.md]
 
 - [ ] Evgeniy Alekseev — build the low-level SAS project (code this week, hardware assembled by next week), targeting ~3 weeks or faster — due ~late Apr 2025 — [[raw/flex-port_pay_dev_update-april-1-2025.md]]
 
+## Apr 16 2025 — dispensing tower is the next embedded stage
+
+On the Genadi hardware call, Val placed the **Flex self-dispensing tower** (on the FlexPort base) as the next stage of work for Alekseev and Yavorski, after the TITO-architecture pieces (SMIB, FlexPort, Local TITO Server). He deprioritized the legacy machines that don't support FlexPort (a protocol issue on Alekseev's side) — ~3,000 of ~35,000 machines, "не первый, не второй приоритет." [[raw/fkex_pay_evolution-apr-16-2025.md]] See [[wiki/decisions/2025-04-16-dispensing-tower-first-magnetic-stripe.md]].
+
 ## Sources
 
 - [[raw/Embedded_Group_alignment_and_update_2025-03-11.md]]
@@ -36,3 +40,4 @@ On the Apr 1 standup ([[wiki/meetings/2025-04-01-flexport-flexpay-dev-update.md]
 - [[raw/Embedded_Group_alignment_and_update_2025-03-25.md]]
 - [[raw/flex_pay_scope_gap-mach-27-2025.md]]
 - [[raw/flex-port_pay_dev_update-april-1-2025.md]]
+- [[raw/fkex_pay_evolution-apr-16-2025.md]]

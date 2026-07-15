@@ -3,7 +3,7 @@ type: person
 title: Yulia
 date: 2025-02-26
 aliases: [Yulia, Julia, Юлия]
-source-count: 7
+source-count: 8
 ---
 
 # Yulia
@@ -21,6 +21,10 @@ Surname not given in the transcripts. (One of the four graphics-team members —
 - **PR discipline (Mar 12):** on the GitHub graphic-design check-in Yulia ("Julia") had **approved a ~940-file pull request** in about an hour — Dima's Miranda catch-up commit; Val used it to teach that a PR should never have ~1,000 files unless it's a special catch-up, and that approvals need descriptive commentary, not just "approved." As the assets repo owner she is one of those Lena can use to "fake the review" of new-game commits. See [[wiki/topics/graphics-team-git-workflow.md]]. [[raw/GitHub_for_Graphic_Design_evolution_2025-03-12.md]]
 - **Parallel art-director candidate (Mar 12):** Val floated dedicating Julia (with Anastasia) to a market as a parallel art director to Lena; Michael was cautious. See [[wiki/topics/game-production-throughput-strategy.md]]. [[raw/developing_games_faster_michael_gottlieb_march_12-2025.md]]
 
+## Apr 16 2025 — AI-tooling experience (Git/Jira via Cline)
+
+In Aaron's AI-tooling knowledge share, Yulia (Julia) described using the AI coding agent (Cline) to streamline the Git+Jira workflow: give it an issue number and brief description and it creates a branch, commits/pushes, opens a PR, assigns reviewer, closes the task, and logs time in Jira. She maintains a reusable instruction file and a "recursive memory"/readme so a new session can "familiarize itself" with the folder and unwind mistakes. [[raw/mcp_experiences_tech-apr-16-2025.md]]
+
 ## Sources
 
 - [[raw/github _structure-pavel-aaron-andrei.md]]
@@ -31,3 +35,4 @@ Surname not given in the transcripts. (One of the four graphics-team members —
 - [[raw/Game Development How animation are made with Lena - March 12-2025.md]]
 - [[raw/GitHub_for_Graphic_Design_evolution_2025-03-12.md]]
 - [[raw/developing_games_faster_michael_gottlieb_march_12-2025.md]]
+- [[raw/mcp_experiences_tech-apr-16-2025.md]]

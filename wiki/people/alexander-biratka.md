@@ -3,7 +3,7 @@ type: person
 title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko]
-source-count: 17
+source-count: 19
 open-commitments: 1
 open-questions: 0
 ---
@@ -63,6 +63,10 @@ Note: the correct surname is **Biratka** (confirmed by Val). The transcripts spe
 - On the Apr 15 Omni daily, Sasha had **renamed the products/repos** so one product = one repository (a game keeping two — code and assets); he kept designers' raw sources out of the game repo (hence the separate sandbox/asset-sources repo), owns renaming master→main on his repos after notifying users, and is to start working closely with Anton ([[wiki/people/anton-leshkevich.md|Leshkevich]]) on **integration tests** for the Kai-Ocho Omni port ([[wiki/decisions/2025-04-14-kai-ocho-first-omni-framework-game.md]]). [[raw/daily_omni_progress-apr-15-2025.md]]
 - Val's Apr-14 retelling of the framework-repo lesson names him: when "Бератко" had to write Actions and assemble the framework product from two-three repositories, the team realized the product was described wrong — Val's standing example that repo structure exposes bad product definitions. Val also cites him (with Andrey and Pavel) as the crew whose GitHub bruises the CMS team should learn from. [[raw/cms_svn_github-april-14-2025.md]] [[raw/cms_github_svn-apr-15-2025.md]]
 
+## Apr 16 2025 — Omni framework base classes, and "clone Sasha"
+
+In the Omni daily Sasha (Biratka) was the framework owner: he writes the base classes the games trigger (bonus/base-game/free-spins), which each game then implements concretely. Most of the framework work rides on him — Val: "работает за трех человек" and joked "1 июня … мы Сашу клонируем." Sasha + Dima Khandov are to write the stories and descriptions for FRAM 19/478/476/459/653/FRAM 1 by the next day, and the master→main branch rename was restated as standard. His game repo/build was also used in the AI-tooling meeting (a designer built it via Cline; see [[wiki/topics/ai-assisted-development.md]]). [[raw/daily_omni_progress-april-16-2025 (Val Levitan's conflicted copy).md]] [[raw/mcp_experiences_tech-apr-16-2025.md]]
+
 ## Sources
 
 - [[raw/fp-7_performance_analysis_january_13_2025.md]]
@@ -82,3 +86,5 @@ Note: the correct surname is **Biratka** (confirmed by Val). The transcripts spe
 - [[raw/daily_omni_progress-apr-15-2025.md]]
 - [[raw/cms_svn_github-april-14-2025.md]]
 - [[raw/cms_github_svn-apr-15-2025.md]]
+- [[raw/daily_omni_progress-april-16-2025 (Val Levitan's conflicted copy).md]]
+- [[raw/mcp_experiences_tech-apr-16-2025.md]]

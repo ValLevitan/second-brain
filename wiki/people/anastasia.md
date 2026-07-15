@@ -3,7 +3,7 @@ type: person
 title: Anastasia
 date: 2025-02-26
 aliases: [Anastasia, Nastia, Nastya, Anastasiya, Анастасия]
-source-count: 7
+source-count: 8
 ---
 
 # Anastasia
@@ -21,6 +21,10 @@ Surname not given in the transcripts. (One of the four graphics-team members —
 - **Parallel art-director test case (Mar 12):** on the Gottlieb call Val proposed making Anastasia a parallel art director; the two agreed to **test** whether she can lead comp art by assigning her a Mexican-theme game (the **5X Peppers**, or **Pink Princess → "La Rosa"**). Michael warned a junior can take a game through 14–16 revisions before it's good, and that Anastasia (when Lena is on vacation) "doesn't quite get it" yet on slot-machine design. See [[wiki/topics/game-production-throughput-strategy.md]]. [[raw/developing_games_faster_michael_gottlieb_march_12-2025.md]]
 - **Git access (Mar 12):** named as one of the people Lena can give repo access to "fake the review" of new-game commits. See [[wiki/topics/graphics-team-git-workflow.md]]. [[raw/GitHub_for_Graphic_Design_evolution_2025-03-12.md]]
 
+## Apr 16 2025 — AI-tooling experience (MCP)
+
+In Aaron's AI-tooling knowledge share, Anastasia reported the third-party "class" Atlassian MCP is very tool-limited (it resorts to writing scripts for log-time/task creation/search), agreed it isn't useful, and said the team will try Aaron's MCP — with an idea to generate a whole Jira feature/story structure for a game (they have templates for a regular Class 3 game, a Georgia game, and a Persistent game). [[raw/mcp_experiences_tech-apr-16-2025.md]]
+
 ## Sources
 
 - [[raw/github _structure-pavel-aaron-andrei.md]]
@@ -31,3 +35,4 @@ Surname not given in the transcripts. (One of the four graphics-team members —
 - [[raw/Game Development How animation are made with Lena - March 12-2025.md]]
 - [[raw/developing_games_faster_michael_gottlieb_march_12-2025.md]]
 - [[raw/GitHub_for_Graphic_Design_evolution_2025-03-12.md]]
+- [[raw/mcp_experiences_tech-apr-16-2025.md]]

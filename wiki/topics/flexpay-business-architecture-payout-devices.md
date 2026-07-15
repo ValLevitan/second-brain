@@ -3,8 +3,8 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink]
-source-count: 3
-open-commitments: 4
+source-count: 4
+open-commitments: 6
 open-questions: 3
 ---
 
@@ -53,9 +53,23 @@ In the week after the FlexSMIB architecture ruling ([[wiki/decisions/2025-04-07-
 - **PCI-compliant optical scanner:** per the last Incom call, the optical card scanner must be PCI-compliant for a future Incom technology; Juan to re-read the notes so the hardware dimensions allow a swap-out. [[raw/evolution_flex_pay-april-11-2025.md]]
 - "John from Income" reported masters want "the automated solution so that no clerk is involved" — one of the conflicting master-preference signals (locations reportedly want the human hustle). [[raw/evolution_flex_pay-april-11-2025.md]]
 
+## The Apr-16 Genadi one-on-one — tower/POS design & the priority pick
+
+On Wednesday Apr 16, Val worked the device design directly with [[wiki/people/genadi-peari.md|Genadi Peari]] ([[wiki/meetings/2025-04-16-flexpay-evolution-dispensing-tower.md]]); the headline calls are on [[wiki/decisions/2025-04-16-dispensing-tower-first-magnetic-stripe.md]]. Design detail captured:
+
+- **Two devices to design:** a **POS** (a cage unit + an attendant-facing device on the desk) and the **card-dispensing tower**. The tower can be a cage-internal customer-facing unit driven by the POS, or a **free-standing self-serve tower** — powered by mains on one side, CAT6 from the router on the other. It dispenses **cards only** (TITO format), reading the card's magnetic stripe; each machine already has SMIB or FlexPort to the router. [[raw/fkex_pay_evolution-apr-16-2025.md]]
+- **Dispense flow:** read the TITO ticket (e.g. "$100"), dispense a blank card, read its number, pair number + value via InComm, get confirmation, re-read the stripe/QR, confirm the value, dispense. [[raw/fkex_pay_evolution-apr-16-2025.md]]
+- **LED vs screen cost debate (resolved toward a small screen):** a FlexPortal touchscreen display "costs $20"; a larger 12–14-inch touchscreen "sandwich … about $60" plus a GUI to write; LED bulbs are "cents … maybe $2" but need a controller that erases the saving. Val settled on the small **7-inch FlexPort screen** in front, on a cheap embedded platform (one serial port + CAT5). Pavel had resisted embedded for the **POS** (many screens, heavy support) but the tower has only 3–5 screens, so embedded fits. [[raw/fkex_pay_evolution-apr-16-2025.md]]
+- **Enclosure:** ~10–11 in wide, height of a computer tower, ~500-card capacity in one width (no parallel stacking), gray/milky plastic (no lighting), three-part shell (two cheeks + a front mold, no metal frame), front-loading extractable mechanism as on FlexPay. [[raw/fkex_pay_evolution-apr-16-2025.md]]
+- **Optical-scanner question closed:** the TITO-ticket barcode can be read after the manufacturer reprograms a setting; Pavel tested a black/white inversion and "then he reads everything." Val: "I'm taking it off the agenda." (This is separate from the card reader, which stays magnetic-stripe-only.) [[raw/fkex_pay_evolution-apr-16-2025.md]]
+- **Roadmap & market:** priority order = finish JVL business model → TITO architecture (SMIB + FlexPort + Local TITO Server) → dispensing tower → FlexPOS; tower work goes to [[wiki/people/evgeniy-alekseev.md|Alekseev]] + [[wiki/people/eugine-yavorski.md|Yavorski]]. Targeted at South Dakota, Nebraska, Puerto Rico; JVL follows InComm (Alabama, Texas). Legacy non-FlexPort machines (~3,000 of ~35,000) deprioritized. Rent-not-sell / recurring-revenue model (see decision). [[raw/fkex_pay_evolution-apr-16-2025.md]]
+- Val floated handing the whole tower project to someone else (perhaps Evgeny's ex-cash-handling mechanics) to free Genadi for the Flex-S machines, but "отдать на сторону проект немножко скерри мне" — with control, not abandonment. [[raw/fkex_pay_evolution-apr-16-2025.md]]
+
 ## Open commitments
 
-- [ ] Juan Martinez — dig out the IGT-published TITO spec + the Bally handheld-scanner model, and confirm the TITO barcode encoding (a "code 205" name was spotted on-call, as transcribed) so a proper optical sensor can be chosen — due before the Wednesday follow-up — [[raw/evolution_flex_pay-april-11-2025.md]]
+- [ ] Igor Starovoytov — draw the tower's industrial design (dimensions; standalone view + a between-machines view; gray/milky, no lighting, 7-inch front screen) — due ~Wed/Thu Apr 16–17 — [[raw/fkex_pay_evolution-apr-16-2025.md]]
+- [ ] Val — prepare the models/reference for Igor and find a reference station — due ~Apr 17 (next day) — [[raw/fkex_pay_evolution-apr-16-2025.md]]
+- [ ] Juan Martinez — dig out the IGT-published TITO spec + the Bally handheld-scanner model, and confirm the TITO barcode encoding (a "code 205" name was spotted on-call, as transcribed) so a proper optical sensor can be chosen — due before the Wednesday follow-up (**partly overtaken**: Apr-16 settled the card reader as magnetic-stripe-only and confirmed the ticket-barcode scanner works after a reprogram) — [[raw/evolution_flex_pay-april-11-2025.md]]
 - [ ] Juan Martinez — on the Georgia trip, ask masters (and locations) their "dream solution," incl. raising the pulse-security rebuttal with Mike Patel — due trip week of ~Apr 14 — [[raw/evolution_flex_pay-april-11-2025.md]]
 - [ ] Val — circulate the Wednesday 11 am ET FlexPay-Evolution e-vite with this recording, plus draft use cases — due ~Apr 14 — [[raw/evolution_flex_pay-april-11-2025.md]]
 - [ ] All attendees — write down use cases / user experiences for the payout-device system before the Wednesday session — due ~Apr 16 — [[raw/evolution_flex_pay-april-11-2025.md]]
@@ -71,3 +85,4 @@ In the week after the FlexSMIB architecture ruling ([[wiki/decisions/2025-04-07-
 - [[raw/flex_pay_evolution-april-8-2025.md]]
 - [[raw/flex_port_recap_felipe_juan_pavel-april-8-2025.md]]
 - [[raw/evolution_flex_pay-april-11-2025.md]]
+- [[raw/fkex_pay_evolution-apr-16-2025.md]]

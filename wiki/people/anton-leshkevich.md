@@ -4,7 +4,7 @@ title: Anton Leshkevich
 date: 2025-01-21
 aliases: [Anton Leshkevich, Anton, Antoine]
 disambiguation: "One of THREE distinct Antons. Anton Leshkevich = Minsk engineer (Omni/RGS, this page). Distinct from Anton Seregin (Minsk payroll, wiki/people/anton-seregin.md) and the SMM/Meta-ads contractor (wiki/people/anton-smm.md). Owner-confirmed 2026-07-13. Resolve 'Anton' by context; queue if unclear."
-source-count: 8
+source-count: 9
 open-commitments: 1
 open-questions: 0
 ---
@@ -41,6 +41,10 @@ Anton Leshkevich is a JVL Minsk engineer. He knows the Omni framework and RGS co
 
 - Val on the Omni daily: "Вам в этот разговор еще нужно подтягивать Антона … Саша, вы с Антоном должны вплотную начинать работать, чтобы Антон делал интеграционные тесты" — Anton builds the integration tests for the first Omni game ([[wiki/decisions/2025-04-14-kai-ocho-first-omni-framework-game.md]]). Attribution to Leshkevich by Omni/test-automation context (consistent with his Mar-24 auto-testing role), labeled inference. [[raw/daily_omni_progress-apr-15-2025.md]]
 
+## Apr 16 2025 — trains QA on integration tests (changed decision)
+
+Val changed his earlier plan: rather than Anton writing the integration tests himself, Anton is to **train JVL's QA engineers** to write them ("Я не хочу, чтобы вы сами руками писали эти тесты … начинали учить наших QA-инженеров"). He is to prepare a presentation and run a kickoff meeting with Irina and Pavel — Val offered to attend Friday **6:30 am**. Anton had also been doing the game-history screenshot work on the Omni framework. [[raw/daily_omni_progress-april-16-2025 (Val Levitan's conflicted copy).md]] See [[wiki/decisions/2025-04-16-replace-testers-with-test-engineers.md]].
+
 ## Sources
 
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
@@ -51,3 +55,4 @@ Anton Leshkevich is a JVL Minsk engineer. He knows the Omni framework and RGS co
 - [[raw/devops_container_approach_for_omni_3.md]]
 - [[raw/test-360_progress_review_meeting.md]]
 - [[raw/daily_omni_progress-apr-15-2025.md]]
+- [[raw/daily_omni_progress-april-16-2025 (Val Levitan's conflicted copy).md]]

@@ -3,7 +3,7 @@ type: topic
 title: InfoSec, secrets management and server infrastructure
 date: 2025-03-19
 aliases: [secrets management, enterprise secrets manager, DevSecOps, Critical Insight, John Luke Peck, Minsk servers, cloud migration costing, Zabbix]
-source-count: 1
+source-count: 2
 open-commitments: 2
 open-questions: 1
 ---
@@ -35,6 +35,14 @@ JVL's information-security thread — opened in an evening one-on-one between Va
 - The abstraction step his ops thinkers miss (named as "Dimitri and… Andre" — the Minsk IT pair, by context [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] and [[wiki/people/andrey-bosik.md|Andrey Bosik]]): a production SQL server could be **rented as SQL services** (Azure SQL / AWS MS-SQL) with no OS/VM layers to maintain — higher per-transaction cost, fewer dependency layers. Aaron's car-buying analogy: cash purchase / 48-month loan / 96-month loan / lease each suit different financial standings — cloud services are the lease. [[raw/info_security_server_infrastructure.md]]
 - Val's endpoint: stop being the person who worries where laptops and monitors go ("It's only $200. Don't go there") — find JVL people to drive and own this layer. [[raw/info_security_server_infrastructure.md]]
 
+## Apr 16 2025 — assets schema and the secrets-server pick
+
+The thread advanced in a short Apr-16 IT meeting Aaron led ([[wiki/meetings/2025-04-16-it-assets-secrets-server.md]]); the platform choice is now on [[wiki/decisions/2025-04-16-adopt-azure-microsoft-secret-server.md]]. [[raw/it_automation_schemas_secrets_server-apr-16-2025.md]]
+
+- **Assets progress:** the IT team creates/routes requests in Jira Service Management and is adopting **Atlassian Assets / Discovery**; [[wiki/people/dmitri-kovalchuk.md|Dmitri]] has automated pulling all computers from Discovery into Jira. **Microsoft Entra** is the source of truth for user records (username/mail) but holds no hardware/software data. Aaron's next step: link the user record to machines via a **last-logged-in-user** automation (copy once, don't churn shared machines), so every ticket can query whose computer it is, its software, and the person's ticket history. Blocker: an old **Windows 2008** box can't export (WMI); upgrade after a **Proxmox node**. [[raw/it_automation_schemas_secrets_server-apr-16-2025.md]]
+- **Secrets pick:** the team proposes a **Microsoft secret server in Azure (Azure Key Vault)**; Val: "I need this implemented. That's our next thing." The design manages **secrets as assets** (never the value) linked to servers/services, with **Atlassian Automation** granting time-boxed access on help-desk approval — closing the control loop Aaron described in March. Example: manage AWS credentials in the Microsoft vault; manage domain-admin rights as a secret. [[raw/it_automation_schemas_secrets_server-apr-16-2025.md]]
+- **Availability:** Val cancelled his own Friday session (in transit) but Aaron is bookable Friday **8–10 am ET** for the team's secrets-server questions; team to read the whitepaper. [[raw/it_automation_schemas_secrets_server-apr-16-2025.md]]
+
 ## Open commitments
 
 - [ ] Aaron — make the introduction to John Luke Peck / Critical Insight and schedule a (West-coast-friendly, afternoon) call — due unspecified — [[raw/info_security_server_infrastructure.md]]
@@ -42,8 +50,9 @@ JVL's information-security thread — opened in an evening one-on-one between Va
 
 ## Open questions
 
-- Which secrets-management product fits JVL's stack (Entra vs "Delenia"-type vs Password State-type) — not chosen. — [[raw/info_security_server_infrastructure.md]]
+- Which secrets-management product fits JVL's stack (Entra vs "Delenia"-type vs Password State-type) — **answered Apr-16** toward a Microsoft/Azure secret server (Azure Key Vault); see [[wiki/decisions/2025-04-16-adopt-azure-microsoft-secret-server.md]]. — [[raw/info_security_server_infrastructure.md]] [[raw/it_automation_schemas_secrets_server-apr-16-2025.md]]
 
 ## Sources
 
 - [[raw/info_security_server_infrastructure.md]]
+- [[raw/it_automation_schemas_secrets_server-apr-16-2025.md]]

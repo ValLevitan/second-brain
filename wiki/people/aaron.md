@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie]
-source-count: 38
+source-count: 40
 open-commitments: 1
 ---
 
@@ -117,6 +117,10 @@ His surname is given as **Bockelie** on the Jan 21 continuous-delivery transcrip
 - **JVL Insights (~2023–24):** Aaron's earliest recorded JVL engagement — named **"Aaron Bockelie (Atlassian Specialist) - Consultant"** in the JVL Insights knowledge-base proposal, scoped to integrate it with JIRA/Confluence, set up project-tracking/documentation workflows, and train the team on Atlassian tools. See [[wiki/projects/jvl-insights-knowledge-base.md]]. (Compensation figures in the source withheld, §15.8.) [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
 - **SQL/OLAP visualization architecture (~2024, likely Q4):** on the broader architecture session he proposed the low-hardware alternative to Pavel's SAS-host designs — commodity serial→Ethernet converters plus a **container host with virtual serial-adapter drivers**, cloud-deployable, "turn everything into casino as a service" — and pressed the team on SAS's acknowledgement/retry robustness. See [[wiki/topics/olap-power-bi-architecture.md]] and [[wiki/meetings/2024-sql-olap-visualization-architecture-2.md]]. [[raw/architecture_sql_olap_visualization_2_2025-03-29.md]]
 
+## Apr 16 2025 — IT secrets/assets meeting + AI-tooling knowledge share
+
+Two sessions Aaron led/hosted. (1) A short IT meeting on the **assets schema** (link user records via Microsoft Entra + Atlassian Discovery to machines with a last-logged-in-user automation) and a **secrets server** (adopt a Microsoft/Azure secret server; manage secrets as assets with Atlassian Automation granting time-boxed access) — see [[wiki/decisions/2025-04-16-adopt-azure-microsoft-secret-server.md]]. Aaron bookable Friday 8–10 am ET. [[raw/it_automation_schemas_secrets_server-apr-16-2025.md]] (2) The bi-weekly AI-tooling knowledge share: his own **Jira MCP** (bi-directional, sprint management) replaces the buggy third-party Atlassian MCP; also demoed a memory-graph MCP and a Comfy UI MCP; recommended moving to the Docker version; homework = generate content with Comfy UI + an MCP, demo in two weeks. Detail on [[wiki/topics/ai-assisted-development.md]]. [[raw/mcp_experiences_tech-apr-16-2025.md]]
+
 ## Sources
 
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
@@ -157,3 +161,5 @@ His surname is given as **Bockelie** on the Jan 21 continuous-delivery transcrip
 - [[raw/devops_container_approach_for_omni_3.md]]
 - [[raw/info_security_server_infrastructure.md]]
 - [[raw/test-360_progress_review_meeting.md]]
+- [[raw/it_automation_schemas_secrets_server-apr-16-2025.md]]
+- [[raw/mcp_experiences_tech-apr-16-2025.md]]
