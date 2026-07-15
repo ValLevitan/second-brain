@@ -43,7 +43,7 @@ On the Feb 10 repo-structure meeting ([[wiki/meetings/2025-02-10-github-repo-str
 
 ## Open questions
 
-- Is the dedicated Miranda developer ("your dad") Andrew Khandov, making Andrew and Dmitriy Khandov father and son? (Inference from role match; not stated as a name in the source.) — [[raw/Even more on Miranda.md]]
+- ~~Is the dedicated Miranda developer ("your dad") Andrew Khandov?~~ **RESOLVED (owner ruling 2026-07-14): yes — Andrew Khandov is Dmitriy Khandov's father** and the dedicated Miranda developer. (Owner correction is its own citation.)
 - Who are "Pavel and Arena" whom Dimitri should negotiate Miranda's development with — "Arena" is a garbled name (Irina? Lena?). — [[raw/Even more on Miranda.md]]
 
 ## Sources

@@ -72,7 +72,7 @@ An older source (staged 2025-03-29, internally dated **Nov 12 2024**) predates t
 
 ## Open questions
 
-- Which "Андрей" is meant to co-design the one-button game-container deployment with Efim — Andrey Bosik (DevOps) or Andrei Klimovich (online commercial)? Not resolvable from context. — [[raw/Explain RGS.md]]
+- ~~Which "Андрей" co-designs the one-button game-container deployment with Efim?~~ **RESOLVED (owner ruling 2026-07-14): [[wiki/people/andrey-bosik.md|Andrey Bosik]]** (DevOps engineer). (Owner correction is its own citation.)
 - Can the near-automatic "installer-magic" RGS integration actually be achieved, given that JVL cannot control the (varying) API quality on the operators' side? — [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
 - Is the Golden Palace direct integration actually finished? (Efim thinks the questions are done; no formal completion confirmation was seen.) — [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
 

@@ -31,6 +31,10 @@ On the Feb 21 game-design review, "Dima and Andrey" (Dima Khandov + Andrey Khand
 
 - [ ] Andrey Khandov (or the Feb 3 coachee) — baseline all V8 features on one "V8" branch and PR-merge to main; open weekly-lifespan feature branches for in-progress V9 work, each tied to a correctly-stated Jira story — due unspecified — [[raw/github_explained-feb-3-2025.md]]
 
+## Family
+
+- **Owner-confirmed (2026-07-14): Andrew Khandov is the father of [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]** (Senior 3D Graphic Designer). This confirms the Mar-2025 Miranda coaching remark that Dimitri's dedicated Miranda developer "is your dad." (Owner correction is its own citation.)
+
 ## Sources
 
 - [[raw/github_explained-feb-3-2025.md]]

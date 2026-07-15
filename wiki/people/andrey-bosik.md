@@ -93,6 +93,8 @@ His surname is given as **Bosik** on the Feb 12 GitHub check-in (WEBVTT). (Disti
 - [ ] Andrei — create the two new **Game Concepts** and **Game Designs** GitHub organizations (mirroring the Jira concept/design/production stages) and grant Lena repo-creation rights — due unspecified — [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]
 - [ ] Andrei ("Andre") — get the Fortune Foo Paws `.github` **contact-sheet Action** working as a functional repo action (set up Git-access credentials, modify the YAML to use them) and demo it committing a Photoshop file — due by the Wednesday 9am meeting — [[raw/Git_progress_check_in_2025-02-28.md]]
 
+- **Owner-ruled (2026-07-14):** the "Андрей" who co-designs the **one-button game-container deployment** with [[wiki/people/efim-podvoiski.md|Efim Podvoiski]] is Bosik (see [[wiki/topics/rgs-architecture-and-integration.md]]). Owner also fixed his title wording: **DevOps engineer**. [[raw/Explain RGS.md]]
+
 ## Sources
 
 - [[raw/GitHub repository structure.md]]
