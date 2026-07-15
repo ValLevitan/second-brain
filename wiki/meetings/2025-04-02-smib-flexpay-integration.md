@@ -2,15 +2,15 @@
 type: meeting
 title: SMIB + FlexPay integration working meeting (Apr 2)
 date: 2025-04-02
-aliases: [SMIB FlexPay meeting April 2, SMIB integration summary]
-source-count: 2
+aliases: [SMIB FlexPay meeting April 2, SMIB integration summary, flex smib port pay April 2]
+source-count: 3
 ---
 
 # SMIB + FlexPay integration working meeting (Apr 2 2025)
 
-A working meeting on the SMIB/TITO track between the Mar 27–28 scope-gap discovery and the Apr 7 architecture-settling meeting. **No verbatim transcript exists** — the record is a derived pair staged from the same meeting: a summary document [[raw/SMIB_FlexPay_Meeting_Summary_April_2_2025.md]] and an action-items document [[raw/SMIB_FlexPay_Action_Items_April_2_2025.md]] (both dated April 2, 2025 in their headers). Treated as **one meeting, two companion derived sources** (§12); facts recorded once.
+A working meeting (87 minutes) on the SMIB/TITO track between the Mar 27–28 scope-gap discovery and the Apr 7 architecture-settling meeting. The record is **three companion sources from the same meeting** (§12): the **full verbatim transcript** [[raw/flex_smib_port_pay-April-2-2025.md]] (the fullest source-of-record) plus a derived summary [[raw/SMIB_FlexPay_Meeting_Summary_April_2_2025.md]] and action-items document [[raw/SMIB_FlexPay_Action_Items_April_2_2025.md]] (all dated April 2, 2025). The transcript **internally duplicates** two long passages (re-transcription loops); facts recorded once. (Corrects the earlier note that "no verbatim transcript exists" — it does.)
 
-**Attendees** (from the action-items owners/tags): [[wiki/people/val-levitan.md|Val]], [[wiki/people/juan-martinez.md|Juan]], [[wiki/people/pavel.md|Pavel]] ("Pasha"), [[wiki/people/genadi-peari.md|Gennady]], and Irina (by context likely [[wiki/people/irina-makarych.md|Irina Makarych]], inference). [[raw/SMIB_FlexPay_Action_Items_April_2_2025.md]]
+**Attendees:** [[wiki/people/val-levitan.md|Val]], [[wiki/people/juan-martinez.md|Juan]], [[wiki/people/pavel.md|Pavel]] ("Pasha"/"Paul"/"Pablo"), [[wiki/people/genadi-peari.md|Gennady]], Irina (by context [[wiki/people/irina-makarych.md|Irina Makarych]], inference), and a **"Carlo"** greeted in Italian ("Buongiorno a tutti") — unresolved incidental attendee, possibly Genadi or a lab/consultant contact, queued (not force-matched). [[raw/flex_smib_port_pay-April-2-2025.md]] [[raw/SMIB_FlexPay_Action_Items_April_2_2025.md]]
 
 **Purpose:** technical requirements and implementation options for a SMIB solution enabling TITO on modern and legacy machines. [[raw/SMIB_FlexPay_Meeting_Summary_April_2_2025.md]]
 
@@ -21,5 +21,6 @@ Substance lives on:
 
 ## Sources
 
+- [[raw/flex_smib_port_pay-April-2-2025.md]]
 - [[raw/SMIB_FlexPay_Meeting_Summary_April_2_2025.md]]
 - [[raw/SMIB_FlexPay_Action_Items_April_2_2025.md]]

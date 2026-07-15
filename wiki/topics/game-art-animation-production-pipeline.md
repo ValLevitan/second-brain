@@ -3,7 +3,7 @@ type: topic
 title: Game art & animation production pipeline (comp art → Miranda)
 date: 2025-03-12
 aliases: [animation production, comp art pipeline, CompArt, storyboards, Spine, Blender, After Effects, placeholder build, Miranda scene assembly, art production stages, spike, sorting, symbol containers]
-source-count: 3
+source-count: 4
 ---
 
 # Game art & animation production pipeline (comp art → Miranda)
@@ -56,6 +56,10 @@ Moving the released **Calle Ocho / Kai-Ocho** game's assets onto Omni forced a c
 - **"Spikes" (unsolved reworks) identified:** a **soft mask** for the negative transition (Omni's mask is a hard geometry mask; the fix is a two-layer video where the second layer is the soft mask); **video-in-button** complex buttons for the **Pick Your Fortune** mini-game (buttons that change skin per state and embed video — never built before); and **sorting** (per-symbol individual sort order, "very important… needed in all games," ~90% on Sasha). [[raw/graphical_assets_redesign_omni_calle_ocho-apr-17-2025.md]]
 - **Concrete asset rulings for Calle Ocho:** the new **Dashboard** pushes the reels up (Lena to shrink the rooster + logo slightly, remove the "Lions," reposition — **not resize** — the reel matrix); **Royals** redone once in **Spine** as recolourable **skins** (one font, per-game colour sets); **anticipation** and **precognition** kept as video (rework only if performance drops); the **V-Deck** gets the new last-three-buttons flame feature (as on Fortune Fu Paws / Diamond Link Georgia). [[wiki/people/sergey-tsymanov.md|Sergey]] to rebuild the FireEyes progressive Sign for Omni; **Vitalik** cuts resources; **Dima** owns templates + the hardest fixes while others parallelize. [[raw/graphical_assets_redesign_omni_calle_ocho-apr-17-2025.md]]
 
+## La Rosa enters production (Apr 3 2025)
+
+On the Apr 3 review ([[wiki/meetings/2025-04-03-game-design-vdeck-review.md]]), [[wiki/people/lena.md|Lena]] reported she had **created the production for La Rosa** and the **illustrator will start** on it (the game "contains a lot of illustrations"); art assets get prepared while game artists finish Diamond Link Nudge/Buttons and Peach Tropical, then Peach 4 games are assembled. She had also **begun design work on the Spepper game** (Spepper IP) and flagged **El Jaguar** next — confirming the concept→production hand-off described above for the Peach 4 reskins (game list on [[wiki/topics/jvl-machine-lineup.md]]). [[raw/game_design-april-3-2025.md]]
+
 ## Production-time estimation on the Miro board (Apr 18 2025)
 
 Val and Lena walked the **game-production task list in Miro** item by item to estimate **production time per item**, setting creative reiterations aside (Lena's rule of thumb: ~2.5 reiterations on average, not every task) ([[wiki/meetings/2025-04-18-games-production-time-estimation.md]]). [[raw/games_production-apr-18-2025.md]]
@@ -70,3 +74,4 @@ Val and Lena walked the **game-production task list in Miro** item by item to es
 - [[raw/Game Development How animation are made with Lena - March 12-2025.md]]
 - [[raw/graphical_assets_redesign_omni_calle_ocho-apr-17-2025.md]]
 - [[raw/games_production-apr-18-2025.md]]
+- [[raw/game_design-april-3-2025.md]]

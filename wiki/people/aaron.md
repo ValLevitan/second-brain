@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie]
-source-count: 40
+source-count: 42
 open-commitments: 1
 ---
 
@@ -121,9 +121,15 @@ His surname is given as **Bockelie** on the Jan 21 continuous-delivery transcrip
 
 Two sessions Aaron led/hosted. (1) A short IT meeting on the **assets schema** (link user records via Microsoft Entra + Atlassian Discovery to machines with a last-logged-in-user automation) and a **secrets server** (adopt a Microsoft/Azure secret server; manage secrets as assets with Atlassian Automation granting time-boxed access) — see [[wiki/decisions/2025-04-16-adopt-azure-microsoft-secret-server.md]]. Aaron bookable Friday 8–10 am ET. [[raw/it_automation_schemas_secrets_server-apr-16-2025.md]] (2) The bi-weekly AI-tooling knowledge share: his own **Jira MCP** (bi-directional, sprint management) replaces the buggy third-party Atlassian MCP; also demoed a memory-graph MCP and a Comfy UI MCP; recommended moving to the Docker version; homework = generate content with Comfy UI + an MCP, demo in two weeks. Detail on [[wiki/topics/ai-assisted-development.md]]. [[raw/mcp_experiences_tech-apr-16-2025.md]]
 
+## GitHub↔Jira "capability" mapping (Apr 1–2 2025)
+
+Across two sessions Aaron worked Val through how code actually relates to Jira, resolving the Mar-31 alignment homework. **Apr 1:** set the rule that a **repository is never a product** ("a product is an artifact in motion") and pushed to **flatten JVL's many GitHub orgs into one** with a naming convention (citing Block/Square, Home Assistant) — Val resisted. **Apr 2:** diagrammed monolithic-vs-multi-repo reality, showing **one Jira feature spans multiple GitHub branches**, which led Val to adopt a **Jira "capability"** level as the demonstrable executive unit. Val also credited Aaron with the **Jira/Atlassian MCP** that lets him interrogate features/capabilities in plain language. Full detail on [[wiki/decisions/2025-04-03-jira-capability-level-and-github-mapping.md]] and [[wiki/projects/jvl-2025-plan-and-jira-roadmap.md]]. [[raw/git_jira_correlation-april-1-2025.md]] [[raw/gut_hub_jira_relationship-april-2-2025.md]]
+
 ## Sources
 
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
+- [[raw/git_jira_correlation-april-1-2025.md]]
+- [[raw/gut_hub_jira_relationship-april-2-2025.md]]
 - [[raw/architecture_sql_olap_visualization_2_2025-03-29.md]]
 - [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]
 - [[raw/development_pipeline_january_13_2025.md]]

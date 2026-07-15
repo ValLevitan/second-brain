@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze]
-source-count: 11
+source-count: 12
 open-questions: 3
 ---
 
@@ -67,6 +67,11 @@ JVL's core land-based market — the conventional **Georgia co-op / COAM** busin
 - **Date evolution (Apr 7–11):** later sources put the demonstration on **"the 17th" — "Next Thursday at 4 p.m."** (Apr 17 2025 was the Thursday; the Mar-27 "April 18" reading is taken as superseded/imprecise) — showing **one V43 machine with Diamond Link**. [[raw/flex_pay_tito_smib_port-april7-2025.md]] [[raw/evolution_flex_pay-april-11-2025.md]] Event scale per the Apr-8 recap: "not a trade show. This is just a Gamoa meeting, two hour thing," maybe ~10 masters; demo config = one Flex-S with FlexPort + bill acceptor + FlexPay on a TP-Link router, Diamond Link software, no competitor machine, no TITO shown. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/flex_port_recap_felipe_juan_pavel-april-8-2025.md]]
 - **Market friction (Apr 11):** GAMOA's **Mike Patel** told Felipe he "will not be buying our kiosk solution because if we offer pulse capture, it is not secure"; the team's rebuttal (Mother Goose is itself pulse-based; JVL keeps pulses inside the cabinet) is on [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. Juan visits Georgia the week of ~Apr 14 to put the question to the masters directly. [[raw/evolution_flex_pay-april-11-2025.md]]
 
+## Software-upgrade-kit pricing and financing (Apr 1)
+
+- On an Apr 1 commercial call (Val, [[wiki/people/felipe-miranda.md|Felipe]], [[wiki/people/juan-martinez.md|Juan]], [[wiki/people/pavel.md|Pavel]], + an unnamed American commercial colleague), JVL decided to **charge for the COAM software-upgrade kits** (the "Peach"/PH1 enhanced software) for the **first time** — retail **~$2,900**, floor **~$2,500**. The kit adds a SAS port, printer integration, all games reworked with the nudge feature, and TITO/legislative compliance, effectively renewing an old cabinet. Full detail (cost basis, competitor comparison, financing strategy, and Val's 2026 kiosk-vacuum market-sizing) on [[wiki/decisions/2025-04-01-price-georgia-coam-upgrade-kits.md]]. [[raw/upgrade_ga-coam_kits-april-1-2025.md]]
+- **Financing rule:** kits have a **~zero bill of material**, so JVL finances them generously (12–24 months, zero interest) — but only against **kiosk orders**, and only under a **signed installment contract** (repossession/service-suspension rights); third-party financing (to 5 years) goes through **Elevate**. This complements the Mar-23 financial-product note above (same ~6,000-installation, June-2026-deadline picture). [[raw/upgrade_ga-coam_kits-april-1-2025.md]]
+
 ## Open questions
 
 - Was routing Jackpot Rush / JPRE for Georgia onto the **old framework** (curved cabinet) a deliberate plan or an oversight? Val said he didn't recall discussing it and parked it for a later meeting. [[raw/game_design_meeting_march_7_2025.md]]
@@ -86,3 +91,4 @@ JVL's core land-based market — the conventional **Georgia co-op / COAM** busin
 - [[raw/flex_pay_tito_smib_port-april7-2025.md]]
 - [[raw/flex_port_recap_felipe_juan_pavel-april-8-2025.md]]
 - [[raw/evolution_flex_pay-april-11-2025.md]]
+- [[raw/upgrade_ga-coam_kits-april-1-2025.md]]

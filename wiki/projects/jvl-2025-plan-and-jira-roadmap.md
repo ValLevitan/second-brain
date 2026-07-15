@@ -3,7 +3,7 @@ type: project
 title: JVL 2025 strategic plan and Jira roadmap
 date: 2026-07-12
 aliases: [2025 plan, strategic plan 2025, Jira value stream, distribution infrastructure, DevSecOps grooming, ITSM, GitHub Jira alignment]
-source-count: 10
+source-count: 13
 open-commitments: 1
 open-questions: 1
 ---
@@ -77,9 +77,19 @@ A Russian-language Mar 31 meeting (Val with Irina, Andrey, Pavel and a "Yura" �
 
 This debate revisits (but does not supersede) [[wiki/decisions/2025-01-20-github-orgs-mirror-value-streams.md]] and the Feb 11 org structure [[wiki/decisions/2025-02-11-github-org-naming-and-structure.md]].
 
+## The Apr 1–3 arc — the "capability" resolution (three consecutive sessions)
+
+The Mar 31 homework played out over three days with [[wiki/people/aaron.md|Aaron]], ending in a durable structural ruling — full detail on [[wiki/decisions/2025-04-03-jira-capability-level-and-github-mapping.md]]:
+
+- **Apr 1** ([[wiki/meetings/2025-04-01-github-jira-correlation.md]]) — Aaron set the ground rule that a **repository is never a product** ("a product is an artifact in motion") and pushed to **flatten JVL's many GitHub orgs into one** with a naming convention; Val resisted, wanting a structure he can control, but conceded there are "too many orgs" today and that engineers are already committing into an unvetted "wild west" org. [[raw/git_jira_correlation-april-1-2025.md]]
+- **Apr 2** ([[wiki/meetings/2025-04-02-github-jira-capability-diagram.md]]) — Aaron diagrammed monolithic-vs-multi-repo reality, showing **one Jira feature spans multiple GitHub branches** (app + shared library), so the feature↔feature-branch mapping is not one-to-one. Val's breakthrough: connect GitHub feature branches to a **Jira "capability"** (a bundle of features) as the executive-demonstrable unit. [[raw/gut_hub_jira_relationship-april-2-2025.md]]
+- **Apr 3** ([[wiki/meetings/2025-04-03-github-jira-structure-lecture.md]]) — Val lectured the Minsk team on the resolved structure: insert a **capabilities** level between feature and product; **feature branches ≤ 1 week**; **lengthen sprints to ~3–4 weeks** delivering 2–4 features; **"no test, no pull"** (QA wedges an automated test into the merge); **repository = product** (FlexPay is a repository); SVN→GitHub is **locked**; and AI/MCP tooling (Jira MCP + sequential-thinking, with Sonnet/ChatGPT) bridges the executive↔engineering gap. [[raw/github_jira_setup-april-3-2025.md]]
+
+The Mar 31 **initiative-vs-value-stream / flatten-vs-many-orgs** question was **not** settled by this arc — it stays open (see below).
+
 ## Open questions
 
-- Should the GitHub organization map to the Jira **initiative** or the **value stream** — and should Jira drop its initiative level and go value stream → product? (Homework set; follow-up Wednesday 7 a.m.) — [[raw/github_jira_alignment-march-31-2025.md]]
+- Should the GitHub organization map to the Jira **initiative** or the **value stream**, be **flattened into one org**, and should Jira drop its initiative level? (Mar 31 homework; Apr 1–3 arc introduced the capability level but left the org-structure question open — Aaron for flatten, Val against.) — [[raw/github_jira_alignment-march-31-2025.md]] [[raw/git_jira_correlation-april-1-2025.md]]
 
 ## Open commitments
 
@@ -97,3 +107,6 @@ This debate revisits (but does not supersede) [[wiki/decisions/2025-01-20-github
 - [[raw/Git_repo_structure_part_2_2025-02-11.md]]
 - [[raw/github_jira_alignment-march-31-2025.md]]
 - [[raw/components_objectives_for_a_follow_up_meeting.md]]
+- [[raw/git_jira_correlation-april-1-2025.md]]
+- [[raw/gut_hub_jira_relationship-april-2-2025.md]]
+- [[raw/github_jira_setup-april-3-2025.md]]

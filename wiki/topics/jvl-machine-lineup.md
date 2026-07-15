@@ -3,7 +3,7 @@ type: topic
 title: JVL machine and cabinet lineup
 date: 2026-07-12
 aliases: [Flex cabinets, Altera, Maple, Echo, Flex S, Flex C, Flex V42, Flex V42/C, cabinets, VLT, video lottery terminal, Flex SD27, V43, C10-VLOT-TERM-RU, Epic 950, FutureLogic, FlexPort, FlexPay, Nico, Miranda, Omni, Florida Ruta, CPU kit, coffin, iOBoard, Bally iview, Diamondlink, nano-optics, JCM, dual SAS, HAL, FireEyes Wink, Dragon Supreme, Kai-Ocho, Maneki-neko, HG-6, kiosk, Incom, TITO, SMIB, SAS server, La Rosa, El Jaguar, Golden Husk, 5X Peppers, Cold Cash, Pink Princess, Jungle Jaguar]
-source-count: 28
+source-count: 30
 ---
 
 # JVL machine and cabinet lineup
@@ -86,8 +86,28 @@ A running glossary of the machine models, cabinet types, and product families th
     - **Cold Cash** — the **sixth game in Peach 4**; kept **as-is** (older animation) because some players still like that style ("a different flavor of ice cream"), against an earlier suggestion to change a different game. [[raw/games_design_meeting-march-28-2025.md]]
     - **Fortune Football** — bonus to be tried and pushed **early the following week** (GMI/GLI "pretty close," ~Tuesday). [[raw/games_design_meeting-march-28-2025.md]]
     - **Kai-Ocho ("Kaio-Jo") and Dragons of Rain (fiery-ice / Firelink family)** — deployment was waiting on a **new GLI sound file**, which Juan received and was installing in the office on Tuesday (updates the Mar-7 Kai-Ocho audio item). Juan planned to discuss with Val **installing it as-is at ≥1 location "at risk of losing our footprint."** [[raw/games_design_meeting-march-28-2025.md]]
-  - **Kai-Ocho praise + continue-the-theme rulings (Mar 26, Val–Gottlieb one-on-one):** both called **Kai-Ocho** "some of the best work the team has done" (Val: "I'm so happy with that product, and I can't wait to get it deployed"); Val wants the theme **grown into more advanced mechanics**, "just like Jackpot Rush," and likewise wants the **"festive German beer girl"** game — designed by a **"David"** (first mention of this designer name; unresolved, no other context) — continued. Gottlieb's supporting principle: "you take the stuff that works, and you continue on with it" (his father's 15–20 poker-themed pinballs). [[raw/michael_gottlieb_val_meeting-26-2025.md]]
+  - **Kai-Ocho praise + continue-the-theme rulings (Mar 26, Val–Gottlieb one-on-one):** both called **Kai-Ocho** "some of the best work the team has done" (Val: "I'm so happy with that product, and I can't wait to get it deployed"); Val wants the theme **grown into more advanced mechanics**, "just like Jackpot Rush," and likewise wants the **"festive German beer girl"** game — designed by a **"David"** — continued. Gottlieb's supporting principle: "you take the stuff that works, and you continue on with it" (his father's 15–20 poker-themed pinballs). [[raw/michael_gottlieb_val_meeting-26-2025.md]] **(Apr 1 clarifies the "David" mention:** the German-beer-girl game is **Pub Crawl** — an Oktoberfest concept "partly developed under David… it was done, it was finished" — which the team decided **not** to revive as-is, pivoting instead to the Latina cantina theme below. [[raw/game_design-april-1-2025.md]])
   - **"Nico" cat game (Feb 6 review):** a game with a **"Nico" cat** character reviewed as still-image mockups (Lena presenting) — idle-with-meters, an attraction mode with promo text and character animation, and an on-machine view. Open feedback items for Juan: the topper **promotional text** (draft: "hold and re-spin feature with up to three bonuses") and the low-camera-angle, "huge and majestic" Nico-cat **topper** image. (Transcript otherwise blank.) [[raw/Game design meeting - February 6, 2025.md]]
+
+## Concept-stage games from the Georgia/Puerto Rico brainstorm (Apr 1)
+
+Reimagined-legacy-title concepts moved into concept-development stage on the Apr 1 theme brainstorm, driven by three months of **Intralot Georgia** data (design philosophy on [[wiki/topics/slot-game-design-principles.md]]): [[raw/game_design-april-1-2025.md]]
+
+- **Latina cantina/tequila game** (working titles floated: "Rosie's Cantina," "Tequila Sunrise," "La Latina" / "Cerveza Factory") — the Georgia/Puerto Rico replacement for the abandoned German **"Beer House"/Oktoberfest** direction (based on **Beer House math**, to be verified against par sheets); a Salma-Hayek-type Latina lead for the Latino-male audience. [[raw/game_design-april-1-2025.md]]
+- **Aztec Star 2** — a from-scratch reskin of the old high-performing **Aztec Star** (a ~15-year-old title, Georgia runs the 3-reel version) with a female "Aztec goddess/Warrior Princess" lead; the word "Aztec" to be dropped from the name/help-screens for Puerto Rico (which has the **Taino** tribal identity), same generic name in both markets. [[raw/game_design-april-1-2025.md]]
+- **Midnight Money → unicorn game** — the popular-in-Georgia **Midnight Money** assets brought up to date into a mystical unicorn-style game. [[raw/game_design-april-1-2025.md]]
+- **Crazy Spins family** — the #1 game on the Georgia data (top-10 for 6 months); Val had already built **Liberty Spins** and **Rodeo Spins** on it. **Liberty Spins** is a full patriotic red/white/blue title built for the US South (plays Dixieland during the re-spin event — "incredibly racist, but you can do it in Georgia"), also proposed for Puerto Rico (flag colours) and South Dakota/Nebraska; a whole six-pack around the Crazy Spins mechanic was floated. [[raw/game_design-april-1-2025.md]]
+- Also noted: an Aztec collection is intended for the **D27** cabinet; **Havana Cubana** was a prior Michael title (a Cuban-woman theme) cited as precedent. [[raw/game_design-april-1-2025.md]]
+
+## Game/V-Deck statuses (Apr 3 review)
+
+[[raw/game_design-april-3-2025.md]] (V-Deck design detail on [[wiki/topics/slot-game-design-principles.md]]):
+
+- **Diamond Link (DLK) Georgia** — V-Deck to be redesigned keeping the **crystal background** but adopting the new **rectangular buttons**; deploys with **7 buttons** ($5/$10 max bet) like Peach (2 small + 5 big), top three "on fire," no incentive text; ~**50 units** deployed in Georgia; redesign ≥2 weeks. Diamond Link games "look a little outdated" (designed ~7–8 years ago). [[raw/game_design-april-3-2025.md]]
+- **Jackpot Rush (JPRE)** — a **multi-game** product (5 games) still under construction (not released; fractional-progressive eligibility at any bet); Val wants its purple/space "wrapper" background **desaturated** for Georgia. [[raw/game_design-april-3-2025.md]]
+- **La Rosa** — production started; the illustrator begins now because the game "contains a lot of illustrations"; assembled after Diamond Link Nudge/Buttons and Peach Tropical. **Spepper** (Spepper IP) design work begun; **El Jaguar** next. [[raw/game_design-april-3-2025.md]]
+- **Peach 1** — **Eclipse** started testing the new Peach 1; a progressive issue looked like a **configuration** problem (not a release change) — Ivan and Pavel to follow up. Rollout will be **retroactive** across the field because customers are "screaming" for the **dual-SAS/TITO test** capability (the nudge enhancement is a bonus); flagged as a clean **A/B earnings test**. [[raw/game_design-april-3-2025.md]]
+- **HHR** — **Ainsworth** shipping an HHR machine ~Monday to the Georgia office (5–7 days transit); two calls/week ongoing with [[wiki/people/efim-podvoiski.md|Efim]]. The **Fortune Foo Paws** ("Fortune 2 Boss") math tool wasn't ready; Efim hoped to enable the white bonus the next day before going on vacation. [[raw/game_design-april-3-2025.md]]
 
 ## Screens, formats, and game-build terms
 
@@ -129,3 +149,5 @@ A running glossary of the machine models, cabinet types, and product families th
 - [[raw/games_design_meeting-march-28-2025.md]]
 - [[raw/scope_gap_tito_flex_pay-march-28-2025.md]]
 - [[raw/michael_gottlieb_val_meeting-26-2025.md]]
+- [[raw/game_design-april-1-2025.md]]
+- [[raw/game_design-april-3-2025.md]]

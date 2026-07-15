@@ -3,7 +3,7 @@ type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
 aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin]
-source-count: 7
+source-count: 9
 open-questions: 1
 ---
 
@@ -92,6 +92,25 @@ A design-philosophy debate that recurs across La Rosa and the Nebraska bonus (se
 - [[wiki/people/michael-gottlieb.md|Gottlieb]] framed a principle from his Bally history: Bally would not let him put **people of color on slot machines** ("they were afraid of ethnic people… it's kind of a racist world"), which he sees JVL correcting — **Kai-Ocho** shows "the beauty of people of different ethnicities," and players want to see themselves ("it's a black Barbie… People want to see them. Aspirational"). **La Rosa** applies the same logic for Juan's Mexican audience ("she's the Mexican princess" — the car, mansion, diamonds); a **Quinceañera** concept was explicitly dropped because the girls are 14–15 ("we're not going there") in favor of "the Jennifer Lopez approach." His rule: "I want to create games for the player," not for himself ("an old white Jewish guy") — citing **Wonder Woman**'s success over internal doubts. [[raw/michael_gottlieb_val_meeting-26-2025.md]]
 - **Advertising-vs-game decoupling (open disagreement):** Val argued the marketing "wedges" are **advertising, not game continuation** — unconventional attention-grabbers are the point (his 1970s pasta-ad example; a rooster holding sparkling diamonds) — while Gottlieb held that elements a player never sees in the game (a rooster with a diamond; an orange diamond that doesn't exist; vertical text — "something I was taught you never do") make it "completely decoupled from the game." Tried as an experiment; Gottlieb warned against making *everything* unconventional. [[raw/michael_gottlieb_val_meeting-26-2025.md]]
 
+## "Reimagined" legacy titles as the concept engine (Apr 1)
+
+The Apr 1 theme brainstorm ([[wiki/people/val-levitan.md|Val]], [[wiki/people/michael-gottlieb.md|Michael]], [[wiki/people/juan-martinez.md|Juan]] — [[wiki/meetings/2025-04-01-game-design-theme-brainstorm.md]]) extended the Mar-28 "recycle math/mechanics, not look" philosophy into a concrete brand strategy: [[raw/game_design-april-1-2025.md]]
+
+- **"Reimagine," don't "tweak" or "recycle."** Take a proven old title and rebuild its **graphics/audio from scratch** while keeping the proven **math/map** — the analogy used repeatedly was the original vs. 2000s **Thomas Crown Affair** (and **The Fugitive** TV show → film). This "moves our assets forward," amortizes cost, and builds a **stable IP library** — Val cited **Aristocrat**'s brand-focus discipline ("they don't make games, they create brands"; **Buffalo** in every flavour) versus **WMS/Bally's Fireball** having no sequel. Val banned parentheses/slashes in working titles because "the machine language reserves special symbols" for AI tools — use underscores/dashes. [[raw/game_design-april-1-2025.md]]
+- **Data-driven selection:** three months of **Intralot Georgia** reports drove the shortlist — top game **Crazy Spins**, with **Aztec Star** and **Midnight Money** also high. [[raw/game_design-april-1-2025.md]]
+- **Audience read:** Georgia's COAM clientele is "majorly Latino men," Puerto Rico similar; machines are in bars (~60% of what was seen). This killed a **German/Oktoberfest "Heidi's Beer House"** direction — both because the audience wouldn't resonate and because of a strong **IP caution** (Michael's Bally-era experience: Oktoberfest/beer-maiden iconography is so distinctive it's near-impossible to clone without confusion; they'd used "St. Pauli Girl" and been told no). The pivot: a **Latina cantina/tequila** theme (a Salma-Hayek-type lead) usable in both markets. The specific greenlit concepts are on [[wiki/topics/jvl-machine-lineup.md]]. [[raw/game_design-april-1-2025.md]]
+- **Aspirational-character principle reaffirmed:** feature an attractive woman the target player fantasizes about (Michael: "we look to tap into fantasy… of wealth, power, success"); layout caution — two female symbols shrink the game logo, and on a modest billboard screen "bigger is always better" for a human character facing the player. [[raw/game_design-april-1-2025.md]]
+- **Process:** concepts go into a **concept-development stage** with working titles TBD; Val warned the team to reach clarity **before** engaging [[wiki/people/lena.md|Lena]] ("the second we talk to Lena we start taking her cycles… she'll go into overwhelm"), treating concept as its own cycle. [[raw/game_design-april-1-2025.md]]
+
+## Diamond Link V-Deck and Jackpot Rush background (Apr 3)
+
+On the Apr 3 review ([[wiki/meetings/2025-04-03-game-design-vdeck-review.md]]) the team confirmed the **nudge/animation-freeze** solution (the Mar-28 fix) is working "exactly as intended," Peach 3 art issues closed, and debated the **Diamond Link (DLK) Georgia** V-Deck: [[raw/game_design-april-3-2025.md]]
+
+- **Keep the crystal background, adopt the new rectangular buttons.** Val liked the newer Jackpot Rush deck "day and night" better, but wanted DLK to retain the **classy crystal edging/background** while moving to JVL's **new rectangular button standard**. DLK for Georgia deploys with **7 buttons** ($5/$10 max bet) laid out like Peach (2 small + 5 big), with the **top three buttons "on fire"** (progressive flame 3→7) — and **no textual incentive** ("the fire should sell that without any text… to not be misleading," as done for Fortune Football). Redesign estimated at ≥2 weeks; DLK has only ~50 units deployed in Georgia. [[raw/game_design-april-3-2025.md]]
+- **Progressive eligibility / bet-incentive** recurs: Val again pressed that the flame/incentive is justified because probability of winning scales with the bet even though eligibility is at any bet — and again cast his as "one voice out of five," leaving the decision to Juan and Michael (consistent with the Feb-21/Mar-7 debate above). [[raw/game_design-april-3-2025.md]]
+- **Jackpot Rush** background: Val dislikes the **purple/space background** (says it clashes and reads "oriental," while Jackpot Rush is "extremely American"), and asked Lena to try **desaturating** it for Georgia. Design principle restated: on a **multi-game** product (Jackpot Rush = 5 games, different themes/colour schemes) the V-Deck background is a **universal "wrapper,"** not tied to any one game — whereas a **single-title** V-Deck should be reflective of its game (an earlier agreed rule Lena cited). [[raw/game_design-april-3-2025.md]]
+- **Major-in-the-bang-up (Efim):** Val wants the **major** progressive value included in the **white-coin "bang-up"** choreography — it must be **pulled and converted to credits dynamically in real time** at the moment of the event (only visible at high bet), sorted into the proper place in the sequence. A durable "we absolutely have to have it… we're going to use it going forward" requirement. [[raw/game_design-april-3-2025.md]]
+
 ## Open questions
 
 - Should JVL scale the **progressive value to denomination** (Val's view) or keep it flat and only *signal* higher-RTP denominations visually (the industry norm Michael/Efim defend)? Recorded as an **open product debate** — Val's opinion is logged, nothing is changed to the base math. [[raw/game_design_meeting_march_7_2025.md]]
@@ -106,3 +125,5 @@ A design-philosophy debate that recurs across La Rosa and the Nebraska bonus (se
 - [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
 - [[raw/games_design_meeting-march-28-2025.md]]
 - [[raw/michael_gottlieb_val_meeting-26-2025.md]]
+- [[raw/game_design-april-1-2025.md]]
+- [[raw/game_design-april-3-2025.md]]
