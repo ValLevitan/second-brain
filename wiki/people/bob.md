@@ -4,13 +4,13 @@ title: Bob (American FlexPay/Georgia colleague — identity unresolved)
 date: 2025-04-07
 aliases: [Bob]
 source-count: 2
-disambiguation: "'Bob' as addressed on the Apr 7 2025 SMIB/TITO meeting — an American colleague on the FlexPay/Georgia side. Very likely the same 'unnamed American attendee' of the Mar 27 scope-gap meeting (Bally iView background, M3T/Mother Goose knowledge, Georgia demo coordination) — that stub's Michael-Gottlieb hypothesis is weakened by the name 'Bob.' Identity queued Tier A. Separately, the Apr 5 Denis Desmarais transcript greets a speaker as 'Bob' whose content identifies him as Val — likely a transcription artifact, not this person."
+disambiguation: "'Bob' as addressed on the Apr 7 2025 SMIB/TITO meeting — an American colleague on the FlexPay/Georgia side. Very likely the same 'unnamed American attendee' of the Mar 27 scope-gap meeting (Bally iView background, M3T/Mother Goose knowledge, Georgia demo coordination). Owner-ruled 2026-07-15: definitively NOT Michael Gottlieb. Identity itself owner-deferred to future transcripts. Separately, the Apr 5 Denis Desmarais transcript greets a speaker as 'Bob' whose content identifies him as Val — likely a transcription artifact, not this person."
 open-questions: 1
 ---
 
 # Bob (American FlexPay/Georgia colleague — identity unresolved)
 
-> **Identity — owner-deferred (2026-07-15):** Val does not recall who Bob is; ruling is to resolve his identity from future transcript context rather than force a match now. Watch for an American FlexPay/Georgia colleague with Bally-iView/M3T knowledge (cf. the Mar-27 unnamed scope-gap attendee). Do NOT merge into Michael Gottlieb without a source that names him.
+> **Identity — owner-deferred (2026-07-15):** Val does not recall who Bob is; resolve from future transcript context, don't force a match. Watch for an American FlexPay/Georgia colleague with Bally-iView/M3T knowledge (cf. the Mar-27 unnamed scope-gap attendee). **Owner-ruled 2026-07-15: Bob is definitively NOT Michael Gottlieb** (Gottlieb = Sr VP Game Design) — do not merge.
 
 
 "Bob" is the name by which an **American colleague** on JVL's FlexPay/Georgia side is addressed in the Apr 7 2025 SMIB/TITO meeting ("I agree with that, Bob"). No surname or role title is stated. [[raw/flex_pay_tito_smib_port-april7-2025.md]]
@@ -23,7 +23,7 @@ open-questions: 1
 
 ## Identity — unresolved (queued Tier A)
 
-- His profile matches the **unnamed American attendee** of the Mar 27 scope-gap meeting (Bally iView notes, M3T kiosks, COAM committee survey, Felipe/Georgia demo coordination — see [[wiki/meetings/2025-03-27-flexpay-scope-gap-discovery.md]]). That stub queued a Michael-Gottlieb hypothesis; being addressed as "Bob" cuts against it. **Inference only — left unresolved.** [[raw/flex_pay_tito_smib_port-april7-2025.md]] [[raw/flex_pay_scope_gap-mach-27-2025.md]]
+- His profile matches the **unnamed American attendee** of the Mar 27 scope-gap meeting (Bally iView notes, M3T kiosks, COAM committee survey, Felipe/Georgia demo coordination — see [[wiki/meetings/2025-03-27-flexpay-scope-gap-discovery.md]]). That stub had queued a Michael-Gottlieb hypothesis; **owner-ruled 2026-07-15 that Bob ≠ Gottlieb**, so that unnamed attendee is most likely Bob. Bob's own identity remains owner-deferred. [[raw/flex_pay_tito_smib_port-april7-2025.md]] [[raw/flex_pay_scope_gap-mach-27-2025.md]]
 
 ## Open questions
 
