@@ -4,7 +4,7 @@ title: Andrew Khandov
 date: 2026-07-13
 aliases: [Andrew Khandov, Andrey Khandov, Andrey Handov, Andrei Handov]
 disambiguation: "JVL C# developer for Miranda (the product). Canonical first name 'Andrew' (owner-confirmed 2026-07-13; 'Andrey' kept as a transcript-variant alias). Distinct person from Dmitriy Khandov, JVL's Senior 3D Graphic Designer (same surname only — wiki/people/dmitriy-khandov.md); keep the confusion-risk note on both pages."
-source-count: 3
+source-count: 4
 open-commitments: 1
 open-questions: 0
 ---
@@ -23,6 +23,10 @@ Val's homework and standing rules for the Miranda work: baseline all V8 features
 
 On the Feb 21 game-design review, "Dima and Andrey" (Dima Khandov + Andrey Khandov) are named as the pair building a **primitive playable game version** that connects **Miranda to the math ("mass") server**, so Michael and Efim can play-test the real math with placeholders (no final animation). See [[wiki/topics/slot-game-design-principles.md]]. [[raw/game_design_meeting_february_21_2025.md]] (This "Andrey" is inferred to be Andrey Khandov from the "Handoff"/Khandov context; he is elsewhere paired with Dima Khandov on the game side.)
 
+## Omni math implementation (Apr 14 2025)
+
+On the Apr-14 Omni framework review ([[wiki/meetings/2025-04-14-omni-framework-mvp-kai-ocho.md]]), Val distinguished the two Khandovs' work on the game side: "то, что я говорю про математику, это делает **Андрей Хандов**. А новые бонусы делаете вы, Дима." So **Andrei Khandov does the math implementation** (the "отображение" of the math) while [[wiki/people/dmitriy-khandov.md|Dima Khandov]] builds the new bonuses; Dima said he does "и то, и то" because the math implementation needs resources from him. This reinforces Andrew's math/developer role. [[raw/omni_progress-april-14-2025.md]]
+
 ## Possible family link to Dmitriy Khandov (Mar 2025, inference)
 
 - The Mar 2025 Miranda coaching session tells "Dimitri" (context-resolved to [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]) that his **dedicated Miranda developer is his dad** ("the development team, which is your dad"). Since Andrew is the owner-confirmed **C# developer for Miranda**, the inference is that **Andrew is Dmitriy Khandov's father** — same surname, so plausible, but the source never names the developer. Queued for owner confirmation; the two remain distinct people per the standing ruling. [[raw/Even more on Miranda.md]]
@@ -40,3 +44,4 @@ On the Feb 21 game-design review, "Dima and Andrey" (Dima Khandov + Andrey Khand
 - [[raw/github_explained-feb-3-2025.md]]
 - [[raw/game_design_meeting_february_21_2025.md]]
 - [[raw/Even more on Miranda.md]]
+- [[raw/omni_progress-april-14-2025.md]]

@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest]
-source-count: 22
+source-count: 24
 ---
 
 # AI-assisted development adoption
@@ -123,6 +123,14 @@ On the Mar 31 Val-Aaron session (see [[wiki/meetings/2025-03-31-vector-db-second
 - Val explicitly linked adopting Git-native, AI-friendly practices to resolving the ISO build-pipeline problem: a natural-language/AI interface should be a standard part of a pipeline built to last 10 years. See [[wiki/topics/build-pipeline-parameterization.md]]. [[raw/development_pipeline_january_13_2025.md]]
 - A concrete instance of AI-in-the-loop decision support: the Jan-13 pipeline meeting's executive summary records Val asking **"ChatGPT-01 Pro"** to propose the Git-native pipeline design — its answer prefigures the Jan-15 decisions. See [[wiki/topics/build-pipeline-parameterization.md]]. [[raw/development_pipeline_–_executive_summary_the_meeting_–_1_2025-03-29.md]]
 
+## Claude 3.7 Sonnet as a teacher + Cline recursive memory (Apr 9)
+
+On the Apr 9 repo-structure session ([[wiki/meetings/2025-04-09-github-master-tree-structure-philosophy.md]]) Val described how he *learns* engineering best practice from AI, recommending **Anthropic's Claude 3.7 Sonnet** to the team: "он как-то более человеческим голосом объясняет" — he queried it for canonical repo structures (online casino, land-based, multi-platform) and Unity/Unreal/Simple-2D-game examples. He also relayed the **Cline recursive-memory** workflow Aaron taught him via a "Home Renovation" project folder — a README + a Cline recursive-memory file let a fresh session re-orient in ~3 minutes and report what changed and who changed it. The docs/repo-structure output lands on [[wiki/topics/docs-as-code-and-atlassian-exit.md]]. [[raw/github_master_tree_structure-april-9-2025.md]]
+
+## Pinecone / MCP-servers exploration for the knowledge base (Apr 12)
+
+The Apr 12 Aaron session ([[wiki/meetings/2025-04-12-pinecone-vector-db-aaron.md]]) toured the **"awesome MCP servers"** community list and a **Pinecone Assistant** low-code agent (each MCP server = one installable tool; GPT-4o in the playground; an MCP-environment link) — the buy-don't-build case for the transcript knowledge base. Detail on [[wiki/topics/transcript-knowledge-base-tooling.md]]. [[raw/pinecone_vector_recordings_db__aaron-april-12-2025.md]]
+
 ## Apr 16 2025 — team MCP/Cline experiences + Aaron's Jira MCP
 
 A ~45-minute recurring AI-tooling knowledge-share hosted by Aaron ([[wiki/meetings/2025-04-16-ai-tooling-mcp-experiences.md]]), where the graphics/game-dev team reports real usage of the AI coding agent (transcribed "client"/"Klein"/"Clang"/"Climb" = **Cline**) and MCP servers. Meets every two weeks (next ~9:15 am); Val/Aaron want to broaden it company-wide. [[raw/mcp_experiences_tech-apr-16-2025.md]]
@@ -163,3 +171,5 @@ A ~45-minute recurring AI-tooling knowledge-share hosted by Aaron ([[wiki/meetin
 - [[raw/michael_gottlieb_val_meeting-26-2025.md]]
 - [[raw/mcp_experiences_tech-apr-16-2025.md]]
 - [[raw/it_automation_schemas_secrets_server-apr-16-2025.md]]
+- [[raw/github_master_tree_structure-april-9-2025.md]]
+- [[raw/pinecone_vector_recordings_db__aaron-april-12-2025.md]]

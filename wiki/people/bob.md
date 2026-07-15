@@ -3,7 +3,7 @@ type: person
 title: Bob (American FlexPay/Georgia colleague — identity unresolved)
 date: 2025-04-07
 aliases: [Bob]
-source-count: 2
+source-count: 3
 disambiguation: "'Bob' as addressed on the Apr 7 2025 SMIB/TITO meeting — an American colleague on the FlexPay/Georgia side. Very likely the same 'unnamed American attendee' of the Mar 27 scope-gap meeting (Bally iView background, M3T/Mother Goose knowledge, Georgia demo coordination). Owner-ruled 2026-07-15: definitively NOT Michael Gottlieb. Identity itself owner-deferred to future transcripts. Separately, the Apr 5 Denis Desmarais transcript greets a speaker as 'Bob' whose content identifies him as Val — likely a transcription artifact, not this person."
 open-questions: 1
 ---
@@ -25,11 +25,16 @@ open-questions: 1
 
 - His profile matches the **unnamed American attendee** of the Mar 27 scope-gap meeting (Bally iView notes, M3T kiosks, COAM committee survey, Felipe/Georgia demo coordination — see [[wiki/meetings/2025-03-27-flexpay-scope-gap-discovery.md]]). That stub had queued a Michael-Gottlieb hypothesis; **owner-ruled 2026-07-15 that Bob ≠ Gottlieb**, so that unnamed attendee is most likely Bob. Bob's own identity remains owner-deferred. [[raw/flex_pay_tito_smib_port-april7-2025.md]] [[raw/flex_pay_scope_gap-mach-27-2025.md]]
 
+## Candidate context — the Apr 14 SAS 51/52 call (unnamed, not forced)
+
+- The Apr 14 2025 Georgia COAM **SAS 51/52** meeting ([[wiki/meetings/2025-04-14-sas-51-52-georgia-coam-interpretation.md]]) has a **lead American commercial/regulatory-facing colleague who is never named** — he owns the **Eclipse (Steve) / GLC (Chris) / regulator** relationship, screen-shares the SAS spec, and raises the FlexPay large-win card-issuance question. His profile (American, Georgia commercial, Eclipse/GLC liaison, InComm card-scan awareness) is **consistent with Bob**, but the transcript does not name him, so this is recorded as **candidate context only — not a confirmed match** (queued Tier A; identity stays owner-deferred). [[raw/sas_51_52_requirement_interpretation-april-14-2025.md]]
+
 ## Open questions
 
-- Who is "Bob" (full name, role)? And is he the Mar 27 unnamed American attendee? [[raw/flex_pay_tito_smib_port-april7-2025.md]]
+- Who is "Bob" (full name, role)? And is he the Mar 27 unnamed American attendee and/or the unnamed American lead on the Apr 14 SAS 51/52 call? [[raw/flex_pay_tito_smib_port-april7-2025.md]] [[raw/sas_51_52_requirement_interpretation-april-14-2025.md]]
 
 ## Sources
 
 - [[raw/flex_pay_tito_smib_port-april7-2025.md]]
 - [[raw/flex_pay_scope_gap-mach-27-2025.md]]
+- [[raw/sas_51_52_requirement_interpretation-april-14-2025.md]]

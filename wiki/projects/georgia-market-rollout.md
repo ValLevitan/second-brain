@@ -3,8 +3,8 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze]
-source-count: 12
-open-questions: 3
+source-count: 13
+open-questions: 4
 ---
 
 # Georgia market rollout (Peach1234 / DLKG)
@@ -72,8 +72,18 @@ JVL's core land-based market — the conventional **Georgia co-op / COAM** busin
 - On an Apr 1 commercial call (Val, [[wiki/people/felipe-miranda.md|Felipe]], [[wiki/people/juan-martinez.md|Juan]], [[wiki/people/pavel.md|Pavel]], + an unnamed American commercial colleague), JVL decided to **charge for the COAM software-upgrade kits** (the "Peach"/PH1 enhanced software) for the **first time** — retail **~$2,900**, floor **~$2,500**. The kit adds a SAS port, printer integration, all games reworked with the nudge feature, and TITO/legislative compliance, effectively renewing an old cabinet. Full detail (cost basis, competitor comparison, financing strategy, and Val's 2026 kiosk-vacuum market-sizing) on [[wiki/decisions/2025-04-01-price-georgia-coam-upgrade-kits.md]]. [[raw/upgrade_ga-coam_kits-april-1-2025.md]]
 - **Financing rule:** kits have a **~zero bill of material**, so JVL finances them generously (12–24 months, zero interest) — but only against **kiosk orders**, and only under a **signed installment contract** (repossession/service-suspension rights); third-party financing (to 5 years) goes through **Elevate**. This complements the Mar-23 financial-product note above (same ~6,000-installation, June-2026-deadline picture). [[raw/upgrade_ga-coam_kits-april-1-2025.md]]
 
+## SAS events 51/52 compliance scare (Apr 14)
+
+On the Apr 14 call ([[wiki/meetings/2025-04-14-sas-51-52-georgia-coam-interpretation.md]]; Val, [[wiki/people/ivan.md|Ivan]], [[wiki/people/irina-makarych.md|Irina]] translated by [[wiki/people/pavel.md|Pavel]], + the American Georgia commercial colleague), Eclipse's **Steve** and GLC's **Chris** flagged that JVL doesn't support **SAS event 51 (hand-pay) and 52 (hand-pay reset)** — mandatory in the SAS 1.8 spec (the transcript says both "from 2003" and "from 2023"; the older date is the spec vintage). [[raw/sas_51_52_requirement_interpretation-april-14-2025.md]]
+
+- **Why it "broke":** Georgia COAM has **no jackpot/hand-pay in practice** — no slot attendant exists to clear a lock, and winnings pay out by **"hands"** (1 hand = 5 spins = 5 credits = **$5**; you can only cash out amount × hands, the rest stays on the machine). Eclipse's Steve used to test 51/52 by setting a **cash-out limit** (e.g. $20), playing to exceed it (5 hands = $25 > $20) so a hand-pay window popped, then turning the key. After JVL **added TITO + AFT support**, that limit can still be set but "will not produce 51 and 52 events over the SAS." Irina: JVL always submitted these hand-pay conditions as **"not applicable"** for Georgia; the concrete bug is that the machine **issues 51 but never sends 52, and keeps re-sending 51**. [[raw/sas_51_52_requirement_interpretation-april-14-2025.md]]
+- **The fear:** JVL may have been technically **out of compliance since 2003** even though Eclipse approved and GLC accepted every prior Peach submission — "a delicate conversation." Plan: talk to **Steve first**, then GLC. [[raw/sas_51_52_requirement_interpretation-april-14-2025.md]]
+- **Val's reinterpretation (the fix):** jackpot, hand-pay and cash-out are **parallel, not sequential, conditions** — "a hand pay is a jackpot that cannot be paid automatically." His "cup of coffee with a donut" illustration: an operator sets a jackpot/lockup limit (e.g. $1,000) purely so a **buzzer fires (51)** and someone turns the key **(52)** — nothing else changes. So JVL should **allow setting a lockup limit and auto-clear it in the lab** to emit both 51 and 52 and pass certification, even though no operator uses it in the field (no real jackpot exists federally). The team agreed this is a **re-interpretation** ("we misunderstood the requirement," which applies to **all markets**, not just Georgia) and that supporting the jackpot limit is effectively a **new requirement** to write for the COAM product. Class-3 difference recorded: Class 3 has a **$1,200 IRS lockup limit** and does emit 51/52, but on key-turn the jackpot is paid by the house/system; in Georgia the money must return to the **credit meter** for the hands calculation. [[raw/sas_51_52_requirement_interpretation-april-14-2025.md]]
+- **FlexPay large-win handling (noted in passing):** if a win exceeds the **$1,000 gift-card max**, funds move to the temporary wallet → FlexPay and card issuance produces **two or more cards** (one $1,000, one for the remainder) — assuming enough hands to cash out. [[raw/sas_51_52_requirement_interpretation-april-14-2025.md]]
+
 ## Open questions
 
+- Was JVL genuinely **out of SAS 51/52 compliance** since inception (Eclipse/GLC accepted it as "not applicable"), and does the lab-only auto-clear-lockup fix satisfy the mandatory-event requirement? Pending the Steve/GLC conversations. [[raw/sas_51_52_requirement_interpretation-april-14-2025.md]]
 - Was routing Jackpot Rush / JPRE for Georgia onto the **old framework** (curved cabinet) a deliberate plan or an oversight? Val said he didn't recall discussing it and parked it for a later meeting. [[raw/game_design_meeting_march_7_2025.md]]
 - Why does the Bally iview final report disagree with the (correct) data JVL sends, and does the iview system need a protocol JVL can't currently select? [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 - Will the third dedicated printer port become JVL's standard on all future machines? (Raised, not settled.) [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
@@ -92,3 +102,4 @@ JVL's core land-based market — the conventional **Georgia co-op / COAM** busin
 - [[raw/flex_port_recap_felipe_juan_pavel-april-8-2025.md]]
 - [[raw/evolution_flex_pay-april-11-2025.md]]
 - [[raw/upgrade_ga-coam_kits-april-1-2025.md]]
+- [[raw/sas_51_52_requirement_interpretation-april-14-2025.md]]

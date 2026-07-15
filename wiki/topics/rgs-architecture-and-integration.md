@@ -3,7 +3,7 @@ type: topic
 title: RGS architecture and operator integration
 date: 2025-02-01
 aliases: [RGS, remote game server, RGS API, math container, direct integration, reverse integration, Golden Palace, Digitain, Hub88, BetConstruct, Comtrade Gaming, Postman, OpenAPI, RGS scaling, 1000 casinos, container model, custom portal]
-source-count: 6
+source-count: 7
 open-questions: 3
 ---
 
@@ -55,6 +55,14 @@ From Efim's one-on-one architecture walkthrough for Val ([[wiki/meetings/2025-03
 - **New-game distribution is manual today:** "как-то сейчас работает Андрей, говорит, а вот у нас тут новая игра вышла, хотите взять?" — technically it means dropping the game's **math container** into the client's instance and having them place the icon. The **Golden Matrix** container insertion required going into "их гид" [their git] and "нажать какие-то там 10 кнопок"; Efim allowed it "наверное, это можно свозить к одной кнопке" if he and "Андрей" think it through (which Andrei is not stated — queued). Val floated the demo-site link flow: an operator likes a demo on "наш Netflix сайт" and a link auto-attaches the game to their RGS. [[raw/Explain RGS.md]]
 - *Name confusion note:* early in the session the current direct-integration company is named with a self-correction — "Она называется golden matrix. Ок. Прошу прощения. Она называется golden palace" — while later the completed container work is attributed to "совле-матрикс" [Golden Matrix]. Both are known first direct integrations (see [[wiki/topics/online-games-rgs-distribution.md]]); which one this session's "integration we did" refers to is **unclear**. [[raw/Explain RGS.md]]
 
+## The RGS repository layout — post-migration tour (Apr 8 2025)
+
+After the SVN→Git move, [[wiki/people/andrey-bosik.md|Andrei Bosik]] walked Val folder-by-folder through the RGS repository ([[wiki/meetings/2025-04-08-rgs-repository-structure-walkthrough.md]]; structure originally created by "Valentin"): [[raw/rgs_structure_github-april-8-2025.md]]
+
+- **BuildScripts** — scripts to build the applications. **CorrectionMonitor** — a ready-made third-party application JVL only feeds a config file (no JVL code). **External** — the **math artifacts** used to assemble the app (migrated from SVN; pulled in as **git submodules** per `.gitmodules`). **GamesProxy** — a small app (uses **HAProxy**, config only) that parses incoming integrator requests in the URL string to extract the **wallet** and **game ID**, because each operator passes the game ID differently. [[raw/rgs_structure_github-april-8-2025.md]]
+- **Operations** — [[wiki/people/efim-podvoiski.md|Efim]]'s database scripts (moved out). **Scripts** — DB scripts too (initialising certain collections used when creating a new database). **source** — the source code of **all the RGS applications** (~**15**, since the RGS is largely microservice-based); each app builds from its own `source` subfolder. [[raw/rgs_structure_github-april-8-2025.md]]
+- **`.gitattributes`** marks which files go to **LFS** (large files moved out so the repo stays fast and within GitHub's file-size/count limits). Both build paths work: a developer can clone and build the whole RGS **locally in Visual Studio**, and **Jenkins** can build the applications as part of CI — two independent tracks. [[raw/rgs_structure_github-april-8-2025.md]]
+
 ## The "easy-integration" goal (Aaron and Val)
 
 - Aaron pressed that JVL should be able to hand an operator a **Postman collection** for the RGS API and/or expose it as an **OpenAPI** document, so tools can read the endpoints directly — the basic hygiene needed before offering integration to outsiders. Efim had not used Postman. [[raw/Aaron_Val_2025-02-11.md]]
@@ -84,3 +92,4 @@ An older source (staged 2025-03-29, internally dated **Nov 12 2024**) predates t
 - [[raw/online_vision_efim_2025-03-29.md]]
 - [[raw/Git_repo_structure_part_2_2025-02-11.md]]
 - [[raw/Explain RGS.md]]
+- [[raw/rgs_structure_github-april-8-2025.md]]

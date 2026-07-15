@@ -3,7 +3,7 @@ type: decision
 title: Migrate Efim's codebase from SVN to Git first, then continue Hollywood Bets
 date: 2025-03-17
 aliases: [SVN to Git migration, reversing code into requirements, Hollywood Bets, MathEngine repos, checkout all batch file]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 1
 ---
@@ -35,6 +35,10 @@ On Mar 31 (the check-back Val booked on Mar 17) Aaron ran a working session with
 - **Ownership:** Aaron assigned Igor to "work with Andre and Afim" ([[wiki/people/andrey-bosik.md|Andrey Bosik]] + Efim) to map the remaining SVN repos over to git; Efim confirmed the parts visible in the batch file "we can easily migrate." [[raw/rgs_git_migration-march-31-2025.md]]
 - **Deadline slip:** Igor "is afraid that he won't be ready for tomorrow," so the check-in moved to **Wednesday**. [[raw/rgs_git_migration-march-31-2025.md]]
 
+## Progress — Apr 8 repo tour (submodules landed)
+
+By Apr 8 the RGS repository was on GitHub with the plan above realised: [[wiki/people/andrey-bosik.md|Andrei Bosik]] gave Val a repo tour ([[wiki/meetings/2025-04-08-rgs-repository-structure-walkthrough.md]]) showing the **math artifacts migrated from SVN into the `External` folder and pulled in as git submodules** (`.gitmodules`), LFS configured via `.gitattributes`, and the ~15 microservice apps under `source`. Both build paths work — local Visual Studio and Jenkins. Full folder breakdown on [[wiki/topics/rgs-architecture-and-integration.md]]. [[raw/rgs_structure_github-april-8-2025.md]]
+
 ## Open commitments
 
 - [ ] Igor Metelski — start an engineer's/discovery/findings log describing what it took to get the RGS to build correctly on a workstation — due Wednesday (moved from "tomorrow") — [[raw/rgs_git_migration-march-31-2025.md]]
@@ -43,3 +47,4 @@ On Mar 31 (the check-back Val booked on Mar 17) Aaron ran a working session with
 
 - [[raw/reversing_distilling_from_ready_code_into_requir_2025-03-17.md]]
 - [[raw/rgs_git_migration-march-31-2025.md]]
+- [[raw/rgs_structure_github-april-8-2025.md]]

@@ -3,7 +3,7 @@ type: topic
 title: Docs-as-code and the plan to exit Atlassian
 date: 2025-02-21
 aliases: [docs as code, documentation site, GitHub Pages, GitHub Docs, mermaid, Confluence exit, Atlassian exit, single source of truth, template repo, contact sheet, GDD]
-source-count: 5
+source-count: 7
 open-questions: 1
 ---
 
@@ -49,6 +49,18 @@ The doctrine above was first argued out weeks earlier, while JVL was still on Bi
 - **What converted Val — the QA hook:** "Actually, I think you just convinced me, because I understood what the hook is. It's the QA" — a QA engineer testing from the docs beside the code (plus the pull-request reviewer) is the enforcement mechanism that keeps docs current. [[raw/the_importance_of_storing_artifacts_in_git.md]]
 - **The live branch-discipline lesson:** "Dimitri" had committed **LFS documentation as .docx straight to main** that morning; Aaron used it to teach the flow — commit to a development branch, PR to main, reviewer flags format ("this has to be in markdown format, not doc format," fixable via pull-request commentary rather than a meeting). [[raw/the_importance_of_storing_artifacts_in_git.md]]
 
+## The canonical repo tree — "lux standard" and the template repo (Apr 9 & 11 2025)
+
+Two April sessions turned the docs-as-code principle into a concrete, mandated repository tree.
+
+**Apr 9 — Val's case for a standard ([[wiki/meetings/2025-04-09-github-master-tree-structure-philosophy.md]]).** Val argued to [[wiki/people/andrey-bosik.md|Andrei Bosik]] and [[wiki/people/pavel.md|Pavel]] that JVL's repos (many carried over from SVN with no thought to structure) should follow one canonical tree he called a "**стандарт люкс**" (lux standard) that "автоматически… открывал бы это дерево" the same way on every repo — with a README maintained per directory. He said he learns best practice from **Anthropic's Claude 3.7 Sonnet** ("более человеческим голосом объясняет") and from **Cline recursive-memory** sessions (his "Home Renovation" folder analogy — a README + a Cline recursive-memory file let an agent re-orient in 3 minutes). Andrei's caution: a README can go stale, so a **GitHub Action that scans the directory and updates the README** would be needed to keep it "objective." Val's ruling: build a template with mandated master directories, each carrying its own README saying what belongs there; empty subdirectories need a placeholder file because **GitHub won't push an empty directory**. [[raw/github_master_tree_structure-april-9-2025.md]]
+
+**Apr 11 — the template tree worked out ([[wiki/meetings/2025-04-11-github-repo-template-tree.md]]).** Andrei built an actual **GitHub template repository** ("use this template" button) and the group (Val, Pavel, Andrei Bosik, [[wiki/people/irina-makarych.md|Irina]], "Yuri") edited its tree live — a universal *developer* template, with **graphics repos to get a separate template** (they lack sources etc.). Rulings: [[raw/github_repo_structure-april-11-2025.md]]
+
+- **`docs/` holds `diagrams` + `guides`** — "instructions" was dropped (Pavel: developers would confuse diagram vs instruction) and folded into `guides` (renamed from a `developer guide`); a speculative `product design` folder was **removed** to avoid two places for the same document. Diagrams = Mermaid or images (block/flow/functional-product diagrams). [[raw/github_repo_structure-april-11-2025.md]]
+- **README vs index.md** — top-level **README** (rendered by default) links to a `docs/index.md` that lists the docs-folder contents; a lower-level README is optional (added only when the top README grows too long). **`install.md`** is a step-by-step build/run guide living in `guides`, linked from the top README, and belongs "on the same level as the documents" (one per repo, or one per platform for multi-platform). [[raw/github_repo_structure-april-11-2025.md]]
+- **Top level:** `manifest` (kept at top level, not in docs), `build/` (build scripts only — "build" = compile to a jar; using the artifact happens in GitHub Actions), `src/` (with its own README; run-time/target-platform **scripts moved into `src`**, not the top level or `tools`), `resources` (kept; **`externals` removed** — resources can hold external libs), `tools` (binaries used to build/convert), `common` (kept over "core"/"native"), `config`. **`assets` and `artifacts` removed** from the dev template (assets belong to the separate graphics template; artifacts get created at build time). Empty dirs use a **GitKeep**-style placeholder ("болванка"). [[raw/github_repo_structure-april-11-2025.md]]
+
 ## Confluence whiteboard as the current diagram home (~Mar 19 2025)
 
 - By mid-March the interim state was: JVL **left Miro** ("мы же ушли от мира") and Val had emailed everyone that **"we are switching to Confluence"** — Confluence has a whiteboard — as the place for architecture diagrams, with **Mermaid** in active use for drawing (Chudinov drew his diagram in "Мермейн" — Mermaid — having been told "сейчас рисуют через Мермейн"). [[wiki/people/dmitri-chudinov.md|Dima Chudinov]] had saved his Miro exports but not yet transferred them; access reportedly requires Git accounts. (Consistent with the Feb rule that Confluence is transitional — this is the sandbox tier, while committed markdown remains the source of truth.) See [[wiki/meetings/2025-03-19-back-office-architecture-chudinov.md]]. [[raw/back_office_next_step_forward_dzima_chudinov.md]]
@@ -64,3 +76,5 @@ The doctrine above was first argued out weeks earlier, while JVL was still on Bi
 - [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]
 - [[raw/Git_progress_check_in_2025-02-28.md]]
 - [[raw/back_office_next_step_forward_dzima_chudinov.md]]
+- [[raw/github_master_tree_structure-april-9-2025.md]]
+- [[raw/github_repo_structure-april-11-2025.md]]
