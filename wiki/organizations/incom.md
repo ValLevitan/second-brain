@@ -96,7 +96,7 @@ The market/solution meeting Val committed to on the Apr 2 SMIB call — owner Va
 - Would the regulator (GLC) treat an open-loop retail gift card (e.g. from Walgreens) the same as a COAM prize-redemption card? Unresolved. [[raw/incomm_commissioning_plan_february-27-2025.md]]
 
 ## Open contradictions
-- ~~InComm COAM gift-card meeting date: recording header April 3 2025 vs derived-notes header April 7.~~ **RESOLVED (§11, owner-directed 2026-07-15): canonical April 3.** The recording header is the meeting's own (content) date and outranks the derived-notes processing stamp; Apr-3 is also consistent with the Apr-2 SMIB "today/tomorrow/Monday" action window and with Val referencing the meeting in past tense on Apr 7. The Apr-7 form is retired; the meeting page is [[wiki/meetings/2025-04-03-incomm-coam-gift-card-solutions.md]].
+- ~~InComm COAM gift-card meeting date: Apr 3 vs Apr 7.~~ **RESOLVED BY OWNER (2026-07-15): it was a two-day meeting** — Apr 3 (first session, Teams recording) and Apr 7 (second session, derived notes) are BOTH genuine session dates of one meeting. Recorded on one stub [[wiki/meetings/2025-04-03-incomm-coam-gift-card-solutions.md]] (Apr-3 primary, Apr-7 second session; facts attributed per session where distinguishable). This **supersedes** the earlier §11 auto-resolution to Apr-3-only — a derived-notes date can also be a real second-session date.
 
 ## Sources
 

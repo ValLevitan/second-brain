@@ -10,7 +10,7 @@ open-questions: 1
 
 # Will Jones
 
-(Surname **Jones** owner-confirmed 2026-07-15. Engagement form — consultant vs hire — still unknown, queued.)
+(Surname **Jones** owner-confirmed 2026-07-15. Engagement form — consultant vs hire — **owner-deferred 2026-07-15: Val doesn't recall; resolve from future sources by context, do not wait on owner.**)
 
 Will is a Class II (bingo-based slot) gaming expert working with Val on JVL's entry into Class II. His background: he worked "with the bingo system at SDG and Valley" (transcript spelling; "Valley"/"Bali" in this transcript are consistent with the gaming company Bally, of which SDG was a compartment — inference) and did installs at the Seminoles and other tribal properties. Surname not given in the source. [[raw/class_2_bingo_engine.md]]
 
