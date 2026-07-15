@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena]
-source-count: 18
+source-count: 20
 ---
 
 # Genadi Peari
@@ -65,6 +65,10 @@ On a four-segment Mar 27 call with Val ([[wiki/meetings/2025-03-27-genadi-hardwa
 - **Apr 2:** the SMIB meeting's action list has the **SMIB power-supply options** question directed to "Gennady" (external supply vs built-in). [[raw/SMIB_FlexPay_Action_Items_April_2_2025.md]]
 - **Apr 7:** "Gennady moved the barcode [scanner] on top of the bracket" for the next FlexPort hardware revision (focus distance); he has the **Flex S-adaptable FlexPort brackets** already manufactured for the Georgia demo, and is one of the people loading/shipping the Georgia terminals. [[raw/flex_pay_tito_smib_port-april7-2025.md]]
 
+## FlexPay Evolution sessions (Apr 8–11, "Gennady" by hardware context — inference)
+
+- In the payout-device strategy sessions ([[wiki/topics/flexpay-business-architecture-payout-devices.md]]) "Gennady" is the hardware/dispenser voice: proposed the minimal cage flow (attendant just hands the card — "хорошо, что аттендант выдал карту … больше ничего не должен делать"), was asked to research **card-dispensing unit sizes** for the tower concept (possibly smaller capacity than FlexPay's 200–300-card minimum since a cashier can refill through a back panel), and backed concentrating on the cheapest POS version. Attribution to Genadi Peari is by context (hardware lead researching dispensers), labeled inference. [[raw/flex_pay_evolution-april-8-2025.md]] [[raw/evolution_flex_pay-april-11-2025.md]]
+
 ## Sources
 
 - [[raw/fp-7_performance_analysis_january_13_2025.md]]
@@ -85,3 +89,5 @@ On a four-segment Mar 27 call with Val ([[wiki/meetings/2025-03-27-genadi-hardwa
 - [[raw/flex-port_pay_dev_update-april-1-2025.md]]
 - [[raw/SMIB_FlexPay_Action_Items_April_2_2025.md]]
 - [[raw/flex_pay_tito_smib_port-april7-2025.md]]
+- [[raw/flex_pay_evolution-april-8-2025.md]]
+- [[raw/evolution_flex_pay-april-11-2025.md]]

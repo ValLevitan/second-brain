@@ -3,7 +3,7 @@ type: person
 title: Alka Sood
 date: 2026-07-14
 aliases: [Alka Sood, Alka, Cogna]
-source-count: 3
+source-count: 4
 open-commitments: 6
 ---
 
@@ -36,8 +36,14 @@ Alka Sood is JVL's **finance contractor** (her business is **Cogna**, per the 20
 - [ ] Alka — write the Mexico shutdown narrative + summarized numbers for Val's approval, then circulate the 30-day/$20k budget to Mexico and Val — due days (before the wind-down clock) — [[raw/finance_recurring-april-7-2025.md]]
 - [ ] Alka — request both versions of the JVL–EDS contract from Monica (copy Val) and reconcile the control-sheet wording against it — due unspecified — [[raw/finance_recurring-april-7-2025.md]]
 
+## Apr 15 2025 — control sheet delivered; evaluations and automation
+
+- Delivered the scope-of-work control sheet (hours/month + utilization per person) and will convert it into **job descriptions** and recurring **performance evaluations** (6-month + annual marks — new for JVL); took on automating **procurement** with Lev first; working Laura directly with translation rather than through Hector's interpreting; owns the Peru $2M intercompany write-off question to the accountants and a conceptual 2025 P&L→cash forecast in ~2 weeks. Her line on the Hector project: "I have to turn my friend, my controller, into an analyst." See [[wiki/topics/jvl-finance-back-office.md]] and [[wiki/meetings/2025-04-15-finance-recurring-alka-scope-sheet.md]]. [[raw/finance_update-apr-15-2025.md]]
+- Context she shared on the call (her own practice): a client of hers — a luxury-cottage rental business — is exploring selling a stake; recorded only as background on her advisory work outside JVL. [[raw/finance_update-apr-15-2025.md]]
+
 ## Sources
 
 - [[raw/financial_alka_alignment-march-24-2025.md]]
 - [[raw/Finance - Alka.md]]
 - [[raw/finance_recurring-april-7-2025.md]]
+- [[raw/finance_update-apr-15-2025.md]]

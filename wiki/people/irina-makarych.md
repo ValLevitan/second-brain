@@ -3,7 +3,7 @@ type: person
 title: Irina Makarych
 date: 2025-01-15
 aliases: [Irina Makarych, Irina, Irina Makarich]
-source-count: 9
+source-count: 11
 open-commitments: 0
 open-questions: 0
 ---
@@ -47,6 +47,10 @@ See [[wiki/topics/build-pipeline-parameterization.md]] and [[wiki/topics/test-au
 
 - **Jul 2024 (date inferred; pre-window source):** on the Test-360 review Val named Irina as the person who would have to enforce the test process "with an iron fist," predicting she "will adapt a binary decision that we make without really opining on it" once Alexander and Anton set the rule. [[raw/test-360_progress_review_meeting.md]]
 
+## Omni daily + manifests (Apr 15, "Ира/Ирина" by machine-setup context — inference)
+
+- Named among the people who hand-fill machine-software settings today ("либо я, либо Паша, либо Ира" — Chudinov, on why the manifests product must automate it), and an "Ира/Ирина" participates in the Apr 15 Omni daily asset-flow discussion (asking when a game build reflects a moved asset). Both attributions by her established machine-XML/setup role; labeled inference. [[raw/cms_github_svn-apr-15-2025.md]] [[raw/daily_omni_progress-apr-15-2025.md]]
+
 ## Sources
 
 - [[raw/integration_and_testing_procedures_january_15_2025.md]]
@@ -58,3 +62,5 @@ See [[wiki/topics/build-pipeline-parameterization.md]] and [[wiki/topics/test-au
 - [[raw/github_jira_alignment-march-31-2025.md]]
 - [[raw/devops_container_approach_for_omni.md]]
 - [[raw/test-360_progress_review_meeting.md]]
+- [[raw/cms_github_svn-apr-15-2025.md]]
+- [[raw/daily_omni_progress-apr-15-2025.md]]

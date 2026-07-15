@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze]
-source-count: 8
+source-count: 11
 open-questions: 3
 ---
 
@@ -64,6 +64,8 @@ JVL's core land-based market — the conventional **Georgia co-op / COAM** busin
 ## FlexPay kiosk demo for GAMOA (Apr 18, planned as of Mar 27)
 
 - On **April 18** [[wiki/people/felipe-miranda.md|Felipe]] is to demo the FlexPay kiosk **in a private room at a hotel** "for the Gamoa" (transcript rendering — the Georgia operators' audience; spelling unclear), a repeat of the show demo. The 3D-printed prototype kiosk in the Georgia office is to be discarded; newly assembled hardware ships from Toronto. See [[wiki/meetings/2025-03-27-flexpay-scope-gap-discovery.md]]. [[raw/flex_pay_scope_gap-mach-27-2025.md]]
+- **Date evolution (Apr 7–11):** later sources put the demonstration on **"the 17th" — "Next Thursday at 4 p.m."** (Apr 17 2025 was the Thursday; the Mar-27 "April 18" reading is taken as superseded/imprecise) — showing **one V43 machine with Diamond Link**. [[raw/flex_pay_tito_smib_port-april7-2025.md]] [[raw/evolution_flex_pay-april-11-2025.md]] Event scale per the Apr-8 recap: "not a trade show. This is just a Gamoa meeting, two hour thing," maybe ~10 masters; demo config = one Flex-S with FlexPort + bill acceptor + FlexPay on a TP-Link router, Diamond Link software, no competitor machine, no TITO shown. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/flex_port_recap_felipe_juan_pavel-april-8-2025.md]]
+- **Market friction (Apr 11):** GAMOA's **Mike Patel** told Felipe he "will not be buying our kiosk solution because if we offer pulse capture, it is not secure"; the team's rebuttal (Mother Goose is itself pulse-based; JVL keeps pulses inside the cabinet) is on [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. Juan visits Georgia the week of ~Apr 14 to put the question to the masters directly. [[raw/evolution_flex_pay-april-11-2025.md]]
 
 ## Open questions
 
@@ -81,3 +83,6 @@ JVL's core land-based market — the conventional **Georgia co-op / COAM** busin
 - [[raw/games_markets-march-24-2025.md]]
 - [[raw/games_design_meeting-march-28-2025.md]]
 - [[raw/flex_pay_scope_gap-mach-27-2025.md]]
+- [[raw/flex_pay_tito_smib_port-april7-2025.md]]
+- [[raw/flex_port_recap_felipe_juan_pavel-april-8-2025.md]]
+- [[raw/evolution_flex_pay-april-11-2025.md]]

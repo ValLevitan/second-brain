@@ -3,7 +3,7 @@ type: person
 title: Hector
 date: 2026-07-14
 aliases: [Hector]
-source-count: 4
+source-count: 5
 open-commitments: 3
 ---
 
@@ -33,9 +33,15 @@ Hector is a member of JVL's **finance back-office** whom Val wants narrowed down
 - [ ] Hector — speak to "Alejandro, the accountant" about the Mexico import-VAT reclaim and get back to Val — due unspecified — [[raw/Asimex - Importation of Flex machines_2.md]]
 - [ ] Hector — redo the Elevate/EDS control sheet (two schedules, interest vs commission columns, first-deal commission check, FX adjustment, effective rate, RUTA-conversion credit) — due ~a week ("Can we have a week to fix it") — [[raw/finance_recurring-april-7-2025.md]]
 
+## Apr 15 2025 — Val's doubts sharpen; parked for three months
+
+- On the scope sheet he reads ~81% utilised "after he gave up some of his work"; Alka is shifting him to **management reporting / controllership validation** and wants him closing the month monthly. Her frank read: "He's not comfortable with the system because he's unsure of himself … he's a detailed guy … take ten times longer and give you the solution 100%" — e.g. claiming "business central hasn't been fully implemented in the U.S." without being able to say what part. [[raw/finance_update-apr-15-2025.md]]
+- Val's sharper verdict (stated to Alka): "he says things as though he knows and as though it's reliable, but when you start digging, it falls apart … reliance on an unreliable individual is very, very dangerous … to me now, he's a mediocre individual" — with a floated alternative of splitting his controllership segments between Laura and Chris. Outcome: **parked; revisit in ~3 months** ("If I can't make a shift … then it's a problem. It's a big problem" — Alka). He is still training Mary, and he found the $3,100 Mexico housing-allowance invoice. See [[wiki/meetings/2025-04-15-finance-recurring-alka-scope-sheet.md]]. [[raw/finance_update-apr-15-2025.md]]
+
 ## Sources
 
 - [[raw/financial_alka_alignment-march-24-2025.md]]
 - [[raw/Asimex - Importation of Flex machines_2.md]]
 - [[raw/Finance - Alka.md]]
 - [[raw/finance_recurring-april-7-2025.md]]
+- [[raw/finance_update-apr-15-2025.md]]

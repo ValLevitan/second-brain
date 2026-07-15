@@ -3,7 +3,7 @@ type: person
 title: Sergey Tsymanov
 date: 2026-07-14
 aliases: [Sergey Tsymanov, Siarhei Tsymanau, Sergey Tsimanov, Tsymanau, Tsimanov, Sergei, Sergey]
-source-count: 5
+source-count: 7
 open-commitments: 1
 disambiguation: "Minsk engineer who drafts CMS requirements with the backend 'Dima' (Chudinov). OWNER-CONFIRMED 2026-07-14 = the payroll 'Siarhei Tsymanau' (Belarusian) and the IT-records 'Sergey Tsimanov' — same person; Tsymanov canonical, Tsymanau/Tsimanov aliases. Distinct from other 'Sergei/Sergey' names (e.g. Sergei Novitsky the advanced-setup technician); resolve by context."
 ---
@@ -31,6 +31,10 @@ Sergey Tsymanov is a JVL **Minsk engineer** who works on the **legacy CMS requir
 
 - **SQL/OLAP architecture (~2024, likely Q4):** attended both sessions. In part 1 he joins mid-call (the Miro edit-rights aside) and the local-AD example user is "Сергей Цимонов"; a speaker also names "программисты Сергея и Дима" as the ones who modify the application databases. In part 2 Val introduces "Dima and Sergei are designing back office solutions, back office architecture" — the same pairing that later produced the 2025 CMS-requirements work. See [[wiki/topics/olap-power-bi-architecture.md]]. [[raw/architecture_sql_olap_visualization_1_2025-03-29.md]] [[raw/architecture_sql_olap_visualization_2_2025-03-29.md]]
 
+## CMS sessions (Apr 14–15)
+
+- Present in both CMS migration sessions ([[wiki/meetings/2025-04-14-cms-svn-github-product-repos.md]], [[wiki/meetings/2025-04-15-cms-migration-staged-decision.md]]). Current work named: "Сергей сейчас занимается рестрикшенами для геймсетов, чтобы не было падений на машинах" (game-set restrictions against machine crashes). He has the team's GitHub Actions experience — "GitHub Action мы уже тренировались, Сергей проводил работу," including the earlier **протосервер (Protohost)** repo transfer with build/release working; he co-owns the transfer-sizing homework with Chudinov. [[raw/cms_github_svn-apr-15-2025.md]] [[raw/cms_svn_github-april-14-2025.md]]
+
 ## Sources
 
 - [[raw/architecture_sql_olap_visualization_1_2025-03-29.md]]
@@ -38,3 +42,5 @@ Sergey Tsymanov is a JVL **Minsk engineer** who works on the **legacy CMS requir
 - [[raw/cms_persona_requirements-march-23-2025.md]]
 - [[raw/minsk_staff_roster_2025_names-only.md]]
 - [[raw/cms_requirements_development-dzima-sergei-andrei.md]]
+- [[raw/cms_svn_github-april-14-2025.md]]
+- [[raw/cms_github_svn-apr-15-2025.md]]

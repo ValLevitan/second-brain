@@ -3,7 +3,7 @@ type: person
 title: Mary
 date: 2026-07-12
 aliases: [Mary, Mery]
-source-count: 5
+source-count: 6
 ---
 
 # Mary
@@ -21,6 +21,10 @@ Mary coordinates JVL's Mexico and international operations and translates betwee
 
 The retrofit transcript spells her name "Мэри" (Mary); she is also spelled "Mery" elsewhere. Her last name is not stated (the 2026 contractor roster's **Mery Villavicencio** is the likely match — see [[wiki/topics/jvl-contractor-roster.md]]).
 
+## Apr 15 2025 (scope sheet)
+
+- On Alka's control sheet Mary reads ~**50% utilised**; Hector "is still training Mary, though. Mary is learning slowly. And she's nervous. So he's slowly handing over the reins to her more and more." [[raw/finance_update-apr-15-2025.md]]
+
 ## Sources
 
 - [[raw/shipment_of_machines_from_mexico_january_8_2025.md]]
@@ -28,3 +32,4 @@ The retrofit transcript spells her name "Мэри" (Mary); she is also spelled "
 - [[raw/james_reble_elevate_january_14_2025.md]]
 - [[raw/anibal_call_011325_meeting_notes_2025-01-14.md]]
 - [[raw/Finance - Alka.md]]
+- [[raw/finance_update-apr-15-2025.md]]

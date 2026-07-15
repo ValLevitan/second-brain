@@ -3,7 +3,7 @@ type: decision
 title: TITO locations use FlexSMIB in modern machines and FlexPort in legacy machines
 date: 2025-04-07
 aliases: [FlexSMIB decision, FlexSMIB naming, two-device TITO architecture, SMIB vs port ruling]
-source-count: 1
+source-count: 3
 status: active
 ---
 
@@ -22,6 +22,7 @@ On the Apr 7 2025 meeting ([[wiki/meetings/2025-04-07-flexpay-tito-smib-port.md]
 
 - **TITO beta from ~April 30:** "Tito solution will come within 30 days from last week… I'm expecting it April 30th" — roughly 2 weeks hard coding + 1–2 weeks testing/interoperability, four weeks total started the prior week. Pavel's earlier three-month estimate came down to 30 days ("Pavel is a miracle worker"). The TITO solution will **not** be presented at the upcoming Georgia exhibition. [[raw/flex_pay_tito_smib_port-april7-2025.md]]
 - **Ship order (Val):** **4 FlexPays + 16 FlexPorts to Georgia** and **1 FlexPay + 2 FlexPorts to the Florida office** — "tomorrow we must ship"; Pavel to assume command (Serge Novitskiy, Arkady, Gennady loading terminals; hardware-team meeting 7:30 am, FlexPay recap 9 am). Georgia demo on **the 17th**: one JVL machine with FlexPort (hotel space limits), bracket adaptable to Flex S, router on hand. [[raw/flex_pay_tito_smib_port-april7-2025.md]]
+- **Shipment-timing evolution (Apr 8):** on the next day's recap the plan became "**Thursday**" shipping ("This week we're shipping two devices, two FlexPay devices to Georgia and one FlexPay device to Miami office"), arriving **Monday** — in time for the demo. (Device counts as stated on each call; the Apr-7 order and the Apr-8 "two + one" phrasing differ — recorded as said.) [[raw/flex_port_recap_felipe_juan_pavel-april-8-2025.md]] [[raw/flex_pay_evolution-april-8-2025.md]]
 
 ## Relation to earlier decisions
 
@@ -31,3 +32,5 @@ On the Apr 7 2025 meeting ([[wiki/meetings/2025-04-07-flexpay-tito-smib-port.md]
 ## Sources
 
 - [[raw/flex_pay_tito_smib_port-april7-2025.md]]
+- [[raw/flex_port_recap_felipe_juan_pavel-april-8-2025.md]]
+- [[raw/flex_pay_evolution-april-8-2025.md]]

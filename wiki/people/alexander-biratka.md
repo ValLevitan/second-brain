@@ -3,7 +3,7 @@ type: person
 title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko]
-source-count: 14
+source-count: 17
 open-commitments: 1
 open-questions: 0
 ---
@@ -58,6 +58,11 @@ Note: the correct surname is **Biratka** (confirmed by Val). The transcripts spe
 
 - **Jul 2024 (date inferred; pre-window source):** on the Test-360 review, Anton recalled Alexander "won't be available until August" for the Omni project ("Alex Beratko"/"Alexandra Beratka" in that transcript); Val's plan was for Anton's unit-test coverage and refactoring to be done "in agreement and in collaboration with Alex Beratka" before Alexander returned to advancing OmniFramework in ~mid-August 2024. [[raw/test-360_progress_review_meeting.md]]
 
+## Omni repo owner + the framework-repo lesson (Apr 14–15)
+
+- On the Apr 15 Omni daily, Sasha had **renamed the products/repos** so one product = one repository (a game keeping two — code and assets); he kept designers' raw sources out of the game repo (hence the separate sandbox/asset-sources repo), owns renaming master→main on his repos after notifying users, and is to start working closely with Anton ([[wiki/people/anton-leshkevich.md|Leshkevich]]) on **integration tests** for the Kai-Ocho Omni port ([[wiki/decisions/2025-04-14-kai-ocho-first-omni-framework-game.md]]). [[raw/daily_omni_progress-apr-15-2025.md]]
+- Val's Apr-14 retelling of the framework-repo lesson names him: when "Бератко" had to write Actions and assemble the framework product from two-three repositories, the team realized the product was described wrong — Val's standing example that repo structure exposes bad product definitions. Val also cites him (with Andrey and Pavel) as the crew whose GitHub bruises the CMS team should learn from. [[raw/cms_svn_github-april-14-2025.md]] [[raw/cms_github_svn-apr-15-2025.md]]
+
 ## Sources
 
 - [[raw/fp-7_performance_analysis_january_13_2025.md]]
@@ -74,3 +79,6 @@ Note: the correct surname is **Biratka** (confirmed by Val). The transcripts spe
 - [[raw/devops_container_approach_for_omni.md]]
 - [[raw/devops_container_approach_for_omni_3.md]]
 - [[raw/test-360_progress_review_meeting.md]]
+- [[raw/daily_omni_progress-apr-15-2025.md]]
+- [[raw/cms_svn_github-april-14-2025.md]]
+- [[raw/cms_github_svn-apr-15-2025.md]]

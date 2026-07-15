@@ -4,7 +4,7 @@ title: Anton Leshkevich
 date: 2025-01-21
 aliases: [Anton Leshkevich, Anton, Antoine]
 disambiguation: "One of THREE distinct Antons. Anton Leshkevich = Minsk engineer (Omni/RGS, this page). Distinct from Anton Seregin (Minsk payroll, wiki/people/anton-seregin.md) and the SMM/Meta-ads contractor (wiki/people/anton-smm.md). Owner-confirmed 2026-07-13. Resolve 'Anton' by context; queue if unclear."
-source-count: 7
+source-count: 8
 open-commitments: 1
 open-questions: 0
 ---
@@ -37,6 +37,10 @@ Anton Leshkevich is a JVL Minsk engineer. He knows the Omni framework and RGS co
 - **Test-360 progress review (Fri Jul 5 2024, date inferred; pre-window, queued):** owned the first unit-test push on the Omni framework — test environment set up, ~**9%** of the Omni Engine covered using **Jest**, light refactoring (deleting never-executed code found via coverage reports; consulting Alexander Biratka before non-obvious refactors); wrote the first testing requirements (CI/CD on every merge, automated testing in the pipeline, every change linked to a ticket) and emailed them plus Confluence docs to developers for votes; estimated 30–60 calendar days to cover the existing code. He confirmed the RGS codebase already ran the commit-triggered unit-test approach, and that P1000 has no tests ("a historical artifact"). Transcribed once as "Antoine." See [[wiki/topics/test-automation-strategy.md]] (History). [[raw/test-360_progress_review_meeting.md]]
 - **JVL Insights (~2023–24):** named **"Anton Leshkevich (Sr. Programmer) - Consultant"** in the JVL Insights knowledge-base proposal — to develop/integrate AI algorithms in **Python**, build front-ends in **JavaScript**, and ensure compatibility with existing **Java** applications. (Note the draft labels him a consultant; 2025 sources treat him as a JVL Minsk engineer — both recorded.) Compensation figures withheld (§15.8). See [[wiki/projects/jvl-insights-knowledge-base.md]]. [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
 
+## Integration tests for the Kai-Ocho Omni port (Apr 15)
+
+- Val on the Omni daily: "Вам в этот разговор еще нужно подтягивать Антона … Саша, вы с Антоном должны вплотную начинать работать, чтобы Антон делал интеграционные тесты" — Anton builds the integration tests for the first Omni game ([[wiki/decisions/2025-04-14-kai-ocho-first-omni-framework-game.md]]). Attribution to Leshkevich by Omni/test-automation context (consistent with his Mar-24 auto-testing role), labeled inference. [[raw/daily_omni_progress-apr-15-2025.md]]
+
 ## Sources
 
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
@@ -46,3 +50,4 @@ Anton Leshkevich is a JVL Minsk engineer. He knows the Omni framework and RGS co
 - [[raw/devops_container_approach_for_omni.md]]
 - [[raw/devops_container_approach_for_omni_3.md]]
 - [[raw/test-360_progress_review_meeting.md]]
+- [[raw/daily_omni_progress-apr-15-2025.md]]

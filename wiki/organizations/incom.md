@@ -3,7 +3,7 @@ type: organization
 title: Incom (payment processor)
 date: 2025-02-27
 aliases: [Incom, InComm, Incomm, Income, Incom Payments]
-source-count: 7
+source-count: 9
 open-commitments: 3
 open-questions: 2
 ---
@@ -70,6 +70,14 @@ The market/solution meeting Val committed to on the Apr 2 SMIB call — owner Va
 - [ ] Incom (Alan) — send JVL the blank **location onboarding / merchant setup form** and (Adam) the standard consumer-facing language/terms — due "after this call" (Feb 27) — [[raw/incomm_commissioning_plan_february-27-2025.md]]
 - [ ] JVL (Val/Juan) — complete Incom's merchant setup form and arrange the in-shop first-machine production test; produce the consumer-experience demo for Adam's review — due unspecified — [[raw/incomm_commissioning_plan_february-27-2025.md]]
 
+## Visa / card-back-into-play talks and future scanner requirement (Apr 8–11 2025)
+
+- **Card usable for betting:** Val told the FlexPay-Evolution group "later this year, Incom promised to have a card that you're able to use for betting inside the machines" — the missing ingredient for the temporary-wallet business model (today that possibility is "very expensive. Like $3 per transaction or something like this" elsewhere; "in Incom's case, it's much cheaper"). [[raw/flex_pay_evolution-april-8-2025.md]]
+- **Visa route:** the Georgia COAM market complains the prepaid-MasterCard payout "takes all this winnings out of the immediate circulation of the gaming business"; Incom "now is in talks with Visa" for a card the machines can validate — Visa charges ~3% of value today, "but if income does the banking cycle internally, then they could keep the cost manageable," making JVL "a reoccurring partner with them." [[raw/evolution_flex_pay-april-11-2025.md]]
+- **PCI-compliant optical scanner:** per JVL's last Incom call, the optical card scanner must be **PCI compliant** as a MasterCard requirement for a future Incom technology (optically scanning the card and treating it as a debit-type transaction, eliminating the ~3% fee); Juan to re-check the notes so the FlexPort/kiosk hardware dimensions allow a scanner swap-out. [[raw/evolution_flex_pay-april-11-2025.md]]
+- **Fraud onus reminder (Val):** the signed Incom agreement "puts the onus on the individual or the company who signed … to ensure that there is no fraud" — the reason JVL's cheap payout devices must validate tickets against a mini TITO/SAS server, and why Val refuses to proxy-sign for Mother-Goose-only operators. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/flex_pay_evolution-april-8-2025.md]]
+- "John from Income" (the Apr-7 John, by context) reported masters want "the automated solution so that no clerk is involved." [[raw/evolution_flex_pay-april-11-2025.md]]
+
 ## Open questions
 
 - Can a customer use **any** debit card at the kiosk, or only a prize-redemption/COAM card? The industry treats prize-redemption debit as allowed, plain debit as unknown, credit as prohibited. [[raw/incomm_commissioning_plan_february-27-2025.md]]
@@ -84,3 +92,5 @@ The market/solution meeting Val committed to on the Apr 2 SMIB call — owner Va
 - [[raw/incomm_flex-pay_user_cases.md]]
 - [[raw/2025-04-07-COAM_gift_card_solution_incomm_notes.md]]
 - [[raw/SMIB_FlexPay_Action_Items_April_2_2025.md]]
+- [[raw/flex_pay_evolution-april-8-2025.md]]
+- [[raw/evolution_flex_pay-april-11-2025.md]]

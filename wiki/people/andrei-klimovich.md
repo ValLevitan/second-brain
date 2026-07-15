@@ -4,7 +4,7 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich]
 disambiguation: "Online-games/RGS commercial lead. One of THREE Andreis (owner-ruled): Andrey Bosik (DevOps manager → wiki/people/andrey-bosik.md), Andrew Khandov (C# developer, Miranda → wiki/people/andrew-khandov.md), Andrei Klimovich (online-games/RGS commercial lead → wiki/people/andrei-klimovich.md). Resolve by context; queue if unclear."
-source-count: 10
+source-count: 11
 open-commitments: 5
 open-questions: 0
 ---
@@ -50,6 +50,16 @@ Andrei Klimovich presented three candidates for the online **Account Manager** r
 
 On the Apr 1 call ([[wiki/meetings/2025-04-01-klimovich-amazon-distributor-referral-warranty.md]]) Andrei proposed converting the ECHO web distributors into **Amazon referral partners** (~$300/sale referral vs their current ~$600–700 net margin) and got approval to proceed, plus a warranty-overhaul ruling (12-month no-questions-asked, advance replacement, prepaid return box). He is **taking over the distributor relationships from "Филипп"** (by context [[wiki/people/felipe-miranda.md|Felipe Miranda]], inference), starting with an introduction call to **Game Room Guys** the next day — though coached to trial the referral pitch on a lesser distributor first. Full detail on [[wiki/topics/echo-home-gaming-device.md]]. [[raw/andrei_klimovich_amazon-april-1-2025.md]]
 
+## Apr 15 2025 — Burger King, hiring stall, pipeline, and Val's coaching
+
+From the Apr 15 update ([[wiki/meetings/2025-04-15-klimovich-update-burger-king-online.md]]; Russian):
+
+- **Burger King account:** he brought Val the [[wiki/organizations/burger-king.md|Burger King]] repair/expansion inquiry (contact **Gary Giger**); Val killed the "Repair Kit" framing ("Слово Repair Kit никогда в жизни в JVL не циркулировало … это называется oxymoron") and set the path: ship the 10 broken tabletops in for estimate; parts at MSRP; machines at distributor price ($3,050) **only if asked**; tariffs (IGT's letter to Georgia operators) are a legitimate urgency lever. Andrei is "в этой истории меньше месяца" and had been working from Felipe-derived assumptions Val called "немножко рассеянная" information. [[raw/andrei _klimovich_update-apr-15-2025.md]]
+- **Account-manager hiring stalling:** the female candidate stopped providing materials and answers slowly; a second candidate first accepted a commission-from-revenue sales model, then wanted a base salary on top (figure held §15.8) — "он походу не видит для себя мотивации работать как сейл"; a third is not answering. Deadline: if nothing by Thursday, the leads lapse and the LinkedIn search restarts. His hypothesis: some candidates use the offer to extract raises at their current employers. [[raw/andrei _klimovich_update-apr-15-2025.md]]
+- **Online pipeline:** HollywoodBets blocked on GLI certification (RNG rework, [[wiki/people/efim-podvoiski.md|Efim]]); ELANTIL marketplace + LuckyStick contract + Italy/Microgaming + Top Sport promo + Digitain/Golden Palace/Golden Matrix/PariPlay statuses — all on [[wiki/topics/online-games-rgs-distribution.md]]. Website near-ready; third Amazon ECHO sale — [[wiki/projects/jvl-corporate-website.md]], [[wiki/topics/echo-home-gaming-device.md]]. [[raw/andrei _klimovich_update-apr-15-2025.md]]
+- **Distributor handover state:** none of the distributors Felipe introduced has ordered yet ("у нас 5 заказов в месяц, а тут вдруг тишина" as the historical baseline); troubleshooting flows through Teams with [[wiki/people/sebastian.md|Sebastian]] ("от него информация поступает оперативно"); Andrei asked for a Trello-like ticket board — Val will give him **Jira Service** (customer-support) access instead. [[raw/andrei _klimovich_update-apr-15-2025.md]]
+- **Val's coaching (durable working rule):** include Val in cross-team conversations — "я вас прошу включать меня в разговор … у вас будет бенефит всегда во всем, когда вы со мной разговариваете"; JVL is deliberately processless ("JVL маленькая компания. Мы решаем вопросы на ходу"); routine flows (e.g. support tickets [[wiki/people/ivan.md|Ivan]] turns around in ~3 days) don't need Val. The call also records that Andrei **sits in the same office as Val** ("вы сидите со мной в одном офисе"). [[raw/andrei _klimovich_update-apr-15-2025.md]]
+
 ## Open commitments
 
 - [ ] Andrei Klimovich — commission the high-poly ECHO 3D model from [[wiki/people/maxim-3d.md|Maxim]] and launch Meta (Instagram/Facebook) ads via [[wiki/people/anton-smm.md|Anton]] driving traffic to the Amazon page — due unspecified — [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
@@ -84,3 +94,4 @@ Five older sources (staged 2025-03-29, internally dated 2023–2024) place Andre
 - [[raw/recap_meeting_andrei-February-21-2025.md]]
 - [[raw/meeting_summary_andrei_klimovich-Feb-27-2025.md]]
 - [[raw/andrei_klimovich_amazon-april-1-2025.md]]
+- [[raw/andrei _klimovich_update-apr-15-2025.md]]

@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre]
 disambiguation: "JVL DevOps manager. Distinct from Andrei Klimovich (online-games commercial lead) and from Andrew Khandov (C# Miranda developer). Owner-confirmed 2026-07-13. Canonical first name 'Andrey'."
-source-count: 29
+source-count: 32
 open-commitments: 5
 ---
 
@@ -95,6 +95,11 @@ His surname is given as **Bosik** on the Feb 12 GitHub check-in (WEBVTT). (Disti
 
 - **Owner-ruled (2026-07-14):** the "Андрей" who co-designs the **one-button game-container deployment** with [[wiki/people/efim-podvoiski.md|Efim Podvoiski]] is Bosik (see [[wiki/topics/rgs-architecture-and-integration.md]]). Owner also fixed his title wording: **DevOps engineer**. [[raw/Explain RGS.md]]
 
+## CMS pair + Omni daily (Apr 14–15, "Andrei" by GitHub-context inference)
+
+- In the Apr 14–15 CMS sessions he is the GitHub-mechanics voice (production deploys via GitHub Actions; Jira feature ↔ GitHub branch flow) and received Chudinov's list of the ~15 SVN repositories to move; his stated position on the split-vs-move dispute: "последнее слово надо отдать разработчикам, чтобы им с этим работать и нести за это ответственность." [[raw/cms_svn_github-april-14-2025.md]] [[raw/cms_github_svn-apr-15-2025.md]]
+- On the Apr 15 Omni daily he walked the group through the designer asset flow (sandbox sources repo → GitHub-Action export into the game repo's assets directory → pull request) and is Val's preferred help channel — "я предпочитаю, чтобы все вопросы были адресованы к Андрею, а не к Паше." [[raw/daily_omni_progress-apr-15-2025.md]]
+
 ## Sources
 
 - [[raw/GitHub repository structure.md]]
@@ -127,3 +132,6 @@ His surname is given as **Bosik** on the Feb 12 GitHub check-in (WEBVTT). (Disti
 - [[raw/vector_meeting_db-march-31-2025.md]]
 - [[raw/cms_requirements_development-dzima-sergei-andrei.md]]
 - [[raw/Explain RGS.md]]
+- [[raw/cms_svn_github-april-14-2025.md]]
+- [[raw/cms_github_svn-apr-15-2025.md]]
+- [[raw/daily_omni_progress-apr-15-2025.md]]

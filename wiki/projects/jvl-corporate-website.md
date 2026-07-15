@@ -3,7 +3,7 @@ type: project
 title: JVL corporate website (new site, three modules)
 date: 2024-11-06
 aliases: [JVL website, new website, corporate site, client portal, website redesign, JVL public client portal]
-source-count: 2
+source-count: 3
 open-questions: 2
 ---
 
@@ -38,6 +38,10 @@ A written requirements pack — general requirements plus epics with user storie
 - **Epics (visible in the pack):** EPIC-1 Landing page (header/menu, JVL info cards, "Discover Our Games" theme cards, footer with LinkedIn/YouTube/18+ logos and licence text); EPIC-2 Games section (games list of 20/page, featured game, search from 2nd character, filters by theme/features/volatility, single-game view with video + 4–5 screens + reels/paylines/features, an **iFrame demo** of each game); EPIC-3 general pages (About Us with history timeline/mission/values/partners; Contact Us with four form types — Casino / Platform / Media Partner / General — each creating a **lead in the integrated CRM**; Partners page; latest news; blog with CMS + meta tags); EPIC-4 **Online user role** — manually-provisioned registered users sign in to see game assets (asset package, game rules by language, game sheet, help screens; single files **up to 30 GB**), general assets (master game list, supported currencies, RGS materials, vendor materials) and gated game attributes (Game ID, RTPs, max win, min/max bet, certificates). Future roles anticipated (e.g. "Cabinets Viewer"). [[raw/jvl_website_20_epics_use_cases_and_accpt_criteria_2025-03-29.md]]
 - **References used:** UI/content references to yggdrasilgaming.com (contact, news) and slotmatrix.com (login, clients-area structure); UI mockups on a Miro board. (The pack also contains working login credentials for a reference portal — **not reproduced here**; flagged to the owner per the no-credentials rule.) [[raw/jvl_website_20_epics_use_cases_and_accpt_criteria_2025-03-29.md]]
 
+## Status — near launch-ready (Apr 15 2025)
+
+- Klimovich to Val: "back-end готов, front-end готов, контент менеджмент систем … тоже готовы, все лежит и ждет нашего approval." He was sending Val an updated, "более цветастой" design version the next day (the prior look "казалось … слишком темная"); after a minimal-redesign approval, going live "это уже вопрос пару дней" — plus roughly a week of content work (game images, texts) to fill the site. [[raw/andrei _klimovich_update-apr-15-2025.md]]
+
 ## Open questions
 
 - Did the website ship on anything like the Nov-2024 release ladder (R1 target ~Mar 10 2025)? Jan–Mar 2025 sources confirm only that the vendor contract reached signature (~Feb 1) — no launch record in the wiki yet. [[raw/business_architecture_and_the_website_design_for_online_2025-03-29.md]]
@@ -47,3 +51,4 @@ A written requirements pack — general requirements plus epics with user storie
 
 - [[raw/business_architecture_and_the_website_design_for_online_2025-03-29.md]]
 - [[raw/jvl_website_20_epics_use_cases_and_accpt_criteria_2025-03-29.md]]
+- [[raw/andrei _klimovich_update-apr-15-2025.md]]

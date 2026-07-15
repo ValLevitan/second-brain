@@ -3,7 +3,7 @@ type: person
 title: Ihar Hrybko
 date: 2024-01-01
 aliases: [Ihar Hrybko, Igar Hrybko, Hrybko]
-source-count: 2
+source-count: 3
 disambiguation: "UX/UI (payroll Igar Hrybko; JVL Insights-era consultant). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
 ---
 
@@ -18,8 +18,13 @@ Ihar Hrybko appears in the **JVL Insights** knowledge-base proposal (~2023–24)
 
 - On the FlexPay scope-gap meeting Pavel described the FlexPay kiosk software as "backend introduced by Dima, and **frontend implemented by Igor Hrybko and Anton Seregin** from Graphic User Interface. HTML5, HTML-based JavaScript." — the first transcript statement of Hrybko's concrete product work, consistent with his Sr. UX/UI title below. See [[wiki/meetings/2025-03-27-flexpay-scope-gap-discovery.md]]. [[raw/flex_pay_scope_gap-mach-27-2025.md]]
 
+## Active on machine setup screens (Apr 15 2025)
+
+- First 2025-transcript sighting in an operational role: Val on the Omni daily — "на следующий митинг я приглашу Игоря Хребко, который занимается этими сетапами" (rendered "Хребко"; matched to Hrybko by the rare surname + setup/UI context, labeled inference). He owns the machine **setup screens** work that the Kai-Ocho Omni port needs in full for GLI (history, reports, settings — old screens can't be reused); Pavel to start working with him so his features are written up for Kai-Ocho Omni; initial-setup is "на подходе," the main setup "там совсем ничего нет." [[raw/daily_omni_progress-apr-15-2025.md]]
+
 ## Sources
 
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
 - [[raw/minsk_staff_roster_2025_names-only.md]]
 - [[raw/flex_pay_scope_gap-mach-27-2025.md]]
+- [[raw/daily_omni_progress-apr-15-2025.md]]

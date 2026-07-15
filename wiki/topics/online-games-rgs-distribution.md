@@ -2,8 +2,8 @@
 type: topic
 title: Online games / RGS distribution business
 date: 2025-01-30
-aliases: [online games, RGS distribution, EveryMatrix, RGS Matrix, Brazil market, iGaming, certification economics, revenue share, MaxBet, JVL Marketplace, marketplace, platform services, Golden Palace, Digitain, Hub88, BetConstruct, wallet, account manager, Platipus, Endorphina, SlotCatalog, Microgaming, NetEnt, Netflix for games, stealth launch, JVL Netflix, arbitrage, Relax Gaming, Pariplay, Spearhead, Hollywood Bets, fixed-price sales, digital storefront, one game a week, outsourcing studio, land-based licences]
-source-count: 12
+aliases: [online games, RGS distribution, EveryMatrix, RGS Matrix, Brazil market, iGaming, certification economics, revenue share, MaxBet, JVL Marketplace, marketplace, platform services, Golden Palace, Digitain, Hub88, BetConstruct, wallet, account manager, Platipus, Endorphina, SlotCatalog, Microgaming, NetEnt, Netflix for games, stealth launch, JVL Netflix, arbitrage, Relax Gaming, Pariplay, Spearhead, Hollywood Bets, fixed-price sales, digital storefront, one game a week, outsourcing studio, land-based licences, ELANTIL, LNT, LuckyStick, Top Sport, Golden Matrix]
+source-count: 13
 ---
 
 # Online games / RGS distribution business
@@ -82,6 +82,20 @@ A short two-person conversation fleshed out Val's **"Netflix for games"** idea (
 
 This extends the Feb-1 JVL Marketplace concept (Andrei Klimovich) and Val's Mar-12 "Netflix for games" counter above; it remains a **vision — nothing was decided or resourced** in this call.
 
+## Pipeline status (Apr 15 2025 recap)
+
+From Andrei Klimovich's Apr 15 update ([[wiki/meetings/2025-04-15-klimovich-update-burger-king-online.md]]; Russian):
+
+- **Aggregator roster as he lists it:** "WebConstruct" (rendering — the aggregator recorded here as **BetConstruct**), **Hub88**, **Relm, он же Digitain**, **EveryMatrix**, **GoldenMatrix** ("агрегатор большой из Азии"), **HollywoodBets** (B2B and B2C), **PariPlay**. [[raw/andrei _klimovich_update-apr-15-2025.md]]
+- **Digitain (Armenia) / Relm:** **14 operators** have taken JVL's games and are finishing integrations on their side; **one more is needed ("тогда будет 15")** to trigger Digitain's promised active push of JVL content to its other operators; none of the 14 is live yet — "почему это все занимает столько времени, я до сих пор до конца не понимаю." [[raw/andrei _klimovich_update-apr-15-2025.md]]
+- **Golden Palace** (the DICE-partnered channel): integration **complete on both sides but games not launched** — their commercial team has gone quiet for ~2 weeks despite pinging. **Golden Matrix:** paused; the technical integration isn't finished; they owe an answer next week on resuming. [[raw/andrei _klimovich_update-apr-15-2025.md]]
+- **HollywoodBets:** integration parked pending **GLI certification** — Efim needs to rework the **RNG** first (see [[wiki/topics/gli-certification-bottleneck.md]]); Val sees "никакой проблемы с сертификацией GLI" and sized it at "пару месяцев"; until the certificate, "нам и саму интеграцию с HollywoodBets смысла пока нет." [[raw/andrei _klimovich_update-apr-15-2025.md]]
+- **PariPlay / US market:** PariPlay shelters JVL with licences and fronts large online operators (renderings "BET, MGA, MGM, HardRock" — reading uncertain), but requires **Letters of Intent** from operators before integrating JVL; none secured. The one bite, **HardRock casino**, ended badly — "не пишите нам больше, вы слишком настырные" after mass-mailing management, and PariPlay issued a "Strike." New tactic: don't touch **C-level**, target **Head-of** level; a partnership manager named **Hanna** is now on it; in-person attempts planned at the **Fort Lauderdale conference**. Brazil B2B remains silent (same conference plan). [[raw/andrei _klimovich_update-apr-15-2025.md]]
+- **Italy probe:** for Italy a game provider "нам не нужна лицензия. Нам нужны только сертификаты" — JVL already has certificates for **15 games**; he called **Microgaming** ("один из самых крупных агрегаторов, слэш-операторов в Италии" — as stated), which liked the classic games and asked to reconnect in ~2 weeks toward a contract. [[raw/andrei _klimovich_update-apr-15-2025.md]]
+- **Promotions:** first agreed promo launches **in May** with **Top Sport** — "крупные ребята" in the Latvia/Lithuania region (transcript gives both). [[raw/andrei _klimovich_update-apr-15-2025.md]]
+- **ELANTIL marketplace (rendered "LNT", spelled out "E-L-A-N-T-I-L"):** the closest live analogue to the JVL Marketplace concept — founded by ex-**Games Global** people (with a **John Debona** connection); takes **no commission on game providers' GGR**, lets providers contract operators directly, and earns a **fixed monthly fee from operators** (Andrei: "По-моему 40 тысяч в месяц или что-то такое"; Val: "Дорого очень"). JVL handed over its API for their **reverse integration**; the contract is being "дожимаем" (~2 weeks hoped); a Teams integration channel exists. [[raw/andrei _klimovich_update-apr-15-2025.md]]
+- **LuckyStick contract:** the liability clauses were talked through on a direct call with their lawyer ([[wiki/people/monica.md|Monica]] + Andrei); "вроде бы обо всем договорились," waiting ~2 weeks for the revised agreement to come back. [[raw/andrei _klimovich_update-apr-15-2025.md]]
+
 ## History — 2023–2024 origins (batch 16)
 
 Five older sources (staged 2025-03-29 but internally dated 2023–2024) predate all the Jan–Mar 2025 material above. Per the temporal rule they are recorded here as history, not current state. Together they show the online-distribution business, the marketplace/"Netflix" idea, and the ECHO/Amazon push all began well before 2025. Meeting stubs: [[wiki/meetings/2023-08-08-online-platforms-aggregators-status.md]], [[wiki/meetings/2024-11-06-website-architecture-and-design.md]], [[wiki/meetings/2024-11-12-online-vision-and-rgs-scaling.md]], [[wiki/meetings/2024-11-24-andrei-klimovich-online-strategy-update.md]], [[wiki/meetings/2024-12-online-strategy-storefront-brainstorm.md]].
@@ -130,3 +144,4 @@ Five older sources (staged 2025-03-29 but internally dated 2023–2024) predate 
 - [[raw/andrei_klimovich_update_report_online_strategy1_2025-03-29.md]]
 - [[raw/online_strategy_brainstorm_with_andrei_klimovich_decembe_2025-03-29.md]]
 - [[raw/sweepstakes_casinos_with_mark_sinosich.md]]
+- [[raw/andrei _klimovich_update-apr-15-2025.md]]
