@@ -4,7 +4,7 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich]
 disambiguation: "Online-games/RGS commercial lead. One of THREE Andreis (owner-ruled): Andrey Bosik (DevOps manager → wiki/people/andrey-bosik.md), Andrew Khandov (C# developer, Miranda → wiki/people/andrew-khandov.md), Andrei Klimovich (online-games/RGS commercial lead → wiki/people/andrei-klimovich.md). Resolve by context; queue if unclear."
-source-count: 11
+source-count: 12
 open-commitments: 5
 open-questions: 0
 ---
@@ -60,6 +60,17 @@ From the Apr 15 update ([[wiki/meetings/2025-04-15-klimovich-update-burger-king-
 - **Distributor handover state:** none of the distributors Felipe introduced has ordered yet ("у нас 5 заказов в месяц, а тут вдруг тишина" as the historical baseline); troubleshooting flows through Teams with [[wiki/people/sebastian.md|Sebastian]] ("от него информация поступает оперативно"); Andrei asked for a Trello-like ticket board — Val will give him **Jira Service** (customer-support) access instead. [[raw/andrei _klimovich_update-apr-15-2025.md]]
 - **Val's coaching (durable working rule):** include Val in cross-team conversations — "я вас прошу включать меня в разговор … у вас будет бенефит всегда во всем, когда вы со мной разговариваете"; JVL is deliberately processless ("JVL маленькая компания. Мы решаем вопросы на ходу"); routine flows (e.g. support tickets [[wiki/people/ivan.md|Ivan]] turns around in ~3 days) don't need Val. The call also records that Andrei **sits in the same office as Val** ("вы сидите со мной в одном офисе"). [[raw/andrei _klimovich_update-apr-15-2025.md]]
 
+## Apr 18 2025 — orders, tariffs/sales-tax, Burger King ladder, website, account-manager doubt
+
+From the Apr 18 update ([[wiki/meetings/2025-04-18-klimovich-update-orders-tariffs-burger-king.md]]; the raw transcription is corrupted with hallucinated foreign-language loops — §12): [[raw/andrei_klimovich_update-apr-18-2025.md]]
+
+- **Revived orders:** three home-version orders — **GameRoomGuys ×2** and **Birmingham Vending Company ×1** (dormant since 2023, now "ожили"). Fourth Amazon ECHO sold via ecosystem-wide targeted ads (static renders, no voiceover). See [[wiki/topics/echo-home-gaming-device.md]]. [[raw/andrei_klimovich_update-apr-18-2025.md]]
+- **Credit-card vs ACH:** Birmingham wanted to pay by card without the ~**3%** fee; Val's coaching — hold 3% (or push the processor to 2%), or steer the buyer to **ACH** (Val's preferred method); explained ACH (automated clearing house) vs wire (manual clearing). [[raw/andrei_klimovich_update-apr-18-2025.md]]
+- **Tariffs / sales tax / invoicing:** learned the cross-border mechanics — Canada→US now carries ~**20%** tariffs (buyer pays; JVL absorbs them only on its own Amazon retail sales), inter-company transfer to JVL USA at reduced value, third-party buyers must clear through **their own** customs broker (an error [[wiki/people/arkady-batson.md|Arkady]] had made), and per-state sales tax via an Avalara-style add-on configured for **4 states** (incl. Georgia) with other states googled and added by hand. The invoice pipeline: **Canada sales → Arkady** (generates in the system, arranges Canada shipping); **US sales → [[wiki/people/lev-rudky.md|Lev]]** until BC is installed. To open corporate **UPS/FedEx** accounts (JVL Systems), asking [[wiki/people/monica.md|Monica]]. [[raw/andrei_klimovich_update-apr-18-2025.md]]
+- **Burger King:** the [[wiki/organizations/burger-king.md|Burger King]] account continued — Val's negotiation ladder (Repair Kit **$2,500** as-is → discount **$2,100** → new machines **18% off = $3,240**; +~20% tariffs; bundle floor **$3,050**), plus a separate **trade-in** option (old machines ~$150 of reusable parts; only cabinets reusable, for used-ECO resale to Latin America). [[raw/andrei_klimovich_update-apr-18-2025.md]]
+- **Website:** CMS/back-end/front-end ready for first release; [[wiki/people/ivan.md|Ivan]] to test (synced with Irina for priority); About-Us uses Val's copy; ECHO page possibly by end of May; dark-mode fixes from the vendor not yet satisfactory. See [[wiki/projects/jvl-corporate-website.md]]. [[raw/andrei_klimovich_update-apr-18-2025.md]]
+- **Account-manager / business-model doubt:** the female AM candidate fell through (wouldn't share prior-salary proof; wanted consultant-agreement benefits — Val: consultants get none). Val stated the **classic online account-manager model "does not work"** (no operator/player loyalty; everyone makes the same games) but gave Klimovich room to prove otherwise; what's missing = regular game releases + active account management, and the one untested model is the **Marketplace**. See [[wiki/topics/online-games-rgs-distribution.md]]. [[raw/andrei_klimovich_update-apr-18-2025.md]]
+
 ## Open commitments
 
 - [ ] Andrei Klimovich — commission the high-poly ECHO 3D model from [[wiki/people/maxim-3d.md|Maxim]] and launch Meta (Instagram/Facebook) ads via [[wiki/people/anton-smm.md|Anton]] driving traffic to the Amazon page — due unspecified — [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
@@ -95,3 +106,4 @@ Five older sources (staged 2025-03-29, internally dated 2023–2024) place Andre
 - [[raw/meeting_summary_andrei_klimovich-Feb-27-2025.md]]
 - [[raw/andrei_klimovich_amazon-april-1-2025.md]]
 - [[raw/andrei _klimovich_update-apr-15-2025.md]]
+- [[raw/andrei_klimovich_update-apr-18-2025.md]]

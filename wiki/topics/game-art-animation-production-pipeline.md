@@ -2,8 +2,8 @@
 type: topic
 title: Game art & animation production pipeline (comp art → Miranda)
 date: 2025-03-12
-aliases: [animation production, comp art pipeline, CompArt, storyboards, Spine, Blender, After Effects, placeholder build, Miranda scene assembly, art production stages]
-source-count: 1
+aliases: [animation production, comp art pipeline, CompArt, storyboards, Spine, Blender, After Effects, placeholder build, Miranda scene assembly, art production stages, spike, sorting, symbol containers]
+source-count: 3
 ---
 
 # Game art & animation production pipeline (comp art → Miranda)
@@ -46,6 +46,27 @@ For each symbol the team discusses the most optimal/fastest route: [[raw/Game De
 
 For the **Queen game** recognition feature, Lena showed Michael one scenario, he asked to try something else, she did, he liked it, then had second thoughts (it looked like "a whip") and asked her to go back to the earlier **silver-horseshoe** version — an iterative creative loop that is why she prefers to storyboard quickly in Photoshop before involving real game animators. [[raw/Game Development How animation are made with Lena - March 12-2025.md]]
 
+## Porting a game's assets to Omni — the Calle Ocho method (Apr 17 2025)
+
+Moving the released **Calle Ocho / Kai-Ocho** game's assets onto Omni forced a choice between three approaches, worked through by [[wiki/people/lena.md|Lena]], [[wiki/people/dmitriy-khandov.md|Dima]], [[wiki/people/alexander-biratka.md|Sasha]] and Val ([[wiki/meetings/2025-04-17-calle-ocho-asset-redesign-omni.md]]): [[raw/graphical_assets_redesign_omni_calle_ocho-apr-17-2025.md]]
+
+- **Plan A (Lena's, to hit a May-1 date):** take the videos made for Calle Ocho in **Rage Studio** and just re-export them through **Spine** and **Miranda**, only separating the particles that need **additive** blending (Omni can't do alpha + additive in one video today). Lena's own objection: this reuses nothing for the *next* game. [[raw/graphical_assets_redesign_omni_calle_ocho-apr-17-2025.md]]
+- **Plan B (Sasha's):** rebuild assets "properly" so the control code is reusable in future games — but then no firm time estimate, and Sasha argued ~2 months (Val: 2 months is "a non-starter"). [[raw/graphical_assets_redesign_omni_calle_ocho-apr-17-2025.md]]
+- **The middle approach (Dima's, adopted):** port as-is the many things that can be (e.g. symbols exported into **Spine containers** with minimal designer effort, without redrawing the internal animation), and **properly rework only what recurs across future games** — the "pigwin"/penguin effect "we'll use in thousands of games," a **flexible BigWin** (swap diamonds↔Chinese coins by scheme, reused straight into Fortune Fu Paws / "HotShenFuPo"), and a shared **Dashboard**. Val's framing: throwing away some Calle-Ocho-only work is a small sacrifice if it launches the engine. [[raw/graphical_assets_redesign_omni_calle_ocho-apr-17-2025.md]]
+- **"Spikes" (unsolved reworks) identified:** a **soft mask** for the negative transition (Omni's mask is a hard geometry mask; the fix is a two-layer video where the second layer is the soft mask); **video-in-button** complex buttons for the **Pick Your Fortune** mini-game (buttons that change skin per state and embed video — never built before); and **sorting** (per-symbol individual sort order, "very important… needed in all games," ~90% on Sasha). [[raw/graphical_assets_redesign_omni_calle_ocho-apr-17-2025.md]]
+- **Concrete asset rulings for Calle Ocho:** the new **Dashboard** pushes the reels up (Lena to shrink the rooster + logo slightly, remove the "Lions," reposition — **not resize** — the reel matrix); **Royals** redone once in **Spine** as recolourable **skins** (one font, per-game colour sets); **anticipation** and **precognition** kept as video (rework only if performance drops); the **V-Deck** gets the new last-three-buttons flame feature (as on Fortune Fu Paws / Diamond Link Georgia). [[wiki/people/sergey-tsymanov.md|Sergey]] to rebuild the FireEyes progressive Sign for Omni; **Vitalik** cuts resources; **Dima** owns templates + the hardest fixes while others parallelize. [[raw/graphical_assets_redesign_omni_calle_ocho-apr-17-2025.md]]
+
+## Production-time estimation on the Miro board (Apr 18 2025)
+
+Val and Lena walked the **game-production task list in Miro** item by item to estimate **production time per item**, setting creative reiterations aside (Lena's rule of thumb: ~2.5 reiterations on average, not every task) ([[wiki/meetings/2025-04-18-games-production-time-estimation.md]]). [[raw/games_production-apr-18-2025.md]]
+
+- **Unit convention:** a "day" = **8 hours**; e.g. "5 days" = **40 hours** of actual labor time (not thinking time). [[raw/games_production-apr-18-2025.md]]
+- **Structure separated for estimating:** the game part vs the **Fiery Ice Link** progressive part. Progressive transitions/bonus are **common to all Fiery-Ice games** and copy-paste between games (the Diamond Link / Jackpot Rush lineage — "developers have the technology to put code inside another game"), so they're pulled out of per-game work; **game math differs per game** and Lena only cares about which symbols are special (visual hierarchy), not the math detail. **Kaio-Ocho** has fewer tasks than **Dragons of Rain** because its bonus/progressive-sign were already done in Dragons. [[raw/games_production-apr-18-2025.md]]
+- **The production stages (Lena's map):** CompArt for main scene + free spins → per-symbol **"detailing"** (each symbol's parameters: oversized?, animation length, animation description, anticipation animation) → per-symbol production. **Precog** = an artistic-approach illustration Lena shows Michael for approval; **Anton** draws the objects (illustration, since Anton doesn't do 3D), then **Nastya/Natasha** animate (AI used to combine/cut illustration pieces, then hand-animated). [[raw/games_production-apr-18-2025.md]]
+- **Critical resources:** Lena priced only the **critical, non-substitutable** resources (**Dima, Nastya, Yulia**) who run **fully in parallel** — Dima's V-Deck project is completely self-contained (depends on no one). **Anton** shares his time across games (Jet Patrasche / George), so she hadn't priced his tasks and would fill them in the next day with him. Val pushed to estimate **time-per-person first**, then lay out a parallel schedule to expose the resource bottleneck (the "second Dima" thought experiment). [[raw/games_production-apr-18-2025.md]]
+
 ## Sources
 
 - [[raw/Game Development How animation are made with Lena - March 12-2025.md]]
+- [[raw/graphical_assets_redesign_omni_calle_ocho-apr-17-2025.md]]
+- [[raw/games_production-apr-18-2025.md]]

@@ -3,7 +3,7 @@ type: decision
 title: Replace manual testers with Test Engineers who write automated tests
 date: 2025-04-16
 aliases: [fire the testers, test engineers, automated integration tests, QA to test engineers]
-source-count: 1
+source-count: 2
 status: active
 ---
 
@@ -21,10 +21,15 @@ Announced by Val in the Apr-16 Omni daily ([[wiki/meetings/2025-04-16-daily-omni
 
 Omni development writes integration tests as part of the build ("мы пишем интеграционные тесты"); Val wants an engineering QA function that authors automated tests rather than clicking through checks, consistent with the DevSecOps "security is more tests" stance on [[wiki/topics/infosec-and-server-infrastructure.md]] and the test-automation direction on [[wiki/topics/test-automation-strategy.md]].
 
+## Apr 17 2025 — restated with a hiring trigger
+
+On the Apr-17 Omni daily ([[wiki/meetings/2025-04-17-daily-omni-feature-planning-setup-screens.md]]) Val restated the change and made it operational: the QA-department tech-stack and requirements "changed dramatically," so current testers must be told the new stack and asked their personal position — **retrain (with help on AI/TypeScript, but no time for school) or leave** on properly-documented terms, synchronising any departure with new hires. He expects to lose "at least one" person and wants the **job ad posted now** ("if there's no ad today, there are 100% no candidates tomorrow"). He confirmed the QA engineer — not the developer — writes each feature's integration test (a developer "writes in the same errors he's thinking about"), and that routine manual work (installing a build, SAS checks, power-cut-during-spin tests) still exists and is being **automated** via [[wiki/people/andrey-bosik.md|Andrei Bosik]]. [[raw/OMNI_daily_update-apr-17-2025.md]]
+
 ## Status
 
-Active as of 2025-04-16. This supersedes Val's earlier expectation (voiced Apr-15) that Anton would build the integration tests directly — the current state is Anton teaching QA engineers to write them.
+Active as of 2025-04-16, restated Apr-17. This supersedes Val's earlier expectation (voiced Apr-15) that Anton would build the integration tests directly — the current state is Anton teaching QA engineers to write them.
 
 ## Sources
 
 - [[raw/daily_omni_progress-april-16-2025 (Val Levitan's conflicted copy).md]]
+- [[raw/OMNI_daily_update-apr-17-2025.md]]

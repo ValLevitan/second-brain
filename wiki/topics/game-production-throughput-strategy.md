@@ -4,7 +4,7 @@ title: Game production throughput strategy (Val's "much faster" push)
 date: 2025-03-12
 aliases: [developing games faster, production throughput, game a month, game a week, parallel tracks, disjoint animation, zero to GLI, production time, scaling game output]
 open-questions: 1
-source-count: 2
+source-count: 4
 ---
 
 # Game production throughput strategy (Val's "much faster" push)
@@ -55,6 +55,11 @@ The parallel-track idea predates the Mar 12 Gottlieb call: on the Feb 10 GitHub-
 - Michael's blunt "online is unwinnable" assessment from the same call is captured on [[wiki/topics/online-games-rgs-distribution.md]] (Val's "Netflix for games" counter-idea too). [[raw/developing_games_faster_michael_gottlieb_march_12-2025.md]]
 - The Peach 3/4 "finished but not deployed" exchange is on [[wiki/projects/georgia-market-rollout.md]]. [[raw/developing_games_faster_michael_gottlieb_march_12-2025.md]]
 
+## Apr 17–18 2025 — "never reach optimal" and estimate-per-person-first
+
+- On the Apr-17 game-development conversation ([[wiki/meetings/2025-04-17-game-development-omni-port-strategy.md]]) Val added a **management caution** to the speed push: don't chase perfection at the cost of exhausting people — "sometimes companies get exhausted from perfection… in this business it's very dangerous to exhaust people, then you're gonna lose them." He puts a hard deadline on the Calle-Ocho→Omni port (accepting throw-away work), offering a **contractor** as the escape valve ("hire a contractor… I don't mind paying") so the team isn't in overdrive for months. Michael backed the ship-imperfect-now stance with the **Sega Dreamcast 1995** precedent (shipped on one of two SH-2 processors, added the second later). [[raw/game_development_update-apr-17-2025.md]]
+- On the Apr-18 Miro estimation call ([[wiki/meetings/2025-04-18-games-production-time-estimation.md]]) Val worked his throughput method concretely: estimate **time-per-person first**, then lay operations out on a **parallel** schedule to find the resource bottleneck ("if all done sequentially the game would take two years"). Lena confirmed the art critical-path (**Dima, Nastya, Yulia**) already runs fully parallel and independent. Detail on [[wiki/topics/game-art-animation-production-pipeline.md]]. [[raw/games_production-apr-18-2025.md]]
+
 ## Open questions
 
 - Nothing was decided — Val closed with "I'm going to think about it. We'll have another conversation on this." Whether JVL adopts the two-team split, the parallel-track/disjoint-animation model, or the junior-art-director experiment is unresolved. [[raw/developing_games_faster_michael_gottlieb_march_12-2025.md]]
@@ -64,3 +69,5 @@ The parallel-track idea predates the Mar 12 Gottlieb call: on the Feb 10 GitHub-
 - [[raw/github _structure-pavel-aaron-andrei.md]]
 
 - [[raw/developing_games_faster_michael_gottlieb_march_12-2025.md]]
+- [[raw/game_development_update-apr-17-2025.md]]
+- [[raw/games_production-apr-18-2025.md]]

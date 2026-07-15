@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina]
-source-count: 22
+source-count: 24
 open-commitments: 1
 ---
 
@@ -96,6 +96,11 @@ Her surname is given as **Zhukova** on the Feb 18 onboarding session (WEBVTT).
 
 In the Omni daily Val flagged a separate task for "Лена Жукова" to change the graphic designers' priorities (especially the cladding/окление work) per the framework changes; he also noted Lena had made the earlier list of jackpot/feature "штуки." [[raw/daily_omni_progress-april-16-2025 (Val Levitan's conflicted copy).md]] In the AI-tooling knowledge share, Lena described generating concept/comp-art images with ChatGPT (DALL·E) and now Cline as well — same model, sometimes different results. [[raw/mcp_experiences_tech-apr-16-2025.md]]
 
+## Apr 17–18 2025 — Calle Ocho asset port + production-time estimation
+
+- **Apr 17 Calle Ocho session** ([[wiki/meetings/2025-04-17-calle-ocho-asset-redesign-omni.md]]): Lena proposed the fast "plan A" (re-export the old Rage-Studio videos through Spine/Miranda to hit May 1) but flagged its flaw (reuses nothing for the next game); the group settled on Dima's middle approach. She drove the concrete asset rulings (new dashboard raises the reels, remove the "Lions," reposition-not-resize the matrix, Royals as Spine skins) and postponed detailed **Fortune Fu Paws** planning ~2 weeks. See [[wiki/topics/game-art-animation-production-pipeline.md]]. [[raw/graphical_assets_redesign_omni_calle_ocho-apr-17-2025.md]]
+- **Apr 18 production estimation** ([[wiki/meetings/2025-04-18-games-production-time-estimation.md]]): Lena walked Val through the Miro game-production task list to estimate time per item (her reiteration rule of thumb ~2.5 on average), explaining the CompArt→detailing→production stages, the Fiery-Ice-Link common/progressive split, and why she priced only the non-substitutable critical resources (Dima/Nastya/Yulia, fully parallel) and not Anton (shared across games). See [[wiki/topics/game-production-throughput-strategy.md]]. [[raw/games_production-apr-18-2025.md]]
+
 ## Sources
 
 - [[raw/github _structure-pavel-aaron-andrei.md]]
@@ -121,3 +126,5 @@ In the Omni daily Val flagged a separate task for "Лена Жукова" to cha
 - [[raw/michael_gottlieb_val_meeting-26-2025.md]]
 - [[raw/daily_omni_progress-april-16-2025 (Val Levitan's conflicted copy).md]]
 - [[raw/mcp_experiences_tech-apr-16-2025.md]]
+- [[raw/graphical_assets_redesign_omni_calle_ocho-apr-17-2025.md]]
+- [[raw/games_production-apr-18-2025.md]]
