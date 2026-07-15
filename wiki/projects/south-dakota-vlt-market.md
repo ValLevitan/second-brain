@@ -3,7 +3,7 @@ type: project
 title: South Dakota VLT market entry
 date: 2025-01-22
 aliases: [South Dakota, SD VLT, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950]
-source-count: 3
+source-count: 4
 ---
 
 # South Dakota VLT market entry
@@ -38,6 +38,12 @@ The Feb 1 release target slipped; as of Feb 19 the regulator is tied up on anoth
 - **RTP/math issue:** JVL's partner misinformed it on which RTPs the regulator accepts, so only one was submitted; a future conversation (Val, [[wiki/people/efim-podvoiski.md|Efim]], "Michael," and the regulator) may tweak the math to offer an additional ~92% RTP after go-live. [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 - **Release discipline:** Val told Pavel to put [[wiki/people/ivan.md|Ivan]] on scheduling GLI ahead of time and to "loop" — keep checking the scheduled work is actually done. [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 
+## Status update (Apr 5) — licence in hand, border office planned
+
+On the Denis Desmarais call ([[wiki/meetings/2025-04-05-denis-desmarais-south-dakota-nebraska.md]]) Val stated the market entry is closing: "We're in the final stages of settling in South Dakota and Nebraska… as we speak today, I have a license in South Dakota. A VLT license… we can start operating next month in South Dakota." The SD role is **purely sales — "we're not allowed to do operations. There's no vertical integration."** [[raw/denis_desmarais_south_dakota_nebraska-April-5-2025.md]]
+
+- **Border office plan:** open a **one-or-two-man mixed-use office right on the SD/NE border** ("I think there are two cities. One on South Dakota line and one is on Nebraska line") — commercial office in front, **small warehouse in back** to prepare machines for customers — serving **Nebraska, South Dakota, North Dakota and Wyoming** ("the area is huge"). Staffing it in the Georgia service-first mould; [[wiki/people/denis-desmarais.md|Denis Desmarais]] is the candidate being courted (after the Mar-29 Julian Puerta pitch). [[raw/denis_desmarais_south_dakota_nebraska-April-5-2025.md]]
+
 ## Who
 
 - Driven by [[wiki/people/val-levitan.md|Val]] with [[wiki/people/juan-martinez.md|Juan]] (regulator/operator relationship, field side) and [[wiki/people/pavel.md|Pavel]] (Minsk software); [[wiki/people/irina-makarych.md|Irina]] on printer testing and GLI diffs, [[wiki/people/sebastian.md|Sebastian]] on field service, [[wiki/people/ivan.md|Ivan]] on GLI scheduling. **Lonnie** is the SD lottery-lab tester; **"Alani"** appears as the SD lottery (supplied the SAS adapter, requested the permit-number rename) — whether Alani is the lottery entity or a person there is unclear (see Owner Decisions). [[raw/sd_vlt_recap-jan-22-2025.md]] [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
@@ -47,3 +53,4 @@ The Feb 1 release target slipped; as of Feb 19 the regulator is tied up on anoth
 - [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]
 - [[raw/sd_vlt_recap-jan-22-2025.md]]
 - [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
+- [[raw/denis_desmarais_south_dakota_nebraska-April-5-2025.md]]

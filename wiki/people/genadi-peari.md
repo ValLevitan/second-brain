@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena]
-source-count: 15
+source-count: 18
 ---
 
 # Genadi Peari
@@ -59,6 +59,12 @@ On a four-segment Mar 27 call with Val ([[wiki/meetings/2025-03-27-genadi-hardwa
 - **FlexPay kiosk production:** he argued **tooling won't fix the real constraint** (CNC throughput, painting, and screw-together assembly are the bottleneck, not shipping), that the plastics are done with little metal, and that moving parts to plastic would skip painting; he proposed buying ready-made device assemblies. See [[wiki/topics/flexpay-kiosk-production-and-tooling.md]]. [[raw/flex_pay_production-march-27-2025.md]]
 - **Refurbishing:** he took the used-machine rebuild plan (Altera/Altera V plates + buttons to order, Maple mostly scrap) and undertook to write a **summary for Val and "Arkady"** and to prepare a button **layout** and order **grid** and give the programmers the key mapping. See [[wiki/projects/used-machine-retrofit-and-inventory-clearout.md]]. [[raw/refurbishing_genadi_planning-march-27-2025.md]]
 
+## TITO/SMIB hardware support (Apr 1–7)
+
+- **Apr 1:** the standup's "Гена/Геннадий" (hardware/office context — inference) is the supply point for [[wiki/people/eugine-yavorski.md|Yavorski]]'s SAS test rig — a printer and a replacement bill validator — and was in the office for the same-day handover/visit. [[raw/flex-port_pay_dev_update-april-1-2025.md]]
+- **Apr 2:** the SMIB meeting's action list has the **SMIB power-supply options** question directed to "Gennady" (external supply vs built-in). [[raw/SMIB_FlexPay_Action_Items_April_2_2025.md]]
+- **Apr 7:** "Gennady moved the barcode [scanner] on top of the bracket" for the next FlexPort hardware revision (focus distance); he has the **Flex S-adaptable FlexPort brackets** already manufactured for the Georgia demo, and is one of the people loading/shipping the Georgia terminals. [[raw/flex_pay_tito_smib_port-april7-2025.md]]
+
 ## Sources
 
 - [[raw/fp-7_performance_analysis_january_13_2025.md]]
@@ -76,3 +82,6 @@ On a four-segment Mar 27 call with Val ([[wiki/meetings/2025-03-27-genadi-hardwa
 - [[raw/Hardware_redesign-march-27-2025.md]]
 - [[raw/flex_pay_production-march-27-2025.md]]
 - [[raw/refurbishing_genadi_planning-march-27-2025.md]]
+- [[raw/flex-port_pay_dev_update-april-1-2025.md]]
+- [[raw/SMIB_FlexPay_Action_Items_April_2_2025.md]]
+- [[raw/flex_pay_tito_smib_port-april7-2025.md]]

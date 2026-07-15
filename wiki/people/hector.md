@@ -3,8 +3,8 @@ type: person
 title: Hector
 date: 2026-07-14
 aliases: [Hector]
-source-count: 3
-open-commitments: 2
+source-count: 4
+open-commitments: 3
 ---
 
 # Hector
@@ -18,6 +18,10 @@ Hector is a member of JVL's **finance back-office** whom Val wants narrowed down
 - **System access:** Val wants Hector limited to only what he needs, but for audit/controlling he needs review access across **finance, customer invoicing, banking and procurement** (read vs write distinction discussed). [[raw/financial_alka_alignment-march-24-2025.md]]
 - The task transfer had been stalled because Hector "felt exposed with Igor leaving"; once Igor was gone Val pushed the handover. (Which Igor is unresolved — see Owner Decisions.) [[raw/financial_alka_alignment-march-24-2025.md]]
 
+## Apr 7 2025 — handover nearly complete
+
+- On the recurring finance call ([[wiki/meetings/2025-04-07-finance-recurring-alka-hector.md]]) Hector confirmed he is transferring "almost everything" of the day-to-day accounting, with a last small piece going **to Laura this week**, leaving him "dedicated to the finance side" (controllership/reporting for Val). He drove the shared screen on the **Elevate/EDS payment schedules** (see [[wiki/organizations/elevate.md]]) and took the rework: split the blended schedule into two deals, separate interest vs the 8% commission, verify whether the first-deal commission was paid, and add the FX and effective-rate views — "Can we have a week to fix it, Val? Yeah… This is not urgent, but it's important." He also builds the Mexico closure cash-flow with Alka (see [[wiki/decisions/2025-03-24-close-jvl-mexico-operation.md]]). [[raw/finance_recurring-april-7-2025.md]]
+
 ## History
 
 - **February 2025 task-map call (date inferred — [[wiki/meetings/2025-02-20-alka-finance-taskmap.md]]):** Alka holds a **weekly checkpoint with Hector every Wednesday**; she contributed his additions to the finance task list, and pressed him to redesign the payment proposal (partial-payment history per vendor) against his "the more you ask, the more time it's going to take" pushback — Val: "I told you before that he's playing games," while also saying "he is honest … a little bit of a dramatizer." Hector asked to keep his assistant Igor for a year–two years for year-end; Alka countered ~Apr 15 (see [[wiki/topics/jvl-finance-back-office.md]]). He was to finish **2024 year-end no later than ~March 15** and remain the sole interface to the third-party accountant. Alka's four-month goal for him: shift from "counting bookkeeper" to enabling decisions — "he has two hats … activate the power of things like Klein … and … make sure the controls" hold. [[raw/Finance - Alka.md]]
@@ -27,9 +31,11 @@ Hector is a member of JVL's **finance back-office** whom Val wants narrowed down
 
 - [ ] Hector — hand the four vendor-bill tasks to Mary and start producing Val's report wish-list "as of next Monday" — due ~next week — [[raw/financial_alka_alignment-march-24-2025.md]]
 - [ ] Hector — speak to "Alejandro, the accountant" about the Mexico import-VAT reclaim and get back to Val — due unspecified — [[raw/Asimex - Importation of Flex machines_2.md]]
+- [ ] Hector — redo the Elevate/EDS control sheet (two schedules, interest vs commission columns, first-deal commission check, FX adjustment, effective rate, RUTA-conversion credit) — due ~a week ("Can we have a week to fix it") — [[raw/finance_recurring-april-7-2025.md]]
 
 ## Sources
 
 - [[raw/financial_alka_alignment-march-24-2025.md]]
 - [[raw/Asimex - Importation of Flex machines_2.md]]
 - [[raw/Finance - Alka.md]]
+- [[raw/finance_recurring-april-7-2025.md]]

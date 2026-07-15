@@ -4,8 +4,8 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich]
 disambiguation: "Online-games/RGS commercial lead. One of THREE Andreis (owner-ruled): Andrey Bosik (DevOps manager → wiki/people/andrey-bosik.md), Andrew Khandov (C# developer, Miranda → wiki/people/andrew-khandov.md), Andrei Klimovich (online-games/RGS commercial lead → wiki/people/andrei-klimovich.md). Resolve by context; queue if unclear."
-source-count: 9
-open-commitments: 3
+source-count: 10
+open-commitments: 5
 open-questions: 0
 ---
 
@@ -46,11 +46,17 @@ Andrei Klimovich presented three candidates for the online **Account Manager** r
 - **Charlotte** — in Latvia, originally from Colombia; experience with **Endorphina Gaming** and **Vegangster**; manages 70 accounts (30 very active); English/Spanish/Portuguese/French; salary expectation **held per §15.8**; could bring accounts from Baltic/USA/Canada/Latin America/UK. [[raw/meeting_summary_andrei_klimovich-Feb-27-2025.md]]
 - **Recommendation:** exclude Sam from the immediate AM role (keep for marketing consulting); choose between Egor (cheaper, motivated, available) and Charlotte (pricier, broader portfolio). Consider hiring two temporarily to hedge; verify candidate claims (salary, account numbers) via documentation such as tax records; continue the search and re-evaluate after ~3 months; prepare formal offers with clear bonus targets. [[raw/meeting_summary_andrei_klimovich-Feb-27-2025.md]]
 
+## Apr 1 2025 — Amazon referral model + taking over distributor relationships
+
+On the Apr 1 call ([[wiki/meetings/2025-04-01-klimovich-amazon-distributor-referral-warranty.md]]) Andrei proposed converting the ECHO web distributors into **Amazon referral partners** (~$300/sale referral vs their current ~$600–700 net margin) and got approval to proceed, plus a warranty-overhaul ruling (12-month no-questions-asked, advance replacement, prepaid return box). He is **taking over the distributor relationships from "Филипп"** (by context [[wiki/people/felipe-miranda.md|Felipe Miranda]], inference), starting with an introduction call to **Game Room Guys** the next day — though coached to trial the referral pitch on a lesser distributor first. Full detail on [[wiki/topics/echo-home-gaming-device.md]]. [[raw/andrei_klimovich_amazon-april-1-2025.md]]
+
 ## Open commitments
 
 - [ ] Andrei Klimovich — commission the high-poly ECHO 3D model from [[wiki/people/maxim-3d.md|Maxim]] and launch Meta (Instagram/Facebook) ads via [[wiki/people/anton-smm.md|Anton]] driving traffic to the Amazon page — due unspecified — [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
 - [ ] Andrei Klimovich — produce a quality premium landing page for ECHO before starting paid Meta traffic — due unspecified — [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
 - [ ] Andrei Klimovich — investigate ECHO packaging (find a packaging studio) — due unspecified — [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
+- [ ] Andrei Klimovich — research how Amazon's extended-warranty (12/24/36-month) money flows back to JVL ("я изучу этот вопрос") — due unspecified — [[raw/andrei_klimovich_amazon-april-1-2025.md]]
+- [ ] Andrei Klimovich — use the Game Room Guys call (Apr 2) to introduce himself as Felipe's replacement and probe their customer sources/product mix — due Apr 2 2025 — [[raw/andrei_klimovich_amazon-april-1-2025.md]]
 
 ## History — 2023–2024 (batch 16, earlier than the recaps above)
 
@@ -77,3 +83,4 @@ Five older sources (staged 2025-03-29, internally dated 2023–2024) place Andre
 - [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
 - [[raw/recap_meeting_andrei-February-21-2025.md]]
 - [[raw/meeting_summary_andrei_klimovich-Feb-27-2025.md]]
+- [[raw/andrei_klimovich_amazon-april-1-2025.md]]

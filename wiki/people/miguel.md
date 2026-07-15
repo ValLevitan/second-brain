@@ -3,7 +3,7 @@ type: person
 title: Miguel
 date: 2026-07-12
 aliases: [Miguel]
-source-count: 1
+source-count: 2
 ---
 
 # Miguel
@@ -19,6 +19,11 @@ Miguel manages JVL's warehouse in Mexico. He handles the machines stored there a
 
 His last name is not stated.
 
+## Mexico closure duty (Apr 7 2025)
+
+- On the Apr 7 finance call Val confirmed **Miguel and Camilo** — "two strong men," both still on payroll and servicing locations — as the pair retrieving the ~98–100 machines from Mexico locations, packaging and shipping them under the 30-day shutdown order (they "have been" instructed; the final letter follows with the budget). See [[wiki/decisions/2025-03-24-close-jvl-mexico-operation.md]]. ("Camilo" is otherwise unknown — mention only, no page yet.) [[raw/finance_recurring-april-7-2025.md]]
+
 ## Sources
 
 - [[raw/shipment_of_machines_from_mexico_january_8_2025.md]]
+- [[raw/finance_recurring-april-7-2025.md]]

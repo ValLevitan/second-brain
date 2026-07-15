@@ -3,8 +3,8 @@ type: organization
 title: Incom (payment processor)
 date: 2025-02-27
 aliases: [Incom, InComm, Incomm, Income, Incom Payments]
-source-count: 5
-open-commitments: 2
+source-count: 7
+open-commitments: 3
 open-questions: 2
 ---
 
@@ -54,8 +54,19 @@ Alan took the JVL team step-by-step through issuing a prepaid card from the kios
 
 - Val reported: **all contractual agreements with Incom are signed**; the additional information Incom requested was supplied by **Monika** (see [[wiki/people/monica.md]]); "any day they will approve us as a vendor and will open the connection for testing." The planned beta (3–5 free-of-charge operator locations) runs connected to Incom in both regimes (QR-code/FlexPort and TITO). See [[wiki/meetings/2025-03-27-flexpay-scope-gap-discovery.md]]. [[raw/flex_pay_scope_gap-mach-27-2025.md]]
 
+## Apr 7 2025 — COAM gift-card solution meeting (John)
+
+The market/solution meeting Val committed to on the Apr 2 SMIB call — owner Val, "Timeline: Today, tomorrow, or Monday," purpose "Discuss market dynamics and understand operator strategies" [[raw/SMIB_FlexPay_Action_Items_April_2_2025.md]] — held Monday Apr 7 (see [[wiki/meetings/2025-04-07-incomm-coam-gift-card-solutions.md]]). **John** (the Incom side — consistent with the John on the Feb 27 roster above) and Val worked the merchant problem that **gift cards can't be used to play at COAM machines**, so merchants fear losing in-store spend (feedback "from multiple operators"; use case: a $100 win loaded onto a MasterCard can't fund further COAM play). [[raw/2025-04-07-COAM_gift_card_solution_incomm_notes.md]]
+
+- **Three solution options (John):** (1) player asks the **clerk to swipe the card for cash** (no system changes); (2) contract a **merchant acquirer** to put card readers on kiosks/machines — rejected as unattractive: **$50–$200/month maintenance + 3% transaction fee** (a $100 transfer nets the merchant $97); (3) **barcode on the card** processed **directly with Incom** — no merchant acquirer, no 3% fee, avoids **PCI compliance** ("the barcode is not considered payment card information"), only a modest **~$20–25/month** accounting/settlement fee. [[raw/2025-04-07-COAM_gift_card_solution_incomm_notes.md]]
+- **Barcode security:** protected by a **PIN set on first use** (first PIN entered becomes the card's PIN); changeable anytime via **IVR or the website**. [[raw/2025-04-07-COAM_gift_card_solution_incomm_notes.md]]
+- **Role model:** location houses the machines; machine owner manages them; **JVL supplies the machines/kiosks**; **Incom is the program manager and technology provider** (gift-card product + APIs, money movement, compliance) — Incom **does not build kiosks**; operators design their own kiosk configurations (card readers, digital wallets, etc.). [[raw/2025-04-07-COAM_gift_card_solution_incomm_notes.md]]
+- **Incom's expansion plans:** targeting **Texas, Florida, Pennsylvania, Nebraska and Iowa** "to improve the player experience and reduce dependence on cash," with per-market product adaptations — ATM-usable cards in Pennsylvania, large-win payouts in Nebraska — plus a **print-on-receipt** product for merchandise markets (player picks among gift-card providers). [[raw/2025-04-07-COAM_gift_card_solution_incomm_notes.md]]
+- **Follow-up:** Juan + Val to "regroup and think of a proper business model" for the discussed solution. The card-scanning prospect surfaced the same day in the FlexPort scanner ruling — see [[wiki/decisions/2025-04-07-flexsmib-modern-flexport-legacy.md]]. [[raw/2025-04-07-COAM_gift_card_solution_incomm_notes.md]]
+
 ## Open commitments
 
+- [ ] Val + Juan — regroup and define a proper business model for the COAM gift-card solution (barcode option) — due unspecified — [[raw/2025-04-07-COAM_gift_card_solution_incomm_notes.md]]
 - [ ] Incom (Alan) — send JVL the blank **location onboarding / merchant setup form** and (Adam) the standard consumer-facing language/terms — due "after this call" (Feb 27) — [[raw/incomm_commissioning_plan_february-27-2025.md]]
 - [ ] JVL (Val/Juan) — complete Incom's merchant setup form and arrange the in-shop first-machine production test; produce the consumer-experience demo for Adam's review — due unspecified — [[raw/incomm_commissioning_plan_february-27-2025.md]]
 
@@ -71,3 +82,5 @@ Alan took the JVL team step-by-step through issuing a prepaid card from the kios
 - [[raw/incomm_commissioning_plan_february-27-2025.md]]
 - [[raw/flex_pay_scope_gap-mach-27-2025.md]]
 - [[raw/incomm_flex-pay_user_cases.md]]
+- [[raw/2025-04-07-COAM_gift_card_solution_incomm_notes.md]]
+- [[raw/SMIB_FlexPay_Action_Items_April_2_2025.md]]

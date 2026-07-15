@@ -3,13 +3,15 @@ type: decision
 title: FlexPay to support TITO at non-JVL locations via a FlexPort-hosted SAS server
 date: 2025-03-28
 aliases: [FlexPay TITO decision, TITO support, SAS server on FlexPay, FlexServer, non-JVL location TITO]
-source-count: 3
+source-count: 4
 status: active
 ---
 
 # FlexPay to support TITO at non-JVL locations via a FlexPort-hosted SAS server
 
 On the Mar 28 2025 scope-gap meeting, JVL agreed the business requirement and an MVP technical approach for **FlexPay to issue and validate TITO (ticket-in/ticket-out) tickets** at locations that contain **no JVL machines**. [[raw/scope_gap_tito_flex_pay-march-28-2025.md]]
+
+> **Refined Apr 7 2025 (evolution, still active):** the "FlexPort simplified into a SMIB" device concept split into **two products** — a screenless **FlexSMIB** board for modern dual-SAS machines and the screened **FlexPort** for legacy machines (which can't display errors to the player). The SAS-server/WSS-proxy approach here stands. See [[wiki/decisions/2025-04-07-flexsmib-modern-flexport-legacy.md]]. [[raw/flex_pay_tito_smib_port-april7-2025.md]]
 
 ## The business requirement and use case
 
@@ -61,3 +63,4 @@ On the Mar 28 2025 scope-gap meeting, JVL agreed the business requirement and an
 - [[raw/scope_gap_tito_flex_pay-march-28-2025.md]]
 - [[raw/flex_pay_scope_gap-mach-27-2025.md]]
 - [[raw/architecture_sql_olap_visualization_2_2025-03-29.md]]
+- [[raw/flex_pay_tito_smib_port-april7-2025.md]]

@@ -4,7 +4,7 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dima]
 disambiguation: "Back-end architect / Java developer. Owner-confirmed 2026-07-13. Belarusian spelling Dzmitry Dudzinau = same person. Distinct from Dmitri Kovalchuk (IT), Dmitriy Khandov (Senior 3D Graphic Designer), and Andrey/Andrew Khandov (Miranda dev). Resolve 'Dima' by context: backend/Java/server-architecture → Chudinov."
-source-count: 9
+source-count: 11
 open-commitments: 3
 open-questions: 0
 ---
@@ -50,11 +50,20 @@ On the Russian follow-up ([[wiki/meetings/2025-03-25-cms-requirements-review-wor
 
 - **SQL/OLAP architecture, part 2 (~2024, likely Q4):** provisionally, the "Dima" Val introduces with "Dima and Sergei are designing back office solutions, back office architecture" — the back-office/architecture context fits Chudinov (who later leads the CMS-replacement backend with the same Sergey), but [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] (the MS-SQL Dima) is also plausible; **flagged, not certain**. Part 1 also notes a "Дима" should join "по поводу флэкспей, портов флэкспей" — consistent with Chudinov's later FlexPort role, likewise flagged. See [[wiki/meetings/2024-sql-olap-visualization-architecture-2.md]]. [[raw/architecture_sql_olap_visualization_2_2025-03-29.md]] [[raw/architecture_sql_olap_visualization_1_2025-03-29.md]]
 
+## FlexPay/TITO protocol work (Apr 1–7, "Дима" by context — inference)
+
+- **Apr 1:** the standup's "Дима" (backend context — consistent with the Mar-25/Mar-28 attributions) reported his protocol document ready ("немножко там подфикшу"), sized taking it into work at **~a week of full load**, proposed **mirroring all SAS traffic onto FlexPay** for per-machine debugging ("Дима это будет всю базу писать" — he writes the FlexPay base for it), and was to write up the **stories** with Pavel (cash-out + SAS-command logging commands for the WSS protocol); interface changes with "Игорь" possible "по мере поступления." Alekseev studying "документы, которые Дмитрий приготовил" also evidences the Mar-28 SAS-command-list commitment delivered (moved to History below). See [[wiki/meetings/2025-04-01-flexport-flexpay-dev-update.md]]. [[raw/flex-port_pay_dev_update-april-1-2025.md]]
+- **Apr 7:** on the architecture meeting the WSS protocol commands between SMIB and FlexPay were "probably… already done in terms of implementing the commands. I assume by Dima, right? Okay, great" — pending testing/interoperability with Evgeny. [[raw/flex_pay_tito_smib_port-april7-2025.md]]
+
 ## Open commitments
 
-- [ ] Dima Chudinov — send Eugine the minimal list of **SAS commands** to implement first for the TITO/SAS-server work — due unspecified — [[raw/scope_gap_tito_flex_pay-march-28-2025.md]]
 - [ ] Dima Chudinov — assemble and properly format the back-office architecture schemas (as-is + future) for the Thursday 8 am architecture meeting — due "a couple of days… maybe end of next week" — [[raw/back_office_next_step_forward_dzima_chudinov.md]]
 - [ ] Dima Chudinov (with Sergey Tsymanov) — re-review the AI-generated CMS overview/use cases/requirements and add the missing taxonomies — due by the booked Thursday meeting (~Mar 27, inferred) — [[raw/cms_requirements_development-dzima-sergei-andrei.md]]
+- [ ] Dima Chudinov — take the SAS/protocol document into work (~a week of full load) and write the stories with Pavel (cash-out + SAS-command logging over WSS) — due week of Apr 1 2025 — [[raw/flex-port_pay_dev_update-april-1-2025.md]]
+
+## History (discharged)
+
+- [x] Dima Chudinov — send Eugine the minimal list of **SAS commands** to implement first for the TITO/SAS-server work — **evidenced delivered by Apr 1** (Alekseev had studied "документы, которые Дмитрий приготовил"). [[raw/scope_gap_tito_flex_pay-march-28-2025.md]] [[raw/flex-port_pay_dev_update-april-1-2025.md]]
 
 ## Sources
 
@@ -67,3 +76,5 @@ On the Russian follow-up ([[wiki/meetings/2025-03-25-cms-requirements-review-wor
 - [[raw/flex_pay_scope_gap-mach-27-2025.md]]
 - [[raw/scope_gap_tito_flex_pay-march-28-2025.md]]
 - [[raw/cms_requirements_development-dzima-sergei-andrei.md]]
+- [[raw/flex-port_pay_dev_update-april-1-2025.md]]
+- [[raw/flex_pay_tito_smib_port-april7-2025.md]]
