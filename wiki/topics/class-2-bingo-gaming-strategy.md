@@ -10,7 +10,7 @@ open-questions: 3
 
 # Class II bingo gaming strategy (bingo engine, rules, market)
 
-JVL's exploration of entering **Class II gaming** — bingo-based slot machines for US tribal casinos — led by [[wiki/people/will-class-2.md|Will]] (ex-SDG/"Valley" Class II expert) with Val, [[wiki/people/juan-martinez.md|Juan]], and the mathematician on the call (transcribed "Ethan"; by context — matching a slot game's pay distribution to bingo outcomes — consistent with [[wiki/people/efim-podvoiski.md|Efim Podvoiski]]; inference, queued). All from the ~86-minute Class II bingo-engine session, ~Mar 20 2025 (date inferred — see the meeting stub [[wiki/meetings/2025-03-20-class-2-bingo-engine-call.md]]). [[raw/class_2_bingo_engine.md]]
+JVL's exploration of entering **Class II gaming** — bingo-based slot machines for US tribal casinos — led by [[wiki/people/will-jones.md|Will]] (ex-SDG/"Valley" Class II expert) with Val, [[wiki/people/juan-martinez.md|Juan]], and the mathematician on the call (transcribed "Ethan" — **owner-confirmed 2026-07-15: [[wiki/people/efim-podvoiski.md|Efim Podvoiski]]**). All from the ~86-minute Class II bingo-engine session, ~Mar 20 2025 (date inferred — see the meeting stub [[wiki/meetings/2025-03-20-class-2-bingo-engine-call.md]]). [[raw/class_2_bingo_engine.md]]
 
 ## Why Class II is open ground: the standards omit bingo game rules
 
@@ -65,7 +65,7 @@ Accepted norms in today's tribal market that a competitive product must embrace:
 
 ## Open questions
 
-- Is the transcribed "Ethan" the same person as Efim Podvoiski? (Context strongly matches; "Ifim" also appears in the same transcript. Queued for owner.) — [[raw/class_2_bingo_engine.md]]
+- ~~Is the transcribed "Ethan" the same person as Efim Podvoiski?~~ **RESOLVED (owner ruling 2026-07-15): yes.** — [[raw/class_2_bingo_engine.md]]
 - Exact identity/spelling of the first target customer "Mikazuki" and of the attorney "Losh." — [[raw/class_2_bingo_engine.md]]
 - What "bounty one" (the system Mikazuki replaced) refers to — unclear in the source. — [[raw/class_2_bingo_engine.md]]
 
