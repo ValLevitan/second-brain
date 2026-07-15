@@ -3,7 +3,7 @@ type: person
 title: Jason (QA / test-automation consultant)
 date: 2025-01-15
 aliases: [Jason, Jason Welco, test automation consultant, QA consultant]
-source-count: 2
+source-count: 4
 open-commitments: 0
 open-questions: 0
 ---
@@ -29,7 +29,13 @@ See [[wiki/topics/test-automation-strategy.md]].
 - Presented (with Aaron) the end-to-end continuous-delivery picture to Val, sharing a Miro diagram he had prepared; argued the pipeline can run in several places (Bitbucket, cloud, EGM) and that JVL will want more than one target over time. See [[wiki/topics/continuous-delivery-pipeline-architecture.md]]. [[raw/continues_release_infrastructure_architecture_2025-01-21 1.md]]
 - Strongly advocated buying a real test tool (named **Tosca / SmartBear**, and a record-and-playback "WYSIWYG" wizard) so non-coding testers can author test steps, rather than relying on raw Cucumber/BDD; Val was reluctant to spend on tooling. He warned delaying testing builds up "technical debt." [[raw/continues_release_infrastructure_architecture_2025-01-21 1.md]]
 
+## Referenced on the DevOps-container session (Mar 24 2025, date inferred)
+
+- Val recounted telling Jason the next stage of the requirements work: "я когда разговаривал с Джейсоном, я сказал, на следующем этапе давайте мы возьмем самую advanced игру и reverse engineer эту игру в requirements" — take the most advanced game and reverse-engineer it into hard, "atomic binary" requirements to feed the asset-validation tool. Aaron also referenced the test-automation harness work "Jason has been talking about." See [[wiki/topics/omni-core-advancement-and-game-templating.md]]. [[raw/devops_container_approach_for_omni.md]] [[raw/devops_container_approach_for_omni_3.md]]
+
 ## Sources
 
 - [[raw/integration_and_testing_procedures_january_15_2025.md]]
 - [[raw/continues_release_infrastructure_architecture_2025-01-21 1.md]]
+- [[raw/devops_container_approach_for_omni.md]]
+- [[raw/devops_container_approach_for_omni_3.md]]

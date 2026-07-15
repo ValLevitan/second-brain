@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov]
 disambiguation: "One of TWO Pavels: Pavel Frolov (JVL Minsk → wiki/people/pavel.md, this page) and the external Ukrainian outsourcing-studio owner Pavel (wiki/people/pavel-studio-owner.md). Resolve by context; queue if unclear."
-source-count: 29
+source-count: 30
 open-commitments: 1
 open-questions: 0
 ---
@@ -78,6 +78,10 @@ Note: "Pasha" and "Sasha" are sometimes confused in the transcripts; "Pasha" map
 
 - On the Mar 21 Puerto Rico product-matrix call, Pavel owned the software side: he took the task to plan adding the **old counter-board's button key codes into the HG6 XML file** so one software supports both legacy and new panels (rather than firmware changes [[wiki/people/genadi-peari.md|Genadi]] proposed), and to work out how **Megahit on Flex** copes with physical buttons and fewer monitors. He confirmed retrofit machines and kits use the cabinet board while Flex-S uses V1000, and that all machines use an **IMG file** (not ISO). See [[wiki/topics/puerto-rico-product-configuration.md]] and [[wiki/decisions/2025-03-21-hg6-support-legacy-and-new-button-panels.md]]. [[raw/product_matrix_puerto_rico-march21-2025.md]] [[raw/requirements_puerto_rico-march-21-2025.md]]
 
+## Jira components cleanup (~Mar 19, date inferred)
+
+- On the components-objectives fragment Pavel confirmed he is — "in many cases" — the person who designs/architects **remote initial setup (RIS)**, and asked whether RIS could be treated as a Jira component (like Neighbor). Val's ruling: RIS is not a component but "an incorrect or incomplete initiative name" — really a many-featured piece of **Slot Links**, "a large initiative that we should entertain," under which the RIS elements will be redistributed. See [[wiki/meetings/2025-03-19-jira-components-cleanup.md]]. [[raw/components_objectives_for_a_follow_up_meeting.md]]
+
 ## FlexPay scope-gap discovery (Mar 27)
 
 - On the English scope-gap meeting Pavel delivered the news that broke Val's assumptions: **FlexPay cannot work standalone** with third-party machines ("FlexPay will not work in such a scenario when there are five third-party machines installed without FlexPort") — he had understood FlexPay would only ever pair with JVL machines or FlexPort-equipped ones, and **FlexPort has no SAS software implementation** ("we only have RS232 connector and that's all"). Against Val's five-day estimate for a make-do local SAS mini-server he answered "**Months. Two months. Three months**" — there is no SAS-server implementation ready to go. [[raw/flex_pay_scope_gap-mach-27-2025.md]]
@@ -127,3 +131,4 @@ Note: "Pasha" and "Sasha" are sometimes confused in the transcripts; "Pasha" map
 - [[raw/flex_pay_scope_gap-mach-27-2025.md]]
 - [[raw/scope_gap_tito_flex_pay-march-28-2025.md]]
 - [[raw/github_jira_alignment-march-31-2025.md]]
+- [[raw/components_objectives_for_a_follow_up_meeting.md]]

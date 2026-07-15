@@ -3,7 +3,7 @@ type: project
 title: JVL 2025 strategic plan and Jira roadmap
 date: 2026-07-12
 aliases: [2025 plan, strategic plan 2025, Jira value stream, distribution infrastructure, DevSecOps grooming, ITSM, GitHub Jira alignment]
-source-count: 9
+source-count: 10
 open-commitments: 1
 open-questions: 1
 ---
@@ -58,6 +58,14 @@ Two Jan 20 sessions moved the DevSecOps pillar from strategy into concrete tool 
 
 - The Feb 11 repo-structure session locked the GitHub org naming convention and the **7-organization list** (Games Production; Math & Game Mechanics; Platform; Observability Platform; Core Technology; Systems Operations; Hardware & Firmware), with Pavel and Aaron agreeing to **restructure the Jira value streams to match** the orgs. Repo migration sequenced: Omni/Miranda/FlexPay → RGS → inventory-map the rest. See [[wiki/decisions/2025-02-11-github-org-naming-and-structure.md]] and [[wiki/decisions/2025-02-11-git-migration-sequence.md]]. [[raw/Git_repo_structure_part_2_2025-02-11.md]]
 
+## Jira components cleanup (~Mar 19 2025, date inferred)
+
+Housekeeping rulings from a short components-objectives fragment (Val, [[wiki/people/pavel.md|Pavel]] and an unlabeled facilitator — stub: [[wiki/meetings/2025-03-19-jira-components-cleanup.md]]): [[raw/components_objectives_for_a_follow_up_meeting.md]]
+
+- **Archive first:** "RUDA is not a component… a good candidate to move into an archived Jira development project" once its features/stories are closed — "we're not ever going to revisit that stuff again. Not in this iteration… Maybe we'll go back to RUDA again under Omni." [[raw/components_objectives_for_a_follow_up_meeting.md]]
+- **Component naming:** review conventions (e.g. **TRDC** "might be split into something else"); remove obscure designations — an **empty component field beats a bad one**; only define components that fit the shared understanding. Real component examples named: **SAS, Neighbor, Passport**. [[raw/components_objectives_for_a_follow_up_meeting.md]]
+- **RIS → Slot Links:** "remote initial setup" is not a component but an "incorrect or incomplete initiative name" — a many-featured element of **Slot Links**, "a large initiative that we should entertain," under which RIS will be redistributed; Slot Links itself is also not a component. [[raw/components_objectives_for_a_follow_up_meeting.md]]
+
 ## GitHub-Jira level alignment debate (Mar 31)
 
 A Russian-language Mar 31 meeting (Val with Irina, Andrey, Pavel and a "Yura" — see [[wiki/meetings/2025-03-31-github-jira-alignment.md]]) took up making the GitHub and Jira hierarchies match level-for-level ("уровни были одинаково распланированы и в гитте, и в Jira"): [[raw/github_jira_alignment-march-31-2025.md]]
@@ -88,3 +96,4 @@ This debate revisits (but does not supersede) [[wiki/decisions/2025-01-20-github
 - [[raw/it_structure_minsk-jan-22-2025.md]]
 - [[raw/Git_repo_structure_part_2_2025-02-11.md]]
 - [[raw/github_jira_alignment-march-31-2025.md]]
+- [[raw/components_objectives_for_a_follow_up_meeting.md]]

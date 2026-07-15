@@ -2,8 +2,8 @@
 type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
-aliases: [test automation, testing architecture, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca]
-source-count: 3
+aliases: [test automation, testing architecture, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD]
+source-count: 4
 open-commitments: 2
 open-questions: 1
 ---
@@ -87,8 +87,24 @@ Val asked that the **math test** be the first test built, since GLI spends most 
 
 - Whether JVL's game framework and engine actually expose internal APIs that warrant contract/API testing — the consultant says they do; Val says he is unaware of any. [[raw/integration_and_testing_procedures_january_15_2025.md]]
 
+## History
+
+### The "Test 360" origin review (Fri Jul 5 2024 — date inferred; pre-dates the v1 window, Tier A-queued)
+
+The earliest captured root of this effort — a Bitbucket-era progress review between Val, [[wiki/people/aaron.md|Aaron]] and [[wiki/people/anton-leshkevich.md|Anton]] (stub with the dating evidence: [[wiki/meetings/2024-07-05-test-360-progress-review.md]]). Val coined the name on this call: "I'm deliberately going to call it, I'm adopting the name **test 360 culture**, because I think it resonates now between the three of us." [[raw/test-360_progress_review_meeting.md]]
+
+- **TDD teaching:** Aaron demonstrated test-driven development live — a **Gherkin** spec for fizzbuzz ("Gherkin is probably not a good thing, but…"), then a **JUnit** parameterized test, then ChatGPT-generated JavaScript that passes it — tests before code; example domain offered: **SAS**-protocol unit tests independent of implementation language. His claim: TDD has no real overhead because "I often write tests first… it helps you think through the issues." Anton confirmed: "We have successfully applied this approach in our **RGS** codebase" — new RGS code is expected to come covered with unit tests. [[raw/test-360_progress_review_meeting.md]]
+- **State of the old code:** the P1000 platform has no tests ("it's just a historical artifact"); the online/Omni-predecessor code grew "super controllers"; Aaron: "**single responsibility** is probably the number one thing that I'm not seeing at JBL right now" (Val logged SOLID as a subject to study). Val's own inference: "this is probably subconsciously what I understood **when I fired my CTO** — … by accepting mediocrity of agreeing not covering something with unit tests." Monolith imagery settled on "spaghetti code." [[raw/test-360_progress_review_meeting.md]]
+- **Anton's status then:** test environment set up and "approximately **9%**" of the Omni Engine code covered with unit tests, using the **Jest** framework (assertions and mocking), refactoring utility classes as he went (deleting never-executed code found via the coverage report); estimate to cover the existing code: "between **30 to 60 calendar days**." He wrote the first testing **requirements** (every merge triggers CI/CD; automated testing integrated into the pipeline; every code change linked to a ticket — Val's edit: say "ticket or work item," never codify Jira/Atlassian into a requirement) and emailed them plus Confluence docs to developers for votes/comments; he removed all old features from "test 360 for OmniFramework IP" ("**Initiative for product**") and created new unit-test/CI-CD ones. [[raw/test-360_progress_review_meeting.md]]
+- **Rules added on the call:** Aaron — a feature branch must be **time-limited** ("if you let it hang out longer than the story… it should not be valid to bring back in… you are in jeopardy of damaging everybody else's efforts"); Val asked for a dashboard of branch ages (Bitbucket can show it). [[raw/test-360_progress_review_meeting.md]]
+- **Plan around Alexander:** [[wiki/people/alexander-biratka.md|Alexander Biratka]] "won't be available until August" for Omni; Val's target — by mid-August, 100% of the existing Omni code covered at the 80% rate and reviewed/refactored by Anton **in collaboration with Alex Biratka** (Anton consults him before refactoring non-obvious code), so that when Alexander returns to advancing OmniFramework, Anton grooms alongside and starts writing the actual Test-360 modules. Aaron's poker-card estimate: real code coverage "will take **more than a year**." [[raw/test-360_progress_review_meeting.md]]
+- **Measurement & scope questions Aaron posed:** define what "coverage" even means (function coverage of unit tests vs test coverage of requirements — or both), per-language tooling differences, and scope = **OmniFramework first** ("it should turn into the exemplary piece of code"); the old code base probably out of scope. Tooling: Aaron showed **SonarQube** (commercial code-introspection platform, "adopted by industry leaders"); Val wanted to "spec it as a tool of choice"; Aaron resisted premature adoption ("the organization isn't configured to even receive it yet" — same fate as his earlier OpenAPI suggestion). [[raw/test-360_progress_review_meeting.md]]
+- **People risk:** Val worried [[wiki/people/irina-makarych.md|Irina]] must rule the process "with an iron fist"; his read — she will **adopt** what Alexander and Anton establish without opining, and nobody will challenge it "especially if we're going to get Yefim on site." Aaron's worry was understanding ("can we make sure that people understand why we do it this way"), not compliance. (Aaron's reading gift: **howtodeal.dev** — "12 types of underappreciated software developers.") [[raw/test-360_progress_review_meeting.md]]
+- Next step then: Anton to draw the block architectural diagram of the flow (Bitbucket, IDEs, unit tests, plug-in modules like SonarQube) "today," review booked for the following Wednesday (the 10th) at 8 a.m. Eastern, one hour — Val: cap these reviews at ~an hour ("it's a little bit overwhelming for me to sit through these meetings for two hours"). (Outcomes of these 2024 commitments aren't visible in later sources; they are superseded by the Jan-2025 arc above, so recorded here rather than as open checkboxes.) [[raw/test-360_progress_review_meeting.md]]
+
 ## Sources
 
 - [[raw/integration_and_testing_procedures_january_15_2025.md]]
 - [[raw/test_automation_philosophy-jan-20-2025.md]]
 - [[raw/continues_release_infrastructure_architecture_2025-01-21 1.md]]
+- [[raw/test-360_progress_review_meeting.md]]

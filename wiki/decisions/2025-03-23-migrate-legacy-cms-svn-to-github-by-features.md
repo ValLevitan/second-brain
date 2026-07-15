@@ -4,7 +4,7 @@ title: Migrate the legacy CMS from SVN to GitHub, organized by feature
 date: 2025-03-23
 aliases: [CMS migration, CMS to GitHub, CMS SVN to Git, Protohost migration, understanding CMS repo]
 status: active
-source-count: 1
+source-count: 2
 ---
 
 # Migrate the legacy CMS from SVN to GitHub, organized by feature
@@ -28,6 +28,11 @@ source-count: 1
 
 Related requirements/persona critique on the same call: [[wiki/topics/persona-driven-design-and-orchestration-platform.md]]. Meeting stub: [[wiki/meetings/2025-03-23-cms-persona-requirements.md]].
 
+## Follow-up (~Mar 25 2025, date inferred)
+
+- Two days on, Val walked Chudinov/Tsymanov through the concrete review workflow for the AI-generated overview/use-cases/requirements now in the GitHub "Observability Platform" org (pull-requests-only corrections, ~80% good-enough bar, requirements→features→code→actions→deploy→**conserve**), ruled progressive/розыгрыш in scope and the org name unchanged, and held the line against Dima's adapt-don't-rebuild pushback. Details on [[wiki/topics/persona-driven-design-and-orchestration-platform.md]]; stub [[wiki/meetings/2025-03-25-cms-requirements-review-workflow.md]]. [[raw/cms_requirements_development-dzima-sergei-andrei.md]]
+
 ## Sources
 
 - [[raw/cms_persona_requirements-march-23-2025.md]]
+- [[raw/cms_requirements_development-dzima-sergei-andrei.md]]

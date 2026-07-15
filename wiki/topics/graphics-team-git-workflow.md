@@ -3,7 +3,7 @@ type: topic
 title: Graphics team Git workflow (PR discipline, CI tickets, deploy pipeline)
 date: 2025-03-12
 aliases: [designer git workflow, graphics PR discipline, pull request discipline, contact sheet action, assets deploy pipeline, fork from template, help desk CI tickets, performative pull request, pull request back to template, template per game type]
-source-count: 4
+source-count: 5
 ---
 
 # Graphics team Git workflow (PR discipline, CI tickets, deploy pipeline)
@@ -58,6 +58,15 @@ A follow-up "GitHub commits" check-in where [[wiki/people/andrey-bosik.md|Andrei
 
 In the Val–Gottlieb one-on-one (same day as the template check-in above), Val stated the review flow itself is changing: "as of this moment, we already experimenting with **not putting it into Jira**, because Jira has multiple reiterations. We want to have only one asset… and an account of this evolution" — moved into **GitHub**, where each person works in a local **sandbox** and pushes when ready, so reviewers see the final with a **"differential evolution"** (rollback shows what changed — "purple was changed to green"). Val's claims for it: educational replay for young designers ("these are the errors that you're making"), and instant **scale-up/scale-down** of outside hires with no learning curve. He added that Jira/GitHub can now be driven by a **human-language interface** ("we don't even need to know GitHub") and predicted JVL can eventually "push away from Jira." Gottlieb noted the team had put everything **into** Jira under Val's own earlier direction — recorded as evolution of that instruction, not a contradiction. See [[wiki/meetings/2025-03-26-gottlieb-val-one-on-one.md]]. [[raw/michael_gottlieb_val_meeting-26-2025.md]]
 
+## Designer asset validation — the "resource validation tool" (Mar 24 2025, date inferred)
+
+On the DevOps-container session ([[wiki/meetings/2025-03-24-devops-container-approach-omni.md]]), the designer flow was re-drawn for the Omni era — artist exports a scene, inserts it into the game repo with a JVL tool, validates **locally**, commits to a short-lived feature branch, CI/CD builds and deploys for a browser check: [[raw/devops_container_approach_for_omni.md]]
+
+- The proposed "**JVL Resource Management**" tool was cut down by Val to a "**resource validation tool**" — a yes/no validator ("да-нет, да-нет") the designer runs on their own machine (catching, e.g., a missing balance field that would crash the game) instead of waiting for a pipeline email; it can start as a command-line tool. [[raw/devops_container_approach_for_omni.md]]
+- [[wiki/people/alexander-biratka.md|Alexander]] already built a **browser previewer** on OmniFramework ("создано как отдельная игра, просто она работает как превьюшка") — view/scale/toggle an exported scene; already pushed to a repository. Visual preview also catches Unity→Pixi exporter breakage that structural validation misses ("структурная сцена правильная, но визуально… она сломана"). [[raw/devops_container_approach_for_omni.md]]
+- Gaps named: **sounds are never validated** today (check IDs, maybe lengths); land-based updates also require **XML config edits** — "то, чем сейчас Ира занимается, Макарыч" ([[wiki/people/irina-makarych.md|Irina Makarych]]) — with no written spec of the file organization. Val's fix: reverse-engineer the most advanced game into "atomic binary requirements" the validator enforces. [[raw/devops_container_approach_for_omni.md]]
+- Whether merges of designer assets need formal **approval by Lena or Michael** (vs review) was debated and left unresolved — Aaron: require it and "they will freak out… it's too much responsibility and it will halt our creative process"; don't, and "they'll do whatever they want." [[raw/devops_container_approach_for_omni.md]]
+
 ## History — the Feb 7 origin of the problem
 
 Before any of the above existed, Val framed the need on the Feb 7 homework session: "I don't understand how to guide our graphic designers. I need to tell them okay look put your art in here… none of them is capable of doing it and trying to engage them… is the exercise of futility… we just need to tell them that just put your stuff in here… so in order to tell them put your stuff in here we have to create those repositories." See [[wiki/meetings/2025-02-07-github-homework-and-bitbucket-transfer.md]]. [[raw/GitHub repository structure.md]]
@@ -68,3 +77,4 @@ Before any of the above existed, Val framed the need on the Feb 7 homework sessi
 - [[raw/GitHub_for_Graphic_Design_evolution_2025-03-12.md]]
 - [[raw/github_commits-march-26-2025.md]]
 - [[raw/michael_gottlieb_val_meeting-26-2025.md]]
+- [[raw/devops_container_approach_for_omni.md]]

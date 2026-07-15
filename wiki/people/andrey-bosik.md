@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre]
 disambiguation: "JVL DevOps manager. Distinct from Andrei Klimovich (online-games commercial lead) and from Andrew Khandov (C# Miranda developer). Owner-confirmed 2026-07-13. Canonical first name 'Andrey'."
-source-count: 27
+source-count: 28
 open-commitments: 5
 ---
 
@@ -71,6 +71,10 @@ His surname is given as **Bosik** on the Feb 12 GitHub check-in (WEBVTT). (Disti
 
 - Val invited "Andre" (Bosik) to the CMS-persona meeting to help and to **translate**, and asked him to **rename the Git repo** from "understandings"/"понятия CMS" to **"CMS"** — which he actioned. See [[wiki/decisions/2025-03-23-migrate-legacy-cms-svn-to-github-by-features.md]]. [[raw/cms_persona_requirements-march-23-2025.md]]
 
+## CMS requirements-review follow-up (~Mar 25, date inferred)
+
+- The "Andrei" on the CMS review-workflow session (see [[wiki/meetings/2025-03-25-cms-requirements-review-workflow.md]]; GitHub-org context → Bosik, inference): Val asked him specifically to review the AI-written requirements ("Если я могу попросить вас, Андрей, пожалуйста"); he asked whether the **"Observability Platform"** org should be renamed to "Orchestration" (Val: two systems in future, leave it for now — it holds live projects, transcribed "PortoServer, PortoHost") and whether he should create a "JVL Legacy CMS" org; he tried to raise the **RGS→GitHub** move "discussed last week" and Val took it offline to keep the meeting single-subject. [[raw/cms_requirements_development-dzima-sergei-andrei.md]]
+
 ## GitHub commits — template demo (Mar 26)
 
 - Andrei **demoed the working template repository** (one-button instancing; predefined Actions for contact sheets, sprites, and PR migration/update). Val pushed him and the team to build a **pull-request-back-to-template** loop (fork the template → incorporate a project's improvements → PR back) so templates don't go stale, and — with [[wiki/people/lena.md|Lena]] — flagged future **per-game-type templates** (Georgia/Omnia, Persistence, classical). This continues his generic-template commitment below. See [[wiki/topics/graphics-team-git-workflow.md]]. [[raw/github_commits-march-26-2025.md]]
@@ -119,3 +123,4 @@ His surname is given as **Bosik** on the Feb 12 GitHub check-in (WEBVTT). (Disti
 - [[raw/github_jira_alignment-march-31-2025.md]]
 - [[raw/rgs_git_migration-march-31-2025.md]]
 - [[raw/vector_meeting_db-march-31-2025.md]]
+- [[raw/cms_requirements_development-dzima-sergei-andrei.md]]

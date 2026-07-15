@@ -3,7 +3,8 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie]
-source-count: 34
+source-count: 38
+open-commitments: 1
 ---
 
 # Aaron
@@ -98,8 +99,21 @@ His surname is given as **Bockelie** on the Jan 21 continuous-delivery transcrip
 - **Vector-DB / Open Semantic Search session:** walked Val through where Open WebUI stores his vectorized transcripts, the internal-vs-Pinecone/Chroma trade-off, semantic search and diarization limits, and attempted an Open Semantic Search (Apache Solr) install via Cline — unfinished (Solr 503). See [[wiki/topics/transcript-knowledge-base-tooling.md]] and [[wiki/meetings/2025-03-31-vector-db-second-brain-session.md]]. [[raw/vector_meeting_db-march-31-2025.md]]
 - **Consulting-spend calculus:** showed Val his own AI usage — "I spent $1,300 over the last four months on my account"; "A lot of what you're paying me, I'm turning back into this to make sure that I can do things correctly and faster... I can do it real slow by myself, by hand, or we can do it really fast." He recommended JVL issue **separate API keys per developer** to measure adoption, and delivered the farmer/combine and dark-forest adoption arguments — see [[wiki/topics/ai-assisted-development.md]]. [[raw/vector_meeting_db-march-31-2025.md]]
 
+## DevOps container approach for Omni (Mar 24–25, dates inferred)
+
+- Led the two-day Miro design of the Omni-era repository/versioning/pipeline structure — the "printing press for games" model, the no-commits-to-main rule, the core-advancement manifest-of-tags concept, and (with Val) the frozen-capabilities golden rule; opened by demoing an AI that wrote and tested a small game for him in ~20 minutes ("It's the fact that I didn't code it… I'm not really a software developer"). He also disclosed he contributes to the **Open Web UI** open-source project — mostly by writing tests. See [[wiki/topics/omni-core-advancement-and-game-templating.md]] and [[wiki/decisions/2025-03-24-freeze-core-capabilities-before-game-production.md]]. [[raw/devops_container_approach_for_omni.md]] [[raw/devops_container_approach_for_omni_3.md]]
+
+## InfoSec evening call (~Mar 19, date inferred)
+
+- Coached Val on secrets-management platform selection and the DevSecOps framing ("DevOps is actually DevSecOps"), and offered his InfoSec network: **John Luke Peck**, Deputy CISO at **Critical Insight** (Aaron's former boss at a nuclear-engineering company) — Aaron pushed for an official Critical Insight engagement with himself staying as independent advisor. See [[wiki/topics/infosec-and-server-infrastructure.md]]. [[raw/info_security_server_infrastructure.md]]
+
+## Open commitments
+
+- [ ] Aaron — introduce Val to John Luke Peck / Critical Insight and schedule the call — due unspecified — [[raw/info_security_server_infrastructure.md]]
+
 ## History — 2024 and earlier (sources staged 2025-03-29)
 
+- **Test-360 progress review (Fri Jul 5 2024, date inferred; pre-window, queued):** taught Val and Anton TDD (Gherkin/JUnit fizzbuzz via ChatGPT), pushed branch time-limits, coverage-metric definitions, OmniFramework-first scope, and showed SonarQube while resisting premature tool adoption; estimated real code coverage "more than a year." The session where Val coined "test 360 culture." See [[wiki/topics/test-automation-strategy.md]] (History). [[raw/test-360_progress_review_meeting.md]]
 - **JVL Insights (~2023–24):** Aaron's earliest recorded JVL engagement — named **"Aaron Bockelie (Atlassian Specialist) - Consultant"** in the JVL Insights knowledge-base proposal, scoped to integrate it with JIRA/Confluence, set up project-tracking/documentation workflows, and train the team on Atlassian tools. See [[wiki/projects/jvl-insights-knowledge-base.md]]. (Compensation figures in the source withheld, §15.8.) [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
 - **SQL/OLAP visualization architecture (~2024, likely Q4):** on the broader architecture session he proposed the low-hardware alternative to Pavel's SAS-host designs — commodity serial→Ethernet converters plus a **container host with virtual serial-adapter drivers**, cloud-deployable, "turn everything into casino as a service" — and pressed the team on SAS's acknowledgement/retry robustness. See [[wiki/topics/olap-power-bi-architecture.md]] and [[wiki/meetings/2024-sql-olap-visualization-architecture-2.md]]. [[raw/architecture_sql_olap_visualization_2_2025-03-29.md]]
 
@@ -139,3 +153,7 @@ His surname is given as **Bockelie** on the Jan 21 continuous-delivery transcrip
 - [[raw/aaron_visualization_making_use_of_knowledge-march-28-2025.md]]
 - [[raw/rgs_git_migration-march-31-2025.md]]
 - [[raw/vector_meeting_db-march-31-2025.md]]
+- [[raw/devops_container_approach_for_omni.md]]
+- [[raw/devops_container_approach_for_omni_3.md]]
+- [[raw/info_security_server_infrastructure.md]]
+- [[raw/test-360_progress_review_meeting.md]]

@@ -4,8 +4,8 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dima]
 disambiguation: "Back-end architect / Java developer. Owner-confirmed 2026-07-13. Belarusian spelling Dzmitry Dudzinau = same person. Distinct from Dmitri Kovalchuk (IT), Dmitriy Khandov (Senior 3D Graphic Designer), and Andrey/Andrew Khandov (Miranda dev). Resolve 'Dima' by context: backend/Java/server-architecture → Chudinov."
-source-count: 8
-open-commitments: 2
+source-count: 9
+open-commitments: 3
 open-questions: 0
 ---
 
@@ -35,6 +35,15 @@ A Russian one-on-one with Val (see [[wiki/meetings/2025-03-19-back-office-archit
 
 *(Note: by Mar 23 a "CMS legacy block diagram" whiteboard by Dima existed — see [[wiki/decisions/2025-03-23-migrate-legacy-cms-svn-to-github-by-features.md]] — which may be this deliverable or part of it; the sources don't connect them explicitly, so the commitment below stays open.)*
 
+## CMS requirements-review follow-up (~Mar 25 2025, date inferred)
+
+On the Russian follow-up ([[wiki/meetings/2025-03-25-cms-requirements-review-workflow.md]]) the "Dima" is the legacy-CMS co-owner (backend context → Chudinov): [[raw/cms_requirements_development-dzima-sergei-andrei.md]]
+
+- He is one of the **two people the legacy CMS rests on** — Val: everything "держится на честном слове" between him and Sergey; "Если сегодня вас, Дима, нет, и я даже не знаю, что с этим делать." [[raw/cms_requirements_development-dzima-sergei-andrei.md]]
+- **Pushed back on the rebuild path:** adapting the current CMS to new requirements would be "гораздо быстрее" than a new separate system; asked what happens if Omni ships first and they become incompatible; noted his honesty angle ("Если бы я был плохим разработчиком, конечно, мне выгоднее 10 лет что-то делать"). Val disagreed "в корне" — see [[wiki/topics/persona-driven-design-and-orchestration-platform.md]]. [[raw/cms_requirements_development-dzima-sergei-andrei.md]]
+- Scope points he raised, ruled in-platform by Val: **прогрессив и розыгрыш** are part of the CMS platform; some long-unused functionality (e.g. **Italy**) can be dropped in the move. [[raw/cms_requirements_development-dzima-sergei-andrei.md]]
+- Committed (with Sergey) to re-review the AI-generated overview/use cases/requirements and add the missing **таксоны** (taxonomies) by the booked Thursday meeting. [[raw/cms_requirements_development-dzima-sergei-andrei.md]]
+
 **Distinct people (do not merge), all sometimes called "Dima":** [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] (IT), [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]] (Senior 3D Graphic Designer), and [[wiki/people/andrew-khandov.md|Andrey/Andrew Khandov]] (Miranda developer). Resolve every bare "Dima" by context, never by name alone.
 
 ## History
@@ -45,6 +54,7 @@ A Russian one-on-one with Val (see [[wiki/meetings/2025-03-19-back-office-archit
 
 - [ ] Dima Chudinov — send Eugine the minimal list of **SAS commands** to implement first for the TITO/SAS-server work — due unspecified — [[raw/scope_gap_tito_flex_pay-march-28-2025.md]]
 - [ ] Dima Chudinov — assemble and properly format the back-office architecture schemas (as-is + future) for the Thursday 8 am architecture meeting — due "a couple of days… maybe end of next week" — [[raw/back_office_next_step_forward_dzima_chudinov.md]]
+- [ ] Dima Chudinov (with Sergey Tsymanov) — re-review the AI-generated CMS overview/use cases/requirements and add the missing taxonomies — due by the booked Thursday meeting (~Mar 27, inferred) — [[raw/cms_requirements_development-dzima-sergei-andrei.md]]
 
 ## Sources
 
@@ -56,3 +66,4 @@ A Russian one-on-one with Val (see [[wiki/meetings/2025-03-19-back-office-archit
 - [[raw/back_office_next_step_forward_dzima_chudinov.md]]
 - [[raw/flex_pay_scope_gap-mach-27-2025.md]]
 - [[raw/scope_gap_tito_flex_pay-march-28-2025.md]]
+- [[raw/cms_requirements_development-dzima-sergei-andrei.md]]

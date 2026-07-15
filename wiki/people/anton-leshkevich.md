@@ -2,10 +2,10 @@
 type: person
 title: Anton Leshkevich
 date: 2025-01-21
-aliases: [Anton Leshkevich, Anton]
+aliases: [Anton Leshkevich, Anton, Antoine]
 disambiguation: "One of THREE distinct Antons. Anton Leshkevich = Minsk engineer (Omni/RGS, this page). Distinct from Anton Seregin (Minsk payroll, wiki/people/anton-seregin.md) and the SMM/Meta-ads contractor (wiki/people/anton-smm.md). Owner-confirmed 2026-07-13. Resolve 'Anton' by context; queue if unclear."
-source-count: 4
-open-commitments: 0
+source-count: 7
+open-commitments: 1
 open-questions: 0
 ---
 
@@ -24,8 +24,17 @@ Anton Leshkevich is a JVL Minsk engineer. He knows the Omni framework and RGS co
 
 - **Closest person to Efim's math (late Jan–early Feb):** on the docs-in-Git session Val named him the nearest thing to redundancy on the company's most guarded asset — "I think the closest person right now is Anton Leshkevich" (to [[wiki/people/efim-podvoiski.md|Efim]]'s math work); Aaron's takeaway: then at least one other person can review what Efim commits. See [[wiki/meetings/2025-02-01-docs-in-git-vs-confluence.md]]. [[raw/the_importance_of_storing_artifacts_in_git.md]]
 
+## DevOps container approach for Omni (Mar 24–25 2025, dates inferred)
+
+- On the two-day Miro session he presented the artist-files pipeline, translated between Aaron and Alexander, and supplied the key technical corrections: the framework is a Git repository used as a **submodule** — no release artifact — with **git tags** on master marking versions ("this is framework version 1.2.3"); breaking API changes flow dev-branch→master as the de-facto release. He recalled splitting Omni into repositories with submodules/branches/tags ("я поэтому в Omni пытался разбить на репозитории") and that Omni's current game work (he names "Dragon's Array") links everything into the game directly — no template exists yet. His one-button goal: an ISO image from a manifest of repos+tags, in small per-product iterations. He raised sound-asset validation and designers' Git-friction; took the action to name the pipelines/repos on the board. See [[wiki/topics/omni-core-advancement-and-game-templating.md]]. [[raw/devops_container_approach_for_omni.md]] [[raw/devops_container_approach_for_omni_3.md]]
+
+## Open commitments
+
+- [ ] Anton — name the pipelines/repos on the Miro board ("these become repos that we can actually point our finger on") — due unspecified — [[raw/devops_container_approach_for_omni.md]]
+
 ## History
 
+- **Test-360 progress review (Fri Jul 5 2024, date inferred; pre-window, queued):** owned the first unit-test push on the Omni framework — test environment set up, ~**9%** of the Omni Engine covered using **Jest**, light refactoring (deleting never-executed code found via coverage reports; consulting Alexander Biratka before non-obvious refactors); wrote the first testing requirements (CI/CD on every merge, automated testing in the pipeline, every change linked to a ticket) and emailed them plus Confluence docs to developers for votes; estimated 30–60 calendar days to cover the existing code. He confirmed the RGS codebase already ran the commit-triggered unit-test approach, and that P1000 has no tests ("a historical artifact"). Transcribed once as "Antoine." See [[wiki/topics/test-automation-strategy.md]] (History). [[raw/test-360_progress_review_meeting.md]]
 - **JVL Insights (~2023–24):** named **"Anton Leshkevich (Sr. Programmer) - Consultant"** in the JVL Insights knowledge-base proposal — to develop/integrate AI algorithms in **Python**, build front-ends in **JavaScript**, and ensure compatibility with existing **Java** applications. (Note the draft labels him a consultant; 2025 sources treat him as a JVL Minsk engineer — both recorded.) Compensation figures withheld (§15.8). See [[wiki/projects/jvl-insights-knowledge-base.md]]. [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
 
 ## Sources
@@ -34,3 +43,6 @@ Anton Leshkevich is a JVL Minsk engineer. He knows the Omni framework and RGS co
 - [[raw/ai-assisted_development_with_vs_code_git_and_mcp_january_14_2025.md]]
 - [[raw/continues_release_infrastructure_architecture_2025-01-21 1.md]]
 - [[raw/the_importance_of_storing_artifacts_in_git.md]]
+- [[raw/devops_container_approach_for_omni.md]]
+- [[raw/devops_container_approach_for_omni_3.md]]
+- [[raw/test-360_progress_review_meeting.md]]

@@ -3,7 +3,7 @@ type: person
 title: Irina Makarych
 date: 2025-01-15
 aliases: [Irina Makarych, Irina, Irina Makarich]
-source-count: 7
+source-count: 9
 open-commitments: 0
 open-questions: 0
 ---
@@ -39,6 +39,14 @@ See [[wiki/topics/build-pipeline-parameterization.md]] and [[wiki/topics/test-au
 
 - An "Ирина" attended the Mar 31 Russian-language meeting on aligning GitHub and Jira hierarchy levels (with Val, Andrey, Pavel and an unresolved "Yura") — resolved here by context (the only known Irina in JVL Minsk engineering planning; inference). See [[wiki/meetings/2025-03-31-github-jira-alignment.md]]. [[raw/github_jira_alignment-march-31-2025.md]]
 
+## Land-based resource/XML updates (mentioned Mar 24, date inferred)
+
+- On the DevOps-container session the team noted land-based resource updates are not just file swaps — XML configs must be edited, "то, чем сейчас Ира занимается, Макарыч" ("what Ira Makarych does now"), with no written spec of how the files are organized. See [[wiki/topics/omni-core-advancement-and-game-templating.md]]. [[raw/devops_container_approach_for_omni.md]]
+
+## History
+
+- **Jul 2024 (date inferred; pre-window source):** on the Test-360 review Val named Irina as the person who would have to enforce the test process "with an iron fist," predicting she "will adapt a binary decision that we make without really opining on it" once Alexander and Anton set the rule. [[raw/test-360_progress_review_meeting.md]]
+
 ## Sources
 
 - [[raw/integration_and_testing_procedures_january_15_2025.md]]
@@ -48,3 +56,5 @@ See [[wiki/topics/build-pipeline-parameterization.md]] and [[wiki/topics/test-au
 - [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 - [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
 - [[raw/github_jira_alignment-march-31-2025.md]]
+- [[raw/devops_container_approach_for_omni.md]]
+- [[raw/test-360_progress_review_meeting.md]]
