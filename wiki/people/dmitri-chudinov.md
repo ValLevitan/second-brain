@@ -4,7 +4,7 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dima]
 disambiguation: "Back-end architect / Java developer. Owner-confirmed 2026-07-13. Belarusian spelling Dzmitry Dudzinau = same person. Distinct from Dmitri Kovalchuk (IT), Dmitriy Khandov (Senior 3D Graphic Designer), and Andrey/Andrew Khandov (Miranda dev). Resolve 'Dima' by context: backend/Java/server-architecture → Chudinov."
-source-count: 13
+source-count: 14
 open-commitments: 3
 open-questions: 0
 ---
@@ -65,6 +65,10 @@ On the Russian follow-up ([[wiki/meetings/2025-03-25-cms-requirements-review-wor
 
 - [x] Dima Chudinov — send Eugine the minimal list of **SAS commands** to implement first for the TITO/SAS-server work — **evidenced delivered by Apr 1** (Alekseev had studied "документы, которые Дмитрий приготовил"). [[raw/scope_gap_tito_flex_pay-march-28-2025.md]] [[raw/flex-port_pay_dev_update-april-1-2025.md]]
 
+## RIS software-licensing enforcement (Apr 3)
+
+On the RIS ↔ Business Central licensing meeting ([[wiki/meetings/2025-04-03-ris-business-central-licensing.md]]) the transcript names "Дима" as the backend owner of the **RIS-manager** side of license enforcement; Val named the two responsible parties as **Lev Rudky** (Business Central export) and **Dima Chudinov** (RIS side). Backend/architecture context resolves this Dima to Chudinov. See [[wiki/decisions/2025-04-03-license-software-per-operator-not-machine.md]]. [[raw/ris_business_central_integration-april-3-2025.md]]
+
 ## CMS migration verdict + manifests priority (Apr 14–15)
 
 - Led the developer side of the Apr 14–15 CMS sessions ([[wiki/meetings/2025-04-14-cms-svn-github-product-repos.md]], [[wiki/meetings/2025-04-15-cms-migration-staged-decision.md]]): argued that splitting the legacy monolith across repos "будут очень болезненные процессы, очень долгие … мы можем упереться во многие проблемы и просто застрять," that the CMS is really ~10 modules plus a big Core and a **monolithic database** best not split, and proposed migrating **as-is** — the position that became the team verdict behind [[wiki/decisions/2025-04-15-cms-staged-migration-plan.md]]. Scope he listed: ~15 SVN repositories. [[raw/cms_svn_github-april-14-2025.md]] [[raw/cms_github_svn-apr-15-2025.md]]
@@ -85,3 +89,4 @@ On the Russian follow-up ([[wiki/meetings/2025-03-25-cms-requirements-review-wor
 - [[raw/flex_pay_tito_smib_port-april7-2025.md]]
 - [[raw/cms_svn_github-april-14-2025.md]]
 - [[raw/cms_github_svn-apr-15-2025.md]]
+- [[raw/ris_business_central_integration-april-3-2025.md]]

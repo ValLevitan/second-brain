@@ -3,7 +3,7 @@ type: person
 title: Irina Makarych
 date: 2025-01-15
 aliases: [Irina Makarych, Irina, Irina Makarich]
-source-count: 12
+source-count: 13
 open-commitments: 0
 open-questions: 0
 ---
@@ -55,6 +55,10 @@ See [[wiki/topics/build-pipeline-parameterization.md]] and [[wiki/topics/test-au
 
 In the Omni daily, when Val announced JVL will replace manual testers with **Test Engineers**, Irina confirmed she already has "3-4" (then "пять") new people ready to bring in "даже завтра." She is to co-run the Friday 6:30 am QA integration-test training kickoff with Anton and Pavel. [[raw/daily_omni_progress-april-16-2025 (Val Levitan's conflicted copy).md]] See [[wiki/decisions/2025-04-16-replace-testers-with-test-engineers.md]].
 
+## RIS ↔ Business Central licensing meeting (Apr 3, "Ira" by context — inference)
+
+- An "Ira" took part in the Russian RIS-licensing meeting ([[wiki/meetings/2025-04-03-ris-business-central-licensing.md]]), raising the machine-transfer / flash-copy / licence-count questions. Resolved to Irina Makarych by context (her established machine-XML/RIS-setup role); labeled inference, not asserted. See [[wiki/decisions/2025-04-03-license-software-per-operator-not-machine.md]]. [[raw/ris_business_central_integration-april-3-2025.md]]
+
 ## Sources
 
 - [[raw/integration_and_testing_procedures_january_15_2025.md]]
@@ -69,3 +73,4 @@ In the Omni daily, when Val announced JVL will replace manual testers with **Tes
 - [[raw/cms_github_svn-apr-15-2025.md]]
 - [[raw/daily_omni_progress-apr-15-2025.md]]
 - [[raw/daily_omni_progress-april-16-2025 (Val Levitan's conflicted copy).md]]
+- [[raw/ris_business_central_integration-april-3-2025.md]]

@@ -3,7 +3,7 @@ type: person
 title: Sebastian
 date: 2025-02-19
 aliases: [Sebastian]
-source-count: 2
+source-count: 3
 ---
 
 # Sebastian
@@ -20,7 +20,10 @@ The transcript does not give Sebastian's last name.
 
 - **≈Mar 22 2025:** Val cited "Sebastian, the technician that's coming in" as his salary benchmark while sizing Julian Puerta's planned US employment (figures held §15.8) — indicating Sebastian was being brought in/employed by JVL US around this time (same Sebastian by context: Colombian JVL technician in the US; recorded as an inference). [[raw/meeting_with_julian_puerta_texas_eds.md]]
 
+- **Apr 3 2025 — SD printer troubleshooting:** on the Epic-printer call ([[wiki/meetings/2025-04-03-sd-printer-and-mh1-settings.md]]) Sebastian was "on the phone" with Lonnie troubleshooting an **Epic 950** that wouldn't power up in the South Dakota lab (the other units worked). See [[wiki/projects/south-dakota-vlt-market.md]]. [[raw/tech_and_settings_issues-juan_martinez-april-3-2025.md]]
+
 ## Sources
 
 - [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 - [[raw/meeting_with_julian_puerta_texas_eds.md]]
+- [[raw/tech_and_settings_issues-juan_martinez-april-3-2025.md]]

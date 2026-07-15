@@ -3,7 +3,7 @@ type: organization
 title: Incom (payment processor)
 date: 2025-02-27
 aliases: [Incom, InComm, Incomm, Income, Incom Payments]
-source-count: 9
+source-count: 11
 open-commitments: 3
 open-questions: 2
 ---
@@ -21,7 +21,9 @@ The onboarding kickoff between JVL and Incom. [[raw/incomm_commissioning_plan_fe
 ### Incom-side people (roster — external contacts, no individual pages)
 - **Alan** — technical/API contact; provides the test PAN numbers and the UPC needed for the balance-check test, and can reset test cards. [[raw/incomm_commissioning_plan_february-27-2025.md]]
 - **Paul** — attended; took questions on card usage. [[raw/incomm_commissioning_plan_february-27-2025.md]]
-- **John** — facilitated/introduced the call. [[raw/incomm_commissioning_plan_february-27-2025.md]]
+- **John** — facilitated/introduced the call; surname **Houseal** given on the Apr-3 COAM payment-options recording (the InComm lead who walks through the gift-card solutions). [[raw/incomm_commissioning_plan_february-27-2025.md]] [[raw/incomm_transcript_gacoam_payment_options-april-4-2025.md]]
+- **Allen Lee** — the InComm "Alan" (technical/API contact); started/hosted the Teams transcription on the Apr-3 payment-options call; likely = the "Alan" of the Feb-27 and Mar-19 calls (same first name, InComm technical role — inference). [[raw/incomm_transcript_gacoam_payment_options-april-4-2025.md]]
+- **Jared** — InComm-side; owns the security stance on the barcode balance-check (agreed to a PIN-based approach). [[raw/incomm_transcript_gacoam_payment_options-april-4-2025.md]]
 - **Adam** — Atlanta-based; holds the compliance detail — the standard consumer-facing **language/terms** the kiosk must display — and will review JVL's consumer-experience demo (in person at JVL's shop or by video). [[raw/incomm_commissioning_plan_february-27-2025.md]]
 - **Billy** — receives the merchant setup form from JVL and works with Incom's contract admin to assign JVL a unique merchant ID. [[raw/incomm_commissioning_plan_february-27-2025.md]]
 - **Susanne** — handed Alan the sample card on the Mar 19 user-cases call (role not stated). [[raw/incomm_flex-pay_user_cases.md]]
@@ -54,15 +56,25 @@ Alan took the JVL team step-by-step through issuing a prepaid card from the kios
 
 - Val reported: **all contractual agreements with Incom are signed**; the additional information Incom requested was supplied by **Monika** (see [[wiki/people/monica.md]]); "any day they will approve us as a vendor and will open the connection for testing." The planned beta (3–5 free-of-charge operator locations) runs connected to Incom in both regimes (QR-code/FlexPort and TITO). See [[wiki/meetings/2025-03-27-flexpay-scope-gap-discovery.md]]. [[raw/flex_pay_scope_gap-mach-27-2025.md]]
 
-## Apr 7 2025 — COAM gift-card solution meeting (John)
+## COAM gift-card solution meeting — "JVL Payment Options" (John Houseal)
 
-The market/solution meeting Val committed to on the Apr 2 SMIB call — owner Val, "Timeline: Today, tomorrow, or Monday," purpose "Discuss market dynamics and understand operator strategies" [[raw/SMIB_FlexPay_Action_Items_April_2_2025.md]] — held Monday Apr 7 (see [[wiki/meetings/2025-04-07-incomm-coam-gift-card-solutions.md]]). **John** (the Incom side — consistent with the John on the Feb 27 roster above) and Val worked the merchant problem that **gift cards can't be used to play at COAM machines**, so merchants fear losing in-store spend (feedback "from multiple operators"; use case: a $100 win loaded onto a MasterCard can't fund further COAM play). [[raw/2025-04-07-COAM_gift_card_solution_incomm_notes.md]]
+The market/solution meeting Val committed to on the Apr 2 SMIB call — owner Val, "Timeline: Today, tomorrow, or Monday," purpose "Discuss market dynamics and understand operator strategies" [[raw/SMIB_FlexPay_Action_Items_April_2_2025.md]]. The substance was first captured from a derived notes document (see [[wiki/meetings/2025-04-07-incomm-coam-gift-card-solutions.md]]); the **actual Teams recording** ("JVL Payment Options," ~36 min, **John Houseal** / **Allen Lee** InComm-side, with Val and Juan) is a fuller, speaker-labelled transcript of the same meeting and confirms every point below plus the detail in the next subsection. **Date discrepancy (see Open contradictions):** the recording header dates the meeting **April 3, 2025, 5:42 PM**, while the derived notes are headed **April 7** — recorded, not resolved. **John Houseal** (the Incom lead) and Val worked the merchant problem that **gift cards can't be used to play at COAM machines**, so merchants fear losing in-store spend (feedback "from multiple operators"; use case: a $100 win loaded onto a MasterCard can't fund further COAM play). [[raw/2025-04-07-COAM_gift_card_solution_incomm_notes.md]] [[raw/incomm_transcript_gacoam_payment_options-april-4-2025.md]]
 
 - **Three solution options (John):** (1) player asks the **clerk to swipe the card for cash** (no system changes); (2) contract a **merchant acquirer** to put card readers on kiosks/machines — rejected as unattractive: **$50–$200/month maintenance + 3% transaction fee** (a $100 transfer nets the merchant $97); (3) **barcode on the card** processed **directly with Incom** — no merchant acquirer, no 3% fee, avoids **PCI compliance** ("the barcode is not considered payment card information"), only a modest **~$20–25/month** accounting/settlement fee. [[raw/2025-04-07-COAM_gift_card_solution_incomm_notes.md]]
 - **Barcode security:** protected by a **PIN set on first use** (first PIN entered becomes the card's PIN); changeable anytime via **IVR or the website**. [[raw/2025-04-07-COAM_gift_card_solution_incomm_notes.md]]
 - **Role model:** location houses the machines; machine owner manages them; **JVL supplies the machines/kiosks**; **Incom is the program manager and technology provider** (gift-card product + APIs, money movement, compliance) — Incom **does not build kiosks**; operators design their own kiosk configurations (card readers, digital wallets, etc.). [[raw/2025-04-07-COAM_gift_card_solution_incomm_notes.md]]
 - **Incom's expansion plans:** targeting **Texas, Florida, Pennsylvania, Nebraska and Iowa** "to improve the player experience and reduce dependence on cash," with per-market product adaptations — ATM-usable cards in Pennsylvania, large-win payouts in Nebraska — plus a **print-on-receipt** product for merchandise markets (player picks among gift-card providers). [[raw/2025-04-07-COAM_gift_card_solution_incomm_notes.md]]
 - **Follow-up:** Juan + Val to "regroup and think of a proper business model" for the discussed solution. The card-scanning prospect surfaced the same day in the FlexPort scanner ruling — see [[wiki/decisions/2025-04-07-flexsmib-modern-flexport-legacy.md]]. [[raw/2025-04-07-COAM_gift_card_solution_incomm_notes.md]]
+
+### Detail the recording adds
+
+- **How the money actually moves:** funds sit on a gift card held in an account at **Sutton Bank** that InComm manages. When a player scans/authorises a purchase, InComm confirms the balance and the merchant gives the player play-credit *immediately*; InComm then **wires the merchant whole (~a day later)** — the merchant extends credit on the belief InComm will pay, because InComm holds the card balance. InComm must now process not just gift-card activations but **redemptions/spend**, routing money back to the **7,000 merchants** in "Co-In." [[raw/incomm_transcript_gacoam_payment_options-april-4-2025.md]]
+- **PIN mechanics:** the barcode balance-check can't be done today (Jared wants PIN-based for security, since the barcode is exposed and "roommates can take photos of it"); PIN is **set on first use** (whatever four digits are first entered), one PIN per barcode, changeable via IVR or website. **Cards are not reloadable** — a player gets a **new card each cash-out**; "those are the rules until 2026." Making cards rechargeable would require **KYC** on the player, "which I don't think anybody wants to do." [[raw/incomm_transcript_gacoam_payment_options-april-4-2025.md]]
+- **PCI:** option 2 (mag-stripe reader) is in PCI scope because it reads real card data (16-digit number, expiry, CVV) sent to MasterCard; option 3 (barcode) is **outside PCI scope** because the barcode "means nothing to MasterCard… only to InComm" — InComm makes it payment information only inside its own wall, insulating the industry. [[raw/incomm_transcript_gacoam_payment_options-april-4-2025.md]]
+- **The four participants (Val's framing):** the **location** (houses machines), the **master** (owns/routes the machines), **JVL** (supplies machines/kiosks), and **InComm** = "the **program manager** for the gift-card product and the **technology provider** for the APIs" and money movement (all regulated in the US) — InComm **does not build equipment** ("that will not happen"). Val questioned the point of a kiosk at all; John: most people want to limit clerk interaction and keep the gaming environment self-sufficient. [[raw/incomm_transcript_gacoam_payment_options-april-4-2025.md]]
+- **Operators design their own flow** — John's examples: **Excel** (owns **Bulldog Entertainment** in Georgia) puts a kiosk in every location, using TITO + a digital wallet; **Intermax at Kroger** wouldn't pay **~$15,000** per kiosk so they hung cards and put optical readers on the machines (ran into problems, now looking at kiosks); **United** (~1,300 locations) is deploying handheld devices to associates rather than $10–15k kiosks. [[raw/incomm_transcript_gacoam_payment_options-april-4-2025.md]]
+- **Juan's opening framing (from the pre-recording audio):** kiosk-product rollout is slow — "maybe three to 400 with thousands to go" — and someone at the GAMOA meeting asked "how does anyone expect us to do this in one year's time"; masters/locations are "savvy… used to skating around the letter of the law," hence the gift cards; Juan's worry is that an automated kiosk lets a player walk away, whereas a window redemption keeps the location owner able to upsell. [[raw/incomm_meeting—april-3-2025-1.md]]
+- **Fannin County detail:** **Pace-O-Matic** sued the sheriff's office in **Fannin County, Texas** and a judge ruled its machines were **skill machines, not gambling machines** — "the first time a court in the state of Texas has ever issued an opinion on these devices" — driving InComm's Texas interest. [[raw/incomm_transcript_gacoam_payment_options-april-4-2025.md]]
 
 ## Open commitments
 
@@ -83,6 +95,10 @@ The market/solution meeting Val committed to on the Apr 2 SMIB call — owner Va
 - Can a customer use **any** debit card at the kiosk, or only a prize-redemption/COAM card? The industry treats prize-redemption debit as allowed, plain debit as unknown, credit as prohibited. [[raw/incomm_commissioning_plan_february-27-2025.md]]
 - Would the regulator (GLC) treat an open-loop retail gift card (e.g. from Walgreens) the same as a COAM prize-redemption card? Unresolved. [[raw/incomm_commissioning_plan_february-27-2025.md]]
 
+## Open contradictions
+
+- **Date of the COAM gift-card solution meeting:** the Teams recording header says **April 3, 2025, 5:42 PM** [[raw/incomm_transcript_gacoam_payment_options-april-4-2025.md]]; the derived notes document is headed **April 7** [[raw/2025-04-07-COAM_gift_card_solution_incomm_notes.md]] (and the Apr-2 SMIB action item's "today, tomorrow, or Monday" window points at Apr 7). Same meeting, conflicting date; recorded, not resolved (the meeting stub filename keeps the Apr-7 form).
+
 ## Sources
 
 - [[raw/Embedded_Group_alignment_and_update_2025-02-11.md]]
@@ -94,3 +110,5 @@ The market/solution meeting Val committed to on the Apr 2 SMIB call — owner Va
 - [[raw/SMIB_FlexPay_Action_Items_April_2_2025.md]]
 - [[raw/flex_pay_evolution-april-8-2025.md]]
 - [[raw/evolution_flex_pay-april-11-2025.md]]
+- [[raw/incomm_transcript_gacoam_payment_options-april-4-2025.md]]
+- [[raw/incomm_meeting—april-3-2025-1.md]]

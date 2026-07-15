@@ -3,7 +3,7 @@ type: person
 title: Marta (Automated Technologies)
 date: 2025-03-22
 aliases: [Marta, Martha]
-source-count: 2
+source-count: 3
 ---
 
 # Marta (Automated Technologies)
@@ -16,7 +16,12 @@ Marta (also transcribed "Martha") is a JVL-connected businesswoman in Colombia. 
 - **US relocation:** Val: "I'm setting up Martha for similar relocation as … with you [Julian] because I want to develop business in the US and I have a lot of different territories that I want to approach." [[raw/meeting_with_julian_puerta_texas_eds.md]]
 - She is the "Marta" [[wiki/people/julian-puerta.md|Julian Puerta]] committed to call (Mon Mar 31) to verify the EDS–JVL agreements are properly written — the same-name link is contextual (same Julian/EDS/Colombia circle), recorded as an inference. [[raw/julian _puerta_nebraska-march-29-2025.md]]
 
+## MH1 button-settings request (Apr 3 2025)
+
+On the Apr-3 tech call ([[wiki/meetings/2025-04-03-sd-printer-and-mh1-settings.md]]) Marta (with a "Freddie") asked [[wiki/people/pavel.md|Pavel]], via [[wiki/people/juan-martinez.md|Juan]], to configure a **Mega Hits 1 (MH1)** game so several game sets share the **same max bet** within one game mix (copying an **EDS**-recommended setup) — for the **Colombia** market. Pavel said the data-center currently disallows multiple button-sets at the same max bet but it's a minor change (really a per-button multiplier, e.g. 5/10/20/25/50). Val's steer: stop relaying between Marta and Pavel — get Marta on a call to establish the actual **market requirement** ("we're in the search of market requirement here"). [[raw/tech_and_settings_issues-juan_martinez-april-3-2025.md]]
+
 ## Sources
 
 - [[raw/meeting_with_julian_puerta_texas_eds.md]]
 - [[raw/julian _puerta_nebraska-march-29-2025.md]]
+- [[raw/tech_and_settings_issues-juan_martinez-april-3-2025.md]]

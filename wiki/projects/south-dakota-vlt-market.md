@@ -38,6 +38,10 @@ The Feb 1 release target slipped; as of Feb 19 the regulator is tied up on anoth
 - **RTP/math issue:** JVL's partner misinformed it on which RTPs the regulator accepts, so only one was submitted; a future conversation (Val, [[wiki/people/efim-podvoiski.md|Efim]], "Michael," and the regulator) may tweak the math to offer an additional ~92% RTP after go-live. [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 - **Release discipline:** Val told Pavel to put [[wiki/people/ivan.md|Ivan]] on scheduling GLI ahead of time and to "loop" — keep checking the scheduled work is actually done. [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 
+## Printer status (Apr 3) — Epic Edge audit-ticket bug
+
+On an Apr-3 call ([[wiki/meetings/2025-04-03-sd-printer-and-mh1-settings.md]]) the two Transact **Epic** printer models were clarified: the **Epic 950** is end-of-life; the **Epic Edge** is the current model (per Lonnie, only **Ainsworth** has started using it). Lonnie recommends Transact because ~80% of machines in his lab use them (spare-parts familiarity). Two live issues: an Epic Edge printed the **cash-out ticket correctly but scrambled the audit-ticket text** (the word "master" + period) — traced to JVL's audit-ticket implementation, needing a fix; and an **Epic 950 wouldn't power up** (possibly defective — [[wiki/people/sebastian.md|Sebastian]] troubleshooting with Lonnie). Crucially [[wiki/people/pavel.md|Pavel]] had **only tested the 950, not the Edge**, so JVL owes a new build regardless; he'll confirm with the manufacturer that the Edge's protocol and connector wiring match the 950. The Edge test unit for Minsk is delayed by the **Canada↔Belarus embargo** — routed via a Chinese supplier → Mongolia → train through Novosibirsk → Moscow → Belarus (~3 weeks; currently in Moscow). [[raw/tech_and_settings_issues-juan_martinez-april-3-2025.md]]
+
 ## Status update (Apr 5) — licence in hand, border office planned
 
 On the Denis Desmarais call ([[wiki/meetings/2025-04-05-denis-desmarais-south-dakota-nebraska.md]]) Val stated the market entry is closing: "We're in the final stages of settling in South Dakota and Nebraska… as we speak today, I have a license in South Dakota. A VLT license… we can start operating next month in South Dakota." The SD role is **purely sales — "we're not allowed to do operations. There's no vertical integration."** [[raw/denis_desmarais_south_dakota_nebraska-April-5-2025.md]]
@@ -53,4 +57,5 @@ On the Denis Desmarais call ([[wiki/meetings/2025-04-05-denis-desmarais-south-da
 - [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]
 - [[raw/sd_vlt_recap-jan-22-2025.md]]
 - [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
+- [[raw/tech_and_settings_issues-juan_martinez-april-3-2025.md]]
 - [[raw/denis_desmarais_south_dakota_nebraska-April-5-2025.md]]

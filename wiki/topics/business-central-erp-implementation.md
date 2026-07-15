@@ -3,7 +3,7 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-04-17
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation]
-source-count: 1
+source-count: 2
 open-questions: 1
 ---
 
@@ -46,6 +46,10 @@ Two companies can share a tenant, and can be put into the **same environment** â
 
 - JVL Systems **year close is in process**; Lev hasn't reached it yet but reports "I don't think there is anything terrible." [[raw/business_central_implementation_update-apr-17-2025.md]]
 
+## Feeding software-licensing enforcement (Apr 3 2025)
+
+An earlier Apr-3 use of BC: it is the intended data source for **software-licensing enforcement**. After an invoice is issued in BC, [[wiki/people/lev-rudky.md|Lev]] exports the **invoice number, software version, operator name and quantity** in a form the **RIS manager** can consume (Excel export easiest given BC's tight Excel integration; a BC API preferred but deferred). BC does *not* track where software is installed â€” that lives in the RIS manager. See [[wiki/decisions/2025-04-03-license-software-per-operator-not-machine.md]]. [[raw/ris_business_central_integration-april-3-2025.md]]
+
 ## Open questions
 
 - Is it possible to run the US tax add-on on a shared two-company database so it applies **only** to the American company and not the Canadian one? Lev: "Maybe it's possible but I cannot guarantee it without checking." Blocks the single-database license-saving option. [[raw/business_central_implementation_update-apr-17-2025.md]]
@@ -53,3 +57,4 @@ Two companies can share a tenant, and can be put into the **same environment** â
 ## Sources
 
 - [[raw/business_central_implementation_update-apr-17-2025.md]]
+- [[raw/ris_business_central_integration-april-3-2025.md]]
