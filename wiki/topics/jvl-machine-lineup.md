@@ -120,6 +120,9 @@ Reimagined-legacy-title concepts moved into concept-development stage on the Apr
 - To customers and financiers, all JVL machines are described broadly as **video lottery terminals**; price and description vary only by hardware configuration (e.g. one vs. two screens) and software (number of games, features). Example naming: "video lottery terminal, Flex D27." [[raw/james_reble_elevate_january_14_2025.md]]
 - **Item numbers / older quote:** A May 11, 2022 quote used item number **"C10-VLOT-TERM-RU"** — a video lottery terminal with **one monitor** and a different (simpler) software set. The current **Flex-S** machines have **two monitors** and more/more-complex games (hence higher price); **"Flex SD27" is itself the item number** for that model, and **V43** is another. Val confirmed C10-VLOT-TERM-RU is a *different* hardware+software combination, not the same as Flex-S. [[raw/elevate_convo_w_scott_rambeau_january_15_2025.md]]
 
+
+**Bringing a machine up after a software install** — the internal step-by-step functional test procedure (SAS host emulator, Secure Enhanced validation, AFT loop, TITO in/out) lives on [[wiki/topics/slot-machine-production-test-procedure.md]].
+
 ## Sources
 
 - [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]

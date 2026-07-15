@@ -3,7 +3,7 @@ type: person
 title: Mikhail Perelman
 date: 2026-07-13
 aliases: [Mikhail Perelman, Misha, Миша, Mikhail, Michael]
-disambiguation: "Procurement Manager. 'Misha' is the short form of Mikhail. Owner ruling 2026-07-13: 'Misha the retrofit lead' is this person. Distinct from Michael Gottlieb (Senior VP of Game Design). Procurement/purchasing/parts/vendors/shipments → Perelman; game design → Gottlieb."
+disambiguation: "Procurement Manager (parts/vendors/shipments; the retrofit-lead "Misha"). Misha/Michael cluster (2, owner-ruled): [[wiki/people/michael-gottlieb.md|Michael Gottlieb]]=Senior VP Game Design / [[wiki/people/mikhail-perelman.md|Mikhail Perelman]]=Procurement Manager (the "retrofit Misha"). Resolve by context; queue if none."
 source-count: 1
 ---
 

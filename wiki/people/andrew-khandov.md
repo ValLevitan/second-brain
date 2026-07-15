@@ -3,7 +3,7 @@ type: person
 title: Andrew Khandov
 date: 2026-07-13
 aliases: [Andrew Khandov, Andrey Khandov, Andrey Handov, Andrei Handov]
-disambiguation: "JVL C# developer for Miranda (the product). Canonical first name 'Andrew' (owner-confirmed 2026-07-13; 'Andrey' kept as a transcript-variant alias). Distinct person from Dmitriy Khandov, JVL's Senior 3D Graphic Designer (same surname only — wiki/people/dmitriy-khandov.md); keep the confusion-risk note on both pages."
+disambiguation: "C# developer for Miranda; father of Dmitriy Khandov (owner-confirmed). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
 source-count: 4
 open-commitments: 1
 open-questions: 0

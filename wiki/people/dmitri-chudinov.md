@@ -3,7 +3,7 @@ type: person
 title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dima]
-disambiguation: "Back-end architect / Java developer. Owner-confirmed 2026-07-13. Belarusian spelling Dzmitry Dudzinau = same person. Distinct from Dmitri Kovalchuk (IT), Dmitriy Khandov (Senior 3D Graphic Designer), and Andrey/Andrew Khandov (Miranda dev). Resolve 'Dima' by context: backend/Java/server-architecture → Chudinov."
+disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
 source-count: 14
 open-commitments: 3
 open-questions: 0

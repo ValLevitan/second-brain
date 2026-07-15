@@ -13,7 +13,7 @@ GLI is the independent testing lab that certifies JVL's gaming machines and game
 ## Relationship with JVL
 
 - GLI has been in business about 40 years. [[raw/gli_visit-jan-7-2025.md]]
-- JVL's account contacts at GLI: Deb (client-facing account manager, fairly new), Patrick (now senior director, keeps oversight of JVL), and technical/testing people Dan, Jason, Joseph, and Joe. [[raw/gli_visit-jan-7-2025.md]]
+- JVL's account contacts at GLI: Deb (client-facing account manager, fairly new), [[wiki/people/patrick-gli.md|Patrick]] (now senior director, keeps oversight of JVL), and technical/testing people Dan, Jason, Joseph, and Joe. [[raw/gli_visit-jan-7-2025.md]]
 - As an independent lab, GLI must stay neutral — it will not train or coach a client on how to test so as to pass, because that would risk its accreditation. This is what "proprietary" tends to mean in their conversations. [[raw/gli_visit-jan-7-2025.md]]
 
 ## Certification facts

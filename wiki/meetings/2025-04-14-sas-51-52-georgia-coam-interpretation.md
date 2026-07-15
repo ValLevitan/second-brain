@@ -19,6 +19,8 @@ Substance (the hands model = 1 hand = 5 spins = $5; the cash-out-limit test meth
 
 - Identity of the lead American Georgia colleague on this call — he owns the Eclipse/GLC/regulator relationship and raised the FlexPay large-win card question; profile is consistent with the queued [[wiki/people/bob.md|"Bob"]] (American FlexPay/Georgia colleague) but is **not** named here, so left unresolved (queued Tier A, not forced). — [[raw/sas_51_52_requirement_interpretation-april-14-2025.md]]
 
+See also the machine bring-up [[wiki/topics/slot-machine-production-test-procedure.md|production test procedure]].
+
 ## Sources
 
 - [[raw/sas_51_52_requirement_interpretation-april-14-2025.md]]

@@ -3,7 +3,7 @@ type: person
 title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich]
-disambiguation: "Online-games/RGS commercial lead. One of THREE Andreis (owner-ruled): Andrey Bosik (DevOps manager → wiki/people/andrey-bosik.md), Andrew Khandov (C# developer, Miranda → wiki/people/andrew-khandov.md), Andrei Klimovich (online-games/RGS commercial lead → wiki/people/andrei-klimovich.md). Resolve by context; queue if unclear."
+disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
 source-count: 12
 open-commitments: 5
 open-questions: 0

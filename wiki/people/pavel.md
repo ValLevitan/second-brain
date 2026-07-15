@@ -3,7 +3,7 @@ type: person
 title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov]
-disambiguation: "One of TWO Pavels: Pavel Frolov (JVL Minsk → wiki/people/pavel.md, this page) and the external Ukrainian outsourcing-studio owner Pavel (wiki/people/pavel-studio-owner.md). Resolve by context; queue if unclear."
+disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
 source-count: 41
 open-commitments: 4
 open-questions: 0

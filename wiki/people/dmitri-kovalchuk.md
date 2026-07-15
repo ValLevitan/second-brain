@@ -3,7 +3,7 @@ type: person
 title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
-disambiguation: "JVL's IT person = the recurring IT-context 'Dima'. Distinct from Dmitriy Khandov (Senior 3D Graphic Designer), Andrey/Andrew Khandov (Miranda dev), and Dmitri Chudinov (back-end architect, who is the 'Dima Chudinov' of the Observability Platform org). Owner-confirmed 2026-07-13."
+disambiguation: "IT (GitHub-admin, infrastructure, secrets/Azure, AI-tool accounts) — the IT-context "Dima". Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
 source-count: 9
 ---
 

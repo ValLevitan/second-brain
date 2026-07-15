@@ -3,7 +3,7 @@ type: person
 title: Pavel (Ukrainian outsourcing-studio owner)
 date: 2024-12-01
 aliases: [Pavel, Павел]
-disambiguation: "External contact, NOT a JVL employee. Owner of a Ukrainian game-outsourcing studio and long-time friend of Andrei Klimovich. Distinct from wiki/people/pavel.md (Pavel Frolov, JVL Minsk engineer). Both are 'Pavel'/'Павел' — resolve by context (external studio/RGS pricing vs JVL engineering); queue if unclear."
+disambiguation: "External Ukrainian game-outsourcing studio owner; NOT a JVL employee. Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
 source-count: 2
 open-commitments: 0
 open-questions: 0

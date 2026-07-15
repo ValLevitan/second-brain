@@ -3,7 +3,7 @@ type: person
 title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre]
-disambiguation: "JVL DevOps manager. Distinct from Andrei Klimovich (online-games commercial lead) and from Andrew Khandov (C# Miranda developer). Owner-confirmed 2026-07-13. Canonical first name 'Andrey'."
+disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
 source-count: 36
 open-commitments: 5
 ---
