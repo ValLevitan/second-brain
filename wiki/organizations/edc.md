@@ -3,7 +3,7 @@ type: organization
 title: EDC (Export Development Canada)
 date: 2026-07-12
 aliases: [EDC, EDS, Export Development Canada]
-source-count: 1
+source-count: 2
 disambiguation: "'EDS' here is a transcript garble of EDC. NOT the same as EDS, the Colombian gaming operation running JVL machines (wiki/organizations/eds-colombia.md). Resolve by context: Canadian export financing / Elevate deal → this page; Colombian operator (Julian Puerta, Eliana, Marta) → eds-colombia."
 ---
 
@@ -18,6 +18,11 @@ EDC (Export Development Canada) was named in the Jan 14 2025 call as the financi
 
 Note: the transcript garbles the name as "EDS" in one spot; recorded here as EDC (Export Development Canada). See [[wiki/organizations/elevate.md]]. Not to be confused with **EDS**, the Colombian gaming operation running JVL machines — [[wiki/organizations/eds-colombia.md]].
 
+## History
+
+- **≈May 2024 (date inferred; pre-window source):** Val's own description of the chain places EDC squarely in the middle of the export-financing pipeline: "**BDC** … first pre-approve[s] you, then they recommend you to **EDC**, then **EDC brings Elevate**" — and only for goods actually exported out of Canada (software-only export "they're not going to do it"). [[raw/julian_puerta_jvl_mexico.md]]
+
 ## Sources
 
 - [[raw/james_reble_elevate_january_14_2025.md]]
+- [[raw/julian_puerta_jvl_mexico.md]]

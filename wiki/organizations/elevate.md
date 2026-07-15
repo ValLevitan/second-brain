@@ -3,7 +3,7 @@ type: organization
 title: Elevate
 date: 2026-07-13
 aliases: [Elevate]
-source-count: 2
+source-count: 3
 ---
 
 # Elevate
@@ -25,6 +25,7 @@ Elevate is a **specialty lender / financier** (owner-confirmed). It made a loan 
 
 ## History
 
+- **≈May 2024 (date inferred; pre-window source):** Val described the approval chain to Julian Puerta: exporting machines out of Canada is a precondition ("if you do not export machines out of Canada, then you're not going to get Elevate to finance"), and "we have another company, which is called a government company, called **BDC, Business Development Canada**. So they first pre-approve you, then they recommend you to **EDC**, then **EDC brings Elevate**. It's a big, big, big chain" — with requirements like employing people, audited financial statements and years in business. He also noted Julian "already know[s] Elevate finance … how they work," consistent with the later note that Val heard about Scott Rambeau through Julian Porte. The plan discussed then: invoice machines at ~$8,000 (≈$4,500 imported hardware + ≈$3,500 software) with Elevate financing the whole amount over five years. [[raw/julian_puerta_jvl_mexico.md]]
 - **The Jan 14 call (James Reble) initially framed Elevate as a JVL *customer* that buys the machines and finances them through *EDC*, paying JVL per shipment.** [[raw/james_reble_elevate_january_14_2025.md]] **Owner ruling (2026-07-13):** this was the Jan-14 meeting's own early misunderstanding, corrected by the Jan-15 Scott Rambeau call — Elevate is a **lender** that took a pledge on the machines, not a customer, and the "financed through EDC" detail belongs to that superseded framing. Current state is the lender description above.
 
 See [[wiki/organizations/edc.md]], [[wiki/people/james-reble.md]], and [[wiki/people/scott-rambeau.md]].
@@ -33,3 +34,4 @@ See [[wiki/organizations/edc.md]], [[wiki/people/james-reble.md]], and [[wiki/pe
 
 - [[raw/elevate_convo_w_scott_rambeau_january_15_2025.md]]
 - [[raw/james_reble_elevate_january_14_2025.md]]
+- [[raw/julian_puerta_jvl_mexico.md]]

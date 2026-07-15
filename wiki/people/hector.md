@@ -3,7 +3,7 @@ type: person
 title: Hector
 date: 2026-07-14
 aliases: [Hector]
-source-count: 2
+source-count: 3
 open-commitments: 2
 ---
 
@@ -20,6 +20,7 @@ Hector is a member of JVL's **finance back-office** whom Val wants narrowed down
 
 ## History
 
+- **February 2025 task-map call (date inferred — [[wiki/meetings/2025-02-20-alka-finance-taskmap.md]]):** Alka holds a **weekly checkpoint with Hector every Wednesday**; she contributed his additions to the finance task list, and pressed him to redesign the payment proposal (partial-payment history per vendor) against his "the more you ask, the more time it's going to take" pushback — Val: "I told you before that he's playing games," while also saying "he is honest … a little bit of a dramatizer." Hector asked to keep his assistant Igor for a year–two years for year-end; Alka countered ~Apr 15 (see [[wiki/topics/jvl-finance-back-office.md]]). He was to finish **2024 year-end no later than ~March 15** and remain the sole interface to the third-party accountant. Alka's four-month goal for him: shift from "counting bookkeeper" to enabling decisions — "he has two hats … activate the power of things like Klein … and … make sure the controls" hold. [[raw/Finance - Alka.md]]
 - **Asimex importation call (~Mar 19 2025, date inferred):** a "Hector" joined Val's call with Alejandro of ASIMEX about importing Flex machines into Mexico — he opened the call having pre-briefed with Alejandro, translated/relayed for him, fielded the Mexico **import-VAT reclaim** question, and took the action to consult "Alejandro, the accountant" about it. *Attribution is an inference:* the transcript gives no surname; the Mexico-finance/VAT context fits this finance back-office Hector, but no source states they are the same person (queued). See [[wiki/meetings/2025-03-19-asimex-flex-importation.md]] and [[wiki/organizations/shipping-vendors.md]]. [[raw/Asimex - Importation of Flex machines_2.md]]
 
 ## Open commitments
@@ -31,3 +32,4 @@ Hector is a member of JVL's **finance back-office** whom Val wants narrowed down
 
 - [[raw/financial_alka_alignment-march-24-2025.md]]
 - [[raw/Asimex - Importation of Flex machines_2.md]]
+- [[raw/Finance - Alka.md]]

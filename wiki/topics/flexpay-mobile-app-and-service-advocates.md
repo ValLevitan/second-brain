@@ -3,7 +3,7 @@ type: topic
 title: FlexPay mobile app and service advocates
 date: 2026-07-12
 aliases: [FlexPay mobile app, service advocate, service advocates, whale, whale UI, Incom, TITO, SMIB, SAS server, FlexServer, FlexPay discovery contractor]
-source-count: 16
+source-count: 18
 ---
 
 # FlexPay mobile app and service advocates
@@ -55,6 +55,8 @@ The **FlexPay** payment product itself is confirmed progressing — the Jan 24 2
 
 - **Embedded group (Mar 25):** the FlexPort↔FlexPay bring-up continued with two durable symptoms. (1) **Cash-out works only once** per ticket: on the setup [[wiki/people/eugine-yavorski.md|Yavorski]] runs, money is removed from the gaming machine but is **not re-credited to the ticket** on a second attempt (the machine debits, but FlexPay never sees it). (2) **FlexPort still hangs** — [[wiki/people/pavel.md|Pavel]] suspects a **collision when two async messages** (e.g. a ping and a new command like a barcode/ticket check) are sent at nearly the same time; his fix idea is to **queue outgoing messages in a pool** so they go one-by-one, and to hold one back if two arrive together. The prior "hangs during the night" freeze is reported **mostly fixed** — progress. A **QR-scanner motion-detection** quirk was raised by [[wiki/people/genadi-peari.md|Genadi]] (it only scans when it detects movement, sometimes going unresponsive after sitting idle). **Process:** with the April expo approaching, Val insisted on **live working meetings** (Yavorski now full-time, pairing daily with the back-end "Dima"/[[wiki/people/dmitri-chudinov.md|Chudinov]] on fresh logs) rather than only async chat. See [[wiki/meetings/2025-03-25-embedded-group-flexport-flexpay.md]]. [[raw/Embedded_Group_alignment_and_update_2025-03-25.md]]
 
+- **InComm card user-cases (Mar 19, date inferred):** InComm's Alan walked the team through the prepaid-card dispensing/activation flow the kiosk must implement — barcode-preferred reading in the dispenser, UPC/VAN extraction, pre-auth → redeem → activate, configurable merchant/store/terminal IDs, failed-card escrow bin, the $2 fee, $1,000 max. Full detail on [[wiki/organizations/incom.md]] and [[wiki/meetings/2025-03-19-incomm-flexpay-card-user-cases.md]]. [[raw/incomm_flex-pay_user_cases.md]]
+- **Release-priority push (≈Mar 19, Russian meeting):** Val's undertaking on the touch-fix call — "выпихнуть… из девелопмента это FlexPay и Port и поставить их на бета-тест на локейшенах" (push FlexPay and FlexPort out of development and onto location beta), alongside the CPU-Kit/GQAM/South-Dakota release queue; the FlexPay **Cloud** version conversation with Pavel is queued for after the releases. [[raw/products_puerto_rico_touch_fix.md]]
 - **The scope-gap discovery (Mar 27, English meeting):** the day before the Russian TITO meeting, Val learned — to his declared "system shock" — that **FlexPay cannot act as a standalone product** in a location of third-party machines: FlexPay has no direct machine connection, and **FlexPort has no SAS software implementation** ("we only have RS232 connector and that's all" — Pavel); Pavel had understood FlexPay would only ever work with JVL machines or FlexPort-equipped ones. Val's live scenario ("five IGT machines and one JVL FlexPay, and nobody is buying FlexPort") fails entirely. Val: "this is a huge, huge scope gap because this was not meant to work like this." Durable points from the meeting (see [[wiki/meetings/2025-03-27-flexpay-scope-gap-discovery.md]]): [[raw/flex_pay_scope_gap-mach-27-2025.md]]
     - **Status blunt-check (Val):** "today FlexPay cannot do anything. Not even QR code. Today, nothing works" — pending the WSS integration of FlexPort and, on a shorter horizon, a local mini-server for the TITO model. Val's estimate for a "make-do" local primitive SAS mini-server: **five days**; Pavel's: **months — two, three** (no ready SAS-server implementation). [[raw/flex_pay_scope_gap-mach-27-2025.md]]
     - **The MVP requirement Val dictated:** "FlexPay must support Tito operation in a location" — a small **local validation database** holding issued barcode-ticket numbers in memory, tickets valid **24 hours** then self-purged, local-only (no statewide integration), not "uber secure" (no fraud/large-transaction threat at beta stage). [[raw/flex_pay_scope_gap-mach-27-2025.md]]
@@ -83,3 +85,5 @@ The **FlexPay** payment product itself is confirmed progressing — the Jan 24 2
 - [[raw/andrei_klimovich_update_report_online_strategy1_2025-03-29.md]]
 - [[raw/business_architecture_and_the_website_design_for_online_2025-03-29.md]]
 - [[raw/architecture_sql_olap_visualization_2_2025-03-29.md]]
+- [[raw/incomm_flex-pay_user_cases.md]]
+- [[raw/products_puerto_rico_touch_fix.md]]

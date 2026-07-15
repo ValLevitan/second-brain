@@ -3,7 +3,7 @@ type: project
 title: Puerto Rico expansion
 date: 2026-07-12
 aliases: [Puerto Rico expansion, Puerto Rico office, PR route market, gaming license, resident agent, FYC Consulting]
-source-count: 6
+source-count: 7
 ---
 
 # Puerto Rico expansion
@@ -32,6 +32,16 @@ Note: Puerto Rico is also flagged as a priority in the FlexPay mobile-app discus
 - **Gaming Commission contact:** **Idaline** is the primary contact at the Puerto Rico Gaming Commission; she was responsive to Igor (faster than to Juan) and provided the five law firms the Commission deals with most. [[raw/Puerto Rico progress report - January 29, 2025.md]]
 - **Law firms contacted:** Igor reached all five recommended firms; by Jan 29 all but **CS2 Consulting** had responded. Named: **FYC Consulting** (found very professional and likely the most expensive; has **Jaime Rivera**, a former director of the PR Gaming Commission, now at a New Jersey firm, who could speed access), **McConnell** (likely expensive), and **CS2 Consulting** (**Victor Zutera**, based in Mexico, plus **Tamara**, the local Puerto Rico rep). **Julian** attended the first firm's call with Igor. These firms act as all-in-one (resident agent + attorney + interface). [[raw/Puerto Rico progress report - January 29, 2025.md]]
 - **Quotes:** expected within ~7–10 days, broken into modules; Igor and Juan will vet/filter them before sending to Val. Company president/representative details go to Monica or Ina. [[raw/Puerto Rico progress report - January 29, 2025.md]]
+
+## Licensing progress (Feb 12 2025 — [[wiki/meetings/2025-02-12-puerto-rico-progress-igor-juan.md]])
+
+Spreadsheet-driven review (new items from Feb 3 onward), with [[wiki/people/igor-nazarenka.md|Igor]] doing the outreach and the presenter (inference: [[wiki/people/juan-martinez.md|Juan]]) coordinating; opening caveat "Puerto Rico moves at a very slow pace": [[raw/puerto-rico_market-igor-juan.md]]
+
+- **Gaming Commission:** the primary contact is **Ydalin Ortiz Rivera** (full name — resolves the Jan-29 "Idaline" spelling; same contact by role). Initially responsive, she has gone "missing in action" on the one remaining ask: the list of **Ruta operators** — "they supposedly issued **100 licenses** under this new law. That's who we really should target." All required licensing forms are already in hand. Plan: ask directly whether the hold-up is JVL's lack of a licence, and file an official information request once a lawyer is engaged. [[raw/puerto-rico_market-igor-juan.md]]
+- **Val's website find:** the Commission site (translated) has a **"machines on the road"** section with year-selectable application lists — Val showed a waiting-list document of ~20 names ("I don't think they're waiting … most applications get approved in Puerto Rico") and pushed the team to mine the site for 50+ operators: "we need intelligence. We need to start speaking to operators." The list viewed was from 2021. [[raw/puerto-rico_market-igor-juan.md]]
+- **Resident agents:** outreach started **Feb 4** to four of the six-to-eight agents on Juan's top-registered-agents list; two responded — **Rebeca** (Puerto Rico; economical annual fee but only does registrations/filing) and **Mike** (listed top agent but actually **Las Vegas-based** — "probably not … high on our list"). [[raw/puerto-rico_market-igor-juan.md]]
+- **Customs broker:** direct contact **Lorenzo at Delacruz Customs** — responsive and professional; asked for basics (company registration, tax identity, entity name — which JVL doesn't have yet) and will still send a proposal. **ASIMEX (Alejandro, contacted Feb 6):** no Puerto Rico presence, but will share island contacts. [[raw/puerto-rico_market-igor-juan.md]]
+- **Law firms:** first two full-service quotes arrived at **$30,000–46,000**, broken into tiers; Val: "I really need to understand what they're offering for this amount of money." The other two ("CS2 and McDonnell" — the Jan-29 CS2 Consulting/McConnell firms) promised proposals that week after Igor chased them post-Juan-meeting; rule set: if nothing by Friday, work with the two in hand and present all/both to Val the following week — chronically unresponsive firms get "blacklist[ed]." [[raw/puerto-rico_market-igor-juan.md]]
 
 ## Val's foreign-market vendor structure (a standing principle)
 
@@ -71,3 +81,4 @@ After touring Puerto Rico locations, Val described the route market as "insanely
 - [[raw/requirements_puerto_rico-march-21-2025.md]]
 - [[raw/games_markets-march-24-2025.md]]
 - [[raw/julian _puerta_nebraska-march-29-2025.md]]
+- [[raw/puerto-rico_market-igor-juan.md]]

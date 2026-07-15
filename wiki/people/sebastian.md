@@ -3,7 +3,7 @@ type: person
 title: Sebastian
 date: 2025-02-19
 aliases: [Sebastian]
-source-count: 1
+source-count: 2
 ---
 
 # Sebastian
@@ -18,6 +18,9 @@ Sebastian is a JVL field-service technician who installs and services machines i
 
 The transcript does not give Sebastian's last name.
 
+- **≈Mar 22 2025:** Val cited "Sebastian, the technician that's coming in" as his salary benchmark while sizing Julian Puerta's planned US employment (figures held §15.8) — indicating Sebastian was being brought in/employed by JVL US around this time (same Sebastian by context: Colombian JVL technician in the US; recorded as an inference). [[raw/meeting_with_julian_puerta_texas_eds.md]]
+
 ## Sources
 
 - [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
+- [[raw/meeting_with_julian_puerta_texas_eds.md]]

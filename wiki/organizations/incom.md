@@ -3,7 +3,7 @@ type: organization
 title: Incom (payment processor)
 date: 2025-02-27
 aliases: [Incom, InComm, Incomm, Income, Incom Payments]
-source-count: 4
+source-count: 5
 open-commitments: 2
 open-questions: 2
 ---
@@ -24,6 +24,7 @@ The onboarding kickoff between JVL and Incom. [[raw/incomm_commissioning_plan_fe
 - **John** — facilitated/introduced the call. [[raw/incomm_commissioning_plan_february-27-2025.md]]
 - **Adam** — Atlanta-based; holds the compliance detail — the standard consumer-facing **language/terms** the kiosk must display — and will review JVL's consumer-experience demo (in person at JVL's shop or by video). [[raw/incomm_commissioning_plan_february-27-2025.md]]
 - **Billy** — receives the merchant setup form from JVL and works with Incom's contract admin to assign JVL a unique merchant ID. [[raw/incomm_commissioning_plan_february-27-2025.md]]
+- **Susanne** — handed Alan the sample card on the Mar 19 user-cases call (role not stated). [[raw/incomm_flex-pay_user_cases.md]]
 
 ### Test vs production environments
 - JVL's current credential is a **development credential** that works **only in the test environment**; testing uses a **"flight" test card**. [[raw/incomm_commissioning_plan_february-27-2025.md]]
@@ -37,6 +38,17 @@ The onboarding kickoff between JVL and Incom. [[raw/incomm_commissioning_plan_fe
 
 ### The COAM / debit-card legal state (per Incom)
 - The industry read Incom gave: using a **credit card** is prohibited, using a **debit card** is unknown, and using a **debit card issued as a prize redemption** is allowed — "the state of the market today." At least two operators are already doing this; one restricts to **COAM cards** only, the other may accept any debit card. Whether a regulator (the "GLC" — Georgia Lottery Corporation) would treat a Walgreens open-loop gift card the same is unclear. [[raw/incomm_commissioning_plan_february-27-2025.md]]
+
+## Mar 19 2025 — card dispensing/activation user-cases walkthrough (Alan)
+
+Alan took the JVL team step-by-step through issuing a prepaid card from the kiosk ([[wiki/meetings/2025-03-19-incomm-flexpay-card-user-cases.md]]; a **Susanne** on the Incom side handed him the sample card): [[raw/incomm_flex-pay_user_cases.md]]
+
+- **Card data:** the test cards carry identical data on the **magnetic stripe** and a **30-digit activation barcode** — first ~11 digits are the product **UPC**, the last 19 digits the **VAN (Virtual Account Number)** (track-one number beginning "605812"/"605823" — both cited on the call), printed under the barcode. Incom recommends a **barcode reader** so the card can be read **while still in the dispenser** (less mechanism, no need to dispense before reading); if magstripe-only, the UPC must be configured on the kiosk since it isn't on the stripe. The kiosk should support **UPC configuration per product** (Pavel asked to write the requirement; Alan framed it as supporting both MagStripe and barcode). [[raw/incomm_flex-pay_user_cases.md]]
+- **Two-step activation:** first a **pre-authorization** (non-financial — verifies connectivity, kiosk setup, card number and loadable amount), then — after redeeming the winning ticket — an **Activate** call with near-identical fields but a new transaction ID. The card must **never be handed to the consumer before activation completes**; failed cards go to an internal **escrow bin/tray** for troubleshooting, never to the player. [[raw/incomm_flex-pay_user_cases.md]]
+- **IDs and reconciliation:** requests carry access ID (test credential "ICT test," lowercase i), **merchant ID** (assigned by Incom), **store ID** (assigned by the Incom merchant so their activation reports reconcile — not invented by JVL), and **terminal ID** (JVL's own kiosk identifier); a **machine setup form** per deployment tells Incom/the merchant who and where (MLH/LLH names, address). All fields must be kiosk-configurable. [[raw/incomm_flex-pay_user_cases.md]]
+- **Fees and limits:** consumer pays a **$2 fee** (e.g. redeem $22 to load $20 — only the load amount is sent to Incom); the fee is revenue-shared down the chain location→merchant→Incom (Alan's split figures were explicitly "a sample value"). Card max is **$1,000**; the minimum he needed to re-check with Adam ("either $10, $20 or $1"). [[raw/incomm_flex-pay_user_cases.md]]
+- **Downstream use:** at merchant POS only the **magstripe/track-two** matters — "MasterCard does not know anything about" the VAN or barcode, which exist solely for activation between JVL and Incom; the mobile number/email capture is **optional**, only for sending Ts&Cs ("no validation code required to use the card"). A returning player's card **cannot be deducted** by the kiosk — "there is nothing you can do with that card" (whether the card could fund more play is a question Alan would take to John). Incom doesn't care how kiosks reach JVL's gateway — only the gateway talks to Incom. [[raw/incomm_flex-pay_user_cases.md]]
+- The product's UPC context: the card discussed is the "**COEM card**" (as transcribed — consistent with the Georgia COAM redemption card this integration serves). [[raw/incomm_flex-pay_user_cases.md]]
 
 ## Status (Mar 27 2025)
 
@@ -58,3 +70,4 @@ The onboarding kickoff between JVL and Incom. [[raw/incomm_commissioning_plan_fe
 - [[raw/Embedded_Group_alignment_and_update_2025-02-18.md]]
 - [[raw/incomm_commissioning_plan_february-27-2025.md]]
 - [[raw/flex_pay_scope_gap-mach-27-2025.md]]
+- [[raw/incomm_flex-pay_user_cases.md]]
