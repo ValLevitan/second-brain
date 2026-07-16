@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina]
-source-count: 24
+source-count: 25
 open-commitments: 1
 ---
 
@@ -101,6 +101,10 @@ In the Omni daily Val flagged a separate task for "Лена Жукова" to cha
 - **Apr 17 Calle Ocho session** ([[wiki/meetings/2025-04-17-calle-ocho-asset-redesign-omni.md]]): Lena proposed the fast "plan A" (re-export the old Rage-Studio videos through Spine/Miranda to hit May 1) but flagged its flaw (reuses nothing for the next game); the group settled on Dima's middle approach. She drove the concrete asset rulings (new dashboard raises the reels, remove the "Lions," reposition-not-resize the matrix, Royals as Spine skins) and postponed detailed **Fortune Fu Paws** planning ~2 weeks. See [[wiki/topics/game-art-animation-production-pipeline.md]]. [[raw/graphical_assets_redesign_omni_calle_ocho-apr-17-2025.md]]
 - **Apr 18 production estimation** ([[wiki/meetings/2025-04-18-games-production-time-estimation.md]]): Lena walked Val through the Miro game-production task list to estimate time per item (her reiteration rule of thumb ~2.5 on average), explaining the CompArt→detailing→production stages, the Fiery-Ice-Link common/progressive split, and why she priced only the non-substitutable critical resources (Dima/Nastya/Yulia, fully parallel) and not Anton (shared across games). See [[wiki/topics/game-production-throughput-strategy.md]]. [[raw/games_production-apr-18-2025.md]]
 
+## Game-design review (May 1 2025)
+
+On the [[wiki/meetings/2025-05-01-game-design-review.md|May-1 review]] Lena reported the Nebraska **Corn Husker bonus** progressing (toning down the corn stalks around the logo, building the second/topper bonus screens), and coordinated the **regulator video** (recorded by Vitaly Monday, one three-reel + one five-reel, sound processed by Vlad) and the **2D decks** for Diamond Link + JetPort Rush (Georgia) to finish next week. Omni work continues, on schedule. See [[wiki/topics/game-art-animation-production-pipeline.md]]. [[raw/game_design_review-may-1-2025.md]]
+
 ## Sources
 
 - [[raw/github _structure-pavel-aaron-andrei.md]]
@@ -128,3 +132,4 @@ In the Omni daily Val flagged a separate task for "Лена Жукова" to cha
 - [[raw/mcp_experiences_tech-apr-16-2025.md]]
 - [[raw/graphical_assets_redesign_omni_calle_ocho-apr-17-2025.md]]
 - [[raw/games_production-apr-18-2025.md]]
+- [[raw/game_design_review-may-1-2025.md]]

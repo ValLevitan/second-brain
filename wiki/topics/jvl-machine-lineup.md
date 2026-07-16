@@ -2,8 +2,8 @@
 type: topic
 title: JVL machine and cabinet lineup
 date: 2026-07-12
-aliases: [Flex cabinets, Altera, Maple, Echo, Flex S, Flex C, Flex V42, Flex V42/C, cabinets, VLT, video lottery terminal, Flex SD27, V43, C10-VLOT-TERM-RU, Epic 950, FutureLogic, FlexPort, FlexPay, Nico, Miranda, Omni, Florida Ruta, CPU kit, coffin, iOBoard, Bally iview, Diamondlink, nano-optics, JCM, dual SAS, HAL, FireEyes Wink, Dragon Supreme, Kai-Ocho, Maneki-neko, HG-6, kiosk, Incom, TITO, SMIB, SAS server, La Rosa, El Jaguar, Golden Husk, 5X Peppers, Cold Cash, Pink Princess, Jungle Jaguar]
-source-count: 31
+aliases: [Flex cabinets, Altera, Maple, Echo, Flex S, Flex C, Flex V42, Flex V42/C, cabinets, VLT, video lottery terminal, Flex SD27, V43, C10-VLOT-TERM-RU, Epic 950, FutureLogic, FlexPort, FlexPay, Nico, Miranda, Omni, Florida Ruta, CPU kit, coffin, iOBoard, Bally iview, Diamondlink, nano-optics, JCM, dual SAS, HAL, FireEyes Wink, Dragon Supreme, Kai-Ocho, Maneki-neko, HG-6, kiosk, Incom, TITO, SMIB, SAS server, La Rosa, El Jaguar, Golden Husk, 5X Peppers, Cold Cash, Pink Princess, Jungle Jaguar, Dutch Mill, Crazy Spins, Midnight Money, Spicy Fruits, Clover Fortune, Jinji Du Li, Cash Kittens, Rosita's Cantina]
+source-count: 32
 ---
 
 # JVL machine and cabinet lineup
@@ -110,6 +110,14 @@ Reimagined-legacy-title concepts moved into concept-development stage on the Apr
 - **Peach 1** — **Eclipse** started testing the new Peach 1; a progressive issue looked like a **configuration** problem (not a release change) — Ivan and Pavel to follow up. Rollout will be **retroactive** across the field because customers are "screaming" for the **dual-SAS/TITO test** capability (the nudge enhancement is a bonus); flagged as a clean **A/B earnings test**. [[raw/game_design-april-3-2025.md]]
 - **HHR** — **Ainsworth** shipping an HHR machine ~Monday to the Georgia office (5–7 days transit); two calls/week ongoing with [[wiki/people/efim-podvoiski.md|Efim]]. The **Fortune Foo Paws** ("Fortune 2 Boss") math tool wasn't ready; Efim hoped to enable the white bonus the next day before going on vacation. [[raw/game_design-april-3-2025.md]]
 
+## Lineup status (May 1 review)
+
+From the [[wiki/meetings/2025-05-01-game-design-review.md|May-1 game-design review]] ([[wiki/projects/georgia-market-rollout.md]] carries the Georgia detail): [[raw/game_design_review-may-1-2025.md]]
+
+- **Curved-monitor Flex cabinet delayed** — its schedule was sacrificed for the FlexPay financial product, so it **won't be shown at the August gaming show**; JVL still presents the **vertical machine** to Georgia without it. [[raw/game_design_review-may-1-2025.md]]
+- **Fiery Ice Link** bug-fixed build uploaded to GLI → **Kai-Ocho + Dragons of Rain** re-approval; **Peach One** "bug" was a setting, going back to Eclipse with the new nudge. [[raw/game_design_review-may-1-2025.md]]
+- **New game/theme names surfaced:** **Dutch Mill**, **Crazy Spins**, **Midnight Money**, **Spicy Fruits**, **Clover Fortune** (Nebraska shortlist); **Jinji Du Li** and **Cash Kittens** (the two Fortune-Foo-Paws clones — a Cuban-rooster reskin of Jinji Du Li was floated); **Rosita's Cantina** (a possible Peach-5 Latina concept). SD lineup names: Dutchville, Lions Riches, Dragons, Pennies, Liberty Spins, Clover, Wild Cold. [[raw/game_design_review-may-1-2025.md]]
+
 ## Screens, formats, and game-build terms
 
 - **V-Deck** — a full-HD secondary screen on the machine; **Topper** — the top screen used for progressive signage. A typical layout runs videos across topper, main screen, and V-Deck. [[raw/fp-7_performance_analysis_january_13_2025.md]]
@@ -156,3 +164,4 @@ Reimagined-legacy-title concepts moved into concept-development stage on the Apr
 - [[raw/game_design-april-1-2025.md]]
 - [[raw/game_design-april-3-2025.md]]
 - [[raw/sas_51_52_requirement_interpretation-april-14-2025.md]]
+- [[raw/game_design_review-may-1-2025.md]]

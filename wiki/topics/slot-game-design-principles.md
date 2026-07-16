@@ -3,7 +3,7 @@ type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
 aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin]
-source-count: 9
+source-count: 10
 open-questions: 1
 ---
 
@@ -111,6 +111,14 @@ On the Apr 3 review ([[wiki/meetings/2025-04-03-game-design-vdeck-review.md]]) t
 - **Jackpot Rush** background: Val dislikes the **purple/space background** (says it clashes and reads "oriental," while Jackpot Rush is "extremely American"), and asked Lena to try **desaturating** it for Georgia. Design principle restated: on a **multi-game** product (Jackpot Rush = 5 games, different themes/colour schemes) the V-Deck background is a **universal "wrapper,"** not tied to any one game — whereas a **single-title** V-Deck should be reflective of its game (an earlier agreed rule Lena cited). [[raw/game_design-april-3-2025.md]]
 - **Major-in-the-bang-up (Efim):** Val wants the **major** progressive value included in the **white-coin "bang-up"** choreography — it must be **pulled and converted to credits dynamically in real time** at the moment of the event (only visible at high bet), sorted into the proper place in the sequence. A durable "we absolutely have to have it… we're going to use it going forward" requirement. [[raw/game_design-april-3-2025.md]]
 
+## Math emulator first playable + CoinTrio bonus philosophy (May 1)
+
+On the [[wiki/meetings/2025-05-01-game-design-review.md|May-1 review]] the **math emulator / test tool** (the Miranda→math tool above) reached a first milestone, and the team articulated the Fortune-Foo-Paws bonus-math philosophy: [[raw/game_design_review-may-1-2025.md]]
+
+- **First playable build this week.** A "preliminary" math emulator now lets [[wiki/people/michael-gottlieb.md|Michael]] and [[wiki/people/efim-podvoiski.md|Efim]] play the bonuses and see how they behave — "buggy, but expected to be buggy." Val's one hard note: reduce the **delay between pressing spin and the reels starting** so it "plays like a slot machine" (animations/polish not the concern yet). [[raw/game_design_review-may-1-2025.md]]
+- **It is separate from the shipping product.** The emulator is built **in Unity, in C#** (not Pixi, not Node.js), and is "**one monolithic piece**" wedged into the **Fortune Foo Paws** game — so it **cannot be reused** as a generic math emulator for another game. The team split on framing: Michael read fast emulator progress as "Fortune Full Pause is moving faster," which Efim/others corrected — a math-emulator framework is not the actual-product framework. Some solutions/ideas (reels rotation, math-server connection, 15-independent-reel bonus rotation) will transfer to other games' math, but the emulator itself won't. [[raw/game_design_review-may-1-2025.md]]
+- **Bonus-math philosophy (CoinTrio-aligned).** The design mirrors the competitor **CoinTrio**: trigger **one coin** in the bonus → a decent-but-maybe-underwhelming experience; **two coins** → elevated expectation, a pretty good bonus; **three coins** → a shot at "knocking it out of the park." The **base game is deliberately "worthless"** — a ~**38% base / bonus** split (Michael noted ~91% RTP context) vs a conventional ~**70/30** base/bonus — because the value lives in the bonus (matching CoinTrio "and all these damn games now"). Building the exact feel is hard because competitor **parse sheets** give only surface-level behavioural data (e.g. no false-hit-to-real-hit ratio for the "Kaban" coin). [[raw/game_design_review-may-1-2025.md]]
+
 ## Open questions
 
 - Should JVL scale the **progressive value to denomination** (Val's view) or keep it flat and only *signal* higher-RTP denominations visually (the industry norm Michael/Efim defend)? Recorded as an **open product debate** — Val's opinion is logged, nothing is changed to the base math. [[raw/game_design_meeting_march_7_2025.md]]
@@ -127,3 +135,4 @@ On the Apr 3 review ([[wiki/meetings/2025-04-03-game-design-vdeck-review.md]]) t
 - [[raw/michael_gottlieb_val_meeting-26-2025.md]]
 - [[raw/game_design-april-1-2025.md]]
 - [[raw/game_design-april-3-2025.md]]
+- [[raw/game_design_review-may-1-2025.md]]

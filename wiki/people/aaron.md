@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 46
+source-count: 48
 open-commitments: 1
 ---
 
@@ -135,6 +135,11 @@ Across two sessions Aaron worked Val through how code actually relates to Jira, 
 - **Apr 24:** Aaron designed the **"JVL Home" Jira Service Management + Confluence** ITSM setup for the legacy amusement base (polar-bear-themed portal, knowledge-base-first, funnel resolved cases back as "equity"). See [[wiki/topics/echo-home-gaming-device.md]]. [[raw/echo-home_jira-service-apr-24-2025.md]]
 - **Apr 30:** on the secrets-management session ([[wiki/meetings/2025-04-30-secrets-management-strategy.md]]) Aaron pushed "define the why first," generated a **value-perspective doc + a maturity self-assessment framework** via an MCP "thinking"/sequential-reasoning server on his GitHub (published as a container), and coached starting with GitHub CI/CD and AWS/Jenkins keys, OAuth over static API keys. See [[wiki/topics/infosec-and-server-infrastructure.md]]. [[raw/secrets_server-apr-30-2025.md]]
 
+## May 1 2025 — Miranda organizing + the Unity question
+
+- **Organizing Miranda ([[wiki/meetings/2025-05-01-organizing-miranda-github.md]]):** Aaron met Dmitriy Khandov (~Apr 29) and recapped to Val an action list to clean up the Miranda repo (`.gitignore`, purge logs/libraries, delete stale branches, a packaging/zip strategy) before opening a feature branch to fold the math emulator back in; the emulator may move to its own repo/product (undecided). He was candid that he wasn't sure Dima had fully understood. See [[wiki/topics/miranda-authoring-tool.md]]. [[raw/organizing_miranda_github-may-1-2025.md]]
+- **Unity-instead-of-Miranda ([[wiki/meetings/2025-05-01-unity-instead-of-miranda.md]]):** with Val, Aaron probed Sasha on adopting Unity (now free of per-install fees) in place of Miranda; Aaron noted C# can be compiled on Linux with no OS-license cost. No decision. See [[wiki/topics/miranda-authoring-tool.md]]. [[raw/unity_instead_miranda-may-1-2025.md]]
+
 ## Sources
 
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
@@ -183,3 +188,5 @@ Across two sessions Aaron worked Val through how code actually relates to Jira, 
 - [[raw/aaron_vector_knowledge_base-apr-23-2025.md]]
 - [[raw/echo-home_jira-service-apr-24-2025.md]]
 - [[raw/secrets_server-apr-30-2025.md]]
+- [[raw/organizing_miranda_github-may-1-2025.md]]
+- [[raw/unity_instead_miranda-may-1-2025.md]]

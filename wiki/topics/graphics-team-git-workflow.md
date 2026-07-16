@@ -3,7 +3,7 @@ type: topic
 title: Graphics team Git workflow (PR discipline, CI tickets, deploy pipeline)
 date: 2025-03-12
 aliases: [designer git workflow, graphics PR discipline, pull request discipline, contact sheet action, assets deploy pipeline, fork from template, help desk CI tickets, performative pull request, pull request back to template, template per game type]
-source-count: 6
+source-count: 7
 ---
 
 # Graphics team Git workflow (PR discipline, CI tickets, deploy pipeline)
@@ -75,6 +75,10 @@ Before any of the above existed, Val framed the need on the Feb 7 homework sessi
 
 The Apr-28 Miranda GitHub review ([[wiki/meetings/2025-04-28-miranda-github-versioning.md]]) surfaced the graphics side's weak Git discipline: [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]] had dumped a single **"V8" commit of ~12,000 files**, left stale branches open for two months, and committed straight to `main` — the opposite of the continuous-commit / clean-release discipline this page describes. Fix: **versions as Git release tags** (not Jira), and coaching toward continuous commits. Detail on [[wiki/topics/miranda-authoring-tool.md]]. [[raw/miranda_github-apr-28-2025.md]]
 
+## May 1 2025 — the Miranda clean-up action list (a repo-hygiene lesson)
+
+Extending the Apr-28 review, [[wiki/people/aaron.md|Aaron]]'s May-1 recap with Val ([[wiki/meetings/2025-05-01-organizing-miranda-github.md]]) set [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]] a concrete repo-hygiene action list for the **Miranda** repo — the same discipline this page describes: add a **`.gitignore`**, **purge logs/libraries** from the repo, **delete stale branches**, and adopt a **packaging strategy** (zip libraries on commit of a new version), before opening a feature branch for the emulator integration. Detail on [[wiki/topics/miranda-authoring-tool.md]]. [[raw/organizing_miranda_github-may-1-2025.md]]
+
 ## Sources
 
 - [[raw/GitHub repository structure.md]]
@@ -83,3 +87,4 @@ The Apr-28 Miranda GitHub review ([[wiki/meetings/2025-04-28-miranda-github-vers
 - [[raw/michael_gottlieb_val_meeting-26-2025.md]]
 - [[raw/devops_container_approach_for_omni.md]]
 - [[raw/miranda_github-apr-28-2025.md]]
+- [[raw/organizing_miranda_github-may-1-2025.md]]

@@ -3,7 +3,7 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-04-17
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation]
-source-count: 3
+source-count: 4
 open-questions: 2
 ---
 
@@ -66,8 +66,18 @@ A ~3-hour [[wiki/people/val-levitan.md|Val]]–[[wiki/people/lev-rudky.md|Lev]] 
 - **Software sales (Georgia):** JVL is setting up to sell ~**2,000 software items over ~8 months to ~50 customers** (4–6 distinct softwares, e.g. "pitch"/"DLKG"). Each software sale needs an **item number + version/approval-letter number + customer + MSRP + discount**, and must be **married to a RIS (Remote Initial Setup) config file** that comes from the JVL system while the invoice/price/customer come from the accounting system — an unsolved data-marriage problem needing [[wiki/people/pavel.md|Pavel]] and [[wiki/people/dmitri-chudinov.md|Dima Chudinov]]. [[raw/business_central_update-apr-28-2025.md]]
 - **Purchase-order / sales-order role model (segregation of duties):** Val wants **[[wiki/people/hector.md|Hector]] removed from creating purchase orders** (he is the controlling arm — a PO creates a liability); **[[wiki/people/mary.md|Mary]]** creates POs for non-BOM items (e.g. GLI); **[[wiki/people/mikhail-perelman.md|Michael]]** focuses on purchasing BOM. **Sales orders** (customer-facing) → [[wiki/people/felipe-miranda.md|Felipe]], the Florida "Andrei," or [[wiki/people/juan-martinez.md|Juan Martinez]]; **purchase orders** (internal) → [[wiki/people/sebastian.md|Sebastian]], [[wiki/people/elizabeth.md|Elizabeth]]. Arkady only picks and ships; the invoice is triggered (posted, irrevocable) at shipment. Each BC user costs ~**$1,000–1,200/year**. [[raw/business_central_update-apr-28-2025.md]]
 
+## May 1 2025 — Val's own BC license, and the sequencing of software-sales + Labs conversion
+
+On the [[wiki/meetings/2025-05-01-action-list-review-lev-rudky.md|May-1 action-list review]] with [[wiki/people/lev-rudky.md|Lev]]: [[raw/action_list_review_lev_rudky-may-1-2025.md]]
+
+- **Val gets a full BC license.** Val asked Lev to set him up with a **full, unrestricted Business Central license** (not read-only) so he can work in it directly. BC is a **portal — no installation**. Lev must order the license (through the partner + payment, ~a week), configure Val as a user, and send credentials. A **"Val Setup and demo on Business Central"** session was booked for **May 15, 1 pm** (one hour = overview only). [[raw/action_list_review_lev_rudky-may-1-2025.md]]
+- **Software-sales handling (action point #3) → discussion meeting May 8.** Rather than implement first, Val wants to align on **how to handle software sales** — synchronising the **remote initial setup** and **invoice issuance** with Minsk (Minsk may supply easier-to-work-with fields). A meeting was set for **May 8, 7 am**, with Lev, [[wiki/people/pavel.md|Pavel]] (back from vacation May 7) and [[wiki/people/dmitri-chudinov.md|Dima Chudinov]]; each site then implements on its own side. This is the software-licensing-per-operator thread — see [[wiki/decisions/2025-04-03-license-software-per-operator-not-machine.md]]. [[raw/action_list_review_lev_rudky-may-1-2025.md]]
+- **Accelerated JVL Labs → BC conversion (unlisted extra).** Val told Lev to start preparing to **convert JVL Labs into Business Central on an accelerated basis** — not on the current action list, but coming. Sequence: settle the business logic on points #3 (software sales) and #4 (segregation of duties) → convert Labs to BC → implement segregation of duties + the remote-initial-setup flags/markings within invoicing. [[raw/action_list_review_lev_rudky-may-1-2025.md]]
+- **Segregation of duties (action point #4)** to be developed in a series of meetings with [[wiki/people/alka-sood.md|Alka]] and Lev, covering **Labs and Systems** — continuing the PO/sales-order role model from the Apr-28 call. [[raw/action_list_review_lev_rudky-may-1-2025.md]]
+
 ## Sources
 
 - [[raw/business_central_implementation_update-apr-17-2025.md]]
 - [[raw/ris_business_central_integration-april-3-2025.md]]
 - [[raw/business_central_update-apr-28-2025.md]]
+- [[raw/action_list_review_lev_rudky-may-1-2025.md]]

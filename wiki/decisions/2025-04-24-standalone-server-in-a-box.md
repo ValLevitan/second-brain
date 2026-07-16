@@ -24,7 +24,7 @@ Val's "final verdict" on the Apr-24 2025 FlexPay evolution call ([[wiki/meetings
 
 ## Status
 
-Active as of 2025-04-24. Follow-up meeting set for May 2.
+Active as of 2025-04-24. The follow-up ran across **May 1–2** as tower/POS industrial-design reviews with Genadi (see [[wiki/topics/flexpay-business-architecture-payout-devices.md]]); the server-in-a-box verdict itself was not revisited there.
 
 ## Sources
 

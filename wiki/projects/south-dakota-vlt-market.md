@@ -3,7 +3,7 @@ type: project
 title: South Dakota VLT market entry
 date: 2025-01-22
 aliases: [South Dakota, SD VLT, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950]
-source-count: 4
+source-count: 5
 ---
 
 # South Dakota VLT market entry
@@ -48,6 +48,14 @@ On the Denis Desmarais call ([[wiki/meetings/2025-04-05-denis-desmarais-south-da
 
 - **Border office plan:** open a **one-or-two-man mixed-use office right on the SD/NE border** ("I think there are two cities. One on South Dakota line and one is on Nebraska line") — commercial office in front, **small warehouse in back** to prepare machines for customers — serving **Nebraska, South Dakota, North Dakota and Wyoming** ("the area is huge"). Staffing it in the Georgia service-first mould; [[wiki/people/denis-desmarais.md|Denis Desmarais]] is the candidate being courted (after the Mar-29 Julian Puerta pitch). [[raw/denis_desmarais_south_dakota_nebraska-April-5-2025.md]]
 
+## Trial status + office manager (May 1 2025)
+
+From the [[wiki/meetings/2025-05-01-game-design-review.md|May-1 review]]: [[raw/game_design_review-may-1-2025.md]]
+
+- **Software passed the regulator.** The final test build "passed from their perspective"; JVL now sends it to **GLI**, then runs a **mandatory trial for the first installation**. But JVL must also complete a **technician-training/certification program** so technicians are qualified to service the games — so the actual **first go-live is still ~45–50 days away**. [[raw/game_design_review-may-1-2025.md]]
+- **SD game lineup:** Dutchville, Lions Riches, Dragons, Pennies, Liberty Spins, Clover, and Wild Cold (performance data from these won't be available before Nebraska decisions must be made). [[raw/game_design_review-may-1-2025.md]]
+- **Border office manager starting May 19.** Val found "a good individual to manage our office in South Dakota" starting **May 19**, positioned **on the SD/NE border** with a new office opening there — the border-office plan from Apr 5 (candidate context = [[wiki/people/denis-desmarais.md|Denis Desmarais]], name not stated on this call — inference). Part of the revenue-focus imperative (SD/Nebraska/Georgia + the FlexPay financial product "must get revenue"). [[raw/game_design_review-may-1-2025.md]]
+
 ## Who
 
 - Driven by [[wiki/people/val-levitan.md|Val]] with [[wiki/people/juan-martinez.md|Juan]] (regulator/operator relationship, field side) and [[wiki/people/pavel.md|Pavel]] (Minsk software); [[wiki/people/irina-makarych.md|Irina]] on printer testing and GLI diffs, [[wiki/people/sebastian.md|Sebastian]] on field service, [[wiki/people/ivan.md|Ivan]] on GLI scheduling. **Lonnie** is the SD lottery-lab tester; **"Alani"** appears as the SD lottery (supplied the SAS adapter, requested the permit-number rename) — whether Alani is the lottery entity or a person there is unclear (see Owner Decisions). [[raw/sd_vlt_recap-jan-22-2025.md]] [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
@@ -59,3 +67,4 @@ On the Denis Desmarais call ([[wiki/meetings/2025-04-05-denis-desmarais-south-da
 - [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 - [[raw/tech_and_settings_issues-juan_martinez-april-3-2025.md]]
 - [[raw/denis_desmarais_south_dakota_nebraska-April-5-2025.md]]
+- [[raw/game_design_review-may-1-2025.md]]

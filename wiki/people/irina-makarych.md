@@ -6,6 +6,7 @@ aliases: [Irina Makarych, Irina, Irina Makarich]
 source-count: 13
 open-commitments: 0
 open-questions: 0
+disambiguation: "Junior Minsk programmer (printer testing, math XML, build cases). A second 'Irina' now exists — [[wiki/people/irina-shishko.md|Irina Shishko]], the Minsk workshop/shop-floor coordinator. Resolve by context: programming/QA/build/math-XML → Makarych; shop-floor resourcing/logistics → Shishko. (Not an owner-ruled cluster yet — queued.)"
 ---
 
 # Irina Makarych

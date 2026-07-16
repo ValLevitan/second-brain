@@ -3,7 +3,7 @@ type: person
 title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka]
-source-count: 22
+source-count: 23
 open-commitments: 1
 open-questions: 0
 ---
@@ -79,6 +79,10 @@ On the scheduling session ([[wiki/meetings/2025-04-22-calle-ocho-omni-feature-sc
 
 On the setup-screens review ([[wiki/meetings/2025-04-24-omni-setup-screens-june-scope.md]]) "Sasha Biratko" (transcribed Beratko / Piratko / Deratka) owns the **game↔framework↔LGS communication** in his development plan; phoned mid-call, he confirmed that using the **legacy setup screens requires no changes in LGS** — the technical basis for shipping the June-1 release with legacy screens + new React initial-setup screens. See [[wiki/decisions/2025-04-24-omni-first-release-legacy-plus-remote-setup-screens.md]]. [[raw/set_up_screen_omni-apr-24-2025.md]]
 
+## May 1 2025 — the "Unity instead of Miranda?" assessment
+
+On the [[wiki/meetings/2025-05-01-unity-instead-of-miranda.md|Unity reconsideration call]] Val and Aaron asked Sasha whether JVL could adopt a licensed Unity ecosystem (with its casino engines) and drop Miranda. Sasha's read: good performance for **land-based** and native apps, historically poor for **browser** builds (like Pixi) though much improved; Unity's engine language is **C#** (new to JVL — his ~10 Unity people are designers building only the theme/view, no logic); refactoring Miranda's logic into Unity is unknown and depends on how much game logic is externalised to the remote gaming server/math. No decision. See [[wiki/topics/miranda-authoring-tool.md]]. [[raw/unity_instead_miranda-may-1-2025.md]]
+
 ## Sources
 
 - [[raw/fp-7_performance_analysis_january_13_2025.md]]
@@ -103,3 +107,4 @@ On the setup-screens review ([[wiki/meetings/2025-04-24-omni-setup-screens-june-
 - [[raw/github_jira_reshuffling_products-april-7-2025.md]]
 - [[raw/omni_calle_ocho_scheduling-apr-22-2025.md]]
 - [[raw/set_up_screen_omni-apr-24-2025.md]]
+- [[raw/unity_instead_miranda-may-1-2025.md]]

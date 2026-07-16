@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena]
-source-count: 23
+source-count: 25
 ---
 
 # Genadi Peari
@@ -78,6 +78,10 @@ Val worked the payout-device design directly with Genadi (a Wednesday one-on-one
 - **Apr 15 SMIB weekly:** Gennady is the hardware support for the embedded team — he supplies the programmer to Felipe and stands by (with Pavel/Yavorski/Alekseev) for the pre-exhibition FlexPort firmware update. [[raw/weekly_embedded_group_flex_port_progress-apr-15-2025.md]]
 - **Apr 23 architecture meeting:** Gennady held the practical side of the **barcode-readability dispute** — he measured only **~10–12 cm** of scanner-to-ticket distance available in the cabinet bracket (10 cm suffices in his view), against Pavel's theoretical **15–20 cm** for the long central barcode; his undertaking is to verify readability on **FlexPay** after Pavel sends the reader's QR settings. He also confirmed the industrial-board preference (reject the cheap Chinese amusement board; a fanless **Tatang** board) for the standalone TITO server. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/evolution_flex_port-apr-23-2025.md]]
 
+## May 1–2 2025 — dispensing-tower / POS design with Val
+
+Two design calls ([[wiki/meetings/2025-05-01-flex-tower-spatial-design-review.md]], [[wiki/meetings/2025-05-02-flex-tower-pos-form-fit-design.md]]) working [[wiki/people/igor-starovoytov.md|Igor Starovoytov]]'s tower proposal. Genadi carried the hardware/mechanical side (tower width, the removable-head connector/mounting problem, dispenser sizing) and warned that a detachable-head-that-becomes-a-POS would force redesigning three Flex-S machines + the tower + a separate POS ("only come out by the end of next year"); Val resolved it by dropping the detachable head for a separate two-hood POS on unified FlexPort electronics. Genadi also handled the shop-floor logistics (preparing Evgeny [[wiki/people/evgeniy-alekseev.md|Alekseev]]'s working station, via [[wiki/people/arkady-batson.md|Arkady]] / [[wiki/people/irina-shishko.md|Irina Shishko]]). See [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/flex_tower_spacial_design_review-may-1-2025.md]] [[raw/flex_tower_pos_form_fit_design-may-2-2025.md]]
+
 ## Sources
 
 - [[raw/fp-7_performance_analysis_january_13_2025.md]]
@@ -103,3 +107,5 @@ Val worked the payout-device design directly with Genadi (a Wednesday one-on-one
 - [[raw/fkex_pay_evolution-apr-16-2025.md]]
 - [[raw/weekly_embedded_group_flex_port_progress-apr-15-2025.md]]
 - [[raw/evolution_flex_port-apr-23-2025.md]]
+- [[raw/flex_tower_spacial_design_review-may-1-2025.md]]
+- [[raw/flex_tower_pos_form_fit_design-may-2-2025.md]]

@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze]
-source-count: 15
+source-count: 16
 open-questions: 4
 ---
 
@@ -92,6 +92,14 @@ A follow-up session ([[wiki/meetings/2025-04-24-ga-coam-sas-51-52-eclipse-resolu
 
 - On the Apr-28 Business Central call Val credited a pre-Christmas 2024 sprint — "we worked non-stop, no holidays… and we shipped **330 machines to Georgia**" — as a "very good decision" that bought tariff-timing breathing room. See [[wiki/topics/tariffs-and-customs-compliance.md]]. [[raw/business_central_update-apr-28-2025.md]]
 
+## Curved-monitor delay + release status (May 1 2025)
+
+From the [[wiki/meetings/2025-05-01-game-design-review.md|May-1 review]]: [[raw/game_design_review-may-1-2025.md]]
+
+- **Curved-monitor cabinet delayed.** Val sacrificed the **curved-monitor** design schedule to prioritise the **financial product** (the FlexPay kiosk/dispenser/POS) for Georgia — so the curved monitor **will not be featured at the August gaming show** (not abandoned). JVL will still present the **vertical machine to Georgia without the curved monitor** ("a very good game… we shouldn't hold it"). [[raw/game_design_review-may-1-2025.md]]
+- **Revenue imperative.** Val's "laser focus": Nebraska, South Dakota, Georgia, and the financial product **must go out** to generate revenue (a hedge against the expected Georgia slot-revenue decline). [[raw/game_design_review-may-1-2025.md]]
+- **Fiery Ice Link + Peach One.** A **bug-fixed Fiery Ice Link** was uploaded to GLI, so **Kai-Ocho ("Gyocho") and Dragons of Rain** get re-approved shortly. The suspected **Peach One bug turned out to be a setting**; the Georgia office retested with instruction from Minsk, so **Peach One with the new nudge goes back to Eclipse** (with the other Peaches). [[raw/game_design_review-may-1-2025.md]]
+
 ## Open questions
 
 - Was JVL genuinely **out of SAS 51/52 compliance** since inception (Eclipse/GLC accepted it as "not applicable"), and does the lab-only auto-clear-lockup fix satisfy the mandatory-event requirement? Pending the Steve/GLC conversations. [[raw/sas_51_52_requirement_interpretation-april-14-2025.md]]
@@ -116,3 +124,4 @@ A follow-up session ([[wiki/meetings/2025-04-24-ga-coam-sas-51-52-eclipse-resolu
 - [[raw/sas_51_52_requirement_interpretation-april-14-2025.md]]
 - [[raw/ga-coam_error_51_52-apr-24-2025.md]]
 - [[raw/business_central_update-apr-28-2025.md]]
+- [[raw/game_design_review-may-1-2025.md]]

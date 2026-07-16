@@ -3,7 +3,7 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS]
-source-count: 6
+source-count: 8
 open-commitments: 6
 open-questions: 3
 ---
@@ -86,6 +86,16 @@ The next-day continuation ([[wiki/meetings/2025-04-24-flexpay-server-dispenser-p
 - **FlexPort main-board revision for production:** one main board common to FlexPort / dispenser / POS — **three RS-232 COM ports** (dispenser, scanner, reader), Ethernet, USB, and a **wide-range adjustable-voltage power connector on the main board** (dispensers run 24V, FlexPort today 12V), dropping the bill-acceptor interface board. [[wiki/people/eugine-yavorski.md|Eugene Yavorski]] does the main-port production update. A future maximal FlexPort at the machine could scan/encode cards and act as its own dispenser; **reloadable cards** become allowed "a year from now." [[raw/evolution_flex-pay_pos_server-apr-24-2025.md]]
 - Next meeting May 2. [[raw/evolution_flex-pay_pos_server-apr-24-2025.md]]
 
+## May 1–2 2025 — tower/POS industrial design converges on "no detachable head"
+
+Two [[wiki/people/val-levitan.md|Val]] ↔ [[wiki/people/genadi-peari.md|Genadi]] design calls reviewing [[wiki/people/igor-starovoytov.md|Igor Starovoytov]]'s industrial-design proposal — the [[wiki/meetings/2025-05-01-flex-tower-spatial-design-review.md|May-1 spatial review]] and the [[wiki/meetings/2025-05-02-flex-tower-pos-form-fit-design.md|May-2 POS form/fit]] (the "next meeting May 2" from Apr-24). Both transcripts internally duplicate (§12) — facts taken once.
+
+- **Tower anatomy (as proposed):** a **housing** containing only the dispenser (available in two sizes), a **removable head** as the main unit (holding the FlexPort electronics — the screen + touchscreen "sandwich" — plus an **optical scanner** to read any-shape barcodes), and an **optional pedestal** for the floor. Width discussion: currently **8 inches**, Val comfortable widening to **~10 inches** ("no strategic benefit" to saving width) with the credit-card swipe moved beside the screen inside the head; Genadi thought 10" felt like "a suitcase" (expected 6–7"). [[raw/flex_tower_spacial_design_review-may-1-2025.md]]
+- **Unify FlexPort to drive both tower and POS.** Val wants the FlexPort brought to a state where the **identical** electronics/screen/insert serve both the tower head and a standalone POS — the extra cost to make FlexPort do both is minimal, and he doesn't want a separate hardware revision. FlexPort is "the main brains/engine." Only the **main board** goes in the tower head; the **third interface board** (bill-acceptor + extras) is left out there. [[raw/flex_tower_spacial_design_review-may-1-2025.md]]
+- **The design resolution — drop the detachable head.** A head that detaches to become a convertible POS needs special **"floating" (self-mating) connectors**, guides and mounting — complex, costly, slow. Genadi warned that path means redesigning **three Flex-S machines + the tower dispenser + a separate POS**, which "we'd only come out with by the end of next year." Val's fix: **do not make a detachable head.** Build the **POS separately** from the same electronics/screen/insert, just wrapped in **"two hoods"** (top + bottom plastic covers), skipping the adapter boards and sliding connectors entirely — cheaper and faster. Mounting: the **back cover** carries the stand/leg; connectors (Ethernet, power, maybe USB for service) exit the side or back/bottom. [[raw/flex_tower_spacial_design_review-may-1-2025.md]]
+- **Screen: rotate, don't flip (May 2).** For a POS that must serve both attendant and player, the screen should **rotate ~180° horizontally in the plane parallel to the table** (a "twist"), **not flip** — a flip would need an **accelerometer** and an ugly mid-redraw. Keep the device **thin** ("rotate a piece of paper, not a brick"). Orientation rule: **horizontal** reads better when the unit sits **on a stand**; **vertical** suits a unit held **in the hand**. Initial builds can ship with **one screen + a pivot**; full POS-by-rules needs two screens (attendant-facing + a player info screen). [[raw/flex_tower_pos_form_fit_design-may-2-2025.md]]
+- **Next steps:** Val to hand Igor Starovoytov all the models so he draws over the weekend; Val had a **6-hour design session with Igor** that evening (May 2). A candidate off-the-shelf POS **bracket at $77** was noted as interesting. [[raw/flex_tower_spacial_design_review-may-1-2025.md]] [[raw/flex_tower_pos_form_fit_design-may-2-2025.md]]
+
 ## Open commitments
 
 - [ ] Igor Starovoytov — draw the tower's industrial design (dimensions; standalone view + a between-machines view; gray/milky, no lighting, 7-inch front screen) — due ~Wed/Thu Apr 16–17 — [[raw/fkex_pay_evolution-apr-16-2025.md]]
@@ -109,3 +119,5 @@ The next-day continuation ([[wiki/meetings/2025-04-24-flexpay-server-dispenser-p
 - [[raw/fkex_pay_evolution-apr-16-2025.md]]
 - [[raw/evolution_flex_port-apr-23-2025.md]]
 - [[raw/evolution_flex-pay_pos_server-apr-24-2025.md]]
+- [[raw/flex_tower_spacial_design_review-may-1-2025.md]]
+- [[raw/flex_tower_pos_form_fit_design-may-2-2025.md]]

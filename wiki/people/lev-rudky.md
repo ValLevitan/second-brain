@@ -3,7 +3,7 @@ type: person
 title: Lev Rudky
 date: 2024-01-01
 aliases: [Lev Rudky, Lev, Lev Rudki, Лёва Рудки]
-source-count: 6
+source-count: 7
 ---
 
 # Lev Rudky
@@ -20,6 +20,10 @@ Lev Rudky appears in the **JVL Insights** knowledge-base proposal (~2023–24) a
 
 On a ~3-hour BC status call ([[wiki/meetings/2025-04-28-business-central-labs-tariffs-status.md]]) Lev walked Val through Systems (fully functioning, minor undocumented customizations), the Mexico shutdown, the plan to implement **JVL Labs with a light manufacturing module on a shared tenant**, the **HS-code/tariff tracking** to add to the vendor card (made his #1 priority), the software-sale/RIS data-marriage problem, and the purchase-order/sales-order role model. Detail on [[wiki/topics/business-central-erp-implementation.md]] and [[wiki/topics/tariffs-and-customs-compliance.md]]. [[raw/business_central_update-apr-28-2025.md]]
 
+## May 1 2025 — action-list review (HS codes, software sales, Val's BC license)
+
+On the [[wiki/meetings/2025-05-01-action-list-review-lev-rudky.md|May-1 review]] of the 6-point action list he had emailed Val, Lev reported HS codes now assigned to every purchased component in Navision (country-of-origin the missing field), owed an **Excel HS report (by vendor/part/HS code) for China & Korea imports by the evening of May 2**, and took the setup of Val's own **full Business Central license** (demo booked May 15, 1 pm). Point #3 (software sales) goes to a **May 8, 7 am** meeting with Pavel + Dima Chudinov; point #4 (segregation of duties) to a series with Alka; and Val told him to start preparing an **accelerated JVL Labs → BC conversion**. Detail on [[wiki/topics/tariffs-and-customs-compliance.md]] and [[wiki/topics/business-central-erp-implementation.md]]. [[raw/action_list_review_lev_rudky-may-1-2025.md]]
+
 ## Sources
 
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
@@ -28,3 +32,4 @@ On a ~3-hour BC status call ([[wiki/meetings/2025-04-28-business-central-labs-ta
 - [[raw/business_central_implementation_update-apr-17-2025.md]]
 - [[raw/andrei_klimovich_update-apr-18-2025.md]]
 - [[raw/business_central_update-apr-28-2025.md]]
+- [[raw/action_list_review_lev_rudky-may-1-2025.md]]

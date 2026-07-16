@@ -3,7 +3,7 @@ type: topic
 title: Game art & animation production pipeline (comp art → Miranda)
 date: 2025-03-12
 aliases: [animation production, comp art pipeline, CompArt, storyboards, Spine, Blender, After Effects, placeholder build, Miranda scene assembly, art production stages, spike, sorting, symbol containers]
-source-count: 4
+source-count: 5
 ---
 
 # Game art & animation production pipeline (comp art → Miranda)
@@ -69,9 +69,19 @@ Val and Lena walked the **game-production task list in Miro** item by item to es
 - **The production stages (Lena's map):** CompArt for main scene + free spins → per-symbol **"detailing"** (each symbol's parameters: oversized?, animation length, animation description, anticipation animation) → per-symbol production. **Precog** = an artistic-approach illustration Lena shows Michael for approval; **Anton** draws the objects (illustration, since Anton doesn't do 3D), then **Nastya/Natasha** animate (AI used to combine/cut illustration pieces, then hand-animated). [[raw/games_production-apr-18-2025.md]]
 - **Critical resources:** Lena priced only the **critical, non-substitutable** resources (**Dima, Nastya, Yulia**) who run **fully in parallel** — Dima's V-Deck project is completely self-contained (depends on no one). **Anton** shares his time across games (Jet Patrasche / George), so she hadn't priced his tasks and would fill them in the next day with him. Val pushed to estimate **time-per-person first**, then lay out a parallel schedule to expose the resource bottleneck (the "second Dima" thought experiment). [[raw/games_production-apr-18-2025.md]]
 
+## Art status (May 1 2025)
+
+From the [[wiki/meetings/2025-05-01-game-design-review.md|May-1 review]]: [[raw/game_design_review-may-1-2025.md]]
+
+- **Nebraska "Corn Husker" bonus** progressing ([[wiki/people/lena.md|Lena]]): she is toning down the bright corn stalks around the logo and building out the extra screens (second screens for bonus, topper for bonus) noted in the design stories. [[raw/game_design_review-may-1-2025.md]]
+- **Regulator video instead of a machine.** For Nebraska, the regulator will accept a **video** rather than a physically shipped machine. **Vitaly** records it Monday (back from holiday); the team will show **one three-reel and one five-reel** game (the classic nudge effect is consistent across games, so one of each covers it) — e.g. Aztec Star + Lion's Riches. **Vlad** does the sound processing on top; Lena's team confirms the preferred audio format. [[raw/game_design_review-may-1-2025.md]]
+- **Cuban-rooster reskin idea.** Val floated turning **Jinji Du Li** (a Chinese-rooster clone of Fortune Foo Paws; the other clone is **Cash Kittens**) into a **three-Cuban-roosters** game to build on the traction of the Cuban theme (**Calle Ocho / "Callejo"**) — same mechanics as Fortune Foo Paws. The team was "overwhelmingly in favour"; not a committed decision. [[raw/game_design_review-may-1-2025.md]]
+- **2D decks** for **Diamond Link** and **JetPort Rush** (Georgia) to finish "next week," with the discussed changes. [[raw/game_design_review-may-1-2025.md]]
+
 ## Sources
 
 - [[raw/Game Development How animation are made with Lena - March 12-2025.md]]
 - [[raw/graphical_assets_redesign_omni_calle_ocho-apr-17-2025.md]]
 - [[raw/games_production-apr-18-2025.md]]
 - [[raw/game_design-april-3-2025.md]]
+- [[raw/game_design_review-may-1-2025.md]]
