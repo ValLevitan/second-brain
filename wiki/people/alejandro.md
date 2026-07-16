@@ -2,8 +2,8 @@
 type: person
 title: Alejandro
 date: 2025-04-15
-aliases: [Alejandro, Mexico external accountant]
-source-count: 1
+aliases: [Alejandro, Alejandro de la Rosa, de la Rosa, Mexico external accountant]
+source-count: 2
 open-commitments: 1
 disambiguation: "External Mexican accountant/tax advisor engaged for JVL Mexico's wind-down (zero-declarations + tax-audit support). Surname not stated in the source. Distinct from Erica, the internal Mexico bookkeeper let go in the Mar-24 closure."
 ---
@@ -23,6 +23,11 @@ Alejandro is an **external Mexican accountant / tax advisor** whom Val brought o
 
 - [ ] Alejandro — email Val a proposed yearly standby-retainer figure for post-closure JVL Mexico tax/audit support — due same day (Apr 15 2025 evening) — [[raw/mexico_jvl_orderly_wind-down-apr-15-2025.md]]
 
+## Apr 28 2025 — surname confirmed ("de la Rosa"); retained through closure
+
+On the Apr-28 Mexico wind-down call with lawyer [[wiki/people/humberto-sarkis.md|Humberto Sarkis]], Val named him **"Alejandro de la Rosa"** — confirming the surname (consistent with the JVL Mexico accountant `adelarosa@dlrcontadores.com.mx`). Val "continue[s] employing Alejandro de la Rosa… at a really minimal cost" until JVL Mexico is closed, paying him **directly from the US company** (not the Mexico office). [[raw/jvl_mexico_wind-down-humberto_sarkis-apr-28-2025.md]]
+
 ## Sources
 
 - [[raw/mexico_jvl_orderly_wind-down-apr-15-2025.md]]
+- [[raw/jvl_mexico_wind-down-humberto_sarkis-apr-28-2025.md]]

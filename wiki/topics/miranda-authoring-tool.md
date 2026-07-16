@@ -3,7 +3,7 @@ type: topic
 title: Miranda — the Unity game-authoring plugin suite
 date: 2025-03-21
 aliases: [Miranda, Miranda plugin, Miranda plugin suite, Miranda 8, Miranda 9, Miranda exports, translatable images]
-source-count: 4
+source-count: 6
 open-questions: 2
 ---
 
@@ -46,9 +46,17 @@ On the Feb 10 repo-structure meeting ([[wiki/meetings/2025-02-10-github-repo-str
 - ~~Is the dedicated Miranda developer ("your dad") Andrew Khandov?~~ **RESOLVED (owner ruling 2026-07-14): yes — Andrew Khandov is Dmitriy Khandov's father** and the dedicated Miranda developer. (Owner correction is its own citation.)
 - Who are "Pavel and Arena" whom Dimitri should negotiate Miranda's development with — "Arena" is a garbled name (Irina? Lena?). — [[raw/Even more on Miranda.md]]
 
+## Apr 28 2025 — GitHub versioning and Dmitriy's commit hygiene
+
+On a short working session ([[wiki/meetings/2025-04-28-miranda-github-versioning.md]]) Val set how Miranda is versioned in Git: the repo should be named just **"Miranda"** (not "Miranda 8" — "maybe a couple of repositories… depending on how modular it is"), and **versions are Git release tags** on a commit ("this commit represents… version 8"), **never versions in Jira** ("that means the tail is wagging the dog. The version should come from the Git repo, which will be the truth"). Reviewing [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]'s work, Val found a single **"V8" commit of ~12,000 files** ("we asked him to, with all fairness"), stale branches open for two months, and commits going straight to `main` — "no organizational skills related to keeping a clean, planned… release." A meeting was set for the next day (8 am Eastern) to coach **continuous commits**. [[raw/miranda_github-apr-28-2025.md]]
+
+- Related (Apr 30): Val wants Dmitriy Khandov's **Unity license placed into the CI actions** (via the secrets-management platform) so **Miranda can be built in GitHub CI** and other people's build actions can use it — see [[wiki/topics/infosec-and-server-infrastructure.md]]. [[raw/secrets_server-apr-30-2025.md]]
+
 ## Sources
 
 - [[raw/Explain Miranda.md]]
 - [[raw/More on Miranda.md]]
 - [[raw/Even more on Miranda.md]]
 - [[raw/github _structure-pavel-aaron-andrei.md]]
+- [[raw/miranda_github-apr-28-2025.md]]
+- [[raw/secrets_server-apr-30-2025.md]]

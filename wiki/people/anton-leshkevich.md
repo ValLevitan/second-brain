@@ -4,7 +4,7 @@ title: Anton Leshkevich
 date: 2025-01-21
 aliases: [Anton Leshkevich, Anton, Antoine, Anton Dmishkevich, Дмишкевич, Дмишкевичем]
 disambiguation: "One of THREE distinct Antons. Anton Leshkevich = Minsk engineer (Omni/RGS, this page). Distinct from Anton Seregin (Minsk payroll, wiki/people/anton-seregin.md) and the SMM/Meta-ads contractor (wiki/people/anton-smm.md). Owner-confirmed 2026-07-13. Resolve 'Anton' by context; queue if unclear."
-source-count: 10
+source-count: 11
 open-commitments: 1
 open-questions: 0
 ---
@@ -51,6 +51,10 @@ On the scheduling session ([[wiki/meetings/2025-04-22-calle-ocho-omni-feature-sc
 
   - **Identity note — OWNER-CONFIRMED (2026-07-15):** the transcript surname "**Антоном Дмишкевичем / Anton Dmishkevich**" is a **transcription garble**, positively this Anton Leshkevich (not a distinct person). The garble variants are recorded in his aliases so future occurrences auto-resolve. [[raw/omni_calle_ocho_scheduling-apr-22-2025.md]]
 
+## Apr 24 2025 — demos the first Omni integration test; trains QA engineers
+
+On the Omni integration-tests onboarding ([[wiki/meetings/2025-04-24-omni-integration-tests-qa-onboarding.md]]) Anton demoed the **first Omni init-setup integration test** — **Selenium + TypeScript on Node.js** (chosen over Playwright, which was harder to fit into JVL's custom automation framework) — run against a local **LGS docker + LGS-UI** repo via `Yarn Start`. Tests live in the Git repo beside the code, each with a unique key (for future X-Ray integration). Consistent with the [[wiki/decisions/2025-04-16-replace-testers-with-test-engineers.md|Apr-16 decision]] that Anton **trains the QA engineers** to write integration tests rather than writing them himself; Val named him (with [[wiki/people/alexander-biratka.md|Alexander Biratko]]) as a TypeScript-learning source. Detail on [[wiki/topics/test-automation-strategy.md]]. [[raw/integration_tests-apr-24-2025.md]]
+
 ## Sources
 
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
@@ -63,3 +67,4 @@ On the scheduling session ([[wiki/meetings/2025-04-22-calle-ocho-omni-feature-sc
 - [[raw/daily_omni_progress-apr-15-2025.md]]
 - [[raw/daily_omni_progress-april-16-2025 (Val Levitan's conflicted copy).md]]
 - [[raw/omni_calle_ocho_scheduling-apr-22-2025.md]]
+- [[raw/integration_tests-apr-24-2025.md]]

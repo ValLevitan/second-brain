@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze]
-source-count: 13
+source-count: 15
 open-questions: 4
 ---
 
@@ -81,6 +81,17 @@ On the Apr 14 call ([[wiki/meetings/2025-04-14-sas-51-52-georgia-coam-interpreta
 - **Val's reinterpretation (the fix):** jackpot, hand-pay and cash-out are **parallel, not sequential, conditions** — "a hand pay is a jackpot that cannot be paid automatically." His "cup of coffee with a donut" illustration: an operator sets a jackpot/lockup limit (e.g. $1,000) purely so a **buzzer fires (51)** and someone turns the key **(52)** — nothing else changes. So JVL should **allow setting a lockup limit and auto-clear it in the lab** to emit both 51 and 52 and pass certification, even though no operator uses it in the field (no real jackpot exists federally). The team agreed this is a **re-interpretation** ("we misunderstood the requirement," which applies to **all markets**, not just Georgia) and that supporting the jackpot limit is effectively a **new requirement** to write for the COAM product. Class-3 difference recorded: Class 3 has a **$1,200 IRS lockup limit** and does emit 51/52, but on key-turn the jackpot is paid by the house/system; in Georgia the money must return to the **credit meter** for the hands calculation. [[raw/sas_51_52_requirement_interpretation-april-14-2025.md]]
 - **FlexPay large-win handling (noted in passing):** if a win exceeds the **$1,000 gift-card max**, funds move to the temporary wallet → FlexPay and card issuance produces **two or more cards** (one $1,000, one for the remainder) — assuming enough hands to cash out. [[raw/sas_51_52_requirement_interpretation-april-14-2025.md]]
 
+## SAS 51/52 — Eclipse Peach-One resolution (Apr 24)
+
+A follow-up session ([[wiki/meetings/2025-04-24-ga-coam-sas-51-52-eclipse-resolution.md]]; Val, [[wiki/people/pavel.md|Pavel]], [[wiki/people/irina-makarych.md|Irina]]) after **Eclipse flagged JVL's "Peach One" submission** — Eclipse tester **Steven** said he can no longer test the hand-pay condition since JVL added **TITO AFT**. Resolution: [[raw/ga-coam_error_51_52-apr-24-2025.md]]
+
+- **Revert to supplying Eclipse two RIS files** — one with **no cash-out limit** and one with a **$20 limit** — so the lab can reproduce the hand-pay/lockup, rather than making the cash-out-limit field user-editable in the field (Val: "the locations never go in and mess with these settings," and making it broadly editable "could be additional issues"). Either approach was deemed acceptable, but double-RIS is less work and urgent. [[raw/ga-coam_error_51_52-apr-24-2025.md]]
+- A **hand-pay software fix** (properly emit **51** on lockup and **52** on key-turn/clear when the cash-out limit is set) is "ready right now," internally tested; the rest of the Peach-2 fixes are also ready. Plan: pass Eclipse with **Peach 1** first, then submit the next. Val to get [[wiki/people/felipe-miranda.md|Felipe]] to retest the AFT transfer with **United** (a ~10-minute test) if available. GLC "clearly said we do have to support these two events regarding a hand pay" — a mandated requirement. [[raw/ga-coam_error_51_52-apr-24-2025.md]]
+
+## Pre-Christmas 2024 Georgia push (noted Apr 28)
+
+- On the Apr-28 Business Central call Val credited a pre-Christmas 2024 sprint — "we worked non-stop, no holidays… and we shipped **330 machines to Georgia**" — as a "very good decision" that bought tariff-timing breathing room. See [[wiki/topics/tariffs-and-customs-compliance.md]]. [[raw/business_central_update-apr-28-2025.md]]
+
 ## Open questions
 
 - Was JVL genuinely **out of SAS 51/52 compliance** since inception (Eclipse/GLC accepted it as "not applicable"), and does the lab-only auto-clear-lockup fix satisfy the mandatory-event requirement? Pending the Steve/GLC conversations. [[raw/sas_51_52_requirement_interpretation-april-14-2025.md]]
@@ -103,3 +114,5 @@ On the Apr 14 call ([[wiki/meetings/2025-04-14-sas-51-52-georgia-coam-interpreta
 - [[raw/evolution_flex_pay-april-11-2025.md]]
 - [[raw/upgrade_ga-coam_kits-april-1-2025.md]]
 - [[raw/sas_51_52_requirement_interpretation-april-14-2025.md]]
+- [[raw/ga-coam_error_51_52-apr-24-2025.md]]
+- [[raw/business_central_update-apr-28-2025.md]]

@@ -2,8 +2,8 @@
 type: person
 title: Alexander Biratka
 date: 2026-07-12
-aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko]
-source-count: 21
+aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka]
+source-count: 22
 open-commitments: 1
 open-questions: 0
 ---
@@ -75,6 +75,10 @@ In the Omni daily Sasha (Biratka) was the framework owner: he writes the base cl
 
 On the scheduling session ([[wiki/meetings/2025-04-22-calle-ocho-omni-feature-scheduling.md]]) Sasha took the **VDAC Panel (FRAM 476)**, **Game Interface Integration (FRAM 478, sound + matrix symbol sorting)**, **Game History (FRAM 459, LGS state save/restore)** and the **LGS-framework+game packaging (FRAM 653)** — the heaviest share (the playable base-game build lands only end of May). See [[wiki/topics/omni-core-advancement-and-game-templating.md]]. [[raw/omni_calle_ocho_scheduling-apr-22-2025.md]]
 
+## Apr 24 2025 — game↔framework↔LGS communication (setup-screens review)
+
+On the setup-screens review ([[wiki/meetings/2025-04-24-omni-setup-screens-june-scope.md]]) "Sasha Biratko" (transcribed Beratko / Piratko / Deratka) owns the **game↔framework↔LGS communication** in his development plan; phoned mid-call, he confirmed that using the **legacy setup screens requires no changes in LGS** — the technical basis for shipping the June-1 release with legacy screens + new React initial-setup screens. See [[wiki/decisions/2025-04-24-omni-first-release-legacy-plus-remote-setup-screens.md]]. [[raw/set_up_screen_omni-apr-24-2025.md]]
+
 ## Sources
 
 - [[raw/fp-7_performance_analysis_january_13_2025.md]]
@@ -98,3 +102,4 @@ On the scheduling session ([[wiki/meetings/2025-04-22-calle-ocho-omni-feature-sc
 - [[raw/mcp_experiences_tech-apr-16-2025.md]]
 - [[raw/github_jira_reshuffling_products-april-7-2025.md]]
 - [[raw/omni_calle_ocho_scheduling-apr-22-2025.md]]
+- [[raw/set_up_screen_omni-apr-24-2025.md]]

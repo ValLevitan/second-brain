@@ -3,7 +3,7 @@ type: person
 title: Lev Rudky
 date: 2024-01-01
 aliases: [Lev Rudky, Lev, Lev Rudki, Лёва Рудки]
-source-count: 5
+source-count: 6
 ---
 
 # Lev Rudky
@@ -16,6 +16,10 @@ Lev Rudky appears in the **JVL Insights** knowledge-base proposal (~2023–24) a
 - **Apr 17 2025 — Business Central owner:** Lev is JVL's day-to-day owner of the **Business Central** ERP rollout. On a ~38-min status call he walked Val through the state of BC across the companies, the broken purchasing scheduler, what implementing JVL Labs would take, and the single-database license question (the manufacturing-vs-cheap-license rule, the US "Alara" tax add-on obstacle, tenant/environment/company levels). Full detail on [[wiki/topics/business-central-erp-implementation.md]]. [[raw/business_central_implementation_update-apr-17-2025.md]]
 - **Apr 18 2025 — US-sale invoicing:** in the invoice pipeline [[wiki/people/andrei-klimovich.md|Klimovich]] set up, **US-origin** machine sales go to Lev (he creates the invoice, calculating per-state sales tax) until BC is fully installed and Klimovich can enter invoices directly — a matter of "months." Canada-origin sales route to [[wiki/people/arkady-batson.md|Arkady]] instead. [[raw/andrei_klimovich_update-apr-18-2025.md]]
 
+## Apr 28 2025 — deeper Business Central status (Systems / Labs / tariffs)
+
+On a ~3-hour BC status call ([[wiki/meetings/2025-04-28-business-central-labs-tariffs-status.md]]) Lev walked Val through Systems (fully functioning, minor undocumented customizations), the Mexico shutdown, the plan to implement **JVL Labs with a light manufacturing module on a shared tenant**, the **HS-code/tariff tracking** to add to the vendor card (made his #1 priority), the software-sale/RIS data-marriage problem, and the purchase-order/sales-order role model. Detail on [[wiki/topics/business-central-erp-implementation.md]] and [[wiki/topics/tariffs-and-customs-compliance.md]]. [[raw/business_central_update-apr-28-2025.md]]
+
 ## Sources
 
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
@@ -23,3 +27,4 @@ Lev Rudky appears in the **JVL Insights** knowledge-base proposal (~2023–24) a
 - [[raw/ris_business_central_integration-april-3-2025.md]]
 - [[raw/business_central_implementation_update-apr-17-2025.md]]
 - [[raw/andrei_klimovich_update-apr-18-2025.md]]
+- [[raw/business_central_update-apr-28-2025.md]]

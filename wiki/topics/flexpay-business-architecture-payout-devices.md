@@ -3,7 +3,7 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS]
-source-count: 5
+source-count: 6
 open-commitments: 6
 open-questions: 3
 ---
@@ -76,6 +76,16 @@ A long English architecture meeting ([[wiki/meetings/2025-04-23-flexport-smib-ti
 - **Where the local TITO server lives (the long debate → a decision):** Val floated a standalone/cloud server; Pavel argued firmly for **Linux over the STM32/embedded route** (STM has "a lot of issues related to network communications… size of memory to write logs"; embedded code is "one monolithic software block file" vs modular, well-tested Linux; the Java/Linux code is reusable; more Linux specialists exist — Toronto, Minsk, Pavel himself). Reliability framing: the server is the **single point of failure for the whole location** ("when we have a CPU failure, one machine goes down… all nine machines go down" — max **9 FlexPort devices** per location), so a **99.5%-uptime + auto-recover** requirement, wired (not Wi-Fi) connection, minimal cooling (it only does "100 or 500 transactions per day"). The current cheap amusement board ("Kopini/Kardini", a "low-grade Chinese manufacturer") was judged unreliable; prefer a fanless industrial board (Gennady suggested **Tatang**) with NVMe + memory (~$120), "not… placing price tag as a criteria." **Resolution:** move the TITO server onto **its own standalone industrial-Linux hardware, presented as a separate product called "TITO server"** (see decision). [[raw/evolution_flex_port-apr-23-2025.md]]
 - **Dispenser hardware:** the card-dispensing tower will use **embedded (STM32-based) hardware similar to FlexPort**; when a location has a dispenser but no FlexPay, the TITO-server CPU box can be placed inside the dispenser enclosure (a separate CPU from the dispenser's own). [[raw/evolution_flex_port-apr-23-2025.md]]
 
+## Apr 24 2025 — server "in a box" locked; dispenser/POS design converges
+
+The next-day continuation ([[wiki/meetings/2025-04-24-flexpay-server-dispenser-pos-evolution.md]]) turned the Apr-23 direction into concrete decisions. [[raw/evolution_flex-pay_pos_server-apr-24-2025.md]]
+
+- **Standalone "server in a box" — Val's final verdict** (see [[wiki/decisions/2025-04-24-standalone-server-in-a-box.md]]): a Linux industrial board (3.5"×5", fanless, ~$120–130, ~10-yr life, "like our v1000 board, low performance"), mounted outside the machine like a router, **Ethernet-only** (never hardwired to FlexPay), in a deliberately oversized **Cisco-looking** enclosure. It runs **three** server apps — **JVL accounting host, Incom API, TITO server** (evolving the Apr-23 single-TITO-server framing). FlexPay stays on the machine CPU and just needs a **slave mode**. Samples: 4 to Toronto, 2 to Minsk. [[raw/evolution_flex-pay_pos_server-apr-24-2025.md]]
+- **Dispensing tower:** plastic enclosure on a metal pedestal, driven by FlexPort hardware + an embedded **STM** solution; scans a presented ticket → local server → Incom validate → dispenses a card, shown on a player-facing screen at ~45°, ~8" wide × ~10–11" deep. **Stacker capacity raised to 450 cards** (from 300/320). A cheaper/better dispenser brand chosen (~**$320 vs $375**, more capacity). A **vertical magnetic swipe reader** is built in; the optical scanner reads only tickets, not cards. [[raw/evolution_flex-pay_pos_server-apr-24-2025.md]]
+- **Detachable POS:** the top of the dispensing tower detaches to become the POS — a **mirror-image/symmetrical** design so a screen can face cashier or player (or the whole unit swivels 180°), mounted on an Amazon swivel/movable stand (legs ≥10–15 cm). A player-facing screen is required because the player must acknowledge the **$2 service fee**. [[raw/evolution_flex-pay_pos_server-apr-24-2025.md]]
+- **FlexPort main-board revision for production:** one main board common to FlexPort / dispenser / POS — **three RS-232 COM ports** (dispenser, scanner, reader), Ethernet, USB, and a **wide-range adjustable-voltage power connector on the main board** (dispensers run 24V, FlexPort today 12V), dropping the bill-acceptor interface board. [[wiki/people/eugine-yavorski.md|Eugene Yavorski]] does the main-port production update. A future maximal FlexPort at the machine could scan/encode cards and act as its own dispenser; **reloadable cards** become allowed "a year from now." [[raw/evolution_flex-pay_pos_server-apr-24-2025.md]]
+- Next meeting May 2. [[raw/evolution_flex-pay_pos_server-apr-24-2025.md]]
+
 ## Open commitments
 
 - [ ] Igor Starovoytov — draw the tower's industrial design (dimensions; standalone view + a between-machines view; gray/milky, no lighting, 7-inch front screen) — due ~Wed/Thu Apr 16–17 — [[raw/fkex_pay_evolution-apr-16-2025.md]]
@@ -98,3 +108,4 @@ A long English architecture meeting ([[wiki/meetings/2025-04-23-flexport-smib-ti
 - [[raw/evolution_flex_pay-april-11-2025.md]]
 - [[raw/fkex_pay_evolution-apr-16-2025.md]]
 - [[raw/evolution_flex_port-apr-23-2025.md]]
+- [[raw/evolution_flex-pay_pos_server-apr-24-2025.md]]

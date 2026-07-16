@@ -3,7 +3,7 @@ type: person
 title: Hector
 date: 2026-07-14
 aliases: [Hector]
-source-count: 5
+source-count: 6
 open-commitments: 3
 ---
 
@@ -38,6 +38,10 @@ Hector is a member of JVL's **finance back-office** whom Val wants narrowed down
 - On the scope sheet he reads ~81% utilised "after he gave up some of his work"; Alka is shifting him to **management reporting / controllership validation** and wants him closing the month monthly. Her frank read: "He's not comfortable with the system because he's unsure of himself … he's a detailed guy … take ten times longer and give you the solution 100%" — e.g. claiming "business central hasn't been fully implemented in the U.S." without being able to say what part. [[raw/finance_update-apr-15-2025.md]]
 - Val's sharper verdict (stated to Alka): "he says things as though he knows and as though it's reliable, but when you start digging, it falls apart … reliance on an unreliable individual is very, very dangerous … to me now, he's a mediocre individual" — with a floated alternative of splitting his controllership segments between Laura and Chris. Outcome: **parked; revisit in ~3 months** ("If I can't make a shift … then it's a problem. It's a big problem" — Alka). He is still training Mary, and he found the $3,100 Mexico housing-allowance invoice. See [[wiki/meetings/2025-04-15-finance-recurring-alka-scope-sheet.md]]. [[raw/finance_update-apr-15-2025.md]]
 
+## Apr 28 2025 — removed from creating purchase orders (segregation of duties)
+
+On the BC status call ([[wiki/meetings/2025-04-28-business-central-labs-tariffs-status.md]]) Val ruled Hector should be **removed from creating purchase orders** in both Systems and Labs — "he is the controlling arm for me… his job is only to ensure that there is a match between all the control documents." A PO creates a liability, so it belongs to the requesters ([[wiki/people/mary.md|Mary]] for non-BOM; Sebastian/Elizabeth internally), not the controller. Reinforces the Mar-24 controllership-only scope. See [[wiki/topics/business-central-erp-implementation.md]]. [[raw/business_central_update-apr-28-2025.md]]
+
 ## Sources
 
 - [[raw/financial_alka_alignment-march-24-2025.md]]
@@ -45,3 +49,4 @@ Hector is a member of JVL's **finance back-office** whom Val wants narrowed down
 - [[raw/Finance - Alka.md]]
 - [[raw/finance_recurring-april-7-2025.md]]
 - [[raw/finance_update-apr-15-2025.md]]
+- [[raw/business_central_update-apr-28-2025.md]]

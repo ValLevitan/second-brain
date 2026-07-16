@@ -3,7 +3,7 @@ type: person
 title: Sebastian
 date: 2025-02-19
 aliases: [Sebastian]
-source-count: 3
+source-count: 4
 ---
 
 # Sebastian
@@ -22,8 +22,13 @@ The transcript does not give Sebastian's last name.
 
 - **Apr 3 2025 — SD printer troubleshooting:** on the Epic-printer call ([[wiki/meetings/2025-04-03-sd-printer-and-mh1-settings.md]]) Sebastian was "on the phone" with Lonnie troubleshooting an **Epic 950** that wouldn't power up in the South Dakota lab (the other units worked). See [[wiki/projects/south-dakota-vlt-market.md]]. [[raw/tech_and_settings_issues-juan_martinez-april-3-2025.md]]
 
+## Apr 28 2025 — Business Central order role; ex-Colombia engineer
+
+On the BC status call ([[wiki/meetings/2025-04-28-business-central-labs-tariffs-status.md]]) Val placed Sebastian as one of three engineers who place orders — he should **place purchase orders** (internal, to JVL Labs/[[wiki/people/arkady-batson.md|Arkady]]), not sales orders. Val confirmed his background: a **full-time engineering technician** in Florida who **used to work for JVL's Colombian entity as a field-service engineer** ("he knows everything inside out"), speaks Spanish, and is currently light on installations. [[raw/business_central_update-apr-28-2025.md]]
+
 ## Sources
 
 - [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 - [[raw/meeting_with_julian_puerta_texas_eds.md]]
 - [[raw/tech_and_settings_issues-juan_martinez-april-3-2025.md]]
+- [[raw/business_central_update-apr-28-2025.md]]

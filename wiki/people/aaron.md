@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 44
+source-count: 46
 open-commitments: 1
 ---
 
@@ -130,6 +130,11 @@ Two sessions Aaron led/hosted. (1) A short IT meeting on the **assets schema** (
 
 Across two sessions Aaron worked Val through how code actually relates to Jira, resolving the Mar-31 alignment homework. **Apr 1:** set the rule that a **repository is never a product** ("a product is an artifact in motion") and pushed to **flatten JVL's many GitHub orgs into one** with a naming convention (citing Block/Square, Home Assistant) — Val resisted. **Apr 2:** diagrammed monolithic-vs-multi-repo reality, showing **one Jira feature spans multiple GitHub branches**, which led Val to adopt a **Jira "capability"** level as the demonstrable executive unit. Val also credited Aaron with the **Jira/Atlassian MCP** that lets him interrogate features/capabilities in plain language. Full detail on [[wiki/decisions/2025-04-03-jira-capability-level-and-github-mapping.md]] and [[wiki/projects/jvl-2025-plan-and-jira-roadmap.md]]. [[raw/git_jira_correlation-april-1-2025.md]] [[raw/gut_hub_jira_relationship-april-2-2025.md]]
 
+## Apr 24 & 30 2025 — ECHO ITSM design; secrets-management framework
+
+- **Apr 24:** Aaron designed the **"JVL Home" Jira Service Management + Confluence** ITSM setup for the legacy amusement base (polar-bear-themed portal, knowledge-base-first, funnel resolved cases back as "equity"). See [[wiki/topics/echo-home-gaming-device.md]]. [[raw/echo-home_jira-service-apr-24-2025.md]]
+- **Apr 30:** on the secrets-management session ([[wiki/meetings/2025-04-30-secrets-management-strategy.md]]) Aaron pushed "define the why first," generated a **value-perspective doc + a maturity self-assessment framework** via an MCP "thinking"/sequential-reasoning server on his GitHub (published as a container), and coached starting with GitHub CI/CD and AWS/Jenkins keys, OAuth over static API keys. See [[wiki/topics/infosec-and-server-infrastructure.md]]. [[raw/secrets_server-apr-30-2025.md]]
+
 ## Sources
 
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
@@ -176,3 +181,5 @@ Across two sessions Aaron worked Val through how code actually relates to Jira, 
 - [[raw/mcp_experiences_tech-apr-16-2025.md]]
 - [[raw/pinecone_n8n_transcript_setup-apr-15-2025.md]]
 - [[raw/aaron_vector_knowledge_base-apr-23-2025.md]]
+- [[raw/echo-home_jira-service-apr-24-2025.md]]
+- [[raw/secrets_server-apr-30-2025.md]]

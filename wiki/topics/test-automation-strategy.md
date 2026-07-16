@@ -3,7 +3,7 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD]
-source-count: 4
+source-count: 6
 open-commitments: 2
 open-questions: 1
 ---
@@ -78,6 +78,14 @@ On the Jan 21 continuous-delivery call, Val asked for the QA/GLI test tool to be
 
 Val asked that the **math test** be the first test built, since GLI spends most of its time checking math (see [[wiki/topics/gli-certification-bottleneck.md]]). Jason argued for buying a real test tool (named **Tosca / SmartBear**, and a record-and-playback "WYSIWYG" wizard) so non-coding testers can author steps, warning that raw Cucumber/BDD "turns into goo"; Aaron reframed it as **"not a tool but a solution — a series of tools"** used in the right stages. The testing pyramid (unit → component → integration → end-to-end, with ITL/GLI on top) and where each layer runs is detailed on [[wiki/topics/continuous-delivery-pipeline-architecture.md]]. Val stayed reluctant to spend on tooling. [[raw/continues_release_infrastructure_architecture_2025-01-21 1.md]]
 
+## Apr 24 2025 — QA-engineer onboarding kicks off (integration tests in practice)
+
+The test-engineer transformation ([[wiki/decisions/2025-04-16-replace-testers-with-test-engineers.md]]) reached its first working session, alongside a conceptual explainer the same day.
+
+- **Onboarding kickoff** ([[wiki/meetings/2025-04-24-omni-integration-tests-qa-onboarding.md]]): [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] demoed the first Omni init-setup integration test — **Selenium + TypeScript on Node.js**. He chose Selenium over **Playwright** because Playwright "подразумевает использование их целого багажа инструментов" and was harder to fit into JVL's custom automation framework. Tests live **in the Git repo beside the code**; each test gets a **unique key** "reserved for future use" (hoping to integrate with **X-Ray** or another test-management tool). Local run uses a **docker of the built LGS + the LGS-UI repo** (still in Bitbucket) via `Yarn Start`; [[wiki/people/andrey-bosik.md|Andrei Bosik]] helps set up each engineer's environment. [[raw/integration_tests-apr-24-2025.md]]
+- **The agreed model:** a market requirement → a product **capability** (a demonstrable set of features/branches) → per-feature integration tests; a feature branch can only merge to `main` once its integration test passes — test-driven development with QA engineers writing tests in parallel with developers ("вы имеете такой же авторитет, как имеет девелопер"). Val stressed this is **not yet "automation"** — automated regression suites come later, once many keyed tests exist and can run on every submission. Init-setup being "95-97%" done, QA practices on it first. JIRA anchors: the product is **Omni Land-Based Framework (IP 416)**; QA test development sits under **Core Tools (IP 438) → IP 105**. TypeScript-learning sources named: [[wiki/people/alexander-biratka.md|Alexander Biratko]], Anton, and an AI assistant. [[raw/integration_tests-apr-24-2025.md]]
+- **Conceptual explainer** ([[wiki/meetings/2025-04-24-ci-cd-qa-org-explainer.md]]): the classic "throw it over the wall to QA" model is superseded by DevOps, where **test engineers (not testers)** write unit tests with mock-ups (e.g. JUnit) beside the functional code, then integration tests against a **continuously-deployed** service (a game vs a torn-down/rebuilt RGS) — the "continuous integration" and "continuous delivery/deployment" halves of CI/CD. [[raw/ci_cd_qa_structure-apr-24-2025.md]]
+
 ## Open commitments
 
 - [ ] Val — set up a ~2-hour testing-architecture meeting with Pavel, Irina, Anton and Aaron — due next week (of Jan 15) — [[raw/integration_and_testing_procedures_january_15_2025.md]]
@@ -108,3 +116,5 @@ The earliest captured root of this effort — a Bitbucket-era progress review be
 - [[raw/test_automation_philosophy-jan-20-2025.md]]
 - [[raw/continues_release_infrastructure_architecture_2025-01-21 1.md]]
 - [[raw/test-360_progress_review_meeting.md]]
+- [[raw/integration_tests-apr-24-2025.md]]
+- [[raw/ci_cd_qa_structure-apr-24-2025.md]]

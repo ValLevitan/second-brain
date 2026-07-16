@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 37
+source-count: 41
 open-commitments: 5
 ---
 
@@ -112,6 +112,12 @@ On the Apr-7 reshuffle meeting ([[wiki/meetings/2025-04-07-github-jira-reshuffle
 
 In the Omni daily Andrei confirmed the GitHub repo-naming changes (renamed the asset repo to "asset src"), is the point of contact for feature-branch creation, and was tasked to rename `master`→`main` as the standard main branch across repos (safest done by whoever works the repo). He is installing Aaron's Jira MCP for himself and Yuri Zakharenko. [[raw/daily_omni_progress-april-16-2025 (Val Levitan's conflicted copy).md]] In the IT meeting Val had him install the Jira MCP + VS Code (Russian) on Yuri's machine [[raw/it_automation_schemas_secrets_server-apr-16-2025.md]]; in the AI-tooling meeting Aaron pushed him (DevOps) to capture the designers' local-build learnings back into CI. [[raw/mcp_experiences_tech-apr-16-2025.md]]
 
+## Apr 24–30 2025 — QA env help, ECHO ITSM build, secrets-management lead
+
+- **Apr 24:** on the Omni integration-tests onboarding ([[wiki/meetings/2025-04-24-omni-integration-tests-qa-onboarding.md]]) and setup-screens review, Andrei Bosik is the go-to for setting up each QA engineer's test **environment** and opening **GitHub branches**. [[raw/integration_tests-apr-24-2025.md]] [[raw/set_up_screen_omni-apr-24-2025.md]]
+- **Apr 24:** Val tasked Andrei Bosik with building the **"JVL Home" Jira Service Management + Confluence** support ecosystem for the legacy amusement machines (working with "Andre K"). See [[wiki/topics/echo-home-gaming-device.md]]. [[raw/echo-home_jira-service-apr-24-2025.md]]
+- **Apr 30:** Andrei Bosik is the **lead on the secrets-management project** — exploring Microsoft/AWS/Delinea secret managers, and co-holder (with [[wiki/people/dmitri-kovalchuk.md|Dima Kovalchuk]]) of the KeePass master. Homework with Dmitry: self-assess maturity and build an implementation backlog. See [[wiki/topics/infosec-and-server-infrastructure.md]]. [[raw/secrets_server-apr-30-2025.md]]
+
 ## Sources
 
 - [[raw/GitHub repository structure.md]]
@@ -152,3 +158,7 @@ In the Omni daily Andrei confirmed the GitHub repo-naming changes (renamed the a
 - [[raw/mcp_experiences_tech-apr-16-2025.md]]
 - [[raw/github_jira_reshuffling_products-april-7-2025.md]]
 - [[raw/aaron_vector_knowledge_base-apr-23-2025.md]]
+- [[raw/integration_tests-apr-24-2025.md]]
+- [[raw/set_up_screen_omni-apr-24-2025.md]]
+- [[raw/echo-home_jira-service-apr-24-2025.md]]
+- [[raw/secrets_server-apr-30-2025.md]]

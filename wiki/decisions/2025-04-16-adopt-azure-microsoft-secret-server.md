@@ -3,7 +3,7 @@ type: decision
 title: Adopt a Microsoft/Azure secret server and manage secrets as assets
 date: 2025-04-16
 aliases: [Azure Key Vault secret server, secrets as assets, Microsoft secret server, secrets management platform choice]
-source-count: 1
+source-count: 2
 status: active
 ---
 
@@ -26,6 +26,11 @@ In the Apr-16 IT meeting ([[wiki/meetings/2025-04-16-it-assets-secrets-server.md
 
 Active as of 2025-04-16 — a chosen direction to implement; the Mar-19 "which product?" open question is now answered in favor of the Microsoft/Azure secret server. Team to read the whitepaper; Aaron available Friday 8–10 am ET for questions (Val cancelled his own Friday session, in transit).
 
+## Apr 30 2025 — still exploratory; define the "why" and build a backlog
+
+Two weeks on ([[wiki/meetings/2025-04-30-secrets-management-strategy.md]]) the choice is not yet committed to a specific product. Andrei Bosik was "reading information" comparing **Microsoft, AWS and Delinea** (as transcribed "Delenia") secret managers and had registered with Microsoft to try it. Aaron reframed the task: define the "why" and requirements, self-score maturity, then build an implementation backlog starting with **GitHub CI/CD actions and AWS/Jenkins deployment keys** — rather than pick a platform blind. Current state remains **KeePass + AWS Secrets Manager**. Detail on [[wiki/topics/infosec-and-server-infrastructure.md]]. [[raw/secrets_server-apr-30-2025.md]]
+
 ## Sources
 
 - [[raw/it_automation_schemas_secrets_server-apr-16-2025.md]]
+- [[raw/secrets_server-apr-30-2025.md]]

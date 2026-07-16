@@ -3,8 +3,8 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-04-17
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation]
-source-count: 2
-open-questions: 1
+source-count: 3
+open-questions: 2
 ---
 
 # Business Central ERP implementation (JVL's Dynamics 365 rollout)
@@ -53,8 +53,21 @@ An earlier Apr-3 use of BC: it is the intended data source for **software-licens
 ## Open questions
 
 - Is it possible to run the US tax add-on on a shared two-company database so it applies **only** to the American company and not the Canadian one? Lev: "Maybe it's possible but I cannot guarantee it without checking." Blocks the single-database license-saving option. [[raw/business_central_implementation_update-apr-17-2025.md]]
+- How to model a software sale so the accounting-system record (item/version/MSRP/customer) is **married to the RIS config file** from the JVL system in one sale — unresolved, needs Pavel + Dima Chudinov. [[raw/business_central_update-apr-28-2025.md]]
+
+## Apr 28 2025 — deeper status: Systems solid, Labs plan, tariffs, software sales, PO roles
+
+A ~3-hour [[wiki/people/val-levitan.md|Val]]–[[wiki/people/lev-rudky.md|Lev]] call ([[wiki/meetings/2025-04-28-business-central-labs-tariffs-status.md]]) that ended with six named "undertakings" but "none… grew into any objectives" yet. [[raw/business_central_update-apr-28-2025.md]]
+
+- **JVL Systems (US):** fully functioning — "we buy, we sell, we ship, we pay," even small assemblies. The one lingering bug (a payment-scheduling add-on with inconsistent number lengths) got a fix "last night," untested. Systems has only **minor customizations** (e.g. serial numbers on invoices) with **no source code and no written requirements** — Val's undertaking: **reconstruct a requirements doc from the vendor invoices/emails**, and going forward issue requirements before any customization. [[raw/business_central_update-apr-28-2025.md]]
+- **JVL Mexico:** closing — licenses will not be renewed; the BC instance collapses in ~3 months. Cautionary tale: Mexico had **major customizations with no source code**, and some (multi-currency year-end reports) never worked outside local currency. [[raw/business_central_update-apr-28-2025.md]]
+- **JVL Labs (Canada):** plan is to implement **without a full manufacturing module** (light/simplified), with a **normal purchasing module** (same as Systems), and to put **Labs and Systems on the same tenant**. Financial data can't be copy-pasted between companies (GL + customer/vendor/item/resource ledgers carry per-entity financial parameters); rough estimate ~1 month to get operational + ~1 month for the financial core, then loose ends/training. Manufacturing in Canada would run through [[wiki/people/arkady-batson.md|Arkady]] (as [[wiki/people/lev-rudky.md|Lev]] noted "Alec" did it in the old Navision). [[raw/business_central_update-apr-28-2025.md]]
+- **Tariffs / HS codes:** the most pressing action — track HS code + country of origin per item on the vendor card; intercompany transfer at BOM+30%. Full detail on [[wiki/topics/tariffs-and-customs-compliance.md]]. [[raw/business_central_update-apr-28-2025.md]]
+- **Software sales (Georgia):** JVL is setting up to sell ~**2,000 software items over ~8 months to ~50 customers** (4–6 distinct softwares, e.g. "pitch"/"DLKG"). Each software sale needs an **item number + version/approval-letter number + customer + MSRP + discount**, and must be **married to a RIS (Remote Initial Setup) config file** that comes from the JVL system while the invoice/price/customer come from the accounting system — an unsolved data-marriage problem needing [[wiki/people/pavel.md|Pavel]] and [[wiki/people/dmitri-chudinov.md|Dima Chudinov]]. [[raw/business_central_update-apr-28-2025.md]]
+- **Purchase-order / sales-order role model (segregation of duties):** Val wants **[[wiki/people/hector.md|Hector]] removed from creating purchase orders** (he is the controlling arm — a PO creates a liability); **[[wiki/people/mary.md|Mary]]** creates POs for non-BOM items (e.g. GLI); **[[wiki/people/mikhail-perelman.md|Michael]]** focuses on purchasing BOM. **Sales orders** (customer-facing) → [[wiki/people/felipe-miranda.md|Felipe]], the Florida "Andrei," or [[wiki/people/juan-martinez.md|Juan Martinez]]; **purchase orders** (internal) → [[wiki/people/sebastian.md|Sebastian]], [[wiki/people/elizabeth.md|Elizabeth]]. Arkady only picks and ships; the invoice is triggered (posted, irrevocable) at shipment. Each BC user costs ~**$1,000–1,200/year**. [[raw/business_central_update-apr-28-2025.md]]
 
 ## Sources
 
 - [[raw/business_central_implementation_update-apr-17-2025.md]]
 - [[raw/ris_business_central_integration-april-3-2025.md]]
+- [[raw/business_central_update-apr-28-2025.md]]

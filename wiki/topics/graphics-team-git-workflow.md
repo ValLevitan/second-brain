@@ -3,7 +3,7 @@ type: topic
 title: Graphics team Git workflow (PR discipline, CI tickets, deploy pipeline)
 date: 2025-03-12
 aliases: [designer git workflow, graphics PR discipline, pull request discipline, contact sheet action, assets deploy pipeline, fork from template, help desk CI tickets, performative pull request, pull request back to template, template per game type]
-source-count: 5
+source-count: 6
 ---
 
 # Graphics team Git workflow (PR discipline, CI tickets, deploy pipeline)
@@ -71,6 +71,10 @@ On the DevOps-container session ([[wiki/meetings/2025-03-24-devops-container-app
 
 Before any of the above existed, Val framed the need on the Feb 7 homework session: "I don't understand how to guide our graphic designers. I need to tell them okay look put your art in here… none of them is capable of doing it and trying to engage them… is the exercise of futility… we just need to tell them that just put your stuff in here… so in order to tell them put your stuff in here we have to create those repositories." See [[wiki/meetings/2025-02-07-github-homework-and-bitbucket-transfer.md]]. [[raw/GitHub repository structure.md]]
 
+## Apr 28 2025 — Miranda commit hygiene (a graphics-team Git lesson)
+
+The Apr-28 Miranda GitHub review ([[wiki/meetings/2025-04-28-miranda-github-versioning.md]]) surfaced the graphics side's weak Git discipline: [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]] had dumped a single **"V8" commit of ~12,000 files**, left stale branches open for two months, and committed straight to `main` — the opposite of the continuous-commit / clean-release discipline this page describes. Fix: **versions as Git release tags** (not Jira), and coaching toward continuous commits. Detail on [[wiki/topics/miranda-authoring-tool.md]]. [[raw/miranda_github-apr-28-2025.md]]
+
 ## Sources
 
 - [[raw/GitHub repository structure.md]]
@@ -78,3 +82,4 @@ Before any of the above existed, Val framed the need on the Feb 7 homework sessi
 - [[raw/github_commits-march-26-2025.md]]
 - [[raw/michael_gottlieb_val_meeting-26-2025.md]]
 - [[raw/devops_container_approach_for_omni.md]]
+- [[raw/miranda_github-apr-28-2025.md]]

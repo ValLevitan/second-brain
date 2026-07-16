@@ -4,7 +4,7 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "IT (GitHub-admin, infrastructure, secrets/Azure, AI-tool accounts) — the IT-context "Dima". Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 9
+source-count: 10
 ---
 
 # Dmitri Kovalchuk
@@ -37,6 +37,10 @@ Per the owner ruling, these IT-context "Dima" mentions — previously flagged un
 
 In an Aaron-led IT meeting, Dmitri showed progress on Atlassian **Assets/Discovery** — he has automated pulling all computers from Discovery into Jira, and creates/routes requests in Jira Service Management. Next step (Aaron): link the user record (source of truth = **Microsoft Entra**) to machines via a last-logged-in-user automation. He researched secrets management and proposed a **Microsoft secret server in Azure (Azure Key Vault)**, which Val endorsed. Blocker: an old **Windows 2008** box can't export (WMI); to be upgraded after a Proxmox node. [[raw/it_automation_schemas_secrets_server-apr-16-2025.md]] See [[wiki/decisions/2025-04-16-adopt-azure-microsoft-secret-server.md]].
 
+## Apr 30 2025 — secrets-management (KeePass co-owner)
+
+On the secrets-management strategy session ([[wiki/meetings/2025-04-30-secrets-management-strategy.md]]) Dima Kovalchuk is named a **co-holder of the KeePass master** (with [[wiki/people/andrey-bosik.md|Andrei Bosik]]) and takes the homework — with Andrei — to read Aaron's perspective doc, self-score secrets maturity, and produce an implementation backlog (starting with GitHub CI/CD + AWS/Jenkins keys). See [[wiki/topics/infosec-and-server-infrastructure.md]]. [[raw/secrets_server-apr-30-2025.md]]
+
 ## Sources
 
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
@@ -48,3 +52,4 @@ In an Aaron-led IT meeting, Dmitri showed progress on Atlassian **Assets/Discove
 - [[raw/meeting_various-jan-20-2025.md]]
 - [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]]
 - [[raw/it_automation_schemas_secrets_server-apr-16-2025.md]]
+- [[raw/secrets_server-apr-30-2025.md]]

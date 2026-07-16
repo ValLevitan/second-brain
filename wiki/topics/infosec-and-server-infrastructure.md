@@ -3,8 +3,8 @@ type: topic
 title: InfoSec, secrets management and server infrastructure
 date: 2025-03-19
 aliases: [secrets management, enterprise secrets manager, DevSecOps, Critical Insight, John Luke Peck, Minsk servers, cloud migration costing, Zabbix]
-source-count: 2
-open-commitments: 2
+source-count: 3
+open-commitments: 3
 open-questions: 1
 ---
 
@@ -47,12 +47,23 @@ The thread advanced in a short Apr-16 IT meeting Aaron led ([[wiki/meetings/2025
 
 - [ ] Aaron — make the introduction to John Luke Peck / Critical Insight and schedule a (West-coast-friendly, afternoon) call — due unspecified — [[raw/info_security_server_infrastructure.md]]
 - [ ] Val — start learning the InfoSec process ("I think I have capacity to learn… listening and absorbing") — due unspecified — [[raw/info_security_server_infrastructure.md]]
+- [ ] Andrei Bosik + Dima Kovalchuk — read Aaron's secrets-management perspective doc, fill the self-assessment honestly, and produce a rough implementation backlog (start with GitHub CI/CD + AWS/Jenkins keys) — due next meeting Wed May 7 — [[raw/secrets_server-apr-30-2025.md]]
 
 ## Open questions
 
 - Which secrets-management product fits JVL's stack (Entra vs "Delenia"-type vs Password State-type) — **answered Apr-16** toward a Microsoft/Azure secret server (Azure Key Vault); see [[wiki/decisions/2025-04-16-adopt-azure-microsoft-secret-server.md]]. — [[raw/info_security_server_infrastructure.md]] [[raw/it_automation_schemas_secrets_server-apr-16-2025.md]]
 
+## Apr 30 2025 — secrets-management strategy session (define the "why" first)
+
+A working session ([[wiki/meetings/2025-04-30-secrets-management-strategy.md]]) with [[wiki/people/andrey-bosik.md|Andrei Bosik]] and [[wiki/people/dmitri-kovalchuk.md|Dima Kovalchuk]] (IT) and [[wiki/people/aaron.md|Aaron]], continuing the Apr-16 secret-server pick ([[wiki/decisions/2025-04-16-adopt-azure-microsoft-secret-server.md]]). [[raw/secrets_server-apr-30-2025.md]]
+
+- **Current state:** JVL uses **KeePass** for passwords (master access held only by **Andrei Bosik and Dima Kovalchuk**) and **AWS Secrets Manager** for RGS on AWS; passwords are strong (≥12 chars). KeePass's single master password is a single point of failure — so, e.g., Pavel/Anton can't get one CI secret without access to everything. [[raw/secrets_server-apr-30-2025.md]]
+- **Val's vision:** a central platform that **rotates credentials automatically via API** and integrates with GitHub CI secrets, AWS and Azure at once (rotate a key in all places simultaneously); a **check-out/check-in** model where a returned secret is immediately re-rotated; auth via **identity management (Microsoft Entra)** with user groups/roles. This lets more developers self-serve secrets responsibly instead of routing every request through IT. Example: put [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]'s **Unity license** into CI so Miranda can be built in GitHub Actions. [[raw/secrets_server-apr-30-2025.md]]
+- **Approach Aaron pushed:** don't pick a product first — write down the **"why"** and requirements, self-score maturity against an assessment framework he generated (two PDFs, produced via an MCP "thinking"/sequential-reasoning server on his GitHub, published as a container), then build a **backlog** starting with the easiest wins: **GitHub CI/CD actions** and **AWS/Jenkins deployment keys** (Jenkins still deploys to AWS). MCP servers currently use static API keys and "probably should use OAuth." "The cloud is not available in our region" was noted (Claude access blocked on their network). [[raw/secrets_server-apr-30-2025.md]]
+- **Homework (Andrei + Dmitry):** read the perspective doc, fill the self-assessment honestly, and produce a rough implementation backlog. Next meeting **Wednesday May 7, 8 am Eastern**. [[raw/secrets_server-apr-30-2025.md]]
+
 ## Sources
 
 - [[raw/info_security_server_infrastructure.md]]
 - [[raw/it_automation_schemas_secrets_server-apr-16-2025.md]]
+- [[raw/secrets_server-apr-30-2025.md]]

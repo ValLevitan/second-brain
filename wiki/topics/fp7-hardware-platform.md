@@ -3,7 +3,7 @@ type: topic
 title: FP7 hardware platform
 date: 2026-07-12
 aliases: [FP7, FR7, FG7, FP-7]
-source-count: 3
+source-count: 4
 ---
 
 # FP7 hardware platform
@@ -45,8 +45,14 @@ FP7 is a JVL CPU-board hardware platform being evaluated for the Flex-S cabinet,
 - Aaron raised (but Val deferred) whether a Thunderbolt-connected external GPU could offload video rendering — Val called it the wrong question for now. [[raw/fp-7_performance_analysis_january_13_2025.md]]
 - Plan B floated by Lena: if performance falls short once the game is built, move signage/progressive off this hardware onto a standalone controller. Val leans toward standalone progressive hardware but did not lock it as architecture. [[raw/fp-7_performance_analysis_january_13_2025.md]]
 
+
+## Apr 24 2025 — FR7 production-batch timing
+
+On the FlexPay/server call ([[wiki/meetings/2025-04-24-flexpay-server-dispenser-pos-evolution.md]]), the FR7/FP7 "powerful platform" status: the supplier ("the tank") is fixing prototype issues and issues the first real **production batch in early May** (ready mid-June); JVL can place an order **until end of May**. JVL wants only **5–10 units for approvals** — **5 to Toronto in June** (production batch, not samples) and **3 to Minsk**. Pavel already holds **2 samples** and still needs to do the **BIOS ("bias")**; thermal/performance is limited on the first units. [[raw/evolution_flex-pay_pos_server-apr-24-2025.md]]
+
 ## Sources
 
 - [[raw/fp-7_performance_analysis_january_13_2025.md]]
 - [[raw/game_design_january_16_2025.md]]
 - [[raw/fr-7_identifying_bottlenecks_in_performance_during_testing_january_17_2025.md]]
+- [[raw/evolution_flex-pay_pos_server-apr-24-2025.md]]

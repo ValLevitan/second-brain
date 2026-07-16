@@ -4,7 +4,7 @@ title: Mikhail Perelman
 date: 2026-07-13
 aliases: [Mikhail Perelman, Misha, Миша, Mikhail, Michael]
 disambiguation: "Procurement Manager (parts/vendors/shipments; the retrofit-lead "Misha"). Misha/Michael cluster (2, owner-ruled): [[wiki/people/michael-gottlieb.md|Michael Gottlieb]]=Senior VP Game Design / [[wiki/people/mikhail-perelman.md|Mikhail Perelman]]=Procurement Manager (the "retrofit Misha"). Resolve by context; queue if none."
-source-count: 1
+source-count: 2
 ---
 
 # Mikhail Perelman
@@ -19,6 +19,11 @@ Mikhail Perelman ("Misha") is JVL's **Procurement Manager** (owner-confirmed 202
 
 The transcript is in Russian; his name appears as "Миша."
 
+## Apr 28 2025 — purchasing bill-of-material; HS tracking
+
+On the BC status call ([[wiki/meetings/2025-04-28-business-central-labs-tariffs-status.md]]) Val wants **Michael (Perelman) focused only on purchasing bill-of-material** items (with [[wiki/people/mary.md|Mary]] handling non-BOM POs like GLI). Lev believed **Michael had been tracking HS numbers / country-of-origin** for imports — now the pressing task to formalize on the vendor card. See [[wiki/topics/tariffs-and-customs-compliance.md]]. [[raw/business_central_update-apr-28-2025.md]]
+
 ## Sources
 
 - [[raw/retrofit_january_7_2025.md]]
+- [[raw/business_central_update-apr-28-2025.md]]
