@@ -2,8 +2,8 @@
 type: person
 title: Lena
 date: 2026-07-12
-aliases: [Lena, Lena Zhukova, Laina, Elina]
-source-count: 26
+aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna]
+source-count: 27
 open-commitments: 1
 ---
 
@@ -109,6 +109,10 @@ On the [[wiki/meetings/2025-05-01-game-design-review.md|May-1 review]] Lena repo
 
 On the bi-weekly games-design tools session ([[wiki/meetings/2025-05-07-games-design-ai-tools-adaptation.md]]) Lena reported building **ComfyUI** workflows to generate a specific **golden-coin** asset (fixing the seed/parameters to keep results stable) and wanting JVL's own **LoRA** style; she raised the Cline/Confluence-MCP page-cloning failures and keeps **Confluence as the game-docs source of truth** (converting to Markdown via Spline). See [[wiki/topics/game-art-animation-production-pipeline.md]] and [[wiki/topics/ai-assisted-development.md]]. [[raw/tools_adaptation_games_design_department-may-7-2025.md]]
 
+## May 8 2025 — Golden Cask/Husk production
+
+On the [[wiki/meetings/2025-05-08-game-design-review.md|May-8 review]] Lena ("Liana"/"Lena" in the transcript — same person) reported the Nebraska **Golden Cask**/Golden Husk bonus production: finalising the game list, the corn **fan/scale transition** animation, adjusting the **Money Birds / Cash Cats** logos, and the first **Crazy Spins** video recording. She confirmed the graphic team **love Miranda**, and flagged the math-emulator stall (Dima pulled onto other work). See [[wiki/topics/game-art-animation-production-pipeline.md]]. [[raw/game_design-may-8-2025.md]]
+
 ## Sources
 
 - [[raw/github _structure-pavel-aaron-andrei.md]]
@@ -138,3 +142,4 @@ On the bi-weekly games-design tools session ([[wiki/meetings/2025-05-07-games-de
 - [[raw/games_production-apr-18-2025.md]]
 - [[raw/game_design_review-may-1-2025.md]]
 - [[raw/tools_adaptation_games_design_department-may-7-2025.md]]
+- [[raw/game_design-may-8-2025.md]]

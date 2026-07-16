@@ -2,8 +2,8 @@
 type: topic
 title: JVL machine and cabinet lineup
 date: 2026-07-12
-aliases: [Flex cabinets, Altera, Maple, Echo, Flex S, Flex C, Flex V42, Flex V42/C, cabinets, VLT, video lottery terminal, Flex SD27, V43, C10-VLOT-TERM-RU, Epic 950, FutureLogic, FlexPort, FlexPay, Nico, Miranda, Omni, Florida Ruta, CPU kit, coffin, iOBoard, Bally iview, Diamondlink, nano-optics, JCM, dual SAS, HAL, FireEyes Wink, Dragon Supreme, Kai-Ocho, Maneki-neko, HG-6, kiosk, Incom, TITO, SMIB, SAS server, La Rosa, El Jaguar, Golden Husk, 5X Peppers, Cold Cash, Pink Princess, Jungle Jaguar, Dutch Mill, Crazy Spins, Midnight Money, Spicy Fruits, Clover Fortune, Jinji Du Li, Cash Kittens, Rosita's Cantina]
-source-count: 32
+aliases: [Flex cabinets, Altera, Maple, Echo, Flex S, Flex C, Flex V42, Flex V42/C, cabinets, VLT, video lottery terminal, Flex SD27, V43, C10-VLOT-TERM-RU, Epic 950, FutureLogic, FlexPort, FlexPay, Nico, Miranda, Omni, Florida Ruta, CPU kit, coffin, iOBoard, Bally iview, Diamondlink, nano-optics, JCM, dual SAS, HAL, FireEyes Wink, Dragon Supreme, Kai-Ocho, Maneki-neko, HG-6, kiosk, Incom, TITO, SMIB, SAS server, La Rosa, El Jaguar, Golden Husk, 5X Peppers, Cold Cash, Pink Princess, Jungle Jaguar, Dutch Mill, Crazy Spins, Midnight Money, Spicy Fruits, Clover Fortune, Jinji Du Li, Cash Kittens, Rosita's Cantina, Estilo Bling, Kaiju Omni]
+source-count: 33
 ---
 
 # JVL machine and cabinet lineup
@@ -118,6 +118,18 @@ From the [[wiki/meetings/2025-05-01-game-design-review.md|May-1 game-design revi
 - **Fiery Ice Link** bug-fixed build uploaded to GLI → **Kai-Ocho + Dragons of Rain** re-approval; **Peach One** "bug" was a setting, going back to Eclipse with the new nudge. [[raw/game_design_review-may-1-2025.md]]
 - **New game/theme names surfaced:** **Dutch Mill**, **Crazy Spins**, **Midnight Money**, **Spicy Fruits**, **Clover Fortune** (Nebraska shortlist); **Jinji Du Li** and **Cash Kittens** (the two Fortune-Foo-Paws clones — a Cuban-rooster reskin of Jinji Du Li was floated); **Rosita's Cantina** (a possible Peach-5 Latina concept). SD lineup names: Dutchville, Lions Riches, Dragons, Pennies, Liberty Spins, Clover, Wild Cold. [[raw/game_design_review-may-1-2025.md]]
 
+## Game-framework / roadmap walkthrough (May 8 review)
+
+On the [[wiki/meetings/2025-05-08-game-design-review.md|May-8 review]] the team walked the Jira game-production framework three months out, market by market: [[raw/game_design-may-8-2025.md]]
+
+- **Georgia:** revised nudge + TITO/AFT support in the concept column (replacing the older nudge). **Peach 1** resubmitted with the **SAS 51/52 fix** the regulator asked for (pending approval, likely "next week"); **Peach 2 → Peach 3 → Peach 4 → Peach Vertical** queued in priority order. In production: **Diamond Link Georgia** and **Jackpot Rush Georgia** — the latter no longer on the curved cabinet, now on a **regular V43** ("for software, it's the same"). [[raw/game_design-may-8-2025.md]]
+- **Florida:** **Fortune Foo Paws** ("Fortune FooPaws") stuff in process, built in **Omni** (not Rage — corrected on-call). **Cash Kittens** = a clone of Fortune Fu Paws using the **Hold-and-Respin** progressive family (transcribed "Holden Reisman"), also on **Omni**. **Kaiju Omni** moved to **development**; an **IP** item still in concept. Future Jackpot Rush games would be built new in **Omni** (adding games to the existing Jackpot Rush stays in Cash Kittens). [[raw/game_design-may-8-2025.md]]
+- **South Dakota:** the submitted games are **reviewed and approved by GLI** ("ready to rock"), waiting to deploy. [[raw/game_design-may-8-2025.md]]
+- **Nebraska:** moved to **in-progress** in design space (bonus work underway — see [[wiki/projects/nebraska-skill-market.md]]). [[raw/game_design-may-8-2025.md]]
+- **HHR:** agreed to be built on **Omni** (Val's priority); nothing in HHR game design yet beyond the **HHR Math** [[wiki/people/efim-podvoiski.md|Efim]] established. [[raw/game_design-may-8-2025.md]]
+- **Puerto Rico (further out):** three concepts — **Aztec Star 2**, **Midnight Money reimagined with unicorns**, and **Rosita's Cantina** — ranked at the bottom because Puerto Rico is later. **Estilo Bling** (the Cuban **"Callejo"/Calle-Ocho** follow-on) is a **Jackpot Rush** ("Rapid Hits") product; the philosophy is to launch Callejo, confirm the Cuban theme works, then do a **series of Cuban/Mexican-themed Jackpot Rush games** in Omni. [[raw/game_design-may-8-2025.md]]
+- **Fortune Foo Paws $0.88 high-bet version:** a "high-bet Fortune FooPaws" item appeared in Jira from ~early March with no description; the team recalled it stems from Val wanting to try a **$0.88 bet** — bets/wins/coin-and-bonus values (and possibly the pay table) to be defined when it goes to production. [[raw/game_design-may-8-2025.md]]
+
 ## Screens, formats, and game-build terms
 
 - **V-Deck** — a full-HD secondary screen on the machine; **Topper** — the top screen used for progressive signage. A typical layout runs videos across topper, main screen, and V-Deck. [[raw/fp-7_performance_analysis_january_13_2025.md]]
@@ -165,3 +177,4 @@ From the [[wiki/meetings/2025-05-01-game-design-review.md|May-1 game-design revi
 - [[raw/game_design-april-3-2025.md]]
 - [[raw/sas_51_52_requirement_interpretation-april-14-2025.md]]
 - [[raw/game_design_review-may-1-2025.md]]
+- [[raw/game_design-may-8-2025.md]]

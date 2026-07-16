@@ -3,7 +3,7 @@ type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
 aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin]
-source-count: 10
+source-count: 11
 open-questions: 1
 ---
 
@@ -119,6 +119,15 @@ On the [[wiki/meetings/2025-05-01-game-design-review.md|May-1 review]] the **mat
 - **It is separate from the shipping product.** The emulator is built **in Unity, in C#** (not Pixi, not Node.js), and is "**one monolithic piece**" wedged into the **Fortune Foo Paws** game — so it **cannot be reused** as a generic math emulator for another game. The team split on framing: Michael read fast emulator progress as "Fortune Full Pause is moving faster," which Efim/others corrected — a math-emulator framework is not the actual-product framework. Some solutions/ideas (reels rotation, math-server connection, 15-independent-reel bonus rotation) will transfer to other games' math, but the emulator itself won't. [[raw/game_design_review-may-1-2025.md]]
 - **Bonus-math philosophy (CoinTrio-aligned).** The design mirrors the competitor **CoinTrio**: trigger **one coin** in the bonus → a decent-but-maybe-underwhelming experience; **two coins** → elevated expectation, a pretty good bonus; **three coins** → a shot at "knocking it out of the park." The **base game is deliberately "worthless"** — a ~**38% base / bonus** split (Michael noted ~91% RTP context) vs a conventional ~**70/30** base/bonus — because the value lives in the bonus (matching CoinTrio "and all these damn games now"). Building the exact feel is hard because competitor **parse sheets** give only surface-level behavioural data (e.g. no false-hit-to-real-hit ratio for the "Kaban" coin). [[raw/game_design_review-may-1-2025.md]]
 
+## Reading the Nebraska market — the "Vanilla" competitor and math-vs-choreography (May 8)
+
+On the [[wiki/meetings/2025-05-08-game-design-review.md|May-8 review]] the team drew design lessons from [[wiki/people/juan-martinez.md|Juan]]'s Nebraska trip (the market-entry detail is on [[wiki/projects/nebraska-skill-market.md]]). [[raw/game_design-may-8-2025.md]]
+
+- **The Vanilla competitor as a cautionary reference.** **Vanilla** is the dominant Nebraska box (~3-year-old market; either pure Vanilla games or their CPU dropped into others' cabinets, vertical). Michael and Juan panned it as **"WMS Dribbler math"** — bet $1 win $0.25/$1 repeatedly (Juan's best win across 8 locations / 4 hours was $8) — the same trap that "got [WMS] their ass handed to them" in the Bluebird era: over-investing in the entertainment/precog show (e.g. a **"Lucky Penny"** with a 6-second penguin precog banner that only paid a 1× wild) while the game "drops like a rock." Vanilla machines had **no hard drives**, 5–7-second load screens, and boring gameplay. Design rule reaffirmed: don't confuse sizzle with substance — better to have zeros then **5–10× wins** for variety than a steady dribble. [[raw/game_design-may-8-2025.md]]
+- **Nudge presentation vs Vanilla's slider.** Vanilla's nudge is a green sliding-bar ("touch when it's green"); JVL's sparkly-arrow nudge is judged "more direct and communicative… we do it better." Players in the market are already accustomed to nudge, easing JVL's entry. [[raw/game_design-may-8-2025.md]]
+- **Math vs choreography (durable principle).** Efim's **Mass Fortune Football** ladder revealed the rule Val wants held: keep the **mathematical behavior of the ladder** in its own space, separate from the **choreography** (cadence/tempo/pacing of anticipation → hit → the end "wiggle" tease). The math tool just goes "boom-boom-boom"; the shipped game adds anticipation. Sweet spot ≈ **4–6 hits** (maybe 5–7) — "Goldilocks": too few isn't compelling, too many is bad only if you're still not at an exciting credit value (e.g. 5 hits to reach just 600 credits feels like a lot for little). Efim to aim for ~5–6 hits given the ~sub-600 average win. Val: "keep that in the Athene bank" for when they work on choreography. [[raw/game_design-may-8-2025.md]]
+- **Why no multi-denomination (design rationale).** JVL games "don't show anything in glyphs… everything in cash, so there is no place for denomination" — with ~7 bet levels ($1–$5) there is "no room" for a denomination selector; games have internal denominations (1¢–25¢) but the player only ever sees cash bets. [[raw/game_design-may-8-2025.md]]
+
 ## Open questions
 
 - Should JVL scale the **progressive value to denomination** (Val's view) or keep it flat and only *signal* higher-RTP denominations visually (the industry norm Michael/Efim defend)? Recorded as an **open product debate** — Val's opinion is logged, nothing is changed to the base math. [[raw/game_design_meeting_march_7_2025.md]]
@@ -136,3 +145,4 @@ On the [[wiki/meetings/2025-05-01-game-design-review.md|May-1 review]] the **mat
 - [[raw/game_design-april-1-2025.md]]
 - [[raw/game_design-april-3-2025.md]]
 - [[raw/game_design_review-may-1-2025.md]]
+- [[raw/game_design-may-8-2025.md]]

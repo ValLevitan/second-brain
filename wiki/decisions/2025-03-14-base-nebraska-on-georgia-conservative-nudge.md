@@ -4,7 +4,7 @@ title: Base Nebraska on existing Georgia software with the conservative nudge
 date: 2025-03-14
 aliases: [Nebraska software decision, no-hands Georgia build, revert nudge for Nebraska, conservative nudge]
 status: active
-source-count: 1
+source-count: 2
 open-commitments: 2
 open-questions: 0
 ---
@@ -27,6 +27,10 @@ On the Mar 14 2025 call, [[wiki/people/val-levitan.md|Val]], [[wiki/people/juan-
 
 - Nebraska is close to Georgia but more favorable (no hands, TITO allowed), so the fastest, most reliable path is to reuse the proven Georgia build and strip the hands + advanced nudge rather than build fresh. Reverting nudge on the already-integrated v1.14 avoids re-integrating all the other new features. The advanced ("Georgia 2") nudge is deferred to Nebraska only as it rolls out for Georgia — acceptance risk is lower than depending on it from launch. [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
 
+## Update (May 8 2025) — the nudge choice was reversed
+
+On the [[wiki/meetings/2025-05-08-game-design-review.md|May-8 game-design review]], after [[wiki/people/juan-martinez.md|Juan]]'s Nebraska market trip, [[wiki/people/val-levitan.md|Val]] **reversed the conservative-nudge element** of this decision: JVL will launch Nebraska on the **enhanced/new nudge** (the same as Georgia), because the incumbent competitor **Vanilla** already runs a nudge and the **regulator confirmed it is not an issue** — "I'll adjust the rec where I said we wouldn't do that. We should do it." The rest of this decision (base on the Georgia "Peach" software, "no hands," keep TITO/dual-SAS, release in packs of six) still stands. See [[wiki/projects/nebraska-skill-market.md]]. [[raw/game_design-may-8-2025.md]]
+
 ## Open commitments
 
 - [ ] Juan — confirm with the **Nebraska Department of Revenue** whether **Eclipse** is an acceptable testing lab (the regulations name GLI) — due unspecified — [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
@@ -35,3 +39,4 @@ On the Mar 14 2025 call, [[wiki/people/val-levitan.md|Val]], [[wiki/people/juan-
 ## Sources
 
 - [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
+- [[raw/game_design-may-8-2025.md]]

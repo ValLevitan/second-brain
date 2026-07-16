@@ -4,7 +4,7 @@ title: Eugine Yavorski
 date: 2025-02-18
 aliases: [Eugine Yavorski, Evgeny Yavorsky, Yavorski, Yavorsky, Яворский, Evgeny Egorsky, Egorsky, Егорский, Evgeny, Yevgeny, Zhenya, Женя, Евгений]
 disambiguation: "One of TWO Zhenyas (owner-ruled), both contractors via EAleks Technology: Eugine Yavorski (wiki/people/eugine-yavorski.md) and Evgeniy Alekseev (wiki/people/evgeniy-alekseev.md). Resolve by context; queue if unclear."
-source-count: 14
+source-count: 16
 open-commitments: 2
 ---
 
@@ -66,6 +66,10 @@ On the Genadi hardware call Val named the **Flex self-dispensing tower** (on the
 
 On the FlexPort hardware call ([[wiki/meetings/2025-05-07-flexport-two-machines-tito-milestones.md]]) Yavorski reported the **WSS protocol finished** and that he must now integrate with [[wiki/people/evgeniy-alekseev.md|Alekseev]]'s SAS→WSS part; Val pushed him to break the remaining TITO work into **daily testable milestones** (register FlexPort→FlexPay that day; coupon-out by Thu/Fri). See [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]]. [[raw/flex_port_hardware_update-may-7-2025.md]]
 
+## May 8 2025 — TITO MoneyOut bring-up
+
+On the [[wiki/meetings/2025-05-08-flexport-flexpay-tito-standup.md|May-8 standup]] Yavorski reported connecting the full FlexPort↔FlexPay↔machine hardware chain: **WSS works on version 145** but needs the update to **154** for the latest TITO commands (Sergei Novitsky to update FlexPay); he ran [[wiki/people/evgeniy-alekseev.md|Alekseev]]'s SAS ticket-out commands, **printed and read back a ticket**, and planned today's **MoneyOut** (using a software stub first) and Friday's **MoneyIn**, before two-machine testing and handing to QA Monday. He is building a home version **155** (no dispenser). Flagged an unblockable **SAS code-51** message loop after a failed print. See [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]]. [[raw/flex_pay_hardware_update-may-8-2025.md]] [[raw/flex_pay_port_hardware_update-may-8-2025.md]]
+
 ## Sources
 
 - [[raw/Embedded_Group_alignment_and_update_2025-02-18.md]]
@@ -82,3 +86,5 @@ On the FlexPort hardware call ([[wiki/meetings/2025-05-07-flexport-two-machines-
 - [[raw/weekly_embedded_group_flex_port_progress-apr-15-2025.md]]
 - [[raw/flex_port_update-apr-22-2025.md]]
 - [[raw/flex_port_hardware_update-may-7-2025.md]]
+- [[raw/flex_pay_hardware_update-may-8-2025.md]]
+- [[raw/flex_pay_port_hardware_update-may-8-2025.md]]

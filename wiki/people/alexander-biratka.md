@@ -2,8 +2,8 @@
 type: person
 title: Alexander Biratka
 date: 2026-07-12
-aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka]
-source-count: 23
+aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka, Alex Baratka, Alex Beratka]
+source-count: 24
 open-commitments: 1
 open-questions: 0
 ---
@@ -83,6 +83,10 @@ On the setup-screens review ([[wiki/meetings/2025-04-24-omni-setup-screens-june-
 
 On the [[wiki/meetings/2025-05-01-unity-instead-of-miranda.md|Unity reconsideration call]] Val and Aaron asked Sasha whether JVL could adopt a licensed Unity ecosystem (with its casino engines) and drop Miranda. Sasha's read: good performance for **land-based** and native apps, historically poor for **browser** builds (like Pixi) though much improved; Unity's engine language is **C#** (new to JVL — his ~10 Unity people are designers building only the theme/view, no logic); refactoring Miranda's logic into Unity is unknown and depends on how much game logic is externalised to the remote gaming server/math. No decision. See [[wiki/topics/miranda-authoring-tool.md]]. [[raw/unity_instead_miranda-may-1-2025.md]]
 
+## May 8 2025 — named as the Omni MCP-adapter author
+
+On the [[wiki/meetings/2025-05-08-capability-compass-mcp-aaron-session.md|May-8 MCP session]] [[wiki/people/aaron.md|Aaron]] used **"Alex Baratka"** (this person, garble) as the example of who would need to write an **in-stack MCP server / JSON-RPC adapter inside the Omni framework** — exposing the running software's classes/methods to an AI agent (a debugger-like interface written with the code). See [[wiki/topics/ai-assisted-development.md]]. [[raw/mcp_servers_for_jvl-may-8-2025.md]]
+
 ## Sources
 
 - [[raw/fp-7_performance_analysis_january_13_2025.md]]
@@ -108,3 +112,4 @@ On the [[wiki/meetings/2025-05-01-unity-instead-of-miranda.md|Unity reconsiderat
 - [[raw/omni_calle_ocho_scheduling-apr-22-2025.md]]
 - [[raw/set_up_screen_omni-apr-24-2025.md]]
 - [[raw/unity_instead_miranda-may-1-2025.md]]
+- [[raw/mcp_servers_for_jvl-may-8-2025.md]]

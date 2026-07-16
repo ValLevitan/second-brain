@@ -3,7 +3,7 @@ type: person
 title: Sergei Novitsky
 date: 2025-05-07
 aliases: [Sergei Novitsky, Sergey Novitsky, Сергей Новицкий, Novitsky]
-source-count: 1
+source-count: 2
 ---
 
 # Sergei Novitsky
@@ -16,6 +16,9 @@ Sergei Novitsky is a JVL **field/hardware technician** who sets up and troublesh
 
 Val's take: Novitsky "с опытом знает, как с машинами работать" — the experienced pair of hands who could do in ~10 minutes what the others couldn't. [[raw/flex_port_hardware_update-may-7-2025.md]]
 
+- **May 8 2025:** on the next-day TITO standup he undertook to perform the **FlexPay software update to version 154** ("Сергей Новицкий обещал помочь, сделает это") so [[wiki/people/eugine-yavorski.md|Yavorski]] could work with the latest TITO commands. See [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]]. [[raw/flex_pay_port_hardware_update-may-8-2025.md]]
+
 ## Sources
 
 - [[raw/flex_port_hardware_update-may-7-2025.md]]
+- [[raw/flex_pay_port_hardware_update-may-8-2025.md]]

@@ -3,7 +3,7 @@ type: topic
 title: FlexPay mobile app and service advocates
 date: 2026-07-12
 aliases: [FlexPay mobile app, service advocate, service advocates, whale, whale UI, Incom, TITO, SMIB, SAS server, FlexServer, FlexPay discovery contractor]
-source-count: 30
+source-count: 32
 ---
 
 # FlexPay mobile app and service advocates
@@ -89,6 +89,18 @@ A Wednesday FlexPort hardware call ([[wiki/meetings/2025-05-07-flexport-two-mach
 - **The three TITO stages (Val's framing):** (1) register FlexPort to FlexPay — bring up Ethernet/RTOS/LWIP, handshake, pass commands to registration; (2) push a coupon out of the game machine to FlexPay (SAS↔WSS↔FlexPay↔SaaS); (3) validate a ticket and transfer money back onto a machine. Yavorski to attempt stage-1 registration that day and target the coupon-out step by Thursday/Friday; Val demanded the week be broken into daily testable milestones ("I don't see a milestone further than Friday"). [[raw/flex_port_hardware_update-may-7-2025.md]]
 - **Loose ends:** FlexPorts need temporary **power without a bill acceptor** (a blank/simulation "iO board"); a Miami-office FlexPay+FlexPort arriving that day is to be set up by JVL's local engineer replicating what Felipe did for Georgia (horizontal machine preferred; no vertical software yet); [[wiki/people/genadi-peari.md|Genadi]] flagged JVL has only one spare FlexPort and needs another. Software builds to Miami to come via Alexei/Ira (a **production** build, not the debug "3794"). [[raw/flex_port_hardware_update-may-7-2025.md]]
 
+## May 8 2025 — TITO MoneyOut bring-up, versions 154/155, and the partial-cash-out feature
+
+A Russian-language hardware standup the next day (two recording segments — [[wiki/meetings/2025-05-08-flexport-flexpay-tito-standup.md]]) where [[wiki/people/eugine-yavorski.md|Eugene Yavorski]] ("Женя"/Egorsky) reports progress against the May-7 three-stage TITO plan to [[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel]] and [[wiki/people/dmitri-chudinov.md|Dima Chudinov]]. Val insisted the discussion be reduced to a written **"what was accomplished"** post plus a step-by-step **"action list for tomorrow"** in the meeting chat (so a transcript can be turned into an action list). [[raw/flex_pay_hardware_update-may-8-2025.md]] [[raw/flex_pay_port_hardware_update-may-8-2025.md]]
+
+- **Hardware chained and verified.** Yavorski connected the full chain — a JVL **Flex-S** slot machine with **FlexPort** inside, and a **FlexPay** kiosk (bill acceptor + printer). He confirmed the **WSS protocol** between machine and FlexPay works on the version installed (**145**), but that build lacks the latest **TITO** commands; it must be updated to version **154** (with full device support). He ran the **SAS** protocol on the FlexPort↔machine side and exercised [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]]'s commands for **ticket-out and ticket-print**, successfully **printed a ticket and read it back** into his program. [[raw/flex_pay_hardware_update-may-8-2025.md]]
+- **Version split:** **154** = office build with full device support (devices supported but TLT/TITO not force-blocking); **155** = a **home build without a dispenser** so Yavorski can keep working from home on the latest commands. [[wiki/people/sergei-novitsky.md|Sergei Novitsky]] undertook to do the FlexPay update to 154. [[raw/flex_pay_port_hardware_update-may-8-2025.md]]
+- **The plan / milestones:** today = **MoneyOut** (generate a ticket from the machine, pass its SAS ticket info into FlexPay, read it on FlexPay — using a software **"заглушка"/stub** with placeholder data first, then real GM data); **Friday** = **MoneyIn** (transfer a ticket's funds back onto a machine — the action list's step-2 wording was corrected from "gaming machine → FlexPort" to **"FlexPort → gaming machine"**); then two machines in parallel (generate on one, insert on the other) before handing to QA. QA (via Pavel) to start testing **Monday**. [[raw/flex_pay_port_hardware_update-may-8-2025.md]]
+- **Code-51 SAS bug (open):** after a ticket once failed to print at home, the machine emits an unblockable **SAS message with code 51 every 15 seconds** — Yavorski reads it as the machine repeatedly trying to issue a credit it "lost" when the ticket didn't print; he suspects an over-$100-credit condition but hadn't fully diagnosed it, planned to work around it, and would consult more knowledgeable people. [[raw/flex_pay_port_hardware_update-may-8-2025.md]]
+- **Two separate scenarios reaffirmed** (Val correcting confusion): (1) **old machines** with a single SAS port take a **FlexPort** in the SMIB role; (2) **new machines** may take FlexPort **or** a SMIB — and when a SMIB is used, the player interaction (including any partial money-in) stays on the machine via SAS. Ticket difference: FlexPay-generated tickets carry **PIN codes** (a Temporary Electronic Wallet), SAS-generated tickets don't. [[raw/flex_pay_port_hardware_update-may-8-2025.md]]
+- **Partial cash-out — a new feature request (from [[wiki/people/felipe-miranda.md|Felipe]], transcribed "Филипп Н").** Felipe asked (a few days earlier) that a player be able to withdraw **only part** of the money from a machine, not all of it. Resolution on the call: on the SAS side JVL takes out only what the machine says; but for **redemption of a temporary wallet** with a chosen partial amount, JVL must **write a new requirement, create a feature, and implement it** ("treat as expansion of the scope") — it does not work today. The partially-redeemed ticket handling: take the old ticket, print a new one with the remaining balance (no PIN reissue for wallet tickets — "we leave it"). [[raw/flex_pay_port_hardware_update-may-8-2025.md]]
+- **SAS logging before firmware update.** Before the remote **firmware update** work, Pavel asked to first implement a **SAS-command logging protocol** — log all SAS commands (both directions, machine↔FlexPort) to FlexPay so JVL can see what happens at the SAS level, "especially… on foreign [non-JVL] machines"; pings likely excluded to save resources. [[raw/flex_pay_port_hardware_update-may-8-2025.md]]
+
 ## Sources
 
 - [[raw/mobile_app_advocate_persona_profile_january_13_2025.md]]
@@ -121,3 +133,5 @@ A Wednesday FlexPort hardware call ([[wiki/meetings/2025-05-07-flexport-two-mach
 - [[raw/weekly_embedded_group_flex_port_progress-apr-15-2025.md]]
 - [[raw/flex_port_update-apr-22-2025.md]]
 - [[raw/flex_port_hardware_update-may-7-2025.md]]
+- [[raw/flex_pay_hardware_update-may-8-2025.md]]
+- [[raw/flex_pay_port_hardware_update-may-8-2025.md]]

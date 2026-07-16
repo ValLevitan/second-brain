@@ -3,7 +3,7 @@ type: topic
 title: Game art & animation production pipeline (comp art → Miranda)
 date: 2025-03-12
 aliases: [animation production, comp art pipeline, CompArt, storyboards, Spine, Blender, After Effects, placeholder build, Miranda scene assembly, art production stages, spike, sorting, symbol containers]
-source-count: 6
+source-count: 7
 ---
 
 # Game art & animation production pipeline (comp art → Miranda)
@@ -82,6 +82,14 @@ From the [[wiki/meetings/2025-05-01-game-design-review.md|May-1 review]]: [[raw/
 
 On the games-design tool-adaptation session ([[wiki/meetings/2025-05-07-games-design-ai-tools-adaptation.md]]) [[wiki/people/lena.md|Lena]] reported building **ComfyUI** (transcribed "Conf UI/Confi UI") workflows to generate a very specific **golden coin** asset — the point being to reproduce exact game-required assets, not just "something beautiful." Findings: fix the seed and parameters, then change only small prompt elements to keep the rest of an image stable; save/load workflows; some models need specific custom nodes and workflows. [[wiki/people/yulia.md|Yulia]] built a dataset of **21 golden-coin images** to train JVL's own **LoRA** style for the workflow. Aaron pointed them to the **ComfyUI Manager** (loads required backend nodes for a shared workflow), an **alpha-transparency node pack**, and a **3D-pack** that generates a full textured 3D mesh; and to **Unity plugins** that import ComfyUI output directly into Unity (2D, transparent, animated, or 3D). Consensus: ComfyUI is powerful but needs deep research and a chosen use case; it is not picked up "in a day or even a week." [[raw/tools_adaptation_games_design_department-may-7-2025.md]]
 
+## May 8 2025 — Golden Cask/Husk production, and the math-emulator stall
+
+From the [[wiki/meetings/2025-05-08-game-design-review.md|May-8 review]] ([[wiki/people/lena.md|Lena]] reporting): [[raw/game_design-may-8-2025.md]]
+
+- **Nebraska "Golden Cask"/Golden Husk bonus** progressing: Lena is finishing the game list for "Cask number one," the **bonus assets** are the main effort (games only need "removing hands"), and the **corn transition** animation (main game → bonus) was reviewed — the corn **fans out and scales toward the player** with sparkles for a "golden field feeling," ending in a large corn field. She adjusted the **Money Birds / Cash Cats** game logos so they don't run over. Production iterations start once Juan approves the list; **Crazy Spins** is the first game to cook, then Midnight Money. A first **video recording** of Crazy Spins was reviewed (good; needs a few still-image screens extended so narration has time). [[raw/game_design-may-8-2025.md]]
+- **Math-emulator stalled a week.** The Miranda→math emulator (the Fortune-Foo-Paws first playable from the May-1 review) had **no update for a week** — Val was told graphic work is paused because **[[wiki/people/dmitriy-khandov.md|Dima]] is working with "Peryatka" on "Couch" only** (both transcribed, unclear referents — flagged) on more urgent work; Dima returns to the emulator after a major push lands the game in-browser. [[raw/game_design-may-8-2025.md]]
+- **Graphic team + Miranda:** Lena confirmed the graphic team **"love" Miranda** ("a good environment… unique… with additional features") from the online-games work, and that their feedback shaped how Miranda progressed this year. **"Kyva 2"** (transcribed; unclear title) is under construction and expected in-browser next week once **Sasha Ryadko** (a developer) resolves it. [[raw/game_design-may-8-2025.md]]
+
 ## Sources
 
 - [[raw/Game Development How animation are made with Lena - March 12-2025.md]]
@@ -90,3 +98,4 @@ On the games-design tool-adaptation session ([[wiki/meetings/2025-05-07-games-de
 - [[raw/game_design-april-3-2025.md]]
 - [[raw/game_design_review-may-1-2025.md]]
 - [[raw/tools_adaptation_games_design_department-may-7-2025.md]]
+- [[raw/game_design-may-8-2025.md]]

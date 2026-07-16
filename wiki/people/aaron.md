@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 55
+source-count: 58
 open-commitments: 1
 ---
 
@@ -150,6 +150,10 @@ Across two sessions Aaron worked Val through how code actually relates to Jira, 
 
 Two Aaron-led sessions this day. **IT maturity** ([[wiki/meetings/2025-05-07-it-department-maturity-secrets.md]]): he coaches [[wiki/people/dmitri-kovalchuk.md|Dima Kovalchuk]] and [[wiki/people/andrey-bosik.md|Andrei]] to move IT from reactive to planned work, using the still-open secret-server choice to teach a first-principles chain (information-security policy → risk register → requirements → a weighted product-scoring matrix); homework to write risks/policy/requirements and score Azure Key Vault / AWS Secrets Manager / HashiCorp Vault / Delinea. See [[wiki/topics/infosec-and-server-infrastructure.md]]. [[raw/it_department_maturity-may-7-2025.md]] **Games-design tools** ([[wiki/meetings/2025-05-07-games-design-ai-tools-adaptation.md]]): the bi-weekly practice session with Lena/Anastasia/Yulia/Dima Khandov on the Cline agent + his custom Confluence/Jira MCP and ComfyUI — he directed a switch to Docker-native MCP, explained Cline's coding bias (good at Git, poor at Confluence/Jira admin), and floated a separate authoring-vs-administrator Confluence MCP. See [[wiki/topics/ai-assisted-development.md]]. [[raw/tools_adaptation_games_design_department-may-7-2025.md]]
 
+## May 8 2025 — capability/Compass + internal MCP servers
+
+A three-segment Aaron↔Val strategy session ([[wiki/meetings/2025-05-08-capability-compass-mcp-aaron-session.md]]): Aaron introduced **Atlassian Compass** as the engineer-side "second diamond" that connects code feature-branches back to a project's components/capabilities (opposite Jira **Discovery**); worked the product→capability→feature philosophy on JVL core technology (see [[wiki/decisions/2025-04-03-jira-capability-level-and-github-mapping.md]]); and pitched JVL **writing/maintaining its own MCP servers** as production tooling — MCP as a *specification* not a product, D-Bus/COM/AppleScript system-interface adapters, an in-stack Omni MCP class (naming [[wiki/people/alexander-biratka.md|Alex Baratka]] to write it), and AI-augmented QA via Gherkin. See [[wiki/topics/ai-assisted-development.md]]. [[raw/product_capability_feature-may-8-2025.md]] [[raw/discovery_tracking_capabilities_compass_jira-may-8-2025.md]] [[raw/mcp_servers_for_jvl-may-8-2025.md]]
+
 ## Sources
 
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
@@ -207,3 +211,6 @@ Two Aaron-led sessions this day. **IT maturity** ([[wiki/meetings/2025-05-07-it-
 - [[raw/the_reason_for_miranda-may-6-2025.md]]
 - [[raw/it_department_maturity-may-7-2025.md]]
 - [[raw/tools_adaptation_games_design_department-may-7-2025.md]]
+- [[raw/product_capability_feature-may-8-2025.md]]
+- [[raw/discovery_tracking_capabilities_compass_jira-may-8-2025.md]]
+- [[raw/mcp_servers_for_jvl-may-8-2025.md]]

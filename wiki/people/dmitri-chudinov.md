@@ -4,7 +4,7 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 15
+source-count: 17
 open-commitments: 3
 open-questions: 0
 ---
@@ -78,6 +78,10 @@ On the RIS ↔ Business Central licensing meeting ([[wiki/meetings/2025-04-03-ri
 
 On the SMIB weekly ([[wiki/meetings/2025-04-15-embedded-group-smib-sas-printer.md]]) "Дима Чудинов" is building the **mini SAS server** on the FlexPay kiosk — it generates the barcode validation that the SMIB requests when a player prints a ticket. Targeted, with the temporary SMIB (a screenless FlexPort board) and the FlexPort firmware-update path, for the **end-of-April** TITO milestone. See [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]]. [[raw/weekly_embedded_group_flex_port_progress-apr-15-2025.md]]
 
+## May 8 2025 — SAS protocol owner on the TITO standup
+
+On the [[wiki/meetings/2025-05-08-flexport-flexpay-tito-standup.md|May-8 FlexPort standup]] Dima Chudinov is named as the author of the **protocol commands** Yavorski works against ("Дима Чудинов вам предоставил в этом протоколе"); Val asked "Дима и Паша" to think through what remains for the **final delivery** of Yavorski's FlexPort project beyond the daily action list. See [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]]. [[raw/flex_pay_hardware_update-may-8-2025.md]] [[raw/flex_pay_port_hardware_update-may-8-2025.md]]
+
 ## Sources
 
 - [[raw/architecture_sql_olap_visualization_1_2025-03-29.md]]
@@ -95,3 +99,5 @@ On the SMIB weekly ([[wiki/meetings/2025-04-15-embedded-group-smib-sas-printer.m
 - [[raw/cms_github_svn-apr-15-2025.md]]
 - [[raw/ris_business_central_integration-april-3-2025.md]]
 - [[raw/weekly_embedded_group_flex_port_progress-apr-15-2025.md]]
+- [[raw/flex_pay_hardware_update-may-8-2025.md]]
+- [[raw/flex_pay_port_hardware_update-may-8-2025.md]]
