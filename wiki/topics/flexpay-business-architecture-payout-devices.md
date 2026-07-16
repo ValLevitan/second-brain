@@ -2,8 +2,8 @@
 type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
-aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink]
-source-count: 4
+aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS]
+source-count: 5
 open-commitments: 6
 open-questions: 3
 ---
@@ -65,6 +65,17 @@ On Wednesday Apr 16, Val worked the device design directly with [[wiki/people/ge
 - **Roadmap & market:** priority order = finish JVL business model → TITO architecture (SMIB + FlexPort + Local TITO Server) → dispensing tower → FlexPOS; tower work goes to [[wiki/people/evgeniy-alekseev.md|Alekseev]] + [[wiki/people/eugine-yavorski.md|Yavorski]]. Targeted at South Dakota, Nebraska, Puerto Rico; JVL follows InComm (Alabama, Texas). Legacy non-FlexPort machines (~3,000 of ~35,000) deprioritized. Rent-not-sell / recurring-revenue model (see decision). [[raw/fkex_pay_evolution-apr-16-2025.md]]
 - Val floated handing the whole tower project to someone else (perhaps Evgeny's ex-cash-handling mechanics) to free Genadi for the Flex-S machines, but "отдать на сторону проект немножко скерри мне" — with control, not abandonment. [[raw/fkex_pay_evolution-apr-16-2025.md]]
 
+## Apr 23 — architecture evolution (Juan/Pavel/Gennady/Val)
+
+A long English architecture meeting ([[wiki/meetings/2025-04-23-flexport-smib-tito-architecture-evolution.md]]) worked the device architecture into a clearer shape; the decision-grade rulings (SMIB scope, the standalone TITO-server product) are on [[wiki/decisions/2025-04-07-flexsmib-modern-flexport-legacy.md]]. Design/strategy detail: [[raw/evolution_flex_port-apr-23-2025.md]]
+
+- **Barcode readability dispute (action item, not resolved on the call):** Pavel thinks the optical scanner needs **~15–20 cm** reading distance for the long central barcode a third-party printer produces; Gennady measured **~10–12 cm** available and says 10 cm suffices. The scanner was chosen at "**above 50 degrees**" wide angle (the maximum). Undertakings: **Pavel** to verify the actual minimum distance and send Gennady the QR settings to reconfigure the reader; **Gennady** to check readability on **FlexPay** (its scanner-to-glass distance is a fixed 10 cm, sized for a card not a long ticket — may need a bigger opening). A lens/prism cap to widen the angle was floated as a fallback. [[raw/evolution_flex_port-apr-23-2025.md]]
+- **One experience per location (reaffirmed, with a consequence):** a location runs **either** the digital/temporary-wallet model **or** TITO, never both — "you can't have digital wallet and Tito in the same building." The consequence Val drew out: in the **digital-wallet** model, since a modern IGT machine's cash-out prints only a plain central barcode (not JVL's scannable retain-and-reuse ticket), **every machine in the location needs a FlexPort with a scanner** so the player scans-and-keeps the wallet at each game — otherwise the wallet is lost. Which answered the standing SMIB question for that case: "do we actually need a SMIB or is it just a flex port that does it all? — **Just a flex port.**" [[raw/evolution_flex_port-apr-23-2025.md]]
+- **Kiosk-not-first (evolution of thinking):** Val explicitly revised the original model — "one of the drawbacks… was, you needed to **start your play at the kiosk**. And that was a negative. We want to **start a player at the machine**," keeping the kiosk as an alternative, not the primary touchpoint. [[raw/evolution_flex_port-apr-23-2025.md]]
+- **Two POS products:** **POS #1** = the **FlexPay top panel** driven by the regular FlexPay CPU (the CPU stays in the base unit; the top just becomes a point-of-sale surface). **POS #2** = a **FlexPort-based** unit — the 7-inch screen/touchscreen/board "sandwich" turned **vertical** in a plastic enclosure, mounted on a **$30 Amazon suction-cup arm** or an L-bracket. Val's worry: the FlexPay-derived POS is "the world's largest POS device" versus the **$350 tiny store POS** JVL competes with on a crowded gas-station counter; the interim fix is the L-bracket to stand it vertically while a smaller FlexPort POS is designed. The bill acceptor uses the **ID003** protocol (transcribed "ID03"); the FlexPort printer is driven over **RS232** (USB reserved for logs/firmware — "USB in… industrial application is not such a good interface"). [[raw/evolution_flex_port-apr-23-2025.md]]
+- **Where the local TITO server lives (the long debate → a decision):** Val floated a standalone/cloud server; Pavel argued firmly for **Linux over the STM32/embedded route** (STM has "a lot of issues related to network communications… size of memory to write logs"; embedded code is "one monolithic software block file" vs modular, well-tested Linux; the Java/Linux code is reusable; more Linux specialists exist — Toronto, Minsk, Pavel himself). Reliability framing: the server is the **single point of failure for the whole location** ("when we have a CPU failure, one machine goes down… all nine machines go down" — max **9 FlexPort devices** per location), so a **99.5%-uptime + auto-recover** requirement, wired (not Wi-Fi) connection, minimal cooling (it only does "100 or 500 transactions per day"). The current cheap amusement board ("Kopini/Kardini", a "low-grade Chinese manufacturer") was judged unreliable; prefer a fanless industrial board (Gennady suggested **Tatang**) with NVMe + memory (~$120), "not… placing price tag as a criteria." **Resolution:** move the TITO server onto **its own standalone industrial-Linux hardware, presented as a separate product called "TITO server"** (see decision). [[raw/evolution_flex_port-apr-23-2025.md]]
+- **Dispenser hardware:** the card-dispensing tower will use **embedded (STM32-based) hardware similar to FlexPort**; when a location has a dispenser but no FlexPay, the TITO-server CPU box can be placed inside the dispenser enclosure (a separate CPU from the dispenser's own). [[raw/evolution_flex_port-apr-23-2025.md]]
+
 ## Open commitments
 
 - [ ] Igor Starovoytov — draw the tower's industrial design (dimensions; standalone view + a between-machines view; gray/milky, no lighting, 7-inch front screen) — due ~Wed/Thu Apr 16–17 — [[raw/fkex_pay_evolution-apr-16-2025.md]]
@@ -86,3 +97,4 @@ On Wednesday Apr 16, Val worked the device design directly with [[wiki/people/ge
 - [[raw/flex_port_recap_felipe_juan_pavel-april-8-2025.md]]
 - [[raw/evolution_flex_pay-april-11-2025.md]]
 - [[raw/fkex_pay_evolution-apr-16-2025.md]]
+- [[raw/evolution_flex_port-apr-23-2025.md]]

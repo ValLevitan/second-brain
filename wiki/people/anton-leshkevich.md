@@ -2,9 +2,9 @@
 type: person
 title: Anton Leshkevich
 date: 2025-01-21
-aliases: [Anton Leshkevich, Anton, Antoine]
+aliases: [Anton Leshkevich, Anton, Antoine, Anton Dmishkevich]
 disambiguation: "One of THREE distinct Antons. Anton Leshkevich = Minsk engineer (Omni/RGS, this page). Distinct from Anton Seregin (Minsk payroll, wiki/people/anton-seregin.md) and the SMM/Meta-ads contractor (wiki/people/anton-smm.md). Owner-confirmed 2026-07-13. Resolve 'Anton' by context; queue if unclear."
-source-count: 9
+source-count: 10
 open-commitments: 1
 open-questions: 0
 ---
@@ -45,6 +45,12 @@ Anton Leshkevich is a JVL Minsk engineer. He knows the Omni framework and RGS co
 
 Val changed his earlier plan: rather than Anton writing the integration tests himself, Anton is to **train JVL's QA engineers** to write them ("Я не хочу, чтобы вы сами руками писали эти тесты … начинали учить наших QA-инженеров"). He is to prepare a presentation and run a kickoff meeting with Irina and Pavel — Val offered to attend Friday **6:30 am**. Anton had also been doing the game-history screenshot work on the Omni framework. [[raw/daily_omni_progress-april-16-2025 (Val Levitan's conflicted copy).md]] See [[wiki/decisions/2025-04-16-replace-testers-with-test-engineers.md]].
 
+## Apr 22 2025 — Calle Ocho feature assignment (surname flagged "Dmishkevich")
+
+On the scheduling session ([[wiki/meetings/2025-04-22-calle-ocho-omni-feature-scheduling.md]]) "Anton" was assigned the game-integration features — **Free Spins (FRAM 664)**, **Mass Engine (FRAM 2)**, **Bonus Game (FRAM 699)** and **Pick Your Fortune Dialog (FRAM 693)** — plus the matrix symbol-sorting under FRAM 478 (~2 days, done before on the online side), run at ~70% so he can also begin QA tests. See [[wiki/topics/omni-core-advancement-and-game-templating.md]]. [[raw/omni_calle_ocho_scheduling-apr-22-2025.md]]
+
+  - **Identity note (queued, Tier A):** the transcript names this Anton "**Антоном Дмишкевичем / Anton Dmishkevich**," a surname that does **not** match Leshkevich. Resolved here to Leshkevich by Omni-framework/QA context (his established domain) and the plausible ASR slip on the shared "-шкевич" ending, but the surname divergence is flagged for owner confirmation — it could be a distinct fourth Anton. [[raw/omni_calle_ocho_scheduling-apr-22-2025.md]]
+
 ## Sources
 
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
@@ -56,3 +62,4 @@ Val changed his earlier plan: rather than Anton writing the integration tests hi
 - [[raw/test-360_progress_review_meeting.md]]
 - [[raw/daily_omni_progress-apr-15-2025.md]]
 - [[raw/daily_omni_progress-april-16-2025 (Val Levitan's conflicted copy).md]]
+- [[raw/omni_calle_ocho_scheduling-apr-22-2025.md]]

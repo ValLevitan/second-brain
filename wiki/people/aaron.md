@@ -2,8 +2,8 @@
 type: person
 title: Aaron
 date: 2026-07-12
-aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie]
-source-count: 42
+aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
+source-count: 44
 open-commitments: 1
 ---
 
@@ -107,6 +107,11 @@ His surname is given as **Bockelie** on the Jan 21 continuous-delivery transcrip
 
 - Coached Val on secrets-management platform selection and the DevSecOps framing ("DevOps is actually DevSecOps"), and offered his InfoSec network: **John Luke Peck**, Deputy CISO at **Critical Insight** (Aaron's former boss at a nuclear-engineering company) — Aaron pushed for an official Critical Insight engagement with himself staying as independent advisor. See [[wiki/topics/infosec-and-server-infrastructure.md]]. [[raw/info_security_server_infrastructure.md]]
 
+## Vector-DB tooling continued — N8N/Pinecone then Verba/Weaviate (Apr 15, Apr 23)
+
+- **N8N + Pinecone (Apr 15):** screen-shared to build a RAG document-chatbot over Val's transcripts using the **N8N** automation platform + a **Pinecone** vector index + Google Drive + OpenAI embeddings/GPT-4o-mini; taught the embedding-model-must-match-the-index and input-sanitization lessons. See [[wiki/topics/transcript-knowledge-base-tooling.md]] and [[wiki/meetings/2025-04-15-n8n-pinecone-rag-setup.md]]. [[raw/pinecone_n8n_transcript_setup-apr-15-2025.md]]
+- **Verba/Weaviate + cloud hand-off (Apr 23):** demoed the open-source **Verba** RAG app on the **Weaviate** vector DB against ~384 of Val's transcript documents, walked Val's company-wide-knowledge-base thesis, and — when Val asked to scale it beyond his laptop — brought in [[wiki/people/andrey-bosik.md|Andrei Bosik]] to run it on JVL's AWS cloud in Docker; his **personal email aaronsb@gmail.com** was given for the doc-archive share. Also helped install the **Confluence MCP** on Val's laptop and reaffirmed the "run MCPs as Docker, not Node.js, so Watchtower keeps them current" rule. See [[wiki/topics/transcript-knowledge-base-tooling.md]] and [[wiki/meetings/2025-04-23-verba-weaviate-company-knowledge-base.md]]. [[raw/aaron_vector_knowledge_base-apr-23-2025.md]]
+
 ## Open commitments
 
 - [ ] Aaron — introduce Val to John Luke Peck / Critical Insight and schedule the call — due unspecified — [[raw/info_security_server_infrastructure.md]]
@@ -169,3 +174,5 @@ Across two sessions Aaron worked Val through how code actually relates to Jira, 
 - [[raw/test-360_progress_review_meeting.md]]
 - [[raw/it_automation_schemas_secrets_server-apr-16-2025.md]]
 - [[raw/mcp_experiences_tech-apr-16-2025.md]]
+- [[raw/pinecone_n8n_transcript_setup-apr-15-2025.md]]
+- [[raw/aaron_vector_knowledge_base-apr-23-2025.md]]

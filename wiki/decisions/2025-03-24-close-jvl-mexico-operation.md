@@ -4,7 +4,7 @@ title: Close the JVL Mexico operation
 date: 2025-03-24
 aliases: [close Mexico, JVL Mexico closure, Mexico dissolution]
 status: active
-source-count: 3
+source-count: 4
 ---
 
 # Close the JVL Mexico operation
@@ -21,6 +21,17 @@ On the Apr 7 finance call ([[wiki/meetings/2025-04-07-finance-recurring-alka-hec
 - **Kept off the Mexico budget entirely** (Val's direct responsibility, not the local team's business): legal expenses, taxes, **SAT settlement cases**, legal fees — the forecast including them is "purely for you [Val]" to plan cash flow. [[raw/finance_recurring-april-7-2025.md]]
 
 *(Evolution, not contradiction: the Mar-24 "maximum six months" ceiling is superseded by the 30-day order; the early-close bonus logic below is consistent with it — closing faster preserves the discretionary payout.)*
+
+## Apr 15 2025 — the tax audit blocks legal dissolution (current state)
+
+On the Apr 15 wind-down call with external Mexican accountant [[wiki/people/alejandro.md|Alejandro]] (via interpreter [[wiki/people/felipe-miranda.md|Felipe Miranda]] — [[wiki/meetings/2025-04-15-mexico-orderly-wind-down-alejandro.md]]), a distinction emerged between **stopping operations** and **legally dissolving the company**: [[raw/mexico_jvl_orderly_wind-down-apr-15-2025.md]]
+
+- **Operations vs legal closure.** Val stated he "will probably close down all the operations within the next 60 days," but Alejandro warned the company **cannot be fully/legally closed** until the **SAT tax audit** — running "a little more than a year" with no certain end — concludes: his estimate to fully dissolve is **"a year, year and a half," but uncertain** (it depends on the authority, not JVL). (Refines Val's own Apr-7 "office closed in 30 days" operational order — the machine-pickup/office shutdown is a separate, shorter track from legal dissolution; recorded as Val's later restatement, not a contradiction.) [[raw/mexico_jvl_orderly_wind-down-apr-15-2025.md]]
+- **Legal-representative liability.** Bankrupting the company would not sever exposure: a foreign company must keep a **legal representative**, and the tax authority "will be able to continue trying to find the legal representative" for any assessed tax credit, since someone must answer for it. Normally the representative stays liable for a period even after bankruptcy; **unlinking them needs a lawyer's strategy** (the audit lawyers could propose a mechanism). [[raw/mexico_jvl_orderly_wind-down-apr-15-2025.md]]
+- **Staffing after operations stop.** Once operations halt completely (no income/expenses), accounting reduces to **filing declarations "in zeros,"** doable externally — so **all direct JVL Mexico employees can be terminated**, keeping only the **lawyers** (audit) and an **external accountant** (zero filings) until the audit closes. Until the last operations end (~one–two months), the **internal bookkeeper** stays. A JVL manager (Igor — [[wiki/people/igor-donis.md|Igor Donis]] by finance context, inference) had already told Alejandro that JVL would absorb part of the registration/accounting work, leaving him mostly the tax and payroll pieces. [[raw/mexico_jvl_orderly_wind-down-apr-15-2025.md]]
+- **Post-closure retainer + payment routing.** Alejandro to propose a **yearly standby retainer** (near-zero day-to-day work; audit follow-up + zero filings) and email Val a figure the same day. Val: payments will come **from the United States directly** (no Mexico office to pay him), and Alejandro should **deal with Val directly, not through anyone else**. [[raw/mexico_jvl_orderly_wind-down-apr-15-2025.md]]
+
+*(Consistent with the earlier decision: legal fees, taxes and SAT-settlement cases were already flagged as Val's direct responsibility off the local Mexico budget. This call fills in the mechanism and timeline for that tail.)*
 
 ## Rationale
 
@@ -39,3 +50,4 @@ On the Apr 7 finance call ([[wiki/meetings/2025-04-07-finance-recurring-alka-hec
 - [[raw/financial_alka_alignment-march-24-2025.md]]
 - [[raw/doug_update_jvl-march-23-2025.md]]
 - [[raw/finance_recurring-april-7-2025.md]]
+- [[raw/mexico_jvl_orderly_wind-down-apr-15-2025.md]]

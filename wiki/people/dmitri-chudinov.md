@@ -4,7 +4,7 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 14
+source-count: 15
 open-commitments: 3
 open-questions: 0
 ---
@@ -74,6 +74,10 @@ On the RIS ↔ Business Central licensing meeting ([[wiki/meetings/2025-04-03-ri
 - Led the developer side of the Apr 14–15 CMS sessions ([[wiki/meetings/2025-04-14-cms-svn-github-product-repos.md]], [[wiki/meetings/2025-04-15-cms-migration-staged-decision.md]]): argued that splitting the legacy monolith across repos "будут очень болезненные процессы, очень долгие … мы можем упереться во многие проблемы и просто застрять," that the CMS is really ~10 modules plus a big Core and a **monolithic database** best not split, and proposed migrating **as-is** — the position that became the team verdict behind [[wiki/decisions/2025-04-15-cms-staged-migration-plan.md]]. Scope he listed: ~15 SVN repositories. [[raw/cms_svn_github-april-14-2025.md]] [[raw/cms_github_svn-apr-15-2025.md]]
 - His live workstreams named on Apr 15: software-licence work for clients, and ongoing **FlexPay server-side tweaks** — "по FlexPay, я постоянно веду некоторые доработки, чтобы иметь возможность получать логи и смотреть … работоспособности терминала." He owns initiating the **manifests-product** meeting (with Pasha and "всеми заинтересованными") and, with Tsymanov, sizing the SVN→GitHub transfer against Val's five-day rule. [[raw/cms_github_svn-apr-15-2025.md]]
 
+## Apr 15 2025 — the mini SAS server
+
+On the SMIB weekly ([[wiki/meetings/2025-04-15-embedded-group-smib-sas-printer.md]]) "Дима Чудинов" is building the **mini SAS server** on the FlexPay kiosk — it generates the barcode validation that the SMIB requests when a player prints a ticket. Targeted, with the temporary SMIB (a screenless FlexPort board) and the FlexPort firmware-update path, for the **end-of-April** TITO milestone. See [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]]. [[raw/weekly_embedded_group_flex_port_progress-apr-15-2025.md]]
+
 ## Sources
 
 - [[raw/architecture_sql_olap_visualization_1_2025-03-29.md]]
@@ -90,3 +94,4 @@ On the RIS ↔ Business Central licensing meeting ([[wiki/meetings/2025-04-03-ri
 - [[raw/cms_svn_github-april-14-2025.md]]
 - [[raw/cms_github_svn-apr-15-2025.md]]
 - [[raw/ris_business_central_integration-april-3-2025.md]]
+- [[raw/weekly_embedded_group_flex_port_progress-apr-15-2025.md]]

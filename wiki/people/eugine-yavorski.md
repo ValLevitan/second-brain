@@ -2,9 +2,9 @@
 type: person
 title: Eugine Yavorski
 date: 2025-02-18
-aliases: [Eugine Yavorski, Evgeny Yavorsky, Yavorski, Yavorsky, Яворский, Evgeny, Yevgeny, Zhenya, Женя, Евгений]
+aliases: [Eugine Yavorski, Evgeny Yavorsky, Yavorski, Yavorsky, Яворский, Evgeny Egorsky, Egorsky, Егорский, Evgeny, Yevgeny, Zhenya, Женя, Евгений]
 disambiguation: "One of TWO Zhenyas (owner-ruled), both contractors via EAleks Technology: Eugine Yavorski (wiki/people/eugine-yavorski.md) and Evgeniy Alekseev (wiki/people/evgeniy-alekseev.md). Resolve by context; queue if unclear."
-source-count: 11
+source-count: 13
 open-commitments: 2
 ---
 
@@ -48,6 +48,11 @@ Name confirmed by Val as **Eugine Yavorski** (the Mar 11 transcript renders it "
 
 - On the Apr 1 standup ([[wiki/meetings/2025-04-01-flexport-flexpay-dev-update.md]]) his plate: test **multiple devices simultaneously on the FlexPay bus** in the office ("у нас пока на шине было только один девайс"), then implement **log/system-state transfer to FlexPay on a button press**. A planned office session had slipped (the office was closed the day before); he arranged to go the same day (Gennady in the office) and asked to be shown how to do a **cash-out** on the gaming machine. His SAS/TITO test bed is an **ECHO countertop machine** that must run in **production (not demo) mode** ("иначе не будет работать"); he needs a **printer and a replacement bill validator** from Gennady (his stopped working) and identified the machine's **DB9** connector as the SAS port. See [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]]. [[raw/flex-port_pay_dev_update-april-1-2025.md]]
 
+## Embedded weeklies (Apr 15, Apr 22)
+
+- **Apr 15:** on the SMIB/SAS weekly ([[wiki/meetings/2025-04-15-embedded-group-smib-sas-printer.md]]) Yavorski ("Яворский") reported finishing the **Georgia/Florida program build (version 0.15, `update.bin`)** and clarified the flashing sequence (bootloader once for production, after which the flash-drive update stops working); firmware-update-via-FlexPay targeted for end of April. See [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]]. [[raw/weekly_embedded_group_flex_port_progress-apr-15-2025.md]]
+- **Apr 22:** on the follow-up standup ([[wiki/meetings/2025-04-22-flexport-tito-machine-setup-debug.md]]) Yavorski (rendered "**Егорский**" this time — already established on this page as him) had joined the **PWS/WebSocket** exchange project, was porting settings from the with-screen project to run the FlexPay exchange, and had the **firmware update ~40% done** (paused to prioritise the SAS work, which "must родить something by end of April"). His test machine is a small **red countertop** with no printer (so not TITO-enabled) — he must connect a printer, Factory-Reset, scan the passport and apply an RIS file to enable TITO; Alexei Khamin/Vlad to walk him through it. [[raw/flex_port_update-apr-22-2025.md]]
+
 ## Open commitments
 
 - [ ] Eugine Yavorski — read the FlexPay↔FlexPort **WSS protocol** over the weekend, report the effort estimate Monday, then implement the TITO extension — due Monday (report) — [[raw/scope_gap_tito_flex_pay-march-28-2025.md]]
@@ -70,3 +75,5 @@ On the Genadi hardware call Val named the **Flex self-dispensing tower** (on the
 - [[raw/flex_pay_scope_gap-mach-27-2025.md]]
 - [[raw/flex-port_pay_dev_update-april-1-2025.md]]
 - [[raw/fkex_pay_evolution-apr-16-2025.md]]
+- [[raw/weekly_embedded_group_flex_port_progress-apr-15-2025.md]]
+- [[raw/flex_port_update-apr-22-2025.md]]

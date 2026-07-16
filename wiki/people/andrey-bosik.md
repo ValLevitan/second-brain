@@ -2,9 +2,9 @@
 type: person
 title: Andrey Bosik
 date: 2026-07-13
-aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre]
+aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 36
+source-count: 37
 open-commitments: 5
 ---
 
@@ -85,6 +85,10 @@ His surname is given as **Bosik** on the Feb 12 GitHub check-in (WEBVTT). (Disti
 - **RGS migration (Mar 31):** Aaron assigned [[wiki/people/igor-metelski.md|Igor Metelski]] to "work with Andre and Afim to get the remaining... SPN [SVN] repos mapped over to git"; Efim confirmed "we" (his side with Andrei) can easily migrate the parts visible in the RGS checkout batch file for a Windows local build. See [[wiki/decisions/2025-03-17-migrate-rgs-codebase-svn-to-git.md]]. [[raw/rgs_git_migration-march-31-2025.md]]
 - **OpenRouter usage:** in the same-day spend audit, "Andre is using it a little bit" (resolved to Bosik by context — he is the established Cline/OpenRouter user among the Minsk engineers; inference). [[raw/vector_meeting_db-march-31-2025.md]]
 
+## Apr 23 2025 — the company knowledge-base cloud build
+
+On the Verba/Weaviate session ([[wiki/meetings/2025-04-23-verba-weaviate-company-knowledge-base.md]]) Val brought Andrei in to own the **cloud implementation** of the transcript knowledge base: run the **Verba** app in a **Docker container on JVL's AWS cloud**, behind authentication (an **AutoProxy** he'd already installed), browser-accessible from any device. He agreed to write the **business requirements** and set up a **Friday 7 a.m.** session with Val. On the same call he confirmed the **Jira and Confluence MCP** servers function (he and "Dimitri" had test-queried them), agreeing to the run-them-as-Docker-not-Node.js rule so Watchtower auto-updates them. (The RAG bot itself flagged the same-name confusion Val's registry tracks — "wrong Andre… **Andre Bostic**," a mis-spelling of Bosik.) See [[wiki/topics/transcript-knowledge-base-tooling.md]]. [[raw/aaron_vector_knowledge_base-apr-23-2025.md]]
+
 ## Open commitments
 
 - [ ] Andrei — build a **generic base template** GitHub repo (from the Fortune Fupa template) that new game repos fork from — due unspecified — [[raw/GitHub_for_Graphic_Design_evolution_2025-03-12.md]]
@@ -147,3 +151,4 @@ In the Omni daily Andrei confirmed the GitHub repo-naming changes (renamed the a
 - [[raw/it_automation_schemas_secrets_server-apr-16-2025.md]]
 - [[raw/mcp_experiences_tech-apr-16-2025.md]]
 - [[raw/github_jira_reshuffling_products-april-7-2025.md]]
+- [[raw/aaron_vector_knowledge_base-apr-23-2025.md]]

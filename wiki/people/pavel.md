@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 41
+source-count: 43
 open-commitments: 4
 open-questions: 0
 ---
@@ -122,6 +122,11 @@ Note: "Pasha" and "Sasha" are sometimes confused in the transcripts; "Pasha" map
 
 Pavel (Pasha) ran the Omni daily as meeting secretary, walking the Jira feature list (IP 416 Omni Land Base Framework / IP 610 Omni Core) and creating features/stories; he is weighing lengthening the sprint from two weeks to three (maybe four), which Val capped at +1 week. Val nudged him to shift planning to smaller groups so he stops being "секретарь митинга." [[raw/daily_omni_progress-april-16-2025 (Val Levitan's conflicted copy).md]] Separately, on the Genadi hardware call, Val reported Pavel had tested the TITO-barcode reader — he inverted the image black/white "и потом он читает все" — confirming the scanner works after a settings reprogram. [[raw/fkex_pay_evolution-apr-16-2025.md]]
 
+## Apr 22–23 2025 — Omni scheduling + the FlexPort/TITO-server architecture
+
+- **Omni feature scheduling (Apr 22):** Pavel presented the Jira board and split the Omni Game Framework features for the Calle Ocho port across Sasha, Anton and Igor Metelski, and drove the prune (deleting the Transition-Scene-Integration feature, deferring the topper). See [[wiki/topics/omni-core-advancement-and-game-templating.md]] and [[wiki/meetings/2025-04-22-calle-ocho-omni-feature-scheduling.md]]. [[raw/omni_calle_ocho_scheduling-apr-22-2025.md]]
+- **Architecture evolution (Apr 23):** on the FlexPort/SMIB/TITO meeting Pavel argued firmly for a **Linux** local TITO server over STM32/embedded (embedded is a "monolithic software block," Linux is modular/tested with more available specialists incl. himself), and won the ruling to make the **TITO server its own standalone industrial-Linux device**; he also worked the barcode-distance verification undertaking and the two POS forms. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] and [[wiki/decisions/2025-04-07-flexsmib-modern-flexport-legacy.md]]. [[raw/evolution_flex_port-apr-23-2025.md]]
+
 ## Sources
 
 - [[raw/GitHub repository structure.md]]
@@ -166,3 +171,5 @@ Pavel (Pasha) ran the Omni daily as meeting secretary, walking the Jira feature 
 - [[raw/ris_business_central_integration-april-3-2025.md]]
 - [[raw/tech_and_settings_issues-juan_martinez-april-3-2025.md]]
 - [[raw/github_jira_reshuffling_products-april-7-2025.md]]
+- [[raw/omni_calle_ocho_scheduling-apr-22-2025.md]]
+- [[raw/evolution_flex_port-apr-23-2025.md]]

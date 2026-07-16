@@ -2,9 +2,9 @@
 type: person
 title: Igor Metelski
 date: 2026-07-14
-aliases: [Igor Metelski, Igar Miatselski, Miatselski, Igor]
+aliases: [Igor Metelski, Igar Miatselski, Miatselski, Igor, Igor Mitelsky, Мительский]
 disambiguation: "RGS engineer on Efim Podvoiski codebase (= payroll Igar Miatselski). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
-source-count: 5
+source-count: 6
 open-commitments: 1
 ---
 
@@ -32,6 +32,10 @@ Igor Metelski is a JVL engineer who works on the codebase [[wiki/people/efim-pod
 
 In the Omni daily, when asked who besides Sasha/Anton/Hrybko would develop the framework features, Val named that both **Kharetsky** (LGS) and **Miatselski** should be involved. [[raw/daily_omni_progress-april-16-2025 (Val Levitan's conflicted copy).md]]
 
+## Apr 22 2025 — Calle Ocho feature assignment
+
+On the scheduling session ([[wiki/meetings/2025-04-22-calle-ocho-omni-feature-scheduling.md]]) Igor Metelski ("Игорь Мительский") was assigned the **Denomination Selector screen (FRAM 1 Messages)**, the **debug outcome-selection menu (FRAM 652)**, **Checkpoint Messages**, the **Game Dashboard (FRAM 672 + counters 673–677)** and **Help Screen Integration** for the Calle Ocho Omni port. See [[wiki/topics/omni-core-advancement-and-game-templating.md]]. [[raw/omni_calle_ocho_scheduling-apr-22-2025.md]]
+
 ## Sources
 
 - [[raw/reversing_distilling_from_ready_code_into_requir_2025-03-17.md]]
@@ -39,3 +43,4 @@ In the Omni daily, when asked who besides Sasha/Anton/Hrybko would develop the f
 - [[raw/rgs_git_migration-march-31-2025.md]]
 - [[raw/vector_meeting_db-march-31-2025.md]]
 - [[raw/daily_omni_progress-april-16-2025 (Val Levitan's conflicted copy).md]]
+- [[raw/omni_calle_ocho_scheduling-apr-22-2025.md]]
