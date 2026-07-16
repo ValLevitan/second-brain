@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 48
+source-count: 53
 open-commitments: 1
 ---
 
@@ -140,6 +140,12 @@ Across two sessions Aaron worked Val through how code actually relates to Jira, 
 - **Organizing Miranda ([[wiki/meetings/2025-05-01-organizing-miranda-github.md]]):** Aaron met Dmitriy Khandov (~Apr 29) and recapped to Val an action list to clean up the Miranda repo (`.gitignore`, purge logs/libraries, delete stale branches, a packaging/zip strategy) before opening a feature branch to fold the math emulator back in; the emulator may move to its own repo/product (undecided). He was candid that he wasn't sure Dima had fully understood. See [[wiki/topics/miranda-authoring-tool.md]]. [[raw/organizing_miranda_github-may-1-2025.md]]
 - **Unity-instead-of-Miranda ([[wiki/meetings/2025-05-01-unity-instead-of-miranda.md]]):** with Val, Aaron probed Sasha on adopting Unity (now free of per-install fees) in place of Miranda; Aaron noted C# can be compiled on Linux with no OS-license cost. No decision. See [[wiki/topics/miranda-authoring-tool.md]]. [[raw/unity_instead_miranda-may-1-2025.md]]
 
+## May 5–6 2025 — feature/capability granularity + Miranda follow-through
+
+- **Feature granularity (May 5–6):** across three sessions ([[wiki/meetings/2025-05-05-feature-granularity-aaron.md]], [[wiki/meetings/2025-05-06-feature-jira-defining-and-reflection.md]]) Aaron deepened the capability model for Val — a **feature is temporary** (falls away when delivered) while the **capability is the permanent product description** whose legacy is its requirements + embedded tests; introduced **component** (a cluster of features) and the **double-diamond** (discover→define→develop→deliver); insisted features be **demonstrable in ~2 weeks** with a passing test as the minimum proof; and explained **Jira Product Discovery** (grown from Jira Align) as the home for the above-feature levels. Triggered by [[wiki/people/anton-leshkevich.md|Anton]]'s over-large LGS196 story and a board of ~100 open features. No ruling. Detail on [[wiki/decisions/2025-04-03-jira-capability-level-and-github-mapping.md]]. [[raw/feature_granularity_definition_aaron-may-5-2025.md]] [[raw/feature_defining_jira-may-6-2025.md]] [[raw/feature_reflection_jira-may-6-2025.md]]
+- **Miranda GitHub follow-through (May 6):** reviewed the cleanup [[wiki/people/dmitriy-khandov.md|Dima]] had done and coached packaging (NuGet/MSI), a README "TLDR" structure, Unity-style capability docs, verbose PRs, branch deletion, and a rebase to purge the ~782k-line history; framed good docs as a "value multiplier." See [[wiki/topics/miranda-authoring-tool.md]] and [[wiki/topics/graphics-team-git-workflow.md]]. [[raw/miranda_organization_github-may-6-2025.md]]
+- **"The reason for Miranda" (May 6):** with Val probing whether free Unity makes Miranda unnecessary, Aaron "sold" Miranda as a Unity-nestled tool that mocks up JVL's slot games and connects them to the JVL backend. No ruling. See [[wiki/topics/miranda-authoring-tool.md]]. [[raw/the_reason_for_miranda-may-6-2025.md]]
+
 ## Sources
 
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
@@ -190,3 +196,8 @@ Across two sessions Aaron worked Val through how code actually relates to Jira, 
 - [[raw/secrets_server-apr-30-2025.md]]
 - [[raw/organizing_miranda_github-may-1-2025.md]]
 - [[raw/unity_instead_miranda-may-1-2025.md]]
+- [[raw/feature_granularity_definition_aaron-may-5-2025.md]]
+- [[raw/feature_defining_jira-may-6-2025.md]]
+- [[raw/feature_reflection_jira-may-6-2025.md]]
+- [[raw/miranda_organization_github-may-6-2025.md]]
+- [[raw/the_reason_for_miranda-may-6-2025.md]]

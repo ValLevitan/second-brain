@@ -3,7 +3,7 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS]
-source-count: 8
+source-count: 9
 open-commitments: 6
 open-questions: 3
 ---
@@ -96,6 +96,17 @@ Two [[wiki/people/val-levitan.md|Val]] ↔ [[wiki/people/genadi-peari.md|Genadi]
 - **Screen: rotate, don't flip (May 2).** For a POS that must serve both attendant and player, the screen should **rotate ~180° horizontally in the plane parallel to the table** (a "twist"), **not flip** — a flip would need an **accelerometer** and an ugly mid-redraw. Keep the device **thin** ("rotate a piece of paper, not a brick"). Orientation rule: **horizontal** reads better when the unit sits **on a stand**; **vertical** suits a unit held **in the hand**. Initial builds can ship with **one screen + a pivot**; full POS-by-rules needs two screens (attendant-facing + a player info screen). [[raw/flex_tower_pos_form_fit_design-may-2-2025.md]]
 - **Next steps:** Val to hand Igor Starovoytov all the models so he draws over the weekend; Val had a **6-hour design session with Igor** that evening (May 2). A candidate off-the-shelf POS **bracket at $77** was noted as interesting. [[raw/flex_tower_spacial_design_review-may-1-2025.md]] [[raw/flex_tower_pos_form_fit_design-may-2-2025.md]]
 
+## May 6 2025 — tower hardware "make it a product," speed over polish
+
+A [[wiki/people/val-levitan.md|Val]] ↔ [[wiki/people/genadi-peari.md|Genadi]] hardware working call ([[wiki/meetings/2025-05-06-flex-tower-hardware-design.md]]; transcript internally duplicates — facts taken once). Genadi is picking components (power supply, filter, **card reader still not received**) and finishing **speaker/acoustics** selection for the Flex (needs a rapid prototype so the acoustician can take a final volume measurement). [[wiki/people/igor-starovoytov.md|Igor Starovoytov]] did little this round at Val's request. Genadi's job now: "make it a product" — needs ~**4 days** to immerse and push it fast; **Tower first, POS second** (Tower can work standalone; the POS needs more work); **mass-production readiness** for ~six months of orders. [[raw/flex_port_hardware_design_evolution-may-6-2025.md]]
+
+- **Enclosure/industrial-design calls:** body + back wall in **metal**, front **door in plastic** (cheaper, complex shape); a **removable head** holding the electronics that assembles separately then **slides in and fixes under the door** (two dispenser interface wires run down the back wall); make the machine **fully symmetric top/bottom** and slightly narrower/streamlined — **drop the reverse-angle undercut** that complicates the mold; the scanner becomes a **separate small plastic part** pointing down. **Speed is paramount** — "делайте самые простые формы… делайте это быстро"; dimensions unimportant (±2 cm "никого это не убьет"). [[raw/flex_port_hardware_design_evolution-may-6-2025.md]]
+- **Lighting over labels:** replace the printed "swipe card" label with an **embossed icon**; **backlight the card-slot ribs** (green indicator) so it's usable in a dark location; light the card-exit bezel (self-lit by the dispensing device); a scan-sign area with an **embossed, blinking barcode** rather than a sticker. This requires adding **RGB support / an interface provision to the FlexPort electronics** — waiting on [[wiki/people/evgeniy-alekseev.md|Alekseev]] to make the change fit **all devices (port, tower, POS)**. [[raw/flex_port_hardware_design_evolution-may-6-2025.md]]
+- **Card tray:** much thicker/robust with a semicircular grip. **Front (frontal) service** because the unit stands between machines. **Tilt angle is fixed** (scanner mounted parallel) — no vertical orientation in this first release; fine for now. [[raw/flex_port_hardware_design_evolution-may-6-2025.md]]
+- **Pedestal/footing:** the pedestal is a plain "black box" (not fancy); a flat metal **footing plate** (like the Countertop pedestal's) usable under both the machine and the pedestal, or two perpendicular metal strips as a cross-foot; the foot extends slightly forward (and back if free-standing) for stability when the dispenser slides out. A **lazy-susan/carousel** with **stepped (clicking) ~100° rotation** was floated for the foot. [[raw/flex_port_hardware_design_evolution-may-6-2025.md]]
+- **Dispenser order + supply:** the dispensing devices weren't shipped on time (returned after a 3-day location trial); order split **2 to Minsk, 3 to Toronto** ([[wiki/people/mikhail-perelman.md|Misha]] placing it, payment in) — the **cheaper ~450-card** unit; one extra for Alekseev's development ("довольно большой" payment on **5 units**). A **standalone server** still needs building separately, with electronics changes for it; the industrial boards were ordered but not shipped (vendor went on the **May holidays**) — expected this week. [[raw/flex_port_hardware_design_evolution-may-6-2025.md]]
+- **Staffing:** "**Sasha**" to help Genadi; **Flex Curve** work paused to prioritize the tower. [[raw/flex_port_hardware_design_evolution-may-6-2025.md]]
+
 ## Open commitments
 
 - [ ] Igor Starovoytov — draw the tower's industrial design (dimensions; standalone view + a between-machines view; gray/milky, no lighting, 7-inch front screen) — due ~Wed/Thu Apr 16–17 — [[raw/fkex_pay_evolution-apr-16-2025.md]]
@@ -121,3 +132,4 @@ Two [[wiki/people/val-levitan.md|Val]] ↔ [[wiki/people/genadi-peari.md|Genadi]
 - [[raw/evolution_flex-pay_pos_server-apr-24-2025.md]]
 - [[raw/flex_tower_spacial_design_review-may-1-2025.md]]
 - [[raw/flex_tower_pos_form_fit_design-may-2-2025.md]]
+- [[raw/flex_port_hardware_design_evolution-may-6-2025.md]]

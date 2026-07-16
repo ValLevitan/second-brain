@@ -4,7 +4,7 @@ title: Anton Leshkevich
 date: 2025-01-21
 aliases: [Anton Leshkevich, Anton, Antoine, Anton Dmishkevich, Дмишкевич, Дмишкевичем]
 disambiguation: "One of THREE distinct Antons. Anton Leshkevich = Minsk engineer (Omni/RGS, this page). Distinct from Anton Seregin (Minsk payroll, wiki/people/anton-seregin.md) and the SMM/Meta-ads contractor (wiki/people/anton-smm.md). Owner-confirmed 2026-07-13. Resolve 'Anton' by context; queue if unclear."
-source-count: 11
+source-count: 12
 open-commitments: 1
 open-questions: 0
 ---
@@ -55,10 +55,15 @@ On the scheduling session ([[wiki/meetings/2025-04-22-calle-ocho-omni-feature-sc
 
 On the Omni integration-tests onboarding ([[wiki/meetings/2025-04-24-omni-integration-tests-qa-onboarding.md]]) Anton demoed the **first Omni init-setup integration test** — **Selenium + TypeScript on Node.js** (chosen over Playwright, which was harder to fit into JVL's custom automation framework) — run against a local **LGS docker + LGS-UI** repo via `Yarn Start`. Tests live in the Git repo beside the code, each with a unique key (for future X-Ray integration). Consistent with the [[wiki/decisions/2025-04-16-replace-testers-with-test-engineers.md|Apr-16 decision]] that Anton **trains the QA engineers** to write integration tests rather than writing them himself; Val named him (with [[wiki/people/alexander-biratka.md|Alexander Biratko]]) as a TypeScript-learning source. Detail on [[wiki/topics/test-automation-strategy.md]]. [[raw/integration_tests-apr-24-2025.md]]
 
+## May 5 2025 — the trigger for the feature-granularity conversation
+
+- On the [[wiki/meetings/2025-05-05-feature-granularity-aaron.md|feature-granularity session]], Val used "Anton" as the running example: he was working a **story (LGS196, "Data center UI… leave save mechanism")** under feature **LGS-14 (LGS Configuration GUI)** and had **opened a GitHub branch** on it, but the item was really feature-scale. Val's characterization: Anton "doesn't challenge the authority… knows precisely what to do, but he largely ignores what is written." Aaron used it to argue features must be broken down to demonstrate in ~2 weeks. (Anton by LGS/Omni-engineer context.) Detail on [[wiki/decisions/2025-04-03-jira-capability-level-and-github-mapping.md]]. [[raw/feature_granularity_definition_aaron-may-5-2025.md]]
+
 ## Sources
 
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
 - [[raw/ai-assisted_development_with_vs_code_git_and_mcp_january_14_2025.md]]
+- [[raw/feature_granularity_definition_aaron-may-5-2025.md]]
 - [[raw/continues_release_infrastructure_architecture_2025-01-21 1.md]]
 - [[raw/the_importance_of_storing_artifacts_in_git.md]]
 - [[raw/devops_container_approach_for_omni.md]]

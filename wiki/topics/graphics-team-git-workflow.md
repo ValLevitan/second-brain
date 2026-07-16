@@ -3,7 +3,7 @@ type: topic
 title: Graphics team Git workflow (PR discipline, CI tickets, deploy pipeline)
 date: 2025-03-12
 aliases: [designer git workflow, graphics PR discipline, pull request discipline, contact sheet action, assets deploy pipeline, fork from template, help desk CI tickets, performative pull request, pull request back to template, template per game type]
-source-count: 7
+source-count: 8
 ---
 
 # Graphics team Git workflow (PR discipline, CI tickets, deploy pipeline)
@@ -79,6 +79,10 @@ The Apr-28 Miranda GitHub review ([[wiki/meetings/2025-04-28-miranda-github-vers
 
 Extending the Apr-28 review, [[wiki/people/aaron.md|Aaron]]'s May-1 recap with Val ([[wiki/meetings/2025-05-01-organizing-miranda-github.md]]) set [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]] a concrete repo-hygiene action list for the **Miranda** repo — the same discipline this page describes: add a **`.gitignore`**, **purge logs/libraries** from the repo, **delete stale branches**, and adopt a **packaging strategy** (zip libraries on commit of a new version), before opening a feature branch for the emulator integration. Detail on [[wiki/topics/miranda-authoring-tool.md]]. [[raw/organizing_miranda_github-may-1-2025.md]]
 
+## May 6 2025 — Miranda repo cleanup executed (packaging, rebase, PR discipline)
+
+The follow-through Miranda session ([[wiki/meetings/2025-05-06-miranda-github-organization.md]]) is another graphics-team Git lesson: [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]] had done the May-1 cleanup (reworked repo, `.gitignore`, V8.1 release, drag-and-drop Unity package), and [[wiki/people/aaron.md|Aaron]] coached the next practices — distribute a **package** (NuGet/MSI) not the source tarball (talk to [[wiki/people/andrey-bosik.md|Andre]] + [[wiki/people/dmitri-kovalchuk.md|Dima K]]); never commit the ~2GB engine (reference it); a README "TLDR" (three-step install first, extended steps one level below, then technical + contribution docs); **more verbose pull requests**; **delete the merged branch**; have **Sasha review** PRs; and **rebase / fresh-start** the repo (with Andre) because the cleanup PR baked **~782k removed lines across ~5,000 files** into history. Detail on [[wiki/topics/miranda-authoring-tool.md]]. [[raw/miranda_organization_github-may-6-2025.md]]
+
 ## Sources
 
 - [[raw/GitHub repository structure.md]]
@@ -88,3 +92,4 @@ Extending the Apr-28 review, [[wiki/people/aaron.md|Aaron]]'s May-1 recap with V
 - [[raw/devops_container_approach_for_omni.md]]
 - [[raw/miranda_github-apr-28-2025.md]]
 - [[raw/organizing_miranda_github-may-1-2025.md]]
+- [[raw/miranda_organization_github-may-6-2025.md]]

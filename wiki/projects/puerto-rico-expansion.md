@@ -2,8 +2,8 @@
 type: project
 title: Puerto Rico expansion
 date: 2026-07-12
-aliases: [Puerto Rico expansion, Puerto Rico office, PR route market, gaming license, resident agent, FYC Consulting]
-source-count: 9
+aliases: [Puerto Rico expansion, Puerto Rico office, PR route market, gaming license, resident agent, FYC Consulting, Ruta license]
+source-count: 10
 ---
 
 # Puerto Rico expansion
@@ -80,6 +80,18 @@ Val and [[wiki/people/monica.md|Monica]] (JVL in-house counsel) met the PR firm 
 - **Marching orders:** Estrella to send the engagement letter (via their **NINTEX** e-sign platform; correspondence to Monica) and the temporary-licence estimate + delivery time **by Monday**; Val to see the customs broker and reconvene the following week. [[raw/estrella_law_carlos_infante_puerto_rico-april-10-2025.md]]
 - Cross-thread: on Apr 11 Juan noted the FlexPay cage-POS + TITO payout solution "is something we could also use in Puerto Rico" — see [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/evolution_flex_pay-april-11-2025.md]]
 
+## Engagement-agreement negotiation with Estrella (May 5 2025 — [[wiki/meetings/2025-05-05-estrella-engagement-agreement-negotiation.md]])
+
+Val and [[wiki/people/monica.md|Monica]] (JVL in-house counsel) walked [[wiki/people/carlos-infante.md|Carlos Infante]] and his partner **Jose** through JVL's ~20 requested changes to the draft engagement agreement Estrella had sent "a couple of weeks ago." Estrella had restructured its discount tiers as **percentages rather than fixed quantities** because it changed accounting systems. Val framed the exercise around wanting decades-long relationships and airing uncomfortable points at the start — "it's always easier to not to form a relationship than separate a relationship." Estrella called most requests reasonable/standard; **Monica** will produce the marked-up document by end of week; Estrella will counter and the parties will execute via **DocuSign**. [[raw/estrella_engagement_agreement_negotiations-may-5-2025.md]]
+
+- **Licence path changed — skip the temporary licence, go straight for a permanent Ruta licence.** Val: "we will skip the temporary license. We don't want temporary license. We will go for a permanent **Ruta** license, the street operation license for now, not the casino license for now." (Evolution of the Apr-10 three-phase plan, whose phase 2 was the *temporary* licence — see the Apr-10 section above, now superseded on this point.) Carlos confirmed a **flat fee** for the licence-obtainment services, **hourly fees** for other/additional work, and a **flat fee** for the corporate-structure creation. [[raw/estrella_engagement_agreement_negotiations-may-5-2025.md]]
+- **New company, not subsidiary** (Val had decided a new entity). Estrella confirmed it can be **wholly owned by one owner/subsidiary** with **no minimum shareholder-count restriction** (unlike Mexico, which required two shareholders); officers will be required. [[raw/estrella_engagement_agreement_negotiations-may-5-2025.md]]
+- **The ~$5,000 incorporation fee — Val wants the deliverables spelled out:** initial consultation/planning, name-availability search, articles of incorporation + bylaws, tax-ID/employer number, Department-of-State filing, Sales-tax ("Surrey tax") registration, municipal licence/permits, banking documents, and the final package (digital + hard copy, delivery method) — and clarity on whether he gets a **functioning corporation** for the $5,000 or must spend more (incl. whether corporate-bank-account opening is included or a referral). [[raw/estrella_engagement_agreement_negotiations-may-5-2025.md]]
+- **Val's contract-term asks (a standing template of how he engages foreign counsel):** use **DocuSign** not Nintex; a **neutral dispute venue** (e.g. Florida) not PR or Canada; attorney-client privilege and confidentiality stated explicitly, with confidentiality **surviving termination** (indefinite or a set period); **mutual termination on 60 days' written notice** (Estrella had proposed 14); on termination all JVL documents (physical + digital, incl. backups) **returned, receipt confirmed, then deleted**; **no automatic annual hourly-rate increase** (rate changes are negotiated, not automatic/yearly); **remove late-payment fees**; **remove "no work until deposit"** and the recurring **$5,000 trust-deposit fulfilment** mechanism (apply the first deposit against the first bill); an **hours-not-to-exceed cap** on fixed-fee work against a detailed docket; **mutual** timeline commitments plus **weekly/bi-weekly status updates** on fixed-price work; all paid work products = **JVL property**; **proof of professional-liability insurance**; files may transfer **unencrypted** but stored files **password-protected** with access limited to the lawyers actually working the file; a standard **AI-tool disclaimer** (a licensed attorney reviews all AI outputs); a mutual service-level expectation (email response ~24–48h, non-binding); and **monthly invoices** (billed by the 15th of the following month). [[raw/estrella_engagement_agreement_negotiations-may-5-2025.md]]
+- **Banking ask:** the online banking Estrella sets up must be **fully electronic with a token** so JVL can bank remotely without visiting a branch. Estrella's own client-service norm is the **"sundown rule"** (respond before the next sunrise). [[raw/estrella_engagement_agreement_negotiations-may-5-2025.md]]
+- **Machine shipping:** machines will ship **from the state of Georgia** into Puerto Rico. [[raw/estrella_engagement_agreement_negotiations-may-5-2025.md]]
+- Aside: Carlos will attend the **SBC Summit Americas** in Miami (May 13–16); Val flies back to Toronto on May 13 and will miss it. [[raw/estrella_engagement_agreement_negotiations-may-5-2025.md]]
+
 ## The earlier "Puerto Rico proposal" to Julian Puerta (referenced Mar 29 2025)
 
 - On the Mar 29 Nebraska recruitment call, Val reminded [[wiki/people/julian-puerta.md|Julian Puerta]]: "Do you remember the proposal that I gave you for Puerto Rico?" — meaning Val had at some earlier point offered Julian terms for the **Puerto Rico area**. Neither man could recall the details; both only remembered it was "very generous." Val said he would keep the **same proposal** for the Nebraska/South Dakota area. [[raw/julian _puerta_nebraska-march-29-2025.md]]
@@ -96,3 +108,4 @@ Val and [[wiki/people/monica.md|Monica]] (JVL in-house counsel) met the PR firm 
 - [[raw/puerto-rico_market-igor-juan.md]]
 - [[raw/estrella_law_carlos_infante_puerto_rico-april-10-2025.md]]
 - [[raw/evolution_flex_pay-april-11-2025.md]]
+- [[raw/estrella_engagement_agreement_negotiations-may-5-2025.md]]

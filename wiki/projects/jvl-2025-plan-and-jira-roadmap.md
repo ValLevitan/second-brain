@@ -87,6 +87,8 @@ The Mar 31 homework played out over three days with [[wiki/people/aaron.md|Aaron
 
 The Mar 31 **initiative-vs-value-stream / flatten-vs-many-orgs** question was **not** settled by this arc — it stays open (see below).
 
+**May 5–6 refinement (decision-in-motion).** Three further Aaron sessions ([[wiki/meetings/2025-05-05-feature-granularity-aaron.md]], [[wiki/meetings/2025-05-06-feature-jira-defining-and-reflection.md]]) reframed a **feature as temporary** and a **capability as the permanent product description**, added the ideas of a **component** (cluster of features) and the **double-diamond** flow, and floated moving the top levels (value stream / initiative / product) into **Jira Product Discovery** projects — with **capability** replacing the product-line level and **initiative becoming the product**. No ruling; a graph + Jira-refactor plan was deferred. Full detail on [[wiki/decisions/2025-04-03-jira-capability-level-and-github-mapping.md]].
+
 ## Open questions
 
 - Should the GitHub organization map to the Jira **initiative** or the **value stream**, be **flattened into one org**, and should Jira drop its initiative level? (Mar 31 homework; Apr 1–3 arc introduced the capability level but left the org-structure question open — Aaron for flatten, Val against.) — [[raw/github_jira_alignment-march-31-2025.md]] [[raw/git_jira_correlation-april-1-2025.md]]
