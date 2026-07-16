@@ -4,7 +4,7 @@ title: Eugine Yavorski
 date: 2025-02-18
 aliases: [Eugine Yavorski, Evgeny Yavorsky, Yavorski, Yavorsky, Яворский, Evgeny Egorsky, Egorsky, Егорский, Evgeny, Yevgeny, Zhenya, Женя, Евгений]
 disambiguation: "One of TWO Zhenyas (owner-ruled), both contractors via EAleks Technology: Eugine Yavorski (wiki/people/eugine-yavorski.md) and Evgeniy Alekseev (wiki/people/evgeniy-alekseev.md). Resolve by context; queue if unclear."
-source-count: 13
+source-count: 14
 open-commitments: 2
 ---
 
@@ -62,6 +62,10 @@ Name confirmed by Val as **Eugine Yavorski** (the Mar 11 transcript renders it "
 
 On the Genadi hardware call Val named the **Flex self-dispensing tower** (on the FlexPort base) as the next stage of work for "Евгений Алексеев и Евгений Егорский" (Yavorski) after the TITO-architecture pieces. [[raw/fkex_pay_evolution-apr-16-2025.md]] See [[wiki/decisions/2025-04-16-dispensing-tower-first-magnetic-stripe.md]].
 
+## May 7 2025 — WSS side done; day-by-day TITO milestones
+
+On the FlexPort hardware call ([[wiki/meetings/2025-05-07-flexport-two-machines-tito-milestones.md]]) Yavorski reported the **WSS protocol finished** and that he must now integrate with [[wiki/people/evgeniy-alekseev.md|Alekseev]]'s SAS→WSS part; Val pushed him to break the remaining TITO work into **daily testable milestones** (register FlexPort→FlexPay that day; coupon-out by Thu/Fri). See [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]]. [[raw/flex_port_hardware_update-may-7-2025.md]]
+
 ## Sources
 
 - [[raw/Embedded_Group_alignment_and_update_2025-02-18.md]]
@@ -77,3 +81,4 @@ On the Genadi hardware call Val named the **Flex self-dispensing tower** (on the
 - [[raw/fkex_pay_evolution-apr-16-2025.md]]
 - [[raw/weekly_embedded_group_flex_port_progress-apr-15-2025.md]]
 - [[raw/flex_port_update-apr-22-2025.md]]
+- [[raw/flex_port_hardware_update-may-7-2025.md]]

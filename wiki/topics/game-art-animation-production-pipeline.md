@@ -3,7 +3,7 @@ type: topic
 title: Game art & animation production pipeline (comp art → Miranda)
 date: 2025-03-12
 aliases: [animation production, comp art pipeline, CompArt, storyboards, Spine, Blender, After Effects, placeholder build, Miranda scene assembly, art production stages, spike, sorting, symbol containers]
-source-count: 5
+source-count: 6
 ---
 
 # Game art & animation production pipeline (comp art → Miranda)
@@ -78,6 +78,10 @@ From the [[wiki/meetings/2025-05-01-game-design-review.md|May-1 review]]: [[raw/
 - **Cuban-rooster reskin idea.** Val floated turning **Jinji Du Li** (a Chinese-rooster clone of Fortune Foo Paws; the other clone is **Cash Kittens**) into a **three-Cuban-roosters** game to build on the traction of the Cuban theme (**Calle Ocho / "Callejo"**) — same mechanics as Fortune Foo Paws. The team was "overwhelmingly in favour"; not a committed decision. [[raw/game_design_review-may-1-2025.md]]
 - **2D decks** for **Diamond Link** and **JetPort Rush** (Georgia) to finish "next week," with the discussed changes. [[raw/game_design_review-may-1-2025.md]]
 
+## May 7 2025 — ComfyUI experimentation for asset generation
+
+On the games-design tool-adaptation session ([[wiki/meetings/2025-05-07-games-design-ai-tools-adaptation.md]]) [[wiki/people/lena.md|Lena]] reported building **ComfyUI** (transcribed "Conf UI/Confi UI") workflows to generate a very specific **golden coin** asset — the point being to reproduce exact game-required assets, not just "something beautiful." Findings: fix the seed and parameters, then change only small prompt elements to keep the rest of an image stable; save/load workflows; some models need specific custom nodes and workflows. [[wiki/people/yulia.md|Yulia]] built a dataset of **21 golden-coin images** to train JVL's own **LoRA** style for the workflow. Aaron pointed them to the **ComfyUI Manager** (loads required backend nodes for a shared workflow), an **alpha-transparency node pack**, and a **3D-pack** that generates a full textured 3D mesh; and to **Unity plugins** that import ComfyUI output directly into Unity (2D, transparent, animated, or 3D). Consensus: ComfyUI is powerful but needs deep research and a chosen use case; it is not picked up "in a day or even a week." [[raw/tools_adaptation_games_design_department-may-7-2025.md]]
+
 ## Sources
 
 - [[raw/Game Development How animation are made with Lena - March 12-2025.md]]
@@ -85,3 +89,4 @@ From the [[wiki/meetings/2025-05-01-game-design-review.md|May-1 review]]: [[raw/
 - [[raw/games_production-apr-18-2025.md]]
 - [[raw/game_design-april-3-2025.md]]
 - [[raw/game_design_review-may-1-2025.md]]
+- [[raw/tools_adaptation_games_design_department-may-7-2025.md]]

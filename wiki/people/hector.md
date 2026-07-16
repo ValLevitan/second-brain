@@ -3,7 +3,7 @@ type: person
 title: Hector
 date: 2026-07-14
 aliases: [Hector]
-source-count: 6
+source-count: 7
 open-commitments: 3
 ---
 
@@ -42,6 +42,10 @@ Hector is a member of JVL's **finance back-office** whom Val wants narrowed down
 
 On the BC status call ([[wiki/meetings/2025-04-28-business-central-labs-tariffs-status.md]]) Val ruled Hector should be **removed from creating purchase orders** in both Systems and Labs — "he is the controlling arm for me… his job is only to ensure that there is a match between all the control documents." A PO creates a liability, so it belongs to the requesters ([[wiki/people/mary.md|Mary]] for non-BOM; Sebastian/Elizabeth internally), not the controller. Reinforces the Mar-24 controllership-only scope. See [[wiki/topics/business-central-erp-implementation.md]]. [[raw/business_central_update-apr-28-2025.md]]
 
+## May 7 2025 — Val moves to replace him with a Miami fractional controller
+
+On the recurring finance call ([[wiki/meetings/2025-05-07-finance-recurring-alka-stabilization.md]]) Val told [[wiki/people/alka-sood.md|Alka]] plainly he does not believe JVL can keep working with Hector: he needs a controller **physically near him**, and Hector is "too far" (remote) and "lacking North American polish" — "don't try to change an individual … we need to replace them." He gave Hector a two-month chance (one month elapsed, "the needle" hadn't moved). The replacement should be a **Miami-based fractional controller** (near where Val spends most time; manufacturing stays in Canada with quarterly visits) — experienced, formally educated, "at the sunset of their career," ~1,000 hours/year. Alka to write a job profile and begin interviewing. In the interim Hector keeps the controllership work: he is to build the five-category weekly cash-flow template and **validate the monthly balance-sheet reconciliations** (Laura does the legwork). See [[wiki/topics/jvl-finance-back-office.md]]. [[raw/financial_review-may-7-2025.md]]
+
 ## Sources
 
 - [[raw/financial_alka_alignment-march-24-2025.md]]
@@ -50,3 +54,4 @@ On the BC status call ([[wiki/meetings/2025-04-28-business-central-labs-tariffs-
 - [[raw/finance_recurring-april-7-2025.md]]
 - [[raw/finance_update-apr-15-2025.md]]
 - [[raw/business_central_update-apr-28-2025.md]]
+- [[raw/financial_review-may-7-2025.md]]

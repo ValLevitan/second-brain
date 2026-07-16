@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 53
+source-count: 55
 open-commitments: 1
 ---
 
@@ -146,6 +146,10 @@ Across two sessions Aaron worked Val through how code actually relates to Jira, 
 - **Miranda GitHub follow-through (May 6):** reviewed the cleanup [[wiki/people/dmitriy-khandov.md|Dima]] had done and coached packaging (NuGet/MSI), a README "TLDR" structure, Unity-style capability docs, verbose PRs, branch deletion, and a rebase to purge the ~782k-line history; framed good docs as a "value multiplier." See [[wiki/topics/miranda-authoring-tool.md]] and [[wiki/topics/graphics-team-git-workflow.md]]. [[raw/miranda_organization_github-may-6-2025.md]]
 - **"The reason for Miranda" (May 6):** with Val probing whether free Unity makes Miranda unnecessary, Aaron "sold" Miranda as a Unity-nestled tool that mocks up JVL's slot games and connects them to the JVL backend. No ruling. See [[wiki/topics/miranda-authoring-tool.md]]. [[raw/the_reason_for_miranda-may-6-2025.md]]
 
+## May 7 2025 — IT-maturity coaching + games-design tool adaptation
+
+Two Aaron-led sessions this day. **IT maturity** ([[wiki/meetings/2025-05-07-it-department-maturity-secrets.md]]): he coaches [[wiki/people/dmitri-kovalchuk.md|Dima Kovalchuk]] and [[wiki/people/andrey-bosik.md|Andrei]] to move IT from reactive to planned work, using the still-open secret-server choice to teach a first-principles chain (information-security policy → risk register → requirements → a weighted product-scoring matrix); homework to write risks/policy/requirements and score Azure Key Vault / AWS Secrets Manager / HashiCorp Vault / Delinea. See [[wiki/topics/infosec-and-server-infrastructure.md]]. [[raw/it_department_maturity-may-7-2025.md]] **Games-design tools** ([[wiki/meetings/2025-05-07-games-design-ai-tools-adaptation.md]]): the bi-weekly practice session with Lena/Anastasia/Yulia/Dima Khandov on the Cline agent + his custom Confluence/Jira MCP and ComfyUI — he directed a switch to Docker-native MCP, explained Cline's coding bias (good at Git, poor at Confluence/Jira admin), and floated a separate authoring-vs-administrator Confluence MCP. See [[wiki/topics/ai-assisted-development.md]]. [[raw/tools_adaptation_games_design_department-may-7-2025.md]]
+
 ## Sources
 
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
@@ -201,3 +205,5 @@ Across two sessions Aaron worked Val through how code actually relates to Jira, 
 - [[raw/feature_reflection_jira-may-6-2025.md]]
 - [[raw/miranda_organization_github-may-6-2025.md]]
 - [[raw/the_reason_for_miranda-may-6-2025.md]]
+- [[raw/it_department_maturity-may-7-2025.md]]
+- [[raw/tools_adaptation_games_design_department-may-7-2025.md]]

@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 41
+source-count: 42
 open-commitments: 5
 ---
 
@@ -118,6 +118,10 @@ In the Omni daily Andrei confirmed the GitHub repo-naming changes (renamed the a
 - **Apr 24:** Val tasked Andrei Bosik with building the **"JVL Home" Jira Service Management + Confluence** support ecosystem for the legacy amusement machines (working with "Andre K"). See [[wiki/topics/echo-home-gaming-device.md]]. [[raw/echo-home_jira-service-apr-24-2025.md]]
 - **Apr 30:** Andrei Bosik is the **lead on the secrets-management project** — exploring Microsoft/AWS/Delinea secret managers, and co-holder (with [[wiki/people/dmitri-kovalchuk.md|Dima Kovalchuk]]) of the KeePass master. Homework with Dmitry: self-assess maturity and build an implementation backlog. See [[wiki/topics/infosec-and-server-infrastructure.md]]. [[raw/secrets_server-apr-30-2025.md]]
 
+## May 7 2025 — secrets-management maturity coaching
+
+On the IT-maturity session ([[wiki/meetings/2025-05-07-it-department-maturity-secrets.md]]) Andrei (transcribed "Andre") is the second IT person [[wiki/people/aaron.md|Aaron]] coaches on the secret-server evaluation; he raised the requirement for a user-facing **web UI for self-managed, role-based secrets** integrating with Microsoft Entra. Belarus-based IT/DevOps context → this Andrei per the owner registry. See [[wiki/topics/infosec-and-server-infrastructure.md]]. [[raw/it_department_maturity-may-7-2025.md]]
+
 ## Sources
 
 - [[raw/GitHub repository structure.md]]
@@ -162,3 +166,4 @@ In the Omni daily Andrei confirmed the GitHub repo-naming changes (renamed the a
 - [[raw/set_up_screen_omni-apr-24-2025.md]]
 - [[raw/echo-home_jira-service-apr-24-2025.md]]
 - [[raw/secrets_server-apr-30-2025.md]]
+- [[raw/it_department_maturity-may-7-2025.md]]

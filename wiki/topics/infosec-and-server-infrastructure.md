@@ -3,8 +3,8 @@ type: topic
 title: InfoSec, secrets management and server infrastructure
 date: 2025-03-19
 aliases: [secrets management, enterprise secrets manager, DevSecOps, Critical Insight, John Luke Peck, Minsk servers, cloud migration costing, Zabbix]
-source-count: 3
-open-commitments: 3
+source-count: 4
+open-commitments: 2
 open-questions: 1
 ---
 
@@ -47,7 +47,7 @@ The thread advanced in a short Apr-16 IT meeting Aaron led ([[wiki/meetings/2025
 
 - [ ] Aaron — make the introduction to John Luke Peck / Critical Insight and schedule a (West-coast-friendly, afternoon) call — due unspecified — [[raw/info_security_server_infrastructure.md]]
 - [ ] Val — start learning the InfoSec process ("I think I have capacity to learn… listening and absorbing") — due unspecified — [[raw/info_security_server_infrastructure.md]]
-- [ ] Andrei Bosik + Dima Kovalchuk — read Aaron's secrets-management perspective doc, fill the self-assessment honestly, and produce a rough implementation backlog (start with GitHub CI/CD + AWS/Jenkins keys) — due next meeting Wed May 7 — [[raw/secrets_server-apr-30-2025.md]]
+- [x] Andrei Bosik + Dima Kovalchuk — read Aaron's secrets-management perspective doc, fill the self-assessment honestly, and produce a rough implementation backlog (start with GitHub CI/CD + AWS/Jenkins keys) — due next meeting Wed May 7 — carried into the May 7 maturity session (see below); Aaron re-set the homework to write risks/policy/requirements and score products — [[raw/secrets_server-apr-30-2025.md]] [[raw/it_department_maturity-may-7-2025.md]]
 
 ## Open questions
 
@@ -62,8 +62,19 @@ A working session ([[wiki/meetings/2025-04-30-secrets-management-strategy.md]]) 
 - **Approach Aaron pushed:** don't pick a product first — write down the **"why"** and requirements, self-score maturity against an assessment framework he generated (two PDFs, produced via an MCP "thinking"/sequential-reasoning server on his GitHub, published as a container), then build a **backlog** starting with the easiest wins: **GitHub CI/CD actions** and **AWS/Jenkins deployment keys** (Jenkins still deploys to AWS). MCP servers currently use static API keys and "probably should use OAuth." "The cloud is not available in our region" was noted (Claude access blocked on their network). [[raw/secrets_server-apr-30-2025.md]]
 - **Homework (Andrei + Dmitry):** read the perspective doc, fill the self-assessment honestly, and produce a rough implementation backlog. Next meeting **Wednesday May 7, 8 am Eastern**. [[raw/secrets_server-apr-30-2025.md]]
 
+## May 7 2025 — IT-maturity coaching: policy → risks → requirements → product
+
+The follow-on session ([[wiki/meetings/2025-05-07-it-department-maturity-secrets.md]]), with [[wiki/people/aaron.md|Aaron]] coaching [[wiki/people/dmitri-kovalchuk.md|Dima Kovalchuk]] and [[wiki/people/andrey-bosik.md|Andrei (Bosik)]], and [[wiki/people/val-levitan.md|Val]]. Aaron used the still-open secret-server choice to teach a first-principles method rather than let the team "pick any secret server" (a low-maturity reactive move). [[raw/it_department_maturity-may-7-2025.md]]
+
+- **Where to track what:** Jira is for tracking the *work* (specific items you're doing); the *why* and the bigger-picture ideas/objectives belong somewhere else. The IT team had deleted their Confluence page and moved everything into Jira (JSM + an operations-system project); Aaron told them to restart a central place (Confluence) for ideas/objectives — Confluence chosen because it does diagrams and tables (Git only does text/mermaid diagrams). [[raw/it_department_maturity-may-7-2025.md]]
+- **The chain:** information-security **policy** (written by the team, not downloaded) responds to a **risk register**; requirements flow from the policy; a secrets manager covers a fraction of those risks; the product that covers them best wins. Aaron framed it as "first-principles thinking" (why do we manage secrets at all → because stale credentials are the top compromise risk). [[raw/it_department_maturity-may-7-2025.md]]
+- **Weighted scoring matrix:** the AI-generated evaluation table (moved to Excel) should weight each requirement **1–5** by importance, score each product **1–5** objectively (not "user-friendly," which is subjective — use "implementation complexity"), then multiply weight × score. Candidates named: **Azure Key Vault, AWS Secrets Manager, HashiCorp Vault, Delinea** (transcribed "Delinear/Delenia"), with **Kubernetes Secrets** ruled out and **Cloudflare** mentioned. Current state: **GitHub secret store** (a "secret store," good only for CI/CD) plus **AWS**; Dima works with AWS Secrets Manager, tried Azure Key Vault, used HashiCorp Vault 1–2 years ago. A key requirement Andre raised: a **web UI for users to self-manage their own secrets** (with role-based access), integrating with Microsoft Entra — AWS↔Entra integration is awkward. (Example user given: "Anton Mishkevich" = [[wiki/people/anton-leshkevich.md|Anton Leshkevich]].) [[raw/it_department_maturity-may-7-2025.md]]
+- **Homework:** write the risks, a policy, and a list of **policy** (not product) requirements; research each product against the requirements (a day per product); score once and commit; then trial the winning platform before buying. Next meeting in two weeks. This continues, not contradicts, the Apr-16 "pick" and Apr-30 "define the why" — the product remains uncommitted; see [[wiki/decisions/2025-04-16-adopt-azure-microsoft-secret-server.md]]. [[raw/it_department_maturity-may-7-2025.md]]
+- **Val's operating stance** (recorded on [[wiki/topics/jvl-operating-principles.md]]): he does not want a chief-strategist layer for a 30-person shop, can get "80% success" himself, and is unworried about losing "$1,000 a month" on a slightly-wrong product — his fear is stalling ("Alabama mud … one tire spins, the other does nothing"). [[raw/it_department_maturity-may-7-2025.md]]
+
 ## Sources
 
 - [[raw/info_security_server_infrastructure.md]]
 - [[raw/it_automation_schemas_secrets_server-apr-16-2025.md]]
 - [[raw/secrets_server-apr-30-2025.md]]
+- [[raw/it_department_maturity-may-7-2025.md]]

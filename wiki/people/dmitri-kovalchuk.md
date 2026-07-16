@@ -4,7 +4,7 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "IT (GitHub-admin, infrastructure, secrets/Azure, AI-tool accounts) — the IT-context "Dima". Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 10
+source-count: 11
 ---
 
 # Dmitri Kovalchuk
@@ -41,6 +41,10 @@ In an Aaron-led IT meeting, Dmitri showed progress on Atlassian **Assets/Discove
 
 On the secrets-management strategy session ([[wiki/meetings/2025-04-30-secrets-management-strategy.md]]) Dima Kovalchuk is named a **co-holder of the KeePass master** (with [[wiki/people/andrey-bosik.md|Andrei Bosik]]) and takes the homework — with Andrei — to read Aaron's perspective doc, self-score secrets maturity, and produce an implementation backlog (starting with GitHub CI/CD + AWS/Jenkins keys). See [[wiki/topics/infosec-and-server-infrastructure.md]]. [[raw/secrets_server-apr-30-2025.md]]
 
+## May 7 2025 — secrets-management maturity coaching
+
+On the IT-maturity session ([[wiki/meetings/2025-05-07-it-department-maturity-secrets.md]]) Dima (the IT "Dima") is one of the two IT people [[wiki/people/aaron.md|Aaron]] coaches through the weighted-matrix method for the secret-server choice; he reported working mainly with **AWS Secrets Manager**, having tried **Azure Key Vault** and used **HashiCorp Vault** 1–2 years ago, with the **GitHub secret store** used for CI/CD. See [[wiki/topics/infosec-and-server-infrastructure.md]]. [[raw/it_department_maturity-may-7-2025.md]]
+
 ## Sources
 
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
@@ -53,3 +57,4 @@ On the secrets-management strategy session ([[wiki/meetings/2025-04-30-secrets-m
 - [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]]
 - [[raw/it_automation_schemas_secrets_server-apr-16-2025.md]]
 - [[raw/secrets_server-apr-30-2025.md]]
+- [[raw/it_department_maturity-may-7-2025.md]]

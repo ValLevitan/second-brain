@@ -3,7 +3,7 @@ type: decision
 title: Adopt a Microsoft/Azure secret server and manage secrets as assets
 date: 2025-04-16
 aliases: [Azure Key Vault secret server, secrets as assets, Microsoft secret server, secrets management platform choice]
-source-count: 2
+source-count: 3
 status: active
 ---
 
@@ -30,7 +30,12 @@ Active as of 2025-04-16 — a chosen direction to implement; the Mar-19 "which p
 
 Two weeks on ([[wiki/meetings/2025-04-30-secrets-management-strategy.md]]) the choice is not yet committed to a specific product. Andrei Bosik was "reading information" comparing **Microsoft, AWS and Delinea** (as transcribed "Delenia") secret managers and had registered with Microsoft to try it. Aaron reframed the task: define the "why" and requirements, self-score maturity, then build an implementation backlog starting with **GitHub CI/CD actions and AWS/Jenkins deployment keys** — rather than pick a platform blind. Current state remains **KeePass + AWS Secrets Manager**. Detail on [[wiki/topics/infosec-and-server-infrastructure.md]]. [[raw/secrets_server-apr-30-2025.md]]
 
+## May 7 2025 — still uncommitted; formal weighted-matrix evaluation
+
+Three weeks on ([[wiki/meetings/2025-05-07-it-department-maturity-secrets.md]]) the product is still not committed. Aaron coached the IT team through a **weighted scoring matrix** (requirement weight 1–5 × product score 1–5) driven from a written information-security policy and risk register, with candidates **Azure Key Vault, AWS Secrets Manager, HashiCorp Vault and Delinea** (transcribed "Delinear/Delenia"); Kubernetes Secrets ruled out. A user-facing **web UI for self-managed secrets** (role-based, Entra-integrated) surfaced as a key requirement. Current state stays **GitHub secret store (CI/CD only) + AWS Secrets Manager**. The Apr-16 "Azure Key Vault" framing is therefore best read as a leading candidate, not a locked choice — the team is to research/score before trialing a winner. Detail on [[wiki/topics/infosec-and-server-infrastructure.md]]. [[raw/it_department_maturity-may-7-2025.md]]
+
 ## Sources
 
 - [[raw/it_automation_schemas_secrets_server-apr-16-2025.md]]
 - [[raw/secrets_server-apr-30-2025.md]]
+- [[raw/it_department_maturity-may-7-2025.md]]

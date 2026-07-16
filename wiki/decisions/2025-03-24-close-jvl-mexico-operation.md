@@ -4,7 +4,7 @@ title: Close the JVL Mexico operation
 date: 2025-03-24
 aliases: [close Mexico, JVL Mexico closure, Mexico dissolution]
 status: active
-source-count: 5
+source-count: 6
 ---
 
 # Close the JVL Mexico operation
@@ -37,6 +37,10 @@ On the Apr 15 wind-down call with external Mexican accountant [[wiki/people/alej
 
 On the [[wiki/meetings/2025-05-01-action-list-review-lev-rudky.md|May-1 action-list review]], Val restated the wind-down to [[wiki/people/lev-rudky.md|Lev]]: JVL will **completely stop any physical operation within 30 days**, but the company **legally continues to exist — probably until the end of the year** — filing **nil returns** with no operation. Inventory: **all machines returned except 98** that are "being picked up now," to be loaded on a truck within ~30 days and reach Canada within ~60 days, then sorted (some cannibalized, some into inventory). (Consistent with the Apr-7 30-day order and the Apr-15 operations-vs-legal-dissolution distinction; the "98 machines" refines the earlier "98 or 100.") [[raw/action_list_review_lev_rudky-may-1-2025.md]]
 
+## May 7 2025 — final shipment and passive state (current state)
+
+On the finance call ([[wiki/meetings/2025-05-07-finance-recurring-alka-stabilization.md]]) Val said the lawyers and accountants have been taken out of the loop (JVL took the obligations directly), and that **on ~the 16th of the month all remaining machines ship**, leaving "nothing left in Mexico." From ~**June 1** the company becomes a **passive** situation for closing; the remaining people are let go and everything else is zero-expense. Val retains **a lawyer and the accountant ([[wiki/people/alejandro.md|Alejandro]]) on a reduced schedule**, per the agreement that the external accountant can wind it up himself once operations stop. [[raw/financial_review-may-7-2025.md]]
+
 ## Rationale
 
 - Mexico is "throwing money out of the window"; Val had been patient but the market no longer justifies it. This follows the same Latin-America wind-down logic as Peru (already closing) — see [[wiki/people/anibal.md]] and the market update Val gave on [[wiki/meetings/2025-03-23-doug-business-update.md]] (Mexico had an unfavourable tax audit/penalty; JVL "milked the cow until it died"). [[raw/financial_alka_alignment-march-24-2025.md]] [[raw/doug_update_jvl-march-23-2025.md]]
@@ -56,3 +60,4 @@ On the [[wiki/meetings/2025-05-01-action-list-review-lev-rudky.md|May-1 action-l
 - [[raw/finance_recurring-april-7-2025.md]]
 - [[raw/mexico_jvl_orderly_wind-down-apr-15-2025.md]]
 - [[raw/action_list_review_lev_rudky-may-1-2025.md]]
+- [[raw/financial_review-may-7-2025.md]]

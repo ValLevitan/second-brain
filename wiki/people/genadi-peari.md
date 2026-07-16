@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena]
-source-count: 26
+source-count: 27
 ---
 
 # Genadi Peari
@@ -86,6 +86,10 @@ Two design calls ([[wiki/meetings/2025-05-01-flex-tower-spatial-design-review.md
 
 On a hardware working call with Val ([[wiki/meetings/2025-05-06-flex-tower-hardware-design.md]]) Genadi is selecting components (power supply, filter, card reader not yet received) and the Flex speakers/acoustics, and takes the job to turn the tower into a manufacturable product (needs ~4 days). Calls: metal body/back with a plastic front door, a removable electronics head that slides in under the door, a fully symmetric shape dropping the reverse-angle undercut, backlit card slot (RGB provision added to FlexPort by [[wiki/people/evgeniy-alekseev.md|Alekseev]]), a simple pedestal + footing plate, front service, mass-production readiness. Dispensers ordered (2 Minsk / 3 Toronto, the cheaper ~450-card unit, via [[wiki/people/mikhail-perelman.md|Misha]]); Flex Curve paused; "Sasha" to help. "Speed over polish." Detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/flex_port_hardware_design_evolution-may-6-2025.md]]
 
+## May 7 2025 — FlexPort two-machine bench + spare-unit shortage
+
+On the FlexPort hardware call ([[wiki/meetings/2025-05-07-flexport-two-machines-tito-milestones.md]]) Genadi confirmed the floor state (four FlexPay units assembled, three in use; two slot machines checked on Georgia 1.14) and flagged that JVL has **only one spare FlexPort and needs another**; he is to arrange **temporary power** for the FlexPorts (a blank/simulation "iO board"). See [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]]. [[raw/flex_port_hardware_update-may-7-2025.md]]
+
 ## Sources
 
 - [[raw/fp-7_performance_analysis_january_13_2025.md]]
@@ -114,3 +118,4 @@ On a hardware working call with Val ([[wiki/meetings/2025-05-06-flex-tower-hardw
 - [[raw/flex_tower_spacial_design_review-may-1-2025.md]]
 - [[raw/flex_tower_pos_form_fit_design-may-2-2025.md]]
 - [[raw/flex_port_hardware_design_evolution-may-6-2025.md]]
+- [[raw/flex_port_hardware_update-may-7-2025.md]]

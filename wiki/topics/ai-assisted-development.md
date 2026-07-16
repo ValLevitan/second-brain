@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest]
-source-count: 24
+source-count: 25
 ---
 
 # AI-assisted development adoption
@@ -142,6 +142,18 @@ A ~45-minute recurring AI-tooling knowledge-share hosted by Aaron ([[wiki/meetin
 - **Docker:** Aaron runs his MCP on Node.js (no Docker required) but recommends moving toward the Docker version for future enhancements. Homework/extra-credit: generate content with Comfy UI + an MCP, demo in two weeks. [[raw/mcp_experiences_tech-apr-16-2025.md]]
 - **IT-side rollout (same day):** in the Apr-16 IT meeting Val had [[wiki/people/andrey-bosik.md|Andrei]] install Aaron's Jira MCP + **VS Code (in Russian)** on [[wiki/people/yuri-zakharenko.md|Yuri Zakharenko]]'s machine and start training Yuri to read story-level descriptions, reverse them into a feature, and check the match — Val wants Yuri to control this. [[raw/it_automation_schemas_secrets_server-apr-16-2025.md]]
 
+## May 7 2025 — games-design team tool adaptation (Cline/MCP, ComfyUI)
+
+The next bi-weekly "practice the tools" session ([[wiki/meetings/2025-05-07-games-design-ai-tools-adaptation.md]]), Aaron with [[wiki/people/lena.md|Lena]], [[wiki/people/anastasia.md|Anastasia]], [[wiki/people/yulia.md|Yulia]] and [[wiki/people/dmitriy-khandov.md|Dima Khandov]], Val present. [[raw/tools_adaptation_games_design_department-may-7-2025.md]]
+
+- **Cline is a coding agent, not a general agent:** the team confirmed the emerging pattern — Cline is strong at Git workflows but poor at Confluence/Jira admin tasks (cloning pages, bulk issue creation). It kept mis-creating empty Confluence pages and linking wrong parents. Aaron's explanation: Jira/Confluence "were never designed for an AI robot to use," and multi-step operations (create parent before children) plus Cline's coding bias make it fragile; other agent hosts (Claude Desktop, Dive, Goose) won't try to rewrite their own code the way Cline does. [[raw/tools_adaptation_games_design_department-may-7-2025.md]]
+- **Run MCP as Docker, not Node:** because Cline "gets creative" and edits a locally-cloned Node MCP's own code, Aaron told them to run the MCP servers as **Docker images** instead (short-term); mid-term host the MCP servers **centrally in JVL infrastructure**; the industry is moving to **remote MCP endpoints** (Atlassian announced its official remote-only MCP server ~a week prior). Windows users (Anastasia, Lena, Yulia) need **Docker Desktop**; DevOps ([[wiki/people/andrey-bosik.md|Andrei]]/[[wiki/people/dmitri-kovalchuk.md|Dima Kovalchuk]]) to help install. Action item: switch to Docker-native MCP over the next two weeks. [[raw/tools_adaptation_games_design_department-may-7-2025.md]]
+- **Individual usage:** Yulia automates the full Jira-Git flow with Cline + "Aaron's MCP" (branch, status to in-progress, commit, push, PR, log time), including JVL's custom Jira statuses ("in review," "director's approval"); Anastasia is trying to bulk-create Jira issues (Cline can't delete issues by design, and needs per-action approval); Dima Khandov had barely started with the new MCP. Aaron recommended a **memory + sequential-thinking MCP** combination for cross-session retention, and discouraged having Cline write PowerShell scripts (coding agents do poorly on Windows; "MCP with extra steps"). [[raw/tools_adaptation_games_design_department-may-7-2025.md]]
+- **Confluence as source of truth (for now):** game GDDs live in Confluence because main contributors [[wiki/people/dmitriy-khandov.md|Michael]] and Yefim don't work with Markdown yet; Lena converts Confluence→MD (she'd done it via Spline). Aaron floated a no-AI **GitHub→Confluence auto-refresh** automation instead of agent-driven page copying, and suggested a **Confluence authoring MCP vs a separate administrator MCP** to stop the tools "making a big mess." He also suggested Dima Khandov (Unity tooling experience, like Miranda) could build/clone JVL's own MCP servers. [[raw/tools_adaptation_games_design_department-may-7-2025.md]]
+- **Approval-request friction:** Val chided the team for sending a credits-purchase request (for the "CTVI hub" — likely Civitai, transcribed; inference) a day before the meeting when they'd had two weeks; the team cited Dima's suggestion to route it through IT and a prior "under $10, don't ask" understanding. [[raw/tools_adaptation_games_design_department-may-7-2025.md]]
+
+(ComfyUI image-generation details are on [[wiki/topics/game-art-animation-production-pipeline.md]].)
+
 ## History — earlier AI-consultation artifacts (undated, pre-2025)
 
 - **SolidWorks integration memo from ChatGPT:** a reference document titled "Solid work integration and the overall architecture suggestion from ChatGPT" shows JVL (before the 2025 tooling push) using ChatGPT to draft an IT-integration architecture connecting **SolidWorks** (3D CAD) with **Atlassian Jira/Confluence** and **Microsoft Business Central** — file attachments/version control of CAD files, BOM synchronization into the ERP, middleware/connectors, OAuth security, monitoring, and staged testing. The content is generic AI output (no JVL-specific decisions); its durable value is evidence that JVL's CAD/PLM–ERP–Atlassian integration question was explored via ChatGPT. Undated; consistent with the ~2023–24 Atlassian/Business-Central era of [[wiki/projects/jvl-insights-knowledge-base.md]] (inference, flagged). [[raw/solid_work_integration_and_the_overall_architecture_suggesti_2025-03-29.md]]
@@ -173,3 +185,4 @@ A ~45-minute recurring AI-tooling knowledge-share hosted by Aaron ([[wiki/meetin
 - [[raw/it_automation_schemas_secrets_server-apr-16-2025.md]]
 - [[raw/github_master_tree_structure-april-9-2025.md]]
 - [[raw/pinecone_vector_recordings_db__aaron-april-12-2025.md]]
+- [[raw/tools_adaptation_games_design_department-may-7-2025.md]]

@@ -3,7 +3,7 @@ type: person
 title: Alka Sood
 date: 2026-07-14
 aliases: [Alka Sood, Alka, Cogna]
-source-count: 4
+source-count: 5
 open-commitments: 6
 ---
 
@@ -41,9 +41,14 @@ Alka Sood is JVL's **finance contractor** (her business is **Cogna**, per the 20
 - Delivered the scope-of-work control sheet (hours/month + utilization per person) and will convert it into **job descriptions** and recurring **performance evaluations** (6-month + annual marks — new for JVL); took on automating **procurement** with Lev first; working Laura directly with translation rather than through Hector's interpreting; owns the Peru $2M intercompany write-off question to the accountants and a conceptual 2025 P&L→cash forecast in ~2 weeks. Her line on the Hector project: "I have to turn my friend, my controller, into an analyst." See [[wiki/topics/jvl-finance-back-office.md]] and [[wiki/meetings/2025-04-15-finance-recurring-alka-scope-sheet.md]]. [[raw/finance_update-apr-15-2025.md]]
 - Context she shared on the call (her own practice): a client of hers — a luxury-cottage rental business — is exploring selling a stake; recorded only as background on her advisory work outside JVL. [[raw/finance_update-apr-15-2025.md]]
 
+## May 7 2025 — stabilization complete, reporting automation, controller search
+
+On the recurring call ([[wiki/meetings/2025-05-07-finance-recurring-alka-stabilization.md]]) Alka reported the "stabilization" of JVL's government-remittance and reporting back-office is nearly done: she secured CRA-portal access and expects to recover ~$200k of GST/HST input credits in a few weeks. Next steps she took: a shared **control sheet of every report to automate**, a **five-category weekly cash-flow statement** template (built with Hector, reviewed by Val), a **consolidated** view of the Labs/Systems statements (~a week out) plus a year budget, **monthly balance-sheet reconciliations** (Laura's legwork, Hector validates), and the **Peru ~$2.5M write-off** question to chartered accountant [[wiki/people/sean-riley.md|Sean Riley]]. Val directed her to prepare a **job profile for a Miami-based fractional controller** to replace [[wiki/people/hector.md|Hector]] and to start interviewing. She offered to go to eight hours; Val preferred to use her elsewhere (the new Georgia financial-kiosk line). Detail on [[wiki/topics/jvl-finance-back-office.md]]. Per-person and aggregate compensation figures from the employee-cost summary she presented are held §15.8. [[raw/financial_review-may-7-2025.md]]
+
 ## Sources
 
 - [[raw/financial_alka_alignment-march-24-2025.md]]
 - [[raw/Finance - Alka.md]]
 - [[raw/finance_recurring-april-7-2025.md]]
 - [[raw/finance_update-apr-15-2025.md]]
+- [[raw/financial_review-may-7-2025.md]]
