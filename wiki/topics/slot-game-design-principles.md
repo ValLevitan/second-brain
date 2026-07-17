@@ -3,7 +3,7 @@ type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
 aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus]
-source-count: 18
+source-count: 19
 open-questions: 1
 ---
 
@@ -172,6 +172,26 @@ The [[wiki/organizations/eclipse-gaming-lab.md|Eclipse]] lab call ([[wiki/meetin
 - **Disable-the-feature legality (open).** The incumbent **Banila/Bonilla** reportedly lets the **operator** disable the secondary feature; Val holds that operator-selectable disabling "breaks the law" while **player-selectable** is a legitimate choice — an unresolved compliance line (Juan to verify the actual game-setting screen). [[raw/nebraska_regulation_game_design-june-5-2025.md]]
 - **Multiple light-pattern variations (June 11 anti-farming extension).** Players defeat the Simon memory game by writing the light pattern down with a **dry-erase marker**; JVL's counter is to run **two or three RNG-selected light-pattern variations** so a player must learn several — *unless* a reg requires the bonus to **behave identically every time** (unknown — Juan to confirm with Eclipse; competitors observed using "four times the light pattern," others up to nine, inconsistently, and **not documented in the regs or Eclipse/GLI materials**). Val judged the **primary power meter "nailed down"**; only the **secondary bonus** needs full design understanding. [[raw/games_design-june-11-2025.md]]
 
+## Jackpot Rush "any-bet" presentation + the meters-on-buttons debate (June 12)
+
+On the [[wiki/meetings/2025-06-12-games-design-priorities-review.md|June-12 games-design review]] the team designed how to *sell* the [[wiki/decisions/2025-05-30-jackpot-rush-any-bet-and-denomination-scheduler.md|Jackpot Rush "progressives eligible at any bet"]] change to the Florida player, and re-litigated the bet-up display: [[raw/games_design-june-12-2025.md]]
+
+- **Sell the USP loudly.** "Progressives eligible at any bet" is a **unique selling point** and must "hit the customer over the head" — two mechanisms: (1) a **tracked/attract mode** with the biggest possible text ("take up the whole blank in the screen"); (2) on the **main screen**, transition the **logo → "progressives eligible at any bet" → back**, looping on top of the meter block. Rationale: don't let a min-bet player *discover* eligibility by accident — sell it up front as a better proposition than competing machines. [[raw/games_design-june-12-2025.md]]
+- **"Put the progressives on the bet buttons" — rejected.** Val pushed to stack all **five** progressive meters onto the (enlarged) bet buttons. Michael, Lena and Juan pushed back hard: the font would be **illegible** ("unreadable by anybody over the age of 58"), each bet level isn't tied to a single progressive (so a per-button meter would mislead), and showing 25 progressive values would read like "a spreadsheet… Excel," creating "confusion and cacophony." Ruling: **do not** put meters on the buttons (scroll them above the buttons instead, an option left open). Val ceded — "there has to be only one driver… so Michael, it's you." [[raw/games_design-june-12-2025.md]]
+- **Simplicity as a design guidepost (durable).** Michael invoked designing the **V-Deck at Bally** ("hundreds of iterations"); Val extended it into a principle — drawing on the Tesla minimalist interior and a critique of Apple's latest "layers of buttons with translucency and noise" — that **simplicity of design "should be one of our guideposts,"** because the world is "too complicated, too many choices, too much noise." [[raw/games_design-june-12-2025.md]]
+
+## Fiery Ice Link "perceived persistence" core — reused across the theme (June 12)
+
+- The two new Rage-Studio Fiery-Ice-Link titles (Glorosa, Havana Noches — see [[wiki/topics/game-art-animation-production-pipeline.md]]) reuse the **Fiery-Ice core** and its **math similar to the four already shipped** (the Calle-Ocho/Kai-Ocho lineage). The bonus creates the **illusion of "perceived persistence"** purely "by virtue of the three objects on the top of the screen" — the core hook stays constant; only the theme/free-spins experience changes per title. [[raw/games_design-june-12-2025.md]]
+
+## Nebraska secondary-skill mechanics refined — power meter vs Simon, and why 104% (June 12)
+
+The [[wiki/projects/nebraska-skill-market.md|Nebraska]] compliance design (see the June-4/5 section above) was sharpened on the June-12 review: [[raw/games_design-june-12-2025.md]]
+
+- **Two layers, cleanly split.** On a **winning** spin the **power meter** is presented and returns **50–100%** of the win (dead-center = 100%); it should appear **only on a win**. On a **losing** spin the player may touch the screen for the **secondary Simon-says memory game** to recoup **up to 104%** — deliberately built to be "**incredibly annoying and not user-friendly**" so most players skip it. The **primary game must offer real losses** (not a guaranteed win every spin). [[raw/games_design-june-12-2025.md]]
+- **Why 104% (not 100%).** The regulator allows the secondary game to return up to **104%** because at a **25-cent bet** a sub-penny win (e.g. $0.003) can't be shown with only two decimal places — you need 104% to display at least a **one-cent** win; at 50¢ you can show a penny at 102%, and at higher bets 101%. Whether the theoretical return should be **tied to the bet** was raised (Efim: "it doesn't matter for us" — perfect play already pushes total RTP well over 100%, ~150%, so the exact figure is immaterial once the bonus is a hard grind). [[raw/games_design-june-12-2025.md]]
+- **Copy Vanilla, not Thistle.** A competitor (**Thistle**) awards a small win on **every** spin to bypass the Simon game entirely — but their operator partner said that is Thistle's **worst-performing game**, so a guaranteed-win-every-spin is a poor player experience. JVL should copy **Vanilla** (the better performer). Juan to gather **much more video** of the competitor mechanic before finalizing. A separate confirmation (video from "Dennis") settled that **any base-game win — even one cent — counts as a "win"** per the casino rule, and JVL should **not sacrifice the game** to manufacture small wins. [[raw/games_design-june-12-2025.md]]
+
 ## Open questions
 
 - Should JVL scale the **progressive value to denomination** (Val's view) or keep it flat and only *signal* higher-RTP denominations visually (the industry norm Michael/Efim defend)? Recorded as an **open product debate** — Val's opinion is logged, nothing is changed to the base math. [[raw/game_design_meeting_march_7_2025.md]]
@@ -197,3 +217,4 @@ The [[wiki/organizations/eclipse-gaming-lab.md|Eclipse]] lab call ([[wiki/meetin
 - [[raw/eclipse_nebraska_testing_requirement_review-june-4-2025.md]]
 - [[raw/nebraska_regulation_game_design-june-5-2025.md]]
 - [[raw/games_design-june-11-2025.md]]
+- [[raw/games_design-june-12-2025.md]]

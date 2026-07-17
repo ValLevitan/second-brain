@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna]
-source-count: 28
+source-count: 29
 open-commitments: 1
 ---
 
@@ -117,10 +117,15 @@ On the [[wiki/meetings/2025-05-08-game-design-review.md|May-8 review]] Lena ("Li
 
 On the games recap Lena ("Elena") reported the **South Dakota VLT** production moving: **Bioliches** in development and **Gypsy Spirit** concept/GDD done (production stories starting next day), with **Natalia** and **Vitaly** on feature systems; she's using **smaller gems**. She and [[wiki/people/efim-podvoiski.md|Efim]] work **Queen of Luxor**; some **Golden Husk/Golden Fast** Nebraska assets (illustrations, 3D models) are prepared but paused for SD priority. She supplied the **Photoshop colors** for the customer's life-size **Calle Ocho rooster** statue. Resources: **Dima and Andy** and **Igor Metelski** ("Mitevsky") are locked on Omni/Calle Ocho, so none free for Colombia. See [[wiki/topics/game-art-animation-production-pipeline.md]] and [[wiki/projects/south-dakota-vlt-market.md]]. [[raw/games_design_recap-may-29-2025.md]]
 
+## June 12 2025 — next art work set
+
+On the [[wiki/meetings/2025-06-12-games-design-priorities-review.md|June-12 priorities review]] Lena reported the last South Dakota game (**Rodeo Spin**) almost done (posting to Confluence), and was set on the next art: the two Rage-Studio **Fiery Ice Link** titles — start with **Glorosa** (evolve from approved materials), then **Havana Noches** — on the **V1000** cabinet, with the Glorosa free-spins experience still to be designed. She also pushed for South Dakota vertical art (already done) not to stall, and got QA-branch awareness assigned. See [[wiki/topics/game-art-animation-production-pipeline.md]] and [[wiki/projects/south-dakota-vlt-market.md]]. [[raw/games_design-june-12-2025.md]]
+
 ## Sources
 
 - [[raw/games_design_recap-may-29-2025.md]]
 - [[raw/github _structure-pavel-aaron-andrei.md]]
+- [[raw/games_design-june-12-2025.md]]
 
 - [[raw/fp-7_performance_analysis_january_13_2025.md]]
 - [[raw/game_design_january_16_2025.md]]

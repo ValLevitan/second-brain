@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 53
+source-count: 55
 open-commitments: 4
 open-questions: 0
 ---
@@ -161,6 +161,11 @@ Pavel ("Pasha") worked the Jira/GitHub maturity session with Val and Irina: he s
 
 - On the jackpot/meter reconvene ([[wiki/meetings/2025-06-10-jackpot-meter-sas-scope-gaps.md]]) Pavel ("Pasha") took part in working the key-to-meter / jackpot-limit logic and the design question of whether to fix it once (independent, higher-settable key-to-meter + partial transfer) under proper Class-3-then-Georgia logic. See [[wiki/projects/georgia-market-rollout.md]]. [[raw/meter_sas_function-june-10-2025.md]]
 
+## June 12 2025 — Omni schedule review + QA direction review
+
+- **Omni schedule (7 am)** ([[wiki/meetings/2025-06-12-omni-schedule-review.md]]): Pavel ("Паша") ran the LGS feature walkthrough with Sasha and Kharetsky, tracking Game History / Game State / PayTable / LED features and reassigning **LGS 474 (LED)** to [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] to parallelize; he also managed the backlog pruning (cutting the likely-obsolete LGS 12 / DESAP task). See [[wiki/topics/omni-core-advancement-and-game-templating.md]]. [[raw/schedule_review_omni-june-12-2025.md]]
+- **QA direction review** ([[wiki/meetings/2025-06-12-qa-engineering-direction-aaron.md]]): present as the dev-side lead; he argued for **keeping tests with the code they test** (UI tests in the UI repo, LGS tests in the LGS repo) — which would force LGS tests into Java — versus Anton's single cross-cutting framework (left unresolved), and noted the developers are "quite ahead of QA in development." See [[wiki/topics/test-automation-strategy.md]]. [[raw/qa_engineering_direction_review_aaron-june-12-2025.md]]
+
 ## Sources
 
 - [[raw/jira_plans_maturity-mat-29-2025.md]]
@@ -217,3 +222,5 @@ Pavel ("Pasha") worked the Jira/GitHub maturity session with Val and Irina: he s
 - [[raw/activeMQ_upgrade-may-12-2025.md]]
 - [[raw/flex-port_flex-pay_smib_update-may-20-2025.md]]
 - [[raw/flex-port_flex-pay_test_plan-may-20-2025.md]]
+- [[raw/schedule_review_omni-june-12-2025.md]]
+- [[raw/qa_engineering_direction_review_aaron-june-12-2025.md]]

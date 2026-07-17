@@ -2,8 +2,8 @@
 type: project
 title: South Dakota VLT market entry
 date: 2025-01-22
-aliases: [South Dakota, SD VLT, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950, V43, D27, SD cap, Bioliches, Gypsy Spirit, Crazy Colt, Queen of Luxor, Liberty Spin, Rodeo Spin]
-source-count: 10
+aliases: [South Dakota, SD VLT, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950, V43, D27, SD cap, Bioliches, Gypsy Spirit, Crazy Colt, Queen of Luxor, Liberty Spin, Rodeo Spin, South Dakota vertical]
+source-count: 11
 ---
 
 # South Dakota VLT market entry
@@ -87,6 +87,13 @@ On the [[wiki/meetings/2025-05-29-games-design-recap.md|May-29 games recap]], [[
 
 On the [[wiki/meetings/2025-06-11-game-design-performance-nebraska.md|June-11 game-performance review]] [[wiki/people/juan-martinez.md|Juan]] reported JVL "**just got the South Dakota software approval from GLI**" — the certification that had been awaited since the May-13 "GLI broke a monitor during retesting" note. Still pending: the **cabinet and accessory (hardware) approvals** from GLI; per **Ivan**, GLI has an outstanding **request-for-information that [[wiki/people/genadi-peari.md|Gennady]] owes GLI**, which Juan will dig into. [[raw/games_design-june-11-2025.md]]
 
+## Vertical deprioritized; horizontal near go-live (June 12 2025)
+
+On the [[wiki/meetings/2025-06-12-games-design-priorities-review.md|June-12 priorities review]] Val ranked the **South Dakota vertical below the horizontal** for the next two months: [[raw/games_design-june-12-2025.md]]
+
+- **The horizontal D27 is near go-live**; the **vertical cabinet is "not a priority in the next two months."** Art for the vertical games is already done ([[wiki/people/lena.md|Lena]]) but production can't continue without a programmer, so the vertical is put on the **back burner** — kept moving only by **a few hours of [[wiki/people/anton-leshkevich.md|Anton]]'s time** (a "non-factor"), rather than pulling Anton off the urgent Omni/Kai-Ocho work. [[raw/games_design-june-12-2025.md]]
+- **QA/branch awareness.** Even for a fall release, QA lead [[wiki/people/irina-makarych.md|Irina Makarych]] must know **which branch** the vertical uses so the team knows where to commit; QA should jump on a build the moment Anton produces one (keep the loop fast). [[raw/games_design-june-12-2025.md]]
+
 ## Who
 
 - Driven by [[wiki/people/val-levitan.md|Val]] with [[wiki/people/juan-martinez.md|Juan]] (regulator/operator relationship, field side) and [[wiki/people/pavel.md|Pavel]] (Minsk software); [[wiki/people/irina-makarych.md|Irina]] on printer testing and GLI diffs, [[wiki/people/sebastian.md|Sebastian]] on field service, [[wiki/people/ivan.md|Ivan]] on GLI scheduling. **Lonnie** is the SD lottery-lab tester; **"Alani"** appears as the SD lottery (supplied the SAS adapter, requested the permit-number rename) — whether Alani is the lottery entity or a person there is unclear (see Owner Decisions). [[raw/sd_vlt_recap-jan-22-2025.md]] [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
@@ -103,3 +110,4 @@ On the [[wiki/meetings/2025-06-11-game-design-performance-nebraska.md|June-11 ga
 - [[raw/game_design_nebraska_south_dakota-may-15-2025.md]]
 - [[raw/games_design_recap-may-29-2025.md]]
 - [[raw/games_design-june-11-2025.md]]
+- [[raw/games_design-june-12-2025.md]]

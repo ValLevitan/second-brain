@@ -3,7 +3,7 @@ type: topic
 title: JVL machine and cabinet lineup
 date: 2026-07-12
 aliases: [Flex cabinets, Altera, Maple, Echo, Flex S, Flex C, Flex V42, Flex V42/C, cabinets, VLT, video lottery terminal, Flex SD27, V43, C10-VLOT-TERM-RU, Epic 950, FutureLogic, FlexPort, FlexPay, Nico, Miranda, Omni, Florida Ruta, CPU kit, coffin, iOBoard, Bally iview, Diamondlink, nano-optics, JCM, dual SAS, HAL, FireEyes Wink, Dragon Supreme, Kai-Ocho, Maneki-neko, HG-6, kiosk, Incom, TITO, SMIB, SAS server, La Rosa, El Jaguar, Golden Husk, 5X Peppers, Cold Cash, Pink Princess, Jungle Jaguar, Dutch Mill, Crazy Spins, Midnight Money, Spicy Fruits, Clover Fortune, Jinji Du Li, Cash Kittens, Rosita's Cantina, Estilo Bling, Kaiju Omni]
-source-count: 36
+source-count: 38
 ---
 
 # JVL machine and cabinet lineup
@@ -149,6 +149,15 @@ On the [[wiki/meetings/2025-05-08-game-design-review.md|May-8 review]] the team 
 
 On the [[wiki/meetings/2025-06-11-game-design-performance-nebraska.md|June-11 game-performance review]] [[wiki/people/juan-martinez.md|Juan]] read the spreadsheet with [[wiki/people/michael-gottlieb.md|Michael]] and [[wiki/people/val-levitan.md|Val]]: **Jackpot Rush** ("Jackpot Rush" = the peach/pink cells) shows **high coin-in and rising play** but individual days swing hard (e.g. a machine down ~$4,500 one day, ~$3,700 the next) — the games "have never had the official time to stabilize" (bugs/enhancements kept interrupting), so the negatives are attributed to variance not a broken game. **Gaucho / [Kai-]Ocho** resonates strongly with the **Cuban player in Hialeah** (Florida), with **Dragons of Rain** "right there alongside" — Val's read: "we're now in the right direction with these games." [[raw/games_design-june-11-2025.md]]
 
+## Market/lineup priorities read (June 12 2025)
+
+On the [[wiki/meetings/2025-06-12-games-design-priorities-review.md|June-12 priorities review]] the overall market ranking was clarified (game-design detail on [[wiki/topics/slot-game-design-principles.md]]; Georgia detail on [[wiki/projects/georgia-market-rollout.md]]): [[raw/games_design-june-12-2025.md]]
+
+- **South Dakota:** the **horizontal D27** is near go-live; the **vertical cabinet** is **not a priority** in the next two months (a few hours of [[wiki/people/anton-leshkevich.md|Anton]]'s time keeps it moving — see [[wiki/projects/south-dakota-vlt-market.md]]). [[raw/games_design-june-12-2025.md]]
+- **Florida (acute market, Aug–Sep):** priorities are **Jackpot Rush "at any bet"** and two additional **Fiery Ice Link** titles (Glorosa, Havana Noches) on the **V1000** cabinet (Rage Studio). Already introduced: Jackpot Rush + the Dragons game (Seminal, Big Easy); **Cash Kittens** and future Jackpot Rush games go on **Omni**. [[raw/games_design-june-12-2025.md]]
+- **Georgia:** **no new content needed** — Peach 1/2/3 ready, **DLK Georgia** already in field and now the August-show item; **Jackpot Rush for Georgia deprioritized** (the Curve Cabinet it was meant for is unavailable). [[raw/games_design-june-12-2025.md]]
+- **Nebraska/Texas:** Val cares most about **not missing Texas** ("I actually don't really care about Nebraska, but I really care about Texas"); the **Golden Husk** skill product is the vehicle, though its skill mechanic likely won't port straight to Texas. [[raw/games_design-june-12-2025.md]]
+
 ## Screens, formats, and game-build terms
 
 - **V-Deck** — a full-HD secondary screen on the machine; **Topper** — the top screen used for progressive signage. A typical layout runs videos across topper, main screen, and V-Deck. [[raw/fp-7_performance_analysis_january_13_2025.md]]
@@ -201,3 +210,4 @@ On the [[wiki/meetings/2025-06-11-game-design-performance-nebraska.md|June-11 ga
 - [[raw/activeMQ_upgrade-may-12-2025.md]]
 - [[raw/POS_mutha_goose_architecture-june-11-2025.md]]
 - [[raw/games_design-june-11-2025.md]]
+- [[raw/games_design-june-12-2025.md]]

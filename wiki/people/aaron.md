@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 65
+source-count: 66
 open-commitments: 1
 ---
 
@@ -172,8 +172,13 @@ On a short three-segment session ([[wiki/meetings/2025-05-15-ai-aaron-pdfx-surfs
 
 On the maturity review ([[wiki/meetings/2025-05-28-it-maturity-delinea-secrets.md]]) Aaron observed the IT team's progress (policy in Confluence, risk-mapping, product scoring) and validated **Delinea as the scored winner to trial** (see [[wiki/decisions/2025-05-28-trial-delinea-secrets-management.md]]). He coached them to build an executable DTP backlog with expected outcomes *before* starting ("call the par before you play the hole… you can say how long it'll take before you even begin"), pointed them at using AI grounded on their own policy to draft the stories, and framed the whole exercise as first-principles IT maturity — policy/plan first, infrastructure after. He gave the "before vs now" executive summary Val asked to have on record. [[raw/it_maturity_update-may-28-2025.md]]
 
+## June 12 2025 — QA-engineering direction review
+
+On the [[wiki/meetings/2025-06-12-qa-engineering-direction-aaron.md|QA-engineering show-and-tell]] Aaron course-checked JVL's in-house TypeScript test framework ([[wiki/people/anton-leshkevich.md|Anton]]'s Page-Object-Model + LGS-XML-abstraction framework; Irina's Jira↔X-Ray test linkage). His guidance: adding the abstraction layer is right but is "the beginning of retiring XML"; **when test-language ≠ component-language you're limited to integration tests** (decide by which language holds the majority of the app); and his headline doctrine — **chase "capability coverage," not code coverage** (measure mean-time-to-resolution and documented-capability coverage). He suggested GitHub PR templates/checklists as soft reminders and shared a 5W1H memo. See [[wiki/topics/test-automation-strategy.md]]. [[raw/qa_engineering_direction_review_aaron-june-12-2025.md]]
+
 ## Sources
 
+- [[raw/qa_engineering_direction_review_aaron-june-12-2025.md]]
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
 - [[raw/it_maturity_update-may-28-2025.md]]
 - [[raw/git_jira_correlation-april-1-2025.md]]

@@ -3,7 +3,7 @@ type: person
 title: Alka Sood
 date: 2026-07-14
 aliases: [Alka Sood, Alka, Cogna]
-source-count: 7
+source-count: 9
 open-commitments: 6
 ---
 
@@ -53,8 +53,16 @@ On the year-end "emergency" call ([[wiki/meetings/2025-05-12-year-end-finance-se
 
 Alka ("Alka/Elke") joined Val and chartered accountant [[wiki/people/sean-riley.md|Sean Riley]] for the Canadian-side follow-up to the May-27 US Georgia-tax review — the **non-refundable foreign-tax-credit** mechanics, transfer pricing to keep JVL Systems breakeven, and Peru/Mexico loss timing against the Georgia base. Detail on [[wiki/topics/jvl-finance-back-office.md]]. [[raw/finance_taxes_georgia-may-30-2025.md]]
 
+## June 11 + 13 2025 — corporate loan reconciliation (she is the "unnamed controller")
+
+- **Resolved:** the finance controller who did the deep June-11 loan review with Val (unnamed on that transcript) **is Alka** — confirmed by the June-13 sessions, where she describes "Val and I have had a very deep review of everything… gone through the GL, the statements, the lead sheets," and Sean addresses her by name (Tier A resolution). [[raw/finance_loans_review_sean_alka-june-13-2025.md]]
+- **June 13 (with [[wiki/people/sean-riley.md|Sean Riley]]):** Alka presented the itemized loan schedule (rebuilt from FY2022) and Sean set undertakings for the loan documents; they chose the **restate-prior-years** method to book ScrapNeck's **$2,912,553** off-books accrued interest, and agreed the Boris & Peter loan-to-equity needs **Alan Litwack** first. She also flagged the management-fee→revenue reclassification (~100 transactions; do on paper, deliver a NaVision report). [[raw/finance_loans_review_sean_alka-june-13-2025.md]]
+- **June 13 (line-by-line with Val):** fixed the exact balances (institutional total **$228,509.47**; ScrapNeck $4.5M repaid; the 2011-680 $20.85M interest-free note; GL-24000 $105k; the GL-240004 USD note $3.53M) and took the decision to **resume $20,000/month payments on the 840914 loan starting June** (she'll note [[wiki/people/hector.md|Hector]] to initiate). Full figures on [[wiki/topics/jvl-corporate-loans-and-shareholder-financing.md]]. No §15.8 material (loan economics only). [[raw/finance_loan_summary_detailed_review_alka-june-13-2025.md]]
+
 ## Sources
 
+- [[raw/finance_loans_review_sean_alka-june-13-2025.md]]
+- [[raw/finance_loan_summary_detailed_review_alka-june-13-2025.md]]
 - [[raw/finance_taxes_georgia-may-30-2025.md]]
 - [[raw/financial_alka_alignment-march-24-2025.md]]
 - [[raw/Finance - Alka.md]]

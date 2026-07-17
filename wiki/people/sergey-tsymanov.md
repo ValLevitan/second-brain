@@ -3,8 +3,8 @@ type: person
 title: Sergey Tsymanov
 date: 2026-07-14
 aliases: [Sergey Tsymanov, Siarhei Tsymanau, Sergey Tsimanov, Tsymanau, Tsimanov, Sergei, Sergey]
-source-count: 7
-open-commitments: 1
+source-count: 8
+open-commitments: 2
 disambiguation: "Minsk engineer who drafts CMS requirements with the backend 'Dima' (Chudinov). OWNER-CONFIRMED 2026-07-14 = the payroll 'Siarhei Tsymanau' (Belarusian) and the IT-records 'Sergey Tsimanov' — same person; Tsymanov canonical, Tsymanau/Tsimanov aliases. Distinct from other 'Sergei/Sergey' names (e.g. Sergei Novitsky the advanced-setup technician); resolve by context."
 ---
 
@@ -26,6 +26,7 @@ Sergey Tsymanov is a JVL **Minsk engineer** who works on the **legacy CMS requir
 ## Open commitments
 
 - [ ] Sergey Tsymanov (with Dima Chudinov) — re-review the generated CMS materials and add the missing taxonomies — due by the booked Thursday meeting (~Mar 27, inferred) — [[raw/cms_requirements_development-dzima-sergei-andrei.md]]
+- [ ] Sergey Tsymanov — implement LGS 474 (LED Light Control) on Omni, in parallel, starting Monday (~June 16) — due before ~July 31 — [[raw/schedule_review_omni-june-12-2025.md]]
 
 ## History
 
@@ -35,8 +36,13 @@ Sergey Tsymanov is a JVL **Minsk engineer** who works on the **legacy CMS requir
 
 - Present in both CMS migration sessions ([[wiki/meetings/2025-04-14-cms-svn-github-product-repos.md]], [[wiki/meetings/2025-04-15-cms-migration-staged-decision.md]]). Current work named: "Сергей сейчас занимается рестрикшенами для геймсетов, чтобы не было падений на машинах" (game-set restrictions against machine crashes). He has the team's GitHub Actions experience — "GitHub Action мы уже тренировались, Сергей проводил работу," including the earlier **протосервер (Protohost)** repo transfer with build/release working; he co-owns the transfer-sizing homework with Chudinov. [[raw/cms_github_svn-apr-15-2025.md]] [[raw/cms_svn_github-april-14-2025.md]]
 
+## June 12 2025 — takes LED Light Control (LGS 474) on Omni
+
+On the [[wiki/meetings/2025-06-12-omni-schedule-review.md|June-12 Omni schedule review]], to relieve the LGS/backend bottleneck (Kharetsky), **LGS 474 (LED Light Control) was reassigned to Sergey Tsymanov** ("Цыманов", who sits next to Sasha), starting **Monday**, running in parallel — Val accepted a slightly slower pace on other work for a faster overall result. He was also floated for the isolated money-transfer/LED framework tasks. See [[wiki/topics/omni-core-advancement-and-game-templating.md]]. [[raw/schedule_review_omni-june-12-2025.md]]
+
 ## Sources
 
+- [[raw/schedule_review_omni-june-12-2025.md]]
 - [[raw/architecture_sql_olap_visualization_1_2025-03-29.md]]
 - [[raw/architecture_sql_olap_visualization_2_2025-03-29.md]]
 - [[raw/cms_persona_requirements-march-23-2025.md]]

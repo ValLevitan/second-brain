@@ -2,8 +2,8 @@
 type: topic
 title: Game art & animation production pipeline (comp art → Miranda)
 date: 2025-03-12
-aliases: [animation production, comp art pipeline, CompArt, storyboards, Spine, Blender, After Effects, placeholder build, Miranda scene assembly, art production stages, spike, sorting, symbol containers]
-source-count: 8
+aliases: [animation production, comp art pipeline, CompArt, storyboards, Spine, Blender, After Effects, placeholder build, Miranda scene assembly, art production stages, spike, sorting, symbol containers, Glorosa, Havana Noches, Fiery Ice Link, Rodeo Spin]
+source-count: 9
 ---
 
 # Game art & animation production pipeline (comp art → Miranda)
@@ -94,10 +94,19 @@ From the [[wiki/meetings/2025-05-08-game-design-review.md|May-8 review]] ([[wiki
 
 On the [[wiki/meetings/2025-05-29-games-design-recap.md|May-29 games recap]] [[wiki/people/lena.md|Lena]] moved the **South Dakota VLT** six-pack into production (Bioliches in development, Gypsy Spirit concept/GDD done, production stories starting; **Natalia** and **Vitaly** on feature systems), pausing the Nebraska Golden-Husk/Golden-Fast assets (illustrations + 3D models already prepared). The recurring constraint: art resources (**Dima, Andy, Igor Metelski, Anton**) are **shared with Omni/Calle Ocho**, capping throughput; Vitaly records regulator videos. Production detail on [[wiki/projects/south-dakota-vlt-market.md]]. [[raw/games_design_recap-may-29-2025.md]]
 
+## June 12 2025 — next art work: two Rage-Studio Fiery-Ice-Link titles (Glorosa, Havana Noches)
+
+On the [[wiki/meetings/2025-06-12-games-design-priorities-review.md|June-12 priorities review]] [[wiki/people/lena.md|Lena]] set the next creative work after South Dakota: [[raw/games_design-june-12-2025.md]]
+
+- **South Dakota art nearly done.** The last SD game, **Rodeo Spin**, is almost finished — Lena expected to finish everything and post it in **Confluence** the next day. [[raw/games_design-june-12-2025.md]]
+- **Two new Fiery-Ice-Link titles start now.** The two additional themes (5 and 6) are **Latino/Cuban-inspired**, built in **Rage Studio** on the **V1000** cabinet (explicitly **not** waiting for Omni). Start with **Glorosa** — it can evolve from already-approved Glorosa materials (symbols + diorama recombined into a Fiery-Ice-Link game; different screen/reel size, same bonus, so easier); then **Havana Noches** ("Havana Knights"/"Cuban Knights" — Val: keep the Spanish name). The **free-spins experience for Glorosa is still to be designed** (form follows function). Only the creative part (graphics/sound/animation) starts now; the team wants **30–45 days** of live data on the shipped Fiery-Ice games first. [[raw/games_design-june-12-2025.md]]
+- **Templating the roosters game.** A new **three-Cuban-roosters** game (following Fortune Football) will come **after Fortune 4.0** is done "**right**" (as a proper Omni template, unlike the current Kai-Ocho-Omni port that "throws some assets from Rage Studio, not reworked") — the clean Fortune-4.0 template should let the roosters game develop much faster. [[raw/games_design-june-12-2025.md]]
+
 ## Sources
 
 - [[raw/games_design_recap-may-29-2025.md]]
 - [[raw/Game Development How animation are made with Lena - March 12-2025.md]]
+- [[raw/games_design-june-12-2025.md]]
 - [[raw/graphical_assets_redesign_omni_calle_ocho-apr-17-2025.md]]
 - [[raw/games_production-apr-18-2025.md]]
 - [[raw/game_design-april-3-2025.md]]

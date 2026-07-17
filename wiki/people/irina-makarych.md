@@ -3,7 +3,7 @@ type: person
 title: Irina Makarych
 date: 2025-01-15
 aliases: [Irina Makarych, Irina, Irina Makarich]
-source-count: 15
+source-count: 16
 open-commitments: 0
 open-questions: 0
 disambiguation: "Junior Minsk programmer (printer testing, math XML, build cases). A second 'Irina' now exists — [[wiki/people/irina-shishko.md|Irina Shishko]], the Minsk workshop/shop-floor coordinator. Resolve by context: programming/QA/build/math-XML → Makarych; shop-floor resourcing/logistics → Shishko. (Not an owner-ruled cluster yet — queued.)"
@@ -67,8 +67,15 @@ On both the **May-29 Jira Plans maturity** call ([[wiki/meetings/2025-05-29-jira
 - **Jira maturity (May 29):** she confirmed the QA team has no Jira tasks for its TypeScript work yet, and worked through where test cases live vs code — the model being **X-Ray test cases in Jira** referenced from **test code in GitHub** (Actions report results back to X-Ray); Anton had already written a primitive automated test she'd extend. [[raw/jira_plans_maturity-mat-29-2025.md]]
 - **FlexPay QA plan (May 30):** she reported test cases **>50% written**, needing more for **partial redemption**, and walked the X-Ray structure — test cases live in the **FlexPayment** project (per Aaron's ruling that tests live with the code they test); **QRM** holds test documentation/release tasks; the **FlexPort (8 cases)**, **FlexPay (27+)** and combined plans must all pass to certify the **e-Wallet** variant. [[raw/qa_flex-port_flex-pay_plan-may-30-2025.md]]
 
+## June 12 2025 — named QA lead / priority contact for product priorities
+
+On the [[wiki/meetings/2025-06-12-games-design-priorities-review.md|June-12 games-design priorities review]] Val named **Irina Makarych** the QA lead and **priority contact**: "all the QA people work under her… very organized… a bulldozer type of attitude," and "programming now as well." She must know **which branch** a product uses (e.g. the South Dakota vertical) so she can direct the team where to commit, even for a fall release. See [[wiki/topics/test-automation-strategy.md]], [[wiki/projects/south-dakota-vlt-market.md]]. [[raw/games_design-june-12-2025.md]]
+
+*(Two-Irinas note: on the same day the [[wiki/meetings/2025-06-12-qa-engineering-direction-aaron.md|QA-engineering demo]] and the [[wiki/meetings/2025-06-12-jackpot-meter-flowchart-review.md|jackpot/meter flowchart]] each name an "Irina" in a QA/engineering role — those mentions are recorded on [[wiki/people/irina-shishko.md|Shishko]] / left unresolved (Tier A). Only the explicit "Irina Makarych" QA-lead mention above is routed here.)*
+
 ## Sources
 
+- [[raw/games_design-june-12-2025.md]]
 - [[raw/jira_plans_maturity-mat-29-2025.md]]
 - [[raw/qa_flex-port_flex-pay_plan-may-30-2025.md]]
 - [[raw/integration_and_testing_procedures_january_15_2025.md]]
