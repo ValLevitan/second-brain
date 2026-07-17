@@ -1,9 +1,9 @@
 ---
 type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
-date: 2025-04-17
-aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation]
-source-count: 4
+date: 2025-05-24
+aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, posting setup, AI naming convention]
+source-count: 5
 open-questions: 2
 ---
 
@@ -75,9 +75,23 @@ On the [[wiki/meetings/2025-05-01-action-list-review-lev-rudky.md|May-1 action-l
 - **Accelerated JVL Labs → BC conversion (unlisted extra).** Val told Lev to start preparing to **convert JVL Labs into Business Central on an accelerated basis** — not on the current action list, but coming. Sequence: settle the business logic on points #3 (software sales) and #4 (segregation of duties) → convert Labs to BC → implement segregation of duties + the remote-initial-setup flags/markings within invoicing. [[raw/action_list_review_lev_rudky-may-1-2025.md]]
 - **Segregation of duties (action point #4)** to be developed in a series of meetings with [[wiki/people/alka-sood.md|Alka]] and Lev, covering **Labs and Systems** — continuing the PO/sales-order role model from the Apr-28 call. [[raw/action_list_review_lev_rudky-may-1-2025.md]]
 
+## May 24 2025 — cleaning the chart of accounts (GL) before Labs converts
+
+A [[wiki/people/val-levitan.md|Val]] / [[wiki/people/alka-sood.md|Alka Sood]] / [[wiki/people/lev-rudky.md|Lev Rudky]] / [[wiki/people/hector.md|Hector]] working call ([[wiki/meetings/2025-05-24-finance-gl-account-chart-of-accounts.md]]) reviewing the **US chart of accounts (GL)** on screen. The **chart of accounts is "the backbone on the finance side"** — [[wiki/people/lev-rudky.md|Lev]] cannot start the JVL Labs BC conversion until it is cleaned (after the COA comes the **posting setup**). The transcript internally duplicates its opening — facts taken once. [[raw/finance_meeting_gl_account-may-24-2025.md]]
+
+- **Two charts, aligned but not identical.** The **US ("American") GL** was built largely **from scratch** by **Daniel** (using the Canadian GL only as a base — "**most of it created from scratch. The numbering is different**"). Main-category titles will be **1:1 across both entities**, but subsidiary accounts differ (e.g. US bank accounts vs Canadian RBC accounts). Val wants **different number ranges** so a reader can tell at a glance whether an account is US, Canadian, or JVL Systems. The **BOFA (Bank of America) / BOFA credit-card** accounts must be replaced with the Canadian **RBC** accounts. [[raw/finance_meeting_gl_account-may-24-2025.md]]
+- **Dimensions = tags on ledger entries.** A **dimension** is an extra parameter picked up by the GL / customer / vendor ledgers so reports can be organised by it; **important for consolidation**. **US has dimensions; the Canadian (Navision/"InVision") system has no active dimensions** — the plan is to add the same tags to the Canadian side. Val: "so certain things have tags." [[raw/finance_meeting_gl_account-may-24-2025.md]]
+- **Posting setups differ between systems** — the Canadian entity (InVision/Navision) and the new BC entity have different functionalities, groupings and additional parameters, "**so it's not a good match**"; posting setup directs certain accounts to other functionalities that write back into the GL. [[raw/finance_meeting_gl_account-may-24-2025.md]]
+- **Renaming an account is safe.** Each visible account number has a hidden **internal ID**; changing the visible account number/name does **not** break the system's formulas or logic ("**it'll treat it the same way… just going to call it something different**"). Val wants to **preserve Daniel's work** as much as possible. [[raw/finance_meeting_gl_account-may-24-2025.md]]
+- **Val's AI-first naming doctrine for the GL (and all lists).** Because JVL will "**use artificial intelligence extensively**" and "**a machine needs to read files**," descriptions must avoid **restricted/reserved characters** (slashes, spaces, asterisks, square/curly brackets, commas, periods); machines are **case-sensitive** ("capital means capital"), so use **all lowercase, underscores (or hyphens), no spaces, no abbreviations** (BOFA → "bank of america"; no "chk" for checking), **no plurals**. Apply the same cleansing to **item descriptions, part numbers, and all other lists** (inventory, customer, vendor, dimensions), not just the GL. Val: "**For me, the most important thing is AI. There is nothing more important for me than AI… I want to fully satisfy AI.**" He suggests ChatGPT can generate the reformatting prompt and reformat the Excel automatically (even to CSV). [[raw/finance_meeting_gl_account-may-24-2025.md]]
+- **Native-BC fields vs AI-consumed data.** Some columns/values are **native to Business Central's internal reporting** and an AI won't read them: the **"Totaling" column** uses BC's own range syntax with two periods (e.g. "1131_1..1131_19") to total an account range; **summary/posting accounts** are shown capitalised with a **FALSE** flag (nothing can be posted to a summary account, only to a sub-account). These stay as-is for BC's native reporting; the naming cleanup targets the descriptions/data the AI will read. [[raw/finance_meeting_gl_account-may-24-2025.md]]
+- **Method & schedule.** Alka will annotate line-by-line ("delete" / restructure notes), post the file to a shared **"BC Implementation"** accounting folder so Hector can work the same file in parallel, and produce a **draft by ~the 30th** (she is on vacation next week); Val then runs a **ChatGPT prompt** on it (keeping the original to diff), possibly having his **son** run the prompt while she is away. The follow-up meeting moved from the 29th to **June 5**. The **US Systems COA will also be revisited** for alignment; what to do with **already-posted transactions** if the COA changes is an open worry ("we don't have immediate answers"). The **ERP is referenced as "P411"** (as transcribed; unclear). [[raw/finance_meeting_gl_account-may-24-2025.md]]
+- **Ownership/training model.** Val will **own the final Canadian COA** and consult [[wiki/people/hector.md|Hector]]; going forward the four — **[[wiki/people/laura.md|Laura]], Chris, [[wiki/people/mary.md|Mary]] and Hector** — are responsible for **maintaining and guarding the BC configuration over time** ("this is the best way to train… it's your responsibility to maintain and guard"). Once the Canadian chart is cleaned, the **same cleansing is applied to the BC (US) items**. (This finance-team framing is also noted on [[wiki/topics/jvl-finance-back-office.md]].) [[raw/finance_meeting_gl_account-may-24-2025.md]]
+
 ## Sources
 
 - [[raw/business_central_implementation_update-apr-17-2025.md]]
 - [[raw/ris_business_central_integration-april-3-2025.md]]
 - [[raw/business_central_update-apr-28-2025.md]]
 - [[raw/action_list_review_lev_rudky-may-1-2025.md]]
+- [[raw/finance_meeting_gl_account-may-24-2025.md]]

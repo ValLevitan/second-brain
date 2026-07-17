@@ -2,9 +2,9 @@
 type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
-aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code]
-source-count: 15
-open-commitments: 9
+aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS]
+source-count: 16
+open-commitments: 8
 open-questions: 3
 ---
 
@@ -167,9 +167,18 @@ A Russian architecture call ([[wiki/meetings/2025-05-21-tech-stack-flex-pos-towe
 - **Volume/tooling pressure.** If the devices take, JVL must produce a **large quantity Jan–June 2026** using full tooling (**stamp + mold injection**) — "time is of the essence." Val is compressing decisions because "I'm going to be out of commission for a couple of days." [[raw/selection_tech_stack_hardware-flex-pos_flex-tower_flex-tito-may-21-2025.md]]
 - **The (non-)decision.** By the end Val flips — "**я как-то склоняюсь в Embedded сторону**" (I'm somehow leaning toward the embedded side) — but declines to rule: "let's not decide now… this is a Monday/Tuesday decision, I'd at least gather the numbers." He'll **tentatively meet Monday ~10am**, and see Pavel the next day to prepare. So the embedded-vs-industrial-Linux stack for POS/Tower is **still open** as of May 21 (mild continuation/tension with the May-20 ~90%-Linux tower lean — recorded as ongoing deliberation, not a contradiction). [[raw/selection_tech_stack_hardware-flex-pos_flex-tower_flex-tito-may-21-2025.md]]
 
+## May 26 2025 — tech-stack resolved: a cheap ARM-Linux board (the "third path")
+
+The [[wiki/meetings/2025-05-26-hardware-selection-arm-flex-tower-pos.md|May-26 hardware-selection call]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/genadi-peari.md|Genadi]], [[wiki/people/pavel.md|Pavel]]) **closed the embedded-STM-vs-industrial-Linux dilemma** the May-20/21 calls left open — a weekend investigation found a way to get Linux flexibility at nearly the STM price. The decision-grade content is on [[wiki/decisions/2025-05-26-arm-linux-platform-flex-devices.md]]. [[raw/hardware_selection_flex-tower_flex-pos-may-26-2025.md]]
+
+- **The board:** an **ARM-based, fully embedded Linux board — a Rockchip RK-series SoC** (the "линейка RK … 30, 31, 28, 33, 28, 35"; a quad-core "68-й" ≈ RK3568 cited), ~**10× more powerful than STM**, with **2 GB RAM + 16 GB storage onboard**, watchdog, battery, two full RS-232 serials, two I2C (dual-screen), several USB, Ethernet, 12 V, GPIO + spare UARTs. **~$60 ±$1** — only "чуть-чуть дороже" than the ~$30 STM [[raw/hardware_selection_flex-tower_flex-pos-may-26-2025.md]], versus the ~$130 (≈3×) industrial-Linux board from May-21 [[raw/selection_tech_stack_hardware-flex-pos_flex-tower_flex-tito-may-21-2025.md]]. Off-the-shelf; samples immediately. [[raw/hardware_selection_flex-tower_flex-pos-may-26-2025.md]]
+- **Why it wins:** it runs **Linux (Ubuntu) or Android**, programmable in **C/Java/JavaScript** so **any JVL programmer** (not just scarce low-level C coders) can work on it — the exact flexibility Val wanted on May-21, now without the 3× cost penalty. One board serves **Flex Tower, Flex POS and the standalone server** (server logs on a swappable external SD card). [[raw/hardware_selection_flex-tower_flex-pos-may-26-2025.md]]
+- **The enabling work:** the cheap touchscreens are **LVDS**, so JVL builds a simple FlexPort-style **adapter board** and [[wiki/people/evgeniy-alekseev.md|Alekseev]] writes the **LVDS video driver** (~2 days; a controller would otherwise add ~$20) — net device penalty vs STM only ~$20. **Firm sub-ruling: no extra I/O boards** — sensors go straight to GPIO/UART. [[raw/hardware_selection_flex-tower_flex-pos-may-26-2025.md]]
+- **Ruled, with a validation contingency:** chosen direction pending Alekseev confirming the LVDS interface and sample validation; Val wanted to close it at a 7 am meeting the next day. (This resolves the May-21 mild tension — the earlier deferral flipped toward *embedded*; the ARM board reconciles both sides, being an embedded board that runs Linux.) [[raw/hardware_selection_flex-tower_flex-pos-may-26-2025.md]]
+
 ## Open commitments
 
-- [ ] Genadi Peari — price monitor/touchscreen driver-adapter options (with the Chinese suppliers) so the embedded-vs-industrial-Linux stack decision can be made Monday ~May 26 — due ~May 23 — [[raw/selection_tech_stack_hardware-flex-pos_flex-tower_flex-tito-may-21-2025.md]]
+- [x] Genadi Peari — price monitor/touchscreen driver-adapter options (with the Chinese suppliers) so the embedded-vs-industrial-Linux stack decision can be made Monday ~May 26 — **discharged May 26**: the weekend ARM-board find superseded the adapter-pricing task; the stack was ruled — see [[wiki/decisions/2025-05-26-arm-linux-platform-flex-devices.md]] — [[raw/selection_tech_stack_hardware-flex-pos_flex-tower_flex-tito-may-21-2025.md]] [[raw/hardware_selection_flex-tower_flex-pos-may-26-2025.md]]
 - [ ] Pavel — drive the Incom coordination to open a test location (credentials → FlexPay data entry → live card transactions), with deadlines + follow-up, reporting status to Val and Irina — due "оперативно" (no months) — [[raw/commission_flex-pay-may-16-2025.md]]
 - [ ] Pavel / Val — assemble and truck a broad dev-station + peripherals kit to Philippe in Georgia ahead of the FlexPay commissioning; decide whether Yavorski travels — due ~2 weeks out — [[raw/commission_flex-pay-may-16-2025.md]]
 - [ ] Igor Starovoytov — draw the tower's industrial design (dimensions; standalone view + a between-machines view; gray/milky, no lighting, 7-inch front screen) — due ~Wed/Thu Apr 16–17 — [[raw/fkex_pay_evolution-apr-16-2025.md]]
@@ -202,3 +211,4 @@ A Russian architecture call ([[wiki/meetings/2025-05-21-tech-stack-flex-pos-towe
 - [[raw/industrial_design_update-may-20-2025.md]]
 - [[raw/JCM_meeting_Cliff__bill_recycler-may-20-2025.md]]
 - [[raw/selection_tech_stack_hardware-flex-pos_flex-tower_flex-tito-may-21-2025.md]]
+- [[raw/hardware_selection_flex-tower_flex-pos-may-26-2025.md]]
