@@ -3,8 +3,8 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 23
-open-commitments: 4
+source-count: 24
+open-commitments: 3
 open-questions: 5
 ---
 
@@ -161,9 +161,18 @@ On the [[wiki/meetings/2025-06-12-games-design-priorities-review.md|June-12 game
 - **Jackpot Rush for Georgia deprioritized.** It had lived in the system for months because it was to be featured on the **Curve Cabinet** at the **August Georgia show** — but the Curve Cabinet is **not available**, and Michael judged **[[wiki/people/felipe-miranda.md|Felipe]] needs no games this summer** (the market is consumed complying with the new legislation). So Jackpot Rush for Georgia is shifted back. (This continues the [[#curved-monitor-delay--release-status-may-1-2025|May-1]] curved-cabinet delay — the August show now won't feature it.) Its **award structure differs from the Class-3 version** (in line with other Georgia products, not a copy). [[raw/games_design-june-12-2025.md]]
 - **Diamond Link (DLK) Georgia is the premier August item instead.** DLK is **already installed in the field**; the show build only changes **nudges and 2v2** and "doesn't have to be 100%… just show software," so it can be ready by August (QA can test the changes fast). Val: "I don't believe that Georgia needs any content" — **Peach 1/2/3** are ready (new Peach 1 with the new nudge in-field "next week"; Peach 2 approved; Peach 3 submitted to the regulator — "Eclipse is moving very fast"). Michael wants to **track progressive payouts (even sub-IRS amounts)** with Pavel to be sure games aren't over-paying. [[raw/games_design-june-12-2025.md]]
 
+## Class-3 meter test review + Georgia-QAM flow deferred (June 17 2025)
+
+The Tuesday-11am follow-up to the [[#jackpot--key-to-meter-flowchart-review-june-12-2025|June-12 flowchart review]] ([[wiki/meetings/2025-06-17-class3-meters-georgia-qam-flow.md]]; [[wiki/people/val-levitan.md|Val]], the SAS/meter expert [[wiki/people/vladislav-gurin.md|Vlad]], [[wiki/people/ivan.md|Ivan]], [[wiki/people/pavel.md|Pavel]], and an "Irina" translating [Makarych vs Shishko unresolved — Tier A]). [[raw/Metering_class_3-june-17-2025.md]]
+
+- **Class-3 meter tests 1 and 2 passed.** Vlad presented his test results — an Excel sheet plus screenshots of the meters. **Test 3 could not be run:** per Irina's instruction the casino cannot initiate it, because the casino has **disabled the ability to send the SAS command that clears a hand-pay remotely** (a security measure). On tests 1 and 2 the group agreed the meters "look right." [[raw/Metering_class_3-june-17-2025.md]]
+- **Vlad's ~300-meter table (the June-12 undertaking) is done.** Vlad "created a big table with all meters… about 300 meters"; the team agreed not to review all of them on the call. This discharges the June-12 block-diagram commitment. [[raw/Metering_class_3-june-17-2025.md]]
+- **Key-to-meter behaviour still to be fixed (reaffirms the June-10 scope gaps).** The remaining problem: the **key-to-meter should be able to be set higher than the jackpot limit**, and when the jackpot exceeds the credit meter it must be treated as a **partial transaction** — so the logic must be changed to support a partial transfer. [[raw/Metering_class_3-june-17-2025.md]]
+- **Georgia-QAM flow diagram deferred to a dedicated meeting.** With Class-3 metering broadly confirmed, Val's open concern is how the (revised) key-to-meter behaviour transplants onto **Georgia-QAM** logic (the hand-paid-jackpot → credit-meter transfer, and what can/can't be transferred out) — "this is where a flow diagram is needed." Since it can't be done on the fly, a **separate Georgia-QAM flow meeting** was set for **the following Monday** (after 10am, same slot as the call). For Georgia the partial key-to-credit case will be rare — the plan is to keep the key-to-credit limit very high ($20k–$50k) so the full amount transfers via the hands process. [[raw/Metering_class_3-june-17-2025.md]]
+
 ## Open commitments
 
-- [ ] Vlad (Vladislav Gurin) — produce a **block diagram of every JVL meter** (maximum set, proper names, used or not) for the Tuesday-11am follow-up (~June 17), so the team can agree which meter increments in the key-to-meter case — due ~June 17 — [[raw/jp_meters-june-12-2025.md]]
+- [x] Vlad (Vladislav Gurin) — produce a **block diagram of every JVL meter** (maximum set, proper names, used or not) for the Tuesday-11am follow-up (~June 17), so the team can agree which meter increments in the key-to-meter case — **discharged June 17** (Vlad presented the ~300-meter table; tests 1 & 2 passed) — [[raw/jp_meters-june-12-2025.md]] [[raw/Metering_class_3-june-17-2025.md]]
 - [ ] Juan Martinez — send the **net-win formula sheet** showing how coin-in / coin-out / jackpot meters combine, to resolve the double-posting worry — due after the June-12 call — [[raw/jp_meters-june-12-2025.md]]
 - [x] Juan Martinez — retest Class-3 meter behaviour on the "Mega Hit One" T27/D27 machine at the Seminole lab (GLI-approved MH1 software) — **superseded/rolled into the May-28 review**: testing continued but is not yet conclusive (meter-posting still to be checked vs iView logs); the thread now runs through the Class-3-constitution ruling and Juan's requirements draft — [[raw/sas_intricacies_ga-coam-may-21-2025.md]] [[raw/jp_treatment-may-28-2025.md]]
 - [ ] Team (Juan/Irina/Pavel/Vlad; Zhenya implements) — document the key-to-meter/jackpot-limit options, draw a flow diagram, and implement independent key-to-meter limits (settable higher than the jackpot limit) + partial transfer; verify against Class-3 first — due ~by the Friday-10:30 follow-up (mid-June) — [[raw/meter_sas_function-june-10-2025.md]]
@@ -203,3 +212,4 @@ On the [[wiki/meetings/2025-06-12-games-design-priorities-review.md|June-12 game
 - [[raw/meter_sas_function-june-10-2025.md]]
 - [[raw/jp_meters-june-12-2025.md]]
 - [[raw/games_design-june-12-2025.md]]
+- [[raw/Metering_class_3-june-17-2025.md]]

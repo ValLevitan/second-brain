@@ -3,7 +3,7 @@ type: decision
 title: Class-3 metering is the "constitution"; Georgia QAM gets separate parallel logic
 date: 2025-05-28
 aliases: [class 3 constitution, Georgia QAM legislation, jackpot limit, key-to-credit, parallel jackpot logic, SAS 6.03]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 1
 ---
@@ -29,6 +29,10 @@ On the May 28 2025 jackpot-treatment call ([[wiki/meetings/2025-05-28-jp-jackpot
 
 The ~13-days-later reconvene ([[wiki/meetings/2025-06-10-jackpot-meter-sas-scope-gaps.md]]) **reaffirmed this ruling** ("implement proper Class-3 operation under Georgia logic" — Class 3 correct first) and turned it into concrete Class-3 fixes: JVL's **key-to-meter limit is wrongly forced lower than the jackpot limit** (must be an **independent value, settable higher**), JVL lacks a **partial-transfer** against a key-to-credit limit, and it has **no lab test** for a mechanical key-to-meter transfer (with a possible meter double-count that could make Seminole-floor machines look like they're losing). Team to document options + draw a flow diagram + implement (Zhenya). Detail on [[wiki/projects/georgia-market-rollout.md]]. [[raw/meter_sas_function-june-10-2025.md]]
 
+## Update — June 17 2025 (Class-3 tests pass; Georgia-QAM flow next)
+
+On the June-17 meter-test review ([[wiki/meetings/2025-06-17-class3-meters-georgia-qam-flow.md]]) [[wiki/people/vladislav-gurin.md|Vlad]] reported Class-3 meter **tests 1 and 2 passed** (Excel + meter screenshots); test 3 (remote SAS clear of a hand-pay) couldn't be run because the casino disables that command. Vlad delivered the **~300-meter table**. The team reaffirmed the key-to-meter fix (settable higher than the jackpot limit; partial transaction when the jackpot exceeds the credit meter) and set a **separate meeting for the Georgia-QAM flow diagram** (the following Monday) — i.e. Class-3 ("constitution") confirmed first, Georgia-QAM ("legislation") layered on next, exactly as this decision prescribes. Detail on [[wiki/projects/georgia-market-rollout.md]]. [[raw/Metering_class_3-june-17-2025.md]]
+
 ## Open commitments
 
 - [ ] Juan Martinez — draft the requirements for the parallel Class-3 / Georgia-QAM jackpot logic discussed; team to think it over (Irina and Pavel to meet) and reconvene — **carried into the June-10 reconvene**, which added the key-to-meter/partial-transfer scope gaps and a flow-diagram/implementation task (Friday-10:30 follow-up) — [[raw/jp_treatment-may-28-2025.md]] [[raw/meter_sas_function-june-10-2025.md]]
@@ -37,3 +41,4 @@ The ~13-days-later reconvene ([[wiki/meetings/2025-06-10-jackpot-meter-sas-scope
 
 - [[raw/jp_treatment-may-28-2025.md]]
 - [[raw/meter_sas_function-june-10-2025.md]]
+- [[raw/Metering_class_3-june-17-2025.md]]

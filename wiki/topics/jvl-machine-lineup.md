@@ -3,7 +3,7 @@ type: topic
 title: JVL machine and cabinet lineup
 date: 2026-07-12
 aliases: [Flex cabinets, Altera, Maple, Echo, Flex S, Flex C, Flex V42, Flex V42/C, cabinets, VLT, video lottery terminal, Flex SD27, V43, C10-VLOT-TERM-RU, Epic 950, FutureLogic, FlexPort, FlexPay, Nico, Miranda, Omni, Florida Ruta, CPU kit, coffin, iOBoard, Bally iview, Diamondlink, nano-optics, JCM, dual SAS, HAL, FireEyes Wink, Dragon Supreme, Kai-Ocho, Maneki-neko, HG-6, kiosk, Incom, TITO, SMIB, SAS server, La Rosa, El Jaguar, Golden Husk, 5X Peppers, Cold Cash, Pink Princess, Jungle Jaguar, Dutch Mill, Crazy Spins, Midnight Money, Spicy Fruits, Clover Fortune, Jinji Du Li, Cash Kittens, Rosita's Cantina, Estilo Bling, Kaiju Omni]
-source-count: 38
+source-count: 39
 ---
 
 # JVL machine and cabinet lineup
@@ -59,6 +59,7 @@ On the May-9 taxonomy session ([[wiki/meetings/2025-05-09-product-capability-fea
 
 - The **CPU box** is called the **"coffin"** internally (Russian "гроб"/grob). Georgia machines have **dual SAS** (two DB9 serial connectors, primary + secondary; primary controlled by the Georgia Lottery). To drive a pay-kiosk printer, JVL adds a **third dedicated printer port** — a new DB9 connector (a **harness**, jumpered inside the coffin) with the printer HAL library. All three are interchangeable RS-232/DB9 serial ports logically, but the printer port is meant to always run as the printer so operators don't misassign SAS ports. See [[wiki/projects/georgia-market-rollout.md]]. [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 - **Bally iview** is the casino accounting/reporting system the Georgia machines report to; a Feb 19 finding: JVL sends correct data but Bally's final report doesn't match (cause unknown). The Georgia test/cert lab is **Eclipse**. [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
+- **Class-3 meter test review (Jun 17):** [[wiki/people/vladislav-gurin.md|Vlad]] reported Class-3 SAS meter **tests 1 and 2 passed** (Excel + meter screenshots); test 3 couldn't run (the casino disables the SAS command that clears a hand-pay remotely). Vlad delivered a **~300-meter table** of every JVL meter. Remaining fix: **key-to-meter settable higher than the jackpot limit + partial transaction** when the jackpot exceeds the credit meter. Full thread on [[wiki/projects/georgia-market-rollout.md]] and [[wiki/decisions/2025-05-28-class3-meters-constitution-georgia-parallel-logic.md]]. [[raw/Metering_class_3-june-17-2025.md]]
 - **SAS hand-pay events 51/52 and the "hands" model (Apr 14):** SAS **event 51 = hand-pay**, **event 52 = hand-pay reset/clear** — mandatory in the SAS 1.8 spec. Georgia COAM has no real jackpot/hand-pay: winnings pay in **"hands"** where **1 hand = 5 spins = 5 credits = $5**, and only amount × hands can be cashed out (the remainder stays on the machine). Adding **TITO + AFT** support broke the old lab test (setting a cash-out limit no longer emits 51/52 over SAS — it issues 51 but never 52, and keeps re-sending 51). Class 3 machines use a **$1,200 IRS lockup limit** and do emit 51/52. Full compliance thread on [[wiki/projects/georgia-market-rollout.md]]. [[raw/sas_51_52_requirement_interpretation-april-14-2025.md]]
 
 ## Cabinet monitor configs and the Florida Ruta CPU kits (Feb 19)
@@ -211,3 +212,4 @@ On the [[wiki/meetings/2025-06-12-games-design-priorities-review.md|June-12 prio
 - [[raw/POS_mutha_goose_architecture-june-11-2025.md]]
 - [[raw/games_design-june-11-2025.md]]
 - [[raw/games_design-june-12-2025.md]]
+- [[raw/Metering_class_3-june-17-2025.md]]
