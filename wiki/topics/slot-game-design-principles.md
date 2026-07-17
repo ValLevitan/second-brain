@@ -3,7 +3,7 @@ type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
 aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus]
-source-count: 12
+source-count: 15
 open-questions: 1
 ---
 
@@ -140,6 +140,26 @@ On the [[wiki/meetings/2025-05-15-game-design-nebraska-south-dakota.md|May-15 re
 - **Hit-rate concern (Efim).** Because the skill event fires after every winning spin, prefer games with **hit rate ~4/5/6, not 2/3**, so the slider isn't used almost every spin. [[raw/game_design_nebraska_south_dakota-may-15-2025.md]]
 - **Flatten-and-feed the math.** Val's rule for converting Georgia games: keep a **randomly-hitting "Swift"/Golden-Fast bonus**, flatten the pay table, take the top-win allocation (est. ~1–2% of total) and feed it into that bonus so the largest wins "never show up" — controlling volatility without an unfair machine (Efim to confirm the top wins are safely allocatable). This extends the Mar-28 "recycle math/mechanics" line. [[raw/game_design_nebraska_south_dakota-may-15-2025.md]]
 
+## Bonus economics for a low-win market — Nebraska Golden Husk (May 29)
+
+On the [[wiki/meetings/2025-05-29-games-design-recap.md|May-29 games recap]] the team applied the "recycle math/mechanics" line to tuning a bonus for a **low-win-per-unit** market (durable knobs, not just Nebraska-specific — market detail on [[wiki/projects/nebraska-skill-market.md]]). [[raw/games_design_recap-may-29-2025.md]]
+
+- **The three knobs.** A jackpot/bonus has (1) a **progressive base value**, (2) the **RTP allocated** to it, and (3) its **hit frequency** — separable but related. Georgia Peach's reference settings: base progressive **$2,400**; **5% of RTP** to the bonus; hits **1 in ~600 games**; bonus EV ~15 bets; base **progressive RTP ~1%** (so the base value barely affects the bonus RTP). [[raw/games_design_recap-may-29-2025.md]]
+- **Tuning for a small market.** Where win-per-unit is ~half of Georgia's, drop the base far (to **$500 / $300–$400 / even $200**) so wins stay under the **$599 lock-up** and the bonus **hits more often** (option to raise allocation to **6–7%** and frequency toward 1-in-300). Design rule Michael restated: **marry math to presentation** — the player should feel a triggered bonus *could* have paid big (a juicy value among the pick bins), even when the actual win is modest. [[raw/games_design_recap-may-29-2025.md]]
+- **Fortune FooPaws min bet (recurs):** the additional bet set should start at **70–75 credits** (not the 88/880 "Cointreau" design that excludes low-wallet players, nor JVL's 60), chosen so the games also reuse in **Colombia** (bet levels are hard-coded; denominations just **scale** by a currency multiplier — you can't insert arbitrary values because the progressive means is in money). [[raw/games_design_recap-may-29-2025.md]]
+
+## Jackpot Rush any-bet + the denomination scheduler (May 30 — JPRE review)
+
+On the [[wiki/meetings/2025-05-30-game-design-review-jpre.md|May-30 Jackpot Rush review]] ([[wiki/people/michael-gottlieb.md|Michael]], [[wiki/people/val-levitan.md|Val]], [[wiki/people/juan-martinez.md|Juan]]) — decision on [[wiki/decisions/2025-05-30-jackpot-rush-any-bet-and-denomination-scheduler.md]]: [[raw/game_design_review_jpre-may-30-2025.md]]
+
+- **Max-bet-required is a trap when players don't bet max.** Jackpot Rush ("JPRE") requires ~$3 / 480-credit max bet for progressive eligibility, but average bets run ~$1.20–$1.87, so most players get a **static credit tower** instead of running progressive **meters** — "a tower of credit values is shit… they play these games to chase the progressives." Fix: make progressives **eligible at any bet** (the Georgia version already is; the Florida/Class-3 version needs a math redesign). Michael: "the definition of insanity is doing the same thing… and expecting a different outcome." [[raw/game_design_review_jpre-may-30-2025.md]]
+- **First-button / minimum-bet philosophy (durable).** Val: most players only ever press the **first button**, so a 40¢-vs-60¢ (or 50¢-vs-70¢) minimum is a **20–50% swing** in turnover — "statistically I don't see how we make money being cheaper." Juan's nuance: players do dabble up to button 2/3 (hence $1.20–$1.80 averages), and the market floor min bet is now $0.50–$0.60. Michael's "Ferrari vs Toyota" counter: perceived value can justify a higher entry. [[raw/game_design_review_jpre-may-30-2025.md]]
+- **Denomination scheduler (the "chameleon").** Change bet levels/denoms by **time of day / day of week** — cheaper for the weekday value crowd, higher on weekends. Precedent: **Interblock** built Juan a "Denom scheduler" (dropped 25¢/50¢ after 5 pm). Mechanically = two GLI part-sheets, one enabled by schedule. Ruled to design **across the board**; possible patent worked around via a random trigger. [[raw/game_design_review_jpre-may-30-2025.md]]
+
+## "Soft" games vs the market (May 30 — games-performance)
+
+On the [[wiki/meetings/2025-05-30-games-performance-review-juan.md|May-30 games-performance review]] the durable design lesson: in the Puerto Rico/Colombia street markets JVL's games read as **"soft"/basic/aged** against the **Chinese copies** (of Buffalo, Diamond Lotto, Kronos/Zeus) — the copies grasp the *look* even when they don't fully grasp the math. The market now favours **vertical** cabinets; JVL's answer is its **HG6 vertical** titles (Altera V, "La Cuatros Grandes"). A Spanish game name + Spanish options is judged to help win the player. (Market/route detail on [[wiki/projects/puerto-rico-expansion.md]].) [[raw/games_performance_review_juan_martinez-may-30-2025.md]]
+
 ## Open questions
 
 - Should JVL scale the **progressive value to denomination** (Val's view) or keep it flat and only *signal* higher-RTP denominations visually (the industry norm Michael/Efim defend)? Recorded as an **open product debate** — Val's opinion is logged, nothing is changed to the base math. [[raw/game_design_meeting_march_7_2025.md]]
@@ -159,3 +179,6 @@ On the [[wiki/meetings/2025-05-15-game-design-nebraska-south-dakota.md|May-15 re
 - [[raw/game_design_review-may-1-2025.md]]
 - [[raw/game_design-may-8-2025.md]]
 - [[raw/game_design_nebraska_south_dakota-may-15-2025.md]]
+- [[raw/games_design_recap-may-29-2025.md]]
+- [[raw/game_design_review_jpre-may-30-2025.md]]
+- [[raw/games_performance_review_juan_martinez-may-30-2025.md]]

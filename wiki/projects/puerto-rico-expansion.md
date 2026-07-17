@@ -2,8 +2,8 @@
 type: project
 title: Puerto Rico expansion
 date: 2026-07-12
-aliases: [Puerto Rico expansion, Puerto Rico office, PR route market, gaming license, resident agent, FYC Consulting, Ruta license]
-source-count: 10
+aliases: [Puerto Rico expansion, Puerto Rico office, PR route market, gaming license, resident agent, FYC Consulting, Ruta license, IGS, vertical machines, Chinese copies]
+source-count: 11
 ---
 
 # Puerto Rico expansion
@@ -97,8 +97,18 @@ Val and [[wiki/people/monica.md|Monica]] (JVL in-house counsel) walked [[wiki/pe
 - On the Mar 29 Nebraska recruitment call, Val reminded [[wiki/people/julian-puerta.md|Julian Puerta]]: "Do you remember the proposal that I gave you for Puerto Rico?" — meaning Val had at some earlier point offered Julian terms for the **Puerto Rico area**. Neither man could recall the details; both only remembered it was "very generous." Val said he would keep the **same proposal** for the Nebraska/South Dakota area. [[raw/julian _puerta_nebraska-march-29-2025.md]]
 - *Inference:* this strengthens (but does not confirm) the possibility that the unidentified **"Julian"** who attended the first law-firm call with Igor (Jan 29, above) is Julian Puerta — see the open question on [[wiki/people/julian-puerta.md]].
 
+## Games-performance feedback from the island (May 30 2025)
+
+On the [[wiki/meetings/2025-05-30-games-performance-review-juan.md|May-30 games-performance review]], [[wiki/people/juan-martinez.md|Juan]] relayed field feedback on JVL's games in Puerto Rico (via distributor **IGS** and its contact **Alex**). [[raw/games_performance_review_juan_martinez-may-30-2025.md]]
+
+- **The games read as "soft"/basic/aged.** Everyone who played the trial units called them plain versus the **Chinese copies** of Buffalo and Diamond Lotto flooding the street; the same feedback came from the earlier Puerto Rico look (old WMS titles like Kronos/Zeus copied and out on the floor). IGS still wants the trial to proceed (looser config, higher progressives — Juan already sent recommendations; new motherboard + [[wiki/people/sebastian.md|Sebastian]] on Monday). [[raw/games_performance_review_juan_martinez-may-30-2025.md]]
+- **Vertical is now preferred.** Alex reports players want **vertical upright** cabinets (~40-inch), so JVL should try its **HG6 vertical** titles — **Altera V** and "**La Cuatros Grandes**" (a Spanish-named multi-game). [[raw/games_performance_review_juan_martinez-may-30-2025.md]]
+- **The unregulated street market.** Alex argued oversight is effectively zero (State Gaming Commission not involved; **Blueberry** selling cabinets directly to third parties), that street machines are **double** the casino count, and that JVL is over-cautious — but Val held firm on not jeopardising licences (a brand-new game on the street is different from a used, resold machine). Board/CPU pricing: Chinese boards **$1,000–1,200**; PR CPUs **$400–1,500** (many from IGS). [[raw/games_performance_review_juan_martinez-may-30-2025.md]]
+- **Colombia (same call).** **Martha** flagged the **Vika** conversion as urgent (machines could be pulled for performance); games ready+approved are **Dragons of Rain** and **Gaiotro** (single-vs-dual-game question), and **Gaiotro/Jackpot Rush** still need a final tweak for the **Colombia** denominations/progressives — awaiting Val's direction. Colombia inventory is half **V43**, half **D27** (no D27 content); ship vertical conversion kits. See [[wiki/topics/slot-game-design-principles.md]]. [[raw/games_performance_review_juan_martinez-may-30-2025.md]]
+
 ## Sources
 
+- [[raw/games_performance_review_juan_martinez-may-30-2025.md]]
 - [[raw/anibal_call_011325_meeting_notes_2025-01-14.md]]
 - [[raw/Puerto Rico progress report - January 29, 2025.md]]
 - [[raw/product_matrix_puerto_rico-march21-2025.md]]

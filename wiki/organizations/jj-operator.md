@@ -3,7 +3,7 @@ type: organization
 title: J&J (gaming route operator)
 date: 2025-05-07
 aliases: [J&J, JJ, J and J]
-source-count: 2
+source-count: 3
 ---
 
 # J&J (gaming route operator)
@@ -40,7 +40,12 @@ J&J is a privately-owned US gaming **route operator** (not a manufacturer) that 
 
 On [[wiki/people/denis-desmarais.md|Denis Desmarais]]'s May-29 report to Val, the largest Omaha operator **[[wiki/organizations/nts-nebraska-technical-services.md|NTS]]** said it covers the **western Nebraska market (past Lincoln) in partnership with J&J** — corroborating J&J's own May-7 note that it is expanding into Nebraska. Denis had also called J&J the day before and they "immediately named the person" Val had spoken to. [[raw/denis_ntc_nebraska-may-29-2025.md]]
 
+## Sam Westgate / Magnolia Gaming — Nebraska branded-kiosk lead (May 29 2025)
+
+On [[wiki/people/felipe-miranda.md|Felipe]]'s May-29 Georgia update, Felipe surfaced **Sam Westgate** as a **J&J Ventures** principal — Felipe met him in Georgia **through Magnolia Gaming**. Sam's company has a **large operation in Nebraska** (and some Illinois) and had had a JVL head tech approach it; it had been testing kiosks but wants "something of its own," and Sam is interested in JVL **making/branding a kiosk** for it across several markets. Val said he knows Sam Westgate and asked Felipe for his number. (Consistent with J&J's own May-7 note that it is expanding into Nebraska and the [[wiki/organizations/nts-nebraska-technical-services.md|NTS]] note that J&J covers western Nebraska past Lincoln.) [[raw/felipe_georgia_market_update-may-29-2025.md]]
+
 ## Sources
 
 - [[raw/intro_jj_jvl-may-7-2025.md]]
 - [[raw/denis_ntc_nebraska-may-29-2025.md]]
+- [[raw/felipe_georgia_market_update-may-29-2025.md]]

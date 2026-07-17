@@ -3,7 +3,7 @@ type: decision
 title: Price the Georgia COAM software-upgrade kits at ~$2,900, finance them against kiosk orders
 date: 2025-04-01
 aliases: [COAM kit pricing, Peach upgrade kit price, software upgrade fee, $2900 kit, Eclipse submission cost, Elevate financing, kit financing, zero bill of material kits]
-source-count: 1
+source-count: 2
 status: active
 ---
 
@@ -36,8 +36,17 @@ status: active
 - Rough numbers he cited: the market needs ~**6,000 kiosks** vs a maximum of ~**4,000 machines** sold; ~**60%** of the installed base are old machines; ~**30% (≈10,000 machines)** are **non-convertible** to TITO unless the operator buys **Port + a kiosk**; at ~**4 ports per location**, that's ~**2,500 locations**. JVL's edge is its large installed base. [[raw/upgrade_ga-coam_kits-april-1-2025.md]]
 - Competitors named in the payment/kiosk space: **Axis**, **M3T** (kiosk with dual-SAS/pulse TITO printing), **Lucky Bucks** (doing it "through pulses"); Val's view is the main competitors "are all dedicated to TITO" and don't do pulses — but even with a competitor, JVL is "still entitled to 50% of the business." [[raw/upgrade_ga-coam_kits-april-1-2025.md]]
 
+## May 29 2025 — the operator-pushback field test of this pricing ([[wiki/meetings/2025-05-29-felipe-georgia-market-update.md]])
+
+Nearly two months later the pricing met its first real operator resistance, and Val turned it into a coaching argument with [[wiki/people/felipe-miranda.md|Felipe]]. Board member / operator **Selim Kwambuwala** (**Dixie Amusement**) told Felipe ~$2,800–$3,000 was "very dangerous" and that operators won't pay $3,000 "for software they already have," citing **Aristocrat** giving its Tito upgrade + printers **free** to recent customers. [[raw/felipe_georgia_market_update-may-29-2025.md]]
+
+- **Val's reinforced framing:** stop calling it an **"upgrade"** — the machine is **rendered obsolete by the legislative change** (added second SAS port + skill-feature redesign), not merely upgraded, so it cannot qualify for a free upgrade the way a pre-committed sale would. Charging is existential ("I cannot exist without charging"); giving the dual-SAS away free would make JVL's games non-competitive and it would sell no new games. [[raw/felipe_georgia_market_update-may-29-2025.md]]
+- **The economic argument he wants Felipe to make:** an operator earned ~**$55,000** over three years (~1,300 days × ~$50/day share) on that software; ~$2,800 to revive it for another ~$55,000 is obviously worth it. And JVL machines sell for ~**$13,000** vs ~**$16,000–$18,000** for Light & Wonder/Aristocrat — a ~$5,000 gap "almost two conversion kits" — so the kit price is small relative to what the operator already overpays competitors. [[raw/felipe_georgia_market_update-may-29-2025.md]]
+- This is business/product pricing economics (not §15.8 labour cost). [[raw/felipe_georgia_market_update-may-29-2025.md]]
+
 Relates to [[wiki/projects/georgia-market-rollout.md]] and the FlexPay/kiosk payout-device strategy on [[wiki/topics/flexpay-business-architecture-payout-devices.md]].
 
 ## Sources
 
 - [[raw/upgrade_ga-coam_kits-april-1-2025.md]]
+- [[raw/felipe_georgia_market_update-may-29-2025.md]]

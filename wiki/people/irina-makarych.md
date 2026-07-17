@@ -3,7 +3,7 @@ type: person
 title: Irina Makarych
 date: 2025-01-15
 aliases: [Irina Makarych, Irina, Irina Makarich]
-source-count: 13
+source-count: 15
 open-commitments: 0
 open-questions: 0
 disambiguation: "Junior Minsk programmer (printer testing, math XML, build cases). A second 'Irina' now exists — [[wiki/people/irina-shishko.md|Irina Shishko]], the Minsk workshop/shop-floor coordinator. Resolve by context: programming/QA/build/math-XML → Makarych; shop-floor resourcing/logistics → Shishko. (Not an owner-ruled cluster yet — queued.)"
@@ -60,8 +60,17 @@ In the Omni daily, when Val announced JVL will replace manual testers with **Tes
 
 - An "Ira" took part in the Russian RIS-licensing meeting ([[wiki/meetings/2025-04-03-ris-business-central-licensing.md]]), raising the machine-transfer / flash-copy / licence-count questions. Resolved to Irina Makarych by context (her established machine-XML/RIS-setup role); labeled inference, not asserted. See [[wiki/decisions/2025-04-03-license-software-per-operator-not-machine.md]]. [[raw/ris_business_central_integration-april-3-2025.md]]
 
+## May 29–30 2025 — QA lead on the Jira-maturity and FlexPay QA-plan sessions ("Ира" — routed to Makarych by role)
+
+On both the **May-29 Jira Plans maturity** call ([[wiki/meetings/2025-05-29-jira-plans-maturity.md]]) and the **May-30 FlexPort/FlexPay QA-plan** meeting ([[wiki/meetings/2025-05-30-qa-flexport-flexpay-plan.md]]) the QA lead is transcribed only as "**Ирина / Ира**" (no surname); routed here to **Makarych** to stay consistent with the [[wiki/meetings/2025-05-20-flexpay-flexport-test-plan.md|May-20 test-plan meeting]] (where "Ира" = Makarych). The transcribed-surname ambiguity with [[wiki/people/irina-shishko.md|Shishko]] remains queued Tier A — not reconciled. [[raw/jira_plans_maturity-mat-29-2025.md]] [[raw/qa_flex-port_flex-pay_plan-may-30-2025.md]]
+
+- **Jira maturity (May 29):** she confirmed the QA team has no Jira tasks for its TypeScript work yet, and worked through where test cases live vs code — the model being **X-Ray test cases in Jira** referenced from **test code in GitHub** (Actions report results back to X-Ray); Anton had already written a primitive automated test she'd extend. [[raw/jira_plans_maturity-mat-29-2025.md]]
+- **FlexPay QA plan (May 30):** she reported test cases **>50% written**, needing more for **partial redemption**, and walked the X-Ray structure — test cases live in the **FlexPayment** project (per Aaron's ruling that tests live with the code they test); **QRM** holds test documentation/release tasks; the **FlexPort (8 cases)**, **FlexPay (27+)** and combined plans must all pass to certify the **e-Wallet** variant. [[raw/qa_flex-port_flex-pay_plan-may-30-2025.md]]
+
 ## Sources
 
+- [[raw/jira_plans_maturity-mat-29-2025.md]]
+- [[raw/qa_flex-port_flex-pay_plan-may-30-2025.md]]
 - [[raw/integration_and_testing_procedures_january_15_2025.md]]
 - [[raw/parameterization_in_the_development_pipeline_part_3_january_15_2025.md]]
 - [[raw/sd_vlt_recap-jan-22-2025.md]]

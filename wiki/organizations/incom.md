@@ -3,7 +3,7 @@ type: organization
 title: Incom (payment processor)
 date: 2025-02-27
 aliases: [Incom, InComm, Incomm, Income, Incom Payments]
-source-count: 12
+source-count: 13
 open-commitments: 3
 open-questions: 2
 ---
@@ -102,8 +102,13 @@ On the [[wiki/meetings/2025-05-20-bdc-flexport-ga-coam-financing.md|BDC financin
 ## Open contradictions
 - ~~InComm COAM gift-card meeting date: Apr 3 vs Apr 7.~~ **RESOLVED BY OWNER (2026-07-15): it was a two-day meeting** — Apr 3 (first session, Teams recording) and Apr 7 (second session, derived notes) are BOTH genuine session dates of one meeting. Recorded on one stub [[wiki/meetings/2025-04-03-incomm-coam-gift-card-solutions.md]] (Apr-3 primary, Apr-7 second session; facts attributed per session where distinguishable). This **supersedes** the earlier §11 auto-resolution to Apr-3-only — a derived-notes date can also be a real second-session date.
 
+## May 30 2025 — the live test cycle at Felipe's office ([[wiki/meetings/2025-05-30-qa-flexport-flexpay-plan.md]])
+
+On the FlexPort/FlexPay QA-plan meeting Val described how Incom will support JVL's commissioning: as an **exception**, Incom will create a **fictitious test location** inside **Felipe's Georgia office** (assigned a real location number) so real money flows through Incom's **production** environment. The test is chiefly to prove the **positive money-transfer cycle** with Incom — play → Temporary Wallet → validate at FlexPay (full or partial) → money to Incom → Incom registers → card issued → Incom sends to **JVL Bank**, which takes a **commission** → Incom invoices JVL for the player winnings. **Juan** will receive the Incom reports by **email** (mailboxes created by **Andrei**). Val again characterised Incom as a **~$6-billion company** that moves slowly, so JVL must run thorough internal tests before each live test. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/qa_flex-port_flex-pay_plan-may-30-2025.md]]
+
 ## Sources
 
+- [[raw/qa_flex-port_flex-pay_plan-may-30-2025.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-02-11.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-02-18.md]]
 - [[raw/incomm_commissioning_plan_february-27-2025.md]]

@@ -3,7 +3,7 @@ type: decision
 title: Release the e-wallet MVP first (Georgia QAM), build TITO in parallel — and implement full SAS with no truncation
 date: 2025-05-27
 aliases: [e-wallet MVP release, e-wallet first, full SAS no truncation, version 17b freeze, Georgia QAM release, e-wallet vs TITO architecture]
-source-count: 3
+source-count: 4
 status: active
 open-commitments: 4
 ---
@@ -16,6 +16,7 @@ On May 27 2025, across two same-day meetings — a long derailed FlexSport/FlexP
 
 - JVL now has **two mutually exclusive architectures**: the **e-Wallet** architecture (also "Electronic Wallet" / "Temporary Wallet") built from **FlexPort + FlexKiosk (FlexPay)**, with essentially **no SMIB**; and the **TITO** architecture built from **FlexPort, SMIB** plus future hardware (**FlexTower, FlexPOS, FlexTitoServer**). "Две архитектуры в одной существовать не могут" — an operator picks one per location; a single transaction cannot take e-wallet on one side and TITO on the other. [[raw/dev_review_flex-pay_flex-port-may-27-2025.md]]
 - The **e-wallet architecture is development-complete and about to go to beta tests**; the TITO architecture is still "в очень сырой форме" (very raw). So JVL releases the e-wallet MVP first while developing TITO in parallel. [[raw/dev_review_flex-pay_flex-port-may-27-2025.md]]
+- **May-30 sharpening (evolution, not contradiction):** on the QA-plan call Val restated it more bluntly — the Temporary-Wallet architecture "далеко не пойдет" (won't go far) and "я не буду делать из нее MVP" ("I won't make it *the* MVP"): he's "using it so [the money-cycle] gets built in," consistent with the reusable-money-cycle rationale above. Terminological tension only ("release e-wallet MVP first" = ship it first as the money-cycle vehicle, NOT treat it as the true market product). [[raw/qa_flex-port_flex-pay_plan-may-30-2025.md]]
 - **Rationale — the reusable money-cycle.** Val expects the e-wallet architecture "скорее всего, на рынке не проживется" (probably won't survive in the market), **but** the financial-transaction cycle being built for it "нам понадобится в любом случае" — running a short working e-wallet feature through the full money cycle now makes the later TITO in-house test easy. [[raw/release_e-wallet_flex-pay_flex-port-may-27-2025.md]]
 - **The hard deadline (the whole point):** "Если у нас не будет продукта в ноябре месяце, то считайте, что мы весь этот effort, весь год, даже полтора... мы провалились, притом очень сильно провалились" — a **November 2025** product deadline; missing it wastes ~1.5 years of work. [[raw/release_e-wallet_flex-pay_flex-port-may-27-2025.md]]
 - **What "release" means here — an In-House Full/Life Cycle Test:** money must actually pass through both the **Incom Bank and the JVL Bank** (real deposit), not just a lab demo; Val budgets "не меньше, чем месяц" for the full testing cycle. Debug environment (resettable Incom debug cards) first, then production credentials. [[raw/release_e-wallet_flex-pay_flex-port-may-27-2025.md]] Incom (via Juan → "John from Incom") agreed to enable an **in-house test location at [[wiki/people/felipe-miranda.md|Philippe]]'s Georgia office** — an unusual permission ("вообще они такое не делают"). [[raw/release_e-wallet_flex-pay_flex-port-may-27-2025.md]]
@@ -49,3 +50,4 @@ On May 27 2025, across two same-day meetings — a long derailed FlexSport/FlexP
 - [[raw/dev_review_flex-pay_flex-port-may-27-2025.md]]
 - [[raw/release_e-wallet_flex-pay_flex-port-may-27-2025.md]]
 - [[raw/e-wallet_release_meeting_summary-may-27-2025.md]]
+- [[raw/qa_flex-port_flex-pay_plan-may-30-2025.md]]

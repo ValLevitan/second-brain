@@ -3,7 +3,7 @@ type: decision
 title: Insert a "capability" level in Jira as the executive-demonstrable unit mapped to GitHub feature branches
 date: 2025-04-03
 aliases: [capability level, Jira capabilities, capability vs feature, GitHub Jira mapping, feature branch capability, repository is a product, repository is an artifact, no test no pull, one week feature branch, capabilities bundle of features]
-source-count: 11
+source-count: 12
 status: active
 open-questions: 2
 ---
@@ -91,6 +91,14 @@ On the May-12 product-discovery session ([[wiki/meetings/2025-05-12-product-disc
 - **The worked capability→feature mapping (FlexPay):** Aaron and Val decomposed a "flexible payment" capability into supporting capabilities, use cases, requirements and features — the durable product-side of that example is on [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. The teaching point: you connect a capability's key words (send/receive/easily/without-disruption) to supporting capabilities and use cases, and the "negative space" between them becomes the **features**; a **user story** example — "As a player, I want to insert cash into a machine so I can start playing games immediately." [[raw/theory_product_discovery_process-may-12-2025.md]]
 - **Val's stated gap:** he is ~65% comfortable with capability/use-case/requirement but doesn't know how to **funnel** them into short, testable, sprint-sized **features** given JVL has "one and a half men" of capacity — he wishes he had a VP of engineering/architect who could take that off him, and (see [[wiki/people/aaron.md]]) resolved to hire a Miami-based product manager for it. [[raw/theory_product_discovery_process-may-12-2025.md]]
 
+## May 29 refinement — drop Task/Initiative in Jira; GitHub Issues for the engineering domain
+
+On the [[wiki/meetings/2025-05-29-jira-plans-maturity.md|May-29 Jira-plans maturity session]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel]], QA lead [[wiki/people/irina-makarych.md|Irina]]) the two-camp model was sharpened. Still **direction, not a locked Jira refactor.** [[raw/jira_plans_maturity-mat-29-2025.md]]
+
+- **Jira holds only the product hierarchy.** Val wants **Product → Capability → Feature → Story**, explicitly **removing the Task layer** ("больше заданий в JIRA — готово") and **removing the Initiative layer** ("я хочу избавиться от инициативы"), keeping Initiative only where a market like Florida clearly warrants one. A Jira user story should describe **user experience** (non-prescriptive), never the technical implementation. Consistent with the May-5–9 "feature is temporary / capability is permanent" and "initiative becomes the product" direction. [[raw/jira_plans_maturity-mat-29-2025.md]]
+- **GitHub Issues become the engineering-domain home.** The prescriptive/technical detail that used to bloat Jira user stories should migrate to **GitHub Issues per repository** — code-health, branch cleanup, technical back-and-forth among developers/QA — leaving Jira for product-owner/executive conversation. GitHub Issues had been disabled on repos and were turned on live (demonstrated by filing a "stale branch" issue for **FRAME-476** on the "Omni LAN-based framework" repo, assigned to a developer). This operationalizes Aaron's Apr-3 "run the light task list in GitHub, keep the source of truth in Jira" point. [[raw/jira_plans_maturity-mat-29-2025.md]]
+- **Test↔code linkage made concrete.** Test **cases/suites live in Jira via X-Ray**; the **test code lives in GitHub** beside the product code, each test's ID referenced in the code; **GitHub Actions** run the automated tests and report results back to X-Ray (manual test procedures feed the same result store). QA engineers (under Irina) are learning **TypeScript** to write them; **Anton** already built a primitive automated test to extend. Val booked a **June 5, 9 am** demo of live tests running in the repo and X-Ray. See [[wiki/topics/test-automation-strategy.md]]. [[raw/jira_plans_maturity-mat-29-2025.md]]
+
 ## Open questions
 
 - **Restructure Jira per the May-5–6 direction?** Should **capability** replace the product-line level, the **initiative become the product**, and the top levels (value stream / initiative / product) move into **Jira Product Discovery** projects? Direction agreed in principle, no ruling; a graph + refactor plan deferred. — [[raw/feature_granularity_definition_aaron-may-5-2025.md]] [[raw/feature_defining_jira-may-6-2025.md]] [[raw/feature_reflection_jira-may-6-2025.md]]
@@ -109,3 +117,4 @@ On the May-12 product-discovery session ([[wiki/meetings/2025-05-12-product-disc
 - [[raw/product_capability_feature-may-8-2025.md]]
 - [[raw/product_capability_feature_development-may-9-2025.md]]
 - [[raw/theory_product_discovery_process-may-12-2025.md]]
+- [[raw/jira_plans_maturity-mat-29-2025.md]]

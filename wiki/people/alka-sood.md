@@ -3,7 +3,7 @@ type: person
 title: Alka Sood
 date: 2026-07-14
 aliases: [Alka Sood, Alka, Cogna]
-source-count: 6
+source-count: 7
 open-commitments: 6
 ---
 
@@ -49,8 +49,13 @@ On the recurring call ([[wiki/meetings/2025-05-07-finance-recurring-alka-stabili
 
 On the year-end "emergency" call ([[wiki/meetings/2025-05-12-year-end-finance-sean-riley.md]]) Alka joined Val and chartered accountant [[wiki/people/sean-riley.md|Sean Riley]] to confirm the mechanics of the JVL Peru ~$2.5M bad-debt write-off (insolvency timing test; 2024-vs-2025; ~$14M loss carry-forward; June-30 Labs deadline; consolidated-statement state). Detail on [[wiki/topics/jvl-finance-back-office.md]]. [[raw/finance_alka_sean_reily_year-end-May-12-2025.md]]
 
+## May 30 2025 — Georgia foreign-tax-credit call ([[wiki/meetings/2025-05-30-finance-georgia-taxes.md]])
+
+Alka ("Alka/Elke") joined Val and chartered accountant [[wiki/people/sean-riley.md|Sean Riley]] for the Canadian-side follow-up to the May-27 US Georgia-tax review — the **non-refundable foreign-tax-credit** mechanics, transfer pricing to keep JVL Systems breakeven, and Peru/Mexico loss timing against the Georgia base. Detail on [[wiki/topics/jvl-finance-back-office.md]]. [[raw/finance_taxes_georgia-may-30-2025.md]]
+
 ## Sources
 
+- [[raw/finance_taxes_georgia-may-30-2025.md]]
 - [[raw/financial_alka_alignment-march-24-2025.md]]
 - [[raw/Finance - Alka.md]]
 - [[raw/finance_recurring-april-7-2025.md]]

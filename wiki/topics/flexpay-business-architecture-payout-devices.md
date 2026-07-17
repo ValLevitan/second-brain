@@ -3,7 +3,7 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS]
-source-count: 20
+source-count: 21
 open-commitments: 8
 open-questions: 3
 ---
@@ -195,6 +195,16 @@ A point-by-point action-list review ([[wiki/meetings/2025-05-29-ewallet-tito-fle
 - **GitHub repos:** SMIB and FlexPort repos are done (firmware incrementing; Alekseev commits artifacts); the **FlexPay Bitbucket→GitHub migration** is now targeted **~June 7** (was mid-June). Documentation (including SAS-protocol PDFs) is to live **in the repos** in Markdown; Val offered his 140-page-PDF→Markdown converter. **Full SAS** implementation is deferred to future versions ("could take a year — a five-year-plan in two days"), but the architecture must not preclude it. Irina raised correct firmware-version naming, **test-vs-production folders** on GitHub, and using a sub-version number instead of a build number. [[raw/e-wallet_tito_flex-pay_flex-port_implementation_update-may-29-2025.md]]
 - **Future hardware deferred:** [[wiki/people/genadi-peari.md|Genadi]] is waiting on Alekseev to free up to discuss the next hardware platform (**FlexTower and POS** / massive-FlexPort updates) — pushed ~2 weeks, not touched now. Next meeting Monday June 2, 7am. [[raw/e-wallet_tito_flex-pay_flex-port_implementation_update-may-29-2025.md]]
 
+## May 30 2025 — the commissioning/rollout plan and "Temporary Wallet is not the MVP"
+
+On the [[wiki/meetings/2025-05-30-qa-flexport-flexpay-plan.md|May-30 QA/rollout meeting]] Val laid out the concrete go-to-market path for the e-Wallet architecture and restated where it sits in the product strategy (extends the [[wiki/decisions/2025-05-27-release-ewallet-mvp-first.md|e-Wallet-MVP-first]] and [[wiki/meetings/2025-05-16-flexpay-commissioning-plan.md|May-16 commissioning]] plans). [[raw/qa_flex-port_flex-pay_plan-may-30-2025.md]]
+
+- **Completed vs pending (Temporary Wallet architecture).** Done: money transaction to Temporary Wallet on **FlexPort** and **FlexPay** (both directions), money acceptance, Temporary Wallet issuance + calculations + validations, **Incom card issuance**, USB firmware update. Pending: firmware update via **remote device / download**, **WSS-protocol logging** FlexPort↔FlexPay, all **TITO-architecture** functionality, and bill validators **beyond JCM UBA**. [[raw/qa_flex-port_flex-pay_plan-may-30-2025.md]]
+- **~30-day commissioning path.** (1) debug-version cards at Felipe's (cards already arrived); (2) **Incom creates a fictitious location** inside Felipe's Georgia office (an exception — usually not done in-office) with a real location number, on Incom's **production** environment; (3) run the full **positive money cycle** — insert cash → Temporary Wallet → play across machines → validate full/partial at FlexPay → money to Incom → card → **JVL Bank** commission → Incom invoices JVL. Testing **Temporary-Wallet-only first, then TITO** (a second test at JVL's own warehouse "location," possibly a third), then live. Purpose is proving the **money-transfer cycle with Incom**, not device verification. [[raw/qa_flex-port_flex-pay_plan-may-30-2025.md]]
+- **Scale + next devices.** Grow to **~10 locations by November**; then **Sept–Nov** begin testing the next hardware — **FlexPOS** (a mini point-of-sale computer, like a cash register), the **Flex Self-Dispensing Tower** (scans a Tito ticket between machines and dispenses a card), and the **Tito Server** (standalone box running a local server that validates ticket transactions) — each first at JVL's warehouse facility. [[raw/qa_flex-port_flex-pay_plan-may-30-2025.md]]
+- **Executive caveat — Temporary Wallet is not the market MVP.** Val: the Temporary Wallet architecture "далеко не пойдёт" — he's using it as a **vehicle to prove the Incom↔JVL bank money cycle**, not to roll out; and he isn't sure the **kiosk** is the product that will go to market either. This aligns with the May-27 "e-Wallet first even though it likely fails in-market" ruling. Val put **Pavel** in charge of verifying the full cycle **remotely** (won't delegate), and would send "one of the Evgenys" to Georgia only if an on-site engineer is needed; **Juan** receives the Incom reports by email (mailboxes made by Andrei). See [[wiki/organizations/incom.md]]. [[raw/qa_flex-port_flex-pay_plan-may-30-2025.md]]
+- **Full FlexPort with TITO / two client device types.** A closing exchange restated that JVL supports **two client device types — SMIB and FlexPort**; running FlexPort at full capability (with screen) in a TITO config on a machine with two full SAS ports would need the Evgenys to build a **third firmware variant**. [[raw/qa_flex-port_flex-pay_plan-may-30-2025.md]]
+
 ## History — why FlexPay started (2023–2024 origin)
 
 A research-synthesis document (an AI narrative built over JVL transcripts, dated to the May-27-2025 staging window — not itself a meeting transcript; treat its figures as second-hand summaries of 2023–2024 discussions) captures the origin of the whole FlexPay / GA-COAM initiative. [[raw/why_flex-pay_started-may-27-2025.md]]
@@ -246,3 +256,4 @@ A research-synthesis document (an AI narrative built over JVL transcripts, dated
 - [[raw/release_e-wallet_flex-pay_flex-port-may-27-2025.md]]
 - [[raw/why_flex-pay_started-may-27-2025.md]]
 - [[raw/e-wallet_tito_flex-pay_flex-port_implementation_update-may-29-2025.md]]
+- [[raw/qa_flex-port_flex-pay_plan-may-30-2025.md]]

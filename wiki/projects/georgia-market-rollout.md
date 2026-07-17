@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 19
+source-count: 20
 open-commitments: 1
 open-questions: 5
 ---
@@ -127,6 +127,12 @@ The May-28 reconvene ([[wiki/meetings/2025-05-28-jp-jackpot-class3-georgia-coam.
 - **The ruling.** JVL "made Georgia QAM fit" by altering Class-3 meter behaviour — wrong, and a latent compliance risk (if an operator lawfully set a jackpot limit, JVL "would immediately fall out of compliance"). Fix: implement **Class-3 meters/logic purely (the "constitution")**, then a **separate parallel logic** for Georgia-QAM **hands validation of jackpot payouts** (a jackpot evaluates the hand count → partial payout of the qualified amount, remainder stays in hand-pay), never touching the Class-3 meters (the meter set "has been working for decades… like rewriting a fundamental constitution"). **SAS 6.03** (~10 changes) is **not** being adopted for meters. Juan to draft requirements; Irina/Pavel to think it over; reconvene ~10 days. [[raw/jp_treatment-may-28-2025.md]]
 - **Georgia has no jackpots today** (amusement, not casino; per Felipe the IRS $1,200 limit doesn't apply), and the jackpot limit doesn't work on the GQL/Class-II products ("it's not C3 yet" — no hand logic). A small jackpot limit could be shipped via RIS for **Eclipse lab demonstration only**, production always no-limit. The Eclipse tester **Steve** is named here in full as **Steve Castro** (the concern: the next tester after him may re-raise the jackpot-limit question). [[raw/jp_treatment-may-28-2025.md]]
 
+## Felipe's May-29 market update — new competitor, upgrade-kit pricing, e-Wallet priority ([[wiki/meetings/2025-05-29-felipe-georgia-market-update.md]])
+
+- **New competitor:** at the annual **Gamal** show, **Konami** (distributed by **Bravery Gaming**) had its new cabinet approved — another Georgia entrant on top of the two that drove the expected ~40% revenue decline. **Eilers** floor-performance numbers were shared (Val and Felipe both distrust them). [[raw/felipe_georgia_market_update-may-29-2025.md]]
+- **Upgrade-kit pricing coaching:** operator **Selim Kwambuwala** (**Dixie Amusement**) pushed back on the ~$2,800–$3,000 conversion-kit price (Aristocrat gave its Tito upgrade + printers free). Val coached Felipe to defend the price, stop calling it an "upgrade" (the machine is obsolete by legislation, not upgraded), and argue the economics (an operator made ~$55k over 3 years on the software; JVL machines sell ~$13k vs $16–18k for Light & Wonder/Aristocrat). This elaborates [[wiki/decisions/2025-04-01-price-georgia-coam-upgrade-kits.md]]. [[raw/felipe_georgia_market_update-may-29-2025.md]]
+- **e-Wallet is the current priority:** Val told Felipe the in-house test with **Incom** (money moving through the banks) comes first; TITO architecture is a later phase. **Diamond Amusement** gets the new **Peach One** to test (Felipe meeting Sean + tech). [[raw/felipe_georgia_market_update-may-29-2025.md]]
+
 ## Open commitments
 
 - [x] Juan Martinez — retest Class-3 meter behaviour on the "Mega Hit One" T27/D27 machine at the Seminole lab (GLI-approved MH1 software) — **superseded/rolled into the May-28 review**: testing continued but is not yet conclusive (meter-posting still to be checked vs iView logs); the thread now runs through the Class-3-constitution ruling and Juan's requirements draft — [[raw/sas_intricacies_ga-coam-may-21-2025.md]] [[raw/jp_treatment-may-28-2025.md]]
@@ -162,3 +168,4 @@ The May-28 reconvene ([[wiki/meetings/2025-05-28-jp-jackpot-class3-georgia-coam.
 - [[raw/bdc_intro_to_flex-port_ga-coam-may-20-2025.md]]
 - [[raw/sas_intricacies_ga-coam-may-21-2025.md]]
 - [[raw/jp_treatment-may-28-2025.md]]
+- [[raw/felipe_georgia_market_update-may-29-2025.md]]

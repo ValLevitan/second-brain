@@ -3,7 +3,7 @@ type: topic
 title: Game art & animation production pipeline (comp art → Miranda)
 date: 2025-03-12
 aliases: [animation production, comp art pipeline, CompArt, storyboards, Spine, Blender, After Effects, placeholder build, Miranda scene assembly, art production stages, spike, sorting, symbol containers]
-source-count: 7
+source-count: 8
 ---
 
 # Game art & animation production pipeline (comp art → Miranda)
@@ -90,8 +90,13 @@ From the [[wiki/meetings/2025-05-08-game-design-review.md|May-8 review]] ([[wiki
 - **Math-emulator stalled a week.** The Miranda→math emulator (the Fortune-Foo-Paws first playable from the May-1 review) had **no update for a week** — Val was told graphic work is paused because **[[wiki/people/dmitriy-khandov.md|Dima]] is working with "Peryatka" on "Couch" only** (both transcribed, unclear referents — flagged) on more urgent work; Dima returns to the emulator after a major push lands the game in-browser. [[raw/game_design-may-8-2025.md]]
 - **Graphic team + Miranda:** Lena confirmed the graphic team **"love" Miranda** ("a good environment… unique… with additional features") from the online-games work, and that their feedback shaped how Miranda progressed this year. **"Kyva 2"** (transcribed; unclear title) is under construction and expected in-browser next week once **Sasha Ryadko** (a developer) resolves it. [[raw/game_design-may-8-2025.md]]
 
+## May 29 2025 — South Dakota six-pack in production; shared art resources
+
+On the [[wiki/meetings/2025-05-29-games-design-recap.md|May-29 games recap]] [[wiki/people/lena.md|Lena]] moved the **South Dakota VLT** six-pack into production (Bioliches in development, Gypsy Spirit concept/GDD done, production stories starting; **Natalia** and **Vitaly** on feature systems), pausing the Nebraska Golden-Husk/Golden-Fast assets (illustrations + 3D models already prepared). The recurring constraint: art resources (**Dima, Andy, Igor Metelski, Anton**) are **shared with Omni/Calle Ocho**, capping throughput; Vitaly records regulator videos. Production detail on [[wiki/projects/south-dakota-vlt-market.md]]. [[raw/games_design_recap-may-29-2025.md]]
+
 ## Sources
 
+- [[raw/games_design_recap-may-29-2025.md]]
 - [[raw/Game Development How animation are made with Lena - March 12-2025.md]]
 - [[raw/graphical_assets_redesign_omni_calle_ocho-apr-17-2025.md]]
 - [[raw/games_production-apr-18-2025.md]]

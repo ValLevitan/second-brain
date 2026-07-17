@@ -3,7 +3,7 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath]
-source-count: 11
+source-count: 13
 open-commitments: 2
 open-questions: 1
 ---
@@ -132,6 +132,22 @@ A Russian working session ([[wiki/meetings/2025-05-21-test-engineering-progress.
 - **The localization-dictionary gap.** The language tests need a **single source-of-truth dictionary** to compare against (not the code comparing to itself); the **Spanish** translations are missing/empty. The dictionary was prepared by **[[wiki/people/ihar-hrybko.md|Igor]]** (Hrybko, localization owner — surname transcription uncertain, Tier B) — the team must ask him in **what form** it exists so tests can pull from it. The backend+UI container the testers run was given by "**Женя**" (a Zhenya — which one unresolved, queued). [[raw/test_engineering_progress_report-may-21-2025.md]]
 - **Anton's framework primitives (POM + LGS models).** [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] built new test-framework primitives that **abstract LGS access** into models (e.g. `enable-language`, set language, set language for games via **tap-set-languages** requests) instead of raw LGS calls, plus **Page Object Model (POM)** classes — e.g. an `InitSetup` object exposing language selection and a theme toggle, with a sample test that flips the theme and asserts new≠old. Everything is still on **mocks**; he posts informative **pull-requests** (examples + docs) to the channel and tracks the object-implementation plan in **Jira**. Next-week action list (for a **Mon May 26, 7am ET** meeting): Irina finishes the footer tests; Ivan resolves his wait/XPath issues; Ivan+Alexei align on the dictionary with Igor; Vlad picks an LGS feature (and tells Anton which model to add); Anton finishes the Initial-Setup pages and more LGS abstraction models. [[raw/test_engineering_progress_report-may-21-2025.md]]
 
+## May 29 2025 — Jira/GitHub test linkage matured
+
+On the [[wiki/meetings/2025-05-29-jira-plans-maturity.md|May-29 Jira-plans maturity session]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel]], QA lead [[wiki/people/irina-makarych.md|Irina]]) the test-to-code plumbing was made concrete inside the broader Jira/GitHub split (decision on [[wiki/decisions/2025-04-03-jira-capability-level-and-github-mapping.md]]). [[raw/jira_plans_maturity-mat-29-2025.md]]
+
+- **Where tests live:** test **cases/suites** in **Jira via X-Ray**; test **code** in **GitHub** beside the product code, each test's ID referenced in the code. **GitHub Actions** run the automated tests and report results back to **X-Ray** (the "Test 360" testing project lives in GitHub); **manual** test procedures feed the same result store. A test must ship with the feature branch — "no test, no pull." [[raw/jira_plans_maturity-mat-29-2025.md]]
+- **QA into TypeScript:** the QA team is moving off pure manual testing into writing code; **Anton** already built a primitive automated test (a multilanguage-button check) to extend. Val wants those visible in X-Ray. [[raw/jira_plans_maturity-mat-29-2025.md]]
+- **GitHub Issues for engineering discussion:** enabled per repo so technical/code-health talk (stale branches, etc.) leaves Jira — a slot-machine setup-screen example (toggle a switch → setup field appears → Irina writes the test) illustrated the feature/test cadence. Val booked a **June 5, 9 am** demo of live tests in the repo and X-Ray. [[raw/jira_plans_maturity-mat-29-2025.md]]
+
+## May 30 2025 — FlexPort/FlexPay QA-plan structure in X-Ray
+
+On the [[wiki/meetings/2025-05-30-qa-flexport-flexpay-plan.md|May-30 QA/rollout meeting]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel]], QA lead **Irina** "Ира") Irina walked the concrete X-Ray test-plan structure that implements the [[wiki/meetings/2025-05-20-flexpay-flexport-test-plan.md|May-20 "split into separate plans"]] direction. [[raw/qa_flex-port_flex-pay_plan-may-30-2025.md]]
+
+- **X-Ray now lives per project** (system changed): test cases live in the **FlexPayment (FP)** developer project they test (per Aaron's rule that tests live with the code); the **QRM (QA & Release Manager)** project holds test-documentation tasks and release items (e.g. **QRM-338** = test creation; **IP-884** = the FlexPort "Wallet" release ISO). [[raw/qa_flex-port_flex-pay_plan-may-30-2025.md]]
+- **Three test plans for the e-Wallet variant:** a **FlexPort** plan (~8 cases), a **FlexPay** plan (~27 cases, plus ~27 more + ~30 FlexPort), and a combining plan — all three must pass "green" to certify the e-Wallet configuration. Test **sets** within a plan (ticket creation, setup, reports, **card issuance**) can be moved to a future device's plan when a **Tito server / Tower** replaces FlexPay. Test cases are **>50% written**, needing more for **partial redemption**. [[raw/qa_flex-port_flex-pay_plan-may-30-2025.md]]
+- **QA-lead identity note:** "Ира/Ирина" is routed to **Makarych** (consistent with the May-20 test-plan meeting); the transcribed-surname ambiguity with [[wiki/people/irina-shishko.md|Shishko]] stays queued Tier A. [[raw/qa_flex-port_flex-pay_plan-may-30-2025.md]]
+
 ## Open commitments
 
 - [ ] Val — set up a ~2-hour testing-architecture meeting with Pavel, Irina, Anton and Aaron — due next week (of Jan 15) — [[raw/integration_and_testing_procedures_january_15_2025.md]]
@@ -169,3 +185,5 @@ The earliest captured root of this effort — a Bitbucket-era progress review be
 - [[raw/github_branch_structure-may-19-2025.md]]
 - [[raw/flex-port_flex-pay_test_plan-may-20-2025.md]]
 - [[raw/test_engineering_progress_report-may-21-2025.md]]
+- [[raw/jira_plans_maturity-mat-29-2025.md]]
+- [[raw/qa_flex-port_flex-pay_plan-may-30-2025.md]]

@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna]
-source-count: 27
+source-count: 28
 open-commitments: 1
 ---
 
@@ -113,8 +113,13 @@ On the bi-weekly games-design tools session ([[wiki/meetings/2025-05-07-games-de
 
 On the [[wiki/meetings/2025-05-08-game-design-review.md|May-8 review]] Lena ("Liana"/"Lena" in the transcript — same person) reported the Nebraska **Golden Cask**/Golden Husk bonus production: finalising the game list, the corn **fan/scale transition** animation, adjusting the **Money Birds / Cash Cats** logos, and the first **Crazy Spins** video recording. She confirmed the graphic team **love Miranda**, and flagged the math-emulator stall (Dima pulled onto other work). See [[wiki/topics/game-art-animation-production-pipeline.md]]. [[raw/game_design-may-8-2025.md]]
 
+## May 29 2025 — South Dakota six-pack art + Calle Ocho colors ([[wiki/meetings/2025-05-29-games-design-recap.md]])
+
+On the games recap Lena ("Elena") reported the **South Dakota VLT** production moving: **Bioliches** in development and **Gypsy Spirit** concept/GDD done (production stories starting next day), with **Natalia** and **Vitaly** on feature systems; she's using **smaller gems**. She and [[wiki/people/efim-podvoiski.md|Efim]] work **Queen of Luxor**; some **Golden Husk/Golden Fast** Nebraska assets (illustrations, 3D models) are prepared but paused for SD priority. She supplied the **Photoshop colors** for the customer's life-size **Calle Ocho rooster** statue. Resources: **Dima and Andy** and **Igor Metelski** ("Mitevsky") are locked on Omni/Calle Ocho, so none free for Colombia. See [[wiki/topics/game-art-animation-production-pipeline.md]] and [[wiki/projects/south-dakota-vlt-market.md]]. [[raw/games_design_recap-may-29-2025.md]]
+
 ## Sources
 
+- [[raw/games_design_recap-may-29-2025.md]]
 - [[raw/github _structure-pavel-aaron-andrei.md]]
 
 - [[raw/fp-7_performance_analysis_january_13_2025.md]]

@@ -2,8 +2,8 @@
 type: project
 title: South Dakota VLT market entry
 date: 2025-01-22
-aliases: [South Dakota, SD VLT, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950, V43, D27, SD cap]
-source-count: 8
+aliases: [South Dakota, SD VLT, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950, V43, D27, SD cap, Bioliches, Gypsy Spirit, Crazy Colt, Queen of Luxor, Liberty Spin, Rodeo Spin]
+source-count: 9
 ---
 
 # South Dakota VLT market entry
@@ -75,6 +75,14 @@ The Jan-7 "pursue MG Oil" decision finally produced its introduction: on **May 1
 
 On the [[wiki/meetings/2025-05-15-game-design-nebraska-south-dakota.md|May-15 game-design review]] (mostly about Nebraska — see [[wiki/projects/nebraska-skill-market.md]]) [[wiki/people/juan-martinez.md|Juan]] added that, on new feedback, JVL now wants to submit a **vertical V43 cabinet for South Dakota**, alongside the Nebraska **D27** — so both form factors are in motion. SD is kept a **distinct math track** from Nebraska: SD has **introduced CAP** (win caps) and its wins run **even lower than Georgia**, so "what's good for South Dakota, mathematically" is *not* automatically good for Nebraska. [[raw/game_design_nebraska_south_dakota-may-15-2025.md]]
 
+## The SD VLT six-pack — production status (May 29 2025)
+
+On the [[wiki/meetings/2025-05-29-games-design-recap.md|May-29 games recap]], [[wiki/people/lena.md|Lena]] reported South Dakota is the **higher priority** over Nebraska (material now in hand). The SD VLT six-pack and statuses given: [[raw/games_design_recap-may-29-2025.md]]
+
+- **Bioliches** — in **development** (screens designed, production opened; double reels on free spins). **Gypsy Spirit** — concept/GDD done, production stories starting. Both use "smaller gems." [[raw/games_design_recap-may-29-2025.md]]
+- **Queen of Luxor** (GD626) — in **design** (Lena finishing screens; [[wiki/people/efim-podvoiski.md|Efim]] on the math — a reel-three pick bonus, 1/2/3 "onks" set the picks, plus free spins on reels 1–3). **Crazy Colt** — top wins being capped for market compliance; **Liberty Spin** and **Rodeo Spin** — still to-do. [[raw/games_design_recap-may-29-2025.md]]
+- Art resources (**Dima, Andy, Igor Metelski**, **Anton**) are shared with Omni/Calle Ocho, limiting SD/Colombia throughput; **Vitaly** records regulator videos. No Spanish translation needed for SD. [[raw/games_design_recap-may-29-2025.md]]
+
 ## Who
 
 - Driven by [[wiki/people/val-levitan.md|Val]] with [[wiki/people/juan-martinez.md|Juan]] (regulator/operator relationship, field side) and [[wiki/people/pavel.md|Pavel]] (Minsk software); [[wiki/people/irina-makarych.md|Irina]] on printer testing and GLI diffs, [[wiki/people/sebastian.md|Sebastian]] on field service, [[wiki/people/ivan.md|Ivan]] on GLI scheduling. **Lonnie** is the SD lottery-lab tester; **"Alani"** appears as the SD lottery (supplied the SAS adapter, requested the permit-number rename) — whether Alani is the lottery entity or a person there is unclear (see Owner Decisions). [[raw/sd_vlt_recap-jan-22-2025.md]] [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
@@ -89,3 +97,4 @@ On the [[wiki/meetings/2025-05-15-game-design-nebraska-south-dakota.md|May-15 ga
 - [[raw/game_design_review-may-1-2025.md]]
 - [[raw/mg_oil_south_dakota_intro-may-13-2025.md]]
 - [[raw/game_design_nebraska_south_dakota-may-15-2025.md]]
+- [[raw/games_design_recap-may-29-2025.md]]

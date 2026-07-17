@@ -3,7 +3,7 @@ type: project
 title: JVL 2025 strategic plan and Jira roadmap
 date: 2026-07-12
 aliases: [2025 plan, strategic plan 2025, Jira value stream, distribution infrastructure, DevSecOps grooming, ITSM, GitHub Jira alignment]
-source-count: 15
+source-count: 16
 open-commitments: 1
 open-questions: 1
 ---
@@ -101,6 +101,14 @@ On the ~162-min May-9 taxonomy session with [[wiki/people/aaron.md|Aaron]] ([[wi
 
 On the ~207-min May-12 session ([[wiki/meetings/2025-05-12-product-discovery-double-diamond-aaron.md]]; internally duplicated — facts once) Aaron taught Val the **discovery → capability → use-case → requirement → feature → story** flow and the **double-diamond** (discover/define/develop/deliver), using **Jira Product Discovery** (impact/effort scoring; the successor to the old epic-hypothesis Confluence templates). **No adoption ruling** — conceptual coaching; Val's specific unsolved gap is turning capabilities into short testable features with tiny capacity. Detail on [[wiki/decisions/2025-04-03-jira-capability-level-and-github-mapping.md]]; the FlexPay worked example on [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/theory_product_discovery_process-may-12-2025.md]]
 
+## May 29 2025 — Jira Plans maturity: drop Task/Initiative, use GitHub Issues for engineering
+
+On the [[wiki/meetings/2025-05-29-jira-plans-maturity.md|May-29 Jira-plans maturity session]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel]], [[wiki/people/irina-makarych.md|Irina]]) the capability arc moved toward a cleaner two-tool split — full detail on [[wiki/decisions/2025-04-03-jira-capability-level-and-github-mapping.md]]. [[raw/jira_plans_maturity-mat-29-2025.md]]
+
+- **Jira = product domain.** Hierarchy trimmed to **Product → Capability → Feature → Story**; Val wants to **remove the Task and Initiative layers** ("больше заданий в JIRA — готово"; "я хочу избавиться от инициативы"), keeping Initiative only where a market like Florida genuinely warrants one. This advances the May-5–9 "capability replaces the product-line level / initiative becomes the product" direction (still not a locked Jira-config refactor). [[raw/jira_plans_maturity-mat-29-2025.md]]
+- **GitHub = engineering domain.** Enable per-repo **GitHub Issues** for technical/code-health discussion (branch cleanup, "stale branch" issues) so those conversations leave Jira; Jira holds only capability/feature/user-story. Demonstrated live by enabling Issues on the "Omni LAN-based framework" repo and filing a stale-branch issue for **FRAME-476**. [[raw/jira_plans_maturity-mat-29-2025.md]]
+- **Test linkage.** **X-Ray test cases in Jira** are referenced from **test code in GitHub**; GitHub **Actions** run the tests and report results back to X-Ray (manual test procedures feed the same results). QA team is learning TypeScript to write these. Val booked a **June 5, 9 am** demo. [[raw/jira_plans_maturity-mat-29-2025.md]] See [[wiki/topics/test-automation-strategy.md]]. [[raw/jira_plans_maturity-mat-29-2025.md]]
+
 ## Open questions
 
 - Should the GitHub organization map to the Jira **initiative** or the **value stream**, be **flattened into one org**, and should Jira drop its initiative level? (Mar 31 homework; Apr 1–3 arc introduced the capability level but left the org-structure question open — Aaron for flatten, Val against.) — [[raw/github_jira_alignment-march-31-2025.md]] [[raw/git_jira_correlation-april-1-2025.md]]
@@ -126,3 +134,4 @@ On the ~207-min May-12 session ([[wiki/meetings/2025-05-12-product-discovery-dou
 - [[raw/github_jira_setup-april-3-2025.md]]
 - [[raw/product_capability_feature_development-may-9-2025.md]]
 - [[raw/theory_product_discovery_process-may-12-2025.md]]
+- [[raw/jira_plans_maturity-mat-29-2025.md]]
