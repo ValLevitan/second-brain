@@ -3,7 +3,7 @@ type: topic
 title: InfoSec, secrets management and server infrastructure
 date: 2025-03-19
 aliases: [secrets management, enterprise secrets manager, DevSecOps, Critical Insight, John Luke Peck, Minsk servers, cloud migration costing, Zabbix]
-source-count: 4
+source-count: 5
 open-commitments: 2
 open-questions: 1
 ---
@@ -72,9 +72,17 @@ The follow-on session ([[wiki/meetings/2025-05-07-it-department-maturity-secrets
 - **Homework:** write the risks, a policy, and a list of **policy** (not product) requirements; research each product against the requirements (a day per product); score once and commit; then trial the winning platform before buying. Next meeting in two weeks. This continues, not contradicts, the Apr-16 "pick" and Apr-30 "define the why" — the product remains uncommitted; see [[wiki/decisions/2025-04-16-adopt-azure-microsoft-secret-server.md]]. [[raw/it_department_maturity-may-7-2025.md]]
 - **Val's operating stance** (recorded on [[wiki/topics/jvl-operating-principles.md]]): he does not want a chief-strategist layer for a 30-person shop, can get "80% success" himself, and is unworried about losing "$1,000 a month" on a slightly-wrong product — his fear is stalling ("Alabama mud … one tire spins, the other does nothing"). [[raw/it_department_maturity-may-7-2025.md]]
 
+## May 12 2025 — the ActiveMQ / White Area Host botnet vulnerability
+
+A distinct application-security thread (not secrets management): the **White Area Host** application (transcribed "освах"/"косвах" = **CASWH** / "CasinoLock" — the JVL server app machines talk to, still on SVN) runs an **old ActiveMQ** message broker with a known vulnerability. [[wiki/people/dmitri-chudinov.md|Dima Chudinov]] with [[wiki/people/pavel.md|Pavel]] and [[wiki/people/andrey-bosik.md|Andrei Bosik]] and [[wiki/people/val-levitan.md|Val]] worked the fix ([[wiki/meetings/2025-05-12-activemq-white-area-host-upgrade.md]]). [[raw/activeMQ_upgrade-may-12-2025.md]]
+
+- **The exploit:** the vulnerability does **not** give an attacker filesystem or deeper system access (Dima had "cut off everything possible" previously) but lets them **load and execute a file in RAM** — enough to make JVL's machines part of a **botnet** generating "parasitic timing." It **can't be reproduced in the test environment**. Interim mitigations already in place: CASWH runs only ~**3 hours/day** and the exploited protocols were blocked (though an attacker can just change the port). [[raw/activeMQ_upgrade-may-12-2025.md]]
+- **The fix (ruling):** upgrade ActiveMQ to a version that closes the vulnerability *and* still lets fielded machines connect (the machine/client side can't be changed), and **split ActiveMQ out of the Java app** into its own application; Docker-container-with-3-hour-restart is the fallback if no compatible fixed version exists. Full detail on [[wiki/decisions/2025-05-12-upgrade-activemq-split-from-white-area-host.md]]. [[raw/activeMQ_upgrade-may-12-2025.md]]
+
 ## Sources
 
 - [[raw/info_security_server_infrastructure.md]]
 - [[raw/it_automation_schemas_secrets_server-apr-16-2025.md]]
 - [[raw/secrets_server-apr-30-2025.md]]
 - [[raw/it_department_maturity-may-7-2025.md]]
+- [[raw/activeMQ_upgrade-may-12-2025.md]]

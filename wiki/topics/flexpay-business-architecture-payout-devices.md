@@ -3,7 +3,7 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS]
-source-count: 9
+source-count: 10
 open-commitments: 6
 open-questions: 3
 ---
@@ -107,6 +107,15 @@ A [[wiki/people/val-levitan.md|Val]] ↔ [[wiki/people/genadi-peari.md|Genadi]] 
 - **Dispenser order + supply:** the dispensing devices weren't shipped on time (returned after a 3-day location trial); order split **2 to Minsk, 3 to Toronto** ([[wiki/people/mikhail-perelman.md|Misha]] placing it, payment in) — the **cheaper ~450-card** unit; one extra for Alekseev's development ("довольно большой" payment on **5 units**). A **standalone server** still needs building separately, with electronics changes for it; the industrial boards were ordered but not shipped (vendor went on the **May holidays**) — expected this week. [[raw/flex_port_hardware_design_evolution-may-6-2025.md]]
 - **Staffing:** "**Sasha**" to help Genadi; **Flex Curve** work paused to prioritize the tower. [[raw/flex_port_hardware_design_evolution-may-6-2025.md]]
 
+## May 12 2025 — FlexPay decomposed as a capability (product-discovery worked example)
+
+On the May-12 product-discovery teaching session ([[wiki/meetings/2025-05-12-product-discovery-double-diamond-aaron.md]]) [[wiki/people/aaron.md|Aaron]] and [[wiki/people/val-levitan.md|Val]] used **FlexPay** as the running example to demonstrate breaking a product idea into capabilities → use cases → requirements → features. Durable product content (the process theory itself is on [[wiki/decisions/2025-04-03-jira-capability-level-and-github-mapping.md]]): [[raw/theory_product_discovery_process-may-12-2025.md]]
+
+- **The core capability** was refined from "flexible payment processing **system**" to a verb-phrased capability: **"able to send and receive funds easily and without disruption"** (Val: "system is not a capability"). Supporting/adjacent capabilities mapped out: **the machine transacts multiple payment formats**; **pays out in the player-preferred format**; **accepts funds** (two-way); **the player can view credits easily and without disruption**; and machine-side hardware capabilities — **receive/accept physical currency bills via a bill recycler** and **receive/accept voucher (TITO) tickets**. Aaron split these into **player-oriented** vs **machine-layer** capabilities. [[raw/theory_product_discovery_process-may-12-2025.md]]
+- **Payment methods in scope:** cash, coins, **AFT** (Val corrected "EFT" to "AFT" — covers most electronic methods), **Zelle** (kept only to show a unique transfer), and vouchers; credit-card/PayPal/coupons were removed as redundant. "Without disruption" = ergonomic, player-facing dashboard; the player never leaves their chair; everything shows as **credits** on the machine. [[raw/theory_product_discovery_process-may-12-2025.md]]
+- **Bill recycler = Cash Code.** For physically sending/receiving currency, Val referenced the **bill-to-bill (B2B) recycler** — a device that accepts bills and dispenses bills in multiple denominations via recycling cassettes — and noted he **once owned a company called Cash Code** that developed exactly this device; **JCM** makes a similar one. [[raw/theory_product_discovery_process-may-12-2025.md]]
+- **Sample user story** (feature level): "As a player, I want to insert cash into a machine so I can start playing games immediately." [[raw/theory_product_discovery_process-may-12-2025.md]]
+
 ## Open commitments
 
 - [ ] Igor Starovoytov — draw the tower's industrial design (dimensions; standalone view + a between-machines view; gray/milky, no lighting, 7-inch front screen) — due ~Wed/Thu Apr 16–17 — [[raw/fkex_pay_evolution-apr-16-2025.md]]
@@ -133,3 +142,4 @@ A [[wiki/people/val-levitan.md|Val]] ↔ [[wiki/people/genadi-peari.md|Genadi]] 
 - [[raw/flex_tower_spacial_design_review-may-1-2025.md]]
 - [[raw/flex_tower_pos_form_fit_design-may-2-2025.md]]
 - [[raw/flex_port_hardware_design_evolution-may-6-2025.md]]
+- [[raw/theory_product_discovery_process-may-12-2025.md]]

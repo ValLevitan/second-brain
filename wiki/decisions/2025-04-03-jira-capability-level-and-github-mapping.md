@@ -3,7 +3,7 @@ type: decision
 title: Insert a "capability" level in Jira as the executive-demonstrable unit mapped to GitHub feature branches
 date: 2025-04-03
 aliases: [capability level, Jira capabilities, capability vs feature, GitHub Jira mapping, feature branch capability, repository is a product, repository is an artifact, no test no pull, one week feature branch, capabilities bundle of features]
-source-count: 9
+source-count: 11
 status: active
 open-questions: 2
 ---
@@ -73,6 +73,24 @@ A May-8 Aaron↔Val session (three recorded segments — [[wiki/meetings/2025-05
 
 (A background research essay on the generic Product-Capability-Feature evolution was generated alongside this thread — `raw/product_capability_feature_jira-may-8-2025.md` — but it is not a transcript and contains no JVL-specific durable facts; treated as a §12 derived-document and not ingested for content.)
 
+## May 9 refinement — the value-stream→…→subtask tree and the rename-Feature→Capability direction
+
+On the May-9 taxonomy session ([[wiki/meetings/2025-05-09-product-capability-feature-taxonomy-aaron.md]]; ~162 min, internally duplicated — facts once) [[wiki/people/val-levitan.md|Val]] and [[wiki/people/aaron.md|Aaron]] built the top of the hierarchy from scratch. Still **no formal Jira-config ruling** — direction only. [[raw/product_capability_feature_development-may-9-2025.md]]
+
+- **The definitions Val locked for himself:** a **product** is "something you can sell / monetize"; if you can't monetize it, it is only a **component** of something you can. A **value stream** is "the channel or class of products" producing a continuous revenue stream. **Core technology** is an abstraction of components that make up a product — *not* a value stream unless you can sell it. [[raw/product_capability_feature_development-may-9-2025.md]]
+- **Val's descriptive tree:** **value stream → product → capability → feature → story → subtask** (Val questioned whether an **initiative** level is needed and left it aside; "even the story is less important" and subtask least). [[raw/product_capability_feature_development-may-9-2025.md]]
+- **The rename that's happening in Jira:** Aaron described the in-progress move — "we're going back and **renaming Feature to Capability**, and then **Stories make up a Capability**, and then we have a **parallel issue type at the Capability level called Feature**" for the deployment/engineering side (Epic and Feature sit at the same level; a bug/test attaches to a feature). Recorded as **evolution of this decision's direction**, not a new formal ruling. [[raw/product_capability_feature_development-may-9-2025.md]]
+- **Legislative markers and Class 2/3/HHR are requirements, not products** (Val corrected himself). A game is only "in a market's portfolio" if it is ready + certified for that market (a Nebraska-ready game isn't in the Florida portfolio); **Class 3 games are reusable** across markets, Class 2 needs per-market legislative adaptation (the extra cost). [[raw/product_capability_feature_development-may-9-2025.md]]
+- Val wants the resulting Jira-config document handed to **"Andre and others"** to do the work; the taxonomy + product list is on [[wiki/projects/jvl-2025-plan-and-jira-roadmap.md]]. [[raw/product_capability_feature_development-may-9-2025.md]]
+
+## May 12 refinement — the discovery→capability→feature→story chain (double diamond)
+
+On the May-12 product-discovery session ([[wiki/meetings/2025-05-12-product-discovery-double-diamond-aaron.md]]; ~207 min, internally duplicated — facts once) Aaron taught the full flow from idea to code. **No structural ruling** — Val remained "foggy" specifically on **how to get from a good-enough set of capabilities to features**, and this was conceptual coaching (see the process detail on [[wiki/projects/jvl-2025-plan-and-jira-roadmap.md]]). [[raw/theory_product_discovery_process-may-12-2025.md]]
+
+- **The funnel / two-diamond model restated:** ideas are captured constantly at the leadership/ideation level (Val's example person: [[wiki/people/juan-martinez.md|Juan]]); the ones that matter enter a **discovery project** (trial, score, get consensus) → decide whether they become a new/existing product; then "the explosion of defining requirements and capabilities" happens. Aaron mapped **market-observation → hypothesis → research → concept/test/refine/scale/implement** onto the **double diamond**, and pitched **Jira Product Discovery** as a slimmed-down, connected version of the old **epic-hypothesis** Confluence templates ("applied science… scientific method assigned to improving your product"), with an **effort-vs-impact** scoring graph and an economic/ROI component. [[raw/theory_product_discovery_process-may-12-2025.md]]
+- **The worked capability→feature mapping (FlexPay):** Aaron and Val decomposed a "flexible payment" capability into supporting capabilities, use cases, requirements and features — the durable product-side of that example is on [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. The teaching point: you connect a capability's key words (send/receive/easily/without-disruption) to supporting capabilities and use cases, and the "negative space" between them becomes the **features**; a **user story** example — "As a player, I want to insert cash into a machine so I can start playing games immediately." [[raw/theory_product_discovery_process-may-12-2025.md]]
+- **Val's stated gap:** he is ~65% comfortable with capability/use-case/requirement but doesn't know how to **funnel** them into short, testable, sprint-sized **features** given JVL has "one and a half men" of capacity — he wishes he had a VP of engineering/architect who could take that off him, and (see [[wiki/people/aaron.md]]) resolved to hire a Miami-based product manager for it. [[raw/theory_product_discovery_process-may-12-2025.md]]
+
 ## Open questions
 
 - **Restructure Jira per the May-5–6 direction?** Should **capability** replace the product-line level, the **initiative become the product**, and the top levels (value stream / initiative / product) move into **Jira Product Discovery** projects? Direction agreed in principle, no ruling; a graph + refactor plan deferred. — [[raw/feature_granularity_definition_aaron-may-5-2025.md]] [[raw/feature_defining_jira-may-6-2025.md]] [[raw/feature_reflection_jira-may-6-2025.md]]
@@ -89,3 +107,5 @@ A May-8 Aaron↔Val session (three recorded segments — [[wiki/meetings/2025-05
 - [[raw/feature_reflection_jira-may-6-2025.md]]
 - [[raw/discovery_tracking_capabilities_compass_jira-may-8-2025.md]]
 - [[raw/product_capability_feature-may-8-2025.md]]
+- [[raw/product_capability_feature_development-may-9-2025.md]]
+- [[raw/theory_product_discovery_process-may-12-2025.md]]

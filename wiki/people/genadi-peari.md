@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena]
-source-count: 27
+source-count: 28
 ---
 
 # Genadi Peari
@@ -90,6 +90,10 @@ On a hardware working call with Val ([[wiki/meetings/2025-05-06-flex-tower-hardw
 
 On the FlexPort hardware call ([[wiki/meetings/2025-05-07-flexport-two-machines-tito-milestones.md]]) Genadi confirmed the floor state (four FlexPay units assembled, three in use; two slot machines checked on Georgia 1.14) and flagged that JVL has **only one spare FlexPort and needs another**; he is to arrange **temporary power** for the FlexPorts (a blank/simulation "iO board"). See [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]]. [[raw/flex_port_hardware_update-may-7-2025.md]]
 
+## May 10 2025 — copied to protect Yavorski's workshop machines
+
+On [[wiki/people/eugine-yavorski.md|Yavorski]]'s weekend debug update ([[wiki/meetings/2025-05-10-flexport-flexpay-debug-update.md]]) Val told Yavorski to email **[[wiki/people/arkady-batson.md|Arkady]] and Genadi (copy Val)** before going into the office over the weekend, so the machines set up for him in the workshop aren't moved or cleaned off his bench. [[raw/flex-port_flex-pay_update-may-10-2025.md]]
+
 ## Sources
 
 - [[raw/fp-7_performance_analysis_january_13_2025.md]]
@@ -119,3 +123,4 @@ On the FlexPort hardware call ([[wiki/meetings/2025-05-07-flexport-two-machines-
 - [[raw/flex_tower_pos_form_fit_design-may-2-2025.md]]
 - [[raw/flex_port_hardware_design_evolution-may-6-2025.md]]
 - [[raw/flex_port_hardware_update-may-7-2025.md]]
+- [[raw/flex-port_flex-pay_update-may-10-2025.md]]

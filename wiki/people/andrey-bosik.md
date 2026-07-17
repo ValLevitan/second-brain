@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 42
+source-count: 43
 open-commitments: 5
 ---
 
@@ -122,6 +122,10 @@ In the Omni daily Andrei confirmed the GitHub repo-naming changes (renamed the a
 
 On the IT-maturity session ([[wiki/meetings/2025-05-07-it-department-maturity-secrets.md]]) Andrei (transcribed "Andre") is the second IT person [[wiki/people/aaron.md|Aaron]] coaches on the secret-server evaluation; he raised the requirement for a user-facing **web UI for self-managed, role-based secrets** integrating with Microsoft Entra. Belarus-based IT/DevOps context → this Andrei per the owner registry. See [[wiki/topics/infosec-and-server-infrastructure.md]]. [[raw/it_department_maturity-may-7-2025.md]]
 
+## May 12 2025 — ActiveMQ / White Area Host upgrade
+
+On the ActiveMQ security-upgrade call ([[wiki/meetings/2025-05-12-activemq-white-area-host-upgrade.md]]) Andrei Bosik (DevOps) is present, checks Jira permissions during the live product-hierarchy cleanup, and is named to provide **OS-layer help** on separating/upgrading ActiveMQ (the hands-on work assigned to an engineer transcribed "Sergei Sandriev"). See [[wiki/decisions/2025-05-12-upgrade-activemq-split-from-white-area-host.md]]. [[raw/activeMQ_upgrade-may-12-2025.md]]
+
 ## Sources
 
 - [[raw/GitHub repository structure.md]]
@@ -167,3 +171,4 @@ On the IT-maturity session ([[wiki/meetings/2025-05-07-it-department-maturity-se
 - [[raw/echo-home_jira-service-apr-24-2025.md]]
 - [[raw/secrets_server-apr-30-2025.md]]
 - [[raw/it_department_maturity-may-7-2025.md]]
+- [[raw/activeMQ_upgrade-may-12-2025.md]]

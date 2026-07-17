@@ -3,7 +3,7 @@ type: topic
 title: JVL machine and cabinet lineup
 date: 2026-07-12
 aliases: [Flex cabinets, Altera, Maple, Echo, Flex S, Flex C, Flex V42, Flex V42/C, cabinets, VLT, video lottery terminal, Flex SD27, V43, C10-VLOT-TERM-RU, Epic 950, FutureLogic, FlexPort, FlexPay, Nico, Miranda, Omni, Florida Ruta, CPU kit, coffin, iOBoard, Bally iview, Diamondlink, nano-optics, JCM, dual SAS, HAL, FireEyes Wink, Dragon Supreme, Kai-Ocho, Maneki-neko, HG-6, kiosk, Incom, TITO, SMIB, SAS server, La Rosa, El Jaguar, Golden Husk, 5X Peppers, Cold Cash, Pink Princess, Jungle Jaguar, Dutch Mill, Crazy Spins, Midnight Money, Spicy Fruits, Clover Fortune, Jinji Du Li, Cash Kittens, Rosita's Cantina, Estilo Bling, Kaiju Omni]
-source-count: 33
+source-count: 35
 ---
 
 # JVL machine and cabinet lineup
@@ -33,6 +33,20 @@ A running glossary of the machine models, cabinet types, and product families th
   - **TITO for non-JVL machines / FlexPort as a SMIB (Mar 28):** to let FlexPay issue and validate **TITO** (ticket-in/ticket-out) tickets at locations with **no JVL machines**, JVL will mount **FlexPort inside** each machine, wired to the machine's **SAS port** on one side and via **CAT6/router** to FlexPay on the other — effectively turning FlexPort into a **SMIB (Slot Machine Interface Board)**. A **"Flex SAS server"** (software proxy, "FlexServer," split between FlexPort and FlexPay) converts **SAS ↔ the existing VCC/WSS protocol** and registers machines / validates + generates TITO ticket numbers; the WSS protocol gains at least one new command for issuing a ticket. Blocker on the cheaper alternative: SAS needs **9-bit** serial, and most Ethernet-to-RS232 adapters only do 8-bit. Full detail on [[wiki/decisions/2025-03-28-flexpay-support-tito-non-jvl-locations.md]] and [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]]. [[raw/scope_gap_tito_flex_pay-march-28-2025.md]]
   - **FlexPort ↔ FlexPay integration (Feb 25):** debugging continued — the WebSocket connection **drops despite a 1-second ping-pong keepalive** (cause unknown; pings absent from logs). Val settled the **abandoned-cash-out** rule (cancel unclaimed ticket → pull credits → report "not claimed" to FlexPay → restore on paper at audit) and made **detailed comms logging a formal requirement**. Ship config: **~4 machines per FlexPay**, 4 FlexPay + ~15 ports; FlexPort goes into JVL's own machines too for uniformity, working across all software including old. See [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]] and [[wiki/meetings/2025-02-25-embedded-group-flexport-flexpay.md]]. [[raw/Embedded_Group_alignment_and_update_2025-02-25.md]]
   - **FlexPort ↔ FlexPay integration (Feb 11):** the FlexPort module connects to the FlexPay kiosk over a **WebSocket** (handshake → device registration). Agreed logic: the machine **accepts no money or tickets until the device registers** with FlexPay; cash-out is only via FlexPay (the old RS-485/Mutagus path is fully disabled when FlexPort is installed); a bad ticket or 3 wrong PIN attempts sends the player to an administrator, with a ~15-minute ticket lockout to be added FlexPay-side. A test-utility showed a WebSocket 200 instead of the expected 101 upgrade — to be retested against a real FlexPay kiosk. Production shipment likely needs ~1 more week after FlexPay comes up. The payment processor **Incom** supplies the test server; a production contract was received and awaits Val's signature; [[wiki/people/felipe-miranda.md|Felipe]] ("Filippo") to host a multi-machine production test in his office. See [[wiki/meetings/2025-02-11-embedded-group-flexport-flexpay.md]]. [[raw/Embedded_Group_alignment_and_update_2025-02-11.md]]
+
+## Product-family definitions (Val's May-9 2025 taxonomy)
+
+On the May-9 taxonomy session ([[wiki/meetings/2025-05-09-product-capability-feature-taxonomy-aaron.md]]) Val gave short definitions for each Flex product as he read out his canonical product list (see [[wiki/projects/jvl-2025-plan-and-jira-roadmap.md]]). Recorded as-stated: [[raw/product_capability_feature_development-may-9-2025.md]]
+
+- **Echo** — a **countertop** (physical countertop machine); Val corrected an "it's a legacy game" phrasing to "it's a countertop." [[raw/product_capability_feature_development-may-9-2025.md]]
+- **FlexS** — "S" = sporty / economical / **street**; the current product in use in **Georgia**. **FlexC** — "C" = more classic, more elaborate **casino**. [[raw/product_capability_feature_development-may-9-2025.md]]
+- **FlexPort** — the **adapter**: the AFT with a display, installed **inside** a machine. **FlexSMIB** — a **slot-machine interface board** with **no user-facing interface** — an economy conversion board that "takes the **SAS protocol** and converts it into **WSS**." [[raw/product_capability_feature_development-may-9-2025.md]]
+- **FlexTower** — a self-serving **card-dispensing tower**. **FlexPOS** — **point-of-sale hardware** (not software). **FlexServer** — a standalone **TITO server** / ticket-in-ticket-out **validation server**. **FlexPay** — the standalone payment kiosk (vs FlexPort, the embedded/add-on form). [[raw/product_capability_feature_development-may-9-2025.md]]
+
+## White Area Host (CASWH) — the machine-messaging server app
+
+- **White Area Host** (transcribed "**освах**"/"**косвах**" = **CASWH**; associated with "**CasinoLock**") is a JVL server application that machines talk to via an **ActiveMQ** message broker; it still lives on **SVN** and is **not** the RGS/OmniRGS and **not** the Observability Platform (the team drew that distinction explicitly). It runs only ~**3 hours/day** (~20:00–23:00 Peru time, the same window as JVL's daily "Jewel/JVL Replication"). Its client side is fixed on every fielded machine and can't be changed. [[raw/activeMQ_upgrade-may-12-2025.md]]
+- **May-12 2025 security ruling:** an old ActiveMQ version in CASWH carries a vulnerability letting an attacker load/execute a file in RAM (RAM only, no filesystem access) — enough to conscript JVL machines into a **botnet**. Fix: upgrade ActiveMQ to a machine-compatible vulnerability-free version and split it into its own app; Docker/3-hour-restart fallback. Jira release **VAHV 0.23**. Full detail on [[wiki/decisions/2025-05-12-upgrade-activemq-split-from-white-area-host.md]] and [[wiki/topics/infosec-and-server-infrastructure.md]]. [[raw/activeMQ_upgrade-may-12-2025.md]]
 
 ## Printers
 
@@ -178,3 +192,5 @@ On the [[wiki/meetings/2025-05-08-game-design-review.md|May-8 review]] the team 
 - [[raw/sas_51_52_requirement_interpretation-april-14-2025.md]]
 - [[raw/game_design_review-may-1-2025.md]]
 - [[raw/game_design-may-8-2025.md]]
+- [[raw/product_capability_feature_development-may-9-2025.md]]
+- [[raw/activeMQ_upgrade-may-12-2025.md]]

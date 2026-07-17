@@ -3,7 +3,7 @@ type: project
 title: JVL 2025 strategic plan and Jira roadmap
 date: 2026-07-12
 aliases: [2025 plan, strategic plan 2025, Jira value stream, distribution infrastructure, DevSecOps grooming, ITSM, GitHub Jira alignment]
-source-count: 13
+source-count: 15
 open-commitments: 1
 open-questions: 1
 ---
@@ -89,6 +89,18 @@ The Mar 31 **initiative-vs-value-stream / flatten-vs-many-orgs** question was **
 
 **May 5–6 refinement (decision-in-motion).** Three further Aaron sessions ([[wiki/meetings/2025-05-05-feature-granularity-aaron.md]], [[wiki/meetings/2025-05-06-feature-jira-defining-and-reflection.md]]) reframed a **feature as temporary** and a **capability as the permanent product description**, added the ideas of a **component** (cluster of features) and the **double-diamond** flow, and floated moving the top levels (value stream / initiative / product) into **Jira Product Discovery** projects — with **capability** replacing the product-line level and **initiative becoming the product**. No ruling; a graph + Jira-refactor plan was deferred. Full detail on [[wiki/decisions/2025-04-03-jira-capability-level-and-github-mapping.md]].
 
+## May 9 2025 — Val's product taxonomy and canonical product list
+
+On the ~162-min May-9 taxonomy session with [[wiki/people/aaron.md|Aaron]] ([[wiki/meetings/2025-05-09-product-capability-feature-taxonomy-aaron.md]]; internally duplicated — facts once) Val defined the top of the hierarchy and enumerated JVL's products, using Aaron's directed-graph tool to visualize it. Definitions/tree and the "rename Feature→Capability" direction are on [[wiki/decisions/2025-04-03-jira-capability-level-and-github-mapping.md]]. [[raw/product_capability_feature_development-may-9-2025.md]]
+
+- **Value streams (Val's list):** **games, cabinets, core software, core hardware, payment systems** (he began the session with "where do we make money?" = slot games, amusement games, payment systems; the AI proposed adding "platform & infrastructure" and "hardware & cabinets" streams). [[raw/product_capability_feature_development-may-9-2025.md]]
+- **Products (Val's canonical list):** **Echo, FlexS, FlexC, FlexPay, FlexPort, FlexSMIB, FlexTower, FlexPOS, FlexServer** (product definitions on [[wiki/topics/jvl-machine-lineup.md]]). Legislative markets (Florida, South Dakota, California, North Dakota…) and architecture classes (Class 2, Class 3, HHR) are **requirements**, not products. [[raw/product_capability_feature_development-may-9-2025.md]]
+- **Pavel-created placeholder initiatives** ("Operating Systems," "Hardware Abstraction Layer" in firmware) were judged not real initiatives — a "giant to-do list" — and cleaned up. Val's caution against disrupting the game-software team by mixing machine hardware with game production ([[wiki/people/genadi-peari.md|Gennady]] would "be lost"). [[raw/product_capability_feature_development-may-9-2025.md]]
+
+## May 12 2025 — the product-discovery process (double diamond)
+
+On the ~207-min May-12 session ([[wiki/meetings/2025-05-12-product-discovery-double-diamond-aaron.md]]; internally duplicated — facts once) Aaron taught Val the **discovery → capability → use-case → requirement → feature → story** flow and the **double-diamond** (discover/define/develop/deliver), using **Jira Product Discovery** (impact/effort scoring; the successor to the old epic-hypothesis Confluence templates). **No adoption ruling** — conceptual coaching; Val's specific unsolved gap is turning capabilities into short testable features with tiny capacity. Detail on [[wiki/decisions/2025-04-03-jira-capability-level-and-github-mapping.md]]; the FlexPay worked example on [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/theory_product_discovery_process-may-12-2025.md]]
+
 ## Open questions
 
 - Should the GitHub organization map to the Jira **initiative** or the **value stream**, be **flattened into one org**, and should Jira drop its initiative level? (Mar 31 homework; Apr 1–3 arc introduced the capability level but left the org-structure question open — Aaron for flatten, Val against.) — [[raw/github_jira_alignment-march-31-2025.md]] [[raw/git_jira_correlation-april-1-2025.md]]
@@ -112,3 +124,5 @@ The Mar 31 **initiative-vs-value-stream / flatten-vs-many-orgs** question was **
 - [[raw/git_jira_correlation-april-1-2025.md]]
 - [[raw/gut_hub_jira_relationship-april-2-2025.md]]
 - [[raw/github_jira_setup-april-3-2025.md]]
+- [[raw/product_capability_feature_development-may-9-2025.md]]
+- [[raw/theory_product_discovery_process-may-12-2025.md]]

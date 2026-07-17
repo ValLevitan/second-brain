@@ -3,7 +3,7 @@ type: topic
 title: FlexPay mobile app and service advocates
 date: 2026-07-12
 aliases: [FlexPay mobile app, service advocate, service advocates, whale, whale UI, Incom, TITO, SMIB, SAS server, FlexServer, FlexPay discovery contractor]
-source-count: 32
+source-count: 33
 ---
 
 # FlexPay mobile app and service advocates
@@ -101,6 +101,10 @@ A Russian-language hardware standup the next day (two recording segments — [[w
 - **Partial cash-out — a new feature request (from [[wiki/people/felipe-miranda.md|Felipe]], transcribed "Филипп Н").** Felipe asked (a few days earlier) that a player be able to withdraw **only part** of the money from a machine, not all of it. Resolution on the call: on the SAS side JVL takes out only what the machine says; but for **redemption of a temporary wallet** with a chosen partial amount, JVL must **write a new requirement, create a feature, and implement it** ("treat as expansion of the scope") — it does not work today. The partially-redeemed ticket handling: take the old ticket, print a new one with the remaining balance (no PIN reissue for wallet tickets — "we leave it"). [[raw/flex_pay_port_hardware_update-may-8-2025.md]]
 - **SAS logging before firmware update.** Before the remote **firmware update** work, Pavel asked to first implement a **SAS-command logging protocol** — log all SAS commands (both directions, machine↔FlexPort) to FlexPay so JVL can see what happens at the SAS level, "especially… on foreign [non-JVL] machines"; pings likely excluded to save resources. [[raw/flex_pay_port_hardware_update-may-8-2025.md]]
 
+## May 10 2025 — weekend debug update
+
+A short Saturday update ([[wiki/meetings/2025-05-10-flexport-flexpay-debug-update.md]]): [[wiki/people/eugine-yavorski.md|Yavorski]] got ~halfway through his planned path; the menu-cancel step doesn't work yet. Sending the substituted command parameters "one to one" per protocol returns an error (**"ticket null, code 0"**), while connection/init and registration all pass — he puts **~90% odds the fault is his side** and will inspect exactly what he sends "under a microscope," escalating to [[wiki/people/dmitri-chudinov.md|Dima]] (Chudinov) only if his side proves clean. Logistics: he'll take the office key/code from [[wiki/people/evgeniy-alekseev.md|Zhenya Alekseev]] for the weekend; Val told him to email [[wiki/people/arkady-batson.md|Arkady]] + [[wiki/people/genadi-peari.md|Genadi]] (copy Val) so his workshop machines aren't disturbed. [[raw/flex-port_flex-pay_update-may-10-2025.md]]
+
 ## Sources
 
 - [[raw/mobile_app_advocate_persona_profile_january_13_2025.md]]
@@ -135,3 +139,4 @@ A Russian-language hardware standup the next day (two recording segments — [[w
 - [[raw/flex_port_hardware_update-may-7-2025.md]]
 - [[raw/flex_pay_hardware_update-may-8-2025.md]]
 - [[raw/flex_pay_port_hardware_update-may-8-2025.md]]
+- [[raw/flex-port_flex-pay_update-may-10-2025.md]]

@@ -3,7 +3,7 @@ type: person
 title: Alka Sood
 date: 2026-07-14
 aliases: [Alka Sood, Alka, Cogna]
-source-count: 5
+source-count: 6
 open-commitments: 6
 ---
 
@@ -45,6 +45,10 @@ Alka Sood is JVL's **finance contractor** (her business is **Cogna**, per the 20
 
 On the recurring call ([[wiki/meetings/2025-05-07-finance-recurring-alka-stabilization.md]]) Alka reported the "stabilization" of JVL's government-remittance and reporting back-office is nearly done: she secured CRA-portal access and expects to recover ~$200k of GST/HST input credits in a few weeks. Next steps she took: a shared **control sheet of every report to automate**, a **five-category weekly cash-flow statement** template (built with Hector, reviewed by Val), a **consolidated** view of the Labs/Systems statements (~a week out) plus a year budget, **monthly balance-sheet reconciliations** (Laura's legwork, Hector validates), and the **Peru ~$2.5M write-off** question to chartered accountant [[wiki/people/sean-riley.md|Sean Riley]]. Val directed her to prepare a **job profile for a Miami-based fractional controller** to replace [[wiki/people/hector.md|Hector]] and to start interviewing. She offered to go to eight hours; Val preferred to use her elsewhere (the new Georgia financial-kiosk line). Detail on [[wiki/topics/jvl-finance-back-office.md]]. Per-person and aggregate compensation figures from the employee-cost summary she presented are held §15.8. [[raw/financial_review-may-7-2025.md]]
 
+## May 12 2025 — year-end call with Sean Riley
+
+On the year-end "emergency" call ([[wiki/meetings/2025-05-12-year-end-finance-sean-riley.md]]) Alka joined Val and chartered accountant [[wiki/people/sean-riley.md|Sean Riley]] to confirm the mechanics of the JVL Peru ~$2.5M bad-debt write-off (insolvency timing test; 2024-vs-2025; ~$14M loss carry-forward; June-30 Labs deadline; consolidated-statement state). Detail on [[wiki/topics/jvl-finance-back-office.md]]. [[raw/finance_alka_sean_reily_year-end-May-12-2025.md]]
+
 ## Sources
 
 - [[raw/financial_alka_alignment-march-24-2025.md]]
@@ -52,3 +56,4 @@ On the recurring call ([[wiki/meetings/2025-05-07-finance-recurring-alka-stabili
 - [[raw/finance_recurring-april-7-2025.md]]
 - [[raw/finance_update-apr-15-2025.md]]
 - [[raw/financial_review-may-7-2025.md]]
+- [[raw/finance_alka_sean_reily_year-end-May-12-2025.md]]

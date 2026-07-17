@@ -4,7 +4,7 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 17
+source-count: 19
 open-commitments: 3
 open-questions: 0
 ---
@@ -82,6 +82,14 @@ On the SMIB weekly ([[wiki/meetings/2025-04-15-embedded-group-smib-sas-printer.m
 
 On the [[wiki/meetings/2025-05-08-flexport-flexpay-tito-standup.md|May-8 FlexPort standup]] Dima Chudinov is named as the author of the **protocol commands** Yavorski works against ("Дима Чудинов вам предоставил в этом протоколе"); Val asked "Дима и Паша" to think through what remains for the **final delivery** of Yavorski's FlexPort project beyond the daily action list. See [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]]. [[raw/flex_pay_hardware_update-may-8-2025.md]] [[raw/flex_pay_port_hardware_update-may-8-2025.md]]
 
+## May 10 2025 — the escalation contact for the FlexPort protocol bug
+
+On [[wiki/people/eugine-yavorski.md|Yavorski]]'s weekend debug update ([[wiki/meetings/2025-05-10-flexport-flexpay-debug-update.md]]) Yavorski said that if his own side proves clean, he'll write "**Диму**" (Dima) — and phone him — for help on the FlexPort↔FlexPay protocol error ("ticket null, code 0"). Backend/protocol context resolves this Dima to Chudinov. [[raw/flex-port_flex-pay_update-may-10-2025.md]]
+
+## May 12 2025 — owns the Java-app side of the ActiveMQ / White Area Host fix
+
+On the ActiveMQ security-upgrade call ([[wiki/meetings/2025-05-12-activemq-white-area-host-upgrade.md]]) Dima Chudinov (Java/back-end context) owns the JVL application ("White Area Host" / CASWH) that carries the vulnerable ActiveMQ broker; he explained the RAM-only botnet exploit, laid out the three fix options (upgrade + split; Docker isolation; deferred third), and scoped the work — assigning the hands-on ActiveMQ/OS work to an engineer transcribed "Sergei Sandriev" (with Andrei Bosik on the OS layer). See [[wiki/decisions/2025-05-12-upgrade-activemq-split-from-white-area-host.md]] and [[wiki/topics/infosec-and-server-infrastructure.md]]. [[raw/activeMQ_upgrade-may-12-2025.md]]
+
 ## Sources
 
 - [[raw/architecture_sql_olap_visualization_1_2025-03-29.md]]
@@ -101,3 +109,5 @@ On the [[wiki/meetings/2025-05-08-flexport-flexpay-tito-standup.md|May-8 FlexPor
 - [[raw/weekly_embedded_group_flex_port_progress-apr-15-2025.md]]
 - [[raw/flex_pay_hardware_update-may-8-2025.md]]
 - [[raw/flex_pay_port_hardware_update-may-8-2025.md]]
+- [[raw/flex-port_flex-pay_update-may-10-2025.md]]
+- [[raw/activeMQ_upgrade-may-12-2025.md]]

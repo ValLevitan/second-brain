@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 58
+source-count: 61
 open-commitments: 1
 ---
 
@@ -154,6 +154,16 @@ Two Aaron-led sessions this day. **IT maturity** ([[wiki/meetings/2025-05-07-it-
 
 A three-segment Aaron↔Val strategy session ([[wiki/meetings/2025-05-08-capability-compass-mcp-aaron-session.md]]): Aaron introduced **Atlassian Compass** as the engineer-side "second diamond" that connects code feature-branches back to a project's components/capabilities (opposite Jira **Discovery**); worked the product→capability→feature philosophy on JVL core technology (see [[wiki/decisions/2025-04-03-jira-capability-level-and-github-mapping.md]]); and pitched JVL **writing/maintaining its own MCP servers** as production tooling — MCP as a *specification* not a product, D-Bus/COM/AppleScript system-interface adapters, an in-stack Omni MCP class (naming [[wiki/people/alexander-biratka.md|Alex Baratka]] to write it), and AI-augmented QA via Gherkin. See [[wiki/topics/ai-assisted-development.md]]. [[raw/product_capability_feature-may-8-2025.md]] [[raw/discovery_tracking_capabilities_compass_jira-may-8-2025.md]] [[raw/mcp_servers_for_jvl-may-8-2025.md]]
 
+## May 9 2025 — memory-graph MCP setup + the product taxonomy
+
+Two same-day sessions. (1) **Memory-graph MCP setup** ([[wiki/meetings/2025-05-09-memory-graph-mcp-setup-aaron.md]]): Aaron screen-shared to install/configure his own **memory-graph MCP server** in VS Code + Cline for Val — single-file SQLite mode, backup-by-copying-the-`.db`, three storage modes; he wrote the tool himself. (2) **Product-capability-feature taxonomy** ([[wiki/meetings/2025-05-09-product-capability-feature-taxonomy-aaron.md]], ~162 min): Aaron pressed Val to define **portfolio** first while Val insisted on starting from **product** ("where do I make money?"); together they built the value-stream/product taxonomy and Aaron used his **directed-graph/visualizer tool in Claude Desktop (Claude Max subscription)** to synthesize a draft Jira-config document, then installed **Claude Desktop on Val's Linux** machine. Detail on [[wiki/topics/ai-assisted-development.md]], [[wiki/projects/jvl-2025-plan-and-jira-roadmap.md]] and [[wiki/decisions/2025-04-03-jira-capability-level-and-github-mapping.md]]. [[raw/ai_aaron-may-9-2025.md]] [[raw/product_capability_feature_development-may-9-2025.md]]
+
+## May 12 2025 — product-discovery coaching + the Miami product-manager hire
+
+On the ~207-min product-discovery session ([[wiki/meetings/2025-05-12-product-discovery-double-diamond-aaron.md]]) Aaron taught Val the **double-diamond** discovery→capability→feature→story flow (Jira Product Discovery, effort-vs-impact scoring), worked a FlexPay capability example, and demoed a **Goose** multi-agent setup + explained **semantic ontology** (both on [[wiki/topics/ai-assisted-development.md]]). [[raw/theory_product_discovery_process-may-12-2025.md]]
+
+- **The product-manager hire:** Aaron told Val he still needs a **human product manager** (agency is the missing AI piece — "in a year you might not"), had AI draft a **job description** (engineering mindset, covering all parts of a casino gaming system) and pull **reference executive profiles** (names surfaced: Noah Akers, Matt Wilson, Gerard Crosby, "Tashna," "Les" — people at Konami / Light & Wonder; Val thought them too senior). Aaron argued the PM should be a **real human physically located in Miami**, near Val. (These reference names are AI search results, not JVL people — no pages created.) [[raw/theory_product_discovery_process-may-12-2025.md]]
+
 ## Sources
 
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
@@ -214,3 +224,6 @@ A three-segment Aaron↔Val strategy session ([[wiki/meetings/2025-05-08-capabil
 - [[raw/product_capability_feature-may-8-2025.md]]
 - [[raw/discovery_tracking_capabilities_compass_jira-may-8-2025.md]]
 - [[raw/mcp_servers_for_jvl-may-8-2025.md]]
+- [[raw/ai_aaron-may-9-2025.md]]
+- [[raw/product_capability_feature_development-may-9-2025.md]]
+- [[raw/theory_product_discovery_process-may-12-2025.md]]
