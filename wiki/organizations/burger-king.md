@@ -3,7 +3,7 @@ type: organization
 title: Burger King (Playlands machine customer)
 date: 2025-04-15
 aliases: [Burger King, BK Playlands]
-source-count: 2
+source-count: 3
 ---
 
 # Burger King (Playlands machine customer)
@@ -29,7 +29,15 @@ On the Apr 18 Klimovich update ([[wiki/meetings/2025-04-18-klimovich-update-orde
 - **Separate option — trade-in:** take the old machines and replace them with new ones at the 18% price; but the old machines yield only ~**$150** of reusable parts (per [[wiki/people/arkady-batson.md|Arkady]]) — effectively **just the cabinets**, which could be re-outfitted for reselling used **ECO** slot machines to **Latin America** (disassembly is man-hours). Val's rule: **do not combine trade-in with the discounts** (buyers with selective memory will try to stack them). [[raw/andrei_klimovich_update-apr-18-2025.md]]
 - **The "kit" origin (Val, again):** an unqualified predecessor (Val fired him and his manager) coined it — a CPU failure led to shipping a set of parts, then the new CPU wouldn't mate the old monitor, so the monitor got added, and the bundle became "the kit." [[raw/andrei_klimovich_update-apr-18-2025.md]]
 
+## May 19 2025 — 5 machines stuck at the Ohio border (customs paperwork)
+
+From the May-19 Klimovich update ([[wiki/meetings/2025-05-19-klimovich-update-expo-documentary-tariffs.md]]; Russian): [[raw/update_andrei_klimovich-may-19-2025.md]]
+
+- Burger King shipped **5 machines** (the broken units, for repair in Canada) but they've been **stuck at the Ohio border / customs since Friday** — they were supposed to reach JVL in Canada by Tuesday. BK likely **shipped them as a plain parcel** with no **commercial invoice / correct HS number**, so customs can't classify them (mincer vs commercial device?). BK's people called **[[wiki/people/arkady-batson.md|Arkady]]** asking JVL for clearance data; Arkady didn't know what was meant. [[raw/update_andrei_klimovich-may-19-2025.md]]
+- **Fix:** Andrei can supply the classification from JVL's **certificate of origin** — **HS code 95.04.30.0010** — for BK to forward to its own customs broker (they can send the documents after the fact; the goods needn't be returned). Val: "it's their goods, help them." [[raw/update_andrei_klimovich-may-19-2025.md]]
+
 ## Sources
 
 - [[raw/andrei _klimovich_update-apr-15-2025.md]]
 - [[raw/andrei_klimovich_update-apr-18-2025.md]]
+- [[raw/update_andrei_klimovich-may-19-2025.md]]

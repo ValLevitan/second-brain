@@ -3,7 +3,7 @@ type: topic
 title: Tariffs and customs compliance (US–Canada tariffs, HS-code tracking, CBSA validation)
 date: 2025-04-28
 aliases: [tariffs, US-Canada tariffs, HS code, HS codes, harmonized system, country of origin, intercompany transfer pricing, BOM plus 30, CBSA, Canadian customs, CARM, trade compliance validation, international trade attorney]
-source-count: 5
+source-count: 6
 open-commitments: 3
 open-questions: 2
 ---
@@ -64,6 +64,14 @@ A staged research/analysis document ("Dodging the tariff bullet") assembled for 
 - **Mitigation levers suggested:** US **Foreign Trade Zones**, **duty drawback** (reclaim up to 99% of duties on components when the finished product is exported), **binding rulings**, component diversification ("China+Many" — Taiwan/Malaysia/Vietnam), and tariff engineering (ship components separately as "kits"). The memo claims peers cut effective rates from 25% to under 8%. [[raw/tariff_effect_jvl_research-may-2-2025.md]]
 - Note it also flags a **162% increase in CBP anti-circumvention determinations**, targeting exactly JVL's profile (Canadian assembly of Chinese components for US export) — relevant to the CBSA validation thread above. [[raw/tariff_effect_jvl_research-may-2-2025.md]]
 
+## Commercial-side restatement (May 16 + 19 2025 — Klimovich updates)
+
+Two [[wiki/people/andrei-klimovich.md|Klimovich]] updates restated the tariff picture from the ECHO/distributor angle (facts here; product-pricing detail on [[wiki/topics/echo-home-gaming-device.md]]):
+
+- **Metal-parts tariff band + USMCA exemption.** Andrei's read: finished JVL products under the **9504** HS code (with a certificate of origin) should ride the **USMCA exemption** into the US, while **metal parts / metal cabinets imported from China into Canada** are the exposed input, carrying roughly **8–25%** (rumored to rise) — consistent with the Apr-28/May-1 two-HS-number transformation-of-origin mechanic above. Val: absorb a small tariff effect, pass on a significant one. [[raw/update_andrei_klimovich-may-19-2025.md]]
+- **Home-version price move (contemplated, not announced):** distributor price possibly **$3,080 → $3,400**; Val's guidance to distributors — describe it as contemplation pending official guidance, honor current prices, reserve stock before any increase. [[raw/update_andrei_klimovich-may-19-2025.md]]
+- **HS 95.04.30.0010** appears on JVL's certificate of origin — used to unstick Burger King's border-held return (see [[wiki/organizations/burger-king.md]]). [[raw/update_andrei_klimovich-may-19-2025.md]]
+
 ## Open commitments
 
 - [ ] JVL (Lev, priority #1) — add an HS-code field to the vendor card and start tracking HS code + country of origin per item in Navision — due unspecified (top priority) — [[raw/business_central_update-apr-28-2025.md]]
@@ -82,3 +90,4 @@ A staged research/analysis document ("Dodging the tariff bullet") assembled for 
 - [[raw/action_list_review_lev_rudky-may-1-2025.md]]
 - [[raw/game_design_review-may-1-2025.md]]
 - [[raw/tariff_effect_jvl_research-may-2-2025.md]]
+- [[raw/update_andrei_klimovich-may-19-2025.md]]

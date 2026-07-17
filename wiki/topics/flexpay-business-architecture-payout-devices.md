@@ -3,8 +3,8 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS]
-source-count: 11
-open-commitments: 6
+source-count: 12
+open-commitments: 8
 open-questions: 3
 ---
 
@@ -130,8 +130,22 @@ A [[wiki/people/val-levitan.md|Val]] ↔ [[wiki/people/genadi-peari.md|Genadi]] 
 - **Industrial board to order:** the board Genadi found is a **3.5-inch** complete computer (heat-sink ready) that suits FlexPay, countertops and the server; **Pavel to receive four units — three low-cost (Celeron) + one ~$100 higher-performance** unit that can run graphics. Genadi to design an **enclosure symbiotic with the Flex Tower** (circular JVL-logo design). This extends the Apr-24 "server in a box" (see [[wiki/decisions/2025-04-24-standalone-server-in-a-box.md]]) and the Apr-23 industrial-board discussion. [[raw/Flex_tower_hardware_design_review-may-15-2025.md]]
 - **Scheduling:** next tower/POS/server talk **next week** (meeting Tuesday); Genadi available Mon/Tue/Wed only; Alekseev reachable **weekends or 7 am** (7 am slots the 19th or 21st — prefer the 19th; Monday the 19th is a Belarus holiday, "Intellectual day"). [[raw/Flex_tower_hardware_design_review-may-15-2025.md]]
 
+## May 16 2025 — FlexPay commissioning plan (in-house + location life tests)
+
+A [[wiki/people/val-levitan.md|Val]] ↔ [[wiki/people/pavel.md|Pavel]] session (Irina named as an information recipient) laying out how JVL will **commission FlexPay** — take the live card-payout system from lab to a real location. Two ordered milestones. ("Коммишининг" = commissioning/bring-up, not operator commission economics.) [[raw/commission_flex-pay-may-16-2025.md]]
+
+- **Milestone 1 — In-House (life) Commissioning** at the **Georgia office:** connect one FlexPay machine plus a couple of machines with FlexPort (one with a single SAS port, one with two SAS ports) and run a real card-issue test. Val insists a genuine **In-House Full/Life Test** means money actually moving **through the Incom bank into the JVL account** and reflected on all reports — i.e. using **Incom's production environment** with an assigned location ID, opening a location, running a transaction, and confirming the dollar lands ("better to suffer over $1 or $10 than $10,000"). [[raw/commission_flex-pay-may-16-2025.md]]
+- **Milestone 2 — Location (Outside) Commissioning:** the same type of live test, but installed **on an actual location**. Only after In-House passes. [[raw/commission_flex-pay-may-16-2025.md]]
+- **Pavel owns the Incom relationship now.** Val is stepping out as intermediary — **Pavel** must drive all Incom emails/calls/face-to-face sessions and report status **proactively** to Val and Irina. Incom is "a $6-billion company that moves at the speed of the slowest turtle" (replies ~a week later), so every message needs a **deadline + strong follow-up**. [[raw/commission_flex-pay-may-16-2025.md]]
+- **Bill-validator requirements (into the spec):** FlexPay must work with **JCM UBA, JCM iVision, and MEI** validators; on the **machine** side any bill validator works (connected in the machine, not JVL's problem if it breaks), but the **FlexPay** unit itself needs only **two** validators for now — **JCM UBA or MEI** (no iVision on FlexPay). iVision has no JVL **receptacle/connector to the bill acceptor** yet (Gena was preparing wires; an Evgeny must verify software) — but operators will often just splice wires, so what matters is offering the **choice**. **MEI** support is scheduled for ~**June**. [[raw/commission_flex-pay-may-16-2025.md]]
+- **The cross-border tooling problem (Val's own theme):** an engineer crossing the Canada→US border **cannot carry** a dev station/tools/laptop/wires (he'd be a tourist, not allowed to work). So JVL must **ship a broad kit by truck** to Philippe in advance (dev station left there permanently, connectors, spare boards, maybe a soldering iron/monitor/power supply) — allow ~**8 working days / 2 weeks** end-to-end (send 2 days, transit 3 days, test 3 days). If **Yavorski** (or Alekseev) is to go to Georgia, plan the ticket/hotel and arrive a day or two before Incom is ready. [[raw/commission_flex-pay-may-16-2025.md]]
+- **Who does what at the Georgia office:** Philippe and **Elizabeth** (described as a competent engineer) can set up the hardware/software environment; but the card-dispensing FlexPay work was built by **Sasha and Dima** (backend), not the Evgenys — so remote access is needed so Sasha/Dima can log in and fix card issues; Yavorski's FlexPort involvement is machine-port/link only. Val wants tests scheduled **early morning** to avoid weekend/night work. [[raw/commission_flex-pay-may-16-2025.md]]
+- **Feature-granularity aside (repeat of Val's Omni doctrine):** the same call restated "don't describe all features up front — a feature should be a small demonstrable deliverable that moves the product one step," and told Irina to write tests in small achievable fragments. (Durable version on [[wiki/topics/omni-core-advancement-and-game-templating.md]].) [[raw/commission_flex-pay-may-16-2025.md]]
+
 ## Open commitments
 
+- [ ] Pavel — drive the Incom coordination to open a test location (credentials → FlexPay data entry → live card transactions), with deadlines + follow-up, reporting status to Val and Irina — due "оперативно" (no months) — [[raw/commission_flex-pay-may-16-2025.md]]
+- [ ] Pavel / Val — assemble and truck a broad dev-station + peripherals kit to Philippe in Georgia ahead of the FlexPay commissioning; decide whether Yavorski travels — due ~2 weeks out — [[raw/commission_flex-pay-may-16-2025.md]]
 - [ ] Igor Starovoytov — draw the tower's industrial design (dimensions; standalone view + a between-machines view; gray/milky, no lighting, 7-inch front screen) — due ~Wed/Thu Apr 16–17 — [[raw/fkex_pay_evolution-apr-16-2025.md]]
 - [ ] Val — prepare the models/reference for Igor and find a reference station — due ~Apr 17 (next day) — [[raw/fkex_pay_evolution-apr-16-2025.md]]
 - [ ] Juan Martinez — dig out the IGT-published TITO spec + the Bally handheld-scanner model, and confirm the TITO barcode encoding (a "code 205" name was spotted on-call, as transcribed) so a proper optical sensor can be chosen — due before the Wednesday follow-up (**partly overtaken**: Apr-16 settled the card reader as magnetic-stripe-only and confirmed the ticket-barcode scanner works after a reprogram) — [[raw/evolution_flex_pay-april-11-2025.md]]
@@ -158,3 +172,4 @@ A [[wiki/people/val-levitan.md|Val]] ↔ [[wiki/people/genadi-peari.md|Genadi]] 
 - [[raw/flex_port_hardware_design_evolution-may-6-2025.md]]
 - [[raw/theory_product_discovery_process-may-12-2025.md]]
 - [[raw/Flex_tower_hardware_design_review-may-15-2025.md]]
+- [[raw/commission_flex-pay-may-16-2025.md]]

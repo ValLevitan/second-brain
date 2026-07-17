@@ -4,8 +4,8 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 12
-open-commitments: 5
+source-count: 14
+open-commitments: 8
 open-questions: 0
 ---
 
@@ -71,8 +71,31 @@ From the Apr 18 update ([[wiki/meetings/2025-04-18-klimovich-update-orders-tarif
 - **Website:** CMS/back-end/front-end ready for first release; [[wiki/people/ivan.md|Ivan]] to test (synced with Irina for priority); About-Us uses Val's copy; ECHO page possibly by end of May; dark-mode fixes from the vendor not yet satisfactory. See [[wiki/projects/jvl-corporate-website.md]]. [[raw/andrei_klimovich_update-apr-18-2025.md]]
 - **Account-manager / business-model doubt:** the female AM candidate fell through (wouldn't share prior-salary proof; wanted consultant-agreement benefits — Val: consultants get none). Val stated the **classic online account-manager model "does not work"** (no operator/player loyalty; everyone makes the same games) but gave Klimovich room to prove otherwise; what's missing = regular game releases + active account management, and the one untested model is the **Marketplace**. See [[wiki/topics/online-games-rgs-distribution.md]]. [[raw/andrei_klimovich_update-apr-18-2025.md]]
 
+## May 16 2025 — ad-channel status, website release, and the "balls in the air" coaching
+
+From the May-16 update ([[wiki/meetings/2025-05-16-klimovich-update-echo-website-pace.md]]; English; **source of record** of a §12 pair — the " (1)" copy is a lossy Arabic/Japanese re-transcription, skipped): [[raw/andrei_klimovich_update-may-16-2025.md]]
+
+- **Ad channels:** Amazon (**6 sales, 1 return**; search/display/TV), Meta (~2% impression→visit), and a new **Google** agency (**Webcom**, ex-Belarus, worked with Chevrolet/Disney) — full detail on [[wiki/topics/echo-home-gaming-device.md]]. Website first-release + the "release-now / sign-off 30 days later" contract move on [[wiki/projects/jvl-corporate-website.md]]. [[raw/andrei_klimovich_update-may-16-2025.md]]
+- **Val's pace doctrine ("balls in the air").** The bulk of the call was Val coaching Andrei on **tempo over perfectionism**: JVL is small and agile, so ship in **small increments A→B→C** rather than one perfect leap ("I have agility… I will not have a perfect echo presentation… but I'll complete it"). Andrei's analytic perfectionism is "a very good quality… equally dangerous"; a long, slow phase is the enemy. The metaphor: too many "balls in the air" create fragile dependency on one person — "land the balls," close the money-making loop (drive traffic → close deal → ship → get paid), then expand. Val: "it's better to upset you than to upset me… I don't care to hurt your feelings… so I will tell you the truth" — the value of not working "in silo." [[raw/andrei_klimovich_update-may-16-2025.md]]
+- **Acknowledgement-over-agreement.** Val's other insistence: don't pretend you agreed all along — "don't fool yourself and say we're on the same page"; genuine redirection needs honest acknowledgement that a mind was changed, or the boss can't tell why the ship wasn't moving. [[raw/andrei_klimovich_update-may-16-2025.md]]
+- **Change the designer, don't nag him.** Andrei said he's dissatisfied with his web designer's speed; Val — "don't even ask him. Change him" — but first "you are in your way," fix the pace and the blocking people resolve themselves. [[raw/andrei_klimovich_update-may-16-2025.md]]
+- **Deliver small features exponentially** — the same "don't break a product into a big list of features" doctrine Val teaches the dev team; deliver small, close them, move on. [[raw/andrei_klimovich_update-may-16-2025.md]]
+
+## May 19 2025 — ad plan, Burger King customs, Too Many Games expo, JVL documentary, tariffs
+
+From the May-19 update ([[wiki/meetings/2025-05-19-klimovich-update-expo-documentary-tariffs.md]]; Russian; internally duplicated §12): [[raw/update_andrei_klimovich-may-19-2025.md]]
+
+- **Ad plan sharpened:** Amazon video ads launching on **Amazon TV + Display** (~$200 each), a **$1,000 keyword-search milestone** (stop keyword ads if no sale), Google via **Webcom** (idea: ride **Merit**-brand search queries), Meta conversion jumped **2%→5%** over the weekend (still **zero sales**, ~$230–240 spent) — detail on [[wiki/topics/echo-home-gaming-device.md]]. He is recruiting freelance **designers** ("creative hands") to churn out Photoshop banners (Igor the artist does the renders; a Blender 3D model exists). [[raw/update_andrei_klimovich-may-19-2025.md]]
+- **Burger King customs jam:** the 5 machines BK shipped for repair are **stuck at the Ohio border** (missing commercial invoice / HS number); Andrei can supply **HS 95.04.30.0010** from the certificate of origin so BK's broker can clear them — on [[wiki/organizations/burger-king.md]]. [[raw/update_andrei_klimovich-may-19-2025.md]]
+- **Too Many Games expo (late June, under ECHO):** [[wiki/people/felipe-miranda.md|Philippe/Felipe]] approved to go with Andrei; giveaway/discount concept and Val's coaching against a $4,000-machine giveaway — on [[wiki/topics/echo-home-gaming-device.md]]. [[raw/update_andrei_klimovich-may-19-2025.md]]
+- **JVL documentary venture:** Andrei is engaging **Ingrid**, an amusement-industry archivist/researcher, at **$150/hour** (scans of old serial-number records roughly free) for research + an on-camera interview; Val strongly endorses it — Ingrid knows operators and distributors, "will return you these dollars 10-fold," ~20–40 hours of research expected. Method: use Ingrid as a **creative source**, then ask questions (don't hand her a finished script). Named contacts around it: **Mort** (still corresponds with distributors, could bring them for filmed interviews), **Replay Magazine** (Andrei's read that few amusement operators remain), and **Lev/Leo** — a nightclubs contact who senses renewed youth interest in amusement machines (distinct from [[wiki/people/lev-rudky.md|Lev Rudky]]; single mention, no page). **Monica** was consulted on the giveaway's legality. [[raw/update_andrei_klimovich-may-19-2025.md]]
+- **Tariffs / pricing:** the home-version distributor price may rise **$3,080 → $3,400** due to tariffs, but not yet officially announced — Val's guidance to Andrei on how to answer distributors (contemplation, no official guidance yet, honor current prices, reserve stock before any increase). Metal parts from China carry **8–25%** Canada→China tariffs; JVL absorbs small effects, passes on significant ones. Restated on [[wiki/topics/tariffs-and-customs-compliance.md]]. [[raw/update_andrei_klimovich-may-19-2025.md]]
+
 ## Open commitments
 
+- [ ] Andrei Klimovich — run the $1,000 top-keyword Amazon test + ~10 new-keyword experiments; if no sale, pause Amazon keyword-search ads — due unspecified — [[raw/update_andrei_klimovich-may-19-2025.md]]
+- [ ] Andrei Klimovich — give Burger King's broker HS 95.04.30.0010 so the border-stuck machines can clear customs — due unspecified — [[raw/update_andrei_klimovich-may-19-2025.md]]
+- [ ] Andrei Klimovich — prepare for the Too Many Games expo (print/handouts/flyers with QR to the Amazon page; finalize the giveaway mechanic per Val's cheaper-prize direction) — due late June — [[raw/update_andrei_klimovich-may-19-2025.md]]
 - [ ] Andrei Klimovich — commission the high-poly ECHO 3D model from [[wiki/people/maxim-3d.md|Maxim]] and launch Meta (Instagram/Facebook) ads via [[wiki/people/anton-smm.md|Anton]] driving traffic to the Amazon page — due unspecified — [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
 - [ ] Andrei Klimovich — produce a quality premium landing page for ECHO before starting paid Meta traffic — due unspecified — [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
 - [ ] Andrei Klimovich — investigate ECHO packaging (find a packaging studio) — due unspecified — [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
@@ -107,3 +130,5 @@ Five older sources (staged 2025-03-29, internally dated 2023–2024) place Andre
 - [[raw/andrei_klimovich_amazon-april-1-2025.md]]
 - [[raw/andrei _klimovich_update-apr-15-2025.md]]
 - [[raw/andrei_klimovich_update-apr-18-2025.md]]
+- [[raw/andrei_klimovich_update-may-16-2025.md]]
+- [[raw/update_andrei_klimovich-may-19-2025.md]]

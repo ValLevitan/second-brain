@@ -3,7 +3,7 @@ type: topic
 title: Graphics team Git workflow (PR discipline, CI tickets, deploy pipeline)
 date: 2025-03-12
 aliases: [designer git workflow, graphics PR discipline, pull request discipline, contact sheet action, assets deploy pipeline, fork from template, help desk CI tickets, performative pull request, pull request back to template, template per game type]
-source-count: 8
+source-count: 9
 ---
 
 # Graphics team Git workflow (PR discipline, CI tickets, deploy pipeline)
@@ -83,6 +83,16 @@ Extending the Apr-28 review, [[wiki/people/aaron.md|Aaron]]'s May-1 recap with V
 
 The follow-through Miranda session ([[wiki/meetings/2025-05-06-miranda-github-organization.md]]) is another graphics-team Git lesson: [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]] had done the May-1 cleanup (reworked repo, `.gitignore`, V8.1 release, drag-and-drop Unity package), and [[wiki/people/aaron.md|Aaron]] coached the next practices — distribute a **package** (NuGet/MSI) not the source tarball (talk to [[wiki/people/andrey-bosik.md|Andre]] + [[wiki/people/dmitri-kovalchuk.md|Dima K]]); never commit the ~2GB engine (reference it); a README "TLDR" (three-step install first, extended steps one level below, then technical + contribution docs); **more verbose pull requests**; **delete the merged branch**; have **Sasha review** PRs; and **rebase / fresh-start** the repo (with Andre) because the cleanup PR baked **~782k removed lines across ~5,000 files** into history. Detail on [[wiki/topics/miranda-authoring-tool.md]]. [[raw/miranda_organization_github-may-6-2025.md]]
 
+## May 19 2025 — main-only vs Dev branch debate (Omni dev team)
+
+A [[wiki/people/val-levitan.md|Val]] ↔ [[wiki/people/pavel.md|Pavel]] schedule/branch review ([[wiki/meetings/2025-05-19-github-branch-structure-debate.md]]; Russian; an "Igor" also present asking process questions) that turned into a git-workflow argument — the Omni-dev-team counterpart to the graphics-team PR discipline above. (Val runs these every ~2 days, ≤30 min; format: open Jira Plans, walk features, name task numbers, keep a minimal feature branch and confirm each has a GitHub repo where code is deposited.) [[raw/github_branch_structure-may-19-2025.md]]
+
+- **State on GitHub:** each branch is named for its feature/story; **5 pull requests already closed** — the team has started working PR-per-feature as agreed. Integration tests aren't in the flow yet (they're behind). Several finished branches are being **held open** (Pavel wants to keep them for tests-to-be-written). [[raw/github_branch_structure-may-19-2025.md]]
+- **The dispute — one main branch vs main + Dev.** Pavel's team merges everything into **Dev**, promoting to `main` only for a release version (main = tested/released "gold"). Val argues a small company should have **`main` only** — a Dev branch loses traceability of who did what / what's releasable, and pushes fixes into "**tribal knowledge**." Val: "imagine Dev is main for you" — the only difference is Dev holds untested changes, which is exactly what he objects to. Pavel: with no releases yet, Dev is justified for now; they'll drop it once there are many releases. Left **unresolved** ("we'll come back to this more than once"), Dev kept for the moment. [[raw/github_branch_structure-may-19-2025.md]]
+- **Feature granularity is the real fix (Val).** JVL's error is defining a **feature as something big and permanent** — features should be **narrower, measurable, less complete**, with dynamic growth (reopen a closed feature branch or open a new one to extend). A **capability** is the stable, long-lived thing that defines the product; a product ≈ ~9 capabilities, each with many small features. Stories matter less; devote attention to small features, and only define features foreseeable in the next month or two. (Example: **VDEC** is a *capability* of the machine — video vs mechanical-button VDEC — not one giant feature; today "VDEC" has been in progress ~a month because it was scoped as one big feature.) [[raw/github_branch_structure-may-19-2025.md]]
+- **Every merge to main = a version.** Reaffirmed in the same series: when a tested feature lands in `main`, bump the release version. [[raw/github_branch_structure-may-19-2025.md]]
+- Val is deliberately **not breaking the current setup before the first Omni release** ("what's built today is much better than two years ago, but still not right"). The QA-department leverage side of this debate (pressure QA to write tests into `main`) is on [[wiki/topics/test-automation-strategy.md]]. [[raw/github_branch_structure-may-19-2025.md]]
+
 ## Sources
 
 - [[raw/GitHub repository structure.md]]
@@ -93,3 +103,4 @@ The follow-through Miranda session ([[wiki/meetings/2025-05-06-miranda-github-or
 - [[raw/miranda_github-apr-28-2025.md]]
 - [[raw/organizing_miranda_github-may-1-2025.md]]
 - [[raw/miranda_organization_github-may-6-2025.md]]
+- [[raw/github_branch_structure-may-19-2025.md]]

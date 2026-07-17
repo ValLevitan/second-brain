@@ -3,7 +3,7 @@ type: project
 title: JVL corporate website (new site, three modules)
 date: 2024-11-06
 aliases: [JVL website, new website, corporate site, client portal, website redesign, JVL public client portal]
-source-count: 3
+source-count: 4
 open-questions: 2
 ---
 
@@ -42,6 +42,15 @@ A written requirements pack — general requirements plus epics with user storie
 
 - Klimovich to Val: "back-end готов, front-end готов, контент менеджмент систем … тоже готовы, все лежит и ждет нашего approval." He was sending Val an updated, "более цветастой" design version the next day (the prior look "казалось … слишком темная"); after a minimal-redesign approval, going live "это уже вопрос пару дней" — plus roughly a week of content work (game images, texts) to fill the site. [[raw/andrei _klimovich_update-apr-15-2025.md]]
 
+## May 16 2025 — "release it now, sign off 30 days later"; Echo page slips past June
+
+From the May-16 Klimovich update ([[wiki/meetings/2025-05-16-klimovich-update-echo-website-pace.md]]; English): [[raw/andrei_klimovich_update-may-16-2025.md]]
+
+- **First release ready but untested.** The first version looks "more or less stable" to Andrei (some known defects); [[wiki/people/ivan.md|Ivan]] wanted at least a day of deep technical testing, but "we don't have somebody" experienced in testing digital products. [[raw/andrei_klimovich_update-may-16-2025.md]]
+- **Val's contract move — release now, defer sign-off.** Rather than block on testing, **release as-is and don't sign off acceptance for ~30 days**; the vendor's pre-release defect-fix commitment simply **moves to a post-release window** under the same frame contract (each release is separately estimated: prepayment on approval, balance on acceptance). Val: the downside is tiny — the vendor charges **$30/hour**, ~10 hours of fixes ≈ **$300** exposure — "sitting in one spot is not a solution." Practical steps: **withdraw the testing request** from the vendor (so it isn't hanging over him), find bugs on the fly using in-house people to exercise the site — **Sebastian, Lev, Mary, Anibal (Peru)** — and add a light "found something? tell us" disclaimer. Go-live "on Monday." [[raw/andrei_klimovich_update-may-16-2025.md]]
+- **Launch shape:** a landing with **About JVL / Contact** basic pages now; **partners + reviews** (online games) in ~a week; **Flex** (land-based) and **Echo** just **redirect to the current existing pages** for now ("better than not to redirect anywhere"). New Flex/Echo designs come **after** Echo, with the **same web design/development team** (still Andrei coordinating). [[raw/andrei_klimovich_update-may-16-2025.md]]
+- **Echo page slips:** the earlier "Echo on the website by early June" target is off — "it takes more time to test and stabilize… than I expected"; Andrei to re-estimate the Echo module with the vendor the following week. This continues Val's incremental-not-perfect coaching (10→20→40 in steps, don't "marinate") — recorded on [[wiki/people/andrei-klimovich.md]]. [[raw/andrei_klimovich_update-may-16-2025.md]]
+
 ## Open questions
 
 - Did the website ship on anything like the Nov-2024 release ladder (R1 target ~Mar 10 2025)? Jan–Mar 2025 sources confirm only that the vendor contract reached signature (~Feb 1) — no launch record in the wiki yet. [[raw/business_architecture_and_the_website_design_for_online_2025-03-29.md]]
@@ -52,3 +61,4 @@ A written requirements pack — general requirements plus epics with user storie
 - [[raw/business_architecture_and_the_website_design_for_online_2025-03-29.md]]
 - [[raw/jvl_website_20_epics_use_cases_and_accpt_criteria_2025-03-29.md]]
 - [[raw/andrei _klimovich_update-apr-15-2025.md]]
+- [[raw/andrei_klimovich_update-may-16-2025.md]]

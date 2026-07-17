@@ -3,7 +3,7 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD]
-source-count: 7
+source-count: 9
 open-commitments: 2
 open-questions: 1
 ---
@@ -95,6 +95,24 @@ The second segment of the May-14 Omni review ([[wiki/meetings/2025-05-14-omni-sc
 - **Docker mismatch:** they configured Docker for tests but it turned out **Igor set it up for himself as a developer**, while QA needs something different — a misunderstanding to sort out. [[raw/omni_test_status_review-may-14-2025.md]]
 - **Val wants to attend the Friday session** (proposed shifting it from 4 → 10 or 5 their time) specifically to **gauge people's reactions** — whether they ask questions or stare blankly — "приобрести какое-то чувство реальности" (acquire a sense of reality). Irina noted Anton would move the meeting and add Val. [[raw/omni_test_status_review-may-14-2025.md]]
 
+## May 16 2025 — QA test-implementation kickoff (everyone writes tests, integration-first)
+
+The Friday-before follow-through to the May-14 reality check: a working session ([[wiki/meetings/2025-05-16-qa-test-implementation-kickoff.md]]; Russian) getting the QA engineers actually writing tests against the live Omni init-setup work. [[raw/qa_test_implementation-may-16-2025.md]]
+
+- **Three test areas restated:** UI, Backend, and games — UI is the most demonstrative/simplest and where [[wiki/people/anton-leshkevich.md|Anton]] just demoed; Backend is Vlad's area (a **v0.1** of a test framework with an **API for tilts** already implemented, more LGS APIs added as scenarios need them); games are "still dark," last. [[raw/qa_test_implementation-may-16-2025.md]]
+- **Val's two organizational asks:** (1) **everyone present except Pavel should start writing code** now — even primitive/broken — as the best way to learn, with Anton helping on the harder bits; (2) each QA engineer **talks daily with a developer** and writes tests **in parallel with (even slightly ahead of) the feature** being built, so tests aren't written against a feature developed in a vacuum. Meetings every 2–3 days, ~1 hour. [[raw/qa_test_implementation-may-16-2025.md]]
+- **Integration tests first:** because a feature is pulled into `main` once done, it must not merge **without an integration test** — ideally developer + tester work the feature together and the passing test gates the pull request. Concrete first target: the **multi-language init-setup** feature — a test that the language switches on all available tabs. [[raw/qa_test_implementation-may-16-2025.md]]
+- **Where to run tests (unresolved):** everyone wanted tests to run on a **real machine**, not a fake pass/fail; the setup ("init setup") isn't stable on the machine yet (it can fall over on connect). Interim: write/run **locally** now against what's available (e.g. English-language check), then point the same test at a real machine later by changing the IP/entry point — "the test functionality should be preserved." [[raw/qa_test_implementation-may-16-2025.md]]
+- **Language work cast:** the multi-language commits are done by **Igor** (rendered "Игорь Макаров" — by the localization context this is the LGS-630 init-setup localization owner, i.e. [[wiki/people/ihar-hrybko.md|Igor Hrybko]]; surname transcription uncertain, Tier B) together with **Anton**. Val urged using **dictation + AI** to draft use-cases/descriptions in plain language, and looking for documented examples (Atlassian, YouTube) rather than guessing — referencing that **Anton and [[wiki/people/jason-qa-consultant.md|Jason]]** had earlier surveyed testing applications. [[raw/qa_test_implementation-may-16-2025.md]]
+- **Action-plan discipline:** one of the engineers (not Val) must voice the objectives + a numbered action plan for the Wednesday check-in — for **everyone**, regardless of whose feature is ready, so all get into the acceptance-criteria / use-case / write-the-code mindset. Cap meetings at 45 min, keep Monday + Wednesday cadence. [[raw/qa_test_implementation-may-16-2025.md]]
+
+## May 19 2025 — the QA-into-main argument (no Dev branch)
+
+On the May-19 branch-structure review ([[wiki/meetings/2025-05-19-github-branch-structure-debate.md]]; Russian) Val used the **git branch model as leverage for the QA transformation**. The branch mechanics are on [[wiki/topics/graphics-team-git-workflow.md]]; the QA-culture point: [[raw/github_branch_structure-may-19-2025.md]]
+
+- Val's argument for **main-only (no Dev branch):** a Dev branch tells the QA engineers "you can't do it anyway, we're not counting on you." He would instead **apply pressure** — merge feature branches straight into `main`, require a test, and help them write it — because JVL's QA engineers (**Ivan, Vlad, Alexey**, mentored by [[wiki/people/anton-leshkevich.md|Anton Leshkevich]], the one who can already write tests) have *accepted the challenge* to learn to program properly in **TypeScript** and become "fully qualified QA-engineers." A Dev branch **discourages** exactly that. [[raw/github_branch_structure-may-19-2025.md]]
+- **Bug fixes as test changes, not bug tickets:** Val would rather a missed bug become a **task to fix the test** (the test should have caught it) than a standalone bug branch — a test made a bug possible because the test was incompletely specified. Pavel pushed back (bugs arise for many reasons — version incompatibility, scope-gaps). Left as an ongoing disagreement, not resolved. [[raw/github_branch_structure-may-19-2025.md]]
+
 ## Open commitments
 
 - [ ] Val — set up a ~2-hour testing-architecture meeting with Pavel, Irina, Anton and Aaron — due next week (of Jan 15) — [[raw/integration_and_testing_procedures_january_15_2025.md]]
@@ -128,3 +146,5 @@ The earliest captured root of this effort — a Bitbucket-era progress review be
 - [[raw/integration_tests-apr-24-2025.md]]
 - [[raw/ci_cd_qa_structure-apr-24-2025.md]]
 - [[raw/omni_test_status_review-may-14-2025.md]]
+- [[raw/qa_test_implementation-may-16-2025.md]]
+- [[raw/github_branch_structure-may-19-2025.md]]
