@@ -2,8 +2,8 @@
 type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
-aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin]
-source-count: 11
+aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus]
+source-count: 12
 open-questions: 1
 ---
 
@@ -128,6 +128,18 @@ On the [[wiki/meetings/2025-05-08-game-design-review.md|May-8 review]] the team 
 - **Math vs choreography (durable principle).** Efim's **Mass Fortune Football** ladder revealed the rule Val wants held: keep the **mathematical behavior of the ladder** in its own space, separate from the **choreography** (cadence/tempo/pacing of anticipation → hit → the end "wiggle" tease). The math tool just goes "boom-boom-boom"; the shipped game adds anticipation. Sweet spot ≈ **4–6 hits** (maybe 5–7) — "Goldilocks": too few isn't compelling, too many is bad only if you're still not at an exciting credit value (e.g. 5 hits to reach just 600 credits feels like a lot for little). Efim to aim for ~5–6 hits given the ~sub-600 average win. Val: "keep that in the Athene bank" for when they work on choreography. [[raw/game_design-may-8-2025.md]]
 - **Why no multi-denomination (design rationale).** JVL games "don't show anything in glyphs… everything in cash, so there is no place for denomination" — with ~7 bet levels ($1–$5) there is "no room" for a denomination selector; games have internal denominations (1¢–25¢) but the player only ever sees cash bets. [[raw/game_design-may-8-2025.md]]
 
+## The nudge is killed; designing a Vanilla-style "power slider" (May 15)
+
+On the [[wiki/meetings/2025-05-15-game-design-nebraska-south-dakota.md|May-15 review]], the Nebraska regulator's attorney ruled **nudge does not qualify as skill** (a wrong nudge can lose a winnable outcome), so the team designed a replacement post-spin skill mechanic modelled on the incumbent competitors. Market-entry consequences are on [[wiki/projects/nebraska-skill-market.md]]. [[raw/game_design_nebraska_south_dakota-may-15-2025.md]]
+
+- **Why the competitors' mechanic is compliant.** Nebraska's #1 supplier **Bonilla Games** (~60% of the market) and the dominant box **Vanilla** use a **power slider**: on a win, dexterity sets the payout (press dead-center = 100%; off-center = 90/80/50%), so **every winning combination stays winnable** — that is what makes it "skill." JVL's nudge failed exactly because a wrong choice could zero a win. [[raw/game_design_nebraska_south_dakota-may-15-2025.md]]
+- **Two candidate designs (mathematically identical).** (1) **Lucky Rainbow** — a rainbow arc, four colour segments red/orange/yellow/green, e.g. red 10% of the arc / 50% of the win, orange 10%/70%, yellow 10%/90%, green ~70%/100%; (2) **Bullseye** — four concentric archery rings with the same colour/percentage mapping. Both **start at 100% (green)**, like Vanilla's slider, so a player who acts immediately gets 100%. Michael's view: pick and **brand one** mechanic; doing both is "expensive insurance." [[raw/game_design_nebraska_south_dakota-may-15-2025.md]]
+- **Design toward familiarity, kept simple.** Vanilla uses **four** percentage scales and the red/orange/yellow/green hierarchy; JVL matches that so players (trained on Vanilla) don't perceive JVL as paying less. Keep it "geometrically straightforward… bigger, easier to read" than Vanilla's small/ugly slider — a **functional tool**, not ornate. Likely a **bar** that desaturates from green over a few seconds, sweeping faster (~10–15%) through the junk colours back to green. [[raw/game_design_nebraska_south_dakota-may-15-2025.md]]
+- **Where the meter lives.** Val floated putting it on the **V-Deck** (a slam-button-selectable meter) to save rework; consensus was to keep it on the **main screen** (players are trained by Vanilla to look there) and **optionally duplicate on the V-Deck** — because interrupting play is "verboten" in slot design, and covering both screens is the "quickest path of least resistance." Nebraska machines are mostly **mechanical (2-button)** with no VTEC, so players are trained to touch the screen. [[raw/game_design_nebraska_south_dakota-may-15-2025.md]]
+- **Regulator's framing.** These are **amusement machines, not casino machines**; the regulator wants them to look/behave the **opposite** of a casino machine, so if the skill effect is "annoying, so be it"; there is **no state-level rule** on how many segments or what percentages (Vanilla's fixed intervals are just its own implementation). [[raw/game_design_nebraska_south_dakota-may-15-2025.md]]
+- **Hit-rate concern (Efim).** Because the skill event fires after every winning spin, prefer games with **hit rate ~4/5/6, not 2/3**, so the slider isn't used almost every spin. [[raw/game_design_nebraska_south_dakota-may-15-2025.md]]
+- **Flatten-and-feed the math.** Val's rule for converting Georgia games: keep a **randomly-hitting "Swift"/Golden-Fast bonus**, flatten the pay table, take the top-win allocation (est. ~1–2% of total) and feed it into that bonus so the largest wins "never show up" — controlling volatility without an unfair machine (Efim to confirm the top wins are safely allocatable). This extends the Mar-28 "recycle math/mechanics" line. [[raw/game_design_nebraska_south_dakota-may-15-2025.md]]
+
 ## Open questions
 
 - Should JVL scale the **progressive value to denomination** (Val's view) or keep it flat and only *signal* higher-RTP denominations visually (the industry norm Michael/Efim defend)? Recorded as an **open product debate** — Val's opinion is logged, nothing is changed to the base math. [[raw/game_design_meeting_march_7_2025.md]]
@@ -146,3 +158,4 @@ On the [[wiki/meetings/2025-05-08-game-design-review.md|May-8 review]] the team 
 - [[raw/game_design-april-3-2025.md]]
 - [[raw/game_design_review-may-1-2025.md]]
 - [[raw/game_design-may-8-2025.md]]
+- [[raw/game_design_nebraska_south_dakota-may-15-2025.md]]

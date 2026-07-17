@@ -4,7 +4,7 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 19
+source-count: 20
 open-commitments: 3
 open-questions: 0
 ---
@@ -90,6 +90,10 @@ On [[wiki/people/eugine-yavorski.md|Yavorski]]'s weekend debug update ([[wiki/me
 
 On the ActiveMQ security-upgrade call ([[wiki/meetings/2025-05-12-activemq-white-area-host-upgrade.md]]) Dima Chudinov (Java/back-end context) owns the JVL application ("White Area Host" / CASWH) that carries the vulnerable ActiveMQ broker; he explained the RAM-only botnet exploit, laid out the three fix options (upgrade + split; Docker isolation; deferred third), and scoped the work — assigning the hands-on ActiveMQ/OS work to an engineer transcribed "Sergei Sandriev" (with Andrei Bosik on the OS layer). See [[wiki/decisions/2025-05-12-upgrade-activemq-split-from-white-area-host.md]] and [[wiki/topics/infosec-and-server-infrastructure.md]]. [[raw/activeMQ_upgrade-may-12-2025.md]]
 
+## May 15 2025 — partial-redemption-to-card + machine-info field
+
+On the May-15 FlexPay/FlexPort progress meeting ([[wiki/meetings/2025-05-15-flexpay-flexport-progress.md]]) Chudinov owns completing **partial redemption to card** on the FlexPay kiosk in the May-27 window, and reported he had added a machine-info field to FlexPay carrying what little SAS exposes (machine number + protocol version). Detail on [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]]. [[raw/flex-pay_flex-port_update-may-15-2025.md]]
+
 ## Sources
 
 - [[raw/architecture_sql_olap_visualization_1_2025-03-29.md]]
@@ -111,3 +115,4 @@ On the ActiveMQ security-upgrade call ([[wiki/meetings/2025-05-12-activemq-white
 - [[raw/flex_pay_port_hardware_update-may-8-2025.md]]
 - [[raw/flex-port_flex-pay_update-may-10-2025.md]]
 - [[raw/activeMQ_upgrade-may-12-2025.md]]
+- [[raw/flex-pay_flex-port_update-may-15-2025.md]]

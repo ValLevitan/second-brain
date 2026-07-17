@@ -2,8 +2,8 @@
 type: project
 title: South Dakota VLT market entry
 date: 2025-01-22
-aliases: [South Dakota, SD VLT, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950]
-source-count: 6
+aliases: [South Dakota, SD VLT, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950, V43, D27, SD cap]
+source-count: 8
 ---
 
 # South Dakota VLT market entry
@@ -71,6 +71,10 @@ The Jan-7 "pursue MG Oil" decision finally produced its introduction: on **May 1
 - Competitors: **IGT** and **AGT** (both "very good companies"; **Grand Vision shares the AGT licence**), and **Grover** (the weakest — "people aren't buying anymore"). The **Signature** platform is still the best-played machine; Grand Vision's newer platform is weaker than Signature. **VLCs** are the old legacy machines being retired. [[raw/mg_oil_south_dakota_intro-may-13-2025.md]]
 - A **10-machine location** typically holds two old VLCs plus a mix of AGT/Grand Vision, IGT and Grover; for a beta, MG Oil would pull the weakest machine (an old VLC or a Grover) and drop the JVL unit into an A-plus spot. [[raw/mg_oil_south_dakota_intro-may-13-2025.md]]
 
+## Vertical V43 submission decided (May 15)
+
+On the [[wiki/meetings/2025-05-15-game-design-nebraska-south-dakota.md|May-15 game-design review]] (mostly about Nebraska — see [[wiki/projects/nebraska-skill-market.md]]) [[wiki/people/juan-martinez.md|Juan]] added that, on new feedback, JVL now wants to submit a **vertical V43 cabinet for South Dakota**, alongside the Nebraska **D27** — so both form factors are in motion. SD is kept a **distinct math track** from Nebraska: SD has **introduced CAP** (win caps) and its wins run **even lower than Georgia**, so "what's good for South Dakota, mathematically" is *not* automatically good for Nebraska. [[raw/game_design_nebraska_south_dakota-may-15-2025.md]]
+
 ## Who
 
 - Driven by [[wiki/people/val-levitan.md|Val]] with [[wiki/people/juan-martinez.md|Juan]] (regulator/operator relationship, field side) and [[wiki/people/pavel.md|Pavel]] (Minsk software); [[wiki/people/irina-makarych.md|Irina]] on printer testing and GLI diffs, [[wiki/people/sebastian.md|Sebastian]] on field service, [[wiki/people/ivan.md|Ivan]] on GLI scheduling. **Lonnie** is the SD lottery-lab tester; **"Alani"** appears as the SD lottery (supplied the SAS adapter, requested the permit-number rename) — whether Alani is the lottery entity or a person there is unclear (see Owner Decisions). [[raw/sd_vlt_recap-jan-22-2025.md]] [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
@@ -84,3 +88,4 @@ The Jan-7 "pursue MG Oil" decision finally produced its introduction: on **May 1
 - [[raw/denis_desmarais_south_dakota_nebraska-April-5-2025.md]]
 - [[raw/game_design_review-may-1-2025.md]]
 - [[raw/mg_oil_south_dakota_intro-may-13-2025.md]]
+- [[raw/game_design_nebraska_south_dakota-may-15-2025.md]]

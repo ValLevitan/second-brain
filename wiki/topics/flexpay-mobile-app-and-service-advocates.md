@@ -2,8 +2,8 @@
 type: topic
 title: FlexPay mobile app and service advocates
 date: 2026-07-12
-aliases: [FlexPay mobile app, service advocate, service advocates, whale, whale UI, Incom, TITO, SMIB, SAS server, FlexServer, FlexPay discovery contractor]
-source-count: 34
+aliases: [FlexPay mobile app, service advocate, service advocates, whale, whale UI, Incom, TITO, SMIB, SAS server, FlexServer, FlexPay discovery contractor, HandPay Receipt, asset number, STM32F746]
+source-count: 35
 ---
 
 # FlexPay mobile app and service advocates
@@ -117,6 +117,22 @@ A structured status meeting ([[wiki/meetings/2025-05-13-flexpay-flexport-progres
 - **Firmware/version bookkeeping.** Test machines in the shop: **3 machines** — FlexPay software **v154 on two, v145 on one** (a client may ship 145). The FlexPort's displayed firmware name **"Flexport V2-743-015B"** (Yavorski's ad-hoc naming) must move to the **official 16-character firmware version**; the firmware to work with is **`FP01AM-001.000`**. [[raw/flex-pay_flex-port_progress-may-13-2025.md]]
 - **Hardware / equipment action items.** QA is short on devices because both the machine and the FlexPay each need a printer + bill acceptor; the new **EPIC 950** printers work **on the machine but are not supported on FlexPay ("flexbay")**. Ship to Minsk: a **UBA bill acceptor** + a **Gen2 or Gen5 printer**. Card dispensers: **2 in Minsk**; Genadi shipped **2 of a cheaper, larger-capacity brand** (similar protocol, to be added to the support list; planned for the **Tower** and FlexPay). Test cards: only ~2 working — get **~20 more from Incom** and buy a **stack of 200–500 plastic cards** to fill the stacker (Pavel can source plastic cards from a company on the ground floor). Val had ordered **20 FlexPort kits** to use temporarily as SMIBs and considered also ordering **screens + touchscreens**. Genadi deferred his own action items (busy on FlexPort hardware rework with "Sergei" — patronymic garbled, see Owner Decisions). **Next meeting: Thursday 7 am.** [[raw/flex-pay_flex-port_progress-may-13-2025.md]]
 
+## May 15 2025 — executive-summary status, asset-number uniqueness, HandPay Receipt
+
+A structured status meeting ([[wiki/meetings/2025-05-15-flexpay-flexport-progress.md]]; the transcript internally duplicates its whole content — §12, facts taken once), chaired by [[wiki/people/val-levitan.md|Val]] with an executive-summary read-out, with [[wiki/people/eugine-yavorski.md|Eugine Yavorski]], [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]], [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]], [[wiki/people/pavel.md|Pavel]] and [[wiki/people/genadi-peari.md|Genadi Peari]]. The §3 continuation of the May-13 progress meeting (the SMIB-board window and the two architectures carry over). [[raw/flex-pay_flex-port_update-may-15-2025.md]]
+
+- **Two architectures (executive summary):** one uses **electronic currency** (eWallet), the other does **TITO** (ticket-in/ticket-out). **SMIB** development (slot-machine interface board) "progressing with completed layout," production expected **~May 27**. [[raw/flex-pay_flex-port_update-may-15-2025.md]]
+- **Current status:** **money-in ~80% complete** with **memory-buffer-overflow** issues (when receiving long commands from FlexPay); **money-out** basic functionality "tested and completed, has not passed QA yet" — and only the **happy path** was tested (no negative testing). [[raw/flex-pay_flex-port_update-may-15-2025.md]]
+- **Test-machine/version state:** Canada office has **three FlexPay test machines** — two on **v1.54**, one on **v1.45**; FlexPort firmware current version **FP01AM-001.000**. Minsk QA has limited bill acceptors and printers; **only two card dispensers in Minsk**, with additional units of **a different brand** shipping. [[raw/flex-pay_flex-port_update-may-15-2025.md]]
+- **Market sizing (Val):** today's market is **34,000 machines**, of which an estimated **~10,000–15,000–17,000 are old with a single SAS port (~30–50%)** — these need the **full FlexPort** (screen + touchscreen, eWallet + TITO); newer machines have **two SAS ports** and take the **hidden SMIB** on a vacant port, out to a router → FlexPay over **WSS**. [[raw/flex-pay_flex-port_update-may-15-2025.md]]
+- **SMIB-board manufacturing:** layout completed **May 13**; manufacturing to be ordered **Fri May 16**; delivery **~May 27** (≈5 business days fabrication + 3 days shipping). A discovered comms issue: **memory-buffer overflow on long commands from FlexPay**; SAS↔WSS integration ongoing (SAS "complex"). [[raw/flex-pay_flex-port_update-may-15-2025.md]]
+- **Milestones to May 27:** fix the money-in buffer; finalize TITO both directions + verify ticket generation/validation; SMIB board by May 27; **Alekseev** implements **USB update handling + firmware-update capability** (targeting **Tue May 20**); **Yavorski** polishes TITO, adds **WSS logging** and **remote update via WSS** (targeting **Wed May 21**); **Chudinov** completes **partial redemption to card** on the FlexPay kiosk; then negative-case testing. Yavorski had written both money-in/out code and sent a "very raw" version that morning; he'll work the weekend and send the next build to Minsk **Sun May 18**. [[raw/flex-pay_flex-port_update-may-15-2025.md]]
+- **STM32F746 dev-board reuse (Pavel):** the three **STM32F746** development kits on hand could also run Yavorski's version, giving **five** test options instead of three. [[raw/flex-pay_flex-port_update-may-15-2025.md]]
+- **SAS machine identity — asset-number uniqueness.** The machine's **asset number** (read from the SAS protocol, entered by a technician) is used as the unique key, not the free-text machine "nickname"; if two machines return the same asset number "we can't do anything about it" (rare on small fleets) — so the collision case is left as **do-nothing** (Val advised renaming the free-text field to "nickname"). **Chudinov** added a machine-info field to FlexPay carrying what little SAS exposes (machine number + protocol version). [[raw/flex-pay_flex-port_update-may-15-2025.md]]
+- **HandPay Receipt ticket (parked).** JVL will **support the full SAS protocol including all commands**, so a **HandPay Receipt** must be implemented — but such tickets print the **barcode on the side, not the center**, so a bill acceptor/validator can't read them and FlexPay **can't auto-accept** one (it's only a player's proof to show a cashier); it's a **Class-3** case. Question of feeding it to the kiosk to pay out to card was **parked** for outside the meeting. [[raw/flex-pay_flex-port_update-may-15-2025.md]]
+- **JVL Minsk undertaking:** review SAS-protocol exceptions for the case where the **WSS connection is lost** between devices — what (if anything) can be signalled back to the machine (JVL can only refuse to take money/tickets; it can't tell the machine about the SMIB/FlexPort). [[raw/flex-pay_flex-port_update-may-15-2025.md]]
+- **SMIB LED signalling (new requirement):** since the SMIB has no screen, a **red/green LED** must signal board state (e.g. firmware transferring); Genadi to produce a **state table** by **Monday**. Logging plan: Yavorski to build WSS/SAS logs (est. 2–3 days) so the team can review what a machine sent vs. what was forwarded. [[raw/flex-pay_flex-port_update-may-15-2025.md]]
+
 ## Sources
 
 - [[raw/mobile_app_advocate_persona_profile_january_13_2025.md]]
@@ -153,3 +169,4 @@ A structured status meeting ([[wiki/meetings/2025-05-13-flexpay-flexport-progres
 - [[raw/flex_pay_port_hardware_update-may-8-2025.md]]
 - [[raw/flex-port_flex-pay_update-may-10-2025.md]]
 - [[raw/flex-pay_flex-port_progress-may-13-2025.md]]
+- [[raw/flex-pay_flex-port_update-may-15-2025.md]]

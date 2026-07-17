@@ -4,7 +4,7 @@ title: Eugine Yavorski
 date: 2025-02-18
 aliases: [Eugine Yavorski, Evgeny Yavorsky, Yavorski, Yavorsky, Яворский, Evgeny Egorsky, Egorsky, Егорский, Evgeny, Yevgeny, Zhenya, Женя, Евгений]
 disambiguation: "One of TWO Zhenyas (owner-ruled), both contractors via EAleks Technology: Eugine Yavorski (wiki/people/eugine-yavorski.md) and Evgeniy Alekseev (wiki/people/evgeniy-alekseev.md). Resolve by context; queue if unclear."
-source-count: 17
+source-count: 18
 open-commitments: 2
 ---
 
@@ -74,6 +74,10 @@ On the [[wiki/meetings/2025-05-08-flexport-flexpay-tito-standup.md|May-8 standup
 
 On a short Saturday update ([[wiki/meetings/2025-05-10-flexport-flexpay-debug-update.md]]) Yavorski reported the menu-cancel path not yet working — spoofed commands return **"ticket null, code 0"** while init/registration pass; he estimates **~90% his own side** and will inspect closely before escalating to [[wiki/people/dmitri-chudinov.md|Dima]] (Chudinov). He planned to work the office over the weekend (taking the key from [[wiki/people/evgeniy-alekseev.md|Alekseev]]), with Val telling him to email [[wiki/people/arkady-batson.md|Arkady]]/[[wiki/people/genadi-peari.md|Genadi]] to protect his workshop machines. See [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]]. [[raw/flex-port_flex-pay_update-may-10-2025.md]]
 
+## May 15 2025 — money-in ~80%, TITO/WSS-logging/remote-update assigned
+
+On the May-15 FlexPay/FlexPort progress meeting ([[wiki/meetings/2025-05-15-flexpay-flexport-progress.md]]) Yavorski reported **money-in ~80%** (memory-buffer overflow on long FlexPay commands being debugged) and money-out first-round done ("very raw"); he'd send the next build to Minsk **Sun May 18** after weekend work. To May-27 he owns: polish TITO both directions, add **WSS logging** (~2–3 days), and **remote update via WSS** (target Wed May 21). Detail on [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]]. [[raw/flex-pay_flex-port_update-may-15-2025.md]]
+
 ## Sources
 
 - [[raw/Embedded_Group_alignment_and_update_2025-02-18.md]]
@@ -93,3 +97,4 @@ On a short Saturday update ([[wiki/meetings/2025-05-10-flexport-flexpay-debug-up
 - [[raw/flex_pay_hardware_update-may-8-2025.md]]
 - [[raw/flex_pay_port_hardware_update-may-8-2025.md]]
 - [[raw/flex-port_flex-pay_update-may-10-2025.md]]
+- [[raw/flex-pay_flex-port_update-may-15-2025.md]]

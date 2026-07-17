@@ -2,9 +2,9 @@
 type: decision
 title: Base Nebraska on existing Georgia software with the conservative nudge
 date: 2025-03-14
-aliases: [Nebraska software decision, no-hands Georgia build, revert nudge for Nebraska, conservative nudge]
+aliases: [Nebraska software decision, no-hands Georgia build, revert nudge for Nebraska, conservative nudge, nudge abandoned]
 status: active
-source-count: 2
+source-count: 3
 open-commitments: 2
 open-questions: 0
 ---
@@ -31,6 +31,10 @@ On the Mar 14 2025 call, [[wiki/people/val-levitan.md|Val]], [[wiki/people/juan-
 
 On the [[wiki/meetings/2025-05-08-game-design-review.md|May-8 game-design review]], after [[wiki/people/juan-martinez.md|Juan]]'s Nebraska market trip, [[wiki/people/val-levitan.md|Val]] **reversed the conservative-nudge element** of this decision: JVL will launch Nebraska on the **enhanced/new nudge** (the same as Georgia), because the incumbent competitor **Vanilla** already runs a nudge and the **regulator confirmed it is not an issue** — "I'll adjust the rec where I said we wouldn't do that. We should do it." The rest of this decision (base on the Georgia "Peach" software, "no hands," keep TITO/dual-SAS, release in packs of six) still stands. See [[wiki/projects/nebraska-skill-market.md]]. [[raw/game_design-may-8-2025.md]]
 
+## Update (May 15 2025) — the nudge is abandoned entirely
+
+On the [[wiki/meetings/2025-05-15-game-design-nebraska-south-dakota.md|May-15 game-design review]], after [[wiki/people/juan-martinez.md|Juan]]'s Nebraska site visit, the Department of Revenue **attorney** (boss of the JVL contact [[wiki/people/brittany-walker-bell.md|Brittany]], who "was not qualified" to have blessed the game) ruled that **nudge does not qualify as skill** — because a wrong nudge can make a winning outcome unwinnable. Val: "Nudge is done… no longer a topic of discussion for this market." This **supersedes both** the original conservative-nudge ruling here **and** its May-8 reversal to the enhanced nudge: **all nudge is dropped**, to be replaced by a Vanilla-style **power-slider skill overlay** (design still open — Lucky Rainbow vs Bullseye). The rest of this decision still stands and is in fact reinforced — base on the Georgia "Peach" software, no hands, keep TITO/dual-SAS, release in packs of six — with the added direction to **flatten pay tables** and feed removed top-wins into a randomly-hitting Swift bonus. Full context on [[wiki/projects/nebraska-skill-market.md]] and [[wiki/topics/slot-game-design-principles.md]]. [[raw/game_design_nebraska_south_dakota-may-15-2025.md]]
+
 ## Open commitments
 
 - [ ] Juan — confirm with the **Nebraska Department of Revenue** whether **Eclipse** is an acceptable testing lab (the regulations name GLI) — due unspecified — [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
@@ -40,3 +44,4 @@ On the [[wiki/meetings/2025-05-08-game-design-review.md|May-8 game-design review
 
 - [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
 - [[raw/game_design-may-8-2025.md]]
+- [[raw/game_design_nebraska_south_dakota-may-15-2025.md]]

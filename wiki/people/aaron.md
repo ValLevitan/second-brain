@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 61
+source-count: 64
 open-commitments: 1
 ---
 
@@ -164,6 +164,10 @@ On the ~207-min product-discovery session ([[wiki/meetings/2025-05-12-product-di
 
 - **The product-manager hire:** Aaron told Val he still needs a **human product manager** (agency is the missing AI piece — "in a year you might not"), had AI draft a **job description** (engineering mindset, covering all parts of a casino gaming system) and pull **reference executive profiles** (names surfaced: Noah Akers, Matt Wilson, Gerard Crosby, "Tashna," "Les" — people at Konami / Light & Wonder; Val thought them too senior). Aaron argued the PM should be a **real human physically located in Miami**, near Val. (These reference names are AI search results, not JVL people — no pages created.) [[raw/theory_product_discovery_process-may-12-2025.md]]
 
+## May 15 2025 — the PDFX report-ingestion tool + SurfSense
+
+On a short three-segment session ([[wiki/meetings/2025-05-15-ai-aaron-pdfx-surfsense.md]]) Aaron showed the **working PDFX tool** ("PDF access") he built to turn a sectioned PDF into a structured per-page index + extracted text for insertion into the memory-graph database (demoed on four by-state gaming-report PDFs), flagged the open-source local tool **SurfSense**, and walked Val through running `PDFX process <in> <out>` in a terminal. The working build of the May-14 dictated pipeline. Detail on [[wiki/topics/transcript-knowledge-base-tooling.md]]. [[raw/ai_aaron-may-15-2025.md]] [[raw/ai_aaron-may-15-2025 (1).md]] [[raw/ai_aaron-may-15-2025 (2).md]]
+
 ## Sources
 
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
@@ -227,3 +231,6 @@ On the ~207-min product-discovery session ([[wiki/meetings/2025-05-12-product-di
 - [[raw/ai_aaron-may-9-2025.md]]
 - [[raw/product_capability_feature_development-may-9-2025.md]]
 - [[raw/theory_product_discovery_process-may-12-2025.md]]
+- [[raw/ai_aaron-may-15-2025.md]]
+- [[raw/ai_aaron-may-15-2025 (1).md]]
+- [[raw/ai_aaron-may-15-2025 (2).md]]

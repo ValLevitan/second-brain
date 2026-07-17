@@ -3,7 +3,7 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS]
-source-count: 10
+source-count: 11
 open-commitments: 6
 open-questions: 3
 ---
@@ -116,6 +116,20 @@ On the May-12 product-discovery teaching session ([[wiki/meetings/2025-05-12-pro
 - **Bill recycler = Cash Code.** For physically sending/receiving currency, Val referenced the **bill-to-bill (B2B) recycler** — a device that accepts bills and dispenses bills in multiple denominations via recycling cassettes — and noted he **once owned a company called Cash Code** that developed exactly this device; **JCM** makes a similar one. [[raw/theory_product_discovery_process-may-12-2025.md]]
 - **Sample user story** (feature level): "As a player, I want to insert cash into a machine so I can start playing games immediately." [[raw/theory_product_discovery_process-may-12-2025.md]]
 
+## May 15 2025 — tower electromechanical detailing; three new sensors; universal main board
+
+A [[wiki/people/val-levitan.md|Val]] ↔ [[wiki/people/genadi-peari.md|Genadi]] design review ([[wiki/meetings/2025-05-15-flex-tower-hardware-design-review.md]]; transcript internally duplicates — §12, facts taken once). The dispensing tower is now at **electromechanical detailing** (concept and spatial planning done; parts split agreed with "Sasha"; FlexPort interfaces broken out for [[wiki/people/evgeniy-alekseev.md|Alekseev]]); Genadi is waiting on **swipe-reader and dispenser samples** to finalize interfaces/dimensions. The §3 continuation of the May-1/2/6 tower thread. [[raw/Flex_tower_hardware_design_review-may-15-2025.md]]
+
+- **Surface finishes:** the top surface's **inner field textured/rough**, the outer material **smooth/polished** (concave). The black table part will be **textured**, not **piano black** (piano black shows fingerprints/scratches). [[raw/Flex_tower_hardware_design_review-may-15-2025.md]]
+- **The ticket-slot handle:** [[wiki/people/igor-starovoytov.md|Igor]] wants it trapezoidal and prominent; make it **clear plastic with a texture underneath** so the scanner's red laser refracts and glows (no printed text or sticker needed — just an **embossed bi-directional arrow**); use an **ABS mix (not PC)** so it doesn't crack; JVL logo embossed on top. The internal swipe slot is **backlit two-colour red/green** (prior decision); the card-exit slot illumination is still **unresolved pending the reader sample** (it must blink when a card exits). [[raw/Flex_tower_hardware_design_review-may-15-2025.md]]
+- **Dispenser drawer:** pulls fully out on rails like the countertops; whole assembly pre-assembled and screw-mounted. Add a **mechanical click/detent** so it can't sit misaligned, plus a **sensor that reports "dispenser is misaligned"** back to FlexPort (Val: "mature people don't [design] like that… I want people to say nobody does it like JVL"). [[raw/Flex_tower_hardware_design_review-may-15-2025.md]]
+- **Three new sensor requirements captured:** a **door-open sensor**, a **dispenser-position sensor**, and a **card-level sensor** (at least two sensors then count dispensed cards, with a low-card **Tilt** indication; plus counting **rejection-tray** cards) — "we must always know the card level." [[raw/Flex_tower_hardware_design_review-may-15-2025.md]]
+- **Metal enclosure for volume manufacturing:** a single **U-shape part** (mirrored), front plastic screwed on, back wall attached with **tapping screws or rivets**; **source it ready-made from China** (split the back sheet down the middle with an overlapped seam to save material) and go **straight to stamps/molds** — because the unit is a **requirement to build in high volume, fast** ("no time for assembly… it has to come off the stamp"), unlike the machines JVL assembles over years. [[raw/Flex_tower_hardware_design_review-may-15-2025.md]]
+- **New FlexPort main-board revision for [[wiki/people/evgeniy-alekseev.md|Alekseev]]:** add **scanner and dispenser interfaces on the main board**, put the power supply on it; dispensers run **24V**, so FlexPort takes 24V in and **steps down to 5V on the main board** → one universal board. Make a **test bed + test points with a harness to a laptop** for programming/checking (written as a requirement; Alekseev already lays test points). [[raw/Flex_tower_hardware_design_review-may-15-2025.md]]
+- **Priority order (Val):** the FlexPort faceplate is **not** the priority — the **POS** is, then the **Flex-Server / TITO-server box** ("things we can't operate without"). Genadi hands the plastics work to Sasha tomorrow and switches to the **Flex Curve acoustics** (has the acoustician's data; needs to source speakers and build a rapid model to finish the audio-box design — currently blocked). [[raw/Flex_tower_hardware_design_review-may-15-2025.md]]
+- **Industrial board to order:** the board Genadi found is a **3.5-inch** complete computer (heat-sink ready) that suits FlexPay, countertops and the server; **Pavel to receive four units — three low-cost (Celeron) + one ~$100 higher-performance** unit that can run graphics. Genadi to design an **enclosure symbiotic with the Flex Tower** (circular JVL-logo design). This extends the Apr-24 "server in a box" (see [[wiki/decisions/2025-04-24-standalone-server-in-a-box.md]]) and the Apr-23 industrial-board discussion. [[raw/Flex_tower_hardware_design_review-may-15-2025.md]]
+- **Scheduling:** next tower/POS/server talk **next week** (meeting Tuesday); Genadi available Mon/Tue/Wed only; Alekseev reachable **weekends or 7 am** (7 am slots the 19th or 21st — prefer the 19th; Monday the 19th is a Belarus holiday, "Intellectual day"). [[raw/Flex_tower_hardware_design_review-may-15-2025.md]]
+
 ## Open commitments
 
 - [ ] Igor Starovoytov — draw the tower's industrial design (dimensions; standalone view + a between-machines view; gray/milky, no lighting, 7-inch front screen) — due ~Wed/Thu Apr 16–17 — [[raw/fkex_pay_evolution-apr-16-2025.md]]
@@ -143,3 +157,4 @@ On the May-12 product-discovery teaching session ([[wiki/meetings/2025-05-12-pro
 - [[raw/flex_tower_pos_form_fit_design-may-2-2025.md]]
 - [[raw/flex_port_hardware_design_evolution-may-6-2025.md]]
 - [[raw/theory_product_discovery_process-may-12-2025.md]]
+- [[raw/Flex_tower_hardware_design_review-may-15-2025.md]]

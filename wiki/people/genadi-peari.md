@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena]
-source-count: 28
+source-count: 30
 ---
 
 # Genadi Peari
@@ -94,6 +94,10 @@ On the FlexPort hardware call ([[wiki/meetings/2025-05-07-flexport-two-machines-
 
 On [[wiki/people/eugine-yavorski.md|Yavorski]]'s weekend debug update ([[wiki/meetings/2025-05-10-flexport-flexpay-debug-update.md]]) Val told Yavorski to email **[[wiki/people/arkady-batson.md|Arkady]] and Genadi (copy Val)** before going into the office over the weekend, so the machines set up for him in the workshop aren't moved or cleaned off his bench. [[raw/flex-port_flex-pay_update-may-10-2025.md]]
 
+## May 15 2025 — tower electromechanical detailing
+
+On a Val review of [[wiki/people/igor-starovoytov.md|Igor Starovoytov]]'s tower design ([[wiki/meetings/2025-05-15-flex-tower-hardware-design-review.md]]) Genadi took the dispensing tower into **electromechanical detailing**: surface finishes, the clear-plastic scanner-lit handle, three new sensors (door / dispenser-position / card-level), a China-sourced U-shape metal enclosure straight to molds, and a new universal FlexPort main board for [[wiki/people/evgeniy-alekseev.md|Alekseev]]. He is to hand plastics to "Sasha" and switch to **Flex Curve acoustics** (speakers + rapid model), and to design an enclosure for the **3.5-inch industrial board** (4 units to Pavel). He also owes a **red/green LED state table** for the screenless SMIB by Monday. Detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] and [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]]. [[raw/Flex_tower_hardware_design_review-may-15-2025.md]] [[raw/flex-pay_flex-port_update-may-15-2025.md]]
+
 ## Sources
 
 - [[raw/fp-7_performance_analysis_january_13_2025.md]]
@@ -124,3 +128,5 @@ On [[wiki/people/eugine-yavorski.md|Yavorski]]'s weekend debug update ([[wiki/me
 - [[raw/flex_port_hardware_design_evolution-may-6-2025.md]]
 - [[raw/flex_port_hardware_update-may-7-2025.md]]
 - [[raw/flex-port_flex-pay_update-may-10-2025.md]]
+- [[raw/Flex_tower_hardware_design_review-may-15-2025.md]]
+- [[raw/flex-pay_flex-port_update-may-15-2025.md]]
