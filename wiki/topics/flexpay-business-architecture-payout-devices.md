@@ -3,7 +3,7 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS]
-source-count: 16
+source-count: 19
 open-commitments: 8
 open-questions: 3
 ---
@@ -176,6 +176,25 @@ The [[wiki/meetings/2025-05-26-hardware-selection-arm-flex-tower-pos.md|May-26 h
 - **The enabling work:** the cheap touchscreens are **LVDS**, so JVL builds a simple FlexPort-style **adapter board** and [[wiki/people/evgeniy-alekseev.md|Alekseev]] writes the **LVDS video driver** (~2 days; a controller would otherwise add ~$20) — net device penalty vs STM only ~$20. **Firm sub-ruling: no extra I/O boards** — sensors go straight to GPIO/UART. [[raw/hardware_selection_flex-tower_flex-pos-may-26-2025.md]]
 - **Ruled, with a validation contingency:** chosen direction pending Alekseev confirming the LVDS interface and sample validation; Val wanted to close it at a 7 am meeting the next day. (This resolves the May-21 mild tension — the earlier deferral flipped toward *embedded*; the ARM board reconciles both sides, being an embedded board that runs Linux.) [[raw/hardware_selection_flex-tower_flex-pos-may-26-2025.md]]
 
+## May 27 2025 — full-SAS ruling and the e-Wallet-vs-TITO split
+
+The May-27 dev review ([[wiki/meetings/2025-05-27-flexpay-flexport-dev-review.md]]) produced two strategic rulings now on [[wiki/decisions/2025-05-27-release-ewallet-mvp-first.md]]:
+
+- **Two architectures are formally separated and mutually exclusive.** The **e-Wallet** architecture (FlexPort + FlexKiosk, no SMIB) is **development-complete and going to beta first**; the **TITO** architecture (FlexPort + SMIB + future **FlexTower / FlexPOS / FlexTitoServer**) is developed in parallel but still "very raw." A location runs one or the other — "две архитектуры в одной существовать не могут." [[raw/dev_review_flex-pay_flex-port-may-27-2025.md]]
+- **Implement the FULL SAS protocol, no truncation.** Val corrected a prior "artificial scope gap": JVL had assumed it could ship a *truncated* SAS, but every major Class III manufacturer now on the Georgia COAM market — **Light & Wonder, IGT, Bally, Novomatic, Konami** — ships **full SAS including AFT** (Advanced Funds Transfer) and does not truncate. So FlexPort's architecture/hardware must assume full SAS (an "AFT display" is, to a non-engineer, much like FlexPort); only the MVP commands are *implemented* now. [[raw/dev_review_flex-pay_flex-port-may-27-2025.md]] [[wiki/people/pavel.md|Pavel]] dissented (no player-tracking/switchboard vendor ever needs full SAS; AFT only matters if JVL wants card-based money-in/out) — Val's ruling stands over the objection. [[raw/dev_review_flex-pay_flex-port-may-27-2025.md]]
+- **Why e-Wallet first even though Val expects it to fail in the market.** The e-wallet architecture "скорее всего, на рынке не проживется," but the **financial-transaction cycle** built for it (money through the Incom Bank and the JVL Bank) is reusable for TITO, so running a short e-wallet feature through the full money cycle now de-risks the later TITO in-house test — against a **November 2025** hard deadline. See the decision page for the MVP scope (JCM UBA only, version freeze, twice-weekly cadence, Georgia hardware list). [[raw/release_e-wallet_flex-pay_flex-port-may-27-2025.md]]
+
+## History — why FlexPay started (2023–2024 origin)
+
+A research-synthesis document (an AI narrative built over JVL transcripts, dated to the May-27-2025 staging window — not itself a meeting transcript; treat its figures as second-hand summaries of 2023–2024 discussions) captures the origin of the whole FlexPay / GA-COAM initiative. [[raw/why_flex-pay_started-may-27-2025.md]]
+
+- **The trigger (2023–2024):** the **Georgia Lottery approved gift cards as a legal redemption method** for COAM (Coin Operated Amusement Machine) winnings — an opportunity and a problem at once. [[raw/why_flex-pay_started-may-27-2025.md]]
+- **The manual-process problem:** a player wins, gets a ticket, and a store **clerk manually scans it and loads the value onto a GLC (Georgia Lottery Corporation) gift card** — labor-intensive, error-prone, high-friction, and dependent on clerk availability/willingness ("the person behind the counter is not really motivated to give the card"). [[raw/why_flex-pay_started-may-27-2025.md]]
+- **The money-leakage problem:** once winnings are on a MasterCard-branded gift card, players spend the money elsewhere, so "money was leaving the gaming ecosystem." The circular-economy goal was to let players use gift-card winnings to **play more games** — the core case: "a player wins $100 at a convenience store, loads it onto a MasterCard, and then cannot use that $100 to play at the COAM gaming machines." An April-2025 meeting framed it as merchants worried about "a loss of in-store spend." [[raw/why_flex-pay_started-may-27-2025.md]]
+- **Market drivers:** the legislative opening (gift cards "almost like cash" but trackable/compliant); competitive advantage — **United Gaming, representing ~25% of Georgia's ~24,000 machines**, wanted to differentiate and be first to an automated solution ("we'll end up buying more JVL machines because that's what the players will prefer"); and operational efficiency (less cash handling, less clerk intervention, better tracking). [[raw/why_flex-pay_started-may-27-2025.md]]
+- **Val's 2023 financial math (business economics):** machines generating **$3,000/day at 90% RTP**; even at **20% gift-card adoption** that's **$540/machine/day** through cards; at **3% processing fees** = **$16/day/machine**; for **3,000 machines** = **$48,000/day** in processing costs — the prize being to keep that money in-house as recurring transaction revenue. [[raw/why_flex-pay_started-may-27-2025.md]]
+- **Evolution of the solution:** from initial 2023 concepts — plastic card readers → paper tickets (TITO-style) → QR codes / optical readers → eventually a comprehensive **kiosk + reader** solution. [[raw/why_flex-pay_started-may-27-2025.md]]
+
 ## Open commitments
 
 - [x] Genadi Peari — price monitor/touchscreen driver-adapter options (with the Chinese suppliers) so the embedded-vs-industrial-Linux stack decision can be made Monday ~May 26 — **discharged May 26**: the weekend ARM-board find superseded the adapter-pricing task; the stack was ruled — see [[wiki/decisions/2025-05-26-arm-linux-platform-flex-devices.md]] — [[raw/selection_tech_stack_hardware-flex-pos_flex-tower_flex-tito-may-21-2025.md]] [[raw/hardware_selection_flex-tower_flex-pos-may-26-2025.md]]
@@ -212,3 +231,6 @@ The [[wiki/meetings/2025-05-26-hardware-selection-arm-flex-tower-pos.md|May-26 h
 - [[raw/JCM_meeting_Cliff__bill_recycler-may-20-2025.md]]
 - [[raw/selection_tech_stack_hardware-flex-pos_flex-tower_flex-tito-may-21-2025.md]]
 - [[raw/hardware_selection_flex-tower_flex-pos-may-26-2025.md]]
+- [[raw/dev_review_flex-pay_flex-port-may-27-2025.md]]
+- [[raw/release_e-wallet_flex-pay_flex-port-may-27-2025.md]]
+- [[raw/why_flex-pay_started-may-27-2025.md]]
