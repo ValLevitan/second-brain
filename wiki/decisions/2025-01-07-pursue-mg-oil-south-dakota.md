@@ -3,7 +3,7 @@ type: decision
 title: Pursue the MG Oil / South Dakota route opportunity
 date: 2025-01-07
 aliases: [MG Oil, South Dakota opportunity, Maurice introduction]
-source-count: 1
+source-count: 2
 status: active
 ---
 
@@ -30,7 +30,9 @@ JVL will meet with MG Oil to pursue the South Dakota route-machine opportunity. 
 ## Follow-through
 
 - This opportunity became the broader South Dakota VLT market-entry effort; by Jan 22 JVL was in lab testing with the South Dakota lottery. See [[wiki/projects/south-dakota-vlt-market.md]].
+- **The introduction happened May 13 2025.** The awaited introduction produced the contact: **[[wiki/people/troy-erikson.md|Troy Erikson]]**, owner of **[[wiki/organizations/mg-oil.md|MG Oil]]** (South Dakota's largest VLT operator — ~7,000 machines, ~600 locations), met Val and offered MG Oil as JVL's beta-test site with a 10–100-machine order to follow (decision remains **active**). See [[wiki/people/troy-erikson.md]] and the May-13 section of [[wiki/projects/south-dakota-vlt-market.md]]. [[raw/mg_oil_south_dakota_intro-may-13-2025.md]]
 
 ## Sources
 
 - [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]
+- [[raw/mg_oil_south_dakota_intro-may-13-2025.md]]

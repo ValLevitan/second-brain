@@ -3,7 +3,7 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD]
-source-count: 6
+source-count: 7
 open-commitments: 2
 open-questions: 1
 ---
@@ -86,6 +86,15 @@ The test-engineer transformation ([[wiki/decisions/2025-04-16-replace-testers-wi
 - **The agreed model:** a market requirement → a product **capability** (a demonstrable set of features/branches) → per-feature integration tests; a feature branch can only merge to `main` once its integration test passes — test-driven development with QA engineers writing tests in parallel with developers ("вы имеете такой же авторитет, как имеет девелопер"). Val stressed this is **not yet "automation"** — automated regression suites come later, once many keyed tests exist and can run on every submission. Init-setup being "95-97%" done, QA practices on it first. JIRA anchors: the product is **Omni Land-Based Framework (IP 416)**; QA test development sits under **Core Tools (IP 438) → IP 105**. TypeScript-learning sources named: [[wiki/people/alexander-biratka.md|Alexander Biratko]], Anton, and an AI assistant. [[raw/integration_tests-apr-24-2025.md]]
 - **Conceptual explainer** ([[wiki/meetings/2025-04-24-ci-cd-qa-org-explainer.md]]): the classic "throw it over the wall to QA" model is superseded by DevOps, where **test engineers (not testers)** write unit tests with mock-ups (e.g. JUnit) beside the functional code, then integration tests against a **continuously-deployed** service (a game vs a torn-down/rebuilt RGS) — the "continuous integration" and "continuous delivery/deployment" halves of CI/CD. [[raw/ci_cd_qa_structure-apr-24-2025.md]]
 
+## May 14 2025 — Omni test-status reality check
+
+The second segment of the May-14 Omni review ([[wiki/meetings/2025-05-14-omni-schedule-and-test-review.md]]), continued by [[wiki/people/val-levitan.md|Val]] with [[wiki/people/irina-makarych.md|Irina Makarych]] (and Pasha) after the schedule crew left — a candid check on where Omni testing actually stands versus the Apr-24 QA-engineer onboarding above. [[raw/omni_test_status_review-may-14-2025.md]]
+
+- **The intended model restated:** write test tasks per **feature**; a set of features forms a **test suite**; on a **pull request into main**, integration tests should fire "in theory." [[raw/omni_test_status_review-may-14-2025.md]]
+- **The practice: nothing yet.** "На практике мы пока ничего не имеем, потому что нет никаких тестов" — there are no tests and, for now, no one to write them; everyone is still **learning JavaScript** well enough to understand what a test is. [[wiki/people/anton-leshkevich.md|Anton]] (the test-engineer who wrote the Apr-24 Selenium/TypeScript setup examples — resolved by that context, inference) has created a couple of examples and a **setup base**. A **Friday meeting with Anton** is booked to **write the first test together**, walking through a UI test step-by-step so people at least understand what is written. [[raw/omni_test_status_review-may-14-2025.md]]
+- **Docker mismatch:** they configured Docker for tests but it turned out **Igor set it up for himself as a developer**, while QA needs something different — a misunderstanding to sort out. [[raw/omni_test_status_review-may-14-2025.md]]
+- **Val wants to attend the Friday session** (proposed shifting it from 4 → 10 or 5 their time) specifically to **gauge people's reactions** — whether they ask questions or stare blankly — "приобрести какое-то чувство реальности" (acquire a sense of reality). Irina noted Anton would move the meeting and add Val. [[raw/omni_test_status_review-may-14-2025.md]]
+
 ## Open commitments
 
 - [ ] Val — set up a ~2-hour testing-architecture meeting with Pavel, Irina, Anton and Aaron — due next week (of Jan 15) — [[raw/integration_and_testing_procedures_january_15_2025.md]]
@@ -118,3 +127,4 @@ The earliest captured root of this effort — a Bitbucket-era progress review be
 - [[raw/test-360_progress_review_meeting.md]]
 - [[raw/integration_tests-apr-24-2025.md]]
 - [[raw/ci_cd_qa_structure-apr-24-2025.md]]
+- [[raw/omni_test_status_review-may-14-2025.md]]

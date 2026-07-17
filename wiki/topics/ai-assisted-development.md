@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest]
-source-count: 29
+source-count: 30
 ---
 
 # AI-assisted development adoption
@@ -181,6 +181,14 @@ On the product-discovery session ([[wiki/meetings/2025-05-12-product-discovery-d
 - **Semantic ontology.** Aaron defined **ontology** ("the study of being… the most general features of reality") and **semantic ontology** as writing a set of truths about a problem, connected in a graph so that something can "logically follow" — the same thing they'd just done mapping FlexPay features/use-cases. Specifying the ontology in the memory "defines the problem space." [[raw/theory_product_discovery_process-may-12-2025.md]]
 - **Do you still need a human?** Val asked whether AI could replace a product manager outright; Aaron's answer: not yet — the missing piece is **agency** (the drive to do the work) — "these tools will remain passive until you tell it to do something… I think in a year you might not" need the human. [[raw/theory_product_discovery_process-may-12-2025.md]] (The product-manager hire is on [[wiki/people/aaron.md]].)
 
+## May 13 2025 — Linux dev-environment coaching (zsh + Claude Code)
+
+A hands-on one-on-one ([[wiki/meetings/2025-05-13-aaron-linux-zsh-claude-code.md]]) where [[wiki/people/aaron.md|Aaron]] set up [[wiki/people/val-levitan.md|Val]]'s Linux terminal and installed **Claude Code** (rendered "clod"/"clod code" throughout the transcript). This continues the dev-environment work (Claude Desktop on Linux, May 9). [[raw/aaron-linux_bash_zsh_claude_code-may-13-2025.md]]
+
+- **bash → zsh.** Aaron switched Val from bash to **zsh** (`sudo apt install zsh`, ran the config menu, created a **console profile named "zsh"** pointing at `/bin/zsh` and set it default) — the selling point being **case-insensitive tab-completion** (typing `cd projects` completes `Projects` without matching the capital P) and a prompt that shows the working directory. He pasted in setup one-liners (a plugin/config install). [[raw/aaron-linux_bash_zsh_claude_code-may-13-2025.md]]
+- **Claude Code basics.** Type **`claude`** in any directory to launch it there; it costs **no extra tokens on the Max plan** ("it's just part of the max plan"); Val can run **multiple sessions in multiple directories** at once. Aaron had Val run **`/init`** to generate a project **CLAUDE.md** ("its own readme to understand what the repository is about" — reading the README + recursive memory), then had him prompt "tell me about the purpose of this repository." He taught that Claude Code is **text-based only** (no graphics) though it **can read images** (as when pasted into Claude), and used **`xdg-open`** to open a generated report file from the terminal. [[raw/aaron-linux_bash_zsh_claude_code-may-13-2025.md]]
+- **Business Central MCP idea.** Val asked how to get a **Business Central MCP** written. Aaron said several already exist (he found examples by Googling live) exposing tools like get-schema-info / list-items / get-items-by-field / create/update/delete-item across **employees, customers, items, vendors, sales orders, payments**; setup needs a **Business Central username/password + company name** and an **API key** for authentication (like Jira/Confluence). Aaron offered to try building one but needs to become an **administrator** of Business Central and an endpoint to test against; he noted BC "doesn't run on your hardware — it runs in the cloud." No commitment locked. [[raw/aaron-linux_bash_zsh_claude_code-may-13-2025.md]]
+
 ## History — earlier AI-consultation artifacts (undated, pre-2025)
 
 - **SolidWorks integration memo from ChatGPT:** a reference document titled "Solid work integration and the overall architecture suggestion from ChatGPT" shows JVL (before the 2025 tooling push) using ChatGPT to draft an IT-integration architecture connecting **SolidWorks** (3D CAD) with **Atlassian Jira/Confluence** and **Microsoft Business Central** — file attachments/version control of CAD files, BOM synchronization into the ERP, middleware/connectors, OAuth security, monitoring, and staged testing. The content is generic AI output (no JVL-specific decisions); its durable value is evidence that JVL's CAD/PLM–ERP–Atlassian integration question was explored via ChatGPT. Undated; consistent with the ~2023–24 Atlassian/Business-Central era of [[wiki/projects/jvl-insights-knowledge-base.md]] (inference, flagged). [[raw/solid_work_integration_and_the_overall_architecture_suggesti_2025-03-29.md]]
@@ -217,3 +225,4 @@ On the product-discovery session ([[wiki/meetings/2025-05-12-product-discovery-d
 - [[raw/ai_aaron-may-9-2025.md]]
 - [[raw/product_capability_feature_development-may-9-2025.md]]
 - [[raw/theory_product_discovery_process-may-12-2025.md]]
+- [[raw/aaron-linux_bash_zsh_claude_code-may-13-2025.md]]

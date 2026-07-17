@@ -3,7 +3,7 @@ type: project
 title: South Dakota VLT market entry
 date: 2025-01-22
 aliases: [South Dakota, SD VLT, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950]
-source-count: 5
+source-count: 6
 ---
 
 # South Dakota VLT market entry
@@ -56,6 +56,21 @@ From the [[wiki/meetings/2025-05-01-game-design-review.md|May-1 review]]: [[raw/
 - **SD game lineup:** Dutchville, Lions Riches, Dragons, Pennies, Liberty Spins, Clover, and Wild Cold (performance data from these won't be available before Nebraska decisions must be made). [[raw/game_design_review-may-1-2025.md]]
 - **Border office manager starting May 19.** Val found "a good individual to manage our office in South Dakota" starting **May 19**, positioned **on the SD/NE border** with a new office opening there — the border-office plan from Apr 5 (candidate context = [[wiki/people/denis-desmarais.md|Denis Desmarais]], name not stated on this call — inference). Part of the revenue-focus imperative (SD/Nebraska/Georgia + the FlexPay financial product "must get revenue"). [[raw/game_design_review-may-1-2025.md]]
 
+## MG Oil introduction — the operator and the beta offer (May 13 2025)
+
+The Jan-7 "pursue MG Oil" decision finally produced its introduction: on **May 13** [[wiki/people/val-levitan.md|Val]] met **[[wiki/people/troy-erikson.md|Troy Erikson]]**, owner of **[[wiki/organizations/mg-oil.md|MG Oil]]** — putting a name and hard numbers to what Jan-7 had estimated as "controls most of South Dakota, ~200 locations." [[raw/mg_oil_south_dakota_intro-may-13-2025.md]] [[wiki/meetings/2025-05-13-mg-oil-troy-erikson-intro.md]]
+
+- **MG Oil is far bigger than the Jan-7 estimate:** **~7,000 of the ~9,000 machines** in South Dakota and **~600 route locations** (vs the Jan-7 "~200 locations" guess) — the state's dominant operator by 2–3×. Company profile and fleet on [[wiki/organizations/mg-oil.md]]. (Evolution of the Jan-7 figure, not a contradiction — 200 was an early guess at accessible locations.) [[raw/mg_oil_south_dakota_intro-may-13-2025.md]]
+- **Certification status Val gave Troy:** JVL had its **first GLI approval**, went through the **South Dakota lottery lab**, fixed all flagged deficiencies and **resubmitted the signed-off software to GLI a week earlier**; **GLI broke a monitor during retesting**, so JVL is shipping a new monitor before GLI resumes and issues the certificate. Val wouldn't commit to a duration — "could be a week, could be 30 days" — but "we see the finish line." Both the **V43 cabinet and the D27** are at the SD state lottery office (Troy saw them ~a month earlier). [[raw/mg_oil_south_dakota_intro-may-13-2025.md]]
+- **SD office/employee (corroborates the May-1 note):** JVL's new SD office employee **starts May 19**, will open an office and train a couple of local technicians, and look for a **2,000–3,000 sq ft office/warehouse** — Val's preference is **near the Nebraska border** (Troy suggested North Sioux City on the NE/Iowa border; noted most operators are around Sioux Falls). [[raw/mg_oil_south_dakota_intro-may-13-2025.md]]
+- **The beta offer (Troy):** MG Oil would be JVL's beta-test site once the lottery gives a go — **~4 A-plus locations** (Rapid City; 1–2 Sioux Falls; Pierre + Fort Pierre for the time-zone check), **one machine each, 14–21 days**, then a **10–100-machine order** at an agreed price. Val agreed to **ship six machines** to MG Oil's office; Troy keeps one in **demo mode** for the casino managers who visit daily. Coordination: Troy's GM **Dana** ↔ JVL's [[wiki/people/juan-martinez.md|Juan Martinez]]. Detail on [[wiki/people/troy-erikson.md]]. [[raw/mg_oil_south_dakota_intro-may-13-2025.md]]
+
+### South Dakota market intel (from Troy, May 13)
+
+- The SD market **replaces ~400 machines per year** across all manufacturers; it is a **mature market**. [[raw/mg_oil_south_dakota_intro-may-13-2025.md]]
+- Competitors: **IGT** and **AGT** (both "very good companies"; **Grand Vision shares the AGT licence**), and **Grover** (the weakest — "people aren't buying anymore"). The **Signature** platform is still the best-played machine; Grand Vision's newer platform is weaker than Signature. **VLCs** are the old legacy machines being retired. [[raw/mg_oil_south_dakota_intro-may-13-2025.md]]
+- A **10-machine location** typically holds two old VLCs plus a mix of AGT/Grand Vision, IGT and Grover; for a beta, MG Oil would pull the weakest machine (an old VLC or a Grover) and drop the JVL unit into an A-plus spot. [[raw/mg_oil_south_dakota_intro-may-13-2025.md]]
+
 ## Who
 
 - Driven by [[wiki/people/val-levitan.md|Val]] with [[wiki/people/juan-martinez.md|Juan]] (regulator/operator relationship, field side) and [[wiki/people/pavel.md|Pavel]] (Minsk software); [[wiki/people/irina-makarych.md|Irina]] on printer testing and GLI diffs, [[wiki/people/sebastian.md|Sebastian]] on field service, [[wiki/people/ivan.md|Ivan]] on GLI scheduling. **Lonnie** is the SD lottery-lab tester; **"Alani"** appears as the SD lottery (supplied the SAS adapter, requested the permit-number rename) — whether Alani is the lottery entity or a person there is unclear (see Owner Decisions). [[raw/sd_vlt_recap-jan-22-2025.md]] [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
@@ -68,3 +83,4 @@ From the [[wiki/meetings/2025-05-01-game-design-review.md|May-1 review]]: [[raw/
 - [[raw/tech_and_settings_issues-juan_martinez-april-3-2025.md]]
 - [[raw/denis_desmarais_south_dakota_nebraska-April-5-2025.md]]
 - [[raw/game_design_review-may-1-2025.md]]
+- [[raw/mg_oil_south_dakota_intro-may-13-2025.md]]

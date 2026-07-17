@@ -1,0 +1,19 @@
+---
+tags:
+  - data-processing
+  - pdf-analysis
+  - state-reports
+  - strategy
+  - technical
+  - infrastructure
+---
+
+Recording now. Okay. So the way that this is going to get processed is like this. The PDF files can't be read directly and consumed because of the way they get rendered. They're made for humans reading them, not for machines to pull the text from them. So text is inserted backwards and wrong ways and all sorts of stuff. Visually, it is coherent and sane. Every single section looks the same. We're going to focus on the per-state information because when we look at the entire report, we see that the beginning of the report has a bunch of tables of information, including things by state and by sector and things. And then what they've done is they've performed a transformation analysis on those tables to provide a by-state report, which is the most valuable for the people paying for these yearly reports. So in order to reverse engineer this data, we're going to take the most obvious data-rich source of this, which is the by-state reports of what's going on because they're consistent in the way they report. So what will happen is that we'll have to extract from the PDF a series of sections of the PDF by state, and then we can perform a rendering of that PDF to an image. The image should look exactly like the PDF view but in a bitmap like a PNG. That picture will then be associated with that state and that year. And then what happens is that we have a language model, a multi-modal model like chatQPT or CLAWS, will interpret the two screenshots or two or three screenshots per state by year of that text with a structured prompt. And I've shared that prompt with you, an example of that prompt in there, which will maintain consistency of these tables. To further refine that prompt, that prompt will be aligned with the data set terms that we're upserting into our database. So if our database has, let me just refer to your thing here. If your database has a set of key entities such as states, casino properties, regulatory bodies, gaming types, revenue metrics, tax structures, market performance indicators, and has relationships such as the connections between regulatory changes and market impacts and so forth, the upsertion prompt or pre-prompt for converting the picture to a markdown text that can then be consumed will include a structure to say, please ensure that the markdown file that you create has these sections in it. You will then individually apply that conversion process of consuming the picture, uploading it to a multi-modal model, and getting the text back and storing it against every state individually. Because you cannot consume all states in one shot. There's too much data, too much context. You'll have every state all bite-sized and pre-chewed for the next stage of this, which is the upsertion of this into the terms database, the graph database. And so per markdown file, you will then process that text and you will tell it to use the specific memory domains and terminology repeatedly, best fitting each markdown file to your dataset. This will take a while because it's going to run this per state. You're going to run a process and exit, run a process and exit over and over again, slowly adding layers, adding the content into your database set. And at the end of this, you'll have 50 states worth of datasets with graph traversal across all of them. So the next time when you're done with the state upsertions, then you can ask a question. Tell me what the trends are in the northeast quadrants of states, or whatever that might be. That's the order of now analyzing that dataset. So you should stop recording there so it doesn't get muddled.
+
+---
+
+## Audio File Information
+
+- **Source File:** approach_process_large_reports-may-14-2025.m4a
+- **Duration:** 4:44
+- **Transcribed:** 2025-05-15 12:15:42
