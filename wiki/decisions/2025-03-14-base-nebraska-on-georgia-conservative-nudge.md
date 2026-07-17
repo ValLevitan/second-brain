@@ -1,15 +1,15 @@
 ---
 type: decision
-title: Base Nebraska on existing Georgia software with the conservative nudge
+title: Base Nebraska on existing Georgia software (nudge later abandoned)
 date: 2025-03-14
 aliases: [Nebraska software decision, no-hands Georgia build, revert nudge for Nebraska, conservative nudge, nudge abandoned]
-status: active
+status: active (core Georgia-software base holds; the nudge element is SUPERSEDED/abandoned — see the May-15 Update below)
 source-count: 3
 open-commitments: 2
 open-questions: 0
 ---
 
-# Base Nebraska on existing Georgia software with the conservative nudge
+# Base Nebraska on existing Georgia software (nudge later abandoned)
 
 On the Mar 14 2025 call, [[wiki/people/val-levitan.md|Val]], [[wiki/people/juan-martinez.md|Juan]], [[wiki/people/efim-podvoiski.md|Efim]], [[wiki/people/lena.md|Lena]], [[wiki/people/pavel.md|Pavel]] and [[wiki/people/irina-makarych.md|Irina]] agreed how JVL will build for the **Nebraska** skill market. Full context on [[wiki/projects/nebraska-skill-market.md]]. [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
 

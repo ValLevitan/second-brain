@@ -3,7 +3,7 @@ type: topic
 title: JVL contractor billing process
 date: 2026-07-13
 aliases: [contractor billing, invoice process, jira billing rules, billability rules]
-source-count: 1
+source-count: 2
 ---
 
 # JVL contractor billing process

@@ -3,7 +3,7 @@ type: person
 title: Igor Nazarenka
 date: 2026-07-14
 aliases: [Igor Nazarenka, Ihar Nazarenka, Igor, Igor designer]
-disambiguation: "The 'mobile-application Igor' — surname Nazarenka, OWNER-CONFIRMED 2026-07-14. One of FIVE Igor-named people (owner-ruled): this one (mobile app/UI + new-market ops/Puerto Rico), Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context; queue anything fitting none."
+disambiguation: "The mobile-application Igor (surname Nazarenka, owner-confirmed 2026-07-14). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
 source-count: 5
 ---
 

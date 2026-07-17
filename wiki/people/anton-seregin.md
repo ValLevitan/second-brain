@@ -3,7 +3,7 @@ type: person
 title: Anton Seregin
 date: 2026-07-13
 aliases: [Anton Seregin, Seregin, Anton Seryogin, Серёги]
-disambiguation: "One of THREE distinct Antons. Anton Seregin = Minsk payroll staff (this page). Distinct from Anton Leshkevich (engineer, wiki/people/anton-leshkevich.md) and the SMM/Meta-ads contractor (wiki/people/anton-smm.md). Owner-confirmed 2026-07-13 that Seregin and Leshkevich are different people. Resolve any 'Anton' by context; if it fits none clearly, queue it."
+disambiguation: "Minsk payroll / React-TS front-end dev, this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
 source-count: 3
 ---
 
