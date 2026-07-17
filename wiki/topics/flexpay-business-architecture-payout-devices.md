@@ -3,8 +3,8 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code]
-source-count: 14
-open-commitments: 8
+source-count: 15
+open-commitments: 9
 open-questions: 3
 ---
 
@@ -156,8 +156,20 @@ A [[wiki/people/val-levitan.md|Val]] ↔ [[wiki/people/genadi-peari.md|Genadi Pe
 
 Val evaluated **[[wiki/organizations/jcm.md|JCM]]** bill recyclers with JCM's [[wiki/people/cliff.md|Cliff]] ([[wiki/meetings/2025-05-20-jcm-bill-recycler-eval.md]]) as a cash-in/cash-out device candidate — the follow-through on the May-12 note that JVL's payout capability needs a **bill-to-bill recycler** (the "Cash Code"/JCM device). The end-of-life **iPro-RC** is out; the friction-feed **UBA Pro-RC** (70–80 notes, doesn't denominate out) and the twin-drum **UBA Pro RT** (Mylar-tape, 30 notes/drum, guaranteed dispense) are the live options, on the JCM ID-003/ID-008 protocols; Val flagged the ~250,000-cycle MTBF as low and asked JCM to verify. Full device catalog on [[wiki/organizations/jcm.md]]. [[raw/JCM_meeting_Cliff__bill_recycler-may-20-2025.md]]
 
+## May 21 2025 — POS/Tower tech-stack selection deferred (embedded STM vs industrial-Linux)
+
+A Russian architecture call ([[wiki/meetings/2025-05-21-tech-stack-flex-pos-tower-tito.md]]; [[wiki/people/val-levitan.md|Val]], [[wiki/people/genadi-peari.md|Genadi Peari]], [[wiki/people/pavel.md|Pavel Frolov]]) explicitly convened "to discuss the tech stack for use in POS and FlexTower." Two paths: (a) the **embedded (STM32) "sandwich"** — the embedded CPU + monitor + touchscreen bundle already built for FlexPort; (b) the **industrial PC board Genadi found, written for Linux**. The §3 continuation of the [[wiki/meetings/2025-05-20-flex-tower-industrial-design.md|May-20 industrial-design call]] (where Val leaned ~90% Linux for the *tower*); here he weighs the stack for **both POS and Tower** and ends more ambivalent. **No decision was locked.** [[raw/selection_tech_stack_hardware-flex-pos_flex-tower_flex-tito-may-21-2025.md]]
+
+- **Val's stated lean (early): industrial-Linux.** "**99% я уверен**" the industrial board is more flexible, more convenient and easier to support. His main argument is the **software stack**: the company is moving GUIs to a **browser-based framework**, and he wants all company interfaces on browser solutions so **any** JVL programmer can work on them — versus embedded/STM, which needs scarce **low-level C programmers** and slow development. Both Evgenys already write for Linux and could be harnessed onto the work, shipping the products faster. [[raw/selection_tech_stack_hardware-flex-pos_flex-tower_flex-tito-may-21-2025.md]]
+- **The cost penalty.** The industrial solution is "**в три раза дороже**" (~3× the price): the platform is **~$100 + storage ≈ $130**, versus **~$30** for STM. It also needs a way to **drive the cheap RGB touchscreen monitor** (no built-in interface — needs an LCD/LED controller/adapter, ~$10–20; the screen itself would cost a bit more than the STM variant). Net device difference put at roughly **$100–200 each**. For the **Tower** (dominated by the ~**$300 card dispenser**), STM ≈ **$400** vs industrial ≈ **$550**; the delta is more visible on the cheap **POS** than on the Tower. Genadi to price monitor/touchscreen adapter options overnight with the Chinese suppliers. [[raw/selection_tech_stack_hardware-flex-pos_flex-tower_flex-tito-may-21-2025.md]]
+- **Embedded's merits (pull the other way).** Once an STM design is debugged it "**practically never breaks**," draws **less power**, runs cooler, and is a true embedded solution; smaller boards are easier to produce and ship. Downside: debugging is slow/tedious, and on STM32 you can't easily add a **second screen** (Evgeny said no) — the industrial board could drive two screens for the POS. Val wants a **NailBed** (bed-of-nails test rig) for fast embedded-board testing either way. [[raw/selection_tech_stack_hardware-flex-pos_flex-tower_flex-tito-may-21-2025.md]]
+- **TITO server is Linux regardless.** The simple devices (Tower, POS) are the choice in play; the **TITO server** "надо писать уже под Linux" (must be written for Linux) — the open worry is whether a Linux-based stack and an embedded stack can communicate, judged fine since they already talk over the **WSS protocol** on current projects. [[raw/selection_tech_stack_hardware-flex-pos_flex-tower_flex-tito-may-21-2025.md]]
+- **Volume/tooling pressure.** If the devices take, JVL must produce a **large quantity Jan–June 2026** using full tooling (**stamp + mold injection**) — "time is of the essence." Val is compressing decisions because "I'm going to be out of commission for a couple of days." [[raw/selection_tech_stack_hardware-flex-pos_flex-tower_flex-tito-may-21-2025.md]]
+- **The (non-)decision.** By the end Val flips — "**я как-то склоняюсь в Embedded сторону**" (I'm somehow leaning toward the embedded side) — but declines to rule: "let's not decide now… this is a Monday/Tuesday decision, I'd at least gather the numbers." He'll **tentatively meet Monday ~10am**, and see Pavel the next day to prepare. So the embedded-vs-industrial-Linux stack for POS/Tower is **still open** as of May 21 (mild continuation/tension with the May-20 ~90%-Linux tower lean — recorded as ongoing deliberation, not a contradiction). [[raw/selection_tech_stack_hardware-flex-pos_flex-tower_flex-tito-may-21-2025.md]]
+
 ## Open commitments
 
+- [ ] Genadi Peari — price monitor/touchscreen driver-adapter options (with the Chinese suppliers) so the embedded-vs-industrial-Linux stack decision can be made Monday ~May 26 — due ~May 23 — [[raw/selection_tech_stack_hardware-flex-pos_flex-tower_flex-tito-may-21-2025.md]]
 - [ ] Pavel — drive the Incom coordination to open a test location (credentials → FlexPay data entry → live card transactions), with deadlines + follow-up, reporting status to Val and Irina — due "оперативно" (no months) — [[raw/commission_flex-pay-may-16-2025.md]]
 - [ ] Pavel / Val — assemble and truck a broad dev-station + peripherals kit to Philippe in Georgia ahead of the FlexPay commissioning; decide whether Yavorski travels — due ~2 weeks out — [[raw/commission_flex-pay-may-16-2025.md]]
 - [ ] Igor Starovoytov — draw the tower's industrial design (dimensions; standalone view + a between-machines view; gray/milky, no lighting, 7-inch front screen) — due ~Wed/Thu Apr 16–17 — [[raw/fkex_pay_evolution-apr-16-2025.md]]
@@ -189,3 +201,4 @@ Val evaluated **[[wiki/organizations/jcm.md|JCM]]** bill recyclers with JCM's [[
 - [[raw/commission_flex-pay-may-16-2025.md]]
 - [[raw/industrial_design_update-may-20-2025.md]]
 - [[raw/JCM_meeting_Cliff__bill_recycler-may-20-2025.md]]
+- [[raw/selection_tech_stack_hardware-flex-pos_flex-tower_flex-tito-may-21-2025.md]]

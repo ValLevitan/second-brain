@@ -3,8 +3,9 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 17
-open-questions: 4
+source-count: 18
+open-commitments: 2
+open-questions: 5
 ---
 
 # Georgia market rollout (Peach1234 / DLKG)
@@ -107,8 +108,25 @@ On the [[wiki/meetings/2025-05-20-bdc-flexport-ga-coam-financing.md|May-20 BDC c
 - **Market/financing economics (Val's sizing):** ~**6,000 Georgia locations** × ~**$15,000 equipment/location** = ~**$90M** total market; a **legislative mandate takes effect June 2026** requiring each location to convert fiat→digital onto a prepaid MasterCard, processed by the GLC-sanctioned monopoly **[[wiki/organizations/incom.md|Incom]]** ("Income," a ~$6B US company). JVL currently holds ~**15–20%** of the Georgia skill-game market. Capital ask: ~**$2,000/location** → ~**$12M** for 100% or ~**$6M** at a realistic ~50% share, to generate ~**$45M** revenue over ~3 years (on top of JVL's current ~$8M existing-equipment revenue). Beta testing starts **June 2025**; JVL wants funds by **Jan 1 2026**. [[raw/bdc_intro_to_flex-port_ga-coam-may-20-2025.md]]
 - **What JVL learned about BDC:** no revolvers/lines of credit — only **growth capital** (flexible repayment, interest-only, balloon-on-milestones); larger checks (>$1M) come from BDC's **Growth and Transition Capital** team. Full detail on [[wiki/organizations/bdc.md]]; contact [[wiki/people/baba-fakohora.md|Baba Fakohora]]. (This complements the Mar-23 and Apr-1 financial-product notes above — same ~6,000-location, June-2026-deadline picture.) [[raw/bdc_intro_to_flex-port_ga-coam-may-20-2025.md]]
 
+## Class-3-vs-COAM meter interpretation — Seminole-lab retest (May 21 2025)
+
+A certification-testing call ([[wiki/meetings/2025-05-21-ga-coam-class3-meters-seminole-retest.md]]; Val, [[wiki/people/juan-martinez.md|Juan Martinez]], [[wiki/people/irina-makarych.md|Irina Makarych]], the QA engineer "Vlad", [[wiki/people/pavel.md|Pavel Frolov]]) that extended the SAS 51/52 thread into a broader worry: JVL may be reading Georgia's metering rules **wrong at the root**. (The transcript renders "meter" as **"mitra/MITRA"**, "Georgia COAM" as **"GCOM"/"Georgia COEM"/"Georgia QAM"**, and "Seminole" as **"seminal"** — corrected here, flagged.) The trigger was an **Eclipse** query on the **Total Jackpot Credits** meter, which JVL's Georgia product returns as **0**. [[raw/sas_intricacies_ga-coam-may-21-2025.md]]
+
+- **The root-cause reframing (Val).** Georgia COAM "**was born from Class 3 SAS protocol**" — a "sort of gymnastics to fit Class 3 standard into Georgia COEM" done at the *legislative* level. JVL's mistake was reading the Georgia COAM regulation directly "without any regard to Class 3," when it should interpret **Class-3 first**, then how Georgia COAM fits into it. Correct meters must still **increment** as in Class-3; the hand-pay ("hands") restriction is "just a nuance," not a reason a meter reads 0. [[raw/sas_intricacies_ga-coam-may-21-2025.md]]
+- **Jackpot / key-to-credit definitions.** A jackpot is "**any value that is greater than the jackpot limit that we have enabled on the machine**" — with no limit set there is no jackpot (so the meter never fires). Example: limit **$900**, a **$901** win → the machine **locks up** and is cleared by an attendant's **jackpot reset key**. Normally the money then **disappears from the machine** (handled by the system, not the credit meter); the SAS feature **"key-to-credit"** instead moves it to the **credit meter** — a feature JVL supports "**only for C3 class machines. For example, MegaHeat, FireEyes**," **not** for COAM products. Georgia has no jackpots defined today, which is why the Total Jackpot Credits meter gives 0. Adding a jackpot-credit limit "the same as on other products" is doable but "a big alteration," because Georgia's **hands** restriction complicates paying a progressive win. [[raw/sas_intricacies_ga-coam-may-21-2025.md]]
+- **Irina's "two steps back."** [[wiki/people/irina-makarych.md|Irina Makarych]] raised — and Val had privately shared — the deeper doubt that even JVL's **Class-3 meters may be interpreted incorrectly**; the group agreed to first **redefine/verify the Class-3 meters against the protocol**, then derive the Georgia COAM behaviour. Hand-pay and K2/credit meters were clarified as **different meters** (a hand-pay meter is not the K2/credit-limit meter). [[raw/sas_intricacies_ga-coam-may-21-2025.md]]
+- **The undertaking — parallel meter retest.** [[wiki/people/juan-martinez.md|Juan]] (named "the best expert on Earth" for Class-3 meter interpretation) to **retest meter behaviour on a Class-3 "Mega Hit One" T27/D27 machine at the Seminole ("seminal") lab**, using the **GLI-approved MH1 Class-3 software** JVL had installed there, while **Vlad runs the same software in parallel at JVL** — same version both sides — documenting all jackpot/credit-transfer metering scenarios. [[raw/sas_intricacies_ga-coam-may-21-2025.md]]
+- **Lab-subordination / compliance stance.** Val stressed JVL is "**subservient to a laboratory**": if the lab rules JVL wrong, "they can come back, check the previous approvals and revoke them. This will automatically freeze all our games. Instantaneous." He judged the earlier Eclipse pass as luck ("we have good relations, plus this Pavel from Eclipse is not very deep"). Current posture: "**Right now we are compliant. We are behaving as though we're compliant. We are doing our own internal investigations just in case.**" [[raw/sas_intricacies_ga-coam-may-21-2025.md]]
+- **Scheduling.** Next call set for **Wed May 28 at 7am** to hear Vlad's findings (Vlad is unavailable from ~May 29 for about a week); an alternative Mon **June 2** was floated, subject to Seminole-lab availability. [[raw/sas_intricacies_ga-coam-may-21-2025.md]]
+
+## Open commitments
+
+- [ ] Juan Martinez — retest Class-3 meter behaviour on the "Mega Hit One" T27/D27 machine at the Seminole ("seminal") lab (GLI-approved MH1 software), documenting jackpot/credit-transfer metering — due before the May 28 review; confirm lab access first — [[raw/sas_intricacies_ga-coam-may-21-2025.md]]
+- [ ] Vlad (JVL QA) — run the same GLI-approved MH1 Class-3 software in parallel at JVL and report meter findings — due ~May 28 — [[raw/sas_intricacies_ga-coam-may-21-2025.md]]
+
 ## Open questions
 
+- Are JVL's **Class-3 meters themselves** interpreted correctly against the SAS protocol (independent of Georgia COAM)? Val/Irina suspect not — to be resolved by the Seminole/JVL parallel meter retest. [[raw/sas_intricacies_ga-coam-may-21-2025.md]]
 - Was JVL genuinely **out of SAS 51/52 compliance** since inception (Eclipse/GLC accepted it as "not applicable"), and does the lab-only auto-clear-lockup fix satisfy the mandatory-event requirement? Pending the Steve/GLC conversations. [[raw/sas_51_52_requirement_interpretation-april-14-2025.md]]
 - Was routing Jackpot Rush / JPRE for Georgia onto the **old framework** (curved cabinet) a deliberate plan or an oversight? Val said he didn't recall discussing it and parked it for a later meeting. [[raw/game_design_meeting_march_7_2025.md]]
 - Why does the Bally iview final report disagree with the (correct) data JVL sends, and does the iview system need a protocol JVL can't currently select? [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
@@ -133,3 +151,4 @@ On the [[wiki/meetings/2025-05-20-bdc-flexport-ga-coam-financing.md|May-20 BDC c
 - [[raw/business_central_update-apr-28-2025.md]]
 - [[raw/game_design_review-may-1-2025.md]]
 - [[raw/bdc_intro_to_flex-port_ga-coam-may-20-2025.md]]
+- [[raw/sas_intricacies_ga-coam-may-21-2025.md]]

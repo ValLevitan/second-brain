@@ -2,7 +2,7 @@
 type: meeting
 title: FlexPort/FlexPay/SMIB action-list review (May 20 2025)
 date: 2025-05-20
-source-count: 1
+source-count: 2
 ---
 
 # FlexPort/FlexPay/SMIB action-list review (May 20 2025)
@@ -11,6 +11,9 @@ Russian-language FlexPay/FlexPort/SMIB hardware standup chaired by [[wiki/people
 
 Substance is on [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]] (the FlexPay/FlexPort dev sequencer) and the individual engineer pages. Next meeting set for **Mon May 26**.
 
+**Derived-document family (§12).** A follow-up **action-items doc** stamped **May 21** ([[raw/FlexPort_FlexPay_Action_Items_2025-05-21.md]], header "Source Meeting: May 20, 2025 Hardware Development Meeting") is a derived summary of this same meeting — one meeting, two artifacts; the May-21 stamp is a processing date, not a second meeting. All its items map to the transcript above and are recorded on the dev-sequencer page. The only detail unique to the derived doc is a **FlexPort inventory breakdown** (~40 units total: 2–3 in the Georgia office, 2–3 in Minsk, 1 in Val's office; 20 additional to be ordered). [[raw/FlexPort_FlexPay_Action_Items_2025-05-21.md]]
+
 ## Sources
 
 - [[raw/flex-port_flex-pay_smib_update-may-20-2025.md]]
+- [[raw/FlexPort_FlexPay_Action_Items_2025-05-21.md]]
