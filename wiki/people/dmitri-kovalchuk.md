@@ -4,7 +4,7 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "IT (GitHub-admin, infrastructure, secrets/Azure, AI-tool accounts) — the IT-context "Dima". Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 11
+source-count: 12
 ---
 
 # Dmitri Kovalchuk
@@ -45,9 +45,14 @@ On the secrets-management strategy session ([[wiki/meetings/2025-04-30-secrets-m
 
 On the IT-maturity session ([[wiki/meetings/2025-05-07-it-department-maturity-secrets.md]]) Dima (the IT "Dima") is one of the two IT people [[wiki/people/aaron.md|Aaron]] coaches through the weighted-matrix method for the secret-server choice; he reported working mainly with **AWS Secrets Manager**, having tried **Azure Key Vault** and used **HashiCorp Vault** 1–2 years ago, with the **GitHub secret store** used for CI/CD. See [[wiki/topics/infosec-and-server-infrastructure.md]]. [[raw/it_department_maturity-may-7-2025.md]]
 
+## May 28 2025 — Delinea selected; DTP backlog
+
+On the maturity review ([[wiki/meetings/2025-05-28-it-maturity-delinea-secrets.md]]) Dima (with Andre) presented the completed secret-server evaluation to Aaron and Val: **Delinea** scored highest (CyberArk second, "very expensive"), Azure clarified as "just vault storage." Plan: trial Delinea via a **DTP** Jira backlog — first connect Azure OIDC to Delinea, then migrate passwords from **KeePass** to the Delinea secret database, evaluating against the written policy. Dima can start implementing first (Andre has GitHub-Actions-for-UEFIM work ahead). See [[wiki/decisions/2025-05-28-trial-delinea-secrets-management.md]]. [[raw/it_maturity_update-may-28-2025.md]]
+
 ## Sources
 
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
+- [[raw/it_maturity_update-may-28-2025.md]]
 - [[raw/architecture_sql_olap_visualization_1_2025-03-29.md]]
 - [[raw/GitHub_Commit_LFS-Feb-18-2025.md]]
 - [[raw/github_commits-march-26-2025.md]]

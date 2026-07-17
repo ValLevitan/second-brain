@@ -3,7 +3,7 @@ type: topic
 title: InfoSec, secrets management and server infrastructure
 date: 2025-03-19
 aliases: [secrets management, enterprise secrets manager, DevSecOps, Critical Insight, John Luke Peck, Minsk servers, cloud migration costing, Zabbix]
-source-count: 5
+source-count: 6
 open-commitments: 2
 open-questions: 1
 ---
@@ -51,7 +51,7 @@ The thread advanced in a short Apr-16 IT meeting Aaron led ([[wiki/meetings/2025
 
 ## Open questions
 
-- Which secrets-management product fits JVL's stack (Entra vs "Delenia"-type vs Password State-type) — **answered Apr-16** toward a Microsoft/Azure secret server (Azure Key Vault); see [[wiki/decisions/2025-04-16-adopt-azure-microsoft-secret-server.md]]. — [[raw/info_security_server_infrastructure.md]] [[raw/it_automation_schemas_secrets_server-apr-16-2025.md]]
+- Which secrets-management product fits JVL's stack (Entra vs "Delenia"-type vs Password State-type) — **resolved May-28** to **trial Delinea** (scored winner over CyberArk; the Apr-16 Azure framing superseded); see [[wiki/decisions/2025-05-28-trial-delinea-secrets-management.md]]. — [[raw/info_security_server_infrastructure.md]] [[raw/it_maturity_update-may-28-2025.md]]
 
 ## Apr 30 2025 — secrets-management strategy session (define the "why" first)
 
@@ -79,6 +79,16 @@ A distinct application-security thread (not secrets management): the **White Are
 - **The exploit:** the vulnerability does **not** give an attacker filesystem or deeper system access (Dima had "cut off everything possible" previously) but lets them **load and execute a file in RAM** — enough to make JVL's machines part of a **botnet** generating "parasitic timing." It **can't be reproduced in the test environment**. Interim mitigations already in place: CASWH runs only ~**3 hours/day** and the exploited protocols were blocked (though an attacker can just change the port). [[raw/activeMQ_upgrade-may-12-2025.md]]
 - **The fix (ruling):** upgrade ActiveMQ to a version that closes the vulnerability *and* still lets fielded machines connect (the machine/client side can't be changed), and **split ActiveMQ out of the Java app** into its own application; Docker-container-with-3-hour-restart is the fallback if no compatible fixed version exists. Full detail on [[wiki/decisions/2025-05-12-upgrade-activemq-split-from-white-area-host.md]]. [[raw/activeMQ_upgrade-may-12-2025.md]]
 
+## May 28 2025 — Delinea selected (scored winner); trial planned
+
+The next maturity review ([[wiki/meetings/2025-05-28-it-maturity-delinea-secrets.md]]) closed the product question: [[wiki/people/dmitri-kovalchuk.md|Dima Kovalchuk]] and [[wiki/people/andrey-bosik.md|Andre (Bosik)]] presented the completed evaluation to [[wiki/people/aaron.md|Aaron]] and [[wiki/people/val-levitan.md|Val]]. Ruling on [[wiki/decisions/2025-05-28-trial-delinea-secrets-management.md]]. [[raw/it_maturity_update-may-28-2025.md]]
+
+- **The work done since May 7:** the team built an **information-security policy in Confluence** (~8 sections — information security, access management, business continuity, cybersecurity, IT compliance, change management, third-party risk…), a **risk-policy-mapping** table (each risk → one-or-more policies), and a **product comparison** scoring secret-server products against requirements derived from the policy. [[raw/it_maturity_update-may-28-2025.md]]
+- **Winner: Delinea** (transcribed "Delenia"; garbled "the linear" mid-call) scored highest; **CyberArk was second but rejected as "very expensive."** Azure is clarified as **not a secret server** — "just vault storage, just passwords." Delinea gave trial access the prior week; JVL will **trial it first** (not commit). [[raw/it_maturity_update-may-28-2025.md]]
+- **Backlog in Jira's DTP project:** a "secret server / secrets platform" feature item populated with evaluation stories (not the IT-support ticket project, not the IP-initiatives project). First steps: **connect Azure OIDC to Delinea**, then **migrate passwords from KeePass into the Delinea secret database**; evaluate against the policy (e.g. retention-password policy). Andre to build the backlog; Dima can start implementing first (Andre has GitHub-Actions-for-UEFIM work ahead of it). [[raw/it_maturity_update-may-28-2025.md]]
+- **Val's demand: a visual policy diagram.** Val repeatedly pressed that he cannot follow the policy as a hierarchical document — he needs a **visual "map" of the policy** (a subway/transit map, Venn/nested circles, or a **squarified tree map**) showing how the ~8 sections and their cross-linked sub-policies relate, "where we were, where we're going, where we are," to have any language to communicate about IT infrastructure. Andre agreed to draw a base-policy → derived-policy diagram. [[raw/it_maturity_update-may-28-2025.md]]
+- **Val's "policy before infrastructure" doctrine** (also on [[wiki/topics/jvl-operating-principles.md]]): in IT maturity you write policy/intentions first, then fulfil them with infrastructure — his chicken-shack/building-plan analogy; the policy is "the foundation for why your infrastructure exists." He resisted the idea that policy can be neatly *measured* ("hard to measure policies, if possible at all"). Aaron: nothing is implemented yet — the "shift" happening now is defining the secrets-management policy/plan and building the implementation backlog. [[raw/it_maturity_update-may-28-2025.md]]
+
 ## Sources
 
 - [[raw/info_security_server_infrastructure.md]]
@@ -86,3 +96,4 @@ A distinct application-security thread (not secrets management): the **White Are
 - [[raw/secrets_server-apr-30-2025.md]]
 - [[raw/it_department_maturity-may-7-2025.md]]
 - [[raw/activeMQ_upgrade-may-12-2025.md]]
+- [[raw/it_maturity_update-may-28-2025.md]]

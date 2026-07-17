@@ -3,8 +3,8 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 18
-open-commitments: 2
+source-count: 19
+open-commitments: 1
 open-questions: 5
 ---
 
@@ -119,10 +119,19 @@ A certification-testing call ([[wiki/meetings/2025-05-21-ga-coam-class3-meters-s
 - **Lab-subordination / compliance stance.** Val stressed JVL is "**subservient to a laboratory**": if the lab rules JVL wrong, "they can come back, check the previous approvals and revoke them. This will automatically freeze all our games. Instantaneous." He judged the earlier Eclipse pass as luck ("we have good relations, plus this Pavel from Eclipse is not very deep"). Current posture: "**Right now we are compliant. We are behaving as though we're compliant. We are doing our own internal investigations just in case.**" [[raw/sas_intricacies_ga-coam-may-21-2025.md]]
 - **Scheduling.** Next call set for **Wed May 28 at 7am** to hear Vlad's findings (Vlad is unavailable from ~May 29 for about a week); an alternative Mon **June 2** was floated, subject to Seminole-lab availability. [[raw/sas_intricacies_ga-coam-may-21-2025.md]]
 
+## Jackpot processing — Class-3 "constitution" vs Georgia-QAM "legislation" (May 28 2025)
+
+The May-28 reconvene ([[wiki/meetings/2025-05-28-jp-jackpot-class3-georgia-coam.md]]; Val, [[wiki/people/juan-martinez.md|Juan Martinez]], the SAS jackpot/meter expert **[[wiki/people/vladislav-gurin.md|Vladislav Gurin]]** — "Vlad", [[wiki/people/pavel.md|Pavel Frolov]], and a transcript-named "Irina Shishko" whose meter substance is likely Makarych — not reconciled) walked jackpot/meter behaviour and produced Val's architectural ruling. The decision-grade content is on [[wiki/decisions/2025-05-28-class3-meters-constitution-georgia-parallel-logic.md]]. [[raw/jp_treatment-may-28-2025.md]]
+
+- **The mechanics clarified.** No jackpot limit → all wins post to **total coin-out**; a jackpot limit (typical US **$1,200**, the IRS value) makes wins ≥ the limit a **hand-pay**. A separate **key-to-credit limit** must be **less than** the jackpot limit and needs a value; a win above the jackpot limit goes **entirely to hand-pay** regardless of key-to-credit. Whether JVL's Seminole test posted to the correct meters is still to be confirmed against the iView/Bally logs (JVL doesn't write meters to its trace logs — noted as a new requirement). [[raw/jp_treatment-may-28-2025.md]]
+- **The ruling.** JVL "made Georgia QAM fit" by altering Class-3 meter behaviour — wrong, and a latent compliance risk (if an operator lawfully set a jackpot limit, JVL "would immediately fall out of compliance"). Fix: implement **Class-3 meters/logic purely (the "constitution")**, then a **separate parallel logic** for Georgia-QAM **hands validation of jackpot payouts** (a jackpot evaluates the hand count → partial payout of the qualified amount, remainder stays in hand-pay), never touching the Class-3 meters (the meter set "has been working for decades… like rewriting a fundamental constitution"). **SAS 6.03** (~10 changes) is **not** being adopted for meters. Juan to draft requirements; Irina/Pavel to think it over; reconvene ~10 days. [[raw/jp_treatment-may-28-2025.md]]
+- **Georgia has no jackpots today** (amusement, not casino; per Felipe the IRS $1,200 limit doesn't apply), and the jackpot limit doesn't work on the GQL/Class-II products ("it's not C3 yet" — no hand logic). A small jackpot limit could be shipped via RIS for **Eclipse lab demonstration only**, production always no-limit. The Eclipse tester **Steve** is named here in full as **Steve Castro** (the concern: the next tester after him may re-raise the jackpot-limit question). [[raw/jp_treatment-may-28-2025.md]]
+
 ## Open commitments
 
-- [ ] Juan Martinez — retest Class-3 meter behaviour on the "Mega Hit One" T27/D27 machine at the Seminole ("seminal") lab (GLI-approved MH1 software), documenting jackpot/credit-transfer metering — due before the May 28 review; confirm lab access first — [[raw/sas_intricacies_ga-coam-may-21-2025.md]]
-- [ ] Vlad (JVL QA) — run the same GLI-approved MH1 Class-3 software in parallel at JVL and report meter findings — due ~May 28 — [[raw/sas_intricacies_ga-coam-may-21-2025.md]]
+- [x] Juan Martinez — retest Class-3 meter behaviour on the "Mega Hit One" T27/D27 machine at the Seminole lab (GLI-approved MH1 software) — **superseded/rolled into the May-28 review**: testing continued but is not yet conclusive (meter-posting still to be checked vs iView logs); the thread now runs through the Class-3-constitution ruling and Juan's requirements draft — [[raw/sas_intricacies_ga-coam-may-21-2025.md]] [[raw/jp_treatment-may-28-2025.md]]
+- [x] Vlad (JVL QA = [[wiki/people/vladislav-gurin.md|Vladislav Gurin]]) — run the GLI-approved MH1 Class-3 software in parallel at JVL — **reported partially May-28** (jackpot/meter behaviour explained); Vlad then out ~1 week from May-29, so the parallel meter work pauses — [[raw/sas_intricacies_ga-coam-may-21-2025.md]] [[raw/jp_treatment-may-28-2025.md]]
+- [ ] Juan Martinez — draft the requirements for the parallel Class-3 / Georgia-QAM jackpot logic; reconvene in ~10 days — due ~early-mid June — [[raw/jp_treatment-may-28-2025.md]]
 
 ## Open questions
 
@@ -152,3 +161,4 @@ A certification-testing call ([[wiki/meetings/2025-05-21-ga-coam-class3-meters-s
 - [[raw/game_design_review-may-1-2025.md]]
 - [[raw/bdc_intro_to_flex-port_ga-coam-may-20-2025.md]]
 - [[raw/sas_intricacies_ga-coam-may-21-2025.md]]
+- [[raw/jp_treatment-may-28-2025.md]]

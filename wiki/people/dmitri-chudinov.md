@@ -4,7 +4,7 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 22
+source-count: 23
 open-commitments: 3
 open-questions: 0
 ---
@@ -98,9 +98,14 @@ On the May-15 FlexPay/FlexPort progress meeting ([[wiki/meetings/2025-05-15-flex
 
 On the [[wiki/meetings/2025-05-20-flexport-flexpay-smib-action-review.md|May-20 SMIB action review]] Chudinov's **FP256 partial-redemption-to-card** positive cases were done (May 16), negatives in progress (~May 21); he must provide the **API** for the new amount-selection UI screen [[wiki/people/ihar-hrybko.md|Igor Hrybko]] is drawing, and was newly assigned the **simultaneous-dual-architecture connection protocol** (Temporary Wallet + TITO). He begins **remote firmware update** with [[wiki/people/eugine-yavorski.md|Yavorski]] on May 21. His plan to store firmware on **Dropbox was flatly rejected by Val** in favour of a proper artifact store (Nexus/Azure). His FlexPay-Tito work was also referenced on the same-day [[wiki/meetings/2025-05-20-flexpay-flexport-test-plan.md|test-plan meeting]]. See [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]]. [[raw/flex-port_flex-pay_smib_update-may-20-2025.md]] [[raw/flex-port_flex-pay_test_plan-may-20-2025.md]]
 
+## May 29 2025 — e-Wallet/TITO action-list review
+
+On the implementation review ([[wiki/meetings/2025-05-29-ewallet-tito-flexpay-implementation.md]]) Chudinov confirmed **partial redemption is done** (in beta, with the API for [[wiki/people/ihar-hrybko.md|Ihar Hrybko]]'s FlexPay UI). His action item: change the E-Wallet software-update transfer from **64KB → 8KB packets** (Yavorski found 64KB "hangs stably"; 8KB works), then sequence the ~8000 fragments with acknowledgements. He confirmed the packet-size change is no problem; Val/Pavel pushed him to deliver a test build (a couple of known-structure 8KB packets) by the weekend so Yavorski can test Monday — but Yavorski still needs help loading firmware onto a kiosk. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/e-wallet_tito_flex-pay_flex-port_implementation_update-may-29-2025.md]]
+
 ## Sources
 
 - [[raw/architecture_sql_olap_visualization_1_2025-03-29.md]]
+- [[raw/e-wallet_tito_flex-pay_flex-port_implementation_update-may-29-2025.md]]
 - [[raw/architecture_sql_olap_visualization_2_2025-03-29.md]]
 - [[raw/Git_repo_structure_part_2_2025-02-11.md]]
 - [[raw/cms_persona_requirements-march-23-2025.md]]

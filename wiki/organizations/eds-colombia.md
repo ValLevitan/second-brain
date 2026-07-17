@@ -3,7 +3,7 @@ type: organization
 title: EDS (Colombian gaming operation)
 date: 2025-03-29
 aliases: [EDS, EDS PAPS, PAPS, EDS Colombia, EDS USA]
-source-count: 3
+source-count: 4
 open-questions: 3
 disambiguation: "A Colombian gaming company/operation running JVL machines — 'EDS' now looks like the real corporate name, not a garble (Val dictates proposal language 'EDS is a Colombian company'). NOT the same as EDC (Export Development Canada, wiki/organizations/edc.md), whose page carries 'EDS' as a transcript-garble alias. Also distinct (pending owner ruling) from En Grande, Julian's Medellín Ruta operation (wiki/organizations/en-grande.md). Resolve by context: Canadian export financing → EDC; Ruta/Echo/Coljuegos/Medellín → En Grande; Eliana's company / Julian's retainer / Texas distributor → this page."
 ---
@@ -33,6 +33,10 @@ From Val's walkthrough with [[wiki/people/alka-sood.md|Alka]] and [[wiki/people/
 - **On the second deal (335 machines)** the 8% commission is **not paid in cash**: per the written JVL–EDS contract it **accumulates as a credit facility** that EDS "must consume… against future conversion of the **Ruta, R-U-T-A machines** that they currently have in operation" — each conversion sold to EDS at **$2,500 US** (Val: "if I'm not mistaken"). Val: "it becomes our liability… It's actually not a deferred revenue. It's actually received revenue, but it's deferred liability" — with a profit margin built in, so JVL's cash outlay on settling it is minimal. Bookkeeping must show the accumulating credit; Alka to balance it against the books quarterly. [[raw/finance_recurring-april-7-2025.md]]
 - **The contract:** Val forwarded a copy to Alka on the call but suspected it was the wrong one; **Monica has the right contract** (Hector: Monica sent the files to **Julián** — by context [[wiki/people/julian-puerta.md|Julian Puerta]], inference — but the executed version hadn't come back yet); Alka to request both versions from Monica, copying Val, and Hector to file it in the accounting folder. [[raw/finance_recurring-april-7-2025.md]]
 
+## Payment routing / the missed FX-conversion charge (May 29 2025)
+
+On a May-29 call with [[wiki/people/eliana.md|Eliana]] (translated by her daughter [[wiki/people/sofia.md|Sofia]]), Val addressed a **bank charge for converting funds US↔Colombian pesos** that both sides missed in the EDS agreement — small per transaction but substantial across millions. Agreed 50/50 as a mutual omission, with the preferred fix being to **restructure the payment path** so JVL pays Eliana's **US (Miami) bank account** and EDS pays **[[wiki/organizations/elevate.md|Elevate]] directly**, avoiding the conversion. Elevate hadn't formally approved it (Julián was told no) but is judged unlikely to reject an incoming payment. Eliana to meet her Miami accountant to structure the consignments (personal vs company account). Full detail on [[wiki/decisions/2025-05-29-eds-fx-conversion-cost-routing.md]]. This confirms the EDS→Elevate financing leg (cf. the 8% commission / Elevate facility above). [[raw/Eliana-May-29-2025.md]]
+
 ## Open questions
 
 - ~~Is "EDS" the operation's real name or a transcription artifact?~~ **Substantially answered by the Texas call:** Val fluently dictates "EDS is a Colombian company … EDS becomes a distributor … there could be an EDS USA" — strong evidence "EDS" is the real corporate name. Owner confirmation still queued (Tier A) because of the standing EDS→EDC garble alias. [[raw/meeting_with_julian_puerta_texas_eds.md]]
@@ -45,3 +49,4 @@ From Val's walkthrough with [[wiki/people/alka-sood.md|Alka]] and [[wiki/people/
 - [[raw/julian _puerta_nebraska-march-29-2025.md]]
 - [[raw/meeting_with_julian_puerta_texas_eds.md]]
 - [[raw/finance_recurring-april-7-2025.md]]
+- [[raw/Eliana-May-29-2025.md]]

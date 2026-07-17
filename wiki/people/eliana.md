@@ -3,7 +3,7 @@ type: person
 title: Eliana
 date: 2025-03-22
 aliases: [Eliana]
-source-count: 3
+source-count: 4
 open-questions: 2
 ---
 
@@ -15,6 +15,14 @@ Eliana is the principal on the Colombian side of JVL's business there — the pe
 
 - **Texas distributorship offer:** Val's plan has EDS (Eliana's company) become the **importer/distributor of ~400 refurbished JVL machines into Texas**, keeping ~20% of sales, **split 50-50 between Julian and Eliana** — Val: "I am forcing Eliana to accept you as an equal partner in this particular business," with her incentive being to keep paying Julian's consulting fee while he relocates. Val stressed he doesn't need her money — "if Eliana doesn't want it or you don't want to work with Eliana," Marta's company is the fallback distributor. Julian is to build her a business proposal + forecast. See [[wiki/projects/texas-used-machine-distribution.md]]. [[raw/meeting_with_julian_puerta_texas_eds.md]]
 - She "may approach Val" about **changing the terms of the agreement** with JVL; Julian flagged this in confidence on the Nebraska call (Mar 29) and said "the right step for her is to convert the machines in ECO" (verbatim). [[raw/julian _puerta_nebraska-march-29-2025.md]]
+
+## The missed FX-conversion charge (May 29 2025)
+
+On a May-29 call ([[wiki/meetings/2025-05-29-eliana-fx-conversion.md]]) with Val and her daughter/translator [[wiki/people/sofia.md|Sofia]], Eliana and Val settled a **bank charge for converting funds US↔Colombian pesos** that both had missed when forming the EDS agreement — negligible on small amounts but "substantial" across millions in transactions. [[raw/Eliana-May-29-2025.md]]
+
+- Agreed as a **mutual omission → shared 50/50**, but with a preferred fix: **JVL pays Eliana into her US (Miami) bank account** and **her company pays [[wiki/organizations/elevate.md|Elevate]] directly**, avoiding the conversion. Elevate hasn't formally approved (Julián was told no) but is judged unlikely to reject an incoming payment; if it does, the cost reverts to 50/50. Full terms on [[wiki/decisions/2025-05-29-eds-fx-conversion-cost-routing.md]]. [[raw/Eliana-May-29-2025.md]]
+- **Miami accountant + banking mechanics:** Eliana would fly to Miami (Sunday, because Sofia is near her due date) to meet Val on Monday with her Miami accountant, who will explain how to structure the consignments (a single large sum can't be consigned to her account at once) and whether to use her **personal or company account**. Eliana repeatedly framed the JVL relationship as "like family… always willing to collaborate." [[raw/Eliana-May-29-2025.md]]
+- **Sofia** is confirmed here as **Eliana's daughter** and her English translator. [[raw/Eliana-May-29-2025.md]]
 
 ## History
 
@@ -30,3 +38,4 @@ Eliana is the principal on the Colombian side of JVL's business there — the pe
 - [[raw/julian _puerta_nebraska-march-29-2025.md]]
 - [[raw/meeting_with_julian_puerta_texas_eds.md]]
 - [[raw/julian_puerta_jvl_mexico.md]]
+- [[raw/Eliana-May-29-2025.md]]

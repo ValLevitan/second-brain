@@ -4,7 +4,7 @@ title: Eugine Yavorski
 date: 2025-02-18
 aliases: [Eugine Yavorski, Evgeny Yavorsky, Yavorski, Yavorsky, Яворский, Evgeny Egorsky, Egorsky, Егорский, Evgeny, Yevgeny, Zhenya, Женя, Евгений]
 disambiguation: "One of TWO Zhenyas (owner-ruled), both contractors via EAleks Technology: Eugine Yavorski (wiki/people/eugine-yavorski.md) and Evgeniy Alekseev (wiki/people/evgeniy-alekseev.md). Resolve by context; queue if unclear."
-source-count: 19
+source-count: 20
 open-commitments: 2
 ---
 
@@ -82,9 +82,14 @@ On the May-15 FlexPay/FlexPort progress meeting ([[wiki/meetings/2025-05-15-flex
 
 On the [[wiki/meetings/2025-05-20-flexport-flexpay-smib-action-review.md|May-20 SMIB action review]] Yavorski's money-in/out was stabilized; he sends the updated **FlexPort "variant 2"** build (SAS SMIB emulation with full ticket transfer/validation + fake-data logging) to Minsk that evening (login done; log-collection command in progress). He begins the **remote firmware update** work with [[wiki/people/dmitri-chudinov.md|Chudinov]] on **May 21**, starting with the challenge of receiving a **64KB package over WSS** on the constrained board (fallback: shrink to ≤16KB). See [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]]. [[raw/flex-port_flex-pay_smib_update-may-20-2025.md]]
 
+## May 29 2025 — money-in/out corrections; found 8KB update workaround
+
+On the e-Wallet/TITO review ([[wiki/meetings/2025-05-29-ewallet-tito-flexpay-implementation.md]]; rendered "Егорский") Yavorski reported money-in/out was tested and sent to Minsk ~May 20, with corrections to apply: use the **minor-units** field (not the amount field) for credits, return the **real device number from the SAS protocol** (not a stub), and implement real command logging. On the E-Wallet update path he found the **64KB transfer hangs the receive buffer "very stably" but 8KB works safely**, driving the 64KB→8KB packet-size change (Chudinov to implement). He'll add the protocol command Sunday so Minsk can test Monday; still needs help getting firmware onto a kiosk. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/e-wallet_tito_flex-pay_flex-port_implementation_update-may-29-2025.md]]
+
 ## Sources
 
 - [[raw/Embedded_Group_alignment_and_update_2025-02-18.md]]
+- [[raw/e-wallet_tito_flex-pay_flex-port_implementation_update-may-29-2025.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-02-25.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-03-04.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-03-11.md]]

@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 43
+source-count: 44
 open-commitments: 5
 ---
 
@@ -126,9 +126,14 @@ On the IT-maturity session ([[wiki/meetings/2025-05-07-it-department-maturity-se
 
 On the ActiveMQ security-upgrade call ([[wiki/meetings/2025-05-12-activemq-white-area-host-upgrade.md]]) Andrei Bosik (DevOps) is present, checks Jira permissions during the live product-hierarchy cleanup, and is named to provide **OS-layer help** on separating/upgrading ActiveMQ (the hands-on work assigned to an engineer transcribed "Sergei Sandriev"). See [[wiki/decisions/2025-05-12-upgrade-activemq-split-from-white-area-host.md]]. [[raw/activeMQ_upgrade-may-12-2025.md]]
 
+## May 28 2025 — Delinea selection; owns the evaluation backlog
+
+On the maturity review ([[wiki/meetings/2025-05-28-it-maturity-delinea-secrets.md]]) Andre (with Dima) presented the completed policy + risk-mapping + product scoring; **Delinea** won (CyberArk second, "very expensive"). Andre's homework: build the **DTP** Jira feature backlog for the Delinea trial (Azure-OIDC→Delinea, KeePass→Delinea migration, evaluate against policy), and draw the **visual policy diagram** Val demanded (base-policy → derived-policy map). He has GitHub-Actions-for-UEFIM work ahead of implementation. See [[wiki/decisions/2025-05-28-trial-delinea-secrets-management.md]]. [[raw/it_maturity_update-may-28-2025.md]]
+
 ## Sources
 
 - [[raw/GitHub repository structure.md]]
+- [[raw/it_maturity_update-may-28-2025.md]]
 - [[raw/github _structure-pavel-aaron-andrei.md]]
 
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]

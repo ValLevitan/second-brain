@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 64
+source-count: 65
 open-commitments: 1
 ---
 
@@ -168,9 +168,14 @@ On the ~207-min product-discovery session ([[wiki/meetings/2025-05-12-product-di
 
 On a short three-segment session ([[wiki/meetings/2025-05-15-ai-aaron-pdfx-surfsense.md]]) Aaron showed the **working PDFX tool** ("PDF access") he built to turn a sectioned PDF into a structured per-page index + extracted text for insertion into the memory-graph database (demoed on four by-state gaming-report PDFs), flagged the open-source local tool **SurfSense**, and walked Val through running `PDFX process <in> <out>` in a terminal. The working build of the May-14 dictated pipeline. Detail on [[wiki/topics/transcript-knowledge-base-tooling.md]]. [[raw/ai_aaron-may-15-2025.md]] [[raw/ai_aaron-may-15-2025 (1).md]] [[raw/ai_aaron-may-15-2025 (2).md]]
 
+## May 28 2025 — IT-maturity review: Delinea selection
+
+On the maturity review ([[wiki/meetings/2025-05-28-it-maturity-delinea-secrets.md]]) Aaron observed the IT team's progress (policy in Confluence, risk-mapping, product scoring) and validated **Delinea as the scored winner to trial** (see [[wiki/decisions/2025-05-28-trial-delinea-secrets-management.md]]). He coached them to build an executable DTP backlog with expected outcomes *before* starting ("call the par before you play the hole… you can say how long it'll take before you even begin"), pointed them at using AI grounded on their own policy to draft the stories, and framed the whole exercise as first-principles IT maturity — policy/plan first, infrastructure after. He gave the "before vs now" executive summary Val asked to have on record. [[raw/it_maturity_update-may-28-2025.md]]
+
 ## Sources
 
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
+- [[raw/it_maturity_update-may-28-2025.md]]
 - [[raw/git_jira_correlation-april-1-2025.md]]
 - [[raw/gut_hub_jira_relationship-april-2-2025.md]]
 - [[raw/architecture_sql_olap_visualization_2_2025-03-29.md]]

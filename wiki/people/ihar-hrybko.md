@@ -3,7 +3,7 @@ type: person
 title: Ihar Hrybko
 date: 2024-01-01
 aliases: [Ihar Hrybko, Igar Hrybko, Hrybko]
-source-count: 7
+source-count: 8
 disambiguation: "UX/UI (payroll Igar Hrybko; JVL Insights-era consultant). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
 ---
 
@@ -34,9 +34,14 @@ On the setup-screens review ([[wiki/meetings/2025-04-24-omni-setup-screens-june-
 
 On the [[wiki/meetings/2025-05-20-flexport-flexpay-smib-action-review.md|May-20 SMIB action review]] Igor Hrybko ("Игорь Хребко") was reported freed up and assigned the new **user-facing UI screen** letting a player choose how much to move to a card (part of **FP256** partial-redemption-to-card), with [[wiki/people/dmitri-chudinov.md|Chudinov]] supplying the API — targeted ~May 23. See [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]]. [[raw/flex-port_flex-pay_smib_update-may-20-2025.md]]
 
+## May 29 2025 — partial-redemption UI API delivered
+
+On the e-Wallet/TITO review ([[wiki/meetings/2025-05-29-ewallet-tito-flexpay-implementation.md]]) it was confirmed [[wiki/people/dmitri-chudinov.md|Chudinov]] provided Ihar (as "Игорь Хребков") the **API to build the FlexPay partial-redemption user interface** — the front-end side of the now-complete partial-redemption feature. (Continues the May-20 FP256 amount-select screen assignment.) [[raw/e-wallet_tito_flex-pay_flex-port_implementation_update-may-29-2025.md]]
+
 ## Sources
 
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
+- [[raw/e-wallet_tito_flex-pay_flex-port_implementation_update-may-29-2025.md]]
 - [[raw/minsk_staff_roster_2025_names-only.md]]
 - [[raw/flex_pay_scope_gap-mach-27-2025.md]]
 - [[raw/daily_omni_progress-apr-15-2025.md]]

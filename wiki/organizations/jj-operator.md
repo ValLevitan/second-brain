@@ -3,7 +3,7 @@ type: organization
 title: J&J (gaming route operator)
 date: 2025-05-07
 aliases: [J&J, JJ, J and J]
-source-count: 1
+source-count: 2
 ---
 
 # J&J (gaming route operator)
@@ -36,6 +36,11 @@ J&J is a privately-owned US gaming **route operator** (not a manufacturer) that 
 - J&J to view Nebraska games once approved (~30 days). [[raw/intro_jj_jvl-may-7-2025.md]]
 - Scott Todd asked whether JVL makes **electronic pull-tab games for North Dakota**; Val said not yet but is "really interested," his concern being market relationships rather than the game. [[raw/intro_jj_jvl-may-7-2025.md]]
 
+## Nebraska partnership with NTS (noted May 29 2025)
+
+On [[wiki/people/denis-desmarais.md|Denis Desmarais]]'s May-29 report to Val, the largest Omaha operator **[[wiki/organizations/nts-nebraska-technical-services.md|NTS]]** said it covers the **western Nebraska market (past Lincoln) in partnership with J&J** — corroborating J&J's own May-7 note that it is expanding into Nebraska. Denis had also called J&J the day before and they "immediately named the person" Val had spoken to. [[raw/denis_ntc_nebraska-may-29-2025.md]]
+
 ## Sources
 
 - [[raw/intro_jj_jvl-may-7-2025.md]]
+- [[raw/denis_ntc_nebraska-may-29-2025.md]]
