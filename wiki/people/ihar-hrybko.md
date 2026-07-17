@@ -3,7 +3,7 @@ type: person
 title: Ihar Hrybko
 date: 2024-01-01
 aliases: [Ihar Hrybko, Igar Hrybko, Hrybko]
-source-count: 6
+source-count: 7
 disambiguation: "UX/UI (payroll Igar Hrybko; JVL Insights-era consultant). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
 ---
 
@@ -30,6 +30,10 @@ In the Omni daily Val put "tomorrow's attention" on Igor Hrybko: walk **all mach
 
 On the setup-screens review ([[wiki/meetings/2025-04-24-omni-setup-screens-june-scope.md]]) Igor Hrybko (UI/UX designer, "I'm not a senior front-end developer") explained his year's work: transferring the **Figma mockups into React layouts / components (a UI kit)** with a **shared library between the FlexPay setup and the initial setup**, plus the FlexPay GUI and a Docker dev environment; the remaining task is porting business logic from the legacy **XJS (2008)** framework. Val assigned him the new **LGS 630 (6.3.0) multi-language feature** for the initial setup (May 3–17). See [[wiki/decisions/2025-04-24-omni-first-release-legacy-plus-remote-setup-screens.md]]. [[raw/set_up_screen_omni-apr-24-2025.md]]
 
+## May 20 2025 — freed for the FlexPay partial-redemption screen
+
+On the [[wiki/meetings/2025-05-20-flexport-flexpay-smib-action-review.md|May-20 SMIB action review]] Igor Hrybko ("Игорь Хребко") was reported freed up and assigned the new **user-facing UI screen** letting a player choose how much to move to a card (part of **FP256** partial-redemption-to-card), with [[wiki/people/dmitri-chudinov.md|Chudinov]] supplying the API — targeted ~May 23. See [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]]. [[raw/flex-port_flex-pay_smib_update-may-20-2025.md]]
+
 ## Sources
 
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
@@ -38,3 +42,4 @@ On the setup-screens review ([[wiki/meetings/2025-04-24-omni-setup-screens-june-
 - [[raw/daily_omni_progress-apr-15-2025.md]]
 - [[raw/daily_omni_progress-april-16-2025 (Val Levitan's conflicted copy).md]]
 - [[raw/set_up_screen_omni-apr-24-2025.md]]
+- [[raw/flex-port_flex-pay_smib_update-may-20-2025.md]]

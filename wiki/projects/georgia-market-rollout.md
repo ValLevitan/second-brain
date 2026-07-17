@@ -2,8 +2,8 @@
 type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
-aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze]
-source-count: 16
+aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
+source-count: 17
 open-questions: 4
 ---
 
@@ -100,6 +100,13 @@ From the [[wiki/meetings/2025-05-01-game-design-review.md|May-1 review]]: [[raw/
 - **Revenue imperative.** Val's "laser focus": Nebraska, South Dakota, Georgia, and the financial product **must go out** to generate revenue (a hedge against the expected Georgia slot-revenue decline). [[raw/game_design_review-may-1-2025.md]]
 - **Fiery Ice Link + Peach One.** A **bug-fixed Fiery Ice Link** was uploaded to GLI, so **Kai-Ocho ("Gyocho") and Dragons of Rain** get re-approved shortly. The suspected **Peach One bug turned out to be a setting**; the Georgia office retested with instruction from Minsk, so **Peach One with the new nudge goes back to Eclipse** (with the other Peaches). [[raw/game_design_review-may-1-2025.md]]
 
+## BDC financing intro for the financial product (May 20 2025)
+
+On the [[wiki/meetings/2025-05-20-bdc-flexport-ga-coam-financing.md|May-20 BDC call]] Val began arranging capital to finance the Georgia COAM financial-product rollout. He wants **[[wiki/organizations/bdc.md|BDC]]** to finance **JVL itself** (growth capital) so JVL can extend purchase terms to Georgia's many small operators — a different model than the [[wiki/organizations/elevate.md|Elevate]]/[[wiki/organizations/edc.md|EDC]] chain, which approves each operator (impractical across the disaggregated Master License Holders in the ~half-year window). [[raw/bdc_intro_to_flex-port_ga-coam-may-20-2025.md]]
+
+- **Market/financing economics (Val's sizing):** ~**6,000 Georgia locations** × ~**$15,000 equipment/location** = ~**$90M** total market; a **legislative mandate takes effect June 2026** requiring each location to convert fiat→digital onto a prepaid MasterCard, processed by the GLC-sanctioned monopoly **[[wiki/organizations/incom.md|Incom]]** ("Income," a ~$6B US company). JVL currently holds ~**15–20%** of the Georgia skill-game market. Capital ask: ~**$2,000/location** → ~**$12M** for 100% or ~**$6M** at a realistic ~50% share, to generate ~**$45M** revenue over ~3 years (on top of JVL's current ~$8M existing-equipment revenue). Beta testing starts **June 2025**; JVL wants funds by **Jan 1 2026**. [[raw/bdc_intro_to_flex-port_ga-coam-may-20-2025.md]]
+- **What JVL learned about BDC:** no revolvers/lines of credit — only **growth capital** (flexible repayment, interest-only, balloon-on-milestones); larger checks (>$1M) come from BDC's **Growth and Transition Capital** team. Full detail on [[wiki/organizations/bdc.md]]; contact [[wiki/people/baba-fakohora.md|Baba Fakohora]]. (This complements the Mar-23 and Apr-1 financial-product notes above — same ~6,000-location, June-2026-deadline picture.) [[raw/bdc_intro_to_flex-port_ga-coam-may-20-2025.md]]
+
 ## Open questions
 
 - Was JVL genuinely **out of SAS 51/52 compliance** since inception (Eclipse/GLC accepted it as "not applicable"), and does the lab-only auto-clear-lockup fix satisfy the mandatory-event requirement? Pending the Steve/GLC conversations. [[raw/sas_51_52_requirement_interpretation-april-14-2025.md]]
@@ -125,3 +132,4 @@ From the [[wiki/meetings/2025-05-01-game-design-review.md|May-1 review]]: [[raw/
 - [[raw/ga-coam_error_51_52-apr-24-2025.md]]
 - [[raw/business_central_update-apr-28-2025.md]]
 - [[raw/game_design_review-may-1-2025.md]]
+- [[raw/bdc_intro_to_flex-port_ga-coam-may-20-2025.md]]

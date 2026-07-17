@@ -4,7 +4,7 @@ title: Eugine Yavorski
 date: 2025-02-18
 aliases: [Eugine Yavorski, Evgeny Yavorsky, Yavorski, Yavorsky, Яворский, Evgeny Egorsky, Egorsky, Егорский, Evgeny, Yevgeny, Zhenya, Женя, Евгений]
 disambiguation: "One of TWO Zhenyas (owner-ruled), both contractors via EAleks Technology: Eugine Yavorski (wiki/people/eugine-yavorski.md) and Evgeniy Alekseev (wiki/people/evgeniy-alekseev.md). Resolve by context; queue if unclear."
-source-count: 18
+source-count: 19
 open-commitments: 2
 ---
 
@@ -78,6 +78,10 @@ On a short Saturday update ([[wiki/meetings/2025-05-10-flexport-flexpay-debug-up
 
 On the May-15 FlexPay/FlexPort progress meeting ([[wiki/meetings/2025-05-15-flexpay-flexport-progress.md]]) Yavorski reported **money-in ~80%** (memory-buffer overflow on long FlexPay commands being debugged) and money-out first-round done ("very raw"); he'd send the next build to Minsk **Sun May 18** after weekend work. To May-27 he owns: polish TITO both directions, add **WSS logging** (~2–3 days), and **remote update via WSS** (target Wed May 21). Detail on [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]]. [[raw/flex-pay_flex-port_update-may-15-2025.md]]
 
+## May 20 2025 — SMIB "variant 2" build to Minsk; remote-update kickoff
+
+On the [[wiki/meetings/2025-05-20-flexport-flexpay-smib-action-review.md|May-20 SMIB action review]] Yavorski's money-in/out was stabilized; he sends the updated **FlexPort "variant 2"** build (SAS SMIB emulation with full ticket transfer/validation + fake-data logging) to Minsk that evening (login done; log-collection command in progress). He begins the **remote firmware update** work with [[wiki/people/dmitri-chudinov.md|Chudinov]] on **May 21**, starting with the challenge of receiving a **64KB package over WSS** on the constrained board (fallback: shrink to ≤16KB). See [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]]. [[raw/flex-port_flex-pay_smib_update-may-20-2025.md]]
+
 ## Sources
 
 - [[raw/Embedded_Group_alignment_and_update_2025-02-18.md]]
@@ -98,3 +102,4 @@ On the May-15 FlexPay/FlexPort progress meeting ([[wiki/meetings/2025-05-15-flex
 - [[raw/flex_pay_port_hardware_update-may-8-2025.md]]
 - [[raw/flex-port_flex-pay_update-may-10-2025.md]]
 - [[raw/flex-pay_flex-port_update-may-15-2025.md]]
+- [[raw/flex-port_flex-pay_smib_update-may-20-2025.md]]

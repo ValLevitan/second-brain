@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena]
-source-count: 30
+source-count: 32
 ---
 
 # Genadi Peari
@@ -98,6 +98,11 @@ On [[wiki/people/eugine-yavorski.md|Yavorski]]'s weekend debug update ([[wiki/me
 
 On a Val review of [[wiki/people/igor-starovoytov.md|Igor Starovoytov]]'s tower design ([[wiki/meetings/2025-05-15-flex-tower-hardware-design-review.md]]) Genadi took the dispensing tower into **electromechanical detailing**: surface finishes, the clear-plastic scanner-lit handle, three new sensors (door / dispenser-position / card-level), a China-sourced U-shape metal enclosure straight to molds, and a new universal FlexPort main board for [[wiki/people/evgeniy-alekseev.md|Alekseev]]. He is to hand plastics to "Sasha" and switch to **Flex Curve acoustics** (speakers + rapid model), and to design an enclosure for the **3.5-inch industrial board** (4 units to Pavel). He also owes a **red/green LED state table** for the screenless SMIB by Monday. Detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] and [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]]. [[raw/Flex_tower_hardware_design_review-may-15-2025.md]] [[raw/flex-pay_flex-port_update-may-15-2025.md]]
 
+## May 20 2025 — industrial-design review; hardware items handled in absentia
+
+- **Industrial-design call** ([[wiki/meetings/2025-05-20-flex-tower-industrial-design.md]]): the primary Val interlocutor on the FlexPort dashboard bracket and the FlexTower ([[wiki/people/igor-starovoytov.md|Igor Starovoytov]] does the CAD). Val leaned ~90% to a **Linux industrial board Genadi found** for the tower, directed dropping the credit-card swipe from the FlexPort dashboard (it moves to the tower), and set the priority order (Tower → POS → amplifier → TITO server → Flex-S → dashboard plastics). Sasha helped Genadi with the tower plastics; Genadi expects a near-orderable variant next week (awaiting samples). See [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/industrial_design_update-may-20-2025.md]]
+- **SMIB action review (absent):** Genadi missed the same-day [[wiki/meetings/2025-05-20-flexport-flexpay-smib-action-review.md|SMIB action review]], but his hardware items were worked in absentia — SMIB boards (Alekseev confirmed ordered/shipped), the **20-FlexPort deployment kits** (Genadi to circulate the Bill of Material + part number), and the **iVision harness** (~May 23). [[raw/flex-port_flex-pay_smib_update-may-20-2025.md]]
+
 ## Sources
 
 - [[raw/fp-7_performance_analysis_january_13_2025.md]]
@@ -130,3 +135,5 @@ On a Val review of [[wiki/people/igor-starovoytov.md|Igor Starovoytov]]'s tower 
 - [[raw/flex-port_flex-pay_update-may-10-2025.md]]
 - [[raw/Flex_tower_hardware_design_review-may-15-2025.md]]
 - [[raw/flex-pay_flex-port_update-may-15-2025.md]]
+- [[raw/industrial_design_update-may-20-2025.md]]
+- [[raw/flex-port_flex-pay_smib_update-may-20-2025.md]]

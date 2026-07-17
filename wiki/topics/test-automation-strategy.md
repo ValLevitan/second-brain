@@ -2,8 +2,8 @@
 type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
-aliases: [test automation, testing architecture, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD]
-source-count: 9
+aliases: [test automation, testing architecture, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262]
+source-count: 10
 open-commitments: 2
 open-questions: 1
 ---
@@ -113,6 +113,15 @@ On the May-19 branch-structure review ([[wiki/meetings/2025-05-19-github-branch-
 - Val's argument for **main-only (no Dev branch):** a Dev branch tells the QA engineers "you can't do it anyway, we're not counting on you." He would instead **apply pressure** — merge feature branches straight into `main`, require a test, and help them write it — because JVL's QA engineers (**Ivan, Vlad, Alexey**, mentored by [[wiki/people/anton-leshkevich.md|Anton Leshkevich]], the one who can already write tests) have *accepted the challenge* to learn to program properly in **TypeScript** and become "fully qualified QA-engineers." A Dev branch **discourages** exactly that. [[raw/github_branch_structure-may-19-2025.md]]
 - **Bug fixes as test changes, not bug tickets:** Val would rather a missed bug become a **task to fix the test** (the test should have caught it) than a standalone bug branch — a test made a bug possible because the test was incompletely specified. Pavel pushed back (bugs arise for many reasons — version incompatibility, scope-gaps). Left as an ongoing disagreement, not resolved. [[raw/github_branch_structure-may-19-2025.md]]
 
+## May 20 2025 — FlexPay/FlexPort test-plan strategy ("one philosophy" argument)
+
+A Russian test-strategy meeting ([[wiki/meetings/2025-05-20-flexpay-flexport-test-plan.md]]) between [[wiki/people/val-levitan.md|Val]], QA lead [[wiki/people/irina-makarych.md|Irina Makarych]] ("Ира"), [[wiki/people/pavel.md|Pavel Frolov]] and [[wiki/people/evgeniy-alekseev.md|Alekseev]] on how to test the FlexPay/FlexPort system. The transcript internally duplicates (§12, facts taken once); no decision was locked — Val chose to step back and reconsider, and to schedule a follow-up. [[raw/flex-port_flex-pay_test_plan-may-20-2025.md]]
+
+- **Test the system, not the parts in isolation.** Irina and Pavel argued (and Val agreed) that FlexPay and FlexPort **don't work standalone** — testing must cover the whole chain (FlexPay + FlexPort + machine), with plans for a **test jig/bench** for FlexPort (a special tool plus a test program Val asked Alekseev to write). [[raw/flex-port_flex-pay_test_plan-may-20-2025.md]]
+- **The Jira test-plan structure debate.** The existing **Flex Payments (FP) project Test Plan (FP-262)** described **both configurations — Temporary Wallet and TITO — in one plan.** Val pushed to **simplify**: split into **two separate test plans** (one per scheme), describing the two configurations only at the higher **initiative** level, because a plan spanning both huge architectures is unmanageable. Team agreed to split. [[raw/flex-port_flex-pay_test_plan-may-20-2025.md]]
+- **Val's "company needs a philosophy" stance.** He escalated the disagreement into a management point: a company where "you can do it this way or that way, whatever you like" is **rudderless** — "a car racing at huge speed with no steering wheel." He'd "rather fight for my philosophy than run a company where anything goes," while acknowledging the irritation was **at himself** for not conveying it, and that he was only ~75% sure he was right and open to being shown otherwise. This is a recurring Val theme (see the same-week [[wiki/meetings/2025-05-19-github-branch-structure-debate.md|branch-structure debate]]). [[raw/flex-port_flex-pay_test_plan-may-20-2025.md]]
+- **The architecture crux (fed the [[wiki/topics/flexpay-business-architecture-payout-devices.md|payout-device thread]]):** Val's core position is that **Temporary Wallet and TITO should not coexist on one location** and were never designed to; Irina had understood from prior direction that they *could* run together — a communication gap Val took responsibility for. The QA implication: keep **one FlexPay software** that supports both schemes (developers' convenience — "1% code difference," one flash drive) but **test each scheme separately**, never a test spanning both; consider a config toggle to disable one scheme per location. (Val's broader worry — that binding TITO to the FlexPay codebase risks a repeat of the amusement→slot base they later threw away, and that FlexServer may grow into "FlexCloud" — is recorded on the payout-device page.) [[raw/flex-port_flex-pay_test_plan-may-20-2025.md]]
+
 ## Open commitments
 
 - [ ] Val — set up a ~2-hour testing-architecture meeting with Pavel, Irina, Anton and Aaron — due next week (of Jan 15) — [[raw/integration_and_testing_procedures_january_15_2025.md]]
@@ -148,3 +157,4 @@ The earliest captured root of this effort — a Bitbucket-era progress review be
 - [[raw/omni_test_status_review-may-14-2025.md]]
 - [[raw/qa_test_implementation-may-16-2025.md]]
 - [[raw/github_branch_structure-may-19-2025.md]]
+- [[raw/flex-port_flex-pay_test_plan-may-20-2025.md]]

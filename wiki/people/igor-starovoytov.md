@@ -3,8 +3,8 @@ type: person
 title: Igor Starovoytov
 date: 2026-07-13
 aliases: [Igor Starovoytov, Igor, Starovoytov]
+source-count: 6
 disambiguation: "Contractor industrial designer (Flex cabinets; via Genadi Peari). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
-source-count: 5
 ---
 
 # Igor Starovoytov
@@ -27,6 +27,10 @@ In Val's Apr-16 call with Genadi Peari, Igor was assigned to draw the industrial
 
 On the two Val↔Genadi design calls ([[wiki/meetings/2025-05-01-flex-tower-spatial-design-review.md]], [[wiki/meetings/2025-05-02-flex-tower-pos-form-fit-design.md]]) Igor's industrial-design proposal for the card-dispensing tower was reviewed and reshaped: the group dropped the detachable-head concept in favour of a separate two-hood POS reusing the same FlexPort electronics. Val was to hand Igor all the models so he could draw over the weekend, and had a **~6-hour design session with Igor** the evening of May 2. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/flex_tower_spacial_design_review-may-1-2025.md]] [[raw/flex_tower_pos_form_fit_design-may-2-2025.md]]
 
+## May 20 2025 — tower/dashboard design iteration continues
+
+On the May-20 Val↔Genadi industrial-design call ([[wiki/meetings/2025-05-20-flex-tower-industrial-design.md]]) Igor's designs were reviewed third-person: Val judged the current FlexPort dashboard bracket a temporary "conversion" and wants Igor pushed toward a solid, integrated, forward-looking design harmonized with the FlexTower (Val preferred Igor's third variant direction). Igor's CAD continues while Genadi drives the tower toward an orderable state. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/industrial_design_update-may-20-2025.md]]
+
 ## Sources
 
 - [[raw/Flex_V42_C_design_evolution_review_2025-02-27.md]]
@@ -34,3 +38,4 @@ On the two Val↔Genadi design calls ([[wiki/meetings/2025-05-01-flex-tower-spat
 - [[raw/fkex_pay_evolution-apr-16-2025.md]]
 - [[raw/flex_tower_spacial_design_review-may-1-2025.md]]
 - [[raw/flex_tower_pos_form_fit_design-may-2-2025.md]]
+- [[raw/industrial_design_update-may-20-2025.md]]

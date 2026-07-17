@@ -4,7 +4,7 @@ title: Evgeniy Alekseev
 date: 2025-03-11
 aliases: [Evgeniy Alekseev, Evgeny Alekseev, Zhenya Alekseev, Женя Алексеев, Alekseev]
 disambiguation: "One of TWO Zhenyas (owner-ruled), both contractors via EAleks Technology: Eugine Yavorski (wiki/people/eugine-yavorski.md) and Evgeniy Alekseev (wiki/people/evgeniy-alekseev.md). Resolve by context; queue if unclear."
-source-count: 14
+source-count: 16
 open-commitments: 1
 ---
 
@@ -53,6 +53,10 @@ On [[wiki/people/eugine-yavorski.md|Yavorski]]'s short weekend debug update ([[w
 
 On the May-15 FlexPay/FlexPort progress meeting ([[wiki/meetings/2025-05-15-flexpay-flexport-progress.md]]) the **SMIB board** Alekseev laid out is to be ordered Fri May 16 (delivery ~May 27). To that window he owns implementing **USB update handling + firmware-update capability** (target Tue May 20). Detail on [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]]. [[raw/flex-pay_flex-port_update-may-15-2025.md]]
 
+## May 20 2025 — partial USB done; utility + LED table
+
+On the [[wiki/meetings/2025-05-20-flexport-flexpay-smib-action-review.md|May-20 SMIB action review]] Alekseev reported **partial USB done** (detects the stick, reads/decodes the file) with the remaining PC encode → flash → decode → memory-write → verify → switch-version utility targeted ~**May 25/26** (evolving his May-15 "USB update handling, target May 20" item). **MEI bill-acceptor compatibility** on FlexPort is on the backlog. He owns the **Red/Green LED state table** and created the JVL **SMIB GitHub repo** in-meeting. He also attended the same-day [[wiki/meetings/2025-05-20-flexpay-flexport-test-plan.md|test-plan meeting]] ("Лёша"). See [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]]. [[raw/flex-port_flex-pay_smib_update-may-20-2025.md]] [[raw/flex-port_flex-pay_test_plan-may-20-2025.md]]
+
 ## Sources
 
 - [[raw/Embedded_Group_alignment_and_update_2025-03-11.md]]
@@ -69,3 +73,5 @@ On the May-15 FlexPay/FlexPort progress meeting ([[wiki/meetings/2025-05-15-flex
 - [[raw/flex_pay_port_hardware_update-may-8-2025.md]]
 - [[raw/flex-port_flex-pay_update-may-10-2025.md]]
 - [[raw/flex-pay_flex-port_update-may-15-2025.md]]
+- [[raw/flex-port_flex-pay_smib_update-may-20-2025.md]]
+- [[raw/flex-port_flex-pay_test_plan-may-20-2025.md]]

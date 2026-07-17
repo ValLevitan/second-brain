@@ -2,8 +2,8 @@
 type: organization
 title: Elevate
 date: 2026-07-13
-aliases: [Elevate]
-source-count: 4
+aliases: [Elevate, Elevate Finance]
+source-count: 5
 ---
 
 # Elevate
@@ -35,6 +35,10 @@ On the Apr 7 recurring finance call ([[wiki/meetings/2025-04-07-finance-recurrin
 
 For the 8% EDS commission / RUTA-conversion credit riding on these deals, see [[wiki/organizations/eds-colombia.md]].
 
+## May 20 2025 — described on the BDC financing call
+
+On the [[wiki/meetings/2025-05-20-bdc-flexport-ga-coam-financing.md|BDC intro call]] Val described the Elevate model to explain why JVL now wants a *different* financing route for Georgia: Elevate (approved by **[[wiki/organizations/edc.md|EDC]]**) acts as a bank/bridge where **the purchase approval falls on the purchaser** (the operator), who then gets a **five-year term** — a strong incentive to buy from JVL. But Elevate is **slow to approve** and only practical for a **centralized distributor**; Georgia's market is disaggregated across many small Master License Holders, so approving each one in the ~half-year rollout window is impractical. Hence JVL's ask to **[[wiki/organizations/bdc.md|BDC]]** to finance JVL itself. [[raw/bdc_intro_to_flex-port_ga-coam-may-20-2025.md]]
+
 ## History
 
 - **≈May 2024 (date inferred; pre-window source):** Val described the approval chain to Julian Puerta: exporting machines out of Canada is a precondition ("if you do not export machines out of Canada, then you're not going to get Elevate to finance"), and "we have another company, which is called a government company, called **BDC, Business Development Canada**. So they first pre-approve you, then they recommend you to **EDC**, then **EDC brings Elevate**. It's a big, big, big chain" — with requirements like employing people, audited financial statements and years in business. He also noted Julian "already know[s] Elevate finance … how they work," consistent with the later note that Val heard about Scott Rambeau through Julian Porte. The plan discussed then: invoice machines at ~$8,000 (≈$4,500 imported hardware + ≈$3,500 software) with Elevate financing the whole amount over five years. [[raw/julian_puerta_jvl_mexico.md]]
@@ -48,3 +52,4 @@ See [[wiki/organizations/edc.md]], [[wiki/people/james-reble.md]], and [[wiki/pe
 - [[raw/james_reble_elevate_january_14_2025.md]]
 - [[raw/julian_puerta_jvl_mexico.md]]
 - [[raw/finance_recurring-april-7-2025.md]]
+- [[raw/bdc_intro_to_flex-port_ga-coam-may-20-2025.md]]

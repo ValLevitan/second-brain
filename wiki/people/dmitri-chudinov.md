@@ -4,7 +4,7 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 20
+source-count: 22
 open-commitments: 3
 open-questions: 0
 ---
@@ -94,6 +94,10 @@ On the ActiveMQ security-upgrade call ([[wiki/meetings/2025-05-12-activemq-white
 
 On the May-15 FlexPay/FlexPort progress meeting ([[wiki/meetings/2025-05-15-flexpay-flexport-progress.md]]) Chudinov owns completing **partial redemption to card** on the FlexPay kiosk in the May-27 window, and reported he had added a machine-info field to FlexPay carrying what little SAS exposes (machine number + protocol version). Detail on [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]]. [[raw/flex-pay_flex-port_update-may-15-2025.md]]
 
+## May 20 2025 — FP256 negative cases; remote-update; Dropbox rejected
+
+On the [[wiki/meetings/2025-05-20-flexport-flexpay-smib-action-review.md|May-20 SMIB action review]] Chudinov's **FP256 partial-redemption-to-card** positive cases were done (May 16), negatives in progress (~May 21); he must provide the **API** for the new amount-selection UI screen [[wiki/people/ihar-hrybko.md|Igor Hrybko]] is drawing, and was newly assigned the **simultaneous-dual-architecture connection protocol** (Temporary Wallet + TITO). He begins **remote firmware update** with [[wiki/people/eugine-yavorski.md|Yavorski]] on May 21. His plan to store firmware on **Dropbox was flatly rejected by Val** in favour of a proper artifact store (Nexus/Azure). His FlexPay-Tito work was also referenced on the same-day [[wiki/meetings/2025-05-20-flexpay-flexport-test-plan.md|test-plan meeting]]. See [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]]. [[raw/flex-port_flex-pay_smib_update-may-20-2025.md]] [[raw/flex-port_flex-pay_test_plan-may-20-2025.md]]
+
 ## Sources
 
 - [[raw/architecture_sql_olap_visualization_1_2025-03-29.md]]
@@ -116,3 +120,5 @@ On the May-15 FlexPay/FlexPort progress meeting ([[wiki/meetings/2025-05-15-flex
 - [[raw/flex-port_flex-pay_update-may-10-2025.md]]
 - [[raw/activeMQ_upgrade-may-12-2025.md]]
 - [[raw/flex-pay_flex-port_update-may-15-2025.md]]
+- [[raw/flex-port_flex-pay_smib_update-may-20-2025.md]]
+- [[raw/flex-port_flex-pay_test_plan-may-20-2025.md]]

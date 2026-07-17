@@ -3,7 +3,7 @@ type: organization
 title: Incom (payment processor)
 date: 2025-02-27
 aliases: [Incom, InComm, Incomm, Income, Incom Payments]
-source-count: 11
+source-count: 12
 open-commitments: 3
 open-questions: 2
 ---
@@ -95,6 +95,10 @@ The market/solution meeting Val committed to on the Apr 2 SMIB call — owner Va
 - Can a customer use **any** debit card at the kiosk, or only a prize-redemption/COAM card? The industry treats prize-redemption debit as allowed, plain debit as unknown, credit as prohibited. [[raw/incomm_commissioning_plan_february-27-2025.md]]
 - Would the regulator (GLC) treat an open-loop retail gift card (e.g. from Walgreens) the same as a COAM prize-redemption card? Unresolved. [[raw/incomm_commissioning_plan_february-27-2025.md]]
 
+## May 20 2025 — described as the GLC-sanctioned processing monopoly (BDC call)
+
+On the [[wiki/meetings/2025-05-20-bdc-flexport-ga-coam-financing.md|BDC financing call]] Val characterised Incom (transcribed "**Income**") as a **monopoly sanctioned by the Georgia Lottery Corporation (GLC)** — "a six-billion-dollar U.S. company" doing the **last-mile conversion of fiat money to digital money and depositing it on a MasterCard**. JVL's equipment sits between the player and Incom, connected to three points (JVL's platform, the GLC/JLC platform, and Incom's platform), earning revenue from hardware sales and from **processing the fiat→digital conversion**. Consistent with the payment-processor role documented above. [[raw/bdc_intro_to_flex-port_ga-coam-may-20-2025.md]]
+
 ## Open contradictions
 - ~~InComm COAM gift-card meeting date: Apr 3 vs Apr 7.~~ **RESOLVED BY OWNER (2026-07-15): it was a two-day meeting** — Apr 3 (first session, Teams recording) and Apr 7 (second session, derived notes) are BOTH genuine session dates of one meeting. Recorded on one stub [[wiki/meetings/2025-04-03-incomm-coam-gift-card-solutions.md]] (Apr-3 primary, Apr-7 second session; facts attributed per session where distinguishable). This **supersedes** the earlier §11 auto-resolution to Apr-3-only — a derived-notes date can also be a real second-session date.
 
@@ -111,3 +115,4 @@ The market/solution meeting Val committed to on the Apr 2 SMIB call — owner Va
 - [[raw/evolution_flex_pay-april-11-2025.md]]
 - [[raw/incomm_transcript_gacoam_payment_options-april-4-2025.md]]
 - [[raw/incomm_meeting—april-3-2025-1.md]]
+- [[raw/bdc_intro_to_flex-port_ga-coam-may-20-2025.md]]

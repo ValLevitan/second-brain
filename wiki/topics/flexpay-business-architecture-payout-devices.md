@@ -2,8 +2,8 @@
 type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
-aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS]
-source-count: 12
+aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code]
+source-count: 14
 open-commitments: 8
 open-questions: 3
 ---
@@ -142,6 +142,20 @@ A [[wiki/people/val-levitan.md|Val]] ↔ [[wiki/people/pavel.md|Pavel]] session 
 - **Who does what at the Georgia office:** Philippe and **Elizabeth** (described as a competent engineer) can set up the hardware/software environment; but the card-dispensing FlexPay work was built by **Sasha and Dima** (backend), not the Evgenys — so remote access is needed so Sasha/Dima can log in and fix card issues; Yavorski's FlexPort involvement is machine-port/link only. Val wants tests scheduled **early morning** to avoid weekend/night work. [[raw/commission_flex-pay-may-16-2025.md]]
 - **Feature-granularity aside (repeat of Val's Omni doctrine):** the same call restated "don't describe all features up front — a feature should be a small demonstrable deliverable that moves the product one step," and told Irina to write tests in small achievable fragments. (Durable version on [[wiki/topics/omni-core-advancement-and-game-templating.md]].) [[raw/commission_flex-pay-may-16-2025.md]]
 
+## May 20 2025 — industrial-design review: Linux tower, drop the FlexPort swipe
+
+A [[wiki/people/val-levitan.md|Val]] ↔ [[wiki/people/genadi-peari.md|Genadi Peari]] industrial-design call ([[wiki/meetings/2025-05-20-flex-tower-industrial-design.md]]; [[wiki/people/igor-starovoytov.md|Igor Starovoytov]] does the CAD, referenced third-person; "Noah" greeting at the open is unclear). The §3 continuation of the May-1/2/6/15 tower thread. [[raw/industrial_design_update-may-20-2025.md]]
+
+- **FlexPort dashboard bracket — "intended design," not a "conversion."** The first-revision bracket (three borders + scanner, plastic housing with backlight) is acceptable only as a **temporary** solution to reach the market for beta tests; as a permanent solution it "looks temporary." Val wants a **solid, integrated, forward-looking (slightly aggressive) protruding design** — a single **intended specific-purpose** part, not an assembly of separate pieces (the way the **FlexTower** already reads as intended). He preferred the third/bottom design variant as most harmonized with the FlexTower and wants the same language carried onto the next-cabinet panel. [[raw/industrial_design_update-may-20-2025.md]]
+- **Drop the credit-card swipe from the FlexPort dashboard.** The key resolution: the FlexPort dashboard needs **only the optical scanner + monitor/touchscreen + FlexPort behind** — **no card swipe**, because the credit-card swipe **moves to the FlexTower**. The scanner is needed only in the **electronic-wallet** mode (not for TITO), but it's cheap and easy to implement, so keep it **permanent** under a small canopy. (Partial-insert card readers don't read the full track; full-insert readers are gas-station-size and too big — reinforcing the move to the tower.) [[raw/industrial_design_update-may-20-2025.md]]
+- **Linux platform for the tower (~90%).** Val leans strongly to putting the **industrial board Genadi found** (a Linux platform) in the tower — "**bullseye**," marginally bigger but designed well; "don't fight for millimeters… make your life comfortable — we don't need the thinnest/smallest/lightest; we need it to switch on, work, and never break." Open item: how to drive the LCD **monitor + touchscreen** under Linux (touchscreen isn't USB; the monitor interface is **RGB**, needing a controller/adapter or a different LCD type) — Val to work it out with [[wiki/people/pavel.md|Frolov]]. Port plan: USB for scanner, serial for dispenser, serial for the swipe reader. The **POS** will likely also be Linux. [[raw/industrial_design_update-may-20-2025.md]]
+- **Priority order (Val):** Tower (nearly done) → POS → amplifier → **TITO server** → the Flex-S machines (unified design) → the dashboard plastics. Sasha helped with the tower plastics this week; Genadi expects a near-orderable variant next week (awaiting samples). Design guidance: simplest forms, fast, top-cover + bottom-cover assembly, dimensions unimportant. [[raw/industrial_design_update-may-20-2025.md]]
+- **FR7 board supply:** [[wiki/people/pavel.md|Pavel]] launched two samples of the powerful **FR7** boards; the supplier (transcribed "до танка" — likely the **Batang/Datang** board vendor, flagged) will start the **first production batch mid-June** and needs JVL's desired quantity by **early June** (an allocation of ~10 was floated). [[raw/industrial_design_update-may-20-2025.md]]
+
+## May 20 2025 — JCM bill-recycler evaluation for the payout-device line
+
+Val evaluated **[[wiki/organizations/jcm.md|JCM]]** bill recyclers with JCM's [[wiki/people/cliff.md|Cliff]] ([[wiki/meetings/2025-05-20-jcm-bill-recycler-eval.md]]) as a cash-in/cash-out device candidate — the follow-through on the May-12 note that JVL's payout capability needs a **bill-to-bill recycler** (the "Cash Code"/JCM device). The end-of-life **iPro-RC** is out; the friction-feed **UBA Pro-RC** (70–80 notes, doesn't denominate out) and the twin-drum **UBA Pro RT** (Mylar-tape, 30 notes/drum, guaranteed dispense) are the live options, on the JCM ID-003/ID-008 protocols; Val flagged the ~250,000-cycle MTBF as low and asked JCM to verify. Full device catalog on [[wiki/organizations/jcm.md]]. [[raw/JCM_meeting_Cliff__bill_recycler-may-20-2025.md]]
+
 ## Open commitments
 
 - [ ] Pavel — drive the Incom coordination to open a test location (credentials → FlexPay data entry → live card transactions), with deadlines + follow-up, reporting status to Val and Irina — due "оперативно" (no months) — [[raw/commission_flex-pay-may-16-2025.md]]
@@ -173,3 +187,5 @@ A [[wiki/people/val-levitan.md|Val]] ↔ [[wiki/people/pavel.md|Pavel]] session 
 - [[raw/theory_product_discovery_process-may-12-2025.md]]
 - [[raw/Flex_tower_hardware_design_review-may-15-2025.md]]
 - [[raw/commission_flex-pay-may-16-2025.md]]
+- [[raw/industrial_design_update-may-20-2025.md]]
+- [[raw/JCM_meeting_Cliff__bill_recycler-may-20-2025.md]]

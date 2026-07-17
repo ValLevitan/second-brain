@@ -2,8 +2,8 @@
 type: organization
 title: EDC (Export Development Canada)
 date: 2026-07-12
-aliases: [EDC, EDS, Export Development Canada]
-source-count: 2
+aliases: [EDC, EDS, Export Development Canada, Expert Development Canada]
+source-count: 3
 disambiguation: "'EDS' here is a transcript garble of EDC. NOT the same as EDS, the Colombian gaming operation running JVL machines (wiki/organizations/eds-colombia.md). Resolve by context: Canadian export financing / Elevate deal → this page; Colombian operator (Julian Puerta, Eliana, Marta) → eds-colombia."
 ---
 
@@ -22,7 +22,12 @@ Note: the transcript garbles the name as "EDS" in one spot; recorded here as EDC
 
 - **≈May 2024 (date inferred; pre-window source):** Val's own description of the chain places EDC squarely in the middle of the export-financing pipeline: "**BDC** … first pre-approve[s] you, then they recommend you to **EDC**, then **EDC brings Elevate**" — and only for goods actually exported out of Canada (software-only export "they're not going to do it"). [[raw/julian_puerta_jvl_mexico.md]]
 
+## May 20 2025 — reconfirmed in the BDC financing intro
+
+On the [[wiki/meetings/2025-05-20-bdc-flexport-ga-coam-financing.md|BDC call]] Val restated the chain from the borrower's end: **[[wiki/organizations/elevate.md|Elevate]] is a Canadian entity approved by EDC** (transcribed "Expert Development Canada" — a garble of Export Development Canada) that acts as a financial bridge where the **purchase approval falls on the purchaser (the operator), not on JVL**, giving an approved customer a **five-year term**. JVL's problem — Elevate is slow to approve and suits a centralized distributor, not Georgia's many small operators — is why JVL now seeks **BDC** to finance JVL directly instead (see [[wiki/organizations/bdc.md]]). [[raw/bdc_intro_to_flex-port_ga-coam-may-20-2025.md]]
+
 ## Sources
 
 - [[raw/james_reble_elevate_january_14_2025.md]]
 - [[raw/julian_puerta_jvl_mexico.md]]
+- [[raw/bdc_intro_to_flex-port_ga-coam-may-20-2025.md]]

@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 45
+source-count: 47
 open-commitments: 4
 open-questions: 0
 ---
@@ -135,6 +135,11 @@ On the [[wiki/meetings/2025-05-08-flexport-flexpay-tito-standup.md|May-8 FlexPor
 
 On the ActiveMQ security-upgrade call ([[wiki/meetings/2025-05-12-activemq-white-area-host-upgrade.md]]) Pavel (Pasha) takes part in the live Jira product-hierarchy cleanup (moving/deleting stale items around RGS and the White Area Host) alongside Dima Chudinov and Andrei Bosik as they scope the ActiveMQ upgrade + split. See [[wiki/decisions/2025-05-12-upgrade-activemq-split-from-white-area-host.md]]. [[raw/activeMQ_upgrade-may-12-2025.md]]
 
+## May 20 2025 — SMIB action review + test-plan philosophy
+
+- **SMIB action-list review** ([[wiki/meetings/2025-05-20-flexport-flexpay-smib-action-review.md]]): Pavel is Val's engineering co-driver through the action list — he articulated the logging requirement (bridge all SAS commands to FlexPay), asked for **SAS-command logging before** the firmware-update work, and is made **responsible for creating separate GitHub repos per product** (SMIP/FlexPort/WSS/FlexPay) and the Bitbucket→GitHub FlexPay migration (~June 15). See [[wiki/topics/flexpay-mobile-app-and-service-advocates.md]]. [[raw/flex-port_flex-pay_smib_update-may-20-2025.md]]
+- **Test-plan strategy** ([[wiki/meetings/2025-05-20-flexpay-flexport-test-plan.md]]): with QA lead [[wiki/people/irina-makarych.md|Irina]] and [[wiki/people/evgeniy-alekseev.md|Alekseev]], Pavel argued the FlexPay system can't be tested part-by-part and that one FlexPay software should support both schemes while each is **tested separately**. See [[wiki/topics/test-automation-strategy.md]]. [[raw/flex-port_flex-pay_test_plan-may-20-2025.md]]
+
 ## Sources
 
 - [[raw/GitHub repository structure.md]]
@@ -183,3 +188,5 @@ On the ActiveMQ security-upgrade call ([[wiki/meetings/2025-05-12-activemq-white
 - [[raw/evolution_flex_port-apr-23-2025.md]]
 - [[raw/flex_pay_port_hardware_update-may-8-2025.md]]
 - [[raw/activeMQ_upgrade-may-12-2025.md]]
+- [[raw/flex-port_flex-pay_smib_update-may-20-2025.md]]
+- [[raw/flex-port_flex-pay_test_plan-may-20-2025.md]]
