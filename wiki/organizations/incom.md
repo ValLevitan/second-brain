@@ -3,7 +3,7 @@ type: organization
 title: Incom (payment processor)
 date: 2025-02-27
 aliases: [Incom, InComm, Incomm, Income, Incom Payments]
-source-count: 13
+source-count: 14
 open-commitments: 3
 open-questions: 2
 ---
@@ -106,9 +106,14 @@ On the [[wiki/meetings/2025-05-20-bdc-flexport-ga-coam-financing.md|BDC financin
 
 On the FlexPort/FlexPay QA-plan meeting Val described how Incom will support JVL's commissioning: as an **exception**, Incom will create a **fictitious test location** inside **Felipe's Georgia office** (assigned a real location number) so real money flows through Incom's **production** environment. The test is chiefly to prove the **positive money-transfer cycle** with Incom — play → Temporary Wallet → validate at FlexPay (full or partial) → money to Incom → Incom registers → card issued → Incom sends to **JVL Bank**, which takes a **commission** → Incom invoices JVL for the player winnings. **Juan** will receive the Incom reports by **email** (mailboxes created by **Andrei**). Val again characterised Incom as a **~$6-billion company** that moves slowly, so JVL must run thorough internal tests before each live test. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/qa_flex-port_flex-pay_plan-may-30-2025.md]]
 
+## June 2 2025 — live-test planning and the connection-reliability requirement
+
+On the [[wiki/meetings/2025-06-02-incomm-ewallet-live-test-planning.md|June-2 e-Wallet test-planning segment]] Val restated that the first live beta will run at the **JVL Georgia warehouse** connected to Incom's **production** server with real money, and that the **primary objective is a positive, uninterrupted connection to the Incom server** — everything else is secondary. Card issuance requires **three requests to Incom**: register via **OAuth**, supply authentication credentials, then request card **activation** with the required data set. Val's outage policy: block money-out if Incom is unreachable ("no Incom, no money"), keep retrying and auto-recover, and expose a **connection-status indicator** the location owner (not just a technician) can read. The prior week's attempt failed ("rudderless"); the first beta is on hold pending Pavel's debrief with Felipe. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/incomm_testing_progress_report-june-2-2025.md]]
+
 ## Sources
 
 - [[raw/qa_flex-port_flex-pay_plan-may-30-2025.md]]
+- [[raw/incomm_testing_progress_report-june-2-2025.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-02-11.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-02-18.md]]
 - [[raw/incomm_commissioning_plan_february-27-2025.md]]

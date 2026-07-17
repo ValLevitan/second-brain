@@ -3,7 +3,7 @@ type: person
 title: Monica
 date: 2026-07-12
 aliases: [Monica, Monika, Monica Levitan-Fenwick, Monica Levitan]
-source-count: 7
+source-count: 8
 ---
 
 # Monica
@@ -34,10 +34,15 @@ Her surname appears as **Levitan-Fenwick** in the JVL Systems identity note [[ra
 - **Apr 10:** joined Val on the [[wiki/organizations/estrella.md|Estrella]] law-firm intro for Puerto Rico ([[wiki/meetings/2025-04-10-estrella-law-firm-carlos-infante.md]]); Val on the call: "You should send the correspondence to Monica. Monica is in-house counsel for JBL. And most of the compliance." She'll receive the NINTEX engagement paperwork. [[raw/estrella_law_carlos_infante_puerto_rico-april-10-2025.md]]
 - **~Apr (reported Apr 15):** she and Klimovich held a direct call with **LuckyStick's** lawyer over the contract's liability clauses — "вроде бы обо всем договорились," awaiting the revised draft. [[raw/andrei _klimovich_update-apr-15-2025.md]]
 
+## RBC banking-services escalation (Jun 4 2025)
+
+Monica joined [[wiki/people/val-levitan.md|Val]] on the [[wiki/organizations/rbc.md|RBC]] service-review call ([[wiki/meetings/2025-06-04-rbc-services-review.md]]) as the person handling JVL's day-to-day banking administration — she detailed the concrete failures (no access to the **JBL Labs Inc Euro account**, the tedious multi-call GIC deposits, a failed electronic check deposit) and gave her cell for follow-up. Consistent with her finance/banking + compliance role. [[raw/RBC_services_review-june-4-2025.md]]
+
 ## Sources
 
 - [[raw/jvl_online_sync_2025-03-29 1.md]]
 - [[raw/cibc_account_the_january_6_2025.md]]
+- [[raw/RBC_services_review-june-4-2025.md]]
 - [[raw/jvl_systems_corporate_identity_tax_ids_2026-06-04.md]]
 - [[raw/jvl_gameworks_corporate_identity_tax_ids_2026-07-13.md]]
 - [[raw/flex_pay_scope_gap-mach-27-2025.md]]

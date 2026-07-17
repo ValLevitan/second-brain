@@ -3,7 +3,7 @@ type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
 aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus]
-source-count: 15
+source-count: 17
 open-questions: 1
 ---
 
@@ -160,6 +160,16 @@ On the [[wiki/meetings/2025-05-30-game-design-review-jpre.md|May-30 Jackpot Rush
 
 On the [[wiki/meetings/2025-05-30-games-performance-review-juan.md|May-30 games-performance review]] the durable design lesson: in the Puerto Rico/Colombia street markets JVL's games read as **"soft"/basic/aged** against the **Chinese copies** (of Buffalo, Diamond Lotto, Kronos/Zeus) — the copies grasp the *look* even when they don't fully grasp the math. The market now favours **vertical** cabinets; JVL's answer is its **HG6 vertical** titles (Altera V, "La Cuatros Grandes"). A Spanish game name + Spanish options is judged to help win the player. (Market/route detail on [[wiki/projects/puerto-rico-expansion.md]].) [[raw/games_performance_review_juan_martinez-may-30-2025.md]]
 
+## Nebraska compliance mechanics — power meter, the Simon secondary skill, and "no-loss math" (Jun 4–5)
+
+The [[wiki/organizations/eclipse-gaming-lab.md|Eclipse]] lab call ([[wiki/meetings/2025-06-04-eclipse-nebraska-testing-requirements.md]]) and the next-day design session ([[wiki/meetings/2025-06-05-nebraska-regulation-game-design.md]]) turned the [[wiki/projects/nebraska-skill-market.md|Nebraska]] "every play must be winnable" rule into concrete game-design mechanics — the durable design knobs (market-entry consequences on the Nebraska project page). [[raw/eclipse_nebraska_testing_requirement_review-june-4-2025.md]] [[raw/nebraska_regulation_game_design-june-5-2025.md]]
+
+- **Two skill layers.** On a **winning** spin, the **power meter** (press dead-center = 100%, off-center 90/80/70/50%) is a sufficient skill element — you can win **up to 100%** of the bet, never more, on the meter. On a **losing** spin (zero on the reels) the player must be offered a **secondary skill** to recoup **up to 104%** of the bet — most commonly a **Simon-says memory game**. You **cannot award anything without a skill interaction** (Nebraska's attorney: a nudge alone does not qualify; a wrong nudge can zero a winnable outcome). [[raw/eclipse_nebraska_testing_requirement_review-june-4-2025.md]] [[raw/nebraska_regulation_game_design-june-5-2025.md]]
+- **The Simon game as an anti-farming device.** A 3×3 grid, escalating rounds (shortest ~9, up to 25–30 positions), all-or-none, identical pattern each time plus one new light, with machine-controlled **intermissions** to force a memory "brain dump" — deliberately built so recouping 104% is a tedious, low-wage "job" (~$5–10/hour) most players abandon. Players "cheat" it with a dry-erase marker on the button deck; the design counter is escalating difficulty/speed and multiple RNG-selected variants. Val's design instinct: something "counterintuitive to every cell in my body" — designing a bonus meant to be unpleasant. [[raw/nebraska_regulation_game_design-june-5-2025.md]] [[raw/eclipse_nebraska_testing_requirement_review-june-4-2025.md]]
+- **The "design out the loss" alternative (Efim/Val's preferred).** Rather than ship the Simon bonus, build the **math so every spin wins something** — a guaranteed **scatter pay** (e.g. a special symbol on every spin paying ≥5 credits, or even 1¢ as a competitor "Thistle" reportedly does) — so, by the letter of the reg, every play delivers a winnable outcome and the secondary feature is unnecessary. Cost: a **power meter on every spin** (acceptable since players learn to hit spin instantly). Val/Efim judged this easier and cleaner than the Simon path, pending Eclipse/attorney sign-off. The full-game **RTP with perfect play could reach ~150%+** because natural base-game wins stack on the recouped bonus, so the bonus must stay a hard grind. [[raw/nebraska_regulation_game_design-june-5-2025.md]]
+- **Presentation rule.** If the Simon path is used, hide its prompt as a **vague V-deck/player-information message** the player overrides by pressing spin — never interrupt play; the credit-back is modest (104% of bet). The secondary game may live on the **main screen or the digital button deck**. [[raw/nebraska_regulation_game_design-june-5-2025.md]] [[raw/eclipse_nebraska_testing_requirement_review-june-4-2025.md]]
+- **Disable-the-feature legality (open).** The incumbent **Banila/Bonilla** reportedly lets the **operator** disable the secondary feature; Val holds that operator-selectable disabling "breaks the law" while **player-selectable** is a legitimate choice — an unresolved compliance line (Juan to verify the actual game-setting screen). [[raw/nebraska_regulation_game_design-june-5-2025.md]]
+
 ## Open questions
 
 - Should JVL scale the **progressive value to denomination** (Val's view) or keep it flat and only *signal* higher-RTP denominations visually (the industry norm Michael/Efim defend)? Recorded as an **open product debate** — Val's opinion is logged, nothing is changed to the base math. [[raw/game_design_meeting_march_7_2025.md]]
@@ -182,3 +192,5 @@ On the [[wiki/meetings/2025-05-30-games-performance-review-juan.md|May-30 games-
 - [[raw/games_design_recap-may-29-2025.md]]
 - [[raw/game_design_review_jpre-may-30-2025.md]]
 - [[raw/games_performance_review_juan_martinez-may-30-2025.md]]
+- [[raw/eclipse_nebraska_testing_requirement_review-june-4-2025.md]]
+- [[raw/nebraska_regulation_game_design-june-5-2025.md]]

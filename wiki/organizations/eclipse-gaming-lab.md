@@ -3,7 +3,7 @@ type: organization
 title: Eclipse (gaming test lab)
 date: 2025-03-14
 aliases: [Eclipse, Eclipse lab, Xlibs]
-source-count: 2
+source-count: 3
 ---
 
 # Eclipse (gaming test lab)
@@ -17,7 +17,16 @@ Eclipse is a **game-testing/certification lab** JVL uses as an alternative to [[
 
 (Earlier Georgia references to the Eclipse lab live on [[wiki/projects/georgia-market-rollout.md]], sourced to the Feb 19 and Mar 7 transcripts.)
 
+## June 4 2025 — Nebraska testing-requirement review
+
+On the [[wiki/meetings/2025-06-04-eclipse-nebraska-testing-requirements.md|June-4 Nebraska call]] Eclipse walked Val and [[wiki/people/juan-martinez.md|Juan]] through the scope to certify JVL for Nebraska — Nebraska skill rules + **GLI-11 sections** + the **Intralot site controller** (July-1 go-live), the winnable-every-play rule, the Simon/power-meter secondary-skill mechanics, and dual-SAS TITO. Full detail on [[wiki/projects/nebraska-skill-market.md]] and [[wiki/topics/slot-game-design-principles.md]]. This confirms Eclipse as JVL's Nebraska lab. [[raw/eclipse_nebraska_testing_requirement_review-june-4-2025.md]]
+
+### People on the call (external contacts — no individual pages)
+- **Steve** — Eclipse's resident **Nebraska testing lead**; owns the GLI-11 extraction, the SAS/site-controller review, and the skill-requirement testing. [[raw/eclipse_nebraska_testing_requirement_review-june-4-2025.md]]
+- **Nick** — an independent **skill-game legal/patent expert** brought onto the call (41–42 years in the business; Las Vegas + Cleveland/Ohio offices; family firm); has defended skill games in court (Pennsylvania patent case, Texas tribal/unregulated work). Not an Eclipse employee — a recurring expert JVL consults on what qualifies as skill. [[raw/eclipse_nebraska_testing_requirement_review-june-4-2025.md]]
+
 ## Sources
 
 - [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
 - [[raw/products_puerto_rico_touch_fix.md]]
+- [[raw/eclipse_nebraska_testing_requirement_review-june-4-2025.md]]
