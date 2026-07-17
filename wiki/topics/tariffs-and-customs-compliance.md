@@ -2,9 +2,9 @@
 type: topic
 title: Tariffs and customs compliance (US–Canada tariffs, HS-code tracking, CBSA validation)
 date: 2025-04-28
-aliases: [tariffs, US-Canada tariffs, HS code, HS codes, harmonized system, country of origin, intercompany transfer pricing, BOM plus 30, CBSA, Canadian customs, CARM, trade compliance validation, international trade attorney]
-source-count: 6
-open-commitments: 3
+aliases: [tariffs, US-Canada tariffs, HS code, HS codes, harmonized system, country of origin, intercompany transfer pricing, BOM plus 30, CBSA, Canadian customs, CARM, trade compliance validation, international trade attorney, duty drawback, transitional export waiver, slot machine component subcategory]
+source-count: 7
+open-commitments: 6
 open-questions: 2
 ---
 
@@ -72,8 +72,22 @@ Two [[wiki/people/andrei-klimovich.md|Klimovich]] updates restated the tariff pi
 - **Home-version price move (contemplated, not announced):** distributor price possibly **$3,080 → $3,400**; Val's guidance to distributors — describe it as contemplation pending official guidance, honor current prices, reserve stock before any increase. [[raw/update_andrei_klimovich-may-19-2025.md]]
 - **HS 95.04.30.0010** appears on JVL's certificate of origin — used to unstick Burger King's border-held return (see [[wiki/organizations/burger-king.md]]). [[raw/update_andrei_klimovich-may-19-2025.md]]
 
+## CBSA matter — new customs advisors introduced (June 11 2025)
+
+Val was introduced to a **customs / international-trade specialist, [[wiki/people/lucie.md|Lucie]]** ("Lucy"), by the lawyer [[wiki/people/alan.md|Alan]] (a ~40-year advisor of Val's who does not practice customs), for the same **CBSA China-import** problem. Whether Lucie/Alan's firm is the same engagement as [[wiki/people/maria-sanchez.md|Maria Sanchez]]'s Colombian advisory (Apr-30, also on the CBSA matter) is **unresolved — queued Tier A**. [[raw/tariffs_lucie_alan_intro-june-11-2025.md]]
+
+- **The exact classification dispute stated plainly.** JVL imports **formed, painted sheet-metal cabinet parts from China**. Border/customs are charging the **25% steel/aluminum tariff** on them; Val's argument is that a **bent, hole-punched, single-purpose slot-machine cabinet part cannot be repurposed** for anything else, so it belongs in the **slot-machine-component subcategory** (Val cites ~"9500-something") rather than the generic sheet-metal category. Classification hinges on **primary use** (general-use vs specific-use rules); the specific category should prevail if the part can't be used for anything else. Nobody has previously used the subcategory because **components were never a tariff subject for the past 20–30 years** — "we haven't had to." [[raw/tariffs_lucie_alan_intro-june-11-2025.md]]
+- **The end-to-end tariff logic Val relies on:** a **complete slot machine is tariff-exempt China→Canada and Canada→US** (Val: he could fabricate the whole machine in China and ship it through Canada tariff-free); it is only **importing components, assembling, and re-exporting** that draws the 25% on the metal. Val: preserve the current HS numbers as much as possible; the sheet metal enters under one number (he referenced **tariff 84**) and the finished machine exports under the slot-machine number (**~95 / "9400-something"**). [[raw/tariffs_lucie_alan_intro-june-11-2025.md]]
+- **The won-case precedent (Colombia).** Val recounted winning a case where the **government of Colombia** claimed he was merely a **transit center** (China→Colombia) not adding value — he proved value-add via the **change of tariff number** in vs out. (This is the same Colombian trade win handled by [[wiki/people/maria-sanchez.md|Maria Sanchez]]'s firm; here recorded as Val's own framing.) He wants to be careful changing tariff numbers so as not to disturb the value-add argument. [[raw/tariffs_lucie_alan_intro-june-11-2025.md]]
+- **Duty-drawback / transitional export waiver (Alan's angle).** Alan raised the old **duty-drawback licence** he'd seen at companies he sold — reclaim/avoid the tariff when goods are re-exported within a few years — and JVL's **freight forwarder** separately mentioned a **transitional licence / waiver** for goods that are **100% exported** and not consumed in Canada. They will look into whether it still exists (there are **new CBSA rules for release of goods before payment as of April 2025**). [[raw/tariffs_lucie_alan_intro-june-11-2025.md]]
+- **US vs Canada guidance.** Because **Canadian customs decisions are not public** (US ones are), Alan/Lucie's firm can look at how the **US treated a matter under the harmonized system** and reach out to a **US colleague** — relevant because Canada and the US share the harmonized HS system. [[raw/tariffs_lucie_alan_intro-june-11-2025.md]]
+- **Deadline:** JVL has a **CBSA reply due June 16**; Val will send Lucie the current HS classification number + product descriptions, and Alan will respond to CBSA's last email (cc Lucie). If needed, the reply is to say lawyers were retained and request an extension. [[raw/tariffs_lucie_alan_intro-june-11-2025.md]]
+
 ## Open commitments
 
+- [ ] Val — send [[wiki/people/lucie.md|Lucie]] the current HS classification number + product descriptions for the China-origin cabinet metal — due right away (before the June-16 CBSA reply) — [[raw/tariffs_lucie_alan_intro-june-11-2025.md]]
+- [ ] [[wiki/people/alan.md|Alan]] — respond to CBSA's last email (cc Lucie); reply or request an extension by June 16 — due by June 16 — [[raw/tariffs_lucie_alan_intro-june-11-2025.md]]
+- [ ] [[wiki/people/lucie.md|Lucie]] / Alan — study whether JVL qualifies for a duty-drawback / transitional export-waiver licence (and the specific-vs-general HS classification), given the new April-2025 CBSA release rules — due unspecified — [[raw/tariffs_lucie_alan_intro-june-11-2025.md]]
 - [ ] JVL (Lev, priority #1) — add an HS-code field to the vendor card and start tracking HS code + country of origin per item in Navision — due unspecified (top priority) — [[raw/business_central_update-apr-28-2025.md]]
 - [ ] Lev — deliver the Excel report (by vendor / part / HS code + English descriptions) for all China & Korea imports — due evening of May 2 — [[raw/action_list_review_lev_rudky-may-1-2025.md]]
 - [ ] Maria Sanchez's firm — run a conflict check and send Val an hourly-rate proposal for advising on the CBSA response — due Friday (~May 2) — [[raw/cbsa_maria_sanchez-april-30-2025.md]]
@@ -91,3 +105,4 @@ Two [[wiki/people/andrei-klimovich.md|Klimovich]] updates restated the tariff pi
 - [[raw/game_design_review-may-1-2025.md]]
 - [[raw/tariff_effect_jvl_research-may-2-2025.md]]
 - [[raw/update_andrei_klimovich-may-19-2025.md]]
+- [[raw/tariffs_lucie_alan_intro-june-11-2025.md]]

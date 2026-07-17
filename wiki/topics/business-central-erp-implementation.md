@@ -3,7 +3,7 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, posting setup, AI naming convention]
-source-count: 5
+source-count: 7
 open-questions: 2
 ---
 
@@ -50,6 +50,11 @@ Two companies can share a tenant, and can be put into the **same environment** �
 
 An earlier Apr-3 use of BC: it is the intended data source for **software-licensing enforcement**. After an invoice is issued in BC, [[wiki/people/lev-rudky.md|Lev]] exports the **invoice number, software version, operator name and quantity** in a form the **RIS manager** can consume (Excel export easiest given BC's tight Excel integration; a BC API preferred but deferred). BC does *not* track where software is installed — that lives in the RIS manager. See [[wiki/decisions/2025-04-03-license-software-per-operator-not-machine.md]]. [[raw/ris_business_central_integration-april-3-2025.md]]
 
+## June 2025 notes (data stats + Amazon reconciliation)
+
+- **BC is internal-only, per-user-licensed.** On the June-10 data-collection call, "Dima" ruled that **Business Central is for internal company statistics only** — client-facing machine stats can't run through BC because it needs **per-user licensed accounts (~$30 each)**; fixed figures (total money in/out, **net win**) get **posted into BC**, while data needing analysis goes to a cube/BI layer. See [[wiki/topics/olap-power-bi-architecture.md]]. [[raw/architecture_data_collection-june-10-2025.md]]
+- **Amazon → BC reconciliation deferred.** On the June-11 Amazon FBA finance call, an **API integration of Amazon statement data into Business Central** (for auto-reconciliation) was raised and **deferred for later**; for now JVL pulls Amazon statements manually. See [[wiki/topics/echo-home-gaming-device.md]]. [[raw/finance_amazon_sales-june-11-2025.md]]
+
 ## Open questions
 
 - Is it possible to run the US tax add-on on a shared two-company database so it applies **only** to the American company and not the Canadian one? Lev: "Maybe it's possible but I cannot guarantee it without checking." Blocks the single-database license-saving option. [[raw/business_central_implementation_update-apr-17-2025.md]]
@@ -95,3 +100,5 @@ A [[wiki/people/val-levitan.md|Val]] / [[wiki/people/alka-sood.md|Alka Sood]] / 
 - [[raw/business_central_update-apr-28-2025.md]]
 - [[raw/action_list_review_lev_rudky-may-1-2025.md]]
 - [[raw/finance_meeting_gl_account-may-24-2025.md]]
+- [[raw/architecture_data_collection-june-10-2025.md]]
+- [[raw/finance_amazon_sales-june-11-2025.md]]

@@ -3,8 +3,8 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 20
-open-commitments: 1
+source-count: 21
+open-commitments: 2
 open-questions: 5
 ---
 
@@ -133,9 +133,21 @@ The May-28 reconvene ([[wiki/meetings/2025-05-28-jp-jackpot-class3-georgia-coam.
 - **Upgrade-kit pricing coaching:** operator **Selim Kwambuwala** (**Dixie Amusement**) pushed back on the ~$2,800–$3,000 conversion-kit price (Aristocrat gave its Tito upgrade + printers free). Val coached Felipe to defend the price, stop calling it an "upgrade" (the machine is obsolete by legislation, not upgraded), and argue the economics (an operator made ~$55k over 3 years on the software; JVL machines sell ~$13k vs $16–18k for Light & Wonder/Aristocrat). This elaborates [[wiki/decisions/2025-04-01-price-georgia-coam-upgrade-kits.md]]. [[raw/felipe_georgia_market_update-may-29-2025.md]]
 - **e-Wallet is the current priority:** Val told Felipe the in-house test with **Incom** (money moving through the banks) comes first; TITO architecture is a later phase. **Diamond Amusement** gets the new **Peach One** to test (Felipe meeting Sean + tech). [[raw/felipe_georgia_market_update-may-29-2025.md]]
 
+## Jackpot / key-to-meter scope gaps found — the reconvene (June 10 2025)
+
+The ~13-days-later reconvene of the May-28 jackpot call ([[wiki/meetings/2025-06-10-jackpot-meter-sas-scope-gaps.md]]; Val, [[wiki/people/juan-martinez.md|Juan Martinez]], the SAS/meter expert **[[wiki/people/vladislav-gurin.md|Vlad]]**, an "Irina" whose identity is unresolved [Makarych vs Shishko — Tier A], [[wiki/people/pavel.md|Pavel/Pasha]], and an implementer "Zhenya"). Trigger: during JVL's **PH1 submission**, **Eclipse** noted that JVL's **jackpot limit** — unlike other machines — **can't be changed for lab testing** (JVL confirmed the jackpot limit "does not function the way it functions in Class 3" for Georgia COAM software). The call drilled the Class-3 **key-to-meter / jackpot-limit** behaviour and uncovered concrete scope gaps. [[raw/meter_sas_function-june-10-2025.md]]
+
+- **The educational baseline (Juan, 30 yrs gaming ops).** A **jackpot limit** (typical US **$1,200**, an **IRS/federal tax mandate** on wins ≥$1,200) triggers a **hand-pay lockup**. Three ways it resolves: (1) **standard hand-pay** — attendant turns the reset key, the value is wiped from the machine and paid by the casino system (no voucher in system-validation; player waits); (2) **allow-hand-pay-receipt** — the key prints a jackpot ticket and instantly returns the machine to play (Seminole practice); (3) **key-to-credit / key-to-meter** — the win is transferred to the **credit meter** (via a physical key turn, or, on advanced systems like **Bally SDS**, a player self-transfer on the tracking display). In **Georgia it can only be key-to-meter** (money must return to the credit meter for the hands calculation). [[raw/meter_sas_function-june-10-2025.md]]
+- **Scope gap #1 — key-to-meter can't be set higher than the jackpot limit.** Juan established that **key-to-credit is a local casino operations choice (risk/AML), separate from the federal tax jackpot limit**, and can be set **higher** than the jackpot limit (Hard Rock uses ~$1,200 main-floor + $10,000–$50,000 high-limit). JVL had **implemented the key-to-meter limit as forced-lower-than the jackpot limit** — Irina defended it as correct, Val/Juan ruled it a **scope gap**: the two must be **independent values**. [[raw/meter_sas_function-june-10-2025.md]]
+- **Scope gap #2 — no partial transfer against a key-to-credit limit.** The key-to-credit limit is a **threshold** (born from AML; kiosk single-transactions capped ~$3,000): a win above it should transfer **only up to the limit** to the credit meter, leaving the remainder as hand-pay. JVL doesn't do this **partial transfer** today. [[raw/meter_sas_function-june-10-2025.md]]
+- **Scope gap #3 — no lab test for the mechanical key-to-meter case, and a possible double-count.** JVL has **no test case** where a win above the jackpot limit is sent to the credit meter by a mechanical key turn, and the team is unsure whether that path **double-posts** (jackpot meter + hand-pay meter + credit meter) — which would make machines look like they **overpaid / are losing**. Because **Seminole machines have used key-to-credit for ~2 years**, this "could be affecting our numbers." [[raw/meter_sas_function-june-10-2025.md]]
+- **Testing-rig limitation (Vlad).** JVL can only exercise this through a **~20-year-old IGT "SAS Tool" emulator** (a SAS *tool*, not a full SAS *host*), with truncated functionality and no player-tracking screen — so many host-side flows can't be reproduced. Val's counter: the mechanical key-to-meter path is a **mechanical process needing no SAS command**, so JVL should be able to bench-test it directly. [[raw/meter_sas_function-june-10-2025.md]]
+- **Action.** Team to write up all the options, build a **flow diagram**, verify the behaviour and implement (Zhenya to implement the independent/higher key-to-meter + partial transfer). **Class 3 must be made correct first** (Georgia layered on per the [[wiki/decisions/2025-05-28-class3-meters-constitution-georgia-parallel-logic.md|constitution/legislation ruling]]). Next meeting **Friday 10:30**. [[raw/meter_sas_function-june-10-2025.md]]
+
 ## Open commitments
 
 - [x] Juan Martinez — retest Class-3 meter behaviour on the "Mega Hit One" T27/D27 machine at the Seminole lab (GLI-approved MH1 software) — **superseded/rolled into the May-28 review**: testing continued but is not yet conclusive (meter-posting still to be checked vs iView logs); the thread now runs through the Class-3-constitution ruling and Juan's requirements draft — [[raw/sas_intricacies_ga-coam-may-21-2025.md]] [[raw/jp_treatment-may-28-2025.md]]
+- [ ] Team (Juan/Irina/Pavel/Vlad; Zhenya implements) — document the key-to-meter/jackpot-limit options, draw a flow diagram, and implement independent key-to-meter limits (settable higher than the jackpot limit) + partial transfer; verify against Class-3 first — due ~by the Friday-10:30 follow-up (mid-June) — [[raw/meter_sas_function-june-10-2025.md]]
 - [x] Vlad (JVL QA = [[wiki/people/vladislav-gurin.md|Vladislav Gurin]]) — run the GLI-approved MH1 Class-3 software in parallel at JVL — **reported partially May-28** (jackpot/meter behaviour explained); Vlad then out ~1 week from May-29, so the parallel meter work pauses — [[raw/sas_intricacies_ga-coam-may-21-2025.md]] [[raw/jp_treatment-may-28-2025.md]]
 - [ ] Juan Martinez — draft the requirements for the parallel Class-3 / Georgia-QAM jackpot logic; reconvene in ~10 days — due ~early-mid June — [[raw/jp_treatment-may-28-2025.md]]
 
@@ -169,3 +181,4 @@ The May-28 reconvene ([[wiki/meetings/2025-05-28-jp-jackpot-class3-georgia-coam.
 - [[raw/sas_intricacies_ga-coam-may-21-2025.md]]
 - [[raw/jp_treatment-may-28-2025.md]]
 - [[raw/felipe_georgia_market_update-may-29-2025.md]]
+- [[raw/meter_sas_function-june-10-2025.md]]

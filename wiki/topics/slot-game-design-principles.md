@@ -3,7 +3,7 @@ type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
 aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus]
-source-count: 17
+source-count: 18
 open-questions: 1
 ---
 
@@ -155,6 +155,7 @@ On the [[wiki/meetings/2025-05-30-game-design-review-jpre.md|May-30 Jackpot Rush
 - **Max-bet-required is a trap when players don't bet max.** Jackpot Rush ("JPRE") requires ~$3 / 480-credit max bet for progressive eligibility, but average bets run ~$1.20–$1.87, so most players get a **static credit tower** instead of running progressive **meters** — "a tower of credit values is shit… they play these games to chase the progressives." Fix: make progressives **eligible at any bet** (the Georgia version already is; the Florida/Class-3 version needs a math redesign). Michael: "the definition of insanity is doing the same thing… and expecting a different outcome." [[raw/game_design_review_jpre-may-30-2025.md]]
 - **First-button / minimum-bet philosophy (durable).** Val: most players only ever press the **first button**, so a 40¢-vs-60¢ (or 50¢-vs-70¢) minimum is a **20–50% swing** in turnover — "statistically I don't see how we make money being cheaper." Juan's nuance: players do dabble up to button 2/3 (hence $1.20–$1.80 averages), and the market floor min bet is now $0.50–$0.60. Michael's "Ferrari vs Toyota" counter: perceived value can justify a higher entry. [[raw/game_design_review_jpre-may-30-2025.md]]
 - **Denomination scheduler (the "chameleon").** Change bet levels/denoms by **time of day / day of week** — cheaper for the weekday value crowd, higher on weekends. Precedent: **Interblock** built Juan a "Denom scheduler" (dropped 25¢/50¢ after 5 pm). Mechanically = two GLI part-sheets, one enabled by schedule. Ruled to design **across the board**; possible patent worked around via a random trigger. [[raw/game_design_review_jpre-may-30-2025.md]]
+- **Progressive-frequency retune (June 11).** On the June-11 review Michael noted the current **Jackpot Rush** progressive takes ~**2 million games** to hit — at ~1,500 games/day that's **over three years**, so a frequent player never sees it fire; the retune underway (for "Jackpot Rush 2"/"Gaucho 2") aims to bring it down to **~twice a year**, frequent enough for a regular player to witness a hit. Michael also wants to track **progressive payouts (even sub-IRS amounts)** with Pavel to be sure the game isn't over-paying outside the pay table. [[raw/games_design-june-11-2025.md]]
 
 ## "Soft" games vs the market (May 30 — games-performance)
 
@@ -169,6 +170,7 @@ The [[wiki/organizations/eclipse-gaming-lab.md|Eclipse]] lab call ([[wiki/meetin
 - **The "design out the loss" alternative (Efim/Val's preferred).** Rather than ship the Simon bonus, build the **math so every spin wins something** — a guaranteed **scatter pay** (e.g. a special symbol on every spin paying ≥5 credits, or even 1¢ as a competitor "Thistle" reportedly does) — so, by the letter of the reg, every play delivers a winnable outcome and the secondary feature is unnecessary. Cost: a **power meter on every spin** (acceptable since players learn to hit spin instantly). Val/Efim judged this easier and cleaner than the Simon path, pending Eclipse/attorney sign-off. The full-game **RTP with perfect play could reach ~150%+** because natural base-game wins stack on the recouped bonus, so the bonus must stay a hard grind. [[raw/nebraska_regulation_game_design-june-5-2025.md]]
 - **Presentation rule.** If the Simon path is used, hide its prompt as a **vague V-deck/player-information message** the player overrides by pressing spin — never interrupt play; the credit-back is modest (104% of bet). The secondary game may live on the **main screen or the digital button deck**. [[raw/nebraska_regulation_game_design-june-5-2025.md]] [[raw/eclipse_nebraska_testing_requirement_review-june-4-2025.md]]
 - **Disable-the-feature legality (open).** The incumbent **Banila/Bonilla** reportedly lets the **operator** disable the secondary feature; Val holds that operator-selectable disabling "breaks the law" while **player-selectable** is a legitimate choice — an unresolved compliance line (Juan to verify the actual game-setting screen). [[raw/nebraska_regulation_game_design-june-5-2025.md]]
+- **Multiple light-pattern variations (June 11 anti-farming extension).** Players defeat the Simon memory game by writing the light pattern down with a **dry-erase marker**; JVL's counter is to run **two or three RNG-selected light-pattern variations** so a player must learn several — *unless* a reg requires the bonus to **behave identically every time** (unknown — Juan to confirm with Eclipse; competitors observed using "four times the light pattern," others up to nine, inconsistently, and **not documented in the regs or Eclipse/GLI materials**). Val judged the **primary power meter "nailed down"**; only the **secondary bonus** needs full design understanding. [[raw/games_design-june-11-2025.md]]
 
 ## Open questions
 
@@ -194,3 +196,4 @@ The [[wiki/organizations/eclipse-gaming-lab.md|Eclipse]] lab call ([[wiki/meetin
 - [[raw/games_performance_review_juan_martinez-may-30-2025.md]]
 - [[raw/eclipse_nebraska_testing_requirement_review-june-4-2025.md]]
 - [[raw/nebraska_regulation_game_design-june-5-2025.md]]
+- [[raw/games_design-june-11-2025.md]]

@@ -3,7 +3,7 @@ type: project
 title: South Dakota VLT market entry
 date: 2025-01-22
 aliases: [South Dakota, SD VLT, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950, V43, D27, SD cap, Bioliches, Gypsy Spirit, Crazy Colt, Queen of Luxor, Liberty Spin, Rodeo Spin]
-source-count: 9
+source-count: 10
 ---
 
 # South Dakota VLT market entry
@@ -83,6 +83,10 @@ On the [[wiki/meetings/2025-05-29-games-design-recap.md|May-29 games recap]], [[
 - **Queen of Luxor** (GD626) — in **design** (Lena finishing screens; [[wiki/people/efim-podvoiski.md|Efim]] on the math — a reel-three pick bonus, 1/2/3 "onks" set the picks, plus free spins on reels 1–3). **Crazy Colt** — top wins being capped for market compliance; **Liberty Spin** and **Rodeo Spin** — still to-do. [[raw/games_design_recap-may-29-2025.md]]
 - Art resources (**Dima, Andy, Igor Metelski**, **Anton**) are shared with Omni/Calle Ocho, limiting SD/Colombia throughput; **Vitaly** records regulator videos. No Spanish translation needed for SD. [[raw/games_design_recap-may-29-2025.md]]
 
+## Software approved by GLI; cabinet/accessory approvals pending (June 11 2025)
+
+On the [[wiki/meetings/2025-06-11-game-design-performance-nebraska.md|June-11 game-performance review]] [[wiki/people/juan-martinez.md|Juan]] reported JVL "**just got the South Dakota software approval from GLI**" — the certification that had been awaited since the May-13 "GLI broke a monitor during retesting" note. Still pending: the **cabinet and accessory (hardware) approvals** from GLI; per **Ivan**, GLI has an outstanding **request-for-information that [[wiki/people/genadi-peari.md|Gennady]] owes GLI**, which Juan will dig into. [[raw/games_design-june-11-2025.md]]
+
 ## Who
 
 - Driven by [[wiki/people/val-levitan.md|Val]] with [[wiki/people/juan-martinez.md|Juan]] (regulator/operator relationship, field side) and [[wiki/people/pavel.md|Pavel]] (Minsk software); [[wiki/people/irina-makarych.md|Irina]] on printer testing and GLI diffs, [[wiki/people/sebastian.md|Sebastian]] on field service, [[wiki/people/ivan.md|Ivan]] on GLI scheduling. **Lonnie** is the SD lottery-lab tester; **"Alani"** appears as the SD lottery (supplied the SAS adapter, requested the permit-number rename) — whether Alani is the lottery entity or a person there is unclear (see Owner Decisions). [[raw/sd_vlt_recap-jan-22-2025.md]] [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
@@ -98,3 +102,4 @@ On the [[wiki/meetings/2025-05-29-games-design-recap.md|May-29 games recap]], [[
 - [[raw/mg_oil_south_dakota_intro-may-13-2025.md]]
 - [[raw/game_design_nebraska_south_dakota-may-15-2025.md]]
 - [[raw/games_design_recap-may-29-2025.md]]
+- [[raw/games_design-june-11-2025.md]]

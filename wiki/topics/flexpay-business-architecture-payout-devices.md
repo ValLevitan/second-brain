@@ -2,8 +2,8 @@
 type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
-aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS]
-source-count: 24
+aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS]
+source-count: 25
 open-commitments: 8
 open-questions: 3
 ---
@@ -237,6 +237,17 @@ The ~10-minute segment after the progress review ([[wiki/meetings/2025-06-02-inc
 - **The commercial clock.** "We are in June" — Val wants the product **in the marketplace ~Oct 1** (actually entering/operating in locations), running **Oct–Nov–Dec** to gather momentum, then **taking orders and delivering starting January**. [[raw/use_cases_flex-tower_flex-POS-june-4-2025.md]]
 - **Method.** Use cases are written from a **persona** perspective; JVL already has personas in **Confluence and GitHub** (the latest version in GitHub) — groom the personas first. Felipe will draft the use cases first (Val encouraged heavy use of ChatGPT, which already "knows FlexPay" from Val), then review together. Next session **Friday 6–8 am ET** (to catch Minsk) to align with **Igor** (the GUI designer — Hrybko) and **[[wiki/people/pavel.md|Pavel]]** (system architecture); Felipe to be added to that meeting. [[raw/use_cases_flex-tower_flex-POS-june-4-2025.md]]
 
+## June 11 2025 — the manual "POS 2" model for Mother-Goose operators
+
+A [[wiki/people/val-levitan.md|Val]] ↔ [[wiki/people/juan-martinez.md|Juan Martinez]] session (with the new engineer [[wiki/people/nathan-carver.md|Nathan]] onboarding; [[wiki/people/felipe-miranda.md|Felipe]] referenced) worked through a **new, deliberately minimal business model** Val had messaged the team about — a **fully manual point-of-sale** that lets the cheapest Georgia street operators comply without TITO. ([[wiki/meetings/2025-06-11-pos-mother-goose-manual-model.md]]) [[raw/POS_mutha_goose_architecture-june-11-2025.md]]
+
+- **"Mother Goose"** is the Georgia **legacy pulse-based ticketing/redemption system** many street locations already run (per Felipe, **RKS** makes the original; two or three other systems now print similar tickets). Its dot-matrix ticket carries a **confidence number** (sample "5-665-255-941"), a serial ("GM-RU-06-13-599"), a voucher number, date/time and value. Mother Goose has **no validation** and JVL has **no access to its database**. [[raw/POS_mutha_goose_architecture-june-11-2025.md]]
+- **The model (Val's operator persona).** Playing "Val the operator" with ~200–300 marginal, capital-intensive locations facing ~**$10,000/location** to convert to TITO, Val proposes a **standalone POS device placed next to the existing Mother Goose printer**: the clerk **manually keys in** the ticket's confidence/serial/voucher number **and amount**, the POS connects to **[[wiki/organizations/incom.md|Incom]]**, and it **pairs a prepaid MasterCard** with that number and win value (charging the customer a **$2 fee**). A **completely manual process** — no TITO, no SAS, no printers-in-machines, no server, no cabinet re-work. It adds **no security and no technical improvement** — it simply achieves **full legislative compliance for almost no money**. [[raw/POS_mutha_goose_architecture-june-11-2025.md]]
+- **Fraud is out of scope here.** Whether the Mother Goose ticket is still open in its own system is "**between the operation and GLC**," not JVL's concern — a reversal of the [[#the-gamoa-pulse-security-objection-apr-11|earlier Incom "onus is on the signer" stance]] because this is a **street business** where operators know their players by first name; fraud isn't a practical problem ("it would never work in a casino environment… but street business is street business"). [[raw/POS_mutha_goose_architecture-june-11-2025.md]]
+- **Two POS forms now.** JVL will build **"POS 2"** (this manual Mother-Goose model) **and** a **"POS TITO" / ticket-related POS** (connects to the TITO server + FlexPort). **Physically the same device**, but internally different — the TITO version needs a Tito server, FlexPort, printers; POS 2 needs none of that. The **architecture underneath POS 2 must still be expandable into TITO / ticket validation** later, but the **user interface stays dead simple**. [[raw/POS_mutha_goose_architecture-june-11-2025.md]]
+- **Go-to-market thinking.** Val's read: it's the **least-expensive compliance solution** he's seen (at the shows every POS was a sub-component of a bigger kiosk ecosystem, never standalone), so if JVL is first with it before the **June-1-2026** deadline it could win "majority of the market." Idea floated: **give the POS away free in exchange for a 3–5-year exclusive agreement**, monetising through **recurring transaction processing** and any future upgrades. Operators can later add a Tito server + printers to graduate to TITO. [[raw/POS_mutha_goose_architecture-june-11-2025.md]]
+- Juan understood the ask; deep-dive with Nathan (FlexPay/FlexPort background) pushed to the **Friday 6 a.m.** session. [[raw/POS_mutha_goose_architecture-june-11-2025.md]]
+
 ## History — why FlexPay started (2023–2024 origin)
 
 A research-synthesis document (an AI narrative built over JVL transcripts, dated to the May-27-2025 staging window — not itself a meeting transcript; treat its figures as second-hand summaries of 2023–2024 discussions) captures the origin of the whole FlexPay / GA-COAM initiative. [[raw/why_flex-pay_started-may-27-2025.md]]
@@ -292,3 +303,4 @@ A research-synthesis document (an AI narrative built over JVL transcripts, dated
 - [[raw/flex-pay_flex-port_progress_review-june-2-2025.md]]
 - [[raw/incomm_testing_progress_report-june-2-2025.md]]
 - [[raw/use_cases_flex-tower_flex-POS-june-4-2025.md]]
+- [[raw/POS_mutha_goose_architecture-june-11-2025.md]]

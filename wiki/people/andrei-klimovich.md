@@ -4,7 +4,7 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 15
+source-count: 16
 open-commitments: 8
 open-questions: 0
 ---
@@ -109,6 +109,10 @@ From the June-4 update ([[wiki/meetings/2025-06-04-klimovich-progress-update.md]
 - **Partnership managers cut.** Andrei parted with the (fixed) partnership managers after May — saving ~**$700/month** — keeping only the commission-based one (paid a referral fee only if an integration brings money). [[raw/andrei_klimovich-progress_update-june-4-2025.md]]
 - **Late-June ECO expo.** Nearly ready (flyers, discount coupons); **Felipe** going with Andrei, flights bought; **Sebastian** checking 4 machines — plan to send **2 Holmworthy + 2 Amusementworthy** with pedestals. A Texas buyer ("Lev/Leo") reports his machine "is a blast," players glued to Texas Hold'em (single mention; not the same as [[wiki/people/lev-rudky.md|Lev Rudky]] — recorded, not forced). [[raw/andrei_klimovich-progress_update-june-4-2025.md]]
 
+## June 11 2025 — Amazon FBA finance walk-through
+
+- On the [[wiki/meetings/2025-06-11-amazon-echo-sales-finance.md|June-11 finance call]] Andrei walked Val and [[wiki/people/hector.md|Hector]] through the ECHO Amazon **FBA/consignment** mechanics (ships from JVL Canada/Labs → Amazon US warehouse; 8% referral + storage fees; **9 sales** since Jan 29; bi-weekly statements/disbursements). He flagged the **serial-number/customer-anonymity gap** (Amazon reveals only a nickname + state/zip, no serial) and the **returns** options (JVL chose return-to-seller), and offered JVL its own Amazon-portal access; the self-registration warranty idea and a separate Amazon revenue category were agreed. See [[wiki/topics/echo-home-gaming-device.md]]. [[raw/finance_amazon_sales-june-11-2025.md]]
+
 ## Open commitments
 
 - [ ] Andrei Klimovich — run the $1,000 top-keyword Amazon test + ~10 new-keyword experiments; if no sale, pause Amazon keyword-search ads — due unspecified — [[raw/update_andrei_klimovich-may-19-2025.md]]
@@ -151,3 +155,4 @@ Five older sources (staged 2025-03-29, internally dated 2023–2024) place Andre
 - [[raw/andrei_klimovich_update-may-16-2025.md]]
 - [[raw/update_andrei_klimovich-may-19-2025.md]]
 - [[raw/andrei_klimovich-progress_update-june-4-2025.md]]
+- [[raw/finance_amazon_sales-june-11-2025.md]]
