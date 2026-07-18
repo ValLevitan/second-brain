@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna]
-source-count: 29
+source-count: 30
 open-commitments: 1
 ---
 
@@ -121,6 +121,10 @@ On the games recap Lena ("Elena") reported the **South Dakota VLT** production m
 
 On the [[wiki/meetings/2025-06-12-games-design-priorities-review.md|June-12 priorities review]] Lena reported the last South Dakota game (**Rodeo Spin**) almost done (posting to Confluence), and was set on the next art: the two Rage-Studio **Fiery Ice Link** titles — start with **Glorosa** (evolve from approved materials), then **Havana Noches** — on the **V1000** cabinet, with the Glorosa free-spins experience still to be designed. She also pushed for South Dakota vertical art (already done) not to stall, and got QA-branch awareness assigned. See [[wiki/topics/game-art-animation-production-pipeline.md]] and [[wiki/projects/south-dakota-vlt-market.md]]. [[raw/games_design-june-12-2025.md]]
 
+## June 19 2025 — games review
+
+- On the [[wiki/meetings/2025-06-19-games-design-nebraska-market.md|June-19 games review]] Lena reported active work on **Coyote Omni** and **Golden Husk** (slot bonuses + progressive sign), the **South Dakota vertical** in production, and redesigning **La Rosa** from a 3×3 Georgia game into the **FireEyes Link** family (symbols discussed with Michael). She flagged the Golden Husk secondary bonus as "something completely new" needing scene-assembly time. See [[wiki/topics/slot-game-design-principles.md]]. [[raw/Games_design-june-19-2025.md]]
+
 ## Sources
 
 - [[raw/games_design_recap-may-29-2025.md]]
@@ -153,3 +157,4 @@ On the [[wiki/meetings/2025-06-12-games-design-priorities-review.md|June-12 prio
 - [[raw/game_design_review-may-1-2025.md]]
 - [[raw/tools_adaptation_games_design_department-may-7-2025.md]]
 - [[raw/game_design-may-8-2025.md]]
+- [[raw/Games_design-june-19-2025.md]]

@@ -3,7 +3,7 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 2
+source-count: 5
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
 
@@ -26,7 +26,15 @@ Nathan Carver is a **software engineer / engineering-leadership contractor** bro
 
 - On the [[wiki/meetings/2025-06-11-pos-mother-goose-manual-model.md|June-11 POS meeting]] Nathan was being brought up to speed on the new manual **POS** compliance model for Mother-Goose-only operators; Juan noted "there's a lot here for Nathan to digest… understanding FlexPay, understanding FlexPort," and the deep-dive was pushed to the Friday 6 a.m. session. [[raw/POS_mutha_goose_architecture-june-11-2025.md]]
 
+## June 18–19 2025 — driving the FlexPOS use cases
+
+- On the [[wiki/meetings/2025-06-18-gcoam-ticket-redemption-workflow.md|June-18 ticket-redemption session]] Nathan ran the workflow whiteboarding on **Confluence**, mapping the Tito redemption use case; he confirmed engineers still track in **Jira** (empty FlexTower/FlexPOS GitHub repos exist) and took the direction to build a JIRA requirements ticket for the "scan & validate" work. Val **redirected him from FlexTower to FlexPOS** (now priority #1) and to a meeting with [[wiki/people/aaron.md|Aaron]] to organize Jira. [[raw/about_tickets_redemption-gcoam-june-18–2025.md]]
+- On the [[wiki/meetings/2025-06-19-flex-pos-use-case-design.md|June-19 Flex POS session]] Nathan wrote the initial **"Manual Ticket Redemption for FlexPOS"** use case with [[wiki/people/pavel.md|Pavel]] for the Sept-1 beta — the Incom three-call API, the $2-fee flow, and the personas. (Full substance on [[wiki/topics/flexpay-business-architecture-payout-devices.md]].) [[raw/flex_POS-use_case_architecture_requirements-june-19-2025.md]] [[raw/flex-POS_design-june-19-2025.md]]
+
 ## Sources
 
 - [[raw/nathan_juan-initial_meeting-june-9-2025.md]]
 - [[raw/POS_mutha_goose_architecture-june-11-2025.md]]
+- [[raw/about_tickets_redemption-gcoam-june-18–2025.md]]
+- [[raw/flex-POS_design-june-19-2025.md]]
+- [[raw/flex_POS-use_case_architecture_requirements-june-19-2025.md]]

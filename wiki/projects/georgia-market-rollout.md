@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 24
+source-count: 26
 open-commitments: 3
 open-questions: 5
 ---
@@ -170,6 +170,15 @@ The Tuesday-11am follow-up to the [[#jackpot--key-to-meter-flowchart-review-june
 - **Key-to-meter behaviour still to be fixed (reaffirms the June-10 scope gaps).** The remaining problem: the **key-to-meter should be able to be set higher than the jackpot limit**, and when the jackpot exceeds the credit meter it must be treated as a **partial transaction** — so the logic must be changed to support a partial transfer. [[raw/Metering_class_3-june-17-2025.md]]
 - **Georgia-QAM flow diagram deferred to a dedicated meeting.** With Class-3 metering broadly confirmed, Val's open concern is how the (revised) key-to-meter behaviour transplants onto **Georgia-QAM** logic (the hand-paid-jackpot → credit-meter transfer, and what can/can't be transferred out) — "this is where a flow diagram is needed." Since it can't be done on the fly, a **separate Georgia-QAM flow meeting** was set for **the following Monday** (after 10am, same slot as the call). For Georgia the partial key-to-credit case will be rare — the plan is to keep the key-to-credit limit very high ($20k–$50k) so the full amount transfers via the hands process. [[raw/Metering_class_3-june-17-2025.md]]
 
+## Phased Tito/FlexPOS beta rollout schedule (June 18 2025)
+
+On the [[wiki/meetings/2025-06-18-gcoam-ticket-redemption-workflow.md|June-18 ticket-redemption session]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/nathan-carver.md|Nathan Carver]], [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/genadi-peari.md|Genadi Peari]]) Val laid out a phased beta plan at JVL's own registered Georgia warehouse/showroom location (3 machines — **1 JVL + 2 competitor**, all with Muda-Goose boards + a printer + a POS). The device/architecture detail is on [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. (§12: transcript internally duplicates — facts once.) [[raw/about_tickets_redemption-gcoam-june-18–2025.md]]
+
+- **The compliance clock (restated).** Georgia prohibits gambling (legalized via the "skill" reel-realignment fiction ~20 years ago) and cash payouts; the new law converts wins to a **prepaid MasterCard, mandatory June 1 2026**. **3–5 players** are gearing up redemption schemes. A master license holder (multiple machines, multiple locations; Georgia bans vertical integration between master/manufacturer/location) with ~1,000 machines faces a "crazy investment" — JVL's play is a **"Lego kit"** letting an operator do the cheapest Mutagoose-POS compliance or grow into a full Tito infrastructure, "to practically monopolize the market." [[raw/about_tickets_redemption-gcoam-june-18–2025.md]]
+- **The phased beta (Val's schedule).** **Sept 1** — beta 1: the most primitive POS (communicates only to Incom), manual ticket-value entry, validate card, 3 machines. **Sept 15** — beta 2: wedge the POS between Muda-Goose and the printer, capture values, cashier selects. **Sept 30** — step 3: connect the **Flex Tower** to the POS, card dispensed through the tower. **Oct 15** — engage the **Tito** concept: machines retrofitted with printers, Tito server in the location, Tower + POS on **WSS protocol**, JVL SMIB on the second SAS port. **Dec 15** — present the full "financial solution infrastructure" (the Lego-kit catalog). [[raw/about_tickets_redemption-gcoam-june-18–2025.md]]
+- **FlexPOS is now priority #1, FlexTower #2.** Val redirected Nathan to POS; a "beta release" = a live in-house test with Incom validating a Move-the-Goose ticket through a JVL FlexPOS. [[wiki/people/juan-martinez.md|Juan Martinez]] booked a Friday **FlexTower/POS mock-up-screens** meeting. [[raw/about_tickets_redemption-gcoam-june-18–2025.md]]
+- **June 19 — Sept-1 beta scope confirmed.** The [[wiki/meetings/2025-06-19-flex-pos-use-case-design.md|next-morning Flex POS session]] wrote the "Manual Ticket Redemption for FlexPOS" use case for the Sept-1 beta (the handshake between FlexPOS and Incom + the $2-fee deduction, at the registered warehouse location); Tito/barcode validation and OCR are out of MVP. [[raw/flex_POS-use_case_architecture_requirements-june-19-2025.md]]
+
 ## Open commitments
 
 - [x] Vlad (Vladislav Gurin) — produce a **block diagram of every JVL meter** (maximum set, proper names, used or not) for the Tuesday-11am follow-up (~June 17), so the team can agree which meter increments in the key-to-meter case — **discharged June 17** (Vlad presented the ~300-meter table; tests 1 & 2 passed) — [[raw/jp_meters-june-12-2025.md]] [[raw/Metering_class_3-june-17-2025.md]]
@@ -213,3 +222,5 @@ The Tuesday-11am follow-up to the [[#jackpot--key-to-meter-flowchart-review-june
 - [[raw/jp_meters-june-12-2025.md]]
 - [[raw/games_design-june-12-2025.md]]
 - [[raw/Metering_class_3-june-17-2025.md]]
+- [[raw/about_tickets_redemption-gcoam-june-18–2025.md]]
+- [[raw/flex_POS-use_case_architecture_requirements-june-19-2025.md]]

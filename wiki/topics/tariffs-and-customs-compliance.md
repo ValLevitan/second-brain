@@ -3,7 +3,7 @@ type: topic
 title: Tariffs and customs compliance (US–Canada tariffs, HS-code tracking, CBSA validation)
 date: 2025-04-28
 aliases: [tariffs, US-Canada tariffs, HS code, HS codes, harmonized system, country of origin, intercompany transfer pricing, BOM plus 30, CBSA, Canadian customs, CARM, trade compliance validation, international trade attorney, duty drawback, transitional export waiver, slot machine component subcategory]
-source-count: 7
+source-count: 8
 open-commitments: 6
 open-questions: 2
 ---
@@ -83,6 +83,16 @@ Val was introduced to a **customs / international-trade specialist, [[wiki/peopl
 - **US vs Canada guidance.** Because **Canadian customs decisions are not public** (US ones are), Alan/Lucie's firm can look at how the **US treated a matter under the harmonized system** and reach out to a **US colleague** — relevant because Canada and the US share the harmonized HS system. [[raw/tariffs_lucie_alan_intro-june-11-2025.md]]
 - **Deadline:** JVL has a **CBSA reply due June 16**; Val will send Lucie the current HS classification number + product descriptions, and Alan will respond to CBSA's last email (cc Lucie). If needed, the reply is to say lawyers were retained and request an extension. [[raw/tariffs_lucie_alan_intro-june-11-2025.md]]
 
+## US-side customs analysis — the Bruce Halen call (June 18 2025)
+
+A follow-up to the June-11 intro, this call brought in [[wiki/people/lucie.md|Lucie]]'s US colleague [[wiki/people/bruce-halen.md|Bruce Halen]] (US customs lawyer, Detroit office, same firm) to analyze the **US-side** tariff treatment ([[wiki/meetings/2025-06-18-tariff-bruce-halen-us-customs.md]]). Val restated JVL's profile: the **only Canadian slot-machine manufacturer**, 40+ years, ~12,000 sq ft in Scarborough; ships to the US (prime market Georgia; recently licensed South Dakota, Nebraska, Alabama, Texas; a Florida company + a Georgia facility). BOM ≈ **30% China, 30% South Korea (monitors), 20% Taiwan (PC board), 20% elsewhere**; cost ≈ **50% software (soft) + 50% hardware (hard)**. (§12: transcript internally duplicates; the fuller second copy is the record — facts once.) [[raw/tariff-June-18-2025.md]]
+
+- **The tariff stack (Bruce).** Slot machines are **HS 9504** at a **duty-free ordinary tariff**. **Section 301** adds **7.5%** on Chinese origin. The April-2025 **"Geneva Agreement"** (~55% on Chinese goods) works out to **~37.5%** for a slot machine (a 30% component + 7.5%); the **30% IEEPA "fentanyl" piece was struck as unconstitutional** by the Court of International Trade, under appeal (Federal Circuit ~end of August; possibly Supreme Court; ~a year out). **Taiwan** = a 32% reciprocal tariff **delayed to July 9**, not yet charged; **South Korea** = FTA, mostly duty-free. [[raw/tariff-June-18-2025.md]]
+- **Country of origin = last substantial transformation.** "Simple screwdriver assembly is not substantial transformation," so assembling in Canada may not make the machine Canadian-origin — customs may apply an **essential-character** test (electric-motor / side-view-mirror example). Bruce found **no CBP rulings on slot machines**; the only definitive route is a **ruling request** (slow NY ruling division, sometimes conflicting); a query arrives as a **CF-28**. Val's software argument (behavioural characteristics / **mathematics developed in Canada**, ~50% of value) is helpful but "software is generally not decisive." [[raw/tariff-June-18-2025.md]]
+- **Val's optimization idea.** Ship the machine **without a computer** from Canada (as a duty-free slot machine / part-of-slot-machine, 7.5%), and **import the computer separately from Taiwan/China directly into Georgia** — avoiding the whole machine being reclassified Chinese. Example: machine intercompany transfer **$4,000** (BOM ~$3,000 + 30% markup) at 7.5%; a **$400–500** computer at ~55%. Doing the assembly in the US also gives a US substantial-transformation argument, but he doesn't need it since the machine stays in the US. [[raw/tariff-June-18-2025.md]]
+- **Belarus software origin.** The software "could be considered manufactured in **Belarus**" — duty/tariff-free; Val noted "the sanctions were removed" and, regardless, **tariff has nothing to do with sanctions**. (Recorded as Val's framing.) [[raw/tariff-June-18-2025.md]]
+- **The takeaway.** Component-level tariffs (China/Taiwan/Korea → US) are "black and white / binary"; the **uncertainty is Canada** (whether Canadian assembly is a substantial transformation, a matter of ruling and argument JVL "cannot afford"). Bruce's honest conclusion: **no certainty is achievable now or within months**. Val declined further research and ended to think. [[raw/tariff-June-18-2025.md]]
+
 ## Open commitments
 
 - [ ] Val — send [[wiki/people/lucie.md|Lucie]] the current HS classification number + product descriptions for the China-origin cabinet metal — due right away (before the June-16 CBSA reply) — [[raw/tariffs_lucie_alan_intro-june-11-2025.md]]
@@ -106,3 +116,4 @@ Val was introduced to a **customs / international-trade specialist, [[wiki/peopl
 - [[raw/tariff_effect_jvl_research-may-2-2025.md]]
 - [[raw/update_andrei_klimovich-may-19-2025.md]]
 - [[raw/tariffs_lucie_alan_intro-june-11-2025.md]]
+- [[raw/tariff-June-18-2025.md]]

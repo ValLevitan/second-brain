@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena]
-source-count: 33
+source-count: 34
 ---
 
 # Genadi Peari
@@ -107,6 +107,10 @@ On a Val review of [[wiki/people/igor-starovoytov.md|Igor Starovoytov]]'s tower 
 
 On the e-Wallet/TITO review ([[wiki/meetings/2025-05-29-ewallet-tito-flexpay-implementation.md]]; "Геннадий Перий") Genadi had nothing outstanding on the action list and said he is **waiting for [[wiki/people/evgeniy-alekseev.md|Alekseev]] to free up** so they can seriously discuss the next hardware platform — the **FlexTower and POS** (and whether to make updates to the massive FlexPort platform) — which Val pushed ~2 weeks out, untouched for now. [[raw/e-wallet_tito_flex-pay_flex-port_implementation_update-may-29-2025.md]]
 
+## June 18 2025 — GA-COAM redemption hardware direction
+
+- On the [[wiki/meetings/2025-06-18-gcoam-ticket-redemption-workflow.md|June-18 ticket-redemption session]] ("Gennady") Genadi drove the hardware direction: the move from **SMTP to a cheap ARM board** (Linux + HAL), a price-sensitive **~8-inch ~3×4 monitor** for the POS (samples shipping Monday), first industrial design ~2 weeks, and simple two-shell plastics with ~30-day tooling. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/about_tickets_redemption-gcoam-june-18–2025.md]]
+
 ## Sources
 
 - [[raw/fp-7_performance_analysis_january_13_2025.md]]
@@ -142,3 +146,4 @@ On the e-Wallet/TITO review ([[wiki/meetings/2025-05-29-ewallet-tito-flexpay-imp
 - [[raw/flex-pay_flex-port_update-may-15-2025.md]]
 - [[raw/industrial_design_update-may-20-2025.md]]
 - [[raw/flex-port_flex-pay_smib_update-may-20-2025.md]]
+- [[raw/about_tickets_redemption-gcoam-june-18–2025.md]]

@@ -4,7 +4,7 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 16
+source-count: 17
 open-commitments: 8
 open-questions: 0
 ---
@@ -138,6 +138,10 @@ Five older sources (staged 2025-03-29, internally dated 2023–2024) place Andre
 
 - [x] Andrei Klimovich — finish hiring a cheap online account manager and bring candidate(s) to Val next week — **discharged Feb 27**: presented three candidates (Sam Mamedov, Egor, Charlotte) to Val with a recommendation. [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]] [[raw/meeting_summary_andrei_klimovich-Feb-27-2025.md]]
 
+## June 18 2025 — ECHO marketing progress report
+
+- On the [[wiki/meetings/2025-06-18-echo-sales-marketing-progress.md|June-18 progress report]] Andrei reported the solved Amazon attribution puzzle (7/14-day window), the new Amazon **brand store**, the MVP landing page, his vendor roster (Fedor/Anton/Webcom/[[wiki/people/valeria.md|Valeria]]/Hanna), the **3-bucket influencer plan** (via manager Paul, 200+ influencers, ~October launch), **MCF** distribution, and sales (3 home + pending 6 amusement for Aminis; FBM/FBA issue). He is taking a **Dedicated Desk** coworking spot; financial/invoicing routing was deferred to a June-19 follow-up. Full detail on [[wiki/topics/echo-home-gaming-device.md]]. [[raw/echo_sales_marketing_progress_report-june-18-2025.md]]
+
 ## Sources
 
 - [[raw/jvl_online_sync_2025-03-29 1.md]]
@@ -156,3 +160,4 @@ Five older sources (staged 2025-03-29, internally dated 2023–2024) place Andre
 - [[raw/update_andrei_klimovich-may-19-2025.md]]
 - [[raw/andrei_klimovich-progress_update-june-4-2025.md]]
 - [[raw/finance_amazon_sales-june-11-2025.md]]
+- [[raw/echo_sales_marketing_progress_report-june-18-2025.md]]
