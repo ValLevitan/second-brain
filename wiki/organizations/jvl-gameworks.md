@@ -35,6 +35,8 @@ JVL Gameworks Corp. is a **US operating company**, a Florida corporation, **100%
 
 - Whether Gameworks holds its own state registrations (sales tax / withholding) or files only through the consolidated group. — [[raw/jvl_gameworks_corporate_identity_tax_ids_2026-07-13.md]]
 
+**Amazon channel — open question:** whether Amazon/ECHO commerce runs through Gameworks or JVL Systems is an OPEN contradiction (June-11 said Systems); see [[wiki/topics/echo-home-gaming-device.md]].
+
 ## Sources
 
 - [[raw/jvl_gameworks_corporate_identity_tax_ids_2026-07-13.md]]

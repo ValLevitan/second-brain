@@ -24,6 +24,8 @@ GLI is the independent testing lab that certifies JVL's gaming machines and game
 - Markets can require the GLI-11 standard, or GLI-11 plus additional state rules, or their own rules instead. A game already approved to GLI-11 can move to another market as a cheaper "transfer" with only the extra local testing (for online, the relevant standard is "19"). [[raw/gli_visit-jan-7-2025.md]]
 - Live JVL approvals in progress: two games for South Dakota, two games for Florida, plus a separate 40-game online transfer proposal for about three states (Michigan, Pennsylvania, and another). [[raw/gli_visit-jan-7-2025.md]]
 
+Account contact [[wiki/people/deb-gli.md|Deb]] (client-facing account manager). 
+
 ## Sources
 
 - [[raw/gli_visit-jan-7-2025.md]]

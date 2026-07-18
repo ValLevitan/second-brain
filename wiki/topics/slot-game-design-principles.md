@@ -197,6 +197,8 @@ The [[wiki/projects/nebraska-skill-market.md|Nebraska]] compliance design (see t
 - Should JVL scale the **progressive value to denomination** (Val's view) or keep it flat and only *signal* higher-RTP denominations visually (the industry norm Michael/Efim defend)? Recorded as an **open product debate** — Val's opinion is logged, nothing is changed to the base math. [[raw/game_design_meeting_march_7_2025.md]]
 - ~~The progressive-bet-incentive question~~ **resolved Feb 28** (see the debate section above): use the V-Deck flame-on-buttons-3/4/5 + sound presentation and A/B a second higher-bet math pack; the base math is unchanged. [[raw/Game design part 1 - Feb-28-2025.md]]
 
+See also [[wiki/decisions/2025-03-19-minimal-touch-fix-in-rage-defer-to-omni.md|the Rage minimal-touch-fix / defer-to-Omni decision]].
+
 ## Sources
 
 - [[raw/game_design_meeting_february_21_2025.md]]

@@ -3,7 +3,7 @@ type: person
 title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Ирина Шишко]
-disambiguation: "Minsk workshop/shop-floor coordinator who organises hardware/machines and parts for the engineers. Distinct from Irina Makarych (wiki/people/irina-makarych.md), the junior Minsk programmer (printer testing, math XML). Resolve by context: shop-floor resourcing/logistics → Shishko; programming/QA/build → Makarych."
+disambiguation: "Shop-floor logistics + increasingly QA (payroll Shyshko Iryna), this page. Two Irinas (PROVISIONAL — owner ruling pending; split is strained): [[wiki/people/irina-makarych.md|Irina Makarych]] = programmer/QA/math-XML lead; [[wiki/people/irina-shishko.md|Irina Shishko]] = shop-floor logistics but increasingly seen in QA (= payroll Shyshko Iryna). Resolve by context; the QA overlap means many "Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
 source-count: 5
 ---
 

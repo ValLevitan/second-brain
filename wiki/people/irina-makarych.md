@@ -6,7 +6,7 @@ aliases: [Irina Makarych, Irina, Irina Makarich]
 source-count: 16
 open-commitments: 0
 open-questions: 0
-disambiguation: "Junior Minsk programmer (printer testing, math XML, build cases). A second 'Irina' now exists — [[wiki/people/irina-shishko.md|Irina Shishko]], the Minsk workshop/shop-floor coordinator. Resolve by context: programming/QA/build/math-XML → Makarych; shop-floor resourcing/logistics → Shishko. (Not an owner-ruled cluster yet — queued.)"
+disambiguation: "Programmer/QA/math-XML lead, this page. Two Irinas (PROVISIONAL — owner ruling pending; split is strained): [[wiki/people/irina-makarych.md|Irina Makarych]] = programmer/QA/math-XML lead; [[wiki/people/irina-shishko.md|Irina Shishko]] = shop-floor logistics but increasingly seen in QA (= payroll Shyshko Iryna). Resolve by context; the QA overlap means many "Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
 ---
 
 # Irina Makarych

@@ -117,6 +117,8 @@ On the [[wiki/meetings/2025-05-29-jira-plans-maturity.md|May-29 Jira-plans matur
 
 - [ ] Andrei — rework the DevSecOps initiatives/products in Jira to align with the Miro board (rename initiatives + descriptions, create initiative and product cards, every Miro card = a Jira issue); demo a small slice at a Wednesday check-in — due Friday (with Wednesday check-in) — [[raw/meeting_various-jan-20-2025.md]]
 
+See also the [[wiki/topics/casino-gaming-systems-product-management.md|casino/gaming-systems product-management]] framing (the Miami-PM-hire job profile).
+
 ## Sources
 
 - [[raw/jvl_strategic_plan_and_vision_2025_2025-01-08.md]]
