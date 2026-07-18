@@ -11,12 +11,12 @@ open-questions: 0
 
 # Base Nebraska on existing Georgia software (nudge later abandoned)
 
-On the Mar 14 2025 call, [[wiki/people/val-levitan.md|Val]], [[wiki/people/juan-martinez.md|Juan]], [[wiki/people/efim-podvoiski.md|Efim]], [[wiki/people/lena.md|Lena]], [[wiki/people/pavel.md|Pavel]] and [[wiki/people/irina-makarych.md|Irina]] agreed how JVL will build for the **Nebraska** skill market. Full context on [[wiki/projects/nebraska-skill-market.md]]. [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
+On the Mar 14 2025 call, [[wiki/people/val-levitan.md|Val]], [[wiki/people/juan-martinez.md|Juan]], [[wiki/people/efim-podvoiski.md|Efim]], [[wiki/people/lena.md|Lena]], [[wiki/people/pavel.md|Pavel]] and [[wiki/people/irina-makarych.md|Irina]] (Irina — Shishko or Makarych unclear from source; per 2026-07-18 roles) agreed how JVL will build for the **Nebraska** skill market. Full context on [[wiki/projects/nebraska-skill-market.md]]. [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
 
 ## What was decided
 
 - **Base = existing Georgia "Peach" software**, not the in-progress Georgia updates; present the **"no hands" version** (the "hands" is part of the common UI and is simply removed). **Peach 4 is excluded** (being redesigned); base on **Peach 1, 2, 3**. [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
-- **Method (Irina's recommendation, adopted):** take the **latest version 1.14 (already in VDEC)** and **revert the nudge to its old/conservative presentation**, rather than modifying the old software — easier and more reliable since everything else is already in VDEC. [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
+- **Method (Irina's recommendation (Irina — Shishko or Makarych unclear from source; per 2026-07-18 roles), adopted):** take the **latest version 1.14 (already in VDEC)** and **revert the nudge to its old/conservative presentation**, rather than modifying the old software — easier and more reliable since everything else is already in VDEC. [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
 - **Keep** the new Georgia enhancements: **dual-SAS**, **TITO**, the **VDEC button changes** (flame the highest three bet buttons only) and the **touch-area** changes. **Remove** the **hands** dependency and the **enhanced nudge** feature. [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
 - **Release in four packs of six games**, as in Georgia. [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
 - **Progressives:** standalone per-device/per-game only (no links); same limit as Georgia (~3,000); use the **lower Georgia top-award numbers** given Nebraska's small locations (4–15 machines). **No SWIFT bonus progressive** (linked), though the RGS/RIS SWIFT parameter can be enabled per machine if needed. [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]

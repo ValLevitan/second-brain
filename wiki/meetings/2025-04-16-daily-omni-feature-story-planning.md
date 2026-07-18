@@ -8,7 +8,7 @@ source-count: 1
 
 # Daily Omni — feature/story Jira planning (Apr 16 2025)
 
-The next Omni daily after [[wiki/meetings/2025-04-15-daily-omni-kai-ocho-asset-flow.md|Apr 15]]. [[wiki/people/pavel.md|Pavel]] (as meeting secretary) walked the Jira feature list for **Omni Land Base Framework (IP 416)** and **Omni Core (IP 610)** under Core Technology / Gaming Platform (IP 90 → IP 481); the team argued through and named the features/stories. Present: [[wiki/people/val-levitan.md|Val]], Pavel, [[wiki/people/alexander-biratka.md|Sasha (Biratka)]], [[wiki/people/dmitriy-khandov.md|Dima Khandov]], [[wiki/people/anton-leshkevich.md|Anton]], [[wiki/people/irina-makarych.md|Irina]], [[wiki/people/ihar-hrybko.md|Igor Hrybko]] (joined after Val forgot to send the invite), and [[wiki/people/andrey-bosik.md|Andrei Bosik]].
+The next Omni daily after [[wiki/meetings/2025-04-15-daily-omni-kai-ocho-asset-flow.md|Apr 15]]. [[wiki/people/pavel.md|Pavel]] (as meeting secretary) walked the Jira feature list for **Omni Land Base Framework (IP 416)** and **Omni Core (IP 610)** under Core Technology / Gaming Platform (IP 90 → IP 481); the team argued through and named the features/stories. Present: [[wiki/people/val-levitan.md|Val]], Pavel, [[wiki/people/alexander-biratka.md|Sasha (Biratka)]], [[wiki/people/dmitriy-khandov.md|Dima Khandov]], [[wiki/people/anton-leshkevich.md|Anton]], [[wiki/people/irina-shishko.md|Irina]] (re-attributed per owner ruling 2026-07-18: QA/engineering → Shishko), [[wiki/people/ihar-hrybko.md|Igor Hrybko]] (joined after Val forgot to send the invite), and [[wiki/people/andrey-bosik.md|Andrei Bosik]].
 
 Purpose: turn the Omni framework to-do list into described features and stories, and set the day's discipline.
 

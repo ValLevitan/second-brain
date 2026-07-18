@@ -20,7 +20,7 @@ Russian-language engineering call: the team resolved to make only the **minimal 
 - [[wiki/people/anton-leshkevich.md|Anton]] (affirmative-touch experiments; Omni/Rage context — resolution by context)
 - [[wiki/people/pavel.md|Pavel Frolov]] (system/driver side, Omni architecture action)
 - [[wiki/people/genadi-peari.md|Genadi Peari]] ("Геннадий", hardware/harness/counter-boards)
-- "Ира" (graphics testing / config table — likely [[wiki/people/irina-makarych.md|Irina Makarych]], inference)
+- "Ира" (graphics testing / config table — [[wiki/people/irina-makarych.md|Irina Makarych]]) (Irina — Shishko or Makarych unclear from source; per 2026-07-18 roles)
 - Others mentioned, not necessarily present: Lena, Evgeniy Alekseev, "Дима Пиколик" (unresolved), Alexander Biratko ("Бератко")
 
 ## Sources

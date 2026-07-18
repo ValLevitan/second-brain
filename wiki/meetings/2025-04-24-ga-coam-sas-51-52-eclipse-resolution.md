@@ -8,7 +8,7 @@ source-count: 1
 
 # Georgia COAM SAS 51/52 — Eclipse Peach-One resolution (2025-04-24)
 
-Attendees: [[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel]], [[wiki/people/irina-makarych.md|Irina]] (and the reference to Felipe testing with the lab). Eclipse testing flagged JVL's **Peach One** submission because a change meant they could no longer test the **hand-paid condition** / SAS **51 & 52** events. The team resolved to **revert to supplying Eclipse two RIS files** (one no-limit, one with a $20 cash-out limit) rather than making the cash-out-limit field user-editable, plus a hand-pay software fix; Felipe to retest with United.
+Attendees: [[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel]], [[wiki/people/irina-shishko.md|Irina]] (re-attributed per owner ruling 2026-07-18: QA/engineering → Shishko) (and the reference to Felipe testing with the lab). Eclipse testing flagged JVL's **Peach One** submission because a change meant they could no longer test the **hand-paid condition** / SAS **51 & 52** events. The team resolved to **revert to supplying Eclipse two RIS files** (one no-limit, one with a $20 cash-out limit) rather than making the cash-out-limit field user-editable, plus a hand-pay software fix; Felipe to retest with United.
 
 Substance lives on:
 - [[wiki/projects/georgia-market-rollout.md]]

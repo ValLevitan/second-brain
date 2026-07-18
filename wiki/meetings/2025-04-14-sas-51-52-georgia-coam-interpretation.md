@@ -9,7 +9,7 @@ open-questions: 1
 
 # Georgia COAM SAS events 51/52 interpretation — Apr 14 2025
 
-English meeting triggered by an Eclipse/GLC concern that JVL's Georgia COAM software does not properly support **SAS event 51 (hand-pay) and 52 (hand-pay reset/clear)**. Attendees: [[wiki/people/val-levitan.md|Val]], [[wiki/people/ivan.md|Ivan]] (who has communicated most with Steve at Eclipse), [[wiki/people/irina-makarych.md|Irina]] (software, translated by [[wiki/people/pavel.md|Pavel]]), Pavel, and the American Georgia commercial/regulatory-facing colleague who owns the Eclipse (Steve) / GLC (Chris) / regulator relationship (unnamed in this transcript; role fits the queued "Bob" profile — see below). The transcript internally duplicates its own content (§12; facts recorded once).
+English meeting triggered by an Eclipse/GLC concern that JVL's Georgia COAM software does not properly support **SAS event 51 (hand-pay) and 52 (hand-pay reset/clear)**. Attendees: [[wiki/people/val-levitan.md|Val]], [[wiki/people/ivan.md|Ivan]] (who has communicated most with Steve at Eclipse), [[wiki/people/irina-shishko.md|Irina]] (re-attributed per owner ruling 2026-07-18: QA/engineering → Shishko) (software, translated by [[wiki/people/pavel.md|Pavel]]), Pavel, and the American Georgia commercial/regulatory-facing colleague who owns the Eclipse (Steve) / GLC (Chris) / regulator relationship (unnamed in this transcript; role fits the queued "Bob" profile — see below). The transcript internally duplicates its own content (§12; facts recorded once).
 
 One-line purpose: work out why the 51/52 test broke after TITO/AFT was added, and how Georgia's "hands" payout model can still comply with the SAS 1.8 mandatory events.
 

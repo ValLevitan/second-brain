@@ -56,7 +56,7 @@ On the Mar 28 2025 scope-gap meeting, JVL agreed the business requirement and an
 ## Open questions
 
 - Whether a reliable **9-bit Ethernet-to-RS232 adapter** can be sourced (which would cheapen the hardware) — otherwise a local TITO server must be built on the kiosk or a chosen board regardless. [[raw/scope_gap_tito_flex_pay-march-28-2025.md]]
-- Who sets up Eugine's test machine and identifies which RS-232 port it uses — Pavel to instruct remotely; **"Ira"** (likely [[wiki/people/irina-makarych.md|Irina Makarych]], unclear) or **"Vlad"** (unclear) to help. Flagged. [[raw/scope_gap_tito_flex_pay-march-28-2025.md]]
+- Who sets up Eugine's test machine and identifies which RS-232 port it uses — Pavel to instruct remotely; **"Ira"** ([[wiki/people/irina-makarych.md|Irina Makarych]] — Shishko or Makarych unclear from source; per 2026-07-18 roles) or **"Vlad"** (unclear) to help. Flagged. [[raw/scope_gap_tito_flex_pay-march-28-2025.md]]
 
 ## Sources
 

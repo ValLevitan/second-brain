@@ -8,7 +8,7 @@ source-count: 1
 
 # Omni framework MVP progress — port Kai-Ocho first — Apr 14 2025
 
-Monday-morning Omni framework review — the meeting that **kicked off the daily 6:30 am Omni cadence** the Apr-15/16/17 dailies then ran. Attendees: [[wiki/people/val-levitan.md|Val]], [[wiki/people/alexander-biratka.md|Sasha Biratka]], [[wiki/people/dmitriy-khandov.md|Dima Khandov]], [[wiki/people/andrew-khandov.md|Andrei Khandov]] (math), [[wiki/people/irina-makarych.md|Irina]], [[wiki/people/pavel.md|Pavel]] (and [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] on game-history/tests). The transcript internally duplicates its own content (§12; facts recorded once).
+Monday-morning Omni framework review — the meeting that **kicked off the daily 6:30 am Omni cadence** the Apr-15/16/17 dailies then ran. Attendees: [[wiki/people/val-levitan.md|Val]], [[wiki/people/alexander-biratka.md|Sasha Biratka]], [[wiki/people/dmitriy-khandov.md|Dima Khandov]], [[wiki/people/andrew-khandov.md|Andrei Khandov]] (math), [[wiki/people/irina-shishko.md|Irina]] (re-attributed per owner ruling 2026-07-18: QA/engineering → Shishko), [[wiki/people/pavel.md|Pavel]] (and [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] on game-history/tests). The transcript internally duplicates its own content (§12; facts recorded once).
 
 One-line purpose: decide when the Omni framework MVP is "done" and how to get there — resolved by picking the already-released Kai-Ocho as the first game to port.
 

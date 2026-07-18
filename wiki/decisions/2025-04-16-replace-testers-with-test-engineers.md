@@ -14,7 +14,7 @@ Announced by Val in the Apr-16 Omni daily ([[wiki/meetings/2025-04-16-daily-omni
 ## What was decided
 
 - **JVL will have no manual testers.** Val: "Тестировщики. Мы их увольняем. У нас не будет ни одного тестировщика. У нас будет Test Engineers. И вот эти Engineers будут писать automated тесты." [[raw/daily_omni_progress-april-16-2025 (Val Levitan's conflicted copy).md]]
-- **Current staff get a chance to level up, or be replaced.** Those not qualified will be helped to raise their qualifications "если они захотят"; if they won't, [[wiki/people/irina-makarych.md|Irina]] already has "3-4" (then "пять") new people she is ready to bring in "даже завтра." [[raw/daily_omni_progress-april-16-2025 (Val Levitan's conflicted copy).md]]
+- **Current staff get a chance to level up, or be replaced.** Those not qualified will be helped to raise their qualifications "если они захотят"; if they won't, [[wiki/people/irina-shishko.md|Irina]] (re-attributed per owner ruling 2026-07-18: QA/engineering → Shishko) already has "3-4" (then "пять") new people she is ready to bring in "даже завтра." [[raw/daily_omni_progress-april-16-2025 (Val Levitan's conflicted copy).md]]
 - **Anton trains the QA engineers — he does not write the tests himself (changed decision).** Val: "Я поменял свое решение. Я не хочу, чтобы вы сами руками писали эти тесты. Я хочу, чтобы вы начинали учить наших QA-инженеров, как писать эти тесты." [[wiki/people/anton-leshkevich.md|Anton]] is to prepare a presentation of what he expects and how they will write integration tests, and run a kickoff meeting with Irina and Pavel — Val offered to attend at **6:30 am Friday**; the three QA (incl. "Vlad" and "Lesha") plus [[wiki/people/yuri-zakharenko.md|Yuri Zakharenko]] to be invited. [[raw/daily_omni_progress-april-16-2025 (Val Levitan's conflicted copy).md]]
 
 ## Rationale
@@ -27,7 +27,7 @@ On the Apr-17 Omni daily ([[wiki/meetings/2025-04-17-daily-omni-feature-planning
 
 ## Apr 24 2025 — the onboarding actually happens
 
-The QA-engineer onboarding kicked off on the Apr-24 integration-tests session ([[wiki/meetings/2025-04-24-omni-integration-tests-qa-onboarding.md]]): [[wiki/people/anton-leshkevich.md|Anton]] demoed the first Selenium/TypeScript integration test to the QA engineers (incl. "Vlad" and "Lesha") with [[wiki/people/irina-makarych.md|Irina]] and [[wiki/people/pavel.md|Pavel]], and Val drove the whole group to agree on the test-driven "capability → features → passing integration test before merge" principle. Val: the QA engineers now "имеете такой же авторитет, как имеет девелопер," and Irina's job is to "raise them to that level." A follow-up was set for May 8 (6:30 am). Detail on [[wiki/topics/test-automation-strategy.md]]. [[raw/integration_tests-apr-24-2025.md]]
+The QA-engineer onboarding kicked off on the Apr-24 integration-tests session ([[wiki/meetings/2025-04-24-omni-integration-tests-qa-onboarding.md]]): [[wiki/people/anton-leshkevich.md|Anton]] demoed the first Selenium/TypeScript integration test to the QA engineers (incl. "Vlad" and "Lesha") with [[wiki/people/irina-shishko.md|Irina]] and [[wiki/people/pavel.md|Pavel]], and Val drove the whole group to agree on the test-driven "capability → features → passing integration test before merge" principle. Val: the QA engineers now "имеете такой же авторитет, как имеет девелопер," and Irina's job is to "raise them to that level." A follow-up was set for May 8 (6:30 am). Detail on [[wiki/topics/test-automation-strategy.md]]. [[raw/integration_tests-apr-24-2025.md]]
 
 ## Status
 

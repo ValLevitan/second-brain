@@ -8,7 +8,7 @@ source-count: 1
 
 # GitHub template-repo directory tree working session — Apr 11 2025
 
-The Friday follow-up promised on Apr 8: [[wiki/people/andrey-bosik.md|Andrei Bosik]] has built a **GitHub template repository** ("use this template" button) with a proposed directory tree, and the group edits it live. Attendees: [[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel]], Andrei Bosik, [[wiki/people/irina-makarych.md|Irina]] ("Ира"), and a "Юра/Юрий Валентинович" (Yuri — the mic-heartbeat aside). The transcript internally duplicates its own content (§12; facts recorded once).
+The Friday follow-up promised on Apr 8: [[wiki/people/andrey-bosik.md|Andrei Bosik]] has built a **GitHub template repository** ("use this template" button) with a proposed directory tree, and the group edits it live. Attendees: [[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel]], Andrei Bosik, [[wiki/people/irina-makarych.md|Irina]] ("Ира") (Irina — Shishko or Makarych unclear from source; per 2026-07-18 roles), and a "Юра/Юрий Валентинович" (Yuri — the mic-heartbeat aside). The transcript internally duplicates its own content (§12; facts recorded once).
 
 One-line purpose: agree a universal developer-repo template tree (graphics repos to get a separate template).
 

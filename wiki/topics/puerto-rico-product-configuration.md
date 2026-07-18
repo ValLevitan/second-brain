@@ -9,9 +9,9 @@ open-questions: 1
 
 # Puerto Rico product configuration
 
-Which JVL hardware/software combinations ship into the Puerto Rico route market, worked out on a Mar 21 2025 call ([[wiki/people/val-levitan.md|Val]], **Irina**, [[wiki/people/pavel.md|Pavel]], [[wiki/people/genadi-peari.md|Genadi Peari]]) that summarized an earlier, more confused discussion — that earlier discussion is the ≈Mar 19 touch-fix/product-line meeting ([[wiki/meetings/2025-03-19-puerto-rico-touch-fix-and-product-line.md]]), where the config-table action and the Friday 10:30 "Product line for Puerto Rico" follow-up were set. A follow-up requirements document (AI-generated from the call) captures the same decisions formally. This is the product/hardware detail under the broader [[wiki/projects/puerto-rico-expansion.md]] project. [[raw/products_puerto_rico_touch_fix.md]] [[raw/product_matrix_puerto_rico-march21-2025.md]] [[raw/requirements_puerto_rico-march-21-2025.md]]
+Which JVL hardware/software combinations ship into the Puerto Rico route market, worked out on a Mar 21 2025 call ([[wiki/people/val-levitan.md|Val]], **Irina** (Irina — Shishko or Makarych unclear from source; per 2026-07-18 roles), [[wiki/people/pavel.md|Pavel]], [[wiki/people/genadi-peari.md|Genadi Peari]]) that summarized an earlier, more confused discussion — that earlier discussion is the ≈Mar 19 touch-fix/product-line meeting ([[wiki/meetings/2025-03-19-puerto-rico-touch-fix-and-product-line.md]]), where the config-table action and the Friday 10:30 "Product line for Puerto Rico" follow-up were set. A follow-up requirements document (AI-generated from the call) captures the same decisions formally. This is the product/hardware detail under the broader [[wiki/projects/puerto-rico-expansion.md]] project. [[raw/products_puerto_rico_touch_fix.md]] [[raw/product_matrix_puerto_rico-march21-2025.md]] [[raw/requirements_puerto_rico-march-21-2025.md]]
 
-("Irina" who led the table is not clearly resolved — possibly [[wiki/people/irina-makarych.md]], possibly another Irina; flagged in Owner Decisions.)
+("Irina" who led the table is unclear from source — [[wiki/people/irina-makarych.md|Makarych]] or Shishko; per 2026-07-18 roles, flagged in Owner Decisions.)
 
 ## Val's Puerto Rico pricing/marketing philosophy (≈Mar 19 2025)
 

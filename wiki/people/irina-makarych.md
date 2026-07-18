@@ -2,92 +2,51 @@
 type: person
 title: Irina Makarych
 date: 2025-01-15
-aliases: [Irina Makarych, Irina, Irina Makarich]
-source-count: 16
+aliases: [Irina Makarych, Irina, Irina Makarich, Iryna Makarych]
+source-count: 8
 open-commitments: 0
 open-questions: 0
-disambiguation: "Programmer/QA/math-XML lead, this page. Two Irinas (PROVISIONAL — owner ruling pending; split is strained): [[wiki/people/irina-makarych.md|Irina Makarych]] = programmer/QA/math-XML lead; [[wiki/people/irina-shishko.md|Irina Shishko]] = shop-floor logistics but increasingly seen in QA (= payroll Shyshko Iryna). Resolve by context; the QA overlap means many "Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
+disambiguation: "Game developer (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
 ---
 
 # Irina Makarych
 
-Irina Makarych is a JVL programmer on the Minsk side, described as relatively junior. [[raw/parameterization_in_the_development_pipeline_part_3_january_15_2025.md]]
+Irina Makarych is a JVL **game developer** on the Minsk side (owner-confirmed 2026-07-18), described as relatively junior. She reconciles to the Minsk-payroll name **"Makarych, Iryna"** (see [[wiki/topics/minsk-staff-roster.md]]). Her work is game/gameplay code and the game-resource/XML pipeline — distinct from [[wiki/people/irina-shishko.md|Irina Shishko]] (Vice Director of Engineering + Director of QA), to whom the QA/testing/meter-interpretation "Irina" mentions belong.
 
 (Surname spelling is uncertain in the transcript — "Makarych"/"Makarich"; recorded under the transcribed form with both kept as aliases.)
 
+> **Re-attribution note (owner ruling 2026-07-18).** Earlier batches routed most QA/testing/engineering "Irina" mentions here. Per the owner ruling those belong to [[wiki/people/irina-shishko.md|Shishko]] and have been moved off this page. What remains below is the game-development work plus a few genuinely ambiguous first-name mentions left flagged (not forced).
+
 ## Role
 
-- On the build-pipeline decision meeting, Val suggested that for the rare cases where an unusual build parameter combination is needed, a junior programmer such as Irina Makarych could be taught to handle it (rather than tying up a senior programmer). [[raw/parameterization_in_the_development_pipeline_part_3_january_15_2025.md]]
-- The test-automation consultant proposed she attend the upcoming testing-architecture meeting alongside Pavel, Anton and Aaron. [[raw/integration_and_testing_procedures_january_15_2025.md]]
+- On the build-pipeline decision meeting (Jan 15), Val suggested that for the rare cases where an unusual build-parameter combination is needed, a junior programmer such as **Irina Makarych** could be taught to handle it (rather than tying up a senior programmer). Explicitly named; general programming, not QA. [[raw/parameterization_in_the_development_pipeline_part_3_january_15_2025.md]]
 
-See [[wiki/topics/build-pipeline-parameterization.md]] and [[wiki/topics/test-automation-strategy.md]].
+See [[wiki/topics/omni-core-advancement-and-game-templating.md]].
 
-- On the Jan 22 South Dakota recap, the FutureLogic Gen 2 printer was said to have been tested "per Pavel and Irina" (i.e. Irina was involved in the Minsk printer testing), though Juan had not personally tested Gen 2 in the lab. See [[wiki/projects/south-dakota-vlt-market.md]]. [[raw/sd_vlt_recap-jan-22-2025.md]]
+## The math→game XML hand-off (docs-in-git, Feb 1)
 
-## The math→game XML hand-off (late Jan–early Feb)
+- On the docs-in-Git session, Val worked through the math pipeline: [[wiki/people/efim-podvoiski.md|Efim]] "will give an XML file or description of each math of new game to Irina Makarych and she will create XML file for game, understandable for our framework to use this math." Explicitly named; game/gameplay code work. (Val guessed she was the person closest to Efim's work; the answer was no — Anton Leshkevich is.) See [[wiki/meetings/2025-02-01-docs-in-git-vs-confluence.md]]. [[raw/the_importance_of_storing_artifacts_in_git.md]]
 
-- On the docs-in-Git session, an engineer on the call (speaker not labelled) described her standing role in the math pipeline: [[wiki/people/efim-podvoiski.md|Efim]] gives her "an XML file or description of each math of new game… and she will create XML file for game, understandable for our framework to use this math." Val guessed she was the person closest to Efim's work; the answer was no — Anton Leshkevich is. See [[wiki/meetings/2025-02-01-docs-in-git-vs-confluence.md]]. [[raw/the_importance_of_storing_artifacts_in_git.md]]
+## Land-based resource / game-asset XML pipeline (devops-container session)
 
-## Outstanding-subjects alignment (Feb 19)
+- On the DevOps-container session the team noted land-based resource updates are not just file swaps — XML configs must be edited, "то, чем сейчас Ира занимается, Макарыч" ("what Ira Makarych does now") — and asset validation in the JVL validation tool is "то, что делает Ирина Макарыч." Explicitly named; game-resource/XML work. See [[wiki/topics/omni-core-advancement-and-game-templating.md]] and [[wiki/topics/graphics-team-git-workflow.md]]. [[raw/devops_container_approach_for_omni.md]]
 
-- Irina confirmed the printer testing status ("it's working" on the last build given to Juan) and analysed the **Bally iview** logs for the Georgia Peach1234 work — finding JVL sends the correct data to the machines but Bally's final report is wrong. She also prepares the **diffs document** for GLI (a file-level description of what changed and how to check it), which Val praised as essential but flagged as a double job alongside proper release notes. See [[wiki/projects/georgia-market-rollout.md]] and [[wiki/projects/south-dakota-vlt-market.md]]. [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
+## Ambiguous first-name mentions (left flagged, not forced)
 
-## Nebraska skill market (Mar 14)
+The following are bare "Irina"/"Ира" mentions with no clear game-dev vs QA role signal; per the 2026-07-18 roles they could be Makarych or [[wiki/people/irina-shishko.md|Shishko]] — left here flagged rather than forced:
 
-- On the Nebraska call, Irina ("Ira"/"Irina") made the recommendation the team adopted: take the **latest version 1.14 (already in VDEC)** and just **revert the nudge to its old presentation**, rather than modifying the old software — "everything is here, it's all working… easier and more reliable." See [[wiki/projects/nebraska-skill-market.md]] and [[wiki/decisions/2025-03-14-base-nebraska-on-georgia-conservative-nudge.md]]. [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
-
-## GitHub-Jira alignment (Mar 31)
-
-- An "Ирина" attended the Mar 31 Russian-language meeting on aligning GitHub and Jira hierarchy levels (with Val, Andrey, Pavel and an unresolved "Yura") — resolved here by context (the only known Irina in JVL Minsk engineering planning; inference). See [[wiki/meetings/2025-03-31-github-jira-alignment.md]]. [[raw/github_jira_alignment-march-31-2025.md]]
-
-## Land-based resource/XML updates (mentioned Mar 24, date inferred)
-
-- On the DevOps-container session the team noted land-based resource updates are not just file swaps — XML configs must be edited, "то, чем сейчас Ира занимается, Макарыч" ("what Ira Makarych does now"), with no written spec of how the files are organized. See [[wiki/topics/omni-core-advancement-and-game-templating.md]]. [[raw/devops_container_approach_for_omni.md]]
-
-## History
-
-- **Jul 2024 (date inferred; pre-window source):** on the Test-360 review Val named Irina as the person who would have to enforce the test process "with an iron fist," predicting she "will adapt a binary decision that we make without really opining on it" once Alexander and Anton set the rule. [[raw/test-360_progress_review_meeting.md]]
-
-## Omni daily + manifests (Apr 15, "Ира/Ирина" by machine-setup context — inference)
-
-- Named among the people who hand-fill machine-software settings today ("либо я, либо Паша, либо Ира" — Chudinov, on why the manifests product must automate it), and an "Ира/Ирина" participates in the Apr 15 Omni daily asset-flow discussion (asking when a game build reflects a moved asset). Both attributions by her established machine-XML/setup role; labeled inference. [[raw/cms_github_svn-apr-15-2025.md]] [[raw/daily_omni_progress-apr-15-2025.md]]
-
-## Apr 16 2025 — QA candidates ready for the test-engineer transition
-
-In the Omni daily, when Val announced JVL will replace manual testers with **Test Engineers**, Irina confirmed she already has "3-4" (then "пять") new people ready to bring in "даже завтра." She is to co-run the Friday 6:30 am QA integration-test training kickoff with Anton and Pavel. [[raw/daily_omni_progress-april-16-2025 (Val Levitan's conflicted copy).md]] See [[wiki/decisions/2025-04-16-replace-testers-with-test-engineers.md]].
-
-## RIS ↔ Business Central licensing meeting (Apr 3, "Ira" by context — inference)
-
-- An "Ira" took part in the Russian RIS-licensing meeting ([[wiki/meetings/2025-04-03-ris-business-central-licensing.md]]), raising the machine-transfer / flash-copy / licence-count questions. Resolved to Irina Makarych by context (her established machine-XML/RIS-setup role); labeled inference, not asserted. See [[wiki/decisions/2025-04-03-license-software-per-operator-not-machine.md]]. [[raw/ris_business_central_integration-april-3-2025.md]]
-
-## May 29–30 2025 — QA lead on the Jira-maturity and FlexPay QA-plan sessions ("Ира" — routed to Makarych by role)
-
-On both the **May-29 Jira Plans maturity** call ([[wiki/meetings/2025-05-29-jira-plans-maturity.md]]) and the **May-30 FlexPort/FlexPay QA-plan** meeting ([[wiki/meetings/2025-05-30-qa-flexport-flexpay-plan.md]]) the QA lead is transcribed only as "**Ирина / Ира**" (no surname); routed here to **Makarych** to stay consistent with the [[wiki/meetings/2025-05-20-flexpay-flexport-test-plan.md|May-20 test-plan meeting]] (where "Ира" = Makarych). The transcribed-surname ambiguity with [[wiki/people/irina-shishko.md|Shishko]] remains queued Tier A — not reconciled. [[raw/jira_plans_maturity-mat-29-2025.md]] [[raw/qa_flex-port_flex-pay_plan-may-30-2025.md]]
-
-- **Jira maturity (May 29):** she confirmed the QA team has no Jira tasks for its TypeScript work yet, and worked through where test cases live vs code — the model being **X-Ray test cases in Jira** referenced from **test code in GitHub** (Actions report results back to X-Ray); Anton had already written a primitive automated test she'd extend. [[raw/jira_plans_maturity-mat-29-2025.md]]
-- **FlexPay QA plan (May 30):** she reported test cases **>50% written**, needing more for **partial redemption**, and walked the X-Ray structure — test cases live in the **FlexPayment** project (per Aaron's ruling that tests live with the code they test); **QRM** holds test documentation/release tasks; the **FlexPort (8 cases)**, **FlexPay (27+)** and combined plans must all pass to certify the **e-Wallet** variant. [[raw/qa_flex-port_flex-pay_plan-may-30-2025.md]]
-
-## June 12 2025 — named QA lead / priority contact for product priorities
-
-On the [[wiki/meetings/2025-06-12-games-design-priorities-review.md|June-12 games-design priorities review]] Val named **Irina Makarych** the QA lead and **priority contact**: "all the QA people work under her… very organized… a bulldozer type of attitude," and "programming now as well." She must know **which branch** a product uses (e.g. the South Dakota vertical) so she can direct the team where to commit, even for a fall release. See [[wiki/topics/test-automation-strategy.md]], [[wiki/projects/south-dakota-vlt-market.md]]. [[raw/games_design-june-12-2025.md]]
-
-*(Two-Irinas note: on the same day the [[wiki/meetings/2025-06-12-qa-engineering-direction-aaron.md|QA-engineering demo]] and the [[wiki/meetings/2025-06-12-jackpot-meter-flowchart-review.md|jackpot/meter flowchart]] each name an "Irina" in a QA/engineering role — those mentions are recorded on [[wiki/people/irina-shishko.md|Shishko]] / left unresolved (Tier A). Only the explicit "Irina Makarych" QA-lead mention above is routed here.)*
+- **Nebraska nudge recommendation (Mar 14):** "Irina" recommended taking the latest version (1.14, already in VDEC) and reverting the nudge to its old presentation rather than modifying the old software. (Irina — Shishko or Makarych unclear from source; per 2026-07-18 roles.) See [[wiki/projects/nebraska-skill-market.md]] and [[wiki/decisions/2025-03-14-base-nebraska-on-georgia-conservative-nudge.md]]. [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
+- **GitHub-Jira alignment (Mar 31):** an "Ирина" attended the GitHub/Jira hierarchy-level alignment planning meeting (with Val, Andrey, Pavel and an unresolved "Yura"). Attendee only, no role signal. (Irina — Shishko or Makarych unclear from source; per 2026-07-18 roles.) See [[wiki/meetings/2025-03-31-github-jira-alignment.md]]. [[raw/github_jira_alignment-march-31-2025.md]]
+- **RIS ↔ Business Central licensing (Apr 3):** an "Ira" raised machine-transfer / flash-copy / licence-count questions ("Подожди, Ира, Ира, это уже бизнес"). Licensing/business, not QA or game-dev. (Irina — Shishko or Makarych unclear from source; per 2026-07-18 roles.) See [[wiki/meetings/2025-04-03-ris-business-central-licensing.md]]. [[raw/ris_business_central_integration-april-3-2025.md]]
+- **Omni daily asset-flow + manifests (Apr 15):** named among people who hand-fill machine-software settings ("либо я, либо Паша, либо Ира") and an "Ира/Ирина" in the Apr-15 Omni asset-flow discussion (commit in the game repo Future Full Pass Games when an asset moves). Game-repo/machine-setup context. (Irina — Shishko or Makarych unclear from source; per 2026-07-18 roles.) [[raw/cms_github_svn-apr-15-2025.md]] [[raw/daily_omni_progress-apr-15-2025.md]]
 
 ## Sources
 
-- [[raw/games_design-june-12-2025.md]]
-- [[raw/jira_plans_maturity-mat-29-2025.md]]
-- [[raw/qa_flex-port_flex-pay_plan-may-30-2025.md]]
-- [[raw/integration_and_testing_procedures_january_15_2025.md]]
 - [[raw/parameterization_in_the_development_pipeline_part_3_january_15_2025.md]]
-- [[raw/sd_vlt_recap-jan-22-2025.md]]
 - [[raw/the_importance_of_storing_artifacts_in_git.md]]
-- [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
+- [[raw/devops_container_approach_for_omni.md]]
 - [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
 - [[raw/github_jira_alignment-march-31-2025.md]]
-- [[raw/devops_container_approach_for_omni.md]]
-- [[raw/test-360_progress_review_meeting.md]]
+- [[raw/ris_business_central_integration-april-3-2025.md]]
 - [[raw/cms_github_svn-apr-15-2025.md]]
 - [[raw/daily_omni_progress-apr-15-2025.md]]
-- [[raw/daily_omni_progress-april-16-2025 (Val Levitan's conflicted copy).md]]
-- [[raw/ris_business_central_integration-april-3-2025.md]]
