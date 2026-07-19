@@ -3,7 +3,7 @@ type: organization
 title: EDS (Colombian gaming operation)
 date: 2025-03-29
 aliases: [EDS, EDS PAPS, PAPS, EDS Colombia, EDS USA]
-source-count: 4
+source-count: 5
 open-questions: 3
 disambiguation: "A Colombian gaming company/operation running JVL machines — 'EDS' now looks like the real corporate name, not a garble (Val dictates proposal language 'EDS is a Colombian company'). NOT the same as EDC (Export Development Canada, wiki/organizations/edc.md), whose page carries 'EDS' as a transcript-garble alias. Also distinct (pending owner ruling) from En Grande, Julian's Medellín Ruta operation (wiki/organizations/en-grande.md). Resolve by context: Canadian export financing → EDC; Ruta/Echo/Coljuegos/Medellín → En Grande; Eliana's company / Julian's retainer / Texas distributor → this page."
 ---
@@ -37,6 +37,19 @@ From Val's walkthrough with [[wiki/people/alka-sood.md|Alka]] and [[wiki/people/
 
 On a May-29 call with [[wiki/people/eliana.md|Eliana]] (translated by her daughter [[wiki/people/sofia.md|Sofia]]), Val addressed a **bank charge for converting funds US↔Colombian pesos** that both sides missed in the EDS agreement — small per transaction but substantial across millions. Agreed 50/50 as a mutual omission, with the preferred fix being to **restructure the payment path** so JVL pays Eliana's **US (Miami) bank account** and EDS pays **[[wiki/organizations/elevate.md|Elevate]] directly**, avoiding the conversion. Elevate hadn't formally approved it (Julián was told no) but is judged unlikely to reject an incoming payment. Eliana to meet her Miami accountant to structure the consignments (personal vs company account). Full detail on [[wiki/decisions/2025-05-29-eds-fx-conversion-cost-routing.md]]. This confirms the EDS→Elevate financing leg (cf. the 8% commission / Elevate facility above). [[raw/Eliana-May-29-2025.md]]
 
+## July 1 2025 — finance-alignment call; Daniel introduced; the two-deal structure
+
+On a finance-alignment call ([[wiki/meetings/2025-07-01-eds-jvl-finance-alignment.md]]) [[wiki/people/val-levitan.md|Val]], [[wiki/people/alka-sood.md|Alka]] and [[wiki/people/hector.md|Hector]] walked **[[wiki/people/daniel-eds.md|Daniel]]** — the head of the EDS family, now running the company day-to-day — through how JVL's payments to EDS reconcile with the [[wiki/organizations/elevate.md|Elevate]] billing. [[raw/finance_eds_jvl_alignment-july-1-2025.md]]
+
+- **Two concurrent deals, two payment paths.** The **first deal** (a smaller number of machines, already installed in Colombia) settles entirely **JVL Colombia ↔ EDS Colombia**. The **second deal** runs **through EDS's US bank**: **JVL Systems (US) pays EDS US**, and **EDS US pays [[wiki/organizations/elevate.md|Elevate]] US** in US funds. [[raw/finance_eds_jvl_alignment-july-1-2025.md]]
+- **The 85/15 split and the June payment.** Grand totals show **Systems remits 85%** and **Colombia remits 15%**. In June, Systems sent **US$231,000** and Colombia sent **US$34,000**, total **US$265,688** (each split into principal and interest). [[raw/finance_eds_jvl_alignment-july-1-2025.md]] (Matches the June-30 finance-call figure on [[wiki/topics/jvl-finance-back-office.md]] — recurring-payment restatement, not a new payment.)
+- **Declining balance.** Amount owing to Elevate at end-June was **US$2,392,996**; after the $265,688 payment it steps down monthly, with **10 payments remaining**, the last on **December 31, 2027** (final payment ~US$217,000). [[raw/finance_eds_jvl_alignment-july-1-2025.md]]
+- **The 8% commission is calculated but unpaid.** JVL owes the family **8% commission** (paid separately, into EDS's US BNC account, per the Miami agreement) — calculated on the spreadsheet (line 31) but **not yet paid**; Daniel said EDS doesn't need it right now. [[raw/finance_eds_jvl_alignment-july-1-2025.md]] (Consistent with the Apr-7 treatment of the commission as accruing, above.)
+- **Why the Colombian $34k must stay in Colombia.** The 15% Colombian portion is paid by [[wiki/people/marta.md|Marta]] (JVL Colombia) to EDS in Colombia, and **must keep flowing through the same source** — three years of documented payments; changing the payment source now "would look like a tax evasion. Well, it will be a tax evasion." [[raw/finance_eds_jvl_alignment-july-1-2025.md]]
+- **Annual review agreed.** Val proposed a **yearly review** like this one to give Daniel comfort before each payment cycle. A recent ~**$39,048** wire (transferred June 27, [[wiki/people/inna-levitan.md|Inna]] authorised) was verified as landed in EDS's US account, to be remitted onward to Elevate. [[raw/finance_eds_jvl_alignment-july-1-2025.md]]
+
+*(Corporate financing economics — recorded per §15.8, which permits corporate/tax/vendor figures; no named-person labour rate appears here. [[wiki/people/julian-puerta.md|Julian]]'s EDS retainer remains held.)*
+
 ## Open questions
 
 - ~~Is "EDS" the operation's real name or a transcription artifact?~~ **Substantially answered by the Texas call:** Val fluently dictates "EDS is a Colombian company … EDS becomes a distributor … there could be an EDS USA" — strong evidence "EDS" is the real corporate name. Owner confirmation still queued (Tier A) because of the standing EDS→EDC garble alias. [[raw/meeting_with_julian_puerta_texas_eds.md]]
@@ -50,3 +63,4 @@ On a May-29 call with [[wiki/people/eliana.md|Eliana]] (translated by her daught
 - [[raw/meeting_with_julian_puerta_texas_eds.md]]
 - [[raw/finance_recurring-april-7-2025.md]]
 - [[raw/Eliana-May-29-2025.md]]
+- [[raw/finance_eds_jvl_alignment-july-1-2025.md]]

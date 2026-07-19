@@ -3,7 +3,7 @@ type: person
 title: Humberto Sarkis
 date: 2025-04-28
 aliases: [Humberto Sarkis, Humberto]
-source-count: 2
+source-count: 3
 open-commitments: 3
 disambiguation: "Mexican corporate/liquidation lawyer for JVL's Mexico wind-down (dissolution + tax-settlement strategy). Distinct from Alejandro de la Rosa, the external Mexican accountant (wiki/people/alejandro.md), and from the Colombian trade lawyer Maria Sanchez (wiki/people/maria-sanchez.md). Also distinct from Carlos Infante (Estrella law firm)."
 ---
@@ -24,7 +24,9 @@ Humberto Sarkis is Val's long-standing **Mexican corporate/liquidation lawyer**,
 
 ## The tax-litigation strategy call (May 29 2025) ([[wiki/meetings/2025-05-29-mexico-tax-case-humberto.md]])
 
-A strategy call with [[wiki/people/val-levitan.md|Val]], Sarkis, his tax colleague **Mauricio** and [[wiki/people/monica.md|Monica]] on how to survive the JVL Mexico tax matter through the wind-down. [[raw/mexico_tax_case-may-29-2025.md]]
+A strategy call with [[wiki/people/val-levitan.md|Val]], Sarkis, his tax colleague **[[wiki/people/mauricio-medina.md|Mauricio]]** (now identified as **Mauricio Medina** of Medina Mendoza Abogados — see his page) and [[wiki/people/monica.md|Monica]] on how to survive the JVL Mexico tax matter through the wind-down. [[raw/mexico_tax_case-may-29-2025.md]]
+
+**Update (Jul 3 2025):** Mauricio Medina ran a status review of the audit directly with Val (without Sarkis) — see [[wiki/meetings/2025-07-03-mexico-tax-dispute-status.md]] and the status detail on [[wiki/decisions/2025-03-24-close-jvl-mexico-operation.md]]. It clarified the audit is for the **2019** year (not the "2021 or 2022" Val recalled uncertainly on Apr-28) and that two of three findings were settled in June-2025 conciliation, leaving the depreciation dispute open. [[raw/mx_tax-dispute_status_review-july-5-2025.md]]
 
 - **The plan as framed:** take the (largest available) tax write-off; then over the collection period (~two years out) **remain visible and answer the door**, and **fight every enforcement/seizure attempt** (a couple of legal recourses a year, covered by the aggregate fee already paid). After **5 years of collection effort** the tax liability **expires / becomes non-enforceable** in Mexican law — so the company is "off the hook." [[raw/mexico_tax_case-may-29-2025.md]]
 - **Val's push for precedent.** Val rejected the assumption there are no industry precedents ("this is the largest tax write-off you could take, so everybody would take it"), said he is **99% sure** precedent exists, and cited that **Casa Mayor** is "using three years." He asked Sarkis/Mauricio to make **finding court precedent** the agenda, and said he would ask contacts (incl. **Elias Liberas**); both sides to research and **reconvene in ~3 weeks (~June 15)**. [[raw/mexico_tax_case-may-29-2025.md]]
@@ -40,3 +42,4 @@ A strategy call with [[wiki/people/val-levitan.md|Val]], Sarkis, his tax colleag
 
 - [[raw/jvl_mexico_wind-down-humberto_sarkis-apr-28-2025.md]]
 - [[raw/mexico_tax_case-may-29-2025.md]]
+- [[raw/mx_tax-dispute_status_review-july-5-2025.md]]

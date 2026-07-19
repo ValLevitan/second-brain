@@ -4,7 +4,7 @@ title: Close the JVL Mexico operation
 date: 2025-03-24
 aliases: [close Mexico, JVL Mexico closure, Mexico dissolution]
 status: active
-source-count: 6
+source-count: 7
 ---
 
 # Close the JVL Mexico operation
@@ -41,6 +41,19 @@ On the [[wiki/meetings/2025-05-01-action-list-review-lev-rudky.md|May-1 action-l
 
 On the finance call ([[wiki/meetings/2025-05-07-finance-recurring-alka-stabilization.md]]) Val said the lawyers and accountants have been taken out of the loop (JVL took the obligations directly), and that **on ~the 16th of the month all remaining machines ship**, leaving "nothing left in Mexico." From ~**June 1** the company becomes a **passive** situation for closing; the remaining people are let go and everything else is zero-expense. Val retains **a lawyer and the accountant ([[wiki/people/alejandro.md|Alejandro]]) on a reduced schedule**, per the agreement that the external accountant can wind it up himself once operations stop. [[raw/financial_review-may-7-2025.md]]
 
+## July 3 2025 — the 2019 tax-audit status (the tail that still blocks dissolution)
+
+A status review with tax litigator [[wiki/people/mauricio-medina.md|Mauricio Medina]] (Medina Mendoza Abogados), [[wiki/people/val-levitan.md|Val]], [[wiki/people/igor-donis.md|Igor Donis]] and [[wiki/people/felipe-miranda.md|Felipe Miranda]] as translator ([[wiki/meetings/2025-07-03-mexico-tax-dispute-status.md]]). This is the SAT tax tail flagged since Apr-15 as blocking legal dissolution. [[raw/mx_tax-dispute_status_review-july-5-2025.md]]
+
+- **The audit is for the 2019 year** (started July 2024) — a clarification of the earlier "2021 or 2022" that Val had recalled uncertainly on Apr-28 (see [[wiki/people/humberto-sarkis.md]]); the tax lawyer's date supersedes Val's guess. The core dispute: JVL depreciated its **slot machines at the 30% personal-computer rate**; the authority says machines aren't "personal computers" (the law is literal — desktops/laptops only), so they fall under **"other activities" at 10%**. [[raw/mx_tax-dispute_status_review-july-5-2025.md]]
+- **Two of three findings settled in conciliation; depreciation still open.** A **conciliation letter was signed June 19 2025** (audit suspended, 12 months granted; audit restarted June 20 on the remaining amount). The **ISR (income tax)** penalty was reduced from **1,840,806 pesos (~$77,000 USD)** to **218,583.19 pesos (~$11,000)**, and the **IVA ("Eva tax")** from ~350,000 pesos to ~102,000/250,000 pesos — the two "easy" items (bookkeeping/allocation + IVA) resolved for a total penalty decrease Val summed at ~**$25,000**. The **depreciation** point — the important one — remains open; Mauricio expects a **resolution in ~6 months carrying a fiscal credit (assessment) of ~6 million pesos**, then appeals through the instances. [[raw/mx_tax-dispute_status_review-july-5-2025.md]]
+- **Defence = "multi-component."** Argue the machine is a set of components (printers, optical readers, a **storage unit** per Article 37), each at 30% — returning the write-off to 30%; plus the authority never legally **defined "computer."** [[raw/mx_tax-dispute_status_review-july-5-2025.md]]
+- **Val's new idea (restate 2020–2025 books).** Since 2019 is off the table, Val proposed **restating the books for 2020–2025** to use the conservative 10% write-off **plus adding service charges** billed from the Canadian company to the Mexican company — to neutralise the compounding exposure across years. Mauricio warned this could **escalate to federal authorities** (worse), and that Mexican invoices are registered digitally in the SAT system with **50–100%-of-invoice** penalties for non/late registration. Keep the matter in **Ciudad de México** jurisdiction. [[raw/mx_tax-dispute_status_review-july-5-2025.md]]
+- **Ownership.** JVL Mexico is owned by **JVL Mobi (Moby) Canada**, which Val described as "a shell… there is no asset"; Val stated JVL Mexico's parent is not JVL Canada / "different ownership." (Public property records name a Canadian shareholder.) [[raw/mx_tax-dispute_status_review-july-5-2025.md]]
+- **Fees (legal/vendor economics, §15.8-permitted):** $8,200 owed now (non-negotiable); $4,000 prep stage (negotiated toward $3,000); three instances at up to $12,000 each; Val's total ≈ $48,000 — full breakdown on [[wiki/people/mauricio-medina.md]]. [[raw/mx_tax-dispute_status_review-july-5-2025.md]]
+
+*(Continuation of the May-29 tax-litigation strategy call, §3 — the depreciation-defence + "outlast the collection period" plan. Consistent with this decision's standing note that legal/SAT-settlement costs are Val's direct responsibility off the Mexico budget.)*
+
 ## Rationale
 
 - Mexico is "throwing money out of the window"; Val had been patient but the market no longer justifies it. This follows the same Latin-America wind-down logic as Peru (already closing) — see [[wiki/people/anibal.md]] and the market update Val gave on [[wiki/meetings/2025-03-23-doug-business-update.md]] (Mexico had an unfavourable tax audit/penalty; JVL "milked the cow until it died"). [[raw/financial_alka_alignment-march-24-2025.md]] [[raw/doug_update_jvl-march-23-2025.md]]
@@ -61,3 +74,4 @@ On the finance call ([[wiki/meetings/2025-05-07-finance-recurring-alka-stabiliza
 - [[raw/mexico_jvl_orderly_wind-down-apr-15-2025.md]]
 - [[raw/action_list_review_lev_rudky-may-1-2025.md]]
 - [[raw/financial_review-may-7-2025.md]]
+- [[raw/mx_tax-dispute_status_review-july-5-2025.md]]

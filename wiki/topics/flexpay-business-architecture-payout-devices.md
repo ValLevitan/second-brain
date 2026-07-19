@@ -3,7 +3,7 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS]
-source-count: 34
+source-count: 40
 open-commitments: 8
 open-questions: 3
 ---
@@ -336,6 +336,16 @@ A research-synthesis document (an AI narrative built over JVL transcripts, dated
 - **Val's 2023 financial math (business economics):** machines generating **$3,000/day at 90% RTP**; even at **20% gift-card adoption** that's **$540/machine/day** through cards; at **3% processing fees** = **$16/day/machine**; for **3,000 machines** = **$48,000/day** in processing costs — the prize being to keep that money in-house as recurring transaction revenue. [[raw/why_flex-pay_started-may-27-2025.md]]
 - **Evolution of the solution:** from initial 2023 concepts — plastic card readers → paper tickets (TITO-style) → QR codes / optical readers → eventually a comprehensive **kiosk + reader** solution. [[raw/why_flex-pay_started-may-27-2025.md]]
 
+## July 1–2 2025 — InComm in-person session: the product array named, the Redemption Center, the mini-ATM
+
+At the two-day InComm strategy meeting in Toronto ([[wiki/meetings/2025-07-01-incomm-product-strategy-toronto.md]]; [[wiki/people/val-levitan.md|Val]] + team with InComm's [[wiki/people/john-houseal.md|John Houseal]]) Val laid out JVL's full payout-device array and John named the mini-ATM the **"Redemption Center."** InComm-side facts are on [[wiki/organizations/incom.md]]; the device-catalog content: [[raw/incomm_product_discussion-july-1-2025-1.md]]
+
+- **The product array (Val's pitch), to reach market by June 2026.** JVL wants to "wedge itself between InComm and the markets" as validation conduit + equipment supplier, earning ~$1/transaction recurring. Devices: (1) **POS** — wedges between the Mother-Goose board and the cage's dot-matrix (RS-485) printer; on cash-out the screen shows the win, cashier presses **"redeem to card,"** POS validates via InComm and pairs a scanned/swiped card — the minimum path to June-1 legislative compliance. (2) **Tower** — a slim PC-sized tower with an isolated card dispenser + player-facing touchscreen (protected dispensing, no cashier handling the card). (3) **SMIB** — for two-SAS machines, "a $10 device… you could practically give it away." (4) **conversion kit / FlexPort** for one-SAS machines (barcode reader, touchscreen, bill-acceptor + printer connectors, WSS output). (5) **T2 (Tito) server** — validation, can be cloud (risk: cloud down = all down). (6) **FlexPay** — the elaborate tower (full touchscreen, scanner, multiple bill acceptors + dispensers + printer; "Serge" demoed it downstairs). [[raw/incomm_product_discussion-july-1-2025-1.md]] [[raw/incomm_product_discussion-july-2-2025-6.md]] (The card-dispenser cost was discussed but the figure is garbled in the transcript — "our cost is under $500,000" — recorded as unclear, not asserted.) [[raw/incomm_product_discussion-july-2-2025-6.md]]
+- **Two agreements per master.** JVL signs an **equipment agreement with the master** and a **processing agreement with the location** (delegated to the master, who tells the location "you're covered, sign here"). Which device/credential submits the activation determines who gets paid (see [[wiki/organizations/incom.md]]). [[raw/incomm_product_discussion-july-2-2025-5.md]]
+- **The bill-recycler mini-ATM (Val's key idea) → "Redemption Center."** Val proposed mounting a **bill-to-bill recycler inside the gaming machine** (or in a tower between two machines) so it acts as a **standalone mini-ATM**: bills taken in during play refill the recycling cassette, and small wins are paid out in cash from it — it **never needs refilling** because payouts are always less than revenue (jackpots are never paid in cash). Only JVL machines with the recycler would then be the cash source, so they'd "prevail." Compliance nuance: the player must still be **sold an instrument** (the 353/SkillPay card) that is then converted to cash — auto-converting the load straight to cash "would be illegal." John named it the **Redemption Center** (don't call it an ATM — regulatory optics). The closest existing hardware shown was the **Hyosung Pivot / C-store-of-the-future** unit (~$8,500). Extends the [[#may-12-2025--flexpay-decomposed-as-a-capability-product-discovery-worked-example|bill-recycler / "Cash Code" capability]] and the [[wiki/organizations/jcm.md|JCM recycler]] evaluation. [[raw/incomm_product_discussion-july-1-2025-4.md]] [[raw/incomm_product_discussion-july-2-2025-7.md]]
+- **Monthly-fee-per-device business model.** Val's aim is to charge masters a **monthly fee per device**; John floated ~$200/month, Val thought that high. The devices outlive an EGM (embedded, ~5–10 years vs the machine's 3–5), so a rental/recurring model fits. Beyond COAM, the Redemption Center can earn from **non-gaming cash-in services** (top-ups, bill-pay, deposits to Cash App/Chime/Capital One) — detail on [[wiki/organizations/incom.md]]. [[raw/incomm_product_discussion-july-2-2025-7.md]]
+- **Naming still fluid: Tower vs Pay vs Redemption Center.** Val: **Pay** = the elaborate product they have today (shown downstairs); **Tower** = a smaller version that scans a barcode and auto-dispenses a card without an attendant; **Redemption Center** = the Tower extended with the bill recycler. "There will be a fusion between Tower, Pay, and the Redemption Center… the vision will get defined as we go along." (A larger-screen **FlexPay V43** was also flagged as needed.) [[raw/incomm_product_discussion-july-2-2025-9.md]] [[raw/incomm_product_discussion-july-2-2025-6.md]]
+
 ## Open commitments
 
 - [x] Genadi Peari — price monitor/touchscreen driver-adapter options (with the Chinese suppliers) so the embedded-vs-industrial-Linux stack decision can be made Monday ~May 26 — **discharged May 26**: the weekend ARM-board find superseded the adapter-pricing task; the stack was ruled — see [[wiki/decisions/2025-05-26-arm-linux-platform-flex-devices.md]] — [[raw/selection_tech_stack_hardware-flex-pos_flex-tower_flex-tito-may-21-2025.md]] [[raw/hardware_selection_flex-tower_flex-pos-may-26-2025.md]]
@@ -390,3 +400,9 @@ A research-synthesis document (an AI narrative built over JVL transcripts, dated
 - [[raw/review_flex-POS_use_cases.md]]
 - [[raw/Flex-POS Implementation Planning.md]]
 - [[raw/flex-pay_initiative_description.md]]
+- [[raw/incomm_product_discussion-july-1-2025-1.md]]
+- [[raw/incomm_product_discussion-july-1-2025-4.md]]
+- [[raw/incomm_product_discussion-july-2-2025-5.md]]
+- [[raw/incomm_product_discussion-july-2-2025-6.md]]
+- [[raw/incomm_product_discussion-july-2-2025-7.md]]
+- [[raw/incomm_product_discussion-july-2-2025-9.md]]

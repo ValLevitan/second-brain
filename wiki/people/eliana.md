@@ -3,13 +3,13 @@ type: person
 title: Eliana
 date: 2025-03-22
 aliases: [Eliana]
-source-count: 4
+source-count: 5
 open-questions: 2
 ---
 
 # Eliana
 
-Eliana is the principal on the Colombian side of JVL's business there — the person behind **[[wiki/organizations/eds-colombia.md|EDS]]** (Colombia) who pays [[wiki/people/julian-puerta.md|Julian Puerta]] a monthly consulting retainer, and whom Val calls "the best money maker of the whole operation." [[raw/julian _puerta_nebraska-march-29-2025.md]] [[raw/meeting_with_julian_puerta_texas_eds.md]] (Her surname and formal title are not stated in any source.)
+Eliana is the principal on the Colombian side of JVL's business there — the person behind **[[wiki/organizations/eds-colombia.md|EDS]]** (Colombia) who pays [[wiki/people/julian-puerta.md|Julian Puerta]] a monthly consulting retainer, and whom Val calls "the best money maker of the whole operation." [[raw/julian _puerta_nebraska-march-29-2025.md]] [[raw/meeting_with_julian_puerta_texas_eds.md]] (Her surname and formal title are not stated in any source.) EDS is a **family** business; the family's day-to-day head as of mid-2025 is **[[wiki/people/daniel-eds.md|Daniel]]** (introduced on the Jul-1 finance-alignment call), who reconstructed the deal partly from information Eliana held. [[raw/finance_eds_jvl_alignment-july-1-2025.md]]
 
 ## Current state (Mar 2025)
 
@@ -39,3 +39,4 @@ On a May-29 call ([[wiki/meetings/2025-05-29-eliana-fx-conversion.md]]) with Val
 - [[raw/meeting_with_julian_puerta_texas_eds.md]]
 - [[raw/julian_puerta_jvl_mexico.md]]
 - [[raw/Eliana-May-29-2025.md]]
+- [[raw/finance_eds_jvl_alignment-july-1-2025.md]]

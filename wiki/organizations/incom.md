@@ -3,8 +3,8 @@ type: organization
 title: Incom (payment processor)
 date: 2025-02-27
 aliases: [Incom, InComm, Incomm, Income, Incom Payments]
-source-count: 15
-open-commitments: 3
+source-count: 24
+open-commitments: 5
 open-questions: 2
 ---
 
@@ -81,6 +81,8 @@ The market/solution meeting Val committed to on the Apr 2 SMIB call — owner Va
 - [ ] Val + Juan — regroup and define a proper business model for the COAM gift-card solution (barcode option) — due unspecified — [[raw/2025-04-07-COAM_gift_card_solution_incomm_notes.md]]
 - [ ] Incom (Alan) — send JVL the blank **location onboarding / merchant setup form** and (Adam) the standard consumer-facing language/terms — due "after this call" (Feb 27) — [[raw/incomm_commissioning_plan_february-27-2025.md]]
 - [ ] JVL (Val/Juan) — complete Incom's merchant setup form and arrange the in-shop first-machine production test; produce the consumer-experience demo for Adam's review — due unspecified — [[raw/incomm_commissioning_plan_february-27-2025.md]]
+- [ ] JVL (Val + team) — **define the Redemption Center** (bill-recycler tower) and the additional cash-in products (deposits, cell-phone recharge, bill payments) more precisely; July-11 follow-up call booked (10am–12 ET) — due ~Jul 11 2025 — [[raw/incomm_product_discussion-july-2-2025-10.md]]
+- [ ] JVL — run a **failure-mode analysis (FMEA)** on the POS/redemption devices once they mature (informed by the 7-Eleven malformed-reversal failure John described), consulting InComm's John — due after early maturity — [[raw/incomm_product_discussion-july-2-2025-10.md]]
 
 ## Visa / card-back-into-play talks and future scanner requirement (Apr 8–11 2025)
 
@@ -122,6 +124,47 @@ A weekly alignment call ([[wiki/meetings/2025-06-23-incomm-jvl-nebraska-georgia-
 - **Val's cheaper alternative to a full kiosk.** Val argued Georgia operators won't spend tens of thousands modernizing to kiosks; most run **MudaGoose** (the dominant RS-485 printer-per-machine system) with a cashier-printed ticket. His cheaper path: validate the MudaGoose ticket **without TITO or hardware change** and issue a SkillPay card **at the cashier**, using a **cage dispensing unit + POS** (split the printer from the machine, connect a POS to capture the signal, add a tabletop card dispenser with a small 5–8" player-facing touchscreen for terms) — no kiosk needed. Val's business aim is to **split the $3 service charge** with InComm and earn recurring processing revenue, providing whatever hardware an operator needs. John agreed InComm "makes no money on kiosks" and isn't in the kiosk/game-card-system business ("not Access, not MudaGoose") — only financial card products + moving money — and will target whatever architecture JVL builds. [[raw/incomm_jvl_alignment-june-23-2025.md]]
 - **Val's partner-vs-competitor challenge.** Frustrated by InComm's hesitance to share the two-step design, Val asked point-blank "am I your competitor or your partner?" and offered to sign a confidentiality agreement so JVL can design suitable hardware/business-architecture in anticipation of InComm's process. John confirmed partner, not competitor, but said the product genuinely isn't finalized ("I don't have the exact answer on which APIs you need"). Both sides are "months away" from a physically available card (card art not yet approved for printing). Weekly **Monday** syncs agreed; Val asked to add [[wiki/people/juan-martinez.md|Juan Martinez]] (in Florida, not Atlanta). [[raw/incomm_jvl_alignment-june-23-2025.md]]
 
+## July 1–2 2025 — in-person product-strategy meeting at JVL Toronto (2 days)
+
+A two-day in-person working meeting at JVL's Toronto office ([[wiki/meetings/2025-07-01-incomm-product-strategy-toronto.md]]; primary July 1, day 2 July 2) between [[wiki/people/val-levitan.md|Val]] (+ JVL team) and **[[wiki/people/john-houseal.md|John Houseal]]**, InComm's product-development / route-gaming lead. John's goal: understand what JVL wants to build and pair it with InComm's card products + money movement, then "chart a way for JVL." Segments carrying unique facts noted on the stub. [[raw/incomm_product_discussion-july-1-2025-1.md]]
+
+### What InComm is (John's framing)
+
+- **Vanilla Direct** is InComm's US cash network — ~**100,000 retail locations**, processing **3–5 transactions per second**, taking cash in at retail and routing it to banks, wallets and sportsbooks; licensed money movement negotiated with Visa/MasterCard/banks. Route gaming is a small part of InComm's business (~**2,400 employees total**, only ~**4–5 on the route-gaming program**). [[raw/incomm_product_discussion-july-1-2025-1.md]]
+- **Blackhawk** is InComm's chief rival. **Fraud scale:** organized bad actors "have mastered the art of industrial scale" — one year InComm lost "very low nine figures" in gift-card fraud; a Georgia hit (via a hacked upstream player-card system) ran **$80,000 in ~10 minutes**. InComm's standard gift-card limit is **$5,000/location** (some at $10–15k). This is why InComm is nervous about hanging cards on shelves rather than issuing at the point of pairing. [[raw/incomm_product_discussion-july-1-2025-1.md]]
+
+### The PrizePay card, the crosswalk table, and the off-network API
+
+- The **PrizePay** card carries an **activation barcode** (C128) and a magnetic stripe (activation barcode also placed in track-one data for kiosks that only read magstripe). Historically the activation barcode only ever turned the card on. [[raw/incomm_product_discussion-july-1-2025-1.md]] [[raw/incomm_product_discussion-july-1-2025-2.md]]
+- InComm is building a **"crosswalk table"** that maps the activation barcode back to the card so that — hopefully by **end of 2025** — the same barcode can be **scanned to spend value back at the machine** via a **different API call** ("take $20 off the card and use it at the machine"). This is a **~300-hour development effort** and requires a new **payment-services agreement** with the location. It gives JVL a **backup revenue stream** (if a location stops paying for activations, JVL can recover charges from spend). [[raw/incomm_product_discussion-july-1-2025-1.md]] [[raw/incomm_product_discussion-july-1-2025-2.md]]
+- **Off-network transaction.** Processing off the barcode is an "off-network transaction" — InComm had to **petition MasterCard** to run it across InComm's own network (it violates their agreement to route everything over MasterCard). Because the barcode is not payment-card data, it is **outside PCI scope** and no merchant acquirer carries it. Security to spend at a machine: the player enters a **security code — the last 3 or 4 digits** of the card number (undecided) — to defeat barcode-guessing (first 8–11 barcode elements are fixed routing identifiers). A **virtual card** (to the player's phone) is possible instead of physical plastic. [[raw/incomm_product_discussion-july-1-2025-2.md]]
+
+### The broker / merchant / terminal model (who JVL's customer is)
+
+- **Terminal-ID model** (Toast-POS analogy): a **location = a merchant number**; each machine = a **terminal number**; machines belong to a **master operator**. Every card transaction carries terminal + merchant + transaction-type. [[raw/incomm_product_discussion-july-1-2025-2.md]]
+- For **gift-card activations**, **JVL = the broker**: JVL contracts with the location/merchant, InComm contracts with JVL, the merchant pays JVL and JVL pays InComm. For **spending the card back at the machine**, a different set of financial regulations applies — **InComm must hold a direct payment-services agreement with the location**. [[raw/incomm_product_discussion-july-1-2025-2.md]]
+- **Who gets paid is driven by the credential that submits the activation request** — "everything is driven by the credential that submits the activation." If a location processes on a broker's **PAX** device it goes to that broker (e.g. RWJ); if on JVL's POS, it goes to JVL. **Georgia broker ecosystem:** **RWJ** (~2,400 signed location contracts; a "PAX/A80" device makes them June-1 compliant), **Yinlo** (InComm recruited him — built RWJ's software — to become a broker), **LUNIX** (InComm's least-popular program), **IFS** and **MIMS** (see "Bob" below). Broker contracts often carry a **one-year term with exclusivity for the prepaid products provided**; JVL's strategy is to install equipment, process under the incumbent broker's credential until the contract expires, then switch to JVL. [[raw/incomm_product_discussion-july-1-2025-4.md]] [[raw/incomm_product_discussion-july-2-2025-5.md]]
+- **Master vs Access.** The largest master is **United** (works largely with **Access**, a Las-Vegas player-card system — ~**$0.12/day/machine** + ~$1/player card, judged expensive; player cards rarely reused); United is also exploring Tito via Easy Links. [[raw/incomm_product_discussion-july-1-2025-4.md]]
+
+### "Bob" — enriched context (still queued)
+
+The unresolved American "Bob" (§4 registry — owner-deferred, NOT Gottlieb) gained substantial context here: John described **Bob** as "a competitor, a partner, and a colleague all at once… He's **MIMS operator**. He runs their payments. He started a company called **IFS** where he sells kiosks. And he's done his time in Vegas." (Earlier: "Bob's [contract] is probably the most sophisticated… that's MIMS.") So Bob is a Georgia route-gaming figure tied to MIMS and IFS with a Vegas background — **still no surname; kept queued (Tier A).** [[raw/incomm_product_discussion-july-2-2025-9.md]] [[raw/incomm_product_discussion-july-2-2025-5.md]]
+
+### InComm's product roadmap and the Redemption Center / mini-ATM
+
+- **John's roadmap (~4 steps):** (1) today's PrizePay card; (2) a card with **cash access** (SkillPay); (3) send the prize straight to the player's **bank account** (esp. Nebraska high winners); (4) print a **cash-pickup code** on the game receipt → collect cash at an **ATM** (deal signed **last week with NCR**, service launching end of summer 2025; player's cell number = account number). [[raw/incomm_product_discussion-july-1-2025-4.md]]
+- **SkillPay:** **$3 activation charge** (verbally approved, ~8 weeks into development), expected to be an official product by **end of 2025**; the JVL↔InComm split is **not yet decided** (Val wants 50-50, floated $3.50/$5). Legal theory reaffirmed: take a valid COAM redemption instrument (the **Georgia "353" gift product**) → **buy** the SkillPay card ($3, has cash access) → then redeem to cash — a purchase must be orchestrated (auto-converting would be illegal); the card need not be physically dispensed (a digital card can convert to cash via acceptance screens). InComm cites **three external legal opinions + internal analysis** clearing it. [[raw/incomm_product_discussion-july-2-2025-5.md]] [[raw/incomm_product_discussion-july-2-2025-8.md]]
+- **"Redemption Center"** — John's naming for JVL's mini-ATM: don't call it an ATM (attracts regulatory attention); call it a Redemption Center. This anchors the bill-recycler mini-ATM concept detailed on [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. A **Hyosung ("Heosung") Pivot / C-store-of-the-future** unit was shown as the closest existing hardware (~21-inch slimline, 3 recycling cassettes + 1 overflow, holds 9,000 notes, ~100 notes/transaction, receipt printer + bill-bunch acceptor/dispenser + barcode scanner; list ~**$8,500**; runs "Hyosung Pay"; used with **DraftKings** at Sports & Social venues). [[raw/incomm_product_discussion-july-2-2025-7.md]]
+
+### Non-gaming cash-in services (extra revenue for JVL's device)
+
+- John pushed JVL to make the Redemption Center a profit centre beyond COAM: **wireless top-ups** (Boost Mobile), transit passes, **utility bill-pay**, and **cash-in to bank accounts / wallets** — all barcode-scan based via InComm's API. Economics: a deposit costs **$0 to $3.95**; **Cash App** charges users $1 and pays InComm ~$1.50; **Capital One 360** is free (add cash at CVS, up to $99/day, 5/month = $4,995/month max). InComm has "the only pipe into Cash App to add funds" but isn't approved by Cash App for gaming use. **Chime** (the "largest bank that isn't a bank") killed InComm's old GPR-card business. Money flow: player scans app barcode at the device → InComm approves → device takes cash → InComm bills JVL next day less commission. **"Zillions"** = InComm's merchandise-state product (barcode receipt → pick from ~500 gift-certificate partners; big unspent-value commissions). [[raw/incomm_product_discussion-july-2-2025-7.md]]
+- **Device-ownership regulatory note:** better if **JVL owns** the Redemption Center and licenses it to the master (~$50–100/month) so the master has no financial interest in the store (a regulatory concern). [[raw/incomm_product_discussion-july-2-2025-7.md]]
+
+### GLC / Intralot serial-masking (day 1)
+
+Georgia Lottery / Intralot **mask JVL's cabinet serial numbers** and assign their own numbers that JVL is "purposely not allowed to know" — so JVL cannot tell where its machines are, and the numbers change on relocation; JVL sees only enabled/disabled numbers appearing and disappearing on a report. [[raw/incomm_product_discussion-july-1-2025-3.md]]
+
 ## Sources
 
 - [[raw/incomm_jvl_alignment-june-23-2025.md]]
@@ -139,3 +182,12 @@ A weekly alignment call ([[wiki/meetings/2025-06-23-incomm-jvl-nebraska-georgia-
 - [[raw/incomm_transcript_gacoam_payment_options-april-4-2025.md]]
 - [[raw/incomm_meeting—april-3-2025-1.md]]
 - [[raw/bdc_intro_to_flex-port_ga-coam-may-20-2025.md]]
+- [[raw/incomm_product_discussion-july-1-2025-1.md]]
+- [[raw/incomm_product_discussion-july-1-2025-2.md]]
+- [[raw/incomm_product_discussion-july-1-2025-3.md]]
+- [[raw/incomm_product_discussion-july-1-2025-4.md]]
+- [[raw/incomm_product_discussion-july-2-2025-5.md]]
+- [[raw/incomm_product_discussion-july-2-2025-7.md]]
+- [[raw/incomm_product_discussion-july-2-2025-8.md]]
+- [[raw/incomm_product_discussion-july-2-2025-9.md]]
+- [[raw/incomm_product_discussion-july-2-2025-10.md]]

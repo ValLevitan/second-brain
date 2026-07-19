@@ -37,6 +37,9 @@ open-questions: 1
 
 - Who is "Bob" (full name, role)? And is he the Mar 27 unnamed American attendee and/or the unnamed American lead on the Apr 14 SAS 51/52 call? [[raw/flex_pay_tito_smib_port-april7-2025.md]] [[raw/sas_51_52_requirement_interpretation-april-14-2025.md]]
 
+
+- **New identifying context (July-2, via InComm's John Houseal — still no surname, kept owner-deferred):** Bob is "a competitor, a partner, and a colleague all at once" — a **MIMS operator who runs their payments**, **founded a company called IFS selling kiosks**, and has a **Vegas background**. A Georgia route-gaming payments figure. Watch for a source that names him. [[raw/incomm_product_discussion-july-2-2025-9.md]]
+
 ## Sources
 
 - [[raw/flex_pay_tito_smib_port-april7-2025.md]]
