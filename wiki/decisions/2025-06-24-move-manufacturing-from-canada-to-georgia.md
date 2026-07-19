@@ -31,6 +31,7 @@ JVL will **stop manufacturing/assembling machines in Canada and move it to Georg
 
 - **Jun 24 2025** — Val dictates the undertakings (Elizabeth heads manufacturing; Anibal → Atlanta for Echo; 50-machine Toronto buffer; DDP quotes; move BOM to BC; find a US metal fabricator; keep JVL Canada alive for tax losses). [[raw/procurement_relocation-june-24-2025.md]]
 - **Jun 26 2025** — alignment meeting confirms it ("no way of manufacturing in Canada"), adds the Norcross→Louisville warehouse move, the lease-to-purchase option, the no-manufacturing-module BC path (Lev), and the Georgia trip agenda. [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
+- **Jul 9 2025** — Val reaffirmed the US move to RBC, disclosing an **option placed on an industrial freestanding building near Atlanta, Georgia** (the manufacturing facility) plus a Miami building search — tariffs/uncertainty cited as the trigger, with immediate US coverage across Georgia, South Dakota, Nebraska, Texas and Florida. See [[wiki/organizations/rbc.md]] and [[wiki/topics/aventura-office-showroom-lease.md]]. [[raw/meeting_RBC-july-9-2025.md]]
 
 ## Open commitments
 
@@ -41,5 +42,6 @@ JVL will **stop manufacturing/assembling machines in Canada and move it to Georg
 
 ## Sources
 
+- [[raw/meeting_RBC-july-9-2025.md]]
 - [[raw/procurement_relocation-june-24-2025.md]]
 - [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]

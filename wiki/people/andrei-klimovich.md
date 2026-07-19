@@ -4,7 +4,7 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 17
+source-count: 18
 open-commitments: 8
 open-questions: 0
 ---
@@ -142,8 +142,13 @@ Five older sources (staged 2025-03-29, internally dated 2023–2024) place Andre
 
 - On the [[wiki/meetings/2025-06-18-echo-sales-marketing-progress.md|June-18 progress report]] Andrei reported the solved Amazon attribution puzzle (7/14-day window), the new Amazon **brand store**, the MVP landing page, his vendor roster (Fedor/Anton/Webcom/[[wiki/people/valeria.md|Valeria]]/Hanna), the **3-bucket influencer plan** (via manager Paul, 200+ influencers, ~October launch), **MCF** distribution, and sales (3 home + pending 6 amusement for Aminis; FBM/FBA issue). He is taking a **Dedicated Desk** coworking spot; financial/invoicing routing was deferred to a June-19 follow-up. Full detail on [[wiki/topics/echo-home-gaming-device.md]]. [[raw/echo_sales_marketing_progress_report-june-18-2025.md]]
 
+## July 9 2025 — ECHO status report (Amazon frozen, B2B pivot, documentary)
+
+A written Teams status report ([[wiki/meetings/2025-07-09-klimovich-echo-status.md]]): Amazon sales have been **stopped since June 4** with the 8 replenished units frozen in an Amazon "authenticity/condition investigation"; Andrei has pivoted to a **B2B distributor channel** (the Amusement version is now Amazon-approved) while B2C stalls on the **$600–$1,000** price expectation; and the JVL **documentary** advanced (three veteran-operator interviews lined up, awaiting Dan's signature, Ingrid/RePlay confirmed). Full detail on [[wiki/topics/echo-home-gaming-device.md]]. [[raw/andrei_klimovich_echo_status_update_2025-07-09.md]]
+
 ## Sources
 
+- [[raw/andrei_klimovich_echo_status_update_2025-07-09.md]]
 - [[raw/jvl_online_sync_2025-03-29 1.md]]
 - [[raw/business_architecture_and_the_website_design_for_online_2025-03-29.md]]
 - [[raw/online_vision_efim_2025-03-29.md]]
