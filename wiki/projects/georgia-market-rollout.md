@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 26
+source-count: 27
 open-commitments: 3
 open-questions: 5
 ---
@@ -179,6 +179,10 @@ On the [[wiki/meetings/2025-06-18-gcoam-ticket-redemption-workflow.md|June-18 ti
 - **FlexPOS is now priority #1, FlexTower #2.** Val redirected Nathan to POS; a "beta release" = a live in-house test with Incom validating a Move-the-Goose ticket through a JVL FlexPOS. [[wiki/people/juan-martinez.md|Juan Martinez]] booked a Friday **FlexTower/POS mock-up-screens** meeting. [[raw/about_tickets_redemption-gcoam-june-18–2025.md]]
 - **June 19 — Sept-1 beta scope confirmed.** The [[wiki/meetings/2025-06-19-flex-pos-use-case-design.md|next-morning Flex POS session]] wrote the "Manual Ticket Redemption for FlexPOS" use case for the Sept-1 beta (the handshake between FlexPOS and Incom + the $2-fee deduction, at the registered warehouse location); Tito/barcode validation and OCR are out of MVP. [[raw/flex_POS-use_case_architecture_requirements-june-19-2025.md]]
 
+## Manufacturing/assembly relocates to Georgia (June 24–26 2025)
+
+Beyond the software/COAM product, Georgia becomes JVL's **manufacturing base**: JVL decided to move machine assembly out of Canada to a new **10,500 sq ft freestanding warehouse in Louisville** (Atlanta area; up from the ~3,000 sq ft Norcross unit), with [[wiki/people/elizabeth.md|Elizabeth]] heading manufacturing and Echo + Flex production shipping there over ~30 days. Full decision + rationale (tariff risk; DDP quotes; no Business Central manufacturing module) on [[wiki/decisions/2025-06-24-move-manufacturing-from-canada-to-georgia.md]]. [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
+
 ## Open commitments
 
 - [x] Vlad (Vladislav Gurin) — produce a **block diagram of every JVL meter** (maximum set, proper names, used or not) for the Tuesday-11am follow-up (~June 17), so the team can agree which meter increments in the key-to-meter case — **discharged June 17** (Vlad presented the ~300-meter table; tests 1 & 2 passed) — [[raw/jp_meters-june-12-2025.md]] [[raw/Metering_class_3-june-17-2025.md]]
@@ -224,3 +228,4 @@ On the [[wiki/meetings/2025-06-18-gcoam-ticket-redemption-workflow.md|June-18 ti
 - [[raw/Metering_class_3-june-17-2025.md]]
 - [[raw/about_tickets_redemption-gcoam-june-18–2025.md]]
 - [[raw/flex_POS-use_case_architecture_requirements-june-19-2025.md]]
+- [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]

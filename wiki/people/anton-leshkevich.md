@@ -4,7 +4,7 @@ title: Anton Leshkevich
 date: 2025-01-21
 aliases: [Anton Leshkevich, Anton, Antoine, Anton Dmishkevich, Дмишкевич, Дмишкевичем]
 disambiguation: "Minsk engineer (Omni/RGS), this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 12
+source-count: 13
 open-commitments: 1
 open-questions: 0
 ---
@@ -59,8 +59,13 @@ On the Omni integration-tests onboarding ([[wiki/meetings/2025-04-24-omni-integr
 
 - On the [[wiki/meetings/2025-05-05-feature-granularity-aaron.md|feature-granularity session]], Val used "Anton" as the running example: he was working a **story (LGS196, "Data center UI… leave save mechanism")** under feature **LGS-14 (LGS Configuration GUI)** and had **opened a GitHub branch** on it, but the item was really feature-scale. Val's characterization: Anton "doesn't challenge the authority… knows precisely what to do, but he largely ignores what is written." Aaron used it to argue features must be broken down to demonstrate in ~2 weeks. (Anton by LGS/Omni-engineer context.) Detail on [[wiki/decisions/2025-04-03-jira-capability-level-and-github-mapping.md]]. [[raw/feature_granularity_definition_aaron-may-5-2025.md]]
 
+## June 26 2025 — Omni grooming (bonus integration, game history)
+
+On the [[wiki/meetings/2025-06-26-omni-schedule-grooming.md|Omni schedule grooming]] Anton ("Антон"/"Антонио ляшки девич" = Leshkevich) owns the feature **integration** work entirely (bonus, target the 3rd–4th) and the **game history** (LGS side ~done, framework side to finish once scenes exist). Bonus/mass-parser work partly waits on Zhenya's decomposed History. See [[wiki/topics/omni-core-advancement-and-game-templating.md]]. *(Separately, the "Anton" tapped for the Nebraska primary-skill-meter code on June 23 is likely this Anton by context — inference, recorded on [[wiki/projects/nebraska-skill-market.md]], not asserted as a source here.)* [[raw/OMNI_schedule_grooming-june-26-2025.md]]
+
 ## Sources
 
+- [[raw/OMNI_schedule_grooming-june-26-2025.md]]
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
 - [[raw/ai-assisted_development_with_vs_code_git_and_mcp_january_14_2025.md]]
 - [[raw/feature_granularity_definition_aaron-may-5-2025.md]]

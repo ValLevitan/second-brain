@@ -2,8 +2,8 @@
 type: project
 title: Used-machine retrofit and inventory clear-out
 date: 2026-07-12
-aliases: [retrofit project, warehouse clear-out, Mexico inventory]
-source-count: 3
+aliases: [retrofit project, warehouse clear-out, Mexico inventory, Louisville warehouse, Atlanta manufacturing]
+source-count: 5
 ---
 
 # Used-machine retrofit and inventory clear-out
@@ -42,8 +42,14 @@ On the Mar 27 Genadi call ([[wiki/people/genadi-peari.md|Genadi]] + Val), the re
 - **Why now — keep workers busy.** From **Oct 2025 to June 2026** JVL must produce **thousands of FlexPay** plus some Flex S, so the team will be very busy — but until ~July/August there is little to do. Rather than pay people for idle time (they were sent on vacation for lack of work), Val would rather have them refurbish machines, even if it means ordering buttons/panels or putting ~$50k more into inventory and boxing/shelving the finished units. [[raw/refurbishing_genadi_planning-march-27-2025.md]]
 - **Next steps:** Genadi to write a **summary for Val and "Arkady"** (Arkady to make the decision, Val as judge; "Arkady" identity unclear — see Owner Decisions), prepare a **button layout** for Maple, an **order grid** for Altera/Altera V (new layout) + buttons, give the **key mapping to the programmers**, and start restoring. [[raw/refurbishing_genadi_planning-march-27-2025.md]]
 
+## Toronto keeps the refurbishing while production moves to Georgia (June 24–26 2025)
+
+When JVL decided to move manufacturing/assembly from Canada to Georgia ([[wiki/decisions/2025-06-24-move-manufacturing-from-canada-to-georgia.md]]), the refurbishing work stayed in **Toronto**. Val's plan: leave the Toronto shelving as-is and load all **Maple and Altera** units onto it for **refurbishing there**, then ship the finished units to **Texas or Nebraska**; only the **Echo** and **Flex** production/stock moves to the new Louisville, Georgia warehouse. [[raw/procurement_relocation-june-24-2025.md]] [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
+
 ## Sources
 
 - [[raw/retrofit_january_7_2025.md]]
 - [[raw/shipment_of_machines_from_mexico_january_8_2025.md]]
 - [[raw/refurbishing_genadi_planning-march-27-2025.md]]
+- [[raw/procurement_relocation-june-24-2025.md]]
+- [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]

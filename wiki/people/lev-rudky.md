@@ -3,7 +3,7 @@ type: person
 title: Lev Rudky
 date: 2024-01-01
 aliases: [Lev Rudky, Lev, Lev Rudki, Лёва Рудки]
-source-count: 7
+source-count: 8
 ---
 
 # Lev Rudky
@@ -24,6 +24,10 @@ On a ~3-hour BC status call ([[wiki/meetings/2025-04-28-business-central-labs-ta
 
 On the [[wiki/meetings/2025-05-01-action-list-review-lev-rudky.md|May-1 review]] of the 6-point action list he had emailed Val, Lev reported HS codes now assigned to every purchased component in Navision (country-of-origin the missing field), owed an **Excel HS report (by vendor/part/HS code) for China & Korea imports by the evening of May 2**, and took the setup of Val's own **full Business Central license** (demo booked May 15, 1 pm). Point #3 (software sales) goes to a **May 8, 7 am** meeting with Pavel + Dima Chudinov; point #4 (segregation of duties) to a series with Alka; and Val told him to start preparing an **accelerated JVL Labs → BC conversion**. Detail on [[wiki/topics/tariffs-and-customs-compliance.md]] and [[wiki/topics/business-central-erp-implementation.md]]. [[raw/action_list_review_lev_rudky-may-1-2025.md]]
 
+## June 26 2025 — Business Central for the Georgia manufacturing move
+
+On the [[wiki/meetings/2025-06-26-procurement-manufacturing-transfer-alignment.md|manufacturing-transfer alignment]] Lev owns the BC side of moving assembly to Georgia ([[wiki/decisions/2025-06-24-move-manufacturing-from-canada-to-georgia.md]]): **no manufacturing module**, assembly **from purchase-level components** on the JVL Systems BC, redefining purchase items as assembly/BOM items and porting the BOM from Navision (flagging the zero-quantity-placeholder migration wrinkle). He needs the **GL/chart of accounts** done first (meeting with [[wiki/people/alka-sood.md|Alka]] this week), then the **general posting setup** — JVL's call, not the subcontractor's. He sized it **"medium"/~3 weeks–1 month**; JVL Labs stays on Navision. Detail on [[wiki/topics/business-central-erp-implementation.md]]. [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
+
 ## Sources
 
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
@@ -33,3 +37,4 @@ On the [[wiki/meetings/2025-05-01-action-list-review-lev-rudky.md|May-1 review]]
 - [[raw/andrei_klimovich_update-apr-18-2025.md]]
 - [[raw/business_central_update-apr-28-2025.md]]
 - [[raw/action_list_review_lev_rudky-may-1-2025.md]]
+- [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]

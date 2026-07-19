@@ -3,7 +3,7 @@ type: person
 title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka, Alex Baratka, Alex Beratka]
-source-count: 24
+source-count: 25
 open-commitments: 1
 open-questions: 0
 ---
@@ -87,8 +87,13 @@ On the [[wiki/meetings/2025-05-01-unity-instead-of-miranda.md|Unity reconsiderat
 
 On the [[wiki/meetings/2025-05-08-capability-compass-mcp-aaron-session.md|May-8 MCP session]] [[wiki/people/aaron.md|Aaron]] used **"Alex Baratka"** (this person, garble) as the example of who would need to write an **in-stack MCP server / JSON-RPC adapter inside the Omni framework** — exposing the running software's classes/methods to an AI agent (a debugger-like interface written with the code). See [[wiki/topics/ai-assisted-development.md]]. [[raw/mcp_servers_for_jvl-may-8-2025.md]]
 
+## June 26 2025 — Omni grooming (bonus, sounds, service messages)
+
+On the [[wiki/meetings/2025-06-26-omni-schedule-grooming.md|Omni schedule grooming]] Sasha picked up most of the reshuffled bonus-day tasks (partly shared with Anton Leshkevich), is finishing **Crazy Spins sound integration** (~done next week) and cache/service-message work, and helped shape the **topper-as-separate-application** direction (he'd earlier done the free-spins screenshot work; sees little difference in effort between embedding the topper vs a separate app, beyond a new repo/build). See [[wiki/topics/omni-core-advancement-and-game-templating.md]]. [[raw/OMNI_schedule_grooming-june-26-2025.md]]
+
 ## Sources
 
+- [[raw/OMNI_schedule_grooming-june-26-2025.md]]
 - [[raw/fp-7_performance_analysis_january_13_2025.md]]
 - [[raw/GitHub repository structure.md]]
 - [[raw/github _structure-pavel-aaron-andrei.md]]

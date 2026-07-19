@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna]
-source-count: 30
+source-count: 31
 open-commitments: 1
 ---
 
@@ -125,8 +125,13 @@ On the [[wiki/meetings/2025-06-12-games-design-priorities-review.md|June-12 prio
 
 - On the [[wiki/meetings/2025-06-19-games-design-nebraska-market.md|June-19 games review]] Lena reported active work on **Coyote Omni** and **Golden Husk** (slot bonuses + progressive sign), the **South Dakota vertical** in production, and redesigning **La Rosa** from a 3×3 Georgia game into the **FireEyes Link** family (symbols discussed with Michael). She flagged the Golden Husk secondary bonus as "something completely new" needing scene-assembly time. See [[wiki/topics/slot-game-design-principles.md]]. [[raw/Games_design-june-19-2025.md]]
 
+## June 23 2025 — Nebraska comp art for the six games
+
+On the [[wiki/meetings/2025-06-23-nebraska-game-design-planning.md|Nebraska design + planning session]] Lena is producing the **comp art** for the six Golden Husk games (working with Michael this week, per Juan's direction). Method: present a comp for one game (no-DNOM button; with/without the pattern-match button) for Juan to confirm, then rinse-and-repeat; she needs a comp image per game because the many small adjustments can't be described. She was aware **Crazy Spins** needs an added wild symbol, and she can start the primary win-meter compact now. She uses **sprints** for design (Val recommended **Kanban**). See [[wiki/projects/nebraska-skill-market.md]]. [[raw/NE_game_design_and_planning-june-23-2025.md]]
+
 ## Sources
 
+- [[raw/NE_game_design_and_planning-june-23-2025.md]]
 - [[raw/games_design_recap-may-29-2025.md]]
 - [[raw/github _structure-pavel-aaron-andrei.md]]
 - [[raw/games_design-june-12-2025.md]]

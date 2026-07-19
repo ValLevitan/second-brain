@@ -3,7 +3,7 @@ type: person
 title: Mary
 date: 2026-07-12
 aliases: [Mary, Mery]
-source-count: 7
+source-count: 8
 ---
 
 # Mary
@@ -29,6 +29,10 @@ The retrofit transcript spells her name "Мэри" (Mary); she is also spelled "
 
 On the BC status call ([[wiki/meetings/2025-04-28-business-central-labs-tariffs-status.md]]) Val's role model has **Mary create purchase orders for non-BOM items** (e.g. GLI / administrational), keeping [[wiki/people/mikhail-perelman.md|Michael]] focused on purchasing bill-of-material. Val also said he is **assigning Mary closely** to the HS-code / tariff / international-trade-attorney subject — see [[wiki/topics/tariffs-and-customs-compliance.md]]. [[raw/business_central_update-apr-28-2025.md]]
 
+## June 26 2025 — logistics stays with Mary; relays Anibal's move
+
+On the [[wiki/meetings/2025-06-26-procurement-manufacturing-transfer-alignment.md|manufacturing-transfer alignment]] Val confirmed **incoming and outgoing logistics stay on Mary** (not moved to Elizabeth, who owns warehousing/inventory/scheduling). Mary in Peru **advised [[wiki/people/anibal.md|Anibal]] he's moving to Georgia** (Atlanta) to assemble Echo machines. On the accounting side she is one of "the same team" (with Hector) working the Georgia system. See [[wiki/decisions/2025-06-24-move-manufacturing-from-canada-to-georgia.md]]. [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
+
 ## Sources
 
 - [[raw/shipment_of_machines_from_mexico_january_8_2025.md]]
@@ -38,3 +42,4 @@ On the BC status call ([[wiki/meetings/2025-04-28-business-central-labs-tariffs-
 - [[raw/Finance - Alka.md]]
 - [[raw/finance_update-apr-15-2025.md]]
 - [[raw/business_central_update-apr-28-2025.md]]
+- [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]

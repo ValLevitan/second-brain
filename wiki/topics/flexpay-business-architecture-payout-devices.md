@@ -3,7 +3,7 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS]
-source-count: 28
+source-count: 29
 open-commitments: 8
 open-questions: 3
 ---
@@ -273,6 +273,13 @@ The next-morning session ([[wiki/meetings/2025-06-19-flex-pos-use-case-design.md
 - **Incom API = three requests.** (1) **authenticate** the terminal with credentials (**Client ID + client secret**; Terminal ID = the FlexPOS **serial number**; location code / UPC card data); (2) **pre-authorize** the card (send the amount; Incom checks the card suits the location's min/max limits); (3) **issue/authorize** the card. The auth token expires quickly. [[raw/flex_POS-use_case_architecture_requirements-june-19-2025.md]]
 - **Money-settlement flow.** A $30 win → card gets **$28**, **$2** service fee (per the JVL↔Incom agreement; the fee must be disclosed to the player). **JVL pays the full card value to Incom** and must **collect the entire ticket value** ($82 example) from the location/master it contracts with. Val is pushing to settle **daily** (or within 72h / one week). Scale: **6,000+ locations, tens of millions of dollars** to front/transact. Pavel is using **Mermaid** diagrams (POS Mutable business schema, committed to the FlexPOS repo docs). [[raw/flex_POS-use_case_architecture_requirements-june-19-2025.md]]
 
+## June 23 2025 — InComm alignment: SkillPay/PrizePay products; the cheaper cage-dispenser model reaffirmed
+
+On the weekly [[wiki/organizations/incom.md|InComm]] alignment call ([[wiki/meetings/2025-06-23-incomm-jvl-nebraska-georgia-alignment.md]]; [[wiki/people/val-levitan.md|Val]] + [[wiki/people/pavel.md|Pavel]] with John/Alan/Adam) the payout-device strategy connected to InComm's own product roadmap — full product detail on [[wiki/organizations/incom.md]]. Points bearing on the device catalog: [[raw/incomm_jvl_alignment-june-23-2025.md]]
+
+- **The card-back-into-play API is still unfinalized.** InComm confirmed the **secondary purchase API** (for Georgia SkillPay's two-step process, and for spending a card back at a machine via a **$40 barcode scanner + 3-digit PIN**) is not built — "we haven't finalized the product." This is the same missing ingredient (a card usable for betting inside machines) the Apr-8/11 temporary-wallet model depended on. Each machine used as a payment endpoint needs its own **terminal ID** (separate location contract), **or** a central screen/kiosk serves as **one terminal ID** — matching JVL's "one experience per location" architecture. [[raw/incomm_jvl_alignment-june-23-2025.md]]
+- **Val's cheaper-than-a-kiosk model, restated to InComm.** Val reaffirmed the cage **dispenser + POS** path (validate a MudaGoose ticket at the cashier, split printer from machine, capture the signal, dispense a card with a small player-facing touchscreen for terms) — no full kiosk — consistent with the [[#the-device-variants-on-the-table-apr-8--apr-11|cage-POS device variant]] and the [[#june-11-2025--the-manual-pos-2-model-for-mother-goose-operators|manual "POS 2" Mother-Goose model]]. Val's revenue thesis (split the $3/$2 service charge with InComm, earn recurring processing revenue) is unchanged; John confirmed InComm makes no money on kiosks and only moves money + supplies card products. [[raw/incomm_jvl_alignment-june-23-2025.md]]
+
 ## History — why FlexPay started (2023–2024 origin)
 
 A research-synthesis document (an AI narrative built over JVL transcripts, dated to the May-27-2025 staging window — not itself a meeting transcript; treat its figures as second-hand summaries of 2023–2024 discussions) captures the origin of the whole FlexPay / GA-COAM initiative. [[raw/why_flex-pay_started-may-27-2025.md]]
@@ -304,6 +311,7 @@ A research-synthesis document (an AI narrative built over JVL transcripts, dated
 
 ## Sources
 
+- [[raw/incomm_jvl_alignment-june-23-2025.md]]
 - [[raw/flex_pay_evolution-april-8-2025.md]]
 - [[raw/flex_port_recap_felipe_juan_pavel-april-8-2025.md]]
 - [[raw/evolution_flex_pay-april-11-2025.md]]

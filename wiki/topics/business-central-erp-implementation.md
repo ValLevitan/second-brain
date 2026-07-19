@@ -3,7 +3,7 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, posting setup, AI naming convention]
-source-count: 8
+source-count: 9
 open-questions: 2
 ---
 
@@ -15,7 +15,7 @@ Microsoft **Dynamics 365 Business Central (BC)** is JVL's ERP/accounting system,
 
 - **JVL Mexico** — being closed ([[wiki/decisions/2025-03-24-close-jvl-mexico-operation.md]]), so it "is going to stop being an issue" and stop using BC. [[raw/business_central_implementation_update-apr-17-2025.md]]
 - **JVL Systems (the US company)** — running BC in production: day-to-day accounting and **accounts receivable** work correctly, the **installment-payment "scheduler" add-on** works, and the tax program works. The company can **manufacture, sell, purchase and manage inventory** in BC — though manufacturing is set up only for **select items** so far (each item takes a large number of parameters to configure; "it's a time-consuming process… but it's not a showstopper"), and any production request can still be executed by prioritizing the missing item's setup. [[raw/business_central_implementation_update-apr-17-2025.md]]
-- **JVL Labs (the Canadian company; where manufacturing currently is)** — BC implementation **on hold**; Labs still runs on **Navision**. Val's decision: **stay on Navision in Labs until it is certain where manufacturing lands** (Canada vs Georgia). [[raw/business_central_implementation_update-apr-17-2025.md]]
+- **JVL Labs (the Canadian company; where manufacturing currently is)** — BC implementation **on hold**; Labs still runs on **Navision**. Val's decision: **stay on Navision in Labs until it is certain where manufacturing lands** (Canada vs Georgia). **(Resolved June 26 2025: manufacturing moves to Georgia — see the June-26 section below; Labs stays on Navision, assembly is set up on the JVL Systems BC.)** [[raw/business_central_implementation_update-apr-17-2025.md]] [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
 
 ## The one thing not yet working in Systems
 
@@ -109,9 +109,19 @@ The June-17 continuation of the [[#may-24-2025--cleaning-the-chart-of-accounts-g
 - **Strategic direction — finish BC, then replace it.** Val restated that BC is "shooting birds with a cannon" for JVL's business, that he and Lev already decided **not** to do the **manufacturing component**, and that after implementing/running BC he will "**ask Lev to find a simple software… and move away from Business Central**" — because SaaS user interfaces "will be replaced by AI" within ~3 years. Full ruling on [[wiki/decisions/2025-06-17-implement-then-replace-business-central.md]]. [[raw/finance_gl_accounts_structure-june-17-2025.md]]
 - **Schedule.** Alka to send a revision that night; Hector to review by Monday/Tuesday; Alka to send Lev the updated version by end of next week (Lev "held for 10 days"). Alka flagged she has over-committed to JVL and must return to her other clients. **No §15.8 material** — corporate/vendor economics only. [[raw/finance_gl_accounts_structure-june-17-2025.md]]
 
+## June 26 2025 — manufacturing lands in Georgia; assembly on the Systems BC, no manufacturing module
+
+The [[wiki/meetings/2025-06-26-procurement-manufacturing-transfer-alignment.md|June-26 procurement/manufacturing-transfer meeting]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/mikhail-perelman.md|Mikhail Perelman]], [[wiki/people/genadi-peari.md|Genadi Peari]], [[wiki/people/lev-rudky.md|Lev Rudky]]) **resolved the "where does manufacturing land" question** that had held the Labs rollout on ice since April: manufacturing moves out of Canada to **Georgia** (see [[wiki/decisions/2025-06-24-move-manufacturing-from-canada-to-georgia.md]]). The BC consequences: [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
+
+- **Georgia assembly runs on the existing [[wiki/organizations/jvl-systems.md|JVL Systems]] BC — no manufacturing module.** Lev confirmed JVL will **not install the manufacturing module** and will not configure capacity planning / routing; it will "use a simpler logic regardless of where manufacturing is," manufacturing the product **from purchase-level components** (Systems already supports assembly from components "with some tweaking"). A part that is a **purchased item** from Canada (his example: a **podium**) becomes an **assembled item** in Georgia — so items must be **redefined from purchase items to assembly/BOM items**, purchase prices/vendors assigned, and new items created that don't yet exist in Systems (Labs carries far more items than Systems). [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
+- **Move the BOM from Navision ("the Vision") into BC**; [[wiki/people/mikhail-perelman.md|Michael]] + [[wiki/people/genadi-peari.md|Gennady]] need BC access for JVL Systems ("easy to arrange, just pay money"). A known migration wrinkle: Navision BOMs use a **zero-quantity placeholder** for interchangeable/pending parts, which "the new system doesn't take well" — Lev to find a workaround. Recent transaction history goes to the new system; older data stays in Navision for reference. [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
+- **Prerequisites + effort.** Lev needs the **GL / chart of accounts** completed **first** (a meeting with [[wiki/people/alka-sood.md|Alka]] is set this coming week — continues the [[#may-24-2025--cleaning-the-chart-of-accounts-gl-before-labs-converts|COA cleanup]]), then the **general posting setup** (links GL accounts to system activities) — which JVL owns, not the subcontractor. Val prefers to give the posting-setup work to **[[wiki/people/igor-donis.md|Igor]]** (finance), who is free; **not** [[wiki/people/anatol-strekalov.md|Anatol]] ("that's purely finance people"). Lev sized the config as **"medium"** as a standalone issue — **~3 weeks to a month** — which "fits the plan ideally." [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
+- **JVL Labs stays on Navision** for now; its BC transition remains on ice/in the holding pattern while JVL continues configuring **assembly for JVL Systems**. This aligns with the [[wiki/decisions/2025-06-17-implement-then-replace-business-central.md|"implement then replace BC, no manufacturing module"]] ruling. [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
+
 ## Sources
 
 - [[raw/business_central_implementation_update-apr-17-2025.md]]
+- [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
 - [[raw/ris_business_central_integration-april-3-2025.md]]
 - [[raw/business_central_update-apr-28-2025.md]]
 - [[raw/action_list_review_lev_rudky-may-1-2025.md]]

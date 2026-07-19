@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 58
+source-count: 60
 open-commitments: 4
 open-questions: 0
 ---
@@ -171,8 +171,15 @@ Pavel ("Pasha") worked the Jira/GitHub maturity session with Val and Irina: he s
 - On the [[wiki/meetings/2025-06-18-gcoam-ticket-redemption-workflow.md|June-18 ticket-redemption session]] Pavel (rendered "Pavel" and "Pablo") was the engineering voice on the Tito/Mother-Goose redemption workflow — the barcode-only Tito validation, the SMIB-vs-FlexPort retrofit by SAS-port count, and the parallel-printer Mutagoose POS wedge. [[raw/about_tickets_redemption-gcoam-june-18–2025.md]]
 - On the [[wiki/meetings/2025-06-19-flex-pos-use-case-design.md|June-19 Flex POS session]] Pavel authored the **FlexPOS Mutagoose capabilities** doc (committed to the FlexPOS repo docs; 10-inch touchscreen + magnetic reader; setup/work modes), raised the **device-security** requirement (PIN / QR / magnetic card / per-day PIN), specified the **Incom three-call API** (authenticate → pre-authorize → issue), and used **Mermaid** diagrams for the POS Mutable schema. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/flex_POS-use_case_architecture_requirements-june-19-2025.md]] [[raw/flex-POS_design-june-19-2025.md]]
 
+## June 23 & 26 2025 — InComm alignment; Omni grooming (topper, FP-7)
+
+- **Jun 23 (InComm):** the JVL technical voice on the [[wiki/meetings/2025-06-23-incomm-jvl-nebraska-georgia-alignment.md|InComm alignment call]] — probed the card **dispensing** details (magnetic-stripe read at dispensing vs barcode on POS/tower; whether a SkillPay card needs a barcode or magnetic validation) and the **manual-activation / per-machine terminal registration** questions. See [[wiki/organizations/incom.md]]. [[raw/incomm_jvl_alignment-june-23-2025.md]]
+- **Jun 26 (Omni grooming):** ran the [[wiki/meetings/2025-06-26-omni-schedule-grooming.md|Omni schedule grooming]] — walked the backlog/task reshuffle, presented the **topper-as-separate-application** benefits (deterministic main game, independent horse-racing, future linked-progressive, no re-cert), owns the **mass-engine Docker/math integration** and the **production image** (no simple-password access, no exposed ports), and is to talk to [[wiki/people/genadi-peari.md|Genadi]] about preparing new **FP-7 boards** for the Omni-on-FP-7 migration. Restated Val's push to move story-level planning to GitHub Issues + Kanban. See [[wiki/topics/omni-core-advancement-and-game-templating.md]]. [[raw/OMNI_schedule_grooming-june-26-2025.md]]
+
 ## Sources
 
+- [[raw/incomm_jvl_alignment-june-23-2025.md]]
+- [[raw/OMNI_schedule_grooming-june-26-2025.md]]
 - [[raw/jira_plans_maturity-mat-29-2025.md]]
 - [[raw/games_performance_review_juan_martinez-may-30-2025.md]]
 - [[raw/qa_flex-port_flex-pay_plan-may-30-2025.md]]
