@@ -3,7 +3,7 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction]
-source-count: 15
+source-count: 16
 open-commitments: 2
 open-questions: 1
 ---
@@ -148,6 +148,16 @@ On the [[wiki/meetings/2025-05-30-qa-flexport-flexpay-plan.md|May-30 QA/rollout 
 - **Three test plans for the e-Wallet variant:** a **FlexPort** plan (~8 cases), a **FlexPay** plan (~27 cases, plus ~27 more + ~30 FlexPort), and a combining plan — all three must pass "green" to certify the e-Wallet configuration. Test **sets** within a plan (ticket creation, setup, reports, **card issuance**) can be moved to a future device's plan when a **Tito server / Tower** replaces FlexPay. Test cases are **>50% written**, needing more for **partial redemption**. [[raw/qa_flex-port_flex-pay_plan-may-30-2025.md]]
 - **QA-lead identity note:** "Ира/Ирина" here is [[wiki/people/irina-shishko.md|Irina Shishko]] (owner-confirmed 2026-07-18: meter/QA interpretation → Shishko). [[raw/qa_flex-port_flex-pay_plan-may-30-2025.md]]
 
+## June 3 2025 — QA progress demo: init-setup page tests + the localization gold-standard gap
+
+A [[wiki/people/val-levitan.md|Val]]-chaired QA-transformation session ([[wiki/meetings/2025-06-03-test-qa-progress.md]]) where each QA engineer demoed TypeScript automation progress on the Omni **init-setup** screens — the §3 continuation of the May QA thread, between the [[#may-29-2025--jiragithub-test-linkage-matured|May-29]]/[[#may-30-2025--flexportflexpay-qa-plan-structure-in-x-ray|May-30]] plumbing and the [[#june-12-2025--qa-engineering-direction-review-with-aaron-framework-show-and-tell|June-12 Aaron review]]. Test-lead [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] and QA lead [[wiki/people/irina-shishko.md|Irina Shishko]] (QA/testing context → Shishko per owner ruling 2026-07-18), with testers Alexey ([[wiki/people/alexei-khamin.md|Alexei Khamin]]), [[wiki/people/ivan.md|Ivan]] and "Vlad." [[raw/test_programming_qa_progress-june-3-2025.md]]
+
+- **Framework progress (Anton).** Anton added the **init-setup pages** into the framework (in the 4.20 repo) with a **method per row** to pull data — e.g. a `getPayouts` method that parses the payouts table into an array of objects, and a `getGameSettings` method that parses the whole game-settings page (it takes several seconds because it parses so many values). The **progressives page** is left undone (empty, its menu doesn't work). He plans to switch next to covering the **LGS API**. [[raw/test_programming_qa_progress-june-3-2025.md]]
+- **Tests demoed on the init-setup config page.** Irina Shishko demoed config-page tests keyed by case ID (e.g. status of the repair/USB-export cards; which pages open after the Remote/USB buttons; footer buttons) — explicitly **Omni init-setup, not FlexPay**. Alexey demoed **6 autotests** checking 3 pages in **English and Spanish** (language page, header version), run via `npm run start`, committed from an **OMN-306 branch now merging to main**. Ivan demoed 3 tests (repair-setup text match, passport column names, change-IP host/port), and hit a **port issue** (88.78 vs 88.88) he works around with a timeout, hard-coding expected text. [[raw/test_programming_qa_progress-june-3-2025.md]]
+- **The localization gold-standard gap (the meeting's real blocker).** The language tests need a single **source-of-truth translation dictionary** to compare against. Today there is an **XML dictionary in the code** (what programmers use) *and* a separate **Excel file** that [[wiki/people/juan-martinez.md|Juan]] filled with the English→Spanish translations (an "Igor" — localization context, i.e. [[wiki/people/ihar-hrybko.md|Igor Hrybko]], Tier B — produced the Excel and gave it to Juan to translate). Risk: if the XML dictionary holds wrong text it propagates to players. Because there's no central "эталон" (gold standard) the testers currently **hard-code** expected strings; they discussed making a controlled copy in the **TEST360** repo vs a central location both UI and QA feed from. Left unresolved. [[raw/test_programming_qa_progress-june-3-2025.md]]
+- **The X-Ray launcher (Anton's Jira integration).** Anton built the integration where, when a **Jira/X-Ray ticket ID equals the test-case ID**, the test run's result is written back into the X-Ray ticket (not just the console). Irina asked Anton to **commit the launcher** so everyone can use it. [[raw/test_programming_qa_progress-june-3-2025.md]]
+- **Val's coaching.** Commit everything to GitHub even if it's "full garbage" — it can be wiped/fixed and the on-site IT people can help; **mistakes are welcome, hiding them is not** ("errors are not made only by people who do nothing"). The purpose of these meetings: each of **Alexey, Ivan, Vlad and Irina** demonstrates per-person progress; the next review should **start from GitHub, then X-Ray**. Every meeting is recorded → transcript → action list. Next meeting: **Friday 7 am** with an action plan. [[raw/test_programming_qa_progress-june-3-2025.md]]
+
 ## June 12 2025 — QA-engineering direction review with Aaron (framework show-and-tell)
 
 A ~79-minute course-check ([[wiki/meetings/2025-06-12-qa-engineering-direction-aaron.md]]; internally-duplicated transcript, §12) where the QA team demonstrated its in-house TypeScript test framework to [[wiki/people/aaron.md|Aaron]] to confirm JVL is "moving in the right direction." Attendees: Val, Aaron, test-lead [[wiki/people/anton-leshkevich.md|Anton Leshkevich]], the demoing test engineer [[wiki/people/irina-shishko.md|Irina]] (Shishko by the May-21 continuity; Tier A), [[wiki/people/pavel.md|Pavel]], and QA engineers Ivan, Alexei and Vlad. The §3 continuation of the May QA-transformation thread. [[raw/qa_engineering_direction_review_aaron-june-12-2025.md]]
@@ -209,5 +219,6 @@ The earliest captured root of this effort — a Bitbucket-era progress review be
 - [[raw/test_engineering_progress_report-may-21-2025.md]]
 - [[raw/jira_plans_maturity-mat-29-2025.md]]
 - [[raw/qa_flex-port_flex-pay_plan-may-30-2025.md]]
+- [[raw/test_programming_qa_progress-june-3-2025.md]]
 - [[raw/qa_engineering_direction_review_aaron-june-12-2025.md]]
 - [[raw/games_design-june-12-2025.md]]

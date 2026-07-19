@@ -2,7 +2,7 @@
 type: person
 title: Lena
 date: 2026-07-12
-aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna]
+aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna, Selena, Elena]
 source-count: 31
 open-commitments: 1
 ---

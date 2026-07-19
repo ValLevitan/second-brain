@@ -3,7 +3,7 @@ type: topic
 title: Graphics team Git workflow (PR discipline, CI tickets, deploy pipeline)
 date: 2025-03-12
 aliases: [designer git workflow, graphics PR discipline, pull request discipline, contact sheet action, assets deploy pipeline, fork from template, help desk CI tickets, performative pull request, pull request back to template, template per game type]
-source-count: 9
+source-count: 10
 ---
 
 # Graphics team Git workflow (PR discipline, CI tickets, deploy pipeline)
@@ -93,6 +93,13 @@ A [[wiki/people/val-levitan.md|Val]] ↔ [[wiki/people/pavel.md|Pavel]] schedule
 - **Every merge to main = a version.** Reaffirmed in the same series: when a tested feature lands in `main`, bump the release version. [[raw/github_branch_structure-may-19-2025.md]]
 - Val is deliberately **not breaking the current setup before the first Omni release** ("what's built today is much better than two years ago, but still not right"). The QA-department leverage side of this debate (pressure QA to write tests into `main`) is on [[wiki/topics/test-automation-strategy.md]]. [[raw/github_branch_structure-may-19-2025.md]]
 
+## June 3 2025 — the designer moves into Core Development; commit-per-change and the "no signals" rule
+
+An Omni feature-branch redistribution review ([[wiki/meetings/2025-06-03-omni-feature-branch-redistribution.md]]) is the graphics-team Git counterpart to the Omni-dev workflow — it resolves how designer [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]'s exported artifacts flow into a testable branch. Full schedule/feature detail on [[wiki/topics/omni-core-advancement-and-game-templating.md]]; the workflow lesson: [[raw/Omni_redistribution_feature_branches-june-3-2025.md]]
+
+- **A design-only feature-branch is untestable → fold the designer into Core Dev.** Because feature **AA4807** held only Dima's resources (nothing to test against), [[wiki/people/val-levitan.md|Val]] ruled to destroy it and move the stories under [[wiki/people/alexander-biratka.md|Sasha]]'s testable code feature — "practically we took Dima as a graphic designer and moved him into the Core-Development team," reporting under Sasha. This enacts the standing plan (Mar-24/Apr-17) to move Dima Khandov from design to core technology. [[raw/Omni_redistribution_feature_branches-june-3-2025.md]]
+- **Commit for everything; stop the side-channel hand-offs.** Val's coaching restated the PR/commit discipline this page tracks: **make a commit for every piece of work you do**, and — pointedly to Dima — **stop coordinating through "signals, blinks, biotoks, sign-language"** between people; put the work in the **feature-branch** where the whole department (who treat Dima as the standard) can see it and learn the same practice. [[raw/Omni_redistribution_feature_branches-june-3-2025.md]]
+
 ## Sources
 
 - [[raw/GitHub repository structure.md]]
@@ -104,3 +111,4 @@ A [[wiki/people/val-levitan.md|Val]] ↔ [[wiki/people/pavel.md|Pavel]] schedule
 - [[raw/organizing_miranda_github-may-1-2025.md]]
 - [[raw/miranda_organization_github-may-6-2025.md]]
 - [[raw/github_branch_structure-may-19-2025.md]]
+- [[raw/Omni_redistribution_feature_branches-june-3-2025.md]]

@@ -3,7 +3,7 @@ type: topic
 title: Tariffs and customs compliance (US–Canada tariffs, HS-code tracking, CBSA validation)
 date: 2025-04-28
 aliases: [tariffs, US-Canada tariffs, HS code, HS codes, harmonized system, country of origin, intercompany transfer pricing, BOM plus 30, CBSA, Canadian customs, CARM, trade compliance validation, international trade attorney, duty drawback, transitional export waiver, slot machine component subcategory]
-source-count: 8
+source-count: 9
 open-commitments: 6
 open-questions: 2
 ---
@@ -21,6 +21,7 @@ How JVL is bracing for the 2025 US–Canada tariff environment and customs scrut
 
 - Val's stated strategy: the Canadian company ([[wiki/organizations/jvl.md|JVL Labs]]) **sells to the US company (JVL Systems) at the cost of the bill of material + 30% markup**, so that is the value crossing the border. Tariff is then paid only on the **marginal** intercompany price (illustratively ~$4,000) rather than the full retail value (~$12,000). [[raw/business_central_update-apr-28-2025.md]]
 - Consequence: tariffs "will virtually prohibit us from selling directly from Canada to anybody in the US" — direct Canada→US customer sales stop making sense, since the customer would pay tariff on the whole machine. [[raw/business_central_update-apr-28-2025.md]]
+- **Tension with the June-3 Georgia income-tax plan (inference, flag).** On the [[wiki/meetings/2025-06-03-finance-georgia-taxation.md|June-3 Georgia-tax call]] the advisors' fix for JVL Labs' Georgia income-tax exposure was to **stop charging management fees and instead raise the transfer price** JVL Labs charges JVL Systems for the tangible goods (so Systems books less profit) — see [[wiki/topics/jvl-finance-back-office.md]]. That pushes the intercompany price the **opposite** direction from the tariff strategy here (a higher declared intercompany value raises the customs duty base). The two objectives — minimize Georgia income tax vs minimize US import duty — pull against each other; this is an inference from the two sources, not a tension the transcripts reconcile. [[raw/finance_georgia_taxation-june-3-2025.md]] [[raw/business_central_update-apr-28-2025.md]]
 
 ## HS-code / country-of-origin tracking (the most pressing action)
 
@@ -117,3 +118,4 @@ A follow-up to the June-11 intro, this call brought in [[wiki/people/lucie.md|Lu
 - [[raw/update_andrei_klimovich-may-19-2025.md]]
 - [[raw/tariffs_lucie_alan_intro-june-11-2025.md]]
 - [[raw/tariff-June-18-2025.md]]
+- [[raw/finance_georgia_taxation-june-3-2025.md]]

@@ -3,7 +3,7 @@ type: topic
 title: Game art & animation production pipeline (comp art → Miranda)
 date: 2025-03-12
 aliases: [animation production, comp art pipeline, CompArt, storyboards, Spine, Blender, After Effects, placeholder build, Miranda scene assembly, art production stages, spike, sorting, symbol containers, Glorosa, Havana Noches, Fiery Ice Link, Rodeo Spin]
-source-count: 9
+source-count: 10
 ---
 
 # Game art & animation production pipeline (comp art → Miranda)
@@ -78,6 +78,14 @@ From the [[wiki/meetings/2025-05-01-game-design-review.md|May-1 review]]: [[raw/
 - **Cuban-rooster reskin idea.** Val floated turning **Jinji Du Li** (a Chinese-rooster clone of Fortune Foo Paws; the other clone is **Cash Kittens**) into a **three-Cuban-roosters** game to build on the traction of the Cuban theme (**Calle Ocho / "Callejo"**) — same mechanics as Fortune Foo Paws. The team was "overwhelmingly in favour"; not a committed decision. [[raw/game_design_review-may-1-2025.md]]
 - **2D decks** for **Diamond Link** and **JetPort Rush** (Georgia) to finish "next week," with the discussed changes. [[raw/game_design_review-may-1-2025.md]]
 
+## May 5 2025 — South Dakota vertical more-games screen + the Golden Husk dynamic progressive sign
+
+From the game-design/priorities review ([[wiki/meetings/2025-05-05-game-design-south-dakota-jpre.md]]) — the art-production items ([[wiki/people/lena.md|Lena]] presenting; design/ergonomics side on [[wiki/topics/slot-game-design-principles.md]]). **Dated 2025-05-05 by content (a misfiled May file staged in the June folder — §11); back-filled in chronological place, not overwriting later June current-state.** [[raw/games_design-may-5-2025.md]]
+
+- **South Dakota vertical more-games screen (art).** A new **vertical** product screen with **no progressive-umbrella logo** on top (unlike the Georgia Peach Jackpot / Diamond Link screens), so Lena's proposal is to make the six game icons **bigger**. The background is the **neutral blue textured V-Deck background** (subtle animated blue "waves"), chosen to complement the bright icons since the product has no common theme. In **attraction mode** (zero credits) each game is highlighted sequentially with its animated logo + promo text (e.g. Crazy Cold's "extra wild horse symbols added in free spins"); touching an icon enters the game. Templates already exist to lay out 2/3/4/5/6 games (a pyramid for three). [[raw/games_design-may-5-2025.md]]
+- **The Golden Husk progressive sign — dynamic per screen-count configurations.** Lena described building the **Golden Husk** (Nebraska) progressive sign to **change configuration dynamically** by how many screens it drives: one screen interchanges logo → promo text → meter (and a "jackpot winner" state on a win); two screens show a big logo + promo text with a golden coin; three screens show logo, promo text, and a "fan of corns" on the third — an algorithm repeats the content for 4/5/6+ screens. [[raw/games_design-may-5-2025.md]]
+- **Assets/games touched (art context).** Games worked through that week: **Bayou/Bio Riches, Gypsy Spirit, Queen of Luxor** (adjustments done), **Crazy Cold** in progress; several were vertical for Georgia already (Bio Riches, Rodeo Spins) while Liberty Spin and Crazy Cold are being **made vertical** now. Symbols/royals shrunk to make space; classic "Ainsworth-style" look kept deliberately rather than redesigned. [[raw/games_design-may-5-2025.md]]
+
 ## May 7 2025 — ComfyUI experimentation for asset generation
 
 On the games-design tool-adaptation session ([[wiki/meetings/2025-05-07-games-design-ai-tools-adaptation.md]]) [[wiki/people/lena.md|Lena]] reported building **ComfyUI** (transcribed "Conf UI/Confi UI") workflows to generate a very specific **golden coin** asset — the point being to reproduce exact game-required assets, not just "something beautiful." Findings: fix the seed and parameters, then change only small prompt elements to keep the rest of an image stable; save/load workflows; some models need specific custom nodes and workflows. [[wiki/people/yulia.md|Yulia]] built a dataset of **21 golden-coin images** to train JVL's own **LoRA** style for the workflow. Aaron pointed them to the **ComfyUI Manager** (loads required backend nodes for a shared workflow), an **alpha-transparency node pack**, and a **3D-pack** that generates a full textured 3D mesh; and to **Unity plugins** that import ComfyUI output directly into Unity (2D, transparent, animated, or 3D). Consensus: ComfyUI is powerful but needs deep research and a chosen use case; it is not picked up "in a day or even a week." [[raw/tools_adaptation_games_design_department-may-7-2025.md]]
@@ -111,5 +119,6 @@ On the [[wiki/meetings/2025-06-12-games-design-priorities-review.md|June-12 prio
 - [[raw/games_production-apr-18-2025.md]]
 - [[raw/game_design-april-3-2025.md]]
 - [[raw/game_design_review-may-1-2025.md]]
+- [[raw/games_design-may-5-2025.md]]
 - [[raw/tools_adaptation_games_design_department-may-7-2025.md]]
 - [[raw/game_design-may-8-2025.md]]
