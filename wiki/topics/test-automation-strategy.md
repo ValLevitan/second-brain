@@ -3,7 +3,7 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction]
-source-count: 16
+source-count: 17
 open-commitments: 2
 open-questions: 1
 ---
@@ -180,6 +180,14 @@ On the same day's [[wiki/meetings/2025-06-12-games-design-priorities-review.md|g
 - **Sprints → Kanban coming.** Val flagged that JVL will likely move **from sprints to Kanban** (the QA/release framework "is also not ideal"), consistent with the June-5 Omni-planning direction. [[raw/games_design-june-12-2025.md]]
 - **Release management is a weakness.** The current release manager (**Ivan**) is "a very weak" manager, "out of his comfort level" — Val wants him returned to a **typical QA-engineer** role and a real **release manager** identified; "one very weak point that we have is actual releases… a real weakness." [[raw/games_design-june-12-2025.md]]
 
+## July 10 2025 — autotests sync: configurable test environment, LISA, and the RIS plan
+
+An autotests sync ([[wiki/meetings/2025-07-10-autotests-sync.md]]; [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]], [[wiki/people/anton-leshkevich.md|Anton Leshkevich]], [[wiki/people/irina-shishko.md|Irina Shishko]], [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/alexei-khamin.md|Alexey Khamin]], [[wiki/people/vladislav-gurin.md|Vladislav Gurin]], Ivan Shpak) — the first ingested source dated to July. [[raw/autotests_sync_meeting.md]]
+
+- **Goal: make the test environment configurable on the fly.** Build large JSON objects/sectors so tests can set machine state without restarting the data center; save/read machine **"passport"** settings to files for persistence across restarts; solve the real-vs-virtual-device problem (machine tests use real devices, hard to substitute). Approach: connect to machines over **SSH** to swap config files before a test, and add **pre-test setup hooks in LGS** — the framework today assumes the environment is already set up (Anton). [[raw/autotests_sync_meeting.md]]
+- **LISA problem.** LISA is created per-machine/version and is ill-suited to automation; on the "tabachny" version LISA falls and is ignored (only **etap** applies) — a temporary workaround until proper testing lands. [[raw/autotests_sync_meeting.md]]
+- **RIS implementation plan.** [[wiki/people/evgeny-kharetski.md|Kharetski]] provides the JSON structure and an endpoint for submitting RIS; Anton builds the JSON builders (~2–3h); tests drive the **UI for user actions and the API only for configuration**. Decisions: prioritise RIS before virtualisation; start with simple machine configs first (Shishko) — though Kharetski argued for proper unified tooling from the start to avoid rewrites. [[raw/autotests_sync_meeting.md]]
+
 ## Open commitments
 
 - [ ] Val — set up a ~2-hour testing-architecture meeting with Pavel, Irina, Anton and Aaron — due next week (of Jan 15) — [[raw/integration_and_testing_procedures_january_15_2025.md]]
@@ -222,3 +230,4 @@ The earliest captured root of this effort — a Bitbucket-era progress review be
 - [[raw/test_programming_qa_progress-june-3-2025.md]]
 - [[raw/qa_engineering_direction_review_aaron-june-12-2025.md]]
 - [[raw/games_design-june-12-2025.md]]
+- [[raw/autotests_sync_meeting.md]]

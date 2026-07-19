@@ -3,7 +3,7 @@ type: person
 title: Ryan Cruz
 date: 2025-05-29
 aliases: [Ryan Cruz, Ryan]
-source-count: 1
+source-count: 2
 ---
 
 # Ryan Cruz
@@ -17,6 +17,11 @@ Ryan Cruz is the **president and co-owner** of **[[wiki/organizations/nts-nebras
 - Ryan **lives in Lincoln**, where NTS grew its share **from zero to ~35% over the last two years** and is still growing aggressively. [[raw/denis_ntc_nebraska-may-29-2025.md]]
 - Very interested in taking on a JVL product line and in the deal for **~300 refurbished machines from South America**; Denis described him and Sarah as "very, very nice people" and was unusually excited about the partnership. [[raw/denis_ntc_nebraska-may-29-2025.md]]
 
+## On the walkthrough call (~June 11 2025)
+
+Ryan personally hosted the recorded NTS business walkthrough with sister Sarah, Val, Juan and Denis ([[wiki/meetings/2025-06-11-nts-nebraska-business-walkthrough.md]]). He gave the market overview (cash-only, redemption terminals, Easy Links TITO, location/tax rules, RTP ~88–92%), engaged warmly with Val's recycling **bill-hopper** pitch ("we'd love to see it"), and disclosed that **his and Sarah's father founded American Amusements** and developed the **original Bank Shot** game that reached the Nebraska Supreme Court. [[raw/nebraska.md]]
+
 ## Sources
 
 - [[raw/denis_ntc_nebraska-may-29-2025.md]]
+- [[raw/nebraska.md]]
