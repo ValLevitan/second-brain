@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 68
+source-count: 69
 open-commitments: 1
 ---
 
@@ -184,6 +184,10 @@ On the [[wiki/meetings/2025-06-12-qa-engineering-direction-aaron.md|QA-engineeri
 
 - On the [[wiki/meetings/2025-08-14-backend-architecture-cms-transactional-hhr.md|backend-architecture kickoff]] Aaron acted as the process advisor: he had **synthesized ~2 years of Val's recordings into a CMS knowledge-base repo** (the "CMSNG/NgCMS" architectural design doc + speculative GitHub issues); reframed the monolithic legacy CMS problem (MS SQL, single-thread locking, tribal knowledge); and pushed the group's method — **capabilities-driven, "don't create the solution while writing the spec," terminology discipline ("database vs data lake"), ETL-for-the-software-stack migration thinking, docs-in-repo (Mermaid), and IEEE-style architecture documentation "as a framework, not a mandate."** He warned "speculative feature development is very expensive," and recounted his Fujitsu/Verifone POS provisioning/encryption model as the hot-swap pattern. See [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] and [[wiki/decisions/2025-08-14-backend-architecture-block-diagram-first-mvp.md]]. [[raw/backend_architecture-august-14-2025.md]]
 
+## Aug 15 2025 — Keeper: forcing-function governance
+
+On the [[wiki/meetings/2025-08-15-keeper-install-authorization.md|Aug-15 session]], Aaron refused to relitigate the Keeper choice ("I don't want to make this a debate about Keeper… are you confident you're fulfilling the requirements defined for the company?") and gave [[wiki/people/andrey-bosik.md|Andrei]] the **"cover-your-own-back" forcing-function** framing: Keeper becomes the single password store, IT gains justification to delete/rotate any password not in it, and access is conditional — "there is no such thing as *do you want to use Keeper?* … I use Keeper. You will use it too, because that's the only way I'm going to give you my password." He set the governance homework: a plan for how Keeper is implemented, measured, sustained, governed, and adopted. See [[wiki/topics/infosec-and-server-infrastructure.md]]. [[raw/keeper_security_implimentation_IT_maturity-august-15-2025.md]]
+
 ## Sources
 
 - [[raw/figma_to_testing_transcript.md]]
@@ -254,3 +258,4 @@ On the [[wiki/meetings/2025-06-12-qa-engineering-direction-aaron.md|QA-engineeri
 - [[raw/ai_aaron-may-15-2025.md]]
 - [[raw/ai_aaron-may-15-2025 (1).md]]
 - [[raw/ai_aaron-may-15-2025 (2).md]]
+- [[raw/keeper_security_implimentation_IT_maturity-august-15-2025.md]]

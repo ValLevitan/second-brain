@@ -3,7 +3,7 @@ type: topic
 title: InfoSec, secrets management and server infrastructure
 date: 2025-03-19
 aliases: [secrets management, enterprise secrets manager, DevSecOps, Critical Insight, John Luke Peck, Minsk servers, cloud migration costing, Zabbix]
-source-count: 7
+source-count: 8
 open-commitments: 2
 open-questions: 1
 ---
@@ -99,6 +99,16 @@ The next maturity session ([[wiki/meetings/2025-07-23-it-capability-maturity.md]
 - **Migration progress + the "big stones."** New products already use **GitHub Actions** CI/CD (not Jenkins). Migrations done/underway: mail → Microsoft 365, Atlassian → cloud, Vision → **Business Central**, SVN → GitHub. Remaining **"big stones":** the **CMS/"Simeest"** (has prod/staging/dev + many surrounding services — "a rock, a mountain") must move to cloud then be redesigned for new-era products (cannot be killed); the **Nexus** repo (**Sonatype** cloud/SaaS Nexus expected ~Aug 1). CMS is old and a security concern. [[raw/IT_capability_maturity-july-23-2025.md]]
 - **Zero-trust / BYOD cost vision (Val, aspirational).** Val estimates ~**$200,000/yr** in licensing (Atlassian, Microsoft) and thinks he could **shave ~2/3** by giving people independence: no mandated laptops/phones, possibly not even corporate email domains — judge people by performance/deliverable cost. Aaron reframed as **zero-trust** + AI-first (the org's trust concentrates in the git repos / product core; IT overhead falls away). Val: "we must bring it home … complete the transformation." **Next review Aug 13**, run by Andrei, presenting the full list of Canada-resident services + a step-by-step migration plan (with rough cost). [[raw/IT_capability_maturity-july-23-2025.md]]
 
+## Aug 15 2025 — Keeper purchase authorized; forced adoption + manual migration
+
+The short [[wiki/meetings/2025-08-15-keeper-install-authorization.md|Aug-15 session]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/andrey-bosik.md|Andrei Bosik]], [[wiki/people/aaron.md|Aaron]]) closed the secret-server product question that had been open since the [[wiki/decisions/2025-05-28-trial-delinea-secrets-management.md|May-28 Delinea trial]] and the [[#jul-23-2025--keeper-displaces-delinea-the-canada-exit-and-cloud-migration|Jul-23 Keeper pivot]]. [[raw/keeper_security_implimentation_IT_maturity-august-15-2025.md]]
+
+- **The trigger:** Andrei reported that when IT asked *users* whether they wanted to use Keeper, the users were noncommittal ("we don't know… we need to try"). Val found asking that question absurd for "a qualified IT department" — you don't ask users if they *want* to use a security tool. [[raw/keeper_security_implimentation_IT_maturity-august-15-2025.md]]
+- **Aaron's reframe + forcing function:** don't debate Keeper — ask "are you confident you're fulfilling the company's defined security requirements?" He gave the "cover-your-own-back" framing: with Keeper there is **one place** for all passwords, IT gains justification to **delete/rotate any password not in Keeper**, and access is conditional — "there is no such thing as *do you want to use Keeper?* … I use Keeper. You will use it too, because that's the only way I'm going to give you my password for something." [[raw/keeper_security_implimentation_IT_maturity-august-15-2025.md]]
+- **Val's ruling (purchase/install go-ahead):** "**Please install Keeper. Let's start using it.**" Andrei: "OK, we can buy this product." Adoption is mandatory — users get no opt-out; to obtain a resource password they log into Keeper. This is strong evidence the Keeper lock is now committed. *(Owner-note: a formal Keeper-lock confirmation was queued to the owner — evidence recorded here; not unilaterally closed.)* [[raw/keeper_security_implimentation_IT_maturity-august-15-2025.md]]
+- **Migration rule (Val emphasized):** stand Keeper up as the production system, then move passwords from **KeePass step-by-step and MANUALLY** — **do NOT bulk-import** (KeePass holds many stale old passwords); forcing people to re-enter manually the first time is deliberate. [[raw/keeper_security_implimentation_IT_maturity-august-15-2025.md]]
+- **Aaron's governance homework:** produce a plan for how Keeper will be implemented, how implementation is measured, sustained, governed, how users are helped, and how non-use is detected. Val was skeptical JVL can do full governance ("a foreign concept for us… we're not capable"), and said if they can't actually use it they'll scrap it. [[raw/keeper_security_implimentation_IT_maturity-august-15-2025.md]]
+
 ## Sources
 
 - [[raw/info_security_server_infrastructure.md]]
@@ -108,3 +118,4 @@ The next maturity session ([[wiki/meetings/2025-07-23-it-capability-maturity.md]
 - [[raw/activeMQ_upgrade-may-12-2025.md]]
 - [[raw/it_maturity_update-may-28-2025.md]]
 - [[raw/IT_capability_maturity-july-23-2025.md]]
+- [[raw/keeper_security_implimentation_IT_maturity-august-15-2025.md]]

@@ -4,7 +4,7 @@ title: Anton Leshkevich
 date: 2025-01-21
 aliases: [Anton Leshkevich, Anton, Antoine, Anton Dmishkevich, Дмишкевич, Дмишкевичем]
 disambiguation: "Minsk engineer (Omni/RGS), this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 14
+source-count: 16
 open-commitments: 1
 open-questions: 0
 ---
@@ -69,6 +69,10 @@ On a 1:1 with [[wiki/people/val-levitan.md|Val]] ([[wiki/meetings/2025-07-11-ant
 
 - **Irina Makarych = game developer (corroboration).** Val listed the people who write game-level implementation code as "**Irina Makarych**, or you [Anton], or Metelski — those three" (plus Igor and Alexander on the framework) — consistent with the owner ruling that the game-dev "Irina" is [[wiki/people/irina-makarych.md|Makarych]] (distinct from QA director [[wiki/people/irina-shishko.md|Irina Shishko]]). [[raw/update_anton-july-11-2025.md]]
 
+## Aug 7 2025 — Fiery Ice code-side progressive check + simulator UI (+ ≈Aug-8)
+
+On the [[wiki/meetings/2025-08-07-player-behavior-simulator.md|Aug-7 Player Behavior Simulator meeting]], at [[wiki/people/michael-gottlieb.md|Michael]]'s request Anton compared the **Diamond Link Deluxe (DLKD)** vs **Fiery Ice** software to see how progressives fire off. His finding: the only code difference is that the framework later added **partial-win progressives**, which **don't qualify in Fiery Ice**, so there's no material difference; he walked through how a progressive win is reported (math engine reports a **base value**, the software then requests the **increment** from the server and adds base + increment). He flagged one **to-check hypothesis** — that increment values might be added multiple times — as worth debugging. He would build the **GUI** for [[wiki/people/efim-podvoiski.md|Efim]]'s Python simulator only if a graphical interface is wanted. [[raw/Player_behavior_simulator.md]] Anton was also present in the smaller [[wiki/meetings/2025-08-08-player-simulator-engineering-discussion.md|≈Aug-8 Val+Efim+Anton session]]. [[raw/player_emulator.md]]
+
 ## Sources
 
 - [[raw/update_anton-july-11-2025.md]]
@@ -85,3 +89,5 @@ On a 1:1 with [[wiki/people/val-levitan.md|Val]] ([[wiki/meetings/2025-07-11-ant
 - [[raw/daily_omni_progress-april-16-2025 (Val Levitan's conflicted copy).md]]
 - [[raw/omni_calle_ocho_scheduling-apr-22-2025.md]]
 - [[raw/integration_tests-apr-24-2025.md]]
+- [[raw/Player_behavior_simulator.md]]
+- [[raw/player_emulator.md]]

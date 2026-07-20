@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 44
+source-count: 45
 open-commitments: 5
 ---
 
@@ -130,6 +130,10 @@ On the ActiveMQ security-upgrade call ([[wiki/meetings/2025-05-12-activemq-white
 
 On the maturity review ([[wiki/meetings/2025-05-28-it-maturity-delinea-secrets.md]]) Andre (with Dima) presented the completed policy + risk-mapping + product scoring; **Delinea** won (CyberArk second, "very expensive"). Andre's homework: build the **DTP** Jira feature backlog for the Delinea trial (Azure-OIDC→Delinea, KeePass→Delinea migration, evaluate against policy), and draw the **visual policy diagram** Val demanded (base-policy → derived-policy map). He has GitHub-Actions-for-UEFIM work ahead of implementation. See [[wiki/decisions/2025-05-28-trial-delinea-secrets-management.md]]. [[raw/it_maturity_update-may-28-2025.md]]
 
+## Aug 15 2025 — Keeper purchase authorized; owns the rollout
+
+On the short [[wiki/meetings/2025-08-15-keeper-install-authorization.md|Aug-15 session]] with [[wiki/people/val-levitan.md|Val]] and [[wiki/people/aaron.md|Aaron]], Andrei reported that IT had asked users whether they'd use Keeper and got noncommittal answers — which Val rejected as absurd for a qualified IT department. Val ruled adoption mandatory and said "install Keeper, let's start using it"; Andrei confirmed "we can buy this product." Andrei owns the rollout: stand Keeper up as the production system, then move passwords from **KeePass step-by-step and manually** (Val's explicit rule — **no bulk import**, since KeePass holds many stale passwords), using the two use cases Andrei named (self-service password retrieval; time-boxed server access). Aaron's homework for him: a plan for implementing, measuring, sustaining, governing, and driving adoption of Keeper. This continues his secrets-management lead role from the [[wiki/decisions/2025-05-28-trial-delinea-secrets-management.md|Delinea→Keeper]] thread. [[raw/keeper_security_implimentation_IT_maturity-august-15-2025.md]]
+
 ## Sources
 
 - [[raw/GitHub repository structure.md]]
@@ -177,3 +181,4 @@ On the maturity review ([[wiki/meetings/2025-05-28-it-maturity-delinea-secrets.m
 - [[raw/secrets_server-apr-30-2025.md]]
 - [[raw/it_department_maturity-may-7-2025.md]]
 - [[raw/activeMQ_upgrade-may-12-2025.md]]
+- [[raw/keeper_security_implimentation_IT_maturity-august-15-2025.md]]

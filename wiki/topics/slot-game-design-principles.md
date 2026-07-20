@@ -3,8 +3,8 @@ type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
 aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus]
-source-count: 26
-open-questions: 2
+source-count: 28
+open-questions: 3
 ---
 
 # Slot game-design principles and the progressive-bet-incentive debate
@@ -274,6 +274,23 @@ The July-3/July-8 hold-problem thread sharpens into a concrete hypothesis on the
 - Should JVL scale the **progressive value to denomination** (Val's view) or keep it flat and only *signal* higher-RTP denominations visually (the industry norm Michael/Efim defend)? Recorded as an **open product debate** — Val's opinion is logged, nothing is changed to the base math. [[raw/game_design_meeting_march_7_2025.md]]
 - ~~The progressive-bet-incentive question~~ **resolved Feb 28** (see the debate section above): use the V-Deck flame-on-buttons-3/4/5 + sound presentation and A/B a second higher-bet math pack; the base math is unchanged. [[raw/Game design part 1 - Feb-28-2025.md]]
 
+## Aug 7 2025 — the Fiery Ice negative-days problem and the Player Behavior Simulator
+
+The [[wiki/meetings/2025-08-07-player-behavior-simulator.md|Aug-7 meeting]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/michael-gottlieb.md|Michael]], [[wiki/people/juan-martinez.md|Juan]], [[wiki/people/efim-podvoiski.md|Efim]], [[wiki/people/anton-leshkevich.md|Anton Leshkevich]]) turned a two-month-old performance puzzle into a new tool commission. Preceded/continued by a smaller Val+Efim+Anton working session ([[wiki/meetings/2025-08-08-player-simulator-engineering-discussion.md|≈Aug-8]]).
+
+- **The problem (Juan):** the **Fiery Ice Link** game — first theme **Gayocho** (aimed at the Cuban player in Little Havana) — launched strong at three Florida casinos (**Seminole Classic** tribal; **Big Easy** commercial, ~50% tax rate; **Hialeah**, heavy Cuban play) but ~30 days in began posting **excessive negative-win days** — actually *losing* the casino money, not just low win. Over an 82-day data window it hit as high as **~30% negative days**. Big Easy coin-in was down ~50% month-over-month, more than the casino's floor average. [[raw/Player_behavior_simulator.md]]
+- **The RTP finding (Efim):** across all machines for the whole period, **actual RTP ≈ 92.43%** vs **expected ≈ 91.72%** — less than a percentage point over, i.e. **not** the source of the losses. Major progressive events: **77 observed vs ~64 expected** (probability of ≥77 ≈ 7% — "quite normal"). The progressive resets to **$500**, increments at a **1.5%** contribution rate, and stays below the **$1,200 IRS lock-up** limit so casino staff don't flag repeat hits. Efim resisted slicing the data per-casino to hunt patterns ("sorcery"). [[raw/Player_behavior_simulator.md]]
+- **Val's reframe — volatility, not RTP.** From 40 years operating games, Val's read is that the RTP is fine but the **volatility is too high** for the player to sustain, so players lose money/interest and leave. This crystallized when Efim earlier told him he was **not sure the Diamond-Link-derived game mechanic can be made less volatile while staying interesting** — which Val took as confirmation the mechanic itself may be wrong for JVL. Michael/Juan corroborated never having seen so many negative days on a popular machine; Efim countered that ~25-26% negative days is a **feature of the math** (his random-bet simulation reproduced it), and that utilization/brand-loyalty effects (popular games get played first in the off-season) also explain low volume. Recorded as the live tension, not resolved. [[raw/Player_behavior_simulator.md]]
+- **The Player Behavior Simulator (commissioned).** Val specified a tool that emulates **player personas** — variables: **denomination, bet buttons, starting bankroll (~$100 average today), and time at the machine** — running many sessions and reporting how many end "happy" vs "frustrated." Explicitly **not** a math tester and **not** tied to a physical machine. Efim will build it (est. **~4 days**) in **Python**: the simulator carries **no math itself** — Efim first runs **~100 million games in his math simulator**, writes each outcome's frequency to a file, and the player simulator consumes that file to play sessions; parameters go in a file/batch run, results in a readable report. [[wiki/people/anton-leshkevich.md|Anton]] helps only if a **GUI** is wanted. [[raw/Player_behavior_simulator.md]] Val also insisted the tool be built "in the form of an experience," and used the meeting to declare JVL can build **"its own school"** of game design. [[raw/Player_behavior_simulator.md]]
+- **Parallel math rework.** With Val's approval, Michael + Efim will separately build a **new, less-volatile math model for Fiery Ice** (same RTP, lower volatility) — a substantial rework, not a tweak; can start in parallel with the tool. [[raw/Player_behavior_simulator.md]]
+- **Michael Gottlieb's design frame (durable principles):** the **$20 test** (a "successful session" = the player triggers at least one bonus on a $20 bankroll) has been eroded for years by ever-larger progressives that force higher assumed bankrolls, pushing the industry to a **"lottery-ticket philosophy"** (rarely win, chase a life-changer). **Hold-and-respin has largely replaced free-spins** as the dominant bonus mechanic (top-5 of the top-25 games all use it). RTP is effectively fixed; the accepted **base/bonus split is ~70/30** — move it a little and players don't feel it, move it a lot and it breaks. The design challenge is "how low can we take the limbo bar" on volatility before the bonus stops paying enough to feel worth it. [[raw/Player_behavior_simulator.md]]
+- **Juan's field note:** Hialeah's operator (Javier) now thinks putting **dollar amounts on the bet buttons** (which he'd originally requested) is hurting play in a down economy — players suddenly see "$6.00 a spin" — so Juan recommends removing it in the revisions. [[raw/Player_behavior_simulator.md]]
+- **Undertakings:** Efim → build the simulator + try to extract real player-session boundaries from the ~1M-game progressive-controller dataset; Juan → file the requisition, share his player-experience use-cases/parameters, and gather comparable daily data from similar competitor games/locations; Michael + Efim → stand ready to build the less-volatile Fiery Ice math. [[raw/Player_behavior_simulator.md]]
+
+## Open questions
+
+- Is JVL's Fiery Ice negative-day problem caused by **excessive volatility** (Val's 40-year-experience read) or is ~25-30% negative days simply a **feature of the math** at these bet/bankroll levels (Efim's simulation view)? To be settled by the Player Behavior Simulator + comparable-game data. — [[raw/Player_behavior_simulator.md]]
+
 See also [[wiki/decisions/2025-03-19-minimal-touch-fix-in-rage-defer-to-omni.md|the Rage minimal-touch-fix / defer-to-Omni decision]].
 
 ## Sources
@@ -304,3 +321,5 @@ See also [[wiki/decisions/2025-03-19-minimal-touch-fix-in-rage-defer-to-omni.md|
 - [[raw/games_design-july-8-2025.md]]
 - [[raw/Overall_alignment.md]]
 - [[raw/alignment-planning-catch-up.md]]
+- [[raw/Player_behavior_simulator.md]]
+- [[raw/player_emulator.md]]

@@ -3,14 +3,14 @@ type: decision
 title: Secrets-management platform trial — Delinea (May 28) → Keeper (Jul 23 pivot)
 date: 2025-05-28
 aliases: [Delinea, Delenia, Keeper, secret server trial, secrets manager selection, DTP secret server MVP]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 2
 ---
 
 # Secrets-management platform trial — Delinea (May 28) → Keeper (Jul 23 pivot)
 
-**Status note (Jul 23 2025):** the titular **Delinea** trial is being displaced — after using it the IT team recommends **Keeper** instead (cheaper, unlimited servers, Docker gateway, more user-friendly, Entra SSO). The core decision (adopt a scored, policy-driven secret server) stands; the *product* is pivoting. Not yet formally locked by Val ("assuming Keeper is it"). See the Jul-23 section below.
+**Status note (Jul 23 2025):** the titular **Delinea** trial is being displaced — after using it the IT team recommends **Keeper** instead (cheaper, unlimited servers, Docker gateway, more user-friendly, Entra SSO). The core decision (adopt a scored, policy-driven secret server) stands; the *product* is pivoting. **Aug 15 2025:** Val authorized buying/installing **Keeper** ("Please install Keeper. Let's start using it.") — see the Aug-15 section below. Treated as strong evidence the Keeper pivot is committed; a formal owner Keeper-lock confirmation remains queued, so status is left `active` with the pivot annotated rather than re-titled/superseded.
 
 On the May 28 2025 IT-maturity review ([[wiki/meetings/2025-05-28-it-maturity-delinea-secrets.md]]) [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] and [[wiki/people/andrey-bosik.md|Andrei (Bosik)]] presented the completed product evaluation to [[wiki/people/val-levitan.md|Val]] and [[wiki/people/aaron.md|Aaron]]. This resolves the long-open "which secrets manager?" question and **supersedes the Apr-16 leading candidate (Microsoft/Azure)** — see [[wiki/decisions/2025-04-16-adopt-azure-microsoft-secret-server.md]]. [[raw/it_maturity_update-may-28-2025.md]]
 
@@ -36,7 +36,12 @@ On the May 28 2025 IT-maturity review ([[wiki/meetings/2025-05-28-it-maturity-de
 
 On the Jul-23 IT-maturity session ([[wiki/meetings/2025-07-23-it-capability-maturity.md]]), Andrei Bosik and Dmitri Kovalchuk reported that working with the Delinea trial surfaced restrictions/issues, and recommended **Keeper** as the replacement. Their comparison (corporate/vendor economics, allowed): **Delinea ≈ $22,000 and priced per connected server**; **Keeper ≈ $5,000–$7,000 with unlimited servers**, a **Docker-container gateway** (vs Delinea's Windows-server-only), **Entra ID SSO**, session recording, and time-boxed connection/credential sharing. Aaron did not object but pushed to prove the full use-case set (developers, GitHub Actions, NPM tokens, SSH) before purchase. Val treated the secret server as the **last stumbling block** of the IT transformation and was comfortable proceeding — but did not issue a formal lock. Full detail on [[wiki/topics/infosec-and-server-infrastructure.md]]. [[raw/IT_capability_maturity-july-23-2025.md]]
 
+## Aug 15 2025 — Keeper purchase/install authorized
+
+On the [[wiki/meetings/2025-08-15-keeper-install-authorization.md|Aug-15 session]] Val gave the go-ahead: "**Please install Keeper. Let's start using it.**" Andrei Bosik confirmed "we can buy this product." Adoption is mandated (no user opt-out), and Val ruled the KeePass→Keeper migration be done **manually, not bulk-imported**. This is the purchase authorization that follows the Jul-23 Keeper recommendation — strong evidence the product pivot from Delinea to **Keeper** is now committed. **Not unilaterally flipped here:** a formal Keeper-lock confirmation is queued to the owner, so the titular Delinea decision is left `active` with this Keeper-authorization update annotated rather than re-titled/closed. Full detail on [[wiki/topics/infosec-and-server-infrastructure.md]]. [[raw/keeper_security_implimentation_IT_maturity-august-15-2025.md]]
+
 ## Sources
 
 - [[raw/it_maturity_update-may-28-2025.md]]
 - [[raw/IT_capability_maturity-july-23-2025.md]]
+- [[raw/keeper_security_implimentation_IT_maturity-august-15-2025.md]]
