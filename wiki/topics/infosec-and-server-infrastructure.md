@@ -3,7 +3,7 @@ type: topic
 title: InfoSec, secrets management and server infrastructure
 date: 2025-03-19
 aliases: [secrets management, enterprise secrets manager, DevSecOps, Critical Insight, John Luke Peck, Minsk servers, cloud migration costing, Zabbix]
-source-count: 6
+source-count: 7
 open-commitments: 2
 open-questions: 1
 ---
@@ -89,6 +89,16 @@ The next maturity review ([[wiki/meetings/2025-05-28-it-maturity-delinea-secrets
 - **Val's demand: a visual policy diagram.** Val repeatedly pressed that he cannot follow the policy as a hierarchical document — he needs a **visual "map" of the policy** (a subway/transit map, Venn/nested circles, or a **squarified tree map**) showing how the ~8 sections and their cross-linked sub-policies relate, "where we were, where we're going, where we are," to have any language to communicate about IT infrastructure. Andre agreed to draw a base-policy → derived-policy diagram. [[raw/it_maturity_update-may-28-2025.md]]
 - **Val's "policy before infrastructure" doctrine** (also on [[wiki/topics/jvl-operating-principles.md]]): in IT maturity you write policy/intentions first, then fulfil them with infrastructure — his chicken-shack/building-plan analogy; the policy is "the foundation for why your infrastructure exists." He resisted the idea that policy can be neatly *measured* ("hard to measure policies, if possible at all"). Aaron: nothing is implemented yet — the "shift" happening now is defining the secrets-management policy/plan and building the implementation backlog. [[raw/it_maturity_update-may-28-2025.md]]
 
+## Jul 23 2025 — Keeper displaces Delinea; the Canada exit and cloud migration
+
+The next maturity session ([[wiki/meetings/2025-07-23-it-capability-maturity.md]]) with [[wiki/people/aaron.md|Aaron]], [[wiki/people/andrey-bosik.md|Andrei Bosik]], [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] and [[wiki/people/val-levitan.md|Val]] (Val just back from vacation; Andrei leaving for Egypt). [[raw/IT_capability_maturity-july-23-2025.md]]
+
+- **Keeper recommended over Delinea (secret-server pivot).** Working with the Delinea trial, Andrei and Dmitri hit restrictions/issues and found **Keeper** on forums — "same as Delinea but more cheap and more user friendly," with excellent support. Corporate/vendor economics (allowed): **Delinea ≈ $22,000** and charges **per connected server**; **Keeper ≈ $5,000–$7,000** with **unlimited servers**. Keeper's gateway runs in a **Docker container** (Delinea is Windows-server-only, needing a VM). Keeper does **SSO via Microsoft Entra ID**, per-user password visibility, 2FA (mail/SMS), **session recording**, and time-boxed credential/connection sharing (e.g. share Pavel a build-server connection for 1 hour with no credentials). Aaron kept pushing the method: prove the **use cases** (not just IT's — developers, GitHub Actions, NPM tokens, SSH-without-Keeper) before buying; don't tightly couple a paid security product to JVL's own product. Val's read: "assuming Keeper is it," the secret server was the **last stumbling block** of the IT transformation. **Owner-note context:** this displaces the May-28 Delinea trial ruling — see [[wiki/decisions/2025-05-28-trial-delinea-secrets-management.md]]. [[raw/IT_capability_maturity-july-23-2025.md]]
+- **Why a secret server at all (Aaron, 30k-ft for Val):** managed secrets mean no one person owns credentials; access is logged and rights are granted narrowly. It rotates **service-account/agent/infrastructure passwords** (backup agents, AD service accounts, committed git keys) automatically so a captured password is useless after rotation — it does **not** rotate people's personal passwords. Correctly set up, identity (Entra/OAuth + 2FA) is established **before** Keeper, so users never type a "password to the password keeper." [[raw/IT_capability_maturity-july-23-2025.md]]
+- **The Canada exit drives the infrastructure move.** Val: **JVL manufacturing in Canada will stop existing by December** (suggested deadline **November**), accelerated by tariffs; Peru and Mexico operations already closed; expanding to **Georgia and Miami**. So JVL wants **no servers in Canada** (no feet on the ground to service them). Production is in the Canada data center; dev/staging in Minsk (machines are there). Aaron's resilience logic: reduce physical assets in politically risky areas; P2V/V2V dev+staging to cloud (Western Europe/Germany for low latency, shiftable to North America/Asia). [[raw/IT_capability_maturity-july-23-2025.md]]
+- **Migration progress + the "big stones."** New products already use **GitHub Actions** CI/CD (not Jenkins). Migrations done/underway: mail → Microsoft 365, Atlassian → cloud, Vision → **Business Central**, SVN → GitHub. Remaining **"big stones":** the **CMS/"Simeest"** (has prod/staging/dev + many surrounding services — "a rock, a mountain") must move to cloud then be redesigned for new-era products (cannot be killed); the **Nexus** repo (**Sonatype** cloud/SaaS Nexus expected ~Aug 1). CMS is old and a security concern. [[raw/IT_capability_maturity-july-23-2025.md]]
+- **Zero-trust / BYOD cost vision (Val, aspirational).** Val estimates ~**$200,000/yr** in licensing (Atlassian, Microsoft) and thinks he could **shave ~2/3** by giving people independence: no mandated laptops/phones, possibly not even corporate email domains — judge people by performance/deliverable cost. Aaron reframed as **zero-trust** + AI-first (the org's trust concentrates in the git repos / product core; IT overhead falls away). Val: "we must bring it home … complete the transformation." **Next review Aug 13**, run by Andrei, presenting the full list of Canada-resident services + a step-by-step migration plan (with rough cost). [[raw/IT_capability_maturity-july-23-2025.md]]
+
 ## Sources
 
 - [[raw/info_security_server_infrastructure.md]]
@@ -97,3 +107,4 @@ The next maturity review ([[wiki/meetings/2025-05-28-it-maturity-delinea-secrets
 - [[raw/it_department_maturity-may-7-2025.md]]
 - [[raw/activeMQ_upgrade-may-12-2025.md]]
 - [[raw/it_maturity_update-may-28-2025.md]]
+- [[raw/IT_capability_maturity-july-23-2025.md]]

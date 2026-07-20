@@ -1,14 +1,16 @@
 ---
 type: decision
-title: Trial Delinea as JVL's secrets-management platform (scored winner over CyberArk)
+title: Secrets-management platform trial — Delinea (May 28) → Keeper (Jul 23 pivot)
 date: 2025-05-28
-aliases: [Delinea, Delenia, secret server trial, secrets manager selection, DTP secret server MVP]
-source-count: 1
+aliases: [Delinea, Delenia, Keeper, secret server trial, secrets manager selection, DTP secret server MVP]
+source-count: 2
 status: active
 open-commitments: 2
 ---
 
-# Trial Delinea as JVL's secrets-management platform (scored winner over CyberArk)
+# Secrets-management platform trial — Delinea (May 28) → Keeper (Jul 23 pivot)
+
+**Status note (Jul 23 2025):** the titular **Delinea** trial is being displaced — after using it the IT team recommends **Keeper** instead (cheaper, unlimited servers, Docker gateway, more user-friendly, Entra SSO). The core decision (adopt a scored, policy-driven secret server) stands; the *product* is pivoting. Not yet formally locked by Val ("assuming Keeper is it"). See the Jul-23 section below.
 
 On the May 28 2025 IT-maturity review ([[wiki/meetings/2025-05-28-it-maturity-delinea-secrets.md]]) [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] and [[wiki/people/andrey-bosik.md|Andrei (Bosik)]] presented the completed product evaluation to [[wiki/people/val-levitan.md|Val]] and [[wiki/people/aaron.md|Aaron]]. This resolves the long-open "which secrets manager?" question and **supersedes the Apr-16 leading candidate (Microsoft/Azure)** — see [[wiki/decisions/2025-04-16-adopt-azure-microsoft-secret-server.md]]. [[raw/it_maturity_update-may-28-2025.md]]
 
@@ -30,6 +32,11 @@ On the May 28 2025 IT-maturity review ([[wiki/meetings/2025-05-28-it-maturity-de
 - [ ] Andrei (Bosik) — build the DTP "secret server MVP" feature backlog (the evaluation tasks/stories, ordered), starting with Azure-OIDC→Delinea and KeePass→Delinea migration — due ~May 28–29 (Wednesday/Thursday) — [[raw/it_maturity_update-may-28-2025.md]]
 - [ ] Dmitri Kovalchuk + Andrei (Bosik) — begin implementing/evaluating Delinea against the policy once the backlog exists (Dima can start first; Andre has GitHub-Actions-for-UEFIM work in front of it) — due ~next week — [[raw/it_maturity_update-may-28-2025.md]]
 
+## Jul 23 2025 — pivot toward Keeper
+
+On the Jul-23 IT-maturity session ([[wiki/meetings/2025-07-23-it-capability-maturity.md]]), Andrei Bosik and Dmitri Kovalchuk reported that working with the Delinea trial surfaced restrictions/issues, and recommended **Keeper** as the replacement. Their comparison (corporate/vendor economics, allowed): **Delinea ≈ $22,000 and priced per connected server**; **Keeper ≈ $5,000–$7,000 with unlimited servers**, a **Docker-container gateway** (vs Delinea's Windows-server-only), **Entra ID SSO**, session recording, and time-boxed connection/credential sharing. Aaron did not object but pushed to prove the full use-case set (developers, GitHub Actions, NPM tokens, SSH) before purchase. Val treated the secret server as the **last stumbling block** of the IT transformation and was comfortable proceeding — but did not issue a formal lock. Full detail on [[wiki/topics/infosec-and-server-infrastructure.md]]. [[raw/IT_capability_maturity-july-23-2025.md]]
+
 ## Sources
 
 - [[raw/it_maturity_update-may-28-2025.md]]
+- [[raw/IT_capability_maturity-july-23-2025.md]]
