@@ -3,7 +3,7 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction]
-source-count: 19
+source-count: 20
 open-commitments: 2
 open-questions: 1
 ---
@@ -214,6 +214,16 @@ On a Val↔Anton 1:1 ([[wiki/meetings/2025-07-11-anton-testing-1on1.md]]; Russia
 - **Visual-comparison (regression) testing.** With the app compiled and running in React and a **test harness** built in, tests can **programmatically invoke the UI elements** (click/shuffle pages) and, via testing frameworks, **acquire the running app's visual presentation and compare it to the Figma reference** — a mismatch is flagged as a potentially failing test to investigate (either the code implemented it wrong, or the Figma design changed). He specified **TypeScript-style tests** that invoke the UI and use framework testing resources for the visual comparison, plus checking each element reacts correctly in React. [[raw/figma_to_testing_transcript.md]]
 - **Worked example — Netflix.** A Netflix mobile app has many UI areas (playing movies, account config) each designed in Figma; a unit test steps through every UI experience and compares it against the Figma reference, flagging any that don't match. "A modern way of testing your application… but I know there's others." [[raw/figma_to_testing_transcript.md]]
 
+## Aug 19 2025 — figma-to-development / testing debate (the binary standoff)
+
+The fuller group follow-up to the Aug-12 explainer above ([[wiki/meetings/2025-08-19-figma-to-development-testing.md]]; English/Russian, ~90 min) — Val, [[wiki/people/aaron.md|Aaron]], [[wiki/people/pavel.md|Pavel]] (Director of Engineering), QA lead [[wiki/people/irina-shishko.md|Irina Shishko]], UX/UI designer [[wiki/people/ihar-hrybko.md|Ihar Hrybko]] (repeatedly addressed as "Igor" — same person), and test-engineer [[wiki/people/anton-leshkevich.md|Anton Leshkevich]]. Val: the objective is to design in **Figma**, move it to an executable program, and incorporate testing. [[raw/figma_to_testing_development .md]]
+
+- **The QA-capacity problem restated.** Val: the QA department is *eager* to write automated GUI-functionality tests but the sheer **volume** means "by the time we write the test, the integration is done." His Aug-12 "moment of happiness" was hoping tests could be taken **from the mock-up straight into integration testing**. [[raw/figma_to_testing_development .md]]
+- **The binary standoff.** Ihar Hrybko (and Anton) hold that **Figma cannot do the testing that matters**: it supports **usability testing** (interactive prototype, click-through user flows) and you *can* check **colours / design tokens / buttons** against a Figma palette, but you **cannot test business logic or run integration tests** from Figma, and **auto-generated React from Figma plugins is landing-page-grade, not production-ready** for JVL's complex, hardware-constrained app. Val summarised: "Anton and Igor are both aligned … there is no automated solution … that can morph into an integration test from a Figma functional test." [[raw/figma_to_testing_development .md]]
+- **How Figma is actually used (Ihar).** Figma = the main UI/UX tool for mock-ups + interactive prototypes; JVL builds screens fast in Figma from an **open-source UI kit** (a **Joy UI**-style component kit, recreated manually because the kit is paid) whose React components are **already tested**, then **hand-crafts** the actual React layout using those components as a reference (not exported) — so they don't re-test each button, only rely on the kit for correct appearance. Anton's view: most UI components are already translated to React, so a Figma→React generator "isn't really worth the investment" — the bulk of the work is **business logic**. [[raw/figma_to_testing_development .md]]
+- **Aaron's reframe (the actual target).** Aaron pushes past the tool question: define **what makes generated code "acceptable"** (style guides / patterns / requirements). If you can clearly define that, modern (AI or deterministic) techniques can generate the React code — and, in the **same flow/step**, generate the **integration tests** that validate why the code was created ("not the same tool … the adjacent process"). He insists the real problem is the **inability to have capacity to write tests** and the missing **direct connection from mock-ups to code+tests**. He also warns JVL may be "using Figma in a way it wasn't designed to be used." Val ends at "~60% understanding, want ~80%." Left open — a course-check, no decision locked. [[raw/figma_to_testing_development .md]]
+- **Requirements point (Pavel/Aaron).** The mock-up review with Val/Juan is where requirements get **adjusted iteratively** — but the people requesting changes rarely update the written requirements, so Igor ends up working original requirements plus verbally-added changes. [[raw/figma_to_testing_development .md]]
+
 ## History
 
 ### The "Test 360" origin review (Fri Jul 5 2024 — date inferred; pre-dates the v1 window, Tier A-queued)
@@ -250,3 +260,4 @@ The earliest captured root of this effort — a Bitbucket-era progress review be
 - [[raw/autotests_sync_meeting.md]]
 - [[raw/update_anton-july-11-2025.md]]
 - [[raw/figma_to_testing_transcript.md]]
+- [[raw/figma_to_testing_development .md]]

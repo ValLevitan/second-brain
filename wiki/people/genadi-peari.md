@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena]
-source-count: 42
+source-count: 43
 ---
 
 # Genadi Peari
@@ -128,8 +128,13 @@ In the two-session architecture deep-dive (with Val, Nathan, Juan, Pavel), Genad
 
 On the [[wiki/meetings/2025-08-06-flex-pos-mid-iteration-sync.md|mid-iteration sync]] Genadi backed keeping hardware requirements in GitHub (Val's preference) and moved from the review-meeting cadence into the weekly **Wednesday** review only (out of the daily working meetings). He was a participant in the same-day Prize-Card thread, confirming John's barcode point ("correct!"). See [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/2025-08-06_Flex-POS-Mid-Iteration-Sync.md]] [[raw/Flex-Port-use_case-August-6-2025.md]]
 
+## Aug 19 2025 — dual-screen dispenser + single-board Flex-Port design review
+
+On a Val↔Genadi hardware one-on-one ([[wiki/meetings/2025-08-19-flex-dispenser-review.md]]; 4:46pm) Genadi proposed folding Flex-POS into **one dual-screen dispenser product** (cashier + player screens, one motherboard) instead of stacking a Point-XL on the dispenser (which needs two motherboards / two internet feeds); worked the symmetric hidden-cabling base and screen sizing (~8 inch); and reported [[wiki/people/evgeniy-alekseev.md|Alekseev]]'s **single-board Flex-Port** (~3.5 inch, replacing the three-board assembly, ~30% cheaper), to be verified via a **~3-sample minimum run** then finalized. Genadi to take exact monitor dimensions and hand the mock-up to [[wiki/people/igor-starovoytov.md|Igor Starovoytov]]; follow-up booked Thursday. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/flex_dispenser-review.md]]
+
 ## Sources
 
+- [[raw/flex_dispenser-review.md]]
 - [[raw/2025-08-06_Flex-POS-Mid-Iteration-Sync.md]]
 - [[raw/Flex-Port-use_case-August-6-2025.md]]
 - [[raw/Transactional-Architecture-Discussion-2025-07-29.md]]

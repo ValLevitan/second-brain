@@ -3,7 +3,7 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS]
-source-count: 54
+source-count: 55
 open-commitments: 17
 open-questions: 4
 ---
@@ -420,6 +420,16 @@ The transactional-products architecture was one thread of the Aug-14 backend-arc
 - **Business requirements driving the architecture** (restated here): non-technical **hot-swap** replacement; **one-day ACH** swipe of accounts (two-day processor window) with immediate per-transaction reconciliation; **immediate fraud lockout** (Val ignores InComm's fraud capability — "our own money, our own skin in the game"); modern/scalable IT with **no local servers to maintain** where possible; on-location **master/slave** device (server-app on each device, one talks to the InComm payment cloud). [[raw/backend_architecture-august-14-2025.md]]
 - **Markets & scope.** Bars/restaurants/gas stations, typically **≤9 machines** by law, transient play, **no player tracking** (only **customer/operator tracking**); the transactional accessory is **loosely regulated** (regulation ends at the skill machine), favouring a **cloud** solution with some on-site processing. [[raw/backend_architecture-august-14-2025.md]]
 
+## Aug 19 2025 — Flex-POS dual-screen dispenser + Flex-Port single-board hardware review
+
+A Val↔[[wiki/people/genadi-peari.md|Genadi Peari]] hardware design one-on-one ([[wiki/meetings/2025-08-19-flex-dispenser-review.md]]; Russian, 4:46pm) advancing the physical Flex-POS dispenser and Flex-Port board. [[raw/flex_dispenser-review.md]]
+
+- **Flex-POS → a single dual-screen dispenser product (design pivot).** Stacking the existing Point-of-Sale (Point XL, an 8-inch screen) on top of the dispenser would give the product **two motherboards and two internet feeds** — "not very correct." Genadi proposes instead **one dispenser cabinet with two screens** (cashier + player), **one motherboard driving both monitors**, a scanner at each; Val prefers this to two separate products ("I hadn't thought in this direction … I like it a lot"). It "fits Georgia's requirements." [[raw/flex_dispenser-review.md]]
+- **Form/fit iterations.** Both screens angled symmetrically (a recessed, tidied look, front screen mirroring the back); scanner mounted under each screen; all interconnects hidden inside a **symmetric hexagonal base/"teapot-saddle" plate** with the cable brought out through a **central channel with four 90° exits** so wiring can leave on any side — "nobody can pull it out, you won't even see the cables." Screen width settled toward **~8 inch / ~17 cm** ("give it room to breathe"); **5 inch rejected** as too small; the pricier long screen ($90 vs $20) rejected. [[raw/flex_dispenser-review.md]]
+- **Flex-Port on one board.** [[wiki/people/evgeniy-alekseev.md|Alekseev]] laid out **Flex-Port on a single PCB** (enlarged ~3.5 inch) replacing the three-board assembly — "one board, no assembly." Plan: Alekseev orders a **minimum sample run (~3, up to 10)** to verify it works, then **finalize**; a minimal plastic **insert/base plate** so operators can mount it. **Minsk doesn't need units** (functionality unchanged). [[raw/flex_dispenser-review.md]]
+- **Flex-Port economics (company/vendor figures).** Genadi cited **~30% (minimum) cost saving** from the single board (Val recalled "about $20"): the electronics board ~**$35–38**, plus a **touchscreen ~$18–20**, plus a **scanner-with-board ~$15**, plus an expensive **bill-acceptor interop cable ~$10–12** — one board avoids assembling/testing three boards. [[raw/flex_dispenser-review.md]]
+- **Next steps.** Genadi to take exact monitor dimensions from the China supplier, redo the Flex-POS mock-up per Val's notes, then hand it to industrial designer [[wiki/people/igor-starovoytov.md|Igor Starovoytov]]; a follow-up review booked for **Thursday**. [[raw/flex_dispenser-review.md]]
+
 ## Open commitments
 
 - [ ] Pavel Frolov — run the printer-dump **spike**: connect a real Mother Goose printer, dump all ticket data (power-up, ticket-printed, last-25-vouchers, daily/bookkeeping events) into the POS device for developers — due ~mid-Jul 2025 ("half a day") — [[raw/Flex-POS Iteration Planning 2025-07-14.md]] [[raw/Flex-POS_Mid-Iteration_Sync-2025-07-23.md]]
@@ -504,3 +514,4 @@ The transactional-products architecture was one thread of the Aug-14 backend-arc
 - [[raw/2025-08-06_Flex-POS-Mid-Iteration-Sync.md]]
 - [[raw/Flex-Port-use_case-August-6-2025.md]]
 - [[raw/backend_architecture-august-14-2025.md]]
+- [[raw/flex_dispenser-review.md]]

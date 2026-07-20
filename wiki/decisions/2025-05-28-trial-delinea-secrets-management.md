@@ -1,16 +1,16 @@
 ---
 type: decision
-title: Secrets-management platform trial — Delinea (May 28) → Keeper (Jul 23 pivot)
+title: Secrets-management platform — Keeper selected (Aug-15 2025; supersedes the May-28 Delinea trial)
 date: 2025-05-28
-aliases: [Delinea, Delenia, Keeper, secret server trial, secrets manager selection, DTP secret server MVP]
+aliases: [Delinea, Delenia, Keeper, secret server trial, secrets manager selection, DTP secret server MVP, Keeper selected]
 source-count: 3
-status: active
+status: superseded
 open-commitments: 2
 ---
 
-# Secrets-management platform trial — Delinea (May 28) → Keeper (Jul 23 pivot)
+# Secrets-management platform — Keeper selected (Aug-15 2025; supersedes the May-28 Delinea trial)
 
-**Status note (Jul 23 2025):** the titular **Delinea** trial is being displaced — after using it the IT team recommends **Keeper** instead (cheaper, unlimited servers, Docker gateway, more user-friendly, Entra SSO). The core decision (adopt a scored, policy-driven secret server) stands; the *product* is pivoting. **Aug 15 2025:** Val authorized buying/installing **Keeper** ("Please install Keeper. Let's start using it.") — see the Aug-15 section below. Treated as strong evidence the Keeper pivot is committed; a formal owner Keeper-lock confirmation remains queued, so status is left `active` with the pivot annotated rather than re-titled/superseded.
+**Status: SUPERSEDED — Keeper is the chosen product (owner-confirmed 2026-07-20).** The May-28 decision to trial **Delinea** is superseded: after trialing it the IT team recommended **Keeper** (Jul-23), and on **Aug-15 2025 Val formally authorized buying and installing Keeper** ("Please install Keeper. Let's start using it."; Andrei Bosik: "we can buy this product") with mandatory adoption and a manual (no-import) KeePass→Keeper migration. The **superseding evidence is the [[wiki/meetings/2025-08-15-keeper-install-authorization.md|Aug-15 install-authorization meeting]]** [[raw/keeper_security_implimentation_IT_maturity-august-15-2025.md]]. The decision's *core* (adopt a scored, policy-driven secret server, chosen via Aaron's policy→risk→requirements→scoring method) stands and succeeded — only the product moved from the top-scored Delinea to Keeper (cheaper, unlimited servers, Docker gateway, Entra SSO). Retitled + flipped per §3 so a title/status scan reads the true outcome (Keeper), not a dead Delinea trial.
 
 On the May 28 2025 IT-maturity review ([[wiki/meetings/2025-05-28-it-maturity-delinea-secrets.md]]) [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] and [[wiki/people/andrey-bosik.md|Andrei (Bosik)]] presented the completed product evaluation to [[wiki/people/val-levitan.md|Val]] and [[wiki/people/aaron.md|Aaron]]. This resolves the long-open "which secrets manager?" question and **supersedes the Apr-16 leading candidate (Microsoft/Azure)** — see [[wiki/decisions/2025-04-16-adopt-azure-microsoft-secret-server.md]]. [[raw/it_maturity_update-may-28-2025.md]]
 
@@ -38,7 +38,7 @@ On the Jul-23 IT-maturity session ([[wiki/meetings/2025-07-23-it-capability-matu
 
 ## Aug 15 2025 — Keeper purchase/install authorized
 
-On the [[wiki/meetings/2025-08-15-keeper-install-authorization.md|Aug-15 session]] Val gave the go-ahead: "**Please install Keeper. Let's start using it.**" Andrei Bosik confirmed "we can buy this product." Adoption is mandated (no user opt-out), and Val ruled the KeePass→Keeper migration be done **manually, not bulk-imported**. This is the purchase authorization that follows the Jul-23 Keeper recommendation — strong evidence the product pivot from Delinea to **Keeper** is now committed. **Not unilaterally flipped here:** a formal Keeper-lock confirmation is queued to the owner, so the titular Delinea decision is left `active` with this Keeper-authorization update annotated rather than re-titled/closed. Full detail on [[wiki/topics/infosec-and-server-infrastructure.md]]. [[raw/keeper_security_implimentation_IT_maturity-august-15-2025.md]]
+On the [[wiki/meetings/2025-08-15-keeper-install-authorization.md|Aug-15 session]] Val gave the go-ahead: "**Please install Keeper. Let's start using it.**" Andrei Bosik confirmed "we can buy this product." Adoption is mandated (no user opt-out), and Val ruled the KeePass→Keeper migration be done **manually, not bulk-imported**. This is the purchase authorization that follows the Jul-23 Keeper recommendation. **Owner-confirmed 2026-07-20: this Aug-15 authorization supersedes the Delinea trial — Keeper is the selected product; the decision is retitled and flipped to `superseded` (per §3), with this meeting as the superseding evidence.** Full detail on [[wiki/topics/infosec-and-server-infrastructure.md]]. [[raw/keeper_security_implimentation_IT_maturity-august-15-2025.md]]
 
 ## Sources
 

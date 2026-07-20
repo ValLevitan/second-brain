@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 45
+source-count: 46
 open-commitments: 5
 ---
 
@@ -134,11 +134,16 @@ On the maturity review ([[wiki/meetings/2025-05-28-it-maturity-delinea-secrets.m
 
 On the short [[wiki/meetings/2025-08-15-keeper-install-authorization.md|Aug-15 session]] with [[wiki/people/val-levitan.md|Val]] and [[wiki/people/aaron.md|Aaron]], Andrei reported that IT had asked users whether they'd use Keeper and got noncommittal answers — which Val rejected as absurd for a qualified IT department. Val ruled adoption mandatory and said "install Keeper, let's start using it"; Andrei confirmed "we can buy this product." Andrei owns the rollout: stand Keeper up as the production system, then move passwords from **KeePass step-by-step and manually** (Val's explicit rule — **no bulk import**, since KeePass holds many stale passwords), using the two use cases Andrei named (self-service password retrieval; time-boxed server access). Aaron's homework for him: a plan for implementing, measuring, sustaining, governing, and driving adoption of Keeper. This continues his secrets-management lead role from the [[wiki/decisions/2025-05-28-trial-delinea-secrets-management.md|Delinea→Keeper]] thread. [[raw/keeper_security_implimentation_IT_maturity-august-15-2025.md]]
 
+## Aug 18 2025 — GitHub org consolidation (would own the admin model)
+
+On the [[wiki/meetings/2025-08-18-github-org-consolidation.md|Aug-18 4:30pm meeting]] with [[wiki/people/val-levitan.md|Val]] and [[wiki/people/pavel.md|Pavel Frolov]], Andrei worked Val's push to **collapse JVL's several GitHub organizations into one (or few)**. He flagged the migration cost — **many Actions (incl. cross-referencing ones) must be rewritten** — and urged waiting **~1–2 weeks** for people to return from holiday. Under a single-org model **he alone would issue rights/permissions** (owners: Andrei, Dima, Val, Aaron). Andrei + Pavel to meet the next day to define org naming and the migration map. Reverses the multi-org structure he helped build; see [[wiki/decisions/2025-02-11-github-org-naming-and-structure.md]]. [[raw/Git_organization_management.md]]
+
 ## Sources
 
 - [[raw/GitHub repository structure.md]]
 - [[raw/it_maturity_update-may-28-2025.md]]
 - [[raw/github _structure-pavel-aaron-andrei.md]]
+- [[raw/Git_organization_management.md]]
 
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
 - [[raw/architecture_sql_olap_visualization_1_2025-03-29.md]]

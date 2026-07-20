@@ -3,8 +3,8 @@ type: decision
 title: GitHub org naming convention and the JVL enterprise org list
 date: 2025-02-11
 aliases: [GitHub org naming, JVL prefix, org naming convention, enterprise organizations, repo naming]
-source-count: 3
-status: active
+source-count: 4
+status: active   # multi-org structure ACTIVE but under Aug-18-2025 reconsideration toward consolidating into ONE (or few) orgs — see "Aug 18 2025" below; no consolidation locked yet
 ---
 
 # GitHub org naming convention and the JVL enterprise org list
@@ -32,8 +32,21 @@ The org list was hammered out the **previous day** ([[wiki/meetings/2025-02-10-g
 
 On the Feb 26 designer-migration call, [[wiki/people/lena.md|Lena]] needed a home for design-stage work (initial comp art) and JVL agreed to **create two more organizations — "Game Concepts" and "Game Designs" (plural)** — so the GitHub orgs mirror the **three Jira stages: concept → design → production** ("JVL Games Production" already existed). [[wiki/people/andrey-bosik.md|Andrei]] is to create them and grant Lena repo-creation rights; a separate repository is also planned for the **Fortune 4 Progressive Sign** (a separate IP). See [[wiki/decisions/2025-02-26-designer-branching-workflow.md]]. [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]
 
+## Aug 18 2025 — reversal under discussion: consolidate the many orgs into ONE (or few)
+
+Six months on, the multi-org structure is being **reconsidered in the opposite direction**. On the Aug-18 2025 4:30pm GitHub meeting ([[wiki/meetings/2025-08-18-github-org-consolidation.md]]; Val, [[wiki/people/andrey-bosik.md|Andrei Bosik]], [[wiki/people/pavel.md|Pavel Frolov]]; Russian) Val pushed to **collapse the several organizations into one, or very few**. This is a **discussion, not yet a locked decision** — the parent "orgs mirror the Jira value streams" premise ([[wiki/decisions/2025-01-20-github-orgs-mirror-value-streams.md]]) is what's being walked back. [[raw/Git_organization_management.md]]
+
+- **Rationale (Val):** the mapping of orgs to value-streams/initiatives "never worked out cleanly" (Pavel agreed), and JVL naturally keeps evolving away from Jira anyway; managing many orgs is inconvenient for everyone (each org needs its own link structure), and "everyone insists on even a single organization" for JVL's headcount. One org **streamlines** work — everyone sees all repos, focuses on one place. [[raw/Git_organization_management.md]]
+- **Cost:** restructuring itself is easy, but **many GitHub Actions must be rewritten** — especially cross-referencing ones (owned by Andrei, Pavel, Sergei Tsyganov, "Sasha"). Migration is critical items re-created (not moved). Estimated a couple of hours per person's actions. [[raw/Git_organization_management.md]]
+- **Timing:** wait **~1–2 weeks** for people to return from holiday (the action's author edits it fastest); "no panic," schedule it deliberately. [[raw/Git_organization_management.md]]
+- **Admin model shift:** with fewer orgs, ownership consolidates to **Andrei, Dima, Val and Aaron**; **Andrei alone** would issue rights/permissions. [[raw/Git_organization_management.md]]
+- **Jira↔GitHub linkage:** Val clarified they still link **tasks at the *feature* level** informationally between Jira and GitHub, but **stop trying to force a logical parallel** between Jira projects and GitHub orgs. [[raw/Git_organization_management.md]]
+- **Process discipline reasserted:** Val insisted the consolidation itself be justified by a **use case → requirement** ("if there's no user story, there's no task"), refusing "floating tasks in the air"; he asked the meeting recording be written up into the use case. [[raw/Git_organization_management.md]]
+- **Next step:** Andrei + Pavel meet the next day to work out **correct org naming** and the source→target migration map; largest orgs today are "Cortex"(?) and the gaming platform. [[raw/Git_organization_management.md]]
+
 ## Sources
 
 - [[raw/github _structure-pavel-aaron-andrei.md]]
 - [[raw/Git_repo_structure_part_2_2025-02-11.md]]
 - [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]
+- [[raw/Git_organization_management.md]]

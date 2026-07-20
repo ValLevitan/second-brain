@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 69
+source-count: 71
 open-commitments: 1
 ---
 
@@ -188,8 +188,18 @@ On the [[wiki/meetings/2025-06-12-qa-engineering-direction-aaron.md|QA-engineeri
 
 On the [[wiki/meetings/2025-08-15-keeper-install-authorization.md|Aug-15 session]], Aaron refused to relitigate the Keeper choice ("I don't want to make this a debate about Keeper… are you confident you're fulfilling the requirements defined for the company?") and gave [[wiki/people/andrey-bosik.md|Andrei]] the **"cover-your-own-back" forcing-function** framing: Keeper becomes the single password store, IT gains justification to delete/rotate any password not in it, and access is conditional — "there is no such thing as *do you want to use Keeper?* … I use Keeper. You will use it too, because that's the only way I'm going to give you my password." He set the governance homework: a plan for how Keeper is implemented, measured, sustained, governed, and adopted. See [[wiki/topics/infosec-and-server-infrastructure.md]]. [[raw/keeper_security_implimentation_IT_maturity-august-15-2025.md]]
 
+## Aug 18 2025 — git meta-analysis repository
+
+On a short Val↔Aaron check-in ([[wiki/meetings/2025-08-18-git-meta-analysis-repo.md]], 2:04pm) Aaron reported a **meta-analysis repository** he configured — kept **local, deliberately not committed into JVL**, connecting **every JVL repo as a submodule** in an org with per-repo instructions, protected by a **git hook against accidental write-back** so analysis reports can be deleted and a **clean sub-agent parallel analysis** re-run. A prior "Flex"-focused run was "tainted" by context about an upcoming demonstration; he proposes re-running on a **fresh cloud instance with no prior context**. Val plans to rename the recurring meeting to "GitHub intelligence." [[raw/undertakings_git_intelligence-august-18-2025.md]]
+
+## Aug 19 2025 — figma-to-development / testing debate
+
+On the [[wiki/meetings/2025-08-19-figma-to-development-testing.md|Aug-19 working session]] (the fuller follow-up to his Aug-12 explainer) Aaron pressed the QA/UI team past the "Figma can't do it" standoff: define **what makes generated code acceptable** so a code-generation step (AI or deterministic) can produce the React code **and** the parallel integration tests in one flow — the real problem being QA capacity and the missing mock-up→code→test link. He argued JVL may be "using Figma in a way it wasn't designed to be used." See [[wiki/topics/test-automation-strategy.md]]. [[raw/figma_to_testing_development .md]]
+
 ## Sources
 
+- [[raw/undertakings_git_intelligence-august-18-2025.md]]
+- [[raw/figma_to_testing_development .md]]
 - [[raw/figma_to_testing_transcript.md]]
 - [[raw/backend_architecture-august-14-2025.md]]
 - [[raw/qa_engineering_direction_review_aaron-june-12-2025.md]]
