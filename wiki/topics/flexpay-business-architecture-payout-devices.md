@@ -3,7 +3,7 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS]
-source-count: 58
+source-count: 61
 open-commitments: 18
 open-questions: 4
 ---
@@ -451,6 +451,25 @@ The [[wiki/meetings/2025-08-20-cms-payflex-block-diagram.md|Aug-20 block-diagram
 
 - **Protocols and engineering facts.** Three device-communication models were named (all already documented above): (1) **Mother Goose** pulse interception (pre-SAS machines — intercept bill-acceptor input + hard-meter output pulses; the machine-side serial converter is the "**fledgling**" board); (2) the proprietary **e-wallet** — a temporary, PIN-protected barcode wallet over **secure web socket**, redeemable back to a card; (3) **TITO/SAS** — a Flex SMIB board converts SAS↔Ethernet to the master. **New this session:** Georgia mandated **dual SAS** a couple of years back (newer machines only) — **primary SAS is reserved to Intralot** (the state monitoring system, the only party that can disable a game); JVL uses the **secondary SAS port with slightly limited functionality** (transactions only; **no lock/unlock, no progressives** on third-party games — JVL has its own progressive controller for its own games). The forthcoming **Flex POS will use a different, ARM-based CPU architecture**, likely the same platform for the dispenser/Flex-Tower. Communication to InComm is moving to a **cloud server** by January for security (InComm advised this). [[raw/CMS- Block Diagram_Arch.md]] [[raw/back-office_architecture-august-20-2025.md]]
 
+## Aug 22 2025 — Flex-POS release requirements (written note) + reconciliation/fund-flow deep-dive + Georgia-show device signals
+
+**The Flex-POS release requirements as a standalone note.** Val's written requirements doc [[raw/First course of business POS 082225.md]] ("First course of business: Release the Flex-POS + dispenser into the market") is the authoritative source for the four release capabilities the Aug-20 follow-up first sketched — here with more detail: [[raw/First course of business POS 082225.md]]
+1. **Install + auto-configure out of the box** — define **network requirements**, the **minimum Internet requirement** (does InComm need a dedicated line? — resolved toward **cloud**), and InComm's **bare-minimum API over HTTPS**.
+2. **Establish an ACH agreement with a location** — define the **ACH contract language** (carrying the client's ACH details) and decide **existing JVL bank account vs a new dedicated account**.
+3. **Debit locations' accounts by ACH within 24 hours** — an automated process to **debit each client ACH account daily** (business days or every day) and an **automated ACH credit to InComm**.
+4. **Present a reconcilable accounting detail** to locations and master operators — a **cloud-based client login** for reconciliation reporting, **JVL tools to track pending ACH transactions**, **location reports** (transaction detail + service-fee breakout), and **master reports** (scope still a "?"). [[raw/First course of business POS 082225.md]]
+
+**The Aug-22 CMS block-diagram session ([[wiki/meetings/2025-08-22-cms-block-diagram-reconciliation.md|arc session 2]])** worked these requirements plus the device fund-flows for Will's benefit. Device/engineering facts new or sharpened here (the CMS/cloud direction is on [[wiki/topics/persona-driven-design-and-orchestration-platform.md]]): [[raw/CMS- Block Diagram_Arch 082225.md]]
+- **Reconciliation is three flows that must reconcile** (Will): EGM in/out, funds-in-transit, and the InComm side. Pavel simplified it — you **cannot insert money into a terminal** (cash goes into the machine; the kiosk only redeems), so there is no kiosk-money reconciliation; Flex-POS only knows a ticket arrived from the Mother Goose, so JVL reconciles that ticket value against what it pays InComm and debits the location. [[raw/CMS- Block Diagram_Arch 082225.md]]
+- **The e-wallet must function fully locally** (a player moves between machines even with the Internet down; only card issuance needs InComm), so funds must persist durably on-site, not just in RAM. Will pushed for an **ATM-grade write-only durable storage device** so transactions survive a destroyed/stolen kiosk; Pavel's plan is to **share ticket/accounting data back to the JVL terminal-communication server after each operation** so a broken terminal can be replaced (recoverable if it didn't fail mid-transaction, not 100% loss-proof). Local storage on the **ARM board's EMMC + SD-card slot** was floated; Genadi Peari's spec didn't cover memory, so it must be confirmed with him. [[raw/CMS- Block Diagram_Arch 082225.md]]
+- **The e-wallet ticket carries two counters** (playable-only + redeemable); **only winnings redeem to the MasterCard**; **partial transfers** are allowed. For older single-SAS machines (state system Intralot occupies SAS 1) JVL **mimics the bill-acceptor input pulses** and uses the **electromagnetic counter** for cash-out; the TITO solution uses **full secure-enhanced SAS**. The **Flex-POS alone (no kiosk)** is the Q4 target; the FlexPay kiosk exists only in advanced prototype for shows. The Georgia-show SAS pilot "worked flawlessly" (the only fault was Juan's own human error — inserting cash into the TITO kiosk instead of the machine, locking the printer). [[raw/CMS- Block Diagram_Arch 082225.md]]
+
+**Georgia-show (GACOAM) device signals** from the [[wiki/meetings/2025-08-22-gacoam-trade-show-recap.md|Aug-22 7:09 PM recap]] (market/strategy detail on [[wiki/projects/georgia-market-rollout.md]]): [[raw/GACOAM_trade_show_recap.md]]
+- **e-wallet was preferred over TITO** by operators once reminded a printer isn't needed ("e-wallet all day long"); at least 5–6 rival digital-wallet solutions were shown, Wind Systems' getting the most notice (no ticket/kiosk; claims it moves money to the player's Apple/Android wallet). [[raw/GACOAM_trade_show_recap.md]]
+- **Printer retrofit is a market non-starter** — installing a printer on ~500 games across ~700 locations is work masters won't do (Val: refilling paper / breaking print heads is "a point of failure"), and converting the ~20–30% of single-SAS inventory to TITO is impractical. Val's strategic answer: the **Flex-POS wedges into the existing Mother Goose infrastructure** with **no out-of-pocket cost and no machine retrofit** — his "top secret" to unveil aggressively; the business unfolds starting **July 2026**. **Flexport will support legacy products** (e.g. IGT Prodigy) that get no other upgrade path. [[raw/GACOAM_trade_show_recap.md]]
+- **Remote initial setup (RIS)** remains the acknowledged inconvenience; Val told Felipe not to expect a radical RIS improvement before **end of 2026** — full RIS benefit comes only with the **new framework** entering the market in 2026. A quick UI toggle for "printer present or not" was floated to engineers as a possible near-term fix. [[raw/GACOAM_trade_show_recap.md]]
+- **Third product stage = redemption centers.** Val framed the product evolution as incomplete until it reaches an InComm-backed **Redemption Center** (cash-to-cash, non-TITO, fewer peripheral devices) — confidential, not for customer discussion. [[raw/GACOAM_trade_show_recap.md]]
+
 ## Open commitments
 
 - [ ] Pavel Frolov — prepare updated schematics/diagrams of the current CMS implementation (locate/export the prior Miro-board artifacts) for the next block-diagram session; assess creating a new design from scratch aligned to the new architecture — due by the next arc session (~Aug 22) — [[raw/CMS- Block Diagram_Arch.md]]
@@ -540,3 +559,6 @@ The [[wiki/meetings/2025-08-20-cms-payflex-block-diagram.md|Aug-20 block-diagram
 - [[raw/CMS- Block Diagram_Arch.md]]
 - [[raw/val_comments_to_CMS_Block_Diagram_Arc.md]]
 - [[raw/back-office_architecture-august-20-2025.md]]
+- [[raw/CMS- Block Diagram_Arch 082225.md]]
+- [[raw/First course of business POS 082225.md]]
+- [[raw/GACOAM_trade_show_recap.md]]
