@@ -4,7 +4,7 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 18
+source-count: 20
 open-commitments: 8
 open-questions: 0
 ---
@@ -146,6 +146,13 @@ Five older sources (staged 2025-03-29, internally dated 2023–2024) place Andre
 
 A written Teams status report ([[wiki/meetings/2025-07-09-klimovich-echo-status.md]]): Amazon sales have been **stopped since June 4** with the 8 replenished units frozen in an Amazon "authenticity/condition investigation"; Andrei has pivoted to a **B2B distributor channel** (the Amusement version is now Amazon-approved) while B2C stalls on the **$600–$1,000** price expectation; and the JVL **documentary** advanced (three veteran-operator interviews lined up, awaiting Dan's signature, Ingrid/RePlay confirmed). Full detail on [[wiki/topics/echo-home-gaming-device.md]]. [[raw/andrei_klimovich_echo_status_update_2025-07-09.md]]
 
+## Mid-July 2025 — two ECHO calls (machines back, B2B-only, listing/media, online shut down)
+
+Two ~July-17 calls with Val (dates inferred/queued):
+
+- **Machines-returned / B2B call** ([[wiki/meetings/2025-07-17-klimovich-echo-machines-returned-b2b.md]]): the **8 frozen Amazon units were released**; Andrei got Val's ruling to go **Amazon-B2B-only** ($3,300 B2B price, distributors onto Amazon Business Prime, drop the MCF/"WC" route), worked the intercompany "acrobatics" for a 4-machine **Aminis (Missouri)** order (Leps→Systems at $1,000 value, ship direct), and was told to **wait ~3 months** on the CustDev agency. Val also asked him to line up **Ingrid as a paid outside marketing lead** and warned him JVL is **exiting online** (finish in-flight integrations, take no new ones) — see [[wiki/decisions/2025-07-15-exit-online-focus-transactional.md]]. He names the Amazon selling entity **"Cheil Games"** (feeds the open entity contradiction). Full detail on [[wiki/topics/echo-home-gaming-device.md]]. [[raw/Alignment with Andrei Klimovich.md]]
+- **Listing / media-push call** ([[wiki/meetings/2025-07-17-klimovich-echo-listing-media-push.md]]): shortlisted **3 India-based studios** for a listing redesign (~$600 for 9 concepts), the trade-media push with **Hannah** (Intergame Media, OK Hills), a proposed 3-month **Amazon-ads expert "Grant"** (rate held §15.8; ~$3,000/mo budget, parked), the **~$2,000/mo** ad spend on his JVL business card, the ECHO **website ~Aug 10** (Goleador studio; Maxim renders), and the 2026 projection (~10 machines/mo ≈ $420k). Here he says the Amazon **and** Meta accounts are **under JVL Gameworks** (Bank of America). Full detail on [[wiki/topics/echo-home-gaming-device.md]]. [[raw/Echo_sales_marketing_update.md]]
+
 ## Sources
 
 - [[raw/andrei_klimovich_echo_status_update_2025-07-09.md]]
@@ -166,3 +173,5 @@ A written Teams status report ([[wiki/meetings/2025-07-09-klimovich-echo-status.
 - [[raw/andrei_klimovich-progress_update-june-4-2025.md]]
 - [[raw/finance_amazon_sales-june-11-2025.md]]
 - [[raw/echo_sales_marketing_progress_report-june-18-2025.md]]
+- [[raw/Alignment with Andrei Klimovich.md]]
+- [[raw/Echo_sales_marketing_update.md]]

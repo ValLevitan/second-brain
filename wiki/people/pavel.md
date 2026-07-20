@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 63
+source-count: 65
 open-commitments: 4
 open-questions: 0
 ---
@@ -176,6 +176,11 @@ Pavel ("Pasha") worked the Jira/GitHub maturity session with Val and Irina: he s
 - **Jun 23 (InComm):** the JVL technical voice on the [[wiki/meetings/2025-06-23-incomm-jvl-nebraska-georgia-alignment.md|InComm alignment call]] — probed the card **dispensing** details (magnetic-stripe read at dispensing vs barcode on POS/tower; whether a SkillPay card needs a barcode or magnetic validation) and the **manual-activation / per-machine terminal registration** questions. See [[wiki/organizations/incom.md]]. [[raw/incomm_jvl_alignment-june-23-2025.md]]
 - **Jun 26 (Omni grooming):** ran the [[wiki/meetings/2025-06-26-omni-schedule-grooming.md|Omni schedule grooming]] — walked the backlog/task reshuffle, presented the **topper-as-separate-application** benefits (deterministic main game, independent horse-racing, future linked-progressive, no re-cert), owns the **mass-engine Docker/math integration** and the **production image** (no simple-password access, no exposed ports), and is to talk to [[wiki/people/genadi-peari.md|Genadi]] about preparing new **FP-7 boards** for the Omni-on-FP-7 migration. Restated Val's push to move story-level planning to GitHub Issues + Kanban. See [[wiki/topics/omni-core-advancement-and-game-templating.md]]. [[raw/OMNI_schedule_grooming-june-26-2025.md]]
 
+## ~July 14–15 2025 — OMNI schedule review + alignment-planning catch-up
+
+- **OMNI schedule review** (with Val + [[wiki/people/alexander-biratka.md|Alexander Biratko]]): Pavel drove the Jira-plans walkthrough — the VDEC/bonus-scene status, handing the bonus to [[wiki/people/ihar-hrybko.md|Igor Hrybko]] since Anton is on Nebraska, the untested progressive spinner, keeping the old LGS UI, and splitting the Omni Gaming Platform into land-based/online/core. See [[wiki/topics/omni-core-advancement-and-game-templating.md]]. [[raw/OMNI schedule review.md]]
+- **Alignment-planning catch-up** (with Val + [[wiki/people/irina-shishko.md|Irina Shishko]]): Pavel argued the **POS hardware-platform / "harbor"** tradeoffs — a ready board vs a module on JVL's own board vs the current platform (~$50/$60/$80), keep dev in-house for now, and **Linux beats embedded** for internet-facing security (ready SSL/NTP libraries). He also detailed the **PixiJS v6→v8 video-decode regression** (11 → ~2 parallel videos) as a framework blocker. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] and [[wiki/topics/omni-core-advancement-and-game-templating.md]]. [[raw/alignment-planning-catch-up.md]]
+
 ## Jul 29–31 2025 — transactional-architecture arc + amusement-games framework
 
 - **Jul 29 / Jul 31 transactional-architecture deep-dive** (with Val, Nathan, Juan, Genadi): Pavel argued the processing/server application should run as **software on any device** (kiosk/POS) with **Flexports as slave devices**; backed the move from clustering to **event-driven message-queue replication**; and named the on-device **tech stack — Linux / MySQL / Java / React**. He preferred cloud snapshots + never-delete over Val's weekly-overwrite retention rule. Full substance: [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/Transactional-Architecture-Discussion-2025-07-29.md]] [[raw/transactional_architecture-july-31-2025.md]]
@@ -186,6 +191,8 @@ Pavel ("Pasha") worked the Jira/GitHub maturity session with Val and Irina: he s
 - [[raw/Transactional-Architecture-Discussion-2025-07-29.md]]
 - [[raw/transactional_architecture-july-31-2025.md]]
 - [[raw/amusement_games_development_revivial-july-31-2025-pavel.md]]
+- [[raw/OMNI schedule review.md]]
+- [[raw/alignment-planning-catch-up.md]]
 - [[raw/incomm_jvl_alignment-june-23-2025.md]]
 - [[raw/OMNI_schedule_grooming-june-26-2025.md]]
 - [[raw/jira_plans_maturity-mat-29-2025.md]]

@@ -3,7 +3,7 @@ type: topic
 title: Online games / RGS distribution business
 date: 2025-01-30
 aliases: [online games, RGS distribution, EveryMatrix, RGS Matrix, Brazil market, iGaming, certification economics, revenue share, MaxBet, JVL Marketplace, marketplace, platform services, Golden Palace, Digitain, Hub88, BetConstruct, wallet, account manager, Platipus, Endorphina, SlotCatalog, Microgaming, NetEnt, Netflix for games, stealth launch, JVL Netflix, arbitrage, Relax Gaming, Pariplay, Spearhead, Hollywood Bets, fixed-price sales, digital storefront, one game a week, outsourcing studio, land-based licences, ELANTIL, LNT, LuckyStick, Top Sport, Golden Matrix]
-source-count: 13
+source-count: 15
 ---
 
 # Online games / RGS distribution business
@@ -96,6 +96,10 @@ From Andrei Klimovich's Apr 15 update ([[wiki/meetings/2025-04-15-klimovich-upda
 - **ELANTIL marketplace (rendered "LNT", spelled out "E-L-A-N-T-I-L"):** the closest live analogue to the JVL Marketplace concept — founded by ex-**Games Global** people (with a **John Debona** connection); takes **no commission on game providers' GGR**, lets providers contract operators directly, and earns a **fixed monthly fee from operators** (Andrei: "По-моему 40 тысяч в месяц или что-то такое"; Val: "Дорого очень"). JVL handed over its API for their **reverse integration**; the contract is being "дожимаем" (~2 weeks hoped); a Teams integration channel exists. [[raw/andrei _klimovich_update-apr-15-2025.md]]
 - **LuckyStick contract:** the liability clauses were talked through on a direct call with their lawyer ([[wiki/people/monica.md|Monica]] + Andrei); "вроде бы обо всем договорились," waiting ~2 weeks for the revised agreement to come back. [[raw/andrei _klimovich_update-apr-15-2025.md]]
 
+## Mid-July 2025 — Val pulls JVL out of the online business
+
+Val decided to **stop actively pursuing online** — "я принял решение от онлайн отойти, пока я не готов с этим" — judging JVL can't compete effectively online and that reaching **$1M/year** there would need far more capital than the transactional/ECHO-amusement lines. In-flight integrations may be finished but **no new ones** are to be taken, the technical team is off online, and the online contractors were let go. Recorded as the active current direction (parked, not declared permanently dead). Full detail: [[wiki/decisions/2025-07-15-exit-online-focus-transactional.md]]. [[raw/Alignment with Andrei Klimovich.md]] [[raw/alignment-planning-catch-up.md]]
+
 ## History — 2023–2024 origins (batch 16)
 
 Five older sources (staged 2025-03-29 but internally dated 2023–2024) predate all the Jan–Mar 2025 material above. Per the temporal rule they are recorded here as history, not current state. Together they show the online-distribution business, the marketplace/"Netflix" idea, and the ECHO/Amazon push all began well before 2025. Meeting stubs: [[wiki/meetings/2023-08-08-online-platforms-aggregators-status.md]], [[wiki/meetings/2024-11-06-website-architecture-and-design.md]], [[wiki/meetings/2024-11-12-online-vision-and-rgs-scaling.md]], [[wiki/meetings/2024-11-24-andrei-klimovich-online-strategy-update.md]], [[wiki/meetings/2024-12-online-strategy-storefront-brainstorm.md]].
@@ -145,3 +149,5 @@ Five older sources (staged 2025-03-29 but internally dated 2023–2024) predate 
 - [[raw/online_strategy_brainstorm_with_andrei_klimovich_decembe_2025-03-29.md]]
 - [[raw/sweepstakes_casinos_with_mark_sinosich.md]]
 - [[raw/andrei _klimovich_update-apr-15-2025.md]]
+- [[raw/Alignment with Andrei Klimovich.md]]
+- [[raw/alignment-planning-catch-up.md]]

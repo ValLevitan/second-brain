@@ -4,7 +4,7 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 32
+source-count: 33
 ---
 
 # Irina Shishko
@@ -54,6 +54,10 @@ Irina Shishko is JVL's **Vice Director of Engineering and Director of QA** (owne
 - **e-Wallet / TITO action-list (May 29).** "Ирина Шишко" raised correct firmware-version naming, **test-vs-production folders** on GitHub, and using a sub-version number instead of a build number — a QA/release-process role. See [[wiki/meetings/2025-05-29-ewallet-tito-flexpay-implementation.md]]. [[raw/e-wallet_tito_flex-pay_flex-port_implementation_update-may-29-2025.md]]
 - **Progress review (June 2).** Named on the recurring action-list review (e-Wallet rollout to testing, FlexPay→GitHub migration and versioning, the e-Wallet live-test cycle). See [[wiki/meetings/2025-06-02-flexpay-flexport-progress-review.md]]. [[raw/flex-pay_flex-port_progress_review-june-2-2025.md]]
 
+## ~July 15 2025 — alignment-planning catch-up (QA/release-process voice)
+
+- On the [[wiki/meetings/2025-07-15-alignment-planning-catch-up.md|mid-July alignment-planning catch-up]] (with Val + [[wiki/people/pavel.md|Pavel Frolov]]), Irina Shishko surfaced the **Salt-Corp certification lesson** — JVL had casually swapped software changes into a build the operator ("Larry Corporation" / a Latvia location) was certifying, so the operator pulled its approval and the **training slipped ~3 weeks**; her point was that JVL must feed operators **more complete information up front** about what's being approved. She also flagged the HHR schedule slipping to **September** ("pessimistically") given Nebraska progressive/At-Any-Bet work still outstanding, and named **Irina Makarych** as a possible builder of the math emulator. See [[wiki/topics/omni-core-advancement-and-game-templating.md]] and [[wiki/topics/slot-game-design-principles.md]]. [[raw/alignment-planning-catch-up.md]]
+
 ## July 28 2025 — online-games interactive-bonus confirmation
 
 - On the [[wiki/meetings/2025-07-28-media-tax-credit-examiner-coaching.md|Media Tax Credit coaching call]] Irina Shishko ("Irina Shishkova") is named as the authority Lena/JVL **confirmed with** that the special land-based golden-frame interactive bonus was **never implemented in the online games** (designed and math'd, but never deployed). See [[wiki/topics/ontario-media-tax-credit.md]]. [[raw/media_tax_credit_team_coaching-july-28-2025.md]]
@@ -61,6 +65,7 @@ Irina Shishko is JVL's **Vice Director of Engineering and Director of QA** (owne
 ## Sources
 
 - [[raw/media_tax_credit_team_coaching-july-28-2025.md]]
+- [[raw/alignment-planning-catch-up.md]]
 - [[raw/flex_tower_spacial_design_review-may-1-2025.md]]
 - [[raw/test-360_progress_review_meeting.md]]
 - [[raw/integration_and_testing_procedures_january_15_2025.md]]

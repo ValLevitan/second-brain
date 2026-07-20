@@ -3,7 +3,7 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS]
-source-count: 50
+source-count: 51
 open-commitments: 17
 open-questions: 3
 ---
@@ -371,6 +371,15 @@ Two distinct Russian FlexPort embedded-dev status sessions in the same mid-July 
 - **Cash-out is blocked on Juan.** Yavorski spent two weeks on test feedback (sent 2–3 updates, ~5 versions); base e-wallet functionality works **except cash-out**, which waits on **Juan's answer** to a detailed **6-point email** [[wiki/people/irina-shishko.md|Irina]] sent Juan and **which is still unanswered** — Val undertook to chase it. (The board session shows the team still **locating** that email, corroborating it precedes the Jul-11 session.) Yavorski also asked Chudinov for a small **8-kilobyte** test routine to verify a memory-block load over the FlexPay↔FlexPort link (for the "Super Mario" firmware-download update). [[raw/Flex-port_update.md]] [[raw/Flex-Port_Update.md]]
 - **TITO scope — don't build for single-SAS machines.** On whether FlexPort should support the **TITO** configuration on a machine with only **one COM/SAS port** (the legacy Georgia / Mother-Goose case), Val's view: such machines are dying out — "it will die its own death" — so it isn't worth building TITO support just for them (that is what the second SAS port / SMIB is for). The transactional/TITO framing is being worked with **Nathan Carver**. SMIB-board **hardware is ready** ("по железу можно уже" — hardware green-light), ~1–2 days more to fully green-light. [[raw/Flex-Port_Update.md]] [[raw/Flex-port_update.md]]
 
+## ~July 15 2025 — POS "harbor"/hardware-platform cost debate (alignment-planning catch-up)
+
+On the [[wiki/meetings/2025-07-15-alignment-planning-catch-up.md|mid-July alignment-planning catch-up]] (Val / [[wiki/people/irina-shishko.md|Irina Shishko]] / [[wiki/people/pavel.md|Pavel Frolov]]), Val pressed to **pin the "harbor" (hardware platform) for at least the POS** soon — right after the architecture is finalized (~a week out) — treating **cost + reliability, not universality**, as the goal because the POS "станет камнем соприкосновения для всех локейшн" (the entry product at every location). [[raw/alignment-planning-catch-up.md]]
+
+- **Flex-Port processor cost question to [[wiki/people/evgeniy-alekseev.md|Alekseev]].** With new gerber files going out for the Flex-Port boards, Val asked whether the processor + peripherals were **optimally (cheaply) chosen**, since this is the last moment to fold in changes. He felt he **couldn't get the cost concern across** to Alekseev, who seemed not to be thinking in that direction. Pavel's rule of thumb: at **~30¢** difference take the more powerful chip; at **$3–$10** it's worth optimizing. [[raw/alignment-planning-catch-up.md]]
+- **The POS is a "dumb" device.** It makes no decisions itself — it talks to a server that does validation and tells it what to do. Which server depends on the topology: **Mother-Goose** variant → POS can be self-sufficient/"smarter", no local server; **TITO** variant → a **local server is required** (cloud alone won't work). This is the same fork later settled in the July-23→31 sessions. [[raw/alignment-planning-catch-up.md]]
+- **Board-cost ballpark & the "fuss over $20?" question.** Rough figures floated: an **ARM/"Sanpin" board ≈ $50**, another **≈ $60**, the **existing/"Orlov" platform ≈ $80** — Val asked whether it's worth "dуrить себе голову" over a $20 spread. Pavel: for now it's simpler to **keep development in-house** (JVL has the developers); optimize later. A **three-way** hardware fork exists (buy a ready board / solder a module onto JVL's own board / use the current platform), the choice driven by **production volume**, and the hardest thing to estimate is **software dev + ongoing support** effort, not the silicon. [[raw/alignment-planning-catch-up.md]]
+- **Linux vs embedded for internet security.** For an internet-facing device, Linux has ready libraries (standard **SSL** key handling, **NTP** time-sync); an **embedded** build would have to implement secure internet transitions from scratch — Pavel flagged **Alekseev (Evgeny)** would have "gораздо больше поработать" to make the secure-internet transition on embedded than on Linux. (Foreshadows the Jul-31 **Linux / MySQL / Java / React** tech-stack pick below.) [[raw/alignment-planning-catch-up.md]]
+
 ## July 9–Aug 1 2025 — Flex-POS iteration cluster (agile "iteration" cadence)
 
 The Flex-POS build ran on a Mon/Wed/Fri "iteration" cadence through July. Sequence: **Jul 9 sync → Jul 14 planning → Jul 23 sync (architecture push) → Jul 25 review (whiteboard) → Jul 29 e-wallet deep-dive → Jul 31 continuation (message-queue / Tito / tech-stack) → ~Aug 1 weekly review.**
@@ -462,3 +471,4 @@ The Flex-POS build ran on a Mon/Wed/Fri "iteration" cadence through July. Sequen
 - [[raw/Defining Product Capabilities.md]]
 - [[raw/Flex-port_update.md]]
 - [[raw/Flex-Port_Update.md]]
+- [[raw/alignment-planning-catch-up.md]]
