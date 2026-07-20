@@ -2,8 +2,8 @@
 type: person
 title: Alexander Biratka
 date: 2026-07-12
-aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka, Alex Baratka, Alex Beratka, Alexander Berankov]
-source-count: 27
+aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka, Alex Baratka, Alex Beratka, Alexander Berankov, Biratko, Alexander Biratko]
+source-count: 28
 open-commitments: 1
 open-questions: 0
 ---
@@ -99,8 +99,13 @@ On the [[wiki/meetings/2025-07-14-omni-schedule-review.md|OMNI schedule-review]]
 
 On the [[wiki/meetings/2025-07-31-amusement-games-revival-pavel.md|amusement-games revival session]], Pavel said he'd need to involve **"Sasha"** to see what he's missing on opening the game framework as a platform (the "white-label" idea) — the framework/Pixi context that maps to Biratka (by context; he is JVL's Pixi/framework engineer). See [[wiki/topics/amusement-games-revival.md]]. [[raw/amusement_games_development_revivial-july-31-2025-pavel.md]]
 
+## Aug 28 2025 — explains Omni animation architecture (recorded for a spec)
+
+On a call [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] recorded to generate a technical specification ([[wiki/meetings/2025-08-28-omni-animation-architecture-biratka.md]]), Sasha (filename "Biratko") walked through Omni's animation system: the two live types (**Spine** + video) plus a slower Unity-native converter he expects to drop; the **Unity→JSON scene exporter** (a Unity script emits a JVL-format JSON the Pixi engine parses, with custom element types like a `spinner` declared on the Unity side and realised only in the JVL engine); a common start/stop/pause clip interface; and the **animation-controller state machine** (Unity-exported JSON of variables/states/transitions, fired transition events code can subscribe to) — which he judged "workable, not very elegant." Substance on [[wiki/topics/omni-core-advancement-and-game-templating.md]]. [[raw/Anton_Liashkevich_Alexander_Biratko_about_OMNI-august-28-2025.md]]
+
 ## Sources
 
+- [[raw/Anton_Liashkevich_Alexander_Biratko_about_OMNI-august-28-2025.md]]
 - [[raw/amusement_games_development_revivial-july-31-2025-pavel.md]]
 - [[raw/OMNI schedule review.md]]
 - [[raw/OMNI_schedule_grooming-june-26-2025.md]]

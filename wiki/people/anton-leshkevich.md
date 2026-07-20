@@ -2,9 +2,9 @@
 type: person
 title: Anton Leshkevich
 date: 2025-01-21
-aliases: [Anton Leshkevich, Anton, Antoine, Anton Dmishkevich, Дмишкевич, Дмишкевичем]
+aliases: [Anton Leshkevich, Anton, Antoine, Anton Dmishkevich, Дмишкевич, Дмишкевичем, Liashkevich, Anton Liashkevich]
 disambiguation: "Minsk engineer (Omni/RGS), this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 16
+source-count: 18
 open-commitments: 1
 open-questions: 0
 ---
@@ -73,8 +73,15 @@ On a 1:1 with [[wiki/people/val-levitan.md|Val]] ([[wiki/meetings/2025-07-11-ant
 
 On the [[wiki/meetings/2025-08-07-player-behavior-simulator.md|Aug-7 Player Behavior Simulator meeting]], at [[wiki/people/michael-gottlieb.md|Michael]]'s request Anton compared the **Diamond Link Deluxe (DLKD)** vs **Fiery Ice** software to see how progressives fire off. His finding: the only code difference is that the framework later added **partial-win progressives**, which **don't qualify in Fiery Ice**, so there's no material difference; he walked through how a progressive win is reported (math engine reports a **base value**, the software then requests the **increment** from the server and adds base + increment). He flagged one **to-check hypothesis** — that increment values might be added multiple times — as worth debugging. He would build the **GUI** for [[wiki/people/efim-podvoiski.md|Efim]]'s Python simulator only if a graphical interface is wanted. [[raw/Player_behavior_simulator.md]] Anton was also present in the smaller [[wiki/meetings/2025-08-08-player-simulator-engineering-discussion.md|≈Aug-8 Val+Efim+Anton session]]. [[raw/player_emulator.md]]
 
+## Aug 27–28 2025 — the spec / tribal-knowledge thread
+
+- **Aug 27 (written Q&A with [[wiki/people/val-levitan.md|Val]] — [[wiki/meetings/2025-08-27-anton-val-spec-tribal-knowledge.md]]).** Anton corroborated Val's premise that a developer cannot code without a spec (even an unwritten in-mind one), so JVL's undocumented specs are **tribal knowledge**. Concrete cost he gave: on the **NAD** project he unknowingly re-wrote code that already existed because a **math-engine-message** sub-module lacked docs after **Valentin** left, and he chose not to risk extending the critical existing code without documentation. He agreed his "going away to think HOW" is itself an in-mind spec, and that recording him explaining the HOW to **Biratka** and having AI format it would reach a usable first-draft spec over a few iterations. Detail on [[wiki/decisions/2025-04-03-jira-capability-level-and-github-mapping.md]]. [[raw/transcript_anton_val_spec-august-27-2025.md]]
+- **Aug 28 (recording with [[wiki/people/alexander-biratka.md|Biratka]], 1:02 PM — [[wiki/meetings/2025-08-28-omni-animation-architecture-biratka.md]]).** Anton executed the method: he opened the call by saying it was **being recorded to generate a technical specification**, then had Biratka explain Omni's animation architecture (Spine/video/Unity-native animations, the Unity→JSON exporter, spinner elements, the animation-controller state machine and its transition events). Substance on [[wiki/topics/omni-core-advancement-and-game-templating.md]]. (Filename spells him "Liashkevich" — a transcription variant of Leshkevich, added to aliases.) [[raw/Anton_Liashkevich_Alexander_Biratko_about_OMNI-august-28-2025.md]]
+
 ## Sources
 
+- [[raw/transcript_anton_val_spec-august-27-2025.md]]
+- [[raw/Anton_Liashkevich_Alexander_Biratko_about_OMNI-august-28-2025.md]]
 - [[raw/update_anton-july-11-2025.md]]
 - [[raw/OMNI_schedule_grooming-june-26-2025.md]]
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]

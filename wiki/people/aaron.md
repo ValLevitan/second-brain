@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 71
+source-count: 72
 open-commitments: 1
 ---
 
@@ -196,8 +196,13 @@ On a short Val↔Aaron check-in ([[wiki/meetings/2025-08-18-git-meta-analysis-re
 
 On the [[wiki/meetings/2025-08-19-figma-to-development-testing.md|Aug-19 working session]] (the fuller follow-up to his Aug-12 explainer) Aaron pressed the QA/UI team past the "Figma can't do it" standoff: define **what makes generated code acceptable** so a code-generation step (AI or deterministic) can produce the React code **and** the parallel integration tests in one flow — the real problem being QA capacity and the missing mock-up→code→test link. He argued JVL may be "using Figma in a way it wasn't designed to be used." See [[wiki/topics/test-automation-strategy.md]]. [[raw/figma_to_testing_development .md]]
 
+## Aug 26 2025 — the "drop user stories, spec from recorded conversation" session
+
+On a late one-on-one ([[wiki/meetings/2025-08-26-jira-github-spec-drop-user-stories.md]], 7:32 PM) Aaron argued out the requirement-vs-business-case ordering with Val (his position: in scaled-agile the business use case is captured first, and you don't inject other parties' legislative requirements into your own tracking system) and wrote a top-to-bottom **meta-requirements ladder** (business use case → requirements → capabilities/epics → features → user stories → tasks). When Val concluded JVL **cannot produce user stories** and should replace them with **AI-interpreted specifications distilled from recorded developer conversations**, Aaron agreed to "eviscerate" the user-story layer — move items into **GitHub as issues**, stop allowing user stories in Jira — building the "JVL variant" of the Aug-22 Spec-Driven Development Process. Detail on [[wiki/decisions/2025-04-03-jira-capability-level-and-github-mapping.md]]. [[raw/Git_JIRA_spec.md]]
+
 ## Sources
 
+- [[raw/Git_JIRA_spec.md]]
 - [[raw/undertakings_git_intelligence-august-18-2025.md]]
 - [[raw/figma_to_testing_development .md]]
 - [[raw/figma_to_testing_transcript.md]]
