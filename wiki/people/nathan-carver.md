@@ -3,7 +3,7 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 8
+source-count: 11
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
 
@@ -39,8 +39,16 @@ At the end of July Nathan led the two-session **transactional-architecture** arc
 - **Jul 29** ([[wiki/meetings/2025-07-29-transactional-architecture-ewallet-deep-dive.md]]): whiteboarded the **e-wallet architecture** with the **redemption kiosk as location hub** (wallet created only at the kiosk, PIN bound to the printed ticket barcode, kiosk syncs to the JVL cloud), then ran fraud/failure risk scenarios and raised the processing-application + database-cluster **redundancy** requirement. [[raw/Transactional-Architecture-Discussion-2025-07-29.md]]
 - **Jul 31** ([[wiki/meetings/2025-07-31-transactional-architecture-continuation.md]]): had added summary docs to GitHub + a Confluence diagram; reframed data-sync from clustering to **event-driven message-queue replication** (with a Claude-generated trade-off matrix); took the undertaking to add an **operator mobile app to all schematics**. [[raw/transactional_architecture-july-31-2025.md]]
 
+## Aug 2025 — Flex-POS capabilities dashboard + backend-architecture kickoff
+
+- **Aug 6 mid-iteration sync** ([[wiki/meetings/2025-08-06-flex-pos-mid-iteration-sync.md]]): Nathan presented his GitHub **"flex-requirement" (FR) capability dashboard** — 9 capabilities in two maturity states, GitHub as the single source of truth with JIRA links circling back, counts updated manually (with Claude), and the team's Claude instructions/agents committed to source control for consistency. He agreed to split the ticket data structures into separate Mother-Goose/Tito/e-wallet folders and to build requirements by stepping through use cases (next: cashier authentication). See [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/2025-08-06_Flex-POS-Mid-Iteration-Sync.md]]
+- **Aug 14 backend-architecture kickoff** ([[wiki/meetings/2025-08-14-backend-architecture-cms-transactional-hhr.md]]): Nathan probed how (and whether) the CMS must integrate with the transactional system, and — with Aaron's Fujitsu/Verifone POS pattern as a model — endorsed taking the provisioning/encryption ideas and trading them off against JVL's timeline for the single POS + dispenser. In the phased plan he owns the **Phase-1 transactional-products MVP** (with Juan). See [[wiki/decisions/2025-08-14-backend-architecture-block-diagram-first-mvp.md]]. [[raw/backend_architecture-august-14-2025.md]] [[raw/backend_architecture_meeting_undertakings_august_14_2025.md]]
+
 ## Sources
 
+- [[raw/2025-08-06_Flex-POS-Mid-Iteration-Sync.md]]
+- [[raw/backend_architecture-august-14-2025.md]]
+- [[raw/backend_architecture_meeting_undertakings_august_14_2025.md]]
 - [[raw/Defining Product Capabilities.md]]
 - [[raw/Transactional-Architecture-Discussion-2025-07-29.md]]
 - [[raw/transactional_architecture-july-31-2025.md]]

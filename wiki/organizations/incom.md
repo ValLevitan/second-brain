@@ -3,7 +3,7 @@ type: organization
 title: Incom (payment processor)
 date: 2025-02-27
 aliases: [Incom, InComm, Incomm, Income, Incom Payments]
-source-count: 25
+source-count: 26
 open-commitments: 5
 open-questions: 2
 ---
@@ -172,9 +172,17 @@ On JVL's [[wiki/meetings/2025-07-10-defining-product-capabilities.md|July-10 pro
 - **Do the processing in JVL's cloud, not on-site — because Incom disables by account, not by site.** Per the Incom API docs / prior-day call, Incom identifies the JVL **identity** on an incoming gift-card request and the **site ID** identifies the requesting site — but when Incom has to disable, it disables the **entire account**, taking down **every storefront** of that customer, and it **cannot pinpoint-disable a single Flex POS**. So Incom recommended that JVL's **cloud server perform the actual gift-card activation as a pass-through** (device → JVL cloud → Incom): the field device has no direct Incom communication, giving JVL precise control over the pre-authorize → transfer-money → validate → activate sequence and site-level disable, and leaving **no Incom knowledge on the hardware** if a device is compromised/stolen. Nathan and Pavel flagged this as "a **dramatic change** in our current architecture" (all issuance comms must proxy through JVL's server); Val: "it's the right approach… I am not willing to sacrifice security." [[raw/Defining Product Capabilities.md]]
 - **The broker processing-arm referral.** Val recalled that "John from Incom" had pointed JVL to companies that specialise in **processing transactions** and offer that processing to third parties — he named **RWJ, "Lunix Telecom," and "Inlaw" (spelled with a Y)** as candidates for JVL to subcontract its transaction-processing module to (rather than approaching the aggressive mainstream casino processors and risking creating a competitor). These map to the **RWJ / LUNIX / Yinlo** Georgia broker ecosystem documented in the [[#the-broker--merchant--terminal-model-who-jvls-customer-is|Jul-1/2 broker/terminal model]] above ("in law with a Y" = **Yinlo**); Juan noted Lunix's reputation for bad customer service. [[raw/Defining Product Capabilities.md]]
 
+## Aug 6 2025 — John confirms the Prize Card (barcoded, not rechargeable)
+
+After a call [[wiki/people/val-levitan.md|Val]] placed to [[wiki/people/john-houseal.md|John]] to resolve a missed use case, an async JVL chat thread captured two InComm confirmations about the Georgia **Prize Card** (the Georgia-Lottery prize instrument the cashier issues at cash-out, distinct from the MasterCard prepaid card). Full device/use-case context on [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/Flex-Port-use_case-August-6-2025.md]]
+
+- **All Prize Cards will be barcoded by year-end** (it is a bar-coded card) — so JVL drops the idea of adding a magnetic swipe-card reader to Flex-Port; the player instead scans the barcoded Prize Card with the Flex-Port's optical scanner to play more, which (Val's read) "renders TiTo obsolete." [[raw/Flex-Port-use_case-August-6-2025.md]]
+- **"All Prize Cards are not rechargeable for now."** John's reply to Val's reloadability question — treated as non-rechargeable, which **preserves e-Wallet as JVL's official cash-out route** when a player moves machine to machine (though it "implies that one day it could be rechargeable"). [[raw/Flex-Port-use_case-August-6-2025.md]]
+
 ## Sources
 
 - [[raw/Defining Product Capabilities.md]]
+- [[raw/Flex-Port-use_case-August-6-2025.md]]
 - [[raw/incomm_jvl_alignment-june-23-2025.md]]
 - [[raw/qa_flex-port_flex-pay_plan-may-30-2025.md]]
 - [[raw/incomm_testing_progress_report-june-2-2025.md]]

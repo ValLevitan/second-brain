@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 66
+source-count: 68
 open-commitments: 1
 ---
 
@@ -176,8 +176,18 @@ On the maturity review ([[wiki/meetings/2025-05-28-it-maturity-delinea-secrets.m
 
 On the [[wiki/meetings/2025-06-12-qa-engineering-direction-aaron.md|QA-engineering show-and-tell]] Aaron course-checked JVL's in-house TypeScript test framework ([[wiki/people/anton-leshkevich.md|Anton]]'s Page-Object-Model + LGS-XML-abstraction framework; Irina's Jira↔X-Ray test linkage). His guidance: adding the abstraction layer is right but is "the beginning of retiring XML"; **when test-language ≠ component-language you're limited to integration tests** (decide by which language holds the majority of the app); and his headline doctrine — **chase "capability coverage," not code coverage** (measure mean-time-to-resolution and documented-capability coverage). He suggested GitHub PR templates/checklists as soft reminders and shared a 5W1H memo. See [[wiki/topics/test-automation-strategy.md]]. [[raw/qa_engineering_direction_review_aaron-june-12-2025.md]]
 
+## Aug 12 2025 — Figma-to-testing workflow explainer
+
+- On a short explainer ([[wiki/meetings/2025-08-12-figma-to-testing-workflow.md]]) Aaron laid out the **Figma → React → automated visual-regression testing** workflow: a Figma prototype is the design reference ("like CAD"), exported into React pages checked into source control as the real UI, then **TypeScript tests via a testing framework** acquire the running app's visual presentation and compare it to the Figma reference (mismatch = failing test), plus invoking each UI element to confirm it reacts correctly in React (Netflix as the worked example). See [[wiki/topics/test-automation-strategy.md]]. [[raw/figma_to_testing_transcript.md]]
+
+## Aug 14 2025 — backend-architecture kickoff (advisory)
+
+- On the [[wiki/meetings/2025-08-14-backend-architecture-cms-transactional-hhr.md|backend-architecture kickoff]] Aaron acted as the process advisor: he had **synthesized ~2 years of Val's recordings into a CMS knowledge-base repo** (the "CMSNG/NgCMS" architectural design doc + speculative GitHub issues); reframed the monolithic legacy CMS problem (MS SQL, single-thread locking, tribal knowledge); and pushed the group's method — **capabilities-driven, "don't create the solution while writing the spec," terminology discipline ("database vs data lake"), ETL-for-the-software-stack migration thinking, docs-in-repo (Mermaid), and IEEE-style architecture documentation "as a framework, not a mandate."** He warned "speculative feature development is very expensive," and recounted his Fujitsu/Verifone POS provisioning/encryption model as the hot-swap pattern. See [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] and [[wiki/decisions/2025-08-14-backend-architecture-block-diagram-first-mvp.md]]. [[raw/backend_architecture-august-14-2025.md]]
+
 ## Sources
 
+- [[raw/figma_to_testing_transcript.md]]
+- [[raw/backend_architecture-august-14-2025.md]]
 - [[raw/qa_engineering_direction_review_aaron-june-12-2025.md]]
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
 - [[raw/it_maturity_update-may-28-2025.md]]

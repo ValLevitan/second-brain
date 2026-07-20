@@ -2,9 +2,9 @@
 type: person
 title: Dmitri Chudinov
 date: 2026-07-13
-aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dima]
+aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 23
+source-count: 24
 open-commitments: 3
 open-questions: 0
 ---
@@ -102,8 +102,13 @@ On the [[wiki/meetings/2025-05-20-flexport-flexpay-smib-action-review.md|May-20 
 
 On the implementation review ([[wiki/meetings/2025-05-29-ewallet-tito-flexpay-implementation.md]]) Chudinov confirmed **partial redemption is done** (in beta, with the API for [[wiki/people/ihar-hrybko.md|Ihar Hrybko]]'s FlexPay UI). His action item: change the E-Wallet software-update transfer from **64KB → 8KB packets** (Yavorski found 64KB "hangs stably"; 8KB works), then sequence the ~8000 fragments with acknowledgements. He confirmed the packet-size change is no problem; Val/Pavel pushed him to deliver a test build (a couple of known-structure 8KB packets) by the weekend so Yavorski can test Monday — but Yavorski still needs help loading firmware onto a kiosk. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/e-wallet_tito_flex-pay_flex-port_implementation_update-may-29-2025.md]]
 
+## Aug 14 2025 — backend-architecture kickoff (present; CMS knowledge-holder)
+
+Chudinov attended the [[wiki/meetings/2025-08-14-backend-architecture-cms-transactional-hhr.md|backend-architecture kickoff]] (transcribed as the transcription owner "**Dzmitry Chudzinau**") as the team's back-end/CMS tribal-knowledge holder. He was largely a listener, but Val repeatedly named him as the person who can produce the CMS block diagrams/schematics on request ("if I ask Dima where is the block diagram… it most likely exists"); Aaron and Pavel framed the whole exercise as extracting the CMS's purpose/architecture from Dima's head into documented repositories so others can extend it. See [[wiki/topics/persona-driven-design-and-orchestration-platform.md]]. [[raw/backend_architecture-august-14-2025.md]]
+
 ## Sources
 
+- [[raw/backend_architecture-august-14-2025.md]]
 - [[raw/architecture_sql_olap_visualization_1_2025-03-29.md]]
 - [[raw/e-wallet_tito_flex-pay_flex-port_implementation_update-may-29-2025.md]]
 - [[raw/architecture_sql_olap_visualization_2_2025-03-29.md]]

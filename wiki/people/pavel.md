@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 65
+source-count: 68
 open-commitments: 4
 open-questions: 0
 ---
@@ -186,8 +186,16 @@ Pavel ("Pasha") worked the Jira/GitHub maturity session with Val and Irina: he s
 - **Jul 29 / Jul 31 transactional-architecture deep-dive** (with Val, Nathan, Juan, Genadi): Pavel argued the processing/server application should run as **software on any device** (kiosk/POS) with **Flexports as slave devices**; backed the move from clustering to **event-driven message-queue replication**; and named the on-device **tech stack — Linux / MySQL / Java / React**. He preferred cloud snapshots + never-delete over Val's weekly-overwrite retention rule. Full substance: [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/Transactional-Architecture-Discussion-2025-07-29.md]] [[raw/transactional_architecture-july-31-2025.md]]
 - **Jul 31 amusement-games revival** (with Val): Pavel worked the engineering side of reviving the legacy C++ amusement games — old Rage-Studio format unrecoverable; rebuild on **Pixi** (works with JVL designers' scenes) + Miranda scenes; a **TypeScript** programmer per game; an "open-as-a-platform" API kit (would pull in [[wiki/people/alexander-biratka.md|Sasha]]); x86-vs-ARM platform; the platform **can't be made cheaper** (tied to the motherboard). See [[wiki/topics/amusement-games-revival.md]]. [[raw/amusement_games_development_revivial-july-31-2025-pavel.md]]
 
+## Aug 2025 — Flex-POS iteration + backend-architecture kickoff
+
+- **Aug 6 Flex-POS sync + Prize-Card chat:** on the [[wiki/meetings/2025-08-06-flex-pos-mid-iteration-sync.md|mid-iteration sync]] Pavel drove the point that the capability set is Mother-Goose-schema-specific and a Tito/e-wallet POS will differ, and that Tito vs e-wallet tickets differ (one carries a value, one doesn't) — motivating the split of ticket data schemas into separate folders. In the same-day Prize-Card thread he raised the barcode-vs-magnetic-stripe card-format question (leaning to a swipe reader on Flex-Port, later dropped once John confirmed barcodes). See [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/2025-08-06_Flex-POS-Mid-Iteration-Sync.md]] [[raw/Flex-Port-use_case-August-6-2025.md]]
+- **Aug 14 backend-architecture kickoff** ([[wiki/meetings/2025-08-14-backend-architecture-cms-transactional-hhr.md]]): Pavel argued it is **easier to start new development for the transactional product** on a new server (independent of existing machines); identified the **common reusable modules** (passport, RIS, lease, user/operator/location management, analytics/reporting); called for a **separate cloud payment-processing server** living independently of the orchestration platform; described the on-location **master/slave** device model; and flagged that **automatic device-to-location assignment isn't reliable without a confirmation step**. He reframed the effort as **capabilities-driven** and noted much CMS documentation sits on obsolete Confluence pages. See [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] and [[wiki/decisions/2025-08-14-backend-architecture-block-diagram-first-mvp.md]]. [[raw/backend_architecture-august-14-2025.md]]
+
 ## Sources
 
+- [[raw/2025-08-06_Flex-POS-Mid-Iteration-Sync.md]]
+- [[raw/Flex-Port-use_case-August-6-2025.md]]
+- [[raw/backend_architecture-august-14-2025.md]]
 - [[raw/Transactional-Architecture-Discussion-2025-07-29.md]]
 - [[raw/transactional_architecture-july-31-2025.md]]
 - [[raw/amusement_games_development_revivial-july-31-2025-pavel.md]]

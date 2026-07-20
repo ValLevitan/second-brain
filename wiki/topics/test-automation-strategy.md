@@ -3,7 +3,7 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction]
-source-count: 18
+source-count: 19
 open-commitments: 2
 open-questions: 1
 ---
@@ -206,6 +206,14 @@ On a Val↔Anton 1:1 ([[wiki/meetings/2025-07-11-anton-testing-1on1.md]]; Russia
 
 - Whether JVL's game framework and engine actually expose internal APIs that warrant contract/API testing — the consultant says they do; Val says he is unaware of any. [[raw/integration_and_testing_procedures_january_15_2025.md]]
 
+## Aug 12 2025 — Figma-driven visual-regression testing (Aaron explainer)
+
+[[wiki/people/aaron.md|Aaron Bockelie]] gave a short explainer of the modern **Figma → React → automated-testing** workflow ([[wiki/meetings/2025-08-12-figma-to-testing-workflow.md]]; distinct from the larger figma-to-development session). [[raw/figma_to_testing_transcript.md]]
+
+- **Figma as the design reference ("like CAD").** A Figma prototype details the full UI (fonts, colours, layout, elements) but is not runnable software; its value is **exporting** the mock-ups into **React pages/frameworks**, which are then checked into source control as the product's actual UI. Figma retains the design as the reference. [[raw/figma_to_testing_transcript.md]]
+- **Visual-comparison (regression) testing.** With the app compiled and running in React and a **test harness** built in, tests can **programmatically invoke the UI elements** (click/shuffle pages) and, via testing frameworks, **acquire the running app's visual presentation and compare it to the Figma reference** — a mismatch is flagged as a potentially failing test to investigate (either the code implemented it wrong, or the Figma design changed). He specified **TypeScript-style tests** that invoke the UI and use framework testing resources for the visual comparison, plus checking each element reacts correctly in React. [[raw/figma_to_testing_transcript.md]]
+- **Worked example — Netflix.** A Netflix mobile app has many UI areas (playing movies, account config) each designed in Figma; a unit test steps through every UI experience and compares it against the Figma reference, flagging any that don't match. "A modern way of testing your application… but I know there's others." [[raw/figma_to_testing_transcript.md]]
+
 ## History
 
 ### The "Test 360" origin review (Fri Jul 5 2024 — date inferred; pre-dates the v1 window, Tier A-queued)
@@ -241,3 +249,4 @@ The earliest captured root of this effort — a Bitbucket-era progress review be
 - [[raw/games_design-june-12-2025.md]]
 - [[raw/autotests_sync_meeting.md]]
 - [[raw/update_anton-july-11-2025.md]]
+- [[raw/figma_to_testing_transcript.md]]

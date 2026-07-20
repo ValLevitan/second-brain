@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena]
-source-count: 40
+source-count: 42
 ---
 
 # Genadi Peari
@@ -124,8 +124,14 @@ On the July-3 relocation alignment ([[wiki/meetings/2025-07-03-procurement-reloc
 
 In the two-session architecture deep-dive (with Val, Nathan, Juan, Pavel), Genadi worked the **redemption-center hardware** — the simplified-vs-robust Flexport debate (settled toward one Flexport because PIN entry needs a GUI/touchscreen) and the **~8-inch, front-serviced, floor-bolted / weighted-pedestal** redemption device (between-machines vs standalone; a recycler-inside-Flexpay standalone variant). Full substance: [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/Transactional-Architecture-Discussion-2025-07-29.md]] [[raw/transactional_architecture-july-31-2025.md]]
 
+## Aug 6 2025 — Flex-POS sync + Prize-Card thread
+
+On the [[wiki/meetings/2025-08-06-flex-pos-mid-iteration-sync.md|mid-iteration sync]] Genadi backed keeping hardware requirements in GitHub (Val's preference) and moved from the review-meeting cadence into the weekly **Wednesday** review only (out of the daily working meetings). He was a participant in the same-day Prize-Card thread, confirming John's barcode point ("correct!"). See [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/2025-08-06_Flex-POS-Mid-Iteration-Sync.md]] [[raw/Flex-Port-use_case-August-6-2025.md]]
+
 ## Sources
 
+- [[raw/2025-08-06_Flex-POS-Mid-Iteration-Sync.md]]
+- [[raw/Flex-Port-use_case-August-6-2025.md]]
 - [[raw/Transactional-Architecture-Discussion-2025-07-29.md]]
 - [[raw/transactional_architecture-july-31-2025.md]]
 - [[raw/fp-7_performance_analysis_january_13_2025.md]]

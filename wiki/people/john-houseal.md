@@ -3,7 +3,7 @@ type: person
 title: John Houseal
 date: 2025-07-01
 aliases: [John Houseal, John, "John from Income", "John from InComm"]
-source-count: 4
+source-count: 5
 disambiguation: "InComm's product-development / route-gaming lead — the 'John' who leads the InComm↔JVL relationship (gift-card / COAM payment products). Distinct from Allen Lee (the InComm 'Alan', technical/API contact) and other InComm reps (Adam, Jared, Billy, Susanne). Resolve by context: InComm product strategy / market / roadmap → Houseal."
 ---
 
@@ -22,9 +22,11 @@ John Houseal is **InComm's product-development lead for route gaming** and the I
 
 - Leads the InComm product/market side across the Feb–Jun 2025 calls and the July in-person session; on Jun-20 Val flagged him as the person to ask on failure-mode design "since InComm has seen many markets and isn't a competitor." See [[wiki/organizations/incom.md]] and [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/review_flex-POS_use_cases.md]] [[raw/incomm_jvl_alignment-june-23-2025.md]]
 - Confirmed InComm is JVL's **partner, not competitor**, but that the products JVL needs (SkillPay / card-back-into-play) genuinely aren't finalised yet. [[raw/incomm_jvl_alignment-june-23-2025.md]]
+- **Aug 6 2025 Prize-Card confirmations:** in reply to a call from Val, John confirmed **all Prize Cards will be barcoded by year-end** and are **"not rechargeable for now"** — the two answers that let JVL drop the Flex-Port swipe reader and keep e-Wallet as the cash-out route. See [[wiki/organizations/incom.md]] and [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/Flex-Port-use_case-August-6-2025.md]]
 
 ## Sources
 
+- [[raw/Flex-Port-use_case-August-6-2025.md]]
 - [[raw/incomm_transcript_gacoam_payment_options-april-4-2025.md]]
 - [[raw/incomm_jvl_alignment-june-23-2025.md]]
 - [[raw/review_flex-POS_use_cases.md]]
