@@ -3,7 +3,7 @@ type: person
 title: Will Jones
 date: 2025-03-20
 aliases: [Will Jones, Will]
-source-count: 3
+source-count: 4
 open-commitments: 1
 open-questions: 1
 ---
@@ -30,6 +30,10 @@ By August Will is JVL's **HHR (Historical Horse Racing) lead** and a core member
 - Worked the CMS/back-end **requirement space** hard — pushing to identify integral functions vs optional features, flagging which components carry regulatory approval (the "red zone" on the device), and cataloguing the feature sets (terminal enablement/setup, operational management, accounting/3rd-party integration; no player tracking). He came at it "a little bit removed and now coming back in." [[raw/backend_architecture-august-14-2025.md]]
 - In the phased plan (derived undertakings doc) Will **owns HHR**, which is **deferred to Phase 2** (requirements-gathering only for the Jan-2026 MVP), with an advanced HHR-server session set for Nov 15. He sets the Mon/Wed/Fri (6 AM) meeting rhythm, landing on **Wednesday + Friday**. See [[wiki/decisions/2025-08-14-backend-architecture-block-diagram-first-mvp.md]]. [[raw/backend_architecture_meeting_undertakings_august_14_2025.md]]
 
+## Aug 20 2025 — CMS/PayFlex block-diagram review
+
+On the [[wiki/meetings/2025-08-20-cms-payflex-block-diagram.md|Aug-20 block-diagram review]] (session 1 of 3) Will — introduced to Nathan and being brought up to speed on PayFlex — worked the requirement/architecture questions from his regulated-gaming background: he probed the SAS host modes (controlling vs listening-only) and confirmed JVL sits on the **secondary SAS** (Intralot holds primary), pressed on player-anonymity/federal money-laundering concerns (none apply — these are anonymous prepaid cards), and pushed the transition strategy — "you can't wipe out an ecosystem and rewrite" it; keep the legacy as "baggage," start with what's new, choose the right data store per service, and probe the cloud/B2B-with-InComm design. [[raw/CMS- Block Diagram_Arch.md]]
+
 ## Open commitments
 
 - [ ] Will — capture the session's extra ideas (golden-ball / must-hit-by, progressive segmentation) with his notes ("I wrote down what we were talking about there too, so I'll make sure they get captured") — due unspecified — [[raw/class_2_bingo_engine.md]]
@@ -43,3 +47,4 @@ By August Will is JVL's **HHR (Historical Horse Racing) lead** and a core member
 - [[raw/class_2_bingo_engine.md]]
 - [[raw/backend_architecture-august-14-2025.md]]
 - [[raw/backend_architecture_meeting_undertakings_august_14_2025.md]]
+- [[raw/CMS- Block Diagram_Arch.md]]

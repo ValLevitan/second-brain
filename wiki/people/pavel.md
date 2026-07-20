@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 68
+source-count: 69
 open-commitments: 4
 open-questions: 0
 ---
@@ -190,8 +190,10 @@ Pavel ("Pasha") worked the Jira/GitHub maturity session with Val and Irina: he s
 
 - **Aug 6 Flex-POS sync + Prize-Card chat:** on the [[wiki/meetings/2025-08-06-flex-pos-mid-iteration-sync.md|mid-iteration sync]] Pavel drove the point that the capability set is Mother-Goose-schema-specific and a Tito/e-wallet POS will differ, and that Tito vs e-wallet tickets differ (one carries a value, one doesn't) — motivating the split of ticket data schemas into separate folders. In the same-day Prize-Card thread he raised the barcode-vs-magnetic-stripe card-format question (leaning to a swipe reader on Flex-Port, later dropped once John confirmed barcodes). See [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/2025-08-06_Flex-POS-Mid-Iteration-Sync.md]] [[raw/Flex-Port-use_case-August-6-2025.md]]
 - **Aug 14 backend-architecture kickoff** ([[wiki/meetings/2025-08-14-backend-architecture-cms-transactional-hhr.md]]): Pavel argued it is **easier to start new development for the transactional product** on a new server (independent of existing machines); identified the **common reusable modules** (passport, RIS, lease, user/operator/location management, analytics/reporting); called for a **separate cloud payment-processing server** living independently of the orchestration platform; described the on-location **master/slave** device model; and flagged that **automatic device-to-location assignment isn't reliable without a confirmation step**. He reframed the effort as **capabilities-driven** and noted much CMS documentation sits on obsolete Confluence pages. See [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] and [[wiki/decisions/2025-08-14-backend-architecture-block-diagram-first-mvp.md]]. [[raw/backend_architecture-august-14-2025.md]]
+- **Aug 20 CMS/PayFlex block-diagram review** ([[wiki/meetings/2025-08-20-cms-payflex-block-diagram.md]], session 1 of 3): Pavel gave the engineering picture — the legacy CMS **Flexpay Manager** tab (kiosk key/lease-date/software-version/MAC/status; the internal JVL admin screen he built), remote access limited to a **WSS API + log retrieval** to the on-location master device, and future **firmware-update push** (FlexPort/FlexMIB). He proposed the **new CMS as a separate cloud server** starting from payment-terminal management (device dashboard + per-operator client portal), the legacy SQL CMS kept in parallel with selective export/import, and a protocol-stability approach (never-change or add-only endpoints). He explained **Passport** (hardware+firmware fingerprint validation) and confirmed the Flex-POS moves to an **ARM CPU**. He undertook to prepare current-implementation schematics (Miro-board exports) for the next session. See [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] and [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/CMS- Block Diagram_Arch.md]]
 
 ## Sources
+- [[raw/CMS- Block Diagram_Arch.md]]
 
 - [[raw/2025-08-06_Flex-POS-Mid-Iteration-Sync.md]]
 - [[raw/Flex-Port-use_case-August-6-2025.md]]

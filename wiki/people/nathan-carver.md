@@ -3,7 +3,7 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 11
+source-count: 12
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
 
@@ -43,8 +43,10 @@ At the end of July Nathan led the two-session **transactional-architecture** arc
 
 - **Aug 6 mid-iteration sync** ([[wiki/meetings/2025-08-06-flex-pos-mid-iteration-sync.md]]): Nathan presented his GitHub **"flex-requirement" (FR) capability dashboard** — 9 capabilities in two maturity states, GitHub as the single source of truth with JIRA links circling back, counts updated manually (with Claude), and the team's Claude instructions/agents committed to source control for consistency. He agreed to split the ticket data structures into separate Mother-Goose/Tito/e-wallet folders and to build requirements by stepping through use cases (next: cashier authentication). See [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/2025-08-06_Flex-POS-Mid-Iteration-Sync.md]]
 - **Aug 14 backend-architecture kickoff** ([[wiki/meetings/2025-08-14-backend-architecture-cms-transactional-hhr.md]]): Nathan probed how (and whether) the CMS must integrate with the transactional system, and — with Aaron's Fujitsu/Verifone POS pattern as a model — endorsed taking the provisioning/encryption ideas and trading them off against JVL's timeline for the single POS + dispenser. In the phased plan he owns the **Phase-1 transactional-products MVP** (with Juan). See [[wiki/decisions/2025-08-14-backend-architecture-block-diagram-first-mvp.md]]. [[raw/backend_architecture-august-14-2025.md]] [[raw/backend_architecture_meeting_undertakings_august_14_2025.md]]
+- **Aug 20 CMS/PayFlex block-diagram review** ([[wiki/meetings/2025-08-20-cms-payflex-block-diagram.md]], session 1 of 3): Nathan attended as JVL's technical product manager, being brought current on the PayFlex ecosystem and CMS; he proposed building an **adapter between the legacy and new CMS** and "slowly moving the source of truth to the cloud" (new data-persistence in the cloud). See [[wiki/topics/persona-driven-design-and-orchestration-platform.md]]. [[raw/CMS- Block Diagram_Arch.md]]
 
 ## Sources
+- [[raw/CMS- Block Diagram_Arch.md]]
 
 - [[raw/2025-08-06_Flex-POS-Mid-Iteration-Sync.md]]
 - [[raw/backend_architecture-august-14-2025.md]]

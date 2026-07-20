@@ -3,8 +3,8 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS]
-source-count: 55
-open-commitments: 17
+source-count: 58
+open-commitments: 18
 open-questions: 4
 ---
 
@@ -430,8 +430,30 @@ A Val↔[[wiki/people/genadi-peari.md|Genadi Peari]] hardware design one-on-one 
 - **Flex-Port economics (company/vendor figures).** Genadi cited **~30% (minimum) cost saving** from the single board (Val recalled "about $20"): the electronics board ~**$35–38**, plus a **touchscreen ~$18–20**, plus a **scanner-with-board ~$15**, plus an expensive **bill-acceptor interop cable ~$10–12** — one board avoids assembling/testing three boards. [[raw/flex_dispenser-review.md]]
 - **Next steps.** Genadi to take exact monitor dimensions from the China supplier, redo the Flex-POS mock-up per Val's notes, then hand it to industrial designer [[wiki/people/igor-starovoytov.md|Igor Starovoytov]]; a follow-up review booked for **Thursday**. [[raw/flex_dispenser-review.md]]
 
+## Aug 20 2025 — CMS/PayFlex block-diagram review + Val's canonical device definitions
+
+The [[wiki/meetings/2025-08-20-cms-payflex-block-diagram.md|Aug-20 block-diagram review]] ([[wiki/people/juan-martinez.md|Juan]], [[wiki/people/will-jones.md|Will Jones]], [[wiki/people/nathan-carver.md|Nathan]], [[wiki/people/pavel.md|Pavel]], 12:04 PM — session 1 of a three-part CMS block-diagram arc, tracked on [[wiki/topics/persona-driven-design-and-orchestration-platform.md]]) walked Will through the whole PayFlex ecosystem, then Val followed up with **written definitional corrections**. The CMS/cloud direction is on the orchestration-platform page; the device/protocol substance and Val's naming ruling are here. [[raw/CMS- Block Diagram_Arch.md]]
+
+- **In the meeting, the device names were used loosely** (and an AI summary reversed two of them). Juan described FlexPay as "a kiosk which can accept cash, scan a ticket and also dispense a gift card," Flex POS as the small tabletop redemption device, and FlexPort as the player-facing scanner+display "like an iView"; Pavel listed **Flex POS (tabletop small device), Flex Tower (self-dispensing cards unit), Flex Pay (currently implemented device)**, noting each carries smart hardware and can act as a **master device** (processes all ticket types — regular TITO or temporary-wallet — and can combine in any order, e.g. POS+tower, POS+FlexPay). [[raw/CMS- Block Diagram_Arch.md]]
+
+- **Val's canonical definitions (owner correction, folded from his written follow-up).** Val noted the meeting notes/AI summary defined the products incorrectly — **"Flex-Pay and Flex-Tower definitions should be reversed"** — and gave the correct naming convention, now the authoritative version for the wiki: [[raw/val_comments_to_CMS_Block_Diagram_Arc.md]]
+  - **Flex-Tower** — small-footprint device for **card dispensing and ticket scanning**.
+  - **Flex-POS** — **tabletop** point-of-sale device for **converting tickets to gift cards**.
+  - **Flex-Port** — **player-facing** device with scanner and display (like a casino iView).
+  - **Flex-Pay** (also *incorrectly* referred to as "**Kiosk**") — **self-dispensing card unit**; functional units were being demoed at the Georgia show that week.
+  - **SMIB** — a separate product: an **inexpensive bi-directional converter from SAS to WSS**. [[raw/val_comments_to_CMS_Block_Diagram_Arc.md]] (Reconciles with the earlier "SMIB has no display, hidden inside the machine, SAS-connected" framing on the [[#july-10-2025--defining-product-capabilities-tower-vs-redemption-center-outsource-the-processing-module-cloud-processing|Jul-10 section]].)
+
+- **Mother Goose scheme — Val's corrected definition + where it's heading.** The AI summary had said Mother Goose "prints receipts for manual card creation"; Val's correction: Mother Goose Integration **intercepts legacy pulse-based systems, interprets the value of a win, validates the transaction through InComm, and credits the win onto a prepaid MasterCard** — and JVL is **evolving this scheme to further the transaction to autonomously dispensing an actual MC card**. [[raw/val_comments_to_CMS_Block_Diagram_Arc.md]]
+
+- **Go-to-market priority = Flex-POS + dispenser, with ACH at its core (Val).** Val's stated "first course of business is to release the Flex-POS + dispenser into the market." The most pressing capabilities for that release: (1) **install and automatically configure Flex-POS + dispenser out of the box**; (2) **establish an ACH (automated clearing house) agreement with a location**; (3) **debit the location's account through ACH within 24 hours** per the agreement; (4) **present reconcilable accounting details to locations and master operators**. [[raw/val_comments_to_CMS_Block_Diagram_Arc.md]] (Consistent with the Aug-14 "one-day ACH swipe + immediate reconciliation" business requirement above.)
+
+- **Master-operator legislation applies to slot machines only (Val's correction).** In the meeting Juan explained Georgia's structure — JVL cannot sell directly to a location (e.g. a 711); it sells to a **master operator / master location** who deploys and services the machines, and JVL is deliberately kept blind to installation sites (Intralot reports mask the machine serial with a state-generated ID; only flat-fee sales/lease/long-term, **no revenue sharing** allowed). [[raw/CMS- Block Diagram_Arch.md]] **Val's correction:** the requirement to sell **through master operators is only true for slot machines** — "the transactional equipment is not bound by the same legislation." He also queried the meeting's claim that the "CMS portal needs multi-tenant capabilities for operator self-administration" and asked for elaboration. [[raw/val_comments_to_CMS_Block_Diagram_Arc.md]]
+
+- **Protocols and engineering facts.** Three device-communication models were named (all already documented above): (1) **Mother Goose** pulse interception (pre-SAS machines — intercept bill-acceptor input + hard-meter output pulses; the machine-side serial converter is the "**fledgling**" board); (2) the proprietary **e-wallet** — a temporary, PIN-protected barcode wallet over **secure web socket**, redeemable back to a card; (3) **TITO/SAS** — a Flex SMIB board converts SAS↔Ethernet to the master. **New this session:** Georgia mandated **dual SAS** a couple of years back (newer machines only) — **primary SAS is reserved to Intralot** (the state monitoring system, the only party that can disable a game); JVL uses the **secondary SAS port with slightly limited functionality** (transactions only; **no lock/unlock, no progressives** on third-party games — JVL has its own progressive controller for its own games). The forthcoming **Flex POS will use a different, ARM-based CPU architecture**, likely the same platform for the dispenser/Flex-Tower. Communication to InComm is moving to a **cloud server** by January for security (InComm advised this). [[raw/CMS- Block Diagram_Arch.md]] [[raw/back-office_architecture-august-20-2025.md]]
+
 ## Open commitments
 
+- [ ] Pavel Frolov — prepare updated schematics/diagrams of the current CMS implementation (locate/export the prior Miro-board artifacts) for the next block-diagram session; assess creating a new design from scratch aligned to the new architecture — due by the next arc session (~Aug 22) — [[raw/CMS- Block Diagram_Arch.md]]
 - [ ] Pavel Frolov — run the printer-dump **spike**: connect a real Mother Goose printer, dump all ticket data (power-up, ticket-printed, last-25-vouchers, daily/bookkeeping events) into the POS device for developers — due ~mid-Jul 2025 ("half a day") — [[raw/Flex-POS Iteration Planning 2025-07-14.md]] [[raw/Flex-POS_Mid-Iteration_Sync-2025-07-23.md]]
 - [ ] Nathan Carver — build the Flex-POS requirement/architecture docs in GitHub (source of truth) incl. C4 context/sequence diagrams in Mermaid; add the POS online-monitoring / connection-loss-escalation requirement — due ongoing through Jul 2025 — [[raw/Flex-POS Iteration Planning 2025-07-14.md]] [[raw/Flex-POS_Mid-Iteration_Sync-2025-07-23.md]] [[raw/Flex-POS Iteration Review.md]]
 - [ ] Juan Martinez — brainstorm/fine-tune the mini-ATM (Redemption Center) use case (avoid bill-acceptor-vs-mini-ATM player confusion) and secure the Georgia ATM contract via Felipe — due early Aug 2025 — [[raw/Flex-POS_Iteration_Review-2025-07-25.md]] [[raw/Flex-POS Iteration Review.md]]
@@ -515,3 +537,6 @@ A Val↔[[wiki/people/genadi-peari.md|Genadi Peari]] hardware design one-on-one 
 - [[raw/Flex-Port-use_case-August-6-2025.md]]
 - [[raw/backend_architecture-august-14-2025.md]]
 - [[raw/flex_dispenser-review.md]]
+- [[raw/CMS- Block Diagram_Arch.md]]
+- [[raw/val_comments_to_CMS_Block_Diagram_Arc.md]]
+- [[raw/back-office_architecture-august-20-2025.md]]
