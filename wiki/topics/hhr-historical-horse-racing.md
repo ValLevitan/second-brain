@@ -3,7 +3,7 @@ type: topic
 title: HHR (Historical Horse Racing) product
 date: 2025-08-14
 aliases: [HHR, Historical Horse Racing, Ainsworth HHR, Omni HHR Land Based Overlay]
-source-count: 1
+source-count: 2
 open-questions: 1
 ---
 
@@ -22,6 +22,17 @@ Will Jones summarised where the HHR effort stands on the [[wiki/meetings/2025-08
 - **On-prem server, offline-tolerant.** Prior architectural discussions concluded the HHR server is **most likely on-premise**, with the system able to keep functioning for some period when **disconnected** from the HHR server (the source of race-ticket sets) — judged more complicated but more resilient. [[raw/backend_architecture-august-14-2025.md]]
 - **Next step:** turn the use-case/requirements work into a concrete plan (who/when/what), close the remaining ~10–15% of detail with Ainsworth, and confirm they understand the functions JVL needs. In the Aug-14 phased plan, HHR was **deferred to Phase 2** (Will owns requirements-gathering only for now) with an advanced HHR-server session set for **Nov 15 2025**. See [[wiki/decisions/2025-08-14-backend-architecture-block-diagram-first-mvp.md]]. [[raw/backend_architecture-august-14-2025.md]]
 
+## Project digest (written artifact — architecture/requirements phase)
+
+A written **"JVL HHR Project — Executive Digest"** (§3 non-transcript artifact; undated, but its content self-describes the **architecture/requirements phase (Q1 2025)** with **implementation slated June/July 2025**, "delayed due to Omni platform priorities" — so it captures the phase *before* the Aug-14 kickoff above; recorded here as project color, not current state). It synthesizes the team's HHR design debate — the [[wiki/people/efim-podvoiski.md|Efim]] / [[wiki/people/will-jones.md|Will]] / [[wiki/people/juan-martinez.md|Juan]] quotes indicate it was distilled from an HHR working session. [[raw/jvl-hhr-executive-digest.md]]
+
+- **Partner + platform.** JVL is developing HHR terminals via a partnership with **Ainsworth**, adapting JVL's gaming framework to Ainsworth's HHR **server infrastructure (operational since 2018)**. The central engineering challenge: **reconciling three parallel state machines** while preserving the player experience during system failures. [[raw/jvl-hhr-executive-digest.md]]
+- **Strategy = fault-tolerance / player-experience-first.** Unlike competitors who lock machines during connection issues, JVL aims to **keep gameplay running on cached race tickets** (soft tilts, not hard locks). Architecture is **dual-layer**: a legal-compliance layer (historical races determine all outcomes) hidden behind an entertainment/slot-style presentation layer. [[raw/jvl-hhr-executive-digest.md]]
+- **Caching + comms.** **10 race tickets cached per bet level** enable offline play during server outages, with **graceful degradation** (disable an individual bet level, not the whole machine); asynchronous message handling with a **critical-message queue** and **heartbeat monitoring** (configurable timeout tolerances). [[raw/jvl-hhr-executive-digest.md]]
+- **The open decision points the team was wrestling.** Ten named struggles: (1) the **state-machine paradox** (three parallel processes resist a single clean diagram — Efim); (2) the exact **"when can players play?"** conditions ("a lot of conditions" — Efim); (3) **connection-loss philosophy** — Efim favors continuity (don't re-register after a 1-min drop) vs Will favors consistency; (4) **extra-winnings trigger** (pool-based vs pattern-based — "we put a question mark"); (5) **progressive-jackpot offline behavior** (Juan: continue until tickets depleted; Will: configurable per jurisdiction); (6) **critical-message hierarchy** (blocking vs non-blocking); (7) **manual handicapping** needing a synchronous server response in an async system; (8) **power-loss recovery** of mid-game state; (9) **race-ticket depletion strategy** (disable whole machine vs just that bet button — Juan prefers keeping other levels playable); (10) **game-history storage depth** (regulator wants 50 games, but multi-stage games could need **2,500+ records**). [[raw/jvl-hhr-executive-digest.md]]
+- **Lockup rule (corrected).** A large-win lockup occurs only when **BOTH** conditions hold: win **≥ $600 AND** win **> 300× the bet** — not either independently. [[raw/jvl-hhr-executive-digest.md]]
+- **Documentation-first posture.** The team documents extensively before implementation (Will: within ~4 weeks he doubts he'll have more user stories to write). Not-yet-created at digest time: the formal **state-machine diagram** (Efim committed to it) and the **progressive-translation layer** (HHR progressive → standard progressive-controller format); waiting on **Ainsworth** for reconnection/re-registration requirements and the extra-winnings algorithm. [[raw/jvl-hhr-executive-digest.md]]
+
 ## Open questions
 
 - The **Ainsworth terminal + server in the Georgia office keeps crashing / corrupting / interfering with the office Internet** after being left on overnight, so it has been turned off in favour of the office's own connectivity — unclear whether the fault is Ainsworth, the AT&T Internet service, or something else; Val's fix was to simply add a second ~$100/month Internet connection. [[raw/backend_architecture-august-14-2025.md]]
@@ -29,3 +40,4 @@ Will Jones summarised where the HHR effort stands on the [[wiki/meetings/2025-08
 ## Sources
 
 - [[raw/backend_architecture-august-14-2025.md]]
+- [[raw/jvl-hhr-executive-digest.md]]

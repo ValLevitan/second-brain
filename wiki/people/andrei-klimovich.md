@@ -4,8 +4,8 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 20
-open-commitments: 8
+source-count: 21
+open-commitments: 9
 open-questions: 0
 ---
 
@@ -123,6 +123,7 @@ From the June-4 update ([[wiki/meetings/2025-06-04-klimovich-progress-update.md]
 - [ ] Andrei Klimovich — investigate ECHO packaging (find a packaging studio) — due unspecified — [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
 - [ ] Andrei Klimovich — research how Amazon's extended-warranty (12/24/36-month) money flows back to JVL ("я изучу этот вопрос") — due unspecified — [[raw/andrei_klimovich_amazon-april-1-2025.md]]
 - [ ] Andrei Klimovich — use the Game Room Guys call (Apr 2) to introduce himself as Felipe's replacement and probe their customer sources/product mix — due Apr 2 2025 — [[raw/andrei_klimovich_amazon-april-1-2025.md]]
+- [ ] Andrei Klimovich — deliver a full ECHO marketing plan + calendar + budget for the Oct–Nov holiday push (draft ~1 week) — due ~mid-Aug 2025 — [[raw/Echo_home_amusement-recap-align.md]]
 
 ## History — 2023–2024 (batch 16, earlier than the recaps above)
 
@@ -153,8 +154,13 @@ Two ~July-17 calls with Val (dates inferred/queued):
 - **Machines-returned / B2B call** ([[wiki/meetings/2025-07-17-klimovich-echo-machines-returned-b2b.md]]): the **8 frozen Amazon units were released**; Andrei got Val's ruling to go **Amazon-B2B-only** ($3,300 B2B price, distributors onto Amazon Business Prime, drop the MCF/"WC" route), worked the intercompany "acrobatics" for a 4-machine **Aminis (Missouri)** order (Leps→Systems at $1,000 value, ship direct), and was told to **wait ~3 months** on the CustDev agency. Val also asked him to line up **Ingrid as a paid outside marketing lead** and warned him JVL is **exiting online** (finish in-flight integrations, take no new ones) — see [[wiki/decisions/2025-07-15-exit-online-focus-transactional.md]]. He names the Amazon selling entity **"Cheil Games"** (feeds the open entity contradiction). Full detail on [[wiki/topics/echo-home-gaming-device.md]]. [[raw/Alignment with Andrei Klimovich.md]]
 - **Listing / media-push call** ([[wiki/meetings/2025-07-17-klimovich-echo-listing-media-push.md]]): shortlisted **3 India-based studios** for a listing redesign (~$600 for 9 concepts), the trade-media push with **Hannah** (Intergame Media, OK Hills), a proposed 3-month **Amazon-ads expert "Grant"** (rate held §15.8; ~$3,000/mo budget, parked), the **~$2,000/mo** ad spend on his JVL business card, the ECHO **website ~Aug 10** (Goleador studio; Maxim renders), and the 2026 projection (~10 machines/mo ≈ $420k). Here he says the Amazon **and** Meta accounts are **under JVL Gameworks** (Bank of America). Full detail on [[wiki/topics/echo-home-gaming-device.md]]. [[raw/Echo_sales_marketing_update.md]]
 
+## Aug 7 2025 — ECHO recap-alignment (Amazon stock, marketing team, documentary, expo prep)
+
+On the [[wiki/meetings/2025-08-07-klimovich-echo-amazon-marketing-recap.md|Aug-7 recap]] (date inferred) Andrei reported the ECHO state: only 3 machines left at Amazon with a 6-home/6-commercial batch queued for intake "the 13th," a customs-broker change Val wants, the marketing roster (Fedor/Valeria/Anton + incoming Google) and program spend, the documentary (Dan filming; RePlay journalist intros; target September) and YouTuber-agency outreach (Paul/Hanna). Val told him to **deprioritize the Flex web page** (Felipe/Juan busy with the Aug-19-21 Georgia expo) and instead produce a full **marketing plan + calendar + budget** for the holiday push, and to plan a **September Amazon inventory build of ≥100 machines**. Full detail on [[wiki/topics/echo-home-gaming-device.md]]. [[raw/Echo_home_amusement-recap-align.md]]
+
 ## Sources
 
+- [[raw/Echo_home_amusement-recap-align.md]]
 - [[raw/andrei_klimovich_echo_status_update_2025-07-09.md]]
 - [[raw/jvl_online_sync_2025-03-29 1.md]]
 - [[raw/business_architecture_and_the_website_design_for_online_2025-03-29.md]]

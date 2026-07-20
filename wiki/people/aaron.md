@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 72
+source-count: 73
 open-commitments: 1
 ---
 
@@ -196,12 +196,23 @@ On a short Val↔Aaron check-in ([[wiki/meetings/2025-08-18-git-meta-analysis-re
 
 On the [[wiki/meetings/2025-08-19-figma-to-development-testing.md|Aug-19 working session]] (the fuller follow-up to his Aug-12 explainer) Aaron pressed the QA/UI team past the "Figma can't do it" standoff: define **what makes generated code acceptable** so a code-generation step (AI or deterministic) can produce the React code **and** the parallel integration tests in one flow — the real problem being QA capacity and the missing mock-up→code→test link. He argued JVL may be "using Figma in a way it wasn't designed to be used." See [[wiki/topics/test-automation-strategy.md]]. [[raw/figma_to_testing_development .md]]
 
+## Aug 2025 (date inferred) — serverless SRE demo + the "two cultures" operating model
+
+On an undated strategy 1:1 ([[wiki/meetings/2025-08-15-aaron-val-two-cultures-operating-model.md]]; month inferred ≈ Aug 2025, day a placeholder, QUEUED) Aaron and Val worked through how to structure JVL's engineering org and infrastructure. [[raw/Aaron + Val.md]]
+
+- **Serverless "AI-as-SRE" demo.** Aaron showed a practice WordPress site (**graphattract.io**) running **serverless on Google Cloud Run** — deploy a Docker image, auto-scaling, a **$50 budget cap**, and a **coding agent configured with prompts/roles/GitHub access to act as the site-reliability engineer** — arguing this collapses a "3-month deploy" to a couple of days and directly supports the plan to move JVL's **IT infrastructure off Belarus**. His thesis: an SRE's traditional VM/OS-patch stack can be discarded ("we don't need a server anymore"); the barrier is people's 20-year thinking mold, not the technology. [[raw/Aaron + Val.md]]
+- **The "two cultures / collective exceptionalism" model (Aaron's frame, Val's conclusion).** A structural place for both sides: a **North-American product/customer-facing engineering layer** (Aaron named "the Wills, the Nathans, the Aarons") that defines the WHY, the value proposition, monetization, deployment and governance; and the **Minsk/Belarus (and Aaron's Ukraine-Polish) "binary" execution teams** who "just live in" the intricate systems. Each admits its shortcomings; a **buffering layer** sits between "how we want things designed" and "their binary calculation." Aaron's read: Minsk "will never change / only slowly, forcefully, not naturally" and won't fully integrate — so the model is complementary specialization, not assimilation. [[raw/Aaron + Val.md]]
+- **Software is ~20% of the problem.** Aaron: writing the code is "only 20%"; the other ~80% is why-we're-doing-it, monetization, deployment, orchestration, and governance — which is why product/customer-facing people are needed above the coders. [[raw/Aaron + Val.md]]
+- **Repositioning Pavel to a feature-level lead.** Val floated "de-promoting" [[wiki/people/pavel.md|Pavel Frolov]]; Aaron reframed it as a **promotion in Pavel's own eyes** — narrow him to a tighter box (write his stream-of-consciousness notes **inside the GitHub projects / issues / code he's changing**, where an AI coding agent "vacuums it up" to stay on track), let him deliver **features off a feature branch** that [[wiki/people/nathan-carver.md|Nathan]] and [[wiki/people/will-jones.md|Will]] then hold to defined delivery expectations (docs, tests, integration), syncing the feature branch back to the **capability**. Pavel must adopt AI coding tools "like the farmer who won't use the tractor" — or that is eventually his exit. Val noted Pavel is already excited about **GitHub Actions** (an inventory of accumulated builders to be moved into Actions — a Pavel proposal). [[raw/Aaron + Val.md]]
+- **Hiring rule (Val's takeaway, Aaron endorsed).** Don't put a "sweet-talking, good-writing" non-coder into a Will/Nathan product-engineering seat — hire a **"recovering engineer"** who found "the enlightenment of defining how to engineer" and **can still code** (could do the other side's job, if slowly). And, as a rule of thumb "for now," such leads should be **North American** (Canada/US/Mexico) — Val ruled out Europeans; South Korea "too rigid," Mexico "too different a culture," Brazil "starting to look like Europe" — "purple unicorns otherwise." [[raw/Aaron + Val.md]]
+
 ## Aug 26 2025 — the "drop user stories, spec from recorded conversation" session
 
 On a late one-on-one ([[wiki/meetings/2025-08-26-jira-github-spec-drop-user-stories.md]], 7:32 PM) Aaron argued out the requirement-vs-business-case ordering with Val (his position: in scaled-agile the business use case is captured first, and you don't inject other parties' legislative requirements into your own tracking system) and wrote a top-to-bottom **meta-requirements ladder** (business use case → requirements → capabilities/epics → features → user stories → tasks). When Val concluded JVL **cannot produce user stories** and should replace them with **AI-interpreted specifications distilled from recorded developer conversations**, Aaron agreed to "eviscerate" the user-story layer — move items into **GitHub as issues**, stop allowing user stories in Jira — building the "JVL variant" of the Aug-22 Spec-Driven Development Process. Detail on [[wiki/decisions/2025-04-03-jira-capability-level-and-github-mapping.md]]. [[raw/Git_JIRA_spec.md]]
 
 ## Sources
 
+- [[raw/Aaron + Val.md]]
 - [[raw/Git_JIRA_spec.md]]
 - [[raw/undertakings_git_intelligence-august-18-2025.md]]
 - [[raw/figma_to_testing_development .md]]
