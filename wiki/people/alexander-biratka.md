@@ -3,7 +3,7 @@ type: person
 title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka, Alex Baratka, Alex Beratka, Alexander Berankov]
-source-count: 25
+source-count: 26
 open-commitments: 1
 open-questions: 0
 ---
@@ -91,8 +91,13 @@ On the [[wiki/meetings/2025-05-08-capability-compass-mcp-aaron-session.md|May-8 
 
 On the [[wiki/meetings/2025-06-26-omni-schedule-grooming.md|Omni schedule grooming]] Sasha picked up most of the reshuffled bonus-day tasks (partly shared with Anton Leshkevich), is finishing **Crazy Spins sound integration** (~done next week) and cache/service-message work, and helped shape the **topper-as-separate-application** direction (he'd earlier done the free-spins screenshot work; sees little difference in effort between embedding the topper vs a separate app, beyond a new repo/build). See [[wiki/topics/omni-core-advancement-and-game-templating.md]]. [[raw/OMNI_schedule_grooming-june-26-2025.md]]
 
+## Jul 31 2025 — to be pulled into the amusement-games-platform question
+
+On the [[wiki/meetings/2025-07-31-amusement-games-revival-pavel.md|amusement-games revival session]], Pavel said he'd need to involve **"Sasha"** to see what he's missing on opening the game framework as a platform (the "white-label" idea) — the framework/Pixi context that maps to Biratka (by context; he is JVL's Pixi/framework engineer). See [[wiki/topics/amusement-games-revival.md]]. [[raw/amusement_games_development_revivial-july-31-2025-pavel.md]]
+
 ## Sources
 
+- [[raw/amusement_games_development_revivial-july-31-2025-pavel.md]]
 - [[raw/OMNI_schedule_grooming-june-26-2025.md]]
 - [[raw/fp-7_performance_analysis_january_13_2025.md]]
 - [[raw/GitHub repository structure.md]]

@@ -2,8 +2,8 @@
 type: person
 title: Irina Makarych
 date: 2025-01-15
-aliases: [Irina Makarych, Irina, Irina Makarich, Iryna Makarych]
-source-count: 8
+aliases: [Irina Makarych, Irina, Irina Makarich, Iryna Makarych, Makarevich, Ira Makarevich]
+source-count: 9
 open-commitments: 0
 open-questions: 0
 disambiguation: "Game developer (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
@@ -40,8 +40,13 @@ The following are bare "Irina"/"Ира" mentions with no clear game-dev vs QA ro
 - **RIS ↔ Business Central licensing (Apr 3):** an "Ira" raised machine-transfer / flash-copy / licence-count questions ("Подожди, Ира, Ира, это уже бизнес"). Licensing/business, not QA or game-dev. (Irina — Shishko or Makarych unclear from source; per 2026-07-18 roles.) See [[wiki/meetings/2025-04-03-ris-business-central-licensing.md]]. [[raw/ris_business_central_integration-april-3-2025.md]]
 - **Omni daily asset-flow + manifests (Apr 15):** named among people who hand-fill machine-software settings ("либо я, либо Паша, либо Ира") and an "Ира/Ирина" in the Apr-15 Omni asset-flow discussion (commit in the game repo Future Full Pass Games when an asset moves). Game-repo/machine-setup context. (Irina — Shishko or Makarych unclear from source; per 2026-07-18 roles.) [[raw/cms_github_svn-apr-15-2025.md]] [[raw/daily_omni_progress-apr-15-2025.md]]
 
+## Jul 31 2025 — amusement-games revival (candidate for simple games)
+
+On the [[wiki/meetings/2025-07-31-amusement-games-revival-pavel.md|Pavel amusement-revival session]], Pavel floated giving the **simplest** amusement games to "**Ira Makarevich**" — a transcription of Makarych, in a clean game-development context (simple-logic games), reinforcing her game-developer role. See [[wiki/topics/amusement-games-revival.md]]. [[raw/amusement_games_development_revivial-july-31-2025-pavel.md]]
+
 ## Sources
 
+- [[raw/amusement_games_development_revivial-july-31-2025-pavel.md]]
 - [[raw/parameterization_in_the_development_pipeline_part_3_january_15_2025.md]]
 - [[raw/the_importance_of_storing_artifacts_in_git.md]]
 - [[raw/devops_container_approach_for_omni.md]]

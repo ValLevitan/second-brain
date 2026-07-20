@@ -3,7 +3,7 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 5
+source-count: 7
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
 
@@ -31,8 +31,17 @@ Nathan Carver is a **software engineer / engineering-leadership contractor** bro
 - On the [[wiki/meetings/2025-06-18-gcoam-ticket-redemption-workflow.md|June-18 ticket-redemption session]] Nathan ran the workflow whiteboarding on **Confluence**, mapping the Tito redemption use case; he confirmed engineers still track in **Jira** (empty FlexTower/FlexPOS GitHub repos exist) and took the direction to build a JIRA requirements ticket for the "scan & validate" work. Val **redirected him from FlexTower to FlexPOS** (now priority #1) and to a meeting with [[wiki/people/aaron.md|Aaron]] to organize Jira. [[raw/about_tickets_redemption-gcoam-june-18–2025.md]]
 - On the [[wiki/meetings/2025-06-19-flex-pos-use-case-design.md|June-19 Flex POS session]] Nathan wrote the initial **"Manual Ticket Redemption for FlexPOS"** use case with [[wiki/people/pavel.md|Pavel]] for the Sept-1 beta — the Incom three-call API, the $2-fee flow, and the personas. (Full substance on [[wiki/topics/flexpay-business-architecture-payout-devices.md]].) [[raw/flex_POS-use_case_architecture_requirements-june-19-2025.md]] [[raw/flex-POS_design-june-19-2025.md]]
 
+## Jul 2025 — the transactional-architecture deep-dive arc
+
+At the end of July Nathan led the two-session **transactional-architecture** arc (full substance on [[wiki/topics/flexpay-business-architecture-payout-devices.md]]).
+
+- **Jul 29** ([[wiki/meetings/2025-07-29-transactional-architecture-ewallet-deep-dive.md]]): whiteboarded the **e-wallet architecture** with the **redemption kiosk as location hub** (wallet created only at the kiosk, PIN bound to the printed ticket barcode, kiosk syncs to the JVL cloud), then ran fraud/failure risk scenarios and raised the processing-application + database-cluster **redundancy** requirement. [[raw/Transactional-Architecture-Discussion-2025-07-29.md]]
+- **Jul 31** ([[wiki/meetings/2025-07-31-transactional-architecture-continuation.md]]): had added summary docs to GitHub + a Confluence diagram; reframed data-sync from clustering to **event-driven message-queue replication** (with a Claude-generated trade-off matrix); took the undertaking to add an **operator mobile app to all schematics**. [[raw/transactional_architecture-july-31-2025.md]]
+
 ## Sources
 
+- [[raw/Transactional-Architecture-Discussion-2025-07-29.md]]
+- [[raw/transactional_architecture-july-31-2025.md]]
 - [[raw/nathan_juan-initial_meeting-june-9-2025.md]]
 - [[raw/POS_mutha_goose_architecture-june-11-2025.md]]
 - [[raw/about_tickets_redemption-gcoam-june-18–2025.md]]

@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna, Selena, Elena]
-source-count: 32
+source-count: 34
 open-commitments: 1
 ---
 
@@ -133,8 +133,14 @@ On the [[wiki/meetings/2025-06-23-nebraska-game-design-planning.md|Nebraska desi
 
 On the [[wiki/meetings/2025-07-28-media-tax-credit-examiner-coaching.md|Media Tax Credit coaching call]] Lena is the keeper of what counts as claimable **production labour** ("everything Lena considers a production") and of the **game lists** submitted to Ontario Creates — she supplied Val the list of 13 online games claimed as interactive. She and Michael confirmed the online-games **interactivity gap**: the special land-based golden-frame bonus was designed and math'd but never deployed online, and the three "China" games (Red Envelope feature) are passive, not interactive. She was to feed Michael her factually-correct firmware/hardware answers for him to reword. See [[wiki/topics/ontario-media-tax-credit.md]]. [[raw/media_tax_credit_team_coaching-july-28-2025.md]]
 
+## Jul 31 2025 — amusement-games revival (team & scope)
+
+With [[wiki/people/val-levitan.md|Val]] and [[wiki/people/efim-podvoiski.md|Efim Podvoiski]], Lena scoped **reviving JVL's ~150 aged amusement games** onto the HTML framework — a full redesign from assets to framework programming (concepts/scenes/character designs reusable, assets not), games assembled in **Miranda**, ~2 years for ~50 games; she proposed **outsourcing** the self-contained project and flagged its market as distinct from mobile/internet. In the parallel Pavel session she and Efim are named as the ones who "know the whole history" and can advise. Full substance: [[wiki/topics/amusement-games-revival.md]]. [[raw/amusement_games_development_revival-july-31-2025-efim_lena.md]] [[raw/amusement_games_development_revivial-july-31-2025-pavel.md]]
+
 ## Sources
 
+- [[raw/amusement_games_development_revival-july-31-2025-efim_lena.md]]
+- [[raw/amusement_games_development_revivial-july-31-2025-pavel.md]]
 - [[raw/media_tax_credit_team_coaching-july-28-2025.md]]
 - [[raw/NE_game_design_and_planning-june-23-2025.md]]
 - [[raw/games_design_recap-may-29-2025.md]]
