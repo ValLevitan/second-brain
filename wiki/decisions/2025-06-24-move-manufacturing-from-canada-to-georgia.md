@@ -35,6 +35,17 @@ JVL will **stop manufacturing/assembling machines in Canada and move it to Georg
 - **Jul 3 2025 (finance execution)** — on the [[wiki/meetings/2025-07-03-alka-finance-update.md|Alka finance update]] Val confirmed the move to finance: the **GL restructure is re-scoped from JVL Labs/Canada to JVL Systems** (the two GLs are identical except manufacturing/procurement now sits in the US), **escalated to [[wiki/people/lev-rudky.md|Lev]] this week** (originally due May 19) because October manufacturing means July purchasing; **JVL Labs manufacturing collapses** and its ~$14–16M tax losses are worn out over ~3 years before likely wind-up. See [[wiki/topics/jvl-finance-back-office.md]]. [[raw/finance_update_alka-july-3-2025.md]]
 - **Jul 9 2025** — Val reaffirmed the US move to RBC, disclosing an **option placed on an industrial freestanding building near Atlanta, Georgia** (the manufacturing facility) plus a Miami building search — tariffs/uncertainty cited as the trigger, with immediate US coverage across Georgia, South Dakota, Nebraska, Texas and Florida. See [[wiki/organizations/rbc.md]] and [[wiki/topics/aventura-office-showroom-lease.md]]. [[raw/meeting_RBC-july-9-2025.md]]
 
+## History
+
+### Jul 2024 — the earlier "Canadian Manufacturing Operations Closure Plan" (2024 antecedent)
+
+A structured planning/action document titled **"Canadian Manufacturing Operations Closure Plan," meeting-dated July 29, 2024** ([[wiki/people/val-levitan.md|Val]] leading, with [[wiki/people/mikhail-perelman.md|Mikhail Perelman]] and [[wiki/people/genadi-peari.md|Genadi Peari]]) already laid out essentially this same Canada→Georgia move a year earlier — closing all Canadian manufacturing and **transitioning all production to Georgia**, with full dissolution of the Canadian corporate presence and the Toronto warehouse lease terminated **by December 31, 2024**. That this decision page records the move as a **firm new June-2025 direction resolving a still-open "Canada vs Georgia" question** indicates the 2024 plan **did not fully execute** (Canadian manufacturing carried into 2025 and the move was re-decided in June 2025). Its durable content, as an earlier state of affairs (§11 History — not current state): [[raw/closure-plan-doc.md]]
+
+- **Personnel (2024 plan):** [[wiki/people/arkady-batson.md|Arkadiy]] as Canadian operations manager supporting the transition; "Andrei" to finish Echo assembly; Chen and Rodney to finish machine refurbishment; **[[wiki/people/anibal.md|Anibal]] as the new Georgia operations manager, arriving August 23, 2024**. (By the 2025 decision, [[wiki/people/elizabeth.md|Elizabeth]] heads Georgia manufacturing and Anibal is the dedicated Echo assembler — an evolution of these roles.) [[raw/closure-plan-doc.md]]
+- **Product-transfer priorities (2024 plan):** ship **100 complete Flex sets** to Georgia; assemble/ship **40 Echo units** (20 amusement, 20 home-use); transfer **~500 sets of parts** (plastic/metal components, limited monitors/PCBs/touchscreens); rework **14 Flex machines** (originally built for Puerto Rico + returned from Peru); refurbish all returned Peru/Mexico machines to Georgia auxiliary storage. KPI: maintain **130+ machines** in operational inventory. [[raw/closure-plan-doc.md]]
+- **Warehouse (2024 plan):** empty the Toronto warehouse and terminate its lease by Dec 31 2024; Georgia = the existing primary warehouse **plus a new ~5,000 sq ft auxiliary storage** (~**$8/sq ft**) near the primary. **Financials:** cancel all existing purchase orders, make no payments on current orders, procure through alternative channels. [[raw/closure-plan-doc.md]]
+- **Date note (§11 / QUEUED Tier-A):** this file was staged with a "2025-07-29" label, but its content is internally and consistently dated **2024** (Dec-31-2024 dissolution, Anibal arriving Aug-23-2024). Per §11 (content-internal date beats a staging/filename stamp) it is treated as a **2024** document — outside the 2025 v1 window as a standalone source — so it is **back-filled here into History** rather than given its own pre-window meeting stub. The 2024-vs-2025 date conflict is queued for owner confirmation.
+
 ## Open commitments
 
 - [ ] Mikhail Perelman + Genadi Peari — travel to Georgia; examine the Louisville warehouse; meet an electrician, a pneumatic company, a metal fabricator, and visit a couple of operator locations — due ~2–3 weeks — [[raw/procurement_relocation-june-24-2025.md]] [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
@@ -44,6 +55,7 @@ JVL will **stop manufacturing/assembling machines in Canada and move it to Georg
 
 ## Sources
 
+- [[raw/closure-plan-doc.md]]
 - [[raw/meeting_RBC-july-9-2025.md]]
 - [[raw/procurement_relocation-june-24-2025.md]]
 - [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]

@@ -3,7 +3,7 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 7
+source-count: 8
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
 
@@ -35,11 +35,13 @@ Nathan Carver is a **software engineer / engineering-leadership contractor** bro
 
 At the end of July Nathan led the two-session **transactional-architecture** arc (full substance on [[wiki/topics/flexpay-business-architecture-payout-devices.md]]).
 
+- **Jul 10** ([[wiki/meetings/2025-07-10-defining-product-capabilities.md]]): on the product-capabilities working session Nathan relayed InComm's **cloud-processing** recommendation (Incom disables by account not site-ID, so JVL's cloud should do the activation as a pass-through) — a "dramatic change" in architecture — and took the undertaking to **speak to John about the processing module** and start the **block-diagram system architecture** with Pavel for Val's review; the meeting split **Flex Tower from the Flex Redemption Center** and resolved to **outsource the transaction-processing module** to a specialist. [[raw/Defining Product Capabilities.md]]
 - **Jul 29** ([[wiki/meetings/2025-07-29-transactional-architecture-ewallet-deep-dive.md]]): whiteboarded the **e-wallet architecture** with the **redemption kiosk as location hub** (wallet created only at the kiosk, PIN bound to the printed ticket barcode, kiosk syncs to the JVL cloud), then ran fraud/failure risk scenarios and raised the processing-application + database-cluster **redundancy** requirement. [[raw/Transactional-Architecture-Discussion-2025-07-29.md]]
 - **Jul 31** ([[wiki/meetings/2025-07-31-transactional-architecture-continuation.md]]): had added summary docs to GitHub + a Confluence diagram; reframed data-sync from clustering to **event-driven message-queue replication** (with a Claude-generated trade-off matrix); took the undertaking to add an **operator mobile app to all schematics**. [[raw/transactional_architecture-july-31-2025.md]]
 
 ## Sources
 
+- [[raw/Defining Product Capabilities.md]]
 - [[raw/Transactional-Architecture-Discussion-2025-07-29.md]]
 - [[raw/transactional_architecture-july-31-2025.md]]
 - [[raw/nathan_juan-initial_meeting-june-9-2025.md]]
