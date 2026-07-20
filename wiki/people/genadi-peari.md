@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena]
-source-count: 37
+source-count: 38
 ---
 
 # Genadi Peari
@@ -116,11 +116,16 @@ On the e-Wallet/TITO review ([[wiki/meetings/2025-05-29-ewallet-tito-flexpay-imp
 - **Manufacturing move (Jun 24–26).** On the [[wiki/meetings/2025-06-26-procurement-manufacturing-transfer-alignment.md|manufacturing-transfer alignment]] Genadi ("Janati"/"Gennady") travels to Georgia with [[wiki/people/mikhail-perelman.md|Mikhail Perelman]] (~2–3 weeks) to examine the new Louisville warehouse and meet an electrician, a pneumatic company and a metal fabricator, plus a couple of operator locations ("Gennady has very vague idea of what the locations are"). He (with Michael) needs **Business Central** access for JVL Systems. See [[wiki/decisions/2025-06-24-move-manufacturing-from-canada-to-georgia.md]]. [[raw/procurement_relocation-june-24-2025.md]] [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
 - **FP-7 board supply for Omni (Jun 26).** On the [[wiki/meetings/2025-06-26-omni-schedule-grooming.md|Omni grooming call]] Pavel is to talk to Genadi about **preparing new FP-7 boards** (possibly as a complete **CPU box** so nothing has to be swapped) for the Omni-on-FP-7 migration — same I/O/count boards otherwise; Val floated ordering ~10 boards for Minsk (~1-month lead). Genadi had earlier said a **new board "Dima Pikulev" worked on** is built for an "account-top board" and is **missing some interfaces** for full machine work (detail unclear, flagged). See [[wiki/topics/omni-core-advancement-and-game-templating.md]]. [[raw/OMNI_schedule_grooming-june-26-2025.md]]
 
+## July 3 2025 — Georgia warehouse layout + vendor DDP quotes
+
+On the July-3 relocation alignment ([[wiki/meetings/2025-07-03-procurement-relocation-georgia.md]]; Russian) Genadi is in the loop on both the **vendor DDP-quotation** push (Val's instruction: copy Genadi and Val on all vendor correspondence) and the **Georgia warehouse racking layout** — he provided fabricator drawings and worked through the rack count with [[wiki/people/mikhail-perelman.md|Perelman]] (11 racks along the slanted wall vs a ~21-rack perpendicular layout; 15-ft rack height, 12-ft forklift aisles). See [[wiki/decisions/2025-06-24-move-manufacturing-from-canada-to-georgia.md]]. [[raw/procurement_production_relocation-july-3-2025.md]]
+
 ## Sources
 
 - [[raw/fp-7_performance_analysis_january_13_2025.md]]
 - [[raw/procurement_relocation-june-24-2025.md]]
 - [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
+- [[raw/procurement_production_relocation-july-3-2025.md]]
 - [[raw/OMNI_schedule_grooming-june-26-2025.md]]
 - [[raw/e-wallet_tito_flex-pay_flex-port_implementation_update-may-29-2025.md]]
 - [[raw/fr-7_identifying_bottlenecks_in_performance_during_testing_january_17_2025.md]]

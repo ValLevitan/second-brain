@@ -4,7 +4,7 @@ title: Mikhail Perelman
 date: 2026-07-13
 aliases: [Mikhail Perelman, Misha, Миша, Mikhail, Michael]
 disambiguation: "Procurement Manager (parts/vendors/shipments; the retrofit-lead "Misha"). Misha/Michael cluster (2, owner-ruled): [[wiki/people/michael-gottlieb.md|Michael Gottlieb]]=Senior VP Game Design / [[wiki/people/mikhail-perelman.md|Mikhail Perelman]]=Procurement Manager (the "retrofit Misha"). Resolve by context; queue if none."
-source-count: 4
+source-count: 5
 ---
 
 # Mikhail Perelman
@@ -27,9 +27,14 @@ On the BC status call ([[wiki/meetings/2025-04-28-business-central-labs-tariffs-
 
 On the manufacturing-relocation sessions ([[wiki/decisions/2025-06-24-move-manufacturing-from-canada-to-georgia.md]]) Perelman ("Misha"/"Michael") owns the procurement/logistics side of moving assembly from Canada to the new Louisville, Georgia warehouse. His tasks: find **subcontractors** for the warehouse electrical + pneumatic wiring; source an **electric pump truck**; travel to Georgia with [[wiki/people/genadi-peari.md|Genadi Peari]] (~2–3 weeks) to examine the warehouse and meet an electrician, a pneumatic company, a **metal fabricator**, and a couple of operator locations; push all supplier **quotations to DDP (Delivered Duty Paid) into the US** and begin placing destination-Atlanta orders (~30 days out); and obtain competitive quotes from **American manufacturers**. He needs **Business Central** access for JVL Systems (with Gennady) and confirmed there are ~**100 sets of Flex** whose components ship to Georgia. He agreed a trip "makes sense." [[raw/procurement_relocation-june-24-2025.md]] [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
 
+## July 3 2025 — relocation execution status (vendors + Georgia warehouse layout)
+
+On the July-3 alignment review ([[wiki/meetings/2025-07-03-procurement-relocation-georgia.md]]; Russian) Perelman reported progress a week after the June-24/26 decision, with Val pressing that "nothing has moved." His sourcing status: he had a **list of four US metal fabricators** to contact Monday (using Gena's drawings); monitor quotes from the California distributor **bySearch** (~7-year supplier — no clean quote yet) and **Alpha** (21.5"/27" — showing ~$70/monitor tariff, ~70–90% of the ~$95–100 unit cost, under DDP), with the **43"** still unquoted; upcoming meetings with **StarTech** (a Chinese LCD manufacturer with an England facility, Jul 10) and **General Touch** (touch screens, Jul 7); **power supplies** bought through a US distributor (MeanWell/Sagir); **PC/CPU boards** stocked through September with two China sources (**Nika** + a cheaper newer one). On the warehouse he mapped racking options (11 racks along the slanted wall / ~44 skids vs a perpendicular ~21-rack layout, 15-ft height, 12-ft forklift aisles). Val's direction: get a **used-racking company** to lay it out from a drawing, and — the recurring frustration — **copy Val and Genadi on all vendor correspondence** and send **everyone a DDP-quotation request**. See [[wiki/decisions/2025-06-24-move-manufacturing-from-canada-to-georgia.md]] and [[wiki/topics/tariffs-and-customs-compliance.md]]. [[raw/procurement_production_relocation-july-3-2025.md]]
+
 ## Sources
 
 - [[raw/retrofit_january_7_2025.md]]
 - [[raw/business_central_update-apr-28-2025.md]]
 - [[raw/procurement_relocation-june-24-2025.md]]
 - [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
+- [[raw/procurement_production_relocation-july-3-2025.md]]

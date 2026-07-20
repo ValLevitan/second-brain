@@ -3,7 +3,7 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction]
-source-count: 17
+source-count: 18
 open-commitments: 2
 open-questions: 1
 ---
@@ -188,6 +188,15 @@ An autotests sync ([[wiki/meetings/2025-07-10-autotests-sync.md]]; [[wiki/people
 - **LISA problem.** LISA is created per-machine/version and is ill-suited to automation; on the "tabachny" version LISA falls and is ignored (only **etap** applies) — a temporary workaround until proper testing lands. [[raw/autotests_sync_meeting.md]]
 - **RIS implementation plan.** [[wiki/people/evgeny-kharetski.md|Kharetski]] provides the JSON structure and an endpoint for submitting RIS; Anton builds the JSON builders (~2–3h); tests drive the **UI for user actions and the API only for configuration**. Decisions: prioritise RIS before virtualisation; start with simple machine configs first (Shishko) — though Kharetski argued for proper unified tooling from the start to avoid rewrites. [[raw/autotests_sync_meeting.md]]
 
+## July 11 2025 — pace reality check and the "developer writes the test hooks" idea
+
+On a Val↔Anton 1:1 ([[wiki/meetings/2025-07-11-anton-testing-1on1.md]]; Russian) the two took stock of where Omni test automation actually stands. [[raw/update_anton-july-11-2025.md]]
+
+- **Progress + open infra.** [[wiki/people/anton-leshkevich.md|Anton]] has test-integration into the game framework **~70–80% done**; the **configurable test-environment** (a data-center testers set per product/setting instead of a fixed stub) is still open — **Zhenya** (a Zhenya — which one unresolved, queued; likely the LSS/LGS-side Evgeny) will add the LSS hooks, Anton the test-framework-side interface — but it's **not top priority** given his workload. This is the same configurability goal as the [[#july-10-2025--autotests-sync-configurable-test-environment-lisa-and-the-ris-plan|July-10 autotests sync]]. [[raw/update_anton-july-11-2025.md]]
+- **"Years, not a year."** Val and Anton agreed that at the current pace, covering all of Omni with tests would take **years** (Val floated five; Anton "maybe less, but still years") — unrealistic, and **not a headcount problem**: new hires would need deep training on JVL's game specifics, so "more people won't help." Omni-framework development itself is slow; the pace may improve once all production shifts to Omni (early next year). [[raw/update_anton-july-11-2025.md]]
+- **The proposal — shrink the chain from 3 links to 2.** Anton's core idea: the **developer who builds a new feature should also build its test hooks** at the same time (he knows the code best), rather than a separate person writing hooks and handing them to a tester. That cuts the chain **developer → hook-writer → tester** down to **developer(+hooks) → tester**, speeding test development. Mechanism: a **plugin-per-feature** design — each new bonus/feature ships a plugin the test framework can talk to, so testers drive it from their side; when a developer finishes, they email the QA team "you can now use these hooks to do X." A **test interface** here means the hooks poking out of a feature so it can be driven externally. [[raw/update_anton-july-11-2025.md]]
+- **What gets tested.** Testing focuses on **game features** (a set of "wins"/behaviours a producer defines, then designers + developers implement); once the framework exposes a new feature's hooks, other games reusing that feature can be tested through the same interface. Val's motivational read: the QA team will move fastest if they see automation as **escape from monotonous manual clicking** — "if it takes, they'll attack it." [[raw/update_anton-july-11-2025.md]]
+
 ## Open commitments
 
 - [ ] Val — set up a ~2-hour testing-architecture meeting with Pavel, Irina, Anton and Aaron — due next week (of Jan 15) — [[raw/integration_and_testing_procedures_january_15_2025.md]]
@@ -231,3 +240,4 @@ The earliest captured root of this effort — a Bitbucket-era progress review be
 - [[raw/qa_engineering_direction_review_aaron-june-12-2025.md]]
 - [[raw/games_design-june-12-2025.md]]
 - [[raw/autotests_sync_meeting.md]]
+- [[raw/update_anton-july-11-2025.md]]

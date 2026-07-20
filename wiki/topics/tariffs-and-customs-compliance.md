@@ -3,7 +3,7 @@ type: topic
 title: Tariffs and customs compliance (US–Canada tariffs, HS-code tracking, CBSA validation)
 date: 2025-04-28
 aliases: [tariffs, US-Canada tariffs, HS code, HS codes, harmonized system, country of origin, intercompany transfer pricing, BOM plus 30, CBSA, Canadian customs, CARM, trade compliance validation, international trade attorney, duty drawback, transitional export waiver, slot machine component subcategory]
-source-count: 9
+source-count: 11
 open-commitments: 6
 open-questions: 2
 ---
@@ -94,6 +94,13 @@ A follow-up to the June-11 intro, this call brought in [[wiki/people/lucie.md|Lu
 - **Belarus software origin.** The software "could be considered manufactured in **Belarus**" — duty/tariff-free; Val noted "the sanctions were removed" and, regardless, **tariff has nothing to do with sanctions**. (Recorded as Val's framing.) [[raw/tariff-June-18-2025.md]]
 - **The takeaway.** Component-level tariffs (China/Taiwan/Korea → US) are "black and white / binary"; the **uncertainty is Canada** (whether Canadian assembly is a substantial transformation, a matter of ruling and argument JVL "cannot afford"). Bruce's honest conclusion: **no certainty is achievable now or within months**. Val declined further research and ended to think. [[raw/tariff-June-18-2025.md]]
 
+## July 3 2025 — DDP quotes in practice; the double-tariff rationale for the move
+
+Two July-3 sources show the tariff strategy hitting concrete numbers as the manufacturing move to Georgia executes ([[wiki/decisions/2025-06-24-move-manufacturing-from-canada-to-georgia.md]]).
+
+- **DDP monitor/board quotes (procurement).** On the relocation alignment ([[wiki/meetings/2025-07-03-procurement-relocation-georgia.md]]) the first **DDP (Delivered Duty Paid)** quotes into the US landed brutal: from the distributor **Alpha**, a 21.5"/27" monitor costing ~**$95–100** carries ~**$70 of tariff per unit** — roughly **70–90%** — plus ~$15 delivery (e.g. 100 units = ~$7,200, of which ~$6,000 is tariff; a 200-unit / 2-skid shipment ≈ **$14–15k of duty**). The 43" monitor is still unquoted. Val wants a **reference quote from bySearch** (the ~7-year California distributor who imports into the US and "knows everything") to sanity-check the numbers, and floated a **US-fabrication trick** a supplier mentioned — importing the bare monitor, then mounting it to a plastic/metal part done in the US so ~50% is "made in USA" — as something worth investigating (Val's caution: the importer still pays tariff at US entry unless done in a free-trade zone). **Power supplies** are a distinct case: bought via a US distributor (MeanWell/Sagir, China/Taiwan origin), where the distributor **added ~10% to an invoice as a tariff pass-through** ("due to tariff our cost went up, we're raising your price") — Val had the charge removed once but expects it won't fly again. [[raw/procurement_production_relocation-july-3-2025.md]]
+- **The double-tariff rationale (finance).** On the [[wiki/meetings/2025-07-03-alka-finance-update.md|Alka finance update]] Val gave the reason manufacturing is leaving Canada in tariff terms: after consulting US and Canadian legal teams, **no one can assure him** how US↔Canada tariffs will be treated or whether he can reclaim tariff on goods entering Canada — so he expects to **pay double tariff (China→Canada, then Canada→US)**, and because the US is cracking down on **"screwdriver assemblies,"** a China-heavy BOM assembled in Canada risks being deemed **China-origin**, "and then the tariff will just kill me." Hence production moves to Georgia. [[raw/finance_update_alka-july-3-2025.md]]
+
 ## Open commitments
 
 - [ ] Val — send [[wiki/people/lucie.md|Lucie]] the current HS classification number + product descriptions for the China-origin cabinet metal — due right away (before the June-16 CBSA reply) — [[raw/tariffs_lucie_alan_intro-june-11-2025.md]]
@@ -119,3 +126,5 @@ A follow-up to the June-11 intro, this call brought in [[wiki/people/lucie.md|Lu
 - [[raw/tariffs_lucie_alan_intro-june-11-2025.md]]
 - [[raw/tariff-June-18-2025.md]]
 - [[raw/finance_georgia_taxation-june-3-2025.md]]
+- [[raw/procurement_production_relocation-july-3-2025.md]]
+- [[raw/finance_update_alka-july-3-2025.md]]

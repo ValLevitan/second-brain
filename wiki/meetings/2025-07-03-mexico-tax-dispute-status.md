@@ -16,6 +16,8 @@ Substance lives on:
 - [[wiki/decisions/2025-03-24-close-jvl-mexico-operation.md]] — the July-3 status (2019 audit; two of three items settled in conciliation; depreciation still open; ~6M-peso assessment expected in ~6 months; the multi-component defence; Val's book-restatement idea; the fee schedule) as the tax tail that blocks legal dissolution.
 - [[wiki/people/mauricio-medina.md]] — who Mauricio is (resolves the earlier first-name "Mauricio").
 
+**§12 dedup note (Batch 57).** Two later-staged re-transcriptions of this SAME July-3 6:00 pm meeting — `raw/tax_litigation_mexico-july-3-2025-1.md` (the depreciation / multi-component-defence segment) and `raw/tax_litigation_mexico-july-3-2025-2.md` (the appeals-stages / statute-of-limitations / fee-schedule / fiscal-domicile segment) — were compared and **skipped as duplicates**: the already-ingested WebVTT `raw/mx_tax-dispute_status_review-july-5-2025.md` (4,156 lines) is the **fuller source of record** and already contains both segments' content (verified: it carries the four-appeal-stages, five-year statute, $8,200/$12,000/$9,000/$4,000 fee schedule, and the Sinaloa/Mexico-City domicile discussion). Facts from those segments are therefore recorded from the fuller transcript, not double-ingested.
+
 ## Sources
 
 - [[raw/mx_tax-dispute_status_review-july-5-2025.md]]

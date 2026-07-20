@@ -3,8 +3,8 @@ type: person
 title: Alka Sood
 date: 2026-07-14
 aliases: [Alka Sood, Alka, Cogna]
-source-count: 9
-open-commitments: 6
+source-count: 10
+open-commitments: 9
 ---
 
 # Alka Sood
@@ -35,6 +35,9 @@ Alka Sood is JVL's **finance contractor** (her business is **Cogna**, per the 20
 - [ ] Alka — get Hector's written commitment ("write me an email … I've got work for Igor starting April 15th") and complete the Igor hand-off plan — due ~Apr 15 2025 — [[raw/Finance - Alka.md]]
 - [ ] Alka — write the Mexico shutdown narrative + summarized numbers for Val's approval, then circulate the 30-day/$20k budget to Mexico and Val — due days (before the wind-down clock) — [[raw/finance_recurring-april-7-2025.md]]
 - [ ] Alka — request both versions of the JVL–EDS contract from Monica (copy Val) and reconcile the control-sheet wording against it — due unspecified — [[raw/finance_recurring-april-7-2025.md]]
+- [ ] Alka — finalize the consolidated loan control sheet (updated to end-June) plus a **warrants tab** (reconciled with Monica/lawyers), and add the accrued-interest **contingent liabilities** (840914 potential interest; the line-25 USD $3.5M note) in red — deliver ~mid next week — [[raw/finance_update_alka-july-3-2025.md]]
+- [ ] Alka — escalate the **JVL Systems GL restructure** and get it to [[wiki/people/lev-rudky.md|Lev]] by Monday/Tuesday (was due May 19; needed for October manufacturing) — due ~Jul 7–8 — [[raw/finance_update_alka-july-3-2025.md]]
+- [ ] Alka — send Val a written status update before she leaves on vacation (Jul 12) covering what's done and where things stand — due ~Jul 11 — [[raw/finance_update_alka-july-3-2025.md]]
 
 ## Apr 15 2025 — control sheet delivered; evaluations and automation
 
@@ -59,8 +62,20 @@ Alka ("Alka/Elke") joined Val and chartered accountant [[wiki/people/sean-riley.
 - **June 13 (with [[wiki/people/sean-riley.md|Sean Riley]]):** Alka presented the itemized loan schedule (rebuilt from FY2022) and Sean set undertakings for the loan documents; they chose the **restate-prior-years** method to book ScrapNeck's **$2,912,553** off-books accrued interest, and agreed the Boris & Peter loan-to-equity needs **Alan Litwack** first. She also flagged the management-fee→revenue reclassification (~100 transactions; do on paper, deliver a NaVision report). [[raw/finance_loans_review_sean_alka-june-13-2025.md]]
 - **June 13 (line-by-line with Val):** fixed the exact balances (institutional total **$228,509.47**; ScrapNeck $4.5M repaid; the 2011-680 $20.85M interest-free note; GL-24000 $105k; the GL-240004 USD note $3.53M) and took the decision to **resume $20,000/month payments on the 840914 loan starting June** (she'll note [[wiki/people/hector.md|Hector]] to initiate). Full figures on [[wiki/topics/jvl-corporate-loans-and-shareholder-financing.md]]. No §15.8 material (loan economics only). [[raw/finance_loan_summary_detailed_review_alka-june-13-2025.md]]
 
+## July 3 2025 — consolidated loan sheet, quarterly reconciliation, role review, GL re-scope
+
+On the recurring bi-weekly call ([[wiki/meetings/2025-07-03-alka-finance-update.md]]) Alka delivered two documents emailed just before the meeting: an updated **action-control sheet** and — per Val's request — a **single consolidated loan control sheet** integrating all institutional and private loans by corporation, to be maintained **monthly** by Laura or Chris. Her operating changes: [[raw/finance_update_alka-july-3-2025.md]]
+
+- **Quarterly balance-sheet reconciliation** — she wants to reconcile and validate the balance sheet every quarter (tie the control sheets to the ledgers) so year-end is ~3 months of work instead of 12, enabling more frequent monthly reporting. [[raw/finance_update_alka-july-3-2025.md]]
+- **Finance-team restructuring (behind the scenes).** [[wiki/people/hector.md|Hector]] has handed most day-to-day work to [[wiki/people/mary.md|Mary]] but still coaches "the ladies," who won't act without conferring — Hector's read: **Mary ~75% there, Laura ~70%, Chris on top of things**. Val's direction: shift **analytical accounting to Chris** (as an assistant-controller) and give **Mary more administrative/data-entry work** — but "do not invent a job for somebody we like." Val restated his management principle: his responsibility is to the **performing** members, and underperformers must be identified and cut; if Mary can't elevate, he'd let her go "on terms that allow her to find a job." He plans **individual role-and-responsibility reviews** with each finance person next month (it has been ~six months / two quarters). [[raw/finance_update_alka-july-3-2025.md]]
+- **Payroll stays with Alka.** Val floated moving payroll to Chris or Igor; Alka noted Chris can *prepare* payroll but the **ADP interaction** (e.g. chasing Chan's vacation payable — a 3-hour "rabbit hole") must stay with her; she and [[wiki/people/monica.md|Monica]] are improving their cadence. Timesheets for five people ~1.5h/two weeks. [[raw/finance_update_alka-july-3-2025.md]]
+- **External statements.** Labs and MOBI statements are complete; a small one for **Grainworks Corp** (just ~seven transactions / ~$300 for 2024) was newly required — she needs the articles of incorporation and wants to avoid a ~$1,500 fee over a negligible amount. [[raw/finance_update_alka-july-3-2025.md]]
+- **July priorities she owns:** the weekly cash-flow report, finishing the JVL↔Labs/Systems transaction reclassification, the monthly reporting package (start sending Val material "as early as next week"), Amazon record-keeping up to date, and the GST/SR&ED filings (cash-flow impact). She is on **vacation Jul 12–22** and moved the next meeting from the 15th to the **11th** (afternoon). [[raw/finance_update_alka-july-3-2025.md]]
+- **Manufacturing-move consequence for finance.** Val told her manufacturing is **moving to Georgia** ("new to me," Alka) — so the **GL restructure for Canada/Labs is dropped**; the work becomes the **JVL Systems GL** (Canada and US GL are identical bar the procurement/manufacturing element, which now sits in the US). She had pushed the GL job to August; Val asked her to **escalate it to Lev this week** (originally due May 19) because manufacturing in October means purchasing in July. JVL Labs manufacturing will be **collapsed** and its ~**$14–16M tax losses** worn out over ~3 years, then likely wound up. See [[wiki/decisions/2025-06-24-move-manufacturing-from-canada-to-georgia.md]] and [[wiki/topics/jvl-corporate-loans-and-shareholder-financing.md]]. [[raw/finance_update_alka-july-3-2025.md]]
+
 ## Sources
 
+- [[raw/finance_update_alka-july-3-2025.md]]
 - [[raw/finance_loans_review_sean_alka-june-13-2025.md]]
 - [[raw/finance_loan_summary_detailed_review_alka-june-13-2025.md]]
 - [[raw/finance_taxes_georgia-may-30-2025.md]]

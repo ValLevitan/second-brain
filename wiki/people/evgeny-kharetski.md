@@ -4,7 +4,7 @@ title: Evgeny Kharetski
 date: 2025-07-10
 aliases: [Evgeny Kharetski, Evgeny Kharetsky, Evgeny Khoretsky, Kharevsky, Yauheni Kharetski, Kharetsky]
 source-count: 1
-disambiguation: "Provisional — owner ruling pending. A THIRD person sharing the given name Evgeny/Evgeniy, DISTINCT from the two owner-ruled 'Zhenya' contractors ([[wiki/people/eugine-yavorski.md|Eugine Yavorski]] and [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]]). Kharetski is a Minsk Omni/LGS game developer (game-history, LGS, test-framework endpoints); ≈ the roster name 'Yauheni Kharetski'. Do NOT force-merge into the Zhenya cluster. Resolve by context."
+disambiguation: "LGS developer (payroll "Kharetski Yauheni"), this page. Evgeny/Zhenya cluster (THREE, owner-confirmed 2026-07-19): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration engineer (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = owner of the main embedded code branch; [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS developer (payroll "Kharetski Yauheni"). Resolve by context: FlexPort/FlexPay integration → Yavorski; embedded main branch → Alekseev; LGS/Omni backend → Kharetski; queue what fits none."
 ---
 
 # Evgeny Kharetski

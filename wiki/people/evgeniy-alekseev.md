@@ -3,7 +3,7 @@ type: person
 title: Evgeniy Alekseev
 date: 2025-03-11
 aliases: [Evgeniy Alekseev, Evgeny Alekseev, Zhenya Alekseev, Женя Алексеев, Alekseev]
-disambiguation: "One of TWO Zhenyas (owner-ruled), both contractors via EAleks Technology: Eugine Yavorski (wiki/people/eugine-yavorski.md) and Evgeniy Alekseev (wiki/people/evgeniy-alekseev.md). Resolve by context; queue if unclear."
+disambiguation: "Owner of the main embedded code branch, this page. Evgeny/Zhenya cluster (THREE, owner-confirmed 2026-07-19): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration engineer (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = owner of the main embedded code branch; [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS developer (payroll "Kharetski Yauheni"). Resolve by context: FlexPort/FlexPay integration → Yavorski; embedded main branch → Alekseev; LGS/Omni backend → Kharetski; queue what fits none."
 source-count: 17
 open-commitments: 1
 ---

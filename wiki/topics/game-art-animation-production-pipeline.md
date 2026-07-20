@@ -3,7 +3,7 @@ type: topic
 title: Game art & animation production pipeline (comp art → Miranda)
 date: 2025-03-12
 aliases: [animation production, comp art pipeline, CompArt, storyboards, Spine, Blender, After Effects, placeholder build, Miranda scene assembly, art production stages, spike, sorting, symbol containers, Glorosa, Havana Noches, Fiery Ice Link, Rodeo Spin]
-source-count: 10
+source-count: 11
 ---
 
 # Game art & animation production pipeline (comp art → Miranda)
@@ -110,10 +110,19 @@ On the [[wiki/meetings/2025-06-12-games-design-priorities-review.md|June-12 prio
 - **Two new Fiery-Ice-Link titles start now.** The two additional themes (5 and 6) are **Latino/Cuban-inspired**, built in **Rage Studio** on the **V1000** cabinet (explicitly **not** waiting for Omni). Start with **Glorosa** — it can evolve from already-approved Glorosa materials (symbols + diorama recombined into a Fiery-Ice-Link game; different screen/reel size, same bonus, so easier); then **Havana Noches** ("Havana Knights"/"Cuban Knights" — Val: keep the Spanish name). The **free-spins experience for Glorosa is still to be designed** (form follows function). Only the creative part (graphics/sound/animation) starts now; the team wants **30–45 days** of live data on the shipped Fiery-Ice games first. [[raw/games_design-june-12-2025.md]]
 - **Templating the roosters game.** A new **three-Cuban-roosters** game (following Fortune Football) will come **after Fortune 4.0** is done "**right**" (as a proper Omni template, unlike the current Kai-Ocho-Omni port that "throws some assets from Rage Studio, not reworked") — the clean Fortune-4.0 template should let the roosters game develop much faster. [[raw/games_design-june-12-2025.md]]
 
+## July 3 2025 — Nebraska schedule end-July; forecast at feature level; HHR asset redo; Lena the bottleneck
+
+On the [[wiki/meetings/2025-07-03-game-development-weekly.md|July-3 weekly]], [[wiki/people/lena.md|Lena]] walked her **Nebraska production schedule** (in the Jira/Azure-DevOps board — the "blue line" = today) for [[wiki/people/val-levitan.md|Val]]: art production for Nebraska is planned to finish by **end of July** (the 22nd end-marker, plus a few more stories). [[raw/game_development-july-3-2025.md]]
+
+- **Schedule discipline.** [[wiki/people/efim-podvoiski.md|Efim]] hadn't put start/end dates on the math stories; Val insisted he block the days in "even ±a couple of days" so the plan waterfalls. Val restated the direction he wants: **move developers off story-level forecasting into GitHub, forecasting only at the FEATURE level measured in days (5/7/10)**, not hours — the feature being the single point of correspondence. Caveat: the Rage-Studio projects aren't in GitHub yet, so this is aspirational for now. [[raw/game_development-july-3-2025.md]]
+- **HHR = full asset redo in Omni.** Val's plan: finish **Kaio-Ocho for Omni** by end of month, then **re-orient the team to adapt the Omni framework for HHR** (framework guys start **Aug 1**; ~30–60 days, "not half a year"), while game production ports **Fortune FUPAs** to Omni. HHR games (≈six discrete titles) will need **all art redone in Omni** and much redesigned (the source games are "very old"); logically the recent Nebraska work is the base to draw from. Sequence after Nebraska: **La Rosa (Fiery Ice, Rage) → Fortune FUPAs → HHR**, subject to market pulls (South Dakota/Texas could "explode" and reprioritise everything). See [[wiki/topics/slot-game-design-principles.md]] and [[wiki/topics/omni-core-advancement-and-game-templating.md]]. [[raw/game_development-july-3-2025.md]]
+- **Lena is the production bottleneck.** After the call Val told Michael the production department needs to **split into more streams** and that **Lena is the bottleneck** — Val wants Michael (not himself) to put the "how do we increase output" challenge to her, "so it comes from you." [[raw/game_development-july-3-2025.md]]
+
 ## Sources
 
 - [[raw/games_design_recap-may-29-2025.md]]
 - [[raw/Game Development How animation are made with Lena - March 12-2025.md]]
+- [[raw/game_development-july-3-2025.md]]
 - [[raw/games_design-june-12-2025.md]]
 - [[raw/graphical_assets_redesign_omni_calle_ocho-apr-17-2025.md]]
 - [[raw/games_production-apr-18-2025.md]]

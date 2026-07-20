@@ -4,7 +4,7 @@ title: Anton Leshkevich
 date: 2025-01-21
 aliases: [Anton Leshkevich, Anton, Antoine, Anton Dmishkevich, Дмишкевич, Дмишкевичем]
 disambiguation: "Minsk engineer (Omni/RGS), this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 13
+source-count: 14
 open-commitments: 1
 open-questions: 0
 ---
@@ -63,8 +63,15 @@ On the Omni integration-tests onboarding ([[wiki/meetings/2025-04-24-omni-integr
 
 On the [[wiki/meetings/2025-06-26-omni-schedule-grooming.md|Omni schedule grooming]] Anton ("Антон"/"Антонио ляшки девич" = Leshkevich) owns the feature **integration** work entirely (bonus, target the 3rd–4th) and the **game history** (LGS side ~done, framework side to finish once scenes exist). Bonus/mass-parser work partly waits on Zhenya's decomposed History. See [[wiki/topics/omni-core-advancement-and-game-templating.md]]. *(Separately, the "Anton" tapped for the Nebraska primary-skill-meter code on June 23 is likely this Anton by context — inference, recorded on [[wiki/projects/nebraska-skill-market.md]], not asserted as a source here.)* [[raw/OMNI_schedule_grooming-june-26-2025.md]]
 
+## July 11 2025 — test-automation 1:1 (pace, the dev-writes-hooks idea, Nebraska work)
+
+On a 1:1 with [[wiki/people/val-levitan.md|Val]] ([[wiki/meetings/2025-07-11-anton-testing-1on1.md]]; Russian) Anton reported test-integration into the game framework is **~70–80% done**; the **test-infrastructure** question (a configurable data-center per product/setting) is still open, with **Zhenya** to add the LSS hooks and Anton the test-framework interface — but it is **not top priority** given his workload. He and Val agreed covering all of Omni with tests at the current pace is **"years, not a year"** — unrealistic, and "you can't solve it with more people" because new hires would need training on JVL's game specifics. Anton's proposal (the core idea): the **developer who adds a new feature should also add its test hooks**, shrinking the chain from **three links** (developer → hook-writer → tester) to **two**, via a **plugin-per-feature** design so testers can drive each new bonus/feature from their side. His own current work: the **22 Nebraska skill games** (one done, one ~80%) and a **bonus rework after the math changed**. See [[wiki/topics/test-automation-strategy.md]]. [[raw/update_anton-july-11-2025.md]]
+
+- **Irina Makarych = game developer (corroboration).** Val listed the people who write game-level implementation code as "**Irina Makarych**, or you [Anton], or Metelski — those three" (plus Igor and Alexander on the framework) — consistent with the owner ruling that the game-dev "Irina" is [[wiki/people/irina-makarych.md|Makarych]] (distinct from QA director [[wiki/people/irina-shishko.md|Irina Shishko]]). [[raw/update_anton-july-11-2025.md]]
+
 ## Sources
 
+- [[raw/update_anton-july-11-2025.md]]
 - [[raw/OMNI_schedule_grooming-june-26-2025.md]]
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
 - [[raw/ai-assisted_development_with_vs_code_git_and_mcp_january_14_2025.md]]
