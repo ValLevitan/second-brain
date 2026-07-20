@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna, Selena, Elena]
-source-count: 31
+source-count: 32
 open-commitments: 1
 ---
 
@@ -129,8 +129,13 @@ On the [[wiki/meetings/2025-06-12-games-design-priorities-review.md|June-12 prio
 
 On the [[wiki/meetings/2025-06-23-nebraska-game-design-planning.md|Nebraska design + planning session]] Lena is producing the **comp art** for the six Golden Husk games (working with Michael this week, per Juan's direction). Method: present a comp for one game (no-DNOM button; with/without the pattern-match button) for Juan to confirm, then rinse-and-repeat; she needs a comp image per game because the many small adjustments can't be described. She was aware **Crazy Spins** needs an added wild symbol, and she can start the primary win-meter compact now. She uses **sprints** for design (Val recommended **Kanban**). See [[wiki/projects/nebraska-skill-market.md]]. [[raw/NE_game_design_and_planning-june-23-2025.md]]
 
+## July 28 2025 — Media Tax Credit application lists
+
+On the [[wiki/meetings/2025-07-28-media-tax-credit-examiner-coaching.md|Media Tax Credit coaching call]] Lena is the keeper of what counts as claimable **production labour** ("everything Lena considers a production") and of the **game lists** submitted to Ontario Creates — she supplied Val the list of 13 online games claimed as interactive. She and Michael confirmed the online-games **interactivity gap**: the special land-based golden-frame bonus was designed and math'd but never deployed online, and the three "China" games (Red Envelope feature) are passive, not interactive. She was to feed Michael her factually-correct firmware/hardware answers for him to reword. See [[wiki/topics/ontario-media-tax-credit.md]]. [[raw/media_tax_credit_team_coaching-july-28-2025.md]]
+
 ## Sources
 
+- [[raw/media_tax_credit_team_coaching-july-28-2025.md]]
 - [[raw/NE_game_design_and_planning-june-23-2025.md]]
 - [[raw/games_design_recap-may-29-2025.md]]
 - [[raw/github _structure-pavel-aaron-andrei.md]]
