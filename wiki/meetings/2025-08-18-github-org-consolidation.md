@@ -13,7 +13,7 @@ source-count: 1
 Purpose: whether to **collapse JVL's several GitHub organizations into one (or very few)**. The substance and dated evolution of the multi-org→one-org shift live on the decision sequencer: [[wiki/decisions/2025-02-11-github-org-naming-and-structure.md]].
 
 Key points captured there:
-- Restructuring the org/repo layout "is not a problem"; the cost is that **many GitHub Actions must be rewritten** (cross-referencing actions especially — Andrei, Pavel, Sergei Tsyganov, "Sasha").
+- Restructuring the org/repo layout "is not a problem"; the cost is that **many GitHub Actions must be rewritten** (cross-referencing actions especially — Andrei, Pavel, [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] (transcribed "Tsyganov"), "Sasha").
 - Timing: **wait ~1–2 weeks** until people are back from holiday (the person who wrote an action edits it fastest); "no panic," plan it into the schedule.
 - **Admin model changes:** with fewer orgs, ownership consolidates to **Andrei, Dima, Val and Aaron**; Andrei alone would grant rights/permissions.
 - Val's rationale: one org **streamlines** everyone (everyone sees all repos), and managing many orgs (separate link structures per org) is inconvenient for all — he began pulling management info from GitHub via Yandex(?) and found the multi-org setup awkward. "Кругом бегом" advisors even push for a **single** organization.

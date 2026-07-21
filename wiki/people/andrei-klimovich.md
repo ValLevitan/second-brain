@@ -4,7 +4,7 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 21
+source-count: 22
 open-commitments: 9
 open-questions: 0
 ---
@@ -158,8 +158,13 @@ Two ~July-17 calls with Val (dates inferred/queued):
 
 On the [[wiki/meetings/2025-08-07-klimovich-echo-amazon-marketing-recap.md|Aug-7 recap]] (date inferred) Andrei reported the ECHO state: only 3 machines left at Amazon with a 6-home/6-commercial batch queued for intake "the 13th," a customs-broker change Val wants, the marketing roster (Fedor/Valeria/Anton + incoming Google) and program spend, the documentary (Dan filming; RePlay journalist intros; target September) and YouTuber-agency outreach (Paul/Hanna). Val told him to **deprioritize the Flex web page** (Felipe/Juan busy with the Aug-19-21 Georgia expo) and instead produce a full **marketing plan + calendar + budget** for the holiday push, and to plan a **September Amazon inventory build of ≥100 machines**. Full detail on [[wiki/topics/echo-home-gaming-device.md]]. [[raw/Echo_home_amusement-recap-align.md]]
 
+## Sept 15 2025 — ECHO marketing update (series opener)
+
+On the [[wiki/meetings/2025-09-15-echo-distribution-marketing-update.md|Sept-15 update]] (§12 internally duplicated; recording date Sept-15 per §11 — opens the Sept-15/16/17/26 ECHO-marketing series) Andrei reported the ECHO state: Meta driving website + Amazon-installment traffic (IG ~220 subs, Facebook dead, no Meta-attributed sales), Amazon at **3 five-star reviews** but a **too-high 11%/10% return rate** (vs the 5% cap), the shipping bottleneck at Amazon (lost 1 of 12 machines), a **$2,000–2,500/mo Instagram influencer plan** (~50 shortlisted), and a trade-media/guns-media push (RePlay, Arcade Heroes, Crowley Media/Athlon Outdoors, American Handgunner). Val coached targeting the **premium** gun collector (Staccato/Wilson Combat tier). Google still pending Monica's contract. Full detail on [[wiki/topics/echo-home-gaming-device.md]]. [[raw/echo_distribution_marketing_update-september-15-2025.md]]
+
 ## Sources
 
+- [[raw/echo_distribution_marketing_update-september-15-2025.md]]
 - [[raw/Echo_home_amusement-recap-align.md]]
 - [[raw/andrei_klimovich_echo_status_update_2025-07-09.md]]
 - [[raw/jvl_online_sync_2025-03-29 1.md]]

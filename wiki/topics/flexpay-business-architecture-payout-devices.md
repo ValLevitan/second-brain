@@ -3,7 +3,7 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS]
-source-count: 64
+source-count: 65
 open-commitments: 19
 open-questions: 4
 ---
@@ -497,6 +497,16 @@ The [[wiki/meetings/2025-09-09-pos-spatial-hardware-board-planning.md|Sept-9 3:1
 - **The debate: one board vs main-board + interface-board.** Val pushed to consolidate onto **one board** (as done on Flex-Port) — fast assembly, "sandwich" mount behind the screen, connectors up off the tabletop (spills/water/vibration are the real failure and cost drivers: "our money is in assembly and development, not in buying the board"). Genadi + Pavel defended the **two-board split** — the ready-made cheap Chinese **Rockchip** main board (multi-layer, expensive to custom-make) + a cheap **2-layer interface board** that's trivial to change later; a custom processor board wouldn't be cheaper, would risk the **January** target, and likely wouldn't work first try. **Outcome: keep the existing scheme now; consider a custom board as a future exercise.** [[raw/POS_spatial_planning-september-9-2025.md]]
 - **Connectors / details.** Only real weak point is the **second monitor's HDMI-micro connector** (not shielded, not latching); plan is to ask the China supplier to **swap it for a more industrial connector** (or offer a different board). Touchscreens connect via **USB** (standard, software-transparent). Card-reader **status LED** driven from the interface board, lit only when awaiting a card; built-in beeper kept; monochrome embossed **JVL** on the reader slot rather than a separate lit part. Pavel floated **LVDS daisy-chain / dual-mode** to drive both monitors off one connector (depends on Rockchip dual-mode support) — an Alekseev question; a meeting with Alekseev booked next day. [[raw/POS_spatial_planning-september-9-2025.md]]
 
+## Sept 15 2025 — Flex-POS alignment & scheduling: the January POS runway
+
+A short realignment on [[wiki/people/nathan-carver.md|Nathan]]'s return from time off ([[wiki/meetings/2025-09-15-flex-pos-alignment-scheduling.md]], 6:06 PM; [[wiki/people/val-levitan.md|Val]], Nathan, [[wiki/people/pavel.md|Pavel]], [[wiki/people/genadi-peari.md|Genadi]], [[wiki/people/juan-martinez.md|Juan]]) re-engaging the team on the one critical deliverable — the **POS system for January** (hardware + back-end). [[raw/Flex-POS-alignment-scheduling-september-15-2025.md]]
+
+- **The clock.** Only Oct/Nov/Dec (~3 months) are usable — half of December is a write-off and Minsk is off a week in January. [[raw/Flex-POS-alignment-scheduling-september-15-2025.md]]
+- **Hardware (Genadi): ~80–90% designed.** Design/material/spatial/component selection ~80–90% done; next is the **plastic enclosure** and **tooling**. New boards ~**mid-November**, mechanics design ~**early November**; **rapid prototypes** in January (not full molds), **mass production right after Chinese New Year** (~Feb). Genadi judged **rapid prototyping "very durable, same like a mold"** (as on the curved-cabinet sound system) — only the finish is less glossy, and it's cheap for 5–10 pieces. [[raw/Flex-POS-alignment-scheduling-september-15-2025.md]]
+- **Software/architecture (Pavel):** implement the **InComm Cloud Payment Hub cloud application by end of October** plus the Flex-POS module communicating via it; by **January 1**, a first Flex-POS app that processes **Mutha Goose** commands, stores them in the Flex-POS DB, and **redeems a card** via the payment hub. This continues the Sept-9 [[wiki/meetings/2025-09-09-top-level-backend-architecture.md|top-level back-end]] "cloud InComm payment hub first" phasing. [[raw/Flex-POS-alignment-scheduling-september-15-2025.md]]
+- **Use cases (Nathan):** ~90% known; first version of the rest ~end of next week, handed to Pavel/Juan; prioritize software fields that unblock (device provisioning first). [[raw/Flex-POS-alignment-scheduling-september-15-2025.md]]
+- **Val's priority order — payment hub first, then ACH (a "showstopper").** Nathan had already identified one or two **ACH-processing specialty shops** and was told to open the relationship, get the **API** and discuss terms as the first priority. Val to draft the schedule from the transcript for Nathan/Juan review. (Commitments tracked on the meeting stub.) [[raw/Flex-POS-alignment-scheduling-september-15-2025.md]]
+
 ## Open commitments
 
 - [ ] Pavel Frolov — prepare updated schematics/diagrams of the current CMS implementation (locate/export the prior Miro-board artifacts) for the next block-diagram session; assess creating a new design from scratch aligned to the new architecture — due by the next arc session (~Aug 22) — [[raw/CMS- Block Diagram_Arch.md]]
@@ -593,3 +603,4 @@ The [[wiki/meetings/2025-09-09-pos-spatial-hardware-board-planning.md|Sept-9 3:1
 - [[raw/Flex Capabilities Weekly Update-september-3-2025.md]]
 - [[raw/POS_spatial_planning-september-9-2025.md]]
 - [[raw/GACOAM_trade_show_recap.md]]
+- [[raw/Flex-POS-alignment-scheduling-september-15-2025.md]]

@@ -4,7 +4,7 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "IT (GitHub-admin, infrastructure, secrets/Azure, AI-tool accounts) — the IT-context "Dima". Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 13
+source-count: 14
 ---
 
 # Dmitri Kovalchuk
@@ -53,8 +53,13 @@ On the maturity review ([[wiki/meetings/2025-05-28-it-maturity-delinea-secrets.m
 
 On a short call ([[wiki/meetings/2025-09-05-copilot-mcp-atlassian-microsoft-tenant.md]], 1:57 PM; [[wiki/people/val-levitan.md|Val]] present), [[wiki/people/aaron.md|Aaron]] proposed the directive **"Dmitri, you are responsible for our Microsoft tenant and our 365 tenant space"** and asked Dmitri to understand and help set up **Copilot Studio** for JVL plus **Copilot agents with MCP access to Atlassian**. (Recorded as Aaron's proposed assignment; fits the IT "Dima" context — infrastructure / AI-tool accounts.) See [[wiki/topics/ai-assisted-development.md]] (Sept-5). [[raw/copilot_mcp-september-5-2025.md]]
 
+## Sept 15 2025 — SharePoint demo for the finance file architecture
+
+On [[wiki/people/alka-sood.md|Alka Sood]]'s 4:01 PM file-architecture call ([[wiki/meetings/2025-09-15-onedrive-sharepoint-file-architecture.md]]) Dmitri (with [[wiki/people/andrey-bosik.md|Andrei Bosik]]) **live-demonstrated SharePoint** — explaining SharePoint (a site) vs OneDrive (storage), and creating a **private team site** (Microsoft-credential sign-in, members, owner/edit rights) — as JVL decided to move the weekly payment proposal and other finance files off email onto secured SharePoint sites. Fits his Sept-5 assignment as owner of JVL's Microsoft/365 tenant. See [[wiki/topics/jvl-finance-back-office.md]], [[wiki/topics/infosec-and-server-infrastructure.md]]. [[raw/One-Drive _ Sharepoint_discussion.md]]
+
 ## Sources
 
+- [[raw/One-Drive _ Sharepoint_discussion.md]]
 - [[raw/copilot_mcp-september-5-2025.md]]
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
 - [[raw/it_maturity_update-may-28-2025.md]]

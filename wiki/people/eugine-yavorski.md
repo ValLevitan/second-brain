@@ -2,7 +2,7 @@
 type: person
 title: Eugine Yavorski
 date: 2025-02-18
-aliases: [Eugine Yavorski, Evgeny Yavorsky, Yavorski, Yavorsky, Яворский, Evgeny Egorsky, Egorsky, Егорский, Evgeny, Yevgeny, Zhenya, Женя, Евгений]
+aliases: [Eugine Yavorski, Evgeny Yavorsky, Yavorski, Yavorsky, Яворский, Evgeny Egorsky, Egorsky, Егорский, Evgeny Nevorsky, Nevorsky, Неворский, Evgeny, Yevgeny, Zhenya, Женя, Евгений]
 disambiguation: "FlexPort/FlexPay integration engineer (alias Egorsky), this page. Evgeny/Zhenya cluster (THREE, owner-confirmed 2026-07-19): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration engineer (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = owner of the main embedded code branch; [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS developer (payroll "Kharetski Yauheni"). Resolve by context: FlexPort/FlexPay integration → Yavorski; embedded main branch → Alekseev; LGS/Omni backend → Kharetski; queue what fits none."
 source-count: 20
 open-commitments: 2

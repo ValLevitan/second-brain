@@ -3,8 +3,8 @@ type: person
 title: Alka Sood
 date: 2026-07-14
 aliases: [Alka Sood, Alka, Cogna]
-source-count: 11
-open-commitments: 11
+source-count: 12
+open-commitments: 13
 ---
 
 # Alka Sood
@@ -40,6 +40,8 @@ Alka Sood is JVL's **finance contractor** (her business is **Cogna**, per the 20
 - [ ] Alka — send Val a written status update before she leaves on vacation (Jul 12) covering what's done and where things stand — due ~Jul 11 — [[raw/finance_update_alka-july-3-2025.md]]
 - [ ] Alka — build the all-payables control sheet (government remittances across Systems + Labs; delegate to Igor/Laura) and reconcile it to the trial balance and the bank; extend the same to credit cards, subcontractors and vendor lists — due unspecified (Sept 9) — [[raw/finance_recurring_meeting.md]]
 - [ ] Alka — write up the contractor payment process (fixed = no invoice; variable = invoice by 25th → approve 26th → single disbursement 30th) for Val's review — due unspecified (Sept 9) — [[raw/finance_recurring_meeting.md]]
+- [ ] Alka — start sending Val the weekly payment proposal via a SharePoint link (next week) and begin working the cash flow with Val on SharePoint — due ~week of Sept 15 — [[raw/One-Drive _ Sharepoint_discussion.md]]
+- [ ] Alka — design the SharePoint site structure (~5–6 sites) with governance over who can create sites, and migrate the accounting folder (last 3 years only) — due unspecified (Sept 15) — [[raw/One-Drive _ Sharepoint_discussion.md]]
 
 ## Apr 15 2025 — control sheet delivered; evaluations and automation
 
@@ -85,8 +87,13 @@ On the recurring call ([[wiki/meetings/2025-09-09-finance-recurring-alka.md]], 6
 - **EDS + loans.** The matured **$400k USD GIC** (into Systems Canada) moves to Systems US to make the EDS payment; Val prefers routing to EDS in **Colombian currency**. She owes an updated **loan control sheet** (~Mon/Tue) and flagged the **~$3.8M** item is mis-booked as accrued interest on JVL's balance sheet; JVL actively pays only the **2011** and **840914** notes (~$20k/mo on 840914). See [[wiki/topics/jvl-finance-back-office.md]], [[wiki/topics/jvl-corporate-loans-and-shareholder-financing.md]], [[wiki/organizations/eds-colombia.md]]. [[raw/finance_recurring_meeting.md]]
 - **§15.8:** no named-person compensation figures ingested (the subcontractor fixed-vs-variable split carries no amounts; [[wiki/people/mikhail-perelman.md|Mikhail]]'s $5,000 PO limit is a signing authority). [[raw/finance_recurring_meeting.md]]
 
+## Sept 15 2025 — SharePoint file architecture (replacing email-shuttled Excel)
+
+On a 4:01 PM working/demo call ([[wiki/meetings/2025-09-15-onedrive-sharepoint-file-architecture.md]]; with [[wiki/people/val-levitan.md|Val]], [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] + [[wiki/people/andrey-bosik.md|Andrei Bosik]] (IT), [[wiki/people/igor-donis.md|Igor Donis]], [[wiki/people/felipe-miranda.md|Felipe Miranda]]) Alka pushed to stop emailing Excel files (they get corrupted / instructions lost) and instead share them from a **secured SharePoint** location. Her driver is the weekly **payment proposal** she sends Val — she wants him to click a link, comment, and have it captured instantly, with the ability to **lock** it once he authorizes so no one overrides his instructions, and **per-file access** so sensitive files (e.g. the pre-authorized customer-payment file with banking details) are limited (not even Felipe sees everything). Val's ruling: **start on SharePoint** and see. Alka's design: ~**5–6 sites** (accounting site holding the payment folder/cash-flow/monthly reports/PO auth; an executive site for her+Val's management reporting) with governance over who can create sites; migrate the local-office **accounting folder** onto SharePoint after cleaning to the last 3 years. Val also wants the payment/PO report built in **Business Central and linked to SharePoint** (Igor to explore). See [[wiki/topics/jvl-finance-back-office.md]] and [[wiki/topics/infosec-and-server-infrastructure.md]]. [[raw/One-Drive _ Sharepoint_discussion.md]]
+
 ## Sources
 
+- [[raw/One-Drive _ Sharepoint_discussion.md]]
 - [[raw/finance_recurring_meeting.md]]
 - [[raw/finance_update_alka-july-3-2025.md]]
 - [[raw/finance_loans_review_sean_alka-june-13-2025.md]]
