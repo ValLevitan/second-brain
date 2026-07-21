@@ -3,8 +3,8 @@ type: person
 title: Alka Sood
 date: 2026-07-14
 aliases: [Alka Sood, Alka, Cogna]
-source-count: 13
-open-commitments: 13
+source-count: 14
+open-commitments: 16
 ---
 
 # Alka Sood
@@ -42,6 +42,9 @@ Alka Sood is JVL's **finance contractor** (her business is **Cogna**, per the 20
 - [ ] Alka — write up the contractor payment process (fixed = no invoice; variable = invoice by 25th → approve 26th → single disbursement 30th) for Val's review — due unspecified (Sept 9) — [[raw/finance_recurring_meeting.md]]
 - [ ] Alka — start sending Val the weekly payment proposal via a SharePoint link (next week) and begin working the cash flow with Val on SharePoint — due ~week of Sept 15 — [[raw/One-Drive _ Sharepoint_discussion.md]]
 - [ ] Alka — design the SharePoint site structure (~5–6 sites) with governance over who can create sites, and migrate the accounting folder (last 3 years only) — due unspecified (Sept 15) — [[raw/One-Drive _ Sharepoint_discussion.md]]
+- [ ] Alka — have the loan records ready and reconcile bank receipts against loan disbursement records as far back as possible (enlisting Daniel as a personal favour to locate missing records) — due while Val is away next week (Oct 2025) — [[raw/finance_recurring_meeting-october-7-2025.md]]
+- [ ] Alka — run the phased line-by-line consolidation sessions with Igor and deliver Val a preliminary review ~end of October ahead of the first-week-November completion — [[raw/finance_recurring_meeting-october-7-2025.md]]
+- [ ] Alka — fix the control-sheet formula, save the version-dated responsibility matrix, and put it in SharePoint in a folder for Val by end of week (Oct 2025) — [[raw/finance_recurring_meeting-october-7-2025.md]]
 
 ## Apr 15 2025 — control sheet delivered; evaluations and automation
 
@@ -95,9 +98,14 @@ On a 4:01 PM working/demo call ([[wiki/meetings/2025-09-15-onedrive-sharepoint-f
 
 On a [[wiki/meetings/2025-09-16-cash-forecast-2026.md|7:03 PM call]] Alka walked Val through a first-draft **cash-flow forecast** she and [[wiki/people/igor-donis.md|Igor]] built over the weekend from JVL's financial records — receipts/payables/monthly expenses projected **Oct 2025 → Dec 2026** (cash turning red in July), a reusable template with a CAD/USD toggle. Val fed corrections (labs receivables ~0; Minsk is **$70k US/mo all-in = $1.2M CAD/yr**, not the higher figure the model showed) and asked her to **verify AR/AP** (Igor back tomorrow) before publishing to SharePoint. No §15.8 material (corporate cash-flow/forecast/loan/Minsk-program economics only). See [[wiki/topics/jvl-finance-back-office.md]] (Sept-16). [[raw/cash_forecast_till_2027-september-16-2025.md]]
 
+## Oct 7 2025 — loan reconciliation, Nov consolidation, BC license to Laura, matrix re-cut
+
+On the recurring call ([[wiki/meetings/2025-10-07-finance-recurring-alka.md]], 7:42 PM) Alka set the loan-reconciliation and consolidation plan and re-cut the finance-team responsibility matrix with Val. She will reconcile bank receipts against the loan disbursement records as far back as possible and may enlist the departed [[wiki/people/daniel-eds.md|Daniel]] (who just quit) as a personal favour to locate records — Val keeping JVL/himself out of it. Igor's consolidation runs as **3–4-hour line-by-line sessions per phase**, completing **first week of November**, with a **preliminary review to Val ~end of October**; taxes are already filed (Labs + Systems separately). She moved her **Business Central license to [[wiki/people/laura.md|Laura]]** (who takes the reconciliations) to save a license, and pushed PO discipline to every vendor (services + rent). Matrix: Laura gets reconciliation validation + services PO matching; Chris keeps bank recs + manufacturing POs; Mary is left mainly logistics/quotes. §15.8: no compensation figures (utilization percentages are workload). See [[wiki/topics/jvl-finance-back-office.md]] (Oct-7). [[raw/finance_recurring_meeting-october-7-2025.md]]
+
 ## Sources
 
 - [[raw/cash_forecast_till_2027-september-16-2025.md]]
+- [[raw/finance_recurring_meeting-october-7-2025.md]]
 - [[raw/One-Drive _ Sharepoint_discussion.md]]
 - [[raw/finance_recurring_meeting.md]]
 - [[raw/finance_update_alka-july-3-2025.md]]

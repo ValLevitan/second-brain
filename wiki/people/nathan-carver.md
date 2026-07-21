@@ -3,7 +3,7 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 15
+source-count: 16
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
 
@@ -57,9 +57,14 @@ On the [[wiki/meetings/2025-09-16-backend-blueprint-payment-hub-review.md|Sept-1
 
 On the [[wiki/meetings/2025-09-22-specification-standards-review-aaron.md|Sept-22 specification-standards review]], when Val ruled that JVL spec **Omni first**, he assigned the **Flex POS specification to Nathan** in parallel because Flex POS is isolated ("we can put Nathan on that job and he can probably do a decent job"). Aaron and Val also agreed Nathan is **not** the Omni product owner. [[raw/specification_standards_review-september-22-2025.md]]
 
+## Oct 8 2025 — ACH vendor-readiness table + FedNow research
+
+On the [[wiki/meetings/2025-10-08-flex-capabilities-ach-vendors-fednow.md|Oct-8 Flex capabilities weekly]] (12:05 PM, with Val + [[wiki/people/pavel.md|Pavel]]) Nathan presented a **seven-provider ACH vendor-readiness table** (Dwolla, Modern Treasury, Stripe, Tabapay, Moov, Phoenix, Sila) with pricing and use-case fit — recommending **Dwolla** as ready-to-go with the fewest unknowns; **Modern Treasury** as a SaaS layer over JVL's Bank of America; **Stripe** (ACH pull, ~1.5%) pending its answer; **Tabapay** parked for high volume; **Moov** having asked for JVL's EIN. He took the undertakings to **schedule the Dwolla integration in Jira with Pavel** and to **dig into FedNow** (the near-real-time Fed rail Val surfaced — connection via a regulated institution or a Fedline third party) plus the NSF failure-mode use case. He'll put the Dwolla API on the development path (BEP 2656 / Nov-12). See [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Oct-8). [[raw/Flex_capabilities_weekly_update-october-8-2025.md]]
+
 ## Sources
 - [[raw/specification_standards_review-september-22-2025.md]]
 - [[raw/back-end_architecture_blueprint_review.md]]
+- [[raw/Flex_capabilities_weekly_update-october-8-2025.md]]
 - [[raw/CMS- Block Diagram_Arch.md]]
 
 - [[raw/2025-08-06_Flex-POS-Mid-Iteration-Sync.md]]

@@ -4,8 +4,8 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 46
-open-commitments: 5
+source-count: 47
+open-commitments: 6
 ---
 
 # Andrey Bosik
@@ -96,6 +96,7 @@ On the Verba/Weaviate session ([[wiki/meetings/2025-04-23-verba-weaviate-company
 - [ ] Andrei — enable GitHub Copilot for the whole team, set up Lena on the tooling, and write a step-by-step VS Code / Git-LFS onboarding handout (draft with Andre, then test on Lena) — due unspecified — [[raw/GitHub_Commit_LFS-Feb-18-2025.md]]
 - [ ] Andrei — create the two new **Game Concepts** and **Game Designs** GitHub organizations (mirroring the Jira concept/design/production stages) and grant Lena repo-creation rights — due unspecified — [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]
 - [ ] Andrei ("Andre") — get the Fortune Foo Paws `.github` **contact-sheet Action** working as a functional repo action (set up Git-access credentials, modify the YAML to use them) and demo it committing a Photoshop file — due by the Wednesday 9am meeting — [[raw/Git_progress_check_in_2025-02-28.md]]
+- [ ] Andrey — work out how to correctly create and name the **game-concept-stage GitHub repositories** (review the agreed naming table, propose naming + access model) for the next-day meeting — due Oct 8 2025 — [[raw/objectives_workflow_meeting-october-7-2025.md]]
 
 - **Owner-ruled (2026-07-14):** the "Андрей" who co-designs the **one-button game-container deployment** with [[wiki/people/efim-podvoiski.md|Efim Podvoiski]] is Bosik (see [[wiki/topics/rgs-architecture-and-integration.md]]). Owner also fixed his title wording: **DevOps engineer**. [[raw/Explain RGS.md]]
 
@@ -138,9 +139,14 @@ On the short [[wiki/meetings/2025-08-15-keeper-install-authorization.md|Aug-15 s
 
 On the [[wiki/meetings/2025-08-18-github-org-consolidation.md|Aug-18 4:30pm meeting]] with [[wiki/people/val-levitan.md|Val]] and [[wiki/people/pavel.md|Pavel Frolov]], Andrei worked Val's push to **collapse JVL's several GitHub organizations into one (or few)**. He flagged the migration cost — **many Actions (incl. cross-referencing ones) must be rewritten** — and urged waiting **~1–2 weeks** for people to return from holiday. Under a single-org model **he alone would issue rights/permissions** (owners: Andrei, Dima, Val, Aaron). Andrei + Pavel to meet the next day to define org naming and the migration map. Reverses the multi-org structure he helped build; see [[wiki/decisions/2025-02-11-github-org-naming-and-structure.md]]. [[raw/Git_organization_management.md]]
 
+## Oct 7 2025 — game-concept-stage workflow + repo prep
+
+On a 3:02 PM prep call ([[wiki/meetings/2025-10-07-game-concept-workflow-prep.md]]) Val briefed Andrey ahead of the next day's game-concept-stage meeting: mapping the Jira→GitHub handoff (feature = branch, product = repository; "Done" = the PR merged, driven from GitHub), keeping a **universal Backlog/To-Do/In-Progress/Done workflow** across value streams (Andrey argued the shared action names must not change between streams even where game production adds wider stages — Val agreed), and replacing **Confluence with Obsidian** for writing game abstracts in MDX inside the repo (Andrey flagged the Python scripts that process this would need templating per repo). Andrey's homework: work out how to correctly create/name the game-concept-stage repositories. Continues his GitHub/DevOps ownership and the [[wiki/topics/docs-as-code-and-atlassian-exit.md|Atlassian-exit]] thread; ties to [[wiki/decisions/2025-04-03-jira-capability-level-and-github-mapping.md]]. [[raw/objectives_workflow_meeting-october-7-2025.md]]
+
 ## Sources
 
 - [[raw/GitHub repository structure.md]]
+- [[raw/objectives_workflow_meeting-october-7-2025.md]]
 - [[raw/it_maturity_update-may-28-2025.md]]
 - [[raw/github _structure-pavel-aaron-andrei.md]]
 - [[raw/Git_organization_management.md]]

@@ -4,7 +4,7 @@ title: Igor Donis
 date: 2026-07-13
 aliases: [Igor Donis, Igor]
 disambiguation: "JVL Financial Controller — the finance/corporate Igor. One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
-source-count: 4
+source-count: 5
 ---
 
 # Igor Donis
@@ -29,6 +29,10 @@ Attended the tax-dispute status review with litigator [[wiki/people/mauricio-med
 
 On the [[wiki/meetings/2025-09-16-cash-forecast-2026.md|Sept-16 cash-forecast call]], [[wiki/people/alka-sood.md|Alka]] presented a cash-flow model **Igor built over the weekend** from JVL's financial records (AP aging, receivables, monthly expenses; Oct 2025 → Dec 2026) — she was "interrogating him earlier this morning" on the underlying spreadsheet; Igor is back the next day to help verify the AR/AP figures. (Attribution by context — the source names only "Igor"; finance-context → Donis, consistent with his all-payables control-sheet build on the Sept-9 recurring call.) See [[wiki/topics/jvl-finance-back-office.md]] (Sept-16). [[raw/cash_forecast_till_2027-september-16-2025.md]]
 
+## Oct 7 2025 — runs the consolidation with Alka
+
+On the [[wiki/meetings/2025-10-07-finance-recurring-alka.md|Oct-7 recurring finance call]], [[wiki/people/alka-sood.md|Alka]] described the consolidation work running as **3–4-hour line-by-line working sessions between her and Igor at each phase**, completing **first week of November** — continuing the cash-forecast/consolidation modelling Igor built with her from Sept-16. (Attribution by context — the source names only "Igor"; finance/consolidation → Donis.) See [[wiki/topics/jvl-finance-back-office.md]] (Oct-7). [[raw/finance_recurring_meeting-october-7-2025.md]]
+
 ## Identity note
 
 **Owner-confirmed:** Igor Donis (this page, finance/corporate) is distinct from the other Igor-named people — there are **five** (see the §4 registry): [[wiki/people/igor-nazarenka.md|Igor (Ihar) Nazarenka]] (mobile-app, owner-confirmed 2026-07-14), [[wiki/people/igor-starovoytov.md|Igor Starovoytov]] (industrial designer), [[wiki/people/igor-metelski.md|Igor Metelski]] (RGS engineer), and [[wiki/people/ihar-hrybko.md|Ihar Hrybko]] (UX/UI). Finance/controller/corporate → Donis. Queue any "Igor" that fits none.
@@ -36,6 +40,7 @@ On the [[wiki/meetings/2025-09-16-cash-forecast-2026.md|Sept-16 cash-forecast ca
 ## Sources
 
 - [[raw/cash_forecast_till_2027-september-16-2025.md]]
+- [[raw/finance_recurring_meeting-october-7-2025.md]]
 - [[raw/jvl_systems_corporate_identity_tax_ids_2026-06-04.md]]
 - [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
 - [[raw/mx_tax-dispute_status_review-july-5-2025.md]]

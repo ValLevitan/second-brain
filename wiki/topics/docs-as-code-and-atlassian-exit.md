@@ -3,7 +3,7 @@ type: topic
 title: Docs-as-code and the plan to exit Atlassian
 date: 2025-02-21
 aliases: [docs as code, documentation site, GitHub Pages, GitHub Docs, mermaid, Confluence exit, Atlassian exit, single source of truth, template repo, contact sheet, GDD]
-source-count: 7
+source-count: 8
 open-questions: 1
 ---
 
@@ -65,6 +65,10 @@ Two April sessions turned the docs-as-code principle into a concrete, mandated r
 
 - By mid-March the interim state was: JVL **left Miro** ("мы же ушли от мира") and Val had emailed everyone that **"we are switching to Confluence"** — Confluence has a whiteboard — as the place for architecture diagrams, with **Mermaid** in active use for drawing (Chudinov drew his diagram in "Мермейн" — Mermaid — having been told "сейчас рисуют через Мермейн"). [[wiki/people/dmitri-chudinov.md|Dima Chudinov]] had saved his Miro exports but not yet transferred them; access reportedly requires Git accounts. (Consistent with the Feb rule that Confluence is transitional — this is the sandbox tier, while committed markdown remains the source of truth.) See [[wiki/meetings/2025-03-19-back-office-architecture-chudinov.md]]. [[raw/back_office_next_step_forward_dzima_chudinov.md]]
 
+## Oct 7 2025 — Obsidian to replace Confluence for game abstracts (MDX in the repo)
+
+On the Oct-7 game-concept-workflow prep call ([[wiki/meetings/2025-10-07-game-concept-workflow-prep.md]], Val + [[wiki/people/andrey-bosik.md|Andrey Bosik]], Russian), Val advanced the Atlassian exit onto the game/design side: he wants the game team to **stop using Confluence** and instead write game **abstracts physically in Obsidian**, in a data/MDX format, so the abstract can be reused later to generate an easy graphical UI — Obsidian ingests documents easily and gives a light format straight into the repo (alternatively, write the docs directly in GitHub via MDX). Andrey noted the **Python scripts** that process this content would need templating/replicating per repository, and wanted to check the internals with the author. This extends the "docs live in the repo" principle to the game-concept stage, where each feature's abstract becomes a committed artefact. [[raw/objectives_workflow_meeting-october-7-2025.md]]
+
 ## Open questions
 
 - The initial Confluence-to-Markdown export was **incomplete**: the symbol table (symbol names + export naming) that exists in Confluence did **not** port. Aaron said Confluence's export may be lossy and it must be reconciled. [[raw/GitHub_commit_of_LFS_demo_by_Lena_2025-02-21.md]]
@@ -78,3 +82,4 @@ Two April sessions turned the docs-as-code principle into a concrete, mandated r
 - [[raw/back_office_next_step_forward_dzima_chudinov.md]]
 - [[raw/github_master_tree_structure-april-9-2025.md]]
 - [[raw/github_repo_structure-april-11-2025.md]]
+- [[raw/objectives_workflow_meeting-october-7-2025.md]]
