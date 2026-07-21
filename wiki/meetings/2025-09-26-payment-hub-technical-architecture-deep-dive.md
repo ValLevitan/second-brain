@@ -1,0 +1,35 @@
+---
+type: meeting
+title: Payment Hub technical architecture deep-dive — ACH adapter, reconciliation, Jan-1 MVP (Sept 26 2025)
+date: 2025-09-26
+aliases: [payment hub technical architecture deep dive, payment hub deep dive Sept 26, ACH adapter, reconciliation component, transaction solution IP744, ACH API adapter]
+source-count: 1
+open-commitments: 3
+open-questions: 0
+---
+
+# Payment Hub technical architecture deep-dive (Sept 26 2025)
+
+**Date:** 2025-09-26 (12:04 PM) · **Attendees:** [[wiki/people/val-levitan.md|Val Levitan]] (facilitator), [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/nathan-carver.md|Nathan Carver]]. English.
+
+The **first "deep-dive" architecture session between the two engineers** ([[wiki/people/pavel.md|Pavel]] + [[wiki/people/nathan-carver.md|Nathan]]) on the cloud **payment hub** — Val explicitly framed himself as **facilitator only** ("I cannot lead architecture of a design… I'm here to poke business holes in your assumptions"). It **continues the Sept-9/16 payment-hub thread** ([[wiki/meetings/2025-09-16-backend-blueprint-payment-hub-review.md|Sept-16 blueprint review]] booked Nathan for the 24th; this is the follow-through) and advances it from tech-stack decisions into a concrete **module breakdown + Jira feature layout**. Substance and the dated arc entry: [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Sept-26 section); the Jira mapping ties to [[wiki/decisions/2025-04-03-jira-capability-level-and-github-mapping.md]].
+
+Durable points (single source):
+
+- **Payment-hub product vision (Pavel's doc).** A cloud-server service providing **authentication + credential management**, a **unified channel for InComm API interactions**, secure/high-reliability communication, **open for horizontal expansion** (add servers per region) and well-structured to add modules (third-party **ACH**, third-party account-management like InComm). Stated goal: **avoid direct terminal→InComm API communication** and add security. Pavel flagged that the **ACH relationship is not yet in the doc** and must be added. [[raw/Payment_hub_technical_architecture_deep_dive-september-26-2025.md]]
+- **System architecture walked.** A **core processing module** (API communication between terminals — **Flex POS, Flex Pay** and others); an **InComm integration module** (InComm API); communication with the **control server** (currently the **CMS server**) — reusing JVL's known tooling for machine setup / remote initial setups / parameter-sets pushed to a terminal, and to feed the payment hub terminal/location/credential data so it can **authorize or prohibit** a terminal↔InComm card-issue exchange; plus a **database** and a **transaction-logging** module. Pavel: "quite simple architecture" in general. [[raw/Payment_hub_technical_architecture_deep_dive-september-26-2025.md]]
+- **The January-install layering question → MVP sequencing.** Val asked how to layer/design it to run the **first 10 installations in January**. Pavel's minimal set: (1) terminal↔payment-hub comms; (2) payment-hub↔InComm comms; (3) control-server↔payment-hub comms — buildable by ~**mid-November**. Val insisted the **ACH-provider API** must also be a **minimum-viable** feature ("I don't believe we have a viable business model without an ACH provider… I don't want to go into the field without it"). Resolution: an **MVP for November** (without ACH) and a separate **MVP for January 1st that includes ACH**. Val's frame: **January is the real rollout** (November has no hardware); the Jan MVP must include a **valid ACH transaction**. [[raw/Payment_hub_technical_architecture_deep_dive-september-26-2025.md]]
+- **Flex POS is the rollout product, not Flex Pay.** Pavel proposed an early November test using **Flex Pay** (modified to communicate via the payment hub instead of directly to InComm). Val: the business model being rolled out is **Flex POS**, not Flex Pay — he doesn't envision Flex Pay in the first rollout (fine for internal testing only). His January visual: **POS hardware in temporary printed-plastic bodies** + functioning initial hardware + an **initial cloud architecture at an MVP level**, scalable from there. [[raw/Payment_hub_technical_architecture_deep_dive-september-26-2025.md]]
+- **ACH split into processing vs adapter (Nathan).** The ACH piece is **two components**: a **batch/processing (reconciliation) component** that runs a **daily job** — aggregate outstanding ticket values per location, create the batch record/transaction, **initiate** new ACH transfers and **get status** on existing ones, updating JVL's system — and a **communication (API) adapter** to a specific ACH provider. **Switching providers only changes the adapter, not the processing component** (e.g. a "Duwalla" adapter today, swap to a "Tabupe" adapter later — provider names transcribed; "Duwalla" = **Dwolla**, the real provider from the Sept-3 ACH work; "Tabupe" spelling unverified). The **reconciliation component** is aware it is moving money between JVL and the location but is abstracted from *how* (which ACH provider). [[raw/Payment_hub_technical_architecture_deep_dive-september-26-2025.md]]
+- **Jira feature layout.** Val renamed **IP744** from "payment solution" to **"transaction solution."** Under it, a **payment hub** whose features to take into work: integration with the **ACH provider**, integration between **POS and payment hub**, and integration between **payment hub and InComm** — placed under **IP632**. Agreed to make the ACH piece **two separate features**: (1) the **ACH communication logic** and (2) a **specific ACH API adapter** for the chosen third party — with the reconciliation component sitting **before** the ACH adapter. [[raw/Payment_hub_technical_architecture_deep_dive-september-26-2025.md]]
+- **GitHub-for-diagrams + the Jira/GitHub experiment.** Nathan will produce architecture **diagrams in GitHub** (Pavel dislikes **Mermaid** for complex diagrams — hard to control), breaking the top level into smaller per-module graphs. Pavel noted JVL **started an experiment yesterday**: describe features/requirements in Jira but **create the tasks in GitHub** for this project. (Operationalizes the Apr-3 two-camp Jira↔GitHub mapping.) [[raw/Payment_hub_technical_architecture_deep_dive-september-26-2025.md]]
+
+## Open commitments
+
+- [ ] Nathan Carver — **link the payment-hub features to requirements** (his main undertaking) and produce architecture diagrams in the project's GitHub — [[raw/Payment_hub_technical_architecture_deep_dive-september-26-2025.md]]
+- [ ] Nathan Carver + Pavel Frolov — start writing the **spec** for the payment-hub features, aiming for a tight (evolving) spec tied to requirements, and bring QA in to write integration tests — [[raw/Payment_hub_technical_architecture_deep_dive-september-26-2025.md]]
+- [ ] Pavel Frolov — bring **at least one tester** to start coding tests against the features — [[raw/Payment_hub_technical_architecture_deep_dive-september-26-2025.md]]
+
+## Sources
+
+- [[raw/Payment_hub_technical_architecture_deep_dive-september-26-2025.md]]

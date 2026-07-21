@@ -4,7 +4,7 @@ title: Fast-pacing general-alignment stand-up — session 2 (spec prototyping) (
 date: 2025-09-17
 aliases: [fast-pacing stand-up session 2, fast-passing general alignment stand-up Sept 17, spec template, specification for the specification, reverse Omni spec interviews]
 source-count: 1
-open-commitments: 4
+open-commitments: 1
 open-questions: 0
 ---
 
@@ -29,10 +29,13 @@ Durable points (single source):
 
 ## Open commitments
 
-- [ ] Pavel Frolov + Irina Shishko — agree a **spec template** ("specification for the specification") the team will follow — due Monday (~Sept 22) — [[raw/fast-passing-general-alignment_stand-up-september-17-2025.md]]
-- [ ] Pavel Frolov — send Dima Chudinov's payment-hub ("Raymond Hub") spec link (product-vision / business / system requirements) to Nathan ahead of the next-day meeting — due ~Sept 18 — [[raw/fast-passing-general-alignment_stand-up-september-17-2025.md]]
-- [ ] Pavel Frolov + Irina Shishko — assign each engineer a documentation direction / competence area for the Sept-24 stand-up — due ~Sept 24 — [[raw/fast-passing-general-alignment_stand-up-september-17-2025.md]]
-- [ ] Val Levitan — schedule the next stand-up for Sept 24, 10:30 — due Sept 24 — [[raw/fast-passing-general-alignment_stand-up-september-17-2025.md]]
+- [ ] Pavel Frolov + Irina Shishko — assign each engineer a documentation direction / competence area — **partially advanced** on [[wiki/meetings/2025-09-24-fast-pacing-alignment-standup-pipeline-interviews.md|Sept-24]] (interview assignments: Tumanov→Kharetski data-center, Makarych onboarding, Metelski done), not yet a full per-engineer direction set — [[raw/fast-passing-general-alignment_stand-up-september-17-2025.md]]
+
+## History (discharged commitments)
+
+- [x] Pavel Frolov + Irina Shishko — agree a **spec template** ("specification for the specification") — **settled** at the [[wiki/meetings/2025-09-22-specification-standards-review-aaron.md|Sept-22 standards review]] (the reverse-Omni method + informal "as-built" first pass). [[raw/fast-passing-general-alignment_stand-up-september-17-2025.md]]
+- [x] Pavel Frolov — send Dima Chudinov's payment-hub spec link to Nathan — **done**: the [[wiki/meetings/2025-09-26-payment-hub-technical-architecture-deep-dive.md|Sept-26 payment-hub deep-dive]] shows Nathan reviewing Pavel's payment-hub docs/requirements. [[raw/fast-passing-general-alignment_stand-up-september-17-2025.md]]
+- [x] Val Levitan — schedule the next stand-up for Sept 24 — **done** (the [[wiki/meetings/2025-09-24-fast-pacing-alignment-standup-pipeline-interviews.md|Sept-24 session]] ran, at 2:33 PM rather than 10:30). [[raw/fast-passing-general-alignment_stand-up-september-17-2025.md]]
 
 ## Sources
 
