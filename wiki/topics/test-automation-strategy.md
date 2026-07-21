@@ -3,7 +3,7 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction]
-source-count: 21
+source-count: 22
 open-commitments: 2
 open-questions: 1
 ---
@@ -232,6 +232,15 @@ On the [[wiki/meetings/2025-09-10-fast-pacing-alignment-standup.md|series-openin
 - **"Reverse Omni" into a spec.** Because Omni was never written to a spec, JVL must **reverse-engineer it into one** (a permanent, ~10-year effort), then write tests per spec. An **integration test is part of the pull request** when a feature/capability is ready to merge to main; a caught bug sends you back to the spec to decide whether it was a mis-interpretation of the spec or a code error. This extends the Aug-26 "drop user stories, spec from recorded conversation" method (see [[wiki/people/aaron.md]] and [[wiki/decisions/2025-04-03-jira-capability-level-and-github-mapping.md]]). [[raw/fast-passing-general-alignment_stand-up-september-10-2025.md]]
 - **The mechanism.** Recorded **2-hour sessions daily / every-other-day** walking Omni **module by module** → transcript → **AI converts the code to a spec** → group discussion refines it. Val set this as [[wiki/people/pavel.md|Pavel]] + [[wiki/people/irina-shishko.md|Irina]]'s undertaking; developer skepticism is expected ("if they weren't skeptical I'd think they were robots"). Pavel proposed a proof-of-concept: independently write one small piece from a spec via AI to show it works. A new **auto-tester** (evaluating **Playwright** vs Selenium) started the prior Friday, working evenings with [[wiki/people/anton-leshkevich.md|Anton]] until ~October then full-time. [[raw/fast-passing-general-alignment_stand-up-september-10-2025.md]]
 
+## Sept 17 2025 — spec-driven development in practice (stand-up session 2)
+
+Session 2 of the fast-pacing stand-up series ([[wiki/meetings/2025-09-17-fast-pacing-alignment-standup-spec-prototyping.md]]; [[wiki/people/irina-shishko.md|Irina Shishko]], [[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel]], Russian) moved the [[#sept-10-2025--drop-auto-tests-write-tests-for-the-spec-stand-up-directive|Sept-10 "reverse Omni into a spec"]] directive from doctrine into a working prototype. [[raw/fast-passing-general-alignment_stand-up-september-17-2025.md]]
+
+- **First specs drafted.** [[wiki/people/irina-shishko.md|Irina]] wrote a **~27-page** spec for a single Omni unit; Pavel judged it useful raw data but said JVL needs an agreed **spec template — a "specification for the specification"** (Monday follow-up). This ties to the Sept-16 "internal specification of specifications" ([[wiki/meetings/2025-09-16-backend-blueprint-payment-hub-review.md]]). [[raw/fast-passing-general-alignment_stand-up-september-17-2025.md]]
+- **The AI-spec prototype works.** [[wiki/people/pavel.md|Pavel]] generated a spec from **two linked Omni framework repos** (framework core, no game — transcribed "Long Beach framework" + "Omni core") via AI, producing sections for scope, system overview (architecture/dependencies/components), functional & non-functional requirements, API/interface and data view; the **API is described separately** because the project is async (OpenAPI-style doesn't fit). **Sasha** ([[wiki/people/alexander-biratka.md|Biratka]], the framework author) reviewed it favourably. Val's verdict: the AI extraction works but **needs polishing, not first-pass** — an "80/20" tool that replaces the technical writer. [[raw/fast-passing-general-alignment_stand-up-september-17-2025.md]]
+- **The mechanism now scheduled.** From next week, engineers are **interviewed and recorded per topic → AI extracts / converges toward the spec** (Mon: Sasha on the framework, all incl. Irina; Tue: Zhenya × Sasha on Pixi↔Miranda; Thu: Sasha on the loader/build for [[wiki/people/igor-metelski.md|Igor Metelski]]; Fri: module communications & hooks). [[wiki/people/dmitri-chudinov.md|Dima Chudinov]] independently wrote payment-hub ("Raymond Hub") specs against formal requirement/spec standards, which Pavel likes. [[raw/fast-passing-general-alignment_stand-up-september-17-2025.md]]
+- **Spec = touchstone (restated).** The spec remains the developer↔QA point of contact; a feature merges to `main` with a passing integration test; the aim is to catch spec-vs-code incompatibility early among the three parties — product owner (use cases), spec-writer ([[wiki/people/irina-shishko.md|Irina]]), and engineers. Val wants each QA/test engineer given a **documentation direction** at the Sept-24 stand-up (Leshkevich, Metelski, an Evgeny "Koretski", [[wiki/people/alexei-khamin.md|Khamin]], a new "Alexander", Ivan Shpak — competence sketch garbled). [[raw/fast-passing-general-alignment_stand-up-september-17-2025.md]]
+
 ## History
 
 ### The "Test 360" origin review (Fri Jul 5 2024 — date inferred; pre-dates the v1 window, Tier A-queued)
@@ -270,3 +279,4 @@ The earliest captured root of this effort — a Bitbucket-era progress review be
 - [[raw/figma_to_testing_transcript.md]]
 - [[raw/figma_to_testing_development .md]]
 - [[raw/fast-passing-general-alignment_stand-up-september-10-2025.md]]
+- [[raw/fast-passing-general-alignment_stand-up-september-17-2025.md]]

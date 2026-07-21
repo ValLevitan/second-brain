@@ -10,7 +10,7 @@ source-count: 1
 
 **Date:** 2025-09-10 (3:31 PM) · **Attendees:** [[wiki/people/val-levitan.md|Val Levitan]], [[wiki/people/pavel.md|Pavel Frolov]]. Russian.
 
-The **first of a recurring "fast-pacing / general-alignment stand-up" series** (later sessions Sept-17 and Sept-24 exist but are not yet ingested — sequence those to this opener when stubbed). Pavel gives a development status pass; Val delivers a management directive on **spec-driven development and testing**. Testing/spec substance on [[wiki/topics/test-automation-strategy.md]] (Sept-10 section); architecture threads relate to [[wiki/topics/persona-driven-design-and-orchestration-platform.md]].
+The **first of a recurring "fast-pacing / general-alignment stand-up" series** ([[wiki/meetings/2025-09-17-fast-pacing-alignment-standup-spec-prototyping.md|session 2 is Sept-17]], which moves this opener's "reverse Omni into a spec" directive into a working AI-spec prototype + interview plan; a Sept-24 session follows). Pavel gives a development status pass; Val delivers a management directive on **spec-driven development and testing**. Testing/spec substance on [[wiki/topics/test-automation-strategy.md]] (Sept-10 section); architecture threads relate to [[wiki/topics/persona-driven-design-and-orchestration-platform.md]].
 
 Durable points (single source):
 - **Auto-tester hire.** A new automated-tester started the prior Friday, working with [[wiki/people/anton-leshkevich.md|Anton]]; evaluating **Playwright** vs Selenium, plus glue Anton wrote to connect Playwright to JVL's setup. Working evenings (~4–8 PM) until ~October, then joining full-time after leaving his current job. Recruiting continues (rabota.by vacancy refreshed).

@@ -2,7 +2,7 @@
 type: person
 title: Evgeny Kharetski
 date: 2025-07-10
-aliases: [Evgeny Kharetski, Evgeny Kharetsky, Evgeny Khoretsky, Kharevsky, Yauheni Kharetski, Kharetsky]
+aliases: [Evgeny Kharetski, Evgeny Kharetsky, Evgeny Khoretsky, Kharevsky, Yauheni Kharetski, Kharetsky, Koretski, Koretsky, Korecki, Khorvatsky, Корецкий, Хорватский]
 source-count: 1
 disambiguation: "LGS developer (payroll "Kharetski Yauheni"), this page. Evgeny/Zhenya cluster (THREE, owner-confirmed 2026-07-19): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration engineer (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = owner of the main embedded code branch; [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS developer (payroll "Kharetski Yauheni"). Resolve by context: FlexPort/FlexPay integration → Yavorski; embedded main branch → Alekseev; LGS/Omni backend → Kharetski; queue what fits none."
 ---
@@ -11,7 +11,7 @@ disambiguation: "LGS developer (payroll "Kharetski Yauheni"), this page. Evgeny/
 
 Evgeny Kharetski is a **Minsk Omni/LGS game developer** on JVL's engineering team. His name is transcribed many ways (Kharetsky, Khoretsky, Kharevsky); the [[wiki/topics/minsk-staff-roster.md|Minsk staff roster]] resolves him to the canonical **Yauheni Kharetski**.
 
-He is a distinct third person from the two owner-ruled "Zhenya" contractors ([[wiki/people/eugine-yavorski.md|Yavorski]], [[wiki/people/evgeniy-alekseev.md|Alekseev]]) — the split is provisional and queued for an owner ruling. He appears across the Omni schedule reviews as a game developer on game-history/LGS work (see [[wiki/topics/omni-core-advancement-and-game-templating.md]]).
+He is a distinct third person from the two other "Zhenya" contractors ([[wiki/people/eugine-yavorski.md|Yavorski]], [[wiki/people/evgeniy-alekseev.md|Alekseev]]) — the three-member split is **owner-confirmed (2026-07-19)**. He appears across the Omni schedule reviews as a game developer on game-history/LGS work (see [[wiki/topics/omni-core-advancement-and-game-templating.md]]).
 
 ## What is known
 

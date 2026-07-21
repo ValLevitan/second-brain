@@ -44,3 +44,6 @@ Format: `raw/<skipped file>` — source of record `raw/<cited fuller file>` — 
 
 ### Batch 71
 - `raw/Flex Capabilities Weekly Update.md` — SoR `raw/Flex Capabilities Weekly Update-september-3-2025.md` — byte-identical duplicate (md5 0a9e7de0…, 40,930 bytes both); undated filename variant of the Sept-3 Flex Capabilities weekly. Ingest the dated copy. (Batch 71.)
+
+### Batch 76
+- `raw/echo_distribution_marketing-september-17-2025.md` — NO SoR (failed transcription) — 1,111-char stub of repeated "室温" (Chinese "room temperature") auto-caption garbage; zero durable content (§12 stub rule). The Sept-17 ECHO update is lost to failed transcription (Sept-15/16/26 ECHO updates are intact). (Batch 76.)

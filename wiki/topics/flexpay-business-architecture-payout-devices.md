@@ -3,7 +3,7 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS]
-source-count: 65
+source-count: 66
 open-commitments: 19
 open-questions: 4
 ---
@@ -507,6 +507,17 @@ A short realignment on [[wiki/people/nathan-carver.md|Nathan]]'s return from tim
 - **Use cases (Nathan):** ~90% known; first version of the rest ~end of next week, handed to Pavel/Juan; prioritize software fields that unblock (device provisioning first). [[raw/Flex-POS-alignment-scheduling-september-15-2025.md]]
 - **Val's priority order — payment hub first, then ACH (a "showstopper").** Nathan had already identified one or two **ACH-processing specialty shops** and was told to open the relationship, get the **API** and discuss terms as the first priority. Val to draft the schedule from the transcript for Nathan/Juan review. (Commitments tracked on the meeting stub.) [[raw/Flex-POS-alignment-scheduling-september-15-2025.md]]
 
+## Sept 17 2025 — FlexPort/SMIB completion scope: the two-config task list, WSS param-config, industrial-design finish
+
+A Russian scoping call ([[wiki/meetings/2025-09-17-flexport-smib-completion-scope.md]], 10:59 AM; [[wiki/people/val-levitan.md|Val]], [[wiki/people/eugine-yavorski.md|Yavorski]], [[wiki/people/evgeniy-alekseev.md|Alekseev]], [[wiki/people/genadi-peari.md|Genadi]], [[wiki/people/pavel.md|Pavel]]) to list everything left to **finish the FlexPort product** — the embedded/dev completion thread parallel to the Sept POS back-end work. [[raw/flex-port_alignmen-september-17-2025.md]]
+
+- **Product framing.** FlexPort = **main FlexPort** (screen + touchscreen) + **SMIB port** (simple interface inside the machine); **FlexPort → e-wallet scheme, FlexSMIB → TITO scheme** (Pavel). [[raw/flex-port_alignmen-september-17-2025.md]]
+- **FlexPort finish list (Yavorski, ~3 months, both configs):** board redesign / new-board bring-up; support **two bill/email validators** (M-protocol kept out of scope for now); the **cashout negative scenario** — when a client walks away without taking the cashed-out credit it currently disappears, so pass it back to FlexPay to hold (Juan wants a 15-sec delay); **system-time sync** (almost done); **finalize logging**; a **Python utility to build the `.bin`** update file from the compiled hex; and the **OTA update mechanism** (started; small hang after loading memory). Itemized effort list to be resent for a dated schedule. [[raw/flex-port_alignmen-september-17-2025.md]]
+- **SMIB finish list (Alekseev):** logging done (needs testing); integrate a ready item into the single project; continuous-run test + migration onto the new summer boards; **"enhanced security mode" implemented but "System validation" not yet**; **SMIB-board negative scenarios** (cable disconnect, restarts) still open; plus time-sync/logging/download carried from FlexPort. **"SAS Bridge"** (transparent 1:1 SAS relay for full operator control) **deprioritized ~6 months** by Pavel (FlexPay-support priority), though easy on the dev side. [[raw/flex-port_alignmen-september-17-2025.md]]
+- **Interface-selection decision — extend the WSS protocol.** Rather than a service menu / DIP-switch / jumper or pure auto-detect, the group agreed to **extend the WSS protocol** (FlexPort↔FlexPay, likely via the device-registration command) so extra parameters are set from **FlexPay's large screen**. Open question: is "System validation" even needed if all target machines support enhanced-security (Pavel would force it)? [[raw/flex-port_alignmen-september-17-2025.md]]
+- **Industrial design (Genadi).** The single-board solution is done; needs the **final layout** to order plastic + tooling, and an **external plastic part** for the scanner. Val: the plastic cover installs **outside like an envelope** over the rough assembly (device mounts inside, cover outside), and must be finished **before board mass production** (holes/sizes/backlighting may still change). **Full-surface backlighting** wanted (not just the perimeter — like a "Lightning" machine's shimmering bezel), beyond the already-planned barcode-reader light. The **SMIB port** also needs a **plastic enclosure with labeled connectors**. [[raw/flex-port_alignmen-september-17-2025.md]]
+- **Unsupported machine + Toronto office.** An e-wallet-variant machine on the market is **not yet supported**; [[wiki/people/evgeniy-alekseev.md|Alekseev]] to visit the **Toronto office ~October** to connect/test it before the office **closes until December** and the machines ship to **Georgia ~November**. (Commitments tracked on the meeting stub.) [[raw/flex-port_alignmen-september-17-2025.md]]
+
 ## Open commitments
 
 - [ ] Pavel Frolov — prepare updated schematics/diagrams of the current CMS implementation (locate/export the prior Miro-board artifacts) for the next block-diagram session; assess creating a new design from scratch aligned to the new architecture — due by the next arc session (~Aug 22) — [[raw/CMS- Block Diagram_Arch.md]]
@@ -604,3 +615,4 @@ A short realignment on [[wiki/people/nathan-carver.md|Nathan]]'s return from tim
 - [[raw/POS_spatial_planning-september-9-2025.md]]
 - [[raw/GACOAM_trade_show_recap.md]]
 - [[raw/Flex-POS-alignment-scheduling-september-15-2025.md]]
+- [[raw/flex-port_alignmen-september-17-2025.md]]
