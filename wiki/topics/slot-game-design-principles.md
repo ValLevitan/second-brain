@@ -3,7 +3,7 @@ type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
 aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus]
-source-count: 28
+source-count: 29
 open-questions: 3
 ---
 
@@ -287,6 +287,15 @@ The [[wiki/meetings/2025-08-07-player-behavior-simulator.md|Aug-7 meeting]] ([[w
 - **Juan's field note:** Hialeah's operator (Javier) now thinks putting **dollar amounts on the bet buttons** (which he'd originally requested) is hurting play in a down economy — players suddenly see "$6.00 a spin" — so Juan recommends removing it in the revisions. [[raw/Player_behavior_simulator.md]]
 - **Undertakings:** Efim → build the simulator + try to extract real player-session boundaries from the ~1M-game progressive-controller dataset; Juan → file the requisition, share his player-experience use-cases/parameters, and gather comparable daily data from similar competitor games/locations; Michael + Efim → stand ready to build the less-volatile Fiery Ice math. [[raw/Player_behavior_simulator.md]]
 
+## Sept 18 2025 — the "nine-bonus" rule and the fever/one-cent bonus
+
+On the [[wiki/meetings/2025-09-18-games-concepts-markets-review.md|Sept-18 games-concepts / markets review]] ([[wiki/people/val-levitan.md|Val]] + [[wiki/people/juan-martinez.md|Juan]]) Val locked a durable design rule and confirmed the discover-longer thesis behind the Aug-7 volatility work.
+
+- **The nine-bonus rule (durable).** "All of our games should have **six minimum bonuses or higher** going forward." Rationale, in Val's words: "people want to **discover**… it's just that it dies quickly because they discover it," so give them longer; "all the new games… have way more bonuses than we do — that's the new methodology being deployed from everybody… the copying in the industry is rampant." He deliberately names the target **nine** so the team doesn't drift down to seven ("if I told them nine, they will try to talk me into seven"). Applied to the Class-3-on-Omni redesigns: **Kaiocho 9-bonus, Fortune Fupa 9-bonus, Cash Kittens 9-bonus** (Cash Kittens = a variation / second release of Fortune Fupa). This connects to the Aug-7 volatility finding: more bonus rounds = longer discovery = lower effective volatility of the experience. [[raw/review_games_concepts_markets-september-18,2025.md]]
+- **Fortune Fupa — keep the concept, replace the math.** Per Michael and the Themes analysis, Fortune Fupa was **more volatile than Lightning Link / Dragon Link / Firedice**; keep it graphically/audio/conceptually but **swap its par sheet/map for a Light & Wonder-style par sheet** that has persistent pots but is not volatile. [[raw/review_games_concepts_markets-september-18,2025.md]]
+- **The one-cent "fever bonus."** Named **fever bonus** (IGT's term) because you **cannot label a spin "free" and then charge one cent** — GLI likely wouldn't approve — so games whose reel-strip icons use the words "free spin" must be reworked. Val wants it **branded** as JVL's own (can't copyright it, but can trademark and drive it, reusable in other jurisdictions); "mostly a production type of work," queueable in Lena's department with Efim free. [[raw/review_games_concepts_markets-september-18,2025.md]]
+- **Kaiocho vs Ultimate Firelink.** Light & Wonder's **Ultimate Firelink** is a four-level bonus that matches JVL's four-level **Kaiocho** bonus — the competitive reason to push Kaiocho (Georgia) now, and to rebuild Kaiocho at 6–9 bonuses on Omni for Class 3. Also: restyle the home-screen icons (thinner/no border, larger icons) closer to Light & Wonder / Aristocrat so players stop recognizing a JVL game "at a distance." [[raw/review_games_concepts_markets-september-18,2025.md]]
+
 ## Open questions
 
 - Is JVL's Fiery Ice negative-day problem caused by **excessive volatility** (Val's 40-year-experience read) or is ~25-30% negative days simply a **feature of the math** at these bet/bankroll levels (Efim's simulation view)? To be settled by the Player Behavior Simulator + comparable-game data. — [[raw/Player_behavior_simulator.md]]
@@ -323,3 +332,4 @@ See also [[wiki/decisions/2025-03-19-minimal-touch-fix-in-rage-defer-to-omni.md|
 - [[raw/alignment-planning-catch-up.md]]
 - [[raw/Player_behavior_simulator.md]]
 - [[raw/player_emulator.md]]
+- [[raw/review_games_concepts_markets-september-18,2025.md]]

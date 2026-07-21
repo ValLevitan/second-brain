@@ -3,7 +3,7 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS]
-source-count: 66
+source-count: 67
 open-commitments: 19
 open-questions: 4
 ---
@@ -518,6 +518,16 @@ A Russian scoping call ([[wiki/meetings/2025-09-17-flexport-smib-completion-scop
 - **Industrial design (Genadi).** The single-board solution is done; needs the **final layout** to order plastic + tooling, and an **external plastic part** for the scanner. Val: the plastic cover installs **outside like an envelope** over the rough assembly (device mounts inside, cover outside), and must be finished **before board mass production** (holes/sizes/backlighting may still change). **Full-surface backlighting** wanted (not just the perimeter — like a "Lightning" machine's shimmering bezel), beyond the already-planned barcode-reader light. The **SMIB port** also needs a **plastic enclosure with labeled connectors**. [[raw/flex-port_alignmen-september-17-2025.md]]
 - **Unsupported machine + Toronto office.** An e-wallet-variant machine on the market is **not yet supported**; [[wiki/people/evgeniy-alekseev.md|Alekseev]] to visit the **Toronto office ~October** to connect/test it before the office **closes until December** and the machines ship to **Georgia ~November**. (Commitments tracked on the meeting stub.) [[raw/flex-port_alignmen-september-17-2025.md]]
 
+## Sept 22 2025 — POS board flashing, core-control firmware, and the universal interface board
+
+A Val↔[[wiki/people/genadi-peari.md|Genadi]] one-on-one ([[wiki/meetings/2025-09-22-electro-mechanical-alignment-genadi.md]], 4:28 PM, Russian) on the embedded-hardware side of the January POS. [[raw/alignment_elctro-mechanical-september-22-2025.md]]
+
+- **POS RockChip board can't be USB-flashed.** The cheap Chinese "RockChip" (rock-chip) processor board needs the vendor's proprietary PC-side softload procedure, not JVL's simple plug-a-USB-stick image; JVL can't get the source files. Genadi's three parallel paths: extract the vendor source files, find a better-supported Chinese vendor on the same **ARM industrial platform**, or have **[[wiki/people/dima-pikulev.md|Dima Pikulev]]** rebuild the Linux so a USB image works. Genadi holds that an ARM industrial platform is the right embedded direction; the RockChip is cheap but poorly supported. [[raw/alignment_elctro-mechanical-september-22-2025.md]]
+- **Core-control firmware (Flex / Flex Top).** Originally for Flex Top, then consolidated so **one board replaces three** on Flex; still unfinished (Pikulev's outstanding "forward"). A **bigger flash chip** was added because the firmware didn't fit, so [[wiki/people/pavel.md|Pavel]] must re-solder one; files to Pavel/Minsk by end of week. [[raw/alignment_elctro-mechanical-september-22-2025.md]]
+- **Alekseev's universal interface board.** [[wiki/people/evgeniy-alekseev.md|Alekseev]] (opening 33 Jira tasks) builds the **monitor interface board** first, then a single **main interface board** universal to any ARM platform later dropped in — carrying a **USB hub/multiplier**, "no processor, no firmware, purely electronic," one wire to avoid confusion. Val queried USB reliability; Genadi: it adds no new bus lines, just multiplies the same USB (a converter). [[raw/alignment_elctro-mechanical-september-22-2025.md]]
+- **FlexPort board waits on the mechanical form.** Genadi wants to lock the FlexPort plastic/mechanical form first because **"Evgeny" will have to adjust the board file** (mount, size, perimeter lighting, scanner reach) — "we must be first, he comes after us." Per the updated §4 registry ruling, hardware-adjacent board work on Genadi's projects resolves to [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] (no fourth "Zhenya") — the board-file side of his FlexPort/interface-board work above. [[raw/alignment_elctro-mechanical-september-22-2025.md]]
+- **Warehouse consolidation.** Warehouse ~75% full, ~15–20% old Altera/Maple machines to move out; Val wants a cheap **overflow warehouse** ~1–2 hrs from the Atlanta house and **new proper packaging** (new labels/colour) so JVL-origin units don't mix with Felipe's American returns. Sequencing: clear the Canadian warehouse + clean Georgia first, reuse the freed shelving + lift in Georgia (buy a small local forklift), then set up overflow. Current ~$7.40/sq-ft vs a taller ~$13/sq-ft option — undecided. Genadi's rule: untouched 2 years → discard. [[raw/alignment_elctro-mechanical-september-22-2025.md]]
+
 ## Open commitments
 
 - [ ] Pavel Frolov — prepare updated schematics/diagrams of the current CMS implementation (locate/export the prior Miro-board artifacts) for the next block-diagram session; assess creating a new design from scratch aligned to the new architecture — due by the next arc session (~Aug 22) — [[raw/CMS- Block Diagram_Arch.md]]
@@ -616,3 +626,4 @@ A Russian scoping call ([[wiki/meetings/2025-09-17-flexport-smib-completion-scop
 - [[raw/GACOAM_trade_show_recap.md]]
 - [[raw/Flex-POS-alignment-scheduling-september-15-2025.md]]
 - [[raw/flex-port_alignmen-september-17-2025.md]]
+- [[raw/alignment_elctro-mechanical-september-22-2025.md]]

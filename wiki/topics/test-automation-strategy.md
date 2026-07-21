@@ -3,7 +3,7 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction]
-source-count: 22
+source-count: 23
 open-commitments: 2
 open-questions: 1
 ---
@@ -241,6 +241,14 @@ Session 2 of the fast-pacing stand-up series ([[wiki/meetings/2025-09-17-fast-pa
 - **The mechanism now scheduled.** From next week, engineers are **interviewed and recorded per topic → AI extracts / converges toward the spec** (Mon: Sasha on the framework, all incl. Irina; Tue: Zhenya × Sasha on Pixi↔Miranda; Thu: Sasha on the loader/build for [[wiki/people/igor-metelski.md|Igor Metelski]]; Fri: module communications & hooks). [[wiki/people/dmitri-chudinov.md|Dima Chudinov]] independently wrote payment-hub ("Raymond Hub") specs against formal requirement/spec standards, which Pavel likes. [[raw/fast-passing-general-alignment_stand-up-september-17-2025.md]]
 - **Spec = touchstone (restated).** The spec remains the developer↔QA point of contact; a feature merges to `main` with a passing integration test; the aim is to catch spec-vs-code incompatibility early among the three parties — product owner (use cases), spec-writer ([[wiki/people/irina-shishko.md|Irina]]), and engineers. Val wants each QA/test engineer given a **documentation direction** at the Sept-24 stand-up (Leshkevich, Metelski, an Evgeny "Koretski", [[wiki/people/alexei-khamin.md|Khamin]], a new "Alexander", Ivan Shpak — competence sketch garbled). [[raw/fast-passing-general-alignment_stand-up-september-17-2025.md]]
 
+## Sept 22 2025 — the reverse-Omni method settled (spec → tests)
+
+On the [[wiki/meetings/2025-09-22-specification-standards-review-aaron.md|Sept-22 specification-standards review]] (Val, [[wiki/people/pavel.md|Pavel]], [[wiki/people/aaron.md|Aaron]]) the method for producing Omni's first spec — and therefore the test set — was settled. Full decision-level detail on [[wiki/decisions/2025-04-03-jira-capability-level-and-github-mapping.md]] (Sept-22 section). Testing-relevant points: [[raw/specification_standards_review-september-22-2025.md]]
+
+- **Omni before Flex POS** — Val's ruling that the whole company rides on Omni, so it is documented + spec'd + tested first (Flex POS spec runs in parallel under [[wiki/people/nathan-carver.md|Nathan]] because it is isolated). [[raw/specification_standards_review-september-22-2025.md]]
+- **Two spec scopes for testability (Pavel):** (1) framework + a game → only a minor test set; (2) the whole EGM software product on **FP7** (all software/firmware + framework + LGS + OS) → enables **end-to-end tests** but is much harder. [[raw/specification_standards_review-september-22-2025.md]]
+- **The method:** interview [[wiki/people/alexander-biratka.md|Sasha]] module-by-module (~2 hrs/day for a week, one person/day) with a **"rubber-duck" interviewer** covering the five W's + How; keep the **transcript raw in git** (no AI interpretation), tree-mirroring the code base; AI then synthesizes the spec from {raw transcript + code}; tests are written to the spec. A **one-time** exercise for Omni only (not CMS/old systems); spec-first for all new code thereafter. [[raw/specification_standards_review-september-22-2025.md]]
+
 ## History
 
 ### The "Test 360" origin review (Fri Jul 5 2024 — date inferred; pre-dates the v1 window, Tier A-queued)
@@ -280,3 +288,4 @@ The earliest captured root of this effort — a Bitbucket-era progress review be
 - [[raw/figma_to_testing_development .md]]
 - [[raw/fast-passing-general-alignment_stand-up-september-10-2025.md]]
 - [[raw/fast-passing-general-alignment_stand-up-september-17-2025.md]]
+- [[raw/specification_standards_review-september-22-2025.md]]

@@ -12,7 +12,7 @@ open-questions: 0
 
 **Date:** 2025-09-17 (2:36 PM) · **Attendees:** [[wiki/people/irina-shishko.md|Irina Shishko]] (opens), [[wiki/people/val-levitan.md|Val Levitan]], [[wiki/people/pavel.md|Pavel Frolov]]. Russian.
 
-**Session 2** of the recurring "fast-pacing / general-alignment stand-up" series — sequenced to the [[wiki/meetings/2025-09-10-fast-pacing-alignment-standup.md|Sept-10 opener]] (session 1); Val closes by booking the next stand-up for **Sept 24, 10:30**. What advanced since Sept-10: the "reverse Omni into a spec" directive moved from doctrine into a working prototype and a scheduled interview plan. Spec/testing substance folds into [[wiki/topics/test-automation-strategy.md]] (Sept-17 section); the "specification of specifications" thread ties to [[wiki/meetings/2025-09-16-backend-blueprint-payment-hub-review.md]].
+**Session 2** of the recurring "fast-pacing / general-alignment stand-up" series — sequenced to the [[wiki/meetings/2025-09-10-fast-pacing-alignment-standup.md|Sept-10 opener]] (session 1); Val closes by booking the next stand-up for **Sept 24, 10:30**. What advanced since Sept-10: the "reverse Omni into a spec" directive moved from doctrine into a working prototype and a scheduled interview plan. Spec/testing substance folds into [[wiki/topics/test-automation-strategy.md]] (Sept-17 section); the "specification of specifications" thread ties to [[wiki/meetings/2025-09-16-backend-blueprint-payment-hub-review.md]]. The **spec template "to be discussed Monday"** is taken up in the [[wiki/meetings/2025-09-22-specification-standards-review-aaron.md|Sept-22 specification-standards review]] with Aaron, which settles the reverse-Omni method.
 
 Durable points (single source):
 

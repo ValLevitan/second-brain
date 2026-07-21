@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 28
+source-count: 29
 open-commitments: 3
 open-questions: 5
 ---
@@ -198,6 +198,10 @@ On the [[wiki/meetings/2025-08-22-gacoam-trade-show-recap.md|Aug-22 7:09 PM reca
 
 (Device-preference signals from the same recap — e-wallet preferred over TITO, printer-retrofit non-starter, RIS limits until the 2026 framework, the redemption-center third stage — are on [[wiki/topics/flexpay-business-architecture-payout-devices.md]].)
 
+## Sept 18 2025 — Kaiocho to counter Ultimate Firelink; bump bets; restyle icons
+
+On the [[wiki/meetings/2025-09-18-games-concepts-markets-review.md|Sept-18 games/markets review]] ([[wiki/people/val-levitan.md|Val]] + [[wiki/people/juan-martinez.md|Juan]]): **MG Oil agreed higher bets** — min 40 credits on three games, 50 on the other three — deploying Monday via [[wiki/people/denis-desmarais.md|Dennis]] (new install file already sent). Performance so far: **average drop $2,700**, at 8% hold ≈ **$240–250/day**, ~**2.5× the state average**. Light & Wonder's **Ultimate Firelink** (a four-level bonus) is out; JVL counters with **Kaiocho** (its own four-level bonus). **Jackpot Rush Vertical (At-Any-Bet)** is "practically ready" and goes next to Eclipse for Georgia (not into game concept — already in production). Val wants the **home-screen icons restyled** (thinner or no border, larger icons, closer to Light & Wonder / Aristocrat) so players stop recognizing a JVL game "at a distance" — applied to Kaiocho and JPRE and any new game. Juan to keep an optional one-/three-/five-line game submitted-and-approved "in his back pocket" (Val indifferent). The **POS January rollout** gives Juan a product (not sales) pitch when he sits with operators from November. [[raw/review_games_concepts_markets-september-18,2025.md]]
+
 ## Open commitments
 
 - [x] Vlad (Vladislav Gurin) — produce a **block diagram of every JVL meter** (maximum set, proper names, used or not) for the Tuesday-11am follow-up (~June 17), so the team can agree which meter increments in the key-to-meter case — **discharged June 17** (Vlad presented the ~300-meter table; tests 1 & 2 passed) — [[raw/jp_meters-june-12-2025.md]] [[raw/Metering_class_3-june-17-2025.md]]
@@ -245,3 +249,4 @@ On the [[wiki/meetings/2025-08-22-gacoam-trade-show-recap.md|Aug-22 7:09 PM reca
 - [[raw/flex_POS-use_case_architecture_requirements-june-19-2025.md]]
 - [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
 - [[raw/GACOAM_trade_show_recap.md]]
+- [[raw/review_games_concepts_markets-september-18,2025.md]]

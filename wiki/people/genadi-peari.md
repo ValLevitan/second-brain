@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena]
-source-count: 45
+source-count: 46
 ---
 
 # Genadi Peari
@@ -137,8 +137,19 @@ On a Val↔Genadi hardware one-on-one ([[wiki/meetings/2025-08-19-flex-dispenser
 - **Sept 3** ([[wiki/meetings/2025-09-03-flex-capabilities-weekly-ach-dispute-pos-design.md]]): presented the near-final POS industrial design — **8-inch cashier screen**, 7.5-inch device width, ~7-inch customer screen, centred dual-side scanner, top sunk magnetic-stripe reader, dispenser as a separate freestanding "dummy" product, optional floating third screen for the player. More mods promised the following Monday. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept-3). [[raw/Flex Capabilities Weekly Update-september-3-2025.md]]
 - **Sept 9** ([[wiki/meetings/2025-09-09-pos-spatial-hardware-board-planning.md]], 3:18 PM, with Pavel): defended the **two-board split** (ready-made Chinese Rockchip main board + a cheap 2-layer interface board) against Val's push to consolidate onto one board — a custom processor board wouldn't be cheaper and would risk the January target. Agreed to keep the existing scheme and only ask the supplier to **swap the second monitor's HDMI-micro connector** for an industrial one. [[raw/POS_spatial_planning-september-9-2025.md]]
 
+## Sept 22 2025 — electro-mechanical alignment one-on-one
+
+On a Val↔Genadi one-on-one ([[wiki/meetings/2025-09-22-electro-mechanical-alignment-genadi.md]], 4:28 PM, Russian) Genadi covered the January-POS embedded hardware and warehouse logistics:
+- **POS RockChip board** can't be flashed via a simple USB image (vendor needs proprietary PC softload, no source files); paths = get vendor source, find a better-supported ARM board, or engage [[wiki/people/dima-pikulev.md|Dima Pikulev]] to rebuild the Linux. Genadi backs an ARM industrial platform as the right embedded direction.
+- **Core-control firmware** (Flex/Flex Top; one board replacing three) still unfinished — a bigger flash chip was added, so [[wiki/people/pavel.md|Pavel]] must re-solder one.
+- Wants the **FlexPort mechanical form locked first** because "Evgeny" adjusts the board file to it ([[wiki/people/evgeniy-alekseev.md|Alekseev]] — hardware-adjacent board work on Genadi's projects, per the updated §4 ruling).
+- Prepped **5 topics** for the [[wiki/people/denis-desmarais.md|Denis]] meeting; gathered old **Flex-E casino developments** (Carnival, Fortune, matrices, prototypes) for a rental-type amusement offering, reusing prior contractors/tooling — ~**5 "claims," purely electro-mechanical** (meaning of "claims" unclear in source, kept verbatim).
+- **Warehouse consolidation:** add a cheap overflow warehouse near Atlanta, order proper new packaging so JVL units don't mix with Felipe's American returns; clear Canada + Georgia first and reuse freed shelving/lift; undecided on keeping the ~$7.40/sq-ft warehouse vs a taller ~$13/sq-ft one; discard anything untouched 2 years.
+Substance on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept-22). [[raw/alignment_elctro-mechanical-september-22-2025.md]]
+
 ## Sources
 
+- [[raw/alignment_elctro-mechanical-september-22-2025.md]]
 - [[raw/flex_dispenser-review.md]]
 - [[raw/Flex Capabilities Weekly Update-september-3-2025.md]]
 - [[raw/POS_spatial_planning-september-9-2025.md]]

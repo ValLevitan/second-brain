@@ -3,7 +3,7 @@ type: project
 title: South Dakota VLT market entry
 date: 2025-01-22
 aliases: [South Dakota, SD VLT, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950, V43, D27, SD cap, Bioliches, Gypsy Spirit, Crazy Colt, Queen of Luxor, Liberty Spin, Rodeo Spin, South Dakota vertical]
-source-count: 12
+source-count: 13
 ---
 
 # South Dakota VLT market entry
@@ -101,6 +101,10 @@ A **South Dakota Lottery operators list** dated **May 2025** — a reference tab
 - **MG Oil is licence #378** — "**M.G. Oil Company, 1180 Creek Dr., Rapid City, SD 57703**, 605-342-0527, contact **Erickson, Troy**, established 1992-03-23" — corroborating the May-13 identification of [[wiki/organizations/mg-oil.md|MG Oil]] as SD operator number 378 owned by [[wiki/people/troy-erikson.md|Troy Erikson]] (surname spelled "Erickson" in the state list). [[raw/sd_operators_list-may-2025.md]]
 - The list confirms the market's **long-tail structure** noted by Troy — dozens of small bar/store/oil-company operators (e.g. Rite Way Vending, Freidel Music & Recreation, C & D Amusement, Amusement Service, various oil companies and saloons), the oldest licences dating to **1989**. This is the state-published operator roster JVL's sales effort works against; no JVL-specific decisions attach to it. [[raw/sd_operators_list-may-2025.md]]
 
+## Sept 18 2025 — priority order: Keno #1, one-cent bonus #2, progressive #3
+
+On the [[wiki/meetings/2025-09-18-games-concepts-markets-review.md|Sept-18 games/markets review]] ([[wiki/people/val-levitan.md|Val]] + [[wiki/people/juan-martinez.md|Juan]]) South Dakota was in a **60–90-day holding pattern**, gathering data from the six installs to confirm nothing else is needed. Confirmed the **92% cap cannot be exceeded** (they had hoped to). Three needed changes, ranked: **(1) Keno** — add a Keno option to be competitive ("every other machine has a Keno"; 25¢ minimum bet, $8,000 max) whether or not it performs; **(2) the one-cent bonus**; **(3) a progressive** — add one back, even a single-level, since most competing machines had progressives. This is either an SD2 or a rework of the SD1 games. [[raw/review_games_concepts_markets-september-18,2025.md]]
+
 ## Who
 
 - Driven by [[wiki/people/val-levitan.md|Val]] with [[wiki/people/juan-martinez.md|Juan]] (regulator/operator relationship, field side) and [[wiki/people/pavel.md|Pavel]] (Minsk software); [[wiki/people/irina-shishko.md|Irina]] on printer testing and GLI diffs, [[wiki/people/sebastian.md|Sebastian]] on field service, [[wiki/people/ivan.md|Ivan]] on GLI scheduling. **Lonnie** is the SD lottery-lab tester; **"Alani"** appears as the SD lottery (supplied the SAS adapter, requested the permit-number rename) — whether Alani is the lottery entity or a person there is unclear (see Owner Decisions). [[raw/sd_vlt_recap-jan-22-2025.md]] [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
@@ -119,3 +123,4 @@ A **South Dakota Lottery operators list** dated **May 2025** — a reference tab
 - [[raw/games_design-june-11-2025.md]]
 - [[raw/games_design-june-12-2025.md]]
 - [[raw/sd_operators_list-may-2025.md]]
+- [[raw/review_games_concepts_markets-september-18,2025.md]]

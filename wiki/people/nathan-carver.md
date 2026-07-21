@@ -3,7 +3,7 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 14
+source-count: 15
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
 
@@ -53,7 +53,12 @@ On the [[wiki/meetings/2025-09-03-flex-capabilities-weekly-ach-dispute-pos-desig
 
 On the [[wiki/meetings/2025-09-16-backend-blueprint-payment-hub-review.md|Sept-16 blueprint review]] (1:03 PM, with Val + Pavel + Aaron) Nathan set the payment-hub tech stack with Pavel — a **Java** API service in a cloud container, horizontal scaling as low-hanging fruit, ACH vendors all **REST over OAuth 2** (switchable adapters). He owns **sourcing the third-party ACH provider**: gathering API docs from his **3 focused vendors** and reaching out for sales/technical consulting to feed Pavel's team. Booked to meet Val **Wed the 24th** to drive payment-hub API requirements from use cases (ticket redemption, location-owner reconciliation, JVL auditing) then device provisioning. See [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Sept-16). [[raw/back-end_architecture_blueprint_review.md]]
 
+## Sept 22 2025 — assigned the Flex POS specification
+
+On the [[wiki/meetings/2025-09-22-specification-standards-review-aaron.md|Sept-22 specification-standards review]], when Val ruled that JVL spec **Omni first**, he assigned the **Flex POS specification to Nathan** in parallel because Flex POS is isolated ("we can put Nathan on that job and he can probably do a decent job"). Aaron and Val also agreed Nathan is **not** the Omni product owner. [[raw/specification_standards_review-september-22-2025.md]]
+
 ## Sources
+- [[raw/specification_standards_review-september-22-2025.md]]
 - [[raw/back-end_architecture_blueprint_review.md]]
 - [[raw/CMS- Block Diagram_Arch.md]]
 

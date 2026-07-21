@@ -3,7 +3,7 @@ type: person
 title: Elizabeth
 date: 2025-04-28
 aliases: [Elizabeth]
-source-count: 3
+source-count: 4
 disambiguation: "JVL engineering technician (full engineer by degree) handling Georgia service/parts; ex-Colombian-operation technician; Spanish-speaking. Distinct from Eliana, the Colombian EDS principal (wiki/people/eliana.md). Surname not stated in the source."
 ---
 
@@ -21,8 +21,13 @@ Elizabeth is a JVL **full-time engineering technician** — a university-degree 
 
 When JVL decided to move manufacturing/assembly from Canada to Georgia ([[wiki/decisions/2025-06-24-move-manufacturing-from-canada-to-georgia.md]]), Val named **Elizabeth to head up manufacturing** at the new Louisville warehouse — responsible for **warehousing, inventory control, and work scheduling** (logistics stays with [[wiki/people/mary.md|Mary]]). Val confirmed the choice with [[wiki/people/felipe-miranda.md|Felipe]]: "she is definitely the right person," a serious young engineer, "technically very inclined… dedicated," on "a different level" than [[wiki/people/arkady-batson.md|Arkadi]] — "which is what we need." She will need schematics/instructions and will interact with the engineering team. Val had worked with her only at a distance ("she worked for me for a long time, but I never worked with her personally"). [[raw/procurement_relocation-june-24-2025.md]] [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
 
+## Sept 22 2025 — South Dakota service onboarding
+
+On the Val↔[[wiki/people/genadi-peari.md|Genadi]] electro-mechanical alignment ([[wiki/meetings/2025-09-22-electro-mechanical-alignment-genadi.md]]), Genadi is onboarding Elizabeth onto the **service/reference material for the South Dakota machines** (10 machines, sealing/labeling tasks). Her hurdle is **English**, so she follows the technical group via the team chat with instant translation, and Genadi will screen-share and walk her (and [[wiki/people/albertini.md|Albertini]]) through the material. Val coached Genadi that she isn't ignoring him — she processes and asks only when she has a real question. [[raw/alignment_elctro-mechanical-september-22-2025.md]]
+
 ## Sources
 
+- [[raw/alignment_elctro-mechanical-september-22-2025.md]]
 - [[raw/business_central_update-apr-28-2025.md]]
 - [[raw/procurement_relocation-june-24-2025.md]]
 - [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]

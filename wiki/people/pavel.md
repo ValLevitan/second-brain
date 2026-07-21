@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 74
+source-count: 75
 open-commitments: 4
 open-questions: 0
 ---
@@ -200,7 +200,10 @@ Pavel ("Pasha") worked the Jira/GitHub maturity session with Val and Irina: he s
 - **Sept 10 (fast-pacing alignment stand-up, 3:31 PM)** ([[wiki/meetings/2025-09-10-fast-pacing-alignment-standup.md]], with Val; the **series opener**): gave the dev status pass — new auto-tester (Playwright vs Selenium) working with Anton; Nebraska/Texas release slipped a couple days; **Evgeniy Yavorski** promised his first update; the **payment-hub architecture** (independent Amazon-deployable cloud app; FlexPay to be re-pointed *through* the hub, not directly to InComm) with a Tuesday top-level-view review. Received Val's directive that Pavel + [[wiki/people/irina-shishko.md|Irina]] institute **spec-driven development** — the spec as the developer↔QA "touchstone" in the branch, "reverse Omni" into a spec, tests written per spec, via recorded 2-hour module-walk sessions turned into specs by AI. See [[wiki/topics/test-automation-strategy.md]] (Sept-10). [[raw/fast-passing-general-alignment_stand-up-september-10-2025.md]]
 - **Sept 16 (payment-hub blueprint review, 1:03 PM)** ([[wiki/meetings/2025-09-16-backend-blueprint-payment-hub-review.md]], with Val + Nathan + Aaron, English): presented the CMS/Flex-POS blueprint and drove the payment-hub build — extend the legacy **Flexpay Manager** GUI to configure Flex-POS, move terminal→InComm comms into a cloud **payment hub**, config bound to location not terminal. Set the tech stack with Nathan — **Java** API service + **Postgres**, ACH API not a blocking dependency ("we can do anything using Java"). Undertook the deeper payment-hub architecture (with "Dima"/[[wiki/people/dmitri-chudinov.md|Chudinov]]) then the payment-hub↔terminal and payment-hub↔control-server APIs; a Monday spec session booked. See [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Sept-16). [[raw/back-end_architecture_blueprint_review.md]]
 
+- **Sept 22 (specification-standards review, 12:06 PM)** ([[wiki/meetings/2025-09-22-specification-standards-review-aaron.md]], with Val + Aaron, English): proposed starting specs with Flex POS + payment hub; Val overruled — **Omni first**. Pavel is made **leader/mediator of the improvised Omni-spec working group** ("Lena Cima" [garbled] / [[wiki/people/irina-shishko.md|Irina]] / Pavel, as the missing product owner): explains "the rules of the game," enforces written-first collaboration, mediates rather than participates. Weighed two spec scopes (framework-only → few tests; whole EGM-on-FP7 → end-to-end tests). Runs this week's recorded [[wiki/people/alexander-biratka.md|Sasha]] interviews (raw transcript kept in git, un-AI-processed); owes Val a short calendar. See [[wiki/decisions/2025-04-03-jira-capability-level-and-github-mapping.md]] (Sept-22). [[raw/specification_standards_review-september-22-2025.md]]
+
 ## Sources
+- [[raw/specification_standards_review-september-22-2025.md]]
 - [[raw/back-end_architecture_blueprint_review.md]]
 - [[raw/fast-passing-general-alignment_stand-up-september-10-2025.md]]
 - [[raw/CMS- Block Diagram_Arch.md]]
