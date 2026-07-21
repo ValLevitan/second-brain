@@ -3,9 +3,9 @@ type: decision
 title: Insert a "capability" level in Jira as the executive-demonstrable unit mapped to GitHub feature branches
 date: 2025-04-03
 aliases: [capability level, Jira capabilities, capability vs feature, GitHub Jira mapping, feature branch capability, repository is a product, repository is an artifact, no test no pull, one week feature branch, capabilities bundle of features]
-source-count: 16
+source-count: 17
 status: active
-open-questions: 2
+open-questions: 1
 ---
 
 # Insert a "capability" level in Jira as the executive-demonstrable unit mapped to GitHub feature branches
@@ -122,7 +122,7 @@ A three-day thread turned the Aug-22 "Spec-Driven Development Process v2.0" dire
 ## Open questions
 
 - **Restructure Jira per the May-5–6 direction?** Should **capability** replace the product-line level, the **initiative become the product**, and the top levels (value stream / initiative / product) move into **Jira Product Discovery** projects? Direction agreed in principle, no ruling; a graph + refactor plan deferred. — [[raw/feature_granularity_definition_aaron-may-5-2025.md]] [[raw/feature_defining_jira-may-6-2025.md]] [[raw/feature_reflection_jira-may-6-2025.md]]
-- **Flatten GitHub to one organization, or keep many orgs?** Unresolved. Aaron pushed hard to **flatten all repos into one org** with a naming convention (e.g. `framework-omni-renderer`), citing Block/Square keeping ~30 repos in one space, and warned Val's per-org control is "a precarious knife edge." Val **refused to flatten** — he cannot achieve executive alignment without the org/concern structure — but conceded there are "too many orgs" today and that people are already committing into an unvetted new org ("wild west"). Aaron's model of the org level = a **concern** (manufacturing, finance, marketing, sales, HR), with repositories under it named by purpose (library/service/application/firmware). This revisits, and does not yet supersede, [[wiki/decisions/2025-02-11-github-org-naming-and-structure.md]] and [[wiki/decisions/2025-01-20-github-orgs-mirror-value-streams.md]]. [[raw/git_jira_correlation-april-1-2025.md]] [[raw/gut_hub_jira_relationship-april-2-2025.md]]
+- **RESOLVED (Sept 2025) — flatten GitHub to one organization, or keep many orgs?** Was long unresolved: Aaron pushed hard to **flatten all repos into one org** with a naming convention (e.g. `framework-omni-renderer`), citing Block/Square keeping ~30 repos in one space, and warned Val's per-org control is "a precarious knife edge." Val **refused to flatten** — he could not achieve executive alignment without the org/concern structure — but conceded there were "too many orgs" and people were committing into an unvetted new org ("wild west"). The **Sept 9–16 2025 git-repo-structure arc closes this**: JVL is consolidating its ~11 organizations down to **~2**, with a new kebab repo-naming taxonomy and a per-repo migration plan — decided and entering execution as of Sept 16. Tracking follows this decision's own two-camp split: **one story per repo** at the GitHub/low level, the feature-level in Jira. See the sequencer on [[wiki/decisions/2025-02-11-github-org-naming-and-structure.md]]. [[raw/git_repo_structure.md]] [[raw/git_jira_correlation-april-1-2025.md]] [[raw/gut_hub_jira_relationship-april-2-2025.md]]
 
 ## Sources
 
@@ -142,3 +142,4 @@ A three-day thread turned the Aug-22 "Spec-Driven Development Process v2.0" dire
 - [[raw/Git_JIRA_spec.md]]
 - [[raw/transcript_anton_val_spec-august-27-2025.md]]
 - [[raw/Anton_Liashkevich_Alexander_Biratko_about_OMNI-august-28-2025.md]]
+- [[raw/git_repo_structure.md]]
