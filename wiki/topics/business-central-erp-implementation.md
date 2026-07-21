@@ -3,7 +3,7 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, posting setup, AI naming convention]
-source-count: 9
+source-count: 10
 open-questions: 2
 ---
 
@@ -118,6 +118,19 @@ The [[wiki/meetings/2025-06-26-procurement-manufacturing-transfer-alignment.md|J
 - **Prerequisites + effort.** Lev needs the **GL / chart of accounts** completed **first** (a meeting with [[wiki/people/alka-sood.md|Alka]] is set this coming week — continues the [[#may-24-2025--cleaning-the-chart-of-accounts-gl-before-labs-converts|COA cleanup]]), then the **general posting setup** (links GL accounts to system activities) — which JVL owns, not the subcontractor. Val prefers to give the posting-setup work to **[[wiki/people/igor-donis.md|Igor]]** (finance), who is free; **not** [[wiki/people/anatol-strekalov.md|Anatol]] ("that's purely finance people"). Lev sized the config as **"medium"** as a standalone issue — **~3 weeks to a month** — which "fits the plan ideally." [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
 - **JVL Labs stays on Navision** for now; its BC transition remains on ice/in the holding pattern while JVL continues configuring **assembly for JVL Systems**. This aligns with the [[wiki/decisions/2025-06-17-implement-then-replace-business-central.md|"implement then replace BC, no manufacturing module"]] ruling. [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
 
+## Sept 5 2025 — banking / AP procedures + the payment-cycle segregation of duties
+
+A [[wiki/people/lev-rudky.md|Lev]] / [[wiki/people/alka-sood.md|Alka]] / [[wiki/people/val-levitan.md|Val]] working call ([[wiki/meetings/2025-09-05-finance-banking-procedures-business-central.md]]) mapping the banking + accounts-payable flow so Lev can assign BC permissions. Alka: "there's two sides to the banking" — what happens **inside the bank** (moving/transferring money) vs what BC records. Continues the Apr-28 / May-1 segregation-of-duties thread with the payment-release side. (Recording header dated Sept-5; staged filename says Sept-2 — header wins per §11.) [[raw/Finance_Operations_Banking_Procedures-september-2-2025.md]]
+
+- **The payment cycle and who owns each step.** **Mikkel** (the buyer; transcribed "Mikkel"/"Mikel") creates a **purchase order**, which **Val approves** — that "opens the gate" to accept a vendor invoice. The vendor invoice and postings are entered by **Chris** (the **AP clerk** — "it's all Chris"); Chris accumulates the week's due invoices and sends **Val a Monday-morning payment proposal**. Val approves the specific invoices to pay; Chris then **sets up the payments / posts the payment journal** in Navision/BC and sends the file/instructions to the bank; **Monica releases the funds** at [[wiki/organizations/rbc.md|RBC]]. Once a month **Laura** (new to it) **reconciles/audits** every payment against the legal **bank statement**. Lev's control principle: the person who **posts the payment journal must be different from the person who audits it** — so Chris posts, Laura audits. [[raw/Finance_Operations_Banking_Procedures-september-2-2025.md]]
+- **Two banks, two release owners.** [[wiki/organizations/jvl-systems.md|JVL Systems]] runs on a separate **Bank of America** account (less automation-friendly — **Ina** issues each payment manually and wants **batch payments** as volume grows), while the RBC ("Beaufort RBC") side is where **Ina** also has release authorization for transfers out; **Monica** is the RBC release/control point for the payment file. [[raw/Finance_Operations_Banking_Procedures-september-2-2025.md]]
+- **ACH traceability.** Bank transactions don't reference the invoice directly, but each payment gets an **ACH confirmation number** that is written into the bank **memo field** as the reference point; wires are set up by Chris (she screenshots the wire, attaches the invoice, and asks Monica to release, who does her own match). **Reconciliations are Alka's focus for the next month.** [[raw/Finance_Operations_Banking_Procedures-september-2-2025.md]]
+- **Val's direction — do it natively in Business Central.** As JVL moves off Navision ("my vision") into BC, Val wants to stop circulating a foreign app/attachment and instead get a **Monday-morning BC link to authorize the scheduled disbursements**, with the ability to **comment inside BC** (authorize 3 of 10, request more info, etc.), after which Monica gets her own BC link to release — drilling into the invoice number. Alka: "bingo… that would be the perfect world." [[raw/Finance_Operations_Banking_Procedures-september-2-2025.md]]
+- **The receipt-of-goods step and the three-way match.** Val flagged that between PO and vendor invoice there is a **receipt of goods** — where the **count** (or count-verification) happens; if the count differs, posting differs. Alka's "**three-way match**": PO ↔ **bill of lading / packing slip** ↔ invoice. Lev's system rule: with a PO you **cannot invoice more than was received** (partial receipt of 20/100 → invoice only 20; the system won't allow the excess). [[raw/Finance_Operations_Banking_Procedures-september-2-2025.md]]
+- **Receiver screen — hide price and even quantity (count integrity).** The **receiver** ([[wiki/people/arkady-batson.md|Arkady]]/warehouse) should get a special **quantities-only** profile — **no visibility of price** (confidential) and **ideally not the expected quantity either**, because "if we tell people they're expecting 8, they won't count them." An alert fires on shortfall/back-order/damage. Val: "that's actually an excellent point… now that we're moving away from Toronto, it's the most perfect time to instill new rules." (Lev noted this is a new requirement vs how it works today, where the receiver sees the whole PO.) [[raw/Finance_Operations_Banking_Procedures-september-2-2025.md]]
+
+No §15.8 material — banking/process/role economics only, no per-person compensation. ("Mikkel" the buyer is named only by first name and left un-matched — possibly the procurement manager [[wiki/people/mikhail-perelman.md|Mikhail Perelman]], but not force-matched.)
+
 ## Sources
 
 - [[raw/business_central_implementation_update-apr-17-2025.md]]
@@ -129,3 +142,4 @@ The [[wiki/meetings/2025-06-26-procurement-manufacturing-transfer-alignment.md|J
 - [[raw/architecture_data_collection-june-10-2025.md]]
 - [[raw/finance_amazon_sales-june-11-2025.md]]
 - [[raw/finance_gl_accounts_structure-june-17-2025.md]]
+- [[raw/Finance_Operations_Banking_Procedures-september-2-2025.md]]

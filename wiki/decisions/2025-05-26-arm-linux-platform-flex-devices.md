@@ -3,7 +3,7 @@ type: decision
 title: Adopt a cheap ARM-based embedded-Linux board (Rockchip RK) for Flex Tower / Flex POS / TITO server
 date: 2025-05-26
 aliases: [ARM board, Rockchip, RK3568, RK board, ARM Linux platform, embedded Linux board, industrial ARM board, LVDS adapter]
-source-count: 2
+source-count: 3
 status: active
 ---
 
@@ -33,11 +33,22 @@ The May-20/21 choice was between a cheap embedded **STM32** "sandwich" (~$30, bu
 - **[[wiki/people/pavel.md|Pavel]] to size memory** — 16 GB storage is already enough; check whether **2 GB or 4 GB RAM** is needed by reading current memory utilisation on the FlexBay device (custom 64 GB / 4 GB variants are available, e.g. on AliExpress, at ~the same price). [[raw/hardware_selection_flex-tower_flex-pos-may-26-2025.md]]
 - **Power** still to be worked out (Tower needs 24 V for the dispenser + 12 V for the board; POS just 12 V). [[raw/hardware_selection_flex-tower_flex-pos-may-26-2025.md]]
 
+## June 4 2025 confirmation — the formal STM-vs-Linux pros/cons, Linux chosen
+
+A June-4 architecture call ([[wiki/meetings/2025-06-04-flex-tower-flex-pos-platform-decision.md]]) re-argued the platform choice as a formal, category-by-category pros/cons and **confirmed Linux**. [[raw/flex-tower_flex-POS_foundational-decision_architecture-june-4-2025.md]]
+
+- **STM32's advantages (as weighed June-4):** cheapest bill-of-material (main board ~**$30 + $5** vs the ARM-Linux board ~**$60**); a single universal board can serve **all three devices** (Port, Tower, POS); highest **reliability** (little to fail; the ARM board is China-made and its **eMMC** is the weak point — mitigated by using eMMC read-only as the root filesystem, writing only on firmware update); and easiest **hardware testing** (the STM board can be bench-tested on a nail-bed/pin fixture). [[raw/flex-tower_flex-POS_foundational-decision_architecture-june-4-2025.md]]
+- **Linux's advantages (the reasons it won):** far **more available developers** (browser-based graphics; backend in C++/Java/JavaScript — reuse of the Java modules [[wiki/people/dmitri-chudinov.md|Dima Chudinov]] built — vs STM needing scarce low-level firmware people); more **support hooks** (logs/state analysis in production); **flexibility** (adding a protocol is quick); can talk **directly to Incom over the internet / wireless**; **~7–10× more performance**; and — decisive — the **Passport, Lease and RIS (Remote Initial Setup)** features **already exist as Java modules** and port from x86 to ARM "almost for free," whereas on STM they would all have to be rewritten and a communication layer (via the TITO server or the CMS) built out. Val: on STM these features would all need rewriting, "я не вижу, как это можно сделать." [[raw/flex-tower_flex-POS_foundational-decision_architecture-june-4-2025.md]]
+- **The ruling.** [[wiki/people/pavel.md|Pavel]]: "**Я за Linux. Я еще больше убедился в том, что надо Linux брать.**" Development time is roughly equal either way (~1.5–2 months per product once the board runs Linux), so the tie-breaker is developer availability + the existing modules, not price. Val's framing of price: the ~$30 BOM delta is "big" only because JVL applies a **5–10× markup to retail** — a ~$30 BOM difference becomes ~$600–1,000 at the customer — but it does not outweigh the resource argument. [[raw/flex-tower_flex-POS_foundational-decision_architecture-june-4-2025.md]]
+- **Design frame — this is a financial system, not a gaming machine.** It must be **redundant, hot-swappable and modular**: one financial system per location, so if it fails every machine at that location stops until service. Service must take **minutes**, done by a non-technical **store owner / attendant** (no technician driving across Nebraska/Texas), by shipping a redundant module by courier and swapping it; a scanned new module must auto-rebind to the location in the CMS. Swappable modules is a top **design requirement**. [[raw/flex-tower_flex-POS_foundational-decision_architecture-june-4-2025.md]]
+- **Next steps set.** Order **2–3 boards to Minsk and a couple to Toronto** immediately (Toronto arrives faster — "во вторник" vs a month to Minsk), with the FlexPort-integration engineer bringing up the vendor's **Ubuntu (18.04)** board-support image in Toronto; then write a **capabilities list** for all the products, build the overall **business architecture**, then per-device architecture, in parallel with **user-experience meetings** for each device (Val to facilitate; invite [[wiki/people/igor-nazarenka.md|Igor]] and possibly [[wiki/people/dmitri-chudinov.md|Dima Chudinov]] — if Dima is not needed the UX meeting can run in English). Target: both products **on-site testing by October**. [[raw/flex-tower_flex-POS_foundational-decision_architecture-june-4-2025.md]]
+
 ## Status
 
-Active as of 2025-05-26. This is the chosen direction (resolving the May-20/21 deferral); Val wanted to **close it at a 7 am meeting the next day** once Alekseev confirms the LVDS interface and the samples are validated ("надо проверить, запустить, посмотреть, как она надёжно работает"). Recorded as ruled with that validation contingency, not re-deferred. [[raw/hardware_selection_flex-tower_flex-pos-may-26-2025.md]]
+Active as of 2025-05-26, **reconfirmed June 4 2025** (Linux chosen on the formal pros/cons). Val wanted to **close it at a 7 am meeting the next day** once Alekseev confirms the LVDS interface and the samples are validated ("надо проверить, запустить, посмотреть, как она надёжно работает"). Recorded as ruled with that validation contingency, not re-deferred. [[raw/hardware_selection_flex-tower_flex-pos-may-26-2025.md]]
 
 ## Sources
 
 - [[raw/hardware_selection_flex-tower_flex-pos-may-26-2025.md]]
 - [[raw/selection_tech_stack_hardware-flex-pos_flex-tower_flex-tito-may-21-2025.md]]
+- [[raw/flex-tower_flex-POS_foundational-decision_architecture-june-4-2025.md]]

@@ -3,7 +3,7 @@ type: project
 title: South Dakota VLT market entry
 date: 2025-01-22
 aliases: [South Dakota, SD VLT, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950, V43, D27, SD cap, Bioliches, Gypsy Spirit, Crazy Colt, Queen of Luxor, Liberty Spin, Rodeo Spin, South Dakota vertical]
-source-count: 11
+source-count: 12
 ---
 
 # South Dakota VLT market entry
@@ -94,6 +94,13 @@ On the [[wiki/meetings/2025-06-12-games-design-priorities-review.md|June-12 prio
 - **The horizontal D27 is near go-live**; the **vertical cabinet is "not a priority in the next two months."** Art for the vertical games is already done ([[wiki/people/lena.md|Lena]]) but production can't continue without a programmer, so the vertical is put on the **back burner** — kept moving only by **a few hours of [[wiki/people/anton-leshkevich.md|Anton]]'s time** (a "non-factor"), rather than pulling Anton off the urgent Omni/Kai-Ocho work. [[raw/games_design-june-12-2025.md]]
 - **QA/branch awareness.** Even for a fall release, QA lead [[wiki/people/irina-shishko.md|Irina Shishko]] (re-attributed per owner ruling 2026-07-18: QA/engineering → Shishko) must know **which branch** the vertical uses so the team knows where to commit; QA should jump on a build the moment Anton produces one (keep the loop fast). [[raw/games_design-june-12-2025.md]]
 
+## South Dakota Lottery operators reference (May 2025)
+
+A **South Dakota Lottery operators list** dated **May 2025** — a reference table (not a transcript), 87 licensed operators with licence number, operator name, address, phone, contact and date established, extracted from a state "SD Lottery Operators May 2025.xlsx". [[raw/sd_operators_list-may-2025.md]]
+
+- **MG Oil is licence #378** — "**M.G. Oil Company, 1180 Creek Dr., Rapid City, SD 57703**, 605-342-0527, contact **Erickson, Troy**, established 1992-03-23" — corroborating the May-13 identification of [[wiki/organizations/mg-oil.md|MG Oil]] as SD operator number 378 owned by [[wiki/people/troy-erikson.md|Troy Erikson]] (surname spelled "Erickson" in the state list). [[raw/sd_operators_list-may-2025.md]]
+- The list confirms the market's **long-tail structure** noted by Troy — dozens of small bar/store/oil-company operators (e.g. Rite Way Vending, Freidel Music & Recreation, C & D Amusement, Amusement Service, various oil companies and saloons), the oldest licences dating to **1989**. This is the state-published operator roster JVL's sales effort works against; no JVL-specific decisions attach to it. [[raw/sd_operators_list-may-2025.md]]
+
 ## Who
 
 - Driven by [[wiki/people/val-levitan.md|Val]] with [[wiki/people/juan-martinez.md|Juan]] (regulator/operator relationship, field side) and [[wiki/people/pavel.md|Pavel]] (Minsk software); [[wiki/people/irina-shishko.md|Irina]] on printer testing and GLI diffs, [[wiki/people/sebastian.md|Sebastian]] on field service, [[wiki/people/ivan.md|Ivan]] on GLI scheduling. **Lonnie** is the SD lottery-lab tester; **"Alani"** appears as the SD lottery (supplied the SAS adapter, requested the permit-number rename) — whether Alani is the lottery entity or a person there is unclear (see Owner Decisions). [[raw/sd_vlt_recap-jan-22-2025.md]] [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
@@ -111,3 +118,4 @@ On the [[wiki/meetings/2025-06-12-games-design-priorities-review.md|June-12 prio
 - [[raw/games_design_recap-may-29-2025.md]]
 - [[raw/games_design-june-11-2025.md]]
 - [[raw/games_design-june-12-2025.md]]
+- [[raw/sd_operators_list-may-2025.md]]
