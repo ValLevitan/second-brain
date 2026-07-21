@@ -3,7 +3,7 @@ type: person
 title: Will Jones
 date: 2025-03-20
 aliases: [Will Jones, Will]
-source-count: 4
+source-count: 5
 open-commitments: 1
 open-questions: 1
 ---
@@ -34,6 +34,10 @@ By August Will is JVL's **HHR (Historical Horse Racing) lead** and a core member
 
 On the [[wiki/meetings/2025-08-20-cms-payflex-block-diagram.md|Aug-20 block-diagram review]] (session 1 of 3) Will — introduced to Nathan and being brought up to speed on PayFlex — worked the requirement/architecture questions from his regulated-gaming background: he probed the SAS host modes (controlling vs listening-only) and confirmed JVL sits on the **secondary SAS** (Intralot holds primary), pressed on player-anonymity/federal money-laundering concerns (none apply — these are anonymous prepaid cards), and pushed the transition strategy — "you can't wipe out an ecosystem and rewrite" it; keep the legacy as "baggage," start with what's new, choose the right data store per service, and probe the cloud/B2B-with-InComm design. [[raw/CMS- Block Diagram_Arch.md]]
 
+## Sept 9 2025 — executive-developer alignment 1:1 (back-office/transactional)
+
+On a [[wiki/meetings/2025-09-09-back-office-architecture-will-jones.md|Val↔Will 1:1]] (12:20 PM) Val cast Will as an **executive** who helps define the requirements/capabilities for the whole transactional back-office and acts as a **two-way conduit** between the executive level and the developers (facilitating/mentoring Pavel; content translated to Russian for Minsk). Will prefers **user stories** over use cases and pushed the **piece-by-piece** migration philosophy — solve the biggest business problem first, treat the **B2B InComm connection hosted in Azure** as the one definitively-new priority piece, and keep the future architecture as a guiding vision rather than uprooting the legacy CMS at once. He framed the operator-non-payment exposure (JVL owes InComm before it holds the location's cash) as a functional requirement: JVL must quickly identify any operator who didn't settle by ~3–4 AM. Substance on [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Sept-9 section). [[raw/back-office_architecture-will_jones-september-9-2025.md]]
+
 ## Open commitments
 
 - [ ] Will — capture the session's extra ideas (golden-ball / must-hit-by, progressive segmentation) with his notes ("I wrote down what we were talking about there too, so I'll make sure they get captured") — due unspecified — [[raw/class_2_bingo_engine.md]]
@@ -48,3 +52,4 @@ On the [[wiki/meetings/2025-08-20-cms-payflex-block-diagram.md|Aug-20 block-diag
 - [[raw/backend_architecture-august-14-2025.md]]
 - [[raw/backend_architecture_meeting_undertakings_august_14_2025.md]]
 - [[raw/CMS- Block Diagram_Arch.md]]
+- [[raw/back-office_architecture-will_jones-september-9-2025.md]]

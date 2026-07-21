@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 74
+source-count: 75
 open-commitments: 1
 ---
 
@@ -214,8 +214,13 @@ On a late one-on-one ([[wiki/meetings/2025-08-26-jira-github-spec-drop-user-stor
 
 On a short call ([[wiki/meetings/2025-09-05-copilot-mcp-atlassian-microsoft-tenant.md]], 1:57 PM) Aaron — having "a lot of success" with **Microsoft Copilot** across his documents/emails/Teams — pushed to make **Copilot Studio** available for JVL so the team can build **Copilot agents with MCP access to Atlassian** (to interact with, and later verify the configuration of, JVL's Atlassian platform). He framed the enabling step as making [[wiki/people/dmitri-kovalchuk.md|Dmitri]] responsible for JVL's Microsoft/365 tenant. See [[wiki/topics/ai-assisted-development.md]] (Sept-5). [[raw/copilot_mcp-september-5-2025.md]]
 
+## Sept 10 2025 — minimum-viable architecture for the January POS
+
+On a coaching 1:1 ([[wiki/meetings/2025-09-10-minimum-architecture-pos-deployment.md]], 12:42 PM) Aaron helped Val decide how far to push a fast "old-fashioned" POS for January without derailing the transformation. His frame: every work unit is **curation → analysis → decision**, and **"variety"** (breadth of experience) means the analyst works narrower than the curator/decider — so a request must contain the recipient's experience, and **"productive doubt"** (code reviews, demos) is the friction that grows understanding ([[wiki/people/dmitri-chudinov.md|Dima Chudinov]], the principal back-end architect, should challenge *why* each requirement exists). His guidance: write **requirements** (a performance envelope — "50,000 players," ~100 concurrent transactions) not specs; call the 3–5-yr vision an **"architectural goal,"** not architecture; deliver a **"minimum viable architecture"** for POS (must not calcify); and **don't build a serverless/microservices payment system from scratch in ~4–5 months** — adopt a validated design pattern and iterate. As executive Val mandates the constraints (serverless, cloud-first, no monolithic SQL, understandable by others) with [[wiki/people/nathan-carver.md|Nathan]] shaping them; the **InComm validation service** is a static anchor. Iron triangle: fast/cheap/good, pick two. See [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Sept-10). [[raw/Minimum_Architecture_POS_deployment_planning-september-10-2025.md]]
+
 ## Sources
 
+- [[raw/Minimum_Architecture_POS_deployment_planning-september-10-2025.md]]
 - [[raw/Aaron + Val.md]]
 - [[raw/copilot_mcp-september-5-2025.md]]
 - [[raw/Git_JIRA_spec.md]]

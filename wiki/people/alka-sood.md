@@ -3,8 +3,8 @@ type: person
 title: Alka Sood
 date: 2026-07-14
 aliases: [Alka Sood, Alka, Cogna]
-source-count: 10
-open-commitments: 9
+source-count: 11
+open-commitments: 11
 ---
 
 # Alka Sood
@@ -38,6 +38,8 @@ Alka Sood is JVL's **finance contractor** (her business is **Cogna**, per the 20
 - [ ] Alka — finalize the consolidated loan control sheet (updated to end-June) plus a **warrants tab** (reconciled with Monica/lawyers), and add the accrued-interest **contingent liabilities** (840914 potential interest; the line-25 USD $3.5M note) in red — deliver ~mid next week — [[raw/finance_update_alka-july-3-2025.md]]
 - [ ] Alka — escalate the **JVL Systems GL restructure** and get it to [[wiki/people/lev-rudky.md|Lev]] by Monday/Tuesday (was due May 19; needed for October manufacturing) — due ~Jul 7–8 — [[raw/finance_update_alka-july-3-2025.md]]
 - [ ] Alka — send Val a written status update before she leaves on vacation (Jul 12) covering what's done and where things stand — due ~Jul 11 — [[raw/finance_update_alka-july-3-2025.md]]
+- [ ] Alka — build the all-payables control sheet (government remittances across Systems + Labs; delegate to Igor/Laura) and reconcile it to the trial balance and the bank; extend the same to credit cards, subcontractors and vendor lists — due unspecified (Sept 9) — [[raw/finance_recurring_meeting.md]]
+- [ ] Alka — write up the contractor payment process (fixed = no invoice; variable = invoice by 25th → approve 26th → single disbursement 30th) for Val's review — due unspecified (Sept 9) — [[raw/finance_recurring_meeting.md]]
 
 ## Apr 15 2025 — control sheet delivered; evaluations and automation
 
@@ -73,8 +75,19 @@ On the recurring bi-weekly call ([[wiki/meetings/2025-07-03-alka-finance-update.
 - **July priorities she owns:** the weekly cash-flow report, finishing the JVL↔Labs/Systems transaction reclassification, the monthly reporting package (start sending Val material "as early as next week"), Amazon record-keeping up to date, and the GST/SR&ED filings (cash-flow impact). She is on **vacation Jul 12–22** and moved the next meeting from the 15th to the **11th** (afternoon). [[raw/finance_update_alka-july-3-2025.md]]
 - **Manufacturing-move consequence for finance.** Val told her manufacturing is **moving to Georgia** ("new to me," Alka) — so the **GL restructure for Canada/Labs is dropped**; the work becomes the **JVL Systems GL** (Canada and US GL are identical bar the procurement/manufacturing element, which now sits in the US). She had pushed the GL job to August; Val asked her to **escalate it to Lev this week** (originally due May 19) because manufacturing in October means purchasing in July. JVL Labs manufacturing will be **collapsed** and its ~**$14–16M tax losses** worn out over ~3 years, then likely wound up. See [[wiki/decisions/2025-06-24-move-manufacturing-from-canada-to-georgia.md]] and [[wiki/topics/jvl-corporate-loans-and-shareholder-financing.md]]. [[raw/finance_update_alka-july-3-2025.md]]
 
+## Sept 9 2025 — Canada closure, control-sheet program, contractor process, EDS
+
+On the recurring call ([[wiki/meetings/2025-09-09-finance-recurring-alka.md]], 6:20 PM) Alka worked a long checklist with Val. [[raw/finance_recurring_meeting.md]]
+
+- **Canada closure = physical only.** Alka confirmed with Val that only the **facility/warehouse** closes; the Canadian company, corporate structure, employees, payroll, contractors and banking stay unchanged. She is migrating open POs from Navision to Business Central for Systems, and expects [[wiki/people/chris-finance.md|Chris]]'s Systems payment proposals to grow as [[wiki/people/mary.md|Mary]]'s (Labs) shrink — **Mary has taken herself off AP** and is training Chris. [[raw/finance_recurring_meeting.md]]
+- **Control-sheet program (Val's directive).** Build one **control sheet of every payable** — government remittances (sales tax, payroll tax, WSIB, corporate tax) across Systems and Labs — then reconcile against the **trial balance** and the **bank** ("three sides of the ledger"), delegating the build to [[wiki/people/igor-donis.md|Igor]]/Laura. Same control-sheet approach for **credit cards** (cancel unused), **subcontractors**, and vendor/creditor lists (prune to prevent erroneous payments). A possible **Georgia unemployment-tax** non-remittance dating to ~2022 ([[wiki/people/daniel-eds.md|Daniel]]'s era) folds into this audit rather than a one-off chase. [[raw/finance_recurring_meeting.md]]
+- **Contractor payment process (proposed).** Fixed-monthly contractors don't submit invoices (kept on a control total); variable contractors submit by the **25th**, approvers approve on the **26th**, one disbursement pays all on the **30th**. Alka to write it up for Val. [[raw/finance_recurring_meeting.md]]
+- **EDS + loans.** The matured **$400k USD GIC** (into Systems Canada) moves to Systems US to make the EDS payment; Val prefers routing to EDS in **Colombian currency**. She owes an updated **loan control sheet** (~Mon/Tue) and flagged the **~$3.8M** item is mis-booked as accrued interest on JVL's balance sheet; JVL actively pays only the **2011** and **840914** notes (~$20k/mo on 840914). See [[wiki/topics/jvl-finance-back-office.md]], [[wiki/topics/jvl-corporate-loans-and-shareholder-financing.md]], [[wiki/organizations/eds-colombia.md]]. [[raw/finance_recurring_meeting.md]]
+- **§15.8:** no named-person compensation figures ingested (the subcontractor fixed-vs-variable split carries no amounts; [[wiki/people/mikhail-perelman.md|Mikhail]]'s $5,000 PO limit is a signing authority). [[raw/finance_recurring_meeting.md]]
+
 ## Sources
 
+- [[raw/finance_recurring_meeting.md]]
 - [[raw/finance_update_alka-july-3-2025.md]]
 - [[raw/finance_loans_review_sean_alka-june-13-2025.md]]
 - [[raw/finance_loan_summary_detailed_review_alka-june-13-2025.md]]

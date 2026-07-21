@@ -3,7 +3,7 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction]
-source-count: 20
+source-count: 21
 open-commitments: 2
 open-questions: 1
 ---
@@ -224,6 +224,14 @@ The fuller group follow-up to the Aug-12 explainer above ([[wiki/meetings/2025-0
 - **Aaron's reframe (the actual target).** Aaron pushes past the tool question: define **what makes generated code "acceptable"** (style guides / patterns / requirements). If you can clearly define that, modern (AI or deterministic) techniques can generate the React code — and, in the **same flow/step**, generate the **integration tests** that validate why the code was created ("not the same tool … the adjacent process"). He insists the real problem is the **inability to have capacity to write tests** and the missing **direct connection from mock-ups to code+tests**. He also warns JVL may be "using Figma in a way it wasn't designed to be used." Val ends at "~60% understanding, want ~80%." Left open — a course-check, no decision locked. [[raw/figma_to_testing_development .md]]
 - **Requirements point (Pavel/Aaron).** The mock-up review with Val/Juan is where requirements get **adjusted iteratively** — but the people requesting changes rarely update the written requirements, so Igor ends up working original requirements plus verbally-added changes. [[raw/figma_to_testing_development .md]]
 
+## Sept 10 2025 — "drop auto-tests, write tests for the spec" (stand-up directive)
+
+On the [[wiki/meetings/2025-09-10-fast-pacing-alignment-standup.md|series-opening fast-pacing alignment stand-up]] ([[wiki/people/val-levitan.md|Val]] + [[wiki/people/pavel.md|Pavel]], Russian) Val issued a testing-doctrine directive alongside the dev status pass. [[raw/fast-passing-general-alignment_stand-up-september-10-2025.md]]
+
+- **The spec is the developer↔QA "touchstone."** Val reframed the QA effort: **officially stop pursuing "auto-tests"** as a standalone goal; instead **write tests *for the spec*.** The spec (embodied in the branch) is the point of contact ("камень соприкосновения") between developers and QA engineers, and must be neither over-complex (unbuildable) nor too simple (vague). [[raw/fast-passing-general-alignment_stand-up-september-10-2025.md]]
+- **"Reverse Omni" into a spec.** Because Omni was never written to a spec, JVL must **reverse-engineer it into one** (a permanent, ~10-year effort), then write tests per spec. An **integration test is part of the pull request** when a feature/capability is ready to merge to main; a caught bug sends you back to the spec to decide whether it was a mis-interpretation of the spec or a code error. This extends the Aug-26 "drop user stories, spec from recorded conversation" method (see [[wiki/people/aaron.md]] and [[wiki/decisions/2025-04-03-jira-capability-level-and-github-mapping.md]]). [[raw/fast-passing-general-alignment_stand-up-september-10-2025.md]]
+- **The mechanism.** Recorded **2-hour sessions daily / every-other-day** walking Omni **module by module** → transcript → **AI converts the code to a spec** → group discussion refines it. Val set this as [[wiki/people/pavel.md|Pavel]] + [[wiki/people/irina-shishko.md|Irina]]'s undertaking; developer skepticism is expected ("if they weren't skeptical I'd think they were robots"). Pavel proposed a proof-of-concept: independently write one small piece from a spec via AI to show it works. A new **auto-tester** (evaluating **Playwright** vs Selenium) started the prior Friday, working evenings with [[wiki/people/anton-leshkevich.md|Anton]] until ~October then full-time. [[raw/fast-passing-general-alignment_stand-up-september-10-2025.md]]
+
 ## History
 
 ### The "Test 360" origin review (Fri Jul 5 2024 — date inferred; pre-dates the v1 window, Tier A-queued)
@@ -261,3 +269,4 @@ The earliest captured root of this effort — a Bitbucket-era progress review be
 - [[raw/update_anton-july-11-2025.md]]
 - [[raw/figma_to_testing_transcript.md]]
 - [[raw/figma_to_testing_development .md]]
+- [[raw/fast-passing-general-alignment_stand-up-september-10-2025.md]]

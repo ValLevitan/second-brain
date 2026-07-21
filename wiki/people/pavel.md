@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 72
+source-count: 73
 open-commitments: 4
 open-questions: 0
 ---
@@ -197,8 +197,10 @@ Pavel ("Pasha") worked the Jira/GitHub maturity session with Val and Irina: he s
 - **Sept 3** ([[wiki/meetings/2025-09-03-flex-capabilities-weekly-ach-dispute-pos-design.md]]): laid out **staged cashier login/PIN administration** — stage 1 (by Jan 1) creates PIN codes centrally on the server and assigns them to a POS/location; later stages use a location admin magnetic card or an operator-mobile-generated admin QR/barcode; credentials attach to the **location, not the device**, so a hot-swapped device pulls settings from the server. Also flagged only **3 of many InComm API endpoints are enabled** for JVL's gift-card types. See [[wiki/organizations/incom.md]] (Sept-3). [[raw/Flex Capabilities Weekly Update-september-3-2025.md]]
 - **Sept 9 (top-level architecture, 2:41 PM)** ([[wiki/meetings/2025-09-09-top-level-backend-architecture.md]], with Val): proposed the ~6-month phasing — a near-independent **cloud InComm payment hub** first, **extend the legacy Flexpay/Flex-POS dashboard** to register Flex-POS for Jan-1, new architecture built in parallel — and taught Val the requirements→block-diagram→decompose method. Undertook to stand up a **repository** then produce a **top-level block diagram**; Tuesday ~4 PM follow-up booked. See [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Sept-9). [[raw/top_level_architecture_back-end-september-9-2025.md]]
 - **Sept 9 (POS spatial, 3:18 PM)** ([[wiki/meetings/2025-09-09-pos-spatial-hardware-board-planning.md]], with Genadi): defended the **main-board + cheap interface-board** split against full one-board consolidation; floated **LVDS daisy-chain / dual-mode** to drive both monitors off one connector (a Rockchip/Alekseev question). [[raw/POS_spatial_planning-september-9-2025.md]]
+- **Sept 10 (fast-pacing alignment stand-up, 3:31 PM)** ([[wiki/meetings/2025-09-10-fast-pacing-alignment-standup.md]], with Val; the **series opener**): gave the dev status pass — new auto-tester (Playwright vs Selenium) working with Anton; Nebraska/Texas release slipped a couple days; **Evgeniy Yavorski** promised his first update; the **payment-hub architecture** (independent Amazon-deployable cloud app; FlexPay to be re-pointed *through* the hub, not directly to InComm) with a Tuesday top-level-view review. Received Val's directive that Pavel + [[wiki/people/irina-shishko.md|Irina]] institute **spec-driven development** — the spec as the developer↔QA "touchstone" in the branch, "reverse Omni" into a spec, tests written per spec, via recorded 2-hour module-walk sessions turned into specs by AI. See [[wiki/topics/test-automation-strategy.md]] (Sept-10). [[raw/fast-passing-general-alignment_stand-up-september-10-2025.md]]
 
 ## Sources
+- [[raw/fast-passing-general-alignment_stand-up-september-10-2025.md]]
 - [[raw/CMS- Block Diagram_Arch.md]]
 
 - [[raw/2025-08-06_Flex-POS-Mid-Iteration-Sync.md]]
