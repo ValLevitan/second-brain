@@ -4,7 +4,7 @@ title: Mark (JVL US state-tax advisor)
 date: 2025-05-27
 aliases: [Mark]
 source-count: 1
-disambiguation: "External US tax advisor at JVL's US accounting firm (with Ashley); surname not stated. Not a JVL employee. Distinct from JVL's Canadian CA Sean Riley and from 'Nick'/'Daniel' (Sean's sub-contacts)."
+disambiguation: "US state-tax advisor at JVL's US accounting firm (with Ashley); surname not stated; not a JVL employee; distinct from Canadian CA Sean Riley and from 'Nick'/'Daniel' (Sean's sub-contacts). One of TWO people named Mark (owner-context-distinct): Mark Sinosich (Australian sweepstakes/gaming contact, 2024 → wiki/people/mark-sinosich.md) and Mark the US state-tax advisor (JVL's US accounting firm, with Ashley, 2025 → wiki/people/mark-tax-advisor.md). Resolve by context: Australian sweepstakes/gaming → Sinosich; US state-tax/accounting → tax advisor."
 ---
 
 # Mark (JVL US state-tax advisor)
