@@ -3,7 +3,7 @@ type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
 aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus]
-source-count: 29
+source-count: 30
 open-questions: 3
 ---
 
@@ -302,6 +302,18 @@ On the [[wiki/meetings/2025-09-18-games-concepts-markets-review.md|Sept-18 games
 
 See also [[wiki/decisions/2025-03-19-minimal-touch-fix-in-rage-defer-to-omni.md|the Rage minimal-touch-fix / defer-to-Omni decision]].
 
+## Oct 6 2025 — the South Dakota keno pack scheduled; migrate game design off Jira to Git
+
+On the [[wiki/meetings/2025-10-06-game-design-scheduling-jira-grooming.md|Oct-6 game-design scheduling / Jira grooming]] session ([[wiki/people/val-levitan.md|Val]], [[wiki/people/michael-gottlieb.md|Michael Gottlieb]], [[wiki/people/juan-martinez.md|Juan]], [[wiki/people/lena.md|Lena]], [[wiki/people/efim-podvoiski.md|Efim]], [[wiki/people/pavel.md|Pavel]]) the team scheduled the South-Dakota keno pack and formalized deliverable/workflow rules. [[raw/game design scheduling-october-6-2025.md]]
+
+- **Migrate game-design thinking off Jira/Confluence → Git.** With core development "now organized," Val extended the [[wiki/decisions/2025-04-03-jira-capability-level-and-github-mapping.md|Jira→GitHub]] restructuring into **game development**: Michael's design thought must move out of Jira/Confluence into **Git** (revision control); interim, break each game into **deliverables in Jira, collapsing story levels** (features only). [[raw/game design scheduling-october-6-2025.md]]
+- **Deliverable vocabulary settled.** Per game: **abstract** (includes game mechanics), **main screen comp art** (the "comp art" header renamed to reduce confusion — one still image of the conceivable main screen), and a **pay-table reference/draft** (Juan-supplied and explicitly *inspirational* — competitor pay tables can't be copied 1:1 for legal reasons). Game mechanics stay inside the abstract. [[raw/game design scheduling-october-6-2025.md]]
+- **The South Dakota VLT keno pack — three discrete games, not a package.** The **"package" GC260** was declared **stillborn** and deleted (three separate games, no package): **Black Hills Keno Deluxe (GC281/IP882)** = JVL's answer to **Caveman Keno (Plus)**, abstract ~70% (started Sept-22), comp art starting ~Oct-13 for 3 weeks (~Oct-27) by artist [[wiki/people/anastasia.md|Anastasia]]; **Solar Keno (GC280)** = answer to **Da Vinci Diamonds** (waterfalls after Black Hills); **Liberty Keno (GC279)** furthest out (awaiting customer data on the "Liberty" name). The keno games get a **new standard keno UI** (JVL branding) that is deliberately **NOT** the liquid-glass style. [[raw/game design scheduling-october-6-2025.md]]
+- **Liquid-glass multi-game home screen (GC265)** — initial comp art done, in design (animated presentation); market-specific home screens diverge at design. [[raw/game design scheduling-october-6-2025.md]]
+- **South Dakota Swift Cache Progressive re-release (GC264).** Re-release the SD one-pack with **Swift Cache** — a modification of a finished product that goes essentially straight to production. Sparked the **"concept is post-requirement"** debate (Val: requirements live outside Jira; an item with nothing to conceptualize shouldn't occupy the concept stage) — left unresolved; interim deliverables: abstract (Juan) + V-deck/meter comp art (Lena), pending Juan's requirement after the trade show. [[raw/game design scheduling-october-6-2025.md]]
+- **Fiery Ice Link (GC266, Georgia).** Two features: **nudge comp art** (done, not yet formally approved — pending liquid-glass approval) and **game mechanics / math guidelines** (Efim to draft with Juan + Michael). Continues the Fiery-Ice nudge/progressive thread above. [[raw/game design scheduling-october-6-2025.md]]
+- **Housekeeping.** **Jackpot Rush** theme done/in production (removed from board); **Florida-market** games (**Kaiocho 2**, **Cash Kittens** GC554) archived as not-currently-worked ("don't do any work if it's not planned"). [[raw/game design scheduling-october-6-2025.md]]
+
 ## Sources
 
 - [[raw/game_design_meeting_february_21_2025.md]]
@@ -333,3 +345,4 @@ See also [[wiki/decisions/2025-03-19-minimal-touch-fix-in-rage-defer-to-omni.md|
 - [[raw/Player_behavior_simulator.md]]
 - [[raw/player_emulator.md]]
 - [[raw/review_games_concepts_markets-september-18,2025.md]]
+- [[raw/game design scheduling-october-6-2025.md]]

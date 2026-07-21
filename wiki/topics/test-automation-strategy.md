@@ -3,7 +3,7 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction]
-source-count: 23
+source-count: 24
 open-commitments: 2
 open-questions: 1
 ---
@@ -264,6 +264,16 @@ The earliest captured root of this effort — a Bitbucket-era progress review be
 - **People risk:** Val worried [[wiki/people/irina-shishko.md|Irina]] must rule the process "with an iron fist"; his read — she will **adopt** what Alexander and Anton establish without opining, and nobody will challenge it "especially if we're going to get Yefim on site." Aaron's worry was understanding ("can we make sure that people understand why we do it this way"), not compliance. (Aaron's reading gift: **howtodeal.dev** — "12 types of underappreciated software developers.") [[raw/test-360_progress_review_meeting.md]]
 - Next step then: Anton to draw the block architectural diagram of the flow (Bitbucket, IDEs, unit tests, plug-in modules like SonarQube) "today," review booked for the following Wednesday (the 10th) at 8 a.m. Eastern, one hour — Val: cap these reviews at ~an hour ("it's a little bit overwhelming for me to sit through these meetings for two hours"). (Outcomes of these 2024 commitments aren't visible in later sources; they are superseded by the Jan-2025 arc above, so recorded here rather than as open checkboxes.) [[raw/test-360_progress_review_meeting.md]]
 
+## Oct 1 2025 — reverse-Omni flipped to "tests-first, spec-second"; the read-aloud method
+
+On the [[wiki/meetings/2025-10-01-fast-pacing-standup-reverse-omni-tests.md|Oct-1 fast-pacing stand-up]] (session 4; [[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel]], [[wiki/people/irina-shishko.md|Irina Shishko]], Russian) the reverse-Omni effort hit the wall Val had warned about — you can't write tests without a spec, but the AI-generated spec is only ~65% real — and Val flipped the sequence. [[raw/fast-pacing-stand-up_meeting-october-1-2025.md]]
+
+- **Biratka extraction exhausted; AI spec exists but is ~60–65%.** [[wiki/people/alexander-biratka.md|Sasha Biratka]] (the framework author) has been "squeezed for all we could get"; the interview transcriptions + source code were fed to AI, producing **architecture diagrams and a 2-version framework spec** now in the git repo — but Pavel judged it only **~60–65% (maybe 50%)** of a real spec and admitted fatigue. [[raw/fast-pacing-stand-up_meeting-october-1-2025.md]]
+- **The read-aloud method (Val's directive).** Don't let engineers read the AI spec alone (the "lazy path" that re-scatters tribal knowledge). Instead hold **live meetings reading the material aloud paragraph-by-paragraph, poking "why/where," recording them, and re-feeding the transcript to the AI to iterate** — mornings only, ~1 hour each. Val models it on a written-notes-read-aloud-at-the-meeting practice (executive name garbled in this source; cf. the Jeff-Bezos attribution in the May-21 section above). [[raw/fast-pacing-stand-up_meeting-october-1-2025.md]]
+- **Tests-first, spec-second.** Rather than wait for a finished spec, each reverse-Omni participant is to **propose 5–10 tests** (start with 3, chosen to hit different areas) while abstracting away from whether the hooks exist yet; the expected "where is the spec?" question is the point — from the tests they surface what the spec must contain (drivers/addresses/hooks, engineering descriptions, game-creator descriptions from [[wiki/people/lena.md|Lena]]). Participants: **Koretski** ([[wiki/people/evgeny-kharetski.md|Kharetski]], per the §4 registry garble + Omni-backend context, Tier-A), [[wiki/people/igor-metelski.md|Metelski]], an Anton ([[wiki/people/anton-leshkevich.md|Leshkevich]] by test-framework context), a new "Alexander" (Tumanov by the Sept-24 new-hire context, inference), and [[wiki/people/irina-makarych.md|Irina Makarych]]. [[raw/fast-pacing-stand-up_meeting-october-1-2025.md]]
+- **Test hooks still the blocker.** Test-writing stays "very limited" until someone adds the **hooks into the test framework's code** to reach the game/framework internals — **Anton hasn't done it yet**, nor has anyone; Val accepts it "comes later" (a week to two months). Same open dependency as the [[#july-11-2025--pace-reality-check-and-the-developer-writes-the-test-hooks-idea|July-11 "developer writes the test hooks"]] proposal. [[raw/fast-pacing-stand-up_meeting-october-1-2025.md]]
+- **Google Meet tested and rejected.** [[wiki/people/dmitri-chudinov.md|Dima]]'s experiments found Google Meet transcribes Russian **worse than Teams**, so JVL stays on Teams but still re-runs meetings through Pavel's **offline transcription tool** for fidelity (evolution of the Sept-24 "try Google Meet + Gemini" recommendation — tested, Teams retained). [[raw/fast-pacing-stand-up_meeting-october-1-2025.md]]
+
 ## Sources
 
 - [[raw/integration_and_testing_procedures_january_15_2025.md]]
@@ -289,3 +299,4 @@ The earliest captured root of this effort — a Bitbucket-era progress review be
 - [[raw/fast-passing-general-alignment_stand-up-september-10-2025.md]]
 - [[raw/fast-passing-general-alignment_stand-up-september-17-2025.md]]
 - [[raw/specification_standards_review-september-22-2025.md]]
+- [[raw/fast-pacing-stand-up_meeting-october-1-2025.md]]
