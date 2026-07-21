@@ -45,5 +45,8 @@ Format: `raw/<skipped file>` — source of record `raw/<cited fuller file>` — 
 ### Batch 71
 - `raw/Flex Capabilities Weekly Update.md` — SoR `raw/Flex Capabilities Weekly Update-september-3-2025.md` — byte-identical duplicate (md5 0a9e7de0…, 40,930 bytes both); undated filename variant of the Sept-3 Flex Capabilities weekly. Ingest the dated copy. (Batch 71.)
 
+### Batch 78
+- `raw/Pricing_strategy-september-23-2025.md` — SoR `raw/pricing_strategy_meeting-september-23-2025.md` — NOT a transcript; a **derived pricing-policy summary doc** ("*Established: September 23, 2025* / core pricing structure / premium gaming machines retail $16,000-$18,000 / SD $17,200 / TX $16,500 / NE $16,000 / single-price-to-Dennis / CFO-to-CFO credits") distilled from the Sept-23 pricing meeting transcript (low token jaccard ~0.06 = it's a policy abstract, not the same words). §12 derived-document-family: folded into the meeting stub `wiki/meetings/2025-09-23-pricing-strategy.md` AND `wiki/topics/jvl-machine-pricing-strategy.md`; no separate stub. (Batch 78.)
+
 ### Batch 76
 - `raw/echo_distribution_marketing-september-17-2025.md` — NO SoR (failed transcription) — 1,111-char stub of repeated "室温" (Chinese "room temperature") auto-caption garbage; zero durable content (§12 stub rule). The Sept-17 ECHO update is lost to failed transcription (Sept-15/16/26 ECHO updates are intact). (Batch 76.)
