@@ -3,7 +3,7 @@ type: person
 title: Alka Sood
 date: 2026-07-14
 aliases: [Alka Sood, Alka, Cogna]
-source-count: 12
+source-count: 13
 open-commitments: 13
 ---
 
@@ -91,8 +91,13 @@ On the recurring call ([[wiki/meetings/2025-09-09-finance-recurring-alka.md]], 6
 
 On a 4:01 PM working/demo call ([[wiki/meetings/2025-09-15-onedrive-sharepoint-file-architecture.md]]; with [[wiki/people/val-levitan.md|Val]], [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] + [[wiki/people/andrey-bosik.md|Andrei Bosik]] (IT), [[wiki/people/igor-donis.md|Igor Donis]], [[wiki/people/felipe-miranda.md|Felipe Miranda]]) Alka pushed to stop emailing Excel files (they get corrupted / instructions lost) and instead share them from a **secured SharePoint** location. Her driver is the weekly **payment proposal** she sends Val — she wants him to click a link, comment, and have it captured instantly, with the ability to **lock** it once he authorizes so no one overrides his instructions, and **per-file access** so sensitive files (e.g. the pre-authorized customer-payment file with banking details) are limited (not even Felipe sees everything). Val's ruling: **start on SharePoint** and see. Alka's design: ~**5–6 sites** (accounting site holding the payment folder/cash-flow/monthly reports/PO auth; an executive site for her+Val's management reporting) with governance over who can create sites; migrate the local-office **accounting folder** onto SharePoint after cleaning to the last 3 years. Val also wants the payment/PO report built in **Business Central and linked to SharePoint** (Igor to explore). See [[wiki/topics/jvl-finance-back-office.md]] and [[wiki/topics/infosec-and-server-infrastructure.md]]. [[raw/One-Drive _ Sharepoint_discussion.md]]
 
+## Sept 16 2025 — cash-forecast model walk-through
+
+On a [[wiki/meetings/2025-09-16-cash-forecast-2026.md|7:03 PM call]] Alka walked Val through a first-draft **cash-flow forecast** she and [[wiki/people/igor-donis.md|Igor]] built over the weekend from JVL's financial records — receipts/payables/monthly expenses projected **Oct 2025 → Dec 2026** (cash turning red in July), a reusable template with a CAD/USD toggle. Val fed corrections (labs receivables ~0; Minsk is **$70k US/mo all-in = $1.2M CAD/yr**, not the higher figure the model showed) and asked her to **verify AR/AP** (Igor back tomorrow) before publishing to SharePoint. No §15.8 material (corporate cash-flow/forecast/loan/Minsk-program economics only). See [[wiki/topics/jvl-finance-back-office.md]] (Sept-16). [[raw/cash_forecast_till_2027-september-16-2025.md]]
+
 ## Sources
 
+- [[raw/cash_forecast_till_2027-september-16-2025.md]]
 - [[raw/One-Drive _ Sharepoint_discussion.md]]
 - [[raw/finance_recurring_meeting.md]]
 - [[raw/finance_update_alka-july-3-2025.md]]

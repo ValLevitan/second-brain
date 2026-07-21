@@ -3,7 +3,7 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 13
+source-count: 14
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
 
@@ -49,7 +49,12 @@ At the end of July Nathan led the two-session **transactional-architecture** arc
 
 On the [[wiki/meetings/2025-09-03-flex-capabilities-weekly-ach-dispute-pos-design.md|Sept-3 Flex Capabilities weekly]] Nathan (surveying providers with Claude) recommended an ACH-focused API house — transcribed "Diwala/Duwalla," **almost certainly Dwolla** (inference) — now integrated with **Plaid** for instant balance verification before a transaction (0.5%/transaction, $5 cap, $0.05 min). He also presented the Flex-POS **dispute-resolution use case** (cashier swipes the card, the device shows the fee/confirmation the player accepted, escalation to InComm's printed number), driven by his own audit trail card↔Mother-Goose-ticket. See [[wiki/organizations/incom.md]] (Sept-3). [[raw/Flex Capabilities Weekly Update-september-3-2025.md]]
 
+## Sept 16 2025 — payment-hub blueprint review
+
+On the [[wiki/meetings/2025-09-16-backend-blueprint-payment-hub-review.md|Sept-16 blueprint review]] (1:03 PM, with Val + Pavel + Aaron) Nathan set the payment-hub tech stack with Pavel — a **Java** API service in a cloud container, horizontal scaling as low-hanging fruit, ACH vendors all **REST over OAuth 2** (switchable adapters). He owns **sourcing the third-party ACH provider**: gathering API docs from his **3 focused vendors** and reaching out for sales/technical consulting to feed Pavel's team. Booked to meet Val **Wed the 24th** to drive payment-hub API requirements from use cases (ticket redemption, location-owner reconciliation, JVL auditing) then device provisioning. See [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Sept-16). [[raw/back-end_architecture_blueprint_review.md]]
+
 ## Sources
+- [[raw/back-end_architecture_blueprint_review.md]]
 - [[raw/CMS- Block Diagram_Arch.md]]
 
 - [[raw/2025-08-06_Flex-POS-Mid-Iteration-Sync.md]]

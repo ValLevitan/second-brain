@@ -4,7 +4,7 @@ title: Fedor (Amazon / online-marketing contractor)
 date: 2024-11-24
 aliases: [Fedor, Fёdor, Фёдор]
 disambiguation: "Likely = 'Fedor Globa' in the JVL contractor roster (inference from the roster, not the transcript). The online-marketing/Amazon-keyword Fedor working under Andrei Klimovich."
-source-count: 2
+source-count: 3
 open-commitments: 0
 open-questions: 0
 ---
@@ -17,8 +17,10 @@ Fedor is the **online-marketing contractor** [[wiki/people/andrei-klimovich.md|A
 
 - On the Nov-24 2024 update, Andrei said Fedor **starts Monday** on the Amazon push: **keyword analysis, competitor research within the niche, and rewriting JVL's Amazon listing** so it surfaces on the right search queries. [[raw/andrei_klimovich_update_report_online_strategy1_2025-03-29.md]]
 - On the Feb-1 2025 recap he was the one **investigating Amazon ad-attribution** — whether Amazon can show which specific ad a buyer came from (vs. Google/YouTube pixel tracking). [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]
+- **Sept 16 2025:** on Andrei's ECHO marketing-session-2 call, Andrei relayed a call with Fedor that drove the **Amazon visual→search ad shift** — visual/display ads' cost-per-add-to-cart ran ~**2×** search ads, so the visual budget is being cut and moved to keyword search. Fedor and Andrei split the Amazon-account work (Fedor on the advertising side). See [[wiki/topics/echo-home-gaming-device.md]] (Sept-16). [[raw/echo_distribution_marketing_update-september-16-2025.md]]
 
 ## Sources
 
+- [[raw/echo_distribution_marketing_update-september-16-2025.md]]
 - [[raw/andrei_klimovich_update_report_online_strategy1_2025-03-29.md]]
 - [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]]

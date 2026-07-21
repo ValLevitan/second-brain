@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 75
+source-count: 76
 open-commitments: 1
 ---
 
@@ -218,8 +218,13 @@ On a short call ([[wiki/meetings/2025-09-05-copilot-mcp-atlassian-microsoft-tena
 
 On a coaching 1:1 ([[wiki/meetings/2025-09-10-minimum-architecture-pos-deployment.md]], 12:42 PM) Aaron helped Val decide how far to push a fast "old-fashioned" POS for January without derailing the transformation. His frame: every work unit is **curation → analysis → decision**, and **"variety"** (breadth of experience) means the analyst works narrower than the curator/decider — so a request must contain the recipient's experience, and **"productive doubt"** (code reviews, demos) is the friction that grows understanding ([[wiki/people/dmitri-chudinov.md|Dima Chudinov]], the principal back-end architect, should challenge *why* each requirement exists). His guidance: write **requirements** (a performance envelope — "50,000 players," ~100 concurrent transactions) not specs; call the 3–5-yr vision an **"architectural goal,"** not architecture; deliver a **"minimum viable architecture"** for POS (must not calcify); and **don't build a serverless/microservices payment system from scratch in ~4–5 months** — adopt a validated design pattern and iterate. As executive Val mandates the constraints (serverless, cloud-first, no monolithic SQL, understandable by others) with [[wiki/people/nathan-carver.md|Nathan]] shaping them; the **InComm validation service** is a static anchor. Iron triangle: fast/cheap/good, pick two. See [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Sept-10). [[raw/Minimum_Architecture_POS_deployment_planning-september-10-2025.md]]
 
+## Sept 16 2025 — payment-hub blueprint review: "specification of specifications"
+
+On the [[wiki/meetings/2025-09-16-backend-blueprint-payment-hub-review.md|Sept-16 blueprint review]] (1:03 PM, with Val + Pavel + Nathan) Aaron played the process advisor on how JVL should write specs. He surfaced the formal frameworks — **TOGAF** (The Open Group), **ArchiMate**, **PlantUML**, **ISO** requirement/spec standards — but judged them **not a match** for JVL's size and the January deadline ("you'll be spinning months writing all the specs; it will not let you hit January 1st"). His steer: distil an **informal, smaller** interpretation — an internal agreement on "what we consider a specification," not ISO certification. See [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Sept-16). [[raw/back-end_architecture_blueprint_review.md]]
+
 ## Sources
 
+- [[raw/back-end_architecture_blueprint_review.md]]
 - [[raw/Minimum_Architecture_POS_deployment_planning-september-10-2025.md]]
 - [[raw/Aaron + Val.md]]
 - [[raw/copilot_mcp-september-5-2025.md]]

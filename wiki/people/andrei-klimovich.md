@@ -4,7 +4,7 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 22
+source-count: 23
 open-commitments: 9
 open-questions: 0
 ---
@@ -162,8 +162,13 @@ On the [[wiki/meetings/2025-08-07-klimovich-echo-amazon-marketing-recap.md|Aug-7
 
 On the [[wiki/meetings/2025-09-15-echo-distribution-marketing-update.md|Sept-15 update]] (§12 internally duplicated; recording date Sept-15 per §11 — opens the Sept-15/16/17/26 ECHO-marketing series) Andrei reported the ECHO state: Meta driving website + Amazon-installment traffic (IG ~220 subs, Facebook dead, no Meta-attributed sales), Amazon at **3 five-star reviews** but a **too-high 11%/10% return rate** (vs the 5% cap), the shipping bottleneck at Amazon (lost 1 of 12 machines), a **$2,000–2,500/mo Instagram influencer plan** (~50 shortlisted), and a trade-media/guns-media push (RePlay, Arcade Heroes, Crowley Media/Athlon Outdoors, American Handgunner). Val coached targeting the **premium** gun collector (Staccato/Wilson Combat tier). Google still pending Monica's contract. Full detail on [[wiki/topics/echo-home-gaming-device.md]]. [[raw/echo_distribution_marketing_update-september-15-2025.md]]
 
+## Sept 16 2025 — ECHO marketing session 2 (influencer sourcing, Amazon ad shift, website)
+
+On the [[wiki/meetings/2025-09-16-echo-marketing-influencer-sourcing.md|Sept-16 update]] (Russian; session 2 of the series) Andrei detailed his **influencer-sourcing method** (guns via 4 brand categories → collaborators; Valeria on horses; two arcade collectors responded, one at **$750/Reel+2 stories**), the **Amazon visual→search ad shift** (via a call with [[wiki/people/fedor.md|Fedor]]; visual cart-cost ~2× search; a "gaming equipment" $100/day locomotive broken by Amazon since Friday), pricing experiments (Prime-Day ~$2,990), a **June-2026** mental deadline to know if the product sells at a viable price, the plan to **intercept distributor web traffic** via Google, a full **website walk-through** (ECHO page $4,500/$6,000; Flex temp page $638 + $1,500 video; AR feature; $166/mo 0%-APR message), and the **Abfluence** influencer-tool trial ($660/mo, parked as too early). Val coached the premium-collector targeting again. Full detail on [[wiki/topics/echo-home-gaming-device.md]] (Sept-16). [[raw/echo_distribution_marketing_update-september-16-2025.md]]
+
 ## Sources
 
+- [[raw/echo_distribution_marketing_update-september-16-2025.md]]
 - [[raw/echo_distribution_marketing_update-september-15-2025.md]]
 - [[raw/Echo_home_amusement-recap-align.md]]
 - [[raw/andrei_klimovich_echo_status_update_2025-07-09.md]]

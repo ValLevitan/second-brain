@@ -3,7 +3,7 @@ type: person
 title: Valeria (ECHO social-media / SMM contractor)
 date: 2025-06-18
 aliases: [Valeria, Valeriya]
-source-count: 1
+source-count: 2
 disambiguation: "Valeria — an ECHO social-media (SMM) contractor engaged June 2025, based in Vilnius, Lithuania. Distinct from [[wiki/people/anton-smm.md|Anton]] (ECHO Meta-ads contractor) — Valeria runs organic social/content, Anton runs paid Meta campaigns. Surname not stated."
 ---
 
@@ -23,6 +23,11 @@ Valeria is a **social-media / SMM contractor** signed by [[wiki/people/andrei-kl
 - **Third priority (lower):** "arcade marketing" — reviving old ECHO threads on Facebook communities/Reddit/forums, signalling that ECHO is back and JVL supports it. [[raw/echo_sales_marketing_progress_report-june-18-2025.md]]
 - She is distinct from [[wiki/people/anton-smm.md|Anton]] (paid Meta ad-campaign setup): Valeria does organic content/community, Anton does the paid-ads auctions. [[raw/echo_sales_marketing_progress_report-june-18-2025.md]]
 
+## Sept 16 2025 — influencer sourcing + Abfluence accuracy check
+
+On Andrei's [[wiki/meetings/2025-09-16-echo-marketing-influencer-sourcing.md|Sept-16 marketing update]], Valeria was delegated the **horses vertical** for influencer sourcing (~4 sub-groups, same brand→collaborator method as the guns work), and is **testing the accuracy** of the **Abfluence** influencer-database tool during its 48-hour trial (checking a sample against other tools). Andrei described her as **detail-oriented** and likely a **designer by training** — she studied at the **European Humanities University (EGU/ЕГУ)**, known for a strong design faculty. **§15.8:** her monthly cost / hours-rate (raised while weighing the Abfluence subscription against her labour) is **held** — not recorded. See [[wiki/topics/echo-home-gaming-device.md]] (Sept-16). [[raw/echo_distribution_marketing_update-september-16-2025.md]]
+
 ## Sources
 
+- [[raw/echo_distribution_marketing_update-september-16-2025.md]]
 - [[raw/echo_sales_marketing_progress_report-june-18-2025.md]]
