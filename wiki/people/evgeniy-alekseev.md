@@ -63,7 +63,7 @@ On the e-Wallet/TITO review ([[wiki/meetings/2025-05-29-ewallet-tito-flexpay-imp
 
 ## Sept 22 2025 — universal interface board + 33 Jira tasks
 
-On the Val↔[[wiki/people/genadi-peari.md|Genadi]] electro-mechanical alignment ([[wiki/meetings/2025-09-22-electro-mechanical-alignment-genadi.md]]), Genadi reported Alekseev is busy in Jira and will **open 33 tasks**: he is building the **monitor interface board** first, then a single **main interface board** universal to any ARM platform later dropped in — carrying a **USB hub/multiplier** ("no processor, no firmware, purely electronic"), communicating over one wire. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept-22). [[raw/alignment_elctro-mechanical-september-22-2025.md]]
+On the Val↔[[wiki/people/genadi-peari.md|Genadi]] electro-mechanical alignment ([[wiki/meetings/2025-09-22-electro-mechanical-alignment-genadi.md]]), Genadi reported Alekseev is busy in Jira and will **open 33 tasks**: he is building the **monitor interface board** first, then a single **main interface board** universal to any ARM platform later dropped in — carrying a **USB hub/multiplier** ("no processor, no firmware, purely electronic"), communicating over one wire. He is also the **"Evgeny" who will adjust the FlexPort board file** to whatever Genadi's finalized mechanical form dictates (mount/size/perimeter-lighting/scanner reach) — hardware-adjacent board work on Genadi's project, per the updated §4 ruling (no fourth "Zhenya"). See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept-22). [[raw/alignment_elctro-mechanical-september-22-2025.md]]
 
 ## Sources
 
