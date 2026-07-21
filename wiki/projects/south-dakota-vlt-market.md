@@ -3,7 +3,7 @@ type: project
 title: South Dakota VLT market entry
 date: 2025-01-22
 aliases: [South Dakota, SD VLT, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950, V43, D27, SD cap, Bioliches, Gypsy Spirit, Crazy Colt, Queen of Luxor, Liberty Spin, Rodeo Spin, South Dakota vertical]
-source-count: 13
+source-count: 14
 ---
 
 # South Dakota VLT market entry
@@ -105,6 +105,10 @@ A **South Dakota Lottery operators list** dated **May 2025** — a reference tab
 
 On the [[wiki/meetings/2025-09-18-games-concepts-markets-review.md|Sept-18 games/markets review]] ([[wiki/people/val-levitan.md|Val]] + [[wiki/people/juan-martinez.md|Juan]]) South Dakota was in a **60–90-day holding pattern**, gathering data from the six installs to confirm nothing else is needed. Confirmed the **92% cap cannot be exceeded** (they had hoped to). Three needed changes, ranked: **(1) Keno** — add a Keno option to be competitive ("every other machine has a Keno"; 25¢ minimum bet, $8,000 max) whether or not it performs; **(2) the one-cent bonus**; **(3) a progressive** — add one back, even a single-level, since most competing machines had progressives. This is either an SD2 or a rework of the SD1 games. [[raw/review_games_concepts_markets-september-18,2025.md]]
 
+## Oct 10 2025 — JCM iVizion firmware v2.84-44 approved (from Juan's G2E report)
+
+From [[wiki/people/juan-martinez.md|Juan]]'s post-G2E written status report ([[wiki/meetings/2025-10-10-g2e-juan-martinez-report.md]], not a transcript): the **JCM iVizion BV** (bill validator) was **approved — specifically firmware v2.84-44**; the **beta-test approval letter is expected Oct 14** and **other-location placements can start Oct 15**. Juan and [[wiki/people/denis-desmarais.md|Denis]] discussed **another technician-training session ~Nov 15**. **Keno game design has started** (the [[wiki/meetings/2025-10-06-game-design-scheduling-jira-grooming.md|Oct-6]] Black Hills / Solar / Liberty keno pack). [[raw/G2E_juan_martinez_report-october-10-2025.md]]
+
 ## Who
 
 - Driven by [[wiki/people/val-levitan.md|Val]] with [[wiki/people/juan-martinez.md|Juan]] (regulator/operator relationship, field side) and [[wiki/people/pavel.md|Pavel]] (Minsk software); [[wiki/people/irina-shishko.md|Irina]] on printer testing and GLI diffs, [[wiki/people/sebastian.md|Sebastian]] on field service, [[wiki/people/ivan.md|Ivan]] on GLI scheduling. **Lonnie** is the SD lottery-lab tester; **"Alani"** appears as the SD lottery (supplied the SAS adapter, requested the permit-number rename) — whether Alani is the lottery entity or a person there is unclear (see Owner Decisions). [[raw/sd_vlt_recap-jan-22-2025.md]] [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
@@ -124,3 +128,4 @@ On the [[wiki/meetings/2025-09-18-games-concepts-markets-review.md|Sept-18 games
 - [[raw/games_design-june-12-2025.md]]
 - [[raw/sd_operators_list-may-2025.md]]
 - [[raw/review_games_concepts_markets-september-18,2025.md]]
+- [[raw/G2E_juan_martinez_report-october-10-2025.md]]
