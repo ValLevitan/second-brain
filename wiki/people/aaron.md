@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 73
+source-count: 74
 open-commitments: 1
 ---
 
@@ -210,9 +210,14 @@ On an undated strategy 1:1 ([[wiki/meetings/2025-08-15-aaron-val-two-cultures-op
 
 On a late one-on-one ([[wiki/meetings/2025-08-26-jira-github-spec-drop-user-stories.md]], 7:32 PM) Aaron argued out the requirement-vs-business-case ordering with Val (his position: in scaled-agile the business use case is captured first, and you don't inject other parties' legislative requirements into your own tracking system) and wrote a top-to-bottom **meta-requirements ladder** (business use case → requirements → capabilities/epics → features → user stories → tasks). When Val concluded JVL **cannot produce user stories** and should replace them with **AI-interpreted specifications distilled from recorded developer conversations**, Aaron agreed to "eviscerate" the user-story layer — move items into **GitHub as issues**, stop allowing user stories in Jira — building the "JVL variant" of the Aug-22 Spec-Driven Development Process. Detail on [[wiki/decisions/2025-04-03-jira-capability-level-and-github-mapping.md]]. [[raw/Git_JIRA_spec.md]]
 
+## Sept 5 2025 — Copilot Studio + MCP-to-Atlassian push
+
+On a short call ([[wiki/meetings/2025-09-05-copilot-mcp-atlassian-microsoft-tenant.md]], 1:57 PM) Aaron — having "a lot of success" with **Microsoft Copilot** across his documents/emails/Teams — pushed to make **Copilot Studio** available for JVL so the team can build **Copilot agents with MCP access to Atlassian** (to interact with, and later verify the configuration of, JVL's Atlassian platform). He framed the enabling step as making [[wiki/people/dmitri-kovalchuk.md|Dmitri]] responsible for JVL's Microsoft/365 tenant. See [[wiki/topics/ai-assisted-development.md]] (Sept-5). [[raw/copilot_mcp-september-5-2025.md]]
+
 ## Sources
 
 - [[raw/Aaron + Val.md]]
+- [[raw/copilot_mcp-september-5-2025.md]]
 - [[raw/Git_JIRA_spec.md]]
 - [[raw/undertakings_git_intelligence-august-18-2025.md]]
 - [[raw/figma_to_testing_development .md]]

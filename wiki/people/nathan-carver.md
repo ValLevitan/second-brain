@@ -3,7 +3,7 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 12
+source-count: 13
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
 
@@ -45,10 +45,15 @@ At the end of July Nathan led the two-session **transactional-architecture** arc
 - **Aug 14 backend-architecture kickoff** ([[wiki/meetings/2025-08-14-backend-architecture-cms-transactional-hhr.md]]): Nathan probed how (and whether) the CMS must integrate with the transactional system, and — with Aaron's Fujitsu/Verifone POS pattern as a model — endorsed taking the provisioning/encryption ideas and trading them off against JVL's timeline for the single POS + dispenser. In the phased plan he owns the **Phase-1 transactional-products MVP** (with Juan). See [[wiki/decisions/2025-08-14-backend-architecture-block-diagram-first-mvp.md]]. [[raw/backend_architecture-august-14-2025.md]] [[raw/backend_architecture_meeting_undertakings_august_14_2025.md]]
 - **Aug 20 CMS/PayFlex block-diagram review** ([[wiki/meetings/2025-08-20-cms-payflex-block-diagram.md]], session 1 of 3): Nathan attended as JVL's technical product manager, being brought current on the PayFlex ecosystem and CMS; he proposed building an **adapter between the legacy and new CMS** and "slowly moving the source of truth to the cloud" (new data-persistence in the cloud). See [[wiki/topics/persona-driven-design-and-orchestration-platform.md]]. [[raw/CMS- Block Diagram_Arch.md]]
 
+## Sept 3 2025 — ACH provider + dispute-resolution use case
+
+On the [[wiki/meetings/2025-09-03-flex-capabilities-weekly-ach-dispute-pos-design.md|Sept-3 Flex Capabilities weekly]] Nathan (surveying providers with Claude) recommended an ACH-focused API house — transcribed "Diwala/Duwalla," **almost certainly Dwolla** (inference) — now integrated with **Plaid** for instant balance verification before a transaction (0.5%/transaction, $5 cap, $0.05 min). He also presented the Flex-POS **dispute-resolution use case** (cashier swipes the card, the device shows the fee/confirmation the player accepted, escalation to InComm's printed number), driven by his own audit trail card↔Mother-Goose-ticket. See [[wiki/organizations/incom.md]] (Sept-3). [[raw/Flex Capabilities Weekly Update-september-3-2025.md]]
+
 ## Sources
 - [[raw/CMS- Block Diagram_Arch.md]]
 
 - [[raw/2025-08-06_Flex-POS-Mid-Iteration-Sync.md]]
+- [[raw/Flex Capabilities Weekly Update-september-3-2025.md]]
 - [[raw/backend_architecture-august-14-2025.md]]
 - [[raw/backend_architecture_meeting_undertakings_august_14_2025.md]]
 - [[raw/Defining Product Capabilities.md]]

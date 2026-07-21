@@ -41,3 +41,6 @@ Format: `raw/<skipped file>` — source of record `raw/<cited fuller file>` — 
 - `raw/game_development_how_animation_are_made_with_lena-2025-03-12.md` — SoR `raw/Game Development How animation are made with Lena - March 12-2025.md` — lossier line-broken 3rd transcription of the Mar-12 Lena animation meeting. Cited base `wiki/meetings/2025-03-12-lena-animation-process.md`.
 - `raw/game_development_how_animation_are_made_with_lena_march_12-2025.md` — SoR `raw/Game Development How animation are made with Lena - March 12-2025.md` — near-identical 2nd transcription of the same Mar-12 Lena meeting. Cited base `wiki/meetings/2025-03-12-lena-animation-process.md`.
 - `raw/recap_with_andrei_klimovichonlineecho_2025-03-29.md` — SoR `raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md` — truncated TurboScribe re-transcription (cut at "longer than 30 minutes") of the already-ingested Feb-1-2025 ECHO recap (identical specifics); the 03-29 filename is misleading. Cited base is the Feb-1 recap's meeting stub.
+
+### Batch 71
+- `raw/Flex Capabilities Weekly Update.md` — SoR `raw/Flex Capabilities Weekly Update-september-3-2025.md` — byte-identical duplicate (md5 0a9e7de0…, 40,930 bytes both); undated filename variant of the Sept-3 Flex Capabilities weekly. Ingest the dated copy. (Batch 71.)

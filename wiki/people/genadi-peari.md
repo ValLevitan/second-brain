@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena]
-source-count: 43
+source-count: 45
 ---
 
 # Genadi Peari
@@ -132,9 +132,16 @@ On the [[wiki/meetings/2025-08-06-flex-pos-mid-iteration-sync.md|mid-iteration s
 
 On a Val↔Genadi hardware one-on-one ([[wiki/meetings/2025-08-19-flex-dispenser-review.md]]; 4:46pm) Genadi proposed folding Flex-POS into **one dual-screen dispenser product** (cashier + player screens, one motherboard) instead of stacking a Point-XL on the dispenser (which needs two motherboards / two internet feeds); worked the symmetric hidden-cabling base and screen sizing (~8 inch); and reported [[wiki/people/evgeniy-alekseev.md|Alekseev]]'s **single-board Flex-Port** (~3.5 inch, replacing the three-board assembly, ~30% cheaper), to be verified via a **~3-sample minimum run** then finalized. Genadi to take exact monitor dimensions and hand the mock-up to [[wiki/people/igor-starovoytov.md|Igor Starovoytov]]; follow-up booked Thursday. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/flex_dispenser-review.md]]
 
+## Sept 2025 — POS double-screen design + the one-board-vs-interface-board debate
+
+- **Sept 3** ([[wiki/meetings/2025-09-03-flex-capabilities-weekly-ach-dispute-pos-design.md]]): presented the near-final POS industrial design — **8-inch cashier screen**, 7.5-inch device width, ~7-inch customer screen, centred dual-side scanner, top sunk magnetic-stripe reader, dispenser as a separate freestanding "dummy" product, optional floating third screen for the player. More mods promised the following Monday. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept-3). [[raw/Flex Capabilities Weekly Update-september-3-2025.md]]
+- **Sept 9** ([[wiki/meetings/2025-09-09-pos-spatial-hardware-board-planning.md]], 3:18 PM, with Pavel): defended the **two-board split** (ready-made Chinese Rockchip main board + a cheap 2-layer interface board) against Val's push to consolidate onto one board — a custom processor board wouldn't be cheaper and would risk the January target. Agreed to keep the existing scheme and only ask the supplier to **swap the second monitor's HDMI-micro connector** for an industrial one. [[raw/POS_spatial_planning-september-9-2025.md]]
+
 ## Sources
 
 - [[raw/flex_dispenser-review.md]]
+- [[raw/Flex Capabilities Weekly Update-september-3-2025.md]]
+- [[raw/POS_spatial_planning-september-9-2025.md]]
 - [[raw/2025-08-06_Flex-POS-Mid-Iteration-Sync.md]]
 - [[raw/Flex-Port-use_case-August-6-2025.md]]
 - [[raw/Transactional-Architecture-Discussion-2025-07-29.md]]

@@ -2,8 +2,8 @@
 type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
-aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest, LaTeX, printer tool, Ollama, llama.cpp, local inference, Code Llama, Hugging Face]
-source-count: 32
+aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, Copilot Studio, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest, LaTeX, printer tool, Ollama, llama.cpp, local inference, Code Llama, Hugging Face]
+source-count: 33
 ---
 
 # AI-assisted development adoption
@@ -204,6 +204,10 @@ An [[wiki/people/aaron.md|Aaron]] ↔ [[wiki/people/val-levitan.md|Val]] session
 - **Size vs capability:** "**Llama Core is 245 gigabytes**" → needs 245 GB of GPU RAM/VRAM (far beyond any desktop); "**Code Llama, 3.8 gigabytes**" fits and runs on a normal computer. "**The smaller the Llama, the stupider it is**" (Aaron: an unfair but simple way to think). [[raw/executive_summary_ollama_aaron-may-26-2025.md]]
 - **Practical use for Val — cheap local semantic work.** For **semantic extraction/summarisation** it's valuable to run locally because cloud calls are expensive: using "**Anthropic Cloud 4.0**" to summarise a document "would cost me a dollar every time I made a call," whereas "**with Llama locally, it costs me nothing**." Small models handle simple jobs well — e.g. "read these two simple statements and make your best guess as to whether it's true or false." Pick the right size tool: "you don't need a huge bulldozer where you could use a rotor." [[raw/executive_summary_ollama_aaron-may-26-2025.md]]
 
+## Sept 5 2025 — Copilot Studio + Copilot agents with MCP access to Atlassian
+
+A short [[wiki/people/aaron.md|Aaron]] ↔ [[wiki/people/val-levitan.md|Val]] capture ([[wiki/meetings/2025-09-05-copilot-mcp-atlassian-microsoft-tenant.md]], 1:57 PM). Aaron is having "a lot of success" using **Microsoft Copilot** across his documents/emails/Teams and wants **Copilot Studio** made available for JVL so the team can build **Copilot agents that have MCP access to Atlassian** — an agent that interacts with JVL's Atlassian platform and, in future, lets Aaron **verify how Atlassian is configured** against what he believes is true inside the Microsoft space. He framed the enabling directive as making [[wiki/people/dmitri-kovalchuk.md|Dmitri]] **responsible for JVL's Microsoft/365 tenant** and asked him to understand how Copilot Studio + MCP work and help set it up. (This is a Microsoft-Copilot MCP thread, distinct from the earlier Cline/Claude MCP work above; the Atlassian-verification angle ties to [[wiki/topics/docs-as-code-and-atlassian-exit.md]].) [[raw/copilot_mcp-september-5-2025.md]]
+
 ## History — earlier AI-consultation artifacts (undated, pre-2025)
 
 - **SolidWorks integration memo from ChatGPT:** a reference document titled "Solid work integration and the overall architecture suggestion from ChatGPT" shows JVL (before the 2025 tooling push) using ChatGPT to draft an IT-integration architecture connecting **SolidWorks** (3D CAD) with **Atlassian Jira/Confluence** and **Microsoft Business Central** — file attachments/version control of CAD files, BOM synchronization into the ERP, middleware/connectors, OAuth security, monitoring, and staged testing. The content is generic AI output (no JVL-specific decisions); its durable value is evidence that JVL's CAD/PLM–ERP–Atlassian integration question was explored via ChatGPT. Undated; consistent with the ~2023–24 Atlassian/Business-Central era of [[wiki/projects/jvl-insights-knowledge-base.md]] (inference, flagged). [[raw/solid_work_integration_and_the_overall_architecture_suggesti_2025-03-29.md]]
@@ -212,6 +216,7 @@ An [[wiki/people/aaron.md|Aaron]] ↔ [[wiki/people/val-levitan.md|Val]] session
 ## Sources
 
 - [[raw/Class on Directory management - Aaron.md]]
+- [[raw/copilot_mcp-september-5-2025.md]]
 - [[raw/ai-assisted_development_with_vs_code_git_and_mcp_january_14_2025.md]]
 - [[raw/development_pipeline_january_13_2025.md]]
 - [[raw/github_organization-jan-20-2025.md]]

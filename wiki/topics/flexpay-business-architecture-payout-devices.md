@@ -3,8 +3,8 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS]
-source-count: 62
-open-commitments: 18
+source-count: 64
+open-commitments: 19
 open-questions: 4
 ---
 
@@ -480,9 +480,27 @@ The [[wiki/meetings/2025-08-20-cms-payflex-block-diagram.md|Aug-20 block-diagram
 - **Remote initial setup (RIS)** remains the acknowledged inconvenience; Val told Felipe not to expect a radical RIS improvement before **end of 2026** — full RIS benefit comes only with the **new framework** entering the market in 2026. A quick UI toggle for "printer present or not" was floated to engineers as a possible near-term fix. [[raw/GACOAM_trade_show_recap.md]]
 - **Third product stage = redemption centers.** Val framed the product evolution as incomplete until it reaches an InComm-backed **Redemption Center** (cash-to-cash, non-TITO, fewer peripheral devices) — confidential, not for customer discussion. [[raw/GACOAM_trade_show_recap.md]]
 
+## Sept 3 2025 — Flex Capabilities weekly: near-final POS industrial design + cashier administration
+
+The [[wiki/meetings/2025-09-03-flex-capabilities-weekly-ach-dispute-pos-design.md|Sept-3 weekly]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/juan-martinez.md|Juan]], [[wiki/people/nathan-carver.md|Nathan]], [[wiki/people/pavel.md|Pavel]], [[wiki/people/genadi-peari.md|Genadi]], 12:03 PM) advanced the physical POS design and cashier administration; the ACH-provider, once-daily batch-swipe, reconciliation and dispute-resolution substance is on [[wiki/organizations/incom.md]] (Sept-3 section). [[raw/Flex Capabilities Weekly Update-september-3-2025.md]]
+
+- **POS = a double-screen device, near-final direction (Genadi).** Main **cashier screen 8 inch**; whole-device width **7.5 inch** (Juan sensitive to size); a smaller, less-tall **customer screen (~7 inch)** on the back; **scanner in the middle** so a ticket is scannable by cashier and customer both; **magnetic-stripe reader on top, sunk into the enclosure** with a side-to-side slide cover, available to both sides. A further round of modifications was promised for the following Monday. [[raw/Flex Capabilities Weekly Update-september-3-2025.md]]
+- **Dispenser stays a separate "dummy" product.** The enclosure carries interfaces for all external connections incl. a dedicated dispenser connector, so the dispenser is a **standalone, freestanding device** (one wire, no screen/features of its own — the POS screens cover it) mounted on the counter or a pedestal; also interfaces for the printer and Mother Goose, plus an optional extra-screen interface. [[raw/Flex Capabilities Weekly Update-september-3-2025.md]]
+- **Optional floating third screen.** The POS can drive a **third autonomous screen** extended on a wire and laid flat near the player (limited graphical performance, "mostly for static data" / accepting terms — "like Flex-Port"); it must still be touch. In that mode the built-in second screen is removed and the POS becomes single-screen. Val: it is for the **player**, positioned by the location where players can see it. [[raw/Flex Capabilities Weekly Update-september-3-2025.md]]
+- **Cashier login / PIN administration (Pavel), staged.** JVL doesn't want to be in the password-administration business (cashiers turn over ~monthly). Stage 1 (**by January 1**): create PIN codes **centrally on the server side** and assign a PIN to a POS device; a location must first be **created on the server side by JVL**, then a location admin PIN lets a third party log in, enter InComm credentials + terminal parameters, and create cashier PINs. Later stages: a location admin **magnetic card**, or an **admin QR/barcode generated from the operator's mobile** and presented to the POS scanner to enter a special mode (add employee, set PIN, **hot-swap a device** — settings retrieved from the server since credentials attach to the **location, not the device**). Device swap can't be fully automatic (needs a confirmation step). [[raw/Flex Capabilities Weekly Update-september-3-2025.md]]
+
+## Sept 9 2025 — POS spatial/hardware planning: one-board vs interface-board (unresolved), HDMI-connector swap
+
+The [[wiki/meetings/2025-09-09-pos-spatial-hardware-board-planning.md|Sept-9 3:18 PM session]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/genadi-peari.md|Genadi]], [[wiki/people/pavel.md|Pavel]]; Russian) took the Aug-19 single-board direction into the actual PCB partitioning and lost the argument for full consolidation — for now. [[raw/POS_spatial_planning-september-9-2025.md]]
+
+- **Block scheme (from Genadi + Alekseev).** Motherboard mounted **vertically in the top section**; a **main interface board** below multiplexes all external connections (Mother Goose, printer/Motagus, dispenser, power/Ethernet, optional extra monitor) into **one connector/harness** so the unit disassembles fast; power step-down (~5 V) and minimal logic on the interface board. Cashier screen **~800×608**, customer screen smaller/lower-res, centred dual-side scanner, top magnetic-stripe reader. [[raw/POS_spatial_planning-september-9-2025.md]]
+- **The debate: one board vs main-board + interface-board.** Val pushed to consolidate onto **one board** (as done on Flex-Port) — fast assembly, "sandwich" mount behind the screen, connectors up off the tabletop (spills/water/vibration are the real failure and cost drivers: "our money is in assembly and development, not in buying the board"). Genadi + Pavel defended the **two-board split** — the ready-made cheap Chinese **Rockchip** main board (multi-layer, expensive to custom-make) + a cheap **2-layer interface board** that's trivial to change later; a custom processor board wouldn't be cheaper, would risk the **January** target, and likely wouldn't work first try. **Outcome: keep the existing scheme now; consider a custom board as a future exercise.** [[raw/POS_spatial_planning-september-9-2025.md]]
+- **Connectors / details.** Only real weak point is the **second monitor's HDMI-micro connector** (not shielded, not latching); plan is to ask the China supplier to **swap it for a more industrial connector** (or offer a different board). Touchscreens connect via **USB** (standard, software-transparent). Card-reader **status LED** driven from the interface board, lit only when awaiting a card; built-in beeper kept; monochrome embossed **JVL** on the reader slot rather than a separate lit part. Pavel floated **LVDS daisy-chain / dual-mode** to drive both monitors off one connector (depends on Rockchip dual-mode support) — an Alekseev question; a meeting with Alekseev booked next day. [[raw/POS_spatial_planning-september-9-2025.md]]
+
 ## Open commitments
 
 - [ ] Pavel Frolov — prepare updated schematics/diagrams of the current CMS implementation (locate/export the prior Miro-board artifacts) for the next block-diagram session; assess creating a new design from scratch aligned to the new architecture — due by the next arc session (~Aug 22) — [[raw/CMS- Block Diagram_Arch.md]]
+- [ ] Genadi Peari — ask the China board supplier to swap the second monitor's HDMI-micro connector for a more industrial (shielded/latching) connector; hold a follow-up with Alekseev on the one-board question and LVDS dual-mode — due ~mid-Sept 2025 — [[raw/POS_spatial_planning-september-9-2025.md]]
 - [ ] Pavel Frolov — run the printer-dump **spike**: connect a real Mother Goose printer, dump all ticket data (power-up, ticket-printed, last-25-vouchers, daily/bookkeeping events) into the POS device for developers — due ~mid-Jul 2025 ("half a day") — [[raw/Flex-POS Iteration Planning 2025-07-14.md]] [[raw/Flex-POS_Mid-Iteration_Sync-2025-07-23.md]]
 - [ ] Nathan Carver — build the Flex-POS requirement/architecture docs in GitHub (source of truth) incl. C4 context/sequence diagrams in Mermaid; add the POS online-monitoring / connection-loss-escalation requirement — due ongoing through Jul 2025 — [[raw/Flex-POS Iteration Planning 2025-07-14.md]] [[raw/Flex-POS_Mid-Iteration_Sync-2025-07-23.md]] [[raw/Flex-POS Iteration Review.md]]
 - [ ] Juan Martinez — brainstorm/fine-tune the mini-ATM (Redemption Center) use case (avoid bill-acceptor-vs-mini-ATM player confusion) and secure the Georgia ATM contract via Felipe — due early Aug 2025 — [[raw/Flex-POS_Iteration_Review-2025-07-25.md]] [[raw/Flex-POS Iteration Review.md]]
@@ -572,4 +590,6 @@ The [[wiki/meetings/2025-08-20-cms-payflex-block-diagram.md|Aug-20 block-diagram
 - [[raw/back-office_architecture-august-20-2025.md]]
 - [[raw/CMS- Block Diagram_Arch 082225.md]]
 - [[raw/First course of business POS 082225.md]]
+- [[raw/Flex Capabilities Weekly Update-september-3-2025.md]]
+- [[raw/POS_spatial_planning-september-9-2025.md]]
 - [[raw/GACOAM_trade_show_recap.md]]

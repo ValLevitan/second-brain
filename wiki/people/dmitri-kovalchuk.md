@@ -4,7 +4,7 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "IT (GitHub-admin, infrastructure, secrets/Azure, AI-tool accounts) — the IT-context "Dima". Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 12
+source-count: 13
 ---
 
 # Dmitri Kovalchuk
@@ -49,8 +49,13 @@ On the IT-maturity session ([[wiki/meetings/2025-05-07-it-department-maturity-se
 
 On the maturity review ([[wiki/meetings/2025-05-28-it-maturity-delinea-secrets.md]]) Dima (with Andre) presented the completed secret-server evaluation to Aaron and Val: **Delinea** scored highest (CyberArk second, "very expensive"), Azure clarified as "just vault storage." Plan: trial Delinea via a **DTP** Jira backlog — first connect Azure OIDC to Delinea, then migrate passwords from **KeePass** to the Delinea secret database, evaluating against the written policy. Dima can start implementing first (Andre has GitHub-Actions-for-UEFIM work ahead). See [[wiki/decisions/2025-05-28-trial-delinea-secrets-management.md]]. [[raw/it_maturity_update-may-28-2025.md]]
 
+## Sept 5 2025 — proposed owner of JVL's Microsoft/365 tenant
+
+On a short call ([[wiki/meetings/2025-09-05-copilot-mcp-atlassian-microsoft-tenant.md]], 1:57 PM; [[wiki/people/val-levitan.md|Val]] present), [[wiki/people/aaron.md|Aaron]] proposed the directive **"Dmitri, you are responsible for our Microsoft tenant and our 365 tenant space"** and asked Dmitri to understand and help set up **Copilot Studio** for JVL plus **Copilot agents with MCP access to Atlassian**. (Recorded as Aaron's proposed assignment; fits the IT "Dima" context — infrastructure / AI-tool accounts.) See [[wiki/topics/ai-assisted-development.md]] (Sept-5). [[raw/copilot_mcp-september-5-2025.md]]
+
 ## Sources
 
+- [[raw/copilot_mcp-september-5-2025.md]]
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
 - [[raw/it_maturity_update-may-28-2025.md]]
 - [[raw/architecture_sql_olap_visualization_1_2025-03-29.md]]

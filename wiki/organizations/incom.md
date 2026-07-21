@@ -3,7 +3,7 @@ type: organization
 title: Incom (payment processor)
 date: 2025-02-27
 aliases: [Incom, InComm, Incomm, Income, Incom Payments]
-source-count: 26
+source-count: 27
 open-commitments: 5
 open-questions: 2
 ---
@@ -179,10 +179,21 @@ After a call [[wiki/people/val-levitan.md|Val]] placed to [[wiki/people/john-hou
 - **All Prize Cards will be barcoded by year-end** (it is a bar-coded card) — so JVL drops the idea of adding a magnetic swipe-card reader to Flex-Port; the player instead scans the barcoded Prize Card with the Flex-Port's optical scanner to play more, which (Val's read) "renders TiTo obsolete." [[raw/Flex-Port-use_case-August-6-2025.md]]
 - **"All Prize Cards are not rechargeable for now."** John's reply to Val's reloadability question — treated as non-rechargeable, which **preserves e-Wallet as JVL's official cash-out route** when a player moves machine to machine (though it "implies that one day it could be rechargeable"). [[raw/Flex-Port-use_case-August-6-2025.md]]
 
+## Sept 3 2025 — ACH provider recommended (Dwolla/Plaid), the batch-swipe model, dispute-resolution flow, API-endpoint limits
+
+On the [[wiki/meetings/2025-09-03-flex-capabilities-weekly-ach-dispute-pos-design.md|Sept-3 Flex Capabilities weekly]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/juan-martinez.md|Juan]], [[wiki/people/nathan-carver.md|Nathan]], [[wiki/people/pavel.md|Pavel]], [[wiki/people/genadi-peari.md|Genadi]]) the InComm money-flow became concrete — the fund-flow between JVL, InComm, and locations, and how a player/fee dispute is handled. [[raw/Flex Capabilities Weekly Update-september-3-2025.md]]
+
+- **ACH-provider recommendation (Nathan).** Nathan (using Claude to survey providers) recommended an ACH-focused API house — transcribed "Diwala/Duwalla/Dualla," **almost certainly Dwolla** (inference from the mangled name; a real ACH API), now integrated with **Plaid** (transcribed "plate/played"; Nathan: "I believe that's the name") to give **instant bank-account balance verification** before initiating a transaction — so JVL can **abort a gift-card activation if the location lacks funds**. Pricing (vendor economics): **0.5% per transaction, $5 cap, $0.05 minimum**; volume-negotiable with vendors. Val noted **JP Morgan / banks** are the traditional ACH route; Dwolla/Stripe-type houses are ACH-focused (like Stripe). This advances the Aug-27 "provider unchosen, Stripe as example only" state toward a specific candidate. [[raw/Flex Capabilities Weekly Update-september-3-2025.md]]
+- **The batch-swipe model (Val's clarification).** ACH is a **once-a-day** debit of the location's **entire day's total** (e.g. 50 tickets → $5,000 swiped as one transaction), which also **caps the fee at $5** per location per day. The service cost must be **built into JVL's contract with the location**. InComm sets up the JVL-side ACH (JVL submits its banking info; InComm swipes JVL's account at a contractual frequency); JVL should draw from locations on the same pace but a few hours **ahead of** InComm's draw on JVL. Val estimated JVL will validate **~$2 billion in transactions/year** and is targeting **~$5 million of overnight deposit** volume. [[raw/Flex Capabilities Weekly Update-september-3-2025.md]]
+- **Reconciliation must be near-real-time.** Because a gaming day may close at midnight with nobody to reconcile, reconciliation is post-withdrawal; Val wants each **validated transaction to add to the location's running total in real time** (an automated notice per validated transaction) so a location can reconcile the daily debit against its constituent transactions. Val ruled this its **own meeting series** (ACH / money transfer / contractual issues), split out of the POS meetings — it also drives CMS and cloud architecture. Juan to obtain a **sample InComm invoice** (customer redacted) as a template and a **contract template** between operator and InComm's partner. [[raw/Flex Capabilities Weekly Update-september-3-2025.md]]
+- **Dispute-resolution use case (Nathan), location-first.** Primary case: a player thinks their $50 ticket only loaded $45 (the ~$5 activation fee). The cashier swipes the card on Flex-POS; via the **InComm API** JVL retrieves the transaction/activity and the device **shows the player** the fee and confirmation they accepted — "McDonald's-simple," graphical, get them in and out. JVL's own audit trail (card ↔ specific Mother-Goose ticket, terms accepted) lets it reconstruct the original ticket in the extreme case. Beyond the fee, the player is directed to **InComm's phone number printed on the back of the COAM card**; the cashier can also **block a card** via the InComm API (Val: "I know for sure that they provide this"; Nathan to locate the endpoint). A scanned-ticket "valid/invalid" check can catch photocopied/other-location tickets against JVL's controlling server. [[raw/Flex Capabilities Weekly Update-september-3-2025.md]]
+- **API-endpoint limitation (Pavel).** JVL has had **one** meeting with InComm; of the many API requests tried, **only three were enabled for gift cards**. The API document contains much data not applicable to JVL's card types; Pavel wants a **list of questions to InComm** to confirm which endpoints are available for JVL's card types, and expects **future card types** to unlock more (balance reads, machine transfers) not available on the current gift cards. [[raw/Flex Capabilities Weekly Update-september-3-2025.md]]
+
 ## Sources
 
 - [[raw/Defining Product Capabilities.md]]
 - [[raw/Flex-Port-use_case-August-6-2025.md]]
+- [[raw/Flex Capabilities Weekly Update-september-3-2025.md]]
 - [[raw/incomm_jvl_alignment-june-23-2025.md]]
 - [[raw/qa_flex-port_flex-pay_plan-may-30-2025.md]]
 - [[raw/incomm_testing_progress_report-june-2-2025.md]]
