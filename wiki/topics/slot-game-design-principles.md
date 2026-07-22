@@ -3,7 +3,7 @@ type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
 aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus]
-source-count: 30
+source-count: 31
 open-questions: 3
 ---
 
@@ -314,6 +314,13 @@ On the [[wiki/meetings/2025-10-06-game-design-scheduling-jira-grooming.md|Oct-6 
 - **Fiery Ice Link (GC266, Georgia).** Two features: **nudge comp art** (done, not yet formally approved — pending liquid-glass approval) and **game mechanics / math guidelines** (Efim to draft with Juan + Michael). Continues the Fiery-Ice nudge/progressive thread above. [[raw/game design scheduling-october-6-2025.md]]
 - **Housekeeping.** **Jackpot Rush** theme done/in production (removed from board); **Florida-market** games (**Kaiocho 2**, **Cash Kittens** GC554) archived as not-currently-worked ("don't do any work if it's not planned"). [[raw/game design scheduling-october-6-2025.md]]
 
+### GDD development stages — the chapter-by-stage table (standalone AI-summary artifact, ~Oct 2025, date inferred)
+
+A short **written AI-generated summary artifact** (not a transcript) captures a team discussion — [[wiki/people/lena.md|Lena Zhukova]] and [[wiki/people/efim-podvoiski.md|Efim Podvoiski]] clarifying which parts of the **Game Design Document (GDD)** are authored at which stage, and [[wiki/people/val-levitan.md|Val]] asking Lena for a full list of GDD chapters and their availability stages. It maps to no ingested transcript (the "living document" phrasing and this chapter breakdown appear only in the artifact); by content it belongs to the **Oct-6 → follow-up game-design-stage grooming** thread above (the Oct-6 meeting scheduled a Wednesday game-design-stage grooming), so it is recorded here rather than as its own stub. **Exact date is inferred (~Oct 2025) and queued (Tier B).** [[raw/gdd_development_stages_and_table.md]]
+
+- **The GDD is a living document, finalized only at the end of Production**; components are developed across the **Concept, Design and Production** stages and can be updated throughout (e.g. Audio, visuals, settings may be updated during Production). [[raw/gdd_development_stages_and_table.md]]
+- **Chapter → stage table (as provided by Lena).** Developed in **Concept:** Abstract (updated in Design), Main Screens (updated Design/Production). Developed in **Design** (most updated in Production): Game Functionality, Pay Table, Symbols, Bonuses, Transitions, Big Win, Pre-Cog, Game-Specific Digital Toppers, Messages, Help Screens, vDeck Visuals, More Games Attraction Mode, More Games Screen Game Icon, Audio. Developed in **Production** (not updated after): Show Mode Menu, Default Progressive Settings. [[raw/gdd_development_stages_and_table.md]]
+
 ## Sources
 
 - [[raw/game_design_meeting_february_21_2025.md]]
@@ -346,3 +353,4 @@ On the [[wiki/meetings/2025-10-06-game-design-scheduling-jira-grooming.md|Oct-6 
 - [[raw/player_emulator.md]]
 - [[raw/review_games_concepts_markets-september-18,2025.md]]
 - [[raw/game design scheduling-october-6-2025.md]]
+- [[raw/gdd_development_stages_and_table.md]]
