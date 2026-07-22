@@ -2,8 +2,8 @@
 type: person
 title: Ivan
 date: 2025-02-19
-aliases: [Ivan]
-source-count: 3
+aliases: [Ivan, Ivan Shpakov, Иван Шпаков]
+source-count: 6
 ---
 
 # Ivan
@@ -15,7 +15,15 @@ Ivan handles JVL's **release scheduling and certification paperwork** — the re
 - On the Feb 19 alignment call, Val told Pavel to "put Ivan on it" to **start scheduling with GLI ahead of time** (GLI needs scheduling, JVL has PO-signing to do), and stressed the "looping" discipline — repeatedly checking back that the scheduled work is actually happening. [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 - Ivan sends the paperwork to GLI; Val noted costs can be kept low by detailing exactly what changed so GLI doesn't retest untouched code — the **release notes** (generated from Jira stories, with ChatGPT wording that must be checked) plus Irina's separate **diffs document**. See [[wiki/projects/georgia-market-rollout.md]] and [[wiki/projects/south-dakota-vlt-market.md]]. [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 
-The transcript does not give Ivan's last name. (Distinct from any "Ivan" greeted in the Puerto Rico contacts — see Owner Decisions.)
+**Surname (Oct 22 2025):** in the Calle Ocho practice-release session Val named the release-manager Ivan as **"Иван Шпаков" (Ivan Shpakov)** — same release/build-marking role, so recorded as this Ivan's transcribed surname. [[raw/practice_release_calle_ocho-github-october-21-2025.md]] (Distinct from any "Ivan" greeted in the Puerto Rico contacts — see Owner Decisions.)
+
+## Release-manager role in the GitHub pipeline (Oct 21–22 2025)
+
+The late-October release-management sessions ([[wiki/topics/github-release-management-pipeline.md]]) made Ivan's job concrete in the new GitHub flow:
+
+- **He gates and ships releases.** Ivan watches for a build that has passed the automated **lint → test → build** pipeline, judges whether it is genuinely ready, hands the candidate to human game-play testing, then packages the exact **immutable tagged version** and takes it to **GLI** for certification (a manual email/phone process). He is the **liaison** between JVL and GLI and manages the **cost of each submittal**. Aaron noted **Eclipse** is an organisation similar to GLI. His old habit of tracking release numbers in Jira plans is dropped — he now references GitHub. [[raw/releases_github-october-21-2025.md]]
+- **He owns the release-candidate mark and the manifest versions.** Any developer can build and download an artifact, but **marking an artifact field-ready is Ivan's job** — he runs (or triggers) a build action with the **full test list**, and only after all tests pass is the build tagged a **release candidate**; on each release he fills the **flex-os-installer manifest** with the specific version of each component for that build. [[raw/practice_release_calle_ocho-github-october-21-2025.md]] [[raw/artifacts_assembly_GitHub-october-21-2025.md]]
+- **Calle Ocho practice release:** Val wanted the Omni Calle Ocho build assembled **by Ivan** (with Pavel standing aside to answer questions) as a dry-run of the release-manager flow, and scheduled a follow-up the next Wednesday with Ivan invited. [[raw/practice_release_calle_ocho-github-october-21-2025.md]]
 
 ## Machine-settings support flow (Apr 15 2025)
 
@@ -30,3 +38,6 @@ The transcript does not give Ivan's last name. (Distinct from any "Ivan" greeted
 - [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 - [[raw/andrei _klimovich_update-apr-15-2025.md]]
 - [[raw/sas_51_52_requirement_interpretation-april-14-2025.md]]
+- [[raw/releases_github-october-21-2025.md]]
+- [[raw/artifacts_assembly_GitHub-october-21-2025.md]]
+- [[raw/practice_release_calle_ocho-github-october-21-2025.md]]

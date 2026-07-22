@@ -2,8 +2,8 @@
 type: topic
 title: Docs-as-code and the plan to exit Atlassian
 date: 2025-02-21
-aliases: [docs as code, documentation site, GitHub Pages, GitHub Docs, mermaid, Confluence exit, Atlassian exit, single source of truth, template repo, contact sheet, GDD]
-source-count: 8
+aliases: [docs as code, documentation site, GitHub Pages, GitHub Docs, mermaid, Confluence exit, Atlassian exit, single source of truth, template repo, contact sheet, GDD, markdown tooling, VS Code vs Obsidian, GitHub Sync, GitHub Desktop, code-first toolbox]
+source-count: 9
 open-questions: 1
 ---
 
@@ -69,6 +69,14 @@ Two April sessions turned the docs-as-code principle into a concrete, mandated r
 
 On the Oct-7 game-concept-workflow prep call ([[wiki/meetings/2025-10-07-game-concept-workflow-prep.md]], Val + [[wiki/people/andrey-bosik.md|Andrey Bosik]], Russian), Val advanced the Atlassian exit onto the game/design side: he wants the game team to **stop using Confluence** and instead write game **abstracts physically in Obsidian**, in a data/MDX format, so the abstract can be reused later to generate an easy graphical UI — Obsidian ingests documents easily and gives a light format straight into the repo (alternatively, write the docs directly in GitHub via MDX). Andrey noted the **Python scripts** that process this content would need templating/replicating per repository, and wanted to check the internals with the author. This extends the "docs live in the repo" principle to the game-concept stage, where each feature's abstract becomes a committed artefact. [[raw/objectives_workflow_meeting-october-7-2025.md]]
 
+## Oct 21 2025 — markdown-editing tooling: recommend, don't mandate
+
+On an Oct-21 2025 tooling call ([[wiki/meetings/2025-10-21-markdown-tooling-vscode-obsidian.md]]; Val, [[wiki/people/aaron.md|Aaron]], [[wiki/people/andrey-bosik.md|Andrei Bosik]]), the question was which editor JVL staff use for the markdown files that must live in GitHub. [[raw/tools_managing_markdown_files-october-21-2025.md]]
+
+- **Recommend a short list; don't force one tool.** Aaron resisted standardising everyone on VS Code (or on Obsidian): he has promoted Obsidian as "just an accessible way to work with Markdown files, not the official way," and it is "intellectually lazy" for staff to demand a single mandated tool — give a top-three set of recommendations and let people choose. He does not care how markdown reaches the repo. [[raw/tools_managing_markdown_files-october-21-2025.md]]
+- **The remote-branch gap and the plugin options.** Andrei's complaint: Obsidian's git plugins show only local branches, forcing people to the console for remote branches (e.g. a branch created from a Jira button). Aaron pointed to Obsidian GitHub plugins (named **GitHub Sync**, which Andrei had already tried — "very simple"), offered to **write a custom Obsidian plugin** himself in ~a week, and later floated **GitHub Desktop** as another option. [[raw/tools_managing_markdown_files-october-21-2025.md]]
+- **Val's toolbox ruling (restates the code-first doctrine).** The tools for managing schedules and aligning everyone are **Atlassian and GitHub** — **upper-level schedule management in Atlassian, lower-level schedule/organisation in GitHub**; documents must enter GitHub as **markdown** because the knowledge base lives next to the code; staff are **required to know GitHub basics**; JVL is **migrating away from Confluence**. "These are the tools in your toolbox if you want to work for JVL." (Consistent with the two-camp split on [[wiki/decisions/2025-04-03-jira-capability-level-and-github-mapping.md]].) [[raw/tools_managing_markdown_files-october-21-2025.md]]
+
 ## Open questions
 
 - The initial Confluence-to-Markdown export was **incomplete**: the symbol table (symbol names + export naming) that exists in Confluence did **not** port. Aaron said Confluence's export may be lossy and it must be reconciled. [[raw/GitHub_commit_of_LFS_demo_by_Lena_2025-02-21.md]]
@@ -83,3 +91,4 @@ On the Oct-7 game-concept-workflow prep call ([[wiki/meetings/2025-10-07-game-co
 - [[raw/github_master_tree_structure-april-9-2025.md]]
 - [[raw/github_repo_structure-april-11-2025.md]]
 - [[raw/objectives_workflow_meeting-october-7-2025.md]]
+- [[raw/tools_managing_markdown_files-october-21-2025.md]]

@@ -2,8 +2,8 @@
 type: topic
 title: JFrog Artifactory and artifact/binary management
 date: 2025-02-06
-aliases: [JFrog, Artifactory, JFrog Connect, artifact repository, binary management, LFS, ISO image storage, SCA, software bill of materials, artifact storage dilemma, Sonatype, Nexus]
-source-count: 2
+aliases: [JFrog, Artifactory, JFrog Connect, artifact repository, binary management, LFS, ISO image storage, SCA, software bill of materials, artifact storage dilemma, Sonatype, Nexus, local Nexus]
+source-count: 3
 open-questions: 1
 ---
 
@@ -47,12 +47,17 @@ Val flagged these as real, separate issues to solve (artifact-repository choice 
 - Sonatype's own Nexus **SaaS is GA July 1 2025** (~$10k/yr); before that a partner (Saltworks) hosts Pro-SaaS for ~3 months, then Sonatype takes it over. SaaS requires Pro. JVL wants a one-year trial term. [[raw/sonotype_meeting_feb-12-2025.md]]
 - So JVL is weighing two artifact-repository directions: **JFrog Artifactory** (universal binary management, GitHub+JFrog split) vs. staying on **Sonatype Nexus** but moving it to cloud SaaS. No decision on either. Val again noted large graphic files / **LFS** likely fall outside a Nexus-style artifact repo (and are being handled via Git LFS — see [[wiki/topics/ai-assisted-development.md]]). [[raw/sonotype_meeting_feb-12-2025.md]] [[raw/JFrog transcript - February-6-2025.md]]
 
+## Oct 22 2025 — build artifacts still on local Nexus; keep it local for now
+
+On the Calle Ocho practice-release session ([[wiki/meetings/2025-10-22-calle-ocho-practice-release.md]]; Val, [[wiki/people/andrey-bosik.md|Andrei]], [[wiki/people/pavel.md|Pavel]]), Pavel flagged that build artifacts for the game build are stored on JVL's **local Nexus server**, and that moving them to the cloud would require rewriting the actions that use it. **Val's ruling: stay on local Nexus for now** — the cloud version of Nexus needs a financial commitment JVL isn't sure it needs — accepting that the actions will have to be rewritten later when JVL migrates to a cloud setup. So as of late October 2025 the artifact repository remains the **self-hosted Nexus** (consistent with the Feb-2025 Nexus OSS install), and the JFrog-vs-Sonatype-SaaS choice below is still open. [[raw/practice_release_calle_ocho-github-october-21-2025.md]]
+
 ## Open questions
 
 - Which JFrog package does JVL actually need (Pro vs. Enterprise X), and where does the line fall between GitHub's and JFrog's capabilities? (Val's stated core confusion.) [[raw/JFrog transcript - February-6-2025.md]]
-- JFrog Artifactory vs. Sonatype Nexus SaaS as JVL's artifact repository — no decision taken on either. [[raw/sonotype_meeting_feb-12-2025.md]]
+- JFrog Artifactory vs. Sonatype Nexus SaaS as JVL's artifact repository — no decision taken on either; as of Oct 2025 JVL stays on **local Nexus** by ruling, migration deferred. [[raw/sonotype_meeting_feb-12-2025.md]] [[raw/practice_release_calle_ocho-github-october-21-2025.md]]
 
 ## Sources
 
 - [[raw/JFrog transcript - February-6-2025.md]]
 - [[raw/sonotype_meeting_feb-12-2025.md]]
+- [[raw/practice_release_calle_ocho-github-october-21-2025.md]]
