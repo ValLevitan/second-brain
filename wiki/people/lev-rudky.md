@@ -3,7 +3,7 @@ type: person
 title: Lev Rudky
 date: 2024-01-01
 aliases: [Lev Rudky, Lev, Lev Rudki, Лёва Рудки]
-source-count: 9
+source-count: 10
 ---
 
 # Lev Rudky
@@ -32,6 +32,10 @@ On the [[wiki/meetings/2025-06-26-procurement-manufacturing-transfer-alignment.m
 
 On the [[wiki/meetings/2025-11-25-business-central-migration-update.md|Nov-25 BC migration call]] Lev walked Val through the state of the **JVL Labs sandbox company** in Business Central and the tasks left before a **January go-live**: the Canadian-dollar currency conversion (assigned to [[wiki/people/anatol-strekalov.md|Anatoly]]), which customers/vendors carry over, standing up the **bank accounts first** (and a possible direct RBC↔BC integration), the Canadian **tax setup** (must be built while [[wiki/people/alka-sood.md|Alka]] is still engaged), and the **December physical inventory count** ([[wiki/people/elizabeth.md|Elizabeth]] + Filippe). Lev's principle: test as much as possible in the sandbox so fewer post-cutover error messages land on him. Detail on [[wiki/topics/business-central-erp-implementation.md]] (Nov-25). [[raw/Business Central Migration Update.md]]
 
+## Nov 28 2025 — transaction classification, Global dimensions, January-start config
+
+On the [[wiki/meetings/2025-11-28-business-central-financial-classification-dimensions.md|Nov-28 BC session]] (source is an AI summary, not a transcript) Lev diagnosed the BC dashboard's wrong figures as **intercompany/open-document translation errors + incorrect-or-missing Global dimensions**, and set the division of labour: **Lev teaches [[wiki/people/igor-donis.md|Igor]]** how to correct transactions and verify them (a recurring finance task Igor owns), **tests the settings in the sandbox first**, and owes the **tax + bank-account config** and **chart-of-accounts formatting** before the January start. [[wiki/people/alka-sood.md|Alka]] is to do report-based QC only (no edit rights). Detail on [[wiki/topics/business-central-erp-implementation.md]] (Nov-28). [[raw/BC-JVL_Labs-November-28-2025.md]]
+
 ## Sources
 
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
@@ -43,3 +47,4 @@ On the [[wiki/meetings/2025-11-25-business-central-migration-update.md|Nov-25 BC
 - [[raw/action_list_review_lev_rudky-may-1-2025.md]]
 - [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
 - [[raw/Business Central Migration Update.md]]
+- [[raw/BC-JVL_Labs-November-28-2025.md]]

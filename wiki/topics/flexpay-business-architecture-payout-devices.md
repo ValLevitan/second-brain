@@ -3,8 +3,8 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS]
-source-count: 68
-open-commitments: 21
+source-count: 69
+open-commitments: 24
 open-questions: 4
 ---
 
@@ -537,8 +537,20 @@ A 2h33m schedule-and-requirements working call ([[wiki/meetings/2025-11-11-pos-f
 - **Module/feature ownership walked (durable slice).** [[wiki/people/eugine-yavorski.md|Yavorski]] owns Flex Sport ↔ new-machine **compatibility** (money in/out), the **negative-scenario** suite, **log transfer Flex Sport → FlexPay** (a dedicated command over the **WSS** protocol), and the **firmware-over-the-air / high-speed-connection update** feature (load new firmware, verify, switch) — on a tight deadline. He is also preparing a **letter describing a protocol change**: a new command so FlexPay can **mark and hold the "stuck"/unclaimed money** Flex Sport hands over. [[wiki/people/evgeniy-alekseev.md|Alekseev]] owns the USB blob-file decode utility, the board-update mechanism, and the machine bring-up. [[wiki/people/genadi-peari.md|Genadi]] reported **plastic ordered / tooling in progress** for Flex Sport, and **metal brackets** (all cabinets) expected around **Dec 1**. [[raw/POS_and_PORT-schedule_review.md]]
 - **Field-update model settled (cross-ref).** The long Part-2 debate — update only the JVL application (not Linux) via a boot-time script, working the same for USB and remote; Rockchip stays; STM/NXP re-weighed and dropped; Dima Pikulev ruled out again — is captured on [[wiki/decisions/2025-05-26-arm-linux-platform-flex-devices.md]] (Nov-11 section). Key business point recorded here: **FlexPay has no remote/cloud update today** (only FlexPort's is in progress), yet Val considers remote update mandatory given ~1,000 locations, ~$30/shipment, and non-technical gas-station staff — so remote update must be built into the FlexPay/Flex Sport spec. [[raw/POS_and_PORT-schedule_review.md]]
 
+## Nov 28 2025 — FlexPort/SMIB sync: cashout bill-return resolved, validator diagnostics, Jira-as-truth discipline
+
+The [[wiki/meetings/2025-11-28-flexport-smib-sync-jira-review.md|Nov-28 FlexPort/FlexSMIB sync]] (Val, [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/eugine-yavorski.md|Eugine Yavorski]], [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]], [[wiki/people/genadi-peari.md|Genadi Peari]], 1h7m) is the weekly Jira task review continuing the Nov-11/12/20 arc. The Rockchip Linux-image/board-source substance is on the [[wiki/decisions/2025-05-26-arm-linux-platform-flex-devices.md|ARM/Rockchip decision]] (Nov-28); the FlexPay/transactional points here: [[raw/Flex-Port_Smib_alignment-November-28-2025.md]]
+
+- **Cashout "bill-return" resolved into a two-phase, uncompleted command.** On a low-credit-cap machine (won't hold more than ~$200), an over-limit load triggers a bill-acceptor **bill return**; returning that as cash mis-converted when player/redeemable credit and cash were mixed. Rather than add a new FlexPay command or an extra cashout field (Yavorski's first instinct, to keep backward compatibility), Pavel and Yavorski settled on running cashout as a **two-phase command that simply does not complete phase 2** when the machine rejects the bill — simpler and more robust against a mid-transaction hang. Yavorski to rework and test (HFM-255). [[raw/Flex-Port_Smib_alignment-November-28-2025.md]]
+- **New validator/cash-box diagnostics (CPI-477, on [[wiki/people/dmitri-chudinov.md|Dima Chudinov]]).** There was no diagnostic for the bill-validator/cash-box state — a removed cash box or disconnected validator was silently ignored while the system kept running (~2–3 weeks lost to it). Pavel opened CPI-477 to analyse and report the bill-acceptor state. The FlexPay-side negative-scenario suite (TF-256, also Chudinov) is ~1.5 weeks out. [[raw/Flex-Port_Smib_alignment-November-28-2025.md]]
+- **Anti-tamper design vs the "eco" test machines.** Alekseev's two small home "eco" machines (used for lack of space) — one won't run (needs a progressive) despite being identical to the working one. Val's durable point: JVL machines carry deliberate **hardware/BIOS anti-tamper traps** (one-screen software can't drive two screens; can't assemble from market parts), so cobbling eco machines into a test rig fights JVL's own design — "the wrong approach" (ICF-258 on hold). [[raw/Flex-Port_Smib_alignment-November-28-2025.md]]
+- **Jira-as-truth cadence.** Val enforced "**if it isn't in Jira, it doesn't exist**," a weekly Monday Jira-status pull he sends each engineer to confirm, weekly sketch/scrum planning, and (bluntly, to Yavorski) breaking big tasks into properly-statused subtasks. Board tasks 274/275 due this weekend (274 critical — "Minsk can't work" without it). [[raw/Flex-Port_Smib_alignment-November-28-2025.md]]
+
 ## Open commitments
 
+- [ ] Eugine Yavorski — rework the cashout bill-return case to a two-phase command that stops before phase 2 (not a cash return), test in real conditions, and break the machine-docking work into Jira subtasks — due ~this weekend/next week — [[raw/Flex-Port_Smib_alignment-November-28-2025.md]]
+- [ ] Dmitri Chudinov — CPI-477 bill-acceptor state diagnostics + TF-256 negative cashout scenarios (FlexPay side, ~after the 10th) — due unspecified — [[raw/Flex-Port_Smib_alignment-November-28-2025.md]]
+- [ ] Evgeniy Alekseev — finish board tasks 274/275 this weekend (274 critical for Minsk) and send Val the link to where the design specs live — due this weekend — [[raw/Flex-Port_Smib_alignment-November-28-2025.md]]
 - [ ] Eugine Yavorski — send the letter describing the FlexPay protocol change (new command to mark/hold Flex Sport's "stuck"/unclaimed money) — due next day — [[raw/POS_and_PORT-schedule_review.md]]
 - [ ] Pavel Frolov — own the machine-startup blocker: organise the people and find the root cause of why the Flex machines won't start easily (not just make one run) — due unspecified — [[raw/POS_and_PORT-schedule_review.md]]
 - [ ] Pavel Frolov — prepare updated schematics/diagrams of the current CMS implementation (locate/export the prior Miro-board artifacts) for the next block-diagram session; assess creating a new design from scratch aligned to the new architecture — due by the next arc session (~Aug 22) — [[raw/CMS- Block Diagram_Arch.md]]
@@ -618,6 +630,8 @@ A 2h33m schedule-and-requirements working call ([[wiki/meetings/2025-11-11-pos-f
 - [[raw/Flex-POS_Iteration_Review-2025-07-25.md]]
 - [[raw/Flex-POS Iteration Review.md]]
 - [[raw/Transactional-Architecture-Discussion-2025-07-29.md]]
+- [[raw/POS_and_PORT-schedule_review.md]]
+- [[raw/Flex-Port_Smib_alignment-November-28-2025.md]]
 - [[raw/transactional_architecture-july-31-2025.md]]
 - [[raw/Defining Product Capabilities.md]]
 - [[raw/Flex-port_update.md]]

@@ -75,6 +75,14 @@ On the [[wiki/meetings/2025-11-20-aaron-board-bringup-rockchip.md|Nov-20 board b
 
 - **Converge on the blue board.** Pavel has the vendor's **original DTS/DTSI** for the second ("blue") board and had filed the official **Rockchip SDK request**, so the blue board is preferable/easier. Aaron will keep trying to get Ethernet + the extracted DTB working on the smaller board and switch to the blue board if problems persist; Genadi to finalise the model, order more boards, and prep harnesses/displays. Goal restated: eventually **no Chinese dependency** — JVL builds its own image from sources. USB boot is only a partial boot (~99%), so JVL stays with **SD/TF card** for full updates plus a JVL-application partition. This advances the Nov-12 bring-up path (Buildroot/Yocto image proof) from a plan to a demonstrated build. [[raw/Aaron + Val (1).md]]
 
+## Nov 28 2025 — Linux-image sources reviewed; converge on Aaron's build; take the work back from Aaron
+
+On the [[wiki/meetings/2025-11-28-flexport-smib-sync-jira-review.md|Nov-28 FlexPort/SMIB sync]] (Val, [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]], [[wiki/people/eugine-yavorski.md|Eugine Yavorski]], [[wiki/people/genadi-peari.md|Genadi Peari]]) the board-Linux work advanced from the Nov-20 demonstration to task assignment: [[raw/Flex-Port_Smib_alignment-November-28-2025.md]]
+
+- **Image sources found, but single-screen only.** [[wiki/people/evgeniy-alekseev.md|Alekseev]] (HFM-304) found **5 usable Linux image sources** (Ubuntu, Debian, Buildroot) that boot from SD card **with sources** — but they drive **only one screen** and need config for **two screens + touchscreen**. Pavel pointed him at [[wiki/people/aaron.md|Aaron]]'s AI-generated build system (Buildroot + correct device tree, Linux 6.1 for the "blue" board, with Aaron's Ethernet fix and confirmed two-screen support). [[raw/Flex-Port_Smib_alignment-November-28-2025.md]]
+- **Touchscreen requirement into ICM-327.** Touch-over-**USB** works across all images (standard) but currently spans both screens (top-left touch on screen 2 registers on screen 1) — Pavel says easily configured; Genadi noted the boards' I2C touch is purpose-built for the touchscreen. Pavel added acceptance criteria to **ICM-327** (device-tree config): an **LVDS monitor with touchscreen**. [[raw/Flex-Port_Smib_alignment-November-28-2025.md]]
+- **Take the board work back from Aaron.** Both Pavel and Val judged Aaron will not finish ("does it while it interests him"): plan is to **close Aaron's done tasks, extract his image/sources, and tell him nothing more is needed**, redistributing the rest between Pavel and Alekseev. Aaron's valued piece is the **device-tree + Ethernet work** for this specific Linux on this specific board (not available ready-made) — though Alekseev maintained the rest is standard and documented. Alekseev's own Linux-variant task was removed (Aaron owns it); Alekseev needs **10 "POS" boards from Minsk** to check. Own-board / STM evolution still deferred. [[raw/Flex-Port_Smib_alignment-November-28-2025.md]]
+
 ## Status
 
 Active as of 2025-05-26, **reconfirmed June 4 2025** (Linux chosen on the formal pros/cons). Val wanted to **close it at a 7 am meeting the next day** once Alekseev confirms the LVDS interface and the samples are validated ("надо проверить, запустить, посмотреть, как она надёжно работает"). Recorded as ruled with that validation contingency, not re-deferred. [[raw/hardware_selection_flex-tower_flex-pos-may-26-2025.md]]
@@ -89,3 +97,4 @@ Active as of 2025-05-26, **reconfirmed June 4 2025** (Linux chosen on the formal
 - [[raw/Flex-Port_software_update_procedure_review.md]]
 - [[raw/Flex-Port_hardware_suppliers_requirements.md]]
 - [[raw/Aaron + Val (1).md]]
+- [[raw/Flex-Port_Smib_alignment-November-28-2025.md]]

@@ -4,7 +4,7 @@ title: Evgeniy Alekseev
 date: 2025-03-11
 aliases: [Evgeniy Alekseev, Evgeny Alekseev, Zhenya Alekseev, Женя Алексеев, Alekseev]
 disambiguation: "Owner of the main embedded code branch, this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
-source-count: 20
+source-count: 21
 open-commitments: 1
 ---
 
@@ -77,8 +77,13 @@ On the Nov-11 POS + FlexPort schedule review ([[wiki/meetings/2025-11-11-pos-fle
 
 On the Nov-12 firmware-update working session ([[wiki/meetings/2025-11-12-flexport-software-update-procedure-board-bringup.md]]; Val, [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/genadi-peari.md|Genadi Peari]]) Alekseev is given the concrete board bring-up task: take a repo, build a standard Linux image with **Buildroot** or **Yocto** (or a single-script GitHub-repo build), and boot it on the **RK3568** board to prove the build path, then work toward the Minsk-style **build infrastructure / custom board-support package** on GitHub (build itself ~a couple of days; the full infrastructure sized at ~4 weeks). His read: peripheral addressing is essentially identical across these Rockchip boards, so the work is learning the build, not the chip. He left the meeting at ~8am; the tail discussion (formalising the source questions to the Chinese) continued without him. Details on [[wiki/decisions/2025-05-26-arm-linux-platform-flex-devices.md]] (Nov-12). [[raw/Flex-Port_software_update_procedure_review.md]]
 
+## Nov 28 2025 — Linux image sources found; Linux-variant task handed to Aaron
+
+On the [[wiki/meetings/2025-11-28-flexport-smib-sync-jira-review.md|Nov-28 FlexPort/SMIB sync]] Alekseev reported finding **5 usable SD-bootable Linux image sources** (Ubuntu/Debian/Buildroot) that work single-screen but need two-screen + touchscreen config (HFM-304 → ICM-327). His broader **Linux-variant task was removed** — Aaron now owns the board Linux image — and Val questioned two people being on it; Alekseev conceded he'll still have to dig into the device tree. His near-term focus is board tasks **274/275** (274 critical for Minsk, due this weekend) and diagnosing the eco test-machine that won't run (ICF-258 on hold — Val's point that JVL's anti-tamper machine design makes the home "eco" test rigs the wrong approach). He also owes Val a **link to where the design specs live** and raised the missing bill-validator diagnostics that became CPI-477 (on Dima Chudinov). Needs 10 "POS" boards from Minsk. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] and [[wiki/decisions/2025-05-26-arm-linux-platform-flex-devices.md]] (Nov-28). [[raw/Flex-Port_Smib_alignment-November-28-2025.md]]
+
 ## Sources
 
+- [[raw/Flex-Port_Smib_alignment-November-28-2025.md]]
 - [[raw/Flex-Port_software_update_procedure_review.md]]
 - [[raw/POS_and_PORT-schedule_review.md]]
 - [[raw/alignment_elctro-mechanical-september-22-2025.md]]

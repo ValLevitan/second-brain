@@ -2,8 +2,8 @@
 type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
-aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, posting setup, AI naming convention]
-source-count: 12
+aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention]
+source-count: 13
 open-questions: 2
 ---
 
@@ -152,10 +152,20 @@ A [[wiki/people/val-levitan.md|Val]] ↔ [[wiki/people/lev-rudky.md|Lev Rudky]] 
 - **Tax setup must be built now, while Alka is engaged**, because the new posts start in January and a wrong bank/tax/account setup for the Canadian company is the hardest thing to unwind. [[raw/Business Central Migration Update.md]]
 - **December physical inventory count, combined with shelving.** [[wiki/people/elizabeth.md|Elizabeth]] + Filippe get an **Excel part list**, count each part off the shelf keyed to its serial/inventory number, then reconcile against the system **by dollar and by discrepancy percentage** (re-count big gaps, leave the rest as-is). Inventory is at its **minimum — ~100 machines (Flex)** — so it can go fast (Lev: reconciliation takes longer than the count). JVL will **install shelving during the count** (floor → shelf, label as they go), planning the ~**8,000 sq ft** space (low ceilings → 2 tiers not 3) by aisle/shelf for system entry; track by location. **§15.8:** clear — no compensation. [[raw/Business Central Migration Update.md]]
 
+## Nov 28 2025 — transaction classification / Global dimensions; the January-start config sequence
+
+A [[wiki/people/val-levitan.md|Val]] ↔ [[wiki/people/lev-rudky.md|Lev Rudky]] working session ([[wiki/meetings/2025-11-28-business-central-financial-classification-dimensions.md]]) continuing the [[#nov-25-2025--the-labs-sandbox-currency-conversion-december-inventory-count-banks-january-go-live|Nov-25 sandbox call]]. **The source is an AI-generated summary, not a verbatim transcript** (§3/§12) — weighted accordingly. [[raw/BC-JVL_Labs-November-28-2025.md]]
+
+- **Dashboard reports show wrong figures — two causes.** (1) **Intercompany transactions** + errors when **translating open documents**; (2) **incorrect/missing "Global dimensions"** — the parameters BC uses to classify cash flows and intercompany operations. Correcting the Global-dimensions values where they are absent or wrong makes the dashboard reports show correct figures. [[raw/BC-JVL_Labs-November-28-2025.md]]
+- **Correction is recurring finance work — Igor does it, Lev teaches/verifies.** The transaction corrections must be done by a **financial specialist ([[wiki/people/igor-donis.md|Igor]])**, not by Lev; Lev's job is to **teach Igor how to correct and how to verify**, because such corrections are needed **regularly**. Lev **tests the reconfigured settings in the sandbox first**, then hands instructions to Igor for production. [[raw/BC-JVL_Labs-November-28-2025.md]]
+- **Config sequence for the January start.** Finish **tax parameters and bank accounts** (the last steps for basic operations) **first**, then configure the **intercompany-transaction parameters**, and **only then load inventory** — all in the sandbox to avoid production errors. Three weeks remain before January; setup + tests must finish so real data entry and period closes can begin **January 5**. Lev also owes finishing the **chart-of-accounts formatting**. [[raw/BC-JVL_Labs-November-28-2025.md]]
+- **Alka as report-based QC (no system access).** [[wiki/people/alka-sood.md|Alka]] ("Алко") is to be connected as a **consultant for quality control through report analysis** — she reads the reports and flags discrepancies while Lev/Igor correct — **without** operational system involvement and **without edit rights**. (Consistent with her Nov-25 report-based QC framing.) [[raw/BC-JVL_Labs-November-28-2025.md]]
+
 ## Sources
 
 - [[raw/business_central_implementation_update-apr-17-2025.md]]
 - [[raw/Business Central Migration Update.md]]
+- [[raw/BC-JVL_Labs-November-28-2025.md]]
 - [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
 - [[raw/ris_business_central_integration-april-3-2025.md]]
 - [[raw/business_central_update-apr-28-2025.md]]

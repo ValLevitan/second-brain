@@ -4,7 +4,7 @@ title: Eugine Yavorski
 date: 2025-02-18
 aliases: [Eugine Yavorski, Evgeny Yavorsky, Yavorski, Yavorsky, Яворский, Evgeny Egorsky, Egorsky, Егорский, Evgeny Nevorsky, Nevorsky, Неворский, Evgeny, Yevgeny, Zhenya, Женя, Евгений]
 disambiguation: "FlexPort/FlexPay integration engineer (alias Egorsky), this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
-source-count: 21
+source-count: 22
 open-commitments: 3
 ---
 
@@ -91,9 +91,12 @@ On the e-Wallet/TITO review ([[wiki/meetings/2025-05-29-ewallet-tito-flexpay-imp
 
 On the Nov-11 POS + FlexPort schedule review ([[wiki/meetings/2025-11-11-pos-flexport-schedule-review-board-update.md]]; Val, [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]], [[wiki/people/genadi-peari.md|Genadi Peari]]): Yavorski (rendered "Евгений яворской") confirmed **Flex Sport ↔ new-machine money-compatibility works** at a basic level (deposit/withdraw) — HFM-255 — with continuous-run testing and the **negative-scenario** suite (HFM-256) still to finish. His other open items: **log transfer Flex Sport → FlexPay** (a dedicated command over the **WSS** protocol) and the **firmware-over-the-air update** feature (load new firmware over the high-speed connection, verify, switch), on a tight deadline he called "жестковатый." He is preparing a letter describing a **protocol change** — a new command so FlexPay can mark and hold the "stuck"/unclaimed money Flex Sport hands over — promised for the next day. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Nov-11). [[raw/POS_and_PORT-schedule_review.md]]
 
+On the [[wiki/meetings/2025-11-28-flexport-smib-sync-jira-review.md|Nov-28 FlexPort/SMIB sync]] Yavorski worked through HFM-255 (gaming-machine docking): the low-credit-cap **bill-return** case was resolved with Pavel into a **two-phase cashout command that does not complete phase 2** (rather than a new command/field or a cash return), which Yavorski will rework and test. He moved his block-logging task to Dec-5 and agreed to break the big docking task into subtasks. **Notable relationship dynamic:** Val told him bluntly he "can't understand what you're doing" verbally and insisted all work live as properly-statused Jira subtasks — "if it isn't in Jira, it doesn't exist" — with a weekly Monday status check. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Nov-28). [[raw/Flex-Port_Smib_alignment-November-28-2025.md]]
+
 ## Sources
 
 - [[raw/POS_and_PORT-schedule_review.md]]
+- [[raw/Flex-Port_Smib_alignment-November-28-2025.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-02-18.md]]
 - [[raw/e-wallet_tito_flex-pay_flex-port_implementation_update-may-29-2025.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-02-25.md]]
