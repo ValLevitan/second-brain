@@ -3,7 +3,7 @@ type: decision
 title: Adopt a cheap ARM-based embedded-Linux board (Rockchip RK) for Flex Tower / Flex POS / TITO server
 date: 2025-05-26
 aliases: [ARM board, Rockchip, RK3568, RK board, ARM Linux platform, embedded Linux board, industrial ARM board, LVDS adapter]
-source-count: 5
+source-count: 7
 status: active
 ---
 
@@ -61,6 +61,14 @@ On the Nov-11 POS + FlexPort schedule review ([[wiki/meetings/2025-11-11-pos-fle
 - **Processor family comparison — Rockchip stays.** **Rockchip** on convenience + cost-efficiency is "hard to beat"; **STM (STMicroelectronics)** and **NXP i.MX** / **TI** Linux-capable families would run roughly **2× the cost** (the STM website was blocked for the team). Newer Rockchip parts noted: **RK3576** and **RK3588** (the latter AI-focused, with an NPU; the current part has a rudimentary NPU). Genadi's point that carried: once Alekseev builds the update structure once (~a week), it makes JVL **hardware-supplier-agnostic** — any Rockchip board can be adopted in "a couple of hours," so JVL is never locked to one manufacturer. The **own-board / STM evolution stays deferred** (as on Nov-5). [[raw/POS_and_PORT-schedule_review.md]]
 - **Dima Pikulev, again ruled out.** Genadi mused that [[wiki/people/dima-pikulev.md|Dima Pikulev]] used to do exactly this board bring-up work; Val: "history proved we can't use Dima Pikulev… we don't need him," the requirements on such a specialist are minimal and Alekseev/Pavel can do it. [[raw/POS_and_PORT-schedule_review.md]]
 
+## Nov 12 2025 — firmware-update sequence walked; board bring-up path set; sources still owed by the Chinese
+
+The next-morning meeting Val set on Nov-11 happened on Nov-12 ([[wiki/meetings/2025-11-12-flexport-software-update-procedure-board-bringup.md]]; Val, [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/genadi-peari.md|Genadi Peari]], and — first segment — [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]]). It walked the update mechanism to a concrete sequence and defined how JVL will build the board's Linux image itself.
+
+- **Update sequence, detailed.** Server-driven update over the secure encrypted channel with **backup + rollback**: back up the application partition and the database, download and install the new firmware, try to boot; success = done, failure = roll back, worst case = swap the terminal. Val added an operational guard — set a flag at update start and raise an **automatic alert if the terminal has not reconnected within 15 minutes** — and insisted rollout be **sequential and coordinated with location owners** (2 terminals, then 5, then the rest), never a silent bulk push. Two procedures stand: a **partial in-field application/data update**, and a **full terminal swap + re-image at base** when remote update is impossible. USB and SD-card routes are kept alongside remote. [[raw/Flex-Port_software_update_procedure_review.md]]
+- **Board bring-up is the gating work.** To customise the image (bootloader config, boot screen, device tree) JVL needs the manufacturer's **sources**, but the Chinese suppliers hand over only binaries — not the **device-tree** ("девайс три") source or the bootloader config. The plan: build a standard Linux image with **Buildroot** or **Yocto** (or a single-script GitHub-repo build) and boot it on the RK3568 board to prove the path — the build itself is ~a couple of days, but standing up the full Minsk-style **build infrastructure / custom board-support package** on GitHub was sized at ~**4 weeks**. Alekseev owns this; Alekseev's read is the peripheral addressing is essentially identical across these Rockchip boards, so the effort is learning the build, not the chip. Pavel will **compare device-tree dumps** from JVL's two boards against the Rockchip reference eval board to see how far the custom boards diverge from the reference design. [[raw/Flex-Port_software_update_procedure_review.md]]
+- **Questions formalised for the supplier (segment B, after Alekseev left).** Ask the Chinese for the **device-tree source**, the **bootloader (u-boot) revision + its config file**, and **which build system** they use (Buildroot / Yocto / proprietary) — proprietary means dropping that supplier; sharing their **GitHub repo** that builds the shipped binary confirms them. Genadi has already asked for the repo and not received it; Val expects they will share once JVL is a real ordering customer. The Chinese had earlier offered to do the bootloader customisation for **~$2,000**. Own-board / STM evolution remains deferred, as on Nov-5/11. [[raw/Flex-Port_hardware_suppliers_requirements.md]] [[raw/Flex-Port_software_update_procedure_review.md]]
+
 ## Status
 
 Active as of 2025-05-26, **reconfirmed June 4 2025** (Linux chosen on the formal pros/cons). Val wanted to **close it at a 7 am meeting the next day** once Alekseev confirms the LVDS interface and the samples are validated ("надо проверить, запустить, посмотреть, как она надёжно работает"). Recorded as ruled with that validation contingency, not re-deferred. [[raw/hardware_selection_flex-tower_flex-pos-may-26-2025.md]]
@@ -72,3 +80,5 @@ Active as of 2025-05-26, **reconfirmed June 4 2025** (Linux chosen on the formal
 - [[raw/flex-tower_flex-POS_foundational-decision_architecture-june-4-2025.md]]
 - [[raw/Requirements_ARM_board_manufacturer-november-5-2025.md]]
 - [[raw/POS_and_PORT-schedule_review.md]]
+- [[raw/Flex-Port_software_update_procedure_review.md]]
+- [[raw/Flex-Port_hardware_suppliers_requirements.md]]

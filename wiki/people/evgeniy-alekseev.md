@@ -4,7 +4,7 @@ title: Evgeniy Alekseev
 date: 2025-03-11
 aliases: [Evgeniy Alekseev, Evgeny Alekseev, Zhenya Alekseev, Женя Алексеев, Alekseev]
 disambiguation: "Owner of the main embedded code branch, this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
-source-count: 19
+source-count: 20
 open-commitments: 1
 ---
 
@@ -73,8 +73,13 @@ On the Nov-11 POS + FlexPort schedule review ([[wiki/meetings/2025-11-11-pos-fle
 - **Blocked ~2 weeks on machine startup.** He has been unable to start the Flex machines — a stalled back-and-forth with Minsk — so his testing of HFM-164 (lockout / database / statistics-file logging) is stuck. Val ruled that [[wiki/people/pavel.md|Pavel]] must take over the root-cause hunt (why it won't start "with a light movement"), suspecting an architecture problem; Alekseev had jumped to the next task to avoid idling.
 - **Owns the board field-update mechanism.** Per Part 2, Alekseev builds the two update procedures for the Rockchip board — prepare a writable JVL-application image, and a boot-time script that flashes an update off a USB stick (with backup/rollback), working the same for USB and remote. Details on [[wiki/decisions/2025-05-26-arm-linux-platform-flex-devices.md]] (Nov-11). Genadi's argument: once he builds this once (~a week), JVL becomes hardware-supplier-agnostic.
 
+## Nov 12 2025 — tasked with the Rockchip board build path
+
+On the Nov-12 firmware-update working session ([[wiki/meetings/2025-11-12-flexport-software-update-procedure-board-bringup.md]]; Val, [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/genadi-peari.md|Genadi Peari]]) Alekseev is given the concrete board bring-up task: take a repo, build a standard Linux image with **Buildroot** or **Yocto** (or a single-script GitHub-repo build), and boot it on the **RK3568** board to prove the build path, then work toward the Minsk-style **build infrastructure / custom board-support package** on GitHub (build itself ~a couple of days; the full infrastructure sized at ~4 weeks). His read: peripheral addressing is essentially identical across these Rockchip boards, so the work is learning the build, not the chip. He left the meeting at ~8am; the tail discussion (formalising the source questions to the Chinese) continued without him. Details on [[wiki/decisions/2025-05-26-arm-linux-platform-flex-devices.md]] (Nov-12). [[raw/Flex-Port_software_update_procedure_review.md]]
+
 ## Sources
 
+- [[raw/Flex-Port_software_update_procedure_review.md]]
 - [[raw/POS_and_PORT-schedule_review.md]]
 - [[raw/alignment_elctro-mechanical-september-22-2025.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-03-11.md]]

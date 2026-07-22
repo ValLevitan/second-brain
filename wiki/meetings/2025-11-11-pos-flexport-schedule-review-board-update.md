@@ -4,7 +4,7 @@ title: POS + FlexPort schedule review and ARM-board update-mechanism working ses
 date: 2025-11-11
 aliases: [POS and PORT schedule review, FlexPort schedule review Nov 11, Flex Sport schedule review, Rockchip board reclamation Nov 11, POS_and_PORT-schedule_review]
 source-count: 1
-open-commitments: 4
+open-commitments: 3
 ---
 
 # POS + FlexPort schedule review and ARM-board update-mechanism working session (Nov 11 2025)
@@ -23,7 +23,7 @@ One-line takeaways: **Flex Sport all-in-one board ordered** and its basic FlexPa
 - [ ] Eugine Yavorski — send the letter describing the **protocol change** (a new command to mark the "stuck"/unclaimed money handed from Flex Sport to FlexPay) — due next day ("максимум завтра") — [[raw/POS_and_PORT-schedule_review.md]]
 - [ ] Pavel Frolov — take charge of the **machine-startup blocker** (Alekseev has been unable to start the machines for ~2 weeks): organise the people and find *why* the mechanism does not start easily, not just make it run — due unspecified — [[raw/POS_and_PORT-schedule_review.md]]
 - [ ] Pavel Frolov — draw a **block diagram** of the update procedure (partition structure, data layout, where downloaded/backup firmware versions live) for the firmware-update working meeting — due next day — [[raw/POS_and_PORT-schedule_review.md]]
-- [ ] Val Levitan — schedule the **next-morning meeting** with Alekseev to walk the firmware-update sequence, then continue the manufacturer-requirements discussion — due next morning — [[raw/POS_and_PORT-schedule_review.md]]
+- [x] Val Levitan — schedule the **next-morning meeting** with Alekseev to walk the firmware-update sequence, then continue the manufacturer-requirements discussion — **discharged**: held Nov-12 ([[wiki/meetings/2025-11-12-flexport-software-update-procedure-board-bringup.md]]) — [[raw/POS_and_PORT-schedule_review.md]]
 
 **§15.8:** clear — only company/vendor economics appear (a ~$180 example board; the manufacturer's earlier ~$1,000 ask; ~$30 per field shipment; STM/NXP roughly 2× Rockchip cost). No named-person compensation.
 
