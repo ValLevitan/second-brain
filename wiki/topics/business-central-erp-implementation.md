@@ -3,7 +3,7 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention]
-source-count: 13
+source-count: 14
 open-questions: 2
 ---
 
@@ -161,8 +161,13 @@ A [[wiki/people/val-levitan.md|Val]] ↔ [[wiki/people/lev-rudky.md|Lev Rudky]] 
 - **Config sequence for the January start.** Finish **tax parameters and bank accounts** (the last steps for basic operations) **first**, then configure the **intercompany-transaction parameters**, and **only then load inventory** — all in the sandbox to avoid production errors. Three weeks remain before January; setup + tests must finish so real data entry and period closes can begin **January 5**. Lev also owes finishing the **chart-of-accounts formatting**. [[raw/BC-JVL_Labs-November-28-2025.md]]
 - **Alka as report-based QC (no system access).** [[wiki/people/alka-sood.md|Alka]] ("Алко") is to be connected as a **consultant for quality control through report analysis** — she reads the reports and flags discrepancies while Lev/Igor correct — **without** operational system involvement and **without edit rights**. (Consistent with her Nov-25 report-based QC framing.) [[raw/BC-JVL_Labs-November-28-2025.md]]
 
+## Feb 2 2026 — reconciliation stays in Business Central, not Payment Hub
+
+On the [[wiki/meetings/2026-02-02-payment-hub-finance-reconciliation.md|Feb-2 payment-hub finance sync]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/nathan-carver.md|Nathan Carver]], [[wiki/people/alka-sood.md|Alka Sood]], [[wiki/people/sean-riley.md|Sean Riley]], [[wiki/people/juan-martinez.md|Juan Martinez]]) Val ruled that **all reconciliation and posting must live in Business Central**, not in the Payment Hub — because BC is the accounting application with rigid posting rules and controls, whereas Payment Hub is a "transport" that "could be anything we write it to be," exposing JVL to a single developer's mistake. Nathan positioned Payment Hub as "the automation glue to Business Central" that posts fees/payments via the MSBC API. The unresolved BC-side gap: **posting a payment to an invoice does not tie it to the actual bank deposit** — a bulk Dwolla deposit must be split back to its constituent invoices, and neither the bank data nor a posted customer-payment carries that link today. Nathan owns checking whether the MSBC API supports that deposit↔invoice tie. Full substance on [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Feb-2). **§15.8:** clear — no compensation. [[raw/Payment_Hub_Finance-February-2-2026.md]]
+
 ## Sources
 
+- [[raw/Payment_Hub_Finance-February-2-2026.md]]
 - [[raw/business_central_implementation_update-apr-17-2025.md]]
 - [[raw/Business Central Migration Update.md]]
 - [[raw/BC-JVL_Labs-November-28-2025.md]]

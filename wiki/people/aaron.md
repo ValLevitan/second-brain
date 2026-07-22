@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 77
+source-count: 79
 open-commitments: 1
 ---
 
@@ -226,8 +226,14 @@ On the [[wiki/meetings/2025-09-16-backend-blueprint-payment-hub-review.md|Sept-1
 
 On the [[wiki/meetings/2026-01-29-jvl-working-session-mcp-tools-demo.md|working session]] where his colleague [[wiki/people/clayton-chancey.md|Clayton Chancey]] demoed the custom JVL Atlassian MCP tools (with Val and [[wiki/people/lena.md|Lena]]), Aaron shared Clayton's "AI-augmented" framing: with enough high-quality context scaffolded intelligently, an LLM can judge which pieces to automate and how — judgment-informed augmentation, not blind automation. Substance on [[wiki/people/clayton-chancey.md]]. [[raw/Clayton_jvl-working-session-2-summary-January-20-2026.md]]
 
+## Feb 2 2026 — the built knowledge-graph platform, handed to Andrei & Dima
+
+On a two-segment session ([[wiki/meetings/2026-02-02-knowledge-graph-tool-introduction.md]]) Aaron demoed the **knowledge-graph platform** he had been building "for months and months" — a **"reasoning as a service"** system extracting concepts + typed edges out of documents into a graph (PostgreSQL + **Apache Age**, five Docker containers, a **KG command line**, an **MCP server**, a **Fuse** driver, a web workstation; inference via Anthropic/OpenAI APIs or local Ollama) — and handed it to [[wiki/people/andrey-bosik.md|Andrei Bosik]] and [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] to deploy and run. He framed it as **not RAG** but "a persistent front brain" / "conceptual memory" for tools like Claude, positioned against Neo4j/Google/Microsoft/Meta systems that cost "hundreds of thousands a year." Still "barely alpha," single-developer, dev domain **kg.broccoli.house**. The direct descendant of his 2025 transcript-knowledge-base thread. **§15.8 clear:** "Val paid for this"; vendor/program economics only. Substance on [[wiki/topics/transcript-knowledge-base-tooling.md]] (Feb-2). [[raw/Introduction to Knowledge Graph Tool-part-1-February-2-2026.md]] [[raw/Introduction to Knowledge Graph Tool-part-2-February-2-2026.md]]
+
 ## Sources
 
+- [[raw/Introduction to Knowledge Graph Tool-part-1-February-2-2026.md]]
+- [[raw/Introduction to Knowledge Graph Tool-part-2-February-2-2026.md]]
 - [[raw/Clayton_jvl-working-session-2-summary-January-20-2026.md]]
 - [[raw/back-end_architecture_blueprint_review.md]]
 - [[raw/Minimum_Architecture_POS_deployment_planning-september-10-2025.md]]

@@ -4,7 +4,7 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "IT (GitHub-admin, infrastructure, secrets/Azure, AI-tool accounts) — the IT-context "Dima". Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 14
+source-count: 16
 ---
 
 # Dmitri Kovalchuk
@@ -57,8 +57,14 @@ On a short call ([[wiki/meetings/2025-09-05-copilot-mcp-atlassian-microsoft-tena
 
 On [[wiki/people/alka-sood.md|Alka Sood]]'s 4:01 PM file-architecture call ([[wiki/meetings/2025-09-15-onedrive-sharepoint-file-architecture.md]]) Dmitri (with [[wiki/people/andrey-bosik.md|Andrei Bosik]]) **live-demonstrated SharePoint** — explaining SharePoint (a site) vs OneDrive (storage), and creating a **private team site** (Microsoft-credential sign-in, members, owner/edit rights) — as JVL decided to move the weekly payment proposal and other finance files off email onto secured SharePoint sites. Fits his Sept-5 assignment as owner of JVL's Microsoft/365 tenant. See [[wiki/topics/jvl-finance-back-office.md]], [[wiki/topics/infosec-and-server-infrastructure.md]]. [[raw/One-Drive _ Sharepoint_discussion.md]]
 
+## Feb 2 2026 — handed the knowledge-graph tool with Andrei
+
+On the two-segment [[wiki/meetings/2026-02-02-knowledge-graph-tool-introduction.md|Knowledge Graph Tool introduction]], Dmitri (with [[wiki/people/andrey-bosik.md|Andrei Bosik]]) is one of the two IT people [[wiki/people/aaron.md|Aaron]] handed his built **knowledge-graph platform** to, to deploy and run. In the first segment he asked how users **upload their own knowledge** into the graph (not just read it); in the Russian coda he was cautious ("we discussed one thing… let's just launch it and see"). Val charged him and Andrei to "take possession of this tool" and lead the company from conversational "noise" to "binary facts." Fits his IT/infrastructure role. Substance on [[wiki/topics/transcript-knowledge-base-tooling.md]] (Feb-2). [[raw/Introduction to Knowledge Graph Tool-part-1-February-2-2026.md]] [[raw/Introduction to Knowledge Graph Tool-part-2-February-2-2026.md]]
+
 ## Sources
 
+- [[raw/Introduction to Knowledge Graph Tool-part-1-February-2-2026.md]]
+- [[raw/Introduction to Knowledge Graph Tool-part-2-February-2-2026.md]]
 - [[raw/One-Drive _ Sharepoint_discussion.md]]
 - [[raw/copilot_mcp-september-5-2025.md]]
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]

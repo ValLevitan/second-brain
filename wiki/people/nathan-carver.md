@@ -3,7 +3,7 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 20
+source-count: 21
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
 
@@ -69,7 +69,12 @@ On the [[wiki/meetings/2025-11-05-jvl-dwolla-onboarding-kickoff.md|Nov-5 Dwolla 
 
 Across the three ~7 AM ACH-module spec-review sessions Nathan is JVL's ACH technical advisor: he supplied the initial invoice/ACH-transaction **state-diagram** concepts (created → in-process → pending → completed/failed) the engineers build from, explained the Dwolla **verified/unverified customer** model, **drop-in UI components vs API integration**, and Plaid-based account verification, and raised the Dwolla balance/wallet-vs-direct-transfer question (Nov-6) and retry/escalation logic tied to error codes (Nov-10). Substance on [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Nov 5–10 ACH-spec arc). [[raw/Payment HUB_ACH module specification_05.11.25 .md]] [[raw/Payment HUB_ACH module specification_06.11.25.md]] [[raw/Payment HUB_ACH module specification_10.11.25.md]]
 
+## Feb 2 2026 — payment-hub reconciliation finance sync
+
+On the [[wiki/meetings/2026-02-02-payment-hub-finance-reconciliation.md|Feb-2 payment-hub finance sync]] (with Val, [[wiki/people/alka-sood.md|Alka Sood]], [[wiki/people/sean-riley.md|Sean Riley]], [[wiki/people/juan-martinez.md|Juan Martinez]]) Nathan was the engineer explaining the payment-hub↔Business-Central mechanics. He positioned Payment Hub as **"the automation glue to Business Central"** (posting fees/payments via the MSBC API), diagnosed the missing link — **posting a payment to an invoice in MSBC does not tie it to the actual bank deposit** — and explained the traceability design: on individual location→wallet moves the **invoice ID rides as Dwolla's "correlation ID,"** but an aggregated wallet→JVL-bank transfer needs a JVL-generated **payment ID** linking that one deposit to its invoices (Dwolla won't do the linking). He took the undertaking to check whether the MSBC API supports the deposit↔invoice tie. Substance on [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Feb-2). §15.8 clear. [[raw/Payment_Hub_Finance-February-2-2026.md]]
+
 ## Sources
+- [[raw/Payment_Hub_Finance-February-2-2026.md]]
 - [[raw/JVL_Dwolla-november-5-2025.md]]
 - [[raw/Payment HUB_ACH module specification_05.11.25 .md]]
 - [[raw/Payment HUB_ACH module specification_06.11.25.md]]

@@ -3,7 +3,7 @@ type: person
 title: Alka Sood
 date: 2026-07-14
 aliases: [Alka Sood, Alka, Cogna]
-source-count: 14
+source-count: 15
 open-commitments: 16
 ---
 
@@ -106,8 +106,13 @@ On the recurring call ([[wiki/meetings/2025-10-07-finance-recurring-alka.md]], 7
 
 On the [[wiki/meetings/2025-11-04-finance-recurring-loans-consolidation.md|Nov-4 recurring call]] (with Val and, for the consolidation, [[wiki/people/igor-donis.md|Igor]]) Alka walked the near-finished loan reconciliation — digitized notes, per-year lead sheets from Navision (the 2011-680 Ontario example), still to validate totals against the published financials and Val's bank records. She flagged **retroactive loan agreements** are needed (Val to sign them **personally**, not Monica) and will set up a **master control sheet exclusive to Val** (a "Val and Elka" SharePoint site) with Igor maintaining a 2025-forward copy. She walked Igor's completed **consolidation** (source-currency statements → corroborate externals → CAD → intercompany eliminations → Gilmore), and took re-checks on a negative "other consulting fees (~-$391k)" reclassification and Val's contention that COGS is overstated ~$1.5M (330 machines' cost in 2024 vs sales in 2025; in-transit inventory not counted). Finally she agreed the plan to **free Igor ~75% full-time Nov 17 → Dec 22** for the **Navision→Business Central** migration (open POs line-by-line, vendor cards private, Wells Fargo ACH module) while she keeps Cris and Laura on operational finance. §15.8: loan/consolidation/migration economics only. See [[wiki/topics/jvl-finance-back-office.md]] (Nov-4) and [[wiki/topics/jvl-corporate-loans-and-shareholder-financing.md]] (Nov-4). [[raw/finance_recurring_meeting-november-4-2025.md]]
 
+## Feb 2 2026 — payment-hub reconciliation finance sync
+
+On the [[wiki/meetings/2026-02-02-payment-hub-finance-reconciliation.md|Feb-2 payment-hub finance sync]] (with Val, [[wiki/people/nathan-carver.md|Nathan Carver]], [[wiki/people/sean-riley.md|Sean Riley]], [[wiki/people/juan-martinez.md|Juan Martinez]]) Alka pressed the accounting requirement: she wants a daily **"payout report"** — one summary (a **sales receipt**, not 100 individual invoices) she can match to the bulk deposit, drilling into Payment Hub only when it doesn't reconcile — citing that she does exactly this for other clients paying via Shopify/Stripe (record a payout report, match net-of-fees to the bank transfer). Val overrode her framing that "Payment Hub does all the reconciliations," insisting **reconciliation/posting live in Business Central** and Payment Hub stay a "transport." Substance on [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Feb-2). §15.8 clear. [[raw/Payment_Hub_Finance-February-2-2026.md]]
+
 ## Sources
 
+- [[raw/Payment_Hub_Finance-February-2-2026.md]]
 - [[raw/cash_forecast_till_2027-september-16-2025.md]]
 - [[raw/finance_recurring_meeting-october-7-2025.md]]
 - [[raw/One-Drive _ Sharepoint_discussion.md]]
