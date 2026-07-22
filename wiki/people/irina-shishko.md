@@ -4,7 +4,8 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 34
+source-count: 36
+open-commitments: 1
 ---
 
 # Irina Shishko
@@ -66,8 +67,18 @@ Irina Shishko is JVL's **Vice Director of Engineering and Director of QA** (owne
 
 On the [[wiki/meetings/2025-11-03-machine-qc-checklist-release-form.md|Nov-3 QC meeting]] (with Val + [[wiki/people/genadi-peari.md|Genadi Peari]]) Irina took the production-QC/inspection angle on the loose-speaker defect — the physical verification that everything screwed-in is actually done, whether ports can be tested without devices, and how a visual sub-assembly inspection would have caught the loose speaker. She co-owns (with Genadi) the undertaking to compile the list of missing QC steps/documents/tools by process stage. Consistent with her engineering-management / QA role. See [[wiki/topics/slot-machine-production-test-procedure.md]] (Nov-3). [[raw/Machine Quality Control Checklist and a Release form.md]]
 
+## Nov 5–10 2025 — QA on the payment-hub ACH module
+
+Across the three ~7 AM ACH-module spec-review sessions Irina is the QA/test-engineering voice (with QA engineer [[wiki/people/alexei-khamin.md|Alexei Khamin]]): she pressed how invoice state changes would be tested, how test data (accounts/locations/cards) would be generated, and the need for a **state-machine diagram** so QA can point to a state and emulate it. On Nov-5 she and Alexei were asked to specify the **testing-hook requirements** for verifying invoice state transitions. Consistent with her Director-of-QA role. Substance on [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Nov 5–10 ACH-spec arc). [[raw/Payment HUB_ACH module specification_05.11.25 .md]] [[raw/Payment HUB_ACH module specification_10.11.25.md]]
+
+## Open commitments
+
+- [ ] Irina Shishko (with Alexei Khamin) — specify the QA testing-hook requirements for verifying invoice state changes in the payment-hub ACH module — due unspecified — [[raw/Payment HUB_ACH module specification_05.11.25 .md]]
+
 ## Sources
 
+- [[raw/Payment HUB_ACH module specification_05.11.25 .md]]
+- [[raw/Payment HUB_ACH module specification_10.11.25.md]]
 - [[raw/Machine Quality Control Checklist and a Release form.md]]
 - [[raw/media_tax_credit_team_coaching-july-28-2025.md]]
 - [[raw/alignment-planning-catch-up.md]]

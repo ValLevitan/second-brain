@@ -4,7 +4,7 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 24
+source-count: 27
 open-commitments: 3
 open-questions: 0
 ---
@@ -106,8 +106,15 @@ On the implementation review ([[wiki/meetings/2025-05-29-ewallet-tito-flexpay-im
 
 Chudinov attended the [[wiki/meetings/2025-08-14-backend-architecture-cms-transactional-hhr.md|backend-architecture kickoff]] (transcribed as the transcription owner "**Dzmitry Chudzinau**") as the team's back-end/CMS tribal-knowledge holder. He was largely a listener, but Val repeatedly named him as the person who can produce the CMS block diagrams/schematics on request ("if I ask Dima where is the block diagram… it most likely exists"); Aaron and Pavel framed the whole exercise as extracting the CMS's purpose/architecture from Dima's head into documented repositories so others can extend it. See [[wiki/topics/persona-driven-design-and-orchestration-platform.md]]. [[raw/backend_architecture-august-14-2025.md]]
 
+## Nov 5–10 2025 — ACH-module spec author + back-end lead on the payment hub
+
+Across the three ~7 AM ACH-module spec-review sessions (transcribed "Dzmitry Chudzinau") Chudinov is the back-end engineer who **authored the ACH-module requirement documents** the team walked through — invoice-state requirement (FR106), the Dwolla adapter (FR101), payment-processor/provider routing, and the terminal/passport/location-registration write-ups — and who will produce the module and adapter schemas/state diagrams. He drove the open architecture questions: how to route/assign an ACH provider per location during a switch, and how a customer's bank account attaches to the internal location entity (favouring the **Plaid**-hosted approach so no bank numbers are stored). *(The ~7 AM meeting slot fits his known moonlighting availability window.)* Substance on [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Nov 5–10 ACH-spec arc). [[raw/Payment HUB_ACH module specification_05.11.25 .md]] [[raw/Payment HUB_ACH module specification_06.11.25.md]] [[raw/Payment HUB_ACH module specification_10.11.25.md]]
+
 ## Sources
 
+- [[raw/Payment HUB_ACH module specification_05.11.25 .md]]
+- [[raw/Payment HUB_ACH module specification_06.11.25.md]]
+- [[raw/Payment HUB_ACH module specification_10.11.25.md]]
 - [[raw/backend_architecture-august-14-2025.md]]
 - [[raw/architecture_sql_olap_visualization_1_2025-03-29.md]]
 - [[raw/e-wallet_tito_flex-pay_flex-port_implementation_update-may-29-2025.md]]

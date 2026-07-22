@@ -4,8 +4,8 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 77
-open-commitments: 5
+source-count: 80
+open-commitments: 7
 open-questions: 0
 ---
 
@@ -75,6 +75,8 @@ Pavel (called "Pasha") is a JVL engineer on the Minsk team who works on system/d
 - [ ] Pavel — consult SAS experts on technical feasibility (possibly a preliminary flow diagram), and with Irina document the minimum fields for TITO ticket generation — due ASAP (Apr 2) — [[raw/SMIB_FlexPay_Action_Items_April_2_2025.md]]
 - [ ] Pavel — after the Apr-8 shipping push, email Val/the team that the initial JVL business architecture is implemented and the product is ready to ship to Georgia — due Apr 8 2025 — [[raw/flex_pay_tito_smib_port-april7-2025.md]]
 - [ ] Pavel + Nathan Carver — schedule the Dwolla ACH integration and reflect it in the Jira plans for the next Flex weekly — due ~Oct 2025 — [[raw/Flex_capabilities_weekly_update-october-8-2025.md]]
+- [ ] Pavel — once Dwolla opens its dev-support channel, confirm the ACH mechanics parked Nov-6 (Dwolla wallet vs direct funding-source; who creates the customer/funding-source) and produce the verified-customer onboarding business-flow diagram — due after Dwolla agreements resolve — [[raw/Payment HUB_ACH module specification_06.11.25.md]]
+- [ ] Pavel — consult Dwolla on sandbox test-account hooks for QA and on API query limits (to avoid the $3,500-per-occurrence over-query penalty) — due when Dwolla support opens — [[raw/Payment HUB_ACH module specification_10.11.25.md]]
 
 Note: "Pasha" and "Sasha" are sometimes confused in the transcripts; "Pasha" maps here to Pavel, "Sasha" to Alexander Biratka. See [[wiki/people/alexander-biratka.md]]. His surname is given once as **"Frolov"** in the Jan 17 FP7 meeting ("Pavel Frolov has to see if there is a better Linux driver"). [[raw/fr-7_identifying_bottlenecks_in_performance_during_testing_january_17_2025.md]]
 
@@ -211,8 +213,15 @@ On the [[wiki/meetings/2025-10-08-flex-capabilities-ach-vendors-fednow.md|Oct-8 
 
 On the [[wiki/meetings/2025-11-05-jvl-dwolla-onboarding-kickoff.md|Nov-5 Dwolla kickoff]] Pavel was the JVL engineering lead learning the platform hands-on: he had already worked out (via API, ~10 minutes before the call) how to create/verify customers in the sandbox, and drove the practical questions — one JVL bank account to receive funds vs many location customers to debit; whether all locations must be created in the list. Dwolla clarified JVL uses the **unverified customer** object (created via API, not the dashboard), with a **verified bank funding source**, on the **receive flow**. Nancy will consolidate JVL's **5 separate sandbox accounts** onto one admin (Pavel) with a shared API key. This is the vendor-facing follow-through of the Oct-8/22 decision to build on Dwolla. See [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Nov-5). [[raw/JVL_Dwolla-november-5-2025.md]]
 
+## Nov 5–10 2025 — payment-hub ACH-spec-review arc (named driver)
+
+Across the three ~7 AM ACH-module spec-review sessions ([[wiki/meetings/2025-11-05-payment-hub-ach-spec-review-states-provider-routing.md|Nov-5]], [[wiki/meetings/2025-11-06-payment-hub-ach-spec-review-registration-onboarding.md|Nov-6]], [[wiki/meetings/2025-11-10-payment-hub-ach-spec-review-undertakings-plaid-qa.md|Nov-10]]) Pavel drove the screen-share and the requirement walk-through — provider routing (one adapter at a time but two in parallel during a switch), the passport-vs-terminal registration split, the funding-source-ID money model (no Dwolla wallet, in his read), and the location-onboarding/web-interface design. On Nov-10 Val named him the **driver** of these meetings ("it's your bulldozer now") and asked him to run the AI-undertakings meeting-prep discipline. Substance on [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Nov 5–10 ACH-spec arc). [[raw/Payment HUB_ACH module specification_05.11.25 .md]] [[raw/Payment HUB_ACH module specification_06.11.25.md]] [[raw/Payment HUB_ACH module specification_10.11.25.md]]
+
 ## Sources
 - [[raw/JVL_Dwolla-november-5-2025.md]]
+- [[raw/Payment HUB_ACH module specification_05.11.25 .md]]
+- [[raw/Payment HUB_ACH module specification_06.11.25.md]]
+- [[raw/Payment HUB_ACH module specification_10.11.25.md]]
 - [[raw/specification_standards_review-september-22-2025.md]]
 - [[raw/back-end_architecture_blueprint_review.md]]
 - [[raw/fast-passing-general-alignment_stand-up-september-10-2025.md]]

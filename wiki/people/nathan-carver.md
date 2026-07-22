@@ -3,7 +3,7 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 17
+source-count: 20
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
 
@@ -65,8 +65,15 @@ On the [[wiki/meetings/2025-10-08-flex-capabilities-ach-vendors-fednow.md|Oct-8 
 
 On the [[wiki/meetings/2025-11-05-jvl-dwolla-onboarding-kickoff.md|Nov-5 Dwolla kickoff]] Nathan is on JVL's side as the ACH technical lead; Dwolla's Cody worked to get him invited to the onboarding project portal that morning (he hit a technical sign-in issue). The session is the first working call directly with Dwolla — the vendor Nathan had recommended and put on the dev path in October. See [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Nov-5). [[raw/JVL_Dwolla-november-5-2025.md]]
 
+## Nov 5–10 2025 — ACH-module spec review (state diagrams, Dwolla flow, retries)
+
+Across the three ~7 AM ACH-module spec-review sessions Nathan is JVL's ACH technical advisor: he supplied the initial invoice/ACH-transaction **state-diagram** concepts (created → in-process → pending → completed/failed) the engineers build from, explained the Dwolla **verified/unverified customer** model, **drop-in UI components vs API integration**, and Plaid-based account verification, and raised the Dwolla balance/wallet-vs-direct-transfer question (Nov-6) and retry/escalation logic tied to error codes (Nov-10). Substance on [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Nov 5–10 ACH-spec arc). [[raw/Payment HUB_ACH module specification_05.11.25 .md]] [[raw/Payment HUB_ACH module specification_06.11.25.md]] [[raw/Payment HUB_ACH module specification_10.11.25.md]]
+
 ## Sources
 - [[raw/JVL_Dwolla-november-5-2025.md]]
+- [[raw/Payment HUB_ACH module specification_05.11.25 .md]]
+- [[raw/Payment HUB_ACH module specification_06.11.25.md]]
+- [[raw/Payment HUB_ACH module specification_10.11.25.md]]
 - [[raw/specification_standards_review-september-22-2025.md]]
 - [[raw/back-end_architecture_blueprint_review.md]]
 - [[raw/Flex_capabilities_weekly_update-october-8-2025.md]]

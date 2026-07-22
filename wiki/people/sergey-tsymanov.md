@@ -3,8 +3,8 @@ type: person
 title: Sergey Tsymanov
 date: 2026-07-14
 aliases: [Sergey Tsymanov, Siarhei Tsymanau, Sergey Tsimanov, Tsymanau, Tsimanov, Sergei Tsyganov, Tsyganov, Цыганов, Sergei, Sergey]
-source-count: 8
-open-commitments: 2
+source-count: 9
+open-commitments: 3
 disambiguation: "Minsk engineer who drafts CMS requirements with the backend 'Dima' (Chudinov). OWNER-CONFIRMED 2026-07-14 = the payroll 'Siarhei Tsymanau' (Belarusian) and the IT-records 'Sergey Tsimanov' — same person; Tsymanov canonical, Tsymanau/Tsimanov aliases. Distinct from other 'Sergei/Sergey' names (e.g. Sergei Novitsky the advanced-setup technician); resolve by context."
 ---
 
@@ -27,6 +27,7 @@ Sergey Tsymanov is a JVL **Minsk engineer** who works on the **legacy CMS requir
 
 - [ ] Sergey Tsymanov (with Dima Chudinov) — re-review the generated CMS materials and add the missing taxonomies — due by the booked Thursday meeting (~Mar 27, inferred) — [[raw/cms_requirements_development-dzima-sergei-andrei.md]]
 - [ ] Sergey Tsymanov — implement LGS 474 (LED Light Control) on Omni, in parallel, starting Monday (~June 16) — due before ~July 31 — [[raw/schedule_review_omni-june-12-2025.md]]
+- [ ] Sergey Tsymanov — produce the **terminal-registration state-machine diagram** for the payment-hub ACH module — due Wed Nov 19 2025 — [[raw/Payment HUB_ACH module specification_10.11.25.md]]
 
 ## History
 
@@ -40,8 +41,13 @@ Sergey Tsymanov is a JVL **Minsk engineer** who works on the **legacy CMS requir
 
 On the [[wiki/meetings/2025-06-12-omni-schedule-review.md|June-12 Omni schedule review]], to relieve the LGS/backend bottleneck (Kharetsky), **LGS 474 (LED Light Control) was reassigned to Sergey Tsymanov** ("Цыманов", who sits next to Sasha), starting **Monday**, running in parallel — Val accepted a slightly slower pace on other work for a faster overall result. He was also floated for the isolated money-transfer/LED framework tasks. See [[wiki/topics/omni-core-advancement-and-game-templating.md]]. [[raw/schedule_review_omni-june-12-2025.md]]
 
+## Nov 10 2025 — assigned the terminal-registration state diagram
+
+On the [[wiki/meetings/2025-11-10-payment-hub-ach-spec-review-undertakings-plaid-qa.md|Nov-10 ACH-spec-review session]] Sergey (present across the Nov 5/6/10 arc, largely a silent participant) was assigned to draw the **terminal-registration state-machine diagram** for the payment-hub ACH module, due Wed Nov 19. See [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Nov-10). [[raw/Payment HUB_ACH module specification_10.11.25.md]]
+
 ## Sources
 
+- [[raw/Payment HUB_ACH module specification_10.11.25.md]]
 - [[raw/schedule_review_omni-june-12-2025.md]]
 - [[raw/architecture_sql_olap_visualization_1_2025-03-29.md]]
 - [[raw/architecture_sql_olap_visualization_2_2025-03-29.md]]
