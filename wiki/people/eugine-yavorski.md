@@ -4,7 +4,7 @@ title: Eugine Yavorski
 date: 2025-02-18
 aliases: [Eugine Yavorski, Evgeny Yavorsky, Yavorski, Yavorsky, Яворский, Evgeny Egorsky, Egorsky, Егорский, Evgeny Nevorsky, Nevorsky, Неворский, Evgeny, Yevgeny, Zhenya, Женя, Евгений]
 disambiguation: "FlexPort/FlexPay integration engineer (alias Egorsky), this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
-source-count: 22
+source-count: 23
 open-commitments: 3
 ---
 
@@ -93,8 +93,18 @@ On the Nov-11 POS + FlexPort schedule review ([[wiki/meetings/2025-11-11-pos-fle
 
 On the [[wiki/meetings/2025-11-28-flexport-smib-sync-jira-review.md|Nov-28 FlexPort/SMIB sync]] Yavorski worked through HFM-255 (gaming-machine docking): the low-credit-cap **bill-return** case was resolved with Pavel into a **two-phase cashout command that does not complete phase 2** (rather than a new command/field or a cash return), which Yavorski will rework and test. He moved his block-logging task to Dec-5 and agreed to break the big docking task into subtasks. **Notable relationship dynamic:** Val told him bluntly he "can't understand what you're doing" verbally and insisted all work live as properly-statused Jira subtasks — "if it isn't in Jira, it doesn't exist" — with a weekly Monday status check. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Nov-28). [[raw/Flex-Port_Smib_alignment-November-28-2025.md]]
 
+## Feb 5 2026 — the Flex-Port / WSS protocol owner (responsibility-split briefing)
+
+A JIRA-sourced briefing prepared for [[wiki/people/aaron.md|Aaron]] ([[wiki/meetings/2026-02-05-flexpay-flexport-wss-responsibility-briefing.md]]) mapped the FlexPay↔FlexPort WSS responsibility split. Yavorski (named "Evgeniy Yavorski") owns the **Flex-Port** end. [[raw/Aaron_Briefing_FlexPay_FlexPort_WSS-February-5-2026.md]]
+
+- **Primary domain:** embedded firmware on the **STM32-based Flex-Port board** inside the EGM slot machine. He **designs, defines, and implements the WSS protocol on the Flex-Port side — owning the protocol specification and message formats.** [[raw/Aaron_Briefing_FlexPay_FlexPort_WSS-February-5-2026.md]]
+- **Cash-in/out:** bill-validator (**ID-003**) communication, EGM cash-out forwarding, Redeemable-vs-Playable message tagging (**HFM-338, HFM-340, HFM-343**). **Firmware/updates:** flash-stick + WSS-over-Ethernet update mechanisms, bootloader, production support tools (**HFM-215, HFM-216, HFM-279**). **Logging:** on-device logging, local transaction storage (NVS/SQLite), log transfer to Flex-Pay (**HFM-209, HFM-210, HFM-278**). **Security:** encrypted WSS + TrustZone evaluation on STM32 (**HFM-211**). **TITO:** supported at the hardware/protocol layer via **Flex-SMIB handoff** (**HFM-263**). He is **not involved server-side** (embedded-only scope). [[raw/Aaron_Briefing_FlexPay_FlexPort_WSS-February-5-2026.md]]
+- **Status:** **4 items In Progress** (log transfer to Flex-Pay, bill-validator "Box Full" fix, stability testing, incremental-crediting UI) and **7 To Do** — including firmware-update support (due **2/9**), double-trigger prevention (due **2/15**), and an ID-003 wake-up investigation (due **2/24**). Flagged risk: several Feb-2026 due dates cluster together. [[raw/Aaron_Briefing_FlexPay_FlexPort_WSS-February-5-2026.md]]
+- **Single-point-of-knowledge risk:** the briefing's key takeaway for Aaron is that Yavorski is **the protocol architect and embedded specialist** — if only he fully understands the WSS protocol specification, [[wiki/people/dmitri-chudinov.md|Chudinov]] and the broader team are dependent on him, which is why the ongoing knowledge transfer is called critical. [[raw/Aaron_Briefing_FlexPay_FlexPort_WSS-February-5-2026.md]]
+
 ## Sources
 
+- [[raw/Aaron_Briefing_FlexPay_FlexPort_WSS-February-5-2026.md]]
 - [[raw/POS_and_PORT-schedule_review.md]]
 - [[raw/Flex-Port_Smib_alignment-November-28-2025.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-02-18.md]]

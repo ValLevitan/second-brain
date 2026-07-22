@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna, Selena, Elena]
-source-count: 34
+source-count: 35
 open-commitments: 1
 ---
 
@@ -137,8 +137,18 @@ On the [[wiki/meetings/2025-07-28-media-tax-credit-examiner-coaching.md|Media Ta
 
 With [[wiki/people/val-levitan.md|Val]] and [[wiki/people/efim-podvoiski.md|Efim Podvoiski]], Lena scoped **reviving JVL's ~150 aged amusement games** onto the HTML framework — a full redesign from assets to framework programming (concepts/scenes/character designs reusable, assets not), games assembled in **Miranda**, ~2 years for ~50 games; she proposed **outsourcing** the self-contained project and flagged its market as distinct from mobile/internet. In the parallel Pavel session she and Efim are named as the ones who "know the whole history" and can advise. Full substance: [[wiki/topics/amusement-games-revival.md]]. [[raw/amusement_games_development_revival-july-31-2025-efim_lena.md]] [[raw/amusement_games_development_revivial-july-31-2025-pavel.md]]
 
+## Jan 29 2026 — MCP-tools working session (requirements from the design side)
+
+On the [[wiki/meetings/2026-01-29-jvl-working-session-mcp-tools-demo.md|working session]] where [[wiki/people/clayton-chancey.md|Clayton Chancey]] demoed his custom JVL Atlassian MCP tools (with Val and [[wiki/people/aaron.md|Aaron]]), Lena spoke for the design side. [[raw/Clayton_jvl-working-session-2-summary-January-20-2026.md]]
+
+- **Manual-work perspective:** current game work is highly manual, and any automation must account for the unique creative/artistic elements in each game. [[raw/Clayton_jvl-working-session-2-summary-January-20-2026.md]]
+- **Image-handling requirement:** when creating Jira structures for new games she needs to upload artistic images and reference artifacts directly into ticket descriptions, so the planned `create_game_from_template` tool must support embedding a predetermined set of images (still a research item). [[raw/Clayton_jvl-working-session-2-summary-January-20-2026.md]]
+- **Clone vs. blanket structure:** Lena prefers a single broad structure applied universally with non-applicable elements removed case-by-case; Val emphasized cloning is key to the use case. Both agreed Jira structure and game function can be cloned, but **art elements (images, descriptions, themes) must be unique per adaptation**. [[raw/Clayton_jvl-working-session-2-summary-January-20-2026.md]]
+- She was set to be walked through installing Claude Code + the MCP tools on her local Claude Desktop on **Tuesday, February 4**. [[raw/Clayton_jvl-working-session-2-summary-January-20-2026.md]]
+
 ## Sources
 
+- [[raw/Clayton_jvl-working-session-2-summary-January-20-2026.md]]
 - [[raw/amusement_games_development_revival-july-31-2025-efim_lena.md]]
 - [[raw/amusement_games_development_revivial-july-31-2025-pavel.md]]
 - [[raw/media_tax_credit_team_coaching-july-28-2025.md]]

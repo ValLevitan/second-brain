@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 76
+source-count: 77
 open-commitments: 1
 ---
 
@@ -222,8 +222,13 @@ On a coaching 1:1 ([[wiki/meetings/2025-09-10-minimum-architecture-pos-deploymen
 
 On the [[wiki/meetings/2025-09-16-backend-blueprint-payment-hub-review.md|Sept-16 blueprint review]] (1:03 PM, with Val + Pavel + Nathan) Aaron played the process advisor on how JVL should write specs. He surfaced the formal frameworks — **TOGAF** (The Open Group), **ArchiMate**, **PlantUML**, **ISO** requirement/spec standards — but judged them **not a match** for JVL's size and the January deadline ("you'll be spinning months writing all the specs; it will not let you hit January 1st"). His steer: distil an **informal, smaller** interpretation — an internal agreement on "what we consider a specification," not ISO certification. See [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Sept-16). [[raw/back-end_architecture_blueprint_review.md]]
 
+## Jan 29 2026 — Clayton's MCP-tools working session
+
+On the [[wiki/meetings/2026-01-29-jvl-working-session-mcp-tools-demo.md|working session]] where his colleague [[wiki/people/clayton-chancey.md|Clayton Chancey]] demoed the custom JVL Atlassian MCP tools (with Val and [[wiki/people/lena.md|Lena]]), Aaron shared Clayton's "AI-augmented" framing: with enough high-quality context scaffolded intelligently, an LLM can judge which pieces to automate and how — judgment-informed augmentation, not blind automation. Substance on [[wiki/people/clayton-chancey.md]]. [[raw/Clayton_jvl-working-session-2-summary-January-20-2026.md]]
+
 ## Sources
 
+- [[raw/Clayton_jvl-working-session-2-summary-January-20-2026.md]]
 - [[raw/back-end_architecture_blueprint_review.md]]
 - [[raw/Minimum_Architecture_POS_deployment_planning-september-10-2025.md]]
 - [[raw/Aaron + Val.md]]

@@ -4,7 +4,7 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 27
+source-count: 28
 open-commitments: 3
 open-questions: 0
 ---
@@ -110,8 +110,19 @@ Chudinov attended the [[wiki/meetings/2025-08-14-backend-architecture-cms-transa
 
 Across the three ~7 AM ACH-module spec-review sessions (transcribed "Dzmitry Chudzinau") Chudinov is the back-end engineer who **authored the ACH-module requirement documents** the team walked through — invoice-state requirement (FR106), the Dwolla adapter (FR101), payment-processor/provider routing, and the terminal/passport/location-registration write-ups — and who will produce the module and adapter schemas/state diagrams. He drove the open architecture questions: how to route/assign an ACH provider per location during a switch, and how a customer's bank account attaches to the internal location entity (favouring the **Plaid**-hosted approach so no bank numbers are stored). *(The ~7 AM meeting slot fits his known moonlighting availability window.)* Substance on [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Nov 5–10 ACH-spec arc). [[raw/Payment HUB_ACH module specification_05.11.25 .md]] [[raw/Payment HUB_ACH module specification_06.11.25.md]] [[raw/Payment HUB_ACH module specification_10.11.25.md]]
 
+## Feb 5 2026 — the Flex-Pay kiosk + backend owner (responsibility-split briefing)
+
+A JIRA-sourced briefing prepared for [[wiki/people/aaron.md|Aaron]] ([[wiki/meetings/2026-02-05-flexpay-flexport-wss-responsibility-briefing.md]]) mapped the FlexPay↔FlexPort WSS responsibility split. Chudinov (named "Dzmitry Chudinov") owns the **Flex-Pay** end. [[raw/Aaron_Briefing_FlexPay_FlexPort_WSS-February-5-2026.md]]
+
+- **Primary domain:** the **Flex-Pay kiosk application software** (the payment terminal the player uses). He **implements the WSS protocol on the Flex-Pay side** and expanded it for **SAS Cashout, SAS Ticket-In, and SAS logging** (**FP-250, FP-251, FP-252**). [[raw/Aaron_Briefing_FlexPay_FlexPort_WSS-February-5-2026.md]]
+- **Cash:** processes incoming WSS cash messages on the kiosk, manages transaction confirm/cancel logic, and handles payment-processor integration (**InComm, Pyramid**). **Firmware:** triggers/manages remote firmware-update delivery from the server/kiosk side (**FP-181, FP-208**). **Logging:** receives/stores Flex-Port logs on the kiosk and exports them for support (**FP-210**); builds backend ticket/report history (**FP-270**). **Security:** encrypted WSS on the kiosk side (**FP-9**). **TITO:** full kiosk integration — ticket creation/validation/redemption, HandPay/JackPot support (**FP-253, FP-255, FP-267, FP-268**). [[raw/Aaron_Briefing_FlexPay_FlexPort_WSS-February-5-2026.md]]
+- **Server/backend (his alone):** Payment Hub API, server registration, time sync, CMS/orchestration integration, InComm parameter management (**BEP-2644, BEP-2213, BEP-2257**). [[raw/Aaron_Briefing_FlexPay_FlexPort_WSS-February-5-2026.md]]
+- **Status:** **7 To Do** (including API expansion for negative Flex-Port scenarios due **2/9**, TITO SAS integration, remote firmware triggering); **21 Closed / 2 Done** — a strong delivery track record on WSS-protocol expansion and kiosk features; recent bug fixes completed (**FP-516, FP-517, FP-518** — incorrect transaction status, cash balance after cancel, cash-category distribution). [[raw/Aaron_Briefing_FlexPay_FlexPort_WSS-February-5-2026.md]]
+- The briefing frames him as the **kiosk application developer** taking [[wiki/people/eugine-yavorski.md|Yavorski]]'s protocol messages and implementing them on the Flex-Pay terminal plus all server/backend integration — dependent on Yavorski for the protocol specification (see the single-point-of-knowledge note on [[wiki/people/eugine-yavorski.md]]). [[raw/Aaron_Briefing_FlexPay_FlexPort_WSS-February-5-2026.md]]
+
 ## Sources
 
+- [[raw/Aaron_Briefing_FlexPay_FlexPort_WSS-February-5-2026.md]]
 - [[raw/Payment HUB_ACH module specification_05.11.25 .md]]
 - [[raw/Payment HUB_ACH module specification_06.11.25.md]]
 - [[raw/Payment HUB_ACH module specification_10.11.25.md]]

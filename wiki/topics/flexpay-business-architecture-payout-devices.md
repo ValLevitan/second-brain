@@ -3,7 +3,7 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS]
-source-count: 72
+source-count: 73
 open-commitments: 28
 open-questions: 4
 ---
@@ -571,6 +571,14 @@ The [[wiki/meetings/2025-12-16-flexport-pos-sync-scheduling-stability-testing.md
 - **Cancel command tested; HFM-340 closed.** Yavorski **added and home-tested the new cancel command** (built by Dima); will verify on the production floor and close HFM-339 ~next day. **HFM-340** = the old cashout implementation **moved to its own feature-flagged branch** (revertible, non-interfering) — done and **closed**. This-week stack: HFM-353 (multi-denomination chain) + HFM-278 (logs); then HFM-351 screens, HFM-352 reporting, HFM-344, HFM-256, HFM-342; **firmware update deferred to ~Dec 29**. [[raw/Flex-Port, Flex-POS sync and scheduling.md]]
 - **Alekseev.** HFM-258 (2-validator integration) ~today/tomorrow, then HFM-268 (Windows/Flex Sport log tool) which unblocks 186/188/189; new boards on the 4 machines. Pavel's **Pyramid-printer investigation** floated; **Val declined — "not ready."** [[raw/Flex-Port, Flex-POS sync and scheduling.md]]
 - **Process (Val).** Demanded a **stack-rank**; flagged that **no task carries acceptance criteria / exceptions** so QA can't test the now-"mega-large" features, and that task 268 was linked to a year-old task (mis-dated). **Both engineers work through the holidays**; next meeting **after Jan 5**; all code lives in **Git**. [[raw/Flex-Port, Flex-POS sync and scheduling.md]]
+
+## Feb 5 2026 — the FlexPay↔FlexPort WSS responsibility split (briefing for Aaron)
+
+A JIRA-sourced briefing prepared for [[wiki/people/aaron.md|Aaron]] ([[wiki/meetings/2026-02-05-flexpay-flexport-wss-responsibility-briefing.md]]) formalized who owns which end of the **WebSocket-Secure (WSS) protocol** — the shared "phone line" between the two systems. It continues the Dec-2025 thread where the WSS gained its **"cancel-transaction" command** (Dec-8). [[raw/Aaron_Briefing_FlexPay_FlexPort_WSS-February-5-2026.md]]
+
+- **[[wiki/people/eugine-yavorski.md|Yavorski]] = Flex-Port (embedded) end + protocol architect.** He builds/maintains the STM32-based board inside the machine and **owns the WSS protocol specification and message formats**, plus bill-validator (ID-003) comms, EGM cash-out forwarding, firmware/bootloader, on-device logging, encrypted-WSS/TrustZone security, and TITO at the hardware layer via Flex-SMIB handoff. Embedded-only — not involved server-side. [[raw/Aaron_Briefing_FlexPay_FlexPort_WSS-February-5-2026.md]]
+- **[[wiki/people/dmitri-chudinov.md|Chudinov]] = Flex-Pay (kiosk) end + all backend.** He implements the same protocol on the kiosk (SAS Cashout/Ticket-In/logging), plus transaction confirm/cancel logic, payment-processor integration (InComm, Pyramid), remote-firmware-update triggering, kiosk-side log storage/export, full kiosk TITO, and the whole server/backend layer (Payment Hub API, registration, time sync, CMS/orchestration, InComm parameter management). **The WSS protocol is the contract between them.** [[raw/Aaron_Briefing_FlexPay_FlexPort_WSS-February-5-2026.md]]
+- **Single-point-of-knowledge risk (the briefing's headline for Aaron):** because only Yavorski fully understands the protocol specification, Chudinov and the broader team are dependent on him — making the ongoing knowledge transfer critical. Per-person JIRA keys and open-item status are on the two person pages. [[raw/Aaron_Briefing_FlexPay_FlexPort_WSS-February-5-2026.md]]
 
 ## Open commitments
 
