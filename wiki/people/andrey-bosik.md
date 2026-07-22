@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 49
+source-count: 50
 open-commitments: 6
 ---
 
@@ -147,7 +147,13 @@ On a 3:02 PM prep call ([[wiki/meetings/2025-10-07-game-concept-workflow-prep.md
 
 On the two-segment [[wiki/meetings/2026-02-02-knowledge-graph-tool-introduction.md|Knowledge Graph Tool introduction]], Andrei (with [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]) is one of the two people [[wiki/people/aaron.md|Aaron]] handed his built **knowledge-graph platform** to. He was the most active questioner — probing the data store (Aaron: **Postgres + Apache Age**), CPU-vs-GPU, RBAC/multi-user isolation, Docker install, OAuth providers (Entra/Google/Okta — planned), and internet exposure/security (Aaron: keep it off the open internet, use a VPN). This continues his standing ownership of the earlier **Verba/Weaviate** company-knowledge-base cloud build (Apr-23-2025) — the same lineage. Val charged him and Dima to "take possession of this tool" and lead the company from "noise" to "binary facts." Substance on [[wiki/topics/transcript-knowledge-base-tooling.md]] (Feb-2). [[raw/Introduction to Knowledge Graph Tool-part-1-February-2-2026.md]] [[raw/Introduction to Knowledge Graph Tool-part-2-February-2-2026.md]]
 
+## Feb 3 2026 — Claude Code workshop (support + the persistent-rules `.claude` doc)
+
+On the [[wiki/meetings/2026-02-03-claude-code-integration-continued.md|Feb-3 Claude Code workshop]] Andrei was present in a support role — helping [[wiki/people/ihar-hrybko.md|Igor]] navigate WSL/terminal paths during the live LGS-monorepo run, and noting Val's fixes to the machine's tooling failures. He shared the practical habit of having Claude Code keep a **`./claude` folder doc of recurring rules/mistakes** that you periodically ask it to re-analyse and update so the same errors aren't repeated. (He is also the co-recipient, with Dmitri Kovalchuk, of Aaron's Feb-2 knowledge-graph tool that Val cited here as the large-context future.) See [[wiki/topics/ai-assisted-development.md]] (Feb-3). [[raw/Claude Code integration - continued.md]]
+
 ## Sources
+
+- [[raw/Claude Code integration - continued.md]]
 
 - [[raw/Introduction to Knowledge Graph Tool-part-1-February-2-2026.md]]
 - [[raw/Introduction to Knowledge Graph Tool-part-2-February-2-2026.md]]

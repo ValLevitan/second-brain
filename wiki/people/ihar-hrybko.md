@@ -2,8 +2,8 @@
 type: person
 title: Ihar Hrybko
 date: 2024-01-01
-aliases: [Ihar Hrybko, Igar Hrybko, Hrybko]
-source-count: 9
+aliases: [Ihar Hrybko, Igar Hrybko, Hrybko, Gribkov, грибков]
+source-count: 11
 disambiguation: "UX/UI (payroll Igar Hrybko; JVL Insights-era consultant). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
 ---
 
@@ -42,8 +42,18 @@ On the e-Wallet/TITO review ([[wiki/meetings/2025-05-29-ewallet-tito-flexpay-imp
 
 On the [[wiki/meetings/2025-08-19-figma-to-development-testing.md|Aug-19 figma-to-development working session]] Ihar Hrybko is **addressed throughout as "Igor"** (Pavel: "Igor, can you export CSS?" / "Igor, do you use material-UI components?"; Aaron: "I will tell you Igor…") — the answering speaker label is consistently *Ihar Hrybko*, confirming this is him (registry: UX/UI, payroll "Igar Hrybko"). He is the UX/UI designer building the setup-screen mock-ups. His position: **Figma cannot auto-generate integration tests or production-ready React** for JVL's complex app — Figma is for mock-ups + interactive usability prototypes; JVL builds screens fast from a paid **Joy UI**-style component kit (recreated manually) whose React components are already tested, then **hand-crafts** the actual React layout using Figma only as a reference. Auto-export plugins produce landing-page-grade code, unusable for maintainable production. See [[wiki/topics/test-automation-strategy.md]]. [[raw/figma_to_testing_development .md]]
 
+## Feb 3 2026 — ran the live Claude Code exploration of the LGS monorepo
+
+- On the [[wiki/meetings/2026-02-03-claude-code-integration-continued.md|Feb-3 Claude Code workshop]] "Igor" (Ihar Hrybko) was the engineer at the keyboard for Aaron's **live Claude Code run**: he opened the **"platform local gaming server"** monorepo in VS Code (front end in the `LGSUI` React-components package he works in; the rest back end), launched Claude Code in WSL/bash, and let it spin up three Explorer sub-agents to traverse the repo and auto-write a `docs/` tree (README, architecture overview + Mermaid diagram, API data-contracts, test scaffolding). The run hit Windows/WSL tooling problems (crashes, broken hooks). See [[wiki/topics/ai-assisted-development.md]] (Feb-3). [[raw/Claude Code integration - continued.md]]
+
+## Feb 4 2026 — figma→React layout hand-off; the Claude-review PR loop
+
+- On the [[wiki/meetings/2026-02-04-figma-react-export-workflow.md|Feb-4 figma→React session]] Pavel noted the **design→layout** work (Figma → React) has historically been done mostly by [[wiki/people/anton-seregin.md|Anton Seregin]], with **Hrybko doing part of it** recently because Seregin was overloaded. Val set the **first branch hand-off as Hrybko → Seregin**. Val also cited a demonstrated **Claude-Code review loop** between Hrybko and [[wiki/people/evgeny-kharetski.md|Kharetski]]: Hrybko opened a PR to main; Kharetski reviewed it with his local Claude Code, committed the comments; Hrybko received them and made the file commit to master. See [[wiki/topics/test-automation-strategy.md]] (Feb-4) and [[wiki/topics/graphics-team-git-workflow.md]]. [[raw/Irina_Pavel_Figma_React-February-4-2026.md]]
+
 ## Sources
 
+- [[raw/Claude Code integration - continued.md]]
+- [[raw/Irina_Pavel_Figma_React-February-4-2026.md]]
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
 - [[raw/e-wallet_tito_flex-pay_flex-port_implementation_update-may-29-2025.md]]
 - [[raw/figma_to_testing_development .md]]

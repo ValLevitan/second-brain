@@ -3,7 +3,7 @@ type: person
 title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka, Alex Baratka, Alex Beratka, Alexander Berankov, Biratko, Alexander Biratko]
-source-count: 28
+source-count: 29
 open-commitments: 1
 open-questions: 0
 ---
@@ -103,7 +103,13 @@ On the [[wiki/meetings/2025-07-31-amusement-games-revival-pavel.md|amusement-gam
 
 On a call [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] recorded to generate a technical specification ([[wiki/meetings/2025-08-28-omni-animation-architecture-biratka.md]]), Sasha (filename "Biratko") walked through Omni's animation system: the two live types (**Spine** + video) plus a slower Unity-native converter he expects to drop; the **Unity→JSON scene exporter** (a Unity script emits a JVL-format JSON the Pixi engine parses, with custom element types like a `spinner` declared on the Unity side and realised only in the JVL engine); a common start/stop/pause clip interface; and the **animation-controller state machine** (Unity-exported JSON of variables/states/transitions, fired transition events code can subscribe to) — which he judged "workable, not very elegant." Substance on [[wiki/topics/omni-core-advancement-and-game-templating.md]]. [[raw/Anton_Liashkevich_Alexander_Biratko_about_OMNI-august-28-2025.md]]
 
+## Feb 3 2026 — Claude Code workshop (the "context collapses into one head" concern)
+
+On the [[wiki/meetings/2026-02-03-claude-code-integration-continued.md|Feb-3 Claude Code workshop]] "Sasha" attended as one of the engineers being onboarded. Aaron used his testing practice as an example (Sasha runs **unit + integration tests** to verify libraries do what they should). Sasha raised the session's main push-back: the whole context still ends up "in the head of the person writing the prompt," and a long Claude session eventually **forgets** earlier instructions — so the prompter must keep directing the agent's attention to the specific area. Val agreed but pointed at the large-context future (Aaron's [[wiki/meetings/2026-02-02-knowledge-graph-tool-introduction.md|Feb-2 knowledge-graph tool]]). See [[wiki/topics/ai-assisted-development.md]] (Feb-3). [[raw/Claude Code integration - continued.md]]
+
 ## Sources
+
+- [[raw/Claude Code integration - continued.md]]
 
 - [[raw/Anton_Liashkevich_Alexander_Biratko_about_OMNI-august-28-2025.md]]
 - [[raw/amusement_games_development_revivial-july-31-2025-pavel.md]]

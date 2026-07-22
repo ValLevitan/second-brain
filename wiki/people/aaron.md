@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 79
+source-count: 80
 open-commitments: 1
 ---
 
@@ -230,8 +230,13 @@ On the [[wiki/meetings/2026-01-29-jvl-working-session-mcp-tools-demo.md|working 
 
 On a two-segment session ([[wiki/meetings/2026-02-02-knowledge-graph-tool-introduction.md]]) Aaron demoed the **knowledge-graph platform** he had been building "for months and months" — a **"reasoning as a service"** system extracting concepts + typed edges out of documents into a graph (PostgreSQL + **Apache Age**, five Docker containers, a **KG command line**, an **MCP server**, a **Fuse** driver, a web workstation; inference via Anthropic/OpenAI APIs or local Ollama) — and handed it to [[wiki/people/andrey-bosik.md|Andrei Bosik]] and [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] to deploy and run. He framed it as **not RAG** but "a persistent front brain" / "conceptual memory" for tools like Claude, positioned against Neo4j/Google/Microsoft/Meta systems that cost "hundreds of thousands a year." Still "barely alpha," single-developer, dev domain **kg.broccoli.house**. The direct descendant of his 2025 transcript-knowledge-base thread. **§15.8 clear:** "Val paid for this"; vendor/program economics only. Substance on [[wiki/topics/transcript-knowledge-base-tooling.md]] (Feb-2). [[raw/Introduction to Knowledge Graph Tool-part-1-February-2-2026.md]] [[raw/Introduction to Knowledge Graph Tool-part-2-February-2-2026.md]]
 
+## Feb 3 2026 — Claude Code integration workshop (the "AI sandwich")
+
+On the [[wiki/meetings/2026-02-03-claude-code-integration-continued.md|Feb-3 working session]] (continuing a prior Claude Code onboarding not in the vault) Aaron coached the Minsk engineers on working with a coding agent — his **"AI sandwich"** (define → execute/generate → review-decide, human on both ends), **tests + developer-experience as engineered guardrails** ("sharpen your knives before you butcher the meat"), the **whiteboard→Claude→git decisions** capture flow, **JIRA-as-planning / GitHub-as-decision layer**, and **"think like a data scientist"** (the developer becomes a "data engineer for your AI teammate") — then ran a **live Claude Code exploration** of the LGS monorepo on [[wiki/people/ihar-hrybko.md|Ihar Hrybko]]'s machine (three 200k-token Explorer sub-agents auto-writing a `docs/` tree + test scaffolding; hampered by Windows/WSL problems). He generated his own slides live in Claude Desktop while teaching. §15.8 clear (vendor economics only). Substance on [[wiki/topics/ai-assisted-development.md]] (Feb-3). [[raw/Claude Code integration - continued.md]]
+
 ## Sources
 
+- [[raw/Claude Code integration - continued.md]]
 - [[raw/Introduction to Knowledge Graph Tool-part-1-February-2-2026.md]]
 - [[raw/Introduction to Knowledge Graph Tool-part-2-February-2-2026.md]]
 - [[raw/Clayton_jvl-working-session-2-summary-January-20-2026.md]]
