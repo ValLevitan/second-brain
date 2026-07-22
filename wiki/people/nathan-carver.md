@@ -3,7 +3,7 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 16
+source-count: 17
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
 
@@ -61,7 +61,12 @@ On the [[wiki/meetings/2025-09-22-specification-standards-review-aaron.md|Sept-2
 
 On the [[wiki/meetings/2025-10-08-flex-capabilities-ach-vendors-fednow.md|Oct-8 Flex capabilities weekly]] (12:05 PM, with Val + [[wiki/people/pavel.md|Pavel]]) Nathan presented a **seven-provider ACH vendor-readiness table** (Dwolla, Modern Treasury, Stripe, Tabapay, Moov, Phoenix, Sila) with pricing and use-case fit — recommending **Dwolla** as ready-to-go with the fewest unknowns; **Modern Treasury** as a SaaS layer over JVL's Bank of America; **Stripe** (ACH pull, ~1.5%) pending its answer; **Tabapay** parked for high volume; **Moov** having asked for JVL's EIN. He took the undertakings to **schedule the Dwolla integration in Jira with Pavel** and to **dig into FedNow** (the near-real-time Fed rail Val surfaced — connection via a regulated institution or a Fedline third party) plus the NSF failure-mode use case. He'll put the Dwolla API on the development path (BEP 2656 / Nov-12). See [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Oct-8). [[raw/Flex_capabilities_weekly_update-october-8-2025.md]]
 
+## Nov 5 2025 — Dwolla onboarding kickoff
+
+On the [[wiki/meetings/2025-11-05-jvl-dwolla-onboarding-kickoff.md|Nov-5 Dwolla kickoff]] Nathan is on JVL's side as the ACH technical lead; Dwolla's Cody worked to get him invited to the onboarding project portal that morning (he hit a technical sign-in issue). The session is the first working call directly with Dwolla — the vendor Nathan had recommended and put on the dev path in October. See [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Nov-5). [[raw/JVL_Dwolla-november-5-2025.md]]
+
 ## Sources
+- [[raw/JVL_Dwolla-november-5-2025.md]]
 - [[raw/specification_standards_review-september-22-2025.md]]
 - [[raw/back-end_architecture_blueprint_review.md]]
 - [[raw/Flex_capabilities_weekly_update-october-8-2025.md]]

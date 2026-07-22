@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena]
-source-count: 46
+source-count: 47
 ---
 
 # Genadi Peari
@@ -147,8 +147,13 @@ On a Val↔Genadi one-on-one ([[wiki/meetings/2025-09-22-electro-mechanical-alig
 - **Warehouse consolidation:** add a cheap overflow warehouse near Atlanta, order proper new packaging so JVL units don't mix with Felipe's American returns; clear Canada + Georgia first and reuse freed shelving/lift; undecided on keeping the ~$7.40/sq-ft warehouse vs a taller ~$13/sq-ft one; discard anything untouched 2 years.
 Substance on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept-22). [[raw/alignment_elctro-mechanical-september-22-2025.md]]
 
+## Nov 3 2025 — machine QC checklist / release-form gap (Georgia)
+
+On the [[wiki/meetings/2025-11-03-machine-qc-checklist-release-form.md|Nov-3 QC meeting]] (with Val + [[wiki/people/irina-shishko.md|Irina Shishko]]) Genadi diagnosed the gap behind the loose-speaker defect on the Georgia-shipped machines: sub-assembly build instructions all exist on the server, but there is **no final whole-machine checkup instruction** — and no diagnostic/loopback tool for the new **4-port (2 SAS + printer + extra)** set. He proposed reviving a **per-machine QC checklist / release form** that travels with each machine (each item signed), and undertook to (with Irina) compile the list of missing steps/documents/tools by process stage and to **travel to Georgia ~2 weeks** (late Nov / early Dec, after the ~Dec-20 release tuning) to work hands-on with [[wiki/people/elizabeth.md|Elizabeth]] on the problem sub-assemblies — crossing the border as a tourist (no laptop/tools). Substance on [[wiki/topics/slot-machine-production-test-procedure.md]] (Nov-3). [[raw/Machine Quality Control Checklist and a Release form.md]]
+
 ## Sources
 
+- [[raw/Machine Quality Control Checklist and a Release form.md]]
 - [[raw/alignment_elctro-mechanical-september-22-2025.md]]
 - [[raw/flex_dispenser-review.md]]
 - [[raw/Flex Capabilities Weekly Update-september-3-2025.md]]

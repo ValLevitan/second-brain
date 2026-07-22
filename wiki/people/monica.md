@@ -3,7 +3,7 @@ type: person
 title: Monica
 date: 2026-07-12
 aliases: [Monica, Monika, Monica Levitan-Fenwick, Monica Levitan]
-source-count: 8
+source-count: 9
 ---
 
 # Monica
@@ -38,8 +38,13 @@ Her surname appears as **Levitan-Fenwick** in the JVL Systems identity note [[ra
 
 Monica joined [[wiki/people/val-levitan.md|Val]] on the [[wiki/organizations/rbc.md|RBC]] service-review call ([[wiki/meetings/2025-06-04-rbc-services-review.md]]) as the person handling JVL's day-to-day banking administration — she detailed the concrete failures (no access to the **JBL Labs Inc Euro account**, the tedious multi-call GIC deposits, a failed electronic check deposit) and gave her cell for follow-up. Consistent with her finance/banking + compliance role. [[raw/RBC_services_review-june-4-2025.md]]
 
+## Nov 5 2025 — Dwolla production-account registration (KYC)
+
+On the [[wiki/meetings/2025-11-05-jvl-dwolla-onboarding-kickoff.md|Nov-5 Dwolla onboarding kickoff]], registering JVL's **Dwolla production account** is assigned to Monica — the KYC step (JVL Inc's state of incorporation Florida/Delaware, beneficial ownership, and an **EIN letter**). Dwolla's Cody had emailed her the guide a couple of weeks earlier; as of the call she had not yet created the account. Consistent with her corporate-compliance/banking role. See [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Nov-5). [[raw/JVL_Dwolla-november-5-2025.md]]
+
 ## Sources
 
+- [[raw/JVL_Dwolla-november-5-2025.md]]
 - [[raw/jvl_online_sync_2025-03-29 1.md]]
 - [[raw/cibc_account_the_january_6_2025.md]]
 - [[raw/RBC_services_review-june-4-2025.md]]

@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 76
+source-count: 77
 open-commitments: 5
 open-questions: 0
 ---
@@ -207,7 +207,12 @@ Pavel ("Pasha") worked the Jira/GitHub maturity session with Val and Irina: he s
 
 On the [[wiki/meetings/2025-10-08-flex-capabilities-ach-vendors-fednow.md|Oct-8 Flex capabilities weekly]] (12:05 PM, with Nathan + Val) Pavel was the engineering voice as [[wiki/people/nathan-carver.md|Nathan]] walked the ACH vendor-readiness table. He confirmed the payment-hub Jira schedule — **IP632** (~9 features, into early December), the **ACH API adapter (BEP 2656)** where Dwolla fits, a rough ~2-week integration finishing **~Nov 12** (caveat: Dwolla API docs not yet read, so the estimate is rough) — and that the **Spring Boot** job scheduler Nathan needs is already in the Java tech stack. Took the joint undertaking with Nathan to schedule the Dwolla integration in Jira. See [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Oct-8). [[raw/Flex_capabilities_weekly_update-october-8-2025.md]]
 
+## Nov 5 2025 — Dwolla onboarding kickoff (sandbox → production)
+
+On the [[wiki/meetings/2025-11-05-jvl-dwolla-onboarding-kickoff.md|Nov-5 Dwolla kickoff]] Pavel was the JVL engineering lead learning the platform hands-on: he had already worked out (via API, ~10 minutes before the call) how to create/verify customers in the sandbox, and drove the practical questions — one JVL bank account to receive funds vs many location customers to debit; whether all locations must be created in the list. Dwolla clarified JVL uses the **unverified customer** object (created via API, not the dashboard), with a **verified bank funding source**, on the **receive flow**. Nancy will consolidate JVL's **5 separate sandbox accounts** onto one admin (Pavel) with a shared API key. This is the vendor-facing follow-through of the Oct-8/22 decision to build on Dwolla. See [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Nov-5). [[raw/JVL_Dwolla-november-5-2025.md]]
+
 ## Sources
+- [[raw/JVL_Dwolla-november-5-2025.md]]
 - [[raw/specification_standards_review-september-22-2025.md]]
 - [[raw/back-end_architecture_blueprint_review.md]]
 - [[raw/fast-passing-general-alignment_stand-up-september-10-2025.md]]

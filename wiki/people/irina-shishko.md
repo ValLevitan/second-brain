@@ -4,7 +4,7 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 33
+source-count: 34
 ---
 
 # Irina Shishko
@@ -62,8 +62,13 @@ Irina Shishko is JVL's **Vice Director of Engineering and Director of QA** (owne
 
 - On the [[wiki/meetings/2025-07-28-media-tax-credit-examiner-coaching.md|Media Tax Credit coaching call]] Irina Shishko ("Irina Shishkova") is named as the authority Lena/JVL **confirmed with** that the special land-based golden-frame interactive bonus was **never implemented in the online games** (designed and math'd, but never deployed). See [[wiki/topics/ontario-media-tax-credit.md]]. [[raw/media_tax_credit_team_coaching-july-28-2025.md]]
 
+## Nov 3 2025 — production-QC process (Georgia machine release)
+
+On the [[wiki/meetings/2025-11-03-machine-qc-checklist-release-form.md|Nov-3 QC meeting]] (with Val + [[wiki/people/genadi-peari.md|Genadi Peari]]) Irina took the production-QC/inspection angle on the loose-speaker defect — the physical verification that everything screwed-in is actually done, whether ports can be tested without devices, and how a visual sub-assembly inspection would have caught the loose speaker. She co-owns (with Genadi) the undertaking to compile the list of missing QC steps/documents/tools by process stage. Consistent with her engineering-management / QA role. See [[wiki/topics/slot-machine-production-test-procedure.md]] (Nov-3). [[raw/Machine Quality Control Checklist and a Release form.md]]
+
 ## Sources
 
+- [[raw/Machine Quality Control Checklist and a Release form.md]]
 - [[raw/media_tax_credit_team_coaching-july-28-2025.md]]
 - [[raw/alignment-planning-catch-up.md]]
 - [[raw/flex_tower_spacial_design_review-may-1-2025.md]]

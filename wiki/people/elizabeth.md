@@ -3,7 +3,7 @@ type: person
 title: Elizabeth
 date: 2025-04-28
 aliases: [Elizabeth]
-source-count: 4
+source-count: 5
 disambiguation: "JVL engineering technician (full engineer by degree) handling Georgia service/parts; ex-Colombian-operation technician; Spanish-speaking. Distinct from Eliana, the Colombian EDS principal (wiki/people/eliana.md). Surname not stated in the source."
 ---
 
@@ -25,8 +25,13 @@ When JVL decided to move manufacturing/assembly from Canada to Georgia ([[wiki/d
 
 On the Val↔[[wiki/people/genadi-peari.md|Genadi]] electro-mechanical alignment ([[wiki/meetings/2025-09-22-electro-mechanical-alignment-genadi.md]]), Genadi is onboarding Elizabeth onto the **service/reference material for the South Dakota machines** (10 machines, sealing/labeling tasks). Her hurdle is **English**, so she follows the technical group via the team chat with instant translation, and Genadi will screen-share and walk her (and [[wiki/people/albertini.md|Albertini]]) through the material. Val coached Genadi that she isn't ignoring him — she processes and asks only when she has a real question. [[raw/alignment_elctro-mechanical-september-22-2025.md]]
 
+## Nov 3 2025 — preparing to assemble 100 machines in Georgia
+
+Discussed (not present) on the [[wiki/meetings/2025-11-03-machine-qc-checklist-release-form.md|Nov-3 QC meeting]]: Elizabeth is **preparing to assemble 100 machines** in Georgia. Val praised her as a degreed engineer who treats the work as a career and does it seriously; she had personally checked the ~10 machines shipped to one location, but JVL's lack of a final whole-machine QC step let the hidden loose-speaker defect through. [[wiki/people/genadi-peari.md|Genadi]] is to travel to Georgia ~2 weeks to work hands-on with her on the problem sub-assemblies and set up a proper QC/release process. See [[wiki/topics/slot-machine-production-test-procedure.md]] (Nov-3). [[raw/Machine Quality Control Checklist and a Release form.md]]
+
 ## Sources
 
+- [[raw/Machine Quality Control Checklist and a Release form.md]]
 - [[raw/alignment_elctro-mechanical-september-22-2025.md]]
 - [[raw/business_central_update-apr-28-2025.md]]
 - [[raw/procurement_relocation-june-24-2025.md]]
