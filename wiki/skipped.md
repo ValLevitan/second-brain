@@ -48,3 +48,6 @@ Format: `raw/<skipped file>` — source of record `raw/<cited fuller file>` — 
 
 ### Batch 76
 - `raw/echo_distribution_marketing-september-17-2025.md` — NO SoR (failed transcription) — 1,111-char stub of repeated "室温" (Chinese "room temperature") auto-caption garbage; zero durable content (§12 stub rule). The Sept-17 ECHO update is lost to failed transcription (Sept-15/16/26 ECHO updates are intact). (Batch 76.)
+
+### Out-of-scope exclusions (non-JVL content — not ingested, not a §12 dup)
+- `raw/koenigsegg_regera-verbal_orgasm-may-21-2025.md` — **OUT OF SCOPE (not a JVL meeting).** A YouTube-style narration/review of the Koenigsegg Regera hypercar ("…a bunch of Swedish engineers… 1,500 horsepower"), mis-filed into the May-2025 transcripts folder. Not a JVL business meeting, not §15.8-sensitive — simply off-topic per §1 scope. Excluded (recorded here so the pending-sweep and full-year no-file-loss audit don't re-flag it). Found in the 2025-complete full-year sweep, 2026-07-20.
