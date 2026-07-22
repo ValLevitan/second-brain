@@ -3,7 +3,7 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, posting setup, AI naming convention]
-source-count: 10
+source-count: 11
 open-questions: 2
 ---
 
@@ -131,6 +131,16 @@ A [[wiki/people/lev-rudky.md|Lev]] / [[wiki/people/alka-sood.md|Alka]] / [[wiki/
 
 No §15.8 material — banking/process/role economics only, no per-person compensation. ("Mikkel" the buyer is named only by first name and left un-matched — possibly the procurement manager [[wiki/people/mikhail-perelman.md|Mikhail Perelman]], but not force-matched.)
 
+## Nov 17 2025 — freezing Navision + the new Labs approach (copy Systems, adapt to Canada, run in parallel)
+
+The [[wiki/meetings/2025-11-17-phasing-out-navision-continued.md|Nov-17 "Phasing out Navision (continued)" call]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/lev-rudky.md|Lev Rudky]], [[wiki/people/mikhail-perelman.md|Mikhail Perelman]], released early) works the execution of the Navision→BC migration the [[wiki/topics/jvl-finance-back-office.md|Nov-4 finance call]] made the priority — and lands on a materially simpler approach for JVL Labs than the from-scratch build discussed since April. [[raw/Phasing out Navision continued.md]]
+
+- **Close the open Navision items by brute force.** Old open purchase orders / invoices in Navision are to be **closed mechanically under the assumption everything was received and paid**, ignoring small discrepancies. Val explicitly does not want the "paid" step to trigger an accounting investigation of *how* each was paid ("that would drag on for months"); Lev agreed but insisted the close-out needs someone who understands the finances, since credit/debit nuances surface. [[raw/Phasing out Navision continued.md]]
+- **Orders carried into BC were duplicated, not migrated — delete them soon.** Some still-open J-Labs orders were copied into Business Central (a copy also sits in an archive) but **not yet deleted in Navision** — delete them quickly, "while Misha still remembers what they are," to avoid duplicates. ~70 open orders exist, some back to ~2017; Lev to produce the full list (posted to SharePoint) so Val can **freeze/"conserve" Navision fully closed**, subject to Lev's caution that a clean freeze may require **passing an audit first** (yearly/monthly periods must reconcile; no inventory appearing from nowhere). [[raw/Phasing out Navision continued.md]]
+- **New Labs-on-BC approach: copy the JVL Systems chart of accounts, adapt to Canada, run in parallel.** Rather than build Labs from scratch, Val proposed **copying the Systems chart of accounts** and adapting only the **general ledger and the Canadian tax side** (Systems is built on US principles — drop some accounts, add others, switch currencies to Canadian), then **running Navision and BC in parallel from Jan 1**. Navision then "fades fast — each month less and less, and within half a year we won't return to it," leaving only how to close it cleanly. Both agreed this beats the original from-scratch plan. Lev's caveat: it is **not a straight copy** — vendor/customer cards carry accounting-classification fields that must reconcile with the **posting setup**, and some steps were originally [[wiki/people/daniel-eds.md|Daniel]]'s work (Val will not re-engage Daniel), so Lev "can do it but slowly." He'd **copy only the setup/definitions without transactions**, possibly using the **external BC consultant** (who was in the US last week, traveling home). [[raw/Phasing out Navision continued.md]]
+- **Who does the close-out.** [[wiki/people/alka-sood.md|Alka]] has Navision access but Lev doubts she knows it; he names **Cris** and **[[wiki/people/igor-donis.md|Igor]]** ("for sure") as capable, and **Erica** (Mexico accountant, still has Navision access). The daily-BC accountants — **Laura** (Colombia), **Cris**, **Igor** (Mexico, AP/error control) — are already trained, so copying the Systems chart won't raise their workload much (Mary and Elizabeth are *not* accountants). Timing pressure: do it **before Jan 1**, with Val referencing **Alka's availability ending ~Feb 28** (transcribed, garbled). Val asked whether **[[wiki/people/anatol-strekalov.md|Anatol]]** could take the close-out himself; Lev needs a day, later said Anatol is needed. Follow-up Wednesday at 12. [[raw/Phasing out Navision continued.md]]
+- **§15.8:** clear — ERP-migration/chart-of-accounts/order economics only; no compensation. [[raw/Phasing out Navision continued.md]]
+
 ## Sources
 
 - [[raw/business_central_implementation_update-apr-17-2025.md]]
@@ -143,3 +153,4 @@ No §15.8 material — banking/process/role economics only, no per-person compen
 - [[raw/finance_amazon_sales-june-11-2025.md]]
 - [[raw/finance_gl_accounts_structure-june-17-2025.md]]
 - [[raw/Finance_Operations_Banking_Procedures-september-2-2025.md]]
+- [[raw/Phasing out Navision continued.md]]

@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena]
-source-count: 48
+source-count: 50
 ---
 
 # Genadi Peari
@@ -155,8 +155,14 @@ On the [[wiki/meetings/2025-11-03-machine-qc-checklist-release-form.md|Nov-3 QC 
 
 On the Nov-11 POS + FlexPort schedule review ([[wiki/meetings/2025-11-11-pos-flexport-schedule-review-board-update.md]]) Genadi reported **plastic ordered and tooling in progress** for the Flex Sport board, all on plan, and **metal brackets** (all cabinets) expected around **Dec 1**. In Part 2 he was visibly worn down chasing ~50 Alibaba board suppliers who won't support JVL's screens/Ubuntu/Debian (or push Android), and offered to forward Pavel all the Chinese email threads — but he backed the supplier-agnostic **application-only update** approach (build it once, adopt any Rockchip board in a couple of hours) as the way for JVL to stay "flexible." Substance on [[wiki/decisions/2025-05-26-arm-linux-platform-flex-devices.md]] (Nov-11) and [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Nov-11). [[raw/POS_and_PORT-schedule_review.md]]
 
+## Nov 19 2025 — digital-amplifier standalone device + POS audio design requirements
+
+On a brief Val↔Genadi one-on-one ([[wiki/meetings/2025-11-19-genadi-audio-amplifier-standalone-pos-design-requirements.md]]; two recording segments 8:40 PM + 8:44 PM, ~7½ min total, Russian) Genadi restated that the **digital audio amplifier** must be broken out of the framework into a **standalone, hot-pluggable USB device**: today it is wired into the framework, so if it disconnects "the whole game falls" — as a standalone device the system must not crash, must return a defined error, and must re-attach on the fly. A serious cabinet needs a digital amplifier for adequate sound; ties to the move to the **Flex model's new speaker design** (3-way, no old grille). [[raw/Call_Genadi-November-19-2025-1.md]] For the POS/dispenser devices Val listed the audio components to fold into the requirements (speaker, an audio hub that can transmit, a monitor switch) and explained his design philosophy — **specify the building blocks and hand the graphics/UX to the professionals** rather than dictate it (the one constraint he imposes: place the speaker so nothing can be spilled on it). Genadi to add the feature to the design; Val recording and forwarding it. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/Call_Genadi-November-19-2025-2.md]]
+
 ## Sources
 
+- [[raw/Call_Genadi-November-19-2025-1.md]]
+- [[raw/Call_Genadi-November-19-2025-2.md]]
 - [[raw/POS_and_PORT-schedule_review.md]]
 - [[raw/Machine Quality Control Checklist and a Release form.md]]
 - [[raw/alignment_elctro-mechanical-september-22-2025.md]]
