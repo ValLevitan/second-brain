@@ -3,7 +3,7 @@ type: decision
 title: Adopt a cheap ARM-based embedded-Linux board (Rockchip RK) for Flex Tower / Flex POS / TITO server
 date: 2025-05-26
 aliases: [ARM board, Rockchip, RK3568, RK board, ARM Linux platform, embedded Linux board, industrial ARM board, LVDS adapter]
-source-count: 3
+source-count: 4
 status: active
 ---
 
@@ -43,6 +43,14 @@ A June-4 architecture call ([[wiki/meetings/2025-06-04-flex-tower-flex-pos-platf
 - **Design frame — this is a financial system, not a gaming machine.** It must be **redundant, hot-swappable and modular**: one financial system per location, so if it fails every machine at that location stops until service. Service must take **minutes**, done by a non-technical **store owner / attendant** (no technician driving across Nebraska/Texas), by shipping a redundant module by courier and swapping it; a scanned new module must auto-rebind to the location in the CMS. Swappable modules is a top **design requirement**. [[raw/flex-tower_flex-POS_foundational-decision_architecture-june-4-2025.md]]
 - **Next steps set.** Order **2–3 boards to Minsk and a couple to Toronto** immediately (Toronto arrives faster — "во вторник" vs a month to Minsk), with the FlexPort-integration engineer bringing up the vendor's **Ubuntu (18.04)** board-support image in Toronto; then write a **capabilities list** for all the products, build the overall **business architecture**, then per-device architecture, in parallel with **user-experience meetings** for each device (Val to facilitate; invite [[wiki/people/igor-nazarenka.md|Igor]] and possibly [[wiki/people/dmitri-chudinov.md|Dima Chudinov]] — if Dima is not needed the UX meeting can run in English). Target: both products **on-site testing by October**. [[raw/flex-tower_flex-POS_foundational-decision_architecture-june-4-2025.md]]
 
+## Nov 5 2025 — production board is the Chinese Rockchip; software-update procedure defined
+
+By November the platform is settled on the **Chinese Rockchip ARM board** in production, and the open question became **how to update the JVL software in the field**. On the Nov-5 requirements call ([[wiki/meetings/2025-11-05-arm-board-manufacturer-software-update-requirements.md]]; Val, [[wiki/people/genadi-peari.md|Genadi Peari]], [[wiki/people/pavel.md|Pavel Frolov]]):
+
+- **Update Linux never; update only JVL software.** Rather than the board's full re-flash (USB cable + power-on button, or SD card), rework the **eMMC partitions** so a dedicated partition holds the JVL application, and add a **boot-time script** that pulls a firmware file off a USB stick and writes it at a fixed offset. [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] to build it. [[raw/Requirements_ARM_board_manufacturer-november-5-2025.md]]
+- **Demand full deliverables from the manufacturer** — documentation, the complete source/file-structure repository, and an initial two-monitor-capable boot image — so JVL can rebuild the image itself. [[raw/Requirements_ARM_board_manufacturer-november-5-2025.md]]
+- **Own-board (STM) evolution deferred.** Building JVL's own board off an **STMicroelectronics** evaluation board is a **~3-month project at best** (and only if STM has a two-screen-capable chip, unknown), whereas JVL must ship a machine to a location soon — so it **stays with the Rockchip board** and defers any own-board evolution; STM's real **support** was noted as the reason it would be attractive later. [[raw/Requirements_ARM_board_manufacturer-november-5-2025.md]]
+
 ## Status
 
 Active as of 2025-05-26, **reconfirmed June 4 2025** (Linux chosen on the formal pros/cons). Val wanted to **close it at a 7 am meeting the next day** once Alekseev confirms the LVDS interface and the samples are validated ("надо проверить, запустить, посмотреть, как она надёжно работает"). Recorded as ruled with that validation contingency, not re-deferred. [[raw/hardware_selection_flex-tower_flex-pos-may-26-2025.md]]
@@ -52,3 +60,4 @@ Active as of 2025-05-26, **reconfirmed June 4 2025** (Linux chosen on the formal
 - [[raw/hardware_selection_flex-tower_flex-pos-may-26-2025.md]]
 - [[raw/selection_tech_stack_hardware-flex-pos_flex-tower_flex-tito-may-21-2025.md]]
 - [[raw/flex-tower_flex-POS_foundational-decision_architecture-june-4-2025.md]]
+- [[raw/Requirements_ARM_board_manufacturer-november-5-2025.md]]
