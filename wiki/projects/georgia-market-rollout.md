@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 29
+source-count: 31
 open-commitments: 3
 open-questions: 5
 ---
@@ -202,6 +202,15 @@ On the [[wiki/meetings/2025-08-22-gacoam-trade-show-recap.md|Aug-22 7:09 PM reca
 
 On the [[wiki/meetings/2025-09-18-games-concepts-markets-review.md|Sept-18 games/markets review]] ([[wiki/people/val-levitan.md|Val]] + [[wiki/people/juan-martinez.md|Juan]]): **MG Oil agreed higher bets** — min 40 credits on three games, 50 on the other three — deploying Monday via [[wiki/people/denis-desmarais.md|Dennis]] (new install file already sent). Performance so far: **average drop $2,700**, at 8% hold ≈ **$240–250/day**, ~**2.5× the state average**. Light & Wonder's **Ultimate Firelink** (a four-level bonus) is out; JVL counters with **Kaiocho** (its own four-level bonus). **Jackpot Rush Vertical (At-Any-Bet)** is "practically ready" and goes next to Eclipse for Georgia (not into game concept — already in production). Val wants the **home-screen icons restyled** (thinner or no border, larger icons, closer to Light & Wonder / Aristocrat) so players stop recognizing a JVL game "at a distance" — applied to Kaiocho and JPRE and any new game. Juan to keep an optional one-/three-/five-line game submitted-and-approved "in his back pocket" (Val indifferent). The **POS January rollout** gives Juan a product (not sales) pitch when he sits with operators from November. [[raw/review_games_concepts_markets-september-18,2025.md]]
 
+## Nov 20 2025 — depart from Peach: vertical liquid-glass multi-game (6+5+6, 12 enabled, 3 progressives)
+
+On the [[wiki/meetings/2025-11-20-games-development-review-georgia-liquid-glass-multi-game.md|Nov-20 games review]] (Val, [[wiki/people/michael-gottlieb.md|Michael Gottlieb]], [[wiki/people/juan-martinez.md|Juan]], [[wiki/people/lena.md|Lena]], [[wiki/people/efim-podvoiski.md|Efim]], with [[wiki/people/felipe-miranda.md|Felipe]]), Felipe argued the 5 **Jackpot Rush** titles all feel the same (25-line, center-reel-nudge) and Georgia players want variety in reel format / line count / features (Aristocrat & Light & Wonder mix 1-line up to 1024-ways; the popular Mo Money is a **one-line** game there). Resolved: build a **vertical liquid-glass multi-game** combining **6 Peach/lines-and-ways + 5 Jackpot Rush + 6 Fiery Ice Link** titles as **three categories, each with its own independent progressive**; **submit all, enable 12 on screen**, operators toggling via **RIS** to cut Eclipse submission cost. Juan to write the REQ and adjust Jira; Val corrected it to **concept stage**. [[raw/Games_development_review (1).md]]
+
+- **Retire the "Peach" brand and drop the Georgia Lottery logo** — use the liquid-glass launch as the clean break; new theme to be neutral / "aspirational wealth," explicitly not Georgia-native/historical (players largely Hispanic / African-American / South American), and repurposable in Colombia. Theme TBD. [[raw/Games_development_review (1).md]]
+- **Val's pricing angle:** enable all games and **raise the price ~$2,000**, framed on the tariff increases buyers expect this year; start with vertical, then revisit dual-screen. [[raw/Games_development_review (1).md]]
+- **Market math driving it:** ~**35,000 machines / ~6,500 locations** (~5.5/location) with 5–6 brands now (IGT, L&W, Aristocrat, JVL, Novomatic, newly Konami); JVL now targets **one machine per location**, so a larger per-machine library matters — tempered by the "arms race" and "paradox of choice" risk (12 is "aplenty"). [[raw/Games_development_review (1).md]]
+- **Nebraska essentially licensed** (approval draft letter received; one affidavit left; ~Dec-1 selling target), and **South Dakota** is JVL's #1 win-per-unit market on only 6 games, with a proposed 7-game South Dakota slate. See the meeting stub. [[raw/Games_development_review.md]]
+
 ## Open commitments
 
 - [x] Vlad (Vladislav Gurin) — produce a **block diagram of every JVL meter** (maximum set, proper names, used or not) for the Tuesday-11am follow-up (~June 17), so the team can agree which meter increments in the key-to-meter case — **discharged June 17** (Vlad presented the ~300-meter table; tests 1 & 2 passed) — [[raw/jp_meters-june-12-2025.md]] [[raw/Metering_class_3-june-17-2025.md]]
@@ -250,3 +259,5 @@ On the [[wiki/meetings/2025-09-18-games-concepts-markets-review.md|Sept-18 games
 - [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
 - [[raw/GACOAM_trade_show_recap.md]]
 - [[raw/review_games_concepts_markets-september-18,2025.md]]
+- [[raw/Games_development_review.md]]
+- [[raw/Games_development_review (1).md]]

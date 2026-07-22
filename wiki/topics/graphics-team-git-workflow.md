@@ -3,7 +3,7 @@ type: topic
 title: Graphics team Git workflow (PR discipline, CI tickets, deploy pipeline)
 date: 2025-03-12
 aliases: [designer git workflow, graphics PR discipline, pull request discipline, contact sheet action, assets deploy pipeline, fork from template, help desk CI tickets, performative pull request, pull request back to template, template per game type]
-source-count: 10
+source-count: 11
 ---
 
 # Graphics team Git workflow (PR discipline, CI tickets, deploy pipeline)
@@ -100,6 +100,15 @@ An Omni feature-branch redistribution review ([[wiki/meetings/2025-06-03-omni-fe
 - **A design-only feature-branch is untestable → fold the designer into Core Dev.** Because feature **AA4807** held only Dima's resources (nothing to test against), [[wiki/people/val-levitan.md|Val]] ruled to destroy it and move the stories under [[wiki/people/alexander-biratka.md|Sasha]]'s testable code feature — "practically we took Dima as a graphic designer and moved him into the Core-Development team," reporting under Sasha. This enacts the standing plan (Mar-24/Apr-17) to move Dima Khandov from design to core technology. [[raw/Omni_redistribution_feature_branches-june-3-2025.md]]
 - **Commit for everything; stop the side-channel hand-offs.** Val's coaching restated the PR/commit discipline this page tracks: **make a commit for every piece of work you do**, and — pointedly to Dima — **stop coordinating through "signals, blinks, biotoks, sign-language"** between people; put the work in the **feature-branch** where the whole department (who treat Dima as the standard) can see it and learn the same practice. [[raw/Omni_redistribution_feature_branches-june-3-2025.md]]
 
+## Nov 20 2025 — refine Git for artists, don't roll back; reduce the interaction surface
+
+On the [[wiki/meetings/2025-11-20-github-for-graphic-design-team-git-lfs.md|Nov-20 "GitHub for graphic design team" session]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/aaron.md|Aaron]], the design generalist [[wiki/people/sergey-kleimenychev.md|Sergey Kleimenychev]], and [[wiki/people/andrey-bosik.md|Andrei Bosik]]), Sergey — who had complained Git/LFS is a poor fit for artists — conceded the **decision won't be rolled back** (GitHub was chosen for the company, not the designers; "learn the tool or cannot work for JVL," per Val). The work agreed is to **refine usage**: [[raw/application of GitHub for graphic design team.md]]
+
+- **Reduce the artist interaction surface** — clone/pull/push at a button press via onboarding scripts + aliases so nobody hand-manages `git lfs install` (a miss leaves blob pointers, not blobs); document the **stash + LFS** pitfall. [[raw/application of GitHub for graphic design team.md]]
+- **Squash merges** to keep history tidy and let old big blobs be pruned (daily renders ~1 GB/person/day); Sergey noted LFS only pulls the current commit (his original worry that a pull fetches every blob was wrong). [[raw/application of GitHub for graphic design team.md]]
+- **Aaron's tooling + no-crutches line:** prefer **GitHub Desktop** over VS Code for artists; Andrei to add commit hooks/blocks and LFS-usage **monitoring dashboards** plus scheduled cleanup — but artists must still learn Git, not just lean on scripts ("do not let them be lazy"). [[raw/application of GitHub for graphic design team.md]]
+- **Ownership:** Sergey took the simplified artist Git-flow as a "product" (with Andrei); Val bought no new tools — "setting up existing tools," and asked to be CC'd on the design work. Art committers number ~5. [[raw/application of GitHub for graphic design team.md]]
+
 ## Sources
 
 - [[raw/GitHub repository structure.md]]
@@ -112,3 +121,4 @@ An Omni feature-branch redistribution review ([[wiki/meetings/2025-06-03-omni-fe
 - [[raw/miranda_organization_github-may-6-2025.md]]
 - [[raw/github_branch_structure-may-19-2025.md]]
 - [[raw/Omni_redistribution_feature_branches-june-3-2025.md]]
+- [[raw/application of GitHub for graphic design team.md]]

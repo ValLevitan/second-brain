@@ -3,7 +3,7 @@ type: decision
 title: Adopt a cheap ARM-based embedded-Linux board (Rockchip RK) for Flex Tower / Flex POS / TITO server
 date: 2025-05-26
 aliases: [ARM board, Rockchip, RK3568, RK board, ARM Linux platform, embedded Linux board, industrial ARM board, LVDS adapter]
-source-count: 7
+source-count: 8
 status: active
 ---
 
@@ -69,6 +69,12 @@ The next-morning meeting Val set on Nov-11 happened on Nov-12 ([[wiki/meetings/2
 - **Board bring-up is the gating work.** To customise the image (bootloader config, boot screen, device tree) JVL needs the manufacturer's **sources**, but the Chinese suppliers hand over only binaries — not the **device-tree** ("девайс три") source or the bootloader config. The plan: build a standard Linux image with **Buildroot** or **Yocto** (or a single-script GitHub-repo build) and boot it on the RK3568 board to prove the path — the build itself is ~a couple of days, but standing up the full Minsk-style **build infrastructure / custom board-support package** on GitHub was sized at ~**4 weeks**. Alekseev owns this; Alekseev's read is the peripheral addressing is essentially identical across these Rockchip boards, so the effort is learning the build, not the chip. Pavel will **compare device-tree dumps** from JVL's two boards against the Rockchip reference eval board to see how far the custom boards diverge from the reference design. [[raw/Flex-Port_software_update_procedure_review.md]]
 - **Questions formalised for the supplier (segment B, after Alekseev left).** Ask the Chinese for the **device-tree source**, the **bootloader (u-boot) revision + its config file**, and **which build system** they use (Buildroot / Yocto / proprietary) — proprietary means dropping that supplier; sharing their **GitHub repo** that builds the shipped binary confirms them. Genadi has already asked for the repo and not received it; Val expects they will share once JVL is a real ordering customer. The Chinese had earlier offered to do the bootloader customisation for **~$2,000**. Own-board / STM evolution remains deferred, as on Nov-5/11. [[raw/Flex-Port_hardware_suppliers_requirements.md]] [[raw/Flex-Port_software_update_procedure_review.md]]
 
+## Nov 20 2025 — Aaron demonstrates a working build; converge on the "blue" board
+
+On the [[wiki/meetings/2025-11-20-aaron-board-bringup-rockchip.md|Nov-20 board bring-up session]] ([[wiki/people/aaron.md|Aaron Bockelie]], [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/genadi-peari.md|Genadi Peari]], Val), Aaron screen-shared an already-working bring-up: **Buildroot** distro, his own **U-Boot** built from source (so JVL owns the whole boot chain), the board's **DTB decompiled/extracted**, and the **Rockchip 6.6 BSP kernel** (pulled from Rockchip's official tree) chosen after mainline Linux failed to map the network DTB. Builds run reproducibly inside an **Ubuntu 22.04 Docker container** (matching GitHub's runner) with GitHub Actions targets and a local-release/release split. His repo is structured to evaluate **multiple candidate boards** from one build system. [[raw/Aaron + Val (1).md]]
+
+- **Converge on the blue board.** Pavel has the vendor's **original DTS/DTSI** for the second ("blue") board and had filed the official **Rockchip SDK request**, so the blue board is preferable/easier. Aaron will keep trying to get Ethernet + the extracted DTB working on the smaller board and switch to the blue board if problems persist; Genadi to finalise the model, order more boards, and prep harnesses/displays. Goal restated: eventually **no Chinese dependency** — JVL builds its own image from sources. USB boot is only a partial boot (~99%), so JVL stays with **SD/TF card** for full updates plus a JVL-application partition. This advances the Nov-12 bring-up path (Buildroot/Yocto image proof) from a plan to a demonstrated build. [[raw/Aaron + Val (1).md]]
+
 ## Status
 
 Active as of 2025-05-26, **reconfirmed June 4 2025** (Linux chosen on the formal pros/cons). Val wanted to **close it at a 7 am meeting the next day** once Alekseev confirms the LVDS interface and the samples are validated ("надо проверить, запустить, посмотреть, как она надёжно работает"). Recorded as ruled with that validation contingency, not re-deferred. [[raw/hardware_selection_flex-tower_flex-pos-may-26-2025.md]]
@@ -82,3 +88,4 @@ Active as of 2025-05-26, **reconfirmed June 4 2025** (Linux chosen on the formal
 - [[raw/POS_and_PORT-schedule_review.md]]
 - [[raw/Flex-Port_software_update_procedure_review.md]]
 - [[raw/Flex-Port_hardware_suppliers_requirements.md]]
+- [[raw/Aaron + Val (1).md]]
