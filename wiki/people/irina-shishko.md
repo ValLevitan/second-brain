@@ -4,7 +4,7 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 36
+source-count: 37
 open-commitments: 1
 ---
 
@@ -71,12 +71,17 @@ On the [[wiki/meetings/2025-11-03-machine-qc-checklist-release-form.md|Nov-3 QC 
 
 Across the three ~7 AM ACH-module spec-review sessions Irina is the QA/test-engineering voice (with QA engineer [[wiki/people/alexei-khamin.md|Alexei Khamin]]): she pressed how invoice state changes would be tested, how test data (accounts/locations/cards) would be generated, and the need for a **state-machine diagram** so QA can point to a state and emulate it. On Nov-5 she and Alexei were asked to specify the **testing-hook requirements** for verifying invoice state transitions. Consistent with her Director-of-QA role. Substance on [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Nov 5–10 ACH-spec arc). [[raw/Payment HUB_ACH module specification_05.11.25 .md]] [[raw/Payment HUB_ACH module specification_10.11.25.md]]
 
+## Nov 11 2025 — graphics-specification for automated testing
+
+On the Nov-11 graphics-spec call (with Val + [[wiki/people/pavel.md|Pavel Frolov]]) Irina drove the QA angle: to test a game's on-screen layout automatically she needs each component's **coordinates, size and label** plus a **reference ("эталон") screenshot** to pixel-compare against — the information the art team ([[wiki/people/lena.md|Lena]]) has not been delivering in a usable form. She and Pavel worked out that the reference will come from [[wiki/people/dmitriy-khandov.md|Dima Khandov]]'s **Miranda scene-manifest export**, and that each manifest must be verified once against a correct game before it becomes the regression reference. Consistent with her Director-of-QA role. See [[wiki/topics/game-art-animation-production-pipeline.md]] (Nov-11). [[raw/Specs_graphics.md]]
+
 ## Open commitments
 
 - [ ] Irina Shishko (with Alexei Khamin) — specify the QA testing-hook requirements for verifying invoice state changes in the payment-hub ACH module — due unspecified — [[raw/Payment HUB_ACH module specification_05.11.25 .md]]
 
 ## Sources
 
+- [[raw/Specs_graphics.md]]
 - [[raw/Payment HUB_ACH module specification_05.11.25 .md]]
 - [[raw/Payment HUB_ACH module specification_10.11.25.md]]
 - [[raw/Machine Quality Control Checklist and a Release form.md]]

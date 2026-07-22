@@ -3,7 +3,7 @@ type: decision
 title: Adopt a cheap ARM-based embedded-Linux board (Rockchip RK) for Flex Tower / Flex POS / TITO server
 date: 2025-05-26
 aliases: [ARM board, Rockchip, RK3568, RK board, ARM Linux platform, embedded Linux board, industrial ARM board, LVDS adapter]
-source-count: 4
+source-count: 5
 status: active
 ---
 
@@ -51,6 +51,16 @@ By November the platform is settled on the **Chinese Rockchip ARM board** in pro
 - **Demand full deliverables from the manufacturer** — documentation, the complete source/file-structure repository, and an initial two-monitor-capable boot image — so JVL can rebuild the image itself. [[raw/Requirements_ARM_board_manufacturer-november-5-2025.md]]
 - **Own-board (STM) evolution deferred.** Building JVL's own board off an **STMicroelectronics** evaluation board is a **~3-month project at best** (and only if STM has a two-screen-capable chip, unknown), whereas JVL must ship a machine to a location soon — so it **stays with the Rockchip board** and defers any own-board evolution; STM's real **support** was noted as the reason it would be attractive later. [[raw/Requirements_ARM_board_manufacturer-november-5-2025.md]]
 
+## Nov 11 2025 — update mechanism settled; supplier debate re-opened; STM/NXP re-weighed and dropped
+
+On the Nov-11 POS + FlexPort schedule review ([[wiki/meetings/2025-11-11-pos-flexport-schedule-review-board-update.md]]; Val, [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]], [[wiki/people/eugine-yavorski.md|Eugine Yavorski]], [[wiki/people/genadi-peari.md|Genadi Peari]], 2h33m) the Nov-5 direction was pushed to a working conclusion, and the supplier question was re-argued at length.
+
+- **The update model, settled.** Two requirements: (1) support **SD-card boot** so a fresh full image (Linux + applications + bootloader) can be laid over the board; (2) for day-to-day updates, a **higher-level boot-time script** checks whether an inserted USB stick carries a newer version and, if so, replaces **only the JVL application programs** (Java, browser, database, scripts) held on a **dedicated writable eMMC partition** — Linux is mounted **read-only** and never touched. [[raw/POS_and_PORT-schedule_review.md]]
+- **Application update = the priority; USB and remote are the same manoeuvre.** [[wiki/people/pavel.md|Pavel]]'s framing: the highest-priority task for [[wiki/people/evgeniy-alekseev.md|Alekseev]] is to take the regular Linux image, insert the JVL software, and produce a writable image + a boot-time updater with a **backup/rollback** to the previous version if a flashed build fails to boot ("иначе… у нас кирпич" — otherwise a bricked terminal). Val insisted the product **must** support **remote/cloud update** — 1,000 locations, ~$30 per field shipment, gas-station clerks who cannot handle USB sticks make manual USB-per-location unrealistic — and was surprised to learn **FlexPay has no remote update today** (only **FlexPort** has remote update, still in progress, delivered onto FlexPay and pushed to Flex Sport over the **WSS** protocol). Resolution: same boot-time-script mechanism serves both USB and remote; remote-full-OS update stays out of scope (too risky). Val: keep it as an **MP/application** update built by Alekseev to avoid pulling **Dima or Sergei** off their FlexPos work. [[raw/POS_and_PORT-schedule_review.md]]
+- **Supplier debate re-opened (Rockchip vs dev-board vs own board).** [[wiki/people/genadi-peari.md|Genadi]] is worn down dealing with ~50 Alibaba suppliers who variously won't support the screens/Ubuntu/Debian or push Android. Options weighed: buy a **finished board** and negotiate the deliverables (one supplier's answer was "order 1,000 boards, then we'll give you what you ask" — opening a quantity/price negotiation); buy from **development-kit** vendors (full sources + support + GitHub repos, but no finished product — you build your own hardware platform); or an **SoC-on-module + cheap interface board** approach (module carries processor/memory/wifi/SSD, a cheap carrier adds the connectors — needs only ~3 USB, 1 Ethernet, 2 display interfaces). Building JVL's **own board** = layout ~1 month + manufacture ~2 weeks ≈ **~3 months stuck**. [[raw/POS_and_PORT-schedule_review.md]]
+- **Processor family comparison — Rockchip stays.** **Rockchip** on convenience + cost-efficiency is "hard to beat"; **STM (STMicroelectronics)** and **NXP i.MX** / **TI** Linux-capable families would run roughly **2× the cost** (the STM website was blocked for the team). Newer Rockchip parts noted: **RK3576** and **RK3588** (the latter AI-focused, with an NPU; the current part has a rudimentary NPU). Genadi's point that carried: once Alekseev builds the update structure once (~a week), it makes JVL **hardware-supplier-agnostic** — any Rockchip board can be adopted in "a couple of hours," so JVL is never locked to one manufacturer. The **own-board / STM evolution stays deferred** (as on Nov-5). [[raw/POS_and_PORT-schedule_review.md]]
+- **Dima Pikulev, again ruled out.** Genadi mused that [[wiki/people/dima-pikulev.md|Dima Pikulev]] used to do exactly this board bring-up work; Val: "history proved we can't use Dima Pikulev… we don't need him," the requirements on such a specialist are minimal and Alekseev/Pavel can do it. [[raw/POS_and_PORT-schedule_review.md]]
+
 ## Status
 
 Active as of 2025-05-26, **reconfirmed June 4 2025** (Linux chosen on the formal pros/cons). Val wanted to **close it at a 7 am meeting the next day** once Alekseev confirms the LVDS interface and the samples are validated ("надо проверить, запустить, посмотреть, как она надёжно работает"). Recorded as ruled with that validation contingency, not re-deferred. [[raw/hardware_selection_flex-tower_flex-pos-may-26-2025.md]]
@@ -61,3 +71,4 @@ Active as of 2025-05-26, **reconfirmed June 4 2025** (Linux chosen on the formal
 - [[raw/selection_tech_stack_hardware-flex-pos_flex-tower_flex-tito-may-21-2025.md]]
 - [[raw/flex-tower_flex-POS_foundational-decision_architecture-june-4-2025.md]]
 - [[raw/Requirements_ARM_board_manufacturer-november-5-2025.md]]
+- [[raw/POS_and_PORT-schedule_review.md]]

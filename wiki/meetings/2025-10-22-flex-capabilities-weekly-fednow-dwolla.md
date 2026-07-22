@@ -40,4 +40,3 @@ Durable points (single source):
 ## Sources
 
 - [[raw/Flex-POS_ACH_API_integration-october-21-2025.md]]
-</content>

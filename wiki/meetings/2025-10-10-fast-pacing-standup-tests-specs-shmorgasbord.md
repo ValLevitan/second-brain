@@ -45,5 +45,3 @@ Durable points:
 
 - [[raw/fast-pacing-stand-up meeting-october-10-2025.md]]
 - [[raw/fast-pacing-stand-up meeting-part-1-october-10-2025.md]]
-</content>
-</invoke>

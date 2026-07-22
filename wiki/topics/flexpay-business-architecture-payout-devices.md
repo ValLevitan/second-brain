@@ -3,8 +3,8 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS]
-source-count: 67
-open-commitments: 19
+source-count: 68
+open-commitments: 21
 open-questions: 4
 ---
 
@@ -528,8 +528,19 @@ A Val↔[[wiki/people/genadi-peari.md|Genadi]] one-on-one ([[wiki/meetings/2025-
 - **FlexPort board waits on the mechanical form.** Genadi wants to lock the FlexPort plastic/mechanical form first because **"Evgeny" will have to adjust the board file** (mount, size, perimeter lighting, scanner reach) — "we must be first, he comes after us." Per the updated §4 registry ruling, hardware-adjacent board work on Genadi's projects resolves to [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] (no fourth "Zhenya") — the board-file side of his FlexPort/interface-board work above. [[raw/alignment_elctro-mechanical-september-22-2025.md]]
 - **Warehouse consolidation.** Warehouse ~75% full, ~15–20% old Altera/Maple machines to move out; Val wants a cheap **overflow warehouse** ~1–2 hrs from the Atlanta house and **new proper packaging** (new labels/colour) so JVL-origin units don't mix with Felipe's American returns. Sequencing: clear the Canadian warehouse + clean Georgia first, reuse the freed shelving + lift in Georgia (buy a small local forklift), then set up overflow. Current ~$7.40/sq-ft vs a taller ~$13/sq-ft option — undecided. Genadi's rule: untouched 2 years → discard. [[raw/alignment_elctro-mechanical-september-22-2025.md]]
 
+## Nov 11 2025 — POS + FlexPort schedule review; the machine-startup blocker; Flex Sport board; field-update settled
+
+A 2h33m schedule-and-requirements working call ([[wiki/meetings/2025-11-11-pos-flexport-schedule-review-board-update.md]]; Val, [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]], [[wiki/people/eugine-yavorski.md|Eugine Yavorski]], [[wiki/people/genadi-peari.md|Genadi Peari]]) — [[wiki/people/pavel.md|Pavel]] drove the Jira/sketch board task-by-task, writing acceptance criteria in Gherkin ("given/when/then") form, which Val is deliberately teaching himself ("my textbook says…"). [[raw/POS_and_PORT-schedule_review.md]]
+
+- **Flex Sport = the new all-in-one board.** The current production hardware is now called **"Flex Sport"** — a new board "with everything included" (the earlier separate all-in-one). [[wiki/people/evgeniy-alekseev.md|Alekseev]] closed the **binary-file preparation utility** and the Flex Sport **production-release** task; the board has been **ordered**. [[wiki/people/eugine-yavorski.md|Yavorski]] confirmed **Flex Sport ↔ FlexPay money-compatibility works** at a basic level (deposit/withdraw), with continuous-run and negative-scenario testing still to finish. [[raw/POS_and_PORT-schedule_review.md]]
+- **The machine-startup blocker.** [[wiki/people/evgeniy-alekseev.md|Alekseev]] has been unable to start the machines for ~2 weeks — a back-and-forth with Minsk that never resolves. Val's ruling: this is not about brute-forcing it to run, it is *why* it doesn't start with "a light movement" — likely an architecture problem — and **[[wiki/people/pavel.md|Pavel]] must take it over**, gather the people and find the root cause. Alekseev had moved on to the next task (HFM-164: lockout / database / statistics-file logging) to avoid idling, but that testing is itself blocked on the startup problem. [[raw/POS_and_PORT-schedule_review.md]]
+- **Module/feature ownership walked (durable slice).** [[wiki/people/eugine-yavorski.md|Yavorski]] owns Flex Sport ↔ new-machine **compatibility** (money in/out), the **negative-scenario** suite, **log transfer Flex Sport → FlexPay** (a dedicated command over the **WSS** protocol), and the **firmware-over-the-air / high-speed-connection update** feature (load new firmware, verify, switch) — on a tight deadline. He is also preparing a **letter describing a protocol change**: a new command so FlexPay can **mark and hold the "stuck"/unclaimed money** Flex Sport hands over. [[wiki/people/evgeniy-alekseev.md|Alekseev]] owns the USB blob-file decode utility, the board-update mechanism, and the machine bring-up. [[wiki/people/genadi-peari.md|Genadi]] reported **plastic ordered / tooling in progress** for Flex Sport, and **metal brackets** (all cabinets) expected around **Dec 1**. [[raw/POS_and_PORT-schedule_review.md]]
+- **Field-update model settled (cross-ref).** The long Part-2 debate — update only the JVL application (not Linux) via a boot-time script, working the same for USB and remote; Rockchip stays; STM/NXP re-weighed and dropped; Dima Pikulev ruled out again — is captured on [[wiki/decisions/2025-05-26-arm-linux-platform-flex-devices.md]] (Nov-11 section). Key business point recorded here: **FlexPay has no remote/cloud update today** (only FlexPort's is in progress), yet Val considers remote update mandatory given ~1,000 locations, ~$30/shipment, and non-technical gas-station staff — so remote update must be built into the FlexPay/Flex Sport spec. [[raw/POS_and_PORT-schedule_review.md]]
+
 ## Open commitments
 
+- [ ] Eugine Yavorski — send the letter describing the FlexPay protocol change (new command to mark/hold Flex Sport's "stuck"/unclaimed money) — due next day — [[raw/POS_and_PORT-schedule_review.md]]
+- [ ] Pavel Frolov — own the machine-startup blocker: organise the people and find the root cause of why the Flex machines won't start easily (not just make one run) — due unspecified — [[raw/POS_and_PORT-schedule_review.md]]
 - [ ] Pavel Frolov — prepare updated schematics/diagrams of the current CMS implementation (locate/export the prior Miro-board artifacts) for the next block-diagram session; assess creating a new design from scratch aligned to the new architecture — due by the next arc session (~Aug 22) — [[raw/CMS- Block Diagram_Arch.md]]
 - [ ] Genadi Peari — ask the China board supplier to swap the second monitor's HDMI-micro connector for a more industrial (shielded/latching) connector; hold a follow-up with Alekseev on the one-board question and LVDS dual-mode — due ~mid-Sept 2025 — [[raw/POS_spatial_planning-september-9-2025.md]]
 - [ ] Pavel Frolov — run the printer-dump **spike**: connect a real Mother Goose printer, dump all ticket data (power-up, ticket-printed, last-25-vouchers, daily/bookkeeping events) into the POS device for developers — due ~mid-Jul 2025 ("half a day") — [[raw/Flex-POS Iteration Planning 2025-07-14.md]] [[raw/Flex-POS_Mid-Iteration_Sync-2025-07-23.md]]
@@ -627,3 +638,4 @@ A Val↔[[wiki/people/genadi-peari.md|Genadi]] one-on-one ([[wiki/meetings/2025-
 - [[raw/Flex-POS-alignment-scheduling-september-15-2025.md]]
 - [[raw/flex-port_alignmen-september-17-2025.md]]
 - [[raw/alignment_elctro-mechanical-september-22-2025.md]]
+- [[raw/POS_and_PORT-schedule_review.md]]

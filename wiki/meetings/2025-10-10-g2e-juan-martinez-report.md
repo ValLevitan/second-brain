@@ -21,4 +21,3 @@ open-questions: 0
 ## Sources
 
 - [[raw/G2E_juan_martinez_report-october-10-2025.md]]
-</content>

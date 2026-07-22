@@ -43,4 +43,3 @@ Durable decisions & points (single source):
 ## Sources
 
 - [[raw/Game_Development_Review-november-06-2025.md]]
-</content>

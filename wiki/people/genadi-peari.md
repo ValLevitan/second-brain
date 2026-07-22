@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena]
-source-count: 47
+source-count: 48
 ---
 
 # Genadi Peari
@@ -151,8 +151,13 @@ Substance on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Se
 
 On the [[wiki/meetings/2025-11-03-machine-qc-checklist-release-form.md|Nov-3 QC meeting]] (with Val + [[wiki/people/irina-shishko.md|Irina Shishko]]) Genadi diagnosed the gap behind the loose-speaker defect on the Georgia-shipped machines: sub-assembly build instructions all exist on the server, but there is **no final whole-machine checkup instruction** — and no diagnostic/loopback tool for the new **4-port (2 SAS + printer + extra)** set. He proposed reviving a **per-machine QC checklist / release form** that travels with each machine (each item signed), and undertook to (with Irina) compile the list of missing steps/documents/tools by process stage and to **travel to Georgia ~2 weeks** (late Nov / early Dec, after the ~Dec-20 release tuning) to work hands-on with [[wiki/people/elizabeth.md|Elizabeth]] on the problem sub-assemblies — crossing the border as a tourist (no laptop/tools). Substance on [[wiki/topics/slot-machine-production-test-procedure.md]] (Nov-3). [[raw/Machine Quality Control Checklist and a Release form.md]]
 
+## Nov 11 2025 — Flex Sport tooling; worn down by the board suppliers
+
+On the Nov-11 POS + FlexPort schedule review ([[wiki/meetings/2025-11-11-pos-flexport-schedule-review-board-update.md]]) Genadi reported **plastic ordered and tooling in progress** for the Flex Sport board, all on plan, and **metal brackets** (all cabinets) expected around **Dec 1**. In Part 2 he was visibly worn down chasing ~50 Alibaba board suppliers who won't support JVL's screens/Ubuntu/Debian (or push Android), and offered to forward Pavel all the Chinese email threads — but he backed the supplier-agnostic **application-only update** approach (build it once, adopt any Rockchip board in a couple of hours) as the way for JVL to stay "flexible." Substance on [[wiki/decisions/2025-05-26-arm-linux-platform-flex-devices.md]] (Nov-11) and [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Nov-11). [[raw/POS_and_PORT-schedule_review.md]]
+
 ## Sources
 
+- [[raw/POS_and_PORT-schedule_review.md]]
 - [[raw/Machine Quality Control Checklist and a Release form.md]]
 - [[raw/alignment_elctro-mechanical-september-22-2025.md]]
 - [[raw/flex_dispenser-review.md]]

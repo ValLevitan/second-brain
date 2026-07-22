@@ -3,8 +3,8 @@ type: topic
 title: Game production throughput strategy (Val's "much faster" push)
 date: 2025-03-12
 aliases: [developing games faster, production throughput, game a month, game a week, parallel tracks, disjoint animation, zero to GLI, production time, scaling game output]
-open-questions: 1
-source-count: 4
+open-questions: 2
+source-count: 5
 ---
 
 # Game production throughput strategy (Val's "much faster" push)
@@ -60,9 +60,21 @@ The parallel-track idea predates the Mar 12 Gottlieb call: on the Feb 10 GitHub-
 - On the Apr-17 game-development conversation ([[wiki/meetings/2025-04-17-game-development-omni-port-strategy.md]]) Val added a **management caution** to the speed push: don't chase perfection at the cost of exhausting people — "sometimes companies get exhausted from perfection… in this business it's very dangerous to exhaust people, then you're gonna lose them." He puts a hard deadline on the Calle-Ocho→Omni port (accepting throw-away work), offering a **contractor** as the escape valve ("hire a contractor… I don't mind paying") so the team isn't in overdrive for months. Michael backed the ship-imperfect-now stance with the **Sega Dreamcast 1995** precedent (shipped on one of two SH-2 processors, added the second later). [[raw/game_development_update-apr-17-2025.md]]
 - On the Apr-18 Miro estimation call ([[wiki/meetings/2025-04-18-games-production-time-estimation.md]]) Val worked his throughput method concretely: estimate **time-per-person first**, then lay operations out on a **parallel** schedule to find the resource bottleneck ("if all done sequentially the game would take two years"). Lena confirmed the art critical-path (**Dima, Nastya, Yulia**) already runs fully parallel and independent. Detail on [[wiki/topics/game-art-animation-production-pipeline.md]]. [[raw/games_production-apr-18-2025.md]]
 
+## Nov 11 2025 — the "generate games from a specification" endgame (told privately)
+
+On the Nov-11 graphics-specification call ([[wiki/meetings/2025-11-11-graphics-specification-for-testing.md]]; Val, [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/irina-shishko.md|Irina Shishko]]) Val revealed the *why* behind pinning down a graphics specification (the QA/testing mechanics are on [[wiki/topics/game-art-animation-production-pipeline.md]]): testing is not the real target — **learning to produce games automatically from a description** is. He told Pavel and Irina explicitly to **keep this to themselves** and not raise it with Lena's team ("it scares them… it doesn't help me get anywhere"). [[raw/Specs_graphics.md]]
+
+- **The bet.** If JVL agrees a **taxonomy / set of specification elements** that the art team can easily hand over (and that JVL needs anyway for testing), then a game's initial layout, transitions and assembly can be described in a fixed, machine-readable form — and Val believes he "could put out a game within a month," graphics and assembly included. **Time transitions are part of the specification** and can be passed through the same manifest into testing. [[raw/Specs_graphics.md]]
+- **Cloning is the volume play.** What Val wants is largely **game cloning** — he estimates roughly **9 different themes per mechanic** and "**10 to 1**": for each proven mechanic/math, spin up many reskins (a couple of Asian themes, a couple of American, a mid-western, animal themes — wolves/horses/buffalo/cowboys, etc.). [[raw/Specs_graphics.md]]
+- **Repaint the aging catalog.** Symbols **age visually**; a game with good math but a dated look can be **repainted while keeping the exact mechanics and math**, "with very little effort," *if* JVL holds the precise **production specification** — Val's analogy: North American films remade every 30–40 years on the same story. [[raw/Specs_graphics.md]]
+- **How.** Speculative AI angle only: feed an AI the comp art + the structured scene (components, hierarchy, positions) and have it generate/re-theme elements (e.g. re-skin a Chinese theme into a Western one at pixel level) — Val stressed this is a "wild idea… something turning in my head," not a committed method. [[raw/Specs_graphics.md]]
+
+This extends the throughput doctrine on this page (serial→parallel, feature-level forecasting, ship-imperfect) from *making each game faster* toward *not hand-making most games at all*. Nothing was decided.
+
 ## Open questions
 
 - Nothing was decided — Val closed with "I'm going to think about it. We'll have another conversation on this." Whether JVL adopts the two-team split, the parallel-track/disjoint-animation model, or the junior-art-director experiment is unresolved. [[raw/developing_games_faster_michael_gottlieb_march_12-2025.md]]
+- Automated game generation / cloning from a specification (Nov-11): the taxonomy of specification elements JVL would need is not yet defined, and whether an AI-driven re-skin pipeline is feasible is unknown — Val deferred it. [[raw/Specs_graphics.md]]
 
 ## Sources
 
@@ -71,3 +83,4 @@ The parallel-track idea predates the Mar 12 Gottlieb call: on the Feb 10 GitHub-
 - [[raw/developing_games_faster_michael_gottlieb_march_12-2025.md]]
 - [[raw/game_development_update-apr-17-2025.md]]
 - [[raw/games_production-apr-18-2025.md]]
+- [[raw/Specs_graphics.md]]

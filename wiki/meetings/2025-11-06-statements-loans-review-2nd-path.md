@@ -45,4 +45,3 @@ Durable points (single source):
 ## Sources
 
 - [[raw/Statements and Loans review - 2nd path.md]]
-</content>

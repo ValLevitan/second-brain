@@ -3,7 +3,7 @@ type: topic
 title: Game art & animation production pipeline (comp art → Miranda)
 date: 2025-03-12
 aliases: [animation production, comp art pipeline, CompArt, storyboards, Spine, Blender, After Effects, placeholder build, Miranda scene assembly, art production stages, spike, sorting, symbol containers, Glorosa, Havana Noches, Fiery Ice Link, Rodeo Spin]
-source-count: 11
+source-count: 12
 ---
 
 # Game art & animation production pipeline (comp art → Miranda)
@@ -118,8 +118,21 @@ On the [[wiki/meetings/2025-07-03-game-development-weekly.md|July-3 weekly]], [[
 - **HHR = full asset redo in Omni.** Val's plan: finish **Kaio-Ocho for Omni** by end of month, then **re-orient the team to adapt the Omni framework for HHR** (framework guys start **Aug 1**; ~30–60 days, "not half a year"), while game production ports **Fortune FUPAs** to Omni. HHR games (≈six discrete titles) will need **all art redone in Omni** and much redesigned (the source games are "very old"); logically the recent Nebraska work is the base to draw from. Sequence after Nebraska: **La Rosa (Fiery Ice, Rage) → Fortune FUPAs → HHR**, subject to market pulls (South Dakota/Texas could "explode" and reprioritise everything). See [[wiki/topics/slot-game-design-principles.md]] and [[wiki/topics/omni-core-advancement-and-game-templating.md]]. [[raw/game_development-july-3-2025.md]]
 - **Lena is the production bottleneck.** After the call Val told Michael the production department needs to **split into more streams** and that **Lena is the bottleneck** — Val wants Michael (not himself) to put the "how do we increase output" challenge to her, "so it comes from you." [[raw/game_development-july-3-2025.md]]
 
+## Nov 11 2025 — a graphics specification for automated testing (the Miranda scene manifest)
+
+On a Val ↔ [[wiki/people/pavel.md|Pavel Frolov]] ↔ [[wiki/people/irina-shishko.md|Irina Shishko]] working call ([[wiki/meetings/2025-11-11-graphics-specification-for-testing.md]], 37m, Russian), the group worked out **what layout information to get from the art team ([[wiki/people/lena.md|Lena]]) and in what form** so QA can test a game's on-screen graphics automatically. [[raw/Specs_graphics.md]]
+
+- **The problem Val named.** When JVL asks Lena for "the information," she happily agrees but delivers it in *her* preferred form (gigabytes of files) — and JVL then finds it is not what they can work with. The risk is not Lena's willingness but that **neither side has agreed the taxonomy/form of the specification** JVL actually needs. [[raw/Specs_graphics.md]]
+- **What QA needs per component:** for each dashboard/game element (e.g. the four dashboard **meters** like *user balance*, the frame/ramka, each symbol) — its **coordinates, size, label**, plus a **reference ("эталон") screenshot**. QA's test then locates the component at those coordinates, screenshots it, and **pixel-compares** to the reference; a 1-pixel shift is tolerated, ~3 pixels fails. A cheaper first check they already run: verify **meter labels change correctly on language switch**. [[wiki/people/pavel.md|Pavel]] pushed back that testing *line thickness* pixel-by-pixel is "shooting sparrows with a cannon" — the useful target is component **position/label**, not every pixel. [[raw/Specs_graphics.md]]
+- **The source of the spec = a Miranda scene export.** [[wiki/people/pavel.md|Pavel]]: when **[[wiki/people/dmitriy-khandov.md|Dima Khandov]] is back from vacation** he will extract from the **Miranda** project the full **scene hierarchy** — every component's coordinates, size, nesting (parent/child) — and generate it in a usable form. In a finished game QA can then **hide all components except one** (frame, then a symbol, etc.), screenshot, and compare against that deterministic reference. Caveat Pavel raised: the live game overlays effects/transitions so no full-frame ever matches the "ideal" comp art; only **isolated, static components** at a fixed instant are comparable. A second risk: Dima's export can itself carry an error (a wrongly-built scene), so **each manifest must be verified once against a known-correct game before it becomes the reference** for future regression. [[raw/Specs_graphics.md]]
+- **Manifests as the per-game reference.** Irina relayed (attributing it to a "**Sasha**" — likely [[wiki/people/alexander-biratka.md|Alexander Biratka]] by templating context, but left by-context) that the team had started building **scene manifests** which, once written, become the **reference for all subsequent games** — describe where each element sits once, and artists follow the manifest thereafter. [[raw/Specs_graphics.md]]
+- **Tools (as transcribed).** Lena draws comp art from reference images ("compart"), works in **Photoshop** (layers of pixels) and a **3D application** (transcribed "3 дима акции" — name unclear, not asserted) whose output file is "always repeatable/explainable" and re-importable into **Adobe**. Val speculated about giving an AI the comp image + the structured scene and asking it to generate elements or re-theme them — explicitly a "wild idea," not a plan. [[raw/Specs_graphics.md]]
+
+Val's larger why — generating/cloning games from this specification — is on [[wiki/topics/game-production-throughput-strategy.md]] (Nov-11 section); he told Pavel and Irina to keep that ambition to themselves and not raise it with Lena's team.
+
 ## Sources
 
+- [[raw/Specs_graphics.md]]
 - [[raw/games_design_recap-may-29-2025.md]]
 - [[raw/Game Development How animation are made with Lena - March 12-2025.md]]
 - [[raw/game_development-july-3-2025.md]]

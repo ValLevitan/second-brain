@@ -34,5 +34,3 @@ Durable points (single source):
 ## Sources
 
 - [[raw/Requirements_ARM_board_manufacturer-november-5-2025.md]]
-</content>
-</invoke>

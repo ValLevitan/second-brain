@@ -34,5 +34,3 @@ Durable points (single source):
 ## Sources
 
 - [[raw/finance_recurring_meeting-october-21-2025.md]]
-</content>
-</invoke>
