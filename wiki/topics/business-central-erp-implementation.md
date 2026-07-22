@@ -3,7 +3,7 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, posting setup, AI naming convention]
-source-count: 11
+source-count: 12
 open-questions: 2
 ---
 
@@ -141,9 +141,21 @@ The [[wiki/meetings/2025-11-17-phasing-out-navision-continued.md|Nov-17 "Phasing
 - **Who does the close-out.** [[wiki/people/alka-sood.md|Alka]] has Navision access but Lev doubts she knows it; he names **Cris** and **[[wiki/people/igor-donis.md|Igor]]** ("for sure") as capable, and **Erica** (Mexico accountant, still has Navision access). The daily-BC accountants — **Laura** (Colombia), **Cris**, **Igor** (Mexico, AP/error control) — are already trained, so copying the Systems chart won't raise their workload much (Mary and Elizabeth are *not* accountants). Timing pressure: do it **before Jan 1**, with Val referencing **Alka's availability ending ~Feb 28** (transcribed, garbled). Val asked whether **[[wiki/people/anatol-strekalov.md|Anatol]]** could take the close-out himself; Lev needs a day, later said Anatol is needed. Follow-up Wednesday at 12. [[raw/Phasing out Navision continued.md]]
 - **§15.8:** clear — ERP-migration/chart-of-accounts/order economics only; no compensation. [[raw/Phasing out Navision continued.md]]
 
+## Nov 25 2025 — the Labs sandbox: currency conversion, December inventory count, banks, January go-live
+
+A [[wiki/people/val-levitan.md|Val]] ↔ [[wiki/people/lev-rudky.md|Lev Rudky]] working call ([[wiki/meetings/2025-11-25-business-central-migration-update.md]]) continuing the [[#nov-17-2025--freezing-navision--the-new-labs-approach-copy-systems-adapt-to-canada-run-in-parallel|Nov-17 Navision-freeze / copy-Systems approach]], walking the concrete tasks left before a **January go-live** of JVL Labs on BC. [[raw/Business Central Migration Update.md]]
+
+- **The BC "Labs" company is a sandbox.** Lev framed the current build as a **test company ("песочница")** where transactions are exercised; at cutover JVL will **take the verified setups out of the sandbox and load them into an empty company** to go live. Lev's principle: the more that is tested up front, the fewer error messages land on him after cutover. Val's counter-preference: **launch even if not everything is finished** and add the rest in real time. [[raw/Business Central Migration Update.md]]
+- **Currency conversion is the single biggest task** — transactions must post in **Canadian dollars, not US dollars** (the sandbox defaults US). It is hours of work (export → temp → reload); Val assigns **[[wiki/people/anatol-strekalov.md|Anatoly]]** to it. [[raw/Business Central Migration Update.md]]
+- **Customers/vendors mostly stay; Canadian side is thin.** Most customers and practically all vendors stay in the same currency (exported from the US company); JVL has essentially **no Canadian customers** (won't sell US customers directly out of Canada) and few Canadian vendors, so those are left **open** and added manually; **service-provider vendors** (utilities) switch to the Canadian setup. A **"quarantine" location** is kept for machines arriving from Mexico/Russia/elsewhere. **No employee accounts** (employees paid via "DP"/payroll, not directly by the company) and **no "expenses"** concept in Canada. [[raw/Business Central Migration Update.md]]
+- **Banks first, then test; a possible direct RBC↔BC integration.** Lev wants the **bank accounts set up first** (without AP integration) and bank transactions tested. Val noted a growing **[[wiki/organizations/rbc.md|RBC]]** relationship and referenced "**Egor Bessy**" (as transcribed) as having a **direct BC implementation** — proposing to research a direct integration. (The "Egor Bessy" reference and exact mechanism are unclear — recorded, not resolved.) [[raw/Business Central Migration Update.md]]
+- **Tax setup must be built now, while Alka is engaged**, because the new posts start in January and a wrong bank/tax/account setup for the Canadian company is the hardest thing to unwind. [[raw/Business Central Migration Update.md]]
+- **December physical inventory count, combined with shelving.** [[wiki/people/elizabeth.md|Elizabeth]] + Filippe get an **Excel part list**, count each part off the shelf keyed to its serial/inventory number, then reconcile against the system **by dollar and by discrepancy percentage** (re-count big gaps, leave the rest as-is). Inventory is at its **minimum — ~100 machines (Flex)** — so it can go fast (Lev: reconciliation takes longer than the count). JVL will **install shelving during the count** (floor → shelf, label as they go), planning the ~**8,000 sq ft** space (low ceilings → 2 tiers not 3) by aisle/shelf for system entry; track by location. **§15.8:** clear — no compensation. [[raw/Business Central Migration Update.md]]
+
 ## Sources
 
 - [[raw/business_central_implementation_update-apr-17-2025.md]]
+- [[raw/Business Central Migration Update.md]]
 - [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
 - [[raw/ris_business_central_integration-april-3-2025.md]]
 - [[raw/business_central_update-apr-28-2025.md]]

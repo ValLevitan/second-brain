@@ -3,7 +3,7 @@ type: decision
 title: Insert a "capability" level in Jira as the executive-demonstrable unit mapped to GitHub feature branches
 date: 2025-04-03
 aliases: [capability level, Jira capabilities, capability vs feature, GitHub Jira mapping, feature branch capability, repository is a product, repository is an artifact, no test no pull, one week feature branch, capabilities bundle of features]
-source-count: 20
+source-count: 22
 status: active
 open-questions: 1
 ---
@@ -137,6 +137,16 @@ A **written implementation guide** (not a transcript) — "**Jira Issue Type Wor
 - **Feature (Tactical, owner = cross-functional Eng/Art/QA):** Backlog → In Progress → In Review → Done, plus **Blocked** (Start Work; Submit-for-Review auto-creates a PR/MR; Approve requires peer review + QA; Mark-as-Blocked must name the blocking issue; Done→In Progress reopen for post-release bugs). [[raw/jira-workflows_implementation_guide-september-26-2025.md]]
 - **Cross-cutting patterns asserted:** the "Request Review" self-loop is reusable on other levels (Request Board Update / Stakeholder Feedback / Clarification) — generates subtasks/linked issues + an audit trail without halting work; supplementary rollback, cancellation, and elevated-permission fast-track transitions; automation rules to cascade status between hierarchy levels. [[raw/jira-workflows_implementation_guide-september-26-2025.md]]
 
+## Nov 27 2025 — the spec-driven workflow applied to design-driven framework changes
+
+On the [[wiki/meetings/2025-11-27-framework-changes-tasks-and-management.md|Nov-27 "Framework Changes / Tasks and Management" meeting]] (two recording segments — [[wiki/people/val-levitan.md|Val]] + [[wiki/people/pavel.md|Pavel Frolov]] + [[wiki/people/irina-shishko.md|Irina Shishko]], then + [[wiki/people/lena.md|Lena Zhukova]]) Val applied this decision's **record-the-conversation → AI-writes-the-spec** method (the Aug–Sept variant) specifically to **framework changes requested by the design/graphics department**. Direction/process, not a new Jira-config ruling. [[raw/Framework Changes – Tasks and Management.md]] [[raw/Framework Changes – Tasks and Management - part-2.md]]
+
+- **The problem:** framework changes flow through an informal, undocumented path today; Val's governing rule (stated twice) — **"if it is not written down somewhere, that truth does not exist."** [[raw/Framework Changes – Tasks and Management.md]]
+- **The chain, made concrete for framework work:** designer + developer + tester meet, the designer explains verbally, the conversation is **recorded** → designer turns the transcript into a **requirements list** (AI-drafted, corrected) → developer turns {transcript + requirements} into an **engineering specification** (AI) → developer breaks it into **features**, each with **acceptance criteria** → tester ([[wiki/people/ivan.md|Ivan]]) turns {transcript + requirements + spec + acceptance criteria} into **test cases** (AI). This is the same "no code without specification" flow, keyed off recorded conversation rather than hand-written user stories. [[raw/Framework Changes – Tasks and Management.md]] [[raw/Framework Changes – Tasks and Management - part-2.md]]
+- **Tooling:** Val uses **ChatGPT integrated with the Atlassian MCP** in a "development mode" that **[[wiki/people/andrey-bosik.md|Andrey Bosik]] configured** — it overlays a transcript on the Jira facts, finds the right **IP number**, highlights conflicts, and lists what a conversation left uncovered. [[raw/Framework Changes – Tasks and Management.md]]
+- **Jira structure named + a rename.** Hierarchy: **IP 90 = application → IP 747 = "Systems" definition → IP 726 (Omni progressive) or IP 327 (Reich framework)**; Val proposed **renaming IP 327 to "Reich Rises."** The workflow applies to **both Omni and Reich Studio**; kino (cinema) games will force changes into the old Reich Studio framework. [[raw/Framework Changes – Tasks and Management - part-2.md]]
+- **Role split for framework changes:** **Lena** owns requirements (design side); **[[wiki/people/pavel.md|Pavel]]** owns the specification + scheduling (Lena "hands him the reins"); the developer ([[wiki/people/anton-leshkevich.md|Anton]] — currently the least-loaded — or [[wiki/people/igor-metelski.md|Igor Metelski]] for Reich) breaks the spec into features; **[[wiki/people/ivan.md|Ivan]]** writes the tests. Consistent with the Apr-3 "PM describes capability, Pavel writes features, developers write stories, QA/Irina owns the testable-merge gate." [[raw/Framework Changes – Tasks and Management.md]] [[raw/Framework Changes – Tasks and Management - part-2.md]]
+
 ## Open questions
 
 - **Restructure Jira per the May-5–6 direction?** Should **capability** replace the product-line level, the **initiative become the product**, and the top levels (value stream / initiative / product) move into **Jira Product Discovery** projects? Direction agreed in principle, no ruling; a graph + refactor plan deferred. — [[raw/feature_granularity_definition_aaron-may-5-2025.md]] [[raw/feature_defining_jira-may-6-2025.md]] [[raw/feature_reflection_jira-may-6-2025.md]]
@@ -164,3 +174,5 @@ A **written implementation guide** (not a transcript) — "**Jira Issue Type Wor
 - [[raw/specification_standards_review-september-22-2025.md]]
 - [[raw/fast-pacing-general-alignment_stand-up-september-24-2025.md]]
 - [[raw/jira-workflows_implementation_guide-september-26-2025.md]]
+- [[raw/Framework Changes – Tasks and Management.md]]
+- [[raw/Framework Changes – Tasks and Management - part-2.md]]
