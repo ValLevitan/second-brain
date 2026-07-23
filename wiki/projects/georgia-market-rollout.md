@@ -3,9 +3,9 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 31
-open-commitments: 3
-open-questions: 5
+source-count: 33
+open-commitments: 5
+open-questions: 7
 ---
 
 # Georgia market rollout (Peach1234 / DLKG)
@@ -211,8 +211,20 @@ On the [[wiki/meetings/2025-11-20-games-development-review-georgia-liquid-glass-
 - **Market math driving it:** ~**35,000 machines / ~6,500 locations** (~5.5/location) with 5–6 brands now (IGT, L&W, Aristocrat, JVL, Novomatic, newly Konami); JVL now targets **one machine per location**, so a larger per-machine library matters — tempered by the "arms race" and "paradox of choice" risk (12 is "aplenty"). [[raw/Games_development_review (1).md]]
 - **Nebraska essentially licensed** (approval draft letter received; one affidavit left; ~Dec-1 selling target), and **South Dakota** is JVL's #1 win-per-unit market on only 6 games, with a proposed 7-game South Dakota slate. See the meeting stub. [[raw/Games_development_review.md]]
 
+## Feb 9 2026 — Diamond Amusement partnership + performance/data-reliability review
+
+A two-part Feb-9-2026 arc with the Georgia master operator **[[wiki/organizations/diamond-amusement.md|Diamond Amusement]]** (CEO [[wiki/people/sean-fellows.md|Sean Fellows]]): a strategic **partnership meeting** ([[wiki/meetings/2026-02-09-diamond-amusement-partnership-meeting.md]]) and a JVL-internal **exec debrief** ([[wiki/meetings/2026-02-09-diamond-amusement-exec-debrief.md]]) the same evening.
+
+- **Competitive standing (Diamond's data).** JVL's 41 units at Diamond average **$167 win-per-unit/day** vs a **Georgia state average of ~$108** (down from a COVID-era ~$137; state now runs **41,000+ machines**). Benchmark: IGT "Price is Right" **$221**, full IGT **$176**, **Aristocrat $305** (top-tier only), **Novomatic $169**. The "big three" (Aristocrat/IGT/Light & Wonder) dominate; JVL sits in the next tier; **Konami exited** Georgia. New entrants use **94–96% RTP** (JVL H3 = 92%) as a share-grab tactic. Full detail on [[wiki/organizations/diamond-amusement.md]]. [[raw/Diamond_Shawn_Fellows_interview-February-9-2026.md]]
+- **New-nudge underperformance finding.** JVL's newer "enhanced nudge" software is performing **~50% below** the older software at Diamond (roughly $80 vs the $167 average). Only ~10% of Diamond's JVL cabinets carry it, mostly units that came back to the warehouse for **TITO/printer retrofit** before redeployment. Michael argued the change was only graphical (nudge communication), so a 50% drop "doesn't seem logical." Cause unresolved — recorded as an open question below. [[raw/Exec_recap_Diamond_Amusement-February-9-2026.md]]
+- **Intralot/GLC reports judged unreliable.** The debrief found impossible meters (billions/trillions wagered, negative game profit) traced to an old **Mother Goose** pay-table-ID misconfiguration that is never cleaned up (Intralot has no audit department; the longer a manufacturer has been in-market, the dirtier its data). The **Co-am ID intentionally obscures machine serial and physical location**, so JVL cannot tie a report line to a place. Example machines: ID 258 ~**$899,643 coin-in over 187 days** (~$209/day reported, ~$385 at 8% hold) vs ID 206 at **~$16.48/day** — different, unknowable location tiers. [[raw/Exec_recap_Diamond_Amusement-February-9-2026.md]]
+- **Data-sharing partnership (the fix).** JVL proposed placing machines in **tier-one locations alongside IGT/L&W/Aristocrat** and across all three tiers, trading **free trial machines, extended warranty, spare-parts kits, and first access to new games** (Fiery Ice Link, Jackpot Rush) for granular operational data. Sean agreed, offered historical baselines ($80/$140/$500 example locations), and to facilitate field visits. Val's directive to Felipe: stop relying on operator hearsay — get **into the locations** and take the numbers himself, biweekly. [[raw/Diamond_Shawn_Fellows_interview-February-9-2026.md]] [[raw/Exec_recap_Diamond_Amusement-February-9-2026.md]]
+- **Transactional suite + liquid-glass portfolio (previewed to Sean).** JVL previewed its own end-to-end **transactional product suite** (TITO, e-wallet, kiosk, POS card-dispensing, own merchant/processing) for the **July-1 Georgia gift-card** regime (statutory, no kiosk mandate; InComm serving 4,500+ locations), backward-compatible with dual- and single-SAS machines; and the next-gen **"liquid glass"** game portfolio (Fiery Ice Link, Jackpot Rush series, revamped Peak games). Rollout timeline in the summary reads beta/alpha ~May 2025 → full rollout end-2025 (dates as recorded; note the summary's dates trail the Feb-2026 meeting date). [[raw/Diamond_Shawn_Fellows_interview-February-9-2026.md]]
+
 ## Open commitments
 
+- [ ] [[wiki/people/felipe-miranda.md|Felipe]] — get into Diamond's locations and collect factual per-unit numbers himself (Val's directive), starting with the operators being called this week; follow up on transactional-product specs — due unspecified — [[raw/Exec_recap_Diamond_Amusement-February-9-2026.md]] [[raw/Diamond_Shawn_Fellows_interview-February-9-2026.md]]
+- [ ] [[wiki/people/juan-martinez.md|Juan]] — contact Intralot (via Matt Richardson) about the report errors and compare JVL's reports with Sean's master-level reports — due unspecified — [[raw/Exec_recap_Diamond_Amusement-February-9-2026.md]]
 - [x] Vlad (Vladislav Gurin) — produce a **block diagram of every JVL meter** (maximum set, proper names, used or not) for the Tuesday-11am follow-up (~June 17), so the team can agree which meter increments in the key-to-meter case — **discharged June 17** (Vlad presented the ~300-meter table; tests 1 & 2 passed) — [[raw/jp_meters-june-12-2025.md]] [[raw/Metering_class_3-june-17-2025.md]]
 - [ ] Juan Martinez — send the **net-win formula sheet** showing how coin-in / coin-out / jackpot meters combine, to resolve the double-posting worry — due after the June-12 call — [[raw/jp_meters-june-12-2025.md]]
 - [x] Juan Martinez — retest Class-3 meter behaviour on the "Mega Hit One" T27/D27 machine at the Seminole lab (GLI-approved MH1 software) — **superseded/rolled into the May-28 review**: testing continued but is not yet conclusive (meter-posting still to be checked vs iView logs); the thread now runs through the Class-3-constitution ruling and Juan's requirements draft — [[raw/sas_intricacies_ga-coam-may-21-2025.md]] [[raw/jp_treatment-may-28-2025.md]]
@@ -222,6 +234,8 @@ On the [[wiki/meetings/2025-11-20-games-development-review-georgia-liquid-glass-
 
 ## Open questions
 
+- Why does JVL's **new "enhanced nudge" software perform ~50% below** the older software at Diamond — genuine regression, lower-tier placement of the retrofitted machines, or a reporting artifact? Unresolved pending Felipe's field data. [[raw/Exec_recap_Diamond_Amusement-February-9-2026.md]]
+- Can JVL **trust the Intralot/GLC reports** at all, given the Mother-Goose-contaminated meters and the Co-am-ID location obfuscation? Juan to probe Intralot; Sean's master-level reports to be compared against JVL's. [[raw/Exec_recap_Diamond_Amusement-February-9-2026.md]]
 - Are JVL's **Class-3 meters themselves** interpreted correctly against the SAS protocol (independent of Georgia COAM)? Val/Irina suspect not — to be resolved by the Seminole/JVL parallel meter retest. [[raw/sas_intricacies_ga-coam-may-21-2025.md]]
 - Was JVL genuinely **out of SAS 51/52 compliance** since inception (Eclipse/GLC accepted it as "not applicable"), and does the lab-only auto-clear-lockup fix satisfy the mandatory-event requirement? Pending the Steve/GLC conversations. [[raw/sas_51_52_requirement_interpretation-april-14-2025.md]]
 - Was routing Jackpot Rush / JPRE for Georgia onto the **old framework** (curved cabinet) a deliberate plan or an oversight? Val said he didn't recall discussing it and parked it for a later meeting. [[raw/game_design_meeting_march_7_2025.md]]
@@ -261,3 +275,5 @@ On the [[wiki/meetings/2025-11-20-games-development-review-georgia-liquid-glass-
 - [[raw/review_games_concepts_markets-september-18,2025.md]]
 - [[raw/Games_development_review.md]]
 - [[raw/Games_development_review (1).md]]
+- [[raw/Diamond_Shawn_Fellows_interview-February-9-2026.md]]
+- [[raw/Exec_recap_Diamond_Amusement-February-9-2026.md]]
