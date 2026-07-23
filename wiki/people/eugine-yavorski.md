@@ -4,7 +4,7 @@ title: Eugine Yavorski
 date: 2025-02-18
 aliases: [Eugine Yavorski, Evgeny Yavorsky, Yavorski, Yavorsky, Яворский, Evgeny Egorsky, Egorsky, Егорский, Evgeny Nevorsky, Nevorsky, Неворский, Evgeny, Yevgeny, Zhenya, Женя, Евгений]
 disambiguation: "FlexPort/FlexPay integration engineer (alias Egorsky), this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
-source-count: 23
+source-count: 24
 open-commitments: 3
 ---
 
@@ -102,9 +102,20 @@ A JIRA-sourced briefing prepared for [[wiki/people/aaron.md|Aaron]] ([[wiki/meet
 - **Status:** **4 items In Progress** (log transfer to Flex-Pay, bill-validator "Box Full" fix, stability testing, incremental-crediting UI) and **7 To Do** — including firmware-update support (due **2/9**), double-trigger prevention (due **2/15**), and an ID-003 wake-up investigation (due **2/24**). Flagged risk: several Feb-2026 due dates cluster together. [[raw/Aaron_Briefing_FlexPay_FlexPort_WSS-February-5-2026.md]]
 - **Single-point-of-knowledge risk:** the briefing's key takeaway for Aaron is that Yavorski is **the protocol architect and embedded specialist** — if only he fully understands the WSS protocol specification, [[wiki/people/dmitri-chudinov.md|Chudinov]] and the broader team are dependent on him, which is why the ongoing knowledge transfer is called critical. [[raw/Aaron_Briefing_FlexPay_FlexPort_WSS-February-5-2026.md]]
 
+## Feb 5 2026 — status alignment (HFM ticket walk-through)
+
+A separate same-day ~15-min status call with [[wiki/people/val-levitan.md|Val]] and [[wiki/people/pavel.md|Pavel Frolov]] ([[wiki/meetings/2026-02-05-yavorski-status-alignment.md]]) in which Yavorski walked his open HFM tickets. (Distinct from the Aaron briefing above.) [[raw/Status_alignment-Yavorski-February-5-2026.md]]
+
+- **HFM-346 (long-time stability testing):** he updated the production-floor devices to the latest version and wants to **extend the test ~2 weeks** — it is a continuous-run check on the production floor, not a permanent task, and he wants it to keep running after the fixes land rather than closing it. [[raw/Status_alignment-Yavorski-February-5-2026.md]]
+- **A self-starting-machine bug** found after the update: on at least one machine it begins playing on its own after he loads cash — the bet jumps to \$2 and auto-play activates without a button press. Pavel and Val suspect a **shorted mechanical button** on the panel (he cannot send a command that would start a game); he will re-check on a second machine and inspect the protocol logs. [[raw/Status_alignment-Yavorski-February-5-2026.md]]
+- **HFM-352 (JAS reporting) is blocked on HFM-384** (screens drawn by [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]]) — the screens did not activate correctly; Alekseev is shipping updated screens over the weekend, after which Yavorski expects to **close both 352 and 384 around Tuesday**. [[raw/Status_alignment-Yavorski-February-5-2026.md]]
+- **HFM-345** was planned but never started (no activity) and was moved back to To-Do; **HFM-342** (bill-validator "box full" mask) works intermittently and was reopened for review the following week; **HFM-353** (money-front implement-logic) is **done** and to be closed, with a separate task to be opened for re-verifying the bug fixes once the new Flex version arrives. **HFM-522** is not his — Yavorski said it belongs to another engineer ("Alexey," surname unclear in the transcript). [[raw/Status_alignment-Yavorski-February-5-2026.md]]
+- **FlexPort stable version for the demo:** he confirmed he posted a **stable FlexPort web version 8** for the demo Pavel needs, and reported setting up repository connections and cloud access with [[wiki/people/andrey-bosik.md|Andrey Bosik]]. [[raw/Status_alignment-Yavorski-February-5-2026.md]]
+
 ## Sources
 
 - [[raw/Aaron_Briefing_FlexPay_FlexPort_WSS-February-5-2026.md]]
+- [[raw/Status_alignment-Yavorski-February-5-2026.md]]
 - [[raw/POS_and_PORT-schedule_review.md]]
 - [[raw/Flex-Port_Smib_alignment-November-28-2025.md]]
 - [[raw/Embedded_Group_alignment_and_update_2025-02-18.md]]

@@ -3,7 +3,7 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS]
-source-count: 73
+source-count: 75
 open-commitments: 28
 open-questions: 4
 ---
@@ -579,6 +579,16 @@ A JIRA-sourced briefing prepared for [[wiki/people/aaron.md|Aaron]] ([[wiki/meet
 - **[[wiki/people/eugine-yavorski.md|Yavorski]] = Flex-Port (embedded) end + protocol architect.** He builds/maintains the STM32-based board inside the machine and **owns the WSS protocol specification and message formats**, plus bill-validator (ID-003) comms, EGM cash-out forwarding, firmware/bootloader, on-device logging, encrypted-WSS/TrustZone security, and TITO at the hardware layer via Flex-SMIB handoff. Embedded-only — not involved server-side. [[raw/Aaron_Briefing_FlexPay_FlexPort_WSS-February-5-2026.md]]
 - **[[wiki/people/dmitri-chudinov.md|Chudinov]] = Flex-Pay (kiosk) end + all backend.** He implements the same protocol on the kiosk (SAS Cashout/Ticket-In/logging), plus transaction confirm/cancel logic, payment-processor integration (InComm, Pyramid), remote-firmware-update triggering, kiosk-side log storage/export, full kiosk TITO, and the whole server/backend layer (Payment Hub API, registration, time sync, CMS/orchestration, InComm parameter management). **The WSS protocol is the contract between them.** [[raw/Aaron_Briefing_FlexPay_FlexPort_WSS-February-5-2026.md]]
 - **Single-point-of-knowledge risk (the briefing's headline for Aaron):** because only Yavorski fully understands the protocol specification, Chudinov and the broader team are dependent on him — making the ongoing knowledge transfer critical. Per-person JIRA keys and open-item status are on the two person pages. [[raw/Aaron_Briefing_FlexPay_FlexPort_WSS-February-5-2026.md]]
+- **Derived summary companion:** the raw file `responsibilitie_split_Yavorski_Chudinov-February-5-2026.md` is a short prose summary of this same briefing (same "Yavorski owns Flex-Port + protocol, Chudinov owns Flex-Pay kiosk + backend, WSS is the contract, single-point-of-knowledge risk" content, incl. Chudinov's "21 closed + 2 done" track record). Per §12 it is folded here as a derived-document companion and not separately cited (logged in `wiki/skipped.md`).
+
+## Feb 5 2026 — Yavorski status alignment (HFM ticket walk-through)
+
+A separate ~15-min status call the same day ([[wiki/meetings/2026-02-05-yavorski-status-alignment.md]]; [[wiki/people/val-levitan.md|Val]], [[wiki/people/eugine-yavorski.md|Yavorski]], [[wiki/people/pavel.md|Pavel Frolov]]) covered the live HFM ticket state on the Flex-Port embedded side. [[raw/Status_alignment-Yavorski-February-5-2026.md]]
+
+- **HFM-346 long-time stability test** kept running on the production floor after the latest device update — Yavorski wants it extended ~2 weeks (a continuous-run check, not a one-off task). [[raw/Status_alignment-Yavorski-February-5-2026.md]]
+- **A self-starting-machine bug** surfaced after the update: a machine begins playing on its own after cash is loaded (bet jumps to \$2, auto-play activates without a press). The team's working hypothesis is a **shorted mechanical button** rather than a rogue command. [[raw/Status_alignment-Yavorski-February-5-2026.md]]
+- **HFM-352 (JAS reporting) blocked on HFM-384** (screens from [[wiki/people/evgeniy-alekseev.md|Alekseev]]) — both expected to close ~Tuesday once updated screens arrive. **HFM-353** (money-front logic) done; **HFM-342** (validator "box full" mask) reopened; **HFM-345** never started (moved to To-Do); **HFM-522** is not his (another engineer's). [[raw/Status_alignment-Yavorski-February-5-2026.md]]
+- **Stable FlexPort web version 8** was posted for the demo Pavel needed; Yavorski also set up repository/cloud access with [[wiki/people/andrey-bosik.md|Andrey Bosik]]. [[raw/Status_alignment-Yavorski-February-5-2026.md]]
 
 ## Open commitments
 
@@ -695,3 +705,5 @@ A JIRA-sourced briefing prepared for [[wiki/people/aaron.md|Aaron]] ([[wiki/meet
 - [[raw/Flex-Port_Flex-Smib_Weekly-December-1-2025.md]]
 - [[raw/Flex-Port, Flex-Smib, Flex-POS sync and planing meeting.md]]
 - [[raw/Flex-Port, Flex-POS sync and scheduling.md]]
+- [[raw/Aaron_Briefing_FlexPay_FlexPort_WSS-February-5-2026.md]]
+- [[raw/Status_alignment-Yavorski-February-5-2026.md]]

@@ -3,7 +3,7 @@ type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
 aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus]
-source-count: 31
+source-count: 32
 open-questions: 3
 ---
 
@@ -321,6 +321,15 @@ A short **written AI-generated summary artifact** (not a transcript) captures a 
 - **The GDD is a living document, finalized only at the end of Production**; components are developed across the **Concept, Design and Production** stages and can be updated throughout (e.g. Audio, visuals, settings may be updated during Production). [[raw/gdd_development_stages_and_table.md]]
 - **Chapter → stage table (as provided by Lena).** Developed in **Concept:** Abstract (updated in Design), Main Screens (updated Design/Production). Developed in **Design** (most updated in Production): Game Functionality, Pay Table, Symbols, Bonuses, Transitions, Big Win, Pre-Cog, Game-Specific Digital Toppers, Messages, Help Screens, vDeck Visuals, More Games Attraction Mode, More Games Screen Game Icon, Audio. Developed in **Production** (not updated after): Show Mode Menu, Default Progressive Settings. [[raw/gdd_development_stages_and_table.md]]
 
+## Feb 6 2026 — Georgia partially-fractional progressives; Keno design language
+
+On the [[wiki/meetings/2026-02-06-game-development-review.md|Feb-6 2026 game-development review]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/michael-gottlieb.md|Michael Gottlieb]], [[wiki/people/lena.md|Lena]], [[wiki/people/juan-martinez.md|Juan]], [[wiki/people/efim-podvoiski.md|Efim]]) two design threads advanced. [[raw/Game_Dev-February-6-2026.md]]
+
+- **The revised Georgia progressive — "partially fractional" eligibility (leaning, not locked).** Continuing the long-running any-bet-vs-bet-up debate, the team's leading design is: the player is **eligible for progressives at any bet**, but progressive amounts **stay full at \$1 and above** and become **fractional below \$1** — so there is still an incentive to bet up (progressive levels drop under a dollar) without excluding low bettors entirely. Michael calls it **"partially fractional."** The bonus is a **match-3**. One competitor is reported to gate only the top (grand) level at a \$1 threshold, which the team finds "strange." Michael is waiting on more Georgia data from [[wiki/people/felipe-miranda.md|Felipe]] before locking it; the bonus needs three progressive levels to feel compelling, so a below-\$1 grand-ineligibility would be "highly problematic." [[raw/Game_Dev-February-6-2026.md]]
+- **Twin Bison (GC350) and Liberty Spins (GC352) win-profile work.** Efim is building win profiles for **Twin Bison**, modeled on the **Lion Riches** win profile (its sweet spots) since a one-line game behaves very differently from a multi-line game; no conclusion yet. Scheduled dates: **Mar 9** and **Mar 22**. [[raw/Game_Dev-February-6-2026.md]]
+- **Keno design language — deliberately minimal.** On **Black Hills Keno (IP986)** Michael ruled **no background music during the game**, because the player is tracking the audio of balls hitting/missing and landing on marked spots — too much audio information to layer music over — and **no special behavior when extra keno balls are earned** (do not interrupt the ball-drop tempo). This matches the most popular market keno games: a keno product needs a **simplicity in its design language** distinct from regular slots. For the more complex **IP985** keno (which has a free-spins mode), Michael would still avoid free-spins music, preferring **longer sound effects on meaningful events** (e.g. retrigger). [[raw/Game_Dev-February-6-2026.md]]
+- **South Dakota VLT-2 refresh strategy — "bang for the buck."** The second SD software release refreshes four of six titles: **Lion Riches (IP1016)** gets reel/symbol-size, background and Royals updates + Liquid Glass; **Dragon Pays (IP1018)** migrates from **gem symbols to Royals** (Royals are the preferred slot implementation; gems were a Georgia carry-over) plus contrast/modernization cleanup. Principle restated: make graphics contemporary with the market where the change is cheap and low-schedule-risk, and keep using that strategy going forward. [[raw/Game_Dev-February-6-2026.md]]
+
 ## Sources
 
 - [[raw/game_design_meeting_february_21_2025.md]]
@@ -354,3 +363,4 @@ A short **written AI-generated summary artifact** (not a transcript) captures a 
 - [[raw/review_games_concepts_markets-september-18,2025.md]]
 - [[raw/game design scheduling-october-6-2025.md]]
 - [[raw/gdd_development_stages_and_table.md]]
+- [[raw/Game_Dev-February-6-2026.md]]

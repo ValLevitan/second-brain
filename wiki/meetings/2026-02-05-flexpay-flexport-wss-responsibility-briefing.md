@@ -12,6 +12,8 @@ A **prepared briefing document for [[wiki/people/aaron.md|Aaron Bockelie]]** (no
 
 Subjects and substance are recorded on [[wiki/people/eugine-yavorski.md]] (Flex-Port / embedded side, WSS protocol architect), [[wiki/people/dmitri-chudinov.md]] (Flex-Pay kiosk + server/backend side), and [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Feb-5 2026 responsibility split + single-point-of-knowledge risk).
 
+**Derived-summary companion (§12 fold, not separately cited):** the raw file `responsibilitie_split_Yavorski_Chudinov-February-5-2026.md` is a short prose summary of this same briefing ("How the responsibilities are split between Yavorski and Chudinov… Details are in the attached") — same Yavorski-owns-Flex-Port-and-protocol / Chudinov-owns-Flex-Pay-kiosk-and-backend split, the WSS-as-contract framing, Chudinov's "21 closed + 2 done" delivery record, and the single-point-of-knowledge risk. It belongs to this meeting's document family and is folded here rather than given a separate stub (logged in `wiki/skipped.md`).
+
 ## Sources
 
 - [[raw/Aaron_Briefing_FlexPay_FlexPort_WSS-February-5-2026.md]]

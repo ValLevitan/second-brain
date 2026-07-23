@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna, Selena, Elena]
-source-count: 35
+source-count: 36
 open-commitments: 1
 ---
 
@@ -146,6 +146,13 @@ On the [[wiki/meetings/2026-01-29-jvl-working-session-mcp-tools-demo.md|working 
 - **Clone vs. blanket structure:** Lena prefers a single broad structure applied universally with non-applicable elements removed case-by-case; Val emphasized cloning is key to the use case. Both agreed Jira structure and game function can be cloned, but **art elements (images, descriptions, themes) must be unique per adaptation**. [[raw/Clayton_jvl-working-session-2-summary-January-20-2026.md]]
 - She was set to be walked through installing Claude Code + the MCP tools on her local Claude Desktop on **Tuesday, February 4**. [[raw/Clayton_jvl-working-session-2-summary-January-20-2026.md]]
 
+## Feb 6 2026 — image-generation tooling; ChatGPT extension request
+
+On the [[wiki/meetings/2026-02-06-game-development-review.md|Feb-6 2026 game-development review]] Lena walked the South Dakota VLT-2 and Georgia design status (attraction-mode home screen IP944, topper promo text, Lion Riches/Dragon Pays updates — see [[wiki/topics/slot-game-design-principles.md]]) and raised a tooling problem. [[raw/Game_Dev-February-6-2026.md]]
+
+- **Image-generation quality gap.** The team moved onto **Claude AI**, but since it does not generate images itself they connected it to a node-based image interface the transcript calls **"Config UI" / "conf UI"** (very likely **ComfyUI** — inference) running **Stable Diffusion**. Image quality so far is **lower than what they achieve in ChatGPT**. Claude AI's recommendation is to download and **train LoRA modules** ("Low-Rank Adaptation") for specific styles — e.g. a LoRA trained on golden-coin images to produce casino-style symbols — which is time-consuming; they start next week. [[raw/Game_Dev-February-6-2026.md]]
+- **ChatGPT-subscription extension — approved.** Lena asked Val to **extend the ChatGPT subscription one month** while the LoRA training ramps, noting they already have running ChatGPT "projects" (e.g. cat deviations for animation) working well. Val approved on the spot and asked her to put it in an email. [[raw/Game_Dev-February-6-2026.md]]
+
 ## Sources
 
 - [[raw/Clayton_jvl-working-session-2-summary-January-20-2026.md]]
@@ -184,3 +191,4 @@ On the [[wiki/meetings/2026-01-29-jvl-working-session-mcp-tools-demo.md|working 
 - [[raw/tools_adaptation_games_design_department-may-7-2025.md]]
 - [[raw/game_design-may-8-2025.md]]
 - [[raw/Games_design-june-19-2025.md]]
+- [[raw/Game_Dev-February-6-2026.md]]
