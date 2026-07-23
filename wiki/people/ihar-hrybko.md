@@ -3,7 +3,7 @@ type: person
 title: Ihar Hrybko
 date: 2024-01-01
 aliases: [Ihar Hrybko, Igar Hrybko, Hrybko, Gribkov, грибков]
-source-count: 11
+source-count: 12
 disambiguation: "UX/UI (payroll Igar Hrybko; JVL Insights-era consultant). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
 ---
 
@@ -50,8 +50,16 @@ On the [[wiki/meetings/2025-08-19-figma-to-development-testing.md|Aug-19 figma-t
 
 - On the [[wiki/meetings/2026-02-04-figma-react-export-workflow.md|Feb-4 figma→React session]] Pavel noted the **design→layout** work (Figma → React) has historically been done mostly by [[wiki/people/anton-seregin.md|Anton Seregin]], with **Hrybko doing part of it** recently because Seregin was overloaded. Val set the **first branch hand-off as Hrybko → Seregin**. Val also cited a demonstrated **Claude-Code review loop** between Hrybko and [[wiki/people/evgeny-kharetski.md|Kharetski]]: Hrybko opened a PR to main; Kharetski reviewed it with his local Claude Code, committed the comments; Hrybko received them and made the file commit to master. See [[wiki/topics/test-automation-strategy.md]] (Feb-4) and [[wiki/topics/graphics-team-git-workflow.md]]. [[raw/Irina_Pavel_Figma_React-February-4-2026.md]]
 
+## Feb 6 2026 — Figma→React workflow explainer + "metacoding"
+
+On the [[wiki/meetings/2026-02-06-ui-claude-code-adaptation.md|Feb-6 UI/Claude-Code session]] "Igor" (Hrybko) was the front-end voice explaining the actual workflow (substance on [[wiki/topics/ai-assisted-development.md]] Feb 6):
+
+- He corrected Aaron's framing that Figma auto-decomposes to software: JVL uses Figma for **prototyping / interactive prototypes and user-flow**, but has **no button to export layouts directly to React**. The team **hand-builds components from a tested UI kit — MUI, via its fork Joy UI — with a "JVL theme"**; or he feeds **Claude Code a screenshot + prompt** to generate a new layout on an existing pattern and then **supervises** the generated source. LGS layouts are "almost completely created except some screens." [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
+- He coined **"metacoding"** (vs "vibe coding") — using an LLM + IDE while **supervising/controlling the architecture from engineering knowledge**; Aaron praised the term. [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
+
 ## Sources
 
+- [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
 - [[raw/Claude Code integration - continued.md]]
 - [[raw/Irina_Pavel_Figma_React-February-4-2026.md]]
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]

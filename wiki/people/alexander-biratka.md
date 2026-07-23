@@ -3,7 +3,8 @@ type: person
 title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka, Alex Baratka, Alex Beratka, Alexander Berankov, Biratko, Alexander Biratko]
-source-count: 29
+disambiguation: "Alexander cluster (provisional — owner ruling pending): distinct JVL people sharing the given name Alexander. [[wiki/people/alexander-biratka.md|Alexander Biratka]] = Omni/Pixi framework & build engineer (aka Sasha; garbles Beratko/Baratka); [[wiki/people/alexander-korochkin.md|Alexander Korochkin]] = LGS QA-automation engineer (GitHub Alexander_K@JVL, read-only; aka Alexander K); [[wiki/people/alexander-tumanov.md|Alexander Tumanov]] = Minsk QA / data-center knowledge-capture hire (surname unverified). Resolve by context: Omni framework / Pixi / build → Biratka; LGS QA automation / read-only build consumer → Korochkin; manual-tester onboarding / data-center interviews → Tumanov. A further name 'Alexander Derok' (back-end build-integration / Java, per Val on Feb-6-2026) is unconfirmed — queued, not a page. Not [[wiki/people/alexei-khamin.md|Alexei Khamin]] (different name). Queue anything fitting none; never force-match."
+source-count: 30
 open-commitments: 1
 open-questions: 0
 ---
@@ -107,8 +108,13 @@ On a call [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] recorded to gener
 
 On the [[wiki/meetings/2026-02-03-claude-code-integration-continued.md|Feb-3 Claude Code workshop]] "Sasha" attended as one of the engineers being onboarded. Aaron used his testing practice as an example (Sasha runs **unit + integration tests** to verify libraries do what they should). Sasha raised the session's main push-back: the whole context still ends up "in the head of the person writing the prompt," and a long Claude session eventually **forgets** earlier instructions — so the prompter must keep directing the agent's attention to the specific area. Val agreed but pointed at the large-context future (Aaron's [[wiki/meetings/2026-02-02-knowledge-graph-tool-introduction.md|Feb-2 knowledge-graph tool]]). See [[wiki/topics/ai-assisted-development.md]] (Feb-3). [[raw/Claude Code integration - continued.md]]
 
+## Feb 6 2026 — named as a team member but absent (the "Alexander" confusion)
+
+On the [[wiki/meetings/2026-02-06-ui-claude-code-adaptation.md|Feb-6 UI/Claude-Code session]] his GitHub handle came up as **"Alexander_B@JVL"**; Val confirmed **"Alexander B is definitely part of the team. He's just not on the meeting with us right now."** Aaron's Claude Code run mislabelled an "Alexander" as QA-automation and then as a heavy **back-end build-integration / Java** contributor; Val resolved that the tool had **confused two different Alexanders** — the back-end role belongs to a separate "Alexander Derok" (transcribed, unconfirmed — queued) and the QA role to [[wiki/people/alexander-korochkin.md|Alexander Korochkin]] — **not to Biratka**. Recorded to prevent future mis-linking; see the disambiguation block. [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
+
 ## Sources
 
+- [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
 - [[raw/Claude Code integration - continued.md]]
 
 - [[raw/Anton_Liashkevich_Alexander_Biratko_about_OMNI-august-28-2025.md]]

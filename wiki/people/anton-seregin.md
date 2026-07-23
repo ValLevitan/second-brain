@@ -4,7 +4,7 @@ title: Anton Seregin
 date: 2026-07-13
 aliases: [Anton Seregin, Seregin, Anton Seryogin, Серёги, Серёгин]
 disambiguation: "Minsk payroll / React-TS front-end dev, this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 4
+source-count: 5
 ---
 
 # Anton Seregin
@@ -25,8 +25,13 @@ On the Omni setup-screens review ([[wiki/meetings/2025-04-24-omni-setup-screens-
 
 On the [[wiki/meetings/2026-02-04-figma-react-export-workflow.md|Feb-4 figma→React session]] Pavel confirmed Seregin as the person who does the **Figma design → React layout** work ("умеет это делать… знает, как это делается") and has historically done most of it (with [[wiki/people/ihar-hrybko.md|Ihar Hrybko]] taking part of it recently). Two changes: (1) JVL **moved Seregin off the machine setup screens** — a new React developer, [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]], now owns setup and Seregin acts as a **consultant over setup** rather than the main developer; (2) Val set the **first branch hand-off as Hrybko → Seregin**, wanting to watch Seregin accept the branch and "lay it onto React" (TypeScript committed to GitHub) and set up the preview tool. Reinforces Seregin as a **React/TypeScript front-end (layout) developer**. See [[wiki/topics/test-automation-strategy.md]] (Feb-4). [[raw/Irina_Pavel_Figma_React-February-4-2026.md]]
 
+## Feb 6 2026 — front-end setup-UI code owner (LGS repo)
+
+On the [[wiki/meetings/2026-02-06-ui-claude-code-adaptation.md|Feb-6 UI/Claude-Code session]] Aaron's Claude analysis of the LGS repo placed "Anton" as the **front-end setup-UI** code owner ("Anton's the front end set up UI"), and Hrybko named the front-end owner as Anton — consistent with his React/TypeScript front-end setup-screen role. He attended and asked what a "sub-agent" is. See [[wiki/topics/ai-assisted-development.md]] (Feb 6). [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
+
 ## Sources
 
+- [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
 - [[raw/minsk_staff_roster_2025_names-only.md]]
 - [[raw/flex_pay_scope_gap-mach-27-2025.md]]
 - [[raw/set_up_screen_omni-apr-24-2025.md]]

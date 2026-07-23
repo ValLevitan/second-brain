@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 80
+source-count: 81
 open-commitments: 1
 ---
 
@@ -234,8 +234,13 @@ On a two-segment session ([[wiki/meetings/2026-02-02-knowledge-graph-tool-introd
 
 On the [[wiki/meetings/2026-02-03-claude-code-integration-continued.md|Feb-3 working session]] (continuing a prior Claude Code onboarding not in the vault) Aaron coached the Minsk engineers on working with a coding agent — his **"AI sandwich"** (define → execute/generate → review-decide, human on both ends), **tests + developer-experience as engineered guardrails** ("sharpen your knives before you butcher the meat"), the **whiteboard→Claude→git decisions** capture flow, **JIRA-as-planning / GitHub-as-decision layer**, and **"think like a data scientist"** (the developer becomes a "data engineer for your AI teammate") — then ran a **live Claude Code exploration** of the LGS monorepo on [[wiki/people/ihar-hrybko.md|Ihar Hrybko]]'s machine (three 200k-token Explorer sub-agents auto-writing a `docs/` tree + test scaffolding; hampered by Windows/WSL problems). He generated his own slides live in Claude Desktop while teaching. §15.8 clear (vendor economics only). Substance on [[wiki/topics/ai-assisted-development.md]] (Feb-3). [[raw/Claude Code integration - continued.md]]
 
+## Feb 6 2026 — live LGS Claude-Code session + Claude Teams demo
+
+On the [[wiki/meetings/2026-02-06-ui-claude-code-adaptation.md|Feb-6 UI/Claude-Code session]] Aaron ran a live Claude Code session over the cloned LGS repo to turn the team's **implicit knowledge explicit** — collecting each engineer's self-description, then prompting Claude (with **multiple parallel instances / Explorer sub-agents**) to reconcile roles against git commit history and generate a **team-collaboration handbook** (roles/ownership, process handbook EN+RU, CODEOWNERS, PR/bug/feature templates, glossary, a Figma→React→back-end→CI→Docker→EGM pipeline doc), pushed as a **PR** the team voted to merge. He closed by demoing **Claude "Teams" (feature "released yesterday")** — autonomous agents that message each other via inboxes — tasking code-owner agents as **proxies of the team members** to mature the docs. Substance on [[wiki/topics/ai-assisted-development.md]] (Feb 6) and [[wiki/topics/github-access-and-security-model.md]] (Feb 6). [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
+
 ## Sources
 
+- [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
 - [[raw/Claude Code integration - continued.md]]
 - [[raw/Introduction to Knowledge Graph Tool-part-1-February-2-2026.md]]
 - [[raw/Introduction to Knowledge Graph Tool-part-2-February-2-2026.md]]

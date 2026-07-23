@@ -3,7 +3,7 @@ type: person
 title: Evgeny Kharetski
 date: 2025-07-10
 aliases: [Evgeny Kharetski, Evgeny Kharetsky, Evgeny Khoretsky, Kharevsky, Yauheni Kharetski, Kharetsky, Koretski, Koretsky, Korecki, Khorvatsky, Корецкий, Хорватский, Халецкий]
-source-count: 3
+source-count: 4
 disambiguation: "LGS developer (payroll "Kharetski Yauheni"), this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
 ---
 
@@ -22,8 +22,13 @@ He is a distinct third person from the two other "Zhenya" contractors ([[wiki/pe
 - **Feb 3.** He attended the [[wiki/meetings/2026-02-03-claude-code-integration-continued.md|Claude Code integration workshop]] as one of the Minsk engineers being onboarded (Aaron's "AI sandwich" teaching + the live LGS-monorepo run). [[raw/Claude Code integration - continued.md]]
 - **Feb 4.** Val cited Kharetski (garbled "Корецкий"/"хорватским"/"Халецкий" — §4 registry) as the reviewer in a demonstrated **Claude-Code PR-review loop**: [[wiki/people/ihar-hrybko.md|Hrybko]] opened a pull request to main; Kharetski got the signal from the hub, opened the PR, ran his **local Claude Code**, committed the resulting comments, and Hrybko then made the file commit to master. See [[wiki/topics/test-automation-strategy.md]] (Feb-4). [[raw/Irina_Pavel_Figma_React-February-4-2026.md]]
 
+## Feb 6 2026 — back-end owner of the LGS repo
+
+On the [[wiki/meetings/2026-02-06-ui-claude-code-adaptation.md|Feb-6 UI/Claude-Code session]] Evgeny **shared his screen** to walk Aaron through the LGS repo's README/docs, and was identified as the **back-end (Java) owner** on the repo (Aaron's Claude analysis: "Evgeny is the Java developer"). This is consistent with his LGS/Omni back-end role. See [[wiki/topics/ai-assisted-development.md]] (Feb 6). [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
+
 ## Sources
 
+- [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
 - [[raw/autotests_sync_meeting.md]]
 - [[raw/Claude Code integration - continued.md]]
 - [[raw/Irina_Pavel_Figma_React-February-4-2026.md]]

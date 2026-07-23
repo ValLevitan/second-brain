@@ -4,7 +4,7 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 39
+source-count: 40
 open-commitments: 1
 ---
 
@@ -84,8 +84,13 @@ On the Nov-11 graphics-spec call (with Val + [[wiki/people/pavel.md|Pavel Frolov
 
 - [ ] Irina Shishko (with Alexei Khamin) — specify the QA testing-hook requirements for verifying invoice state changes in the payment-hub ACH module — due unspecified — [[raw/Payment HUB_ACH module specification_05.11.25 .md]]
 
+## Feb 6 2026 — attended the UI/Claude-Code session
+
+On the [[wiki/meetings/2026-02-06-ui-claude-code-adaptation.md|Feb-6 UI/Claude-Code session]] Irina attended; Val observed she was "a little bit struggling" with the pace/English and suggested the team **huddle and go over it together afterward** (noting Evgeny Kharetski "gets everything"). See [[wiki/topics/ai-assisted-development.md]] (Feb 6). [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
+
 ## Sources
 
+- [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
 - [[raw/Claude Code integration - continued.md]]
 - [[raw/Irina_Pavel_Figma_React-February-4-2026.md]]
 - [[raw/Specs_graphics.md]]

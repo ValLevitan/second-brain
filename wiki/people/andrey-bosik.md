@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 50
+source-count: 51
 open-commitments: 6
 ---
 
@@ -151,8 +151,13 @@ On the two-segment [[wiki/meetings/2026-02-02-knowledge-graph-tool-introduction.
 
 On the [[wiki/meetings/2026-02-03-claude-code-integration-continued.md|Feb-3 Claude Code workshop]] Andrei was present in a support role — helping [[wiki/people/ihar-hrybko.md|Igor]] navigate WSL/terminal paths during the live LGS-monorepo run, and noting Val's fixes to the machine's tooling failures. He shared the practical habit of having Claude Code keep a **`./claude` folder doc of recurring rules/mistakes** that you periodically ask it to re-analyse and update so the same errors aren't repeated. (He is also the co-recipient, with Dmitri Kovalchuk, of Aaron's Feb-2 knowledge-graph tool that Val cited here as the large-context future.) See [[wiki/topics/ai-assisted-development.md]] (Feb-3). [[raw/Claude Code integration - continued.md]]
 
+## Feb 6 2026 — GitHub admin on the LGS/Claude-Code session
+
+On the [[wiki/meetings/2026-02-06-ui-claude-code-adaptation.md|Feb-6 UI/Claude-Code session]] Aaron's Claude analysis placed Andrei as the **GitHub admin** — one of the repo's admins, who **created and set up the repo** and manages access policies, pipelines and security-threat identification, with low code commits ("only touches gitignore"). Two concrete items (detail on [[wiki/topics/github-access-and-security-model.md]] Feb 6): he had set the GitHub auth timeout to **8 hours** (Aaron flagged frequent re-auth breaks agent tools), and he attributed the **"unnamed" leftover contributor** to the **Bitbucket→GitHub migration**, cautioning historical names may not be fully removable — against Val's clean-out and JVL-credentials-only directives. He agreed with Aaron that JVL should now write **rules for how it works with GitHub**. [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
+
 ## Sources
 
+- [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
 - [[raw/Claude Code integration - continued.md]]
 
 - [[raw/Introduction to Knowledge Graph Tool-part-1-February-2-2026.md]]

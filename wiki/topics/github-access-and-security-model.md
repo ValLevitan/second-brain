@@ -3,7 +3,7 @@ type: topic
 title: GitHub access and security model
 date: 2025-02-12
 aliases: [Codespaces, audit log, least privilege, Entra ID SSO, GitHub security, role-based access, access revocation]
-source-count: 1
+source-count: 2
 open-questions: 1
 ---
 
@@ -35,6 +35,13 @@ How JVL will control who can see and change code once its repositories live in t
 - Val repeatedly objected to a generic **"IT" / global administrator** account appearing in GitHub; he insists the identity should be the person (e.g. Andrei), not "IT." Andrei explained the account was created automatically by **Microsoft Entra ID** when SSO was configured. Aaron's position: with SSO set up correctly via the SAML trust you should not need a standalone JVL administrator account in GitHub at all — something in the current Entra/GitHub configuration is creating it. Homework: rebuild the org setup from scratch and eliminate the generic admin identity. [[raw/Check_in_on_GitHub_2025-02-12.md]]
 - Aaron pointed Andrei at the **"Well-Architected GitHub"** enterprise architecture guide (security/design/collaboration best practices, enterprise policies + checklist that repos can inherit) and reminded him that paid GitHub support should be used for hard setup problems. [[raw/Check_in_on_GitHub_2025-02-12.md]]
 
+## Feb 6 2026 — Bitbucket-migration leftover identities + JVL-credentials-only directive
+
+On the [[wiki/meetings/2026-02-06-ui-claude-code-adaptation.md|Feb-6-2026 UI/Claude-Code session]] Aaron's live Claude Code run over the LGS repo surfaced an **"unnamed" contributor** in the code-owner / commit history. [[wiki/people/andrey-bosik.md|Andrei Bosik]] explained it was **carried over from the Bitbucket→GitHub migration** ("a name from Bitbucket"), not a live account. Val pushed back hard — he had directed GitHub be "cleaned out" — and gave two directives: **clean out those leftover names**, and **establish the rule that nobody without JVL credentials can access GitHub**. Andrei cautioned that historical commit names may not be fully removable. [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
+
+- **Authentication timeout for agent tools.** Andrei had set the GitHub identification/auth timeout to **8 hours**; Aaron flagged that frequent re-authentication (being prompted again after ~20 minutes away) **breaks agentic coding tools**, which fail whenever continuous authentication drops — so auth stability is now an engineering concern, not just a convenience. [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
+- **Governance-as-code.** The same session committed a **CODEOWNERS file (file ownership + automatic reviewer assignment)**, **PR / bug-report / feature-request templates**, and a template-chooser config into the repo — moving access/ownership rules into the repo itself (the "well-formed GitHub project" scoring Aaron had pointed Andrei at earlier). Substance of the handbook is on [[wiki/topics/ai-assisted-development.md]] (Feb 6 2026). [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
+
 ## Open questions
 
 - Can GitHub **teams/groups** bundle users with shared access rights so managers don't set permissions per user per repository? Raised as unknown; to be researched. [[raw/Check_in_on_GitHub_2025-02-12.md]]
@@ -42,3 +49,4 @@ How JVL will control who can see and change code once its repositories live in t
 ## Sources
 
 - [[raw/Check_in_on_GitHub_2025-02-12.md]]
+- [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]

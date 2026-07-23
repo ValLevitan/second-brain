@@ -3,7 +3,7 @@ type: person
 title: Vladimir Samusenko
 date: 2026-02-04
 aliases: [Vladimir Samusenko, Vladimir, Владимир, Самусенко]
-source-count: 1
+source-count: 2
 ---
 
 # Vladimir Samusenko
@@ -14,6 +14,11 @@ Vladimir Samusenko is a **new React developer** on JVL's Minsk front-end team, w
 
 - On the [[wiki/meetings/2026-02-04-figma-react-export-workflow.md|Feb-4 figma→React session]] [[wiki/people/irina-shishko.md|Irina Shishko]] introduced him as "the new one who deals with the setup" — JVL **moved [[wiki/people/anton-seregin.md|Anton Seregin]] off setup**, so Seregin now acts as a **consultant over setup** rather than its main developer, and Samusenko is the primary developer. He works **in React** (confirmed by [[wiki/people/pavel.md|Pavel]]). [[wiki/people/val-levitan.md|Val]] said he would invite Vladimir to the Friday figma→React working session ("уже пригласил" — already invited). [[raw/Irina_Pavel_Figma_React-February-4-2026.md]]
 
+## Feb 6 2026 — confirmed front-end developer on the LGS repo
+
+On the [[wiki/meetings/2026-02-06-ui-claude-code-adaptation.md|Feb-6 UI/Claude-Code session]] Vladimir attended and was the **"unnamed front-end developer"** Aaron's Claude analysis initially found in the commit history — he identified himself ("I think it's me"). His commits were characterised as **front-end work** (login/denomination/printed-ticket screens, battery-health, refactoring, improving front-end architecture) — corroborating his React front-end role on the setup screens. [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
+
 ## Sources
 
+- [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
 - [[raw/Irina_Pavel_Figma_React-February-4-2026.md]]

@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 82
+source-count: 83
 open-commitments: 7
 open-questions: 0
 ---
@@ -222,8 +222,17 @@ Across the three ~7 AM ACH-module spec-review sessions ([[wiki/meetings/2025-11-
 - **Feb 3 (Claude Code workshop).** On the [[wiki/meetings/2026-02-03-claude-code-integration-continued.md|Feb-3 session]] Pavel gave the substantive engineering push-back — in the **whiteboard-photo debate** he argued the original photo may be safer than a pre-digested version (you can lose information processing it), and he reframed Aaron's "intentions" as **business requirements** that translate into architectural-decision requirements and tasks. [[raw/Claude Code integration - continued.md]]
 - **Feb 4 (figma→React).** On the [[wiki/meetings/2026-02-04-figma-react-export-workflow.md|Feb-4 session]] Pavel gave the architectural read on the figma→React pipeline (partial automation only — no business logic / data-binding in Figma yet; component-kit frameworks React may not know; AI can propose back-end correspondence/improvements once it sees the implementation). Val **deliberately keeps Pavel out of these figma working meetings** to reduce his load ("я специально вас на эти митинги не приглашаю… избавить вас от этого"); Pavel: "if interested, I'll watch the video" — continuing the Aug-2025 "narrow Pavel to a tighter box" theme. See [[wiki/topics/test-automation-strategy.md]] (Feb-4). [[raw/Irina_Pavel_Figma_React-February-4-2026.md]]
 
+## Feb 6 2026 — engineering read on RIS modernization
+
+On the [[wiki/meetings/2026-02-06-ris-modernization-operator-flexibility.md|Feb-6 RIS modernization meeting]] Pavel gave the engineering assessment (substance on [[wiki/topics/ris-remote-install-and-machine-states.md]]):
+
+- A **full manual mode** (entering every screen by hand) "will be very difficult and long a project"; the cheap path is to keep the **same RIS screens** and **enable editing on a small set of top fields** (e.g. progressive value, RTP per game). He and Val converged on a **flexible flag marking which screens are editable vs locked**. [[raw/RIS Modernization & Operator Flexibility Alignment.md]]
+- He raised the **sold-machine lease dilemma**: issue the lease **per machine** (a new software install then needs a new lease) or **per machine for any software until ~2029** — "a dilemma," not resolved. He also flagged that for a new owner to change settings without a manual mode, they'd need **access to JVL's cloud/server areas**. [[raw/RIS Modernization & Operator Flexibility Alignment.md]]
+- On reinitialisation after a **RAM clear**, he confirmed the machine's irrevocable ID relates to the **Dallas one-wire "cube" that holds the passport information** on the CPU board — the anchor that lets JVL restore a machine only to the state it was officially sold at. [[raw/RIS Modernization & Operator Flexibility Alignment.md]]
+
 ## Sources
 
+- [[raw/RIS Modernization & Operator Flexibility Alignment.md]]
 - [[raw/Claude Code integration - continued.md]]
 - [[raw/Irina_Pavel_Figma_React-February-4-2026.md]]
 - [[raw/JVL_Dwolla-november-5-2025.md]]
