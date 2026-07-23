@@ -4,7 +4,7 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 28
+source-count: 30
 open-commitments: 3
 open-questions: 0
 ---
@@ -120,8 +120,15 @@ A JIRA-sourced briefing prepared for [[wiki/people/aaron.md|Aaron]] ([[wiki/meet
 - **Status:** **7 To Do** (including API expansion for negative Flex-Port scenarios due **2/9**, TITO SAS integration, remote firmware triggering); **21 Closed / 2 Done** — a strong delivery track record on WSS-protocol expansion and kiosk features; recent bug fixes completed (**FP-516, FP-517, FP-518** — incorrect transaction status, cash balance after cancel, cash-category distribution). [[raw/Aaron_Briefing_FlexPay_FlexPort_WSS-February-5-2026.md]]
 - The briefing frames him as the **kiosk application developer** taking [[wiki/people/eugine-yavorski.md|Yavorski]]'s protocol messages and implementing them on the Flex-Pay terminal plus all server/backend integration — dependent on Yavorski for the protocol specification (see the single-point-of-knowledge note on [[wiki/people/eugine-yavorski.md]]). [[raw/Aaron_Briefing_FlexPay_FlexPort_WSS-February-5-2026.md]]
 
+## Feb 9 2026 — Claude Code onboarding + the company-wide-conventions push
+
+- **Onboarding session** ([[wiki/meetings/2026-02-09-claude-code-onboarding-chudinov.md]], 1h46m, transcribed "Dzmitry Chudzinau", [[wiki/people/pavel.md|Pavel]] translating): Chudinov had used Claude Code to generate a **Flex-POS server-connection feature** (a client connecting to the server from a non-registered terminal; environment built with **Docker**) — Claude generated the code + tests, he reviewed it by hand and had **ChatGPT/OpenAI compare his approach against Claude's** (OpenAI judged his own approach better), and had not yet opened a pull request. [[wiki/people/aaron.md|Aaron]] coached him on treating language models as "the new compiler layer" (curate intentions/specs; build linter/static-analysis/test guardrails; capture conventions as Claude Code "ways" and "skills"), and generated a **spring-coding-conventions** doc from Chudinov's constructor-dependency-injection / Spring best-practice preferences. Substance on [[wiki/topics/ai-assisted-development.md]] (Feb-9). [[raw/Claude_Code-Dzmitry.md]]
+- **Internal debrief** ([[wiki/meetings/2026-02-09-claude-code-chudinov-internal-debrief.md]], 12m, no Aaron): Chudinov argued the coding-conventions/rules document should live **"one level higher" as a company-wide JVL standard** shared across the ~ten Spring applications in development (not copied project-to-project, "otherwise one person won't follow it and it diverges"), to be worked out with **Andrei**; and that the team should try to build the framework themselves and escalate to Aaron only with a concrete question and a structured plan. [[raw/Claude_Code-Dzmitry (1).md]]
+
 ## Sources
 
+- [[raw/Claude_Code-Dzmitry.md]]
+- [[raw/Claude_Code-Dzmitry (1).md]]
 - [[raw/Aaron_Briefing_FlexPay_FlexPort_WSS-February-5-2026.md]]
 - [[raw/Payment HUB_ACH module specification_05.11.25 .md]]
 - [[raw/Payment HUB_ACH module specification_06.11.25.md]]

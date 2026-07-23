@@ -3,8 +3,8 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 81
-open-commitments: 1
+source-count: 83
+open-commitments: 2
 ---
 
 # Aaron
@@ -112,9 +112,15 @@ His surname is given as **Bockelie** on the Jan 21 continuous-delivery transcrip
 - **N8N + Pinecone (Apr 15):** screen-shared to build a RAG document-chatbot over Val's transcripts using the **N8N** automation platform + a **Pinecone** vector index + Google Drive + OpenAI embeddings/GPT-4o-mini; taught the embedding-model-must-match-the-index and input-sanitization lessons. See [[wiki/topics/transcript-knowledge-base-tooling.md]] and [[wiki/meetings/2025-04-15-n8n-pinecone-rag-setup.md]]. [[raw/pinecone_n8n_transcript_setup-apr-15-2025.md]]
 - **Verba/Weaviate + cloud hand-off (Apr 23):** demoed the open-source **Verba** RAG app on the **Weaviate** vector DB against ~384 of Val's transcript documents, walked Val's company-wide-knowledge-base thesis, and — when Val asked to scale it beyond his laptop — brought in [[wiki/people/andrey-bosik.md|Andrei Bosik]] to run it on JVL's AWS cloud in Docker; his **personal email aaronsb@gmail.com** was given for the doc-archive share. Also helped install the **Confluence MCP** on Val's laptop and reaffirmed the "run MCPs as Docker, not Node.js, so Watchtower keeps them current" rule. See [[wiki/topics/transcript-knowledge-base-tooling.md]] and [[wiki/meetings/2025-04-23-verba-weaviate-company-knowledge-base.md]]. [[raw/aaron_vector_knowledge_base-apr-23-2025.md]]
 
+## Feb 9–10 2026 — per-engineer Claude Code onboarding (Chudinov, Yavorski)
+
+- **Feb 9 — Chudinov onboarding** ([[wiki/meetings/2026-02-09-claude-code-onboarding-chudinov.md]], 1h46m, Pavel translating): Aaron coached back-end architect [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] on **language models as "the new compiler layer"** — write intentions/specs, build developer-experience guardrails (linters, static analysis, tests, doc strings) that carry the context, and codify conventions as Claude Code **"ways" (why) vs "skills" (how)** rather than reading every line by hand. He named **Python Vulture**, **cyclomatic complexity**, **Simian/SonarQube**, and a **`make`/lint** line-count pass; demoed his own **memory-graph acceleration** project (Rust cache over a Postgres graph DB, 5M-node L-system benchmark); pitched a command-line **ADR tool** as one-step, text-native architecture memory and the **Claude↔Gemini "cross-examination"** method; and generated a spring-coding-conventions doc into `docs/` (not `CLAUDE.md`, "too big"). Substance on [[wiki/topics/ai-assisted-development.md]] (Feb-9). §15.8 clear (Aaron coaching "very expensive," vendor economics; no figure). [[raw/Claude_Code-Dzmitry.md]]
+- **Feb 10 — Yavorski knowledge transfer** ([[wiki/meetings/2026-02-10-claude-code-yavorski-knowledge-transfer.md]], ~7m): [[wiki/people/eugine-yavorski.md|Yavorski]]'s Claude Code attempt built but did the wrong thing (logs to console) for lack of a **spec**; Aaron: "the JIRA issue became the specification." When Val reframed it as a **one-time knowledge transfer** from the contractor so JVL owns the project, Aaron proposed (and Val accepted) to **clone all of Yavorski's repos, set up the framework himself, and write pull requests for Yavorski to review** — starting from the JIRA issue. Substance on [[wiki/topics/ai-assisted-development.md]] (Feb-10). [[raw/Claude_Code-Yavorski.md]]
+
 ## Open commitments
 
 - [ ] Aaron — introduce Val to John Luke Peck / Critical Insight and schedule the call — due unspecified — [[raw/info_security_server_infrastructure.md]]
+- [ ] Aaron — clone all of Yavorski's FlexPort/FlexPay repos, set up the framework himself, and write pull requests for Yavorski to review (one-time knowledge transfer to JVL) — due unspecified — [[raw/Claude_Code-Yavorski.md]]
 
 ## History — 2024 and earlier (sources staged 2025-03-29)
 
@@ -240,6 +246,8 @@ On the [[wiki/meetings/2026-02-06-ui-claude-code-adaptation.md|Feb-6 UI/Claude-C
 
 ## Sources
 
+- [[raw/Claude_Code-Dzmitry.md]]
+- [[raw/Claude_Code-Yavorski.md]]
 - [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
 - [[raw/Claude Code integration - continued.md]]
 - [[raw/Introduction to Knowledge Graph Tool-part-1-February-2-2026.md]]
