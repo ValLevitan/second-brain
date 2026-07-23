@@ -3,8 +3,8 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 33
-open-commitments: 5
+source-count: 35
+open-commitments: 6
 open-questions: 7
 ---
 
@@ -221,8 +221,16 @@ A two-part Feb-9-2026 arc with the Georgia master operator **[[wiki/organization
 - **Data-sharing partnership (the fix).** JVL proposed placing machines in **tier-one locations alongside IGT/L&W/Aristocrat** and across all three tiers, trading **free trial machines, extended warranty, spare-parts kits, and first access to new games** (Fiery Ice Link, Jackpot Rush) for granular operational data. Sean agreed, offered historical baselines ($80/$140/$500 example locations), and to facilitate field visits. Val's directive to Felipe: stop relying on operator hearsay — get **into the locations** and take the numbers himself, biweekly. [[raw/Diamond_Shawn_Fellows_interview-February-9-2026.md]] [[raw/Exec_recap_Diamond_Amusement-February-9-2026.md]]
 - **Transactional suite + liquid-glass portfolio (previewed to Sean).** JVL previewed its own end-to-end **transactional product suite** (TITO, e-wallet, kiosk, POS card-dispensing, own merchant/processing) for the **July-1 Georgia gift-card** regime (statutory, no kiosk mandate; InComm serving 4,500+ locations), backward-compatible with dual- and single-SAS machines; and the next-gen **"liquid glass"** game portfolio (Fiery Ice Link, Jackpot Rush series, revamped Peak games). Rollout timeline in the summary reads beta/alpha ~May 2025 → full rollout end-2025 (dates as recorded; note the summary's dates trail the Feb-2026 meeting date). [[raw/Diamond_Shawn_Fellows_interview-February-9-2026.md]]
 
+## Feb 10 2026 — transactional go-to-market: sell through the master, credit-note pricing
+
+The day after the Diamond meeting, [[wiki/people/val-levitan.md|Val]] and [[wiki/people/juan-martinez.md|Juan]] worked out **how** to sell JVL's transactional-equipment line into Georgia ([[wiki/meetings/2026-02-10-ga-coam-transactional-go-to-market-strategy.md|Feb-10 call]]), directly answering [[wiki/people/sean-fellows.md|Sean]]'s Feb-9 concern that a slot manufacturer can't go directly to locations. The model: **route through the master operators, never around them**, and give operators genuine financial incentive to participate. Full device/pricing detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md|the FlexPay business-architecture topic]]. A separate **written strategy document** synthesizes the Feb-9 Diamond meeting and this call. [[raw/Strategy_transactional_GA-COAM-February-9-2026.md]] [[raw/JVL_Transactional_Strategy_Georgia-February-10-2026.md]]
+
+- **Why through the master.** Operators tolerate InComm going directly to 4,500+ locations because they see InComm as a bank / financial-services company, not a gaming rival; a slot manufacturer "does not have that luxury." Because the systems connect to **COAMS**, master involvement is effectively mandatory anyway; Sean left open a **turnkey service to smaller staff-less operators, with the master's day-one approval**. [[raw/Strategy_transactional_GA-COAM-February-9-2026.md]] [[raw/JVL_Transactional_Strategy_Georgia-February-10-2026.md]]
+- **The economic hooks.** POS retails ~$1,000, paid in full but offset by a **$1,000 credit note** against any JVL purchase (feels free, pulls repeat business); **$0.20 per card activation** paid to the master (also flushes out what InComm pays); **FlexPort** ~$1,000 with $700 credit (~$300 net); a stripped **FlexPay Lite** kiosk (screen + validator, no printer, phone QR codes); and a recycler-**ATM** path (progressing on Texas) that also enables InComm's coming gift-card-to-cash feature. Security (JVL integrates with the gaming system; InComm's handheld is manual/theft-prone) is the lead pitch; SAS-data-to-operators is offered with a **local-only or third-party-certified "Chinese wall"** to answer the "JVL knows too much" worry. [[raw/Strategy_transactional_GA-COAM-February-9-2026.md]] [[raw/JVL_Transactional_Strategy_Georgia-February-10-2026.md]]
+
 ## Open commitments
 
+- [ ] [[wiki/people/juan-martinez.md|Juan]] (with [[wiki/people/felipe-miranda.md|Felipe]]) — give comments on the Feb-10 transactional go-to-market model and reconvene with Val ("percolate on this… I think this is a good model") — due unspecified — [[raw/Strategy_transactional_GA-COAM-February-9-2026.md]]
 - [ ] [[wiki/people/felipe-miranda.md|Felipe]] — get into Diamond's locations and collect factual per-unit numbers himself (Val's directive), starting with the operators being called this week; follow up on transactional-product specs — due unspecified — [[raw/Exec_recap_Diamond_Amusement-February-9-2026.md]] [[raw/Diamond_Shawn_Fellows_interview-February-9-2026.md]]
 - [ ] [[wiki/people/juan-martinez.md|Juan]] — contact Intralot (via Matt Richardson) about the report errors and compare JVL's reports with Sean's master-level reports — due unspecified — [[raw/Exec_recap_Diamond_Amusement-February-9-2026.md]]
 - [x] Vlad (Vladislav Gurin) — produce a **block diagram of every JVL meter** (maximum set, proper names, used or not) for the Tuesday-11am follow-up (~June 17), so the team can agree which meter increments in the key-to-meter case — **discharged June 17** (Vlad presented the ~300-meter table; tests 1 & 2 passed) — [[raw/jp_meters-june-12-2025.md]] [[raw/Metering_class_3-june-17-2025.md]]
@@ -277,3 +285,5 @@ A two-part Feb-9-2026 arc with the Georgia master operator **[[wiki/organization
 - [[raw/Games_development_review (1).md]]
 - [[raw/Diamond_Shawn_Fellows_interview-February-9-2026.md]]
 - [[raw/Exec_recap_Diamond_Amusement-February-9-2026.md]]
+- [[raw/Strategy_transactional_GA-COAM-February-9-2026.md]]
+- [[raw/JVL_Transactional_Strategy_Georgia-February-10-2026.md]]

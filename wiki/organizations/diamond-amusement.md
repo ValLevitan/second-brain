@@ -2,7 +2,7 @@
 type: organization
 title: Diamond Amusement
 date: 2026-07-23
-aliases: [Diamond Amusement, Diamond, Diamond Amuse]
+aliases: [Diamond Amusement, Diamond, Diamond Amuse, Diamond Games]
 source-count: 3
 open-commitments: 3
 open-questions: 2
