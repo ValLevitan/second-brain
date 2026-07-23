@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, Copilot Studio, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest, LaTeX, printer tool, Ollama, llama.cpp, local inference, Code Llama, Hugging Face, Claude Code, AI sandwich, developer experience, think like a data scientist, sub-agents, verbose output, compiler layer, ways vs skills, ADR, cross-examination, Python Vulture, intelligence center, Waze system, ways framework, compiler stack diagram, module federation]
-source-count: 42
+source-count: 43
 ---
 
 # AI-assisted development adoption
@@ -276,6 +276,19 @@ A single ~2h11m morning working session in four recording segments ([[wiki/meeti
 
 §15.8 clear (consulting/tooling economics only; Aaron's "it happens monthly… help the bank account" line is a joke, no figures).
 
+## Feb 11 2026 — GitHub-ways follow-up: where developer ways live (user vs project scope)
+
+The short ~11m49s follow-up session ([[wiki/meetings/2026-02-11-github-ways-repository-structure.md]], 3:20 PM) [[wiki/people/val-levitan.md|Val]] set up so [[wiki/people/evgeny-kharetski.md|Kharetski]] could get his question answered directly, with [[wiki/people/aaron.md|Aaron]] and [[wiki/people/pavel.md|Pavel Frolov]]. It fills in the mechanics behind the "ways" system introduced earlier the same day.
+
+- **The question (Pavel).** Where should the ways JVL's developers write be kept — in **one separate repository holding all the ways**, or in a **special `.claude` directory in each repository** with ways designed for and relating only to that repo? [[raw/GitHub_Ways-February-11-2026.md]]
+- **Aaron's answer — `.claude` in the repo root.** "In the root of each repository, or technically in the root of every directory you want guidance in, you have a `.claude` directory… that's where **project-scope ways** can exist and are sensed and used." A **`.gitignore`** rule commits the ways into the repo while **ignoring developer-local files** (e.g. personal to-do lists), so "the ways make it into the repo" but local scratch work does not. [[raw/GitHub_Ways-February-11-2026.md]]
+- **User scope vs project scope (Anthropic's model).** `.claude` in your **home directory** is **user scope**; `.claude` in a **project directory** is **project scope**. "A lot of the consistency of ways actually lives in user scope." Waze **reads and incorporates both** at session time. In Aaron's setup the Waze machinery lives as a **submodule of `hooks`** inside home `.claude` (not directly in `.claude` "because of the way Claude has to execute"), with scripts running under the hood via the hooks, and **sub-modules for each ways group** — software-dev, SSH, ADR, GitHub. [[raw/GitHub_Ways-February-11-2026.md]]
+- **A way has two components: the text way + macros.** The first component is "just the way" — a text file / **prompt injection, just like a skill** in Claude Code. The second is **macros**: e.g. a `macro prepend` directive that "executes any macros for this way at the **beginning** rather than the end of the context." A macro can **detect whether the tooling exists in a project** and tell the way (Aaron's example: the ADR way) whether it is "ready to go" or say "tooling declined for this project — remove the no-cloud-tooling flag to enable." Aaron called it "a **programmatic, responsive, deterministic prompt** that creates things on the fly." [[raw/GitHub_Ways-February-11-2026.md]]
+- **The GitHub way's config-scoring macro.** The GitHub way has both a general way (works the same for all GitHub projects) and a macro that **uses the GitHub command-line tool to count the number of users** in a repo and decide whether it is a **solo or collaborative project**, plus scores the repo's configuration (has a **license, description, topic, code of conduct**, etc.). For a poorly-configured multi-user repo it will "**harass** the coding agent a lot" to fix it. These are **user scope** — they apply to every project the developer touches, "whether you have rights to do it or not." Aaron's rationale: "as a professional software engineer, I hate working in GitHub repos that aren't well configured, so I'm forcing Claude to take on my way of doing things — and my way is the user way." [[raw/GitHub_Ways-February-11-2026.md]]
+- **The JVL rollout plan (agreed).** Pavel's summary, confirmed by Aaron: take the **general part of all the ways as a separate repository JVL syncs with Aaron** (the user-scope Waze, which Aaron commits to "about every day"), and each project keeps **its own set of ways in the project layer**, living in the project but **injected into the session** at run time. Aaron stressed keeping the forked copy of the whole Waze repo up to date so JVL has "a **consistent expectation of what a developer should do at JVL** who are using the AI tools." For specialty needs a team can fork internally — e.g. **ways for non-developers** — and can **activate/deactivate whole sub-areas** (deactivate the software-engineering ways group, enable a legal or finance ways group). [[raw/GitHub_Ways-February-11-2026.md]]
+
+§15.8 clear (tooling/consulting content only, no figures).
+
 ## History — earlier AI-consultation artifacts (undated, pre-2025)
 
 - **SolidWorks integration memo from ChatGPT:** a reference document titled "Solid work integration and the overall architecture suggestion from ChatGPT" shows JVL (before the 2025 tooling push) using ChatGPT to draft an IT-integration architecture connecting **SolidWorks** (3D CAD) with **Atlassian Jira/Confluence** and **Microsoft Business Central** — file attachments/version control of CAD files, BOM synchronization into the ERP, middleware/connectors, OAuth security, monitoring, and staged testing. The content is generic AI output (no JVL-specific decisions); its durable value is evidence that JVL's CAD/PLM–ERP–Atlassian integration question was explored via ChatGPT. Undated; consistent with the ~2023–24 Atlassian/Business-Central era of [[wiki/projects/jvl-insights-knowledge-base.md]] (inference, flagged). [[raw/solid_work_integration_and_the_overall_architecture_suggesti_2025-03-29.md]]
@@ -287,6 +300,7 @@ A single ~2h11m morning working session in four recording segments ([[wiki/meeti
 - [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-2.md]]
 - [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-3.md]]
 - [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-4.md]]
+- [[raw/GitHub_Ways-February-11-2026.md]]
 - [[raw/Claude_Code-Dzmitry.md]]
 - [[raw/Claude_Code-Dzmitry (1).md]]
 - [[raw/Claude_Code-Yavorski.md]]

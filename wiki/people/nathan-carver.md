@@ -3,7 +3,7 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 22
+source-count: 23
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
 
@@ -77,8 +77,13 @@ On the [[wiki/meetings/2026-02-02-payment-hub-finance-reconciliation.md|Feb-2 pa
 
 On the [[wiki/meetings/2026-02-11-github-front-end-waze-setup.md|Feb-11 front-end Waze session]] (Nathan **not present**), [[wiki/people/aaron.md|Aaron]] noted while opening the **Flex-POS** monorepo that "somebody has accidentally committed the `.claude` directory in there… that would be Nathan Carver," and proposed folding Nathan's commands/config **into the Waze system**. Evidence that Nathan uses Claude Code and had set up per-repo Claude config on the Flex-POS repo. See [[wiki/topics/ai-assisted-development.md]] (Feb-11). [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-3.md]]
 
+## Feb 11 2026 — Jira sync with Val (IP1015 / BEP 2667)
+
+On a quick 3:59 PM check-in ([[wiki/meetings/2026-02-11-val-nathan-jira-sync.md]]) Val walked Nathan's Jira position live to confirm work was moving. Nathan's assignment sits under value stream **IP90 → IP436 → IP1015** with **seven BEPs**; he laid out a timeline for the first **5 features**, judged **2 duplicate** (to close), and had started coding **BEP 2667** (Val moved IP1015 and BEP 2667 to *in progress*). He deleted two empty placeholder subtasks, is linking requirements to the feature, and took the undertaking to **add acceptance criteria under BEP 2667** (and the other BEPs). The **location-invoice-generation** question — separate invoices/reconciliation in Business Central vs the payment hub — remains the open point of contention; Nathan's pre-work is to research MSBC payment-to-invoice posting options ahead of the rescheduled **Feb-16 3 PM** meeting. Substance on [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Feb-11). [[raw/Val_Nathan_Sync-February-11-2026.md]]
+
 ## Sources
 - [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-3.md]]
+- [[raw/Val_Nathan_Sync-February-11-2026.md]]
 - [[raw/Payment_Hub_Finance-February-2-2026.md]]
 - [[raw/JVL_Dwolla-november-5-2025.md]]
 - [[raw/Payment HUB_ACH module specification_05.11.25 .md]]
