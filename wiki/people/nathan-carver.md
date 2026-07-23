@@ -3,7 +3,7 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 21
+source-count: 22
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
 
@@ -73,7 +73,12 @@ Across the three ~7 AM ACH-module spec-review sessions Nathan is JVL's ACH techn
 
 On the [[wiki/meetings/2026-02-02-payment-hub-finance-reconciliation.md|Feb-2 payment-hub finance sync]] (with Val, [[wiki/people/alka-sood.md|Alka Sood]], [[wiki/people/sean-riley.md|Sean Riley]], [[wiki/people/juan-martinez.md|Juan Martinez]]) Nathan was the engineer explaining the payment-hub↔Business-Central mechanics. He positioned Payment Hub as **"the automation glue to Business Central"** (posting fees/payments via the MSBC API), diagnosed the missing link — **posting a payment to an invoice in MSBC does not tie it to the actual bank deposit** — and explained the traceability design: on individual location→wallet moves the **invoice ID rides as Dwolla's "correlation ID,"** but an aggregated wallet→JVL-bank transfer needs a JVL-generated **payment ID** linking that one deposit to its invoices (Dwolla won't do the linking). He took the undertaking to check whether the MSBC API supports the deposit↔invoice tie. Substance on [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Feb-2). §15.8 clear. [[raw/Payment_Hub_Finance-February-2-2026.md]]
 
+## Feb 11 2026 — committed a `.claude` directory to the Flex-POS repo
+
+On the [[wiki/meetings/2026-02-11-github-front-end-waze-setup.md|Feb-11 front-end Waze session]] (Nathan **not present**), [[wiki/people/aaron.md|Aaron]] noted while opening the **Flex-POS** monorepo that "somebody has accidentally committed the `.claude` directory in there… that would be Nathan Carver," and proposed folding Nathan's commands/config **into the Waze system**. Evidence that Nathan uses Claude Code and had set up per-repo Claude config on the Flex-POS repo. See [[wiki/topics/ai-assisted-development.md]] (Feb-11). [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-3.md]]
+
 ## Sources
+- [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-3.md]]
 - [[raw/Payment_Hub_Finance-February-2-2026.md]]
 - [[raw/JVL_Dwolla-november-5-2025.md]]
 - [[raw/Payment HUB_ACH module specification_05.11.25 .md]]

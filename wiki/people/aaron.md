@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 83
+source-count: 86
 open-commitments: 2
 ---
 
@@ -244,8 +244,15 @@ On the [[wiki/meetings/2026-02-03-claude-code-integration-continued.md|Feb-3 wor
 
 On the [[wiki/meetings/2026-02-06-ui-claude-code-adaptation.md|Feb-6 UI/Claude-Code session]] Aaron ran a live Claude Code session over the cloned LGS repo to turn the team's **implicit knowledge explicit** — collecting each engineer's self-description, then prompting Claude (with **multiple parallel instances / Explorer sub-agents**) to reconcile roles against git commit history and generate a **team-collaboration handbook** (roles/ownership, process handbook EN+RU, CODEOWNERS, PR/bug/feature templates, glossary, a Figma→React→back-end→CI→Docker→EGM pipeline doc), pushed as a **PR** the team voted to merge. He closed by demoing **Claude "Teams" (feature "released yesterday")** — autonomous agents that message each other via inboxes — tasking code-owner agents as **proxies of the team members** to mature the docs. Substance on [[wiki/topics/ai-assisted-development.md]] (Feb 6) and [[wiki/topics/github-access-and-security-model.md]] (Feb 6). [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
 
+## Feb 11 2026 — GitHub front-end Waze setup (compiler-stack + ways system)
+
+On the [[wiki/meetings/2026-02-11-github-front-end-waze-setup.md|Feb-11 front-end session]] with [[wiki/people/anton-seregin.md|Anton Seregin]], [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]], [[wiki/people/pavel.md|Pavel]] and Val, Aaron taught his **compiler-stack layer diagram** ("a language model is a machine that compiles natural language into source code") and his **Waze ("ways") system** — an overlay on Claude Code where **skills = how** and **ways = why** (documentation / pull-request / release ways; repo/project/user scopes), traceable back through a **regulatory → requirements → policy → way → context-injection** chain (SAS / SOC 2 examples). He argued GitHub is the shared decision space ("any decision spoken into the air disappears; any decision written in GitHub is available for capture"), then ran a **live Waze/ADR conversion** of Anton's infrastructure-orchestration-core front-end repo (chose ADR domains, wrote an inaugural ADR, created local build/front-end/micro-front-end ways, slimmed the CLAUDE.md) — the run stalled on the repo's auth/MFA/network problems and the PR never executed. He set himself up as "the senior engineer for AI" who approves the team's pull requests, told JVL it must enable **forking of public repos** so the team can sync his (daily-updated) Waze, and flagged that [[wiki/people/nathan-carver.md|Nathan Carver]] had committed a `.claude` directory into the Flex-POS monorepo. Substance on [[wiki/topics/ai-assisted-development.md]] (Feb-11). §15.8 clear (tooling/consulting economics; the "help the bank account" line is a joke). [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-2.md]] [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-3.md]] [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-4.md]]
+
 ## Sources
 
+- [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-2.md]]
+- [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-3.md]]
+- [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-4.md]]
 - [[raw/Claude_Code-Dzmitry.md]]
 - [[raw/Claude_Code-Yavorski.md]]
 - [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]

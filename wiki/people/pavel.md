@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 85
+source-count: 87
 open-commitments: 7
 open-questions: 0
 ---
@@ -235,8 +235,14 @@ On the [[wiki/meetings/2026-02-06-ris-modernization-operator-flexibility.md|Feb-
 - On [[wiki/people/dmitri-chudinov.md|Chudinov]]'s Claude Code onboarding ([[wiki/meetings/2026-02-09-claude-code-onboarding-chudinov.md]], 1h46m) Pavel was the English↔Russian translator between [[wiki/people/aaron.md|Aaron]] and Chudinov, and endorsed the "one more layer of abstraction" framing. Val gave him a durable **corporate mandate**: build and **own** an "intelligence center" — an intelligent system sitting on top of every developer's and designer's GitHub giving a **daily per-person productivity summary** ("put out my tentacles into everybody's GitHub"); Val is building it so he can "step aside while the company functions." Val told him these Aaron sessions must become **Pavel's** meetings — he schedules them, keeps them efficient, cuts them toward **half an hour**, drives the agreed items, and identifies one or two engineering **leaders**. Substance on [[wiki/topics/ai-assisted-development.md]] (Feb-9). [[raw/Claude_Code-Dzmitry.md]]
 - In the same-day internal debrief ([[wiki/meetings/2026-02-09-claude-code-chudinov-internal-debrief.md]], 12m, no Aaron) Val directed Pavel to lean **less** on the expensive Aaron consultation — split internal coaching between Chudinov and [[wiki/people/alexander-biratka.md|Biratka]], involve Andrei and Bosik, use a cheaper AI for dilemmas, define his own "ways," and build his own GitHub-monitoring tool; next meeting set for the 16th, 9:15–10:00. [[raw/Claude_Code-Dzmitry (1).md]]
 
+## Feb 11 2026 — GitHub front-end Waze setup (translator/lead)
+
+On the [[wiki/meetings/2026-02-11-github-front-end-waze-setup.md|Feb-11 front-end Waze session]] Pavel was Aaron's English↔Russian translator and steered the front-end team ([[wiki/people/anton-seregin.md|Seregin]], [[wiki/people/vladimir-samusenko.md|Samusenko]]) through the compiler-stack / ways teaching, then **left partway** to help translate for another team. He is responsible for making sure the developers get the ongoing updated Waze version and relayed [[wiki/people/evgeny-kharetski.md|Evgeniy Kharetski]]'s question about ways-versioning. He also described the current front-end work: Vladimir transferring the old machine-setup design to the new Figma design, Anton building the **Flex POS** server-part / registration / location-management front end. Substance on [[wiki/topics/ai-assisted-development.md]] (Feb-11). [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-2.md]] [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-3.md]]
+
 ## Sources
 
+- [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-2.md]]
+- [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-3.md]]
 - [[raw/Claude_Code-Dzmitry.md]]
 - [[raw/Claude_Code-Dzmitry (1).md]]
 - [[raw/RIS Modernization & Operator Flexibility Alignment.md]]

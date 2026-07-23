@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 51
+source-count: 52
 open-commitments: 6
 ---
 
@@ -155,8 +155,13 @@ On the [[wiki/meetings/2026-02-03-claude-code-integration-continued.md|Feb-3 Cla
 
 On the [[wiki/meetings/2026-02-06-ui-claude-code-adaptation.md|Feb-6 UI/Claude-Code session]] Aaron's Claude analysis placed Andrei as the **GitHub admin** — one of the repo's admins, who **created and set up the repo** and manages access policies, pipelines and security-threat identification, with low code commits ("only touches gitignore"). Two concrete items (detail on [[wiki/topics/github-access-and-security-model.md]] Feb 6): he had set the GitHub auth timeout to **8 hours** (Aaron flagged frequent re-auth breaks agent tools), and he attributed the **"unnamed" leftover contributor** to the **Bitbucket→GitHub migration**, cautioning historical names may not be fully removable — against Val's clean-out and JVL-credentials-only directives. He agreed with Aaron that JVL should now write **rules for how it works with GitHub**. [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
 
+## Feb 11 2026 — manual Waze-repo sync (fork blocker)
+
+On the [[wiki/meetings/2026-02-11-github-front-end-waze-setup.md|Feb-11 front-end Waze session]] (Andrei **not present**), Pavel explained that JVL **cannot fork** Aaron's Waze repo, so **Andrei copied-and-pasted it into JVL's internal** and makes updates manually when he sees changes on Aaron's side. [[wiki/people/aaron.md|Aaron]]'s directive: JVL must **configure its GitHub Enterprise environment to allow forking of public repositories** so each engineer forks and syncs the (daily-updated) Waze themselves rather than depending on Andrei's manual copy — the same "don't passively receive it from the IT team" point. See [[wiki/topics/ai-assisted-development.md]] (Feb-11). [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-2.md]]
+
 ## Sources
 
+- [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-2.md]]
 - [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
 - [[raw/Claude Code integration - continued.md]]
 

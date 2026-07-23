@@ -4,7 +4,7 @@ title: Anton Seregin
 date: 2026-07-13
 aliases: [Anton Seregin, Seregin, Anton Seryogin, Серёги, Серёгин]
 disambiguation: "Minsk payroll / React-TS front-end dev, this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 5
+source-count: 8
 ---
 
 # Anton Seregin
@@ -29,6 +29,10 @@ On the [[wiki/meetings/2026-02-04-figma-react-export-workflow.md|Feb-4 figma→R
 
 On the [[wiki/meetings/2026-02-06-ui-claude-code-adaptation.md|Feb-6 UI/Claude-Code session]] Aaron's Claude analysis of the LGS repo placed "Anton" as the **front-end setup-UI** code owner ("Anton's the front end set up UI"), and Hrybko named the front-end owner as Anton — consistent with his React/TypeScript front-end setup-screen role. He attended and asked what a "sub-agent" is. See [[wiki/topics/ai-assisted-development.md]] (Feb 6). [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
 
+## Feb 11 2026 — front-end repos converted to the Waze system
+
+On the [[wiki/meetings/2026-02-11-github-front-end-waze-setup.md|Feb-11 GitHub front-end Waze setup]] Seregin is the lead front-end developer being onboarded to [[wiki/people/aaron.md|Aaron]]'s Waze/"ways" system (substance on [[wiki/topics/ai-assisted-development.md]] Feb-11). He confirmed he works on **Flex POS** (most pages complete) and is about to start actively developing the **infrastructure-orchestration-core front end** — a **Webpack module-federation** app serving multiple micro front-ends by access control, Docker-deployable. Aaron cloned that repo live and had Claude + Waze scaffold an ADR system, an inaugural ADR, local build/front-end/micro-front-end ways, and a slimmed CLAUDE.md (the run then stalled on auth/network problems). His homework: accept and "play with" the converted repo, then open his own pull request in a branch and share it via chat for Aaron's review. He develops on **Windows + WSL/Ubuntu** running Claude Code. [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-3.md]] [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-2.md]] [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-4.md]]
+
 ## Sources
 
 - [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
@@ -36,3 +40,6 @@ On the [[wiki/meetings/2026-02-06-ui-claude-code-adaptation.md|Feb-6 UI/Claude-C
 - [[raw/flex_pay_scope_gap-mach-27-2025.md]]
 - [[raw/set_up_screen_omni-apr-24-2025.md]]
 - [[raw/Irina_Pavel_Figma_React-February-4-2026.md]]
+- [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-2.md]]
+- [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-3.md]]
+- [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-4.md]]
