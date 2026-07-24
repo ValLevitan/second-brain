@@ -52,5 +52,8 @@ Format: `raw/<skipped file>` — source of record `raw/<cited fuller file>` — 
 ### Batch 98
 - `raw/responsibilitie_split_Yavorski_Chudinov-February-5-2026.md` — SoR `raw/Aaron_Briefing_FlexPay_FlexPort_WSS-February-5-2026.md` — derived-document family member (§12): a ~1.2KB prose summary of the Feb-5 Aaron WSS responsibility-split briefing (opens "How the responsibilities are split between Eugune Yavorski and Dzime Chudinov. (Detailes are in the attached)"). Content is a subset of the briefing — Yavorski owns Flex-Port + WSS protocol spec, Chudinov owns Flex-Pay kiosk + backend, WSS is the contract, Chudinov "21 closed + 2 done", single-point-of-knowledge risk. Folded into the stub `wiki/meetings/2026-02-05-flexpay-flexport-wss-responsibility-briefing.md` (named there as the not-separately-cited derived-summary companion) and noted on `wiki/topics/flexpay-business-architecture-payout-devices.md`. NO separate stub.
 
+### Batch 106
+- `raw/Claude_Code_Implementation-Dzima_Chudinov.md` — no substance (30s greeting-only aborted-start fragment; Val / Pavel Frolov / Dzmitry Chudzinau, Feb-16 2:17pm) — no stub.
+
 ### Out-of-scope exclusions (non-JVL content — not ingested, not a §12 dup)
 - `raw/koenigsegg_regera-verbal_orgasm-may-21-2025.md` — **OUT OF SCOPE (not a JVL meeting).** A YouTube-style narration/review of the Koenigsegg Regera hypercar ("…a bunch of Swedish engineers… 1,500 horsepower"), mis-filed into the May-2025 transcripts folder. Not a JVL business meeting, not §15.8-sensitive — simply off-topic per §1 scope. Excluded (recorded here so the pending-sweep and full-year no-file-loss audit don't re-flag it). Found in the 2025-complete full-year sweep, 2026-07-20.

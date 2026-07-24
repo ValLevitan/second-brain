@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 86
+source-count: 87
 open-commitments: 2
 ---
 
@@ -248,8 +248,13 @@ On the [[wiki/meetings/2026-02-06-ui-claude-code-adaptation.md|Feb-6 UI/Claude-C
 
 On the [[wiki/meetings/2026-02-11-github-front-end-waze-setup.md|Feb-11 front-end session]] with [[wiki/people/anton-seregin.md|Anton Seregin]], [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]], [[wiki/people/pavel.md|Pavel]] and Val, Aaron taught his **compiler-stack layer diagram** ("a language model is a machine that compiles natural language into source code") and his **Waze ("ways") system** — an overlay on Claude Code where **skills = how** and **ways = why** (documentation / pull-request / release ways; repo/project/user scopes), traceable back through a **regulatory → requirements → policy → way → context-injection** chain (SAS / SOC 2 examples). He argued GitHub is the shared decision space ("any decision spoken into the air disappears; any decision written in GitHub is available for capture"), then ran a **live Waze/ADR conversion** of Anton's infrastructure-orchestration-core front-end repo (chose ADR domains, wrote an inaugural ADR, created local build/front-end/micro-front-end ways, slimmed the CLAUDE.md) — the run stalled on the repo's auth/MFA/network problems and the PR never executed. He set himself up as "the senior engineer for AI" who approves the team's pull requests, told JVL it must enable **forking of public repos** so the team can sync his (daily-updated) Waze, and flagged that [[wiki/people/nathan-carver.md|Nathan Carver]] had committed a `.claude` directory into the Flex-POS monorepo. Substance on [[wiki/topics/ai-assisted-development.md]] (Feb-11). §15.8 clear (tooling/consulting economics; the "help the bank account" line is a joke). [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-2.md]] [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-3.md]] [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-4.md]]
 
+## Feb 16 2026 — JIRA acceptance-criteria custom-field migration method
+
+- On a ~1m20s clip ([[wiki/meetings/2026-02-16-val-aaron-jira-acceptance-criteria-migration.md]], 1:12pm) Aaron gave Val a **lossless method to retire JIRA's "acceptance criteria" custom field**: have Claude write a script that **enumerates every issue with the field populated (including closed ones)** and downloads the data, **process it offline** to find the per-issue changes, then **transform in batches** by appending each issue's acceptance-criteria content to the **end of the main issue description**, **verify against a local checklist**, and only then **delete the custom field** ("this way you won't lose any data"). Antecedent to the Feb-27 2026 "Review custom fields JIRA" work. Substance on [[wiki/topics/ai-assisted-development.md]] (Feb-16). §15.8 clear. [[raw/Val—Aaron.md]]
+
 ## Sources
 
+- [[raw/Val—Aaron.md]]
 - [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-2.md]]
 - [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-3.md]]
 - [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-4.md]]

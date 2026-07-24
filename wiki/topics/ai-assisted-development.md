@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, Copilot Studio, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest, LaTeX, printer tool, Ollama, llama.cpp, local inference, Code Llama, Hugging Face, Claude Code, AI sandwich, developer experience, think like a data scientist, sub-agents, verbose output, compiler layer, ways vs skills, ADR, cross-examination, Python Vulture, intelligence center, Waze system, ways framework, compiler stack diagram, module federation]
-source-count: 43
+source-count: 44
 ---
 
 # AI-assisted development adoption
@@ -289,6 +289,15 @@ The short ~11m49s follow-up session ([[wiki/meetings/2026-02-11-github-ways-repo
 
 §15.8 clear (tooling/consulting content only, no figures).
 
+## Feb 16 2026 — retiring a JIRA custom field with a Claude-written migration script
+
+A ~1m20s clip ([[wiki/meetings/2026-02-16-val-aaron-jira-acceptance-criteria-migration.md]]) in which [[wiki/people/aaron.md|Aaron]] gives [[wiki/people/val-levitan.md|Val]] a lossless method to retire JIRA's **"acceptance criteria" custom field** — a concrete instance of using a coding agent for a data-migration chore. [[raw/Val—Aaron.md]]
+
+- **Preserve before you delete.** Aaron's warning: many issues have the acceptance-criteria field filled out, so before retiring the field you must preserve that information rather than dropping it. [[raw/Val—Aaron.md]]
+- **The method (Claude writes the script).** Have Claude write a script that **enumerates and finds every issue with the field populated** — **including all the closed ones** — and **downloads all that data**; **process it offline** to identify, per issue, what needs to change; then run a **transformation in batches** that takes the contents of the acceptance-criteria custom field and **appends it to the end of the main issue description**. [[raw/Val—Aaron.md]]
+- **Verify, then delete.** After each batch, **update a local checklist/list of the items** to confirm the move actually happened; only once verified do you **delete the acceptance-criteria custom field**. "This way you won't lose any data." [[raw/Val—Aaron.md]]
+- **Antecedent.** This is the groundwork for the later **Feb-27 2026 "Review custom fields JIRA"** work (future batch) — the same custom-field cleanup carried forward. [[raw/Val—Aaron.md]]
+
 ## History — earlier AI-consultation artifacts (undated, pre-2025)
 
 - **SolidWorks integration memo from ChatGPT:** a reference document titled "Solid work integration and the overall architecture suggestion from ChatGPT" shows JVL (before the 2025 tooling push) using ChatGPT to draft an IT-integration architecture connecting **SolidWorks** (3D CAD) with **Atlassian Jira/Confluence** and **Microsoft Business Central** — file attachments/version control of CAD files, BOM synchronization into the ERP, middleware/connectors, OAuth security, monitoring, and staged testing. The content is generic AI output (no JVL-specific decisions); its durable value is evidence that JVL's CAD/PLM–ERP–Atlassian integration question was explored via ChatGPT. Undated; consistent with the ~2023–24 Atlassian/Business-Central era of [[wiki/projects/jvl-insights-knowledge-base.md]] (inference, flagged). [[raw/solid_work_integration_and_the_overall_architecture_suggesti_2025-03-29.md]]
@@ -296,6 +305,7 @@ The short ~11m49s follow-up session ([[wiki/meetings/2026-02-11-github-ways-repo
 
 ## Sources
 
+- [[raw/Val—Aaron.md]]
 - [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-1.md]]
 - [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-2.md]]
 - [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-3.md]]
