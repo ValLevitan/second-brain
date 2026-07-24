@@ -3,7 +3,7 @@ type: person
 title: Alka Sood
 date: 2026-07-14
 aliases: [Alka Sood, Alka, Cogna]
-source-count: 15
+source-count: 17
 open-commitments: 16
 ---
 
@@ -110,8 +110,13 @@ On the [[wiki/meetings/2025-11-04-finance-recurring-loans-consolidation.md|Nov-4
 
 On the [[wiki/meetings/2026-02-02-payment-hub-finance-reconciliation.md|Feb-2 payment-hub finance sync]] (with Val, [[wiki/people/nathan-carver.md|Nathan Carver]], [[wiki/people/sean-riley.md|Sean Riley]], [[wiki/people/juan-martinez.md|Juan Martinez]]) Alka pressed the accounting requirement: she wants a daily **"payout report"** — one summary (a **sales receipt**, not 100 individual invoices) she can match to the bulk deposit, drilling into Payment Hub only when it doesn't reconcile — citing that she does exactly this for other clients paying via Shopify/Stripe (record a payout report, match net-of-fees to the bank transfer). Val overrode her framing that "Payment Hub does all the reconciliations," insisting **reconciliation/posting live in Business Central** and Payment Hub stay a "transport." Substance on [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Feb-2). §15.8 clear. [[raw/Payment_Hub_Finance-February-2-2026.md]]
 
+## Feb 18 2026 — leaving JVL (last day Feb 28)
+
+Noted in passing on the [[wiki/meetings/2026-02-18-val-nathan-business-central-sync.md|Feb-18 Val↔Nathan Business-Central sync]]: **Alka is leaving JVL, with the 28th her last day.** Her absence is why the Feb-16 payment-hub↔Business-Central reconciliation meeting did not happen; Val added that she "wouldn't be able to help anyway" on that particular MSBC-posting question. §15.8 clear. [[raw/Nate_Val_Sync-February-18-2026.md]]
+
 ## Sources
 
+- [[raw/Nate_Val_Sync-February-18-2026.md]]
 - [[raw/Payment_Hub_Finance-February-2-2026.md]]
 - [[raw/cash_forecast_till_2027-september-16-2025.md]]
 - [[raw/finance_recurring_meeting-october-7-2025.md]]

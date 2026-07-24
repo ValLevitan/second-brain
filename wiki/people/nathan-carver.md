@@ -3,7 +3,7 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 23
+source-count: 24
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
 
@@ -81,9 +81,14 @@ On the [[wiki/meetings/2026-02-11-github-front-end-waze-setup.md|Feb-11 front-en
 
 On a quick 3:59 PM check-in ([[wiki/meetings/2026-02-11-val-nathan-jira-sync.md]]) Val walked Nathan's Jira position live to confirm work was moving. Nathan's assignment sits under value stream **IP90 → IP436 → IP1015** with **seven BEPs**; he laid out a timeline for the first **5 features**, judged **2 duplicate** (to close), and had started coding **BEP 2667** (Val moved IP1015 and BEP 2667 to *in progress*). He deleted two empty placeholder subtasks, is linking requirements to the feature, and took the undertaking to **add acceptance criteria under BEP 2667** (and the other BEPs). The **location-invoice-generation** question — separate invoices/reconciliation in Business Central vs the payment hub — remains the open point of contention; Nathan's pre-work is to research MSBC payment-to-invoice posting options ahead of the rescheduled **Feb-16 3 PM** meeting. Substance on [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Feb-11). [[raw/Val_Nathan_Sync-February-11-2026.md]]
 
+## Feb 18 2026 — Business-Central sync: BEP 2667 done, BEP 2692 next
+
+On a ~32m check-in with Val ([[wiki/meetings/2026-02-18-val-nathan-business-central-sync.md]], 4:59 PM) Nathan reported the concrete progress since Feb-11: he has **built the location-invoice-generation service — BEP 2667 — and it is ready for review** (code committed/pushed, a pull request awaiting [[wiki/people/pavel.md|Pavel]]'s code-accept; no QA/system acceptance yet because the other systems aren't ready, so Pavel will build mocks with the location manager as the first integration point). The service pulls a location's data (from the "location manager") and the day's tickets, and generates one invoice for that location, exposed via a REST API — living in the payment hub's **"location billing"** service (three payment-hub actors: ticket service, location manager, location billing; a job orchestrator sequences them). The **next step is BEP 2692 — posting the invoice into MSBC** so it becomes a real accounting record; Nathan is only now starting his MSBC work (deferred earlier because the meeting slipped, so he used the time on 2667). He drew the **traceability-vs-reconciliation** distinction — the payment-hub DB gives an audit trail from a bank deposit back to every ticket, but that is not accounting reconciliation, which stays in Business Central. The concrete MSBC questions he must answer: can MSBC post that funds moved for an invoice **without closing it** (then close it on a second "money received" post), and can it **split one bulk end-of-day deposit across its constituent invoices**, or must JVL move per-location deposits instead. The reconciliation *process* itself remains unagreed by finance. Substance on [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Feb-18). §15.8 clear. [[raw/Nate_Val_Sync-February-18-2026.md]]
+
 ## Sources
 - [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-3.md]]
 - [[raw/Val_Nathan_Sync-February-11-2026.md]]
+- [[raw/Nate_Val_Sync-February-18-2026.md]]
 - [[raw/Payment_Hub_Finance-February-2-2026.md]]
 - [[raw/JVL_Dwolla-november-5-2025.md]]
 - [[raw/Payment HUB_ACH module specification_05.11.25 .md]]
