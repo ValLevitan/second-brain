@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 87
+source-count: 89
 open-commitments: 7
 open-questions: 0
 ---
@@ -239,8 +239,16 @@ On the [[wiki/meetings/2026-02-06-ris-modernization-operator-flexibility.md|Feb-
 
 On the [[wiki/meetings/2026-02-11-github-front-end-waze-setup.md|Feb-11 front-end Waze session]] Pavel was Aaron's English↔Russian translator and steered the front-end team ([[wiki/people/anton-seregin.md|Seregin]], [[wiki/people/vladimir-samusenko.md|Samusenko]]) through the compiler-stack / ways teaching, then **left partway** to help translate for another team. He is responsible for making sure the developers get the ongoing updated Waze version and relayed [[wiki/people/evgeny-kharetski.md|Evgeniy Kharetski]]'s question about ways-versioning. He also described the current front-end work: Vladimir transferring the old machine-setup design to the new Figma design, Anton building the **Flex POS** server-part / registration / location-management front end. Substance on [[wiki/topics/ai-assisted-development.md]] (Feb-11). [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-2.md]] [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-3.md]]
 
+## Feb 12 2026 — Genadi's JIRA-task partner; owner of the memory-adapter fix
+
+On the two Feb-12 [[wiki/people/genadi-peari.md|Genadi Peari]] calls:
+- Val wants **Genadi to write his JIRA tasks with Pavel**, using the recorded-conversation → AI-drafts-the-tasks method Val says "I and Pavel and Irina found" (talk it through, draft, correct, finalize, then have Claude open the tasks in Jira — "Pavel is excellent at this already"). [[raw/Call_Genadi_Peari-February-12-2026-1.md]]
+- On the memory-adapter design decision (mount the SD as SATA, never through a PCIe adapter), Val will email the transcript to **Pavel** (and Pyramid + Ivan) to open a ticket, and **Pavel is to spec/implement the small Linux change** so the device is read as SATA. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Feb-12). [[raw/Call_Genadi_Peari-February-12-2026-2.md]]
+
 ## Sources
 
+- [[raw/Call_Genadi_Peari-February-12-2026-1.md]]
+- [[raw/Call_Genadi_Peari-February-12-2026-2.md]]
 - [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-2.md]]
 - [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-3.md]]
 - [[raw/Claude_Code-Dzmitry.md]]

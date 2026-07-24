@@ -4,7 +4,7 @@ title: Anton Leshkevich
 date: 2025-01-21
 aliases: [Anton Leshkevich, Anton, Antoine, Anton Dmishkevich, Дмишкевич, Дмишкевичем, Liashkevich, Anton Liashkevich]
 disambiguation: "Minsk engineer (Omni/RGS), this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 18
+source-count: 19
 open-commitments: 1
 open-questions: 0
 ---
@@ -78,8 +78,13 @@ On the [[wiki/meetings/2025-08-07-player-behavior-simulator.md|Aug-7 Player Beha
 - **Aug 27 (written Q&A with [[wiki/people/val-levitan.md|Val]] — [[wiki/meetings/2025-08-27-anton-val-spec-tribal-knowledge.md]]).** Anton corroborated Val's premise that a developer cannot code without a spec (even an unwritten in-mind one), so JVL's undocumented specs are **tribal knowledge**. Concrete cost he gave: on the **NAD** project he unknowingly re-wrote code that already existed because a **math-engine-message** sub-module lacked docs after **Valentin** left, and he chose not to risk extending the critical existing code without documentation. He agreed his "going away to think HOW" is itself an in-mind spec, and that recording him explaining the HOW to **Biratka** and having AI format it would reach a usable first-draft spec over a few iterations. Detail on [[wiki/decisions/2025-04-03-jira-capability-level-and-github-mapping.md]]. [[raw/transcript_anton_val_spec-august-27-2025.md]]
 - **Aug 28 (recording with [[wiki/people/alexander-biratka.md|Biratka]], 1:02 PM — [[wiki/meetings/2025-08-28-omni-animation-architecture-biratka.md]]).** Anton executed the method: he opened the call by saying it was **being recorded to generate a technical specification**, then had Biratka explain Omni's animation architecture (Spine/video/Unity-native animations, the Unity→JSON exporter, spinner elements, the animation-controller state machine and its transition events). Substance on [[wiki/topics/omni-core-advancement-and-game-templating.md]]. (Filename spells him "Liashkevich" — a transcription variant of Leshkevich, added to aliases.) [[raw/Anton_Liashkevich_Alexander_Biratko_about_OMNI-august-28-2025.md]]
 
+## Feb 12 2026 — shader feasibility; inheriting Igor Metelski's South Dakota work
+
+On the [[wiki/meetings/2026-02-12-game-development-review.md|Feb-12 review]] (segment 1) Anton was called in for the liquid-glass **shader question**: custom shaders are **not used in H Studio**, but were possible in the online/"big CGS" engine (he once wrote a symbol-shadow shader) — though a glass-refraction shader is far more complex; he couldn't say for Omni ("ask Alexander"). See [[wiki/topics/slot-game-design-principles.md]] (Feb-12). Separately, with [[wiki/people/igor-metelski.md|Igor Metelski]] away ~2 months, **Anton is to scope inheriting Igor's South Dakota assignments** — he needs 2–3 days to size the work, and (with Pavel/Irina) plans to reach Igor to learn where he stopped. [[raw/Game_Development-February-12-2026-1.md]]
+
 ## Sources
 
+- [[raw/Game_Development-February-12-2026-1.md]]
 - [[raw/transcript_anton_val_spec-august-27-2025.md]]
 - [[raw/Anton_Liashkevich_Alexander_Biratko_about_OMNI-august-28-2025.md]]
 - [[raw/update_anton-july-11-2025.md]]

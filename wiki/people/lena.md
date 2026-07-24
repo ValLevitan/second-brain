@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna, Selena, Elena]
-source-count: 36
+source-count: 37
 open-commitments: 1
 ---
 
@@ -153,8 +153,17 @@ On the [[wiki/meetings/2026-02-06-game-development-review.md|Feb-6 2026 game-dev
 - **Image-generation quality gap.** The team moved onto **Claude AI**, but since it does not generate images itself they connected it to a node-based image interface the transcript calls **"Config UI" / "conf UI"** (very likely **ComfyUI** — inference) running **Stable Diffusion**. Image quality so far is **lower than what they achieve in ChatGPT**. Claude AI's recommendation is to download and **train LoRA modules** ("Low-Rank Adaptation") for specific styles — e.g. a LoRA trained on golden-coin images to produce casino-style symbols — which is time-consuming; they start next week. [[raw/Game_Dev-February-6-2026.md]]
 - **ChatGPT-subscription extension — approved.** Lena asked Val to **extend the ChatGPT subscription one month** while the LoRA training ramps, noting they already have running ChatGPT "projects" (e.g. cat deviations for animation) working well. Val approved on the spot and asked her to put it in an email. [[raw/Game_Dev-February-6-2026.md]]
 
+## Feb 12 2026 — the liquid-glass defense; Lion's Riches/Dragon Pays; scheduling
+
+On the [[wiki/meetings/2026-02-12-game-development-review.md|Feb-12 review]] (segment 1). [[raw/Game_Development-February-12-2026-1.md]]
+
+- **Defended the liquid-glass game-selection screen** against Val's push to recolour its background per game: the glass effect is a **faked, pre-rendered movie** (background + button reflections baked into one render; each button configuration is a multi-day render), so it can't be recoloured in real time. She proposed — and it was adopted — the **shrink-the-billboard-logo + main-screen-background-border** compromise. The exchange got sharp (Val: stop telling me "how hard/talented"; Lena: "less is more"), but landed on her original suggestion. See [[wiki/topics/slot-game-design-principles.md]] (Feb-12). [[raw/Game_Development-February-12-2026-1.md]]
+- Walked the **Lion's Riches revised royals** and **Dragon Pays** updates, toppers (Cool Cat / Black Hills Keno), and the South Dakota production list (La Rosa, Rodeo Spins, Black Hills, Cool Cat, liquid-glass home screen). [[raw/Game_Development-February-12-2026-1.md]]
+- **Jira hygiene:** Val flagged items in "request review" showing **no schedule dates**; Lena diagnosed that request-review status hides dates and undertook to investigate/fix, and to correct a feature that still carried feature-level dates after stories were added under it. Also coordinating the [[wiki/people/igor-metelski.md|Igor Metelski]] absence — she's talking to Pavel/Irina/Anton to scope the inherited work. [[raw/Game_Development-February-12-2026-1.md]]
+
 ## Sources
 
+- [[raw/Game_Development-February-12-2026-1.md]]
 - [[raw/Clayton_jvl-working-session-2-summary-January-20-2026.md]]
 - [[raw/amusement_games_development_revival-july-31-2025-efim_lena.md]]
 - [[raw/amusement_games_development_revivial-july-31-2025-pavel.md]]

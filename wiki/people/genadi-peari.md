@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena]
-source-count: 50
+source-count: 52
 ---
 
 # Genadi Peari
@@ -159,8 +159,27 @@ On the Nov-11 POS + FlexPort schedule review ([[wiki/meetings/2025-11-11-pos-fle
 
 On a brief Val↔Genadi one-on-one ([[wiki/meetings/2025-11-19-genadi-audio-amplifier-standalone-pos-design-requirements.md]]; two recording segments 8:40 PM + 8:44 PM, ~7½ min total, Russian) Genadi restated that the **digital audio amplifier** must be broken out of the framework into a **standalone, hot-pluggable USB device**: today it is wired into the framework, so if it disconnects "the whole game falls" — as a standalone device the system must not crash, must return a defined error, and must re-attach on the fly. A serious cabinet needs a digital amplifier for adequate sound; ties to the move to the **Flex model's new speaker design** (3-way, no old grille). [[raw/Call_Genadi-November-19-2025-1.md]] For the POS/dispenser devices Val listed the audio components to fold into the requirements (speaker, an audio hub that can transmit, a monitor switch) and explained his design philosophy — **specify the building blocks and hand the graphics/UX to the professionals** rather than dictate it (the one constraint he imposes: place the speaker so nothing can be spilled on it). Genadi to add the feature to the design; Val recording and forwarding it. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/Call_Genadi-November-19-2025-2.md]]
 
+## Feb 12 2026 — two calls: Flex station for Texas + tooling onboarding; then ECHO printer, the Georgia freeze, Flex-Port BOM
+
+Two same-day Val↔Genadi calls ([[wiki/meetings/2026-02-12-genadi-flex-station-flexbill-texas.md]], 4:36pm; and the callback [[wiki/meetings/2026-02-12-genadi-echo-printer-freeze-flexport-bom.md]], 5:21pm).
+
+**Call 1 — Flex station / Texas:**
+- Finished the Fujitsu-dispenser **Flex station for Texas** and is preparing drawings; the cabinet is built around a removable in-door **insert** so the same massive cabinet takes different bill devices (Fujitsu now, "belt bill"/FlexBill later). [[raw/Call_Genadi_Peari-February-12-2026-1.md]]
+- Proposed assembling the **5 prototype sets in Georgia** rather than Toronto — Toronto has few components on hand, Canada-made units pay **duty**, and building in the US starts a US-fabricator relationship ("give the 5 sets to the one you'll later give 100"). Val agreed Georgia (or Florida) is the place to assemble, document and train on-site. [[raw/Call_Genadi_Peari-February-12-2026-1.md]]
+- **Onboarded to the tooling with [[wiki/people/andrey-bosik.md|Andrei]]** — a GitHub repository created, **Claude Code + Claude Desktop** set up on his computer (Genadi "in shock" at the progress) — and Val pushed him to write his **JIRA tasks with [[wiki/people/pavel.md|Pavel]]** via the recorded-conversation → AI-drafts-the-tasks method. [[raw/Call_Genadi_Peari-February-12-2026-1.md]]
+- Val's **FlexBill-for-Texas economics** (Texas machines today carry a printer + Fujitsu dispenser at heavy service cost; a Flex-S with scanner + one printer + FlexBill should replace it) → detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Feb-12). [[raw/Call_Genadi_Peari-February-12-2026-1.md]]
+
+**Call 2 — ECHO printer, freeze, BOM:**
+- Raised **ECHO gaming with a printer**: it needs a bill acceptor that reads **barcode tickets** — Pyramid's "Platinum" acceptor does, but only over a **serial protocol JVL's gaming software doesn't support** — plus a **24 V power adapter** for the printer. Needs [[wiki/people/evgeniy-alekseev.md|Alekseev]]; Val non-committal, doubting the volume. See [[wiki/topics/echo-home-gaming-device.md]] (Feb-12). [[raw/Call_Genadi_Peari-February-12-2026-2.md]]
+- Reported the **Georgia office 3-machine freeze** cleared after swapping SD cards, changing software, and on one machine removing the **PCIe SD-card adapter** (a Sapphire card runs without an adapter) — driving Val's **"never use a memory adapter" design hedge** (mount the SD as SATA). See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Feb-12); implementation routed to [[wiki/people/pavel.md|Pavel]]. [[raw/Call_Genadi_Peari-February-12-2026-2.md]]
+- **Flex-Port BOM**: the main board is **~$45 per 100** (he'd recorded $50), of which **flash memory ≈ $15 (~half)** — flash tripled in price; to ask [[wiki/people/evgeniy-alekseev.md|Alekseev]] whether the memory amount can be cut and to price **EPROM** as the alternative (Val: EPROM's write endurance is plenty; JVL doesn't need flash speed). Left for Genadi to verify. [[raw/Call_Genadi_Peari-February-12-2026-2.md]]
+- Flagged a **Flex-Port lighting/scanner** cosmetic defect (black spot / flickering backlight); Val wants it done properly, Genadi to experiment and dim the intensity meanwhile. [[raw/Call_Genadi_Peari-February-12-2026-2.md]]
+- Val: before the **dispenser**, pick up the **statics** work, and **[[wiki/people/igor-starovoytov.md|Igor]] needs to be started first** ("the old wheel needs spinning up"). [[raw/Call_Genadi_Peari-February-12-2026-2.md]]
+
 ## Sources
 
+- [[raw/Call_Genadi_Peari-February-12-2026-1.md]]
+- [[raw/Call_Genadi_Peari-February-12-2026-2.md]]
 - [[raw/Call_Genadi-November-19-2025-1.md]]
 - [[raw/Call_Genadi-November-19-2025-2.md]]
 - [[raw/POS_and_PORT-schedule_review.md]]

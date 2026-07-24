@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 52
+source-count: 53
 open-commitments: 6
 ---
 
@@ -159,8 +159,13 @@ On the [[wiki/meetings/2026-02-06-ui-claude-code-adaptation.md|Feb-6 UI/Claude-C
 
 On the [[wiki/meetings/2026-02-11-github-front-end-waze-setup.md|Feb-11 front-end Waze session]] (Andrei **not present**), Pavel explained that JVL **cannot fork** Aaron's Waze repo, so **Andrei copied-and-pasted it into JVL's internal** and makes updates manually when he sees changes on Aaron's side. [[wiki/people/aaron.md|Aaron]]'s directive: JVL must **configure its GitHub Enterprise environment to allow forking of public repositories** so each engineer forks and syncs the (daily-updated) Waze themselves rather than depending on Andrei's manual copy — the same "don't passively receive it from the IT team" point. See [[wiki/topics/ai-assisted-development.md]] (Feb-11). [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-2.md]]
 
+## Feb 12 2026 — onboards Genadi Peari to Claude Code + a GitHub repo
+
+On the first of the two same-day [[wiki/people/genadi-peari.md|Genadi Peari]] calls ([[wiki/meetings/2026-02-12-genadi-flex-station-flexbill-texas.md]]), Genadi reported that "**Andrei**" had set up a **GitHub repository** for his hardware work and installed **Claude Code and Claude Desktop** on Genadi's computer, and that they would continue that day (Genadi: "I'm in shock at how we've progressed"). By DevOps / Claude-Code-onboarding context this is Bosik (the Feb-2026 onboarding thread is his) — labeled a strong inference. [[raw/Call_Genadi_Peari-February-12-2026-1.md]]
+
 ## Sources
 
+- [[raw/Call_Genadi_Peari-February-12-2026-1.md]]
 - [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-2.md]]
 - [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
 - [[raw/Claude Code integration - continued.md]]

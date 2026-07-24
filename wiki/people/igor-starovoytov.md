@@ -3,7 +3,7 @@ type: person
 title: Igor Starovoytov
 date: 2026-07-13
 aliases: [Igor Starovoytov, Igor, Starovoytov]
-source-count: 6
+source-count: 7
 disambiguation: "Contractor industrial designer (Flex cabinets; via Genadi Peari). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
 ---
 
@@ -31,8 +31,13 @@ On the two Val↔Genadi design calls ([[wiki/meetings/2025-05-01-flex-tower-spat
 
 On the May-20 Val↔Genadi industrial-design call ([[wiki/meetings/2025-05-20-flex-tower-industrial-design.md]]) Igor's designs were reviewed third-person: Val judged the current FlexPort dashboard bracket a temporary "conversion" and wants Igor pushed toward a solid, integrated, forward-looking design harmonized with the FlexTower (Val preferred Igor's third variant direction). Igor's CAD continues while Genadi drives the tower toward an orderable state. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/industrial_design_update-may-20-2025.md]]
 
+## Feb 12 2026 — to be started first on the dispenser design (inference)
+
+On the second Feb-12 [[wiki/people/genadi-peari.md|Genadi]] call ([[wiki/meetings/2026-02-12-genadi-echo-printer-freeze-flexport-bom.md]]), Val said that before Genadi tackles the **dispenser**, "**Igor** needs to be started first" — "the old wheel needs spinning up" — and to run the two as one family. By cabinet/industrial-design context (Genadi's orbit) this is Starovoytov, labeled an inference. [[raw/Call_Genadi_Peari-February-12-2026-2.md]]
+
 ## Sources
 
+- [[raw/Call_Genadi_Peari-February-12-2026-2.md]]
 - [[raw/Flex_V42_C_design_evolution_review_2025-02-27.md]]
 - [[raw/Flex-S-design-March-27-2025.md]]
 - [[raw/fkex_pay_evolution-apr-16-2025.md]]
