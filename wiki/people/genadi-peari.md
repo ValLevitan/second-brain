@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena]
-source-count: 52
+source-count: 53
 ---
 
 # Genadi Peari
@@ -176,10 +176,20 @@ Two same-day Val↔Genadi calls ([[wiki/meetings/2026-02-12-genadi-flex-station-
 - Flagged a **Flex-Port lighting/scanner** cosmetic defect (black spot / flickering backlight); Val wants it done properly, Genadi to experiment and dim the intensity meanwhile. [[raw/Call_Genadi_Peari-February-12-2026-2.md]]
 - Val: before the **dispenser**, pick up the **statics** work, and **[[wiki/people/igor-starovoytov.md|Igor]] needs to be started first** ("the old wheel needs spinning up"). [[raw/Call_Genadi_Peari-February-12-2026-2.md]]
 
+## Feb 25 2026 — packaging in production, China shipment, POS to tooling; flagged as lagging
+
+On a garbled Russian one-on-one with Val ([[wiki/meetings/2026-02-25-genadi-packaging-texas-flexport-market-strategy.md]], 11:01pm) Genadi reported hardware progress and was pressed to catch up with Pavel:
+
+- **Packaging prototype now in production.** Genadi built the machine's **shipping-box packaging** (foam inserts holding the packed machine on all sides; monitors kept vertical, not screen-down; a shock absorber added because plain foam doesn't cushion) and it is "находится в продакшн." A sample was already made and brought to the office. He had rejected an alternative packaging from an industrial engineer Val calls "Andrei"; Val delegates packaging to Genadi but urges him to **work closely with Andrei** rather than override him. (Andrei — described by Val as an industrial engineer — is distinct from Genadi's usual industrial designer [[wiki/people/igor-starovoytov.md|Igor Starovoytov]] and from the registered Andrei/Andrey/Andrew people; no page, identity unresolved.) [[raw/Call_Genadi_Peari-February-25-2026.md]]
+- **Fujitsu dispenser drawings → China.** He wired up the Fujitsu cash dispenser in the office and passed **updated drawings with the corrected bezel** to [[wiki/people/mikhail-perelman.md|Misha (Mikhail Perelman)]], but Misha stalled ~2 weeks finding a US fabricator; the call's resolution was to **ship the parts to China (Hangzhou) for reference pricing and air-freight them back** — **23 sets** went out that day. [[raw/Call_Genadi_Peari-February-25-2026.md]]
+- **Flex Sport panel + POS.** Sent the **Flex Sport** panel back to be fully textured and to fix several wrong-sized bosses, after which the proof lighting reads even. Switched to finishing the **POS** drawings (transcribed "пёс"/"PES") to hand to **press-mold tooling**; reported that [[wiki/people/pavel.md|Pavel]]'s POS unit powered up with **both monitors working** (GUI/touchscreen still to do). [[raw/Call_Genadi_Peari-February-25-2026.md]]
+- **Flagged as the one lagging.** Val told Genadi he is "the only one who's behind our plans" (Val had left him alone, "a vacuum," to work) and will book a meeting with Pavel so the two work the **two joint projects — POS and FlexPay — actively together**; Genadi noted the cash dispenser and POS are already in Jira with Pavel, and FlexPay-for-Texas needs a bit more work. Substance and Val's Texas market strategy on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Feb-25). [[raw/Call_Genadi_Peari-February-25-2026.md]]
+
 ## Sources
 
 - [[raw/Call_Genadi_Peari-February-12-2026-1.md]]
 - [[raw/Call_Genadi_Peari-February-12-2026-2.md]]
+- [[raw/Call_Genadi_Peari-February-25-2026.md]]
 - [[raw/Call_Genadi-November-19-2025-1.md]]
 - [[raw/Call_Genadi-November-19-2025-2.md]]
 - [[raw/POS_and_PORT-schedule_review.md]]
