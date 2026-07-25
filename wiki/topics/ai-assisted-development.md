@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, Copilot Studio, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest, LaTeX, printer tool, Ollama, llama.cpp, local inference, Code Llama, Hugging Face, Claude Code, AI sandwich, developer experience, think like a data scientist, sub-agents, verbose output, compiler layer, ways vs skills, ADR, cross-examination, Python Vulture, intelligence center, Waze system, ways framework, compiler stack diagram, module federation]
-source-count: 44
+source-count: 46
 ---
 
 # AI-assisted development adoption
@@ -298,6 +298,15 @@ A ~1m20s clip ([[wiki/meetings/2026-02-16-val-aaron-jira-acceptance-criteria-mig
 - **Verify, then delete.** After each batch, **update a local checklist/list of the items** to confirm the move actually happened; only once verified do you **delete the acceptance-criteria custom field**. "This way you won't lose any data." [[raw/Val—Aaron.md]]
 - **Antecedent.** This is the groundwork for the later **Feb-27 2026 "Review custom fields JIRA"** work (future batch) — the same custom-field cleanup carried forward. [[raw/Val—Aaron.md]]
 
+## Feb 26 2026 — JIRA planning by transcript; the Claude↔Jira MCP still immature
+
+Two same-day [[wiki/people/val-levitan.md|Val]]/[[wiki/people/pavel.md|Pavel Frolov]]/[[wiki/people/genadi-peari.md|Genadi Peari]] calls ([[wiki/meetings/2026-02-26-tasks-planning-alignment.md]] 2:35pm; [[wiki/meetings/2026-02-26-jira-planning-flex-dispenser.md]] 3:18pm) exercised — and stress-tested — the recorded-conversation-to-JIRA method on the Flex-dispenser backlog. (The Flex hardware/feature substance is on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Feb-26); here is the tooling/discipline.)
+
+- **Name tasks by number so the AI can rebuild them from the transcript.** Val opened by telling Pavel and Genadi that because the meeting is recorded, they should **refer to tasks by their JIRA numbers** so "Claude can later make sense of the transcription" and JIRA can be reconstructed "easily on everything" — the same recorded-talk → AI-drafts-the-tasks discipline Val credits to himself, Pavel and Irina (Feb-12) and to the Feb-6 "name the task, tell the story" report format. At the 3:18pm call's end Val underlined the payoff to Genadi: **"notice how easy it was to create all the tasks when everything was spoken clearly and precisely."** [[raw/tasks_planning_alignment-February-26-2026.md]] [[raw/JIRA_Planning-February-26-2026.md]]
+- **Short-lived tasks; don't let one task drag for months.** Pavel's rule (Val: "100%"): when you order one thing and then release a **version 2**, don't stretch the original task — **open a new task** dated ~2 weeks out. Val's framing: JVL is not tracking with "pedantry" over the **past** ("we close our eyes to the past") — the goal is to **stop being late on future planning**; a single catch-all task that "everyone piles onto" for months is "very, very dirty work," so proliferating short tasks is fine and easy. He told Genadi that **over time Claude can do all this**, so the JIRA "bureaucracy comes down to minimal time" — "especially if there's a raw transcription, it then lands on JIRA very easily." [[raw/tasks_planning_alignment-February-26-2026.md]] [[raw/JIRA_Planning-February-26-2026.md]]
+- **The Claude↔Jira MCP is not yet reliable.** Pavel reported that **the day before, Claude "worked very badly with Jira" and proposed poor options** — and that others noticed it too; he guessed it might be because **Aaron's ("арановский") MCP** was in use, possibly with modifications. Val's read: JVL is **also adding "Clayton's" MCP** (a second Jira MCP — cf. the Jan-29 Clayton-MCP thread), **Aaron is finishing/rewriting his MCP**, and **~70 custom fields were removed** (custom-field cleanup is ongoing — the Feb-16 acceptance-criteria migration is part of it), so the behaviour will improve over time but some issues may persist. Either way it **must be brought to completion**, "otherwise the task bureaucracy is insane — you'd need a special department just to watch Jira." [[raw/JIRA_Planning-February-26-2026.md]]
+- **Filters as the human-usability layer.** Because the backlog is "scattered across all the tasks and hard to read in the plans," Pavel is to build a **JIRA filter on IP 1007 + IP 1014** so everything else drops away and only the Flex-dispenser project shows — Val to review it the next morning. Val also flagged (to Pavel) that he wants the FP-505 rework "done through Claude, maybe adding some ways," extending the Feb-11 ways discipline. His **'Andrei'** (a diminutive; a colleague on Pavel's side who is to further break down IP 1014's tasks — identity not resolvable from the transcript, distinct from the Feb-25 packaging "Andrei" and left unlinked) is named as helping. [[raw/JIRA_Planning-February-26-2026.md]]
+
 ## History — earlier AI-consultation artifacts (undated, pre-2025)
 
 - **SolidWorks integration memo from ChatGPT:** a reference document titled "Solid work integration and the overall architecture suggestion from ChatGPT" shows JVL (before the 2025 tooling push) using ChatGPT to draft an IT-integration architecture connecting **SolidWorks** (3D CAD) with **Atlassian Jira/Confluence** and **Microsoft Business Central** — file attachments/version control of CAD files, BOM synchronization into the ERP, middleware/connectors, OAuth security, monitoring, and staged testing. The content is generic AI output (no JVL-specific decisions); its durable value is evidence that JVL's CAD/PLM–ERP–Atlassian integration question was explored via ChatGPT. Undated; consistent with the ~2023–24 Atlassian/Business-Central era of [[wiki/projects/jvl-insights-knowledge-base.md]] (inference, flagged). [[raw/solid_work_integration_and_the_overall_architecture_suggesti_2025-03-29.md]]
@@ -306,6 +315,8 @@ A ~1m20s clip ([[wiki/meetings/2026-02-16-val-aaron-jira-acceptance-criteria-mig
 ## Sources
 
 - [[raw/Val—Aaron.md]]
+- [[raw/tasks_planning_alignment-February-26-2026.md]]
+- [[raw/JIRA_Planning-February-26-2026.md]]
 - [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-1.md]]
 - [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-2.md]]
 - [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-3.md]]

@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 89
+source-count: 91
 open-commitments: 7
 open-questions: 0
 ---
@@ -245,8 +245,18 @@ On the two Feb-12 [[wiki/people/genadi-peari.md|Genadi Peari]] calls:
 - Val wants **Genadi to write his JIRA tasks with Pavel**, using the recorded-conversation → AI-drafts-the-tasks method Val says "I and Pavel and Irina found" (talk it through, draft, correct, finalize, then have Claude open the tasks in Jira — "Pavel is excellent at this already"). [[raw/Call_Genadi_Peari-February-12-2026-1.md]]
 - On the memory-adapter design decision (mount the SD as SATA, never through a PCIe adapter), Val will email the transcript to **Pavel** (and Pyramid + Ivan) to open a ticket, and **Pavel is to spec/implement the small Linux change** so the device is read as SATA. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Feb-12). [[raw/Call_Genadi_Peari-February-12-2026-2.md]]
 
+## Feb 26 2026 — Flex-dispenser JIRA planning (runs it; owns the FP-505 rework)
+
+On two same-day calls with Val and [[wiki/people/genadi-peari.md|Genadi Peari]] ([[wiki/meetings/2026-02-26-tasks-planning-alignment.md]] 2:35pm, [[wiki/meetings/2026-02-26-jira-planning-flex-dispenser.md]] 3:18pm) Pavel ran the JIRA housekeeping and the software-side planning for the Fujitsu-dispenser Flex device:
+
+- Set the anti-sprawl discipline Val endorsed 100%: when a v1 becomes a **v2**, open a **new task** (~2 weeks out) rather than stretch the original. [[raw/tasks_planning_alignment-February-26-2026.md]]
+- Worked the e-wallet-generation constraint — FlexPay is the money-carrier, and a machine "prints its own ticket and knows nothing about the e-wallet format," so a FlexPort in the machine can't make it print an e-wallet; the loop only closes by generating the e-wallet **in the kiosk** with a bill acceptor added. Substance on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Feb-26). [[raw/JIRA_Planning-February-26-2026.md]]
+- Took ownership (Val: "I think you should take this on") of reworking feature **FP 505** — strip every "pyramid style redemption" reference from its description and name, re-specify it for the market using **FlexPort** — plus breaking down **IP 1014** and its stale/duplicate tasks, writing the missing stories under IP 1007/1014, and building a **JIRA filter on IP 1007 + IP 1014** for Val to review the next morning. He noted Claude "worked very badly with Jira" the day before (see [[wiki/topics/ai-assisted-development.md]] Feb-26). Tracked as an open commitment on the FlexPay topic. [[raw/JIRA_Planning-February-26-2026.md]]
+
 ## Sources
 
+- [[raw/tasks_planning_alignment-February-26-2026.md]]
+- [[raw/JIRA_Planning-February-26-2026.md]]
 - [[raw/Call_Genadi_Peari-February-12-2026-1.md]]
 - [[raw/Call_Genadi_Peari-February-12-2026-2.md]]
 - [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-2.md]]

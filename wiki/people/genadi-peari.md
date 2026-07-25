@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena]
-source-count: 53
+source-count: 55
 ---
 
 # Genadi Peari
@@ -185,8 +185,17 @@ On a garbled Russian one-on-one with Val ([[wiki/meetings/2026-02-25-genadi-pack
 - **Flex Sport panel + POS.** Sent the **Flex Sport** panel back to be fully textured and to fix several wrong-sized bosses, after which the proof lighting reads even. Switched to finishing the **POS** drawings (transcribed "пёс"/"PES") to hand to **press-mold tooling**; reported that [[wiki/people/pavel.md|Pavel]]'s POS unit powered up with **both monitors working** (GUI/touchscreen still to do). [[raw/Call_Genadi_Peari-February-25-2026.md]]
 - **Flagged as the one lagging.** Val told Genadi he is "the only one who's behind our plans" (Val had left him alone, "a vacuum," to work) and will book a meeting with Pavel so the two work the **two joint projects — POS and FlexPay — actively together**; Genadi noted the cash dispenser and POS are already in Jira with Pavel, and FlexPay-for-Texas needs a bit more work. Substance and Val's Texas market strategy on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Feb-25). [[raw/Call_Genadi_Peari-February-25-2026.md]]
 
+## Feb 26 2026 — Flex-dispenser hardware planning (two calls with Val + Pavel)
+
+On the two same-day planning calls ([[wiki/meetings/2026-02-26-tasks-planning-alignment.md]] 2:35pm, [[wiki/meetings/2026-02-26-jira-planning-flex-dispenser.md]] 3:18pm) Genadi carried the hardware side of carving the Fujitsu-dispenser Flex device into JIRA:
+
+- Walked his backlog status — **Flex Sport (IP 578)** sent for 2 more manufacturer iterations (samples ~2 weeks, effectively done); **IP 1014 Flex Cash Dispenser** BOM/Fujitsu-design closed with hardware development + [[wiki/people/evgeniy-alekseev.md|Alekseev]]'s prototype in progress; will order an initial **15-unit "run"** (harness first). [[raw/tasks_planning_alignment-February-26-2026.md]]
+- Opened the 3:18pm call with the core problem — **"Fujitsu doesn't accept cash, we need bill acceptors"** — and worked through adding a **bill acceptor + recycler** to FlexPay, warning it makes the unit roughly FlexPay's own width; agreed to Val's plan to **narrow the vertical FlexPay from ~2 ft to ~1 ft** in two stages (drop the recycler into the existing enclosure first, proper industrial design — vertical monitor, added height — second). He needs **two new tasks** (mechanical **redesign** + **BOM**) for the Fujitsu form, plus prototypes, harness and detailed BOM material (may copy tasks 371/372 or build fresh). Substance and the open commitment on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Feb-26). [[raw/JIRA_Planning-February-26-2026.md]]
+
 ## Sources
 
+- [[raw/tasks_planning_alignment-February-26-2026.md]]
+- [[raw/JIRA_Planning-February-26-2026.md]]
 - [[raw/Call_Genadi_Peari-February-12-2026-1.md]]
 - [[raw/Call_Genadi_Peari-February-12-2026-2.md]]
 - [[raw/Call_Genadi_Peari-February-25-2026.md]]
