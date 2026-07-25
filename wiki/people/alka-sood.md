@@ -3,8 +3,8 @@ type: person
 title: Alka Sood
 date: 2026-07-14
 aliases: [Alka Sood, Alka, Cogna]
-source-count: 17
-open-commitments: 16
+source-count: 18
+open-commitments: 17
 ---
 
 # Alka Sood
@@ -45,6 +45,7 @@ Alka Sood is JVL's **finance contractor** (her business is **Cogna**, per the 20
 - [ ] Alka — have the loan records ready and reconcile bank receipts against loan disbursement records as far back as possible (enlisting Daniel as a personal favour to locate missing records) — due while Val is away next week (Oct 2025) — [[raw/finance_recurring_meeting-october-7-2025.md]]
 - [ ] Alka — run the phased line-by-line consolidation sessions with Igor and deliver Val a preliminary review ~end of October ahead of the first-week-November completion — [[raw/finance_recurring_meeting-october-7-2025.md]]
 - [ ] Alka — fix the control-sheet formula, save the version-dated responsibility matrix, and put it in SharePoint in a folder for Val by end of week (Oct 2025) — [[raw/finance_recurring_meeting-october-7-2025.md]]
+- [ ] Alka — check into and enable the **Avalara auto-pay** feature so US state sales-tax filings are paid automatically (nobody files manually), and make a list of the SD/FL filings to hand to the US accountants — due unspecified (Feb 2026) — [[raw/Alka_Val_aligment-February-19-2026.md]]
 
 ## Apr 15 2025 — control sheet delivered; evaluations and automation
 
@@ -112,9 +113,22 @@ On the [[wiki/meetings/2026-02-02-payment-hub-finance-reconciliation.md|Feb-2 pa
 
 ## Feb 18 2026 — leaving JVL (last day Feb 28)
 
-Noted in passing on the [[wiki/meetings/2026-02-18-val-nathan-business-central-sync.md|Feb-18 Val↔Nathan Business-Central sync]]: **Alka is leaving JVL, with the 28th her last day.** Her absence is why the Feb-16 payment-hub↔Business-Central reconciliation meeting did not happen; Val added that she "wouldn't be able to help anyway" on that particular MSBC-posting question. §15.8 clear. [[raw/Nate_Val_Sync-February-18-2026.md]]
+Noted in passing on the [[wiki/meetings/2026-02-18-val-nathan-business-central-sync.md|Feb-18 Val↔Nathan Business-Central sync]]: **Alka is leaving JVL, with the 28th her last day.** Her absence is why the Feb-16 payment-hub↔Business-Central reconciliation meeting did not happen; Val added that she "wouldn't be able to help anyway" on that particular MSBC-posting question. §15.8 clear. [[raw/Nate_Val_Sync-February-18-2026.md]] **(Departure timeline updated the next day — see Feb-19 below.)**
+
+## Feb 19 2026 — transition handover; stay extended to June 1
+
+On a short [[wiki/meetings/2026-02-19-alka-val-transition-handover.md|Feb-19 transition-handover call]] with Val (4m26s), Alka walked her remaining loose ends and Val **proposed extending her departure from March to June 1**, in a reduced, back-end advisory role (she keeps her same email until end of June). This **evolves the Feb-18 "last day Feb 28"** note — Alka had told the finance team February to *force* the handover, but agreed she will stay on longer; the finance team has "stepped up" and is taking responsibility. [[raw/Alka_Val_aligment-February-19-2026.md]]
+
+- **Cash-flow management — handed off (done).** Cash-flow management is transferred to [[wiki/people/igor-donis.md|Igor Donis]] and "the ladies," who now work the cash-flow plan directly with Val. [[raw/Alka_Val_aligment-February-19-2026.md]]
+- **The remaining housekeeping is all filings:** [[raw/Alka_Val_aligment-February-19-2026.md]]
+  - **HST filing (monthly).** Reclaims the tax JVLA pays on incoming purchases ("you just get money"). Igor Donis preps everything, Alka validates, then it is filed — a ~5-minute job someone (transcribed "Nick") can take over. [[raw/Alka_Val_aligment-February-19-2026.md]]
+  - **WSIB (Workers' Compensation Board) filing — not needed (Val's ruling).** Alka set up a table and offered to teach [[wiki/people/mary.md|Mary]] to prepare it, but Val ruled it **only applies to factory employees, and JVL will have none**, so WSIB drops off the list entirely. [[raw/Alka_Val_aligment-February-19-2026.md]]
+  - **EHT — automated.** Filed automatically by **ADP** off the payroll; needs only an annual review to confirm it matches what Ontario reports. [[raw/Alka_Val_aligment-February-19-2026.md]]
+  - **US state sales-tax filings — move to the US accountants.** [[wiki/people/monica.md|Monica]] does Georgia; South Dakota and Florida were done by Alka. Val directed transferring all of it to the US accountants. Alka will use the **Avalara** ("Avalero") report (a synopsis of where taxes were incurred) and — at Val's request — enable Avalara's **automatic pay-out** feature so nobody has to file manually (JVL already pays for Avalara). [[raw/Alka_Val_aligment-February-19-2026.md]]
 
 ## Sources
+
+- [[raw/Alka_Val_aligment-February-19-2026.md]]
 
 - [[raw/Nate_Val_Sync-February-18-2026.md]]
 - [[raw/Payment_Hub_Finance-February-2-2026.md]]

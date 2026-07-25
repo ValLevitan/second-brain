@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna, Selena, Elena]
-source-count: 37
+source-count: 39
 open-commitments: 1
 ---
 
@@ -161,8 +161,18 @@ On the [[wiki/meetings/2026-02-12-game-development-review.md|Feb-12 review]] (se
 - Walked the **Lion's Riches revised royals** and **Dragon Pays** updates, toppers (Cool Cat / Black Hills Keno), and the South Dakota production list (La Rosa, Rodeo Spins, Black Hills, Cool Cat, liquid-glass home screen). [[raw/Game_Development-February-12-2026-1.md]]
 - **Jira hygiene:** Val flagged items in "request review" showing **no schedule dates**; Lena diagnosed that request-review status hides dates and undertook to investigate/fix, and to correct a feature that still carried feature-level dates after stories were added under it. Also coordinating the [[wiki/people/igor-metelski.md|Igor Metelski]] absence — she's talking to Pavel/Irina/Anton to scope the inherited work. [[raw/Game_Development-February-12-2026-1.md]]
 
+## Feb 19 2026 — Games Design Meeting: progressive visuals, Lion's Riches/Twin Bison layout, SD queue
+
+On the [[wiki/meetings/2026-02-19-games-design-meeting.md|Feb-19 Games Design Meeting]] (schedule-review session). [[raw/Game_Development_transcript_schedule_review-February-19-2026.md]]
+
+- **Progressive coin + visuals in progress.** She has started the coin and progressive visuals for GC-351 (bonus visuals GC-360, in-game symbol GC-361) — blocked from finalizing only by the undecided "Pick 3" vs "Match 3" name that appears in the UI. [[raw/Game_Development_transcript_schedule_review-February-19-2026.md]] [[raw/Games_Design_Meeting_review_feb19_2026_v3.md]]
+- **Lion's Riches / Twin Bison screen redesign ("a game of Tetris").** She and Michael must lay out the shrunk pay table, the scrolling instruction banner, and the large lion/bison canvas. [[raw/Game_Development_transcript_schedule_review-February-19-2026.md]]
+- **South Dakota design/production queue.** Working through Wild Colt (IP-1017, nearly done) then Dragon Pays (IP-1018) design, with production actively on Black Hills Skinner, Cool Cat Keno, Liquid-Glass La Rosa, Rodeo Spins and the Lion's Riches update; she resisted closing **IP-877 (Calle Ocho)** despite all art being done, unsure whether developer tasks live under it. She confirmed she prepares multiple game-selection layouts as standard practice. See [[wiki/topics/slot-game-design-principles.md]] (Feb-19). [[raw/Game_Development_transcript_schedule_review-February-19-2026.md]] [[raw/Games_Design_Meeting_review_feb19_2026_v3.md]]
+
 ## Sources
 
+- [[raw/Game_Development_transcript_schedule_review-February-19-2026.md]]
+- [[raw/Games_Design_Meeting_review_feb19_2026_v3.md]]
 - [[raw/Game_Development-February-12-2026-1.md]]
 - [[raw/Clayton_jvl-working-session-2-summary-January-20-2026.md]]
 - [[raw/amusement_games_development_revival-july-31-2025-efim_lena.md]]
