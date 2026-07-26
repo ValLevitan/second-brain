@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 40
+source-count: 42
 open-commitments: 10
 open-questions: 8
 ---
@@ -266,6 +266,15 @@ On the [[wiki/meetings/2026-02-19-games-design-meeting.md|Feb-19 Games Design Me
 - **Revised-nudge RTP — Val's on-record accountability (continuing [[#feb-12-2026--revised-nudge-rtp-is-the-underperformance-culprit-the-go-to-market-plan-and-the-felipeoffice-manager-question|Feb-12]] / [[#feb-18-2026--the-nudge-rtp-revert-plan-big-master-access-the-class-a-threat|Feb-18]]).** Val again took **personal responsibility** for the new-nudge field underperformance — root cause the **88% RTP on the lowest bet button**, a setup he directed — and stated that with the corrected **92% floor** for new deployments he expects **at least a 20% performance improvement over the previous average** in new locations. The nudge implementation itself is excellent; "we screwed up… the fault is with the setup." [[raw/Game_Development_transcript_game_review-February-19-26.md]]
 - **Long-term Georgia strategy (discussion only, no decisions).** The initial Vertical 2 release (August) is framed as a **data-gathering** exercise. Future ideas raised: a **Peach 1/2/3 D27 refresh** with the match-3 progressive + liquid glass + enhanced nudge; **Jackpot Rush / Fiery Ice D27** versions (Aristocrat runs both a vertical and a dual-screen "Baozu Festival" in Georgia); and a **Georgia Vertical 3** that takes the top Vertical-2 performers, adds new titles, and replaces the bottom performers. Efim also confirmed the progressive triggering decisions are **product requirements, not ADRs** — they originate from Juan/Felipe market observations and are translated into JVL's technical answer by Michael and Efim. [[raw/Game_Development_transcript_game_review-February-19-26.md]] [[raw/Games_Design_Meeting_review_feb19_2026_v3.md]]
 
+## Feb 27 2026 — Georgia 8-pack base game confirmed; August hard date, June realistic completion
+
+On the [[wiki/meetings/2026-02-27-game-development-review.md|Feb-27 game-development review]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/michael-gottlieb.md|Michael]], [[wiki/people/lena.md|Lena]], [[wiki/people/juan-martinez.md|Juan]], [[wiki/people/efim-podvoiski.md|Efim]]) the Georgia go-to-market advanced while Nebraska took priority (Nebraska detail on [[wiki/projects/nebraska-skill-market.md]]; the condensed pay-table design mechanic on [[wiki/topics/slot-game-design-principles.md]], both Feb-27). [[raw/Game_Development-February-27-2026.md]] [[raw/Summary_Game_Development-February-27-2026.md]]
+
+- **The 8-pack base game configuration (Georgia).** The base game is an **8-pack**: **2 Jackpot Rush + 2 Fiery Ice + 4 Lines & Ways** games default-enabled, with **6 Lines & Ways titles** submitted so the operator can toggle among them; JVL is building **software packages** where wanting **10 or 12** games is a different (tiered) price for the customer. Of the L&W set, Michael expects a hard internal choice among six strong titles (Rodeo Spins is a Crazy-Spins clone / the #1 performer; Bayou Riches likely swapped for the top-performing **Lion's Riches**; possibly Queen of Luxor for Twin Bison) — Juan to finalize by feature. This continues the [[#feb-19-2026--georgia-vertical-2-game-selection-screen-the-8-vs-10-game-debate-layout-flexibility|Feb-19 8-vs-10-game debate]] (still Juan's call). [[raw/Game_Development-February-27-2026.md]] [[raw/Summary_Game_Development-February-27-2026.md]]
+- **Georgia timeline — hard August date, June realistic.** Juan has a **hard date** for Georgia product to be **viewable by the 2nd week of August** at the annual gaming show; working back, he wanted it lab-ready by **end of March / early-to-late April**, but Lena called mid-April "absolutely impossible" and Val/Lena landed on a **realistic completion of mid-May to June** (lab submission by end of May; the lab needs ~30–45 days given the significant changes). The date isn't treated as slipped — the August show is fixed, the internal completion moved. [[raw/Game_Development-February-27-2026.md]] [[raw/Summary_Game_Development-February-27-2026.md]]
+- **Nebraska liquid glass deferred to protect Georgia.** Val pushed to disregard the Nebraska **GC372 liquid-glass** work (deleted, see [[wiki/projects/nebraska-skill-market.md]] Feb-27) partly because a ~2-month liquid-glass effort **would delay Georgia** (Lena's urgent priority is to finish South Dakota, then immediately start Georgia); liquid glass for both markets can be revisited in summer, after Georgia ships. [[raw/Game_Development-February-27-2026.md]] [[raw/Summary_Game_Development-February-27-2026.md]]
+- **Condensed pay-table layout for the two new Georgia flagships.** Lion's Riches and Twin Bison adopt the new **symbol-pay-row + big-character-canvas** screen (a massive lion / two bison instead of a full pay table) — kept to those two new games; existing games keep their pay tables. Design detail on [[wiki/topics/slot-game-design-principles.md]] (Feb-27). [[raw/Game_Development-February-27-2026.md]] [[raw/Summary_Game_Development-February-27-2026.md]]
+
 ## Open commitments
 
 - [ ] [[wiki/people/juan-martinez.md|Juan]] — decide the final **Georgia Vertical 2 initial-release game count** (8 vs 10); Val's 8-game position and reasoning are on record — due unspecified — [[raw/Game_Development_transcript_game_review-February-19-26.md]] [[raw/Games_Design_Meeting_open_items_feb19_2026.md]]
@@ -295,6 +304,8 @@ On the [[wiki/meetings/2026-02-19-games-design-meeting.md|Feb-19 Games Design Me
 
 ## Sources
 
+- [[raw/Game_Development-February-27-2026.md]]
+- [[raw/Summary_Game_Development-February-27-2026.md]]
 - [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 - [[raw/game_design_meeting_march_7_2025.md]]
 - [[raw/developing_games_faster_michael_gottlieb_march_12-2025.md]]

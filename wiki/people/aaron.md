@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 87
+source-count: 89
 open-commitments: 2
 ---
 
@@ -252,8 +252,15 @@ On the [[wiki/meetings/2026-02-11-github-front-end-waze-setup.md|Feb-11 front-en
 
 - On a ~1m20s clip ([[wiki/meetings/2026-02-16-val-aaron-jira-acceptance-criteria-migration.md]], 1:12pm) Aaron gave Val a **lossless method to retire JIRA's "acceptance criteria" custom field**: have Claude write a script that **enumerates every issue with the field populated (including closed ones)** and downloads the data, **process it offline** to find the per-issue changes, then **transform in batches** by appending each issue's acceptance-criteria content to the **end of the main issue description**, **verify against a local checklist**, and only then **delete the custom field** ("this way you won't lose any data"). Antecedent to the Feb-27 2026 "Review custom fields JIRA" work. Substance on [[wiki/topics/ai-assisted-development.md]] (Feb-16). §15.8 clear. [[raw/Val—Aaron.md]]
 
+## Feb 27 2026 — JIRA custom-fields cleanup (advisor) + the fail-fast/source-of-truth session
+
+- **JIRA custom-fields review** ([[wiki/meetings/2026-02-27-jira-custom-fields-review.md]], 2:05pm; with Val + [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]). Aaron advised (deferring the decisions to Dmitri, "I'm the advisor here"): configure **by intention and use, not technical guesswork** ("this is like going into an electrical cabinet and flipping wires… not the right way"); build a **deletion matrix** working **backward from the dashboards and their filters**; **verify on the sandbox** and against populated issues before deleting. This is the "Review custom fields JIRA" work his Feb-16 acceptance-criteria method set up; the outcome was a **13-field keep list** for his MCP to address. See [[wiki/topics/ai-assisted-development.md]] (Feb-27). §15.8 clear. [[raw/Review_custom_fields_JIRA-February-27-2026.md]]
+- **Fail-fast / source-of-truth session** ([[wiki/meetings/2026-02-27-obsidian-settings-review.md]], 2:45pm; the source filename is **mislabeled** `Claude_Code_implementation_JVL_curriculum_development` — the recording is "Obsidian settings review" but the content is this AI-philosophy discussion, §11). Aaron's thesis: AI **amplifies intentions** (and incompetence) and compiles intent into tangible output; a wrong decision reached in half an hour of prompting cost nothing, so **stop being emotionally invested** and be ready to flip the script (even run the positive and negative paths in parallel), collapsing three-week deliberations into ~three-day correction cycles. He tied it to the prior session's git-repos-with-code-owners + **ADR** structure + inline code documentation, and to writing things down ("if it's not written down, you'll never get out of the correction cycles"). Val gave him a **free week to finish the MCP**. See [[wiki/topics/ai-assisted-development.md]] and [[wiki/topics/transcript-knowledge-base-tooling.md]] (Feb-27). §15.8 clear (Aaron's coaching "crazy money," no figure). [[raw/Claude_Code_implementation_JVL_curriculum_development-February-27-2026.md]]
+
 ## Sources
 
+- [[raw/Review_custom_fields_JIRA-February-27-2026.md]]
+- [[raw/Claude_Code_implementation_JVL_curriculum_development-February-27-2026.md]]
 - [[raw/Val—Aaron.md]]
 - [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-2.md]]
 - [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-3.md]]

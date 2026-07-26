@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna, Selena, Elena]
-source-count: 39
+source-count: 40
 open-commitments: 1
 ---
 
@@ -169,8 +169,17 @@ On the [[wiki/meetings/2026-02-19-games-design-meeting.md|Feb-19 Games Design Me
 - **Lion's Riches / Twin Bison screen redesign ("a game of Tetris").** She and Michael must lay out the shrunk pay table, the scrolling instruction banner, and the large lion/bison canvas. [[raw/Game_Development_transcript_schedule_review-February-19-2026.md]]
 - **South Dakota design/production queue.** Working through Wild Colt (IP-1017, nearly done) then Dragon Pays (IP-1018) design, with production actively on Black Hills Skinner, Cool Cat Keno, Liquid-Glass La Rosa, Rodeo Spins and the Lion's Riches update; she resisted closing **IP-877 (Calle Ocho)** despite all art being done, unsure whether developer tasks live under it. She confirmed she prepares multiple game-selection layouts as standard practice. See [[wiki/topics/slot-game-design-principles.md]] (Feb-19). [[raw/Game_Development_transcript_schedule_review-February-19-2026.md]] [[raw/Games_Design_Meeting_review_feb19_2026_v3.md]]
 
+## Feb 27 2026 — game-development review: Nebraska reprioritization, MCP experiment, production queue
+
+On the [[wiki/meetings/2026-02-27-game-development-review.md|Feb-27 game-development review]]. [[raw/Game_Development-February-27-2026.md]]
+
+- **Absorbed the Nebraska reprioritization.** With Nebraska made #1 priority, Lena will drop other work to do the dual-box comp art (concept ~two days), and **extended the IP 1018 Dragon Face design deadline ~2 weeks**; she pushed to finish South Dakota and immediately start Georgia (which she flagged as urgent and warned would slip if a full Nebraska liquid-glass project were taken on). See [[wiki/topics/slot-game-design-principles.md]] (Feb-27). [[raw/Game_Development-February-27-2026.md]]
+- **The transcript→Jira MCP experiment.** She plans to send the meeting transcript to consultant [[wiki/people/clayton-chancey.md|Clayton]] and, in their Tuesday session, test his updated MCP creating Jira issues from the transcript across concept/design/production spaces and attaching a comp-art image (a prior cross-space attempt had failed). See [[wiki/topics/ai-assisted-development.md]] (Feb-27). [[raw/Game_Development-February-27-2026.md]]
+- **Production queue.** Walked the fresh build — La Rosa (gun-symbol animation toned down/approved), Black Hills Kino (help screens near complete, ball animation next build; audio created but not yet integrated), Rodeo Spins, plus line switches started. [[raw/Game_Development-February-27-2026.md]]
+
 ## Sources
 
+- [[raw/Game_Development-February-27-2026.md]]
 - [[raw/Game_Development_transcript_schedule_review-February-19-2026.md]]
 - [[raw/Games_Design_Meeting_review_feb19_2026_v3.md]]
 - [[raw/Game_Development-February-12-2026-1.md]]

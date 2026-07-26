@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 91
+source-count: 92
 open-commitments: 7
 open-questions: 0
 ---
@@ -253,8 +253,16 @@ On two same-day calls with Val and [[wiki/people/genadi-peari.md|Genadi Peari]] 
 - Worked the e-wallet-generation constraint — FlexPay is the money-carrier, and a machine "prints its own ticket and knows nothing about the e-wallet format," so a FlexPort in the machine can't make it print an e-wallet; the loop only closes by generating the e-wallet **in the kiosk** with a bill acceptor added. Substance on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Feb-26). [[raw/JIRA_Planning-February-26-2026.md]]
 - Took ownership (Val: "I think you should take this on") of reworking feature **FP 505** — strip every "pyramid style redemption" reference from its description and name, re-specify it for the market using **FlexPort** — plus breaking down **IP 1014** and its stale/duplicate tasks, writing the missing stories under IP 1007/1014, and building a **JIRA filter on IP 1007 + IP 1014** for Val to review the next morning. He noted Claude "worked very badly with Jira" the day before (see [[wiki/topics/ai-assisted-development.md]] Feb-26). Tracked as an open commitment on the FlexPay topic. [[raw/JIRA_Planning-February-26-2026.md]]
 
+## Feb 27 2026 — Nebraska release-schedule call (owns the features + sprint scheduling)
+
+On the [[wiki/meetings/2026-02-27-nebraska-release-schedule.md|Feb-27 1:02pm Nebraska schedule call]] (with Val, Juan, [[wiki/people/irina-shishko.md|Irina Shishko]]) Pavel is the engineering owner of turning the three Nebraska requirements into work. [[raw/Schedule_Nebraska-February-27-2026.md]]
+
+- **Explained the requirements→features workflow** to Val (who saw "two parallel inventories"): a published requirement isn't worked until someone creates a **feature** and schedules **stories** under it, linked via the "linked work item" field — "in many cases, me." Confirmed Claude could create a feature from a well-written requirement. See [[wiki/topics/ai-assisted-development.md]] (Feb-27). [[raw/Schedule_Nebraska-February-27-2026.md]]
+- **Marching orders:** create the Jira features linked to REQ-998 / 1007 / 1010, schedule them into the **next sprint (starting Thursday)**, and complete development within that cycle so JVL can rush the Eclipse approval. Handled the audit-ticket UI design (a separate attendant-screen pop-up, distinct from the game pop-ups) and worked the whole-dollar-rounding + last-bet-risk behaviour with Juan and Irina. See [[wiki/projects/nebraska-skill-market.md]] (Feb-27). [[raw/Schedule_Nebraska-February-27-2026.md]]
+
 ## Sources
 
+- [[raw/Schedule_Nebraska-February-27-2026.md]]
 - [[raw/tasks_planning_alignment-February-26-2026.md]]
 - [[raw/JIRA_Planning-February-26-2026.md]]
 - [[raw/Call_Genadi_Peari-February-12-2026-1.md]]
