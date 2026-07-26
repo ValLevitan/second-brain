@@ -4,7 +4,7 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "IT (GitHub-admin, infrastructure, secrets/Azure, AI-tool accounts) — the IT-context "Dima". Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 17
+source-count: 18
 ---
 
 # Dmitri Kovalchuk
@@ -61,6 +61,10 @@ On [[wiki/people/alka-sood.md|Alka Sood]]'s 4:01 PM file-architecture call ([[wi
 
 On the two-segment [[wiki/meetings/2026-02-02-knowledge-graph-tool-introduction.md|Knowledge Graph Tool introduction]], Dmitri (with [[wiki/people/andrey-bosik.md|Andrei Bosik]]) is one of the two IT people [[wiki/people/aaron.md|Aaron]] handed his built **knowledge-graph platform** to, to deploy and run. In the first segment he asked how users **upload their own knowledge** into the graph (not just read it); in the Russian coda he was cautious ("we discussed one thing… let's just launch it and see"). Val charged him and Andrei to "take possession of this tool" and lead the company from conversational "noise" to "binary facts." Fits his IT/infrastructure role. Substance on [[wiki/topics/transcript-knowledge-base-tooling.md]] (Feb-2). [[raw/Introduction to Knowledge Graph Tool-part-1-February-2-2026.md]] [[raw/Introduction to Knowledge Graph Tool-part-2-February-2-2026.md]]
 
+## Feb 20 2026 — leads the JIRA custom-fields inventory + round-1 deletion plan
+
+On the [[wiki/meetings/2026-02-20-jira-custom-fields-alignment.md|Feb-20 IT custom-fields alignment call]] (2:33pm; with Val), Dmitri ran the JIRA administration screen and presented his investigation of JVL's **165 custom fields** (94 system-protected): he identified a **~55-field round-1 delete list** — cancel the **Linksee plugin** ($40/month, 5 unused fields), delete two never-adopted **Jira Product Discovery** projects (~35 duplicated fields auto-removed), 12 zero-usage fields, and 3 of 16 Jira Service Management fields — plus **26 "active" fields** held for audit. He created a **sandbox snapshot** and relies on JIRA's 60-day recycle bin, and will do the deletions the following week without rushing. This is the round-1 execution behind the Feb-27 review's final 13-field keep list. Consistent with his IT/JIRA-administration role. See [[wiki/topics/ai-assisted-development.md]] (Feb-20). [[raw/IT_custom_fields_alignment-February-20-2026.md]]
+
 ## Feb 27 2026 — drives the JIRA custom-fields cleanup
 
 On the [[wiki/meetings/2026-02-27-jira-custom-fields-review.md|Feb-27 JIRA custom-fields review]] (2:05pm; with Val + [[wiki/people/aaron.md|Aaron]], who deferred to Dmitri as the driver), Dmitri ran the screen-share and the JIRA field administration: he reported the field counts (25 used in the last six months, 17 system-managed), **exported the field list to Excel**, struck the delete rows red, kept the requirement-categorization/requirement-type and Jira-Service-Management reporter fields Aaron flagged, and produced a **final list of 13 custom fields to keep** — deleting the rest **on Monday** after practising on the sandbox instance. Consistent with his IT/JIRA-administration role. See [[wiki/topics/ai-assisted-development.md]] (Feb-27). [[raw/Review_custom_fields_JIRA-February-27-2026.md]]
@@ -68,6 +72,7 @@ On the [[wiki/meetings/2026-02-27-jira-custom-fields-review.md|Feb-27 JIRA custo
 ## Sources
 
 - [[raw/Review_custom_fields_JIRA-February-27-2026.md]]
+- [[raw/IT_custom_fields_alignment-February-20-2026.md]]
 - [[raw/Introduction to Knowledge Graph Tool-part-1-February-2-2026.md]]
 - [[raw/Introduction to Knowledge Graph Tool-part-2-February-2-2026.md]]
 - [[raw/One-Drive _ Sharepoint_discussion.md]]
