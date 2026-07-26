@@ -2,8 +2,8 @@
 type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
-aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, Copilot Studio, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest, LaTeX, printer tool, Ollama, llama.cpp, local inference, Code Llama, Hugging Face, Claude Code, AI sandwich, developer experience, think like a data scientist, sub-agents, verbose output, compiler layer, ways vs skills, ADR, cross-examination, Python Vulture, intelligence center, Waze system, ways framework, compiler stack diagram, module federation]
-source-count: 53
+aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, Copilot Studio, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest, LaTeX, printer tool, Ollama, llama.cpp, local inference, Code Llama, Hugging Face, Claude Code, AI sandwich, developer experience, think like a data scientist, sub-agents, verbose output, compiler layer, ways vs skills, ADR, cross-examination, Python Vulture, intelligence center, Waze system, ways framework, compiler stack diagram, module federation, Aaron ways system, Ways ADR, Ways capabilities catalog, regulatory provenance chain]
+source-count: 59
 ---
 
 # AI-assisted development adoption
@@ -289,6 +289,16 @@ The short ~11m49s follow-up session ([[wiki/meetings/2026-02-11-github-ways-repo
 
 §15.8 clear (tooling/consulting content only, no figures).
 
+## Aaron's Ways system — formalized (AI-reconstructed ADR + capabilities catalog)
+
+A set of **five AI-reconstructed reference documents** distils Aaron's "ways" system into formal structure. They are a **secondary synthesis** — explicitly "reconstructed from the Feb-2026 transcripts, no invention," drawing on the already-ingested [[raw/GitHub_Ways-February-11-2026.md]], the [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-2.md]] set (parts 2–4), [[raw/Claude_Code-Dzmitry.md]] (Feb 9) and [[raw/Claude Code integration - continued.md]] (Feb 3). The **substance is already captured** in the Feb-9 and Feb-11 sections above; what these docs ADD is the **formalization** — a numbered decision spine and a capabilities inventory. Recorded here as reconstructed structure, not as new facts (do not double-count against the prose above).
+
+- **The 8 architectural decisions (ADR format) — the formalized spine of Ways:** (1) build Ways as an **overlay** on a default Claude Code install, not a modification; (2) Ways carries only **"why"** (reasoning/standards) — procedure stays in Skills; (3) implemented as a **submodule of hooks** (`~/.claude/hooks/ways/`) with per-domain sub-modules; (4) **scope model mirrors Anthropic's own** (user + project + repo scope, read together); (5) injection is **automatic pattern-matching**, not manual invocation; (6) each Way = a **text file + optional macro** (macro runs at runtime, prepend or append); (7) all Ways changes are **PR-gated governance**; (8) design for **regulatory-provenance traceability** (framework → control → policy → way → injection — Aaron: "the beginning of the framework," not finished). Each decision is already described in prose above; the docs' contribution is stating them as a numbered decision set with consequences. [[raw/Aaron_Ways-ADR.md]] [[raw/Aaron_Ways-Architectural-Thinking.md]]
+- **The capabilities catalog** enumerates ~65 disclosed capabilities across 11 categories (context injection, scope management, macros, known ways/domains, repo setup & conversion, code-review/PR, governance & traceability, activation/deactivation, integration, org deployment, continuous evolution), and a companion doc maps each capability back to the decision that enables it. It also inventories the **named ways** Aaron disclosed — GitHub, ADR, SSH, release, documentation, design, code-review, webpack-federation, Spring, plus build / front-end / micro-front-end (project scope) and legal / finance (activation groups) — all sourced from the same Feb-2026 transcripts. [[raw/Aaron_Ways-Capabilities.md]] [[raw/Aaron_Ways-Capabilities-from-Decisions.md]] [[raw/Aaron_Ways-System-Knowledge.md]]
+- **Written LLM-compiler-pipeline reference (pointer only).** A short conceptual reference document restates the "AI is a new stage in the human-intent → source-code → compiler → linker → hardware pipeline" thesis — the same **compiler-layer** idea already on the Feb-9 (Chudinov) and Feb-11 sections above — stressing that, unlike a deterministic compiler, an LLM "confidently gives you something that looks right but might be wrong," so human review of AI-generated code is structurally necessary. Cited here as the written artifact; the thesis itself is not re-explained. [[raw/LLM-Compiler-Pipeline-Reference.md]]
+
+§15.8 clear (tooling/methodology only; no named-person compensation).
+
 ## Feb 16 2026 — retiring a JIRA custom field with a Claude-written migration script
 
 A ~1m20s clip ([[wiki/meetings/2026-02-16-val-aaron-jira-acceptance-criteria-migration.md]]) in which [[wiki/people/aaron.md|Aaron]] gives [[wiki/people/val-levitan.md|Val]] a lossless method to retire JIRA's **"acceptance criteria" custom field** — a concrete instance of using a coding agent for a data-migration chore. [[raw/Val—Aaron.md]]
@@ -397,3 +407,9 @@ Four Feb-27 2026 threads advanced the recorded-talk → AI-drafts-the-work progr
 - [[raw/aaron-linux_bash_zsh_claude_code-may-13-2025.md]]
 - [[raw/executive_summary_LaTeX_aaron-may-26-2025.md]]
 - [[raw/executive_summary_ollama_aaron-may-26-2025.md]]
+- [[raw/Aaron_Ways-ADR.md]]
+- [[raw/Aaron_Ways-Architectural-Thinking.md]]
+- [[raw/Aaron_Ways-Capabilities.md]]
+- [[raw/Aaron_Ways-Capabilities-from-Decisions.md]]
+- [[raw/Aaron_Ways-System-Knowledge.md]]
+- [[raw/LLM-Compiler-Pipeline-Reference.md]]
