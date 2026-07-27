@@ -4,7 +4,7 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 42
+source-count: 43
 open-commitments: 1
 ---
 
@@ -98,8 +98,13 @@ On the [[wiki/meetings/2026-02-27-nebraska-release-schedule.md|Feb-27 1:02pm Neb
 
 On the [[wiki/meetings/2026-03-04-schedule-review.md|Mar-4 schedule review]] (with Val and [[wiki/people/pavel.md|Pavel Frolov]]) Irina Shishko participated in the Jira-workflow discussion — questioning the **purpose and timing of the proposed GitHub-branch field** on features (when it should appear — at first commit vs before development) and drawing the analogy to how commit↔Jira linking worked under the old SVN setup. See [[wiki/topics/github-release-management-pipeline.md]] (Mar-4). [[raw/Schedule_review-March-4-2026.md]]
 
+## Mar 5 2026 — Nebraska release schedule review (QA/testing voice)
+
+On the [[wiki/meetings/2026-03-05-nebraska-schedule-review.md|Mar-5 4:13pm Nebraska schedule review]] (Russian; with [[wiki/people/val-levitan.md|Val]] and [[wiki/people/pavel.md|Pavel Frolov]], who left partway) Irina Shishko walked Val through where each Nebraska feature sits in JIRA and who owns it, and gave the QA/testing read on the two remaining big features. She stressed that the **audit ticket** (REQ-998) can't be treated as "just check a button" because **every printer handles the audit/print ticket differently**, so the auditing must be exercised across all printers (she framed the broader test as hers, with [[wiki/people/ivan.md|Ivan]]), and she asked for the **whole-dollar-rounding + risk feature** (REQ-1007) behaviour to be spelled out. Consistent with her Director-of-QA / certification-interpretation role. See [[wiki/projects/nebraska-skill-market.md]] (Mar-5). [[raw/Schedule_review_Nebraska-March-5-2026.md]]
+
 ## Sources
 
+- [[raw/Schedule_review_Nebraska-March-5-2026.md]]
 - [[raw/Schedule_review-March-4-2026.md]]
 - [[raw/Schedule_Nebraska-February-27-2026.md]]
 - [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]

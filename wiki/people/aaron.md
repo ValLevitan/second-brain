@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 89
+source-count: 92
 open-commitments: 2
 ---
 
@@ -257,8 +257,16 @@ On the [[wiki/meetings/2026-02-11-github-front-end-waze-setup.md|Feb-11 front-en
 - **JIRA custom-fields review** ([[wiki/meetings/2026-02-27-jira-custom-fields-review.md]], 2:05pm; with Val + [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]). Aaron advised (deferring the decisions to Dmitri, "I'm the advisor here"): configure **by intention and use, not technical guesswork** ("this is like going into an electrical cabinet and flipping wires… not the right way"); build a **deletion matrix** working **backward from the dashboards and their filters**; **verify on the sandbox** and against populated issues before deleting. This is the "Review custom fields JIRA" work his Feb-16 acceptance-criteria method set up; the outcome was a **13-field keep list** for his MCP to address. See [[wiki/topics/ai-assisted-development.md]] (Feb-27). §15.8 clear. [[raw/Review_custom_fields_JIRA-February-27-2026.md]]
 - **Fail-fast / source-of-truth session** ([[wiki/meetings/2026-02-27-obsidian-settings-review.md]], 2:45pm; the source filename is **mislabeled** `Claude_Code_implementation_JVL_curriculum_development` — the recording is "Obsidian settings review" but the content is this AI-philosophy discussion, §11). Aaron's thesis: AI **amplifies intentions** (and incompetence) and compiles intent into tangible output; a wrong decision reached in half an hour of prompting cost nothing, so **stop being emotionally invested** and be ready to flip the script (even run the positive and negative paths in parallel), collapsing three-week deliberations into ~three-day correction cycles. He tied it to the prior session's git-repos-with-code-owners + **ADR** structure + inline code documentation, and to writing things down ("if it's not written down, you'll never get out of the correction cycles"). Val gave him a **free week to finish the MCP**. See [[wiki/topics/ai-assisted-development.md]] and [[wiki/topics/transcript-knowledge-base-tooling.md]] (Feb-27). §15.8 clear (Aaron's coaching "crazy money," no figure). [[raw/Claude_Code_implementation_JVL_curriculum_development-February-27-2026.md]]
 
+## Mar 6 2026 — the refactored Jira MCP briefing + the GitHub-dashboard tool demo
+
+- **Claude↔Jira MCP new release** ([[wiki/meetings/2026-03-06-mcp-jira-new-release.md]], two segments 3:29pm + 3:43pm; briefing Val, with [[wiki/people/andrey-bosik.md|Andrei Bosik]] on seg 1). Aaron laid down the rules for the **refactored Jira plugin for MCP**: it can use **any** custom field (caveats for complex ones like multi-dropdowns), but each field must carry a **terse, well-written description** — an empty description is **deliberately ignored**, and a poor one degrades MCP performance across everyone's chats; users must add their **Jira auth token**. He then coached attaching requirements **by domain, not project** (requirements are cross-project — "North Dakota, specifically math"), confirming each is accepted/discussed and routing the many un-accepted legacy requirements to whoever should decide. See [[wiki/topics/ai-assisted-development.md]] (Mar-6). §15.8 clear. [[raw/MCP_JIRA_new_release_March-6-2026.md]] [[raw/MCP_JIRA_new_release_March-6-2026 (1).md]]
+- **GitHub dashboard demo** ([[wiki/meetings/2026-03-06-github-dashboard.md]], 8:53pm; with Val). Aaron demoed a **"GitHub Enterprise Management Operator"** CLI he wrote himself (not purchased), checked into the GitHub Enterprise's own repo and built on the **GitHub CLI (`gh`)** — invite/remove/audit/list users, Copilot + repo management — and drove it with **Claude** in plain language, having Claude **add a new capability and its tests live** during the recording. His framing: GitHub has **no out-of-the-box reporting** (why Claude had steered Val toward a Jira dashboard), so JVL builds and grows its own tools; he ran a **62-repo collaborator report** ("18 users have access to all 62 repos" + one outlier + a CSV), said this only became feasible for coding agents "the last year," and could make it an **MCP server**. Andrei Bosik named to grow the tool. See [[wiki/topics/github-release-management-pipeline.md]] (Mar-6). §15.8 clear. [[raw/GitHub_dashboard-March-6-2026.md]]
+
 ## Sources
 
+- [[raw/MCP_JIRA_new_release_March-6-2026.md]]
+- [[raw/MCP_JIRA_new_release_March-6-2026 (1).md]]
+- [[raw/GitHub_dashboard-March-6-2026.md]]
 - [[raw/Review_custom_fields_JIRA-February-27-2026.md]]
 - [[raw/Claude_Code_implementation_JVL_curriculum_development-February-27-2026.md]]
 - [[raw/Val—Aaron.md]]

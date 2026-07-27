@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 93
+source-count: 94
 open-commitments: 7
 open-questions: 0
 ---
@@ -267,8 +267,13 @@ On the [[wiki/meetings/2026-03-04-schedule-review.md|Mar-4 schedule review]] (wi
 - **Picked [[wiki/people/alexander-biratka.md|Sasha Biratka]] to take over [[wiki/people/eugine-yavorski.md|Yavorski]]'s FlexPort application (IP 10-13)** over [[wiki/people/dmitri-chudinov.md|Dima Chudinov]] — Chudinov is stretched across the Flex-Q terminal and server-side services and shouldn't be redirected for a month; Sasha is finishing the cash-dispenser task (~1–2 weeks) and can then pick it up. [[raw/Schedule_review-March-4-2026.md]]
 - **Advocated moving from sprints to kanban** — JVL's sprints are never ideal because urgent unplannable tasks always bump planned work; kanban absorbs the churn. Action: talk to [[wiki/people/dmitri-kovalchuk.md|Dima Kovalchuk]] about reconfiguring the Jira board (sprint→kanban) and about the feature→GitHub-branch link field. See [[wiki/topics/github-release-management-pipeline.md]] (Mar-4). [[raw/Schedule_review-March-4-2026.md]]
 
+## Mar 5 2026 — Nebraska release schedule review (attends the JIRA walk-through, leaves early)
+
+On the [[wiki/meetings/2026-03-05-nebraska-schedule-review.md|Mar-5 4:13pm Nebraska schedule review]] (Russian; with [[wiki/people/val-levitan.md|Val]] and [[wiki/people/irina-shishko.md|Irina Shishko]]) Pavel ("Pasha") is the "+1 other" on the recording — he walks Val through where features live in JIRA (core / game-production / application) and how tasks are linked, then **leaves partway through** ("мне надо убегать") to another commitment, handing the remaining walkthrough to Irina. As the engineering owner he is where the Nebraska feature/story assignments land (dual box → Yulia, then Anton's implementation story). See [[wiki/projects/nebraska-skill-market.md]] (Mar-5). [[raw/Schedule_review_Nebraska-March-5-2026.md]]
+
 ## Sources
 
+- [[raw/Schedule_review_Nebraska-March-5-2026.md]]
 - [[raw/Schedule_review-March-4-2026.md]]
 - [[raw/Schedule_Nebraska-February-27-2026.md]]
 - [[raw/tasks_planning_alignment-February-26-2026.md]]

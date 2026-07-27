@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, Copilot Studio, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest, LaTeX, printer tool, Ollama, llama.cpp, local inference, Code Llama, Hugging Face, Claude Code, AI sandwich, developer experience, think like a data scientist, sub-agents, verbose output, compiler layer, ways vs skills, ADR, cross-examination, Python Vulture, intelligence center, Waze system, ways framework, compiler stack diagram, module federation, Aaron ways system, Ways ADR, Ways capabilities catalog, regulatory provenance chain]
-source-count: 59
+source-count: 61
 ---
 
 # AI-assisted development adoption
@@ -347,6 +347,15 @@ Four Feb-27 2026 threads advanced the recorded-talk → AI-drafts-the-work progr
 
 §15.8 clear on all four — tooling/process/consulting content only; no named-person compensation.
 
+## Mar 6 2026 — the refactored Claude↔Jira MCP: custom-field descriptions + requirements-by-domain
+
+On a short two-segment JVL-IT session ([[wiki/meetings/2026-03-06-mcp-jira-new-release.md]]; [[wiki/people/aaron.md|Aaron Bockelie]] briefing [[wiki/people/val-levitan.md|Val]], with [[wiki/people/andrey-bosik.md|Andrei Bosik]] on segment 1) Aaron gave the operating rules for the **refactored Jira plugin for MCP** — the maturing successor to the Feb-26 "worked very badly with Jira" MCP and the beneficiary of the [[#feb-27-2026--jira-custom-fields-cleanup-the-requirementsfeatures-gap-transcriptjira-mcp-fail-fast|Feb-27 custom-field cleanup]].
+
+- **Custom-field descriptions are load-bearing.** The refactored MCP can use **any** Jira custom field (with caveats for really complex ones like multi-dropdowns) — but **only if the field carries a terse, well-written description** of what it is, what it does, and what it's for, matching the style of the other field descriptions. A field with **no description is deliberately ignored** by the MCP; a **poorly-written** description "will have a direct impact on the performance of how it works in everybody's MCP servers in their chats." So the field-hygiene work is not cosmetic — it directly determines which fields Claude can even see. Aaron's one other instruction: make sure people know how to add their **Jira auth token** to it. [[raw/MCP_JIRA_new_release_March-6-2026.md]]
+- **Attach requirements by domain, not by project.** Coaching Val on connecting requirements to work, Aaron said to go **not by project but by requirements domain** — requirements are cross-project and "touch all sorts of stuff" — e.g. "let's look at requirements for North Dakota, specifically about math." The workflow: walk a domain, make sure each requirement is well-written and **accepted or discussed**, and for the un-accepted ones "figure out who really should be concerned about them so I can raise the questions to those people." His diagnosis: JVL has "a lot of old legacy requirements that never made it through to acceptance," which will "greatly affect the quality of our product when we try to attach our requirements to it." A domain snapshot is a **temporary** view ("what does the domain look like right now for requirements"), not a permanent taxonomy. This is the requirements-side complement to the [[#feb-27-2026--jira-custom-fields-cleanup-the-requirementsfeatures-gap-transcriptjira-mcp-fail-fast|Feb-27 requirements→features gap]] Val wanted handed to Claude. [[raw/MCP_JIRA_new_release_March-6-2026 (1).md]]
+
+§15.8 clear — MCP/Jira tooling and requirements process only; no named-person compensation.
+
 ## History — earlier AI-consultation artifacts (undated, pre-2025)
 
 - **SolidWorks integration memo from ChatGPT:** a reference document titled "Solid work integration and the overall architecture suggestion from ChatGPT" shows JVL (before the 2025 tooling push) using ChatGPT to draft an IT-integration architecture connecting **SolidWorks** (3D CAD) with **Atlassian Jira/Confluence** and **Microsoft Business Central** — file attachments/version control of CAD files, BOM synchronization into the ERP, middleware/connectors, OAuth security, monitoring, and staged testing. The content is generic AI output (no JVL-specific decisions); its durable value is evidence that JVL's CAD/PLM–ERP–Atlassian integration question was explored via ChatGPT. Undated; consistent with the ~2023–24 Atlassian/Business-Central era of [[wiki/projects/jvl-insights-knowledge-base.md]] (inference, flagged). [[raw/solid_work_integration_and_the_overall_architecture_suggesti_2025-03-29.md]]
@@ -354,6 +363,8 @@ Four Feb-27 2026 threads advanced the recorded-talk → AI-drafts-the-work progr
 
 ## Sources
 
+- [[raw/MCP_JIRA_new_release_March-6-2026.md]]
+- [[raw/MCP_JIRA_new_release_March-6-2026 (1).md]]
 - [[raw/Review_custom_fields_JIRA-February-27-2026.md]]
 - [[raw/Schedule_Nebraska-February-27-2026.md]]
 - [[raw/Game_Development-February-27-2026.md]]

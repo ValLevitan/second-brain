@@ -3,7 +3,7 @@ type: topic
 title: GitHub release management and the CI/CD release pipeline
 date: 2025-10-21
 aliases: [release management, release pipeline, CI/CD, GitHub Actions pipeline, release artifacts, ISO image release, release manager role, continuous delivery, flex os installer, manifest, release candidate, single source of truth, feature branch discipline, sprints vs kanban, Jira GitHub link, FlexPos IP 902, FP 519]
-source-count: 4
+source-count: 5
 open-questions: 1
 ---
 
@@ -61,6 +61,15 @@ On the [[wiki/meetings/2026-03-04-schedule-review.md|Mar-4 schedule review]] ([[
 - **Sprints vs kanban (unresolved, leaning kanban).** Pavel argued JVL's **sprints** never land cleanly — an urgent unplannable task always bumps planned work, so sprints "were never ideal"; **kanban** would absorb the churn more naturally. To switch, [[wiki/people/dmitri-kovalchuk.md|Dima Kovalchuk]] would reconfigure the Jira board from sprint to kanban and Pavel would learn to work it. Left as an action-item to action from the transcript, not decided on the call. [[raw/Schedule_review-March-4-2026.md]]
 - **The custom-field "MP" server tool.** The server-side "MP" tool that reads Jira custom fields (now trimmed to **14 fields** after the Feb custom-field cleanup — see [[wiki/topics/ai-assisted-development.md]]) is being fixed by an engineer (transcribed "Иран"/"ера"; the Jira-tooling name cluster is queued, not force-matched) and should work correctly **during March**, after which it can be pointed at each task to flag where required data is missing. [[raw/Schedule_review-March-4-2026.md]]
 
+## Mar 6 2026 — the GitHub dashboard problem, and building the reporting tools GitHub lacks
+
+On the [[wiki/meetings/2026-03-06-github-dashboard.md|Mar-6 8:53pm demo]] ([[wiki/people/aaron.md|Aaron Bockelie]] ↔ [[wiki/people/val-levitan.md|Val]]) Aaron showed the answer to a standing question — why can't JVL just watch its GitHub the way it watches Jira? [[raw/GitHub_dashboard-March-6-2026.md]]
+
+- **GitHub has no out-of-the-box reporting, so you build the tool.** Aaron said this is exactly why Claude had earlier steered Val toward **using Jira to build a dashboard** — GitHub "does not have a bunch of tools out-of-the-box to provide reports and data" about repos and collaborators. His alternative: build the specific tools JVL needs and keep growing them until they cover what you want to watch (and schedule them — "make me a program that runs every week and prints me a report"). [[raw/GitHub_dashboard-March-6-2026.md]]
+- **The "GitHub Enterprise Management Operator" CLI.** Aaron demoed a command-line tool he wrote himself (not a purchased product), **checked into the GitHub Enterprise's own git repo** like any other repo. It invites/removes/audits/checks/lists users, cancels invites, manages Copilot, and does repo management (`enterprise pi list orgs`, `repo list --org …`). He built it on the **GitHub CLI (`gh`)** — the same tool the DevOps side ([[wiki/people/andrey-bosik.md|Andrei]]/"Andres") already uses. It lives locally on his workstation but "there's no reason I couldn't make this an MCP server," so GitHub repos could be managed in a chat "just the same as you manage JIRA issues." [[raw/GitHub_dashboard-March-6-2026.md]]
+- **Claude drives the tool, and improves it live.** Aaron ran it in plain language ("tell me all the repos in the C Prime Enterprise Solutions org" — misspelling tolerated; Claude loads the tools, runs them, remembers how they work) and, mid-recording, had Claude **add a new "list repos" capability and a collaborator report to the tool itself** — writing the code *and* its tests — the point being reusable tools that grab **real data, not hallucinated output**. He ran a **collaborator report across 62 code repos in one org** (throttled by the GitHub API's rate limit), rendered as an ANSI/text-mode ("NC"/ncurses) graph: a count of users by access level, the finding that **18 users have access to all 62 repos** with one outlier repo carrying extra collaborators, plus a CSV to open in a spreadsheet. Aaron dated the feasibility of Claude doing this reliably to "at least the last year" — coding agents were "too stupid or untrustworthy" before. [[raw/GitHub_dashboard-March-6-2026.md]]
+- **Ties to the "intelligence center" mandate.** Growing homegrown GitHub-reporting tooling — with [[wiki/people/andrey-bosik.md|Andrei]] named to take it over — is the concrete shape of the per-developer GitHub-productivity system Val told [[wiki/people/pavel.md|Pavel]] to own on [[wiki/meetings/2026-02-09-claude-code-onboarding-chudinov.md|Feb-9]]. Broader AI-tooling substance on [[wiki/topics/ai-assisted-development.md]]. §15.8 clear (tooling only). [[raw/GitHub_dashboard-March-6-2026.md]]
+
 ## Open questions
 
 - **Where do large graphic files (LFS) live for releases?** Val recalled agreeing to move big graphic assets to separate cloud storage (he floated Azure / "blob") to avoid cluttering GitHub; [[wiki/people/andrey-bosik.md|Andrei]] stated **LFS is part of the GitHub repository**. Accounts diverge; unresolved. Related: artifacts currently sit on a **local Nexus server**, and Val ruled to **keep Nexus local for now** (cloud Nexus needs a financial commitment JVL isn't sure it needs), accepting a later action-rewrite when JVL migrates to cloud. [[raw/artifacts_assembly_GitHub-october-21-2025.md]] [[raw/practice_release_calle_ocho-github-october-21-2025.md]]
@@ -71,3 +80,4 @@ On the [[wiki/meetings/2026-03-04-schedule-review.md|Mar-4 schedule review]] ([[
 - [[raw/artifacts_assembly_GitHub-october-21-2025.md]]
 - [[raw/practice_release_calle_ocho-github-october-21-2025.md]]
 - [[raw/Schedule_review-March-4-2026.md]]
+- [[raw/GitHub_dashboard-March-6-2026.md]]

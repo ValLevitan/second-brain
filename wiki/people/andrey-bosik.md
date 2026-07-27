@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 53
+source-count: 55
 open-commitments: 6
 ---
 
@@ -163,8 +163,15 @@ On the [[wiki/meetings/2026-02-11-github-front-end-waze-setup.md|Feb-11 front-en
 
 On the first of the two same-day [[wiki/people/genadi-peari.md|Genadi Peari]] calls ([[wiki/meetings/2026-02-12-genadi-flex-station-flexbill-texas.md]]), Genadi reported that "**Andrei**" had set up a **GitHub repository** for his hardware work and installed **Claude Code and Claude Desktop** on Genadi's computer, and that they would continue that day (Genadi: "I'm in shock at how we've progressed"). By DevOps / Claude-Code-onboarding context this is Bosik (the Feb-2026 onboarding thread is his) — labeled a strong inference. [[raw/Call_Genadi_Peari-February-12-2026-1.md]]
 
+## Mar 6 2026 — on the Jira-MCP briefing; named to grow the GitHub-dashboard tool
+
+- On the [[wiki/meetings/2026-03-06-mcp-jira-new-release.md|Mar-6 3:29pm Claude↔Jira MCP briefing]] (with [[wiki/people/val-levitan.md|Val]] and [[wiki/people/aaron.md|Aaron Bockelie]]) Andrei ("Andrei Bosik") is present as JVL IT while Aaron explains the refactored Jira plugin's custom-field-description requirement; his only recorded line is "All clear." See [[wiki/topics/ai-assisted-development.md]] (Mar-6). [[raw/MCP_JIRA_new_release_March-6-2026.md]]
+- On the same-day [[wiki/meetings/2026-03-06-github-dashboard.md|GitHub-dashboard demo]] (Aaron ↔ Val; Andrei not present) Aaron named **Andrei** as the one who "needs to get into the mindset of growing the tool" — the homegrown GitHub Enterprise-management CLI — and noted Andrei already uses the GitHub CLI (`gh`). Consistent with his DevOps/GitHub-admin role and the Feb-9 "intelligence center" push. See [[wiki/topics/github-release-management-pipeline.md]] (Mar-6). [[raw/GitHub_dashboard-March-6-2026.md]]
+
 ## Sources
 
+- [[raw/MCP_JIRA_new_release_March-6-2026.md]]
+- [[raw/GitHub_dashboard-March-6-2026.md]]
 - [[raw/Call_Genadi_Peari-February-12-2026-1.md]]
 - [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-2.md]]
 - [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
