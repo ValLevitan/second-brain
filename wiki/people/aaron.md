@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 96
+source-count: 100
 open-commitments: 2
 ---
 
@@ -277,10 +277,18 @@ A single continuous Val↔Aaron call recorded in two segments ([[wiki/meetings/2
 - **Release procedure (seg 1).** Aaron dictated how to tear down JVL's broken Jira **ISO** release-tracking project and move release versioning into **git tags** (git = source of truth): don't delete outright — first **export/dump the ISO issue types + properties** as a data source, work with [[wiki/people/ivan.md|Ivan]]/QA to pick the real "leading-edge" items, find which repos are **referenceable** in GitHub (ignore the un-migrated SVN ones — "leave that stuff to die"), **tag releases in git for the matching repos**, discard the rest, then delete the ISO issue type from Jira; don't over-invest in archaeology except for versions handed off for validation or to customers. See [[wiki/topics/github-release-management-pipeline.md]] (Mar-16). §15.8 clear. [[raw/Aaron_Val-release_procedure_GitHub-March-16-2026.md]]
 - **Documentation flow (seg 2) — reversed his own Mar-13 ruling.** Reviewing JVL's Administration + Engineering Documentation Guides, Aaron **pivoted on keeping capabilities in the git repo**: because a capability is a **"CAP"+number** code tied to a requirement ("a whole lot like a Jira issue") and a git markdown file can't enforce **referential integrity** to its requirement, capabilities (and requirements) belong in **Jira** (requirement↔capability **issue links** form the network), while **ADRs stay in the git repo** referencing the CAP/requirement codes; also keeps non-technical people like [[wiki/people/juan-martinez.md|Juan]] out of git. He defined **"AI-first" as collaborate-not-AI-only** — every PR/requirement/capability/ADR authored with AI must still be **read and accepted by a human** before moving on, hard as that is against AI's content volume. See [[wiki/topics/ai-assisted-development.md]] and [[wiki/topics/transcript-knowledge-base-tooling.md]] (Mar-16). §15.8 clear. [[raw/Execeutive_Engineering_documentation_flow-March-16-2026.md]]
 
+## Mar 17 2026 — decomposing Val's "company architect" into JVL Ways; the GitHub integration plan
+
+The next morning's four-segment session ([[wiki/meetings/2026-03-17-jvl-ways-on-github-setup.md]], headers 12:12/12:22/12:33/1:12pm) — the **first real application of Aaron's Ways system inside JVL**. Aaron ran Val's draft "automated company architect" prompt through his own **ways-production Claude environment** and decomposed it: the document is "three things stapled together" (persona + workflow + checklist); a single `way.md` would be **~120 lines of injected context** — too costly to fire on every prompt — so it becomes a **progressive-disclosure tree** (parent senior-architect persona → pass-one / pass-two ways → GitHub-check ways, ADR sub-template kept once). He taught Val the **way (guidance/"why") vs skill (context+output-format/"how")** split against Val's own draft, flagged the tightly-scoped output sections for removal, and warned off the capability-statement template (JVL's Jira "user story" templates get mis-filled). With **[[wiki/people/andrey-bosik.md|Andrei Bosik]]** (seg 4) Aaron set the GitHub plan: a **JVL branch in the Claude Code config repo Andrei maintains** carrying proprietary JVL ways over Aaron's daily-updated public copy — a **hybrid**, since GitHub Enterprise blocks a true fork, with JVL ways **never merging back** into Aaron's copy ("I don't want the word JVL inside" it) and breaking changes shipped in **version notes**. Agreed to compose/commit the ways live the next day, then have Andrei try them. The requirements-vs-capabilities/INCOSE grounding (segs 1–2) is on [[wiki/topics/transcript-knowledge-base-tooling.md]] (Mar-17); the Ways/GitHub detail on [[wiki/topics/ai-assisted-development.md]] (Mar-17). §15.8 clear. [[raw/Requirements_Capabilities-March-16-2025.md]] [[raw/Reference_Guides-March-16-2026.md]] [[raw/Val_Ways_set-up-March-16-2026.md]] [[raw/setting_JVL_Ways_in_GitHub-March-16-2026.md]]
+
 ## Sources
 
 - [[raw/Aaron_Val-release_procedure_GitHub-March-16-2026.md]]
 - [[raw/Execeutive_Engineering_documentation_flow-March-16-2026.md]]
+- [[raw/Requirements_Capabilities-March-16-2025.md]]
+- [[raw/Reference_Guides-March-16-2026.md]]
+- [[raw/Val_Ways_set-up-March-16-2026.md]]
+- [[raw/setting_JVL_Ways_in_GitHub-March-16-2026.md]]
 
 - [[raw/Capabilities_requirements_ADR-storage-March-13-2026.md]]
 - [[raw/Aaron_Val-March-09-2026.md]]

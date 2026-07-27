@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 58
+source-count: 59
 open-commitments: 6
 ---
 
@@ -176,8 +176,13 @@ On a short 3:58pm call ([[wiki/meetings/2026-03-09-it-github-jira-infrastructure
 
 On the [[wiki/meetings/2026-03-10-jira-github-transparency.md|Mar-10 ~50-min Russian call]] with [[wiki/people/val-levitan.md|Val]], Andrei is the engineering counterpart in Val's "you propose the *how*, I own the *what*" split. He reported that he and "Dima" (IT/Jira context → [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]; inference) had tested a **JIRA workflow validator** in the sandbox (blocks moving a Story to In-Progress while its parent Feature is still To-Do), argued that developers should only commit tested/working code (raising "repository cleanliness" — Val overrode this), diagnosed the 464-open-tasks dashboard as a **bottleneck**, and conceded he could **not** produce equivalent analytics from GitHub. He confirmed JVL can **block a pull request to `main`** when a branch has no linked JIRA issue, and asked Val to pin down the report metric (Stories with no commit — per day, per week, or both). Val said he would send Andrei this recording so Andrei could extract the problem, combine it with [[wiki/people/aaron.md|Aaron]]'s proposal (without over-complicating it), and return an engineering spec for the three to agree before implementing. Substance on [[wiki/topics/github-release-management-pipeline.md]] (Mar-10). [[raw/Transparency_alignment_JIRA_GitHub-March-10-2026.md]] [[raw/JIRA_GitHub_transparency-Draft-March-10-2026.md]]
 
+## Mar 17 2026 — named to own JVL's Ways; the GitHub integration plan
+
+On the final segment of the [[wiki/meetings/2026-03-17-jvl-ways-on-github-setup.md|Mar-17 Aaron↔Val Ways session]] (recording header 1:12pm) [[wiki/people/val-levitan.md|Val]] called Andrei in and [[wiki/people/aaron.md|Aaron]] prepped him for a next-day working meeting — earlier in the session Val had named Andrei as the person who should **own JVL's ways** ("trying to employ Andrei on this, but he's not ready yet… he needs more time," while ruling out [[wiki/people/pavel.md|Pavel]] for it). Andrei confirmed the two mechanics behind JVL's Ways adoption: (1) JVL runs a **daily script that auto-updates Aaron's Claude Code config + Claude Code** across its employees' environments; (2) JVL uses Aaron's Claude config **as-is, unmodified**. Aaron set the integration plan: create a **JVL branch inside the Claude Code config repo Andrei maintains** carrying proprietary JVL ways, so cloners get the integrated branch — a **hybrid of Aaron's ongoing ways + JVL's own**, since **GitHub Enterprise blocks a true fork** (Andrei's own point), with the JVL branch updated from JVL's main (which tracks Aaron's repo) and JVL ways never merging back to Aaron. Substance on [[wiki/topics/ai-assisted-development.md]] (Mar-17). §15.8 clear. [[raw/setting_JVL_Ways_in_GitHub-March-16-2026.md]]
+
 ## Sources
 
+- [[raw/setting_JVL_Ways_in_GitHub-March-16-2026.md]]
 - [[raw/Transparency_alignment_JIRA_GitHub-March-10-2026.md]]
 - [[raw/JIRA_GitHub_transparency-Draft-March-10-2026.md]]
 - [[raw/IT_GitHub_JIRA_infrastructure-March-9-2026.md]]
