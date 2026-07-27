@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena]
-source-count: 55
+source-count: 56
 ---
 
 # Genadi Peari
@@ -192,8 +192,18 @@ On the two same-day planning calls ([[wiki/meetings/2026-02-26-tasks-planning-al
 - Walked his backlog status — **Flex Sport (IP 578)** sent for 2 more manufacturer iterations (samples ~2 weeks, effectively done); **IP 1014 Flex Cash Dispenser** BOM/Fujitsu-design closed with hardware development + [[wiki/people/evgeniy-alekseev.md|Alekseev]]'s prototype in progress; will order an initial **15-unit "run"** (harness first). [[raw/tasks_planning_alignment-February-26-2026.md]]
 - Opened the 3:18pm call with the core problem — **"Fujitsu doesn't accept cash, we need bill acceptors"** — and worked through adding a **bill acceptor + recycler** to FlexPay, warning it makes the unit roughly FlexPay's own width; agreed to Val's plan to **narrow the vertical FlexPay from ~2 ft to ~1 ft** in two stages (drop the recycler into the existing enclosure first, proper industrial design — vertical monitor, added height — second). He needs **two new tasks** (mechanical **redesign** + **BOM**) for the Fujitsu form, plus prototypes, harness and detailed BOM material (may copy tasks 371/372 or build fresh). Substance and the open commitment on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Feb-26). [[raw/JIRA_Planning-February-26-2026.md]]
 
+## Mar 11 2026 — the "Flex Recycler Slim" between-machines kiosk
+
+On a garbled Russian one-on-one with Val ([[wiki/meetings/2026-03-11-flex-recycler-slim.md]], 08:31pm) Genadi worked the design of a new **slim payout kiosk (the "Flex Recycler Slim")** meant to stand between machines:
+
+- He confirmed the current **black-and-white plastic prototypes** (one white, two black) assembled well and are strong enough — though he had to correct/improve a lot — and that a **properly-textured** plastic will look markedly better than the visibly built-up texture on the samples; new tooling forms take realistically **~7–8 weeks**. He has started the drawings, will finish laying everything out and **send to a pricing vendor** (transcribed "Quaternion"), and expects a first batch of ~**10 units**. [[raw/Flex-Recyler-Slim-Meeting-March-11-2026.md]]
+- On the design he proposed **~11 inches** wide, agreed the head must be no wider than the pedestal, and defended his stabiliser **foot** (needed so a standalone unit doesn't tip) while accepting Val's demand to keep it narrow enough to fit between machines. He noted JVL's **perimeter lighting** (one running-LED line, single driver, as on FlexPay) already exists and can be reused, and that electronics can hide inside with a serviceable door. [[raw/Flex-Recyler-Slim-Meeting-March-11-2026.md]]
+- **Board debate:** Genadi wanted to **reuse JVL's own board** (it has all the functionality + lighting) rather than start a new design with [[wiki/people/evgeniy-alekseev.md|Alekseev]], arguing its cost is mostly **memory** this product doesn't need (roughly halving the price); Val pushed for something **simpler/cheaper** and left it to a features discussion. He noted an **ARM + cheap-chip** path costs less than the FlexPort memory alone. [[raw/Flex-Recyler-Slim-Meeting-March-11-2026.md]]
+- **Undertakings:** finish the current tooling release (~1–2 days) then push the recycler slim; add a **scanner**; and **send Val the render** so Val can compose the feature list. Full device substance and Val's cheap-BOM/recurring-revenue economics on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Mar-11). §15.8 clear. [[raw/Flex-Recyler-Slim-Meeting-March-11-2026.md]]
+
 ## Sources
 
+- [[raw/Flex-Recyler-Slim-Meeting-March-11-2026.md]]
 - [[raw/tasks_planning_alignment-February-26-2026.md]]
 - [[raw/JIRA_Planning-February-26-2026.md]]
 - [[raw/Call_Genadi_Peari-February-12-2026-1.md]]
