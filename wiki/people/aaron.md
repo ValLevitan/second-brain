@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 92
+source-count: 93
 open-commitments: 2
 ---
 
@@ -262,8 +262,13 @@ On the [[wiki/meetings/2026-02-11-github-front-end-waze-setup.md|Feb-11 front-en
 - **Claude↔Jira MCP new release** ([[wiki/meetings/2026-03-06-mcp-jira-new-release.md]], two segments 3:29pm + 3:43pm; briefing Val, with [[wiki/people/andrey-bosik.md|Andrei Bosik]] on seg 1). Aaron laid down the rules for the **refactored Jira plugin for MCP**: it can use **any** custom field (caveats for complex ones like multi-dropdowns), but each field must carry a **terse, well-written description** — an empty description is **deliberately ignored**, and a poor one degrades MCP performance across everyone's chats; users must add their **Jira auth token**. He then coached attaching requirements **by domain, not project** (requirements are cross-project — "North Dakota, specifically math"), confirming each is accepted/discussed and routing the many un-accepted legacy requirements to whoever should decide. See [[wiki/topics/ai-assisted-development.md]] (Mar-6). §15.8 clear. [[raw/MCP_JIRA_new_release_March-6-2026.md]] [[raw/MCP_JIRA_new_release_March-6-2026 (1).md]]
 - **GitHub dashboard demo** ([[wiki/meetings/2026-03-06-github-dashboard.md]], 8:53pm; with Val). Aaron demoed a **"GitHub Enterprise Management Operator"** CLI he wrote himself (not purchased), checked into the GitHub Enterprise's own repo and built on the **GitHub CLI (`gh`)** — invite/remove/audit/list users, Copilot + repo management — and drove it with **Claude** in plain language, having Claude **add a new capability and its tests live** during the recording. His framing: GitHub has **no out-of-the-box reporting** (why Claude had steered Val toward a Jira dashboard), so JVL builds and grows its own tools; he ran a **62-repo collaborator report** ("18 users have access to all 62 repos" + one outlier + a CSV), said this only became feasible for coding agents "the last year," and could make it an **MCP server**. Andrei Bosik named to grow the tool. See [[wiki/topics/github-release-management-pipeline.md]] (Mar-6). §15.8 clear. [[raw/GitHub_dashboard-March-6-2026.md]]
 
+## Mar 9 2026 — critiques the Jira↔GitHub enforcement design (GitHub Action, not a container)
+
+On a ~10m evening call ([[wiki/meetings/2026-03-09-jira-github-enforcement-aaron.md]], 7:14pm) Aaron reviewed the Jira↔GitHub branch-enforcement design Val had worked out earlier the same day with [[wiki/people/andrey-bosik.md|Andrei Bosik]] and called it "unusually prescriptive" and over-complicated. His pushback: it needs **no Docker container and no cloud spend**, and a container holding rights to both the codebase and Jira is a **high security risk** — it should be a **GitHub Action** running in seconds, with GitHub holding the keys in escrow. The model: an Action **per repository** checks each opened branch (any branch other than reserved names like `main`/`published` must carry a **Jira issue ID** in its name), looks the issue up in Jira, confirms the **reciprocal GitHub link back**, and blocks the commit / deletes the illegal branch — or, less aggressively, **blocks the merge to `main`** without a valid linked issue. He rejected "one giant thing to solve it all" (his Tetris analogy) in favour of per-repo Actions even at hundreds of repos, and endorsed a **special central repo that queries every repo for the enforcement Action and flags noncompliant ones** on a trust-and-verify basis — never *preventing* people from editing Actions (git history shows who changed what). His scaling point: "there's only one Andrei and there's thirty other people." See [[wiki/topics/github-release-management-pipeline.md]] (Mar-9). §15.8 clear. [[raw/Aaron_Val-March-09-2026.md]]
+
 ## Sources
 
+- [[raw/Aaron_Val-March-09-2026.md]]
 - [[raw/MCP_JIRA_new_release_March-6-2026.md]]
 - [[raw/MCP_JIRA_new_release_March-6-2026 (1).md]]
 - [[raw/GitHub_dashboard-March-6-2026.md]]

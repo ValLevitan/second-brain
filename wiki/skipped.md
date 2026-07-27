@@ -55,5 +55,8 @@ Format: `raw/<skipped file>` — source of record `raw/<cited fuller file>` — 
 ### Batch 106
 - `raw/Claude_Code_Implementation-Dzima_Chudinov.md` — no substance (30s greeting-only aborted-start fragment; Val / Pavel Frolov / Dzmitry Chudzinau, Feb-16 2:17pm) — no stub.
 
+### Batch 116
+- `raw/Undertakings_IT_JIRA_GitHub_Loop_Claude-March-9-2026.md` — byte-identical duplicate (md5 9ae1d6394cbd10dfcddfe94555c5396e) of `raw/IT_GitHub_JIRA_infrastructure-March-9-2026.md` (same "Call with Andrei Bosik" recording, 3:58pm/3m8s) — SoR the canonical; no stub.
+
 ### Out-of-scope exclusions (non-JVL content — not ingested, not a §12 dup)
 - `raw/koenigsegg_regera-verbal_orgasm-may-21-2025.md` — **OUT OF SCOPE (not a JVL meeting).** A YouTube-style narration/review of the Koenigsegg Regera hypercar ("…a bunch of Swedish engineers… 1,500 horsepower"), mis-filed into the May-2025 transcripts folder. Not a JVL business meeting, not §15.8-sensitive — simply off-topic per §1 scope. Excluded (recorded here so the pending-sweep and full-year no-file-loss audit don't re-flag it). Found in the 2025-complete full-year sweep, 2026-07-20.

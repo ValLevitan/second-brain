@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 55
+source-count: 56
 open-commitments: 6
 ---
 
@@ -168,7 +168,13 @@ On the first of the two same-day [[wiki/people/genadi-peari.md|Genadi Peari]] ca
 - On the [[wiki/meetings/2026-03-06-mcp-jira-new-release.md|Mar-6 3:29pm Claude↔Jira MCP briefing]] (with [[wiki/people/val-levitan.md|Val]] and [[wiki/people/aaron.md|Aaron Bockelie]]) Andrei ("Andrei Bosik") is present as JVL IT while Aaron explains the refactored Jira plugin's custom-field-description requirement; his only recorded line is "All clear." See [[wiki/topics/ai-assisted-development.md]] (Mar-6). [[raw/MCP_JIRA_new_release_March-6-2026.md]]
 - On the same-day [[wiki/meetings/2026-03-06-github-dashboard.md|GitHub-dashboard demo]] (Aaron ↔ Val; Andrei not present) Aaron named **Andrei** as the one who "needs to get into the mindset of growing the tool" — the homegrown GitHub Enterprise-management CLI — and noted Andrei already uses the GitHub CLI (`gh`). Consistent with his DevOps/GitHub-admin role and the Feb-9 "intelligence center" push. See [[wiki/topics/github-release-management-pipeline.md]] (Mar-6). [[raw/GitHub_dashboard-March-6-2026.md]]
 
+## Mar 9 2026 — designs the Jira↔GitHub enforcement loops
+
+On a short 3:58pm call ([[wiki/meetings/2026-03-09-it-github-jira-infrastructure.md]], ~3m8s, Russian; file "Call with Andrei Bosik") Andrei walked [[wiki/people/val-levitan.md|Val]] through the two automated Jira↔GitHub "loops" IT wants to build: **(1)** any Jira task in-progress must have a GitHub branch — run **nightly at 21:00 Toronto time**, emailing the task's assignee; **(2)** a Jira start-date/timeline check (if a start date has passed but the story or its parent isn't In-Progress, notify the assignee) paired with a reverse check for a **GitHub branch with no matching Jira issue** (Val's "ghost branches"). Andrei's plan: run the loops in a **Docker container on JVL's own Docker machines in the Toronto office data centre**, not on Amazon — "why pay for it?". This is the design [[wiki/people/aaron.md|Aaron]] critiqued the same evening (7:14pm), arguing for a per-repo GitHub Action instead of a container. See [[wiki/topics/github-release-management-pipeline.md]] (Mar-9). [[raw/IT_GitHub_JIRA_infrastructure-March-9-2026.md]]
+
 ## Sources
+
+- [[raw/IT_GitHub_JIRA_infrastructure-March-9-2026.md]]
 
 - [[raw/MCP_JIRA_new_release_March-6-2026.md]]
 - [[raw/GitHub_dashboard-March-6-2026.md]]
