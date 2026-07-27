@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 94
+source-count: 96
 open-commitments: 2
 ---
 
@@ -270,7 +270,17 @@ On a ~10m evening call ([[wiki/meetings/2026-03-09-jira-github-enforcement-aaron
 
 On a short evening call ([[wiki/meetings/2026-03-13-capabilities-requirements-adr-storage.md]], 9:33pm; with [[wiki/people/val-levitan.md|Val]]) Aaron settled JVL's storage/source-of-truth model. He rejected Val's "keep it unchangeable in Jira" (Jira is a deletable, cloud-hosted issue tracker with **no cryptographic integrity** — "I just don't trust it") and ruled the **git repo the source of truth**, with Jira holding a **shadow copy** on a reciprocal link (repo wins on divergence). **ADRs and capabilities are kept with the repo** — never in Jira or Confluence — while **requirements stay as informal text blobs in Jira "for now"** because JVL "lacks the maturity" for a dedicated requirements tool ([[wiki/people/juan-martinez.md|Juan]]'s data-set curing is the first step toward it). He corrected Val's "GitHub" to "**git repo**" (elemental-tool thinking) and gave the flow **requirements → capabilities → ADR → spec → code**, tests as contracts. This nails down the storage layer behind the Aaron-"Ways" ADR/Capabilities documents. See [[wiki/topics/ai-assisted-development.md]] and [[wiki/topics/transcript-knowledge-base-tooling.md]] (Mar-13). §15.8 clear. [[raw/Capabilities_requirements_ADR-storage-March-13-2026.md]]
 
+## Mar 16 2026 — release-procedure teardown + the documentation-flow feedback (two-segment call)
+
+A single continuous Val↔Aaron call recorded in two segments ([[wiki/meetings/2026-03-16-release-procedure-and-eng-documentation-flow.md]], headers 12:07pm + 12:21pm), run as a dictation session Val turns into written guidance for [[wiki/people/dmitri-kovalchuk.md|Dima Kovalchuk]] and [[wiki/people/andrey-bosik.md|Andrei Bosik]].
+
+- **Release procedure (seg 1).** Aaron dictated how to tear down JVL's broken Jira **ISO** release-tracking project and move release versioning into **git tags** (git = source of truth): don't delete outright — first **export/dump the ISO issue types + properties** as a data source, work with [[wiki/people/ivan.md|Ivan]]/QA to pick the real "leading-edge" items, find which repos are **referenceable** in GitHub (ignore the un-migrated SVN ones — "leave that stuff to die"), **tag releases in git for the matching repos**, discard the rest, then delete the ISO issue type from Jira; don't over-invest in archaeology except for versions handed off for validation or to customers. See [[wiki/topics/github-release-management-pipeline.md]] (Mar-16). §15.8 clear. [[raw/Aaron_Val-release_procedure_GitHub-March-16-2026.md]]
+- **Documentation flow (seg 2) — reversed his own Mar-13 ruling.** Reviewing JVL's Administration + Engineering Documentation Guides, Aaron **pivoted on keeping capabilities in the git repo**: because a capability is a **"CAP"+number** code tied to a requirement ("a whole lot like a Jira issue") and a git markdown file can't enforce **referential integrity** to its requirement, capabilities (and requirements) belong in **Jira** (requirement↔capability **issue links** form the network), while **ADRs stay in the git repo** referencing the CAP/requirement codes; also keeps non-technical people like [[wiki/people/juan-martinez.md|Juan]] out of git. He defined **"AI-first" as collaborate-not-AI-only** — every PR/requirement/capability/ADR authored with AI must still be **read and accepted by a human** before moving on, hard as that is against AI's content volume. See [[wiki/topics/ai-assisted-development.md]] and [[wiki/topics/transcript-knowledge-base-tooling.md]] (Mar-16). §15.8 clear. [[raw/Execeutive_Engineering_documentation_flow-March-16-2026.md]]
+
 ## Sources
+
+- [[raw/Aaron_Val-release_procedure_GitHub-March-16-2026.md]]
+- [[raw/Execeutive_Engineering_documentation_flow-March-16-2026.md]]
 
 - [[raw/Capabilities_requirements_ADR-storage-March-13-2026.md]]
 - [[raw/Aaron_Val-March-09-2026.md]]
