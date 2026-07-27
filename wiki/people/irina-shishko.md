@@ -4,7 +4,7 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 41
+source-count: 42
 open-commitments: 1
 ---
 
@@ -94,8 +94,13 @@ On the [[wiki/meetings/2026-02-27-nebraska-release-schedule.md|Feb-27 1:02pm Neb
 
 - She is the one who **has to test** the whole-dollar-rounding behaviour (REQ-1007), so Val ruled Juan must describe the operation — including the last-bet/risk feature — until **Irina** understands it; she asked for the risk behaviour to be added to the requirement description. She confirmed the period-meter-clearing already exists for the audit ticket (REQ-998) and undertook to **supply screenshots of the existing attendant screens** so Juan/Pavel can design where the manual audit-ticket print button appears. Consistent with her Director-of-QA / certification-interpretation role. See [[wiki/projects/nebraska-skill-market.md]] (Feb-27). [[raw/Schedule_Nebraska-February-27-2026.md]]
 
+## Mar 4 2026 — schedule review (QA voice on the Jira↔GitHub workflow)
+
+On the [[wiki/meetings/2026-03-04-schedule-review.md|Mar-4 schedule review]] (with Val and [[wiki/people/pavel.md|Pavel Frolov]]) Irina Shishko participated in the Jira-workflow discussion — questioning the **purpose and timing of the proposed GitHub-branch field** on features (when it should appear — at first commit vs before development) and drawing the analogy to how commit↔Jira linking worked under the old SVN setup. See [[wiki/topics/github-release-management-pipeline.md]] (Mar-4). [[raw/Schedule_review-March-4-2026.md]]
+
 ## Sources
 
+- [[raw/Schedule_review-March-4-2026.md]]
 - [[raw/Schedule_Nebraska-February-27-2026.md]]
 - [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
 - [[raw/Claude Code integration - continued.md]]

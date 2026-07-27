@@ -3,7 +3,7 @@ type: person
 title: Yulia
 date: 2025-02-26
 aliases: [Yulia, Julia, Юлия]
-source-count: 8
+source-count: 9
 ---
 
 # Yulia
@@ -25,8 +25,13 @@ Surname not given in the transcripts. (One of the four graphics-team members —
 
 In Aaron's AI-tooling knowledge share, Yulia (Julia) described using the AI coding agent (Cline) to streamline the Git+Jira workflow: give it an issue number and brief description and it creates a branch, commits/pushes, opens a PR, assigns reviewer, closes the task, and logs time in Jira. She maintains a reusable instruction file and a "recursive memory"/readme so a new session can "familiarize itself" with the folder and unwind mistakes. [[raw/mcp_experiences_tech-apr-16-2025.md]]
 
+## Mar 4 2026 — assigned the Nebraska dual-box production feature
+
+On the [[wiki/meetings/2026-03-04-game-development-schedule-review.md|Mar-4 game-development review]] the Nebraska production feature **AA6485** (under product **IP 1023/1024**) was assigned to Yulia (transcribed "Julia") — with **two stories**, one for the dual box and one for the pattern-match secondary skill — due **March 12**. See [[wiki/projects/nebraska-skill-market.md]] (Mar-4). [[raw/Game_Development_Schedule_Review-March-4-2026.md]]
+
 ## Sources
 
+- [[raw/Game_Development_Schedule_Review-March-4-2026.md]]
 - [[raw/github _structure-pavel-aaron-andrei.md]]
 
 - [[raw/GitHub_commit_of_LFS_demo_by_Lena_2025-02-21.md]]

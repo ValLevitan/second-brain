@@ -3,8 +3,8 @@ type: person
 title: Igor Donis
 date: 2026-07-13
 aliases: [Igor Donis, Igor]
+source-count: 7
 disambiguation: "JVL Financial Controller — the finance/corporate Igor. One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
-source-count: 6
 ---
 
 # Igor Donis
@@ -37,12 +37,17 @@ On the [[wiki/meetings/2025-10-07-finance-recurring-alka.md|Oct-7 recurring fina
 
 On the [[wiki/meetings/2025-11-04-finance-recurring-loans-consolidation.md|Nov-4 finance call]] Igor (named directly) screen-shared and walked Val through the **completed consolidation** — per-country statements in source currency, corroborated against the external accountants' published statements, converted to CAD by an exchange-rate schedule, then intercompany eliminations in six–seven blocks, producing the trial balance for **Gilmore**. Val then set the plan to **free Igor ~75% full-time Nov 17 → Dec 22** to run the **Navision → Business Central migration** (open POs line-by-line, private vendor cards, Wells Fargo ACH module) uninterrupted, then the year-end inventory count and payment management — Val: "he knows the ins and outs… the right guy." He also owes Alka the **840914** loan detail for the reconciliation. See [[wiki/topics/jvl-finance-back-office.md]] (Nov-4) and [[wiki/decisions/2025-06-17-implement-then-replace-business-central.md]]. [[raw/finance_recurring_meeting-november-4-2025.md]]
 
+## Mar 4 2026 — weekly cash-flow review with Val
+
+On the [[wiki/meetings/2026-03-04-financial-review.md|Mar-4 weekly financial review]] (7:19pm, with [[wiki/people/val-levitan.md|Val]]) Igor ran the recurring cash-flow/payment review after Val's approval of the SharePoint payment proposal. He flagged the **first-ever mismatch** between JVL's EDS control sheet (~$250k: ~$218k GBL Systems + ~$32k Colombia) and the **Elevate** invoice (~$253k), plus new fees appearing this quarter — escalated to Laura → EDS → Elevate. He presented the week's cash position (~189k CAD + ~247k USD to March 13, incl. Felipe's ~$180k monthly collection) and the CAD→USD transfer covering approved payments. Action items: confirm the exact EDS amount before paying (Val ruled to hold to the last week of March), find how much EDS owes JVL Colombia (via Martha/Laura), and send Val a **2026 cash-flow forecast**. See [[wiki/topics/jvl-finance-back-office.md]] (Mar-4). [[raw/Financial_review_March-4-2026.md]]
+
 ## Identity note
 
 **Owner-confirmed:** Igor Donis (this page, finance/corporate) is distinct from the other Igor-named people — there are **five** (see the §4 registry): [[wiki/people/igor-nazarenka.md|Igor (Ihar) Nazarenka]] (mobile-app, owner-confirmed 2026-07-14), [[wiki/people/igor-starovoytov.md|Igor Starovoytov]] (industrial designer), [[wiki/people/igor-metelski.md|Igor Metelski]] (RGS engineer), and [[wiki/people/ihar-hrybko.md|Ihar Hrybko]] (UX/UI). Finance/controller/corporate → Donis. Queue any "Igor" that fits none.
 
 ## Sources
 
+- [[raw/Financial_review_March-4-2026.md]]
 - [[raw/finance_recurring_meeting-november-4-2025.md]]
 - [[raw/cash_forecast_till_2027-september-16-2025.md]]
 - [[raw/finance_recurring_meeting-october-7-2025.md]]

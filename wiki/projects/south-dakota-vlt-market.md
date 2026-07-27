@@ -2,8 +2,8 @@
 type: project
 title: South Dakota VLT market entry
 date: 2025-01-22
-aliases: [South Dakota, SD VLT, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950, V43, D27, SD cap, Bioliches, Gypsy Spirit, Crazy Colt, Queen of Luxor, Liberty Spin, Rodeo Spin, South Dakota vertical]
-source-count: 14
+aliases: [South Dakota, SD VLT, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950, V43, D27, SD cap, Bioliches, Gypsy Spirit, Crazy Colt, Queen of Luxor, Liberty Spin, Rodeo Spin, South Dakota vertical, MG Oil report]
+source-count: 15
 ---
 
 # South Dakota VLT market entry
@@ -109,6 +109,10 @@ On the [[wiki/meetings/2025-09-18-games-concepts-markets-review.md|Sept-18 games
 
 From [[wiki/people/juan-martinez.md|Juan]]'s post-G2E written status report ([[wiki/meetings/2025-10-10-g2e-juan-martinez-report.md]], not a transcript): the **JCM iVizion BV** (bill validator) was **approved — specifically firmware v2.84-44**; the **beta-test approval letter is expected Oct 14** and **other-location placements can start Oct 15**. Juan and [[wiki/people/denis-desmarais.md|Denis]] discussed **another technician-training session ~Nov 15**. **Keno game design has started** (the [[wiki/meetings/2025-10-06-game-design-scheduling-jira-grooming.md|Oct-6]] Black Hills / Solar / Liberty keno pack). [[raw/G2E_juan_martinez_report-october-10-2025.md]]
 
+## Mar 4 2026 — South Dakota came #1 in the MG Oil report
+
+On the [[wiki/meetings/2026-03-04-game-development-schedule-review.md|Mar-4 game-development review]], [[wiki/people/michael-gottlieb.md|Michael]] surfaced the weekly **MG Oil** location performance report that [[wiki/people/denis-desmarais.md|Denis (Dennis) Desmarais]] circulates on Mondays: JVL came in **first** in South Dakota — not 2nd, 3rd or 4th (Michael first mis-attributed the win to Nebraska, corrected by Juan to South Dakota). [[wiki/people/efim-podvoiski.md|Efim]] noted it was a genuinely good week. Val credited [[wiki/people/denis-desmarais.md|Denis]] and [[wiki/people/juan-martinez.md|Juan]]'s work in the territory and joked about a "self-serve virtual medals" gratitude program, then pushed to repeat the result in Nebraska and Texas. [[raw/Game_Development_Schedule_Review-March-4-2026.md]]
+
 ## Who
 
 - Driven by [[wiki/people/val-levitan.md|Val]] with [[wiki/people/juan-martinez.md|Juan]] (regulator/operator relationship, field side) and [[wiki/people/pavel.md|Pavel]] (Minsk software); [[wiki/people/irina-shishko.md|Irina]] on printer testing and GLI diffs, [[wiki/people/sebastian.md|Sebastian]] on field service, [[wiki/people/ivan.md|Ivan]] on GLI scheduling. **Lonnie** is the SD lottery-lab tester; **"Alani"** appears as the SD lottery (supplied the SAS adapter, requested the permit-number rename) — whether Alani is the lottery entity or a person there is unclear (see Owner Decisions). [[raw/sd_vlt_recap-jan-22-2025.md]] [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
@@ -129,3 +133,4 @@ From [[wiki/people/juan-martinez.md|Juan]]'s post-G2E written status report ([[w
 - [[raw/sd_operators_list-may-2025.md]]
 - [[raw/review_games_concepts_markets-september-18,2025.md]]
 - [[raw/G2E_juan_martinez_report-october-10-2025.md]]
+- [[raw/Game_Development_Schedule_Review-March-4-2026.md]]

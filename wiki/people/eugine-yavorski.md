@@ -4,7 +4,7 @@ title: Eugine Yavorski
 date: 2025-02-18
 aliases: [Eugine Yavorski, Evgeny Yavorsky, Yavorski, Yavorsky, Яворский, Evgeny Egorsky, Egorsky, Егорский, Evgeny Nevorsky, Nevorsky, Неворский, Evgeny, Yevgeny, Zhenya, Женя, Евгений]
 disambiguation: "FlexPort/FlexPay integration engineer (alias Egorsky), this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
-source-count: 25
+source-count: 26
 open-commitments: 3
 ---
 
@@ -116,8 +116,13 @@ A separate same-day ~15-min status call with [[wiki/people/val-levitan.md|Val]] 
 
 On a short session ([[wiki/meetings/2026-02-10-claude-code-yavorski-knowledge-transfer.md]], ~7m, with [[wiki/people/aaron.md|Aaron]] and Val) Yavorski reported his Claude Code attempt **built successfully but was "totally wrong"** — the AI wrote logs to the console instead of the intended destination because it "totally misunderstood our concept." His lesson: don't give a task and hope the agent understands — split into smaller tasks, control it, and review the code; working from the command line is hard because he needs to see the real code. Aaron's diagnosis was the missing **specification** ("the JIRA issue became the specification"). **Val reframed the exercise as a one-time knowledge transfer:** Yavorski is a **contractor, not a JVL employee** — JVL does not want to change how he works, it wants to **pass his knowledge in an organised format so JVL becomes the owner of the project**, compressed because "we're at the end of the project." Val vouched: "I know Eugene for decades… the most honest, the most faithful guy." Accepted plan: **Aaron clones Yavorski's repos, sets up the framework himself, and writes pull requests for Yavorski to review**, starting from the JIRA issue. See [[wiki/topics/ai-assisted-development.md]] (Feb-10). [[raw/Claude_Code-Yavorski.md]]
 
+## Mar 4 2026 — not made permanent; FlexPort application (IP 10-13) handed to Biratka
+
+On the [[wiki/meetings/2026-03-04-schedule-review.md|Mar-4 schedule review]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/irina-shishko.md|Irina Shishko]]) Val and Pavel decided **not to bring Yavorski on permanently** — consistent with the [[#feb-10-2026--claude-code-onboarding--contractor-knowledge-transfer|Feb-10 "contractor, project ending" framing]] ("we're at the end of the project"). His **FlexPort application (IP 10-13)**, planned to finish ~**March 24**, is to be handed off: [[wiki/people/alexander-biratka.md|Sasha Biratka]] becomes the reporter/owner and takes over the work (monitoring Yavorski's commits and using Claude for code review to absorb it). Val's rationale was to give the work to someone who wants to grow inside JVL rather than retain an outside contractor. §15.8: pay-raise/cut discussion carried no figures — omitted. [[raw/Schedule_review-March-4-2026.md]]
+
 ## Sources
 
+- [[raw/Schedule_review-March-4-2026.md]]
 - [[raw/Claude_Code-Yavorski.md]]
 - [[raw/Aaron_Briefing_FlexPay_FlexPort_WSS-February-5-2026.md]]
 - [[raw/Status_alignment-Yavorski-February-5-2026.md]]

@@ -4,7 +4,7 @@ title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka, Alex Baratka, Alex Beratka, Alexander Berankov, Biratko, Alexander Biratko]
 disambiguation: "Alexander cluster (provisional — owner ruling pending): distinct JVL people sharing the given name Alexander. [[wiki/people/alexander-biratka.md|Alexander Biratka]] = Omni/Pixi framework & build engineer (aka Sasha; garbles Beratko/Baratka); [[wiki/people/alexander-korochkin.md|Alexander Korochkin]] = LGS QA-automation engineer (GitHub Alexander_K@JVL, read-only; aka Alexander K); [[wiki/people/alexander-tumanov.md|Alexander Tumanov]] = Minsk QA / data-center knowledge-capture hire (surname unverified). Resolve by context: Omni framework / Pixi / build → Biratka; LGS QA automation / read-only build consumer → Korochkin; manual-tester onboarding / data-center interviews → Tumanov. A further name 'Alexander Derok' (back-end build-integration / Java, per Val on Feb-6-2026) is unconfirmed — queued, not a page. Not [[wiki/people/alexei-khamin.md|Alexei Khamin]] (different name). Queue anything fitting none; never force-match."
-source-count: 30
+source-count: 31
 open-commitments: 1
 open-questions: 0
 ---
@@ -112,8 +112,15 @@ On the [[wiki/meetings/2026-02-03-claude-code-integration-continued.md|Feb-3 Cla
 
 On the [[wiki/meetings/2026-02-06-ui-claude-code-adaptation.md|Feb-6 UI/Claude-Code session]] his GitHub handle came up as **"Alexander_B@JVL"**; Val confirmed **"Alexander B is definitely part of the team. He's just not on the meeting with us right now."** Aaron's Claude Code run mislabelled an "Alexander" as QA-automation and then as a heavy **back-end build-integration / Java** contributor; Val resolved that the tool had **confused two different Alexanders** — the back-end role belongs to a separate "Alexander Derok" (transcribed, unconfirmed — queued) and the QA role to [[wiki/people/alexander-korochkin.md|Alexander Korochkin]] — **not to Biratka**. Recorded to prevent future mis-linking; see the disambiguation block. [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
 
+## Mar 4 2026 — takes over Yavorski's FlexPort application (IP 10-13); the FP 519 root-repo anti-pattern
+
+On the [[wiki/meetings/2026-03-04-schedule-review.md|Mar-4 schedule review]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/irina-shishko.md|Irina Shishko]]) [[wiki/people/pavel.md|Pavel]] picked Sasha — over [[wiki/people/dmitri-chudinov.md|Dima Chudinov]] — to take over [[wiki/people/eugine-yavorski.md|Yavorski]]'s **FlexPort application (IP 10-13)**, becoming its reporter/owner once he finishes the current **cash-dispenser** task (~1–2 weeks). He is expected to absorb the code by monitoring Yavorski's commits and using Claude for code review. [[raw/Schedule_review-March-4-2026.md]]
+
+- **FP 519 exposed the feature-branch anti-pattern.** Sasha's **FlexPos software-update** feature (FP 519) — a small Python auto-updater that sits in the **RK3568** root, watches for an update file, unpacks it, swaps the link and reboots — was built as a **standalone repo committed to root, not under a feature branch**, so nothing linked it back to Jira. It became Val's worked example for the feature-branch discipline he wants (each feature under **IP 902 = FlexPos** gets its own branch, surfaced via a GitHub-branch field). See [[wiki/topics/github-release-management-pipeline.md]] (Mar-4). [[raw/Schedule_review-March-4-2026.md]]
+
 ## Sources
 
+- [[raw/Schedule_review-March-4-2026.md]]
 - [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
 - [[raw/Claude Code integration - continued.md]]
 

@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna, Selena, Elena]
-source-count: 40
+source-count: 41
 open-commitments: 1
 ---
 
@@ -177,8 +177,13 @@ On the [[wiki/meetings/2026-02-27-game-development-review.md|Feb-27 game-develop
 - **The transcript→Jira MCP experiment.** She plans to send the meeting transcript to consultant [[wiki/people/clayton-chancey.md|Clayton]] and, in their Tuesday session, test his updated MCP creating Jira issues from the transcript across concept/design/production spaces and attaching a comp-art image (a prior cross-space attempt had failed). See [[wiki/topics/ai-assisted-development.md]] (Feb-27). [[raw/Game_Development-February-27-2026.md]]
 - **Production queue.** Walked the fresh build — La Rosa (gun-symbol animation toned down/approved), Black Hills Kino (help screens near complete, ball animation next build; audio created but not yet integrated), Rodeo Spins, plus line switches started. [[raw/Game_Development-February-27-2026.md]]
 
+## Mar 4 2026 — presents the built dual-box + secondary-skill button
+
+On the [[wiki/meetings/2026-03-04-game-development-schedule-review.md|Mar-4 game-development review]] Lena presented her **built** Nebraska work — the dual-box primary-skill screen (dimmed reels, desaturated left border, animated tracer, all-or-none) that Michael praised as turned around quickly, and the reworked secondary-skill trigger button (transparent, smaller desaturated text, border blended in, grayed box shrunk). She confirmed she will attach approved comp art to GC374/GC376, close the concept items, open production (IP 1023/1024, feature AA6485 assigned to [[wiki/people/yulia.md|Yulia]], two stories), and estimated **assets ~1 week (due ~March 12)**. See [[wiki/topics/slot-game-design-principles.md]] and [[wiki/projects/nebraska-skill-market.md]] (Mar-4). [[raw/Game_Development_Schedule_Review-March-4-2026.md]]
+
 ## Sources
 
+- [[raw/Game_Development_Schedule_Review-March-4-2026.md]]
 - [[raw/Game_Development-February-27-2026.md]]
 - [[raw/Game_Development_transcript_schedule_review-February-19-2026.md]]
 - [[raw/Games_Design_Meeting_review_feb19_2026_v3.md]]

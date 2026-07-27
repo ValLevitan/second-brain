@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 92
+source-count: 93
 open-commitments: 7
 open-questions: 0
 ---
@@ -260,8 +260,16 @@ On the [[wiki/meetings/2026-02-27-nebraska-release-schedule.md|Feb-27 1:02pm Neb
 - **Explained the requirements→features workflow** to Val (who saw "two parallel inventories"): a published requirement isn't worked until someone creates a **feature** and schedules **stories** under it, linked via the "linked work item" field — "in many cases, me." Confirmed Claude could create a feature from a well-written requirement. See [[wiki/topics/ai-assisted-development.md]] (Feb-27). [[raw/Schedule_Nebraska-February-27-2026.md]]
 - **Marching orders:** create the Jira features linked to REQ-998 / 1007 / 1010, schedule them into the **next sprint (starting Thursday)**, and complete development within that cycle so JVL can rush the Eclipse approval. Handled the audit-ticket UI design (a separate attendant-screen pop-up, distinct from the game pop-ups) and worked the whole-dollar-rounding + last-bet-risk behaviour with Juan and Irina. See [[wiki/projects/nebraska-skill-market.md]] (Feb-27). [[raw/Schedule_Nebraska-February-27-2026.md]]
 
+## Mar 4 2026 — schedule review (runs it; picks Biratka; kanban advocate)
+
+On the [[wiki/meetings/2026-03-04-schedule-review.md|Mar-4 schedule review]] (with Val and [[wiki/people/irina-shishko.md|Irina Shishko]]) Pavel ran the Minsk board walk-through. [[raw/Schedule_review-March-4-2026.md]]
+
+- **Picked [[wiki/people/alexander-biratka.md|Sasha Biratka]] to take over [[wiki/people/eugine-yavorski.md|Yavorski]]'s FlexPort application (IP 10-13)** over [[wiki/people/dmitri-chudinov.md|Dima Chudinov]] — Chudinov is stretched across the Flex-Q terminal and server-side services and shouldn't be redirected for a month; Sasha is finishing the cash-dispenser task (~1–2 weeks) and can then pick it up. [[raw/Schedule_review-March-4-2026.md]]
+- **Advocated moving from sprints to kanban** — JVL's sprints are never ideal because urgent unplannable tasks always bump planned work; kanban absorbs the churn. Action: talk to [[wiki/people/dmitri-kovalchuk.md|Dima Kovalchuk]] about reconfiguring the Jira board (sprint→kanban) and about the feature→GitHub-branch link field. See [[wiki/topics/github-release-management-pipeline.md]] (Mar-4). [[raw/Schedule_review-March-4-2026.md]]
+
 ## Sources
 
+- [[raw/Schedule_review-March-4-2026.md]]
 - [[raw/Schedule_Nebraska-February-27-2026.md]]
 - [[raw/tasks_planning_alignment-February-26-2026.md]]
 - [[raw/JIRA_Planning-February-26-2026.md]]
