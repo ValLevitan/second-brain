@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 56
+source-count: 58
 open-commitments: 6
 ---
 
@@ -172,8 +172,14 @@ On the first of the two same-day [[wiki/people/genadi-peari.md|Genadi Peari]] ca
 
 On a short 3:58pm call ([[wiki/meetings/2026-03-09-it-github-jira-infrastructure.md]], ~3m8s, Russian; file "Call with Andrei Bosik") Andrei walked [[wiki/people/val-levitan.md|Val]] through the two automated Jira↔GitHub "loops" IT wants to build: **(1)** any Jira task in-progress must have a GitHub branch — run **nightly at 21:00 Toronto time**, emailing the task's assignee; **(2)** a Jira start-date/timeline check (if a start date has passed but the story or its parent isn't In-Progress, notify the assignee) paired with a reverse check for a **GitHub branch with no matching Jira issue** (Val's "ghost branches"). Andrei's plan: run the loops in a **Docker container on JVL's own Docker machines in the Toronto office data centre**, not on Amazon — "why pay for it?". This is the design [[wiki/people/aaron.md|Aaron]] critiqued the same evening (7:14pm), arguing for a per-repo GitHub Action instead of a container. See [[wiki/topics/github-release-management-pipeline.md]] (Mar-9). [[raw/IT_GitHub_JIRA_infrastructure-March-9-2026.md]]
 
+## Mar 10 2026 — the transparency call (problem vs. mechanism)
+
+On the [[wiki/meetings/2026-03-10-jira-github-transparency.md|Mar-10 ~50-min Russian call]] with [[wiki/people/val-levitan.md|Val]], Andrei is the engineering counterpart in Val's "you propose the *how*, I own the *what*" split. He reported that he and "Dima" (IT/Jira context → [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]; inference) had tested a **JIRA workflow validator** in the sandbox (blocks moving a Story to In-Progress while its parent Feature is still To-Do), argued that developers should only commit tested/working code (raising "repository cleanliness" — Val overrode this), diagnosed the 464-open-tasks dashboard as a **bottleneck**, and conceded he could **not** produce equivalent analytics from GitHub. He confirmed JVL can **block a pull request to `main`** when a branch has no linked JIRA issue, and asked Val to pin down the report metric (Stories with no commit — per day, per week, or both). Val said he would send Andrei this recording so Andrei could extract the problem, combine it with [[wiki/people/aaron.md|Aaron]]'s proposal (without over-complicating it), and return an engineering spec for the three to agree before implementing. Substance on [[wiki/topics/github-release-management-pipeline.md]] (Mar-10). [[raw/Transparency_alignment_JIRA_GitHub-March-10-2026.md]] [[raw/JIRA_GitHub_transparency-Draft-March-10-2026.md]]
+
 ## Sources
 
+- [[raw/Transparency_alignment_JIRA_GitHub-March-10-2026.md]]
+- [[raw/JIRA_GitHub_transparency-Draft-March-10-2026.md]]
 - [[raw/IT_GitHub_JIRA_infrastructure-March-9-2026.md]]
 
 - [[raw/MCP_JIRA_new_release_March-6-2026.md]]

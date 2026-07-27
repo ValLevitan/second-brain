@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, Copilot Studio, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest, LaTeX, printer tool, Ollama, llama.cpp, local inference, Code Llama, Hugging Face, Claude Code, AI sandwich, developer experience, think like a data scientist, sub-agents, verbose output, compiler layer, ways vs skills, ADR, cross-examination, Python Vulture, intelligence center, Waze system, ways framework, compiler stack diagram, module federation, Aaron ways system, Ways ADR, Ways capabilities catalog, regulatory provenance chain]
-source-count: 61
+source-count: 63
 ---
 
 # AI-assisted development adoption
@@ -356,6 +356,10 @@ On a short two-segment JVL-IT session ([[wiki/meetings/2026-03-06-mcp-jira-new-r
 
 §15.8 clear — MCP/Jira tooling and requirements process only; no named-person compensation.
 
+## Mar 10 2026 — transparency as the goal; a Claude/JIRA prompt as an alternative to hard-coded validators
+
+On the [[wiki/meetings/2026-03-10-jira-github-transparency.md|Mar-10 transparency call]] ([[wiki/people/val-levitan.md|Val]] ↔ [[wiki/people/andrey-bosik.md|Andrei Bosik]]) Val floated an **AI-tooling alternative** to Bosik's hard-coded JIRA workflow validators: rather than building rigid workflow rules, JVL could give people a **Claude/JIRA prompt to run daily** that inspects the board and reports inconsistencies (e.g. "you have Stories In-Progress under a To-Do Feature — move them, or vice-versa"), producing order without locking the workflow down. He also described wrapping the transparency goal in a **"shell" / Claude prompt** JVL could compose to surface the missing engineering data. This is the same "grow our own reporting tools because GitHub/Jira give no out-of-box view" instinct as the [[wiki/meetings/2026-03-06-github-dashboard.md|Mar-6 GitHub-dashboard]] CLI. Full transparency substance on [[wiki/topics/github-release-management-pipeline.md]] (Mar-10). §15.8 clear — tooling only. [[raw/Transparency_alignment_JIRA_GitHub-March-10-2026.md]] [[raw/JIRA_GitHub_transparency-Draft-March-10-2026.md]]
+
 ## History — earlier AI-consultation artifacts (undated, pre-2025)
 
 - **SolidWorks integration memo from ChatGPT:** a reference document titled "Solid work integration and the overall architecture suggestion from ChatGPT" shows JVL (before the 2025 tooling push) using ChatGPT to draft an IT-integration architecture connecting **SolidWorks** (3D CAD) with **Atlassian Jira/Confluence** and **Microsoft Business Central** — file attachments/version control of CAD files, BOM synchronization into the ERP, middleware/connectors, OAuth security, monitoring, and staged testing. The content is generic AI output (no JVL-specific decisions); its durable value is evidence that JVL's CAD/PLM–ERP–Atlassian integration question was explored via ChatGPT. Undated; consistent with the ~2023–24 Atlassian/Business-Central era of [[wiki/projects/jvl-insights-knowledge-base.md]] (inference, flagged). [[raw/solid_work_integration_and_the_overall_architecture_suggesti_2025-03-29.md]]
@@ -424,3 +428,5 @@ On a short two-segment JVL-IT session ([[wiki/meetings/2026-03-06-mcp-jira-new-r
 - [[raw/Aaron_Ways-Capabilities-from-Decisions.md]]
 - [[raw/Aaron_Ways-System-Knowledge.md]]
 - [[raw/LLM-Compiler-Pipeline-Reference.md]]
+- [[raw/Transparency_alignment_JIRA_GitHub-March-10-2026.md]]
+- [[raw/JIRA_GitHub_transparency-Draft-March-10-2026.md]]
