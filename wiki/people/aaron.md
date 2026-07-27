@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 93
+source-count: 94
 open-commitments: 2
 ---
 
@@ -266,8 +266,13 @@ On the [[wiki/meetings/2026-02-11-github-front-end-waze-setup.md|Feb-11 front-en
 
 On a ~10m evening call ([[wiki/meetings/2026-03-09-jira-github-enforcement-aaron.md]], 7:14pm) Aaron reviewed the Jira↔GitHub branch-enforcement design Val had worked out earlier the same day with [[wiki/people/andrey-bosik.md|Andrei Bosik]] and called it "unusually prescriptive" and over-complicated. His pushback: it needs **no Docker container and no cloud spend**, and a container holding rights to both the codebase and Jira is a **high security risk** — it should be a **GitHub Action** running in seconds, with GitHub holding the keys in escrow. The model: an Action **per repository** checks each opened branch (any branch other than reserved names like `main`/`published` must carry a **Jira issue ID** in its name), looks the issue up in Jira, confirms the **reciprocal GitHub link back**, and blocks the commit / deletes the illegal branch — or, less aggressively, **blocks the merge to `main`** without a valid linked issue. He rejected "one giant thing to solve it all" (his Tetris analogy) in favour of per-repo Actions even at hundreds of repos, and endorsed a **special central repo that queries every repo for the enforcement Action and flags noncompliant ones** on a trust-and-verify basis — never *preventing* people from editing Actions (git history shows who changed what). His scaling point: "there's only one Andrei and there's thirty other people." See [[wiki/topics/github-release-management-pipeline.md]] (Mar-9). §15.8 clear. [[raw/Aaron_Val-March-09-2026.md]]
 
+## Mar 13 2026 — where capabilities, requirements and ADRs are stored (git repo = source of truth)
+
+On a short evening call ([[wiki/meetings/2026-03-13-capabilities-requirements-adr-storage.md]], 9:33pm; with [[wiki/people/val-levitan.md|Val]]) Aaron settled JVL's storage/source-of-truth model. He rejected Val's "keep it unchangeable in Jira" (Jira is a deletable, cloud-hosted issue tracker with **no cryptographic integrity** — "I just don't trust it") and ruled the **git repo the source of truth**, with Jira holding a **shadow copy** on a reciprocal link (repo wins on divergence). **ADRs and capabilities are kept with the repo** — never in Jira or Confluence — while **requirements stay as informal text blobs in Jira "for now"** because JVL "lacks the maturity" for a dedicated requirements tool ([[wiki/people/juan-martinez.md|Juan]]'s data-set curing is the first step toward it). He corrected Val's "GitHub" to "**git repo**" (elemental-tool thinking) and gave the flow **requirements → capabilities → ADR → spec → code**, tests as contracts. This nails down the storage layer behind the Aaron-"Ways" ADR/Capabilities documents. See [[wiki/topics/ai-assisted-development.md]] and [[wiki/topics/transcript-knowledge-base-tooling.md]] (Mar-13). §15.8 clear. [[raw/Capabilities_requirements_ADR-storage-March-13-2026.md]]
+
 ## Sources
 
+- [[raw/Capabilities_requirements_ADR-storage-March-13-2026.md]]
 - [[raw/Aaron_Val-March-09-2026.md]]
 - [[raw/MCP_JIRA_new_release_March-6-2026.md]]
 - [[raw/MCP_JIRA_new_release_March-6-2026 (1).md]]

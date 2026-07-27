@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna, Selena, Elena]
-source-count: 41
+source-count: 43
 open-commitments: 1
 ---
 
@@ -181,8 +181,14 @@ On the [[wiki/meetings/2026-02-27-game-development-review.md|Feb-27 game-develop
 
 On the [[wiki/meetings/2026-03-04-game-development-schedule-review.md|Mar-4 game-development review]] Lena presented her **built** Nebraska work — the dual-box primary-skill screen (dimmed reels, desaturated left border, animated tracer, all-or-none) that Michael praised as turned around quickly, and the reworked secondary-skill trigger button (transparent, smaller desaturated text, border blended in, grayed box shrunk). She confirmed she will attach approved comp art to GC374/GC376, close the concept items, open production (IP 1023/1024, feature AA6485 assigned to [[wiki/people/yulia.md|Yulia]], two stories), and estimated **assets ~1 week (due ~March 12)**. See [[wiki/topics/slot-game-design-principles.md]] and [[wiki/projects/nebraska-skill-market.md]] (Mar-4). [[raw/Game_Development_Schedule_Review-March-4-2026.md]]
 
+## Mar 13 2026 — weekly game-dev review: progressive visuals in progress; the "completed" JIRA stage chore
+
+On the [[wiki/meetings/2026-03-13-game-development-review.md|Mar-13 game-development review]] Lena shared the schedule and drove the visuals — the **GC351** pick-3 progressive coin/layout design (with Michael) and **GC360** progressive visual for the "Pix 3" bonus **in progress**, the built **Dragon Pace** main screen (Asian-look royals, desaturated, dragon popping, liquid glass + new ticker) and the new reel-3 jackpot coin, and production items (IP459 South Dakota; IP984 liquid-glass home screen; IP988 La Rosa; rodeo/Dragon-Pace scheduling). She created **IP1028 (Georgia COAM)** as a backlog placeholder (not yet scheduled). Val gave her a **chore: write JVL IT to add a "completed" workflow stage before "done"** for features/IPs in game production, copying him. She defended showing "done" items as useful progress on recent projects (Val's 30-day filter accommodates it). Design/market detail on [[wiki/topics/slot-game-design-principles.md]] / [[wiki/projects/georgia-market-rollout.md]] (Mar-13). [[raw/JIRA_Schedule_review-March-13-2026.md]] [[raw/Game_Development-March-13-2026.md]]
+
 ## Sources
 
+- [[raw/JIRA_Schedule_review-March-13-2026.md]]
+- [[raw/Game_Development-March-13-2026.md]]
 - [[raw/Game_Development_Schedule_Review-March-4-2026.md]]
 - [[raw/Game_Development-February-27-2026.md]]
 - [[raw/Game_Development_transcript_schedule_review-February-19-2026.md]]

@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 42
+source-count: 44
 open-commitments: 10
 open-questions: 8
 ---
@@ -275,6 +275,15 @@ On the [[wiki/meetings/2026-02-27-game-development-review.md|Feb-27 game-develop
 - **Nebraska liquid glass deferred to protect Georgia.** Val pushed to disregard the Nebraska **GC372 liquid-glass** work (deleted, see [[wiki/projects/nebraska-skill-market.md]] Feb-27) partly because a ~2-month liquid-glass effort **would delay Georgia** (Lena's urgent priority is to finish South Dakota, then immediately start Georgia); liquid glass for both markets can be revisited in summer, after Georgia ships. [[raw/Game_Development-February-27-2026.md]] [[raw/Summary_Game_Development-February-27-2026.md]]
 - **Condensed pay-table layout for the two new Georgia flagships.** Lion's Riches and Twin Bison adopt the new **symbol-pay-row + big-character-canvas** screen (a massive lion / two bison instead of a full pay table) — kept to those two new games; existing games keep their pay tables. Design detail on [[wiki/topics/slot-game-design-principles.md]] (Feb-27). [[raw/Game_Development-February-27-2026.md]] [[raw/Summary_Game_Development-February-27-2026.md]]
 
+## Mar 13 2026 — Georgia pick-3 progressive designs; casino royals; Crazy Colt; COAM backlog item
+
+On the [[wiki/meetings/2026-03-13-game-development-review.md|Mar-13 game-development review]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/michael-gottlieb.md|Michael]], [[wiki/people/lena.md|Lena]], [[wiki/people/juan-martinez.md|Juan]], [[wiki/people/efim-podvoiski.md|Efim]]) the Georgia content pipeline was walked in the JIRA schedule review; the design mechanics (condensed pay table, casino-vs-skill royals) are on [[wiki/topics/slot-game-design-principles.md]] (Mar-13). [[raw/JIRA_Schedule_review-March-13-2026.md]] [[raw/Game_Development-March-13-2026.md]]
+
+- **Georgia pick-3 progressive items in flight.** **GC351** — a **pick-three, three-level progressive** for Georgia — is in coin/coin-layout design ([[wiki/people/michael-gottlieb.md|Michael]] with [[wiki/people/lena.md|Lena]]); **GC360** is the progressive visual for the "Pix 3" bonus, **in progress**; **GC364** is the **Lion's Riches** update, with **GC366** carrying the simplified pay-table + big-lion canvas (abstract due Monday March 16). [[raw/JIRA_Schedule_review-March-13-2026.md]]
+- **Casino-royals move for the Georgia flagships.** The Georgia games swap **abstract royals for casino-type royals** ("skill royals vs casino royals"); Val judged **Crazy Colt** (for Georgia; first introduction, no field data yet) the strongest of the visuals — "looks right… going to kill it" — and floated it as a **vertical** game reusable in **Nebraska, South Dakota and Texas** verticals ([[wiki/people/juan-martinez.md|Juan]]: Nebraska-vertical and South-Dakota-vertical are the next topics). Design detail on [[wiki/topics/slot-game-design-principles.md]] (Mar-13). [[raw/Game_Development-March-13-2026.md]]
+- **IP1028 Georgia COAM sits in backlog.** [[wiki/people/lena.md|Lena]] created **IP1028 (Georgia COAM)** as a placeholder for the next design-stage work but has **not scheduled it** yet — it moves to design as the pick-3 / line-riches concepts finish. Val confirmed it is correctly parked in backlog. [[raw/JIRA_Schedule_review-March-13-2026.md]]
+- **Closing priority.** With Nebraska-2 done, the team's stated focus returns to **South Dakota, then Georgia** — consistent with the [[#feb-27-2026--georgia-8-pack-base-game-confirmed-august-hard-date-june-realistic-completion|Feb-27 August-show hard date / June-realistic]] plan. [[raw/Game_Development-March-13-2026.md]]
+
 ## Open commitments
 
 - [ ] [[wiki/people/juan-martinez.md|Juan]] — decide the final **Georgia Vertical 2 initial-release game count** (8 vs 10); Val's 8-game position and reasoning are on record — due unspecified — [[raw/Game_Development_transcript_game_review-February-19-26.md]] [[raw/Games_Design_Meeting_open_items_feb19_2026.md]]
@@ -304,6 +313,8 @@ On the [[wiki/meetings/2026-02-27-game-development-review.md|Feb-27 game-develop
 
 ## Sources
 
+- [[raw/JIRA_Schedule_review-March-13-2026.md]]
+- [[raw/Game_Development-March-13-2026.md]]
 - [[raw/Game_Development-February-27-2026.md]]
 - [[raw/Summary_Game_Development-February-27-2026.md]]
 - [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
