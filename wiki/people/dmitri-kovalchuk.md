@@ -4,7 +4,8 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "IT (GitHub-admin, infrastructure, secrets/Azure, AI-tool accounts) — the IT-context "Dima". Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 20
+source-count: 21
+open-commitments: 2
 ---
 
 # Dmitri Kovalchuk
@@ -77,8 +78,18 @@ On a short Russian call ([[wiki/meetings/2026-03-17-ip-89-dashboard-grooming.md]
 
 On the [[wiki/meetings/2026-03-18-setting-up-jvl-ways-on-github.md|Mar-18 JVL-Ways-on-GitHub session]] (Aaron/Val/Andrei Bosik; Dmitri not present) Val floated **Dima** as a candidate **trusted stage user** for the Ways pipeline; [[wiki/people/aaron.md|Aaron]] **rejected him** because he "is not using cloud code for writing code on a daily basis," and Val agreed (adding that Dima "doesn't really want to learn things"). A role-fit datapoint: Dmitri is IT/admin, not a daily Claude-Code developer. See [[wiki/topics/ai-assisted-development.md]] (Mar-18). [[raw/Setting up JVL ways on GitHub-March-18-2026.md]]
 
+## Mar 23 2026 — data-access strategy call; owns the current-state architecture diagram
+
+On the data-access-strategy / CMS-cloud-migration call ([[wiki/meetings/2026-03-23-data-access-strategy-cms-cloud-migration.md]], 1:34pm, Russian; with [[wiki/people/val-levitan.md|Val]], [[wiki/people/dmitri-chudinov.md|Chudinov]], [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]], [[wiki/people/andrey-bosik.md|Andrei Bosik]]) Dmitri is the IT/infrastructure voice: he explained that **cloud/browser Excel cannot connect to an external on-prem cube** (only desktop Excel with hard-coded credentials), that a **regular OLAP cube can't role-slice data per user** (you'd need a separate cube per consumer), and that going cloud means moving the whole stack and shifting auth from **LDAP/AD to Microsoft Entra ID SSO**. He estimated standing up the cloud infra (a couple of servers + networking) via Claude Code at **~one week**, with software-side migration on top. Val assigned him the **current-state block diagram** of the CASS/cube/host infrastructure and (with Bosik) the **cloud-cost estimate**. Substance on [[wiki/topics/olap-power-bi-architecture.md]] and [[wiki/topics/ai-assisted-development.md]] (Mar-23). [[raw/Meeting_Transcript_data_access_strategy_and_cms_cloud_migration-March-23-2026.md]]
+
+## Open commitments
+
+- [ ] Dmitri Kovalchuk — produce a **current-state block diagram** of the as-is CASS/OLAP-cube/intermediate-host infrastructure (no optimization) — due next Monday (~Mar 30 2026) — [[raw/Meeting_Transcript_data_access_strategy_and_cms_cloud_migration-March-23-2026.md]]
+- [ ] Dmitri Kovalchuk + [[wiki/people/andrey-bosik.md|Andrei Bosik]] — produce a **cloud-cost estimate** for lift-and-shift of the as-is architecture, two scenarios (keep MS SQL vs migrate to PostgreSQL) — due next Monday (~Mar 30 2026) — [[raw/Meeting_Transcript_data_access_strategy_and_cms_cloud_migration-March-23-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_data_access_strategy_and_cms_cloud_migration-March-23-2026.md]]
 - [[raw/Grooming Dashboard for IP-89-March-17-2026.md]]
 - [[raw/Setting up JVL ways on GitHub-March-18-2026.md]]
 - [[raw/Review_custom_fields_JIRA-February-27-2026.md]]

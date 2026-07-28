@@ -3,8 +3,8 @@ type: person
 title: Sergey Tsymanov
 date: 2026-07-14
 aliases: [Sergey Tsymanov, Siarhei Tsymanau, Sergey Tsimanov, Tsymanau, Tsimanov, Sergei Tsyganov, Tsyganov, Цыганов, Sergei, Sergey]
-source-count: 9
-open-commitments: 3
+source-count: 10
+open-commitments: 4
 disambiguation: "Minsk engineer who drafts CMS requirements with the backend 'Dima' (Chudinov). OWNER-CONFIRMED 2026-07-14 = the payroll 'Siarhei Tsymanau' (Belarusian) and the IT-records 'Sergey Tsimanov' — same person; Tsymanov canonical, Tsymanau/Tsimanov aliases. Distinct from other 'Sergei/Sergey' names (e.g. Sergei Novitsky the advanced-setup technician); resolve by context."
 ---
 
@@ -28,6 +28,7 @@ Sergey Tsymanov is a JVL **Minsk engineer** who works on the **legacy CMS requir
 - [ ] Sergey Tsymanov (with Dima Chudinov) — re-review the generated CMS materials and add the missing taxonomies — due by the booked Thursday meeting (~Mar 27, inferred) — [[raw/cms_requirements_development-dzima-sergei-andrei.md]]
 - [ ] Sergey Tsymanov — implement LGS 474 (LED Light Control) on Omni, in parallel, starting Monday (~June 16) — due before ~July 31 — [[raw/schedule_review_omni-june-12-2025.md]]
 - [ ] Sergey Tsymanov — produce the **terminal-registration state-machine diagram** for the payment-hub ACH module — due Wed Nov 19 2025 — [[raw/Payment HUB_ACH module specification_10.11.25.md]]
+- [ ] Sergey Tsymanov (with [[wiki/people/dmitri-chudinov.md|Dima Chudinov]]) — produce the **production-side migration estimate** for moving the CMS/CASS codebase to cloud (straight-line lift-and-shift, no optimization) — due next Monday (~Mar 30 2026) — [[raw/Meeting_Transcript_data_access_strategy_and_cms_cloud_migration-March-23-2026.md]]
 
 ## History
 
@@ -45,8 +46,13 @@ On the [[wiki/meetings/2025-06-12-omni-schedule-review.md|June-12 Omni schedule 
 
 On the [[wiki/meetings/2025-11-10-payment-hub-ach-spec-review-undertakings-plaid-qa.md|Nov-10 ACH-spec-review session]] Sergey (present across the Nov 5/6/10 arc, largely a silent participant) was assigned to draw the **terminal-registration state-machine diagram** for the payment-hub ACH module, due Wed Nov 19. See [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Nov-10). [[raw/Payment HUB_ACH module specification_10.11.25.md]]
 
+## Mar 23 2026 — data-access strategy call
+
+On the data-access-strategy / CMS-cloud-migration call ([[wiki/meetings/2026-03-23-data-access-strategy-cms-cloud-migration.md]], 1:34pm, Russian, transcribed "Sergey Tsimanov"; with [[wiki/people/val-levitan.md|Val]], [[wiki/people/dmitri-chudinov.md|Chudinov]], [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]], [[wiki/people/andrey-bosik.md|Andrei Bosik]]) Sergey supplied the historical context that the Excel-to-cube approach was built **~2017** with hard-coded credentials for internal-network use, pressed for clarity on how Excel actually pulls from the cube, floated whether the cube itself has **per-user visibility/dimension-security** settings (unsure — to check), and asked whether the team should reconsider the OLAP-cube architecture at all. Assigned (with [[wiki/people/dmitri-chudinov.md|Chudinov]]) the **production-side migration estimate**. Substance on [[wiki/topics/olap-power-bi-architecture.md]] (Mar-23). [[raw/Meeting_Transcript_data_access_strategy_and_cms_cloud_migration-March-23-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_data_access_strategy_and_cms_cloud_migration-March-23-2026.md]]
 - [[raw/Payment HUB_ACH module specification_10.11.25.md]]
 - [[raw/schedule_review_omni-june-12-2025.md]]
 - [[raw/architecture_sql_olap_visualization_1_2025-03-29.md]]

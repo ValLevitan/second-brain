@@ -4,8 +4,8 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 30
-open-commitments: 3
+source-count: 31
+open-commitments: 4
 open-questions: 0
 ---
 
@@ -60,6 +60,7 @@ On the Russian follow-up ([[wiki/meetings/2025-03-25-cms-requirements-review-wor
 - [ ] Dima Chudinov — assemble and properly format the back-office architecture schemas (as-is + future) for the Thursday 8 am architecture meeting — due "a couple of days… maybe end of next week" — [[raw/back_office_next_step_forward_dzima_chudinov.md]]
 - [ ] Dima Chudinov (with Sergey Tsymanov) — re-review the AI-generated CMS overview/use cases/requirements and add the missing taxonomies — due by the booked Thursday meeting (~Mar 27, inferred) — [[raw/cms_requirements_development-dzima-sergei-andrei.md]]
 - [ ] Dima Chudinov — take the SAS/protocol document into work (~a week of full load) and write the stories with Pavel (cash-out + SAS-command logging over WSS) — due week of Apr 1 2025 — [[raw/flex-port_pay_dev_update-april-1-2025.md]]
+- [ ] Dima Chudinov (with [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]]) — produce the **production-side migration estimate** for moving the CMS/CASS codebase to cloud (framework version bumps, SQL/stored-procedure conversion, LDAP→Entra auth rewrite), straight-line, no optimization — due next Monday (~Mar 30 2026) — [[raw/Meeting_Transcript_data_access_strategy_and_cms_cloud_migration-March-23-2026.md]]
 
 ## History (discharged)
 
@@ -125,8 +126,13 @@ A JIRA-sourced briefing prepared for [[wiki/people/aaron.md|Aaron]] ([[wiki/meet
 - **Onboarding session** ([[wiki/meetings/2026-02-09-claude-code-onboarding-chudinov.md]], 1h46m, transcribed "Dzmitry Chudzinau", [[wiki/people/pavel.md|Pavel]] translating): Chudinov had used Claude Code to generate a **Flex-POS server-connection feature** (a client connecting to the server from a non-registered terminal; environment built with **Docker**) — Claude generated the code + tests, he reviewed it by hand and had **ChatGPT/OpenAI compare his approach against Claude's** (OpenAI judged his own approach better), and had not yet opened a pull request. [[wiki/people/aaron.md|Aaron]] coached him on treating language models as "the new compiler layer" (curate intentions/specs; build linter/static-analysis/test guardrails; capture conventions as Claude Code "ways" and "skills"), and generated a **spring-coding-conventions** doc from Chudinov's constructor-dependency-injection / Spring best-practice preferences. Substance on [[wiki/topics/ai-assisted-development.md]] (Feb-9). [[raw/Claude_Code-Dzmitry.md]]
 - **Internal debrief** ([[wiki/meetings/2026-02-09-claude-code-chudinov-internal-debrief.md]], 12m, no Aaron): Chudinov argued the coding-conventions/rules document should live **"one level higher" as a company-wide JVL standard** shared across the ~ten Spring applications in development (not copied project-to-project, "otherwise one person won't follow it and it diverges"), to be worked out with **Andrei**; and that the team should try to build the framework themselves and escalate to Aaron only with a concrete question and a structured plan. [[raw/Claude_Code-Dzmitry (1).md]]
 
+## Mar 23 2026 — data-access strategy; owns the production-side migration estimate
+
+On the data-access-strategy / CMS-cloud-migration call ([[wiki/meetings/2026-03-23-data-access-strategy-cms-cloud-migration.md]], 1:34pm, Russian, transcribed "Dzmitry Chudzinau"; with [[wiki/people/val-levitan.md|Val]], [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]], [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]], [[wiki/people/andrey-bosik.md|Andrei Bosik]]) Chudinov is the back-end/architecture voice: he surfaced MCP's ergonomic limits (no dropdown/no remembered selection vs an app), the Excel-file credential-security problem, and — for a full cloud migration — the technical checklist (codebase mostly modern, framework version bumps; SQL scripts/stored procedures to convert; LDAP auth replaced by Azure/Entra; migrate as-is first). He proposed **PostgreSQL** as the cheaper alternative to MS SQL. Val assigned him (with [[wiki/people/sergey-tsymanov.md|Sergey]]) the **production-side migration estimate** — straight-line, no optimization. Substance on [[wiki/topics/olap-power-bi-architecture.md]] and [[wiki/topics/ai-assisted-development.md]] (Mar-23). [[raw/Meeting_Transcript_data_access_strategy_and_cms_cloud_migration-March-23-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_data_access_strategy_and_cms_cloud_migration-March-23-2026.md]]
 - [[raw/Claude_Code-Dzmitry.md]]
 - [[raw/Claude_Code-Dzmitry (1).md]]
 - [[raw/Aaron_Briefing_FlexPay_FlexPort_WSS-February-5-2026.md]]

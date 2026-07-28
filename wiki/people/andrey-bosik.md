@@ -4,8 +4,8 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 61
-open-commitments: 6
+source-count: 62
+open-commitments: 7
 ---
 
 # Andrey Bosik
@@ -97,6 +97,7 @@ On the Verba/Weaviate session ([[wiki/meetings/2025-04-23-verba-weaviate-company
 - [ ] Andrei — create the two new **Game Concepts** and **Game Designs** GitHub organizations (mirroring the Jira concept/design/production stages) and grant Lena repo-creation rights — due unspecified — [[raw/Evolution_of_Migration_to_GitHub_for_Graphic_designers_2025-02-26.md]]
 - [ ] Andrei ("Andre") — get the Fortune Foo Paws `.github` **contact-sheet Action** working as a functional repo action (set up Git-access credentials, modify the YAML to use them) and demo it committing a Photoshop file — due by the Wednesday 9am meeting — [[raw/Git_progress_check_in_2025-02-28.md]]
 - [ ] Andrey — work out how to correctly create and name the **game-concept-stage GitHub repositories** (review the agreed naming table, propose naming + access model) for the next-day meeting — due Oct 8 2025 — [[raw/objectives_workflow_meeting-october-7-2025.md]]
+- [ ] Andrei Bosik (with [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]) — produce a **cloud-cost estimate** for lift-and-shift of the as-is CMS/CASS architecture, two scenarios (keep MS SQL vs migrate to PostgreSQL), plus the current structural schema — due next Monday (~Mar 30 2026) — [[raw/Meeting_Transcript_data_access_strategy_and_cms_cloud_migration-March-23-2026.md]]
 
 - **Owner-ruled (2026-07-14):** the "Андрей" who co-designs the **one-button game-container deployment** with [[wiki/people/efim-podvoiski.md|Efim Podvoiski]] is Bosik (see [[wiki/topics/rgs-architecture-and-integration.md]]). Owner also fixed his title wording: **DevOps engineer**. [[raw/Explain RGS.md]]
 
@@ -184,8 +185,13 @@ On the final segment of the [[wiki/meetings/2026-03-17-jvl-ways-on-github-setup.
 
 The two next-day working sessions with [[wiki/people/aaron.md|Aaron]] and [[wiki/people/val-levitan.md|Val]] where Andrei — named to own JVL's ways — starts operationalizing them. **Mar-18** ([[wiki/meetings/2026-03-18-setting-up-jvl-ways-on-github.md]], 12:10pm): Andrei walks through Aaron's whiteboard branch/promotion pipeline (he will run the merge/stage/prod release process and "push the release button"), and attempts the live first Way-generation in Claude Code — open the `.cloud` git repo on main, let Claude create the branch, paste Aaron's "Senior Developer Architect" prompt then Val's source doc as one input — but it is **blocked by an Anthropic API outage** across regions; parked, with Andrei to save the prompt as text and circulate the Confluence link. **Mar-19** ([[wiki/meetings/2026-03-19-ways-github-integration.md]], 12:14pm): the integration run surfaces the **"clean environment" lesson** — Andrei's own **specialized personal tooling** (a personal Jira-MCP setup + GitHub CLI usage others don't have) **tainted** the ways generation, so Aaron ruled ways must be authored on the **minimum standard config every JVL machine gets**; Andrei agreed to **build a separate clean VM** with only the minimal shared software and replay the prompts. Substance on [[wiki/topics/ai-assisted-development.md]] (Mar-18 / Mar-19). §15.8 clear. [[raw/Setting up JVL ways on GitHub-March-18-2026.md]] [[raw/Ways_GitHub_integration.md]]
 
+## Mar 23 2026 — data-access strategy; co-owns the cloud-cost estimate
+
+On the data-access-strategy / CMS-cloud-migration call ([[wiki/meetings/2026-03-23-data-access-strategy-cms-cloud-migration.md]], 1:34pm, Russian; with [[wiki/people/val-levitan.md|Val]], [[wiki/people/dmitri-chudinov.md|Chudinov]], [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]], [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]]) Andrei is the DevOps/cost voice: he floated a **VPN tunnel** between a cloud cube and the on-prem database as a possible transitional pattern, argued data volumes aren't huge (the cube incremental-loads, doesn't rebuild every 30 min), proposed that engineers could use **pre-defined scripts** (any language) holding the DB connection as a Claude-invokable alternative to MCP, and — his headline point — made **sizing the cloud bill the critical first step** ("could be $100, could be $10,000/month; nobody knows"). He noted MS SQL cloud licensing is very expensive and endorsed evaluating **PostgreSQL** (self-hosted or managed). Val assigned him (with [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]]) the **cloud-cost estimate** plus the current structural schema. Substance on [[wiki/topics/olap-power-bi-architecture.md]] and [[wiki/topics/ai-assisted-development.md]] (Mar-23). [[raw/Meeting_Transcript_data_access_strategy_and_cms_cloud_migration-March-23-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_data_access_strategy_and_cms_cloud_migration-March-23-2026.md]]
 - [[raw/setting_JVL_Ways_in_GitHub-March-16-2026.md]]
 - [[raw/Setting up JVL ways on GitHub-March-18-2026.md]]
 - [[raw/Ways_GitHub_integration.md]]
