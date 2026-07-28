@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 47
+source-count: 50
 open-commitments: 10
 open-questions: 8
 ---
@@ -318,6 +318,10 @@ Alongside the Feb-9 Diamond partnership, JVL prepared a set of **operator-profil
 - [x] Vlad (JVL QA = [[wiki/people/vladislav-gurin.md|Vladislav Gurin]]) — run the GLI-approved MH1 Class-3 software in parallel at JVL — **reported partially May-28** (jackpot/meter behaviour explained); Vlad then out ~1 week from May-29, so the parallel meter work pauses — [[raw/sas_intricacies_ga-coam-may-21-2025.md]] [[raw/jp_treatment-may-28-2025.md]]
 - [ ] Juan Martinez — draft the requirements for the parallel Class-3 / Georgia-QAM jackpot logic; reconvene in ~10 days — due ~early-mid June — [[raw/jp_treatment-may-28-2025.md]]
 
+## Mar 27 2026 — Transactional go-to-market: Georgia among the three named markets
+
+On the [[wiki/meetings/2026-03-27-alignment-andrei-klimovich.md|Mar-27 alignment]] Val named **Georgia, Texas and Nebraska** as the three "hot" markets for JVL's **Transactional equipment** line, and put [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] (starting **April 2, 2026** as Product & Market Manager — Transactional) on the market-facing side of it. For **Georgia specifically**, Val said JVL already knows **~80% of the most important customers** (Texas is largely unknown; Nebraska is a couple of small operators), and that in Georgia the buyer is a **dual customer — location and operator** — sold through channel partner [[wiki/people/felipe-miranda.md|Philippe/Felipe]] rather than by Andrei directly. Andrei's job there is corporate-figure relationship-building and gathering product requirements, not selling. The first Transactional shipment is targeted to **Texas ~June 1, 2026**, not Georgia. [[raw/Meeting_Transcript_Alignment_Andrei_Klimovich-2-March-27-2026.md]] [[raw/Meeting_Notes_Transactional_PMM_Appointment-March-27-2026.md]]
+
 ## Open questions
 
 - What is the **pricing / packaging model for additional game packs** (Val's proposal: an 8-game base pack at price X, extra games at a premium)? Unresolved on Feb-19; Juan skeptical JVL can charge for software until the new product proves it earns. [[raw/Game_Development_transcript_game_review-February-19-26.md]] [[raw/Games_Design_Meeting_open_items_feb19_2026.md]]
@@ -331,6 +335,8 @@ Alongside the Feb-9 Diamond partnership, JVL prepared a set of **operator-profil
 
 ## Sources
 
+- [[raw/Meeting_Transcript_Alignment_Andrei_Klimovich-2-March-27-2026.md]]
+- [[raw/Meeting_Notes_Transactional_PMM_Appointment-March-27-2026.md]]
 - [[raw/JIRA_schedule_review_Game_Development-March-20-2026.md]]
 - [[raw/JIRA_Schedule_review-March-13-2026.md]]
 - [[raw/Game_Development-March-13-2026.md]]

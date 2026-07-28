@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 102
+source-count: 103
 open-commitments: 2
 ---
 
@@ -285,6 +285,10 @@ The next morning's four-segment session ([[wiki/meetings/2026-03-17-jvl-ways-on-
 
 Two next-day continuations of the Mar-17 session. **Mar-18** ([[wiki/meetings/2026-03-18-setting-up-jvl-ways-on-github.md]], 12:10pm, with [[wiki/people/andrey-bosik.md|Andrei Bosik]]): Aaron drew the full **JVL Ways branch/promotion architecture** on a Confluence whiteboard (main clone → /jvl ways branch → integrate-on-merge → test-QA auto-scoring → stage trusted-user gate → prod release-by-script), set the **trusted-stage-user** model (must use Claude Code for code daily — he **rejected [[wiki/people/dmitri-kovalchuk.md|Dima]]** as a candidate; Val named **[[wiki/people/evgeny-kharetski.md|Kharetski]]**), and explained why the gates exist (a mis-scored way shipped straight to prod "breaks the steering" on everyone's machine). The live Way-generation attempt was blocked by an **Anthropic API outage** and parked. **Mar-19** ([[wiki/meetings/2026-03-19-ways-github-integration.md]], 12:14pm): Aaron pitched a **translation-as-a-service** endpoint (a separate system Ways could call — LLM translation + an admin-curated terminology override table, modeled on the Whisper tool) and ran the integration live, teaching the **"clean environment" lesson** — Andrei's personal specialized tooling **tainted** the ways generation ("food coloring in the dough… you cannot unmix it"), so ways must be authored on the **minimum standard config every JVL machine gets**. Both sessions' substance, plus the folded **JVL GitHub Ways architecture guide**, on [[wiki/topics/ai-assisted-development.md]] (Mar-18 / Mar-19). §15.8 clear. [[raw/Setting up JVL ways on GitHub-March-18-2026.md]] [[raw/Ways_GitHub_integration.md]]
 
+## Mar 27 2026 — absent from the automation review (pulled onto the same outage incident)
+
+Aaron was **not present** at the [[wiki/meetings/2026-03-27-automation-progress-review.md|Mar-27 automation progress review]] despite the recording base naming him: [[wiki/people/clayton-chancey.md|Clayton]] explained Aaron "will not join because he is also part of this incident" — a same-day Anthropic/Claude-Code outage both were troubleshooting. The meeting reviewed the transcription **pipeline Aaron and Clayton had earlier devised**, now productized by Clayton into a hosted microservice. See [[wiki/topics/ai-assisted-development.md]] (Mar-27). [[raw/Meeting_Transcript_automation_progress_review-March-27-2026.md]]
+
 ## Sources
 
 - [[raw/Aaron_Val-release_procedure_GitHub-March-16-2026.md]]
@@ -390,3 +394,4 @@ Two next-day continuations of the Mar-17 session. **Mar-18** ([[wiki/meetings/20
 - [[raw/ai_aaron-may-15-2025 (1).md]]
 - [[raw/ai_aaron-may-15-2025 (2).md]]
 - [[raw/keeper_security_implimentation_IT_maturity-august-15-2025.md]]
+- [[raw/Meeting_Transcript_automation_progress_review-March-27-2026.md]]

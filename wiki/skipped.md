@@ -61,6 +61,9 @@ Format: `raw/<skipped file>` — source of record `raw/<cited fuller file>` — 
 ### Batch 123
 - `raw/SREDs_review_March-20-2026.md` — byte-identical duplicate (md5 55e4e3ae91702230e627c8f86cd85842) of `raw/SREDs_progress_review-March-20-2026.md` (same "SREDs progress review" recording, 3:05pm) — SoR the canonical; no stub. (Dup NOT staged to raw/.)
 
+### Batch 127
+- `Alignment Andrei Klimovich-March-27-2026/README.md` — bundle-manifest/index metadata (file list + attendees + session breakdown), not meeting content; substance captured via the bundle's transcripts + notes — not staged, no stub.
+
 ### Out-of-scope exclusions (non-JVL content — not ingested, not a §12 dup)
 - `raw/koenigsegg_regera-verbal_orgasm-may-21-2025.md` — **OUT OF SCOPE (not a JVL meeting).** A YouTube-style narration/review of the Koenigsegg Regera hypercar ("…a bunch of Swedish engineers… 1,500 horsepower"), mis-filed into the May-2025 transcripts folder. Not a JVL business meeting, not §15.8-sensitive — simply off-topic per §1 scope. Excluded (recorded here so the pending-sweep and full-year no-file-loss audit don't re-flag it). Found in the 2025-complete full-year sweep, 2026-07-20.
 

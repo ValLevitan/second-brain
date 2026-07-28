@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna, Selena, Elena]
-source-count: 46
+source-count: 47
 open-commitments: 1
 ---
 
@@ -193,6 +193,10 @@ On a short Russian call ([[wiki/meetings/2026-03-17-ip-89-dashboard-grooming.md]
 
 Two Mar-20 calls. On the **[[wiki/meetings/2026-03-20-game-development-schedule-review.md|game-development schedule review]]** Lena reported production actively focused on **IP40059 South Dakota VLT** (Rodeo Spins/Clover Fortune done, La Rosa near done on the Gold Nugget presentation), that **Dragon Pays (IP997)** is her next assignment, and that assets for **Kulkitkinen / Cool Cat Kino** are ready and just await [[wiki/people/anton-leshkevich.md|Anton]] to assemble. Val pressed whether Anton was a **bottleneck**; Lena clarified he is **not a stopper** — she has plenty of other work, it was "a wrong expression." She is the designated **consent-holder for the 3–6-month JIRA backlog band** under Val's new grooming policy and voiced concern about deleting detailed shelved projects (e.g. Fortune Foo Paws). Design detail on [[wiki/topics/slot-game-design-principles.md]] and SD status on [[wiki/projects/south-dakota-vlt-market.md]] (Mar-20). On the **[[wiki/meetings/2026-03-20-sred-progress-review.md|SR&ED progress review]]** she was present as a game-design/R&D lead while the team compiled the 2025 project list — see [[wiki/topics/sred-tax-credit.md]] (Mar-20). [[raw/JIRA_schedule_review_Game_Development-March-20-2026.md]] [[raw/SREDs_progress_review-March-20-2026.md]]
 
+## Mar 27 2026 — automation review: MCP feedback and chat-interleave idea
+
+On the [[wiki/meetings/2026-03-27-automation-progress-review.md|Mar-27 automation progress review]] (with [[wiki/people/clayton-chancey.md|Clayton Chancey]] and [[wiki/people/val-levitan.md|Val]]) Lena reviewed Clayton's transcription microservice and **MCP**: she likes how the MCP works in her **sandbox** but, before rolling it to the wider art/dev team, wants the sync fixed to a **specific Windows folder** (not download-to-desktop) and the **Windows mounted-drive** issue resolved. She also suggested the transcription pipeline **interleave timestamped meeting chat content** (links, bullet points, requirement references shared in Teams chat) into the transcript, since important detail often lives in chat rather than speech — especially for screen-share-heavy sessions. See [[wiki/topics/ai-assisted-development.md]] (Mar-27). [[raw/Meeting_Transcript_automation_progress_review-March-27-2026.md]]
+
 ## Sources
 
 - [[raw/Grooming Dashboard for IP-89-March-17-2026.md]]
@@ -242,3 +246,4 @@ Two Mar-20 calls. On the **[[wiki/meetings/2026-03-20-game-development-schedule-
 - [[raw/Game_Dev-February-6-2026.md]]
 - [[raw/JIRA_schedule_review_Game_Development-March-20-2026.md]]
 - [[raw/SREDs_progress_review-March-20-2026.md]]
+- [[raw/Meeting_Transcript_automation_progress_review-March-27-2026.md]]

@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, Copilot Studio, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest, LaTeX, printer tool, Ollama, llama.cpp, local inference, Code Llama, Hugging Face, Claude Code, AI sandwich, developer experience, think like a data scientist, sub-agents, verbose output, compiler layer, ways vs skills, ADR, cross-examination, Python Vulture, intelligence center, Waze system, ways framework, compiler stack diagram, module federation, Aaron ways system, Ways ADR, Ways capabilities catalog, regulatory provenance chain, JVL Ways pipeline, ways branch architecture, trusted stage users, clean environment lesson, engagement auditor agent, translation service, terminology override table, GitHub Enterprise fork, JVL GitHub Ways architecture guide]
-source-count: 71
+source-count: 72
 ---
 
 # AI-assisted development adoption
@@ -440,6 +440,16 @@ A written reference document, **"JVL Systems — GitHub Ways Configuration (Arch
 
 §15.8 clear — Ways/GitHub/tooling and process economics only; no named-person compensation.
 
+## Mar 27 2026 — transcription pipeline is now a hosted microservice; Power Automate → GitHub auto-posting proposed
+
+On the [[wiki/meetings/2026-03-27-automation-progress-review.md|Mar-27 automation progress review]] ([[wiki/people/clayton-chancey.md|Clayton Chancey]] + [[wiki/people/lena.md|Lena Zhukova]] + [[wiki/people/val-levitan.md|Val]]; [[wiki/people/aaron.md|Aaron]] absent, both he and Clayton pulled onto a same-day Anthropic/Claude-Code outage incident) Clayton reported that the JVL meeting-transcription pipeline is now a **hosted API microservice**. This continues the enforcement-loops/transparency thread of Mar 9–10 ([[wiki/meetings/2026-03-09-it-github-jira-infrastructure.md]], [[wiki/meetings/2026-03-09-jira-github-enforcement-aaron.md]], [[wiki/meetings/2026-03-10-jira-github-transparency.md]]). [[raw/Meeting_Transcript_automation_progress_review-March-27-2026.md]]
+
+- **The microservice.** A caller submits an **audio file** (plus, optionally, the **Microsoft Teams transcript** for speaker/timing identification and the **taxonomy**) with an API token; the service transcribes (fine-tuned for Russian/English slang), merges in the Teams speaker data, then runs the result through **Claude** to streamline it into "JVL speak," and returns a finished transcript in **1–2 minutes**. Accuracy averages **~90%** (as high as ~99%, occasionally ~92%). The more input provided, the more accurate the output. [[raw/Meeting_Transcript_automation_progress_review-March-27-2026.md]]
+- **Proposed end-to-end automation.** Clayton wants a **Microsoft Power Automate** script (JVL already lives in the Microsoft platform) that listens for the end of any recorded Teams meeting, calls the microservice, and **auto-posts the finished transcript to a GitHub repository** ~2–5 minutes later — a hands-off flow. He will build it directly with [[wiki/people/andrey-bosik.md|Andrei Bosik]]; Val asked for a Clayton↔Andrei meeting to be scheduled for Monday with Val invited. Clayton also looked for the **"Techlex" repo** Val had emailed about but couldn't find it in JVL's GitHub — flagged as the likely home for the transcripts (see [[wiki/topics/github-release-management-pipeline.md]]). [[raw/Meeting_Transcript_automation_progress_review-March-27-2026.md]]
+- **Lena's MCP feedback.** Lena likes Clayton's **MCP** working in her sandbox but wants two fixes before rolling it to the wider art/dev team: **sync to a specific Windows folder** (not download-to-desktop), and the **Windows mounted-drive blocker** for the Claude client. Clayton raised a feature request with Anthropic for Windows mounted drives, and described a **GitHub-LFS pass-through workaround** (MCP pulls files into Claude's temp working directory, deletes after) if Anthropic can't fix it in time. Lena also suggested **interleaving timestamped meeting chat content** (links, bullet points, requirement references) into the transcript; Clayton will add a chat-interleave step before the final Claude pass. [[raw/Meeting_Transcript_automation_progress_review-March-27-2026.md]]
+
+§15.8 clear — tooling/automation only.
+
 ## History — earlier AI-consultation artifacts (undated, pre-2025)
 
 - **SolidWorks integration memo from ChatGPT:** a reference document titled "Solid work integration and the overall architecture suggestion from ChatGPT" shows JVL (before the 2025 tooling push) using ChatGPT to draft an IT-integration architecture connecting **SolidWorks** (3D CAD) with **Atlassian Jira/Confluence** and **Microsoft Business Central** — file attachments/version control of CAD files, BOM synchronization into the ERP, middleware/connectors, OAuth security, monitoring, and staged testing. The content is generic AI output (no JVL-specific decisions); its durable value is evidence that JVL's CAD/PLM–ERP–Atlassian integration question was explored via ChatGPT. Undated; consistent with the ~2023–24 Atlassian/Business-Central era of [[wiki/projects/jvl-insights-knowledge-base.md]] (inference, flagged). [[raw/solid_work_integration_and_the_overall_architecture_suggesti_2025-03-29.md]]
@@ -447,6 +457,7 @@ A written reference document, **"JVL Systems — GitHub Ways Configuration (Arch
 
 ## Sources
 
+- [[raw/Meeting_Transcript_automation_progress_review-March-27-2026.md]]
 - [[raw/MCP_JIRA_new_release_March-6-2026.md]]
 - [[raw/MCP_JIRA_new_release_March-6-2026 (1).md]]
 - [[raw/Review_custom_fields_JIRA-February-27-2026.md]]

@@ -3,7 +3,7 @@ type: person
 title: Clayton Chancey
 date: 2026-07-14
 aliases: [Clayton Chancey, Clayton, Foray Consulting]
-source-count: 2
+source-count: 3
 ---
 
 # Clayton Chancey
@@ -29,7 +29,12 @@ On a JVL working session ([[wiki/meetings/2026-01-29-jvl-working-session-mcp-too
 
 *(The file is titled "session-2"; a session-1 is implied but is not present in the vault — flagged, not invented.)*
 
+## Mar 27 2026 — transcription pipeline shipped as a hosted microservice
+
+On the [[wiki/meetings/2026-03-27-automation-progress-review.md|Mar-27 automation progress review]] (with [[wiki/people/lena.md|Lena Zhukova]] and [[wiki/people/val-levitan.md|Val]]; [[wiki/people/aaron.md|Aaron]] absent — both were on a same-day Anthropic/Claude-Code outage incident) Clayton reported he has turned the meeting-transcription pipeline into a **hosted API microservice** ("a JVL microservice") — submit audio (+ optional Teams transcript + taxonomy) with a token, get back a Claude-streamlined "JVL speak" transcript in 1–2 minutes at ~90% average accuracy. His next step is a **Microsoft Power Automate** flow that auto-posts finished transcripts to a GitHub repo after every recorded Teams meeting, which he will build directly with [[wiki/people/andrey-bosik.md|Andrei Bosik]] (Val asked for a Monday meeting, himself invited). He also handled Lena's MCP feedback (Windows folder-sync + mounted-drive blocker; raised a feature request with Anthropic; LFS pass-through workaround) and agreed to interleave timestamped meeting chat into the transcript. Full detail on [[wiki/topics/ai-assisted-development.md]] (Mar-27). [[raw/Meeting_Transcript_automation_progress_review-March-27-2026.md]]
+
 ## Sources
 
 - [[raw/aaron_building_tools-march-21-2025.md]]
 - [[raw/Clayton_jvl-working-session-2-summary-January-20-2026.md]]
+- [[raw/Meeting_Transcript_automation_progress_review-March-27-2026.md]]

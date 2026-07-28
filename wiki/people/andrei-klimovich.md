@@ -4,8 +4,8 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 24
-open-commitments: 9
+source-count: 28
+open-commitments: 12
 open-questions: 0
 ---
 
@@ -124,6 +124,9 @@ From the June-4 update ([[wiki/meetings/2025-06-04-klimovich-progress-update.md]
 - [ ] Andrei Klimovich — research how Amazon's extended-warranty (12/24/36-month) money flows back to JVL ("я изучу этот вопрос") — due unspecified — [[raw/andrei_klimovich_amazon-april-1-2025.md]]
 - [ ] Andrei Klimovich — use the Game Room Guys call (Apr 2) to introduce himself as Felipe's replacement and probe their customer sources/product mix — due Apr 2 2025 — [[raw/andrei_klimovich_amazon-april-1-2025.md]]
 - [ ] Andrei Klimovich — deliver a full ECHO marketing plan + calendar + budget for the Oct–Nov holiday push (draft ~1 week) — due ~mid-Aug 2025 — [[raw/Echo_home_amusement-recap-align.md]]
+- [ ] Andrei Klimovich — meet [[wiki/people/juan-martinez.md|Juan Martinez]] at 10:00 AM Monday (Mar 30) to begin learning the Transactional product — due Mar 30 2026 — [[raw/Meeting_Notes_Transactional_PMM_Appointment-March-27-2026.md]]
+- [ ] Andrei Klimovich — review the Transactional employment agreement, consult a lawyer as the document requires, and think over the offer for final acceptance — due ~Apr 2 2026 — [[raw/Meeting_Notes_Transactional_PMM_Appointment-March-27-2026.md]]
+- [ ] Andrei Klimovich — begin allocating ~30% of his time to Transactional starting Monday (Mar 30) without disrupting ECHO — due Mar 30 2026 — [[raw/Meeting_Transcript_Alignment_Andrei_Klimovich-2-March-27-2026.md]]
 
 ## History — 2023–2024 (batch 16, earlier than the recaps above)
 
@@ -174,8 +177,27 @@ On a short Val↔[[wiki/people/juan-martinez.md|Juan Martinez]] call ([[wiki/mee
 - **Reporting:** **dual reporting** — one branch to [[wiki/people/juan-martinez.md|Juan]], one to [[wiki/people/val-levitan.md|Val]]. Juan endorsed the move ("competent person… good news, Val"). [[raw/Andrei_Klimovich_Product_Manager_Transactional_Equipment-March20-2025.md]]
 - **This is a role evolution, not a new person.** It develops the same Andrei Klimovich whose recent work was **amusement/ECHO sales** ("what he has done in the death-spiralling amusement industry"); it is consistent with JVL's [[wiki/decisions/2025-07-15-exit-online-focus-transactional.md|July-2025 decision to exit online and refocus on transactional]] — his commercial energy moves from online/amusement onto the transactional-equipment product. (His §4 disambiguation tag "online-games commercial" is retained as the historical resolve-by-context marker.) [[raw/Andrei_Klimovich_Product_Manager_Transactional_Equipment-March20-2025.md]]
 
+## Mar 27 2026 — alignment: Transactional PMM appointment formalized + ECHO update
+
+On the [[wiki/meetings/2026-03-27-alignment-andrei-klimovich.md|Mar-27 alignment]] (two segments, 09:20pm + 09:32pm) Val formally walked Andrei into the new role the [[wiki/meetings/2026-03-20-andrei-klimovich-product-manager-role.md|Mar-20 Juan call]] set up, and took Andrei's weekly ECHO update.
+
+**Transactional Product & Market Manager (segment 2).** Val confirmed Andrei starts the new role **April 2, 2026** (Val avoided April 1 for superstition; "or March 31"). The title is **Product & Market Manager — Transactional**, where "Transactional" is the name of the equipment initiative, not a role descriptor. [[raw/Meeting_Notes_Transactional_PMM_Appointment-March-27-2026.md]] [[raw/Meeting_Transcript_Alignment_Andrei_Klimovich-2-March-27-2026.md]]
+
+- **Brief.** Define product requirements/capabilities from the market (visit operators, gather needs, relay to the engineering director) and own the **marketing strategy** for the Transactional line; ~**70% of product requirements already exist informally** and must be captured and consolidated. [[raw/Meeting_Notes_Transactional_PMM_Appointment-March-27-2026.md]] [[raw/Meeting_Transcript_Alignment_Andrei_Klimovich-2-March-27-2026.md]]
+- **Not a salesperson — a corporate figure.** Sales run through existing channel partners ([[wiki/people/felipe-miranda.md|Philippe/Felipe]] in Georgia, **Denis** in Nebraska, a distributor in Texas); Andrei's value is showing up professionally, listening, gathering intelligence and building relationships. Val: no competitor sends a product manager to meet operators directly, so his visits are "a big deal" for customers. He has substantial influence over pricing/marketing policy but acts through strategy, not direct selling. Val quoted Steve Jobs ("Marketing is about what they need, not what they want") and warned ~90% of what operators say is noise to filter. [[raw/Meeting_Transcript_Alignment_Andrei_Klimovich-2-March-27-2026.md]]
+- **Dual reporting** to [[wiki/people/juan-martinez.md|Juan Martinez]] (VP of Product) and [[wiki/people/val-levitan.md|Val]]. Career path Val outlined: Product & Market Manager → Product & Market Director → VP of Product (Juan came in at VP, 35 years' industry experience). [[raw/Meeting_Transcript_Alignment_Andrei_Klimovich-2-March-27-2026.md]]
+- **Travel ~75% of the time** across the three markets; first field trip could be end of April if the groundwork is ready. Product exists as a series in "file-status design" — nothing ready to ship yet; **first shipment targeted to Texas ~June 1, 2026**, estimated initial revenue **$250K–$500K** (Val put the Texas pipeline at "60% planned/spoken for"). Manufacturing in the USA; company positioned to clients as **"American / American-Canadian"** with no mention of the Eastern-European engineering center. [[raw/Meeting_Transcript_Alignment_Andrei_Klimovich-2-March-27-2026.md]] [[raw/Meeting_Notes_Transactional_PMM_Appointment-March-27-2026.md]]
+- **Legal.** The employment agreement requires Andrei to attest he consulted a lawyer; Val cannot compel the spend but the document has a field he must sign. Val closed citing Andrei's **honesty** as the main reason for the appointment ("an honest person can always be taught"). [[raw/Meeting_Transcript_Alignment_Andrei_Klimovich-2-March-27-2026.md]]
+- **§15.8:** base salary and commission tiers are stated on the derived note but are held as named-person compensation and not restated here (specific rate figures omitted).
+
+**ECHO marketing/sales update (segment 1).** See [[wiki/topics/echo-home-gaming-device.md]] (Mar-27) for the full detail: an Amazon category move for organic lift and new campaigns/creatives launching within the week; one Amazon order and 23 accumulated carts on the 15% Easter/Spring discount; Meta cost/cart cut **$20 → $11** and CPC **~50-60¢ → 20¢**; a Google gambling-suspicion strike spiked CPC to ~$1 (monitored through the weekend); **Bing and Twitter both to be shut off after Easter** (Bing zero carts; Twitter ~$2.50/click ≈ 12× Meta, off-audience); the site's Google trust index rose **11 → 13** (20 = "reliable"); the team is **moving off the external web agency onto Claude**; and Andrei built a **unified knowledge base** the whole marketing team now works from. Val recommended Andrei adopt **Claude Code desktop** (skills, file management, transcription with a Russian/English lexicon table); Andrei agreed to learn by doing. [[raw/Meeting_Transcript_Alignment_Andrei_Klimovich-1-March-27-2026.md]] [[raw/Meeting_Notes_Echo_Marketing_Sales_Update-March-27-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Alignment_Andrei_Klimovich-1-March-27-2026.md]]
+- [[raw/Meeting_Transcript_Alignment_Andrei_Klimovich-2-March-27-2026.md]]
+- [[raw/Meeting_Notes_Transactional_PMM_Appointment-March-27-2026.md]]
+- [[raw/Meeting_Notes_Echo_Marketing_Sales_Update-March-27-2026.md]]
 - [[raw/echo_distribution_marketing_update-september-16-2025.md]]
 - [[raw/Andrei_Klimovich_Product_Manager_Transactional_Equipment-March20-2025.md]]
 - [[raw/echo_distribution_marketing_update-september-15-2025.md]]
