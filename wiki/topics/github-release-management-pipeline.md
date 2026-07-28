@@ -2,8 +2,8 @@
 type: topic
 title: GitHub release management and the CI/CD release pipeline
 date: 2025-10-21
-aliases: [release management, release pipeline, CI/CD, GitHub Actions pipeline, release artifacts, ISO image release, release manager role, continuous delivery, flex os installer, manifest, release candidate, single source of truth, feature branch discipline, sprints vs kanban, Jira GitHub link, FlexPos IP 902, FP 519]
-source-count: 10
+aliases: [release management, release pipeline, CI/CD, GitHub Actions pipeline, release artifacts, ISO image release, release manager role, continuous delivery, flex os installer, manifest, release candidate, single source of truth, feature branch discipline, sprints vs kanban, Jira GitHub link, FlexPos IP 902, FP 519, IP 89 dashboard grooming, bulk archive automation, Jira resolutions cleanup]
+source-count: 11
 open-questions: 1
 ---
 
@@ -104,6 +104,14 @@ A short segment of the [[wiki/meetings/2026-03-16-release-procedure-and-eng-docu
 
 Val's written draft distils the philosophy: this is a **management visibility problem, cultural not technical**; other functions (sales pipeline, inventory, cash flow) give leadership a basis for intelligent conversation while engineering gives "almost nothing equivalent"; people keep work private to avoid hard questions; the goal is a company where **visibility is normal, expected, and non-threatening**, everyone reads the **same dashboard**, and honest questions ("why 464 open tasks? why 8 days? why 20 iterations?") are the **foundation of accountability, not attacks** — the infrastructure that lets the company learn and improve. [[raw/JIRA_GitHub_transparency-Draft-March-10-2026.md]] This continues the [[wiki/meetings/2026-03-09-it-github-jira-infrastructure.md|Mar-9 loops]] / [[wiki/meetings/2026-03-09-jira-github-enforcement-aaron.md|Aaron critique]] and the [[wiki/meetings/2026-03-06-github-dashboard.md|Mar-6 dashboard]] threads; cross-links [[wiki/topics/ai-assisted-development.md]].
 
+## Mar 17 2026 — grooming the IP-89 dashboard: bulk-archive automation + status/resolution cleanup
+
+A short Russian call ([[wiki/meetings/2026-03-17-ip-89-dashboard-grooming.md]], recording header 3:54pm) between [[wiki/people/val-levitan.md|Val]], [[wiki/people/lena.md|Lena Zhukova]] and [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] (IT/Jira admin) to groom the **IP-89** game-production Jira dashboard — the same **464-open-task** dashboard Val screen-shared on the [[wiki/meetings/2026-03-10-jira-github-transparency.md|Mar-10 transparency call]]. This is the housekeeping counterpart to the transparency thread: making the dashboard itself trustworthy enough to ask the honest questions Val wants. [[raw/Grooming Dashboard for IP-89-March-17-2026.md]]
+
+- **Bulk-archive automation.** Lena asked for automation so that archiving a product also sends **all its child issues/stories to archive automatically** (rather than moving each by hand), and Val asked whether a **bulk move** would do it — Dmitri Kovalchuk cautioned that **"bulk move doesn't always work well."** Dmitri agreed to **prototype an automation** that moves all children of a parent element to archive and **copies the parent's status and resolution down** onto them. They also noted whole projects that will not be worked (e.g. an Omni-related one) "should go to archive." [[raw/Grooming Dashboard for IP-89-March-17-2026.md]]
+- **Grooming statuses and resolutions to match the current business.** Val believes some statuses and resolutions "no longer match today's truth of our business." The one clearly-named target: the **Duplicate** resolution is never used (JVL handles duplicates via **bulk-delete**), and several other legacy resolutions — carryovers from when bugs were filed here ("we used to put bugs here, now we don't") — look unneeded; the exact resolution names are garbled in the transcript and not asserted. Dmitri warned the **resolution list may not be editable** but said he would note it, and Lena said Val must give **input on which resolutions to drop** — Val agreed to participate. [[raw/Grooming Dashboard for IP-89-March-17-2026.md]]
+- **Standardizing status wording.** Because **each task type has its own workflow**, statuses differ per type; Val wants to **standardize the wording** where near-identical statuses are phrased differently across types (he had noticed the divergence before). [[raw/Grooming Dashboard for IP-89-March-17-2026.md]]
+
 ## Open questions
 
 - **Where do large graphic files (LFS) live for releases?** Val recalled agreeing to move big graphic assets to separate cloud storage (he floated Azure / "blob") to avoid cluttering GitHub; [[wiki/people/andrey-bosik.md|Andrei]] stated **LFS is part of the GitHub repository**. Accounts diverge; unresolved. Related: artifacts currently sit on a **local Nexus server**, and Val ruled to **keep Nexus local for now** (cloud Nexus needs a financial commitment JVL isn't sure it needs), accepting a later action-rewrite when JVL migrates to cloud. [[raw/artifacts_assembly_GitHub-october-21-2025.md]] [[raw/practice_release_calle_ocho-github-october-21-2025.md]]
@@ -120,3 +128,4 @@ Val's written draft distils the philosophy: this is a **management visibility pr
 - [[raw/Transparency_alignment_JIRA_GitHub-March-10-2026.md]]
 - [[raw/JIRA_GitHub_transparency-Draft-March-10-2026.md]]
 - [[raw/Aaron_Val-release_procedure_GitHub-March-16-2026.md]]
+- [[raw/Grooming Dashboard for IP-89-March-17-2026.md]]

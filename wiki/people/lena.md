@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna, Selena, Elena]
-source-count: 43
+source-count: 44
 open-commitments: 1
 ---
 
@@ -185,8 +185,13 @@ On the [[wiki/meetings/2026-03-04-game-development-schedule-review.md|Mar-4 game
 
 On the [[wiki/meetings/2026-03-13-game-development-review.md|Mar-13 game-development review]] Lena shared the schedule and drove the visuals — the **GC351** pick-3 progressive coin/layout design (with Michael) and **GC360** progressive visual for the "Pix 3" bonus **in progress**, the built **Dragon Pace** main screen (Asian-look royals, desaturated, dragon popping, liquid glass + new ticker) and the new reel-3 jackpot coin, and production items (IP459 South Dakota; IP984 liquid-glass home screen; IP988 La Rosa; rodeo/Dragon-Pace scheduling). She created **IP1028 (Georgia COAM)** as a backlog placeholder (not yet scheduled). Val gave her a **chore: write JVL IT to add a "completed" workflow stage before "done"** for features/IPs in game production, copying him. She defended showing "done" items as useful progress on recent projects (Val's 30-day filter accommodates it). Design/market detail on [[wiki/topics/slot-game-design-principles.md]] / [[wiki/projects/georgia-market-rollout.md]] (Mar-13). [[raw/JIRA_Schedule_review-March-13-2026.md]] [[raw/Game_Development-March-13-2026.md]]
 
+## Mar 17 2026 — grooming the IP-89 game-production dashboard
+
+On a short Russian call ([[wiki/meetings/2026-03-17-ip-89-dashboard-grooming.md]], 3:54pm; with [[wiki/people/val-levitan.md|Val]] and [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]) to clean up the **IP-89** dashboard, Lena pushed for **automation to archive a whole product plus all its child issues/stories in one move** (rather than by hand) and asked to standardize the Jira statuses/resolutions to match current work — the operational follow-through on her Mar-13 "add a completed stage before done" chore. See [[wiki/topics/github-release-management-pipeline.md]] (Mar-17). [[raw/Grooming Dashboard for IP-89-March-17-2026.md]]
+
 ## Sources
 
+- [[raw/Grooming Dashboard for IP-89-March-17-2026.md]]
 - [[raw/JIRA_Schedule_review-March-13-2026.md]]
 - [[raw/Game_Development-March-13-2026.md]]
 - [[raw/Game_Development_Schedule_Review-March-4-2026.md]]

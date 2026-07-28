@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 59
+source-count: 61
 open-commitments: 6
 ---
 
@@ -180,9 +180,15 @@ On the [[wiki/meetings/2026-03-10-jira-github-transparency.md|Mar-10 ~50-min Rus
 
 On the final segment of the [[wiki/meetings/2026-03-17-jvl-ways-on-github-setup.md|Mar-17 Aaron↔Val Ways session]] (recording header 1:12pm) [[wiki/people/val-levitan.md|Val]] called Andrei in and [[wiki/people/aaron.md|Aaron]] prepped him for a next-day working meeting — earlier in the session Val had named Andrei as the person who should **own JVL's ways** ("trying to employ Andrei on this, but he's not ready yet… he needs more time," while ruling out [[wiki/people/pavel.md|Pavel]] for it). Andrei confirmed the two mechanics behind JVL's Ways adoption: (1) JVL runs a **daily script that auto-updates Aaron's Claude Code config + Claude Code** across its employees' environments; (2) JVL uses Aaron's Claude config **as-is, unmodified**. Aaron set the integration plan: create a **JVL branch inside the Claude Code config repo Andrei maintains** carrying proprietary JVL ways, so cloners get the integrated branch — a **hybrid of Aaron's ongoing ways + JVL's own**, since **GitHub Enterprise blocks a true fork** (Andrei's own point), with the JVL branch updated from JVL's main (which tracks Aaron's repo) and JVL ways never merging back to Aaron. Substance on [[wiki/topics/ai-assisted-development.md]] (Mar-17). §15.8 clear. [[raw/setting_JVL_Ways_in_GitHub-March-16-2026.md]]
 
+## Mar 18–19 2026 — building the JVL Ways GitHub pipeline (and the clean-environment lesson)
+
+The two next-day working sessions with [[wiki/people/aaron.md|Aaron]] and [[wiki/people/val-levitan.md|Val]] where Andrei — named to own JVL's ways — starts operationalizing them. **Mar-18** ([[wiki/meetings/2026-03-18-setting-up-jvl-ways-on-github.md]], 12:10pm): Andrei walks through Aaron's whiteboard branch/promotion pipeline (he will run the merge/stage/prod release process and "push the release button"), and attempts the live first Way-generation in Claude Code — open the `.cloud` git repo on main, let Claude create the branch, paste Aaron's "Senior Developer Architect" prompt then Val's source doc as one input — but it is **blocked by an Anthropic API outage** across regions; parked, with Andrei to save the prompt as text and circulate the Confluence link. **Mar-19** ([[wiki/meetings/2026-03-19-ways-github-integration.md]], 12:14pm): the integration run surfaces the **"clean environment" lesson** — Andrei's own **specialized personal tooling** (a personal Jira-MCP setup + GitHub CLI usage others don't have) **tainted** the ways generation, so Aaron ruled ways must be authored on the **minimum standard config every JVL machine gets**; Andrei agreed to **build a separate clean VM** with only the minimal shared software and replay the prompts. Substance on [[wiki/topics/ai-assisted-development.md]] (Mar-18 / Mar-19). §15.8 clear. [[raw/Setting up JVL ways on GitHub-March-18-2026.md]] [[raw/Ways_GitHub_integration.md]]
+
 ## Sources
 
 - [[raw/setting_JVL_Ways_in_GitHub-March-16-2026.md]]
+- [[raw/Setting up JVL ways on GitHub-March-18-2026.md]]
+- [[raw/Ways_GitHub_integration.md]]
 - [[raw/Transparency_alignment_JIRA_GitHub-March-10-2026.md]]
 - [[raw/JIRA_GitHub_transparency-Draft-March-10-2026.md]]
 - [[raw/IT_GitHub_JIRA_infrastructure-March-9-2026.md]]

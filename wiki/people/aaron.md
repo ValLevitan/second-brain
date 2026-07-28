@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 100
+source-count: 102
 open-commitments: 2
 ---
 
@@ -281,6 +281,10 @@ A single continuous Val↔Aaron call recorded in two segments ([[wiki/meetings/2
 
 The next morning's four-segment session ([[wiki/meetings/2026-03-17-jvl-ways-on-github-setup.md]], headers 12:12/12:22/12:33/1:12pm) — the **first real application of Aaron's Ways system inside JVL**. Aaron ran Val's draft "automated company architect" prompt through his own **ways-production Claude environment** and decomposed it: the document is "three things stapled together" (persona + workflow + checklist); a single `way.md` would be **~120 lines of injected context** — too costly to fire on every prompt — so it becomes a **progressive-disclosure tree** (parent senior-architect persona → pass-one / pass-two ways → GitHub-check ways, ADR sub-template kept once). He taught Val the **way (guidance/"why") vs skill (context+output-format/"how")** split against Val's own draft, flagged the tightly-scoped output sections for removal, and warned off the capability-statement template (JVL's Jira "user story" templates get mis-filled). With **[[wiki/people/andrey-bosik.md|Andrei Bosik]]** (seg 4) Aaron set the GitHub plan: a **JVL branch in the Claude Code config repo Andrei maintains** carrying proprietary JVL ways over Aaron's daily-updated public copy — a **hybrid**, since GitHub Enterprise blocks a true fork, with JVL ways **never merging back** into Aaron's copy ("I don't want the word JVL inside" it) and breaking changes shipped in **version notes**. Agreed to compose/commit the ways live the next day, then have Andrei try them. The requirements-vs-capabilities/INCOSE grounding (segs 1–2) is on [[wiki/topics/transcript-knowledge-base-tooling.md]] (Mar-17); the Ways/GitHub detail on [[wiki/topics/ai-assisted-development.md]] (Mar-17). §15.8 clear. [[raw/Requirements_Capabilities-March-16-2025.md]] [[raw/Reference_Guides-March-16-2026.md]] [[raw/Val_Ways_set-up-March-16-2026.md]] [[raw/setting_JVL_Ways_in_GitHub-March-16-2026.md]]
 
+## Mar 18–19 2026 — the JVL Ways GitHub pipeline (architecture + integration)
+
+Two next-day continuations of the Mar-17 session. **Mar-18** ([[wiki/meetings/2026-03-18-setting-up-jvl-ways-on-github.md]], 12:10pm, with [[wiki/people/andrey-bosik.md|Andrei Bosik]]): Aaron drew the full **JVL Ways branch/promotion architecture** on a Confluence whiteboard (main clone → /jvl ways branch → integrate-on-merge → test-QA auto-scoring → stage trusted-user gate → prod release-by-script), set the **trusted-stage-user** model (must use Claude Code for code daily — he **rejected [[wiki/people/dmitri-kovalchuk.md|Dima]]** as a candidate; Val named **[[wiki/people/evgeny-kharetski.md|Kharetski]]**), and explained why the gates exist (a mis-scored way shipped straight to prod "breaks the steering" on everyone's machine). The live Way-generation attempt was blocked by an **Anthropic API outage** and parked. **Mar-19** ([[wiki/meetings/2026-03-19-ways-github-integration.md]], 12:14pm): Aaron pitched a **translation-as-a-service** endpoint (a separate system Ways could call — LLM translation + an admin-curated terminology override table, modeled on the Whisper tool) and ran the integration live, teaching the **"clean environment" lesson** — Andrei's personal specialized tooling **tainted** the ways generation ("food coloring in the dough… you cannot unmix it"), so ways must be authored on the **minimum standard config every JVL machine gets**. Both sessions' substance, plus the folded **JVL GitHub Ways architecture guide**, on [[wiki/topics/ai-assisted-development.md]] (Mar-18 / Mar-19). §15.8 clear. [[raw/Setting up JVL ways on GitHub-March-18-2026.md]] [[raw/Ways_GitHub_integration.md]]
+
 ## Sources
 
 - [[raw/Aaron_Val-release_procedure_GitHub-March-16-2026.md]]
@@ -289,6 +293,8 @@ The next morning's four-segment session ([[wiki/meetings/2026-03-17-jvl-ways-on-
 - [[raw/Reference_Guides-March-16-2026.md]]
 - [[raw/Val_Ways_set-up-March-16-2026.md]]
 - [[raw/setting_JVL_Ways_in_GitHub-March-16-2026.md]]
+- [[raw/Setting up JVL ways on GitHub-March-18-2026.md]]
+- [[raw/Ways_GitHub_integration.md]]
 
 - [[raw/Capabilities_requirements_ADR-storage-March-13-2026.md]]
 - [[raw/Aaron_Val-March-09-2026.md]]

@@ -4,7 +4,7 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "IT (GitHub-admin, infrastructure, secrets/Azure, AI-tool accounts) — the IT-context "Dima". Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 18
+source-count: 20
 ---
 
 # Dmitri Kovalchuk
@@ -69,8 +69,18 @@ On the [[wiki/meetings/2026-02-20-jira-custom-fields-alignment.md|Feb-20 IT cust
 
 On the [[wiki/meetings/2026-02-27-jira-custom-fields-review.md|Feb-27 JIRA custom-fields review]] (2:05pm; with Val + [[wiki/people/aaron.md|Aaron]], who deferred to Dmitri as the driver), Dmitri ran the screen-share and the JIRA field administration: he reported the field counts (25 used in the last six months, 17 system-managed), **exported the field list to Excel**, struck the delete rows red, kept the requirement-categorization/requirement-type and Jira-Service-Management reporter fields Aaron flagged, and produced a **final list of 13 custom fields to keep** — deleting the rest **on Monday** after practising on the sandbox instance. Consistent with his IT/JIRA-administration role. See [[wiki/topics/ai-assisted-development.md]] (Feb-27). [[raw/Review_custom_fields_JIRA-February-27-2026.md]]
 
+## Mar 17 2026 — grooming the IP-89 dashboard (bulk-archive automation)
+
+On a short Russian call ([[wiki/meetings/2026-03-17-ip-89-dashboard-grooming.md]], 3:54pm; with [[wiki/people/val-levitan.md|Val]] and [[wiki/people/lena.md|Lena Zhukova]]) to groom the **IP-89** game-production Jira dashboard, Dmitri is the IT/Jira admin doing the work: he cautioned that **"bulk move doesn't always work well,"** agreed to **prototype an automation** that moves all children of a parent to archive while copying the parent's status and resolution down, and flagged that the **resolution list may not be editable** (he'll note it) during the status/resolution cleanup. Consistent with his IT/JIRA-administration role. See [[wiki/topics/github-release-management-pipeline.md]] (Mar-17). [[raw/Grooming Dashboard for IP-89-March-17-2026.md]]
+
+## Mar 18 2026 — not a Ways trusted-stage-user candidate
+
+On the [[wiki/meetings/2026-03-18-setting-up-jvl-ways-on-github.md|Mar-18 JVL-Ways-on-GitHub session]] (Aaron/Val/Andrei Bosik; Dmitri not present) Val floated **Dima** as a candidate **trusted stage user** for the Ways pipeline; [[wiki/people/aaron.md|Aaron]] **rejected him** because he "is not using cloud code for writing code on a daily basis," and Val agreed (adding that Dima "doesn't really want to learn things"). A role-fit datapoint: Dmitri is IT/admin, not a daily Claude-Code developer. See [[wiki/topics/ai-assisted-development.md]] (Mar-18). [[raw/Setting up JVL ways on GitHub-March-18-2026.md]]
+
 ## Sources
 
+- [[raw/Grooming Dashboard for IP-89-March-17-2026.md]]
+- [[raw/Setting up JVL ways on GitHub-March-18-2026.md]]
 - [[raw/Review_custom_fields_JIRA-February-27-2026.md]]
 - [[raw/IT_custom_fields_alignment-February-20-2026.md]]
 - [[raw/Introduction to Knowledge Graph Tool-part-1-February-2-2026.md]]
