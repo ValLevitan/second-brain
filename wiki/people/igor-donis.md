@@ -3,7 +3,7 @@ type: person
 title: Igor Donis
 date: 2026-07-13
 aliases: [Igor Donis, Igor]
-source-count: 7
+source-count: 9
 disambiguation: "JVL Financial Controller — the finance/corporate Igor. One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
 ---
 
@@ -45,7 +45,13 @@ On the [[wiki/meetings/2026-03-04-financial-review.md|Mar-4 weekly financial rev
 
 **Owner-confirmed:** Igor Donis (this page, finance/corporate) is distinct from the other Igor-named people — there are **five** (see the §4 registry): [[wiki/people/igor-nazarenka.md|Igor (Ihar) Nazarenka]] (mobile-app, owner-confirmed 2026-07-14), [[wiki/people/igor-starovoytov.md|Igor Starovoytov]] (industrial designer), [[wiki/people/igor-metelski.md|Igor Metelski]] (RGS engineer), and [[wiki/people/ihar-hrybko.md|Ihar Hrybko]] (UX/UI). Finance/controller/corporate → Donis. Queue any "Igor" that fits none.
 
+## Mar 24 2026 — Val moving to replace him (controller role)
+
+On the [[wiki/people/sean-riley.md|Sean Riley]] alignment call ([[wiki/meetings/2026-03-24-sean-riley-alignment-controller-search-2011-filing.md]]), Val stated he wants to **replace Igor** with a part-time Canada-based controller — reasons: Igor lacks independence (needs a constant support person), a hard **language barrier** (no English), and high overhead. Val stressed the replacement is *not* a CFO backfill and *not* a posting role (JVL keeps its AP/AR posting staff) — it is review/intercompany-clearing/reporting, work Igor now does under [[wiki/people/alka-sood.md|Alka]]'s tight supervision as "her physical hands." *(Igor by context — source names only "Igor"; finance-controller-under-Alka → Donis.)* §15.8: no compensation figure recorded (Val explicitly declined to anchor on Igor's pay). [[raw/Meeting_Transcript_controller_search_and_2011_filing-March-24-2026.md]] [[raw/Meeting_Notes_Controller_Search_and_2011_Filing-March-24-2026.md]]
+
 ## Sources
+- [[raw/Meeting_Transcript_controller_search_and_2011_filing-March-24-2026.md]]
+- [[raw/Meeting_Notes_Controller_Search_and_2011_Filing-March-24-2026.md]]
 
 - [[raw/Financial_review_March-4-2026.md]]
 - [[raw/finance_recurring_meeting-november-4-2025.md]]

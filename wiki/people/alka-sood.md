@@ -3,7 +3,7 @@ type: person
 title: Alka Sood
 date: 2026-07-14
 aliases: [Alka Sood, Alka, Cogna]
-source-count: 18
+source-count: 20
 open-commitments: 17
 ---
 
@@ -126,7 +126,13 @@ On a short [[wiki/meetings/2026-02-19-alka-val-transition-handover.md|Feb-19 tra
   - **EHT — automated.** Filed automatically by **ADP** off the payroll; needs only an annual review to confirm it matches what Ontario reports. [[raw/Alka_Val_aligment-February-19-2026.md]]
   - **US state sales-tax filings — move to the US accountants.** [[wiki/people/monica.md|Monica]] does Georgia; South Dakota and Florida were done by Alka. Val directed transferring all of it to the US accountants. Alka will use the **Avalara** ("Avalero") report (a synopsis of where taxes were incurred) and — at Val's request — enable Avalara's **automatic pay-out** feature so nobody has to file manually (JVL already pays for Avalara). [[raw/Alka_Val_aligment-February-19-2026.md]]
 
+## Mar 24 2026 — year-end handoff to Sean Riley (via the Sean alignment call)
+
+Per Val on the [[wiki/people/sean-riley.md|Sean Riley]] alignment call ([[wiki/meetings/2026-03-24-sean-riley-alignment-controller-search-2011-filing.md]]): Alka has **emailed Sean all the JVL 2025 year-end numbers** (trial balances, general ledgers) and **groomed a complete record of Val's personal loans from 2011-680 to JVL** — Sean will collect that record from her and reconcile it against his own draft. Consistent with her wind-down (departure → June-1). [[raw/Meeting_Transcript_controller_search_and_2011_filing-March-24-2026.md]] [[raw/Meeting_Notes_Controller_Search_and_2011_Filing-March-24-2026.md]]
+
 ## Sources
+- [[raw/Meeting_Transcript_controller_search_and_2011_filing-March-24-2026.md]]
+- [[raw/Meeting_Notes_Controller_Search_and_2011_Filing-March-24-2026.md]]
 
 - [[raw/Alka_Val_aligment-February-19-2026.md]]
 
