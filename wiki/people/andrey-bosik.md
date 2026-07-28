@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 62
+source-count: 64
 open-commitments: 7
 ---
 
@@ -189,8 +189,14 @@ The two next-day working sessions with [[wiki/people/aaron.md|Aaron]] and [[wiki
 
 On the data-access-strategy / CMS-cloud-migration call ([[wiki/meetings/2026-03-23-data-access-strategy-cms-cloud-migration.md]], 1:34pm, Russian; with [[wiki/people/val-levitan.md|Val]], [[wiki/people/dmitri-chudinov.md|Chudinov]], [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]], [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]]) Andrei is the DevOps/cost voice: he floated a **VPN tunnel** between a cloud cube and the on-prem database as a possible transitional pattern, argued data volumes aren't huge (the cube incremental-loads, doesn't rebuild every 30 min), proposed that engineers could use **pre-defined scripts** (any language) holding the DB connection as a Claude-invokable alternative to MCP, and — his headline point — made **sizing the cloud bill the critical first step** ("could be $100, could be $10,000/month; nobody knows"). He noted MS SQL cloud licensing is very expensive and endorsed evaluating **PostgreSQL** (self-hosted or managed). Val assigned him (with [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]]) the **cloud-cost estimate** plus the current structural schema. Substance on [[wiki/topics/olap-power-bi-architecture.md]] and [[wiki/topics/ai-assisted-development.md]] (Mar-23). [[raw/Meeting_Transcript_data_access_strategy_and_cms_cloud_migration-March-23-2026.md]]
 
+## Mar 26 2026 — mirrors the Linux kernel sources to GitHub
+
+On the [[wiki/meetings/2026-03-26-initiative-priority-schedule.md|Initiative Priority Schedule]] meeting (discussed, not clearly present) Pavel named **Andrei Bosik** for the kernel-5.15 work's supporting task: **mirror the Linux kernel sources to GitHub** (so JVL's build pulls them from its own GitHub) — a background job Pavel expects to run ~a day on its own, freeing Pavel to do the kernel build itself. Consistent with his DevOps/GitHub-mirroring role. See [[wiki/topics/github-release-management-pipeline.md]] (Mar-26). [[raw/Meeting_Transcript_initiative_priority_schedule-2-March-26-2026.md]] [[raw/Meeting_Notes_initiative_priority_schedule-March-26-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_initiative_priority_schedule-2-March-26-2026.md]]
+- [[raw/Meeting_Notes_initiative_priority_schedule-March-26-2026.md]]
 - [[raw/Meeting_Transcript_data_access_strategy_and_cms_cloud_migration-March-23-2026.md]]
 - [[raw/setting_JVL_Ways_in_GitHub-March-16-2026.md]]
 - [[raw/Setting up JVL ways on GitHub-March-18-2026.md]]

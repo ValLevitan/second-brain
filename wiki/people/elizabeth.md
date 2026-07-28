@@ -3,7 +3,7 @@ type: person
 title: Elizabeth
 date: 2025-04-28
 aliases: [Elizabeth]
-source-count: 5
+source-count: 7
 disambiguation: "JVL engineering technician (full engineer by degree) handling Georgia service/parts; ex-Colombian-operation technician; Spanish-speaking. Distinct from Eliana, the Colombian EDS principal (wiki/people/eliana.md). Surname not stated in the source."
 ---
 
@@ -29,8 +29,14 @@ On the Val↔[[wiki/people/genadi-peari.md|Genadi]] electro-mechanical alignment
 
 Discussed (not present) on the [[wiki/meetings/2025-11-03-machine-qc-checklist-release-form.md|Nov-3 QC meeting]]: Elizabeth is **preparing to assemble 100 machines** in Georgia. Val praised her as a degreed engineer who treats the work as a career and does it seriously; she had personally checked the ~10 machines shipped to one location, but JVL's lack of a final whole-machine QC step let the hidden loose-speaker defect through. [[wiki/people/genadi-peari.md|Genadi]] is to travel to Georgia ~2 weeks to work hands-on with her on the problem sub-assemblies and set up a proper QC/release process. See [[wiki/topics/slot-machine-production-test-procedure.md]] (Nov-3). [[raw/Machine Quality Control Checklist and a Release form.md]]
 
+## Mar 26 2026 — on-site testing for the two-week priority release
+
+On the [[wiki/meetings/2026-03-26-initiative-priority-schedule.md|Initiative Priority Schedule]] meeting (discussed, not present) Val and [[wiki/people/irina-shishko.md|Irina Shishko]] named **Elizabeth** as the **on-site tester** to exercise builds once they are ready (JVL has no test hardware for some of these machines locally); Val said Irina should ask her "without any hesitation." Consistent with her degreed-engineer / Georgia field-service and QC role. See [[wiki/topics/github-release-management-pipeline.md]] (Mar-26). [[raw/Meeting_Transcript_initiative_priority_schedule-2-March-26-2026.md]] [[raw/Meeting_Notes_initiative_priority_schedule-March-26-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_initiative_priority_schedule-2-March-26-2026.md]]
+- [[raw/Meeting_Notes_initiative_priority_schedule-March-26-2026.md]]
 - [[raw/Machine Quality Control Checklist and a Release form.md]]
 - [[raw/alignment_elctro-mechanical-september-22-2025.md]]
 - [[raw/business_central_update-apr-28-2025.md]]

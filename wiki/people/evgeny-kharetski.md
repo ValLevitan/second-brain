@@ -3,7 +3,7 @@ type: person
 title: Evgeny Kharetski
 date: 2025-07-10
 aliases: [Evgeny Kharetski, Evgeny Kharetsky, Evgeny Khoretsky, Kharevsky, Yauheni Kharetski, Kharetsky, Koretski, Koretsky, Korecki, Khorvatsky, Корецкий, Хорватский, Халецкий]
-source-count: 7
+source-count: 9
 disambiguation: "LGS developer (payroll "Kharetski Yauheni"), this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
 ---
 
@@ -36,8 +36,14 @@ On the [[wiki/meetings/2026-02-11-github-front-end-waze-setup.md|Feb-11 front-en
 
 On the [[wiki/meetings/2026-03-18-setting-up-jvl-ways-on-github.md|Mar-18 JVL-Ways-on-GitHub session]] (Kharetski **not present**; Aaron/Val/Andrei Bosik) [[wiki/people/aaron.md|Aaron]] said the Ways pipeline's **stage** layer needs trusted users who understand Ways and write code with Claude Code daily. After Aaron rejected [[wiki/people/dmitri-kovalchuk.md|Dima]] as a candidate, [[wiki/people/val-levitan.md|Val]] named **Kharetski** — "Haretsky is very good — let's deploy him." Consistent with his back-end-developer + interest-in-the-tooling role (cf. his Feb-11 ways-versioning question). See [[wiki/topics/ai-assisted-development.md]] (Mar-18). [[raw/Setting up JVL ways on GitHub-March-18-2026.md]]
 
+## Mar 26 2026 — owns the setup-mode freeze fix
+
+On the [[wiki/meetings/2026-03-26-initiative-priority-schedule.md|Initiative Priority Schedule]] meeting (referred to as "Женя"/Zhenya from the developers, not clearly present) Evgeny Kharetski is named to take the **setup-mode kernel-crash "freeze" fix** — starting on the South Dakota task first, then moving to the next market. (Resolved to Kharetski per §4: LGS/Omni-backend "Zhenya" → Kharetski; the folded meeting-notes name him "Evgeniy Kharetski" explicitly.) See [[wiki/topics/github-release-management-pipeline.md]] (Mar-26). [[raw/Meeting_Transcript_initiative_priority_schedule-2-March-26-2026.md]] [[raw/Meeting_Notes_initiative_priority_schedule-March-26-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_initiative_priority_schedule-2-March-26-2026.md]]
+- [[raw/Meeting_Notes_initiative_priority_schedule-March-26-2026.md]]
 - [[raw/Setting up JVL ways on GitHub-March-18-2026.md]]
 - [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
 - [[raw/autotests_sync_meeting.md]]

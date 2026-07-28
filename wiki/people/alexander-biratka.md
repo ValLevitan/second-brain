@@ -4,7 +4,7 @@ title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka, Alex Baratka, Alex Beratka, Alexander Berankov, Biratko, Alexander Biratko]
 disambiguation: "Alexander cluster (provisional — owner ruling pending): distinct JVL people sharing the given name Alexander. [[wiki/people/alexander-biratka.md|Alexander Biratka]] = Omni/Pixi framework & build engineer (aka Sasha; garbles Beratko/Baratka); [[wiki/people/alexander-korochkin.md|Alexander Korochkin]] = LGS QA-automation engineer (GitHub Alexander_K@JVL, read-only; aka Alexander K); [[wiki/people/alexander-tumanov.md|Alexander Tumanov]] = Minsk QA / data-center knowledge-capture hire (surname unverified). Resolve by context: Omni framework / Pixi / build → Biratka; LGS QA automation / read-only build consumer → Korochkin; manual-tester onboarding / data-center interviews → Tumanov. A further name 'Alexander Derok' (back-end build-integration / Java, per Val on Feb-6-2026) is unconfirmed — queued, not a page. Not [[wiki/people/alexei-khamin.md|Alexei Khamin]] (different name). Queue anything fitting none; never force-match."
-source-count: 31
+source-count: 33
 open-commitments: 1
 open-questions: 0
 ---
@@ -118,8 +118,14 @@ On the [[wiki/meetings/2026-03-04-schedule-review.md|Mar-4 schedule review]] ([[
 
 - **FP 519 exposed the feature-branch anti-pattern.** Sasha's **FlexPos software-update** feature (FP 519) — a small Python auto-updater that sits in the **RK3568** root, watches for an update file, unpacks it, swaps the link and reboots — was built as a **standalone repo committed to root, not under a feature branch**, so nothing linked it back to Jira. It became Val's worked example for the feature-branch discipline he wants (each feature under **IP 902 = FlexPos** gets its own branch, surfaced via a GitHub-branch field). See [[wiki/topics/github-release-management-pipeline.md]] (Mar-4). [[raw/Schedule_review-March-4-2026.md]]
 
+## Mar 26 2026 — reassigned off the external watchdog onto the FlexFare cash dispenser
+
+On the [[wiki/meetings/2026-03-26-initiative-priority-schedule.md|Initiative Priority Schedule]] meeting Pavel noted Sasha ("Sasha Piratko") had external-hardware watchdog-timer tasks planned; with the team choosing the Linux kernel-panic auto-reboot (Option 4) over an external watchdog chip (Option 2), Pavel **pulled Sasha off the external-watchdog work** and reassigned him to the **bill/cash dispenser for FlexFare**. See [[wiki/topics/github-release-management-pipeline.md]] (Mar-26). [[raw/Meeting_Transcript_initiative_priority_schedule-2-March-26-2026.md]] [[raw/Meeting_Notes_initiative_priority_schedule-March-26-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_initiative_priority_schedule-2-March-26-2026.md]]
+- [[raw/Meeting_Notes_initiative_priority_schedule-March-26-2026.md]]
 - [[raw/Schedule_review-March-4-2026.md]]
 - [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
 - [[raw/Claude Code integration - continued.md]]
