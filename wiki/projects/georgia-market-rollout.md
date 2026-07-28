@@ -284,6 +284,13 @@ On the [[wiki/meetings/2026-03-13-game-development-review.md|Mar-13 game-develop
 - **IP1028 Georgia COAM sits in backlog.** [[wiki/people/lena.md|Lena]] created **IP1028 (Georgia COAM)** as a placeholder for the next design-stage work but has **not scheduled it** yet — it moves to design as the pick-3 / line-riches concepts finish. Val confirmed it is correctly parked in backlog. [[raw/JIRA_Schedule_review-March-13-2026.md]]
 - **Closing priority.** With Nebraska-2 done, the team's stated focus returns to **South Dakota, then Georgia** — consistent with the [[#feb-27-2026--georgia-8-pack-base-game-confirmed-august-hard-date-june-realistic-completion|Feb-27 August-show hard date / June-realistic]] plan. [[raw/Game_Development-March-13-2026.md]]
 
+## Mar 20 2026 — the pick-3 level-progressive presentation (GC351/GC359/GC360)
+
+On the [[wiki/meetings/2026-03-20-game-development-schedule-review.md|Mar-20 game-development schedule review]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/michael-gottlieb.md|Michael]], [[wiki/people/lena.md|Lena]], [[wiki/people/juan-martinez.md|Juan]], [[wiki/people/efim-podvoiski.md|Efim]]) the team reviewed the presentation art for the **Georgia pick-3 level progressive**. [[raw/JIRA_schedule_review_Game_Development-March-20-2026.md]]
+
+- **The pick-3 progressive screen (IP535 / GC351, presented via GC359 + GC360).** GC351 is described as the **"pick 33" level progressive for Georgia**; GC359/GC360 are how it will look. Design language: **color-coded "liquid glass"** progressive meters, a subtle animated background bringing the meters forward, and a **prominent coin-flying-to-the-proper-slot** special effect (with a substantial win effect when you get three). Michael and Lena said they were happy with it after tweaks; Val approved — "clean and comprehendible… no comments." (Visual-design detail on [[wiki/topics/slot-game-design-principles.md]], Mar-20.) [[raw/JIRA_schedule_review_Game_Development-March-20-2026.md]]
+- **The selling point = a guaranteed progressive.** Michael stressed "progressive" deliberately: in the old model you would pick from the bin or the progressive hid in the peach bonus and you often just got a **credit value**; here **you are guaranteed to land one of the progressives**. The grand is **scripted** — it will come up once or twice to build anticipation even though the player can't actually win it. [[raw/JIRA_schedule_review_Game_Development-March-20-2026.md]]
+
 ## Georgia-operator briefings (2026)
 
 Alongside the Feb-9 Diamond partnership, JVL prepared a set of **operator-profile briefings** for its 2026 Georgia meeting cycle — pre-meeting reference documents on the state's larger COAM masters. Three are captured here, each with its own org page: [[wiki/organizations/aks-amusement.md|AKS Amusement]], [[wiki/organizations/diamond-amusement.md|Diamond Amusement]], and [[wiki/organizations/inamax-ultra.md|Inamax / Ultra]]. Together they give the clearest cross-operator read of the master landscape and JVL's footprint within it. [[raw/georgia_operator_briefing_AKS.md]] [[raw/georgia_operator_briefing_Diamond_Amusement.md]] [[raw/georgia_operator_briefing_Inamax_Ultra.md]]
@@ -324,6 +331,7 @@ Alongside the Feb-9 Diamond partnership, JVL prepared a set of **operator-profil
 
 ## Sources
 
+- [[raw/JIRA_schedule_review_Game_Development-March-20-2026.md]]
 - [[raw/JIRA_Schedule_review-March-13-2026.md]]
 - [[raw/Game_Development-March-13-2026.md]]
 - [[raw/Game_Development-February-27-2026.md]]

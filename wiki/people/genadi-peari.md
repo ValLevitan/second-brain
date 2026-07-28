@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena]
-source-count: 56
+source-count: 57
 ---
 
 # Genadi Peari
@@ -201,6 +201,10 @@ On a garbled Russian one-on-one with Val ([[wiki/meetings/2026-03-11-flex-recycl
 - **Board debate:** Genadi wanted to **reuse JVL's own board** (it has all the functionality + lighting) rather than start a new design with [[wiki/people/evgeniy-alekseev.md|Alekseev]], arguing its cost is mostly **memory** this product doesn't need (roughly halving the price); Val pushed for something **simpler/cheaper** and left it to a features discussion. He noted an **ARM + cheap-chip** path costs less than the FlexPort memory alone. [[raw/Flex-Recyler-Slim-Meeting-March-11-2026.md]]
 - **Undertakings:** finish the current tooling release (~1–2 days) then push the recycler slim; add a **scanner**; and **send Val the render** so Val can compose the feature list. Full device substance and Val's cheap-BOM/recurring-revenue economics on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Mar-11). §15.8 clear. [[raw/Flex-Recyler-Slim-Meeting-March-11-2026.md]]
 
+## Mar 20 2026 — SR&ED project list (hardware R&D)
+
+On the [[wiki/meetings/2026-03-20-sred-progress-review.md|Mar-20 SR&ED progress review]] (Russian; with [[wiki/people/val-levitan.md|Val]], [[wiki/people/efim-podvoiski.md|Efim]], [[wiki/people/lena.md|Lena]]) Genadi represented the **hardware** R&D for JVL's 2025 SR&ED claim. He said he **already had his project list compiled** and did not need the maximum spread "because I don't have many people to attach" to it, and flagged a couple of thin-2025 items — a platform effort and some year-end **RockChip-chip** activity — as **better deferred to the 2026 claim** where the real work falls. *(Attribution of labour/hours to projects; no pay figures — §15.8 clear.)* See [[wiki/topics/sred-tax-credit.md]] (Mar-20). [[raw/SREDs_progress_review-March-20-2026.md]]
+
 ## Sources
 
 - [[raw/Flex-Recyler-Slim-Meeting-March-11-2026.md]]
@@ -259,3 +263,4 @@ On a garbled Russian one-on-one with Val ([[wiki/meetings/2026-03-11-flex-recycl
 - [[raw/industrial_design_update-may-20-2025.md]]
 - [[raw/flex-port_flex-pay_smib_update-may-20-2025.md]]
 - [[raw/about_tickets_redemption-gcoam-june-18–2025.md]]
+- [[raw/SREDs_progress_review-March-20-2026.md]]

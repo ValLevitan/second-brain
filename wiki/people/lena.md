@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna, Selena, Elena]
-source-count: 44
+source-count: 46
 open-commitments: 1
 ---
 
@@ -189,6 +189,10 @@ On the [[wiki/meetings/2026-03-13-game-development-review.md|Mar-13 game-develop
 
 On a short Russian call ([[wiki/meetings/2026-03-17-ip-89-dashboard-grooming.md]], 3:54pm; with [[wiki/people/val-levitan.md|Val]] and [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]) to clean up the **IP-89** dashboard, Lena pushed for **automation to archive a whole product plus all its child issues/stories in one move** (rather than by hand) and asked to standardize the Jira statuses/resolutions to match current work — the operational follow-through on her Mar-13 "add a completed stage before done" chore. See [[wiki/topics/github-release-management-pipeline.md]] (Mar-17). [[raw/Grooming Dashboard for IP-89-March-17-2026.md]]
 
+## Mar 20 2026 — SD VLT production lead; the "waiting for Anton" clarification; SR&ED
+
+Two Mar-20 calls. On the **[[wiki/meetings/2026-03-20-game-development-schedule-review.md|game-development schedule review]]** Lena reported production actively focused on **IP40059 South Dakota VLT** (Rodeo Spins/Clover Fortune done, La Rosa near done on the Gold Nugget presentation), that **Dragon Pays (IP997)** is her next assignment, and that assets for **Kulkitkinen / Cool Cat Kino** are ready and just await [[wiki/people/anton-leshkevich.md|Anton]] to assemble. Val pressed whether Anton was a **bottleneck**; Lena clarified he is **not a stopper** — she has plenty of other work, it was "a wrong expression." She is the designated **consent-holder for the 3–6-month JIRA backlog band** under Val's new grooming policy and voiced concern about deleting detailed shelved projects (e.g. Fortune Foo Paws). Design detail on [[wiki/topics/slot-game-design-principles.md]] and SD status on [[wiki/projects/south-dakota-vlt-market.md]] (Mar-20). On the **[[wiki/meetings/2026-03-20-sred-progress-review.md|SR&ED progress review]]** she was present as a game-design/R&D lead while the team compiled the 2025 project list — see [[wiki/topics/sred-tax-credit.md]] (Mar-20). [[raw/JIRA_schedule_review_Game_Development-March-20-2026.md]] [[raw/SREDs_progress_review-March-20-2026.md]]
+
 ## Sources
 
 - [[raw/Grooming Dashboard for IP-89-March-17-2026.md]]
@@ -236,3 +240,5 @@ On a short Russian call ([[wiki/meetings/2026-03-17-ip-89-dashboard-grooming.md]
 - [[raw/game_design-may-8-2025.md]]
 - [[raw/Games_design-june-19-2025.md]]
 - [[raw/Game_Dev-February-6-2026.md]]
+- [[raw/JIRA_schedule_review_Game_Development-March-20-2026.md]]
+- [[raw/SREDs_progress_review-March-20-2026.md]]

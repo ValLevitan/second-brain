@@ -4,7 +4,7 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 23
+source-count: 24
 open-commitments: 9
 open-questions: 0
 ---
@@ -166,9 +166,18 @@ On the [[wiki/meetings/2025-09-15-echo-distribution-marketing-update.md|Sept-15 
 
 On the [[wiki/meetings/2025-09-16-echo-marketing-influencer-sourcing.md|Sept-16 update]] (Russian; session 2 of the series) Andrei detailed his **influencer-sourcing method** (guns via 4 brand categories → collaborators; Valeria on horses; two arcade collectors responded, one at **$750/Reel+2 stories**), the **Amazon visual→search ad shift** (via a call with [[wiki/people/fedor.md|Fedor]]; visual cart-cost ~2× search; a "gaming equipment" $100/day locomotive broken by Amazon since Friday), pricing experiments (Prime-Day ~$2,990), a **June-2026** mental deadline to know if the product sells at a viable price, the plan to **intercept distributor web traffic** via Google, a full **website walk-through** (ECHO page $4,500/$6,000; Flex temp page $638 + $1,500 video; AR feature; $166/mo 0%-APR message), and the **Abfluence** influencer-tool trial ($660/mo, parked as too early). Val coached the premium-collector targeting again. Full detail on [[wiki/topics/echo-home-gaming-device.md]] (Sept-16). [[raw/echo_distribution_marketing_update-september-16-2025.md]]
 
+## Mar 20 2026 — role change: Product Manager, Transactional Equipment (role evolution)
+
+On a short Val↔[[wiki/people/juan-martinez.md|Juan Martinez]] call ([[wiki/meetings/2026-03-20-andrei-klimovich-product-manager-role.md]], 7:43pm) Val announced that **as of April 26** Andrei Klimovich changes position **from "head of sales, amusement" to Product Manager, Transactional Equipment.** [[raw/Andrei_Klimovich_Product_Manager_Transactional_Equipment-March20-2025.md]]
+
+- **New brief:** be **customer/market-facing** — gather **market requirements** and **develop and manage the product capabilities** of JVL's transactional equipment (the FlexPort / FlexPay / POS / Tower / recycler line — see [[wiki/topics/flexpay-business-architecture-payout-devices.md]]), focused on **three markets: Texas, Georgia and Nebraska**. Val expects it to also feed **direct marketing**. [[raw/Andrei_Klimovich_Product_Manager_Transactional_Equipment-March20-2025.md]]
+- **Reporting:** **dual reporting** — one branch to [[wiki/people/juan-martinez.md|Juan]], one to [[wiki/people/val-levitan.md|Val]]. Juan endorsed the move ("competent person… good news, Val"). [[raw/Andrei_Klimovich_Product_Manager_Transactional_Equipment-March20-2025.md]]
+- **This is a role evolution, not a new person.** It develops the same Andrei Klimovich whose recent work was **amusement/ECHO sales** ("what he has done in the death-spiralling amusement industry"); it is consistent with JVL's [[wiki/decisions/2025-07-15-exit-online-focus-transactional.md|July-2025 decision to exit online and refocus on transactional]] — his commercial energy moves from online/amusement onto the transactional-equipment product. (His §4 disambiguation tag "online-games commercial" is retained as the historical resolve-by-context marker.) [[raw/Andrei_Klimovich_Product_Manager_Transactional_Equipment-March20-2025.md]]
+
 ## Sources
 
 - [[raw/echo_distribution_marketing_update-september-16-2025.md]]
+- [[raw/Andrei_Klimovich_Product_Manager_Transactional_Equipment-March20-2025.md]]
 - [[raw/echo_distribution_marketing_update-september-15-2025.md]]
 - [[raw/Echo_home_amusement-recap-align.md]]
 - [[raw/andrei_klimovich_echo_status_update_2025-07-09.md]]
