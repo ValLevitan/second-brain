@@ -60,3 +60,7 @@ Format: `raw/<skipped file>` — source of record `raw/<cited fuller file>` — 
 
 ### Out-of-scope exclusions (non-JVL content — not ingested, not a §12 dup)
 - `raw/koenigsegg_regera-verbal_orgasm-may-21-2025.md` — **OUT OF SCOPE (not a JVL meeting).** A YouTube-style narration/review of the Koenigsegg Regera hypercar ("…a bunch of Swedish engineers… 1,500 horsepower"), mis-filed into the May-2025 transcripts folder. Not a JVL business meeting, not §15.8-sensitive — simply off-topic per §1 scope. Excluded (recorded here so the pending-sweep and full-year no-file-loss audit don't re-flag it). Found in the 2025-complete full-year sweep, 2026-07-20.
+
+### Out-of-scope media (owner ruling 2026-07-27 — v1 is text-only)
+
+- `GitHub_Ways_Config_Integrations-March-16-2026.jpg` — out-of-scope media (v1 is text-only, owner ruling 2026-07-27); vault location: obsidian-jvl/Transcripts-JVL/2026/03_March/GitHub_Ways_Config_Integrations-March-16-2026.jpg — NOT staged to raw/, recorded per §1.

@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 44
+source-count: 47
 open-commitments: 10
 open-questions: 8
 ---
@@ -284,6 +284,17 @@ On the [[wiki/meetings/2026-03-13-game-development-review.md|Mar-13 game-develop
 - **IP1028 Georgia COAM sits in backlog.** [[wiki/people/lena.md|Lena]] created **IP1028 (Georgia COAM)** as a placeholder for the next design-stage work but has **not scheduled it** yet — it moves to design as the pick-3 / line-riches concepts finish. Val confirmed it is correctly parked in backlog. [[raw/JIRA_Schedule_review-March-13-2026.md]]
 - **Closing priority.** With Nebraska-2 done, the team's stated focus returns to **South Dakota, then Georgia** — consistent with the [[#feb-27-2026--georgia-8-pack-base-game-confirmed-august-hard-date-june-realistic-completion|Feb-27 August-show hard date / June-realistic]] plan. [[raw/Game_Development-March-13-2026.md]]
 
+## Georgia-operator briefings (2026)
+
+Alongside the Feb-9 Diamond partnership, JVL prepared a set of **operator-profile briefings** for its 2026 Georgia meeting cycle — pre-meeting reference documents on the state's larger COAM masters. Three are captured here, each with its own org page: [[wiki/organizations/aks-amusement.md|AKS Amusement]], [[wiki/organizations/diamond-amusement.md|Diamond Amusement]], and [[wiki/organizations/inamax-ultra.md|Inamax / Ultra]]. Together they give the clearest cross-operator read of the master landscape and JVL's footprint within it. [[raw/georgia_operator_briefing_AKS.md]] [[raw/georgia_operator_briefing_Diamond_Amusement.md]] [[raw/georgia_operator_briefing_Inamax_Ultra.md]]
+
+- **Master landscape (2026 decal rankings).** Georgia's COAM market is ranked by decals assigned. The three profiled masters: **Inamax / Ultra — 1,140 decals, ~228 locations, ~#5 statewide** (large); **Diamond Amusement — 1,002 decals, ~200 locations, ~#6** (large); **AKS Amusement — 510 decals, ~102 locations, ~#18** (medium–large). Location counts are briefing estimates using the ~5-machines-per-location typical GA configuration. Inamax is the most operationally sophisticated group and a "reference operator" (what it standardizes on tends to spread to smaller operators); Diamond is highly influential (its CEO, Shawn/Sean Fellows, is a two-term ex-GAMOA President). [[raw/georgia_operator_briefing_Inamax_Ultra.md]] [[raw/georgia_operator_briefing_Diamond_Amusement.md]] [[raw/georgia_operator_briefing_AKS.md]]
+- **JVL Flex deployments (direct purchases).** All three run JVL Flex cabinets: **AKS — 29 Flex D27 + 9 Flex V43** (the latest V43 buy tied to a trade-in); **Inamax — 26 Flex D27 + 8 Flex V43 + 1 Echo COAM**; **Diamond — 18 Flex D27 + 6 Flex V43** (recent). [[raw/georgia_operator_briefing_AKS.md]] [[raw/georgia_operator_briefing_Inamax_Ultra.md]] [[raw/georgia_operator_briefing_Diamond_Amusement.md]]
+- **Indirect / legacy exposure and Altera-R.** Beyond direct sales, JVL's footprint grows through **route acquisitions and cabinet transfers**. Diamond controls multiple **legacy JVL units** from route purchases (footprint growing via acquisitions since 2024). **AKS** holds **Altera-R units and additional Flex cabinets acquired indirectly** through cabinet transfers and split-order distribution from other masters (e.g. Dynamic Games LLC orders split across AKS and Dynamic); AKS's briefing also ties it to the Lucky Bucks-adjacent smaller-master ecosystem. **Inamax** does **not** appear to hold significant additional JVL units via third-party / route acquisitions (briefing flags this as unconfirmed and worth validating). [[raw/georgia_operator_briefing_Diamond_Amusement.md]] [[raw/georgia_operator_briefing_AKS.md]] [[raw/georgia_operator_briefing_Inamax_Ultra.md]]
+- **The upgrade-for-data / nudge thread.** After AKS's trade-in, [[wiki/people/felipe-miranda.md|Felipe]] pitched the newest software package (including the newly designed **Nudge feature**) to AKS CEO Zahir and agreed **in principle to a no-charge software upgrade conditional on AKS supplying location-level Georgia Lottery performance reports** for all machines. This upgrade-for-data structure connects directly to the **Feb-18 plan (above)** to match machine serial numbers and drive the game-package swap + 92%-RTP revert across the **four operators (Inamax, Diamond, Allinson, AKS)**. [[raw/georgia_operator_briefing_AKS.md]] [[raw/To-Do_Georgia_meetings-February-18-2026.md]]
+- **Nebraska cross-jurisdiction (Inamax).** Inamax CFO Ray Cosentino is interested in **testing JVL units in Nebraska under Inamax's Nebraska skill software**; Felipe has already introduced Ray to [[wiki/people/juan-martinez.md|Juan]] by email to keep that trial coordination moving — a parallel to the broader Nebraska-vertical work on this page. [[raw/georgia_operator_briefing_Inamax_Ultra.md]]
+- **Relationship / support burden.** JVL's relationships across the three are positive; support load tracks operator maturity — **AKS ~70–90 inbound service calls (2025–26)**, **Diamond ~60–80 (2025–26)**, **Inamax ~10 (2024–25, mostly hard resets)**, the last a notably low burden (JVL also sent technician Andres to Inamax's warehouse twice in 2024 for CPU-board fixes). The key open executive item is the **Inamax constraint** — why its JVL purchasing stays limited relative to its large footprint despite no performance complaints, gated by ops-manager Ashley Gunther's product approval (tracked on the [[wiki/organizations/inamax-ultra.md|Inamax / Ultra]] page). [[raw/georgia_operator_briefing_AKS.md]] [[raw/georgia_operator_briefing_Diamond_Amusement.md]] [[raw/georgia_operator_briefing_Inamax_Ultra.md]]
+
 ## Open commitments
 
 - [ ] [[wiki/people/juan-martinez.md|Juan]] — decide the final **Georgia Vertical 2 initial-release game count** (8 vs 10); Val's 8-game position and reasoning are on record — due unspecified — [[raw/Game_Development_transcript_game_review-February-19-26.md]] [[raw/Games_Design_Meeting_open_items_feb19_2026.md]]
@@ -357,3 +368,6 @@ On the [[wiki/meetings/2026-03-13-game-development-review.md|Mar-13 game-develop
 - [[raw/Game_Development_transcript_game_review-February-19-26.md]]
 - [[raw/Games_Design_Meeting_review_feb19_2026_v3.md]]
 - [[raw/Games_Design_Meeting_open_items_feb19_2026.md]]
+- [[raw/georgia_operator_briefing_AKS.md]]
+- [[raw/georgia_operator_briefing_Diamond_Amusement.md]]
+- [[raw/georgia_operator_briefing_Inamax_Ultra.md]]

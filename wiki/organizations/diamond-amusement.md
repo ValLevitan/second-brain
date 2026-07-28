@@ -3,7 +3,7 @@ type: organization
 title: Diamond Amusement
 date: 2026-07-23
 aliases: [Diamond Amusement, Diamond, Diamond Amuse, Diamond Games]
-source-count: 3
+source-count: 4
 open-commitments: 3
 open-questions: 2
 ---
@@ -51,8 +51,22 @@ The same evening JVL held an **internal debrief** ([[wiki/meetings/2026-02-09-di
 
 *Note (inference): the meeting-summary auto-assigned two follow-up owners, **"Nico"** and **"Lisa,"** who do not match any known JVL person in this wiki (the only "Nico" here is a cat character on a game topper — clearly not this person). These names are recorded as they appear in the summary and left unresolved.*
 
+## Operator briefing (2026)
+
+A JVL operator briefing prepared for the 2026 meeting cycle profiles Diamond as a **mature, well-organized operator with over 30 years in the Georgia COAM market** and significant market influence. Leadership named in the briefing: CEO **Shawn Fellows** (the "Sean Fellows" of this page), COO **Terry Spivey**, and head warehouse technician **Terra Horton**. Shawn previously served **two terms as President of GAMOA** and remains active in industry advocacy through AMOA; Terry Spivey is also very active in Georgia industry matters, particularly through GAMOA initiatives. [[raw/georgia_operator_briefing_Diamond_Amusement.md]]
+
+- **Scale (2026):** 1,002 decals assigned; ~200 estimated locations (briefing estimate at ~5 machines/location typical GA); a **large operator, approximately #6 statewide**. Diamond has grown through acquisitions of smaller routes, particularly **since 2024**, expanding its footprint and increasing the number of legacy JVL units under its control. [[raw/georgia_operator_briefing_Diamond_Amusement.md]]
+- **Relationship:** friendly with Shawn, operational alignment with COO Terry Spivey, and active technical collaboration with head technician Terra Horton. Diamond has upgraded several cabinets to the **latest Dual SAS configuration**, and JVL worked closely with their technical team to accelerate field deployment and minimize downtime. JVL ran a **dedicated technician training session at Diamond's office on January 28, 2026** to improve field troubleshooting. [[raw/georgia_operator_briefing_Diamond_Amusement.md]]
+- **Purchase history:** recent direct purchases of **18 Flex D27** and **6 Flex V43** cabinets, plus multiple **legacy JVL units controlled through route purchases** rather than direct sales. [[raw/georgia_operator_briefing_Diamond_Amusement.md]]
+- **Technical / service notes:** experienced, responsive technical team; demonstrated willingness to adopt upgrades (Dual SAS conversion); good collaboration on deployment timelines; no major unresolved service escalations currently noted. Service history: an estimated **60–80 inbound service calls between 2025 and 2026** (constant call / FaceTime setup help and troubleshooting). [[raw/georgia_operator_briefing_Diamond_Amusement.md]]
+
+The briefing reinforces the strategic read already on this page — Diamond's industry influence makes it a valuable **reference operator**, its growth via route acquisition increases JVL's indirect footprint, and continued technical engagement strengthens relationship stability. See [[wiki/projects/georgia-market-rollout.md]] and the related Georgia masters [[wiki/organizations/aks-amusement.md|AKS Amusement]] and [[wiki/organizations/inamax-ultra.md|Inamax / Ultra]]. [[raw/georgia_operator_briefing_Diamond_Amusement.md]]
+
+*Note (reconciliation): the briefing's direct-purchase count (24 recent Flex cabinets) is distinct from — and complementary to — the ~41 total JVL units deployed at Diamond cited in the Feb-9-2026 interview/debrief, which include legacy route-acquired units.*
+
 ## Sources
 
 - [[raw/Diamond_Shawn_Fellows_interview-February-9-2026.md]]
 - [[raw/Exec_recap_Diamond_Amusement-February-9-2026.md]]
 - [[raw/felipe_georgia_market_update-may-29-2025.md]]
+- [[raw/georgia_operator_briefing_Diamond_Amusement.md]]
