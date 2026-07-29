@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 101
+source-count: 103
 open-commitments: 7
 open-questions: 0
 ---
@@ -271,6 +271,10 @@ On the [[wiki/meetings/2026-03-04-schedule-review.md|Mar-4 schedule review]] (wi
 
 On the [[wiki/meetings/2026-03-05-nebraska-schedule-review.md|Mar-5 4:13pm Nebraska schedule review]] (Russian; with [[wiki/people/val-levitan.md|Val]] and [[wiki/people/irina-shishko.md|Irina Shishko]]) Pavel ("Pasha") is the "+1 other" on the recording — he walks Val through where features live in JIRA (core / game-production / application) and how tasks are linked, then **leaves partway through** ("мне надо убегать") to another commitment, handing the remaining walkthrough to Irina. As the engineering owner he is where the Nebraska feature/story assignments land (dual box → Yulia, then Anton's implementation story). See [[wiki/projects/nebraska-skill-market.md]] (Mar-5). [[raw/Schedule_review_Nebraska-March-5-2026.md]]
 
+## Mar 5 2026 — the North America ↔ Minsk communication breakdown (with Val)
+
+On a Mar-5 exchange with [[wiki/people/val-levitan.md|Val]] about the North-America↔Minsk feedback problem, Pavel largely **agreed with the diagnosis** but added important context: on genuinely contentious issues Minsk does not stay silent (it initiates live meetings), and roughly **90% of decisions on services and the GUI went through Val, Juan and the team over several iterations** — so two-way dialogue exists but is not systematic. He reframed the structure: feedback loops **do** exist but are **fragmented by level** (an executive loop; developer/QA/Pavel-Irina loops) with signals travelling poorly between segments in a hierarchical model that filters at each layer. He conceded the sharpest gap is **architectural decisions percolated in Minsk being usually undocumented**, and that small local decisions accumulate into changes later read as deviations from requirements. He expressed genuine willingness to improve and simplify processes and add transparency. Full substance on [[wiki/topics/minsk-team-communication.md]]. See [[wiki/meetings/2026-03-05-communication-breakdown-minsk.md]]. §15.8 clear. [[raw/communication_break_down_Minsk-March-5-2026.md]] [[raw/Mutual_standing-Communication_breakdown_Minsk.md]]
+
 ## Mar 26 2026 — Initiative Priority Schedule (owns the kernel + freeze fix)
 
 On the two-segment [[wiki/meetings/2026-03-26-initiative-priority-schedule.md|Initiative Priority Schedule]] meeting (with [[wiki/people/val-levitan.md|Val]] and [[wiki/people/irina-shishko.md|Irina Shishko]]) Pavel is the engineering owner: he **reproduced the machine freeze** with a deliberate kernel-hang function (always a kernel crash / hung screen), diagnosed likely **GPU-related kernel bugs** in the current 4.19 kernel, and argued for the **kernel-panic auto-reboot parameter (Option 4)** plus the shipped CPU watchdog over an external watchdog chip (Option 2 — differs per board revision, edge-case-prone). He owns the **kernel 5.15 build**, config-parameter tuning and integration (~2–3 days build + up to ~2 weeks testing), with [[wiki/people/andrey-bosik.md|Andrey Bosik]] mirroring the kernel sources to GitHub in parallel. He also drove the Maple-refit engineering (buy 2 test TVs locally). See [[wiki/topics/github-release-management-pipeline.md]] (Mar-26) and the dedicated [[wiki/topics/egm-freezing-investigation.md]] (Pavel is the lead engineer across the Mar-9→13 investigation). [[raw/Meeting_Transcript_initiative_priority_schedule-1-March-26-2026.md]] [[raw/Meeting_Transcript_initiative_priority_schedule-2-March-26-2026.md]] [[raw/Meeting_Notes_initiative_priority_schedule-March-26-2026.md]]
@@ -281,6 +285,8 @@ Pavel attended the [[wiki/meetings/2026-03-27-review-of-engineering-guides.md|Re
 
 ## Sources
 
+- [[raw/communication_break_down_Minsk-March-5-2026.md]]
+- [[raw/Mutual_standing-Communication_breakdown_Minsk.md]]
 - [[raw/Meeting_Transcript_Review_of_Engineering_Guides-March-27-2026.md]]
 - [[raw/Meeting_Notes_Review_of_Engineering_Guides-March-27-2026.md]]
 - [[raw/Meeting_Transcript_OMNI_Architecture_Challenge-March-27-2026.md]]

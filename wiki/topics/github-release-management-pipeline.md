@@ -3,7 +3,7 @@ type: topic
 title: GitHub release management and the CI/CD release pipeline
 date: 2025-10-21
 aliases: [release management, release pipeline, CI/CD, GitHub Actions pipeline, release artifacts, ISO image release, release manager role, continuous delivery, flex os installer, manifest, release candidate, single source of truth, feature branch discipline, sprints vs kanban, Jira GitHub link, FlexPos IP 902, FP 519, IP 89 dashboard grooming, bulk archive automation, Jira resolutions cleanup]
-source-count: 16
+source-count: 17
 open-questions: 2
 ---
 
@@ -91,6 +91,15 @@ The [[wiki/meetings/2026-03-10-jira-github-transparency.md|Mar-10 ~50-min call]]
 - **The dashboard demo — no equivalent from GitHub.** Val screen-shared the **"Game production examples dashboard"** (JIRA, project **IP 89**), which he judged ~75% accurate, and pointed to **464 open tasks** and a velocity line implying barely ~1.5 tasks resolved per week. Bosik diagnosed a **bottleneck** ("either we generate too many tasks or people handle them poorly"). Val's pointed question: can Bosik provide the same analytics **from GitHub right now?** Bosik: no — he has personal scripts producing some analytics, but tied to his own engineering interests, not this. Val: exactly — that missing transparency is the whole point. With it, he could ask a qualified person (e.g. [[wiki/people/lena.md|Lena]]) an intelligent question: why 464 open — are they actually complete but never moved to Done status? [[raw/Transparency_alignment_JIRA_GitHub-March-10-2026.md]]
 - **The report parameters to nail down.** Bosik's practical ask: agree the metric — **Stories with no commit over an interval** (per day, per week, or **two indicators** at both intervals). Val's framing of the deliverable: build a **framework that surfaces this data**, then start asking why — maybe Stories are written badly, maybe work JVL thinks takes hours actually takes weeks. [[raw/Transparency_alignment_JIRA_GitHub-March-10-2026.md]]
 
+## Mar 12–13 2026 — the full-company branch-audit snapshot (reference)
+
+A one-off **GitHub branch audit** [[wiki/people/andrey-bosik.md|Andrei Bosik]] ran on **Mar 12** and emailed Val on **Mar 13** — the manual snapshot behind the branch-hygiene enforcement thread, and the direct predecessor of the automated **weekly branch-audit report** that replaced it on [[wiki/meetings/2026-03-30-it-follow-up-reports-code-review.md|Mar-30]] (same three "improper-branch" categories). Recorded here as a **derived/secondary reference** — a data snapshot, not new decisions; it does not restate the Mar-9/10 enforcement-mechanism discussion. [[raw/GitHub_Branch_Audit-Full_Company_Overview.md]]
+
+- **Scope and headline hygiene.** Two GitHub organizations were audited — **JVL-Core (58 repos)** and **JVL-Games (23 repos)** = **81 repos**, holding **116 non-default branches**; a cleanup deadline of Mar 20 was set. Of the 81 repos, **49 were clean** (only `main`) and **32 carried extra branches**. Of the 116 branches, **63% were linked to Jira** and **37% had no Jira link**; by activity, **34% active (<30 days), 15% stale (30–90 days), and 52% dead (>90 days).** [[raw/GitHub_Branch_Audit-Full_Company_Overview.md]]
+- **The key finding.** Of the 73 Jira-linked branches, only **14 (19%) were actually In Progress**, while **44 (60%) were tied to already-Completed/Closed/Done/Resolved/Published Jira tasks** — i.e. most linked branches should already have been closed. [[raw/GitHub_Branch_Audit-Full_Company_Overview.md]]
+- **The three improper-branch categories** (the same taxonomy the Mar-30 automated report later used): (1) **Jira task already Complete/Closed but the branch is still open — 53 branches** (the oldest ~321 days); (2) **no commits for over 90 days and the Jira task not completed — 5 branches**; (3) **no Jira link at all — 52 branches** (the oldest ~581 days). Total flagged: **~110 branches.** [[raw/GitHub_Branch_Audit-Full_Company_Overview.md]]
+- **Distribution and handling.** Branch counts concentrated in a few authors (the per-author summary led with Dmitry Chudinov 29, Alexander Biratko 18, Dmitriy Khandov 12, Sergey Tsymanov 9). Cleanup emails were sent to **15 people**; five were **excluded** from the emails (Nathan Carver, Aaron Bockelie, Andrew Khandov, Alexander Korochkin, Eugine Yavorski). The report's "garbage branches" wording is what Val later directed [[wiki/people/andrey-bosik.md|Andrei]] to rename **"improper branches"** on [[wiki/meetings/2026-03-30-it-follow-up-reports-code-review.md|Mar-30]]. [[raw/GitHub_Branch_Audit-Full_Company_Overview.md]]
+
 ## Mar 16 2026 — tearing down the Jira "ISO" release project; git tags become the release record
 
 A short segment of the [[wiki/meetings/2026-03-16-release-procedure-and-eng-documentation-flow.md|Mar-16 Aaron↔Val call]] (recording header 12:07pm, 7m35s) turned the "git is the source of truth" principle into a concrete teardown procedure. This is the practical follow-through on the Oct-2025 note that [[wiki/people/ivan.md|Ivan]]'s old habit of tracking release numbers in Jira "is being dropped — he now references GitHub." [[raw/Aaron_Val-release_procedure_GitHub-March-16-2026.md]]
@@ -152,6 +161,7 @@ On the [[wiki/meetings/2026-03-30-it-follow-up-reports-code-review.md|Mar-30 IT 
 - [[raw/Aaron_Val-March-09-2026.md]]
 - [[raw/Transparency_alignment_JIRA_GitHub-March-10-2026.md]]
 - [[raw/JIRA_GitHub_transparency-Draft-March-10-2026.md]]
+- [[raw/GitHub_Branch_Audit-Full_Company_Overview.md]]
 - [[raw/Aaron_Val-release_procedure_GitHub-March-16-2026.md]]
 - [[raw/Grooming Dashboard for IP-89-March-17-2026.md]]
 - [[raw/Meeting_Transcript_initiative_priority_schedule-1-March-26-2026.md]]
