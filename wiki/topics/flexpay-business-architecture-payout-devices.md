@@ -3,7 +3,7 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS]
-source-count: 85
+source-count: 88
 open-commitments: 32
 open-questions: 4
 ---
@@ -678,6 +678,16 @@ A garbled Russian Val↔[[wiki/people/genadi-peari.md|Genadi Peari]] one-on-one 
 
 On a short Val↔[[wiki/people/juan-martinez.md|Juan Martinez]] call ([[wiki/meetings/2026-03-20-andrei-klimovich-product-manager-role.md]], recording header 07:43pm), Val announced that as of **April 26** [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] moves **from "head of sales, amusement" to Product Manager, Transactional Equipment** — the first person dedicated to the commercial/product-management side of JVL's transactional gear (the FlexPort / FlexPay / POS / Tower / recycler line this topic covers). His brief: **gather market requirements and develop/manage the product capabilities** of transactional equipment from a customer/market perspective, across **Texas, Georgia and Nebraska**, with **dual reporting** to Juan and to Val. This complements the [[#feb-25-2026--packaging-into-production-parts-to-china-vals-texas-flexport-go-to-market-strategy|Feb-25]] / Feb-9–10 Georgia go-to-market work (which had defined the *selling model*) by putting an owner on the *product* side. Role detail on [[wiki/people/andrei-klimovich.md]] (Mar-20). [[raw/Andrei_Klimovich_Product_Manager_Transactional_Equipment-March20-2025.md]]
 
+## Apr 6 2026 — Flex-POS release convergence: the Orchestration-Platform service landscape
+
+On the [[wiki/meetings/2026-04-06-flex-pos-scheduling-gap-analysis.md|Apr-6 scheduling-gap session]], [[wiki/people/pavel.md|Pavel Frolov]] walked the full set of microservices that must converge for a Flex-POS release, each with its Jira "IP" number and owner (the release-schedule and Jira-dependency angle is on [[wiki/topics/github-release-management-pipeline.md]] (Apr-6)). [[raw/Meeting_Transcript_Flex-POS_Scheduling_Gap_Analysis-1-April-6-2026.md]] [[raw/Meeting_Notes_Flex-POS_Scheduling_Gap_Analysis-April-6-2026.md]]
+
+- **Services under the Orchestration Platform** (owners as stated by Pavel): **IP-10-01 Terminal Hub Service** ([[wiki/people/dmitri-chudinov.md|Dima]] & [[wiki/people/sergey-tsymanov.md|Sergei]]) — registers Flex-POS terminals and future terminals; the binding layer. **IP-10-02 Customer Management** (Dima & Sergei) — creating customers, linking plates, customer data. **IP-10-11 Location Management Service** (Dima & Sergei) — binds payment terminals to locations, provides a client GUI and notifications (e.g. payment failures). **IP-10-15 Location Billing & Timing** ([[wiki/people/nathan-carver.md|Nathan]]). **IP-6-32 Payment Hub Web Service** (Nathan) — issues cards for a specific terminal/location. [[raw/Meeting_Transcript_Flex-POS_Scheduling_Gap_Analysis-1-April-6-2026.md]] [[raw/Meeting_Notes_Flex-POS_Scheduling_Gap_Analysis-April-6-2026.md]]
+- **Flex-POS proper and hardware:** **IP-902 Flex-POS** ([[wiki/people/dmitri-chudinov.md|Dima]], primarily) — the Flex-POS application on the **RK3568** platform; **IP-977** the RK3568 development infrastructure; **IP-955 Flex-POS as a device** ([[wiki/people/genadi-peari.md|Genadi]]) — the hardware-side work on the physical device. [[raw/Meeting_Transcript_Flex-POS_Scheduling_Gap_Analysis-1-April-6-2026.md]] [[raw/Meeting_Notes_Flex-POS_Scheduling_Gap_Analysis-April-6-2026.md]]
+- **Release-date risk:** with the current Jira assignment concentrated on Dima, Val judged the **May 1** target unreachable (August/September more likely) unless the load is broken up and redistributed — see [[wiki/topics/github-release-management-pipeline.md]] (Apr-6). [[raw/Meeting_Transcript_Flex-POS_Scheduling_Gap_Analysis-2-April-6-2026.md]]
+
+*(IP numbers recorded verbatim from Pavel's spoken walk-through; service→owner mapping as stated in-meeting.)*
+
 ## Open commitments
 
 - [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — finish the current tooling release (~1–2 days) then push the **Flex Recycler Slim** (the "sailer"/slim recycler); finish the drawings and send to the pricing vendor; add a **scanner**; and **send Val the render** so Val can compose the feature list — due ~mid-Mar 2026 — [[raw/Flex-Recyler-Slim-Meeting-March-11-2026.md]]
@@ -810,3 +820,6 @@ On a short Val↔[[wiki/people/juan-martinez.md|Juan Martinez]] call ([[wiki/mee
 - [[raw/Andrei_Klimovich_Product_Manager_Transactional_Equipment-March20-2025.md]]
 - [[raw/Genadi_Review_draft_questions_FlexPort_IP-578-March-4-2026.md]]
 - [[raw/Genadi_reply_to_Val_questions_FlexPort_IP-578-March-4-2026.md]]
+- [[raw/Meeting_Transcript_Flex-POS_Scheduling_Gap_Analysis-1-April-6-2026.md]]
+- [[raw/Meeting_Transcript_Flex-POS_Scheduling_Gap_Analysis-2-April-6-2026.md]]
+- [[raw/Meeting_Notes_Flex-POS_Scheduling_Gap_Analysis-April-6-2026.md]]

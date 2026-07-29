@@ -100,6 +100,10 @@ Format: `raw/<skipped file>` — source of record `raw/<cited fuller file>` — 
 ### Batch 140
 - `BOM Invoicing in Business Central-April-6-2026/README.md` — bundle-manifest/index metadata, not meeting content; substance captured via the bundle's transcript+notes — not staged, no stub.
 
+### Batch 141
+- `Flex-POS Scheduling Gap Analysis-April-6-2026/README.md` — bundle-manifest/index metadata, not meeting content; substance captured via the bundle's transcripts+notes — not staged, no stub.
+- `Multi-Repository Project Management with Claude-April-6-2026/README.md` — bundle-manifest/index metadata, not meeting content; substance captured via the bundle's transcripts+notes — not staged, no stub.
+
 ### Out-of-scope exclusions (non-JVL content — not ingested, not a §12 dup)
 - `raw/koenigsegg_regera-verbal_orgasm-may-21-2025.md` — **OUT OF SCOPE (not a JVL meeting).** A YouTube-style narration/review of the Koenigsegg Regera hypercar ("…a bunch of Swedish engineers… 1,500 horsepower"), mis-filed into the May-2025 transcripts folder. Not a JVL business meeting, not §15.8-sensitive — simply off-topic per §1 scope. Excluded (recorded here so the pending-sweep and full-year no-file-loss audit don't re-flag it). Found in the 2025-complete full-year sweep, 2026-07-20.
 
