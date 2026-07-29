@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, Copilot Studio, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest, LaTeX, printer tool, Ollama, llama.cpp, local inference, Code Llama, Hugging Face, Claude Code, AI sandwich, developer experience, think like a data scientist, sub-agents, verbose output, compiler layer, ways vs skills, ADR, cross-examination, Python Vulture, intelligence center, Waze system, ways framework, compiler stack diagram, module federation, Aaron ways system, Ways ADR, Ways capabilities catalog, regulatory provenance chain, JVL Ways pipeline, ways branch architecture, trusted stage users, clean environment lesson, engagement auditor agent, translation service, terminology override table, GitHub Enterprise fork, JVL GitHub Ways architecture guide, Capability Ticket, Jira hierarchy restructure, engineering guides, architecture black hole, Piratka]
-source-count: 76
+source-count: 78
 ---
 
 # AI-assisted development adoption
@@ -467,6 +467,16 @@ On the [[wiki/meetings/2026-03-27-automation-progress-review.md|Mar-27 automatio
 
 §15.8 clear — tooling/automation only.
 
+## Mar 30 2026 — Claude Code Review economics; expand to all repos; documentation-as-microservices idea
+
+On the [[wiki/meetings/2026-03-30-it-follow-up-reports-code-review.md|Mar-30 IT follow-up call]] ([[wiki/people/val-levitan.md|Val]] ↔ [[wiki/people/andrey-bosik.md|Andrei Bosik]]) the AI-tooling substance was the cost model for **Claude Code Review** (Andrei calls it "Claude driver" in the transcript) and a parked documentation vision: [[raw/Meeting_Transcript_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]] [[raw/Meeting_Notes_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]]
+
+- **Cost model, and the decision to expand.** Claude Code Review is currently wired to only **3 repositories** (Flex POS, Flex Dispenser, Miranda) — a PR into any other repo isn't reviewed. Recent data: **8 pull requests across those 3 repos cost ~$400**, i.e. **~$50 per PR**. Val worked the math to ~$50/feature × ~1 feature every 3–4 days ≈ **~$250–350 per developer per month**, ~$3,500/month for ~10 developers, and judged it **very cheap**. **Decision: expand Claude Code Review to all active repositories**, starting with **Flex Sport POS** (where [[wiki/people/eugine-yavorski.md|Yavorski]] works); Andrei to pick the top repos by recent activity and add them. Note Claude Code Review is a JVL-side toggle, not developer-selectable. [[raw/Meeting_Transcript_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]] [[raw/Meeting_Notes_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]]
+- **Value even at partial effectiveness.** Val argued that even at ~75% effectiveness the review is worth it, and that quality is currently limited by JVL's **undocumented code** — as documentation improves and the codebase moves off **C/C++** (the hardest language for AI review), review quality rises. Andrei was mildly skeptical it produces uniformly "clean" code. [[raw/Meeting_Transcript_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]] [[raw/Meeting_Notes_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]]
+- **Documentation-as-microservices / AI "software-architect role" (parked).** Val re-raised his idea of building engineering documentation as **microservices** with a **software-architect role prompt** that checks documentation completeness across topics (product architecture, ADRs) — he'd already sent Andrei an architect-role prompt and they'd started ADR work with Ivan. He connected it loosely to a linguistics/transcription microservice ([[wiki/people/clayton-chancey.md|Clayton]] demo booked later the same day; cf. [[wiki/meetings/2026-03-27-automation-progress-review.md|Mar-27]]) but couldn't recall the original intent of a "Management Reporting Specification" item and **parked it** to review his notes. [[raw/Meeting_Transcript_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]] [[raw/Meeting_Notes_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]]
+
+§15.8 clear — tooling cost economics only; no named-person compensation.
+
 ## History — earlier AI-consultation artifacts (undated, pre-2025)
 
 - **SolidWorks integration memo from ChatGPT:** a reference document titled "Solid work integration and the overall architecture suggestion from ChatGPT" shows JVL (before the 2025 tooling push) using ChatGPT to draft an IT-integration architecture connecting **SolidWorks** (3D CAD) with **Atlassian Jira/Confluence** and **Microsoft Business Central** — file attachments/version control of CAD files, BOM synchronization into the ERP, middleware/connectors, OAuth security, monitoring, and staged testing. The content is generic AI output (no JVL-specific decisions); its durable value is evidence that JVL's CAD/PLM–ERP–Atlassian integration question was explored via ChatGPT. Undated; consistent with the ~2023–24 Atlassian/Business-Central era of [[wiki/projects/jvl-insights-knowledge-base.md]] (inference, flagged). [[raw/solid_work_integration_and_the_overall_architecture_suggesti_2025-03-29.md]]
@@ -474,6 +484,8 @@ On the [[wiki/meetings/2026-03-27-automation-progress-review.md|Mar-27 automatio
 
 ## Sources
 
+- [[raw/Meeting_Transcript_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]]
+- [[raw/Meeting_Notes_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]]
 - [[raw/Meeting_Transcript_Review_of_Engineering_Guides-March-27-2026.md]]
 - [[raw/Meeting_Notes_Review_of_Engineering_Guides-March-27-2026.md]]
 - [[raw/Meeting_Transcript_OMNI_Architecture_Challenge-March-27-2026.md]]

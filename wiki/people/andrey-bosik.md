@@ -4,8 +4,8 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 66
-open-commitments: 7
+source-count: 68
+open-commitments: 10
 ---
 
 # Andrey Bosik
@@ -197,8 +197,20 @@ On the [[wiki/meetings/2026-03-26-initiative-priority-schedule.md|Initiative Pri
 
 On the [[wiki/meetings/2026-03-27-review-of-engineering-guides.md|Review of Engineering Guides]] Andrei argued that transcripts should be stored **tied to their project** (not one undifferentiated repo) so they aren't disconnected from context, clarified that only **text transcripts** (not audio) go to GitHub, and questioned why the proposed directory structure separates "Architecture" and "ADRs." He requested that the Engineering Guides document include a **concrete step-by-step workflow example** (meeting → transcript → AI processing → ADR extraction → repository storage), fact-based with question marks where details are unknown rather than AI speculation. He co-owns (with [[wiki/people/dmitri-kovalchuk.md|Dima]]) preparing the repository structure for the incoming Clayton/Elena transcript pipeline (~April 10). Substance on [[wiki/topics/transcript-knowledge-base-tooling.md]] + [[wiki/topics/ai-assisted-development.md]] (Mar-27). [[raw/Meeting_Transcript_Review_of_Engineering_Guides-March-27-2026.md]] [[raw/Meeting_Notes_Review_of_Engineering_Guides-March-27-2026.md]]
 
+## Mar 30 2026 — presents the automated reporting site + Claude Code Review expansion
+
+On the [[wiki/meetings/2026-03-30-it-follow-up-reports-code-review.md|Mar-30 IT follow-up call]] with Val (~39m) Andrei demoed the new consolidated **GitHub reporting site** he built — all previously-manual reports auto-generated as web pages, split into a **daily compliance report** (commits-to-main, PR-vs-direct-push, 400-line PR-size threshold, days-since-activity, reviewed-by-other) and a **weekly Monday branch-audit report** (three improper-branch categories + sanctioned/active branches + per-user summary). He accepted Val's reformatting (rename "garbage"→"improper"; red non-sanctioned block on top, green sanctioned below; consider multi-week dynamics) and the enforcement workflow (send weekly, chase non-reactors after a week). On **Claude Code Review** he supplied the ~$50/PR cost data and took the direction to expand it beyond the current 3 repos (Flex POS / Flex Dispenser / Miranda) to all active repos, starting with Flex Sport POS. Substance on [[wiki/topics/github-release-management-pipeline.md]] and [[wiki/topics/ai-assisted-development.md]] (Mar-30). [[raw/Meeting_Transcript_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]] [[raw/Meeting_Notes_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]]
+
+## Open commitments (Mar 30 2026)
+
+- [ ] Andrei Bosik — reformat + regenerate the weekly branch-audit report (improper rename, red/green split, per-user block into red) and send Val the link for review before wider distribution — due unspecified — [[raw/Meeting_Notes_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]]
+- [ ] Andrei Bosik — expand Claude Code Review to all active repositories, starting with Flex Sport POS — due unspecified — [[raw/Meeting_Notes_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]]
+- [ ] Andrei Bosik — create a main-project Jira ticket for release-process documentation (moved from Service Management) and start the conversation with Ivan Shpak and Aaron — due unspecified — [[raw/Meeting_Notes_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]]
+- [[raw/Meeting_Notes_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]]
 - [[raw/Meeting_Transcript_Review_of_Engineering_Guides-March-27-2026.md]]
 - [[raw/Meeting_Notes_Review_of_Engineering_Guides-March-27-2026.md]]
 - [[raw/Meeting_Transcript_initiative_priority_schedule-2-March-26-2026.md]]

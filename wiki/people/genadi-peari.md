@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena]
-source-count: 57
+source-count: 59
 ---
 
 # Genadi Peari
@@ -205,8 +205,14 @@ On a garbled Russian one-on-one with Val ([[wiki/meetings/2026-03-11-flex-recycl
 
 On the [[wiki/meetings/2026-03-20-sred-progress-review.md|Mar-20 SR&ED progress review]] (Russian; with [[wiki/people/val-levitan.md|Val]], [[wiki/people/efim-podvoiski.md|Efim]], [[wiki/people/lena.md|Lena]]) Genadi represented the **hardware** R&D for JVL's 2025 SR&ED claim. He said he **already had his project list compiled** and did not need the maximum spread "because I don't have many people to attach" to it, and flagged a couple of thin-2025 items — a platform effort and some year-end **RockChip-chip** activity — as **better deferred to the 2026 claim** where the real work falls. *(Attribution of labour/hours to projects; no pay figures — §15.8 clear.)* See [[wiki/topics/sred-tax-credit.md]] (Mar-20). [[raw/SREDs_progress_review-March-20-2026.md]]
 
+## Mar 30 2026 — OMNI board-to-board USB link (Full Speed on purpose)
+
+On a very short (~1m24s), heavily garbled call with Val ([[wiki/meetings/2026-03-30-genadi-omni-board-communication.md]], header 9:51pm) Val asked about the board-to-board communication link [[wiki/people/dima-pikulev.md|Dima Pikulev]] built in the OMNI hardware stack. Genadi confirmed they **intentionally fitted a USB Full Speed chip rather than a USB High Speed one** for the iBoard-to-mainboard link, because the higher speed wasn't needed for the use case, and there is an **option to increase the bandwidth later** if required. (The transcript is too garbled to reliably reconstruct exact figures or the precise board/component names — Full Speed vs High Speed USB are the standard 12 Mbit/s vs ~480 Mbit/s tiers.) This is the hardware side of the **iBoard high-speed memory-chip / state-persistence** concern [[wiki/people/alexander-biratka.md|Biratka]] raised earlier the same day about a peripheral-abstraction protocol layer — see [[wiki/topics/omni-core-advancement-and-game-templating.md]] (Mar-30). §15.8 clear. [[raw/Meeting_Transcript_Genadi_OMNI_Board_Communication-March-30-2026.md]] [[raw/Meeting_Notes_OMNI_Board_Communication_Genadi-March-30-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Genadi_OMNI_Board_Communication-March-30-2026.md]]
+- [[raw/Meeting_Notes_OMNI_Board_Communication_Genadi-March-30-2026.md]]
 - [[raw/Flex-Recyler-Slim-Meeting-March-11-2026.md]]
 - [[raw/tasks_planning_alignment-February-26-2026.md]]
 - [[raw/JIRA_Planning-February-26-2026.md]]
