@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 106
+source-count: 108
 open-commitments: 2
 ---
 
@@ -297,8 +297,19 @@ Aaron was **not present** at the [[wiki/meetings/2026-03-27-automation-progress-
 
 Aaron was **not present** at the [[wiki/meetings/2026-03-31-transcripts-mcp-setup-lena.md|Mar-31 transcripts-MCP setup]] (Clayton + Lena + Val) but was referenced throughout: a ~19-hours-prior meeting of Aaron's had already been auto-ingested (proving the Power Automate trigger works); Aaron "can also do this" (help Lena set up the Mac); Aaron had been pushing the team toward Mac/Linux; and Val invoked Aaron's phrase **"useful bureaucracy."** Notably, [[wiki/people/clayton-chancey.md|Clayton]] said he and Aaron **strongly disagree** on hallucination — Clayton's view that hallucination is a user category, not a model property. See [[wiki/topics/ai-assisted-development.md]] and [[wiki/topics/transcript-knowledge-base-tooling.md]] (Mar-31). §15.8 clear. [[raw/Meeting_Transcript_Transcripts_MCP_setup_Lena-March-31-2026.md]] [[raw/Meeting_Notes_Transcripts_MCP_Setup_Lena-March-31-2026.md]]
 
+## Apr 3 2026 — Ways multilingual + session traceability, and the code-to-prose methodology
+
+A continuous [[wiki/people/val-levitan.md|Val]] sync in two segments ([[wiki/meetings/2026-04-03-val-aaron-sync-ways-multilingual-code-to-prose.md|one stub]], §11 header times 12:23pm / 1:06pm; §12). Aaron demoed his own [[wiki/topics/ai-assisted-development.md|Ways]] work and taught a code-analysis method. [[raw/Meeting_Transcript_Ways_Multilingual_and_Session_Traceability-April-3-2026.md]] [[raw/Meeting_Transcript_Code_to_Prose_Methodology-April-3-2026.md]]
+
+- **Ways as a Rust binary with session traceability.** Aaron showed Ways now compiled into a single fast Rust binary with a **session-visualization view** (an "abtop"/Agent-B-top process monitor for Claude sessions, plus an animation of which Ways fired at each turn and predictions of the next), demonstrating that **every turn is traceable to the Way that triggered it** — an audit trail proving guidance was followed. [[raw/Meeting_Transcript_Ways_Multilingual_and_Session_Traceability-April-3-2026.md]]
+- **Native multilingual Ways.** He built a **~120MB local multilingual embedding model** (runs on the CPU, not via an API, so a network failure can't hang a session) so a Russian-speaking developer typing Russian triggers the same Ways as English; he was generating translation stubs for Japanese/German/Spanish and others via parallel agents. He asked that [[wiki/people/andrey-bosik.md|Andrei]] verify the build once pushed, then Russian speakers tune the detection via PRs/notes. [[raw/Meeting_Transcript_Ways_Multilingual_and_Session_Traceability-April-3-2026.md]]
+- **Ways origin + roadmap.** Aaron recounted the project's evolution (documents-folder text files → user-scope CLAUDE.md → hooks → structured Ways) and his philosophy — "prescriptive, not proscriptive guidance triggered by context but not requested by intent and then injected just in time before tools execute" — plus plans to rename the repo **"agent-ways"** and make it work with any hook-capable turn-based coding agent. He also showed a governance/"constitution" framework able to encode per-jurisdiction rules with rule→Way→code traceability. [[raw/Meeting_Transcript_Ways_Multilingual_and_Session_Traceability-April-3-2026.md]]
+- **Code-to-prose methodology.** In segment 2 Aaron taught his method of translating code into plain-language prose as a "miniature specification" (the reverse-requirements direction), using the LLM as a "Tower of Babel" between code, math notation and human language, so two developers can reconcile incompatible code at the **intention** level rather than by parsing each other's code — "that's basically a specification." [[raw/Meeting_Transcript_Code_to_Prose_Methodology-April-3-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Ways_Multilingual_and_Session_Traceability-April-3-2026.md]]
+- [[raw/Meeting_Transcript_Code_to_Prose_Methodology-April-3-2026.md]]
 - [[raw/Clayton-Aaron-JVL-semantic-understanding-March-13-2026.md]]
 - [[raw/Aaron_Val-release_procedure_GitHub-March-16-2026.md]]
 - [[raw/Execeutive_Engineering_documentation_flow-March-16-2026.md]]
