@@ -3,7 +3,7 @@ type: organization
 title: Eclipse (gaming test lab)
 date: 2025-03-14
 aliases: [Eclipse, Eclipse lab, Xlibs]
-source-count: 3
+source-count: 5
 ---
 
 # Eclipse (gaming test lab)
@@ -25,8 +25,14 @@ On the [[wiki/meetings/2025-06-04-eclipse-nebraska-testing-requirements.md|June-
 - **Steve** — Eclipse's resident **Nebraska testing lead**; owns the GLI-11 extraction, the SAS/site-controller review, and the skill-requirement testing. [[raw/eclipse_nebraska_testing_requirement_review-june-4-2025.md]]
 - **Nick** — an independent **skill-game legal/patent expert** brought onto the call (41–42 years in the business; Las Vegas + Cleveland/Ohio offices; family firm); has defended skill games in court (Pennsylvania patent case, Texas tribal/unregulated work). Not an Eclipse employee — a recurring expert JVL consults on what qualifies as skill. [[raw/eclipse_nebraska_testing_requirement_review-june-4-2025.md]]
 
+## Mar 28 2026 — the partition-signing strategy (SAS-only) that cuts re-certification
+
+On the [[wiki/meetings/2026-03-28-game-design-wolfpack-strategy.md|Mar-28 Wolfpack strategy call]] Val described how JVL had been over-paying Eclipse: Eclipse was signing **all** of JVL's software partitions, but the law only requires the **SAS** partition to be signed. Signing the others created an artificial re-approval trap — whenever a non-regulated partition's checksum changed, Eclipse required re-certification even though that partition never needed signing. JVL's fix: separate the **Omni** system into **7–8 partitions** so that most jurisdictions only sign the legally-required ones, sharply reducing re-approval frequency. [[wiki/people/juan-martinez.md|Juan]] added that Eclipse charges an **extra hour per partition signed**. Val also plans to **submit Wolfpack + Twin Bison together** to halve certification cost (only one math set to prove). §15.8 clear — lab-cost economics only. [[raw/Meeting_Transcript_Game_Design_Wolfpack_Strategy-March-28-2026.md]] [[raw/Meeting_Notes_Game_Design_Wolfpack_Strategy-March-28-2026.md]]
+
 ## Sources
 
 - [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
 - [[raw/products_puerto_rico_touch_fix.md]]
 - [[raw/eclipse_nebraska_testing_requirement_review-june-4-2025.md]]
+- [[raw/Meeting_Transcript_Game_Design_Wolfpack_Strategy-March-28-2026.md]]
+- [[raw/Meeting_Notes_Game_Design_Wolfpack_Strategy-March-28-2026.md]]

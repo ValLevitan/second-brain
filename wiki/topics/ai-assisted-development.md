@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, Copilot Studio, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest, LaTeX, printer tool, Ollama, llama.cpp, local inference, Code Llama, Hugging Face, Claude Code, AI sandwich, developer experience, think like a data scientist, sub-agents, verbose output, compiler layer, ways vs skills, ADR, cross-examination, Python Vulture, intelligence center, Waze system, ways framework, compiler stack diagram, module federation, Aaron ways system, Ways ADR, Ways capabilities catalog, regulatory provenance chain, JVL Ways pipeline, ways branch architecture, trusted stage users, clean environment lesson, engagement auditor agent, translation service, terminology override table, GitHub Enterprise fork, JVL GitHub Ways architecture guide, Capability Ticket, Jira hierarchy restructure, engineering guides, architecture black hole, Piratka]
-source-count: 78
+source-count: 82
 ---
 
 # AI-assisted development adoption
@@ -457,6 +457,16 @@ On the [[wiki/meetings/2026-03-27-omni-architecture-challenge.md|Mar-27 OMNI Arc
 
 §15.8 clear — Jira tooling/planning only.
 
+## Mar 28 2026 — Val's production-automation vision (the Wolfpack game-design call)
+
+On the [[wiki/meetings/2026-03-28-game-design-wolfpack-strategy.md|Mar-28 Wolfpack strategy call]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/michael-gottlieb.md|Michael]], [[wiki/people/juan-martinez.md|Juan]]) the back half turned into Val's fullest statement of the game-production automation target: [[raw/Meeting_Transcript_Game_Design_Wolfpack_Strategy-March-28-2026.md]] [[raw/Meeting_Notes_Game_Design_Wolfpack_Strategy-March-28-2026.md]]
+
+- **The "55 languages" problem.** Val said JVL's codebase uses **55 different programming languages** ("criminal… people should be fired for an architecture like this"); Michael called it "a house of cards, garbage layered on garbage." The languages JVL is converting *to* work with full automation while **C** does not — so C is being rewritten out. Platform consolidation is a prerequisite for entering the **HHR** (Historical Horse Racing) market. [[raw/Meeting_Transcript_Game_Design_Wolfpack_Strategy-March-28-2026.md]] [[raw/Meeting_Notes_Game_Design_Wolfpack_Strategy-March-28-2026.md]]
+- **What already works.** An **AI check on every pull request** already gates merges (it won't approve until the AI passes), running at **~$250/month**; Lena has already gone **meeting-recording → populated Jira with pictures** with no manual labor; a meeting can produce **3 comp-art variations "within minutes"** and game **math "within one hour."** [[raw/Meeting_Transcript_Game_Design_Wolfpack_Strategy-March-28-2026.md]] [[raw/Meeting_Notes_Game_Design_Wolfpack_Strategy-March-28-2026.md]]
+- **Continuous release from main (the utopia vs the current "hell").** Val's target: **short feature branches (200–400 lines)** merged into **main, which serves as QA**, with the ability to **release straight to the market** from main at any time — no separate 60-day internal QA + 60-day GLI cycle. He stresses "nobody does it today" (they do branch emulations, not continuous release). The Texas bug was fixed in one day/night, which Val still considers too slow — he wants bugs collected, analyzed, and fixed automatically. [[raw/Meeting_Transcript_Game_Design_Wolfpack_Strategy-March-28-2026.md]] [[raw/Meeting_Notes_Game_Design_Wolfpack_Strategy-March-28-2026.md]]
+
+§15.8 clear — tooling economics only ($250/mo AI PR check is a vendor figure, not compensation).
+
 ## Mar 27 2026 — transcription pipeline is now a hosted microservice; Power Automate → GitHub auto-posting proposed
 
 On the [[wiki/meetings/2026-03-27-automation-progress-review.md|Mar-27 automation progress review]] ([[wiki/people/clayton-chancey.md|Clayton Chancey]] + [[wiki/people/lena.md|Lena Zhukova]] + [[wiki/people/val-levitan.md|Val]]; [[wiki/people/aaron.md|Aaron]] absent, both he and Clayton pulled onto a same-day Anthropic/Claude-Code outage incident) Clayton reported that the JVL meeting-transcription pipeline is now a **hosted API microservice**. This continues the enforcement-loops/transparency thread of Mar 9–10 ([[wiki/meetings/2026-03-09-it-github-jira-infrastructure.md]], [[wiki/meetings/2026-03-09-jira-github-enforcement-aaron.md]], [[wiki/meetings/2026-03-10-jira-github-transparency.md]]). [[raw/Meeting_Transcript_automation_progress_review-March-27-2026.md]]
@@ -476,6 +486,16 @@ On the [[wiki/meetings/2026-03-30-it-follow-up-reports-code-review.md|Mar-30 IT 
 - **Documentation-as-microservices / AI "software-architect role" (parked).** Val re-raised his idea of building engineering documentation as **microservices** with a **software-architect role prompt** that checks documentation completeness across topics (product architecture, ADRs) — he'd already sent Andrei an architect-role prompt and they'd started ADR work with Ivan. He connected it loosely to a linguistics/transcription microservice ([[wiki/people/clayton-chancey.md|Clayton]] demo booked later the same day; cf. [[wiki/meetings/2026-03-27-automation-progress-review.md|Mar-27]]) but couldn't recall the original intent of a "Management Reporting Specification" item and **parked it** to review his notes. [[raw/Meeting_Transcript_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]] [[raw/Meeting_Notes_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]]
 
 §15.8 clear — tooling cost economics only; no named-person compensation.
+
+## Mar 31 2026 — transcripts MCP setup with Lena: the hallucination thesis + assembly-line framing + Mac mini
+
+On the [[wiki/meetings/2026-03-31-transcripts-mcp-setup-lena.md|Mar-31 transcripts-MCP setup]] ([[wiki/people/clayton-chancey.md|Clayton Chancey]], [[wiki/people/lena.md|Lena Zhukova]], [[wiki/people/val-levitan.md|Val]]; [[wiki/people/aaron.md|Aaron]] referenced, not present) the tooling substance sat alongside the pipeline itself (on [[wiki/topics/transcript-knowledge-base-tooling.md]]): [[raw/Meeting_Transcript_Transcripts_MCP_setup_Lena-March-31-2026.md]] [[raw/Meeting_Notes_Transcripts_MCP_Setup_Lena-March-31-2026.md]]
+
+- **Clayton's hallucination thesis** (which he said differs from Aaron's): a large language model has no internal category of truth vs. untruth — it "just does what it's doing." A "hallucination" is therefore a **user category**, arising because the human has richer lived context than the model was given. You reduce hallucinations **not by better models** (models have been capable of zero-hallucination output "for almost a year" given proper context) but by **engineering the context and tools** so the model converges on what the humans hold true — context-specific engineering work. Val accepted the framing after initially predicting hallucinations would "disappear in a year." Lena's corroboration: she notices Claude "fixing" her information and claiming its version is better — which she recognizes as wrong precisely because she has more context. [[raw/Meeting_Transcript_Transcripts_MCP_setup_Lena-March-31-2026.md]] [[raw/Meeting_Notes_Transcripts_MCP_Setup_Lena-March-31-2026.md]]
+- **Game creation as three loops; production is an assembly line.** Val: game creation has three loops — idea generation, game design, and **game production**; Clayton and Lena are working on loop 3, which Val calls an **assembly line** with "very little creativity" that should move to **full automation** (conversations → extracted tasks → Jira → executed) to strip out "useful bureaucracy" ([[wiki/people/aaron.md|Aaron]]'s phrase). Currently Lena is the **"ontological filter"** — the human making the correct/incorrect judgment before hitting execute — because auto-mode Claude would pull from sources that aren't actually truth. [[raw/Meeting_Transcript_Transcripts_MCP_setup_Lena-March-31-2026.md]] [[raw/Meeting_Notes_Transcripts_MCP_Setup_Lena-March-31-2026.md]]
+- **Mac mini decision (Windows MCP instability).** The MCP tools connected/disconnected repeatedly on Lena's Windows machine (tools appearing and vanishing between refreshes; risk of silent mid-query disconnection). Clayton (not a Windows user) had seen morning headlines about Windows MCP-registry problems. Val ordered a **Mac mini** for Lena live on the call — a **targeted** fix, explicitly **not** a team-wide OS migration; team leads **Anastasia** and **Julia** also need it (they manage stories). Lena's custom graphical tools won't run on Linux but work on Mac; the images workflow "just works" on Mac. [[raw/Meeting_Transcript_Transcripts_MCP_setup_Lena-March-31-2026.md]] [[raw/Meeting_Notes_Transcripts_MCP_Setup_Lena-March-31-2026.md]]
+
+§15.8 clear — tooling/hardware only; no named-person compensation.
 
 ## History — earlier AI-consultation artifacts (undated, pre-2025)
 
@@ -562,3 +582,7 @@ On the [[wiki/meetings/2026-03-30-it-follow-up-reports-code-review.md|Mar-30 IT 
 - [[raw/Ways_GitHub_integration.md]]
 - [[raw/JVL_GitHub_Ways_Architecture_Guide.md]]
 - [[raw/Meeting_Transcript_data_access_strategy_and_cms_cloud_migration-March-23-2026.md]]
+- [[raw/Meeting_Transcript_Game_Design_Wolfpack_Strategy-March-28-2026.md]]
+- [[raw/Meeting_Notes_Game_Design_Wolfpack_Strategy-March-28-2026.md]]
+- [[raw/Meeting_Transcript_Transcripts_MCP_setup_Lena-March-31-2026.md]]
+- [[raw/Meeting_Notes_Transcripts_MCP_Setup_Lena-March-31-2026.md]]

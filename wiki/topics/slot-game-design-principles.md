@@ -3,7 +3,7 @@ type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
 aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus]
-source-count: 44
+source-count: 46
 open-questions: 3
 ---
 
@@ -403,6 +403,16 @@ On the [[wiki/meetings/2026-03-27-game-development-review.md|Mar-27 game-develop
 - **Precog/anticipation must correlate with a win.** The "about to get a wild" hype effect should not fire when there is no payoff — "you don't want the player to feel like… there's nothing underneath the hat," so its frequency and pay-correlation will be tuned. [[raw/Meeting_Transcript_game_development_March-27-2026-2.md]] [[raw/Meeting_Notes_game_development_March-27-2026.md]]
 - **Consistent nudge arrows; 10 paylines.** The nudge effect uses the **same liquid-glass triangle arrows across all games** (a prior decision); the game has **10 paylines** and needs payline arrows added to the concept; the free-spins transition will use the Indian pattern from the free-spin symbol. Val called it "your strongest game so far." [[raw/Meeting_Transcript_game_development_March-27-2026-2.md]] [[raw/Meeting_Notes_game_development_March-27-2026.md]]
 
+## Mar 28 2026 — "Wolfpack": the Twin-Bison clone + parallel-production experiment
+
+On the [[wiki/meetings/2026-03-28-game-design-wolfpack-strategy.md|Mar-28 Wolfpack strategy call]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/michael-gottlieb.md|Michael]], [[wiki/people/juan-martinez.md|Juan]]) Val pushed to build a thematic clone of Twin Bison — the same math and format, new art — as a test of whether the team can add a game with negligible schedule impact. Durable design points:
+
+- **The animal-face design principle (why a wolf, not a horse).** The Twin Bison look works because a bison has a wide face and forward-set eyes that let it "stare the player down" from the vertical space. A **horse fails front-on** (eyes on the sides, teeth look wrong) — it needs a 30–45° isometric/side view, which suits a **horizontal dual-screen** machine, so the stallion theme is reserved for that format. Val landed on a **wolf**: shorter neck, stockier, same broad forward-facing stare as a bison. A **bear** was rejected (too tall standing, looks stuffed). [[raw/Meeting_Transcript_Game_Design_Wolfpack_Strategy-March-28-2026.md]] [[raw/Meeting_Notes_Game_Design_Wolfpack_Strategy-March-28-2026.md]]
+- **"Wolfpack" naming.** IGT owns Wolf Run and Coyote Moon but not "Wolfpack"; thematically it fits because in free spins, when more than two wolves lock, that *is* a pack. [[raw/Meeting_Transcript_Game_Design_Wolfpack_Strategy-March-28-2026.md]] [[raw/Meeting_Notes_Game_Design_Wolfpack_Strategy-March-28-2026.md]]
+- **The clone-cannibalization lesson (Michael, from Bally).** Math-clones released together cannibalize each other — Havana Cubana / Tahitian Queen: salespeople pushed one (~300–400 units) and the other sold zero. The fix was Wonder Woman **Wild / Gold** — same theme, *slightly different math* — forcing two-game purchases (accelerated to ~3,000 units). So Michael's guardrail: do **not** ship three animal-stare-down games in one game-pack (players read them as the same game regardless of 3×3 vs 3×5), and Wolfpack should **not** be in the same Georgia release as Twin Bison — target South Dakota / Nebraska, which are more receptive to game changes. [[raw/Meeting_Transcript_Game_Design_Wolfpack_Strategy-March-28-2026.md]] [[raw/Meeting_Notes_Game_Design_Wolfpack_Strategy-March-28-2026.md]]
+- **The parallel-production sequence (Val's experiment).** Let Lena finish Twin Bison game design (in progress, ~through Apr 6) and produce a Twin Bison *production* schedule **without knowing** Wolfpack is coming; meanwhile Michael develops the Wolfpack abstract (story, environment, symbol hierarchy, color priority — a clone "is not just swapping symbols"); once the production schedule is locked, introduce Wolfpack and expedite it through concept/design in parallel; Juan writes the concept offline and the market-specific REQ. Submit Wolfpack + Twin Bison to Eclipse together to halve certification cost (only one math set to prove). [[raw/Meeting_Transcript_Game_Design_Wolfpack_Strategy-March-28-2026.md]] [[raw/Meeting_Notes_Game_Design_Wolfpack_Strategy-March-28-2026.md]]
+- **Lion's Riches stays separate; floating pay table for dual-screen.** Lion's Riches (JVL's #1 game in South Dakota) gets the vertical stare-down look but is **not** cloned from Twin Bison and must not be destabilized ("a lion is a king" — a different category). Val praised the **floating pay table** for dual-screen machines (a small bottom banner frees the whole second screen for character effects; inspired by Bad Dog); a side-mounted pay table remains an option for single-screen. [[raw/Meeting_Transcript_Game_Design_Wolfpack_Strategy-March-28-2026.md]] [[raw/Meeting_Notes_Game_Design_Wolfpack_Strategy-March-28-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_game_development_March-27-2026-2.md]]
@@ -449,3 +459,5 @@ On the [[wiki/meetings/2026-03-27-game-development-review.md|Mar-27 game-develop
 - [[raw/Games_Design_Meeting_open_items_feb19_2026.md]]
 - [[raw/Game_Development_Schedule_Review-March-4-2026.md]]
 - [[raw/JIRA_schedule_review_Game_Development-March-20-2026.md]]
+- [[raw/Meeting_Transcript_Game_Design_Wolfpack_Strategy-March-28-2026.md]]
+- [[raw/Meeting_Notes_Game_Design_Wolfpack_Strategy-March-28-2026.md]]

@@ -3,7 +3,7 @@ type: person
 title: Clayton Chancey
 date: 2026-07-14
 aliases: [Clayton Chancey, Clayton, Foray Consulting]
-source-count: 3
+source-count: 5
 ---
 
 # Clayton Chancey
@@ -33,8 +33,14 @@ On a JVL working session ([[wiki/meetings/2026-01-29-jvl-working-session-mcp-too
 
 On the [[wiki/meetings/2026-03-27-automation-progress-review.md|Mar-27 automation progress review]] (with [[wiki/people/lena.md|Lena Zhukova]] and [[wiki/people/val-levitan.md|Val]]; [[wiki/people/aaron.md|Aaron]] absent — both were on a same-day Anthropic/Claude-Code outage incident) Clayton reported he has turned the meeting-transcription pipeline into a **hosted API microservice** ("a JVL microservice") — submit audio (+ optional Teams transcript + taxonomy) with a token, get back a Claude-streamlined "JVL speak" transcript in 1–2 minutes at ~90% average accuracy. His next step is a **Microsoft Power Automate** flow that auto-posts finished transcripts to a GitHub repo after every recorded Teams meeting, which he will build directly with [[wiki/people/andrey-bosik.md|Andrei Bosik]] (Val asked for a Monday meeting, himself invited). He also handled Lena's MCP feedback (Windows folder-sync + mounted-drive blocker; raised a feature request with Anthropic; LFS pass-through workaround) and agreed to interleave timestamped meeting chat into the transcript. Full detail on [[wiki/topics/ai-assisted-development.md]] (Mar-27). [[raw/Meeting_Transcript_automation_progress_review-March-27-2026.md]]
 
+## Mar 31 2026 — transcripts MCP setup with Lena; the hallucination thesis
+
+On the [[wiki/meetings/2026-03-31-transcripts-mcp-setup-lena.md|Mar-31 transcripts-MCP setup]] (with [[wiki/people/lena.md|Lena Zhukova]] and [[wiki/people/val-levitan.md|Val]]; [[wiki/people/aaron.md|Aaron]] referenced but not present) Clayton connected Lena's Claude to the finished pipeline — Teams → Power Automate ([[wiki/people/andrey-bosik.md|Andrei]]) → his glossary-enriched microservice → GitHub transcripts repo → the JVL Atlassian MCP's new `list transcript`/`get transcript` tools (PAT + SSO) → Jira proposals — and it ran end-to-end despite Windows MCP instability. He articulated his **hallucination thesis** (differing from Aaron): a model has no truth/untruth category, so "hallucination" is a *user* category from the human's excess context; you reduce it by engineering context/tools, not by better models — with Lena as the current human "ontological filter." He committed to interleaving Teams chat next. Full detail on [[wiki/topics/transcript-knowledge-base-tooling.md]] and [[wiki/topics/ai-assisted-development.md]] (Mar-31). §15.8 clear. [[raw/Meeting_Transcript_Transcripts_MCP_setup_Lena-March-31-2026.md]] [[raw/Meeting_Notes_Transcripts_MCP_Setup_Lena-March-31-2026.md]]
+
 ## Sources
 
 - [[raw/aaron_building_tools-march-21-2025.md]]
 - [[raw/Clayton_jvl-working-session-2-summary-January-20-2026.md]]
 - [[raw/Meeting_Transcript_automation_progress_review-March-27-2026.md]]
+- [[raw/Meeting_Transcript_Transcripts_MCP_setup_Lena-March-31-2026.md]]
+- [[raw/Meeting_Notes_Transcripts_MCP_Setup_Lena-March-31-2026.md]]

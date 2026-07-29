@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 103
+source-count: 105
 open-commitments: 2
 ---
 
@@ -289,6 +289,10 @@ Two next-day continuations of the Mar-17 session. **Mar-18** ([[wiki/meetings/20
 
 Aaron was **not present** at the [[wiki/meetings/2026-03-27-automation-progress-review.md|Mar-27 automation progress review]] despite the recording base naming him: [[wiki/people/clayton-chancey.md|Clayton]] explained Aaron "will not join because he is also part of this incident" — a same-day Anthropic/Claude-Code outage both were troubleshooting. The meeting reviewed the transcription **pipeline Aaron and Clayton had earlier devised**, now productized by Clayton into a hosted microservice. See [[wiki/topics/ai-assisted-development.md]] (Mar-27). [[raw/Meeting_Transcript_automation_progress_review-March-27-2026.md]]
 
+## Mar 31 2026 — referenced (not present) at the transcripts MCP setup
+
+Aaron was **not present** at the [[wiki/meetings/2026-03-31-transcripts-mcp-setup-lena.md|Mar-31 transcripts-MCP setup]] (Clayton + Lena + Val) but was referenced throughout: a ~19-hours-prior meeting of Aaron's had already been auto-ingested (proving the Power Automate trigger works); Aaron "can also do this" (help Lena set up the Mac); Aaron had been pushing the team toward Mac/Linux; and Val invoked Aaron's phrase **"useful bureaucracy."** Notably, [[wiki/people/clayton-chancey.md|Clayton]] said he and Aaron **strongly disagree** on hallucination — Clayton's view that hallucination is a user category, not a model property. See [[wiki/topics/ai-assisted-development.md]] and [[wiki/topics/transcript-knowledge-base-tooling.md]] (Mar-31). §15.8 clear. [[raw/Meeting_Transcript_Transcripts_MCP_setup_Lena-March-31-2026.md]] [[raw/Meeting_Notes_Transcripts_MCP_Setup_Lena-March-31-2026.md]]
+
 ## Sources
 
 - [[raw/Aaron_Val-release_procedure_GitHub-March-16-2026.md]]
@@ -395,3 +399,5 @@ Aaron was **not present** at the [[wiki/meetings/2026-03-27-automation-progress-
 - [[raw/ai_aaron-may-15-2025 (2).md]]
 - [[raw/keeper_security_implimentation_IT_maturity-august-15-2025.md]]
 - [[raw/Meeting_Transcript_automation_progress_review-March-27-2026.md]]
+- [[raw/Meeting_Transcript_Transcripts_MCP_setup_Lena-March-31-2026.md]]
+- [[raw/Meeting_Notes_Transcripts_MCP_Setup_Lena-March-31-2026.md]]

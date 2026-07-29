@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna, Selena, Elena]
-source-count: 50
+source-count: 52
 open-commitments: 1
 ---
 
@@ -201,6 +201,10 @@ On the [[wiki/meetings/2026-03-27-automation-progress-review.md|Mar-27 automatio
 
 On the [[wiki/meetings/2026-03-27-game-development-review.md|Mar-27 game-development review]] Lena presented the **GC363 Twin Bison** concept art (winter free-spins scene with the white-bison wild-reel lock; will add the 10 payline arrows and the shared liquid-glass nudge arrows) — approved, moving to design in parallel with Lions Riches — and reported South Dakota production: Black Hills Keno graphics nearly done, Cool Cat Keno assembly starting, La Rosa / Wild Gold / Dragon Pace status. She also flagged she lacks archive rights in Jira and will ask [[wiki/people/dmitri-kovalchuk.md|Dima]] about the archiving workflow. [[raw/Meeting_Transcript_game_development_March-27-2026-1.md]] [[raw/Meeting_Transcript_game_development_March-27-2026-2.md]] [[raw/Meeting_Notes_game_development_March-27-2026.md]]
 
+## Mar 31 2026 — transcripts MCP setup: Lena as the "ontological filter"; a Mac mini for her
+
+On the [[wiki/meetings/2026-03-31-transcripts-mcp-setup-lena.md|Mar-31 transcripts-MCP setup]] (with [[wiki/people/clayton-chancey.md|Clayton Chancey]] and [[wiki/people/val-levitan.md|Val]]) Clayton connected Lena's Claude to the live transcripts pipeline (PAT + SSO). The session was repeatedly derailed by **MCP instability on her Windows machine** (tools connecting/disconnecting; she noted the risk of a silent mid-query disconnect producing wrong answers, and that she sometimes has to reboot to recover), but the end-to-end test eventually worked — resolving "Dragon Pays" correctly via Jira and enriching feature descriptions with meeting-notes comments. Clayton framed Lena as the **"ontological filter"** — the human judging correct/incorrect before hitting execute; Lena corroborated that she catches Claude "fixing" her information and claiming its version is better. Val ordered a **Mac mini** for her live on the call (her custom graphical tools won't run on Linux but work on Mac); she noted team leads **Anastasia** and **Julia** also need it since they manage stories. See [[wiki/topics/transcript-knowledge-base-tooling.md]] and [[wiki/topics/ai-assisted-development.md]] (Mar-31). §15.8 clear. [[raw/Meeting_Transcript_Transcripts_MCP_setup_Lena-March-31-2026.md]] [[raw/Meeting_Notes_Transcripts_MCP_Setup_Lena-March-31-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_game_development_March-27-2026-1.md]]
@@ -254,3 +258,5 @@ On the [[wiki/meetings/2026-03-27-game-development-review.md|Mar-27 game-develop
 - [[raw/JIRA_schedule_review_Game_Development-March-20-2026.md]]
 - [[raw/SREDs_progress_review-March-20-2026.md]]
 - [[raw/Meeting_Transcript_automation_progress_review-March-27-2026.md]]
+- [[raw/Meeting_Transcript_Transcripts_MCP_setup_Lena-March-31-2026.md]]
+- [[raw/Meeting_Notes_Transcripts_MCP_Setup_Lena-March-31-2026.md]]

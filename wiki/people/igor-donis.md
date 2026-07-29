@@ -3,7 +3,7 @@ type: person
 title: Igor Donis
 date: 2026-07-13
 aliases: [Igor Donis, Igor]
-source-count: 9
+source-count: 10
 disambiguation: "JVL Financial Controller — the finance/corporate Igor. One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
 ---
 
@@ -49,9 +49,14 @@ On the [[wiki/meetings/2026-03-04-financial-review.md|Mar-4 weekly financial rev
 
 On the [[wiki/people/sean-riley.md|Sean Riley]] alignment call ([[wiki/meetings/2026-03-24-sean-riley-alignment-controller-search-2011-filing.md]]), Val stated he wants to **replace Igor** with a part-time Canada-based controller — reasons: Igor lacks independence (needs a constant support person), a hard **language barrier** (no English), and high overhead. Val stressed the replacement is *not* a CFO backfill and *not* a posting role (JVL keeps its AP/AR posting staff) — it is review/intercompany-clearing/reporting, work Igor now does under [[wiki/people/alka-sood.md|Alka]]'s tight supervision as "her physical hands." *(Igor by context — source names only "Igor"; finance-controller-under-Alka → Donis.)* §15.8: no compensation figure recorded (Val explicitly declined to anchor on Igor's pay). [[raw/Meeting_Transcript_controller_search_and_2011_filing-March-24-2026.md]] [[raw/Meeting_Notes_Controller_Search_and_2011_Filing-March-24-2026.md]]
 
+## Mar 30 2026 — Black Horse AR review (finance side of the collections discipline)
+
+On the [[wiki/meetings/2026-03-30-black-horse-invoice-payment-review.md|Black Horse invoice-payment review]] (with [[wiki/people/val-levitan.md|Val]] and [[wiki/people/felipe-miranda.md|Felipe Miranda]]) Igor presented the Black Horse Entertainment outstanding-invoice data from **Business Central**. Val used it to task Igor as the finance enforcer: send delinquency letters, and **lock any account against new invoices** once it is delinquent past ~45 days (letter + 15 days first), until 100% current — the controller is the "bad guy" who holds the line so Felipe (sales) never has to. Confirms JVL is fully migrated off Navision onto BC with finance trained on it. Details on [[wiki/topics/jvl-finance-back-office.md]]. §15.8 clear. [[raw/Meeting_Transcript_Black_Horse_invoice_payment_review-1-March-30-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_controller_search_and_2011_filing-March-24-2026.md]]
 - [[raw/Meeting_Notes_Controller_Search_and_2011_Filing-March-24-2026.md]]
+- [[raw/Meeting_Transcript_Black_Horse_invoice_payment_review-1-March-30-2026.md]]
 
 - [[raw/Financial_review_March-4-2026.md]]
 - [[raw/finance_recurring_meeting-november-4-2025.md]]
