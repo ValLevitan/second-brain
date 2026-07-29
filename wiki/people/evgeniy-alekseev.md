@@ -4,7 +4,7 @@ title: Evgeniy Alekseev
 date: 2025-03-11
 aliases: [Evgeniy Alekseev, Evgeny Alekseev, Zhenya Alekseev, Женя Алексеев, Alekseev]
 disambiguation: "Owner of the main embedded code branch, this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
-source-count: 22
+source-count: 23
 open-commitments: 1
 ---
 
@@ -85,8 +85,13 @@ On the [[wiki/meetings/2025-11-28-flexport-smib-sync-jira-review.md|Nov-28 FlexP
 
 On the second Feb-12 [[wiki/people/genadi-peari.md|Genadi]] call ([[wiki/meetings/2026-02-12-genadi-echo-printer-freeze-flexport-bom.md]]) Genadi named Alekseev as the person he needs for two hardware items: (1) the **ECHO gaming-cabinet printer** — a barcode-ticket bill acceptor over an unsupported serial protocol + a **24 V power adapter** (see [[wiki/topics/echo-home-gaming-device.md]] Feb-12); and (2) whether the **Flex-Port flash-memory amount can be reduced** (flash is ~half the board BOM) and pricing **EPROM** as the alternative. Val asked Genadi to raise it but cautioned that "given Alekseev's character" he might resist the memory-reduction ask — Val said he isn't sure it's his character, just doesn't want to "catch him at a bad moment." See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Feb-12). [[raw/Call_Genadi_Peari-February-12-2026-2.md]]
 
+## Mar 25 2026 — external-specialist consult on the Georgia machine freeze
+
+On the [[wiki/meetings/2026-03-25-freezing-investigation-alekseev-followup.md|Mar-25 freezing follow-up call]] (11:03am; Val, Pavel Frolov, Genadi Peari, Alexander Biratko) Val brought Alekseev in as an **outside voice** on the Georgia EGM freezing problem, having sent him a problem document the day before. Alekseev offered three hypotheses: **memory management** issues (leaks / out-of-bounds / stack overflow — he rated ~90% likely); **printer-driver synchronous communication** (should use a separate thread with a command queue); and **chip/GPU errata** (obtain the vendor errata sheet for the exact processor). A technical debate followed — Alekseev held that memory corruption can hard-freeze even Linux, Pavel countered that x86 Linux memory protection makes an app segfault without taking the kernel down — and when Pavel opened the actual printer HAL code (`l_printer`) it **already had mutex locks throughout**, contradicting Alekseev's assumption that the printer code lacked thread safety (Pavel: the code Alekseev wrote for the Pyramid printer, simplified from a mutex-using template, is where the gap was). Alekseev was skeptical of Claude Code from his own trial; Val judged it likely misconfigured. See [[wiki/topics/egm-freezing-investigation.md]] (Mar-25). [[raw/transcript_Freezing_investigation-March-25-2026.md]]
+
 ## Sources
 
+- [[raw/transcript_Freezing_investigation-March-25-2026.md]]
 - [[raw/Call_Genadi_Peari-February-12-2026-2.md]]
 - [[raw/Flex-Port_Smib_alignment-November-28-2025.md]]
 - [[raw/Flex-Port_software_update_procedure_review.md]]

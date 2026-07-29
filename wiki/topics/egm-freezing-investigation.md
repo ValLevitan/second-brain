@@ -3,7 +3,7 @@ type: topic
 title: EGM freezing investigation (Georgia field fleet)
 date: 2026-07-29
 aliases: [GA freezing, Georgia freezing, machine freezing, EGM freeze, GA Freezing Issue, freezing investigation, JVL silent killer, nudge animation freeze, kernel-panic freeze]
-source-count: 9
+source-count: 11
 open-questions: 12
 ---
 
@@ -11,7 +11,7 @@ open-questions: 12
 
 This is the home page for JVL's investigation into gaming machines (EGMs) **freezing in the field** — the machine goes completely unresponsive, the screen locks, and only a physical reboot brings it back. Val called it **"JVL's silent killer"** and treated it as urgent, because it hits revenue and operator confidence directly. [[raw/GA_Freezing_Issue_Segment_1_Initial_Investigation.md]]
 
-This page covers the investigation from its **March 9 start through the V1.3 full investigation report of March 25, 2026**: the field discovery and early theories (Mar 9–13), the manufacturer's technical reply (Mar 20–24), the **March 24 watchdog-architecture decision** (two working sessions), and the **March 25** software-version analysis, South Dakota race-condition find, and external-consultant (Alekseev) consultation — the last two are captured from Val's consolidated V1.3 report (a derived document; no transcript of those two March-25 meetings is held). The investigation was still active/open at the report's date.
+This page covers the investigation from its **March 9 start through the V1.3 full investigation report of March 25, 2026**: the field discovery and early theories (Mar 9–13), the manufacturer's technical reply (Mar 20–24), the **March 24 watchdog-architecture decision** (two working sessions), and the **March 25** software-version analysis, South Dakota race-condition find, and external-consultant (Alekseev) consultation. The two March-25 meetings now have **held transcripts and their own primary stubs** ([[wiki/meetings/2026-03-25-digging-into-freezing-issues.md|Digging into Freezing Issues]], 9:32am; [[wiki/meetings/2026-03-25-freezing-investigation-alekseev-followup.md|Alekseev follow-up]], 11:03am); Val's consolidated V1.3 report is a *secondary* summary of them. The investigation was still active/open at the report's date.
 
 The freeze has come up before across the wiki; see the earlier mentions and the direction the investigation later took:
 - [[wiki/meetings/2026-02-12-genadi-echo-printer-freeze-flexport-bom.md]] — an earlier Feb-12 freeze discussion with Genadi.
@@ -107,9 +107,19 @@ On March 24 the team held two meetings that turned the manufacturer's advice int
 
 **Status of the watchdog decision.** As of the March 25 report the IO-board watchdog was the **preferred direction but not formally locked**; the CPU-internal watchdog was already shipped as the interim safety net (see the Mar-26 [[wiki/meetings/2026-03-26-initiative-priority-schedule.md|initiative-priority]] plan, which ships the kernel upgrade plus a kernel-panic auto-reboot parameter alongside that already-shipped CPU watchdog, all fixes in one release).
 
+## Mar-25 primary meetings (held transcripts)
+
+The two March-25 meetings — [[wiki/meetings/2026-03-25-digging-into-freezing-issues.md|Digging into Freezing Issues]] (9:32am; Val, Pavel Frolov, Irina Shishko, Alexander Biratko) and the [[wiki/meetings/2026-03-25-freezing-investigation-alekseev-followup.md|Alekseev follow-up]] (11:03am; adds Evgeniy Alekseev and Genadi Peari) — are the **primary transcript record** underlying the V1.3 summary folded below. Their substance (software-version isolation, the Claude Code review, the South Dakota QR race condition, Alekseev's three hypotheses, the printer-mutex finding, the DC-death/socket-hang theory, the monitoring-daemon and SAS-emulator decisions) is captured once in the V1.3 fold and not restated here. A few durable specifics that appear in the transcripts but not in the report:
+
+- The HAL is **"primarily written by Dima"** (per the notes); Val's spoken reference is garbled ("Димой пекулярном" — "пекулярном" reads as *peculiar*, not a clean surname), so this only WEAKLY corroborates the recurring **"Dima Pikulev/Pikuli"** contractor Genadi cited Mar-24 — surname not cleanly stated, queued Tier-B, not forced. [[raw/transcript_Digging_into_Freezing_issues-March-25-2026.md]]
+- The resource-monitoring daemon is to be written as a **bash script** (Pavel: better in bash than C++; the team estimates Claude Code can write "99–100%" of a first version in hours). The machine already carries **rudimentary precursors** — an existing script that logs free memory — and Anton Leshkevich had built a rough monitoring utility that did not yet track threads or file descriptors; the new daemon extends that. [[raw/transcript_Freezing_investigation-March-25-2026.md]]
+- Alekseev was **unimpressed by Claude Code** on his own trial ("obvious nonsense," had not used the paid/extended form); Val judged it likely misconfigured and the paid version far better. [[raw/transcript_Freezing_investigation-March-25-2026.md]]
+
+**Current state (as of Mar-25).** The investigation is still open: root cause not yet confirmed (kernel/GPU incompatibility on the AMD Raven Ridge APU is the leading theory; memory-management and the DC-death socket-hang are untested candidates), with the code review, the monitoring daemon, the SAS-emulator stress test, and the version diff all in flight. The resolution comes downstream — the Mar-26 [[wiki/meetings/2026-03-26-initiative-priority-schedule.md|initiative-priority]] plan ships the kernel upgrade + kernel-panic auto-reboot + CPU watchdog in one release, and the Mar-30 [[wiki/meetings/2026-03-30-black-horse-invoice-payment-review.md|Black Horse]] call reports the root cause and fix rollout (Eclipse approval imminent, customers compensated).
+
 ## Consolidated findings & the March 25 turn (V1.3 full report — derived)
 
-> **Derived/secondary source.** The following is folded from Val's **"EGM Freezing Issue — Full Investigation Report, Version 1.3"** (dated Mar 25, 2026; covers Mar 9–25). It is a consolidated internal + consultant briefing, **not a transcript** — captured once here, cross-investigation facts not double-counted with the primary sources above. The two March-25 meetings it summarizes ("Digging into Freezing Issues," 9:32am; "Freezing Investigation with Alekseev," 11:03am) have **no held transcript**, so their content is carried only via this report.
+> **Derived/secondary source.** The following is folded from Val's **"EGM Freezing Issue — Full Investigation Report, Version 1.3"** (dated Mar 25, 2026; covers Mar 9–25). It is a consolidated internal + consultant briefing, **not a transcript** — captured once here, cross-investigation facts not double-counted with the primary sources above. The two March-25 meetings it summarizes now have **held transcripts and primary stubs** — [[wiki/meetings/2026-03-25-digging-into-freezing-issues.md|Digging into Freezing Issues]] (9:32am) and [[wiki/meetings/2026-03-25-freezing-investigation-alekseev-followup.md|Freezing Investigation with Alekseev]] (11:03am); see the "Mar-25 primary meetings" note just above. This report remains the fuller *synthesis* of the two.
 
 **Software stack, now named.** The report sets out the stack as **HAL** (hardware abstraction) → **DC** (Data Center, a Java application holding the application logic) → **SAS** protocol → **Framework** (a C++ display/game engine). DC and Framework are separate processes talking over sockets; the Framework reads the DC every frame. The HAL is "99.9% identical" across markets — the meaningful changes between the old and freezing-prone versions live in the **DC layer**. [[raw/EGM_Freezing_Issue_Full_Investigation_Report-V1.3.md]]
 
@@ -164,4 +174,6 @@ Three machines were set up in the Georgia office (at Lawrenceville) to try to re
 - [[raw/Georgia_Freezing_troubleshooting_direction-March-13-2026.md]] — Mar-13 troubleshooting-direction call (transcript).
 - [[raw/FP10_Freezing_Issue_Watchdog_Discussion.md]] — Mar-24 morning watchdog-design call (transcript).
 - [[raw/I_O-centric_Watchdog_wiring.md]] — Mar-24 afternoon IO-board watchdog wiring + systematic-approach debate (transcript).
-- [[raw/EGM_Freezing_Issue_Full_Investigation_Report-V1.3.md]] — *derived/secondary:* Val's consolidated V1.3 full investigation report (Mar 9–25); the sole carrier of the two Mar-25 meetings. Supersedes V1.2 (skip-ledgered); near-duplicate "Comprehensive Report" also skip-ledgered.
+- [[raw/EGM_Freezing_Issue_Full_Investigation_Report-V1.3.md]] — *derived/secondary:* Val's consolidated V1.3 full investigation report (Mar 9–25); the fuller synthesis of the two Mar-25 meetings. Supersedes V1.2 (skip-ledgered); near-duplicate "Comprehensive Report" also skip-ledgered.
+- [[raw/transcript_Digging_into_Freezing_issues-March-25-2026.md]] — Mar-25 9:32am freezing software-analysis call (transcript; primary record of the V1.3 "Digging" meeting).
+- [[raw/transcript_Freezing_investigation-March-25-2026.md]] — Mar-25 11:03am Alekseev follow-up call (transcript; primary record of the V1.3 "with Alekseev" meeting).
