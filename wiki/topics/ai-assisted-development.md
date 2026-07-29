@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, Copilot Studio, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest, LaTeX, printer tool, Ollama, llama.cpp, local inference, Code Llama, Hugging Face, Claude Code, AI sandwich, developer experience, think like a data scientist, sub-agents, verbose output, compiler layer, ways vs skills, ADR, cross-examination, Python Vulture, intelligence center, Waze system, ways framework, compiler stack diagram, module federation, Aaron ways system, Ways ADR, Ways capabilities catalog, regulatory provenance chain, JVL Ways pipeline, ways branch architecture, trusted stage users, clean environment lesson, engagement auditor agent, translation service, terminology override table, GitHub Enterprise fork, JVL GitHub Ways architecture guide, Capability Ticket, Jira hierarchy restructure, engineering guides, architecture black hole, Piratka]
-source-count: 84
+source-count: 86
 ---
 
 # AI-assisted development adoption
@@ -505,6 +505,16 @@ On the [[wiki/meetings/2026-03-31-transcripts-mcp-setup-lena.md|Mar-31 transcrip
 
 §15.8 clear — tooling/hardware only; no named-person compensation.
 
+## Apr 1 2026 — Code Prep Plan: comb & document the Observability Platform codebase for Claude Code
+
+On the [[wiki/meetings/2026-04-01-code-prep-plan.md|Apr-1 Code Prep Plan call]] ([[wiki/people/val-levitan.md|Val]] with [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]], [[wiki/people/andrey-bosik.md|Andrei Bosik]] and [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]]) Val set up a dedicated cleanup effort to make the **Observability Platform** codebase (formerly "Back Office," now migrated to GitHub) documented enough for **Claude Code** to work against it. [[raw/Meeting_Transcript_Code_Prep_Plan-April-1-2026.md]] [[raw/Meeting_Notes_Code_Prep_Plan-April-1-2026.md]]
+
+- **Why.** The production code is poorly documented (both generally and for AI tooling); Chudinov confirmed that to use Claude Code effectively against it, the existing code must first be "combed through" and documented. [[raw/Meeting_Transcript_Code_Prep_Plan-April-1-2026.md]] [[raw/Meeting_Notes_Code_Prep_Plan-April-1-2026.md]]
+- **The "semi-contract": 2 hours/day, ~30–45 days.** Val proposed each developer block **2 uninterrupted hours per day** dedicated only to this cleanup. He estimated the whole effort at **30–45 days**; Chudinov said it would certainly take more than a week and that a precise figure would only emerge once they started. Chudinov and Sergey undertook to start **Apr 2**. The codebase is **5–6 applications**, two of them very large and complex, the other four smaller. [[raw/Meeting_Transcript_Code_Prep_Plan-April-1-2026.md]] [[raw/Meeting_Notes_Code_Prep_Plan-April-1-2026.md]]
+- **Document everything, including deprecated code.** Val ruled that even unused legacy modules (e.g. a decade-dead "Italy" feature) be **documented and annotated with deprecation markers** rather than skipped — the incremental Claude Code cost is small (~a day, ~$500 in tokens) and full documentation lets the team decide later what to keep or discard without risking hidden dependencies. [[raw/Meeting_Transcript_Code_Prep_Plan-April-1-2026.md]] [[raw/Meeting_Notes_Code_Prep_Plan-April-1-2026.md]]
+- **Val's intended sequence.** Do the straightforward Claude Code cleanup first; once Claude Code has ingested the whole codebase, have it generate — as if building the product from scratch — a set of features, capabilities, requirements, and architectural block diagrams (the dev team executing, not Val). [[raw/Meeting_Transcript_Code_Prep_Plan-April-1-2026.md]] [[raw/Meeting_Notes_Code_Prep_Plan-April-1-2026.md]]
+- **No Jira for this effort; a bespoke progress report instead.** Against a suggestion to track the cleanup in Jira (Andrei's idea of a feature with per-repository stories), Val **explicitly advised against Jira** — it would add a layer of complexity to manage — and asked [[wiki/people/andrey-bosik.md|Andrei]] to build a **transparent visual repository-progress report** (full repo scope + percentage completion per section), once the team completes a few initial items. The Jira-vs-report and architecture-deferral angle is on [[wiki/topics/github-release-management-pipeline.md]]. [[raw/Meeting_Transcript_Code_Prep_Plan-April-1-2026.md]] [[raw/Meeting_Notes_Code_Prep_Plan-April-1-2026.md]]
+
 ## History — earlier AI-consultation artifacts (undated, pre-2025)
 
 - **SolidWorks integration memo from ChatGPT:** a reference document titled "Solid work integration and the overall architecture suggestion from ChatGPT" shows JVL (before the 2025 tooling push) using ChatGPT to draft an IT-integration architecture connecting **SolidWorks** (3D CAD) with **Atlassian Jira/Confluence** and **Microsoft Business Central** — file attachments/version control of CAD files, BOM synchronization into the ERP, middleware/connectors, OAuth security, monitoring, and staged testing. The content is generic AI output (no JVL-specific decisions); its durable value is evidence that JVL's CAD/PLM–ERP–Atlassian integration question was explored via ChatGPT. Undated; consistent with the ~2023–24 Atlassian/Business-Central era of [[wiki/projects/jvl-insights-knowledge-base.md]] (inference, flagged). [[raw/solid_work_integration_and_the_overall_architecture_suggesti_2025-03-29.md]]
@@ -596,3 +606,5 @@ On the [[wiki/meetings/2026-03-31-transcripts-mcp-setup-lena.md|Mar-31 transcrip
 - [[raw/Meeting_Notes_Game_Design_Wolfpack_Strategy-March-28-2026.md]]
 - [[raw/Meeting_Transcript_Transcripts_MCP_setup_Lena-March-31-2026.md]]
 - [[raw/Meeting_Notes_Transcripts_MCP_Setup_Lena-March-31-2026.md]]
+- [[raw/Meeting_Transcript_Code_Prep_Plan-April-1-2026.md]]
+- [[raw/Meeting_Notes_Code_Prep_Plan-April-1-2026.md]]

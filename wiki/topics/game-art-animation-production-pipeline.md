@@ -3,7 +3,7 @@ type: topic
 title: Game art & animation production pipeline (comp art → Miranda)
 date: 2025-03-12
 aliases: [animation production, comp art pipeline, CompArt, storyboards, Spine, Blender, After Effects, placeholder build, Miranda scene assembly, art production stages, spike, sorting, symbol containers, Glorosa, Havana Noches, Fiery Ice Link, Rodeo Spin]
-source-count: 12
+source-count: 14
 ---
 
 # Game art & animation production pipeline (comp art → Miranda)
@@ -130,6 +130,15 @@ On a Val ↔ [[wiki/people/pavel.md|Pavel Frolov]] ↔ [[wiki/people/irina-shish
 
 Val's larger why — generating/cloning games from this specification — is on [[wiki/topics/game-production-throughput-strategy.md]] (Nov-11 section); he told Pavel and Irina to keep that ambition to themselves and not raise it with Lena's team.
 
+## Apr 2 2026 — deliverable vocabulary settled (master file / storyboard / comp art) + Val's pre-build-shell vision
+
+On the [[wiki/meetings/2026-04-02-game-development-review.md|Apr-2 game-development review]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/michael-gottlieb.md|Michael Gottlieb]], [[wiki/people/lena.md|Lena Zhukova]], [[wiki/people/juan-martinez.md|Juan]], [[wiki/people/efim-podvoiski.md|Efim]]) Val spent much of the meeting nailing down exactly what the design stage delivers and how it flows downstream, arriving at a shared vocabulary (his "shopping bag," Efim's "collage"). [[raw/Meeting_Transcript_Game_Development-1-April-2-2026.md]] [[raw/Meeting_Notes_Game_Dev_Pipeline_Review-April-2-2026.md]]
+
+- **Master file** (the "shopping bag"): a large Photoshop (PSD) file containing all composition-art assets layered together — the central deliverable showing the whole screen (symbols, background, dashboard, logo, pay table, reel frame, effects). A game may have several master files by complexity (main screen, free spins, bonus). All downstream artists reference it for proportion, positioning, and context. [[raw/Meeting_Transcript_Game_Development-1-April-2-2026.md]] [[raw/Meeting_Notes_Game_Dev_Pipeline_Review-April-2-2026.md]]
+- **Storyboard**: a visual description of transitions, messages, and animation sequences (game flow, e.g. base → free spins). Always required — even for an update you copy-paste and modify a prior release's storyboard, but the full storyboard must exist; there can be several for multiple bonuses. [[raw/Meeting_Transcript_Game_Development-1-April-2-2026.md]] [[raw/Meeting_Notes_Game_Dev_Pipeline_Review-April-2-2026.md]]
+- **Comp art** (composition art): specifically the rolled-up cumulative image of *all* assets, not any single element; individual items in it are "symbols," "assets," or "elements." The pipeline flows concept (initial comp art) → design (animation references, transitions, storyboards, additional comp art) → production (final assets). Downstream, game artists Julia (layouts/templates) and Anton (illustrations) extract individual layers from the master file but need the whole file for context. [[raw/Meeting_Transcript_Game_Development-1-April-2-2026.md]] [[raw/Meeting_Notes_Game_Dev_Pipeline_Review-April-2-2026.md]]
+- **Val's efficiency vision (Michael endorsed).** Pre-build the game shell before final art is ready so comp art can be dropped in and previewed running within minutes, and (aspirationally) **automate animation generation** from a description (e.g. "30 frames, closed to open mouth"). The team noted this needs the **Omni 2 architecture** — it cannot be done within the current Rage Studio framework; Efim tied it to the math-playtest automation direction. This extends the Nov-11-2025 "generate games from a specification" endgame on [[wiki/topics/game-production-throughput-strategy.md]]. [[raw/Meeting_Transcript_Game_Development-1-April-2-2026.md]] [[raw/Meeting_Notes_Game_Dev_Pipeline_Review-April-2-2026.md]]
+
 ## Sources
 
 - [[raw/Specs_graphics.md]]
@@ -144,3 +153,5 @@ Val's larger why — generating/cloning games from this specification — is on 
 - [[raw/games_design-may-5-2025.md]]
 - [[raw/tools_adaptation_games_design_department-may-7-2025.md]]
 - [[raw/game_design-may-8-2025.md]]
+- [[raw/Meeting_Transcript_Game_Development-1-April-2-2026.md]]
+- [[raw/Meeting_Notes_Game_Dev_Pipeline_Review-April-2-2026.md]]

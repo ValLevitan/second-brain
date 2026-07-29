@@ -3,7 +3,7 @@ type: topic
 title: GitHub release management and the CI/CD release pipeline
 date: 2025-10-21
 aliases: [release management, release pipeline, CI/CD, GitHub Actions pipeline, release artifacts, ISO image release, release manager role, continuous delivery, flex os installer, manifest, release candidate, single source of truth, feature branch discipline, sprints vs kanban, Jira GitHub link, FlexPos IP 902, FP 519, IP 89 dashboard grooming, bulk archive automation, Jira resolutions cleanup]
-source-count: 17
+source-count: 19
 open-questions: 2
 ---
 
@@ -144,6 +144,13 @@ On the [[wiki/meetings/2026-03-30-it-follow-up-reports-code-review.md|Mar-30 IT 
 - **PR-frequency standard (candidate requirement).** In costing Claude Code Review Val asserted each active developer should produce at least ~1 pull request per feature every ~3–4 days; a productive developer commits ~2 commits/day and lands a PR at feature completion. (Cost economics on [[wiki/topics/ai-assisted-development.md]] Mar-30.) [[raw/Meeting_Transcript_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]] [[raw/Meeting_Notes_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]]
 - **Release-process documentation task.** Val clarified an open item ("Release Technical Documentation") is about documenting the **release workflow** (for [[wiki/people/ivan.md|Ivan Shpak]]), not technical docs; Andrei to create a main-project Jira ticket (moved from Service Management) and start the conversation with Ivan Shpak and [[wiki/people/aaron.md|Aaron]]. [[raw/Meeting_Transcript_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]] [[raw/Meeting_Notes_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]]
 
+## Apr 1 2026 — Observability Platform in GitHub; prep for AI-assisted cleanup; architecture review deferred
+
+On the [[wiki/meetings/2026-04-01-code-prep-plan.md|Apr-1 Code Prep Plan call]] ([[wiki/people/val-levitan.md|Val]] with [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]], [[wiki/people/andrey-bosik.md|Andrei Bosik]], [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]]) Val confirmed the codebase formerly called "Back Office," now the **Observability Platform**, has been **migrated to GitHub** — the substrate for a code-cleanup effort ahead of a later cloud-architecture migration. [[raw/Meeting_Transcript_Code_Prep_Plan-April-1-2026.md]] [[raw/Meeting_Notes_Code_Prep_Plan-April-1-2026.md]]
+
+- **Explicitly no Jira tracking for this effort.** Continuing the single-source-of-truth thread above, Val rejected tracking the cleanup in Jira (which would "add a layer of complexity") and instead asked [[wiki/people/andrey-bosik.md|Andrei]] to build a bespoke **visual repository-progress report** covering the full repo scope with per-section percentage completion. The AI-cleanup mechanics are on [[wiki/topics/ai-assisted-development.md]] (Apr-1). [[raw/Meeting_Transcript_Code_Prep_Plan-April-1-2026.md]] [[raw/Meeting_Notes_Code_Prep_Plan-April-1-2026.md]]
+- **Cloud architecture depends on the cleanup — "Azure" → "optimized architecture," review pushed ~30 days.** Andrei explained the cloud target (Azure, AWS, or otherwise) cannot be chosen until the dev team answers whether components can be **containerized in Docker** and whether the database can be **migrated to PostgreSQL** — each answer forks the architecture. Val agreed to (1) rename the meeting invite from "Azure architecture" to "optimized architecture" (dropping the premature cloud-provider assumption) and (2) **defer the architecture-review meeting ~30 days** (~May 1 2026), with the option to push further. [[raw/Meeting_Transcript_Code_Prep_Plan-April-1-2026.md]] [[raw/Meeting_Notes_Code_Prep_Plan-April-1-2026.md]]
+
 ## Open questions
 
 - **Branch-audit "dynamics" depth:** is one week of week-over-week comparison enough to judge trend, or should the report show several weeks? Unresolved — Andrei to consider. [[raw/Meeting_Notes_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]]
@@ -169,3 +176,5 @@ On the [[wiki/meetings/2026-03-30-it-follow-up-reports-code-review.md|Mar-30 IT 
 - [[raw/Meeting_Notes_initiative_priority_schedule-March-26-2026.md]]
 - [[raw/Meeting_Transcript_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]]
 - [[raw/Meeting_Notes_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]]
+- [[raw/Meeting_Transcript_Code_Prep_Plan-April-1-2026.md]]
+- [[raw/Meeting_Notes_Code_Prep_Plan-April-1-2026.md]]

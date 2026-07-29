@@ -3,7 +3,7 @@ type: project
 title: South Dakota VLT market entry
 date: 2025-01-22
 aliases: [South Dakota, SD VLT, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950, V43, D27, SD cap, Bioliches, Gypsy Spirit, Crazy Colt, Queen of Luxor, Liberty Spin, Rodeo Spin, South Dakota vertical, MG Oil report]
-source-count: 18
+source-count: 20
 ---
 
 # South Dakota VLT market entry
@@ -126,6 +126,14 @@ On the [[wiki/meetings/2026-03-27-game-development-review.md|Mar-27 game-develop
 - **Other SD slots** — **La Rosa** nearly done (Gold Nugget jackpot topper pending review next build), **Wild Gold (IP995)** in progress and inserted into the build (review pending), **Line Switches (IP998)** closed, **Dragon Pace (IP997)** the next and last slot for the SD release. Four SD slot games are visually complete. **IP975** (a Florida-market game) was **archived/abandoned**. [[raw/Meeting_Transcript_game_development_March-27-2026-1.md]] [[raw/Meeting_Notes_game_development_March-27-2026.md]]
 - **Release plan** — art/design assets due ~**April 16** (does **not** include integration, which happens incrementally as assets are delivered). Target ~**May 1** to send **red-label software to the South Dakota Lottery first** (Lonnie) to troubleshoot, then to **GLI** after their green light. QA can begin testing the completed slots and Black Hills now. [[raw/Meeting_Transcript_game_development_March-27-2026-1.md]] [[raw/Meeting_Notes_game_development_March-27-2026.md]]
 
+## Apr 2 2026 — IP459 production: six games in the build, ~Apr-29 exit target, QA sequential to production
+
+On the [[wiki/meetings/2026-04-02-game-development-review.md|Apr-2 game-development review]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/michael-gottlieb.md|Michael]], [[wiki/people/lena.md|Lena]], [[wiki/people/juan-martinez.md|Juan]], [[wiki/people/efim-podvoiski.md|Efim]]) the South Dakota VLT production (**IP459**) status advanced from the Mar-27 review. [[raw/Meeting_Notes_Game_Dev_Pipeline_Review-April-2-2026.md]] [[raw/Meeting_Transcript_Game_Development-1-April-2-2026.md]]
+
+- **Six games working in the build** (transcript renderings): Black Hills Kino, La Rosa, Roger Spins, Glover Fortune, Lion Switches, and Wild Cold. La Rosa is nearly complete (one feature in request review, awaiting the new build); **Wild Cold** is a new slot Lena assembled, "pretty good shape," build just ready. **Black Hills Kino Deluxe** is in fine-tuning; Anton had not yet implemented the ticker behavior for SD slots (an inconvenience, not a blocker — Efim asked him to prioritize other work before vacation). [[raw/Meeting_Notes_Game_Dev_Pipeline_Review-April-2-2026.md]] [[raw/Meeting_Transcript_Game_Development-1-April-2-2026.md]]
+- **Dragon Pays confirmed for the SD release** — consistently the market's **#3 game**, so it stays; the updated version will look cleaner/less cluttered. (Continues Mar-27's "Dragon Pace/Dragon Pays" as the last slot.) [[raw/Meeting_Notes_Game_Dev_Pipeline_Review-April-2-2026.md]] [[raw/Meeting_Transcript_Game_Development-1-April-2-2026.md]]
+- **Target exit ~Apr 29.** Lena raised a QA-timing concern; Val explained that in the current **Rage Studio framework QA is always sequential to production** — only under **Omni** would QA move to branch-integration-time automated end-to-end testing. Michael specifically asked QA (Ivan, Arena) to begin testing **Black Hills Kino now**, since keno is a new game type the QA team hasn't tested; Efim supported early smoke-testing of novel games. [[raw/Meeting_Notes_Game_Dev_Pipeline_Review-April-2-2026.md]] [[raw/Meeting_Transcript_Game_Development-1-April-2-2026.md]]
+
 ## Who
 
 - Driven by [[wiki/people/val-levitan.md|Val]] with [[wiki/people/juan-martinez.md|Juan]] (regulator/operator relationship, field side) and [[wiki/people/pavel.md|Pavel]] (Minsk software); [[wiki/people/irina-shishko.md|Irina]] on printer testing and GLI diffs, [[wiki/people/sebastian.md|Sebastian]] on field service, [[wiki/people/ivan.md|Ivan]] on GLI scheduling. **Lonnie** is the SD lottery-lab tester; **"Alani"** appears as the SD lottery (supplied the SAS adapter, requested the permit-number rename) — whether Alani is the lottery entity or a person there is unclear (see Owner Decisions). [[raw/sd_vlt_recap-jan-22-2025.md]] [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
@@ -150,3 +158,5 @@ On the [[wiki/meetings/2026-03-27-game-development-review.md|Mar-27 game-develop
 - [[raw/G2E_juan_martinez_report-october-10-2025.md]]
 - [[raw/Game_Development_Schedule_Review-March-4-2026.md]]
 - [[raw/JIRA_schedule_review_Game_Development-March-20-2026.md]]
+- [[raw/Meeting_Transcript_Game_Development-1-April-2-2026.md]]
+- [[raw/Meeting_Notes_Game_Dev_Pipeline_Review-April-2-2026.md]]

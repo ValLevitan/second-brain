@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 51
+source-count: 53
 open-commitments: 10
 open-questions: 8
 ---
@@ -331,6 +331,14 @@ On a ~27-minute one-on-one ([[wiki/meetings/2026-03-31-felipe-credit-terms-sales
 - **Skill markets open a parallel sales line.** JVL now has the **Nebraska/Texas "full skill"** product it lacked a year ago, so Georgia operators expanding into other markets — who previously could not choose JVL — now can. The **first Texas machine netted $280/day win** (data delivered by [[wiki/people/juan-martinez.md|Juan]] that day); it runs the **"previous version" of skill**, aligned to **Light & Wonder's less-binding "initial skill feature"** methodology rather than the original Vanilla-inspired feature ("notch"). Val expects later machines to perform considerably better and told Felipe to tell operators expanding into new markets that JVL is now an option. [[raw/Meeting_Transcript_Felipe_credit_terms_sales_strategy-March-31-2026.md]]
 - **Nebraska rollout status + no geographic restriction.** New **Nebraska software** was submitted to the state enforcement authority ~a week earlier (Nebraska has no gaming commission — an alcohol/enforcement commission handles it; approval typically ~2 weeks); operators are lined up, machines are in place, and the **RIS was issued to [[wiki/people/denis-desmarais.md|Dennis]]**. Val told Felipe to **install the new Nebraska software now at Inamax for in-house testing** (get it from Dennis) and confirmed **no geographic restriction on Felipe's sales** — Georgia-sold machines can go to Inamax or any market. [[raw/Meeting_Transcript_Felipe_credit_terms_sales_strategy-March-31-2026.md]]
 
+## Apr 2 2026 — Twin Bison (Georgia Vertical 2), the Lion's Riches Georgia update, and the Pick 3 progressive
+
+On the [[wiki/meetings/2026-04-02-game-development-review.md|Apr-2 game-development review]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/michael-gottlieb.md|Michael]], [[wiki/people/lena.md|Lena]], [[wiki/people/juan-martinez.md|Juan]], [[wiki/people/efim-podvoiski.md|Efim]]) the Georgia game-design pipeline advanced. [[raw/Meeting_Notes_Game_Dev_Pipeline_Review-April-2-2026.md]] [[raw/Meeting_Transcript_Game_Development-1-April-2-2026.md]]
+
+- **Twin Bison is the Georgia Vertical 2 release (IP1028).** Twin Bison game design (IP1029 — additional screens, messages, symbol animation stages) is actively in progress with Michael and Lena; the math design (GD838) is near complete (play-testing a separate follow-up). Design/math details (the reel-1 low-pay symbol rebalance, wilds-on-reel-1 rejected) are on [[wiki/topics/slot-game-design-principles.md]] (Apr-2). [[raw/Meeting_Notes_Game_Dev_Pipeline_Review-April-2-2026.md]] [[raw/Meeting_Transcript_Game_Development-1-April-2-2026.md]]
+- **Lion's Riches Georgia update (GC364/IP531).** The abstract is complete; Lena will produce the concept art (GC379) — a **new visual look** (minimalistic pay table, dominant lion) inspired by the Twin Bison art direction, but **not from scratch**: the same characters/theme remain (an antelope stays an antelope, African Savannah stays), just re-treated. She estimated ~**10 calendar days** for the concept art (~15–20 comp-art assets), starting after she finishes Twin Bison design. [[raw/Meeting_Notes_Game_Dev_Pipeline_Review-April-2-2026.md]] [[raw/Meeting_Transcript_Game_Development-1-April-2-2026.md]]
+- **Pick 3 progressive replaces the Peach progressive for Georgia** — a new progressive in progress for all object games in the next Georgia release. [[raw/Meeting_Notes_Game_Dev_Pipeline_Review-April-2-2026.md]] [[raw/Meeting_Transcript_Game_Development-1-April-2-2026.md]]
+
 ## Open questions
 
 - What is the **pricing / packaging model for additional game packs** (Val's proposal: an 8-game base pack at price X, extra games at a premium)? Unresolved on Feb-19; Juan skeptical JVL can charge for software until the new product proves it earns. [[raw/Game_Development_transcript_game_review-February-19-26.md]] [[raw/Games_Design_Meeting_open_items_feb19_2026.md]]
@@ -395,3 +403,5 @@ On a ~27-minute one-on-one ([[wiki/meetings/2026-03-31-felipe-credit-terms-sales
 - [[raw/georgia_operator_briefing_AKS.md]]
 - [[raw/georgia_operator_briefing_Diamond_Amusement.md]]
 - [[raw/georgia_operator_briefing_Inamax_Ultra.md]]
+- [[raw/Meeting_Transcript_Game_Development-1-April-2-2026.md]]
+- [[raw/Meeting_Notes_Game_Dev_Pipeline_Review-April-2-2026.md]]
