@@ -4,7 +4,7 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "IT (GitHub-admin, infrastructure, secrets/Azure, AI-tool accounts) — the IT-context "Dima". Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 21
+source-count: 23
 open-commitments: 2
 ---
 
@@ -87,8 +87,14 @@ On the data-access-strategy / CMS-cloud-migration call ([[wiki/meetings/2026-03-
 - [ ] Dmitri Kovalchuk — produce a **current-state block diagram** of the as-is CASS/OLAP-cube/intermediate-host infrastructure (no optimization) — due next Monday (~Mar 30 2026) — [[raw/Meeting_Transcript_data_access_strategy_and_cms_cloud_migration-March-23-2026.md]]
 - [ ] Dmitri Kovalchuk + [[wiki/people/andrey-bosik.md|Andrei Bosik]] — produce a **cloud-cost estimate** for lift-and-shift of the as-is architecture, two scenarios (keep MS SQL vs migrate to PostgreSQL) — due next Monday (~Mar 30 2026) — [[raw/Meeting_Transcript_data_access_strategy_and_cms_cloud_migration-March-23-2026.md]]
 
+## Mar 27 2026 — Review of Engineering Guides: recording access, Jira restructure demo, archive workflow
+
+On the [[wiki/meetings/2026-03-27-review-of-engineering-guides.md|Review of Engineering Guides]] Dmitri raised the prerequisite that the AI needs access to meeting recordings (in Teams only the owner has access) and demonstrated the proposed Jira hierarchy changes live in the sandbox — showing that **renaming** levels preserves relationships but **inserting** a Capability-Ticket level would break **~1,700 parent-child links**. He took the undertaking to prepare an **Excel comparison table** (current vs proposed hierarchy, with factual examples/screenshots) for Val, and to co-own (with [[wiki/people/andrey-bosik.md|Bosik]]) setting up the repository structure for the incoming transcript pipeline (~April 10). Substance on [[wiki/topics/ai-assisted-development.md]] + [[wiki/topics/transcript-knowledge-base-tooling.md]] (Mar-27). [[raw/Meeting_Transcript_Review_of_Engineering_Guides-March-27-2026.md]] [[raw/Meeting_Notes_Review_of_Engineering_Guides-March-27-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Review_of_Engineering_Guides-March-27-2026.md]]
+- [[raw/Meeting_Notes_Review_of_Engineering_Guides-March-27-2026.md]]
 - [[raw/Meeting_Transcript_data_access_strategy_and_cms_cloud_migration-March-23-2026.md]]
 - [[raw/Grooming Dashboard for IP-89-March-17-2026.md]]
 - [[raw/Setting up JVL ways on GitHub-March-18-2026.md]]

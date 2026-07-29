@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna, Selena, Elena]
-source-count: 47
+source-count: 50
 open-commitments: 1
 ---
 
@@ -197,8 +197,15 @@ Two Mar-20 calls. On the **[[wiki/meetings/2026-03-20-game-development-schedule-
 
 On the [[wiki/meetings/2026-03-27-automation-progress-review.md|Mar-27 automation progress review]] (with [[wiki/people/clayton-chancey.md|Clayton Chancey]] and [[wiki/people/val-levitan.md|Val]]) Lena reviewed Clayton's transcription microservice and **MCP**: she likes how the MCP works in her **sandbox** but, before rolling it to the wider art/dev team, wants the sync fixed to a **specific Windows folder** (not download-to-desktop) and the **Windows mounted-drive** issue resolved. She also suggested the transcription pipeline **interleave timestamped meeting chat content** (links, bullet points, requirement references shared in Teams chat) into the transcript, since important detail often lives in chat rather than speech — especially for screen-share-heavy sessions. See [[wiki/topics/ai-assisted-development.md]] (Mar-27). [[raw/Meeting_Transcript_automation_progress_review-March-27-2026.md]]
 
+## Mar 27 2026 — weekly game-dev review: Twin Bison concept art + South Dakota production
+
+On the [[wiki/meetings/2026-03-27-game-development-review.md|Mar-27 game-development review]] Lena presented the **GC363 Twin Bison** concept art (winter free-spins scene with the white-bison wild-reel lock; will add the 10 payline arrows and the shared liquid-glass nudge arrows) — approved, moving to design in parallel with Lions Riches — and reported South Dakota production: Black Hills Keno graphics nearly done, Cool Cat Keno assembly starting, La Rosa / Wild Gold / Dragon Pace status. She also flagged she lacks archive rights in Jira and will ask [[wiki/people/dmitri-kovalchuk.md|Dima]] about the archiving workflow. [[raw/Meeting_Transcript_game_development_March-27-2026-1.md]] [[raw/Meeting_Transcript_game_development_March-27-2026-2.md]] [[raw/Meeting_Notes_game_development_March-27-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_game_development_March-27-2026-1.md]]
+- [[raw/Meeting_Transcript_game_development_March-27-2026-2.md]]
+- [[raw/Meeting_Notes_game_development_March-27-2026.md]]
 - [[raw/Grooming Dashboard for IP-89-March-17-2026.md]]
 - [[raw/JIRA_Schedule_review-March-13-2026.md]]
 - [[raw/Game_Development-March-13-2026.md]]

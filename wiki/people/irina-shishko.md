@@ -4,7 +4,7 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 46
+source-count: 48
 open-commitments: 1
 ---
 
@@ -106,8 +106,14 @@ On the [[wiki/meetings/2026-03-05-nebraska-schedule-review.md|Mar-5 4:13pm Nebra
 
 On the two-segment [[wiki/meetings/2026-03-26-initiative-priority-schedule.md|Initiative Priority Schedule]] meeting (with [[wiki/people/val-levitan.md|Val]] and [[wiki/people/pavel.md|Pavel Frolov]]) Irina Shishko took the QA/release-management angle: she pressed that fixing the priorities isn't enough — the team must decide **which product versions ship, in what order** — and gave the testing read (a kernel upgrade means re-testing hardware across printers, validators, SAS and games, so ~2 weeks; she also confirmed the setup-mode freeze bug is **not** QR-code-related). She is named for testing coordination and release management, and can ask [[wiki/people/elizabeth.md|Elizabeth]] to do on-site testing once builds are ready. Consistent with her Vice-Director-of-Engineering / Director-of-QA role. See [[wiki/topics/github-release-management-pipeline.md]] (Mar-26). [[raw/Meeting_Transcript_initiative_priority_schedule-1-March-26-2026.md]] [[raw/Meeting_Transcript_initiative_priority_schedule-2-March-26-2026.md]] [[raw/Meeting_Notes_initiative_priority_schedule-March-26-2026.md]]
 
+## Mar 27 2026 — to own the Maple Jira work via Claude (OMNI call; referenced as "Ira")
+
+On the [[wiki/meetings/2026-03-27-omni-architecture-challenge.md|Mar-27 OMNI Architecture Challenge]] call (Val ↔ [[wiki/people/pavel.md|Pavel]]), Val referred to **"Ира"/"Ira"** — resolved here as Irina Shishko by context (engineering/release work alongside Pavel, following the same-day-prior Maple/release thread of [[wiki/meetings/2026-03-26-initiative-priority-schedule.md|Mar-26]]) — who had worked on the **Maple** (Texas refit) rework that morning. Val praised her analysis and directed that **she herself** finish it, **use Claude to create the Jira Features** (going directly to Features), and distribute to all participants for review — explicitly not Pavel and not an automated push by Val. (The "Ira" resolution is by context; if the owner reads it as a different Irina, flag for correction.) Substance on [[wiki/topics/ai-assisted-development.md]] (Mar-27). [[raw/Meeting_Transcript_OMNI_Architecture_Challenge-March-27-2026.md]] [[raw/OMNI_Architecture_Challenge-March-27-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_OMNI_Architecture_Challenge-March-27-2026.md]]
+- [[raw/OMNI_Architecture_Challenge-March-27-2026.md]]
 - [[raw/Meeting_Transcript_initiative_priority_schedule-1-March-26-2026.md]]
 - [[raw/Meeting_Transcript_initiative_priority_schedule-2-March-26-2026.md]]
 - [[raw/Meeting_Notes_initiative_priority_schedule-March-26-2026.md]]

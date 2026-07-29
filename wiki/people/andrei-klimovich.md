@@ -4,7 +4,7 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 28
+source-count: 30
 open-commitments: 12
 open-questions: 0
 ---
@@ -192,11 +192,15 @@ On the [[wiki/meetings/2026-03-27-alignment-andrei-klimovich.md|Mar-27 alignment
 
 **ECHO marketing/sales update (segment 1).** See [[wiki/topics/echo-home-gaming-device.md]] (Mar-27) for the full detail: an Amazon category move for organic lift and new campaigns/creatives launching within the week; one Amazon order and 23 accumulated carts on the 15% Easter/Spring discount; Meta cost/cart cut **$20 → $11** and CPC **~50-60¢ → 20¢**; a Google gambling-suspicion strike spiked CPC to ~$1 (monitored through the weekend); **Bing and Twitter both to be shut off after Easter** (Bing zero carts; Twitter ~$2.50/click ≈ 12× Meta, off-audience); the site's Google trust index rose **11 → 13** (20 = "reliable"); the team is **moving off the external web agency onto Claude**; and Andrei built a **unified knowledge base** the whole marketing team now works from. Val recommended Andrei adopt **Claude Code desktop** (skills, file management, transcription with a Russian/English lexicon table); Andrei agreed to learn by doing. [[raw/Meeting_Transcript_Alignment_Andrei_Klimovich-1-March-27-2026.md]] [[raw/Meeting_Notes_Echo_Marketing_Sales_Update-March-27-2026.md]]
 
+**Pavel briefed on the appointment (same-day OMNI call).** On the [[wiki/meetings/2026-03-27-omni-architecture-challenge.md|Mar-27 OMNI Architecture Challenge]] call, Val told [[wiki/people/pavel.md|Pavel Frolov]] that Andrei is being reassigned from sales/marketing to **Product Manager & Marketing for Transactional Payments**, added to the white-label ("Espace Blanc") work, with **direct interaction with Pavel**. Val praised him as an engineer by education — honest, organized and smart, "proven from all angles" — and said he will start very soon so Pavel should expect contact. Val described the reporting to Pavel as dual "to Lana/Ilana and me" — which **diverges** from the same-day [[wiki/meetings/2026-03-27-alignment-andrei-klimovich.md|alignment call]] that names **[[wiki/people/juan-martinez.md|Juan Martinez]]** as the second report; the "Lana/Ilana" name is verbatim-uncertain and the discrepancy is left unresolved. [[raw/Meeting_Transcript_OMNI_Architecture_Challenge-March-27-2026.md]] [[raw/OMNI_Architecture_Challenge-March-27-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Alignment_Andrei_Klimovich-1-March-27-2026.md]]
 - [[raw/Meeting_Transcript_Alignment_Andrei_Klimovich-2-March-27-2026.md]]
 - [[raw/Meeting_Notes_Transactional_PMM_Appointment-March-27-2026.md]]
+- [[raw/Meeting_Transcript_OMNI_Architecture_Challenge-March-27-2026.md]]
+- [[raw/OMNI_Architecture_Challenge-March-27-2026.md]]
 - [[raw/Meeting_Notes_Echo_Marketing_Sales_Update-March-27-2026.md]]
 - [[raw/echo_distribution_marketing_update-september-16-2025.md]]
 - [[raw/Andrei_Klimovich_Product_Manager_Transactional_Equipment-March20-2025.md]]

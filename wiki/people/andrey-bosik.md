@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 64
+source-count: 66
 open-commitments: 7
 ---
 
@@ -193,8 +193,14 @@ On the data-access-strategy / CMS-cloud-migration call ([[wiki/meetings/2026-03-
 
 On the [[wiki/meetings/2026-03-26-initiative-priority-schedule.md|Initiative Priority Schedule]] meeting (discussed, not clearly present) Pavel named **Andrei Bosik** for the kernel-5.15 work's supporting task: **mirror the Linux kernel sources to GitHub** (so JVL's build pulls them from its own GitHub) — a background job Pavel expects to run ~a day on its own, freeing Pavel to do the kernel build itself. Consistent with his DevOps/GitHub-mirroring role. See [[wiki/topics/github-release-management-pipeline.md]] (Mar-26). [[raw/Meeting_Transcript_initiative_priority_schedule-2-March-26-2026.md]] [[raw/Meeting_Notes_initiative_priority_schedule-March-26-2026.md]]
 
+## Mar 27 2026 — Review of Engineering Guides: transcript storage, folder structure, workflow-example request
+
+On the [[wiki/meetings/2026-03-27-review-of-engineering-guides.md|Review of Engineering Guides]] Andrei argued that transcripts should be stored **tied to their project** (not one undifferentiated repo) so they aren't disconnected from context, clarified that only **text transcripts** (not audio) go to GitHub, and questioned why the proposed directory structure separates "Architecture" and "ADRs." He requested that the Engineering Guides document include a **concrete step-by-step workflow example** (meeting → transcript → AI processing → ADR extraction → repository storage), fact-based with question marks where details are unknown rather than AI speculation. He co-owns (with [[wiki/people/dmitri-kovalchuk.md|Dima]]) preparing the repository structure for the incoming Clayton/Elena transcript pipeline (~April 10). Substance on [[wiki/topics/transcript-knowledge-base-tooling.md]] + [[wiki/topics/ai-assisted-development.md]] (Mar-27). [[raw/Meeting_Transcript_Review_of_Engineering_Guides-March-27-2026.md]] [[raw/Meeting_Notes_Review_of_Engineering_Guides-March-27-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Review_of_Engineering_Guides-March-27-2026.md]]
+- [[raw/Meeting_Notes_Review_of_Engineering_Guides-March-27-2026.md]]
 - [[raw/Meeting_Transcript_initiative_priority_schedule-2-March-26-2026.md]]
 - [[raw/Meeting_Notes_initiative_priority_schedule-March-26-2026.md]]
 - [[raw/Meeting_Transcript_data_access_strategy_and_cms_cloud_migration-March-23-2026.md]]

@@ -3,7 +3,7 @@ type: project
 title: South Dakota VLT market entry
 date: 2025-01-22
 aliases: [South Dakota, SD VLT, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950, V43, D27, SD cap, Bioliches, Gypsy Spirit, Crazy Colt, Queen of Luxor, Liberty Spin, Rodeo Spin, South Dakota vertical, MG Oil report]
-source-count: 15
+source-count: 18
 ---
 
 # South Dakota VLT market entry
@@ -117,12 +117,23 @@ On the [[wiki/meetings/2026-03-04-game-development-schedule-review.md|Mar-4 game
 
 On the [[wiki/meetings/2026-03-20-game-development-schedule-review.md|Mar-20 game-development schedule review]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/michael-gottlieb.md|Michael]], [[wiki/people/lena.md|Lena]], [[wiki/people/juan-martinez.md|Juan]], [[wiki/people/efim-podvoiski.md|Efim]]) Lena reported production was **actively focused on IP40059 — the South Dakota VLT** — reviewed daily with Michael. Status: **Rodeo Spins finished, Clover Fortune finished** (to be moved over), and **La Rosa** is nearly done — held only on getting the **Gold Nugget presentation** finally approved (part of the first game), which they hoped to close in the next build. Lena judged the SD games "in very good shape." [[raw/JIRA_schedule_review_Game_Development-March-20-2026.md]]
 
+## Mar 27 2026 — IP459 production: two keno games, the keno demo-mode gap, and the ~May-1 GLI plan
+
+On the [[wiki/meetings/2026-03-27-game-development-review.md|Mar-27 game-development review]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/michael-gottlieb.md|Michael]], [[wiki/people/lena.md|Lena]], [[wiki/people/juan-martinez.md|Juan]], [[wiki/people/efim-podvoiski.md|Efim]]) production was focused on **IP459 South Dakota** (transcribed "IP459"; likely the same SD-VLT initiative recorded as IP40059 on Mar-20 — inference, flagged). Status:
+
+- **Black Hills Keno** — graphics assets essentially done (some audio/timing bugs remaining); schedule target **~April 16**. Lena noted it now depends more on [[wiki/people/efim-podvoiski.md|Efim]]'s programming ("Anton") than on graphics; Val pressed hard on whether that engineering dependency was a real bottleneck versus an artistic-reiteration loop, insisting he be the "ultimate authority of the schedule." [[raw/Meeting_Transcript_game_development_March-27-2026-1.md]] [[raw/Meeting_Notes_game_development_March-27-2026.md]]
+- **Cool Cat Keno (IP985)** — assembly starting; because this is JVL's first keno, a **demo mode had never been built for keno** and had no template — Efim was building it on the fly so QA can work with the game (the tasks for keno weren't broken down in detail up front). [[raw/Meeting_Transcript_game_development_March-27-2026-1.md]] [[raw/Meeting_Notes_game_development_March-27-2026.md]]
+- **Other SD slots** — **La Rosa** nearly done (Gold Nugget jackpot topper pending review next build), **Wild Gold (IP995)** in progress and inserted into the build (review pending), **Line Switches (IP998)** closed, **Dragon Pace (IP997)** the next and last slot for the SD release. Four SD slot games are visually complete. **IP975** (a Florida-market game) was **archived/abandoned**. [[raw/Meeting_Transcript_game_development_March-27-2026-1.md]] [[raw/Meeting_Notes_game_development_March-27-2026.md]]
+- **Release plan** — art/design assets due ~**April 16** (does **not** include integration, which happens incrementally as assets are delivered). Target ~**May 1** to send **red-label software to the South Dakota Lottery first** (Lonnie) to troubleshoot, then to **GLI** after their green light. QA can begin testing the completed slots and Black Hills now. [[raw/Meeting_Transcript_game_development_March-27-2026-1.md]] [[raw/Meeting_Notes_game_development_March-27-2026.md]]
+
 ## Who
 
 - Driven by [[wiki/people/val-levitan.md|Val]] with [[wiki/people/juan-martinez.md|Juan]] (regulator/operator relationship, field side) and [[wiki/people/pavel.md|Pavel]] (Minsk software); [[wiki/people/irina-shishko.md|Irina]] on printer testing and GLI diffs, [[wiki/people/sebastian.md|Sebastian]] on field service, [[wiki/people/ivan.md|Ivan]] on GLI scheduling. **Lonnie** is the SD lottery-lab tester; **"Alani"** appears as the SD lottery (supplied the SAS adapter, requested the permit-number rename) — whether Alani is the lottery entity or a person there is unclear (see Owner Decisions). [[raw/sd_vlt_recap-jan-22-2025.md]] [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 
 ## Sources
 
+- [[raw/Meeting_Transcript_game_development_March-27-2026-1.md]]
+- [[raw/Meeting_Notes_game_development_March-27-2026.md]]
 - [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]
 - [[raw/sd_vlt_recap-jan-22-2025.md]]
 - [[raw/Alignment_outstanding_subjects_2025-02-19.md]]

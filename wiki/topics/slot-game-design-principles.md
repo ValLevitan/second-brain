@@ -3,7 +3,7 @@ type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
 aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus]
-source-count: 41
+source-count: 44
 open-questions: 3
 ---
 
@@ -393,8 +393,20 @@ On the [[wiki/meetings/2026-03-20-game-development-schedule-review.md|Mar-20 gam
 - **Kai-Ocho on Omni was a test bed, now a marketable game.** Kayocho (Kai-Ocho) for **Omni** had done its job as a **certification test bed** — certify the Omni framework, estimate the **FP7** processor's graphics performance, iron out Omni framework/data-center bugs, and establish the (materially different) Omni **workflow/tools** Lena now uses. Rather than scrap it, the team will **market it** as part of the **Fiery Ice Link** package on Omni (it is JVL's only Omni-ready game and is needed for GLI load/functionality testing). [[raw/JIRA_schedule_review_Game_Development-March-20-2026.md]]
 - **"Show mode" / release-loading needs proper architecture (Val undertaking).** Lena currently downloads a review build from **GitHub** and runs a single file in a browser; Val took an undertaking to work with the developers on a proper **server-to-workstation push** and on adding **dual/multi-screen "show mode"** support to the Omni build (Rage already supports running products across multiple/rotated screens; Efim framed the need as flexibly **mapping virtual screens to actual windows**). [[raw/JIRA_schedule_review_Game_Development-March-20-2026.md]]
 
+## Mar 27 2026 — GC363 Twin Bison concept-art review (symbol hierarchy, white-bison free-spins lock, precog, nudge arrows)
+
+On the [[wiki/meetings/2026-03-27-game-development-review.md|Mar-27 game-development review]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/michael-gottlieb.md|Michael]], [[wiki/people/lena.md|Lena]], [[wiki/people/juan-martinez.md|Juan]], [[wiki/people/efim-podvoiski.md|Efim]]) the second segment was a full concept-art review of **GC363 Twin Bison** (part of IP535), which was **approved** and moved out of the concept stage that day. Durable design points:
+
+- **Three-tier symbol hierarchy.** The **bison** (oversized) and the **free-spins symbol** (oversized) are the top tier; the other animals are the mid tier; the **Royals are desaturated, small, no circle border** and deliberately "almost insignificant." Michael's rule: three size hierarchies is the readable maximum — more granularity than that becomes hard for the player to track. [[raw/Meeting_Transcript_game_development_March-27-2026-2.md]] [[raw/Meeting_Notes_game_development_March-27-2026.md]]
+- **Pay-table reads high-to-low, left→right.** The highest-value symbols sit on the left and diminish rightward, because players read left-to-right and the most important information should come first (consistent with the reference games). [[raw/Meeting_Transcript_game_development_March-27-2026-2.md]]
+- **Winter free-spins scene + the white-bison wild-reel lock.** Free spins are a winter scene: white bisons run across the bottom of the screen, snow/ice effects freeze the reels, and a wild reel appears. In free spins a bison symbol **locks** on its reel (watery/icy → frozen) until it sits on a winning pay line, then releases. The silver-vs-gold Twin Bison text mirrors this lighting/ice effect. [[raw/Meeting_Transcript_game_development_March-27-2026-2.md]] [[raw/Meeting_Notes_game_development_March-27-2026.md]]
+- **Precog/anticipation must correlate with a win.** The "about to get a wild" hype effect should not fire when there is no payoff — "you don't want the player to feel like… there's nothing underneath the hat," so its frequency and pay-correlation will be tuned. [[raw/Meeting_Transcript_game_development_March-27-2026-2.md]] [[raw/Meeting_Notes_game_development_March-27-2026.md]]
+- **Consistent nudge arrows; 10 paylines.** The nudge effect uses the **same liquid-glass triangle arrows across all games** (a prior decision); the game has **10 paylines** and needs payline arrows added to the concept; the free-spins transition will use the Indian pattern from the free-spin symbol. Val called it "your strongest game so far." [[raw/Meeting_Transcript_game_development_March-27-2026-2.md]] [[raw/Meeting_Notes_game_development_March-27-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_game_development_March-27-2026-2.md]]
+- [[raw/Meeting_Notes_game_development_March-27-2026.md]]
 - [[raw/JIRA_Schedule_review-March-13-2026.md]]
 - [[raw/Game_Development-March-13-2026.md]]
 - [[raw/Game_Development-February-27-2026.md]]
