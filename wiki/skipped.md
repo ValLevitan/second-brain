@@ -88,6 +88,9 @@ Format: `raw/<skipped file>` — source of record `raw/<cited fuller file>` — 
 ### Batch 134
 - `transcript_Freezing investigation.md` (md5 e6255ca7a257c3b2e2f2953a8b28c3f3) — byte-identical duplicate of `raw/transcript_Freezing_investigation-March-25-2026.md` (same "Freezing investigation-20260325_070320" recording) — SoR the canonical; not staged, no stub.
 
+### Batch 137
+- `.claude/settings.local.json` (in the March-2026 transcript folder) — non-content Claude-config artifact (123B), not meeting/reference content — not staged, no stub, no fold.
+
 ### Out-of-scope exclusions (non-JVL content — not ingested, not a §12 dup)
 - `raw/koenigsegg_regera-verbal_orgasm-may-21-2025.md` — **OUT OF SCOPE (not a JVL meeting).** A YouTube-style narration/review of the Koenigsegg Regera hypercar ("…a bunch of Swedish engineers… 1,500 horsepower"), mis-filed into the May-2025 transcripts folder. Not a JVL business meeting, not §15.8-sensitive — simply off-topic per §1 scope. Excluded (recorded here so the pending-sweep and full-year no-file-loss audit don't re-flag it). Found in the 2025-complete full-year sweep, 2026-07-20.
 

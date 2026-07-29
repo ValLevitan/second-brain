@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena]
-source-count: 59
+source-count: 61
 ---
 
 # Genadi Peari
@@ -192,6 +192,10 @@ On the two same-day planning calls ([[wiki/meetings/2026-02-26-tasks-planning-al
 - Walked his backlog status — **Flex Sport (IP 578)** sent for 2 more manufacturer iterations (samples ~2 weeks, effectively done); **IP 1014 Flex Cash Dispenser** BOM/Fujitsu-design closed with hardware development + [[wiki/people/evgeniy-alekseev.md|Alekseev]]'s prototype in progress; will order an initial **15-unit "run"** (harness first). [[raw/tasks_planning_alignment-February-26-2026.md]]
 - Opened the 3:18pm call with the core problem — **"Fujitsu doesn't accept cash, we need bill acceptors"** — and worked through adding a **bill acceptor + recycler** to FlexPay, warning it makes the unit roughly FlexPay's own width; agreed to Val's plan to **narrow the vertical FlexPay from ~2 ft to ~1 ft** in two stages (drop the recycler into the existing enclosure first, proper industrial design — vertical monitor, added height — second). He needs **two new tasks** (mechanical **redesign** + **BOM**) for the Fujitsu form, plus prototypes, harness and detailed BOM material (may copy tasks 371/372 or build fresh). Substance and the open commitment on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Feb-26). [[raw/JIRA_Planning-February-26-2026.md]]
 
+## Mar 4 2026 — FlexPort IP-578 Q&A (written)
+
+A **written question→answer exchange** with [[wiki/people/val-levitan.md|Val]] (not a meeting or recorded call): Val sent prepared follow-up questions across the transactional-hardware backlog and Genadi answered each in writing. Genadi's answers: the **2nd-iteration Flex Sport/FlexPort samples (IP-578)** were requested but the manufacturer ("Hesheng", as written) had not returned from holidays, so no reply yet (no issues expected); the **FlexPOS tooling drawings (IP-955)** are not submitted, deferred until after the Texas Pay-Station prototype production (Cash Dispenser + Recycler) is released; the **Flex Cash Dispenser prototype order (IP-1014)** was placed, expected **March 20**; a **Hangzhou quotation** for the Vertical Pay Station came back, but reviewing **HFM-400 with Val and Pavel** forced a requirements change — **HFM-400** (Fujitsu variant) reworked wider to take a **bill acceptor + ticket printer**, and a new **HFM-401** created for a **Cash Recycler SCR from MEI**, with EM drawings for both due that week; [[wiki/people/mikhail-perelman.md|Misha]] is awaiting a **GA manufacturer** quote (none yet); the **HM-400 BOM** was **created in BC**; POS physical integration was discussed with [[wiki/people/pavel.md|Pavel]] (minor wiring left, no work needed from Genadi — Pavel has functional prototypes and owns the system/GUI finish); and Genadi asked for a short meeting with Val to scope the **vertical FlexPay** (phase-2) requirements. Substance on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Mar-4). §15.8 clear (BOM/hardware only). [[raw/Genadi_Review_draft_questions_FlexPort_IP-578-March-4-2026.md]] [[raw/Genadi_reply_to_Val_questions_FlexPort_IP-578-March-4-2026.md]]
+
 ## Mar 11 2026 — the "Flex Recycler Slim" between-machines kiosk
 
 On a garbled Russian one-on-one with Val ([[wiki/meetings/2026-03-11-flex-recycler-slim.md]], 08:31pm) Genadi worked the design of a new **slim payout kiosk (the "Flex Recycler Slim")** meant to stand between machines:
@@ -270,3 +274,5 @@ On a very short (~1m24s), heavily garbled call with Val ([[wiki/meetings/2026-03
 - [[raw/flex-port_flex-pay_smib_update-may-20-2025.md]]
 - [[raw/about_tickets_redemption-gcoam-june-18–2025.md]]
 - [[raw/SREDs_progress_review-March-20-2026.md]]
+- [[raw/Genadi_Review_draft_questions_FlexPort_IP-578-March-4-2026.md]]
+- [[raw/Genadi_reply_to_Val_questions_FlexPort_IP-578-March-4-2026.md]]
