@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, Copilot Studio, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest, LaTeX, printer tool, Ollama, llama.cpp, local inference, Code Llama, Hugging Face, Claude Code, AI sandwich, developer experience, think like a data scientist, sub-agents, verbose output, compiler layer, ways vs skills, ADR, cross-examination, Python Vulture, intelligence center, Waze system, ways framework, compiler stack diagram, module federation, Aaron ways system, Ways ADR, Ways capabilities catalog, regulatory provenance chain, JVL Ways pipeline, ways branch architecture, trusted stage users, clean environment lesson, engagement auditor agent, translation service, terminology override table, GitHub Enterprise fork, JVL GitHub Ways architecture guide, Capability Ticket, Jira hierarchy restructure, engineering guides, architecture black hole, Piratka]
-source-count: 82
+source-count: 84
 ---
 
 # AI-assisted development adoption
@@ -467,6 +467,14 @@ On the [[wiki/meetings/2026-03-28-game-design-wolfpack-strategy.md|Mar-28 Wolfpa
 
 §15.8 clear — tooling economics only ($250/mo AI PR check is a vendor figure, not compensation).
 
+## Mar 13 & 19 2026 — the "Semantic Understanding" sessions: Jira-MCP sub-agents, story-as-artifact, and MCPB packaging
+
+Two [[wiki/people/clayton-chancey.md|Clayton]] ↔ [[wiki/people/lena.md|Lena]] ↔ [[wiki/people/val-levitan.md|Val]] sessions ([[wiki/meetings/2026-03-13-semantic-understanding-clayton-aaron.md|Mar-13]] 2:00pm, [[wiki/people/aaron.md|Aaron]] joining late; [[wiki/meetings/2026-03-19-semantic-understanding-clayton-aaron.md|Mar-19]] 2:03pm) whose transcription-pipeline core is on [[wiki/topics/transcript-knowledge-base-tooling.md]] (Mar-13 & 19). The AI-tooling substance belongs here:
+
+- **Jira-MCP tuning (Mar-13).** The custom Atlassian MCP that turns a good transcript into a Jira feature/story hierarchy is working (sandbox-tested). Clayton committed to add **sub-agents** to the MCP's own prompting so reasoning quality doesn't degrade on a long transcript (an orchestrator dispatches read-plan / research-Jira-conventions / execute as separate agent sessions, keeping each one's context from saturating), and to have the tool **research the live Jira conventions** at run time rather than hard-code them — so the tool tracks JVL's evolving ways without edits. Sandbox assignments came back unassigned only because the sandbox users don't exist. [[raw/Clayton-Aaron-JVL-semantic-understanding-March-13-2026.md]]
+- **Story-as-artifact + zero-overhead bureaucracy (Mar-13).** Val's objective: turn a conversation into actionable Jira items at near-zero overhead ("good necessary bureaucracy" driven to ~0 cost), and his shift from **story-as-to-do-list to story-as-deliverable** — a completed feature = a GitHub branch, a completed story = a versioned artifact under that branch, wired automatically through the Jira↔GitHub CI/CD integration. He noted the current SVN-based framework is "dying" and being replaced by the **Omni** framework, where a Jira feature becomes a GitHub branch. [[raw/Clayton-Aaron-JVL-semantic-understanding-March-13-2026.md]]
+- **MCPB single-file packaging + the Windows Cowork limitation (Mar-19).** Clayton's deployment plan for the pipeline: an API, then wrap it as an **MCPB** — a new single-file MCP convention that a user drops into Claude Desktop, Cowork, or Code and it just loads. He also re-hit the limitation that **Claude Cowork on Windows can only reach the user's home/desktop folder, not the D drive** (its Linux container can't cross an "arbitrary firewall restriction"), which blocks Lena's image-in-desktop workflow; Clayton — newly **accepted as an Anthropic partner** after an initial size-based rejection — said he now has technical contacts he might raise it with, as only Anthropic can change it. (Same Windows folder-sync blocker Clayton later carried to the Mar-27 review.) [[raw/Clayton-Aaron-JVL-semantic-understanding-March-19-2026.md]]
+
 ## Mar 27 2026 — transcription pipeline is now a hosted microservice; Power Automate → GitHub auto-posting proposed
 
 On the [[wiki/meetings/2026-03-27-automation-progress-review.md|Mar-27 automation progress review]] ([[wiki/people/clayton-chancey.md|Clayton Chancey]] + [[wiki/people/lena.md|Lena Zhukova]] + [[wiki/people/val-levitan.md|Val]]; [[wiki/people/aaron.md|Aaron]] absent, both he and Clayton pulled onto a same-day Anthropic/Claude-Code outage incident) Clayton reported that the JVL meeting-transcription pipeline is now a **hosted API microservice**. This continues the enforcement-loops/transparency thread of Mar 9–10 ([[wiki/meetings/2026-03-09-it-github-jira-infrastructure.md]], [[wiki/meetings/2026-03-09-jira-github-enforcement-aaron.md]], [[wiki/meetings/2026-03-10-jira-github-transparency.md]]). [[raw/Meeting_Transcript_automation_progress_review-March-27-2026.md]]
@@ -511,6 +519,8 @@ On the [[wiki/meetings/2026-03-31-transcripts-mcp-setup-lena.md|Mar-31 transcrip
 - [[raw/Meeting_Transcript_OMNI_Architecture_Challenge-March-27-2026.md]]
 - [[raw/OMNI_Architecture_Challenge-March-27-2026.md]]
 - [[raw/Meeting_Transcript_automation_progress_review-March-27-2026.md]]
+- [[raw/Clayton-Aaron-JVL-semantic-understanding-March-13-2026.md]]
+- [[raw/Clayton-Aaron-JVL-semantic-understanding-March-19-2026.md]]
 - [[raw/MCP_JIRA_new_release_March-6-2026.md]]
 - [[raw/MCP_JIRA_new_release_March-6-2026 (1).md]]
 - [[raw/Review_custom_fields_JIRA-February-27-2026.md]]

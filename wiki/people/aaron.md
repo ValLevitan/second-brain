@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 105
+source-count: 106
 open-commitments: 2
 ---
 
@@ -270,6 +270,10 @@ On a ~10m evening call ([[wiki/meetings/2026-03-09-jira-github-enforcement-aaron
 
 On a short evening call ([[wiki/meetings/2026-03-13-capabilities-requirements-adr-storage.md]], 9:33pm; with [[wiki/people/val-levitan.md|Val]]) Aaron settled JVL's storage/source-of-truth model. He rejected Val's "keep it unchangeable in Jira" (Jira is a deletable, cloud-hosted issue tracker with **no cryptographic integrity** — "I just don't trust it") and ruled the **git repo the source of truth**, with Jira holding a **shadow copy** on a reciprocal link (repo wins on divergence). **ADRs and capabilities are kept with the repo** — never in Jira or Confluence — while **requirements stay as informal text blobs in Jira "for now"** because JVL "lacks the maturity" for a dedicated requirements tool ([[wiki/people/juan-martinez.md|Juan]]'s data-set curing is the first step toward it). He corrected Val's "GitHub" to "**git repo**" (elemental-tool thinking) and gave the flow **requirements → capabilities → ADR → spec → code**, tests as contracts. This nails down the storage layer behind the Aaron-"Ways" ADR/Capabilities documents. See [[wiki/topics/ai-assisted-development.md]] and [[wiki/topics/transcript-knowledge-base-tooling.md]] (Mar-13). §15.8 clear. [[raw/Capabilities_requirements_ADR-storage-March-13-2026.md]]
 
+## Mar 13 2026 — brief cameo on the "Semantic Understanding" transcription session (2:00pm)
+
+Earlier the same day, Aaron joined the last ~15 minutes of the [[wiki/meetings/2026-03-13-semantic-understanding-clayton-aaron.md|2:00pm "Semantic Understanding" session]] ([[wiki/people/clayton-chancey.md|Clayton]], [[wiki/people/lena.md|Lena]], [[wiki/people/val-levitan.md|Val]]). Clayton caught him up on the plan to build a custom Whisper transcription pipeline for JVL's Russian/slang meetings; Aaron confirmed there are good **fine-tuned Russian Whisper models**, agreed the Teams/Copilot Russian gap is real ("politics"), and endorsed running the flow on **N8N** as a hosted low-code service. He and Clayton — who had each built Whisper tools before — agreed to spend ~an hour together on it. He did **not** attend the Mar-19 follow-up. Detail on [[wiki/topics/transcript-knowledge-base-tooling.md]] (Mar-13). §15.8 clear. [[raw/Clayton-Aaron-JVL-semantic-understanding-March-13-2026.md]]
+
 ## Mar 16 2026 — release-procedure teardown + the documentation-flow feedback (two-segment call)
 
 A single continuous Val↔Aaron call recorded in two segments ([[wiki/meetings/2026-03-16-release-procedure-and-eng-documentation-flow.md]], headers 12:07pm + 12:21pm), run as a dictation session Val turns into written guidance for [[wiki/people/dmitri-kovalchuk.md|Dima Kovalchuk]] and [[wiki/people/andrey-bosik.md|Andrei Bosik]].
@@ -295,6 +299,7 @@ Aaron was **not present** at the [[wiki/meetings/2026-03-31-transcripts-mcp-setu
 
 ## Sources
 
+- [[raw/Clayton-Aaron-JVL-semantic-understanding-March-13-2026.md]]
 - [[raw/Aaron_Val-release_procedure_GitHub-March-16-2026.md]]
 - [[raw/Execeutive_Engineering_documentation_flow-March-16-2026.md]]
 - [[raw/Requirements_Capabilities-March-16-2025.md]]

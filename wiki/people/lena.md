@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna, Selena, Elena]
-source-count: 52
+source-count: 54
 open-commitments: 1
 ---
 
@@ -193,6 +193,10 @@ On a short Russian call ([[wiki/meetings/2026-03-17-ip-89-dashboard-grooming.md]
 
 Two Mar-20 calls. On the **[[wiki/meetings/2026-03-20-game-development-schedule-review.md|game-development schedule review]]** Lena reported production actively focused on **IP40059 South Dakota VLT** (Rodeo Spins/Clover Fortune done, La Rosa near done on the Gold Nugget presentation), that **Dragon Pays (IP997)** is her next assignment, and that assets for **Kulkitkinen / Cool Cat Kino** are ready and just await [[wiki/people/anton-leshkevich.md|Anton]] to assemble. Val pressed whether Anton was a **bottleneck**; Lena clarified he is **not a stopper** — she has plenty of other work, it was "a wrong expression." She is the designated **consent-holder for the 3–6-month JIRA backlog band** under Val's new grooming policy and voiced concern about deleting detailed shelved projects (e.g. Fortune Foo Paws). Design detail on [[wiki/topics/slot-game-design-principles.md]] and SD status on [[wiki/projects/south-dakota-vlt-market.md]] (Mar-20). On the **[[wiki/meetings/2026-03-20-sred-progress-review.md|SR&ED progress review]]** she was present as a game-design/R&D lead while the team compiled the 2025 project list — see [[wiki/topics/sred-tax-credit.md]] (Mar-20). [[raw/JIRA_schedule_review_Game_Development-March-20-2026.md]] [[raw/SREDs_progress_review-March-20-2026.md]]
 
+## Mar 13 & 19 2026 — the "Semantic Understanding" transcription-pipeline sessions
+
+Lena drove the domain-expertise side of two [[wiki/people/clayton-chancey.md|Clayton]]-led sessions ([[wiki/meetings/2026-03-13-semantic-understanding-clayton-aaron.md|Mar-13]], [[wiki/meetings/2026-03-19-semantic-understanding-clayton-aaron.md|Mar-19]]) building JVL's Russian/slang transcription pipeline. On Mar-13 she described her manual baseline (audio → **Turboscribe** → her **taxonomy vocabulary spreadsheet** + Claude = "almost perfect"), the security worry IT raised about Turboscribe, and gave detailed feedback on the Jira MCP's output (good feature/story structure, imperfect descriptions; the images-must-be-on-desktop limitation). On Mar-19 she validated Clayton's pipeline output as accurate on speaker attribution and game names, but flagged the two defects — the **participants list wrongly including mentioned-but-absent people** and a mis-rendered game name — and won the ruling to **drop transliteration annotations** (developers always write "IP"/"Spine" in English anyway). She agreed to record her next daily graphics meeting as a second test case. Detail on [[wiki/topics/transcript-knowledge-base-tooling.md]] (Mar-13 & 19). [[raw/Clayton-Aaron-JVL-semantic-understanding-March-13-2026.md]] [[raw/Clayton-Aaron-JVL-semantic-understanding-March-19-2026.md]]
+
 ## Mar 27 2026 — automation review: MCP feedback and chat-interleave idea
 
 On the [[wiki/meetings/2026-03-27-automation-progress-review.md|Mar-27 automation progress review]] (with [[wiki/people/clayton-chancey.md|Clayton Chancey]] and [[wiki/people/val-levitan.md|Val]]) Lena reviewed Clayton's transcription microservice and **MCP**: she likes how the MCP works in her **sandbox** but, before rolling it to the wider art/dev team, wants the sync fixed to a **specific Windows folder** (not download-to-desktop) and the **Windows mounted-drive** issue resolved. She also suggested the transcription pipeline **interleave timestamped meeting chat content** (links, bullet points, requirement references shared in Teams chat) into the transcript, since important detail often lives in chat rather than speech — especially for screen-share-heavy sessions. See [[wiki/topics/ai-assisted-development.md]] (Mar-27). [[raw/Meeting_Transcript_automation_progress_review-March-27-2026.md]]
@@ -207,6 +211,8 @@ On the [[wiki/meetings/2026-03-31-transcripts-mcp-setup-lena.md|Mar-31 transcrip
 
 ## Sources
 
+- [[raw/Clayton-Aaron-JVL-semantic-understanding-March-13-2026.md]]
+- [[raw/Clayton-Aaron-JVL-semantic-understanding-March-19-2026.md]]
 - [[raw/Meeting_Transcript_game_development_March-27-2026-1.md]]
 - [[raw/Meeting_Transcript_game_development_March-27-2026-2.md]]
 - [[raw/Meeting_Notes_game_development_March-27-2026.md]]
