@@ -251,3 +251,35 @@ A plain-language prose essay — **"The world as this second brain currently see
 - **Rules:** light citations only (page names where helpful, no per-sentence clutter). Where the wiki holds an open contradiction, say so — don't pick a side. Label interpretation (vs wiki content) as such.
 - **Storage:** `reports/worldview-YYYY-MM-DD.md` (folder sits OUTSIDE `wiki/`; already excluded from the qmd `wiki` collection). It is an owner review artifact like a lint report — **no wiki page may cite it.** Log as `## [date] query | worldview essay N` and commit; present the essay to the owner.
 - **Owner corrections** (replies referencing ¶ numbers) are **owner rulings**: record them as owner-note context / queue resolutions and let them steer future ingestion emphasis. An owner correction is its own citation — never fabricate sourcing for it.
+
+## 17. Steady-state operation (post-backlog)
+
+**Governs life AFTER the backlog run finishes. Nothing here changes the remaining backlog batches.** Added by owner ruling 2026-07-29.
+
+- **Cadence: weekly.** One intake batch per week absorbing all new in-scope vault files since the last run (the normal §9 pending-sweep). Rationale (recorded so future sessions don't relitigate): (a) batches carry fixed overhead — seven daily micro-batches cost roughly triple one weekly batch; (b) sources arrive in **families** (transcript today, derived notes tomorrow, re-transcriptions later) and a weekly sweep sees whole families; (c) freshness has **diminishing value** to an owner who attended the meetings — the brain's job is what's fading, not yesterday. The cadence is a dial, revisable by owner ruling.
+- **Schedule: Friday 4:00 PM local time** — deliberately end-of-week so the week's meeting families are complete. **Local time, not a fixed zone** (the owner travels between offices/time zones; the run follows the machine's local clock).
+- **Trigger: automatic.** The concrete mechanism must be **designed and proposed to the owner for approval BEFORE activating** (it touches his machine setup). Requirements: (1) survives reboots; (2) **single-writer** — must NOT run concurrently with a still-running previous session; (3) on any wake it FIRST runs the §9 interrupted-batch recovery check before staging anything new.
+- **The batch itself is a normal ingest batch** — same staging discipline, corpus-wide §12, writer/verifier split, ≥10-fact verification, §15.8 guard, `qmd update`, commit + push. **Nothing is relaxed.**
+
+### 17.1 Weekly report (mandatory, every run — success OR failure)
+
+- **To: val@jvl.ca** (this is the JVL brain). Future brains for other domains report elsewhere (Personal → val@levitan.me) — **do NOT use those yet**.
+- **Succinct prose, minimum technical jargon** — the reader is a non-technical owner. Say: how many meetings came in and roughly what they were about; anything notable the wiki learned (a decision, a new person, a resolved question); anything held for the owner (Tier-A items, sensitive/§15.8 holds); and one plain sentence on health ("everything checked out" / "one item needs your eye"). **No hashes, no jaccard scores, no file paths.**
+- **Failure must be loud:** if the run could not complete — permission blocked, environment error, verification failure — the email leads with **"This week's update did NOT complete"** and the one action needed. Silent staleness is the failure mode this report exists to prevent.
+- If email sending is not possible from the environment, **propose the mechanism** (e.g. write the report to a fixed location a Cowork scheduled task emails from) rather than skipping the requirement.
+
+### 17.2 Slow-clock maintenance (steady state)
+
+- **Verification:** every batch (unchanged, non-negotiable).
+- **Lint (§13 full pass):** monthly.
+- **Outside-view audit:** quarterly.
+- **Worldview essay (§16):** quarterly, same rules, delivered with that week's report email.
+- **Month-close manifest:** at each calendar month boundary, as in the backlog.
+
+### 17.3 Review clause
+
+After the first month of steady state (4 runs), report to the owner: how many runs needed human help, average batch size, anything the cadence got wrong (families split across weeks, staleness complaints). The owner then confirms or adjusts cadence/trigger. **History:** the owner chose automatic-with-report over manual kickoff, and weekly over daily, on 2026-07-23 — revisit with **evidence, not preference**.
+
+### 17.4 Scope note
+
+This section governs the **JVL transcript pipeline only**. The proposed email/Teams weekly digest stream and any future "AI executive" observation feeds are **separate, not-yet-approved** designs — they enter, if ever, by explicit owner ruling as new source types through this same weekly intake.
