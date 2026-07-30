@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena]
-source-count: 61
+source-count: 64
 ---
 
 # Genadi Peari
@@ -213,8 +213,19 @@ On the [[wiki/meetings/2026-03-20-sred-progress-review.md|Mar-20 SR&ED progress 
 
 On a very short (~1m24s), heavily garbled call with Val ([[wiki/meetings/2026-03-30-genadi-omni-board-communication.md]], header 9:51pm) Val asked about the board-to-board communication link [[wiki/people/dima-pikulev.md|Dima Pikulev]] built in the OMNI hardware stack. Genadi confirmed they **intentionally fitted a USB Full Speed chip rather than a USB High Speed one** for the iBoard-to-mainboard link, because the higher speed wasn't needed for the use case, and there is an **option to increase the bandwidth later** if required. (The transcript is too garbled to reliably reconstruct exact figures or the precise board/component names — Full Speed vs High Speed USB are the standard 12 Mbit/s vs ~480 Mbit/s tiers.) This is the hardware side of the **iBoard high-speed memory-chip / state-persistence** concern [[wiki/people/alexander-biratka.md|Biratka]] raised earlier the same day about a peripheral-abstraction protocol layer — see [[wiki/topics/omni-core-advancement-and-game-templating.md]] (Mar-30). §15.8 clear. [[raw/Meeting_Transcript_Genadi_OMNI_Board_Communication-March-30-2026.md]] [[raw/Meeting_Notes_OMNI_Board_Communication_Genadi-March-30-2026.md]]
 
+## Apr 20 2026 — schedule review: HFM backlog + dispenser-vs-recycler strategy
+
+On the [[wiki/meetings/2026-04-20-genadi-schedule-review-alignment.md|Apr-20 schedule review]] (1h 7m; with Val) Genadi ran the active hardware backlog — HFM 507 tooling (samples ≥4 weeks), HFM 514 Georgia critical parts, HFM 504 fifth-country BOM (to walk with [[wiki/people/mikhail-perelman.md|Mikhail Perelman]]), HFM 519 sample plan, the **FDM-not-SLA** decision for the HFM 511 Minsk rapid prototype, and the Flex PAY IP 1014 sample verification (Pavel took it on because [[wiki/people/evgeniy-alekseev.md|Alekseev]] can't). Midway it became a strategic debate — dispenser vs. recycler+FlexSport bundling, distributor pricing, the Pyramid-dongle integration constraint, and Val leaning toward dropping the cash dispenser. Genadi pushed back on the dispenser's effort-to-sales ratio and was tasked with producing short (~2-week) and long-term schedules for the slim recycler product **IP 1055**. Full substance on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Apr-20). §15.8 clear. [[raw/Meeting_Transcript_genadi_schedule_review_alignment-April-20-2026.md]] [[raw/Meeting_Notes_genadi_schedule_review_alignment-April-20-2026.md]]
+
+## Apr 21 2026 — continue planning: the Flex Slim (IP 1055) Jira Gantt
+
+On the [[wiki/meetings/2026-04-21-genadi-continue-planning.md|Apr-21 continuation]] (~1h 24m; with Val; transcript only) Genadi and Val sequenced the **Flex Slim (IP 1055)** schedule — HFM 529 design (to ~May 8) → tooling (pilot molds, ~1-month lead) → transition-to-production (prototypes, metal set, BOM story HFM 556), with IP 1055 wrapping ~end-June and a production run ~June 20. Genadi flagged he can't finish HFM 519 (complex plastic) by May 8 (needs ~a week more) and that a flash-mounted touchscreen sample must be ordered to the vandal standard (~14 days). He also raised the refreshed-cabinet line (IP 759 / "Flex S"), needing a market-requirements review with the product side ([[wiki/people/andrei-klimovich.md|Andrei Klimovich]]; Val also referenced [[wiki/people/juan-martinez.md|Juan Martinez]]), and discussed a planned Georgia trip to help the on-site person set up the warehouse/production layout. Full substance on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Apr-21). §15.8 clear. [[raw/Meeting_Transcript_genadi_continue_planning-April-21-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_genadi_schedule_review_alignment-April-20-2026.md]]
+- [[raw/Meeting_Notes_genadi_schedule_review_alignment-April-20-2026.md]]
+- [[raw/Meeting_Transcript_genadi_continue_planning-April-21-2026.md]]
 - [[raw/Meeting_Transcript_Genadi_OMNI_Board_Communication-March-30-2026.md]]
 - [[raw/Meeting_Notes_OMNI_Board_Communication_Genadi-March-30-2026.md]]
 - [[raw/Flex-Recyler-Slim-Meeting-March-11-2026.md]]
