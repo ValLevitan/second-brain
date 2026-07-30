@@ -4,7 +4,7 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 31
+source-count: 34
 open-commitments: 12
 open-questions: 0
 ---
@@ -198,8 +198,15 @@ On the [[wiki/meetings/2026-03-27-alignment-andrei-klimovich.md|Mar-27 alignment
 
 On the [[wiki/meetings/2026-03-30-black-horse-invoice-payment-review.md|Black Horse invoice review (Part 2)]], [[wiki/people/felipe-miranda.md|Felipe]] asked Val about Andrei's new remit; Val confirmed Andrei is appointed **product & market manager for transactional products** — defining program requirements, shaping market strategy, and representing JVL across **Nebraska, Georgia and Texas** — and owns **all marketing**, but is **not selling** ("market and product ownership… he is not selling"). A clean external corroboration of the Mar-20/27 appointment. §15.8 clear. [[raw/Meeting_Transcript_Black_Horse_invoice_payment_review-2-March-30-2026.md]]
 
+## Apr 15 2026 — FlexPay functionality review; product ownership; Georgia onboarding
+
+On the [[wiki/meetings/2026-04-15-flex-pay-functionality-review.md|Apr-15 Flex-Pay functionality review]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/juan-martinez.md|Juan Martinez]], Andrei), Andrei walked the team through first-hand FlexPay kiosk UX observations he captured as a novice user; Val **assigned him product ownership** ("it's your product, you are responsible") including the "$0 playable" bug/scope-gap investigation. Val opened by orienting him to the transactional business and delivered coaching: be less "binary," share half-formed ideas, and adopt the capture-transcript → Aaron's-MCP → Jira workflow. Plan set for Andrei to be on the ground in **Georgia ~May 1** for hands-on alpha install, with a dedicated pricing-model call **Apr 21**. Role reconfirmed: corporate umbrella (marketing/market-&-product intelligence, can cut deals) supporting [[wiki/people/felipe-miranda.md|Felipe]]'s Georgia sales — not a sales entity. Full product/UX detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Apr-15). **§15.8:** his compensation percentage was referenced but not ingested. [[raw/Meeting_Transcript_Flex-Pay_functionality_review-1-April-15-2026.md]] [[raw/Meeting_Transcript_Flex-Pay_functionality_review-2-April-15-2026.md]] [[raw/Meeting_Notes_Flex-Pay_functionality_review-April-15-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Flex-Pay_functionality_review-1-April-15-2026.md]]
+- [[raw/Meeting_Transcript_Flex-Pay_functionality_review-2-April-15-2026.md]]
+- [[raw/Meeting_Notes_Flex-Pay_functionality_review-April-15-2026.md]]
 - [[raw/Meeting_Transcript_Alignment_Andrei_Klimovich-1-March-27-2026.md]]
 - [[raw/Meeting_Transcript_Alignment_Andrei_Klimovich-2-March-27-2026.md]]
 - [[raw/Meeting_Transcript_Black_Horse_invoice_payment_review-2-March-30-2026.md]]

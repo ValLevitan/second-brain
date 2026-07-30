@@ -3,7 +3,7 @@ type: person
 title: Lev Rudky
 date: 2024-01-01
 aliases: [Lev Rudky, Lev, Lev Rudki, Лёва Рудки]
-source-count: 12
+source-count: 15
 ---
 
 # Lev Rudky
@@ -40,8 +40,15 @@ On the [[wiki/meetings/2025-11-28-business-central-financial-classification-dime
 
 On the brief [[wiki/meetings/2026-04-14-accounts-receivables-ga-coam.md|Accounts Receivables GA-COAM]] wrap-up ([[wiki/people/val-levitan.md|Val]], [[wiki/people/felipe-miranda.md|Felipe]], [[wiki/people/laura.md|Laura]]) Val assigned Lev two things: work hand-in-hand with Laura to extract **native statements of account directly from Business Central** for the GA-COAM customers, and ensure those native BC statements can be **emailed directly to customers from within BC itself** (no manual export/attach step). Substance on [[wiki/topics/jvl-finance-back-office.md]] (Apr 14 2026). [[raw/Meeting_Transcript_accounts_receivables_GA-COAM-April-14-2026.md]] [[raw/Meeting_Notes_accounts_receivables_GA-COAM-April-14-2026.md]]
 
+## Apr 15 2026 — progress payments live; payment-terms cleanup; sales-rep access
+
+On the two-segment [[wiki/meetings/2026-04-15-bc-progress-payments-payment-terms.md|Apr-15 progress-payments call]] with [[wiki/people/val-levitan.md|Val]], Lev confirmed the AP Commerce **Progress Payment** add-on has been working since ~mid-March (an unsubscribe/resubscribe fixed it) — clarifying and apologizing for the Apr-14 impression that it still didn't work. Lev is to **clean up the old/inconsistently-named payment terms** (keeping only the new correctly-configured ones), **fix the 60-vs-90-day grace-period calc error**, and continue working the (still-broken) **sales-rep data-segregation** via permission sets + security filters. He explained the progress- (event-driven, A/P) vs installment- (time-driven, A/R) payment distinction and that each purchase-payment event posts a purchase invoice to the vendor/GL ledgers. Detail on [[wiki/topics/business-central-erp-implementation.md]] (Apr-15). **§15.8:** clear. [[raw/Meeting_Transcript_Lev_Rudky_BC_progress_payments_payment_terms-1-April-15-2026.md]] [[raw/Meeting_Transcript_Lev_Rudky_BC_progress_payments_payment_terms-2-April-15-2026.md]] [[raw/Meeting_Notes_Lev_Rudky_BC_progress_payments_payment_terms-April-15-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Lev_Rudky_BC_progress_payments_payment_terms-1-April-15-2026.md]]
+- [[raw/Meeting_Transcript_Lev_Rudky_BC_progress_payments_payment_terms-2-April-15-2026.md]]
+- [[raw/Meeting_Notes_Lev_Rudky_BC_progress_payments_payment_terms-April-15-2026.md]]
 - [[raw/Meeting_Transcript_accounts_receivables_GA-COAM-April-14-2026.md]]
 - [[raw/Meeting_Notes_accounts_receivables_GA-COAM-April-14-2026.md]]
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]

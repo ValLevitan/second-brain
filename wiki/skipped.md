@@ -124,6 +124,11 @@ Format: `raw/<skipped file>` — source of record `raw/<cited fuller file>` — 
 - `Accounts Receivables GA-COAM-April-14-2026/README.md` — bundle-manifest/index metadata, not meeting content; substance captured via the bundle's transcript + notes — not staged, no stub.
 - (No out-of-scope xlsx/media in any of the three Batch-144 bundles — each contains only transcript(s), notes, and a README.)
 
+### Batch 145
+- `BC Progress Payments Payment Terms-April-15-2026/README.md` — bundle-manifest/index metadata, not meeting content; substance captured via the bundle's two transcript segments + notes — not staged, no stub.
+- `Flex-Pay Functionality Review-April-15-2026/README.md` — bundle-manifest/index metadata, not meeting content; substance captured via the bundle's two transcript segments + notes — not staged, no stub.
+- (No out-of-scope xlsx/media in either Batch-145 bundle — each contains only transcript(s), notes, and a README.)
+
 ### Out-of-scope exclusions (non-JVL content — not ingested, not a §12 dup)
 - `raw/koenigsegg_regera-verbal_orgasm-may-21-2025.md` — **OUT OF SCOPE (not a JVL meeting).** A YouTube-style narration/review of the Koenigsegg Regera hypercar ("…a bunch of Swedish engineers… 1,500 horsepower"), mis-filed into the May-2025 transcripts folder. Not a JVL business meeting, not §15.8-sensitive — simply off-topic per §1 scope. Excluded (recorded here so the pending-sweep and full-year no-file-loss audit don't re-flag it). Found in the 2025-complete full-year sweep, 2026-07-20.
 
