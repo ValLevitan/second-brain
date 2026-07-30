@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, Copilot Studio, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest, LaTeX, printer tool, Ollama, llama.cpp, local inference, Code Llama, Hugging Face, Claude Code, AI sandwich, developer experience, think like a data scientist, sub-agents, verbose output, compiler layer, ways vs skills, ADR, cross-examination, Python Vulture, intelligence center, Waze system, ways framework, compiler stack diagram, module federation, Aaron ways system, Ways ADR, Ways capabilities catalog, regulatory provenance chain, JVL Ways pipeline, ways branch architecture, trusted stage users, clean environment lesson, engagement auditor agent, translation service, terminology override table, GitHub Enterprise fork, JVL GitHub Ways architecture guide, Capability Ticket, Jira hierarchy restructure, engineering guides, architecture black hole, Piratka]
-source-count: 114
+source-count: 116
 ---
 
 # AI-assisted development adoption
@@ -606,6 +606,10 @@ On the [[wiki/meetings/2026-05-11-bc-material-requirements-mcp.md|BC Material Re
 - **What the MCP is.** An MCP that sits on the BC API and translates natural-language input (Russian or English) into the equivalent API calls — "you don't need to write a program … you can communicate in human language." Val put it at ~95% complete and is already querying BC through it for operational data (debtors, periods, AP/AR figures). Written by an in-house developer Val did not name on the call. [[raw/Meeting_Transcript_bc_material_requirements_mcp-May-11-2026.md]] [[raw/Meeting_Notes_bc_material_requirements_mcp-May-11-2026.md]]
 - **The pattern Val reused.** Rather than modify BC's reports, take BC's standard output and have **Claude perform the custom logic** (cross-subassembly consolidation, vendor/last-price/min-order enrichment, per-vendor PO grouping) "in one step" via the MCP — the same "standard system + AI does the bespoke transformation" bridge Val favours elsewhere. He also restated the requirements-from-transcript method: feed this recording plus the example artefact to Claude to generate the first-draft requirements + use cases + persona, because "if you write the requirement correctly … the code writes itself now." Feature substance is on [[wiki/topics/business-central-erp-implementation.md]] (May-11). §15.8 clear — MCP/tooling economics only; no named-person compensation. [[raw/Meeting_Notes_bc_material_requirements_mcp-May-11-2026.md]]
 
+## May 21 2026 — the BC MCP cost feature: transcript → Claude requirements → developer builds
+
+The [[wiki/meetings/2026-05-21-bom-cost-extraction-msbc-mcp.md|May-21 follow-up]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/lev-rudky.md|Lev Rudky]]) reused the same AI-tooling pattern as the May-11 session on the cost-extraction half of the BC material-requirements MCP: the **source-selection logic lives in the MCP layer** (which can read all three BC cost sources) rather than in BC's standard reports, and the delivery method is again **transcript-as-input** — Val feeds this recording plus the May-11 transcript to Claude to draft the requirements + use cases, Lev reviews, then **Nathan** implements the MCP feature with the priority logic. Feature/ERP substance is on [[wiki/topics/business-central-erp-implementation.md]] (May-21). §15.8 clear — MCP/tooling economics only; no named-person compensation. [[raw/Meeting_Transcript_bom_cost_extraction_msbc_mcp-May-21-2026.md]] [[raw/Meeting_Notes_bom_cost_extraction_msbc_mcp-May-21-2026.md]]
+
 ## History — earlier AI-consultation artifacts (undated, pre-2025)
 
 - **SolidWorks integration memo from ChatGPT:** a reference document titled "Solid work integration and the overall architecture suggestion from ChatGPT" shows JVL (before the 2025 tooling push) using ChatGPT to draft an IT-integration architecture connecting **SolidWorks** (3D CAD) with **Atlassian Jira/Confluence** and **Microsoft Business Central** — file attachments/version control of CAD files, BOM synchronization into the ERP, middleware/connectors, OAuth security, monitoring, and staged testing. The content is generic AI output (no JVL-specific decisions); its durable value is evidence that JVL's CAD/PLM–ERP–Atlassian integration question was explored via ChatGPT. Undated; consistent with the ~2023–24 Atlassian/Business-Central era of [[wiki/projects/jvl-insights-knowledge-base.md]] (inference, flagged). [[raw/solid_work_integration_and_the_overall_architecture_suggesti_2025-03-29.md]]
@@ -617,6 +621,8 @@ An Apr-27 meeting titled **"Finance Automation Initiative"** ([[wiki/meetings/20
 
 ## Sources
 
+- [[raw/Meeting_Transcript_bom_cost_extraction_msbc_mcp-May-21-2026.md]]
+- [[raw/Meeting_Notes_bom_cost_extraction_msbc_mcp-May-21-2026.md]]
 - [[raw/Meeting_Transcript_lena_IP_MCP_model_regression-1-April-28-2026.md]]
 - [[raw/Meeting_Notes_lena_IP_MCP_model_regression-April-28-2026.md]]
 - [[raw/Meeting_Transcript_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]]
