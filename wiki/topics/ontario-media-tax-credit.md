@@ -3,8 +3,8 @@ type: topic
 title: Ontario Media Tax Credit — JVL's game-production claim
 date: 2025-07-28
 aliases: [Media Tax Credit, Ontario Creates tax credit, OID media tax credit, game-production tax credit, interactivity claim]
-source-count: 1
-open-questions: 1
+source-count: 3
+open-questions: 2
 ---
 
 # Ontario Media Tax Credit — JVL's game-production claim
@@ -58,10 +58,23 @@ The Ontario Creates officer was not satisfied with the earlier explanation (draf
 
 - Every game JVL designs **needs an interactive feature** — otherwise it loses the ~$40,000/game claim. The upcoming **Fiery Ice stream / Omni Coyote** games do not need the special golden-frame bonus added, because they already carry interaction (the **PQ Fortune** bonus, and the interaction inside **Jackpot Rush**). [[raw/media_tax_credit_team_coaching-july-28-2025.md]]
 
+## Apr 8 2026 — the 2023–2024 claim: rebuilding the GL support (Igor's assignment)
+
+Nine months later the credit resurfaces as a **data-extraction / supporting-documentation** job for the **2023–2024 claim year**. On a short [[wiki/people/val-levitan.md|Val]] ↔ [[wiki/people/igor-donis.md|Igor Donis]] call ([[wiki/meetings/2026-04-08-media-tax-credit-gl-requirement.md]]), Val had Igor explain what [[wiki/people/inna-levitan.md|Inna Levitan]] requested and why it can't be pulled as a simple GL report. [[raw/Meeting_Transcript_Media_Tax_Credit_GL_Requirement-April-8-2026.md]] [[raw/Meeting_Notes_Media_Tax_Credit_GL_Requirement-April-8-2026.md]]
+
+- **What Inna asked for.** Update the supporting documentation for the media tax credit claim, using the **prior-year format Inna supplied**, refreshed for the **2023–2024 period**. It covers several expense categories: direct **payments to the Minsk office**, **marketing** expenses, **research & development** expenses, **travel** (hotel, car/vehicle rental, airfare), and certain **contractor payments** that fall within those accounts. Marketing, distribution and BLR-related GL accounts by year (account name, description, amount). [[raw/Meeting_Notes_Media_Tax_Credit_GL_Requirement-April-8-2026.md]] [[raw/Meeting_Transcript_Media_Tax_Credit_GL_Requirement-April-8-2026.md]]
+- **Why it isn't a one-click GL pull — "provisioned AND paid."** The core rule of the claim is that only invoices **both provisioned and paid within the requested period** are accepted — provisioned-only invoices don't count. Each GL ("yield") account holds expenses from **multiple vendors**, so for each vendor Igor must identify which invoices that vendor submitted in the period and verify which were **actually paid** (not merely accrued). The GL shows postings, not payment status per vendor per invoice — which is why the work is slow. [[raw/Meeting_Transcript_Media_Tax_Credit_GL_Requirement-April-8-2026.md]] [[raw/Meeting_Notes_Media_Tax_Credit_GL_Requirement-April-8-2026.md]]
+- **The data lives in Navision, not Business Central.** At the same-day [[wiki/meetings/2026-04-08-accounting-dept-alignment.md|Accounting Department Alignment]] call, Val initially assumed the figures could be pulled from a Business Central GL account, then learned the money-to-Minsk GL account "does not exist in Business Central" — it only exists in the legacy **Navision** system maintained by [[wiki/people/lev-rudky.md|Lev]]. Igor confirmed he has Navision access and it still works. (The GL-in-Navision point is on that alignment call's record — [[wiki/topics/jvl-finance-back-office.md]] Apr 8.) [[raw/Meeting_Notes_Media_Tax_Credit_GL_Requirement-April-8-2026.md]]
+- **The JVL Labs gap (Igor's flag).** The biggest issue is with **JVL Labs (the Canadian entity)**: for the 2023–2024 period, Labs does **not** have these expense types recorded in the GL, yet the claim requires them. [[raw/Meeting_Notes_Media_Tax_Credit_GL_Requirement-April-8-2026.md]] [[raw/Meeting_Transcript_Media_Tax_Credit_GL_Requirement-April-8-2026.md]]
+- **§15.8:** clear — tax-credit / GL / corporate expense-category economics only; no named-person compensation. [[raw/Meeting_Notes_Media_Tax_Credit_GL_Requirement-April-8-2026.md]]
+
 ## Open questions
 
 - Does the never-deployed online interactive bonus expose JVL on **prior** Media Tax Credit claims that listed online games as interactive, or only on the current application? (Raised implicitly by Val's "black mark" reaction; unresolved in the source.) — [[raw/media_tax_credit_team_coaching-july-28-2025.md]]
+- Why does **JVL Labs** have no recorded expenses of the required types for the 2023–2024 period — a booking issue (expenses recorded under JVL Systems instead of Labs), a data-migration gap, or were those expenses genuinely not incurred by the Canadian entity? — [[raw/Meeting_Notes_Media_Tax_Credit_GL_Requirement-April-8-2026.md]]
 
 ## Sources
 
 - [[raw/media_tax_credit_team_coaching-july-28-2025.md]]
+- [[raw/Meeting_Transcript_Media_Tax_Credit_GL_Requirement-April-8-2026.md]]
+- [[raw/Meeting_Notes_Media_Tax_Credit_GL_Requirement-April-8-2026.md]]

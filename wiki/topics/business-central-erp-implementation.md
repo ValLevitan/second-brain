@@ -3,7 +3,7 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention]
-source-count: 16
+source-count: 18
 open-questions: 2
 ---
 
@@ -175,8 +175,19 @@ On the [[wiki/meetings/2026-04-06-bom-invoicing-in-business-central.md|"Treatmen
 - **Why only now?** Lev and Genadi always knew BC supported this; it "was not applied because the overall approach was to sell products by modules, not as a single unit." Val was surprised the option existed. [[raw/Meeting_Transcript_BOM_Invoicing_in_Business_Central-April-6-2026.md]]
 - **Timeline.** Val wants it live by **April 13 2026**; Lev says it's "a matter of days, not months," the open design question being **how to encode the configuration into the part number**. Genadi noted the **Maple** product line is already being set up in the new system; Lev and Genadi to align on specifics first. **§15.8:** clear — BOM/invoicing/machine economics only, no named-person compensation. The Excel fake-invoice problem is the same AR-integrity issue tracked on [[wiki/topics/jvl-finance-back-office.md]] (Apr-6). [[raw/Meeting_Transcript_BOM_Invoicing_in_Business_Central-April-6-2026.md]] [[raw/Meeting_Notes_BOM_Invoicing_in_Business_Central-April-6-2026.md]]
 
+## Apr 7 2026 — the A/P payment scheduler: wrong add-on (Installment vs Progress Payment)
+
+A ~15-minute recorded portion of a ~2-hour [[wiki/people/val-levitan.md|Val]]–[[wiki/people/lev-rudky.md|Lev Rudky]] working session ([[wiki/meetings/2026-04-07-bc-purchase-invoice-workflow.md]]) on the **Accounts Payable payment-scheduling workflow** in Business Central. The recorded portion (Russian) is a circular back-and-forth about how Purchase Orders flow to Purchase Invoices and how payment terms carry; the resolution is captured in the derived notes. [[raw/Meeting_Transcript_BC_Purchase_Invoice_Workflow-April-7-2026.md]] [[raw/Meeting_Notes_BC_Purchase_Invoice_Workflow-April-7-2026.md]]
+
+- **The problem — the payables side wasn't behaving like the receivables side.** Val pressed on why, if payment terms are set on the Purchase Order, they don't flow through automatically to the Purchase Invoice the way they do on the A/R (sales) side — the process appeared broken and manual, requiring hand-keyed payment-term codes and manual posting. Val's objection: no modern accounting system should require re-keying data that already exists elsewhere, because manual entry creates error risk. Lev initially described the manual steps as standard BC behaviour before the real cause surfaced. [[raw/Meeting_Transcript_BC_Purchase_Invoice_Workflow-April-7-2026.md]] [[raw/Meeting_Notes_BC_Purchase_Invoice_Workflow-April-7-2026.md]]
+- **Root cause — the wrong AP Commerce add-on was being used for A/P.** JVL uses two payment-scheduling add-ons from **AP Commerce**: **Installment Payment** (designed for Accounts Receivable — already installed, configured and working on the A/R side) and **Progress Payment** (designed for Accounts Payable — not yet installed or configured). Lev had been trying to use the A/R "Installment Payment" module for the payables cycle, which does not work for that purpose. This is the earlier "purchasing scheduler broken / two add-ons, one for purchasing and one for sales" thread (Apr-17 2025 section above) resurfacing as an add-on **mismatch**, not just a bug. [[raw/Meeting_Notes_BC_Purchase_Invoice_Workflow-April-7-2026.md]]
+- **Decision / undertaking — install and configure "Progress Payment."** After extended discussion Lev acknowledged the mismatch and committed to **installing and configuring the AP Commerce "Progress Payment" add-on** for the A/P payment-scheduling workflow (Lev's stated target ~April 14 2026). This unblocks proper payment-term automation on the purchase side. (Decided by Val, accepted by Lev.) [[raw/Meeting_Notes_BC_Purchase_Invoice_Workflow-April-7-2026.md]]
+- **§15.8:** clear — ERP add-on / A/P workflow economics only, no named-person compensation. [[raw/Meeting_Notes_BC_Purchase_Invoice_Workflow-April-7-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_BC_Purchase_Invoice_Workflow-April-7-2026.md]]
+- [[raw/Meeting_Notes_BC_Purchase_Invoice_Workflow-April-7-2026.md]]
 - [[raw/Meeting_Transcript_BOM_Invoicing_in_Business_Central-April-6-2026.md]]
 - [[raw/Meeting_Notes_BOM_Invoicing_in_Business_Central-April-6-2026.md]]
 - [[raw/Payment_Hub_Finance-February-2-2026.md]]

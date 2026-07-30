@@ -2,7 +2,7 @@
 type: person
 title: Laura
 date: 2025-04-15
-aliases: [Laura]
+aliases: [Laura, Laura Escorcia]
 source-count: 3
 ---
 

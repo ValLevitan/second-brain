@@ -104,6 +104,13 @@ Format: `raw/<skipped file>` — source of record `raw/<cited fuller file>` — 
 - `Flex-POS Scheduling Gap Analysis-April-6-2026/README.md` — bundle-manifest/index metadata, not meeting content; substance captured via the bundle's transcripts+notes — not staged, no stub.
 - `Multi-Repository Project Management with Claude-April-6-2026/README.md` — bundle-manifest/index metadata, not meeting content; substance captured via the bundle's transcripts+notes — not staged, no stub.
 
+### Batch 142
+- `BC Purchase Invoice Workflow-April-7-2026/README.md` — bundle-manifest/index metadata, not meeting content; substance captured via the bundle's transcript+notes — not staged, no stub.
+- `Accounting Dept Alignment-April-8-2026/README.md` — bundle-manifest/index metadata, not meeting content; substance captured via the bundle's transcript+notes — not staged, no stub.
+- `Media Tax Credit GL Requirement-April-8-2026/README.md` — bundle-manifest/index metadata, not meeting content; substance captured via the bundle's transcript+notes — not staged, no stub.
+- `Media Tax Credit GL Requirement-April-8-2026/OIDMTC_Car_Air_Travel_Hotel_Meals-2021-2022.xlsx` — **OUT OF SCOPE media (v1 is text-only, §1).** OIDMTC support spreadsheet (car/air/travel/hotel/meals, 2021–2022) in the Media-Tax bundle — not a transcript, not staged to raw/, no stub. Recorded so the no-file-loss audit doesn't re-flag it.
+- `Media Tax Credit GL Requirement-April-8-2026/OIDMTC_Marketing_Distribution_Template-March-2024-v1.xlsx` — **OUT OF SCOPE media (v1 is text-only, §1).** OIDMTC marketing/distribution template (the prior-year format Inna reuses) — not a transcript, not staged to raw/, no stub. Recorded so the no-file-loss audit doesn't re-flag it.
+
 ### Out-of-scope exclusions (non-JVL content — not ingested, not a §12 dup)
 - `raw/koenigsegg_regera-verbal_orgasm-may-21-2025.md` — **OUT OF SCOPE (not a JVL meeting).** A YouTube-style narration/review of the Koenigsegg Regera hypercar ("…a bunch of Swedish engineers… 1,500 horsepower"), mis-filed into the May-2025 transcripts folder. Not a JVL business meeting, not §15.8-sensitive — simply off-topic per §1 scope. Excluded (recorded here so the pending-sweep and full-year no-file-loss audit don't re-flag it). Found in the 2025-complete full-year sweep, 2026-07-20.
 
