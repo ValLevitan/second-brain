@@ -186,3 +186,7 @@ Format: `raw/<skipped file>` — source of record `raw/<cited fuller file>` — 
 ### Batch 159
 - `Flex-Recycler Feature Schedule Workflow-May-15-2026/README.md` — bundle-manifest/index metadata, not meeting content (§3); substance captured via the staged transcript + notes — **README, not ingested** (not staged, no stub). Vault location: obsidian-jvl/Transcripts-JVL/2026/05_May/Flex-Recycler Feature Schedule Workflow-May-15-2026/README.md.
 - **No out-of-scope media in the Batch-159 bundle** — the folder holds only the transcript `.md`, notes `.md`, and the README (no images/xlsx/audio/HTML). **No §12 skips** — both staged raw files are cited by content pages (the meeting stub, plus georgia-market-rollout and github-release-management-pipeline). (Recorded so the no-file-loss audit doesn't re-flag one.)
+
+### Batch 160
+- `Whisper Pipeline Go-Live Check-in-May-19-2026/README.md` — bundle-manifest/index metadata, not meeting content (§3); substance captured via the staged transcript + notes — **README, not ingested** (not staged, no stub). Vault location: obsidian-jvl/Transcripts-JVL/2026/05_May/Whisper Pipeline Go-Live Check-in-May-19-2026/README.md.
+- **No out-of-scope media in the Batch-160 bundle** — the folder holds only the transcript `.md`, notes `.md`, and the README (no images/xlsx/audio/HTML). **No §12 skips** — both staged raw files are cited by content pages (the meeting stub, plus transcript-knowledge-base-tooling). (Recorded so the no-file-loss audit doesn't re-flag one.)
