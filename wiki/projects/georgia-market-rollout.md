@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 74
+source-count: 75
 open-commitments: 15
 open-questions: 8
 ---
@@ -419,6 +419,17 @@ A two-segment sales/commercial status check ([[wiki/meetings/2026-05-08-ga-coam-
 - **Timeline + marketing.** Target delivery ~**June 7**; the week of **May 18** the team should know if that is realistic, at which point Felipe opens ~2 weeks of concrete operator-by-operator negotiations to close 10–15 placements; **end of June** production rollout; **Aug 18** show with ~6+ weeks of field data as a testimonial. Pre-show anticipation via the **Gamoa newsletter**, message led by the three non-symbiotic progressive mechanics — [[wiki/people/juan-martinez.md|Juan]] to draft the marketing wording (using the transcript + Claude). [[raw/Meeting_Transcript_ga_coam_v2_rollout_status_check-Segment_1-May-8-2026.md]]
 - **Texas Maple (Segment 2).** Felipe's Texas visit slips to the **week of May 18** (May-11 week full — an "Andrei" visiting, likely [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] on transactional-equipment work (inference), plus the Gamala meeting); objective = 3 locations across 3 different masters, fallback contacts Rick and Rich; transactional-equipment testing there deferred; Felipe travels alone. Val's **Flexport-into-Maple-R / QR-code-reader** follow-up (from the May 4/5 meeting) drew blanks from Juan and Felipe, so Val pulled it to route to [[wiki/people/elizabeth.md|Elizabeth]] and [[wiki/people/genadi-peari.md|Genadi]] separately. §15.8: market/machine/operator/booth economics only; no named-person compensation. [[raw/Meeting_Transcript_ga_coam_v2_rollout_status_check-Segment_2-May-8-2026.md]] [[raw/Meeting_Notes_ga_coam_v2_rollout_status_check-Segment_2-May-8-2026.md]]
 
+## May 13 2026 — JIRA schedule review: Flex portfolio reshuffle, printer-tech migration, stale-feature cleanup
+
+A ~2h43m JIRA portfolio review ([[wiki/meetings/2026-05-13-schedule-review.md|Schedule Review]], 12:03pm ET; [[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/irina-shishko.md|Irina Shishko]]) reshuffling the Flex / game-production tracks. §15.8: schedule/product economics only, no named-person compensation. [[raw/Meeting_Notes_Schedule_Review-May-13-2026.md]]
+
+- **Flex POS Alpha for Georgia (Elizabeth's office) slid May 15 → May 20.** The alpha acceptance flow was set: SD-card install → QR passport register → Lease creation → Mutogus/printer/Income sandbox card flow → Payment Hub log visibility. [[raw/Meeting_Notes_Schedule_Review-May-13-2026.md]]
+- **Printer-tech migration (durable ADR) — IP 1007 dispenser.** The dispenser's printer technology changed from **Pyramid printers → Flex Port + Telekt**; the ticket description must be rewritten. [[raw/Meeting_Notes_Schedule_Review-May-13-2026.md]]
+- **Flex Recycler (IP 1059).** Capabilities are still landing (~20+ features unscheduled) and the hardware is ~1 month out; a dedicated Flex Recycler schedule review was booked for **Tuesday May 19** (Val + "Andrei"). [[raw/Meeting_Notes_Schedule_Review-May-13-2026.md]]
+- **Stale-feature cleanup.** Flex Tower, Flex Tito Server, Flex Pay Cloud, Flex Port Wallet and Flex Pay Wallet were archived/deleted; Flex Pay Software Platform moved to Backlog; the **ISO (Wallet) concept was retired** on the GitHub workflow ([[wiki/people/ivan.md|Ivan]] to be briefed that the ISO tabs no longer apply). Flex Pay Cloud folds into Payment Hub. [[raw/Meeting_Notes_Schedule_Review-May-13-2026.md]]
+- **Multi-Progressive sequencing.** The order was swapped — 11-33 (~June 2) before 11-34 (~June 4) — with a Match-3 bonus progressive landing ~June 11; "Dima Kovalchuk" (ambiguous same-name mention — see Owner Decisions) to be pulled in May 18 to break down BP 26-93, and an architecture review with him is required before he starts the Flex Pay rework. [[raw/Meeting_Notes_Schedule_Review-May-13-2026.md]]
+- **Coamazen II / Liquid Glass game production.** [[wiki/people/anton-leshkevich.md|Anton]]'s FRAM 11-97 / 11-99 features were dropped as duplicates of Game Production work (IP 89 / IP 446 / IP 966); a new Story was added under FRAM 11-82 to anchor [[wiki/people/igor-metelski.md|Igor]]'s leftover multi-product work; IP 527 (Player GUI) pushed to ~June 8. Flex Recycler resourcing to be planned with [[wiki/people/alexander-biratka.md|Sasha]]. [[raw/Meeting_Notes_Schedule_Review-May-13-2026.md]]
+
 ## Open questions
 
 - What is the **pricing / packaging model for additional game packs** (Val's proposal: an 8-game base pack at price X, extra games at a premium)? Unresolved on Feb-19; Juan skeptical JVL can charge for software until the new product proves it earns. [[raw/Game_Development_transcript_game_review-February-19-26.md]] [[raw/Games_Design_Meeting_open_items_feb19_2026.md]]
@@ -506,3 +517,4 @@ A two-segment sales/commercial status check ([[wiki/meetings/2026-05-08-ga-coam-
 - [[raw/Meeting_Transcript_ga_coam_v2_rollout_status_check-Segment_2-May-8-2026.md]]
 - [[raw/Meeting_Notes_ga_coam_v2_rollout_status_check-Segment_1-May-8-2026.md]]
 - [[raw/Meeting_Notes_ga_coam_v2_rollout_status_check-Segment_2-May-8-2026.md]]
+- [[raw/Meeting_Notes_Schedule_Review-May-13-2026.md]]

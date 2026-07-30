@@ -3,7 +3,7 @@ type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
 aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus, $20 test, twenty dollar test, Twin Bison, Wolfpack, Clover Fortune, Liberty Spins, peek-to-be-in bonus, locking bison, Rodeo Spins, multi-progressive, Multi-Progressive initiative, three-level progressive]
-source-count: 56
+source-count: 57
 open-questions: 3
 ---
 
@@ -446,6 +446,14 @@ On an Apr-27 one-on-one ([[wiki/meetings/2026-04-27-efim-progressives-discussion
 - **People/role mapping (low confidence — garbled).** Two pairings come through with reasonable confidence: framework/platform work owned by an **Igor** (Igor-cluster; unresolved from this source — plausibly the RGS-codebase Igor given the framework context, not confirmed) together with **[[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]]** (named as the "DC developer"); and capability-to-feature clarification in Jira owned by **[[wiki/people/alexander-biratka.md|Alexander Biratka]]** ("Biratko"). Other names surface too garbled to attribute reliably (Juan/Victoria around multi-game selection; a "Michael" and a "Pavel" around capabilities/architecture; Miranda; Cris at the close) — recorded as unclear, not asserted. [[raw/Meeting_Notes_Multi_Progressive_Initiative-April-27-2026.md]] [[raw/Meeting_Notes_efim_progressives_discussion-April-27-2026.md]]
 - **Trailing reference — vertical machine with liquid glass.** Near the end Val referenced "introduction of vertical machine with liquid glass," recognizable as the Georgia vertical-cabinet / liquid-glass game-selection topic tracked in the [[#feb-12-2026--the-liquid-glass-game-selection-screen-debate-lions-riches-royals-jackpot-win-window|Feb-12 2026]] entry above. [[raw/Meeting_Notes_Multi_Progressive_Initiative-April-27-2026.md]]
 
+## Keno-product design notes (May 14 2026 — game-development schedule review)
+
+From the [[wiki/meetings/2026-05-14-game-development-schedule-review.md|May-14 game-development schedule review]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/michael-gottlieb.md|Michael]], [[wiki/people/lena.md|Lena]], [[wiki/people/juan-martinez.md|Juan]], [[wiki/people/efim-podvoiski.md|Efim]]) — Keno being a new game type for JVL, three durable design notes surfaced (SD production/launch detail on [[wiki/projects/south-dakota-vlt-market.md]] May-14):
+
+- **Theme against a proven competitor — Solar Keno (IP882 / GC263).** Positioned as JVL's answer to the IGT Keno title **"Da Vinci Diamonds,"** the theme leans on current public interest in **Artemis / UFOs / aliens** and the natural visual contrast of **planets against starfields**. It will be the first vertical Keno product for South Dakota. [[wiki/people/michael-gottlieb.md|Michael]] is writing the abstract, [[wiki/people/lena.md|Lena]] starting comp art. [[raw/Meeting_Notes_Game_Development_Schedule_Review-May-14-2026.md]]
+- **Keno rack-timing (Cool Cat Keno).** Michael's final tuning covers pacing, timing and **three adjustable speed settings** the player can set to preference. JVL's rack times run **slightly longer than competitors'**, which Michael is comfortable with — high wins aren't frequent and a player can **snap the meter by pressing play** — and he prefers rack timings closer to slot machines. [[raw/Meeting_Notes_Game_Development_Schedule_Review-May-14-2026.md]]
+- **Compliance-driven feature — Pick-to-Win universal interactive bonus (IP1063).** An interactive bonus that must be added to **each game** to qualify for the **media tax credit** — a product/compliance requirement shaping the design rather than a player-experience choice. [[raw/Meeting_Notes_Game_Development_Schedule_Review-May-14-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_game_development_March-27-2026-2.md]]
@@ -504,3 +512,4 @@ On an Apr-27 one-on-one ([[wiki/meetings/2026-04-27-efim-progressives-discussion
 - [[raw/Meeting_Notes_Twin_Bison_Wolfpack_Visual_Review-April-9-2026.md]]
 - [[raw/Meeting_Notes_Multi_Progressive_Initiative-April-27-2026.md]] — *derived notes:* summary of the Apr-27 "Call with Efim Podvoiski" (Multi-Progressives Initiative); underlying transcript garbled.
 - [[raw/Meeting_Notes_efim_progressives_discussion-April-27-2026.md]] — *derived notes:* companion summary of the same Apr-27 Efim progressives call.
+- [[raw/Meeting_Notes_Game_Development_Schedule_Review-May-14-2026.md]]
