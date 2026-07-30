@@ -3,7 +3,7 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 25
+source-count: 26
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
 
@@ -89,7 +89,12 @@ On a ~32m check-in with Val ([[wiki/meetings/2026-02-18-val-nathan-business-cent
 
 On a quick ~25m47s pre-finance-meeting sync with Val ([[wiki/meetings/2026-03-11-val-nathan-business-central-sync.md]], 2:01 PM) Nathan reported the payment-hub↔Business-Central work had moved onto the MSBC-posting side. He has tested the **direct MSBC API** — creating/updating customers and creating/updating invoices in Business Central — and found it **reliable, no hangups**; the only expected failure mode is the **payment-hub↔MSBC token expiring** (a built-in daily reauthenticate-and-retry), and all remaining pain points are **internal configuration** (the hub must send the correct customer/invoice **codes**), which he would walk finance through so they can configure the sandbox. On Val's **load-test** concern he proposed simulating ~1,000–2,000 invoices/day in a sandbox and following Microsoft's API-rate spec, judging the heavier load will fall on JVL's own application (thousands of customers) rather than MSBC. He accepted Val's steer toward a **per-transaction (not per-invoice) reconciliation trigger** and, on Val's **design-integrity** challenge, described JVL's safeguards — audit logs kept outside the DB, a multi-step-transaction pattern that leaves a visible "half a transaction" on failure, guaranteed-logging/message-queue redundancy, and a **double-key** design (JVL key + the key returned by MSBC/Dwolla) — while conceding the standard has **not been discussed** with the Minsk back-end team writing the gift-card activation ([[wiki/people/dmitri-chudinov.md|Dima Chudinov]], with [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]]; per [[wiki/people/pavel.md|Pavel]]'s morning discussion), who are still on Flex POS. He took the undertaking to **open an email exchange raising the design-integrity question, addressed to Pavel with a copy to Val**. Separately he reported the **Dwolla ("Duala") integration started this week** — building/testing the customer ACH pull and the JVL-wallet→JVL-bank transfer against Dwolla's sandbox. Substance on [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Mar-11). §15.8 clear. [[raw/Nate_Val_Sync-March-11-2026.md]]
 
+## May 12 2026 — Payment Hub GL codes + the taxability re-architecture
+
+On the Payment Hub GL / sales-tax session ([[wiki/meetings/2026-05-12-payment-hub-gl-sales-tax.md]]; with [[wiki/people/igor-donis.md|Igor Donis]], [[wiki/people/val-levitan.md|Val]], [[wiki/people/sean-riley.md|Sean Riley]], [[wiki/people/juan-martinez.md|Juan Martinez]], [[wiki/people/lev-rudky.md|Lev Rudky]]) Nathan came to collect the five GL account codes Payment Hub needs to post into Business Central (two sales-invoice, one customer payment, two AR dimensions) so he could point alpha testing at real codes — Igor to create them in sandbox + production same-day. Nathan initially assumed Payment Hub would signal taxable-vs-non-taxable; Val rejected that and named it a **scope gap in the original Payment Hub design** — Payment Hub asks the accounting host (BC + Avalara) for an invoice, and the host decides taxability, with an optional explicit non-taxable override. Nathan owns **re-architecting Payment Hub** accordingly (each transaction carries a taxable/non-taxable flag, customer-default + line-override) and exploring the MSBC API for per-customer tax-status control at onboarding. Substance on [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (May-12) and [[wiki/topics/jvl-finance-back-office.md]] (May-12). §15.8 clear. [[raw/Meeting_Notes_Payment_Hub_GL_Sales_Tax-May-12-2026.md]]
+
 ## Sources
+- [[raw/Meeting_Notes_Payment_Hub_GL_Sales_Tax-May-12-2026.md]]
 - [[raw/Nate_Val_Sync-March-11-2026.md]]
 - [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-3.md]]
 - [[raw/Val_Nathan_Sync-February-11-2026.md]]

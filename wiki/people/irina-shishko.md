@@ -4,7 +4,7 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 49
+source-count: 51
 open-commitments: 1
 ---
 
@@ -114,8 +114,14 @@ On the [[wiki/meetings/2026-03-27-omni-architecture-challenge.md|Mar-27 OMNI Arc
 
 On the [[wiki/meetings/2026-04-15-flex-pos-alpha-and-omni-2-architecture.md|Apr-15 Flex POS Alpha & OMNI 2 alignment]] Irina (QA/release voice) objected forcefully that Flex POS testing is blocked — "we need it now, we cannot test anything, we have a stopper" — because the **UI graphical-layer services aren't deployed** (backend is live on AWS). Val backed her: no weekends in principle, but [[wiki/people/anton-seregin.md|Anton Seregin]] (starting Apr 16, likely Saturday) must finish the UI so end-to-end testing can begin next week. Substance on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Apr-15). [[raw/Meeting_Notes_Flex_POS_Alpha_and_OMNI_2_Architecture-April-15-2026.md]]
 
+## May 12 2026 — QA use-case author for the NOVA platform
+
+On the founding NOVA architecture session ([[wiki/meetings/2026-05-12-nova-platform-architecture-overview.md]]) Irina's place in the governance model was defined: she **converts existing QA test cases into use cases, then into requirements, then maps them to capabilities** — foundational input for both [[wiki/people/anton-leshkevich.md|Anton]] (test framework) and Chief Architect [[wiki/people/alexander-biratka.md|Sasha]]. In the as-is walkthrough she argued there is **no signage in scope** for this platform (Sasha kept the signage progressive-controller box on the diagram anyway — left unresolved). Substance on [[wiki/topics/nova-platform-architecture.md]]. §15.8 clear. [[raw/Meeting_Notes_nova_platform_architecture_overview-Segment_1-May-12-2026.md]] [[raw/Meeting_Notes_nova_platform_architecture_overview-Segment_2-May-12-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_nova_platform_architecture_overview-Segment_1-May-12-2026.md]]
+- [[raw/Meeting_Notes_nova_platform_architecture_overview-Segment_2-May-12-2026.md]]
 - [[raw/Meeting_Notes_Flex_POS_Alpha_and_OMNI_2_Architecture-April-15-2026.md]]
 - [[raw/Meeting_Transcript_OMNI_Architecture_Challenge-March-27-2026.md]]
 - [[raw/OMNI_Architecture_Challenge-March-27-2026.md]]

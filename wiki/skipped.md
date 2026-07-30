@@ -178,3 +178,7 @@ Format: `raw/<skipped file>` — source of record `raw/<cited fuller file>` — 
 - `GA-COAM v2 Requirements Workflow and Personas-May-8-2026/README.md` — bundle-manifest/index metadata; substance via transcript+notes — not staged, no stub.
 - `GA-COAM V2 Rollout Status Check-May-8-2026/README.md` — bundle-manifest/index metadata; substance via the two transcript + two notes segments — not staged, no stub.
 - **No out-of-scope media in any of the three Batch-156 bundles** — each holds only transcript/notes `.md` + a README (the Rollout bundle holds 2 transcript segments + 2 notes segments + README). No images/xlsx/audio/HTML. **No §12 skips** (all eight staged raw files cited by content pages). (Recorded so the no-file-loss audit doesn't re-flag one.)
+
+### Batch 157
+- **No §12 skips.** All seven staged raw files are cited by content pages: BC-MCP transcript+notes (May-11), the two NOVA transcript segments + two NOVA notes segments (May-12), and the Payment-Hub GL/sales-tax notes (May-12).
+- **No bundle READMEs and no out-of-scope media staged for Batch 157** — only the transcript/notes `.md` files are present in `raw/` for these three meetings (no README manifest, no images/xlsx/audio/HTML observed among the staged files). (Recorded so the no-file-loss audit doesn't re-flag.)

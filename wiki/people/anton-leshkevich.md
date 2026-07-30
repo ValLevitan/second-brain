@@ -4,7 +4,7 @@ title: Anton Leshkevich
 date: 2025-01-21
 aliases: [Anton Leshkevich, Anton, Antoine, Anton Dmishkevich, Дмишкевич, Дмишкевичем, Liashkevich, Anton Liashkevich]
 disambiguation: "Minsk engineer (Omni/RGS), this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 19
+source-count: 21
 open-commitments: 1
 open-questions: 0
 ---
@@ -82,8 +82,14 @@ On the [[wiki/meetings/2025-08-07-player-behavior-simulator.md|Aug-7 Player Beha
 
 On the [[wiki/meetings/2026-02-12-game-development-review.md|Feb-12 review]] (segment 1) Anton was called in for the liquid-glass **shader question**: custom shaders are **not used in H Studio**, but were possible in the online/"big CGS" engine (he once wrote a symbol-shadow shader) — though a glass-refraction shader is far more complex; he couldn't say for Omni ("ask Alexander"). See [[wiki/topics/slot-game-design-principles.md]] (Feb-12). Separately, with [[wiki/people/igor-metelski.md|Igor Metelski]] away ~2 months, **Anton is to scope inheriting Igor's South Dakota assignments** — he needs 2–3 days to size the work, and (with Pavel/Irina) plans to reach Igor to learn where he stopped. [[raw/Game_Development-February-12-2026-1.md]]
 
+## May 12 2026 — first internal "user" of the NOVA platform
+
+On the founding NOVA architecture session ([[wiki/meetings/2026-05-12-nova-platform-architecture-overview.md]]) Anton was present through both segments and cast as **the first internal user of NOVA** — his test framework (TS-360) consumes the platform's hooks, APIs, and hardware-service interfaces. Under the use-case → requirement → capability governance model, Anton declares capability needs ("I need capability X") to Chief Architect [[wiki/people/alexander-biratka.md|Sasha]], who translates them into features; without that demand signal the architect has no client, and [[wiki/people/alexei-khamin.md|Kamin]] is Anton's own downstream customer. In the design debate he **supported Unix sockets** for service↔LGS communication, raised the games-on-disk question (resolved to packaged archives, not Docker), and suggested a consolidated repo for the hard services — which Sasha overruled in favour of per-service repos. Substance on [[wiki/topics/nova-platform-architecture.md]]. §15.8 clear. [[raw/Meeting_Transcript_nova_platform_architecture_overview-Segment_2-May-12-2026.md]] [[raw/Meeting_Notes_nova_platform_architecture_overview-Segment_2-May-12-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_nova_platform_architecture_overview-Segment_2-May-12-2026.md]]
+- [[raw/Meeting_Notes_nova_platform_architecture_overview-Segment_2-May-12-2026.md]]
 - [[raw/Game_Development-February-12-2026-1.md]]
 - [[raw/transcript_anton_val_spec-august-27-2025.md]]
 - [[raw/Anton_Liashkevich_Alexander_Biratko_about_OMNI-august-28-2025.md]]
