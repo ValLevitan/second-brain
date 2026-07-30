@@ -3,7 +3,7 @@ type: topic
 title: EGM freezing investigation (Georgia field fleet)
 date: 2026-07-29
 aliases: [GA freezing, Georgia freezing, machine freezing, EGM freeze, GA Freezing Issue, freezing investigation, JVL silent killer, nudge animation freeze, kernel-panic freeze]
-source-count: 13
+source-count: 14
 open-questions: 12
 ---
 
@@ -149,6 +149,16 @@ By late April the fix had shipped and the question turned to **deploying it acro
 - **New-nudge performance is still unknown post-fix.** With only ~1 week of new-nudge-with-fix data, there is no basis to say whether new-nudge performs better, worse, or the same as old-nudge once freezing is removed — all prior Intralog reports showing new-nudge underperforming were running on freezing software. Val went further: it is possible even the **previous (old) software was quietly freezing/malfunctioning** unnoticed, and JVL only investigated because the new software made *even less* money and Insurelot/competitors pointed at it. [[raw/Meeting_Transcript_software_fix_rollout_plan-April-24-2026.md]] [[raw/Meeting_Notes_software_fix_rollout_plan-April-24-2026.md]]
 - **The Bulldog test cabinets** sitting at JVL (frozen-free for ~2 weeks) are to be sent back only **after** the bulletin is released, not before. [[raw/Meeting_Transcript_software_fix_rollout_plan-April-24-2026.md]] [[raw/Meeting_Notes_software_fix_rollout_plan-April-24-2026.md]]
 
+## Apr-27 2026 — the operator letter (written artifact)
+
+The operator-facing output of the [[wiki/meetings/2026-04-24-software-fix-rollout-plan.md|Apr-24 rollout plan]] — the letter Val undertook to draft by Monday Apr-27. This is a **written customer-communication artifact JVL prepared** (signed "Val Levitan, JVL"), not a meeting transcript. It states the root cause and fix in plain operator terms and, consistent with the Apr-24 communication ruling, describes only the processor/kernel incompatibility (no mention of the watchdog or generic "stability improvements"). [[raw/Letter_to_Operators_Freezing_Fix-April-27-2026.md]]
+
+- **Root cause stated to operators.** An incompatibility between the **integrated graphics processor** on the affected cabinet platforms and the **Linux operating kernel version 4.19** they were running: under sustained graphics load (for example during bonus rounds) the combination would occasionally lock the machine up completely, requiring a power cycle to recover. The **motherboard vendor confirmed in writing** that the kernel JVL was shipping was not appropriate for that processor and pointed JVL to the current long-term-support release. [[raw/Letter_to_Operators_Freezing_Fix-April-27-2026.md]]
+- **The fix.** JVL upgraded the operating kernel to **version 5.15 LTS**, the current LTS release recommended for this hardware. Across the initial production deployments — including a controlled set of cabinets running for several weeks — the freezing did not recur; JVL continues to monitor as the upgrade rolls out. (Consistent with the Mar-24/Mar-25 kernel-4.19→5.15 LTS decision above.) [[raw/Letter_to_Operators_Freezing_Fix-April-27-2026.md]]
+- **The reframe for operators — a frozen cabinet is out of service, not underperforming.** The letter explains that field revenue running below expectation was misread (by operators and JVL alike) as the software simply earning less; in fact machines were freezing, and a frozen cabinet earns nothing. Recovering that downtime returns revenue at more than a proportional rate because the lost hours are peak earning hours. [[raw/Letter_to_Operators_Freezing_Fix-April-27-2026.md]]
+- **The offer and the asks.** The software, ordinarily sold at **$2,500 per cabinet**, is provided **free of charge** for every affected unit — no new investment, contract, or commercial obligation. [[wiki/people/felipe-miranda.md|Felipe Miranda Giorgi]] will contact each operator with the serial numbers JVL has on file, ask them to confirm which cabinets are still in their possession, and coordinate the installation schedule. JVL asks two things in return: **(1) act promptly** (every cabinet left on the old kernel is leaving revenue on the table); **(2) provide the COM ID at the time of each installation** — this confirms the upgrade landed on the intended machine and is the first practical step toward broader field visibility. [[raw/Letter_to_Operators_Freezing_Fix-April-27-2026.md]]
+- **The broader thesis — real-time cabinet-health visibility.** The letter argues the industry today has no culture or infrastructure for tracking the health of connected machines, so operators and manufacturers both "run blind" and a problem of this scale can hide in plain sight. JVL states it is investing engineering effort to make cabinet-health information **discoverable in real time by every operator on every EGM**, so problems surface in days rather than months of inferred revenue patterns. [[raw/Letter_to_Operators_Freezing_Fix-April-27-2026.md]]
+
 ## Test machines (Georgia office)
 
 Three machines were set up in the Georgia office (at Lawrenceville) to try to reproduce the freeze; two of the three freeze reliably. Five frequently-freezing machines were also pulled back from a customer site (Bulldog / "Bulldog Entertainment") for monitored testing. [[raw/GA_Freezing_Issue_Executive_Summary.md]] [[raw/Georgia_Freezing_troubleshooting_direction-March-13-2026.md]]
@@ -191,3 +201,4 @@ Three machines were set up in the Georgia office (at Lawrenceville) to try to re
 - [[raw/transcript_Freezing_investigation-March-25-2026.md]] — Mar-25 11:03am Alekseev follow-up call (transcript; primary record of the V1.3 "with Alekseev" meeting).
 - [[raw/Meeting_Transcript_software_fix_rollout_plan-April-24-2026.md]] — Apr-24 field rollout plan for the freezing fix (transcript).
 - [[raw/Meeting_Notes_software_fix_rollout_plan-April-24-2026.md]] — Apr-24 field rollout plan (derived notes).
+- [[raw/Letter_to_Operators_Freezing_Fix-April-27-2026.md]] — *written operator letter:* the Apr-27 customer-communication artifact JVL prepared (signed Val Levitan/JVL) announcing the root cause + free kernel upgrade; the operator-facing output of the Apr-24 rollout plan.

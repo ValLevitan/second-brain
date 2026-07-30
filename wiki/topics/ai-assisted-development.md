@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, Copilot Studio, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest, LaTeX, printer tool, Ollama, llama.cpp, local inference, Code Llama, Hugging Face, Claude Code, AI sandwich, developer experience, think like a data scientist, sub-agents, verbose output, compiler layer, ways vs skills, ADR, cross-examination, Python Vulture, intelligence center, Waze system, ways framework, compiler stack diagram, module federation, Aaron ways system, Ways ADR, Ways capabilities catalog, regulatory provenance chain, JVL Ways pipeline, ways branch architecture, trusted stage users, clean environment lesson, engagement auditor agent, translation service, terminology override table, GitHub Enterprise fork, JVL GitHub Ways architecture guide, Capability Ticket, Jira hierarchy restructure, engineering guides, architecture black hole, Piratka]
-source-count: 109
+source-count: 110
 ---
 
 # AI-assisted development adoption
@@ -595,6 +595,10 @@ In the [[wiki/meetings/2026-04-24-ci-architecture-reconvene.md|CI Architecture R
 - **SolidWorks integration memo from ChatGPT:** a reference document titled "Solid work integration and the overall architecture suggestion from ChatGPT" shows JVL (before the 2025 tooling push) using ChatGPT to draft an IT-integration architecture connecting **SolidWorks** (3D CAD) with **Atlassian Jira/Confluence** and **Microsoft Business Central** — file attachments/version control of CAD files, BOM synchronization into the ERP, middleware/connectors, OAuth security, monitoring, and staged testing. The content is generic AI output (no JVL-specific decisions); its durable value is evidence that JVL's CAD/PLM–ERP–Atlassian integration question was explored via ChatGPT. Undated; consistent with the ~2023–24 Atlassian/Business-Central era of [[wiki/projects/jvl-insights-knowledge-base.md]] (inference, flagged). [[raw/solid_work_integration_and_the_overall_architecture_suggesti_2025-03-29.md]]
 - **JVL Insights (2024 proposal):** the earliest recorded company-wide AI initiative — an AI-driven knowledge base with named staff/consultants (including Aaron as "Atlassian Specialist") — predating everything above. See [[wiki/projects/jvl-insights-knowledge-base.md]]. [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
 
+## Finance Automation Initiative (Apr-27 2026 — pointer only)
+
+An Apr-27 meeting titled **"Finance Automation Initiative"** ([[wiki/meetings/2026-04-27-finance-automation-initiative.md|stub]]; [[wiki/people/val-levitan.md|Val]] + external attendee Ian T. Myers) signals an emerging thread to automate JVL's finance/back-office work — the natural next step of the automate-recurring-tasks direction on [[wiki/topics/jvl-finance-back-office.md]]. The recording, however, **captured only pre-meeting small talk**, so nothing about the automation approach or any AI tooling was actually recorded; noted here as a pointer, not substance. [[raw/Meeting_Notes_finance_automation_initiative-April-27-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]]
@@ -706,3 +710,4 @@ In the [[wiki/meetings/2026-04-24-ci-architecture-reconvene.md|CI Architecture R
 - [[raw/Meeting_Notes_Legacy_CMS_Documentation_Progress_Check-April-15-2026.md]]
 - [[raw/Meeting_Transcript_CI_architecture_reconvene-April-24-2026.md]]
 - [[raw/Meeting_Notes_CI_Architecture_Reconvene-April-24-2026.md]]
+- [[raw/Meeting_Notes_finance_automation_initiative-April-27-2026.md]] — *derived notes:* Apr-27 Finance Automation Initiative (recording captured only small talk; pointer only).
