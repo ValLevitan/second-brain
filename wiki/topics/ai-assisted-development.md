@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, Copilot Studio, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest, LaTeX, printer tool, Ollama, llama.cpp, local inference, Code Llama, Hugging Face, Claude Code, AI sandwich, developer experience, think like a data scientist, sub-agents, verbose output, compiler layer, ways vs skills, ADR, cross-examination, Python Vulture, intelligence center, Waze system, ways framework, compiler stack diagram, module federation, Aaron ways system, Ways ADR, Ways capabilities catalog, regulatory provenance chain, JVL Ways pipeline, ways branch architecture, trusted stage users, clean environment lesson, engagement auditor agent, translation service, terminology override table, GitHub Enterprise fork, JVL GitHub Ways architecture guide, Capability Ticket, Jira hierarchy restructure, engineering guides, architecture black hole, Piratka]
-source-count: 105
+source-count: 107
 ---
 
 # AI-assisted development adoption
@@ -578,6 +578,10 @@ A long [[wiki/people/aaron.md|Aaron]]↔[[wiki/people/val-levitan.md|Val]] sessi
 
 §15.8 clear — Claude/Attend/Ways/repo-architecture tooling only; no named-person compensation.
 
+## Apr 15 2026 — legacy CMS documentation progress check (2-week status; Claude-driven docs; Apr-28 decision gate)
+
+A short status check ([[wiki/meetings/2026-04-15-legacy-cms-documentation-progress-check.md|Legacy CMS Documentation Progress Check]]; [[wiki/people/val-levitan.md|Val]], [[wiki/people/andrey-bosik.md|Andrei Bosik]], [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]], [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]], [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]]) ~2 weeks into the Mar-31 direction to spend ~2h/day documenting the legacy CMS via **Claude Code** (README/CLAUDE.md/docstrings). The documentation-as-code substance — Andrei's 6-metric "documents readiness" dashboard, the ~99% SVN→GitHub migration with `cass_wah`/Casino WAH last, the auto-generated `protoserver` metric-mismatch, and the continue-to-Apr-28 decision — lives on [[wiki/topics/docs-as-code-and-atlassian-exit.md]] (Apr 15 2026 section). The AI-development throughline here: the documentation pass exists partly to ramp the team onto Claude Code as the standard authoring tool, and partly as the evidence base to decide whether **Claude's earlier-proposed architecture** (from the [[wiki/topics/ai-assisted-development.md|Mar-23 data-access-strategy session]]) is applicable to this codebase — a decision gated to Apr 28, alongside Sasha Beratka's v3 repo-organization document and Andrei Bosik deepening from repo-organization into deployment infrastructure. §15.8 clear — tooling/infrastructure economics only (lift-and-shift vs cheaper-infra refactor), no named-person compensation. [[raw/Meeting_Transcript_legacy_cms_documentation_progress_check-April-15-2026.md]] [[raw/Meeting_Notes_Legacy_CMS_Documentation_Progress_Check-April-15-2026.md]]
+
 ## History — earlier AI-consultation artifacts (undated, pre-2025)
 
 - **SolidWorks integration memo from ChatGPT:** a reference document titled "Solid work integration and the overall architecture suggestion from ChatGPT" shows JVL (before the 2025 tooling push) using ChatGPT to draft an IT-integration architecture connecting **SolidWorks** (3D CAD) with **Atlassian Jira/Confluence** and **Microsoft Business Central** — file attachments/version control of CAD files, BOM synchronization into the ERP, middleware/connectors, OAuth security, monitoring, and staged testing. The content is generic AI output (no JVL-specific decisions); its durable value is evidence that JVL's CAD/PLM–ERP–Atlassian integration question was explored via ChatGPT. Undated; consistent with the ~2023–24 Atlassian/Business-Central era of [[wiki/projects/jvl-insights-knowledge-base.md]] (inference, flagged). [[raw/solid_work_integration_and_the_overall_architecture_suggesti_2025-03-29.md]]
@@ -690,3 +694,5 @@ A long [[wiki/people/aaron.md|Aaron]]↔[[wiki/people/val-levitan.md|Val]] sessi
 - [[raw/Meeting_Transcript_Aaron_Claude_Advancements_Review-5-April-13-2026.md]]
 - [[raw/Meeting_Transcript_Aaron_Claude_Advancements_Review-6-April-13-2026.md]]
 - [[raw/Meeting_Notes_Aaron_Claude_Advancements_Review-April-13-2026.md]]
+- [[raw/Meeting_Transcript_legacy_cms_documentation_progress_check-April-15-2026.md]]
+- [[raw/Meeting_Notes_Legacy_CMS_Documentation_Progress_Check-April-15-2026.md]]

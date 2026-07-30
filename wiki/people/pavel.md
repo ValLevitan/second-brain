@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 103
+source-count: 104
 open-commitments: 7
 open-questions: 0
 ---
@@ -283,8 +283,13 @@ On the two-segment [[wiki/meetings/2026-03-26-initiative-priority-schedule.md|In
 
 Pavel attended the [[wiki/meetings/2026-03-27-review-of-engineering-guides.md|Review of Engineering Guides]] (11:02am, with Val, [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] and [[wiki/people/andrey-bosik.md|Andrei Bosik]]): he raised the ADR-vs-requirement trigger question (ADRs will drive ~80–90% of feature creation), proposed the practical Jira restructure (rename Initiatives→Products, Products→Capability Tickets to preserve links rather than inserting a level and breaking ~1,700 relationships), argued to keep audio off GitHub (text transcripts only) and to move onboarding out of the per-project guide, and — crucially — was given the undertaking to **document the current OMNI system architecture** (only he has the depth) as the foundation ADRs will build on (~April 10). Then on the immediately-following [[wiki/meetings/2026-03-27-omni-architecture-challenge.md|OMNI Architecture Challenge]] call (1:58pm, one-on-one with Val) he heard Val's TypeScript/JavaScript + Rust stack proposal (accepting TS/JS, flagging the HAL-in-Rust rewrite as "a big piece of work"), reported his partly-done two-week sprint sketch (Linux 5.15 tasks in Jira), agreed Ira should own the Maple Jira Features, and requested ~6 days' vacation in early May. Substance on [[wiki/topics/ai-assisted-development.md]] + [[wiki/topics/omni-core-advancement-and-game-templating.md]] (Mar-27). [[raw/Meeting_Transcript_Review_of_Engineering_Guides-March-27-2026.md]] [[raw/Meeting_Transcript_OMNI_Architecture_Challenge-March-27-2026.md]]
 
+## Apr 15 2026 — Flex POS Alpha-1 status + HAL microservicing; asked to author the OMNI 2 outcome statement
+
+On the [[wiki/meetings/2026-04-15-flex-pos-alpha-and-omni-2-architecture.md|Flex POS Alpha & OMNI 2 alignment]] (with Val and [[wiki/people/irina-shishko.md|Irina]]) Pavel reported Flex POS device-side near **Alpha-1** on the ARC 35-68 board (SDK/dev-infra now in git as IP 977; speakers + top-light still open), proposed splitting the monolithic **HAL into per-device microservices** (Step 1 in C, Step 2 Rust later), filed **HFM-532** (wireless interfaces support), and raised the Minsk dispenser/recycler logistics and the **Flex Pay ICOM → ICOM-in-cloud** refactor. Val tasked him to write a desired-outcome statement for **OMNI 2** and to lead the architecture-first design loop (with Lishkevich, Metelsky, Khoretsky). Substance on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] + [[wiki/topics/omni-core-advancement-and-game-templating.md]] (Apr-15). [[raw/Meeting_Notes_Flex_POS_Alpha_and_OMNI_2_Architecture-April-15-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Flex_POS_Alpha_and_OMNI_2_Architecture-April-15-2026.md]]
 - [[raw/communication_break_down_Minsk-March-5-2026.md]]
 - [[raw/Mutual_standing-Communication_breakdown_Minsk.md]]
 - [[raw/Meeting_Transcript_Review_of_Engineering_Guides-March-27-2026.md]]

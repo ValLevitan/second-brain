@@ -4,7 +4,7 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "IT (GitHub-admin, infrastructure, secrets/Azure, AI-tool accounts) — the IT-context "Dima". Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 23
+source-count: 24
 open-commitments: 2
 ---
 
@@ -91,8 +91,13 @@ On the data-access-strategy / CMS-cloud-migration call ([[wiki/meetings/2026-03-
 
 On the [[wiki/meetings/2026-03-27-review-of-engineering-guides.md|Review of Engineering Guides]] Dmitri raised the prerequisite that the AI needs access to meeting recordings (in Teams only the owner has access) and demonstrated the proposed Jira hierarchy changes live in the sandbox — showing that **renaming** levels preserves relationships but **inserting** a Capability-Ticket level would break **~1,700 parent-child links**. He took the undertaking to prepare an **Excel comparison table** (current vs proposed hierarchy, with factual examples/screenshots) for Val, and to co-own (with [[wiki/people/andrey-bosik.md|Bosik]]) setting up the repository structure for the incoming transcript pipeline (~April 10). Substance on [[wiki/topics/ai-assisted-development.md]] + [[wiki/topics/transcript-knowledge-base-tooling.md]] (Mar-27). [[raw/Meeting_Transcript_Review_of_Engineering_Guides-March-27-2026.md]] [[raw/Meeting_Notes_Review_of_Engineering_Guides-March-27-2026.md]]
 
+## Apr 15 2026 — legacy CMS docs check: clarified his cloud-cost estimate was lift-and-shift as-is
+
+On the [[wiki/meetings/2026-04-15-legacy-cms-documentation-progress-check.md|Apr-15 legacy-CMS docs check]] Kovalchuk clarified that the cost figure he had presented earlier was the cost of lifting-and-shifting the legacy CMS infrastructure **as-is** into cloud with no rework — context for why refactoring it first onto cheaper infrastructure (which the documentation pass enables) is the cheaper path. Substance on [[wiki/topics/docs-as-code-and-atlassian-exit.md]] (Apr-15). [[raw/Meeting_Notes_Legacy_CMS_Documentation_Progress_Check-April-15-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Legacy_CMS_Documentation_Progress_Check-April-15-2026.md]]
 - [[raw/Meeting_Transcript_Review_of_Engineering_Guides-March-27-2026.md]]
 - [[raw/Meeting_Notes_Review_of_Engineering_Guides-March-27-2026.md]]
 - [[raw/Meeting_Transcript_data_access_strategy_and_cms_cloud_migration-March-23-2026.md]]

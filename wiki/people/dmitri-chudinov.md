@@ -4,7 +4,7 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 31
+source-count: 32
 open-commitments: 4
 open-questions: 0
 ---
@@ -130,8 +130,13 @@ A JIRA-sourced briefing prepared for [[wiki/people/aaron.md|Aaron]] ([[wiki/meet
 
 On the data-access-strategy / CMS-cloud-migration call ([[wiki/meetings/2026-03-23-data-access-strategy-cms-cloud-migration.md]], 1:34pm, Russian, transcribed "Dzmitry Chudzinau"; with [[wiki/people/val-levitan.md|Val]], [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]], [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]], [[wiki/people/andrey-bosik.md|Andrei Bosik]]) Chudinov is the back-end/architecture voice: he surfaced MCP's ergonomic limits (no dropdown/no remembered selection vs an app), the Excel-file credential-security problem, and — for a full cloud migration — the technical checklist (codebase mostly modern, framework version bumps; SQL scripts/stored procedures to convert; LDAP auth replaced by Azure/Entra; migrate as-is first). He proposed **PostgreSQL** as the cheaper alternative to MS SQL. Val assigned him (with [[wiki/people/sergey-tsymanov.md|Sergey]]) the **production-side migration estimate** — straight-line, no optimization. Substance on [[wiki/topics/olap-power-bi-architecture.md]] and [[wiki/topics/ai-assisted-development.md]] (Mar-23). [[raw/Meeting_Transcript_data_access_strategy_and_cms_cloud_migration-March-23-2026.md]]
 
+## Apr 15 2026 — legacy CMS docs check: migration ~99%, `cass_wah` last; docs are the rework foundation
+
+On the [[wiki/meetings/2026-04-15-legacy-cms-documentation-progress-check.md|Apr-15 legacy-CMS docs check]] Chudinov (transcript "Dzmitry Chudzinau") confirmed the SVN→GitHub migration is ~99% complete with one small repo remaining — `cass_wah`/Casino WAH — to be moved and documented last in the same cycle, and argued the documentation pass **is** the foundation for the rework decisions: without it the team can't see what to delete, redo cheaply, or preserve, and the eventual rework must be surgical so as not to break what works. Substance on [[wiki/topics/docs-as-code-and-atlassian-exit.md]] (Apr-15). [[raw/Meeting_Notes_Legacy_CMS_Documentation_Progress_Check-April-15-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Legacy_CMS_Documentation_Progress_Check-April-15-2026.md]]
 - [[raw/Meeting_Transcript_data_access_strategy_and_cms_cloud_migration-March-23-2026.md]]
 - [[raw/Claude_Code-Dzmitry.md]]
 - [[raw/Claude_Code-Dzmitry (1).md]]

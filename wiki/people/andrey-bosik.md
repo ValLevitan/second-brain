@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 71
+source-count: 72
 open-commitments: 12
 ---
 
@@ -216,8 +216,13 @@ Two connected threads this day. In the morning [[wiki/meetings/2026-04-13-aaron-
 - [ ] Andrei Bosik — expand Claude Code Review to all active repositories, starting with Flex Sport POS — due unspecified — [[raw/Meeting_Notes_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]]
 - [ ] Andrei Bosik — create a main-project Jira ticket for release-process documentation (moved from Service Management) and start the conversation with Ivan Shpak and Aaron — due unspecified — [[raw/Meeting_Notes_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]]
 
+## Apr 15 2026 — legacy CMS documentation progress check: owns the "documents readiness" report
+
+On the [[wiki/meetings/2026-04-15-legacy-cms-documentation-progress-check.md|Legacy CMS Documentation Progress Check]] (with Val, [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]], [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]], [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]]) Andrei presented his 6-metric **"documents readiness"** dashboard tracking README/CLAUDE.md/docstring coverage across the legacy-CMS repos. Val coached him to *guide* a reader through a report rather than hand it over cold. Andrei argued the docs pass is also a **bus-factor** safeguard (the legacy CMS lives on a while regardless of future architecture) and undertook to deepen from repo-organization into **deployment infrastructure** by Apr 28. Substance on [[wiki/topics/docs-as-code-and-atlassian-exit.md]] + [[wiki/topics/ai-assisted-development.md]] (Apr-15). [[raw/Meeting_Notes_Legacy_CMS_Documentation_Progress_Check-April-15-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Legacy_CMS_Documentation_Progress_Check-April-15-2026.md]]
 - [[raw/Meeting_Notes_Aaron_Claude_Advancements_Review-April-13-2026.md]]
 - [[raw/Meeting_Transcript_Flex-POS_Repo_Architecture_Review-April-13-2026.md]]
 - [[raw/Meeting_Notes_Flex-POS_Repo_Architecture_Review-April-13-2026.md]]
