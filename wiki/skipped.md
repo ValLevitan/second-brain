@@ -168,3 +168,7 @@ Format: `raw/<skipped file>` — source of record `raw/<cited fuller file>` — 
 
 ### Batch 154
 - Three May-5/6 meetings ingested as stubs — Flex-POS/Recycler Web Interface Planning (May-5, transcript+notes), GA-V2 Schedule Review (May-5, transcript+notes), Nate/Val BEP Realignment (May-6, notes-only). **No bundle README and no out-of-scope media** among any of the three meetings' sources (transcript/notes `.md` only; the Flex-POS Recycler source folder + the loose GA-V2/BEP files carried no images/xlsx/audio/README). **No §12 skips** (all five raw files cited by content pages). (Recorded so the no-file-loss audit doesn't re-flag one.)
+
+### Batch 155 — Out-of-scope media
+- `doc-readiness-2026-05-07.html` — out-of-scope media (v1 text-only; HTML doc-readiness dashboard export); vault location: obsidian-jvl/Transcripts-JVL/2026/05_May/doc-readiness-2026-05-07.html — NOT staged. (Referenced in the CAS Cloud Migration Sequencing notes as the meeting's attached artifact.)
+- **No bundle README staged this batch.** The three May-7 meetings' six staged raw files are flat transcript/notes `.md` (CAS transcript + Sequencing notes; JIRA Hierarchy Pt1 + Pt2 notes; Vertical Roadmap transcript + notes). No bundle-manifest README was among the staged sources; if a `README.md` sits beside the Vertical Roadmap source bundle in the vault it is bundle-manifest metadata (substance captured via transcript+notes) — not staged, no stub. **No §12 skips** (all six raw files cited by content pages).
