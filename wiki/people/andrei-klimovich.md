@@ -4,8 +4,8 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 34
-open-commitments: 12
+source-count: 36
+open-commitments: 14
 open-questions: 0
 ---
 
@@ -115,6 +115,8 @@ From the June-4 update ([[wiki/meetings/2025-06-04-klimovich-progress-update.md]
 
 ## Open commitments
 
+- [ ] Andrei Klimovich — gather competitor intelligence for the transactional/POS market and organize it into a side-by-side capability + pricing comparison (Incomm/Pax, Gewete/Count R, SGK, Vanilla/Cadrex, EasyLynx, Intuitive Financial/Ivy, M3T/IGT, Arc, Blue Scale, Win Systems, Banilla, Billy Luke, Ready Payouts, Bulldogs, Ultra, Inna Max) — due ~Apr 29 2026 (next meeting; Val's gating condition before any pricing conversation) — [[raw/Meeting_Notes_transactional_financial_model-April-21-2026.md]] [[raw/Meeting_Transcript_transactional_financial_model-April-21-2026.md]]
+- [ ] Andrei Klimovich — plan and book Georgia travel arriving ~May 13 for the May 14 operator meeting (learner/relationship visit, no product demo) — due before May 13 2026 — [[raw/Meeting_Notes_transactional_financial_model-April-21-2026.md]] [[raw/Meeting_Transcript_transactional_financial_model-April-21-2026.md]]
 - [ ] Andrei Klimovich — run the $1,000 top-keyword Amazon test + ~10 new-keyword experiments; if no sale, pause Amazon keyword-search ads — due unspecified — [[raw/update_andrei_klimovich-may-19-2025.md]]
 - [ ] Andrei Klimovich — give Burger King's broker HS 95.04.30.0010 so the border-stuck machines can clear customs — due unspecified — [[raw/update_andrei_klimovich-may-19-2025.md]]
 - [ ] Andrei Klimovich — prepare for the Too Many Games expo (print/handouts/flyers with QR to the Amazon page; finalize the giveaway mechanic per Val's cheaper-prize direction) — due late June — [[raw/update_andrei_klimovich-may-19-2025.md]]
@@ -201,6 +203,10 @@ On the [[wiki/meetings/2026-03-30-black-horse-invoice-payment-review.md|Black Ho
 ## Apr 15 2026 — FlexPay functionality review; product ownership; Georgia onboarding
 
 On the [[wiki/meetings/2026-04-15-flex-pay-functionality-review.md|Apr-15 Flex-Pay functionality review]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/juan-martinez.md|Juan Martinez]], Andrei), Andrei walked the team through first-hand FlexPay kiosk UX observations he captured as a novice user; Val **assigned him product ownership** ("it's your product, you are responsible") including the "$0 playable" bug/scope-gap investigation. Val opened by orienting him to the transactional business and delivered coaching: be less "binary," share half-formed ideas, and adopt the capture-transcript → Aaron's-MCP → Jira workflow. Plan set for Andrei to be on the ground in **Georgia ~May 1** for hands-on alpha install, with a dedicated pricing-model call **Apr 21**. Role reconfirmed: corporate umbrella (marketing/market-&-product intelligence, can cut deals) supporting [[wiki/people/felipe-miranda.md|Felipe]]'s Georgia sales — not a sales entity. Full product/UX detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Apr-15). **§15.8:** his compensation percentage was referenced but not ingested. [[raw/Meeting_Transcript_Flex-Pay_functionality_review-1-April-15-2026.md]] [[raw/Meeting_Transcript_Flex-Pay_functionality_review-2-April-15-2026.md]] [[raw/Meeting_Notes_Flex-Pay_functionality_review-April-15-2026.md]]
+
+## Apr 21 2026 — Transactional competitive-landscape session; competitor-research undertaking; Georgia trip
+
+On the [[wiki/meetings/2026-04-21-transactional-financial-model.md|Transactional Financial Model / Competitive Landscape]] session ([[wiki/people/val-levitan.md|Val]], [[wiki/people/juan-martinez.md|Juan Martinez]], [[wiki/people/felipe-miranda.md|Felipe Miranda]], Andrei — his second such session), Val pivoted the meeting from pricing to mapping the transactional/POS competitive landscape and made it Andrei's gating deliverable: **gather competitor intelligence and organize it into a side-by-side capability + pricing comparison** before any pricing-strategy conversation. Val praised his research capabilities on the record ("I've seen Andrei in action… I feel very comfortable"). The group also settled his first **Georgia field trip: arrive ~May 13 for the May 14 operator meeting** (not May 1) — as a learner/relationship visit, not a product demo (the alpha stays in the Georgia office). Val's coaching stressed showing up without an agenda or commitments, purely to gather intelligence. Full competitor inventory + product-direction context on [[wiki/projects/georgia-market-rollout.md]] (Apr 21 2026). **§15.8:** Val's demo-sequencing coaching keyed to operator ethnicity was flagged on-record for HR-sanitization and is not restated. [[raw/Meeting_Transcript_transactional_financial_model-April-21-2026.md]] [[raw/Meeting_Notes_transactional_financial_model-April-21-2026.md]]
 
 ## Sources
 
