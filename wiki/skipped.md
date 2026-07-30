@@ -172,3 +172,9 @@ Format: `raw/<skipped file>` — source of record `raw/<cited fuller file>` — 
 ### Batch 155 — Out-of-scope media
 - `doc-readiness-2026-05-07.html` — out-of-scope media (v1 text-only; HTML doc-readiness dashboard export); vault location: obsidian-jvl/Transcripts-JVL/2026/05_May/doc-readiness-2026-05-07.html — NOT staged. (Referenced in the CAS Cloud Migration Sequencing notes as the meeting's attached artifact.)
 - **No bundle README staged this batch.** The three May-7 meetings' six staged raw files are flat transcript/notes `.md` (CAS transcript + Sequencing notes; JIRA Hierarchy Pt1 + Pt2 notes; Vertical Roadmap transcript + notes). No bundle-manifest README was among the staged sources; if a `README.md` sits beside the Vertical Roadmap source bundle in the vault it is bundle-manifest metadata (substance captured via transcript+notes) — not staged, no stub. **No §12 skips** (all six raw files cited by content pages).
+
+### Batch 156
+- `GA-COAM v2 Capability Decomposition-May-8-2026/README.md` — bundle-manifest/index metadata, not meeting content; substance via transcript+notes — not staged, no stub.
+- `GA-COAM v2 Requirements Workflow and Personas-May-8-2026/README.md` — bundle-manifest/index metadata; substance via transcript+notes — not staged, no stub.
+- `GA-COAM V2 Rollout Status Check-May-8-2026/README.md` — bundle-manifest/index metadata; substance via the two transcript + two notes segments — not staged, no stub.
+- **No out-of-scope media in any of the three Batch-156 bundles** — each holds only transcript/notes `.md` + a README (the Rollout bundle holds 2 transcript segments + 2 notes segments + README). No images/xlsx/audio/HTML. **No §12 skips** (all eight staged raw files cited by content pages). (Recorded so the no-file-loss audit doesn't re-flag one.)
