@@ -136,6 +136,9 @@ Format: `raw/<skipped file>` — source of record `raw/<cited fuller file>` — 
 ### Batch 148
 - The **Transactional Financial Model-April-21-2026** bundle (dir) holds **only** the transcript + notes `.md` — **no README, no media**. The **Flex-S Cabinet Direction** meeting is **loose top-level** files (transcript + notes `.md`), not a bundle dir — **no README, no media**. Both meetings ingested as stubs; **no §12 skips** this batch. (Recorded so the no-file-loss audit doesn't re-flag either.)
 
+### Batch 149
+- Both April-24 bundle directories hold **only** the transcript + notes `.md` — the **CI Architecture Reconvene-April-24-2026** bundle has **no README, no media**, and the **Software Fix Rollout Plan-April-24-2026** bundle has **no README, no media**. Both meetings ingested as stubs; **no §12 skips** this batch. (Recorded so the no-file-loss audit doesn't re-flag either.)
+
 ### Out-of-scope exclusions (non-JVL content — not ingested, not a §12 dup)
 - `raw/koenigsegg_regera-verbal_orgasm-may-21-2025.md` — **OUT OF SCOPE (not a JVL meeting).** A YouTube-style narration/review of the Koenigsegg Regera hypercar ("…a bunch of Swedish engineers… 1,500 horsepower"), mis-filed into the May-2025 transcripts folder. Not a JVL business meeting, not §15.8-sensitive — simply off-topic per §1 scope. Excluded (recorded here so the pending-sweep and full-year no-file-loss audit don't re-flag it). Found in the 2025-complete full-year sweep, 2026-07-20.
 
