@@ -158,3 +158,10 @@ Format: `raw/<skipped file>` — source of record `raw/<cited fuller file>` — 
 - `CAS Cloud Migration Doc-Readiness Review-April-28-2026/README.md` — bundle-manifest/index metadata, not meeting content; substance via transcript+notes — not staged, no stub.
 - `Cash Reporting Standardization-April-28-2026/README.md` — bundle-manifest/index metadata; not staged, no stub.
 - `Recycler Architecture Planning-April-28-2026/README.md` — bundle-manifest/index metadata; not staged, no stub. (Lena IP-MCP bundle has no README.)
+
+### Batch 152
+- `Flex-Recycler Development Planning-April-29-2026/README.md` — bundle-manifest/index metadata, not meeting content; substance via the bundle's notes (this bundle is **notes-only** — no transcript) — not staged, no stub.
+- `Flex-Recycler REQ Daily Sync-April-29-2026/README.md` — bundle-manifest/index metadata; substance via transcript+notes — not staged, no stub.
+- `CI Architecture Governance Framework Review-April-30-2026/README.md` — bundle-manifest/index metadata; substance via transcript+notes — not staged, no stub.
+- `Flex-Recycler REQ Prep-April-30-2026/README.md` — bundle-manifest/index metadata; substance via transcript+notes — not staged, no stub.
+- **No out-of-scope media in any of the four Batch-152 bundles** — each holds only transcript+notes `.md` + a README (the Dev-Planning bundle holds notes `.md` + README only); no images/xlsx/audio. (Recorded so the no-file-loss audit doesn't re-flag one.)
