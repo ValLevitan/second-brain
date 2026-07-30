@@ -3,7 +3,7 @@ type: topic
 title: GitHub release management and the CI/CD release pipeline
 date: 2025-10-21
 aliases: [release management, release pipeline, CI/CD, GitHub Actions pipeline, release artifacts, ISO image release, release manager role, continuous delivery, flex os installer, manifest, release candidate, single source of truth, feature branch discipline, sprints vs kanban, Jira GitHub link, FlexPos IP 902, FP 519, IP 89 dashboard grooming, bulk archive automation, Jira resolutions cleanup, Flex-POS Transition to Production, alpha build release tracking]
-source-count: 36
+source-count: 38
 open-questions: 3
 ---
 
@@ -237,8 +237,24 @@ Two same-day working sessions ([[wiki/meetings/2026-05-07-jira-hierarchy-restruc
 
 - **Where do large graphic files (LFS) live for releases?** Val recalled agreeing to move big graphic assets to separate cloud storage (he floated Azure / "blob") to avoid cluttering GitHub; [[wiki/people/andrey-bosik.md|Andrei]] stated **LFS is part of the GitHub repository**. Accounts diverge; unresolved. Related: artifacts currently sit on a **local Nexus server**, and Val ruled to **keep Nexus local for now** (cloud Nexus needs a financial commitment JVL isn't sure it needs), accepting a later action-rewrite when JVL migrates to cloud. [[raw/artifacts_assembly_GitHub-october-21-2025.md]] [[raw/practice_release_calle_ocho-github-october-21-2025.md]]
 
+## May 15 2026 — Flex-Recycler feature-schedule session: the Jira/feature workflow rules
+
+The [[wiki/meetings/2026-05-15-flex-recycler-feature-schedule-workflow.md|May-15 Flex-Recycler working session]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/andrei-klimovich.md|Andrei Klimovich]], [[wiki/people/juan-martinez.md|Juan Martinez]], [[wiki/people/alexander-biratka.md|Sasha Biratko]], [[wiki/people/irina-shishko.md|Irina Shishko]]) set several durable rules for how JVL runs features through Jira and GitHub — continuing the Mar-4 feature-branch-discipline thread above. Product substance is on [[wiki/projects/georgia-market-rollout.md]] (May-15).
+
+- **Capability close-out = three conditions.** A capability closes only when (1) all of its features are merged, (2) Andrei tests and confirms the capability, and (3) Irina runs end-to-end testing with no failure. Acceptance criteria live on **requirements and features, not on capabilities**; a capability is one-shot and "goes away" when closed, while a **requirement is durable, reusable and testable**. Val will push (not necessarily from day one) for the E2E testing to run in **automated** form. [[raw/Meeting_Transcript_flex_recycler_feature_schedule_workflow-May-15-2026.md]]
+- **MVP / release-version selection happens at scheduling time**, not while authoring capabilities. Sequence: Sasha lays out features with acceptance criteria → Irina writes test cases grouped into test suites → [[wiki/people/pavel.md|Pavel]] raises resource constraints → Val sets the overall priority (he is the sole authority for cross-initiative priority) → internal negotiation produces a schedule → Andrei then scrubs which capabilities make the MVP for a given date. [[raw/Meeting_Transcript_flex_recycler_feature_schedule_workflow-May-15-2026.md]]
+- **Feature and story sizing.** A feature is **~2–5 days of work** (on the order of 10–20 hours per the derived notes; the transcript audio is garbled on the exact hours); if Sasha splits a feature into stories, a **story is 1–2 days maximum** — anything longer should be its own feature. Stories are optional under a feature. [[raw/Meeting_Transcript_flex_recycler_feature_schedule_workflow-May-15-2026.md]] [[raw/Meeting_Notes_flex_recycler_feature_schedule_workflow-May-15-2026.md]]
+- **Feature branches + Saturday merges.** Each feature is a feature branch with commits clustered per day; per the derived notes, branches merge on **Saturdays**. [[raw/Meeting_Notes_flex_recycler_feature_schedule_workflow-May-15-2026.md]]
+- **Backlog → To Do = the scheduling moment.** When a feature is given assigned dates it moves from **Backlog** to **To Do** in Jira; "To Do" specifically means **scheduled and stock-ranked**. The schedule is visualised as a calendar bar that stretches as stories are extended. [[raw/Meeting_Transcript_flex_recycler_feature_schedule_workflow-May-15-2026.md]]
+- **Components, not labels, for categorisation.** Val's policy: avoid Jira **labels**; use **components** instead. "Recycler" is to become a Jira component (Val to coordinate with IT), and sector/product categories (e.g. "transactional") migrate off labels onto components. [[raw/Meeting_Transcript_flex_recycler_feature_schedule_workflow-May-15-2026.md]]
+- **Jira cross-references: inline name + clickable link.** Sasha criticised Andrei's requirement text as too academic and over-reliant on click-through cross-links; Andrei defended links as the single point of truth (change once, no drift). Irina's compromise, accepted by all: use Jira's auto-populated **referenced-requirement name shown inline** alongside the clickable link — readability and single-source-of-truth together. [[raw/Meeting_Transcript_flex_recycler_feature_schedule_workflow-May-15-2026.md]]
+- **Simple-language communication rule (company-wide).** Val made "communicate simply — get to the point in the first three sentences, no fancy wording" a JVL-wide rule, strongly endorsed by Sasha; Andrei to add a prompt to his Claude requirement-drafting flow enforcing plain language. Val tied this to his own BC material-requirements MCP experience: a tight user profile plus attention to every verb and adjective produced smooth Claude-driven feature delivery. [[raw/Meeting_Transcript_flex_recycler_feature_schedule_workflow-May-15-2026.md]] [[raw/Meeting_Notes_flex_recycler_feature_schedule_workflow-May-15-2026.md]]
+- **Andrei does not review Sasha's features** (Val judged it impractical); instead an open Andrei↔Sasha communication line — Sasha asks Andrei twice when unsure of a requirement's intent before turning it into a feature. [[raw/Meeting_Transcript_flex_recycler_feature_schedule_workflow-May-15-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_flex_recycler_feature_schedule_workflow-May-15-2026.md]]
+- [[raw/Meeting_Notes_flex_recycler_feature_schedule_workflow-May-15-2026.md]]
 - [[raw/releases_github-october-21-2025.md]]
 - [[raw/artifacts_assembly_GitHub-october-21-2025.md]]
 - [[raw/practice_release_calle_ocho-github-october-21-2025.md]]

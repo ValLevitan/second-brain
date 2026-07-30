@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 75
+source-count: 77
 open-commitments: 15
 open-questions: 8
 ---
@@ -441,6 +441,18 @@ A ~2h43m JIRA portfolio review ([[wiki/meetings/2026-05-13-schedule-review.md|Sc
 - Why does the Bally iview final report disagree with the (correct) data JVL sends, and does the iview system need a protocol JVL can't currently select? [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 - Will the third dedicated printer port become JVL's standard on all future machines? (Raised, not settled.) [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 
+## May 15 2026 — Flex-Recycler feature-schedule workflow working session
+
+A ~50-minute Flex-Recycler requirements/scheduling session ([[wiki/meetings/2026-05-15-flex-recycler-feature-schedule-workflow.md]]; [[wiki/people/val-levitan.md|Val]], [[wiki/people/andrei-klimovich.md|Andrei Klimovich]], [[wiki/people/juan-martinez.md|Juan Martinez]], [[wiki/people/alexander-biratka.md|Alexander "Sasha" Biratko]], [[wiki/people/irina-shishko.md|Irina Shishko]]), the follow-up to the [[wiki/meetings/2026-05-05-flex-pos-recycler-web-interface-planning.md|May-5 web-interface call]] and the [[wiki/meetings/2026-05-08-ga-coam-v2-requirements-workflow-personas.md|May-8 capability/requirement workflow]]. Product-side substance:
+
+- **Capability maturity.** Andrei reported the player-facing Flex-Recycler capabilities are nearly complete — only **3 minor edge-case capabilities remain**; the rest have full requirements and use cases, player flow covered first. [[raw/Meeting_Transcript_flex_recycler_feature_schedule_workflow-May-15-2026.md]] [[raw/Meeting_Notes_flex_recycler_feature_schedule_workflow-May-15-2026.md]]
+- **PIN flow decision — player-input, not auto-generated.** Andrei had designed the FlexPay cash-out PIN to be auto-generated and displayed (to minimise friction); Juan pushed back (a player handed a PIN may forget it before returning to cash out), and the flow was changed to **the player enters a PIN and confirms it**. [[raw/Meeting_Transcript_flex_recycler_feature_schedule_workflow-May-15-2026.md]]
+- **Capabilities must be groomed with Juan.** Val's concern: Andrei may be writing capabilities from an *imagined* rather than a *known* understanding of the subject, so every capability must be run past Juan (who knows the domain) before it is treated as final. Andrei + Juan booked a joint grooming session for **Monday May 18** (Juan is out Tuesday). [[raw/Meeting_Transcript_flex_recycler_feature_schedule_workflow-May-15-2026.md]] [[raw/Meeting_Notes_flex_recycler_feature_schedule_workflow-May-15-2026.md]]
+- **Next milestone = a feature-level schedule for the Flex-Recycler**, reviewed at a checkpoint Val set for **Wednesday May 20 2026, 8:00am ET** (invite to follow). Scheduling of the already-known features ([[wiki/people/alexander-biratka.md|Sasha]] + [[wiki/people/pavel.md|Pavel]] + Irina) runs **in parallel** with Andrei's remaining capability/requirement work, not after it. [[raw/Meeting_Transcript_flex_recycler_feature_schedule_workflow-May-15-2026.md]]
+- **Gamoa gift-card-to-ATM path on hold.** In pre-meeting clearing, Andrei noted the initiative to let gift cards be used at ATMs (a step toward real cash-out) is on hold pending US mid-term elections; Val deferred it to a separate call. [[raw/Meeting_Transcript_flex_recycler_feature_schedule_workflow-May-15-2026.md]]
+
+The durable Jira/feature-workflow and scheduling rules from this session (feature/story sizing, feature branches + Saturday merges, Backlog→To-Do semantics, components-not-labels, capability close-out criteria, simple-language rule) are recorded on [[wiki/topics/github-release-management-pipeline.md]] (May-15). §15.8: feature/schedule/product-workflow economics only; no named-person compensation.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Felipe_credit_terms_sales_strategy-March-31-2026.md]]
@@ -518,3 +530,5 @@ A ~2h43m JIRA portfolio review ([[wiki/meetings/2026-05-13-schedule-review.md|Sc
 - [[raw/Meeting_Notes_ga_coam_v2_rollout_status_check-Segment_1-May-8-2026.md]]
 - [[raw/Meeting_Notes_ga_coam_v2_rollout_status_check-Segment_2-May-8-2026.md]]
 - [[raw/Meeting_Notes_Schedule_Review-May-13-2026.md]]
+- [[raw/Meeting_Transcript_flex_recycler_feature_schedule_workflow-May-15-2026.md]]
+- [[raw/Meeting_Notes_flex_recycler_feature_schedule_workflow-May-15-2026.md]]

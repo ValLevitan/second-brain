@@ -182,3 +182,7 @@ Format: `raw/<skipped file>` — source of record `raw/<cited fuller file>` — 
 ### Batch 157
 - **No §12 skips.** All seven staged raw files are cited by content pages: BC-MCP transcript+notes (May-11), the two NOVA transcript segments + two NOVA notes segments (May-12), and the Payment-Hub GL/sales-tax notes (May-12).
 - **No bundle READMEs and no out-of-scope media staged for Batch 157** — only the transcript/notes `.md` files are present in `raw/` for these three meetings (no README manifest, no images/xlsx/audio/HTML observed among the staged files). (Recorded so the no-file-loss audit doesn't re-flag.)
+
+### Batch 159
+- `Flex-Recycler Feature Schedule Workflow-May-15-2026/README.md` — bundle-manifest/index metadata, not meeting content (§3); substance captured via the staged transcript + notes — **README, not ingested** (not staged, no stub). Vault location: obsidian-jvl/Transcripts-JVL/2026/05_May/Flex-Recycler Feature Schedule Workflow-May-15-2026/README.md.
+- **No out-of-scope media in the Batch-159 bundle** — the folder holds only the transcript `.md`, notes `.md`, and the README (no images/xlsx/audio/HTML). **No §12 skips** — both staged raw files are cited by content pages (the meeting stub, plus georgia-market-rollout and github-release-management-pipeline). (Recorded so the no-file-loss audit doesn't re-flag one.)
