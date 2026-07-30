@@ -20,6 +20,8 @@ Substance routed to:
 
 §12 derived-document family: ONE meeting, THREE staged artifacts — the transcript (primary) plus TWO distinct derived notes (a 17KB "MCP vs Excel/Tableau, and CMS Cloud Migration" summary processed Apr-25, and a separate 9KB "Dashboards or Conversational Queries" summary processed Mar-26; the two notes are not byte-duplicates). All three cited below; facts on the topic pages are drawn from the transcript (fullest source of record). [[raw/Meeting_Notes_Data_Access_Strategy_and_CMS_Cloud_Migration-March-23-2026.md]] [[raw/Meeting_Notes_Data_Access_Strategy_Cloud_Migration-March-23-2026.md]]
 
+**Follow-on:** the CMS cloud-migration thread continues at the [[wiki/meetings/2026-04-28-cas-cloud-migration-doc-readiness-review.md|Apr-28 CAS/CMS doc-readiness review]] — the decision-gate that checks whether the Claude-Code documentation pass has advanced far enough to judge this migration/architecture proposal.
+
 §15.8 clear — tooling / data / cloud / CMS / licensing economics only; no named-person compensation.
 
 ## Sources

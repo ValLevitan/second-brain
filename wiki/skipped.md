@@ -153,3 +153,8 @@ Format: `raw/<skipped file>` — source of record `raw/<cited fuller file>` — 
 ### Out-of-scope media (owner ruling 2026-07-27 — v1 is text-only)
 
 - `GitHub_Ways_Config_Integrations-March-16-2026.jpg` — out-of-scope media (v1 is text-only, owner ruling 2026-07-27); vault location: obsidian-jvl/Transcripts-JVL/2026/03_March/GitHub_Ways_Config_Integrations-March-16-2026.jpg — NOT staged to raw/, recorded per §1.
+
+### Batch 151
+- `CAS Cloud Migration Doc-Readiness Review-April-28-2026/README.md` — bundle-manifest/index metadata, not meeting content; substance via transcript+notes — not staged, no stub.
+- `Cash Reporting Standardization-April-28-2026/README.md` — bundle-manifest/index metadata; not staged, no stub.
+- `Recycler Architecture Planning-April-28-2026/README.md` — bundle-manifest/index metadata; not staged, no stub. (Lena IP-MCP bundle has no README.)

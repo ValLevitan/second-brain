@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna, Selena, Elena]
-source-count: 54
+source-count: 56
 open-commitments: 1
 ---
 
@@ -209,8 +209,14 @@ On the [[wiki/meetings/2026-03-27-game-development-review.md|Mar-27 game-develop
 
 On the [[wiki/meetings/2026-03-31-transcripts-mcp-setup-lena.md|Mar-31 transcripts-MCP setup]] (with [[wiki/people/clayton-chancey.md|Clayton Chancey]] and [[wiki/people/val-levitan.md|Val]]) Clayton connected Lena's Claude to the live transcripts pipeline (PAT + SSO). The session was repeatedly derailed by **MCP instability on her Windows machine** (tools connecting/disconnecting; she noted the risk of a silent mid-query disconnect producing wrong answers, and that she sometimes has to reboot to recover), but the end-to-end test eventually worked — resolving "Dragon Pays" correctly via Jira and enriching feature descriptions with meeting-notes comments. Clayton framed Lena as the **"ontological filter"** — the human judging correct/incorrect before hitting execute; Lena corroborated that she catches Claude "fixing" her information and claiming its version is better. Val ordered a **Mac mini** for her live on the call (her custom graphical tools won't run on Linux but work on Mac); she noted team leads **Anastasia** and **Julia** also need it since they manage stories. See [[wiki/topics/transcript-knowledge-base-tooling.md]] and [[wiki/topics/ai-assisted-development.md]] (Mar-31). §15.8 clear. [[raw/Meeting_Transcript_Transcripts_MCP_setup_Lena-March-31-2026.md]] [[raw/Meeting_Notes_Transcripts_MCP_Setup_Lena-March-31-2026.md]]
 
+## Apr 28 2026 — IP MCP model regression: the Opus-4.6 pin and the tools she still wants
+
+On the [[wiki/meetings/2026-04-28-lena-ip-mcp-model-regression.md|Lena IP MCP Model Regression]] session (with [[wiki/people/clayton-chancey.md|Clayton Chancey]] and [[wiki/people/val-levitan.md|Val]], who joined mid-call), Lena re-tested Clayton's **IP MCP** JIRA-ticket tool after its prior failure. Reverting to **Opus 4.6** restored quality; a re-test produced 11 tickets with correct comp-art images, which she spot-checked as accurate ("same quality as the Dragon Base structure work"). She raised the long-term worry that Anthropic may eventually retire 4.6, and asked for **delete-issue** and **archive-issue** tools so she needn't switch to Aaron's separate MCP add-on (e.g. archive all IPs under a finished market like Georgia/South Dakota). She will test through the week — including generating stories under features — and aims to cut over to production Thursday Apr 30; propagation to her two team leads (on Windows) to be handled by Andrei. See [[wiki/topics/transcript-knowledge-base-tooling.md]] and [[wiki/topics/ai-assisted-development.md]] (Apr-28). §15.8 clear. [[raw/Meeting_Transcript_lena_IP_MCP_model_regression-1-April-28-2026.md]] [[raw/Meeting_Notes_lena_IP_MCP_model_regression-April-28-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_lena_IP_MCP_model_regression-1-April-28-2026.md]]
+- [[raw/Meeting_Notes_lena_IP_MCP_model_regression-April-28-2026.md]]
 - [[raw/Clayton-Aaron-JVL-semantic-understanding-March-13-2026.md]]
 - [[raw/Clayton-Aaron-JVL-semantic-understanding-March-19-2026.md]]
 - [[raw/Meeting_Transcript_game_development_March-27-2026-1.md]]

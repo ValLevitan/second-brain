@@ -3,7 +3,7 @@ type: person
 title: Igor Donis
 date: 2026-07-13
 aliases: [Igor Donis, Igor]
-source-count: 10
+source-count: 12
 disambiguation: "JVL Financial Controller — the finance/corporate Igor. One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
 ---
 
@@ -53,7 +53,13 @@ On the [[wiki/people/sean-riley.md|Sean Riley]] alignment call ([[wiki/meetings/
 
 On the [[wiki/meetings/2026-03-30-black-horse-invoice-payment-review.md|Black Horse invoice-payment review]] (with [[wiki/people/val-levitan.md|Val]] and [[wiki/people/felipe-miranda.md|Felipe Miranda]]) Igor presented the Black Horse Entertainment outstanding-invoice data from **Business Central**. Val used it to task Igor as the finance enforcer: send delinquency letters, and **lock any account against new invoices** once it is delinquent past ~45 days (letter + 15 days first), until 100% current — the controller is the "bad guy" who holds the line so Felipe (sales) never has to. Confirms JVL is fully migrated off Navision onto BC with finance trained on it. Details on [[wiki/topics/jvl-finance-back-office.md]]. §15.8 clear. [[raw/Meeting_Transcript_Black_Horse_invoice_payment_review-1-March-30-2026.md]]
 
+## Apr 28 2026 — cash-reporting standardization (owns the redesign)
+
+On the [[wiki/meetings/2026-04-28-cash-reporting-standardization.md|cash-reporting standardization]] call (with [[wiki/people/val-levitan.md|Val]] and Cris Nacarino) Val assigned Igor to unify JVL's three weekly cash artifacts — cash-position-consolidated, weekly cash-demand, and the vendor-payment-approval workbook — so all three share the same publication date, account set, reference number, and top/bottom totals, and become AI-reconcilable. Igor owns: reformatting both cash reports, converting the approval workbook from colour codes to check-marks, setting up 52 weekly SharePoint folders per year, deriving a reusable JVL Excel formatting-standard prompt via Claude, and producing a first draft for Val's review. Igor flagged (and Val confirmed) the one-week offset between the prior-week approval and the current-week statement. Detail on [[wiki/topics/jvl-finance-back-office.md]] (Apr-28). §15.8 clear (reporting workflow; no compensation). [[raw/Meeting_Transcript_cash_reporting_standardization-April-28-2026.md]] [[raw/Meeting_Notes_Cash_Reporting_Standardization-April-28-2026.md]]
+
 ## Sources
+- [[raw/Meeting_Transcript_cash_reporting_standardization-April-28-2026.md]]
+- [[raw/Meeting_Notes_Cash_Reporting_Standardization-April-28-2026.md]]
 - [[raw/Meeting_Transcript_controller_search_and_2011_filing-March-24-2026.md]]
 - [[raw/Meeting_Notes_Controller_Search_and_2011_Filing-March-24-2026.md]]
 - [[raw/Meeting_Transcript_Black_Horse_invoice_payment_review-1-March-30-2026.md]]

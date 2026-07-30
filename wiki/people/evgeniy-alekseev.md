@@ -4,7 +4,7 @@ title: Evgeniy Alekseev
 date: 2025-03-11
 aliases: [Evgeniy Alekseev, Evgeny Alekseev, Zhenya Alekseev, Женя Алексеев, Alekseev]
 disambiguation: "Owner of the main embedded code branch, this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
-source-count: 23
+source-count: 25
 open-commitments: 1
 ---
 
@@ -89,8 +89,14 @@ On the second Feb-12 [[wiki/people/genadi-peari.md|Genadi]] call ([[wiki/meeting
 
 On the [[wiki/meetings/2026-03-25-freezing-investigation-alekseev-followup.md|Mar-25 freezing follow-up call]] (11:03am; Val, Pavel Frolov, Genadi Peari, Alexander Biratko) Val brought Alekseev in as an **outside voice** on the Georgia EGM freezing problem, having sent him a problem document the day before. Alekseev offered three hypotheses: **memory management** issues (leaks / out-of-bounds / stack overflow — he rated ~90% likely); **printer-driver synchronous communication** (should use a separate thread with a command queue); and **chip/GPU errata** (obtain the vendor errata sheet for the exact processor). A technical debate followed — Alekseev held that memory corruption can hard-freeze even Linux, Pavel countered that x86 Linux memory protection makes an app segfault without taking the kernel down — and when Pavel opened the actual printer HAL code (`l_printer`) it **already had mutex locks throughout**, contradicting Alekseev's assumption that the printer code lacked thread safety (Pavel: the code Alekseev wrote for the Pyramid printer, simplified from a mutex-using template, is where the gap was). Alekseev was skeptical of Claude Code from his own trial; Val judged it likely misconfigured. See [[wiki/topics/egm-freezing-investigation.md]] (Mar-25). [[raw/transcript_Freezing_investigation-March-25-2026.md]]
 
+## Apr 28 2026 — considered for the Flex-Recycler integration, then ruled out
+
+At the [[wiki/meetings/2026-04-28-recycler-architecture-planning.md|Recycler Architecture Planning]] session (Val, Pavel Frolov, Alexander Biratko, Genadi Peari, Irina Shishko) Val opened intending to give Alekseev the Flex-Recycler integration contract — on the assumption he knows the recycler's byte-level protocol "inside and out" because he had implemented (but never tested) the same MEI protocol for FlexPay. Mid-meeting the team discovered the vendor ships a ready-made 2025 Java library (confirmed live on the vendor's GitHub), so no byte-level protocol work is needed. Val concluded **Alekseev is no longer needed for this work** — nothing against him, but the remaining integration is in-house Java/UI work driven with Claude Code. Val also said he did not want Alekseev on the future FP7 IO-board firmware-language change, preferring a younger AI-routing engineer. Detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Apr-28). §15.8 clear (staffing decision + component economics; no compensation). [[raw/Meeting_Transcript_recycler_architecture_planning-April-28-2026.md]] [[raw/Meeting_Notes_recycler_architecture_planning-April-28-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_recycler_architecture_planning-April-28-2026.md]]
+- [[raw/Meeting_Notes_recycler_architecture_planning-April-28-2026.md]]
 - [[raw/transcript_Freezing_investigation-March-25-2026.md]]
 - [[raw/Call_Genadi_Peari-February-12-2026-2.md]]
 - [[raw/Flex-Port_Smib_alignment-November-28-2025.md]]

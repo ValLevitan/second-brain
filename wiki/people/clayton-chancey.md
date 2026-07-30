@@ -3,7 +3,7 @@ type: person
 title: Clayton Chancey
 date: 2026-07-14
 aliases: [Clayton Chancey, Clayton, Foray Consulting]
-source-count: 7
+source-count: 9
 ---
 
 # Clayton Chancey
@@ -44,8 +44,14 @@ On the [[wiki/meetings/2026-03-27-automation-progress-review.md|Mar-27 automatio
 
 On the [[wiki/meetings/2026-03-31-transcripts-mcp-setup-lena.md|Mar-31 transcripts-MCP setup]] (with [[wiki/people/lena.md|Lena Zhukova]] and [[wiki/people/val-levitan.md|Val]]; [[wiki/people/aaron.md|Aaron]] referenced but not present) Clayton connected Lena's Claude to the finished pipeline — Teams → Power Automate ([[wiki/people/andrey-bosik.md|Andrei]]) → his glossary-enriched microservice → GitHub transcripts repo → the JVL Atlassian MCP's new `list transcript`/`get transcript` tools (PAT + SSO) → Jira proposals — and it ran end-to-end despite Windows MCP instability. He articulated his **hallucination thesis** (differing from Aaron): a model has no truth/untruth category, so "hallucination" is a *user* category from the human's excess context; you reduce it by engineering context/tools, not by better models — with Lena as the current human "ontological filter." He committed to interleaving Teams chat next. Full detail on [[wiki/topics/transcript-knowledge-base-tooling.md]] and [[wiki/topics/ai-assisted-development.md]] (Mar-31). §15.8 clear. [[raw/Meeting_Transcript_Transcripts_MCP_setup_Lena-March-31-2026.md]] [[raw/Meeting_Notes_Transcripts_MCP_Setup_Lena-March-31-2026.md]]
 
+## Apr 28 2026 — IP MCP model regression: proving Opus 4.7 broke multi-needle retrieval
+
+On the [[wiki/meetings/2026-04-28-lena-ip-mcp-model-regression.md|Lena IP MCP Model Regression]] session (with [[wiki/people/lena.md|Lena Zhukova]] and [[wiki/people/val-levitan.md|Val]], who joined mid-call) Clayton presented ~2 weeks of benchmarking (in partnership with Anthropic, across several of his projects incl. a university economics project) proving that **Opus 4.7 is materially worse than 4.6 at multi-needle retrieval** — the transcript-as-prompt class of task the IP MCP relies on. Reverting Lena's workflow to 4.6 restored it. He also traced and live-fixed a real bug (create endpoints hitting sandbox while read/attach hit production → 404s), committed the fix to the JVL GitHub, and defended keeping the workflow as one high-context inference rather than decomposing it into brittle deterministic sub-steps. He committed to adding delete-issue and archive-issue tools and to documenting install/config so Andrei can propagate the tool to Lena's team leads. Detail on [[wiki/topics/ai-assisted-development.md]] and [[wiki/topics/transcript-knowledge-base-tooling.md]] (Apr-28). §15.8 clear. [[raw/Meeting_Transcript_lena_IP_MCP_model_regression-1-April-28-2026.md]] [[raw/Meeting_Notes_lena_IP_MCP_model_regression-April-28-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_lena_IP_MCP_model_regression-1-April-28-2026.md]]
+- [[raw/Meeting_Notes_lena_IP_MCP_model_regression-April-28-2026.md]]
 - [[raw/aaron_building_tools-march-21-2025.md]]
 - [[raw/Clayton_jvl-working-session-2-summary-January-20-2026.md]]
 - [[raw/Clayton-Aaron-JVL-semantic-understanding-March-13-2026.md]]

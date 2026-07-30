@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 115
+source-count: 117
 open-commitments: 2
 ---
 
@@ -310,8 +310,15 @@ A continuous [[wiki/people/val-levitan.md|Val]] sync in two segments ([[wiki/mee
 
 A long [[wiki/people/val-levitan.md|Val]] session ([[wiki/meetings/2026-04-13-aaron-claude-advancements-review.md|Aaron Claude Advancements Review]]; §12 six recording fragments) in which Aaron presented Anthropic's new **Monitor** tool (push-injected background watcher, Claude Code v21.98), his **Attend** ambient-sensing Rust framework (5 sensors — context/processes/get/disclosure/peers — injected into a session) and its **agent peer-mesh** (Claudes auto-discover each other with no server and coordinate unprompted — he demoed two idle Claudes negotiating their own UX fix and offering to file a GitHub issue), the **AgentWays** repo forked from `cloud-code-config` (Rust-binary-first — so [[wiki/people/andrey-bosik.md|Bosik]]'s watcher on the frozen `cloud-code-config` has been silently idle for weeks), multilingual Ways via a runtime cosine model (Russian + Traditional Chinese), a Bose QC Ultra 2 reverse-engineering example (packet capture + APK disassembly → C/Python/Rust libs), and his **"human mode"/trust-and-monitor** governance thesis (control shifts from steering to trust as attention budget is exceeded; Val made it a JVL operating principle). The Flex-POS takeaway: **one Claude per submodule** connected by the peer-mesh, no master Claude. Full detail on [[wiki/topics/ai-assisted-development.md]] (Apr 13 2026). §15.8 clear. [[raw/Meeting_Notes_Aaron_Claude_Advancements_Review-April-13-2026.md]] [[raw/Meeting_Transcript_Aaron_Claude_Advancements_Review-1-April-13-2026.md]]
 
+## Apr 28 2026 — referenced (not present) in two sessions
+
+- **IP MCP model regression** ([[wiki/meetings/2026-04-28-lena-ip-mcp-model-regression.md|Lena IP MCP Model Regression]], Clayton + Lena + Val): Clayton cited Aaron as a counter-data-point — Aaron reports **no problems with Opus 4.7** — but qualified that Aaron is doing coding work, where 4.7 is fine, unlike the multi-needle retrieval Lena's workflow needs. Lena also referred to **"Aaron's MCP add-on"** as the separate tool she currently uses for deleting/archiving JIRA issues. [[raw/Meeting_Transcript_lena_IP_MCP_model_regression-1-April-28-2026.md]]
+- **CAS/CMS doc-readiness review** ([[wiki/meetings/2026-04-28-cas-cloud-migration-doc-readiness-review.md|CAS Cloud Migration Doc-Readiness Review]]): Dmitri Chudinov explained a "docstring" as "how Aaron described it" — a comment on every Java method stating what it does and its inputs/outputs. [[raw/Meeting_Transcript_cas_cloud_migration_doc_readiness_review-April-28-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_lena_IP_MCP_model_regression-1-April-28-2026.md]]
+- [[raw/Meeting_Transcript_cas_cloud_migration_doc_readiness_review-April-28-2026.md]]
 - [[raw/Meeting_Transcript_Aaron_Claude_Advancements_Review-1-April-13-2026.md]]
 - [[raw/Meeting_Transcript_Aaron_Claude_Advancements_Review-2-April-13-2026.md]]
 - [[raw/Meeting_Transcript_Aaron_Claude_Advancements_Review-3-April-13-2026.md]]
