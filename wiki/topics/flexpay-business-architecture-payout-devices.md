@@ -3,8 +3,8 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS]
-source-count: 113
-open-commitments: 47
+source-count: 115
+open-commitments: 48
 open-questions: 6
 ---
 
@@ -828,6 +828,16 @@ The **May 4 milestone** that closes the Apr-28→30 Flex-Recycler REQ sprint ([[
 - **Parallel testing mandate (Irina, non-negotiable).** End-to-end tests run parallel to development, never sequentially; the E2E suite is written at the **capability** level (not per feature) and engaged incrementally as feature branches land. Val: "I will never accept sequential testing." [[raw/Meeting_Transcript_flex_recycler_requirements_working_session-May-4-2026.md]] [[raw/Meeting_Notes_Flex_Recycler_Requirements_Working_Session-May-4-2026.md]]
 - **Next checkpoint:** Thursday **May 7, 8:00am** (moved from Friday May 8 to accommodate Andrei's absence); Val to book it and circulate the notes. §15.8: process/tooling/product economics only; no named-person compensation. [[raw/Meeting_Transcript_flex_recycler_requirements_working_session-May-4-2026.md]] [[raw/Meeting_Notes_Flex_Recycler_Requirements_Working_Session-May-4-2026.md]]
 
+## May 5 2026 — the unified operator web interface: build the spec internally first
+
+A Russian-language [[wiki/people/val-levitan.md|Val]] ↔ [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] call ([[wiki/meetings/2026-05-05-flex-pos-recycler-web-interface-planning.md|Flex-POS / Recycler Web Interface Planning]]) opened the next workstream: a single JVL **operator web interface** that surfaces the Recycler, POS, Flex-Pay and any other JVL ecosystem hardware in one UI, with the **operator persona** (an operator running a Recycler + POS) as the primary lens. The Georgia-trip half of the call is on [[wiki/projects/georgia-market-rollout.md]] (May-5). [[raw/Meeting_Transcript_flex_pos_recycler_web_interface_planning-May-5-2026.md]] [[raw/Meeting_Notes_flex_pos_recycler_web_interface_planning-May-5-2026.md]]
+
+- **Spec-before-resourcing (Val's ruling).** The prior external web-development relationship has been wound down (*"мы уже с ними завершили работу"*). Klimovich floated vibe-coding a new site with AI but flagged he does not know how it would handle **security** — needs special attention. Val declined to outsource further *or* to assign internal staff yet: **build the spec internally first, discuss it inside the team, then decide on resourcing** (external developer vs in-house). [[raw/Meeting_Transcript_flex_pos_recycler_web_interface_planning-May-5-2026.md]] [[raw/Meeting_Notes_flex_pos_recycler_web_interface_planning-May-5-2026.md]]
+- **First deliverable (Klimovich, by EOD/lunch May 6).** A high-level document describing what the unified web interface must do — "at the capability level … for these roles" — covering Recycler + POS + Flex-Pay, dropped into the chat with Val and Juan for the three of them to review. Downstream goal: a specification detailed enough to hand the development team so they can begin the web-interface build. [[raw/Meeting_Transcript_flex_pos_recycler_web_interface_planning-May-5-2026.md]] [[raw/Meeting_Notes_flex_pos_recycler_web_interface_planning-May-5-2026.md]]
+- **POS capabilities to be AI-generated from existing material (Val's pattern).** Klimovich flagged that **POS capability artifacts do not yet exist** — what Juan sent are Confluence pages, not capabilities. Val's call: feed the existing Recycler + POS material to AI to draft the POS capabilities rather than write them from scratch — he is "90% confident" the output will be reasonable and may even produce a 60–70%-quality HTML/wireframe variant. General working pattern: when capability artifacts are missing, draft them from existing documentation via AI, then refine. [[raw/Meeting_Transcript_flex_pos_recycler_web_interface_planning-May-5-2026.md]] [[raw/Meeting_Notes_flex_pos_recycler_web_interface_planning-May-5-2026.md]]
+- **Backend stays fully in-house.** Val and Klimovich agreed the backend (which collects parameters from the peripheral devices and feeds the web interface) is JVL's own and is not opened to any outside party. [[raw/Meeting_Transcript_flex_pos_recycler_web_interface_planning-May-5-2026.md]]
+- **Minsk expectation set as tangible output (Val's reframe).** Klimovich should write Minsk an explicit *expectations* note — that they process some percentage of **draft features** against the requirements already sent — not merely invite questions. The chain Val articulated: advance the **capability** to a state where Minsk can draft **features**, from which the team lays out **sketches / data objects**. A Friday **May 15 8 AM** Minsk call was set as the anchor (see the Georgia-trip logistics on the project page). §15.8: process/tooling/product economics only; no named-person compensation. [[raw/Meeting_Transcript_flex_pos_recycler_web_interface_planning-May-5-2026.md]] [[raw/Meeting_Notes_flex_pos_recycler_web_interface_planning-May-5-2026.md]]
+
 ## Open commitments
 
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — author the ~11 missing Flex-Recycler REQs (recycler business logic/cassettes/denominations, accepted-denomination config + player disclosure, operator replenishment workflow, GPS purpose, LTE telemetry, diagnostics/log retrieval, LED + sound, monitor resolution, repository-infrastructure standard) — due unspecified (feeds the May-4 REQ milestone) — [[raw/Meeting_Notes_flex_recycler_development_planning-April-29-2026.md]]
@@ -880,6 +890,7 @@ The **May 4 milestone** that closes the Apr-28→30 Flex-Recycler REQ sprint ([[
 - [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — mock up the new Flex-Slim device stack and post floor-to-bill-validator and floor-to-scanner heights to the meeting Teams chat; verify both **GSM and MEI recyclers** fit the vertical layout; design a top-surface **liquid-drainage channel** (runoff destination TBD) — due next iteration — [[raw/Meeting_Notes_Flex_Slim_Device_Layout-May-1-2026.md]]
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — Priority #1: groom current capabilities into the CAP project type and merge the **24 existing capabilities with the 8** in the new model; produce capabilities + requirements (with acceptance criteria on requirements) — due by the Thu May 7 checkpoint — [[raw/Meeting_Transcript_flex_recycler_requirements_working_session-May-4-2026.md]] [[raw/Meeting_Notes_Flex_Recycler_Requirements_Working_Session-May-4-2026.md]]
 - [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — build a set of **capability-level end-to-end test cases** engaged incrementally as Alexander lands feature branches (tests parallel to development, never sequential) — due by the Thu May 7 checkpoint — [[raw/Meeting_Transcript_flex_recycler_requirements_working_session-May-4-2026.md]] [[raw/Meeting_Notes_Flex_Recycler_Requirements_Working_Session-May-4-2026.md]]
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — produce the first-draft high-level **web-interface document** (operator persona; covers Recycler + POS + Flex-Pay + other JVL hardware surfacing in the UI) and drop it into the chat with Val and Juan; AI-draft the missing **POS capabilities** from Juan's Confluence material as input; send Minsk an explicit expectations note (process a percent of draft features against requirements already sent) — due EOD/lunch Wed May 6 2026 — [[raw/Meeting_Transcript_flex_pos_recycler_web_interface_planning-May-5-2026.md]] [[raw/Meeting_Notes_flex_pos_recycler_web_interface_planning-May-5-2026.md]]
 
 ## Open questions
 
@@ -895,6 +906,8 @@ The **May 4 milestone** that closes the Apr-28→30 Flex-Recycler REQ sprint ([[
 - [[raw/Meeting_Notes_Flex_Slim_Device_Layout-May-1-2026.md]]
 - [[raw/Meeting_Transcript_flex_recycler_requirements_working_session-May-4-2026.md]]
 - [[raw/Meeting_Notes_Flex_Recycler_Requirements_Working_Session-May-4-2026.md]]
+- [[raw/Meeting_Transcript_flex_pos_recycler_web_interface_planning-May-5-2026.md]]
+- [[raw/Meeting_Notes_flex_pos_recycler_web_interface_planning-May-5-2026.md]]
 - [[raw/Meeting_Notes_flex_recycler_development_planning-April-29-2026.md]]
 - [[raw/Meeting_Transcript_flex_recycler_req_daily_sync-April-29-2026.md]]
 - [[raw/Meeting_Notes_flex_recycler_req_daily_sync-April-29-2026.md]]

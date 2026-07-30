@@ -165,3 +165,6 @@ Format: `raw/<skipped file>` — source of record `raw/<cited fuller file>` — 
 - `CI Architecture Governance Framework Review-April-30-2026/README.md` — bundle-manifest/index metadata; substance via transcript+notes — not staged, no stub.
 - `Flex-Recycler REQ Prep-April-30-2026/README.md` — bundle-manifest/index metadata; substance via transcript+notes — not staged, no stub.
 - **No out-of-scope media in any of the four Batch-152 bundles** — each holds only transcript+notes `.md` + a README (the Dev-Planning bundle holds notes `.md` + README only); no images/xlsx/audio. (Recorded so the no-file-loss audit doesn't re-flag one.)
+
+### Batch 154
+- Three May-5/6 meetings ingested as stubs — Flex-POS/Recycler Web Interface Planning (May-5, transcript+notes), GA-V2 Schedule Review (May-5, transcript+notes), Nate/Val BEP Realignment (May-6, notes-only). **No bundle README and no out-of-scope media** among any of the three meetings' sources (transcript/notes `.md` only; the Flex-POS Recycler source folder + the loose GA-V2/BEP files carried no images/xlsx/audio/README). **No §12 skips** (all five raw files cited by content pages). (Recorded so the no-file-loss audit doesn't re-flag one.)
