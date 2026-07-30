@@ -2,8 +2,8 @@
 type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
-aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention]
-source-count: 18
+aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention, installment payments, aged receivables, Customer Ledger Entries, category-based terms, subscription module, parts vs machines terms, Black Horse Entertainment]
+source-count: 24
 open-questions: 2
 ---
 
@@ -184,6 +184,16 @@ A ~15-minute recorded portion of a ~2-hour [[wiki/people/val-levitan.md|Val]]–
 - **Decision / undertaking — install and configure "Progress Payment."** After extended discussion Lev acknowledged the mismatch and committed to **installing and configuring the AP Commerce "Progress Payment" add-on** for the A/P payment-scheduling workflow (Lev's stated target ~April 14 2026). This unblocks proper payment-term automation on the purchase side. (Decided by Val, accepted by Lev.) [[raw/Meeting_Notes_BC_Purchase_Invoice_Workflow-April-7-2026.md]]
 - **§15.8:** clear — ERP add-on / A/P workflow economics only, no named-person compensation. [[raw/Meeting_Notes_BC_Purchase_Invoice_Workflow-April-7-2026.md]]
 
+## Apr 10 2026 — A/R receivables settings: installment terms, aging cleanup, and category-based terms
+
+A three-segment [[wiki/meetings/2026-04-10-receivables-settings.md|Receivables Settings]] working session ([[wiki/people/val-levitan.md|Val]], [[wiki/people/lev-rudky.md|Lev Rudky]], [[wiki/people/felipe-miranda.md|Felipe Miranda]], [[wiki/people/laura.md|Laura Escorcia]]) on configuring accounts receivable in Business Central. This is the **A/R (sales) side** of the same installment-payments add-on whose **A/P counterpart** (Progress Payment) was addressed [[#apr-7-2026--the-ap-payment-scheduler-wrong-add-on-installment-vs-progress-payment|Apr-7]]. [[raw/Meeting_Notes_BC_Installment_Terms_Parts_vs_Machines-April-10-2026.md]] [[raw/Meeting_Notes_BC_Aging_Data_Cleanup-April-10-2026.md]] [[raw/Meeting_Notes_BC_Category_Based_Terms_Subscriptions-April-10-2026.md]]
+
+- **All JVL sales are installment-based (business rule).** Val stated that, without exception, every sale is structured as installments — a fraction of the total due every 30 days (a 6-month term = 1/6 due each 30 days). Lev confirmed BC's **installment-payments add-on** handles this: on posting, instead of one invoice it records multiple sub-entries ("6 sub-invoices"), each with its own due date and amount per the payment terms (Val's read: more like accrual/expectation postings than separate invoices — the label doesn't matter). [[raw/Meeting_Notes_BC_Installment_Terms_Parts_vs_Machines-April-10-2026.md]] [[raw/Meeting_Transcript_receivables_settings-1-April-10-2026.md]]
+- **The parts-vs-machines terms problem (unresolved — Lev's undertaking).** JVL never sells a complete machine as one line — machines are sold in parts. Val wants machines to carry multi-month terms while **parts and services never exceed 30 days**. But BC assigns payment terms at the **customer level, not the line-item level**: terms default from the customer record onto the invoice, and a single shipped invoice carries a **single due date** for the whole invoice. Lev's finding: to apply different terms you'd need **separate sales orders** (one for parts, one for finished goods); Val rejected that and rejected duplicate customer records ("ABC Parts" / "ABC Machines") as a software-limitation workaround BC shouldn't need. Lev to investigate further / check with the consultant. [[raw/Meeting_Notes_BC_Installment_Terms_Parts_vs_Machines-April-10-2026.md]] [[raw/Meeting_Transcript_receivables_settings-1-April-10-2026.md]] [[raw/Meeting_Transcript_receivables_settings-3-April-10-2026.md]]
+- **Category-based terms (Val's broader requirement).** Val expanded the requirement beyond parts vs machines to at least **five product categories on one invoice — machines, connection services, transactional equipment, parts, and service** — each warranting different financial terms ("a category should have different financial offers"). He floated an alternative: apply extended terms only to purchases over **$15,000** (excluding small parts). The goal is to avoid financing, e.g., $1,000 of parts over 10 months; more urgent now that JVL is introducing **transactional products** with different financial structures. Lev noted the built-in **subscription module** (an organic part of BC, mostly purchasing-side, he hasn't worked with it) is a recurring-billing mechanism, **not** a product-category-terms solution. [[raw/Meeting_Notes_BC_Category_Based_Terms_Subscriptions-April-10-2026.md]] [[raw/Meeting_Transcript_receivables_settings-3-April-10-2026.md]]
+- **Aging-data cleanup ("contaminated" records).** Before proper per-customer terms were entered, historical invoices got wrong/missing terms, so the **aged-receivables report** miscalculates. Fix: in the **Customer Ledger Entries** table, edit the **due date** on each open entry manually (the aged report is driven by these dates). The table has **no payment-terms column** (adding one is a customization), so Val's method is a **two-Excel cross-reference**: export Customer Ledger Entries to one Excel, use Felipe's current-terms Excel as the source of truth, and correct due dates where they don't match. Scope ~**400+ line entries** (many are installment splits); only **non-zero-balance** invoices need correction. Lev may investigate an Excel-upload bulk-update tool but wasn't sure it beats manual entry. Example customer used: **Black Horse Entertainment** (invoice 617 was created Oct-2025 as cash-on-delivery, so it had no installment terms). [[raw/Meeting_Notes_BC_Aging_Data_Cleanup-April-10-2026.md]] [[raw/Meeting_Transcript_receivables_settings-2-April-10-2026.md]]
+- **§15.8:** clear — ERP/AR configuration and machine/product economics only; no named-person compensation. The collections/back-office angle (Laura's cross-reference work, Felipe's Excel as source of truth) is on [[wiki/topics/jvl-finance-back-office.md]] (Apr-10). [[raw/Meeting_Notes_BC_Aging_Data_Cleanup-April-10-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_BC_Purchase_Invoice_Workflow-April-7-2026.md]]
@@ -204,3 +214,9 @@ A ~15-minute recorded portion of a ~2-hour [[wiki/people/val-levitan.md|Val]]–
 - [[raw/finance_gl_accounts_structure-june-17-2025.md]]
 - [[raw/Finance_Operations_Banking_Procedures-september-2-2025.md]]
 - [[raw/Phasing out Navision continued.md]]
+- [[raw/Meeting_Transcript_receivables_settings-1-April-10-2026.md]]
+- [[raw/Meeting_Transcript_receivables_settings-2-April-10-2026.md]]
+- [[raw/Meeting_Transcript_receivables_settings-3-April-10-2026.md]]
+- [[raw/Meeting_Notes_BC_Installment_Terms_Parts_vs_Machines-April-10-2026.md]]
+- [[raw/Meeting_Notes_BC_Aging_Data_Cleanup-April-10-2026.md]]
+- [[raw/Meeting_Notes_BC_Category_Based_Terms_Subscriptions-April-10-2026.md]]

@@ -2,8 +2,8 @@
 type: project
 title: South Dakota VLT market entry
 date: 2025-01-22
-aliases: [South Dakota, SD VLT, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950, V43, D27, SD cap, Bioliches, Gypsy Spirit, Crazy Colt, Queen of Luxor, Liberty Spin, Rodeo Spin, South Dakota vertical, MG Oil report]
-source-count: 20
+aliases: [South Dakota, SD VLT, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950, V43, D27, SD cap, Bioliches, Gypsy Spirit, Crazy Colt, Queen of Luxor, Liberty Spin, Rodeo Spin, South Dakota vertical, MG Oil report, VLT2, Cool Cat, Black Hills Kino, Dragon Pace]
+source-count: 24
 ---
 
 # South Dakota VLT market entry
@@ -134,6 +134,14 @@ On the [[wiki/meetings/2026-04-02-game-development-review.md|Apr-2 game-developm
 - **Dragon Pays confirmed for the SD release** — consistently the market's **#3 game**, so it stays; the updated version will look cleaner/less cluttered. (Continues Mar-27's "Dragon Pace/Dragon Pays" as the last slot.) [[raw/Meeting_Notes_Game_Dev_Pipeline_Review-April-2-2026.md]] [[raw/Meeting_Transcript_Game_Development-1-April-2-2026.md]]
 - **Target exit ~Apr 29.** Lena raised a QA-timing concern; Val explained that in the current **Rage Studio framework QA is always sequential to production** — only under **Omni** would QA move to branch-integration-time automated end-to-end testing. Michael specifically asked QA (Ivan, Arena) to begin testing **Black Hills Kino now**, since keno is a new game type the QA team hasn't tested; Efim supported early smoke-testing of novel games. [[raw/Meeting_Notes_Game_Dev_Pipeline_Review-April-2-2026.md]] [[raw/Meeting_Transcript_Game_Development-1-April-2-2026.md]]
 
+## Apr 9 2026 — VLT2 build review (tuning phase), Cool Cat keno's framework problem, and the vertical next-initiative
+
+On the [[wiki/meetings/2026-04-09-game-development-review.md|Apr-9 game-development review]] the IP459 South Dakota VLT2 build advanced into the tuning phase and a next-initiative decision was taken. [[raw/Meeting_Notes_Game_Development_Pipeline_Status-April-9-2026.md]] [[raw/Meeting_Transcript_game_development-1-April-9-2026.md]]
+
+- **VLT2 build in the tuning/tweaking phase.** Michael reviewed the South Dakota VLT2 build: good progress overall, a handful of bugs. La Rosa, Wild Cole and Lion's Riches are in tuning; **Rodeo Spins** looks good; **Black Hills Kino** is getting close (a few items left); **Cool Cat** is just getting started; **Dragon Pace (IP997)** was restarted and still to do. Recently closed in production: **IP988 La Rosa** and **IP984 liquid glass home screen** (only remaining liquid-glass item is attraction videos, which need a proper ticker implemented in all games first). [[raw/Meeting_Notes_Game_Development_Pipeline_Status-April-9-2026.md]] [[raw/Meeting_Transcript_game_development-1-April-9-2026.md]]
+- **Cool Cat keno — the selection framework must be reinvented (architecture note).** Cool Cat (keno) is visible in the build but not properly playable yet — Anton had not inserted "playing for free games". Efim explained the blocker: the selection-bonus logic used across slot games **cannot be reused for keno** because it is tightly coupled to slot-game design in the existing framework; Anton (with Igor) has to effectively reinvent it. Michael added Cool Cat is complex (competing against "Squish": combinations, permutations, stacked free-games sequencing/multipliers) and will need substantial QA support — unlike Black Hills Kino, which was straightforward. [[raw/Meeting_Notes_Game_Development_Pipeline_Status-April-9-2026.md]] [[raw/Meeting_Transcript_game_development-1-April-9-2026.md]]
+- **Next initiative: a vertical dual-screen product for South Dakota (also Nebraska and Texas).** Juan said SD needs a vertical to expand product sales; Val pushed for vertical "everywhere" (it's "not really on the map" today). Consensus landed on scoping a vertical dual-screen for South Dakota, Nebraska and Texas as the next project. [[raw/Meeting_Notes_Market_Deployment_Texas_Compliance-April-9-2026.md]] [[raw/Meeting_Transcript_game_development-3-April-9-2026.md]]
+
 ## Who
 
 - Driven by [[wiki/people/val-levitan.md|Val]] with [[wiki/people/juan-martinez.md|Juan]] (regulator/operator relationship, field side) and [[wiki/people/pavel.md|Pavel]] (Minsk software); [[wiki/people/irina-shishko.md|Irina]] on printer testing and GLI diffs, [[wiki/people/sebastian.md|Sebastian]] on field service, [[wiki/people/ivan.md|Ivan]] on GLI scheduling. **Lonnie** is the SD lottery-lab tester; **"Alani"** appears as the SD lottery (supplied the SAS adapter, requested the permit-number rename) — whether Alani is the lottery entity or a person there is unclear (see Owner Decisions). [[raw/sd_vlt_recap-jan-22-2025.md]] [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
@@ -160,3 +168,7 @@ On the [[wiki/meetings/2026-04-02-game-development-review.md|Apr-2 game-developm
 - [[raw/JIRA_schedule_review_Game_Development-March-20-2026.md]]
 - [[raw/Meeting_Transcript_Game_Development-1-April-2-2026.md]]
 - [[raw/Meeting_Notes_Game_Dev_Pipeline_Review-April-2-2026.md]]
+- [[raw/Meeting_Transcript_game_development-1-April-9-2026.md]]
+- [[raw/Meeting_Transcript_game_development-3-April-9-2026.md]]
+- [[raw/Meeting_Notes_Game_Development_Pipeline_Status-April-9-2026.md]]
+- [[raw/Meeting_Notes_Market_Deployment_Texas_Compliance-April-9-2026.md]]

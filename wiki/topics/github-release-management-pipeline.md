@@ -2,8 +2,8 @@
 type: topic
 title: GitHub release management and the CI/CD release pipeline
 date: 2025-10-21
-aliases: [release management, release pipeline, CI/CD, GitHub Actions pipeline, release artifacts, ISO image release, release manager role, continuous delivery, flex os installer, manifest, release candidate, single source of truth, feature branch discipline, sprints vs kanban, Jira GitHub link, FlexPos IP 902, FP 519, IP 89 dashboard grooming, bulk archive automation, Jira resolutions cleanup]
-source-count: 22
+aliases: [release management, release pipeline, CI/CD, GitHub Actions pipeline, release artifacts, ISO image release, release manager role, continuous delivery, flex os installer, manifest, release candidate, single source of truth, feature branch discipline, sprints vs kanban, Jira GitHub link, FlexPos IP 902, FP 519, IP 89 dashboard grooming, bulk archive automation, Jira resolutions cleanup, Flex-POS Transition to Production, alpha build release tracking]
+source-count: 24
 open-questions: 2
 ---
 
@@ -160,6 +160,13 @@ The first of a three-session week (Mon/Wed/Fri) on making Flex-POS's many moving
 - **Dima's task load is the release-date risk.** Val stated that if everything currently assigned to Dima stays on him alone, Flex-POS will not make the **May 1** target — he estimated **August or September** instead. The tasks must be broken up and redistributed to other developers working under Dima's guidance; Val asked the team to meet internally on **Tuesday Apr 7** (without him) to work out a redistribution plan before Wednesday's session. The meeting ended early because Pavel was unwell (high blood pressure). [[raw/Meeting_Transcript_Flex-POS_Scheduling_Gap_Analysis-2-April-6-2026.md]] [[raw/Meeting_Notes_Flex-POS_Scheduling_Gap_Analysis-April-6-2026.md]]
 - **The cross-repo Claude problem surfaced here** (raised by Dzmitry Chudinov) fed the [[wiki/meetings/2026-04-06-multi-repo-project-management-with-claude.md|same-day multi-repo session]] — detail on [[wiki/topics/ai-assisted-development.md]] (Apr-6). The Flex-POS service landscape Pavel walked is on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Apr-6). [[raw/Meeting_Transcript_Flex-POS_Scheduling_Gap_Analysis-1-April-6-2026.md]]
 
+## Apr 10 2026 — how to track an alpha build in Jira: a "release", not a feature (Session 3)
+
+On the [[wiki/meetings/2026-04-10-flex-pos-alpha-build-schedule.md|Apr-10 Session 3]] (the third of the Apr-6 convergence week; [[wiki/people/val-levitan.md|Val]], [[wiki/people/irina-shishko.md|Irina]], [[wiki/people/pavel.md|Pavel]]) the team debated how to represent the Flex-POS alpha-build milestone in Jira. [[raw/Meeting_Notes_Flex_POS_Alpha_Build_Schedule-April-10-2026.md]] [[raw/Meeting_Transcript_Flex_POS_Convergence_Review_S3-2-April-10-2026.md]]
+
+- **The alpha build is a release, not a feature — and Val hasn't yet learned to do releases.** Val noted the alpha milestone isn't a feature; it's a **release**, but he "hasn't learned how to make a release" because a release is done in **GitHub** and he doesn't yet know how to take a GitHub release and reflect it in Jira (an open question he wants to resolve). [[raw/Meeting_Transcript_Flex_POS_Convergence_Review_S3-2-April-10-2026.md]] [[raw/Meeting_Notes_Flex_POS_Alpha_Build_Schedule-April-10-2026.md]]
+- **Resolution — a story under the existing feature, following the Maple precedent.** Pavel suggested a milestone bar across the timeline, but Val pointed out nothing can be *linked* to a bar. Irina cited the **Maple** project precedent (a task on Elizabeth to install and verify the build). The team settled on creating the work as a **story under the existing "Flex-POS Transition to Production" feature** (with Elizabeth's alpha-assembly story), which Pavel began building in Jira during the meeting — plus a sequential follow-up task for software installation on the assembled stations. [[raw/Meeting_Notes_Flex_POS_Alpha_Build_Schedule-April-10-2026.md]] [[raw/Meeting_Transcript_Flex_POS_Convergence_Review_S3-2-April-10-2026.md]]
+
 ## Open questions
 
 - **Branch-audit "dynamics" depth:** is one week of week-over-week comparison enough to judge trend, or should the report show several weeks? Unresolved — Andrei to consider. [[raw/Meeting_Notes_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]]
@@ -190,3 +197,5 @@ The first of a three-session week (Mon/Wed/Fri) on making Flex-POS's many moving
 - [[raw/Meeting_Transcript_Flex-POS_Scheduling_Gap_Analysis-1-April-6-2026.md]]
 - [[raw/Meeting_Transcript_Flex-POS_Scheduling_Gap_Analysis-2-April-6-2026.md]]
 - [[raw/Meeting_Notes_Flex-POS_Scheduling_Gap_Analysis-April-6-2026.md]]
+- [[raw/Meeting_Transcript_Flex_POS_Convergence_Review_S3-2-April-10-2026.md]]
+- [[raw/Meeting_Notes_Flex_POS_Alpha_Build_Schedule-April-10-2026.md]]

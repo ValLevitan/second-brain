@@ -3,7 +3,7 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS]
-source-count: 88
+source-count: 91
 open-commitments: 32
 open-questions: 4
 ---
@@ -688,6 +688,15 @@ On the [[wiki/meetings/2026-04-06-flex-pos-scheduling-gap-analysis.md|Apr-6 sche
 
 *(IP numbers recorded verbatim from Pavel's spoken walk-through; service→owner mapping as stated in-meeting.)*
 
+## Apr 10 2026 — Flex-POS alpha build in Georgia: schedule, 3D-printed casings, vendor search (Session 3)
+
+On the [[wiki/meetings/2026-04-10-flex-pos-alpha-build-schedule.md|Apr-10 Session 3 (final schedule alignment)]] — the third session of the Apr-6 convergence week ([[wiki/people/val-levitan.md|Val]], [[wiki/people/irina-shishko.md|Irina Shishko]], [[wiki/people/pavel.md|Pavel Frolov]]) — the team planned the **alpha sample build** for Flex-POS, to be assembled on-site in the state of **Georgia**. [[raw/Meeting_Notes_Flex_POS_Alpha_Build_Schedule-April-10-2026.md]] [[raw/Meeting_Transcript_Flex_POS_Convergence_Review_S3-1-April-10-2026.md]]
+
+- **Alpha station + software timeline.** Alpha stations will be ready no earlier than **April 27, 2026**; that is the deadline for delivering the **alpha software build** for installation on them. April 20–21 are holidays (Mon–Tue) but April 25 (Fri) is a working day, giving a compressed window. [[raw/Meeting_Notes_Flex_POS_Alpha_Build_Schedule-April-10-2026.md]] [[raw/Meeting_Transcript_Flex_POS_Convergence_Review_S3-2-April-10-2026.md]]
+- **Hardware dependency chain + Genadi's role.** **HM 505 sits under HM 508, under IP 955** (Flex-POS as a device). [[wiki/people/genadi-peari.md|Genadi]] (not present) needs to order **3D-printed plastic casing components** for delivery to Georgia so the remaining parts can be shipped for on-site assembly. Val will speak to Genadi separately and create the ordering task in Jira linked to HM 505. [[raw/Meeting_Notes_Flex_POS_Alpha_Build_Schedule-April-10-2026.md]] [[raw/Meeting_Transcript_Flex_POS_Convergence_Review_S3-1-April-10-2026.md]]
+- **The alpha-assembly task.** [[wiki/people/elizabeth.md|Elizabeth]] (also heard as "Alisa" in the transcript) is assigned to **manufacture 2 alpha samples from 3D-printed ("contemporary/temporary") plastic between April 27–30** — a minimal production run — created in Jira during the meeting as a story under the existing "Flex-POS Transition to Production" feature (Jira/release-tracking detail on [[wiki/topics/github-release-management-pipeline.md]] (Apr-10)). A follow-up task for software installation on the assembled stations was noted as next. [[raw/Meeting_Notes_Flex_POS_Alpha_Build_Schedule-April-10-2026.md]] [[raw/Meeting_Transcript_Flex_POS_Convergence_Review_S3-2-April-10-2026.md]]
+- **3D-printing vendor search (device economics, §15.8-clear).** A Minsk colleague "Dima" contacted ~20+ 3D-print companies in Minsk. One quoted ~**$3,500 for 3 sets**; another offered a higher-quality variant at ~8,000 Belarusian rubles (~$2,500) and a simpler variant at ~2,000 rubles (~$700) for 3 sets (~$230/set; ~11 parts per set). Val steered toward **China** (cheapest; JVL has direct supplier relationships; ship by air), or Turkey/Poland. Pavel cautioned the material must be verified so casings don't disintegrate on first assembly. Decision: evaluate proposals + material specs before committing. [[raw/Meeting_Notes_Flex_POS_Alpha_Build_Schedule-April-10-2026.md]] [[raw/Meeting_Transcript_Flex_POS_Convergence_Review_S3-2-April-10-2026.md]]
+
 ## Open commitments
 
 - [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — finish the current tooling release (~1–2 days) then push the **Flex Recycler Slim** (the "sailer"/slim recycler); finish the drawings and send to the pricing vendor; add a **scanner**; and **send Val the render** so Val can compose the feature list — due ~mid-Mar 2026 — [[raw/Flex-Recyler-Slim-Meeting-March-11-2026.md]]
@@ -823,3 +832,6 @@ On the [[wiki/meetings/2026-04-06-flex-pos-scheduling-gap-analysis.md|Apr-6 sche
 - [[raw/Meeting_Transcript_Flex-POS_Scheduling_Gap_Analysis-1-April-6-2026.md]]
 - [[raw/Meeting_Transcript_Flex-POS_Scheduling_Gap_Analysis-2-April-6-2026.md]]
 - [[raw/Meeting_Notes_Flex-POS_Scheduling_Gap_Analysis-April-6-2026.md]]
+- [[raw/Meeting_Transcript_Flex_POS_Convergence_Review_S3-1-April-10-2026.md]]
+- [[raw/Meeting_Transcript_Flex_POS_Convergence_Review_S3-2-April-10-2026.md]]
+- [[raw/Meeting_Notes_Flex_POS_Alpha_Build_Schedule-April-10-2026.md]]
