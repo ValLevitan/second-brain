@@ -3,7 +3,7 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS]
-source-count: 91
+source-count: 93
 open-commitments: 32
 open-questions: 4
 ---
@@ -697,6 +697,10 @@ On the [[wiki/meetings/2026-04-10-flex-pos-alpha-build-schedule.md|Apr-10 Sessio
 - **The alpha-assembly task.** [[wiki/people/elizabeth.md|Elizabeth]] (also heard as "Alisa" in the transcript) is assigned to **manufacture 2 alpha samples from 3D-printed ("contemporary/temporary") plastic between April 27–30** — a minimal production run — created in Jira during the meeting as a story under the existing "Flex-POS Transition to Production" feature (Jira/release-tracking detail on [[wiki/topics/github-release-management-pipeline.md]] (Apr-10)). A follow-up task for software installation on the assembled stations was noted as next. [[raw/Meeting_Notes_Flex_POS_Alpha_Build_Schedule-April-10-2026.md]] [[raw/Meeting_Transcript_Flex_POS_Convergence_Review_S3-2-April-10-2026.md]]
 - **3D-printing vendor search (device economics, §15.8-clear).** A Minsk colleague "Dima" contacted ~20+ 3D-print companies in Minsk. One quoted ~**$3,500 for 3 sets**; another offered a higher-quality variant at ~8,000 Belarusian rubles (~$2,500) and a simpler variant at ~2,000 rubles (~$700) for 3 sets (~$230/set; ~11 parts per set). Val steered toward **China** (cheapest; JVL has direct supplier relationships; ship by air), or Turkey/Poland. Pavel cautioned the material must be verified so casings don't disintegrate on first assembly. Decision: evaluate proposals + material specs before committing. [[raw/Meeting_Notes_Flex_POS_Alpha_Build_Schedule-April-10-2026.md]] [[raw/Meeting_Transcript_Flex_POS_Convergence_Review_S3-2-April-10-2026.md]]
 
+## Apr 13 2026 — Flex-POS repo architecture: where the constituent services' data contracts live
+
+A 26-minute session ([[wiki/meetings/2026-04-13-flex-pos-repo-architecture-review.md|Flex-POS Repo Architecture Review]]; [[wiki/people/val-levitan.md|Val]], [[wiki/people/alexander-biratka.md|Alexander Biratka]], [[wiki/people/andrey-bosik.md|Andrei Bosik]]) debating how the Flex-POS release's ~5 constituent repos (the Orchestration-Platform services above — Terminal Hub, Customer/Location Management, Payment Hub, Flex-POS Station) should share their **data contracts**: Biratka's top-level "truth in one place" master repo vs Val's Aaron-derived self-describing-per-repo model connected by an agent peer-mesh. Val kept Biratka's v2 standard and set a v3 refinement session with Aaron for 14 Apr. Full detail (and the Claude/Attend framing) on [[wiki/topics/github-release-management-pipeline.md]] (Apr 13 2026) and [[wiki/topics/ai-assisted-development.md]] (Apr 13 2026). [[raw/Meeting_Notes_Flex-POS_Repo_Architecture_Review-April-13-2026.md]] [[raw/Meeting_Transcript_Flex-POS_Repo_Architecture_Review-April-13-2026.md]]
+
 ## Open commitments
 
 - [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — finish the current tooling release (~1–2 days) then push the **Flex Recycler Slim** (the "sailer"/slim recycler); finish the drawings and send to the pricing vendor; add a **scanner**; and **send Val the render** so Val can compose the feature list — due ~mid-Mar 2026 — [[raw/Flex-Recyler-Slim-Meeting-March-11-2026.md]]
@@ -835,3 +839,5 @@ On the [[wiki/meetings/2026-04-10-flex-pos-alpha-build-schedule.md|Apr-10 Sessio
 - [[raw/Meeting_Transcript_Flex_POS_Convergence_Review_S3-1-April-10-2026.md]]
 - [[raw/Meeting_Transcript_Flex_POS_Convergence_Review_S3-2-April-10-2026.md]]
 - [[raw/Meeting_Notes_Flex_POS_Alpha_Build_Schedule-April-10-2026.md]]
+- [[raw/Meeting_Transcript_Flex-POS_Repo_Architecture_Review-April-13-2026.md]]
+- [[raw/Meeting_Notes_Flex-POS_Repo_Architecture_Review-April-13-2026.md]]

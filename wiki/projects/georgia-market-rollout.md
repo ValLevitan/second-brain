@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 55
+source-count: 57
 open-commitments: 10
 open-questions: 8
 ---
@@ -343,6 +343,10 @@ On the [[wiki/meetings/2026-04-02-game-development-review.md|Apr-2 game-developm
 
 On the [[wiki/meetings/2026-04-09-game-development-review.md|Apr-9 game-development review]] Lena reported the Georgia design-stage items advanced: the **Lion's Riches Georgia update (IP1030)** and the **March 3 progressive bonus (IP1031)** — the Pick 3 progressive for the Georgia release — finished design and **moved to production**; Lion's Riches design itself is in backlog to move to in-progress once the concept is done. (The Georgia "belt buckle" regional-flair precedent — swapping assets for a market via configuration — was cited as the model for regional customization.) [[raw/Meeting_Notes_Game_Development_Pipeline_Status-April-9-2026.md]] [[raw/Meeting_Transcript_game_development-1-April-9-2026.md]]
 
+## Apr 14 2026 — GA-COAM accounts-receivable statements regularized in Business Central
+
+A brief wrap-up ([[wiki/meetings/2026-04-14-accounts-receivables-ga-coam.md|Accounts Receivables GA-COAM]]; [[wiki/people/val-levitan.md|Val]], [[wiki/people/felipe-miranda.md|Felipe Miranda]], [[wiki/people/laura.md|Laura Escorcia]]) on getting proper customer-facing AR **statements of account** flowing for the Georgia-COAM customers: Laura to finish regularizing the AR reports and, with [[wiki/people/lev-rudky.md|Lev Rudky]], extract **native statements directly from Business Central** — emailable to customers from within BC — with Val writing the cover letter. Back-office mechanics on [[wiki/topics/jvl-finance-back-office.md]] (Apr 14 2026). [[raw/Meeting_Notes_accounts_receivables_GA-COAM-April-14-2026.md]] [[raw/Meeting_Transcript_accounts_receivables_GA-COAM-April-14-2026.md]]
+
 ## Open questions
 
 - What is the **pricing / packaging model for additional game packs** (Val's proposal: an 8-game base pack at price X, extra games at a premium)? Unresolved on Feb-19; Juan skeptical JVL can charge for software until the new product proves it earns. [[raw/Game_Development_transcript_game_review-February-19-26.md]] [[raw/Games_Design_Meeting_open_items_feb19_2026.md]]
@@ -411,3 +415,5 @@ On the [[wiki/meetings/2026-04-09-game-development-review.md|Apr-9 game-developm
 - [[raw/Meeting_Notes_Game_Dev_Pipeline_Review-April-2-2026.md]]
 - [[raw/Meeting_Transcript_game_development-1-April-9-2026.md]]
 - [[raw/Meeting_Notes_Game_Development_Pipeline_Status-April-9-2026.md]]
+- [[raw/Meeting_Transcript_accounts_receivables_GA-COAM-April-14-2026.md]]
+- [[raw/Meeting_Notes_accounts_receivables_GA-COAM-April-14-2026.md]]

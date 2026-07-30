@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 108
+source-count: 115
 open-commitments: 2
 ---
 
@@ -306,8 +306,19 @@ A continuous [[wiki/people/val-levitan.md|Val]] sync in two segments ([[wiki/mee
 - **Ways origin + roadmap.** Aaron recounted the project's evolution (documents-folder text files → user-scope CLAUDE.md → hooks → structured Ways) and his philosophy — "prescriptive, not proscriptive guidance triggered by context but not requested by intent and then injected just in time before tools execute" — plus plans to rename the repo **"agent-ways"** and make it work with any hook-capable turn-based coding agent. He also showed a governance/"constitution" framework able to encode per-jurisdiction rules with rule→Way→code traceability. [[raw/Meeting_Transcript_Ways_Multilingual_and_Session_Traceability-April-3-2026.md]]
 - **Code-to-prose methodology.** In segment 2 Aaron taught his method of translating code into plain-language prose as a "miniature specification" (the reverse-requirements direction), using the LLM as a "Tower of Babel" between code, math notation and human language, so two developers can reconcile incompatible code at the **intention** level rather than by parsing each other's code — "that's basically a specification." [[raw/Meeting_Transcript_Code_to_Prose_Methodology-April-3-2026.md]]
 
+## Apr 13 2026 — Monitor + Attend + AgentWays: the agent peer-mesh
+
+A long [[wiki/people/val-levitan.md|Val]] session ([[wiki/meetings/2026-04-13-aaron-claude-advancements-review.md|Aaron Claude Advancements Review]]; §12 six recording fragments) in which Aaron presented Anthropic's new **Monitor** tool (push-injected background watcher, Claude Code v21.98), his **Attend** ambient-sensing Rust framework (5 sensors — context/processes/get/disclosure/peers — injected into a session) and its **agent peer-mesh** (Claudes auto-discover each other with no server and coordinate unprompted — he demoed two idle Claudes negotiating their own UX fix and offering to file a GitHub issue), the **AgentWays** repo forked from `cloud-code-config` (Rust-binary-first — so [[wiki/people/andrey-bosik.md|Bosik]]'s watcher on the frozen `cloud-code-config` has been silently idle for weeks), multilingual Ways via a runtime cosine model (Russian + Traditional Chinese), a Bose QC Ultra 2 reverse-engineering example (packet capture + APK disassembly → C/Python/Rust libs), and his **"human mode"/trust-and-monitor** governance thesis (control shifts from steering to trust as attention budget is exceeded; Val made it a JVL operating principle). The Flex-POS takeaway: **one Claude per submodule** connected by the peer-mesh, no master Claude. Full detail on [[wiki/topics/ai-assisted-development.md]] (Apr 13 2026). §15.8 clear. [[raw/Meeting_Notes_Aaron_Claude_Advancements_Review-April-13-2026.md]] [[raw/Meeting_Transcript_Aaron_Claude_Advancements_Review-1-April-13-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Aaron_Claude_Advancements_Review-1-April-13-2026.md]]
+- [[raw/Meeting_Transcript_Aaron_Claude_Advancements_Review-2-April-13-2026.md]]
+- [[raw/Meeting_Transcript_Aaron_Claude_Advancements_Review-3-April-13-2026.md]]
+- [[raw/Meeting_Transcript_Aaron_Claude_Advancements_Review-4-April-13-2026.md]]
+- [[raw/Meeting_Transcript_Aaron_Claude_Advancements_Review-5-April-13-2026.md]]
+- [[raw/Meeting_Transcript_Aaron_Claude_Advancements_Review-6-April-13-2026.md]]
+- [[raw/Meeting_Notes_Aaron_Claude_Advancements_Review-April-13-2026.md]]
 - [[raw/Meeting_Transcript_Ways_Multilingual_and_Session_Traceability-April-3-2026.md]]
 - [[raw/Meeting_Transcript_Code_to_Prose_Methodology-April-3-2026.md]]
 - [[raw/Clayton-Aaron-JVL-semantic-understanding-March-13-2026.md]]

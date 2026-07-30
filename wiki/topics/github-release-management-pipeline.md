@@ -3,7 +3,7 @@ type: topic
 title: GitHub release management and the CI/CD release pipeline
 date: 2025-10-21
 aliases: [release management, release pipeline, CI/CD, GitHub Actions pipeline, release artifacts, ISO image release, release manager role, continuous delivery, flex os installer, manifest, release candidate, single source of truth, feature branch discipline, sprints vs kanban, Jira GitHub link, FlexPos IP 902, FP 519, IP 89 dashboard grooming, bulk archive automation, Jira resolutions cleanup, Flex-POS Transition to Production, alpha build release tracking]
-source-count: 24
+source-count: 26
 open-questions: 2
 ---
 
@@ -167,6 +167,15 @@ On the [[wiki/meetings/2026-04-10-flex-pos-alpha-build-schedule.md|Apr-10 Sessio
 - **The alpha build is a release, not a feature — and Val hasn't yet learned to do releases.** Val noted the alpha milestone isn't a feature; it's a **release**, but he "hasn't learned how to make a release" because a release is done in **GitHub** and he doesn't yet know how to take a GitHub release and reflect it in Jira (an open question he wants to resolve). [[raw/Meeting_Transcript_Flex_POS_Convergence_Review_S3-2-April-10-2026.md]] [[raw/Meeting_Notes_Flex_POS_Alpha_Build_Schedule-April-10-2026.md]]
 - **Resolution — a story under the existing feature, following the Maple precedent.** Pavel suggested a milestone bar across the timeline, but Val pointed out nothing can be *linked* to a bar. Irina cited the **Maple** project precedent (a task on Elizabeth to install and verify the build). The team settled on creating the work as a **story under the existing "Flex-POS Transition to Production" feature** (with Elizabeth's alpha-assembly story), which Pavel began building in Jira during the meeting — plus a sequential follow-up task for software installation on the assembled stations. [[raw/Meeting_Notes_Flex_POS_Alpha_Build_Schedule-April-10-2026.md]] [[raw/Meeting_Transcript_Flex_POS_Convergence_Review_S3-2-April-10-2026.md]]
 
+## Apr 13 2026 — the repo-architecture standard: v2 → v3, and where shared data contracts live
+
+A 26-minute session ([[wiki/meetings/2026-04-13-flex-pos-repo-architecture-review.md|Flex-POS Repo Architecture Review]]; [[wiki/people/val-levitan.md|Val]], [[wiki/people/alexander-biratka.md|Alexander Biratka]], [[wiki/people/andrey-bosik.md|Andrei Bosik]]) on whether the agreed repo architecture is being implemented and where cross-repo **data contracts** should live. Continues the [[wiki/meetings/2026-04-06-multi-repo-project-management-with-claude.md|Apr-6 multi-repo]] / Repository-Zero work; the deeper Claude/Attend framing is on [[wiki/topics/ai-assisted-development.md]] (Apr 13 2026). [[raw/Meeting_Notes_Flex-POS_Repo_Architecture_Review-April-13-2026.md]]
+
+- **Compliance monitoring is a simple Claude task.** Biratka proposed that bringing repos into compliance with his v2 standard and watching for drift is a daily/weekly Claude check. [[raw/Meeting_Notes_Flex-POS_Repo_Architecture_Review-April-13-2026.md]]
+- **The debate — top-level master repo vs self-describing repos.** Biratka's v2 standard introduces a **top-level `repo-[product-name]` repo** holding cross-repo documentation including data contracts ("truth must live in one place"; otherwise a contract change in one repo isn't known to the others and "everything breaks"). Val resisted the master concept per his Aaron takeaway: each repo should be **self-describing** (like a vendor publishing its own datasheet), and Claudes should be invoked **one per repo, not from above**, because session memory dilutes with depth. Biratka countered that without a known location for shared contracts, Claudes can't find each other. [[raw/Meeting_Transcript_Flex-POS_Repo_Architecture_Review-April-13-2026.md]]
+- **Attend as the missing piece.** Val invoked Aaron's **Monitor** tool (v21.98) and **Attend** peer-mesh — "like a forum of agents: one Claude posts a change, the others see it, the one whose repo cares responds," no server required. Biratka independently described the same pattern in his own words; Val confirmed "that is exactly what Aaron built." [[raw/Meeting_Transcript_Flex-POS_Repo_Architecture_Review-April-13-2026.md]]
+- **Decision — v2 is promoted, not discarded.** When Bosik asked whether the v2 document should be thrown out, Val refused: "what Sasha did is steps forward — we just need to refine the scheme into **v3**." The joint session with Aaron on 14 Apr morning was set to resolve the open architectural questions (shared-contracts sibling repo(s) vs top-level master, per-repo `CLAUDE.md` as source of truth, single vs per-domain contract repos, the drift monitor, and how a task enters/gets assigned to a particular Claude). Bosik's AgentWays cutover prep is deferred to that session. [[raw/Meeting_Notes_Flex-POS_Repo_Architecture_Review-April-13-2026.md]] [[raw/Meeting_Transcript_Flex-POS_Repo_Architecture_Review-April-13-2026.md]]
+
 ## Open questions
 
 - **Branch-audit "dynamics" depth:** is one week of week-over-week comparison enough to judge trend, or should the report show several weeks? Unresolved — Andrei to consider. [[raw/Meeting_Notes_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]]
@@ -199,3 +208,5 @@ On the [[wiki/meetings/2026-04-10-flex-pos-alpha-build-schedule.md|Apr-10 Sessio
 - [[raw/Meeting_Notes_Flex-POS_Scheduling_Gap_Analysis-April-6-2026.md]]
 - [[raw/Meeting_Transcript_Flex_POS_Convergence_Review_S3-2-April-10-2026.md]]
 - [[raw/Meeting_Notes_Flex_POS_Alpha_Build_Schedule-April-10-2026.md]]
+- [[raw/Meeting_Transcript_Flex-POS_Repo_Architecture_Review-April-13-2026.md]]
+- [[raw/Meeting_Notes_Flex-POS_Repo_Architecture_Review-April-13-2026.md]]

@@ -4,7 +4,7 @@ title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka, Alex Baratka, Alex Beratka, Alexander Berankov, Biratko, Alexander Biratko]
 disambiguation: "Alexander cluster (provisional — owner ruling pending): distinct JVL people sharing the given name Alexander. [[wiki/people/alexander-biratka.md|Alexander Biratka]] = Omni/Pixi framework & build engineer (aka Sasha; garbles Beratko/Baratka); [[wiki/people/alexander-korochkin.md|Alexander Korochkin]] = LGS QA-automation engineer (GitHub Alexander_K@JVL, read-only; aka Alexander K); [[wiki/people/alexander-tumanov.md|Alexander Tumanov]] = Minsk QA / data-center knowledge-capture hire (surname unverified). Resolve by context: Omni framework / Pixi / build → Biratka; LGS QA automation / read-only build consumer → Korochkin; manual-tester onboarding / data-center interviews → Tumanov. A further name 'Alexander Derok' (back-end build-integration / Java, per Val on Feb-6-2026) is unconfirmed — queued, not a page. Not [[wiki/people/alexei-khamin.md|Alexei Khamin]] (different name). Queue anything fitting none; never force-match."
-source-count: 35
+source-count: 37
 open-commitments: 1
 open-questions: 0
 ---
@@ -126,8 +126,14 @@ On the [[wiki/meetings/2026-03-26-initiative-priority-schedule.md|Initiative Pri
 
 On the [[wiki/meetings/2026-03-30-omni-architecture-biratka.md|Mar-30 OMNI Architecture call]] with Val, Sasha was the senior engineer Val brought the OMNI 2 plan to. He accepted the **three-language target (Rust, TypeScript, Java)**, arguing Java should stay for LGS (TypeScript can't drive native devices; a Rust rewrite of LGS is too large and Java is easier to maintain/debug and well-supported by AI tooling); he noted AI-assisted coding works especially well with Rust. He explained the **containerized-math origin** (a Julia container run directly on target), agreed games can be containerized for QA with "small" effort, and offered to check with [[wiki/people/pavel.md|Pasha]] on auto-mounting the game Docker as a filesystem directory for LGS. On Val's **peripheral-abstraction protocol** he raised the **iBoard latency** concern (a high-speed memory chip persisting bet state on Spin; ~10ms protocol overhead uncertain) while confirming all slow peripherals are unaffected. He is currently implementing the **cash dispenser** and can't fully validate it without physical hardware (documentation "half in Japanese, half in English"). Two undertakings, ~by Apr 4: (1) assess the peripheral-abstraction approach from a QA/business angle; (2) correct the outdated OMNI architecture MD doc Val will send and return it. Substance and the two open commitments on [[wiki/topics/omni-core-advancement-and-game-templating.md]] (Mar-30). [[raw/Meeting_Transcript_OMNI_Architecture_Biratko-March-30-2026.md]] [[raw/Meeting_Notes_OMNI_Architecture_Biratko-March-30-2026.md]]
 
+## Apr 13 2026 — the repo-architecture v2→v3 debate
+
+On the [[wiki/meetings/2026-04-13-flex-pos-repo-architecture-review.md|Flex-POS Repo Architecture Review]] (with Val and [[wiki/people/andrey-bosik.md|Bosik]]; transcribed "Biratko"/"Sasha") Sasha defended his **v2 repo standard**: a top-level `repo-[product-name]` repo holding cross-repo docs including **data contracts**, on the principle that "truth must live in one place." Val resisted the master concept (self-describing repos + Aaron's Attend peer-mesh instead), but at minute 21:38 Sasha independently described the peer-mesh pattern in his own words — "that is exactly what Aaron built," Val said. Outcome: v2 is **not discarded** but promoted to **v3** at the 14 Apr joint Aaron session. He also proposed a daily/weekly Claude drift-check on the standard. Substance on [[wiki/topics/github-release-management-pipeline.md]] (Apr 13 2026). [[raw/Meeting_Notes_Flex-POS_Repo_Architecture_Review-April-13-2026.md]] [[raw/Meeting_Transcript_Flex-POS_Repo_Architecture_Review-April-13-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Flex-POS_Repo_Architecture_Review-April-13-2026.md]]
+- [[raw/Meeting_Notes_Flex-POS_Repo_Architecture_Review-April-13-2026.md]]
 - [[raw/Meeting_Transcript_OMNI_Architecture_Biratko-March-30-2026.md]]
 - [[raw/Meeting_Notes_OMNI_Architecture_Biratko-March-30-2026.md]]
 - [[raw/Meeting_Transcript_initiative_priority_schedule-2-March-26-2026.md]]

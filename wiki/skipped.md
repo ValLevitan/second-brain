@@ -118,6 +118,12 @@ Format: `raw/<skipped file>` — source of record `raw/<cited fuller file>` — 
 - `Receivables Settings-April-10-2026/Customer Ledger Entries (9).xlsx` — **OUT OF SCOPE media (v1 is text-only, §1).** The Business Central AR export discussed on the call (the ~400+-entry Customer Ledger Entries table Lev exports for the aging cleanup) — not a transcript, not staged to raw/, no stub. Recorded so the no-file-loss audit doesn't re-flag it.
 - `Receivables Settings-April-10-2026/JVL CUSTOMER CREDIT REVISION 2.xlsx` — **OUT OF SCOPE media (v1 is text-only, §1).** Felipe's customer-terms/credit-revision spreadsheet (the source-of-truth terms Excel referenced on the call) — not a transcript, not staged to raw/, no stub. Recorded so the no-file-loss audit doesn't re-flag it.
 
+### Batch 144
+- `Aaron Claude Advancements Review-April-13-2026/README.md` — bundle-manifest/index metadata, not meeting content; substance captured via the bundle's six transcript segments + notes — not staged, no stub.
+- `Flex-POS Repo Architecture Review-April-13-2026/README.md` — bundle-manifest/index metadata, not meeting content; substance captured via the bundle's transcript + notes — not staged, no stub.
+- `Accounts Receivables GA-COAM-April-14-2026/README.md` — bundle-manifest/index metadata, not meeting content; substance captured via the bundle's transcript + notes — not staged, no stub.
+- (No out-of-scope xlsx/media in any of the three Batch-144 bundles — each contains only transcript(s), notes, and a README.)
+
 ### Out-of-scope exclusions (non-JVL content — not ingested, not a §12 dup)
 - `raw/koenigsegg_regera-verbal_orgasm-may-21-2025.md` — **OUT OF SCOPE (not a JVL meeting).** A YouTube-style narration/review of the Koenigsegg Regera hypercar ("…a bunch of Swedish engineers… 1,500 horsepower"), mis-filed into the May-2025 transcripts folder. Not a JVL business meeting, not §15.8-sensitive — simply off-topic per §1 scope. Excluded (recorded here so the pending-sweep and full-year no-file-loss audit don't re-flag it). Found in the 2025-complete full-year sweep, 2026-07-20.
 

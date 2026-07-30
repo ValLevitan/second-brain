@@ -4,8 +4,8 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 68
-open-commitments: 10
+source-count: 71
+open-commitments: 12
 ---
 
 # Andrey Bosik
@@ -201,6 +201,15 @@ On the [[wiki/meetings/2026-03-27-review-of-engineering-guides.md|Review of Engi
 
 On the [[wiki/meetings/2026-03-30-it-follow-up-reports-code-review.md|Mar-30 IT follow-up call]] with Val (~39m) Andrei demoed the new consolidated **GitHub reporting site** he built — all previously-manual reports auto-generated as web pages, split into a **daily compliance report** (commits-to-main, PR-vs-direct-push, 400-line PR-size threshold, days-since-activity, reviewed-by-other) and a **weekly Monday branch-audit report** (three improper-branch categories + sanctioned/active branches + per-user summary). He accepted Val's reformatting (rename "garbage"→"improper"; red non-sanctioned block on top, green sanctioned below; consider multi-week dynamics) and the enforcement workflow (send weekly, chase non-reactors after a week). On **Claude Code Review** he supplied the ~$50/PR cost data and took the direction to expand it beyond the current 3 repos (Flex POS / Flex Dispenser / Miranda) to all active repos, starting with Flex Sport POS. Substance on [[wiki/topics/github-release-management-pipeline.md]] and [[wiki/topics/ai-assisted-development.md]] (Mar-30). [[raw/Meeting_Transcript_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]] [[raw/Meeting_Notes_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]]
 
+## Apr 13 2026 — the AgentWays cutover: his deployment watcher has been silently idle
+
+Two connected threads this day. In the morning [[wiki/meetings/2026-04-13-aaron-claude-advancements-review.md|Aaron Claude Advancements Review]] (Andrei not present) Aaron flagged that he forked `cloud-code-config` into a new **AgentWays** repo (Rust-binary-first), so **Andrei's auto-deployment watcher — still pointed at the frozen `cloud-code-config` — has silently updated nothing for weeks.** Andrei must repoint his deployment tooling at AgentWays and work out how to compile/distribute the Rust binaries (cross-compilable per platform). In the afternoon [[wiki/meetings/2026-04-13-flex-pos-repo-architecture-review.md|Flex-POS Repo Architecture Review]] (Andrei present, with Val and [[wiki/people/alexander-biratka.md|Biratka]]) he asked whether Biratka's v2 repo document should therefore be discarded; Val said no — refine it to v3 at the 14 Apr joint Aaron session, where Andrei's AgentWays cutover and deployment-shape decision would also be worked out. Substance on [[wiki/topics/ai-assisted-development.md]] and [[wiki/topics/github-release-management-pipeline.md]] (Apr 13 2026). [[raw/Meeting_Notes_Aaron_Claude_Advancements_Review-April-13-2026.md]] [[raw/Meeting_Notes_Flex-POS_Repo_Architecture_Review-April-13-2026.md]] [[raw/Meeting_Transcript_Flex-POS_Repo_Architecture_Review-April-13-2026.md]]
+
+## Open commitments (Apr 13 2026)
+
+- [ ] Andrei Bosik — stop watching `cloud-code-config`; clone the new **AgentWays** repo and repoint the auto-deployment tooling at it; work out Rust-binary compilation/distribution — due before/at the 14 Apr Aaron session — [[raw/Meeting_Notes_Aaron_Claude_Advancements_Review-April-13-2026.md]]
+- [ ] Andrei Bosik — decide the AgentWays deployment shape (build-from-source / pre-built releases / container image) and bring the proposal (plus his deployment-side open questions) to the 14 Apr Aaron session — due 14 Apr 2026 — [[raw/Meeting_Notes_Aaron_Claude_Advancements_Review-April-13-2026.md]] [[raw/Meeting_Notes_Flex-POS_Repo_Architecture_Review-April-13-2026.md]]
+
 ## Open commitments (Mar 30 2026)
 
 - [ ] Andrei Bosik — reformat + regenerate the weekly branch-audit report (improper rename, red/green split, per-user block into red) and send Val the link for review before wider distribution — due unspecified — [[raw/Meeting_Notes_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]]
@@ -209,6 +218,9 @@ On the [[wiki/meetings/2026-03-30-it-follow-up-reports-code-review.md|Mar-30 IT 
 
 ## Sources
 
+- [[raw/Meeting_Notes_Aaron_Claude_Advancements_Review-April-13-2026.md]]
+- [[raw/Meeting_Transcript_Flex-POS_Repo_Architecture_Review-April-13-2026.md]]
+- [[raw/Meeting_Notes_Flex-POS_Repo_Architecture_Review-April-13-2026.md]]
 - [[raw/Meeting_Transcript_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]]
 - [[raw/Meeting_Notes_IT_Follow_Up_Reports_and_Code_Review-March-30-2026.md]]
 - [[raw/Meeting_Transcript_Review_of_Engineering_Guides-March-27-2026.md]]

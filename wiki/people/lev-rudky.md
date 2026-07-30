@@ -3,7 +3,7 @@ type: person
 title: Lev Rudky
 date: 2024-01-01
 aliases: [Lev Rudky, Lev, Lev Rudki, Лёва Рудки]
-source-count: 10
+source-count: 12
 ---
 
 # Lev Rudky
@@ -36,8 +36,14 @@ On the [[wiki/meetings/2025-11-25-business-central-migration-update.md|Nov-25 BC
 
 On the [[wiki/meetings/2025-11-28-business-central-financial-classification-dimensions.md|Nov-28 BC session]] (source is an AI summary, not a transcript) Lev diagnosed the BC dashboard's wrong figures as **intercompany/open-document translation errors + incorrect-or-missing Global dimensions**, and set the division of labour: **Lev teaches [[wiki/people/igor-donis.md|Igor]]** how to correct transactions and verify them (a recurring finance task Igor owns), **tests the settings in the sandbox first**, and owes the **tax + bank-account config** and **chart-of-accounts formatting** before the January start. [[wiki/people/alka-sood.md|Alka]] is to do report-based QC only (no edit rights). Detail on [[wiki/topics/business-central-erp-implementation.md]] (Nov-28). [[raw/BC-JVL_Labs-November-28-2025.md]]
 
+## Apr 14 2026 — native AR statements out of Business Central
+
+On the brief [[wiki/meetings/2026-04-14-accounts-receivables-ga-coam.md|Accounts Receivables GA-COAM]] wrap-up ([[wiki/people/val-levitan.md|Val]], [[wiki/people/felipe-miranda.md|Felipe]], [[wiki/people/laura.md|Laura]]) Val assigned Lev two things: work hand-in-hand with Laura to extract **native statements of account directly from Business Central** for the GA-COAM customers, and ensure those native BC statements can be **emailed directly to customers from within BC itself** (no manual export/attach step). Substance on [[wiki/topics/jvl-finance-back-office.md]] (Apr 14 2026). [[raw/Meeting_Transcript_accounts_receivables_GA-COAM-April-14-2026.md]] [[raw/Meeting_Notes_accounts_receivables_GA-COAM-April-14-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_accounts_receivables_GA-COAM-April-14-2026.md]]
+- [[raw/Meeting_Notes_accounts_receivables_GA-COAM-April-14-2026.md]]
 - [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
 - [[raw/Finance - Alka.md]]
 - [[raw/ris_business_central_integration-april-3-2025.md]]
