@@ -3,7 +3,7 @@ type: project
 title: South Dakota VLT market entry
 date: 2025-01-22
 aliases: [South Dakota, SD VLT, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950, V43, D27, SD cap, Bioliches, Gypsy Spirit, Crazy Colt, Queen of Luxor, Liberty Spin, Rodeo Spin, South Dakota vertical, MG Oil report, VLT2, Cool Cat, Black Hills Kino, Dragon Pace, Dakota Bison, Solar Keno, Keno Deluxe, IP459, IP1063]
-source-count: 29
+source-count: 30
 ---
 
 # South Dakota VLT market entry
@@ -183,6 +183,16 @@ A ~18-minute game-development review ([[wiki/meetings/2026-05-22-inna-progressiv
 
 The durable cross-game design principles from this review (Winner-screen wording, right-justified digit alignment, reserved digit space, attract-trigger threshold) are on [[wiki/topics/slot-game-design-principles.md]] (May 22 2026).
 
+## May 29 2026 — Solar Keno vertical redesign, and the event-recorder data preview
+
+A ~39-minute game-development meeting ([[wiki/meetings/2026-05-29-game-development-solar-keno.md|Game Development — Solar Keno]], ~2:00pm ET; [[wiki/people/val-levitan.md|Val]], [[wiki/people/michael-gottlieb.md|Michael Gottlieb]], [[wiki/people/lena.md|Lena]], [[wiki/people/efim-podvoiski.md|Efim]]) centred on **Solar Keno**, JVL's first vertical-screen Keno title (an SD VLT game). §15.8: game/product/market economics only, no named-person compensation. [[raw/Game_Development-May-29-2026.md]]
+
+- **Solar Keno confirmed as JVL's first vertical Keno product**, using Lena's oversized-board vertical layout (Keno board maximised, pay table/info moved into a tower above the board). Val likes the direction; Michael endorsed it. The full vertical-layout + planet-bonus design principles are on [[wiki/topics/slot-game-design-principles.md]] (May 29 2026). [[raw/Game_Development-May-29-2026.md]]
+- **Ergonomics check on real hardware.** Lena will send **Felipe's existing vertical reference image** (the Georgia vertical build) to Michael and Juan so **Juan can run it on a real machine** and judge arm reach, line of sight, and eye strain on a vertical screen. [[raw/Game_Development-May-29-2026.md]]
+- **Cool Cat Keno + Giorgi V2.** Lena will try both a traditional side-panel and the repurposed layout for Cool Cat Keno; her next focus is **Giorgi V2**, whose first Windows build she'll share for review as soon as it's ready. Michael reported he and Anton are close on Cool Cat Keno per-hit timings. [[raw/Game_Development-May-29-2026.md]]
+- **Rust conversion status — steady, not ahead.** [[wiki/people/efim-podvoiski.md|Efim]] reported the Rust conversion is **not moving faster than planned**: three weeks ago he estimated ~10 more weeks, and he still estimates ~10 more weeks. Satisfied but not ahead of schedule. [[raw/Game_Development-May-29-2026.md]]
+- **Event-recorder ("black box") data preview.** Val previewed an upcoming decision to put an **event recorder with a built-in LTE modem** (and possibly GPS) into every machine; because it transmits continuously it can send effectively unlimited data, and the main interest is **player-behaviour data**, not just technical fault data. Michael's wish-list: which games players choose, bet levels, play-session/bankroll behaviour, time on device, and spin timing (especially for Keno, where the chosen speed across three settings would help set the default). The technical-fault data is already planned; the open part is the player-behaviour list, so Val asked everyone to write down their data-collection requirements — there is no definitive list yet. (Ties to the [[wiki/meetings/2026-05-25-gsm-gps-modem-and-event-recorder.md|May-25 GSM/GPS modem + event-recorder]] hardware planning on [[wiki/topics/flexpay-business-architecture-payout-devices.md]].) [[raw/Game_Development-May-29-2026.md]]
+
 ## Who
 
 - Driven by [[wiki/people/val-levitan.md|Val]] with [[wiki/people/juan-martinez.md|Juan]] (regulator/operator relationship, field side) and [[wiki/people/pavel.md|Pavel]] (Minsk software); [[wiki/people/irina-shishko.md|Irina]] on printer testing and GLI diffs, [[wiki/people/sebastian.md|Sebastian]] on field service, [[wiki/people/ivan.md|Ivan]] on GLI scheduling. **Lonnie** is the SD lottery-lab tester; **"Alani"** appears as the SD lottery (supplied the SAS adapter, requested the permit-number rename) — whether Alani is the lottery entity or a person there is unclear (see Owner Decisions). [[raw/sd_vlt_recap-jan-22-2025.md]] [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
@@ -190,6 +200,7 @@ The durable cross-game design principles from this review (Winner-screen wording
 ## Sources
 
 - [[raw/Meeting_Notes_Inna_Progressive_Bonus_Review-May-22-2026.md]]
+- [[raw/Game_Development-May-29-2026.md]]
 - [[raw/Meeting_Transcript_game_development_March-27-2026-1.md]]
 - [[raw/Meeting_Notes_game_development_March-27-2026.md]]
 - [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]

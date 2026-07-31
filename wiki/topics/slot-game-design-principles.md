@@ -3,7 +3,7 @@ type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
 aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus, $20 test, twenty dollar test, Twin Bison, Wolfpack, Clover Fortune, Liberty Spins, peek-to-be-in bonus, locking bison, Rodeo Spins, multi-progressive, Multi-Progressive initiative, three-level progressive]
-source-count: 58
+source-count: 59
 open-questions: 3
 ---
 
@@ -463,9 +463,21 @@ From the [[wiki/meetings/2026-05-22-inna-progressive-bonus-review.md|May-22 Inna
 - **Reserved digit space, no frame expansion.** Each level (Grand / Major / Minor) reserves horizontal space for **one extra digit**; frames do not expand and digits are centred within their boxes. It is not pixel-aligned across levels (digit sizes differ) but stays visually aligned within the reserved space. A Minor growing into multi-thousands was judged unrealistic. [[raw/Meeting_Notes_Inna_Progressive_Bonus_Review-May-22-2026.md]]
 - **Attract-mode trigger threshold (a durable operator pain point).** The demo/attract loop today only fires when a player inserts money or the machine has **zero credits** — but players routinely leave a few cents on the machine and walk away, so it stays on the last game and never enters the multi-game attract loop. [[wiki/people/juan-martinez.md|Juan]] called this a common operator complaint and a missed sales opportunity. Proposed fix ([[wiki/people/michael-gottlieb.md|Michael]]): enter attract if the credit balance is **below one minimum-bet credit**; [[wiki/people/efim-podvoiski.md|Efim]] recalled the legacy system used **time-delay logic** (longer delay with credits, shorter at zero). Juan/Efim to verify whether the setting exists in RIS. [[raw/Meeting_Notes_Inna_Progressive_Bonus_Review-May-22-2026.md]]
 
+## Solar Keno vertical layout and the planet-bonus progress treatment (May 29 2026)
+
+From the [[wiki/meetings/2026-05-29-game-development-solar-keno.md|May-29 Game Development meeting]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/michael-gottlieb.md|Michael]], [[wiki/people/lena.md|Lena]], [[wiki/people/efim-podvoiski.md|Efim]]) reviewing **Solar Keno**, JVL's first vertical-screen Keno game — SD production detail on [[wiki/projects/south-dakota-vlt-market.md]] (May-29); the durable design principles:
+
+- **Use the vertical screen aggressively.** Lena redesigned the layout so the **Keno board is as large as possible**; the pay table and information panels — normally placed left and right — were moved **above the board into a "tower"** that fills with green as the player hits, with a promotional message and planet-hit tracking box on the left plus a large high-contrast marked-hit win and total multiplier. Val strongly approved the oversized card and vertical layout. Efim flagged that cash amounts with decimals (e.g. 1,000.00) could crowd the pay table, so **widen the pay-table section to fit**. [[raw/Game_Development-May-29-2026.md]]
+- **Show progress by light, not by hiding art (the planet-bonus principle).** In the planet bonus, players place planets on the Keno board; drawn numbers inside a planet box count as hits (three spots pay 2x, uncovering all spots triggers free games — the mechanic was inspired by a popular IGT game). Lena's first design started the planets grayed/covered and uncovered them as hit. **Val objected strongly:** the planets (Saturn, Jupiter, Mars) are beautiful, and covering them hides that beauty — progress should be shown through motion, size, brightness or glow, not a cover. The group converged: don't start dark and dingy — go from a **medium state to a bright/hot state** (not dark→medium), and use the **planet's border as the progress indicator** (each border section turns from gray to the planet's color as that section is hit). Michael keeps only a light, non-objectionable filter so the unlit state still reads. [[raw/Game_Development-May-29-2026.md]]
+- **"Lighten" a heavy card.** Val asked to remove dark charcoal square inlays (they force digits smaller), enlarge digits slightly, bring the **liquid-glass look** (already on the bottom buttons) up into the top info banner, and add subtle motion/sparkle behind it instead of a static banner. He wants the V-deck and the word "Solar" (with a fire/sizzle animation) to stand out. **Drop the ticker on Solar Keno** and shift the layout down to free space for logo animation — reason: redundant information adds confusion, not clarity. [[raw/Game_Development-May-29-2026.md]]
+- **Vertical layout doesn't fit every Keno title.** For **Cool Cat Keno**, Lena will prototype **both** a traditional side-panel layout and the repurposed (above-board) approach, because on a vertical screen putting information on both sides shrinks the Keno card too much (and three cats on top require the composition to stay symmetrical). Michael and Anton are close on Cool Cat Keno per-hit timings, having agreed a common approach. [[raw/Game_Development-May-29-2026.md]]
+
+§15.8: game-design/product economics only; no named-person compensation.
+
 ## Sources
 
 - [[raw/Meeting_Notes_Inna_Progressive_Bonus_Review-May-22-2026.md]]
+- [[raw/Game_Development-May-29-2026.md]]
 
 - [[raw/Meeting_Transcript_game_development_March-27-2026-2.md]]
 - [[raw/Meeting_Notes_game_development_March-27-2026.md]]

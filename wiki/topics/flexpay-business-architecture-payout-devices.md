@@ -3,7 +3,7 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS]
-source-count: 120
+source-count: 121
 open-commitments: 51
 open-questions: 6
 ---
@@ -905,6 +905,17 @@ A ~1h9m live demo ([[wiki/meetings/2026-05-26-flex-iq-mvp-cashier-player-flow-de
 - **Legal placeholder must be replaced.** The terms-and-conditions PDF in the flow is a **placeholder** and must be replaced with the real JVL legal document before go-live — [[wiki/people/juan-martinez.md|Juan]] is drafting it and Andrei will sync with him. [[raw/Meeting_Notes_FLEX_IQ_MVP_Cashier_Player_Flow_Demo-May-26-2026.md]]
 - **Decisions.** (1) **Proceed to MVP** — Andrei is satisfied the system is ready to enter MVP, subject to a fix list (endorsed by Andrei and Val). (2) **No abbreviations anywhere — make it house style** (triggered by confusion over the "DBA" field): spell things out on all screens and correspondence, always (Val). (3) **Defer UX nice-to-haves** (e.g. showing the three receipt options at once) to a later release — "we can do whatever we need, just not in this release" (Val). Named fixes going into Jira: find why the card isn't issuing (InComm side / voucher-machine-number field — high); clearer cashout display showing withdrawal + fee + final amount (by July 5); switch the on-screen keypad to a standard QWERTY layout (July 5, OK to slip); schedule the Keycloak password-recovery work; fix the missing/incorrect machine (voucher) number on the printed ticket; fix the Help screen's phone number and email; and test a longer RS-232 extender cable for reliability. §15.8: transactional-product/service economics only; no named-person compensation. [[raw/Meeting_Notes_FLEX_IQ_MVP_Cashier_Player_Flow_Demo-May-26-2026.md]]
 
+## May 29 2026 — transactional device platform: the whole category moves V-1000 → Rockchip
+
+A ~9-minute alignment ([[wiki/meetings/2026-05-29-transactional-hardware-rockchip-transition.md|Transactional Hardware Rockchip Transition]], 11:33am ET; [[wiki/people/val-levitan.md|Val]], [[wiki/people/genadi-peari.md|Genadi Peari]], [[wiki/people/pavel.md|Pavel Frolov]]) settling which compute platform the transactional devices — **recycler, dispenser, paystation** — run on. These were first built on the **V-1000** (an aging AMD-based processor almost out of circulation). Val said staying on it is pointless — it was always just a starting point and keeping it only wastes money — and the room agreed: the **whole transactional category moves to Rockchip**. This extends the platform choice already locked for the Flex Tower / POS / TITO devices ([[wiki/decisions/2025-05-26-arm-linux-platform-flex-devices.md|Rockchip / ARM-Linux decision]], May-26-2025) to the transactional-device line. [[raw/Meeting_Notes_Transactional_Hardware_Rockchip_Transition-May-29-2026.md]]
+
+- **Per-device migration path.** Genadi and Pavel had already reached the same view the day before — no point building an in-between version. **Recycler:** build on Rockchip from the start, no temporary version. **Dispenser:** can't switch quickly, so leave the current V-1000 sample as-is for now and move it to Rockchip as the next step (unscheduled). [[raw/Meeting_Notes_Transactional_Hardware_Rockchip_Transition-May-29-2026.md]]
+- **Rockchip build blocked today.** Genadi can't finish the Rockchip build yet: the wiring he needs (the same wiring planned for Flex) isn't done, and he's waiting on an **interface adapter board that Alexeev is making**. He'll assemble what he can, build it so it's easy to retrofit later, and write a short punch list of what's left so others can finish connecting it. [[raw/Meeting_Notes_Transactional_Hardware_Rockchip_Transition-May-29-2026.md]]
+- **Paystation form factor left undecided on purpose.** On bulky-versus-slim, Val chose not to decide: some buyers want a wider unit, some want slim, and JVL is comfortable enough to let the product exist in more than one form factor and let the market decide. [[raw/Meeting_Notes_Transactional_Hardware_Rockchip_Transition-May-29-2026.md]]
+- **Georgia assembly-floor quality flagged.** Genadi raised a gap between the technology the team designs and how things are actually built on the floor in Georgia — the assembly is makeshift and the place needs better working culture. Val agreed; no action assigned. [[raw/Meeting_Notes_Transactional_Hardware_Rockchip_Transition-May-29-2026.md]]
+
+§15.8: device/component/platform economics only; no named-person compensation.
+
 ## Open commitments
 
 - [ ] [[wiki/people/juan-martinez.md|Juan Martinez]] — produce weekend **sample dashboard reports** in two phases (phase 1: Moo the Goose + Incom card-transaction data, no SMIB/Flexport; phase 2: with SMIB + port), using the real field structure with sample data, as the starting point for the dashboard "skeleton" — due ~May 24–25 2026 — [[raw/Meeting_Notes_Transactional_MVP_Strategy-May-22-2026.md]]
@@ -1093,3 +1104,4 @@ A ~1h9m live demo ([[wiki/meetings/2026-05-26-flex-iq-mvp-cashier-player-flow-de
 - [[raw/Meeting_Transcript_Transactional_Products_Review_FlexIQ-May-25-2026.md]]
 - [[raw/Meeting_Transcript_GSM_GPS_Modem_and_Event_Recorder-May-25-2026.md]]
 - [[raw/Meeting_Notes_FLEX_IQ_MVP_Cashier_Player_Flow_Demo-May-26-2026.md]]
+- [[raw/Meeting_Notes_Transactional_Hardware_Rockchip_Transition-May-29-2026.md]]

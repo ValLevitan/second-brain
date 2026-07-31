@@ -3,7 +3,7 @@ type: decision
 title: Adopt a cheap ARM-based embedded-Linux board (Rockchip RK) for Flex Tower / Flex POS / TITO server
 date: 2025-05-26
 aliases: [ARM board, Rockchip, RK3568, RK board, ARM Linux platform, embedded Linux board, industrial ARM board, LVDS adapter]
-source-count: 8
+source-count: 10
 status: active
 ---
 
@@ -83,6 +83,10 @@ On the [[wiki/meetings/2025-11-28-flexport-smib-sync-jira-review.md|Nov-28 FlexP
 - **Touchscreen requirement into ICM-327.** Touch-over-**USB** works across all images (standard) but currently spans both screens (top-left touch on screen 2 registers on screen 1) — Pavel says easily configured; Genadi noted the boards' I2C touch is purpose-built for the touchscreen. Pavel added acceptance criteria to **ICM-327** (device-tree config): an **LVDS monitor with touchscreen**. [[raw/Flex-Port_Smib_alignment-November-28-2025.md]]
 - **Take the board work back from Aaron.** Both Pavel and Val judged Aaron will not finish ("does it while it interests him"): plan is to **close Aaron's done tasks, extract his image/sources, and tell him nothing more is needed**, redistributing the rest between Pavel and Alekseev. Aaron's valued piece is the **device-tree + Ethernet work** for this specific Linux on this specific board (not available ready-made) — though Alekseev maintained the rest is standard and documented. Alekseev's own Linux-variant task was removed (Aaron owns it); Alekseev needs **10 "POS" boards from Minsk** to check. Own-board / STM evolution still deferred. [[raw/Flex-Port_Smib_alignment-November-28-2025.md]]
 
+## May 29 2026 — the transactional device category also consolidates onto Rockchip (off the interim V-1000)
+
+On a ~9-minute [[wiki/meetings/2026-05-29-transactional-hardware-rockchip-transition.md|transactional-hardware alignment]] (Val, [[wiki/people/genadi-peari.md|Genadi Peari]], [[wiki/people/pavel.md|Pavel Frolov]]) the same Rockchip platform choice was extended to the **transactional device category — recycler, dispenser, paystation**. Those devices had been built first on the aging **V-1000** (AMD-based, almost out of circulation); Val ruled staying on it wastes money, and the whole category moves to **Rockchip**. Recycler builds on Rockchip from the start (no in-between version); the dispenser keeps its current V-1000 sample for now and moves to Rockchip as the next (unscheduled) step. Genadi's Rockchip build is blocked pending Flex wiring + Alexeev's interface adapter board. Full substance on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (May 29 2026). [[raw/Meeting_Notes_Transactional_Hardware_Rockchip_Transition-May-29-2026.md]]
+
 ## Status
 
 Active as of 2025-05-26, **reconfirmed June 4 2025** (Linux chosen on the formal pros/cons). Val wanted to **close it at a 7 am meeting the next day** once Alekseev confirms the LVDS interface and the samples are validated ("надо проверить, запустить, посмотреть, как она надёжно работает"). Recorded as ruled with that validation contingency, not re-deferred. [[raw/hardware_selection_flex-tower_flex-pos-may-26-2025.md]]
@@ -98,3 +102,4 @@ Active as of 2025-05-26, **reconfirmed June 4 2025** (Linux chosen on the formal
 - [[raw/Flex-Port_hardware_suppliers_requirements.md]]
 - [[raw/Aaron + Val (1).md]]
 - [[raw/Flex-Port_Smib_alignment-November-28-2025.md]]
+- [[raw/Meeting_Notes_Transactional_Hardware_Rockchip_Transition-May-29-2026.md]]

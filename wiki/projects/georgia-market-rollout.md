@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 79
+source-count: 80
 open-commitments: 15
 open-questions: 8
 ---
@@ -466,6 +466,18 @@ A ~47-minute tactical scheduling session ([[wiki/meetings/2026-05-22-3-progressi
 
 §15.8: schedule/branch/product engineering economics only; no named-person compensation.
 
+## May 29 2026 — GCOAM Match3 progressive sync: nobody has seen the progressive draw; "Linux-first" to unblock
+
+A ~25-minute status sync ([[wiki/meetings/2026-05-29-gcoam-match3-progressive-sync.md|GCOAM Match3 Progressive Sync]], 10:03am ET; [[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/igor-metelski.md|Igor Metelski]], [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]], [[wiki/people/anton-leshkevich.md|Anton Liashkevich]], [[wiki/people/irina-shishko.md|Irina Shishko]], [[wiki/people/lena.md|Lena Zhukova]]) on the [[#may-22-2026--3-progressives-schedule-rejig-match-3-forked-to-an-experimental-branch-to-hit-july-1|GA-COAM Match-3 progressive]] game. The headline problem: the team still cannot run and look at the build, so nobody — not Juan, not Michael, not Lena — has seen the progressive working. Everything else flows from that. [[raw/Meeting_Notes_GCOAM_Match3_Progressive_Sync-May-29-2026.md]]
+
+- **Why it's blocked.** Anton finished updating the game resources and home screen and is recompiling the games. To view games you need a **RIS** (the config the data centre uses to bring games up), but the current RIS only covers Igor's 3 games, and the **Linux build kept failing** because game files were missing from it, so the machine never came up. During the meeting Anton found the compilation error and committed a fix, and Irina started a fresh Linux build. [[raw/Meeting_Notes_GCOAM_Match3_Progressive_Sync-May-29-2026.md]]
+- **The agreed plan — Linux first.** Get the build to compile, bring the machine up on **Linux**, and confirm the progressive actually contributes and draws — before doing anything for Windows or designers. (Proposed by Irina, agreed by Lena and the room.) Once Linux works, Evgeny copies the known-good settings for Windows testing and **freezes a Docker image / RIS snapshot** to hand to designers. **Building proper auto-deploy (CI/CD) infrastructure was ruled out for now** — it can't be ready by the June 7 target. [[raw/Meeting_Notes_GCOAM_Match3_Progressive_Sync-May-29-2026.md]]
+- **Progressive draw is the real unknown.** Evgeny can run the progressive in Docker but has **never successfully drawn (won) a progressive**. He suspects a settings problem but can't prove it until the machine is up. On the framework side Igor reports a **BaseValue that the math recalculates and that doesn't match the progressive's value**, and his frontend throws stack overflows. Igor won't sign off on multiprogressive support until he sees both the data centre and the framework behave correctly end to end. [[raw/Meeting_Notes_GCOAM_Match3_Progressive_Sync-May-29-2026.md]]
+- **Match3 framework snag — parameter passing at math init.** Igor added baseline framework support for a Match3 progressive, but the **math engine initialises much earlier than the progressive manager**, so progressive parameters (level / centre type, plus a minimum bet) must be passed in at math init — needing an extra request to the data centre. Evgeny offered a quick temp-storage workaround; **Pavel rejected it and insisted on a proper standard API, "no crutches."** (Decision: parameter passing uses a standard API, not a temp-storage shortcut.) [[raw/Meeting_Notes_GCOAM_Match3_Progressive_Sync-May-29-2026.md]]
+- **Designer hand-off.** Pavel worried about running the progressive controller on Windows; Evgeny pushed back — it's just Docker, and designers only need teaching to use it (they had Docker Desktop for Cline and can reinstall it). Once the build is testable, Evgeny will write a short step-by-step Docker guide. Pavel called this the smaller problem versus building the Windows games. JIRA references (numbers garbled): ~1195 (Match3 progressive completion), ~1198 (multiprogressive support). [[raw/Meeting_Notes_GCOAM_Match3_Progressive_Sync-May-29-2026.md]]
+
+§15.8: build/schedule/product engineering economics only; no named-person compensation.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Felipe_credit_terms_sales_strategy-March-31-2026.md]]
@@ -547,3 +559,4 @@ A ~47-minute tactical scheduling session ([[wiki/meetings/2026-05-22-3-progressi
 - [[raw/Meeting_Notes_flex_recycler_feature_schedule_workflow-May-15-2026.md]]
 - [[raw/Meeting_Transcript_3_progressives_ga_coam_schedule_rejig-May-22-2026.md]]
 - [[raw/Meeting_Notes_3_progressives_ga_coam_schedule_rejig-May-22-2026.md]]
+- [[raw/Meeting_Notes_GCOAM_Match3_Progressive_Sync-May-29-2026.md]]
