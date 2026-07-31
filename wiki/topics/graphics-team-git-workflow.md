@@ -3,7 +3,7 @@ type: topic
 title: Graphics team Git workflow (PR discipline, CI tickets, deploy pipeline)
 date: 2025-03-12
 aliases: [designer git workflow, graphics PR discipline, pull request discipline, contact sheet action, assets deploy pipeline, fork from template, help desk CI tickets, performative pull request, pull request back to template, template per game type]
-source-count: 11
+source-count: 12
 ---
 
 # Graphics team Git workflow (PR discipline, CI tickets, deploy pipeline)
@@ -109,8 +109,18 @@ On the [[wiki/meetings/2025-11-20-github-for-graphic-design-team-git-lfs.md|Nov-
 - **Aaron's tooling + no-crutches line:** prefer **GitHub Desktop** over VS Code for artists; Andrei to add commit hooks/blocks and LFS-usage **monitoring dashboards** plus scheduled cleanup — but artists must still learn Git, not just lean on scripts ("do not let them be lazy"). [[raw/application of GitHub for graphic design team.md]]
 - **Ownership:** Sergey took the simplified artist Git-flow as a "product" (with Andrei); Val bought no new tools — "setting up existing tools," and asked to be CC'd on the design work. Art committers number ~5. [[raw/application of GitHub for graphic design team.md]]
 
+## Jun 1 2026 — how Lena runs the design/review loop with Michael Gottlieb
+
+A short [[wiki/meetings/2026-06-01-lena-design-review-mcp-jira-workflow.md|Jun-1 ~2:49pm ET call]] ([[wiki/people/val-levitan.md|Val]] ↔ [[wiki/people/lena.md|Lena Zhukova]]) captured how Lena actually works with [[wiki/people/michael-gottlieb.md|Michael Gottlieb]] day to day. (The MCP/Jira-tooling asks from the same call are on [[wiki/topics/ai-assisted-development.md]], June-1.) [[raw/Meeting_Notes_Clayton_MCP_Jira_Workflow-June-1-2026.md]]
+
+- **No set meeting with Michael — text and screenshots.** They exchange text or call as needed. Michael sends **review comments in Teams as text plus screenshots**, often circling the areas he dislikes, because written comments are clearer than verbal ones. [[raw/Meeting_Notes_Clayton_MCP_Jira_Workflow-June-1-2026.md]]
+- **Lena sorts and routes his comments.** She splits Michael's comments — developer comments go to the developers, art comments to the responsible team member. When he asks for something that can't fit the current release, she clarifies the technical details and **pushes to defer it to the next release**. [[raw/Meeting_Notes_Clayton_MCP_Jira_Workflow-June-1-2026.md]]
+- **Who changes issue status.** Whoever an issue is assigned to moves it from Action Item → In Progress when they start; Lena, Julia and Anastasiya do the later status changes by hand. The exception is Michael — he **never changes statuses**, so Lena closes and updates issues on his behalf. [[raw/Meeting_Notes_Clayton_MCP_Jira_Workflow-June-1-2026.md]]
+- **Recording practice.** Major issues are discussed by Lena, Anastasiya, Julia and Dima. Calls with other members (Natalia, Arturo, Vitaliy) are occasional and **not recorded** — usually short clarifications, since stories are written to be clear enough on their own. §15.8 clear — workflow only; no named-person compensation. [[raw/Meeting_Notes_Clayton_MCP_Jira_Workflow-June-1-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Clayton_MCP_Jira_Workflow-June-1-2026.md]]
 - [[raw/GitHub repository structure.md]]
 - [[raw/GitHub_for_Graphic_Design_evolution_2025-03-12.md]]
 - [[raw/github_commits-march-26-2025.md]]
