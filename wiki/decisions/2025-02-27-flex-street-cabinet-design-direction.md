@@ -3,7 +3,7 @@ type: decision
 title: Flex V42/C street-machine cabinet design direction
 date: 2025-02-27
 aliases: [Flex V42, Flex V42/C, carbon fiber panel, floating monitor, street machine cabinet, credit card reader requirement]
-source-count: 2
+source-count: 3
 status: active
 ---
 
@@ -26,7 +26,18 @@ This is an **evolutionary** change to the street machine (Flex S) that comes wit
 
 **Later evolution (Mar 27):** Val broadened the approach — before detailing the curve machine, do a **preliminary industrial design across all three Flex machines as one family**, with monitor-angle and light-fixture changes and an amplifier box mounted on the base unit. See [[wiki/decisions/2025-03-27-preliminary-industrial-design-all-three-flex-cabinets.md]]. [[raw/Flex-S-design-March-27-2025.md]]
 
+## Jun 8 2026 — the low-cost "street" machine: build the whole device under $2,000
+
+A ~30-minute (mostly Russian) call ([[wiki/meetings/2026-06-08-low-cost-street-machine-design.md|Low-Cost Street Machine Design]], 9:48pm ET; [[wiki/people/val-levitan.md|Val]], [[wiki/people/genadi-peari.md|Genadi Peari]]) opened a **new, cost-driven** street-machine direction — distinct from the Flex V42/C aesthetic evolution above — because street prices have dropped a lot. This starts the June street-machine hardware thread (June-9 / June-16 follow-ups). The sell-cheap-plus-recurring-fee business model and device economics are also carried on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Jun-8). [[raw/Meeting_Notes_Low_Cost_Street_Machine_Design-June-8-2026.md]]
+
+- **The target: a whole device for under $2,000, including the bill acceptor.** Val counts the bill acceptor at ~$800, so the machine itself must come in around **$1,200**. (Decision.) [[raw/Meeting_Notes_Low_Cost_Street_Machine_Design-June-8-2026.md]]
+- **Strip the cabinet.** **One door only** (bill acceptor + cassette), a **single 43-inch monitor** (either a bare touchscreen on the monitor, or a plain 43" monitor plus a small ~15" VDEC touchscreen — Genadi thinks the small-screen option, ~$45, is cheaper), no stand, no open/close light fixtures — flat and simple, "as cheap as an iPhone." Cut cost in many small places because "it adds up." (Decision.) [[raw/Meeting_Notes_Low_Cost_Street_Machine_Design-June-8-2026.md]]
+- **Move the main board to a Rockchip platform and drop boards.** Genadi's rough costing: starting from the current **Flex** machine, moving to **Rockchip** and dropping the amplifier, light board, light controller, counters board and VDEC saves roughly **$500–600 in parts** before the cabinet. The metal cabinet itself is only ~$300, so little to save there; parts prices are rising (Rockchip doubled, memory up 4×). (Genadi's costing, endorsed by Val.) [[raw/Meeting_Notes_Low_Cost_Street_Machine_Design-June-8-2026.md]]
+- **Self-built bill-path "nose"/bezel with an integrated QR-code reader** — Val's main new idea, replacing the $35 plastic nose *and* the complex player-tracking port and its screen, with either a small info screen or lit tactile buttons. Genadi liked the QR-in-the-nose idea ("brilliant") but is cautious about fitting it into other makers' cabinets where the bill acceptor sometimes sits too low; he'll work it out and check. (Val's direction; Genadi to develop.) [[raw/Meeting_Notes_Low_Cost_Street_Machine_Design-June-8-2026.md]]
+- **Open items (not resolved):** whether to include a ticket printer; a compliance catch — cutting the non-volatile memory down to "records only" (dropping game-state storage) saves money but runs into **jurisdictional compliance**, flagged not resolved; whether modern projected-capacitive touchscreens hide the ITO grid line (decides if a bare touchscreen looks clean); and whether the integrated nose fits other makers' cabinets. Next step: Val meets **Piratka** (a nickname) and Pavel (likely [[wiki/people/pavel.md|Pavel Frolov]]) the next morning (June 9, 8:00) to get their read on feasibility. §15.8: device/program cost economics only (the sub-$2,000 build target is product economics); no named-person compensation. [[raw/Meeting_Notes_Low_Cost_Street_Machine_Design-June-8-2026.md]]
+
 ## Sources
 
 - [[raw/Flex_V42_C_design_evolution_review_2025-02-27.md]]
 - [[raw/Flex-S-design-March-27-2025.md]]
+- [[raw/Meeting_Notes_Low_Cost_Street_Machine_Design-June-8-2026.md]]

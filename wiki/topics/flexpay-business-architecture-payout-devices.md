@@ -3,7 +3,7 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS]
-source-count: 123
+source-count: 124
 open-commitments: 51
 open-questions: 6
 ---
@@ -934,6 +934,12 @@ On the [[wiki/meetings/2026-06-05-amot-texas-market-scouting.md|Jun-5 AMOT Texas
 - **Flex-IQ is not debit-card-only (Val corrected Andrei).** Flex-IQ can issue a **QR ticket or a plastic card as an e-wallet**, let players **roam machine to machine**, and act as a **central accounting / reconciliation point** — so a location stops opening every machine by hand to tally cash. Paired with **FlexPort**, a single ticket issued once at the counter can move around all machines. For TITO environments Val would pair a standard TITO printer + bill acceptor with **IQ as the central accounting layer**. Decisions: debit cards are wrong for Texas (cash market beats cards); **Flex-IQ is to be treated as more than a debit-card product** (QR / plastic-card e-wallet, machine-to-machine roaming, centralized accounting). [[raw/Meeting_Notes_AMOT_Texas_Market_Scouting-June-5-2026.md]]
 - **Val's ask.** He was frustrated the team returned with observations but **no concrete product proposals** and asked Andrei to bring tangible proposals to the Monday, June 8 follow-up. §15.8: device / market / fee economics only; no named-person compensation recorded (the ~$400K/month figure is Seminole Gaming's revenue, not a person's pay). [[raw/Meeting_Notes_AMOT_Texas_Market_Scouting-June-5-2026.md]]
 
+## Jun 8 2026 — the low-cost "street" machine: sell cheap, then charge a recurring connection fee
+
+On a ~30-minute (mostly Russian) call ([[wiki/meetings/2026-06-08-low-cost-street-machine-design.md|Low-Cost Street Machine Design]], 9:48pm ET; [[wiki/people/val-levitan.md|Val]], [[wiki/people/genadi-peari.md|Genadi Peari]]) Val opened a new low-cost street-device direction driven by dropping street prices — the cabinet/hardware design substance is on [[wiki/decisions/2025-02-27-flex-street-cabinet-design-direction.md]] (Jun-8); the business-model and device-cost angle is captured here. [[raw/Meeting_Notes_Low_Cost_Street_Machine_Design-June-8-2026.md]]
+
+- **The device-cost target and the recurring-fee model.** Target a whole device for **under $2,000 all-in** (~$1,200 machine + ~$800 bill acceptor). Pair the low price with a **recurring connection/subscription fee — about $3/day, or ~10% of revenue** for operators who prefer that — justified by constant software updates and "intelligence" (service data, statistical/accounting data). Val floated a sale price of **$5,000–6,000** but called those numbers rough guesses; the aim is to sell far more machines at a lower margin plus recurring fees. §15.8: device/program cost and fee economics only (the sub-$2,000 build target and $3/day fee are product economics); no named-person compensation. [[raw/Meeting_Notes_Low_Cost_Street_Machine_Design-June-8-2026.md]]
+
 ## Open commitments
 
 - [ ] [[wiki/people/juan-martinez.md|Juan Martinez]] — produce weekend **sample dashboard reports** in two phases (phase 1: Moo the Goose + Incom card-transaction data, no SMIB/Flexport; phase 2: with SMIB + port), using the real field structure with sample data, as the starting point for the dashboard "skeleton" — due ~May 24–25 2026 — [[raw/Meeting_Notes_Transactional_MVP_Strategy-May-22-2026.md]]
@@ -1125,3 +1131,4 @@ On the [[wiki/meetings/2026-06-05-amot-texas-market-scouting.md|Jun-5 AMOT Texas
 - [[raw/Meeting_Notes_Transactional_Hardware_Rockchip_Transition-May-29-2026.md]]
 - [[raw/Meeting_Notes_IQ_Deployment_Jira_Structuring-June-05-2026.md]]
 - [[raw/Meeting_Notes_AMOT_Texas_Market_Scouting-June-5-2026.md]]
+- [[raw/Meeting_Notes_Low_Cost_Street_Machine_Design-June-8-2026.md]]
