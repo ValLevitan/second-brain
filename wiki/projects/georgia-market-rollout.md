@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 81
+source-count: 82
 open-commitments: 15
 open-questions: 8
 ---
@@ -487,6 +487,17 @@ A ~14-minute weekly schedule check ([[wiki/meetings/2026-06-08-3-progressives-ga
 - **QA and board hygiene (Irina + Val).** [[wiki/people/irina-shishko.md|Irina]] sees 22 tasks in testing and 1 in development (3 more moving in today/tomorrow, plus bugs) and asked Anton to go through all logged bugs (some may need artist input). The **Match 3 test plan (task 1200)** is set for 16:00, with Match 3 testing on Ivan Shpak (Vanya). [[wiki/people/val-levitan.md|Val]] flagged tasks that by schedule should already be done; a few slipped Friday to-dos (1295/1296/1297) can move to Monday given dependencies, and several statuses were reconciled live. [[raw/Meeting_Notes_3_Progressives_GA_COAM_Schedule_Check-June-8-2026.md]]
 - **June 16 is a hope, not a certainty.** Val noted that on schedule not everything is in the team's hands, so June 16 readiness is uncertain. Next check Wednesday, same time; Val asked Irina to stay on for a one-on-one. §15.8: schedule/build engineering economics only; no named-person compensation. [[raw/Meeting_Notes_3_Progressives_GA_COAM_Schedule_Check-June-8-2026.md]]
 
+## Jun 10 2026 — 3-Progressives schedule check: Match-3 must launch from every game
+
+The Wednesday follow-up to the [[#jun-8-2026--3-progressives-schedule-check-walking-the-board-against-the-june-16-target|Jun-8 check]] ([[wiki/meetings/2026-06-10-3-progressives-gacoam-schedule-check.md|3-Progressives GA-COAM Schedule Check]], 3:01pm ET; same team — [[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/igor-metelski.md|Igor Metelski]], [[wiki/people/lena.md|Lena Zhukova]], [[wiki/people/anton-leshkevich.md|Anton Liashkevich]], [[wiki/people/irina-shishko.md|Irina Shishko]], [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]]) walked the Jira board game by game. A distinct weekly session, not a re-transcription of Jun-8. [[raw/Meeting_Notes_3_Progressives_GA_COAM_Schedule_Check-June-10-2026.md]]
+
+- **Match-3 must launch from every game in today's build (the gate).** [[wiki/people/igor-metelski.md|Igor]] finished the bonus restoration and added the Match-3 progressive bonus to all games; yesterday it only launched from one game (**Buy Riches**), and today's build should let it launch from all. This unblocks the **coin-size review**: games use different grids (3×3, 4×3, 5×3, 5×4), so [[wiki/people/lena.md|Lena]] and [[wiki/people/michael-gottlieb.md|Michael]] still must decide whether the coin is oversized or fits inside the symbol's bounding box — they can't review it until the bonus launches from every game. [[raw/Meeting_Notes_3_Progressives_GA_COAM_Schedule_Check-June-10-2026.md]]
+- **Crash bug prioritised over LED work.** On the GA-COAM games the machine crashes when Match-3 is played on any bet above the minimum. Igor believes it's on his side, is investigating, and is doing it **before** the LED animation work because it matters more (LED can be set at the last moment). [[raw/Meeting_Notes_3_Progressives_GA_COAM_Schedule_Check-June-10-2026.md]]
+- **Rodeo Queen nearly closed (Anton).** [[wiki/people/anton-leshkevich.md|Anton]] fixed most of the bonus and transition bugs; one remains — the transition where the girl throws the flag — which he planned to finish today. Irina also flagged a crash on the game-select screen that Anton will look at. [[raw/Meeting_Notes_3_Progressives_GA_COAM_Schedule_Check-June-10-2026.md]]
+- **LED bet animations become a tracked Jira feature.** The Match-3 bonus needs LED light-strip animations like the other bonuses — three colours (red/blue/green) tied to win levels with soft transitions. Lena and Michael will choose and send the colours (today or tomorrow); Igor then wires the events through the LED manager (~1–1.5 hrs) and records a review video with Michael. Context: David used to handle LED work, and Michael reviews off-machine so he doesn't see animations; Lena suggested an artist (Natasha or Artur) sit with Igor at the machine to check the look. Pavel will open a Jira feature for it — Igor said he needs a ticket to track it. [[raw/Meeting_Notes_3_Progressives_GA_COAM_Schedule_Check-June-10-2026.md]]
+- **Backlog cleanup — archived GA-COAM v2 features deleted.** Lena confirmed the GA-COAM v2 features (e.g. Gypsy Spirit, Andrei's game) are archived and out of scope for this release; Pavel can delete them and their sub-tasks. No decision yet on whether they'll be built in a later version. [[raw/Meeting_Notes_3_Progressives_GA_COAM_Schedule_Check-June-10-2026.md]]
+- **Board hygiene.** Pavel and Irina reconciled the "Fran 12:00" test plan (the tester had only confirmed it works, not taken it into full work) — Val pushed for a clear status over vague wording, set to 2 days. Peach bonus added to all games but not the special show entries yet; win temporarily set to random so the coin-size question can close, with all three win levels to be verified later (yesterday only the blue level kept winning). Lena said there are no big schedule problems; next check stays **Friday, same time** — Lena is off Friday but the team agreed to proceed without her. §15.8: schedule/build engineering economics only; no named-person compensation. [[raw/Meeting_Notes_3_Progressives_GA_COAM_Schedule_Check-June-10-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Felipe_credit_terms_sales_strategy-March-31-2026.md]]
@@ -570,3 +581,4 @@ A ~14-minute weekly schedule check ([[wiki/meetings/2026-06-08-3-progressives-ga
 - [[raw/Meeting_Notes_3_progressives_ga_coam_schedule_rejig-May-22-2026.md]]
 - [[raw/Meeting_Notes_GCOAM_Match3_Progressive_Sync-May-29-2026.md]]
 - [[raw/Meeting_Notes_3_Progressives_GA_COAM_Schedule_Check-June-8-2026.md]]
+- [[raw/Meeting_Notes_3_Progressives_GA_COAM_Schedule_Check-June-10-2026.md]]

@@ -3,7 +3,7 @@ type: topic
 title: Low-cost street machine (sub-$2,000 street cabinet program)
 date: 2026-06-09
 aliases: [street machine, street cabinet, low-cost street machine, low-cost street cabinet, street slot machine, sub-$2000 street machine, RK3588 street machine, stripped street cabinet]
-source-count: 3
+source-count: 4
 ---
 
 # Low-cost street machine (sub-$2,000 street cabinet program)
@@ -49,6 +49,15 @@ Val stressed repeatedly that **service is the core of the business**. Front serv
 
 Because street machines stand close together in a bank, link them through a **cloud "progressive" control** into a shared jackpot/bonus displayed across the row of screens — half-screen, third-screen, or the whole row for a big bonus, like a scoreboard. Val considers this a strong feature. [[raw/Meeting_Notes_Street_Machine_Industrial_Design-June-9-2026.md]] [[raw/Meeting_Notes_Low_Cost_Street_Cabinet_Platform-June-9-2026.md]]
 
+## Jun 10 2026 — design direction restated at the game-dev session
+
+On the [[wiki/meetings/2026-06-10-game-dev-pipeline-and-street-machine.md|Jun-10 8:02pm ET game-dev session]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/michael-gottlieb.md|Michael Gottlieb]], [[wiki/people/lena.md|Lena Zhukova]], [[wiki/people/juan-martinez.md|Juan Martinez]], [[wiki/people/efim-podvoiski.md|Efim Podvoiski]]) Val laid out the street-machine direction again, consistent with the Jun-8/9 thread above and adding a few specifics. [[raw/Meeting_Notes_Game_Dev_Pipeline_and_Street_Machine-June-10-2026.md]]
+
+- **Compute + game capacity.** Single vertical screen on the **Rockchip** platform (in testing now), **max 6 games**, but with **WiFi + cellular** so games can be downloaded over the air rather than all resident at once. [[raw/Meeting_Notes_Game_Dev_Pipeline_and_Street_Machine-June-10-2026.md]]
+- **Shared progressive as a "video wall."** An **external progressive controller** drives a full bank of machines as a video wall (restates the [[#shared-progressive|shared-progressive]] idea). [[raw/Meeting_Notes_Game_Dev_Pipeline_and_Street_Machine-June-10-2026.md]]
+- **Cabinet refinements.** An **8-button deck** (1 slam, 5 bet, 2 service) with drink-holder space; the **dashboard** (player tracking, validator, printer) relocated **below the vertical panel** to kill the big insert; the screen lowered ~**4–5″** with a slight "iPhone-ish" tilt so there's one clean line from the M-deck to the screen. Dropping the dedicated amp and subwoofer — mid-range speakers mounted below, firing upward. Target **September**. [[raw/Meeting_Notes_Game_Dev_Pipeline_and_Street_Machine-June-10-2026.md]]
+- **Open (restated).** Mechanical buttons vs keeping haptic feedback / a V-deck is undecided (Val remains a "big advocate of feedback"), and perimeter vs halo lighting is still an open "vote." Michael is firmly on board ("just because you can doesn't mean you should"; cited Clover Fortune as proof simple games perform). §15.8: device/build-cost economics only; no named-person compensation. [[raw/Meeting_Notes_Game_Dev_Pipeline_and_Street_Machine-June-10-2026.md]]
+
 ## Scope note and next steps
 
 The passive **Flex** machine keeps being built in parallel; the street machine is a **different principle**, not a replacement. [[raw/Meeting_Notes_Street_Machine_Industrial_Design-June-9-2026.md]] Next step: Val writes everything up as an **industrial-design brief** (framed as a design task, not a spec) and sends it to Genadi with the meeting recording; Genadi briefs the contractor industrial designer [[wiki/people/igor-starovoytov.md|Igor Starovoytov]] in person for rough, radical hand-drawn concepts and a preliminary 3D model (~3 variants) — Igor is slow, so start now. Val will re-confirm the bill-validator choice with Juan and recover the lost candidate list. [[raw/Meeting_Notes_Street_Machine_Industrial_Design-June-9-2026.md]]
@@ -60,3 +69,4 @@ The passive **Flex** machine keeps being built in parallel; the street machine i
 - [[raw/Meeting_Notes_Low_Cost_Street_Machine_Design-June-8-2026.md]]
 - [[raw/Meeting_Notes_Low_Cost_Street_Cabinet_Platform-June-9-2026.md]]
 - [[raw/Meeting_Notes_Street_Machine_Industrial_Design-June-9-2026.md]]
+- [[raw/Meeting_Notes_Game_Dev_Pipeline_and_Street_Machine-June-10-2026.md]]

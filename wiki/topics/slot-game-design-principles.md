@@ -3,7 +3,7 @@ type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
 aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus, $20 test, twenty dollar test, Twin Bison, Wolfpack, Clover Fortune, Liberty Spins, peek-to-be-in bonus, locking bison, Rodeo Spins, multi-progressive, Multi-Progressive initiative, three-level progressive]
-source-count: 62
+source-count: 63
 open-questions: 3
 ---
 
@@ -509,6 +509,15 @@ On the [[wiki/meetings/2026-06-05-nebraska-performance-game-roadmap.md|Jun-5 5:5
 - **Texas-branding reversal (names/symbols only, not the math).** Until now JVL deliberately hid that Texas machines were Nebraska carryovers (nothing said "Texas"). Juan argued they should now **brand Texas games as Texas** (Lone Star, Yellow Rose of Texas, Rodeo Queen) since they are legally skill games anyway; Val agreed. This is **symbols and names only — not the progressive math**. Michael will think through Texas-specific designs. This **reverses** the Apr-9 "Texas content prohibition" recorded on [[wiki/projects/texas-used-machine-distribution.md]]. [[raw/Meeting_Notes_Nebraska_Performance_Game_Roadmap-June-5-2026.md]]
 - **Roadmap order.** Finish **Georgia V2 → Georgia V3** (planned through August) → **South Dakota vertical** (SD horizontal still needed too). A bigger framework switch is coming because of AI, but "not tomorrow." [[raw/Meeting_Notes_Nebraska_Performance_Game_Roadmap-June-5-2026.md]]
 
+## Release-pipeline reorder, Texas Lone Star, and per-market game sets (June 10 2026)
+
+On the [[wiki/meetings/2026-06-10-game-dev-pipeline-and-street-machine.md|Jun-10 8:02pm ET game-dev session]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/michael-gottlieb.md|Michael Gottlieb]], [[wiki/people/lena.md|Lena]], [[wiki/people/juan-martinez.md|Juan]], [[wiki/people/efim-podvoiski.md|Efim]]) Michael posted the release schedule and the group reordered it. (Continues the [[#nebraska-game-roadmap-solar-keno-queen-of-luxor-and-the-texas-branding-reversal-june-5-2026|Jun-5 roadmap]].) [[raw/Meeting_Notes_Game_Dev_Pipeline_and_Street_Machine-June-10-2026.md]]
+
+- **The release lineup.** **Georgia Vertical 2** — almost done (liquid glass + match-3 progressive, 8 games), submitting to Eclipse ~June 15 (may slip to the 17th–19th); engineers were pulled off South Dakota D2702 to finish it. **South Dakota D2702** — almost done, 8 games (2 Kinos — Cool Cat Kino, Black Hills Kino Deluxe — + 6 conventional), upgrading the 60+ install base; QA moves onto it after Georgia V2. **Georgia Vertical 3** — ~October, a V2 cleanup plus more games (new Bison; updated Lions Riches and Queen of Luxor graphics; +2 in Jackpot Rush; +3 in Fiery Ice Link). **Nebraska D2702** and **South Dakota Vertical 1** (3 vertical Kinos + 6 Lions & Waves games; needs a cabinet submitted to the regulator, so it carries an external delay). [[raw/Meeting_Notes_Game_Dev_Pipeline_and_Street_Machine-June-10-2026.md]]
+- **Reorder: Nebraska D2702 ahead of South Dakota Vertical 1.** Nebraska had been slated for January, which Val called "not good"; it was reordered to start right after Georgia V3 and **ahead of** South Dakota Vertical 1. Lena's reprioritization was approved: **Queen of Luxor V3 graphics → Nebraska D27 → South Dakota vertical**. [[raw/Meeting_Notes_Game_Dev_Pipeline_and_Street_Machine-June-10-2026.md]]
+- **Texas Lone Star accepted (continues the branding reversal).** Val is no longer opposed to a dedicated Texas-themed game — **Lone Star**, a **Golden Husk re-skin** that's mostly already built. Texas follows the Nebraska skill but on **its own timeline**, since Texas needs no regulatory approval and can carry software changes Nebraska can't. Juan to create a Texas Skill game concept for the vertical project. Val stressed he's giving no creative direction here. (Extends the [[#nebraska-game-roadmap-solar-keno-queen-of-luxor-and-the-texas-branding-reversal-june-5-2026|Jun-5]] Texas-branding reversal.) [[raw/Meeting_Notes_Game_Dev_Pipeline_and_Street_Machine-June-10-2026.md]]
+- **Every game keeps a "known good" concept version.** Even near-identical reworks pass through the concept phase so each game (especially with the liquid-glass conversions and variations) has a documented approved baseline — the design-side reason behind the [[wiki/topics/github-release-management-pipeline.md|everything-in-Jira]] rule set the same night. §15.8: game/market roadmap only; no named-person compensation. [[raw/Meeting_Notes_Game_Dev_Pipeline_and_Street_Machine-June-10-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Inna_Progressive_Bonus_Review-May-22-2026.md]]
@@ -574,3 +583,4 @@ On the [[wiki/meetings/2026-06-05-nebraska-performance-game-roadmap.md|Jun-5 5:5
 - [[raw/Meeting_Notes_Game_Manifest_Definition-June-3-2026.md]]
 - [[raw/Meeting_Notes_White_Label_Experiment-June-3-2026.md]]
 - [[raw/Meeting_Notes_Nebraska_Performance_Game_Roadmap-June-5-2026.md]]
+- [[raw/Meeting_Notes_Game_Dev_Pipeline_and_Street_Machine-June-10-2026.md]]
