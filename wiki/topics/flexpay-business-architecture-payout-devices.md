@@ -3,7 +3,7 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS]
-source-count: 122
+source-count: 123
 open-commitments: 51
 open-questions: 6
 ---
@@ -924,6 +924,16 @@ On the [[wiki/meetings/2026-06-05-iq-deployment-jira-structuring.md|Jun-5 2:18pm
 - **Logistics Val flagged.** Components for 50 units must reach **Georgia**; [[wiki/people/genadi-peari.md|Genadi]] will make another trip there; [[wiki/people/felipe-miranda.md|Felipe]] must prep customers; [[wiki/people/laura.md|Laura]] and **INCOM** need to know about the 10-unit release. Coordination has to be tight. [[raw/Meeting_Notes_IQ_Deployment_Jira_Structuring-June-05-2026.md]]
 - **Testing folds into the release.** The separate test plans are retired — testing becomes the **CD part of the release** (the deployment-side application of the [[wiki/meetings/2026-06-01-e2e-testing-cicd-architecture.md|Jun-1 testing strategy]]). Team reconvenes Monday, June 8, 9am. §15.8: device/deployment/market economics only; no named-person compensation. [[raw/Meeting_Notes_IQ_Deployment_Jira_Structuring-June-05-2026.md]]
 
+## Jun 5 2026 — Texas transactional read from AMOT: a cash market, no debit cards, the per-transaction-fee opening, and Flex-IQ as more than a debit product
+
+On the [[wiki/meetings/2026-06-05-amot-texas-market-scouting.md|Jun-5 AMOT Texas report-back]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/juan-martinez.md|Juan]], [[wiki/people/felipe-miranda.md|Felipe Miranda]], [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]) the trip's transactional-product findings were reported and Val reframed how the Flex devices should enter Texas. The market-structure / distribution substance is on [[wiki/projects/texas-used-machine-distribution.md]] (Jun-5). [[raw/Meeting_Notes_AMOT_Texas_Market_Scouting-June-5-2026.md]]
+
+- **How Texas players pay today.** Almost everything is **cash**. Very few TITO setups; most locations print a ticket from a **pyramid printer** that the player takes to a cashier or a cash-out kiosk. Oddities seen: a **"silver pellet"** scheme (one owner, redeemed at an attached jewelry shop, no fee); a **"match"** mechanic (the location matches your bet but raises the minimum cash-out); and **"sweepstakes"-style PC stations** with electronic wallets. **No location charges any per-transaction fee.** Kiosks run about **$7K**; cash **dispensers** are common, **recyclers** rare. [[raw/Meeting_Notes_AMOT_Texas_Market_Scouting-June-5-2026.md]]
+- **Felipe / Andrei's product read.** A **cash dispenser is welcome and needed**; **debit-card products (FlexPay, and Flex-IQ as currently built) are not**, because it is a cash market and players won't trade real cash for a card. The biggest operational gap they saw: **players can't move between machines** — they must cash out at each one individually. [[raw/Meeting_Notes_AMOT_Texas_Market_Scouting-June-5-2026.md]]
+- **Val's per-transaction-fee opening.** Val agreed debit cards are wrong for Texas but pressed that **no one charges a fee today only because the market is new** and operators just chase demand; as stable operators move in they look for efficiency. If JVL offers a **menu option to add a small ATM-style charge (~$2–5)**, smart operators will adopt it to cover costs and the market will copy fast. Juan's benchmark: one ATM at the **Tampa Hard Rock** earns **Seminole Gaming ~$400K/month** in fees. [[raw/Meeting_Notes_AMOT_Texas_Market_Scouting-June-5-2026.md]]
+- **Flex-IQ is not debit-card-only (Val corrected Andrei).** Flex-IQ can issue a **QR ticket or a plastic card as an e-wallet**, let players **roam machine to machine**, and act as a **central accounting / reconciliation point** — so a location stops opening every machine by hand to tally cash. Paired with **FlexPort**, a single ticket issued once at the counter can move around all machines. For TITO environments Val would pair a standard TITO printer + bill acceptor with **IQ as the central accounting layer**. Decisions: debit cards are wrong for Texas (cash market beats cards); **Flex-IQ is to be treated as more than a debit-card product** (QR / plastic-card e-wallet, machine-to-machine roaming, centralized accounting). [[raw/Meeting_Notes_AMOT_Texas_Market_Scouting-June-5-2026.md]]
+- **Val's ask.** He was frustrated the team returned with observations but **no concrete product proposals** and asked Andrei to bring tangible proposals to the Monday, June 8 follow-up. §15.8: device / market / fee economics only; no named-person compensation recorded (the ~$400K/month figure is Seminole Gaming's revenue, not a person's pay). [[raw/Meeting_Notes_AMOT_Texas_Market_Scouting-June-5-2026.md]]
+
 ## Open commitments
 
 - [ ] [[wiki/people/juan-martinez.md|Juan Martinez]] — produce weekend **sample dashboard reports** in two phases (phase 1: Moo the Goose + Incom card-transaction data, no SMIB/Flexport; phase 2: with SMIB + port), using the real field structure with sample data, as the starting point for the dashboard "skeleton" — due ~May 24–25 2026 — [[raw/Meeting_Notes_Transactional_MVP_Strategy-May-22-2026.md]]
@@ -1114,3 +1124,4 @@ On the [[wiki/meetings/2026-06-05-iq-deployment-jira-structuring.md|Jun-5 2:18pm
 - [[raw/Meeting_Notes_FLEX_IQ_MVP_Cashier_Player_Flow_Demo-May-26-2026.md]]
 - [[raw/Meeting_Notes_Transactional_Hardware_Rockchip_Transition-May-29-2026.md]]
 - [[raw/Meeting_Notes_IQ_Deployment_Jira_Structuring-June-05-2026.md]]
+- [[raw/Meeting_Notes_AMOT_Texas_Market_Scouting-June-5-2026.md]]

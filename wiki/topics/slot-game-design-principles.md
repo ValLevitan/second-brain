@@ -3,7 +3,7 @@ type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
 aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus, $20 test, twenty dollar test, Twin Bison, Wolfpack, Clover Fortune, Liberty Spins, peek-to-be-in bonus, locking bison, Rodeo Spins, multi-progressive, Multi-Progressive initiative, three-level progressive]
-source-count: 61
+source-count: 62
 open-questions: 3
 ---
 
@@ -499,6 +499,16 @@ The afternoon follow-on the same day, the [[wiki/meetings/2026-06-03-white-label
 
 §15.8: game-design/product economics only; no named-person compensation.
 
+## Nebraska game roadmap, Solar Keno, Queen of Luxor, and the Texas-branding reversal (June 5 2026)
+
+On the [[wiki/meetings/2026-06-05-nebraska-performance-game-roadmap.md|Jun-5 5:58pm ET Nebraska performance + game-roadmap review]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/juan-martinez.md|Juan]], [[wiki/people/michael-gottlieb.md|Michael Gottlieb]], [[wiki/people/lena.md|Lena]], [[wiki/people/efim-podvoiski.md|Efim]]) the game side of the Nebraska-performance push was worked through. The market/rollout substance is on [[wiki/projects/nebraska-skill-market.md]] (Jun-5). [[raw/Meeting_Notes_Nebraska_Performance_Game_Roadmap-June-5-2026.md]]
+
+- **"Pump games" and the 3×3 read.** Because Nebraska approval is simple and JVL's library is deep, the emergency design response is to push more titles into the market while flying blind on data. The current Nebraska release leans on **3×3 games** (Clover Fortune, Gem Brilliante, Dutch Mill), but **South Dakota data shows players don't like 3×3s** — so newer titles (Lion's Riches, Wild Colt, Aaron's Pub; Jackpot Rush & Fiery Ice cracked to dual-screen for D27) are being brought in. **All new releases use the dual-box skill for now.** [[raw/Meeting_Notes_Nebraska_Performance_Game_Roadmap-June-5-2026.md]]
+- **Solar (Keno) design review.** [[wiki/people/lena.md|Lena]] showed the new main screen with **"liquid glass" borders** over the Keno board; Val liked the border a lot. It will animate — planets light up, the border fills and grows, then transitions into free games with a **fire theme** (orange/yellow numbers, fireballs as extra draws). Val wants the motion to look **intentional, not broken**. (Continues the [[#solar-keno-vertical-layout-and-the-planet-bonus-progress-treatment-may-29-2026|May-29 Solar Keno]] work.) [[raw/Meeting_Notes_Nebraska_Performance_Game_Roadmap-June-5-2026.md]]
+- **Queen of Luxor — hold the redesign until data.** Lena flagged this Egyptian game (built ~2015 off **IGT Cleopatra**) as looking dated and proposed **redressing it for Georgia V3**. Juan cautioned: wait for **game-level data from the first Georgia Vertical install** (via [[wiki/people/felipe-miranda.md|Felipe]], ~August) — it might just get **swapped out, not rebuilt**. Michael agreed to hold but defended keeping an Egyptian title (still demand). Efim had only old, thin vertical data (~**$300K total coin-in** on a few machines); one title ran ~**20% of play** on a six-game machine (Michael called that solid; the source was unclear whether the 20% was Queen of Luxor itself). **Decision: hold the Queen of Luxor redesign until game-level data arrives (~August).** [[raw/Meeting_Notes_Nebraska_Performance_Game_Roadmap-June-5-2026.md]]
+- **Texas-branding reversal (names/symbols only, not the math).** Until now JVL deliberately hid that Texas machines were Nebraska carryovers (nothing said "Texas"). Juan argued they should now **brand Texas games as Texas** (Lone Star, Yellow Rose of Texas, Rodeo Queen) since they are legally skill games anyway; Val agreed. This is **symbols and names only — not the progressive math**. Michael will think through Texas-specific designs. This **reverses** the Apr-9 "Texas content prohibition" recorded on [[wiki/projects/texas-used-machine-distribution.md]]. [[raw/Meeting_Notes_Nebraska_Performance_Game_Roadmap-June-5-2026.md]]
+- **Roadmap order.** Finish **Georgia V2 → Georgia V3** (planned through August) → **South Dakota vertical** (SD horizontal still needed too). A bigger framework switch is coming because of AI, but "not tomorrow." [[raw/Meeting_Notes_Nebraska_Performance_Game_Roadmap-June-5-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Inna_Progressive_Bonus_Review-May-22-2026.md]]
@@ -563,3 +573,4 @@ The afternoon follow-on the same day, the [[wiki/meetings/2026-06-03-white-label
 - [[raw/Meeting_Notes_Game_Development_Schedule_Review-May-14-2026.md]]
 - [[raw/Meeting_Notes_Game_Manifest_Definition-June-3-2026.md]]
 - [[raw/Meeting_Notes_White_Label_Experiment-June-3-2026.md]]
+- [[raw/Meeting_Notes_Nebraska_Performance_Game_Roadmap-June-5-2026.md]]
