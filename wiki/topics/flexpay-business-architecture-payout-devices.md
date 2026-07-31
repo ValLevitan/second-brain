@@ -3,7 +3,7 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS]
-source-count: 121
+source-count: 122
 open-commitments: 51
 open-questions: 6
 ---
@@ -916,6 +916,14 @@ A ~9-minute alignment ([[wiki/meetings/2026-05-29-transactional-hardware-rockchi
 
 §15.8: device/component/platform economics only; no named-person compensation.
 
+## Jun 5 2026 — the Flex-IQ deployment milestone: first 10 stations live by July 15, phased to ~50 by October
+
+On the [[wiki/meetings/2026-06-05-iq-deployment-jira-structuring.md|Jun-5 2:18pm ET IQ deployment schedule review]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/irina-shishko.md|Irina Shishko]]) Val set the concrete first-deployment goal for Flex-IQ — the next stage of the Flex-IQ product built out over the [[wiki/meetings/2026-05-25-transactional-products-review-flexiq.md|May-25]] / [[wiki/meetings/2026-05-26-flex-iq-mvp-cashier-player-flow-demo.md|May-26]] MVP demos. (The Jira-item structuring behind it is on [[wiki/topics/github-release-management-pipeline.md]], Jun-5.) [[raw/Meeting_Notes_IQ_Deployment_Jira_Structuring-June-05-2026.md]]
+
+- **The rollout target.** By **July 15**, put the **first 10 IQ stations** live with operators on location, with **CI/CD ready** so updates can be pushed and problems patched. If the first few weeks go well, add 20 more, then another 20 within 60 days — about **50 units running on location by roughly October**. Val called it a lot of first-time work and said the team will have to "burn the midnight candles," but there's no choice. [[raw/Meeting_Notes_IQ_Deployment_Jira_Structuring-June-05-2026.md]]
+- **Logistics Val flagged.** Components for 50 units must reach **Georgia**; [[wiki/people/genadi-peari.md|Genadi]] will make another trip there; [[wiki/people/felipe-miranda.md|Felipe]] must prep customers; [[wiki/people/laura.md|Laura]] and **INCOM** need to know about the 10-unit release. Coordination has to be tight. [[raw/Meeting_Notes_IQ_Deployment_Jira_Structuring-June-05-2026.md]]
+- **Testing folds into the release.** The separate test plans are retired — testing becomes the **CD part of the release** (the deployment-side application of the [[wiki/meetings/2026-06-01-e2e-testing-cicd-architecture.md|Jun-1 testing strategy]]). Team reconvenes Monday, June 8, 9am. §15.8: device/deployment/market economics only; no named-person compensation. [[raw/Meeting_Notes_IQ_Deployment_Jira_Structuring-June-05-2026.md]]
+
 ## Open commitments
 
 - [ ] [[wiki/people/juan-martinez.md|Juan Martinez]] — produce weekend **sample dashboard reports** in two phases (phase 1: Moo the Goose + Incom card-transaction data, no SMIB/Flexport; phase 2: with SMIB + port), using the real field structure with sample data, as the starting point for the dashboard "skeleton" — due ~May 24–25 2026 — [[raw/Meeting_Notes_Transactional_MVP_Strategy-May-22-2026.md]]
@@ -1105,3 +1113,4 @@ A ~9-minute alignment ([[wiki/meetings/2026-05-29-transactional-hardware-rockchi
 - [[raw/Meeting_Transcript_GSM_GPS_Modem_and_Event_Recorder-May-25-2026.md]]
 - [[raw/Meeting_Notes_FLEX_IQ_MVP_Cashier_Player_Flow_Demo-May-26-2026.md]]
 - [[raw/Meeting_Notes_Transactional_Hardware_Rockchip_Transition-May-29-2026.md]]
+- [[raw/Meeting_Notes_IQ_Deployment_Jira_Structuring-June-05-2026.md]]
