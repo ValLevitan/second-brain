@@ -3,7 +3,7 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS]
-source-count: 124
+source-count: 125
 open-commitments: 51
 open-questions: 6
 ---
@@ -940,6 +940,14 @@ On a ~30-minute (mostly Russian) call ([[wiki/meetings/2026-06-08-low-cost-stree
 
 - **The device-cost target and the recurring-fee model.** Target a whole device for **under $2,000 all-in** (~$1,200 machine + ~$800 bill acceptor). Pair the low price with a **recurring connection/subscription fee — about $3/day, or ~10% of revenue** for operators who prefer that — justified by constant software updates and "intelligence" (service data, statistical/accounting data). Val floated a sale price of **$5,000–6,000** but called those numbers rough guesses; the aim is to sell far more machines at a lower margin plus recurring fees. §15.8: device/program cost and fee economics only (the sub-$2,000 build target and $3/day fee are product economics); no named-person compensation. [[raw/Meeting_Notes_Low_Cost_Street_Machine_Design-June-8-2026.md]]
 
+## Jun 9 2026 — TX transactional product diagram: the Flex-IQ + FlexPort player flow for Texas
+
+On the [[wiki/meetings/2026-06-09-tx-transactional-product-diagram.md|Jun-9 TX transactional product diagram]] session (6:17 PM ET, ~1h42m; [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] presenting, with [[wiki/people/juan-martinez.md|Juan Martinez]] and [[wiki/people/val-levitan.md|Val]]) Andrei walked a swim-lane diagram of the whole **Texas transactional ecosystem** — **Flex IQ** at the location, every machine upgraded with a **FlexPort**, a cloud **host / "ticket server"** as the point of truth, and printers, recyclers and dispensers as the cash endpoints. [[raw/Meeting_Transcript_TX_Transactional_Product_Diagram-June-9-2026.md]]
+
+- **The redeem flow, simplified to mirror TITO.** Player cash-ins at the bill validator, plays, hits redeem; the FlexPort prints a **QR receipt** carrying the e-wallet reference (not the value). Andrei had proposed offering a "create-new vs update-existing wallet" choice, but Val and Juan **killed the choice** — it introduces hesitation and reconciliation risk. Instead: when a QR is scanned at the next machine, its value is **fully consumed and the QR is killed** (drained, invalid, cannot circulate), exactly like a TITO ticket; a fresh QR is printed on the next cash-out. FlexPort is **stateless** — the host holds the wallet record. **No partial cash-in.** At the counter the cashier scans the QR on the IQ, the host returns the balance, the cashier pays and presses **paid/void** (a single process). [[raw/Meeting_Transcript_TX_Transactional_Product_Diagram-June-9-2026.md]]
+- **The wiring problem — the biggest open obstacle.** FlexPort connects to IQ by **Ethernet**, so every location must be **wired up** (a large install expense on 20–100-machine rooms); who buys/installs the network cabling is unresolved, and Val called it "a swamp." Two mitigations floated: (a) a **wireless FlexPort↔IQ link** (works in gray markets like Texas/Nebraska, not in highly-regulated states); (b) Val's **pre-validated encrypted-QR "nozzle"** idea — a cheap RFID-paired nozzle (borrowed from how the "pyramid" printer works) that reads an **encrypted printed QR** only paired nozzles at that location can decrypt, with the printer re-routed through the port, removing the need to wire the room. [[raw/Meeting_Transcript_TX_Transactional_Product_Diagram-June-9-2026.md]]
+- **Target segment and revenue model.** The **low-hanging fruit is fully-manual game rooms with no dispenser/kiosk** (many exist); third-party dispensers (competitor "Vanilla Pace") won't open up. JVL's income is **hardware plus flat fees for optional reporting** (basic money-in/out reconciliation up to per-game slot performance) — **never a percentage of cash in/out** ("stay out of their business"). Val's blocker list before any pilot: **no host, IQ doesn't yet talk to ports, no reconciliation/accounting piece.** Andrei to write a short two-language brief; Val to take it to the engineers, cautioning Andrei not to pull Pavel into the encryption idea yet. §15.8: device/market/fee economics only; no named-person compensation. [[raw/Meeting_Transcript_TX_Transactional_Product_Diagram-June-9-2026.md]]
+
 ## Open commitments
 
 - [ ] [[wiki/people/juan-martinez.md|Juan Martinez]] — produce weekend **sample dashboard reports** in two phases (phase 1: Moo the Goose + Incom card-transaction data, no SMIB/Flexport; phase 2: with SMIB + port), using the real field structure with sample data, as the starting point for the dashboard "skeleton" — due ~May 24–25 2026 — [[raw/Meeting_Notes_Transactional_MVP_Strategy-May-22-2026.md]]
@@ -1132,3 +1140,4 @@ On a ~30-minute (mostly Russian) call ([[wiki/meetings/2026-06-08-low-cost-stree
 - [[raw/Meeting_Notes_IQ_Deployment_Jira_Structuring-June-05-2026.md]]
 - [[raw/Meeting_Notes_AMOT_Texas_Market_Scouting-June-5-2026.md]]
 - [[raw/Meeting_Notes_Low_Cost_Street_Machine_Design-June-8-2026.md]]
+- [[raw/Meeting_Transcript_TX_Transactional_Product_Diagram-June-9-2026.md]]
