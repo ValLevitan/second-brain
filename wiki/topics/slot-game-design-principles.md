@@ -3,7 +3,7 @@ type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
 aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus, $20 test, twenty dollar test, Twin Bison, Wolfpack, Clover Fortune, Liberty Spins, peek-to-be-in bonus, locking bison, Rodeo Spins, multi-progressive, Multi-Progressive initiative, three-level progressive]
-source-count: 57
+source-count: 58
 open-questions: 3
 ---
 
@@ -454,7 +454,18 @@ From the [[wiki/meetings/2026-05-14-game-development-schedule-review.md|May-14 g
 - **Keno rack-timing (Cool Cat Keno).** Michael's final tuning covers pacing, timing and **three adjustable speed settings** the player can set to preference. JVL's rack times run **slightly longer than competitors'**, which Michael is comfortable with — high wins aren't frequent and a player can **snap the meter by pressing play** — and he prefers rack timings closer to slot machines. [[raw/Meeting_Notes_Game_Development_Schedule_Review-May-14-2026.md]]
 - **Compliance-driven feature — Pick-to-Win universal interactive bonus (IP1063).** An interactive bonus that must be added to **each game** to qualify for the **media tax credit** — a product/compliance requirement shaping the design rather than a player-experience choice. [[raw/Meeting_Notes_Game_Development_Schedule_Review-May-14-2026.md]]
 
+## Progressive-bonus presentation principles (May 22 2026 — Inna bonus review)
+
+From the [[wiki/meetings/2026-05-22-inna-progressive-bonus-review.md|May-22 Inna progressive-bonus review]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/juan-martinez.md|Juan]], [[wiki/people/michael-gottlieb.md|Michael]], [[wiki/people/lena.md|Lena]], [[wiki/people/efim-podvoiski.md|Efim]]) of the Match-3 progressive bonus for the game "Inna" — SD production detail on [[wiki/projects/south-dakota-vlt-market.md]] (May-22); the durable cross-game presentation principles:
+
+- **Win-screen wording — "Winner", not the level name.** [[wiki/people/michael-gottlieb.md|Michael]] chose to show the word **"Winner"** on the win screen rather than repeating the progressive level (Grand / Major / Minor), because the level is already visible from the highlighted row — repeating it is redundant. [[raw/Meeting_Notes_Inna_Progressive_Bonus_Review-May-22-2026.md]]
+- **Right-justified progressive digits (industry standard).** [[wiki/people/val-levitan.md|Val]] preferred left-justified digits so the dollar signs would align; the team held that **right-justification is the industry standard** for comparing digit magnitudes across levels (so a Grand visually reads bigger than a Minor). [[wiki/people/juan-martinez.md|Juan]] confirmed JVL's own Jackpot Rush displays were historically right-justified. Val accepted the team's position. [[raw/Meeting_Notes_Inna_Progressive_Bonus_Review-May-22-2026.md]]
+- **Reserved digit space, no frame expansion.** Each level (Grand / Major / Minor) reserves horizontal space for **one extra digit**; frames do not expand and digits are centred within their boxes. It is not pixel-aligned across levels (digit sizes differ) but stays visually aligned within the reserved space. A Minor growing into multi-thousands was judged unrealistic. [[raw/Meeting_Notes_Inna_Progressive_Bonus_Review-May-22-2026.md]]
+- **Attract-mode trigger threshold (a durable operator pain point).** The demo/attract loop today only fires when a player inserts money or the machine has **zero credits** — but players routinely leave a few cents on the machine and walk away, so it stays on the last game and never enters the multi-game attract loop. [[wiki/people/juan-martinez.md|Juan]] called this a common operator complaint and a missed sales opportunity. Proposed fix ([[wiki/people/michael-gottlieb.md|Michael]]): enter attract if the credit balance is **below one minimum-bet credit**; [[wiki/people/efim-podvoiski.md|Efim]] recalled the legacy system used **time-delay logic** (longer delay with credits, shorter at zero). Juan/Efim to verify whether the setting exists in RIS. [[raw/Meeting_Notes_Inna_Progressive_Bonus_Review-May-22-2026.md]]
+
 ## Sources
+
+- [[raw/Meeting_Notes_Inna_Progressive_Bonus_Review-May-22-2026.md]]
 
 - [[raw/Meeting_Transcript_game_development_March-27-2026-2.md]]
 - [[raw/Meeting_Notes_game_development_March-27-2026.md]]

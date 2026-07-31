@@ -3,7 +3,7 @@ type: project
 title: South Dakota VLT market entry
 date: 2025-01-22
 aliases: [South Dakota, SD VLT, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950, V43, D27, SD cap, Bioliches, Gypsy Spirit, Crazy Colt, Queen of Luxor, Liberty Spin, Rodeo Spin, South Dakota vertical, MG Oil report, VLT2, Cool Cat, Black Hills Kino, Dragon Pace, Dakota Bison, Solar Keno, Keno Deluxe, IP459, IP1063]
-source-count: 28
+source-count: 29
 ---
 
 # South Dakota VLT market entry
@@ -172,12 +172,24 @@ The follow-on working session ([[wiki/meetings/2026-05-14-south-dakota-vertical-
 - **Pay-table / SAS ceiling concern.** Juan cited a past Novomatic experience where >20 games on a box overloaded the system sending pay-table IDs via SAS; [[wiki/people/efim-podvoiski.md|Efim]] thinks 20 games "may hit it easily" but isn't deep on it — the engineers who work directly on SAS limits must confirm. If a hard limit exists, choose **Jackpot Rush *or* Fiery Ice** as the third category for the first release and add the other later (or swap). [[raw/Meeting_Notes_South_Dakota_Vertical_Lineup-May-14-2026.md]]
 - **Dakota Bison rationale.** South Dakota's two lowest performers (Dutch Mill, Liberty Spins) are one-liners; Michael is wary of more one-liners for the state (contrast: Georgia loves a one-line product — Crazy Spins is a top performer there). Reusing Lions Riches art (extending Lena's Twin Bison work) is the efficient path. Michael: "The data is the data. Ignore the data at your own peril." [[raw/Meeting_Notes_South_Dakota_Vertical_Lineup-May-14-2026.md]]
 
+## May 22 2026 — Inna bonus art, the SD attract/demo mode, and the Keno max-win bug
+
+A ~18-minute game-development review ([[wiki/meetings/2026-05-22-inna-progressive-bonus-review.md|Inna Progressive Bonus Review]], 2:30pm ET; [[wiki/people/val-levitan.md|Val]], [[wiki/people/juan-martinez.md|Juan]], [[wiki/people/michael-gottlieb.md|Michael Gottlieb]], [[wiki/people/lena.md|Lena]], [[wiki/people/efim-podvoiski.md|Efim]]) of the **Match-3 progressive bonus** art for the game **"Inna"** ("Black Inna", an SD VLT title) plus SD attract-mode and Keno status. §15.8: game-art/product/market economics only, no named-person compensation. [[raw/Meeting_Notes_Inna_Progressive_Bonus_Review-May-22-2026.md]]
+
+- **Inna bonus screens in development.** [[wiki/people/lena.md|Lena]] demoed the basic bonus screens — table, meters, and report title done, resources ready to hand to programmers. Win choreography: after the player hits the third coin of a level, an effect shoots up from the third coin, the three coins highlight for a beat, then the screen transitions to a "Winner" message with a colour-coded particle effect (red for Grand, blue for Minor) before returning to the game. [[raw/Meeting_Notes_Inna_Progressive_Bonus_Review-May-22-2026.md]]
+- **South Dakota attract/demo mode finished.** [[wiki/people/lena.md|Lena]] completed the SD demo mode — an attraction sequence with game logos and full-screen demo videos per game; she asked **Ivan** to produce a review image with all games (not just Inna) so the team can review the full attraction flow. [[raw/Meeting_Notes_Inna_Progressive_Bonus_Review-May-22-2026.md]]
+- **Keno attract-video max-win bug (blocks the customer demo).** [[wiki/people/efim-podvoiski.md|Efim]] flagged that the Keno attract video shows a paytable win greater than 1000, which is not achievable — Michael confirmed this was the bug he'd called out the day before (a Max-bet × multiplier display issue showing a win above the actual maximum). Lena will re-record the SD attract demo video once the Keno bug is fixed; [[wiki/people/juan-martinez.md|Juan]] said the team can't demo to the customer this coming week — a one-week fix window, target ready the following week. [[raw/Meeting_Notes_Inna_Progressive_Bonus_Review-May-22-2026.md]]
+- **Cool Cat Keno + Black Hills timings.** [[wiki/people/michael-gottlieb.md|Michael]] is working with theme on the Inna bonus description/help-text verbiage and with [[wiki/people/anton-leshkevich.md|Anton]] on **Cool Cat Keno** draw-speed timings (getting closer), and stressed getting **Black Hills** and **Cool Cat Keno** in front of a player sooner. [[raw/Meeting_Notes_Inna_Progressive_Bonus_Review-May-22-2026.md]]
+
+The durable cross-game design principles from this review (Winner-screen wording, right-justified digit alignment, reserved digit space, attract-trigger threshold) are on [[wiki/topics/slot-game-design-principles.md]] (May 22 2026).
+
 ## Who
 
 - Driven by [[wiki/people/val-levitan.md|Val]] with [[wiki/people/juan-martinez.md|Juan]] (regulator/operator relationship, field side) and [[wiki/people/pavel.md|Pavel]] (Minsk software); [[wiki/people/irina-shishko.md|Irina]] on printer testing and GLI diffs, [[wiki/people/sebastian.md|Sebastian]] on field service, [[wiki/people/ivan.md|Ivan]] on GLI scheduling. **Lonnie** is the SD lottery-lab tester; **"Alani"** appears as the SD lottery (supplied the SAS adapter, requested the permit-number rename) — whether Alani is the lottery entity or a person there is unclear (see Owner Decisions). [[raw/sd_vlt_recap-jan-22-2025.md]] [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 
 ## Sources
 
+- [[raw/Meeting_Notes_Inna_Progressive_Bonus_Review-May-22-2026.md]]
 - [[raw/Meeting_Transcript_game_development_March-27-2026-1.md]]
 - [[raw/Meeting_Notes_game_development_March-27-2026.md]]
 - [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]

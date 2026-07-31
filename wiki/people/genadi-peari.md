@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena]
-source-count: 64
+source-count: 65
 ---
 
 # Genadi Peari
@@ -221,8 +221,13 @@ On the [[wiki/meetings/2026-04-20-genadi-schedule-review-alignment.md|Apr-20 sch
 
 On the [[wiki/meetings/2026-04-21-genadi-continue-planning.md|Apr-21 continuation]] (~1h 24m; with Val; transcript only) Genadi and Val sequenced the **Flex Slim (IP 1055)** schedule — HFM 529 design (to ~May 8) → tooling (pilot molds, ~1-month lead) → transition-to-production (prototypes, metal set, BOM story HFM 556), with IP 1055 wrapping ~end-June and a production run ~June 20. Genadi flagged he can't finish HFM 519 (complex plastic) by May 8 (needs ~a week more) and that a flash-mounted touchscreen sample must be ordered to the vandal standard (~14 days). He also raised the refreshed-cabinet line (IP 759 / "Flex S"), needing a market-requirements review with the product side ([[wiki/people/andrei-klimovich.md|Andrei Klimovich]]; Val also referenced [[wiki/people/juan-martinez.md|Juan Martinez]]), and discussed a planned Georgia trip to help the on-site person set up the warehouse/production layout. Full substance on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Apr-21). §15.8 clear. [[raw/Meeting_Transcript_genadi_continue_planning-April-21-2026.md]]
 
+## May 22 2026 — general alignment: task load and the May 26–30 Georgia trip
+
+On a short [[wiki/meetings/2026-05-22-genadi-general-alignment.md|May-22 general-alignment 1:1]] (~15m, 3:32pm ET; with Val) Genadi ran his current hardware task load and laid out his **Georgia trip: depart Tuesday May 26 morning (via Buffalo), arrive Tuesday afternoon, return Saturday May 30 morning** — booked to keep a full working day Friday May 29. He had a "whole list" of tasks from **Elizabeth and Filipp**: assemble the two Flex Cash Dispenser samples (one Dispenser, one Recycler), walk assembly steps through with the on-site team, review the **Maple** assembly/wiring, and study the **parts-finding / shop-organization gap** (Filipp flagged that Toronto's shop made parts easy to find but the Georgia team spends too long looking — Genadi wants to learn what Toronto did differently). He is finishing **INBC port numbers** so **Andrei (Andriy)** can test next week, still owes the **Slim** BOM + review harness, and booked a **Monday May 25 AM** session with [[wiki/people/mikhail-perelman.md|Misha]] to walk the **Prinzera** BOM and order 3 PCBs + components for the 10-unit build. The meeting ended when Val cut it short to send a Flex-POS release-schedule planning email (he'd noticed the schedule looked off when the Flex-POS release landed the same day). Device/sourcing substance on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (May-22). §15.8 clear (device/component/sourcing/logistics economics only). [[raw/Meeting_Notes_Genadi_General_Alignment-May-22-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Genadi_General_Alignment-May-22-2026.md]]
 - [[raw/Meeting_Transcript_genadi_schedule_review_alignment-April-20-2026.md]]
 - [[raw/Meeting_Notes_genadi_schedule_review_alignment-April-20-2026.md]]
 - [[raw/Meeting_Transcript_genadi_continue_planning-April-21-2026.md]]

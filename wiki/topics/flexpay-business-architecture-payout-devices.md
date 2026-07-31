@@ -3,7 +3,7 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS]
-source-count: 116
+source-count: 117
 open-commitments: 51
 open-questions: 6
 ---
@@ -854,6 +854,19 @@ A wide-ranging, notes-only strategic alignment ([[wiki/meetings/2026-05-22-trans
 - **US legal/cultural framework (Val's extended aside to Andrei).** The US is a **constitutional republic**, not a top-down federal-law system: federal and state law, many legislators, interest groups, and courts interpreting the constitution, so the regulatory "pendulum" swings widely over long stretches. "In the US, laws are recommendations" (Juan) — "as long as you pay your taxes" (Val). Two illustrations: Canadian gambling law was **unwritten until 1996** because the 1935 criminal code never defined screens or slot machines ("and we made a shitload of money"); and Seminole tribal gaming began in **1978** in tents and tiki huts with ~300 pull-tab machines — federally illegal but legal on tribal land (tribes are foreign governments inside the US) — growing to **$2.5B/year** by the time Juan left as VP of operations. The lesson for the skill-games loophole: it's clever, it generates state tax revenue (**Georgia takes $1 of every $5 service fee**), and operators will lobby, fund politicians and pay for new legislation if anyone threatens it. [[raw/Meeting_Notes_Transactional_MVP_Strategy-May-22-2026.md]]
 - **Next capability grooming + near-term sessions.** Val named **Tito Cloud Server** (capability #60, already ~5–6 requirements attached) as the next capability to groom, with **Remote Initial Setup** the "next big deal" after (currently "chaotic and spotty," needs major grooming for elegance). Juan committed to weekend **sample dashboard reports** in two phases (phase 1 = Moo the Goose + Incom card-transaction data only; phase 2 = with SMIB + port). Near-term calls set: Monday **May 25 8am** Minsk call on IQ-MVP completeness (Val + Pavel also invited), and Tuesday **May 26 10am** Payment Hub deep-dive (Andrei + Juan + Nathan) to work out which accounting data flows where. [[raw/Meeting_Notes_Transactional_MVP_Strategy-May-22-2026.md]]
 
+## May 22 2026 — Genadi general alignment: device task load, the Georgia trip, Slim monitor sourcing, and the Prinzera BOM
+
+A short notes-only 1:1 ([[wiki/meetings/2026-05-22-genadi-general-alignment.md|Genadi General Alignment]], ~15m, 3:32pm ET; [[wiki/people/val-levitan.md|Val]], [[wiki/people/genadi-peari.md|Genadi Peari]]; Russian, heavily garbled) running [[wiki/people/genadi-peari.md|Genadi]]'s current hardware items and his upcoming Georgia trip. Genadi's task load and trip itinerary are on [[wiki/people/genadi-peari.md]] (May-22); the device/sourcing substance: [[raw/Meeting_Notes_Genadi_General_Alignment-May-22-2026.md]]
+
+- **Flex Cash Dispenser samples — assemble one Dispenser, one Recycler.** JVL received **2 sample units**; per a prior plan (Val confirmed) one is assembled as a **Cash Dispenser** and the second as a **Recycler**. The 2nd Recycler unit had been sent on to China; one returned unit is the one to work with. On the Georgia trip Genadi will review, assemble, measure and correct the build, and walk the assembly steps through with the on-site team. [[raw/Meeting_Notes_Genadi_General_Alignment-May-22-2026.md]]
+- **Slim Station monitor sourcing — fighting a $90 quote down to ~$60–70.** Nobody else is driving Slim Station monitor sourcing; Genadi is. They found a source, but the price is too high — he is negotiating the Chinese vendor for a **kit (monitor + controller) at ~$60–70**, against the vendor's current **$90** quote, which he considers **$20–30 too expensive at the product level** and worth the time to fight. **Misha** ([[wiki/people/mikhail-perelman.md|Mikhail Perelman]]) is aware but not positioned to drive this sourcing himself. [[raw/Meeting_Notes_Genadi_General_Alignment-May-22-2026.md]]
+- **Molds now mid-June (was July).** Earlier guidance had been July; Genadi reported **Misha is now hearing mid-June** — effectively ~3 weeks out. [[raw/Meeting_Notes_Genadi_General_Alignment-May-22-2026.md]]
+- **Prinzera 10-unit build — parts short.** Not all parts are on hand to assemble **10 Prinzera units**; they need to order **3 PCBs** plus some additional components — ~1–2 hours of work with Misha to finalise the BOM and place the orders. Genadi has already prepared the BOM himself (Misha was to, but Genadi did it) and booked a **Monday May 25 AM** session to walk Misha through it and place the orders. [[raw/Meeting_Notes_Genadi_General_Alignment-May-22-2026.md]]
+- **Slim build — BOM + review harness still outstanding.** Genadi still owes the build-of-materials and review harness for the **Slim** product. He is also finishing **INBC port numbers** so **Andrei (Andriy)** can play/test next week (plastic parts work is in flight). [[raw/Meeting_Notes_Genadi_General_Alignment-May-22-2026.md]]
+- **Satellite Vegas warehouse (optional side trip).** Val suggested Genadi consider a side visit to the **Satellite Vegas** warehouse if time permits, but it is ~2 hours' drive each way and would consume a day; it mostly holds older **Maple and Altera** machines, which Val hopes end up shipping to **Texas**. [[raw/Meeting_Notes_Genadi_General_Alignment-May-22-2026.md]]
+
+§15.8: device/component/sourcing/logistics economics only; no named-person compensation.
+
 ## Open commitments
 
 - [ ] [[wiki/people/juan-martinez.md|Juan Martinez]] — produce weekend **sample dashboard reports** in two phases (phase 1: Moo the Goose + Incom card-transaction data, no SMIB/Flexport; phase 2: with SMIB + port), using the real field structure with sample data, as the starting point for the dashboard "skeleton" — due ~May 24–25 2026 — [[raw/Meeting_Notes_Transactional_MVP_Strategy-May-22-2026.md]]
@@ -1038,3 +1051,4 @@ A wide-ranging, notes-only strategic alignment ([[wiki/meetings/2026-05-22-trans
 - [[raw/Meeting_Notes_genadi_schedule_review_alignment-April-20-2026.md]]
 - [[raw/Meeting_Transcript_genadi_continue_planning-April-21-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP_Strategy-May-22-2026.md]]
+- [[raw/Meeting_Notes_Genadi_General_Alignment-May-22-2026.md]]
