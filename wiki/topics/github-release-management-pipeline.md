@@ -3,7 +3,7 @@ type: topic
 title: GitHub release management and the CI/CD release pipeline
 date: 2025-10-21
 aliases: [release management, release pipeline, CI/CD, GitHub Actions pipeline, release artifacts, ISO image release, release manager role, continuous delivery, flex os installer, manifest, release candidate, single source of truth, feature branch discipline, sprints vs kanban, Jira GitHub link, FlexPos IP 902, FP 519, IP 89 dashboard grooming, bulk archive automation, Jira resolutions cleanup, Flex-POS Transition to Production, alpha build release tracking]
-source-count: 50
+source-count: 51
 open-questions: 3
 ---
 
@@ -363,6 +363,16 @@ The [[wiki/meetings/2026-06-01-e2e-testing-cicd-architecture.md|Jun-1 2:30pm ET 
 
 **Open questions carried forward.** How does the integration repo detect what changed in other repos — watch for a new contract version, or read the other repos? (needs a document.) Which of the 12 repos are required for this platform release (roughly 10 of 12)? Is container-image vulnerability scanning at staging worth the paid tooling? [[raw/Meeting_Notes_E2E_Testing_CICD_Architecture-June-1-2026.md]]
 
+## Jun 3 2026 — defining "the manifest": a machine-generated data contract, and the terminology collision with the release manifest
+
+The [[wiki/meetings/2026-06-03-game-manifest-definition.md|Jun-3 ~10:28am ET Game Manifest Definition meeting]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]], [[wiki/people/irina-shishko.md|Irina Shishko]], [[wiki/people/andrey-bosik.md|Andrei Bosik]], [[wiki/people/pavel.md|Pavel Frolov]]) opened a multi-meeting effort to define **"manifest"** — chiefly a game-design artifact (its design side is on [[wiki/topics/slot-game-design-principles.md]], June-3), but it belongs on this page too because the word **collides with the platform release manifest** used in the testing strategy. [[raw/Meeting_Notes_Game_Manifest_Definition-June-3-2026.md]]
+
+- **The definition on the build side.** A manifest is a machine-maintained, human-readable file describing the structure of one game scene; it is a **data contract**, is **generated/maintained by code or AI**, and is **never hand-written** — the same "one repo, one data contract" and generated-contract principle the testing strategy already rests on. It is stored in the game's own repo, written down as a standard. [[raw/Meeting_Notes_Game_Manifest_Definition-June-3-2026.md]]
+- **Terminology risk (record it).** "Manifest" is now overloaded across JVL — the **game-scene manifest** here, the **platform release manifest** (a tested version-combination = a release, from the [[wiki/meetings/2026-06-01-e2e-testing-cicd-architecture.md|Jun-1 strategy]] and [[wiki/meetings/2026-05-29-ai-testing-and-build-architecture.md|May-29]]), and likely more. Always qualify the word; never use it bare. [[raw/Meeting_Notes_Game_Manifest_Definition-June-3-2026.md]]
+- **Testing ties to the contract.** Validate the built scene against the manifest **by acceptance criteria**, with **continuous parallel E2E** rather than end-of-line testing — consistent with the testing-strategy v13 model and the E2E-framework work. The open trap: an **external source of truth** is needed so the manifest tests aren't circular (don't export a scene and test it against the same scene). Also open — how **"Requirement," the JIRA "Story," and "DD vs GDD"** reconcile with the [[wiki/meetings/2026-06-02-jira-hierarchy-sandbox-structure.md|June-2 JIRA tree]] (Capability → Feature → Story). [[raw/Meeting_Notes_Game_Manifest_Definition-June-3-2026.md]]
+
+§15.8 clear — build/manifest tooling and testing-method only; no named-person compensation.
+
 ## Sources
 
 - [[raw/Meeting_Notes_NOVA_Galaxy_JIRA_Hierarchy_Planning-June-1-2026.md]]
@@ -415,3 +425,4 @@ The [[wiki/meetings/2026-06-01-e2e-testing-cicd-architecture.md|Jun-1 2:30pm ET 
 - [[raw/Meeting_Notes_Transactional_E2E_Testing_Framework-Part_2-May-22-2026.md]]
 - [[raw/Meeting_Notes_E2E_Testing_Framework_Evolution-May-25-2026.md]]
 - [[raw/Meeting_Notes_Testing_Framework_E2E-May-27-2026.md]]
+- [[raw/Meeting_Notes_Game_Manifest_Definition-June-3-2026.md]]

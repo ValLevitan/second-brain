@@ -3,7 +3,7 @@ type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
 aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus, $20 test, twenty dollar test, Twin Bison, Wolfpack, Clover Fortune, Liberty Spins, peek-to-be-in bonus, locking bison, Rodeo Spins, multi-progressive, Multi-Progressive initiative, three-level progressive]
-source-count: 59
+source-count: 61
 open-questions: 3
 ---
 
@@ -474,6 +474,31 @@ From the [[wiki/meetings/2026-05-29-game-development-solar-keno.md|May-29 Game D
 
 §15.8: game-design/product economics only; no named-person compensation.
 
+## Game manifest definition — how a game scene is described, and reversing design→engineering (June 3 2026)
+
+From the [[wiki/meetings/2026-06-03-game-manifest-definition.md|June-3 Game Manifest Definition meeting]] (~10:28 AM ET; [[wiki/people/val-levitan.md|Val]], [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]], [[wiki/people/irina-shishko.md|Irina Shishko]], [[wiki/people/andrey-bosik.md|Andrei Bosik]], [[wiki/people/pavel.md|Pavel Frolov]]), the opening session of a multi-meeting effort to demystify how a game is designed. The worked example is **Calle Ocho** (a Miami SW-8th-Street theme, transcribed phonetically). The manifest also has a build/release side — see [[wiki/topics/github-release-management-pipeline.md]] (June-3). [[raw/Meeting_Notes_Game_Manifest_Definition-June-3-2026.md]]
+
+- **The working definition.** A manifest is a machine-maintained, human-readable file describing the **structure of one game scene** — its objects, their types, the hierarchy, masks, matrix, and animation type. It is **structural, not visual**; it points only to functional resources; there is **one per scene** (with inheritance); it is a **data contract**; it is **never hand-written**; and it is **volatile** while the game is being born. [[raw/Meeting_Notes_Game_Manifest_Definition-June-3-2026.md]]
+- **Technical vs graphical manifest (Irina's split).** A **technical manifest** carries structure and placeholders, is runnable, can hold math, is "ugly," and is **nearly identical across games**; a **graphical manifest** carries the look — sizes and positions — and differs per game. Roughly **90% is a shared standard base**, the rest per-game. Whether it is one file or two was left open. [[raw/Meeting_Notes_Game_Manifest_Definition-June-3-2026.md]]
+- **Reverse the direction (Val's core ask).** Today the **programmer** declares the expected structure and it is checked at output (programmer → designer). Val wants this reversed so **design defines the structure up front** (design → engineering), which removes the waterfall and lets work run in parallel. The stated goal: a wide-format game in **~1 month instead of ~8**. [[raw/Meeting_Notes_Game_Manifest_Definition-June-3-2026.md]]
+- **The product chain the manifest maps onto.** **Capability → Requirement (with acceptance criteria) → Features → Design Document (DD)** — the **DD replaces the GDD**. The manifest is stored in the **game's own repo**, written down as a standard (not in Miranda, not ad hoc). [[raw/Meeting_Notes_Game_Manifest_Definition-June-3-2026.md]]
+- **Live AI experiment.** Given only the Calle Ocho transition-bonus folder (images + JSON), AI reconstructed the screen **~80%** — correct portrait 1080×1920, spine animation, localized Spanish toggle, win spinner, `BonusComplete` vs `BonusAwarded` chosen by win > 0, and the real fire-over-diamond resources. It missed only the spinner's exact position, which comes from a special Biratko component not in the folder — i.e. the deterministic bulk of a scene is already automatable; the value is capturing the undocumented remainder. [[raw/Meeting_Notes_Game_Manifest_Definition-June-3-2026.md]]
+- **The plan to prove it.** Take Calle Ocho's **code + GDD**, reverse-engineer back to the starting point, enumerate every unknown normally settled in design conversations, define them in the manifest, and "see where we get stuck." Next case: the same game "buffed," with a bison theme. Open threads carried forward: an **external source of truth** so the manifest tests aren't circular (don't export a scene and test it against itself); how the manifest captures the non-deterministic ~20% (bonuses, transitions, non-standard behaviour); and where a transition lives (inside the main scene or as its own object). [[raw/Meeting_Notes_Game_Manifest_Definition-June-3-2026.md]]
+
+§15.8: game-design/product economics only; no named-person compensation.
+
+## The white-label reusable game shell — extract the common UI, defer the math (June 3 2026)
+
+The afternoon follow-on the same day, the [[wiki/meetings/2026-06-03-white-label-experiment.md|White Label Experiment meeting]] (3:34 PM ET; [[wiki/people/val-levitan.md|Val]], [[wiki/people/irina-shishko.md|Irina Shishko]], [[wiki/people/pavel.md|Pavel Frolov]]), turns the morning's manifest thinking into a practical build. The AI-codegen mechanics of the experiment live on [[wiki/topics/ai-assisted-development.md]] (June-3); this is the design/production-architecture principle. **This is the start of the White Label Experiment thread — a June-25 review follows.** [[raw/Meeting_Notes_White_Label_Experiment-June-3-2026.md]]
+
+- **Extract the "known" elements into a reusable shell.** Val wants to pull the common, non-creative parts of JVL's games — buttons, dashboards, arrows, progressives — out of the existing code and turn them into a reusable starting shell for new games. His argument: designers spend time fussing over small details (button radius, a star, a screen) that don't move revenue, he has seen weaker-looking games at locations earn more, so these shared parts are already "good enough" and shouldn't be re-polished for every title. The dashboard, for example, takes only 10–12% at the bottom of a horizontal machine, with tiny margins. [[raw/Meeting_Notes_White_Label_Experiment-June-3-2026.md]]
+- **How it would work.** Extract the shared components, describe them, and build an **auto-populate command**: a product owner picks options (theme, number of lines, number of bonuses, transitions) and the shared shell drops straight into the code already built. [[raw/Meeting_Notes_White_Label_Experiment-June-3-2026.md]]
+- **Math and mechanics are deliberately out of scope for the first pass.** They live in a separate project and are being decrypted and ported to **Rust**. Pavel pushed back that the mechanic is bound to the math and may not be extractable yet; the group agreed to set math/mechanics aside and handle only the known UI components first. [[raw/Meeting_Notes_White_Label_Experiment-June-3-2026.md]]
+- **A "white-label" base, not a rigid template (Pavel's framing, which landed).** This is essentially a **white-label** code base — a shared environment copied for each new game. Val **rejected** calling it a "template/armada" because that implies a fixed design imposed on every game, which he doesn't want — only the shared shell is reused. Pavel's add-on ideas (checkbox re-skin with new resources; auto-convert vertical→horizontal) were deferred to a later stage. [[raw/Meeting_Notes_White_Label_Experiment-June-3-2026.md]]
+- **The experiment.** Evgeny Kharetski ("Zhenya") gets a time-boxed task: take Calle Ocho, reverse-engineer it, pull out the common components, strip the creative/theme, and produce a reusable white-label environment for a **vertical** machine, reporting back in plain language on what's achievable. Deadline **Monday June 8**, with a Val–Kharetski review around 10 AM. [[raw/Meeting_Notes_White_Label_Experiment-June-3-2026.md]]
+
+§15.8: game-design/product economics only; no named-person compensation.
+
 ## Sources
 
 - [[raw/Meeting_Notes_Inna_Progressive_Bonus_Review-May-22-2026.md]]
@@ -536,3 +561,5 @@ From the [[wiki/meetings/2026-05-29-game-development-solar-keno.md|May-29 Game D
 - [[raw/Meeting_Notes_Multi_Progressive_Initiative-April-27-2026.md]] — *derived notes:* summary of the Apr-27 "Call with Efim Podvoiski" (Multi-Progressives Initiative); underlying transcript garbled.
 - [[raw/Meeting_Notes_efim_progressives_discussion-April-27-2026.md]] — *derived notes:* companion summary of the same Apr-27 Efim progressives call.
 - [[raw/Meeting_Notes_Game_Development_Schedule_Review-May-14-2026.md]]
+- [[raw/Meeting_Notes_Game_Manifest_Definition-June-3-2026.md]]
+- [[raw/Meeting_Notes_White_Label_Experiment-June-3-2026.md]]
