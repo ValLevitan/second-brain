@@ -3,7 +3,7 @@ type: topic
 title: Graphics team Git workflow (PR discipline, CI tickets, deploy pipeline)
 date: 2025-03-12
 aliases: [designer git workflow, graphics PR discipline, pull request discipline, contact sheet action, assets deploy pipeline, fork from template, help desk CI tickets, performative pull request, pull request back to template, template per game type]
-source-count: 12
+source-count: 13
 ---
 
 # Graphics team Git workflow (PR discipline, CI tickets, deploy pipeline)
@@ -118,6 +118,15 @@ A short [[wiki/meetings/2026-06-01-lena-design-review-mcp-jira-workflow.md|Jun-1
 - **Who changes issue status.** Whoever an issue is assigned to moves it from Action Item → In Progress when they start; Lena, Julia and Anastasiya do the later status changes by hand. The exception is Michael — he **never changes statuses**, so Lena closes and updates issues on his behalf. [[raw/Meeting_Notes_Clayton_MCP_Jira_Workflow-June-1-2026.md]]
 - **Recording practice.** Major issues are discussed by Lena, Anastasiya, Julia and Dima. Calls with other members (Natalia, Arturo, Vitaliy) are occasional and **not recorded** — usually short clarifications, since stories are written to be clear enough on their own. §15.8 clear — workflow only; no named-person compensation. [[raw/Meeting_Notes_Clayton_MCP_Jira_Workflow-June-1-2026.md]]
 
+## Jun 10 2026 — the design team's new Jira hierarchy (Capability/Feature/Story), and staying on SVN for now
+
+On the [[wiki/meetings/2026-06-10-mcp-jira-design-workflow.md|Jun-10 ~2:01pm ET session]] ([[wiki/people/clayton-chancey.md|Clayton Chancey]] (Precipia, external), [[wiki/people/lena.md|Lena Zhukova]], [[wiki/people/val-levitan.md|Val]]) Val laid out where the design group's Jira model is heading, and Lena confirmed the design team's source-control status. The MCP/AI-tooling asks from the same call are on [[wiki/topics/ai-assisted-development.md]] (Jun-10). [[raw/Meeting_Notes_MCP_Jira_Design_Workflow-June-10-2026.md]]
+
+- **Capability → Feature → Story, with Capabilities linked to many Requirements.** Val is moving the design group to a **Capability, Feature, Story** hierarchy; a **capability is "done" when its set of features is delivered**, and a capability becomes a **layer of the Gantt chart**. Two Jira projects already exist — **Requirements (REQ)** and **Capabilities (CAP)** — while features and stories stay the same. Val drew the parallel to dev work: a **feature becomes a feature branch / deliverable artifact** in GitHub, and the design group is building the **same model** (a feature is a set of artifacts, with **ADRs and a data contract per repo**). [[raw/Meeting_Notes_MCP_Jira_Design_Workflow-June-10-2026.md]]
+- **"Feature" now collides in meaning — accepted as normal Agile complexity.** Everyone acknowledged **"feature"** now means three things (a dev branch vs a design deliverable vs a PM tracking unit) but consciously **left it unresolved**, accepting the overlap as normal Agile complexity. [[raw/Meeting_Notes_MCP_Jira_Design_Workflow-June-10-2026.md]]
+- **Design team stays on SVN for several more months.** Lena noted that even after the hierarchy change, the **design team keeps working in SVN (not GitHub)** for several more months. Changing the hierarchy is the **management foundation**, not immediate GitHub adoption. [[raw/Meeting_Notes_MCP_Jira_Design_Workflow-June-10-2026.md]]
+- **A tagging convention is still to be defined.** Val is to meet the game design team to define the tagging convention (**tag = "game design" + game name**) for capabilities/requirements before tags can be applied; a visual representation of requirements/capabilities (an Atlassian "spider web" / Big-Picture-style add-on view) was noted as currently missing. §15.8 clear — Jira/design-tooling workflow only; no named-person compensation. [[raw/Meeting_Notes_MCP_Jira_Design_Workflow-June-10-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Clayton_MCP_Jira_Workflow-June-1-2026.md]]
@@ -132,3 +141,4 @@ A short [[wiki/meetings/2026-06-01-lena-design-review-mcp-jira-workflow.md|Jun-1
 - [[raw/github_branch_structure-may-19-2025.md]]
 - [[raw/Omni_redistribution_feature_branches-june-3-2025.md]]
 - [[raw/application of GitHub for graphic design team.md]]
+- [[raw/Meeting_Notes_MCP_Jira_Design_Workflow-June-10-2026.md]]
