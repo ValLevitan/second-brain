@@ -12,7 +12,7 @@ source-count: 1
 
 Review of the material-requirements-planning (MRP) tool Nathan is building — it pulls from Microsoft Business Central through the BC API and produces a structured Excel workbook (a phased build: forecast/BOM/open-POs/lead-times first, posted purchase invoices + vendor ledger later). In a June-2 follow-up the plan pivoted to **build a dashboard first and defer the Excel export**. This starts the June MRP-tooling thread and continues the [[wiki/topics/business-central-erp-implementation.md|Business Central]] MRP/MCP work from May-11/May-21. §12: the June-1 meeting + the June-2 follow-up chat are one derived-notes family → one stub. §11 header date. §15.8: BC/MRP/tooling economics only, no named-person compensation.
 
-Durable substance lives on [[wiki/topics/business-central-erp-implementation.md]] (June-1 MRP workbook / dashboard pivot).
+Durable substance lives on [[wiki/topics/business-central-erp-implementation.md]] (June-1 MRP workbook / dashboard pivot). This meeting opens the MRP-tool thread → see [[wiki/topics/mrp-purchasing-tool.md]] for the dedicated tool page.
 
 ## Sources
 - [[raw/Meeting_Notes_MRP_Excel_Workbook_Refinement-June-1-2026.md]]
