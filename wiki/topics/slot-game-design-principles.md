@@ -3,7 +3,7 @@ type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
 aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus, $20 test, twenty dollar test, Twin Bison, Wolfpack, Clover Fortune, Liberty Spins, peek-to-be-in bonus, locking bison, Rodeo Spins, multi-progressive, Multi-Progressive initiative, three-level progressive]
-source-count: 65
+source-count: 66
 open-questions: 3
 ---
 
@@ -535,8 +535,17 @@ On the [[wiki/meetings/2026-06-22-nebraska-performance-and-promo-credits.md|June
 - **Game selection when games exceed slots.** Lena flagged that Irina and Pavel urgently need **requirements for the Georgia V3 game-selection setup** — how games appear on the home screen when there are more games than display slots — a UI/selection design problem tied to the game-rotation-via-modem idea (load many, enable fewer, rotate by popularity). [[raw/Meeting_Notes_Nebraska_Performance_and_Promo_Credits-June-22-2026.md]]
 - **No player loyalty to titles; Buffalo/bison the standout theme.** The team reiterated there is no loyalty to specific game titles in these markets; the buffalo/bison theme is the one recognizable standout, and wheels (popular) will only be built in the new framework. Val wants an elegant **new-game notification** when games rotate in. §15.8 clear — game-design method / promo-credit and machine economics only; no named-person compensation. [[raw/Meeting_Notes_Nebraska_Performance_and_Promo_Credits-June-22-2026.md]]
 
+## Felipe's V4 software design feedback — the new look, missing attraction videos, and the repetitive nudge (June 24 2026)
+
+On the [[wiki/meetings/2026-06-24-v4-games-design-feedback.md|June-24 5:12pm ET design-feedback session]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/felipe-miranda.md|Felipe Miranda]]) Val asked Felipe — as the field's voice — for his impressions of the **V4 software** (the Georgia software version), explicitly setting aside the known bugs. [[raw/Meeting_Notes_V4_Games_Design_Feedback-June-24-2026.md]]
+
+- **The new look lands.** Felipe found the game display and main-screen design "beautiful," and singled out the **Fiery Ice Link** progressive (good graphics, fun to play, reminiscent of Diamond Link). [[raw/Meeting_Notes_V4_Games_Design_Feedback-June-24-2026.md]]
+- **Missing attraction videos (Felipe considers this critical).** No bonus/win videos play on idle to draw players in. Felipe's rule: you have to get players to **sit down** before they can enjoy the games, so an idle attraction loop is essential. He had reported this a while ago and expected it in this release, but it was not included. (This restates the recurring attract-mode / bonus-reveal-video principle above — an idle tease that shows the game off without giving away the deeper bonus.) [[raw/Meeting_Notes_V4_Games_Design_Feedback-June-24-2026.md]]
+- **The nudge is repetitive across game types.** All 25- and 50-line games use the **same center-reel nudge**, which Felipe finds monotonous. He pointed to **Aristocrat** as the reference — their 3×3 games use a standard nudge while other formats use different mini-games (e.g. pick mechanics) — and noted the **coin option JVL built for Nebraska was not carried over into V4**. His suggestion: **vary the nudge across game types** so it doesn't feel identical everywhere. (Both items were previously reported to Juan.) §15.8 clear — game-design feedback only; no named-person compensation. [[raw/Meeting_Notes_V4_Games_Design_Feedback-June-24-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_V4_Games_Design_Feedback-June-24-2026.md]]
 - [[raw/Meeting_Notes_Inna_Progressive_Bonus_Review-May-22-2026.md]]
 - [[raw/Game_Development-May-29-2026.md]]
 - [[raw/Game_Development-June-16-2026.md]]

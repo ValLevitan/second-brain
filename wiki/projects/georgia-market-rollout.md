@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 86
+source-count: 89
 open-commitments: 15
 open-questions: 8
 ---
@@ -531,6 +531,27 @@ On a short [[wiki/meetings/2026-06-22-credit-approval-top-funding-platinum.md|Ju
 - **The system error.** Both companies showed **pre-approved at a 6-month term but with a $1 credit limit** — an error blocking the shipment. Felipe requested **$30K–$45K per company**. [[raw/Meeting_Notes_Credit_Approval_Top_Funding_Platinum-June-22-2026.md]]
 - **Val's decision.** Val approved a **$45,000 credit limit for each company** and accepted the **90-day, 3-installment terms**, unblocking the 3 Diamond Link machine sales. Val committed to message [[wiki/people/laura.md|Laura]] to raise the limits in the system this week (Laura owns the GA-COAM accounts-receivable back-office), and Felipe to arrange pickup/delivery of the 3 machines. §15.8: operator/customer credit terms, machine counts and AR economics only (a company credit limit, not any person's compensation); no named-person compensation recorded. [[raw/Meeting_Notes_Credit_Approval_Top_Funding_Platinum-June-22-2026.md]]
 
+## Jun 24 2026 — Felipe forecast review: 7 cabinets picked up, 21 by month-end, a 33-cabinet July forecast
+
+On the [[wiki/meetings/2026-06-24-forecast-review-felipe.md|Jun-24 5:01pm ET forecast review]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/felipe-miranda.md|Felipe Miranda]]) Felipe walked the June cabinet actuals and July pipeline for the Georgia rollout. [[raw/Meeting_Notes_Forecast_Review_Felipe-June-24-2026.md]]
+
+- **June actuals.** **7 cabinets picked up so far across 3 operators**, expecting **21 total by month end** if [[wiki/meetings/2026-06-22-credit-approval-top-funding-platinum.md|Top Funding and Platinum]] come through (the two buyer companies whose credit limits Val raised on Jun-22). [[raw/Meeting_Notes_Forecast_Review_Felipe-June-24-2026.md]]
+- **July forecast — 33 cabinets** (14 purchased, 19 on trial). **Trial terms** by product: **90 days for V43s**, **30–45 days for Bulldog** (pending confirmation the freezing issue is resolved), **30 days for Arc**. Felipe planned to have all trial cabinets ready the following week and to rent a truck to deliver where operators can't pick up. [[raw/Meeting_Notes_Forecast_Review_Felipe-June-24-2026.md]]
+- **Pipeline status.** **Bulldog** — Felipe chasing Brian, not confirmed but expected to close. **Albany** — quote sent, waiting on the operator's boss. **DGLK** and **East West** expected to order before month end. [[raw/Meeting_Notes_Forecast_Review_Felipe-June-24-2026.md]]
+- **Trial strategy — target the GMUA board.** Felipe secured trials from **Salim (Dixie Amusement**, a former GMUA president), **Kyle Shepard (Lucky Coin)**, and **Epic Amusements (Kenny Patel)**, plus **Fun Time**, to build influence with the operators' association. He mentioned JVL's upcoming transactional product to Salim, who was strongly interested. [[raw/Meeting_Notes_Forecast_Review_Felipe-June-24-2026.md]]
+- **Competitive landscape (durable market intel).** **Mark Martinez** (left Arc) is selling his own kiosk solution at **$10K**; **Fiery Pay (Afshad)** is selling equipment at **$600 plus service fees** and gaining traction through GMUA board relationships. Operators are frustrated with existing kiosk vendors (hardware/software blame games causing downtime); Salim said he is moving away from Tito but expects DSC to come back. §15.8 clear — cabinet-count forecasts, trial terms, and operator/competitor market economics only; no named-person compensation recorded. [[raw/Meeting_Notes_Forecast_Review_Felipe-June-24-2026.md]]
+
+## Jun 24 2026 — Felipe's V4 software impressions (the Georgia software version)
+
+On the [[wiki/meetings/2026-06-24-v4-games-design-feedback.md|Jun-24 5:12pm ET design-feedback session]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/felipe-miranda.md|Felipe Miranda]]) Val asked Felipe for his impressions of the **V4 software** — the Georgia software version — setting aside known bugs. Felipe liked the new look (game display + main-screen design) and praised the Fiery Ice Link progressive, but flagged two concerns previously reported to Juan: missing idle attraction videos and a repetitive center-reel nudge across the 25-/50-line games. The durable design substance is on [[wiki/topics/slot-game-design-principles.md]] (Jun-24). §15.8 clear — game-design feedback only; no named-person compensation. [[raw/Meeting_Notes_V4_Games_Design_Feedback-June-24-2026.md]]
+
+## Jun 24 2026 — operator invoice discount: 20% ($1,800) approved, data-exchange plan shelved
+
+On a later [[wiki/meetings/2026-06-24-felipe-operator-invoice-discount.md|Jun-24 9:42pm ET call]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/felipe-miranda.md|Felipe Miranda]]) a Georgia operator running **11 machines** had **~$9,072 in outstanding invoices for parts and service** and wanted a discount. [[raw/Meeting_Notes_Felipe_Operator_Invoice_Discount-June-24-2026.md]]
+
+- **Val's first proposal — a data-exchange agreement.** Structure the relief as **$350/machine/year for 3 years across 11 machines (~$11,550 total)**, which would more than offset the outstanding balance while locking the operator into supplying machine data. Felipe pushed back that the operator might read it as a bait-and-switch from an earlier meeting where Val had indicated willingness to reciprocate; Val disputed making any specific financial commitment and asked Felipe to find the recording to verify the exact wording. [[raw/Meeting_Notes_Felipe_Operator_Invoice_Discount-June-24-2026.md]]
+- **The resolution.** Val approved a **straight 20% discount on the ~$9,072 outstanding parts-and-service invoices, totaling $1,800**. Felipe is to present it to the operator and collect the remaining balance. The **data-exchange agreement was shelved** as a separate future opportunity, not tied to this discount. §15.8: operator accounts-receivable and invoice/discount economics only (customer AR terms, not any person's compensation); no named-person compensation recorded. [[raw/Meeting_Notes_Felipe_Operator_Invoice_Discount-June-24-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Felipe_credit_terms_sales_strategy-March-31-2026.md]]
@@ -619,3 +640,6 @@ On a short [[wiki/meetings/2026-06-22-credit-approval-top-funding-platinum.md|Ju
 - [[raw/Meeting_Notes_Nebraska_Performance_and_Promo_Credits-June-22-2026.md]]
 - [[raw/Meeting_Notes_ARC_Deal_Post_Meeting_Debrief-June-22-2026.md]]
 - [[raw/Meeting_Notes_Credit_Approval_Top_Funding_Platinum-June-22-2026.md]]
+- [[raw/Meeting_Notes_Forecast_Review_Felipe-June-24-2026.md]]
+- [[raw/Meeting_Notes_V4_Games_Design_Feedback-June-24-2026.md]]
+- [[raw/Meeting_Notes_Felipe_Operator_Invoice_Discount-June-24-2026.md]]
