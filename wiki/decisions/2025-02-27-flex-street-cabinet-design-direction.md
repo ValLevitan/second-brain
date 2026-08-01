@@ -3,7 +3,7 @@ type: decision
 title: Flex V42/C street-machine cabinet design direction
 date: 2025-02-27
 aliases: [Flex V42, Flex V42/C, carbon fiber panel, floating monitor, street machine cabinet, credit card reader requirement]
-source-count: 3
+source-count: 4
 status: active
 ---
 
@@ -36,8 +36,18 @@ A ~30-minute (mostly Russian) call ([[wiki/meetings/2026-06-08-low-cost-street-m
 - **Self-built bill-path "nose"/bezel with an integrated QR-code reader** — Val's main new idea, replacing the $35 plastic nose *and* the complex player-tracking port and its screen, with either a small info screen or lit tactile buttons. Genadi liked the QR-in-the-nose idea ("brilliant") but is cautious about fitting it into other makers' cabinets where the bill acceptor sometimes sits too low; he'll work it out and check. (Val's direction; Genadi to develop.) [[raw/Meeting_Notes_Low_Cost_Street_Machine_Design-June-8-2026.md]]
 - **Open items (not resolved):** whether to include a ticket printer; a compliance catch — cutting the non-volatile memory down to "records only" (dropping game-state storage) saves money but runs into **jurisdictional compliance**, flagged not resolved; whether modern projected-capacitive touchscreens hide the ITO grid line (decides if a bare touchscreen looks clean); and whether the integrated nose fits other makers' cabinets. Next step: Val meets **Piratka** (a nickname) and Pavel (likely [[wiki/people/pavel.md|Pavel Frolov]]) the next morning (June 9, 8:00) to get their read on feasibility. §15.8: device/program cost economics only (the sub-$2,000 build target is product economics); no named-person compensation. [[raw/Meeting_Notes_Low_Cost_Street_Machine_Design-June-8-2026.md]]
 
+## Jun 16 2026 — street cabinet design direction: functional requirements pass
+
+A ~40-minute call ([[wiki/meetings/2026-06-16-street-cabinet-design-direction.md|Street Cabinet Design Direction]], 4:53pm ET; [[wiki/people/val-levitan.md|Val]], [[wiki/people/genadi-peari.md|Genadi Peari]]) continued the June low-cost-street-machine thread with a **functional-requirements walkthrough** of the cabinet aimed at non-casino locations. Genadi pushed to keep functional requirements separate from design; Val agreed but described the machine functionally. The full design detail (plastic back-cavity debate, VIDEK-lip peripheral layout, local assembly, market context) is on [[wiki/topics/low-cost-street-machine.md]] (Jun-16); the cabinet-design decisions in brief: [[raw/Meeting_Notes_Street_Cabinet_Design_Direction-June-16-2026.md]]
+
+- **Vertical HD screen, 43–49 inches** (HD sufficient; exact size depends on cost); target **sell price $5,000**, **~1,000 units/month**. [[raw/Meeting_Notes_Street_Cabinet_Design_Direction-June-16-2026.md]]
+- **No player tracking or flag support**; **eliminate the dashboard panel** and move all peripherals under the VIDEK lip; **slide-out drawer** for all hardware (bill validator, printer, harness, SBC) on one metal-frame drawer with a single cable to the display. [[raw/Meeting_Notes_Street_Cabinet_Design_Direction-June-16-2026.md]]
+- **Perimeter + washing lights controllable by game designers via API**; **support for 2 displays** (vertical main + deck); **slam button on the right side** of the VIDEK panel; **single rear connection** to an external controller. [[raw/Meeting_Notes_Street_Cabinet_Design_Direction-June-16-2026.md]]
+- **A monolithic plastic back-cavity shell** was proposed (screen bonded to the front, not field-serviceable) as a cost play (~$100 vs ~$300 metal) but **remains unresolved** — Genadi is skeptical on mold cost (~$150K), heat behaviour, and total cost. **Local assembly only** — no Chinese semi-finished imports. §15.8: device/BOM/build-cost economics only; no named-person compensation. [[raw/Meeting_Notes_Street_Cabinet_Design_Direction-June-16-2026.md]]
+
 ## Sources
 
 - [[raw/Flex_V42_C_design_evolution_review_2025-02-27.md]]
 - [[raw/Flex-S-design-March-27-2025.md]]
 - [[raw/Meeting_Notes_Low_Cost_Street_Machine_Design-June-8-2026.md]]
+- [[raw/Meeting_Notes_Street_Cabinet_Design_Direction-June-16-2026.md]]

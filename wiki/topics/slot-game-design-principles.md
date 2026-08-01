@@ -3,7 +3,7 @@ type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
 aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus, $20 test, twenty dollar test, Twin Bison, Wolfpack, Clover Fortune, Liberty Spins, peek-to-be-in bonus, locking bison, Rodeo Spins, multi-progressive, Multi-Progressive initiative, three-level progressive]
-source-count: 63
+source-count: 64
 open-questions: 3
 ---
 
@@ -518,10 +518,19 @@ On the [[wiki/meetings/2026-06-10-game-dev-pipeline-and-street-machine.md|Jun-10
 - **Texas Lone Star accepted (continues the branding reversal).** Val is no longer opposed to a dedicated Texas-themed game — **Lone Star**, a **Golden Husk re-skin** that's mostly already built. Texas follows the Nebraska skill but on **its own timeline**, since Texas needs no regulatory approval and can carry software changes Nebraska can't. Juan to create a Texas Skill game concept for the vertical project. Val stressed he's giving no creative direction here. (Extends the [[#nebraska-game-roadmap-solar-keno-queen-of-luxor-and-the-texas-branding-reversal-june-5-2026|Jun-5]] Texas-branding reversal.) [[raw/Meeting_Notes_Game_Dev_Pipeline_and_Street_Machine-June-10-2026.md]]
 - **Every game keeps a "known good" concept version.** Even near-identical reworks pass through the concept phase so each game (especially with the liquid-glass conversions and variations) has a documented approved baseline — the design-side reason behind the [[wiki/topics/github-release-management-pipeline.md|everything-in-Jira]] rule set the same night. §15.8: game/market roadmap only; no named-person compensation. [[raw/Meeting_Notes_Game_Dev_Pipeline_and_Street_Machine-June-10-2026.md]]
 
+## Standardized game-design vocabulary for AI assembly (June 16 2026)
+
+On the [[wiki/meetings/2026-06-16-game-development-ai-assembly.md|June-16 4:02pm ET AI game-assembly session]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]], [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/irina-shishko.md|Irina Shishko]]) Val fixed the vocabulary the team must use going forward, so games can be **assembled by AI from structured designer input** rather than hand-coded per title. The afternoon follow-on to the [[wiki/meetings/2026-06-03-game-manifest-definition.md|June-3 manifest]] and [[wiki/meetings/2026-06-03-white-label-experiment.md|white-label]] work; the older word "manifest" is retired here. [[raw/Game_Development-June-16-2026.md]]
+
+- **The terminology (Val's standard).** **"Contract"** replaces "template" — it communicates the constraints designers must work within. **"Game mechanics"** = the combination of math and visual layout that defines a game. **"Capabilities"** replaces both "questionnaire" and "reskin" — designers express what they want through capabilities tied to requirements. **"Artifact"** = any final deliverable, code or graphic. **"Manifest"** is retired: data contracts and repos replace it. [[raw/Game_Development-June-16-2026.md]]
+- **Reskin becomes capability-driven assembly.** Instead of per-game custom programming, a designer describes a game through **capabilities**, and the game is assembled from **pre-built common components** — buttons, arrows, fonts, frames reused across games — with programmers writing genuinely new mechanics only when needed (extends the [[wiki/meetings/2026-06-03-white-label-experiment.md|June-3 white-label]] "pull out the parts that barely change" idea). [[raw/Game_Development-June-16-2026.md]]
+- **Prove it quietly on Calle Ocho first.** The validation plan is a confidential sandbox experiment — reverse-engineer the existing **Calle Ocho** game into capabilities and requirements, then try to reassemble it from those descriptions ("translate Russian to English, then English back to Russian, and see what survived"). Kept confidential from the wider team until validated. The AI-assembly and sandbox mechanics are on [[wiki/topics/ai-assisted-development.md]] (Jun-16); the one-repo/data-contract side on [[wiki/topics/github-release-management-pipeline.md]] (Jun-16). §15.8 clear — game-design method/build economics only; no named-person compensation. [[raw/Game_Development-June-16-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Inna_Progressive_Bonus_Review-May-22-2026.md]]
 - [[raw/Game_Development-May-29-2026.md]]
+- [[raw/Game_Development-June-16-2026.md]]
 
 - [[raw/Meeting_Transcript_game_development_March-27-2026-2.md]]
 - [[raw/Meeting_Notes_game_development_March-27-2026.md]]

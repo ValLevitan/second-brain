@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, Copilot Studio, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest, LaTeX, printer tool, Ollama, llama.cpp, local inference, Code Llama, Hugging Face, Claude Code, AI sandwich, developer experience, think like a data scientist, sub-agents, verbose output, compiler layer, ways vs skills, ADR, cross-examination, Python Vulture, intelligence center, Waze system, ways framework, compiler stack diagram, module federation, Aaron ways system, Ways ADR, Ways capabilities catalog, regulatory provenance chain, JVL Ways pipeline, ways branch architecture, trusted stage users, clean environment lesson, engagement auditor agent, translation service, terminology override table, GitHub Enterprise fork, JVL GitHub Ways architecture guide, Capability Ticket, Jira hierarchy restructure, engineering guides, architecture black hole, Piratka]
-source-count: 128
+source-count: 129
 ---
 
 # AI-assisted development adoption
@@ -710,6 +710,14 @@ The [[wiki/meetings/2026-06-10-mcp-jira-design-workflow.md|Jun-10 ~2:01pm ET ses
 
 An Apr-27 meeting titled **"Finance Automation Initiative"** ([[wiki/meetings/2026-04-27-finance-automation-initiative.md|stub]]; [[wiki/people/val-levitan.md|Val]] + external attendee Ian T. Myers) signals an emerging thread to automate JVL's finance/back-office work — the natural next step of the automate-recurring-tasks direction on [[wiki/topics/jvl-finance-back-office.md]]. The recording, however, **captured only pre-meeting small talk**, so nothing about the automation approach or any AI tooling was actually recorded; noted here as a pointer, not substance. [[raw/Meeting_Notes_finance_automation_initiative-April-27-2026.md]]
 
+## Jun 16 2026 — AI assembling games from components, and the Calle Ocho sandbox experiment
+
+On the [[wiki/meetings/2026-06-16-game-development-ai-assembly.md|June-16 4:02pm ET AI game-assembly session]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]], [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/irina-shishko.md|Irina Shishko]]) Val laid out whether **AI can assemble a whole game from structured designer input** — the afternoon follow-on to the [[wiki/meetings/2026-06-03-white-label-experiment.md|June-3 white-label experiment]] where Irina had already had Claude pull Calle Ocho's manifest. The standardized game-design vocabulary is on [[wiki/topics/slot-game-design-principles.md]] (Jun-16); the repo/data-contract side on [[wiki/topics/github-release-management-pipeline.md]] (Jun-16). [[raw/Game_Development-June-16-2026.md]]
+
+- **AI as a game "website constructor."** A designer describes a game through **capabilities**; the AI **assembles it from pre-built common components** governed by data contracts (like a website constructor), while programmers write genuinely new mechanics only when required. **Quality control validates artifacts before they merge to main** — a visual comparison of what the designer committed against what the capability described. [[raw/Game_Development-June-16-2026.md]]
+- **The Calle Ocho reverse-engineering experiment (the way to prove it).** Take the existing Calle Ocho game, **reverse-engineer it into capabilities and requirements, then attempt to reassemble it** from those descriptions — Val's "translate Russian to English, then English back to Russian, and see what survived" test of how much structure the round-trip preserves. Run quietly and kept **confidential** from the broader team until validated, so it doesn't cause alarm. [[raw/Game_Development-June-16-2026.md]]
+- **Roles and setup.** [[wiki/people/pavel.md|Pavel Frolov]] quarterbacks the sandbox setup; [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] runs the reverse-engineering experiment; [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] (via Ivan) sets up the sandbox Jira project with requirements and capabilities. Val also circulated a document from **Boris Cherny** on frontend/repo organization (sent overnight) for Evgeny to read as an alternative architecture reference. Next check-in June 25, 8:00 AM Toronto time. §15.8 clear — AI game-assembly method and tooling only; no named-person compensation. [[raw/Game_Development-June-16-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_E2E_Testing_CICD_Architecture-June-1-2026.md]]
@@ -840,3 +848,4 @@ An Apr-27 meeting titled **"Finance Automation Initiative"** ([[wiki/meetings/20
 - [[raw/Meeting_Notes_E2E_Testing_CICD_Contract_Analysis-June-5-2026.md]]
 - [[raw/Meeting_Notes_QA_CICD_ADR_Analysis-June-10-2026.md]]
 - [[raw/Meeting_Notes_MCP_Jira_Design_Workflow-June-10-2026.md]]
+- [[raw/Game_Development-June-16-2026.md]]

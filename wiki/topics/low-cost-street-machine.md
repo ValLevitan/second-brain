@@ -3,14 +3,14 @@ type: topic
 title: Low-cost street machine (sub-$2,000 street cabinet program)
 date: 2026-06-09
 aliases: [street machine, street cabinet, low-cost street machine, low-cost street cabinet, street slot machine, sub-$2000 street machine, RK3588 street machine, stripped street cabinet]
-source-count: 4
+source-count: 5
 ---
 
 # Low-cost street machine (sub-$2,000 street cabinet program)
 
 A durable, multi-meeting JVL hardware program (June 2026) to build a stripped-down, very cheap "street" slot machine — a self-contained single-screen cabinet — aimed at **price-sensitive markets like Texas where JVL's Flex cabinet is too expensive to sell** and where street prices have dropped a lot. The guiding rule Val set is: **strip the cabinet, do not cheapen the games** — the machine loses hardware, not picture quality. [[raw/Meeting_Notes_Low_Cost_Street_Cabinet_Platform-June-9-2026.md]] [[raw/Meeting_Notes_Low_Cost_Street_Machine_Design-June-8-2026.md]]
 
-The thread runs across the [[wiki/meetings/2026-06-08-low-cost-street-machine-design.md|June-8 design opener]] (cost levers + business model), a [[wiki/meetings/2026-06-09-low-cost-street-cabinet-platform.md|June-9 cabinet-platform feasibility read]] (the compute board), and a [[wiki/meetings/2026-06-09-street-machine-industrial-design.md|June-9 industrial-design walkthrough]] (the cabinet itself); a June-16 design-direction session follows. The cabinet aesthetic/design direction is also carried on [[wiki/decisions/2025-02-27-flex-street-cabinet-design-direction.md]], and the sell-cheap-plus-recurring-fee business model on [[wiki/topics/flexpay-business-architecture-payout-devices.md]].
+The thread runs across the [[wiki/meetings/2026-06-08-low-cost-street-machine-design.md|June-8 design opener]] (cost levers + business model), a [[wiki/meetings/2026-06-09-low-cost-street-cabinet-platform.md|June-9 cabinet-platform feasibility read]] (the compute board), and a [[wiki/meetings/2026-06-09-street-machine-industrial-design.md|June-9 industrial-design walkthrough]] (the cabinet itself); the [[wiki/meetings/2026-06-16-street-cabinet-design-direction.md|June-16 design-direction session]] adds the functional-requirements pass (plastic back cavity, VIDEK-lip peripherals, local assembly). The cabinet aesthetic/design direction is also carried on [[wiki/decisions/2025-02-27-flex-street-cabinet-design-direction.md]], and the sell-cheap-plus-recurring-fee business model on [[wiki/topics/flexpay-business-architecture-payout-devices.md]].
 
 ## The build target and economics
 
@@ -64,9 +64,23 @@ The passive **Flex** machine keeps being built in parallel; the street machine i
 
 *§15.8: device/BOM/build-cost economics only (the sub-$2,000 build target is product economics); no named-person compensation recorded.*
 
+## Jun 16 2026 — the low-cost street cabinet: functional requirements, plastic back cavity, and local assembly
+
+On the [[wiki/meetings/2026-06-16-street-cabinet-design-direction.md|June-16 4:53pm ET street-cabinet design-direction session]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/genadi-peari.md|Genadi Peari]]) Val walked Genadi through **functional requirements** for the new low-cost street cabinet aimed at **non-casino locations** (bars, convenience stores, route locations). Genadi pushed early to keep functional requirements separate from design decisions; Val agreed he was crossing into design territory but said his intent was to describe the machine functionally. [[raw/Meeting_Notes_Street_Cabinet_Design_Direction-June-16-2026.md]]
+
+- **Commercial target.** A **vertical single-screen** machine selling at **$5,000**, produced at **~1,000 units/month** (12,000/year). (Decision.) [[raw/Meeting_Notes_Street_Cabinet_Design_Direction-June-16-2026.md]]
+- **Physical concept — a plastic back-cavity shell (new proposal, unresolved).** Val proposed a **monolithic plastic back cavity (shell)** as the structural frame, with a **43–49 inch HD vertical touchscreen (Gorilla Glass) bonded to the front** — not field-serviceable, "like an iPhone." This shifts from the [[#the-cabinet--industrial-design|June-9 monolithic sheet-metal body]]; it was **not resolved**. Genadi's concerns: mold tooling ~**$150K** (needs 5,000+ units to break even), **ABS softens in heat** (would need carbon-fiber or nylon reinforcement, eliminating the savings), and it may cost more than metal. Val's counter: because the screen mounts monolithically and nothing disassembles, the plastic depth is only ~**4 inches** with ~2-inch ribs — not truly load-bearing — so ~**$100 vs the current ~$300** metal cabinet. Genadi remained unconvinced but said he'd think about it. [[raw/Meeting_Notes_Street_Cabinet_Design_Direction-June-16-2026.md]]
+- **Peripheral layout — kill the dashboard, everything under the VIDEK lip.** Eliminate the traditional dashboard panel between screen and the lower VIDEK area; **all peripherals (bill validator, printer, QR scanner) move underneath the VIDEK lip** — a shallow tray/shelf with slots for bill insertion and receipt output. Everything sits on a **slide-out metal-frame drawer** that pulls out the back for servicing, with a **single cable connection** to the display; speakers integrate into the front plastic panel below the VIDEK. Removing player tracking frees substantial space in the old dashboard area, which is what makes the bill validator fit under the lip. (Both agreed after Val clarified the lip/shelf concept.) [[raw/Meeting_Notes_Street_Cabinet_Design_Direction-June-16-2026.md]]
+- **Lighting — three zones on one API.** A perimeter light around the screen edge, a transition radius, and "washing" lights on the front panel — all controlled by **game designers through the API as a unified perimeter**. (Decision.) [[raw/Meeting_Notes_Street_Cabinet_Design_Direction-June-16-2026.md]]
+- **Other settled points.** **No player tracking or flag support** (never needed on the street model); **support for two displays** (vertical main + deck); a **slam button on the right side** of the VIDEK panel; a **single rear connection** to an external controller. [[raw/Meeting_Notes_Street_Cabinet_Design_Direction-June-16-2026.md]]
+- **Local assembly only — no Chinese semi-finished imports.** Assemble locally from **individual component suppliers** rather than importing Chinese semi-finished units, to (a) maintain credit terms from each supplier separately, (b) avoid shipping dependencies, and (c) potentially qualify for local tax benefits; assembly can distribute to **sub-shops (Georgia, Texas)**. (Val's reasoning, accepted by Genadi.) [[raw/Meeting_Notes_Street_Cabinet_Design_Direction-June-16-2026.md]]
+- **Market context.** Val was in **Omaha** (Texas the day before), visiting route locations in both states; **Texas alone has ~200,000 machines** in the grey/illegal market, where operators care about **cost and revenue share, not brand** — JVL needs a price point even Chinese competitors can't match. Val cited the **ECO cabinet** (designed for a 3–5 year life, still running after 25 years) as proof that simple construction lasts. [[raw/Meeting_Notes_Street_Cabinet_Design_Direction-June-16-2026.md]]
+- **Open items.** Plastic vs metal back cavity (needs a concrete cost comparison); bill-validator type and back-load vs front-load placement within the drawer; printer service access; exact screen size (43–49 inch range set, final pick depends on cost sourcing). Once the Transaction Management work wraps, the street cabinet becomes top priority. §15.8: device/BOM/build-cost economics only (the $5,000 sell target and mold/cabinet costs are product economics); no named-person compensation. [[raw/Meeting_Notes_Street_Cabinet_Design_Direction-June-16-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Low_Cost_Street_Machine_Design-June-8-2026.md]]
 - [[raw/Meeting_Notes_Low_Cost_Street_Cabinet_Platform-June-9-2026.md]]
 - [[raw/Meeting_Notes_Street_Machine_Industrial_Design-June-9-2026.md]]
 - [[raw/Meeting_Notes_Game_Dev_Pipeline_and_Street_Machine-June-10-2026.md]]
+- [[raw/Meeting_Notes_Street_Cabinet_Design_Direction-June-16-2026.md]]

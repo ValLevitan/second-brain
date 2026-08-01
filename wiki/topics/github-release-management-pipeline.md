@@ -3,7 +3,7 @@ type: topic
 title: GitHub release management and the CI/CD release pipeline
 date: 2025-10-21
 aliases: [release management, release pipeline, CI/CD, GitHub Actions pipeline, release artifacts, ISO image release, release manager role, continuous delivery, flex os installer, manifest, release candidate, single source of truth, feature branch discipline, sprints vs kanban, Jira GitHub link, FlexPos IP 902, FP 519, IP 89 dashboard grooming, bulk archive automation, Jira resolutions cleanup, Flex-POS Transition to Production, alpha build release tracking]
-source-count: 59
+source-count: 60
 open-questions: 3
 ---
 
@@ -460,6 +460,14 @@ On the [[wiki/meetings/2026-06-10-game-dev-pipeline-and-street-machine.md|Jun-10
 - **Everything passes through the concept phase — no skipping.** Even near-identical reworks go through concept, because the team needs a documented **"known good and approved" version of each game** — important with all the liquid-glass conversions and variations. (Michael proposed it; Efim and Val agreed.) [[raw/Meeting_Notes_Game_Dev_Pipeline_and_Street_Machine-June-10-2026.md]]
 - **Taxonomy still being tested — don't build a capability yet.** Val walked his target taxonomy out loud (capability → feature → deliverable, features as GitHub artifacts) but said he was "philosophizing," not directing. The team debated **GC vs GD** stage labels and **IP-per-game vs IP-per-market** (Lena prefers a separate IP per game because it matches how production works); whether to keep stages at all is unsettled. Val told Juan **not** to build a "liquid glass" capability yet — the capability-in-hierarchy idea is still being tested. Juan to reconcile IPs 1071 & 1072 into the agreed game-concept (GC) structure. §15.8 clear — Jira/pipeline process and tooling only; no named-person compensation. [[raw/Meeting_Notes_Game_Dev_Pipeline_and_Street_Machine-June-10-2026.md]]
 
+## Jun 16 2026 — one game = one repo, artifacts governed by data contracts (AI game-assembly)
+
+On the [[wiki/meetings/2026-06-16-game-development-ai-assembly.md|June-16 4:02pm ET AI game-assembly session]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]], [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/irina-shishko.md|Irina Shishko]]) the team set the **repo/data-contract architecture** for assembling games from designer capabilities — the build/release side of the same session whose game-design vocabulary is on [[wiki/topics/slot-game-design-principles.md]] (Jun-16) and whose AI-codegen mechanics are on [[wiki/topics/ai-assisted-development.md]] (Jun-16). This carries forward the [[wiki/meetings/2026-06-03-game-manifest-definition.md|June-3 manifest]] work — the word "manifest" is retired in favor of **data contracts + repos**. [[raw/Game_Development-June-16-2026.md]]
+
+- **Each game = one project = one repository.** A designer describes a game through capabilities; the repo is filled with **artifacts governed by data contracts**, with common resources (buttons, arrows, fonts, frames) reused across games. [[raw/Game_Development-June-16-2026.md]]
+- **Some code duplication across game repos is acceptable — over a shared monorepo.** Irina raised the concern that two games sharing a mechanic (e.g. Calle Ocho 1 and Calle Ocho 2) would duplicate code across repos; Evgeny explained the **game engine and mechanics layer stay separate from per-game graphics**, and the group agreed that limited duplication across per-game repos is **more transparent** than a shared-code monorepo with conditional theme loading. (Decided by the group.) [[raw/Game_Development-June-16-2026.md]]
+- **Quality control gates the merge.** Artifacts are validated **before they merge to main** — a visual comparison of what the designer committed against what the capability described. §15.8 clear — repo/data-contract architecture only; no named-person compensation. [[raw/Game_Development-June-16-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_NOVA_Galaxy_JIRA_Hierarchy_Planning-June-1-2026.md]]
@@ -521,3 +529,4 @@ On the [[wiki/meetings/2026-06-10-game-dev-pipeline-and-street-machine.md|Jun-10
 - [[raw/Meeting_Notes_Game_Dev_Pipeline_and_Street_Machine-June-10-2026.md]]
 - [[raw/Meeting_Notes_JIRA_Hierarchy_Product_Projects_and_Bugs-June-15-2026.md]]
 - [[raw/Meeting_Notes_JIRA_Hierarchy_Standard-June-16-2026.md]]
+- [[raw/Game_Development-June-16-2026.md]]
