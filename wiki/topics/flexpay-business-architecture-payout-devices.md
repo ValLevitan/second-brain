@@ -3,7 +3,7 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS]
-source-count: 129
+source-count: 130
 open-commitments: 51
 open-questions: 6
 ---
@@ -983,6 +983,13 @@ On the [[wiki/meetings/2026-06-23-texas-operators-reach-out.md|June-23 Texas ope
 - **Why it fits the Texas cash market — remove printers and bill acceptors.** In a market running **pyramid printers** that trigger a payout ticket on every cash-out, the Recycler lets operators **remove printers and bill acceptors from the machines** — killing paper, bill collection, and dispenser refills, for "remarkable" operational savings (Val set theft/shortage savings aside as extra). It also addresses the **fraud exposure of copyable printed tickets** (a photocopied ticket could be presented twice): with the Recycler, one ticket travels **machine to machine**, and the player redeems it back at the Recycler for the money originally inserted, so nothing is being refilled. [[raw/Transcript_Texas_Operators_Reach_Out-June-23-2026.md]]
 - **Val's history with the concept.** Val noted his former bill-acceptor company was **first to come out with the bill-recycler concept, shown in the early 2000s** when nobody else had it, and said the current product is well-manufactured — so he is familiar with the technology. Presentation of the transactional set to these operators is planned for ~September. §15.8 clear — payout-device and operator/market economics only; no named-person compensation. [[raw/Transcript_Texas_Operators_Reach_Out-June-23-2026.md]]
 
+## Jun 25 2026 — Flex-Recycler decomposed into per-repo services, and the emulator-vs-physical-device test gap
+
+On the [[wiki/meetings/2026-06-25-jira-hierarchy-flex-recycler-in-plans.md|June-25 11:06am ET JIRA-hierarchy session]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]], [[wiki/people/irina-shishko.md|Irina Shishko]], [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/andrey-bosik.md|Andrei Bosik]]) the Flex-Recycler program was placed into the new JIRA hierarchy, which exposed how the build itself decomposes. The hierarchy/CI-CD and integration-test-ownership debate is on [[wiki/topics/github-release-management-pipeline.md]] (Jun-25); the device/build breakdown is here. [[raw/Meeting_Transcript_Jira_Hierarchy_Flex_Recycler_in_Plans-June-25-2026.md]]
+
+- **Flex-Recycler = several services, one repo each, different owners.** To ship the Flex Recycler and "give it to people," JVL must build the **Flex Recycler terminal** plus supporting services — Irina named a **location service** (one or two variants) and a **packaged ticket/billing service** ("packaged billet service"), each living in its own repository and each with a different owner (Biratka, Dima Chudinov, and others; **Vladimir** on front-end). Because each repo knows nothing about the others, verifying that (for example) the terminal works with the location service is a cross-repo concern that lands in the shared integration repository. [[raw/Meeting_Transcript_Jira_Hierarchy_Flex_Recycler_in_Plans-June-25-2026.md]]
+- **The emulator-vs-physical-device gap (Irina's live concern).** Compatibility checks can run against **emulated/simulated** platforms "without problems," but the Flex Recycler installs as a **real physical device at the customer** — not an emulator — and Irina flagged that yesterday's missed **bug** ("we did the work poorly, didn't check") was only catchable on the actual machine. Pavel acknowledged he had "gone dark for a moment" on how to test the physical terminal, then noted he'd found a way to run the tests on an emulated platform; Val added that today AI-emulation testing works poorly against **C++ hardware code** (better on **Rust**), and that hardware **tolerances** must be treated as negative/marginal cases baked into acceptance criteria so emulation can catch them — all left as **open theory**, no decision. §15.8 clear — device/build/testing architecture only; no named-person compensation. [[raw/Meeting_Transcript_Jira_Hierarchy_Flex_Recycler_in_Plans-June-25-2026.md]]
+
 ## Open commitments
 
 - [ ] [[wiki/people/juan-martinez.md|Juan Martinez]] — produce weekend **sample dashboard reports** in two phases (phase 1: Moo the Goose + Incom card-transaction data, no SMIB/Flexport; phase 2: with SMIB + port), using the real field structure with sample data, as the starting point for the dashboard "skeleton" — due ~May 24–25 2026 — [[raw/Meeting_Notes_Transactional_MVP_Strategy-May-22-2026.md]]
@@ -1051,6 +1058,7 @@ On the [[wiki/meetings/2026-06-23-texas-operators-reach-out.md|June-23 Texas ope
 
 ## Sources
 
+- [[raw/Meeting_Transcript_Jira_Hierarchy_Flex_Recycler_in_Plans-June-25-2026.md]]
 - [[raw/Meeting_Notes_Flex_Slim_Device_Layout-May-1-2026.md]]
 - [[raw/Meeting_Transcript_flex_recycler_requirements_working_session-May-4-2026.md]]
 - [[raw/Meeting_Notes_Flex_Recycler_Requirements_Working_Session-May-4-2026.md]]

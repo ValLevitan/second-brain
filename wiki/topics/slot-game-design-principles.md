@@ -3,7 +3,7 @@ type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
 aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus, $20 test, twenty dollar test, Twin Bison, Wolfpack, Clover Fortune, Liberty Spins, peek-to-be-in bonus, locking bison, Rodeo Spins, multi-progressive, Multi-Progressive initiative, three-level progressive]
-source-count: 66
+source-count: 67
 open-questions: 3
 ---
 
@@ -543,6 +543,14 @@ On the [[wiki/meetings/2026-06-24-v4-games-design-feedback.md|June-24 5:12pm ET 
 - **Missing attraction videos (Felipe considers this critical).** No bonus/win videos play on idle to draw players in. Felipe's rule: you have to get players to **sit down** before they can enjoy the games, so an idle attraction loop is essential. He had reported this a while ago and expected it in this release, but it was not included. (This restates the recurring attract-mode / bonus-reveal-video principle above — an idle tease that shows the game off without giving away the deeper bonus.) [[raw/Meeting_Notes_V4_Games_Design_Feedback-June-24-2026.md]]
 - **The nudge is repetitive across game types.** All 25- and 50-line games use the **same center-reel nudge**, which Felipe finds monotonous. He pointed to **Aristocrat** as the reference — their 3×3 games use a standard nudge while other formats use different mini-games (e.g. pick mechanics) — and noted the **coin option JVL built for Nebraska was not carried over into V4**. His suggestion: **vary the nudge across game types** so it doesn't feel identical everywhere. (Both items were previously reported to Juan.) §15.8 clear — game-design feedback only; no named-person compensation. [[raw/Meeting_Notes_V4_Games_Design_Feedback-June-24-2026.md]]
 
+## White-label experiment reviewed — capabilities-to-requirements from a designer interview, module assembly, and graphics contract validation (June 25 2026)
+
+On the [[wiki/meetings/2026-06-25-white-label-experiment-review.md|June-25 2:37pm ET white-label review]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] "Zhenya", [[wiki/people/irina-shishko.md|Irina Shishko]], [[wiki/people/pavel.md|Pavel Frolov]]) Zhenya reviewed the [[wiki/meetings/2026-06-03-white-label-experiment.md|June-3 white-label experiment]] as a working two-stage new-game pipeline. The AI-tooling mechanics (Claude Code skills/hooks, token cost, "Artificial Michael") are on [[wiki/topics/ai-assisted-development.md]] (Jun-25); the template-repo/manifest side on [[wiki/topics/github-release-management-pipeline.md]] (Jun-25); this is the design/production-architecture principle. [[raw/Meeting_Notes_White_Label_Experiment_Review-June-25-2026.md]]
+
+- **A game designer's answers become Capabilities and Requirements automatically.** A fixed **10-question interview** (spin/bonus/symbol types, progressives, free spins) drives auto-generation of Capabilities and Requirements, each with **3+ testable acceptance criteria**; one demo interview produced **10 Capabilities and 36 Requirements**. This operationalizes the [[#standardized-game-design-vocabulary-for-ai-assembly-june-16-2026|Jun-16]] capability-driven-assembly vocabulary — the designer expresses intent through capabilities rather than hand-coding a title. [[raw/Meeting_Notes_White_Label_Experiment_Review-June-25-2026.md]]
+- **Assembly from a module catalog, with a graphics contract.** A game repo is assembled by verifying the needed modules exist in the catalog (each module declares which Requirements it implements) and dropping in **placeholder graphics generated to the manifest contract** — when designers later upload real art, **contract validation rejects anything that doesn't match the expected sizes or format**. This is the design-side enforcement of the [[wiki/meetings/2026-06-03-game-manifest-definition.md|manifest]] as a data contract: the deterministic shell assembles itself, and only genuinely-new mechanics (missing modules) become developer Features. [[raw/Meeting_Notes_White_Label_Experiment_Review-June-25-2026.md]]
+- **Tag by project/number, not game name; Omni-only scope.** Val ruled Capabilities are tagged by **project name/number** rather than game name (game = project = repository). **Features are created only when modules are missing or new graphics are needed** — a fully-covered game assembles with no dev Features. The approach fits **Omni/NOVA** (modular, one repo per game); **Rage is out of scope** (monolithic, nothing to assemble from). Team confirmed the proof of concept is close. §15.8 clear — game-design method / build economics only; no named-person compensation. [[raw/Meeting_Notes_White_Label_Experiment_Review-June-25-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_V4_Games_Design_Feedback-June-24-2026.md]]
@@ -612,3 +620,4 @@ On the [[wiki/meetings/2026-06-24-v4-games-design-feedback.md|June-24 5:12pm ET 
 - [[raw/Meeting_Notes_Nebraska_Performance_Game_Roadmap-June-5-2026.md]]
 - [[raw/Meeting_Notes_Nebraska_Performance_and_Promo_Credits-June-22-2026.md]]
 - [[raw/Meeting_Notes_Game_Dev_Pipeline_and_Street_Machine-June-10-2026.md]]
+- [[raw/Meeting_Notes_White_Label_Experiment_Review-June-25-2026.md]]
