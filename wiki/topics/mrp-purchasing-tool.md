@@ -3,8 +3,8 @@ type: topic
 title: MRP purchasing-planning tool (Nathan Carver's MSBC purchasing tool)
 date: 2026-06-10
 aliases: [MRP, purchasing tool, Nathan MRP, MSBC MRP, material requirements planning tool, purchasing dashboard]
-source-count: 3
-open-questions: 3
+source-count: 4
+open-questions: 5
 ---
 
 # MRP purchasing-planning tool (Nathan Carver's MSBC purchasing tool)
@@ -22,23 +22,41 @@ The **MRP tool** ("material requirements planning" / purchasing-planning tool) i
 
 - **Shortages and recommended POs** — for a planned quantity of an item, what is on hand, what is short, and how much to order. [[raw/Meeting_Notes_MRP_Dashboard_Demo-June-10-2026.md]]
 - **Multi-level BOM explosion** — it must drill every bill of material all the way down to the **purchasable items**, not stop at an intermediate sub-assembly that shows stock on hand. In the demo a 5-level sub-assembly came back too short because the tool treated "buttons and counters" as a finished part; the fix is to keep exploding down to purchasable parts (Nathan to set it up to ~20 levels deep, though nothing at JVL goes near that — ~5 max). [[raw/Meeting_Notes_MRP_Dashboard_Demo-June-10-2026.md]]
+- **Explode-or-not is driven by the MSBC purchase/assembly flag (June-12 resolution — not a bug).** The June-10 "it stopped exploding" behavior was traced to a Business Central flag: an item marked **"purchase"** is treated as one bought part and is **not** exploded; an item marked **"assembly"** is exploded into its sub-parts. So the flag works as intended. On June 12 Nathan's agent exploded the test component into ~120 purchasable parts grouped by category (cabinet, sheet metal, plastics, electronics, power, display, audio); Lev confirmed the data was correct. The one odd case — an assembly flagged as a purchase — was a historical part Misha explained: because electronics had long lead times, JVL bought the components early, shipped them to the vendor at **zero price**, and received the finished board back, so that bought-whole item still carries a BOM. The ~120 parts came back with **no vendors attached** — the same vendor/pricing gap from June 10, still open. [[raw/Meeting_Notes_MRP_Purchasing_Workflow_RFQ-June-12-2026.md]]
 - **Vendor pricing (program economics).** To recommend *who* to buy from and *at what cost*, the tool needs vendor names and unit prices in MSBC. In the demo, planning 10,000 units of a test item, it found the shortage but had no vendor or unit price. Vendors *are* loaded in MSBC; **pricing is missing** — roughly 800–1,000 items still need vendor prices. Some prices exist in the old **Navision** system and can be exported but need validating (nobody knows which are still current); the rest must be keyed by hand, and some items carry tiered pricing (samples, 100/300/500 units), so it is not one clean list. Once real POs are placed, their prices become history the tool can use to estimate future costs. [[raw/Meeting_Notes_MRP_Dashboard_Demo-June-10-2026.md]] [[raw/Meeting_Notes_MSBC_MRP_Report_Vendor_Pricing-June-10-2026.md]]
 - **Core report columns now, more later.** The demo showed only the core columns; even that already helps with inventory (a current pain point). More columns can be added on request cheaply; computed columns — payables and Misha's PO-status/comment fields — are deferred to a later phase. The bigger value comes when Nathan builds the BOM breakdown to the lowest level. [[raw/Meeting_Notes_MSBC_MRP_Report_Vendor_Pricing-June-10-2026.md]]
+
+## The purchasing workflow and RFQ handling (June 12 2026)
+
+On the June-12 follow-up Val laid out the full purchasing cycle he wants the tool to run, and the room agreed it is the right one: **Shortages → editorial review → RFQ → reply/negotiation → purchase order.** [[raw/Meeting_Notes_MRP_Purchasing_Workflow_RFQ-June-12-2026.md]]
+
+1. **Say how many machines/items to build**; the agent pulls the shortages (needed vs on-hand and on-order). [[raw/Meeting_Notes_MRP_Purchasing_Workflow_RFQ-June-12-2026.md]]
+2. **An editorial screen where Misha (Procurement) keeps the judgment calls** — change quantities, pick vendors, drop or add items. Val's point: Misha already does exactly this by hand (he calls his own draft PO an "RFQ"), so the steps are fixed and reproducible and can be automated, but the decisions stay with Misha, routed through the editorial screen rather than a separate manual process. [[raw/Meeting_Notes_MRP_Purchasing_Workflow_RFQ-June-12-2026.md]]
+3. **The agent sends an RFQ (Request for Quotation) to each vendor** rather than going straight to a purchase order. Across sub-assemblies it consolidates the same part, totals by vendor, and combines parts under a set dollar value into one order; each RFQ shows the last price, the new quantity, and a DDP line. [[raw/Meeting_Notes_MRP_Purchasing_Workflow_RFQ-June-12-2026.md]]
+4. **Vendor replies land in Outlook and the agent reads them and fills the editorial screen automatically.** Val demoed the auto-ingest live using his own travel email — the agent pulled flight and hotel confirmations from Outlook via the MS365 connection on its own — to show the same works for vendor quotes. [[raw/Meeting_Notes_MRP_Purchasing_Workflow_RFQ-June-12-2026.md]]
+5. **DDP (Delivered Duty Paid — freight + duty + taxes) is captured as a single line** added after the vendor quote, not modeled per part. [[raw/Meeting_Notes_MRP_Purchasing_Workflow_RFQ-June-12-2026.md]]
+6. **On approval the agent generates the purchase order**, which goes for approval and is emailed to the vendor. [[raw/Meeting_Notes_MRP_Purchasing_Workflow_RFQ-June-12-2026.md]]
+
+Misha pushed back that too much data is missing today and that quantity decisions involve judgment (minimum order quantity, price breaks at 15/20/100/300/500 pieces, parts shared across products, family molds, choosing among vendors); he stayed skeptical that full PO automation is feasible yet. Val agreed the judgment stays with Misha but goes through the editorial screen, and both agreed to build it step by step and test as they go. Val directed Nathan to **break the workflow into Jira features with estimates** before building, and — since JVL runs a **physical inventory count in Georgia the week of June 15** and shortages are only as good as the on-hand count — told Nathan **not to hold for the count; keep building in parallel.** [[raw/Meeting_Notes_MRP_Purchasing_Workflow_RFQ-June-12-2026.md]]
 
 ## Evolution (dated thread)
 
 - **June 1 2026 — MRP Excel workbook / dashboard pivot.** Review of the tool as a BC-API-fed Excel workbook (phased: forecast/BOM/open-POs/lead-times first, posted invoices + vendor ledger later); a June-2 follow-up pivoted the plan to **build the dashboard first and defer the Excel export**. See [[wiki/meetings/2026-06-01-mrp-excel-workbook-refinement.md]]. [[raw/Meeting_Notes_MRP_Excel_Workbook_Refinement-June-1-2026.md]]
 - **June 10 2026 (AM) — dashboard demo + vendor-pricing gap.** Nathan demoed the plain-language MSBC-connected dashboard; two gaps surfaced (missing vendor/price data; multi-level BOMs not fully exploding). Compromise on the Excel question: keep MSBC as the source of truth and add a cheap **export-only** Excel view for quick sorting/filtering/printing, with all actual changes going through the tool. See [[wiki/meetings/2026-06-10-mrp-dashboard-demo.md]]. [[raw/Meeting_Notes_MRP_Dashboard_Demo-June-10-2026.md]]
 - **June 10 2026 (PM) — getting the report usable for purchasing.** A follow-on (Val, Misha, Lev — Nathan not present) on getting the MRP report to the point Misha can run purchasing from it. Two things missing: vendor prices on many parts, and Misha's trust in the system. Agreed: **un-priced items get $0** (correct prices fill in organically as POs are issued, ~6-month target) rather than a guessed price; **Business Central becomes the single source of truth** with Misha moving his PO-status/comment tracking out of a parallel Excel sheet into BC; **Erica** to be onboarded on a spare BC seat for manual price entry. See [[wiki/meetings/2026-06-10-msbc-mrp-report-vendor-pricing.md]]. [[raw/Meeting_Notes_MSBC_MRP_Report_Vendor_Pricing-June-10-2026.md]]
-- **Still to come:** a June-12 purchasing-workflow / RFQ session and a June-25 create-PO agent demo continue this thread. (Noted from the June-10 meetings' scheduling; those meetings not yet ingested.) [[raw/Meeting_Notes_MRP_Dashboard_Demo-June-10-2026.md]]
+- **June 12 2026 — purchasing workflow + RFQ settled.** Friday follow-up (Val, Nathan, Lev, Misha): the June-10 "stopped exploding" behavior was traced to the MSBC purchase/assembly flag (working as designed, not a bug), and Val's full purchasing cycle — Shortages → editorial review → RFQ → reply/negotiation → PO, with vendor quotes auto-ingested from Outlook and a single DDP line — was agreed as the build target. Nathan to break it into Jira features and keep building through the Georgia physical-count week. See [[wiki/meetings/2026-06-12-mrp-purchasing-workflow-rfq.md]] and the section above. [[raw/Meeting_Notes_MRP_Purchasing_Workflow_RFQ-June-12-2026.md]]
+- **Still to come:** a June-25 create-PO agent demo continues this thread. (Noted from the June-10 meetings' scheduling; that meeting not yet ingested.) [[raw/Meeting_Notes_MRP_Dashboard_Demo-June-10-2026.md]]
 
 ## Open questions
 
 - Can MSBC hold a live vendor price list, or will prices come from purchase-order history? Nathan was unsure and noted a stored list would go stale. [[raw/Meeting_Notes_MRP_Dashboard_Demo-June-10-2026.md]]
 - How Misha's per-part status tracking (PO issued, PO signed or not, shipped or not) gets represented in BC — shipping status in particular is not entered today. [[raw/Meeting_Notes_MSBC_MRP_Report_Vendor_Pricing-June-10-2026.md]]
 - Whether BC will genuinely beat what Misha can do in Excel — his stated real question; he stayed skeptical (never used BC hands-on) but agreed to try. [[raw/Meeting_Notes_MSBC_MRP_Report_Vendor_Pricing-June-10-2026.md]]
+- What dollar threshold counts as a "low-value" part to combine into a single order? Agreed in principle on June 12, not specified. [[raw/Meeting_Notes_MRP_Purchasing_Workflow_RFQ-June-12-2026.md]]
+- How much of Misha's quantity judgment (minimum order quantity, price breaks, shared parts, family molds, vendor choice) gets encoded as rules versus left to the editorial screen? Agreed in principle; specifics open. [[raw/Meeting_Notes_MRP_Purchasing_Workflow_RFQ-June-12-2026.md]]
 
 ## Sources
 - [[raw/Meeting_Notes_MRP_Excel_Workbook_Refinement-June-1-2026.md]]
 - [[raw/Meeting_Notes_MRP_Dashboard_Demo-June-10-2026.md]]
 - [[raw/Meeting_Notes_MSBC_MRP_Report_Vendor_Pricing-June-10-2026.md]]
+- [[raw/Meeting_Notes_MRP_Purchasing_Workflow_RFQ-June-12-2026.md]]
