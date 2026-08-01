@@ -3,7 +3,7 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS]
-source-count: 128
+source-count: 129
 open-commitments: 51
 open-questions: 6
 ---
@@ -975,6 +975,14 @@ On the [[wiki/meetings/2026-06-22-ntn-operator-introduction.md|Jun-22 NTN introd
 - **3. Recycler kiosk (Flex Recycler) + free SMIB boards.** A **single kiosk per location** replaces the bill acceptors and dispensers in every machine: the player inserts cash, gets a **QR code**, scans it at any machine to play, and cashes out at the kiosk from the same bills it already collected — eliminating bill jams, paper, cash-collection crews, and kiosk refills. Val also offered **free SMIB boards** for per-machine reporting, claiming it would undercut what operators currently pay for that data. Operators called it "a good idea" and "interesting." (This is the Flex Recycler cash-recycling concept applied to a Nebraska street operator.) [[raw/Meeting_Notes_NTN_Operator_Introduction-June-22-2026.md]]
 - **Val's credibility framing.** Val cited founding **CashCode** (sold to **Crane** in 2006, which later acquired MEI/Mars Electronics) and sitting on the **Gaming Standards Association board 2000–2006** developing peripheral-device standards. Val set a follow-up for July 6; the operators agreed to consider the concepts, no commitment. §15.8 clear — payout-device and operator/market economics only; no named-person compensation. [[raw/Meeting_Notes_NTN_Operator_Introduction-June-22-2026.md]]
 
+## Jun 23 2026 — the Recycler pitched to Texas operators: a standalone mini-ATM that removes printers and bill acceptors
+
+On the [[wiki/meetings/2026-06-23-texas-operators-reach-out.md|June-23 Texas operators reach-out call]] ([[wiki/people/val-levitan.md|Val Levitan]] + Texas operator prospects Jordan and Joe) Val pitched the **Recycler** as the centerpiece of the September transactional set. The operator/market side of this call is on [[wiki/projects/texas-used-machine-distribution.md]] (Jun-23); the device economics are here. [[raw/Transcript_Texas_Operators_Reach_Out-June-23-2026.md]]
+
+- **Standalone, not in-machine.** Jordan asked whether the Recycler is the device where a player inserts money into the bill acceptor and can be paid out from the same machine on a win. Val confirmed the mechanic but said JVL keeps it a **standalone device, not built into the machine** — building it in raises machine cost sharply and the Recycler is too large for many cabinets. As a standalone it can be **treated as a mini-ATM**. [[raw/Transcript_Texas_Operators_Reach_Out-June-23-2026.md]]
+- **Why it fits the Texas cash market — remove printers and bill acceptors.** In a market running **pyramid printers** that trigger a payout ticket on every cash-out, the Recycler lets operators **remove printers and bill acceptors from the machines** — killing paper, bill collection, and dispenser refills, for "remarkable" operational savings (Val set theft/shortage savings aside as extra). It also addresses the **fraud exposure of copyable printed tickets** (a photocopied ticket could be presented twice): with the Recycler, one ticket travels **machine to machine**, and the player redeems it back at the Recycler for the money originally inserted, so nothing is being refilled. [[raw/Transcript_Texas_Operators_Reach_Out-June-23-2026.md]]
+- **Val's history with the concept.** Val noted his former bill-acceptor company was **first to come out with the bill-recycler concept, shown in the early 2000s** when nobody else had it, and said the current product is well-manufactured — so he is familiar with the technology. Presentation of the transactional set to these operators is planned for ~September. §15.8 clear — payout-device and operator/market economics only; no named-person compensation. [[raw/Transcript_Texas_Operators_Reach_Out-June-23-2026.md]]
+
 ## Open commitments
 
 - [ ] [[wiki/people/juan-martinez.md|Juan Martinez]] — produce weekend **sample dashboard reports** in two phases (phase 1: Moo the Goose + Incom card-transaction data, no SMIB/Flexport; phase 2: with SMIB + port), using the real field structure with sample data, as the starting point for the dashboard "skeleton" — due ~May 24–25 2026 — [[raw/Meeting_Notes_Transactional_MVP_Strategy-May-22-2026.md]]
@@ -1171,3 +1179,4 @@ On the [[wiki/meetings/2026-06-22-ntn-operator-introduction.md|Jun-22 NTN introd
 - [[raw/Meeting_Notes_Passport_Scan_dsKey_Malfunction-June-11-2026.md]]
 - [[raw/Meeting_Transcript_Port_IQ_Pairing_for_Texas_Market-June-12-2026.md]]
 - [[raw/Meeting_Notes_NTN_Operator_Introduction-June-22-2026.md]]
+- [[raw/Transcript_Texas_Operators_Reach_Out-June-23-2026.md]]
