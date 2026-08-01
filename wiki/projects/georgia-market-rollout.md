@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 85
+source-count: 86
 open-commitments: 15
 open-questions: 8
 ---
@@ -523,6 +523,14 @@ On the [[wiki/meetings/2026-06-22-arc-deal-post-meeting-debrief.md|Jun-22 5:15pm
 - **Data-collection / Georgia-lottery concern resolved.** ARC's only concern was whether the **Georgia lottery** would permit machine data collection to an external system. **Juan confirmed** every kiosk currently connected in Georgia already collects data and the lottery has not objected. No modems are available for the trial V43s, but ARC is fine with **QR-code scanning for reporting** and offered full access to its own system reports; George at ARC offered to accompany Felipe to locations personally. [[raw/Meeting_Notes_ARC_Deal_Post_Meeting_Debrief-June-22-2026.md]]
 - **Priority ordering: the broad V43 rollout beats ARC.** Val was explicit that installing **10 V43s across at least 8 operators by the first week of July** is a higher priority than the ARC deal ("no comparison" on scale); several operators have already committed (some brought their own locks), and with ARC's 5 trial units the total could reach **13–15 machines**. Val also directed Felipe to **install the new V43 software in the shop and personally test it for a couple of days** before any field deployment; **Eclipse approval is expected next week**. Juan noted that by the time ARC's 30-day trial ends, the new games (**Twin Bison, new Lions Ridge**) will be ready in August and ARC will get those updates free. §15.8 clear — operator/deal/machine economics only; no named-person compensation recorded. [[raw/Meeting_Notes_ARC_Deal_Post_Meeting_Debrief-June-22-2026.md]]
 
+## Jun 22 2026 — credit approval for Top Funding & Platinum ($45K each, 90-day terms, Diamond Link machines)
+
+On a short [[wiki/meetings/2026-06-22-credit-approval-top-funding-platinum.md|Jun-22 5:33pm ET call]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/felipe-miranda.md|Felipe Miranda]]) Felipe surfaced a blocked machine sale that needed a credit decision. [[raw/Meeting_Notes_Credit_Approval_Top_Funding_Platinum-June-22-2026.md]]
+
+- **The buyers and the order.** **Devin** — an operator-side account manager — runs the accounts for two buyer companies, **Top Funding LLC** and **Platinum LLC**, that need **Diamond Link** machines to ship this week: **2 for Top Funding, 1 for Platinum**. The buyers requested **90-day payment terms** (3 installments). ("Diamond Link" here is the machine/game product being sold — not the Georgia operator [[wiki/organizations/diamond-amusement.md|Diamond Amusement]].) Devin, Top Funding LLC and Platinum LLC are recorded in prose and **queued as candidate entities** (single-meeting mentions — no org/person pages forced). [[raw/Meeting_Notes_Credit_Approval_Top_Funding_Platinum-June-22-2026.md]]
+- **The system error.** Both companies showed **pre-approved at a 6-month term but with a $1 credit limit** — an error blocking the shipment. Felipe requested **$30K–$45K per company**. [[raw/Meeting_Notes_Credit_Approval_Top_Funding_Platinum-June-22-2026.md]]
+- **Val's decision.** Val approved a **$45,000 credit limit for each company** and accepted the **90-day, 3-installment terms**, unblocking the 3 Diamond Link machine sales. Val committed to message [[wiki/people/laura.md|Laura]] to raise the limits in the system this week (Laura owns the GA-COAM accounts-receivable back-office), and Felipe to arrange pickup/delivery of the 3 machines. §15.8: operator/customer credit terms, machine counts and AR economics only (a company credit limit, not any person's compensation); no named-person compensation recorded. [[raw/Meeting_Notes_Credit_Approval_Top_Funding_Platinum-June-22-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Felipe_credit_terms_sales_strategy-March-31-2026.md]]
@@ -610,3 +618,4 @@ On the [[wiki/meetings/2026-06-22-arc-deal-post-meeting-debrief.md|Jun-22 5:15pm
 - [[raw/Meeting_Notes_Passport_Scan_dsKey_Malfunction-June-11-2026.md]]
 - [[raw/Meeting_Notes_Nebraska_Performance_and_Promo_Credits-June-22-2026.md]]
 - [[raw/Meeting_Notes_ARC_Deal_Post_Meeting_Debrief-June-22-2026.md]]
+- [[raw/Meeting_Notes_Credit_Approval_Top_Funding_Platinum-June-22-2026.md]]
