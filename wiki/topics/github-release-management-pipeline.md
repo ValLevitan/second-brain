@@ -3,7 +3,7 @@ type: topic
 title: GitHub release management and the CI/CD release pipeline
 date: 2025-10-21
 aliases: [release management, release pipeline, CI/CD, GitHub Actions pipeline, release artifacts, ISO image release, release manager role, continuous delivery, flex os installer, manifest, release candidate, single source of truth, feature branch discipline, sprints vs kanban, Jira GitHub link, FlexPos IP 902, FP 519, IP 89 dashboard grooming, bulk archive automation, Jira resolutions cleanup, Flex-POS Transition to Production, alpha build release tracking]
-source-count: 66
+source-count: 68
 open-questions: 8
 ---
 
@@ -538,8 +538,24 @@ On the [[wiki/meetings/2026-06-25-jira-hierarchy-flex-recycler-in-plans.md|June-
 - **Val's counter-position.** Val repeatedly questioned whether a distinct "N-to-N test" concept even exists — he doesn't want to abstract test *names*, only "works / doesn't work, can integrate / can't." He argued the developers who own the repos (naming **Biratka**, **Dima Chudinov**, **Kharetski**, **Vladimir** on front-end) plus **Pavel/Dmitri/Andrei** already decide how the system assembles, so the integration/"receiving" action in the integration repo can only be written by **the architect who understands the whole system**; given hard **data contracts** at every repo, if the assembly described in those input actions fails, *that failure is itself the integration test* — not a separate QA role. He resisted assigning it to a less-knowledgeable person (invoking "Aaron always opposed a standalone QA and especially opposed putting it in Jira plans"), and wants **Claude to eventually own the checking**. [[raw/Meeting_Transcript_Jira_Hierarchy_Flex_Recycler_in_Plans-June-25-2026.md]]
 - **Where it converged, and where it didn't.** Pavel reframed it as staged: **stage 1** a human writes the integration checks, **stage 2** they write prompts, **stage 3** AI writes them — and stressed they were discussing *compatibility verification*, not the build (builds already exist via per-repo Actions). Both sides agreed a **task is still needed to represent the work of writing the integration actions/checks**. Left **unresolved**: whether that constitutes a separate N-to-N test type, the emulator-vs-physical-device gap (Irina: the emulator is not the physical terminal), and whether C++ hardware systems can even be AI-emulation-tested (Val: Rust yes, C++ poorly; Pavel disputed). Val asked each of the four to re-run the transcript through their own AI arguing his side, and to reconvene Mon/Tue. §15.8 clear — JIRA-hierarchy / integration-testing process only; no named-person compensation. [[raw/Meeting_Transcript_Jira_Hierarchy_Flex_Recycler_in_Plans-June-25-2026.md]]
 
+## Jun 26 2026 — the abstract is a versioned artifact in Confluence (→GitHub), not content buried in a closed JIRA task
+
+On the [[wiki/meetings/2026-06-26-game-development.md|Jun-26 1:00pm ET game-development session]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/michael-gottlieb.md|Michael Gottlieb]], [[wiki/people/juan-martinez.md|Juan Martinez]], [[wiki/people/lena.md|Lena Zhukova]]) Val restated the artifact-repository discipline after discovering Michael had been writing game **abstracts directly inside JIRA tasks**. [[raw/Meeting_Transcript_Game_Development-June-26-2026.md]]
+
+- **JIRA is a task-tracking application only.** A task's "physics" is to **track time** (schedule, days needed); an abstract, math or game-mechanics document is a **deliverable artifact** that must live in a **version-controlled repository**, with the JIRA task holding only a **link** to it. If the content is written into the task, it **disappears when the task closes** — a closed task is archived and offers no easy reference, so "the whole pyramid falls apart." [[raw/Meeting_Transcript_Game_Development-June-26-2026.md]]
+- **Confluence today, GitHub later.** For **RAGE Studio** the artifact repository of record is **Confluence** (Confluence + JIRA tightly integrated); it will **migrate to GitHub** in future (GitHub + JIRA also integrated). Val's reason for the migration is **versioning**: Confluence versioning is "not nicely implemented," GitHub's is "beautifully implemented" — and abstracts/math/comp-art all evolve through versions (e.g. abstract 2.3 → 2.4). This ties to the [[wiki/topics/slot-game-design-principles.md|"factual game at hour 10"]] pipeline (Jun-26), where reading a versioned abstract compiles a live game on the fly. Michael accepted the correction (put a link in the abstract, not the content). §15.8 clear — artifact-repository / version-control discipline only; no named-person compensation. [[raw/Meeting_Transcript_Game_Development-June-26-2026.md]]
+
+## Jun 29 2026 — reporter-owns-statuses, and measuring the abstract cycle time from JIRA allocations
+
+On the [[wiki/meetings/2026-06-29-review-status-tasks-ip-866.md|Jun-29 6:44pm ET IP-866 status check]] (~4m33s; [[wiki/people/val-levitan.md|Val]], [[wiki/people/juan-martinez.md|Juan Martinez]]) Val walked the JIRA statuses under **IP-866** (the Nebraska Skill Game Development Initiative — game substance on [[wiki/projects/nebraska-skill-market.md]], Jun-29). [[raw/Meeting_Transcript_Review_Status_Tasks_IP-866-June-29-2026.md]]
+
+- **The reporter owns getting statuses accepted.** Val noted every task — including not-yet-started work — was showing "done," so statuses needed cleaning; as the JIRA **reporter**, it is **Juan's job to accept/set the statuses**. Juan would update them after finishing the GLI/Eclipse lab reports Val had requested. [[raw/Meeting_Transcript_Review_Status_Tasks_IP-866-June-29-2026.md]]
+- **JIRA allocations vs actuals as a cycle-time measure.** Val is using the task time allocation against reality to measure how long an abstract really takes: one abstract was **allocated 7 days but done in hours**, so he wants it closed promptly (and the follow-on 5-day tasks collapsed to ~a day) to build the evidence that abstracts take **hours, not weeks** — the durable argument from the [[wiki/meetings/2026-06-26-game-development.md|Jun-26]] concept-stage reform. A task closes when its deliverable (the abstract) is delivered. §15.8 clear — task-status and cycle-time discipline only; no named-person compensation. [[raw/Meeting_Transcript_Review_Status_Tasks_IP-866-June-29-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Game_Development-June-26-2026.md]]
+- [[raw/Meeting_Transcript_Review_Status_Tasks_IP-866-June-29-2026.md]]
 - [[raw/Meeting_Notes_NOVA_Galaxy_JIRA_Hierarchy_Planning-June-1-2026.md]]
 - [[raw/Meeting_Notes_JIRA_Hierarchy_Sandbox_Structure-June-2-2026.md]]
 - [[raw/Meeting_Notes_E2E_Testing_CICD_Architecture-June-1-2026.md]]
