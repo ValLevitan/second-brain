@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, Copilot Studio, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest, LaTeX, printer tool, Ollama, llama.cpp, local inference, Code Llama, Hugging Face, Claude Code, AI sandwich, developer experience, think like a data scientist, sub-agents, verbose output, compiler layer, ways vs skills, ADR, cross-examination, Python Vulture, intelligence center, Waze system, ways framework, compiler stack diagram, module federation, Aaron ways system, Ways ADR, Ways capabilities catalog, regulatory provenance chain, JVL Ways pipeline, ways branch architecture, trusted stage users, clean environment lesson, engagement auditor agent, translation service, terminology override table, GitHub Enterprise fork, JVL GitHub Ways architecture guide, Capability Ticket, Jira hierarchy restructure, engineering guides, architecture black hole, Piratka]
-source-count: 133
+source-count: 134
 ---
 
 # AI-assisted development adoption
@@ -750,6 +750,10 @@ On the [[wiki/meetings/2026-06-30-nova-migration-and-autonomous-coding.md|12:33p
 - **Reverse-engineering Requirements from code.** Val's stepwise plan: take today's Back Office and RAID Studio code → prose → Capabilities → Requirements with acceptance criteria → isolate Requirements for reuse; don't jump straight from code to high-level Capabilities or precision is lost. Alexander Biratko was skeptical reverse-engineered Requirements would be reusable (too code-specific); Evgeny questioned why Requirements must be universal at all and proposed **tagging/marking** Requirements and composing services from modules (each module's manifest noting which Requirement it implements). Dzmitry proposed a **company-level agent** that creates and reviews Requirements against a standard template, running as a loop service to flag non-compliant ones. *(Universal-vs-several-similar Requirements left unresolved — Evgeny vs Alexander.)* [[raw/Meeting_Notes_Nova_Migration_And_Autonomous_Coding-June-30-2026.md]]
 - **Dev-environment independence.** Evgeny: the system must **not depend on any individual developer's Claude setup** — each developer configures their own, and the build must still work. Andrei tied this to the single-source-of-truth model they are aiming for. §15.8 clear — AI-development workflow and tooling only; no named-person compensation. [[raw/Meeting_Notes_Nova_Migration_And_Autonomous_Coding-June-30-2026.md]]
 
+## Jun 30 2026 — AI-first hiring criteria
+
+Val's [[wiki/meetings/2026-06-30-danil-stavsky-hiring.md|hiring discussion for a Minsk student developer]] surfaced what he now prioritizes when hiring a developer: **can the person explain a problem chain concisely and work effectively with AI** — over traditional hand-coding depth. A student who is "an advanced programmer who learns fast" is hired as **"potential"** and put on a 2-month probation **with full Claude/AI access**, to be assessed on exactly those AI-collaboration skills. This is the hiring-side expression of the same shift the June testing/release thread makes on the engineering side — the human's job moves from writing code to directing and validating AI. *(§15.8: no compensation recorded.)* [[raw/Meeting_Notes_Danil_Stavsky_Hiring-June-30-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_E2E_Testing_CICD_Architecture-June-1-2026.md]]
@@ -885,3 +889,4 @@ On the [[wiki/meetings/2026-06-30-nova-migration-and-autonomous-coding.md|12:33p
 - [[raw/Meeting_Notes_White_Label_Experiment_Review-June-25-2026.md]]
 - [[raw/Meeting_Transcript_Claude_Code_Centric_E2E_Release_Approach-June-30-2026.md]]
 - [[raw/Meeting_Notes_Nova_Migration_And_Autonomous_Coding-June-30-2026.md]]
+- [[raw/Meeting_Notes_Danil_Stavsky_Hiring-June-30-2026.md]]
