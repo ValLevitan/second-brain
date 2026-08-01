@@ -3,7 +3,7 @@ type: person
 title: Laura
 date: 2025-04-15
 aliases: [Laura, Laura Escorcia]
-source-count: 5
+source-count: 6
 ---
 
 # Laura
@@ -18,6 +18,8 @@ Laura is a member of JVL's **finance back-office** (managed via [[wiki/people/al
 
 - **Apr 14 2026:** owns the GA-COAM accounts-receivable regularization — on the brief [[wiki/meetings/2026-04-14-accounts-receivables-ga-coam.md|Accounts Receivables GA-COAM]] wrap-up (with Val and [[wiki/people/felipe-miranda.md|Felipe]]) she was directed to finish regularizing the AR reports (statements of account) and to work hand-in-hand with [[wiki/people/lev-rudky.md|Lev Rudky]] to extract **native statements of account directly from Business Central**. Continues her Apr-10 receivables-cleanup ownership on [[wiki/topics/jvl-finance-back-office.md]] (Apr 14 2026). [[raw/Meeting_Transcript_accounts_receivables_GA-COAM-April-14-2026.md]] [[raw/Meeting_Notes_accounts_receivables_GA-COAM-April-14-2026.md]]
 
+- **Jun 29 2026:** handled the **MSII customer refund** ([[wiki/meetings/2026-06-29-msii-refund-situation.md]], with Val and [[wiki/people/felipe-miranda.md|Felipe]]) — she is to attach the customer statement and file a **"request approval" for return of funds** in the system for Val to approve electronically, then issue the payment; directed to **work with [[wiki/people/lev-rudky.md|Lev Rudky]]** in case the refund-approval step is not yet configured. See [[wiki/topics/jvl-finance-back-office.md]] (June 29 2026). [[raw/Meeting_Transcript_MSII_Refund_Situation-June-29-2026.md]]
+
 ## Sources
 
 - [[raw/financial_alka_alignment-march-24-2025.md]]
@@ -25,3 +27,4 @@ Laura is a member of JVL's **finance back-office** (managed via [[wiki/people/al
 - [[raw/finance_update-apr-15-2025.md]]
 - [[raw/Meeting_Transcript_accounts_receivables_GA-COAM-April-14-2026.md]]
 - [[raw/Meeting_Notes_accounts_receivables_GA-COAM-April-14-2026.md]]
+- [[raw/Meeting_Transcript_MSII_Refund_Situation-June-29-2026.md]]
