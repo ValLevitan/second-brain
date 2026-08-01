@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 83
+source-count: 85
 open-commitments: 15
 open-questions: 8
 ---
@@ -507,6 +507,22 @@ A short field-incident call ([[wiki/meetings/2026-06-11-passport-scan-dskey-malf
 - **Resolution — settle it with data (decided).** Pavel's method: read the actual Dallas number from the machine's logs and compare it against what the system's generated registration record says; if they don't match, the problem is on the software side. Ownership: **Val** writes and posts the English directional message in the group Teams chat and sets the compare-both-sides plan; **Minsk (Pavel)** decodes the Dallas number encoded in the generated registration record; **the field (Felipe / Elizabeth)** collects logs from machines **229918 and 230217** to read each machine's actual Dallas number now. [[raw/Meeting_Notes_Passport_Scan_dsKey_Malfunction-June-11-2026.md]]
 - **Val's coaching + framing.** Val gave Dzmitry direct feedback that his answers are too clipped — no direction, no guidance — leaving field people like "deer in the headlights"; plain written English, an acknowledgment, and a clear next step are expected. Val closed on the point that this is not about who is right — machines down cost money, and the goal is to find the root cause and close it for good. The device-registration mechanism (the Dallas number is encoded in the generated registration record and can be decoded and compared to the chip in the field) is on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Jun-11). §15.8: field-incident / device-registration engineering only; no named-person compensation. [[raw/Meeting_Notes_Passport_Scan_dsKey_Malfunction-June-11-2026.md]]
 
+## Jun 22 2026 — Georgia V3 submission complete; game-selection-setup requirements for Irina and Pavel
+
+On the [[wiki/meetings/2026-06-22-nebraska-performance-and-promo-credits.md|Jun-22 1:56pm ET game-development review]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/juan-martinez.md|Juan]], [[wiki/people/michael-gottlieb.md|Michael Gottlieb]], [[wiki/people/lena.md|Lena Zhukova]]) the Georgia thread's headline was that the **Georgia V3 submission is complete**, which freed the design team to shift concept work to Nebraska D27 (Nebraska substance on [[wiki/projects/nebraska-skill-market.md]] (Jun-22)). [[raw/Meeting_Notes_Nebraska_Performance_and_Promo_Credits-June-22-2026.md]]
+
+- **Georgia V3 game-selection setup — urgent requirements needed.** [[wiki/people/lena.md|Lena]] flagged that **Irina and Pavel urgently need requirements** for Georgia V3's game-selection setup: how games appear on the **home screen when there are more games than display slots**. This is the front-end for the game-rotation-via-modem idea (load many games, enable fewer, rotate by popularity); **Juan is to write the requirements**. Design side on [[wiki/topics/slot-game-design-principles.md]] (Jun-22). §15.8 clear — game/market roadmap only; no named-person compensation. [[raw/Meeting_Notes_Nebraska_Performance_and_Promo_Credits-June-22-2026.md]]
+
+## Jun 22 2026 — ARC deal debrief: 30-day V43 trial, parallel D27 upgrades, printers-on-purchase-only
+
+On the [[wiki/meetings/2026-06-22-arc-deal-post-meeting-debrief.md|Jun-22 5:15pm ET ARC post-meeting debrief]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/felipe-miranda.md|Felipe Miranda]], [[wiki/people/juan-martinez.md|Juan]]) Felipe reported back on his meeting with **ARC**, a Georgia operator/prospect. ARC was receptive but wants **proof of performance before committing** to a full deal (Val framed it as a quarter-million-dollar commitment that warrants a trial). ARC is recorded in prose and **queued as a candidate organization** (single-meeting mention — no org page forced). [[raw/Meeting_Notes_ARC_Deal_Post_Meeting_Debrief-June-22-2026.md]]
+
+- **The V43 trial.** ARC proposed a **30-day trial of 5 brand-new V43 machines** running the new game. Felipe negotiated placement at quality locations — **at least 2 tier-1, 2 tier-2, and 1 tier-3**. [[raw/Meeting_Notes_ARC_Deal_Post_Meeting_Debrief-June-22-2026.md]]
+- **Parallel D27 upgrade of existing field locations.** Alongside the V43 trial, ARC agreed to upgrade **5 existing in-field locations to the latest D27 software** (fixed watchdog timer + Linux) to demonstrate improved performance of the current product line; **Felipe to work with Tony** to select which locations. [[raw/Meeting_Notes_ARC_Deal_Post_Meeting_Debrief-June-22-2026.md]]
+- **Printers only on a purchase commitment.** ARC wants **printers (Nanoptics)** included in any purchase deal. Val ruled out installing printers on the 5 trial machines — no point if they are returned after 30 days — so JVL will **promise printers upon purchase commitment**, not during the trial. [[raw/Meeting_Notes_ARC_Deal_Post_Meeting_Debrief-June-22-2026.md]]
+- **Data-collection / Georgia-lottery concern resolved.** ARC's only concern was whether the **Georgia lottery** would permit machine data collection to an external system. **Juan confirmed** every kiosk currently connected in Georgia already collects data and the lottery has not objected. No modems are available for the trial V43s, but ARC is fine with **QR-code scanning for reporting** and offered full access to its own system reports; George at ARC offered to accompany Felipe to locations personally. [[raw/Meeting_Notes_ARC_Deal_Post_Meeting_Debrief-June-22-2026.md]]
+- **Priority ordering: the broad V43 rollout beats ARC.** Val was explicit that installing **10 V43s across at least 8 operators by the first week of July** is a higher priority than the ARC deal ("no comparison" on scale); several operators have already committed (some brought their own locks), and with ARC's 5 trial units the total could reach **13–15 machines**. Val also directed Felipe to **install the new V43 software in the shop and personally test it for a couple of days** before any field deployment; **Eclipse approval is expected next week**. Juan noted that by the time ARC's 30-day trial ends, the new games (**Twin Bison, new Lions Ridge**) will be ready in August and ARC will get those updates free. §15.8 clear — operator/deal/machine economics only; no named-person compensation recorded. [[raw/Meeting_Notes_ARC_Deal_Post_Meeting_Debrief-June-22-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Felipe_credit_terms_sales_strategy-March-31-2026.md]]
@@ -592,3 +608,5 @@ A short field-incident call ([[wiki/meetings/2026-06-11-passport-scan-dskey-malf
 - [[raw/Meeting_Notes_3_Progressives_GA_COAM_Schedule_Check-June-8-2026.md]]
 - [[raw/Meeting_Notes_3_Progressives_GA_COAM_Schedule_Check-June-10-2026.md]]
 - [[raw/Meeting_Notes_Passport_Scan_dsKey_Malfunction-June-11-2026.md]]
+- [[raw/Meeting_Notes_Nebraska_Performance_and_Promo_Credits-June-22-2026.md]]
+- [[raw/Meeting_Notes_ARC_Deal_Post_Meeting_Debrief-June-22-2026.md]]

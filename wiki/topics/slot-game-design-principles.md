@@ -3,7 +3,7 @@ type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
 aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus, $20 test, twenty dollar test, Twin Bison, Wolfpack, Clover Fortune, Liberty Spins, peek-to-be-in bonus, locking bison, Rodeo Spins, multi-progressive, Multi-Progressive initiative, three-level progressive]
-source-count: 64
+source-count: 65
 open-questions: 3
 ---
 
@@ -526,6 +526,15 @@ On the [[wiki/meetings/2026-06-16-game-development-ai-assembly.md|June-16 4:02pm
 - **Reskin becomes capability-driven assembly.** Instead of per-game custom programming, a designer describes a game through **capabilities**, and the game is assembled from **pre-built common components** — buttons, arrows, fonts, frames reused across games — with programmers writing genuinely new mechanics only when needed (extends the [[wiki/meetings/2026-06-03-white-label-experiment.md|June-3 white-label]] "pull out the parts that barely change" idea). [[raw/Game_Development-June-16-2026.md]]
 - **Prove it quietly on Calle Ocho first.** The validation plan is a confidential sandbox experiment — reverse-engineer the existing **Calle Ocho** game into capabilities and requirements, then try to reassemble it from those descriptions ("translate Russian to English, then English back to Russian, and see what survived"). Kept confidential from the wider team until validated. The AI-assembly and sandbox mechanics are on [[wiki/topics/ai-assisted-development.md]] (Jun-16); the one-repo/data-contract side on [[wiki/topics/github-release-management-pipeline.md]] (Jun-16). §15.8 clear — game-design method/build economics only; no named-person compensation. [[raw/Game_Development-June-16-2026.md]]
 
+## Promo credits and the minimum-bet lever (June 22 2026)
+
+On the [[wiki/meetings/2026-06-22-nebraska-performance-and-promo-credits.md|June-22 1:56pm ET game-development review]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/juan-martinez.md|Juan]], [[wiki/people/michael-gottlieb.md|Michael Gottlieb]], [[wiki/people/lena.md|Lena Zhukova]]) two design levers surfaced as JVL turned its concept work to Nebraska D27 after finishing the Georgia V3 submission. The Nebraska market/rollout substance is on [[wiki/projects/nebraska-skill-market.md]] (Jun-22). [[raw/Meeting_Notes_Nebraska_Performance_and_Promo_Credits-June-22-2026.md]]
+
+- **Promo credits mechanic.** Val proposed "**insert $20, get $2 free in promo credits**" (a 1980s tactic he says eliminated competition on horse-racing machines). The design: promo credits hit a **separate SAS meter**, are **non-cashable (restricted credits)**, but **wins pay normally** — so JVL's liability is just the theoretical win, not the face value. Val wants it **machine-centric** — computed locally, not dependent on cloud or kiosk (regulatory legality to be confirmed by Juan for Nebraska). [[raw/Meeting_Notes_Nebraska_Performance_and_Promo_Credits-June-22-2026.md]]
+- **Minimum-bet as a performance lever.** Michael argued JVL's **25-cent minimum bet** (vs competitors' 40–50 cents) lets a single player **camp on a machine at low stakes**, suppressing net win by blocking higher-value play — a design/config choice with revenue consequences, not just a game-math detail. Val agreed to **raise the minimum** to match competitors. [[raw/Meeting_Notes_Nebraska_Performance_and_Promo_Credits-June-22-2026.md]]
+- **Game selection when games exceed slots.** Lena flagged that Irina and Pavel urgently need **requirements for the Georgia V3 game-selection setup** — how games appear on the home screen when there are more games than display slots — a UI/selection design problem tied to the game-rotation-via-modem idea (load many, enable fewer, rotate by popularity). [[raw/Meeting_Notes_Nebraska_Performance_and_Promo_Credits-June-22-2026.md]]
+- **No player loyalty to titles; Buffalo/bison the standout theme.** The team reiterated there is no loyalty to specific game titles in these markets; the buffalo/bison theme is the one recognizable standout, and wheels (popular) will only be built in the new framework. Val wants an elegant **new-game notification** when games rotate in. §15.8 clear — game-design method / promo-credit and machine economics only; no named-person compensation. [[raw/Meeting_Notes_Nebraska_Performance_and_Promo_Credits-June-22-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Inna_Progressive_Bonus_Review-May-22-2026.md]]
@@ -592,4 +601,5 @@ On the [[wiki/meetings/2026-06-16-game-development-ai-assembly.md|June-16 4:02pm
 - [[raw/Meeting_Notes_Game_Manifest_Definition-June-3-2026.md]]
 - [[raw/Meeting_Notes_White_Label_Experiment-June-3-2026.md]]
 - [[raw/Meeting_Notes_Nebraska_Performance_Game_Roadmap-June-5-2026.md]]
+- [[raw/Meeting_Notes_Nebraska_Performance_and_Promo_Credits-June-22-2026.md]]
 - [[raw/Meeting_Notes_Game_Dev_Pipeline_and_Street_Machine-June-10-2026.md]]
