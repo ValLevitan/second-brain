@@ -3,7 +3,7 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS]
-source-count: 125
+source-count: 126
 open-commitments: 51
 open-questions: 6
 ---
@@ -948,6 +948,13 @@ On the [[wiki/meetings/2026-06-09-tx-transactional-product-diagram.md|Jun-9 TX t
 - **The wiring problem — the biggest open obstacle.** FlexPort connects to IQ by **Ethernet**, so every location must be **wired up** (a large install expense on 20–100-machine rooms); who buys/installs the network cabling is unresolved, and Val called it "a swamp." Two mitigations floated: (a) a **wireless FlexPort↔IQ link** (works in gray markets like Texas/Nebraska, not in highly-regulated states); (b) Val's **pre-validated encrypted-QR "nozzle"** idea — a cheap RFID-paired nozzle (borrowed from how the "pyramid" printer works) that reads an **encrypted printed QR** only paired nozzles at that location can decrypt, with the printer re-routed through the port, removing the need to wire the room. [[raw/Meeting_Transcript_TX_Transactional_Product_Diagram-June-9-2026.md]]
 - **Target segment and revenue model.** The **low-hanging fruit is fully-manual game rooms with no dispenser/kiosk** (many exist); third-party dispensers (competitor "Vanilla Pace") won't open up. JVL's income is **hardware plus flat fees for optional reporting** (basic money-in/out reconciliation up to per-game slot performance) — **never a percentage of cash in/out** ("stay out of their business"). Val's blocker list before any pilot: **no host, IQ doesn't yet talk to ports, no reconciliation/accounting piece.** Andrei to write a short two-language brief; Val to take it to the engineers, cautioning Andrei not to pull Pavel into the encryption idea yet. §15.8: device/market/fee economics only; no named-person compensation. [[raw/Meeting_Transcript_TX_Transactional_Product_Diagram-June-9-2026.md]]
 
+## Jun 11 2026 — passport/Dallas registration: the "dsKey not registered" block, and how to verify a chip against the record
+
+A short Georgia field-incident call ([[wiki/meetings/2026-06-11-passport-scan-dskey-malfunction.md|Passport Scan / dsKey Malfunction]], ~10:49am ET; [[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/irina-shishko.md|Irina Shishko]], [[wiki/people/dmitri-chudinov.md|Dzmitry Chudzinau]]) exposed a concrete detail of how JVL registers a device against its **Dallas** security chip — the mechanism behind the "passport re-registration on power-up" requirement recorded above. The field/incident narrative is on [[wiki/projects/georgia-market-rollout.md]] (Jun-11); the durable architecture point is here. [[raw/Meeting_Notes_Passport_Scan_dsKey_Malfunction-June-11-2026.md]]
+
+- **The registration record encodes the Dallas number, and a mismatch blocks the machine.** After a software upgrade, scanning the machine passport returns **"dsKey not registered"** and blocks the machine — the block fires when the chip presented doesn't match the registration on file (Minsk's reading: the Dallas was replaced). The verification method the team settled on makes the mechanism explicit: the **Dallas number is encoded inside the system-generated registration record**, so Minsk can **decode** it and compare it against the **actual Dallas number read from the machine's logs**; if the two don't match, the fault is on the software side. This is the payout-device counterpart to the Aug-2025 hot-swap/provisioning pattern (a device auto-configures on power-up but its identity is keyed to a chip/serial in a master record). [[raw/Meeting_Notes_Passport_Scan_dsKey_Malfunction-June-11-2026.md]]
+- **Open — whether field reuse of Dallas chips/passports actually happens.** Dzmitry maintains reuse of old passports and Dallas chips does happen in the field (reason unknown, and he lacks the data on which chips are involved); Val doubts reuse is the cause and leans to a software-upgrade bug. Unresolved pending the log-vs-record comparison on machines **229918 and 230217**. §15.8: device-registration engineering only; no named-person compensation. [[raw/Meeting_Notes_Passport_Scan_dsKey_Malfunction-June-11-2026.md]]
+
 ## Open commitments
 
 - [ ] [[wiki/people/juan-martinez.md|Juan Martinez]] — produce weekend **sample dashboard reports** in two phases (phase 1: Moo the Goose + Incom card-transaction data, no SMIB/Flexport; phase 2: with SMIB + port), using the real field structure with sample data, as the starting point for the dashboard "skeleton" — due ~May 24–25 2026 — [[raw/Meeting_Notes_Transactional_MVP_Strategy-May-22-2026.md]]
@@ -1141,3 +1148,4 @@ On the [[wiki/meetings/2026-06-09-tx-transactional-product-diagram.md|Jun-9 TX t
 - [[raw/Meeting_Notes_AMOT_Texas_Market_Scouting-June-5-2026.md]]
 - [[raw/Meeting_Notes_Low_Cost_Street_Machine_Design-June-8-2026.md]]
 - [[raw/Meeting_Transcript_TX_Transactional_Product_Diagram-June-9-2026.md]]
+- [[raw/Meeting_Notes_Passport_Scan_dsKey_Malfunction-June-11-2026.md]]

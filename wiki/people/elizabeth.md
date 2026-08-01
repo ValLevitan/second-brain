@@ -2,9 +2,9 @@
 type: person
 title: Elizabeth
 date: 2025-04-28
-aliases: [Elizabeth]
-source-count: 7
-disambiguation: "JVL engineering technician (full engineer by degree) handling Georgia service/parts; ex-Colombian-operation technician; Spanish-speaking. Distinct from Eliana, the Colombian EDS principal (wiki/people/eliana.md). Surname not stated in the source."
+aliases: [Elizabeth, Elizabeth Palomino]
+source-count: 8
+disambiguation: "JVL engineering technician (full engineer by degree) handling Georgia service/parts; ex-Colombian-operation technician; Spanish-speaking. Surname Palomino (per the Jun-11-2026 passport/dsKey source). Distinct from Eliana, the Colombian EDS principal (wiki/people/eliana.md)."
 ---
 
 # Elizabeth
@@ -33,8 +33,13 @@ Discussed (not present) on the [[wiki/meetings/2025-11-03-machine-qc-checklist-r
 
 On the [[wiki/meetings/2026-03-26-initiative-priority-schedule.md|Initiative Priority Schedule]] meeting (discussed, not present) Val and [[wiki/people/irina-shishko.md|Irina Shishko]] named **Elizabeth** as the **on-site tester** to exercise builds once they are ready (JVL has no test hardware for some of these machines locally); Val said Irina should ask her "without any hesitation." Consistent with her degreed-engineer / Georgia field-service and QC role. See [[wiki/topics/github-release-management-pipeline.md]] (Mar-26). [[raw/Meeting_Transcript_initiative_priority_schedule-2-March-26-2026.md]] [[raw/Meeting_Notes_initiative_priority_schedule-March-26-2026.md]]
 
+## Jun 11 2026 — the Georgia field party on the passport/dsKey incident; surname recorded
+
+On the [[wiki/meetings/2026-06-11-passport-scan-dskey-malfunction.md|Jun-11 passport-scan / dsKey malfunction]] call (discussed, not on the call) Elizabeth is named as one of the Georgia field parties (with [[wiki/people/felipe-miranda.md|Felipe Miranda]]) who must collect the machine logs from units **229918 and 230217** so Minsk can compare the actual Dallas number against the registration record. This source gives her full name as **Elizabeth Palomino** — the first time a surname is recorded for her. Incident substance on [[wiki/projects/georgia-market-rollout.md]] (Jun-11). [[raw/Meeting_Notes_Passport_Scan_dsKey_Malfunction-June-11-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Passport_Scan_dsKey_Malfunction-June-11-2026.md]]
 - [[raw/Meeting_Transcript_initiative_priority_schedule-2-March-26-2026.md]]
 - [[raw/Meeting_Notes_initiative_priority_schedule-March-26-2026.md]]
 - [[raw/Machine Quality Control Checklist and a Release form.md]]

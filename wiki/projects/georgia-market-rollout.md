@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 82
+source-count: 83
 open-commitments: 15
 open-questions: 8
 ---
@@ -498,6 +498,15 @@ The Wednesday follow-up to the [[#jun-8-2026--3-progressives-schedule-check-walk
 - **Backlog cleanup — archived GA-COAM v2 features deleted.** Lena confirmed the GA-COAM v2 features (e.g. Gypsy Spirit, Andrei's game) are archived and out of scope for this release; Pavel can delete them and their sub-tasks. No decision yet on whether they'll be built in a later version. [[raw/Meeting_Notes_3_Progressives_GA_COAM_Schedule_Check-June-10-2026.md]]
 - **Board hygiene.** Pavel and Irina reconciled the "Fran 12:00" test plan (the tester had only confirmed it works, not taken it into full work) — Val pushed for a clear status over vague wording, set to 2 days. Peach bonus added to all games but not the special show entries yet; win temporarily set to random so the coin-size question can close, with all three win levels to be verified later (yesterday only the blue level kept winning). Lena said there are no big schedule problems; next check stays **Friday, same time** — Lena is off Friday but the team agreed to proceed without her. §15.8: schedule/build engineering economics only; no named-person compensation. [[raw/Meeting_Notes_3_Progressives_GA_COAM_Schedule_Check-June-10-2026.md]]
 
+## Jun 11 2026 — the passport-scan "dsKey not registered" field incident: settle it with data, not argument
+
+A short field-incident call ([[wiki/meetings/2026-06-11-passport-scan-dskey-malfunction.md|Passport Scan / dsKey Malfunction]], ~10:49am ET, ~11 min; [[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/irina-shishko.md|Irina Shishko]], [[wiki/people/dmitri-chudinov.md|Dzmitry Chudzinau]] on the Minsk side; the Georgia field parties [[wiki/people/felipe-miranda.md|Felipe Miranda]] and [[wiki/people/elizabeth.md|Elizabeth]] referenced but not on the call). Russian. [[raw/Meeting_Notes_Passport_Scan_dsKey_Malfunction-June-11-2026.md]]
+
+- **The symptom and the dispute.** After a software upgrade, scanning a machine's passport returns **"dsKey not registered"** and blocks the machine. Val read his framing back to confirm it: Minsk believes the machine's **Dallas chip was replaced**, so the block is correct; Felipe shows the Dallas was **never replaced**, so the upgrade is misbehaving. The team agreed that is the correct framing. Val said he trusts Felipe's judgment and doubts a Dallas was reused (everyone knows reuse is not allowed and won't work), and suspects the fault is in the software update. [[raw/Meeting_Notes_Passport_Scan_dsKey_Malfunction-June-11-2026.md]]
+- **Dzmitry's counter — reuse does happen in the field.** Dzmitry pushed back that reusing old passports and Dallas chips does happen in the field, fairly often, though the reason is unknown; he pointed to an older thread Sergey had raised about passport/database help that was never gotten to the bottom of (it "somehow started working" and no conclusion was drawn), and admitted he has very little data and doesn't know which chips are involved. Val stayed skeptical that reuse is the cause. [[raw/Meeting_Notes_Passport_Scan_dsKey_Malfunction-June-11-2026.md]]
+- **Resolution — settle it with data (decided).** Pavel's method: read the actual Dallas number from the machine's logs and compare it against what the system's generated registration record says; if they don't match, the problem is on the software side. Ownership: **Val** writes and posts the English directional message in the group Teams chat and sets the compare-both-sides plan; **Minsk (Pavel)** decodes the Dallas number encoded in the generated registration record; **the field (Felipe / Elizabeth)** collects logs from machines **229918 and 230217** to read each machine's actual Dallas number now. [[raw/Meeting_Notes_Passport_Scan_dsKey_Malfunction-June-11-2026.md]]
+- **Val's coaching + framing.** Val gave Dzmitry direct feedback that his answers are too clipped — no direction, no guidance — leaving field people like "deer in the headlights"; plain written English, an acknowledgment, and a clear next step are expected. Val closed on the point that this is not about who is right — machines down cost money, and the goal is to find the root cause and close it for good. The device-registration mechanism (the Dallas number is encoded in the generated registration record and can be decoded and compared to the chip in the field) is on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Jun-11). §15.8: field-incident / device-registration engineering only; no named-person compensation. [[raw/Meeting_Notes_Passport_Scan_dsKey_Malfunction-June-11-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Felipe_credit_terms_sales_strategy-March-31-2026.md]]
@@ -582,3 +591,4 @@ The Wednesday follow-up to the [[#jun-8-2026--3-progressives-schedule-check-walk
 - [[raw/Meeting_Notes_GCOAM_Match3_Progressive_Sync-May-29-2026.md]]
 - [[raw/Meeting_Notes_3_Progressives_GA_COAM_Schedule_Check-June-8-2026.md]]
 - [[raw/Meeting_Notes_3_Progressives_GA_COAM_Schedule_Check-June-10-2026.md]]
+- [[raw/Meeting_Notes_Passport_Scan_dsKey_Malfunction-June-11-2026.md]]
