@@ -3,7 +3,7 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention, installment payments, aged receivables, Customer Ledger Entries, category-based terms, subscription module, parts vs machines terms, Black Horse Entertainment]
-source-count: 34
+source-count: 35
 open-questions: 2
 ---
 
@@ -256,9 +256,17 @@ On the [[wiki/meetings/2026-07-02-cibc-business-central-integration.md|July-2 CI
 - **CIBC's "open access" API is the connection point.** Monica (working with Michael) was already in the process of enabling this "open access" API so BC can read the CIBC account; Michael had sent her the instructions. Val treated confirming/finishing this connection as urgent, to be done with Monica and his tech person on the existing account. [[raw/Meeting_Notes_CIBC_Business_Central_Integration-July-2-2026.md]]
 - **The API's role, once Val dropped the on-command force-transfer idea, is reconciliation.** Rather than the bank API triggering transfers, the accountants reconcile each visible credit in the account against the aggregator's report inside BC. **§15.8:** clear — banking / BC-integration / reconciliation economics only, no named-person compensation. *(The follow-up Outlook thread that reworked this is out of scope per §1 — not captured.)* [[raw/Meeting_Notes_CIBC_Business_Central_Integration-July-2-2026.md]]
 
+## July 6 2026 — the ready CIBC-Chicago account feeds Business Central; a native interface, likely no custom API
+
+On the short [[wiki/meetings/2026-07-06-cibc-banking-setup-review.md|Jul-6 3:03pm ET call]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/nathan-carver.md|Nathan Carver]], Monica Levitan; CIBC's Michael Hill and Sanjay Vishwanathan in prose) the receiving account (into which the batched **Dwolla ACHs** land) is set up at **CIBC Chicago**; the banking side is on [[wiki/organizations/cibc.md]] (Jul-6), the BC-integration side is here. This continues the July-2 plan to reconcile the bank feed inside Business Central. [[raw/Meeting_Transcript_CIBC_Banking_Setup_Review-July-6-2026.md]]
+
+- **The target: an automated feed of the account balance into Business Central.** Val wants that when money arrives on the account, a fully automated system tells **MSBC (Business Central)** the amount now on the account, so [[wiki/people/nathan-carver.md|Nathan]] can **reconcile the batch to the receipt**. [[raw/Meeting_Transcript_CIBC_Banking_Setup_Review-July-6-2026.md]]
+- **CIBC likely already provides the interface — Nathan may not need to build an API.** CIBC (per Michael Hill) already gave Monica access to an environment where you name **Microsoft Business Central** as the application to interface with, and Val understands the bank **already has a native interface with Microsoft Central** (assumed cloud version). So Val told Nathan he probably does **not** need to build an actual API — the interface is likely built in — but to confirm with Michael and not take it at face value ("we need MSBC integration"). Most of the integration work is therefore expected on the **Business Central side**. §15.8: banking / BC-integration economics only, no named-person compensation. [[raw/Meeting_Transcript_CIBC_Banking_Setup_Review-July-6-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_CIBC_Business_Central_Integration-July-2-2026.md]]
+- [[raw/Meeting_Transcript_CIBC_Banking_Setup_Review-July-6-2026.md]]
 - [[raw/Meeting_Notes_MRP_Excel_Workbook_Refinement-June-1-2026.md]]
 - [[raw/Meeting_Transcript_bc_material_requirements_mcp-May-11-2026.md]]
 - [[raw/Meeting_Notes_bc_material_requirements_mcp-May-11-2026.md]]

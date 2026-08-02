@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 89
+source-count: 90
 open-commitments: 15
 open-questions: 8
 ---
@@ -552,8 +552,17 @@ On a later [[wiki/meetings/2026-06-24-felipe-operator-invoice-discount.md|Jun-24
 - **Val's first proposal — a data-exchange agreement.** Structure the relief as **$350/machine/year for 3 years across 11 machines (~$11,550 total)**, which would more than offset the outstanding balance while locking the operator into supplying machine data. Felipe pushed back that the operator might read it as a bait-and-switch from an earlier meeting where Val had indicated willingness to reciprocate; Val disputed making any specific financial commitment and asked Felipe to find the recording to verify the exact wording. [[raw/Meeting_Notes_Felipe_Operator_Invoice_Discount-June-24-2026.md]]
 - **The resolution.** Val approved a **straight 20% discount on the ~$9,072 outstanding parts-and-service invoices, totaling $1,800**. Felipe is to present it to the operator and collect the remaining balance. The **data-exchange agreement was shelved** as a separate future opportunity, not tied to this discount. §15.8: operator accounts-receivable and invoice/discount economics only (customer AR terms, not any person's compensation); no named-person compensation recorded. [[raw/Meeting_Notes_Felipe_Operator_Invoice_Discount-June-24-2026.md]]
 
+## Jul 6 2026 — keep the local-area-progressive install as-is; the 10-machine V43 placement is in motion
+
+On a brief [[wiki/meetings/2026-07-06-call-with-felipe.md|Jul-6 4:08pm ET call]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/felipe-miranda.md|Felipe Miranda]]) Felipe raised an in-field decision and reported on the current rollout. [[raw/Meeting_Transcript_Call_with_Felipe_Miranda_Giorgi-July-6-2026.md]]
+
+- **Leave the existing local-area-progressive (LAP) install alone.** One customer still runs **two local-area progressives linking three machines across different locations**, built as a special version on **Software 1919** (done for a few masters including **Lucky Bucks**), with toppers linked and working well. Felipe is upgrading most cabinets but asked whether to update this one; both agreed **not to upgrade it** (Val wants Juan's opinion too) — the customer doesn't need dual SaaS, is running fine without it, and wants it kept as is. This customer, **Kyle Shepard**, is separately picking up **one of the verticals plus a machine** the next day; he will send call IDs / lottery reports so JVL can watch the LAP's performance. [[raw/Meeting_Transcript_Call_with_Felipe_Miranda_Giorgi-July-6-2026.md]]
+- **LAP as a footprint-expansion play (still open).** Val restated that the local-area progressive was the idea of **occupying more footprint** — he still believes it is "a wonderful idea," they just haven't found the "secret sauce," and he remains very interested in implementing it. Felipe agreed a linked setup would be great but would need **different kinds of progressives**; now that there is a game with **three different progressives**, something more interesting could be built. Left as a live idea, not an action. [[raw/Meeting_Transcript_Call_with_Felipe_Miranda_Giorgi-July-6-2026.md]]
+- **The 10-machine V43 placement is underway.** Felipe has **configured all 10 machines with the new RIS approved by Juan at a $5 max**; games are installing, with testing and printing in progress, and he is calling operators to **start pickups the next day**. This continues the [[#jun-24-2026--felipe-forecast-review-7-cabinets-picked-up-21-by-month-end-a-33-cabinet-july-forecast|Jun-24 forecast]] / [[#jun-22-2026--arc-deal-debrief-30-day-v43-trial-parallel-d27-upgrades-printers-on-purchase-only|ARC 10-V43 rollout]] push. §15.8 clear — operator/deal/machine and product-placement economics only; no named-person compensation. [[raw/Meeting_Transcript_Call_with_Felipe_Miranda_Giorgi-July-6-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Call_with_Felipe_Miranda_Giorgi-July-6-2026.md]]
 - [[raw/Meeting_Transcript_Felipe_credit_terms_sales_strategy-March-31-2026.md]]
 - [[raw/Meeting_Transcript_Alignment_Andrei_Klimovich-2-March-27-2026.md]]
 - [[raw/Meeting_Notes_Transactional_PMM_Appointment-March-27-2026.md]]
