@@ -3,7 +3,7 @@ type: topic
 title: GitHub release management and the CI/CD release pipeline
 date: 2025-10-21
 aliases: [release management, release pipeline, CI/CD, GitHub Actions pipeline, release artifacts, ISO image release, release manager role, continuous delivery, flex os installer, manifest, release candidate, single source of truth, feature branch discipline, sprints vs kanban, Jira GitHub link, FlexPos IP 902, FP 519, IP 89 dashboard grooming, bulk archive automation, Jira resolutions cleanup, Flex-POS Transition to Production, alpha build release tracking]
-source-count: 75
+source-count: 77
 open-questions: 8
 ---
 
@@ -613,8 +613,18 @@ On a short [[wiki/meetings/2026-07-15-prose-repo-compliance-rollout.md|Jul-15 11
 - **Dzmitry & Sergey will insert and maintain it.** They offered to place the prose themselves: Val hands over the set of files (archive or shared folder) and they insert it and keep it current with future PRs. Dzmitry asked that Val also include the **prompts he used to generate the prose**, so the team can reproduce the process later. Val will pull in [[wiki/people/dmitri-kovalchuk.md|Dima Kovalchuk]] (at lunch) in ~30 minutes to help package and hand over the files, aiming to close it that day; if the team hits problems they call Val and he grants drive access. [[raw/Meeting_Notes_Prose_Repo_Compliance_Rollout-July-15-2026.md]]
 - **One open standards question — the standard prose location.** The exact **catalog/folder** where prose lives in each repo must be agreed (with Andrei Bosik when he returns) so every repo uses the **same structure** — the follow-through on the Jul-2 "final subfolder name (prose / behaviors) left for Andrei to confirm" open item. §15.8 clear — coding-standard / repository-organization economics only; no named-person compensation. [[raw/Meeting_Notes_Prose_Repo_Compliance_Rollout-July-15-2026.md]]
 
+## Jul 16 2026 — DataCenter SVN → GitHub migration assigned to Kharetski; the GitHub-workflow rationale
+
+On a [[wiki/meetings/2026-07-16-galaxy-nova-platform-strategy.md|Jul-16 10:00am ET strategy session]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/irina-shishko.md|Irina Shishko]]) the GitHub-migration piece of the broader Galaxy/Nova strategy got its first concrete assignment. (The platform-strategy half — Rage vs Nova — is on [[wiki/topics/nova-platform-architecture.md]] (Jul-16).) [[raw/Meeting_Notes_Galaxy_Nova_Platform_Strategy-July-16-2026.md]] [[raw/Meeting_Transcript_Galaxy_Nova_Platform_Strategy-July-16-2026.md]]
+
+- **The DataCenter repos move to GitHub, assigned to Kharetski.** Pavel reported that a task was created that day for [[wiki/people/evgeny-kharetski.md|Evgeny (Zhenya) Kharetski]] (transcribed "Koretsky") to move the **DataCenter** repositories — **all branches, from SVN** — to GitHub and set up build **actions**. Val was surprised (he considered the decision still open and would have deliberated longer) but accepted it. [[raw/Meeting_Notes_Galaxy_Nova_Platform_Strategy-July-16-2026.md]] [[raw/Meeting_Transcript_Galaxy_Nova_Platform_Strategy-July-16-2026.md]]
+- **Why DataCenter is the easy first move.** Pavel's case: DataCenter is **relatively independent** and straightforward — the old builder can be lightly adapted to pull sources from GitHub at build time, so the move brings the **new GitHub workflow** (commits land in history, feature branches, plus prose and some testing) while JVL keeps living on the Rage games "for a while." Unlike DataCenter, the **framework + games** move is still genuinely undecided (huge repo volumes — see [[wiki/topics/nova-platform-architecture.md]]). [[raw/Meeting_Notes_Galaxy_Nova_Platform_Strategy-July-16-2026.md]] [[raw/Meeting_Transcript_Galaxy_Nova_Platform_Strategy-July-16-2026.md]]
+- **The cost.** The move takes Kharetski away from potential **Nova** work (e.g. new LGS/RAS functionality); Val's hesitation was that the DataCenter-vs-Nova priority hadn't been settled. §15.8 clear — migration/tooling economics only; no named-person compensation. [[raw/Meeting_Notes_Galaxy_Nova_Platform_Strategy-July-16-2026.md]] [[raw/Meeting_Transcript_Galaxy_Nova_Platform_Strategy-July-16-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Galaxy_Nova_Platform_Strategy-July-16-2026.md]]
+- [[raw/Meeting_Transcript_Galaxy_Nova_Platform_Strategy-July-16-2026.md]]
 - [[raw/Meeting_Notes_RIS_Prose_Documentation_Standard-July-2-2026.md]]
 - [[raw/Meeting_Notes_Code_Prose_Storage_Standard-July-2-2026.md]]
 - [[raw/Meeting_Transcript_Code_Prose_Storage_Standard_Review-July-6-2026.md]]
