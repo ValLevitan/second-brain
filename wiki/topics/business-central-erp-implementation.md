@@ -2,8 +2,8 @@
 type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
-aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention, installment payments, aged receivables, Customer Ledger Entries, category-based terms, subscription module, parts vs machines terms, Black Horse Entertainment]
-source-count: 35
+aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention, installment payments, aged receivables, Customer Ledger Entries, category-based terms, subscription module, parts vs machines terms, Black Horse Entertainment, Sales Watch]
+source-count: 37
 open-questions: 2
 ---
 
@@ -263,8 +263,17 @@ On the short [[wiki/meetings/2026-07-06-cibc-banking-setup-review.md|Jul-6 3:03p
 - **The target: an automated feed of the account balance into Business Central.** Val wants that when money arrives on the account, a fully automated system tells **MSBC (Business Central)** the amount now on the account, so [[wiki/people/nathan-carver.md|Nathan]] can **reconcile the batch to the receipt**. [[raw/Meeting_Transcript_CIBC_Banking_Setup_Review-July-6-2026.md]]
 - **CIBC likely already provides the interface — Nathan may not need to build an API.** CIBC (per Michael Hill) already gave Monica access to an environment where you name **Microsoft Business Central** as the application to interface with, and Val understands the bank **already has a native interface with Microsoft Central** (assumed cloud version). So Val told Nathan he probably does **not** need to build an actual API — the interface is likely built in — but to confirm with Michael and not take it at face value ("we need MSBC integration"). Most of the integration work is therefore expected on the **Business Central side**. §15.8: banking / BC-integration economics only, no named-person compensation. [[raw/Meeting_Transcript_CIBC_Banking_Setup_Review-July-6-2026.md]]
 
+## July 14 2026 — Sales Watch, and moving the calculations into code (agent orchestrates, not computes)
+
+On the [[wiki/meetings/2026-07-14-mrp-and-sales-watch-demo.md|July-14 1:03 PM demo]] ([[wiki/people/nathan-carver.md|Nathan Carver]], [[wiki/people/val-levitan.md|Val]], [[wiki/people/lev-rudky.md|Lev Rudky]], [[wiki/people/mikhail-perelman.md|Mikhail Perelman]]) Nathan showed **two tools built on Business Central** and a durable architecture shift underneath both. The MRP purchasing-tool substance is on [[wiki/topics/mrp-purchasing-tool.md]] (July-14); the BC-side points are here. [[raw/Meeting_Transcript_MRP_and_Sales_Watch_Demo-July-14-2026.md]] [[raw/Meeting_Notes_MRP_and_Sales_Watch_Demo-July-14-2026.md]]
+
+- **Sales Watch — a new BC tool for fast sales-number comparisons.** Nathan demoed **Sales Watch**, which quickly runs sales numbers out of Business Central and can **compare a period against the previous one** (with options to go back further). It is aimed at replacing whatever mechanism Val uses today for sales figures. Val cut the demo short — "let's focus on MRP… sales I can review with you later" — and asked to review Sales Watch separately. [[raw/Meeting_Transcript_MRP_and_Sales_Watch_Demo-July-14-2026.md]] [[raw/Meeting_Notes_MRP_and_Sales_Watch_Demo-July-14-2026.md]]
+- **Calculations moved into code — the agent only orchestrates.** Nathan added coding support so the tools' **calculations run in code and the AI agent orchestrates rather than computes** — "ideally the agent's doing no calculations at all, unless there's an edge case the user asks for." The result is much faster responses and, from Nathan's own checking, accurate totals; his remaining accuracy concern is whether the tool reads the **MSBC configurations** correctly. This is a durable design change applying across the BC-API/MCP tooling layer, not just to one report. **§15.8:** clear — BC / Sales-Watch / MRP / tooling / orchestration economics only, no named-person compensation. [[raw/Meeting_Transcript_MRP_and_Sales_Watch_Demo-July-14-2026.md]] [[raw/Meeting_Notes_MRP_and_Sales_Watch_Demo-July-14-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_MRP_and_Sales_Watch_Demo-July-14-2026.md]]
+- [[raw/Meeting_Transcript_MRP_and_Sales_Watch_Demo-July-14-2026.md]]
 - [[raw/Meeting_Notes_CIBC_Business_Central_Integration-July-2-2026.md]]
 - [[raw/Meeting_Transcript_CIBC_Banking_Setup_Review-July-6-2026.md]]
 - [[raw/Meeting_Notes_MRP_Excel_Workbook_Refinement-June-1-2026.md]]
