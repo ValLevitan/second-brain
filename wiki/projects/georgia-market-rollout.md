@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 96
+source-count: 98
 open-commitments: 15
 open-questions: 8
 ---
@@ -593,8 +593,18 @@ Two same-day sessions worked a **field defect blocking the roll-out to the Georg
 - **Leading suspect now: the boards being re-flashed during install (afternoon).** A separate install failure — a **"peripheral device fail"** message — appears when the **iBoard or counter-board** is not found; both are mandatory for the install to continue. During install these boards (iBoard, LED controller, counter-board) are also **re-flashed**, which takes time, and the machine may progress past the point where it still reads them. The agreed experiment: flash **old** firmware onto at least 3 boards, install an old software version (e.g. 17.76/17.70 or a 19.x), then install the new version on top, to test whether the background board-flashing during install is what causes the intermittent failures. Pavel estimated ~1–1.5 days. [[raw/Meeting_Notes_GACOAM_Touchscreen_Investigation_Check_Back-July-15-2026.md]]
 - **The installer hides the background flashing.** Val objected that the installer gives no on-screen feedback about the board flashing/validation (only disk checksums are shown); extended logs exist but require plugging in a keyboard. He called it a weak decision but ruled **not to redesign the installer now** — the priority is finding the bug faster. Field data was to come from Felipe/"Philippe", who would boot a faulting machine with **two USB sticks** and capture the logs (logs only run once the machine reaches the init stage, not during install mode). Irina was to send Pavel an AI write-up of the differences between the two software ISOs for his review. §15.8 clear — field-defect / device / roll-out engineering only; no named-person compensation. [[raw/Meeting_Notes_GACOAM_Touchscreen_Investigation_Check_Back-July-15-2026.md]]
 
+## Jul 17 2026 — the Aug-1 Mutha-Goose launch design: 5 IQ devices at 5 locations, and keeping a location running if IQ dies
+
+On a [[wiki/meetings/2026-07-17-iq-down-printer-bypass.md|Jul-17 9:00 AM ET session]] (~2h13m, Russian; [[wiki/people/andrei-klimovich.md|Andrei Klimovich]], [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/irina-shishko.md|Irina Shishko]], with [[wiki/people/val-levitan.md|Val]] joining ~23 min in) the team locked the field design for the first on-location Flex-IQ launch. The device/decision detail is on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Jul-17). [[raw/Meeting_Notes_IQ_Down_Printer_Bypass_Complete-July-17-2026.md]] [[raw/Meeting_Transcript_IQ_Down_Printer_Bypass_Complete-July-17-2026.md]]
+
+- **The launch — 5 devices at 5 locations on August 1.** JVL launches Flex-IQ on **Mutha Goose locations on August 1, 2026 — 5 devices at 5 locations**, about two weeks out from this meeting. At each, the IQ unit sits in-line between the Mutha Goose game controller and the ticket printer. Val stressed the whole launch design is **only** for Aug-1; capability expansions come later once the market is understood. [[raw/Meeting_Notes_IQ_Down_Printer_Bypass_Complete-July-17-2026.md]] [[raw/Meeting_Transcript_IQ_Down_Printer_Bypass_Complete-July-17-2026.md]]
+- **Keeping a location running if IQ dies (the field fail-safe).** If Flex-IQ fully dies, Mutha Goose beeps within seconds and the cashier connects the printer directly to Mutha Goose (which prints its cached tickets), so the location keeps operating the old way. Val ruled JVL will **not** instruct location staff on that wire swap, and a replacement IQ starts fresh with **no history pulled from Mutha Goose** — so JVL must instead see failures remotely (red/blinking tilt screen, dashboard status). At launch the flow is **card issuance by default; only on card failure can the cashier retry or print a standard Mutha Goose ticket** that returns settlement to the old system. [[raw/Meeting_Notes_IQ_Down_Printer_Bypass_Complete-July-17-2026.md]] [[raw/Meeting_Transcript_IQ_Down_Printer_Bypass_Complete-July-17-2026.md]]
+- **Georgia payout rules in play.** Since **July 1**, Georgia locations may **not** pay out in merchandise; **lottery tickets and gift cards remain allowed**. The over-$1000 cashout case is unhandled (INCOMM's limit is **$1000 per card**; wins above $1200 are taxable; whether Georgia even has a jackpot limit is unclear) — all delegated to [[wiki/people/juan-martinez.md|Juan]] to work with INCOMM. §15.8 clear — Georgia field-deployment / device / market economics only (INCOMM card limits, the $2 activation fee); no named-person compensation. [[raw/Meeting_Notes_IQ_Down_Printer_Bypass_Complete-July-17-2026.md]] [[raw/Meeting_Transcript_IQ_Down_Printer_Bypass_Complete-July-17-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_IQ_Down_Printer_Bypass_Complete-July-17-2026.md]]
+- [[raw/Meeting_Transcript_IQ_Down_Printer_Bypass_Complete-July-17-2026.md]]
 - [[raw/Meeting_Notes_Version_4119_Touchscreen_Loss_Triage-July-15-2026.md]]
 - [[raw/Meeting_Notes_GACOAM_Touchscreen_Investigation_Check_Back-July-15-2026.md]]
 - [[raw/Meeting_Transcript_Call_with_Felipe_Miranda_Giorgi-July-6-2026.md]]
