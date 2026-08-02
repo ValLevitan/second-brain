@@ -3,7 +3,7 @@ type: topic
 title: GitHub release management and the CI/CD release pipeline
 date: 2025-10-21
 aliases: [release management, release pipeline, CI/CD, GitHub Actions pipeline, release artifacts, ISO image release, release manager role, continuous delivery, flex os installer, manifest, release candidate, single source of truth, feature branch discipline, sprints vs kanban, Jira GitHub link, FlexPos IP 902, FP 519, IP 89 dashboard grooming, bulk archive automation, Jira resolutions cleanup, Flex-POS Transition to Production, alpha build release tracking]
-source-count: 77
+source-count: 79
 open-questions: 8
 ---
 
@@ -621,6 +621,14 @@ On a [[wiki/meetings/2026-07-16-galaxy-nova-platform-strategy.md|Jul-16 10:00am 
 - **Why DataCenter is the easy first move.** Pavel's case: DataCenter is **relatively independent** and straightforward — the old builder can be lightly adapted to pull sources from GitHub at build time, so the move brings the **new GitHub workflow** (commits land in history, feature branches, plus prose and some testing) while JVL keeps living on the Rage games "for a while." Unlike DataCenter, the **framework + games** move is still genuinely undecided (huge repo volumes — see [[wiki/topics/nova-platform-architecture.md]]). [[raw/Meeting_Notes_Galaxy_Nova_Platform_Strategy-July-16-2026.md]] [[raw/Meeting_Transcript_Galaxy_Nova_Platform_Strategy-July-16-2026.md]]
 - **The cost.** The move takes Kharetski away from potential **Nova** work (e.g. new LGS/RAS functionality); Val's hesitation was that the DataCenter-vs-Nova priority hadn't been settled. §15.8 clear — migration/tooling economics only; no named-person compensation. [[raw/Meeting_Notes_Galaxy_Nova_Platform_Strategy-July-16-2026.md]] [[raw/Meeting_Transcript_Galaxy_Nova_Platform_Strategy-July-16-2026.md]]
 
+## Jul 20 2026 — structuring the LTE-modem work in Jira per the documented planning standard
+
+On the [[wiki/meetings/2026-07-20-lte-modem-jira-structure.md|July-20 6:06 AM session]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]) the team set up the LTE-modem work (device/build side on [[wiki/topics/flexpay-business-architecture-payout-devices.md]], Jul-20) in Jira using the **documented planning standard** — the application of the June-16 JIRA-hierarchy standard to a concrete piece of work. [[raw/Meeting_Notes_LTE_Modem_Jira_Structure-July-20-2026.md]]
+
+- **The standard is written, unchanged, and in GitHub.** Dmitri confirmed the planning standard the team defined earlier "grew into a standard," has **not changed** since, and lives in GitHub; he posted the link in the meeting chat. Its key rule, restated here: **each repository gets its own Jira project; initiatives live in one project.** [[raw/Meeting_Transcript_LTE_Modem_Jira_Structure-July-20-2026.md]]
+- **The Jira structure for the modem work.** Pavel proposed placing it under **IP-90 Applications** (value stream), under initiative **IP-481 Nova Gaming Platform Land-based**: create a **capability** stating the platform supports **LTE modems**, with **features** under it depending on which project needs fixes — one project relating to the operating system (fixes in LGS). Today the product level and capability level are the same level. [[raw/Meeting_Transcript_LTE_Modem_Jira_Structure-July-20-2026.md]]
+- **No new Jira project until the repository exists.** Dmitri's rule (the standard ties projects to repositories): **do not create a new Jira project until the repository exists.** A new repo will be needed — the **x86 platform SDK** (analog of the RK3568 platform SDK) — so its Jira project follows once that repo is created. Val ended the recording so the transcript could serve as the working spec, to build the structure with Pavel at 2:00. **§15.8:** clear — Jira-planning / repository-organization economics only, no named-person compensation. [[raw/Meeting_Transcript_LTE_Modem_Jira_Structure-July-20-2026.md]] [[raw/Meeting_Notes_LTE_Modem_Jira_Structure-July-20-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Galaxy_Nova_Platform_Strategy-July-16-2026.md]]
@@ -700,3 +708,5 @@ On a [[wiki/meetings/2026-07-16-galaxy-nova-platform-strategy.md|Jul-16 10:00am 
 - [[raw/Meeting_Transcript_Jira_Hierarchy_Flex_Recycler_in_Plans-June-25-2026.md]]
 - [[raw/Meeting_Notes_FlexIQ_CICD_Requirements_Pipeline-July-7-2026.md]]
 - [[raw/Meeting_Notes_Prose_Repo_Compliance_Rollout-July-15-2026.md]]
+- [[raw/Meeting_Notes_LTE_Modem_Jira_Structure-July-20-2026.md]]
+- [[raw/Meeting_Transcript_LTE_Modem_Jira_Structure-July-20-2026.md]]
