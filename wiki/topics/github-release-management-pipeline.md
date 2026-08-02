@@ -3,7 +3,7 @@ type: topic
 title: GitHub release management and the CI/CD release pipeline
 date: 2025-10-21
 aliases: [release management, release pipeline, CI/CD, GitHub Actions pipeline, release artifacts, ISO image release, release manager role, continuous delivery, flex os installer, manifest, release candidate, single source of truth, feature branch discipline, sprints vs kanban, Jira GitHub link, FlexPos IP 902, FP 519, IP 89 dashboard grooming, bulk archive automation, Jira resolutions cleanup, Flex-POS Transition to Production, alpha build release tracking]
-source-count: 74
+source-count: 75
 open-questions: 8
 ---
 
@@ -604,6 +604,15 @@ On the [[wiki/meetings/2026-07-07-flexiq-cicd-requirements-pipeline.md|Jul-7 3:2
 - **Irina's skepticism about the 5:1 reduction.** Irina doubts the 5:1 will hold for RIS given how many distinct items it has — she expects the result to stay fairly general, and noted the **Kislovodsk games set** is its own product with its own requirements. Val will finish the RIS pass within ~2 days and show them the output to judge. Left open. [[raw/Meeting_Notes_FlexIQ_CICD_Requirements_Pipeline-July-7-2026.md]]
 - **Undertaking — research a deployment/fleet-update tool → Andrei Bosik.** Val called out on-transcript that [[wiki/people/andrey-bosik.md|Andrei Bosik]] should research a third-party OTA deployment/fleet-update management tool (version control, scheduling, an approval gate) for pushing builds to specific Flex IQ devices — after his two-week vacation (starting ~Jul 8, back ~Jul 28), needed for the Sept/Oct remote-update goal. §15.8 clear — pipeline/tooling and requirements-engineering economics only; no named-person compensation. [[raw/Meeting_Notes_FlexIQ_CICD_Requirements_Pipeline-July-7-2026.md]]
 
+## Jul 15 2026 — prose becomes a hard Standard 5.1 requirement in every repo; inserting the first repo's prose
+
+On a short [[wiki/meetings/2026-07-15-prose-repo-compliance-rollout.md|Jul-15 11:30 AM call]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/dmitri-chudinov.md|Dzmitry Chudzinau]], [[wiki/people/sergey-tsymanov.md|Sergey Tsimanov]]) Val turned the [[#jul-6-2026--the-as-built-documentation-standard-reverse-engineer-code--requirements--acceptance-criteria-prose-becomes-a-versioned-repo-standard|Jul-6 "prose is a versioned repo standard"]] decision into a hard compliance rule and worked out how the first repo's prose actually lands. [[raw/Meeting_Notes_Prose_Repo_Compliance_Rollout-July-15-2026.md]]
+
+- **The rule: Standard 5.1 now requires prose in every repo.** Val ruled that **Standard 5.1 (repository organization) will now require prose documentation in every repository** — the durable rollout of the Jul-6 decision. Prose lives next to the code and must **update with every pull request** so it never falls behind. This continues the Jul-2 prose-on-PR standard and the Jul-6 as-built repo-standard versioning. [[raw/Meeting_Notes_Prose_Repo_Compliance_Rollout-July-15-2026.md]]
+- **Getting the RS module's prose in before it goes stale.** Over the prior ~10 days Val reverse-engineered the **RS module** repo into requirements-and-prose; the prose is done and organized and now needs to go into the repo before new code makes it stale. Val expected [[wiki/people/andrey-bosik.md|Andrei Bosik]] to do the insertion, but Andrei is on vacation (back soon), and Val is unwilling to touch the repo himself for fear of breaking it. Dzmitry confirmed the RS module code is essentially **static right now** (no code changes in progress), so near-term drift risk is low — but all agreed the prose should land sooner rather than later. [[raw/Meeting_Notes_Prose_Repo_Compliance_Rollout-July-15-2026.md]]
+- **Dzmitry & Sergey will insert and maintain it.** They offered to place the prose themselves: Val hands over the set of files (archive or shared folder) and they insert it and keep it current with future PRs. Dzmitry asked that Val also include the **prompts he used to generate the prose**, so the team can reproduce the process later. Val will pull in [[wiki/people/dmitri-kovalchuk.md|Dima Kovalchuk]] (at lunch) in ~30 minutes to help package and hand over the files, aiming to close it that day; if the team hits problems they call Val and he grants drive access. [[raw/Meeting_Notes_Prose_Repo_Compliance_Rollout-July-15-2026.md]]
+- **One open standards question — the standard prose location.** The exact **catalog/folder** where prose lives in each repo must be agreed (with Andrei Bosik when he returns) so every repo uses the **same structure** — the follow-through on the Jul-2 "final subfolder name (prose / behaviors) left for Andrei to confirm" open item. §15.8 clear — coding-standard / repository-organization economics only; no named-person compensation. [[raw/Meeting_Notes_Prose_Repo_Compliance_Rollout-July-15-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_RIS_Prose_Documentation_Standard-July-2-2026.md]]
@@ -680,3 +689,4 @@ On the [[wiki/meetings/2026-07-07-flexiq-cicd-requirements-pipeline.md|Jul-7 3:2
 - [[raw/Meeting_Notes_White_Label_Experiment_Review-June-25-2026.md]]
 - [[raw/Meeting_Transcript_Jira_Hierarchy_Flex_Recycler_in_Plans-June-25-2026.md]]
 - [[raw/Meeting_Notes_FlexIQ_CICD_Requirements_Pipeline-July-7-2026.md]]
+- [[raw/Meeting_Notes_Prose_Repo_Compliance_Rollout-July-15-2026.md]]

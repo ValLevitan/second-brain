@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, Copilot Studio, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest, LaTeX, printer tool, Ollama, llama.cpp, local inference, Code Llama, Hugging Face, Claude Code, AI sandwich, developer experience, think like a data scientist, sub-agents, verbose output, compiler layer, ways vs skills, ADR, cross-examination, Python Vulture, intelligence center, Waze system, ways framework, compiler stack diagram, module federation, Aaron ways system, Ways ADR, Ways capabilities catalog, regulatory provenance chain, JVL Ways pipeline, ways branch architecture, trusted stage users, clean environment lesson, engagement auditor agent, translation service, terminology override table, GitHub Enterprise fork, JVL GitHub Ways architecture guide, Capability Ticket, Jira hierarchy restructure, engineering guides, architecture black hole, Piratka]
-source-count: 137
+source-count: 138
 ---
 
 # AI-assisted development adoption
@@ -771,11 +771,19 @@ On the [[wiki/meetings/2026-07-06-code-prose-storage-standard-review.md|Jul-6 11
 - **What the tooling generated.** From the code, Claude wrote **prose**, an **architectural "cluster" layer** (Claude's own term) with a **mermaid diagram per cluster**, then reverse-engineered **222 requirements** and **1,836 acceptance criteria** for the ARS plus tests under them — Claude "loves to create many files," producing far more files than Val expected, which he flagged as a hand-off problem (he isn't sure how to hand the sprawling output to an engineer, or how a non-engineer embeds prose into a repo and starts living with it). Reading the prose is only feasible in small chunks; the value is that any function — product, dev, architecture — can then ask about the system in plain language, at any level of detail. [[raw/Meeting_Transcript_Code_Prose_Storage_Standard_Review-July-6-2026.md]]
 - **Data contract = capability (the manifest, evolved).** Relaying [[wiki/people/dmitri-chudinov.md|Dima Chudinov]]'s manifest idea, Val framed the AI-relevant abstraction: JVL moved from "manifest" to **data contract** (introduced with RIS/ARS), and from a game's viewpoint each **capability is a kind of data contract** that supersedes the manifest — the machine-readable declaration of how a game can be configured that a universal new ARS would consume. The MVP-first path for that new ARS is on the pipeline page. §15.8 clear — tooling/model/prose economics only; no named-person compensation. [[raw/Meeting_Transcript_Code_Prose_Storage_Standard_Review-July-6-2026.md]]
 
+## Jul 15 2026 — the reverse-engineered prose becomes a mandatory standard; reproduce-the-prompts practice
+
+On the [[wiki/meetings/2026-07-15-prose-repo-compliance-rollout.md|Jul-15 11:30 AM call]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/dmitri-chudinov.md|Dzmitry Chudzinau]], [[wiki/people/sergey-tsymanov.md|Sergey Tsimanov]]) the AI-generated prose Val had been building crossed into a hard company standard. The compliance/standard/rollout side is on [[wiki/topics/github-release-management-pipeline.md]] (Jul-15); this is the AI-tooling angle. [[raw/Meeting_Notes_Prose_Repo_Compliance_Rollout-July-15-2026.md]]
+
+- **~10 days to reverse-engineer one repo into prose.** Val reported it took roughly **ten days** to reverse-engineer the **RS module** repo into requirements-and-prose himself — a concrete data point on the effort of the [[#jul-6-2026--how-val-ran-the-prosereverse-engineering-himself-fable-5-driving-a-claude-code-multi-agent-makerchecker-prompt|as-built reverse-engineering method]] run by a non-engineer. The output is done and organized; the AI-generated prose now has to live in the repo and update on every pull request or it goes stale (Val's recurring worry that prose is only useful if it stays current). [[raw/Meeting_Notes_Prose_Repo_Compliance_Rollout-July-15-2026.md]]
+- **Reproducibility: hand over the prompts, not just the prose.** Dzmitry asked that Val include the **prompts he used to generate the prose** alongside the files, so the team can reproduce the generation process on other repos later — the practice that lets the AI method spread past Val's own runs. §15.8 clear — tooling/prose-generation economics only; no named-person compensation. [[raw/Meeting_Notes_Prose_Repo_Compliance_Rollout-July-15-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_RIS_Prose_Documentation_Standard-July-2-2026.md]]
 - [[raw/Meeting_Notes_Code_Prose_Storage_Standard-July-2-2026.md]]
 - [[raw/Meeting_Transcript_Code_Prose_Storage_Standard_Review-July-6-2026.md]]
+- [[raw/Meeting_Notes_Prose_Repo_Compliance_Rollout-July-15-2026.md]]
 - [[raw/Meeting_Notes_E2E_Testing_CICD_Architecture-June-1-2026.md]]
 - [[raw/Meeting_Notes_Clayton_MCP_Jira_Workflow-June-1-2026.md]]
 - [[raw/Meeting_Notes_QA_Strategy_AI_Development_Cycle-May-28-2026.md]]

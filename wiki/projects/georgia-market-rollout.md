@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 92
+source-count: 94
 open-commitments: 15
 open-questions: 8
 ---
@@ -577,6 +577,13 @@ On a first, exploratory [[wiki/meetings/2026-07-10-herring-bank-cash-management-
 - **The cash-handling problem.** A slim recycler has a locked **"drop cassette"** (metal containers with handles) where excess cash goes once the recycling cassettes are full. That drop cash needs periodic **pickup and deposit**, and Val noted it would be hard for JVL to deposit cash into banks itself — where JVL operates the device directly it needs an armored-car / cash-in-transit service for the drop cassettes. [[raw/Meeting_Notes_Herring_Bank_Cash_Management_Partnership-July-10-2026.md]]
 - **What Herring Bank would do.** Maya described Herring managing the **armored-car / cash-in-transit (CIT)** back end for pickups, depositing into JVL's account at Herring Bank; asked about other banks, she said the cash routes from the armored car through CIT to the **Fed**. **Next step:** Maya recommended a call between Val and Herring Bank's owner, which Val is arranging (with details on coverage, account setup, and pricing still to come). No formal decisions — an introductory call. §15.8 clear — banking/cash-management economics only; no named-person compensation. [[raw/Meeting_Notes_Herring_Bank_Cash_Management_Partnership-July-10-2026.md]]
 
+## Jul 15 2026 — the Flex-IQ alpha rig at the GA showroom, and the runway to an August-1 on-location beta
+
+On a [[wiki/meetings/2026-07-15-flexiq-alpha-test-walkthrough.md|Jul-15 3:15pm ET walkthrough]] ([[wiki/people/andrei-klimovich.md|Andrei Klimovich]] → [[wiki/people/val-levitan.md|Val]]) Andrei showed Val the **Flex-IQ alpha-test setup standing in the Georgia office showroom** — the first physical demo location for the Georgia payout-device push. The device/cashout-flow/product-change detail is on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Jul-15). [[raw/Meeting_Transcript_FlexIQ_Alpha_Test_Walkthrough-July-15-2026.md]] [[raw/Meeting_Notes_FlexIQ_Alpha_Test_Walkthrough-July-15-2026.md]]
+
+- **The showroom demo rig.** A demo rig sits on one small table in the GA showroom — **printer, Mutha Goose, and the Flex-IQ unit** — running on a sandbox test environment, arranged so both the player and cashier sides are visible. A production location will be added after InCom validates them. For prospect demos the agreed layout hides the Mutha Goose on a separate table so a location owner sees a clean printer-plus-Flex-IQ setup. [[raw/Meeting_Transcript_FlexIQ_Alpha_Test_Walkthrough-July-15-2026.md]] [[raw/Meeting_Notes_FlexIQ_Alpha_Test_Walkthrough-July-15-2026.md]]
+- **Two-week runway to an August-1 on-location beta.** Per the agreement Andrei's team has **~2 weeks (to ~July 29)** to stand up the production server and verify remote updates, and to **find a location owner willing to be the first beta tester** — someone who loves the system enough to live through its early bugs. The **on-location beta targets August 1** with a **signed location contract**; a draft contract worked up with [[wiki/people/juan-martinez.md|Juan]] exists and Andrei will send it to Val and **Monica** in the coming days. Trial terms: device and setup free (Val suggested 90 days), operator still pays all cashouts and the $2 fees — full terms to be settled within the two weeks. §15.8 clear — Georgia alpha/beta rollout economics only; no named-person compensation. [[raw/Meeting_Transcript_FlexIQ_Alpha_Test_Walkthrough-July-15-2026.md]] [[raw/Meeting_Notes_FlexIQ_Alpha_Test_Walkthrough-July-15-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Call_with_Felipe_Miranda_Giorgi-July-6-2026.md]]
@@ -671,3 +678,5 @@ On a first, exploratory [[wiki/meetings/2026-07-10-herring-bank-cash-management-
 - [[raw/Meeting_Notes_V4_Games_Design_Feedback-June-24-2026.md]]
 - [[raw/Meeting_Notes_Felipe_Operator_Invoice_Discount-June-24-2026.md]]
 - [[raw/Meeting_Notes_GA_COAM_Inventory_Pipeline_Review-July-7-2026.md]]
+- [[raw/Meeting_Transcript_FlexIQ_Alpha_Test_Walkthrough-July-15-2026.md]]
+- [[raw/Meeting_Notes_FlexIQ_Alpha_Test_Walkthrough-July-15-2026.md]]
