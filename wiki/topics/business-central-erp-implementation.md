@@ -3,7 +3,7 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention, installment payments, aged receivables, Customer Ledger Entries, category-based terms, subscription module, parts vs machines terms, Black Horse Entertainment, Sales Watch]
-source-count: 41
+source-count: 43
 open-questions: 2
 ---
 
@@ -283,8 +283,14 @@ On the [[wiki/meetings/2026-07-20-payment-hub-msbc-configurations.md|July-20 2:0
 
 On the [[wiki/meetings/2026-07-23-echo-50-machine-run-parts.md|50-Echo build parts check]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/mikhail-perelman.md|Mikhail Perelman]], [[wiki/people/genadi-peari.md|Genadi Peari]]) a concrete BC data-integrity gap surfaced: **six metal brackets read zero stock in Business Central**, even though Mikhail believes most are **physically present in Georgia** — the records were scrambled when inventory shipped **Toronto → Georgia** and the parts were not re-recorded in BC (Mikhail called it "бардак" / a mess; Val noted the same mismatch had happened at the prior site). Val cut the blame discussion and decided **not to trust BC here**: order the parts now rather than wait for Elizabeth's Monday physical count to reconcile the records. This is a live example of the **BC-as-single-source-of-truth** principle (the June 25 2026 governance note) breaking down at a physical move — assembly runs on the **Systems BC with no manufacturing module** (see June 26 2025), so inventory accuracy depends on manual re-recording. Genadi to check old purchase orders (a large tooled-bracket quantity was ordered before the move) to confirm stock should exist. The build/procurement substance is on [[wiki/topics/echo-home-gaming-device.md]]. **§15.8:** clear — inventory-accuracy / BC-records economics only; no named-person compensation. [[raw/Meeting_Notes_Echo_50_Machine_Run_Parts-July-23-2026.md]] [[raw/Meeting_Transcript_Echo_50_Machine_Run_Parts-July-23-2026.md]]
 
+## July 24 2026 — the Payment Hub "daily service fee" must carry through to a GL account (billing-fee-code cleanup)
+
+On the [[wiki/meetings/2026-07-24-payment-hub-daily-service-fee.md|Jul-24 10:00 AM ET Payment Hub daily-fee call]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/nathan-carver.md|Nathan Carver]], [[wiki/people/juan-martinez.md|Juan Martinez]], [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]) the BC side of Payment Hub billing was tightened: a **daily service fee** set on a location's Payment Hub setup screen must flow all the way to a **GL account in Business Central (MSBC)** and be traceable — e.g. a $5 daily fee visible in the GL. [[raw/Meeting_Notes_Payment_Hub_Daily_Service_Fee-July-24-2026.md]] Concrete cleanups agreed: the daily-fee GL account **41421 is mislabeled "ACH service fee revenue"** and Nathan will relabel it; **billing fee codes must be added for every known fee** (wallet, insufficient-funds, rejection/cancellation) **plus two reserved fields, each mapped to a proper GL account**, so a missed fee doesn't force another redesign later; and a **consolidated daily invoice posts through MSBC even when all lines are zero** (a zero invoice), for as long as an account is open. The daily-fee field defaults to zero on new locations. The Payment Hub product side of this is on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Jul-24). This extends the [[#july-20-2026--configuring-payment-hub-in-business-central-before-production-dimension-codes-gl-cod-terms|July-20 Payment Hub / MSBC configuration]] work. **§15.8:** allowed — fee-code / GL-mapping / billing-config economics only; no named-person compensation. [[raw/Meeting_Transcript_Payment_Hub_Daily_Service_Fee-July-24-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Payment_Hub_Daily_Service_Fee-July-24-2026.md]]
+- [[raw/Meeting_Transcript_Payment_Hub_Daily_Service_Fee-July-24-2026.md]]
 - [[raw/Meeting_Notes_Echo_50_Machine_Run_Parts-July-23-2026.md]]
 - [[raw/Meeting_Transcript_Echo_50_Machine_Run_Parts-July-23-2026.md]]
 - [[raw/Meeting_Notes_MRP_and_Sales_Watch_Demo-July-14-2026.md]]

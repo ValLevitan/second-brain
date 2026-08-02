@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 100
+source-count: 102
 open-commitments: 17
 open-questions: 11
 ---
@@ -617,8 +617,19 @@ On the weekly [[wiki/meetings/2026-07-17-game-design-stages-georgia-data.md|Jul-
 - **Proposed fix — a unique pay-table ID for V3 re-releases (a theory to test).** Juan suggested assigning a **new/unique pay table ID** (e.g. adding a "B" or a "2" suffix) to re-released themes in **Georgia V3** — the math can stay unchanged — to stop Intralot pulling in old-game data. Michael: starting fresh at least lets you reconcile the data against the games themselves. Framed as an **experiment**, not a decision. [[raw/Meeting_Transcript_Game_Design_Stages_Georgia_Data-July-17-2026.md]] [[raw/Meeting_Notes_Game_Design_Stages_Georgia_Data-July-17-2026.md]]
 - **QR code remains the only source of truth; 12 machines installed.** Val reaffirmed JVL does **not** rely on this Intralot report — only its own **QR-code data**. First QR scans are expected **next week** (~week of Jul 20); Juan will keep updating Georgia performance as scans come in. **12 machines are now installed** in Georgia. Juan doesn't know whether operators/masters see the same corrupt report, or whether the $17M would translate to the financial report the masters see. Juan will also go back to Intralot about the impossible numbers and check pay-table-ID handling with Pavel and Irina. [[raw/Meeting_Notes_Game_Design_Stages_Georgia_Data-July-17-2026.md]] [[raw/Meeting_Transcript_Game_Design_Stages_Georgia_Data-July-17-2026.md]]
 
+## Jul 24 2026 — Georgia V3 submission target: aim for Aug 17 (the show), but QA gates it
+
+On the weekly [[wiki/meetings/2026-07-24-game-production-schedule-georgia-v3.md|Jul-24 2:00 PM ET Game_Development meeting]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/michael-gottlieb.md|Michael Gottlieb]], [[wiki/people/lena.md|Lena Zhukova]], [[wiki/people/efim-podvoiski.md|Efim Podvoiski]], [[wiki/people/juan-martinez.md|Juan Martinez]]) the team set the plan for submitting **Georgia V3** to **Eclipse**. [[raw/Meeting_Notes_Game_Production_Schedule_Georgia_V3-July-24-2026.md]]
+
+- **Target submission ~Monday Aug 17, but only after thorough QA.** Juan's ideal date is **Aug 17** — the **Georgia show runs Tue Aug 18 – Fri Aug 21**, and Eclipse approvals have been averaging **five business days or less**, so an Aug-17 submission could be approved by the show's end. Michael wants more time if needed: **V2 was submitted aggressively, shipped with bugs, and field deployment had to be stopped several times**, so he wants **Ivan to QA V3 thoroughly before submission** — approval-by-show's-end is the goal, not a hard deadline. Juan agreed; **Twin Bison and Lions Riches** are expected to be ready to show at the Georgia show either way. [[raw/Meeting_Transcript_Game_Production_Schedule_Georgia_V3-July-24-2026.md]]
+- **Release roadmap and a coming breather.** Working assumption: **Georgia V3 mid-August, South Dakota to market ~September 1, Nebraska mid-October**. After those, nothing is pressing — the remaining verticals (South Dakota, Nebraska, Texas) are not customer-driven — so the team can slow down and put more time into technical debt; the transactional product should also be released by then. [[raw/Meeting_Notes_Game_Production_Schedule_Georgia_V3-July-24-2026.md]]
+
+The V3 game contents, Twin Bison math, Mega Hit Blaze branding, South Dakota / D27 VLT2, and build-tool technical debt from the same meeting are on [[wiki/topics/slot-game-design-principles.md]] (Jul-24). **§15.8:** clear — release-schedule / show-timing economics only; no named-person compensation.
+
 ## Sources
 
+- [[raw/Meeting_Notes_Game_Production_Schedule_Georgia_V3-July-24-2026.md]]
+- [[raw/Meeting_Transcript_Game_Production_Schedule_Georgia_V3-July-24-2026.md]]
 - [[raw/Meeting_Notes_IQ_Down_Printer_Bypass_Complete-July-17-2026.md]]
 - [[raw/Meeting_Transcript_IQ_Down_Printer_Bypass_Complete-July-17-2026.md]]
 - [[raw/Meeting_Notes_Game_Design_Stages_Georgia_Data-July-17-2026.md]]
