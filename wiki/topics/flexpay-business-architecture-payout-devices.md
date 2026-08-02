@@ -3,7 +3,7 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS]
-source-count: 131
+source-count: 134
 open-commitments: 51
 open-questions: 6
 ---
@@ -1001,6 +1001,27 @@ On the [[wiki/meetings/2026-07-02-product-state-of-readiness.md|July-2 9:19 PM r
 - **Georgia trip + first hands-on test.** Andrei's Georgia trip was approved (budget a "go," apartment booked for two months, in the Georgia office **Monday July 13**) to connect the IQ release candidate to **Mother Goose + machines** and test the full cycle for gaps/defects — the first real hands-on test of the live product. Juan is to contact **John at InCom** (with Alan) to verify the second/rollover card conversion (ATM-to-instant-cash) needed for the Georgia recycler, and report whether to push for integration — this determines whether the Georgia recycler is feasible for the show. [[raw/Meeting_Notes_Product_State_of_Readiness-July-2-2026.md]]
 - **Open question — show Flex Pay too?** Flex IQ currently talks only to **Mother Goose**, not Flex Port yet, whereas **Flex Pay ↔ Flex Port already works** — possibly an easier lift to demonstrate. Left open. **§15.8:** clear — device-readiness / show / product economics only, no named-person compensation. [[raw/Meeting_Notes_Product_State_of_Readiness-July-2-2026.md]]
 
+## Jul 7 2026 — Flex IQ build/delivery state and the move from USB sticks to over-the-air updates
+
+On the [[wiki/meetings/2026-07-07-flexiq-cicd-requirements-pipeline.md|Jul-7 3:20 PM CI/CD review]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/irina-shishko.md|Irina Shishko]]) Pavel described how a Flex IQ build reaches a device today, and the group set the direction for remote updates. The pipeline/requirements-engineering side (deployment tool, approval gate, reverse-requirements method) is on [[wiki/topics/github-release-management-pipeline.md]] (Jul-7). [[raw/Meeting_Notes_FlexIQ_CICD_Requirements_Pipeline-July-7-2026.md]]
+
+- **How a build reaches a Flex IQ today — three GitHub actions.** One **builds the binary artifact** for the device; one **makes the installer** (binary + a prebuilt OS packaged into an SD-card image, used at the factory for the first install with the case open); one **builds an encrypted binary for USB-stick field updates** with no case opening. The **USB update path**: the machine finds the file on the stick, pulls it in, and on the next power cycle **decrypts it, checks the version is newer, installs, and tries to boot the new software** — if boot and database init succeed it **commits** the new version, otherwise it **rolls back** to the old one. [[raw/Meeting_Notes_FlexIQ_CICD_Requirements_Pipeline-July-7-2026.md]]
+- **Move past USB sticks to over-the-air ("download") updates — targeted Sept/Oct, not August.** Val wants remote updates rather than physical USB sticks. Pavel said the infrastructure is **basically built** and the code **probably already exists** (Sasha wrote it) but **nobody has tested it**; with planning and bug-fixing it is doable in a short, reasonable time — but **not for the August exhibition**. Target is **September/October**. Delivery must go through a management step with an approval gate and a small trial batch first (never to all machines at once) — see [[wiki/topics/github-release-management-pipeline.md]] (Jul-7). §15.8 clear — device build/delivery economics only; no named-person compensation. [[raw/Meeting_Notes_FlexIQ_CICD_Requirements_Pipeline-July-7-2026.md]]
+
+## Jul 7 2026 — competitor payout solutions in Georgia: the "Access" loyalty card, and Payline/AppShots' pulse approach
+
+Georgia competitive-landscape intel from the [[wiki/meetings/2026-07-07-ga-coam-inventory-pipeline-review.md|Jul-7 5:03pm ET review]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/felipe-miranda.md|Felipe Miranda]]), relevant to JVL's own payout-device positioning. The full Georgia-market and rollout intel is on [[wiki/projects/georgia-market-rollout.md]] (Jul-7). [[raw/Meeting_Notes_GA_COAM_Inventory_Pipeline_Review-July-7-2026.md]]
+
+- **"Access" — a loyalty/players card that converts to a gift card.** The dominant competitor solution, run off a **small monitor on the machine** (like a Kroger POS), priced ~**$100/month per 6-machine location** (~$15/machine/month) with the equipment nearly free. Preferred by many operators for **transaction security** and for connecting **both SaaS and non-SaaS machines**. [[raw/Meeting_Notes_GA_COAM_Inventory_Pipeline_Review-July-7-2026.md]]
+- **Payline / AppShots — a pulse approach "similar to JVL's."** Gaining ground because it needs only **one printer off the Mother Goose** and **sends credits by pulse** — Felipe called this similar to JVL's own approach — as operators move away from kiosks toward something simpler. §15.8 clear — competitor/market economics only; no named-person compensation. [[raw/Meeting_Notes_GA_COAM_Inventory_Pipeline_Review-July-7-2026.md]]
+
+## Jul 7 2026 — the Payment Hub operators dashboard and the initiative → capability → project → requirement hierarchy
+
+On the [[wiki/meetings/2026-07-07-payment-hub-operators-dashboard-frontend.md|Jul-7 9:01pm ET call]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/andrei-klimovich.md|Andrei Klimovich]], [[wiki/people/juan-martinez.md|Juan Martinez]]) Andrei reported on the **Payment Hub operators-dashboard frontend** and Val corrected how the work must be filed. The dashboard is one of the transactional products; the requirements method and the Jira hierarchy Val laid out are on [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Jul-7). [[raw/Meeting_Transcript_Payment_Hub_Operators_Dashboard_Frontend-July-7-2026.md]]
+
+- **Operators-dashboard frontend nearly speced.** Andrei has covered almost all **operator-role** requirements (only **5 left**, finalizing next day), giving developers a solid base; his next step is a **JVL-role prototype + requirements**, targeting a **prototype HTML markup for the whole MVP operational dashboard** before he leaves for Georgia. Testing of the live IQ next week must all land in **Jira** — "if it's not in Jira it's not done." [[raw/Meeting_Transcript_Payment_Hub_Operators_Dashboard_Frontend-July-7-2026.md]]
+- **The Payment Hub is filed as a project under an initiative, not a "product."** In the new structure the **product level disappears**: an initiative like **"transactional equipment"** sits above, **Flex IQ (and the Payment Hub dashboard work) are projects** under it, **capabilities** open under the project, and **requirements are loose reusable `REQ` items** linked into a capability refinement. Next up for Andrei and Juan (after the "income"/skill-pay call): define **capabilities and requirements for the recycler and dispenser Georgia version**, needed by August. §15.8 clear — product-structure economics only; no named-person compensation. [[raw/Meeting_Transcript_Payment_Hub_Operators_Dashboard_Frontend-July-7-2026.md]]
+
 ## Open commitments
 
 - [ ] [[wiki/people/juan-martinez.md|Juan Martinez]] — produce weekend **sample dashboard reports** in two phases (phase 1: Moo the Goose + Incom card-transaction data, no SMIB/Flexport; phase 2: with SMIB + port), using the real field structure with sample data, as the starting point for the dashboard "skeleton" — due ~May 24–25 2026 — [[raw/Meeting_Notes_Transactional_MVP_Strategy-May-22-2026.md]]
@@ -1200,3 +1221,6 @@ On the [[wiki/meetings/2026-07-02-product-state-of-readiness.md|July-2 9:19 PM r
 - [[raw/Meeting_Notes_NTN_Operator_Introduction-June-22-2026.md]]
 - [[raw/Transcript_Texas_Operators_Reach_Out-June-23-2026.md]]
 - [[raw/Meeting_Notes_Product_State_of_Readiness-July-2-2026.md]]
+- [[raw/Meeting_Notes_FlexIQ_CICD_Requirements_Pipeline-July-7-2026.md]]
+- [[raw/Meeting_Notes_GA_COAM_Inventory_Pipeline_Review-July-7-2026.md]]
+- [[raw/Meeting_Transcript_Payment_Hub_Operators_Dashboard_Frontend-July-7-2026.md]]

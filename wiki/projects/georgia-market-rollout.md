@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 90
+source-count: 91
 open-commitments: 15
 open-questions: 8
 ---
@@ -560,6 +560,16 @@ On a brief [[wiki/meetings/2026-07-06-call-with-felipe.md|Jul-6 4:08pm ET call]]
 - **LAP as a footprint-expansion play (still open).** Val restated that the local-area progressive was the idea of **occupying more footprint** — he still believes it is "a wonderful idea," they just haven't found the "secret sauce," and he remains very interested in implementing it. Felipe agreed a linked setup would be great but would need **different kinds of progressives**; now that there is a game with **three different progressives**, something more interesting could be built. Left as a live idea, not an action. [[raw/Meeting_Transcript_Call_with_Felipe_Miranda_Giorgi-July-6-2026.md]]
 - **The 10-machine V43 placement is underway.** Felipe has **configured all 10 machines with the new RIS approved by Juan at a $5 max**; games are installing, with testing and printing in progress, and he is calling operators to **start pickups the next day**. This continues the [[#jun-24-2026--felipe-forecast-review-7-cabinets-picked-up-21-by-month-end-a-33-cabinet-july-forecast|Jun-24 forecast]] / [[#jun-22-2026--arc-deal-debrief-30-day-v43-trial-parallel-d27-upgrades-printers-on-purchase-only|ARC 10-V43 rollout]] push. §15.8 clear — operator/deal/machine and product-placement economics only; no named-person compensation. [[raw/Meeting_Transcript_Call_with_Felipe_Miranda_Giorgi-July-6-2026.md]]
 
+## Jul 7 2026 — Georgia market intel (competitor "Access" cards, operator sentiment) and the inventory/pipeline review
+
+On a brief [[wiki/meetings/2026-07-07-ga-coam-inventory-pipeline-review.md|Jul-7 5:03pm ET review]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/felipe-miranda.md|Felipe Miranda]]) Felipe relayed what competitors are selling in Georgia and reviewed the current pipeline. The competitor payout-device angle (the "Access" loyalty card, Payline/AppShots' pulse method) is also on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Jul-7). [[raw/Meeting_Notes_GA_COAM_Inventory_Pipeline_Review-July-7-2026.md]]
+
+- **What competitors are selling — "Access."** The buzz in Georgia is all about **"Access" solutions**: a **loyalty/players card that converts to a gift card**, run off a small monitor mounted on the machine (like a Kroger POS). Pricing is about **$100/month per location of 6 machines** — roughly **$15/machine/month** — with the equipment nearly free. It used to cost more when **Tyson** was the only distributor selling Access to masters in Georgia; now there are **three main sellers — Genesis, Raul, and Tyson**, with **Raul the best-known and cheapest** and selling a lot. Felipe will call Raul to get exact installation and device pricing. [[raw/Meeting_Notes_GA_COAM_Inventory_Pipeline_Review-July-7-2026.md]]
+- **The "income" solution is a fallback.** Some operators took the "income" solution to meet the deadline, but it is seen as a fallback when nothing better is available — not much demand. [[raw/Meeting_Notes_GA_COAM_Inventory_Pipeline_Review-July-7-2026.md]]
+- **Operator sentiment — moving off kiosks.** Felipe spoke to **Salim** (formerly VP at Gomoa, now with **Dixie**): operators are unhappy with current solutions, especially **kiosks**, and everyone is moving toward something simpler. **Payline / AppShots** is gaining ground because it needs only one printer off the Mother Goose and sends credits by pulse — **similar to JVL's approach** — though many still prefer Access for its transaction security and its ability to connect both SaaS and non-SaaS machines. [[raw/Meeting_Notes_GA_COAM_Inventory_Pipeline_Review-July-7-2026.md]]
+- **Epic trial — a second machine, and why the QR code matters.** Epic picked up a **second machine** for the trial, likely installed the next day. Owner **Kenny** is hard to reach, but his right-hand man **Dustin** approved it and will provide the **call ID and QR code**. The QR code is load-bearing — **without it JVL doesn't get paid per game** — so Felipe made a tutorial telling operators to scan the code and also send a backup photo (the photo carries the serial number needed to connect). Felipe is also still trying to reach **Ryan Deaton**, who has been dodging calls. [[raw/Meeting_Notes_GA_COAM_Inventory_Pipeline_Review-July-7-2026.md]]
+- **Pipeline / forecast — Georgia only (decision).** June actuals in Georgia: **9 machines**. July forecast: **15 to 20 games, of which 15 are sold and going on test** — separate from the **14 V43 units**, roughly **29 games in total**. Val is tracking **Georgia only** for this review and is **not counting** the 10 South Dakota (MG Oil) machines or the 1 in Texas that Felipe also cited. §15.8 clear — market/competitor/operator and machine economics only; no named-person compensation. [[raw/Meeting_Notes_GA_COAM_Inventory_Pipeline_Review-July-7-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Call_with_Felipe_Miranda_Giorgi-July-6-2026.md]]
@@ -652,3 +662,4 @@ On a brief [[wiki/meetings/2026-07-06-call-with-felipe.md|Jul-6 4:08pm ET call]]
 - [[raw/Meeting_Notes_Forecast_Review_Felipe-June-24-2026.md]]
 - [[raw/Meeting_Notes_V4_Games_Design_Feedback-June-24-2026.md]]
 - [[raw/Meeting_Notes_Felipe_Operator_Invoice_Discount-June-24-2026.md]]
+- [[raw/Meeting_Notes_GA_COAM_Inventory_Pipeline_Review-July-7-2026.md]]
