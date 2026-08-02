@@ -3,8 +3,8 @@ type: topic
 title: RIS (remote install/setup system) and machine states
 date: 2026-02-06
 aliases: [RIS, remote install system, remote setup, RIS modernization, machine states, sold-machine RIS, RIS subscription, manual override screens, participation financed debt-free]
-source-count: 3
-open-questions: 2
+source-count: 5
+open-questions: 3
 ---
 
 # RIS (remote install/setup system) and machine states
@@ -45,19 +45,33 @@ The current RIS was "designed with the requirements of the past" — mainly **pr
 
 - Pavel: if a sold machine's **RAM is cleared**, it needs the RIS previously used on it re-applied to keep operating. Val pressed for an **irrevocable reference number that survives a RAM wipe**; Pavel confirmed today that ID relates to the **Dallas one-wire "cube" that holds the passport information** on the CPU board. The restore can only ever return the machine to **the last state JVL officially sold it at**. [[raw/RIS Modernization & Operator Flexibility Alignment.md]]
 
+## July 8 2026 — RIS personas and a field-editable RIS
+
+By July 2026 the RIS **code had been reverse-engineered into human-readable requirements**, which surfaced five "personas" (role archetypes, not real people) — the actors the RIS redesign must serve. Two same-day working sessions worked through them: [[wiki/people/val-levitan.md|Val]] with [[wiki/people/juan-martinez.md|Juan]] first ([[wiki/meetings/2026-07-08-ris-persona-clarity.md|2:45 PM]]), then Val with [[wiki/people/pavel.md|Pavel]] and [[wiki/people/irina-shishko.md|Irina]] ([[wiki/meetings/2026-07-08-ris-persona-roles-engineering-review.md|3:46 PM]]). The full persona framework (the five roles, their renames, and the operator-side additions) lives on [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (July-8 section); the RIS-specific design points are here.
+
+- **RIS stays, but becomes field-editable.** A key design intent: keep RIS because it makes installation fast, but allow the configuration to be **tweaked in the field after install** — which cannot be done today. This is the same "manual *override*, not manual *entry*" direction opened Feb-6-2026 (editable-per-screen flags), now attached to the persona work. (Juan, endorsed by Val.) [[raw/Meeting_Notes_RIS_Persona_Clarity-July-8-2026.md]]
+- **The reverse-engineering produced only 22, too-coarse requirements.** Because the RIS code ties whole pages to one person, the 22 requirements bundle too much; Val wants each split into five or more finer, singular requirements. The redesign method: first document how RIS works today, then use that gap analysis to design new personas → requirements → features → code. [[raw/Meeting_Notes_RIS_Persona_Clarity-July-8-2026.md]]
+- **The field workflow the redesign enables.** Persona 5 builds the **immovable frame** (the absolute limits no one can cross); Persona 1 — a JVL role renamed **"Production Personnel"** — prepares the machine and sets default modes before the operator takes it; if the master operator does not want those modes, someone under him reconfigures the machine as the operator wishes and releases it that way; location personnel have only **limited capabilities at the site**. Market-specific limits (e.g. different values for Georgia, Nebraska, Texas) are set by Persona 4 but only within Persona 5's frame. [[raw/Meeting_Notes_RIS_Persona_Roles_Engineering_Review-July-8-2026.md]]
+- **New operator-side roles mean new front-end work.** Three of the personas — **master operator, operator administrator (renamed "Operator Production Supervisor"), and location personnel** — sit on the operator's side, outside JVL. These are roles JVL never had, so the RIS rebuild needs new capabilities and front-end screens written for them; Pavel and Irina are to write those once the personas are settled. [[raw/Meeting_Notes_RIS_Persona_Roles_Engineering_Review-July-8-2026.md]]
+- **An undecided control point.** Val flagged it as still open whether **location personnel (and tips) can influence a machine's configuration**, or whether selling a machine hands full control to the operator. [[raw/Meeting_Notes_RIS_Persona_Roles_Engineering_Review-July-8-2026.md]]
+
 ## Dated timeline (RIS thread)
 
 - **Apr 3 2025** — RIS ↔ Business Central licensing: license software **per operator by installation count**, enforced via the RIS manager reading BC invoice data; Georgia-first. [[wiki/decisions/2025-04-03-license-software-per-operator-not-machine.md]] [[raw/ris_business_central_integration-april-3-2025.md]]
 - **Apr 24 2025** — first Omni release ships legacy setup screens **plus** the new **React-based remote/USB initial-setup screens** (the RIS "installation test" screen presents settings loaded from USB or remote). [[wiki/decisions/2025-04-24-omni-first-release-legacy-plus-remote-setup-screens.md]] [[raw/set_up_screen_omni-apr-24-2025.md]]
 - **Feb 6 2026** — modernise RIS for the **sold-machine** world: three machine states, editable-per-screen flags (manual override), RIS-as-subscription, lock/unlock + override reporting — while keeping finance/jurisdiction control absolute. Undertaking: a **decision-flow diagram** of RIS across the states; follow-up Wed the 11th. [[raw/RIS Modernization & Operator Flexibility Alignment.md]]
+- **Jul 8 2026** — the RIS code, reverse-engineered into requirements, surfaced **five personas**; two same-day sessions clarified and refined them (with three new operator-side roles) and confirmed the direction to keep RIS but make it **field-editable** after install. The 22 reverse-engineered requirements were judged too coarse (split each into 5+). Full persona framework on [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (July-8). [[raw/Meeting_Notes_RIS_Persona_Clarity-July-8-2026.md]] [[raw/Meeting_Notes_RIS_Persona_Roles_Engineering_Review-July-8-2026.md]]
 
 ## Open questions
 
 - How a **not-yet-JVL-customer new owner** gets any RIS benefit on a machine that has been off the floor for months, without JVL granting server access it does not want to grant (legal-liability concern) — discussed, not resolved. [[raw/RIS Modernization & Operator Flexibility Alignment.md]]
 - Whether **participation** machines (Florida, Colombia) fit the invoice/licensing model — carried over unresolved from the Apr-3-2025 session. [[raw/ris_business_central_integration-april-3-2025.md]]
+- Whether **location personnel** (and tips) can influence a sold machine's RIS configuration, or whether full control passes to the operator once the machine is sold — flagged undecided Jul-8-2026. [[raw/Meeting_Notes_RIS_Persona_Roles_Engineering_Review-July-8-2026.md]]
 
 ## Sources
 
 - [[raw/RIS Modernization & Operator Flexibility Alignment.md]]
 - [[raw/ris_business_central_integration-april-3-2025.md]]
 - [[raw/set_up_screen_omni-apr-24-2025.md]]
+- [[raw/Meeting_Notes_RIS_Persona_Clarity-July-8-2026.md]]
+- [[raw/Meeting_Notes_RIS_Persona_Roles_Engineering_Review-July-8-2026.md]]
