@@ -3,7 +3,7 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention, installment payments, aged receivables, Customer Ledger Entries, category-based terms, subscription module, parts vs machines terms, Black Horse Entertainment]
-source-count: 33
+source-count: 34
 open-questions: 2
 ---
 
@@ -248,8 +248,17 @@ On the [[wiki/meetings/2026-06-25-bc-single-source-of-truth.md|June-25 6:11 PM d
 - **Lev's caveat — situational data and maintenance overhead.** Lev agreed with the single-source-of-truth principle but warned the approach should not create **excessive maintenance overhead**, especially for **situational data that changes rapidly during active procurement** (revision back-and-forth, delays, exceptions). Val acknowledged some items will need workarounds for JVL's unique processes but insisted the **foundation must be one source of truth**. How to hold this transient data in BC without over-burdening it is left open. [[raw/Meeting_Notes_BC_Single_Source_of_Truth-June-25-2026.md]]
 - **Georgia warehouse inventory reconciliation.** A **physical recount** was done the prior Thursday/Friday and corrections are being entered. Val estimated the numbers will be fully accurate within **2–3 weeks** (conservatively 3 months); some areas of the warehouse will need to be recounted again. The reconciliation continues with additional recounts. **§15.8:** clear — BC/data-governance/procurement/warehouse economics only; no named-person compensation. [[raw/Meeting_Notes_BC_Single_Source_of_Truth-June-25-2026.md]]
 
+## July 2 2026 — connecting CIBC to Business Central (aggregator-payment reconciliation)
+
+On the [[wiki/meetings/2026-07-02-cibc-business-central-integration.md|July-2 CIBC call]] ([[wiki/people/val-levitan.md|Val]] with CIBC's Michael Hill and Sanjay Vishwanathan, plus an unnamed advisor) the banking side of receiving third-party "aggregator" payments (account structure) is on [[wiki/organizations/cibc.md]] (July-2); the BC integration side is here. This continues the [[#feb-2-2026--reconciliation-stays-in-business-central-not-payment-hub|Feb-2 "reconciliation lives in BC"]] principle — the bank feed is reconciled inside Business Central, not in a separate tool. [[raw/Meeting_Notes_CIBC_Business_Central_Integration-July-2-2026.md]]
+
+- **Accounts are run electronically through an API; Val uses Microsoft Business Central.** CIBC used QuickBooks as its example; Val runs on **Business Central**. CIBC confirmed it has clients integrating Business Central and that the connection just needs to be "turned on." **Most of the integration work happens on the Business Central side, not CIBC's.** [[raw/Meeting_Notes_CIBC_Business_Central_Integration-July-2-2026.md]]
+- **CIBC's "open access" API is the connection point.** Monica (working with Michael) was already in the process of enabling this "open access" API so BC can read the CIBC account; Michael had sent her the instructions. Val treated confirming/finishing this connection as urgent, to be done with Monica and his tech person on the existing account. [[raw/Meeting_Notes_CIBC_Business_Central_Integration-July-2-2026.md]]
+- **The API's role, once Val dropped the on-command force-transfer idea, is reconciliation.** Rather than the bank API triggering transfers, the accountants reconcile each visible credit in the account against the aggregator's report inside BC. **§15.8:** clear — banking / BC-integration / reconciliation economics only, no named-person compensation. *(The follow-up Outlook thread that reworked this is out of scope per §1 — not captured.)* [[raw/Meeting_Notes_CIBC_Business_Central_Integration-July-2-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_CIBC_Business_Central_Integration-July-2-2026.md]]
 - [[raw/Meeting_Notes_MRP_Excel_Workbook_Refinement-June-1-2026.md]]
 - [[raw/Meeting_Transcript_bc_material_requirements_mcp-May-11-2026.md]]
 - [[raw/Meeting_Notes_bc_material_requirements_mcp-May-11-2026.md]]
