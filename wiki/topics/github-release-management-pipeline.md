@@ -3,7 +3,7 @@ type: topic
 title: GitHub release management and the CI/CD release pipeline
 date: 2025-10-21
 aliases: [release management, release pipeline, CI/CD, GitHub Actions pipeline, release artifacts, ISO image release, release manager role, continuous delivery, flex os installer, manifest, release candidate, single source of truth, feature branch discipline, sprints vs kanban, Jira GitHub link, FlexPos IP 902, FP 519, IP 89 dashboard grooming, bulk archive automation, Jira resolutions cleanup, Flex-POS Transition to Production, alpha build release tracking]
-source-count: 79
+source-count: 81
 open-questions: 8
 ---
 
@@ -629,8 +629,19 @@ On the [[wiki/meetings/2026-07-20-lte-modem-jira-structure.md|July-20 6:06 AM se
 - **The Jira structure for the modem work.** Pavel proposed placing it under **IP-90 Applications** (value stream), under initiative **IP-481 Nova Gaming Platform Land-based**: create a **capability** stating the platform supports **LTE modems**, with **features** under it depending on which project needs fixes — one project relating to the operating system (fixes in LGS). Today the product level and capability level are the same level. [[raw/Meeting_Transcript_LTE_Modem_Jira_Structure-July-20-2026.md]]
 - **No new Jira project until the repository exists.** Dmitri's rule (the standard ties projects to repositories): **do not create a new Jira project until the repository exists.** A new repo will be needed — the **x86 platform SDK** (analog of the RK3568 platform SDK) — so its Jira project follows once that repo is created. Val ended the recording so the transcript could serve as the working spec, to build the structure with Pavel at 2:00. **§15.8:** clear — Jira-planning / repository-organization economics only, no named-person compensation. [[raw/Meeting_Transcript_LTE_Modem_Jira_Structure-July-20-2026.md]] [[raw/Meeting_Notes_LTE_Modem_Jira_Structure-July-20-2026.md]]
 
+## Jul 21 2026 — the AI dev-loop mechanics and output destinations (engineering-prompt walkthrough)
+
+On the [[wiki/meetings/2026-07-21-ai-engineering-prompt-review.md|July-21 12:48 PM segment]] of the Alignment Schedule Review ([[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel Frolov]]) Val and Pavel walked his engineering **prompt** (the "Constitution" for the AI development loop) paragraph by paragraph. The prompt-authoring form is on [[wiki/topics/ai-assisted-development.md]] (Jul 21 2026); this captures how the loop plugs into the JVL Jira/GitHub pipeline. [[raw/Meeting_Notes_AI_Engineering_Prompt_Review-July-21-2026.md]]
+
+- **What the agent does.** It reads a **brief plus the repos and Jira** and **proposes capabilities, features, and stories** following the existing JVL standards and the **5-level Jira hierarchy** — the same hierarchy standard structured on the [[#jul-20-2026--structuring-the-lte-modem-work-in-jira-per-the-documented-planning-standard|Jul-20 LTE-modem work]]. Val expects it to raise **many questions**, because the capability/feature information currently in Jira and Confluence is **vague and poorly formatted**. [[raw/Meeting_Transcript_AI_Engineering_Prompt_Review-July-21-2026.md]] [[raw/Meeting_Notes_AI_Engineering_Prompt_Review-July-21-2026.md]]
+- **Standing rules baked into the prompt.** The agent works inside **Jira / Confluence / Cloud CAD read-only via MCP** — **propose only, do not create or move issues**; use **current** engineering practices, not old ones; **check the knowledge base before asking**; **do not invent facts**; when **not confident or on a conflict, ask for clarification** rather than guess or assume; and **correspond by email to Pavel** on engineering questions, with follow-ups. [[raw/Meeting_Transcript_AI_Engineering_Prompt_Review-July-21-2026.md]] [[raw/Meeting_Notes_AI_Engineering_Prompt_Review-July-21-2026.md]]
+- **Capability entry points settled in Jira.** **Flex-1000-related capabilities live under IP-747**; **Nova-related capabilities live under IP-480**. Pavel has already created and sorted them there, so paragraph 8 of the prompt will state these concrete entry points. Adjacent engineering decisions Val left to Pavel: the **kernel** (Val suggests staying on **5.15** but defers the call) and the **separate modem/driver handling**. [[raw/Meeting_Transcript_AI_Engineering_Prompt_Review-July-21-2026.md]] [[raw/Meeting_Notes_AI_Engineering_Prompt_Review-July-21-2026.md]]
+- **Output destinations for the loop.** Proposals are written as **draft `.md`**; final **capabilities/features go into Jira**; **code and the standards developed go into GitHub** (the common product repo / knowledge base); and **no changes are made without approval**. Most proposed items can be approved with a checkmark ("apply"); for the rest the agent must **surface explicit open questions** — Pavel's example: which repository a proposal targets (e.g. **Flex IQ vs Flex Risa**) should be asked, not guessed. §15.8 clear — Jira/GitHub-pipeline and AI-loop economics only, no named-person compensation. [[raw/Meeting_Transcript_AI_Engineering_Prompt_Review-July-21-2026.md]] [[raw/Meeting_Notes_AI_Engineering_Prompt_Review-July-21-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_AI_Engineering_Prompt_Review-July-21-2026.md]]
+- [[raw/Meeting_Transcript_AI_Engineering_Prompt_Review-July-21-2026.md]]
 - [[raw/Meeting_Notes_Galaxy_Nova_Platform_Strategy-July-16-2026.md]]
 - [[raw/Meeting_Transcript_Galaxy_Nova_Platform_Strategy-July-16-2026.md]]
 - [[raw/Meeting_Notes_RIS_Prose_Documentation_Standard-July-2-2026.md]]
