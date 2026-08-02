@@ -2,8 +2,8 @@
 type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
-aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS]
-source-count: 134
+aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS, ATM registration, slim ATM]
+source-count: 135
 open-commitments: 51
 open-questions: 6
 ---
@@ -1022,6 +1022,13 @@ On the [[wiki/meetings/2026-07-07-payment-hub-operators-dashboard-frontend.md|Ju
 - **Operators-dashboard frontend nearly speced.** Andrei has covered almost all **operator-role** requirements (only **5 left**, finalizing next day), giving developers a solid base; his next step is a **JVL-role prototype + requirements**, targeting a **prototype HTML markup for the whole MVP operational dashboard** before he leaves for Georgia. Testing of the live IQ next week must all land in **Jira** — "if it's not in Jira it's not done." [[raw/Meeting_Transcript_Payment_Hub_Operators_Dashboard_Frontend-July-7-2026.md]]
 - **The Payment Hub is filed as a project under an initiative, not a "product."** In the new structure the **product level disappears**: an initiative like **"transactional equipment"** sits above, **Flex IQ (and the Payment Hub dashboard work) are projects** under it, **capabilities** open under the project, and **requirements are loose reusable `REQ` items** linked into a capability refinement. Next up for Andrei and Juan (after the "income"/skill-pay call): define **capabilities and requirements for the recycler and dispenser Georgia version**, needed by August. §15.8 clear — product-structure economics only; no named-person compensation. [[raw/Meeting_Transcript_Payment_Hub_Operators_Dashboard_Frontend-July-7-2026.md]]
 
+## Jul 9 2026 — ATM registration is the gate to launch the bill recycler (John Houseal / InComm)
+
+On a short [[wiki/meetings/2026-07-09-bill-recycler-atm-registration.md|Jul-9 call]] ([[wiki/people/val-levitan.md|Val]] with John Houseal of [[wiki/organizations/incom.md|InComm]], external) Val worked the requirement that JVL must be **registered or sponsored for ATM registration / ATM-network access** before it can introduce the **bill-recycler** product — the recycler dispenses cash via an ATM function, so JVL needs standing on an ATM network to launch. [[raw/Meeting_Notes_Bill_Recycler_ATM_Registration-July-9-2026.md]]
+
+- **Two paths Val understands to ATM registration.** (1) **Get sponsored by your own bank** — costs about **$10,000–$15,000** and is a lengthy process; (2) **ride on a company that is already registered** (piggyback on an existing registration) to jumpstart faster. Val has **already approached his own bank** to register independently (path 1), but wants to know whether path 2 is viable to move quicker. [[raw/Meeting_Notes_Bill_Recycler_ATM_Registration-July-9-2026.md]]
+- **InComm cannot sponsor it.** John said InComm works with ATM providers but has **no ATM registrations of its own** and **does not touch the money-services business (MSB)**, so it cannot sponsor JVL directly. Instead he offered to introduce **Maya Fuentes** — a board member of the ATM Association of the US and a personal friend — as the ATM-registration expert (she later surfaces as JVL's [[wiki/organizations/herring-bank.md|Herring Bank]] cash-management contact). §15.8 clear — ATM-registration/sponsorship economics only; no named-person compensation. [[raw/Meeting_Notes_Bill_Recycler_ATM_Registration-July-9-2026.md]]
+
 ## Open commitments
 
 - [ ] [[wiki/people/juan-martinez.md|Juan Martinez]] — produce weekend **sample dashboard reports** in two phases (phase 1: Moo the Goose + Incom card-transaction data, no SMIB/Flexport; phase 2: with SMIB + port), using the real field structure with sample data, as the starting point for the dashboard "skeleton" — due ~May 24–25 2026 — [[raw/Meeting_Notes_Transactional_MVP_Strategy-May-22-2026.md]]
@@ -1224,3 +1231,4 @@ On the [[wiki/meetings/2026-07-07-payment-hub-operators-dashboard-frontend.md|Ju
 - [[raw/Meeting_Notes_FlexIQ_CICD_Requirements_Pipeline-July-7-2026.md]]
 - [[raw/Meeting_Notes_GA_COAM_Inventory_Pipeline_Review-July-7-2026.md]]
 - [[raw/Meeting_Transcript_Payment_Hub_Operators_Dashboard_Frontend-July-7-2026.md]]
+- [[raw/Meeting_Notes_Bill_Recycler_ATM_Registration-July-9-2026.md]]

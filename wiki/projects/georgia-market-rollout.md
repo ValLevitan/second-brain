@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 91
+source-count: 92
 open-commitments: 15
 open-questions: 8
 ---
@@ -570,9 +570,17 @@ On a brief [[wiki/meetings/2026-07-07-ga-coam-inventory-pipeline-review.md|Jul-7
 - **Epic trial — a second machine, and why the QR code matters.** Epic picked up a **second machine** for the trial, likely installed the next day. Owner **Kenny** is hard to reach, but his right-hand man **Dustin** approved it and will provide the **call ID and QR code**. The QR code is load-bearing — **without it JVL doesn't get paid per game** — so Felipe made a tutorial telling operators to scan the code and also send a backup photo (the photo carries the serial number needed to connect). Felipe is also still trying to reach **Ryan Deaton**, who has been dodging calls. [[raw/Meeting_Notes_GA_COAM_Inventory_Pipeline_Review-July-7-2026.md]]
 - **Pipeline / forecast — Georgia only (decision).** June actuals in Georgia: **9 machines**. July forecast: **15 to 20 games, of which 15 are sold and going on test** — separate from the **14 V43 units**, roughly **29 games in total**. Val is tracking **Georgia only** for this review and is **not counting** the 10 South Dakota (MG Oil) machines or the 1 in Texas that Felipe also cited. §15.8 clear — market/competitor/operator and machine economics only; no named-person compensation. [[raw/Meeting_Notes_GA_COAM_Inventory_Pipeline_Review-July-7-2026.md]]
 
+## Jul 10 2026 — Herring Bank cash-management partnership for the Georgia drop-cassette cash
+
+On a first, exploratory [[wiki/meetings/2026-07-10-herring-bank-cash-management-partnership.md|Jul-10 call]] ([[wiki/people/val-levitan.md|Val]] with Maya Fuentes of [[wiki/organizations/herring-bank.md|Herring Bank]], external — the contact John Houseal introduced) Val explored a **cash-management partnership** to handle the cash that piles up inside JVL's slim recyclers once they are deployed in Georgia. Device context on [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/Meeting_Notes_Herring_Bank_Cash_Management_Partnership-July-10-2026.md]]
+
+- **The cash-handling problem.** A slim recycler has a locked **"drop cassette"** (metal containers with handles) where excess cash goes once the recycling cassettes are full. That drop cash needs periodic **pickup and deposit**, and Val noted it would be hard for JVL to deposit cash into banks itself — where JVL operates the device directly it needs an armored-car / cash-in-transit service for the drop cassettes. [[raw/Meeting_Notes_Herring_Bank_Cash_Management_Partnership-July-10-2026.md]]
+- **What Herring Bank would do.** Maya described Herring managing the **armored-car / cash-in-transit (CIT)** back end for pickups, depositing into JVL's account at Herring Bank; asked about other banks, she said the cash routes from the armored car through CIT to the **Fed**. **Next step:** Maya recommended a call between Val and Herring Bank's owner, which Val is arranging (with details on coverage, account setup, and pricing still to come). No formal decisions — an introductory call. §15.8 clear — banking/cash-management economics only; no named-person compensation. [[raw/Meeting_Notes_Herring_Bank_Cash_Management_Partnership-July-10-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Call_with_Felipe_Miranda_Giorgi-July-6-2026.md]]
+- [[raw/Meeting_Notes_Herring_Bank_Cash_Management_Partnership-July-10-2026.md]]
 - [[raw/Meeting_Transcript_Felipe_credit_terms_sales_strategy-March-31-2026.md]]
 - [[raw/Meeting_Transcript_Alignment_Andrei_Klimovich-2-March-27-2026.md]]
 - [[raw/Meeting_Notes_Transactional_PMM_Appointment-March-27-2026.md]]

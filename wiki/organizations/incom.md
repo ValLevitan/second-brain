@@ -3,7 +3,7 @@ type: organization
 title: Incom (payment processor)
 date: 2025-02-27
 aliases: [Incom, InComm, Incomm, Income, Incom Payments]
-source-count: 27
+source-count: 28
 open-commitments: 5
 open-questions: 2
 ---
@@ -189,9 +189,14 @@ On the [[wiki/meetings/2025-09-03-flex-capabilities-weekly-ach-dispute-pos-desig
 - **Dispute-resolution use case (Nathan), location-first.** Primary case: a player thinks their $50 ticket only loaded $45 (the ~$5 activation fee). The cashier swipes the card on Flex-POS; via the **InComm API** JVL retrieves the transaction/activity and the device **shows the player** the fee and confirmation they accepted — "McDonald's-simple," graphical, get them in and out. JVL's own audit trail (card ↔ specific Mother-Goose ticket, terms accepted) lets it reconstruct the original ticket in the extreme case. Beyond the fee, the player is directed to **InComm's phone number printed on the back of the COAM card**; the cashier can also **block a card** via the InComm API (Val: "I know for sure that they provide this"; Nathan to locate the endpoint). A scanned-ticket "valid/invalid" check can catch photocopied/other-location tickets against JVL's controlling server. [[raw/Flex Capabilities Weekly Update-september-3-2025.md]]
 - **API-endpoint limitation (Pavel).** JVL has had **one** meeting with InComm; of the many API requests tried, **only three were enabled for gift cards**. The API document contains much data not applicable to JVL's card types; Pavel wants a **list of questions to InComm** to confirm which endpoints are available for JVL's card types, and expects **future card types** to unlock more (balance reads, machine transfers) not available on the current gift cards. [[raw/Flex Capabilities Weekly Update-september-3-2025.md]]
 
+## Jul 9 2026 — InComm can't sponsor JVL's ATM registration
+
+On a short [[wiki/meetings/2026-07-09-bill-recycler-atm-registration.md|Jul-9 2026 call]] Val asked John Houseal about getting **ATM registration / ATM-network access** to launch JVL's **bill-recycler** product. John said InComm works with ATM providers but has **no ATM registrations of its own** and **does not touch the money-services business (MSB)**, so it **cannot sponsor** JVL. He offered to introduce **Maya Fuentes** (an ATM Association of the US board member and personal friend) as the ATM-registration expert — she becomes JVL's [[wiki/organizations/herring-bank.md|Herring Bank]] cash-management contact the next day. The recycler/ATM-registration substance is on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Jul-9). §15.8 clear — ATM-registration/sponsorship economics only; no named-person compensation. [[raw/Meeting_Notes_Bill_Recycler_ATM_Registration-July-9-2026.md]]
+
 ## Sources
 
 - [[raw/Defining Product Capabilities.md]]
+- [[raw/Meeting_Notes_Bill_Recycler_ATM_Registration-July-9-2026.md]]
 - [[raw/Flex-Port-use_case-August-6-2025.md]]
 - [[raw/Flex Capabilities Weekly Update-september-3-2025.md]]
 - [[raw/incomm_jvl_alignment-june-23-2025.md]]
