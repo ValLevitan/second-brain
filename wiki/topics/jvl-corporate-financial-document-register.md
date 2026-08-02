@@ -25,7 +25,7 @@ A **location map** of JVL's corporate and financial reference documents in the J
 - `Finance/Financial Statements/2025 - JVL Gameworks Corp - Financial Statement.pdf` — current FS. **[deferred]**
 
 ## Group level
-- `Initiatives/Val_Ways/Ways_JVL_Constitution.md` — **how the four entities (Systems / Labs / Gameworks / Mobi México) divide the business** + governing principles (v1.1, 2026-03-16). **[absorbed 2026-07-13 → [[wiki/topics/jvl-operating-principles.md]]]** (ingested as [[raw/ways_jvl_constitution_2026-03-16.md]])
+- `Constitution/JVL_Constitution.md` (until 2026-08-02: `Initiatives/Val_Ways/Ways_JVL_Constitution.md`; retitled "JVL Constitution", standalone top-level home) — **how the four entities (Systems / Labs / Gameworks / Mobi México) divide the business** + governing principles (v1.1, 2026-03-16). **[absorbed 2026-07-13 → [[wiki/topics/jvl-operating-principles.md]]]** (ingested as [[raw/ways_jvl_constitution_2026-03-16.md]])
 
 ## Shared — Insurance
 - `Insurance JVL/` — negotiation-record `.md` files (Systems/Labs/Property), policy & quote PDFs (Economical/Kinsale/Evanston/Covington/Richmond), analysis XLSX. **[deferred]** (PDFs large/part-scanned)
