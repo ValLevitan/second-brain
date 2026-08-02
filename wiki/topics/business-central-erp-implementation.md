@@ -3,7 +3,7 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention, installment payments, aged receivables, Customer Ledger Entries, category-based terms, subscription module, parts vs machines terms, Black Horse Entertainment, Sales Watch]
-source-count: 39
+source-count: 41
 open-questions: 2
 ---
 
@@ -279,8 +279,14 @@ On the [[wiki/meetings/2026-07-20-payment-hub-msbc-configurations.md|July-20 2:0
 - **Payment terms — COD, not Net 7.** Nathan initially thought terms might need to be **Net 7** for invoices to renew, but Sean explained **COD is correct**: the invoice and the draw on the customer's account happen the same day, so Net 7 would wrongly tell customers they have seven days before money is taken — and Val had originally required money close daily so there is never a credit risk. In MSBC, **COD invoices post immediately** (the invoice number switches from a **CS/SO prefix to a PS prefix**), which the group agreed is fine; the payment term itself does not trigger the posting — creating the invoice records the entry. A posted invoice's GL entries were confirmed to match Igor's mapping. [[raw/Meeting_Transcript_Payment_Hub_MSBC_Configurations-July-20-2026.md]] [[raw/Meeting_Notes_Payment_Hub_MSBC_Configurations-July-20-2026.md]]
 - **Journal + next step.** The customer payment journal the code writes to is named **"Payment Hub"** and lives under the **Cash Receipts Journal** batches — confirmed correct. Nathan will **generate a full example cycle (invoice through posting) in the staging environment** for the team to give a thumbs-up/down on the configurations. **§15.8:** clear — BC configuration / dimension-code / GL / sales-tax / accounting economics only, no named-person compensation. [[raw/Meeting_Transcript_Payment_Hub_MSBC_Configurations-July-20-2026.md]] [[raw/Meeting_Notes_Payment_Hub_MSBC_Configurations-July-20-2026.md]]
 
+## July 23 2026 — BC inventory reads zero for physically-present Echo brackets (Toronto→Georgia move)
+
+On the [[wiki/meetings/2026-07-23-echo-50-machine-run-parts.md|50-Echo build parts check]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/mikhail-perelman.md|Mikhail Perelman]], [[wiki/people/genadi-peari.md|Genadi Peari]]) a concrete BC data-integrity gap surfaced: **six metal brackets read zero stock in Business Central**, even though Mikhail believes most are **physically present in Georgia** — the records were scrambled when inventory shipped **Toronto → Georgia** and the parts were not re-recorded in BC (Mikhail called it "бардак" / a mess; Val noted the same mismatch had happened at the prior site). Val cut the blame discussion and decided **not to trust BC here**: order the parts now rather than wait for Elizabeth's Monday physical count to reconcile the records. This is a live example of the **BC-as-single-source-of-truth** principle (the June 25 2026 governance note) breaking down at a physical move — assembly runs on the **Systems BC with no manufacturing module** (see June 26 2025), so inventory accuracy depends on manual re-recording. Genadi to check old purchase orders (a large tooled-bracket quantity was ordered before the move) to confirm stock should exist. The build/procurement substance is on [[wiki/topics/echo-home-gaming-device.md]]. **§15.8:** clear — inventory-accuracy / BC-records economics only; no named-person compensation. [[raw/Meeting_Notes_Echo_50_Machine_Run_Parts-July-23-2026.md]] [[raw/Meeting_Transcript_Echo_50_Machine_Run_Parts-July-23-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Echo_50_Machine_Run_Parts-July-23-2026.md]]
+- [[raw/Meeting_Transcript_Echo_50_Machine_Run_Parts-July-23-2026.md]]
 - [[raw/Meeting_Notes_MRP_and_Sales_Watch_Demo-July-14-2026.md]]
 - [[raw/Meeting_Transcript_MRP_and_Sales_Watch_Demo-July-14-2026.md]]
 - [[raw/Meeting_Notes_CIBC_Business_Central_Integration-July-2-2026.md]]
