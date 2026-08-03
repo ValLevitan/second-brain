@@ -3,7 +3,7 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention, installment payments, aged receivables, Customer Ledger Entries, category-based terms, subscription module, parts vs machines terms, Black Horse Entertainment, Sales Watch]
-source-count: 45
+source-count: 47
 open-questions: 2
 ---
 
@@ -296,6 +296,15 @@ On the [[wiki/meetings/2026-07-27-manufacturing-production-planning.md|Jul-27 ma
 
 The build/production-ramp substance (52 countertops, the monthly schedule, Flex IQ / Recycler quantities, staffing) is on [[wiki/topics/echo-home-gaming-device.md]] (Jul-27). **§15.8:** clear — inventory-count / reorder-lead-time economics only; no named-person compensation.
 
+## July 28 2026 — the CIBC API is read-only verification; the Microsoft Dynamics integration may already be the easier path
+
+On the [[wiki/meetings/2026-07-28-cibc-jvl-msbc-api-integration.md|Jul-28 4:00 PM ET call]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/nathan-carver.md|Nathan Carver]]; CIBC's Michael Hill in prose) the group scoped what the API is actually for and how Microsoft Dynamics fits. The account-structure (ZBA + end-of-day sweep) side is on [[wiki/organizations/cibc.md]] (Jul-28); the integration side is here. This continues the [[#july-6-2026--the-ready-cibc-chicago-account-feeds-business-central-a-native-interface-likely-no-custom-api|Jul-6 "native interface, likely no custom API"]] thread. [[raw/Meeting_Notes_CIBC_JVL_MSBC_API_Integration-July-28-2026.md]]
+
+- **The API's role is read-only verification — JVL's system sits at the end of the chain.** JVL does **not** need to initiate any transactions; it only needs to **read the daily transaction history** to verify each deposit and its amount so it can reconcile its own ledger. Whatever source gives the daily transactions is acceptable — a Microsoft Dynamics API, or another CIBC API that just returns the account balance/transactions. [[raw/Meeting_Transcript_CIBC_JVL_MSBC_API_Integration-July-28-2026.md]] [[raw/Meeting_Notes_CIBC_JVL_MSBC_API_Integration-July-28-2026.md]]
+- **Microsoft Dynamics integration is approved but not central.** CIBC can integrate **Microsoft Dynamics** into its **Business Net Banking** — the API connector is approved ("kosher"). Once integrated, Business Net Banking transactions feed into Dynamics, where JVL could see **date, dollar amount, and sender**. Michael's view: Dynamics would mostly **duplicate** the transaction data into its own ledger for faster reconciliation and does not need to be central; some companies use it because they need that to reconcile a bit quicker. [[raw/Meeting_Transcript_CIBC_JVL_MSBC_API_Integration-July-28-2026.md]] [[raw/Meeting_Notes_CIBC_JVL_MSBC_API_Integration-July-28-2026.md]]
+- **Val's hunch (unproven): the integration may already be more capable than assumed.** Because CIBC is already integrated with Dynamics and JVL runs **Dynamics Cloud on the latest version**, Val suspects the integration may already be more developed than they thought — possibly an **easier path** than building what they were calling an API. He stressed it is only a hunch ("I'm not an engineer… I really don't know the subject"). [[raw/Meeting_Transcript_CIBC_JVL_MSBC_API_Integration-July-28-2026.md]] [[raw/Meeting_Notes_CIBC_JVL_MSBC_API_Integration-July-28-2026.md]]
+- **Scope decision — proceed as-is, no transmission service yet.** Do **not** set up a transmission service for now — that would only be needed if JVL wanted to run its banking **primarily through the Dynamics interface** to process payments. Start with the current approach (ZBA sweep + Business Banking batch-detail report) and expand later if needed. Nathan will get Business Net Banking access to see the interface and detail report firsthand, then judge whether it meets the need or should be pressure-tested over a couple of months. **§15.8:** allowed — banking / API-integration / reconciliation economics only; no named-person compensation. *(§1: no real account numbers or email content in the transcript — nothing excluded on a PII basis.)* [[raw/Meeting_Notes_CIBC_JVL_MSBC_API_Integration-July-28-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Manufacturing_Production_Planning-July-27-2026.md]]
@@ -343,3 +352,5 @@ The build/production-ramp substance (52 countertops, the monthly schedule, Flex 
 - [[raw/Meeting_Notes_BC_Single_Source_of_Truth-June-25-2026.md]]
 - [[raw/Meeting_Notes_Payment_Hub_MSBC_Configurations-July-20-2026.md]]
 - [[raw/Meeting_Transcript_Payment_Hub_MSBC_Configurations-July-20-2026.md]]
+- [[raw/Meeting_Notes_CIBC_JVL_MSBC_API_Integration-July-28-2026.md]]
+- [[raw/Meeting_Transcript_CIBC_JVL_MSBC_API_Integration-July-28-2026.md]]
