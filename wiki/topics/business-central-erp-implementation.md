@@ -3,7 +3,7 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention, installment payments, aged receivables, Customer Ledger Entries, category-based terms, subscription module, parts vs machines terms, Black Horse Entertainment, Sales Watch]
-source-count: 47
+source-count: 49
 open-questions: 2
 ---
 
@@ -305,7 +305,18 @@ On the [[wiki/meetings/2026-07-28-cibc-jvl-msbc-api-integration.md|Jul-28 4:00 P
 - **Val's hunch (unproven): the integration may already be more capable than assumed.** Because CIBC is already integrated with Dynamics and JVL runs **Dynamics Cloud on the latest version**, Val suspects the integration may already be more developed than they thought — possibly an **easier path** than building what they were calling an API. He stressed it is only a hunch ("I'm not an engineer… I really don't know the subject"). [[raw/Meeting_Transcript_CIBC_JVL_MSBC_API_Integration-July-28-2026.md]] [[raw/Meeting_Notes_CIBC_JVL_MSBC_API_Integration-July-28-2026.md]]
 - **Scope decision — proceed as-is, no transmission service yet.** Do **not** set up a transmission service for now — that would only be needed if JVL wanted to run its banking **primarily through the Dynamics interface** to process payments. Start with the current approach (ZBA sweep + Business Banking batch-detail report) and expand later if needed. Nathan will get Business Net Banking access to see the interface and detail report firsthand, then judge whether it meets the need or should be pressure-tested over a couple of months. **§15.8:** allowed — banking / API-integration / reconciliation economics only; no named-person compensation. *(§1: no real account numbers or email content in the transcript — nothing excluded on a PII basis.)* [[raw/Meeting_Notes_CIBC_JVL_MSBC_API_Integration-July-28-2026.md]]
 
+## July 30 2026 — parts and vendors not in BC, and modeling lead time in parts (production-ramp data cleanup)
+
+On the [[wiki/meetings/2026-07-30-georgia-production-ramp-forecast.md|Jul-30 Georgia production-ramp review]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/mikhail-perelman.md|Mikhail Perelman]], [[wiki/people/genadi-peari.md|Genadi Peari]], [[wiki/people/elizabeth.md|Elizabeth Palomino]]) the data-quality gap behind the ramp forecast surfaced again. The forecast/parts substance is on [[wiki/projects/georgia-market-rollout.md]] (Jul-30) and the capacity model on [[wiki/topics/echo-home-gaming-device.md]] (Jul-30). [[raw/Meeting_Notes_Georgia_Production_Ramp_Forecast-July-30-2026.md]] [[raw/Meeting_Transcript_Georgia_Production_Ramp_Forecast-July-30-2026.md]]
+
+- **Many parts were never ordered through BC, and vendors aren't assigned to item cards.** Of the ~**400-component** list, many parts were never purchased through Business Central, so the **vendor is not assigned on the item card** (JVL has the vendors and has the parts, but they aren't linked to each other). Mikhail's process to produce an orderable plan: go through the whole ~400-part list, **add the missing vendors**, **sort parts by vendor**, and **verify the counts he doesn't trust** from Elizabeth's physical recount — expecting a clear picture in ~**2–3 working days (~Tue Aug 4)**. [[raw/Meeting_Transcript_Georgia_Production_Ramp_Forecast-July-30-2026.md]]
+- **Lead time should be modeled in parts, not as one per-vendor number.** Val pushed to record supplier/component lead times in MSBC (~2 hours' work for a usable report); Mikhail resisted a single per-vendor lead time, because the same part can come from different vendors and because **shipping is separate from manufacturing time** and varies with order size. They converged on modeling lead time in parts: **time to get into a production slot → production time → packaging → shipping (treated separately)**. Reference figures: **air ~10 days, ocean ~6 weeks**; a small order ~**3 weeks**, a full container ~**6 weeks**. Val's rule: you can incentivize a vendor to move you up the queue, but you cannot shorten actual production time. Lead time is assigned per component on the item card, not per vendor. [[raw/Meeting_Transcript_Georgia_Production_Ramp_Forecast-July-30-2026.md]]
+
+**§15.8:** clear — BC item-card / vendor-assignment / lead-time-modeling economics only; no named-person compensation.
+
 ## Sources
+- [[raw/Meeting_Notes_Georgia_Production_Ramp_Forecast-July-30-2026.md]]
+- [[raw/Meeting_Transcript_Georgia_Production_Ramp_Forecast-July-30-2026.md]]
 
 - [[raw/Meeting_Notes_Manufacturing_Production_Planning-July-27-2026.md]]
 - [[raw/Meeting_Transcript_Manufacturing_Production_Planning-July-27-2026.md]]

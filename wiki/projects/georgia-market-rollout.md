@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 104
+source-count: 106
 open-commitments: 17
 open-questions: 11
 ---
@@ -634,8 +634,25 @@ On the [[wiki/meetings/2026-07-27-incomm-prod-location-registration.md|Jul-27 In
 
 **§15.8:** clear — reseller-model / market-entry economics only; no named-person compensation.
 
+## Jul 30 2026 — production-ramp forecast through Dec 31: ~200 Flex bases, metal covers 100 (Oct-1 the critical date), 43-inch air-freight
+
+On a ~1h28m [[wiki/meetings/2026-07-30-georgia-production-ramp-forecast.md|Jul-30 2:14 PM ET manufacturing review]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/mikhail-perelman.md|Mikhail Perelman]], [[wiki/people/genadi-peari.md|Genadi Peari]], [[wiki/people/elizabeth.md|Elizabeth Palomino]], with [[wiki/people/felipe-miranda.md|Felipe Miranda Giorgi]] translating in the second half) the team worked the Georgia production ramp for Flex, Echo and countertop machines through **Dec 31**. This continues the [[wiki/topics/echo-home-gaming-device.md|Jul-23/27 Echo-build and manufacturing]] thread. [[raw/Meeting_Notes_Georgia_Production_Ramp_Forecast-July-30-2026.md]] [[raw/Meeting_Transcript_Georgia_Production_Ramp_Forecast-July-30-2026.md]]
+
+- **The forecast — ~200 Flex bases to year-end.** The working forecast is **~200 Flex bases** through Dec 31. Mikhail sized shortages against 200 units at the major-assembly level: **base unit 200, monitor (D27) assembly 80, the 43-inch unit 150**. [[raw/Meeting_Transcript_Georgia_Production_Ramp_Forecast-July-30-2026.md]]
+- **Metal covers ~100 machines → Oct-1 is the critical date.** The biggest risk is metal, but Elizabeth confirmed metal on hand covers **~100 machines**, carrying production through **August, September and into October**. So the sensitive window runs only **to Oct 1**; up to that point there are essentially no metal issues, and any gaps can be covered by air or ocean freight. The full 200 only matters for the Jan-1 horizon. [[raw/Meeting_Transcript_Georgia_Production_Ramp_Forecast-July-30-2026.md]]
+- **43-inch touchscreen is the one clear long-lead item.** Only **15 in stock**, ~**1 month** vendor lead (Mikhail can push the vendor "Christina" toward ~3 weeks), and it must be **air-freighted** for September builds — about **30 pieces would need to fly for September**, which Mikhail accepted as manageable (August needs only ~16). [[raw/Meeting_Transcript_Georgia_Production_Ramp_Forecast-July-30-2026.md]]
+- **Countertops fully covered except Amazon harnesses.** Countertop parts are all in stock except some **standard harnesses from Amazon** — not a concern. [[raw/Meeting_Transcript_Georgia_Production_Ramp_Forecast-July-30-2026.md]]
+- **Assembly capacity is sufficient (detail on the Echo page).** Elizabeth's deliberately conservative capacity model shows enough labor even on pessimistic numbers; Val accepted it "belt and suspenders." Full model on [[wiki/topics/echo-home-gaming-device.md]] (Jul-30). [[raw/Meeting_Transcript_Georgia_Production_Ramp_Forecast-July-30-2026.md]]
+- **Hiring plan — start with six, settle near three strong.** Elizabeth had approval to hire **four** temporary people; Val recommended starting with **six**, expecting to cut the weak ones and end with about **three strong** performers, which with the **two existing** people makes ~**five**. [[raw/Meeting_Transcript_Georgia_Production_Ramp_Forecast-July-30-2026.md]]
+- **Sebastian Cortes → Georgia Oct 1 as an engineer, not warehouse.** Sebastian transfers to Georgia on **Oct 1** for service and product-facing work (he can take service calls remotely before then); Val refused to put him on warehouse duty ("like feeding a child with a golden spoon" — his engineering value belongs in front of customers). [[raw/Meeting_Transcript_Georgia_Production_Ramp_Forecast-July-30-2026.md]]
+- **One dedicated kitting/warehouse person + daily floor hygiene.** Genadi recommended one organized (not expert) person to run kitting and warehouse hygiene — bringing parts to the assembly floor and returning leftovers — with **daily** cleanup, not weekly, so the floor isn't flooded with parts. Elizabeth also needs basic tool kits for new hires and lockers for staff; Val believes lockers were already shipped and will check. [[raw/Meeting_Notes_Georgia_Production_Ramp_Forecast-July-30-2026.md]] [[raw/Meeting_Transcript_Georgia_Production_Ramp_Forecast-July-30-2026.md]]
+
+Next meeting: Val + Mikhail on **Monday Aug 3** (a Canadian holiday). **§15.8:** clear — unit-forecast / parts / lead-time / build-capacity economics only; no named-person compensation.
+
 ## Sources
 
+- [[raw/Meeting_Notes_Georgia_Production_Ramp_Forecast-July-30-2026.md]]
+- [[raw/Meeting_Transcript_Georgia_Production_Ramp_Forecast-July-30-2026.md]]
 - [[raw/Meeting_Notes_InComm_PROD_Location_Registration-July-27-2026.md]]
 - [[raw/Meeting_Transcript_InComm_PROD_Location_Registration-July-27-2026.md]]
 - [[raw/Meeting_Notes_Game_Production_Schedule_Georgia_V3-July-24-2026.md]]
