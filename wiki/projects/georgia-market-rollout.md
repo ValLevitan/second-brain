@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 106
+source-count: 109
 open-commitments: 17
 open-questions: 11
 ---
@@ -649,6 +649,40 @@ On a ~1h28m [[wiki/meetings/2026-07-30-georgia-production-ramp-forecast.md|Jul-3
 
 Next meeting: Val + Mikhail on **Monday Aug 3** (a Canadian holiday). **§15.8:** clear — unit-forecast / parts / lead-time / build-capacity economics only; no named-person compensation.
 
+## Jul 31 2026 — the Aug-18 expo demo plan: four transactional products, a bigger booth, and AKS as first IQ beta
+
+On the [[wiki/meetings/2026-07-31-georgia-expo-product-demo-plan.md|Jul-31 12:00 PM ET expo-planning call]] ([[wiki/people/andrei-klimovich.md|Andrei Klimovich]], [[wiki/people/val-levitan.md|Val]], [[wiki/people/juan-martinez.md|Juan]], [[wiki/people/felipe-miranda.md|Felipe]]) the team aligned on what JVL presents at the **Georgia expo in three weeks — August 18**. [[raw/Meeting_Notes_Georgia_Expo_Product_Demo_Plan-July-31-2026.md]]
+
+- **Four transactional products.** JVL will show **Flex IQ, Recycler, Dispenser, and Flex Pay** — the whole product story, not just IQ. Val pushed back on repeatedly restarting "from stage zero" on this; the product list had been agreed before. The device-level demo flows are on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Jul-31). [[raw/Meeting_Notes_Georgia_Expo_Product_Demo_Plan-July-31-2026.md]]
+- **Booth and staffing.** Val prefers a **larger booth (~20x30)** over cutting machine count, and Felipe will ask the organizers (Val believes they can accommodate — "it's a tiny show" with no bad locations). Show staff: **Andrei, Felipe, and Sebastian**; Juan will rearrange Sebastian's Colombia trip so he flies in for the 18th (Val wants him there because he will handle service and this is the chance to meet operators). [[raw/Meeting_Notes_Georgia_Expo_Product_Demo_Plan-July-31-2026.md]]
+- **First IQ beta operator — AKS is the pick, first priority.** Val pressed on who the beta operator is; Felipe said **AKS** is the best shot (good relationship, close to the office, tolerant location and operator). Direction: **close the deal and set up the IQ ASAP as the first priority** — Felipe speaks with them Monday Aug 3 to close and register the location. Andrei has InComm's reply on the test location and will proceed. [[raw/Meeting_Notes_Georgia_Expo_Product_Demo_Plan-July-31-2026.md]]
+- **Recycler readiness feeds the plan.** The recycler demo depends on hardware and engineering work Val took to a same-day engineering call; see the [[#jul-31-2026--recycler-show-readiness-two-slim-cabinets-an-intermediate-card-screen-and-a-cpijcm-denomination-fight|recycler-readiness section below]]. [[raw/Meeting_Notes_Georgia_Expo_Product_Demo_Plan-July-31-2026.md]]
+
+**§15.8:** clear — expo / demo / booth / beta-operator economics only; no named-person compensation.
+
+## Jul 31 2026 — recycler show-readiness: two slim cabinets, an intermediate card screen, and a CPI/JCM denomination fight
+
+Immediately after the noon expo call, Val took the recycler-readiness question to engineering on the [[wiki/meetings/2026-07-31-flex-recycler-georgia-show-readiness.md|Jul-31 1:30 PM ET call]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/genadi-peari.md|Genadi Peari]]; in Russian). The full engineering assessment is on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Jul-31); the show-facing decisions: [[raw/Meeting_Notes_Flex_Recycler_Georgia_Show_Readiness-July-31-2026.md]]
+
+- **Assemble two slim cabinets — one for the Georgia show, one "for the bank."** Metal and parts are on hand and the team has instructions to start assembling slim cabinets. One recycler is already built in Georgia and a second is ordered there. [[raw/Meeting_Notes_Flex_Recycler_Georgia_Show_Readiness-July-31-2026.md]]
+- **For the show, use the QR-ticket-to-cash flow with an intermediate "digital card issuance" screen**, not real card issuance — Pavel's proposal, since the recycler has no card dispenser and the ideal card-first flow is not realistic on the timeline. [[raw/Meeting_Notes_Flex_Recycler_Georgia_Show_Readiness-July-31-2026.md]]
+- **Push CPI/JCM to change the cassette denomination logic.** Val rejected CPI's "minimum denomination fills the first drum" rule as unusable and wants **cassette 1 = $20, cassette 2 = $5/$10**; Genadi to open that conversation with CPI/JCM on Monday Aug 3. [[raw/Meeting_Notes_Flex_Recycler_Georgia_Show_Readiness-July-31-2026.md]]
+
+**§15.8:** clear — recycler-readiness / cabinet / denomination-config economics only; no named-person compensation.
+
+## Jul 31 2026 — early Georgia field performance: hold running high, spread smooth, and the Nebraska-next pivot
+
+On the [[wiki/meetings/2026-07-31-georgia-game-math-performance-review.md|Jul-31 2:00 PM ET game-development review]] ([[wiki/people/michael-gottlieb.md|Michael Gottlieb]], [[wiki/people/juan-martinez.md|Juan]], [[wiki/people/val-levitan.md|Val]], [[wiki/people/efim-podvoiski.md|Efim Podvoiski]], [[wiki/people/lena.md|Lena Zhukova]]) the team reviewed the early Georgia field numbers. The game-math tuning behind them is on [[wiki/topics/slot-game-design-principles.md]] (Jul-31). [[raw/Meeting_Notes_Georgia_Game_Math_Performance_Review-July-31-2026.md]]
+
+- **Data is far too early to conclude (Juan).** Some machines have only **2–6 days** in the field, the longest **16 days**; Juan wants another **~30 days**. He color-codes on ~**$1,500 coin-in** and ~**$200/day** as a solid number. [[raw/Meeting_Notes_Georgia_Game_Math_Performance_Review-July-31-2026.md]]
+- **Hold is running high in JVL's favor.** Games are set at **92% base + 2% to the meter = 94% all-in**. If field numbers slip, the plan is to **cut the progressive 1% before touching base percentages**, keeping games close to the well-performing original Peach setups. [[raw/Meeting_Notes_Georgia_Game_Math_Performance_Review-July-31-2026.md]]
+- **Per-title spread.** Spread across games is smooth; **Ocho** swung from bottom to top depending on location; **Rodeo Queen** is lower than expected (Michael's theory: the market is ~70% male and women bet less/less aggressively); **Arc** is a standout at **$4–5k coin-in days**; Jackpot Rush titles with "Add Any Bet" improve as meters run. [[raw/Meeting_Notes_Georgia_Game_Math_Performance_Review-July-31-2026.md]]
+- **Submission slips a week or two past mid-August.** Given the remaining math/messaging/attract-video/bug work and Anton's vacation, Michael recommended pushing the Georgia submission out **a week or two past mid-August** to get it right; Juan agreed. A flagged risk: Jackpot Rush still shows "max bet required to win" messaging even though it now pays on any bet — incorrect messaging that may be dampening play and must be fixed before submission. [[raw/Meeting_Notes_Georgia_Game_Math_Performance_Review-July-31-2026.md]]
+- **Economy hardware experiment — "spectacular."** Val reported a substantial experiment with the intended "economy" hardware board: it is not a faster processor but a different **RK-based (Chinese) architecture** — the same used for the transactional products — running **six games at 60 FPS**. The only issue was a momentary freeze on the base-to-bonus transition, traced to minimal memory; they are expanding to **16 GB**. FP7 remains the high-end platform. (Michael noted Stern Pinball similarly migrated to Raspberry Pi.) [[raw/Meeting_Notes_Georgia_Game_Math_Performance_Review-July-31-2026.md]]
+- **Nebraska is the next battleground (from September).** After **Georgia V3**, Val wants the focus to shift to **Nebraska starting September** — a fertile market that would immediately help the bottom line. Nebraska is currently not performing and they have eliminated the 25-cent bets; South Dakota is performing "okay" and should improve with Kinos out (PD still owes South Dakota, paused for Georgia). Val was candid that he feels "frozen"/overwhelmed by the number of simultaneous initiatives (hardware switch, Novo/Omni platform move, the new "Galaxy" backend, and changed file-keeping/production-push processes all at once). [[raw/Meeting_Notes_Georgia_Game_Math_Performance_Review-July-31-2026.md]]
+
+**§15.8:** clear — game-math / field-performance / hardware economics only; no named-person compensation.
+
 ## Sources
 
 - [[raw/Meeting_Notes_Georgia_Production_Ramp_Forecast-July-30-2026.md]]
@@ -757,3 +791,6 @@ Next meeting: Val + Mikhail on **Monday Aug 3** (a Canadian holiday). **§15.8:*
 - [[raw/Meeting_Notes_GA_COAM_Inventory_Pipeline_Review-July-7-2026.md]]
 - [[raw/Meeting_Transcript_FlexIQ_Alpha_Test_Walkthrough-July-15-2026.md]]
 - [[raw/Meeting_Notes_FlexIQ_Alpha_Test_Walkthrough-July-15-2026.md]]
+- [[raw/Meeting_Notes_Georgia_Expo_Product_Demo_Plan-July-31-2026.md]]
+- [[raw/Meeting_Notes_Flex_Recycler_Georgia_Show_Readiness-July-31-2026.md]]
+- [[raw/Meeting_Notes_Georgia_Game_Math_Performance_Review-July-31-2026.md]]

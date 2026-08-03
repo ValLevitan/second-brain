@@ -3,7 +3,7 @@ type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
 aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus, $20 test, twenty dollar test, Twin Bison, Wolfpack, Clover Fortune, Liberty Spins, peek-to-be-in bonus, locking bison, Rodeo Spins, multi-progressive, Multi-Progressive initiative, three-level progressive]
-source-count: 72
+source-count: 73
 open-questions: 3
 ---
 
@@ -587,8 +587,22 @@ On the weekly [[wiki/meetings/2026-07-24-game-production-schedule-georgia-v3.md|
 
 **§15.8:** clear — game production / release-schedule / build-tooling economics only; no named-person compensation (Julia's departure and Natalia's template hand-off are a staffing/timing fact, no pay figures).
 
+## Georgia game-math tuning and the fractional-pay change (July 31 2026)
+
+On the [[wiki/meetings/2026-07-31-georgia-game-math-performance-review.md|Jul-31 2:00 PM ET game-development review]] ([[wiki/people/michael-gottlieb.md|Michael Gottlieb]], [[wiki/people/juan-martinez.md|Juan Martinez]], [[wiki/people/val-levitan.md|Val]], [[wiki/people/efim-podvoiski.md|Efim Podvoiski]], [[wiki/people/lena.md|Lena Zhukova]]) Michael reported the Georgia math is now about where they want it. The early-field-performance numbers from the same call live on [[wiki/projects/georgia-market-rollout.md]] (Jul-31). [[raw/Meeting_Notes_Georgia_Game_Math_Performance_Review-July-31-2026.md]]
+
+- **Twin Bison paytable retune + fractional pays.** They dropped the **10 out of the royals** and shifted the paytable so the high-value "oil"/royal symbols come up much less and the animals (bison, big bear) come up more. The big change was moving to **fractional pays** (pays under a dollar) — Michael had questioned the original Peach paytable logic with Efim (it had been copied from unsuccessful IGT games), and the fractional-pay version now behaves correctly. This completes the Twin Bison math change flagged on Jul-24. [[raw/Meeting_Notes_Georgia_Game_Math_Performance_Review-July-31-2026.md]]
+- **Reel-3 wild frequency and free spins.** They bumped up the frequency of the **reel-3 wild** (a bison runs across the screen and turns the reel wild), and Michael sent Lena notes on that behavior. Free spins are "a hammer" and playing well; a couple of bugs remain (the sound effect for the bison lock / snow-and-ice freeze). [[raw/Meeting_Notes_Georgia_Game_Math_Performance_Review-July-31-2026.md]]
+- **Win-capping messaging (South Dakota).** They worked through **win-cap messaging across all combinations** (win cap in free spins, with a progressive pending, in base game, etc.); the requirement was updated and a new build is expected. [[raw/Meeting_Notes_Georgia_Game_Math_Performance_Review-July-31-2026.md]]
+- **Character-vs-conventional paytable rule.** Keep the **conventional paytable for character-less games** (e.g. Midnight Money); the **simplified/character paytable only helps games with a strong character focus**. Michael also wants another pass at Egyptian themes (competitors are going heavy there while going light on Chinese); Rodeo/horse themes are viable (possible "Jackpot Rodeo" reskin of Jackpot Rush); La Rosa still fits Hispanic locations. [[raw/Meeting_Notes_Georgia_Game_Math_Performance_Review-July-31-2026.md]]
+- **Attract ("coming attraction") videos.** Competitors run **full-screen attract videos with no buttons** when a machine has no credits. Lena plans to have **Vitaliy** start recording videos next week (Jackpot Rush, Lines, Waves first — already in good shape), then fine-tune Lion and Bison. The underlying attract-flow code has not been built by **Anton** yet (on vacation next week), so Lena may reassign it to **Igor** (who built it for South Dakota); Juan will gather competitor parameters (video length, games shown, touch-to-start messaging). [[raw/Meeting_Notes_Georgia_Game_Math_Performance_Review-July-31-2026.md]]
+- **Lion pick-bonus regression.** Lena flagged the **Lion pick-bonus "click" behaviour is broken** (you always get lion; the click-spins stacking/click area is not working). Michael was frustrated that a years-old proven game could regress from what is essentially an **art swap** (only reel and symbol sizes changed) and suspects the outsourced team's revision control reintroduced an old bug; expected fixed in the next build along with golden arrows in free spins and full Locket Wild stages. Audio: Michael sent Vladimir the free-spins vibe reference ("Rawhide"/"Bonanza" for Twin Bison). [[raw/Meeting_Notes_Georgia_Game_Math_Performance_Review-July-31-2026.md]]
+
+**§15.8:** clear — game-math / paytable / attract-video design economics only; no named-person compensation.
+
 ## Sources
 
+- [[raw/Meeting_Notes_Georgia_Game_Math_Performance_Review-July-31-2026.md]]
 - [[raw/Meeting_Notes_Game_Production_Schedule_Georgia_V3-July-24-2026.md]]
 - [[raw/Meeting_Transcript_Game_Production_Schedule_Georgia_V3-July-24-2026.md]]
 - [[raw/Meeting_Transcript_Game_Development-June-26-2026.md]]
