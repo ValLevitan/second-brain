@@ -3,7 +3,7 @@ type: person
 title: Elizabeth
 date: 2025-04-28
 aliases: [Elizabeth, Elizabeth Palomino]
-source-count: 8
+source-count: 10
 disambiguation: "JVL engineering technician (full engineer by degree) handling Georgia service/parts; ex-Colombian-operation technician; Spanish-speaking. Surname Palomino (per the Jun-11-2026 passport/dsKey source). Distinct from Eliana, the Colombian EDS principal (wiki/people/eliana.md)."
 ---
 
@@ -37,8 +37,14 @@ On the [[wiki/meetings/2026-03-26-initiative-priority-schedule.md|Initiative Pri
 
 On the [[wiki/meetings/2026-06-11-passport-scan-dskey-malfunction.md|Jun-11 passport-scan / dsKey malfunction]] call (discussed, not on the call) Elizabeth is named as one of the Georgia field parties (with [[wiki/people/felipe-miranda.md|Felipe Miranda]]) who must collect the machine logs from units **229918 and 230217** so Minsk can compare the actual Dallas number against the registration record. This source gives her full name as **Elizabeth Palomino** — the first time a surname is recorded for her. Incident substance on [[wiki/projects/georgia-market-rollout.md]] (Jun-11). [[raw/Meeting_Notes_Passport_Scan_dsKey_Malfunction-June-11-2026.md]]
 
+## Jul 27 2026 — running the countertop build and the machine-production ramp
+
+On the [[wiki/meetings/2026-07-27-manufacturing-production-planning.md|Jul-27 manufacturing production-planning call]] (Val, Elizabeth, [[wiki/people/felipe-miranda.md|Felipe Miranda Giorgi]]) Elizabeth is the one running the shop-floor build: she has **already shipped 8** of the **52 Echo counter-top machines** and is currently assembling the **14 refurbishable Flex machines from Florida** (with only two assemblers plus Adam). Val tasked her with preparing the **complete production plan** — physical inventory vs. system counts (spot-checking the long-lead items first), the parts/orders to trigger, and the **labor in man-hours per machine × the forecast** — for the 30–50-machine/month ramp plus the 50 countertops. She asked for and got one extra day; the review call is set for **Wednesday Jul 29 at 2:00 PM ET**. Build substance on [[wiki/topics/echo-home-gaming-device.md]] (Jul-27); inventory-discipline rules on [[wiki/topics/business-central-erp-implementation.md]] (Jul-27). [[raw/Meeting_Notes_Manufacturing_Production_Planning-July-27-2026.md]] [[raw/Meeting_Transcript_Manufacturing_Production_Planning-July-27-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Manufacturing_Production_Planning-July-27-2026.md]]
+- [[raw/Meeting_Transcript_Manufacturing_Production_Planning-July-27-2026.md]]
 - [[raw/Meeting_Notes_Passport_Scan_dsKey_Malfunction-June-11-2026.md]]
 - [[raw/Meeting_Transcript_initiative_priority_schedule-2-March-26-2026.md]]
 - [[raw/Meeting_Notes_initiative_priority_schedule-March-26-2026.md]]

@@ -3,7 +3,7 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention, installment payments, aged receivables, Customer Ledger Entries, category-based terms, subscription module, parts vs machines terms, Black Horse Entertainment, Sales Watch]
-source-count: 43
+source-count: 45
 open-questions: 2
 ---
 
@@ -287,8 +287,19 @@ On the [[wiki/meetings/2026-07-23-echo-50-machine-run-parts.md|50-Echo build par
 
 On the [[wiki/meetings/2026-07-24-payment-hub-daily-service-fee.md|Jul-24 10:00 AM ET Payment Hub daily-fee call]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/nathan-carver.md|Nathan Carver]], [[wiki/people/juan-martinez.md|Juan Martinez]], [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]) the BC side of Payment Hub billing was tightened: a **daily service fee** set on a location's Payment Hub setup screen must flow all the way to a **GL account in Business Central (MSBC)** and be traceable — e.g. a $5 daily fee visible in the GL. [[raw/Meeting_Notes_Payment_Hub_Daily_Service_Fee-July-24-2026.md]] Concrete cleanups agreed: the daily-fee GL account **41421 is mislabeled "ACH service fee revenue"** and Nathan will relabel it; **billing fee codes must be added for every known fee** (wallet, insufficient-funds, rejection/cancellation) **plus two reserved fields, each mapped to a proper GL account**, so a missed fee doesn't force another redesign later; and a **consolidated daily invoice posts through MSBC even when all lines are zero** (a zero invoice), for as long as an account is open. The daily-fee field defaults to zero on new locations. The Payment Hub product side of this is on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Jul-24). This extends the [[#july-20-2026--configuring-payment-hub-in-business-central-before-production-dimension-codes-gl-cod-terms|July-20 Payment Hub / MSBC configuration]] work. **§15.8:** allowed — fee-code / GL-mapping / billing-config economics only; no named-person compensation. [[raw/Meeting_Transcript_Payment_Hub_Daily_Service_Fee-July-24-2026.md]]
 
+## July 27 2026 — physical-inventory reconciliation and long-lead-item reorder triggers for the production ramp
+
+On the [[wiki/meetings/2026-07-27-manufacturing-production-planning.md|Jul-27 manufacturing production-planning call]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/elizabeth.md|Elizabeth Palomino]], [[wiki/people/felipe-miranda.md|Felipe Miranda Giorgi]]) Val set the inventory-control rules that feed the 30–50-machine/month ramp. The **8 already-shipped countertops are already deducted from the BC counts** (invoiced and removed — Felipe confirmed), so the on-hand numbers Val reads exclude them. [[raw/Meeting_Transcript_Manufacturing_Production_Planning-July-27-2026.md]]
+
+- **Physical inventory vs. system counts, long-lead items first.** Elizabeth is to do a **physical inventory**, compare it to the computer counts, and **spot-check the longest-lead-time items first** — the same reconcile-by-discrepancy discipline as the December count (Dec-2025 note above), now applied to size the parts orders for the ramp. [[raw/Meeting_Transcript_Manufacturing_Production_Planning-July-27-2026.md]]
+- **Metal is the longest lead → a 14-week reorder trigger.** **Metal** must ship **by boat** (~**8 weeks** via the Panama Canal to Georgia, too heavy to air in bulk) plus ~**6 weeks** manufacturing, so **reorder must trigger 14 weeks out** — keeping **at least 60 units in stock** before reorder (hit reorder at 60, ideally earlier). **Large vertical monitors** likewise must ship by sea, not air. [[raw/Meeting_Transcript_Manufacturing_Production_Planning-July-27-2026.md]]
+
+The build/production-ramp substance (52 countertops, the monthly schedule, Flex IQ / Recycler quantities, staffing) is on [[wiki/topics/echo-home-gaming-device.md]] (Jul-27). **§15.8:** clear — inventory-count / reorder-lead-time economics only; no named-person compensation.
+
 ## Sources
 
+- [[raw/Meeting_Notes_Manufacturing_Production_Planning-July-27-2026.md]]
+- [[raw/Meeting_Transcript_Manufacturing_Production_Planning-July-27-2026.md]]
 - [[raw/Meeting_Notes_Payment_Hub_Daily_Service_Fee-July-24-2026.md]]
 - [[raw/Meeting_Transcript_Payment_Hub_Daily_Service_Fee-July-24-2026.md]]
 - [[raw/Meeting_Notes_Echo_50_Machine_Run_Parts-July-23-2026.md]]

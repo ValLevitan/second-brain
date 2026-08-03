@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 102
+source-count: 104
 open-commitments: 17
 open-questions: 11
 ---
@@ -626,8 +626,18 @@ On the weekly [[wiki/meetings/2026-07-24-game-production-schedule-georgia-v3.md|
 
 The V3 game contents, Twin Bison math, Mega Hit Blaze branding, South Dakota / D27 VLT2, and build-tool technical debt from the same meeting are on [[wiki/topics/slot-game-design-principles.md]] (Jul-24). **§15.8:** clear — release-schedule / show-timing economics only; no named-person compensation.
 
+## Jul 27 2026 — InComm reseller models for the COAM gift-card market; the master-relationship sensitivity
+
+On the [[wiki/meetings/2026-07-27-incomm-prod-location-registration.md|Jul-27 InComm call]] ([[wiki/people/juan-martinez.md|Juan Martinez]], [[wiki/people/andrei-klimovich.md|Andrei Klimovich]], [[wiki/people/pavel.md|Pavel Frolov]] with a full InComm crew) InComm framed how JVL enters the **Georgia COAM gift-card reseller market**. JVL will pursue **both models** — acting as the reseller itself (it has a merchant ID) and selling kiosks into locations that already have a broker agreement — so JVL must integrate to whichever ecosystem a location runs: **RWJ** (highest location count; its own "Yugo Hub"/"PayAnyUp" middleware, not RTG), **Yinlow** (own middleware), or **Lunex** and large self-reseller operators (InComm **RTG**, passing that party's merchant ID). Full InComm/registration detail on [[wiki/organizations/incom.md]] (Jul-27). [[raw/Meeting_Transcript_InComm_PROD_Location_Registration-July-27-2026.md]]
+
+- **The master-relationship sensitivity.** As a COAM device manufacturer JVL cannot engage a location directly — it goes **through the master**, who owns the location relationship. JVL acting as a **direct gift-card reseller** would create a direct location relationship and could **offend a master who also buys JVL gaming equipment** — Juan flagged this as a delicate topic to manage as JVL rolls the reseller business into the market. [[raw/Meeting_Notes_InComm_PROD_Location_Registration-July-27-2026.md]]
+
+**§15.8:** clear — reseller-model / market-entry economics only; no named-person compensation.
+
 ## Sources
 
+- [[raw/Meeting_Notes_InComm_PROD_Location_Registration-July-27-2026.md]]
+- [[raw/Meeting_Transcript_InComm_PROD_Location_Registration-July-27-2026.md]]
 - [[raw/Meeting_Notes_Game_Production_Schedule_Georgia_V3-July-24-2026.md]]
 - [[raw/Meeting_Transcript_Game_Production_Schedule_Georgia_V3-July-24-2026.md]]
 - [[raw/Meeting_Notes_IQ_Down_Printer_Bypass_Complete-July-17-2026.md]]
