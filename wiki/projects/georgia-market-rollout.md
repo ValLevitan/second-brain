@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 109
+source-count: 111
 open-commitments: 17
 open-questions: 11
 ---
@@ -683,7 +683,14 @@ On the [[wiki/meetings/2026-07-31-georgia-game-math-performance-review.md|Jul-31
 
 **§15.8:** clear — game-math / field-performance / hardware economics only; no named-person compensation.
 
+## Jul 31 2026 — banking the Georgia ATM-style dispense: Herring Bank + the Prize Play card
+
+For the Georgia transactional products that dispense cash, Val had an introductory call with **Herring Bank** ([[wiki/meetings/2026-07-31-herring-bank-prize-play-card.md|Jul-31 Prize Play card call]]) about network-sponsoring the card-initiated cash dispense and supporting InComm's **Prize Play card** — the banking layer under the recycler-as-ATM plan. JVL sells its slot machines in **Georgia, Nebraska and South Dakota**, and it is Georgia specifically where the ATM-style transactional products launch. The relationship, structure and rough costs live on [[wiki/organizations/herring-bank.md]] (Jul-31), the product/device side on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Jul-31). Herring can also provide **general banking in the three states** and **ATM cash replenishment** via its armored service, and **Maya Fuentes will attend the Georgia Co-op Expo** for a day (JVL has a booth; Val will show the equipment). §15.8: banking / card-product economics only; no named-person compensation. [[raw/Meeting_Notes_Herring_Bank_Prize_Play_Card-July-31-2026.md]]
+
 ## Sources
+
+- [[raw/Meeting_Notes_Herring_Bank_Prize_Play_Card-July-31-2026.md]]
+- [[raw/Meeting_Transcript_Herring_Bank_Prize_Play_Card-July-31-2026.md]]
 
 - [[raw/Meeting_Notes_Georgia_Production_Ramp_Forecast-July-30-2026.md]]
 - [[raw/Meeting_Transcript_Georgia_Production_Ramp_Forecast-July-30-2026.md]]

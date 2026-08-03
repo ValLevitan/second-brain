@@ -3,7 +3,7 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS, ATM registration, slim ATM]
-source-count: 168
+source-count: 170
 open-commitments: 62
 open-questions: 10
 ---
@@ -1234,6 +1234,15 @@ Immediately after the expo call, Val took the recycler-readiness question to eng
 
 **§15.8:** clear — recycler-readiness / cabinet / denomination-config economics only; no named-person compensation.
 
+## Jul 31 2026 — network sponsorship for the ATM-style dispense: Herring Bank and InComm's Prize Play card
+
+The same day, Val had an introductory call with **Herring Bank** ([[wiki/meetings/2026-07-31-herring-bank-prize-play-card.md|Jul-31 Prize Play card call]], with bank principal **Campbell** and liaison **Maya Fuentes**) about the network-sponsorship layer under JVL's ATM-style cash-dispensing machines — the piece that makes the **recycler-as-ATM** and card-dispense flows legal. The full banking relationship is on [[wiki/organizations/herring-bank.md]] (Jul-31); the product-side takeaways: [[raw/Meeting_Notes_Herring_Bank_Prize_Play_Card-July-31-2026.md]]
+
+- **It's the card activity that needs sponsorship, not the machine.** When a **network card initiates a cash dispense**, that card transaction is what requires a sponsoring bank: the card triggers it, **Herring authorizes/clears it**, the machine dispenses, and settlement follows. Herring is a **principal network member bank** that can hold balances, transmit money and dispense/receive cash, and integrates to JVL's own software via API. This answers the recurring "does the recycler/dispenser need ATM-network registration?" question raised across the [[wiki/meetings/2026-07-09-bill-recycler-atm-registration.md|Jul-9 bill-recycler ATM-registration call]] and the expo-demo Skill-Pay flow above. [[raw/Meeting_Transcript_Herring_Bank_Prize_Play_Card-July-31-2026.md]]
+- **The Prize Play card = the ATM-ready card in the recycler flow.** InComm's **Prize Play card** (the same "Skill Pay" card the [[#jul-31-2026--how-each-transactional-product-is-demoed-at-the-georgia-expo|expo-demo section above]] describes as ATM-ready and cashable at the recycler, coming from InComm ~September) is the product driving this. Use cases: a player **cashing out from the card at a machine**, and **machines accepting the card directly**. Val has **not decided** whether machines should accept all network cards or only loaded cards — he will follow market requirements. Herring wants **at least one JVL machine in its lab** to test/certify. [[raw/Meeting_Transcript_Herring_Bank_Prize_Play_Card-July-31-2026.md]]
+
+**§15.8:** clear — network-sponsorship / card-product / device-integration economics only; no named-person compensation.
+
 ## Open commitments
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — implement the agreed single flow by the Aug-1 launch: default card issuance with no player-facing alternative; on card failure a retry option and a "print ticket" button that prints the standard Mutha Goose ticket; rename the "Void" button; statuses pending/redeemed/ticket; and switch off ingestion of the 25 historical Mutha Goose tickets — due Aug 1 2026 — [[raw/Meeting_Notes_IQ_Down_Printer_Bypass_Complete-July-17-2026.md]] [[raw/Meeting_Transcript_IQ_Down_Printer_Bypass_Complete-July-17-2026.md]]
@@ -1321,6 +1330,9 @@ Immediately after the expo call, Val took the recycler-readiness question to eng
 *(Resolved Jul-22: "Does MuthaGoose support an escrow (hold-then-validate) mode?" — answered **no** (Pavel); JVL uses the print-ticket-then-validate-in-parallel flow. See the Jul-22 section above.)*
 
 ## Sources
+
+- [[raw/Meeting_Notes_Herring_Bank_Prize_Play_Card-July-31-2026.md]]
+- [[raw/Meeting_Transcript_Herring_Bank_Prize_Play_Card-July-31-2026.md]]
 
 - [[raw/Meeting_Notes_Recycler_Redemption_Partial_vs_Full-July-24-2026.md]]
 - [[raw/Meeting_Transcript_Recycler_Redemption_Partial_vs_Full-July-24-2026.md]]

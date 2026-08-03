@@ -3,7 +3,7 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention, installment payments, aged receivables, Customer Ledger Entries, category-based terms, subscription module, parts vs machines terms, Black Horse Entertainment, Sales Watch]
-source-count: 49
+source-count: 51
 open-questions: 2
 ---
 
@@ -314,7 +314,24 @@ On the [[wiki/meetings/2026-07-30-georgia-production-ramp-forecast.md|Jul-30 Geo
 
 **§15.8:** clear — BC item-card / vendor-assignment / lead-time-modeling economics only; no named-person compensation.
 
+## July 31 2026 — General Ledger / Labs alignment: freeze Navision at Dec-31-2025, mirror the Systems GL, don't expand JVL Labs by hundreds of accounts
+
+On the [[wiki/meetings/2026-07-31-general-ledger-labs-alignment.md|Jul-31 10:00 AM ET alignment call]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/igor-donis.md|Igor Donis]], [[wiki/people/laura.md|Laura Escorcia]] and Cris Nacarino from finance, with [[wiki/people/felipe-miranda.md|Felipe]] translating) Val laid out the full history of the Navision→MSBC migration and where the JVL Labs general ledger stands, framing it as an alignment statement rather than a discussion. [[raw/Meeting_Notes_General_Ledger_Labs_Alignment-July-31-2026.md]]
+
+- **The Nov-2025 plan (as Val issued it).** Val passed a memo in November 2025 to **stop using Navision** and shift all entries into **MSBC (Microsoft Business Central)**, with **no entries into Navision as of January 1, 2026**. A second memo created a **new MSBC production instance for [[wiki/organizations/jvl-labs.md|JVL Labs]] (the Canadian company)** effective January 1, 2026; [[wiki/organizations/jvl-systems.md|JVL Systems]] (the US company) had already been running on MSBC through all of 2025. Val's instruction for the Labs instance was to use an **exact copy of the JVL Systems GL accounts**. *(Val's definition of a "production instance": when you physically start paying the license fee and start entering and using real data — the cloud-application term.)* [[raw/Meeting_Transcript_General_Ledger_Labs_Alignment-July-31-2026.md]]
+- **What Val discovered in July 2026.** Navision was **never frozen** — entries kept going into it for JVL Labs; JVL Labs **did not assume all the charges out of Navision**; and the **JVL Labs GL is not identical to JVL Systems** — it was not a clean copy-paste after all. [[raw/Meeting_Transcript_General_Ledger_Labs_Alignment-July-31-2026.md]]
+- **The account-count dispute (the reason for the call).** When Val asked to move the Navision transactions into JVL Labs in MSBC (debit out of Navision, credit into Labs MSBC), he was told the **MSBC accounts for JVL Labs are not set up**, and Igor proposed a very large number of additional accounts to set them up — Val referenced a rate of about **600 additional accounts**, which alarmed him. [[raw/Meeting_Transcript_General_Ledger_Labs_Alignment-July-31-2026.md]]
+- **Val's case against expanding the list.** JVL Systems runs successfully on **437 accounts** — of which about **8 are dead** (should be deleted) and about **100 are badly named** (should be renamed), leaving roughly **430 working accounts** that already cover sales, purchasing, manufacturing, payroll and multi-state taxes. Val's main proof the set is stable: by Igor's own statement he added only **four or five accounts over the past 18 months** (not tens or hundreds). Val also views JVL Labs as **shrinking** its day-to-day manufacturing and purchasing role, so its account set should be **contracting, not expanding** — and certainly not by ~600. [[raw/Meeting_Transcript_General_Ledger_Labs_Alignment-July-31-2026.md]]
+- **The fix Val ordered (in place of expanding the account list).** Immediately **stop using Navision** and **reverse all transactions out of it**; Navision relates **only to JVL Labs** (Systems has been on MSBC all of 2025, unaffected). **Preserve Navision as of December 31, 2025** and reconcile it exactly to the **accounting firm's statement** — that is the closing balance. **Create an opening balance in JVL Labs MSBC equal to the Navision Dec-31-2025 closing balance.** Then **re-enter all 2026 transactions into MSBC.** [[raw/Meeting_Transcript_General_Ledger_Labs_Alignment-July-31-2026.md]]
+- **Target state.** Val's stated objective (set in November 2025, "erroneously" not carried through until now): **monthly, consolidated, automated statements between JVL Labs and JVL Systems**, which depends on **one well-groomed, coherent set of GL accounts across both companies**. [[raw/Meeting_Notes_General_Ledger_Labs_Alignment-July-31-2026.md]]
+- **Execution expectation.** Val wants **aggressive daily action** — tasks broken down, closed daily, and reported to him **in writing every day** (not weekly). Explicitly **no blame exercise** — focus on the current state and the fix, not fault. Laura and Cris were pulled in specifically to learn the GL subject. [[raw/Meeting_Notes_General_Ledger_Labs_Alignment-July-31-2026.md]]
+
+**§15.8:** clear — GL-account-structure / Navision-migration / consolidated-statement economics only (company economics); no named-person compensation. Open item carried on [[wiki/topics/jvl-finance-back-office.md]]: the reconciled JVL Labs account list is still to be produced.
+
 ## Sources
+- [[raw/Meeting_Notes_General_Ledger_Labs_Alignment-July-31-2026.md]]
+- [[raw/Meeting_Transcript_General_Ledger_Labs_Alignment-July-31-2026.md]]
+
 - [[raw/Meeting_Notes_Georgia_Production_Ramp_Forecast-July-30-2026.md]]
 - [[raw/Meeting_Transcript_Georgia_Production_Ramp_Forecast-July-30-2026.md]]
 
