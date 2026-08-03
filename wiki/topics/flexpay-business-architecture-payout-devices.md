@@ -3,7 +3,7 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS, ATM registration, slim ATM]
-source-count: 161
+source-count: 162
 open-commitments: 56
 open-questions: 8
 ---
@@ -1181,6 +1181,12 @@ On the [[wiki/meetings/2026-07-28-iq-pilot-release-priorities.md|Jul-28 10:30 AM
 - **InComm is the pilot blocker.** Registering a production location still needs **master and location licence numbers**, which JVL does not have; InComm is working on a workaround to let JVL register a location without them. Andrei wants the full path proven end-to-end — register location, issue cards, receive invoice. This is the same blocker tracked from the [[wiki/meetings/2026-07-27-incomm-prod-location-registration.md|Jul-27 InComm call]]. [[raw/Meeting_Notes_IQ_Pilot_Release_Priorities-July-28-2026.md]] [[raw/Meeting_Transcript_IQ_Pilot_Release_Priorities-July-28-2026.md]]
 - **The yellow-flag / GenPay interface improvement is deferred to releases after the pilot** — Andrei called it separate logic that improves the product feel but "we are not chasing it now." Process discipline was reinforced: Val pushed back on discussing solutions ahead of written requirements and asked the team not to write requirements ahead of need — changes must rest on requirements and acceptance criteria, and engineers should not act without them. **§15.8:** clear — Flex-IQ / release-priority / update-mechanism / firmware-hosting economics only; no named-person compensation. [[raw/Meeting_Transcript_IQ_Pilot_Release_Priorities-July-28-2026.md]] [[raw/Meeting_Notes_IQ_Pilot_Release_Priorities-July-28-2026.md]]
 
+## Jul 29 2026 — the hardware repo: getting Genadi's SolidWorks CAD files under version control
+
+On the [[wiki/meetings/2026-07-29-hardware-repo-solidworks-github-large-files.md|Jul-29 9:02 AM ET hardware-repo meeting]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/genadi-peari.md|Genadi Peari]], [[wiki/people/andrey-bosik.md|Andrei Bosik]], [[wiki/people/pavel.md|Pavel Frolov]]) Val brought the company repository/artifact standard onto the **hardware-design side**. Genadi's device work produces **SolidWorks CAD files** (parts, assemblies, drawings) that today live only on his local computer and get deposited (last time on SharePoint) when a project finishes; an average project is ~**10 GB**. [[raw/Meeting_Notes_Hardware_Repo_SolidWorks_GitHub_Large_Files-Part_2-July-29-2026.md]]
+
+- **Decisions.** **Genadi and Andrei Bosik own the hardware-repo policy together** (Pavel joins on the PCB-tooling side); **JVL will buy a licensed SolidWorks** and configure Genadi's computer for remote work; **manufacturing documents (STEP files, etc.) go into Business Central; documentation goes into GitHub**. The large-file handling — **Git-LFS** (per-file ~1 GB / total ~40–50 GB limits) versus an intermediate large-file repository — and **who deposits the artifact** (contractor vs Genadi) are left open. Full repo/Git-LFS detail is on [[wiki/topics/github-release-management-pipeline.md]] (Jul-29). §15.8 clear — CAD/repo/tooling economics only, no named-person compensation. [[raw/Meeting_Notes_Hardware_Repo_SolidWorks_GitHub_Large_Files-Part_2-July-29-2026.md]]
+
 ## Open commitments
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — implement the agreed single flow by the Aug-1 launch: default card issuance with no player-facing alternative; on card failure a retry option and a "print ticket" button that prints the standard Mutha Goose ticket; rename the "Void" button; statuses pending/redeemed/ticket; and switch off ingestion of the 25 historical Mutha Goose tickets — due Aug 1 2026 — [[raw/Meeting_Notes_IQ_Down_Printer_Bypass_Complete-July-17-2026.md]] [[raw/Meeting_Transcript_IQ_Down_Printer_Bypass_Complete-July-17-2026.md]]
@@ -1421,3 +1427,4 @@ On the [[wiki/meetings/2026-07-28-iq-pilot-release-priorities.md|Jul-28 10:30 AM
 - [[raw/Meeting_Transcript_IQ_Process_Flow_Part_2-July-23-2026.md]]
 - [[raw/Meeting_Notes_IQ_Pilot_Release_Priorities-July-28-2026.md]]
 - [[raw/Meeting_Transcript_IQ_Pilot_Release_Priorities-July-28-2026.md]]
+- [[raw/Meeting_Notes_Hardware_Repo_SolidWorks_GitHub_Large_Files-Part_2-July-29-2026.md]]

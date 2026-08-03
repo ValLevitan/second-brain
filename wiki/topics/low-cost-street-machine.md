@@ -3,7 +3,7 @@ type: topic
 title: Low-cost street machine (sub-$2,000 street cabinet program)
 date: 2026-06-09
 aliases: [street machine, street cabinet, low-cost street machine, low-cost street cabinet, street slot machine, sub-$2000 street machine, RK3588 street machine, stripped street cabinet]
-source-count: 5
+source-count: 6
 ---
 
 # Low-cost street machine (sub-$2,000 street cabinet program)
@@ -77,6 +77,14 @@ On the [[wiki/meetings/2026-06-16-street-cabinet-design-direction.md|June-16 4:5
 - **Market context.** Val was in **Omaha** (Texas the day before), visiting route locations in both states; **Texas alone has ~200,000 machines** in the grey/illegal market, where operators care about **cost and revenue share, not brand** — JVL needs a price point even Chinese competitors can't match. Val cited the **ECO cabinet** (designed for a 3–5 year life, still running after 25 years) as proof that simple construction lasts. [[raw/Meeting_Notes_Street_Cabinet_Design_Direction-June-16-2026.md]]
 - **Open items.** Plastic vs metal back cavity (needs a concrete cost comparison); bill-validator type and back-load vs front-load placement within the drawer; printer service access; exact screen size (43–49 inch range set, final pick depends on cost sourcing). Once the Transaction Management work wraps, the street cabinet becomes top priority. §15.8: device/BOM/build-cost economics only (the $5,000 sell target and mold/cabinet costs are product economics); no named-person compensation. [[raw/Meeting_Notes_Street_Cabinet_Design_Direction-June-16-2026.md]]
 
+## Jul 29 2026 — RK3588 memory findings: the sizing question answered
+
+The [[wiki/meetings/2026-07-29-rk3588-game-performance-findings.md|Jul-29 7:00am ET findings meeting]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/alexander-biratka.md|Alexander Biratko]], [[wiki/people/irina-shishko.md|Irina Shishko]]) reported measured results of running a Nova game on the RK3588, answering the [[#the-compute-platform-rk3568--rk3588|memory-sizing question]] above. The board plays the base game smoothly at ~60 FPS; the tested **4 GB board** causes short stutters on bonus/free-spin transitions because it runs out of RAM and swaps textures. [[raw/Meeting_Notes_RK3588_Game_Performance_Findings-July-29-2026.md]]
+
+- **Memory sizing — 16 GB for 8 games.** One game plus the system plus LGS uses roughly **5 GB**; each additional game adds at least **1 GB**. So 8 games is about 5 + 7 = **12 GB**, and a **16 GB board leaves ~4 GB headroom**. An 8 GB board only covers about 2 games. Boards come in 4, 8 and 16 GB; onboard storage (32–64 GB) is more than enough for years of games. Textures could be hand-optimized to trim roughly **200 MB per game** (from ~1 GB toward ~800 MB) if needed. **Decision: order an RK3588 with 16 GB RAM** (RAM is soldered, so a different board is required — not an upgrade). [[raw/Meeting_Notes_RK3588_Game_Performance_Findings-July-29-2026.md]]
+- **Multi-progressive / multi-product.** Irina asked whether running multi-progressives that mix games from different products (Caliente + Peaches + Jackpot Rush) would change the picture once ported to Nova; Alexander said it would add some resources per game but likely isn't critical, and the 16 GB estimate still holds. Irina noted the current multi image has grown ~30% versus the old one, approaching ~8 GB. [[raw/Meeting_Notes_RK3588_Game_Performance_Findings-July-29-2026.md]]
+- **Board and display decisions.** RK3588 confirmed as the evaluation platform (RK3576 comparable, RK3399 older and no faster). The board supports at most 2 monitors, so no horizontal layout — only a compact one-main-plus-topper. One video interface is LVDS (impractical); the team prefers a board variant with **2–3 uniform HDMI outputs**. A progressive controller would add a database + controller app (a bit more load). Becoming a **Rockchip developer costs ~$3,000**, likely per platform (the earlier application was for the RK3568; a fresh request for the RK3588 is likely needed — Pavel to check). §15.8: board/memory/BOM economics only; no named-person compensation. [[raw/Meeting_Notes_RK3588_Game_Performance_Findings-July-29-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Low_Cost_Street_Machine_Design-June-8-2026.md]]
@@ -84,3 +92,4 @@ On the [[wiki/meetings/2026-06-16-street-cabinet-design-direction.md|June-16 4:5
 - [[raw/Meeting_Notes_Street_Machine_Industrial_Design-June-9-2026.md]]
 - [[raw/Meeting_Notes_Game_Dev_Pipeline_and_Street_Machine-June-10-2026.md]]
 - [[raw/Meeting_Notes_Street_Cabinet_Design_Direction-June-16-2026.md]]
+- [[raw/Meeting_Notes_RK3588_Game_Performance_Findings-July-29-2026.md]]
