@@ -916,7 +916,7 @@ tags:
 |                                                                       |
 | b.  User: <andreik@jvl.ca>                                            |
 |                                                                       |
-| c.  Pass: ***REMOVED***                                   |
+| c.  Pass: [removed — not kept in GitHub; rotate at slotmatrix.com]                    |
 |                                                                       |
 | This part requires contractor's assistance with wireframes and        |
 | specification.                                                        |
@@ -964,7 +964,7 @@ tags:
 |                                                                       |
 | b.  User: <andreik@jvl.ca>                                            |
 |                                                                       |
-| c.  Pass: ***REMOVED***                                   |
+| c.  Pass: [removed — not kept in GitHub; rotate at slotmatrix.com]                    |
 |                                                                       |
 | This part requires contractor's assistance with wireframes and        |
 | specification.                                                        |

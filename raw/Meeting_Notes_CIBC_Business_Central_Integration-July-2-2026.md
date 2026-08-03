@@ -80,17 +80,17 @@ The email thread that followed the call resolves the open questions above and **
 
 **The account is now LIVE.**
 
-- **New account opened and live.** Sanjay confirmed (July 13): *"The new account went live last week. The account number is ***REMOVED***. All the other details (ABA) etc. remain the same."* → **New account #: ***REMOVED*****; ABA/routing and all other details unchanged.
+- **New account opened and live.** Sanjay confirmed (July 13): *"The new account went live last week. The account number is [account # — held in Corporate Registry]. All the other details (ABA) etc. remain the same."* → **New account #: [account # — held in Corporate Registry]**; ABA/routing and all other details unchanged.
 - **Signature docs completed (July 9).** Monica signed and returned the account-opening documents. The exchange hit repeated snags — the PDF arrived corrupted / damaged several times and once was missing signatures; Sanjay ultimately asked Monica to snip the signature page and paste it into the email body. Resolved same day — Sanjay confirmed July 9: *"The account will go live today."*
 - **Monica's July 13 check-in.** Monica emailed Michael and Sanjay asking (1) whether the account was set up and if anything else needs to be signed, and (2) whether Nathan has been given the information he needs to integrate the API. Sanjay's reply confirmed the account is live and details unchanged; the API-info question to Nathan was **not explicitly answered** in his reply.
 
 **Now resolved (from the July 8 "Still open" list):**
-- ✅ Account opened — live as of ~week of July 6; account # ***REMOVED***.
+- ✅ Account opened — live as of ~week of July 6; account # [account # — held in Corporate Registry].
 - ✅ Monica signed the account docs (July 9).
 
 **Still open:**
 - **Confirm Nathan has the integration details** — Monica's question about whether Nathan received the API info was not directly addressed in Sanjay's reply. Follow up so Nathan can begin the ZBA + batch-read setup.
 - **Michael loops Nathan in** and shares ZBA / batch-read documentation.
-- Nathan wires up **reconciliation in Business Central** against the account (# ***REMOVED***).
+- Nathan wires up **reconciliation in Business Central** against the account (# [account # — held in Corporate Registry]).
 
 *Processed from Outlook thread "JVL/CIBC ACH payment processing" (July 9–13, 2026), on July 13, 2026.*

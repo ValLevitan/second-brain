@@ -236,7 +236,7 @@ Applies once the owner says "unlock" and the full backlog run begins. Goal: run 
 
 ## 15. Hard prohibitions
 
-1. Never modify, rename, or delete anything in `raw/`. Read-only forever.
+1. Never modify, rename, or delete anything in `raw/`. Read-only forever. **(Named exception, owner 2026-08-03 — security only:** corporate **digital identifiers** and credentials may be redacted out of `raw/` and their carrier docs removed, because those values are segregated to the Corporate Registry per item 9. This is the sole sanctioned reason to touch `raw/`; the redacted strings are also purged from git history. The original values remain in the source vault/Outlook, so nothing is lost.)
 2. Never state a fact without a citation. Never invent facts; flag "unclear" instead.
 3. Never let an older source overwrite a newer fact (Section 11).
 4. Never resolve a contradiction silently (Section 11).
@@ -244,6 +244,7 @@ Applies once the owner says "unlock" and the full backlog run begins. Goal: run 
 6. Never delete a wiki page without explicit owner approval.
 7. Never ingest both the `.docx` and `.md` of the same transcript.
 8. Never commit credentials or secrets. Flag content that looks like HR/legal/medical/compensation material for the owner's decision rather than silently ingesting it.
+9. **Never ingest a corporate DIGITAL IDENTIFIER into the wiki (owner ruling 2026-08-03).** The actual *values* of Tax IDs / FEINs, state entity/registration IDs, bank account numbers, ABA/routing, and licence/registration numbers belong in the **Corporate Registry** (`~/Projects/Corporate Document Register/`, private GitHub `ValLevitan/Corporate-Document-Register`), **not** here. In the wiki, keep the *knowledge* (that an entity has a FEIN, is FL-incorporated, banks at CIBC, the corporate structure/chart/diagrams) but write the number itself as "held in Corporate Registry". When steady-state intake surfaces such a value: route it to the Registry (add the row there), keep the narrative here, and never paste the digits into a wiki page or leave them in `raw/`. **Third-party** licence/registration numbers (other companies' operator licences, market lists) are market knowledge and stay. The Constitution is neither Second-Brain nor Registry content — it stands alone at `~/Projects/Constitution/`; do not re-ingest it.
 
 ## 16. Worldview essay (recurring comprehension check)
 

@@ -8,11 +8,11 @@ source-count: 9
 
 # Monica
 
-Monica is JVL's **Director of Corporate Compliance**. [[raw/jvl_systems_corporate_identity_tax_ids_2026-06-04.md]] She also handles finance and banking matters for the group.
+Monica is JVL's **Director of Corporate Compliance**. (source: Corporate Registry — JVL Systems Identity & Tax IDs) She also handles finance and banking matters for the group.
 
 ## Role
 
-- **Director of Corporate Compliance.** In April 2025 she corrected JVL Systems' incorporation state (now Florida, not Delaware); in July 2026 she confirmed JVL Gameworks' legal name, Florida incorporation, and FEIN, attaching the formation, Articles of Incorporation, and IRS FEIN letter. [[raw/jvl_systems_corporate_identity_tax_ids_2026-06-04.md]] [[raw/jvl_gameworks_corporate_identity_tax_ids_2026-07-13.md]]
+- **Director of Corporate Compliance.** In April 2025 she corrected JVL Systems' incorporation state (now Florida, not Delaware); in July 2026 she confirmed JVL Gameworks' legal name, Florida incorporation, and FEIN, attaching the formation, Articles of Incorporation, and IRS FEIN letter. (source: Corporate Registry — JVL Systems Identity & Tax IDs) (source: Corporate Registry — JVL Gameworks Identity & Tax IDs)
 - Monica joined the CIBC account-setup call with Val and answered the bank's detailed questions about the company structure and accounts. [[raw/cibc_account_the_january_6_2025.md]]
 - She is one of the three planned signers on the CIBC US accounts, alongside Val and Inna. [[raw/cibc_account_the_january_6_2025.md]]
 - She raised operational points such as how Amazon pays (by incoming ACH) and whether credit cards were needed. [[raw/cibc_account_the_january_6_2025.md]]
@@ -27,7 +27,7 @@ An older source (staged 2025-03-29, internally dated **Aug 8 2023**) is the earl
 
 ## Name
 
-Her surname appears as **Levitan-Fenwick** in the JVL Systems identity note [[raw/jvl_systems_corporate_identity_tax_ids_2026-06-04.md]] and as **Levitan** in the JVL Gameworks note [[raw/jvl_gameworks_corporate_identity_tax_ids_2026-07-13.md]]. The Jan 2025 CIBC transcript gives no surname. Same-person match is by consistent role (Director of Corporate Compliance / finance-banking); recorded both surname forms as aliases.
+Her surname appears as **Levitan-Fenwick** in the JVL Systems identity note (source: Corporate Registry — JVL Systems Identity & Tax IDs) and as **Levitan** in the JVL Gameworks note (source: Corporate Registry — JVL Gameworks Identity & Tax IDs). The Jan 2025 CIBC transcript gives no surname. Same-person match is by consistent role (Director of Corporate Compliance / finance-banking); recorded both surname forms as aliases.
 
 ## Estrella call + LuckyStick (Apr 2025)
 
@@ -48,8 +48,8 @@ On the [[wiki/meetings/2025-11-05-jvl-dwolla-onboarding-kickoff.md|Nov-5 Dwolla 
 - [[raw/jvl_online_sync_2025-03-29 1.md]]
 - [[raw/cibc_account_the_january_6_2025.md]]
 - [[raw/RBC_services_review-june-4-2025.md]]
-- [[raw/jvl_systems_corporate_identity_tax_ids_2026-06-04.md]]
-- [[raw/jvl_gameworks_corporate_identity_tax_ids_2026-07-13.md]]
+- (source: Corporate Registry — JVL Systems Identity & Tax IDs)
+- (source: Corporate Registry — JVL Gameworks Identity & Tax IDs)
 - [[raw/flex_pay_scope_gap-mach-27-2025.md]]
 - [[raw/estrella_law_carlos_infante_puerto_rico-april-10-2025.md]]
 - [[raw/andrei _klimovich_update-apr-15-2025.md]]

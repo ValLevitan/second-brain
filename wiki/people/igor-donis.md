@@ -9,13 +9,13 @@ disambiguation: "JVL Financial Controller — the finance/corporate Igor. One of
 
 # Igor Donis
 
-Igor Donis is JVL's **Financial Controller**. [[raw/jvl_systems_corporate_identity_tax_ids_2026-06-04.md]]
+Igor Donis is JVL's **Financial Controller**. (source: Corporate Registry — JVL Systems Identity & Tax IDs)
 
 ## Role
 
-- He gave the group's corporate-identity facts for JVL Systems — FEIN, Delaware incorporation, Georgia registration — in the 2026-04-30 Outlook thread. [[raw/jvl_systems_corporate_identity_tax_ids_2026-06-04.md]]
-- He is the **day-to-day owner of JVL Systems' California franchise-tax matter**. [[raw/jvl_systems_corporate_identity_tax_ids_2026-06-04.md]]
-- He reported the 2025 California sales figure (one customer, RU Hungry LLC, USD 11,496.53) and offered to confirm any state-level registrations beyond income tax on request. [[raw/jvl_systems_corporate_identity_tax_ids_2026-06-04.md]]
+- He gave the group's corporate-identity facts for JVL Systems — FEIN, Delaware incorporation, Georgia registration — in the 2026-04-30 Outlook thread. (source: Corporate Registry — JVL Systems Identity & Tax IDs)
+- He is the **day-to-day owner of JVL Systems' California franchise-tax matter**. (source: Corporate Registry — JVL Systems Identity & Tax IDs)
+- He reported the 2025 California sales figure (one customer, RU Hungry LLC, USD 11,496.53) and offered to confirm any state-level registrations beyond income tax on request. (source: Corporate Registry — JVL Systems Identity & Tax IDs)
 
 ## June 26 2025 — Business Central general posting setup for the Georgia manufacturing move
 
@@ -68,6 +68,6 @@ On the [[wiki/meetings/2026-04-28-cash-reporting-standardization.md|cash-reporti
 - [[raw/finance_recurring_meeting-november-4-2025.md]]
 - [[raw/cash_forecast_till_2027-september-16-2025.md]]
 - [[raw/finance_recurring_meeting-october-7-2025.md]]
-- [[raw/jvl_systems_corporate_identity_tax_ids_2026-06-04.md]]
+- (source: Corporate Registry — JVL Systems Identity & Tax IDs)
 - [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
 - [[raw/mx_tax-dispute_status_review-july-5-2025.md]]
