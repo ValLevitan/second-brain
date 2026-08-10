@@ -14,7 +14,7 @@ source-count: 1
 
 **Cadence note (§11, inference):** the Apr-7 call had set the next recurring session for "the 9th" (bi-weekly); this Apr-15 session delivers exactly the control-sheet work promised there and re-anchors the bi-weekly rhythm — read as the recurring call shifted, not a separate series (labeled inference; the transcript itself doesn't say why the date moved).
 
-Substance lives on [[wiki/topics/jvl-finance-back-office.md]], [[wiki/people/hector.md]], [[wiki/people/alka-sood.md]], [[wiki/people/chris-finance.md]], [[wiki/people/laura.md]].
+Substance lives on [[wiki/topics/jvl-finance-back-office.md]], [[wiki/people/hector.md]], [[wiki/people/alka-sood.md]], [[wiki/people/cris-nacarino.md]], [[wiki/people/laura.md]].
 
 ## Sources
 
