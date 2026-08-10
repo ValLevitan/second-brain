@@ -3,7 +3,7 @@ type: project
 title: South Dakota VLT market entry
 date: 2025-01-22
 aliases: [South Dakota, SD VLT, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950, V43, D27, SD cap, Bioliches, Gypsy Spirit, Crazy Colt, Queen of Luxor, Liberty Spin, Rodeo Spin, South Dakota vertical, MG Oil report, VLT2, Cool Cat, Black Hills Kino, Dragon Pace, Dakota Bison, Solar Keno, Keno Deluxe, IP459, IP1063]
-source-count: 31
+source-count: 33
 ---
 
 # South Dakota VLT market entry
@@ -197,6 +197,10 @@ A ~39-minute game-development meeting ([[wiki/meetings/2026-05-29-game-developme
 
 On the [[wiki/meetings/2026-06-26-game-development.md|Jun-26 1:00pm ET game-development session]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/michael-gottlieb.md|Michael Gottlieb]], [[wiki/people/juan-martinez.md|Juan Martinez]], [[wiki/people/lena.md|Lena Zhukova]]) the game-concept queue was set as **Nebraska D2702 → Nebraska vertical (NADV43) → South Dakota VLT**. Two SD constraints were restated: **Georgia V3 must finish (targeted late August) before the SD vertical starts** — resources go to Georgia first — and **South Dakota is more complicated because it requires submitting an actual cabinet to the regulator**, so Nebraska (which can also be sold into Texas) is completed first. Full Nebraska detail on [[wiki/projects/nebraska-skill-market.md]] (Jun-26). §15.8 clear — market sequencing / regulator process only; no named-person compensation. [[raw/Meeting_Transcript_Game_Development-June-26-2026.md]]
 
+## Aug 3 2026 — South Dakota to be fully ported to NOVA (~6 months); RAGE dropped as the SD strategy
+
+On the [[wiki/meetings/2026-08-03-rage-nova-migration-experiment.md|Aug-3 RAGE→NOVA experiment sync]], [[wiki/people/val-levitan.md|Val]] reversed the earlier idea of leaving South Dakota on RAGE (because it is the hard, Class-III-regulated case) and decided **the South Dakota product will be fully ported from RAGE to NOVA**. Plan: certify and release the **current RAGE version now** so it reaches market; in parallel, fully port the SD product to NOVA — the new revision with liquid glass, new floats and keno added, ~**10 games** (likely +4 → ~**12**) — and do a full certified replacement in **about six months** (~3 months transition + ~3 months polishing). The next migration experiment targets an SD **horizontal** game (candidate **"Nikena"**), porting logic too, reviewed **Aug 17**. Captured on [[wiki/decisions/2026-08-03-no-en-masse-rage-to-nova-migration.md]]; platform detail on [[wiki/topics/nova-platform-architecture.md]]. [[raw/Meeting_Transcript_Rage_to_Nova_Migration_Experiment-August-3-2026.md]] [[raw/Meeting_Notes_Rage_to_Nova_Migration_Experiment-August-3-2026.md]]
+
 ## Who
 
 - Driven by [[wiki/people/val-levitan.md|Val]] with [[wiki/people/juan-martinez.md|Juan]] (regulator/operator relationship, field side) and [[wiki/people/pavel.md|Pavel]] (Minsk software); [[wiki/people/irina-shishko.md|Irina]] on printer testing and GLI diffs, [[wiki/people/sebastian.md|Sebastian]] on field service, [[wiki/people/ivan.md|Ivan]] on GLI scheduling. **Lonnie** is the SD lottery-lab tester; **"Alani"** appears as the SD lottery (supplied the SAS adapter, requested the permit-number rename) — whether Alani is the lottery entity or a person there is unclear (see Owner Decisions). [[raw/sd_vlt_recap-jan-22-2025.md]] [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
@@ -234,3 +238,5 @@ On the [[wiki/meetings/2026-06-26-game-development.md|Jun-26 1:00pm ET game-deve
 - [[raw/Meeting_Notes_Game_Development_Schedule_Review-May-14-2026.md]]
 - [[raw/Meeting_Transcript_Game_Development-June-26-2026.md]]
 - [[raw/Meeting_Notes_South_Dakota_Vertical_Lineup-May-14-2026.md]]
+- [[raw/Meeting_Notes_Rage_to_Nova_Migration_Experiment-August-3-2026.md]]
+- [[raw/Meeting_Transcript_Rage_to_Nova_Migration_Experiment-August-3-2026.md]]

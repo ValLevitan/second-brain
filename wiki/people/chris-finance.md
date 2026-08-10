@@ -3,7 +3,7 @@ type: person
 title: Chris (finance)
 date: 2025-04-15
 aliases: [Chris, Cris]
-disambiguation: "The finance-team 'Chris' (Peru-based bookkeeper/accountant under Alka Sood). Possibly the same person as the 2026 A/P contact 'Cris' (Cris Nacarino) — unconfirmed, queued; recorded separately pending an owner ruling."
+disambiguation: "Chris/Cris cluster (provisional — owner ruling pending): [[wiki/people/chris-finance.md|Chris (finance)]] = Peru-based bookkeeper/accountant under Alka Sood (2025 finance back-office); [[wiki/people/cris-nacarino.md|Cris Nacarino]] = JVL A/P + Systems/Labs GL finance-team member (2026). Possibly ONE person — unconfirmed; recorded separately pending an owner ruling. Resolve by context: 2025 Peru bookkeeper under Alka → Chris (finance); 2026 A/P / chart-of-accounts working sessions → Cris Nacarino."
 source-count: 3
 open-questions: 1
 ---

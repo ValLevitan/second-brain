@@ -3,7 +3,7 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention, installment payments, aged receivables, Customer Ledger Entries, category-based terms, subscription module, parts vs machines terms, Black Horse Entertainment, Sales Watch]
-source-count: 51
+source-count: 55
 open-questions: 2
 ---
 
@@ -328,9 +328,29 @@ On the [[wiki/meetings/2026-07-31-general-ledger-labs-alignment.md|Jul-31 10:00 
 
 **§15.8:** clear — GL-account-structure / Navision-migration / consolidated-statement economics only (company economics); no named-person compensation. Open item carried on [[wiki/topics/jvl-finance-back-office.md]]: the reconciled JVL Labs account list is still to be produced.
 
+## Aug 3 2026 — GL working session: the usage statistics, the 246-vs-lean account dispute, and Navision is more entangled than assumed
+
+On the [[wiki/meetings/2026-08-03-gl-accounts-systems-labs.md|Aug-3 11:02am ET working session]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/igor-donis.md|Igor Donis]], [[wiki/people/laura.md|Laura Escorcia]], [[wiki/people/cris-nacarino.md|Cris Nacarino]], [[wiki/people/felipe-miranda.md|Felipe]] translating) Val ran the GL cleanup as a participation session, requiring everyone to answer questions. [[raw/Meeting_Notes_GL_Accounts_Systems_Labs-August-3-2026.md]]
+
+- **Val's JVL Systems statistics (pulled himself).** Total GL rows **803**; accounts that have **ever** had a posting **437**; accounts **actually used in the last 18 months 143**; **50%** of all entries land in just **4** accounts and **95%** in **40** accounts. His point: Systems runs sales, purchasing, manufacturing, payroll and multi-state taxes on ~143 used accounts, so the other ~660 exist only because no one cleaned them up — and JVL Labs (no longer manufacturing/purchasing) should need *fewer* than Systems, not more. [[raw/Meeting_Transcript_GL_Accounts_Systems_Labs-August-3-2026.md]] [[raw/Meeting_Notes_GL_Accounts_Systems_Labs-August-3-2026.md]]
+- **The account-count disagreement resolved as a miscommunication.** Val's prior reading was that Igor wanted to *add* ~200 accounts to Labs (negotiated down from ~600). Igor clarified through Felipe that he was not inventing accounts — he wants to preserve Labs' Navision history: reuse **211** accounts from the historical Labs ledger plus **35** reusable from Systems, for **246** total. Val said he and Claude had read Igor's written proposal as "add 200 on top," likely a writing/translation miscommunication, and chose not to relitigate it — he wants to build from what is actually used. [[raw/Meeting_Transcript_GL_Accounts_Systems_Labs-August-3-2026.md]]
+- **Navision is more entangled than Val assumed.** Cris pointed out that most Labs *purchases* were done in Business Central (by "Michael"), but most Labs *payments* — to contractors/vendors, from the Canadian bank — were recorded in Navision, so more sits in Navision than Val thought. Laura and Cris argued the priority is not reversing transactions first but building a clean chart of accounts, then logging all 2026 Labs entries month-by-month from Navision into BC and reconciling monthly (reversing first would double the work); Laura noted Navision reversals are technically painful (applied payments must be un-applied first, and the system stalls). Val accepted he may be underestimating the volume and said he'd look again, and agreed reluctantly to **keep using Navision for Labs in the interim** to preserve bank-payment traceability ("simply a disaster … but I have no choice"). [[raw/Meeting_Transcript_GL_Accounts_Systems_Labs-August-3-2026.md]] [[raw/Meeting_Notes_GL_Accounts_Systems_Labs-August-3-2026.md]]
+- **Where it landed.** #1 priority is grooming the GL for both companies so the two ledgers are automatically consolidatable monthly. Val will have Claude generate a first proposed chart of accounts for both Labs and Systems (he won't pre-review it — just generate and send), the team marks it up, and a second Claude version follows; only then do they revisit how to stop Navision. Val warned that if cleanup drags into November with little progress, the fresh start may defer to 2027 (or later). ("Michael" doing Labs BC purchases is unresolved vs [[wiki/people/michael-gottlieb.md|Michael Gottlieb]] — kept as plain prose; see Owner Decisions.) [[raw/Meeting_Notes_GL_Accounts_Systems_Labs-August-3-2026.md]]
+
+## Aug 5 2026 — the AI-CFO's proposed chart: 146 Systems / 96 Labs posting accounts; erase & replace Labs; freeze-Systems-history leaning
+
+On the [[wiki/meetings/2026-08-05-chart-of-accounts-alignment-systems-labs.md|Aug-5 11:00am ET alignment]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/felipe-miranda.md|Felipe]] translating, [[wiki/people/cris-nacarino.md|Cris Nacarino]], [[wiki/people/igor-donis.md|Igor Donis]], [[wiki/people/laura.md|Laura Escorcia]]) the **AI CFO** delivered a definitive proposed chart of accounts as an Excel (column J reserved for comments). This is the Claude-generated proposal promised on Aug-3. Full ruling on [[wiki/decisions/2026-08-05-erase-replace-labs-gl-reduce-chart-of-accounts.md]]. [[raw/Meeting_Notes_Chart_of_Accounts_Alignment_Systems_Labs-August-5-2026.md]]
+
+- **The proposal reduces the chart to 146 posting accounts for JVL Systems and 96 posting accounts for JVL Labs**, down from roughly **800**. **JVL Labs GL will be erased and replaced** (Labs has no entries, so no history to preserve). Process rule: a change is accepted only if **all three** (Cris, Igor, Laura) back it and justify it; from now on all remarks go in **column J**. [[raw/Meeting_Transcript_Chart_of_Accounts_Alignment_Systems_Labs-August-5-2026.md]]
+- **The accounting-approach tension (recorded, not resolved).** Igor and Laura want non-posting accounts kept as titles/subtitles/totals for backward reporting, and warn that rebuilding from scratch and re-linking everything (as "Daniel" did over 8–10 months) is a monstrous project because "every dollar has a history." Val leans instead to **freeze JVL Systems history** (statements + trial balance/opening balances, frozen not deleted, always revertable) and start clean, to avoid dragging the "contaminated" system forward — deferring to the AI CFO and, if needed, external accountant [[wiki/people/sean-riley.md|Sean Riley]]. His feasibility point: what took Daniel ~8 months can be done in **~1 hour** with AI (he committed to producing an 800→147/148 many-to-one tracer Excel via the MSBC MCP right after the meeting). Cris raised whether to stand up a fresh "JVL 2.0" company (possibly 2027) — unresolved. [[raw/Meeting_Transcript_Chart_of_Accounts_Alignment_Systems_Labs-August-5-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Notes_General_Ledger_Labs_Alignment-July-31-2026.md]]
 - [[raw/Meeting_Transcript_General_Ledger_Labs_Alignment-July-31-2026.md]]
+- [[raw/Meeting_Notes_GL_Accounts_Systems_Labs-August-3-2026.md]]
+- [[raw/Meeting_Transcript_GL_Accounts_Systems_Labs-August-3-2026.md]]
+- [[raw/Meeting_Notes_Chart_of_Accounts_Alignment_Systems_Labs-August-5-2026.md]]
+- [[raw/Meeting_Transcript_Chart_of_Accounts_Alignment_Systems_Labs-August-5-2026.md]]
 
 - [[raw/Meeting_Notes_Georgia_Production_Ramp_Forecast-July-30-2026.md]]
 - [[raw/Meeting_Transcript_Georgia_Production_Ramp_Forecast-July-30-2026.md]]

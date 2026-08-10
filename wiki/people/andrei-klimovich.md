@@ -4,7 +4,7 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 36
+source-count: 38
 open-commitments: 14
 open-questions: 0
 ---
@@ -208,6 +208,10 @@ On the [[wiki/meetings/2026-04-15-flex-pay-functionality-review.md|Apr-15 Flex-P
 
 On the [[wiki/meetings/2026-04-21-transactional-financial-model.md|Transactional Financial Model / Competitive Landscape]] session ([[wiki/people/val-levitan.md|Val]], [[wiki/people/juan-martinez.md|Juan Martinez]], [[wiki/people/felipe-miranda.md|Felipe Miranda]], Andrei — his second such session), Val pivoted the meeting from pricing to mapping the transactional/POS competitive landscape and made it Andrei's gating deliverable: **gather competitor intelligence and organize it into a side-by-side capability + pricing comparison** before any pricing-strategy conversation. Val praised his research capabilities on the record ("I've seen Andrei in action… I feel very comfortable"). The group also settled his first **Georgia field trip: arrive ~May 13 for the May 14 operator meeting** (not May 1) — as a learner/relationship visit, not a product demo (the alpha stays in the Georgia office). Val's coaching stressed showing up without an agenda or commitments, purely to gather intelligence. Full competitor inventory + product-direction context on [[wiki/projects/georgia-market-rollout.md]] (Apr 21 2026). **§15.8:** Val's demo-sequencing coaching keyed to operator ethnicity was flagged on-record for HR-sanitization and is not restated. [[raw/Meeting_Transcript_transactional_financial_model-April-21-2026.md]] [[raw/Meeting_Notes_transactional_financial_model-April-21-2026.md]]
 
+## Aug 3 2026 — Georgia Expo prep
+
+At the [[wiki/meetings/2026-08-03-georgia-expo-prep-alignment.md|Aug-3 Expo prep alignment]] (with Val and Juan) Andrei was on the field/hardware side of the show: he is chasing **InComm** to register the production location (JVL answered their questions Friday, no reply since — he'll ping again), spotted a new IQ-machine issue to hand to Pavel, and is helping **Elizabeth** build one machine of each type (dispenser + recycler by Wednesday evening Aug 5), coordinating with Pavel. Val also directed him to prepare the show "cash" as **blank, non-currency-resembling pages** and discard the realistic fake bills he'd bought. Detail on [[wiki/projects/georgia-market-rollout.md]] (Aug-3). [[raw/Meeting_Notes_Georgia_Expo_Prep_Alignment-August-3-2026.md]] [[raw/Meeting_Transcript_Georgia_Expo_Prep_Alignment-August-3-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Flex-Pay_functionality_review-1-April-15-2026.md]]
@@ -244,3 +248,5 @@ On the [[wiki/meetings/2026-04-21-transactional-financial-model.md|Transactional
 - [[raw/echo_sales_marketing_progress_report-june-18-2025.md]]
 - [[raw/Alignment with Andrei Klimovich.md]]
 - [[raw/Echo_sales_marketing_update.md]]
+- [[raw/Meeting_Notes_Georgia_Expo_Prep_Alignment-August-3-2026.md]]
+- [[raw/Meeting_Transcript_Georgia_Expo_Prep_Alignment-August-3-2026.md]]

@@ -3,7 +3,7 @@ type: person
 title: Laura
 date: 2025-04-15
 aliases: [Laura, Laura Escorcia]
-source-count: 6
+source-count: 8
 ---
 
 # Laura
@@ -20,6 +20,10 @@ Laura is a member of JVL's **finance back-office** (managed via [[wiki/people/al
 
 - **Jun 29 2026:** handled the **MSII customer refund** ([[wiki/meetings/2026-06-29-msii-refund-situation.md]], with Val and [[wiki/people/felipe-miranda.md|Felipe]]) — she is to attach the customer statement and file a **"request approval" for return of funds** in the system for Val to approve electronically, then issue the payment; directed to **work with [[wiki/people/lev-rudky.md|Lev Rudky]]** in case the refund-approval step is not yet configured. See [[wiki/topics/jvl-finance-back-office.md]] (June 29 2026). [[raw/Meeting_Transcript_MSII_Refund_Situation-June-29-2026.md]]
 
+## Aug 2026 — pulled into the JVL Systems/Labs chart-of-accounts work
+
+At the Aug-3 [[wiki/meetings/2026-08-03-gl-accounts-systems-labs.md|GL working session]] and Aug-5 [[wiki/meetings/2026-08-05-chart-of-accounts-alignment-systems-labs.md|chart-of-accounts alignment]] Laura (with Igor Donis and Cris Nacarino) argued for preserving GL traceability — keep and rename existing accounts rather than build a company from scratch (which took "Daniel" ~8–10 months to configure and re-link), because "every dollar has a history"; she flagged that Navision reversals are technically painful. She is one of the three finance people whose joint agreement is now required before any account change is accepted, and Val asked her to credit out the fake sales and move machines to trial warehouses so sales show clean. Detail on [[wiki/topics/business-central-erp-implementation.md]] (Aug-3/Aug-5) and [[wiki/decisions/2026-08-05-erase-replace-labs-gl-reduce-chart-of-accounts.md]]. [[raw/Meeting_Transcript_GL_Accounts_Systems_Labs-August-3-2026.md]] [[raw/Meeting_Notes_Chart_of_Accounts_Alignment_Systems_Labs-August-5-2026.md]]
+
 ## Sources
 
 - [[raw/financial_alka_alignment-march-24-2025.md]]
@@ -28,3 +32,5 @@ Laura is a member of JVL's **finance back-office** (managed via [[wiki/people/al
 - [[raw/Meeting_Transcript_accounts_receivables_GA-COAM-April-14-2026.md]]
 - [[raw/Meeting_Notes_accounts_receivables_GA-COAM-April-14-2026.md]]
 - [[raw/Meeting_Transcript_MSII_Refund_Situation-June-29-2026.md]]
+- [[raw/Meeting_Transcript_GL_Accounts_Systems_Labs-August-3-2026.md]]
+- [[raw/Meeting_Transcript_Chart_of_Accounts_Alignment_Systems_Labs-August-5-2026.md]]

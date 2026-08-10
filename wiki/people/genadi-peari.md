@@ -3,7 +3,8 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena]
-source-count: 65
+source-count: 67
+open-commitments: 2
 ---
 
 # Genadi Peari
@@ -225,6 +226,17 @@ On the [[wiki/meetings/2026-04-21-genadi-continue-planning.md|Apr-21 continuatio
 
 On a short [[wiki/meetings/2026-05-22-genadi-general-alignment.md|May-22 general-alignment 1:1]] (~15m, 3:32pm ET; with Val) Genadi ran his current hardware task load and laid out his **Georgia trip: depart Tuesday May 26 morning (via Buffalo), arrive Tuesday afternoon, return Saturday May 30 morning** — booked to keep a full working day Friday May 29. He had a "whole list" of tasks from **Elizabeth and Filipp**: assemble the two Flex Cash Dispenser samples (one Dispenser, one Recycler), walk assembly steps through with the on-site team, review the **Maple** assembly/wiring, and study the **parts-finding / shop-organization gap** (Filipp flagged that Toronto's shop made parts easy to find but the Georgia team spends too long looking — Genadi wants to learn what Toronto did differently). He is finishing **INBC port numbers** so **Andrei (Andriy)** can test next week, still owes the **Slim** BOM + review harness, and booked a **Monday May 25 AM** session with [[wiki/people/mikhail-perelman.md|Misha]] to walk the **Prinzera** BOM and order 3 PCBs + components for the 10-unit build. The meeting ended when Val cut it short to send a Flex-POS release-schedule planning email (he'd noticed the schedule looked off when the Flex-POS release landed the same day). Device/sourcing substance on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (May-22). §15.8 clear (device/component/sourcing/logistics economics only). [[raw/Meeting_Notes_Genadi_General_Alignment-May-22-2026.md]]
 
+## Aug 6 2026 — asked to build a hardware "CxO" AI; current build status
+
+On the [[wiki/meetings/2026-08-06-ai-engineering-workflow-hardware-cxo.md|Aug-6 1:1 with Val]], Genadi said the builds are almost finished with only small fixes left and the units are close to production-ready; he works mainly with **Andrei and Elizabeth**, uses **Claude** for analysis (e.g. choosing a module/modem in minutes instead of ~2 weeks by hand) but not for compilation, and said his **SolidWorks PDM** already manages files well (he loses no time on file organization and has never lost a file or revision). He asked whether he needs a SolidWorks license or a daily-use file server (left unresolved — Val will read up). [[raw/Meeting_Notes_AI_Engineering_Workflow_and_Hardware_CxO-August-6-2026.md]]
+
+Val asked him to **build a hardware "CxO" AI** (a hardware operational/product officer) with proper references, in the simple/low-bureaucracy form suited to a one-person department. Two component types — **BUY** (market parts with part numbers: power supplies, PLAs, monitors) and **MAKE**; engineering specs/artifacts in **GitHub** next to code/prose/ADR tied to the project repo, with the order reference/part number as a cross-reference in **Business Central**; the second brain (raw source data) built in **Obsidian**, wiki/documents in GitHub. Val offered to help set up the starting prompts and to build a second brain for the hardware CxO from Genadi's accumulated **Outlook quotations** so it can review prices/quantities and help automate sourcing. Genadi flagged 4–5 topics to firm up as next steps; Val will send him the meeting transcript as a base. Method context on [[wiki/topics/ai-assisted-development.md]] (Aug-6). [[raw/Meeting_Notes_AI_Engineering_Workflow_and_Hardware_CxO-August-6-2026.md]] [[raw/Meeting_Transcript_AI_Engineering_Workflow_and_Hardware_CxO-August-6-2026.md]]
+
+## Open commitments
+
+- [ ] Genadi Peari — spend a couple of days in conversation with AI to assess where SolidWorks/AI integration stands and how organized files across Business Central + SolidWorks + GitHub would help a hardware CxO — due TBD — [[raw/Meeting_Notes_AI_Engineering_Workflow_and_Hardware_CxO-August-6-2026.md]]
+- [ ] Genadi Peari — firm up the 4–5 next-step topics and structure the past year's accumulated quotations so a CxO can review prices/quantities for sourcing — due TBD — [[raw/Meeting_Notes_AI_Engineering_Workflow_and_Hardware_CxO-August-6-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Genadi_General_Alignment-May-22-2026.md]]
@@ -292,3 +304,5 @@ On a short [[wiki/meetings/2026-05-22-genadi-general-alignment.md|May-22 general
 - [[raw/SREDs_progress_review-March-20-2026.md]]
 - [[raw/Genadi_Review_draft_questions_FlexPort_IP-578-March-4-2026.md]]
 - [[raw/Genadi_reply_to_Val_questions_FlexPort_IP-578-March-4-2026.md]]
+- [[raw/Meeting_Notes_AI_Engineering_Workflow_and_Hardware_CxO-August-6-2026.md]]
+- [[raw/Meeting_Transcript_AI_Engineering_Workflow_and_Hardware_CxO-August-6-2026.md]]
