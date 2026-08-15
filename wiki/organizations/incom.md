@@ -3,9 +3,9 @@ type: organization
 title: Incom (payment processor)
 date: 2025-02-27
 aliases: [Incom, InComm, Incomm, Income, Incom Payments]
-source-count: 30
-open-commitments: 5
-open-questions: 2
+source-count: 32
+open-commitments: 7
+open-questions: 3
 ---
 
 # Incom (payment processor)
@@ -83,6 +83,8 @@ The market/solution meeting Val committed to on the Apr 2 SMIB call — owner Va
 - [ ] JVL (Val/Juan) — complete Incom's merchant setup form and arrange the in-shop first-machine production test; produce the consumer-experience demo for Adam's review — due unspecified — [[raw/incomm_commissioning_plan_february-27-2025.md]]
 - [ ] JVL (Val + team) — **define the Redemption Center** (bill-recycler tower) and the additional cash-in products (deposits, cell-phone recharge, bill payments) more precisely; July-11 follow-up call booked (10am–12 ET) — due ~Jul 11 2025 — [[raw/incomm_product_discussion-july-2-2025-10.md]]
 - [ ] JVL — run a **failure-mode analysis (FMEA)** on the POS/redemption devices once they mature (informed by the 7-Eleven malformed-reversal failure John described), consulting InComm's John — due after early maturity — [[raw/incomm_product_discussion-july-2-2025-10.md]]
+- [ ] [[wiki/people/monica.md|Monica]] — act as the named **BSA compliance officer** and submit the written compliance plan to InComm (Jason sent her the template; InComm files it, does not review it) — due unspecified — [[raw/Meeting_Notes_InComm_Skill_Pay_Recycler_Strategy-August-12-2026.md]]
+- [ ] [[wiki/people/val-levitan.md|Val]] — complete registration of the JVL ATM with [[wiki/organizations/herring-bank.md|Herring Bank]] (in motion — Val has spoken to Campbell after Jason's introduction to Maya) — due unspecified — [[raw/Meeting_Notes_InComm_Skill_Pay_Recycler_Strategy-August-12-2026.md]]
 
 ## Visa / card-back-into-play talks and future scanner requirement (Apr 8–11 2025)
 
@@ -96,6 +98,7 @@ The market/solution meeting Val committed to on the Apr 2 SMIB call — owner Va
 
 - Can a customer use **any** debit card at the kiosk, or only a prize-redemption/COAM card? The industry treats prize-redemption debit as allowed, plain debit as unknown, credit as prohibited. [[raw/incomm_commissioning_plan_february-27-2025.md]]
 - Would the regulator (GLC) treat an open-loop retail gift card (e.g. from Walgreens) the same as a COAM prize-redemption card? Unresolved. [[raw/incomm_commissioning_plan_february-27-2025.md]]
+- Should JVL **sell** the recycling ATM to operators or **place-and-operate** it (cash routes)? Jason recommended selling but qualified he's never been in the ATM business; Val's call — not locked. (Aug-12 2026.) [[raw/Meeting_Notes_InComm_Skill_Pay_Recycler_Strategy-August-12-2026.md]]
 
 ## May 20 2025 — described as the GLC-sanctioned processing monopoly (BDC call)
 
@@ -207,8 +210,31 @@ On a [[wiki/meetings/2026-07-27-incomm-prod-location-registration.md|Jul-27 12:0
 
 **§15.8:** clear — reseller-model / merchant-ID / card-program / registration-process economics only; no named-person compensation.
 
+## Aug 12 2026 — Jason Hall one-on-one: card volumes, the Pax fleet, Skill Pay, and sell-vs-operate the recycling ATM
+
+An informal call ([[wiki/meetings/2026-08-12-incomm-skill-pay-recycler-strategy.md|Aug-12, ~17 min]]; [[wiki/people/val-levitan.md|Val]] with **Jason Hall**, InComm's Georgia COAM lead). The transcript has no speaker labels; a mid-September Skill Pay confirmation reached Val by message from Jason the same day (the [[wiki/meetings/2026-08-12-fiery-pay-competitive-analysis.md|Fiery Pay call]] renders his name as the garble "**John Hasel**" — same person). [[raw/Meeting_Notes_InComm_Skill_Pay_Recycler_Strategy-August-12-2026.md]]
+
+- **Scale and card volumes (Jason's rough figures).** InComm is live in roughly **4,000–5,000 Georgia locations** and sees about **50,000 cards a week**. He put the average at **~1.5 cards/day/location** (prefaced "I don't know, I think" — a rough figure), said it should be ~**4.6 at full pool**, and noted the prior pilot ran at **0.5–0.7**, so usage has come up two-to-three times. Seeing the swing lets InComm tell which locations were already compliant before the law; in another month or two they expect to gauge relative performance and compliance at every location. [[raw/Meeting_Notes_InComm_Skill_Pay_Recycler_Strategy-August-12-2026.md]] [[raw/Meeting_Transcript_InComm_Skill_Pay_Recycler_Strategy-August-12-2026.md]]
+- **The Pax fleet, brokers, and the "mortgage servicer" model.** Jason dislikes InComm's **Pax devices** (cheap, they work, the experience is poor, nobody wants to pay for them). InComm **is not in the device business** — it buys Pax units from large wholesalers and hands them to **brokers**, who place them with locations. Named brokers: **Bob at IFS** (matches the queued "Bob" — MIMS/IFS, §4), **RWJ**, **Yenlo** (= Yinlo/Yinlow), and **M3T** (technically a broker, connected to InComm, servicing collections on the equipment it sells). Model analogy: InComm underwrites all the cards and locations (like a mortgage originator), brokers represent InComm and do the fieldwork (like a servicer). [[raw/Meeting_Notes_InComm_Skill_Pay_Recycler_Strategy-August-12-2026.md]] [[raw/Meeting_Transcript_InComm_Skill_Pay_Recycler_Strategy-August-12-2026.md]]
+- **Device-agnostic — the "Netflix" position (InComm endorses JVL displacing Pax).** Asked directly whether InComm would rather keep the Pax business or have JVL replace it, Jason said InComm is **not in the Pax business at all** — the devices only exist to get cards activated. InComm would happily contribute **up to ~$300** toward a location buying a JVL device instead of a Pax, and would rather more locations used JVL equipment "because JVL does the card dispensing." His framing: InComm is **Netflix** and doesn't care whether the TV is a Samsung or a Sony as long as it comes loaded; most of InComm's work is enabling providers that build their own equipment (he named **JVL**, "M three P" [likely M3T] and **Excel**). His closing endorsement: "I'm happy to have you sell as many machines as possible that will dispense cards or issue cards because I love issuing cards." [[raw/Meeting_Notes_InComm_Skill_Pay_Recycler_Strategy-August-12-2026.md]] [[raw/Meeting_Transcript_InComm_Skill_Pay_Recycler_Strategy-August-12-2026.md]]
+- **Fiery Pay = a real competitor; the differentiator is balance sheet.** Jason called [[wiki/meetings/2026-08-12-fiery-pay-competitive-analysis.md|Fiery Pay]] a real competitor with essentially the same product today. He told **Kenny at Epic** that Fiery Pay is as good as InComm at 10, 20 or 50 locations, but at **200+ locations**, if the gift-card provider runs out of money to keep funds on the cards at the bank, **those ~250 locations go dark** while InComm keeps running — capital depth, not features. [[raw/Meeting_Notes_InComm_Skill_Pay_Recycler_Strategy-August-12-2026.md]] [[raw/Meeting_Transcript_InComm_Skill_Pay_Recycler_Strategy-August-12-2026.md]]
+- **Skill Pay card — mid-September, hard to copy.** Val stated the new ATM-usable card comes out mid-September; Jason's only spoken confirmation was the word "September," with the firmer mid-September confirmation reaching Val by message the same day. Jason expects Skill Pay to be materially different from Fiery Pay's product and expects Fiery Pay to need **12–18 months to copy it**, by which time InComm has another payment solution in development — his plan is to keep competitors chasing rather than innovating. Skill Pay can be accepted at JVL machines via an **API** JVL integrates either at the point of sale or at the machine; **no integration work was committed** on the call. [[raw/Meeting_Notes_InComm_Skill_Pay_Recycler_Strategy-August-12-2026.md]] [[raw/Meeting_Transcript_InComm_Skill_Pay_Recycler_Strategy-August-12-2026.md]]
+- **Locations running two providers.** InComm imposes credit limits (a location may activate ~$5,000 in cards before paying); some do $10,000/day and want more credit. InComm's answer is a deposit; instead some locations **sign up a second card provider** (Jason: "they go and sign up a Fidelity thing"), so InComm now sees locations running both its product and a competitor's. [[raw/Meeting_Notes_InComm_Skill_Pay_Recycler_Strategy-August-12-2026.md]]
+- **BSA paperwork (Monica).** Jason spoke with [[wiki/people/monica.md|Monica]] and sent her a **Bank Secrecy Act plan template**. His guidance: whatever the contract says, the real requirements are a **named compliance officer** (Monica) and a **written plan submitted to InComm** — which InComm will most likely never read and just files as evidence a plan exists. [[raw/Meeting_Notes_InComm_Skill_Pay_Recycler_Strategy-August-12-2026.md]]
+- **ATM opportunity + the recycler: sell or operate?** Jason sees a large ATM opening — as soon as a card can be used at an ATM, ATMs get drained, and he doesn't think cash-in-transit operators are ready for the volume. Val described JVL's **recycling ATM (RATM)** for the Georgia expo: bill validators come out of the gaming machines to force recycling; all cash goes into the RATM, which issues a **QR code** the player carries between machines and presents back at the recycler to be paid cash. Jason asked if it could run as a cash-in point issuing **TITO** tickets; Val first said yes then corrected himself — **TITO won't work**, because a TITO ticket needs a bill acceptor to validate it and the validators are deliberately removed. Asked whether JVL should place-and-operate these or sell them, Jason **leaned to selling** (he's never been in the ATM business; running a cash route is harder than what most Georgia operators do; part of "the Indian market" may just want to place machines). Not locked — he also said "I would maybe sell. I don't know enough about the ATM space." He flagged banks are often unwilling to lend cash for ATM fill, and that **Herring Bank** in Texas does **bailment** for COAM locations with ATM needs. [[raw/Meeting_Notes_InComm_Skill_Pay_Recycler_Strategy-August-12-2026.md]] [[raw/Meeting_Transcript_InComm_Skill_Pay_Recycler_Strategy-August-12-2026.md]]
+- **Herring Bank registration in motion.** Val confirmed Jason's earlier introduction to Maya (Fuentes) led somewhere: Val has spoken to **Campbell** and JVL will register its ATM with [[wiki/organizations/herring-bank.md|Herring Bank]]. [[raw/Meeting_Notes_InComm_Skill_Pay_Recycler_Strategy-August-12-2026.md]]
+- **Loyalty.** Val said Fiery Pay approached him for integration and he **declined, staying with InComm** ("I'm kind of your loyal customer"). Both will be at the Georgia show, though no meeting was arranged. [[raw/Meeting_Notes_InComm_Skill_Pay_Recycler_Strategy-August-12-2026.md]]
+
+**Decisions:** JVL **stays with InComm and declined Fiery Pay's integration request** (Val). **Working direction (not locked): sell** the recycling ATM to operators rather than operate cash routes (Jason's advice, Val's "so sell"). **§15.8:** clear — card-program / device / ATM economics only; no named-person compensation.
+
+## Aug 12 2026 — the recycler + Skill Pay answer to Fiery Pay (cross-reference)
+
+The same day, the [[wiki/meetings/2026-08-12-fiery-pay-competitive-analysis.md|Fiery Pay competitive-analysis call]] (Val, Juan, Felipe) worked JVL's product answer to the Fiery Pay competitor — a **recycler + flex port** built around the "replay" temporary wallet and **InComm's price-play / Skill Pay card**, with the full solution feasible around **November** once the mid-September card ships. Val relayed Jason Hall's ("John Hasel") mid-September Skill Pay confirmation during that call. Substance on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Aug 12). [[raw/Meeting_Notes_Fiery_Pay_Competitive_Analysis-August-12-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_InComm_Skill_Pay_Recycler_Strategy-August-12-2026.md]]
+- [[raw/Meeting_Transcript_InComm_Skill_Pay_Recycler_Strategy-August-12-2026.md]]
 - [[raw/Meeting_Notes_InComm_PROD_Location_Registration-July-27-2026.md]]
 - [[raw/Meeting_Transcript_InComm_PROD_Location_Registration-July-27-2026.md]]
 - [[raw/Defining Product Capabilities.md]]

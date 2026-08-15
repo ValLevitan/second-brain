@@ -26,6 +26,8 @@ On the [[wiki/meetings/2026-08-04-bug-documentation-standard.md|Aug 4 2026 bug-d
 - Val still needs the correct term for the triage role that reclassifies a service ticket (he lacked the word and will read up). [[raw/Meeting_Notes_Bug_Documentation_Standard-August-4-2026.md]]
 - Val will refine the standard once more and reconvene the group. [[raw/Meeting_Notes_Bug_Documentation_Standard-August-4-2026.md]]
 
+**Follow-through (Aug 11 2026):** the concrete mechanism for this flow — a new **"Capability Amendment"** item that holds the bugs and drives the fix-branch cycle — was agreed and published on [[wiki/decisions/2026-08-11-capability-amendment-post-release-bug.md]].
+
 Related process context on [[wiki/topics/github-release-management-pipeline.md]].
 
 ## Sources

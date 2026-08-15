@@ -3,8 +3,8 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention, installment payments, aged receivables, Customer Ledger Entries, category-based terms, subscription module, parts vs machines terms, Black Horse Entertainment, Sales Watch]
-source-count: 55
-open-questions: 2
+source-count: 57
+open-questions: 4
 ---
 
 # Business Central ERP implementation (JVL's Dynamics 365 rollout)
@@ -59,6 +59,8 @@ An earlier Apr-3 use of BC: it is the intended data source for **software-licens
 
 - Is it possible to run the US tax add-on on a shared two-company database so it applies **only** to the American company and not the Canadian one? Lev: "Maybe it's possible but I cannot guarantee it without checking." Blocks the single-database license-saving option. [[raw/business_central_implementation_update-apr-17-2025.md]]
 - How to model a software sale so the accounting-system record (item/version/MSRP/customer) is **married to the RIS config file** from the JVL system in one sale — unresolved, needs Pavel + Dima Chudinov. [[raw/business_central_update-apr-28-2025.md]]
+- Is each of the ~147 GL accounts fully mapped for the specific **dimensions** it will need? (Val: still to be assessed account by account.) (Aug-11 2026.) [[raw/Meeting_Notes_COA_Tracer_GL_Account_Review-August-11-2026.md]]
+- Sequencing of the **auxiliaries/sub-ledgers and posting-group** combinations after the chart of accounts is set — Igor's "what is next" concern, acknowledged but not resolved. (Aug-11 2026.) [[raw/Meeting_Notes_COA_Tracer_GL_Account_Review-August-11-2026.md]]
 
 ## Apr 28 2025 — deeper status: Systems solid, Labs plan, tariffs, software sales, PO roles
 
@@ -344,6 +346,15 @@ On the [[wiki/meetings/2026-08-05-chart-of-accounts-alignment-systems-labs.md|Au
 - **The proposal reduces the chart to 146 posting accounts for JVL Systems and 96 posting accounts for JVL Labs**, down from roughly **800**. **JVL Labs GL will be erased and replaced** (Labs has no entries, so no history to preserve). Process rule: a change is accepted only if **all three** (Cris, Igor, Laura) back it and justify it; from now on all remarks go in **column J**. [[raw/Meeting_Transcript_Chart_of_Accounts_Alignment_Systems_Labs-August-5-2026.md]]
 - **The accounting-approach tension (recorded, not resolved).** Igor and Laura want non-posting accounts kept as titles/subtitles/totals for backward reporting, and warn that rebuilding from scratch and re-linking everything (as "Daniel" did over 8–10 months) is a monstrous project because "every dollar has a history." Val leans instead to **freeze JVL Systems history** (statements + trial balance/opening balances, frozen not deleted, always revertable) and start clean, to avoid dragging the "contaminated" system forward — deferring to the AI CFO and, if needed, external accountant [[wiki/people/sean-riley.md|Sean Riley]]. His feasibility point: what took Daniel ~8 months can be done in **~1 hour** with AI (he committed to producing an 800→147/148 many-to-one tracer Excel via the MSBC MCP right after the meeting). Cris raised whether to stand up a fresh "JVL 2.0" company (possibly 2027) — unresolved. [[raw/Meeting_Transcript_Chart_of_Accounts_Alignment_Systems_Labs-August-5-2026.md]]
 
+## Aug 11 2026 — the COA "tracer": the AI CFO comments every line; team replies as one, then add "dimensions"
+
+On a short check-in ([[wiki/meetings/2026-08-11-coa-tracer-gl-account-review.md|Aug-11 2:02pm ET, ~31 min]]; [[wiki/people/val-levitan.md|Val]], [[wiki/people/igor-donis.md|Igor Donis]], [[wiki/people/laura.md|Laura Escorcia]], [[wiki/people/cris-nacarino.md|Cris Nacarino]]) Val walked the accounting team through the next step on the chart-of-accounts **tracer** — the 800→147/148 many-to-one Excel he committed to on Aug-5. Much of the call was translation friction (the team works in Spanish via Google Translate; Val repeatedly asked Igor to be "70% shorter"). [[raw/Meeting_Notes_COA_Tracer_GL_Account_Review-August-11-2026.md]]
+
+- **The mechanic.** The **AI CFO added a comment to every single line** of the tracer; the team inserts their own comments in reply. Val wants the reply back as **one combined answer for the whole group**, not one per person (decided), by **6 PM today**; Igor proposed the team meet first to agree their comments before sending. Val framed it as a joint exchange of practical and academic suggestions to build the proper GL structure — "not a ping-pong match" — not a contest over who is right. [[raw/Meeting_Notes_COA_Tracer_GL_Account_Review-August-11-2026.md]] [[raw/Meeting_Transcript_COA_Tracer_GL_Account_Review-August-11-2026.md]]
+- **Why the AI CFO is in the loop.** Val explained it is still learning: it has **academic** knowledge (it has read the entire Microsoft Dynamics / Business Central manual) but not yet **JVL-specific** knowledge — running the narrowing exercise together is how its academic and practical knowledge merge, and it learns why the team makes each choice. The AI CFO has access to Val's second brain. [[raw/Meeting_Notes_COA_Tracer_GL_Account_Review-August-11-2026.md]]
+- **The plan and a Business Central terminology fix.** Narrow ~**800** current accounts to about **143–147** GL accounts, then split each into **dimensions**. Igor pressed on the next step (sub-accounts / "auxiliaries" / sub-ledgers and posting groups); Val clarified that in Business Central the sub-account layer is handled through **"dimensions"** (tags/tabs) configured per account — each of the ~147 accounts must be assessed individually for the dimensions it needs (e.g. credit cards, assets). After the accounts exist, the next task is to have the AI CFO help add dimensions per Microsoft best practice for a company like JVL. [[raw/Meeting_Notes_COA_Tracer_GL_Account_Review-August-11-2026.md]] [[raw/Meeting_Transcript_COA_Tracer_GL_Account_Review-August-11-2026.md]]
+- **Next.** Val wants a **full decision on the GL accounts by tomorrow (Aug 12)**, after which he hopes the AI CFO produces an **import file for Lev to load**. The team agreed the plan is good; Val will wait for their evening reply. (Two open questions from this call — dimension mapping and the auxiliaries/posting-group sequencing — are folded into [[#open-questions|Open questions]] above.) [[raw/Meeting_Notes_COA_Tracer_GL_Account_Review-August-11-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Notes_General_Ledger_Labs_Alignment-July-31-2026.md]]
 - [[raw/Meeting_Transcript_General_Ledger_Labs_Alignment-July-31-2026.md]]
@@ -402,3 +413,5 @@ On the [[wiki/meetings/2026-08-05-chart-of-accounts-alignment-systems-labs.md|Au
 - [[raw/Meeting_Transcript_Payment_Hub_MSBC_Configurations-July-20-2026.md]]
 - [[raw/Meeting_Notes_CIBC_JVL_MSBC_API_Integration-July-28-2026.md]]
 - [[raw/Meeting_Transcript_CIBC_JVL_MSBC_API_Integration-July-28-2026.md]]
+- [[raw/Meeting_Notes_COA_Tracer_GL_Account_Review-August-11-2026.md]]
+- [[raw/Meeting_Transcript_COA_Tracer_GL_Account_Review-August-11-2026.md]]

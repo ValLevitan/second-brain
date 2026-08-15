@@ -2,7 +2,7 @@
 type: person
 title: Alexei Khamin
 date: 2025-04-22
-aliases: [Alexei Khamin, Aliaksey Khamin, Khamin, Хамин, Khanin, Ханин, Kamin, Alexey Kamin]
+aliases: [Alexei Khamin, Aliaksey Khamin, Alexey Khamin, Khamin, Хамин, Khanin, Ханин, Kamin, Alexey Kamin]
 source-count: 6
 ---
 

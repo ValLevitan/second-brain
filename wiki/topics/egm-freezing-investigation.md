@@ -3,7 +3,7 @@ type: topic
 title: EGM freezing investigation (Georgia field fleet)
 date: 2026-07-29
 aliases: [GA freezing, Georgia freezing, machine freezing, EGM freeze, GA Freezing Issue, freezing investigation, JVL silent killer, nudge animation freeze, kernel-panic freeze]
-source-count: 14
+source-count: 17
 open-questions: 12
 ---
 
@@ -159,6 +159,13 @@ The operator-facing output of the [[wiki/meetings/2026-04-24-software-fix-rollou
 - **The offer and the asks.** The software, ordinarily sold at **$2,500 per cabinet**, is provided **free of charge** for every affected unit — no new investment, contract, or commercial obligation. [[wiki/people/felipe-miranda.md|Felipe Miranda Giorgi]] will contact each operator with the serial numbers JVL has on file, ask them to confirm which cabinets are still in their possession, and coordinate the installation schedule. JVL asks two things in return: **(1) act promptly** (every cabinet left on the old kernel is leaving revenue on the table); **(2) provide the COM ID at the time of each installation** — this confirms the upgrade landed on the intended machine and is the first practical step toward broader field visibility. [[raw/Letter_to_Operators_Freezing_Fix-April-27-2026.md]]
 - **The broader thesis — real-time cabinet-health visibility.** The letter argues the industry today has no culture or infrastructure for tracking the health of connected machines, so operators and manufacturers both "run blind" and a problem of this scale can hide in plain sight. JVL states it is investing engineering effort to make cabinet-health information **discoverable in real time by every operator on every EGM**, so problems surface in days rather than months of inferred revenue patterns. [[raw/Letter_to_Operators_Freezing_Fix-April-27-2026.md]]
 
+## Aug 2026 — retrospective: the freeze's business toll
+
+Four months after the fix, Val recounted this freeze as the **proximate cause of JVL's August-2026 cash crisis** during his partner cash-call calls. He described the **Linux-kernel + AMD-processor** combination silently locking machines with the game picture still on screen, so they quietly stopped earning; machines **lost revenue for about half a year** before anyone understood why (he suspected games and content first), the fix took **about two weeks** once found, there was **no recourse against the vendor**, and the episode **"eradicated" the accumulated cash** and nearly ended the business — recovery now means the uphill pitch of giving the product away to win sales back. Full funding context on [[wiki/topics/jvl-2026-funding-crisis-capital-call.md]]. [[raw/Meeting_Transcript_JVL_Funding_Crisis_Cash_Call_Doug_Skrepnek-August-7-2026.md]] [[raw/Meeting_Transcript_JVL_Liquidity_Crisis_Cash_Call_Louis_Glenn-August-8-2026.md]]
+
+- **Version note.** On the Aug-7 call Val gave the kernel loosely as **"Linux 4.7"** — inconsistent with the established investigation figure of **kernel 4.19 (upgraded to 5.15 LTS)**; treat "4.7" as a retrospective misstatement on a phone call, not a new fact. [[raw/Meeting_Transcript_JVL_Funding_Crisis_Cash_Call_Doug_Skrepnek-August-7-2026.md]]
+- At the [[wiki/meetings/2026-08-11-nova-architecture-design-session-2.md|Aug-11 NOVA session 2]] Val restated the toll while making the freeze a design driver for NOVA: the AMD processor froze on **Linux kernel 4.19**, it took roughly **1.5–2 years to find**, it nearly cost the business, and machines had to be **given away free** to rebuild trust — the fix being the **4.19 → 5.15** kernel upgrade. This motivates NOVA's health-check/heartbeat, the "Black Box" recorder and an undisableable watchdog (see [[wiki/topics/nova-platform-architecture.md]]). [[raw/Meeting_Notes_NOVA_Architecture_Design_Session_2-August-11-2026.md]]
+
 ## Test machines (Georgia office)
 
 Three machines were set up in the Georgia office (at Lawrenceville) to try to reproduce the freeze; two of the three freeze reliably. Five frequently-freezing machines were also pulled back from a customer site (Bulldog / "Bulldog Entertainment") for monitored testing. [[raw/GA_Freezing_Issue_Executive_Summary.md]] [[raw/Georgia_Freezing_troubleshooting_direction-March-13-2026.md]]
@@ -202,3 +209,6 @@ Three machines were set up in the Georgia office (at Lawrenceville) to try to re
 - [[raw/Meeting_Transcript_software_fix_rollout_plan-April-24-2026.md]] — Apr-24 field rollout plan for the freezing fix (transcript).
 - [[raw/Meeting_Notes_software_fix_rollout_plan-April-24-2026.md]] — Apr-24 field rollout plan (derived notes).
 - [[raw/Letter_to_Operators_Freezing_Fix-April-27-2026.md]] — *written operator letter:* the Apr-27 customer-communication artifact JVL prepared (signed Val Levitan/JVL) announcing the root cause + free kernel upgrade; the operator-facing output of the Apr-24 rollout plan.
+- [[raw/Meeting_Transcript_JVL_Funding_Crisis_Cash_Call_Doug_Skrepnek-August-7-2026.md]] — Aug-7 cash-call retrospective (Val recounts the freeze's business toll).
+- [[raw/Meeting_Transcript_JVL_Liquidity_Crisis_Cash_Call_Louis_Glenn-August-8-2026.md]] — Aug-8 cash-call retrospective (the software glitch that cost sales).
+- [[raw/Meeting_Notes_NOVA_Architecture_Design_Session_2-August-11-2026.md]] — Aug-11 NOVA session 2 (freeze as a design driver; ~1.5–2 years to find; 4.19 → 5.15).
