@@ -3,7 +3,7 @@ type: topic
 title: Low-cost street machine (sub-$2,000 street cabinet program)
 date: 2026-06-09
 aliases: [street machine, street cabinet, low-cost street machine, low-cost street cabinet, street slot machine, sub-$2000 street machine, RK3588 street machine, stripped street cabinet]
-source-count: 6
+source-count: 8
 ---
 
 # Low-cost street machine (sub-$2,000 street cabinet program)
@@ -85,6 +85,17 @@ The [[wiki/meetings/2026-07-29-rk3588-game-performance-findings.md|Jul-29 7:00am
 - **Multi-progressive / multi-product.** Irina asked whether running multi-progressives that mix games from different products (Caliente + Peaches + Jackpot Rush) would change the picture once ported to Nova; Alexander said it would add some resources per game but likely isn't critical, and the 16 GB estimate still holds. Irina noted the current multi image has grown ~30% versus the old one, approaching ~8 GB. [[raw/Meeting_Notes_RK3588_Game_Performance_Findings-July-29-2026.md]]
 - **Board and display decisions.** RK3588 confirmed as the evaluation platform (RK3576 comparable, RK3399 older and no faster). The board supports at most 2 monitors, so no horizontal layout — only a compact one-main-plus-topper. One video interface is LVDS (impractical); the team prefers a board variant with **2–3 uniform HDMI outputs**. A progressive controller would add a database + controller app (a bit more load). Becoming a **Rockchip developer costs ~$3,000**, likely per platform (the earlier application was for the RK3568; a fresh request for the RK3588 is likely needed — Pavel to check). §15.8: board/memory/BOM economics only; no named-person compensation. [[raw/Meeting_Notes_RK3588_Game_Performance_Findings-July-29-2026.md]]
 
+## Aug 14 2026 — machine-design direction from the NOVA wishlist: capability over cost, buttons over VDEC, removable toppers
+
+On the [[wiki/meetings/2026-08-14-nova-capability-wishlist.md|Aug-14 NOVA wishlist call]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/michael-gottlieb.md|Michael Gottlieb]], [[wiki/people/juan-martinez.md|Juan Martinez]], [[wiki/people/lena.md|Lena Zhukova]], [[wiki/people/efim-podvoiski.md|Efim Podvoiski]]) Val polled the group through a machine-design run-through for the new FP7 cabinet. The focus is explicitly the **street market** — Val sees little Class-3 business in the next five years. [[raw/Meeting_Notes_NOVA_Capability_Wishlist-August-14-2026-Part_2.md]]
+
+- **Go with the higher-capability CPU/graphics package and scrap the cheaper board.** Given a choice, Val would "rather overpay and choose the very capable one and keep pushing towards very capable all the time"; Juan and Michael agreed on Moore's-Law logic (don't ship an 8-year-old CPU; components only get cheaper). Not every game must use every feature — capability is headroom. Two hardware tiers ("expensive and inexpensive") was rejected — one high-capability platform. [[raw/Meeting_Transcript_NOVA_Capability_Wishlist-August-14-2026-Part_2.md]]
+- **Mechanical buttons over a VDEC.** Michael (controversially) would spend the money on the CPU/motherboard rather than the VDEC (~$1,500 part vs ~$5/button); competitors (Light & Wonder, Aristocrat, older IGT) and the street markets do fine with physical buttons. Juan and Val agreed. [[raw/Meeting_Transcript_NOVA_Capability_Wishlist-August-14-2026-Part_2.md]]
+- **Toppers: removable/optional, never a permanent fixture** — seamlessly joined to the top monitor so it looks like one continuous screen, but removable so extra height never costs a sale (a great "come-on" for progressive signage). [[raw/Meeting_Transcript_NOVA_Capability_Wishlist-August-14-2026-Part_2.md]]
+- **Perimeter lights: yes — a definitive-line perimeter light tied to game activity** (celebratory "carnival" lighting). Avoid garish two-inch Light-&-Wonder-style strips, and avoid distracting lighting around the VDEC (fatiguing, pulls the eye off the reels). No two different light types (extra mechanical failure point). [[raw/Meeting_Transcript_NOVA_Capability_Wishlist-August-14-2026-Part_2.md]]
+- **No wedge machines / LCD-screen wedges** — a waste of money and space in street rows of 4–7 machines (no room for pie/circle formats). [[raw/Meeting_Transcript_NOVA_Capability_Wishlist-August-14-2026-Part_2.md]]
+- **Parked or rejected ideas.** 3D no-glasses toppers — parked (not needed for street; 3D historically makes people sick). Promo credits in street locations — parked (needs player tracking, raises jurisdictional issues; "not all business is good business" — the Treasure Island $200-free-play and Hard Rock free-bus examples show free play draws non-customers who crowd out regulars). An at-home machine as a dumb terminal to a legal offshore server for real money — parked (huge project, needs state-by-state approval and player tracking, plus social/psychological risk). Camera / player identification — interesting but parked over regulatory/privacy concerns; the anonymous alternative is posting a screenshot of the machine's own jackpot-lockup screen (no human in frame). Social-media win sharing — rejected (players are private about money). [[raw/Meeting_Transcript_NOVA_Capability_Wishlist-August-14-2026-Part_2.md]] [[raw/Meeting_Notes_NOVA_Capability_Wishlist-August-14-2026-Part_2.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Low_Cost_Street_Machine_Design-June-8-2026.md]]
@@ -93,3 +104,5 @@ The [[wiki/meetings/2026-07-29-rk3588-game-performance-findings.md|Jul-29 7:00am
 - [[raw/Meeting_Notes_Game_Dev_Pipeline_and_Street_Machine-June-10-2026.md]]
 - [[raw/Meeting_Notes_Street_Cabinet_Design_Direction-June-16-2026.md]]
 - [[raw/Meeting_Notes_RK3588_Game_Performance_Findings-July-29-2026.md]]
+- [[raw/Meeting_Notes_NOVA_Capability_Wishlist-August-14-2026-Part_2.md]]
+- [[raw/Meeting_Transcript_NOVA_Capability_Wishlist-August-14-2026-Part_2.md]]

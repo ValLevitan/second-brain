@@ -4,7 +4,7 @@ title: Igor Metelski
 date: 2026-07-14
 aliases: [Igor Metelski, Igar Miatselski, Miatselski, Igor, Igor Mitelsky, Мительский, Mitsierski, Igor Mitsierski]
 disambiguation: "RGS engineer on Efim Podvoiski codebase (= payroll Igar Miatselski). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
-source-count: 11
+source-count: 13
 open-commitments: 1
 ---
 
@@ -52,8 +52,14 @@ On the [[wiki/meetings/2026-02-12-game-development-review.md|Feb-12 game-dev rev
 
 At the [[wiki/meetings/2026-08-03-rage-nova-migration-experiment.md|Aug-3 experiment sync]] Igor presented his AI-assisted RAGE→NOVA conversion (the Jul-20 spike): using a playable NOVA game ("Kali Ocha") as reference, he had **Claude** convert a same-math RAGE game, **"Dragon's Reign,"** into NOVA — symbols, main scene, free-spins scene, dialogs — reusing RAGE resources directly. The reference conversion took ~**1.5 days** of clean work; with Claude's reusable scripts a similar re-skin could take ~**3 hours**. He is also using Claude for the current **Dakota release** tasks and reports it works fine with **C++**. Pavel called Igor "the biggest pessimist in the company," so his positive read carried weight. He was assigned the next, harder experiment: convert a **horizontal** South Dakota game (candidate **"Nikena"**) porting **logic** too, and load it onto the reference machine to check appearance/performance on target hardware (RK3568 "76" / V1000) — reviewed **Aug 17**. Detail on [[wiki/topics/nova-platform-architecture.md]] (Aug-3) and [[wiki/decisions/2026-08-03-no-en-masse-rage-to-nova-migration.md]]. [[raw/Meeting_Transcript_Rage_to_Nova_Migration_Experiment-August-3-2026.md]] [[raw/Meeting_Notes_Rage_to_Nova_Migration_Experiment-August-3-2026.md]]
 
+## Aug 18 2026 — the horizontal South Dakota conversion: ~1.5 days with Claude, blocked on math
+
+At the [[wiki/meetings/2026-08-18-rage-nova-migration-experiment-review.md|Aug-18 review]] (the horizontal follow-up to the Aug-3 experiment, held one day after the planned Aug 17) Igor reported that in ~**1.5 days of clean work** he used **Claude** to convert a horizontal RAGE South Dakota machine (the transcript's "Salta Cota") into a horizontal NOVA configuration with three screens — NOVA had previously only a vertical Omni build — and moved the scenes and sprite resources of the game **Dragon Pays** across (the Aug-3 candidate was "Nikena"; the game actually used was Dragon Pays). The game logic does not run yet because the **Dragon Pays math is missing from the remote math server** (only Cayocho's math was set up there); [[wiki/people/efim-podvoiski.md|Efim]] agreed to supply it (~Aug 20–21). Igor continues this week and is to **demo Dragon Pays actually playing on NOVA at the Monday Aug 24 meeting**. Val stressed the visual conversion would have been essentially impossible by hand in that time. Detail on [[wiki/topics/nova-platform-architecture.md]] (Aug-18). [[raw/Meeting_Transcript_Rage_Nova_Migration_Experiment_Review-August-18-2026.md]] [[raw/Meeting_Notes_Rage_Nova_Migration_Experiment_Review-August-18-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Rage_Nova_Migration_Experiment_Review-August-18-2026.md]]
+- [[raw/Meeting_Transcript_Rage_Nova_Migration_Experiment_Review-August-18-2026.md]]
 - [[raw/Game_Development-February-12-2026-1.md]]
 - [[raw/amusement_games_development_revivial-july-31-2025-pavel.md]]
 - [[raw/OMNI_schedule_grooming-june-26-2025.md]]

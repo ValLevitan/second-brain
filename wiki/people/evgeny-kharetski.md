@@ -3,7 +3,7 @@ type: person
 title: Evgeny Kharetski
 date: 2025-07-10
 aliases: [Evgeny Kharetski, Evgeny Kharetsky, Evgeny Khoretsky, Kharevsky, Yauheni Kharetski, Kharetsky, Koretski, Koretsky, Korecki, Khorvatsky, Корецкий, Хорватский, Халецкий]
-source-count: 11
+source-count: 13
 disambiguation: "LGS developer (payroll "Kharetski Yauheni"), this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
 ---
 
@@ -44,9 +44,12 @@ On the [[wiki/meetings/2026-03-26-initiative-priority-schedule.md|Initiative Pri
 
 - **Aug 3 2026** (RAGE→NOVA experiment sync): after seeing Igor's conversion result, Evgeny said it was a big surprise how much easier it was than expected and estimated ~**80%** of games could migrate with little pain. See [[wiki/topics/nova-platform-architecture.md]] (Aug-3). [[raw/Meeting_Transcript_Rage_to_Nova_Migration_Experiment-August-3-2026.md]]
 - **Aug 6 2026** (Val→Genadi, about Evgeny): Val held up "**Khoretsky** in Minsk" as the model of an engineer who embraces the AI tooling — he now runs ~**10 agents** across **3 projects** and is asking for a **second computer** — contrasting him with reliable people who won't adopt the new way of working. (A performance/adoption observation, not compensation.) See [[wiki/topics/ai-assisted-development.md]] (Aug-6). [[raw/Meeting_Transcript_AI_Engineering_Workflow_and_Hardware_CxO-August-6-2026.md]]
+- **Aug 18 2026** (RAGE→NOVA experiment review): Evgeny helped settle the **math-container packaging** (build from a game list at the integration-build step — [[wiki/decisions/2026-08-18-nova-math-container-per-game-set.md]]) and raised the main **risk against Val's NOVA timeline**: significant LGS-side work remains — **SAS has not yet run on NOVA**, **multiprogressive** needs porting, and the **NOVA platform-service repo has diverged ~six months** from the old RAGE center repo. See [[wiki/topics/nova-platform-architecture.md]] (Aug-18). [[raw/Meeting_Transcript_Rage_Nova_Migration_Experiment_Review-August-18-2026.md]] [[raw/Meeting_Notes_Rage_Nova_Migration_Experiment_Review-August-18-2026.md]]
 
 ## Sources
 
+- [[raw/Meeting_Notes_Rage_Nova_Migration_Experiment_Review-August-18-2026.md]]
+- [[raw/Meeting_Transcript_Rage_Nova_Migration_Experiment_Review-August-18-2026.md]]
 - [[raw/Meeting_Transcript_Rage_to_Nova_Migration_Experiment-August-3-2026.md]]
 - [[raw/Meeting_Transcript_AI_Engineering_Workflow_and_Hardware_CxO-August-6-2026.md]]
 - [[raw/Meeting_Transcript_initiative_priority_schedule-2-March-26-2026.md]]

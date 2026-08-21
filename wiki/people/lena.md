@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna, Selena, Elena]
-source-count: 56
+source-count: 59
 open-commitments: 1
 ---
 
@@ -213,8 +213,18 @@ On the [[wiki/meetings/2026-03-31-transcripts-mcp-setup-lena.md|Mar-31 transcrip
 
 On the [[wiki/meetings/2026-04-28-lena-ip-mcp-model-regression.md|Lena IP MCP Model Regression]] session (with [[wiki/people/clayton-chancey.md|Clayton Chancey]] and [[wiki/people/val-levitan.md|Val]], who joined mid-call), Lena re-tested Clayton's **IP MCP** JIRA-ticket tool after its prior failure. Reverting to **Opus 4.6** restored quality; a re-test produced 11 tickets with correct comp-art images, which she spot-checked as accurate ("same quality as the Dragon Base structure work"). She raised the long-term worry that Anthropic may eventually retire 4.6, and asked for **delete-issue** and **archive-issue** tools so she needn't switch to Aaron's separate MCP add-on (e.g. archive all IPs under a finished market like Georgia/South Dakota). She will test through the week — including generating stories under features — and aims to cut over to production Thursday Apr 30; propagation to her two team leads (on Windows) to be handled by Andrei. See [[wiki/topics/transcript-knowledge-base-tooling.md]] and [[wiki/topics/ai-assisted-development.md]] (Apr-28). §15.8 clear. [[raw/Meeting_Transcript_lena_IP_MCP_model_regression-1-April-28-2026.md]] [[raw/Meeting_Notes_lena_IP_MCP_model_regression-April-28-2026.md]]
 
+## Aug 14 2026 — NOVA design-environment wishlist; Wildfire Ranch comp art; South Dakota vertical games
+
+On the [[wiki/meetings/2026-08-14-nova-capability-wishlist.md|Aug-14 NOVA wishlist call]] Lena gave the visual/design wishlist for NOVA: a properly working **Miranda** design environment with manifest; **toppers in the build**; a much more advanced **show mode**; finished **framework dialogues**; and — most important to her — integrating the **math game launcher into the design environment** so artists can run real spins and change art assets inside Miranda and see results immediately, turning experiments that need a full build into ~half-hour tweaks ("I talked to Dima already"). Val coached her to state the desired *outcome* rather than the engineering solution. See [[wiki/topics/nova-platform-architecture.md]] (Aug-14). [[raw/Meeting_Transcript_NOVA_Capability_Wishlist-August-14-2026-Part_2.md]]
+
+- **Wildfire Ranch comp art.** Lena will start the comp art for Michael's new **Wildfire Ranch** game once his abstract is finished. See [[wiki/projects/nebraska-skill-market.md]]. [[raw/Meeting_Notes_NOVA_Capability_Wishlist-August-14-2026.md]]
+- **South Dakota vertical games (release sequencing).** On the same day's [[wiki/decisions/2026-08-14-first-nova-product-south-dakota-vertical.md|migration-sequencing decision]], Lena is to **build the South Dakota Vertical games — Solar Keno, Aaron's Pub, Dakota Bison — new for vertical in NOVA** (they never existed in vertical, so they must be built, not converted), after Nebraska is finished. She warned that doing Nebraska on NOVA would add a 2–3 month delay, so Nebraska stays on Rage; she can develop NOVA games in parallel because platform changes (peripherals/API/Rust) don't affect how she builds games. [[raw/Meeting_Transcript_NOVA_Migration_Release_Sequencing-August-14-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_NOVA_Capability_Wishlist-August-14-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_Capability_Wishlist-August-14-2026-Part_2.md]]
+- [[raw/Meeting_Transcript_NOVA_Migration_Release_Sequencing-August-14-2026.md]]
 - [[raw/Meeting_Transcript_lena_IP_MCP_model_regression-1-April-28-2026.md]]
 - [[raw/Meeting_Notes_lena_IP_MCP_model_regression-April-28-2026.md]]
 - [[raw/Clayton-Aaron-JVL-semantic-understanding-March-13-2026.md]]

@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 104
+source-count: 106
 open-commitments: 7
 open-questions: 0
 ---
@@ -287,8 +287,14 @@ Pavel attended the [[wiki/meetings/2026-03-27-review-of-engineering-guides.md|Re
 
 On the [[wiki/meetings/2026-04-15-flex-pos-alpha-and-omni-2-architecture.md|Flex POS Alpha & OMNI 2 alignment]] (with Val and [[wiki/people/irina-shishko.md|Irina]]) Pavel reported Flex POS device-side near **Alpha-1** on the ARC 35-68 board (SDK/dev-infra now in git as IP 977; speakers + top-light still open), proposed splitting the monolithic **HAL into per-device microservices** (Step 1 in C, Step 2 Rust later), filed **HFM-532** (wireless interfaces support), and raised the Minsk dispenser/recycler logistics and the **Flex Pay ICOM → ICOM-in-cloud** refactor. Val tasked him to write a desired-outcome statement for **OMNI 2** and to lead the architecture-first design loop (with Lishkevich, Metelsky, Khoretsky). Substance on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] + [[wiki/topics/omni-core-advancement-and-game-templating.md]] (Apr-15). [[raw/Meeting_Notes_Flex_POS_Alpha_and_OMNI_2_Architecture-April-15-2026.md]]
 
+## Aug 18 2026 — RAGE→NOVA experiment review: Rust services momentum
+
+On the [[wiki/meetings/2026-08-18-rage-nova-migration-experiment-review.md|Aug-18 review]] Pavel ran the meeting, reported that [[wiki/people/anton-leshkevich.md|Anton (Lishkevich)]] had **rewritten the printer service and build validator in Rust** and tested the printer, and worked the math-container packaging question with [[wiki/people/efim-podvoiski.md|Efim]] and [[wiki/people/evgeny-kharetski.md|Evgeny]] (build the container from a game list at the integration-build step — [[wiki/decisions/2026-08-18-nova-math-container-per-game-set.md]]). He agreed to **send Val the Rust services** Anton built. See [[wiki/topics/nova-platform-architecture.md]] (Aug-18). [[raw/Meeting_Notes_Rage_Nova_Migration_Experiment_Review-August-18-2026.md]] [[raw/Meeting_Transcript_Rage_Nova_Migration_Experiment_Review-August-18-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Rage_Nova_Migration_Experiment_Review-August-18-2026.md]]
+- [[raw/Meeting_Transcript_Rage_Nova_Migration_Experiment_Review-August-18-2026.md]]
 - [[raw/Meeting_Notes_Flex_POS_Alpha_and_OMNI_2_Architecture-April-15-2026.md]]
 - [[raw/communication_break_down_Minsk-March-5-2026.md]]
 - [[raw/Mutual_standing-Communication_breakdown_Minsk.md]]

@@ -2,9 +2,9 @@
 type: person
 title: Anton Leshkevich
 date: 2025-01-21
-aliases: [Anton Leshkevich, Anton, Antoine, Anton Dmishkevich, Дмишкевич, Дмишкевичем, Liashkevich, Anton Liashkevich]
+aliases: [Anton Leshkevich, Anton, Antoine, Anton Dmishkevich, Дмишкевич, Дмишкевичем, Liashkevich, Anton Liashkevich, Lishkevich, Anton Lishkevich, Лишкевич]
 disambiguation: "Minsk engineer (Omni/RGS), this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 21
+source-count: 23
 open-commitments: 1
 open-questions: 0
 ---
@@ -86,8 +86,14 @@ On the [[wiki/meetings/2026-02-12-game-development-review.md|Feb-12 review]] (se
 
 On the founding NOVA architecture session ([[wiki/meetings/2026-05-12-nova-platform-architecture-overview.md]]) Anton was present through both segments and cast as **the first internal user of NOVA** — his test framework (TS-360) consumes the platform's hooks, APIs, and hardware-service interfaces. Under the use-case → requirement → capability governance model, Anton declares capability needs ("I need capability X") to Chief Architect [[wiki/people/alexander-biratka.md|Sasha]], who translates them into features; without that demand signal the architect has no client, and [[wiki/people/alexei-khamin.md|Kamin]] is Anton's own downstream customer. In the design debate he **supported Unix sockets** for service↔LGS communication, raised the games-on-disk question (resolved to packaged archives, not Docker), and suggested a consolidated repo for the hard services — which Sasha overruled in favour of per-service repos. Substance on [[wiki/topics/nova-platform-architecture.md]]. §15.8 clear. [[raw/Meeting_Transcript_nova_platform_architecture_overview-Segment_2-May-12-2026.md]] [[raw/Meeting_Notes_nova_platform_architecture_overview-Segment_2-May-12-2026.md]]
 
+## Aug 18 2026 — Rust peripheral services (printer service + build validator)
+
+On the [[wiki/meetings/2026-08-18-rage-nova-migration-experiment-review.md|Aug-18 RAGE→NOVA review]] Pavel reported that Anton (transcript "Антон лишкевич" / **Anton Lishkevich** — another garble of Leshkevich, added to aliases) **took the printer service and the build validator and rewrote them in Rust**, and tested the printer (tickets print on Gen2/Gen5; he lacks an Epic unit to test that one). This is early evidence NOVA's per-service Rust migration is moving faster than expected. Val asked Pavel to send him the services. See [[wiki/topics/nova-platform-architecture.md]] (Aug-18). [[raw/Meeting_Transcript_Rage_Nova_Migration_Experiment_Review-August-18-2026.md]] [[raw/Meeting_Notes_Rage_Nova_Migration_Experiment_Review-August-18-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Rage_Nova_Migration_Experiment_Review-August-18-2026.md]]
+- [[raw/Meeting_Transcript_Rage_Nova_Migration_Experiment_Review-August-18-2026.md]]
 - [[raw/Meeting_Transcript_nova_platform_architecture_overview-Segment_2-May-12-2026.md]]
 - [[raw/Meeting_Notes_nova_platform_architecture_overview-Segment_2-May-12-2026.md]]
 - [[raw/Game_Development-February-12-2026-1.md]]

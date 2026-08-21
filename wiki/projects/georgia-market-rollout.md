@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing]
-source-count: 127
+source-count: 129
 open-commitments: 32
 open-questions: 18
 ---
@@ -777,6 +777,14 @@ On a ~13-minute booth-prep call ([[wiki/meetings/2026-08-13-show-booth-setup-por
 
 The Aug-14 meetings tightened the show product. The confirmed **Tilt-1 Max-Bet fix** (Anton's fix, injected on the current ISO) is to be switched onto the **10 field machines over the weekend**, with the remaining bugs bundled into the **V3 release through Eclipse** (new sales → V3, V2 retired) — full bug-thread detail on [[wiki/topics/gacoam-game-crash-bug.md]] (Aug 14). Val set Irina's goal as **completing V3 by Monday morning North-American time**, and the first full **Flex-Recycler cash cycle** passed end-to-end (with the MEI recycler scrapped for a Minsk-built multi-cassette unit) — see [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Aug 14). [[raw/Meeting_Notes_Tilt-1_MaxBet_Bug_Fix-August-14-2026.md]] [[raw/Meeting_Notes_Flex_Recycler_Cycle_Test_MEI_Rework-August-14-2026.md]]
 
+## Aug 21 2026 — post-show read: the recycler-as-ATM pitch lands, "within three years of a smashing success"
+
+On the [[wiki/meetings/2026-08-21-multiplayer-cabinet-concepts-nova-strategy.md|Aug-21 strategy call]] (mostly a cabinet-concepts discussion — see [[wiki/topics/multiplayer-cabinet-concept.md]]) Val gave the game team his Georgia read from the trade show. [[raw/Meeting_Notes_Multiplayer_Cabinet_Concepts_NOVA_Strategy-August-21-2026.md]] [[raw/Meeting_Transcript_Multiplayer_Cabinet_Concepts_NOVA_Strategy-August-21-2026.md]]
+
+- **The recycler reframed as a "redemption center with built-in ATM."** Val's pitch to operators, small to large: your **bill acceptors and printers today are a cost center**; the recycler / ATM makes them a **profit center** via **$3–$5 per-transaction ATM fees** plus **recurring monthly revenue (~$65–$100/month, "nobody even flinched")**. He said operators "are in awe" and treat it as a **killer application** for Georgia. When he pitched **Arc**'s COO it took ~3.5 minutes before the COO paused and pulled in the company's **CEO and CFO** mid-pitch. [[raw/Meeting_Transcript_Multiplayer_Cabinet_Concepts_NOVA_Strategy-August-21-2026.md]]
+- **Market read.** Georgia operators are keen to move **away from TITO and bill acceptors** toward a **wallet / e-wallet** solution (running remote 5.9-machine locations on cash is expensive); Val would keep the peripheral dashboard for the first introduction and **let the market pull JVL toward e-wallet** rather than forcing it. He sees the combination of **Flex IQ + Flexport + SMIBs (possibly given away free) + recycler/ATM + the future back-to-back slant-top** positioning JVL for "substantial business" in what he framed as a **~45,000-machine market**, putting JVL **"within three years of a smashing success."** [[raw/Meeting_Transcript_Multiplayer_Cabinet_Concepts_NOVA_Strategy-August-21-2026.md]]
+- **V3 vs NOVA for Georgia.** Georgia's V3 stays on the current platform (Sept 1 target); NOVA would be a later, "V4-like" Georgia release (per the [[wiki/decisions/2026-08-14-first-nova-product-south-dakota-vertical.md|Aug-14 sequencing]]). The Georgia **trial "looks solid despite three bugs found,"** and Val wants **LTE modems in every machine** for service/performance/player intelligence. The team is awaiting **Felipe and Andrei's** report on the Georgia V3 software from the show. [[raw/Meeting_Transcript_Multiplayer_Cabinet_Concepts_NOVA_Strategy-August-21-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Herring_Bank_Prize_Play_Card-July-31-2026.md]]
@@ -907,3 +915,5 @@ The Aug-14 meetings tightened the show product. The confirmed **Tilt-1 Max-Bet f
 - [[raw/Meeting_Transcript_Jim_Dinner_Georgia_Trade_Show-August-13-2026.md]]
 - [[raw/Meeting_Notes_Tilt-1_MaxBet_Bug_Fix-August-14-2026.md]]
 - [[raw/Meeting_Notes_Flex_Recycler_Cycle_Test_MEI_Rework-August-14-2026.md]]
+- [[raw/Meeting_Notes_Multiplayer_Cabinet_Concepts_NOVA_Strategy-August-21-2026.md]]
+- [[raw/Meeting_Transcript_Multiplayer_Cabinet_Concepts_NOVA_Strategy-August-21-2026.md]]
