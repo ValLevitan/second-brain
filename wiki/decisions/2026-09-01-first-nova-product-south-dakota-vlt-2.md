@@ -35,10 +35,18 @@ The migration experiments through August ran **horizontal-to-horizontal on the S
 ## Certification — ruled the same day (owner, 2026-09-01)
 
 <!-- owner note -->
-Asked whether the ~Nov-1 GLI target still stands and whether Calle Ocho is still the certification vehicle, Val answered: **"no more"** (Calle Ocho), and **"GLI still stands for September 1st, although it is being delayed by two days."**
+Asked whether the ~Nov-1 GLI target still stands and whether Calle Ocho is still the certification vehicle, Val answered: **"no more"** (Calle Ocho), and **"GLI still stands for September 1st, although it is being delayed by two days."** Asked to separate the two GLI items, he clarified: **"September first is the current schedule for RAGE-based SD-VLT-2 submission (not for NOVA). There is no date for NOVA yet."**
 <!-- /owner note -->
 
-- **Calle Ocho is NO LONGER the GLI certification vehicle.** The [[wiki/decisions/2026-08-14-first-nova-product-south-dakota-vertical.md|Aug-14 decision]] had named Calle Ocho — already running on NOVA — as the game to submit to GLI to certify the platform, aiming at approval ~January. That is now dead. The [[wiki/decisions/2026-08-03-no-en-masse-rage-to-nova-migration.md|Aug-3 decision]] not to finish or certify the standalone Calle Ocho game is the consistent earlier signal. (Owner ruling 2026-09-01.)
-- **The operative GLI date is September 1 2026, slipping about two days — so ~September 3 2026.** This replaces the "~Nov 1" framing carried from the [[wiki/meetings/2026-08-18-rage-nova-migration-experiment-review.md|Aug-18 review]] in the wiki's forward-looking notes. It matches the Sept-1 GLI submission already recorded for South Dakota VLT-2 on that same Aug-18 call. (Owner ruling 2026-09-01.)
+**These are two different submissions. Do not conflate them.**
 
-**One thing deliberately NOT inferred.** The owner's answer names September 1 as the GLI date but does not say in so many words whether the separate Aug-18 milestone — "first NOVA *platform* version to GLI by ~Nov 1" — is cancelled outright or simply is not the date he was speaking to. The wiki records the September-1(+2 days) date as current and marks the Nov-1 milestone as superseded-in-framing, **without asserting that a distinct NOVA-platform submission has been cancelled.** Flagged rather than resolved.
+- **RAGE-based South Dakota VLT-2 → GLI: planned September 1 2026; slipped ~2 days in execution, actual ≈ September 3 2026.** This is a **RAGE** submission on the current platform — it is *not* a NOVA submission. The owner was explicit that the slip changes nothing structural: *"the schedule simply slipped, which happens from time to time. The original schedule should not be changed, but the factual date should be acknowledged."* So the **plan of record stays September 1** and the **actual (~Sept 3) is recorded beside it**, never over it. (Owner ruling 2026-09-01.)
+- **NOVA → GLI: there is NO date yet.** The owner stated this plainly. The [[wiki/meetings/2026-08-18-rage-nova-migration-experiment-review.md|Aug-18]] target of "first NOVA platform version to GLI by ~Nov 1" (which Val called "the plan, not yet a hardened schedule" even then) is **no longer a current date**. Nothing replaces it — the correct current state is *unscheduled*. Do not infer a NOVA GLI date from the September-1 RAGE date. (Owner ruling 2026-09-01.)
+- **Calle Ocho is NO LONGER the GLI certification vehicle.** The [[wiki/decisions/2026-08-14-first-nova-product-south-dakota-vertical.md|Aug-14 decision]] had named Calle Ocho — already running on NOVA — as the game to submit to GLI to certify the platform, aiming at approval ~January. That is dead. The [[wiki/decisions/2026-08-03-no-en-masse-rage-to-nova-migration.md|Aug-3]] ruling not to finish or certify standalone Calle Ocho is the consistent earlier signal. (Owner ruling 2026-09-01.)
+
+**Plan vs actual — the general principle the owner stated here.** A schedule slip is not a decision change. Keep the planned date as the plan of record and record the actual date beside it; do not rewrite a plan because delivery moved by a couple of days. (Owner ruling 2026-09-01.)
+
+## Carry-forward
+
+- Acknowledge the **~2-day slip on the September-1 RAGE-based SD VLT-2 GLI submission (actual ≈ Sept 3 2026)** in the next weekly update (Friday 4 September 2026) — owner's explicit instruction, 2026-09-01.
+- **NOVA has no GLI date.** Watch for one being set; until then the wiki must say *unscheduled*, not carry the lapsed ~Nov-1 figure.
