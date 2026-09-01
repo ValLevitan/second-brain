@@ -25,7 +25,7 @@ Substance lives on:
 - [[wiki/projects/georgia-market-rollout.md]] — the show read on the transaction recycler and the Georgia Lottery counsel's reaction (Aug-26 section).
 - [[wiki/projects/texas-used-machine-distribution.md]] — the possible Texas recycler + 25 Flex Port install (Aug-26 section).
 - [[wiki/topics/flexpay-business-architecture-payout-devices.md]] — the larger-capacity CPI recycler and the vendor-library / reverse-engineering problem (Aug-26 section).
-- [[wiki/projects/south-dakota-vlt-market.md]] — SALTA/VLT2 near-final for Sept 1 and Ivan opening the submission conversation (Aug-26 section).
+- [[wiki/projects/south-dakota-vlt-market.md]] — South Dakota VLT-2 near-final for Sept 1 and Ivan opening the submission conversation (Aug-26 section).
 - [[wiki/topics/minsk-team-communication.md]] — Val's "one virtual team" push and the proposed direct Georgia ↔ Minsk network link (Aug-26 section).
 - [[wiki/people/juan-martinez.md]] — the capability-knowledge and submission-authority gap, and [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] floated as a long-term candidate (personal/health detail deliberately NOT ingested — §15 prohibition #8).
 

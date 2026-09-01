@@ -25,7 +25,7 @@ On the Feb 21 game-design review, "Dima and Andrey" (Dima Khandov + Andrey Khand
 
 ## Omni math implementation (Apr 14 2025)
 
-On the Apr-14 Omni framework review ([[wiki/meetings/2025-04-14-omni-framework-mvp-kai-ocho.md]]), Val distinguished the two Khandovs' work on the game side: "то, что я говорю про математику, это делает **Андрей Хандов**. А новые бонусы делаете вы, Дима." So **Andrei Khandov does the math implementation** (the "отображение" of the math) while [[wiki/people/dmitriy-khandov.md|Dima Khandov]] builds the new bonuses; Dima said he does "и то, и то" because the math implementation needs resources from him. This reinforces Andrew's math/developer role. [[raw/omni_progress-april-14-2025.md]]
+On the Apr-14 Omni framework review ([[wiki/meetings/2025-04-14-omni-framework-mvp-calle-ocho.md]]), Val distinguished the two Khandovs' work on the game side: "то, что я говорю про математику, это делает **Андрей Хандов**. А новые бонусы делаете вы, Дима." So **Andrei Khandov does the math implementation** (the "отображение" of the math) while [[wiki/people/dmitriy-khandov.md|Dima Khandov]] builds the new bonuses; Dima said he does "и то, и то" because the math implementation needs resources from him. This reinforces Andrew's math/developer role. [[raw/omni_progress-april-14-2025.md]]
 
 ## Possible family link to Dmitriy Khandov (Mar 2025, inference)
 

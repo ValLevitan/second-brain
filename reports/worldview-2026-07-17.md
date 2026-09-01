@@ -22,7 +22,7 @@
 
 ¶7. **FlexPay is the hot, unsettled front.** The architecture split into two mutually-exclusive models — **e-Wallet** (FlexPort + FlexKiosk, no SMIB) and **TITO** (FlexPort + SMIB + Flex Tower/POS/TITO-server). Val is shipping the **e-Wallet MVP first even though he expects it "won't survive in the market"** — because the money-transaction cycle it builds is reusable for TITO, the real bet, which is still "raw." Hardware is now decided (ARM board); the live test aimed at the Georgia office in early-mid June.
 
-¶8. **Engineering is slipping but converging.** **Kai-Ocho missed its June-1 GLI target** — dev tasks now project to ~July 30. The Jira "capability" restructure and the Unity-vs-Miranda question remain agreement-in-principle, deliberately parked pending a **Miami product-manager hire**. Secrets moved Azure→Delinea; Business Central was adopted and then, June 17, Val decided to **implement-then-replace it** ("hunting with a cannon").
+¶8. **Engineering is slipping but converging.** **Calle Ocho missed its June-1 GLI target** — dev tasks now project to ~July 30. The Jira "capability" restructure and the Unity-vs-Miranda question remain agreement-in-principle, deliberately parked pending a **Miami product-manager hire**. Secrets moved Azure→Delinea; Business Central was adopted and then, June 17, Val decided to **implement-then-replace it** ("hunting with a cannon").
 
 ¶9. **Markets:** South Dakota software is **GLI-approved** (MG Oil, ~7,000 machines). Nebraska swung twice — the **nudge died** (regulator's attorney ruled it not-skill) but then an **American-Amusements lawsuit removed the progressive restrictions**, so JVL can now run **linked/shared progressives** there; still, Val says he "really care[s] about Texas," not Nebraska. Puerto Rico is pursuing a **permanent Ruta licence** (Estrella firm). **Mexico** wind-down has gone legal (lawyer Humberto Sarkis); **Peru** is a ~$2.5–3M write-off, with **Juan Jose Castillo** as its MD.
 
@@ -46,12 +46,12 @@
 
 ¶16. **Can the ~$12M be raised in time, and is the FlexPay bet sound?** BDC offers no line of credit, the RBC relationship is early, and the deadline (mandatory June 2026) is hard. Meanwhile Val himself expects the e-Wallet to fail commercially and the real product (TITO) is still raw. Whether JVL can fund and ship the bet before the market forces the issue is the single biggest open question.
 
-¶17. **Delivery risk is now visible, not hypothetical.** Kai-Ocho slipped two months; the Omni/capability transformation is mid-flight; the Miami PM who is supposed to unblock Unity-vs-Miranda and the Jira restructure is not yet hired. The wiki can see the plan far better than the shipping.
+¶17. **Delivery risk is now visible, not hypothetical.** Calle Ocho slipped two months; the Omni/capability transformation is mid-flight; the Miami PM who is supposed to unblock Unity-vs-Miranda and the Jira restructure is not yet hired. The wiki can see the plan far better than the shipping.
 
 ¶18. **Profitability is still unknown.** Revenue and losses are now visible, but not margin or burn — is $10M-growing-30% profitable, or is the FlexPay/engineering build outrunning it? §15.8 keeps all compensation out, so the single largest cost line is invisible by design.
 
 ¶19. **Two open contradictions stand unresolved** (correctly, per rule): Unity's engine language (C# vs C++) and which entity runs Amazon/ECHO commerce (JVL Systems vs Gameworks). Plus small identity residue — the two Irinas (Makarych vs Shishko, roles now overlapping), a probable third Evgeny (Kharetski), and the ECHO "artist Igor."
 
-¶20. The five questions this brain would most want answered: (1) **Who is Bob?** (2) Can JVL raise ~$12M and hit the June-2026 FlexPay deadline — and does e-Wallet or TITO become the real product? (3) Is JVL actually profitable, or is the build outrunning $10M/30%? (4) Does Kai-Ocho (and the Omni transformation) actually ship, even on the slipped ~July-30 line? (5) Is the Miami PM hired, and does it unblock the parked Unity/Jira decisions?
+¶20. The five questions this brain would most want answered: (1) **Who is Bob?** (2) Can JVL raise ~$12M and hit the June-2026 FlexPay deadline — and does e-Wallet or TITO become the real product? (3) Is JVL actually profitable, or is the build outrunning $10M/30%? (4) Does Calle Ocho (and the Omni transformation) actually ship, even on the slipped ~July-30 line? (5) Is the Miami PM hired, and does it unblock the parked Unity/Jira decisions?
 
 *Interpretation throughout (emphasis, "hot front," "build-to-throw-away," delivery-risk framing) is mine as synthesizer, for the owner to correct; underlying facts trace to wiki pages. Where the wiki holds an open contradiction it is named, not resolved.*

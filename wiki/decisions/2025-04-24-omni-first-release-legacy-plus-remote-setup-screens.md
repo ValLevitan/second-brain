@@ -15,7 +15,7 @@ Val's directive on the Apr-24 2025 Omni setup-screens review ([[wiki/meetings/20
 
 - **Target: submit the first Omni release to GLI by June 1** (Val used "June 1st" and "June 3rd" interchangeably, allowing "a couple of days off"). "June 1st means submission to GLI." [[raw/set_up_screen_omni-apr-24-2025.md]]
 - **Incorporate the current/legacy setup screens and configuration unchanged** ("with exactly the same business logic, no changes") **plus the new React-based remote/USB initial-setup screens**; the rest of the setup screens stay **legacy**. Val: "Please release only these particular screens for approval to [[wiki/people/juan-martinez.md|Juan Martinez]]… This is an order." [[raw/set_up_screen_omni-apr-24-2025.md]]
-- Screens in scope for the release: **language, passport, date, configure, USB/remote install, installation test** (presents RIS settings loaded from a USB stick or remote connection), **payout order, progressive settings** (select progressive controller — external controller assumed), and **game settings** — under a new **"installation" tab**. Most were already present in the **Kai-Ocho** software release, in the new design. [[raw/set_up_screen_omni-apr-24-2025.md]]
+- Screens in scope for the release: **language, passport, date, configure, USB/remote install, installation test** (presents RIS settings loaded from a USB stick or remote connection), **payout order, progressive settings** (select progressive controller — external controller assumed), and **game settings** — under a new **"installation" tab**. Most were already present in the **Calle Ocho** software release, in the new design. [[raw/set_up_screen_omni-apr-24-2025.md]]
 
 ## Rationale
 

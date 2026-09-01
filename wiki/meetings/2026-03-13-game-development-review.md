@@ -14,7 +14,7 @@ Thin stub. The continuing **weekly game-development review** ([[wiki/people/val-
 
 Substance lives on the topic/project pages:
 
-- **Game-design mechanics** — the condensed pay-table + big-character canvas (GC366 / Lion's Riches), the horizontal-vs-vertical reel-bundle proportion rationale, casino-vs-skill royals for Georgia, the Kai-Ocho-Omni "timing pass" on the new framework, the white-bison free-spins lock symbol → [[wiki/topics/slot-game-design-principles.md]] (Mar-13). [[raw/JIRA_Schedule_review-March-13-2026.md]] [[raw/Game_Development-March-13-2026.md]]
+- **Game-design mechanics** — the condensed pay-table + big-character canvas (GC366 / Lion's Riches), the horizontal-vs-vertical reel-bundle proportion rationale, casino-vs-skill royals for Georgia, the Calle Ocho-Omni "timing pass" on the new framework, the white-bison free-spins lock symbol → [[wiki/topics/slot-game-design-principles.md]] (Mar-13). [[raw/JIRA_Schedule_review-March-13-2026.md]] [[raw/Game_Development-March-13-2026.md]]
 - **Georgia release/schedule** — GC351/GC360/GC363/GC364/GC366 items, Crazy Colt, the casino-royals move, IP1028 Georgia COAM in backlog → [[wiki/projects/georgia-market-rollout.md]] (Mar-13). [[raw/JIRA_Schedule_review-March-13-2026.md]] [[raw/Game_Development-March-13-2026.md]]
 - **Nebraska release/schedule** — GC367 Nebraska-2 dual-box + secondary-bonus "complete," push to [[wiki/organizations/eclipse-gaming-lab.md|Eclipse]] Monday then a two-week paid-premium clock → [[wiki/projects/nebraska-skill-market.md]] (Mar-13). [[raw/JIRA_Schedule_review-March-13-2026.md]]
 

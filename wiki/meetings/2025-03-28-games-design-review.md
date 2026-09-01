@@ -12,7 +12,7 @@ A long game-design/production review with [[wiki/people/val-levitan.md|Val]], [[
 
 The durable substance lives on:
 - [[wiki/topics/slot-game-design-principles.md]] — the **nudge animation-freeze** refinement, the **recycle math/mechanics but not look-and-feel** principle, and **conceptual continuity** in naming.
-- [[wiki/topics/jvl-machine-lineup.md]] — game statuses: **La Rosa**, **El Jaguar**, **5X Peppers**, **Cold Cash**, the Kai-Ocho/Dragons-of-Rain GLI sound file arriving.
+- [[wiki/topics/jvl-machine-lineup.md]] — game statuses: **La Rosa**, **El Jaguar**, **5X Peppers**, **Cold Cash**, the Calle Ocho/Dragons-of-Rain GLI sound file arriving.
 - [[wiki/projects/nebraska-skill-market.md]] — the **Golden Husk** progressive-bonus naming.
 - [[wiki/projects/georgia-market-rollout.md]] — Peach 1/2/3 status and the Peach-2 nudge-freeze schedule impact.
 

@@ -17,7 +17,7 @@ On the [[wiki/meetings/2026-08-26-alignment-planning-nova-september-releases.md|
 
 - **[[wiki/people/pavel.md|Pavel Frolov]] and [[wiki/people/irina-shishko.md|Irina Shishko]] jointly own** polishing the capabilities set, extracting the **MVPs** out of it, sketching them in **Jira**, and aligning the result across the whole company. Val: "Ложится на вас двоих?" … "Скетчу и ресурсы лежат на вас" … "вам это нужно… Алайн по всей компании. Со всеми согласовать." [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
 - **The window is September**: "У вас на это есть сентябрь?" — they have September for it — with **developers handed work and starting on NOVA from about October 1**, when resources free up. [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
-- **Sequencing is unchanged:** the two September 1 deliveries (SALTA/VLT2 and the V3 Georgia COAM release) go out first, then the September capability/MVP narrowing, then the Oct-1 development start. [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- **Sequencing is unchanged:** the two September 1 deliveries (South Dakota VLT-2 and the V3 Georgia COAM release) go out first, then the September capability/MVP narrowing, then the Oct-1 development start. [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
 - **They must also understand the constraints they are planning inside** — Val: "вам нужно понять наши лимитейнс наш скетжу, что мы должны delever" (our limitations, our schedule, what we must deliver). [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
 
 ## Why, and the communication demand attached to it

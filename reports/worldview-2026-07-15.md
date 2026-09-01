@@ -24,7 +24,7 @@
 
 ¶8. **FlexPay is the hot front.** The team settled a two-device architecture (FlexSMIB for modern machines, FlexPort-with-screen for legacy), chose SAS 603 over G2S, and is racing hardware — a "dispensing tower," magnetic-stripe-only cards, an InComm gift-card rail (Sutton Bank custody), and a July-2026 legislative deadline driving urgency. But Val has *already* begun second-guessing the kiosk-centric model ("FlexPay Evolution"), fearing cost-averse Georgia operators (Mike Patel's pulse-capture objection) won't buy.
 
-¶9. **Games/Omni have momentum with slippage.** Kai-Ocho is the first Omni-framework game, targeted at GLI by June 1; the math has slipped repeatedly. Georgia's Peach releases and Diamond Link V-Deck work continue. **Markets:** South Dakota has a VLT licence in hand, Nebraska is applied-for, Puerto Rico's law firm (Estrella/Carlos Infante) is engaged, and **Mexico is being wound down hard** — compressed from six months to ~30 days.
+¶9. **Games/Omni have momentum with slippage.** Calle Ocho is the first Omni-framework game, targeted at GLI by June 1; the math has slipped repeatedly. Georgia's Peach releases and Diamond Link V-Deck work continue. **Markets:** South Dakota has a VLT licence in hand, Nebraska is applied-for, Puerto Rico's law firm (Estrella/Carlos Infante) is engaged, and **Mexico is being wound down hard** — compressed from six months to ~30 days.
 
 ¶10. **Engineering doctrine is crystallizing:** repository = product; feature branches ≤ 1 week; sprints stretched to ~3–4 weeks; "no test, no pull"; testers replaced by Test Engineers; a six-product GitHub re-carve; secrets on Azure. The Business Central ERP rollout and a software-licensed-per-operator (not per-machine) model round out the back office.
 
@@ -52,6 +52,6 @@
 
 ¶19. **Open contradictions remain unresolved by rule**, chiefly the InComm gift-card meeting recorded under two dates (Apr 3 vs Apr 7). These are correctly parked, but they mark places where the timeline itself is not yet trustworthy.
 
-¶20. The five questions this brain would most want answered: (1) **Who is Bob?** (2) Is the FlexPay/kiosk bet economically viable, or will Georgia operators reject it — and what is the fallback? (3) What is JVL's actual revenue mix and installed base today? (4) Did the online/RGS business ever find real customers, or is it aspirational? (5) How much of the engineering transformation actually shipped versus stayed doctrine — is Kai-Ocho on Omni live by June 1?
+¶20. The five questions this brain would most want answered: (1) **Who is Bob?** (2) Is the FlexPay/kiosk bet economically viable, or will Georgia operators reject it — and what is the fallback? (3) What is JVL's actual revenue mix and installed base today? (4) Did the online/RGS business ever find real customers, or is it aspirational? (5) How much of the engineering transformation actually shipped versus stayed doctrine — is Calle Ocho on Omni live by June 1?
 
 *Interpretation throughout (emphasis, causal links, "hot front," "aspirational") is mine as synthesizer, offered for the owner to correct; the underlying facts trace to wiki pages. Where the wiki holds an open contradiction it is named, not resolved.*

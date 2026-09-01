@@ -8,7 +8,7 @@ source-count: 1
 
 # Game-design review (Mar 7 2025)
 
-JVL game-design review with [[wiki/people/val-levitan.md|Val]], [[wiki/people/michael-gottlieb.md|Michael]], [[wiki/people/juan-martinez.md|Juan]] and [[wiki/people/lena.md|Lena]] (Vlad on sound; Ivan on release). Covered the bet-up flame buttons, per-denomination RTP and its visual conveyance, the Kai-Ocho bonus music, a stutter/freeze bug, and the Georgia release cadence.
+JVL game-design review with [[wiki/people/val-levitan.md|Val]], [[wiki/people/michael-gottlieb.md|Michael]], [[wiki/people/juan-martinez.md|Juan]] and [[wiki/people/lena.md|Lena]] (Vlad on sound; Ivan on release). Covered the bet-up flame buttons, per-denomination RTP and its visual conveyance, the Calle Ocho bonus music, a stutter/freeze bug, and the Georgia release cadence.
 
 Substance lives on [[wiki/topics/slot-game-design-principles.md]], [[wiki/decisions/2025-03-07-final-signoff-on-assembled-machines.md]] and [[wiki/projects/georgia-market-rollout.md]].
 

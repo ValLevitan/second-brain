@@ -48,7 +48,7 @@ For the **Queen game** recognition feature, Lena showed Michael one scenario, he
 
 ## Porting a game's assets to Omni — the Calle Ocho method (Apr 17 2025)
 
-Moving the released **Calle Ocho / Kai-Ocho** game's assets onto Omni forced a choice between three approaches, worked through by [[wiki/people/lena.md|Lena]], [[wiki/people/dmitriy-khandov.md|Dima]], [[wiki/people/alexander-biratka.md|Sasha]] and Val ([[wiki/meetings/2025-04-17-calle-ocho-asset-redesign-omni.md]]): [[raw/graphical_assets_redesign_omni_calle_ocho-apr-17-2025.md]]
+Moving the released **Calle Ocho / Calle Ocho** game's assets onto Omni forced a choice between three approaches, worked through by [[wiki/people/lena.md|Lena]], [[wiki/people/dmitriy-khandov.md|Dima]], [[wiki/people/alexander-biratka.md|Sasha]] and Val ([[wiki/meetings/2025-04-17-calle-ocho-asset-redesign-omni.md]]): [[raw/graphical_assets_redesign_omni_calle_ocho-apr-17-2025.md]]
 
 - **Plan A (Lena's, to hit a May-1 date):** take the videos made for Calle Ocho in **Rage Studio** and just re-export them through **Spine** and **Miranda**, only separating the particles that need **additive** blending (Omni can't do alpha + additive in one video today). Lena's own objection: this reuses nothing for the *next* game. [[raw/graphical_assets_redesign_omni_calle_ocho-apr-17-2025.md]]
 - **Plan B (Sasha's):** rebuild assets "properly" so the control code is reusable in future games — but then no firm time estimate, and Sasha argued ~2 months (Val: 2 months is "a non-starter"). [[raw/graphical_assets_redesign_omni_calle_ocho-apr-17-2025.md]]
@@ -108,7 +108,7 @@ On the [[wiki/meetings/2025-06-12-games-design-priorities-review.md|June-12 prio
 
 - **South Dakota art nearly done.** The last SD game, **Rodeo Spin**, is almost finished — Lena expected to finish everything and post it in **Confluence** the next day. [[raw/games_design-june-12-2025.md]]
 - **Two new Fiery-Ice-Link titles start now.** The two additional themes (5 and 6) are **Latino/Cuban-inspired**, built in **Rage Studio** on the **V1000** cabinet (explicitly **not** waiting for Omni). Start with **Glorosa** — it can evolve from already-approved Glorosa materials (symbols + diorama recombined into a Fiery-Ice-Link game; different screen/reel size, same bonus, so easier); then **Havana Noches** ("Havana Knights"/"Cuban Knights" — Val: keep the Spanish name). The **free-spins experience for Glorosa is still to be designed** (form follows function). Only the creative part (graphics/sound/animation) starts now; the team wants **30–45 days** of live data on the shipped Fiery-Ice games first. [[raw/games_design-june-12-2025.md]]
-- **Templating the roosters game.** A new **three-Cuban-roosters** game (following Fortune Football) will come **after Fortune 4.0** is done "**right**" (as a proper Omni template, unlike the current Kai-Ocho-Omni port that "throws some assets from Rage Studio, not reworked") — the clean Fortune-4.0 template should let the roosters game develop much faster. [[raw/games_design-june-12-2025.md]]
+- **Templating the roosters game.** A new **three-Cuban-roosters** game (following Fortune Football) will come **after Fortune 4.0** is done "**right**" (as a proper Omni template, unlike the current Calle Ocho-Omni port that "throws some assets from Rage Studio, not reworked") — the clean Fortune-4.0 template should let the roosters game develop much faster. [[raw/games_design-june-12-2025.md]]
 
 ## July 3 2025 — Nebraska schedule end-July; forecast at feature level; HHR asset redo; Lena the bottleneck
 

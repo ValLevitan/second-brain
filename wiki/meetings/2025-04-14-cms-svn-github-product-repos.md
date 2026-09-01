@@ -14,7 +14,7 @@ source-count: 1
 
 **Transcript artifact (§12):** the file internally duplicates its own content — one meeting; facts taken once. A passing "мы заберем и БК, и Антона" line names a "БК" — unclear who "БК" is (unresolved).
 
-Substance lives on [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (methodology, the Biratka framework-repo lesson, the audit doctrine) and feeds [[wiki/decisions/2025-04-15-cms-staged-migration-plan.md]]. Val's morning-of Omni ruling referenced on the call: [[wiki/decisions/2025-04-14-kai-ocho-first-omni-framework-game.md]].
+Substance lives on [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (methodology, the Biratka framework-repo lesson, the audit doctrine) and feeds [[wiki/decisions/2025-04-15-cms-staged-migration-plan.md]]. Val's morning-of Omni ruling referenced on the call: [[wiki/decisions/2025-04-14-calle-ocho-first-omni-framework-game.md]].
 
 ## Sources
 

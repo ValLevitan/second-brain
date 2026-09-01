@@ -17,7 +17,7 @@ Substance lives on:
 - [[wiki/people/val-levitan.md]] — Val's three stated goals for sitting in, the JVL near-death history he recounted, and his management philosophy ("bulldozer," "awkward truth," anti-bureaucracy).
 - [[wiki/topics/transcript-knowledge-base-tooling.md]] — the plan to build a knowledge base from recorded design comments ("document tribal knowledge — desperately").
 - [[wiki/topics/graphics-team-git-workflow.md]] — the experiment to move art-asset evolution out of Jira into GitHub.
-- [[wiki/topics/slot-game-design-principles.md]] — aspirational/ethnic-representation themes (Kai-Ocho, La Rosa, the Bally ethnic-themes fight).
+- [[wiki/topics/slot-game-design-principles.md]] — aspirational/ethnic-representation themes (Calle Ocho, La Rosa, the Bally ethnic-themes fight).
 
 ## Sources
 

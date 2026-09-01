@@ -15,7 +15,7 @@ source-count: 2
 
 Substance lives on:
 - [[wiki/topics/nova-platform-architecture.md]] — the experiment result and the RAGE→NOVA migration thread (Aug-3 section).
-- [[wiki/decisions/2026-08-03-no-en-masse-rage-to-nova-migration.md]] — Val's strategy decision (no en-masse migration; full South Dakota port ~6 months; don't finish Kali Ocha).
+- [[wiki/decisions/2026-08-03-no-en-masse-rage-to-nova-migration.md]] — Val's strategy decision (no en-masse migration; full South Dakota port ~6 months; don't finish Calle Ocho).
 - [[wiki/projects/south-dakota-vlt-market.md]] — the South Dakota full-NOVA-port plan.
 - [[wiki/people/igor-metelski.md|Igor Metelski]] — ran the experiment; next assignment.
 

@@ -20,7 +20,7 @@ Ihar Hrybko appears in the **JVL Insights** knowledge-base proposal (~2023–24)
 
 ## Active on machine setup screens (Apr 15 2025)
 
-- First 2025-transcript sighting in an operational role: Val on the Omni daily — "на следующий митинг я приглашу Игоря Хребко, который занимается этими сетапами" (rendered "Хребко"; matched to Hrybko by the rare surname + setup/UI context, labeled inference). He owns the machine **setup screens** work that the Kai-Ocho Omni port needs in full for GLI (history, reports, settings — old screens can't be reused); Pavel to start working with him so his features are written up for Kai-Ocho Omni; initial-setup is "на подходе," the main setup "там совсем ничего нет." [[raw/daily_omni_progress-apr-15-2025.md]]
+- First 2025-transcript sighting in an operational role: Val on the Omni daily — "на следующий митинг я приглашу Игоря Хребко, который занимается этими сетапами" (rendered "Хребко"; matched to Hrybko by the rare surname + setup/UI context, labeled inference). He owns the machine **setup screens** work that the Calle Ocho Omni port needs in full for GLI (history, reports, settings — old screens can't be reused); Pavel to start working with him so his features are written up for Calle Ocho Omni; initial-setup is "на подходе," the main setup "там совсем ничего нет." [[raw/daily_omni_progress-apr-15-2025.md]]
 
 ## Apr 16 2025 — present all setup screens for the June-1 GLI machine
 
