@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 72
+source-count: 74
 open-commitments: 12
 ---
 
@@ -220,6 +220,14 @@ Two connected threads this day. In the morning [[wiki/meetings/2026-04-13-aaron-
 
 On the [[wiki/meetings/2026-04-15-legacy-cms-documentation-progress-check.md|Legacy CMS Documentation Progress Check]] (with Val, [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]], [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]], [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]]) Andrei presented his 6-metric **"documents readiness"** dashboard tracking README/CLAUDE.md/docstring coverage across the legacy-CMS repos. Val coached him to *guide* a reader through a report rather than hand it over cold. Andrei argued the docs pass is also a **bus-factor** safeguard (the legacy CMS lives on a while regardless of future architecture) and undertook to deepen from repo-organization into **deployment infrastructure** by Apr 28. Substance on [[wiki/topics/docs-as-code-and-atlassian-exit.md]] + [[wiki/topics/ai-assisted-development.md]] (Apr-15). [[raw/Meeting_Notes_Legacy_CMS_Documentation_Progress_Check-April-15-2026.md]]
 
+## Aug 24 2026 (reported) — he and Val ran the first prose-from-code experiment, and it failed
+
+On the [[wiki/meetings/2026-08-24-nova-lgs-prose-standard-checkpoint.md|Aug-24 prose checkpoint]] (Russian; Bosik **not present**) [[wiki/people/val-levitan.md|Val]] described an **earlier, undated** experiment he had run with Bosik — "Андрей босик и я лично" — writing prose from code. His verdict: "Вот такой метод не сработал… просто выходила слабая очень" — the method did not work, the output came out very weak. What did work well was linking the code to the product's overall architecture: "когда вы связывали код с общей архитектурой, когда вы ему объясняли общую архитектуру продукта." [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+
+- [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] disagreed on the necessity of that step, arguing Claude already picks the architecture up from the project context. See [[wiki/topics/ai-assisted-development.md]] (Aug-24). [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- **Name note:** the derived meeting note for this session renders Val's collaborator as "Andrei Bockelie," conflating **Andrei Bosik** with [[wiki/people/aaron.md|Aaron Bockelie]]. The transcript says "Андрей босик" — Bosik. [[raw/Meeting_Notes_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- Separately, Evgeny Kharetski was left to work out the no-prose-no-PR repository rule with an unnamed "Andrei," and Irina and Pavel credited an "Andrei" as the initiator of the `docs/prose` folder idea. **Neither mention identifies a surname**, so neither is attributed to Bosik here — left unresolved per §4. [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Legacy_CMS_Documentation_Progress_Check-April-15-2026.md]]
@@ -297,3 +305,5 @@ On the [[wiki/meetings/2026-04-15-legacy-cms-documentation-progress-check.md|Leg
 - [[raw/it_department_maturity-may-7-2025.md]]
 - [[raw/activeMQ_upgrade-may-12-2025.md]]
 - [[raw/keeper_security_implimentation_IT_maturity-august-15-2025.md]]
+- [[raw/Meeting_Notes_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]

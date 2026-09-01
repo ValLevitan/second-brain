@@ -2,8 +2,8 @@
 type: topic
 title: JVL machine pricing and commercial strategy
 date: 2025-09-23
-aliases: [machine pricing, retail price, price list, Dennis one number, CFO-to-CFO credit, market pricing, list price]
-source-count: 3
+aliases: [machine pricing, retail price, price list, Dennis one number, CFO-to-CFO credit, market pricing, list price, dollars not discounts, JVL Dollars pricing lever, show special pricing, Georgia machine price]
+source-count: 5
 ---
 
 # JVL machine pricing and commercial strategy
@@ -53,8 +53,23 @@ On the separate Sept-23 Texas market call ([[wiki/meetings/2025-09-23-texas-skil
 - **Tariffs:** a known **10-15% uplift** on JVL's bill of material is coming; the biggest driver is **South Korea (all of JVL's panels come from there)**, not China. "We cannot really avoid this." (Broader tariff context: [[wiki/topics/tariffs-and-customs-compliance.md]].) [[raw/pricing_strategy_meeting-september-23-2025.md]]
 - **Printers:** every machine now ships **with a printer**, adding **~$1,000+** of retail uplift; printer cost is roughly **~$500** ("a brand-new Transact was ~$800 retail"). Refurbished JCMs may or may not still be usable — **unclear**. [[raw/pricing_strategy_meeting-september-23-2025.md]] [[raw/Pricing_strategy-september-23-2025.md]]
 
+## Aug 21 2026 — "dollars, not discounts": the JVL-Dollars alternative to discounting
+
+A year on from the Sept-2025 policy above, the Georgia price point in play is **$13,000** and the discount question has been reframed. On the [[wiki/meetings/2026-08-21-post-goam-show-recap.md|Aug-21 post-GOAM recap]] [[wiki/people/val-levitan.md|Val]] set out why he prefers giving **JVL Dollars** over cutting price. Full ruling: [[wiki/decisions/2026-08-21-keep-jvl-dollars-printed-serialized-cards.md]].
+
+- **A discount is one-way; a discount cannot be undone.** "if I sell ports for $1000, that's expensive, but if I give $1000 in JVL money… then it's smart. Then I'm creating good revenue and I'm driving people back to JVL. The moment I give discounts, I could never bring the price back. I'm done." [[raw/Meeting_Transcript_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
+- **The dollars pull a second product into the market instead of shrinking the first.** Val's worked example, with figures he flagged as hypothetical: a customer who buys 4 Flex ports and earns, say, **$2,000** of JVL cash then looks at a **$13,000** machine and reasons "13,000, I have 2000 in cash. Why don't I buy JVL for 11,000?" — "instead of giving machine for free and discounting it. This way we're getting two things in the market." [[raw/Meeting_Transcript_Georgia_Machine_Sales_Strategy_Post_GOAM-August-21-2026.md]]
+- **The Georgia machine price in the same conversation.** Val used **$13,000** as the reference machine price when arguing JVL should be able to sell 400–500 machines a year out of a 4,000–5,000-machine market. Felipe stated the price to **Raul at Texas Play** as "12-5" — $12,500 — because "I sell to him cheap" and Raul routes sales to about 10 masters. Juan's hypothetical show-special framing was "the machine, order now, it's $12,000 for equal payments. Buy 4 machines, get one free," and Val's answer on whether such packages exist was "Yes, we do. Yes, we do. I gave Felipe a range of discounts. He can do trade-ins." [[raw/Meeting_Transcript_Georgia_Machine_Sales_Strategy_Post_GOAM-August-21-2026.md]]
+- **The stackable Georgia offer letter** already approved for Felipe: a base **discount**, a further discount for a **trade-in**, another for **paying in full**, and another for **sharing data**. [[raw/Meeting_Transcript_Georgia_Machine_Sales_Strategy_Post_GOAM-August-21-2026.md]]
+- **The zero-cost alternative to a price cut** is a free software conversion of a customer's existing vertical machines, conditioned on installing JVL's cell modem — see [[wiki/decisions/2026-08-21-convert-vertical-machines-instead-of-new-trials.md]]. [[raw/Meeting_Transcript_Georgia_Machine_Sales_Strategy_Post_GOAM-August-21-2026.md]]
+- **§15.8:** clear — machine, market and programme economics only; no named-person compensation.
+
+**Temporal note:** the $16,000–$18,000 retail band above is the **Sept-2025** class-3 / skill-market policy and is not superseded by these Georgia COAM numbers — Georgia is a different market segment. The two are recorded side by side; no source in this batch revisits the class-3 band.
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
+- [[raw/Meeting_Transcript_Georgia_Machine_Sales_Strategy_Post_GOAM-August-21-2026.md]]
 - [[raw/pricing_strategy_meeting-september-23-2025.md]]
 - [[raw/Pricing_strategy-september-23-2025.md]]
 - [[raw/Texas_skill_game_strategy-september-23-2025.md]]

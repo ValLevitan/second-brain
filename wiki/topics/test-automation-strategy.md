@@ -3,8 +3,8 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction, Figma to React, Vite, Claude Code review loop, acceptance criteria]
-source-count: 27
-open-commitments: 2
+source-count: 29
+open-commitments: 3
 open-questions: 1
 ---
 
@@ -298,8 +298,30 @@ A short (~32-min) Russian planning session ([[wiki/meetings/2026-02-04-figma-rea
 - **First hand-off + personnel change.** The first branch hand-off is **Hrybko → [[wiki/people/anton-seregin.md|Seregin]]**; Val wants to watch how Seregin accepts the branch and "lays it onto React" (TypeScript committed to GitHub for React) and sets up the preview tool. Personnel: JVL **moved Seregin off the setup screens**; a new React developer, [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]], now owns setup, with Seregin as a **setup consultant**. Val deliberately does **not** invite Pavel to these figma sessions to reduce his load ("я специально вас на эти митинги не приглашаю… избавить"); Pavel: "if interested, I'll watch the video." [[raw/Irina_Pavel_Figma_React-February-4-2026.md]]
 - **The QA/test entry point (Irina's question).** Irina asked "at what point do we enter, and what do we write tests on?" Val: QA must walk all currently-open features and write **rough acceptance criteria** (can't do all at once — take the more pressing sections first), then write tests **against the TypeScript**, with integration tests accumulating as features merge to master. Irina's synthesis: the setup = **Figma screens + per-screen requirement/acceptance-criteria descriptions**; tests are written to those screen-level acceptance criteria; once **Figma → React → server → back-end** produces the final rendered result, the automated runner executes the test. This restates JVL's recurring gap — **missing/weak acceptance criteria** (Val: "у нас неправильная эксцептанс критерия… мы не понимаем, в каком виде мы хотим это видеть"), the same spec-as-touchstone point as the [[#sept-10-2025--drop-auto-tests-write-tests-for-the-spec-stand-up-directive|Sept-10]] directive. [[raw/Irina_Pavel_Figma_React-February-4-2026.md]]
 
+## Aug 28 2026 — "QA is the bottleneck": reverse-engineered acceptance criteria vs the animation-determinism objection
+
+The clearest statement yet of Val's position, and the strongest technical objection to it, came on the [[wiki/meetings/2026-08-28-dragon-pays-nova-conversion-review.md|Aug-28 Dragon Pays review]] (Russian; [[wiki/people/val-levitan.md|Val]], [[wiki/people/igor-metelski.md|Igor Metelski]], [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/irina-shishko.md|Irina Shishko]], [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]]) once the port itself had been demonstrated. The ruling is [[wiki/decisions/2026-08-28-reverse-engineer-acceptance-criteria-and-automate-qa-dragon-pays.md]]. [[raw/Meeting_Notes_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+
+- **Val's economic argument.** The Rage→NOVA transition is the ideal moment to write requirements and acceptance criteria, because if QA cannot keep up "то все фишенцы, с которой мы здесь достигли, они равны нулю" — all the efficiency gained on the port is worth zero, since "мы можем двигаться только *** asfast слово tard." Pavel supplied the word: "Боттлмек." Val: "если мы сейчас решим эту проблему? То мы можем двигаться очень быстро." [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+- **The mechanism he wants.** Prose in the repository next to the code, plus acceptance criteria written in a `.md` file "Которые понятно клоду" so Claude "может… Протестировать, сделать интуинтесты." He was careful to label it: "Но Так в теории." [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+- **Where the requirements come from, since they do not exist.** Irina named the gap — "нам нужны Требования с аксептомс критериями. Ну то есть то, чего нет сейчас" — and Val's answer was to reverse-engineer them: "мы берем прозу, мы берем код. Мы составляем общую архитектуру. Возвращаемся, килти [capabilities]… можно написать реклама[мент]. Реворс реверс. Включая акцептон критерии." His reason for routing through the architecture rather than straight to capabilities: capabilities are too high-level — "они очень высокого уровня, надо возвращаться через общую архитектуру." He said he had done this superficially for "араэс" himself and it landed about right. [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+- **Pavel's objection: animation dynamics are not specifiable, because playback is not deterministic.** Neither the capabilities nor the requirements will ever say what belongs "в кадре номер один… по пиксельно"; and Val's counter (the code must express it somehow) fails because "кот, он всего лишь воспроизводит видео, причём он не гарантирует, что он отобразит вообще 2 кадр… если я не успел, я этот кадр пропускаю. Я отображаю следующий кадр. Это не детерминированная система." Irina and Evgeny both backed him; Evgeny's alternative framing was "относительная какаято верстка" — a relative layout rather than absolute positions. [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+- **Pavel's proposed workaround — differential testing against the original.** Run the original game on a real machine, give Claude access to it, and have it compare "не покадрово, а по крайней мере по событийно" — event-by-event rather than frame-by-frame — against the new platform's behaviour. He offered it as the crude version of the idea. [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+- **Where the two positions agree.** Pavel: "любые поведенческие тесты можно и 100% покрыть… там чтото произошло, есть какойто отклик… по статусам всё это можно покрывать тестами 100%." (Irina: "функциональные".) The dispute is therefore confined to visual/animation fidelity, not functional coverage. [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+- **Val closed the theory and bought an experiment instead.** "давайте сейчас чтото очень много теорий. Давайте мы опустимся в практику… Давайте, чтобы Игорь опустился в это, и он нам скажет, что работает, что не работает." He put a week (two maximum) on it, and named his evidence base for believing near-total automation is achievable — engineers he follows "на твиттере и на экс" reporting 70%, 90%, some 100% automated — while allowing "это может быть просто болтовня." [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+
+## Open commitments (Aug 28 2026)
+
+- [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — reverse-engineer requirements and acceptance criteria from the ported Dragon Pays prose and code, attempt "no-hands" automated QA against them, and report what works and what does not — due Sept 4 2026 (two weeks maximum) — [[raw/Meeting_Notes_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]] [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+
+## Open questions (Aug 28 2026)
+
+- How to test animation dynamics that cannot be written pixel- or frame-accurately into acceptance criteria. Pavel's event-by-event comparison against the original running on real hardware is the candidate answer; Igor's experiment is meant to test it. [[raw/Meeting_Notes_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]] [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+- [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
 - [[raw/Irina_Pavel_Figma_React-February-4-2026.md]]
 - [[raw/integration_and_testing_procedures_january_15_2025.md]]
 - [[raw/test_automation_philosophy-jan-20-2025.md]]

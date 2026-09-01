@@ -3,7 +3,7 @@ type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
 aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus, $20 test, twenty dollar test, Twin Bison, Wolfpack, Clover Fortune, Liberty Spins, peek-to-be-in bonus, locking bison, Rodeo Spins, multi-progressive, Multi-Progressive initiative, three-level progressive]
-source-count: 73
+source-count: 75
 open-questions: 3
 ---
 
@@ -600,6 +600,24 @@ On the [[wiki/meetings/2026-07-31-georgia-game-math-performance-review.md|Jul-31
 
 **§15.8:** clear — game-math / paytable / attract-video design economics only; no named-person compensation.
 
+## Val's peak-hour theory: high RTP + low minimum bet caps earnings; "geo-fencing" vs hiding the lowest bet button (August 26 2026)
+
+On the [[wiki/meetings/2026-08-26-alignment-planning-nova-september-releases.md|Aug-26 alignment call]] (Russian; Val calling from the Georgia office after the trade show, [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/irina-shishko.md|Irina Shishko]]) Val opened with a field observation and built a pricing theory on it. **No decision was taken — he parked it for the game-design team.** [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+
+- **The field observation.** At the show JVL "выглядим хорошо" and, standing on a location floor beside the competition, "Наша машина выглядит очень хорошо… я бы подумал бы что на одном уровне, а может быть даже и лучше чем аристократы. Лайтон воендер. Почему они делают больше денег?" But "когда я смотрю на коллекшн reporeds. Чтото у нас не работает." [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- **The bet-panel comparison, as stated on the call.** The JVL machine he looked at had **10 buttons with a 25¢ minimum on every game** ("25 50 там и дальше"). **Light & Wonder** "начинают некоторые игры с 40 центов". **Aristocrat** had **6 games**: one starting at 25¢ with 5 buttons, the rest at 50¢, and "Там китайская тема какая то начинается с 75" cents. [[wiki/people/irina-shishko.md|Irina]] identified the JVL cabinet as the original Peach — "это пич, который мы 5 лет назад выпускали" — later redone to "5 тире 8 кнопок"; Pavel's read of the 10-button panel was "это очень чтото старое." [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- **The theory.** A location has only a limited window when machines are occupied — Val's estimate, offered as logic rather than fact, was "не больше чем 3 с 03:30 в день" with all machines busy at the same time. If a loyal player sits on a JVL machine playing 25¢ spins during those peak hours, then however popular the machine is, "За счёт высокого арцепи и за счёт… Маленького минимум бет мы просто не в состоянии сделать такой netwan." He tied it to what operators have long told him: JVL does very well in Georgia's periphery — "мы где то на 1 месте всегда" — but not in Atlanta ("в Атланте живёт где то 6 миллионов людей… А всё остальное это лес"). [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- **Pavel corrected the arithmetic, and the theory survived it.** Val had said JVL loses ~25¢ per spin; Pavel: "нам надо для потери ноль 25 умножить на единица минус RTP, то есть на самом деле не ноль 25 мы теряем 0,025, то есть 2 с половиной цента." Val accepted the correction and kept the argument. The RTP figures on the call: Val "где то 92 93" **including** the progressive; Irina "или 90 плюс прогрессив или 92 плюс прогрессив." [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- **Val's proposed lever — location-based settings ("джио fancing").** Once the September mods allow approval to depend on where the machine stands: in Atlanta/urban locations lower RTP to "около 90, чуть может быть выше 90, 91", remove the 25¢ bet or keep it "только на одной какой то игре… Как начальная игра," and try to set that starter at 30¢; in the periphery keep 25¢ on about four games and put "2 игры на 40 центов." [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- **Pavel's alternative — a time-based lever instead of a location-based one.** "Просто в часы пик блокировать. Ну то есть не показывать самую минимальную кнопку." Irina: "это новый функционал." Val: "это новый функционал, про который мы говорили, который мне очень нравится." [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- **Parked, deliberately.** "давайте это я запаркую… но, пожалуйста, думайте на эту тему потому что все таки нам нужен ответ. Я, я буду обсуждать это с гейм дизайн командой." The related, separately-decided item is the **~88% RTP option** Irina asked for on the 15 Georgia games — [[wiki/decisions/2026-08-26-add-88-percent-rtp-option-to-georgia-coam-games.md]]. [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+
+**§15.8:** clear — RTP, bet-level and market economics only; no named-person compensation.
+
+## Open questions (Aug 26 2026)
+
+- Location-based RTP and minimum-bet setting ("geo-fencing") versus disabling the lowest bet button during peak hours — which lever, or both? Parked by Val for the game-design team with no decision taken. [[raw/Meeting_Notes_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]] [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Georgia_Game_Math_Performance_Review-July-31-2026.md]]
@@ -676,3 +694,5 @@ On the [[wiki/meetings/2026-07-31-georgia-game-math-performance-review.md|Jul-31
 - [[raw/Meeting_Notes_White_Label_Experiment_Review-June-25-2026.md]]
 - [[raw/Meeting_Notes_Game_Design_Stages_Georgia_Data-July-17-2026.md]]
 - [[raw/Meeting_Transcript_Game_Design_Stages_Georgia_Data-July-17-2026.md]]
+- [[raw/Meeting_Notes_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]

@@ -3,7 +3,8 @@ type: person
 title: Vladimir Samusenko
 date: 2026-02-04
 aliases: [Vladimir Samusenko, Vladimir, Владимир, Самусенко]
-source-count: 5
+source-count: 7
+open-commitments: 2
 ---
 
 # Vladimir Samusenko
@@ -22,6 +23,23 @@ On the [[wiki/meetings/2026-02-06-ui-claude-code-adaptation.md|Feb-6 UI/Claude-C
 
 On the [[wiki/meetings/2026-02-11-github-front-end-waze-setup.md|Feb-11 GitHub front-end Waze setup]] Val had Pavel introduce Vladimir; Pavel corrected the framing that he is a replacement for "Igor" — **"Igor is a UI/UX designer, but Vladimir is mostly a front-end developer"** (the "Igor" being [[wiki/people/ihar-hrybko.md|Ihar Hrybko]] by role, UX/UI). Aaron asked him to speak in his own language (Russian). He works on the setup screens / "local games" (transferring the old setup design to a new Figma-based design). Aaron told him "this process equally applies to the repos that you will be working in too," and the agreed next step is for Vladimir to **convert his own repo to the Waze system the same way**, opening a pull request in a branch that Anton, Pavel and Aaron review together. [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-1.md]] [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-3.md]] [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-4.md]]
 
+## Aug 24 2026 — the frontend prose experiment: 29 capabilities and a cross-validation proof
+
+On the [[wiki/meetings/2026-08-24-nova-lgs-prose-standard-checkpoint.md|Aug-24 prose checkpoint]] (Russian) Vladimir reported the front-end half of the code→prose→capability experiment. Method detail on [[wiki/topics/ai-assisted-development.md]] (Aug-24); the ruling is [[wiki/decisions/2026-08-24-single-prose-writing-standard.md]]. [[raw/Meeting_Notes_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+
+- **His method.** He instructed Claude to describe the code "фактически то как он есть. Не пытаясь чтото исправлять или додумывать," in language a person would understand and without technical terms, and he wrote the prose **per screen** rather than per file because "в моём случае файлы не самодостаточные, не описывают картину." He tuned the output on one small example first, then ran the whole project; several passes were needed to get Claude writing correctly without him. He did not read every line — the file runs to close to **2,000 lines**. [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- **The proof he devised.** The LGS codebase holds an old implementation and a new one doing the same thing, "но описан категорически поразному," one written **ten years ago**. He required the capabilities recovered from the prose to be identical in both cases; they were — "Что я таким способом подтвердил жизнеспособность такого способа." **He got 29 capabilities out of the experiment.** [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- **He disagreed with Val on needing to feed the architecture first.** Val reported that prose from code alone had failed for him and [[wiki/people/andrey-bosik.md|Andrei Bosik]], and that supplying the product architecture first worked; Vladimir's answer was that Claude "уже знает и понимает" the overall architecture from the project context, and that what he supplied was scope. He noted JVL's ADRs and product architecture are not complete, but he can explain the architecture or answer Claude's questions, and "здесь архитектура не сказать, что сложная." [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- **He treated Claude's suspected defects as questions, not bugs** — "Я не стал однозначно считать дефект дефектом, когда он указывает" — because with that much context Claude can simply miss something; the answers either enrich the capability or lead to a fix. [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- **He deliberately has not committed his prose next to the code yet**, "потому что пока я не подтвердил у вас у нас, пока мы не решили, как мы делаем" — his and Evgeny's work would conflict until the approach is agreed. He built on the prose Val had sent to [[wiki/people/dmitri-chudinov.md|Dima Chudinov]], using it as the basis for his own. [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- **He raised the overlap problem** between his front-end capability set and Evgeny's back-end set — "сейчас они будут не пересекаться, а конфликтовать" — which the meeting settled as two prose documents and **one** capability set, merged after the standard exists. [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- He accepted Val's point that once new code is added to written prose, the changed part of the prose must always be read. [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+
+## Open commitments (Aug 24 2026)
+
+- [ ] With [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]]: meet locally to agree one prose-writing standard, place it in the standards repository, then run Claude over the existing prose to normalize it — due Aug 25–26 2026 — [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- [ ] With Evgeny: merge the overlapping backend and frontend capability sets into one after the standard is set — due unspecified — [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+
 ## Sources
 
 - [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
@@ -29,3 +47,5 @@ On the [[wiki/meetings/2026-02-11-github-front-end-waze-setup.md|Feb-11 GitHub f
 - [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-1.md]]
 - [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-3.md]]
 - [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-4.md]]
+- [[raw/Meeting_Notes_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]

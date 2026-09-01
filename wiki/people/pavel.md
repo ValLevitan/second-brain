@@ -4,8 +4,8 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 106
-open-commitments: 7
+source-count: 113
+open-commitments: 12
 open-questions: 0
 ---
 
@@ -291,6 +291,61 @@ On the [[wiki/meetings/2026-04-15-flex-pos-alpha-and-omni-2-architecture.md|Flex
 
 On the [[wiki/meetings/2026-08-18-rage-nova-migration-experiment-review.md|Aug-18 review]] Pavel ran the meeting, reported that [[wiki/people/anton-leshkevich.md|Anton (Lishkevich)]] had **rewritten the printer service and build validator in Rust** and tested the printer, and worked the math-container packaging question with [[wiki/people/efim-podvoiski.md|Efim]] and [[wiki/people/evgeny-kharetski.md|Evgeny]] (build the container from a game list at the integration-build step — [[wiki/decisions/2026-08-18-nova-math-container-per-game-set.md]]). He agreed to **send Val the Rust services** Anton built. See [[wiki/topics/nova-platform-architecture.md]] (Aug-18). [[raw/Meeting_Notes_Rage_Nova_Migration_Experiment_Review-August-18-2026.md]] [[raw/Meeting_Transcript_Rage_Nova_Migration_Experiment_Review-August-18-2026.md]]
 
+## Aug 24 2026 — two sessions in one morning: the prose-standard checkpoint, then the Flex-Port-Mini design
+
+Pavel was in both Aug-24 meetings — the [[wiki/meetings/2026-08-24-nova-lgs-prose-standard-checkpoint.md|8:42 AM prose checkpoint]] and the [[wiki/meetings/2026-08-24-flex-port-mini-capabilities.md|10:06 AM Flex-Port-Mini design session]] (both Russian).
+
+**Prose checkpoint.** [[raw/Meeting_Notes_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]] [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- **He supplied the enforcement mechanism the group adopted.** On making the no-prose-no-commit rule real: "Мы, мы можем кормить, но мы не можем пьер сделать" — you can commit, but you cannot open the pull request. Val: "мне кажется то, что Павел предложил… Окей да, Я согласен"; Irina agreed too. See [[wiki/topics/github-release-management-pipeline.md]] (Aug-24).
+- **He fixed the prose folder location:** "эта папка dox слэш проус… во всех проектах в папке док лежал папка проус и всё," with substructure following the project's modules; Val agreed. He gave the working definition of prose that Val endorsed: "это повествовательное, какоето написание, описание функционала."
+- **He drew the planning consequence of the capability/requirement split:** "без копобилите мы не можем фичи отобразить на плане, а без регламентов можем."
+- **He proposed reassigning the backend/CMS prose to [[wiki/people/sergey-tsymanov.md|Sergey Tsimanov]]** (back from vacation), noting [[wiki/people/anton-seregin.md|Anton Seregin]] had written prose and capabilities from the graphical-user-interface side, and asked that the prose Val gave [[wiki/people/dmitri-chudinov.md|Dima Chudinov]] be verified against the current code.
+- He also endorsed widening the standard's authorship: "чем больше людей здесь скажут свои замечания, тем лучше," and defended the exercise on the bug-finding evidence alone: "как минимум уже по этой причине мы не зря делали прозу."
+
+**Flex-Port-Mini design.** [[raw/Meeting_Transcript_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
+- **He identified the wiring that the 2nd-SAS-only design removes** as "самая проблемная часть здесь" — the most problematic part — and explained the current in-line bill-acceptor connection uses two RS-232 converters that "в принципе да ничего не стоят."
+- **He argued for the PIN, lost, and named the residual risk** (a copied barcode used before the real player arrives) — see [[wiki/decisions/2026-08-24-drop-pin-from-evoucher-flow.md]].
+- **He contributed the QR-carries-a-server-URL idea** so scanning registers the transaction centrally, plus per-location promo credits that are playable but not withdrawable — accepted by Val as "очень очень важно."
+- **He owns the networking problem.** He established that a local validation server is unavoidable ("у нас должен быть локальный сервер… Чтобы иметь единую систему валидации"), that WSS will not run over daisy-chained RS-485 ("там будет уже какойнибудь протокол типа модбас") and would need an encryption layer, that an RS-485 chain breaks entirely on any break or unpowered node, and that a per-port LTE modem costs at least $15. He raised **Bluetooth mesh** for reliability while conceding "мы с этим никогда не работали" and "Нет никаких идей, как это оценить даже," and cited having read that certain Chinese chips use a protocol he recalled as **ESP-NOW** with ~500 m line of sight.
+- **He recommended wires for launch:** "провода самый надежный способ, конечно, здесь может быть нам пока пойти с проводами даже для запуска всего," with mesh as a later experiment.
+- **He argued against cooperating with Mutha Goose at all** — "Нам лучше с ним не кооперироваться вообще" — because JVL's own board over SAS is more reliable than the electromagnetic-counter cash-in/cash-out signals, which are "очень ненадёжны по сравнению с тем, что сас нам даёт."
+- **He also floated the stage-2 mobile-cashier-app idea** that would drop Flex IQ entirely, and then named its cost trap (a modem in every SMIB board) — see [[wiki/decisions/2026-08-24-free-hardware-fixed-monthly-fee-model.md]].
+- One analogy he offered was rejected: comparing the flow to "эти пирамидовские принтеры" (Pyramid printers) with their QR-validating app — Val: "Нет, это нет. Пирамидовские принтеры, не так."
+
+## Aug 26 2026 — the arithmetic correction, the peak-hour alternative, and the recycler reverse-engineering problem
+
+On the [[wiki/meetings/2026-08-26-alignment-planning-nova-september-releases.md|Aug-26 alignment call]] (Russian) Val handed Pavel and [[wiki/people/irina-shishko.md|Irina]] joint ownership of the September capabilities→MVP→Jira work — [[wiki/decisions/2026-08-26-pavel-irina-own-nova-capabilities-to-jira-through-september.md]]. Pavel's own contributions on the call: [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+
+- **He corrected Val's per-spin arithmetic on the spot.** Val had said JVL loses about 25¢ per spin on a 25¢ bet; Pavel: "нам надо для потери ноль 25 умножить на единица минус RTP, то есть на самом деле не ноль 25 мы теряем 0,025, то есть 2 с половиной цента." Detail on [[wiki/topics/slot-game-design-principles.md]] (Aug-26). [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- **He offered the alternative to Val's location-based RTP plan:** rather than geo-fencing the RTP and the minimum bet, "Просто в часы пик блокировать. Ну то есть не показывать самую минимальную кнопку" — hide/disable the lowest bet button during peak hours. Irina noted it is new functionality; Val liked it ("который мне очень нравится") but parked both options for the game-design team. [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- **He owns the new-recycler problem and expects to repeat the ARM reverse-engineering.** He had spoken to [[wiki/people/genadi-peari.md|Genadi]] the day before about the larger CPI unit — "это какойто b nr или BNP помоему модель BNR" — and Genadi had already said "это будет несовместим с нашей библиотекой," with the vendor promising the needed library. Pavel told him to order it shipped straight to Minsk. His precedent: on the ARM platform "Мы полностью переписали то, что они нам прислали… Полностью сделали реверс инжиниринг," so "нам готового решения не будет." He added that reverse engineering with Claude "идёт быстро и его легко… Проверять," but "Проблема удалённо с этим сложно работать" — putting a person next to the device to insert bills and count notes is possible but is "лишний человек… Робота у нас нету удалённого." Detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Aug-26). [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- **He named the constraint on running the two NOVA migration tracks in parallel:** not the developers — "С точки зрения fronbork и разработчиков то да" — but "как нам распараллели эти ресурсы QA," and the fact that designers would have to support the same game on both vertical and horizontal cabinets. [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- **He proposed the Minsk emulation of the Light & Wonder SAS / player-tracking system** and the direct Georgia ↔ Minsk network link (see below and [[wiki/topics/minsk-team-communication.md]], Aug-26). [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- **On the succession gap he was blunt about the limits of the internal bench:** asked whether anyone can push submissions the way [[wiki/people/juan-martinez.md|Juan]] does, "Ну нет, у нас исполнители здесь в этом плане" — we are executors in that respect — and he thought a business-side successor would have to come from the gaming-machine business. He was also the one who first suggested asking [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] what he sees in the capabilities set. [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+
+## Aug 28 2026 — "bottleneck", and the event-by-event comparison proposal
+
+At the [[wiki/meetings/2026-08-28-dragon-pays-nova-conversion-review.md|Aug-28 Dragon Pays review]] (Russian) Pavel opened by handing the floor to [[wiki/people/igor-metelski.md|Igor]] and framing what to report ("что было сделано… С чем столкнулся, какой вывод из этого?"), then supplied the two positions the meeting turned on. [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+
+- **He supplied Val's missing word — "Боттлмек"** — when Val argued that all the speed gained on the port is worth nothing if QA cannot keep up. See [[wiki/topics/test-automation-strategy.md]] (Aug-28). [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+- **His "rough idea" for verifying an AI-done port:** "мы можем просто оригинальную игру запускать на реальной машине, давать клоду к ней доступ. И чтобы он там ну не покадрово, а по крайней мере по событийно сравнивал то, что у него на машине с тем, что он сделал для новой платформы" — run the original on a real machine, give Claude access, and compare event-by-event rather than frame-by-frame. He offered it as the crude version: "прям в лоб наверняка есть более элегантные… идеи." [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+- **The determinism objection behind it.** Prose and capabilities will never say what pixel belongs in frame 1, 2 and 3, and neither will the requirements; and the code itself does not guarantee it: "кот, он всего лишь воспроизводит видео, причём он не гарантирует, что он отобразит вообще 2 кадр… если я не успел, я этот кадр пропускаю… Это не детерминированная система." [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+- **What he does think is fully automatable:** "любые поведенческие тесты можно и 100% покрыть… там чтото произошло, есть какойто отклик… по статусам всё это можно покрывать тестами 100%." (Irina supplied "функциональные".) [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+- **He proposed the parallel second game and named the person** — [[wiki/people/anton-leshkevich.md|Anton Leshkevich]], not fully loaded — and undertook to hand Igor's converter work over to him. He also pushed for an actual hardware build ("если действительно хотим сделать сборку для Того, чтобы запустить на машине и посмотреть? Тогда да, есть смысл, звук, правильность, да подлаживать"), having judged the on-screen FPS counter "не показатель." [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+
+## Open commitments (Aug 26–28 2026)
+
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — take forward the direct Georgia-office ↔ Minsk network link, which he proposed and Val accepted in full ("Абсолютно согласен с этим полностью поставьте себе это надо"); Pavel's own framing was that "Андрей с Димой" in IT (which Andrei and which Dima are not stated) should propose the joining option — due unspecified — [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — assess the Light & Wonder SAS / player-tracking system with [[wiki/people/elizabeth.md|Elizabeth]] and, if tractable, build a full VM emulation of it in Minsk — due unspecified — [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — hand [[wiki/people/igor-metelski.md|Igor Metelski]]'s Rage→NOVA converter work to [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] and assign him the parallel second (line) game port — due unspecified — [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+
+**Naming note (Aug-26 / Aug-28).** Val closed the network-link item with "Павел это это ваш Андрей текин." The derived Aug-26 notes read that garble as a person and record the undertaking as "raise it with IT (Andrei Tekin)" [[raw/Meeting_Notes_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]. The **identical garble recurs in the Aug-28 transcript** — "андротейкинг следующий" and "Значит, Андрей текин понятен" — where it can only be the English word *undertaking* [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]. So no person named "Andrei Tekin" is recorded in this wiki; per §4 the mention fits no known person and is treated as a mis-hearing. Flagged for owner review.
+
+## Open commitments (Aug 24 2026)
+
+- [ ] Work out the stage-1 local-network design for Flex-Port-Mini: wired CAT5 / RS-485 with daisy-chain support on the existing WSS or a Modbus-style protocol plus an encryption layer; note Bluetooth mesh as a later experiment — due unspecified — [[raw/Meeting_Notes_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
+- [ ] With [[wiki/people/irina-shishko.md|Irina Shishko]]: schedule daily team time to fill in capabilities and open questions against already-written code, drive the whole team to catch up, and assign Sergey Tsimanov to the backend/CMS prose and to verifying Dima's prose — due end of September 2026 — [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Rage_Nova_Migration_Experiment_Review-August-18-2026.md]]
@@ -401,3 +456,10 @@ On the [[wiki/meetings/2026-08-18-rage-nova-migration-experiment-review.md|Aug-1
 - [[raw/about_tickets_redemption-gcoam-june-18–2025.md]]
 - [[raw/flex-POS_design-june-19-2025.md]]
 - [[raw/flex_POS-use_case_architecture_requirements-june-19-2025.md]]
+- [[raw/Meeting_Notes_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
+- [[raw/Meeting_Transcript_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
+- [[raw/Meeting_Notes_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- [[raw/Meeting_Notes_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]

@@ -4,8 +4,8 @@ title: Anton Leshkevich
 date: 2025-01-21
 aliases: [Anton Leshkevich, Anton, Antoine, Anton Dmishkevich, Дмишкевич, Дмишкевичем, Liashkevich, Anton Liashkevich, Lishkevich, Anton Lishkevich, Лишкевич]
 disambiguation: "Minsk engineer (Omni/RGS), this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 23
-open-commitments: 1
+source-count: 25
+open-commitments: 2
 open-questions: 0
 ---
 
@@ -90,8 +90,21 @@ On the founding NOVA architecture session ([[wiki/meetings/2026-05-12-nova-platf
 
 On the [[wiki/meetings/2026-08-18-rage-nova-migration-experiment-review.md|Aug-18 RAGE→NOVA review]] Pavel reported that Anton (transcript "Антон лишкевич" / **Anton Lishkevich** — another garble of Leshkevich, added to aliases) **took the printer service and the build validator and rewrote them in Rust**, and tested the printer (tickets print on Gen2/Gen5; he lacks an Epic unit to test that one). This is early evidence NOVA's per-service Rust migration is moving faster than expected. Val asked Pavel to send him the services. See [[wiki/topics/nova-platform-architecture.md]] (Aug-18). [[raw/Meeting_Transcript_Rage_Nova_Migration_Experiment_Review-August-18-2026.md]] [[raw/Meeting_Notes_Rage_Nova_Migration_Experiment_Review-August-18-2026.md]]
 
+## Aug 28 2026 — assigned the parallel second Rage→NOVA game port (a line game)
+
+At the [[wiki/meetings/2026-08-28-dragon-pays-nova-conversion-review.md|Aug-28 Dragon Pays review]] (Anton **not present**) [[wiki/people/pavel.md|Pavel]] proposed taking a second game onto NOVA so the two could later be joined behind a game-select screen, and named Anton as the person with the capacity: "Сейчас Антон лишкевич не занят на 100%, то есть я ему там давал задачи, которые там на раз переписать, а вот ему дать в параллель с тем, что он делает вот какуюто ещё одну игру." Val agreed and pushed it further — if he is free, port it straight to NOVA rather than doing anything on the old platform: "Все переводить, как будто мы мы решили и идем вперед." The ruling is [[wiki/decisions/2026-08-28-reverse-engineer-acceptance-criteria-and-automate-qa-dragon-pays.md]]. [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+
+- **Which game: a line game, not keno.** [[wiki/people/irina-shishko.md|Irina]] asked that the second game also be a line game "не кена" (not keno); Val agreed — "я бы сейчас я бы делал бы лайн с геймс" — noting keno will get converted eventually either way, and that Anton has already done keno ("вишкевич сделал кино"). [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+- **He inherits Igor's groundwork, and is expected to add to it.** Pavel: "те наработки, которые Игорь сделал их какимто образом передать Антону." Val treated that as a feature rather than overhead — "Антон внесет свои новшества еще в то, что Игорь сделал… а потом поделиться ещё раз опытом. У нас тогда будет хорецкие метельские вишкевич" — putting Anton alongside [[wiki/people/evgeny-kharetski.md|Kharetski]] and [[wiki/people/igor-metelski.md|Metelski]] as the three people who will carry the conversion knowledge. [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+
+## Open commitments (Aug 28 2026)
+
+- [ ] [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — port a second (line) game from Rage/South Dakota to NOVA in parallel, building on Igor Metelski's converter work, so the multi-game game-select screen can be tested — due unspecified (parallel to Igor's QA experiment) — [[raw/Meeting_Notes_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]] [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+- [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
 - [[raw/Meeting_Notes_Rage_Nova_Migration_Experiment_Review-August-18-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Nova_Migration_Experiment_Review-August-18-2026.md]]
 - [[raw/Meeting_Transcript_nova_platform_architecture_overview-Segment_2-May-12-2026.md]]

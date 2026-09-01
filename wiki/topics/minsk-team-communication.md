@@ -3,7 +3,8 @@ type: topic
 title: North America ↔ Minsk communication and the feedback loop
 date: 2026-03-05
 aliases: [Minsk communication breakdown, hygiene of alignment, one-way valve, feedback loop, Hourensou, context not control, Minsk cultural problem]
-source-count: 3
+source-count: 6
+open-commitments: 2
 open-questions: 1
 ---
 
@@ -36,6 +37,23 @@ The Mar-5 exchange **refined** the diagnosis rather than disputing it:
 - Both agreed the sharpest instance is **undocumented architectural decisions**: Minsk deliberates over subjects and arrives at fundamental choices that affect the company for years, and those decisions and their reasoning are usually **not documented or communicated** to North America. Pavel added that many individual questions seem minor enough to resolve locally, but undocumented they **accumulate into critical changes** later perceived as deviations from the original requirements. (Val softened his own "nowhere and never" to Pavel's more accurate "not always" and "not properly.") [[raw/communication_break_down_Minsk-March-5-2026.md]] [[raw/Mutual_standing-Communication_breakdown_Minsk.md]]
 - **Where they landed:** the diagnosis shifted from "Minsk is silent" to a more precise statement — **Minsk communicates internally, but the output of that communication, especially architectural decisions and accumulated local judgments, does not cross the boundary to North America in documented form.** The loops are not absent; they are fragmented and filtered. The task is therefore **not to create communication from nothing but to bridge the segments** so what Minsk already discusses becomes visible to North America. Pavel expressed genuine willingness to improve and simplify processes, increase reliability and add transparency. [[raw/Mutual_standing-Communication_breakdown_Minsk.md]]
 
+## Aug 26 2026 — "one virtual company", and a physical network link to match it
+
+Nearly six months on, the same diagnosis returned on the [[wiki/meetings/2026-08-26-alignment-planning-nova-september-releases.md|Aug-26 alignment call]] (Russian; Val from the Georgia office, [[wiki/people/pavel.md|Pavel]], [[wiki/people/irina-shishko.md|Irina]]) — this time as the named obstacle to Val's September NOVA plan rather than as an abstract cultural problem. [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+
+- **Val put the failure squarely on Pavel and Irina, and called it their biggest problem.** Handing them the capabilities → MVP → Jira ownership ([[wiki/decisions/2026-08-26-pavel-irina-own-nova-capabilities-to-jira-through-september.md]]), he said the hard part is setting the thought out properly "и не один раз и глубоко и повторить, и в этом у вас у двоих самая большая проблема. Вы или не умеете или не любите разговаривать? Из вас тяжело чтото вытащить… Хотя знание много." His demand is an explicit **education process** — "здесь должен быть agucation op prostass" — catching who has not grasped something and giving them the background and the depth behind a decision, not just an answer: "Донести глубину этого решения… А вам лень всегда притом." [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- **He allowed that the behaviour may be local rather than absolute** — "может я вас не вижу в работе в Минске… может быть такая история, что в Минске вы действительно да доносите это, а здесь вы рассчитываете, что ктото другой будет это делать" — which is the Mar-5 "fragmented by level" finding restated from his side. [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- **The new framing: one virtual company.** "если вы сейчас поймёте, что компания работает виртуально. В одном режиме. То вы поймёте, что Кроме вас никто это не донесёт." He told them to stop splitting the world into "Минск девелопмент и всё остальное" — "Тест такого у нас нету. У нас всё одно." [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- **Pavel proposed a physical counterpart to the same idea, and Val accepted it outright.** Since the two offices are now working closely, "чтобы Андрей с Димой предложили вариант возможность включения В общую сеть" — that IT (an "Andrei" and a "Dima"; which Andrei and which Dima are not stated in the source) build a channel joining the Georgia office's local network directly to Minsk's, so "нам любые удалённые операции можно будет делать, как будто в соседнем кабинете." Val: "Абсолютно согласен с этим полностью поставьте себе это надо." Pavel said he would speak to "Андрей" the same day. [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- **The immediate driver is practical, not cultural:** Pavel had just explained that reverse-engineering the new cash recycler is hard precisely because the device sits remotely — "Проблема удалённо с этим сложно работать… Робота у нас нету удалённого." See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Aug-26). [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+
+**Naming note.** The derived Aug-26 notes record this undertaking as "Pavel to raise the direct Georgia–Minsk network link with IT (**Andrei Tekin**)" [[raw/Meeting_Notes_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]. The transcript phrase behind that is Val's "Павел это это ваш Андрей текин" — and the identical garble recurs in the Aug-28 transcript ("андротейкинг следующий", "Значит, Андрей текин понятен") where it can only render the English word *undertaking* [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]. Per §4 no person "Andrei Tekin" is created; the mention is treated as a mis-hearing and flagged for owner review. The separate "Андрей с Димой" in IT are real mentions but are not resolved to specific people here.
+
+## Open commitments
+
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — take forward the direct Georgia-office ↔ Minsk network link with IT so remote operations behave like local ones — due unspecified (Val: raise it today) — [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] and [[wiki/people/irina-shishko.md|Irina Shishko]] — communicate and document actively enough to align the capabilities/MVP work across the whole company, treating JVL as one virtual team rather than Minsk-plus-the-rest — due through September 2026 — [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+
 ## Open questions
 
 - What does "bridging the segments" look like in practice — the concrete mechanism to make Minsk's internal decisions (especially architectural ones) visible to North America in documented form? Named as the explicit next step, undefined as of Mar-5. [[raw/Mutual_standing-Communication_breakdown_Minsk.md]]
@@ -45,3 +63,6 @@ The Mar-5 exchange **refined** the diagnosis rather than disputing it:
 - [[raw/communication_break_down_Minsk-March-5-2026.md]]
 - [[raw/Describing_the_cultural_problem_in_Minsk.md]]
 - [[raw/Mutual_standing-Communication_breakdown_Minsk.md]]
+- [[raw/Meeting_Notes_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]

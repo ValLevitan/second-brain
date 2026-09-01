@@ -3,7 +3,8 @@ type: project
 title: South Dakota VLT market entry
 date: 2025-01-22
 aliases: [South Dakota, SD VLT, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950, V43, D27, SD cap, Bioliches, Gypsy Spirit, Crazy Colt, Queen of Luxor, Liberty Spin, Rodeo Spin, South Dakota vertical, MG Oil report, VLT2, Cool Cat, Black Hills Kino, Dragon Pace, Dakota Bison, Solar Keno, Keno Deluxe, IP459, IP1063]
-source-count: 33
+source-count: 37
+open-commitments: 2
 ---
 
 # South Dakota VLT market entry
@@ -201,6 +202,24 @@ On the [[wiki/meetings/2026-06-26-game-development.md|Jun-26 1:00pm ET game-deve
 
 On the [[wiki/meetings/2026-08-03-rage-nova-migration-experiment.md|Aug-3 RAGE→NOVA experiment sync]], [[wiki/people/val-levitan.md|Val]] reversed the earlier idea of leaving South Dakota on RAGE (because it is the hard, Class-III-regulated case) and decided **the South Dakota product will be fully ported from RAGE to NOVA**. Plan: certify and release the **current RAGE version now** so it reaches market; in parallel, fully port the SD product to NOVA — the new revision with liquid glass, new floats and keno added, ~**10 games** (likely +4 → ~**12**) — and do a full certified replacement in **about six months** (~3 months transition + ~3 months polishing). The next migration experiment targets an SD **horizontal** game (candidate **"Nikena"**), porting logic too, reviewed **Aug 17**. Captured on [[wiki/decisions/2026-08-03-no-en-masse-rage-to-nova-migration.md]]; platform detail on [[wiki/topics/nova-platform-architecture.md]]. [[raw/Meeting_Transcript_Rage_to_Nova_Migration_Experiment-August-3-2026.md]] [[raw/Meeting_Notes_Rage_to_Nova_Migration_Experiment-August-3-2026.md]]
 
+## Aug 26 2026 — SALTA/VLT2 "almost finished" for Sept 1; Ivan opens the submission, and the L&W test bench moves to Georgia
+
+On the [[wiki/meetings/2026-08-26-alignment-planning-nova-september-releases.md|Aug-26 alignment call]] (Russian; [[wiki/people/val-levitan.md|Val]] from the Georgia office, [[wiki/people/pavel.md|Pavel]], [[wiki/people/irina-shishko.md|Irina]]) South Dakota was one of the two September 1 deliveries. [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+
+- **Status.** Irina: "сауз Дакота у нас почти закончена, то есть как мы планировали, если ничего не вылезет, то к 1 сентября" — almost finished and on track for **Sept 1** (a Tuesday, as Val noted) if nothing else surfaces. The product is referred to on the call as "салта кото VT 2" / "Салтакота vil t 2" (SALTA Cota VLT2). [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- **Submission process: start now, and keep Val in the loop.** Val: "Пусть иван начнёт разговор, сейчас по совмещен. Салтакота vil t 2" — [[wiki/people/ivan.md|Ivan]] opens the submission conversation immediately, copying Val and [[wiki/people/juan-martinez.md|Juan]] on all correspondence ("во все копии меня. И Хуана"), and Irina should ask Val for a call if she sees the schedule slipping. Val's reason for the urgency: "Это это долго занимает, да?… поэтому нужно это сделать, как бы сегодня ну завтра." This is the interim measure against the loss of Juan's submission authority — see [[wiki/people/juan-martinez.md]] (Aug-26). [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- **The Light & Wonder test station is now in Georgia.** Lonnie had required JVL to buy it; it sat in the South Dakota office, and when that office was closed "всё отправили в джорджию," where the test kit has arrived. [[wiki/people/elizabeth.md|Elizabeth]] sets up the bench with Val on site, and JVL then self-runs the tests Lonnie used to run — thoroughly, because failing to would return JVL to the slower, costlier certifier-run regime. See [[wiki/decisions/2026-08-26-self-test-on-lw-sas-bench-in-georgia-plus-minsk-emulation.md]]. [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- **SALTA/VLT2 is also one of the two candidate first NOVA releases** — as a direct Rage→NOVA migration of the current product, run in parallel with a D27 Georgia COAM NOVA version. Val is explicitly unsure which comes first; see [[wiki/topics/nova-platform-architecture.md]] (Aug-26). Irina noted the SD track needs almost nothing from designers, unlike the Georgia one. [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+
+## Aug 28 2026 — Dragon Pays is the South Dakota game carrying the NOVA port
+
+The [[wiki/meetings/2026-08-28-dragon-pays-nova-conversion-review.md|Aug-28 review]] demonstrated **Dragon Pays**, ported from the Rage South Dakota horizontal product ("продукта дакоты") onto NOVA/Omni with the real Dragon Pays math supplied by [[wiki/people/efim-podvoiski.md|Efim]]. Completeness estimates on the call ranged from 85% (Pavel) to 95% (Irina), with [[wiki/people/igor-metelski.md|Igor Metelski]] cautioning that a fair divergence from the Rage games remains. Full detail on [[wiki/topics/nova-platform-architecture.md]] (Aug-28). Two consequences for this market: the **game-select / multi-game screen has never been run on Omni**, so a second horizontal South Dakota game is needed to test it — assigned to [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — and the team wants a hardware build to check big-win performance on a real machine. [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]] [[raw/Meeting_Notes_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+
+## Open commitments (Aug 26 2026)
+
+- [ ] [[wiki/people/ivan.md|Ivan]] — open the SALTA/VLT2 (South Dakota) submission conversation with the certifier now, copying Val and [[wiki/people/juan-martinez.md|Juan]] on all correspondence, and watch the schedule for slippage — due start same day or next (Aug 26–27 2026) — [[raw/Meeting_Notes_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]] [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- [ ] [[wiki/people/elizabeth.md|Elizabeth]] — set up the Light & Wonder SAS test bench (SD VLT) in the Georgia office — due ASAP, Val on site to oversee — [[raw/Meeting_Notes_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+
 ## Who
 
 - Driven by [[wiki/people/val-levitan.md|Val]] with [[wiki/people/juan-martinez.md|Juan]] (regulator/operator relationship, field side) and [[wiki/people/pavel.md|Pavel]] (Minsk software); [[wiki/people/irina-shishko.md|Irina]] on printer testing and GLI diffs, [[wiki/people/sebastian.md|Sebastian]] on field service, [[wiki/people/ivan.md|Ivan]] on GLI scheduling. **Lonnie** is the SD lottery-lab tester; **"Alani"** appears as the SD lottery (supplied the SAS adapter, requested the permit-number rename) — whether Alani is the lottery entity or a person there is unclear (see Owner Decisions). [[raw/sd_vlt_recap-jan-22-2025.md]] [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
@@ -240,3 +259,7 @@ On the [[wiki/meetings/2026-08-03-rage-nova-migration-experiment.md|Aug-3 RAGE�
 - [[raw/Meeting_Notes_South_Dakota_Vertical_Lineup-May-14-2026.md]]
 - [[raw/Meeting_Notes_Rage_to_Nova_Migration_Experiment-August-3-2026.md]]
 - [[raw/Meeting_Transcript_Rage_to_Nova_Migration_Experiment-August-3-2026.md]]
+- [[raw/Meeting_Notes_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- [[raw/Meeting_Notes_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+- [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]

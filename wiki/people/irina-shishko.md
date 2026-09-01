@@ -4,8 +4,8 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 51
-open-commitments: 1
+source-count: 56
+open-commitments: 5
 ---
 
 # Irina Shishko
@@ -118,8 +118,51 @@ On the [[wiki/meetings/2026-04-15-flex-pos-alpha-and-omni-2-architecture.md|Apr-
 
 On the founding NOVA architecture session ([[wiki/meetings/2026-05-12-nova-platform-architecture-overview.md]]) Irina's place in the governance model was defined: she **converts existing QA test cases into use cases, then into requirements, then maps them to capabilities** — foundational input for both [[wiki/people/anton-leshkevich.md|Anton]] (test framework) and Chief Architect [[wiki/people/alexander-biratka.md|Sasha]]. In the as-is walkthrough she argued there is **no signage in scope** for this platform (Sasha kept the signage progressive-controller box on the diagram anyway — left unresolved). Substance on [[wiki/topics/nova-platform-architecture.md]]. §15.8 clear. [[raw/Meeting_Notes_nova_platform_architecture_overview-Segment_1-May-12-2026.md]] [[raw/Meeting_Notes_nova_platform_architecture_overview-Segment_2-May-12-2026.md]]
 
+## Aug 24 2026 — owns the prose catch-up schedule, and reassigns the CMS prose to Sergey Tsimanov
+
+On the [[wiki/meetings/2026-08-24-nova-lgs-prose-standard-checkpoint.md|Aug-24 prose checkpoint]] (Russian) Val handed Irina and [[wiki/people/pavel.md|Pavel]] the sequencing of the prose/capabilities catch-up. [[raw/Meeting_Notes_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+
+- **Val explicitly delegated the schedule to her and Pavel.** "я не буду лезть в ваш следжил, я это оставлю для Ирины с Павлом. Они знают все наши приоритеты" — they know the priorities; the target is that the whole team is caught up by the end of September with clean repo↔Jira linkage. See [[wiki/topics/nova-platform-architecture.md]] (Aug-24). [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- **Her estimate of the remaining work:** "нам нужно наверно неделей, и это на проекты. Нужно посмотреть, то есть Владимиру там немножко осталось женя тоже" — about a week, project by project, with Vladimir and Evgeny each nearly done. [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- **She made the reassignment call on the CMS prose.** After Pavel raised that the prose Val gave [[wiki/people/dmitri-chudinov.md|Dima Chudinov]] needs verifying: "Ну её тогда отдать Сергею. Потому что дима сейчас занят, потом дима в отпуск, а Сергей пускай сейчас этим занимается" — give it to [[wiki/people/sergey-tsymanov.md|Sergey Tsimanov]], because Dima is busy and then on vacation. [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- **She named the missing artifact precisely.** When Evgeny described the gap, Irina's formulation was "Структура документа с прозой" — the structure of the prose document — which Evgeny confirmed as exactly it. She also corroborated that the docs-folder idea came from an "Андрей" as its initiator (which Andrei is not stated). [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- **She backed Pavel's PR-gate over Evgeny's alternative:** "то что Паша сказал." And she framed the reason capability closure matters, raising Vladimir's un-deployed setup work as the case where code exists but the capability cannot close. [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- **A working constraint she flagged:** she cannot open Claude artifact links without the VPN, but "не хочется в п н включать, потому что тогда плохо работает симс" — the VPN degrades CMS access for her. [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+
+## Open commitments (Aug 24 2026)
+
+- [ ] With [[wiki/people/pavel.md|Pavel Frolov]]: schedule daily team time to fill in capabilities and open questions against already-written code and drive the whole team to catch up — due end of September 2026 — [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- [ ] With Pavel: assign [[wiki/people/sergey-tsymanov.md|Sergey Tsimanov]] to write prose and capabilities for the backend/CMS and to verify the prose Val gave Dima Chudinov — due unspecified — [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+
+## Aug 26 2026 — the 88% RTP catch on the Georgia release, and the Sept-1 readiness call
+
+On the [[wiki/meetings/2026-08-26-alignment-planning-nova-september-releases.md|Aug-26 alignment call]] (Russian) Irina was the one who turned Val's Georgia pricing theory into a concrete release problem. [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+
+- **She supplied the current Georgia RTP figures and the gap.** "это игры 90, 92, 94 процента плюс 2 процента, либо 2 с половиной процента у прогрессива" — and if JVL wants a lower percentage, "нам, возможно, для игр нужны, например, 88%, которых нет." Her fix: get [[wiki/people/efim-podvoiski.md|Efim]] to finish that percentage "на вот эти 15 игр, где есть, где нету" and only then release. Val agreed and folded it into the release — [[wiki/decisions/2026-08-26-add-88-percent-rtp-option-to-georgia-coam-games.md]]. [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- **Her readiness read on both September 1 products:** "оба продукта, они уже достаточно… готовые, то есть там осталось минимально. Да проверять и всё," and "сауз Дакота у нас почти закончена… если ничего не вылезет, то к 1 сентября." Her plan for the added percentage: Efim adds it, it goes on test, "максимум… Следующая неделя будет через неделю." [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- **She dated the cabinet Val had photographed in the field.** Against Val's 10-button panel with a 25¢ minimum on every game, Irina identified it as the original Peach — "это пич, который мы 5 лет назад выпускали" — and said the machines were later redone to "5 тире 8 кнопок," also a long time ago. Detail on [[wiki/topics/slot-game-design-principles.md]] (Aug-26). [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- **She named the design cost of the two parallel NOVA tracks.** Porting South Dakota needs almost nothing from designers; the Georgia COAM rework does — "Почему я спросила, что новые игры это нужны, будут полностью вовлечены эти дизайнеры?" She also supplied the name of the progressive Val could not recall: "Матч 3". [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- **On whether Ivan can replace Juan's push with certifiers: "наверное так 50 на 50 я б сказала."** She distinguished doing the submission from driving it — "Именно так с напором" — and said Juan operates at another level: "он знает, о чём он разговаривает, с кем он разговаривает, что нужно сказать." See [[wiki/people/juan-martinez.md]] (Aug-26). [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- **She raised the pre-test question that produced the test-bench decision** — how the coming South Dakota submission gets pre-checked, recalling that last time Lonnie ran JVL through several correction passes before the lab. See [[wiki/decisions/2026-08-26-self-test-on-lw-sas-bench-in-georgia-plus-minsk-emulation.md]]. [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+
+## Aug 28 2026 — the most optimistic completeness estimate, and the "what we don't have is requirements" point
+
+At the [[wiki/meetings/2026-08-28-dragon-pays-nova-conversion-review.md|Aug-28 Dragon Pays review]] (Russian): [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+
+- **She put the port at 95%** where [[wiki/people/pavel.md|Pavel]] said "85 наверное" and [[wiki/people/igor-metelski.md|Igor]] warned of a fair remaining divergence from the Rage games. On the missing risk feature she argued it is not per-game work: "это общая фича для всех игр это на один раз её делаешь и всё." [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+- **She named what the QA experiment is actually missing.** Not the prose — "нам нужны Требования с аксептомс критериями. Ну то есть то, чего нет сейчас" — requirements with acceptance criteria do not exist today; code and prose do. Val's answer was to reverse-engineer them back through the overall architecture. See [[wiki/topics/test-automation-strategy.md]] (Aug-28). [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+- **She backed Pavel's animation objection** — that frame-accurate behaviour will not appear in requirements either ("И в рекламинт этого не будет") — and asked that the second parallel port be a line game rather than keno. [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+
+## Open commitments (Aug 26 2026)
+
+- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — contact [[wiki/people/efim-podvoiski.md|Efim]] about the Georgia RTP percentages (the ~88% option) and put SALTA/VLT2 on test — due same day for the Efim contact; test ~the following week, release target Sept 1 2026 — [[raw/Meeting_Notes_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]] [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — keep Val and [[wiki/people/juan-martinez.md|Juan]] copied on all of Ivan's South Dakota (SALTA/VLT2) submission correspondence, and call Val directly if she sees the schedule slipping — ongoing from Aug 26 2026 — [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
 - [[raw/Meeting_Notes_nova_platform_architecture_overview-Segment_1-May-12-2026.md]]
 - [[raw/Meeting_Notes_nova_platform_architecture_overview-Segment_2-May-12-2026.md]]
 - [[raw/Meeting_Notes_Flex_POS_Alpha_and_OMNI_2_Architecture-April-15-2026.md]]
@@ -171,3 +214,5 @@ On the founding NOVA architecture session ([[wiki/meetings/2026-05-12-nova-platf
 - [[raw/jp_meters-june-12-2025.md]]
 - [[raw/qa_engineering_direction_review_aaron-june-12-2025.md]]
 - [[raw/Metering_class_3-june-17-2025.md]]
+- [[raw/Meeting_Notes_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]

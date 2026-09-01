@@ -4,8 +4,8 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 38
-open-commitments: 14
+source-count: 45
+open-commitments: 21
 open-questions: 0
 ---
 
@@ -212,6 +212,52 @@ On the [[wiki/meetings/2026-04-21-transactional-financial-model.md|Transactional
 
 At the [[wiki/meetings/2026-08-03-georgia-expo-prep-alignment.md|Aug-3 Expo prep alignment]] (with Val and Juan) Andrei was on the field/hardware side of the show: he is chasing **InComm** to register the production location (JVL answered their questions Friday, no reply since — he'll ping again), spotted a new IQ-machine issue to hand to Pavel, and is helping **Elizabeth** build one machine of each type (dispenser + recycler by Wednesday evening Aug 5), coordinating with Pavel. Val also directed him to prepare the show "cash" as **blank, non-currency-resembling pages** and discard the realistic fake bills he'd bought. Detail on [[wiki/projects/georgia-market-rollout.md]] (Aug-3). [[raw/Meeting_Notes_Georgia_Expo_Prep_Alignment-August-3-2026.md]] [[raw/Meeting_Transcript_Georgia_Expo_Prep_Alignment-August-3-2026.md]]
 
+## Aug 21 2026 — the GOAM show read-out on the Flex transactional products, and coming round on JVL Dollars
+
+On the [[wiki/meetings/2026-08-21-post-goam-show-recap.md|Aug-21 post-GOAM recap]] (recording 1) Andrei gave the product read-out from the Georgia show and left at the break as planned; substance on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Aug 21). [[raw/Meeting_Notes_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
+
+- **He owns the Flex IQ market read.** He reported the design and build quality land well ("they really like the design… it's well-built device"), that operators grasp the value of a transaction with no manual input, and that asked directly about fraud or mistyping on PAX today "They do not admit it." He also brought back the InComm **wrapped-card** rule that breaks IQ's current card verification, and framed the two universal asks — **replay** and **split**. [[raw/Meeting_Transcript_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
+- **He accepted Val's park-and-place ruling but named its cost.** "me and Felipe, we will just meet a lot of friction when talking to operators right now, making them install IQ, because they will ask us questions regarding replay, regarding split," and his condition was that the requests "not be lost" and that requirements be preparable "in a matter of short time" once field data arrives. See [[wiki/decisions/2026-08-21-release-flex-iq-as-is-place-units-collect-facts.md]]. [[raw/Meeting_Transcript_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
+- **He argued for split without manual entry** — keeping the transaction uneditable so IQ retains a security advantage PAX lacks — and for replay via Flex ports as "a huge advantage" over PAX. [[raw/Meeting_Transcript_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
+- **He challenged the JVL Dollars packaging and then publicly reversed.** He suggested "maybe if we call it just a credit line, it should be easier for people to understand"; after Val's explanation he said "I'm totally following you and I agree with this idea… now we understand why it is good," and volunteered the strongest argument for it: "It definitely creates an additional reason to meet in person." See [[wiki/decisions/2026-08-21-keep-jvl-dollars-printed-serialized-cards.md]]. [[raw/Meeting_Transcript_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
+- **Val rebuked him sharply, once.** When Andrei relayed the internal comment that the show unit's cover should be moulded rather than 3D-printed, Val cut him off: "I love you. You're a very fundamental individual. You're smart. But when you start saying stupid ****, I really don't like you," because he had said several times that the permanent moulds are ready and 3D printing was only used for lack of time before the show. Andrei: "Okay, thank you for your feedback." Val also called on him as the marketing voice — "Andrei, you're in marketing. You're good at it. Don't you know these things?" [[raw/Meeting_Transcript_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
+- **He is Val's designated Flex-IQ placement owner**, carrying the InComm retest, the first real location registration and card order, the barcode-reader resolution, and the push toward 20–50 units. [[raw/Meeting_Notes_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
+
+## Aug 26 2026 — runs JVL's side of the InComm follow-up call
+
+On the [[wiki/meetings/2026-08-26-incomm-skill-pay-atm-guidance.md|Aug-26 3:00 PM ET InComm follow-up]] (English; with Val and [[wiki/people/juan-martinez.md|Juan]] on JVL's side) Andrei was the JVL operator on the detail. Card and rollout substance sits on [[wiki/organizations/incom.md]] (Aug-26). [[raw/Meeting_Notes_InComm_Skill_Pay_ATM_Guidance-August-26-2026.md]]
+
+- **He opened the call chasing the missing invoices** — InComm had JVL's two approved email addresses "but we have not received anything"; the tested transaction had run in production "like 2 weeks ago." Allen Lee said he is normally copied on the report but not the invoice and would ask InComm's accounting team. [[raw/Meeting_Transcript_InComm_Skill_Pay_ATM_Guidance-August-26-2026.md]]
+- **He established the practical rollout facts:** that the wrapped Skill Pay cards will carry the barcode in the window on the back of the pack, that from **September 15** JVL can issue a Skill Pay card directly without a gift card first once inventory ships and the contract is amended, and that JVL's **first real location with a real customer launches "in a matter of a week or so"** — on POS with the black Prize Pay card, because Skill Pay is not yet available for POS. See [[wiki/decisions/2026-08-26-no-cash-from-coam-redemption-device-for-skill-pay.md]] and [[wiki/decisions/2026-08-26-certify-only-flex-iq-and-flex-port-with-incomm.md]]. [[raw/Meeting_Transcript_InComm_Skill_Pay_ATM_Guidance-August-26-2026.md]]
+- **He confirmed he had Jason Hall's UI-change kit** — "I have it from Jason. He sent it right on the day of the expose" — and took the UX-certification work: "we we we did it for kiosk for POS. I can do that in a matter of day, no worries." Val closed the item with "Andrei will send you the videos." [[raw/Meeting_Transcript_InComm_Skill_Pay_ATM_Guidance-August-26-2026.md]]
+- **He asked the two forward-looking product questions** — whether InComm plans to make the explicitly non-reloadable Skill Pay card reloadable (Jason: "No, not currently"), and about buying **game credits by scanning the card barcode**, which he remembered from the expo; Jason agreed to send a deck and hold a separate call on it. [[raw/Meeting_Transcript_InComm_Skill_Pay_ATM_Guidance-August-26-2026.md]]
+
+## Aug 26 2026 — floated as the long-term successor to Juan Martinez's role
+
+Separately that morning, on the [[wiki/meetings/2026-08-26-alignment-planning-nova-september-releases.md|Aug-26 alignment call]] (Russian, Andrei **not present**), Val disclosed that [[wiki/people/michael-gottlieb.md|Michael Gottlieb]] ("Майкл гатлип" — transcription garble) had proposed Andrei for [[wiki/people/juan-martinez.md|Juan]]'s role a day or two earlier, and [[wiki/people/pavel.md|Pavel]] independently named him in the same conversation. Val's read: no comparison is possible today — "Нельзя сравнивать Андрея сохваном, это день и ночь" — and "он не знает вообще ни нового, ни эти машины," but if anyone internally could reach that knowledge over time, "Скорее всего, это климович," given support from [[wiki/people/efim-podvoiski.md|Efim]] and Michael. What Val values in him: "Вникнуть врезаться в эту тему. Убрать разные… Посторонние шумы и найти решение." His qualifier: "пока он производительно не будет" — for now he will not be productive in it. **No decision was taken; the item was parked.** See [[wiki/people/juan-martinez.md]] (Aug-26). [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+
+## Aug 27 2026 — the multiple-clearing-house capability
+
+On the [[wiki/meetings/2026-08-27-flex-iq-multiple-clearinghouse-selection.md|Aug-27 seven-minute Flex-IQ call]] (English) Val asked for a clearing-house **selection screen** at device registration rather than InComm hard-wired, and Andrei worked the requirement into shape. The ruling is [[wiki/decisions/2026-08-27-flex-iq-multiple-clearinghouses-selectable-per-device.md]]. [[raw/Meeting_Transcript_Flex_IQ_Multiple_Clearinghouse_Selection-August-27-2026.md]]
+
+- **He brought back a concrete use case from the team the day before:** "some locations, they have different cards providers at the same location, like FirePay plus income" — and a player winning **$8,000** against a per-supplier daily cap of "let's say 5K" through InComm, leaving "the rest of 3K" to be issued through the second provider. (The transcript renders the second provider both "FirePay" and "Fiery Pay"; recorded as transcribed, name not resolved.) [[raw/Meeting_Transcript_Flex_IQ_Multiple_Clearinghouse_Selection-August-27-2026.md]]
+- **He tested and had corrected two readings of the requirement.** That the *location* chooses per transaction — Val: "No… I'm not necessarily saying that it should be the location that chooses it." And his draft wording "every location… Should have… Support of more than one card provider" — Val: "the wording should be that… Multiple clearing houses… selecting a clearinghouse in the setting or on the fly," and "Not per location, per device." [[raw/Meeting_Transcript_Flex_IQ_Multiple_Clearinghouse_Selection-August-27-2026.md]]
+- **He asked the two scoping questions.** Whether to start approaching other clearing houses — Val: "No… Not for now. We're fine for now." And whether to unwind the capability into requirements now "or let's just make sure that it's not lost"; Val's answer is not clearly audible on the recording (the transcript records only "Val." then "Yeah, yeah"), so it is left unresolved here. He undertook to create the capability, "maybe a set of capabilities, but again, it's very minimal as for now." [[raw/Meeting_Transcript_Flex_IQ_Multiple_Clearinghouse_Selection-August-27-2026.md]]
+- **He set the same-day follow-up on his proposed printer and dispenser features** for 4:00 PM, needing preparation time; Val agreed and said he had sent the invite. [[raw/Meeting_Transcript_Flex_IQ_Multiple_Clearinghouse_Selection-August-27-2026.md]]
+
+## Open commitments (Aug 26–27 2026)
+
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — send InComm the UX screenshots and a video of the full operation of the POS and kiosk for Flex IQ and Flex Port, for InComm's UX certification — due before the follow-up in the coming week — [[raw/Meeting_Notes_InComm_Skill_Pay_ATM_Guidance-August-26-2026.md]] [[raw/Meeting_Transcript_InComm_Skill_Pay_ATM_Guidance-August-26-2026.md]]
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — apply the kiosk terms-and-conditions / UI changes from Jason Hall's kit, then submit the video plus a test receipt and test card through InComm's standard review — due unspecified — [[raw/Meeting_Transcript_InComm_Skill_Pay_ATM_Guidance-August-26-2026.md]]
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — capture multiple-clearing-house selection as a capability (or small set), per device, selectable in settings or on the fly, kept minimal so it is not lost; not part of the MVP — due unspecified — [[raw/Meeting_Notes_Flex_IQ_Multiple_Clearinghouse_Selection-August-27-2026.md]] [[raw/Meeting_Transcript_Flex_IQ_Multiple_Clearinghouse_Selection-August-27-2026.md]]
+
+## Open commitments (Aug 21 2026)
+
+- [ ] Initiate a new InComm test session (three more cards) on a new location ID without the invalid "N/A" character; run it only after Pavel's fix ships — due ASAP — [[raw/Meeting_Notes_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
+- [ ] After a clean test, register the first real Flex-IQ location and order its first pack of cards, then keep placing units toward Val's 20–50 target — due ~1 week for the first location — [[raw/Meeting_Transcript_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
+- [ ] Settle the barcode-reading solution for wrapped InComm cards with the engineers before the first install — due before the first location — [[raw/Meeting_Transcript_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
+- [ ] With [[wiki/people/felipe-miranda.md|Felipe]]: visit a nearby location after work to observe how PAX handles wrapped gift cards, and build a direct relationship (including banking information) with the pilot locations — due Aug 21 2026 / ongoing — [[raw/Meeting_Notes_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]] [[raw/Meeting_Transcript_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Flex-Pay_functionality_review-1-April-15-2026.md]]
@@ -250,3 +296,12 @@ At the [[wiki/meetings/2026-08-03-georgia-expo-prep-alignment.md|Aug-3 Expo prep
 - [[raw/Echo_sales_marketing_update.md]]
 - [[raw/Meeting_Notes_Georgia_Expo_Prep_Alignment-August-3-2026.md]]
 - [[raw/Meeting_Transcript_Georgia_Expo_Prep_Alignment-August-3-2026.md]]
+- [[raw/Meeting_Notes_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
+- [[raw/Meeting_Transcript_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
+- [[raw/Meeting_Notes_transactional_financial_model-April-21-2026.md]]
+- [[raw/Meeting_Transcript_transactional_financial_model-April-21-2026.md]]
+- [[raw/Meeting_Notes_InComm_Skill_Pay_ATM_Guidance-August-26-2026.md]]
+- [[raw/Meeting_Transcript_InComm_Skill_Pay_ATM_Guidance-August-26-2026.md]]
+- [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- [[raw/Meeting_Notes_Flex_IQ_Multiple_Clearinghouse_Selection-August-27-2026.md]]
+- [[raw/Meeting_Transcript_Flex_IQ_Multiple_Clearinghouse_Selection-August-27-2026.md]]

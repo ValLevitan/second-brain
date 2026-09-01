@@ -4,7 +4,7 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 32
+source-count: 34
 open-commitments: 4
 open-questions: 0
 ---
@@ -134,6 +134,15 @@ On the data-access-strategy / CMS-cloud-migration call ([[wiki/meetings/2026-03-
 
 On the [[wiki/meetings/2026-04-15-legacy-cms-documentation-progress-check.md|Apr-15 legacy-CMS docs check]] Chudinov (transcript "Dzmitry Chudzinau") confirmed the SVN→GitHub migration is ~99% complete with one small repo remaining — `cass_wah`/Casino WAH — to be moved and documented last in the same cycle, and argued the documentation pass **is** the foundation for the rework decisions: without it the team can't see what to delete, redo cheaply, or preserve, and the eventual rework must be surgical so as not to break what works. Substance on [[wiki/topics/docs-as-code-and-atlassian-exit.md]] (Apr-15). [[raw/Meeting_Notes_Legacy_CMS_Documentation_Progress_Check-April-15-2026.md]]
 
+## Aug 24 2026 (reported) — holds prose that nobody has verified; busy and then on vacation
+
+On the [[wiki/meetings/2026-08-24-nova-lgs-prose-standard-checkpoint.md|Aug-24 prose checkpoint]] (Russian; Chudinov **not present**) three things about him were established. [[raw/Meeting_Notes_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+
+- **He holds prose Val produced.** Val: "все прозы, которые я сделал и всякий побился, я отправил диме чудина у и Сергею циманову." Val believes Dima never placed it next to the code — "дима её не… Положил. Рядом с скотом" — though "я у димы давно это спрашивал. Я не уверен, что сейчас." [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] used that same prose as the basis for his own front-end work. [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- **Nobody has confirmed that prose still matches the code.** [[wiki/people/pavel.md|Pavel]]: "нам надо подтвердить, что проза которую там есть сейчас судимые, что она соответствует действительности, уже ктото с этим поработал." [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- **The work was reassigned away from him on availability grounds.** [[wiki/people/irina-shishko.md|Irina]]: "дима сейчас занят, потом дима в отпуск, а Сергей пускай сейчас этим занимается" — busy now, then on vacation, so [[wiki/people/sergey-tsymanov.md|Sergey Tsimanov]] takes it. [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- **He is to be consulted on the prose-writing standard.** Val, handing the standard to Vladimir and Evgeny: "вы, наверное, както соберётесь, наверное, привлёте диму чудинова, наверно, у него тоже есть какието мнения по этому поводу." His prose variant is one of the three-to-five the standard is to be distilled from. See [[wiki/decisions/2026-08-24-single-prose-writing-standard.md]]. [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Legacy_CMS_Documentation_Progress_Check-April-15-2026.md]]
@@ -168,3 +177,5 @@ On the [[wiki/meetings/2026-04-15-legacy-cms-documentation-progress-check.md|Apr
 - [[raw/flex-pay_flex-port_update-may-15-2025.md]]
 - [[raw/flex-port_flex-pay_smib_update-may-20-2025.md]]
 - [[raw/flex-port_flex-pay_test_plan-may-20-2025.md]]
+- [[raw/Meeting_Notes_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]

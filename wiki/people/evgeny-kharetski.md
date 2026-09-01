@@ -3,7 +3,8 @@ type: person
 title: Evgeny Kharetski
 date: 2025-07-10
 aliases: [Evgeny Kharetski, Evgeny Kharetsky, Evgeny Khoretsky, Kharevsky, Yauheni Kharetski, Kharetsky, Koretski, Koretsky, Korecki, Khorvatsky, Корецкий, Хорватский, Халецкий]
-source-count: 13
+source-count: 17
+open-commitments: 3
 disambiguation: "LGS developer (payroll "Kharetski Yauheni"), this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
 ---
 
@@ -46,6 +47,31 @@ On the [[wiki/meetings/2026-03-26-initiative-priority-schedule.md|Initiative Pri
 - **Aug 6 2026** (Val→Genadi, about Evgeny): Val held up "**Khoretsky** in Minsk" as the model of an engineer who embraces the AI tooling — he now runs ~**10 agents** across **3 projects** and is asking for a **second computer** — contrasting him with reliable people who won't adopt the new way of working. (A performance/adoption observation, not compensation.) See [[wiki/topics/ai-assisted-development.md]] (Aug-6). [[raw/Meeting_Transcript_AI_Engineering_Workflow_and_Hardware_CxO-August-6-2026.md]]
 - **Aug 18 2026** (RAGE→NOVA experiment review): Evgeny helped settle the **math-container packaging** (build from a game list at the integration-build step — [[wiki/decisions/2026-08-18-nova-math-container-per-game-set.md]]) and raised the main **risk against Val's NOVA timeline**: significant LGS-side work remains — **SAS has not yet run on NOVA**, **multiprogressive** needs porting, and the **NOVA platform-service repo has diverged ~six months** from the old RAGE center repo. See [[wiki/topics/nova-platform-architecture.md]] (Aug-18). [[raw/Meeting_Transcript_Rage_Nova_Migration_Experiment_Review-August-18-2026.md]] [[raw/Meeting_Notes_Rage_Nova_Migration_Experiment_Review-August-18-2026.md]]
 
+## Aug 24 2026 — the LGS prose result, ~26 modules, 30-plus bugs found, and the missing-standard call
+
+On the [[wiki/meetings/2026-08-24-nova-lgs-prose-standard-checkpoint.md|Aug-24 prose checkpoint]] (Russian) Evgeny reported on running the code→prose→capability method across the LGS back end. Method detail on [[wiki/topics/ai-assisted-development.md]] (Aug-24); the ruling is [[wiki/decisions/2026-08-24-single-prose-writing-standard.md]]. [[raw/Meeting_Notes_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+
+- **Result: "в целом у меня… Вышло неплохо."** He treated it as a repeatable **cycle over ~26 modules** — first agree a rule set and a document shape with Claude, after which "один модой, 2 модуль, 3 модель ничем друг от друга не отличались." He had completed roughly **10 modules** with **16 left**, at one to two per day. [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- **He named the gap that produced the standard.** JVL has a capabilities standard and a prose-lives-next-to-code rule, but "нету… Единого какогото стандарта, как мы пишем прозу и как мы пишемка били" — no standard for the prose document itself: whether technical detail belongs in it, what structure it takes, and how capabilities are extracted from it consistently. He counted three-to-five incompatible variants in the wild and proposed distilling one, then running Claude over the existing prose to normalize it. He volunteered to convene the standard meeting the next day. [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- **He is skeptical prose is strictly necessary.** "у меня есть ощущение, что поберите можно и без прозы вывести. Чистые скода" — capabilities could be derived straight from code. Val did not dispute feasibility but ruled it out: "может быть это можно, но я не хочу это делать." Evgeny also noted prose compresses hard: a ~10,000-line module reduces to a few general sentences. [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- **The bug harvest.** Claude "нашел достаточно большое количество багов" while writing the prose; rather than stopping, "мы их просто записывали прямо в эти же документы." As of the previous Friday there were "гдето 30 с чемто… подозрения" across modules. His plan: extract them all afterwards and fix them in separate, minimal-context sessions. [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- **He is the one who insisted on automation.** "80% из написания кода будет забыто обновление прозы" without it, and he proposed a per-repository prose folder plus a rule that fails a PR carrying code without an updated prose folder — while admitting "я не уверен… что такие ролса можно делать на репозит проведение." [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- **His prose is already committed inside the LGS repository** ("прям прям в репозитории л JS они там лежат то, что я сделал"), unlike Vladimir's. [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+
+## Aug 28 2026 — the performance read on the Dragon Pays port, and the "relative layout" objection
+
+Val invited him to the [[wiki/meetings/2026-08-28-dragon-pays-nova-conversion-review.md|Aug-28 Dragon Pays review]] on the [[wiki/meetings/2026-08-26-alignment-planning-nova-september-releases.md|Aug-26 alignment call]] two days earlier, alongside [[wiki/people/igor-metelski.md|Igor Metelski]] — transcribed there as "Хорецки". [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+
+- **He supplied the only independent performance read of the port.** Having watched Igor's screen directly rather than through the meeting stream, he reported "Все очень плавно на винде" — everything very smooth on Windows — and that the screen-share showed only "процентов 30 от плавности." The one exception: "под лаги были на какомто бигвине, где очень, очень много монеток. А Так в принципе стабильная 60 кадров." [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+- **He sided with Pavel against pixel-level acceptance criteria.** When Val argued that frame-by-frame behaviour must be expressible in requirements and acceptance criteria because the code expresses it, Evgeny answered "Нет, нет" and offered the alternative framing: "Может быть относительная какаято верстка" — perhaps a relative layout rather than absolute positions. See [[wiki/topics/test-automation-strategy.md]] (Aug-28). [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+- **He is one of the three names in Val's knowledge-spread rationale** for porting a second game in parallel: "У нас тогда будет хорецкие метельские вишкевич" — Kharetski, Metelski and [[wiki/people/anton-leshkevich.md|Leshkevich]] would all carry the Rage→NOVA conversion knowledge. See [[wiki/decisions/2026-08-28-reverse-engineer-acceptance-criteria-and-automate-qa-dragon-pays.md]]. [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+
+## Open commitments (Aug 24 2026)
+
+- [ ] With [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]]: meet locally to agree one prose-writing standard, place it in the standards repository, then run Claude over the existing prose to normalize it and merge the overlapping backend/frontend capability sets into one — due Aug 25–26 2026 for the standard — [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- [ ] Finish prose and capabilities for the remaining ~16 LGS modules at one to two per day — due ~1–2 weeks from Aug 24 2026 — [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- [ ] Work out with "Andrei" (which Andrei is not stated) whether a repository rule can block a PR that changes code but carries no updated prose folder; test it on one repository first — due unspecified — [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Rage_Nova_Migration_Experiment_Review-August-18-2026.md]]
@@ -61,3 +87,7 @@ On the [[wiki/meetings/2026-03-26-initiative-priority-schedule.md|Initiative Pri
 - [[raw/Irina_Pavel_Figma_React-February-4-2026.md]]
 - [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-4.md]]
 - [[raw/GitHub_Ways-February-11-2026.md]]
+- [[raw/Meeting_Notes_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]

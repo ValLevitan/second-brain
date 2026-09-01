@@ -3,8 +3,8 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena]
-source-count: 67
-open-commitments: 2
+source-count: 70
+open-commitments: 3
 ---
 
 # Genadi Peari
@@ -237,6 +237,21 @@ Val asked him to **build a hardware "CxO" AI** (a hardware operational/product o
 - [ ] Genadi Peari — spend a couple of days in conversation with AI to assess where SolidWorks/AI integration stands and how organized files across Business Central + SolidWorks + GitHub would help a hardware CxO — due TBD — [[raw/Meeting_Notes_AI_Engineering_Workflow_and_Hardware_CxO-August-6-2026.md]]
 - [ ] Genadi Peari — firm up the 4–5 next-step topics and structure the past year's accumulated quotations so a CxO can review prices/quantities for sourcing — due TBD — [[raw/Meeting_Notes_AI_Engineering_Workflow_and_Hardware_CxO-August-6-2026.md]]
 
+## Aug 24 2026 — costs the Flex-Port-Mini down to ~$40–45, and picks up AI agents in a day
+
+On the [[wiki/meetings/2026-08-24-flex-port-mini-capabilities.md|Aug-24 Flex-Port-Mini session]] (Russian, with Val and [[wiki/people/pavel.md|Pavel Frolov]]) Genadi acted as the cost authority on the new port. Product ruling: [[wiki/decisions/2026-08-24-flex-port-mini-via-second-sas-only.md]].
+
+- **He held the line on the build cost against Val.** Val pushed low — "$20, да?" then "В $30 мы можем вложиться?" — and Genadi initially agreed to $30 (he had himself floated $25 earlier); once he costed the scanner and memory he reversed: "все равно мы вложимся в 40. Мы не вложимся в 30" — we will fit in 40, we will not fit in 30 — and settled on "40 плюс минус 5… я бы сказал что $40. 40 45, да," which Val accepted as a $45 working budget. His breakdown: the scanner engine costs **$11** today, plus an interface board JVL makes itself (he quoted around **$15** for it), and flash memory is the other driver — even 32 [MB] "будет стоить наверное, $10, если не больше." [[raw/Meeting_Transcript_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
+- **He won the argument for a minimal screen.** Val wanted none; Genadi argued for "без тачскрина самый простой маленький экранчик" at around $5 "на случай, что нам надо какието месседжи выдавать всётаки может мы чтото не видим," and when Pavel identified the cash-out prompt as the concrete need, Genadi: "Вот это нужен экранчик для этого." [[raw/Meeting_Transcript_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
+- **He supplied the reference costs for the existing devices:** today's full Flex-Port with scanner and screen sits "в районе 140 $150," its board alone had cost **$45** before memory prices rose, and the Flex IQ bill of materials came to about **$210** fully assembled with enclosures. He vouched for the current scanner's quality: "он очень качественный. На самом деле мы мы не взяли какойто крапий там китайский." [[raw/Meeting_Transcript_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
+- **He argued for daisy-chain support so the operator does nothing.** "тогда оператору вообще ничего не надо делать, просто тот же провод. Из бута гус воткнул, изъяла борт, воткнул к нам" — unplug from Mutha Goose, plug into JVL — and rejected WiFi on installation grounds ("нам же надо будет в каждую машину пытаться, гдето пристроить антенну… может даже вай фай сложнее установить") and on cost ("это уже не будет $30"). He also flagged the residual risk: if an operator will not disconnect Mutha Goose, new cabling is needed anyway. [[raw/Meeting_Transcript_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
+- **He expects free hardware to multiply uptake** — "Было бы гораздо больше, если бы все бесплатно всё это забирать… Наверно было бы в 5 раз больше" — and read the payback as fast: "это будет окупаться за 2 недели. Наверное, это почти фри." [[raw/Meeting_Transcript_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
+- **AI-agent adoption (warm-up segment).** He reported being delighted the previous week: an "Andrei" (which Andrei is not stated) showed him "пару фокусов как как агентов настраивать"; he mastered it "буквально за день" and has used it for GitHub work and for asking how to structure "MSBC" (recorded as transcribed; not expanded in the source). This follows Val's Aug-6 push for him to build a hardware "CxO" — see [[wiki/topics/ai-assisted-development.md]] (Aug-24). [[raw/Meeting_Transcript_Flex_Port_Mini_Capabilities_Preamble-August-24-2026.md]]
+
+## Open commitments (Aug 24 2026)
+
+- [ ] Source and spec a cheap non-touch information display for Flex-Port-Mini and confirm flash/memory sizing so the build lands near $40–45 — due unspecified — [[raw/Meeting_Notes_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Genadi_General_Alignment-May-22-2026.md]]
@@ -306,3 +321,6 @@ Val asked him to **build a hardware "CxO" AI** (a hardware operational/product o
 - [[raw/Genadi_reply_to_Val_questions_FlexPort_IP-578-March-4-2026.md]]
 - [[raw/Meeting_Notes_AI_Engineering_Workflow_and_Hardware_CxO-August-6-2026.md]]
 - [[raw/Meeting_Transcript_AI_Engineering_Workflow_and_Hardware_CxO-August-6-2026.md]]
+- [[raw/Meeting_Notes_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
+- [[raw/Meeting_Transcript_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
+- [[raw/Meeting_Transcript_Flex_Port_Mini_Capabilities_Preamble-August-24-2026.md]]

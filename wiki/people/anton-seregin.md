@@ -4,7 +4,7 @@ title: Anton Seregin
 date: 2026-07-13
 aliases: [Anton Seregin, Seregin, Anton Seryogin, Серёги, Серёгин]
 disambiguation: "Minsk payroll / React-TS front-end dev, this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 8
+source-count: 10
 ---
 
 # Anton Seregin
@@ -33,6 +33,10 @@ On the [[wiki/meetings/2026-02-06-ui-claude-code-adaptation.md|Feb-6 UI/Claude-C
 
 On the [[wiki/meetings/2026-02-11-github-front-end-waze-setup.md|Feb-11 GitHub front-end Waze setup]] Seregin is the lead front-end developer being onboarded to [[wiki/people/aaron.md|Aaron]]'s Waze/"ways" system (substance on [[wiki/topics/ai-assisted-development.md]] Feb-11). He confirmed he works on **Flex POS** (most pages complete) and is about to start actively developing the **infrastructure-orchestration-core front end** — a **Webpack module-federation** app serving multiple micro front-ends by access control, Docker-deployable. Aaron cloned that repo live and had Claude + Waze scaffold an ADR system, an inaugural ADR, local build/front-end/micro-front-end ways, and a slimmed CLAUDE.md (the run then stalled on auth/network problems). His homework: accept and "play with" the converted repo, then open his own pull request in a branch and share it via chat for Aaron's review. He develops on **Windows + WSL/Ubuntu** running Claude Code. [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-3.md]] [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-2.md]] [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-4.md]]
 
+## Aug 24 2026 (reported) — wrote prose and capabilities for RIS from the graphical-user-interface side
+
+On the [[wiki/meetings/2026-08-24-nova-lgs-prose-standard-checkpoint.md|Aug-24 prose checkpoint]] (Russian; Seregin **not present**) [[wiki/people/pavel.md|Pavel Frolov]] cited him as having already done the work JVL now wants extended to the backend: "у нас Антон серёгин писал… Прозу и капбилити для… со стороны график юзер интерфейс" — prose and capabilities from the graphical-user-interface side. [[wiki/people/irina-shishko.md|Irina Shishko]] identified the subject as **RIS**: "так для риса писал, если уже это проза." (The middle of Pavel's sentence is garbled in the transcript; the GUI-side attribution and Irina's RIS identification are clear.) Pavel's proposal was to give [[wiki/people/sergey-tsymanov.md|Sergey Tsimanov]] the parallel backend/CMS prose. See [[wiki/topics/github-release-management-pipeline.md]] (Aug-24). [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]] [[raw/Meeting_Notes_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+
 ## Sources
 
 - [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
@@ -43,3 +47,5 @@ On the [[wiki/meetings/2026-02-11-github-front-end-waze-setup.md|Feb-11 GitHub f
 - [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-2.md]]
 - [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-3.md]]
 - [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-4.md]]
+- [[raw/Meeting_Notes_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
