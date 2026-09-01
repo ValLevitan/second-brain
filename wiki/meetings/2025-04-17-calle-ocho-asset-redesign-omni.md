@@ -8,7 +8,7 @@ source-count: 1
 
 # Calle Ocho graphical-asset redesign for Omni (Apr 17 2025)
 
-A ~176-minute working session between [[wiki/people/lena.md|Lena]], [[wiki/people/dmitriy-khandov.md|Dima (Khandov)]], [[wiki/people/alexander-biratka.md|Sasha (Biratka)]] and [[wiki/people/val-levitan.md|Val]] on how to move the just-released **Calle Ocho / Calle Ocho** game's graphical assets onto Omni. Internally duplicated transcript (§12) — facts taken once. ("Тим/Ким" addressed in the room is unclear — most likely Dima by context; recorded as unclear.)
+A ~176-minute working session between [[wiki/people/lena.md|Lena]], [[wiki/people/dmitriy-khandov.md|Dima (Khandov)]], [[wiki/people/alexander-biratka.md|Sasha (Biratka)]] and [[wiki/people/val-levitan.md|Val]] on how to move the just-released **Calle Ocho** game's graphical assets onto Omni. Internally duplicated transcript (§12) — facts taken once. ("Тим/Ким" addressed in the room is unclear — most likely Dima by context; recorded as unclear.)
 
 The substance lives on:
 - [[wiki/topics/game-art-animation-production-pipeline.md]] — the plan-A / plan-B / middle-approach debate (re-export old Rage-Studio videos through Spine/Miranda vs rebuild reusable assets vs port-as-is-what-you-can + properly rework what recurs), the "spike" list (soft-mask transition, video-in-button Pick-Your-Fortune, sorting), symbols-as-Spine-containers, per-game reels/Royals redone as Spine skins, and the alpha+additive limitation.

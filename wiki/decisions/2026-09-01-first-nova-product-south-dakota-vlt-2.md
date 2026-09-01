@@ -6,7 +6,7 @@ aliases: [first NOVA product, first Nova release, SD VLT-2 first on NOVA, South 
 source-count: 0
 status: active
 open-commitments: 0
-open-questions: 1
+open-questions: 0
 ---
 
 # First NOVA product = South Dakota VLT-2 (owner ruling, 2026-09-01)
@@ -32,6 +32,13 @@ Asked "which product is first on NOVA, and does the ~Nov-1 certification target 
 
 The migration experiments through August ran **horizontal-to-horizontal on the South Dakota product**, not on the vertical machine — Val explicitly directed that on Aug-18. The [[wiki/meetings/2026-08-28-dragon-pays-nova-conversion-review.md|Aug-28 Dragon Pays review]] demonstrated exactly that path working on real maths. Choosing South Dakota VLT-2 as the first NOVA product therefore lands on the track the team has actually been proving out, rather than on the vertical product that still needs three new games built from scratch. *(This paragraph is the wiki's inference from the recorded meeting sources, labelled as inference — Val's ruling itself gives no rationale.)*
 
-## Open questions
+## Certification — ruled the same day (owner, 2026-09-01)
 
-- **Does the ~Nov-1 GLI certification target still stand?** The [[wiki/meetings/2026-08-18-rage-nova-migration-experiment-review.md|Aug-18 review]] set "first NOVA platform version to GLI by ~Nov 1" (Val calling it "the plan, not yet a hardened schedule"), and the Aug-14 decision had named **Calle Ocho** as the GLI certification vehicle with approval aimed at ~January. Neither was mentioned on Aug-26 or Aug-28, and the owner's 2026-09-01 ruling answered the product question only. **Still open — asked and not yet answered.** (Owner ruling 2026-09-01.)
+<!-- owner note -->
+Asked whether the ~Nov-1 GLI target still stands and whether Calle Ocho is still the certification vehicle, Val answered: **"no more"** (Calle Ocho), and **"GLI still stands for September 1st, although it is being delayed by two days."**
+<!-- /owner note -->
+
+- **Calle Ocho is NO LONGER the GLI certification vehicle.** The [[wiki/decisions/2026-08-14-first-nova-product-south-dakota-vertical.md|Aug-14 decision]] had named Calle Ocho — already running on NOVA — as the game to submit to GLI to certify the platform, aiming at approval ~January. That is now dead. The [[wiki/decisions/2026-08-03-no-en-masse-rage-to-nova-migration.md|Aug-3 decision]] not to finish or certify the standalone Calle Ocho game is the consistent earlier signal. (Owner ruling 2026-09-01.)
+- **The operative GLI date is September 1 2026, slipping about two days — so ~September 3 2026.** This replaces the "~Nov 1" framing carried from the [[wiki/meetings/2026-08-18-rage-nova-migration-experiment-review.md|Aug-18 review]] in the wiki's forward-looking notes. It matches the Sept-1 GLI submission already recorded for South Dakota VLT-2 on that same Aug-18 call. (Owner ruling 2026-09-01.)
+
+**One thing deliberately NOT inferred.** The owner's answer names September 1 as the GLI date but does not say in so many words whether the separate Aug-18 milestone — "first NOVA *platform* version to GLI by ~Nov 1" — is cancelled outright or simply is not the date he was speaking to. The wiki records the September-1(+2 days) date as current and marks the Nov-1 milestone as superseded-in-framing, **without asserting that a distinct NOVA-platform submission has been cancelled.** Flagged rather than resolved.
