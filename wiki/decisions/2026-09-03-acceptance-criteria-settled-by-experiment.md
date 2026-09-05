@@ -1,0 +1,75 @@
+---
+type: decision
+title: Val concedes the acceptance-criteria disagreement to an experiment (coin-in and a counter), and Alexey Khamin — one person, not two — owns attaching requirements to capabilities and auditing the acceptance criteria
+date: 2026-09-03
+aliases: [acceptance criteria bound to code, Val vs Irina acceptance criteria, coin-in counter experiment, Khamin owns the requirements audit, requirements live long not forever]
+source-count: 2
+status: active
+open-commitments: 2
+open-questions: 3
+---
+
+# The acceptance-criteria disagreement, conceded to an experiment; Khamin owns the audit
+
+The substantive dispute of the [[wiki/meetings/2026-09-03-nova-prose-standard-skills-and-module-contracts.md|Sept 3 2026 follow-up]], between [[wiki/people/val-levitan.md|Val]] and [[wiki/people/irina-shishko.md|Irina Shishko]], over what acceptance criteria are for. It is the same thread as the [[wiki/decisions/2026-08-28-reverse-engineer-acceptance-criteria-and-automate-qa-dragon-pays.md|Aug-28 QA-automation experiment]] and Val's reverse-engineering method [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]].
+
+## Why prose exists at all — the question Evgeny put first
+
+[[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] challenged the whole exercise: going one direction is fine and helps derive capabilities, but "написали код по этим какой билет и прозу к этому коду? И что мы дальше[?] ты просто делаем, зачем она нужна?… сейчас это выглядит просто, как будто она ну лежит, чтобы она там лежала и всё" — it looks as though the prose just lies there. He wanted the team to discuss what can be squeezed out of it — "Это там помощь в автотестах, например" — before committing [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]].
+
+**Val's answer, the first and most important of his two reasons: to make end-to-end tests possible.** "для меня 2 главных резонан[а], почему это делается[.] 1 и самое важное. Это чтобы. Правильно сделать авто тесты? Энтуэнт тесты." He then laid out the correct business order [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]:
+
+- requirements arrive from the market — "у нас поступают с рынка требования";
+- capabilities are born from them — "Что рождается это кейпобиологис[:] мы говорим вот этот продукт… имеет вот 10 кейпопилотис";
+- existing requirements are reused and connected, new ones written — "Много из рекламентов мы можем переиспользовать… начинаем соединяться рекламенты с кейпобилоти, некоторые мы дописываем";
+- giving, illustratively, **~10 capabilities and ~80 requirements with no code yet** — "у нас есть 80 рекламенс, которые подсоединены к этим 10 по пилатис и никакого кода ещё нету";
+- development then produces features closing each requirement — "я ожидаю, что у нас гдето есть 80 фьючерс… Начали делать девелопмент, закрывает каждый фьючер";
+- and at commit time the end-to-end tests run, built point-by-point on each requirement's acceptance criteria — "когда они делают камид… Мы начинаем запускать эту [энд ту энд] тесты. Которые в принципе построены по точечному экцента скрытие каждом из регламентов… если правильно написана проза, которая лежит рядом с котом, то club coud может очень в рылаеблый провести not ENT по этим esptonesprйте."
+
+Evgeny's response: "если бы вы это не сказали, сказал бы я" — if Val had not given that answer he would have given it himself. Val: "я доволен, что Евгений поднял этот вопрос" [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]].
+
+**Vladimir supplied the technical support for it.** He used a state-description approach in the prose — named on the call as transcribed "и рос" / "Ирс i ar c подход" (the exact acronym is unclear in the source; the derived note renders it "IRS-style") — "одна из [лучших] практик[и] для описания документации, то есть просто записано… проза разбита на блоке, в котором указано, если состояние такое, это вот это происходит… с какими то цифрами, если это нужно." His conclusion: "авто тесты это практически то, что нужно для автотестов… по этой прозе составленной будет достаточно просто… написать автотест" [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]].
+
+**And the team signed up.** Val asked whether everyone was "юнайтед" on the approach — Pavel supplied the phrasing, "приверженцы перехода к прозе" — and got agreement. Evgeny added that developers would be signed up regardless, because "Это репозитория будет настроена так, что им нужно будет писать прозу." Val disagreed with that framing: "Я не верю, если [девелоперы] не хотят… людей не заставишь"; and if someone simply will not do it, "просто этот человек не вписывается в коллектив." His position: if everyone finds the approach convenient and right, "я не понимаю, почему нормальные люди, которые у нас работают… скажут, что я не хочу это делать" [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]].
+
+## The disagreement
+
+- **Val: the code in main is written, so its capabilities are closed; what remains open is requirements with acceptance criteria.** "код написан и комитет и находится в мейинбрендж… Это тот код, который якобы был проверен и кейпобила под него закрыты[.] что остаётся открытым… Это рекламент и с аксептонск критерия." And: "мы не должны останавливаться на кейти, мы должны к лоду сказать, что нужный обязательно иметь к этому [ре]кваймент и эксептонскрейте" — written narrowly and pointwise, "они не объёмные, они очень узкие," with one test per acceptance criterion [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]].
+- **Irina's objection: code being written does not mean it is verified.** "код написан, но это не проверено" [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]].
+- **Val went further — the old requirements were written against Rage.** "многие эти рекламы… писались, но они были написаны на рейдж, они не были написаны [под нова]… акцент[но] рекламаты могут совпадать, но эксептос критерия точно не должны совпадать… Они коду никак не привяжутся." He floated closing the old requirements rather than reusing them: "рэйс окончил свою жизнь, и мы сейчас начинаем жизнь от нова. Может быть, нам и не обращать внимание на те рекламенты… начинать их закрывать… а писать новые" [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]].
+- **Irina disagreed on that too.** "или речь [Rage] или нова, вот у нас есть машина, на которой стоит игра, принимает деньги, достаёт деньги, поэтому требование оно остаётся[,] тоже просто реализовано на другом языке" — the requirement survives; only the implementation language changed [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]].
+- **Val's counter: acceptance criteria must fit narrowly to the specific code sitting in the repository today.** "эксцепт критерия должны узко подходить к узкому коду, который находится сегодня в репозитории… Даже если реклаймент описан словами, что нужно протестировать coin in или там какойто каунтер, то эксептон критерий к коду в репозитории не будет [совпадать]" [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]].
+- **Irina's decisive point — deriving criteria from the code destroys the test's ability to find anything.** "мне непонятна цель привязать этот аксептон критерий к какому то кусочку кода. А что нам это даст? Мы должны написать тест, который проверяет эти аксептонс критерии и… если чтото не проверено, оно либо не может быть проверено, либо она нереализована, либо она неправильно реализована, и тогда мы найдём, что не так. А если мы будем, опираясь на код[,] проверять акцептон критерии[,] все сойдется. Все будет правильно" — everything will always agree and always look correct [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]].
+
+## What was decided
+
+- **Val conceded, and bought an experiment rather than ruling.** "Может быть. Я наверно приду к тому, что у меня нету практических знаний[.] давайте попробуем, как это будет работать… Давайте проведем опыт… возьмём кусок кода[,] прозу[,] capobile thi[,] какието рекламенты. И сделаем [энд ту энд тесты]. Давайте возьмём рекламент, который написаны, протестируют в коин, протестировать там каунтер. И посмотрим… как клод справится с тем, чтобы написать тест" — take a piece of code, its prose, capabilities and some existing requirements (the examples: test coin-in, test a counter) and see how Claude copes [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]].
+- **Doing it by hand is not an option.** "Если мы руками это будем писать, у нас создастся огромный баттл[нек], на который нас просто убьёт. Значит, нам нужно опираться на то, что клад код сможет с этим разобраться" [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]].
+- **The skills needed, in Val's words:** "нам сейчас нужно скиллы, которые возьмут… кейпо[билитис] и привяжут уже все реквайменс, которые существуют[,] и предложит те реквайменс, которые не существуют[,] и сделают аудит на эксептон в рекваймент, чтобы они правильно совпадали с кодом" — attach every existing requirement to the capabilities, propose the missing ones, and audit the acceptance criteria against the code [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]].
+- **One owner, not two: [[wiki/people/alexei-khamin.md|Alexey Khamin]].** Pavel proposed him — "я вижу 1 человека которому можно дать это задание[:] это Алексей хамин" — and added [[wiki/people/ivan.md|Ivan]] as capacity allowed once "сдадим соус дакоту[,] сдадим в 3 Джорджия" (South Dakota and V3 Georgia ship). Val cut it to one: "Давайте одного[,] давайте не 2[,] давайте хами[на] над этим" [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]].
+- **Whether the requirements must be ready first was left split.** Irina wanted the capabilities finished and requirements attached before Khamin starts — "чтобы… для лёши готова" — while Pavel disagreed: "Я бы не говорил, что рекламенты уже должны быть готовы. Это как раз, наверное, ему надо определить, насколько рекламенты не соответствуют задуманному" — determining how far the requirements diverge from what was intended *is* his job [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]].
+- **Role boundary restated by Irina, endorsed by Val.** "не он пишет регламент[,] не QA[,] не тот, кто проверяет[,] точно так же, как и не девелопер пишет рекларменсы… Они их реализуют и проверяют." Val: "100%" [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]].
+
+## Two adjacent points of record
+
+- **The Jira requirements are in poor shape.** Pavel: "из существующих регламентов сейчас в джире много… но из всех них хорошо, если один процент будет написан правильно, то есть что… прямо в дискрипшене будет написан акцептно[c]ть критерий, потому что именно последние гдето, наверное, полтора месяца только начали в таком формате писать эти рекваменц[ии]" — perhaps one percent are written properly, because the format is only about a month and a half old. Val thought Claude could fix that fairly easily: "кла[д] довольно легко сможет это поправить" [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]].
+- **"Requirements live forever" corrected to "a long time".** Pavel raised the earlier discussion — "реквименты они живут вечно[.] Что, наверное это, ну неправильно" — and Val corrected the record: "Мне сказали, что они живут вечно. Мы сказали, что они живут долго. Но они в принципе и прожили долг[о]. Они прожили столько, сколько существует ре[йдж]. Ре[йдж] существовала около 20 лет. Мы… это начали писать только 2 года тому назад. И якобы этими рекламентами догнали 18 прошлых лет" — Rage lived about twenty years, JVL only started writing requirements two years ago, nominally catching up the prior eighteen [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]].
+
+## Was the task framed correctly for Igor?
+
+Val questioned his own earlier instruction now that the group had worked the detail out: "я не совсем уверен, что мы правильно дали задачу мительскому, то есть метельский, както грубо подойдёт к этому вопросу[,] ну Сейчас мы уже в детально[м] разобрались, что нам нужно" — [[wiki/people/igor-metelski.md|Igor Metelski]] might approach it crudely. Igor was to report on his QA-automation experiment at the next day's meeting: "метельский завтра сделает доклад о его опыт[е], который он провёл" [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]. That is the [[wiki/decisions/2026-08-28-reverse-engineer-acceptance-criteria-and-automate-qa-dragon-pays.md|Aug-28]] experiment's review, moved from Friday Sept 4 to the Sept 4 expanded meeting.
+
+## Open commitments
+
+- [ ] [[wiki/people/alexei-khamin.md|Alexey Khamin]] — build and test the skills that attach existing requirements to the capabilities, propose the missing requirements, and audit the acceptance criteria against the code — due not fixed; Val insisted on one owner rather than two — [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- [ ] Team — run the acceptance-criteria experiment: take a piece of code, its prose, capabilities and existing requirements (coin-in, a counter) and produce end-to-end tests, to settle the Val–Irina disagreement in practice — due next — [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+
+## Open questions
+
+- Must acceptance criteria bind narrowly to the specific NOVA code in the repository today (Val), or stay implementation-independent so a test can actually expose unimplemented or wrongly implemented behaviour (Irina)? Unresolved by argument; being settled by experiment — [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]] [[raw/Meeting_Notes_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- Should the Rage-era requirements be closed and replaced, or carried forward? Val floated closing them; Irina disagreed that a requirement changes because the language did — [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- Must the capabilities and attached requirements be finished before Khamin starts (Irina), or is assessing their divergence his first task (Pavel)? Not settled on the call — [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+
+## Sources
+- [[raw/Meeting_Notes_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]

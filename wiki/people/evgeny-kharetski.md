@@ -3,8 +3,8 @@ type: person
 title: Evgeny Kharetski
 date: 2025-07-10
 aliases: [Evgeny Kharetski, Evgeny Kharetsky, Evgeny Khoretsky, Kharevsky, Yauheni Kharetski, Kharetsky, Koretski, Koretsky, Korecki, Khorvatsky, Корецкий, Хорватский, Халецкий]
-source-count: 17
-open-commitments: 3
+source-count: 19
+open-commitments: 4
 disambiguation: "LGS developer (payroll "Kharetski Yauheni"), this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
 ---
 
@@ -66,11 +66,26 @@ Val invited him to the [[wiki/meetings/2026-08-28-dragon-pays-nova-conversion-re
 - **He sided with Pavel against pixel-level acceptance criteria.** When Val argued that frame-by-frame behaviour must be expressible in requirements and acceptance criteria because the code expresses it, Evgeny answered "Нет, нет" and offered the alternative framing: "Может быть относительная какаято верстка" — perhaps a relative layout rather than absolute positions. See [[wiki/topics/test-automation-strategy.md]] (Aug-28). [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
 - **He is one of the three names in Val's knowledge-spread rationale** for porting a second game in parallel: "У нас тогда будет хорецкие метельские вишкевич" — Kharetski, Metelski and [[wiki/people/anton-leshkevich.md|Leshkevich]] would all carry the Rage→NOVA conversion knowledge. See [[wiki/decisions/2026-08-28-reverse-engineer-acceptance-criteria-and-automate-qa-dragon-pays.md]]. [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
 
-## Open commitments (Aug 24 2026)
+## Sept 3 2026 — he asked what prose is *for*, then found the two gaps that block automated testing
 
-- [ ] With [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]]: meet locally to agree one prose-writing standard, place it in the standards repository, then run Claude over the existing prose to normalize it and merge the overlapping backend/frontend capability sets into one — due Aug 25–26 2026 for the standard — [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
-- [ ] Finish prose and capabilities for the remaining ~16 LGS modules at one to two per day — due ~1–2 weeks from Aug 24 2026 — [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+At the [[wiki/meetings/2026-09-03-nova-prose-standard-skills-and-module-contracts.md|Sept-3 follow-up]] (Russian) Evgeny made the two most consequential interventions of the call. Val's closing thanks named him: "Евгений[,] хороший [input]." [[raw/Meeting_Notes_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]] [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+
+- **He challenged the purpose of prose outright.** Reverse-engineering to derive capabilities is fine, but "написали код по этим [капабилити] и прозу к этому коду? И что мы дальше[?]… зачем она нужна?… сейчас это выглядит просто, как будто она ну лежит, чтобы она там лежала и всё." He wanted the payoff discussed — "Это там помощь в автотестах, например" — before the team committed. When Val answered that end-to-end tests are the first and most important reason, Evgeny: "если бы вы это не сказали, сказал бы я." See [[wiki/decisions/2026-09-03-acceptance-criteria-settled-by-experiment.md]]. [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- **He relocated the difficulty from the test to the harness.** "Написать тест не проблема… Кусок работы это новый тестовый [harness]," because so much is new — particularly the separate services — and a real run needs the LGS game plus a bill-validator service standing up together. [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- **Then he named the two blockers: no module contracts, and no NOVA machine-side integration repository.** "у нас контрактов… на взаимодействие нового валидатора… с [LGS]… нет"; "У нас нет интеграционного репозитория на новую платформу… на часть, которая устанавливается на машины… он есть на IQ." And the coupling: "интеграционный репозиторий без контрактов работать не будет." Val: "Это очень хороший поинт… это хорошо замечено. Спасибо." Full decision on [[wiki/decisions/2026-09-03-module-contracts-and-nova-integration-repository.md]]. [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- **He took the LGS contracts himself** — "Скорее всего, этим буду заниматься я" — counting devices, the game, SAS, and external server / player control as the entry points, and noting LGS only relays math without processing it ("[LGS] является трансфером просто… транслирует данные, он никак не обрабатывает"). He also volunteered to lead populating the integration repository. [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- **He was candid about his load.** "изза Того, что сейчас тут много работы. Я не уверен, что я сделаю всё, но я постараюсь… сделать максимум[,] там к следующей пятнице." [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- **He insisted the module links be technical files, not prose** — "какието более технические файлы типа джинсонок… Как вот ты объявляешь переменную в коде… потому что иначе Клод может… отойти [от] задуманного" — and Irina and Pavel accepted it. [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- **On adoption he took the mechanical view and Val overruled the framing.** Evgeny: developers "в любом случае будут подписаны. Это репозитория будет настроена так, что им нужно будет писать прозу"; Val: "людей не заставишь," and someone who refuses "просто… не вписывается в коллектив." [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- He had been ill in the days before ("Я заболел просто"), which is why he had been absent. [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+
+## Open commitments (Aug 24 – Sept 3 2026)
+
+- [ ] With [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]]: run Claude over the existing prose to normalize it to the new standard and merge the overlapping backend/frontend capability sets into one — due after the standard is placed; **the standard-authoring half was delivered by Vladimir on Sept 3** — [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]] [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- [x] Finish prose and capabilities for the remaining ~16 LGS modules at one to two per day — due ~1–2 weeks from Aug 24 2026 — **done: at the Sept-3 follow-up Val asked whether LGS was fully documented and Vladimir answered "Да, на данный момент да"; the LGS prose is in main** — [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]] [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 - [ ] Work out with "Andrei" (which Andrei is not stated) whether a repository rule can block a PR that changes code but carries no updated prose folder; test it on one repository first — due unspecified — [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- [ ] Write the LGS contracts — devices, the game, SAS, external server / player control — due aim end of the week of Sept 7 2026 — [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- [ ] Lead the populating of the NOVA machine-side integration repository (module-link JSON, contract references, Claude working rules), with everyone connected to the contracts committing — due the two-week milestone from Sept 3 2026 — [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 
 ## Sources
 
@@ -91,3 +106,5 @@ Val invited him to the [[wiki/meetings/2026-08-28-dragon-pays-nova-conversion-re
 - [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
 - [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
 - [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+- [[raw/Meeting_Notes_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]

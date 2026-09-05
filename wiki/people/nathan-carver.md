@@ -3,7 +3,7 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 26
+source-count: 28
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
 
@@ -93,6 +93,10 @@ On a quick ~25m47s pre-finance-meeting sync with Val ([[wiki/meetings/2026-03-11
 
 On the Payment Hub GL / sales-tax session ([[wiki/meetings/2026-05-12-payment-hub-gl-sales-tax.md]]; with [[wiki/people/igor-donis.md|Igor Donis]], [[wiki/people/val-levitan.md|Val]], [[wiki/people/sean-riley.md|Sean Riley]], [[wiki/people/juan-martinez.md|Juan Martinez]], [[wiki/people/lev-rudky.md|Lev Rudky]]) Nathan came to collect the five GL account codes Payment Hub needs to post into Business Central (two sales-invoice, one customer payment, two AR dimensions) so he could point alpha testing at real codes — Igor to create them in sandbox + production same-day. Nathan initially assumed Payment Hub would signal taxable-vs-non-taxable; Val rejected that and named it a **scope gap in the original Payment Hub design** — Payment Hub asks the accounting host (BC + Avalara) for an invoice, and the host decides taxability, with an optional explicit non-taxable override. Nathan owns **re-architecting Payment Hub** accordingly (each transaction carries a taxable/non-taxable flag, customer-default + line-override) and exploring the MSBC API for per-customer tax-status control at onboarding. Substance on [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (May-12) and [[wiki/topics/jvl-finance-back-office.md]] (May-12). §15.8 clear. [[raw/Meeting_Notes_Payment_Hub_GL_Sales_Tax-May-12-2026.md]]
 
+## Sept 2 2026 — his payment-hub work confirmed deployed
+
+On the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-updates-after-the-show.md|Sept-2 Flex-IQ pre-pilot call]] (Russian; Nathan **not present**), asked for the payment-hub status, [[wiki/people/pavel.md|Pavel Frolov]] answered: "там всё что было сделано [Нейтоном] оно за[]деплоино" — everything Nathan built is deployed. What remained was operational, not development: [[wiki/people/andrei-klimovich.md|Andrei]] to fund the test card and Pavel to re-run the API request so stuck, errored transactions move to pending and retry ACH the next morning. Detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept-2). [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Notes_Payment_Hub_GL_Sales_Tax-May-12-2026.md]]
 - [[raw/Nate_Val_Sync-March-11-2026.md]]
@@ -121,3 +125,5 @@ On the Payment Hub GL / sales-tax session ([[wiki/meetings/2026-05-12-payment-hu
 - [[raw/about_tickets_redemption-gcoam-june-18–2025.md]]
 - [[raw/flex-POS_design-june-19-2025.md]]
 - [[raw/flex_POS-use_case_architecture_requirements-june-19-2025.md]]
+- [[raw/Meeting_Notes_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]

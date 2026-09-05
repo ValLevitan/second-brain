@@ -4,8 +4,8 @@ title: Evgeniy Alekseev
 date: 2025-03-11
 aliases: [Evgeniy Alekseev, Evgeny Alekseev, Zhenya Alekseev, Женя Алексеев, Alekseev]
 disambiguation: "Owner of the main embedded code branch, this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
-source-count: 25
-open-commitments: 1
+source-count: 27
+open-commitments: 2
 ---
 
 # Evgeniy Alekseev
@@ -93,6 +93,17 @@ On the [[wiki/meetings/2026-03-25-freezing-investigation-alekseev-followup.md|Ma
 
 At the [[wiki/meetings/2026-04-28-recycler-architecture-planning.md|Recycler Architecture Planning]] session (Val, Pavel Frolov, Alexander Biratko, Genadi Peari, Irina Shishko) Val opened intending to give Alekseev the Flex-Recycler integration contract — on the assumption he knows the recycler's byte-level protocol "inside and out" because he had implemented (but never tested) the same MEI protocol for FlexPay. Mid-meeting the team discovered the vendor ships a ready-made 2025 Java library (confirmed live on the vendor's GitHub), so no byte-level protocol work is needed. Val concluded **Alekseev is no longer needed for this work** — nothing against him, but the remaining integration is in-house Java/UI work driven with Claude Code. Val also said he did not want Alekseev on the future FP7 IO-board firmware-language change, preferring a younger AI-routing engineer. Detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Apr-28). §15.8 clear (staffing decision + component economics; no compensation). [[raw/Meeting_Transcript_recycler_architecture_planning-April-28-2026.md]] [[raw/Meeting_Notes_recycler_architecture_planning-April-28-2026.md]]
 
+## Sept 2 2026 — cutting board flash with Genadi, and the memory-threshold question referred to him
+
+Reported on the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-updates-after-the-show.md|Sept-2 Flex-IQ pre-pilot call]] (Russian; Alekseev **not present**). [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+
+- **He and [[wiki/people/genadi-peari.md|Genadi Peari]] are swapping one memory chip for another with four times less flash, to cut board cost.** [[wiki/people/pavel.md|Pavel]]: "Геннадий сейчас там занимается с алексеевым тем, чтобы заменить одну микросхему на другую[,] Там в 4 раза меньше памяти[,] она значительн[о]… экономит деньги." Embedded/hardware-adjacent context on Genadi's board work resolves this "Евгений Алексеев" to him per the §4 cluster rule [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- **The remote-firmware memory threshold was referred to him and Genadi.** Pavel: "это мы можем переадресовать этот вопрос геннадию и Евгению алексееву" — at what flash size does remote update become possible, and can that be set as a requirement? See [[wiki/decisions/2026-09-02-flex-port-sas-universal-with-scanner-touch-vs-non-touch.md]] [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+
+## Open commitments (Sept 2 2026)
+
+- [ ] With [[wiki/people/genadi-peari.md|Genadi Peari]] — answer at what flash size remote firmware update becomes possible on the cheap SAS SMIB board, and whether that can be set as a requirement — due unspecified — [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_recycler_architecture_planning-April-28-2026.md]]
@@ -120,3 +131,5 @@ At the [[wiki/meetings/2026-04-28-recycler-architecture-planning.md|Recycler Arc
 - [[raw/flex-pay_flex-port_update-may-15-2025.md]]
 - [[raw/flex-port_flex-pay_smib_update-may-20-2025.md]]
 - [[raw/flex-port_flex-pay_test_plan-may-20-2025.md]]
+- [[raw/Meeting_Notes_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]

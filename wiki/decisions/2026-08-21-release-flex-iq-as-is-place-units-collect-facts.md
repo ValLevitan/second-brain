@@ -3,9 +3,9 @@ type: decision
 title: Release Flex IQ in its current configuration and place 20–50 units to collect factual field data; replay and split are parked, not dismissed
 date: 2026-08-21
 aliases: [Flex IQ release as-is, park replay and split, place IQ units collect facts, IQ competes only with PAX, factual not hypothetical]
-source-count: 2
+source-count: 3
 status: active
-open-commitments: 4
+open-commitments: 3
 open-questions: 3
 ---
 
@@ -39,7 +39,11 @@ At the [[wiki/meetings/2026-08-21-post-goam-show-recap.md|Aug 21 2026 post-GOAM 
 - [ ] Andrei Klimovich — initiate a new InComm test session (request 3 more cards) and create a new location ID without the invalid "N/A" character — due ASAP; run the test only after Pavel's fix ships — [[raw/Meeting_Notes_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
 - [ ] Pavel Frolov — implement and release the fix for the invalid "N/A" character handling — due ~Tuesday implement / ~Wednesday release — [[raw/Meeting_Notes_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
 - [ ] Andrei Klimovich — after a clean test, register the first real IQ location and order its first pack of cards, then keep placing units toward 20–50 — due ~1 week for the first location — [[raw/Meeting_Transcript_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
-- [ ] Andrei Klimovich (with the engineers) — settle the barcode-reading solution (second reader / diagonal-insert test / USB 2D scanner) before the first install — due before the first location — [[raw/Meeting_Transcript_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
+
+## History
+
+- **Sept 2 2026 — the barcode-reading commitment is discharged.** On the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-updates-after-the-show.md|Sept-2 pre-pilot call]] the answer landed as a hardware relocation rather than a second reader: [[wiki/people/genadi-peari.md|Genadi Peari]] had already ordered new boards, due "на следующей неделе", "которые позволят нам вывести сканер на переднюю панель" (Andrei); Val fixed the geometry — rotate 90 degrees, bring it forward, aim it downward not at the player's face — and [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] confirmed he had already scanned JVL's test cards with a test application. The USB 2D scanner and diagonal-insert options were not taken up. Full ruling: [[wiki/decisions/2026-09-02-activate-incomm-cards-by-barcode-on-flex-iq.md]] [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]].
+  - [x] Andrei Klimovich (with the engineers) — settle the barcode-reading solution (second reader / diagonal-insert test / USB 2D scanner) before the first install — **discharged Sept 2 2026** — [[raw/Meeting_Transcript_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]] [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
 
 ## Open questions
 
@@ -50,3 +54,4 @@ At the [[wiki/meetings/2026-08-21-post-goam-show-recap.md|Aug 21 2026 post-GOAM 
 ## Sources
 - [[raw/Meeting_Notes_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
 - [[raw/Meeting_Transcript_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
+- [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]

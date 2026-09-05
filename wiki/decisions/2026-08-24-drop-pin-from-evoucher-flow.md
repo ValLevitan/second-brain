@@ -1,15 +1,16 @@
 ---
 type: decision
-title: Drop the PIN code from the eVoucher flow — a QR voucher is trusted the same way a TITO ticket is
+title: The eVoucher flow runs without a PIN — a QR voucher is trusted the same way a TITO ticket is; from Sept 2 2026 the PIN survives as a per-location switchable option rather than being removed
 date: 2026-08-24
-aliases: [drop the PIN, eVoucher without PIN, no PIN code voucher, TITO trust model, QR voucher security]
-source-count: 2
+aliases: [drop the PIN, eVoucher without PIN, no PIN code voucher, TITO trust model, QR voucher security, PIN as a switchable option, PIN per location]
+source-count: 3
 status: active
 open-commitments: 0
 open-questions: 1
+disambiguation: "Status note: the core ruling (no PIN by default; TITO-style trust) stands. The titular 'drop the PIN' element was softened on Sept 2 2026 — the PIN is kept as a switchable per-location option, not killed. See the Update section."
 ---
 
-# Drop the PIN code from the eVoucher flow
+# The eVoucher flow runs without a PIN
 
 At the [[wiki/meetings/2026-08-24-flex-port-mini-capabilities.md|Aug 24 2026 Flex-Port-Mini session]] (Russian), [[wiki/people/val-levitan.md|Val]] pressed to remove the PIN that today protects a voucher, because the PIN forces a screen and a keypad onto the port and so blocks the cheap [[wiki/decisions/2026-08-24-flex-port-mini-via-second-sas-only.md|Flex-Port-Mini]]. [[wiki/people/pavel.md|Pavel Frolov]] had raised the PIN as the reason a screen is needed at all — "Мы на экране вводим пинкод" — and Val's answer was "Без пинкола" [[raw/Meeting_Transcript_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]].
 
@@ -33,6 +34,16 @@ At the [[wiki/meetings/2026-08-24-flex-port-mini-capabilities.md|Aug 24 2026 Fle
   - The server can also grant **promo credits per location** — Pavel: "если там начислил $50 давать там $5 например промо, которые можно только проиграть, но невозможно… Снять" (playable only, not withdrawable). Val called this "очень очень важно," and it is one reason the SAS connection is mandatory: without SAS "у нас нету выхода на эти на эти счетчики" [[raw/Meeting_Transcript_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]].
 - **A local validation server is still required.** Pavel: "у нас должен быть локальный сервер, который по сути работает как… Бэкофис… Чтобы иметь единую систему валидации. Вот этих вот QR кодов," and codes must be non-sequential and specially encoded. Val's reason: "Для Того, чтобы просто не печатали фейковые QR коды" [[raw/Meeting_Transcript_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]].
 
+## Update — Sept 2 2026: the PIN is kept as an option, not killed
+
+On the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-updates-after-the-show.md|Sept 2 2026 Flex-IQ pre-pilot call]] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] asked directly whether the PIN theme survives ("у нас [и]лет на… текущей реализации flex[ ]pay было с пин кодом на флекс айкью. Эта тема остаётся[?]"). [[wiki/people/val-levitan.md|Val]] softened the Aug-24 position rather than reversing it [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]:
+
+- **Val: "Я бы пинкод не убивал, но я б[ы] сделал бы как фичер"** — I would not kill the PIN, I would make it a feature. [[wiki/people/pavel.md|Pavel]] supplied the word "Option" and reported [[wiki/people/andrei-klimovich.md|Andrei]]'s written position: "пинкод это опция, которая может включаться для лакейшна или выключаться в зависимости от Того, как захотят операторы" — switchable per location as operators want [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]].
+- **The default remains PIN-less, and one path is PIN-less by definition.** Andrei: "если [e]оля создаётся на IQ… там кассиром[,] то никакого пинкода здесь быть не может. То есть это уже без пинкодовая система тогда" — a wallet created on IQ by a cashier cannot carry a PIN [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]].
+- **The hardware cost of keeping the option** is what the Aug-24 ruling had been trying to avoid, and it was re-acknowledged: a PIN forces "тачскрин или какаято физическая панель с кнопками" (Andrei), which erodes the flexibility of the cheap port. Pavel judged a small ~4-inch touchscreen probably cheaper than a button panel. See [[wiki/decisions/2026-09-02-flex-port-sas-universal-with-scanner-touch-vs-non-touch.md]] [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]].
+
+**Net effect:** the trust model and the no-PIN default are unchanged; what changed is that the PIN is no longer removed from the product — it is a per-location switch, and Flex-Port variants must be priced with that in mind.
+
 ## Open questions
 
 - Reliable optical read of a QR shown on a phone screen. Val insisted the sensor must read it "100% всегда" despite glare or low screen brightness, comparing it to airport and customs scanners; Pavel thought JVL's existing scanner should manage it if its illumination is switched off — "Главное, чтоб он бликий не создавал" — and Val still asked for "чтото более надёжное," suspecting off-the-shelf solutions already exist. Unresolved — [[raw/Meeting_Transcript_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
@@ -40,3 +51,4 @@ At the [[wiki/meetings/2026-08-24-flex-port-mini-capabilities.md|Aug 24 2026 Fle
 ## Sources
 - [[raw/Meeting_Notes_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
 - [[raw/Meeting_Transcript_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
+- [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]

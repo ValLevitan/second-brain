@@ -3,8 +3,8 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena]
-source-count: 70
-open-commitments: 3
+source-count: 72
+open-commitments: 4
 ---
 
 # Genadi Peari
@@ -248,6 +248,19 @@ On the [[wiki/meetings/2026-08-24-flex-port-mini-capabilities.md|Aug-24 Flex-Por
 - **He expects free hardware to multiply uptake** — "Было бы гораздо больше, если бы все бесплатно всё это забирать… Наверно было бы в 5 раз больше" — and read the payback as fast: "это будет окупаться за 2 недели. Наверное, это почти фри." [[raw/Meeting_Transcript_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
 - **AI-agent adoption (warm-up segment).** He reported being delighted the previous week: an "Andrei" (which Andrei is not stated) showed him "пару фокусов как как агентов настраивать"; he mastered it "буквально за день" and has used it for GitHub work and for asking how to structure "MSBC" (recorded as transcribed; not expanded in the source). This follows Val's Aug-6 push for him to build a hardware "CxO" — see [[wiki/topics/ai-assisted-development.md]] (Aug-24). [[raw/Meeting_Transcript_Flex_Port_Mini_Capabilities_Preamble-August-24-2026.md]]
 
+## Sept 2 2026 — the new boards that unblock the Flex-IQ pilot (reported; Genadi not present)
+
+On the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-updates-after-the-show.md|Sept-2 Flex-IQ pre-pilot call]] (Russian; Genadi **not present**) two pieces of his work were reported as the hardware path for the pilot. [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+
+- **He solved the barcode-scanner placement and ordered the boards.** [[wiki/people/andrei-klimovich.md|Andrei]]: "Геннадий уже придумал. Мы ждём на следующей неделе новые борды, которые позволят нам вывести сканер на переднюю панель." The same boards are to carry the printer **switcher** that passes Mutha Goose's printer signal through Flex-IQ when IQ is active and disconnects when it is not — agreed between Andrei and Genadi, along with rolling the harness back to version 1. See [[wiki/decisions/2026-09-02-activate-incomm-cards-by-barcode-on-flex-iq.md]] and [[wiki/decisions/2026-09-02-implicit-consent-and-mandatory-printed-receipt.md]] [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- **He is cutting board flash cost with [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]].** [[wiki/people/pavel.md|Pavel]]: "Геннадий сейчас там занимается с алексеевым тем, чтобы заменить одну микросхему на другую[,] Там в 4 раза меньше памяти[,] она значительн[о]… экономит деньги" — the follow-through on the flash-reduction direction recorded on [[wiki/decisions/2026-08-24-flex-port-mini-via-second-sas-only.md]] [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- **The memory-threshold question was referred to him.** Pavel, asked at what memory size remote firmware update becomes possible: "это мы можем переадресовать этот вопрос геннадию и Евгению алексееву… Я этим вопросом не занимался" [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- **Val wants him on the Monday follow-up.** Pavel: "Нам Геннадий не нужен на том митинге[?]"; Val: "Да нужен" [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+
+## Open commitments (Sept 2 2026)
+
+- [ ] With [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] — answer at what flash size remote firmware update becomes possible on the cheap SAS SMIB board, and whether that can be set as a requirement — due unspecified — [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+
 ## Open commitments (Aug 24 2026)
 
 - [ ] Source and spec a cheap non-touch information display for Flex-Port-Mini and confirm flash/memory sizing so the build lands near $40–45 — due unspecified — [[raw/Meeting_Notes_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
@@ -324,3 +337,5 @@ On the [[wiki/meetings/2026-08-24-flex-port-mini-capabilities.md|Aug-24 Flex-Por
 - [[raw/Meeting_Notes_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
 - [[raw/Meeting_Transcript_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
 - [[raw/Meeting_Transcript_Flex_Port_Mini_Capabilities_Preamble-August-24-2026.md]]
+- [[raw/Meeting_Notes_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]

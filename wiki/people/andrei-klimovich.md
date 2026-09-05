@@ -4,8 +4,8 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 45
-open-commitments: 21
+source-count: 47
+open-commitments: 28
 open-questions: 0
 ---
 
@@ -142,6 +142,7 @@ Five older sources (staged 2025-03-29, internally dated 2023–2024) place Andre
 
 ## Discharged commitments
 
+- [x] Andrei Klimovich — settle the barcode-reading solution for wrapped InComm cards before the first Flex-IQ install (raised Aug 21 2026) — **discharged Sept 2 2026**: the answer is the existing scanner moved to the front panel on Genadi's newly ordered boards, rotated 90 degrees and aimed downward; Chudinov had already scanned JVL's test cards successfully. [[raw/Meeting_Transcript_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]] [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
 - [x] Andrei Klimovich — finish hiring a cheap online account manager and bring candidate(s) to Val next week — **discharged Feb 27**: presented three candidates (Sam Mamedov, Egor, Charlotte) to Val with a recommendation. [[raw/recap_with_andrei_klimovichonlineecho212025_2025-02-01.md]] [[raw/meeting_summary_andrei_klimovich-Feb-27-2025.md]]
 
 ## June 18 2025 — ECHO marketing progress report
@@ -245,6 +246,30 @@ On the [[wiki/meetings/2026-08-27-flex-iq-multiple-clearinghouse-selection.md|Au
 - **He asked the two scoping questions.** Whether to start approaching other clearing houses — Val: "No… Not for now. We're fine for now." And whether to unwind the capability into requirements now "or let's just make sure that it's not lost"; Val's answer is not clearly audible on the recording (the transcript records only "Val." then "Yeah, yeah"), so it is left unresolved here. He undertook to create the capability, "maybe a set of capabilities, but again, it's very minimal as for now." [[raw/Meeting_Transcript_Flex_IQ_Multiple_Clearinghouse_Selection-August-27-2026.md]]
 - **He set the same-day follow-up on his proposed printer and dispenser features** for 4:00 PM, needing preparation time; Val agreed and said he had sent the invite. [[raw/Meeting_Transcript_Flex_IQ_Multiple_Clearinghouse_Selection-August-27-2026.md]]
 
+## Sept 2 2026 — runs the Flex-IQ pre-pilot punch list and opens the closed-loop wallet question
+
+Andrei convened and chaired the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-updates-after-the-show.md|Sept-2 pre-pilot call]] (Russian, 8:03–9:17 AM ET), having posted the change list to the chat beforehand. His stated goal: agree what it takes to fix each item, what the difficulties are, "и когда мы сможем запустить этот [пилот]" [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]].
+
+- **He owns all three pre-pilot changes** — barcode activation ([[wiki/decisions/2026-09-02-activate-incomm-cards-by-barcode-on-flex-iq.md]]), implicit consent plus a mandatory printed receipt ([[wiki/decisions/2026-09-02-implicit-consent-and-mandatory-printed-receipt.md]]), and the simplified flow with its screen naming published to Confluence [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]].
+- **He settled the reconciliation objection on the spot.** Against Chudinov's and Pavel's worry that dropping the 16-digit number would block incident investigation, he gave the two answers that closed it: in real life the player calls InComm and "локации до этого никакого дела"; and "на карточке физически находится баркот ровно такой же, который находится на конверте," so JVL still holds enough identifiers after activation for an administrator to recognise the card. Pavel: "Все вопрос снят" [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]].
+- **He de-risked Val's parked Mutha-Goose-exit warning** with the observation that "процентов на 80" of the changes under discussion carry over to a port-based setup anyway [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]].
+- **He framed the strategic half** — how Flex-IQ should work with Flex-Ports in a closed loop — around the carrier problem ("нашему [и]волюту нужен carr[i]er какойто носитель"), presented two solutions (cashier-issued at IQ; a slim floor printer kiosk with IQ reduced to redemption), and rejected Pavel's pre-printed-ticket stack on three grounds, the decisive one being that nobody owns restocking them: "А если тикетов не будет на локации, проблема напрямую адресуется нам" [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]].
+- **He volunteered the multiple-card-provider pillar** and Val endorsed it immediately — see [[wiki/decisions/2026-08-27-flex-iq-multiple-clearinghouses-selectable-per-device.md]] (Sept-2 update) [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]].
+- **He discovered mid-call that wallets are still stored locally** — "Я только сейчас на самом деле осознал… никакого клауда нету" — and ruled it closed in the same breath: "Это даже не обсуждается, это должно быть так." See [[wiki/decisions/2026-09-02-e-wallets-move-to-the-cloud.md]] [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]].
+- **He was sent to Texas straight after his vacation and objected on substance, not willingness:** "я хоть сейчас[,] вопрос в том… чем мне туда ехать[,] у нас пока на руках ничего нету." Unresolved. See [[wiki/decisions/2026-09-02-priorities-iq-ports-flex-pay-recycler-texas-on-wallets.md]] [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]].
+- **He set the plan B himself** — ship on the current board if the new ones slip, accepting that an IQ failure blocks Mutha Goose — and accepted Val's override of his proposed Friday follow-up to Monday despite the public holiday ("Понятно. Вопрос снят") [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]].
+
+## Open commitments (Sept 2 2026)
+
+- [ ] Test the new Flex-IQ build first thing Tuesday, Monday being a public holiday on his side — due Tuesday — [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- [ ] Put enough money on the test card ahead of the ACH retry, paired with Pavel's API re-run — due same day — [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- [ ] Re-verify barcode card activation with InComm by activating a couple more cards — due unspecified, ahead of the pilot — [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- [ ] Update the receipt mock-up: replace the four digits of the 16-digit number with four digits of the barcode number — due unspecified — [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- [ ] Send the team his three-variant Flex-Port screen matrix — due right after the call — [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- [ ] Post the meeting transcript into the chat and schedule Monday morning's follow-up at the same time, including [[wiki/people/genadi-peari.md|Genadi Peari]] — due same day — [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- [ ] Travel to Texas straight after his vacation to open the recycler-plus-ports replacement market — due after vacation — [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- [ ] Take over the [[wiki/organizations/island-park.md|Island Park]] contact from Val and work with them on giving JVL's API for industry accounting reports — due "in the future"; flagged by Val as not current work — [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+
 ## Open commitments (Aug 26–27 2026)
 
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — send InComm the UX screenshots and a video of the full operation of the POS and kiosk for Flex IQ and Flex Port, for InComm's UX certification — due before the follow-up in the coming week — [[raw/Meeting_Notes_InComm_Skill_Pay_ATM_Guidance-August-26-2026.md]] [[raw/Meeting_Transcript_InComm_Skill_Pay_ATM_Guidance-August-26-2026.md]]
@@ -255,7 +280,6 @@ On the [[wiki/meetings/2026-08-27-flex-iq-multiple-clearinghouse-selection.md|Au
 
 - [ ] Initiate a new InComm test session (three more cards) on a new location ID without the invalid "N/A" character; run it only after Pavel's fix ships — due ASAP — [[raw/Meeting_Notes_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
 - [ ] After a clean test, register the first real Flex-IQ location and order its first pack of cards, then keep placing units toward Val's 20–50 target — due ~1 week for the first location — [[raw/Meeting_Transcript_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
-- [ ] Settle the barcode-reading solution for wrapped InComm cards with the engineers before the first install — due before the first location — [[raw/Meeting_Transcript_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
 - [ ] With [[wiki/people/felipe-miranda.md|Felipe]]: visit a nearby location after work to observe how PAX handles wrapped gift cards, and build a direct relationship (including banking information) with the pilot locations — due Aug 21 2026 / ongoing — [[raw/Meeting_Notes_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]] [[raw/Meeting_Transcript_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
 
 ## Sources
@@ -305,3 +329,5 @@ On the [[wiki/meetings/2026-08-27-flex-iq-multiple-clearinghouse-selection.md|Au
 - [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
 - [[raw/Meeting_Notes_Flex_IQ_Multiple_Clearinghouse_Selection-August-27-2026.md]]
 - [[raw/Meeting_Transcript_Flex_IQ_Multiple_Clearinghouse_Selection-August-27-2026.md]]
+- [[raw/Meeting_Notes_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]

@@ -4,8 +4,8 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 34
-open-commitments: 4
+source-count: 36
+open-commitments: 7
 open-questions: 0
 ---
 
@@ -54,6 +54,23 @@ On the Russian follow-up ([[wiki/meetings/2025-03-25-cms-requirements-review-wor
 
 - **Apr 1:** the standup's "Дима" (backend context — consistent with the Mar-25/Mar-28 attributions) reported his protocol document ready ("немножко там подфикшу"), sized taking it into work at **~a week of full load**, proposed **mirroring all SAS traffic onto FlexPay** for per-machine debugging ("Дима это будет всю базу писать" — he writes the FlexPay base for it), and was to write up the **stories** with Pavel (cash-out + SAS-command logging commands for the WSS protocol); interface changes with "Игорь" possible "по мере поступления." Alekseev studying "документы, которые Дмитрий приготовил" also evidences the Mar-28 SAS-command-list commitment delivered (moved to History below). See [[wiki/meetings/2025-04-01-flexport-flexpay-dev-update.md]]. [[raw/flex-port_pay_dev_update-april-1-2025.md]]
 - **Apr 7:** on the architecture meeting the WSS protocol commands between SMIB and FlexPay were "probably… already done in terms of implementing the commands. I assume by Dima, right? Okay, great" — pending testing/interoperability with Evgeny. [[raw/flex_pay_tito_smib_port-april7-2025.md]]
+
+## Sept 2 2026 — the Flex-IQ pre-pilot code owner and the remote-update builder
+
+Present on the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-updates-after-the-show.md|Sept-2 Flex-IQ pre-pilot call]] (Russian) under the speaker label **"Dzmitry Chudzinau"** — a Belarusian-spelling variant already carried in his aliases. Backend/terminal-software context resolves it to him. [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+
+- **He carries all three pre-pilot IQ changes in code.** "по всем трём задачам с точки зрения кода мы можем сделать это вот буквально даже до конца недели. Единственный момент… С железом" — hardware is the only sticking point; his fallback is to build a version and let Andrei run it on a test terminal [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- **He raised the objection that shaped the barcode ruling** — that the barcode carries no card number "в привычном понимании пользователя," so the last-four-digits convention used by Visa/Mastercard would be unavailable and incident investigation hampered. Andrei's answer (same barcode on card and envelope; the player calls InComm, not the location) settled it; Chudinov: "Хорошо." See [[wiki/decisions/2026-09-02-activate-incomm-cards-by-barcode-on-flex-iq.md]] [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- **He had already proved the scan works** — a test application scanning JVL's test cards, "всё работает" — leaving only "Доработать функционал вместо свайпа сканирования" [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- **He owns the remote software update, and reported it harder than expected** because the team chose to go through Amazon, pulling in terminal-side and Kubernetes work "по всем слоям." CI publishes builds to Amazon storage with fast download and no GitHub access needed; an operator role on JVL's transactional dashboard lists terminals and what is installed, selects terminals and the latest or a chosen bundle, deploys online, and forces or schedules a reboot, "зачастую ночью." He built it deliberately extensible to future terminals "типа flex pay, [recycler]," and will test rollback. Detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept-2) [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]] [[raw/Meeting_Notes_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- **He named wallet storage as the one open design question blocking him:** "Локальное хранение [и]летов, либо глобальное облачное, потому что все остальные решения у нас так или иначе уже есть" — printer and Flex-Port work exist and only need integrating. See [[wiki/decisions/2026-09-02-e-wallets-move-to-the-cloud.md]] [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- **On firmware-update frequency** he judged a change to SAS itself unlikely and JVL-side implementation more likely — "скорее мы решим доимплементировать недостающие команды" — with any new statistics, counters, equipment or capability requiring an update [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+
+## Open commitments (Sept 2 2026)
+
+- [ ] Implement all three Flex-IQ pre-pilot changes in code — barcode activation, ticket-receipt printing, flow/screen cosmetics — due end of week — [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- [ ] Finish the remote software update and begin testing it, rollback to the last working version included — due finish end of week, test the following week — [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- [ ] Design the wallet-storage system for the cloud model — due unspecified — [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
 
 ## Open commitments
 
@@ -179,3 +196,5 @@ On the [[wiki/meetings/2026-08-24-nova-lgs-prose-standard-checkpoint.md|Aug-24 p
 - [[raw/flex-port_flex-pay_test_plan-may-20-2025.md]]
 - [[raw/Meeting_Notes_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
 - [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- [[raw/Meeting_Notes_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]

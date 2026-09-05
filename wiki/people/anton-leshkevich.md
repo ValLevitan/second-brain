@@ -2,10 +2,10 @@
 type: person
 title: Anton Leshkevich
 date: 2025-01-21
-aliases: [Anton Leshkevich, Anton, Antoine, Anton Dmishkevich, Дмишкевич, Дмишкевичем, Liashkevich, Anton Liashkevich, Lishkevich, Anton Lishkevich, Лишкевич]
+aliases: [Anton Leshkevich, Anton, Antoine, Anton Dmishkevich, Дмишкевич, Дмишкевичем, Liashkevich, Anton Liashkevich, Lishkevich, Anton Lishkevich, Лишкевич, Rishkevich, Anton Rishkevich, ришкевич, Vishkevich, вишкевич, брижке]
 disambiguation: "Minsk engineer (Omni/RGS), this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 25
-open-commitments: 2
+source-count: 27
+open-commitments: 3
 open-questions: 0
 ---
 
@@ -97,11 +97,24 @@ At the [[wiki/meetings/2026-08-28-dragon-pays-nova-conversion-review.md|Aug-28 D
 - **Which game: a line game, not keno.** [[wiki/people/irina-shishko.md|Irina]] asked that the second game also be a line game "не кена" (not keno); Val agreed — "я бы сейчас я бы делал бы лайн с геймс" — noting keno will get converted eventually either way, and that Anton has already done keno ("вишкевич сделал кино"). [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
 - **He inherits Igor's groundwork, and is expected to add to it.** Pavel: "те наработки, которые Игорь сделал их какимто образом передать Антону." Val treated that as a feature rather than overhead — "Антон внесет свои новшества еще в то, что Игорь сделал… а потом поделиться ещё раз опытом. У нас тогда будет хорецкие метельские вишкевич" — putting Anton alongside [[wiki/people/evgeny-kharetski.md|Kharetski]] and [[wiki/people/igor-metelski.md|Metelski]] as the three people who will carry the conversion knowledge. [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
 
-## Open commitments (Aug 28 2026)
+## Sept 3 2026 — his Rust modules each need prose, a capability and a contract; he takes the device-side contracts
+
+At the [[wiki/meetings/2026-09-03-nova-prose-standard-skills-and-module-contracts.md|Sept-3 prose/contracts follow-up]] (Anton **not present**; transcribed "Антон ришкевич" and "Антона брижке" — two further garbles of Leshkevich, added to aliases). [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+
+- **His Rust modules are the unit of the next block of work.** Pavel: "есть модули, которые Антон ришкевич писал вот на[ ра]сте. Для каждого из этих репозито[риев] нам надо сейчас пройти и создать[:] проза плюс capobility. И вместе с этим создать для… этого модуля контракт." Count: "Наверное 5 или 6 на данный момент," after which "этих 5[–]6 компонентов надо будет уже встраивать в интеграционн[ый] репозитори[й] и сборки игры." Val: "это является ядром следующего [undertaking]." [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- **[[wiki/people/evgeny-kharetski.md|Evgeny]] assigned him the device-side contracts and called it the easy part** — "он контракт… напишет… это самое лёгкая часть… он это сделает, да, без проблем и лучше это ему делать" — with Evgeny taking the LGS side himself: "Антон, сделай там со своей стороны[,] с[о] стороны девайсов." [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- **He was also floated for the games-side contracts** (Irina: "либо Антон, либо… Игорь… да Данил"), which was not settled. See [[wiki/decisions/2026-09-03-module-contracts-and-nova-integration-repository.md]]. [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- **Val expanded the next day's (Sept 4) meeting to include him**, alongside Vladimir, Evgeny and a "Dima": "я расширил этот митинг. Я ещё пригласил диму и Антона брижке[вича]." [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+
+## Open commitments (Aug 28 – Sept 3 2026)
 
 - [ ] [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — port a second (line) game from Rage/South Dakota to NOVA in parallel, building on Igor Metelski's converter work, so the multi-game game-select screen can be tested — due unspecified (parallel to Igor's QA experiment) — [[raw/Meeting_Notes_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]] [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+- [ ] Write prose + a capability + a contract for each of his 5 or 6 Rust device modules — due the two-week milestone from Sept 3 2026 — [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]] [[raw/Meeting_Notes_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 
 ## Sources
+
+- [[raw/Meeting_Notes_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 
 - [[raw/Meeting_Notes_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
 - [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]

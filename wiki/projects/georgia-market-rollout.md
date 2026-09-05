@@ -3,9 +3,9 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing, GOAM, ILERS, ILAS report, show special, Mega Hit Blaze, sales channel report, Bulldog Gaming, ARC]
-source-count: 136
+source-count: 138
 open-commitments: 40
-open-questions: 21
+open-questions: 22
 ---
 
 # Georgia market rollout (Peach1234 / DLKG)
@@ -302,6 +302,15 @@ Alongside the Feb-9 Diamond partnership, JVL prepared a set of **operator-profil
 - **Nebraska cross-jurisdiction (Inamax).** Inamax CFO Ray Cosentino is interested in **testing JVL units in Nebraska under Inamax's Nebraska skill software**; Felipe has already introduced Ray to [[wiki/people/juan-martinez.md|Juan]] by email to keep that trial coordination moving — a parallel to the broader Nebraska-vertical work on this page. [[raw/georgia_operator_briefing_Inamax_Ultra.md]]
 - **Relationship / support burden.** JVL's relationships across the three are positive; support load tracks operator maturity — **AKS ~70–90 inbound service calls (2025–26)**, **Diamond ~60–80 (2025–26)**, **Inamax ~10 (2024–25, mostly hard resets)**, the last a notably low burden (JVL also sent technician Andres to Inamax's warehouse twice in 2024 for CPU-board fixes). The key open executive item is the **Inamax constraint** — why its JVL purchasing stays limited relative to its large footprint despite no performance complaints, gated by ops-manager Ashley Gunther's product approval (tracked on the [[wiki/organizations/inamax-ultra.md|Inamax / Ultra]] page). [[raw/georgia_operator_briefing_AKS.md]] [[raw/georgia_operator_briefing_Diamond_Amusement.md]] [[raw/georgia_operator_briefing_Inamax_Ultra.md]]
 
+## Sept 2 2026 — a direct VPN link into Georgia, and the Georgia-specific constraints on the Flex-IQ pilot
+
+Three Georgia-specific items came out of the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-updates-after-the-show.md|Sept-2 Flex-IQ pre-pilot call]] (Russian). [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+
+- **A direct VPN channel from Georgia into the team's office has just been initiated.** [[wiki/people/pavel.md|Pavel]]: "мы сейчас инициировали прямой VPN канал из [Джорджии] к нам сюда в офис, чтоб мы могли легко к вашему оборудованию подключаться" — so the switcher work on the new boards can be done remotely, possibly against a bench set up in Georgia. This is the same remote-work problem the team hit on the CPI recycler a week earlier (Aug-26, above), now with a concrete link. [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- **The Flex-IQ wording pass removes terms best not used in the market.** [[wiki/people/andrei-klimovich.md|Andrei]]: "частичные изменения по вордингам[,] там были местами ошибки упоминания терминов, которые в go лучше не упоминать" — cosmetic, but "её лучше доделать, чтобы смело заходить на локацию." *(The transcript renders the place as "go"; the derived note reads it as Georgia — recorded as transcribed, not asserted.)* See [[wiki/decisions/2026-09-02-implicit-consent-and-mandatory-printed-receipt.md]] [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]] [[raw/Meeting_Notes_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- **A hypothesis against the phone-based wallet, specific to Georgia players.** Andrei: "есть гипотеза[,] то, что игроки. Конкретно в штате Джорджия не очень расположены к использованию своего смартфона для игр по разным причинам." Val's response was to record that nobody knows, and to keep moving on printed carriers meanwhile. Detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept-2). [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- **§15.8:** clear. **§15 #9:** clear.
+
 ## Open commitments
 
 - [ ] [[wiki/people/efim-podvoiski.md|Efim Podvoiski]] — add the lower (~88%) RTP option to the 15 Georgia COAM games that lack it and hand off for testing, so it ships inside the V3 release — due before the Sept 1 2026 release — [[raw/Meeting_Notes_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]] [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
@@ -457,6 +466,8 @@ A ~2h43m JIRA portfolio review ([[wiki/meetings/2026-05-13-schedule-review.md|Sc
 - [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — complete V3 by Monday morning North-American time — due Mon Aug 17 2026 (AM NA time) — [[raw/Meeting_Notes_Flex_Recycler_Cycle_Test_MEI_Rework-August-14-2026.md]]
 
 ## Open questions
+
+- Are Georgia players in fact disinclined to use their own phone for play? Stated by Andrei as a hypothesis on Sept 2 2026, untested; it is the main obstacle to the phone-based e-wallet direction. — [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
 
 - When, if ever, will the Georgia Lottery ([[wiki/people/joe-kim.md|Joe Kim]]) issue clearer guidance that would permit ATM / cash-out functionality tied to COAM redemption? InComm's posture may change in roughly two to five years ("three to five years from now, who knows"; "Two years from now, they may see things differently"), but is firm for 2026–27. (Aug-26.) [[raw/Meeting_Notes_InComm_Skill_Pay_ATM_Guidance-August-26-2026.md]] [[raw/Meeting_Transcript_InComm_Skill_Pay_ATM_Guidance-August-26-2026.md]]
 - Are the fixed-bug new-version games actually out-performing the older software? Felipe: "we have not seen those new version games do any better than the others… The numbers are not… even better than how they were with the 19 and 1776 software, which were the first softwares we had," and "We need new games for the dual as well." Unresolved. (Aug-21.) [[raw/Meeting_Transcript_Georgia_Machine_Sales_Strategy_Post_GOAM-August-21-2026.md]]
@@ -795,7 +806,7 @@ On the [[wiki/meetings/2026-08-21-multiplayer-cabinet-concepts-nova-strategy.md|
 
 - **The recycler reframed as a "redemption center with built-in ATM."** Val's pitch to operators, small to large: your **bill acceptors and printers today are a cost center**; the recycler / ATM makes them a **profit center** via **$3–$5 per-transaction ATM fees** plus **recurring monthly revenue (~$65–$100/month, "nobody even flinched")**. He said operators "are in awe" and treat it as a **killer application** for Georgia. When he pitched **Arc**'s COO it took ~3.5 minutes before the COO paused and pulled in the company's **CEO and CFO** mid-pitch. [[raw/Meeting_Transcript_Multiplayer_Cabinet_Concepts_NOVA_Strategy-August-21-2026.md]]
 - **Market read.** Georgia operators are keen to move **away from TITO and bill acceptors** toward a **wallet / e-wallet** solution (running remote 5.9-machine locations on cash is expensive); Val would keep the peripheral dashboard for the first introduction and **let the market pull JVL toward e-wallet** rather than forcing it. He sees the combination of **Flex IQ + Flexport + SMIBs (possibly given away free) + recycler/ATM + the future back-to-back slant-top** positioning JVL for "substantial business" in what he framed as a **~45,000-machine market**, putting JVL **"within three years of a smashing success."** [[raw/Meeting_Transcript_Multiplayer_Cabinet_Concepts_NOVA_Strategy-August-21-2026.md]]
-- **V3 vs NOVA for Georgia.** Georgia's V3 stays on the current platform (Sept 1 target); NOVA would be a later, "V4-like" Georgia release (per the [[wiki/decisions/2026-08-14-first-nova-product-south-dakota-vertical.md|Aug-14 sequencing]]). The Georgia **trial "looks solid despite three bugs found,"** and Val wants **LTE modems in every machine** for service/performance/player intelligence. The team is awaiting **Felipe and Andrei's** report on the Georgia V3 software from the show. [[raw/Meeting_Transcript_Multiplayer_Cabinet_Concepts_NOVA_Strategy-August-21-2026.md]]
+- **V3 vs NOVA for Georgia.** Georgia's V3 stays on the current platform (Sept 1 target — *execution update, owner 2026-09-05: the **Eclipse** lab submission slipped to **September 15 2026**; the Sept-1 plan of record is unchanged, the revised actual is recorded beside it*); NOVA would be a later, "V4-like" Georgia release (per the [[wiki/decisions/2026-08-14-first-nova-product-south-dakota-vertical.md|Aug-14 sequencing]]). The Georgia **trial "looks solid despite three bugs found,"** and Val wants **LTE modems in every machine** for service/performance/player intelligence. The team is awaiting **Felipe and Andrei's** report on the Georgia V3 software from the show. [[raw/Meeting_Transcript_Multiplayer_Cabinet_Concepts_NOVA_Strategy-August-21-2026.md]]
 
 ## Aug 21 2026 — post-GOAM machine-sales strategy: the show log, ARC and Bulldog, ILERS footprint-only, and a September forecast Val would not take to the bank
 
@@ -1009,3 +1020,5 @@ Felipe screen-shared his prospect pipeline organised into monthly "waves," each 
 - [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
 - [[raw/Meeting_Notes_InComm_Skill_Pay_ATM_Guidance-August-26-2026.md]]
 - [[raw/Meeting_Transcript_InComm_Skill_Pay_ATM_Guidance-August-26-2026.md]]
+- [[raw/Meeting_Notes_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]

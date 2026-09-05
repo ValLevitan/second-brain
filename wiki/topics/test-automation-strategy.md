@@ -2,9 +2,9 @@
 type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
-aliases: [test automation, testing architecture, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction, Figma to React, Vite, Claude Code review loop, acceptance criteria]
-source-count: 29
-open-commitments: 3
+aliases: [test automation, testing architecture, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction, Figma to React, Vite, Claude Code review loop, acceptance criteria, two test warehouses, frozen test cases, test harness, test registry]
+source-count: 33
+open-commitments: 5
 open-questions: 1
 ---
 
@@ -318,8 +318,38 @@ The clearest statement yet of Val's position, and the strongest technical object
 
 - How to test animation dynamics that cannot be written pixel- or frame-accurately into acceptance criteria. Pavel's event-by-event comparison against the original running on real hardware is the candidate answer; Igor's experiment is meant to test it. [[raw/Meeting_Notes_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]] [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
 
+## Sept 1 2026 — two test warehouses, and the gap-filling loop for what the criteria miss
+
+On the [[wiki/meetings/2026-09-01-nova-prose-qa-automation-check.md|Sept-1 check-back]] (Russian) the group worked out what happens to the *existing* manual test estate once Claude starts writing tests from acceptance criteria. The ruling is [[wiki/decisions/2026-09-01-freeze-existing-manual-test-cases.md]]. [[raw/Meeting_Notes_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]
+
+- **Val's recommendation: freeze the old hand-written tests where they are, put Claude's tests in a new warehouse, and count how often anyone goes back.** His expectation: "в очи[нь] в очень короткое время" — very soon, never. Irina agreed nobody would go back ("Уже никто туда не пойдёт"); [[wiki/people/alexander-biratka.md|Alexander Biratko]] argued for a one-time overlap analysis first, and was heard but not adopted. [[raw/Meeting_Transcript_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]
+- **The acknowledged first-phase gap.** [[wiki/people/pavel.md|Pavel]]: even written capabilities and "требования с акцепт[анс] критериями не будут покрывать всё то, что на данный момент [QA] держат в своей голове или там в своих тесткейсах." Val: "Конечно, но меня это не пугает." [[raw/Meeting_Transcript_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]
+- **Pavel's loop for closing it — generate the requirement at the same time as the test.** "мы имеем набор какихто автоматических тестов. Мы понимаем, что чтото у нас не покрыто… [можно] сказать искусственному интеллекту[:] да[,] пиши тесты на вот это[,] и[,] при этом[,] создай нам новые требования под это." The same loop runs from the field: "если у нас приходит какойто ба[г], который у нас не был отражён в тестах… мы для него тоже должны будем соответствующие… требования создать[,] вернуться назад… акт[еп]тос критерии[,] реквиме[нт,] соответствующий тест[,] чтобы в дальнейших тестах всё это покрывалось." [[raw/Meeting_Transcript_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]
+- **The AI must manage the tests, not just write them.** Pavel: "задача здесь в том, чтобы искусственный интеллект писал эти тесты и сам занимался менеджментом этих тестов" — and, against Irina's "писал и забывал," he was explicit that a base is required: "Написать и запустить[—] это всегда будет работать, а надо иметь базу. Поэтому я и говорю[,] менеджмент теста." [[raw/Meeting_Transcript_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]
+- **What already exists on the game side.** Irina noted the tests "которые Данил смотрел на [Calle Ocho — transcript 'калёочи'], который писал саша" are end-to-end tests for the game, and asked how those join up with what [[wiki/people/igor-metelski.md|Igor]] produces. [[raw/Meeting_Transcript_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]
+
+## Sept 3 2026 — the hard part is the harness, not the test
+
+At the [[wiki/meetings/2026-09-03-nova-prose-standard-skills-and-module-contracts.md|Sept-3 follow-up]] (Russian) [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] moved the problem from test authoring to test infrastructure — the sharpest correction of the QA thread since Aug-28. Full decision on [[wiki/decisions/2026-09-03-module-contracts-and-nova-integration-repository.md]]. [[raw/Meeting_Notes_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+
+- **"Написать тест не проблема"** — writing the test is not the problem; the work is the new test harness, "потому что у нас очень много сейчас новых уводных, например, отдельными сервисами." Irina supplied the word "Гарман" (harness). [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- **A meaningful run needs several services up at once** — at minimum the LGS game plus a bill-validator service, "потому что [LGS] с билл [валидатором] общается и на игре должны быть правильные отображения… Меняются счётчики." [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- **Two blockers stand in front of any of it:** there are no contracts between the modules, and no integration repository for the NOVA machine side. "интеграционный репозиторий без контрактов работать не будет," and only after both exist can autotest work start — "После этого только мы сможем приступить к тестированию." [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- **Pavel's mechanical picture of the finished pipeline.** With prose and requirements carrying acceptance criteria, tests are generated with Claude in the integration repository, a registry of the generated tests is kept and "обновлять его в соответствии с… каждой следующей сборкой"; on a build "должен произойти анализ, что сборка идет… на основе там 2 [пул]риквестов, которые изменили эту [ISO]," which capabilities and features they touch, "есть ли у него тесты на этот функционал, если есть, то он должен протестировать в том виде, в котором есть, если он понимает, что эти тесты… неполные, значит, он должен предложить дополнить эти тесты." [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- **How much of it lands by October: Val 10–40% of tests, Pavel "obviously under 50%".** The rest of the NOVA system modules (code, prose, capabilities, requirements) Val holds at 90% — see [[wiki/topics/nova-platform-architecture.md]] (Sept-3). [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- **The unresolved question underneath all of it** — whether acceptance criteria may be derived from the code at all — is on [[wiki/decisions/2026-09-03-acceptance-criteria-settled-by-experiment.md]]: Irina's argument that code-derived criteria make every test pass by construction, and Val's concession to settle it by experiment. [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+
+## Open commitments (Sept 1–3 2026)
+
+- [ ] Team — run the acceptance-criteria experiment (a piece of code, its prose, capabilities and existing requirements — coin-in, a counter — through to end-to-end tests) to settle whether acceptance criteria bind to the code — due next (Sept-3) — [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- [ ] [[wiki/people/alexei-khamin.md|Alexey Khamin]] — build and test the skills that attach requirements to capabilities and audit the acceptance criteria against the code — due unspecified (Sept-3) — [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]
+- [[raw/Meeting_Transcript_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]
+- [[raw/Meeting_Notes_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 - [[raw/Meeting_Notes_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
 - [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
 - [[raw/Irina_Pavel_Figma_React-February-4-2026.md]]

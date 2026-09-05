@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 74
+source-count: 75
 open-commitments: 12
 ---
 
@@ -228,8 +228,18 @@ On the [[wiki/meetings/2026-08-24-nova-lgs-prose-standard-checkpoint.md|Aug-24 p
 - **Name note:** the derived meeting note for this session renders Val's collaborator as "Andrei Bockelie," conflating **Andrei Bosik** with [[wiki/people/aaron.md|Aaron Bockelie]]. The transcript says "Андрей босик" — Bosik. [[raw/Meeting_Notes_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
 - Separately, Evgeny Kharetski was left to work out the no-prose-no-PR repository rule with an unnamed "Andrei," and Irina and Pavel credited an "Andrei" as the initiator of the `docs/prose` folder idea. **Neither mention identifies a surname**, so neither is attributed to Bosik here — left unresolved per §4. [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
 
+## Sept 3 2026 (referenced) — the "Andrei" who grants `knowledge` access, creates the integration repository, and holds the Claude Code configuration
+
+At the [[wiki/meetings/2026-09-03-nova-prose-standard-skills-and-module-contracts.md|Sept-3 prose/contracts follow-up]] (Russian; Bosik **not present**) an unnamed "Андрей" is given three repository-administration jobs. **No surname is spoken on the call**, so the attribution below is an **inference from role context** (repository creation, access grants and shared tool configuration are the DevOps/GitHub-admin remit this page holds) — not a stated fact, and not force-matched. [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+
+- **Company-wide access to the `knowledge` repository.** Pavel took the action: "надо Андрею написать письмо, что дать компани вайт акцесс всем. В репозиторию [knowledge]." See [[wiki/decisions/2026-09-03-prose-standard-into-knowledge-repository.md]]. [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- **Creating the NOVA machine-side integration repository.** Evgeny: "создаёт Андрей[,] наполняем… мы," adding that setting up a repository with the right structure "у Андрея, мне кажется[,] уже на потоку" — routine for him by now. See [[wiki/decisions/2026-09-03-module-contracts-and-nova-integration-repository.md]]. [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- **Moving the prose skills into the Claude Code configuration.** Vladimir: "разговаривал по этому поводу с Андреем[.] Вчера пришли к тому, что когда мы закончим… вынесем в конфи[г] кода так, чтобы все разработчики пользовались одной и той же версией скилла." [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- A **fourth, separate** "Андрей" mention on the same call is *not* attributable here: Irina said an "Андрей" had written the Recycler capabilities and broken them down very finely. Left unresolved per §4. [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 - [[raw/Meeting_Notes_Legacy_CMS_Documentation_Progress_Check-April-15-2026.md]]
 - [[raw/Meeting_Notes_Aaron_Claude_Advancements_Review-April-13-2026.md]]
 - [[raw/Meeting_Transcript_Flex-POS_Repo_Architecture_Review-April-13-2026.md]]

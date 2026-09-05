@@ -2,8 +2,9 @@
 type: person
 title: Alexei Khamin
 date: 2025-04-22
-aliases: [Alexei Khamin, Aliaksey Khamin, Alexey Khamin, Khamin, Хамин, Khanin, Ханин, Kamin, Alexey Kamin]
-source-count: 6
+aliases: [Alexei Khamin, Aliaksey Khamin, Alexey Khamin, Khamin, Хамин, Khanin, Ханин, Kamin, Alexey Kamin, Lyosha, Лёша]
+source-count: 8
+open-commitments: 1
 ---
 
 # Alexei Khamin
@@ -24,8 +25,20 @@ Across the three ACH-module spec-review sessions Khamin raised the QA questions:
 
 On the founding NOVA platform architecture session ([[wiki/meetings/2026-05-12-nova-platform-architecture-overview.md]]) the notes name **"Kamin (Alexey Kamin)"** as [[wiki/people/anton-leshkevich.md|Anton]]'s downstream user — the customer Anton's test framework delivers for. Resolved to Khamin **by QA context** (Anton builds the test framework; Khamin is the JVL QA engineer under [[wiki/people/irina-shishko.md|Shishko]]), consistent with his existing garble aliases (Khanin/Ханин); the "Kamin" spelling is a transcription variant, **flagged for owner confirmation, not force-matched**. Substance on [[wiki/topics/nova-platform-architecture.md]]. §15.8 clear. [[raw/Meeting_Notes_nova_platform_architecture_overview-Segment_2-May-12-2026.md]]
 
+## Sept 3 2026 — given sole ownership of attaching requirements to capabilities and auditing the acceptance criteria
+
+At the [[wiki/meetings/2026-09-03-nova-prose-standard-skills-and-module-contracts.md|Sept-3 prose/contracts follow-up]] (Russian; Khamin **not present**) [[wiki/people/pavel.md|Pavel]] proposed him for the work Val had just specified — build and test the skills that attach every existing requirement to the capabilities, propose the missing ones, and audit the acceptance criteria against the code. Pavel: "я вижу 1 человека которому можно дать это задание[:] это Алексей хамин," adding [[wiki/people/ivan.md|Ivan]] as capacity allowed once South Dakota and V3 Georgia ship. **Val cut it to one owner:** "Давайте одного[,] давайте не 2[,] давайте хами[на] над этим." [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+
+Irina and Pavel then disagreed about what he inherits: Irina wanted the capabilities finished and the requirements attached before he starts ("чтобы… для лёши готова" — Lyosha being the short form of Alexey), while Pavel argued that determining how far the requirements diverge from what was intended is precisely his job. Not settled on the call. Full decision on [[wiki/decisions/2026-09-03-acceptance-criteria-settled-by-experiment.md]]. §15.8 clear — assignment only, no compensation. [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+
+## Open commitments (Sept 3 2026)
+
+- [ ] Build and test the skills that attach requirements to capabilities, propose the missing requirements, and audit the acceptance criteria against the code — due unspecified — [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]] [[raw/Meeting_Notes_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 - [[raw/Meeting_Notes_nova_platform_architecture_overview-Segment_2-May-12-2026.md]]
 - [[raw/flex_port_update-apr-22-2025.md]]
 - [[raw/flex_tower_spacial_design_review-may-1-2025.md]]

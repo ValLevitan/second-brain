@@ -3,10 +3,10 @@ type: decision
 title: Build Flex-Port-Mini connecting only through the machine's second SAS port — ~$45 build budget for the Mini, ~$250 for the full Flex-Port, a minimal non-touch display, and wired CAT5/RS-485 as stage-1 networking
 date: 2026-08-24
 aliases: [Flex-Port-Mini, Flex Port Mini, second SAS port only, $45 port budget, minimal info display, stage-1 wired networking, daisy-chain RS-485, drop the bill-acceptor in-line wiring]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 2
-open-questions: 4
+open-questions: 5
 ---
 
 # Build Flex-Port-Mini via the second SAS port only, at a ~$45 build budget
@@ -45,8 +45,19 @@ Val's closing statement: "Я останавливаюсь на том, что м
 - [ ] Genadi Peari — source/spec a cheap non-touch information display and confirm flash/memory sizing so the Mini lands near the $40–45 build cost — due unspecified — [[raw/Meeting_Notes_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
 - [ ] Pavel Frolov — work out the stage-1 local-network design: wired CAT5 / RS-485 with daisy-chain support on the existing WSS or a Modbus-style protocol plus an encryption layer; note Bluetooth mesh as a later experiment — due unspecified — [[raw/Meeting_Notes_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
 
+## Update — Sept 2 2026: SAS-universal confirmed, a scanner added, and the memory ceiling named
+
+On the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-updates-after-the-show.md|Sept 2 2026 Flex-IQ pre-pilot call]] this design was re-confirmed and extended; full ruling on [[wiki/decisions/2026-09-02-flex-port-sas-universal-with-scanner-touch-vs-non-touch.md]] [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]].
+
+- **SAS-only confirmed as the universal variant**, [[wiki/people/pavel.md|Pavel]]: "мы идём в сас вариант. Котор[ый] нам универсальный и не будем пытаться закрыть там **10% рынка** где нету 2 сасса" — a smaller figure than the "15 20%" Val gave on Aug 24; both are recorded under Open contradictions on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] and neither is resolved [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]].
+- **The port (or Flex SMIB) must gain a scanner connection**, because the e-wallet is the main direction: "на фле[к]спорт должен содержать в себе [баркод]сканер… этой вот платы будет недостаточно… Ну, либо сделать новую ревизию этой платы." Val: "Да, конечно" [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]].
+- **The over-the-air update question Val rejected on Aug 24 resurfaced as a hard constraint.** Pavel: the cheap SAS SMIB board "не сможет поддерживать [ремоут] фирм[вар] апдейт. У него просто нет памяти лишней, он использует встроенную… [с]рам… один раз прошили и всё" — around **2 MB** of flash, a flash-once part; the full Flex-Port has external flash and SRAM chips and can be reflashed. The Genadi/Alekseev flash reduction recorded above is confirmed as live work: "заменить одну микросхему на другую[,] Там в 4 раза меньше памяти" [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]].
+- **Val's cost read:** going from 2 MB to 4 MB is "незначительн[ые]… деньги" — Pavel: "Скорее всего так." The threshold at which remote update becomes possible was referred to [[wiki/people/genadi-peari.md|Genadi Peari]] and [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]].
+- **The family naming settled at touch vs non-touch** — Val: "у нас будет 2 порта… [Флек]спорт сегодняшний, который широкий. И флекс порт [слим]"; Andrei's cleaner line, which Val took: "разница между флекспорт[ом] тач и флекспорт[ом] Нот тач" [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]].
+
 ## Open questions
 
+- At what flash size does remote firmware update become possible on the cheap SAS SMIB board, and how much does adding it raise the port cost? Pavel: "Значительно" but "По цене сейчас не смогу"; referred to Genadi Peari and Evgeniy Alekseev. (Sept-2.) — [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
 - Is the $40–45 build cost actually achievable? Memory sizing is unconfirmed — Genadi: "это надо оценить количество памяти" — [[raw/Meeting_Transcript_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
 - Bluetooth-mesh viability is unknown; nobody on the call has worked with it and it cannot be estimated — [[raw/Meeting_Transcript_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
 - What happens if an operator refuses to disconnect Mutha Goose? Genadi: then new wiring is needed anyway — "если я не отключаются, тогда все равно новые ставить" — [[raw/Meeting_Transcript_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
@@ -55,3 +66,4 @@ Val's closing statement: "Я останавливаюсь на том, что м
 ## Sources
 - [[raw/Meeting_Notes_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
 - [[raw/Meeting_Transcript_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
+- [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]

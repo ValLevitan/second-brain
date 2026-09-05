@@ -4,7 +4,7 @@ title: Igor Metelski
 date: 2026-07-14
 aliases: [Igor Metelski, Igar Miatselski, Miatselski, Igor, Igor Mitelsky, Мительский, Mitsierski, Igor Mitsierski]
 disambiguation: "RGS engineer on Efim Podvoiski codebase (= payroll Igar Miatselski). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
-source-count: 16
+source-count: 18
 open-commitments: 4
 ---
 
@@ -71,6 +71,14 @@ At the [[wiki/meetings/2026-08-28-dragon-pays-nova-conversion-review.md|Aug-28 r
 - **He floated packaging the work as an MCP.** "есть такое понятие, как он сепи [MCP]… наверное, всю эту работу, которую я провёл, может… оформить себе этого самого MCP." Val did not take it up on the call, moving straight to the QA discussion. (Transcription is garbled; recorded as stated.) [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
 - **Val then gave him the QA experiment** — pretend someone else did the port and work it as the QA side: reverse-engineer requirements and acceptance criteria from the prose and code and try to automate the testing against them, then report what works and what does not. Val: "Игорь это не ты переделывал игру, а ктото для тебя сделал, а ты работаешь к его и допарению." Igor accepted — "Хорошо, ну давай всё сделаем." See [[wiki/decisions/2026-08-28-reverse-engineer-acceptance-criteria-and-automate-qa-dragon-pays.md]]. [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
 
+## Sept 1–3 2026 (referenced) — the QA experiment's review is broadened, and Val questions his own framing of the task
+
+Igor was not present at either the [[wiki/meetings/2026-09-01-nova-prose-qa-automation-check.md|Sept-1]] or [[wiki/meetings/2026-09-03-nova-prose-standard-skills-and-module-contracts.md|Sept-3]] session, but both turn on his experiment. [[raw/Meeting_Transcript_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]
+
+- **Sept 1 — Val cited him as evidence the conversion method works** ("насколько я слышу от[…] Игор[я] метельского[,] он… чувствуют себя комфортабельно"), confirmed with Pavel and Irina that Igor is running the QA-automation experiment and that the check-in is that Friday, and added [[wiki/people/alexander-biratka.md|Sasha Biratko]] to it. Irina also asked how the existing Calle Ocho end-to-end tests would join up with what Igor produces. [[raw/Meeting_Transcript_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]
+- **Sept 3 — Val questioned whether the task had been framed correctly for him.** Having worked out in detail what is actually needed, "я не совсем уверен, что мы правильно дали задачу мительскому, то есть метельский[,] както грубо подойдёт к этому вопросу." Igor was to report on the experiment at the next day's meeting: "метельский завтра сделает доклад о его опыт[е], который он провёл." See [[wiki/decisions/2026-09-03-acceptance-criteria-settled-by-experiment.md]]. [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- **He was also named as a possible owner of the games-side module contracts** (Irina: "либо Антон, либо этот самый Игорь"), which was not settled. [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+
 ## Open commitments (Aug 28 2026)
 
 - [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — run the QA experiment on the ported Dragon Pays game: reverse-engineer requirements + acceptance criteria from the prose and code, try to automate testing against them, and report what works and what does not — due Sept 4 2026 (Val: one week, "максимум срок 2 недели") — [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
@@ -79,6 +87,8 @@ At the [[wiki/meetings/2026-08-28-dragon-pays-nova-conversion-review.md|Aug-28 r
 
 ## Sources
 
+- [[raw/Meeting_Transcript_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]
+- [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 - [[raw/Meeting_Notes_Rage_Nova_Migration_Experiment_Review-August-18-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Nova_Migration_Experiment_Review-August-18-2026.md]]
 - [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]

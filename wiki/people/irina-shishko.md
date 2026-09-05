@@ -4,8 +4,8 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 56
-open-commitments: 5
+source-count: 62
+open-commitments: 7
 ---
 
 # Irina Shishko
@@ -153,6 +153,28 @@ At the [[wiki/meetings/2026-08-28-dragon-pays-nova-conversion-review.md|Aug-28 D
 - **She named what the QA experiment is actually missing.** Not the prose — "нам нужны Требования с аксептомс критериями. Ну то есть то, чего нет сейчас" — requirements with acceptance criteria do not exist today; code and prose do. Val's answer was to reverse-engineer them back through the overall architecture. See [[wiki/topics/test-automation-strategy.md]] (Aug-28). [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
 - **She backed Pavel's animation objection** — that frame-accurate behaviour will not appear in requirements either ("И в рекламинт этого не будет") — and asked that the second parallel port be a line game rather than keno. [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
 
+## Sept 1–3 2026 — the capability-granularity objection, and the acceptance-criteria argument she won
+
+- **Sept 1** ([[wiki/meetings/2026-09-01-nova-prose-qa-automation-check.md|prose/QA check-back]]): she supplied the framing question about whether prose is for the framework or the platform (Val corrected the word to "platform"), proposed bringing Danil in under Sasha's supervision on the games prose, noted that the end-to-end tests Danil had looked at on Calle Ocho were written by Sasha, and pressed Pavel on what AI-managed tests would mean in practice — "что значит[,] писал[?] писал и забывал[?]" She agreed with Val's read that nobody would return to the frozen old tests: "Уже никто туда не пойдёт." [[raw/Meeting_Transcript_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]
+- **Sept 3 — she rejected the generated capabilities as over-granular.** "то, как сейчас написаны каппобилити… 54[—] это что то очень сильно разбитое. Эт[о] это не копобилити," with worked examples: issuing and reprinting a paper voucher, or redeeming an inserted voucher, are not capabilities. Pavel countered that LGS is genuinely huge; Val's remedy was an administrative direction to Claude — see [[wiki/decisions/2026-09-03-capabilities-consolidated-by-administrative-direction.md]]. [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- **She won the acceptance-criteria argument against Val.** Against his position that acceptance criteria must fit narrowly to the code in the repository today, she argued the requirement survives the platform change — "или ре[йдж] или нова, вот у нас есть машина, на которой стоит игра, принимает деньги, достаёт деньги, поэтому требование оно остаётся[,] тоже просто реализовано на другом языке" — and then made the decisive point: deriving acceptance criteria from the code means "все сойдется. Все будет правильно," so nothing is ever found. Val conceded and proposed settling it by experiment. See [[wiki/decisions/2026-09-03-acceptance-criteria-settled-by-experiment.md]]. [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- **She restated the role boundary and Val endorsed it 100%:** requirements are written neither by QA nor by the developer — "не он пишет регламент[,] не QA… точно так же, как и не девелопер пишет рекларменсы… Они их реализуют и проверяют." [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- **She pushed the Jira structure back onto the agenda** — the tidied capabilities must move into Jira and the new Jira structure be built, resuming what "Dima" started before his holiday, with LGS a candidate next project. Val agreed but said she had put it too softly: "вы очень както мягко к этому подошли. Я как бы более жёстко на это смотрю, что без этого невозможно." [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- Val's closing thanks named her contribution: "Ирина[,] хороший [comment]." [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+
+## Sept 2 2026 — stops the Flex-IQ call from skipping the delivery plan
+
+On the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-updates-after-the-show.md|Sept-2 Flex-IQ pre-pilot call]] (Russian) Irina made one intervention, and it is the reason the call produced dates at all. When [[wiki/people/pavel.md|Pavel]] moved to close the pre-pilot punch list and go to strategy, she stopped him: "нет, подожди Паш… Я про то, что мы не определили план, когда мы… Реализуем первую часть." [[wiki/people/andrei-klimovich.md|Andrei]] backed her — "я бы хотел тоже это проговорить ещё раз зафиксировать" — and the exchange produced [[wiki/people/dmitri-chudinov.md|Chudinov]]'s end-of-week code commitment and Andrei's Tuesday test. [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+
+- She also pressed on the hardware dependency ("когда появится это всё железо у тебя") and, at the close, restated the third punch-list item so it was not lost; she protected Chudinov's week from interruption when the Friday follow-up was floated: "у Диме… не надо[,] как по срочному доделать[?] Вот что планирует до конца недели… Чтобы… Не отвлекать." [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- On the printer path she checked her own understanding of the switcher design out loud — "мы, принтер всё равно через IQ подключен к [Mutha Goose]" — and Andrei confirmed it, with bypass if IQ is dead. [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- She accepted the barcode-reconciliation answer on behalf of the room: "Всё это и хотели услышать." [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+
+## Open commitments (Sept 3 2026)
+
+- [ ] Send [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] the link to the `knowledge` repository — due immediately — [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- [ ] With [[wiki/people/pavel.md|Pavel Frolov]] — tidy the capabilities, move them into Jira and build the new Jira structure (LGS a candidate next project) — due September 2026 — [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]] [[raw/Meeting_Notes_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+
 ## Open commitments (Aug 26 2026)
 
 - [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — contact [[wiki/people/efim-podvoiski.md|Efim]] about the Georgia RTP percentages (the ~88% option) and put South Dakota VLT-2 on test — due same day for the Efim contact; test ~the following week, release target Sept 1 2026 — [[raw/Meeting_Notes_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]] [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
@@ -160,6 +182,10 @@ At the [[wiki/meetings/2026-08-28-dragon-pays-nova-conversion-review.md|Aug-28 D
 
 ## Sources
 
+- [[raw/Meeting_Notes_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]
+- [[raw/Meeting_Transcript_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]
+- [[raw/Meeting_Notes_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 - [[raw/Meeting_Notes_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
 - [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
 - [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
@@ -216,3 +242,5 @@ At the [[wiki/meetings/2026-08-28-dragon-pays-nova-conversion-review.md|Aug-28 D
 - [[raw/Metering_class_3-june-17-2025.md]]
 - [[raw/Meeting_Notes_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
 - [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- [[raw/Meeting_Notes_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]

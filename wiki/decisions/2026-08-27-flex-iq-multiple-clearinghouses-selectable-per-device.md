@@ -3,7 +3,7 @@ type: decision
 title: Flex-IQ must support multiple clearing houses, selectable per device — not in the MVP
 date: 2026-08-27
 aliases: [multiple clearing houses, clearinghouse selection per device, clearance provider choice, Flex-IQ provider switching]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 1
 open-questions: 2
@@ -27,6 +27,12 @@ Ruled by Val on the seven-minute [[wiki/meetings/2026-08-27-flex-iq-multiple-cle
 - **Val's stated premise is competition, and visibility of the choice:** "I predict, I predict that that income will have competition, and I'd like to be able to choose. Either income or somebody else, and I'd like it to be visible… for our technicians or for whoever it is, I'd like to make it **pronouncedly visible. That there are choices**." [[raw/Meeting_Transcript_Flex_IQ_Multiple_Clearinghouse_Selection-August-27-2026.md]]
 - **The use case Andrei brought (from a conversation the previous day, and NOT what Val was asking for):** some locations run more than one card provider at once — the transcript's example is "**FirePay** plus income" (rendered "**Fiery Pay**" moments later; JVL's known competitor of that name is tracked on the [[wiki/meetings/2026-08-12-fiery-pay-competitive-analysis.md|Aug-12 competitive analysis]]) — so if a player wins **$8,000** and one supplier's daily cap of "let's say **5K**" is reached through InComm, "the location still has an opportunity to issue the rest of **3K**" through the other provider. Val's answer: "**The goal is to have that choice, but I'm not necessarily saying that it should be the location that chooses it**", "Because I'm not sure that the location is the right… selector of who to choose. But regardless, who is choosing, that's a different story." [[raw/Meeting_Transcript_Flex_IQ_Multiple_Clearinghouse_Selection-August-27-2026.md]]
 
+## Update — Sept 2 2026: restated by Andrei as a business pillar, and widened to card providers
+
+On the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-updates-after-the-show.md|Sept 2 2026 Flex-IQ pre-pilot call]], while [[wiki/people/val-levitan.md|Val]] was listing the business pillars for the device family, [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] added this one himself: "я докину ещё один [pillar] для бизнес требования… Поддержка… разных… карт[-]провайдер[ов], то есть сейчас у нас только инк[омм], но нам надо уметь поддерживать всех, кто есть на рынке." Val endorsed it immediately: "Абсолютно. Точно." [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+
+Two things changed shape: the requirement is now stated by Andrei rather than pulled out of him by Val, and it is framed as **card providers** generally rather than clearing houses specifically. The Aug-27 limits (per device, not per location; not in the MVP; do not approach other clearing houses yet) were not revisited and stand.
+
 ## Open commitments
 
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — capture multiple-clearing-house selection as a capability (or small capability set), per device, selectable in settings or on the fly, kept minimal so it is not lost — due unspecified; explicitly not MVP — [[raw/Meeting_Notes_Flex_IQ_Multiple_Clearinghouse_Selection-August-27-2026.md]]
@@ -39,3 +45,4 @@ Ruled by Val on the seven-minute [[wiki/meetings/2026-08-27-flex-iq-multiple-cle
 ## Sources
 - [[raw/Meeting_Notes_Flex_IQ_Multiple_Clearinghouse_Selection-August-27-2026.md]]
 - [[raw/Meeting_Transcript_Flex_IQ_Multiple_Clearinghouse_Selection-August-27-2026.md]]
+- [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]

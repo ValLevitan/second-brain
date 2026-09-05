@@ -2,9 +2,9 @@
 type: person
 title: Vladimir Samusenko
 date: 2026-02-04
-aliases: [Vladimir Samusenko, Vladimir, Владимир, Самусенко]
-source-count: 7
-open-commitments: 2
+aliases: [Vladimir Samusenko, Vladimir, Vlad, Владимир, Самусенко]
+source-count: 9
+open-commitments: 4
 ---
 
 # Vladimir Samusenko
@@ -35,9 +35,24 @@ On the [[wiki/meetings/2026-08-24-nova-lgs-prose-standard-checkpoint.md|Aug-24 p
 - **He raised the overlap problem** between his front-end capability set and Evgeny's back-end set — "сейчас они будут не пересекаться, а конфликтовать" — which the meeting settled as two prose documents and **one** capability set, merged after the standard exists. [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
 - He accepted Val's point that once new code is added to written prose, the changed part of the prose must always be read. [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
 
-## Open commitments (Aug 24 2026)
+## Sept 3 2026 — he delivered the standard and two Claude Code skills, and took Val's sharpest correction of the month
 
-- [ ] With [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]]: meet locally to agree one prose-writing standard, place it in the standards repository, then run Claude over the existing prose to normalize it — due Aug 25–26 2026 — [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+At the [[wiki/meetings/2026-09-03-nova-prose-standard-skills-and-module-contracts.md|Sept-3 follow-up]] (Russian) Vladimir presented the work. Method detail on [[wiki/topics/ai-assisted-development.md]] (Sept-3); the repository mechanics on [[wiki/topics/github-release-management-pipeline.md]] (Sept-3). [[raw/Meeting_Notes_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+
+- **He authored the single prose standard** from the meetings, the discussions, and the work he, Zhenya ([[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]]) and Anton had done, plus prose already written — "из всего этого собрал стандарт[,] который бы устраивал всему тому, что мы обсуждали, что мы находили и что делали." This discharges the authoring half of the [[wiki/decisions/2026-08-24-single-prose-writing-standard.md|Aug-24 commitment]]. [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- **He had put it in the LGS repository, and Val objected in the strongest terms** — LGS "пока как пилотный проект для прозы… На нём проводились большинство экспериментов," which Val rejected as a reason: a standard has exactly one location. Vladimir agreed to move it, subject to write access he probably does not have. See [[wiki/decisions/2026-09-03-prose-standard-into-knowledge-repository.md]]. [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- **He built two Claude Code skills, which he called the most valuable output** — "самое ценное, считаю[,] сделано 2. Скилла для клауд код": one that initialises prose for a project that never had any (studying the repository's dependency tree, proposing the prose unit, asking clarifying questions, writing a reviewable index/mapping document that also stores the conversation context), and one called simply "prose" that handles ongoing change. [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- **He named the update path as the hardest problem** — "над одной прозой могут работать… 2 разработчика… Вот этот процесс самый сложный" — and solved it by never writing prose directly: change artifacts go into a `pending` folder and a GitHub action merges them on merge to main, failing loudly rather than losing text. His statement of the underlying risk: "основная проблема проза[—] то, что мы можем чего то не написать и потом никогда не узнаем, что его там не было." [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- **Results he reported:** LGS fully documented and its prose already in main; the skills also tested successfully on the Recycler; **54 capabilities** generated for LGS and **34** for the Recycler; and on the Recycler branch, linking prose to existing capabilities gave "покрытие… процентов 80[–]95," verified on several capabilities with an "Alexander" (which Alexander is not stated). [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- **He agreed with "Андрей" the previous day that the skills move into the Claude Code configuration** once he finishes, so all developers share one version and receive updates. [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- Val closed the meeting thanking him first: "Владимир, большое спасибо." [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+
+## Open commitments (Aug 24 – Sept 3 2026)
+
+- [x] With [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]]: agree and author one prose-writing standard — due Aug 25–26 2026 — **done: reported written at the Sept-3 follow-up ("из всего этого собрал стандарт"), late against the planned date** — [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]] [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- [ ] Move the prose standard out of the LGS repository into the `knowledge` repository's standards folder — due promptly (Sept-3); blocked on write access — [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- [ ] Move the prose skills into the Claude Code configuration so every developer shares one version and receives updates — due on finishing (Sept-3) — [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- [ ] With Evgeny: run Claude over the existing prose to normalize it to the new standard — due after the standard is placed — [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
 - [ ] With Evgeny: merge the overlapping backend and frontend capability sets into one after the standard is set — due unspecified — [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
 
 ## Sources
@@ -49,3 +64,5 @@ On the [[wiki/meetings/2026-08-24-nova-lgs-prose-standard-checkpoint.md|Aug-24 p
 - [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-4.md]]
 - [[raw/Meeting_Notes_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
 - [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- [[raw/Meeting_Notes_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]

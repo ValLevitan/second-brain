@@ -4,8 +4,8 @@ title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka, Alex Baratka, Alex Beratka, Alexander Berankov, Biratko, Alexander Biratko]
 disambiguation: "Alexander cluster (provisional — owner ruling pending): distinct JVL people sharing the given name Alexander. [[wiki/people/alexander-biratka.md|Alexander Biratka]] = Omni/Pixi framework & build engineer (aka Sasha; garbles Beratko/Baratka); [[wiki/people/alexander-korochkin.md|Alexander Korochkin]] = LGS QA-automation engineer (GitHub Alexander_K@JVL, read-only; aka Alexander K); [[wiki/people/alexander-tumanov.md|Alexander Tumanov]] = Minsk QA / data-center knowledge-capture hire (surname unverified). Resolve by context: Omni framework / Pixi / build → Biratka; LGS QA automation / read-only build consumer → Korochkin; manual-tester onboarding / data-center interviews → Tumanov. A further name 'Alexander Derok' (back-end build-integration / Java, per Val on Feb-6-2026) is unconfirmed — queued, not a page. Not [[wiki/people/alexei-khamin.md|Alexei Khamin]] (different name). Queue anything fitting none; never force-match."
-source-count: 40
-open-commitments: 1
+source-count: 43
+open-commitments: 3
 open-questions: 0
 ---
 
@@ -52,6 +52,8 @@ Alexander Biratka (called "Sasha") is a JVL engineer, part of the Minsk engineer
 ## Open commitments
 
 - [ ] Sasha (Alexander Biratka) — write a real build-config file (game, framework, LGS, hardware abstraction layer), put it in Git, and set up a job that produces an image/archive (not a full ISO yet) — due by the next meeting (Monday) — [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]]
+- [ ] Move Flex-Pay onto the RK3568 platform — due "the 15th" (September 15 inferred), set Sept 1 2026 — [[raw/Meeting_Notes_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]] [[raw/Meeting_Transcript_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]
+- [ ] Write prose for the NOVA platform's common/shared part (the game's own prose deferred) — due September 2026 — [[raw/Meeting_Notes_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]] [[raw/Meeting_Transcript_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]
 
 Note: the correct surname is **Biratka** (confirmed by Val). The transcripts spell it inconsistently — mostly "Beratka", once "Biratka" — so both forms are kept as aliases for search. The transcripts also use "Sasha" as a short form, and once the garble "Pasha" appears near his name; "Pasha" is treated as Pavel elsewhere. See [[wiki/people/pavel.md]].
 
@@ -134,8 +136,21 @@ On the [[wiki/meetings/2026-04-13-flex-pos-repo-architecture-review.md|Flex-POS 
 
 On the founding NOVA platform architecture session ([[wiki/meetings/2026-05-12-nova-platform-architecture-overview.md]]) [[wiki/people/val-levitan.md|Val]] formally appointed Biratka **Chief Architect of NOVA** on the record — "Alexander Vladimirovich Biratko is appointed Chief Architect of this project" — his full name confirmed for the transcript as **Александр Владимирович Биратко**. The role explicitly carries authority to make architectural decisions, which he exercised (e.g. ruling one repository per hard service over Anton's monorepo suggestion on release-ability grounds). He drove the as-is walkthrough (Segment 1) and the to-be design (Segment 2), and owns all NOVA ADRs (which live as files inside each repo). Full architecture on [[wiki/topics/nova-platform-architecture.md]]. His immediate undertakings: consult [[wiki/people/pavel.md|Pavel]] on the name and architecture; confirm the Arrange-vs-MathEngine repo split with [[wiki/people/efim-podvoiski.md|Efim]]; get MathEngine/Arrange access (math secrecy relaxed); and pick the first service to port to Rust. §15.8 clear — architecture/role only, no compensation. [[raw/Meeting_Transcript_nova_platform_architecture_overview-Segment_2-May-12-2026.md]] [[raw/Meeting_Notes_nova_platform_architecture_overview-Segment_1-May-12-2026.md]] [[raw/Meeting_Notes_nova_platform_architecture_overview-Segment_2-May-12-2026.md]]
 
+## Sept 1 2026 — back from vacation: Flex-Pay onto RK3568, and the prose split he proposed
+
+He returned from vacation on Aug 31 2026 ("Вчера вчера вышел"; Irina: "2 день только") and was the subject of the [[wiki/meetings/2026-09-01-nova-prose-qa-automation-check.md|Sept-1 check-back]]. [[raw/Meeting_Transcript_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]
+
+- **New assignment: move Flex-Pay onto the RK3568 platform, targeting the 15th.** Announced by Pavel; Sasha supplied the platform himself ("На ркплатформе"). See [[wiki/decisions/2026-09-01-flex-pay-onto-rk3568.md]]. Val characterised his area as "транзакшенал оборудование[м]" (transactional equipment) but said he had not worked out which Flex-Pay is meant. [[raw/Meeting_Transcript_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]
+- **He proposed the prose split that Val adopted.** Describing the shared platform repository alone loses the code that lives in the game and carries from game to game, so "мы можем как бы разделить эти прозы… Поэтому мы можем описать вначале касающиеся общей части," with the game's prose written later or when the next new game is written. Val: "Я сторонник, чтобы именно так сделать." This refines his [[wiki/topics/nova-platform-architecture.md|Aug-13 commitment]] to write prose for the framework and one base game. [[raw/Meeting_Transcript_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]
+- **He argued twice for not discarding the existing manual tests** — first that Claude could simply walk the existing test cases and add what is missing, then that bug-specific, location-specific and rare-settings tests "могут быть прям прям важными," proposing a one-time overlap analysis. Val heard him and did not adopt it. See [[wiki/decisions/2026-09-01-freeze-existing-manual-test-cases.md]]. [[raw/Meeting_Transcript_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]
+- **Pavel named him as the candidate for the games-side NOVA prose** ("саша был у нас претендентом на то, чтобы заняться этим"), and Val added him to the Friday QA-automation check-in with [[wiki/people/igor-metelski.md|Igor Metelski]]: "Я приглашу тогда сашу бератко сюда тоже." [[raw/Meeting_Transcript_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]
+- **Sept 3 (referenced, not present).** Irina cited his existing game-assembly-and-run-on-a-machine work as a candidate integration base; Pavel pointed out it is the old approach with a hardware layer as a set of libraries, not the Rust-module integration Evgeny is describing. See [[wiki/decisions/2026-09-03-module-contracts-and-nova-integration-repository.md]]. [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]
+- [[raw/Meeting_Transcript_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]
+- [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 - [[raw/Meeting_Transcript_nova_platform_architecture_overview-Segment_2-May-12-2026.md]]
 - [[raw/Meeting_Notes_nova_platform_architecture_overview-Segment_1-May-12-2026.md]]
 - [[raw/Meeting_Notes_nova_platform_architecture_overview-Segment_2-May-12-2026.md]]

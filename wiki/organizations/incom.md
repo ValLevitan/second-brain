@@ -3,8 +3,8 @@ type: organization
 title: Incom (payment processor)
 date: 2025-02-27
 aliases: [Incom, InComm, Incomm, Income, Incom Payments, wrapped card rule, PAX, PAX 80, reloadable gift cards, Nathan Carver]
-source-count: 37
-open-commitments: 12
+source-count: 39
+open-commitments: 13
 open-questions: 3
 ---
 
@@ -284,6 +284,24 @@ The [[wiki/meetings/2026-08-26-incomm-skill-pay-atm-guidance.md|Aug-26 3:00–3:
 
 - Does JVL giving up its commission to a location raise a GLC **inducement** concern? Jason could speak only to the master↔location relationship and explicitly could not speak to distributor/manufacturer requirements in Georgia — [[raw/Meeting_Transcript_InComm_Skill_Pay_ATM_Guidance-August-26-2026.md]]
 
+## Sept 2 2026 — the sealed-packaging rule forces barcode activation on Flex-IQ
+
+Reported by [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] on the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-updates-after-the-show.md|Sept-2 Flex-IQ pre-pilot call]] (Russian; no InComm staff present) as JVL's own restatement of InComm's requirement — not a fresh InComm statement. [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+
+- **The rule, as Andrei stated it:** cards for non-kiosk devices ship sealed and "никто, Кроме финального получателя игрока, не имеет права распаковывать её. Соответственно наружу в этой карточке торчит только баркот" — nobody but the final recipient, the player, may unwrap the pack, so only the barcode is exposed. Activation must therefore run off the barcode. [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- **Kiosks are unaffected** — kiosk cards load unwrapped and keep today's activation flow: "в киоск карточке загружаются уже распакованные и то, как они у нас сейчас активируются, это пускай так и остаётся." [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- **The card and its envelope carry the same barcode** — Andrei: "на карточке физически находится баркот ровно такой же, который находится на конверте" — which is what lets JVL still reconcile a record to a card after activation without the 16-digit number. [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- **Why it appeared now:** "изменились требования у инкома, они теперь… Поставляют их в вот в таком виде, и если это не киоск, он должен работать с такими карточками, упакованными." [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- **On a failed card, the player calls InComm and the location is not involved** — Andrei, from experience: "И локации до этого никакого дела. Единственное, что я могу сделать, это звонить напрямую инкому и жаловаться, что [не] провели транзакцию." Val added that the card is InComm's issue and "мы вообще к этому ничего общего не имеем." [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- **Multiple card providers restated as a JVL requirement:** "сейчас у нас только инк[омм], но нам надо уметь поддерживать всех, кто есть на рынке" (Andrei), endorsed by Val. See [[wiki/decisions/2026-08-27-flex-iq-multiple-clearinghouses-selectable-per-device.md]]. [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- **Andrei will re-verify barcode activation with InComm** by activating a couple more cards before the pilot: "Мы проверим это ещё раз с инкомом, сделаем ещё активацию карточки парочки." [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+
+Full ruling: [[wiki/decisions/2026-09-02-activate-incomm-cards-by-barcode-on-flex-iq.md]]. This is the follow-through on the Aug-21 wrapped-card blocker recorded above.
+
+## Open commitments (Sept 2 2026)
+
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — re-verify barcode card activation with InComm by activating a couple more cards — due unspecified, ahead of the pilot — [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_InComm_Skill_Pay_ATM_Guidance-August-26-2026.md]]
@@ -323,3 +341,5 @@ The [[wiki/meetings/2026-08-26-incomm-skill-pay-atm-guidance.md|Aug-26 3:00–3:
 - [[raw/Meeting_Notes_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
 - [[raw/Meeting_Transcript_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
 - [[raw/Meeting_Notes_Fiery_Pay_Competitive_Analysis-August-12-2026.md]]
+- [[raw/Meeting_Notes_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
