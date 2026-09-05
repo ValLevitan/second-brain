@@ -48,5 +48,5 @@ Asked whether the ~Nov-1 GLI target still stands and whether Calle Ocho is still
 
 ## Carry-forward
 
-- Acknowledge the **~2-day slip on the September-1 RAGE-based SD VLT-2 GLI submission (actual ≈ Sept 3 2026)** in the next weekly update (Friday 4 September 2026) — owner's explicit instruction, 2026-09-01.
+- Acknowledge the **~2-day slip on the September-1 RAGE-based SD VLT-2 GLI submission (actual ≈ Sept 3 2026)** in the next weekly update — owner's explicit instruction, 2026-09-01. *(Written for the Friday 4 September 2026 run, which did not fire; carries forward to whichever run happens next.)*
 - **NOVA has no GLI date.** Watch for one being set; until then the wiki must say *unscheduled*, not carry the lapsed ~Nov-1 figure.
