@@ -2,10 +2,10 @@
 type: person
 title: Pavel
 date: 2026-07-12
-aliases: [Pavel, Pasha, Pavel Frolov]
+aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 119
-open-commitments: 17
+source-count: 125
+open-commitments: 20
 open-questions: 0
 ---
 
@@ -381,8 +381,40 @@ On the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-updates-after-the-show.md|Se
 - [ ] Work out the stage-1 local-network design for Flex-Port-Mini: wired CAT5 / RS-485 with daisy-chain support on the existing WSS or a Modbus-style protocol plus an encryption layer; note Bluetooth mesh as a later experiment — due unspecified — [[raw/Meeting_Notes_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
 - [ ] With [[wiki/people/irina-shishko.md|Irina Shishko]]: schedule daily team time to fill in capabilities and open questions against already-written code, drive the whole team to catch up, and assign Sergey Tsimanov to the backend/CMS prose and to verifying Dima's prose — due end of September 2026 — [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
 
+## Sept 4 2026 — the anti-anchoring rule, the September task plan, and the standards link posted in chat
+
+At the [[wiki/meetings/2026-09-04-rage-nova-conversion-readiness.md|Sept-4 morning meeting]] [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]:
+
+- **He proposed evaluating Test 360 from a clean Claude session that has never seen Igor's acceptance criteria**, because a session that has seen them gets "замыленный взгляд" and keeps referring back to them; he also allowed that Claude might judge the current path a dead end and propose something better. Igor accepted. See [[wiki/topics/test-automation-strategy.md]] (Sept-4). [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- **He framed the goal Val then corrected.** Pavel: many people converting games with Claude will produce a finished product fast, but full behavioural testing in the cabinet with different switch settings will be impossible, so "кувей будет ботлнек… на многие месяцы вперёд"; automated checks from Claude would free QA and let JVL release faster. Val: "это почти правильное описание нашего объект[ива]. Но это не на 100%" — and laid out the fuller pipeline ([[wiki/topics/nova-platform-architecture.md]], Sept-4). [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- **He supplied the ramp for winding QA down:** compare Claude's verdict against the QA department's on the first game, give QA less time on the second, "и смотрим, что… продукт вышел[,] замечаний с полей нету, значит, тем меньше и меньше и меньше надо вкладываться в [QA]." With the caveat he repeats: "мы[-]то делаем[.] Продукт для человека[;] его будет в конце концов потреблять человек, а не искусственный интеллект." [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- **He corrected the premise on repository ownership** — Andrei only creates the repository name, the content is filled in by Igor — and then named the real problem: the Calle Ocho repository's directory structure "была независимо сделана от… Того, что обсуждалось," which is what triggered Val's "у нас есть написанный стандарт." [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- **He posted the standards-repository link into the meeting chat** "чтобы потом никто не говорил, что я не знаю, где у нас стандарты лежат. Вот пользуйтесь этой ссылкой" — see [[wiki/decisions/2026-09-04-point-claude-at-the-standards-repository-first.md]]. [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- **He argued the deferral that closed Anton's stack objection:** changing engine later means replacing "только один блочок там из 20," with the test pipeline staying roughly the same. [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- **Val gave him the September task plan for the whole team:** "Я прошу Павла[.] Расписать задачу на всех людей[.] На сентябрь месяц[.] Чтобы в конце сентября у нас это было сделано." [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+
+## Sept 4 2026 (midday) — the modem post-mortem he did not accept, and the debug environment he had already built
+
+Two back-to-back calls the same midday, and Pavel comes out of them very differently.
+
+**The modem call (12:10–12:29 PM ET),** [[wiki/meetings/2026-09-04-lte-modem-firmware-mismatch-and-kore-settings.md|LTE modem firmware mismatch]]. He reported the position plainly — the 7455 fitted in Georgia does not work, the cause is not fully clear, two days of experiments with Elizabeth Palomino could not configure a stable link — and explained the Minsk pass as a case of too many differing inputs: "другой провайдер, другая версия прошивки[,] на другой рынок модем рассчитан." **He rejected [[wiki/people/genadi-peari.md|Genadi]]'s "mistake number one" framing outright** ("Я не согласен… какая ошибка[?] Где ошибка?") and rejected Val's too ("Не не не так не так"), holding that testing in Minsk on the same model was a valid test. He then supplied the idea that could solve the whole thing cheaply — ask KORE for the modem configuration parameters, the APN in particular, and hard-code it ([[wiki/decisions/2026-09-04-north-america-modem-variant-and-ask-kore-for-the-apn.md]]). The accountability exchange is on [[wiki/topics/jvl-operating-principles.md]] (Sept 4); it ended with him saying "Хорошо[,] я вас услышал. Ещё больше расстроился" and Val suggesting he think it over across the weekend. Genadi's read minutes later: Pavel "был в шоке от моего комментария и уехал, расстроенный домой" (Val's words) — and Val decided to leave him alone until Monday [[raw/Meeting_Transcript_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]] [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]].
+
+**The production call (12:29–1:49 PM ET),** [[wiki/meetings/2026-09-04-flex-slim-first-ten-and-flex-port-sas.md|Flex-Slim / Flex-Port SAS]], which he joined late from his car — "I need about half an hour to… get to your home." Reported in his absence: he had told Genadi that SAS integration into the port was not being worked on and asked "а вообще зачем нам flexport?", proposing a screenless SMIB variant instead — **rejected by Val** ([[wiki/decisions/2026-09-04-flex-port-keeps-its-screen.md]]). On the call itself, with the transcription badly degraded, what survives is his stage-2 proposal: debug hooks and packet logging, a machine emulator and a full debug console (built on an **STM32 743**), and a described physical environment — Flex-Pay connected, a machine on the network, one or several Flex-Ports, an **ST-Link** debugger, and a written map of what is connected where and where each unit's code lives — so Claude can find things and say what needs correcting. He had already built most of it and **shown it to [[wiki/people/alexei-khamin.md|Khamin]] that day** for his own testing. He also corrected Val on [[wiki/people/aaron.md|Aaron]]'s RK3568 work: Aaron "никакую среду не подымал," he assembled a set of build scripts. Detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 4) [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]].
+
+He also confirmed, per Genadi, that **both card-dispenser versions are supported in software** ("боус v[e]rsi[o]ns работает, поддерживается software") [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]].
+
+**Genadi's private assessment of the SAS work, given to Val after the engineers left:** "без Павла это не пройдёт" — it will not happen without Pavel. Recorded as Genadi's judgement [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]].
+
+## Open commitments (Sept 4 2026)
+
+- [ ] Lay out September tasks for all the people so the documentation work (repositories to standard, data contracts placed, prose finished, capabilities in Jira and closed, requirements with acceptance criteria) completes by month end — due September 2026 — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- [ ] Think the Flex-Port capability breakdown over the weekend and bring it to the Monday 7:00 engineers' meeting — SAS AFT transactions on Flex-Port, the existing Flex-Port use, and a supporting debug-environment capability — due Monday Sept 7 2026 — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+- [ ] Upload the software remotely to the replacement Georgia modems and verify they hold a connection; if a good modem does not work on the existing software, connect remotely and find the cause — due after installation — [[raw/Meeting_Transcript_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Notes_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]
 - [[raw/Meeting_Transcript_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]
 - [[raw/Meeting_Notes_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
@@ -504,3 +536,7 @@ On the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-updates-after-the-show.md|Se
 - [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
 - [[raw/Meeting_Notes_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- [[raw/Meeting_Notes_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]]
+- [[raw/Meeting_Transcript_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]]
+- [[raw/Meeting_Notes_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+- [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]

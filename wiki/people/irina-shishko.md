@@ -4,7 +4,7 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 62
+source-count: 66
 open-commitments: 7
 ---
 
@@ -180,8 +180,23 @@ On the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-updates-after-the-show.md|Se
 - [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — contact [[wiki/people/efim-podvoiski.md|Efim]] about the Georgia RTP percentages (the ~88% option) and put South Dakota VLT-2 on test — due same day for the Efim contact; test ~the following week, release target Sept 1 2026 — [[raw/Meeting_Notes_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]] [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
 - [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — keep Val and [[wiki/people/juan-martinez.md|Juan]] copied on all of Ivan's South Dakota (South Dakota VLT-2) submission correspondence, and call Val directly if she sees the schedule slipping — ongoing from Aug 26 2026 — [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
 
+## Sept 4 2026 — in both meetings: the acceptance-criteria direction question, and the branch that was cut from Florida
+
+**Morning, engineering** ([[wiki/meetings/2026-09-04-rage-nova-conversion-readiness.md|Sept-4 9:04 AM]]) [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]:
+
+- **She challenged Val's formulation of what an acceptance criterion is.** Val had said criteria "должны описывать то, что исполняет код"; Irina: "акцептон[с] критерии должны описывать код или это должно быть наоборот, код… реализовывает аксептон[с] требования[?]" Val said the distinction did not land in his Russian — "у меня слабый русский язык[;] для меня это звучит практически одинаково, но, наверное, есть какойто нюанс, который вы вцепились" — and did not resolve it. Irina restated the correct order for new work: "Есть требования, есть аксеп[танс] критерии[,] есть [capability;] ещё не[т] кода[,] не[т] фич[,] ничего нет. Я говорю про правильный путь." The unresolved version of this is on [[wiki/decisions/2026-09-03-acceptance-criteria-settled-by-experiment.md]]. [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- **She asked whether Igor's work was in Git**, which is what started the exchange leading to Val's "у нас есть написанный стандарт." [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- **She defined what she wants from the developer side for tests:** hooks, so tests can be written before the game exists — "чтобы как сбросить деньги, как сделать спин и так далее" — naming the framework the team had used as "play riot" and not recalling the language. Her worked example of this week's test: "Запустил[] игру, открыл хелп, сверил, что все хелпы соответствуют тому, что написано в… одном из [capability]." Val added: "но не глазами." [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- She also noted a second, reworked version of Test 360 exists, done "с Сашей, который не работает" — which Sasha is not stated, and this is left unresolved. [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+
+**Afternoon, game development** ([[wiki/meetings/2026-09-04-naming-convention-standards-and-nova-conversion.md|Sept-4 2:07 PM]], joined for part): Val switched to Russian to question her directly about which branch the Georgia V3 Jackpot Rush was cut from; that stretch of the transcript is poorly captured. Lena's account in the same meeting was that "**Irina decided with somebody else that we are going to cut it from Florida branch**" without consulting her. See [[wiki/decisions/2026-09-04-asset-naming-convention-must-be-written-down.md]] — Val explicitly refused to pursue fault: "I actually don't really care what, who is at fault. My goal is to determine that it never happens again." [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]] [[raw/Meeting_Notes_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- [[raw/Meeting_Notes_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+- [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 - [[raw/Meeting_Notes_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]
 - [[raw/Meeting_Transcript_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]
 - [[raw/Meeting_Notes_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]

@@ -2,9 +2,9 @@
 type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
-aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus, $20 test, twenty dollar test, Twin Bison, Wolfpack, Clover Fortune, Liberty Spins, peek-to-be-in bonus, locking bison, Rodeo Spins, multi-progressive, Multi-Progressive initiative, three-level progressive, three progressive styles, bet-dependent progressive, symbol-driven progressive, time on device, jackpot reset value, RTP parity, Pyre Island]
-source-count: 81
-open-questions: 3
+aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus, $20 test, twenty dollar test, Twin Bison, Wolfpack, Clover Fortune, Liberty Spins, peek-to-be-in bonus, locking bison, Rodeo Spins, multi-progressive, Multi-Progressive initiative, three-level progressive, three progressive styles, bet-dependent progressive, symbol-driven progressive, time on device, jackpot reset value, RTP parity, Pyre Island, dual box skill feature, Lions Riches, Primero, Piggy, attraction loop, credits vs dollars, default to a dollar]
+source-count: 83
+open-questions: 5
 ---
 
 # Slot game-design principles and the progressive-bet-incentive debate
@@ -703,12 +703,38 @@ So the lever is **raise the minimum bet from 25¢ to 75¢ between 6 and 8 PM on 
 
 **§15.8:** clear — game-math, bet levels, jackpot caps and configuration only; no named-person compensation.
 
+## Sept 4 2026 — the dual-box skill feature reviewed, and Val's "our deck is a piano" theory of why JVL earns less
+
+At the [[wiki/meetings/2026-09-04-naming-convention-standards-and-nova-conversion.md|Sept-4 afternoon game-development meeting]] (English) Lena showed a mock-up and Val turned a design review into a revenue theory [[raw/Meeting_Notes_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]].
+
+**The dual-box skill feature, built on Lions Riches.** Michael: "we took **Lions Riches**, we got rid of the progressives across the top. We've got our **dual box skill feature**[,] and we lowered it down. So ergonomically, when you physically go to touch the screen, the boxes are massive. And then we're using that same sense of **choose the larger coin to win $50**… we have credits on the left[,] and a[n a]ward in the center." Val's feedback, given with the repeated caveat "I'm not an expert" [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]:
+
+- **Make the frame more transparent** — "the background of the frame, I would make it more transparent" — and **less square, more rectangular**, reduced "probably by 30%", so "it becomes a secondary thing. Right now it's primary, like it's blocking everything."
+- **It must not cover the dashboard.** Lena had tried that version and rejected it; Michael's reason is mechanical: "you can't cover the dashboard because **you need the win to go to the award meter**."
+- **Michael's collision-detection constraint:** "if you touch the right of that rectangular box, you'll choose the right… as long as the player doesn't have to get super granular with where they put their finger, it's perfectly fine."
+- **Val on the competition:** "I actually have to give a compliment to **Primero**, and I don't even like the company. But their implementation is better than **Piggy**… Four choices, but the way they're positioned is so easy to understand. Not only position[,] because of the shape, same shape. Very easy to point your finger… And also, because Prime[ro] has this huge 50-some vertical screen… They position [it] very low, so it's… less d[i]stractive for the eye." Michael's counter: "Piggy, you don't have to think… With Primero, you've got four choices," and competitors make the boxes big and prominent deliberately because "basically **it's a stopper**." Val conceded the confusion applies "only the first time." Juan's judgement: more rectangular "is less imposing to the player… the Palomino solution does require a nanosecond or two of more thought process versus selecting the bigger coin. So I think this will lead to more games played over time." *(Val also mentions playing **Light and Wonder** and preferring Primero — "this is my personal, non-professional opinion.")*
+
+**Val's V-deck theory — flagged by him as a first-time, possibly worthless idea.** "I love VDEC. But I'm analyzing why is our machine making less money than aristocrat." Aristocrat has a mechanical deck with one slam button and a small on-screen bet scale that **defaults to a dollar**; on JVL's V-deck "it's natural to start from the left… the smallest button," and stepping up feels like a warning — "you're entering a danger zone now, you're going to be playing $3 a game or $4 a game." In one image: "**our deck is a beautiful, gorgeous piano. And an aristocrat deck is no choice. Keep on slamming.**" Michael's arithmetic: Aristocrat defaults to $1, JVL to 25¢ — "that's **four to one**" — and "there's a far higher probability that the player will sit there and play at a dollar, won't bet up, won't bet down. And that is a superior mathematical solution." Efim's unanswered objection: do we actually know Aristocrat's **average bet** is higher, or only their number of plays? Juan: "we don't have any data to support that." Val's own caveat: "I'm making a theory out of it, but it might be total BS." Full decision and the V4 package on [[wiki/decisions/2026-09-04-georgia-v4-mechanical-button-deck.md]] [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]].
+
+**Credits versus dollars on the buttons — raised and deferred.** Val recommended switching to credits even in the current Georgia release; Efim said the maths blocks it because "there are different denominations in some games, not one [cent] denomination." Val asked whether pulling a game or two out was worth it; Michael named **Rodeo Spins** as "our number one performer by a substantial margin" and Efim named **Crazy Spins** as a top game, and Michael declined: "I would not suggest making that change, Val… that's a pretty substantial change without more data." Val: "Fair enough." Juan's field read on the underlying psychology — "Everything I've ever learned is Americans can't count… 600 credits is not as much as $6" — and Val's status read of the same number — "600, you're almost a millionaire, and $6 you're an idiot" — are both on the record, unreconciled. **Light & Wonder now uses credits** (Val; Juan corrected himself and agreed) [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]].
+
+**Progressives are being understood by the market, so make them more prominent.** Val: "when I explained to a couple of customers that we now have **three different progressives and they all play a different role**… People starting to understand this now. So I would make progressive a little more… prominent on the… initial screen." Juan named the surface — "the attraction loop" — and Lena said it is already being made non-static: "you will see first of all, like animated logo, then full screen game with bonus. And then again, you're coming back to game selection and you advertise, for example, like **Twin Bison** logo and then full screen Twin Bison game with a bonus." Val: "I think it will go very well." He also wants the main screen to stand out harder in a dim location — "the moment you guys came out with this liquid… glass, it stands out… It's too static right now" [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]].
+
+**§15.8:** clear — game design, bet levels and interface only; no named-person compensation.
+
+## Open questions (Sept 4 2026)
+
+- Whether JVL's V-deck is costing revenue against a mechanical deck defaulting to a dollar — Efim's sharper form: is Aristocrat's **average bet** actually higher, or just their play count? No data on either side — [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+- Whether players read **credits** or **dollars** more cautiously, and therefore which should sit on the buttons. Juan and Val gave opposite readings of the same $6/600 example — [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+
 ## Open questions (Aug 26 2026)
 
 - Location-based RTP and minimum-bet setting ("geo-fencing") versus disabling the lowest bet button during peak hours — which lever, or both? Parked by Val for the game-design team with no decision taken. [[raw/Meeting_Notes_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]] [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
 
 ## Sources
 
+- [[raw/Meeting_Notes_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+- [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 - [[raw/Meeting_Notes_Georgia_Game_Math_Performance_Review-July-31-2026.md]]
 - [[raw/Meeting_Notes_Game_Production_Schedule_Georgia_V3-July-24-2026.md]]
 - [[raw/Meeting_Transcript_Game_Production_Schedule_Georgia_V3-July-24-2026.md]]

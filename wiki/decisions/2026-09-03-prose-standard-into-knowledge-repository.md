@@ -3,9 +3,9 @@ type: decision
 title: The prose standard has exactly one location — it moves out of the LGS repository into the `knowledge` repository's standards folder, and the prose skills move into the Claude Code configuration
 date: 2026-09-03
 aliases: [one location for a standard, prose standard in knowledge repo, knowledge repository standards folder, prose skills into Claude Code config, Val's single-location rule]
-source-count: 3
+source-count: 4
 status: active
-open-commitments: 4
+open-commitments: 3
 open-questions: 1
 ---
 
@@ -38,15 +38,19 @@ He named it as a recurring pattern rather than a one-off mistake: "просто 
 ## Open commitments
 
 - [ ] [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] — move the prose standard out of the LGS repository into the `knowledge` repository's standards folder — due promptly; blocked on write access — [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
-- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — write to "Andrei" (by context the GitHub/DevOps administrator [[wiki/people/andrey-bosik.md|Andrey Bosik]] — **inference**, no surname is given on the call) asking for company-wide access to the `knowledge` repository — due promptly — [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 - [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — send Vladimir the link to the `knowledge` repository — due immediately — [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 - [ ] [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] — move the prose skills into the Claude Code configuration so all developers share one version and receive updates, with the standard updating alongside them — due on finishing — [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]] [[raw/Meeting_Notes_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+
+## History
+
+- [x] [[wiki/people/pavel.md|Pavel Frolov]] — write to "Andrei" asking for company-wide access to the `knowledge` repository — **DISCHARGED the next day.** At the [[wiki/meetings/2026-09-04-rage-nova-conversion-readiness.md|Sept-4 morning meeting]] Pavel posted the repository link into the meeting chat and noted Andrei was supposed to have given everyone access; Val confirmed it was done and checked person by person — "[Андрей] всем дал и проверил каждого аксес… он мануально сам всё это проверил **39 аксис**" (39 accesses, verified manually). [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 
 ## Open questions
 
 - **How many prose skills there are.** On [[wiki/meetings/2026-09-01-nova-prose-qa-automation-check.md|Sept 1]] Pavel reported second-hand that Vladimir had built "3 разных скила" — three different skills for Claude — while describing two functions. On Sept 3 Vladimir, first-hand, said "самое ценное, считаю сделано 2. Скилла для клауд код" — two skills. Both recorded; not reconciled — [[raw/Meeting_Transcript_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]] [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 
 ## Sources
+- [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Notes_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 - [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 - [[raw/Meeting_Transcript_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]

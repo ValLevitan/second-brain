@@ -4,8 +4,8 @@ title: Evgeniy Alekseev
 date: 2025-03-11
 aliases: [Evgeniy Alekseev, Evgeny Alekseev, Zhenya Alekseev, Женя Алексеев, Alekseev]
 disambiguation: "Owner of the main embedded code branch, this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
-source-count: 27
-open-commitments: 2
+source-count: 28
+open-commitments: 4
 ---
 
 # Evgeniy Alekseev
@@ -104,6 +104,22 @@ Reported on the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-updates-after-the-s
 
 - [ ] With [[wiki/people/genadi-peari.md|Genadi Peari]] — answer at what flash size remote firmware update becomes possible on the cheap SAS SMIB board, and whether that can be set as a requirement — due unspecified — [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
 
+## Sept 4 2026 — he owns the SAS module, and he sets the method: merge it, don't polish it
+
+At the [[wiki/meetings/2026-09-04-flex-slim-first-ten-and-flex-port-sas.md|Sept-4 midday production call]] Alekseev is the authority on where SAS actually lives. Asked whether SAS is implemented on Flex-Port, he corrected the premise: "Нет, на[ ]смиб сделан" — the basic SAS functionality is on **SMIB**, agreed with the WSS protocol side, and "просто надо взять этот софт[вер] модуль из СМИ[Б], перевести во флэкспорт." Val's "работа на полчаса" he put at "пару тройку дней," adding that [[wiki/people/eugine-yavorski.md|Yavorsky]] is needed [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]].
+
+- **He set the method and Val took it.** Against Val's instinct to polish the trade-show demo: "не отполировать, скорее взять этот сас и добавить в основной этот мейн[-]бранч… соединить" [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]].
+- **And he set the scope discipline.** Against Yavorsky's request to narrow the task: "не сузить… есть документ, который делал… Дмитрий… И просто нужно, если этого недостаточно[,] просто чтоб дописали, какие ещё команды необходимо реализовать" — everything in [[wiki/people/dmitri-chudinov.md|Chudinov]]'s document is already implemented; if more is needed the document gets extended [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]].
+- **He asked for the estimate to be deferred** until he has tried to insert and test it — "Может он… уже работает в достаточном объёме" — and he is the one who remembered the Jira ticket: "и джиру бы надо создать" [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]].
+- **He accepted the cancelled weekend without argument** ("я то не против") while naming the real cost: "это ж опять надо всё вспомнить… мне тоже надо опять всё собирать" — the working environment has to be rebuilt from scratch [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]].
+
+Ruling: [[wiki/decisions/2026-09-04-port-the-smib-sas-module-into-the-flex-port-main-branch.md]].
+
+## Open commitments (Sept 4 2026)
+
+- [ ] Restore his working environment and merge the trade-show SAS work into the Flex-Port main branch, connecting it up and checking what he can — due the weekend of Sept 5–7 2026 — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+- [ ] Create the Jira ticket for the SAS-on-Flex-Port work — due unspecified — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_recycler_architecture_planning-April-28-2026.md]]
@@ -133,3 +149,4 @@ Reported on the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-updates-after-the-s
 - [[raw/flex-port_flex-pay_test_plan-may-20-2025.md]]
 - [[raw/Meeting_Notes_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]

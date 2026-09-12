@@ -3,9 +3,9 @@ type: decision
 title: Reverse-engineer requirements and acceptance criteria from the ported Dragon Pays game and try to automate its QA (one to two weeks)
 date: 2026-08-28
 aliases: [Dragon Pays QA experiment, no-hands QA experiment, reverse-engineer acceptance criteria, automate QA Rage to Nova, second game port in parallel]
-source-count: 2
+source-count: 4
 status: active
-open-commitments: 4
+open-commitments: 3
 open-questions: 2
 ---
 
@@ -33,10 +33,17 @@ Ruled by Val at the end of the [[wiki/meetings/2026-08-28-dragon-pays-nova-conve
 
 ## Open commitments
 
-- [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — reverse-engineer requirements + acceptance criteria from the ported Dragon Pays prose and code, then try to automate the testing against them and report what works and what does not — due Sept 4 2026 (two weeks maximum) — [[raw/Meeting_Notes_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]] [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
 - [ ] [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — port a second (line) game from Rage/South Dakota to NOVA in parallel, building on Igor's work, so multi-game / game-select can be tested — due unspecified (parallel) — [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — hand Igor's converter work and findings over to Anton Leshkevich — due unspecified — [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
 - [ ] Engineering team — add any standards that come out of this work to the company standards repository — ongoing standing rule — [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+
+## History — what the Sept-4 review delivered
+
+- [x] [[wiki/people/igor-metelski.md|Igor Metelski]] — reverse-engineer requirements + acceptance criteria from the ported Dragon Pays prose and code — **DELIVERED on the due date.** At the [[wiki/meetings/2026-09-04-rage-nova-conversion-readiness.md|Sept-4 2026 review]] Igor reported **212 acceptance criteria**, grouped by base game, free-spin game, the display of both, work with the maths server, and system messages [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]; produced by Claude from his own audit of what the Rage version implements and NOVA does not, plus the markdown notes Claude accumulated during the port. He deliberately left open whether each criterion is automated or checked by a person. [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- *(The original task, as set on Aug-28, is on the derived notes of that meeting* [[raw/Meeting_Notes_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]*.)*
+- **The automation half was NOT done and was re-tasked the same day.** Igor had not yet handed a criterion to Claude to see whether it becomes a full automated test. Val's proposal, which Igor accepted — "давайте пройдёмся и попросим [Клода] протестировать и сказать где… он не может протестировать" — carries forward on [[wiki/topics/test-automation-strategy.md]] (Sept-4 open commitments). [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- **The animation-determinism objection got a partial answer.** Isolating a single scene makes deterministic pixel comparison feasible where a running layered game does not — the basis of Anton Leshkevich's scene-validation tool. Pavel accepted the reasoning. Still open for in-game animation. [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- **The standing standards rule restated and given a location.** Val closed the Sept-4 meeting with it — use the standards, add to them, point your code at them first — and named the repository in the afternoon: Knowledge Base / Standards in GitHub. See [[wiki/decisions/2026-09-04-point-claude-at-the-standards-repository-first.md]]; the loose "standards repository" wording on this page is superseded by that structure. [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 
 ## Open questions
 
@@ -44,5 +51,7 @@ Ruled by Val at the end of the [[wiki/meetings/2026-08-28-dragon-pays-nova-conve
 - Should Igor's test-only LGS modifications for **mystery progressive** be merged, or should the LGS team implement that support properly? Igor raised it and doubted his own changes belong in the branch; Val set it aside for that meeting — [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
 
 ## Sources
+- [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Notes_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
 - [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]

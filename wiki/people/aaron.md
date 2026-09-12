@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 117
+source-count: 118
 open-commitments: 2
 ---
 
@@ -315,6 +315,10 @@ A long [[wiki/people/val-levitan.md|Val]] session ([[wiki/meetings/2026-04-13-aa
 - **IP MCP model regression** ([[wiki/meetings/2026-04-28-lena-ip-mcp-model-regression.md|Lena IP MCP Model Regression]], Clayton + Lena + Val): Clayton cited Aaron as a counter-data-point — Aaron reports **no problems with Opus 4.7** — but qualified that Aaron is doing coding work, where 4.7 is fine, unlike the multi-needle retrieval Lena's workflow needs. Lena also referred to **"Aaron's MCP add-on"** as the separate tool she currently uses for deleting/archiving JIRA issues. [[raw/Meeting_Transcript_lena_IP_MCP_model_regression-1-April-28-2026.md]]
 - **CAS/CMS doc-readiness review** ([[wiki/meetings/2026-04-28-cas-cloud-migration-doc-readiness-review.md|CAS Cloud Migration Doc-Readiness Review]]): Dmitri Chudinov explained a "docstring" as "how Aaron described it" — a comment on every Java method stating what it does and its inputs/outputs. [[raw/Meeting_Transcript_cas_cloud_migration_doc_readiness_review-April-28-2026.md]]
 
+## Sept 4 2026 — Pavel corrects the record on what Aaron actually built for the RK3568
+
+Asked by Val whether the Flex-Port debug environment should be "типа, как сделал [Аарон] для rk 35 68," [[wiki/people/pavel.md|Pavel Frolov]] said no and drew the distinction: "**Аарон никакую среду не подымал**, он всего лишь собрал набор скриптов, которые позволяли собрать нужные модули[ ]и собрать корневую файловую систему для этого [RK] процессора" — a build toolchain, not a development environment; the environment work that followed was Pavel's own ("а потом вы уже делали" — Val; "Да" — Pavel). Recorded because it narrows what the corpus elsewhere attributes to Aaron on the RK3568. Context on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 4) [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_lena_IP_MCP_model_regression-1-April-28-2026.md]]
@@ -435,3 +439,4 @@ A long [[wiki/people/val-levitan.md|Val]] session ([[wiki/meetings/2026-04-13-aa
 - [[raw/Meeting_Transcript_automation_progress_review-March-27-2026.md]]
 - [[raw/Meeting_Transcript_Transcripts_MCP_setup_Lena-March-31-2026.md]]
 - [[raw/Meeting_Notes_Transcripts_MCP_Setup_Lena-March-31-2026.md]]
+- [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]

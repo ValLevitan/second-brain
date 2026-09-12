@@ -4,7 +4,7 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 61
+source-count: 62
 open-commitments: 33
 open-questions: 0
 ---
@@ -337,6 +337,10 @@ He went from that 8:03 AM internal call into both external meetings [[raw/Meetin
 - [ ] After a clean test, register the first real Flex-IQ location and order its first pack of cards, then keep placing units toward Val's 20–50 target — due ~1 week for the first location — [[raw/Meeting_Transcript_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
 - [ ] With [[wiki/people/felipe-miranda.md|Felipe]]: visit a nearby location after work to observe how PAX handles wrapped gift cards, and build a direct relationship (including banking information) with the pilot locations — due Aug 21 2026 / ongoing — [[raw/Meeting_Notes_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]] [[raw/Meeting_Transcript_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
 
+## Sept 4 2026 — his Monday Flex-Port meeting becomes the anchor for the engineering pre-meeting
+
+Klimovich was not on the [[wiki/meetings/2026-09-04-flex-slim-first-ten-and-flex-port-sas.md|Sept-4 midday call]], but his diary set its outcome. [[wiki/people/pavel.md|Pavel]] recalled that Klimovich "и планировал митинг как раз на тему развития флекс портов" for Monday; Val scheduled the engineers ahead of it — "давайте тогда соберёмся с инженерами до митинга с Климовичем… Митинг с Климовичем назначен на 08:00? Так давайте тогда на 07:00" — and undertook to send the invitation. *(Asked whether "Андрей" was needed, Pavel offered "Ты Бусик[?] Или Андрей Климович?" and Val answered "Климович" — [[wiki/people/andrey-bosik.md|Andrey Bosik]] is not on this thread.)* Ruling: [[wiki/decisions/2026-09-04-port-the-smib-sas-module-into-the-flex-port-main-branch.md]] [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Notes_Continental_Vendor_Lock_In_Dead_End-September-2-2026.md]]
@@ -400,3 +404,4 @@ He went from that 8:03 AM internal call into both external meetings [[raw/Meetin
 - [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]
 - [[raw/Meeting_Notes_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]]
 - [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]]
+- [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]

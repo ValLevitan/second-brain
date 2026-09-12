@@ -3,7 +3,7 @@ type: decision
 title: First NOVA product = South Dakota VLT-2 (owner ruling, 2026-09-01) — supersedes the Aug-14 "South Dakota Vertical 01 first" sequencing
 date: 2026-09-01
 aliases: [first NOVA product, first Nova release, SD VLT-2 first on NOVA, South Dakota VLT-2 first NOVA product, NOVA release sequencing ruling]
-source-count: 0
+source-count: 1
 status: active
 open-commitments: 0
 open-questions: 0
@@ -47,7 +47,23 @@ Asked whether the ~Nov-1 GLI target still stands and whether Calle Ocho is still
 
 **Plan vs actual — the general principle the owner stated here.** A schedule slip is not a decision change. Keep the planned date as the plan of record and record the actual date beside it; do not rewrite a plan because delivery moved by a couple of days. (Owner ruling 2026-09-01.)
 
+## Sept 4 2026 — corroborated in the game-development meeting, and NO NOVA GLI date was set
+
+The [[wiki/meetings/2026-09-04-naming-convention-standards-and-nova-conversion.md|Sept-4 afternoon game-development meeting]] (English) is the first source in which the product team itself states the Rage→NOVA cut-over, and it matches this ruling. **These are sources, not owner rulings**; the ruling above stands unchanged [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]:
+
+- **Nebraska is the last release on Rage; everything after it is NOVA.** Val: "my understanding that South, South… no, hold on… **Nebraska is the last stage, the last release for OnRage**." Michael: "Correct. Everything is basically **everything is Nova from here on out**." Val: "Yes, yes, correct."
+- **The next South Dakota VLT release is the NOVA one.** Val: "**South Dakota VLT. The next… South Dakota VLT is… a nov[a]**"; Lena: "start in January, South Dakota will be No[va]." Tentative start of the conversion is **October 1** — "starting 1st of October, tentatively, we're planning for a conversion of **South Dakota VLT from RAGE to… Nova**" — with Lena noting it starts a little later in practice because developers are on Nebraska in October, and she will do all the design screens for South Dakota Real Keno meanwhile.
+- **Conversion has been tested on two games and both went smoothly.** Val: "we've tested automatic conversion from Rage to Nova… we've tested **two games**. [O]ne to vertical and one to from **dual screen to dual screen**. And in both cases, it went very smoothly. I think Ke[no] will be easier, to be honest with you. But this is my own **professional opinion**." Michael's plan: start by converting the best-performing titles already in South Dakota D2703 and "use those as our test bed."
+- **C43 Curve is a NOVA product** — "C43 Nova will be introduced at the Georgia show. It'll be developed in Nova" (Michael). See [[wiki/decisions/2026-09-04-d27-discontinued-curve-c43-premium-line.md]].
+- **The regulator question was raised — and NO NOVA certification date was set.** Juan: "just from a compliance standpoint, **do we want to deal with GLI and Nova this early? Or should Eclipse get Nova first** to help us troubleshoot anything?" Val declined the premise rather than naming a date: "**Eclipse doesn't test anything. Eclipse only tests us**… they're not traversing in any depth through anything that we're doing. **They're testing SAS.** So it's nothing." His reason for confidence was the development and testing ecosystem being built — "I'm going to give you… an incredible development environment… I'm going to set up an incredible testing ecosystem around this. And even if we make an error in anything, it will be much easier for me to find it, to fix it permanently. So, hands down, **we're ready**." **No date for a NOVA submission to GLI appears anywhere in this source.** The owner ruling above — *NOVA → GLI is unscheduled* — is unaffected, and the Oct-1/January dates here are **development** dates, not certification dates. Do not convert them into a GLI date.
+- **One related product constraint confirmed the same day:** JVL is **not** moving to 4K resolution. Lena asked twice; Val: "No, we're not moving. There's absolutely zero reason right now to move to 4K… There's 0 benefit."
+
 ## Carry-forward
 
 - Acknowledge the **~2-day slip on the September-1 RAGE-based SD VLT-2 GLI submission (actual ≈ Sept 3 2026)** in the next weekly update — owner's explicit instruction, 2026-09-01. *(Written for the Friday 4 September 2026 run, which did not fire; carries forward to whichever run happens next.)*
-- **NOVA has no GLI date.** Watch for one being set; until then the wiki must say *unscheduled*, not carry the lapsed ~Nov-1 figure.
+- **NOVA has no GLI date.** Watch for one being set; until then the wiki must say *unscheduled*, not carry the lapsed ~Nov-1 figure. *(Checked again against the Sept-4 2026 sources: the question was asked in the room and Val answered with readiness, not a date. Still unscheduled.)*
+
+## Sources
+- [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+
+*(The owner rulings above carry no `[[raw/…]]` source and none should be fabricated — §16. The single source listed here backs only the Sept-4 corroboration section.)*

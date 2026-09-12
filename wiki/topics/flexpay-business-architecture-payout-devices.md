@@ -2,9 +2,9 @@
 type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
-aliases: [FlexPay Evolution, recycling cassette, drop cassette, two-tape reel, refill cycle, IQ point of sale, promo credit on SAS 2, validator emulation, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS, ATM registration, slim ATM, Flex-Port-Mini, Flex Port Mini, eVoucher, wrapped gift card, EasyLynx, second SAS port, ATM Recycler, PTI Sentry, MudaGoose, Lego bricks, closed loop ATM, promo meter, technology agnostic, player is the king, tap to fund, the magic is in speed]
-source-count: 204
-open-commitments: 78
+aliases: [FlexPay Evolution, recycling cassette, drop cassette, two-tape reel, refill cycle, IQ point of sale, promo credit on SAS 2, validator emulation, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS, ATM registration, slim ATM, Flex-Port-Mini, Flex Port Mini, Flex-Slim first ten, brackets from China, twelve eight twenty, eVoucher, wrapped gift card, EasyLynx, second SAS port, ATM Recycler, PTI Sentry, MudaGoose, Lego bricks, closed loop ATM, promo meter, technology agnostic, player is the king, tap to fund, the magic is in speed]
+source-count: 206
+open-commitments: 79
 open-questions: 15
 ---
 
@@ -1600,12 +1600,58 @@ That is the same "answer yes to everything at zero cost" premise underneath the 
 
 **§15.8:** clear — device, subscription and competitor pricing only; no named-person compensation.
 
+## Sept 4 2026 (midday) — the first ten Flex-Slims, the giveaway priced from the inside, and SAS moved onto Flex-Port
+
+The [[wiki/meetings/2026-09-04-flex-slim-first-ten-and-flex-port-sas.md|Sept-4 midday production call]] (Russian, 12:29–1:49 PM ET; [[wiki/people/val-levitan.md|Val]], [[wiki/people/genadi-peari.md|Genadi Peari]], with [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]], [[wiki/people/eugine-yavorski.md|Eugine Yavorsky]], [[wiki/people/elizabeth.md|Elizabeth Palomino]] and, late and from his car, [[wiki/people/pavel.md|Pavel Frolov]]) is the first source that turns the free-hardware pitch into a **parts list and a build schedule**. Rulings: [[wiki/decisions/2026-09-04-brackets-and-harnesses-from-china-and-a-metal-order-for-one-hundred.md]], [[wiki/decisions/2026-09-04-flex-port-keeps-its-screen.md]], [[wiki/decisions/2026-09-04-port-the-smib-sas-module-into-the-flex-port-main-branch.md]].
+
+### The first ten Flex-Slims, in parts
+
+Val's restated target, spoken deliberately for the record: the first ten **Flex-Slim** units with **card dispenser, front-load bill acceptor, printer and the optical parts**, faster than the four weeks he had been quoted. Genadi's inventory: two Slims in hand and **eight more "где то в океане"** (supposed to have shipped mid-July); **twenty plastics already landed in Georgia** and not entered in the system ("Кроме меня сейчас, наверное, никто не знает"); **ten card dispensers bought, four installed in Flex-Pay units, six more in stock at about $380 each**; **twelve monitors**; the small interface board for printer and card dispenser with stock on hand; set wires already ordered; and the **RK3568** as the Slim's standard board. Full detail and the bracket critical path on the decision page [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]] [[raw/Meeting_Notes_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]].
+
+A second procurement thread surfaced in passing: Genadi had spent time the previous day pushing Elizabeth Palomino and [[wiki/people/mikhail-perelman.md|Mikhail Perelman]] to get an **order of 100 Flex-Ports** moving — "чтобы она пошла, посчитала, чтобы он харнес[ы] начал заказывать" [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]].
+
+### The giveaway costed out — the first itemised retail arithmetic in the corpus
+
+Val told Genadi to take a pen and write the numbers down, then walked the bundle. **This is the same offer as [[wiki/decisions/2026-09-02-free-ports-and-pos-with-every-machine-bought.md]], but with a different composition and a different set of retail values** [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]:
+
+| Item | Retail value stated Sept 4 | Quantity in the bundle |
+|---|---|---|
+| Flex-Port | "каждый ритейл прайс на порт **$795**" | 5 |
+| Flex-IQ | "Один [IQ] это **$895** ритейл прайс" | 1 |
+| Flex-Slim | "**$7950**" (Genadi's first guess: "Ну на 8000 будет") | 1 |
+| **Total product given** | "**12820**" | |
+
+Against that: "Оператор платит мне за машину **15[,]750**. Минус **12,820**… **$2930**. У оператора в голове цифра $2930, он покупает [машину]." The machine price was raised off the back of the show — "Мы раньше машины продавали по **13 500**" — and the competitive frame is "вместо, например, Аристократа за **20000** он покупает у нас машину за **16000**. И получает всё абсолютно всё забесплатно," plus "эс[а]бскр[и]п[шн] **$90 в месяц**" [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]].
+
+- **Composition differs from Sept 2.** Sept-2 was *six ports plus one terminal* (~$7,000 of hardware); Sept-4 is *one Flex-Slim + one Flex-IQ + five Flex-Ports* ($12,820). Both are recorded; **neither source mentions the other and no reconciliation is attempted here.**
+- **The unit prices differ from the ones quoted to customers three days earlier.** On Sept 1 the port was "**nine hundred fifty dollars**" / "approximately a thousand" and the IQ "a thousand dollar device"; here they are **$795** and **$895**. The Sept-1 figures were explicitly framed as street retail for a single unit; the Sept-4 figures are given internally, to compute the value of a package. **Both stand; neither is corrected by the other.** See also [[wiki/topics/jvl-machine-pricing-strategy.md]] (Sept 4, midday).
+- **And the Flex-Slim at $7,950 is a third kiosk figure.** The slim kiosk without cash dispensing was quoted at "**approximately five thousand**" to customers on Sept 1 and Sept 2, and the kiosk with an ATM at "approximately twelve thousand." $7,950 sits between them and **nothing in the source says which configuration it is**. Recorded as spoken.
+- **Val's stated aim for the offer, in his own words:** "По сути дела… мы в принципе должны **убить рынок**… этим оф[ф]ром. Рынок, я имею [в виду] тут о всех других" — kill the market, meaning everyone else. The market arithmetic behind it: "Джордж[ия] **47000 машин**… на **7400** лак[ей]ш[е]нов… у вас получится **5.9 машин на лакейшин**"; only "**20%** лакейш[е]нов имеют какого то сорта [систему]," and on the other 80 percent "им раздали забесплатно… так называемый **PAX**… [который] хреново работ[ает]." *(The 47,000 / 7,400 / 5.9 figures match the same-day statement recorded on [[wiki/projects/georgia-market-rollout.md]]; the 20/80 split of locations with and without a card system is new here.)* [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+- **Why he is pushing tooling so hard:** "Вы понимаете, что я вас не просто так толкаю?… сделайте образцы, если образцы заработают[,] сразу переводите все на тулы." Genadi's reaction to the offer itself was simply "Ничего себе," and his first thought was the operator's: "Чтобы они могли ретрофит[нуть] весь лакейшен" [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]].
+
+### SAS on Flex-Port, and Pavel's stage-2 debug environment
+
+The SAS ruling is on [[wiki/decisions/2026-09-04-port-the-smib-sas-module-into-the-flex-port-main-branch.md]]. What belongs here is Pavel's counter-proposal, made from his car in the worst stretch of the recording. He accepted the port as "встреча один" (stage one, as transcribed) and named a second stage of his own [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]:
+
+- **Debug hooks and packet logging, or you debug blind.** "нам надо какието отладочные хуки для Того, чтобы удобно отслеживать… логирования какието пакеты данных, то есть на этапе тестирования это очень будет важно… чтобы не упустить какието… ошибки или там потери связи и там потери баланса… без этого… можно очень долго пытаться потом исправлять ошибки."
+- **What he has already built for himself.** "Я сделал во первых там **эмулятор игровой машины**. Он… на 100%, конечно же, не повторяет машину, но большую часть [workflow] может обеспечить гораздо быстрее, чем это было бы с машиной," plus "**консоль отладки, полноценная с командами[,] с логами**." Asked what processor: "Это на **стм 32**. Там **743**."
+- **He corrected Val on what Aaron built.** Val asked whether this was like the environment [[wiki/people/aaron.md|Aaron]] made for the RK3568. Pavel: "нет… **Аарон никакую среду не подымал**, он всего лишь собрал набор скриптов, которые позволяли собрать нужные модули[ ]и собрать корневую файловую систему для этого [RK] процессора." For STM, "поставщик… уже да[ю]т много всяких библиотек… среда[,] в общем-то[,] есть."
+- **The environment is the surroundings, not the toolchain.** "нам для проведения тестов необходимо, например, **флекспей** подключен[ный]… нам нужна **машина, подключенная в сеть**[,] нам надо… подключенный **порт, возможно в нескольких экземплярах**… здесь у тебя есть, например, [о]тладчик… **Эстелинк**" — an **ST-Link** debugger — and then, crucially, a written description of what is connected where and where each unit's code lives, "и в принципе, он много чего находит и говорит, где что надо поправить" — "он" being Claude, which "может этот к[од] прям на лету менять[,] перезапускать."
+- **Most of it exists and has been handed on.** "Большую часть я уже сделал… И показал это **[Хамину]** сегодня. Он может это взять, по крайней мере для своего тестирования" — see [[wiki/people/alexei-khamin.md|Alexei Khamin]], JVL's QA engineer.
+- **How to write it up as capabilities — his rough shape, offered as a guess.** Chudinov's document "была схема работы не его [eWallet?], а… схема работы [тита]" *(the transcript renders a term repeatedly as "его лет"; by the pattern already recorded on [[wiki/decisions/2026-09-02-flex-port-sas-universal-with-scanner-touch-vs-non-touch.md]] this is most likely an **eWallet** garble — flagged as inference, not asserted)*. His proposal: talk the scheme through out loud on Monday with the interested people, "и пусть Клод предложит, какие [capabilities]." His rough shape: "одна[ —] это обеспечить работу флекс порта в режиме **сас айфти транзакций** [SAS **AFT** transactions — "AFT" also appears in Latin script in the degraded English stretch of the same passage]… 2[ —] это использование на флекс порт[е]… [и] дополнительная вспомогательная [capability] о том, чтобы… **[debug] среду создать**… консоль или там эмулятор. Ну это можно такие тоже [capabilities] создать, либо это просто как фичи внутри [других]."
+- **Val parked it to Monday:** "давайте вы подумайте на уикенд, и мы в понедельник соберёмся."
+
+Two small items closed the call: Genadi asked for time on the recycler and Val deferred it — "У меня есть, но… мне надо на другой митинг идти сейчас" — and Val told Genadi what he made of the modem call that had ended minutes earlier (on [[wiki/people/pavel.md]]) [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]].
+
+**§15.8:** clear — device, component and bundle pricing only; no named-person compensation.
+
 ## Open contradictions
 
 - **How much of the machine market lacks a second SAS port.** On Aug 24 2026 Val put the excluded segment at "гдето 15 20% рынка… гдето 10 15000 машин сегодня" [[raw/Meeting_Transcript_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]; on Sept 2 2026 Pavel described the same excluded segment as "10% рынка где нету 2 сасса," with Andrei agreeing [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]. Both are speaker estimates about the same present-day market, made nine days apart, and no reconciliation was attempted on either call. Recorded; not resolved. **A third datum, the same day (Sept 2 2026, at the InComm lunch):** Val himself told InComm "**majority of the market today, 90% of the market has two SAS ports**" — i.e. 10% excluded, the figure Pavel gave that morning and not the 15–20% Val gave on Aug 24 [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]]. He does not mention the earlier figure or acknowledge changing it, and no source reconciles them. **Recorded as evidence on the 10% side; the contradiction stays open.**
 
 ## Open commitments
 
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — think the Flex-Port capability breakdown over the weekend and bring it to the Monday meeting: SAS AFT transactions on Flex-Port, the existing Flex-Port use, and a supporting debug-environment capability (console plus machine emulator) that may instead be features inside the other two — due Monday Sept 7 2026 — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
 - [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — implement all three Flex-IQ pre-pilot changes in code (barcode activation, ticket-receipt printing, flow/screen cosmetics) — due end of week; hardware is the only sticking point — [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
 - [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — finish the remote software update and begin testing it, rollback included — due finish end of week, test the following week — [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — re-run the payment-hub API request so the stuck/errored transactions move to pending and retry ACH the next morning — due right after the Sept-2 meeting — [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
@@ -1922,3 +1968,5 @@ That is the same "answer yes to everything at zero cost" premise underneath the 
 - [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]
 - [[raw/Meeting_Notes_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]]
+- [[raw/Meeting_Notes_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+- [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]

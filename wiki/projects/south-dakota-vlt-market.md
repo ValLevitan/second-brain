@@ -3,8 +3,8 @@ type: project
 title: South Dakota VLT market entry
 date: 2025-01-22
 aliases: [South Dakota, SD VLT, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950, V43, D27, SD cap, Bioliches, Gypsy Spirit, Crazy Colt, Queen of Luxor, Liberty Spin, Rodeo Spin, South Dakota vertical, MG Oil report, VLT2, Cool Cat, Black Hills Kino, Dragon Pace, Dakota Bison, Solar Keno, Keno Deluxe, IP459, IP1063]
-source-count: 37
-open-commitments: 2
+source-count: 39
+open-commitments: 4
 ---
 
 # South Dakota VLT market entry
@@ -215,6 +215,25 @@ On the [[wiki/meetings/2026-08-26-alignment-planning-nova-september-releases.md|
 
 The [[wiki/meetings/2026-08-28-dragon-pays-nova-conversion-review.md|Aug-28 review]] demonstrated **Dragon Pays**, ported from the Rage South Dakota horizontal product ("продукта дакоты") onto NOVA/Omni with the real Dragon Pays math supplied by [[wiki/people/efim-podvoiski.md|Efim]]. Completeness estimates on the call ranged from 85% (Pavel) to 95% (Irina), with [[wiki/people/igor-metelski.md|Igor Metelski]] cautioning that a fair divergence from the Rage games remains. Full detail on [[wiki/topics/nova-platform-architecture.md]] (Aug-28). Two consequences for this market: the **game-select / multi-game screen has never been run on Omni**, so a second horizontal South Dakota game is needed to test it — assigned to [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — and the team wants a hardware build to check big-win performance on a real machine. [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]] [[raw/Meeting_Notes_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
 
+## Sept 4 2026 — the D2703 game-selection screen, more Keno coming, and the Rage→NOVA conversion timing
+
+At the [[wiki/meetings/2026-09-04-naming-convention-standards-and-nova-conversion.md|Sept-4 afternoon game-development meeting]] (English) [[wiki/people/lena.md|Lena Zhukova]] showed the proposed game list and interface for **South Dakota D2703** [[raw/Meeting_Notes_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]] [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]:
+
+- **Dual screen, not vertical, for this product.** Michael: "because Val you said you don't want vertical there now… you want us to continue with dual screen. Is that still?" — Val: "Yes." The vertical South Dakota product is displaced: "we will slot that in instead of the South Dakota vertical product" (Michael, of Queen of Luxor Keno).
+- **Six games fit comfortably on one line, with room to grow to about fifteen.** Lena: "For D27, we can easily put six games in one line and it looks good because monitor is [wide]… and icons will be big enough."
+- **The Keno line-up is growing.** "We've got the two Kenos that we've done, and then we'll add **Solar Keno**, and then I'm pitching Juan on **Queen of Luxor Keno**" — Michael's reason: "IGT's got a Cleopatra… that is a standby… standard." [[wiki/people/juan-martinez.md|Juan]] still has to evaluate which games go in, including whether to add **Fiery Ice Link** and **Jackpot Rush**.
+- **Val's forward-looking note: the number of Keno games will grow a lot.** From touring South Dakota locations — "I went to a lot of locations, I had a massive list, I hired a driver and drove throughout… countless number of locations" — he expects to get to around twenty Keno games, and said the layout "lends itself beautifully to **multiple carousels**." He would not use left/right arrows but "a **visual infinity**," and recalled that Lena had implemented a carousel with see-through tiles on the amusement ECHO product years earlier that "worked beautifully." Michael raised Val's own struggle with Primero's carousel; Val: "because it was implemented incorrectly."
+- **Operators get to switch which games are offered.** Michael relaying Juan: "he wants to be able to have the operator switch which games are offered to keep it fresh and not offer everything all the time." Val agreed and added that the top screen could then carry advertising.
+- **Conversion timing.** "starting 1st of October, tentatively, we're planning for a conversion of **South Dakota VLT from RAGE to… Nova**." Lena's constraint: "developer will work on Nebraska in October, so we will start a little bit later. For now, I will work on… all design screens for **South Dakota real Ke[no]**, and once we finish with Nebraska, we will move to [it]." Michael's approach: convert the best-performing existing titles in D2703 first and use those as the test bed. Lena also confirmed some games and the second screen will be redesigned rather than converted as-is, and flagged "creating some new content like for varian[ce]… for example" alongside. See [[wiki/decisions/2026-09-01-first-nova-product-south-dakota-vlt-2.md]] (Sept-4 corroboration) — **no GLI date for NOVA was set.**
+- **Solar is redone from vertical to horizontal.** Lena: "we will redo solar from vertical to horizontal because I created design for vertical."
+- **No move to 4K.** Lena asked twice for confirmation; Val: "There's absolutely zero reason right now to move to 4K… There's 0 benefit."
+- **§15.8:** clear — product/market content only; no named-person compensation.
+
+## Open commitments (Sept 4 2026)
+
+- [ ] [[wiki/people/juan-martinez.md|Juan Martinez]] — evaluate and confirm which games go into South Dakota D2703, including whether to add Fiery Ice Link and Jackpot Rush — due unspecified — [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+- [ ] [[wiki/people/lena.md|Lena Zhukova]] — all design screens for South Dakota Real Keno while developers are on Nebraska, then redo Solar from vertical to horizontal — due through October — [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+
 ## Open commitments (Aug 26 2026)
 
 - [ ] [[wiki/people/ivan.md|Ivan]] — open the South Dakota VLT-2 (South Dakota) submission conversation with the certifier now, copying Val and [[wiki/people/juan-martinez.md|Juan]] on all correspondence, and watch the schedule for slippage — due start same day or next (Aug 26–27 2026) — [[raw/Meeting_Notes_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]] [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
@@ -226,6 +245,8 @@ The [[wiki/meetings/2026-08-28-dragon-pays-nova-conversion-review.md|Aug-28 revi
 
 ## Sources
 
+- [[raw/Meeting_Notes_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+- [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 - [[raw/Meeting_Notes_Inna_Progressive_Bonus_Review-May-22-2026.md]]
 - [[raw/Game_Development-May-29-2026.md]]
 - [[raw/Meeting_Transcript_game_development_March-27-2026-1.md]]

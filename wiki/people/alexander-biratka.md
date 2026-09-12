@@ -4,7 +4,7 @@ title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka, Alex Baratka, Alex Beratka, Alexander Berankov, Biratko, Alexander Biratko]
 disambiguation: "Alexander cluster (provisional — owner ruling pending): distinct JVL people sharing the given name Alexander. [[wiki/people/alexander-biratka.md|Alexander Biratka]] = Omni/Pixi framework & build engineer (aka Sasha; garbles Beratko/Baratka); [[wiki/people/alexander-korochkin.md|Alexander Korochkin]] = LGS QA-automation engineer (GitHub Alexander_K@JVL, read-only; aka Alexander K); [[wiki/people/alexander-tumanov.md|Alexander Tumanov]] = Minsk QA / data-center knowledge-capture hire (surname unverified). Resolve by context: Omni framework / Pixi / build → Biratka; LGS QA automation / read-only build consumer → Korochkin; manual-tester onboarding / data-center interviews → Tumanov. A further name 'Alexander Derok' (back-end build-integration / Java, per Val on Feb-6-2026) is unconfirmed — queued, not a page. Not [[wiki/people/alexei-khamin.md|Alexei Khamin]] (different name). Queue anything fitting none; never force-match."
-source-count: 43
+source-count: 45
 open-commitments: 3
 open-questions: 0
 ---
@@ -146,8 +146,20 @@ He returned from vacation on Aug 31 2026 ("Вчера вчера вышел"; Ir
 - **Pavel named him as the candidate for the games-side NOVA prose** ("саша был у нас претендентом на то, чтобы заняться этим"), and Val added him to the Friday QA-automation check-in with [[wiki/people/igor-metelski.md|Igor Metelski]]: "Я приглашу тогда сашу бератко сюда тоже." [[raw/Meeting_Transcript_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]
 - **Sept 3 (referenced, not present).** Irina cited his existing game-assembly-and-run-on-a-machine work as a candidate integration base; Pavel pointed out it is the old approach with a hardware layer as a set of libraries, not the Rust-module integration Evgeny is describing. See [[wiki/decisions/2026-09-03-module-contracts-and-nova-integration-repository.md]]. [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 
+## Sept 4 2026 — pushes the scene tool toward automatic visual validation, and defends the browser
+
+At the [[wiki/meetings/2026-09-04-rage-nova-conversion-readiness.md|Sept-4 morning meeting]] [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]:
+
+- **He saw the designer use-case in Anton's scene-validation tool** — load a scene and see it in the new engine while developing a new game, and layer scenes to see the finished game — then pushed it further, to automatic validation by screenshot comparison: "разрешить искусственному интеллекту посмотреть старый вью… и новый вью, и чтоб он мог это сравнить и сказать, что да, действительно новый вью получился такой же… без нашего участия." Pavel accepted the reasoning, because isolating a scene removes the non-determinism that blocks pixel comparison inside a running game. Anton had built the tool as an evolution of one Sasha himself started "пару лет назад." See [[wiki/topics/test-automation-strategy.md]] (Sept-4). [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- **He floated rewriting JVL's own engine in Rust** — "возьмём наш старый движок и доработаем его, например, переведём его на раст" — and argued a house engine may be the cheaper investment: "платить какому нибудь [Unreal] явно будет намного больше, чем поддерживать свой движок." He also conceded Rust's limit for video buffers: "там всё равно требуется доступ… Прямой к памяти. Поэтому там сишка останется." [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- **But he defended the current browser stack** — JVL chose it because the product had to be online, no free engine as good has appeared, "браузер не умрет… в ближайшие 5 лет точно," and "в реальности на данный момент нам хватает возможности браузера." His one named risk: possibly having to rewrite a piece of Chromium to implement a feature. See [[wiki/decisions/2026-09-04-browser-pixi-stack-concern-closed.md]]. [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- **He reported the printer library is already being integrated into Flex-Pay** — "Библиотеку принтера уже интегрируем во флекспей" — one of the pieces of evidence Val used for "1 октября началось уже в сентябре или даже в августе." [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- **He named the Val–Irina acceptance-criteria disagreement for what it is:** "что перв[ое,] яйцо или курица." [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Notes_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]
 - [[raw/Meeting_Transcript_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]
 - [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]

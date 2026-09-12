@@ -3,7 +3,7 @@ type: decision
 title: Every NOVA module gets a contract (written by Claude, not by hand), and a machine-side NOVA integration repository is created and populated — two milestones over two weeks
 date: 2026-09-03
 aliases: [module contracts, NOVA integration repository, contracts written by Claude, integration repo for the machine side, JSON module links, two-week milestones contracts and integration repo]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 6
 open-questions: 2
@@ -45,6 +45,17 @@ Evgeny was candid about the load: "изза Того, что сейчас тут
 
 He also expects the tooling to end up as two skills: "один который будет… В обратную сторону делать, то есть ну писать тесты. На то, что уже написано… а 2 на то что… делаем какуюто новую интеграцию какуюто новую фичу и есть там, например, в одном… пол реквест с указанием capility. В другом репозитории есть пол реквест… через скилл можно будет это всё стянуть, посмотреть, что поменялось… и он сам предложит [и] напишет тесты" [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]].
 
+## Sept 4 2026 — the same question reopened, doubted, and closed by Val
+
+The next morning's [[wiki/meetings/2026-09-04-rage-nova-conversion-readiness.md|wider meeting]] took this from a two-week milestone to a dated, non-negotiable instruction, and surfaced the doubts that had not been aired on Sept 3 [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]:
+
+- **A hard date: every repository carries its own data contract beside the code by September 11 2026**, 80% acceptable and 100% preferred. Val asked anyone who would not do it to raise a hand; nobody did.
+- **The method here is confirmed** — contracts written by Claude from the code, not by hand — and Val drew the schedule consequence: this is "день[,] часы[,] дни," not weeks.
+- **The maths server is opened up and gets a contract too** — "у нас нету почти тайны в математике."
+- **Three doubts were recorded and overruled rather than answered:** contract versioning after the first release (Dzmitry Chudzinau), who releases the transaction/integration repository on each release given Flex-IQ's twelve repositories, and Igor Metelski's question of who actually consumes the contracts if Claude already has the implementations. Val: "Я уважаю ваши сомнения… Мы идём с дат[а-]контрактами. У нас на это написан стандарт. Это стандарт опубликован."
+
+Full ruling, with the quotations, on [[wiki/decisions/2026-09-04-data-contracts-closed-every-repository-by-september-11.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — write the LGS contracts (entry points: devices, the game, SAS, external server / player control) — due aim end of next week, ~Sept 11 2026; he flagged he may not finish everything — [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
@@ -60,5 +71,6 @@ He also expects the tooling to end up as two skills: "один который б
 - How the integration test runs are actually launched. Evgeny deferred it: "вопрос в том, как это всё правильно запускать. Но это мы разберемся, сначала нам надо дойти до этой пачки" — [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 
 ## Sources
+- [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Notes_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 - [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]

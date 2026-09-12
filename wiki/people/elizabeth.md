@@ -2,8 +2,9 @@
 type: person
 title: Elizabeth
 date: 2025-04-28
-aliases: [Elizabeth, Elizabeth Palomino]
-source-count: 10
+aliases: [Elizabeth, Elizabeth Palomino, Элизабет]
+source-count: 13
+open-commitments: 3
 disambiguation: "JVL engineering technician (full engineer by degree) handling Georgia service/parts; ex-Colombian-operation technician; Spanish-speaking. Surname Palomino (per the Jun-11-2026 passport/dsKey source). Distinct from Eliana, the Colombian EDS principal (wiki/people/eliana.md)."
 ---
 
@@ -41,6 +42,21 @@ On the [[wiki/meetings/2026-06-11-passport-scan-dskey-malfunction.md|Jun-11 pass
 
 On the [[wiki/meetings/2026-07-27-manufacturing-production-planning.md|Jul-27 manufacturing production-planning call]] (Val, Elizabeth, [[wiki/people/felipe-miranda.md|Felipe Miranda Giorgi]]) Elizabeth is the one running the shop-floor build: she has **already shipped 8** of the **52 Echo counter-top machines** and is currently assembling the **14 refurbishable Flex machines from Florida** (with only two assemblers plus Adam). Val tasked her with preparing the **complete production plan** — physical inventory vs. system counts (spot-checking the long-lead items first), the parts/orders to trigger, and the **labor in man-hours per machine × the forecast** — for the 30–50-machine/month ramp plus the 50 countertops. She asked for and got one extra day; the review call is set for **Wednesday Jul 29 at 2:00 PM ET**. Build substance on [[wiki/topics/echo-home-gaming-device.md]] (Jul-27); inventory-discipline rules on [[wiki/topics/business-central-erp-implementation.md]] (Jul-27). [[raw/Meeting_Notes_Manufacturing_Production_Planning-July-27-2026.md]] [[raw/Meeting_Transcript_Manufacturing_Production_Planning-July-27-2026.md]]
 
+## Sept 4 2026 — two days of modem experiments, and Val's instruction on how to task her
+
+She appears in both midday calls of Sept 4 2026, in two very different registers.
+
+- **She ran the Georgia modem experiments with [[wiki/people/pavel.md|Pavel]].** "мы запустили тестирование с Элизабет и в результате двухдневных экспериментов выяснили, что не получается его настроить, чтобы он стабильно держал связь" — two days, no stable link. She is also the person who will install the replacement modems when they arrive: [[wiki/decisions/2026-09-04-north-america-modem-variant-and-ask-kore-for-the-apn.md]] [[raw/Meeting_Transcript_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]].
+- **Val gave [[wiki/people/genadi-peari.md|Genadi]] an explicit instruction on how to task her — and it is unflattering.** "Не пишите… когда ты ей пишешь… она посмотрит на это через час[,] она подумает через 2[,] она приступит к этому через 3… так нельзя. Позвоните на [Teams], скажите… иди проверь… не ставь меня на холд[,] я буду ждать[,] я сижу[,] смотрю на тебя[,] направь камеру на это." Genadi did exactly that inside the same call, walking her (in English) through finding the card dispensers in stock: "we purchased 10 pieces… You have 4 installed in the flex [pay]… And you have more, 6, 6 pieces more. The same item as you have installed in the FlexPay." She found two and Genadi kept pressing for the compatible second item. **Recorded as Val's management instruction, not as an assessment the wiki endorses** [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]].
+- **Twenty plastics arrived in Georgia and were not entered in the system**, which Genadi raised as a problem in front of Val. He did not attribute it to her by name; the notes list entering them as hers [[raw/Meeting_Notes_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]] [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]].
+- **She is also the person Genadi was pushing the previous day**, with [[wiki/people/mikhail-perelman.md|Mikhail Perelman]], to get an order of 100 Flex-Ports counted and moving [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]].
+
+## Open commitments (Sept 4 2026)
+
+- [ ] Physically locate the six remaining card dispensers in stock, matching the item installed in the Flex-Pay units — due immediately — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+- [ ] Enter the twenty received plastics into the system — due unspecified — [[raw/Meeting_Notes_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+- [ ] Install the replacement LTE modems in Georgia when they arrive — due on arrival — [[raw/Meeting_Transcript_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Manufacturing_Production_Planning-July-27-2026.md]]
@@ -53,3 +69,6 @@ On the [[wiki/meetings/2026-07-27-manufacturing-production-planning.md|Jul-27 ma
 - [[raw/business_central_update-apr-28-2025.md]]
 - [[raw/procurement_relocation-june-24-2025.md]]
 - [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
+- [[raw/Meeting_Transcript_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]]
+- [[raw/Meeting_Notes_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+- [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]

@@ -4,7 +4,7 @@ title: Mikhail Perelman
 date: 2026-07-13
 aliases: [Mikhail Perelman, Misha, Миша, Mikhail, Michael]
 disambiguation: "Procurement Manager (parts/vendors/shipments; the retrofit-lead "Misha"). Misha/Michael cluster (2, owner-ruled): [[wiki/people/michael-gottlieb.md|Michael Gottlieb]]=Senior VP Game Design / [[wiki/people/mikhail-perelman.md|Mikhail Perelman]]=Procurement Manager (the "retrofit Misha"). Resolve by context; queue if none."
-source-count: 7
+source-count: 8
 ---
 
 # Mikhail Perelman
@@ -35,6 +35,13 @@ On the July-3 alignment review ([[wiki/meetings/2025-07-03-procurement-relocatio
 
 On a [[wiki/people/val-levitan.md|Val]] / Perelman / [[wiki/people/lev-rudky.md|Lev Rudky]] call ([[wiki/meetings/2026-05-11-bc-material-requirements-mcp.md]]) Misha, as procurement manager, spelled out the material-requirements (MRP) report he wants — the one-click Navision report Anatoly built him, which the standard Business Central report does not reproduce. His model: input a part/subassembly/machine with a target quantity; get a **consolidated shortage list** (one row per unique part, netting stock + on-order + in-transit) enriched with **vendor + last price + minimum order quantity**, grouped by vendor for POs, plus a per-subassembly side-list for cross-checking. Today he builds the consolidation himself in an **Excel pivot table** on top of the BC export. Val proposed delivering it not by modifying BC but through the **BC MCP layer** (Claude doing the consolidation/enrichment in one step), and made Misha the canonical **"procurement manager" persona** for the requirements Val will draft from the transcript + Misha's example Excel. Misha to send the Excel sample immediately. Substance on [[wiki/topics/business-central-erp-implementation.md]] (May-11). §15.8 clear. [[raw/Meeting_Transcript_bc_material_requirements_mcp-May-11-2026.md]] [[raw/Meeting_Notes_bc_material_requirements_mcp-May-11-2026.md]]
 
+## Sept 4 2026 — the China route for the Flex-Slim brackets, and the 100-Flex-Port order
+
+Two procurement threads on the [[wiki/meetings/2026-09-04-flex-slim-first-ten-and-flex-port-sas.md|Sept-4 midday production call]], both routed through "Миша" — resolved to Perelman by the procurement/parts/vendor context (§4) [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]:
+
+- **The Flex-Slim brackets and harnesses go through him to China.** [[wiki/people/genadi-peari.md|Genadi]]: "что Миша может сделать… В Китае попросить за неделю сделать и прислать самолетом. Скажем, 10 [се]тов… ну в лучшем случае 2 недели." Val took China and told Genadi to ask for a rush through him: "Я бы хотел бы, чтобы вы попросили их… [через] Миша… Они всегда идут навстречу, им только нужно сказать." Ruling: [[wiki/decisions/2026-09-04-brackets-and-harnesses-from-china-and-a-metal-order-for-one-hundred.md]].
+- **He is also the one to start ordering the harnesses for 100 Flex-Ports.** Genadi had spent time the previous day pushing him and [[wiki/people/elizabeth.md|Elizabeth Palomino]] to move that order — "чтобы она пошла, посчитала, чтобы он харнес[ы] начал заказывать" — and expected "Миша должен… маленькие какието заслать [orders]" for the Flex-Port SAS harnesses too.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_bc_material_requirements_mcp-May-11-2026.md]]
@@ -44,3 +51,4 @@ On a [[wiki/people/val-levitan.md|Val]] / Perelman / [[wiki/people/lev-rudky.md|
 - [[raw/procurement_relocation-june-24-2025.md]]
 - [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
 - [[raw/procurement_production_relocation-july-3-2025.md]]
+- [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]

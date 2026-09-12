@@ -3,7 +3,7 @@ type: person
 title: Alexei Khamin
 date: 2025-04-22
 aliases: [Alexei Khamin, Aliaksey Khamin, Alexey Khamin, Khamin, Хамин, Khanin, Ханин, Kamin, Alexey Kamin, Lyosha, Лёша]
-source-count: 8
+source-count: 9
 open-commitments: 1
 ---
 
@@ -35,6 +35,10 @@ Irina and Pavel then disagreed about what he inherits: Irina wanted the capabili
 
 - [ ] Build and test the skills that attach requirements to capabilities, propose the missing requirements, and audit the acceptance criteria against the code — due unspecified — [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]] [[raw/Meeting_Notes_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 
+## Sept 4 2026 — handed Pavel's debug environment for his own testing
+
+On the [[wiki/meetings/2026-09-04-flex-slim-first-ten-and-flex-port-sas.md|Sept-4 midday call]] [[wiki/people/pavel.md|Pavel Frolov]] described the debug environment he has built for the Flex-Port work — a gaming-machine emulator, a full debug console with commands and logs on an STM32 743, and a described physical rig — and said he had **shown it to Khamin that same day**: "Большую часть я уже сделал… И показал это [Хамину] сегодня. Он может это взять, по крайней мере для своего тестирования. То, что там не работает, он может легко сказать [Клоду] и Клод ему поправит это… уже на реальной машине." Consistent with his QA role and with the Sept-3 ownership Val gave him. Detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 4) [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Notes_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
@@ -45,3 +49,4 @@ Irina and Pavel then disagreed about what he inherits: Irina wanted the capabili
 - [[raw/Payment HUB_ACH module specification_05.11.25 .md]]
 - [[raw/Payment HUB_ACH module specification_06.11.25.md]]
 - [[raw/Payment HUB_ACH module specification_10.11.25.md]]
+- [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]

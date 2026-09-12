@@ -2,9 +2,9 @@
 type: person
 title: Genadi Peari
 date: 2026-07-12
-aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena]
-source-count: 72
-open-commitments: 4
+aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий]
+source-count: 74
+open-commitments: 10
 ---
 
 # Genadi Peari
@@ -261,6 +261,30 @@ On the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-updates-after-the-show.md|Se
 
 - [ ] With [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] — answer at what flash size remote firmware update becomes possible on the cheap SAS SMIB board, and whether that can be set as a requirement — due unspecified — [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
 
+## Sept 4 2026 — the parts inventory for the first ten Slims, and the two things he says out loud that nobody else does
+
+Genadi is the load-bearing voice in both midday calls of Sept 4 2026.
+
+**On the modem call** ([[wiki/meetings/2026-09-04-lte-modem-firmware-mismatch-and-kore-settings.md]]) he is the one who names the cause, and names it as a strategic error rather than a technical one: Minsk's 7455 came from AliExpress, Georgia's identical model number came from elsewhere with different firmware — "то, что они разные… это была ошибка номер один." He also supplied both remedies: two types of modem, five of each, already received with a second version going in, and the same modem in a North-America variant on Amazon at about **$16** where the firmware is likely right, finishable "дня 2." And he took the antenna position: put it into an opening, do not glue it to the body, "потому что все сигналы же уходят." Ruling: [[wiki/decisions/2026-09-04-north-america-modem-variant-and-ask-kore-for-the-apn.md]] [[raw/Meeting_Transcript_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]].
+
+**On the production call** ([[wiki/meetings/2026-09-04-flex-slim-first-ten-and-flex-port-sas.md]]) he walked the entire Flex-Slim bill of materials from memory — two Slims in hand and eight in the ocean, twenty plastics landed in Georgia, ten card dispensers bought with four installed and six in stock at about $380 each, twelve monitors, the small interface board, set wires ordered, RK3568 as the standard board — and identified the brackets and harnesses as the only real gap. Ruling: [[wiki/decisions/2026-09-04-brackets-and-harnesses-from-china-and-a-metal-order-for-one-hundred.md]] [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]].
+
+**Two things he raises that nobody else does:**
+
+- **Received goods are invisible.** The twenty plastics "пришли 20 штук[,] в системе их нету… Кроме меня сейчас, наверное, никто не знает" — nobody but him knows they are there. Val: "я эту проблему налажу[,] я её понимаю и я знаю, как её наладить… Сразу её не нала[д]ишь." This is the same inventory-visibility gap that runs through [[wiki/topics/business-central-erp-implementation.md]] [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]].
+- **He does not trust Yavorsky's estimate, and says so privately.** After the engineers left and Val called it "продуктивный разговор," Genadi shook his head: "[Е]горский, когда говорит 2 недели[,] это это 2 месяца минимум… Он тянет… в любом случае без Павла это не пройдёт." **Recorded as his judgement, not as fact** [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]].
+
+He also reported spending time the previous day pushing [[wiki/people/elizabeth.md|Elizabeth Palomino]] and [[wiki/people/mikhail-perelman.md|Mikhail Perelman]] to get an order of **100 Flex-Ports** moving — her to count, him to start ordering harnesses. His reaction to Val's giveaway arithmetic was "Ничего себе," and his first instinct was the operator's: "чтобы они могли ретрофит[нуть] весь лакейшен." He asked for time on the recycler at the end of the call and Val deferred it [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]].
+
+## Open commitments (Sept 4 2026)
+
+- [ ] Release the drawings for the three Flex-Slim brackets — due same day or next — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+- [ ] Get the brackets and two or three harnesses made in China through [[wiki/people/mikhail-perelman.md|Mikhail Perelman]] on a rush, landed within a week — due about one week — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+- [ ] Place the metal order for 100 units at 14 gauge once the brackets are finalised — due after the brackets — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+- [ ] Establish where the eight in-transit Flex-Slims are and when they land — ongoing — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+- [ ] Order the North-America-variant modems (~$16 on Amazon) and ship them to Georgia — due within about two days — [[raw/Meeting_Transcript_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]]
+- [ ] Rework the antenna placement so it sits in an opening rather than glued to the metal enclosure — due unspecified — [[raw/Meeting_Transcript_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]]
+
 ## Open commitments (Aug 24 2026)
 
 - [ ] Source and spec a cheap non-touch information display for Flex-Port-Mini and confirm flash/memory sizing so the build lands near $40–45 — due unspecified — [[raw/Meeting_Notes_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
@@ -339,3 +363,5 @@ On the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-updates-after-the-show.md|Se
 - [[raw/Meeting_Transcript_Flex_Port_Mini_Capabilities_Preamble-August-24-2026.md]]
 - [[raw/Meeting_Notes_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- [[raw/Meeting_Transcript_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]]
+- [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]

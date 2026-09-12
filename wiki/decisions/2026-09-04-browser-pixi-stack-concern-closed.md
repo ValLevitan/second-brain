@@ -1,0 +1,46 @@
+---
+type: decision
+title: The browser/Pixi technology-stack concern is raised, argued and closed — build the pipeline first; swapping the engine later means changing one block, not the pipeline
+date: 2026-09-04
+aliases: [tech stack concern closed, browser vs compiled engine, Pixi alternatives, Godot experiment, Unity Unreal royalties, engine choice September 2026, one block out of twenty]
+source-count: 2
+status: active
+open-commitments: 0
+open-questions: 2
+---
+
+# The browser/Pixi stack concern — raised, argued, and closed
+
+When Val opened the floor for objections at the [[wiki/meetings/2026-09-04-rage-nova-conversion-readiness.md|Sept 4 2026 morning meeting]] ("Даю слово любому ктото не согласен… Любое любое любое"), [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] took it and raised the one thing that had been bothering him for a long time. By the end of the exchange Val asked "значит, мы ваш конструр закрываем, да?" and Anton answered "Пожалуй, да пока пока" — closed, for now. [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+
+## Anton's concern
+
+- **JVL is repeating the Rage mistake.** "лет 30 20 30 лет назад. Наши предшественники решили пойти вот с кастомными кастом[ным] стек[ом] и в конечном итоге типа мы закончили в ситуации, где этот стек отстал от современных инструментов, и меня очень сильно волнует тот факт, что мы сейчас повторяем ту же самую ситуацию… [О]мни там через 20 лет устареет." He explicitly bracketed out AI: "я естественно выношу за скобки искусственный интеллект, потому что я не знаю, как оно получится" [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]].
+- **The browser specifically.** "мне кажется, что, наверное, браузер не особо хорошо подходит… он скорее будет нас замедлять. И вот новые фичи, которые там на более современных движках выходят, они будут нам недоступны." He would prefer an application compiled to machine code rather than one launched by a browser: "чтобы приложение было компилируем[о] не браузером запускалось" [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]].
+- Secondary worries he named: the browser runtime shipped onto the machine, and the game-select screen — "У нас игры живут как отдельные приложения, поэтому нам нужно будет ещё приложение сверху задиплоить, чтобы сделать геймс электро[н] скрин[.]" Igor and [[wiki/people/alexander-biratka.md|Alexander Biratko]] corrected him: Sasha had already designed for this and the game-select screen loads as a module, "это как бы всё… решено" [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]].
+
+## The alternatives actually named
+
+- **Unity and Unreal** as the industry mastodons. Anton on Unity's casino licensing: "с lisenting[ом] для казино какаято чушь происходит"; Val was not sure that still holds — "я не уверен, что юлийцы продолжа[ю]т брать вот эти сумасшедшие деньги с казино бизнеса. Помоему, я слышал, что они перестали это делать." Anton had read a couple of weeks earlier that the fees are cheaper but still substantial. On the royalty model he described a grace threshold of **one million dollars of revenue** with **5% royalties** above it, and reasoned JVL would have "несколько миллионов долларов типа буфера" across several products. Pavel objected that JVL ships gaming machines, not games — "мы же не выпускаем просто игру и всё как как здесь посчитать?" [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]] *(The transcript garbles the engine names — "andin", "Андрей langer", "Андрей интернет", "юнити/юничий/юлийцы". The royalty terms are recorded as Anton stated them from memory, not verified.)*
+- **Godot — Evgeny had actually tried it.** [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] said that when he asked himself the same question he tried porting **Calle Ocho** off Pixi onto Godot: "пытался игру в нашу кал[ё]чу с пикси перевести на гудот. Который полностью бесплатный… очень много разработчиков переходят именно на гудот… я просто сильно не заморачивался, но у меня что то получилось… если прям заморочиться, ну можно точно так же перенести игру на этот годот." The problems he hit were scene composition — "на этом скомпоновка сцены возникли проблемы, потому что… кнопки, поехавшие были… но в целом… оно всё типа перенеслось" — about a month before the meeting. Alexander Biratko added the video weakness: "Появился годо[т], которого с видео я бы сказал плоховато… он вопервых форматы, там чтото плохо принимает проблемы с альфами" [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]].
+- **Rewriting JVL's own old engine.** Alexander Biratko floated "безумную идею" — take the old engine, port it to **Rust** and add modern technology. Anton's objection was maintenance: the engine is based on **OGRE** ("наш движок основан на огре древнем достаточно"), designers create new effects it does not support, and someone would have to sit and maintain it permanently. Pavel: that is how Rage already was — "была команда из нескольких человек." Anton added that after "Лёша" left, nobody really worked on the engine ("лёша уволился и после него както никто и особо движком не занимался"). Biratko's counter: a house engine may be the smaller investment — "платить какому нибудь андрилу явно будет намного больше, чем поддерживать свой движок." Igor asked the obvious question and got a hedged answer: "зачем нам в этой схеме переписываешь что то на расте?" — Biratko: Rust was cited as more stable and reliable, but for video buffers "там всё равно требуется доступ… Прямой к памяти. Поэтому там сишка останется" [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]. *("Лёша" is given no surname and is not resolved here — §4.)*
+
+## Why it was closed
+
+- **Alexander Biratko's defence of the browser.** JVL chose the engine because it needed online — "мы же то движок выбирали в целом из за Того, что у нас должен быть онлайн, поэтому у нас браузер" — and no free engine as good has appeared since. "браузер не умрет, как бы в ближайшие 5 лет точно… сейчас количество игр в браузере увеличивается… Люди в интернете сидят, значит, браузер будет жить." What currently exists is enough: "в реальности на данный момент нам хватает возможности браузера. Чтобы решить наши вопросы" — while naming his own residual risk, that JVL might one day have to rewrite a piece of Chromium to implement a feature (Pavel: no, Chromium gives you an API) [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]].
+- **[[wiki/people/igor-metelski.md|Igor]]'s framing, which carried the room.** Whatever technology JVL picks, the same pipeline question arrives: "какие бы технологии мы не решили развивать… мы всё равно подъём к вопросу… давайте придумаем какойто автоматизированный пайплайн типа для разработки тестирования… эти вопросы… немного более абстрактные, чем конкретные реализации, то есть их можно отработать на том, что есть." Also, plainly: "давайте новым не сделаем хоть одну готовую игру, которую мы сами будем считать готовой" — let us finish at least one game on NOVA that we ourselves consider finished [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]].
+- **Pavel's cost argument for deferring.** "при переходе на какойто другой энджин в будущем, если готов… пайплан[,] то надо будет поменять только один блочок там из 20 например… Тестовый [пайплан] примерно останется таким же. И тулы какието поменяются, только вот и всё" — change one block out of twenty; the test pipeline stays roughly the same [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]].
+- **Anton accepted it.** "мне нравятся идеи, вот что Игорь… озвучил, что, наверное, в данный момент стоит сфокусироваться на том, чтобы построить [pipeline;] отдельные блоки из неё поменять… не так сложно, как кажется" [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]].
+
+## Anton's other point, which was not closed
+
+Optimising Claude's own cost is a design goal, not just an implementation detail: "искусственный интеллект может сделать по факту всё что угодно, с чем угодно… но мне кажется, наша задача это оптимизировать его работу и сделать так, чтобы он работал дешевле[,] сжо[г] не так много токенов." Nobody argued against it and nobody acted on it [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]. The derived notes do not record this exchange at all [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]].
+
+## Open questions
+
+- Whether the browser/Pixi stack is the right 10–20-year bet for NOVA. **Deferred, not answered** — Anton withdrew the concern "пока" (for now), on the argument that the pipeline is the thing to build and the engine is one replaceable block inside it — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- How to keep Claude's token cost down as the automated pipeline grows. Raised by Anton, unaddressed — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+
+## Sources
+- [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]

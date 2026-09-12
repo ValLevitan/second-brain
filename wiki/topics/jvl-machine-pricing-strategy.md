@@ -2,8 +2,8 @@
 type: topic
 title: JVL machine pricing and commercial strategy
 date: 2025-09-23
-aliases: [machine pricing, fifteen seven fifty, $15750, free hardware instead of discount, retail price, price list, Dennis one number, CFO-to-CFO credit, market pricing, list price, dollars not discounts, JVL Dollars pricing lever, show special pricing, Georgia machine price, D43 price, D27 trade-in, South Dakota premium]
-source-count: 11
+aliases: [machine pricing, fifteen seven fifty, $15750, free hardware instead of discount, retail price, price list, Dennis one number, CFO-to-CFO credit, market pricing, list price, dollars not discounts, JVL Dollars pricing lever, show special pricing, Georgia machine price, D43 price, D27 trade-in, South Dakota premium, twelve eight twenty, two nine thirty, $795 port, $895 IQ, $7950 Flex-Slim, kill the market]
+source-count: 15
 ---
 
 # JVL machine pricing and commercial strategy
@@ -97,10 +97,47 @@ One day later, at the [[wiki/meetings/2026-09-02-lucky-coin-service-and-upgrade-
 
 *(Note how the same bundle was quoted the previous day: to Narayani/Akshar, "six of these units plus a terminal" free "if you buy X number of these machines" — no machine price in the transcript, **$16,000** in the notes only. The Sept-2 quote is the first time the machine number and the giveaway value are both stated in a transcript.)* [[raw/Meeting_Transcript_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]] [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]
 
+## Sept 4 2026 — Val's own account of how the $15,750 and the giveaway were built, on the fly, at the show
+
+Two days after quoting it to Lucky Coin, Val told his own product team at the [[wiki/meetings/2026-09-04-naming-convention-standards-and-nova-conversion.md|Sept-4 game-development meeting]] how the number came about. It was improvised, in sequence, in front of an operator [[raw/Meeting_Notes_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]] [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]:
+
+- **Step one — the package.** "I am making a play. With operators, by giving away… **five additional 5 flex ports. One IQ and one… Flex P[ay]**… for with each machine that they buy."
+- **Step two — the price rise at the show.** "I increased the price from get-go, **even at the show, to 14.5**."
+- **Step three — the 15-game up-sell, improvised while Felipe was mid-pitch.** "as Felipe was talking to an operator and I was listening, **Felipe was promoting 10 game library**. And I needed to increase the price even further. So I said in the same conversation, the kind of flew, kind of flew out of my mouth too, in a way… **but with 15 games[,] we are selling at 15,750, which represents $250 per game more**, which is exactly what you want." *(The $250-per-game figure matches the Sept-1 up-sell rate recorded above.)*
+- **Step four — fencing the giveaway to the higher price.** "then I didn't really offer that package deal. But then when I added the package deal, then I said **this package deal is only valid for the $15,750 machine**."
+- **It landed.** "**The operator actually took very well to 15 [games]. It actually went very well.**"
+- **The ceiling he is aiming at.** "I need to get closer to **18 plus 1000**[;] then I can discount it. I could provide more. And grab the market"; and for the years after, "**in 2027, 28**… the transactional equipment should be something more expensive that they want[,] that we discount or package together. And so **I need to get to that 18, $19,000 level**." Val's own name for the strategy: "that's the strategy."
+- **The bet on the customer's psychology:** "Operator should say[,] I'm getting the stuff for free I want. I don't even care… I'm getting all this stuff for free"; "that free stuff, that big value should… have an enormous effect." Michael: "**Because they all love a deal.**" Val: "And they squeeze the living daylights out of me. And there is… nothing more… joyful than squeezing the living daylights out of JVL."
+
+**The constraint the price rests on.** The machine can only *load* about ten games today. Val's workaround is remote enablement: "the operator understands that we can only load 10 games, but **they buy 15 games. And because we have a modem, we'll be able to set it through the modem. Enable it through the modem**, and they're… ecstatic about it; they're not even thinking about showing all 15 games." Lena put the display limit at twelve ("12, 12, we never show more than 12"); Juan had first heard 14 then 10. The limit is **memory, not maths** — Efim: "it's what's in the box is graphical assets… We want almost everything build ready when you [press the button], otherwise you have loading time," Val: "it's a memory." A RAM upgrade would fix it but "RAM… right now, it's crazy expensive" (Val); "RAM was not cheap now, right?" (Efim). Val settled on designing for **14** games on the selection screen: "It doesn't have to be 15. Could be 14." Michael: "14 is a great number." [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+
+**One hardware cost stated in passing:** the V-deck costs JVL "probably **120** our cost" against a plain panel with one button — Michael: "that's a lot of money." See [[wiki/decisions/2026-09-04-georgia-v4-mechanical-button-deck.md]]. [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+
+**§15.8:** clear — machine, option and component pricing only; no named-person compensation.
+
+## Sept 4 2026 (midday) — the giveaway costed from the inside: $12,820 of product against a $2,930 increase
+
+Hours before telling the game team how the $15,750 came about (section above), Val walked [[wiki/people/genadi-peari.md|Genadi Peari]] through the same offer as arithmetic, on the [[wiki/meetings/2026-09-04-flex-slim-first-ten-and-flex-port-sas.md|midday production call]]. He told Genadi to take a pen: "Я хочу чтоб вы набросали себе статистику, возьмите ручку и набросать себе статистику." **This is the first place in the corpus where the free-hardware bundle is itemised at retail** [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]] [[raw/Meeting_Notes_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]:
+
+- **The bundle:** "купи одну машину у нас. И мы тебе забесплатно даём. Один слим. Один [IQ]. Плюс 5 мор портов" — one Flex-Slim, one Flex-IQ and five more Flex-Ports free with a machine purchase.
+- **The retail values, as stated:** Flex-Port "**$795**" each ("795 умножить на 5"), Flex-IQ "**$895** ритейл прайс," Flex-Slim "**$7950**" — Genadi's first guess having been "ну на 8000 будет." Total: "**12820**."
+- **The delta the operator actually pays:** "Оператор платит мне за машину **15[,]750**. Минус 12[,]820… **$2930**. У оператора в голове цифра $2930."
+- **Where the price came from:** "Мы раньше машины продавали по **13 500**. Я использовал этот момент и поднял цену на… машину на 15 игр." He also described it in the moment as raising the price "на 2 с половиной 1000" and giving a "3000 дискаунт" — **loose arithmetic spoken aloud; the precise figures he wrote down are the ones above** and they are self-consistent ($13,500 + $2,250 = $15,750; $15,750 − $12,820 = $2,930).
+- **The competitive frame:** "вместо, например, Аристократа за **20000** он покупает у нас машину за **16000**. И получает всё абсолютно всё забесплатно," plus a subscription of "**$90 в месяц**."
+- **The intent, in his own words:** "мы в принципе должны **убить рынок** этим оф[ф]ром. Рынок, я имею [в виду] тут о всех других."
+
+**Three figures here differ from what was quoted to customers days earlier, and none of them is corrected by another.** Sept-1: Flex-Port "$950" / "approximately a thousand", Flex-IQ "a thousand dollar device", kiosk-without-ATM "approximately five thousand". Sept-2 (Lucky Coin): six ports plus one terminal worth "seven thousand dollars", ports "a thousand dollars each", kiosk "five thousand". Sept-4: $795, $895, $7,950. The Sept-1 set was explicitly framed as street retail for a single unit; the Sept-4 set is internal arithmetic for valuing a package; **and the Sept-4 bundle contains a Flex-Slim, which the Sept-2 bundle did not.** All are recorded on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] and [[wiki/decisions/2026-09-02-free-ports-and-pos-with-every-machine-bought.md]]; nothing here reconciles them [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]].
+
+**Why he was explaining it at all:** to make the schedule pressure legible to his hardware lead — "я хочу вам объяснить, что я делаю, потому что если вы поймёте, что я делаю[,] вам легче будет думать," and later "Вы понимаете, что я вас не просто так толкаю?" The build consequence is [[wiki/decisions/2026-09-04-brackets-and-harnesses-from-china-and-a-metal-order-for-one-hundred.md]] [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]].
+
+**§15.8:** clear — machine, device and subscription pricing only; no named-person compensation.
+
 **Temporal note:** the $16,000–$18,000 retail band above is the **Sept-2025** class-3 / skill-market policy and is not superseded by these Georgia COAM numbers — Georgia is a different market segment. The two are recorded side by side; no source in this batch revisits the class-3 band.
 
 ## Sources
 
+- [[raw/Meeting_Notes_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+- [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
 - [[raw/Meeting_Transcript_Georgia_Machine_Sales_Strategy_Post_GOAM-August-21-2026.md]]
 - [[raw/pricing_strategy_meeting-september-23-2025.md]]
@@ -112,3 +149,5 @@ One day later, at the [[wiki/meetings/2026-09-02-lucky-coin-service-and-upgrade-
 - [[raw/Meeting_Notes_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
 - [[raw/Meeting_Transcript_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
 - [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]
+- [[raw/Meeting_Notes_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+- [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]

@@ -4,8 +4,8 @@ title: Igor Metelski
 date: 2026-07-14
 aliases: [Igor Metelski, Igar Miatselski, Miatselski, Igor, Igor Mitelsky, Мительский, Mitsierski, Igor Mitsierski]
 disambiguation: "RGS engineer on Efim Podvoiski codebase (= payroll Igar Miatselski). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
-source-count: 18
-open-commitments: 4
+source-count: 20
+open-commitments: 7
 ---
 
 # Igor Metelski
@@ -85,8 +85,27 @@ Igor was not present at either the [[wiki/meetings/2026-09-01-nova-prose-qa-auto
 - [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — hand his converter work and findings over to [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] so the parallel second-game port can build on it (Pavel to arrange) — due unspecified — [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
 - [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] / team — add any standards that come out of this work to the company standards repository (Val's standing rule) — ongoing — [[raw/Meeting_Notes_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
 
+## Sept 4 2026 — delivers 212 acceptance criteria, and admits he had read neither the standard nor the definition of "prose"
+
+At the [[wiki/meetings/2026-09-04-rage-nova-conversion-readiness.md|Sept-4 morning review]] — the meeting Val booked for him on Aug-28 — Igor delivered the QA-automation experiment's first output [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]].
+
+- **212 acceptance criteria for the Dragon Pays port, derived by Claude from his own gap audit.** He first audited what the Rage version implements that NOVA does not — assets plus specific classes, "в частности, класс, реализующий… состоя[ние] машину рейд игры" (the Rage game's state-machine class) — then had Claude draft criteria from that audit plus the markdown files Claude had accumulated during the port. "У меня получилось **212 критериев**," grouped by base game, free-spin game, the display of both, work with the maths server, and system messages. He deliberately left open which are automated and which a person checks. [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- **He had not yet tested whether a criterion converts into an automated test.** Pavel asked directly; Igor: "Пока еще нет." Val's proposal — walk the criteria, ask Claude to test them, and have it report where it cannot — Igor accepted: "Хорошо да, давайте так и сделаем." [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- **He had not read the repository standard.** Asked where the skeleton structure of his new repository came from, Pavel identified that the Calle Ocho repository's directory structure "была независимо сделана от… Того, что обсуждалось"; Val: "у нас есть написанный стандарт." Igor: "по стандарту я, к сожалению, с ним не ознакомился. Ну я думаю, что я… смог[у] ознакомиться и поправить под стандарт." See [[wiki/decisions/2026-09-04-point-claude-at-the-standards-repository-first.md]]. [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- **He does not know what the team means by "prose," and said so unprompted.** "я немного не в контексте[,] что точно, мы подразумеваем под прозой… пока что я считаю, что вот этот вот массив документов[,] это как бы в каком[-]то смысле проза. Опять же, если я не прав, поправьте меня." **Nobody corrected him in this meeting.** [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]] [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- **He was also the one who kept pulling the meeting back to practice** — against the engine-stack debate, "давайте новым не сделаем хоть одну готовую игру, которую мы сами будем считать готовой," and the framing Anton accepted, that the pipeline matters more than the technology choice ([[wiki/decisions/2026-09-04-browser-pixi-stack-concern-closed.md]]). And he asked the question underneath the data-contracts argument: who actually consumes the contracts if Claude already holds the implementations ([[wiki/decisions/2026-09-04-data-contracts-closed-every-repository-by-september-11.md]]). [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- **Uncertain whether his work was fully committed,** and undertook to check and to move his branch into the new repository: "мне кажется, что я… все ком[ич]у в репозитории, но я перепроверю, если нет, то за ком[ич]у." [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+
+## Open commitments (Sept 4 2026)
+
+- [ ] Hand the 212 acceptance criteria to Claude to test and report where it cannot test — due this week — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- [ ] Have Claude evaluate Test 360 from a clean session with no knowledge of the criteria — due this week — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- [ ] Read the repository standard, correct his structure to match, verify everything is committed and move his branch into the new repository — due unspecified — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]
 - [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 - [[raw/Meeting_Notes_Rage_Nova_Migration_Experiment_Review-August-18-2026.md]]

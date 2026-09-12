@@ -3,8 +3,8 @@ type: person
 title: Evgeny Kharetski
 date: 2025-07-10
 aliases: [Evgeny Kharetski, Evgeny Kharetsky, Evgeny Khoretsky, Kharevsky, Yauheni Kharetski, Kharetsky, Koretski, Koretsky, Korecki, Khorvatsky, Корецкий, Хорватский, Халецкий]
-source-count: 19
-open-commitments: 4
+source-count: 21
+open-commitments: 5
 disambiguation: "LGS developer (payroll "Kharetski Yauheni"), this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
 ---
 
@@ -87,8 +87,26 @@ At the [[wiki/meetings/2026-09-03-nova-prose-standard-skills-and-module-contract
 - [ ] Write the LGS contracts — devices, the game, SAS, external server / player control — due aim end of the week of Sept 7 2026 — [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 - [ ] Lead the populating of the NOVA machine-side integration repository (module-link JSON, contract references, Claude working rules), with everyone connected to the contracts committing — due the two-week milestone from Sept 3 2026 — [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 
+## Sept 4 2026 — he forced the contracts question, and got a dated answer
+
+At the [[wiki/meetings/2026-09-04-rage-nova-conversion-readiness.md|Sept-4 morning meeting]] Evgeny reopened the blocking point he had raised the previous day: the automated test pipeline "не будет работать без контрактов с каждой из сторон, которые задействованы на машине со стороны новой," and "мы не можем приступать к написанию авто[тестов пока это] не сделано" [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]] [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]].
+
+- **He walked Val through what a contract is**, on the LGS example — entry and exit points, written as OpenAPI or similar, describing what each side emits and accepts, with the match between the two being what makes good autotests possible. [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- **He held his position that module linkage must be structured, not prose:** "это не должно быть проза[,] это должно быть… хардкодом структурированны[м]" — and answered Pavel's worry that a new linking standard would be needed with "у нас уже есть стандарт паш. У нас же интеграционный репозиторий работают на IQ." [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- **His versioning answer to Dzmitry Chudzinau:** all module and contract versions are baked at release and can be restored; and you release the whole product, not an individual module — "ты релизишь не отдельно модуль авторизации[,] ты релиз[ишь] продукт полностью." He conceded the machine's contracts with CMS and the account host are harder: "Он с этим сложнее, но я думаю, это решаемо." [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- **He explained zero trust to Igor:** Igor's is an input contract, the two of them agree any change and each describes their own side, "тебе пофиг[,] кто тебе эти данные даст[,] элджис или какойнибудь другой сервис." [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- **He flagged his own schedule risk and got 80% accepted.** "к пятнице я, возможно, не успею, потому что у меня самый большой кусок. У меня слишком много контрактов на один репозитор[ий]. Я постараюсь" — Val: "если будет 80% сделано хорошо, если 100 лучше." Ruling on [[wiki/decisions/2026-09-04-data-contracts-closed-every-repository-by-september-11.md]]. [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- **A side disclosure:** he had privately tried porting **Calle Ocho** off Pixi onto **Godot** about a month earlier — "я просто сильно не заморачивался, но у меня что то получилось" — hitting scene-composition problems with misplaced buttons. See [[wiki/decisions/2026-09-04-browser-pixi-stack-concern-closed.md]]. [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- **On human QA in the finished pipeline, he was the most absolute voice in the room:** asked whether any human validation survives, "Минимальную. Либо никакая, либо минимальная." Val agreed: "Желательно нет." [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+
+## Open commitments (Sept 4 2026)
+
+- [ ] Place the data contracts beside the code in his repository, which carries the largest number of contracts — due Sept 11 2026 (80% acceptable; he warned he may not make it) — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Notes_Rage_Nova_Migration_Experiment_Review-August-18-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Nova_Migration_Experiment_Review-August-18-2026.md]]
 - [[raw/Meeting_Transcript_Rage_to_Nova_Migration_Experiment-August-3-2026.md]]

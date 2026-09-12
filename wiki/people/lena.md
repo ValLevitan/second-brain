@@ -3,8 +3,8 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna, Selena, Elena]
-source-count: 59
-open-commitments: 1
+source-count: 61
+open-commitments: 5
 ---
 
 # Lena
@@ -220,8 +220,29 @@ On the [[wiki/meetings/2026-08-14-nova-capability-wishlist.md|Aug-14 NOVA wishli
 - **Wildfire Ranch comp art.** Lena will start the comp art for Michael's new **Wildfire Ranch** game once his abstract is finished. See [[wiki/projects/nebraska-skill-market.md]]. [[raw/Meeting_Notes_NOVA_Capability_Wishlist-August-14-2026.md]]
 - **South Dakota vertical games (release sequencing).** On the same day's [[wiki/decisions/2026-08-14-first-nova-product-south-dakota-vertical.md|migration-sequencing decision]], Lena is to **build the South Dakota Vertical games — Solar Keno, Aaron's Pub, Dakota Bison — new for vertical in NOVA** (they never existed in vertical, so they must be built, not converted), after Nebraska is finished. She warned that doing Nebraska on NOVA would add a 2–3 month delay, so Nebraska stays on Rage; she can develop NOVA games in parallel because platform changes (peripherals/API/Rust) don't affect how she builds games. [[raw/Meeting_Transcript_NOVA_Migration_Release_Sequencing-August-14-2026.md]]
 
+## Sept 4 2026 — "it was verbal agreement," and the artist shortage behind the Georgia V3 slip
+
+At the [[wiki/meetings/2026-09-04-naming-convention-standards-and-nova-conversion.md|Sept-4 afternoon game-development meeting]] Lena carried most of the meeting's factual content and most of its friction [[raw/Meeting_Notes_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]].
+
+- **She found and explained the asset-mismatch root cause:** Fire Island games were built first as single games, so assets share names with no game qualifier — "It's not specified that it's [La Rosa] big green talker or [Crescent City Carnival] big green talker." She resisted Val's naming-convention framing ("Product was changed, we are reusing… assets from a single games products") and described the fix actually made: every folder and export must now contain a unique game code name. Asked whether the new standard was documented: "**No, it wasn't [documented]. It was verbal agreement.**" See [[wiki/decisions/2026-09-04-asset-naming-convention-must-be-written-down.md]]. [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+- **She has such documents for Omni/NOVA but not for Rage Studio** — "we have this document for Omni[a], for Nova, when we started to develop games in Omni[a], like **Fortune Football** or **Ca[lle Ocho] Omnia**, but we don't have this document for… Rage Studio" — and asked to start after the release, citing "shortage of artists… we['re] in a big rush to finish this release." She confirmed in the closing block that the documents exist and "we just need to move it… in… proper… repository." [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+- **She confirmed the Queen of Luxor graphics decision was knowingly taken** and is what moved the date: "it was a decision which we made. We knew that it will take us extra time, and **this game is ready. We can submit this product without this new graphics, but we decided to update it.**" Remaining work she named: the Queen of Luxor assets, the wider touch area on the nudge arrows (six scenes re-exported, because the touch area is defined by a planar object in the 3D scene and there are six layout types), and the horse animation. All artists in her department are on Queen of Luxor. [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+- **She defended the horse animation Val rejected:** "you saw it, we approved it, it was already like released and everybody liked it" — Val: "No way. It's impossible to like… The physics is wrong." [[wiki/people/anastasia.md|Anastasiya]] does the rework after finishing her Queen of Luxor tasks. [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+- **She showed two mock-ups** — the dual-box skill feature on Lions Riches (she had previously tried a version covering the dashboard and rejected it herself), and the South Dakota D2703 game-selection screen, where "for D27, we can easily put six games in one line and it looks good because monitor is [wide]." She confirmed she can position up to 15 games with a squeeze, and that the attract sequence is already designed to be non-static (animated logo → full-screen game with bonus → back to game selection). Val praised the layout — "you nailed the screen" — and recalled the see-through-tile carousel she built on the amusement ECHO product ~20 years earlier. [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+- **She set the release calendar out loud:** Nebraska to New Year's, South Dakota VLT on NOVA from January, then one more Georgia release and probably Curve before the August show; her reasoning for keeping the team together — "It's better to allocate all team because it's a new, very important release." And two confirmations she pressed for: D2703 horizontal (not vertical) is the next product for concept and design, and **no move to 4K**. [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+- **On premium:** she argued a premium cabinet should come from the games, not the home screen — "they should be premium not only for the reason of difference in home screen, probably games different, like more premium games… some licensed games or whatever." [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+
+## Open commitments (Sept 4 2026)
+
+- [ ] Finish the Queen of Luxor graphics and the wider touch area on the nudge arrows (six scenes re-exported) — due before the September 10 submission — [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+- [ ] Document the asset folder structure and multi-game naming convention with Michael Gottlieb, and create the missing Rage Studio equivalent — due after the release — [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+- [ ] Move the existing Omni/NOVA naming documents into the Knowledge Base standards folder — due unspecified — [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+- [ ] All design screens for South Dakota Real Keno while developers are on Nebraska, then redo Solar from vertical to horizontal — due through October — [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+- [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 - [[raw/Meeting_Notes_NOVA_Capability_Wishlist-August-14-2026.md]]
 - [[raw/Meeting_Transcript_NOVA_Capability_Wishlist-August-14-2026-Part_2.md]]
 - [[raw/Meeting_Transcript_NOVA_Migration_Release_Sequencing-August-14-2026.md]]

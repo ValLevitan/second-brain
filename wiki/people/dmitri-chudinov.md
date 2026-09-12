@@ -4,8 +4,8 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 36
-open-commitments: 7
+source-count: 39
+open-commitments: 8
 open-questions: 0
 ---
 
@@ -160,8 +160,25 @@ On the [[wiki/meetings/2026-08-24-nova-lgs-prose-standard-checkpoint.md|Aug-24 p
 - **The work was reassigned away from him on availability grounds.** [[wiki/people/irina-shishko.md|Irina]]: "дима сейчас занят, потом дима в отпуск, а Сергей пускай сейчас этим занимается" — busy now, then on vacation, so [[wiki/people/sergey-tsymanov.md|Sergey Tsimanov]] takes it. [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
 - **He is to be consulted on the prose-writing standard.** Val, handing the standard to Vladimir and Evgeny: "вы, наверное, както соберётесь, наверное, привлёте диму чудинова, наверно, у него тоже есть какието мнения по этому поводу." His prose variant is one of the three-to-five the standard is to be distilled from. See [[wiki/decisions/2026-08-24-single-prose-writing-standard.md]]. [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
 
+## Sept 4 2026 — the contract-versioning problem, raised as "Dzmitry Chudzinau"
+
+He appears in the [[wiki/meetings/2026-09-04-rage-nova-conversion-readiness.md|Sept-4 morning meeting]] attendee list under the Belarusian rendering **Dzmitry Chudzinau**, and was the meeting's most persistent sceptic on the data-contracts plan [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]].
+
+- **The question nobody had answered:** "контракты мы везём, у нас пишется open [API;] но… мне никто пока не открывает глаза. Что делать с **версионностью**? Которые появляются после 1 же релиза." The transaction repository is single, and something must reconcile a machine already in the field against a server that has moved ahead. [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- **He pushed twice more.** Who releases the transaction repository on every release — "давай возьмём транзакцию флекс айкью[;] тут уже **12 репозиториев** и у каждого есть свои контракты… сейчас начнётся просто волна релизов" — and the boundary case Evgeny could not answer: "у машины… есть такой же контракт с [legacy] CMS[, с] аккаунтным хостом. Это тоже часть продукта, они тоже запекаются[?]" His own view was that they must: "ты часть всей общей системы[,] и обратно… если ктото за чтото правит там на уровне ролей, значит запекаться должн[ы]… игры." [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- **He backed Igor's underlying question and did not accept the answer:** "Если мы это делаем для Клода, почему ему недостаточно репозитариев? Я всё равно… не понимаю." Val closed the discussion rather than answering it — see [[wiki/decisions/2026-09-04-data-contracts-closed-every-repository-by-september-11.md]]. [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- **Galaxy is his, quietly.** Val, turning to him: "То же самое должно быть… сделано под Galaxy [platform;] для тех людей, которые не знают слово Galaxy, это в принципе **бывшая CMS**… дима чтото там на заднем плане ковыряется. Я не знаю, что он сделал, но когда мы придём к октябрю месяцу[,] мы начнем вплотную говорить про галакси платфо[рму]." Val also asked aloud what "дима может сделать с Сергеем Пацанова" — a name that does not cleanly match any page; by context (the CMS requirements pair) it is most likely [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]], **labelled as inference, not asserted**. See [[wiki/topics/nova-platform-architecture.md]] (Sept-4). [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+
+## Sept 4 2026 — his SAS command document becomes the scope of record for the Flex-Port port (he was not on the call)
+
+On the [[wiki/meetings/2026-09-04-flex-slim-first-ten-and-flex-port-sas.md|Sept-4 midday production call]] Chudinov's own document — the list of SAS commands he wants supported, mirroring what he supports on the WSS side — was made the scope boundary for porting SAS onto Flex-Port, over [[wiki/people/eugine-yavorski.md|Yavorsky]]'s request to narrow the task. [[wiki/people/evgeniy-alekseev.md|Alekseev]]: "есть документ, который делал… Дмитрий… И просто нужно, если этого недостаточно[,] просто чтоб дописали, какие ещё команды необходимо реализовать"; everything in it is already implemented on SMIB. Val restated it as step two of the sequence: "найти документ, который был опубликован Димой Чудиновым, которые, скорее всего, находятся в [Конфлюенс]." **Where the document lives was not confirmed** — both Val and Alekseev hedged on Confluence. Ruling: [[wiki/decisions/2026-09-04-port-the-smib-sas-module-into-the-flex-port-main-branch.md]] [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]].
+
+- **Open commitment (conditional):** extend the SAS command document if the implemented set proves insufficient — named jointly with [[wiki/people/pavel.md|Pavel Frolov]] ("чтоб там Дмитрий или Павел добавил"); contingent on the stage-one test [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]].
+
 ## Sources
 
+- [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Notes_Legacy_CMS_Documentation_Progress_Check-April-15-2026.md]]
 - [[raw/Meeting_Transcript_data_access_strategy_and_cms_cloud_migration-March-23-2026.md]]
 - [[raw/Claude_Code-Dzmitry.md]]
@@ -198,3 +215,4 @@ On the [[wiki/meetings/2026-08-24-nova-lgs-prose-standard-checkpoint.md|Aug-24 p
 - [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
 - [[raw/Meeting_Notes_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]

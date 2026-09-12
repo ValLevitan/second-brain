@@ -2,8 +2,8 @@
 type: topic
 title: JVL machine and cabinet lineup
 date: 2026-07-12
-aliases: [Flex cabinets, Altera, Maple, Echo, Flex S, Flex C, Flex V42, Flex V42/C, cabinets, VLT, video lottery terminal, Flex SD27, V43, C10-VLOT-TERM-RU, Epic 950, FutureLogic, FlexPort, FlexPay, Nico, Miranda, Omni, Florida Ruta, CPU kit, coffin, iOBoard, Bally iview, Diamondlink, nano-optics, JCM, dual SAS, HAL, FireEyes Wink, Dragon Supreme, Calle Ocho, Maneki-neko, HG-6, kiosk, Incom, TITO, SMIB, SAS server, La Rosa, El Jaguar, Golden Husk, 5X Peppers, Cold Cash, Pink Princess, Jungle Jaguar, Dutch Mill, Crazy Spins, Midnight Money, Spicy Fruits, Clover Fortune, Jinji Du Li, Cash Kittens, Rosita's Cantina, Estilo Bling, Kaiju Omni]
-source-count: 40
+aliases: [Flex cabinets, Altera, Maple, Echo, Flex S, Flex C, Flex V42, Flex V42/C, cabinets, VLT, video lottery terminal, Flex SD27, V43, C10-VLOT-TERM-RU, Epic 950, FutureLogic, FlexPort, FlexPay, Nico, Miranda, Omni, Florida Ruta, CPU kit, coffin, iOBoard, Bally iview, Diamondlink, nano-optics, JCM, dual SAS, HAL, FireEyes Wink, Dragon Supreme, Calle Ocho, Maneki-neko, HG-6, kiosk, Incom, TITO, SMIB, SAS server, La Rosa, El Jaguar, Golden Husk, 5X Peppers, Cold Cash, Pink Princess, Jungle Jaguar, Dutch Mill, Crazy Spins, Midnight Money, Spicy Fruits, Clover Fortune, Jinji Du Li, Cash Kittens, Rosita's Cantina, Estilo Bling, Kaiju Omni, C43, Curve 43, Mars X, D2703]
+source-count: 42
 ---
 
 # JVL machine and cabinet lineup
@@ -176,6 +176,17 @@ The first end-to-end description of the **Mega Hit Games** cabinet in front of a
 - **Units are already in the field on test.** "**We have several units already in the market for field test. They're doing phenomenal. I would really like you guys to see it for yourself. Install a few of those in different locations. I would strongly recommend.**"
 - **Price and the 10-vs-15-game trade-off** — a cheaper ten-game build exists but loses the remote game-swap, which Felipe argued against at "**only a two hundred and fifty dollar price for a game**" — are on [[wiki/topics/jvl-machine-pricing-strategy.md]].
 
+## Cabinet lineup ruled for the next three years (Sept 4 2026)
+
+Set by Val at the [[wiki/meetings/2026-09-04-naming-convention-standards-and-nova-conversion.md|Sept-4 afternoon game-development meeting]], and confirmed point by point with Michael Gottlieb and Lena Zhukova. Full decision on [[wiki/decisions/2026-09-04-d27-discontinued-curve-c43-premium-line.md]] [[raw/Meeting_Notes_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]].
+
+- **D27 — discontinued in Georgia, with no upgrades offered.** Val: "I think that we should not offer any upgrades for D27 machines"; Michael: "the D27 goes away." It **continues in Nebraska** ("you're staying with D27 in Nebraska" — Lena and Michael: yes) and is the cabinet for **South Dakota D2703**, horizontal rather than vertical. [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+- **V43 — continues for about three years, through versions 4, 5 and 6 in Georgia.** "we're going to continue View 43, version 456 in Georgia." [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+- **C43 — the 43-inch Curve, a new premium line, introduced at the next Georgia trade show and developed in NOVA.** Val named it: "Let's call it C for curve, **C43**"; Michael: "**C43 Nova will be introduced at the Georgia show. It'll be developed in Nova.**" Commercial intent: sell it for about **$1,000 more** than a V43 (Juan), on a visibly more premium interface. [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+- **Game-loading limit, stated plainly:** about **ten games loaded** today (Lena: "12, 12, we never show more than 12" on screen), the constraint being **memory for graphical assets**, not maths — a RAM upgrade would fix it but RAM is "crazy expensive" right now. Operators buy fifteen and get them enabled over the modem. Val wants the selection screen designed for **14**. See [[wiki/topics/jvl-machine-pricing-strategy.md]] (Sept-4). [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+- **The V-deck costs JVL about $120** against a plain panel with a single button, and is proposed for replacement by a mechanical button deck from V4 — see [[wiki/decisions/2026-09-04-georgia-v4-mechanical-button-deck.md]]. Competitor note from the same meeting: Aristocrat entered this market with **an unretired Class 3 cabinet Juan named as the Mars X**, which always had mechanical buttons. [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+- **No move to 4K resolution.** Lena asked twice; Val: "There's absolutely zero reason right now to move to 4K… There's 0 benefit." [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+
 ## How customers see the products
 
 - To customers and financiers, all JVL machines are described broadly as **video lottery terminals**; price and description vary only by hardware configuration (e.g. one vs. two screens) and software (number of games, features). Example naming: "video lottery terminal, Flex D27." [[raw/james_reble_elevate_january_14_2025.md]]
@@ -187,6 +198,8 @@ The first end-to-end description of the **Mega Hit Games** cabinet in front of a
 
 ## Sources
 
+- [[raw/Meeting_Notes_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+- [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 - [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]]
 - [[raw/retrofit_january_7_2025.md]]
 - [[raw/jvl_strategic_plan_and_vision_2025_2025-01-08.md]]

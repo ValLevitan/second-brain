@@ -2,8 +2,8 @@
 type: topic
 title: GitHub release management and the CI/CD release pipeline
 date: 2025-10-21
-aliases: [release management, release pipeline, CI/CD, GitHub Actions pipeline, release artifacts, ISO image release, release manager role, continuous delivery, flex os installer, manifest, release candidate, single source of truth, feature branch discipline, sprints vs kanban, Jira GitHub link, FlexPos IP 902, FP 519, IP 89 dashboard grooming, bulk archive automation, Jira resolutions cleanup, Flex-POS Transition to Production, alpha build release tracking, knowledge repository, prose pending folder, prose merge action, docs contracts folder, integration repository]
-source-count: 87
+aliases: [release management, release pipeline, CI/CD, GitHub Actions pipeline, release artifacts, ISO image release, release manager role, continuous delivery, flex os installer, manifest, release candidate, single source of truth, feature branch discipline, sprints vs kanban, Jira GitHub link, FlexPos IP 902, FP 519, IP 89 dashboard grooming, bulk archive automation, Jira resolutions cleanup, Flex-POS Transition to Production, alpha build release tracking, knowledge repository, prose pending folder, prose merge action, docs contracts folder, integration repository, Knowledge Base repository, Standards folder, 39 accesses]
+source-count: 90
 open-questions: 9
 ---
 
@@ -681,8 +681,22 @@ At the [[wiki/meetings/2026-09-03-nova-prose-standard-skills-and-module-contract
 - **Tests then build off each repository's capabilities and requirements**, "с учетом контрактов между модулями," inside the integration repository, with a registry of generated tests updated on each build (Pavel) — see [[wiki/topics/test-automation-strategy.md]] (Sept-3). [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 - **§15.8:** clear — process/standard content only; no named-person compensation.
 
+## Sept 4 2026 — a repository skeleton built without reading the standard; access verified for all 39 accounts; "Knowledge Base / Standards" named in English
+
+Two things landed on this thread at the [[wiki/meetings/2026-09-04-rage-nova-conversion-readiness.md|Sept-4 morning meeting]] and one at the [[wiki/meetings/2026-09-04-naming-convention-standards-and-nova-conversion.md|afternoon game-development meeting]] [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]].
+
+- **A new repository's directory structure was built independently of what had been agreed.** [[wiki/people/irina-shishko.md|Irina]] asked whether Igor's port work was in Git; Igor said he believed so, would double-check and commit anything missing, and mentioned moving his branch into the new repository "[Андрей] босик создал." Val picked up the word *created* and asked who decides the architecture of the repository. Pavel corrected the premise — "надо только… название репозитории. Все остальное там пустое и наполняется уже… Игорем" — then named the actual issue: "структура каталогов в репозитории… была независимо сделана от… Того, что обсуждалось." Val's reply was one sentence: "**у нас есть написанный стандарт.**" Igor: "по стандарту я, к сожалению, с ним не ознакомился. Ну я думаю, что я… смог[у] ознакомиться и поправить под стандарт" [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]. This is the concrete instance behind the standing instruction on [[wiki/decisions/2026-09-04-point-claude-at-the-standards-repository-first.md]].
+- **Access to the standards repository has been granted and manually verified — 39 accounts.** Pavel posted the link into the meeting chat "чтобы потом никто не говорил, что я не знаю, где у нас стандарты лежат"; Val confirmed "[Андрей] всем дал и проверил каждого аксес… он мануально сам всё это проверил **39 аксис**." This discharges the company-wide-access action taken by Pavel on [[wiki/decisions/2026-09-03-prose-standard-into-knowledge-repository.md|Sept 3]] [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]].
+- **The English name for the same thing: a GitHub repository called Knowledge Base with a Standards folder inside it.** Val, closing the afternoon meeting: "we have a repository which is called **Knowledge Base** in GitHub. Under Knowledge Base, there is a folder called **Standards**. This is where all standards go… It includes the taxonomy, it includes the filing naming convention." Consistent with Pavel's Sept-3 correction (`knowledge` repository, standards folder) [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]].
+- **Every repository additionally carries its own data contract beside the code, targeted Sept 11** — see [[wiki/decisions/2026-09-04-data-contracts-closed-every-repository-by-september-11.md]] [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]].
+- **Still unresolved on the graphics side: where art assets and branches live and how a starting branch is chosen.** The afternoon meeting established that the naming convention and folder structure are undocumented for Rage Studio, that the branch-selection method has no written rule, and that Juan — the VP product owner whose requirements are supposed to drive the choice — does not know where the file repositories are. See [[wiki/decisions/2026-09-04-asset-naming-convention-must-be-written-down.md]] [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]].
+- **§15.8:** clear — process/standard content only; no named-person compensation.
+
 ## Sources
 
+- [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 - [[raw/Meeting_Notes_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 - [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 - [[raw/Meeting_Notes_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]

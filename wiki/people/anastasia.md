@@ -3,7 +3,8 @@ type: person
 title: Anastasia
 date: 2025-02-26
 aliases: [Anastasia, Nastia, Nastya, Anastasiya, Анастасия]
-source-count: 8
+open-commitments: 1
+source-count: 10
 ---
 
 # Anastasia
@@ -25,8 +26,20 @@ Surname not given in the transcripts. (One of the four graphics-team members —
 
 In Aaron's AI-tooling knowledge share, Anastasia reported the third-party "class" Atlassian MCP is very tool-limited (it resorts to writing scripts for log-time/task creation/search), agreed it isn't useful, and said the team will try Aaron's MCP — with an idea to generate a whole Jira feature/story structure for a game (they have templates for a regular Class 3 game, a Georgia game, and a Persistent game). [[raw/mcp_experiences_tech-apr-16-2025.md]]
 
+## Sept 4 2026 — reworking the Rodeo Spins horse animation, while finishing Queen of Luxor
+
+At the [[wiki/meetings/2026-09-04-naming-convention-standards-and-nova-conversion.md|Sept-4 game-development meeting]] Val rejected the horse animation in **Rodeo Spins** — "The horse doesn't kick naturally… it doesn't land on… the back back legs… It needs to jump and kick, jump and kick, but it needs to land. **The physics is wrong**" — against [[wiki/people/lena.md|Lena]]'s report that it had been approved, released and liked ("No way. It's impossible to like"). Asked who is reworking it, Lena named **Anastasiya**, who is also finishing her own Queen of Luxor tasks first: "she needs to finish her tasks on Queen of Luxor and then she will do this [horse] as well." Val's summary: "she spreads herself in between the two projects." Every other artist in the department is on Queen of Luxor. [[raw/Meeting_Notes_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]] [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+
+This is the same "Anastasiya" spelling used in the derived notes; the person is the graphics-team artist recorded here since Feb 2025.
+
+## Open commitments (Sept 4 2026)
+
+- [ ] Redo the Rodeo Spins horse animation after finishing her Queen of Luxor tasks — due unspecified — [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+- [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 - [[raw/github _structure-pavel-aaron-andrei.md]]
 
 - [[raw/GitHub_commit_of_LFS_demo_by_Lena_2025-02-21.md]]

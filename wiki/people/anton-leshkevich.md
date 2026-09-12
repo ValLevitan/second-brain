@@ -4,8 +4,8 @@ title: Anton Leshkevich
 date: 2025-01-21
 aliases: [Anton Leshkevich, Anton, Antoine, Anton Dmishkevich, Дмишкевич, Дмишкевичем, Liashkevich, Anton Liashkevich, Lishkevich, Anton Lishkevich, Лишкевич, Rishkevich, Anton Rishkevich, ришкевич, Vishkevich, вишкевич, брижке]
 disambiguation: "Minsk engineer (Omni/RGS), this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 27
-open-commitments: 3
+source-count: 29
+open-commitments: 4
 open-questions: 0
 ---
 
@@ -111,8 +111,24 @@ At the [[wiki/meetings/2026-09-03-nova-prose-standard-skills-and-module-contract
 - [ ] [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — port a second (line) game from Rage/South Dakota to NOVA in parallel, building on Igor Metelski's converter work, so the multi-game game-select screen can be tested — due unspecified (parallel to Igor's QA experiment) — [[raw/Meeting_Notes_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]] [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
 - [ ] Write prose + a capability + a contract for each of his 5 or 6 Rust device modules — due the two-week milestone from Sept 3 2026 — [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]] [[raw/Meeting_Notes_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 
+## Sept 4 2026 — a scene-validation tool, and the technology-stack objection nobody else was making
+
+At the [[wiki/meetings/2026-09-04-rage-nova-conversion-readiness.md|Sept-4 morning meeting]] Anton did two things: showed a tool he had built and raised the one structural objection in the room [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]].
+
+- **The scene-validation tool.** Reading Igor's port notes he picked out two large gaps — launching a game from LGS with maths, and scene validation after conversion, which today only checks that a file exists ("просто проверяется наличие файла"). His tool "использует омни[ и] непосредственно загружает сцену в память", runs under Linux and Windows, validates scenes from the command line, and could be incorporated into an asset-migration pipeline. He described it as an evolution of a tool Sasha began "пару лет назад" and finished it to "какого[-]то плюс[-]минус рабочего состояния" that week, then asked whether it was wanted at all — "насколько нам нужна такая т[ула] и… насколько я[м] будут пользоваться люди?" The answers were positive from Pavel (Claude can use it), Alexander Biratko (designers can view scenes in the new engine; and could it do automatic screenshot comparison?) and Igor (very useful for a human; Claude can work without it, but it would have helped greatly on Calle Ocho). Detail on [[wiki/topics/test-automation-strategy.md]] (Sept-4). [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- **His rationale for it: break the long port cycle into atomic sub-tasks.** "весь цикл порта это ресурсы, код[,] потом вот эти проблемы с LGS и математикой[,] и тогда можно запустить что то посмотреть, то есть цикл достаточно длинный, а в этом случае можно… сначала сфокусироваться на ас[с]ета[х]… потом перейти к коду… задача немножко дробится на более атомарные подзадачи." [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- **The technology-stack objection.** He argued JVL is repeating the Rage mistake by building on a custom browser-based stack that will age out, and would prefer a compiled application. He had surveyed alternatives — Unity, Unreal (royalty terms he quoted from memory), and free engines generally — and named the maintenance cost of reviving JVL's OGRE-based engine. The exchange, and Val closing it, is on [[wiki/decisions/2026-09-04-browser-pixi-stack-concern-closed.md]]. He accepted the close: "Пожалуй, да пока пока." [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- **His unaddressed second point:** that optimising the AI's own cost is part of the job — "наша задача это оптимизировать его работу и сделать так, чтобы он работал дешевле[,] сжо[г] не так много токенов." [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- **His Rust work is already landing.** Val, listing evidence that October 1 has effectively started, was told by Irina that Anton wrote "навигатор[,] принтер" in Rust, and Alexander Biratko added that the printer library is already being integrated into Flex-Pay. [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+
+## Open commitments (Sept 4 2026)
+
+- [ ] Continue the scene-validation tool; the screenshot-comparison extension Alexander Biratko proposed is wanted but unscheduled — due unspecified — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Notes_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 - [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 

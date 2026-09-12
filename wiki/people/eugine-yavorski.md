@@ -4,8 +4,8 @@ title: Eugine Yavorski
 date: 2025-02-18
 aliases: [Eugine Yavorski, Evgeny Yavorsky, Yavorski, Yavorsky, Яворский, Evgeny Egorsky, Egorsky, Егорский, Evgeny Nevorsky, Nevorsky, Неворский, Evgeny, Yevgeny, Zhenya, Женя, Евгений]
 disambiguation: "FlexPort/FlexPay integration engineer (alias Egorsky), this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
-source-count: 26
-open-commitments: 3
+source-count: 27
+open-commitments: 4
 ---
 
 # Eugine Yavorski
@@ -120,6 +120,21 @@ On a short session ([[wiki/meetings/2026-02-10-claude-code-yavorski-knowledge-tr
 
 On the [[wiki/meetings/2026-03-04-schedule-review.md|Mar-4 schedule review]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/irina-shishko.md|Irina Shishko]]) Val and Pavel decided **not to bring Yavorski on permanently** — consistent with the [[#feb-10-2026--claude-code-onboarding--contractor-knowledge-transfer|Feb-10 "contractor, project ending" framing]] ("we're at the end of the project"). His **FlexPort application (IP 10-13)**, planned to finish ~**March 24**, is to be handed off: [[wiki/people/alexander-biratka.md|Sasha Biratka]] becomes the reporter/owner and takes over the work (monitoring Yavorski's commits and using Claude for code review to absorb it). Val's rationale was to give the work to someone who wants to grow inside JVL rather than retain an outside contractor. §15.8: pay-raise/cut discussion carried no figures — omitted. [[raw/Schedule_review-March-4-2026.md]]
 
+## Sept 4 2026 — the Flex-Port SAS demo was his, and the estimate nobody in the room believed
+
+Brought onto the [[wiki/meetings/2026-09-04-flex-slim-first-ten-and-flex-port-sas.md|Sept-4 midday call]] to explain the state of SAS on Flex-Port [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]:
+
+- **What exists is a trade-show demo on Flex-Port hardware.** "на флэкспортах мы сделали демоверсию на базе железа флекс портов, а те, которые ты новые борты сделал, мы ещё даже не начинали ничего"; the demo "минимально функциональность имела," was shown at the expo, and "мы там даже чтото подправляли… по итогам этой выставки." He would not vouch for its state: "я не уверен, что она… в сильно хорошем состоянии."
+- **He asked for the scope to be narrowed and was overruled.** He wanted [[wiki/people/pavel.md|Pavel]] to say which minimum SAS functionality to start from, because the full protocol "будет там на год работы реализовывать." [[wiki/people/evgeniy-alekseev.md|Alekseev]]'s counter — the scope already exists in [[wiki/people/dmitri-chudinov.md|Chudinov]]'s document — was adopted.
+- **His estimate: "пару недель… 2[–]3 недели[,] там может месяц,"** conditioned on nothing new appearing beyond what is written. [[wiki/people/genadi-peari.md|Genadi]] pushed back in the room ("2 недели или месяц это огромная разница") and, after he left, told Val: "[Е]горский, когда говорит 2 недели[,] это это 2 месяца минимум… Он тянет." **Recorded as Genadi's judgement, not as fact.**
+- **He was at a cottage for the long weekend** — "на лонг уикенд уехал[,] я сейчас не дома, а на коттедже" — so he starts Monday evening, and flagged that rebuilding his workstation is itself a problem: "всегда проблема заново пересобрать рабочее место[,] там всё… очень капризно… обычно нужно… помучиться, чтобы оно всё заработало," asking for help from Pavel or someone to restore his SMIB setup.
+
+Ruling: [[wiki/decisions/2026-09-04-port-the-smib-sas-module-into-the-flex-port-main-branch.md]].
+
+## Open commitments (Sept 4 2026)
+
+- [ ] Rebuild his working environment and take up the SAS port on Flex-Port — due from Monday evening, Sept 7 2026 — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+
 ## Sources
 
 - [[raw/Schedule_review-March-4-2026.md]]
@@ -148,3 +163,4 @@ On the [[wiki/meetings/2026-03-04-schedule-review.md|Mar-4 schedule review]] ([[
 - [[raw/flex-port_flex-pay_update-may-10-2025.md]]
 - [[raw/flex-pay_flex-port_update-may-15-2025.md]]
 - [[raw/flex-port_flex-pay_smib_update-may-20-2025.md]]
+- [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
