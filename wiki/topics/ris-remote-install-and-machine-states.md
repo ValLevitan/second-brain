@@ -2,8 +2,8 @@
 type: topic
 title: RIS (remote install/setup system) and machine states
 date: 2026-02-06
-aliases: [RIS, remote install system, remote setup, RIS modernization, machine states, sold-machine RIS, RIS subscription, manual override screens, participation financed debt-free]
-source-count: 5
+aliases: [RIS, component allow-listing, validator swap fraud, remote initial setup, remote install system, remote setup, RIS modernization, machine states, sold-machine RIS, RIS subscription, manual override screens, participation financed debt-free]
+source-count: 6
 open-questions: 3
 ---
 
@@ -62,6 +62,19 @@ By July 2026 the RIS **code had been reverse-engineered into human-readable requ
 - **Feb 6 2026** — modernise RIS for the **sold-machine** world: three machine states, editable-per-screen flags (manual override), RIS-as-subscription, lock/unlock + override reporting — while keeping finance/jurisdiction control absolute. Undertaking: a **decision-flow diagram** of RIS across the states; follow-up Wed the 11th. [[raw/RIS Modernization & Operator Flexibility Alignment.md]]
 - **Jul 8 2026** — the RIS code, reverse-engineered into requirements, surfaced **five personas**; two same-day sessions clarified and refined them (with three new operator-side roles) and confirmed the direction to keep RIS but make it **field-editable** after install. The 22 reverse-engineered requirements were judged too coarse (split each into 5+). Full persona framework on [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (July-8). [[raw/Meeting_Notes_RIS_Persona_Clarity-July-8-2026.md]] [[raw/Meeting_Notes_RIS_Persona_Roles_Engineering_Review-July-8-2026.md]]
 
+## Sept 2 2026 — the customer-facing rationale for component locking, and the first offer to switch it off
+
+The [[wiki/meetings/2026-09-02-lucky-coin-service-and-upgrade-offer.md|Sept-2 Lucky Coin visit]] is the only place in the corpus where Val explains **to an operator** why JVL's machines require a reset when hardware changes — and it is the first time he offers to remove the control on request [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]].
+
+- **The reason is validator-swap fraud, learned as an operator.** "**I'll tell you why we require [a] reset**, and you tell me if you don't need this feature. **We require [a] reset when we restrict certain things.** For example, we don't want certain bill acceptors installed on our machines. We don't want certain bill acceptors to be replaced on our machines, **and that comes from my experience being an operator**." The mechanism: "if I install a brand new validator on the machine and I put it on my route, and I have a **disgruntled technician**… he will take my validator, **sell it on the side, and replace it with the used validator**. That was **prevalent in Latin America**."
+- **So the machine is trained, not just configured.** "we **allow and disallow certain changes, allow and disallow certain components**. For that reason, we build [a] **remote initial setup structure that guides the machine, trains the machine a certain way** — how we want to build it."
+- **He named the cost of it in the same breath.** "then, if I want to quickly swap a validator, and you, as the business owner, set it up not to allow it — **well, it's inconvenient for the technician**."
+- **The question he says it really poses is the operator's, not JVL's.** "**How should a business be run? Should I have serialized inventory control, or should I not? Should I have inventory control by brand, or should I not? Should I have a twenty-five cents bet on the machine, or should I not?** So certain locations do, certain locations [do] not. **All of this could be set through remote initial setup, and now downloaded through a mo[dem]**."
+- **And his own account of why the fight happens at all:** "we just sometimes [are] not getting the decision maker, the operator who really makes a decision in the business, to listen to us. **That creates a lot of inconveniences. We can remove all of this, but in the long run, I'm not sure that we are servicing the business correctly.**" He put it as an open dilemma: "**On one hand, we're pushing it forward. On [the] other hand, we're saying, should we not do that and just be like everybody else? I don't have an answer.**"
+- **The offer, made on the spot, when the customer said he had never suffered the fraud:** "**Then you don't need that feature, and we should remove it.** Then we should remove it." He attached a counter-offer rather than an argument: "**I will just report your acceptance rate to you on your validators. You'll be surprised.**" (That data offer is on [[wiki/topics/machine-data-repurchase-program.md]].)
+
+**Why it matters to this page:** RIS is documented here mostly as an internal control problem — jurisdictions, finance, resale. This source shows the control being **negotiated with the customer as a product option**, per location, which none of the earlier sessions contemplates. It is also the operator-side cost of the same lock-down: the **decommission / re-flash / recommission** cycle that made this customer's service complaint (see [[wiki/organizations/lucky-coin.md]]), and which Val committed to reduce without a date.
+
 ## Open questions
 
 - How a **not-yet-JVL-customer new owner** gets any RIS benefit on a machine that has been off the floor for months, without JVL granting server access it does not want to grant (legal-liability concern) — discussed, not resolved. [[raw/RIS Modernization & Operator Flexibility Alignment.md]]
@@ -75,3 +88,4 @@ By July 2026 the RIS **code had been reverse-engineered into human-readable requ
 - [[raw/set_up_screen_omni-apr-24-2025.md]]
 - [[raw/Meeting_Notes_RIS_Persona_Clarity-July-8-2026.md]]
 - [[raw/Meeting_Notes_RIS_Persona_Roles_Engineering_Review-July-8-2026.md]]
+- [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]

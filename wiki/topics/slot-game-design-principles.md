@@ -2,8 +2,8 @@
 type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
-aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus, $20 test, twenty dollar test, Twin Bison, Wolfpack, Clover Fortune, Liberty Spins, peek-to-be-in bonus, locking bison, Rodeo Spins, multi-progressive, Multi-Progressive initiative, three-level progressive]
-source-count: 77
+aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus, $20 test, twenty dollar test, Twin Bison, Wolfpack, Clover Fortune, Liberty Spins, peek-to-be-in bonus, locking bison, Rodeo Spins, multi-progressive, Multi-Progressive initiative, three-level progressive, three progressive styles, bet-dependent progressive, symbol-driven progressive, time on device, jackpot reset value, RTP parity, Pyre Island]
+source-count: 81
 open-questions: 3
 ---
 
@@ -632,6 +632,77 @@ Within 48 hours of parking the theory internally, Val argued it twice in front o
 
 **§15.8:** clear — RTP, bet-level, floor-mix and market economics only; no named-person compensation.
 
+## Sept 1 2026 — the three-progressive vertical pitched as a high-roller machine, and the operator's counter-ask
+
+At the [[wiki/meetings/2026-09-01-double-down-gaming-visit.md|Sept-1 Double Down Gaming visit]] [[wiki/people/val-levitan.md|Val]] made the fullest design argument for the V43 vertical in the corpus — the machine whose headline feature is **three non-symbiotic progressive mechanics in one cabinet** ([[wiki/projects/georgia-market-rollout.md]]). The operator's response was a product request that cuts against a standing JVL rule.
+
+### The three styles, and what each is for
+
+- **The design intent is choice, not stacking.** "**we have three different progressive styles. Now they all work as one**, and the idea is to give people an option of what they prefer: **something more mysterious or more simple.**" [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+- **Val's own taxonomy, in one line:** "**This could be your time on device. This could be your high roller. This could be your chaser.**" And on what makes it rare: "**I don't believe that there is anything on the market… that will offer the internal mechanics of three different progressive sizes. Each progressive style is its own unique mathematics.**" [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+- **The symbol-driven style is borrowed from Class 3.** "**This is called a symbol driven progressive. It's taken from class three**… [you] get a set of symbols, you get a progressive. **A player usually chases a symbol or a set of symbols.**" [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+- **The bet-dependent style is the high-roller machine.** "this one's **bet dependent**… **the higher you bet, the more you win as a progressive**… the higher the bet, the more chances they have to win one of those progressives." *(The dollar figures in this passage — "twenty four grand jackpot," "the twenty-four hundred ring," "why would I pay twenty five hundred dollars" — are garbled and mutually inconsistent in the source, so **no jackpot figure is asserted here**. The one clean number is the starting value: asked "Out of the box, this is fifteen hundred. What does it run up to, typically?" Val answered "**I cannot answer that question because it depends on the setting.**")* [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+- **Not every pair can sit side by side.** "if you put them next to each other, you couldn't do these two. **We cannot do these two, but we can do** [the others]. So putting two of these should be okay." *(Which two is not recoverable from the transcript; recorded as the constraint being stated, not as a specific rule.)* [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+- **A game the source names "Pyre Island."** "**Pyre Island is a brand new progressive, very fun**… It does have the spin, **the crystal spin game that you can actually play. It's similar to Diamond Link.** The difference here is we have **three different additional features: diamonds. And if you get one of those diamonds in a spin, then you get multipliers**." *(The title is recorded exactly as transcribed. It appears nowhere else in this corpus and is **not** matched to any known JVL title — no substitution is made.)* [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+
+### The social-signalling argument for a bet-scaled progressive
+
+Val's case for why bet-scaled progressive displays are the mechanic, not just a math choice: the display is a status object on the floor. [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+
+> "you could bet 25 cents, and this [is] the progressive, and you can bet five dollars, and this [is] the progressive… **And if I put a 10 dollar button, this will go skyrocket.** … Even if I put two machines side by side, and the guy on twenty-five cents is happy with this, the guy who comes in, **who is the king of the house here, and wants to flaunt it**, goes [for] this, and everybody in the house says… **you are a big [shot] in the house, and I'm a little guy. That's my display. This is yours.**"
+
+The operator pushed back that pay tables have always scaled with bet size — "a lot of the paytables historically have had that. It runs in direct correlation to the size" — and Val's distinction was the side-by-side visibility: "**Not two machines side by side. This is probably the only concept.** There are other similar games, but you have to have this sort of progression." [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+
+### The pedigree claim
+
+"**This originally was made by Bally, and my senior VP of game design is from Bally, so he brought it to me. But this has been around for about 50 years. It started from a mechanical slot machine.**" And the floor share: "I think **slightly over one million machines** [in Class 3 in the US]. **Between fifteen to twenty-five percent of the floor of every casino in class three gaming is this type.**" *(The Senior VP of Game Design is [[wiki/people/michael-gottlieb.md|Michael Gottlieb]], per the §4 registry; the source does not name him. No compensation is stated or recorded — §15.8.)* [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+
+### The RTP-parity condition — Val's standing answer to "will it beat Light & Wonder?"
+
+This is the clearest statement in the corpus of the trade-off Val makes when he is asked to outperform a competitor: [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+
+- **Generalised settings are the enemy.** "**The problem with our brand is that we have a lot of settings, and we generalize our setting**… you either **generalize incorrectly for high rollers or generalize them correctly for run-of-the-mill locations**. It's very difficult to generalize, and **our range of settings is humongous. So if we zero in, knowing what locations we're operating in, we will hit it dead on.**"
+- **A high RTP makes a player happy and the operator poor.** "if you want your games to be at **96% RTP**, you'll be hard pressed to match other games that are at **90%**. And I know that **Light and Wonder** says their games are [higher], and **Aristocrat at approximately 90%**. **If you set up this game at 95%**, and you look at your net win, **the player will be very happy. But when you look at your net win production per day, you'll say Light and Wonder makes more money, and JVL doesn't make money, although your players are very happy.**"
+- **So the comparison has to be like-for-like.** "**Set up your [Light and Wonder] and [Aristocrat] at ninety five percent, and I'll set up this game at ninety five percent. I'll do that.**" And the claim that rests on it: "**if machines are set up equally in terms of RTP, so we can defend our net win, I don't believe that there is anything in the market today that will give you these options.**"
+- **How he proposes to zero in:** the LTE modem's real-time statistics and remote tuning — see [[wiki/topics/machine-data-repurchase-program.md]] (Sept 1).
+
+### The operator's counter-ask: adjustable jackpot reset values
+
+[[wiki/people/ryan-odonnell.md|Ryan O'Donnell]] answered the pitch with the one change he says he asks every manufacturer for — a **reset floor**, not a different ceiling. After a $10,000 hit "**it resets to twenty four hundred**," and the chase dies; he wants to "**set it at eight thousand again and let them chase**," because otherwise "**nobody's playing this one for a while**" while the players move to the competitor's machine still sitting at ten. The full statement is on [[wiki/people/ryan-odonnell.md]]. [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+
+**This sits directly against a standing JVL product rule.** The GA-COAM v2 product-manager persona ruled in May 2026 that **progressive settings cannot be changed on the fly** (see [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] and [[wiki/projects/georgia-market-rollout.md]]). A reset value set at install time is not obviously the same thing as an on-the-fly change, and **no source addresses the relationship** — the tension is recorded here, unresolved, because it is a customer request pointed at a rule JVL has already written. *(The observation is this wiki's, not a statement in any source.)*
+
+**§15.8:** clear — game-math, RTP, jackpot-setting and floor-share economics only; no named-person compensation.
+
+## Sept 1 2026 (afternoon) — Jackpot Rush as a bet-scaled multi-level progressive, and the 25¢ button Val says is wrong on it
+
+The same side-by-side high-roller argument Val made to Double Down that morning was made again twice the same afternoon, this time about a named game and with numbers. At the [[wiki/meetings/2026-09-01-narayani-akshar-mega-hit-demo-and-trade-in.md|Narayani/Akshar demo]] [[wiki/people/felipe-miranda.md|Felipe]] presented **Jackpot Rush** and Val supplied the design intent behind it. [[raw/Meeting_Transcript_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
+
+### The mechanic
+
+- **Multi-level, symbol-triggered, and lifted from Class III.** "**Jackpot Rush is a type of progressive**… This is a different type of progressive **that is very popular in class three, like casino locations. It's got different level progressives based on how many of this icon you get at a time.**"
+- **The prize scales with the bet, and that is the operator-protection argument.** "**you can pick the level of bet you want, and therefore the possible prize. If I bet a twenty-five cent [bet], my top jackpot is seventy-five dollars, which makes sense to you as an operator. You don't wanna pay someone who bet twenty-five cents thirteen thousand dollars. But as I increase my bet, this also increases times the bet… Betting a five-dollar bet makes sense for someone to get paid fifteen hundred dollars.**" The derived notes read the pair as **25¢ → $75 cap** and **$5 → up to $1,500**; the "thirteen thousand" is rhetorical, not a prize level. [[raw/Meeting_Notes_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
+- **The near-miss is the point of the lower levels.** "**it is not just a top jackpot**… **They'll get four and they'll get the rush that oh, next time I'll get the fifth. It's the whole psychology behind it.**" And on why the meter must visibly climb: "**part of the whole sense of a progressive is that it progresses you back. People like to see the money changing the numbers**."
+- **The bet configuration is internal and drives RTP.** Asked whether the operator can reconfigure it: "**On this game, you cannot, because it's internal and it drives the RT[P].**"
+
+### Val's design intent, and the button he says is wrong
+
+> "**the premise of the game is to satisfy high rollers. High rollers want to be distinguished by their amount of bets, and they also want to stand out in the location. So when you see two machines side by side**… **they could read who the high roller is, as well as the high roller will get a higher payout in absolute dollars.**"
+
+This is the same social-signalling argument recorded under Sept 1 above from the Double Down meeting, repeated the same day to a different customer. What is new is that Val turned it into a **criticism of JVL's own configuration**: "**the configuration is five dollars, but we also have a twenty-five cent button, which, in my opinion, for a high roller, is incorrect.**" Felipe's sales version of the same point: "**we always recommend for this game to always go to the top.**" [[raw/Meeting_Transcript_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
+
+**The counterweight came from the operator's side, unprompted:** big payouts create a fight at the location — "**once it starts paying out a lot, the location or the team**…" — which Val completed: "**Because when a location needs to take money out of his pocket, they start screaming.**" *(The operator's sentence is garbled around the figures "twenty dollars" and "forty-five dollars" and around a visit to "almost seven locations last week"; none of it is asserted here.)* [[raw/Meeting_Transcript_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
+
+### The peak-hour minimum-bet lever, with numbers for the first time
+
+Val's peak-hour theory (recorded above from Aug 26–27) got its first concrete worked example, at the [[wiki/meetings/2026-09-01-air-gaming-group-transactional-walkthrough.md|Air Gaming walkthrough]] at 3:00 PM: [[raw/Meeting_Transcript_Air_Gaming_Group_Transactional_Walkthrough-September-1-2026.md]]
+
+> "**if your machine is constantly busy at six o'clock, it would be nice to remove twenty-five cents bet between six and eight o'clock. Minimum bet, let's say seventy-five cents. So we can configure the machine this way. We have to have it on the cloud. There's no other option.**"
+
+So the lever is **raise the minimum bet from 25¢ to 75¢ between 6 and 8 PM on a busy machine**, driven by the cell modem's betting-trend data ([[wiki/topics/machine-data-repurchase-program.md]]). This is the "hiding the lowest bet button" branch of the Aug-26 open question below, given a time window and a number — but it is a **sales illustration to a prospect**, not a product decision, and the open question stays open.
+
+**§15.8:** clear — game-math, bet levels, jackpot caps and configuration only; no named-person compensation.
+
 ## Open questions (Aug 26 2026)
 
 - Location-based RTP and minimum-bet setting ("geo-fencing") versus disabling the lowest bet button during peak hours — which lever, or both? Parked by Val for the game-design team with no decision taken. [[raw/Meeting_Notes_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]] [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
@@ -716,3 +787,7 @@ Within 48 hours of parking the theory internally, Val argued it twice in front o
 - [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
 - [[raw/Meeting_Transcript_Narayani_Amusements_Trade_In_Negotiation-August-26-2026.md]]
 - [[raw/Meeting_Transcript_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]]
+- [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+- [[raw/Meeting_Notes_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
+- [[raw/Meeting_Transcript_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
+- [[raw/Meeting_Transcript_Air_Gaming_Group_Transactional_Walkthrough-September-1-2026.md]]

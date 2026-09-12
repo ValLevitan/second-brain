@@ -4,8 +4,8 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 49
-open-commitments: 28
+source-count: 61
+open-commitments: 33
 open-questions: 0
 ---
 
@@ -259,6 +259,36 @@ What that voice put in front of the customer is the clearest plain-language stat
 - **Enforcement comes free with the topology:** "**Because we are sitting on every game machine, we can lock** [it]" — Val completing it: "And we can lock the entire operation." [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 - **He offered the cooperative route before Val offered the disruptive one.** Asked how the functionality could be fitted to ARC's existing kiosks: "**if the kiosk developers are open to give us access to the API**, all we do is integrate ports into game machines and make sure that our protocol creates tickets that work with a kiosk." Val's counter was the board swap that needs nobody's permission. See [[wiki/decisions/2026-08-31-arc-kiosk-board-swap-routed-through-the-ceo.md]], which also carries the commitment he shares with Val. [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 
+## Sept 1 2026 — the "Lego bricks" demo, and the upgrade ladder as a sales structure
+
+The notes name Andrei as an attendee at the [[wiki/meetings/2026-09-01-double-down-gaming-visit.md|Sept-1 Double Down Gaming visit]] and credit him with the modular cashless demo. In the transcript he is **Speaker 5**, and Val hands over to him by name — "**Andrew**, would you mind please" — so reading Speaker 5 as Andrei is an inference from role plus that address, flagged as such. [[raw/Meeting_Notes_Double_Down_Gaming_Operations_Review-September-1-2026.md]] [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+
+- **He gave the product line its clearest organising metaphor.** "**think about that as Lego bricks. You can build up and set up for every single location. You can start with a very simple solution, just to comply with regulations today, so it works with [MudaGoose]. Later, if you're ready to upgrade it, you upgrade it with ports and you get replayability. And later, card dispenser**, and you can remove [the cashier step]. **No cashier time needed anymore.**" The four rungs are laid out on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 1). [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+- **He ran card activation by barcode live in front of a customer** — the day before it became a formal ruling ([[wiki/decisions/2026-09-02-activate-incomm-cards-by-barcode-on-flex-iq.md]]): "**the cashier will just take this part, scan the barcode, and it's activated**… the receipt will be printed using the same printer that was already" in the location. [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+- **He framed the replay flow as per-location configuration, not a fixed product.** "You go into scan mode. You confirm it with your **pin code**… **it's configurable, so it can be set up for each single location. No pin code needed. Switch off. Partial redemption.**" [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+- **He put the market state on reloadable cards on the record, competitor included:** "**there is still no provider in the market who supports reloadable cards. Even [Fiery Pay]; they do not provide reloadables. Do you know any?**" — and then asked the operator to define what he actually meant by "digital": "when you say digital, you mean **redemption itself is also going to some kind of wallet, a real wallet that I can use**?" The operator could not answer precisely. [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+- **He closed the meeting by collecting the customer's installed base** — TITO equipment, redemption kiosks, who the provider is, whether the card is an ATM-access card — which is what surfaced the "Bob at Perez" / IFS lead on [[wiki/people/bob.md]]. "**Keep me posted.**" [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+
+## Sept 1 2026 (afternoon) — two more demos the same day, the source-of-truth principle, and coaching he took on the chin
+
+After the Double Down demo that morning Andrei ran the transactional walkthrough at both afternoon visits — [[wiki/meetings/2026-09-01-narayani-akshar-mega-hit-demo-and-trade-in.md|Narayani/Akshar]] and [[wiki/meetings/2026-09-01-air-gaming-group-transactional-walkthrough.md|Air Gaming Group]]. In the first he is named twice — Felipe introduces him as "**Andre… He's the product** [manager]" and Val addresses him as "Andre" — so he is identifiable there; in the second the identification rests on Val's "**This is Andrew as our product manager**" plus role, an inference flagged on the stub. [[raw/Meeting_Transcript_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]] [[raw/Meeting_Transcript_Air_Gaming_Group_Transactional_Walkthrough-September-1-2026.md]]
+
+- **He gave the anti-fraud principle its cleanest statement in the corpus**, generalised beyond JVL's own product: "**Not local. First of all, which is not related to any piece of your hardware. The source of truth should exist somewhere and be controlled not by the location. When the transaction or e-wallet is created, this source of truth is the only place where verification may happen. Then, when something is presented, it is being verified that it exists. This is the only way we protect.**" Full architecture on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 1 2026). [[raw/Meeting_Transcript_Air_Gaming_Group_Transactional_Walkthrough-September-1-2026.md]]
+- **He diagnosed why a competitor's kiosk cannot catch a copied ticket:** "as soon as you're using a specific model of printer, this kiosk **may verify if the number looks correct or not, because they know the serial numbers**… **But it doesn't verify if this ticket is unique, if it's valid, and if it was already used or not.**" [[raw/Meeting_Transcript_Air_Gaming_Group_Transactional_Walkthrough-September-1-2026.md]]
+- **He opened the Flex-IQ pitch as the MudaGoose-compatible rung**, the same laddering he used that morning: "**it's a quick solution for locations with MudaGoose. We need just to comply with regulation. The next step would be to install flex ports to every game machine in the location.**" Dated evidence on [[wiki/decisions/2026-08-31-transactional-equipment-only-with-location-exclusivity.md]]. [[raw/Meeting_Transcript_Air_Gaming_Group_Transactional_Walkthrough-September-1-2026.md]]
+- **He put the "no manual work" claim at the centre of the counter device** at both meetings — "**I see this transaction already here immediately, and I don't need to input anything manually**… **This one is full automation**" / "**The key advantage is that you don't need to do any manual work.**" [[raw/Meeting_Transcript_Air_Gaming_Group_Transactional_Walkthrough-September-1-2026.md]] [[raw/Meeting_Transcript_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
+- **He asked the customer a question nobody else did** — how the operator sizes the InComm credit problem — and registered the visitor's reaction to Val's crude privacy analogy in the room: "**He didn't like it in terms of security.**" [[raw/Meeting_Transcript_Air_Gaming_Group_Transactional_Walkthrough-September-1-2026.md]]
+- **He gave the most honest read of how the Narayani meeting had gone**, and it was a negative one: "**From this meeting, I'm not sure if they really remember the point about the report and [RTP] and all this stuff. On the previous one, it was more explicit; it was more highlighted. During this meeting, it was not so obvious. Maybe they will tell him that there is a game machine.**" [[raw/Meeting_Transcript_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
+- **He took the first and sharpest piece of Val's coaching.** Val opened the post-meeting session with him by name: "**Andre, you're making a big mistake when you're with the customer answering phone calls.**" The rest of the doctrine — never say "no, but", stop raising your voice, shorter speeches, lead with the differentiator — is on [[wiki/topics/jvl-operating-principles.md]]. [[raw/Meeting_Transcript_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
+
+## Open commitments (Sept 1 2026)
+
+- [ ] Supply bracket drawings and machine-opening drawings for Air Gaming's mixed fleet, so the customer can make its own brackets — due on request — [[raw/Meeting_Notes_Air_Gaming_Group_Transactional_Walkthrough-September-1-2026.md]] [[raw/Meeting_Transcript_Air_Gaming_Group_Transactional_Walkthrough-September-1-2026.md]]
+- [ ] Follow up on whether JVL can help raise InComm's location credit limits, raised by [[wiki/people/neel.md|Neel]] as $3,000–$6,000/week against $50,000 payouts — due unspecified — [[raw/Meeting_Notes_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
+- [ ] Act on Val's sales coaching before the next customer meeting — starting with not taking phone calls in front of a customer — due immediately — [[raw/Meeting_Notes_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
+
+*(The Texas fraud experiment he would run with Val is held once on [[wiki/people/val-levitan.md]].)*
+
 ## Sept 2 2026 — runs the Flex-IQ pre-pilot punch list and opens the closed-loop wallet question
 
 Andrei convened and chaired the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-updates-after-the-show.md|Sept-2 pre-pilot call]] (Russian, 8:03–9:17 AM ET), having posted the change list to the chat beforehand. His stated goal: agree what it takes to fix each item, what the difficulties are, "и когда мы сможем запустить этот [пилот]" [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]].
@@ -272,8 +302,20 @@ Andrei convened and chaired the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-upd
 - **He was sent to Texas straight after his vacation and objected on substance, not willingness:** "я хоть сейчас[,] вопрос в том… чем мне туда ехать[,] у нас пока на руках ничего нету." Unresolved. See [[wiki/decisions/2026-09-02-priorities-iq-ports-flex-pay-recycler-texas-on-wallets.md]] [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]].
 - **He set the plan B himself** — ship on the current board if the new ones slip, accepting that an IQ failure blocks Mutha Goose — and accepted Val's override of his proposed Friday follow-up to Monday despite the public holiday ("Понятно. Вопрос снят") [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]].
 
+### The rest of his Sept 2 — two customer-facing meetings on the same day
+
+He went from that 8:03 AM internal call into both external meetings [[raw/Meeting_Notes_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]] [[raw/Meeting_Notes_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]]:
+
+- **At [[wiki/meetings/2026-09-02-lucky-coin-service-and-upgrade-offer.md|Lucky Coin]] he walked the operator through the transactional stack** — that the same kiosk that prints the ticket can dispense the card, that a player without one "[has] to start with a cashier… but after that, they can add additional cash right there," that the ports mount "to every game machine you can find in your collection," and that provider choice is an upgrade path: "**Right now, it's [InComm]. When [another provider] comes in, you will have both.**" Val also credited him with the framing he then used all morning — "I'm gonna use **[Andrei]'s expression**… a **Lego set**." Detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 2) [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]].
+- **At the [[wiki/meetings/2026-09-02-incomm-machine-payments-and-recycler-standoff.md|InComm lunch]] he is the named recipient of the product deck** for the card-to-machine launch — "I'm gonna send the deck to [Andrei] now, so I don't forget" — which is the first JVL sight of the terms on [[wiki/decisions/2026-09-02-card-to-machine-launches-with-the-location-as-merchant-of-record.md]]. *(The transcript renders the name at that point as "under"; the derived notes read it as Andrei. Recorded as the notes' reading.)* [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]] [[raw/Meeting_Notes_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]]
+
+- **And from the lunch into a third meeting — the [[wiki/meetings/2026-09-02-continental-bifurcated-operations-and-vendor-lock-in.md|Continental visit]] (~3:16 PM), where he made the read of the day in the car afterwards.** Asked "Any thoughts, Andre?", he took Val's observation that the operator's replay request is really about the Intralot reporting gap and turned it into a conclusion about JVL's own pilot: "**Exactly. That's how it works. That's why such a minimal amount of cards has been issued in the three months. Probably that's a loophole.** … **It's an opportunity for any replay solution. They would like to have it just to have an excuse for** [Intralot]. **But it doesn't mean that more cards will be** [issued]." Val had no answer — "**I'm just not sure I have a reply**" — and Andrei labelled it himself: "**It's not a prediction. It's not a forecast. Just thinking out loud.**" He closed on the account: "**They have a great capacity, but it looks like they're not ready to change their current partners.**" Full passage on [[wiki/topics/georgia-prize-card-processor-economics.md]] (Sept 2, Continental). [[raw/Meeting_Transcript_Continental_Vendor_Lock_In_Dead_End-September-2-2026.md]] [[raw/Meeting_Notes_Continental_Vendor_Lock_In_Dead_End-September-2-2026.md]]
+  - *It is the same pattern as the Flex-IQ call that morning — he states the uncomfortable finding and marks its confidence level rather than overselling it. Attribution rests on the segment-2 speaker labels, which are reliable at the who-is-who level here (Val addresses him by name before the exchange); see the speaker-label note on [[wiki/meetings/2026-09-02-continental-bifurcated-operations-and-vendor-lock-in.md]].* [[raw/Meeting_Transcript_Continental_Vendor_Lock_In_Dead_End-September-2-2026.md]]
+
 ## Open commitments (Sept 2 2026)
 
+- [ ] Report the low card-issuance finding internally — i.e. that the replay demand is compliance cover and will not lift card volumes — due unspecified — [[raw/Meeting_Notes_Continental_Vendor_Lock_In_Dead_End-September-2-2026.md]]
+- [ ] Take the card-to-machine product deck InComm sent him and work out JVL's route into it — including the "JVL as the processor" path InComm said might exist — due unspecified — [[raw/Meeting_Notes_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]]
 - [ ] Test the new Flex-IQ build first thing Tuesday, Monday being a public holiday on his side — due Tuesday — [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
 - [ ] Put enough money on the test card ahead of the ACH retry, paired with Pavel's API re-run — due same day — [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
 - [ ] Re-verify barcode card activation with InComm by activating a couple more cards — due unspecified, ahead of the pilot — [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
@@ -297,6 +339,8 @@ Andrei convened and chaired the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-upd
 
 ## Sources
 
+- [[raw/Meeting_Notes_Continental_Vendor_Lock_In_Dead_End-September-2-2026.md]]
+- [[raw/Meeting_Transcript_Continental_Vendor_Lock_In_Dead_End-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Flex-Pay_functionality_review-1-April-15-2026.md]]
 - [[raw/Meeting_Transcript_Flex-Pay_functionality_review-2-April-15-2026.md]]
 - [[raw/Meeting_Notes_Flex-Pay_functionality_review-April-15-2026.md]]
@@ -346,3 +390,13 @@ Andrei convened and chaired the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-upd
 - [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
 - [[raw/Meeting_Notes_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
+- [[raw/Meeting_Notes_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+- [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+- [[raw/Meeting_Notes_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
+- [[raw/Meeting_Transcript_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
+- [[raw/Meeting_Notes_Air_Gaming_Group_Transactional_Walkthrough-September-1-2026.md]]
+- [[raw/Meeting_Transcript_Air_Gaming_Group_Transactional_Walkthrough-September-1-2026.md]]
+- [[raw/Meeting_Notes_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]
+- [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]
+- [[raw/Meeting_Notes_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]]
+- [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]]

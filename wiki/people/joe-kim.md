@@ -2,8 +2,8 @@
 type: person
 title: Joe Kim (Georgia Lottery general counsel, COAM)
 date: 2026-08-26
-aliases: [Joe Kim, Joe Kemp, Georgia Lottery general counsel, GLC general counsel, chief legal counsel of the Georgia lottery]
-source-count: 4
+aliases: [Joe Kim, Joe Kemp, Joakim, Joe can, lottery council, Georgia Lottery general counsel, GLC general counsel, chief legal counsel of the Georgia lottery]
+source-count: 5
 open-commitments: 0
 open-questions: 1
 ---
@@ -30,6 +30,17 @@ At the [[wiki/meetings/2026-08-31-dixie-amusement-kiosk-wait-and-see.md|Aug-31 D
 - **And the limit of his authority, which is the operators' real fear.** "**the lottery is just the regulator. They are not the law maker or the enforcer. The enforcer is going to be GBI, the local police department, the local sheriff department.** If they get their hands into it and say… the constitution which they are there to protect and enforce, we see it's [breached]… **It's an uphill battle to fight the state and the attorney general.**" On Salim's reading, a favourable Joe Kim ruling would therefore not settle the question. [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
 - **Why regulators keep it vague at all, in his account:** "**they know that's where they make funds. So when they [find] someone, they get fined. And they don't want to pick sides of anyone. So it's always murkier and murkier.**" Recorded as one operator's characterisation, not as established fact about the GLC. [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
 
+## Sept 2 2026 — what InComm believes he said in his speech at the show
+
+A week after the Aug-26 account above, InComm gave Val a fuller version at the [[wiki/meetings/2026-09-02-incomm-machine-payments-and-recycler-standoff.md|Sept-2 lunch]]. It is still **InComm's reading of him**, not his words; the corpus still holds nothing he wrote or said directly [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]].
+
+- **What he noticed on the floor, itemised:** "what you saw at the show was **Joe Kim noticed your product. He noticed Billy Liu's product. He noticed other kiosk vendors that represented ATM functionality access** — they have ATM marketed on their kiosk. I don't think it's live, but their payline kiosk. And I think what Kim realized was: **I need to address this point.**"
+- **The speech, and the two things InComm believes it said.** "did you see the speech that he gave that afternoon?… he says two things. **He was very confusing**, but… **we believe he said you cannot exchange the gift card product for cash** — so a hundred-dollar gift card for a hundred dollars cash with the location, some kind of handshake exchange or facilitated exchange, is not acceptable. **So an ATM transaction has been deemed to be different** — there's fees, there's a purchase transaction. And **the other thing we believe he said was he doesn't want to see workflows that restrict the redemption to a cash destination.**"
+- **What that means in practice, per InComm:** "what he was sensitive to that he saw on the floor was **solutions that do a hop, skip, and a jump to ultimately give the player cash. He didn't like that**… generically, you just want to **keep those cash transactions away from the COAM Redemption space**." The speaker was careful about the limits of his own reading: "**I don't have all the wording worked out there, because we're not regulating this. The lottery's there.**"
+- **His view of ATM access on the card itself is treated as settled and favourable:** the card's ATM function "**is considered lawful by Joe Kim, the lottery council**. Part of that is because **it's after the point of redemption and it's separate from COAM** interactive."
+- **He is also the named unlock.** Asked what would change InComm's refusal of JVL's recycler: "**If the lottery were to say something to clarify that point and say no, there's no problem here**… I would say now **we should see what Joe [Kim] respond[s] in writing**, because that will likely trigger [it]." Consequence on [[wiki/decisions/2026-09-02-hold-the-recycler-back-but-sign-no-undertaking.md]].
+- **A dating oddity, recorded not resolved.** Explaining that InComm could not have foreseen the shift, the speaker said even John Houseal could not have predicted "**what [Joe Kim] would say in November**." The month does not fit the August 2026 show the rest of the passage is about, and no source explains it. Left as transcribed; **no date is asserted** [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]].
+
 ## Open questions
 
 - When, if ever, will he issue the sharpened guidance, and will it permit ATM/cash-out tied to COAM redemption? InComm treats its posture as time-bound but does not give one figure — Jason Hall said "three to five years from now, who knows", Adam Harlow said "Two years from now, they may see things differently"; both were firm that it holds for 2026–27 — [[raw/Meeting_Transcript_InComm_Skill_Pay_ATM_Guidance-August-26-2026.md]]
@@ -39,3 +50,4 @@ At the [[wiki/meetings/2026-08-31-dixie-amusement-kiosk-wait-and-see.md|Aug-31 D
 - [[raw/Meeting_Notes_InComm_Skill_Pay_ATM_Guidance-August-26-2026.md]]
 - [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
 - [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+- [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]]

@@ -2,9 +2,9 @@
 type: person
 title: Vishal Patel
 date: 2026-08-26
-aliases: [Vishal Patel, Vishal, Michelle Patel, Michelle, Narayani Amusements contact]
-source-count: 4
-open-commitments: 2
+aliases: [Vishal Patel, Vishal, Michelle Patel, Michelle, Bashar, Narayani Amusements contact, Ananta Amusement owner]
+source-count: 6
+open-commitments: 0
 open-questions: 2
 disambiguation: "Transcription garble, not a same-name collision: the Aug-26 briefing transcript renders his first name as 'Michelle' throughout ('Michelle Patel', 'I spoke to Michelle right now'); the derived notes for the same recording give 'Vishal Patel', which is the form used here. There is no separate Michelle Patel in the corpus. Patel is a very common surname among Georgia COAM operators and this corpus already carries several unrelated Patels — Vishal Patel (Narayani Amusements, [[wiki/people/vishal-patel.md]]), Yash Patel (Halcyon Amusements, [[wiki/people/yash-patel.md]]), and, in prose only, Mike Patel (GAMOA), Kenny Patel (Epic Amusements) and Alex Patel (Sonatype). Distinct people; resolve by context. Provisional — owner ruling pending."
 ---
@@ -58,10 +58,21 @@ The visit the briefing was preparing for. Full account across [[wiki/organizatio
 - **He wants the big manufacturers checked.** "Right now, they're trying to monopolize the market so badly… I was getting all the big masters together. I'm like, Let's make a syndicate together and show these guys that they cannot dominate the market."
 - Cell numbers were exchanged at the end, and he agreed to the **Sep 1, 1:00 PM** JVL-office demo. [[raw/Meeting_Notes_Narayani_Amusements_Trade_In_Negotiation-August-26-2026.md]]
 
-## Open commitments
+## Sept 1 2026 — he did not come, and a second company appears under his name
 
-- [ ] Vishal Patel — visit the JVL office for the transactional-equipment demo — due **Tue September 1 2026, 1:00 PM** — [[raw/Meeting_Notes_Narayani_Amusements_Trade_In_Negotiation-August-26-2026.md]]
-- [ ] Vishal Patel — count the exact number of idle JVL D27s in his warehouse (~25) — due unspecified — [[raw/Meeting_Notes_Narayani_Amusements_Trade_In_Negotiation-August-26-2026.md]]
+The demo he agreed to did take place, at the JVL office, at the time booked ([[wiki/meetings/2026-09-01-narayani-akshar-mega-hit-demo-and-trade-in.md]]) — **but he was not in it.** He sent [[wiki/people/neel.md|Neel]] (operations) and [[wiki/people/jai.md|Jai]] (service and orders), who told Val plainly that they could not close: "**Since [Vishal] isn't here, we need to go back and explain everything to him.**" The derived notes record that the export filename said "Vishal Patel product demo" and was renamed because he was not present. [[raw/Meeting_Notes_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]] [[raw/Meeting_Transcript_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
+
+- **He remains the gate on everything.** Neel and Jai make the technical and purchasing calls for both companies — "So you make purchasing decisions for both companies." "**Yes**" — but "**Most of the time, Vishal will know what's going on.**" Val's read afterwards was that the account would hear almost nothing: "[he] is not in the office. He's not going to ask about this meeting, and if he will, they say, '**everything's fine**.'" [[raw/Meeting_Transcript_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
+- **A second company is named as his: Ananta Amusement, ~400 machines.** "we have one more with **Vishal's name**… It's **Ananta**… Ananta amusement," and "**four hundred**" machines. Asked "Vishal is the owner of both," the answer was "**Not Vishal**" for the other route — the larger one, now trading as [[wiki/organizations/akshar-gaming.md|Akshar Gaming]]. **How Ananta relates to [[wiki/organizations/narayani-amusements.md|Narayani Amusements]], the company he answered for on Aug 26, is not stated anywhere** — see the open contradiction on both org pages. [[raw/Meeting_Transcript_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
+- **Neel is not family.** "Not directly. **Same city**"; "Not by blood." Val: "Cultural relationship." [[raw/Meeting_Transcript_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
+- **Name note (§4).** The same transcript has Neel saying "I had this discussion with **Bashar** as well" about Class A. Read in context as Vishal — an **inference**, recorded as an alias, not asserted. The transcript also keeps the Aug-26 "Michelle" garble alive. [[raw/Meeting_Transcript_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
+
+## History
+
+### Open commitments from Aug 26 2026 — both closed on Sept 1 2026
+
+- [x] Vishal Patel — visit the JVL office for the transactional-equipment demo — due **Tue September 1 2026, 1:00 PM** — **CLOSED, not as promised:** the demo ran at the booked time but he did not attend; he sent Neel and Jai, and the decision went back to him unanswered. [[raw/Meeting_Notes_Narayani_Amusements_Trade_In_Negotiation-August-26-2026.md]] [[raw/Meeting_Notes_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
+- [x] Vishal Patel — count the exact number of idle JVL D27s in his warehouse (~25) — **CLOSED, partially answered:** Neel gave **21** in the warehouse on Sept 1 and hedged the rest — "We have two of those original ones, but I might be using some of them," and "I would have to look at the [exact] version." The live version of this item now sits on [[wiki/people/neel.md]]. [[raw/Meeting_Transcript_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
 
 ## Open questions
 
@@ -76,3 +87,5 @@ The visit the briefing was preparing for. Full account across [[wiki/organizatio
 - [[raw/Meeting_Transcript_Vishal_Patel_Pre_Meeting_Briefing-August-26-2026.md]]
 - [[raw/Meeting_Notes_Narayani_Amusements_Trade_In_Negotiation-August-26-2026.md]]
 - [[raw/Meeting_Transcript_Narayani_Amusements_Trade_In_Negotiation-August-26-2026.md]]
+- [[raw/Meeting_Notes_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
+- [[raw/Meeting_Transcript_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]

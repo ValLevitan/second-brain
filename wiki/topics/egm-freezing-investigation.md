@@ -3,7 +3,7 @@ type: topic
 title: EGM freezing investigation (Georgia field fleet)
 date: 2026-07-29
 aliases: [GA freezing, Georgia freezing, machine freezing, EGM freeze, GA Freezing Issue, freezing investigation, JVL silent killer, nudge animation freeze, kernel-panic freeze]
-source-count: 17
+source-count: 18
 open-questions: 12
 ---
 
@@ -166,6 +166,15 @@ Four months after the fix, Val recounted this freeze as the **proximate cause of
 - **Version note.** On the Aug-7 call Val gave the kernel loosely as **"Linux 4.7"** — inconsistent with the established investigation figure of **kernel 4.19 (upgraded to 5.15 LTS)**; treat "4.7" as a retrospective misstatement on a phone call, not a new fact. [[raw/Meeting_Transcript_JVL_Funding_Crisis_Cash_Call_Doug_Skrepnek-August-7-2026.md]]
 - At the [[wiki/meetings/2026-08-11-nova-architecture-design-session-2.md|Aug-11 NOVA session 2]] Val restated the toll while making the freeze a design driver for NOVA: the AMD processor froze on **Linux kernel 4.19**, it took roughly **1.5–2 years to find**, it nearly cost the business, and machines had to be **given away free** to rebuild trust — the fix being the **4.19 → 5.15** kernel upgrade. This motivates NOVA's health-check/heartbeat, the "Black Box" recorder and an undisableable watchdog (see [[wiki/topics/nova-platform-architecture.md]]). [[raw/Meeting_Notes_NOVA_Architecture_Design_Session_2-August-11-2026.md]]
 
+## Sept 2 2026 — an operator disputes the premise that a frozen machine goes unnoticed
+
+At the [[wiki/meetings/2026-09-02-lucky-coin-service-and-upgrade-offer.md|Sept-2 Lucky Coin visit]] Val used the silent-freeze argument as the case for the new modems, and the customer rejected it from his own field experience. Recorded because the "nobody knows it is down" premise is load-bearing for the retrospective above and for the remote-monitoring case, and this is the first operator in the corpus to contest it [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]].
+
+- **Val's version:** "if it was freezing, your attendant would not even see it… **because the machine looks like it's working**… if the player tries to play it and the machine is not reactive, he moves to another machine," and the location never hears — "**not all the players talk about it. They just move on because they just don't want to look [a] fool**." The consequence he draws: "we end up with the machine **sitting there for half the time not functioning, and nobody knows about it**."
+- **[[wiki/people/kyle-shepherd.md|Kyle Shepherd]]'s answer:** "with all due respect, **I get those calls on your JVLs regularly. I do**… my locations call us regularly, saying that they're not [working]… **I would have to [have] one of your games or any other game on my route go more than a day being down without me knowing about it.**" His mechanism is the relationship, not the telemetry: locations have his mobile number and his route staff know them personally.
+- **What he conceded:** "it may not be real time… It may be a couple hours before that second player tries to play it… **There undoubtedly is some downtime.**" **Val's counter, and the point of the modems:** "**a day is a lot**… we need to push technology to know about it **the instant it happens**." Kyle: "I don't disagree with you. That's [a] great feature. **When that technology starts to make it difficult for my technicians to work on it, is when that becomes an issue for us as an operator.**"
+- **Unresolved in the source**, and recorded as two accounts of the same field reality rather than as a correction of the investigation's findings — neither man is describing a measured detection time.
+
 ## Test machines (Georgia office)
 
 Three machines were set up in the Georgia office (at Lawrenceville) to try to reproduce the freeze; two of the three freeze reliably. Five frequently-freezing machines were also pulled back from a customer site (Bulldog / "Bulldog Entertainment") for monitored testing. [[raw/GA_Freezing_Issue_Executive_Summary.md]] [[raw/Georgia_Freezing_troubleshooting_direction-March-13-2026.md]]
@@ -212,3 +221,4 @@ Three machines were set up in the Georgia office (at Lawrenceville) to try to re
 - [[raw/Meeting_Transcript_JVL_Funding_Crisis_Cash_Call_Doug_Skrepnek-August-7-2026.md]] — Aug-7 cash-call retrospective (Val recounts the freeze's business toll).
 - [[raw/Meeting_Transcript_JVL_Liquidity_Crisis_Cash_Call_Louis_Glenn-August-8-2026.md]] — Aug-8 cash-call retrospective (the software glitch that cost sales).
 - [[raw/Meeting_Notes_NOVA_Architecture_Design_Session_2-August-11-2026.md]] — Aug-11 NOVA session 2 (freeze as a design driver; ~1.5–2 years to find; 4.19 → 5.15).
+- [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]

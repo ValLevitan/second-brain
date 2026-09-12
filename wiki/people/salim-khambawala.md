@@ -6,7 +6,7 @@ aliases: [Salim Khambawala, Salim, Selim Kwambuwala, Salim Dixie, Salim from Dix
 source-count: 6
 open-commitments: 2
 open-questions: 1
-disambiguation: "Salim Khambawala = the Georgia COAM master licensee behind [[wiki/organizations/dixie-amusement.md|Dixie Amusement]], south-side Atlanta, association board member — resolve by the Georgia / GAMOA / buying-group context. DISTINCT from **Salim Punjani** of **Continental**, a Georgia operator with routes in Texas met at G2E 2025 (see [[wiki/meetings/2025-10-10-g2e-juan-martinez-report.md]] and [[wiki/projects/texas-used-machine-distribution.md]]) — Texas-route context. Never merge these; decide by context, not the name string."
+disambiguation: "Salim cluster (2 members, provisional — owner ruling pending): [[wiki/people/salim-khambawala.md|Salim Khambawala]] = the Georgia COAM master licensee behind [[wiki/organizations/dixie-amusement.md|Dixie Amusement]], south-side Atlanta, vice-president of the state operators' association — resolve by the Georgia association / GAMOA / buying-group context. [[wiki/people/salim-punjani.md|Salim Punjani]] = the operator behind [[wiki/organizations/continental.md|Continental]], two companies running Georgia plus a larger estate outside it (Texas primarily, plus Virginia) — resolve by the Texas / Virginia route context. Never merge these; decide by context, not the name string."
 ---
 
 # Salim Khambawala (Dixie Amusement; VP of the Georgia operators' association)

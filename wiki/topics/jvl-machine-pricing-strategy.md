@@ -2,8 +2,8 @@
 type: topic
 title: JVL machine pricing and commercial strategy
 date: 2025-09-23
-aliases: [machine pricing, retail price, price list, Dennis one number, CFO-to-CFO credit, market pricing, list price, dollars not discounts, JVL Dollars pricing lever, show special pricing, Georgia machine price, D43 price, D27 trade-in, South Dakota premium]
-source-count: 8
+aliases: [machine pricing, fifteen seven fifty, $15750, free hardware instead of discount, retail price, price list, Dennis one number, CFO-to-CFO credit, market pricing, list price, dollars not discounts, JVL Dollars pricing lever, show special pricing, Georgia machine price, D43 price, D27 trade-in, South Dakota premium]
+source-count: 11
 ---
 
 # JVL machine pricing and commercial strategy
@@ -75,6 +75,28 @@ Two customer visits ([[wiki/meetings/2026-08-26-narayani-amusements-trade-in-neg
 - **The South Dakota premium, explained to a customer as a cost pass-through — now "thirty percent."** "we charge **thirty percent more in South Dakota**. And the reason we do [is] because the market is tiny… and we gotta jump through hoops **getting the game approved**, and then the regula[tor] is on our ass. The overhead is crazy. **We have to keep an office and a sales guy there to sell hundred machines a year.** Sorry, there's nothing I can do about it." This is the same GLI-burden logic as the Sept-2025 table above, but the premium he now names (~30%) is far larger than the ~$800/machine (~5%) computed then, and it is stated as sales rhetoric across a table rather than as policy — recorded side by side, not reconciled. **Note also** that the day before, Val had described the **South Dakota office as closed** (the Light & Wonder SAS test bench having been shipped from it to the Georgia office) — see [[wiki/projects/georgia-market-rollout.md]] (Aug 26 2026); his "we have to keep an office… there" is not squared with that in any source. [[raw/Meeting_Transcript_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]] [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
 - **§15.8:** clear — machine and market pricing only; no named-person compensation.
 
+## Sept 1 2026 — the Mega Hit price, the 10-vs-15-game trade-off, and the post-show hardware giveaway
+
+At the [[wiki/meetings/2026-09-01-narayani-akshar-mega-hit-demo-and-trade-in.md|Sept-1 Narayani/Akshar demo]] the numbers were quoted for the **Mega Hit Games** cabinet ([[wiki/topics/jvl-machine-lineup.md]]).
+
+- **The 15-game version: the derived notes give $14,572.** The transcript itself is messier — [[wiki/people/felipe-miranda.md|Felipe]] first says "The price for this one is fifteen," corrects himself — "**Oh no, I'm sorry. Fifteen five for the fifteen game**" — and the figure finally landed on in the room is "**Fourteen seventy-two. Fourteen seventy-two. Yes.**" **$14,572 is recorded as the notes' reading**; the transcript's own renderings are set out here rather than smoothed, and no arithmetic is asserted. [[raw/Meeting_Notes_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]] [[raw/Meeting_Transcript_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
+- **A cheaper 10-game build exists, and JVL argues against it.** "**we have a cheaper version with ten games. Then you wouldn't have the option to change games, which I strongly recommend** [against]. **It's only a two hundred and fifty dollar price for a game.**" So the up-sell is priced at **$250 per additional game**, and what it really buys is the remote game-swap capability, not the titles. [[raw/Meeting_Transcript_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
+- **A post-show special bundles the transactional hardware into a machine order, free — and fits it to the customer's existing fleet.** "**on a limited basis, after the show, we're offering a special where if you buy X number of these machines, we can package the deal together with the machine, which will cost you nothing**"; "**We'll give you six of these units plus a terminal for whatever machines you have.**" The customer installs, JVL supplies the bracket. *(The machine count is stated only as "X." The derived notes put the machine price at **$16,000**; that figure appears **only** in the notes.)* Device prices on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 1 2026). [[raw/Meeting_Transcript_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]] [[raw/Meeting_Notes_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
+- **The trade-in number came apart.** Val restated it as unsettled between **$3,000 and $5,000** per cabinet, and put his own cost of taking the machines at "**roughly a thousand dollars per game to recondition it.**" See [[wiki/decisions/2026-08-26-narayani-three-machine-d27-trade-in-pilot.md]]. [[raw/Meeting_Transcript_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
+- **The market price band as Val states it to his own people:** "**an operator invests seventeen, eighteen, twenty thousand dollars into a piece of equipment that's supposed to generate profit, and they cannot tune it**"; "**You spend seventeen, twenty thousand dollars on games. You have shit. You have no control.**" That is his reference for what a competitor's cabinet costs an operator, not a JVL price. [[raw/Meeting_Transcript_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
+- **§15.8:** clear — machine, game-option and trade-in pricing only; no named-person compensation.
+
+## Sept 2 2026 — the exact list price, and what $7,000 of free hardware does to it
+
+One day later, at the [[wiki/meetings/2026-09-02-lucky-coin-service-and-upgrade-offer.md|Lucky Coin visit]], Val quoted the same category of machine to a different operator with a precision he uses nowhere else in the corpus [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]:
+
+- **List: "This machine is fifteen seven fifty"** — **$15,750**.
+- **Discount delivered as hardware, not as price:** "I'm giving you **seven thousand dollars worth of discounts**, so you'll be buying it at **roughly just under nine thousand dollars**" — six ports at ~$1,000 each plus a terminal, free per location. Terms on [[wiki/decisions/2026-09-02-free-ports-and-pos-with-every-machine-bought.md]].
+- **The recurring line stays separate and per-location:** **$90 a month per location**, "not per game."
+- **This is the Aug-21 "dollars, not discounts" instinct inverted**: here the concession is not a discount and not JVL Dollars but **free equipment that locks the location in**, which is why the headline machine price can stay at full list.
+
+*(Note how the same bundle was quoted the previous day: to Narayani/Akshar, "six of these units plus a terminal" free "if you buy X number of these machines" — no machine price in the transcript, **$16,000** in the notes only. The Sept-2 quote is the first time the machine number and the giveaway value are both stated in a transcript.)* [[raw/Meeting_Transcript_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]] [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]
+
 **Temporal note:** the $16,000–$18,000 retail band above is the **Sept-2025** class-3 / skill-market policy and is not superseded by these Georgia COAM numbers — Georgia is a different market segment. The two are recorded side by side; no source in this batch revisits the class-3 band.
 
 ## Sources
@@ -87,3 +109,6 @@ Two customer visits ([[wiki/meetings/2026-08-26-narayani-amusements-trade-in-neg
 - [[raw/Meeting_Transcript_Narayani_Amusements_Trade_In_Negotiation-August-26-2026.md]]
 - [[raw/Meeting_Transcript_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]]
 - [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- [[raw/Meeting_Notes_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
+- [[raw/Meeting_Transcript_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
+- [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]

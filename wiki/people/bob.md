@@ -2,8 +2,8 @@
 type: person
 title: Bob (American FlexPay/Georgia colleague — identity unresolved)
 date: 2025-04-07
-aliases: [Bob]
-source-count: 4
+aliases: [Bob, Bob Perez, Bob at Perez, IFS founder]
+source-count: 7
 disambiguation: "'Bob' as addressed on the Apr 7 2025 SMIB/TITO meeting — an American colleague on the FlexPay/Georgia side. Very likely the same 'unnamed American attendee' of the Mar 27 scope-gap meeting (Bally iView background, M3T/Mother Goose knowledge, Georgia demo coordination). Owner-ruled 2026-07-15: definitively NOT Michael Gottlieb. Identity itself owner-deferred to future transcripts. Separately, on the Apr 5 AND May 29 Denis Desmarais↔Val calls a speaker is addressed as 'Bob' (Apr-5 greeting = Val's content; May-29 Val signs off 'OK, Bob' to Denis) — a recurring transcription/verbal-tic artifact on those calls, not this person."
 open-questions: 1
 ---
@@ -38,7 +38,14 @@ open-questions: 1
 - Who is "Bob" (full name, role)? And is he the Mar 27 unnamed American attendee and/or the unnamed American lead on the Apr 14 SAS 51/52 call? [[raw/flex_pay_tito_smib_port-april7-2025.md]] [[raw/sas_51_52_requirement_interpretation-april-14-2025.md]]
 
 
+## Later identifying context (not yet resolving)
+
 - **New identifying context (July-2, via InComm's John Houseal — still no surname, kept owner-deferred):** Bob is "a competitor, a partner, and a colleague all at once" — a **MIMS operator who runs their payments**, **founded a company called IFS selling kiosks**, and has a **Vegas background**. A Georgia route-gaming payments figure. Watch for a source that names him. [[raw/incomm_product_discussion-july-2-2025-9.md]]
+
+- **A possible surname surfaces, from two Georgia operators one day apart (Aug 31 / Sept 1 2026) — still owner-deferred, still not merged.** Both name a Georgia kiosk/card figure as **"Bob Perez."**
+  - **Aug 31 2026 — [[wiki/people/salim-khambawala.md|Salim Khambawala]]**, listing introductions he could make in the Georgia kiosk/processing field: "I can talk to Angela. **I can talk to this Bob Perez, which does two in one.** Then there is another company named Genesis… Access… all of them I know." No company is attached to the name there. [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+  - **Sept 1 2026 — [[wiki/people/ryan-odonnell.md|Ryan O'Donnell]]** of [[wiki/organizations/double-down-gaming.md|Double Down Gaming]], at the [[wiki/meetings/2026-09-01-double-down-gaming-visit.md|Double Down visit]], answering Andrei's question about who provides his kiosks and cards: "**I had a couple kiosks already from IFS, so I'm using IFS one.** Is it card or is it the cell? The card is. **I gotta talk to Bob at Perez.**" And on the card's status: "is it ATM access card? **Not yet.**" [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+  - **Why this is a lead and not a resolution.** The Sept-1 source is the first in the corpus to put **"Bob"** and **IFS** in the same breath from an operator's own mouth, which matches the July-2025 description of this Bob as the founder of IFS. But no source states that the two are the same man; "Bob at Perez" and "Bob Perez" are not the same construction; and "Perez" is a name neither source explains. **Read as a labelled inference, queued Tier A for the owner; nothing merged, no page created for "Bob Perez," and the identity stays owner-deferred.** The variants are carried in `aliases` so a future source naming him resolves against this page rather than spawning a second one.
 
 ## Sources
 
@@ -46,3 +53,6 @@ open-questions: 1
 - [[raw/flex_pay_scope_gap-mach-27-2025.md]]
 - [[raw/sas_51_52_requirement_interpretation-april-14-2025.md]]
 - [[raw/denis_ntc_nebraska-may-29-2025.md]]
+- [[raw/incomm_product_discussion-july-2-2025-9.md]]
+- [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+- [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]

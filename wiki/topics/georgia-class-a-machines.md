@@ -2,10 +2,10 @@
 type: topic
 title: Georgia Class A machines
 date: 2026-08-31
-aliases: [Class A, Class A machines, Georgia Class A, Class A licence, amusement machines Georgia, two-bucket win system, $50 per spin cap, Primero Class A]
-source-count: 3
+aliases: [Class A, Class A machines, Georgia Class A, Class A licence, amusement machines Georgia, two-bucket win system, $50 per spin cap, $50 per hand, Primero Class A, play bucket, redemption bucket, Hope Scholarship, class eight]
+source-count: 6
 open-commitments: 0
-open-questions: 3
+open-questions: 4
 ---
 
 # Georgia Class A machines
@@ -81,11 +81,67 @@ At the end of the Class A discussion Val made the commitment recorded on [[wiki/
 
 Val also drew the product conclusion out loud: "**That opens up for us a huge market for coffee machines**" — "coffee" transcribed as written; read as **countertop** machines from the context (the same countertop / Echo answer JVL reached in February, and Val's later "What's the price on coffee machine?"), an inference — the same answer JVL reached in February (offer its countertop / Echo units as Class A). Zazanis's view of whether JVL machines would work there was honest and unhelpful: "People don't believe that it would be good. **It's fifty-fifty. If you ask, nobody knows.**" But he wants more manufacturers in: "Any manufacturer comes and has class A. Nothing prevents [it]… **It's a plus.**" And he imagined the mixed floor: "Imagine if we have one Banilla, one **JVL**, one light [Light & Wonder], and one the Class A. It would have been… the business would have skyrocketed." [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 
+## Sept 1 2026 — the operator case AGAINST it, from a board member
+
+One day after ARC, [[wiki/people/ryan-odonnell.md|Ryan O'Donnell]] of [[wiki/organizations/double-down-gaming.md|Double Down Gaming]] — a [[wiki/organizations/gamoa.md|GAMOA]] board member — gave the opposite reading at the [[wiki/meetings/2026-09-01-double-down-gaming-visit.md|Sept-1 visit]]. He has not seen the machines: "**I haven't seen them, but we've had a lot of discussions.**" The two accounts agree closely on the mechanics and disagree completely on whether the category should exist. [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+
+### The objection
+
+- **It is a loophole, and that is the whole of the objection.** "Sure [it could add to the business], but **in our opinion, it's a waste of time. It's skirting the rules that are in place. It's trying to find a vulnerability and a loophole and exploit it.**" [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+- **The lottery gets nothing, and the Hope Scholarship is the stake.** "because there's **not a lot of regulation or rules around it**, [it] will be **very detrimental to our lottery. The lottery would not get paid a dime.** None of the money is made on the machines. **The hope scholarship won't be funded.**" [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+- **What Class B raises, as his reason the legislators will not let it slide.** "**We raised two hundred million dollars for them last year. They don't want them to go away.**" Asked why Class B would have to go away at all, he answered that the lottery "**wouldn't get any money from it unless their laws are rewritten**," and that "**it's only these that are regulated for that**" — Class B is the taxed category, Class A is not. [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+- **The gambling-hall end-state is what he thinks it leads to.** "**We could all do it tomorrow. At all of our locations**, we could say: You want ten more machines? Get rid of this stuff in here. A couple pool tables. **I'll put twenty of these machines in, and now you just have gambling halls.** And it's like **the whole point of this thing was to keep it far enough away at arm's length that it wasn't quite that.** Someone [is going] to blow up and get some terrible backlash." Asked whether the resistance is religious, he called it "**a cultural thing**," and distinguished casinos — localised to Atlanta, Savannah or Macon — from machines that can go anywhere. [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+- **It is his view, not a board position.** Asked "Is that a united view of all of the operators here?" — "**Not all. It's my view.**" Asked whether it is a board view — "**We don't have a specific thing.**" Earlier in the same exchange he had answered the question "where does the board sit on [it]?" with "**We're not in favor of them.**" Both are recorded; the source does not reconcile them. [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+
+### His account of the mechanics — independent corroboration of ARC's
+
+- **Machine counts: Class B caps at nine, Class A has no cap.** "the idea of opening up a warehouse and putting a hundred of these machines in there because **there's nine machines. Nine of these machines can go in a location. There's no regulation over the number of machines.** There's bet amount, thing amount. **It's just a win amount.**" *(Transcribed as spoken; "thing amount" is garbled.)* [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+- **The per-hand caps, both classes.** "There is **no payout limitation. These are class B.** They can do what they do. **The class A's are fifty dollars per hand.**" And later, comparing: "for them, it's **five dollars a hand for us, but for them, it's fifty dollars** like a play." *(That last sentence is garbled and is recorded as spoken; read in context as $5 per hand on Class B against $50 on Class A, an inference.)* [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+- **The two buckets, described the same way ARC described them.** "they've created two buckets, **almost like your promo money**. So they create two buckets. **You put in the money here. That money cannot be redeemed. That money goes into your play bucket, and then your play bucket wins money.**" And the transfer: "it **cashes out into a redemption bucket**… it **takes the winnings from the unplayed bucket that you can't redeem to the played bucket that you can redeem. So there's no difference. It's confusing because there's an extra step. You have to have an extra step in order to redeem at that rate.**" [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+- **The $50 cap is defeated by an automatic, connected spin race.** "So they'll be **connected games**. You can hit spin, spin, spin. You win, and then this person also, because they're connected into the same thing, **it all happens at the same time**… So what it does is just a **built-in automatic spin**." He put the skill claim at zero: "essentially, it's the same thing. **You can win five grand on a machine that you're only supposed to win two. That's true skill. What if it's empty? You're the only person in there.**" Val: "**There's no skill.**" [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+- **The original legislative intent, as he understands it.** "The **original intent of the law was: this is a Pac-Man machine or some other arcade-type device, and you can get a prize for up to fifty.** But what they did is they're like, okay, **we're never going to give you a five hundred dollars jackpot… You're going to win a three thousand dollar jackpot, and fifty dollars at a time is going to go into this other bucket.**" [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+
+### Who decides, and when
+
+- **He puts the call with the lottery, not the association.** Asked "Is the association also against this?" — "**It's going to be up to the lottery, really. Again, the legislators are not happy.** They sell it to their constituents as skill gaming." And on the regulator's posture: "**The lottery is trying to say it's not up to us.** The same thing with the ATM… **They're going to revisit that.**" [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+- **The Class A question is already live; the ATM question is the one he thinks a demonstration can move.** "**I think him seeing it in person will change his mind.** You mean the ATM? **The ATM piece, but the class A piece is already on the table.**" [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+- **His bottom line, and his exit from the argument:** "**Winds change, and this time next year, who knows? Maybe nobody cares, and if they don't care, I don't care.** At the end of the day. **The A's and the ATMs are kind of too big things. We need to get settled. Otherwise, it's a little murky.**" *("too" transcribed as written; read as "two.")* [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+
+### Val's German comparison, made a second time
+
+Val ran the same AWP argument he had run at ARC the day before, in a shorter form and with the figures intact: "**in Germany, for example, that became successful, kind of an A class type of games. There's 150,000 of them, and it's well regulated, well administered**," and "**Novomatic has fifty percent of that market.**" He was explicit about the limit of his own knowledge — "I'm not in Germany. I don't sell any" and "**I don't know. We don't have class A games.**" He also stated the German distinction narrowly: "**There's no fifth form of difference. There's only payout limitation in Germany.**" *("fifth form" transcribed as written.)* This matches the Aug-31 version above (Gauselmann and Novomatic splitting the German market, 150,000 machines) without adding a new claim. [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+
+Val's only counter-proposal was to pay the state: "**Why not offer a cup to the lottery? I'm just asking. I don't know.**" *("cup" transcribed as written; read as *cut*, an inference.)* Ryan's answer — "Sure, we would need to… That would state that the lottery is simply enforcing the current laws" — was not developed. [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+
+## Sept 1 2026 (afternoon) — a third operator: not in it, thinking about it, and already talking to a supplier
+
+At the [[wiki/meetings/2026-09-01-narayani-akshar-mega-hit-demo-and-trade-in.md|Sept-1 Narayani/Akshar demo]] Val asked the question cold — "Let me ask a non-related question… **We hear Class A machines. Do you guys operate any Class A?**" — and got the third operator position in a week, between ARC's enthusiasm and Ryan O'Donnell's opposition. [[wiki/people/neel.md|Neel]] of [[wiki/organizations/akshar-gaming.md|Akshar Gaming]], a route of ~150 locations: [[raw/Meeting_Transcript_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
+
+- **Not today, but leaning in.** "**No, not as of now. But we had. I had this discussion with [Vishal] as well**… **we might try because it's getting popular now, especially in the south.**" *("Bashar" in the transcript is read as [[wiki/people/vishal-patel.md|Vishal Patel]] — an inference from context, not stated.)*
+- **He has no performance numbers.** Asked "do you know how much these machines make?" — "**Not yet. I don't have those numbers yet, but we are thinking of going towards the [Class A] as well.**" This matters against the Aug-31 open question about manufacturer revenue share: a route this size is considering the category without any economics in hand.
+- **A supplier is already in the room with them, and it is Primero.** "While we are having this discussion, **Primero was also there, so we had a very good discussion on how class A is sustainable**," and on the commercial model Val asked "Do they sell or partner?" — "**They partner.**" That corroborates the partner/revenue-share model recorded from ARC on Aug 31. *(A second supplier name is transcribed "Cielo" and is **not** resolved — it matches nothing in the corpus and no substitution is made.)*
+- **He is capacity-constrained more than he is opposed:** "We have still too much of people involved. **It's difficult for us to add more stuff.**"
+
+Val added nothing of his own here beyond the questions, and the JVL position stated the day before — that JVL has no Class A product — is unchanged.
+
+## Sept 2 2026 — a fourth operator: sat it out on a read of the promoters' motives, now changing his mind
+
+[[wiki/people/kyle-shepherd.md|Kyle Shepherd]] of [[wiki/organizations/lucky-coin.md|Lucky Coin]] (~50 locations) at the [[wiki/meetings/2026-09-02-lucky-coin-service-and-upgrade-offer.md|Sept-2 visit]] — the clearest statement in the corpus of **why a mid-sized master stayed out**, and it is not about the economics [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]:
+
+- **He waited to see the effect on Class B.** "When it first came out, I was — I wouldn't say afraid. **I wanted to see how they would compete with the class B.**"
+- **He distrusted the two firms that led it.** "**Jinko and Primero** kind of were the two big ones, right? When they first came out with them, it kind of felt like they did it in a way that was… **very self-motivated**… I didn't feel like they were **looking out in [the] interest of you**. I thought they were more just **trying to make a few bucks while they could before these things were eventually found to be illegal**." He conceded he may have been under-informed: "I probably didn't know enough to have a good opinion on them back then, and that's why I **saved my opinion**."
+- **He described it as a community reaction, not just his own.** "a lot of people were probably in the same boat. There was some **behind-the-scenes stuff going on with a lot of the industry folks, and Primero at the time**, and we all just kind of felt like it was almost just — it was a **spiteful thing** on their part."
+- **And his position has moved.** "my opinion on them is **kind of evolving**. I think they're **more complementary than competitive** at this point. I think that they would probably **not be a bad thing to put in some of our locations**… there probably is a very good opportunity there, even in my locations, some of them, **to place some of those**."
+
+That is the **fourth distinct operator position** the corpus now holds on Class A — against the board member's opposition (Sept 1), the operator already talking to Primero (Sept 1 afternoon), and ARC's commercial push (Aug 31). **Val added nothing of his own on Class A in this meeting**, and JVL's position — no Class A product today — is unchanged. *(The transcript renders the first manufacturer "Jinko"; it is recorded as spoken and is not matched to any company already in the corpus.)* [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]
+
 ## Open questions
 
 - **What do the Class A regulations actually say?** Val asked twice — "Is there regulation? For class A… Can you give me the regulation?" — and got "I think I have somewhere in the regulations. If I find them from our legal department, I send it to you. **Not specific.**" Until that arrives, everything on this page is operator description, not rule text. [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 - **What is the real manufacturer revenue share?** Val's "fifty" was corrected to "Much less" without a number. [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 - **Does the GLC move, and how?** Both sources record the threat; neither records an action. Note the Feb-18 view that only the GLC could regulate or tax these and had signalled it would not, against the Aug-31 report that the GLC is "fighting" the progressive and says it will "go after it extremely hard" — a change in posture across six months, recorded but not analysed. [[raw/To-Do_Georgia_meetings-February-18-2026.md]] [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
+
+- **Does GAMOA have a position on Class A at all?** Ryan O'Donnell answered "We're not in favor of them" and then, pressed, "It's my view" and "We don't have a specific thing" — and separately said the decision "is going to be up to the lottery, really." The February 2026 record has the board fearing cannibalisation; nothing in the corpus records a formal association position. [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]] [[raw/To-Do_Georgia_meetings-February-18-2026.md]]
 
 **§15.8:** clear — licence, machine, location and market economics only; no named-person compensation.
 
@@ -94,3 +150,6 @@ Val also drew the product conclusion out loud: "**That opens up for us a huge ma
 - [[raw/To-Do_Georgia_meetings-February-18-2026.md]]
 - [[raw/Meeting_Notes_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
+- [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+- [[raw/Meeting_Transcript_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
+- [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]

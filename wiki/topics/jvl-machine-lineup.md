@@ -3,7 +3,7 @@ type: topic
 title: JVL machine and cabinet lineup
 date: 2026-07-12
 aliases: [Flex cabinets, Altera, Maple, Echo, Flex S, Flex C, Flex V42, Flex V42/C, cabinets, VLT, video lottery terminal, Flex SD27, V43, C10-VLOT-TERM-RU, Epic 950, FutureLogic, FlexPort, FlexPay, Nico, Miranda, Omni, Florida Ruta, CPU kit, coffin, iOBoard, Bally iview, Diamondlink, nano-optics, JCM, dual SAS, HAL, FireEyes Wink, Dragon Supreme, Calle Ocho, Maneki-neko, HG-6, kiosk, Incom, TITO, SMIB, SAS server, La Rosa, El Jaguar, Golden Husk, 5X Peppers, Cold Cash, Pink Princess, Jungle Jaguar, Dutch Mill, Crazy Spins, Midnight Money, Spicy Fruits, Clover Fortune, Jinji Du Li, Cash Kittens, Rosita's Cantina, Estilo Bling, Kaiju Omni]
-source-count: 39
+source-count: 40
 ---
 
 # JVL machine and cabinet lineup
@@ -164,6 +164,18 @@ On the [[wiki/meetings/2025-06-12-games-design-priorities-review.md|June-12 prio
 - **V-Deck** — a full-HD secondary screen on the machine; **Topper** — the top screen used for progressive signage. A typical layout runs videos across topper, main screen, and V-Deck. [[raw/fp-7_performance_analysis_january_13_2025.md]]
 - Game videos use the **VP8/VP9** format (chosen for alpha transparency). **Spine** objects are skeletal animations that run more efficiently than video; JVL balances spine animation against video to manage hardware load. **Miranda** is the tool/software product with an "animation controller" feature that can swap objects without programmers. [[raw/fp-7_performance_analysis_january_13_2025.md]] Miranda is a versioned JVL software product (versions "V8"/"Miranda 8", V9); its source is being migrated from SVN/Bitbucket into GitHub as part of the first migration batch (with Omni and FlexPay). See [[wiki/decisions/2025-02-11-git-migration-sequence.md]]. [[raw/Git_repo_structure_part_2_2025-02-11.md]] [[raw/github_explained-feb-3-2025.md]]
 
+## Mega Hit Games — the multi-game cabinet as demoed to a customer (Sept 1 2026)
+
+The first end-to-end description of the **Mega Hit Games** cabinet in front of a buyer, given by [[wiki/people/felipe-miranda.md|Felipe Miranda]] at the [[wiki/meetings/2026-09-01-narayani-akshar-mega-hit-demo-and-trade-in.md|Sept-1 Narayani/Akshar demo]]. [[raw/Meeting_Transcript_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
+
+- **Eight games on the unit, ten recommended, fifteen in the library.** "**This is called Mega Hit Games. This moment you see eight games, but this could be modified**… **The best configuration would be ten games.** We will add two more… **The total number of games is fifteen**… **But only we will have ten enabled at a time.**"
+- **Games are swapped remotely, and JVL watches which ones earn.** "**we will be able to track how games are performing for your advantage and for our own investigation of what's hot in the market. We'll be able to tell — hey, I'll give you a call and say, listen, we see that this game is not performing. Would you like to change it for this one? You only need to do a hard reset. It will load up with a new configuration and a new game already as part of the set.**" That capability depends on the cell modem — see [[wiki/topics/machine-data-repurchase-program.md]].
+- **The content mix as pitched:** the familiar JVL family — "**Simple games, easy to understand, not too complicated, exciting bonus rounds**… simple three-liners. **They love our spins, rodeo spins, all this spin family of games**" — plus **Jackpot Rush** as the headline progressive (see [[wiki/topics/slot-game-design-principles.md]] for its mechanics). *(The family is transcribed "the Liza and Wayne games"; later in the same recording Val says JVL offers "a wide variety of **line and ways** games," which is very likely the same term — an **inference**, not asserted, and no name is substituted in the quote.)*
+- **Two more titles being added, one of them a rework.** "**One is Lion's Races that we had in stage one, which was a very successful game for us in this market. We made some changes for the vertical. It looks phenomenal, and there are also some changes in the game. And a new game that we're bringing to the market.**" *(The new title is not named. "Lion's Races" appears nowhere else in this corpus and is recorded exactly as transcribed.)*
+- **A Spanish-themed title and a Diamond Link variant.** "**And we have [fiery eyes]. We've noticed that the Spanish and Spanish-style games are very hot in Georgia right now. We have one in Diamond Link that has added a lot more emotion because we have three different diamonds that when you get the bonus…**" *(The title is transcribed "fiery eyes"; the corpus carries a JVL title "FireEyes Wink" in this page's aliases, but the source does not make the connection and none is asserted. Not to be confused with **Fiery Pay**, the competing card processor.)*
+- **Units are already in the field on test.** "**We have several units already in the market for field test. They're doing phenomenal. I would really like you guys to see it for yourself. Install a few of those in different locations. I would strongly recommend.**"
+- **Price and the 10-vs-15-game trade-off** — a cheaper ten-game build exists but loses the remote game-swap, which Felipe argued against at "**only a two hundred and fifty dollar price for a game**" — are on [[wiki/topics/jvl-machine-pricing-strategy.md]].
+
 ## How customers see the products
 
 - To customers and financiers, all JVL machines are described broadly as **video lottery terminals**; price and description vary only by hardware configuration (e.g. one vs. two screens) and software (number of games, features). Example naming: "video lottery terminal, Flex D27." [[raw/james_reble_elevate_january_14_2025.md]]
@@ -214,3 +226,4 @@ On the [[wiki/meetings/2025-06-12-games-design-priorities-review.md|June-12 prio
 - [[raw/games_design-june-11-2025.md]]
 - [[raw/games_design-june-12-2025.md]]
 - [[raw/Metering_class_3-june-17-2025.md]]
+- [[raw/Meeting_Transcript_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]

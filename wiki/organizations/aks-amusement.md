@@ -3,8 +3,9 @@ type: organization
 title: AKS Amusement
 date: 2026-07-27
 aliases: [AKS Amusement LLC, AKS Amusement, AKS]
-source-count: 1
+source-count: 2
 open-commitments: 1
+disambiguation: "§4 name note — two distinct Karims. **This** Karim is AKS Amusement's technical/operations lead, reporting to AKS's CEO Zahir. A **different** Karim is the sole owner of [[wiki/organizations/air-gaming-group.md|Air Gaming Group]], a separate multi-state operator with a large Texas footprint, who was named as such on Sept 1 2026. Different companies, different roles; neither has a person page and nothing has been merged. Resolve by context. Provisional — owner ruling pending. (Note also that AKS and **Akshar Gaming** are unrelated companies whose names happen to look alike — see [[wiki/organizations/akshar-gaming.md]].)"
 ---
 
 # AKS Amusement
@@ -46,6 +47,11 @@ See [[wiki/projects/georgia-market-rollout.md]]; related Georgia masters [[wiki/
 
 - [ ] AKS Amusement (Karim / Zahir + AKS's internal reporting owner) — provide complete **location-level Georgia Lottery performance reports** for all AKS machines (define cadence, format, and owner), in exchange for the no-charge software upgrade Felipe agreed in principle — due unspecified — [[raw/georgia_operator_briefing_AKS.md]]
 
+## Name note (§4) — the other Karim
+
+On **September 1 2026** an operator called **Air Gaming Group** visited the JVL Georgia office, and its decision maker was identified in the room as "**Karim**… **the only owner**," who "has partners in different companies, but he remains the decision." That is a different man from AKS's Karim, who is AKS's technical/operations lead under CEO Zahir. No source connects the two, neither has a person page, and nothing has been merged — resolve by context. See [[wiki/organizations/air-gaming-group.md]]. [[raw/Meeting_Transcript_Air_Gaming_Group_Transactional_Walkthrough-September-1-2026.md]]
+
 ## Sources
 
 - [[raw/georgia_operator_briefing_AKS.md]]
+- [[raw/Meeting_Transcript_Air_Gaming_Group_Transactional_Walkthrough-September-1-2026.md]]
