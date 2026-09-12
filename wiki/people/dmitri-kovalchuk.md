@@ -4,8 +4,8 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "IT (GitHub-admin, infrastructure, secrets/Azure, AI-tool accounts) — the IT-context "Dima". Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 27
-open-commitments: 2
+source-count: 30
+open-commitments: 6
 ---
 
 # Dmitri Kovalchuk
@@ -107,6 +107,33 @@ At the [[wiki/meetings/2026-09-09-september-resource-plan-and-flex-port-readines
 
 [[wiki/people/val-levitan.md|Val]] then named him alongside [[wiki/people/andrey-bosik.md|Andrei Bosik]] as the pair who should take planning off Pavel — "[с] ним[,] Ирой[,] и я бы ещё привлёк Диму Ко[ва]льчука. Они бы вам разложили бы всю эту [работу] по полочкам" — in daily recorded sessions: [[wiki/decisions/2026-09-09-planning-handed-to-bosik-and-kovalchuk-with-daily-recorded-sessions.md]]. [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 
+## Sept 10 2026 — he is the one who can create Jira components, and nobody else can
+
+At the [[wiki/meetings/2026-09-10-capability-requirements-workflow-and-mvp-split.md|Sept-10 2026 5:31 AM transactional call]], the Jira-administration role this page describes shows up as a hard dependency: the group could not tag capabilities by product until he acted. [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+
+- **He confirmed the components do not exist and must be created** in the capability project: "[и]х нету[,] [П]аш… [и]х надо создать[,] в проекте кап[…]" — after [[wiki/people/irina-shishko.md|Irina Shishko]] noted the rest of them cannot add components themselves: "это надо [Д]име тогда заводить компоненты, потому что мы по моему просто так не можем компоненты добавить." [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- **He asked for the list in writing so he could do it fast:** "[в]ы можете мне список скинуть, я посо[зд]аю быстро… [в] чатик напишите[,] я создам." See [[wiki/decisions/2026-09-10-per-product-components-and-mvp-fix-versions-on-the-capability-project.md]]. [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- **He was also assigned, with [[wiki/people/andrey-bosik.md|Bosik]], to study the last seven days of capabilities** ahead of the Klimovich walkthrough — the pair named in [[wiki/decisions/2026-09-09-planning-handed-to-bosik-and-kovalchuk-with-daily-recorded-sessions.md]], here pointed at review rather than planning. [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- A small aside from the same call, on his kit rather than his work: he was on background noise without proper headphones, and [[wiki/people/alexander-biratka.md|Biratka]]'s explanation was that as the admin he cannot have them — "[а] он админ[,] у него… не может быть." Recorded as spoken; no equipment policy is asserted. [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+
+## Open commitments (Sept 10 2026)
+
+- [ ] Dmitri Kovalchuk — create the FlexPay, Flex-IQ, FlexPort and Terminal Hub components in the capability project — due September 10 2026 — [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- [ ] Dmitri Kovalchuk and [[wiki/people/andrey-bosik.md|Andrey Bosik]] — study the capabilities created in the last seven days before the Klimovich meeting — due September 10 2026 — [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+
+## Sept 11 2026 — called into a meeting for one item, and offers to automate it
+
+Kovalchuk joined the [[wiki/meetings/2026-09-11-transactional-mvp1-scope-and-priorities.md|Sept-11 8:04 AM call]] near the end, at Val's request, for the capability-workflow question alone — "давайте позовём диму Ковальчука, чтобы он поправил [воркфлоу]". [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+
+- **His first instinct was to delete the misleading green "Accepted" status; Val said no** and redefined its meaning instead. See [[wiki/decisions/2026-09-11-accepted-means-reviewed-taken-into-work-is-the-move-to-to-do.md]]. [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **He answered Irina's "who moves it to In Progress" with automation:** "[м]ы это можем [за]автоматизировать[:] любая фича, которая начинается [в ин прогресс,] тогда переводит любой [капа]билити из туду в ин[ ]прогр[есс] тоже." He would not do it on the fly — "[п]рям на лету не смогу" — because it needs testing. [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **He is also the man Val named, in absentia earlier in the same call, as the person who knows the shared-component problem** and would likely propose solving it as a component. [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+
+## Open commitments (Sept 11 2026)
+
+- [ ] Dmitri Kovalchuk — automate the capability status transition from feature status (To Do → In Progress and back), after testing — due after Monday Sept 14 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [ ] Dmitri Kovalchuk — move all MVP 1 capabilities into To Do — due Monday Sept 14 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Legacy_CMS_Documentation_Progress_Check-April-15-2026.md]]
@@ -136,3 +163,6 @@ At the [[wiki/meetings/2026-09-09-september-resource-plan-and-flex-port-readines
 - [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
 - [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
 - [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- [[raw/Meeting_Notes_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]

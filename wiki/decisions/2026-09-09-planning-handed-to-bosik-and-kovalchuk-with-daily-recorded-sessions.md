@@ -3,7 +3,7 @@ type: decision
 title: Pavel stops planning by hand — Andrei Bosik and Dmitri Kovalchuk turn his recorded conversations into capabilities and requirements, in daily sessions, with Val on the invitation so he can pull the transcripts
 date: 2026-09-09
 aliases: [lean on Bosik and Kovalchuk, daily planning meetings, record the conversation and hand it over, seventy-five to eighty percent, include me in the invitations, micro tasks first the full picture, Claude works better from general than from definite, requirement 1404]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 4
 open-questions: 0
@@ -43,6 +43,18 @@ Val opened **requirement 1404** during the call — "[я] смотрю сейч�
 - **The negative cases are derivable from the positive ones.** "[У] него они не расписаны как [негативные] кейсы[,] они расписаны как [позитивные] кейсы. Но когда вы будете делать тестирование через [Клода,] я уверен, что [Клод] легко сообразит… как из этого построить [негативный] тест." His example acceptance criterion: "wand wee connect… net no press[ed]" *(rendered garbled in the transcript; quoted as it stands)*. Pavel agreed the description is very general — "это очень дженерал описание. Очень дженер[ал]."
 - **And that generality is a feature, not a defect.** Val: "[К]лоду лучше давать **general**, чем **definite**… [к]лод хуже работает [с] дефини[тив]…[,] чем с дженер[ал]… чем больше ты даёшь [Клоду] дефини[ций,] тем меньше он употребляет свой [imagination]" [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]. *(Recorded as Val's stated view about the tool, not as a verified property of it.)*
 
+## Sept 10 2026 — the next morning, and Pavel points the two of them somewhere else
+
+The very next day, at the [[wiki/meetings/2026-09-10-capability-requirements-workflow-and-mvp-split.md|Sept-10 5:31 AM call]], Pavel opened by naming this ruling — "[В]ал вчера на митинге… попросил привлечь [А]ндрея и [Д]иму на то, чтобы они нам помогали в планировании[ ]и в менеджменте задач" — and then immediately redirected it [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]].
+
+- **The redirect, in his words:** "[н]о мне кажется, сейчас вот я подумал… [н]ам на текущий момент как раз нужно… [д]ругая работа" — what the team actually needs right now is different work: going through the capabilities created in the last seven days and writing the requirements into them [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]].
+- **[[wiki/people/andrey-bosik.md|Bosik]] and [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] are on it, but as reviewers, not as planners.** "[и]зучим это, наверное, [А]ндрей и [Д]има[,] да[,] чтобы… не отвлекать остальных" — the two of them study the capabilities so the rest of the team is not pulled off its work [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]].
+- **Not "with all of us" either, at first — Pavel widened it himself mid-sentence:** "[с] помощью [А]ндрея[,] с помощью [Д]имы, но… не только с помощью них, с помощью всех нас" [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]].
+- **The voice-recorded method survives, aimed at a different person.** Rather than recording his own planning for Bosik to write up, Pavel proposes recording a walkthrough with [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] and letting Claude draft from it: "по результатам митинга… по эти[м ка]побилити можно будет составить… [р]еквимен[т]с[ —] ну[,] [К]лод составит рекла[мен]с[,] и уже если есть ка[паб]илит[и, реквайрментс,] дальше можно нарезать работу" [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]].
+- **What the source does NOT show.** Whether a daily Bosik/Kovalchuk planning session actually happened, whether Val was on the invitation, and whether Irina and Khamin had graded Bosik's requirements. This meeting is the same group but a different agenda; none of the four open commitments below is discharged by it [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]].
+
+*(Kovalchuk's actual output on Sept 10 was infrastructure, not planning: creating the per-product components on the capability project — [[wiki/decisions/2026-09-10-per-product-components-and-mvp-fix-versions-on-the-capability-project.md]].)*
+
 ## Open commitments
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — start the planning sessions with Andrei Bosik and Dmitri Kovalchuk, with Irina included, so they can generate cases and requirements; hold them daily and put Val on the invitations — due from Sept 9 2026, running before the Friday schedule meeting — [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]] [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
@@ -55,5 +67,6 @@ Val opened **requirement 1404** during the call — "[я] смотрю сейч�
 **§15.8:** clear — assignment and process only.
 
 ## Sources
+- [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
 - [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 - [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]

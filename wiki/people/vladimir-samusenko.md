@@ -3,7 +3,7 @@ type: person
 title: Vladimir Samusenko
 date: 2026-02-04
 aliases: [Vladimir Samusenko, Vladimir, Vlad, Владимир, Самусенко]
-source-count: 11
+source-count: 12
 open-commitments: 4
 ---
 
@@ -61,6 +61,12 @@ At the [[wiki/meetings/2026-09-07-sas-aft-on-flex-port-and-remote-update.md|Sept
 
 Vladimir was not on the call. This is the first recorded use of his Sept-3 deliverable on a different team's codebase — see [[wiki/decisions/2026-09-03-prose-standard-into-knowledge-repository.md]] and [[wiki/decisions/2026-09-07-andrei-bosik-drives-the-wi-fi-work-and-the-process-chain.md]].
 
+## Sept 11 2026 — tidying the Flex-IQ screens
+
+At the [[wiki/meetings/2026-09-11-transactional-mvp1-scope-and-priorities.md|Sept-11 8:04 AM call]], arguing that the split-payout work is not a bottleneck, [[wiki/people/pavel.md|Pavel Frolov]] said the back end is done and so is the front end — "[В]ладимир сейчас причесывает все экраны", Vladimir is tidying up all the screens now [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]].
+
+*(Identified as Samusenko by context — he is the Minsk React developer who owns the machine/setup screens — not by surname in the source.)*
+
 ## Sources
 
 - [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
@@ -74,3 +80,4 @@ Vladimir was not on the call. This is the first recorded use of his Sept-3 deliv
 - [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 - [[raw/Meeting_Notes_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]

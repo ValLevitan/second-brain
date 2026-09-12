@@ -3,7 +3,7 @@ type: decision
 title: Andrei Bosik becomes the driver for the Wi-Fi work and writes it up in Jira — the existing ticket is not to be amended, and the chain runs use cases (Klimovich) → capabilities → features (Pavel) → feature branch → commit carrying code plus prose plus data contracts
 date: 2026-09-07
 aliases: [Bosik is the driver, if it is not in Jira there is no work, do not amend the existing ticket, you are driving a tank, use cases not capabilities, capabilities broken into features, docs/contracts directory, prose and data contract, set him up on Claude Code]
-source-count: 5
+source-count: 6
 status: active
 open-commitments: 5
 open-questions: 0
@@ -47,6 +47,12 @@ Two days later [[wiki/people/val-levitan.md|Val]] opened Bosik's email during th
 
 Val then generalised the arrangement beyond Wi-Fi: Pavel is to stop planning by hand, talk the work through in **daily recorded sessions** with Bosik and [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]], and let them turn the transcripts into capabilities and requirements — "хотя бы на 75[–]80%." Full ruling on [[wiki/decisions/2026-09-09-planning-handed-to-bosik-and-kovalchuk-with-daily-recorded-sessions.md]].
 
+## Update — Sept 11 2026: the chain applied a third time, by Val to his own material
+
+At the [[wiki/meetings/2026-09-11-technician-complaints-and-new-capabilities-workshop.md|Sept-11 10:33 AM workshop]] Val described having run this exact chain himself on the Passport/RIS complaints — "Я сделал прозу. Я сделал архитектуру дизайн… Оттуда вырисовал кипа билоти… Но не дошел до регламента… Просто не хватило времени" (prose → a broad, shallow architecture design → capabilities, stopping short of the regulations for lack of time) — and then applied the Sept-9 recorded-session method to finish it: a one-hour Monday working meeting, its transcript converted into capabilities **with Bosik's help**, then a second session to close the gap [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]].
+
+**Bosik's transcript-to-capabilities role is now being used for a third, unrelated subject** (Wi-Fi → planning generally → Passport/RIS), and this time he was not in the room when it was assigned. Full ruling: [[wiki/decisions/2026-09-11-new-regulations-for-the-passport-and-ris-talked-out-monday-and-converted-from-the-transcript.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/andrey-bosik.md|Andrei Bosik]] — write the Wi-Fi capabilities, break them into features in Jira, own the pace and coordinate the group from this meeting — **partly discharged Sept 9 2026**: the capabilities and requirements exist and were emailed round (Wi-Fi capabilities 140/142/143/145), but Pavel expected them to cover "5% в лучшем случае" of kiosk behaviour and put a review in front of the next step; the coordination half continues — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]] [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]] [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
@@ -63,3 +69,4 @@ Val then generalised the arrangement beyond Wi-Fi: Pavel is to stop planning by 
 - [[raw/Meeting_Notes_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]]

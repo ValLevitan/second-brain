@@ -3,8 +3,8 @@ type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
 aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus, $20 test, twenty dollar test, Twin Bison, Wolfpack, Clover Fortune, Liberty Spins, peek-to-be-in bonus, locking bison, Rodeo Spins, multi-progressive, Multi-Progressive initiative, three-level progressive, three progressive styles, bet-dependent progressive, symbol-driven progressive, time on device, jackpot reset value, RTP parity, Pyre Island, dual box skill feature, Lions Riches, Primero, Piggy, attraction loop, credits vs dollars, default to a dollar, first three rankings, the ice maker, settings not the report, no secret between us, Anchor Gaming, Wheel of Fortune]
-source-count: 85
-open-questions: 5
+source-count: 89
+open-questions: 6
 ---
 
 # Slot game-design principles and the progressive-bet-incentive debate
@@ -776,6 +776,85 @@ Val walked the arithmetic in the room, and it is the clearest version in the cor
 
 **§15.8:** clear — game-design, settings and progressive economics only; no named-person compensation.
 
+## Sept 10 2026 — the same argument, one day later, and this time Val names the three settings
+
+The [[wiki/meetings/2026-09-10-diamond-amusements-machine-performance-and-bundle-pilot.md|Sept-10 Diamond Amusement visit]] replays the Sept-9 Rao argument almost move for move — an operator's per-location ranking on screen, Val unable to accept it — but it ends somewhere new: **a three-line comparison of how the two fleets are actually set**, worked out in the room against a customer who knew the answers. [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+### What the report showed, and Val's reaction
+
+[[wiki/organizations/diamond-amusement.md|Diamond]] pulled up a per-location ranking of every location holding JVL games. JVL placed **sixth** at one, **second in August** at another, **third** and **fourth** elsewhere. Val: "**I'm seeing nineteen dollars win per unit**" — "**Win per unit per day**" — off, as Diamond noted, "**just… that particular report**". His response: [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+> "**My… senior VP of game design is an ex-B[ally]. So I cannot imagine how my games could make less money than Light and Wonder or Arist[ocrat]. I am just perplexed**… **There must be something on the surface that I'm not seeing in the setting between how you set your Aristocrat and JVL and Light and Wonder. I do not understand how we could make less money.**"
+
+*(The senior VP of game design is [[wiki/people/michael-gottlieb.md|Michael Gottlieb]]; the transcript gives only the title, and here the prior employer is rendered "**ex-Bully**" — read as **Bally**, an inference. **Note this differs from the Sept-9 Rao telling**, where Val gave the same man's background as **Light & Wonder**. Both are recorded; neither source mentions the other.)* [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+
+One counter-datum in the same passage, recorded as spoken and not reconciled with the rest: "**IGT is doing half of what we're doing.**" [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+### The three settings, as established in the room
+
+| | Aristocrat / Light & Wonder, per Diamond | JVL |
+|---|---|---|
+| **Default (starting) bet** | **$1.00** | **$0.25** |
+| **RTP** | **90%** — "the bigger companies, there's only two or three options, and they're ninety, ninety-two" | **92–94%**, no lower option offered |
+| **Top progressive displayed** | **$6,000**, with a technician adding "**we got some that are a lot higher**" and an **eight thousand** figure appearing in a garbled aside | **$2,400** by default |
+
+[[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+Val's own statements of each: "**I noticed that Aristocrat defaults to one dollar play, and we… default to twenty-five cents**"; "**Aristocrat, Light and Wonder, you set at ninety percent RTP. And ours between ninety-two and ninety-four**… **I know that most people set their machines at ninety**… **we don't have lower settings**"; and "the display, the top win, your top progressive… everywhere is… **six thousand, and [ours] is at twenty-four hundred**." Diamond's own gloss on why: "**most masters are probably going to put it on as low a setting as possible, just because of the grief factor.**" [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+### The mechanism Val builds out of it
+
+> "**if a player comes into [a] location and he sees one machine showing twelve thousand progressive, and my machine shows two thousand progressive, naturally the player would gravitate towards the twelve thousand**… But what does it mean? It means that **if you set up a progressive for twelve thousand, that means [the] machine ha[s] to have [a] reset value at approximately six thousand. That means you will need more coins**… So that means that you will set your machines either **lower in RTP or the game itself will be more volatile. Mathematically, that's what it means.**"
+
+> "**So the player would play my machine as a dribbler, as a filler, and would go and play somebody else's machine.**"
+
+**And the conclusion, which is the corpus's sharpest statement of the peak-hour hold argument:** "if two machines are side by side, then **I gotta set my machine to twelve thousand. I gotta put the reset value for credits to a dollar, not twenty-five cents, and probably RTP to ninety percent instead of ninety-four percent. If you set my machine at ninety-four percent, it just doesn't have enough time to hold money**… **The difference between ninety percent and ninety-four percent is forty percent difference.**" The time constraint underneath it, stated again: "**there's only so many spins per day. You… [are] only active like three, four hours per day. That's it. The rest… machines are idle.**" [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+**This is the same volatility/RTP trade-off he walked through with Rao on Sept 9** — you sacrifice one or the other — now run backwards from a displayed jackpot to a required reset value to an RTP. It is also the numeric form of the peak-hour minimum-bet theory recorded for Aug 26 and Sept 1 above.
+
+### The operator's counter-arguments, which are better than the customer's usual
+
+- **A cheaper bet is not automatically a worse bet, because of line count.** Val: "**a forty-cent game would make more money than a 25-cent game because you only have three hours of operation.**" Diamond: "**But that 40-cent game is at five lines, which a lot of customers are confused on how to play. Even though it has the raise and lower, when they see that five lines up there… they don't want it.**" Val conceded the observation and kept the principle: "**my point is that if you have [a] 40-cent game and a 25-cent game, [the] 40-cent game will make more money.**" [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- **Val's fifty-percent claim, stated as provable:** "**fifty, fifty percent of the money I can prove it to you comes from minimum bet.**" Diamond: "**Correct. Correct. But they're not playing the forty-cent game.**" [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- **An operator's rule about what players understand — worth keeping as a design principle.** "**they understand that a single [line] type game, or if you're going to do a multi-line game**… the games that do better typically have… **straight correlation between bet and payout versus fractional wins, meaning the win is always greater than the bet. If there's a win.**" [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- **Segment-specific volatility.** A high-bet clientele Diamond describes as "**predominantly Asian**" — "**they chase big jackpots with big bets**" and "**they're not playing the same as a lot of the data you're probably seeing**" — which Val took as evidence for his new machine: "**from what you're describing, [a] higher volatility game… the new machine that we're releasing will address it best.**" His themes answer: "**they like classic sevens… the dragon stuff. So the classic sevens, we actually have a very traditional seven-seven-seven game[s], with [a] progressive jackpot that rises with the bet**… and also they have another progressive, which is [a] link progressive. That[']s [what] they chase." [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+### Brand familiarity — Val's own field method, stated for the first time
+
+The Sept-9 Rao finding ("the player has no concept of who the manufacturer is") gets a source here: [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+> "**I surveyed probably 20 locations. And none of the players have the slightest clue of what games they play**… **They feel something that they feel comfortable with, but it's not brand familiarity. They don't know what Aristocrat is.**"
+
+Diamond's own framing of the population that produces it: "**They're locals.**" Val: "**these people, they don't go anywhere.**" That cuts against Diamond's opening suggestion that players travel and compare — "these people all go to the same places, right? They go to Florida, they go to North Carolina." [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+**Open question (Sept 10 2026):** **is the settings hypothesis right?** Val reached it by elimination in one conversation, against a customer who could not produce settings data for either fleet — "**I gotta take it location by location. I cannot understand why we would make less money. Only in the settings.**" It is testable only against the settings capture Diamond agreed to start ([[wiki/decisions/2026-09-10-diamond-field-auditor-captures-jvl-settings-data.md]]), and that capture covers **JVL machines only**, not the competitors' settings the hypothesis is actually about. **Unproven.** [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+**§15.8:** clear — settings, RTP, bet-level and progressive economics only; no named-person compensation.
+
+## Sept 11 2026 — why the progressive meters are deliberately duplicated, and Michael's marketing-simplification doctrine
+
+At the [[wiki/meetings/2026-09-11-rage-sunset-and-class-a-on-nova.md|Sept-11 1:00 PM game-development call]] [[wiki/people/val-levitan.md|Val]] raised three design questions and lost all three. The two home-screen rulings are on [[wiki/decisions/2026-09-11-no-new-game-badge-and-two-titles-per-category-stand.md]]; the third — the richest design argument in the source — is here. [[raw/Meeting_Notes_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+
+**Val's question.** Looking at the three-screen Nebraska mock-up: "**if we're talking about the wildfire ranch… On the second screen, why not to remove those progressive [meters] if we have the third screen?**" Refined: he understands covering the case with no topper, "**What I don't understand is why having the progressives on the second screen… if we install the topper while both progressives on the second screen and the third screen from a real estate perspective are so close to each other.**" [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+
+**[[wiki/people/michael-gottlieb.md|Michael]]'s answer — five distinct reasons, and he did not move:** [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+
+- **The redundancy is the point.** "**That's an extremely bad idea. Progressives are very important to players and not everybody cranes their neck all the way up to look at a topper**"; "**you want the redundancy. You absolutely want the redundancy. You want those meters moving.**"
+- **Two different customers.** "**the progressive on the top of the screen, on the second screen for Wildfire Ranch, is for the customer that is actually sitting in front of the machine. Whereas the topper is for the person that's walking by, or 10 feet away or 20 feet away.**"
+- **It teaches placement.** "**consistent for the customer. You're training the customer that this is where the progressives are located on JVL games**" — the same position on the game-selection screen and inside the game, "**a design consistency decision.**"
+- **It answers a question the player would otherwise have.** Without it "**you might not know whether or not Wildfire Ranch has a… progressive and then you go into it and all of a sudden the progressives pop up**"; "**You're jumping to the conclusion that the player will comprehend that that top jackpot bonus progressive feature is by default tied into the game. The player doesn't know that.**"
+- **It is not new, it is newly visible.** "**Actually, we have always done this. It's just that the peach progressive, the way it was presented on the second screen back when we had the more traditional pay table… was kind of cluttered by virtue of the amount of information we were presenting. So it wasn't as noticeable to you, Val. So now… with the simplified pay table, we have this like reinforced focus on the progressives… because we're selling them.**" (The Peach bonus being dead is on [[wiki/decisions/2026-08-14-first-nova-product-south-dakota-vertical.md]]; the simplified pay table is the Mar-13 2026 GC366 work above.)
+
+**What the third screen shows the rest of the time.** [[wiki/people/lena.md|Lena]]: "**in free spins, it shows free spins[;] when it's a big win, it shows big win[;] in main game, it shows jackpot bonus**"; the topper itself is "**for just showing the biggest, biggest win**" and carries the top two progressive levels ([[wiki/people/efim-podvoiski.md|Efim]]: "**The [topper] just shows 2 levels**"). Michael: "**it's advertising the progressives the vast majority of the time**"; Efim: "**Like, 90% of the time.**" And the vertical cabinet does the same — asked "**Does it… also repeat progressives twice?**", Lena: "**Yes**"; Michael: "**that's exactly how [Georgia] V3 looks.**" [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+
+**Val conceded the frame, not the point:** "**maybe you have a benefit of understanding the entire game, how it flows. And I'm looking only at the static presentation of the screen in this fragment of time… And so maybe that's the disconnect.**" **No change was directed.** [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+
+**Michael's marketing doctrine, stated in full for the first time in this corpus.** Arguing against a "new game" badge he set out the position that governs all three answers: the "new and improved" grocery-shelf era gave way to the Apple case study — "**When Steve Jobs came back to Apple, they had like 14 different Macintoshes… he killed all of them except for three**", "**that kind of marketing simplification became a new**" standard, with car makers cutting model counts the same way — landing on the operative constraint, "**we have very, very limited real estate. So with the incredibly small amount of real estate that you have, what is it that you want to communicate and you want to sell?**" His answer: the value proposition — fun, entertaining, good time on device — delivered through full-screen attraction video "**just like our competitors**", which he credited to [[wiki/people/felipe-miranda.md|Felipe]]'s feedback ("**Felipe's comments, totally valid**"). His aesthetic reference was "**the minimalism of Tesla**"; Val's counter was that it "**appeals to a very small number of people**" and that design language "**goes in and out**" — which Michael granted, "**all true, 100%.**" [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+
+**One aside recorded and not interpreted:** Val, looking at a Fiery Ice Link example screen, said "**I noticed the new Queen of Luxor is on GLP-1.**" The derived notes flag the phrase for Val's confirmation; it is garbled and no reading is asserted here. [[raw/Meeting_Notes_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]] [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+
+**§15.8:** clear — design content only.
+
 ## Open questions (Sept 4 2026)
 
 - Whether JVL's V-deck is costing revenue against a mechanical deck defaulting to a dollar — Efim's sharper form: is Aristocrat's **average bet** actually higher, or just their play count? No data on either side — [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
@@ -797,6 +876,8 @@ Val walked the arithmetic in the room, and it is the clearest version in the cor
 - [[raw/Meeting_Notes_Inna_Progressive_Bonus_Review-May-22-2026.md]]
 - [[raw/Game_Development-May-29-2026.md]]
 - [[raw/Game_Development-June-16-2026.md]]
+- [[raw/Meeting_Notes_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
 
 - [[raw/Meeting_Transcript_game_development_March-27-2026-2.md]]
 - [[raw/Meeting_Notes_game_development_March-27-2026.md]]
@@ -873,3 +954,5 @@ Val walked the arithmetic in the room, and it is the clearest version in the cor
 - [[raw/Meeting_Transcript_Air_Gaming_Group_Transactional_Walkthrough-September-1-2026.md]]
 - [[raw/Meeting_Notes_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
 - [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+- [[raw/Meeting_Notes_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+- [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]

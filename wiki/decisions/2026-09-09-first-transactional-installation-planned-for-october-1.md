@@ -1,15 +1,17 @@
 ---
 type: decision
-title: The first transactional installation is planned for October 1 and the whole schedule is built on that assumption — FlexPay in self-service with bill acceptor, card dispenser and ticket printer
+title: The first transactional installation is planned for October 1 and the whole schedule is built on that assumption — the date stands; the FlexPay self-service configuration named here was replaced by Flex IQ on Sept 11
 date: 2026-09-09
 aliases: [first installation October 1, assume October 1, one installation on the first of October, self-service wallet case, bill acceptor card dispenser and printer, it might be September 28, the October 1 case]
-source-count: 5
+source-count: 6
 status: active
-open-commitments: 3
+open-commitments: 1
 open-questions: 0
 ---
 
 # The first transactional installation is planned for October 1
+
+> **Update — Sept 11 2026: the date survives, the configuration does not.** At the [[wiki/meetings/2026-09-11-transactional-mvp1-scope-and-priorities.md|Sept 11 8:04 AM call]] Val ruled that October 1 goes with **one configuration, Flex IQ** — FlexPay moves to MVP 2 and the Flex-Port stays in. Irina Shishko put it as "к 1 октября… мы окончательно решаем, что мы идём только с одной конфигурацией. С флекс[ ]а[й]кю", and Val confirmed it, conditional on the bottleneck the engineers report. So the **FlexPay self-service configuration described below is superseded**; everything about the October-1 date, the wallet behaviour, the LTE modem and the RK3568 platform still stands. Full ruling on [[wiki/decisions/2026-09-11-mvp1-goes-with-flex-iq-alone-and-one-kiosk-per-location.md]]. Treated as **evolution, not contradiction** (§11). [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 
 Stated twice by [[wiki/people/val-levitan.md|Val]] on the morning of Sept 9 2026 — first to the Minsk engineers at [[wiki/meetings/2026-09-09-september-resource-plan-and-flex-port-readiness.md|7:02 AM]], then to the North-America group at [[wiki/meetings/2026-09-09-october-rollout-staging-and-unit-ramp.md|8:43 AM]]. It is a **planning anchor**, and Val said so in as many words.
 
@@ -48,9 +50,12 @@ The readiness estimate given in the same call — best case **September 25** for
 
 ## Open commitments
 
-- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — build the work schedule on the assumption of one installation on October 1 and have it ready by Friday; Val set the Friday meeting specifically ("Я особенно назначил [ап]poi[n]tment") — due Sept 11 2026 — [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]] [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
-- [ ] [[wiki/people/val-levitan.md|Val Levitan]] and [[wiki/people/pavel.md|Pavel Frolov]] — meet Friday to work the schedule through — due Sept 11 2026 — [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 - [ ] [[wiki/people/narasimha-rao-namburi.md|Rao]] — select the five October locations so the first-week-of-October installation has a host — due week of Sept 14 2026 — [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+
+## History
+
+- [x] [[wiki/people/pavel.md|Pavel Frolov]] — build the work schedule on the assumption of one installation on October 1 and have it ready by Friday; Val set the Friday meeting specifically ("Я особенно назначил [ап]poi[n]tment") — due Sept 11 2026 — **discharged Sept 11 2026**: Pavel opened the Friday call with the two releases already created in the product-capability space and capabilities being linked to MVP 1 — [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]] [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [x] [[wiki/people/val-levitan.md|Val Levitan]] and [[wiki/people/pavel.md|Pavel Frolov]] — meet Friday to work the schedule through — due Sept 11 2026 — **discharged Sept 11 2026**: the [[wiki/meetings/2026-09-11-transactional-mvp1-scope-and-priorities.md|8:04–9:29 AM call]] is that meeting — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 
 **§15.8:** clear.
 
@@ -60,3 +65,4 @@ The readiness estimate given in the same call — best case **September 25** for
 - [[raw/Meeting_Notes_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
 - [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
 - [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]

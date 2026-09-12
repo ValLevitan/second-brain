@@ -2,10 +2,10 @@
 type: person
 title: Sebastian
 date: 2025-02-19
-aliases: [Sebastian]
-source-count: 7
+aliases: [Sebastian, the engineer I brought in from Miami]
+source-count: 9
 open-commitments: 0
-open-questions: 1
+open-questions: 2
 ---
 
 # Sebastian
@@ -45,6 +45,17 @@ Nine hours after the morning split above, at the [[wiki/meetings/2026-09-09-geor
 ## Open questions
 
 - **What is the assignment, and when exactly does he arrive?** "Earlier" than the end of September is all that is said; no date is set in either source. [[raw/Meeting_Transcript_Georgia_Exclusivity_Bet_and_Sebastian_Reassignment-September-9-2026.md]]
+- **Is he "the engineer I brought in from Miami" Val promised Diamond for October 1?** See the labelled inference below; **not stated in any source.** [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+## Sept 10 2026 — an unnamed Miami engineer promised to a customer for October 1 (inference, labelled)
+
+At the [[wiki/meetings/2026-09-10-diamond-amusements-machine-performance-and-bundle-pilot.md|Sept-10 Diamond Amusement visit]], answering half an hour of service complaints, [[wiki/people/val-levitan.md|Val]] promised relief from a named date and described the man without naming him [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]:
+
+> "I have **another engineer that I brought in from Miami. He's starting here October first**, so **he'll take a bunch of service away from [Felipe]. And he's an engineer by education. He's worked for me in Colombia as well, so he knows my machines. He knows everything, and he's an uber nice guy**… Not that [Felipe] isn't, but **[Felipe] is inundated with other things**… **The service will become much easier as of first of October.**"
+
+**Reading this as Sebastian is an inference and is not stated in the source.** It rests on four things this wiki already records about him: he is **Florida-based**, he is **from Colombia**, he **worked for JVL's Colombian entity as a field-service engineer** ("he knows everything inside out"), and on **Sept 9 2026** — the day before — Val reassigned Georgia field work to him off [[wiki/people/felipe-miranda.md|Felipe]] and said "**I need Sebastian here earlier. The end of September is not workable for me**", which puts his Georgia start against exactly this date. [[raw/business_central_update-apr-28-2025.md]] [[raw/Meeting_Transcript_Georgia_Exclusivity_Bet_and_Sebastian_Reassignment-September-9-2026.md]]
+
+**Two things do not fit cleanly and are recorded rather than smoothed:** the Apr-2025 record calls him a **full-time engineering technician**, where Val says "**an engineer by education**"; and "**brought in from Miami**" reads as a new hire, where Sebastian has been a JVL employee since at least early 2025 — though it is equally readable as *brought in from the Miami office to Georgia*, which is what the Sept-9 reassignment describes. **Flagged for owner confirmation; no merge is asserted and no second person page is created.** [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
 
 ## Sources
 
@@ -55,3 +66,5 @@ Nine hours after the morning split above, at the [[wiki/meetings/2026-09-09-geor
 - [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
 - [[raw/Meeting_Transcript_Georgia_Exclusivity_Bet_and_Sebastian_Reassignment-September-9-2026.md]]
 - [[raw/Meeting_Notes_Georgia_Exclusivity_Bet_and_Sebastian_Reassignment-September-9-2026.md]]
+- [[raw/Meeting_Notes_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]

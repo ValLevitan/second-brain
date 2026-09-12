@@ -4,8 +4,8 @@ title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka, Alex Baratka, Alex Beratka, Alexander Berankov, Biratko, Alexander Biratko]
 disambiguation: "Alexander cluster (provisional — owner ruling pending): distinct JVL people sharing the given name Alexander. [[wiki/people/alexander-biratka.md|Alexander Biratka]] = Omni/Pixi framework & build engineer (aka Sasha; garbles Beratko/Baratka); [[wiki/people/alexander-korochkin.md|Alexander Korochkin]] = LGS QA-automation engineer (GitHub Alexander_K@JVL, read-only; aka Alexander K); [[wiki/people/alexander-tumanov.md|Alexander Tumanov]] = Minsk QA / data-center knowledge-capture hire (surname unverified). Resolve by context: Omni framework / Pixi / build → Biratka; LGS QA automation / read-only build consumer → Korochkin; manual-tester onboarding / data-center interviews → Tumanov. A further name 'Alexander Derok' (back-end build-integration / Java, per Val on Feb-6-2026) is unconfirmed — queued, not a page. Not [[wiki/people/alexei-khamin.md|Alexei Khamin]] (different name). Queue anything fitting none; never force-match."
-source-count: 48
-open-commitments: 3
+source-count: 52
+open-commitments: 4
 open-questions: 0
 ---
 
@@ -168,6 +168,25 @@ At the [[wiki/meetings/2026-09-09-september-resource-plan-and-flex-port-readines
 
 Pavel also placed him on the current work: "флекспей сейчас занят Саша Биратка." **§15.8: hours and assignment only; no compensation appears in the source.** [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 
+## Sept 10 2026 — the man who would not let "study the capabilities" stay vague
+
+At the [[wiki/meetings/2026-09-10-capability-requirements-workflow-and-mvp-split.md|Sept-10 2026 5:31 AM transactional call]] he did the useful procedural work: he kept asking what the review was actually for until the group produced an answer, and he proposed the mechanism that became the filing scheme. [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+
+- **He forced the review's output to be defined.** "[А] какой… результат изучения должен в итоге получиться?… [э]кзамен будет?", then "[н]у вот я нашёл к[апа]били[ти,] я с ним не согласен[ —] что я буду делать?… [к]акой от меня требуется действие?" The answer — say what you disagree with, what is missing, and where requirements are absent, in this meeting's chat — is on [[wiki/decisions/2026-09-10-capability-review-feedback-goes-into-the-meeting-chat.md]]. [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- **He proposed using the component column**, which became the per-product components decision: "там колонка есть компонент[,] наверное[,] да?… может[,] отметить[,] но каждый ка[паб]илити[,] к чему это относится". See [[wiki/decisions/2026-09-10-per-product-components-and-mvp-fix-versions-on-the-capability-project.md]]. [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- **He counted the projects and was not satisfied by the answer** — three, then four once cloud service implementation was counted, with [[wiki/people/pavel.md|Pavel]] conceding "как минимум 4, а может даже пять[-]шесть" — and pressed that a filter alone will not pull the right items out: "[м]ы получаем просто список… элементов[,] и даже вот ты попытался фильтр какой[-]то настроить." [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- **He was assigned the FlexPay capabilities discussed that morning.** [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+
+## Open commitments (Sept 10 2026)
+
+- [ ] Alexander Biratka — review his own FlexPay capabilities, the ones discussed that morning — due September 10 2026 — [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+
+## Sept 11 2026 — assigned the Flex-Port work and the FlexPay port, and absent that day
+
+At the [[wiki/meetings/2026-09-11-transactional-mvp1-scope-and-priorities.md|Sept-11 8:04 AM call]] [[wiki/people/pavel.md|Pavel Frolov]] set the work split: Biratka takes the Flex-Port tasks and ports [[wiki/people/dmitri-chudinov.md|Chudinov]]'s finished Flex-IQ work across into FlexPay — "все задачи, которые идут по флекс порту, это будет брать саша [Би]ратка[,] и он… по сделанны[м] работа[м] диминым… будет это переносить во флекспей" — with [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] on the FlexPay server side [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]].
+
+**He was not working that day.** Pavel reported "саша… сейчас не работает" and that Sasha's tasks are FlexPay, which MVP 1 no longer needs after Val's narrowing; [[wiki/people/irina-shishko.md|Irina]] added that he simply cannot. Twenty minutes later, on the [[wiki/meetings/2026-09-11-nova-game-change-regulatory-procedure.md|9:30 call]], Pavel gave the reason — "[у] саши там какая[-]то трагедия в семье сегодня" — a family bereavement [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]] [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]]. *(The two "Sasha" mentions are treated as the same person on context — the transactional call names Biratka in full — and this is flagged rather than asserted.)*
+
 ## Sources
 
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
@@ -219,3 +238,7 @@ Pavel also placed him on the current work: "флекспей сейчас зан
 - [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
 - [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
 - [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- [[raw/Meeting_Notes_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]]

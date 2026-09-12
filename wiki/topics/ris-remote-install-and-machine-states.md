@@ -2,9 +2,9 @@
 type: topic
 title: RIS (remote install/setup system) and machine states
 date: 2026-02-06
-aliases: [RIS, component allow-listing, validator swap fraud, remote initial setup, remote install system, remote setup, RIS modernization, machine states, sold-machine RIS, RIS subscription, manual override screens, participation financed debt-free]
-source-count: 6
-open-questions: 3
+aliases: [RIS, component allow-listing, validator swap fraud, remote initial setup, remote install system, remote setup, RIS modernization, machine states, sold-machine RIS, RIS subscription, manual override screens, participation financed debt-free, the Passport, passport lock, passcode key, jugular of the whole operating system, peripheral lock, it's in the center not on the side, the passport must not be killed, do not confuse RIS and passport, the bindings are good we use them wrongly, unit 17 changed its bill acceptor, operator nominates who may update the passport, a technician to me is a business owner]
+source-count: 10
+open-questions: 4
 ---
 
 # RIS (remote install/setup system) and machine states
@@ -75,8 +75,71 @@ The [[wiki/meetings/2026-09-02-lucky-coin-service-and-upgrade-offer.md|Sept-2 Lu
 
 **Why it matters to this page:** RIS is documented here mostly as an internal control problem — jurisdictions, finance, resale. This source shows the control being **negotiated with the customer as a product option**, per location, which none of the earlier sessions contemplates. It is also the operator-side cost of the same lock-down: the **decommission / re-flash / recommission** cycle that made this customer's service complaint (see [[wiki/organizations/lucky-coin.md]]), and which Val committed to reduce without a date.
 
+## Sept 10 2026 — the lock has a name ("the Passport"), and a date on which it dies
+
+Eight days after offering to switch component locking off for one customer, [[wiki/people/val-levitan.md|Val]] explained the same mechanism to another — [[wiki/organizations/diamond-amusement.md|Diamond Amusement]], at the [[wiki/meetings/2026-09-10-diamond-amusements-machine-performance-and-bundle-pilot.md|Sept-10 visit]] — and this time he **named it, placed it in the architecture, and gave a date for its removal.** This is the first source in the corpus to use the name. [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+**What the operator experiences.** A Diamond technician, unprompted: "**When you reset the software on any other game, I can go back in and manually put something in. I may have to wait all day to get the settings back from Felipe**, and… going back and forth **to get a passcode key. It's just so much more to do with a JVL.**" The workflow they described: call JVL, wait for the settings file **and a passcode key**, "**download the settings onto your thumb drive**", fetch a laptop, drive it back out. [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+**Val's account of where it came from — the same validator-swap story as Sept 2, with numbers.** "**We had a very, very large operation in Latin America, and we would send brand new machines there. And our bill acceptors would get swapped with a used bill acceptor**… So we said, 'Okay, well, how do we combat it?' **We created a passport, which is the thing that you're dealing with.** And we will prohibit **any exchange of anything at all**… **And if you have to change something, we will give you [a] security code.** Why? Because… **in exactly 30 days we would end up with the used printers, validators that had [an] acceptance rate of 60 percent.**" The setting he describes is a casino with a mixed floor: "we would have a bank of machines, and **the owner of the casino would have his own machines, and it's his technicians that would service the machines.**" [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+**Why it cannot simply be switched off — the architectural claim.** This is the sharpest statement of the lock's position in the system anywhere in the corpus, and it sits **against** the Sept-2 offer to remove it on request: [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+> "**we have it as a core of our design. This [is] like a… jugular of everything**… **it doesn't work here, but I cannot change it because it's tied in the jugular of the whole operating system, and I cannot simply say, okay, get rid of it, because it's not on the side; it's in the center.**"
+
+**And he conceded the premise does not hold for this customer:** "**not everybody is dealing with the same thing. You guys are not dealing with it, so you don't need it. For you, it's a hassle, it's a nuisance.**" That is the same concession he made to Lucky Coin on Sept 2 — but where Lucky Coin was told "**then we should remove it**", Diamond was told it cannot be removed from the current platform at all. **Both stand; neither source mentions the other, and nothing reconciles them.** [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]
+
+**The date.** The removal is tied to the platform change, not to a configuration switch: [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+> "**the reason I'm telling you I'll change it, and the reason I know I'll change it, [is] because we are switching to a new platform internally, which we have been designing for the last two years. So the new games starting January are coming out on the new platform. The new platform will not have it, and therefore I can tell you that I will turn it off.**"
+
+*(He does not name the platform. The two-year design horizon and the January arrival match [[wiki/topics/nova-platform-architecture.md|NOVA]]; **the identification is an inference and is not stated in the source.**)*
+
+**The wider promise it sits inside.** The Passport is one of four things Val committed to fix "**step by step, within one year**", alongside real tilt codes for error 704 delivered by QR, the end of re-commissioning after every change, and a general "**I'll get rid of all of your complaints**" — **but not before the new game ships**: "**my entire team is focused on profitability today.**" The one thing he refused outright was moving the logic box, which needs a cabinet redesign. Full list on [[wiki/organizations/diamond-amusement.md]]. [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+**And the strategic frame he puts around the whole control question** — the same dilemma as Sept 2, resolved in the opposite direction: [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+> "**we feel that the structure that we have is better than any other manufacturer, and all other manufacturer[s] will arrive to what we are offering in time**… **What we're doing wrong is we [are] keeping control in house, and we gotta give you the control, so you guys can do it remotely.**"
+
+The customer's own version of the same trade-off, which is more sympathetic to JVL than the service complaints suggest: "**with the vast majority of the other manufacturers… we have way too much control and too many variables that we can change on the legacy games. When you look at the bigger global manufacturers, there's still a range of adjustments.**" And what Diamond wants out of it: "**We would experiment forever if we could get data.**" [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+**The operator-control commitment, dated.** "the next thing that you're going to get with the new machine **is control of setting yourself. You won't get it today, but you will get it within a year.**" *(The exchange about whether a Georgia operator can change JVL settings today is genuinely confused in the transcript — speakers talk across each other about JVL's machines and other manufacturers' in the same breath. The derived notes read it as: **Georgia is unique in that the operator cannot change JVL settings — every change goes back to JVL.** Val's own clean line is "**Normally, everywhere it's done by operator, but Georgia is very unique.**" The notes' reading is recorded as theirs; nothing further is asserted.)* [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]] [[raw/Meeting_Notes_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+## Sept 11 2026 — JVL's internal answer: RIS and the Passport are two different complaints, and only one of them is a problem
+
+Nine days after the Lucky Coin offer and one day after the Diamond warehouse, [[wiki/people/val-levitan.md|Val]] put the accumulated field complaints in front of [[wiki/people/pavel.md|Pavel Frolov]] and [[wiki/people/irina-shishko.md|Irina Shishko]] as a written document and asked what to build ([[wiki/meetings/2026-09-11-technician-complaints-and-new-capabilities-workshop.md|Sept-11 10:33 AM call]]). **This is the first time the operator-facing grievance is worked on internally, and the first source that splits it in two.** The derived notes date the call 10:33–10:52 AM Eastern, about 19 minutes, with those three people present [[raw/Meeting_Notes_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]] [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]]
+
+**Where the document came from.** "Я сейчас трачу много время, общаясь с кастами напрямую" — I am now spending a lot of time talking to customers directly — and the framing he opened with, in English: "**Is technician to me is business owners.**" He said the deepest irritations are in Georgia "потому что Джорджия это наш Основной рынок, но они присутствуют и в других рынках" — because Georgia is our main market, though they are present in other markets too — and that he had deliberately written up only the ones "Который постоянно повторяются… И всегда повторяется всеми" (which repeat constantly, and are always repeated by everyone) [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]].
+
+*(The source names no operator. The service complaints the corpus already holds are [[wiki/organizations/lucky-coin.md|Lucky Coin]]'s (Sept 2 and Sept 9) and [[wiki/organizations/diamond-amusement.md|Diamond]]'s (Sept 10); **that these are among the ones in his document is an inference and is not stated**.)*
+
+### The two things being confused
+
+- **Remote setup itself is liked, not resented.** Pavel read the complaints as technicians disliking remote and network setup and preferring to work manually; Val rejected it twice — "Нет, это абсолютно неправда. Им нравится, что у нас есть ремотен ещё сета" [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]].
+- **The actual grievance is the call for a new RIS.** "они должны позвонить Филипп, и чтоб он для них сделал новый риск, если б они сами могли сделать новый рис, это было бы прекрасно" — they have to call [[wiki/people/felipe-miranda.md|Felipe]] to get a new RIS made for them; if they could make one themselves it would be wonderful. Val added that he himself **likes** some of the restrictions that force that call [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]]. This is the same workflow a Diamond technician described on Sept 10 — wait all day for settings from Felipe, plus a passcode key.
+- **And the Passport is liked too.** "Не надо путать рис и паспорт… им нравится тот факт, что у нас есть паспорт" — do not confuse RIS and passport; they like the fact that we have a passport [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]].
+
+### The ruling: keep the bindings, change what JVL does with them
+
+The Latin-American rule — no bill-acceptor change without JVL's permission — is the wrong instrument here. What the same binding should produce instead is a record, a flag or an advisory: that a bill acceptor was changed; that "unit number 17" changed its bill acceptor on such a date; or that a bill acceptor needs a modification or a firmware upgrade. His verdict: "все эти привязки они хорошие… Но мы их неправильно пользуемся. На данном рынке", and the instruction "паспорт убивать не надо, паспорт нужно сохранить" [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]]. Full ruling and quotations: [[wiki/decisions/2026-09-11-the-passport-is-preserved-and-jvl-is-using-the-bindings-wrongly-in-this-market.md]].
+
+**The CMS constraint underneath it.** Pavel: today a passport update can only be done by people entered in JVL's CMS; under the new CMS implementation the **operator must be able to nominate** who may do it. Val agreed, with the qualification that an operator who does not want the responsibility can decline it [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]]. That is the operator-side control the Jul-8 persona work left open — see the "undecided control point" above, and [[wiki/topics/persona-driven-design-and-orchestration-platform.md]].
+
+### And the work it triggers
+
+- **A new set of regulations for how the Passport and RIS should work**, produced from a Monday-Sept-14 working meeting's transcript: [[wiki/decisions/2026-09-11-new-regulations-for-the-passport-and-ris-talked-out-monday-and-converted-from-the-transcript.md]]. Val was explicit that his own pass stopped one step short — prose, a shallow architecture design, capabilities, "но не дошел до регламента" [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]].
+- **None of it goes into RAGE Studio**; it lands on the OMNI platform, and back-ports are chosen only after the capabilities exist: [[wiki/decisions/2026-09-11-no-changes-in-rage-studio-everything-lands-on-omni.md]].
+- **The frame for the whole exercise:** "сегодняшняя система… построена, правильно. По требованиям, которые были на тот момент, когда мы её строили. Но требования радикально поменялись" — the system is built correctly for the requirements of its time; the requirements changed. No retrospective fault-finding [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]].
+
+### What it does and does not settle
+
+It is a **third** position on the Passport, and it matches neither of the two already on this page. Lucky Coin was told the feature should be removed; Diamond was told it cannot be removed from the current platform and dies with the next one; internally on Sept 11 the instruction is that it is **preserved** and only its use changes. **None of the three sources mentions either of the others, and nothing here reconciles them** — the Sept-2 / Sept-10 pair above stands as recorded [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]] [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]] [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]].
+
+**§15.8:** clear — product control design and market context only; no named-person compensation.
+
 ## Open questions
 
+- Whether the **Sept-11 "preserve the Passport" direction** and the **Sept-10 promise to an operator that the new platform "will not have it"** are the same plan or two different ones. Sept 11 keeps the bindings and changes their use; Sept 10 says the lock goes away with the platform. Neither source refers to the other. [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]] [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
 - How a **not-yet-JVL-customer new owner** gets any RIS benefit on a machine that has been off the floor for months, without JVL granting server access it does not want to grant (legal-liability concern) — discussed, not resolved. [[raw/RIS Modernization & Operator Flexibility Alignment.md]]
 - Whether **participation** machines (Florida, Colombia) fit the invoice/licensing model — carried over unresolved from the Apr-3-2025 session. [[raw/ris_business_central_integration-april-3-2025.md]]
 - Whether **location personnel** (and tips) can influence a sold machine's RIS configuration, or whether full control passes to the operator once the machine is sold — flagged undecided Jul-8-2026. [[raw/Meeting_Notes_RIS_Persona_Roles_Engineering_Review-July-8-2026.md]]
@@ -89,3 +152,7 @@ The [[wiki/meetings/2026-09-02-lucky-coin-service-and-upgrade-offer.md|Sept-2 Lu
 - [[raw/Meeting_Notes_RIS_Persona_Clarity-July-8-2026.md]]
 - [[raw/Meeting_Notes_RIS_Persona_Roles_Engineering_Review-July-8-2026.md]]
 - [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]
+- [[raw/Meeting_Notes_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- [[raw/Meeting_Notes_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]]
+- [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]]

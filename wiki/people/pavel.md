@@ -4,8 +4,8 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 131
-open-commitments: 36
+source-count: 138
+open-commitments: 43
 open-questions: 0
 ---
 
@@ -457,6 +457,56 @@ Two exchanges worth keeping for the working relationship. Pavel, on being told h
 - [ ] Create the three placeholder features under capability 165 and a separate capability for the wallet transfer — due unspecified — [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 - [ ] Record the Flex-Port SAS testing as two separate items (JVL machines / other suppliers' machines) — due unspecified — [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 
+## Sept 10 2026 — he chairs the transactional planning call, and sets the order of work
+
+Pavel called and ran the [[wiki/meetings/2026-09-10-capability-requirements-workflow-and-mvp-split.md|Sept-10 2026 5:31 AM transactional call]] (Russian, 25 minutes, no Val). He opened it with the purpose — optimise development so the most work is done in the least time and the result is cheap to test — and spent it setting sequence and filing rules. [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+
+- **He restated the capability → requirements → features chain as already agreed**, with the caveat attached: it only works where all the capabilities and their requirements are written, otherwise "у нас возникает дыра, которая не будет закрыта автоматическими тестами." His sufficiency bar is ~80%. Full text on [[wiki/decisions/2026-09-10-requirements-come-first-and-the-recycler-is-out-of-both-mvps.md]] and on [[wiki/topics/test-automation-strategy.md]] (Sept 10). [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- **He overruled [[wiki/people/andrey-bosik.md|Bosik]] on the order of work** — MVP split is step three, requirements step two: "[н]у это это это 3 шаг[;] 2 шаг это всё[-]таки рекла[мен]с." [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- **He ruled the Flex-Recycler out of both MVPs** — "[р]исай[к]лер это не MVP один и не MVP 2 даже" — against Bosik's argument that it belongs in transactional scope because it too has a Wi-Fi module. [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- **He set the MVP dates:** MVP 1 by October 1, MVP 2 by November 1, with November 1 likely moving to October 21 for the next Georgia expo. [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- **He deferred the requirements-ownership question rather than answering it**, routing [[wiki/people/dmitri-chudinov.md|Chudinov]]'s objection about business-vs-engineer requirement writing into a voice walkthrough with [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — "[д]а[,] [Д]има[,] хороший вопрос." [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- **He took the fix versions himself**, and named what a capability review must produce: what you disagree with, what is missing, the obvious errors, and where requirements are linked, inadequate or absent. See [[wiki/decisions/2026-09-10-per-product-components-and-mvp-fix-versions-on-the-capability-project.md]] and [[wiki/decisions/2026-09-10-capability-review-feedback-goes-into-the-meeting-chat.md]]. [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- **He redirected the Sept-9 Bosik/Kovalchuk planning delegation** to capability review instead — "мне кажется, сейчас вот я подумал… [н]ам на текущий момент как раз нужно… [д]ругая работа." See [[wiki/decisions/2026-09-09-planning-handed-to-bosik-and-kovalchuk-with-daily-recorded-sessions.md]]. [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+
+## Open commitments (Sept 10 2026)
+
+- [x] Pavel Frolov — create the MVP 1 and MVP 2 fix versions in Jira — due September 10 2026 — **discharged Sept 11 2026**: two releases, Transactional MVP 1 (Oct 1) and Transactional MVP 2 (Oct 30), created in the product-capability space — [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [ ] Pavel Frolov — call a meeting with [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] the same day to walk through every capability by voice and agree the requirements, including who writes them — due September 10 2026 — [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- [ ] Pavel Frolov — hand a version of FlexPay and FlexPort to Andrei Klimovich so he can install it on his own devices and test — due about a week out (Irina's marker: after the 18th) — [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+
+## Sept 11 2026 — he brings the releases to the Friday meeting, defines MVP 1, and takes the weekend
+
+Pavel is the reason the [[wiki/meetings/2026-09-11-transactional-mvp1-scope-and-priorities.md|Sept-11 8:04 AM call]] happened — [[wiki/people/andrei-klimovich.md|Klimovich]] convened it "[п]о просьбе Павла" — and it is the Friday schedule meeting Val booked on Sept 9. [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+
+- **He arrived with the work done.** Two releases created and dated — "транзакш[е]н MVP один и транзакш[е]н [M]VP 2… [окто]ба 1 и [окто]ба 30" — capabilities already being linked to MVP 1 and features created underneath. That discharges both Sept-9 commitments on [[wiki/decisions/2026-09-09-first-transactional-installation-planned-for-october-1.md]] and the Sept-10 fix-version commitment above. [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **He gave MVP 1 its definition:** "MVP один работает через линкед[ ]этот самый нетворк… [и] на лакейш[н]е может стоять один киоск, либо IQ, либо flexpay[,] всё, а всё остальное идёт в M[V]P 2." [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **He supplied the answer that beat Klimovich's card-splitting proposal** — issue one card at $1,000 and leave the remainder on the player's ticket. See [[wiki/decisions/2026-09-11-one-card-at-a-thousand-dollars-and-the-rest-stays-on-the-ticket.md]]. [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **He set the work split:** Chudinov on Flex IQ, [[wiki/people/alexander-biratka.md|Biratka]] on Flex-Port and porting into FlexPay, [[wiki/people/sergey-tsymanov.md|Tsymanov]] on the FlexPay server side. [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **He named machine compatibility as the live MVP-1 risk** — Flex-Port compatibility implemented for some cabinet models and not others, possibly needing per-cabinet work after MVP 2 — and made the Georgia VPN a hard dependency of the compatibility-testing window: "нам к этому времени 100% нужно… VPN в Джорджия офис." See [[wiki/projects/georgia-market-rollout.md]] (Sept 11). [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **He laid out the three-step firmware-distribution staging** and held USB update of the Flex-Ports as the absolute fallback. See [[wiki/decisions/2026-09-11-mvp1-boundary-bill-escrow-and-pin-out-remote-update-and-master-device-in.md]]. [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **He proposed the weekend work and took it himself too.** Chudinov Saturday and Sunday on the Flex-Port / Flex-IQ services and card activation on the e-wallet path, "не за… выходной день, а за дополнительные деньги"; Pavel on Flex-Port and the bill-validator question. [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+
+## Sept 11 2026 (9:30) — he identifies the regulatory hole in remote game updates
+
+Twenty minutes after the transactional call, on the [[wiki/meetings/2026-09-11-nova-game-change-regulatory-procedure.md|NOVA game-change call]], Pavel supplied the substance of the meeting. He corrected [[wiki/people/juan-martinez.md|Juan Martinez]]'s belief that Georgia uses no bin file — it does, once, at submission, and [[wiki/people/ivan.md|Ivan]] sends it — explained that the Georgia bin file carries only SAS-operation data and "**is not directly relates to game sets**", and drew the consequence: "**if we are releasing a new game, but we do not change anything related to local gaming server or data center… adding a new game will not change a bin file. And in this approach, Lottery will not know anything about new games. That could be a problem.**" Juan agreed that is the core of the regulatory issue. See [[wiki/decisions/2026-09-11-the-game-change-question-goes-to-gli-as-a-paid-consultation.md]]. [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]] [[raw/Meeting_Notes_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]]
+
+## Sept 11 2026 (10:33) — he misreads the field complaints, and supplies the constraint that matters
+
+At the [[wiki/meetings/2026-09-11-technician-complaints-and-new-capabilities-workshop.md|10:33 AM technician-complaints workshop]], the third meeting of his morning, Pavel read Val's complaints document and drew the wrong conclusion from it — that technicians dislike remote and network setup and would rather work manually ("Технином не нравится то, что всё таки у нас есть ремонт и нишевал setap, что они бы лучше бы работали вручную"). Val rejected it twice, flatly [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]].
+
+- **What he contributed instead was the implementation constraint nobody else raised:** a passport update today can only be performed by people entered in JVL's CMS, so moving to the new CMS implementation means "мы должны давать оператору назначать людей, которые могут это делать" — the operator must be allowed to nominate who may do it. Val accepted it. See [[wiki/decisions/2026-09-11-the-passport-is-preserved-and-jvl-is-using-the-bindings-wrongly-in-this-market.md]]. [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]]
+- **He also pushed back on the "nothing into RAGE" rule and got a sequence rather than a no** — his example being the ancient black-screen "device not found" message, which could name the IO board or counter board at about half an hour of work. Val's answer: back-ports get chosen after the new capabilities exist. See [[wiki/decisions/2026-09-11-no-changes-in-rage-studio-everything-lands-on-omni.md]]. [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]]
+- **He is named to the Monday Sept-14 9:30 working meeting** on the new Passport/RIS regulations, and asked to think it through over the weekend — on top of the weekend Flex-Port work he had already taken. See [[wiki/decisions/2026-09-11-new-regulations-for-the-passport-and-ris-talked-out-monday-and-converted-from-the-transcript.md]]. [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]]
+
+## Open commitments (Sept 11 2026)
+
+- [ ] Pavel Frolov — think through how he sees the new Passport/RIS capabilities, and attend the Monday working meeting — due Sept 14 2026, 9:30 — [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]]
+- [ ] Pavel Frolov — finish linking capabilities to MVP 1 and MVP 2 and creating the features underneath — due week of Sept 14 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]] [[raw/Meeting_Notes_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [ ] Pavel Frolov — work the weekend on Flex-Port and establish whether the bill validator can be disabled through SAS when a location is blocked — due Sept 12–13 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [ ] Pavel Frolov — move the Flex-Port remote-firmware-update capability so the master-device half sits in MVP 1 — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [ ] Pavel Frolov — move the Flex and FlexPay capabilities into the E-wallet Operations initiative and rename the bucket off "FlexPort", which Val called too narrow — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
@@ -592,3 +642,10 @@ Two exchanges worth keeping for the working relationship. Pavel, on being told h
 - [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 - [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- [[raw/Meeting_Notes_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [[raw/Meeting_Notes_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]]
+- [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]]

@@ -3,7 +3,7 @@ type: topic
 title: JVL machine and cabinet lineup
 date: 2026-07-12
 aliases: [Flex cabinets, Altera, Maple, Echo, Flex S, Flex C, Flex V42, Flex V42/C, cabinets, VLT, video lottery terminal, Flex SD27, V43, C10-VLOT-TERM-RU, Epic 950, FutureLogic, FlexPort, FlexPay, Nico, Miranda, Omni, Florida Ruta, CPU kit, coffin, iOBoard, Bally iview, Diamondlink, nano-optics, JCM, dual SAS, HAL, FireEyes Wink, Dragon Supreme, Calle Ocho, Maneki-neko, HG-6, kiosk, Incom, TITO, SMIB, SAS server, La Rosa, El Jaguar, Golden Husk, 5X Peppers, Cold Cash, Pink Princess, Jungle Jaguar, Dutch Mill, Crazy Spins, Midnight Money, Spicy Fruits, Clover Fortune, Jinji Du Li, Cash Kittens, Rosita's Cantina, Estilo Bling, Kaiju Omni, C43, Curve 43, Mars X, D2703]
-source-count: 42
+source-count: 44
 ---
 
 # JVL machine and cabinet lineup
@@ -176,6 +176,17 @@ The first end-to-end description of the **Mega Hit Games** cabinet in front of a
 - **Units are already in the field on test.** "**We have several units already in the market for field test. They're doing phenomenal. I would really like you guys to see it for yourself. Install a few of those in different locations. I would strongly recommend.**"
 - **Price and the 10-vs-15-game trade-off** — a cheaper ten-game build exists but loses the remote game-swap, which Felipe argued against at "**only a two hundred and fifty dollar price for a game**" — are on [[wiki/topics/jvl-machine-pricing-strategy.md]].
 
+## The new vertical machine, as described to a customer (Sept 10 2026)
+
+The fullest product description of the machine going to Eclipse on **Sept 15 2026**, given by [[wiki/people/val-levitan.md|Val]] at the [[wiki/meetings/2026-09-10-diamond-amusements-machine-performance-and-bundle-pilot.md|Diamond Amusement visit]]. [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+- **Three separate progressives on one machine, aimed at three player types** — the feature Val leads with: "**This game is extremely unique because it will offer three unique progress[ives]. So progress[ives] usually on a machine [are] one at a time. This one has three unique progress[ives]. So when you place your machine in [a] location, it will target three different categories of players**": an "**aggressive, high volatility player**"; a "**time on device**" player who likes "**to dribble**"; and a "**chase progressive, which is like your link… type of progressive.**" Mechanics on [[wiki/topics/slot-game-design-principles.md]]. [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- **Fifteen games, and it is a Mega Hit variant.** Asked "Is this a Mega Hit?" — "**It's a variation of it. It's the last version. We're adding also a bison game, like a buffalo type of a game, and we're adding another lion's game, which is extremely popular for us. So in total, you'll have 15 games.**" *(The bison and lion titles are described, not named. The corpus carries **Twin Bison** and **Lion's Riches** as JVL titles; the source does not make either connection and **neither is asserted**.)* [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- **Vertical cabinet, not dual screen.** "**No, it's [a] different cabin[et]. Vertical, vertical instead of dual screen.**" [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- **An LTE modem is standard on it.** "**the new machines come with LTE modem**" — the fleet-wide fitment ruled on [[wiki/decisions/2026-08-21-cell-modem-on-every-machine-from-september-1.md]]. [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- **And the whole transactional stack updates itself over the air.** "**this is fully downloadable, so we don't have to run to a location and reinstall it**"; a download can run "**in the background while somebody's still playing**", or overnight — "**doesn't matter**." Applied across the family: "**the AFT units will upgrade the firmware. The POS will upgrade the firmware. The kiosks will upgrade the** [firmware]. **It has that integrated into all.**" [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- **A customer-side naming convention for the existing cabinets:** "**if it's… G27, it's dual screen. If it's the G43**…" *(Spoken as G27/G43 by a Diamond technician; this page carries them as **D27** and **V43**. Recorded as spoken; no correction asserted.)* [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
 ## Cabinet lineup ruled for the next three years (Sept 4 2026)
 
 Set by Val at the [[wiki/meetings/2026-09-04-naming-convention-standards-and-nova-conversion.md|Sept-4 afternoon game-development meeting]], and confirmed point by point with Michael Gottlieb and Lena Zhukova. Full decision on [[wiki/decisions/2026-09-04-d27-discontinued-curve-c43-premium-line.md]] [[raw/Meeting_Notes_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]].
@@ -240,3 +251,5 @@ Set by Val at the [[wiki/meetings/2026-09-04-naming-convention-standards-and-nov
 - [[raw/games_design-june-12-2025.md]]
 - [[raw/Metering_class_3-june-17-2025.md]]
 - [[raw/Meeting_Transcript_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
+- [[raw/Meeting_Notes_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]

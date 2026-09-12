@@ -4,8 +4,8 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 68
-open-commitments: 9
+source-count: 73
+open-commitments: 13
 ---
 
 # Irina Shishko
@@ -207,6 +207,43 @@ On the [[wiki/meetings/2026-09-09-september-resource-plan-and-flex-port-readines
 - [ ] With [[wiki/people/alexei-khamin.md|Alexei Khamin]] — review Bosik's generated requirements and grade how much of the scope they cover — due before the Bosik/Kovalchuk session — [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 - [ ] With Khamin — write the negative cases up as acceptance criteria in parallel with the positive-case work — due unspecified — [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 
+## Sept 10 2026 — she works the certification schedule backwards, and owns the capability tagging
+
+At the [[wiki/meetings/2026-09-10-capability-requirements-workflow-and-mvp-split.md|Sept-10 2026 5:31 AM transactional call]]. [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+
+- **She pushed the schedule so nobody relaxes.** After the 18th they want a version to hand [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] to install on his own devices — "[п]осле 18 числа… мы хотим иметь какую[-]то версию, которую мы можем отдать [А]ндрею, чтоб он начал ставить у себя на девайсах и смотреть, что получается." [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- **Then she worked backwards from the field deployment on the 1st.** About a week for [[wiki/organizations/eclipse-gaming-lab.md|Eclipse]] to issue certificates "если они только нами занимаются", plus about a week for the machine's own certification — "неделя на сертификацию[,] значит[,] 24 мы должны максимально отдать машину[,] туда[,] даже если мы это не сертифицируем." [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- **But the premise is shaky and she said so.** Asked by [[wiki/people/andrey-bosik.md|Bosik]] whether this is certified at all, she answered "[в]роде сказали[,] да[,] какие[-]то се[ртификаты]… не знаю[,] почему[-]то вам сказал[и;] может быть[,] это он просто ошибся." Carried as an open question on [[wiki/decisions/2026-09-10-requirements-come-first-and-the-recycler-is-out-of-both-mvps.md]]. [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- **She named the filing problem** that produced the components decision — "[в]от это вот очень неудобно, что все эти… требования[ и капа]билити в одной куче свалены" — and took the tagging work, about an hour out because she was on something else. See [[wiki/decisions/2026-09-10-per-product-components-and-mvp-fix-versions-on-the-capability-project.md]]. [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+
+## Open commitments (Sept 10 2026)
+
+- [ ] Irina Shishko — post the component list into the meeting chat, then tag the capabilities with their components — due September 10 2026, about an hour after the components exist — [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+
+## Sept 11 2026 — she fixes the sorting criterion, settles the acceptance-criteria rule, and will not let the status question go
+
+Irina was in both Sept-11 meetings. In the [[wiki/meetings/2026-09-11-transactional-mvp1-scope-and-priorities.md|8:04 transactional call]] she made three interventions that shaped the outcome. [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+
+- **She corrected the MVP-1 sorting criterion on the spot:** "мвп один это то, что мы должны к 1 октября сделать, а не потому, что его понял или не понял Паша" — the deadline sorts it, not anyone's comprehension. [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **She settled the capability-versus-regulation question** that had stalled Bosik's Wi-Fi clean-up: "акцепт[анс] критери[и] только в [регламента]х живут[;] cap[abi]l[i]t[y] это просто общее описание… [о]ни в [регламентах], которые никуда не деваются, остаются жить." [[wiki/people/dmitri-chudinov.md|Chudinov]] accepted it and said he had not known. See [[wiki/decisions/2026-09-11-acceptance-criteria-live-in-the-regulations-not-the-capabilities.md]]. [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **She asked, twice, who moves a capability to In Progress and when** — "[и]н[ ]прогресс кто переведёт?… [и] в какой момент?" — refusing the answer that somebody sits and watches. That pressure is what produced [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]]'s automation offer. See [[wiki/decisions/2026-09-11-accepted-means-reviewed-taken-into-work-is-the-move-to-to-do.md]]. [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **She stated the priority order** — "[м]ашина[,] порт[,] айкью", then "машина[,] порт[,] [пэй]", both before October 1 — before Val's later ruling narrowed October 1 to Flex IQ alone; and she is the one who put that narrowing into words for the record. [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **She got the Eclipse scope answered:** asking whether the machine alone is certified through Eclipse, Val answered "[т]олько машину" — closing her own Sept-10 open question. See [[wiki/organizations/eclipse-gaming-lab.md]]. [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **She has no edit rights for release names in the tool** — "я хотела сделать, а у меня нет прав" — and had the release renamed to put "Transactional" first. [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **In the [[wiki/meetings/2026-09-11-nova-game-change-regulatory-procedure.md|9:30 regulatory call]]** she made the software-side version of Pavel's point: everything is connected and a game the Lottery did not know about cannot simply be added — "[к]ак бы каждый софт с этим соединён[,] нельзя просто так добавить игру… не знал лот[е]ри[я] об этом." [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]]
+
+### Sept 11 2026 (10:33) — one line, and it is the framing line
+
+She was also in the third meeting of the morning, the [[wiki/meetings/2026-09-11-technician-complaints-and-new-capabilities-workshop.md|technician-complaints workshop]], where she says almost nothing. Her one substantive contribution reframes what a complaints list is: with Val explaining that the market's demand is not defined but the market's irritations are, Irina supplied the category — "**Требования чего не должно быть**" — requirements for what must *not* be there. Val's own line either side of it: "запроса рынка сегодня не дефайнд. Но на рынке есть комплей[нты], что им уже не нравится" [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]].
+
+She is named to the Monday Sept-14 9:30 working meeting on the new Passport/RIS regulations and asked to think it through beforehand — see [[wiki/decisions/2026-09-11-new-regulations-for-the-passport-and-ris-talked-out-monday-and-converted-from-the-transcript.md]] [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]].
+
+## Open commitments (Sept 11 2026)
+
+- [ ] Irina Shishko — think through how she sees the new Passport/RIS capabilities, and attend the Monday working meeting — due Sept 14 2026, 9:30 — [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]]
+- [ ] Irina Shishko — schedule the automated-test features for the e-wallet use cases and assign them, with [[wiki/people/alexei-khamin.md|Alexei Khamin]] as the named owner — due week of Sept 14 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [ ] Irina Shishko — request edit rights for release names in the tool — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
@@ -277,3 +314,8 @@ On the [[wiki/meetings/2026-09-09-september-resource-plan-and-flex-port-readines
 - [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
 - [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 - [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- [[raw/Meeting_Notes_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]]
+- [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]]

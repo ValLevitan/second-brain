@@ -2,8 +2,8 @@
 type: project
 title: South Dakota VLT market entry
 date: 2025-01-22
-aliases: [South Dakota, SD VLT, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950, V43, D27, SD cap, Bioliches, Gypsy Spirit, Crazy Colt, Queen of Luxor, Liberty Spin, Rodeo Spin, South Dakota vertical, MG Oil report, VLT2, Cool Cat, Black Hills Kino, Dragon Pace, Dakota Bison, Solar Keno, Keno Deluxe, IP459, IP1063]
-source-count: 39
+aliases: [South Dakota, SD VLT, South Dakota VLT 3, VLT3, South Dakota D2703, IP1180, IP887, IP1131, IP1137, GD918, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950, V43, D27, SD cap, Bioliches, Gypsy Spirit, Crazy Colt, Queen of Luxor, Liberty Spin, Rodeo Spin, South Dakota vertical, MG Oil report, VLT2, Cool Cat, Black Hills Kino, Dragon Pace, Dakota Bison, Solar Keno, Keno Deluxe, IP459, IP1063]
+source-count: 43
 open-commitments: 4
 ---
 
@@ -229,6 +229,40 @@ At the [[wiki/meetings/2026-09-04-naming-convention-standards-and-nova-conversio
 - **No move to 4K.** Lena asked twice for confirmation; Val: "There's absolutely zero reason right now to move to 4K… There's 0 benefit."
 - **§15.8:** clear — product/market content only; no named-person compensation.
 
+## Sept 11 2026 — how South Dakota is told a game changed: a bin file to Lonnie
+
+At the [[wiki/meetings/2026-09-11-nova-game-change-regulatory-procedure.md|Sept-11 9:30 AM regulatory call]] [[wiki/people/juan-martinez.md|Juan Martinez]] stated the South Dakota submission mechanic plainly, as the **known** case against which Georgia is unclear:
+
+> "**for South Dakota, we need to give Lonnie a bin file which contains all the new game information so he can enter it into the [Psy Games] host system**" — and "**there's always going to be a new bin file when we submit an entirely new package.**" [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]]
+
+*("Psy Games" is exactly as the transcript renders the host-system vendor. The derived notes read it as Sci Games — see [[wiki/organizations/scientific-games.md]] — but the reading is **not** asserted here and is queued for confirmation.)* [[raw/Meeting_Notes_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]]
+
+**Juan also asked, and nobody answered, whether the Georgia bin file is smaller than the South Dakota one** "**because South Dakota contains more information**" [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]]. The Georgia half of the same problem is on [[wiki/organizations/georgia-lottery-corporation.md]]; the ruling it produced is [[wiki/decisions/2026-09-11-the-game-change-question-goes-to-gli-as-a-paid-consultation.md]].
+
+## Sept 11 2026 (1:00 PM) — "2 South Dakotas that look basically the same", and the VLT version number that does not match the owner's ruling
+
+At the [[wiki/meetings/2026-09-11-rage-sunset-and-class-a-on-nova.md|Sept-11 1:00 PM game-development call]] the two South Dakota tracks were separated explicitly, because Val had been reading them as duplicates in Jira. Full Jira record on [[wiki/decisions/2026-09-11-ip-887-renamed-v43-and-kept-in-backlog-not-retired.md]]. [[raw/Meeting_Notes_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+
+- **The two tracks, in [[wiki/people/michael-gottlieb.md|Michael]]'s words.** "**Val is looking at 2 South Dakotas that look basically the same and they're not. One's the Nova D27 and the other one's the Rage V43, which we just recently decided we're not going to pursue**"; and the disposal path: "**South Dakota VLT, V43 Rage is going to migrate, the games are going to migrate into the D27 South Dakota Nova.**" The "last week" decision he refers to is the [[wiki/meetings/2026-09-04-naming-convention-standards-and-nova-conversion.md|Sept-4 call]] above. [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+- **The first NOVA release is South Dakota on dual screen.** Michael: "**we finished up NAD D2702 and then South Dakota D2703, which is our first Nova release.**" [[wiki/people/lena.md|Lena]]: "**our first release [i]n No[va] was scheduled for dual screen. So… first we're going to release South Dakota and after that only we can start**" the Georgia Class A NOVA work. [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+- **Michael's own concept work.** "**I'm working on the K[eno]s right now, which I should be finishing up today. And then I was going to basically go into the rest of the games… progressively game after game.**" [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+- **Design work already banked and awaiting migration:** **Dakota Bison** — "**IP 1131 is an entire game that Lena and I designed that we're going to migrate to D27 Nova for South Dakota, Dakota Bison. It's a game we specifically designed for South Dakota that only exists in IP 1131 right now**"; a **Keno game** that "**has to migrate into the Nova 1180**" and must be redone for dual screen; **Cool Cats** material under **IP-1137 → GD-918**; and a game Lena named as "solar key" whose design "**was done… more than months ago**" *(read by the wiki as **Solar Keno**, the SD title above — an inference, not the source's word)*. [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+
+### The version-number question — recorded, not resolved
+
+This source names the NOVA South Dakota product **"VLT 3"**, twice and unambiguously:
+
+- Lena: "**we are planning on 1st Nova is South Dakota V[LT]3**"; Val, accepting the term: "**since we're on South Dakota VLT3…**"
+- Lena again, on the Jira item: "**IP 1180, it's for South Dakota VLT 3, which will be designed in Nova, so we created like separate IP for this.**"
+- And a third designation for the old vertical item: "**IP… 1137, which is South Dakota VLT V1 Cool Cats**" (Val).
+[[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+
+**This does not match the owner's ruling of 2026-09-01**, which names the first NOVA product **South Dakota VLT-2** ([[wiki/decisions/2026-09-01-first-nova-product-south-dakota-vlt-2.md]]). Two readings are possible and **neither is chosen here**: (a) same product, and the room is saying a different digit from the owner; or (b) genuinely different releases — VLT-2 being the RAGE build submitted to GLI on ~Sept 1–3 2026, and "VLT 3" the next one, which is the NOVA one. Note that reading (b) would still leave the owner's ruling and this source disagreeing about *which* is "the first NOVA product". **Queued for the owner; the wiki asserts no version digit of its own.**
+
+*(Separately: the §4 owner ruling that "South Dakota VLT-2" is canonical governs the garbles of "South Dakota" — SALTA, Salta Cota, «салта кота». It is **not** engaged here: this source renders "South Dakota" cleanly and the disagreement is about the version number, which is a different question.)*
+
+**§15.8:** clear — product and tooling content only.
+
 ## Open commitments (Sept 4 2026)
 
 - [ ] [[wiki/people/juan-martinez.md|Juan Martinez]] — evaluate and confirm which games go into South Dakota D2703, including whether to add Fiery Ice Link and Jackpot Rush — due unspecified — [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
@@ -284,3 +318,7 @@ At the [[wiki/meetings/2026-09-04-naming-convention-standards-and-nova-conversio
 - [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
 - [[raw/Meeting_Notes_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
 - [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+- [[raw/Meeting_Notes_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]]
+- [[raw/Meeting_Notes_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+- [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]

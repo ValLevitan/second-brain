@@ -2,10 +2,10 @@
 type: decision
 title: Insert a "capability" level in Jira as the executive-demonstrable unit mapped to GitHub feature branches
 date: 2025-04-03
-aliases: [capability level, Jira capabilities, capability vs feature, GitHub Jira mapping, feature branch capability, repository is a product, repository is an artifact, no test no pull, one week feature branch, capabilities bundle of features]
-source-count: 24
+aliases: [capability level, Jira capabilities, per-product components, capability project components, MVP fix versions, hang the capability on the product project, capability vs feature, GitHub Jira mapping, feature branch capability, repository is a product, repository is an artifact, no test no pull, one week feature branch, capabilities bundle of features]
+source-count: 25
 status: active
-open-questions: 2
+open-questions: 3
 ---
 
 # Insert a "capability" level in Jira as the executive-demonstrable unit mapped to GitHub feature branches
@@ -158,14 +158,26 @@ At the [[wiki/meetings/2026-09-09-september-resource-plan-and-flex-port-readines
 
 Val's part in the exchange was to ask for it to be saved and to wonder aloud whether Claude could take the conversation and write the features from it: "если я сейчас с[э]йф вот этот диалог, который вы с Ириной имели… [К]лод… пишет фьючерс, который вы сможете оценить, или это будет бесполезно?" Pavel's answer was that the features had not been discussed yet and would have to be talked through with Claude and written up [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]].
 
+## Sept 10 2026 — the capability project gets components, and the fix-version route is built
+
+The day after the Sept-9 exchange above, the same group met without [[wiki/people/val-levitan.md|Val]] at 5:31 AM and turned the complaint into a scheme: [[wiki/meetings/2026-09-10-capability-requirements-workflow-and-mvp-split.md]]. Full ruling on [[wiki/decisions/2026-09-10-per-product-components-and-mvp-fix-versions-on-the-capability-project.md]].
+
+- **The failure mode named.** The capability project has grown into one undifferentiated pile filterable only by reporter — [[wiki/people/irina-shishko.md|Irina Shishko]]: "[в]от это вот очень неудобно, что все эти… требования[ и капа]билити в одной куче свалены" — and the capability text alone does not say which product it belongs to: [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]], "читаешь[,] там[:] контроллер работает[; в]от к чему это [капа]билит[и] идёт[?]" [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]].
+- **The fix: per-product components on the capability project** — FlexPay, Flex-IQ, FlexPort and a Terminal Hub — with cloud services deliberately not split out. [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] confirmed none exist yet and must be created: "[и]х нету[,] [П]аш… [и]х надо создать[,] в проекте кап[…]" [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]].
+- **The rule for where a capability hangs**, which is the piece this decision had never stated: on the **product project**, with the repository chosen afterwards by the engineers — Chudinov: "лучше вешайте [капа]билити на… проект[ —] это флекс[-]а[й]кю [ли]бо флекспей[,] а дальше уже… [и]нженеры решают, на каком репозитории надо" [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]].
+- **Fix versions are being created for MVP 1 and MVP 2** by [[wiki/people/pavel.md|Pavel Frolov]] himself — "надо будет завести как минимум MVP один[,] MVP 2[,] транзакш[е]н[ ]один[,] транзакш[ен] 2" [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]. That is Pavel's Sept-9 proposal entering execution; Irina's rival proposal (use the capability status) is not mentioned in this source and is not recorded as withdrawn.
+- **One new mechanical unknown:** whether a capability can carry more than one component. Pavel asked, Irina did not know [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]].
+
 ## Open questions
 
 - **Restructure Jira per the May-5–6 direction?** Should **capability** replace the product-line level, the **initiative become the product**, and the top levels (value stream / initiative / product) move into **Jira Product Discovery** projects? Direction agreed in principle, no ruling; a graph + refactor plan deferred. — [[raw/feature_granularity_definition_aaron-may-5-2025.md]] [[raw/feature_defining_jira-may-6-2025.md]] [[raw/feature_reflection_jira-may-6-2025.md]]
 - **RESOLVED (Sept 2025) — flatten GitHub to one organization, or keep many orgs?** Was long unresolved: Aaron pushed hard to **flatten all repos into one org** with a naming convention (e.g. `framework-omni-renderer`), citing Block/Square keeping ~30 repos in one space, and warned Val's per-org control is "a precarious knife edge." Val **refused to flatten** — he could not achieve executive alignment without the org/concern structure — but conceded there were "too many orgs" and people were committing into an unvetted new org ("wild west"). The **Sept 9–16 2025 git-repo-structure arc closes this**: JVL is consolidating its ~11 organizations down to **~2**, with a new kebab repo-naming taxonomy and a per-repo migration plan — decided and entering execution as of Sept 16. Tracking follows this decision's own two-camp split: **one story per repo** at the GitHub/low level, the feature-level in Jira. See the sequencer on [[wiki/decisions/2025-02-11-github-org-naming-and-structure.md]]. [[raw/git_repo_structure.md]] [[raw/git_jira_correlation-april-1-2025.md]] [[raw/gut_hub_jira_relationship-april-2-2025.md]]
-- **How are MVP 1 and MVP 2 separated in Jira?** Raised Sept 9 2026 and explicitly left open: Pavel wants global fix versions on the capability project named per product ("флекспорт 1.0"); Irina wants to use capability status. Pavel: "рано или поздно нам это придётся обсуждать и принимать решения." The interim measure is to push later capabilities down the graph and treat everything above the marker line as release 1. — [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]] [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- **How are MVP 1 and MVP 2 separated in Jira?** Raised Sept 9 2026 and explicitly left open: Pavel wants global fix versions on the capability project named per product ("флекспорт 1.0"); Irina wants to use capability status. Pavel: "рано или поздно нам это придётся обсуждать и принимать решения." The interim measure is to push later capabilities down the graph and treat everything above the marker line as release 1. **Update (Sept 10 2026):** Pavel took his own route into execution — he undertook to create MVP 1 and MVP 2 fix versions the same day, and the group added per-product components as the complementary filter. Irina's status proposal is not mentioned in the Sept-10 source and is not recorded as dropped, so the question is **narrowed, not closed**. — [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]] [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]] [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- **Can a single capability carry more than one component?** Raised Sept 10 2026 by Pavel Frolov; Irina Shishko did not know and nobody checked. Unanswered in the source. — [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
 
 ## Sources
 
+- [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
 - [[raw/git_jira_correlation-april-1-2025.md]]
 - [[raw/gut_hub_jira_relationship-april-2-2025.md]]
 - [[raw/github_jira_setup-april-3-2025.md]]

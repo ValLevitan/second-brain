@@ -3,7 +3,7 @@ type: decision
 title: Six Flex ports and a terminal free with every machine bought, at $90 a month per location — "I am buying my way in"
 date: 2026-09-02
 aliases: [buying my way in, six ports plus a terminal free, $15,750 machine, seven thousand dollars of discounts, ninety dollars per location, guinea pig offer, Lucky Coin offer, sixteen thousand dollar machine, rent or lease the units]
-source-count: 14
+source-count: 16
 status: active
 open-commitments: 1
 open-questions: 4
@@ -115,6 +115,43 @@ The same day the bundle went to three counterparties, across nine hours. **Both 
 
 At the end of the Rao meeting Val stopped the thread the whole session had been built on: "we all got **laser focused on packaging the deal**. But for a guy like [Rao], he **does not necessarily need to package the deal**… If an operator doesn't want to buy a machine and he wants to buy ports and… that's fine." He returned to it — "**we don't have to force the marriage between the two. We can absolutely sell it as a standalone unit**" — and put it to the room in the recording's closing seconds: "**Are we all in agreement that we don't have to package the deal?**" **No answer is on the transcript**; the recording ends on Val's own "I will consider this package deal under the schools level" *(garbled, left as spoken)*. Recorded as an open question below; **the machine-purchase condition in this page's title is not withdrawn by any source.** [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]] [[raw/Meeting_Notes_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
 
+## Sept 10 2026 — another composition, the $90 comes back, and the API is free
+
+At the [[wiki/meetings/2026-09-10-diamond-amusements-machine-performance-and-bundle-pilot.md|Sept-10 Diamond Amusement visit]] the bundle was quoted again. **Two things change and one returns.** [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+| Date / counterparty | Composition as stated | Machine price stated | Monthly fee |
+|---|---|---|---|
+| **Sept 10 — [[wiki/organizations/diamond-amusement.md\|Diamond Amusement]]** | "**six AFT devices**" (one per machine, "on an average six machines") **+ a POS for the counter + a self-serve kiosk** — "**the entire set for your location**"; retail **$15,000** | "**so fifteen. Let's call it sixteen thousand dollars**" | **$90 flat per location** |
+
+**The offer, verbatim:** "**You buy one machine per location, so fifteen. Let's call it sixteen thousand dollars. I will give you my entire transactional equipment for that location for free. The entire set.**" And itemised on the spot: "it's **the AFT port for each machine. So on an average six machines**. It's **the POS that will sit on the counter**, and it's **a self-serve kiosk**… that **takes the money, issues a TITO-like ticket**, and then you could **validate it back inside of the kiosk and dispense the card**." Then: "**so I'll give you six AFT devices. I'll give you a POS, and I'll give you the kiosk.**" Asked the typical retail: "**Fifteen thousand.**" [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+- **The kiosk is back inside the free set, and the Flex-IQ and FlexPay are not named at all.** Sept 2 excluded the $5,000 kiosk explicitly; Sept 8 (ARC) and Sept 9 (Sloan) put a kiosk in; Sept 9 (Rao, Lucky Coin) itemised ports + IQ + Pay instead. Sept 10 is **ports + POS + kiosk**, with no product names used. **All compositions stand side by side; nothing reconciles them.**
+- **The $90 a month returns after a three-meeting absence.** All three Sept-9 customer meetings omitted a monthly fee. Here it is quoted flatly — "**90 per location**", "**flat per location**" — the sixth customer to hear the same number. And its exclusion is named: "**that doesn't include any kind of card or gift card processing.**" [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- **The $15,000 valuation is now stated as the *retail of the set*, not as arithmetic.** On Sept 9 Val reached ~$15,000 by adding items aloud; here it is answered as a price when the customer asks for one.
+
+### What the $90 does not buy — and the first time the API is priced
+
+The clearest split in the corpus between the free tier and the paid one: [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+> "**Ninety dollars does not include charges for the intelligence, the operator's intelligence. Right now we're giving it for free, but eventually we'll start charging for it.**"
+
+> "**we'll give you an API for free**, but **if you want us to provide you with intelligence, then it will cost**… if you want us to sit in the back and provide you with intelligence and reports and everything else [we'll charge]."
+
+- **The free-API line is new.** The operator-intelligence caveat was stated once before, to Dixie on Sept 8 ([[wiki/topics/machine-data-repurchase-program.md]]); **the API being free is not in any earlier source.**
+- **And Val told the customer to consume it through an MCP rather than the raw API** — the only place in the corpus where he gives an operator an integration recommendation: "instead of… API, **the best way to work with us is through an MCP, and you… use Anthropic or Grok through an MCP, and you have API calls on**… **makes it easy. But if you want to use us as a back office, then we'll charge you for it.**" It landed on an operator mid-way through an Oracle implementation who had just said he runs "**six or seven different software solutions**" (see [[wiki/organizations/diamond-amusement.md]]). [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+### What Val said he is actually buying
+
+Stated more plainly than anywhere else, immediately after the retail figure: [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+> "**I'm basically buying the exclusivity of issuing cards in the location.**"
+
+And, asked whether he is tied to a card provider: "**No, I'm agnostic, and my goal is to get into the card business, and that's why I'm buying your business**… **today, proactively, I'm buying a business. So I'm outfitting the location with everything that you need.**" That is the Sept-2 "I am buying my way in" and the Sept-8 "I'm basically buying the market" restated with the *object* of the purchase named for the first time — **the card-issuing right**, not the market share. He also repeated the standing offer to fit the product to the customer: "**I will customize the product to your liking. I will actually do things and the screens that you like for your operation.**" [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+**Outcome:** the customer took a pilot rather than the route — "**I'd like to try one**", then two machines in two location types ([[wiki/decisions/2026-09-10-diamond-buys-two-machines-instead-of-trading-the-fleet.md]]) — and refused the credit risk that comes with it ([[wiki/decisions/2026-09-10-diamond-will-not-guarantee-card-clearance-debt.md]]).
+
+**Neither of the extra-ports questions moves.** Diamond's six ports are sized "on an average six machines" exactly as at Lucky Coin, and **nothing is said about a seventh port or its price** — so the Sept-2 "a thousand dollars each" and the Sept-9 "you don't have to buy additional ports" remain unreconciled for a third meeting running. [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
 ## Open commitments
 
 - [ ] [[wiki/people/kyle-shepherd.md|Kyle Shepherd]] — decide on the offer. Val did not press for an answer on Sept 2 ("You don't have to give me the answer right now. You can consult your brother") and expected it at the Sept-9 visit. **At that visit Kyle still did not answer**, asked for a couple of hours, and agreed a date with Val — so this now runs against the larger [[wiki/decisions/2026-09-09-val-asks-lucky-coin-for-its-entire-business.md|Sept-9 offer]] — due **Tuesday Sept 15 2026** (was ~Sept 9) — [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]] [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
@@ -144,3 +181,5 @@ At the end of the Rao meeting Val stopped the thread the whole session had been 
 - [[raw/Meeting_Notes_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
 - [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
 - [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
+- [[raw/Meeting_Notes_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]

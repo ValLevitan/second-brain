@@ -4,8 +4,8 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 41
-open-commitments: 10
+source-count: 47
+open-commitments: 14
 open-questions: 0
 ---
 
@@ -192,6 +192,38 @@ At the [[wiki/meetings/2026-09-07-sas-aft-on-flex-port-and-remote-update.md|Sept
 - [ ] Produce an AFT command document for Flex-Port matching the earlier TITO/SAS document — due unspecified, high — [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [ ] Send Andrei Klimovich the link to the new barcode-activation Flex-IQ build, preferably on staging — due Sept 7 2026 — [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 
+## Sept 10 2026 — he raises the requirements-ownership objection, and settles where a capability hangs
+
+At the [[wiki/meetings/2026-09-10-capability-requirements-workflow-and-mvp-split.md|Sept-10 2026 5:31 AM transactional call]]. The speaker labels render his name "Dzmitry Chudzinau". [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+
+- **The objection, which is the sharpest thing said on the call.** Why should a reporter be able to file a capability with no requirements, and why should engineers stop their own work to fill his in: "можно сразу поднимать вопрос глобальнее, чтобы репортер не мог за[вод]ить cap[ab]iliti без рекла[мент]ов? В чём мы сейчас за него будем делать работу?… требования выносят[ся на] уровень бизнеса. Почему сейчас… [и]нженеры должны отвлекаться от своей работы и заполнять его работу." [[wiki/people/pavel.md|Pavel]] called it a good question and deferred it to a meeting with [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]. It is carried as an open question on [[wiki/decisions/2026-09-10-requirements-come-first-and-the-recycler-is-out-of-both-mvps.md]]. [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- **He asked what happens when nobody knows up front how to test something** — "[а] если никто изначально не знает, как это проверить?" — producing the ruling that the acceptance criterion is written in general terms. See [[wiki/topics/test-automation-strategy.md]] (Sept 10). [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- **He diagnosed the filing problem from outside:** either markers or consistent naming, because the capability text alone does not say which product it belongs to — "читаешь[,] там[:] контроллер работает[; в]от к чему это [капа]билит[и] идёт[?]" [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- **And he settled where a capability hangs,** which the group adopted: on the product project — Flex-IQ or FlexPay — with the repository chosen afterwards by the engineers, "и можно ли и возможно ли это изменять." See [[wiki/decisions/2026-09-10-per-product-components-and-mvp-fix-versions-on-the-capability-project.md]]. [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+
+## Sept 11 2026 — he is the MVP-1 Flex-IQ developer, argues to keep the MudaGoose code, and takes the weekend
+
+Rendered "Dzmitry Chudzinau" in the speaker labels of the [[wiki/meetings/2026-09-11-transactional-mvp1-scope-and-priorities.md|Sept-11 8:04 AM call]]. [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+
+- **He is named as the Flex-IQ developer for MVP 1** — Pavel: "всё, что бы сейчас в первую очередь делать[,] дима[,] он будет делать [во] флекс айкью". [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **He raised the structural objection to merged per-product capabilities** (reopen an old capability a year later, or create a new one?) — which Irina dissolved by pointing at the regulations, and he accepted at once: "а я не… знал о[б]… последних обновлениях, извините." See [[wiki/decisions/2026-09-11-acceptance-criteria-live-in-the-regulations-not-the-capabilities.md]]. [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **He argued against ripping the MudaGoose code out**, on time rather than difficulty — "я бы… предпочел сосредоточиться на более важном" — and had already prepared the switch-the-mode variant. He also refused the branch alternative on principle: "мы живём в мейне." Val moved the removal to MVP 3 rather than dropping it. See [[wiki/decisions/2026-09-11-mudagoose-never-in-mvp1-and-its-code-comes-out-at-mvp3.md]]. [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **He raised the lease-blocking gap that produced Val's ruling** — MudaGoose mode blocked only the terminal; do the Flex-Ports get blocked too? Val: yes, and players cannot play. See [[wiki/decisions/2026-09-11-lease-blocking-reaches-the-flex-ports-and-is-never-automatic.md]]. [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **He got the player PIN out of MVP 1** by pointing out that a cashier will not enter a PIN for a player, so Flex IQ has no player PIN screen at all. [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **He drew the line between remote update and remote config**, arguing there is nothing defined to configure yet — "[н]ечего закладывать" — which is why remote config went to MVP 2. [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **He is working the weekend**, paid as extra money rather than time off, on the services needed for Flex-Port / Flex-IQ communication and card activation on the e-wallet path. [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+
+## Sept 11 2026 (10:33, in absentia) — named to the Passport/RIS regulations meeting
+
+He was not on the [[wiki/meetings/2026-09-11-technician-complaints-and-new-capabilities-workshop.md|10:33 AM technician-complaints workshop]], but Val listed him as one of five people for the Monday Sept-14 9:30 working meeting that is to write the new Passport and RIS regulations — spoken as "Дима чудина" and rendered "Dima Chudzinau" in the derived notes, the same Belarusian form the speaker labels use for him elsewhere. He is the only back-end architect in the group, alongside Val, [[wiki/people/felipe-miranda.md|Felipe]], [[wiki/people/pavel.md|Pavel]] and [[wiki/people/irina-shishko.md|Irina]]. See [[wiki/decisions/2026-09-11-new-regulations-for-the-passport-and-ris-talked-out-monday-and-converted-from-the-transcript.md]]. [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]] [[raw/Meeting_Notes_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]]
+
+## Open commitments (Sept 11 2026)
+
+- [ ] Dmitri Chudinov — attend the Monday working meeting on the new Passport/RIS regulations — due Sept 14 2026, 9:30; **assigned in his absence** — [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]]
+- [ ] Dmitri Chudinov — work the weekend on the services needed for Flex-Port / Flex-IQ communication and card activation on the e-wallet path — due Sept 12–13 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]] [[raw/Meeting_Notes_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [ ] Dmitri Chudinov — extend the existing firmware-dissemination mechanism to all FlexPay and Flex IQ devices (step one of the three-step staging) — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [ ] Dmitri Chudinov — remove the code supporting MudaGoose, at MVP 3 — due MVP 3, undated — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
@@ -235,3 +267,9 @@ At the [[wiki/meetings/2026-09-07-sas-aft-on-flex-port-and-remote-update.md|Sept
 - [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
 - [[raw/Meeting_Notes_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- [[raw/Meeting_Notes_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [[raw/Meeting_Notes_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]]
+- [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]]

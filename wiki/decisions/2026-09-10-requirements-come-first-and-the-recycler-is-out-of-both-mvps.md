@@ -1,0 +1,58 @@
+---
+type: decision
+title: Requirements are step two — the MVP split and the test automation come after; MVP 1 is October 1, MVP 2 is November 1, and the Flex-Recycler is in neither
+date: 2026-09-10
+aliases: [requirements are step two, MVP 1 October 1, MVP 2 November 1, recycler is not MVP 1 and not MVP 2, eighty percent of the general functionality, go through the capabilities of the last seven days, transactional products management]
+source-count: 3
+status: active
+open-commitments: 3
+open-questions: 1
+---
+
+# Requirements first, then the MVP split — and the Flex-Recycler is out of both
+
+Ruled by [[wiki/people/pavel.md|Pavel Frolov]] at the [[wiki/meetings/2026-09-10-capability-requirements-workflow-and-mvp-split.md|Sept 10 2026 5:31 AM call]], a Russian-language session with the Minsk transactional group. [[wiki/people/val-levitan.md|Val]] was not in the room. [[raw/Meeting_Notes_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+
+## The workflow it rests on, restated
+
+Pavel opened by restating the chain the group had already agreed to — the same chain ruled on [[wiki/decisions/2026-09-07-andrei-bosik-drives-the-wi-fi-work-and-the-process-chain.md]] and [[wiki/decisions/2025-04-03-jira-capability-level-and-github-mapping.md]]:
+
+- **Capability → requirements → features, with acceptance criteria on the requirement.** "[М]ы идём от кап[аб]илити… [к] реквиме[нт] набор реквие[мс,] под которые… создаются фичи[; реквайремент] содержит в себе а[к]цепто[нс] критерии." And the payoff: "[е]сли фича закрыта и удовлетворяет а[к]цепто[нс] критериям, привязанным к рекла[мент]с… [в] автоматическом режиме должно проверяться [Клодом]" — a closed feature that satisfies its requirement's acceptance criteria is verified automatically by Claude [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]].
+- **Pavel supplied the caveat himself.** It only holds "при условии, что… [в]се кап[аб]илити написано и все требования написаны для этих ка[паб]илити. Потому что если этого нету, то тогда у нас возникает дыра, которая не будет закрыта автоматическими тестами" — where capabilities and requirements are missing there is a hole automated tests will not cover [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]].
+- **80% is the working target, and that is enough to justify it.** "[М]ы не можем закрыть 100%. Мы не можем очень подробно писать реквиме[нт]… но… если общий функционал хотя бы покрыт… на 80%… то и тесты будут покрывать довольно большой объём[ ]работы устройства… [и] это всё равно большая часть, которую можно забрать у мануального тестировщика" [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]].
+- **When nobody knows how to test something yet.** [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] asked what happens "если никто изначально не знает, как это проверить?" Pavel: the acceptance criterion is written in general terms — "а[к]септо[нс] критерий значит будет написан в общими фразами… есть над чем работать в будущем, но по крайней мере это покрыто каким[-]то описанием" [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]].
+
+Pavel asked for objections to the chain and got none — "[е]сли с этим согласны, то давайте… перейдём к следующему моменту" [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]. *(This is the engineering group re-affirming the workflow among themselves. It does not answer Val's own Sept-9 challenge to the premise of writing requirements at all — Val was not present, and he had parked that question for himself. See [[wiki/topics/test-automation-strategy.md]], Sept 9.)*
+
+## What was ruled
+
+- **Stage one is to work through the capabilities created in the last seven days.** Decide which are no longer current, and write the matching requirements into them — "[п]ройтись по этим ка[паб]илити… [в]о[-]первых определить, а не актуальные [ли они]… [а] создать для них рекла[мент]с соответствующее. В рекла[йм]ентах должны прописаны быть требования. Вот… 1 этап, который нам надо сделать до Того, как пытаться создавать фичи и имплементировать" [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]].
+- **Pavel corrected the order [[wiki/people/andrey-bosik.md|Andrey Bosik]] proposed.** Bosik wanted the MVP split first: "нам надо в принципе… 1 определить, что ходит в MV[P] один[,] в MVP 2, а затем… подумать, как мы можем автоматизировать тестирование этих фич." Pavel: "[н]у это это это 3 шаг[;] 2 шаг это всё[-]таки рекла[мен]с" — that is step three; step two is the requirements [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]].
+- **MVP 1 is what they want finished by October 1; MVP 2 by November 1.** "[М]VP номер один это то, что мы хотим сделать к 1 октября[,] [М]VP номер 2 это то, что мы хотим сделать к 1 ноября" [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]. The October 1 half matches [[wiki/decisions/2026-09-09-first-transactional-installation-planned-for-october-1.md]].
+- **November 1 may move up to October 21, because of the next Georgia expo.** "1 ноября может очень легко стать 20[-]первым октября, то есть там выставка следующая в… [Д]жорджии." Pavel did not name the show [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]. *(The Oct-21-vs-Oct-22 date of that show is an unresolved contradiction — see [[wiki/projects/georgia-market-rollout.md]], "Open contradictions". This source is a third data point for October 21 and does not settle it.)* **Sept 11 2026 adds a fourth rendering and no resolution:** the release object Pavel actually created in the tool is dated **October 30**, while the same day's meeting invite still reads "MVP2-Nov 1st" — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **The Flex-Recycler is out of both MVPs.** Bosik said the transactional scope is wider than Pavel's list and that he had personally linked the Flex-Recycler in, because it has a Wi-Fi module too — "там оно шире[,] Паша[;] будет там ещё флекс[-]р[есай]ла[;] я лично привязывал, потому что там же тоже вай[-]фай модуль есть." Pavel ruled it out: "[р]исай[к]лер это не MVP один и не MVP 2 даже" [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]].
+- **Scope named for the MVPs:** FlexPay, Flex-IQ and FlexPort — "[ф]лекспэй[,] флекс[-]ай[-]кю… [ф]лекс[-]порт" [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]].
+
+## The objection Pavel did not settle in the room
+
+[[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] raised the structural question — why should a reporter be allowed to file a capability with no requirements, and why should engineers stop their own work to fill in his: "можно сразу поднимать вопрос глобальнее, чтобы репортер не мог за[вод]ить cap[ab]iliti без рекла[мент]ов? В чём мы сейчас за него будем делать работу?… требования выносят[ся на] уровень бизнеса. Почему сейчас… [и]нженеры должны отвлекаться от своей работы и заполнять его работу" [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]].
+
+Pavel accepted it as a fair question — "[д]а[,] [Д]има[,] хороший вопрос" — and routed it to a meeting with [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] rather than answering it. His proposal: walk through every capability by voice with Klimovich, from the requirements side, "потому что часть требований будет выставляться бизнесом, а мы как инженер[ы] сразу скажем, нет, это невозможно… [в] наших текущей ситуации мы это не сделаем." The **non-functional** requirements, he said, the engineers will write in any case — "нонфанк[ш]нел требования[…] мы всё равно будем нос[ить —] мы[:] это я[,] [А]ндрей[,] [Д]има[,] 2 [Д]има или ещё кто[-]то там[,] [И]ра" [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]].
+
+## Open commitments
+
+- [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] and [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — study the capabilities created in the last seven days ahead of the Klimovich session, so the rest of the team is not pulled off its work: "изучим это, наверное, [А]ндрей и [Д]има[,] да[,] чтобы… не отвлекать остальных" — due September 10 2026 — [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — call a meeting with [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] the same day to go through every capability by voice and agree the requirements, including who writes them: "[п]робуем помитинговать с [А]ндреем [К]лимовичем… [и] голосом проговорить, что каждый ка[паб]илити должен делать" — due September 10 2026 — [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — hand a version of FlexPay and FlexPort to Andrei Klimovich so he can install it on his own devices and report what does and does not satisfy him: "через неделю надо отдать версию[ ]flex pay[a] и флекспорта, чтобы он у себя начинал тестировать" — due about a week out, after [[wiki/people/irina-shishko.md|Irina Shishko]]'s marker of "после 18 числа" — [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+
+## Open questions
+
+- **Should the business or the engineers write the requirements, and may a reporter leave a capability with none attached?** Raised by Dmitri Chudinov; Pavel deferred it to the Klimovich meeting rather than ruling — [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- [x] **ANSWERED Sept 11 2026 — whether the work is being certified at all.** Working backwards from a field deployment on October 1, Irina Shishko allowed a week for [[wiki/organizations/eclipse-gaming-lab.md|Eclipse]] to issue certificates and a week for the machine itself, so "24 мы должны максимально отдать машину" — the machine goes out by the 24th at the latest. Andrey Bosik questioned whether this is certified at all — "а это тоже сертифицируется?… [г]оворишь, вроде не будут сертифицировать это?" — and Irina's answer was that she had been told it would be but suspects the answer was wrong: "[в]роде сказали[,] да[,] какие[-]то се[ртификаты]… не знаю[,] почему[-]то вам сказал[и;] может быть[,] это он просто ошибся" — [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]. **Val answered it the next morning at the [[wiki/meetings/2026-09-11-transactional-mvp1-scope-and-priorities.md|Sept-11 8:04 call]]:** Irina asked "[н]ам нужно через эклипс сертифицировать… машину или[…] это только машину[,] всё" and Val confirmed "[т]олько машину" — **only the machine goes through Eclipse**, not the transactional devices — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+
+**§15.8:** clear — scope, schedule and process only; no named-person compensation.
+
+## Sources
+- [[raw/Meeting_Notes_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]

@@ -2,8 +2,8 @@
 type: organization
 title: Eclipse (gaming test lab)
 date: 2025-03-14
-aliases: [Eclipse, Eclipse lab, Xlibs]
-source-count: 5
+aliases: [Eclipse, Eclipse lab, Xlibs, эклипс, a week for Eclipse to issue certificates, only the machine]
+source-count: 9
 ---
 
 # Eclipse (gaming test lab)
@@ -29,6 +29,27 @@ On the [[wiki/meetings/2025-06-04-eclipse-nebraska-testing-requirements.md|June-
 
 On the [[wiki/meetings/2026-03-28-game-design-wolfpack-strategy.md|Mar-28 Wolfpack strategy call]] Val described how JVL had been over-paying Eclipse: Eclipse was signing **all** of JVL's software partitions, but the law only requires the **SAS** partition to be signed. Signing the others created an artificial re-approval trap — whenever a non-regulated partition's checksum changed, Eclipse required re-certification even though that partition never needed signing. JVL's fix: separate the **Omni** system into **7–8 partitions** so that most jurisdictions only sign the legally-required ones, sharply reducing re-approval frequency. [[wiki/people/juan-martinez.md|Juan]] added that Eclipse charges an **extra hour per partition signed**. Val also plans to **submit Wolfpack + Twin Bison together** to halve certification cost (only one math set to prove). §15.8 clear — lab-cost economics only. [[raw/Meeting_Transcript_Game_Design_Wolfpack_Strategy-March-28-2026.md]] [[raw/Meeting_Notes_Game_Design_Wolfpack_Strategy-March-28-2026.md]]
 
+## Sept 10 2026 — a week of Eclipse time built into the transactional schedule, on an unconfirmed premise
+
+Working backwards from a field deployment on **October 1**, [[wiki/people/irina-shishko.md|Irina Shishko]] allowed about a week for Eclipse to issue certificates — and only if JVL is the lab's sole concern: "нам надо… [н]у хотя бы неделя на то, чтобы эклипс… это прямо, если они только нами занимаются[,] [д]ал… сертификаты." Adding about a week for the machine's own certification put the hand-over date at the 24th: "неделя на сертификацию[,] значит[,] 24 мы должны максимально отдать машину." [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+
+**Whether any of this is certified at all is unconfirmed.** [[wiki/people/andrey-bosik.md|Andrey Bosik]] questioned it — "а это тоже сертифицируется?… [г]оворишь, вроде не будут сертифицировать это?" — and Irina's answer left it open: "[в]роде сказали[,] да[,] какие[-]то се[ртификаты]… не знаю[,] почему[-]то вам сказал[и;] может быть[,] это он просто ошибся." Carried as an open question on [[wiki/decisions/2026-09-10-requirements-come-first-and-the-recycler-is-out-of-both-mvps.md]]. [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+
+## Sept 10 2026 (afternoon) — the September 15 submission, described to a customer
+
+Hours after the schedule discussion above, [[wiki/people/val-levitan.md|Val]] gave a customer the same date as a commitment at the [[wiki/meetings/2026-09-10-diamond-amusements-machine-performance-and-bundle-pilot.md|Diamond Amusement visit]]: "I need to get this game in the market, and **we're sending it to Eclipse [the] fifteenth of September, which is now. So we're all mobilized on this.**" The submission is the new **fifteen-game vertical machine with three progressives** ([[wiki/topics/jvl-machine-lineup.md]]), and the deployment date he hung off it was **October 1** — "We're submitting it for September fifteenth. Let's call it October first." **No approval turnaround is named in this source.** [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+He used the same submission as the reason Diamond's service complaints cannot be fixed yet: "**we all are zeroed in on profitability. Our games must make a lot of money**… **my entire team is focused on profitability today. We are about to send a phenomenal game for approval.**" See [[wiki/organizations/diamond-amusement.md]]. [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+## Sept 11 2026 — Val answers it: only the machine goes through Eclipse
+
+The question left open the day before was settled the next morning at the [[wiki/meetings/2026-09-11-transactional-mvp1-scope-and-priorities.md|Sept-11 8:04 AM call]], in two lines:
+
+> **[[wiki/people/irina-shishko.md|Irina Shishko]]:** "Нам нужно через эклипс сертифицировать… машину или[…] это только машину[,] всё."
+> **[[wiki/people/val-levitan.md|Val]]:** "Только машину." [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+
+**So the transactional devices — Flex IQ, FlexPay, the Flex-Ports — are not part of the Eclipse submission; only the gaming machine is.** This closes the open question carried on [[wiki/decisions/2026-09-10-requirements-come-first-and-the-recycler-is-out-of-both-mvps.md]], and it leaves Irina's backwards-calculated schedule above intact — the week of Eclipse time and the 24th hand-over apply to the machine, not to the transactional line [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]].
+
 ## Sources
 
 - [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
@@ -36,3 +57,7 @@ On the [[wiki/meetings/2026-03-28-game-design-wolfpack-strategy.md|Mar-28 Wolfpa
 - [[raw/eclipse_nebraska_testing_requirement_review-june-4-2025.md]]
 - [[raw/Meeting_Transcript_Game_Design_Wolfpack_Strategy-March-28-2026.md]]
 - [[raw/Meeting_Notes_Game_Design_Wolfpack_Strategy-March-28-2026.md]]
+- [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- [[raw/Meeting_Notes_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]

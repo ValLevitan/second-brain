@@ -3,7 +3,7 @@ type: person
 title: Ivan
 date: 2025-02-19
 aliases: [Ivan, Ivan Shpakov, Иван Шпаков]
-source-count: 6
+source-count: 7
 ---
 
 # Ivan
@@ -33,6 +33,12 @@ The late-October release-management sessions ([[wiki/topics/github-release-manag
 
 - Ivan is the person who "communicated the most with **Steve**" at the **Eclipse** lab on the Georgia COAM **SAS event 51/52** (hand-pay / hand-pay-reset) compliance question — he holds Steve's written question ("I used to do this test, now I can't, did you change something?"). See [[wiki/meetings/2025-04-14-sas-51-52-georgia-coam-interpretation.md]] and the thread on [[wiki/projects/georgia-market-rollout.md]]. [[raw/sas_51_52_requirement_interpretation-april-14-2025.md]]
 
+## Georgia submission: he sends the bin file (stated Sept 11 2026)
+
+At the [[wiki/meetings/2026-09-11-nova-game-change-regulatory-procedure.md|Sept-11 2026 regulatory call]], [[wiki/people/pavel.md|Pavel Frolov]] corrected [[wiki/people/juan-martinez.md|Juan Martinez]]'s belief that Georgia uses no bin file. It is used, once, at submission, and Ivan is the one who sends it — "**During submission, Ivan is doing this**" [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]].
+
+The Georgia bin file carries only SAS-operation data, not game sets, which is the reason a new game can ship without the Lottery learning of it — see [[wiki/organizations/georgia-lottery-corporation.md]] (Sept 11) [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]].
+
 ## Sources
 
 - [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
@@ -41,3 +47,4 @@ The late-October release-management sessions ([[wiki/topics/github-release-manag
 - [[raw/releases_github-october-21-2025.md]]
 - [[raw/artifacts_assembly_GitHub-october-21-2025.md]]
 - [[raw/practice_release_calle_ocho-github-october-21-2025.md]]
+- [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]]

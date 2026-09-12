@@ -2,8 +2,8 @@
 type: decision
 title: First NOVA product = South Dakota VLT-2 (owner ruling, 2026-09-01) — supersedes the Aug-14 "South Dakota Vertical 01 first" sequencing
 date: 2026-09-01
-aliases: [first NOVA product, first Nova release, SD VLT-2 first on NOVA, South Dakota VLT-2 first NOVA product, NOVA release sequencing ruling]
-source-count: 1
+aliases: [first NOVA product, South Dakota VLT 3, VLT3 vs VLT-2, first Nova release, SD VLT-2 first on NOVA, South Dakota VLT-2 first NOVA product, NOVA release sequencing ruling]
+source-count: 3
 status: active
 open-commitments: 0
 open-questions: 0
@@ -58,12 +58,24 @@ The [[wiki/meetings/2026-09-04-naming-convention-standards-and-nova-conversion.m
 - **The regulator question was raised — and NO NOVA certification date was set.** Juan: "just from a compliance standpoint, **do we want to deal with GLI and Nova this early? Or should Eclipse get Nova first** to help us troubleshoot anything?" Val declined the premise rather than naming a date: "**Eclipse doesn't test anything. Eclipse only tests us**… they're not traversing in any depth through anything that we're doing. **They're testing SAS.** So it's nothing." His reason for confidence was the development and testing ecosystem being built — "I'm going to give you… an incredible development environment… I'm going to set up an incredible testing ecosystem around this. And even if we make an error in anything, it will be much easier for me to find it, to fix it permanently. So, hands down, **we're ready**." **No date for a NOVA submission to GLI appears anywhere in this source.** The owner ruling above — *NOVA → GLI is unscheduled* — is unaffected, and the Oct-1/January dates here are **development** dates, not certification dates. Do not convert them into a GLI date.
 - **One related product constraint confirmed the same day:** JVL is **not** moving to 4K resolution. Lena asked twice; Val: "No, we're not moving. There's absolutely zero reason right now to move to 4K… There's 0 benefit."
 
+## Sept 11 2026 — checked again in the game team's own meeting: still no NOVA GLI date, and a version-number mismatch surfaces
+
+The [[wiki/meetings/2026-09-11-rage-sunset-and-class-a-on-nova.md|Sept-11 1:00 PM game-development call]] is the next source in which the product team plans NOVA releases out loud. **These are sources, not owner rulings**; the ruling above stands unchanged [[raw/Meeting_Notes_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]:
+
+- **GLI is not mentioned once in either source of that meeting.** No NOVA certification date is set, proposed or implied. **NOVA → GLI remains unscheduled**, exactly as ruled on 2026-09-01. The Class A goal discussed there — **February 1** [2027 — year inferred] — is a **product delivery** goal, not a certification date, and must not be converted into one. See [[wiki/decisions/2026-09-11-georgia-class-a-v43-is-built-on-nova-not-rage.md]]. [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+- **The Sept-1 RAGE submission is not mentioned either**, so nothing in this source disturbs the plan-of-record-September-1 / actual-≈-September-3 handling above.
+- **The first NOVA release is restated as South Dakota, dual screen**, consistent with this ruling and with Sept-4: [[wiki/people/michael-gottlieb.md|Michael Gottlieb]], "**we finished up NAD D2702 and then South Dakota D2703, which is our first Nova release**"; [[wiki/people/lena.md|Lena Zhukova]], "**our first release [i]n No[va] was scheduled for dual screen.**" [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+- **But the room calls that product "South Dakota VLT 3", not VLT-2.** Lena: "**we are planning on 1st Nova is South Dakota V[LT]3**" and "**IP 1180, it's for South Dakota VLT 3, which will be designed in Nova**"; Val used the same term back to her. **Recorded, not resolved** — the owner's ruling names the first NOVA product **South Dakota VLT-2**, and this source names it VLT 3. Two readings are possible (same product, different digit; or genuinely successive releases), and the wiki asserts neither. The full note is on [[wiki/projects/south-dakota-vlt-market.md]] (Sept 11, 1:00 PM). **Queued for the owner.** [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+- **A second RAGE South Dakota track is confirmed dead**, which is consistent with everything above: Michael, "**One's the Nova D27 and the other one's the Rage V43, which we just recently decided we're not going to pursue**", with its games migrating into the D27 NOVA product. [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+
 ## Carry-forward
 
 - Acknowledge the **~2-day slip on the September-1 RAGE-based SD VLT-2 GLI submission (actual ≈ Sept 3 2026)** in the next weekly update — owner's explicit instruction, 2026-09-01. *(Written for the Friday 4 September 2026 run, which did not fire; carries forward to whichever run happens next.)*
-- **NOVA has no GLI date.** Watch for one being set; until then the wiki must say *unscheduled*, not carry the lapsed ~Nov-1 figure. *(Checked again against the Sept-4 2026 sources: the question was asked in the room and Val answered with readiness, not a date. Still unscheduled.)*
+- **NOVA has no GLI date.** Watch for one being set; until then the wiki must say *unscheduled*, not carry the lapsed ~Nov-1 figure. *(Checked again against the Sept-4 2026 sources: the question was asked in the room and Val answered with readiness, not a date. Checked again against the Sept-11 2026 1:00 PM sources: GLI is not mentioned at all. Still unscheduled.)*
 
 ## Sources
 - [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+- [[raw/Meeting_Notes_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+- [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
 
-*(The owner rulings above carry no `[[raw/…]]` source and none should be fabricated — §16. The single source listed here backs only the Sept-4 corroboration section.)*
+*(The owner rulings above carry no `[[raw/…]]` source and none should be fabricated — §16. The sources listed here back only the Sept-4 and Sept-11 corroboration sections.)*

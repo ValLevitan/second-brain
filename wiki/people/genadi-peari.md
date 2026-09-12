@@ -3,8 +3,8 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий]
-source-count: 80
-open-commitments: 13
+source-count: 82
+open-commitments: 14
 ---
 
 # Genadi Peari
@@ -328,6 +328,14 @@ Full hardware picture, including the stock position and the printer fallback: [[
 - [ ] Make another mould with the screen removed — stated as his number one priority — due unspecified — [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]] [[raw/Meeting_Notes_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
 - [ ] Install the stands and all internal components and harnesses — his second priority — due unspecified — [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
 
+## Sept 11 2026 — named to control the Georgia in-house rehearsal
+
+At the [[wiki/meetings/2026-09-11-transactional-mvp1-scope-and-priorities.md|Sept-11 8:04 AM call]] Val asked how the team practises before installing anything on October 1. [[wiki/people/pavel.md|Pavel Frolov]]'s answer: the Georgia office already has assembled Flex IQ units, so it is a matter of installing the new software, connecting the TITO printer and moving the QR scanner — "эта задача, которую, наверное, Геннадий должен… проконтролировать", with Val agreeing [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]].
+
+## Open commitments (Sept 11 2026)
+
+- [ ] Genadi Peari — control the in-house Flex IQ rehearsal build in the Georgia office: new software, TITO printer connected, QR scanner moved — due before October 1 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]] [[raw/Meeting_Notes_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Genadi_General_Alignment-May-22-2026.md]]
@@ -410,3 +418,5 @@ Full hardware picture, including the stock position and the printer fallback: [[
 - [[raw/Meeting_Transcript_GACS_Expo_IQ_FlexPorts_and_Ewallet-September-7-2026.md]]
 - [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
 - [[raw/Meeting_Notes_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]

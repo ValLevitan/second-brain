@@ -4,7 +4,7 @@ title: Eugine Yavorski
 date: 2025-02-18
 aliases: [Eugine Yavorski, Evgeny Yavorsky, Yavorski, Yavorsky, Яворский, Evgeny Egorsky, Egorsky, Егорский, Evgeny Nevorsky, Nevorsky, Неворский, Evgeny, Yevgeny, Zhenya, Женя, Евгений]
 disambiguation: "FlexPort/FlexPay integration engineer (alias Egorsky), this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
-source-count: 30
+source-count: 31
 open-commitments: 4
 ---
 
@@ -155,6 +155,15 @@ At the [[wiki/meetings/2026-09-09-september-resource-plan-and-flex-port-readines
 
 That closes the practical worry left by the Sept-7 removal of tasks from him ([[wiki/decisions/2026-09-07-remote-firmware-update-mandatory-and-taken-off-yavorsky.md]], [[wiki/decisions/2026-09-04-port-the-smib-sas-module-into-the-flex-port-main-branch.md]]) — nothing of the Flex-Port work depends on his machine. He is not otherwise mentioned in either Sept-9 source.
 
+## Sept 11 2026 — he owns the machine-side money-out capabilities, and cannot work that weekend
+
+Two mentions at the [[wiki/meetings/2026-09-11-transactional-mvp1-scope-and-priorities.md|Sept-11 8:04 AM call]], both as "Женя":
+
+- [[wiki/people/irina-shishko.md|Irina Shishko]], pointing at the last three capabilities on screen — the machine side of paying money out through the Flex-Port — said they are his and already planned, with the features linked: "[э]то всё на женю[,] я сейчас пере[с]анила, и там все фичи уже… прилинкованы… [о]но уже женя планировал", naming capability numbers "169[,] 170" [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]].
+- When Val asked for weekend work across the team, [[wiki/people/pavel.md|Pavel Frolov]] reported "[ж]еня не сможет работать в эти выходные" [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]].
+
+*(Resolved by §4 context — FlexPort/FlexPay integration software is Yavorski's lane, and these capabilities are the Flex-Port money-out path. The source says only "Женя"; flagged as a context resolution, not asserted.)*
+
 ## Sources
 
 - [[raw/Schedule_review-March-4-2026.md]]
@@ -187,3 +196,4 @@ That closes the practical worry left by the Sept-7 removal of tasks from him ([[
 - [[raw/Meeting_Notes_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]

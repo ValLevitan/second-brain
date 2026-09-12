@@ -4,8 +4,8 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 68
-open-commitments: 36
+source-count: 72
+open-commitments: 43
 open-questions: 0
 ---
 
@@ -375,6 +375,37 @@ At the [[wiki/meetings/2026-09-09-september-resource-plan-and-flex-port-readines
 - **Val named him as the person he can hand the functional requirements to:** "фа[нкшенал] реклам[енты] я могу дать… Андрею Климович[у]. Он довольно нормально разбирается в фа[нкшенал] реклам[ентах] по транзакшен[у]" — while Bosik and Kovalchuk generate the rest. [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 - **He is the tester for the October-1 rehearsal.** Val required the whole setup running in the office at least two weeks ahead — "и Андрей начинает [от]тестировать" — with Pavel and Irina confirming on the call that this Andrei is Klimovich ("про этот[,] Климович"). See [[wiki/decisions/2026-09-09-first-transactional-installation-planned-for-october-1.md]]. [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 
+## Sept 10 2026 — the man the engineers want in a room, in absentia
+
+He was not on the [[wiki/meetings/2026-09-10-capability-requirements-workflow-and-mvp-split.md|Sept-10 2026 5:31 AM transactional call]], but the meeting largely organised itself around him. [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+
+- **He is the intended source of the business-side requirements.** [[wiki/people/pavel.md|Pavel]] proposed walking through every capability with him by voice — "[п]робуем помитинговать с [А]ндреем [К]лимовичем… [и] голосом проговорить, что каждый ка[паб]илити должен делать" — because "часть требований будет выставляться бизнесом, а мы как инженер[ы] сразу скажем, нет, это невозможно." Claude would then draft the requirements from the recording. See [[wiki/decisions/2026-09-10-requirements-come-first-and-the-recycler-is-out-of-both-mvps.md]]. [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- **[[wiki/people/dmitri-chudinov.md|Chudinov]]'s objection is to be put to him** — whether a reporter may file a capability with no requirements, and why engineers should fill them in. [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- **He is also the intended first field tester.** [[wiki/people/irina-shishko.md|Irina Shishko]] wants a version after the 18th that he can install on his own devices; Pavel put it at a week, covering FlexPay and FlexPort, "чтобы он у себя начинал тестировать и говорить, там устраивать, не устраивать[,] [А]ндрей [К]лимович." [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- **The whole team was told to read the capabilities before that meeting** — "до митинга с [А]ндреем надо, чтобы… мы все прочитали эти ка[паб]илити." [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+
+## Sept 11 2026 — he convenes the priorities meeting, and spends it taking things out of MVP 1
+
+Klimovich organised and chaired the [[wiki/meetings/2026-09-11-transactional-mvp1-scope-and-priorities.md|Sept-11 8:04 AM call]] at [[wiki/people/pavel.md|Pavel Frolov]]'s request, and ran the capability list on screen item by item. [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+
+- **His own status:** five capabilities and their requirements still to write, then the UI/UX screen descriptions with texts; the operations-dashboard update is last and the release can go out with the current one — "[д]аже если мы будем релизиться с текущим [дашбордом,] нас это вполне устроит." Whole day on it, plus about half of Monday, after which "будет весь пакет полностью всех требований… все экраны, все тексты." [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **He argued for focusing MVP 1 on one product:** "из g[a]t[e]way[,] я бы фокусировался в первую очередь на IQ… всё полностью отполированную флоу" — the position Val then turned into a ruling. See [[wiki/decisions/2026-09-11-mvp1-goes-with-flex-iq-alone-and-one-kiosk-per-location.md]]. [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **He is the one who took things out of MVP 1** — bill escrow ("это связано напрямую только с киоском"), the player PIN ("это только для селф[-]сер[вис] киоска"), the split-payout logic — and floated removing FlexPay entirely. See [[wiki/decisions/2026-09-11-mvp1-boundary-bill-escrow-and-pin-out-remote-update-and-master-device-in.md]]. [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **He lost the card-splitting argument to Pavel's simpler answer**, then immediately confirmed the adopted flow end to end and kept the split as the first thing to add back if October 1 arrives early. See [[wiki/decisions/2026-09-11-one-card-at-a-thousand-dollars-and-the-rest-stays-on-the-ticket.md]]. [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **He explained why the gateway capabilities exist in the shape they do** — he could not find historical capabilities covering the functionality, so he wrote new ones on a unified gateway object model. See [[wiki/decisions/2026-09-11-acceptance-criteria-live-in-the-regulations-not-the-capabilities.md]]. [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **He owns the mixed-cabinet compatibility problem in Georgia** — no non-JVL cabinets in the office, so he is arranging warehouse access or a one-to-two-day machine loan from master licensees. See [[wiki/projects/georgia-market-rollout.md]] (Sept 11). [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **He asked for the process to stay collegial**, reserving Monday to review what did not make MVP 1 but refusing to add it alone: "[с]ам я их добавлять не буду… я бы хотел, чтоб мы так коллегиально делали". Val's answer: the right to add stays open daily. He set the Monday 8:00 AM ET follow-up. [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+
+## Open commitments (Sept 11 2026)
+
+- [ ] Andrei Klimovich — finish the remaining five capabilities and their requirements, then the UI/UX screen descriptions with texts — due about half-way through Monday Sept 14 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [ ] Andrei Klimovich — review by Monday which capabilities did not make MVP 1 and bring them to the group rather than adding them himself — due Sept 14 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [ ] Andrei Klimovich — convert capability 163 (one carrier per wallet) into a regulation — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [ ] Andrei Klimovich — add requirements for the Flex-Port screens so they show adequate states when a location is blocked — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [ ] Andrei Klimovich — rework the minimum/maximum card-limit logic, because the under-$5-or-$10 auto-fail inherited from the old integration does not work with the portal — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [ ] Andrei Klimovich — draw up the list of what is configurable per kiosk, per POS and per location, before the remote-config requirements can be written — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [ ] Andrei Klimovich — find out as early as possible which machines sit at the first installation locations, and arrange the warehouse visit or machine loan for the one-to-two-day compatibility window — due before the testing window — [[raw/Meeting_Notes_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Continental_Vendor_Lock_In_Dead_End-September-2-2026.md]]
@@ -445,3 +476,7 @@ At the [[wiki/meetings/2026-09-09-september-resource-plan-and-flex-port-readines
 - [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
 - [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- [[raw/Meeting_Notes_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]

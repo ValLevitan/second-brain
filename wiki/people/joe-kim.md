@@ -2,10 +2,10 @@
 type: person
 title: Joe Kim (Georgia Lottery general counsel, COAM)
 date: 2026-08-26
-aliases: [Joe Kim, Joe Kemp, Joakim, Joe can, lottery council, Georgia Lottery general counsel, GLC general counsel, chief legal counsel of the Georgia lottery]
-source-count: 5
+aliases: [Joe Kim, Joe Kemp, Joe, Joel, Joe's recent letter, the letter from last week, we directed it to an appropriate department, Joakim, Joe can, lottery council, Georgia Lottery general counsel, GLC general counsel, chief legal counsel of the Georgia lottery, he brushed it off]
+source-count: 9
 open-commitments: 0
-open-questions: 1
+open-questions: 2
 ---
 
 # Joe Kim (Georgia Lottery general counsel, COAM)
@@ -41,13 +41,38 @@ A week after the Aug-26 account above, InComm gave Val a fuller version at the [
 - **He is also the named unlock.** Asked what would change InComm's refusal of JVL's recycler: "**If the lottery were to say something to clarify that point and say no, there's no problem here**… I would say now **we should see what Joe [Kim] respond[s] in writing**, because that will likely trigger [it]." Consequence on [[wiki/decisions/2026-09-02-hold-the-recycler-back-but-sign-no-undertaking.md]].
 - **A dating oddity, recorded not resolved.** Explaining that InComm could not have foreseen the shift, the speaker said even John Houseal could not have predicted "**what [Joe Kim] would say in November**." The month does not fit the August 2026 show the rest of the passage is about, and no source explains it. Left as transcribed; **no date is asserted** [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]].
 
+## Sept 10 2026 — his letter lands, and his own colleagues explain it to Val
+
+At the [[wiki/meetings/2026-09-10-georgia-lottery-coam-manufacturer-introduction.md|Sept-10 meeting at the Georgia Lottery]] Val finally heard the Lottery's own reading, from the COAM staff rather than from InComm — but still **not from Kim himself**. The corpus still holds nothing he wrote or said directly. *(The recording labels speakers by number, so no line below is attributed to an individual.)* [[raw/Meeting_Notes_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
+
+- **There is a letter, it is recent, and Val read it over someone's shoulder.** "**I read that letter… The one from last week. Yeah, I was never more confused than reading this letter**" — and "**I read it on somebody's phone. It wasn't… addressed to me.**" The staff reaction to his confusion was "**Welcome to our world**" [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+- **The rule the letter is read as stating** is on [[wiki/organizations/georgia-lottery-corporation.md]] and [[wiki/topics/georgia-prize-card-processor-economics.md]]: the gift card cannot be exchanged for currency **at the location where the prize is won**; what the holder does with it elsewhere is treated as outside the statute.
+- **Val has asked to meet him three times and got a form reply.** "**I asked for a meeting with Joe. We sent an official letter to… My administrative assistant found a general inquiry. Sent… an email. Silence. We sent another message. Silence. Then we finally… third message and the reply was, 'We got your message. We directed it to an appropriate department'**" [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+- **The Lottery staff offered to fix that.** "**We can call. We'll be glad to give you a phone number and… email address**", and at the close "**Let me get you some contacts, and I'll email them to you, and we'll go from there.**" Val, on the person he has still never met: "**I never met him. I don't know how to get a hold of him. I would like to have a one-on-one with him**" [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+- **His recent comments are shaping InComm's product line.** On the two InComm cards: "**they've got the… black prize play card and then the white one that's got the ATM functionality. Based on… some of Joe's comments… here recently… They may continue with one product and kind of… [drop] the other product, but we'll… have to see**" [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+- **And someone is already working around the letter.** A staff member: "**I heard that InComm is still working on a product to… get around even Joe's recent letter**" — Val: "**So I'm not sure what it is, but I… am being approached by other people than InComm**" [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]. *(Both halves of that exchange are spoken across adjacent numbered speakers; who said which is not recoverable from the recording.)*
+- **His office's own account of the shift is that it is recent and awkward.** "**if we would have had this meeting a couple weeks ago, the answer… probably would have been a little different**", and "**our council's taking a different stance. So… that's just a recent update**" [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+
+## Sept 10 2026 (afternoon) — Val tells a customer who he met, and who he did not
+
+Two hours after leaving the Lottery, at the [[wiki/meetings/2026-09-10-diamond-amusements-machine-performance-and-bundle-pilot.md|Diamond Amusement visit]], Val was asked point-blank "**You met with Joe?**" — and the answer settles who was actually in the room. [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+- **Not Kim.** "**No, I met with… yeah, and the other guy, Justin.**" The customer then named the pair back: "**So Justin and Chris said it's okay, just not in the same licensed facility**" — Val: "**That's right.**" **This is the first source to identify, from Val's own mouth, which Lottery staff gave him the prize-card reading**: Justin and Chris, not the general counsel. It corroborates the two first names that appear inside the Sept-10 Lottery transcript (see [[wiki/organizations/georgia-lottery-corporation.md]]), though **no surnames are given and the invitation list carries both a Justin Cotton and a Chris Foss/Chris Boncek**, so the identification stops at first names. [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]] [[raw/Meeting_Notes_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
+- **The brush-off, counted differently.** "**I requested a meeting with [Joe], and he brushed it off two times.**" *(The transcript renders the name "Joel"; read as Joe Kim from context — an inference. Note the count: in the Lottery meeting that morning Val described **three** approaches — official letter, then email, then a third message answered with a form reply. Here it is **two**. Both are Val's own retelling within hours of each other; recorded side by side, not reconciled.)* [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]] [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
+- **His letter is now a reason operators are standing still.** [[wiki/organizations/diamond-amusement.md|Diamond]] opened the meeting with it, before Val raised the subject: "**Don't think we're ever going to do cash in Georgia. Based on the lottery, the letter [Joe Kim] published last week about not converting the winnings to cash, I don't know how we're going to get past that.**" **That is the first operator in the corpus to name the letter as the reason for not investing** — a concrete instance of the effect the [[wiki/decisions/2026-08-31-dixie-defers-kiosk-investment-until-the-rules-settle.md|Aug-31 Dixie deferral]] describes. [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
 ## Open questions
 
+- Will Val get the one-on-one he has asked for three times? The Lottery staff undertook to supply a direct number and email; nothing in this source records it arriving — [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
 - When, if ever, will he issue the sharpened guidance, and will it permit ATM/cash-out tied to COAM redemption? InComm treats its posture as time-bound but does not give one figure — Jason Hall said "three to five years from now, who knows", Adam Harlow said "Two years from now, they may see things differently"; both were firm that it holds for 2026–27 — [[raw/Meeting_Transcript_InComm_Skill_Pay_ATM_Guidance-August-26-2026.md]]
 
 ## Sources
+- [[raw/Meeting_Notes_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
+- [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
 - [[raw/Meeting_Transcript_InComm_Skill_Pay_ATM_Guidance-August-26-2026.md]]
 - [[raw/Meeting_Notes_InComm_Skill_Pay_ATM_Guidance-August-26-2026.md]]
 - [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
 - [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
 - [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]]
+- [[raw/Meeting_Notes_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]

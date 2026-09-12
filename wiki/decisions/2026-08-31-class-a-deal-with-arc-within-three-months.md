@@ -2,8 +2,8 @@
 type: decision
 title: Val commits to a Georgia Class A deal with ARC within three months — "January. We're gonna do business."
 date: 2026-08-31
-aliases: [Class A deal within three months, ARC Class A commitment, January Class A deal, three-month Class A promise]
-source-count: 3
+aliases: [Class A deal within three months, January means a decision not a deal, I doubt very much that I can do anything until January, ARC Class A commitment, January Class A deal, three-month Class A promise]
+source-count: 5
 status: active
 open-commitments: 2
 open-questions: 1
@@ -44,9 +44,23 @@ At the [[wiki/meetings/2026-09-09-arc-gaming-backend-displacement-negotiation.md
 
 **So the open question below — who on ARC's side signs — is now *asked of the right person and still unanswered*, not resolved.** What the same meeting did add is that the category is under-performing for ARC by its CEO's own account ("It's not doing great"), that ARC is placing machines opportunistically, and that the licence is the real reason ARC is in it — all on [[wiki/topics/georgia-class-a-machines.md]]. **None of it withdraws or amends the three-month commitment**, which is untouched by this source. [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
 
+## Sept 10 2026 — the same January, meaning something else
+
+Ten days after the commitment, at the [[wiki/meetings/2026-09-10-georgia-lottery-coam-manufacturer-introduction.md|Sept-10 meeting with the Georgia Lottery]], [[wiki/people/val-levitan.md|Val]] described his Class A position to the regulator — and January had changed role. It is no longer the deadline by which a deal lands; it is the earliest point at which he will decide anything at all [[raw/Meeting_Notes_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]:
+
+> "**I doubt very much that I can do anything until January. So it will probably hear the legislation before even doing anything.**"
+
+> "**my intention is to bring it here before the legislation, have this conversation prior to legislation, then probably hear the legislation, understand where you stand on it, and then make a decision.**"
+
+[[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
+
+**Neither ARC, Zazanis, Sloan nor the three-month promise is mentioned anywhere in the Sept-10 source**, so nothing there withdraws or amends this commitment. But the two positions do not sit comfortably together, and this page should not be read as if they did: on Aug 31 January was a **deal date**, on Sept 10 it is a **decision date after hearing a bill**. Recorded as an evolution of Val's stated posture with the tension left visible, not reconciled. The Sept-10 position has its own page: [[wiki/decisions/2026-09-10-no-class-a-build-until-the-january-legislature-is-heard.md]].
+
+*(Note also what the Sept-10 meeting settled in JVL's favour: the Lottery says manufacturing Class A is lawful today and would not damage the relationship — [[wiki/decisions/2026-09-10-the-lottery-tells-jvl-class-a-manufacturing-is-lawful-today.md]]. So the wait is a commercial and legislative judgement, not a regulatory block.)*
+
 ## Open commitments
 
-- [ ] [[wiki/people/val-levitan.md|Val]] — bring ARC a Class A partnership deal — due "three months / January" as stated — [[raw/Meeting_Notes_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
+- [ ] [[wiki/people/val-levitan.md|Val]] — bring ARC a Class A partnership deal — due "three months / January" as stated. **Strained as of Sept 10 2026**: to the regulator Val said he doubts he can do anything before January and will hear the legislation first. Not discharged, not withdrawn — [[raw/Meeting_Notes_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]] [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
 - [ ] [[wiki/people/val-levitan.md|Val]] — visit and film a live Class A location ("I'm gonna be filming the living share of that. Send me to a friendly location that will allow me to film" — transcribed as written; Zazanis: "Just go and play. Put 100 bucks, sit down, play, take some pictures") — due same day, gated on ARC sending the address — [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]] [[raw/Meeting_Notes_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 
 ## Open questions
@@ -57,6 +71,8 @@ At the [[wiki/meetings/2026-09-09-arc-gaming-backend-displacement-negotiation.md
 
 ## Sources
 
+- [[raw/Meeting_Notes_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
+- [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
 - [[raw/Meeting_Notes_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]

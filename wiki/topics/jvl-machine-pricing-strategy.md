@@ -3,7 +3,7 @@ type: topic
 title: JVL machine pricing and commercial strategy
 date: 2025-09-23
 aliases: [machine pricing, fifteen seven fifty, $15750, free hardware instead of discount, retail price, price list, Dennis one number, CFO-to-CFO credit, market pricing, list price, dollars not discounts, JVL Dollars pricing lever, show special pricing, Georgia machine price, D43 price, D27 trade-in, South Dakota premium, twelve eight twenty, two nine thirty, $795 port, $895 IQ, $7950 Flex-Slim, kill the market]
-source-count: 19
+source-count: 21
 ---
 
 # JVL machine pricing and commercial strategy
@@ -172,6 +172,19 @@ The clearest buyer-side price comparison in the corpus, volunteered by [[wiki/pe
 
 **§15.8:** clear — machine, device and competitor pricing only; no named-person compensation.
 
+## Sept 10 2026 — both numbers in one conversation, and the free set priced at $15,000
+
+At the [[wiki/meetings/2026-09-10-diamond-amusements-machine-performance-and-bundle-pilot.md|Sept-10 Diamond Amusement visit]] Val quoted **$15,750 and $16,000 to the same customer, twenty minutes apart**, for what is arguably the same machine — which is the clearest single instance of the pair this page has been carrying unreconciled since Sept 2. [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+- **On the trade-in, the exact list price: "The new machine is fifteen seven, seven fifty"** — $15,750, the fourth consecutive customer to hear it. *(The derived notes flag the rendering itself as worth confirming before it goes into a written proposal.)* [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]] [[raw/Meeting_Notes_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- **On the bundle, the rounded one: "You buy one machine per location, so fifteen. Let's call it sixteen thousand dollars."** The same $15,750/$16,000 pair recorded for Sept 2 (Lucky Coin vs PlayPay) and Sept 9 (Val's $15,750 vs the operator's "sixteen thousand") — this time **inside one conversation, by one speaker, with nobody correcting it**. Both stand. [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- **The free transactional set is priced by answering a direct question — "What's the typical retail?" — "Fifteen thousand."** That is the first time in the corpus the giveaway's value is stated as a *retail price of the set* rather than reached by adding items aloud (Sept 9) or itemised internally at $12,820 (Sept 4). The set here is **six AFT ports + a counter POS + a self-serve kiosk**; composition on [[wiki/decisions/2026-09-02-free-ports-and-pos-with-every-machine-bought.md]]. [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- **$90 flat per location, sixth consecutive customer** — "**90 per location**… **flat per location**" — with the exclusion stated: "**that doesn't include any kind of card or gift card processing.**" And two things it also does not include: **operator intelligence** ("right now we're giving it for free, but eventually we'll start charging for it") and back-office reporting — while **the API is free**, which is new. [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- **The trade-in price was refused, not quoted.** Asked what a dual-screen Flex cabinet is worth on trade — "you tell me. Yes, it's dependent. **You write the deal**… **I wanna build this relationship**" — which is the same "name your price" instrument recorded at Narayani on Aug 26, used here without a floor. [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- **One free upgrade thrown in, with no value attached:** the customer's older units get "**the modem and everything else**… **That's for free**." [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+**§15.8:** clear — machine, bundle and subscription pricing only; no named-person compensation.
+
 **Temporal note:** the $16,000–$18,000 retail band above is the **Sept-2025** class-3 / skill-market policy and is not superseded by these Georgia COAM numbers — Georgia is a different market segment. The two are recorded side by side; no source in this batch revisits the class-3 band.
 
 ## Sources
@@ -195,3 +208,5 @@ The clearest buyer-side price comparison in the corpus, volunteered by [[wiki/pe
 - [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
 - [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
 - [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
+- [[raw/Meeting_Notes_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]

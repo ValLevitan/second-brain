@@ -3,8 +3,8 @@ type: person
 title: Alexei Khamin
 date: 2025-04-22
 aliases: [Alexei Khamin, Aliaksey Khamin, Alexey Khamin, Khamin, Хамин, Khanin, Ханин, Kamin, Alexey Kamin, Lyosha, Лёша]
-source-count: 10
-open-commitments: 3
+source-count: 11
+open-commitments: 4
 ---
 
 # Alexei Khamin
@@ -52,6 +52,18 @@ He is also half of the parallelisation Pavel proposed — Irina and "Алекс�
 - [ ] With Irina Shishko — grade how much of the scope Bosik's generated requirements cover — due before the Bosik/Kovalchuk session — [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 - [ ] With Irina Shishko — write the negative cases up as acceptance criteria in parallel with the positive-case work — due unspecified — [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 
+## Sept 11 2026 — named owner of the e-wallet autotests, and added to the capability project
+
+At the [[wiki/meetings/2026-09-11-transactional-mvp1-scope-and-priorities.md|Sept-11 8:04 AM call]] Val agreed to write automated tests for the e-wallet use cases, and [[wiki/people/pavel.md|Pavel Frolov]] proposed assigning the resulting features to Khamin — "[т]ам на Алексея например". [[wiki/people/irina-shishko.md|Irina Shishko]] made it unconditional — "можно сразу его[,] в любом случае[,] это на лёшу, а если что[-]то нужно, [пусть] дима просто предоставит" — and Pavel did it on the call: "[в]от я перевел на Алексея." Pavel then asked [[wiki/people/andrey-bosik.md|Bosik]] to have [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] add "Алексея хамина" to the capability project, which was done during the meeting [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]].
+
+Coverage is honestly scoped: Pavel said automated testing will cover "только… какая[-]то маленькая часть, связанная с флекс IQ" for now. See [[wiki/topics/test-automation-strategy.md]] (Sept 11) [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]].
+
+*(A separate "лёша" is named in the same call as the person checking and fixing the firmware-dissemination mechanism. The source does not say which Alexey that is, and it is **not** attributed to Khamin here.)* [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+
+## Open commitments (Sept 11 2026)
+
+- [ ] Alexei Khamin — write the automated tests for the e-wallet use cases on Flex IQ — due unspecified, ahead of Oct 1 — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
@@ -64,3 +76,4 @@ He is also half of the parallelisation Pavel proposed — Irina and "Алекс�
 - [[raw/Payment HUB_ACH module specification_10.11.25.md]]
 - [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
 - [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]

@@ -3,7 +3,7 @@ type: person
 title: Elizabeth
 date: 2025-04-28
 aliases: [Elizabeth, Elizabeth Palomino, Элизабет]
-source-count: 13
+source-count: 15
 open-commitments: 3
 disambiguation: "JVL engineering technician (full engineer by degree) handling Georgia service/parts; ex-Colombian-operation technician; Spanish-speaking. Surname Palomino (per the Jun-11-2026 passport/dsKey source). Distinct from Eliana, the Colombian EDS principal (wiki/people/eliana.md)."
 ---
@@ -57,6 +57,13 @@ She appears in both midday calls of Sept 4 2026, in two very different registers
 - [ ] Enter the twenty received plastics into the system — due unspecified — [[raw/Meeting_Notes_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
 - [ ] Install the replacement LTE modems in Georgia when they arrive — due on arrival — [[raw/Meeting_Transcript_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]]
 
+## Sept 11 2026 — she can already flash Flex-Ports, and she is one of the two who choose which Georgia games are enabled
+
+Two separate mentions on the same morning.
+
+- **Flex-Port flashing.** Discussing how the October-1 rehearsal gets software onto the devices, [[wiki/people/pavel.md|Pavel Frolov]] said Flex-Port software will be released as functionality is added and "[Э]лизабет вроде бы умеет уже прошивать, если что" — she can already flash them if needed [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]].
+- **Enabling games in Georgia.** At the [[wiki/meetings/2026-09-11-nova-game-change-regulatory-procedure.md|9:30 regulatory call]] [[wiki/people/juan-martinez.md|Juan Martinez]] named her and [[wiki/people/felipe-miranda.md|Felipe]] as the pair who decide which of the submitted games are switched on: "**we always submitted six games, but Elizabeth or Felipe could have chosen to only enable four of the six**" [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Notes_Manufacturing_Production_Planning-July-27-2026.md]]
@@ -72,3 +79,5 @@ She appears in both midday calls of Sept 4 2026, in two very different registers
 - [[raw/Meeting_Transcript_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]]
 - [[raw/Meeting_Notes_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]]

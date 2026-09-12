@@ -2,8 +2,8 @@
 type: person
 title: John Houseal
 date: 2025-07-01
-aliases: [John Houseal, John, "John from Income", "John from InComm"]
-source-count: 6
+aliases: [John Houseal, John, "John from Income", "John from InComm", "John Hasil", Housel]
+source-count: 7
 disambiguation: "InComm's product-development / route-gaming lead — the 'John' who leads the InComm↔JVL relationship (gift-card / COAM payment products). Distinct from Allen Lee (the InComm 'Alan', technical/API contact) and other InComm reps (Adam, Jared, Billy, Susanne). Resolve by context: InComm product strategy / market / roadmap → Houseal."
 ---
 
@@ -28,8 +28,17 @@ John Houseal is **InComm's product-development lead for route gaming** and the I
 
 On a short call, Val asked John how JVL could get **ATM registration** to launch its bill-recycler. John confirmed **InComm has no ATM registrations of its own and does not touch the money-services business (MSB)**, so it cannot sponsor JVL, and offered to introduce **Maya Fuentes** — an ATM Association of the US board member and a personal friend of John's, not an InComm employee — as the registration expert (she becomes JVL's [[wiki/organizations/herring-bank.md|Herring Bank]] cash-management contact the next day). See [[wiki/organizations/incom.md]] and [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Jul-9). [[raw/Meeting_Notes_Bill_Recycler_ATM_Registration-July-9-2026.md]]
 
+## Sept 10 2026 — Val names him, to the regulator, as the relationship that went political
+
+Describing to [[wiki/organizations/georgia-lottery-corporation.md|Georgia Lottery]] staff how the InComm relationship had deteriorated, [[wiki/people/val-levitan.md|Val]] identified where it started: "**my initial relationship was with John, John [Houseal], and that was a great relationship in the beginning. And now he is… too political, and it's just… weird.**" *(The transcript renders the surname "Hasil"; recorded as an alias.)* [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
+
+It sits in a longer complaint — "**Lately, very aggravated. It was… very different two years ago**" — and Val's account of a lunch with three InComm people that was "**extremely political**". The Lottery's only reply was to agree about the period, not about the person: "**weird is one way to describe it. We're definitely in… a uncomfortable period of time.**" Full context on [[wiki/organizations/incom.md]] (Sept 10). [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
+
+*This is Val's characterisation, recorded as such — no InComm source in the corpus responds to it.*
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
 - [[raw/Meeting_Notes_Bill_Recycler_ATM_Registration-July-9-2026.md]]
 - [[raw/Flex-Port-use_case-August-6-2025.md]]
 - [[raw/incomm_transcript_gacoam_payment_options-april-4-2025.md]]

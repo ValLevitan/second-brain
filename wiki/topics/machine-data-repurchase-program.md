@@ -3,8 +3,8 @@ type: topic
 title: Machine data repurchase program ($337 per year per machine)
 date: 2026-08-26
 aliases: [data repurchase, validator acceptance rate, data purchase contract, buy back our own data, $337 per year per machine, three-year data contract, data-sharing agreement, data sharing discount, data discount]
-source-count: 11
-open-commitments: 0
+source-count: 13
+open-commitments: 1
 open-questions: 1
 ---
 
@@ -99,6 +99,23 @@ At the [[wiki/meetings/2026-09-08-dixie-amusement-bundle-offer-and-card-economic
 
 *(This is the seventh customer meeting since Aug 26 in which the reporting is pitched and the repurchase programme is not. See the Sept-1 and Sept-2 sections above for the same pattern.)*
 
+### Sept 10 2026 — the programme inverts: the operator collects the data, for free
+
+At the [[wiki/meetings/2026-09-10-diamond-amusements-machine-performance-and-bundle-pilot.md|Sept-10 Diamond visit]] the modem and the reporting were pitched again **without the repurchase programme** — no $337, no three-year term, no contract, no payment, continuing the run of customer meetings recorded above. **But this meeting reverses the direction of the deal:** rather than offering to buy data off the operator, Val asked the operator's own compliance staff to **collect it for him by hand, for nothing**, and got it. Full record on [[wiki/decisions/2026-09-10-diamond-field-auditor-captures-jvl-settings-data.md]]. [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+- **What he says he needs, in the language of this page:** "what helps me is the **popularity report, setting reports**. This [is] what I need… for my machines, it's either **QR code on the older machines or the modems on the newer machines.**" And the reason the operator should care too: "**you and I [are] in the same boat. If you want good performance of machines, you need to understand how all machines are set, and… which games are popular and which are not. Not machines, but games.**"
+- **The admission underneath it:** "**we're operating blind, so that would be a fantastic help.**"
+- **And the limit he stated himself, which is the programme's structural ceiling:** "I need exactly what you need, **but you cannot get it. None of the manufacturers will give you.**" The arrangement therefore covers **JVL cabinets only** — Diamond's own response: "**within your own, but you're not seeing comparison within the location.**"
+- **The existing practice it extends:** Diamond already sends a QR capture **every two weeks** for its two new machines — "That's right. That's what we're doing now with the two new ones" — with the complaint that "**nobody else does that, so we have no other way to pull the other data.**"
+- **The reports it is meant to replace, rejected to the customer's face:** "**the financial data that we pull off the [Intralot]… is not reliable**… **[Intralot] generates erroneous reports**… some of the machines will have **ridiculous data, like payouts of a million dollars**", which he attributes to "**somebody['s] changed the configuration… and didn't commission**". Same rejection as Aug 27 and Aug 31, with a named mechanism. Recorded on [[wiki/organizations/diamond-amusement.md]].
+- **Effect on the open contradiction below: none.** No data scope, no contract language and no payment appear in the source at all, so it is not a fourth statement of the offer — the same status as Sept 1's and Sept 2's silences. Recorded so a later reader does not read it as the programme having changed.
+
+**The "operator intelligence" side, restated for a second customer.** The free-now-chargeable-later caveat first recorded at Dixie on Sept 8 was repeated here — "**Ninety dollars does not include charges for the intelligence, the operator's intelligence. Right now we're giving it for free, but eventually we'll start charging for it**" — with one genuinely new term: **the API is free.** "we'll give you an **API for free**, but if you want us to provide you with intelligence, then it will cost." Val's suggested consumption path — via an **MCP** using Anthropic or Grok rather than the raw API — is on [[wiki/decisions/2026-09-02-free-ports-and-pos-with-every-machine-bought.md]]. [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+## Open commitments
+
+- [ ] Diamond Amusement's field auditor — capture settings / menu-screen data off JVL machines during compliance rounds, across the whole JVL fleet — ongoing, no start date named — [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
 ## Open questions
 
 - **What happens to a three-year data contract when the machine is sold with the route?** Raised from JVL's side at the Narayani meeting — "You buy and sell routes as everyone does, right? This three year contract." — and dropped without an answer. This matters because route-flipping is the normal Georgia pattern (see [[wiki/organizations/narayani-amusements.md]] and [[wiki/projects/georgia-market-rollout.md]]). [[raw/Meeting_Transcript_Narayani_Amusements_Trade_In_Negotiation-August-26-2026.md]]
@@ -118,3 +135,5 @@ At the [[wiki/meetings/2026-09-08-dixie-amusement-bundle-offer-and-card-economic
 - [[raw/Meeting_Transcript_Air_Gaming_Group_Transactional_Walkthrough-September-1-2026.md]]
 - [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+- [[raw/Meeting_Notes_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]

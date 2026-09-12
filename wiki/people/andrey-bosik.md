@@ -4,8 +4,8 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 79
-open-commitments: 15
+source-count: 83
+open-commitments: 20
 ---
 
 # Andrey Bosik
@@ -265,6 +265,47 @@ Two days after being made driver of the Wi-Fi work ([[wiki/decisions/2026-09-07-
 - **Val's expansion of the role:** Bosik and [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] should take the planning off Pavel entirely, in daily sessions — "[я] вижу, что [Б]осик и Ковальчук потянут планирование под вашей командой, где вам руками не надо дотрагиваться до этого." See [[wiki/decisions/2026-09-09-planning-handed-to-bosik-and-kovalchuk-with-daily-recorded-sessions.md]]. [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 - **The check Pavel put in front of it:** Irina and Khamin grade the coverage first; Pavel expects "на 5% в лучшем случае" of kiosk behaviour, and worried Bosik would generate too many capabilities on Flex-Port if left unbounded. Val's answer was to bound him explicitly — "если поставить ему задачу, что должно быть не больше… какого[-]то энного количества [капабилитис]… он это сделает." [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 
+## Sept 10 2026 — he argues for the MVP split first, and is overruled twice
+
+At the [[wiki/meetings/2026-09-10-capability-requirements-workflow-and-mvp-split.md|Sept-10 2026 5:31 AM transactional call]], the first source showing him in the room the morning after planning was delegated to him and [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] ([[wiki/decisions/2026-09-09-planning-handed-to-bosik-and-kovalchuk-with-daily-recorded-sessions.md]]). [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+
+- **His proposed order of work:** decide MVP 1 and MVP 2 contents first, then work out how to automate the testing of those features — "нам надо в принципе… 1 определить, что ходит в MV[P] один[,] в MVP 2, а затем… подумать, как мы можем автоматизировать тестирование этих фич." [[wiki/people/pavel.md|Pavel]] put requirements ahead of it. [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- **He argued transactional scope is wider than the three named products**, and said he had personally linked the Flex-Recycler in because it has a Wi-Fi module too — "там оно шире[,] Паша… я лично привязывал, потому что там же тоже вай[-]фай модуль есть." Pavel ruled the Recycler out of both MVPs. See [[wiki/decisions/2026-09-10-requirements-come-first-and-the-recycler-is-out-of-both-mvps.md]]. [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- **He proposed the disagreement channel that the group adopted** — just write it in the chat: "[д]айте в чате пока просто писать[,] да[,] и всё." See [[wiki/decisions/2026-09-10-capability-review-feedback-goes-into-the-meeting-chat.md]]. [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- **He questioned whether the work is being certified at all** — "а это тоже сертифицируется?… [г]оворишь, вроде не будут сертифицировать это?" — leaving [[wiki/people/irina-shishko.md|Irina Shishko]]'s certification schedule on an unconfirmed premise. [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- **He is assigned, with Dmitri, to study the last seven days of capabilities** before the Klimovich walkthrough, so the rest of the team is not pulled off its work. [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+
+## Open commitments (Sept 10 2026)
+
+- [ ] Andrey Bosik and [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — study the capabilities created in the last seven days and flag disagreements, gaps and missing requirement links, before the meeting with Andrei Klimovich — due September 10 2026 — [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+
+## Sept 11 2026 — he wins the Wi-Fi capability argument, asks two things "for the transcript", and loses the router one
+
+At the [[wiki/meetings/2026-09-11-transactional-mvp1-scope-and-priorities.md|Sept-11 8:04 AM call]] Bosik raised more of the meeting's structural questions than anyone. [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+
+- **He owned up to three identical per-product Wi-Fi capabilities** — "у меня 3 одинаковых [кейпа]билити по вайфаю есть под каждый продукт" — and noted he had proposed the single form first and been talked out of it. Irina's acceptance-criteria ruling settled it his way. See [[wiki/decisions/2026-09-11-acceptance-criteria-live-in-the-regulations-not-the-capabilities.md]]. [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **He made the shared-components case for the whole device family** — the Flex devices share the RK board, Wi-Fi/LTE, screens, the QR scanner and remote update, so changing one thing should not mean editing every repository. Klimovich fully supported it and Val pointed at [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]]. Bosik's own correction: his point is about the **product build**, not screens — "ты в одном месте поменял[,] и все продукты эти изменения за собой подтянули." Detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 11). [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **He pushed the Flex-Port master device into MVP 1**, splitting remote firmware update into master selection then distribution. See [[wiki/decisions/2026-09-11-mvp1-boundary-bill-escrow-and-pin-out-remote-update-and-master-device-in.md]]. [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **He asked explicitly "for the transcript" that Flex-Port firmware go into the same Amazon S3 store as the kiosk firmware** and be distributed from there, "чтобы у нас единое место хранения было." [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **He described how staging actually works today** when Val asked: a GitHub Action creates an artefact that lands on Amazon, and a web interface to the transactional terminal-management system picks which version goes to which device. [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **He challenged the plan to put an LTE modem in every device**, arguing for one bought LTE router per location — "[с]имку вставил, и он уже… раздаёт интернет". Val disagreed on cost and **the exchange was cut off without a decision**; it stands as an open question on [[wiki/decisions/2026-09-11-mvp1-boundary-bill-escrow-and-pin-out-remote-update-and-master-device-in.md]]. [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **He also put the Wi-Fi coverage question to Klimovich before the meeting proper** — how far Wi-Fi must reach across a Georgia location — and got the petrol-station description recorded on [[wiki/projects/georgia-market-rollout.md]] (Sept 11). [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **He had Kovalchuk add [[wiki/people/alexei-khamin.md|Alexei Khamin]] and [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] to the capability project during the call** — "[г]отово, проверяй." [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **He volunteered for weekend work** if Chudinov needs supporting: "конечно… если дима мне что[-]то будет присылать… то я это всё [сделаю]." [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+
+## Sept 11 2026 (10:33, in absentia) — the transcript-to-capabilities role is now named as a standing function
+
+He was not on the [[wiki/meetings/2026-09-11-technician-complaints-and-new-capabilities-workshop.md|10:33 AM technician-complaints workshop]], but Val designed the whole Passport/RIS exercise around him and said so by name: talk the subject out for an hour on Monday, "[в]зять его транскрип… и перевести его на… [кейпа]билоти, можем отдать это… Андрею посику, который поможет нам из этого сделать [кейпа]билоте" — take the transcript, turn it into capabilities, hand it to Andrei Bosik, who will help make the capabilities out of it [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]].
+
+**This is the third subject in five days routed through him this way** — Wi-Fi on Sept 7, planning generally on Sept 9, and now the Passport/RIS regulations. What began as one assignment is being used as a standing conversion service. See [[wiki/decisions/2026-09-11-new-regulations-for-the-passport-and-ris-talked-out-monday-and-converted-from-the-transcript.md]], [[wiki/decisions/2026-09-07-andrei-bosik-drives-the-wi-fi-work-and-the-process-chain.md]] and [[wiki/decisions/2026-09-09-planning-handed-to-bosik-and-kovalchuk-with-daily-recorded-sessions.md]].
+
+## Open commitments (Sept 11 2026)
+
+- [ ] Andrey Bosik — help convert the Monday Sept-14 Passport/RIS working-meeting transcript into capabilities — due after Sept 14 2026; **assigned in his absence** — [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]]
+- [ ] Andrey Bosik — reformat the three identical per-product Wi-Fi capabilities into one — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [ ] Andrey Bosik — check whether the router already requested carries an LTE modem, and write up the router / network-topology view as a capability tied to a recognised standard — due immediately, flagged urgent — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [ ] Andrey Bosik — have the Flex-Port firmware placed by the workflow into the same Amazon S3 store as the kiosk firmware; he believes a capability for it already exists and should be found — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
@@ -349,3 +390,7 @@ Two days after being made driver of the Wi-Fi work ([[wiki/decisions/2026-09-07-
 - [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
 - [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 - [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- [[raw/Meeting_Notes_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]]

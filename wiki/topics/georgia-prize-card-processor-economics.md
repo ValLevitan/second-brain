@@ -2,10 +2,10 @@
 type: topic
 title: Georgia prize-card processor economics — the fee sheet, the float, and who actually captures the money
 date: 2026-08-31
-aliases: [prize card economics, Avshad Patel, Ready Credit Corporation, the card puzzle, why pay cash without issuing a card, average load per card, two hundred eighty dollars per card, InComm takes the risk, program manager not provider, Fiserv, breakage zero point three, card to machine fee, MoneyPass, fifty basis points, PAX A80 two hundred dollars, gift card float, dormancy fee, card fee structure, 9.6 percent per year, I'm in the wrong business, free PAX, breakage, five billion in payouts, multi-provider manipulation, reloadable cards, Mastercard rules, gift card policy intent, half a percent, front fees to the store, two dollars per push, PlayPay fees]
-source-count: 19
+aliases: [prize card economics, cannot be exchanged for currency at the location, where the prize is won, welcome to our world, three fifty-eight nine, HB 353, white card ATM functionality, black prize play card, should I be working on ATMs, Avshad Patel, Ready Credit Corporation, the card puzzle, why pay cash without issuing a card, average load per card, two hundred eighty dollars per card, InComm takes the risk, program manager not provider, Fiserv, breakage zero point three, card to machine fee, MoneyPass, fifty basis points, PAX A80 two hundred dollars, gift card float, dormancy fee, card fee structure, 9.6 percent per year, I'm in the wrong business, free PAX, breakage, five billion in payouts, multi-provider manipulation, reloadable cards, Mastercard rules, gift card policy intent, half a percent, front fees to the store, two dollars per push, PlayPay fees, eight percent on the back end, FBO account, holding that money, B with the B, seventy four hundred locations forty seven thousand machines, InComm doesn't offer any profit sharing, a card solution is not useful if it doesn't lead to cash, thirteenth month after activation]
+source-count: 25
 open-commitments: 0
-open-questions: 4
+open-questions: 9
 ---
 
 # Georgia prize-card processor economics
@@ -326,8 +326,130 @@ Told that JVL means to replace [[wiki/organizations/incom.md|InComm]] on the bac
 
 **§15.8:** clear — card, ATM and back-end transaction economics only; no named-person compensation.
 
+## Sept 10 2026 — the regulator states the rule in the room, and it is narrower than everyone assumed
+
+Everything above is operator, processor and distributor reading of the rule. At the [[wiki/meetings/2026-09-10-georgia-lottery-coam-manufacturer-introduction.md|Sept-10 meeting at the Georgia Lottery]] the COAM staff stated it themselves, to [[wiki/people/val-levitan.md|Val]], in the room. This is the first **regulator-side** statement of the prize-card rule in the corpus. Regulator context on [[wiki/organizations/georgia-lottery-corporation.md]]; the counsel behind it is [[wiki/people/joe-kim.md|Joe Kim]]. *(Speakers are numbered on this recording, so these are the COAM staff collectively.)* [[raw/Meeting_Notes_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
+
+- **The prohibition is tied to the place, not the card.** "**So the way the law is. When you get that gift card, that gift card cannot be exchanged for currency at the location. You cannot take that gift card and then put it in the ATM and get cash at that location.**" Val supplied the qualifier "**Where the prize is won**" and was told "**Correct**" [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+- **What the statute is understood not to reach.** "**The way the statute reads is that the gift card itself cannot be exchanged for currency. That's the legal effect. Now, what you do with that gift card after you get it, whether it's purchasing another gift card, taking it to the store across the street, using it there, I think the intent of three fifty-eight nine…**" — the sentence breaks off there. *(The statute is recorded only as spoken, "three fifty-eight nine"; no code section is asserted.)* [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
+- **What the drafters are thought to have pictured** was a rack of retail gift cards: "**would get a gift card like a Home Depot card or Kroger card or something else out of a kiosk or the store had a gift card display, so just a rack of gift cards that you select from. So I don't know that it was contemplated that you would… that that card would be a white card. White cards, the ATM functionality, correct?**" And: "**I think that is where the direct gift card to currency is most profitable**" [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+- **Val's objection went unanswered on the merits.** "**But every single store in Georgia, I haven't found a store in Georgia that does not have an ATM. What… what's the catch?**" On the letter itself — "I read that letter… I was never more confused than reading this letter" — the reply was "**Welcome to our world**" [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+- **The position is new, and they said so twice.** "**if we would have had this meeting a couple weeks ago, the answer… probably would have been a little different**", and on the sequencing problem: "**it's much easier to have a collaborative effort on the front end as opposed to trying to… wrangle this all in once it's in the market. Unfortunately, we are the latter scenario right now**… **our council's taking a different stance. So… that's just a recent update**" [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+- **HB 353 named, in passing,** as the expansion that made staff expect more bars and taverns in the mix: "**especially with the HB 353 expansion of the gift card and everything… we kind of guesstimated that we would see more bars and taverns and stuff come into the mix**" [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+
+### What Val described to them, and how he framed the August show
+
+- **The product line, in his own words:** "**The point of sales… AFT ports for every machine that plugs into SAS**… **and a processing unit, which takes cash, issues a ticket, which looks to anybody like a TITO ticket**… **in actuality, we treat it as a temporary wallet, electronic wallet. So it's a medium that has either a QR code or a barcode**", read by an optical scanner at the AFT, validated by "**a cloud server**", so "**it allows a player to traverse through all of the machines in the location**" before returning to the POS, an attendant, or "**a self-checkout counter, which is the kiosk**" to get the card [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]. Device detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md]].
+- **He conceded the show demonstration may have overshot.** "**I understand that what I showed… could have been misunderstood, or I've created too much excitement. The goal is to tame it down and to bring it into… legislative compliance format**", and framed JVL's intent as not wanting "**to kill the efforts by the market to properly legislate the process**" [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+- **He put his own reading to them for confirmation:** that what they want is either automated cash processing "**for the location, but not related to COAM**", or "**a standalone ATM machine, which you guys already have in every location**" — "**Do I understand it correctly, or am I looking at it erroneously?**" What came back was the statutory reading above, not a yes or no [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+
+### Val's market read, stated to the regulator
+
+- **Where the money is.** "**everyone is focused on taking business away from InComm. Jealousy, money, money. You know, money is not in issuing a card; it's in managing cash**" — the same conclusion he reached from the Fiery Pay fee sheet at the top of this page, now said out loud to the Lottery [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+- **And that the market has turned political.** He described being taken to lunch by three of them at "the fancy restaurant" — "**It was extremely political, and they told me very uncomfortable things**" — and a staff member agreed: "**We're definitely in… a uncomfortable period of time**" [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]. InComm side on [[wiki/organizations/incom.md]].
+
+## Sept 10 2026 (afternoon) — the regulator's answer relayed to an operator within two hours, and the weekend-risk window sized
+
+Val went from the Lottery straight to the [[wiki/meetings/2026-09-10-diamond-amusements-machine-performance-and-bundle-pilot.md|Diamond Amusement visit]], where the letter came up before he could raise it. **This is the first source in which the Lottery's own reading is repeated by a JVL person to a customer, and checked back by that customer.** [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+### The rule, relayed and confirmed back
+
+- **The operator opened with the letter, unprompted.** "**Don't think we're ever going to do cash in Georgia. Based on the lottery, the letter [Joe Kim] published last week about not converting the winnings to cash, I don't know how we're going to get past that.**" That is the first operator in the corpus to name the letter as the reason for standing still. [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- **Val's relay of what he had heard that morning:** "**I read the letter and I also met with the lottery today**… they're saying that **even if there is an ATM in a location, it's illegal to redeem this… card in this location. But it's not illegal to redeem this card at a different** [location]. **Yes, that… sounds ridiculous.**" [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- **The customer summarised it back correctly, and Val confirmed:** "**So Justin and Chris said it's okay, just not in the same licensed facility.**" — Val: "**That's right**… **you could walk out into the next-door location that has an ATM and redeem the card, and none of them said to me that the card itself is illegal.**" [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- **One internal tension in the same file, recorded not resolved.** Forty minutes earlier, in a heavily garbled opening exchange, Val is transcribed as saying of the InComm card "**That's not legal. They published a letter last week and said it's not legal. The card is not legal.**" That is the opposite of his later "**none of them said to me that the card itself is illegal**", and of the Lottery's own reading recorded above. The early passage is fragmentary and its speaker attribution is Plaud's; **both are recorded and neither is preferred.** [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- **And the position Val insists on taking in public:** "**I want to make something very clear: we are not legislators. We're also… not political people. We are [a] technology company.**" The operator's reply is the market's position in one line: "**unfortunately, we have to live in the uncertainty of the environment.**" [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+### The broker's risk window, sized by an operator for the first time
+
+Everything on this page about broker exposure has been Val's arithmetic. Here the operator does it, and Val agrees on the spot ("**You're dead on**"): [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+- **The window is settlement lag over a weekend.** "**where your risk comes in is on long weekends or weekends in general because processing runs over seventy-two hours**… **So that's your highest risk exposure**", with bank cycles "**most of them… three days**" — Friday two o'clock, landing again Monday.
+- **The numbers:** "**Thirty thousand dollars a week in redemption. Fifteen, fifteen thousand that goes back in replay within the system. That's fifteen thousand dollars of exposure risk.**" — Val: "**Per day. Three days. Forty-five thousand.**"
+- **Against the margin this page already carries:** "**let's say you issue ten cards a day. So I made ten dollars per day.**" A dollar a card against a rolling $45,000 weekend position. See [[wiki/decisions/2026-09-10-diamond-will-not-guarantee-card-clearance-debt.md]].
+- **And a second operator refuses the broker's risk, having refused InComm the same way before:** "**we looked at this years ago when we first rolled out the pilots, and even with [InComm], we didn't want to get in the middle of it** because… **the relationship we have with the location is so fragile**… **I don't want to lose ten thousand dollars.**" [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+### A competing kiosk that already does the loop
+
+Diamond runs a kiosk from "**a company called American Kiosk**" configured to "**accept the kiosk ticket, and then it issue[] a gift card**", and — the part the operator singled out — "**allows you to take the gift card back, like they can come back another day… and purchase a TITO ticket and keep playing the games. So it keeps the card inside… in the system that way. You can try to keep the revenue.**" That is the replay loop the [[wiki/organizations/continental.md|Continental]] and Novomatic discussions above describe operators wanting, already installed at the operator JVL is pitching. **Recorded as competitive evidence; JVL's bundle is not described in the source as displacing it by name.** [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+## Sept 11 2026 — the float mechanics from someone who runs the rails, and Val puts 8% on the back end
+
+At the [[wiki/meetings/2026-09-11-digital-cash-processing-card-solution-and-cash-float-partnership.md|Sept-11 11:07 AM call]] with [[wiki/organizations/digital-cash-processing.md|Digital Cash Processing / ICP Inc.]], Val asked a payment facilitator the question this whole page circles: what is the money actually worth. **This is the first time anyone in the corpus describes the float's plumbing from inside it, and the first time Val puts a number on the back end.** The derived notes summarise the meeting as a first exploratory call at which Val "redirected the conversation onto the only part of the business he is interested in" [[raw/Meeting_Notes_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]] [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]
+
+### The question, asked in its fullest form
+
+> "**Rick, how much money could be made on holding that money? What… is the percentage, approximately? With all… the charges, monthly charges… processing fees, you know, just simply holding money, all the unused funds at the end of the term. What… does it all result in? On a hundred… dollars. What… would you make on a yearly basis?**"
+> [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]
+
+**[[wiki/people/rick-beer.md|Rick Beer]] would not answer it** — "Some research and some projections. I wouldn't be able to answer that, but that's a good question" — and put the legal constraint ahead of the commercial one: how long funds may sit in the **FBO account** they hold with their sponsor bank before depository-institution regulation applies. "**It just undercuts a lot of it.**" [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]
+
+### The mechanism he did give
+
+- **Where the money sits:** "**That would be in a bank account, an FBO account that we have… control.**"
+- **What is done with it:** "**Probably safe, safe investment that can be easily, you know, converted to liquid.**"
+- **When it leaves:** on the cardholder's ATM draw the processor takes the fee and releases the money — "**Correct, correct. And if we're driving the ATM… we wouldn't have to pay any additional fees. So there would be ATM interchange… that would be bypassed.**"
+- **And how the issuer earns:** "**That's the card issuer. They're going to make interchange. So if the customer uses it at [a] place, the issuer is going to make interchange. So they make some funds there, and then… depending on what they do with the funds and how they invest it, obviously you can make money there.**"
+
+[[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]
+
+**This corroborates, from the rails side, what Val worked out by inference on Aug 31** — the principal sits with the processor and the return on holding it is the real income, not the fee line.
+
+### Val's number: ~8% on the back end of $5 billion
+
+Having given them the market size (below), he offered his own estimate [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]:
+
+> "I believe there is **approximately eight percent that would be made on the back end. That's… my projections and my personal calculations.**" — Cashin: "**Eight percent of the five billion?**" — Val: "**That's right.**" — and immediately: "**But I might be totally off base.**"
+
+**It does not sit where the earlier figures sit, and it is not reconciled here.** On Aug 31 Val estimated the processors "**probably make close to fifteen percent overall**" and, minutes later, "**close to twenty percent per year**" of the same $5bn. This 8% is explicitly labelled *back end* rather than overall take, so the three numbers may not be measuring the same thing — **the sources do not say, and no reconciliation is asserted**. Cashin's response was "**we're going to run those numbers**" [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]] [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]].
+
+### The market, sized for an outsider
+
+Cashin guessed at "**the sixty eight hundred locations or sixty eight hundred machines**" and was corrected [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]:
+
+> Val: "**Five Billion dollars.**" … "**Seventy four hundred locations, forty seven thousand machines.**" … "**Forty seven thousand machines, seven thousand four hundred locations, five billion dollars.**"
+> Cashin: "**Five billion. Didn't know that. B with the B.**"
+
+Those are the same three figures as the Sept-4 internal re-measurement and the Sept-9 47,000 Val gave [[wiki/people/david-sloan.md|David Sloan]] — **stated together, to an outsider, for the first time.** See [[wiki/projects/georgia-market-rollout.md]].
+
+Val's own gloss on his motive, said in the room: "**I'm only interested in money. I'm… the greedy**" *(the completing word "Guy." falls on Rick Beer's speaker label — a Plaud mis-split; recorded, not repaired)*. And the close: "**My goal is to derive… my profit at… the end. From managing cash.**" [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]
+
+### The incumbent's monthly card fee — two different start dates, unresolved
+
+Comparing notes on the InComm card, neither man was sure when the monthly charge begins [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]:
+
+- **Cashin:** "these guys with their skill pay **after twelve months, they start charging five dollars a month to lead the card**", and again "**I start beginning in the thirteenth month after activation.**"
+- **Val:** "**I think they start charging from the first month.**" Asked "Is it the first month?" — "I think so." Then, conceding: "**Anyway, well, you would know better.**"
+- **The amount they agree on:** "**And I think the monthly fee is about five bucks.**" — "**Yes.**"
+- **Cashin's conclusion either way:** "**So they're not making money out there forever.**"
+
+*(This sits against the **$2.95 per month** dormancy fee on the **Fiery Pay** fee sheet at the top of this page — a different processor's card and a different fee name. **Not the same figure and not treated as one.**)* [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+
+### And the flat statement about InComm that does not fit the record
+
+Asked by Rick what the financial opportunity is versus existing offerings like Fiery Pay, Val answered: "**InComm doesn't offer any profit sharing on the other side. So why would I do InComm.**" [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]
+
+Nine days earlier he told [[wiki/people/billy-liu.md|Billy Liu]] the opposite about the same company: "**[InComm] gives me 0.5 percent of the processing fee**", and InComm's own people had offered "somewhere to start would be like fifty basis points" at the Sept-2 lunch (both above). The two statements may be about different things — a *processing-fee* share versus a share of the *back end and float* — but **neither source says so, and nothing here resolves it.** Recorded in both places; see also [[wiki/decisions/2026-09-11-market-access-traded-for-a-share-of-the-back-end-and-the-atm-fee-belongs-to-the-master-operator.md]] [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]] [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]].
+
+### The rule Val gave them about the whole product class
+
+Asked whether the card is useful in Nebraska or the other markets, he answered generally, and Rick agreed on the spot ("I would agree with that") [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]:
+
+> "**I think that in any market, [a] card solution is not… useful if it doesn't lead to cash.**"
+>
+> "**Any… card solution is a form of circumventing a black market or creating another black market or gray market.**"
+
+He gave it twice as personal opinion — "**I'm not an authority. I'm not a legislator. I'm just like you, a technology guy**" — and his read of the moment: "**everybody is confused today, and there's no clear guidance from the [legislature] on which card to use or what system to use, and what's legal and what's not legal.**" [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]
+
+**§15.8:** clear — float mechanics, fee structures, market sizing and back-end margin estimates only; no named-person compensation.
+
 ## Open questions
 
+- **What is the back end actually worth — 8%, 15% or 20%?** Val has now given all three within twelve days, the last explicitly labelled as the *back end* and caveated "I might be totally off base"; no counterparty has produced a number of its own — [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]] [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+- **Does InComm share back-end profit with JVL or not?** "InComm gives me 0.5 percent of the processing fee" (Sept 2) against "InComm doesn't offer any profit sharing on the other side" (Sept 11), both from Val — [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]] [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]
+- **When does the InComm card's ~$5 monthly fee start — the first month or the thirteenth?** Asserted both ways in the same exchange and left there — [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]
+- **Should JVL develop ATM or cash-out capability at all?** Val put it to the regulator directly — "**So, should I be working on ATMs, or should I not be**" — and the conversation moved to InComm without an answer. [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
+- **What is InComm's new product?** A staff member had heard "**that InComm is still working on a product to… get around even Joe's recent letter**" but did not know what it is. [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
 - **Who actually bears the 3–5% transaction fee — the merchant or the cardholder?** Asserted both ways in the room and left unsettled; the fee sheet itself is silent. [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
 - **Is the processor take 15% or 20% of the ~$5bn?** Val gave both within minutes; the derived notes carry only 15%. Neither figure is sourced to a document. [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]] [[raw/Meeting_Notes_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
 - **Does InComm actually absorb the broker's loss when a location does not pay?** Salim says yes and calls it current practice; Val was told **no** by InComm two years ago and had never heard otherwise. Salim's account is second-hand from his side too. Both the claim and the contradiction of it are recorded above; the answer determines whether JVL can be a broker at all, and Val's own colleague named it as the meeting's unresolved item: "**I'm not sure if I understand what he meant by saying that [InComm] takes… In practice, what does it mean?**" [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
@@ -337,6 +459,8 @@ Told that JVL means to replace [[wiki/organizations/incom.md|InComm]] on the bac
 
 ## Sources
 
+- [[raw/Meeting_Notes_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
+- [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
 - [[raw/Meeting_Transcript_Continental_Bifurcated_Operations_Texas_and_Virginia-September-2-2026.md]]
 - [[raw/Meeting_Notes_Continental_Vendor_Lock_In_Dead_End-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Continental_Vendor_Lock_In_Dead_End-September-2-2026.md]]
@@ -356,3 +480,7 @@ Told that JVL means to replace [[wiki/organizations/incom.md|InComm]] on the bac
 - [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]]
 - [[raw/Meeting_Notes_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
 - [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+- [[raw/Meeting_Notes_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- [[raw/Meeting_Notes_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]
+- [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]

@@ -3,7 +3,7 @@ type: person
 title: Sergey Tsymanov
 date: 2026-07-14
 aliases: [Sergey Tsymanov, Siarhei Tsymanau, Sergey Tsimanov, Tsymanau, Tsimanov, Sergei Tsyganov, Tsyganov, Цыганов, Sergei, Sergey]
-source-count: 13
+source-count: 14
 open-commitments: 5
 disambiguation: "Minsk engineer who drafts CMS requirements with the backend 'Dima' (Chudinov). OWNER-CONFIRMED 2026-07-14 = the payroll 'Siarhei Tsymanau' (Belarusian) and the IT-records 'Sergey Tsimanov' — same person; Tsymanov canonical, Tsymanau/Tsimanov aliases. Distinct from other 'Sergei/Sergey' names (e.g. Sergei Novitsky the advanced-setup technician); resolve by context."
 ---
@@ -66,6 +66,12 @@ On the [[wiki/meetings/2026-08-24-nova-lgs-prose-standard-checkpoint.md|Aug-24 p
 
 - [ ] Write prose and capabilities for the backend/CMS, and verify that the prose Val gave Dima Chudinov matches the current code (assignment owned by Pavel Frolov and Irina Shishko; Sergey was not on the call) — due unspecified — [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
 
+## Sept 11 2026 — named for the FlexPay server side, and added to the capability project
+
+At the [[wiki/meetings/2026-09-11-transactional-mvp1-scope-and-priorities.md|Sept-11 8:04 AM call]] [[wiki/people/pavel.md|Pavel Frolov]] named Tsymanov as the server-side half of FlexPay — "со стороны сервера [до]бавляет поддержку Сергей [Цы]манов" — opposite [[wiki/people/alexander-biratka.md|Alexander Biratka]] on the kiosk side. Later in the same call Pavel asked for him to be added to the capability project alongside [[wiki/people/alexei-khamin.md|Alexei Khamin]], and [[wiki/people/andrey-bosik.md|Bosik]] had it done during the meeting [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]].
+
+**FlexPay is no longer MVP 1**, so this work runs in parallel to the October-1 line rather than on it — see [[wiki/decisions/2026-09-11-mvp1-goes-with-flex-iq-alone-and-one-kiosk-per-location.md]].
+
 ## Sources
 
 - [[raw/Meeting_Notes_Legacy_CMS_Documentation_Progress_Check-April-15-2026.md]]
@@ -81,3 +87,4 @@ On the [[wiki/meetings/2026-08-24-nova-lgs-prose-standard-checkpoint.md|Aug-24 p
 - [[raw/cms_github_svn-apr-15-2025.md]]
 - [[raw/Meeting_Notes_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
 - [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]

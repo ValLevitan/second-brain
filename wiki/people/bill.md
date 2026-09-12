@@ -2,11 +2,11 @@
 type: person
 title: Bill (ARC's kiosk vendor)
 date: 2026-08-31
-aliases: [Bill, ARC kiosk vendor, the kiosk guy, Bill's kiosk]
-source-count: 3
+aliases: [Bill, ARC kiosk vendor, the kiosk guy, Bill's kiosk, Bill Nader (provisional — not asserted), Bill Nadler (provisional), Bill Madler (provisional), Gaming Solutions Corporation (provisional)]
+source-count: 4
 open-commitments: 0
-open-questions: 3
-disambiguation: "The kiosk-company owner who supplies ARC Gaming's kiosks and is a long-standing partner and friend of ARC CEO David Sloan — resolve by the ARC / Georgia-kiosk-vendor context. He is NOT [[wiki/people/billy-liu.md|Billy Liu]] (Play Payments) and not [[wiki/people/will-jones.md|Will Jones]]; no surname appears anywhere in the corpus."
+open-questions: 4
+disambiguation: "The kiosk-company owner who supplies ARC Gaming's kiosks and is a long-standing partner and friend of ARC CEO David Sloan — resolve by the ARC / Georgia-kiosk-vendor context. He is NOT [[wiki/people/billy-liu.md|Billy Liu]] (Play Payments) and not [[wiki/people/will-jones.md|Will Jones]]; no surname appears anywhere in the corpus. A candidate surname — "Bill Nader" of Gaming Solutions Corporation, from the 2026-09-11 Digital Cash Processing call — matches on four points and is recorded in the Sept-11 section below, but is NOT asserted and NOT merged; owner ruling pending."
 ---
 
 # Bill (ARC's kiosk vendor)
@@ -51,8 +51,28 @@ Sloan's answer to both was the same non-answer: "**I'm not against what you're s
 
 **§15.8:** clear — vendor relationship and product description only; no compensation of any kind recorded for this person.
 
+## Sept 11 2026 — a "Bill Nader" appears with a surname, a company, and the same GPT connection — NOT merged
+
+At the [[wiki/meetings/2026-09-11-digital-cash-processing-card-solution-and-cash-float-partnership.md|Sept-11 call]] with [[wiki/organizations/digital-cash-processing.md|Digital Cash Processing / ICP Inc.]], [[wiki/people/andrew-cashin.md|Andrew Cashin]] repeatedly named a **"Bill Nader"** he had built his Georgia card product with, and **[[wiki/people/val-levitan.md|Val]] answered that he knows him.** The profile lines up with this page's surname-less Bill on four separate points. **Nothing is merged and no surname is asserted here** — this is recorded so an owner can rule on it. [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]
+
+**What the Sept-11 source says:**
+
+- **He sells kiosks, systems and hardware.** "**worked with Bill Nader at Gaming Solutions Corporation**"; "**he's in the selling systems and hardware out there**"; and post-show, "his **global or gaming global source** or whatever it is. You know, **he's selling the solution out there**" [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]].
+- **Val knows him, and names GPT.** "**Sure, I know United Coin, and I've done and I know Bill Madler from the days of GPT.**" [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]
+- **Cashin has known him since about 1995**, from **United Coin** in Las Vegas [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]].
+- **He is linked with a Dave Sloan.** "**I talked to Bill Nader before the show, and then also with Dave Sloan as well. You know, was his partner in crime there.**" [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]
+- **He does not know which card belongs in his own kiosk**, and Cashin relies on him for regulatory guidance that Val doubts he has: "**I don't know if Bill Nader speaks to [the Lottery].**" [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]
+- **He wants Cashin to become a card issuer:** "**Andrew, I need you to be a Mastercard issuer and be Intel**" *(the last two words are garbled and not interpreted)* [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]].
+
+**Why it looks like the same person** — four matches against what is already on this page: (1) **GPT** — Val's Aug-31 "a company called **G. P.** With an office in Long Island" and Sloan's "I know Bill from **GPT**", both flagged unresolved above; (2) **the timing** — Val's "I know him for thirty years" (mid-1990s from 2026) against Cashin's "since like 1995"; (3) **the business** — a kiosk/systems company in the gaming-route trade; (4) **Dave Sloan** — the same pairing this page already records as a years-long partnership and friendship with ARC's CEO [[wiki/people/david-sloan.md|David Sloan]].
+
+**Why it is not asserted.** No source in the corpus ever gives the ARC vendor's surname, and no source ever connects "Bill Nader" to ARC Gaming or to ARC's kiosks. The Sept-11 file itself renders the surname three different ways — **Nader**, **Nadler** and (in Val's mouth) **Madler** — and the company name once as "Gaming Solutions Corporation" and once as an unreadable "global or gaming global source". **Under §9b the safe default is to record the candidate and keep one page**, not to create a second page or stamp a surname on this one. Queued for an owner ruling.
+
+*(The "Dave Sloan" named here is likewise **not** asserted to be ARC's CEO, though the pairing with Bill makes it the obvious reading.)*
+
 ## Open questions
 
+- **Is this Bill "Bill Nader" of Gaming Solutions Corporation?** Four independent points of agreement (GPT, mid-1990s, kiosk/systems company, Dave Sloan) and no source that joins the two by name. **Owner ruling requested; not merged.** — [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]] [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]] [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
 - **Is Bill building a back-end solution of the same nature as JVL's intent?** The answer decides whether Val proceeds at all. Sloan said he had asked and got "different things" and "working on a solution" — neither a yes nor a no. [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
 - **Is Bill's company the "EXIO" of the Aug-31 twenty-year agreement?** Both accounts describe ARC's kiosk supplier, from two different ARC executives, eight days apart, with no name in common. **Not merged.** [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]] [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
 - **Will Sloan ever carry a JVL proposal to him?** The friendship is what makes him the only route and the reason the ask may not be made — the question first recorded on [[wiki/decisions/2026-08-31-arc-kiosk-board-swap-routed-through-the-ceo.md]] and **still untouched**: the board-swap proposal was not raised at the Sept-9 meeting. [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
@@ -62,3 +82,4 @@ Sloan's answer to both was the same non-answer: "**I'm not against what you're s
 - [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
 - [[raw/Meeting_Notes_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+- [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]

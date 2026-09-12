@@ -2,9 +2,9 @@
 type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
-aliases: [test automation, testing architecture, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction, Figma to React, Vite, Claude Code review loop, acceptance criteria, two test warehouses, frozen test cases, test harness, test registry]
-source-count: 37
-open-commitments: 10
+aliases: [test automation, testing architecture, eighty percent of the general functionality, requirements are step two, a hole automated tests will not cover, acceptance criteria in general terms, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction, Figma to React, Vite, Claude Code review loop, acceptance criteria, two test warehouses, frozen test cases, test harness, test registry]
+source-count: 40
+open-commitments: 12
 open-questions: 3
 ---
 
@@ -388,6 +388,38 @@ The sharpest version of the write-it-down-first argument in the corpus, at the [
 - [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] and [[wiki/people/alexei-khamin.md|Alexei Khamin]] — write the negative cases up as acceptance criteria in parallel with the positive-case work — due unspecified — [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 - [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] and [[wiki/people/alexei-khamin.md|Alexei Khamin]] — grade how much of the scope Bosik's generated requirements actually cover (Pavel expects ~5% of kiosk behaviour) — due before the Bosik/Kovalchuk planning session — [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 
+## Sept 10 2026 — the engineers re-affirm the chain among themselves, and put a number on "good enough"
+
+The morning after Val parked his own challenge, the same Minsk group met at 5:31 AM **without him** ([[wiki/meetings/2026-09-10-capability-requirements-workflow-and-mvp-split.md]]) and [[wiki/people/pavel.md|Pavel Frolov]] restated the chain as settled. Full ruling on [[wiki/decisions/2026-09-10-requirements-come-first-and-the-recycler-is-out-of-both-mvps.md]] [[raw/Meeting_Notes_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]].
+
+- **The goal, stated as an inequality.** Easy to test means testing costs less than development did, which means automating as much as possible: "[л]егко протестировать[ —] это значит затратить на тестирование меньше времени, чем затрачено время на разработку. А значит, максимально в автоматическом режиме" [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]. This is Irina's Sept-9 cost argument turned into the meeting's opening premise.
+- **The verification step named.** A closed feature that satisfies the acceptance criteria attached to its requirement is checked by Claude automatically: "[е]сли фича закрыта и удовлетворяет а[к]цепто[нс] критериям, привязанным к рекла[мент]с… [в] автоматическом режиме должно проверяться [Клодом]" [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]].
+- **The hole is acknowledged, not hidden.** It only works "при условии, что… [в]се кап[аб]илити написано и все требования написаны… [п]отому что если этого нету, то тогда у нас возникает дыра, которая не будет закрыта автоматическими тестами" [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]].
+- **And the number that makes it worth doing anyway: ~80%.** "[М]ы не можем закрыть 100%… но… если общий функционал хотя бы покрыт… на 80%… то и тесты будут покрывать довольно большой объём[ ]работы устройства… [и] это всё равно большая часть, которую можно забрать у мануального тестировщика" [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]. *(The same 80% figure Val accepted for data-contract coverage on [[wiki/decisions/2026-09-04-data-contracts-closed-every-repository-by-september-11.md]], and the same 75–80% Val set for generated requirements on [[wiki/decisions/2026-09-09-planning-handed-to-bosik-and-kovalchuk-with-daily-recorded-sessions.md]].)*
+- **What to do when nobody knows how to test something yet:** write the acceptance criterion in general terms and accept the debt. [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] asked, Pavel answered — "а[к]септо[нс] критерий значит будет написан в общими фразами… есть над чем работать в будущем, но по крайней мере это покрыто каким[-]то описанием" [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]].
+- **Automation is explicitly the third step, not the first.** [[wiki/people/andrey-bosik.md|Andrey Bosik]] proposed doing the MVP split and then the test automation; Pavel put requirements ahead of both — "[н]у это это это 3 шаг[;] 2 шаг это всё[-]таки рекла[мен]с" [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]].
+
+**This does not answer Val's Sept-9 question.** He raised the "why write at all" challenge himself, parked it for himself — "это я должен подумать" — and was not in this room. What Sept 10 shows is that the engineering group is proceeding on the written-first assumption in the meantime, with 80% as the declared sufficiency bar. The open question below stands.
+
+## Sept 11 2026 — Val says yes to autotests for the e-wallet use cases, and names the reason
+
+At the [[wiki/meetings/2026-09-11-transactional-mvp1-scope-and-priorities.md|Sept-11 8:04 AM call]] [[wiki/people/pavel.md|Pavel Frolov]] put the question directly — the e-wallet operating modes and their use cases are essentially built, and "то, чего здесь не сделано[,] это автоматические тесты[;] хотим ли мы сейчас написать для этого автоматические тесты?"
+
+> **Val:** "Да[,] если мы их не напишем, то это будет делаться руками[,] и руками всегда создастся ба[тлнек]." [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+
+- **Features get created and scheduled by [[wiki/people/irina-shishko.md|Irina Shishko]], and assigned.** Pavel: "необходимо создать фичи… и уже эти фичи расставил бы… наверное[,] ира… [м]ожет быть, это сразу назначит на кого[-]то… [т]ам на Алексея например." Irina agreed to name [[wiki/people/alexei-khamin.md|Alexei Khamin]] regardless — "можно сразу его[,] в любом случае[,] это на лёшу, а если что[-]то нужно, [пусть] дима просто предоставит" — and Pavel did it on the call: "[в]от я перевел на Алексея" [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]].
+- **Khamin and [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] were added to the capability project during the meeting** — Pavel asked [[wiki/people/andrey-bosik.md|Bosik]] to have Kovalchuk add them, and Bosik reported back "[г]отово, проверяй" [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]].
+- **The honest scope for now is small.** Pavel: "автоматическим тестированием будет покрыта только… какая[-]то маленькая часть, связанная с флекс IQ", and nothing at all is scheduled beyond October 1 — "пока мы за пределы 1 октября ничего не[…] ставим" — with the coming week heavily parallel [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]].
+- **Where the autotests attach.** The gateway capabilities were deliberately kept separate rather than merged, precisely because the features underneath them will be test executions and autotests "которые пишутся с [Клодом] по тем [регламентам], которые ты там привязал" — written with Claude against the regulations. See [[wiki/decisions/2026-09-11-acceptance-criteria-live-in-the-regulations-not-the-capabilities.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]].
+- **And Val added a second use for the same tooling:** ask Claude to produce the architecture design, because doing so exposes holes in the capability set — "я вам советую попробовать попросить [Клод] сделать архитектур[ный] дизайн… потому что арки[тектурный] дизайн[,] бест[,] [ка]п[аб]и[ли]т[и]с выявит в себе какие[-]то дырки" [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]. Related: [[wiki/topics/ai-assisted-development.md]].
+
+**This is Val answering, for the transactional line, the cost question he raised on Sept 9 and parked** — not the general "why write requirements at all" challenge, which stays open below, but the narrower "is automating this worth it" question, answered yes on bottleneck grounds.
+
+## Open commitments (Sept 11 2026)
+
+- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — schedule the automated-test features for the e-wallet use cases into the days they can be done, with [[wiki/people/alexei-khamin.md|Alexei Khamin]] as the named owner and [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] supplying whatever is needed — due week of Sept 14 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — write the automated tests for the e-wallet use cases on Flex IQ — due unspecified, ahead of Oct 1 — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+
 ## Open commitments (Sept 4 2026)
 
 - [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — hand the 212 acceptance criteria to Claude to test, and report back where it cannot test — due this week (Val's proposal, accepted) — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
@@ -396,6 +428,8 @@ The sharpest version of the write-it-down-first argument in the corpus, at the [
 
 ## Sources
 
+- [[raw/Meeting_Notes_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Notes_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]
@@ -433,3 +467,4 @@ The sharpest version of the write-it-down-first argument in the corpus, at the [
 - [[raw/fast-pacing-stand-up meeting-part-1-october-10-2025.md]]
 - [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 - [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]

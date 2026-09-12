@@ -1,0 +1,109 @@
+---
+type: organization
+title: Georgia Lottery Corporation (COAM regulator)
+date: 2026-09-10
+aliases: [Georgia Lottery, Georgia Lottery Corporation, GLC, COAM staff, the Lottery, COAM division, COAM Hearing Room, Georgia Lottery COAM, guidance is not the law, they're coming out with the draft, the general counsel had a negative reaction]
+source-count: 6
+open-commitments: 2
+open-questions: 3
+---
+
+# Georgia Lottery Corporation (COAM regulator)
+
+The state body that regulates Georgia's **Coin Operated Amusement Machine (COAM)** business — the Class B market that is [[wiki/projects/georgia-market-rollout.md|JVL's core land-based market]], and the body whose reading of the prize-card statute governs whether [[wiki/topics/flexpay-business-architecture-payout-devices.md|JVL's transactional line]] can be sold there. It appears across the corpus as "the Lottery" or "GLC"; its general counsel is [[wiki/people/joe-kim.md|Joe Kim]].
+
+This page starts from the first **direct, first-hand** source in the corpus: [[wiki/people/val-levitan.md|Val Levitan]]'s introductory meeting with the COAM staff in the **COAM Hearing Room** in Atlanta on **September 10 2026**, 10:21–11:20 AM Eastern. Everything before that reached the wiki second-hand, through [[wiki/organizations/incom.md|InComm]] or through operators [[raw/Meeting_Notes_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+
+**A hard attribution limit on this source.** The recording was made offline on a Plaud device and labels speakers by **number only**, so individual lines cannot be reliably tied to named people. Where this page says "a staff member" or "the staff", that is the ceiling of what the source supports [[raw/Meeting_Notes_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+
+## Who was in the room (Sept 10 2026)
+
+- **Named inside the transcript:** **Justin**; **Tracy Warren**, introduced as "our **licensing coordinator**, so she's the one who sends out the…"; a **Mike** (referenced in passing at the security gate); and a **Chris** [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+- **Named on the invitation** (from the derived notes, not spoken on the recording): **Chris Boncek** (organizer), **Michael Parham**, **Adel Mason**, **Andrew Pippin**, **Reginald Tartt**, **Justin Cotton**, **Chris Foss** [[raw/Meeting_Notes_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+- **Narrowed the same afternoon, by Val himself.** At the [[wiki/meetings/2026-09-10-diamond-amusements-machine-performance-and-bundle-pilot.md|Diamond Amusement visit]] two hours later, asked "You met with Joe?", Val answered "**No, I met with… yeah, and the other guy, Justin**", and his customer summarised the outcome back as "**So Justin and Chris said it's okay, just not in the same licensed facility**" — confirmed by Val. So the prize-card reading below came from **Justin and Chris**, and **not** from [[wiki/people/joe-kim.md|Joe Kim]], whom Val has still never met. **Surnames are still not given**, and the invitation list carries both a *Justin Cotton* and a *Chris Foss* (plus the organizer *Chris Boncek*), so the identification stops at first names. [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- One staff member said he had been on the regulatory side of the business for six years — "[I have] **been on regulatory part of the business for six years**" — and another that he had worked in the building for "**29 years next month**" [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+
+## The prize-card rule, stated by the regulator in the room
+
+The most load-bearing passage in the source. Val had described JVL's transactional line and asked outright whether he understood the rule correctly or was "looking at it erroneously." The answers, as spoken:
+
+- **"So the way the law is. When you get that gift card, that gift card cannot be exchanged for currency at the location. You cannot take that gift card and then put it in the ATM and get cash at that location."** Val supplied "Where the prize is won." — answered "Correct." [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
+- **What the statute does not reach.** "**The way the statute reads is that the gift card itself cannot be exchanged for currency. That's the legal effect. Now, what you do with that gift card after you get it, whether it's purchasing another gift card, taking it to the store across the street, using it there, I think the intent of three fifty-eight nine…**" *(The statute is named only as spoken — "three fifty-eight nine" — and the sentence breaks off there. No code section is asserted.)* [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
+- **What the drafters seem to have had in mind.** A player "**would get a gift card like a Home Depot card or Kroger card or something else out of a kiosk or the store had a gift card display, so just a rack of gift cards that you select from. So I don't know that it was contemplated that you would… that that card would be a white card**" — the white card being the one with ATM functionality. And: "**I think that is where the direct gift card to currency is most profitable**" [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+- **Val's objection, and the staff's acknowledgement of the awkwardness.** "**But every single store in Georgia, I haven't found a store in Georgia that does not have an ATM. What… what's the catch?**" On his reaction to the recent letter — "I was never more confused than reading this letter" — the reply was "**Welcome to our world**" [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+- **The position is new, and the Lottery said so.** "**And if we would have had this meeting a couple weeks ago, the answer… probably would have been a little different.**" And on the process: "**it's much easier to have a collaborative effort on the front end as opposed to trying to… wrangle this all in once it's in the market. Unfortunately, we are the latter scenario right now where we're trying to wrangle something in that has… been out there for… one stance, and now… our council's taking a different stance. So… that's just a recent update**" [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+- **HB 353 named, in passing.** A staff member, on JVL's bar-top product: "**especially with the HB 353 expansion of the gift card and everything… we kind of guesstimated that we would see more bars and taverns and stuff come into the mix**" [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+
+Commercial context on [[wiki/topics/georgia-prize-card-processor-economics.md]]; the counsel behind the shift is [[wiki/people/joe-kim.md|Joe Kim]].
+
+**How it travelled.** Within two hours Val had relayed this reading to a Georgia master licensee at the [[wiki/meetings/2026-09-10-diamond-amusements-machine-performance-and-bundle-pilot.md|Diamond Amusement visit]] — "**they're saying that even if there is an ATM in a location, it's illegal to redeem this… card in this location. But it's not illegal to redeem this card at a different** [location]" — and the operator checked it back correctly. Val's added gloss, which the Lottery transcript supports: "**none of them said to me that the card itself is illegal.**" [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+
+## The Lottery's own position on Class A
+
+Recorded in full on [[wiki/decisions/2026-09-10-the-lottery-tells-jvl-class-a-manufacturing-is-lawful-today.md]]. The points that belong to this page as facts about the regulator itself:
+
+- **Class A sits outside the Lottery's technical machinery.** "**it's very much a different comparison when you compare it to B's because the A's are not hooked up to a central accounting system, so there's no certification**" [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+- **There is no book of Class A regulations to read.** Val asked directly — "is there a book of regulations for Class A that I can read? So because I haven't… been able to locate one" — and got no document [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+- **Class A licensing until about a year ago.** "**before it was on the Class A side, all it was was if you had a pulse and you could pay your licensing fee, you get a license**… **So we didn't even think about this approach until about a year ago or so**" [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+- **What the staff want without being able to demand it.** "**We ask for… specifications. You know, even though legally we don't have to get them, it'd be nice to see them**… **we'd like to make ourselves familiar with what's going on on the A and B side**", plus "**From a technical aspect, we would want to see how the machine functions**" [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+- **Their read on how they have approached manufacturers so far:** of two they went to see, "**one we went to, they were an open book, giving us information**… **The other was not an open book**… it was more like, oh, we don't have that information, which… **that was not correct**" [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+- **And the limit they named themselves:** "**I understand that our understanding may change with the legislation**" [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+
+## The lab, and why prototypes go to Intralot
+
+- **The Lottery's own lab is one room and it overheats.** "**We've got limited space… we got one room that is our lab and… the building, as beautiful as it is, isn't very efficient, and the heat displacement**… **we put too many games in there; gets real hot**" [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+- **So prototypes are hosted at Intralot instead.** "**we do have Intralot… host a lot of the prototypes… In the lab environment, there**" — where the Lottery's contact is **Bill**, described by Val as "great" and by the staff as someone they work with "quite a bit" (the transcript renders the company once as "Interlock") [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+- **They hold an older JVL cabinet and have asked for a newer one.** "**we've got an older version of the cabinet, and we had inquired if we could get an updated version of the product**" — raised as a chance to "kill two birds with one stone" alongside the transactional demonstration [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]. Outcome on [[wiki/decisions/2026-09-10-the-transactional-equipment-demonstration-goes-to-intralot.md]].
+
+## How the staff read the legislature
+
+- **Timing is the risk, not the current rule.** "**We are hearing some things that the [legislature] will address it, possibly in January, and next session**" [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+- **Entry draws attention, and attention accelerates legislation.** "**The more manufacturers that get into this market between now and the end of April, where they end up positioning this, the more attention it creates for the legislature. The more urgency they're going to feel to act to make a change. It could be really great if it stays the way it is for the next year**" [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+- **And a crowded bill makes it worse.** "**what we've seen historically is… you may have this one thing… they're going to talk about or focus on, but then they start throwing everything in there, but the kitchen sink… in with the law, and they muddy it all up, and everybody up there gets ticked off**" [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+- **The commercial question they put back to Val,** as a manufacturer's problem: "**I've got these A machines that are not bees. Can I? How? What? What financially? What effort do I have to go to those A's into bees? Or waste my investment?**" Val's answer was that he could ship them to Nebraska instead, being "**a signatory to the act, so I have a license to transport cross borders, but I would have to disable the machine**" [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+- **Their own framing of the boundary they work on:** "**from a gaming perspective, because we still dance that line of gaming amusement. Technically, amusement, we don't adhere to those**" [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+- **The mood, conceded plainly.** Val described the payments market around him as having turned political and weird; the reply: "**well, weird is one way to describe it. We're definitely in… a uncomfortable period of time**" [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+
+## Sept 11 2026 — what the Lottery actually receives, and the hole in it
+
+The day after the in-person meeting, JVL worked out internally what it does and does not tell this regulator when a game changes — at the [[wiki/meetings/2026-09-11-nova-game-change-regulatory-procedure.md|Sept-11 9:30 AM call]]. Nothing here comes from the Lottery; it is JVL's own account of its submission mechanics.
+
+- **Georgia does use a bin file, once, at submission.** [[wiki/people/juan-martinez.md|Juan Martinez]] thought it did not — "**we don't use a bin file in Georgia, do we?**" — and [[wiki/people/pavel.md|Pavel Frolov]] corrected him: "**Ohh, yes, we are using**", sent "**During submission**", and "**[[wiki/people/ivan.md|Ivan]] is doing this**" [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]].
+- **And it carries SAS data, not game data.** The original Georgia assumption was that "**they do not need to test a particular game behavior, just how SAS operates with the game. That's why our bin file contains only part of data center related to SAS operation… it is not directly relates to game sets**" [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]].
+- **So a new game may be invisible to the Lottery.** Pavel: if a release changes nothing in the local gaming server or data centre, the bin file does not change, "**and in this approach, Lottery will not know anything about new games. That could be a problem**" [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]].
+- **There is already evidence of it.** "**for Georgia, it's not clear because we've already introduced some of the freezing bug fixes and their system did not detect any change. So, you know, what's the definition of a change?**" (The freezing defect itself is on [[wiki/topics/egm-freezing-investigation.md]].) [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]]
+- **Where the line is, as Juan understands it.** Six games submitted, four enabled, two dormant — no notification needed, "**all six are approved, and in that scenario, we don't have to tell anybody**", possibly a reboot. Going from six to "**the 10 or 15 that we're looking at now for Georgia**" — they must be told, "**because they have to enable the game in their system**" [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]].
+- **Rather than ask the Lottery, JVL is taking the question to a test lab and paying for it** — see [[wiki/decisions/2026-09-11-the-game-change-question-goes-to-gli-as-a-paid-consultation.md]].
+
+**§15.8:** clear — regulatory mechanics only.
+
+## Sept 11 2026 (11:07) — two additions to the Sept-10 record, made when Val relayed it outside JVL
+
+At the [[wiki/meetings/2026-09-11-digital-cash-processing-card-solution-and-cash-float-partnership.md|Sept-11 call]] with an outside payment processor, Val repeated the Lottery's prize-card reading and added two things the Sept-10 record does not contain. Both are **his** account of the regulator, not the regulator speaking [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]].
+
+- **A draft is coming.** Asked whether the rule is written yet: "**Apparently, they're coming out with the… draft.**" Nothing on Sept 10 says a draft exists or is imminent. [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]
+- **The general counsel reacted badly to JVL's stand at the August show.** "**we showed that device on our stand. And the… general counsel from [the Lottery] had a negative reaction to it.**" On Sept 10 Val conceded only that the demonstration "could have been misunderstood, or I've created too much excitement"; **this is the first source naming the counsel's reaction as the trigger.** *(He says "GLC"; the counsel is not named, and reading him as [[wiki/people/joe-kim.md|Joe Kim]] is an inference.)* [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]
+- **And the three-way distinction he draws on the Lottery's behalf:** "**The guidance is not the law, and… legislation is not the law. So the law has not passed… Their guidance is something that's coming from the top.**" That is consistent with the staff's own "I understand that our understanding may change with the legislation" above [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]].
+
+One thing the same call shows about how JVL is read from outside: asked whether he had spoken to the Lottery at all, [[wiki/people/andrew-cashin.md|Andrew Cashin]] said "**I've always relied on Bill Nader and those guys to guide**", and Val answered "**I don't know if Bill Nader speaks to [the Lottery].**" The corpus records no contact between that person and this regulator [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]].
+
+## Open commitments
+
+- [ ] Georgia Lottery staff — connect Val with the right people at InComm and give him a direct phone number and email address for [[wiki/people/joe-kim.md|Joe Kim]]: "**We can call. We'll be glad to give you a phone number and… email address**", and at the close "**Let me get you some contacts, and I'll email them to you, and we'll go from there**" — due unspecified — [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
+- [ ] Georgia Lottery attendees — send Val their contact details after scanning his QR business card ("**just scan my stuff and send me yours**") — due unspecified — [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
+
+## Open questions
+
+- **Should JVL develop ATM or cash-out capability?** Val asked the room directly — "**So, should I be working on ATMs, or should I not be**" — and the conversation moved to InComm without an answer — [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
+- **Will the Lottery's prize-card position shift again?** Its counsel's stance changed recently and the staff said openly that the same meeting held two weeks earlier would have produced a different answer — [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
+- **Will the January 2027 session restrict Class A?** Nobody in the room would predict it; the staff expect it to be addressed and warned a crowded bill could make it worse — [[raw/Meeting_Notes_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]] [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
+
+**§15.8:** clear — regulatory and market content only; no named-person compensation.
+
+## Sources
+- [[raw/Meeting_Notes_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
+- [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
+- [[raw/Meeting_Notes_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]]
+- [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]

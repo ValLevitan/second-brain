@@ -2,8 +2,8 @@
 type: organization
 title: Play Payments (PlayPay) — the bank-licensed Visa wallet
 date: 2026-09-02
-aliases: [Play Payments, PlayPay, Play Pay, PlayPlay, PayApp, Play Pay wallet, play wallet, tap to fund, Billy Liu's company]
-source-count: 2
+aliases: [Play Payments, PlayPay, Play Pay, PlayPlay, PayApp, Play Pay wallet, play wallet, tap to fund, Billy Liu's company, they work their magic through visa and mobile application]
+source-count: 3
 open-commitments: 0
 open-questions: 3
 ---
@@ -79,6 +79,14 @@ Billy's account of why pushing money to a location is lawful where handing over 
 
 This is the same two-step doctrine the corpus already carries from the InComm side — see [[wiki/decisions/2026-08-26-no-cash-from-coam-redemption-device-for-skill-pay.md]] and [[wiki/topics/georgia-prize-card-processor-economics.md]] — stated here by a competing processor rather than by InComm.
 
+## Sept 11 2026 — Val tells a rival processor he is already talking to somebody working "through Visa and mobile application"
+
+Nine days after the deep-dive, at the [[wiki/meetings/2026-09-11-digital-cash-processing-card-solution-and-cash-float-partnership.md|Sept-11 call]] with [[wiki/organizations/digital-cash-processing.md|Digital Cash Processing / ICP Inc.]], Val told them the field is not empty: "**there are other guys too. I mean, I'm speaking to somebody else right now, and… they work their magic through visa and mobile application.**" [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]
+
+**He names nobody.** The description — a Visa wallet reached through a mobile application — matches this company and no other in the corpus, but **the identification is an inference and is not stated in the source.** If it is PlayPay, it is the first time its existence is disclosed to a competitor, and it was disclosed while Billy's own asked-for exclusivity sits unaccepted ([[wiki/decisions/2026-09-02-val-proposes-fifty-percent-of-play-payments.md]]).
+
+**§15.8:** clear.
+
 ## Open questions
 
 - **How much does PlayPay actually earn on volume?** Billy could not answer for $1 billion transacted and named "tiers" without describing them; Val's own $150M projection is his arithmetic, not Billy's — see [[wiki/decisions/2026-09-02-val-proposes-fifty-percent-of-play-payments.md]] — [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]]
@@ -91,3 +99,4 @@ This is the same two-step doctrine the corpus already carries from the InComm si
 
 - [[raw/Meeting_Notes_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]]
+- [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]

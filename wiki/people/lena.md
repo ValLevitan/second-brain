@@ -3,8 +3,8 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna, Selena, Elena]
-source-count: 61
-open-commitments: 5
+source-count: 63
+open-commitments: 12
 ---
 
 # Lena
@@ -232,6 +232,29 @@ At the [[wiki/meetings/2026-09-04-naming-convention-standards-and-nova-conversio
 - **She set the release calendar out loud:** Nebraska to New Year's, South Dakota VLT on NOVA from January, then one more Georgia release and probably Curve before the August show; her reasoning for keeping the team together — "It's better to allocate all team because it's a new, very important release." And two confirmations she pressed for: D2703 horizontal (not vertical) is the next product for concept and design, and **no move to 4K**. [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 - **On premium:** she argued a premium cabinet should come from the games, not the home screen — "they should be premium not only for the reason of difference in home screen, probably games different, like more premium games… some licensed games or whatever." [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 
+## Sept 11 2026 — she pushes back on the date and gets the sequencing changed
+
+At the [[wiki/meetings/2026-09-11-rage-sunset-and-class-a-on-nova.md|Sept-11 1:00 PM game-development call]] Lena was the one who converted Val's instruction into a schedule — and changed it in the process. [[raw/Meeting_Notes_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+
+- **She had already started the Class A work on RAGE** — "**I started to work on this, like all this changing in dashboard, adding like extra dialogues**" — and Val's ruling that it move to NOVA discarded that start. She accepted it: "**Okay, I see, I see your point.**" See [[wiki/decisions/2026-09-11-georgia-class-a-v43-is-built-on-nova-not-rage.md]]. [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+- **She asked for a date, was given January 1, and moved it.** "**can you give me some sense of due date… Even if we can convert like symbols and backgrounds, it doesn't mean we can convert other elements**"; then the objection that carried — "**then Nebraska, we will not finish it by the end of the year if we will do it in parallel**", "**I would rather finish Nebraska and then move whole team to NOVA projects.**" Val agreed immediately and moved to February 1. [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+- **And she refused to let February 1 harden into a commitment:** "**Let's keep it as a… goal**", until she can see how the assets convert and "**then I can give you more… educated evaluation.**" [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+- **Her capacity statement: 101 days** on Nebraska with the full team, with vacations (Dima, Anastasiya for two weeks, Natalia) and a replacement hire let go, so a fresh interview and learning curve are ahead. [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+- **She is working ahead of the platform switch deliberately** — starting the new NOVA workflow with [[wiki/people/alexander-biratka.md|Alexander Biratko]] and the developers once Dima is back, plus asset-transition experiments "**before even… full development**", in parallel with Nebraska. She also took Michael's Line Switches test-bed proposal as already her plan: "**That's what I'm going to do.**" [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+- **Her argument that the design work is not wasted either way:** "**design will be the same for Nova, Rage Studio, I mean design of this dialogues and dashboard.**" [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+- **Build status she reported:** a new bug found by [[wiki/people/ivan.md|Ivan]] — winning a progressive in Jackpot Rush or Fiery Ice Link does not show the progressive win on the topper — invisible until now "**because we cannot win progressive in Windows build**" and "**we don't have settings in show mode to win progressive**"; Natalia and Igor (and possibly Anton) work it Monday and it may need progressive-sign assets reworked. She also flagged that the Rodeo demo video must show the final version rather than the attraction video with the logo, since **Vitaliy** re-recorded it. [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+- **She defended the duplicated progressive meters on design grounds** before Michael did — the player sees them in the same place on the home screen and inside the game, "**We made [it] intentional.**" See [[wiki/topics/slot-game-design-principles.md]] (Sept 11). [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+
+## Open commitments (Sept 11 2026)
+
+- [ ] Bring the first six lines-and-ways games from Georgia V3 over to NOVA for Class A — due **goal** February 1 [2027 — year inferred], starting after Nebraska — [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+- [ ] Use Line Switches as the Class A NOVA test bed and do the dialogue/dashboard design — due unspecified — [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+- [ ] Start the new NOVA workflow with Alexander Biratko and the developers, and begin asset-transition experiments — due once Dima is back from vacation — [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+- [ ] Give a firmer read on whether February 1 is achievable once the asset transition is understood — due unspecified — [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+- [ ] Fix the progressive-win-not-shown-on-topper bug in Jackpot Rush and Fiery Ice Link — due Sept 14 2026 (Natalia and Igor work it Monday) — [[raw/Meeting_Notes_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+- [ ] Make sure the Rodeo demo video shows the final version, not the attraction video with the logo — due unspecified — [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+- [ ] Rename IP-887 to V43, keep it in backlog, archive only after migration; clean out the loose IP items; and mark IP-1061 done when it is done — due unspecified — see [[wiki/decisions/2026-09-11-ip-887-renamed-v43-and-kept-in-backlog-not-retired.md]] — [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+
 ## Open commitments (Sept 4 2026)
 
 - [ ] Finish the Queen of Luxor graphics and the wider touch area on the nudge arrows (six scenes re-exported) — due before the September 10 submission — [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
@@ -303,3 +326,5 @@ At the [[wiki/meetings/2026-09-04-naming-convention-standards-and-nova-conversio
 - [[raw/Meeting_Transcript_automation_progress_review-March-27-2026.md]]
 - [[raw/Meeting_Transcript_Transcripts_MCP_setup_Lena-March-31-2026.md]]
 - [[raw/Meeting_Notes_Transcripts_MCP_Setup_Lena-March-31-2026.md]]
+- [[raw/Meeting_Notes_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+- [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]

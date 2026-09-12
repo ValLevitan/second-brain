@@ -2,8 +2,8 @@
 type: organization
 title: Incom (payment processor)
 date: 2025-02-27
-aliases: [Incom, InComm, replace InComm on the back end, backend displacement, Incomm, Income, NCOM, Incom Payments, wrapped card rule, PAX, PAX 80, reloadable gift cards, Nathan Carver, cash-back commission, barcode activation, Mastercard rules, ABA number, MLH fee sharing, kicked to the curb]
-source-count: 57
+aliases: [Incom, InComm, they totally misled me, InComm's credit, that shift in opinion has only happened recently, black prize play card, white card ATM functionality, replace InComm on the back end, backend displacement, Incomm, Income, NCOM, Incom Payments, wrapped card rule, PAX, PAX 80, reloadable gift cards, Nathan Carver, cash-back commission, barcode activation, Mastercard rules, ABA number, MLH fee sharing, kicked to the curb, InComm doesn't offer any profit sharing, they've ignored us before during and after the show, sponsor bank behind InComm, 120 million a year, the easy living guys]
+source-count: 61
 open-commitments: 13
 open-questions: 3
 ---
@@ -444,6 +444,34 @@ At the [[wiki/meetings/2026-09-09-rao-machine-performance-and-exclusivity-offer.
 
 **§15.8:** clear — commercial strategy only; no named-person compensation.
 
+## Sept 10 2026 — Val tells the regulator he was misled, and the regulator defends InComm
+
+At the [[wiki/meetings/2026-09-10-georgia-lottery-coam-manufacturer-introduction.md|Sept-10 meeting at the Georgia Lottery]], with no InComm person in the room, both sides of the relationship got stated plainly. *(Speakers are numbered on this recording; the Lottery lines are the COAM staff collectively.)* [[raw/Meeting_Notes_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
+
+- **Val's charge.** "**I ran this business model by InComm two years ago, and on the record, they stated that they're absolutely fine with it. Had they not done it, I would have not done it. But they totally misled me. And… that's my business with them.**" [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
+- **The Lottery's defence of InComm, unprompted and specific.** "**Which to… InComm's credit, you know, like Chris said, that shift in opinion has only happened recently. So if you had the conversation with InComm a couple years ago. Our current opinion wasn't part of that process, so they probably were trying to direct you correctly to that**", and again at the end of the same turn: "**when it comes to the InComm credit, we probably weren't trying to mislead you in the beginning**" [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]. This is the first source in the corpus in which the regulator itself dates the change of position — and it exonerates InComm's earlier advice.
+- **The two cards named again, with their futures in doubt.** "**they've got the… black prize play card and then the white one that's got the ATM functionality. Based on… some of Joe's comments… here recently… They may continue with one product and kind of… [drop] the other product, but we'll… have to see.**" See [[wiki/people/joe-kim.md|Joe Kim]] [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+- **A staff member had heard InComm is building a workaround.** "**I heard that InComm is still working on a product to… get around even Joe's recent letter**" — no product named. Carried as an open question on [[wiki/topics/georgia-prize-card-processor-economics.md]] [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+- **Val says the field around InComm is now crowded, and says why.** "**I am being approached by other people than InComm**… **And everyone is focused on taking business away from InComm. Jealousy, money, money. You know, money is not in issuing a card; it's in managing cash.**" [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
+- **The relationship has soured, and he dates the turn.** "**Lately, very aggravated. It was… very different two years ago, and… it became very political and agitates me.**" He described being invited to lunch by three of them — "**the fancy restaurant and the three of them**" — and "**It was extremely political, and they told me very uncomfortable things.**" Asked whether he met them at the Lottery building, he answered "**They're not here anymore. I met with them. They took me out for lunch**" [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+- **He names the original relationship as [[wiki/people/john-houseal.md|John Houseal]]'s.** "**my initial relationship was with John, John [Houseal], and that was a great relationship in the beginning. And now he is… too political, and it's just… weird**" *(the transcript renders the surname "Hasil")*. The Lottery's reply: "**well, weird is one way to describe it. We're definitely in… a uncomfortable period of time**" [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]].
+
+**§15.8:** clear — commercial relationship and product content only.
+
+## Sept 11 2026 — a would-be competitor says InComm signed NDAs and then ignored them, and Val says it shares no back-end profit
+
+None of this comes from InComm. It is how the company looks to a third payment processor trying to enter the same market, at the [[wiki/meetings/2026-09-11-digital-cash-processing-card-solution-and-cash-float-partnership.md|Sept-11 call]] with [[wiki/organizations/digital-cash-processing.md|Digital Cash Processing / ICP Inc.]] [[raw/Meeting_Notes_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]
+
+- **NDAs signed, then silence — three times over.** [[wiki/people/andrew-cashin.md|Andrew Cashin]]: "**before we got on the call, you know, we've done NDA's with InComm and they've ignored us before the show, during the show, and after the show. So it sounds like they don't like to share any money.**" [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]
+- **Val's own version, stated flatly:** "**InComm doesn't offer any profit sharing on the other side. So why would I do InComm.**" **This is hard to square with what he told [[wiki/people/billy-liu.md|Billy Liu]] nine days earlier — "[InComm] gives me 0.5 percent of the processing fee" — and with the "fifty basis points" InComm's own people named at the Sept-2 lunch (both above). The two may be about different things; no source says. Recorded side by side, unresolved.** [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]] [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]]
+- **Sutton Bank confirmed as InComm's sponsor bank, from outside.** "**we're also following up with the Sutton Bank, who's the sponsor bank behind InComm**" — the first independent corroboration of the issuing relationship InComm described itself on Sept 2 [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]].
+- **And Sutton is shopping InComm's competitors around its other issuers** — "**they're making introductions for us to go speak to some other card providers**" — though the group does not meet Sutton's own volume bar of "**120 million a year**" [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]].
+- **The show card, from a competitor's seat:** "**what InComm has. Then they rolled out this… absorbent card at the show, right? The three-dollar thing.**" *(The adjective is garbled; the **$3** matches the Skill Pay activation fee already on this page.)* And InComm's conversion route as Cashin describes it: "**convert it to a virtual card first, and then take it to a… bank card… or send it to PayPal or Venmo or whatever.**" [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]
+- **The monthly card fee, argued over and not settled.** Cashin puts it at "**five dollars a month**" starting "**in the thirteenth month after activation**"; Val thinks "**they start charging from the first month**" and then conceded "**you would know better**." Both agree the amount is "**about five bucks**." Carried as an open question on [[wiki/topics/georgia-prize-card-processor-economics.md]] [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]].
+- **And a third party said to be too close to InComm to talk:** "**We go talk to the easy living guys again and see if they have any insights. Although they seem to be tight-lipped a little bit because they're so intertwined with InComm.**" *("the easy living guys" is recorded as spoken and **not identified**; the corpus carries an **EasyLink** kiosk product in Georgia, but nothing connects them.)* [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]
+
+**§15.8:** clear — competitor and fee-structure content only.
+
 ## Open commitments (Sept 2 2026)
 
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — re-verify barcode card activation with InComm by activating a couple more cards — due unspecified, ahead of the pilot — [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
@@ -509,3 +537,7 @@ At the [[wiki/meetings/2026-09-09-rao-machine-performance-and-exclusivity-offer.
 - [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
 - [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+- [[raw/Meeting_Notes_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
+- [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
+- [[raw/Meeting_Notes_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]
+- [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]
