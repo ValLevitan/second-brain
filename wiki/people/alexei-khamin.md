@@ -3,8 +3,8 @@ type: person
 title: Alexei Khamin
 date: 2025-04-22
 aliases: [Alexei Khamin, Aliaksey Khamin, Alexey Khamin, Khamin, Хамин, Khanin, Ханин, Kamin, Alexey Kamin, Lyosha, Лёша]
-source-count: 9
-open-commitments: 1
+source-count: 10
+open-commitments: 3
 ---
 
 # Alexei Khamin
@@ -39,6 +39,19 @@ Irina and Pavel then disagreed about what he inherits: Irina wanted the capabili
 
 On the [[wiki/meetings/2026-09-04-flex-slim-first-ten-and-flex-port-sas.md|Sept-4 midday call]] [[wiki/people/pavel.md|Pavel Frolov]] described the debug environment he has built for the Flex-Port work — a gaming-machine emulator, a full debug console with commands and logs on an STM32 743, and a described physical rig — and said he had **shown it to Khamin that same day**: "Большую часть я уже сделал… И показал это [Хамину] сегодня. Он может это взять, по крайней мере для своего тестирования. То, что там не работает, он может легко сказать [Клоду] и Клод ему поправит это… уже на реальной машине." Consistent with his QA role and with the Sept-3 ownership Val gave him. Detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 4) [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]].
 
+## Sept 9 2026 — given the requirements audit and the negative cases, once GCOAM V3 testing clears
+
+At the [[wiki/meetings/2026-09-09-september-resource-plan-and-flex-port-readiness.md|Sept-9 7:02 AM call]] [[wiki/people/pavel.md|Pavel]] made him and [[wiki/people/irina-shishko.md|Irina Shishko]] the gate in front of the new planning arrangement: "пусть Ира с Лёшей посмотрит те реклам[енты], которые получились у [Б]осика[,] и хотя бы грубо оценить, насколько они покрывают весь [скоуп]" — Pavel's own expectation being 5% coverage of kiosk behaviour at best. [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+
+He is also half of the parallelisation Pavel proposed — Irina and "Алексею" writing the negative cases up as acceptance criteria while the positive cases are worked, so Claude can then write its own tests. See [[wiki/topics/test-automation-strategy.md]] (Sept 9). [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+
+**Capacity:** Val asked whether he could be pushed harder — "может быть, его тоже можно поднапрячь[,] или он не потянет эти вещи?" — and both answered that he can ("[п]отянет, потянет"; Irina: "[в]сё потянет"); the constraint is the unfinished **GCOAM V3** testing, "есть незавершённые работы по тестированию там [ГК]ам в 3." Pavel also counts him as one of the resources that makes taking the SAS work himself faster: "у меня есть там Лёша под боком." [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+
+**Open commitments (Sept 9 2026)**
+
+- [ ] With Irina Shishko — grade how much of the scope Bosik's generated requirements cover — due before the Bosik/Kovalchuk session — [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- [ ] With Irina Shishko — write the negative cases up as acceptance criteria in parallel with the positive-case work — due unspecified — [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
@@ -50,3 +63,4 @@ On the [[wiki/meetings/2026-09-04-flex-slim-first-ten-and-flex-port-sas.md|Sept-
 - [[raw/Payment HUB_ACH module specification_06.11.25.md]]
 - [[raw/Payment HUB_ACH module specification_10.11.25.md]]
 - [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+- [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]

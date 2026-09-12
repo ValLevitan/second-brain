@@ -3,10 +3,10 @@ type: decision
 title: Six Flex ports and a terminal free with every machine bought, at $90 a month per location — "I am buying my way in"
 date: 2026-09-02
 aliases: [buying my way in, six ports plus a terminal free, $15,750 machine, seven thousand dollars of discounts, ninety dollars per location, guinea pig offer, Lucky Coin offer, sixteen thousand dollar machine, rent or lease the units]
-source-count: 4
+source-count: 14
 status: active
 open-commitments: 1
-open-questions: 2
+open-questions: 4
 ---
 
 # Six Flex ports and a terminal free with every machine bought, at $90 a month per location
@@ -54,20 +54,93 @@ Twelve hours later, at [[wiki/meetings/2026-09-02-billy-liu-playpay-partnership-
 - **And the reason he gives them away, stated to a non-customer and therefore without sales framing:** "**There is no magic in this solution. The magic is in speed**… **Tomorrow. Everyone will have this and this. Tomorrow the game is over.**" Full passage on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 2, evening) [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]].
 - **Note the derived notes round it differently.** They read the bundle as "a machine at $16,000 including one internal unit, **five Flex ports** and Flex-IQ" — i.e. six units in total, counted as one-plus-five rather than six. Same bundle, different way of counting; no discrepancy is asserted [[raw/Meeting_Notes_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]].
 
+## Sept 8 2026 — two more compositions in one day, and the first time the giveaway is described to a competitor-adjacent operator as "buying the market"
+
+Six days later the same offer is quoted twice more, in two different shapes, to two Georgia masters. **All the compositions below stand side by side; no source reconciles any two of them.** [[raw/Meeting_Transcript_ARC_Gaming_Vertical_Screen_Bundle_Offer_and_David_Intro-September-8-2026.md]] [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+
+| Date / counterparty | Composition as stated | Machine price stated |
+|---|---|---|
+| Sept 2 — [[wiki/organizations/lucky-coin.md\|Lucky Coin]] | six ports + one terminal free (~$7,000) | **$15,750** |
+| Sept 2 evening — [[wiki/people/billy-liu.md\|Billy Liu]] | one machine + six units + Flex-IQ | **$16,000** |
+| Sept 4 — internal (Genadi) | one Flex-Slim + one Flex-IQ + five Flex-Ports (**$12,820**) | **$15,750** |
+| **Sept 8 morning — [[wiki/organizations/arc-gaming.md\|ARC Gaming]]** | machine (ships with one FlexPort) **+ kiosk + Flex-IQ + five additional FlexPorts**, "as one set" | **not stated** |
+| **Sept 8 afternoon — [[wiki/organizations/dixie-amusement.md\|Dixie Amusement]]** | machine + **five more ports + one behind-the-counter unit**, free; kiosks with card dispensers in the debrief | **not stated** |
+
+### The ARC framing — the offer described to a master who is not being sold it
+
+Val ran the shape past [[wiki/people/georgios-zazanis.md|George Zazanis]] for judgement, not to sell it ([[wiki/meetings/2026-09-08-arc-gaming-bundle-sanity-check-and-david-sloan-intro.md|Sept 8, 11:09 AM]]) — so the description is unusually plain: [[raw/Meeting_Transcript_ARC_Gaming_Vertical_Screen_Bundle_Offer_and_David_Intro-September-8-2026.md]]
+
+> "I'd like to make an offer where **I sell this machine at a special, where I give away Flexports. Additional flex ports, so this machine will come with flex port. Plus, I will give away additional five flex ports. I will give away flex IQ, which is the point of sale little terminal, and I will give away a kiosk as one set. So it's a location set: one machine, kiosk, POS. Plus five additional ports**, so it's an extremely aggressive deal."
+
+- **The intent, stated to a third party rather than a prospect:** "**It has never been done before, but I feel that if I want to get inroads with transactional equipment, this is I'm basically buying the market.**" That is the same sentence as the Sept-2 "I am buying my way in" above, said to someone with nothing to gain from hearing it. [[raw/Meeting_Transcript_ARC_Gaming_Vertical_Screen_Bundle_Offer_and_David_Intro-September-8-2026.md]]
+- **The kiosk is presented as a payment kiosk, not an ATM** — "It could be converted into an ATM. **I'm presenting it as a kiosk, payment kiosk**" — which is the same deliberate omission recorded at Lucky Coin on Sept 2. [[raw/Meeting_Transcript_ARC_Gaming_Vertical_Screen_Bundle_Offer_and_David_Intro-September-8-2026.md]]
+- **Val named his own two worries and asked for a check on them:** "I'm new in this market, so **I don't want to make a stupid mistake. I also don't wanna give something away, and just cheapen the brand.** But… **if I can buy my way into the transactional equipment by giving things away together with the machine, maybe it's the right strategy. I don't know.**" Zazanis answered the market-timing half — "there is always room for everything in this market… it's **the right time to put one more thing on top of everything else**" — and **never answered the brand question at all.** The derived notes record it as still open. [[raw/Meeting_Transcript_ARC_Gaming_Vertical_Screen_Bundle_Offer_and_David_Intro-September-8-2026.md]] [[raw/Meeting_Notes_ARC_Gaming_Vertical_Screen_Bundle_Offer_and_David_Intro-September-8-2026.md]]
+
+### The Dixie composition and price
+
+Terms, the $90/month and the withdrawn installation are on [[wiki/decisions/2026-09-08-the-bundle-put-to-dixie-with-installation-explicitly-excluded.md]]. Two things bear on **this** ruling: [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+
+- **The $90/month/location figure is quoted for a fourth time and is stable** — "**Ninety bucks. Per location**" — and what it includes is itemised further than anywhere before: the **on-site mini server**, the **cloud backup server**, and **TITO**, all JVL's own, no third party. "**It's included in the ninety dollars.**"
+- **The machine price was never quoted.** Unlike Sept 1, 2 and 4, no dollar figure for the machine enters the Dixie conversation — only its daily earnings ($294, and "three hundred and ninety something," unreconciled). So the "value given vs price paid" arithmetic that drives the Sept-4 version of this offer was **not performed for this customer**.
+
+## Sept 9 2026 — a seventh composition, and the extra ports stop being chargeable
+
+Two more statements of the same bundle on Sept 9 2026, again without reconciliation to any earlier one.
+
+- **To the Minsk engineers, as the reason for the whole push** ([[wiki/meetings/2026-09-09-september-resource-plan-and-flex-port-readiness.md|7:02 AM]]): "[н]аш о[ф]ф[ер] заключается в том[: ]флекс… [В]и 43… 3 версию с 15 играми[.] [П]окупаешь одну машину[ —] мы тебе даем дополнительно ещё **5 флекс портов[,] один [ай]к[ю] и один флекс[-]пей[.] [З]абесплатно**" [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]. So: **V43 with 15 games, plus five Flex-Ports, one IQ and one FlexPay free** — the derived notes read it the same way [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]. **No price is attached** in this source.
+- **To the North-America group** ([[wiki/meetings/2026-09-09-october-rollout-staging-and-unit-ramp.md|8:43 AM]]), Val corrected a colleague mid-pitch. The colleague was explaining that "[t]he additional ports you will [buy]"; Val cut in: "**You don't have to buy additional ports.**" Asked about a nine-machine location — "[t]hey have nine machines" — Val: "So they get nine ports… But if they have more, they also have less machines. Maybe they have three machines, so **they get to keep two ports**" [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]].
+
+**This last term does not match the Sept-2 one.** On Sept 2 Val told Kyle Shepherd that a nine-machine location "gotta buy the other three" at "a thousand dollars each"; on Sept 9 he says additional ports are not bought and spares are kept. **Both stand as spoken; neither source mentions the other and nothing here resolves them** — recorded the same way as the machine-price and bundle-shape variants above.
+
+Val also refused to take the wider commercial question in that meeting at all: "I respect your question, but I would like to handle your question **not in the scope of this meeting**. So let me just do my scheduling" [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]. **And the delivery is now staged** — the location gets FlexPay *or* IQ first, with the promise unchanged: see [[wiki/decisions/2026-09-09-one-transactional-unit-per-location-until-the-wi-fi-iteration.md]].
+
+## Sept 9 2026 (customer-facing) — three more compositions, and Val questions the bundle itself
+
+The same day the bundle went to three counterparties, across nine hours. **Both stand beside every composition above; nothing reconciles them.**
+
+| Date / counterparty | Composition as stated | Machine price stated | Monthly fee |
+|---|---|---|---|
+| **Sept 9, 10:04 AM — [[wiki/people/narasimha-rao-namburi.md\|Rao]]** (distributor) | machine's own port **+ five additional ports**, one IQ, one Pay unit; giveaway valued "about fifteen thousand dollars" | **$15,750** (fifteen-game software) | **not mentioned** |
+| **Sept 9, 1:31 PM — [[wiki/organizations/lucky-coin.md\|Lucky Coin]]** | **five additional ports** + one IQ + one Pay unit (screen/touchscreen, optical reader, front-load bill acceptor, ticket printer, card dispenser) **+ a free FlexPay per location valued at $7,950** + a locally stationed engineer; giveaway framed as "a fifteen thousand dollar gift per location" | **$15,750** ("one machine on every location") | **not mentioned** |
+| **Sept 9, 4:35 PM — [[wiki/people/david-sloan.md\|David Sloan]]**, CEO, [[wiki/organizations/arc-gaming.md\|ARC Gaming]] | "we give away **a kiosk, a point of sale, and five more ports**, which go into other machines" — "I'm giving you **fifteen thousand dollars worth of equipment**" | **$15,750** ("Fifteen, seven, fifty") | **not mentioned** |
+
+- **The giveaway is now valued at ~$15,000, not ~$7,000.** On Sept 2 the free side of the same bundle was "seven thousand dollars worth of discounts" against a $15,750 machine, netting to just under $9,000. On Sept 9 Val put the free side at **about $15,000** in both meetings — at Rao, "**six, seven, plus eight, fifteen thousand dollars. We're giving you away worth of fifteen thousand dollars**" (arithmetic spoken loosely and left unrepaired), and at Lucky Coin, "**you're practically getting fifteen thousand dollar gift per location**," where the Pay unit / FlexPay at **$7,950** is the item that was not in the Sept-2 bundle. **Both stand; neither source mentions the other.** [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]] [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
+- **The $90 a month is absent from all three.** After five consecutive customer quotes of "$90 per location," **no Sept-9 customer meeting mentions a monthly fee at all** — neither raised nor withdrawn. Recorded as an absence, not a change. [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]] [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]] [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+- **The ARC composition is the barest of the three, and the only one where the kiosk is named as a giveaway item in its own right.** To Rao and Lucky Coin the free side was itemised as ports + IQ + Pay; to Sloan it is "a kiosk, a point of sale, and five more ports" — and Val described that kiosk in the same meeting as **no cash dispensing and no recycling**: "It's an **e wallet, bill acceptor**… **card dispenser, and a printer. But it's an e wallet you could move from machine to machine.**" **Whether "a point of sale" here is the Flex-IQ is not stated and is not asserted.** [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+- **The location arithmetic is spelled out to Sloan for the first time:** "**Five machines other than five ports plus our machine, so six right now. You have six on average. So we convert your entire park of machines in the location. We put our POS, we put our kiosk, and we control all the cards.**" That is the clearest statement in the corpus of what the six-port giveaway is *for*. [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+- **Neither meeting settles the extra-ports question above.** At Lucky Coin Val restated "five additional ports" and Kyle checked it back — "So one comes on the machine I'm buying plus five more" — Val: "More." **Nothing about buying further ports, or their price, is said either way** — so the Sept-2 "gotta buy the other three… a thousand dollars each" and the Sept-9 8:43 AM "you don't have to buy additional ports" remain unreconciled. [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
+- **And the exclusivity terms differ across all three on the same day.** Rao was asked for JVL exclusivity **in the location**, a **three-year location contract** and **two years** of undivided attention ([[wiki/decisions/2026-09-09-rao-takes-the-bundle-with-jvl-exclusive-in-the-location.md]]). Lucky Coin was asked for **the whole account** with no term, no contract and no shut-off named ([[wiki/decisions/2026-09-09-val-asks-lucky-coin-for-its-entire-business.md]]). ARC's CEO got **both at once** — the in-location condition stated by a JVL colleague as a property of the FlexPort ("we must be exclusive in the location. Otherwise, it doesn't work for us") and an account-level ask that he refused outright ([[wiki/decisions/2026-09-09-arc-account-exclusivity-sought-and-not-obtained.md]]).
+
+### Val questioned whether the bundle should be a bundle at all
+
+At the end of the Rao meeting Val stopped the thread the whole session had been built on: "we all got **laser focused on packaging the deal**. But for a guy like [Rao], he **does not necessarily need to package the deal**… If an operator doesn't want to buy a machine and he wants to buy ports and… that's fine." He returned to it — "**we don't have to force the marriage between the two. We can absolutely sell it as a standalone unit**" — and put it to the room in the recording's closing seconds: "**Are we all in agreement that we don't have to package the deal?**" **No answer is on the transcript**; the recording ends on Val's own "I will consider this package deal under the schools level" *(garbled, left as spoken)*. Recorded as an open question below; **the machine-purchase condition in this page's title is not withdrawn by any source.** [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]] [[raw/Meeting_Notes_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+
 ## Open commitments
 
-- [ ] [[wiki/people/kyle-shepherd.md|Kyle Shepherd]] — decide on the offer; Val explicitly did not press for an answer in the room ("You don't have to give me the answer right now. You can consult your brother") and expected it at the Sept-9 office visit — due ~Sept 9 2026 — [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]
+- [ ] [[wiki/people/kyle-shepherd.md|Kyle Shepherd]] — decide on the offer. Val did not press for an answer on Sept 2 ("You don't have to give me the answer right now. You can consult your brother") and expected it at the Sept-9 visit. **At that visit Kyle still did not answer**, asked for a couple of hours, and agreed a date with Val — so this now runs against the larger [[wiki/decisions/2026-09-09-val-asks-lucky-coin-for-its-entire-business.md|Sept-9 offer]] — due **Tuesday Sept 15 2026** (was ~Sept 9) — [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]] [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
 
 ## Open questions
 
 - **Is the six-free-ports-per-location giveaway per location or per machine bought?** Val says "for every location that you have, when you buy one of these" — which reads as one machine unlocking the whole route, and is consistent with his "our deal will continue for your entire route." But he also told [[wiki/people/felipe-miranda.md|Felipe]] afterwards he saw "30 locations… and you could buy 30 machines from us," which reads as one machine per location. Not stated either way — [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]
 - **Does the $90/month begin at installation, and does it apply to a location that took the free hardware but no kiosk?** Neither is addressed in the source — [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]
+- **Does the deal have to be packaged at all?** Val spent the Sept-9 Rao meeting on the bundle, then argued a distributor can install and resell the transactional equipment **standalone** to operators who do not want a machine, and asked the room to confirm. **The recording ends without an answer.** This bears directly on this page's titular condition — *free with every machine bought* — [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]] [[raw/Meeting_Notes_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+- **Does the giveaway cheapen the brand?** Val raised it himself on Sept 8 — "I also don't wanna give something away, and just cheapen the brand" — asked an experienced operator to check him on it, and got no answer; the derived notes record it as open. No source in the corpus addresses it. — [[raw/Meeting_Transcript_ARC_Gaming_Vertical_Screen_Bundle_Offer_and_David_Intro-September-8-2026.md]] [[raw/Meeting_Notes_ARC_Gaming_Vertical_Screen_Bundle_Offer_and_David_Intro-September-8-2026.md]]
 
 **§15.8:** clear — machine, device and subscription pricing and operator economics only; no named-person compensation.
 
 ## Sources
 
 - [[raw/Meeting_Notes_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]
+- [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
 - [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]
 - [[raw/Meeting_Notes_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]]
+- [[raw/Meeting_Transcript_ARC_Gaming_Vertical_Screen_Bundle_Offer_and_David_Intro-September-8-2026.md]]
+- [[raw/Meeting_Notes_ARC_Gaming_Vertical_Screen_Bundle_Offer_and_David_Intro-September-8-2026.md]]
+- [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+- [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
+- [[raw/Meeting_Notes_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+- [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+- [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]

@@ -3,7 +3,7 @@ type: decision
 title: Val commits to a Georgia Class A deal with ARC within three months — "January. We're gonna do business."
 date: 2026-08-31
 aliases: [Class A deal within three months, ARC Class A commitment, January Class A deal, three-month Class A promise]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 2
 open-questions: 1
@@ -34,6 +34,16 @@ Made in the room, unprompted, by [[wiki/people/val-levitan.md|Val Levitan]] at t
 - **It is not underwritten by any evidence that JVL games will perform in Class A.** Asked whether they would, Zazanis: "People don't believe that it would be good. **It's fifty-fifty. If you ask, nobody knows.**" [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 - **JVL has not read the regulations.** They were requested in the same meeting and had not arrived. [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 
+## Sept 9 2026 — Val asked ARC's CEO for the handshake and did not get one
+
+At the [[wiki/meetings/2026-09-09-arc-gaming-backend-displacement-negotiation.md|Sept-9 4:35 PM meeting]] Val put the Class A question to the man [[wiki/people/georgios-zazanis.md|Zazanis]] had ruled himself out in favour of — ARC's CEO [[wiki/people/david-sloan.md|David Sloan]] — and asked for the commitment directly: [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+
+> "**If I put my energy, I will only put it if you say, 'I'll do it.' So do we have a handshake deal?**"
+
+**He did not get an answer.** Sloan's reply was about difficulty, not commitment — "**I don't think it's that hard to engineer. I think it's just pretty**" — and Val finished the thought himself: "Pretty simple. **It's the meter**… I think we've **done much harder stuff than this.**" [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+
+**So the open question below — who on ARC's side signs — is now *asked of the right person and still unanswered*, not resolved.** What the same meeting did add is that the category is under-performing for ARC by its CEO's own account ("It's not doing great"), that ARC is placing machines opportunistically, and that the licence is the real reason ARC is in it — all on [[wiki/topics/georgia-class-a-machines.md]]. **None of it withdraws or amends the three-month commitment**, which is untouched by this source. [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+
 ## Open commitments
 
 - [ ] [[wiki/people/val-levitan.md|Val]] — bring ARC a Class A partnership deal — due "three months / January" as stated — [[raw/Meeting_Notes_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
@@ -41,11 +51,12 @@ Made in the room, unprompted, by [[wiki/people/val-levitan.md|Val Levitan]] at t
 
 ## Open questions
 
-- **Who on ARC's side actually signs it?** Zazanis ruled himself out and named no one in his place for Class A (for the kiosk question he named CEO David Sloan). [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
+- **Who on ARC's side actually signs it?** Zazanis ruled himself out and named no one in his place for Class A (for the kiosk question he named CEO David Sloan). **Sept 9 puts the question to Sloan and gets no answer** — asked point-blank for a handshake deal, he answered about engineering difficulty instead. [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]] [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
 
 **§15.8:** clear — deal structure and market economics only; no named-person compensation.
 
 ## Sources
 
 - [[raw/Meeting_Notes_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
+- [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]

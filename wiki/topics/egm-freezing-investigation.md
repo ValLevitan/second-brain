@@ -3,7 +3,7 @@ type: topic
 title: EGM freezing investigation (Georgia field fleet)
 date: 2026-07-29
 aliases: [GA freezing, Georgia freezing, machine freezing, EGM freeze, GA Freezing Issue, freezing investigation, JVL silent killer, nudge animation freeze, kernel-panic freeze]
-source-count: 18
+source-count: 20
 open-questions: 12
 ---
 
@@ -187,6 +187,21 @@ Three machines were set up in the Georgia office (at Lawrenceville) to try to re
 
 [[raw/GA_Freezing_Issue_Segment_1_Initial_Investigation.md]]
 
+## Sept 9 2026 — "I cannot fix it tomorrow", and an operator who has engineered around it
+
+At the [[wiki/meetings/2026-09-09-lucky-coin-service-burden-and-exclusive-partnership.md|Sept-9 Lucky Coin shop visit]] the freeze came up from the customer side again, and [[wiki/people/val-levitan.md|Val]]'s answer is the plainest statement of its status in the corpus [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]:
+
+> "**I cannot. I don't have a solution to fix it tomorrow. I cannot fix it tomorrow, but I can fix it, but I cannot do it tomorrow. It will take me time, and it doesn't matter. Even if you buy a new machine or not, doesn't matter. I cannot do anything about it tomorrow.** … **But point well taken.**"
+
+**That is the same shape of answer he gave on Sept 2** — he will fix it, without committing to a date — now with the explicit addition that **buying a new machine does not escape it**, said to a customer he was simultaneously asking to buy a machine for every location ([[wiki/decisions/2026-09-09-val-asks-lucky-coin-for-its-entire-business.md]]) [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]] [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]].
+
+**The operator has built his own remote-reboot rig, and it is the first field workaround recorded in the corpus.** [[wiki/organizations/lucky-coin.md|Lucky Coin]]: "**when the game freezes, we actually have smart plugs, smart outlets on some of our locations where we can actually turn them off and turn them on from Curtis's phone.** And **we watch on our [Interlot] portal. We see them frozen and not reported, and then we see them come back online whenever we power cycle them.**" [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
+
+- **This bears on the Sept-2 disagreement about whether a frozen machine goes unnoticed** (recorded on [[wiki/people/kyle-shepherd.md]]). Val's case was that a frozen machine looks alive and nobody knows; Kyle said he gets those calls regularly. Sept 9 shows *how* he knows — a third-party monitoring portal plus smart plugs, not a player complaint — which supports his side of it on mechanism while saying nothing about latency. **Neither source mentions the other and the disagreement stays open.** [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]
+- *(Rendered "Interlock" in the transcript; the corpus carries the Georgia central monitoring system as **Intralot/Interlot** and the technician elsewhere in the same file says "interlot". Read as one system — an **inference** from context.)*
+
+**§15.8:** clear — field-reliability and service content only; no named-person compensation.
+
 ## Open questions
 
 - Why do ~250 Altera machines in Georgia (same motherboard/adapter config) **not** freeze? [[raw/GA_Machine_Freezing_Summary-March-9-2026.md]]
@@ -222,3 +237,5 @@ Three machines were set up in the Georgia office (at Lawrenceville) to try to re
 - [[raw/Meeting_Transcript_JVL_Liquidity_Crisis_Cash_Call_Louis_Glenn-August-8-2026.md]] — Aug-8 cash-call retrospective (the software glitch that cost sales).
 - [[raw/Meeting_Notes_NOVA_Architecture_Design_Session_2-August-11-2026.md]] — Aug-11 NOVA session 2 (freeze as a design driver; ~1.5–2 years to find; 4.19 → 5.15).
 - [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]
+- [[raw/Meeting_Notes_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
+- [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]

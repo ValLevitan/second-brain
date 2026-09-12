@@ -2,18 +2,18 @@
 type: organization
 title: ARC Gaming
 date: 2026-08-31
-aliases: [ARC, Arc, ARC Gaming, Art, ARC Gaming DC]
-source-count: 3
-open-commitments: 3
-open-questions: 3
-disambiguation: "The Georgia COAM master/route operator whose COO is Georgios 'Zaza' Zazanis and whose CEO is David Sloan. The corpus's earlier bare 'Arc' mentions are NOT all confirmed to be this company — see the §4 name note below — and 'Arc Luck' appears in one Feb-2026 market map beside Lucky Bucks. Resolve by context; nothing has been merged."
+aliases: [ARC, Arc, ARC Gaming, Art, ARC Gaming DC, ARC Gaming & Technologies, Lucky Bucks, Lucky Bugs, Lucky Box, Arc Luck]
+source-count: 10
+open-commitments: 5
+open-questions: 5
+disambiguation: "The Georgia COAM master/route operator whose COO is Georgios 'Zaza' Zazanis and whose CEO is David Sloan. **Lucky Bucks is its FORMER NAME** — one company, renamed (Val's ruling, 2026-09-10). The corpus's earlier bare 'Arc' mentions in a *kiosk-vendor* sense are a separate, still-unresolved thread — see the §4 name note below. Resolve by context."
 ---
 
 # ARC Gaming
 
 A **Georgia COAM master operator** that is also its own **transactional broker** — it issues the gift cards its players redeem into, and carries the cash exposure for doing so. It runs **"more than 200 locations"** in Georgia and self-ranks **"number two or three, give or take"** among the state's masters, though its COO qualified the ranking in the same breath: "**We don't compare the amount of locations. We compare the comparison between**…" Asked whether he meant decals or game revenue, his answer is garbled — "I don't know the amount of revenue you make. This is what makes you. **This is how the GLC says we stop.** Obviously, the more locations you are top there" — so the basis of the #2–3 claim is **not** clearly established. (Val had opened by guessing "with 170 locations, are you number three or four?") [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 
-Its COO is [[wiki/people/georgios-zazanis.md|Georgios "Zaza" Zazanis]]; its CEO is **David Sloan**. The main record is the [[wiki/meetings/2026-08-31-arc-gaming-transactional-demo-class-a.md|Aug 31 2026 transactional demo]]. [[raw/Meeting_Notes_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]] [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
+Its COO is [[wiki/people/georgios-zazanis.md|Georgios "Zaza" Zazanis]]; its CEO is [[wiki/people/david-sloan.md|David Sloan]]. The main record is the [[wiki/meetings/2026-08-31-arc-gaming-transactional-demo-class-a.md|Aug 31 2026 transactional demo]], followed by the short [[wiki/meetings/2026-09-08-arc-gaming-bundle-sanity-check-and-david-sloan-intro.md|Sept 8 2026 bundle sanity-check]]. [[raw/Meeting_Notes_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]] [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 
 **Name note (§4).** "Arc" has appeared in this corpus before **in senses that are not confirmed to be this company**: a competitor kiosk vendor ("Arc — Dean's company", with Mark Martinez pitching a MudaGoose + back-end-TITO dual-print integration, and later "Mark Martinez, ex-Arc, selling a $10K kiosk"), and "Lucky Bucks / Arc Luck" in Felipe's Feb-2026 master map. Those mentions are left where they are on [[wiki/projects/georgia-market-rollout.md]] and **nothing has been merged into this page**. What *is* well-supported is the customer thread: the Aug-21 2026 pipeline records "**ARC** wants to buy the **5 machines currently on trial** and place an order for **15 more**, delivering from the first week of September," which lines up with Zazanis's own closing item on Aug 31 about "the remaining five" — an **inference**, labelled as such. [[raw/Meeting_Transcript_Georgia_Machine_Sales_Strategy_Post_GOAM-August-21-2026.md]] [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 
@@ -85,8 +85,36 @@ ARC operates a second, much smaller market that it wants JVL to enter.
 
 Asked whether ARC grows by acquisition or by owner capital: "They put money in. **We have no issue with cash flow.**" [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 
+## Sept 8 2026 — the machine ARC is testing is not the machine it will be sold, and the CEO introduction
+
+A short call ([[wiki/meetings/2026-09-08-arc-gaming-bundle-sanity-check-and-david-sloan-intro.md|Sept 8 2026, 11:09–11:18 AM]]) in which Val asked for advice rather than business. [[raw/Meeting_Transcript_ARC_Gaming_Vertical_Screen_Bundle_Offer_and_David_Intro-September-8-2026.md]]
+
+- **ARC has a pre-final machine in the field.** Val reset it twice: "**You're testing the initial version**, and I said we're going to be adding fifteen games to it. Sorry, additional games for the **total of fifteen games**… It's gonna go through the **approval probably by the middle of September**. And I said **that's the machine we are going to be selling you**. But you were testing it, not the final version, but you and not all the games." His expectation: "we're adding more games, so **the machine I expect it to be better than what you're testing**." [[raw/Meeting_Transcript_ARC_Gaming_Vertical_Screen_Bundle_Offer_and_David_Intro-September-8-2026.md]]
+- **The bundle was described to ARC as a market offer, not an ARC offer.** "one machine, kiosk, POS. Plus five additional ports… **it's an extremely aggressive deal. It has never been done before, but I feel that if I want to get inroads with transactional equipment, this is I'm basically buying the market**." And immediately: "**I know that you have your own kiosk. I'm not asking for anything. I'm just running it by you because I don't want you to be surprised.**" Composition detail on [[wiki/decisions/2026-09-02-free-ports-and-pos-with-every-machine-bought.md]]. [[raw/Meeting_Transcript_ARC_Gaming_Vertical_Screen_Bundle_Offer_and_David_Intro-September-8-2026.md]]
+- **ARC's own ATMs make the kiosk half irrelevant to ARC — neither a selling point nor an obstacle.** Val flagged the convertibility first — "the kiosk. It could be converted into an **ATM**. I'm presenting it as a kiosk, **payment kiosk**" — and [[wiki/people/georgios-zazanis.md|Zazanis]] closed it: "**We have ATM. We have our own ATMs on the location, so this is not a good or it's not a deal breaker for sure. Don't worry about this.**" [[raw/Meeting_Transcript_ARC_Gaming_Vertical_Screen_Bundle_Offer_and_David_Intro-September-8-2026.md]]
+- **The CEO introduction was made.** Zazanis told [[wiki/people/david-sloan.md|David Sloan]] that Val wants to talk and stepped out of the middle; Val now initiates directly. Ruling: [[wiki/decisions/2026-09-08-val-approaches-david-sloan-directly-with-the-bundle-offer.md]]. [[raw/Meeting_Transcript_ARC_Gaming_Vertical_Screen_Bundle_Offer_and_David_Intro-September-8-2026.md]]
+
+*(Nothing in this source touches the Aug-31 items above — the kiosk lock-in, the Class A commitment, the remaining five units and the ninety-location PAX swap are all unmentioned and unchanged.)*
+
+## Sept 9 2026 — the CEO meeting: the bundle, the back end, and the account Val could not buy
+
+Nine days after the COO demo, Val met ARC's chief executive [[wiki/people/david-sloan.md|David Sloan]] directly ([[wiki/meetings/2026-09-09-arc-gaming-backend-displacement-negotiation.md|Sept-9 2026, 4:35 PM]], ~22 recorded minutes of a 60-minute slot before the recorder's battery died). It is the first ARC source in which the counterparty is the CEO rather than the COO, and the first in which he speaks at all. [[raw/Meeting_Notes_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+
+- **The offer: the machine at $15,750, with a kiosk, a point of sale and five more ports given away** — "we're **virtually converting the entire location to us**" — and the location arithmetic "**five ports plus our machine, so six right now. You have six on average.**" Ruling: [[wiki/decisions/2026-09-09-arc-account-exclusivity-sought-and-not-obtained.md]]. [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+- **The kiosk JVL is offering ARC has no cash dispensing and no recycling.** Sloan: "Without recycling." Val: "**No cash dispensing.** It's an **e wallet, bill acceptor**… **card dispenser, and a printer. But it's an e wallet you could move from machine to machine.**" He described the unit as "a **slinkyiosk** that fits between the machines" *(transcribed as written; the derived notes read it as a **slim** unit)*. This is materially different from the kiosk estate ARC already runs, which accepts a voucher and dispenses a card and nothing else. [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]] [[raw/Meeting_Notes_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+- **JVL's exclusivity condition was put to ARC as a property of the hardware, not as a term.** A JVL colleague: "It's an **AFT device**… It fits into an **AFT window**. It connects to **SAS two port**. So we **emulate an AFT device. But we must be exclusive in the location. Otherwise, it doesn't work for us.**" [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+- **Val disclosed JVL's intent to displace [[wiki/organizations/incom.md|InComm]] on the back end**, with no NDA, and told Sloan that Zazanis does not know: [[wiki/decisions/2026-09-09-val-discloses-the-incomm-displacement-intent-to-arcs-ceo.md]]. [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+- **ARC's whole account is not for sale.** "**I don't think you can buy my entire business**" — because ARC already runs several point-of-sale systems: "I have **M3K** in the field now as well. **Bill has X and out**, and I've got a **number of other point of sale systems out there as well.**" *("M3K" and "X and out" are flagged unresolved in the derived notes and are not interpreted.)* [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]] [[raw/Meeting_Notes_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+- **The kiosks are already connected, and ARC is using them offensively.** "Now with the cash card, **we've got kiosks connected to all our areas, so now we're able to start taking back.**" [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+- **Class A, from the CEO's side**, including the placement strategy and the licence: recorded on [[wiki/topics/georgia-class-a-machines.md]]. **Cash-card and back-end economics, from the CEO's side**: recorded on [[wiki/topics/georgia-prize-card-processor-economics.md]].
+- **Next meeting: Wednesday September 16 2026, at Sloan's place.** [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+
+*(Nothing in this source touches the Aug-31 kiosk lock-in, the EXIO agreement, the remaining five units or the ninety-location PAX swap — none is mentioned and none is changed. The kiosk **board-swap proposal** that the [[wiki/decisions/2026-08-31-arc-kiosk-board-swap-routed-through-the-ceo.md|Aug-31 ruling]] routes through Sloan was **not put to him**.)*
+
 ## Open commitments
 
+- [ ] [[wiki/people/david-sloan.md|David Sloan]] — establish whether [[wiki/people/bill.md|Bill]] is working on a back-end solution of the same nature as JVL's intent — due unspecified — [[raw/Meeting_Notes_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+- [ ] [[wiki/people/val-levitan.md|Val Levitan]] + [[wiki/people/david-sloan.md|David Sloan]] — meet again at Sloan's place — due **September 16 2026** — [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
 - [ ] [[wiki/people/georgios-zazanis.md|George Zazanis]] — send Val the address of a friendly Class A location to visit and film — due same day ("I'll let you know when I go to the office. I'll send you the closest one here") — [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]] [[raw/Meeting_Notes_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 - [ ] [[wiki/people/georgios-zazanis.md|George Zazanis]] — send the **Class A regulations** (via ARC's legal department) and the **DC regulations** — due unspecified ("I think I have somewhere in the regulations. If I find them from our legal department, I send it to you"; on DC, "I do not have them, but I'm sure I can find them") — [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 - [ ] [[wiki/people/georgios-zazanis.md|George Zazanis]] — settle the **invoice and agreement** and schedule the remaining **five units** into the field — due unspecified ("I'll send you the invoice first and the agreement… People are all over my bed to put them in the field" — transcribed as written) — [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]] [[raw/Meeting_Notes_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
@@ -97,7 +125,9 @@ Asked whether ARC grows by acquisition or by owner capital: "They put money in. 
 
 - **Does ARC pilot JVL's cloud processing, and where?** A pilot "in a few locations" was floated in the room and never landed on a location, a date or an owner. [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 - **What does ARC actually pay the kiosk vendor each month?** Its own COO does not know — "In a monthly basis, there is something, but I do not know how much" — which makes the economics of any swap unquantifiable from JVL's side. [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
-- **What is ARC's real revenue split with Primero on Class A?** Val's "fifty" was corrected to "Much less" with no number supplied. [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
+- **What is ARC's real revenue split with Primero on Class A?** Val's "fifty" was corrected to "Much less" with no number supplied on Aug 31. **Sept 9 does not settle it:** Sloan described the structure (revenue share; a *lower* percentage where JVL's own cabinet is used than where the manufacturer's is) and Val worked three alternatives aloud — zero up front on pure revenue share, $1,000 up front plus 20 %, $4,000 up front plus 10 % — but the exchange is garbled and **whether those are ARC's actual terms or Val's own illustration is not established.** [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]] [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]] [[raw/Meeting_Notes_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+- **How much of ARC's business does JVL get?** Sloan ruled the whole account out and asked Val how much he wanted; no figure was reached, and Val confirmed on 2026-09-10 that exclusivity is off the table. The Sept-16 meeting is where it lands. [[raw/Meeting_Notes_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+- **Does Val proceed at all, given the Sloan–[[wiki/people/bill.md|Bill]] relationship?** He twice offered to withdraw and said he was not convinced either way; nothing was settled. [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
 
 **§15.8:** clear — operator, machine, licence and market economics only; no named-person compensation recorded.
 
@@ -106,3 +136,10 @@ Asked whether ARC grows by acquisition or by owner capital: "They put money in. 
 - [[raw/Meeting_Notes_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 - [[raw/Meeting_Transcript_Georgia_Machine_Sales_Strategy_Post_GOAM-August-21-2026.md]]
+- [[raw/Meeting_Transcript_ARC_Gaming_Vertical_Screen_Bundle_Offer_and_David_Intro-September-8-2026.md]]
+- [[raw/Meeting_Notes_ARC_Gaming_Vertical_Screen_Bundle_Offer_and_David_Intro-September-8-2026.md]]
+- [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+- [[raw/Meeting_Notes_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+- [[raw/Meeting_Transcript_Georgia_Exclusivity_Bet_and_Sebastian_Reassignment-September-9-2026.md]]
+- [[raw/Meeting_Notes_Georgia_Exclusivity_Bet_and_Sebastian_Reassignment-September-9-2026.md]]
+- [[raw/To-Do_Georgia_meetings-February-18-2026.md]]

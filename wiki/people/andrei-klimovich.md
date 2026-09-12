@@ -4,7 +4,7 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 66
+source-count: 68
 open-commitments: 36
 open-questions: 0
 ---
@@ -355,11 +355,25 @@ Present at both Monday meetings ([[wiki/meetings/2026-09-07-wifi-on-flex-port-an
 - **He put the MudaGoose question to Val** and got a deferral: Val does not think so, wants a day or two, and asked to be reminded [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - **His line of the day**, on remote update having been a priority a year earlier too: "Теперь это тоже приоритет, видите? Всё константно" [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 
+## Sept 8 2026 — the two-hour single-SAS session, reported second-hand
+
+Val told a customer that same afternoon that he had spent about two hours that day working the single-SAS question with "**Andre**": "**We just spoke today, Andre and I, probably for two hours, to exhaustion. So honestly, we don't know what to do about it**," and the conclusion they reached — "we feel that this market will disappear within three years… maybe we shouldn't even support single-[SAS]. Just let it go, and connect to a second-[SAS] port." The sizing is on [[wiki/decisions/2026-09-07-flex-port-goes-sas-and-jvl-drops-the-old-machine-segment.md]]. [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+
+**Attribution caveat.** Val names only "Andre." Reading it as Andrei Klimovich rests on context — the question is commercial-product scoping of the transactional line, which is his brief — and is an **inference, not stated in the source**. *(The corpus also carries [[wiki/people/andrey-bosik.md|Andrey Bosik]], a DevOps engineer, in the §4 Andrei cluster; nothing connects him to this subject.)* **The session itself appears in no source in `raw/`** — there is no Sept-8 internal recording — so everything known about it is this one second-hand sentence. [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+
 ## Open commitments (Sept 7 2026)
 
 - [ ] Write the use cases for the SAS user-experience changes (the PIN above all) and attach capabilities and requirements; his function ends there — due unspecified, high — [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [ ] Write to the team about the Flex-IQ screen changes and chase what is actually in the new build, for the InComm approval video and screenshots — due Sept 7 2026 — [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [ ] With Val — decide whether to keep installing at some locations on MudaGoose in the interim — due ~Sept 9 2026 — [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+
+## Sept 9 2026 — created a capability the evening before, gets the functional requirements, and starts the office testing
+
+At the [[wiki/meetings/2026-09-09-september-resource-plan-and-flex-port-readiness.md|Sept-9 7:02 AM call]]:
+
+- **A capability Pavel first credited to Alekseev, then to Bosik, turned out to be his** — "а нет, это вообще Андрей [К]лимович" — created, per Irina, "вчера… видимо, после митинга," i.e. the evening of Sept 8 following the Monday sessions. Irina flagged it carries no requirements yet; Pavel proposed rewording it around the zero-value wallet. See [[wiki/decisions/2026-09-09-three-more-flex-port-features-onto-capability-165.md]]. [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- **Val named him as the person he can hand the functional requirements to:** "фа[нкшенал] реклам[енты] я могу дать… Андрею Климович[у]. Он довольно нормально разбирается в фа[нкшенал] реклам[ентах] по транзакшен[у]" — while Bosik and Kovalchuk generate the rest. [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- **He is the tester for the October-1 rehearsal.** Val required the whole setup running in the office at least two weeks ahead — "и Андрей начинает [от]тестировать" — with Pavel and Irina confirming on the call that this Andrei is Klimovich ("про этот[,] Климович"). See [[wiki/decisions/2026-09-09-first-transactional-installation-planned-for-october-1.md]]. [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 
 ## Sources
 
@@ -429,3 +443,5 @@ Present at both Monday meetings ([[wiki/meetings/2026-09-07-wifi-on-flex-port-an
 - [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
 - [[raw/Meeting_Notes_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+- [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]

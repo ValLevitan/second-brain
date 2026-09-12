@@ -2,8 +2,8 @@
 type: organization
 title: Incom (payment processor)
 date: 2025-02-27
-aliases: [Incom, InComm, Incomm, Income, NCOM, Incom Payments, wrapped card rule, PAX, PAX 80, reloadable gift cards, Nathan Carver, cash-back commission, barcode activation, Mastercard rules, ABA number, MLH fee sharing, kicked to the curb]
-source-count: 53
+aliases: [Incom, InComm, replace InComm on the back end, backend displacement, Incomm, Income, NCOM, Incom Payments, wrapped card rule, PAX, PAX 80, reloadable gift cards, Nathan Carver, cash-back commission, barcode activation, Mastercard rules, ABA number, MLH fee sharing, kicked to the curb]
+source-count: 57
 open-commitments: 13
 open-questions: 3
 ---
@@ -406,6 +406,44 @@ Hours after the lunch above, a rival payments company sat in the JVL Georgia off
 
 **The exclusivity he then asked JVL for — no InComm on JVL's devices, no physical card dispensing — is the counterweight to InComm's own demand that same day**, and is held on [[wiki/decisions/2026-09-02-val-proposes-fifty-percent-of-play-payments.md]] and [[wiki/decisions/2026-09-02-hold-the-recycler-back-but-sign-no-undertaking.md]], deliberately not duplicated here.
 
+## Sept 8 2026 — a master licensee says InComm carries the broker's risk, which contradicts what InComm told Val
+
+At the [[wiki/meetings/2026-09-08-dixie-amusement-bundle-offer-and-card-economics.md|Sept-8 Dixie visit]] [[wiki/people/salim-khambawala.md|Salim Khambawala]] made a claim about InComm that [[wiki/people/val-levitan.md|Val]] had never heard and that cuts against his own prior enquiry. The full economics are on [[wiki/topics/georgia-prize-card-processor-economics.md]] (Sept 8 2026); what belongs here is what is asserted about **InComm**. [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+
+- **The claim.** Asked what happens when a location cannot pay for the cards it loaded, Salim: "**Currently, they take the risk and they take it**" — i.e. InComm absorbs the broker's loss. Val: "[InComm] does not take a risk for the brokers." Salim: "**They do.**" Val: "How do you know that?" Salim: "**For sure. Currently, [InComm] is the market leader. They don't want competition.**"
+- **Val's own information, twice stated, says the opposite.** In the room: "**so I never heard that [InComm] takes the risk, but I will speak to [InComm] and say, take the risk.**" And in the debrief minutes later: "**I asked [InComm] two years ago if they would take a risk, and they told me no. But things may change. I don't know. I genuinely don't know.**" **Recorded, not resolved** — one is a second-hand operator report, the other a two-year-old answer from InComm itself, and neither source addresses the other.
+- **Salim's caveat on whether JVL would get it:** "**They will. But if they look at you as a competition, then they won't because they don't want competition. They want acquisition. Market acquisition is their goal.**"
+- **InComm has offered Salim the broker role and he refuses it.** "**[InComm] is offering that to us, and we don't want to get involved in that. It's just a headache.**" His reasons are on [[wiki/people/salim-khambawala.md]].
+- **Structural correction: InComm is a program manager, not the provider.** "**that's where [InComm] is just a program manager. [InComm] is not the provider. Provider is one of the bank entities.**" And on scale against the competition: Fiery Pay's backer is **Fiserv** — "**U.S. largest financial provider**" in Salim's words — "**But [InComm] is bigger.**"
+- **A dated explanation of InComm's pre-July-1 numbers.** Salim accepts InComm's **1.5 cards/day** figure as true before gift cards became legal, and attributes it to the pilot period and a market-share push: "**They did the pilot; they were running it till July first. Nobody was in a rush**… they were all about **market acquisition**… **In May, June, July. I think they gave away free equipment also.**" His own post-July-1 rate is **3.5–4 cards a day**. That dates the 5,000-free-device giveaway already recorded on [[wiki/topics/georgia-prize-card-processor-economics.md]].
+- **Who restocks the cards, and how badly it works.** "**[InComm] says it's never been at least three days and four days**" without stock at the location. Val's product answer — ship on a low-stock signal rather than on an order — is on [[wiki/topics/georgia-prize-card-processor-economics.md]].
+- **And InComm is named as the only party holding the data JVL needs to price default risk:** "**[InComm] for sure will have that data because they did the pilot for the lottery for the first three or four years.**"
+
+*(The commitment to go back to InComm and ask them to carry the broker's risk is held once, on [[wiki/decisions/2026-09-08-the-bundle-put-to-dixie-with-installation-explicitly-excluded.md]].)*
+
+## Sept 9 2026 — the installed PAX base sized, and the distributor who thinks InComm is not the market's mover
+
+At the [[wiki/meetings/2026-09-09-rao-machine-performance-and-exclusivity-offer.md|Sept-9 Rao meeting]] the Georgia distributor who installs the competing **Access** system gave his read of InComm's position, and [[wiki/people/val-levitan.md|Val]] gave a figure for the installed base. [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+
+- **5,500 locations on PAX with InComm, "all of it needs to be replaced"** — Val, in the room, using it as the reason to move now. *(A different quantity from the penetration figures already on [[wiki/projects/georgia-market-rollout.md]]; none of them is reconciled.)*
+- **Val expects InComm to welcome JVL putting its own hardware in:** "**[InComm] will happily do it because they don't want to be involved in it. They want somebody like us to come in and put our equipment. They don't want to. They want to clear cards. They don't want to bother with equipment.**" That matches what InComm has said about itself since June 2025 — "makes no money on kiosks," not in the kiosk/game-card-system business — recorded above.
+- **But [[wiki/people/narasimha-rao-namburi.md|Rao]] does not think InComm drove the Georgia shift.** Asked why the market changed, he named the [[wiki/meetings/2026-08-12-fiery-pay-competitive-analysis.md|Fiery Pay]] principal instead — "**Absad is the main guy… I think Absad is not [InComm]**" — against a JVL colleague's "**I think [InComm] had a lot to do with it too, by targeting locations** and saying, 'This is my tax system. You need to get it.'" Both recorded; **neither is tested in the source**. *(Reading "Absad" as the "Afshad"/"Avshad" of the Aug-12 and Sept-9 records is an **inference** from context.)*
+- **And on InComm's size as an argument about its behaviour:** "**Income don't care. They are not going to worry. They're going to do whatever they want because it's a billion dollar company.**" Rao's own characterisation, unsupported elsewhere in this source.
+- **A claim about Skill Pay that conflicts with InComm's own account** — Rao describing "SkillPay" as a crypto company issuing the ATM-access card — is recorded, with his own disclaimer that it is an assumption from hearsay, on [[wiki/topics/georgia-prize-card-processor-economics.md]] (Sept 9). **The corpus's direct InComm testimony on the blue Skill Pay card stands unchanged.**
+
+**§15.8:** clear — market-size and processor-role content only; no named-person compensation.
+
+## Sept 9 2026 (evening) — JVL's intent to displace InComm is said out loud, to a customer
+
+**This is the first source in the corpus in which JVL's plan to replace InComm on the back end is stated to anyone outside JVL.** At the [[wiki/meetings/2026-09-09-arc-gaming-backend-displacement-negotiation.md|4:35 PM ARC meeting]] [[wiki/people/val-levitan.md|Val]] told [[wiki/people/david-sloan.md|David Sloan]], ARC's CEO: "On the back end, **we're looking to replace [InComm]**," and then, with the confidentiality frame attached, "I'm buying the business and the hope that **I can replace [InComm]. This is highly confidential. We don't have a confidentiality agreement**." Earlier in the same meeting he put it as the sharp half of a question to the same man: "**Aside from these kiosks, I'm looking at taking the business from [InComm].**" Full ruling and context on [[wiki/decisions/2026-09-09-val-discloses-the-incomm-displacement-intent-to-arcs-ceo.md]]. [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+
+- **It is not framed as a hardware play.** The free kiosk, point-of-sale and five ports are the means — "we're **virtually converting the entire location to us**" — and the back end is the object.
+- **The route is undecided.** "If I want to go with somebody else, **the solution is available to me now. But I don't know if that somebody else is the right solution**"; "**If I have to do it myself, then half a year.**" The partner is not named by either man and **is not identified here**.
+- **Note the tension with Val's own position the same morning**, recorded in the Rao section above: that InComm "**will happily**" have JVL put its equipment in because it only wants to clear cards. Wanting JVL's hardware in the field and being displaced from the back end are different things, and **no source in the corpus reconciles them or records InComm being told anything about the second.**
+- *(The transcript renders InComm as "income" throughout — four occurrences, all flagged in the derived notes, and the notes record that the correction had **not** been applied to the raw file.)* [[raw/Meeting_Notes_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+
+**§15.8:** clear — commercial strategy only; no named-person compensation.
+
 ## Open commitments (Sept 2 2026)
 
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — re-verify barcode card activation with InComm by activating a couple more cards — due unspecified, ahead of the pilot — [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
@@ -416,6 +454,8 @@ Hours after the lunch above, a rival payments company sat in the JVL Georgia off
 
 - [[raw/Meeting_Notes_Continental_Vendor_Lock_In_Dead_End-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Continental_Vendor_Lock_In_Dead_End-September-2-2026.md]]
+- [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+- [[raw/Meeting_Notes_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
 - [[raw/Meeting_Notes_InComm_Skill_Pay_ATM_Guidance-August-26-2026.md]]
 - [[raw/Meeting_Transcript_InComm_Skill_Pay_ATM_Guidance-August-26-2026.md]]
 - [[raw/Meeting_Notes_InComm_Skill_Pay_Recycler_Strategy-August-12-2026.md]]
@@ -467,3 +507,5 @@ Hours after the lunch above, a rival payments company sat in the JVL Georgia off
 - [[raw/Meeting_Notes_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]]
 - [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]]
+- [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+- [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]

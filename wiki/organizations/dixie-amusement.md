@@ -3,14 +3,14 @@ type: organization
 title: Dixie Amusement
 date: 2026-08-31
 aliases: [Dixie Amusement, Dixie, Dixie Amusements]
-source-count: 6
-open-commitments: 2
+source-count: 8
+open-commitments: 1
 open-questions: 2
 ---
 
 # Dixie Amusement
 
-A **Georgia COAM master licensee** on the **south side of Atlanta**, run by [[wiki/people/salim-khambawala.md|Salim Khambawala]]. JVL has dealt with it since at least **May 2025** as an influential board-level account, and visited its office/warehouse on **August 31 2026** — see [[wiki/meetings/2026-08-31-dixie-amusement-kiosk-wait-and-see.md]]. [[raw/Meeting_Notes_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]] [[raw/felipe_georgia_market_update-may-29-2025.md]]
+A **Georgia COAM master licensee** on the **south side of Atlanta**, run by [[wiki/people/salim-khambawala.md|Salim Khambawala]]. JVL has dealt with it since at least **May 2025** as an influential board-level account, and visited its office/warehouse on **August 31 2026** — see [[wiki/meetings/2026-08-31-dixie-amusement-kiosk-wait-and-see.md]] — with a follow-up on **September 8 2026** at which the first priced offer was made ([[wiki/meetings/2026-09-08-dixie-amusement-bundle-offer-and-card-economics.md]]). [[raw/Meeting_Notes_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]] [[raw/felipe_georgia_market_update-may-29-2025.md]]
 
 **A naming caveat the notes raise themselves.** The account name "Dixie Amusement" comes from the **export filename, not from the recording** — Salim never names his company anywhere in the Aug-31 transcript, and the notes flag this for Val to confirm. It is nonetheless corroborated independently inside this corpus: Felipe named "Selim Kwambuwala from Dixie Amusement" in May 2025, "Salim (Dixie Amusement)" in June 2026 and "Salim… now with Dixie" in July 2026. [[raw/Meeting_Notes_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]] [[raw/felipe_georgia_market_update-may-29-2025.md]] [[raw/Meeting_Notes_Forecast_Review_Felipe-June-24-2026.md]] [[raw/Meeting_Notes_GA_COAM_Inventory_Pipeline_Review-July-7-2026.md]]
 
@@ -85,6 +85,19 @@ Val asked Salim to sanity-check a building **JVL is buying**. The figures as sta
 
 Mid-meeting, a JVL voice reported: "**All machines were shut down today**… **All machines in Georgia are down**," with Salim adding that the central system "is down. He told me that last Friday happened." *(The system is rendered "Interlock" in the transcript; the corpus carries Georgia's central COAM system as **Intralot** — reading it as Intralot is an **inference**, not stated in this source. The derived notes do not carry this item at all.)* [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
 
+## Sept 8 2026 — the offer, the crew, and what Dixie would actually buy
+
+The follow-up visit ([[wiki/meetings/2026-09-08-dixie-amusement-bundle-offer-and-card-economics.md|Sept 8 2026, ~3:00 PM, ~1h 40m]]) is the first time JVL puts a priced offer to this account. The offer itself is on [[wiki/decisions/2026-09-08-the-bundle-put-to-dixie-with-installation-explicitly-excluded.md]]; what belongs here is what the meeting establishes about the **route**. [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+
+- **Sixty to seventy locations, confirmed again.** Asked "you have how many locations?" — "**Sixty to seventy.**" *(Aug 31 gave "seventy locations"; the two are consistent and neither is corrected.)* [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+- **Seventy stores in his card arithmetic.** Working out why he does not want the broker role: "**I have seventy stores. Three cards, two hundred and ten dollars.**" [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+- **Dixie installs with its own crew, and Salim priced it.** "**A company like me, who has my own employee, per hour, my math is it costs me around 150 bucks per hour. Two guys going out**" — roughly five hours, so **~$1,000 a location**, more when the drive is long. Across the route that is the **~$70,000** number Val raised and then explicitly declined to absorb. On new vendors: "currently, on new stuff, **the company which comes in, my company would learn from them. Later on, they take it.**" [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+- **The estate is spread across the state, which is the cost driver.** "it's **not on one floor. It's all over the state**… Sometimes it's **Orlando**. Sometimes it's **Carter'sville**." *(An "Orlando" on a Georgia route is flagged unclear in the derived notes; Val later refers to a "Jimmy Carter" run. Recorded as spoken, not interpreted.)* And the planning answer he would need: "**How many locations in that area? Maybe you have to plan it. You have five. So I'll send my guys in three days, and they'll knock it up.**" [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]] [[raw/Meeting_Notes_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+- **What JVL's own debrief thinks Dixie is buying:** "**he buys game machine. One**," with the transactional hardware free, "**all of the kiosks have the card dispenser**," and "**there will be a contract definitely**." He is "perfectly fine with paying monthly" and has "**No issue with the service.**" [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+- **The wait-and-see hold is not lifted.** No handshake; Salim asked for about two weeks. See the dated update on [[wiki/decisions/2026-08-31-dixie-defers-kiosk-investment-until-the-rules-settle.md]]. [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+
+**A machine number that does not match itself.** Val quoted "**two hundred ninety-four dollars**" a day for the new vertical machine, attributing the figure to Salim — "You told me last time" — and minutes later Salim referred to the same machine as making "**three hundred and ninety something dollars**." Neither is reconciled, and neither is reconciled against the "about two hundred ninety dollars per day" of Aug 31 above. [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+
 ## History
 
 - **May 29 2025 — the upgrade-kit pricing pushback.** Felipe met "**Selim Kwambuwala** from Dixie Amusement, he's very important in the board" and quoted ~$2,500–$3,000 for the Peach One TITO/AFT conversion; Kwambuwala called it "very dangerous" and said operators would not pay $3,000 "for software they already have," citing **Aristocrat** giving its TITO upgrade and printers away free. Val's coaching response is on [[wiki/decisions/2025-04-01-price-georgia-coam-upgrade-kits.md]]. [[raw/felipe_georgia_market_update-may-29-2025.md]]
@@ -95,9 +108,11 @@ Mid-meeting, a JVL voice reported: "**All machines were shut down today**… **A
 ## Open commitments
 
 - [ ] [[wiki/people/salim-khambawala.md|Salim]] — talk to a couple of his operators about JVL's numbers and come back: "let me talk to a couple of guys and the numbers are…" — due unspecified — [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]] [[raw/Meeting_Notes_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
-- [ ] [[wiki/people/val-levitan.md|Val]] / Salim — meet **Tuesday** for lunch, with Salim viewing JVL's $1.5M building: "I'm back here on Tuesday. Next Tuesday. Can you see the building?… Let's do Tuesday. I'll take you out for lunch." *(The derived notes date this "Tue Sep 8"; the transcript itself says only "next Tuesday.")* — due the following Tuesday — [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]] [[raw/Meeting_Notes_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+*(Salim's further undertakings — the Fiery Pay introduction and the post-show board debrief — are held once, on [[wiki/people/salim-khambawala.md]]. The Sept-8 undertakings arising from the offer are held on [[wiki/decisions/2026-09-08-the-bundle-put-to-dixie-with-installation-explicitly-excluded.md]] and [[wiki/decisions/2026-09-08-first-nation-pricing-offered-to-salims-buying-group.md]].)*
 
-*(Salim's further undertakings — the Fiery Pay introduction and the post-show board debrief — are held once, on [[wiki/people/salim-khambawala.md]].)*
+## History — discharged
+
+- [x] **Val / Salim — meet Tuesday for lunch, with Salim viewing JVL's $1.5M building.** Committed on Aug 31 ("I'm back here on Tuesday. Next Tuesday. Can you see the building?… Let's do Tuesday. I'll take you out for lunch") and **discharged on Tuesday September 8 2026** — the follow-up visit happened, and its transcript opens on the building ("They always block my building… **Roofing and tiles**, and we're doing very well"). *(The derived notes describe the Sept-8 meeting as "follow-up #2" from the Aug-31 note, "the Tuesday lunch and building visit." Whether the lunch itself took place is not stated in any source.)* — [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]] [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]] [[raw/Meeting_Notes_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
 
 ## Open questions
 
@@ -114,3 +129,5 @@ Mid-meeting, a JVL voice reported: "**All machines were shut down today**… **A
 - [[raw/Meeting_Notes_Forecast_Review_Felipe-June-24-2026.md]]
 - [[raw/Meeting_Notes_GA_COAM_Inventory_Pipeline_Review-July-7-2026.md]]
 - [[raw/Meeting_Transcript_Georgia_Machine_Sales_Strategy_Post_GOAM-August-21-2026.md]]
+- [[raw/Meeting_Notes_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+- [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]

@@ -4,7 +4,7 @@ title: Georgia V4 direction — replace the V-deck with a mechanical button deck
 date: 2026-09-04
 aliases: [V4 direction, mechanical button deck, drop the V-deck, default to a dollar, bet up bet down on dashboard, dual box replaces nudge, V-deck is a piano, fifteen games on the selection screen]
 status: active
-source-count: 2
+source-count: 3
 open-commitments: 2
 open-questions: 2
 ---
@@ -45,6 +45,27 @@ Val started from the commercial question, not the design one: "**I love VDEC. Bu
 - Whether the V-deck is actually costing JVL revenue against Aristocrat's mechanical deck and dollar default. Efim's sharper version: is Aristocrat's **average bet** higher, or only their number of plays? Nobody has the data — [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]] [[raw/Meeting_Notes_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 - Whether players read credits or dollars more cautiously. Juan: "Everything I've ever learned is Americans can't count… 600 credits is not as much as $6"; Val pushed the status reading of the same number — "600, you're almost a millionaire, and $6 you're an idiot" — and noted **Light & Wonder now uses credits** — [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 
+## Sept 9 2026 — the field evidence arrives, and it cuts both ways
+
+Five days later, at the [[wiki/meetings/2026-09-09-lucky-coin-service-burden-and-exclusive-partnership.md|Lucky Coin shop visit]], the technicians who service JVL cabinets gave [[wiki/people/val-levitan.md|Val]] the first field testimony in the corpus on the V-deck. **Nothing here decides the V4 question — the arguments below are about reliability, not about bet behaviour, which is what the ruling above turns on.** [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
+
+**Against keeping it — a failure mode nobody in the Sept-4 meeting raised: spills.**
+
+- "somebody's sitting there with a beer on the [V-deck] and they **knock it over, now I have to go put a whole new [V-deck] on the thing because it quits working**." Three replaced; one or two spares kept on the shelf; and "**anywhere I've ever put a game with a V deck on it, at one point or another, I've had to go replace the V deck.**" The field workaround is cling film over the I/O boards.
+- Val's answer is that it is a **design trade-off, not a defect he can seal away**: JVL has internal drainage and water-tested it, "but **if there is a flat surface, the spillage eventually penetrates**… Even if we s[eal] the board and the connector, which we can, what we've learned is **you will still have to replace it because there is a sticky residue left**, and it becomes very unpleasant to play." Competitors' decks are slanted so liquid "**cascade[s] down on the floor**" — "**but then the comfort that we're looking for to give to a player, it will disappear**."
+- **It is not a JVL-only fault, on the technicians' own account:** "**the IGT with the V deck, Light and Wonders with the V deck**" fail the same way; **Aristocrat has no V-deck at all** (Val's statement, uncorrected in the room). That is consistent with Juan's Sept-4 report that "light and wonder sales are down a little bit because people are breaking their [V-decks]."
+
+**For keeping it — the customer's own preference, stated twice.**
+
+- "I **like** the [V-deck], and I think the **players like** the [V-deck]"; "I **prefer the V deck**. I think the **V deck looks better and makes the game play better**." That is a technician's view, not a revenue measurement, and does not touch Efim's open question about average bet.
+
+**What was actually agreed, and it is not a swap.** Val offered the mechanical button deck as an immediate exchange — "**I can swap the V deck for button deck. We have a solution right now. We can give it to you today**" — and [[wiki/people/kyle-shepherd.md|Kyle Shepherd]] declined to move now: "**Next time the V deck has an issue, we'll swap it for a button panel and see what happens.** I was [not] the reason to go do it right now, but **the next time it tears out**, then we'll put the buttons." So the first real-world V-deck-versus-buttons comparison on this route is gated on a failure that has not happened yet. The mechanics of the swap were asked about in the room — "**Can I just go swap it and plug it in, or do I…?**" — and **not answered on the transcript**. [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
+
+**One coincidence worth flagging, not resolving.** In the same meeting Kyle described a competitor already shipping the design this ruling adopts: "the deck that they have with the **up and down buttons on the deck**. **Greg** got that idea of talking to one of the players at my location." The manufacturer is rendered "Bad Dog," which the corpus has never resolved to an entity, and "Greg" is a first name only. Recorded as an unresolved mention. [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
+
+**§15.8:** clear — component cost and service-frequency content only; no named-person compensation.
+
 ## Sources
 - [[raw/Meeting_Notes_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+- [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]

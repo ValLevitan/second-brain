@@ -3,7 +3,7 @@ type: decision
 title: Andrei Bosik becomes the driver for the Wi-Fi work and writes it up in Jira — the existing ticket is not to be amended, and the chain runs use cases (Klimovich) → capabilities → features (Pavel) → feature branch → commit carrying code plus prose plus data contracts
 date: 2026-09-07
 aliases: [Bosik is the driver, if it is not in Jira there is no work, do not amend the existing ticket, you are driving a tank, use cases not capabilities, capabilities broken into features, docs/contracts directory, prose and data contract, set him up on Claude Code]
-source-count: 4
+source-count: 5
 status: active
 open-commitments: 5
 open-questions: 0
@@ -41,9 +41,15 @@ Val told Alekseev his commits must carry two things beside the code — "ког�
 
 Alekseev said it already exists for his repository — "оно ж есть уже. Написали" — and Val let it stand ("если есть[,] хорошо"). Val added the linkage: "и проза должна общаться с [acceptance criteria]." Alekseev's blocker was access, not willingness: "мне надо туда подключиться[ —] для начала, чтоб ктото меня подключил, ввёл [в] курс дела, как это работает"; Val put Bosik on it and Bosik undertook to call him that day: "Созвонимся с вами, Евгений… сегодня[,] и настрою." Val's endorsement of Bosik as the person to explain it: "Андрей глубоко в этом разбирается, он был частью всей этой гимнастики" [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]].
 
+## Update — Sept 9 2026: it worked, and Val widened it
+
+Two days later [[wiki/people/val-levitan.md|Val]] opened Bosik's email during the [[wiki/meetings/2026-09-09-september-resource-plan-and-flex-port-readiness.md|Sept-9 7:02 AM call]] — "он создал огромное количество [рекваймент]" — and [[wiki/people/pavel.md|Pavel Frolov]] confirmed the shape was right: capabilities first, then requirements under them, across both Flex-IQ and FlexPay [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]. The Wi-Fi capabilities named on that call were **145, 143, 142 and 140**, with 145 explicitly outside the first release [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]].
+
+Val then generalised the arrangement beyond Wi-Fi: Pavel is to stop planning by hand, talk the work through in **daily recorded sessions** with Bosik and [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]], and let them turn the transcripts into capabilities and requirements — "хотя бы на 75[–]80%." Full ruling on [[wiki/decisions/2026-09-09-planning-handed-to-bosik-and-kovalchuk-with-daily-recorded-sessions.md]].
+
 ## Open commitments
 
-- [ ] [[wiki/people/andrey-bosik.md|Andrei Bosik]] — write the Wi-Fi capabilities, break them into features in Jira, own the pace and coordinate the group from this meeting — due start Sept 7 2026 — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]] [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- [ ] [[wiki/people/andrey-bosik.md|Andrei Bosik]] — write the Wi-Fi capabilities, break them into features in Jira, own the pace and coordinate the group from this meeting — **partly discharged Sept 9 2026**: the capabilities and requirements exist and were emailed round (Wi-Fi capabilities 140/142/143/145), but Pavel expected them to cover "5% в лучшем случае" of kiosk behaviour and put a review in front of the next step; the coordination half continues — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]] [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]] [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 - [ ] [[wiki/people/andrey-bosik.md|Andrei Bosik]] — call Evgeniy Alekseev and set him up on Claude Code so he can generate prose alongside his code — due Sept 7 2026 — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — write the use cases for the user-experience changes (the PIN above all) and attach capabilities and requirements to them; his function ends there — due unspecified — [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]] [[raw/Meeting_Notes_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — take the capabilities and break them into features; open the feature branch — due unspecified — [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
@@ -56,3 +62,4 @@ Alekseev said it already exists for his repository — "оно ж есть уж�
 - [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
 - [[raw/Meeting_Notes_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]

@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 77
+source-count: 79
 open-commitments: 15
 ---
 
@@ -255,6 +255,16 @@ His other contributions:
 - [ ] Ask Claude to find the existing non-functional requirements in the WebSocket protocol (handshake, heartbeat, reconnect, self-diagnostics) and attach them to the capabilities with single-line acceptance criteria — due unspecified, high — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
 - [ ] Call [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] today and set him up on Claude Code — due Sept 7 2026 — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
 
+## Sept 9 2026 — the Sept-7 assignment produces output, and Val widens his role to planning
+
+Two days after being made driver of the Wi-Fi work ([[wiki/decisions/2026-09-07-andrei-bosik-drives-the-wi-fi-work-and-the-process-chain.md]]), Bosik's results were on [[wiki/people/val-levitan.md|Val]]'s screen during the [[wiki/meetings/2026-09-09-september-resource-plan-and-flex-port-readiness.md|Sept-9 7:02 AM call]]: "[я] смотрю сейчас на email от [Б]осика. Он создал огромное количество [рекваймент]." [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+
+- **What he built:** capabilities first, then requirements under them — [[wiki/people/pavel.md|Pavel]]: "он не просто создавал реклай[мент]с[,] он создал [капа]билити под них, потом создал реклайментс" — across both Flex-IQ and FlexPay; the derived notes call it "the large batch of capabilities and requirements Andrei Bosik had just created off meeting transcripts." The Wi-Fi capabilities attributed to him on the call were **145, 143, 142 and 140**. [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]] [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- **Scope was deliberately narrow.** Val: "мы его просили только на вай[-]фай, потому что он концентрировался только на Алексее[ве,] чтоб Алексееву раздать работу." [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- **How he produced them:** from the recorded meeting, using his own engineering judgement — Val: "он присутствовал на митинге с Алексеевым… [с]делали запись этого транскрипта… но он же сам тоже инженер. Он понимает, что нужно делать." [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- **Val's expansion of the role:** Bosik and [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] should take the planning off Pavel entirely, in daily sessions — "[я] вижу, что [Б]осик и Ковальчук потянут планирование под вашей командой, где вам руками не надо дотрагиваться до этого." See [[wiki/decisions/2026-09-09-planning-handed-to-bosik-and-kovalchuk-with-daily-recorded-sessions.md]]. [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- **The check Pavel put in front of it:** Irina and Khamin grade the coverage first; Pavel expects "на 5% в лучшем случае" of kiosk behaviour, and worried Bosik would generate too many capabilities on Flex-Port if left unbounded. Val's answer was to bound him explicitly — "если поставить ему задачу, что должно быть не больше… какого[-]то энного количества [капабилитис]… он это сделает." [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
@@ -337,3 +347,5 @@ His other contributions:
 - [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
 - [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
 - [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]

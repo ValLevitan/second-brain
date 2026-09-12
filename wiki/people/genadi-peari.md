@@ -3,8 +3,8 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий]
-source-count: 78
-open-commitments: 11
+source-count: 80
+open-commitments: 13
 ---
 
 # Genadi Peari
@@ -313,6 +313,21 @@ At the [[wiki/meetings/2026-09-07-wifi-on-flex-port-and-qr-provisioning.md|9:08 
 
 - [ ] Provide board space and an optional socket for a certified external antenna within the Flex-Port's plastic perimeter — due unspecified; not fully agreed with Alekseev — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
 
+## Sept 9 2026 — mould first, then stands and harnesses; the brackets are away
+
+At the [[wiki/meetings/2026-09-09-october-rollout-staging-and-unit-ramp.md|Sept-9 8:43 AM rollout meeting]] (English, Plaud recording) [[wiki/people/val-levitan.md|Val]] set his order of work: "[Genadi is] working right now on changing the mold. **Making another mold, removing the screen**… that's his **number one priority**. His other priority is to install the **stan[d]s. All of the internal… components, harnesses**, everything to ensure that we can accommodate for all the purposes." [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
+
+**The brackets from the Sept-4 critical path are reported done:** "[t]his is already done today and sent to the manufacturer… [h]ere is already done. It's past tense" — discharging the drawing-release commitment on [[wiki/decisions/2026-09-04-brackets-and-harnesses-from-china-and-a-metal-order-for-one-hundred.md]]. [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
+
+**A new bracket task points at him:** the drawings for other manufacturers' machines — Light & Wonder, IGT, Banilla and Aristocrat — are to be obtained and passed to him: "[j]ust get the drawings and give it to Gennady." No owner was named for fetching them. See [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]]. [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
+
+Full hardware picture, including the stock position and the printer fallback: [[wiki/decisions/2026-09-09-the-mould-without-the-screen-comes-first-and-the-printer-has-a-fallback.md]]. [[raw/Meeting_Notes_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
+
+**Open commitments (Sept 9 2026)**
+
+- [ ] Make another mould with the screen removed — stated as his number one priority — due unspecified — [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]] [[raw/Meeting_Notes_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
+- [ ] Install the stands and all internal components and harnesses — his second priority — due unspecified — [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Genadi_General_Alignment-May-22-2026.md]]
@@ -393,3 +408,5 @@ At the [[wiki/meetings/2026-09-07-wifi-on-flex-port-and-qr-provisioning.md|9:08 
 - [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
 - [[raw/Meeting_Notes_GACS_Expo_IQ_FlexPorts_and_Ewallet-September-7-2026.md]]
 - [[raw/Meeting_Transcript_GACS_Expo_IQ_FlexPorts_and_Ewallet-September-7-2026.md]]
+- [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
+- [[raw/Meeting_Notes_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]

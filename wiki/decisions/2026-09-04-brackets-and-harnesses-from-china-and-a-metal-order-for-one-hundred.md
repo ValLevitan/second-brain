@@ -3,9 +3,9 @@ type: decision
 title: Brackets and harnesses are the critical path for the first ten Flex-Slims — make them in China through Mikhail Perelman on a rush, then order metal for 100 units at 14 gauge
 date: 2026-09-04
 aliases: [first ten Flex-Slims, three brackets, brackets in China, rush the Chinese shop, metal order for 100, 14 gauge, no decent shop in America, Flex-Slim critical path]
-source-count: 2
+source-count: 3
 status: active
-open-commitments: 6
+open-commitments: 5
 open-questions: 2
 ---
 
@@ -36,9 +36,19 @@ This continues the Flex-Slim product line on [[wiki/topics/flexpay-business-arch
 
 The instruction, given in full and then executed live on the call, belongs to the operating-principles thread on [[wiki/topics/jvl-operating-principles.md]]: "Не пишите… когда ты ей пишешь, это значит… она посмотрит на это через час[,] она подумает через 2[,] она приступит к этому через 3… так нельзя. Позвоните на [Teams,] скажите… иди проверь… не ставь меня на холд[,] я буду ждать[,] я сижу[,] смотрю на тебя[,] направь камеру на это." Genadi then did exactly that, bringing [[wiki/people/elizabeth.md|Elizabeth Palomino]] on to find the dispensers physically in stock [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]].
 
+## Update — Sept 9 2026: the brackets are done and sent
+
+At the [[wiki/meetings/2026-09-09-october-rollout-staging-and-unit-ramp.md|Sept-9 rollout meeting]] [[wiki/people/val-levitan.md|Val]] shut the bracket topic down as finished: "we don't need these brackets. **This is already done today and sent to the manufacturer**… So now all we need to do is to receive it here," and, pressed again, "[h]ere is already done. **It's past tense.** There is nothing to talk about" [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]].
+
+So the drawing release Val doubted on Sept 4 did happen inside the week. **What the Sept-9 source does not say:** which manufacturer received them, or whether that is the Chinese shop reached through Mikhail Perelman — so the making-in-China and metal-order commitments below stand open.
+
+Separately, the eight in-transit Slims surfaced in the same meeting as the one thing a colleague was worried about — "[t]he only challenge I see is getting the [material] over the ocean… handled by next week" [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]].
+
+A related but distinct bracket task was created that day: getting the **bracket drawings for other makers' machines** released by Light & Wonder, IGT, Banilla and Aristocrat and passed to Genadi — see [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]].
+
 ## Open commitments
 
-- [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — release the drawings for the three brackets — due same day or next (Val sceptical of same-day) — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+- [x] [[wiki/people/genadi-peari.md|Genadi Peari]] — release the drawings for the three brackets — **discharged by Sept 9 2026**: "already done today and sent to the manufacturer" — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]] [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
 - [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — get the brackets and two or three harnesses made in China through [[wiki/people/mikhail-perelman.md|Mikhail Perelman]] with a rush request, landed within a week — due about one week — [[raw/Meeting_Notes_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]] [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
 - [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — place the metal order for 100 units once the brackets are finalised, at 14 gauge — due after the brackets — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
 - [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — establish where the eight in-transit Slims are and when they land — ongoing — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
@@ -55,3 +65,4 @@ The instruction, given in full and then executed live on the call, belongs to th
 ## Sources
 - [[raw/Meeting_Notes_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+- [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]

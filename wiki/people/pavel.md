@@ -4,8 +4,8 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 129
-open-commitments: 30
+source-count: 131
+open-commitments: 36
 open-questions: 0
 ---
 
@@ -436,6 +436,27 @@ Across both Monday meetings ([[wiki/meetings/2026-09-07-wifi-on-flex-port-and-qr
 - [ ] Talk to [[wiki/people/alexander-biratka.md|Alexander Biratka]] and [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] about standing up the Flex-Pay emulator side quickly — due unspecified — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
 - [ ] Find out what remains for "Сергей" on the Flex-IQ screen changes; he thinks it should finish that day — due Sept 7 2026 — [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 
+## Sept 9 2026 — names Flex-Port the bottleneck, takes the SAS work himself, and is told to stop planning by hand
+
+On the [[wiki/meetings/2026-09-09-september-resource-plan-and-flex-port-readiness.md|Sept-9 7:02 AM resource-plan call]] (Russian, with Val and [[wiki/people/irina-shishko.md|Irina Shishko]]) Pavel did three things that shape the rest of the transactional programme.
+
+- **He gave the readiness estimate and would not gild it.** Not Sept 11, "[с]корее всего, нет" for Sept 18, "в лучшем случае это 25" — and he refused to be more precise until testing begins: "[ко]гда начнём тестировать[,] станет понятнее, насколько много недоработок возникает по ходу." Detail on [[wiki/decisions/2026-09-09-flex-port-readiness-slips-to-september-25-and-stays-the-bottleneck.md]]. [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- **He named Flex-Port the bottleneck** — "пока не сделается какой[-]то функционал в[о] флекспорте[,] дальше проверить на flexpay какой[-]то функционал будет невозможно" — and took the SAS work himself, giving both reasons openly when Val asked whether he was assigning it to himself because it interests him: "[д]а, мне это интересно," and then the resource argument (Khamin and Irina beside him, many machines to run cases on, against Alekseev's roughly one-day latency). [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- **He flagged the engineering fork** that limits a location to FlexPay *or* Flex-IQ in the first iteration — [[wiki/decisions/2026-09-09-one-transactional-unit-per-location-until-the-wi-fi-iteration.md]]. [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+
+**Val's instruction to him** was to stop doing the Jira planning by hand and lean on [[wiki/people/andrey-bosik.md|Bosik]] and [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] in daily recorded sessions — see [[wiki/decisions/2026-09-09-planning-handed-to-bosik-and-kovalchuk-with-daily-recorded-sessions.md]]. Pavel took it as an experiment rather than a conviction: "[х]орошо, давайте начнём так… [с]мотрим, к чему приведёт." [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+
+Two exchanges worth keeping for the working relationship. Pavel, on being told he is hard to talk to: "есть только моё мнение и неправильное мнение[,] вы про это" — Val corrected him: "[н]ет, я говорю, что с толковыми людьми всегда тяжело говорить… они не ведутся ни на что… [я] вас обосрал[,] [и сделал] комплимент заодно." And on his own hours: "я[-]то работаю почти круглосуточно тоже сейчас." [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+
+**Open commitments (Sept 9 2026)**
+
+- [ ] Have at least one working stand ready — FlexPay or Flex-IQ with Flex-Ports on the new firmware, over SAS — due mid-week of Sept 14 2026 (his number: the 16th; Val asked for the 15th) — [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- [ ] Get the full setup working in the office at least two weeks before the October 1 installation so Klimovich can start testing — due week of Sept 14 2026 — [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]] [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- [ ] Build the October-1 work schedule and have it ready for the Friday meeting with Val — due Sept 11 2026 — [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]] [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- [ ] Start the daily planning sessions with Bosik and Kovalchuk, with Irina, and put Val on the invitations — due from Sept 9 2026 — [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- [ ] Create the three placeholder features under capability 165 and a separate capability for the wallet transfer — due unspecified — [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- [ ] Record the Flex-Port SAS testing as two separate items (JVL machines / other suppliers' machines) — due unspecified — [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
@@ -569,3 +590,5 @@ Across both Monday meetings ([[wiki/meetings/2026-09-07-wifi-on-flex-port-and-qr
 - [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
 - [[raw/Meeting_Notes_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]

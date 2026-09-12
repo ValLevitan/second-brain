@@ -3,7 +3,7 @@ type: organization
 title: GAMOA — the Georgia coin-operated amusement machine operators' association
 date: 2026-09-01
 aliases: [GAMOA, GOAM, GMUA, Gamua, Gamboa, Gomoa, Gomorrah, Georgia operators association, the state association, the association, GAMOA board, GAMOA show, GAMOA expo, gift-card lobbying]
-source-count: 6
+source-count: 9
 open-commitments: 0
 open-questions: 2
 ---
@@ -67,6 +67,16 @@ The association's show is half its income and, in 2026, the source of its main o
 - **Access to the association is JVL's standing Georgia problem.** Val asked Salim on Aug 31 how to get in front of his 30–40-strong buying group inside the ~190-member association, and concluded the only route that works is a personal ask from a member; the detail is on [[wiki/people/salim-khambawala.md]] and [[wiki/projects/georgia-market-rollout.md]]. On Sept 1 he went at it a different way — he asked Ryan directly for the **list of board members**, and then asked for it to be sent to him **personally**: "Can you ask her to send it to me personally?" [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]] [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
 - **The board is also where Class A gets decided politically.** Ryan's account of the board's posture — "We're not in favor of them" — and his own reasoning are on [[wiki/topics/georgia-class-a-machines.md]]. The Class A threat first reached JVL through a GAMOA board meeting in February 2026 ([[wiki/projects/georgia-market-rollout.md]]).
 
+## Sept 8 2026 — the association's posture on transactional equipment, and the tax history behind it
+
+From [[wiki/people/salim-khambawala.md|Salim Khambawala]], the sitting vice president, at the [[wiki/meetings/2026-09-08-dixie-amusement-bundle-offer-and-card-economics.md|Sept-8 Dixie visit]] — the clearest statement in the corpus of **why the association wants JVL's product category to arrive slowly**. [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+
+- **Glad it is happening; wants it slow-walked and timed.** Asked "What's the association's take on the ATMs and the transactional equipment?" — "**[The association] is happy it's happening, but I think we have to slow walk and time it**… some of the politicians or somebody getting mad and **putting a piece of legislation out in the next election and putting more taxes on our industry or putting restrictions is not a good idea**… But I think it's an excellent way to do things the right way than to do it the wrong way."
+- **The reason is the calendar, not the product.** "**July first twenty-six gift card became legally allowed to be in the market**; before it was pilot. **You cannot go to a legislator in August and say, 'Hey, by the way, the gift card… could go into an ATM and get cash.'**" His read of the legislature: "**Some don't care. A couple of politicians or legislators said, 'You know, [COAMs] are not the only thing we talk about at the capital.' And some are involved, and some are naive. But all of them do matter.**"
+- **The tax history is the argument.** "**it started at five. Then six. Then seven. Then eight. Then nine. Then ten. We kept it. Then 2024, when we wanted this gift card, they jumped up to 30. Now you go and ask for something else; they'll jump to 20.**" And the current rate: "**And now the tax is thirty percent. Now it's thirteen percent.**" *(The sequence is spoken quickly and the 30 → 13 → "they'll jump to 20" ordering is not internally tidy; recorded as spoken. The derived notes read it as: 5 % climbing to 10 %, a jump to **30 %** in 2024 when the industry asked for the gift card, now **13 %**.)* Val's own position on it: "**The taxes will go up. We know that. There's nothing we can do about it.**" Salim's: "**We understand it's going to go up, but how fast do you want that to go up?… So higher the tax, lesser money.**" [[raw/Meeting_Notes_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+- **Two structural rules he cited in the same breath**, both of which bound what any vendor can sell into the state: **Georgia regulates three tiers only** — "**In Georgia, the regulation is only on three sectors. One is a distributor, JVL. One is a master, and one is a location**" — and **a location may not take more than half its gross from COAM**: "**in the law it says you cannot [derive] more than fifty percent of your gross revenue of the store from these [COAM]**… **This has to be a part of your business, but not your whole business. You cannot open a game room and put 50 games in there.**" *(The transcript renders "derive" as "deprive" and COAM as "coins"; the notes flag both.)*
+- **On Class A he would not speak for the association at all** — "**Association is not like that**" — and gave a personal forecast instead. See [[wiki/topics/georgia-class-a-machines.md]] (Sept 8 2026). This matches the Sept-1 pattern above, where a board member answered on Class A with "It's my view" and "We don't have a specific thing."
+
 ## Open contradictions
 
 **Is the show's venue changing, or is the question still open? (Aug 31 vs Sept 1 2026.)** Two association board members, one day apart, describe it differently. Recorded, not resolved.
@@ -82,6 +92,15 @@ The association's show is half its income and, in 2026, the source of its main o
 - **What is the association's actual annual budget?** Val pressed twice and got the 50/50 split but never a number; his own guess of "multiple millions" was neither confirmed nor denied. [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
 - **Who is the newly nominated manufacturer representative?** Val endorsed the candidate warmly but the name is not in the source. [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
 
+## Sept 9 2026 — Val names a collective operator boycott as the one outcome he would accept
+
+Discussing a **September-2 letter** worrying that players now reach cash too quickly (full passage on [[wiki/projects/georgia-market-rollout.md]]), [[wiki/people/val-levitan.md|Val]] was asked at the [[wiki/meetings/2026-09-09-rao-machine-performance-and-exclusivity-offer.md|Sept-9 Rao meeting]] whether JVL should change how it enters the market. He said no — and then named the one thing that could actually stop him, which is an association decision rather than a regulatory one [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]:
+
+> "what could happen is that **operators, all of the operators, could get together, and the operators could say, we collectively decide not to promote the system in our locations, and we collectively, as the operators of [the] Coin Operat[ed] Machines Association, we are not going to buy it**… **But I'm fine with that. I understand. What does it have to do with the technology?**"
+
+- **The body is not named GAMOA in the source.** Val says "Coin Coin Operators Machines Association," which is a description of the Georgia COAM operators' association rather than its name; **identifying it as GAMOA is an inference** from role and market, consistent with the naming note above (the transcripts render the name many ways and sometimes not at all).
+- **What it adds:** every other source on this page treats the association as a channel to be courted. This is the first to treat it as a **veto** — and Val's stated position is that he would accept the veto without changing the product, because "it has nothing to do with the technology." [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+
 **§15.8:** clear — association budget structure, membership and board composition, show economics and political-spending mechanics only. The one pay-related statement in the source (that a single administrator is salaried while the board volunteers) carries **no figure**, and none is recorded.
 
 ## Sources
@@ -92,3 +111,6 @@ The association's show is half its income and, in 2026, the source of its main o
 - [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
 - [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
 - [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]]
+- [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+- [[raw/Meeting_Notes_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+- [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]

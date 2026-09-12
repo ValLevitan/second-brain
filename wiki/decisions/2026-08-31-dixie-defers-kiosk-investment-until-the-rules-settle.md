@@ -3,10 +3,10 @@ type: decision
 title: Dixie Amusement will not buy kiosks or transactional equipment until the regulator, the lawmakers and the manufacturers settle
 date: 2026-08-31
 aliases: [Salim wait-and-see, kiosk wait and see, no kiosk purchase, nobody has figured out an end-to-end system, January reckoning, gift card effective July 1]
-source-count: 2
+source-count: 4
 status: active
 open-commitments: 0
-open-questions: 1
+open-questions: 2
 ---
 
 # Dixie Amusement will not buy kiosks or transactional equipment until the rules settle
@@ -45,9 +45,21 @@ This is the part of the meeting that dates the decision. [[raw/Meeting_Transcrip
 - **It is consistent with what JVL already knew but had only second-hand.** Felipe reported on Jul 7 2026 that operators, Salim included, were "moving away from kiosks toward something simpler"; this is the same position stated first-hand and with its reasoning. See [[wiki/projects/georgia-market-rollout.md]]. [[raw/Meeting_Notes_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
 - **Val did not argue the hold.** He agreed with the diagnosis — "**From [the] number side, regulator is one. Manufacturers to develop their solutions. I agree**" — and spent the rest of the meeting on the economics instead (see [[wiki/topics/georgia-prize-card-processor-economics.md]] and [[wiki/decisions/2026-08-31-transactional-equipment-only-with-location-exclusivity.md]]). [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
 
+## Sept 8 2026 — the hold is not lifted, but it bent
+
+Eight days later, at the [[wiki/meetings/2026-09-08-dixie-amusement-bundle-offer-and-card-economics.md|Sept-8 follow-up]], [[wiki/people/val-levitan.md|Val]] put a priced bundle on the table for the first time ([[wiki/decisions/2026-09-08-the-bundle-put-to-dixie-with-installation-explicitly-excluded.md]]) and the hold above was tested directly. **It did not break, and it was not restated either.** [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+
+- **He went as far as "okay," then stopped himself.** Val: "**Do we shake hands on this?**" Salim: "**Okay.**" Then: "We just talked about it. We are on the upper, upper casing. **I don't want to shake hands and then back out.**"
+- **He asked for about two weeks**, and framed the substantive conversation as next year's: "**In preparing for next year, we can start talking, start thinking, and see what we come up with.**"
+- **He did not repeat any of the three reasons above.** The regulator's vagueness, the pay-twice cycle and the no-end-to-end-system verdict are absent from the Sept-8 record; so is the January reckoning. **Nothing in this source withdraws them, and nothing reaffirms them** — the conversation simply moved to price, card economics and installation.
+- **JVL's own debrief reads him as a buyer.** Val, alone with a colleague minutes afterwards: "all of the kiosks have the card dispenser. And **he buys game machine. One**… there will be a **contract** definitely," and he is "perfectly fine with paying monthly" with "**no issue with the service**."
+
+**So the title above still holds — no kiosk has been bought and no handshake was given — but the posture recorded on Aug 31 ("I decided not to invest and wait out") now sits alongside an active, priced negotiation he has not refused.** Recorded as evolution of the posture, not of the ruling; `status` stays `active` and the two states are left visible rather than merged. [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]] [[raw/Meeting_Notes_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+
 ## Open questions
 
 - **Does the January 2027 reckoning actually happen, and does it produce the single standard he is waiting for?** Stated as an expectation by one operator, unconfirmed by any other source in the corpus. [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+- **Does this hold still govern?** On Sept 8 he neither restated it nor withdrew it while negotiating a priced bundle he did not refuse. Neither source addresses the other. [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
 
 **§15.8:** clear — regulatory timeline and market economics only; no named-person compensation.
 
@@ -55,3 +67,5 @@ This is the part of the meeting that dates the decision. [[raw/Meeting_Transcrip
 
 - [[raw/Meeting_Notes_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
 - [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+- [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+- [[raw/Meeting_Notes_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]

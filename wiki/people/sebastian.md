@@ -3,7 +3,9 @@ type: person
 title: Sebastian
 date: 2025-02-19
 aliases: [Sebastian]
-source-count: 4
+source-count: 7
+open-commitments: 0
+open-questions: 1
 ---
 
 # Sebastian
@@ -26,9 +28,30 @@ The transcript does not give Sebastian's last name.
 
 On the BC status call ([[wiki/meetings/2025-04-28-business-central-labs-tariffs-status.md]]) Val placed Sebastian as one of three engineers who place orders — he should **place purchase orders** (internal, to JVL Labs/[[wiki/people/arkady-batson.md|Arkady]]), not sales orders. Val confirmed his background: a **full-time engineering technician** in Florida who **used to work for JVL's Colombian entity as a field-service engineer** ("he knows everything inside out"), speaks Spanish, and is currently light on installations. [[raw/business_central_update-apr-28-2025.md]]
 
+## Sept 9 2026 — one half of the installation split
+
+At the [[wiki/meetings/2026-09-09-october-rollout-staging-and-unit-ramp.md|Sept-9 8:43 AM rollout meeting]] [[wiki/people/val-levitan.md|Val]] proposed splitting the field work between two people: "[w]hat I suggest we do for every installation is send **Sebastian in one direction and [[wiki/people/anibal.md|Anibal]] in the other**." [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
+
+Earlier in the same meeting his name came up and a participant did not recognise it — "[w]ho is Sebastian?" — which is recorded as-is; the source gives no answer and no role description. The wiring itself is to be done by separately hired junior electrical tradesmen, not by these two: see [[wiki/decisions/2026-09-09-wi-fi-is-second-in-urgency-and-october-november-run-wires.md]]. [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
+
+## Sept 9 2026 (evening) — he takes the assignment off Felipe, and has to come sooner
+
+Nine hours after the morning split above, at the [[wiki/meetings/2026-09-09-georgia-exclusivity-bet-and-sebastian-reassignment.md|5:31 PM debrief]], [[wiki/people/val-levitan.md|Val]] reassigned a piece of field work to him outright: "One instead of **Felipe, Felipe cannot do that. Assign it to Sebastian. I need Sebastian here earlier. The end of September is not workable for me.**" A colleague undertook to speak to him the same day about leaving sooner. [[raw/Meeting_Transcript_Georgia_Exclusivity_Bet_and_Sebastian_Reassignment-September-9-2026.md]]
+
+**He is to be paired with an unnamed local partner for site access** — "**He's not an operator. He's quasi local distributor, but he covers a lot of locations. He goes directly to locations**… he'll give him access to everything that he needs." Full ruling: [[wiki/decisions/2026-09-09-sebastian-replaces-felipe-on-the-georgia-field-assignment.md]]. **What the assignment actually is is not named in either source** — the derived notes call it "the deployment." [[raw/Meeting_Notes_Georgia_Exclusivity_Bet_and_Sebastian_Reassignment-September-9-2026.md]]
+
+**§15.8:** clear — assignment and scheduling only; **no compensation is recorded.** *(Note the ≈Mar-2025 entry above, where Val used Sebastian as a salary benchmark: those figures remain held and are not restated.)*
+
+## Open questions
+
+- **What is the assignment, and when exactly does he arrive?** "Earlier" than the end of September is all that is said; no date is set in either source. [[raw/Meeting_Transcript_Georgia_Exclusivity_Bet_and_Sebastian_Reassignment-September-9-2026.md]]
+
 ## Sources
 
 - [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 - [[raw/meeting_with_julian_puerta_texas_eds.md]]
 - [[raw/tech_and_settings_issues-juan_martinez-april-3-2025.md]]
 - [[raw/business_central_update-apr-28-2025.md]]
+- [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
+- [[raw/Meeting_Transcript_Georgia_Exclusivity_Bet_and_Sebastian_Reassignment-September-9-2026.md]]
+- [[raw/Meeting_Notes_Georgia_Exclusivity_Bet_and_Sebastian_Reassignment-September-9-2026.md]]

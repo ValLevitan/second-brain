@@ -3,7 +3,7 @@ type: decision
 title: SAS is carried across from SMIB into Flex-Port and merged into the main branch, not polished in place — scope comes from Chudinov's existing command document; Alekseev starts over the weekend, and from Sept 7 2026 Pavel Frolov takes the larger part while Yavorsky is removed
 date: 2026-09-04
 aliases: [SAS on Flex-Port, port SAS from SMIB, merge into main branch, Chudinov's SAS command document, restore the environment first, no weekends, SAS AFT transactions, Monday 7 o'clock engineers meeting, Yavorsky on Monday evening]
-source-count: 5
+source-count: 6
 status: active
 open-commitments: 3
 open-questions: 2
@@ -58,6 +58,14 @@ The Monday this decision pointed at was Sept 7 2026, and it produced two meeting
 - [ ] [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] — create the Jira ticket for the SAS-on-Flex-Port work — due unspecified; not reported on Sept 7 — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
 - [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] or [[wiki/people/pavel.md|Pavel Frolov]] — extend the SAS command document if the implemented set proves insufficient — **sharpened Sept 7 2026 into a request for a separate AFT command document from Chudinov** — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]] [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 
+## Update — Sept 9 2026: the code is confirmed to be in git, and Pavel owns the SAS work
+
+At the [[wiki/meetings/2026-09-09-september-resource-plan-and-flex-port-readiness.md|Sept-9 7:02 AM call]] [[wiki/people/irina-shishko.md|Irina Shishko]] asked whether anything was still sitting outside the repository — "[по] флекс[-]пор[ту] тоже[,] этот Яворский уже всё должен был в ги[т] выложить[,] у него ничего не должно было нигде ж остаться, насколько я понимаю" — and [[wiki/people/pavel.md|Pavel Frolov]] confirmed it twice: "Да. Да… **Вся работа в [гите]**" [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]].
+
+That closes the worry running through this page since Sept 4 — that [[wiki/people/eugine-yavorski.md|Yavorsky]]'s material existed only on his own machine. **It does not discharge the merge commitment below**, which is about [[wiki/people/evgeniy-alekseev.md|Alekseev]] getting the trade-show SAS work into the main branch; no Sept-9 source reports on that.
+
+What Sept 9 does settle is ownership: Pavel took the SAS work himself and explained why — see [[wiki/decisions/2026-09-09-flex-port-readiness-slips-to-september-25-and-stays-the-bottleneck.md]], which also carries his readiness estimate (best case **Sept 25**) and his naming of Flex-Port as the programme bottleneck.
+
 ## Discharged and superseded
 
 - [x] [[wiki/people/val-levitan.md|Val Levitan]] — send the invitation for the Monday engineers' meeting. **Discharged Sept 7 2026:** both Monday meetings took place with Val as organiser; the times slipped from the 7:00/8:00 discussed to 9:08 and 10:02 — [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]] [[raw/Meeting_Notes_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
@@ -78,3 +86,4 @@ The Monday this decision pointed at was Sept 7 2026, and it produced two meeting
 - [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
 - [[raw/Meeting_Notes_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]

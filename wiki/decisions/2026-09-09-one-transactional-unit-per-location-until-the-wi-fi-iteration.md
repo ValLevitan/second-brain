@@ -1,0 +1,45 @@
+---
+type: decision
+title: In the first iteration a location gets either FlexPay or Flex-IQ, never both — multiple units per location arrive in the second iteration together with Wi-Fi
+date: 2026-09-09
+aliases: [either Pay or IQ not both, one unit per location, serious engineering fork, single copy per location, second iteration with WiFi, the bundle delivered in stages, machine port IQ or machine port Pay]
+source-count: 4
+status: active
+open-commitments: 1
+open-questions: 0
+---
+
+# One transactional unit per location in the first iteration — FlexPay **or** Flex-IQ
+
+[[wiki/people/pavel.md|Pavel Frolov]] raised it at the [[wiki/meetings/2026-09-09-september-resource-plan-and-flex-port-readiness.md|Sept 9 2026 7:02 AM call]] as the engineering consequence of the bundle Val had just described, and called it a fork: "[с] точки зрения инженерии[,] здесь сейчас у нас серьёзная развилка" [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]].
+
+## The limit
+
+- **Either device can be adapted quickly; only one of them can be at a location.** Pavel: "[н]аш флекс[-]пэй[,] так же как флекс IQ[,] можно относительно быстро доработать, чтобы они работали с флекс[-]портами. **Но в единственном экземпляре, то есть на лакейшн[,] нельзя поставить айкью плюс flexpay**" [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]].
+- **Irina read the two permitted shapes back** — "[т]о есть смотри[,] 1 получается[,] может быть машина[,] порт[,] айкью… либо" — and Val completed it: "и[ли] машина[,] порт[,] п[э]й" [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]].
+- **Multiple units per location come in iteration two, with Wi-Fi.** Pavel: "во 2 итерацию, когда мы, например, хотим вайфай внедрить[,] вот тогда мы можем делать доработку IQ плюс [с]пей[,] можно на лакейшн ставить несколько" [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]].
+- **Val accepted it and offered to pre-run the wiring.** "Да[,] я могу это сделать[,] могу и могу пока проложить провода… под W[S]U протокол[,] параллельные" — he can lay the parallel wiring for the WSU protocol now [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]. *(The protocol name is rendered "w sc" in the transcript and "WSU" in the derived notes; recorded as the notes give it [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]].)*
+
+## Val restated it to the sales and hardware group ninety minutes later
+
+At [[wiki/meetings/2026-09-09-october-rollout-staging-and-unit-ramp.md|8:43 AM]] — the derived notes record it as the hard constraint he restated to that group [[raw/Meeting_Notes_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]] — "In order to install October first, we cannot install Flex IQ and Flexport. We need to choose either Flex Pay or IQ. **But our offer still stands. It's just we have to do it in stages**" [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]. Asked what it means for the sales pitch, he was explicit that the promise does not shrink — "our sales pitch will be[,] yeah, we're giving you both. But first release, we wanna test. We wanna parse it out and test it. Yeah, we'll make it work" — and that IQ-plus-Pay is "for November first" [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]].
+
+Asked in the engineering call what else he should stop promising in the market — "какая ещё есть проблема, что я могу на рынке что[-]то толкнуть?" — Pavel named this and only this: "[н]у лимитэйшн пока то, что мы это обсудили… [л]ибо [ай]кю либо пэй" [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]].
+
+## Where it lands elsewhere
+
+- The **printer fallback** in the rollout meeting rests on this limit — "we know that both do not work together. So it's either installing this or this" — see [[wiki/decisions/2026-09-09-the-mould-without-the-screen-comes-first-and-the-printer-has-a-fallback.md]].
+- The Wi-Fi iteration it defers to is on [[wiki/decisions/2026-09-09-wi-fi-is-second-in-urgency-and-october-november-run-wires.md]] and [[wiki/decisions/2026-09-07-wi-fi-module-on-flex-port-with-an-external-router.md]].
+- The bundle whose delivery is now staged is on [[wiki/decisions/2026-09-02-free-ports-and-pos-with-every-machine-bought.md]].
+
+## Open commitments
+
+- [ ] [[wiki/people/val-levitan.md|Val Levitan]] — pre-run the parallel wiring for the WSU protocol at locations so the second unit can be added later — due unspecified — [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+
+**§15.8:** clear.
+
+## Sources
+- [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- [[raw/Meeting_Notes_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
+- [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]

@@ -4,7 +4,7 @@ title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka, Alex Baratka, Alex Beratka, Alexander Berankov, Biratko, Alexander Biratko]
 disambiguation: "Alexander cluster (provisional — owner ruling pending): distinct JVL people sharing the given name Alexander. [[wiki/people/alexander-biratka.md|Alexander Biratka]] = Omni/Pixi framework & build engineer (aka Sasha; garbles Beratko/Baratka); [[wiki/people/alexander-korochkin.md|Alexander Korochkin]] = LGS QA-automation engineer (GitHub Alexander_K@JVL, read-only; aka Alexander K); [[wiki/people/alexander-tumanov.md|Alexander Tumanov]] = Minsk QA / data-center knowledge-capture hire (surname unverified). Resolve by context: Omni framework / Pixi / build → Biratka; LGS QA automation / read-only build consumer → Korochkin; manual-tester onboarding / data-center interviews → Tumanov. A further name 'Alexander Derok' (back-end build-integration / Java, per Val on Feb-6-2026) is unconfirmed — queued, not a page. Not [[wiki/people/alexei-khamin.md|Alexei Khamin]] (different name). Queue anything fitting none; never force-match."
-source-count: 47
+source-count: 48
 open-commitments: 3
 open-questions: 0
 ---
@@ -162,6 +162,12 @@ At the [[wiki/meetings/2026-09-07-wifi-on-flex-port-and-qr-provisioning.md|Sept 
 
 The route Pavel eventually chose is on [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]]. Biratka was not on the call and took on nothing himself.
 
+## Sept 9 2026 — strict hours, and already on FlexPay
+
+At the [[wiki/meetings/2026-09-09-september-resource-plan-and-flex-port-readiness.md|Sept-9 7:02 AM call]] [[wiki/people/val-levitan.md|Val]] asked whether three named people could work more hours — "[с]колько люди сейчас работают[:] [Б]иратка, [К]орецкий, Хам[и]н[?] Их можно, чтоб они больше работали?" — and [[wiki/people/pavel.md|Pavel]] answered for him: "[н]у[,] Саша[,] если только с ним договариваться, на какую[-]нибудь там не знаю[,] субботу" — a specific Saturday would have to be agreed with him. Val's own characterisation, said approvingly: "Саша очень дисциплинированный, он вовремя приходит, вовремя уходит." [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+
+Pavel also placed him on the current work: "флекспей сейчас занят Саша Биратка." **§15.8: hours and assignment only; no compensation appears in the source.** [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
@@ -212,3 +218,4 @@ The route Pavel eventually chose is on [[wiki/decisions/2026-09-07-virtual-test-
 - [[raw/mcp_servers_for_jvl-may-8-2025.md]]
 - [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
 - [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]

@@ -3,9 +3,9 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction, Figma to React, Vite, Claude Code review loop, acceptance criteria, two test warehouses, frozen test cases, test harness, test registry]
-source-count: 35
-open-commitments: 8
-open-questions: 2
+source-count: 37
+open-commitments: 10
+open-questions: 3
 ---
 
 # Test-automation strategy and testing architecture
@@ -362,6 +362,32 @@ The [[wiki/meetings/2026-09-04-rage-nova-conversion-readiness.md|Sept-4 9:04 AM 
 - [ ] Team — run the acceptance-criteria experiment (a piece of code, its prose, capabilities and existing requirements — coin-in, a counter — through to end-to-end tests) to settle whether acceptance criteria bind to the code — due next (Sept-3) — [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 - [ ] [[wiki/people/alexei-khamin.md|Alexey Khamin]] — build and test the skills that attach requirements to capabilities and audit the acceptance criteria against the code — due unspecified (Sept-3) — [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 
+## Sept 9 2026 — Val challenges the whole premise of writing requirements up front, then parks it
+
+The sharpest version of the write-it-down-first argument in the corpus, at the [[wiki/meetings/2026-09-09-september-resource-plan-and-flex-port-readiness.md|Sept-9 7:02 AM call]]. It ends with **no ruling** — [[wiki/people/val-levitan.md|Val]] stopped it himself — so it is recorded here as an open question, not a decision.
+
+- **Pavel's framing of the two roads.** "[Л]огичн[ая] разработк[а] данного проекта[:] мы можем либо сесть вначале на берегу и написать вообще всё в текстовом виде, как это мы в принципе начинали с [Н]ейт[а]ном[ —] там несколько месяцев писались требования… обсуждались, финализировались, а потом в соответствии с этими требованиями создавались фичи… **Но у нас нет времени сейчас 2 месяца писать это**" [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]. The Nathan model is [[wiki/people/nathan-carver.md|Nathan Carver]]'s — see below.
+- **Val's challenge, stated as arithmetic.** If writing the requirements plus automating the tests costs more time than testing by hand, why write at all: "[е]сли измерить время, которое мы бы писали[,] worse[ —] тестирование, на которое у нас потребуется[ —] то тестирование займёт меньше времени, чем начальное написание… **Тогда зачем все пишут? Почему все говорят, что надо писать? Все[,] значит[,] не правы?**" And: "[м]не нужно быстро, мне нужно быстрее. Нафиг мне писать?" [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- **Pavel's answer:** you write in order to get to automated tests — "писать надо для Того, чтобы переходить к автоматизированным тестам" [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]].
+- **[[wiki/people/irina-shishko.md|Irina Shishko]]'s answer, which is the cost argument:** "[т]естировать руками — это будет постоянно много занимать[;] автоматизировано 1 раз займёт время, а потом это будет быстро, потому что тесты будут готовые. И руками не надо тестировать" — manual testing costs on every round, automation costs once [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]].
+- **Pavel's qualification, and the example that nearly won Val the argument.** The trade-off only favours manual work on a project built once and never changed — "если проект делается один раз и дальше не требует изменений, то тогда будет проще вручную один раз проверить и забыть." Asked to name such a project, he offered **Flex-IQ in the Mutagus variant**: "хороший пример флекс[-]айкью[,] вариант[е] [М]утагус. Мы сейчас его сделаем[ —] зачем нам тратить время, если мы похоронили проект?" Val corrected him — the project is not buried, only the Mutagus tie-in is dropped ("это только привязка к [М]удогусь мы выбрасываем… весь проект [все] так[и] уже остаётся") — but Pavel's code estimate stood: "если по коду смотреть[,] это мы выбрасываем там **от 30% где[-]то кода. Может даже больше**." Val's immediate inference: "если мы выбрасываем 30% кода, тогда нам невыгодно писать автоматические тесты," which Pavel countered with the obvious point that you never know in advance what gets thrown away [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]. The Flex-IQ-replaces-MudaGoose direction is on [[wiki/decisions/2026-09-07-flex-iq-cannibalises-mudagoose-no-parallel-operation.md]].
+- **Val's fallback position:** spend the writing time on what is certain to survive — "мы можем тратить время на то, что мы знаем, что это 100% останется… [и] тратить меньше времени [на] то, [в] чём мы сомневаемся" [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]].
+- **Why writing is not free even with Claude.** Pavel: "[м]ы всё равно пишем вручную[,] с помощью [Клода] да, это значительно быстрее, но в это написание входит и чёткое прописывание [реквайрментс] с а[к]цептанс критериями[.] Всё равно это диалог с [Клодом,] всё равно это **время**" [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]].
+- **How Val closed it.** He said the discipline question was bigger than the argument — "если я это оставлю и вы являетесь эталоном девелопмента… то я могу ожидать от других людей только хуже" — and then parked it: "**[н]у хорошо, давайте мы пока запаркуем[;] это я должен подумать**" [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]].
+
+**The parallelisation Pavel proposed instead**, which is the practical outcome of the exchange: give Irina and [[wiki/people/alexei-khamin.md|Khamin]] the negative cases to write up as acceptance criteria while the positive cases are being worked — "дать Ире и Алексею подумать… не[га]тив[ные] кейсы и описать их в виде а[к]цепта[нс] критериев, как они должны обрабатываться… [к]огда позитивные кейсы пройдут, можно будет с [Клодом] проходить[,] и причём относительно автономно[ —] то есть если он видит описание кейсов, он там и тесты пишет свои[,] и код модифицирует в соответствии с этим" [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]].
+
+**Capacity context stated in the same passage:** Irina said the SAS documentation work runs this week only and after that transactional is everyone's priority — "[SAS] doc[umentation], которую… в любом случае это эта неделя. И всё… [а] дальше у нас транзакшн… в приоритете у всех"; Pavel said Khamin can carry more once the **GCOAM V3** testing is finished — "есть незавершённые работы по тестированию там [ГК]ам в 3" [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]. *(The phrase Irina uses is rendered «рекламы suss docota» in the transcript; the derived notes read it as "the SAS documentation work" [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]] and that reading is used here. Given §4's South-Dakota garble family, "docota" could alternatively be "Dakota" — **flagged as unclear, not resolved.**)*
+
+## Open questions (Sept 9 2026)
+
+- **Whether to invest the time in writing capabilities and requirements up front, or accept manual testing.** Raised by Val, parked by Val — "это я должен подумать." No ruling in this source. — [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]] [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+
+## Open commitments (Sept 9 2026)
+
+- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] and [[wiki/people/alexei-khamin.md|Alexei Khamin]] — write the negative cases up as acceptance criteria in parallel with the positive-case work — due unspecified — [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] and [[wiki/people/alexei-khamin.md|Alexei Khamin]] — grade how much of the scope Bosik's generated requirements actually cover (Pavel expects ~5% of kiosk behaviour) — due before the Bosik/Kovalchuk planning session — [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+
 ## Open commitments (Sept 4 2026)
 
 - [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — hand the 212 acceptance criteria to Claude to test, and report back where it cannot test — due this week (Val's proposal, accepted) — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
@@ -405,3 +431,5 @@ The [[wiki/meetings/2026-09-04-rage-nova-conversion-readiness.md|Sept-4 9:04 AM 
 - [[raw/fast-pacing-stand-up_meeting-october-1-2025.md]]
 - [[raw/fast-pacing-stand-up meeting-october-10-2025.md]]
 - [[raw/fast-pacing-stand-up meeting-part-1-october-10-2025.md]]
+- [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]

@@ -4,7 +4,7 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "IT (GitHub-admin, infrastructure, secrets/Azure, AI-tool accounts) — the IT-context "Dima". Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 26
+source-count: 27
 open-commitments: 2
 ---
 
@@ -101,6 +101,12 @@ At the [[wiki/meetings/2026-09-07-wifi-on-flex-port-and-qr-provisioning.md|Sept 
 
 He was not on the call and the work went to [[wiki/people/andrey-bosik.md|Andrei Bosik]] — [[wiki/decisions/2026-09-07-andrei-bosik-drives-the-wi-fi-work-and-the-process-chain.md]]. No commitment attaches to Kovalchuk.
 
+## Sept 9 2026 — credited with splitting Flex-Port out of the FP Jira project, and brought into the planning work
+
+At the [[wiki/meetings/2026-09-09-september-resource-plan-and-flex-port-readiness.md|Sept-9 7:02 AM call]] [[wiki/people/pavel.md|Pavel Frolov]] explained why Flex-Port now has its own Jira project and new issue numbering: "[д]о этого у нас флекспорт жил в проекте [ФП]. А сейчас у нас произошло разделение[ —] ну[,] Дима Ковальчук вот эти все… сделал, поэтому мы сейчас переходим на новое [нумерование]." The project name now matches the repository one-to-one. See [[wiki/decisions/2025-04-03-jira-capability-level-and-github-mapping.md]] (Sept 9 2026). [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+
+[[wiki/people/val-levitan.md|Val]] then named him alongside [[wiki/people/andrey-bosik.md|Andrei Bosik]] as the pair who should take planning off Pavel — "[с] ним[,] Ирой[,] и я бы ещё привлёк Диму Ко[ва]льчука. Они бы вам разложили бы всю эту [работу] по полочкам" — in daily recorded sessions: [[wiki/decisions/2026-09-09-planning-handed-to-bosik-and-kovalchuk-with-daily-recorded-sessions.md]]. [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Legacy_CMS_Documentation_Progress_Check-April-15-2026.md]]
@@ -129,3 +135,4 @@ He was not on the call and the work went to [[wiki/people/andrey-bosik.md|Andrei
 - [[raw/it_department_maturity-may-7-2025.md]]
 - [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
 - [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]

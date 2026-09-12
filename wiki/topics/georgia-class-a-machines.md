@@ -2,10 +2,10 @@
 type: topic
 title: Georgia Class A machines
 date: 2026-08-31
-aliases: [Class A, Class A machines, Georgia Class A, Class A licence, amusement machines Georgia, two-bucket win system, $50 per spin cap, $50 per hand, Primero Class A, play bucket, redemption bucket, Hope Scholarship, class eight]
-source-count: 6
+aliases: [Class A, Class A machines, hang our hat on one supplier, slinging them out and seeing what sticks, it's predominantly the meters, Class A licence easier than B, Georgia Class A, Class A licence, amusement machines Georgia, two-bucket win system, $50 per spin cap, $50 per hand, Primero Class A, play bucket, redemption bucket, Hope Scholarship, class eight]
+source-count: 11
 open-commitments: 0
-open-questions: 4
+open-questions: 5
 ---
 
 # Georgia Class A machines
@@ -135,12 +135,81 @@ Val added nothing of his own here beyond the questions, and the JVL position sta
 
 That is the **fourth distinct operator position** the corpus now holds on Class A — against the board member's opposition (Sept 1), the operator already talking to Primero (Sept 1 afternoon), and ARC's commercial push (Aug 31). **Val added nothing of his own on Class A in this meeting**, and JVL's position — no Class A product today — is unchanged. *(The transcript renders the first manufacturer "Jinko"; it is recorded as spoken and is not matched to any company already in the corpus.)* [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]
 
+## Sept 8 2026 — a fifth operator, and the first prediction of *how* the grey area closes
+
+[[wiki/people/salim-khambawala.md|Salim Khambawala]], vice president of [[wiki/organizations/gamoa.md|GAMOA]], at the [[wiki/meetings/2026-09-08-dixie-amusement-bundle-offer-and-card-economics.md|Sept-8 Dixie visit]]. Asked "what is your or the association's view on Class A machines?", he began by declining to speak for the association — "**Association is not like that**" — and then gave the fullest mechanical account in the corpus of why he thinks the category cannot hold. [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+
+**The asymmetry, with numbers:** "**Class A is not as regulated as Class B. Class B, we pay the 13 percent plus licensing fees plus cost of doing business. On the other side, Class A doesn't have. I think their sticker is twenty-five dollars. They don't pay any taxes. They have zero regulations.**" [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+
+**What Class A was for:** "**Class A was only formed to do jukeboxes or pool tables or those ball machines**… It was never to be in this category. But **somebody has created a class A title, but plays like class B and put it in class A.**" [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+
+**The four-step collapse he forecasts** — this is the new content, and no other source in the corpus sets it out: [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+
+1. **Class B pushes, and the Lottery is already unhappy.** "**it's not going to succeed because Class B is going to push so much**… **Lottery is not liking it. Forget about us**, because if lottery says if they want to do that, **we need thirteen percent from there too. We are not going to let them go.**"
+2. **If the tax lands, Class B floods across.** "**if lottery approves that regulation and puts that thirteen percent, all these class B will jump in class A also. They're not going to sit around.**"
+3. **But the genuine Class A world will not pay it, and out-lobbies Class B.** "those class A people who are **not running that gray area, who are running pinball machines or if you go to Chuck E. Cheese or Dave and Buster's**, those machines, **do they want to pay thirteen percent? No**… **They have a bigger lobby on that side with class A than what class B is.**"
+4. **So the window is real but temporary.** "**Somebody is making a grey area, calling a class B machine a class A machine. Temporarily, it could work, but long term, it won't. Because there will be a lot of infighting.**"
+
+**How this sits against the four positions already on this page.** It is the first operator view that predicts a *mechanism* and an *end state* rather than a stance — ARC (Aug 31) is commercially committed to Class A, the Sept-1 board member opposes it, the Sept-1-afternoon operator is exploring it, and the Sept-2 operator is warming to it. **Salim is the only one who says the category as currently used will not survive, and gives the reason.** Nothing here is reconciled with the ARC commitment on [[wiki/decisions/2026-08-31-class-a-deal-with-arc-within-three-months.md]] — no source addresses the other — and **Val said nothing about JVL's own Class A intentions in this meeting.** [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+
+## Sept 9 2026 — the CEO of the operator running it, nine days after his COO
+
+At the [[wiki/meetings/2026-09-09-arc-gaming-backend-displacement-negotiation.md|Sept-9 4:35 PM meeting]] [[wiki/people/david-sloan.md|David Sloan]] gave the second ARC account of Class A — and **it is markedly less enthusiastic than his COO's.** [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+
+### Is it making money? "It's not doing great."
+
+> "**It's not doing great, but I think there's some other reasons for it.** Now that the **cash cards coming out, payoffs are getting there. The only difference really is the meters.** You put the twenty bucks in… **you got to play it all off**, right? **The game content can be pretty similar to what's on the screen, so there's no difference. It's predominantly the meters. Romero tried.**"
+
+*("Romero" is flagged in the derived notes as **probably Primero** — the glossary carries "Premero" but not "Romero" — and is **not** asserted as Primero here.)* [[raw/Meeting_Notes_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+
+**This corroborates the mechanics [[wiki/people/georgios-zazanis.md|Zazanis]] gave on Aug 31 — the difference is the meters, not the content — and adds the operator's own performance verdict, which Aug 31 did not.**
+
+### How ARC is placing them: scatter and see
+
+> "**We're putting them in places that probably shouldn't have them. We're just slinging them out and seeing what sticks. But I think there's a market for it. We just picked the big group that we think could be pretty good.**"
+
+[[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+
+### The commercial structure, from the operator's side
+
+- **ARC does not buy the cabinets.** "we're not to say buying the cabinet… **It's a revenue share. So they get a percentage of revenue for themselves, but we're taking a lot of their stuff and putting it in our cabinets**… **If we want to use their cabinet, it's a higher percentage.**" That matches the Aug-31 account exactly. [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+- **Val worked three alternatives aloud**, and the exchange is garbled: "You're not paying at all. It's just a pure percentage share… **you pay zero. I pay thousand dollars up front. You pay thousand dollars up front plus twenty percent. Four thousand dollars up front plus ten.**" **Whether these are ARC's actual terms or Val's own illustration is not established in either source** — the derived notes carry it as an open question. [[raw/Meeting_Notes_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+
+### The licence is the reason they are in it
+
+> "**Class A license is so much easier than an E.** That's part of the issue we're doing. **Some of our guys are just open-handed to be licensed, then you get an A license too.**"
+
+*(Transcribed as written. The derived notes read "an E" as **Class B** and the second sentence as "some of their people are getting licensed for both." **Both readings recorded; neither asserted.**)* This is the first statement in the corpus of *why* a Georgia master takes the category on at all: the licence, not the economics. [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]] [[raw/Meeting_Notes_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+
+### Val asked for a handshake and did not get one
+
+> Val: "**If I put my energy, I will only put it if you say, 'I'll do it.' So do we have a handshake deal?**"
+>
+> Sloan: "**I don't think it's that hard to engineer. I think it's just pretty**" — Val: "Pretty simple. **It's the meter.** I played it. I'm not an engineer… **I think we've done much harder stuff than this.**"
+
+**The question was answered with a remark about engineering difficulty, not with a yes.** This is dated evidence on the [[wiki/decisions/2026-08-31-class-a-deal-with-arc-within-three-months.md|Aug-31 three-month commitment]] and on its open question of who at ARC actually signs — **it does not resolve either.** [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+
+### On the regulatory horizon
+
+"**Legislative change is five years away**" and "**It's easier to play defense than offense, so we'll battle it out.**" *(The first line sits under the speaker label carrying Val's questions and the second under Sloan's; the derived notes attribute **both** to Sloan. The Plaud labels mis-split turns repeatedly in this recording. **Recorded with the discrepancy visible.**)* [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]] [[raw/Meeting_Notes_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+
+### The same evening: is Primero really the only supplier?
+
+At the [[wiki/meetings/2026-09-09-georgia-exclusivity-bet-and-sebastian-reassignment.md|5:31 PM debrief]] a JVL colleague put the question that decides whether JVL should build for this category at all: [[raw/Meeting_Transcript_Georgia_Exclusivity_Bet_and_Sebastian_Reassignment-September-9-2026.md]]
+
+> "one of my **remaining questions before we hang our hat on one supplier: How can it only be Primero Val? The Banilla's not in this. Nobody else is in classic.**"
+
+*("classic" is the transcript's rendering; the derived notes read it as **Class A**.)* **Val's answer commits to no timing:** "**Not yet, but everyone is talking about it. Everyone will be in it.**" That is the whole of the reply — recorded as an open question below. [[raw/Meeting_Notes_Georgia_Exclusivity_Bet_and_Sebastian_Reassignment-September-9-2026.md]]
+
+**§15.8:** clear — licence, machine, placement and market economics only; no named-person compensation.
+
 ## Open questions
 
 - **What do the Class A regulations actually say?** Val asked twice — "Is there regulation? For class A… Can you give me the regulation?" — and got "I think I have somewhere in the regulations. If I find them from our legal department, I send it to you. **Not specific.**" Until that arrives, everything on this page is operator description, not rule text. [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 - **What is the real manufacturer revenue share?** Val's "fifty" was corrected to "Much less" without a number. [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 - **Does the GLC move, and how?** Both sources record the threat; neither records an action. Note the Feb-18 view that only the GLC could regulate or tax these and had signalled it would not, against the Aug-31 report that the GLC is "fighting" the progressive and says it will "go after it extremely hard" — a change in posture across six months, recorded but not analysed. [[raw/To-Do_Georgia_meetings-February-18-2026.md]] [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 
+- **Is Primero really the only supplier in this category?** A JVL colleague named it as his remaining doubt before JVL commits to one supplier — Banilla is not in it and he knows of nobody else. Val said others will follow and gave **no timing**. Note this sits directly against Zazanis's Aug-31 account of the field, which named a second (garbled beyond recovery) manufacturer and an unnamed third. [[raw/Meeting_Transcript_Georgia_Exclusivity_Bet_and_Sebastian_Reassignment-September-9-2026.md]] [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 - **Does GAMOA have a position on Class A at all?** Ryan O'Donnell answered "We're not in favor of them" and then, pressed, "It's my view" and "We don't have a specific thing" — and separately said the decision "is going to be up to the lottery, really." The February 2026 record has the board fearing cannibalisation; nothing in the corpus records a formal association position. [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]] [[raw/To-Do_Georgia_meetings-February-18-2026.md]]
 
 **§15.8:** clear — licence, machine, location and market economics only; no named-person compensation.
@@ -153,3 +222,8 @@ That is the **fourth distinct operator position** the corpus now holds on Class 
 - [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
 - [[raw/Meeting_Transcript_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
 - [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]
+- [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+- [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+- [[raw/Meeting_Notes_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+- [[raw/Meeting_Transcript_Georgia_Exclusivity_Bet_and_Sebastian_Reassignment-September-9-2026.md]]
+- [[raw/Meeting_Notes_Georgia_Exclusivity_Bet_and_Sebastian_Reassignment-September-9-2026.md]]

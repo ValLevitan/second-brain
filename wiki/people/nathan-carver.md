@@ -3,8 +3,8 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 30
-open-commitments: 1
+source-count: 33
+open-commitments: 2
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
 
@@ -102,9 +102,25 @@ On the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-updates-after-the-show.md|Se
 
 At the [[wiki/meetings/2026-09-07-sas-aft-on-flex-port-and-remote-update.md|Sept 7 10:02 engineers' alignment]] (Russian), [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] confirmed the test transaction had gone through Dwolla and the money had been debited — "Деньги снялись" — but that he cannot see the funds arrive: "надо взглянуть на стороне банка, что к нам пришли эти деньги — это я уже не вижу… это наверно [Нэйтан] должен увидеть" [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 
-## Open commitments (Sept 7 2026)
+## Sept 8 2026 — driving the Bank of America API review
+
+On the [[wiki/meetings/2026-09-08-bank-of-america-cashpro-api-capabilities.md|Sept-8 Bank of America CashPro call]] (12:30–1:05 PM ET, with [[wiki/people/val-levitan.md|Val]] attending as an executive only) Nathan owned the technical conversation with the bank's specialist Connie Burke. He framed JVL's need in two stages — a **daily prior-day API call** to verify balances and cleared transactions and reconcile them in Business Central ("not like an end of month"), and, later, **initiating** money movement from JVL's systems rather than through the third party that runs its daily customer ACH debits today. He probed the authentication model (system-to-system OAuth tokens and secrets versus a named user), asked for **API documentation before a sandbox** — "I think the API docs would help me ask questions once I have a feel for how the APIs work… I don't really need a sandbox outside of Cash Pro being set up" — and confirmed **prior-day reporting covers the immediate need**. Told there is no ACH-debit API, he restated the consequence back to Connie: instead of an API call per debit, "add that debit… to the [NACHA] instructions, and then send it off as an entire batch." He also pressed the two failure-path questions the bank could not answer on the call — how NACHA failure codes flow back into JVL's system, and what happens to a file uploaded on a weekend whose effective date is not a banking day, since JVL's uploads would be daily. Full substance on [[wiki/organizations/bank-of-america.md]] (Sept 8) and [[wiki/decisions/2026-09-08-bofa-scope-prior-day-reporting-ach-debits-by-file.md]]. §15.8 clear. [[raw/Meeting_Transcript_Bank_of_America_CashPro_API_Integration-September-8-2026.md]] [[raw/Meeting_Notes_Bank_of_America_CashPro_API_Integration-September-8-2026.md]]
+
+## Open commitments (Sept 7–8 2026)
 
 - [ ] Confirm on the bank side that the Dwolla transaction funds actually arrived — due unspecified — [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- [ ] Review Bank of America's API documentation, then request sandbox access once CashPro is set up — due unspecified — [[raw/Meeting_Transcript_Bank_of_America_CashPro_API_Integration-September-8-2026.md]]
+
+## Sept 9 2026 — held up by both Val and Pavel as the model, and as the man working in a vacuum
+
+At the [[wiki/meetings/2026-09-09-september-resource-plan-and-flex-port-readiness.md|Sept-9 7:02 AM call]] Val used Nathan as his argument for discipline: "[я] вижу, как работает [Н]эйтан… [у] него идёт всё как по маслу. Он внимательно описывает всё… [р]еквайр[менты]… сам всё тестирует[.] У него нету никаких загвост[ок]." [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+
+Two qualifications came straight back, and both are recorded because they cut against the example:
+
+- **He is on the old system.** Val himself: "я ему ещё про[цесс] не… [объяснял], поэтому он работает по старой системе. Но всё равно выходит на те же фьючерсы, только он выходит на фьючерс через продукт"; and later, "он работает ещё по[ ]старому режиму, я как[-]то ещё не переключал." He has no capabilities — "да у него нету кей[па]билитис." [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- **[[wiki/people/pavel.md|Pavel]] challenged whether the results are actually verified**, and Val conceded the framing: "он работает в вакууме один… [в]ы не тестируете, вы даже не трогаете ничего то, что он делает." Pavel corrected him on one point — "[т]рогаем, трогаем. Мы тестируем[ —] Лёша Хамин тестирует, как работает его би[лл]инг… и в [environment] development, или точнее… в stag[ing] [environment,] и в продакшн [environment] он тоже смотрит, что происходит." [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+
+**Pavel also cited the Nathan project as the precedent for writing requirements up front** — "как это мы в принципе начинали с [Н]ейт[а]ном… там несколько месяцев писались требования" — and as the reason it cannot be repeated now: "у нас нет времени сейчас 2 месяца писать это." See [[wiki/topics/test-automation-strategy.md]] (Sept 9). [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 
 ## Sources
 - [[raw/Meeting_Notes_Payment_Hub_GL_Sales_Tax-May-12-2026.md]]
@@ -138,3 +154,6 @@ At the [[wiki/meetings/2026-09-07-sas-aft-on-flex-port-and-remote-update.md|Sept
 - [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
 - [[raw/Meeting_Notes_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- [[raw/Meeting_Notes_Bank_of_America_CashPro_API_Integration-September-8-2026.md]]
+- [[raw/Meeting_Transcript_Bank_of_America_CashPro_API_Integration-September-8-2026.md]]
+- [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]

@@ -3,7 +3,7 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention, installment payments, aged receivables, Customer Ledger Entries, category-based terms, subscription module, parts vs machines terms, Black Horse Entertainment, Sales Watch]
-source-count: 57
+source-count: 59
 open-questions: 4
 ---
 
@@ -355,7 +355,18 @@ On a short check-in ([[wiki/meetings/2026-08-11-coa-tracer-gl-account-review.md|
 - **The plan and a Business Central terminology fix.** Narrow ~**800** current accounts to about **143–147** GL accounts, then split each into **dimensions**. Igor pressed on the next step (sub-accounts / "auxiliaries" / sub-ledgers and posting groups); Val clarified that in Business Central the sub-account layer is handled through **"dimensions"** (tags/tabs) configured per account — each of the ~147 accounts must be assessed individually for the dimensions it needs (e.g. credit cards, assets). After the accounts exist, the next task is to have the AI CFO help add dimensions per Microsoft best practice for a company like JVL. [[raw/Meeting_Notes_COA_Tracer_GL_Account_Review-August-11-2026.md]] [[raw/Meeting_Transcript_COA_Tracer_GL_Account_Review-August-11-2026.md]]
 - **Next.** Val wants a **full decision on the GL accounts by tomorrow (Aug 12)**, after which he hopes the AI CFO produces an **import file for Lev to load**. The team agreed the plan is good; Val will wait for their evening reply. (Two open questions from this call — dimension mapping and the auxiliaries/posting-group sequencing — are folded into [[#open-questions|Open questions]] above.) [[raw/Meeting_Notes_COA_Tracer_GL_Account_Review-August-11-2026.md]]
 
+## Sept 8 2026 — what Business Central would do on a Bank of America feed (prior-day call, matching rules, NACHA file)
+
+On the [[wiki/meetings/2026-09-08-bank-of-america-cashpro-api-capabilities.md|Sept-8 Bank of America CashPro call]] ([[wiki/people/nathan-carver.md|Nathan Carver]] and [[wiki/people/val-levitan.md|Val]] with the bank's Connie Burke and Brooks Darnell) the bank described the ERP side of a Bank of America integration. Speakers say "MSD" and "MSBC" as shorthand for Microsoft Dynamics / Business Central. The banking and decision substance is on [[wiki/organizations/bank-of-america.md]] (Sept 8) and [[wiki/decisions/2026-09-08-bofa-scope-prior-day-reporting-ach-debits-by-file.md]]; the BC-side points are here. [[raw/Meeting_Transcript_Bank_of_America_CashPro_API_Integration-September-8-2026.md]] [[raw/Meeting_Notes_Bank_of_America_CashPro_API_Integration-September-8-2026.md]]
+
+- **The daily bank feed, and where the matching happens.** Business Central is set up to make the prior-day API call "generally… around seven a.m."; it brings in the prior day's balances and transactions, and then "you will work out… matching rules in MSD" to get the transactions posted. Nathan's stated purpose is verifying that money moved and reconciling it inside JVL's applications and Business Central — a daily check, "not like an end of month." This is a **second** possible bank feed alongside the [[#july-28-2026--the-cibc-api-is-read-only-verification-the-microsoft-dynamics-integration-may-already-be-the-easier-path|CIBC/Business Net Banking]] route already scoped in July. [[raw/Meeting_Transcript_Bank_of_America_CashPro_API_Integration-September-8-2026.md]]
+- **Business Central can produce the NACHA payment file.** Because Bank of America has no ACH-debit API, debits must go as a NACHA file — and Connie said Business Central can generate it ("which we know Microsoft Dynamics does Central can do a [NACHA] file with those… debit instructions"), to be sent over secure SFTP or uploaded into CashPro Online. Approvals can be done either in the ERP (on a transmitted file) or in CashPro. [[raw/Meeting_Transcript_Bank_of_America_CashPro_API_Integration-September-8-2026.md]]
+- **Failure handling may not reach Business Central automatically.** Nathan asked how NACHA failure codes flow back into JVL's system. File acknowledgements and returns/NSF notices are largely a **visual** inside CashPro (PDF or text, up to about twenty rejects with reason lines) "more of a visual than a parsing back into your system"; Connie believes a NACHA-format return that could be read into the ERP may also be available and will confirm — recorded as an open question on [[wiki/organizations/bank-of-america.md]]. [[raw/Meeting_Transcript_Bank_of_America_CashPro_API_Integration-September-8-2026.md]]
+- **No API addenda.** If JVL wants an invoice number travelling with a credit, the API cannot carry it — only the file can (80 characters, or 9,999 on a CTX). The alternative the bank offered is having the ERP email the recipient. §15.8: banking and integration mechanics only, no named-person compensation. [[raw/Meeting_Transcript_Bank_of_America_CashPro_API_Integration-September-8-2026.md]]
+
 ## Sources
+- [[raw/Meeting_Notes_Bank_of_America_CashPro_API_Integration-September-8-2026.md]]
+- [[raw/Meeting_Transcript_Bank_of_America_CashPro_API_Integration-September-8-2026.md]]
 - [[raw/Meeting_Notes_General_Ledger_Labs_Alignment-July-31-2026.md]]
 - [[raw/Meeting_Transcript_General_Ledger_Labs_Alignment-July-31-2026.md]]
 - [[raw/Meeting_Notes_GL_Accounts_Systems_Labs-August-3-2026.md]]

@@ -2,10 +2,10 @@
 type: topic
 title: Georgia prize-card processor economics — the fee sheet, the float, and who actually captures the money
 date: 2026-08-31
-aliases: [prize card economics, card to machine fee, MoneyPass, fifty basis points, PAX A80 two hundred dollars, gift card float, dormancy fee, card fee structure, 9.6 percent per year, I'm in the wrong business, free PAX, breakage, five billion in payouts, multi-provider manipulation, reloadable cards, Mastercard rules, gift card policy intent, half a percent, front fees to the store, two dollars per push, PlayPay fees]
-source-count: 13
+aliases: [prize card economics, Avshad Patel, Ready Credit Corporation, the card puzzle, why pay cash without issuing a card, average load per card, two hundred eighty dollars per card, InComm takes the risk, program manager not provider, Fiserv, breakage zero point three, card to machine fee, MoneyPass, fifty basis points, PAX A80 two hundred dollars, gift card float, dormancy fee, card fee structure, 9.6 percent per year, I'm in the wrong business, free PAX, breakage, five billion in payouts, multi-provider manipulation, reloadable cards, Mastercard rules, gift card policy intent, half a percent, front fees to the store, two dollars per push, PlayPay fees]
+source-count: 19
 open-commitments: 0
-open-questions: 2
+open-questions: 4
 ---
 
 # Georgia prize-card processor economics
@@ -206,10 +206,132 @@ That is the same cash-arbitrage prediction he made at Dixie on **Aug 31** (above
 
 Val stated the figure again that evening — "**Average today, 1.5 car a day**" — and Billy agreed: "**Average. Exactly. It's horrible.**" *(Billy's own first attempt at the number is garbled — "Also, bents one car a day" — so this is Val's figure **confirmed** by a competitor, not independently supplied by one. Recorded on that basis.)* It is the same figure InComm gave at lunch and the one Val turned into the missing-$900-a-day accusation above [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]] [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]].
 
+## Sept 8 2026 — the broker's side of the ledger, from a master licensee who runs two processors
+
+At the [[wiki/meetings/2026-09-08-dixie-amusement-bundle-offer-and-card-economics.md|Sept-8 Dixie visit]] [[wiki/people/salim-khambawala.md|Salim Khambawala]] turned the meeting around and walked [[wiki/people/val-levitan.md|Val]] through the numbers behind the card. **This is the first account in the corpus from someone running [[wiki/organizations/incom.md|InComm]] and Fiery Pay side by side** — "I'm running from [InComm] some gift card. I'm running [Fiery Pay] gift card **from last four months**. So I have my data, and then we talk… **there's a group of master licensee. We compare and talk to each other.**" [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+
+### The average load per card: ~$280
+
+- **"The average per load is around $280."** Val checked it back — "Per card. So 280 dollars per card" — and did not dispute it. This is the **first per-card load figure in the corpus**; everything before this priced the *fees*, not the *balance*. [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+- **The broker earns $1 on it**, confirmed by both men in the same breath. Salim first floated "Maybe one dollar fifty cents"; Val: "**One dollar. One dollar.**" Salim: "**I make one dollar.**" [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+
+### The 1.5 cards a day is a pre-July-1 number — and Salim says his own is 3.5–4
+
+This directly qualifies the **1.5 cards/day** figure InComm gave Val and that he repeated three times on Sept 2 (above). [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+
+- **Val's figure, restated:** "from [InComm], [InComm] told me that they get **one and a half cart on an average per day load**. That's all they get from all of their locations. **I don't know. Maybe they're lying to me.**"
+- **Salim's own:** "**My average is around three**"; and later, precisely, "**We said prior to July first, it was one and a half cards, which you gave me the number. Currently, I'm saying three and a half to four cards.**"
+- **And his explanation, which does not accuse InComm of lying:** "**[InComm] could be right because they understand their business structure. They did the pilot; they were running it till July first. Nobody was in a rush to do anything. So pre July first, yes, maybe he's right. And plus, they were all about market acquisition**; they were not about getting the gift card… **In May, June, July. I think they gave away free equipment also.**" *(The free-equipment giveaway is the same one recorded in the Aug-31 section above — 5,000 devices — now dated by an operator to the pre-July-1 acquisition push.)*
+
+### The broker's risk is the whole problem — and Salim says InComm absorbs it
+
+- **Val's worked example, the sharpest statement of the asymmetry in the corpus:** "let's say somebody loaded **ten cards at two hundred eighty dollars. Two thousand eight hundred dollars**. That has to be paid. Location has to pay it, so we swipe the account. Location says, '**I don't have money.**'" And the reward against it: "**you make six dollars on two thousand eight hundred dollars. What kind of reward is it?**… **For [InComm] they make money on the back end, but for a broker, the broker doesn't make any money. Six dollars.**" [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+- **Salim's claim, which Val had never heard:** "**Currently, they take the risk**" — i.e. InComm carries the broker's loss. Val pushed: "[InComm] does not take a risk for the brokers." Salim: "**They do.**" Val: "How do you know that?" Salim: "**For sure. Currently, [InComm] is the market leader. They don't want competition.**" [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+- **Val's own prior information says the opposite, and he said so twice** — once in the room ("**so I never heard that [InComm] takes the risk, but I will speak to [InComm] and say, take the risk**") and once in the debrief: "**I asked [InComm] two years ago if they would take a risk, and they told me no. But things may change. I don't know. I genuinely don't know.**" The commitment to go back and ask is on [[wiki/decisions/2026-09-08-the-bundle-put-to-dixie-with-installation-explicitly-excluded.md]]. [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+- **Salim's caveat on whether JVL would get the same treatment:** "**They will. But if they look at you as a competition, then they won't because they don't want competition. They want acquisition.**" [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+- **And when the location simply does not pay, Salim's position is that it is nobody's business but the parties':** "**If an individual store owner doesn't pay his ACH, which they are drafting, it's none of my business. That's between [InComm] and the store, and the broker in the middle, which is getting one bucks for a card.**" *(Consistent with his Aug-31 position, above.)* [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+
+### Breakage — the first number anyone has put on it, and why it is not usable
+
+- **Salim reached for the Lottery's own default rate:** "one time I did see. I forgot what the number was. **Lotteries default data**… how many people don't pay lottery and take money and run and shut down the businesses?… **So it was zero point three, if I'm not wrong.**" [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+- **Val's objection is that the same percentage means something entirely different here:** "**Zero point three on the total gross amount that goes through, but in here this will be devastating, because you're only making six dollars on two thousand eight hundred dollars… You will outlay two thousand eight hundred dollars, and you are holding six dollars.**" [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+- **Salim's illustration:** "you issuing **hundred thousand cards**… a month. **Hundred thousand cards times one dollar is hundred thousand dollars**… **you take that hundred thousand, and then you say every month three thousand is going to be lost for non-payments or non-collectible payments.**" *(He names "twenty five hundred" a line earlier and "three thousand" a line later against the same 0.3 %; the arithmetic in the passage is spoken aloud and not self-consistent. Recorded as spoken.)* [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+- **Val refused to commit to a number:** "**I understand, but I really cannot put this number. I cannot attach this number to anything right now. There are so many uncertainties and variables in the market.**" Salim's reply to the whole exchange: "**That decision could only be made when you get that data**," and he named InComm as the only party who has it — "**[InComm] for sure will have that data because they did the pilot for the lottery for the first three or four years.**" [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+
+### Program manager vs provider — and Fiery Pay's bank
+
+The most useful structural fact in the meeting, and a correction to how this wiki has described InComm's position. [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+
+- **"[InComm] is just a program manager. [InComm] is not the provider. Provider is one of the bank entities."** Salim's framing: "**[InComm], or what you call the banking system, where it's called a bill, where you have your own bill**" — the last clause is garbled and not interpreted here.
+- **Fiery Pay is backed by Fiserv, and Salim spelled it out.** "**[Fiery Pay] didn't go within. They created their own relation because this guy was with Fiserv for the last twenty years, so Fiserv backed him up**… **Fiserv is going to do program manager** in a sense." Asked how to spell it: "**F I S E R V.**" And the scale comparison: "**you will Google it. You, U.S. largest financial provider, will come up with some details. But [InComm] is bigger.**" *(The transcript renders Fiserv as "Pfizer" three times before the spelling; the derived notes flag it. "This guy" is the Fiery Pay principal — the corpus carries him as **Afshad**; the connection is an **inference**, not stated here.)*
+- **Which is why Salim's repeated question to Val was "do you have a bank?"** — asked twice, and answered "So I haven't gone that far yet." His point: "**if you have a bank, who gives you that capacity, then you are of the limits, then you really become in forms like [Fiery Pay] did**," and "I know all those rails also. **So it's not just one dollar.**" See [[wiki/organizations/play-payments.md]] for the one counterparty in the corpus that does hold banking capacity. [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+
+### Who restocks the cards, and what that costs
+
+A small operating fact that explains why Salim will not take the broker role: [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+
+- **The location fills the card dispenser today**, and runs out. A JVL voice: "Location. Location." Salim: "**that's not theirs. Twenty four hours, it's not there. Never there. [InComm] says it's never been at least three days and four days.**"
+- **Val's answer is to ship without being asked:** "**our job is to know when the [stock] gets low**… The moment gets to a certain level, **we should dispatch the card to the location**… **Not even ask for an order; just ship**" — with the caveat "**because they get lost. People take it.**"
+- **Salim's summary of why this is exactly the work he avoids:** "**those things are little things which master licensees like me don't get involved.**"
+
+**§15.8:** clear — card loads, per-card margins, default rates and processor structure only; no named-person compensation.
+
+## Sept 9 2026 — the card puzzle Val cannot solve, and a distributor's map of who is behind the cards
+
+At the [[wiki/meetings/2026-09-09-rao-machine-performance-and-exclusivity-offer.md|Sept-9 Rao meeting]] [[wiki/people/val-levitan.md|Val]] spent the opening twenty minutes on a question he said he could not answer, and then got an installer's-eye account of the companies behind the Georgia cards. [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+
+### The puzzle: why would a location pay cash *without issuing a card first*?
+
+Val put it three times, each time granting the parts he already understood: [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+
+> "I understand why the **player wants cash**. We all agree to that. I understand why **location wants to pay cash**. But what I don't understand is **why they would want to pay cash before they issue a card. That is an absolute puzzle.**"
+
+**His own proposed answer — the location issues the card and then buys it back at a small discount:** "Here's your card. Now **sell me the card for five dollars. Discount five dollars**… if your card has a hundred dollars, **why can't I buy this card for ninety-eight dollars**?… **the location always buys merchandise… So they can pay for this merchandise with this card. They satisfy the player. They satisfy the lottery corporation. They satisfy the law.**" [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+
+**[[wiki/people/narasimha-rao-namburi.md|Rao]]'s answer, in two parts:** [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+
+- **Cost.** "They are feeling pressure because it's the **cost of two, two or three percent**."
+- **Retention.** "**If they issue a card… the money goes into the card.** Coming back to the machine is a possibility, **but it's less.**" — i.e. a card leaves the premises; cash tends to go back into the machine.
+
+**Val's counter is the one he has used elsewhere in this thread — the grey market is already paying the cost, just illegally:** "**today they break the law, so I'd rather have cost associated. They are already doing it. They are already buying car[d]s.** The point is that **when the car[d]s go into circulation, the location will start repurchasing cards rather than paying cash.**" A JVL colleague added the regulatory read: "**the market is already moving in the direction of the regulations, and the actors realize that the card should be issued.**" [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+
+*(This is the same "front fees to the store" instinct recorded for Sept 2 above — attach a legitimate cost rather than fight the cash habit — now argued from the location's side rather than the processor's.)*
+
+### Who is behind the cards, per the distributor
+
+**Recorded as one distributor's account, given in a sales meeting, and partly self-labelled as assumption.** Several strands conflict with what the corpus already holds from the processor's own mouth; those conflicts are named below and **not resolved**. [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+
+- **The Fiery Pay principal is named "Avshad Patel", with "Adam" as his partner and an Aristocrat connection.** The exchange runs: Val — "what's the relationship between the [Fiery Pay] guy?" / Rao — "What's his name?" / Val — "**Avshad Patel**… And aristocrat, yeah, **they're partners**… **Adam. Adam is partners with Avsha[d].**" **Note that the surname is spoken by Val, not by Rao**, which is the opposite of what the derived notes say ("Rao named the Fiery Pay principal as Avshad Patel"). **The transcript is the record here.** The corpus already carries this person as "**Afshad**", linked with Aristocrat, from the [[wiki/meetings/2026-08-12-fiery-pay-competitive-analysis.md|Aug-12 competitive analysis]]. [[raw/Meeting_Notes_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+- **Rao's read of why the Georgia market shifted is that person, not [[wiki/organizations/incom.md|InComm]].** "**Absad is the main guy. Absad is the crazy guy**"; "**I think Absad is not income.**" A JVL colleague disagreed in the room: "I think **income had a lot to do with it too, by targeting locations** and saying, 'This is my tax system. You need to get it.'" *(Reading "Absad" as the same name as "Avshad"/"Afshad" is an **inference** from context.)*
+- **Ready Credit Corporation** — "a company called **Ready Credit**… **Ready Credit Corporation**… **Very small company**, so they had a deal with **Access** to sell their cards," and specifically "they had a deal with Access **exclusively**… They have deal with **three companies: Genesis, Genesis, Fireflys, and the Access**." *(Three companies are promised and four names spoken; "Fireflys" may be a rendering of Fiery Pay but is **not** resolved here. Ready Credit Corporation appears nowhere else in the corpus.)*
+- **The capital required to be a card broker is small, per Rao:** "**You just need like two million dollars**… you just need **a guaranteed two million**." Not corroborated anywhere else.
+- **And a claim that conflicts with the corpus: Rao says "SkillPay" is a crypto company.** "**Skillpay is a crypto company issuing… ATM access card. It's buying and giving** basically. For that they are **charging a bit**, and they are also **making money when they swipe it tomorrow**"; his theory being that crypto is the only lawful route — "**That's the only way you can do it legally. Otherwise, it's not legal to give the ATM access.**" And "**The cards are changing from gift card to crypto.**"
+  - **He disclaimed it himself, unprompted:** "**These are the assumptions… whatever I think, whatever I learned from other people** how they are able to do this is the only way." Val pressed — "**How do you know it's a crypto company? I have no idea**" — and got no better answer.
+  - **The corpus holds Skill Pay as InComm's own card product** — the blue card, $3 activation, direct redemption with ATM/cash access, described by InComm's own people across Aug-12 and Aug-26 2026 (see [[wiki/organizations/incom.md]]). **Recorded side by side; the speaker's self-declared assumption is not treated as a competing account of fact.**
+
+**§15.8:** clear — card economics, processor identities and market structure only; no named-person compensation.
+
+## Sept 9 2026 (evening) — the operator's own arithmetic, from a master's CEO
+
+The same evening, at the [[wiki/meetings/2026-09-09-arc-gaming-backend-displacement-negotiation.md|4:35 PM ARC meeting]], [[wiki/people/david-sloan.md|David Sloan]] did two pieces of arithmetic out loud without being asked. **This is the only place in the corpus where a master operator's chief executive prices the card chain from his own side of it.** [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+
+### What the player actually loses cashing a prize card
+
+> "that new card is going to **cost two bucks**, right?… Now, if I take that card over to an ATM machine, the **ATM machine charges you three dollars** and compounds that **another two fifty** on it. Now **you're out eight dollars and fifty cents.** ATM fees you can't really do much about **unless I have my own ATM machine. I charge a dollar probably.**"
+
+*(Recorded as spoken. The stated components — $2 + $3 + $2.50 — total **$7.50**, not the $8.50 he names; the derived notes carry the $8.50 figure. **The discrepancy is recorded, not repaired.**)* [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]] [[raw/Meeting_Notes_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+
+**And what he would do about it — give up his own share of the fee to undercut the next operator:**
+
+> "I'm sure the prices from my standpoint, so I'm **looking for ways to kind of reduce that. I would probably more valuable need not take my part of that fee and give it back to the customer and not charge them, because I know I'm my competitive advantage. I'm charging less than the next guy, so I'll give up three dollars to gain twenty dollars.**"
+
+This is the operator-side counterpart of the fee sheet above: the fees a processor books as revenue, an operator with his own ATM treats as a price lever. [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+
+### The size of the back-end prize, worked out by the counterparty
+
+Told that JVL means to replace [[wiki/organizations/incom.md|InComm]] on the back end ([[wiki/decisions/2026-09-09-val-discloses-the-incomm-displacement-intent-to-arcs-ceo.md]]), Sloan built the number himself while Val supplied two inputs: [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+
+> "Look at it. **It's a great business model. Two dollars. Forty fifty, making four fifty transaction in the backend.**"
+>
+> "How many machines in this market right now?" — Val: "**Forty seven thousand.**" — "Forty seven thousand. Let's just say forty seven. And let's see how many transactions a day." — Val: "I don't know if it's ten. **I would say five per machine.**"
+>
+> "**five cash outs a day. It's gotta be more. Let's just say five. That's two hundred thirty-five thousand cash outs a day. If you control eighty percent of the market, you're getting one hundred eighty-eight thousand cash outs a day, and you're making five dollars and fifty cents. It's a million dollars.**"
+
+- **The arithmetic he states checks out on its own terms:** 47,000 × 5 = **235,000**; 80 % of that = **188,000**; 188,000 × **$5.50** ≈ **$1.03m**. He does not say *per day*, but every input is a daily rate. **Labelled as an inference.**
+- **Where the $5.50 comes from is not stated.** His two components are $2 on the card and $4.50 on the back-end transaction, which sum to $6.50. **Recorded as spoken; not reconciled.**
+- **"per the ASM machine, per day"** is flagged in the derived notes as reading *ATM machine*; in context the count is per **gaming** machine (47,000 is the Georgia machine count). **The flag is recorded and the reading left open.** [[raw/Meeting_Notes_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+- **The 47,000 figure is Val's, and it matches** the market re-measurement he gave internally five days earlier — 47,000 machines in 7,400 locations. See [[wiki/projects/georgia-market-rollout.md]]. [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+
+**His conclusion and his next question, in the same breath:** "It's a great business model" → "**How long can get up there?**" Val's answer — a partner's solution now, or half a year to build it — is on [[wiki/decisions/2026-09-09-val-discloses-the-incomm-displacement-intent-to-arcs-ceo.md]]. [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+
+**§15.8:** clear — card, ATM and back-end transaction economics only; no named-person compensation.
+
 ## Open questions
 
 - **Who actually bears the 3–5% transaction fee — the merchant or the cardholder?** Asserted both ways in the room and left unsettled; the fee sheet itself is silent. [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
 - **Is the processor take 15% or 20% of the ~$5bn?** Val gave both within minutes; the derived notes carry only 15%. Neither figure is sourced to a document. [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]] [[raw/Meeting_Notes_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+- **Does InComm actually absorb the broker's loss when a location does not pay?** Salim says yes and calls it current practice; Val was told **no** by InComm two years ago and had never heard otherwise. Salim's account is second-hand from his side too. Both the claim and the contradiction of it are recorded above; the answer determines whether JVL can be a broker at all, and Val's own colleague named it as the meeting's unresolved item: "**I'm not sure if I understand what he meant by saying that [InComm] takes… In practice, what does it mean?**" [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+- **What breakage rate should JVL assume?** The only number anyone produced is the Lottery's own ~0.3 % default rate, which Val argues does not transfer because the exposure is $2,800 against $6 of revenue. He would not attach a number to it. [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
 
 **§15.8:** clear — card fees, processor margins, per-card distributor and master-licensee commissions offered as business terms, and market-size estimates only; no named-person compensation.
 
@@ -223,8 +345,14 @@ Val stated the figure again that evening — "**Average today, 1.5 car a day**" 
 - [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
 - [[raw/Meeting_Notes_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
 - [[raw/Meeting_Transcript_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
+- [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+- [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+- [[raw/Meeting_Notes_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+- [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Air_Gaming_Group_Transactional_Walkthrough-September-1-2026.md]]
 - [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]
 - [[raw/Meeting_Notes_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]]
+- [[raw/Meeting_Notes_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+- [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]

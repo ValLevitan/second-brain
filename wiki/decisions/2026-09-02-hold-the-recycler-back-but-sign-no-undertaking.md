@@ -2,8 +2,8 @@
 type: decision
 title: Hold the cash recycler back from anything InComm-associated — but sign no undertaking not to build it
 date: 2026-09-02
-aliases: [recycler standoff, cash recycler red line, no letter, the note InComm asked for, it leaves me with no choice, ten steps away, partnership would struggle]
-source-count: 3
+aliases: [recycler standoff, cash recycler red line, no letter, the note InComm asked for, it leaves me with no choice, ten steps away, partnership would struggle, it's not gonna fit, a second piece of equipment beside it, I don't think it should be an ATM]
+source-count: 5
 status: active
 open-commitments: 2
 open-questions: 3
@@ -65,6 +65,18 @@ Recorded as the notes state it; nothing here reconciles them.
 
 **The primary source for point 2 is now in the corpus.** Billy Liu made the demand himself that evening, six hours after this lunch ended: "**You gonna think about it? It'll be an exclusive thing, right? You're not gonna offer [InComm] out of those things. You're not gonna dispense a physical card.**" Val did not agree to it — "**But I don't know. This is a big ask. Maybe even impossible**" — so the collision is live but neither side of it has been conceded. The full proposal it was attached to is on [[wiki/decisions/2026-09-02-val-proposes-fifty-percent-of-play-payments.md]]; the meeting is [[wiki/meetings/2026-09-02-billy-liu-playpay-partnership-deep-dive.md]] [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]].
 
+## Sept 9 2026 — told to a customer: the Pay unit will not be re-opened for a recycler, and what replaces it is not an ATM
+
+A week later, at the [[wiki/meetings/2026-09-09-lucky-coin-service-burden-and-exclusive-partnership.md|Lucky Coin shop visit]], [[wiki/people/kyle-shepherd.md|Kyle Shepherd]] asked for the modularity promise to be confirmed in front of his technicians — "**that is modular in the sense that if these regulations change here, we need to open that thing up and put in… [a] recycler or any other piece of equipment**" — and [[wiki/people/val-levitan.md|Val]] said no. **This is the first customer-facing statement in the corpus that the recycler is not coming into the device at all.** [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
+
+> "let me be clear. **If you have to dispense a card and put a recycler, it's not gonna fit. So you'll have to remove the bill acceptor. You'll have to remove the dispenser. I don't think it's gonna happen, and I cannot tell you what it is, and I'm not gonna discuss it with you. But I believe something else will happen. And I believe that you will leave it the way it is, and you will have another piece of equipment.**"
+
+- **The physical reason is capacity, not policy** — the recycler cannot coexist with the card dispenser and the front-load bill acceptor in the same unit [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]].
+- **And whatever replaces it is a separate purchase, and Val does not think it is an ATM.** Asked whether a second box would also come free if the law changes: "I don't think the law has anything to do with it. But **if you were to have an ATM machine, that will be additional piece of equipment**"; "he will have to [buy that separate]. And **I don't believe it will be exactly an ATM. We have an idea of how it needs to be done, but I don't think it should be an ATM**" [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]].
+- **Kyle accepted the answer:** "I think the **second piece of equipment is the answer as well**" [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]].
+
+**How this bears on the first open question below, without answering it.** "Does 'hold it back' mean not building it, or building it and not selling it into Georgia COAM?" — Sept 9 says something narrower and new: **the recycler will not be a field upgrade to the shipped Pay unit**, and Val expects "something else" instead, which he refused to describe. That is a product-architecture statement, not a development-status one, so the question stays open. It also **pulls against the Sept-2 modularity promise made to the same customer** — [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]'s "if you decide to add additional features, you can **upgrade, not replace**," and Val's own "you're not losing anything… **the same form-fit device**." Both stand; **the two sources do not mention each other and nothing here reconciles them.** [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]] [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
+
 ## Open commitments
 
 - [ ] **InComm** — write to Val asking him to confirm that the features seen on the show floor are not associated with the Skill Pay solution (the agreed substitute for Val writing a note) — due unspecified — [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]] [[raw/Meeting_Notes_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]]
@@ -83,3 +95,5 @@ Recorded as the notes state it; nothing here reconciles them.
 - [[raw/Meeting_Notes_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]]
 - [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]]
+- [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]
+- [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]

@@ -3,8 +3,8 @@ type: decision
 title: The Flex-Port project goes with SAS — JVL drops the flexible bill-acceptor/counter connection and will not address the part of the market still on old machines; SAS goes into the current software, one firmware serves all interfaces by configuration, and Georgia runs AFT not TITO
 date: 2026-09-07
 aliases: [Flex-Port goes SAS, away from the acrobatics, drop the flexible connection, not address old machines, one firmware three interfaces, EBDS not loaded, counters for statistics only, Georgia runs AFT, AFT not TITO, RS-232 and power, Class III machines, Pavel's Friday AFT experiment]
-source-count: 2
-status: active
+source-count: 4
+status: active — but the "drops the old-machine segment" half is contradicted two days later; see ## Open contradictions
 open-commitments: 4
 open-questions: 0
 ---
@@ -19,7 +19,31 @@ It is the execution follow-on to [[wiki/decisions/2026-09-04-port-the-smib-sas-m
 
 "Проект флекс[-]порт сда[ё]тся с[о] [SAS]. Мы уходим от этого гибкого подключения, и мы не будем адресовать ту часть рынка, которая сегодня стоит на старых машинах" — the Flex-Port project goes with SAS, the flexible connection is dropped, and JVL will not address the part of the market sitting on old machines [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]].
 
-That segment is the one the wiki already carries an **open contradiction** about — Val at 15–20 % on Aug 24, Pavel at 10 % on Sept 2, Val at "90 % have two SAS ports" to InComm the same day (see [[wiki/topics/flexpay-business-architecture-payout-devices.md]], Open contradictions). **Nothing in either Sept-7 source quantifies it**, so the contradiction is untouched here — Val names the segment but attaches no number to it [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]].
+That segment is the one the wiki already carries an **open contradiction** about — Val at 15–20 % on Aug 24, Pavel at 10 % on Sept 2, Val at "90 % have two SAS ports" to InComm the same day (see [[wiki/topics/flexpay-business-architecture-payout-devices.md]], Open contradictions). **Nothing in either Sept-7 source quantifies it**, so the contradiction is untouched here — Val names the segment but attaches no number to it. *(He quantified it the next day, to a customer — see the Sept-8 section below, which adds two further data points to the same contradiction.)* [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]].
+
+## Sept 8 2026 — the segment sized, out loud, to a customer
+
+The day after this ruling, at the [[wiki/meetings/2026-09-08-dixie-amusement-bundle-offer-and-card-economics.md|Sept-8 Dixie Amusement visit]], [[wiki/people/val-levitan.md|Val]] put the same reasoning to a Georgia master licensee — **the first time it is stated outside JVL** — and attached numbers to it, which the Sept-7 sources did not. He credited the position to the same-day internal work: "**We just spoke today, Andre and I, probably for two hours, to exhaustion. So honestly, we don't know what to do about it.**" *(He names "Andre" only; read as [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] from the commercial/product context — an **inference**, not stated. The two-hour session is not in any source in `raw/`, and it is not the Sept-7 10:02 engineers' call recorded above, which was the previous day.)* [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+
+**The position, stated to the customer:**
+
+> "the question is, Andre and I were discussing today, probably for two hours on its solution. **We feel that this market will disappear within three years**… The market of single-[SAS] machines… **It will die within three years. It's already dying. So what's the point of trying to craft something that is dying? We're thinking maybe we shouldn't even support single-[SAS]. Just let it go, and connect to a second-[SAS] port.**" [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+
+**The arithmetic he gave, verbatim in outline:** [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+
+- Installed single-SAS base: "**our speculation is about ten thousand machines**."
+- Market size: "**we're saying forty-seven thousand machines in the market.**"
+- Replacement: "the rule of thumb everywhere in the world is **ten percent replacement. Let's say four thousand machines per year.**"
+- Displacement: "**Seventy to eighty percent of that four thousand will be single-[SAS] machines, so that makes it thirty-three hundred machines per year.**"
+- Runway: "**Out of ten thousand installed, fifteen thousand remaining. So between three to five years, it will all disappear.**" *(The "ten thousand installed, fifteen thousand remaining" clause is internally inconsistent and is recorded as spoken, not repaired. Note also that "within three years" and "between three to five years" are both said in the same passage.)*
+- Revenue per single-SAS machine: "**the average is 108. So if the average is 108, we figure that single [SAS] is probably around 60 to 70 dollars per machine, on average, maybe less. I'm thinking more like 40.**"
+- And the general principle, restated a minute later: "**there will always be technology that will always progress. That's why we're not sure that we should support single [SAS].**"
+
+**Salim's independent confirmation on the regulatory half:** "**if it's single [SAS], lottery is not ready to let you check in**… **So it has to be dual [SAS].**" Val's answer was the device design, not the protocol — "**No. This device is intelligent. We connect it to counters and connect the bill acceptor to this device**" over "**pulse and serial**" — which is precisely the "acrobatics" this ruling drops. Both are recorded; neither source reconciles the two. [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+
+**Salim's own sizing points the opposite way, and is recorded as evidence on the open contradiction, not as agreement.** "Now I think **we are seven percent ahead, which is dual [SAS], and rest is still that single [SAS] market** where that will change." Seven percent dual-SAS is irreconcilable with Val's own "90 % of the market has two SAS ports" of Sept 2; both now sit in the contradiction held on [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+
+**Nothing here changes the ruling** — Val describes it as unsettled to a customer ("we don't know what to do about it," "we're thinking maybe," "we're not sure"), while the Sept-7 engineering decision states it flatly. The customer-facing hedging and the internal decision are recorded side by side. [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]] [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
 
 ## What was decided
 
@@ -46,8 +70,20 @@ That segment is the one the wiki already carries an **open contradiction** about
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — take the larger part of the SAS/AFT implementation, parallelised locally across the several machines and ports on hand — due unspecified — [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [ ] [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] — do the Wi-Fi work first; SAS only at weekends while he is on vacation this week — due this week — [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 
+## Open contradictions
+
+**Whether JVL supports single-SAS machines at all (Sept 7/8 vs Sept 9 2026).** Two days after this ruling, [[wiki/people/val-levitan.md|Val]] told a Georgia distributor the opposite, in a customer meeting, and changed position inside a single exchange. Recorded, **not resolved**; nothing here withdraws the ruling above.
+
+- **Sept 7 (this page):** "**мы не будем адресовать ту часть рынка, которая сегодня стоит на старых машинах**" — JVL will not address the part of the market on old machines [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]].
+- **Sept 8, to a master licensee — hedged, same direction:** "**We're thinking maybe we shouldn't even support single-[SAS]. Just let it go**" [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]].
+- **Sept 9, 10:04 AM, to [[wiki/people/narasimha-rao-namburi.md|Rao]]:** "we have **no final decision whether we go dual [SAS] or single [SAS]**" → Rao: "you **definitely should go with dual plus single**… without [it] it's not going to work" → Val: "**you just made up our decision. We're going with both**" [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]].
+
+**Why it is held open rather than treated as a plain evolution.** The statements are two days apart — the same period — and directly incompatible. But they are not like for like: Sept 7 is an internal engineering ruling about how the Flex-Port connects, Sept 8 is explicitly a thought in progress, and Sept 9 is a sales-room concession whose wording ("dual saws or single saws") is garbled enough that it is not certain Val is answering the same question the engineers asked. **No source mentions any other.** Full treatment on [[wiki/decisions/2026-09-09-jvl-supports-both-dual-sas-and-single-sas-and-not-mudagoose.md]].
+
 **§15.8:** clear — protocol and market-scope content only; no named-person compensation.
 
 ## Sources
 - [[raw/Meeting_Notes_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+- [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]

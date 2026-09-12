@@ -4,7 +4,7 @@ title: Evgeniy Alekseev
 date: 2025-03-11
 aliases: [Evgeniy Alekseev, Evgeny Alekseev, Zhenya Alekseev, Женя Алексеев, Alekseev]
 disambiguation: "Owner of the main embedded code branch, this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
-source-count: 32
+source-count: 33
 open-commitments: 8
 ---
 
@@ -142,6 +142,15 @@ In both Monday meetings ([[wiki/meetings/2026-09-07-wifi-on-flex-port-and-qr-pro
 - [ ] Implement and verify the remote firmware update on Flex-Port, after the Wi-Fi work — due after Wi-Fi, high — [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [ ] Do Wi-Fi first; SAS only at weekends this week — due this week — [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 
+## Sept 9 2026 — booked for at least a week, offered the remote-log work, and floated for full time
+
+At the [[wiki/meetings/2026-09-09-september-resource-plan-and-flex-port-readiness.md|Sept-9 7:02 AM call]]:
+
+- **His current load:** "у Алексеева пока есть актуальные задачи по вайфаю. Это раз[;] во[-]2[,] доделать обновление прошивок… этих задач хватит? Ну на неделю точно" — the Wi-Fi tasks plus finishing the firmware-update work of [[wiki/decisions/2026-09-07-remote-firmware-update-mandatory-and-taken-off-yavorsky.md]]. [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- **Why the SAS work went to Pavel instead of him:** distance from the hardware. [[wiki/people/pavel.md|Pavel]]: "у Алексеева этого не будет ничего… он будет всё равно нас дёргать[,] но с задержкой в сутки[ —] дайте мне правильный софт, а поправьте мне в софте там что[-]то… суточная задержка всегда почти на любой запрос." Val reframed it rather than accepting it as a cost: "вот я ему дал работу, я пошёл спать, а он работает." [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- **What Pavel wants to give him:** the remote log-transfer work — "какой[-]нибудь вот… lo[g]s transferring это можно Алексееву, если он сможет это взять и вести… [е]сли он не только в выходные будет работать" — the feature specified on [[wiki/decisions/2026-09-09-three-more-flex-port-features-onto-capability-165.md]]. [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- **Val raised changing his employment basis:** "я могу, например, Алексееву попросить взять [эту работу] на своей работе или взять его на фултайм работу." Not resolved. Pavel's read of working with him: "долго его убеждаешь в том, что надо другим путём идти, но в целом он адекватный." **§15.8: recorded as a capacity/assignment question only — no terms or compensation appear in the source.** [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_recycler_architecture_planning-April-28-2026.md]]
@@ -176,3 +185,4 @@ In both Monday meetings ([[wiki/meetings/2026-09-07-wifi-on-flex-port-and-qr-pro
 - [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
 - [[raw/Meeting_Notes_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]

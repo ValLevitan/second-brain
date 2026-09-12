@@ -4,8 +4,8 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 66
-open-commitments: 7
+source-count: 68
+open-commitments: 9
 ---
 
 # Irina Shishko
@@ -191,6 +191,22 @@ On the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-updates-after-the-show.md|Se
 
 **Afternoon, game development** ([[wiki/meetings/2026-09-04-naming-convention-standards-and-nova-conversion.md|Sept-4 2:07 PM]], joined for part): Val switched to Russian to question her directly about which branch the Georgia V3 Jackpot Rush was cut from; that stretch of the transcript is poorly captured. Lena's account in the same meeting was that "**Irina decided with somebody else that we are going to cut it from Florida branch**" without consulting her. See [[wiki/decisions/2026-09-04-asset-naming-convention-must-be-written-down.md]] — Val explicitly refused to pursue fault: "I actually don't really care what, who is at fault. My goal is to determine that it never happens again." [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]] [[raw/Meeting_Notes_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 
+## Sept 9 2026 — makes the automation case, proposes status-based release separation, and audits what Bosik generated
+
+On the [[wiki/meetings/2026-09-09-september-resource-plan-and-flex-port-readiness.md|Sept-9 7:02 AM call]] (Russian; Val and [[wiki/people/pavel.md|Pavel Frolov]]):
+
+- **She answered Val's "why write anything down at all" challenge with the cost argument**: "[т]естировать руками — это будет постоянно много занимать[;] автоматизировано 1 раз займёт время, а потом это будет быстро, потому что тесты будут готовые. И руками не надо тестировать." Full exchange on [[wiki/topics/test-automation-strategy.md]] (Sept 9). [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- **On separating MVP 1 from MVP 2 in Jira she proposed using the capability status**, not fix versions — "это статусом можно как[-]то регулировать, то есть [капабилити] принято, но она будет у нас в следующем релизе" — and warned that later-release capabilities otherwise push the whole product's timeline out. Pavel disagreed; unsettled. See [[wiki/decisions/2025-04-03-jira-capability-level-and-github-mapping.md]] (Sept 9 2026). [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- **She pressed Pavel for the concrete numbers** so she could audit Bosik's output — "[д]ай хоть один номер, который он сделал, я не могу найти" and "[п]ерешли мне, пожалуйста[,] письмо" — and got the forward on the call. She then attributed the Wi-Fi capabilities (145, 143, 142, 140) and spotted that a capability carried no requirements at all: "здесь совсем нет требований никаких." [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- **She checked whether Flex-Port code was still sitting outside the repository** — "этот Яворский уже всё должен был в ги[т] выложить[,] у него ничего не должно было нигде ж остаться" — and Pavel confirmed all the work is in git. [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- **Capacity:** the SAS documentation work runs this week only, "[а] дальше у нас транзакшн… в приоритете у всех" — the derived notes read the same line as "the SAS documentation work is this week only, and after that transactional is everyone's priority." *(The transcript renders it «рекламы suss docota»; the §4 South-Dakota garble family makes "Dakota" an alternative reading — flagged, not resolved.)* [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]] [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- **She also asked Val for a release date** — "[м]ы хотим какой[-]то дат[ой] это выпустить?… не так, что вот чем быстрее, тем лучше" — and Val said he could put a date down but did not yet know what to attach it to: "я не понимаю, на что дату надо ставить. Я пока не могу прочувствовать, что я могу получить." [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+
+**Open commitments (Sept 9 2026)**
+
+- [ ] With [[wiki/people/alexei-khamin.md|Alexei Khamin]] — review Bosik's generated requirements and grade how much of the scope they cover — due before the Bosik/Kovalchuk session — [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- [ ] With Khamin — write the negative cases up as acceptance criteria in parallel with the positive-case work — due unspecified — [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
@@ -259,3 +275,5 @@ On the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-updates-after-the-show.md|Se
 - [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
 - [[raw/Meeting_Notes_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]

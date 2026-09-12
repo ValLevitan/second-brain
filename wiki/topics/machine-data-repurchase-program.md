@@ -3,7 +3,7 @@ type: topic
 title: Machine data repurchase program ($337 per year per machine)
 date: 2026-08-26
 aliases: [data repurchase, validator acceptance rate, data purchase contract, buy back our own data, $337 per year per machine, three-year data contract, data-sharing agreement, data sharing discount, data discount]
-source-count: 10
+source-count: 11
 open-commitments: 0
 open-questions: 1
 ---
@@ -87,6 +87,18 @@ Val's Aug-27 description of the reporting he wants back: "Here's your **geo posi
 - Neither source reconciles the two, and neither describes the written contract's actual clauses. The Aug-26 statement is the one made to a customer who was **signing**; the Aug-27 statement was made to a prospect.
 - **Aug 31, to ARC Gaming — no help either way.** The program was raised again four days later, and Val described **no data scope at all**: the offer was put purely as pricing ("data discount") plus the operator getting data back ("Second, they get data"). The derived notes summarise the same passage as the buy-back model at $337/year/machine and likewise say nothing about what JVL reads. So the third dated statement **does not narrow the contradiction and does not widen it** — it is recorded here so a later reader does not mistake its silence for agreement with either side. [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]] [[raw/Meeting_Notes_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 
+### Sept 8 2026 — the data comes back to the operator as a priced product: "operator intelligence"
+
+At the [[wiki/meetings/2026-09-08-dixie-amusement-bundle-offer-and-card-economics.md|Sept-8 Dixie visit]] the reporting appears for the first time as a **named product with a stated commercial future**, inside the $90/month bundle: "the only thing that we're giving away for free now is the **operator intelligence, which is optional, but we eventually will start charging for it**… but eventually we'll offer it as an option." [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+
+**What it contains, as itemised to a customer** — the fullest list in the corpus of what JVL's system actually sees: [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+
+> "We will give you **the entire intelligence of your operation, from collection to service to popularity reports.** We will tell you that **machine number one has not played for three days. Send the technician.** Most likely something is wrong. We'll tell you that **the cash door was open at such and such time.** We'll tell you that your **bill acceptor's acceptance rate on the first insertion is falling to sixty five percent. Time to clean your bill acceptor** … **Delivered directly to your cell phone.**"
+
+**Why this is dated evidence on the contradiction below, and not a resolution of it.** The list is of what JVL **reports out to the operator** — collection, service, popularity, door events, acceptance rates. It is much closer to the Aug-26 "popularity reports, service reports and gameplay reports" scope than to the Aug-27 "net win, gross, payout" scope, and it contains **no financial-performance category at all** except "collection," which is not defined in the source. But **the buy-back programme itself is never mentioned** — no $337, no three-year contract, no data-licence language — so the passage describes the *output* side, not the *contract* side, and cannot be read as either party stating what JVL is entitled to read. **Recorded; the contradiction stays open.** [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+
+*(This is the seventh customer meeting since Aug 26 in which the reporting is pitched and the repurchase programme is not. See the Sept-1 and Sept-2 sections above for the same pattern.)*
+
 ## Open questions
 
 - **What happens to a three-year data contract when the machine is sold with the route?** Raised from JVL's side at the Narayani meeting — "You buy and sell routes as everyone does, right? This three year contract." — and dropped without an answer. This matters because route-flipping is the normal Georgia pattern (see [[wiki/organizations/narayani-amusements.md]] and [[wiki/projects/georgia-market-rollout.md]]). [[raw/Meeting_Transcript_Narayani_Amusements_Trade_In_Negotiation-August-26-2026.md]]
@@ -105,3 +117,4 @@ Val's Aug-27 description of the reporting he wants back: "Here's your **geo posi
 - [[raw/Meeting_Transcript_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
 - [[raw/Meeting_Transcript_Air_Gaming_Group_Transactional_Walkthrough-September-1-2026.md]]
 - [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]
+- [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]

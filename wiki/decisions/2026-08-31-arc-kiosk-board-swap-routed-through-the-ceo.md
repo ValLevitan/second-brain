@@ -3,7 +3,7 @@ type: decision
 title: Work around ARC's kiosk lock-in by swapping the PC board and stripping the per-machine printers — and route the proposal through CEO David Sloan, never directly to the kiosk vendor
 date: 2026-08-31
 aliases: [ARC kiosk conversion, kiosk PC board swap, throw away the board, route through David Sloan, do not approach Bill, barcode readers instead of printers]
-source-count: 2
+source-count: 4
 status: active
 open-commitments: 1
 open-questions: 2
@@ -42,18 +42,34 @@ Two facts make the routing non-optional rather than merely polite: **David Sloan
 
 Not the hardware — the data. "The kiosk keeps… all the transactions [that] go in the kiosk. He has a database [of] all of the financial activities. **Tell him we can process them online.**" [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 
+## Sept 8 2026 — the route opens: Zazanis makes the introduction and steps aside
+
+Eight days later, at the [[wiki/meetings/2026-09-08-arc-gaming-bundle-sanity-check-and-david-sloan-intro.md|Sept-8 ARC call]], the channel this ruling depends on was actually opened. Zazanis: "**I said to David, you know, Val wants to talk to you. He will reach out to you**… So **reach out to him. He's expecting you**," and — the change from Aug 31 — "**I didn't want to be in the middle of your discussions.**" Ruling: [[wiki/decisions/2026-09-08-val-approaches-david-sloan-directly-with-the-bundle-offer.md]]; the man himself on [[wiki/people/david-sloan.md]]. [[raw/Meeting_Transcript_ARC_Gaming_Vertical_Screen_Bundle_Offer_and_David_Intro-September-8-2026.md]]
+
+**This does not discharge the commitment below.** What Val asked about taking to Sloan on Sept 8 was the **Georgia bundle offer**, not the kiosk board-swap; **the board-swap, the printers and the vendor are not mentioned anywhere in the Sept-8 sources**. So the route is now live and the proposal it was built for still has not travelled it. Both open questions below are untouched. [[raw/Meeting_Transcript_ARC_Gaming_Vertical_Screen_Bundle_Offer_and_David_Intro-September-8-2026.md]]
+
+## Sept 9 2026 — Val met Sloan and did not raise it
+
+The route was used the next day ([[wiki/meetings/2026-09-09-arc-gaming-backend-displacement-negotiation.md|Sept-9 4:35 PM]]) and **the kiosk board-swap was not put to him.** What travelled instead was the Georgia bundle and the [[wiki/decisions/2026-09-09-val-discloses-the-incomm-displacement-intent-to-arcs-ceo.md|InComm displacement disclosure]]; **the board, the printers and the barcode readers are not mentioned anywhere in either Sept-9 source.** [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+
+**What the meeting did add is the vendor's own side of the relationship, from the CEO rather than the COO** — and it makes the second open question below sharper rather than answering it. Sloan and [[wiki/people/bill.md|Bill]] "**have been partners**"; Bill "**[is] running a kiosk company**"; and on service, "**I can [pick up] the phone to get anything changed on the kiosk.**" A satisfied customer with a personal line to his vendor is a harder sell for a board swap than a locked-in one. [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+
+**And a new fact that may overtake this ruling entirely:** asked whether Bill is working on anything of the same nature as JVL's back-end intent, Sloan said "**That he's looking at different things because I've asked**" and "**I think he is working on a solution.**" Val's response was to offer to withdraw from ARC altogether — "if Bill is on it and you're friends with Bill, then I shouldn't be here" — which would moot this decision. **Nothing was settled.** See [[wiki/people/bill.md]] and [[wiki/decisions/2026-09-09-arc-account-exclusivity-sought-and-not-obtained.md]]. [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+
 ## Open commitments
 
-- [ ] [[wiki/people/val-levitan.md|Val]] / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — put the kiosk-conversion proposal together and route it via CEO David Sloan — due unspecified — [[raw/Meeting_Notes_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
+- [ ] [[wiki/people/val-levitan.md|Val]] / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — put the kiosk-conversion proposal together and route it via CEO David Sloan — due unspecified. *(Sept 8 2026: the introduction to Sloan has been made and Val is to initiate contact — but the kiosk-conversion proposal itself is not mentioned in that source. **Sept 9 2026: Val met Sloan and did not raise it.** Still open.)* — [[raw/Meeting_Notes_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]] [[raw/Meeting_Transcript_ARC_Gaming_Vertical_Screen_Bundle_Offer_and_David_Intro-September-8-2026.md]]
 
 ## Open questions
 
 - **Does the kiosk hardware actually support what the swap assumes?** Zazanis corrected Val's inventory once already — the kiosks "[do not] accept money. [They] only issue vouchers… accept the vouchers and dispense the card" — so the bill acceptor Val listed may not be there. Not resolved in the meeting. [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
-- **Will David Sloan carry it to Bill at all?** The friendship that makes him the only viable route is also the reason the request may not be made. Zazanis on his own past attempts: "if I say this sucks, the other guy says George. It is what it is. Find the solution." [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
+- **Will David Sloan carry it to Bill at all?** The friendship that makes him the only viable route is also the reason the request may not be made. Zazanis on his own past attempts: "if I say this sucks, the other guy says George. It is what it is. Find the solution." **Sept 9 2026 leaves it untested — Val sat with Sloan for the whole meeting and never asked.** [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]] [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
 
 **§15.8:** clear — equipment, vendor and per-machine economics only; no named-person compensation.
 
 ## Sources
 
 - [[raw/Meeting_Notes_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
+- [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
+- [[raw/Meeting_Transcript_ARC_Gaming_Vertical_Screen_Bundle_Offer_and_David_Intro-September-8-2026.md]]

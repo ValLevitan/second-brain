@@ -4,7 +4,7 @@ title: Eugine Yavorski
 date: 2025-02-18
 aliases: [Eugine Yavorski, Evgeny Yavorsky, Yavorski, Yavorsky, Яворский, Evgeny Egorsky, Egorsky, Егорский, Evgeny Nevorsky, Nevorsky, Неворский, Evgeny, Yevgeny, Zhenya, Женя, Евгений]
 disambiguation: "FlexPort/FlexPay integration engineer (alias Egorsky), this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
-source-count: 29
+source-count: 30
 open-commitments: 4
 ---
 
@@ -149,6 +149,12 @@ He is also the other half of "the two Evgenys" whose SAS firmware Pavel used for
 
 *(Genadi Peari's private Sept-4 judgement — that nothing on this thread would work without Pavel — is what Sept 7 looks like in practice. No source draws that link; recorded as an observation, not a sourced claim.)*
 
+## Sept 9 2026 — his Flex-Port work confirmed to be entirely in git
+
+At the [[wiki/meetings/2026-09-09-september-resource-plan-and-flex-port-readiness.md|Sept-9 7:02 AM call]] [[wiki/people/irina-shishko.md|Irina Shishko]] asked whether anything of his was still outside the repository — "[по] флекс[-]пор[ту] тоже[,] этот Яворский уже всё должен был в ги[т] выложить[,] у него ничего не должно было нигде ж остаться, насколько я понимаю" — and [[wiki/people/pavel.md|Pavel Frolov]] confirmed it: "Да. Да… Вся работа в [гите]." [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+
+That closes the practical worry left by the Sept-7 removal of tasks from him ([[wiki/decisions/2026-09-07-remote-firmware-update-mandatory-and-taken-off-yavorsky.md]], [[wiki/decisions/2026-09-04-port-the-smib-sas-module-into-the-flex-port-main-branch.md]]) — nothing of the Flex-Port work depends on his machine. He is not otherwise mentioned in either Sept-9 source.
+
 ## Sources
 
 - [[raw/Schedule_review-March-4-2026.md]]
@@ -180,3 +186,4 @@ He is also the other half of "the two Evgenys" whose SAS firmware Pavel used for
 - [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
 - [[raw/Meeting_Notes_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]

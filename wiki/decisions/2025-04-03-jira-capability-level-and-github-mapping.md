@@ -3,9 +3,9 @@ type: decision
 title: Insert a "capability" level in Jira as the executive-demonstrable unit mapped to GitHub feature branches
 date: 2025-04-03
 aliases: [capability level, Jira capabilities, capability vs feature, GitHub Jira mapping, feature branch capability, repository is a product, repository is an artifact, no test no pull, one week feature branch, capabilities bundle of features]
-source-count: 22
+source-count: 24
 status: active
-open-questions: 1
+open-questions: 2
 ---
 
 # Insert a "capability" level in Jira as the executive-demonstrable unit mapped to GitHub feature branches
@@ -147,10 +147,22 @@ On the [[wiki/meetings/2025-11-27-framework-changes-tasks-and-management.md|Nov-
 - **Jira structure named + a rename.** Hierarchy: **IP 90 = application → IP 747 = "Systems" definition → IP 726 (Omni progressive) or IP 327 (Reich framework)**; Val proposed **renaming IP 327 to "Reich Rises."** The workflow applies to **both Omni and Reich Studio**; kino (cinema) games will force changes into the old Reich Studio framework. [[raw/Framework Changes – Tasks and Management - part-2.md]]
 - **Role split for framework changes:** **Lena** owns requirements (design side); **[[wiki/people/pavel.md|Pavel]]** owns the specification + scheduling (Lena "hands him the reins"); the developer ([[wiki/people/anton-leshkevich.md|Anton]] — currently the least-loaded — or [[wiki/people/igor-metelski.md|Igor Metelski]] for Reich) breaks the spec into features; **[[wiki/people/ivan.md|Ivan]]** writes the tests. Consistent with the Apr-3 "PM describes capability, Pavel writes features, developers write stories, QA/Irina owns the testable-merge gate." [[raw/Framework Changes – Tasks and Management.md]] [[raw/Framework Changes – Tasks and Management - part-2.md]]
 
+## Sept 9 2026 — Flex-Port gets its own Jira project, and how to separate MVP 1 from MVP 2 is still unsettled
+
+At the [[wiki/meetings/2026-09-09-september-resource-plan-and-flex-port-readiness.md|Sept-9 2026 resource-plan call]] the one-repository-one-project rule set here was applied to Flex-Port, and a gap in the scheme surfaced that nobody has closed.
+
+- **Project name = repository name, now enforced for Flex-Port.** [[wiki/people/pavel.md|Pavel Frolov]]: "это название проекта в [Jira], и она однозначно соответствует репозиторию. Это то, что мы говорили[ —] именование проекта… должны соответствовать." Flex-Port previously lived inside the **FP** project — "[д]о этого у нас флекспорт жил в проекте [ФП]" — and was split out by [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]], forcing new numbering [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]].
+- **The unsettled question: how to mark which capabilities belong to which release.** [[wiki/people/irina-shishko.md|Irina Shishko]] wanted to use the **capability status** — "это статусом можно как[-]то регулировать, то есть [капабилити] принято, но она будет у нас в следующем релизе" — and warned that a later-release capability otherwise drags the whole product's timeline out on the plan: "они будут на таймлайне влиять на выпуск… всего продукта, то есть покажут, что он… выпущен позже, чем запланировано MVP." Pavel wanted **fix versions on the capability project, global across all products and named per product** — "фикс верс[ии] для проекта capability, и он должен быть глобальный для всех проектов… надо именовать не просто 1.0[,] а надо писать, что это **флекспорт 1.0**" — so capabilities can be filtered by release [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]].
+- **Pavel recalled what was settled before, and why it does not reach far enough.** "мы когда[-]то на митинге, когда обсуждали вот [капабилити] и фичи[,] тогда сошлись на том, что да[,] мы фикс верс[ии] будем в рамках каждого репозитория строить. Но… эти версии живут внутри этого проекта… и они не выходят на уровень [капабилити]" — versions live below the capability level. He said the decision still has to be taken properly: "рано или поздно нам это придётся обсуждать и принимать решения" [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]].
+- **The interim measure agreed on the call:** push later capabilities down the graph and treat everything above the line as release 1 — "на графике мы пока просто можем… [то, что] не идёт [в] ближайший релиз… отодвигать куда[-]нибудь назад… и говорить, что всё, что до этой [капабилити,] это у нас идёт в 1 релиз, а всё, что дальше[,] это идёт в следующий релиз." Irina's response was to try it: "нужно пробовать" [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]].
+
+Val's part in the exchange was to ask for it to be saved and to wonder aloud whether Claude could take the conversation and write the features from it: "если я сейчас с[э]йф вот этот диалог, который вы с Ириной имели… [К]лод… пишет фьючерс, который вы сможете оценить, или это будет бесполезно?" Pavel's answer was that the features had not been discussed yet and would have to be talked through with Claude and written up [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]].
+
 ## Open questions
 
 - **Restructure Jira per the May-5–6 direction?** Should **capability** replace the product-line level, the **initiative become the product**, and the top levels (value stream / initiative / product) move into **Jira Product Discovery** projects? Direction agreed in principle, no ruling; a graph + refactor plan deferred. — [[raw/feature_granularity_definition_aaron-may-5-2025.md]] [[raw/feature_defining_jira-may-6-2025.md]] [[raw/feature_reflection_jira-may-6-2025.md]]
 - **RESOLVED (Sept 2025) — flatten GitHub to one organization, or keep many orgs?** Was long unresolved: Aaron pushed hard to **flatten all repos into one org** with a naming convention (e.g. `framework-omni-renderer`), citing Block/Square keeping ~30 repos in one space, and warned Val's per-org control is "a precarious knife edge." Val **refused to flatten** — he could not achieve executive alignment without the org/concern structure — but conceded there were "too many orgs" and people were committing into an unvetted new org ("wild west"). The **Sept 9–16 2025 git-repo-structure arc closes this**: JVL is consolidating its ~11 organizations down to **~2**, with a new kebab repo-naming taxonomy and a per-repo migration plan — decided and entering execution as of Sept 16. Tracking follows this decision's own two-camp split: **one story per repo** at the GitHub/low level, the feature-level in Jira. See the sequencer on [[wiki/decisions/2025-02-11-github-org-naming-and-structure.md]]. [[raw/git_repo_structure.md]] [[raw/git_jira_correlation-april-1-2025.md]] [[raw/gut_hub_jira_relationship-april-2-2025.md]]
+- **How are MVP 1 and MVP 2 separated in Jira?** Raised Sept 9 2026 and explicitly left open: Pavel wants global fix versions on the capability project named per product ("флекспорт 1.0"); Irina wants to use capability status. Pavel: "рано или поздно нам это придётся обсуждать и принимать решения." The interim measure is to push later capabilities down the graph and treat everything above the marker line as release 1. — [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]] [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 
 ## Sources
 
@@ -176,3 +188,5 @@ On the [[wiki/meetings/2025-11-27-framework-changes-tasks-and-management.md|Nov-
 - [[raw/jira-workflows_implementation_guide-september-26-2025.md]]
 - [[raw/Framework Changes – Tasks and Management.md]]
 - [[raw/Framework Changes – Tasks and Management - part-2.md]]
+- [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]

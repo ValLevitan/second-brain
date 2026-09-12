@@ -3,7 +3,7 @@ type: person
 title: Evgeny Kharetski
 date: 2025-07-10
 aliases: [Evgeny Kharetski, Evgeny Kharetsky, Evgeny Khoretsky, Kharevsky, Yauheni Kharetski, Kharetsky, Koretski, Koretsky, Korecki, Khorvatsky, Корецкий, Хорватский, Халецкий]
-source-count: 21
+source-count: 22
 open-commitments: 5
 disambiguation: "LGS developer (payroll "Kharetski Yauheni"), this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
 ---
@@ -103,6 +103,12 @@ At the [[wiki/meetings/2026-09-04-rage-nova-conversion-readiness.md|Sept-4 morni
 
 - [ ] Place the data contracts beside the code in his repository, which carries the largest number of contracts — due Sept 11 2026 (80% acceptable; he warned he may not make it) — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 
+## Sept 9 2026 — named among the three Val asked to work more hours
+
+At the [[wiki/meetings/2026-09-09-september-resource-plan-and-flex-port-readiness.md|Sept-9 7:02 AM call]] [[wiki/people/val-levitan.md|Val]] asked about extra capacity from three people — "[с]колько люди сейчас работают[:] [Б]иратка, **[К]орецкий**, Хам[и]н[?] Их можно, чтоб они больше работали?" — and [[wiki/people/pavel.md|Pavel]] answered only for Biratka and Khamin; **nothing was said about him**, and the question is left unanswered in the source. [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+
+*(Resolution note: "Корецкий" is one of this page's recorded garble-aliases per the §4 owner-ruled registry. The context — a list of Minsk engineers Val can ask for more hours — fits and nothing in the source contradicts it, but he is named only in passing.)* **§15.8: hours only; no compensation.** [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
@@ -126,3 +132,4 @@ At the [[wiki/meetings/2026-09-04-rage-nova-conversion-readiness.md|Sept-4 morni
 - [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
 - [[raw/Meeting_Notes_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 - [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]

@@ -2,8 +2,8 @@
 type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
-aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus, $20 test, twenty dollar test, Twin Bison, Wolfpack, Clover Fortune, Liberty Spins, peek-to-be-in bonus, locking bison, Rodeo Spins, multi-progressive, Multi-Progressive initiative, three-level progressive, three progressive styles, bet-dependent progressive, symbol-driven progressive, time on device, jackpot reset value, RTP parity, Pyre Island, dual box skill feature, Lions Riches, Primero, Piggy, attraction loop, credits vs dollars, default to a dollar]
-source-count: 83
+aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus, $20 test, twenty dollar test, Twin Bison, Wolfpack, Clover Fortune, Liberty Spins, peek-to-be-in bonus, locking bison, Rodeo Spins, multi-progressive, Multi-Progressive initiative, three-level progressive, three progressive styles, bet-dependent progressive, symbol-driven progressive, time on device, jackpot reset value, RTP parity, Pyre Island, dual box skill feature, Lions Riches, Primero, Piggy, attraction loop, credits vs dollars, default to a dollar, first three rankings, the ice maker, settings not the report, no secret between us, Anchor Gaming, Wheel of Fortune]
+source-count: 85
 open-questions: 5
 ---
 
@@ -722,6 +722,60 @@ At the [[wiki/meetings/2026-09-04-naming-convention-standards-and-nova-conversio
 
 **§15.8:** clear — game design, bet levels and interface only; no named-person compensation.
 
+## Sept 9 2026 — "I should be within the first three every time": Val's fullest statement of what he thinks a JVL machine is entitled to
+
+The [[wiki/meetings/2026-09-09-rao-machine-performance-and-exclusivity-offer.md|Sept-9 Rao meeting]] turned into a ninety-minute argument about why a JVL machine underperforms, and it produced the most explicit version in the corpus of Val's position on machine ranking. [[wiki/people/narasimha-rao-namburi.md|Rao]]'s side — a Savannah location where JVL sits behind a Novomatic "rocket rush", and IGT progressives showing six to eight thousand against JVL's one thousand — is on his page. [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+
+**The claim.** "**I do not understand how our machine could be less than first three. I do not understand.**" And with the qualifier he attached every time: "**I cannot be number one or number two everywhere, but I could be within first three rankings all the time.**" [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+
+**The conditions attached to it — this is the operative sentence:** [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+
+> "**giving the same location, same condition, same settings, and that includes volume, that includes credit settings, same proper [bet buttons]** — if you do that, chances of us not making money and aristocrat making money… I don't even understand."
+
+*(The last clause is rendered "same proper billing" in the transcript; the derived notes read it as the **bet buttons**, which matches everything else Val says in the passage. Flagged, not silently corrected.)* [[raw/Meeting_Notes_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+
+**And the explanation he insists on when the claim fails — physical or configuration, never the game:** "Taken to any location, every location, **I should be number one**… and **I will find the reason why I'm not. Either wrong RTP, wrong be[t], wrong be[t] button, wrong location, fan is blowing, heating.**" [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+
+- **The ice-maker story, told twice as the paradigm case.** "right here, adjacent to it, there is a **ice maker. Huge, humongous ice maker. On the bottom, it blows hot air.** And in here, **it makes noise when the ice falls down**… **Who in the right mind would sit next to a[n] ice maker and enjoy a tea? So put my machine over here.**" [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+- **Other micro-causes he named:** a **topper** the competing machine has and JVL's does not; a **broken chair**; and the placement itself. "**It could be many micro reasons why we would make less money.**" [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+- **The incentive argument he used to make the point land.** "**I could bet a thousand dollars** for you that **if you personally had a percentage of pay from each machine, you would go from location to location. You would find a way to speak to the owner to move the machine from here to here**… you would **send somebody to wipe the machine down. Make sure that the brand new chair is attached to the machine and nobody else can have it. And the chair has a number.**" [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+- **The counter-evidence Rao supplied is the strongest thing in the passage, and it is against himself.** His crews place machines in the order they come off the trailer: "they put in a line. **They never have priority**… I put my[self] personally in **thousand places, I never check**… **never came into my mind.**" That is exactly the condition Val says has to hold before the comparison is fair. [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+
+### What Val asked for, and what he refused to accept
+
+**Settings and bet-button photographs, not the revenue report** — repeated against three offers of the report: "**Don't send me the report. Send me the settings** of the competitor machines. **I want to see the settings and I want to see the be[t] button**"; "Just take a picture of the machines with bets, and tell me these machines number one, number two, number three, JVL is number ten. So I will tell you what needs to change." Rao: "**I will send the settings.**" [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+
+**And a free live test on the customer's own best location** — Val to set the machine up himself, in the same spot, replacing the dual-screen JVL already there: "**I am happy to test for free this machine after I get a chance to set it up**… **We'll take this one out. Put this one in after I get a chance to set this up.**" He named it as a gamble: "**Look, I'm gambling. Maybe yes, maybe not. Maybe it will make money. Maybe it will not make money.**" [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+
+### The settings range, and why JVL will not tune blind
+
+A JVL colleague supplied the mechanism: "JVL… have the **USB stick that you stick when you load the settings**. That's the settings. And that's **expandable**… we can do anything. **We just need more information about the location.** I mean, the more information we have, the better it is. **I think it would be irresponsible for me to configure it** [blind]… **there's a reason why those numbers are there. Of course, it could be more or less depending on what we know about the location.**" [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+
+That is the customer-facing form of the location-specific-tuning argument already recorded for Sept 1 on [[wiki/topics/machine-data-repurchase-program.md]] — with the modem as the data source, here the operator is asked to supply the information manually instead.
+
+### The volatility / RTP trade-off, stated to a customer
+
+Val walked the arithmetic in the room, and it is the clearest version in the corpus of why a bigger progressive is not free: [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+
+> "**mathematics is fully random**, right?… So it has to be either **you sacrifice either the volatility or the RTP**." — A colleague: "**The more you pay out to a player, then higher should be [the] other RTP or volatility.**" — Val: "**If you want to pay out more, then you sacrifice volatility. Increase volatility if you want to keep RTP the same… Then you put the reward higher… The volatility becomes higher, but that means the player profile has to like volatility.**"
+
+- **And the product consequence he drew from it, naming the split across the library:** "**Jackpot Rush is… laser focus[ed] for high volatility**, and **these games are focused on time on device**… **that's why they're totally different progressives.**" That is consistent with the Sept-1 pitch of Jackpot Rush as a bet-scaled multi-level progressive recorded above. [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+- **A colleague corrected the comparison Rao was making:** "here you're **not looking at the pay table. You're looking at the progressive**." [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+- **Val conceded the player-psychology half outright:** "**Absolutely, one hundred percent correct.** [IGT] right here says six thousand… eight thousand, and **this one is a thousand. That the player will gravitate to that. I'm the same way.**" His historical anchor for it: "**IGT invented that rule**" — buying **Anchor Gaming**, whose **Wheel of Fortune** introduced the wide-area progressive with "**one bank per casino, with mega bucks growing at a crazy speed**." **Val's dates and price are his own and he hedged them in the room** — "late '80s", "IGT in 1980, I think, bought it for **1.5 billion dollars**… **And I might be off here and there.**" Recorded as spoken, with his hedge. [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+
+### Two field observations worth keeping
+
+- **The player does not know the manufacturer, and both men agreed.** Val: "**the player has no concept of who the manufacturer is.**" Rao: "**No, they don't. So the game, they know. The game.**" [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+- **Georgia players break a monitor a day on one legacy game, and Rao's diagnosis is a design fault.** "**every day in Georgia, every day they break one monitor**… one or two glass, somebody break it." Why: "**there is no bonus with zero**… **People get angry and they break it.** But there are some games they only play that game… **it pays like thousand dollars over fifty times; if you win one time it gives five six thousand dollars.**" Val's counter-explanation was habit: "that machine was there for **ten years**, and the players are used to it, and **they think that this machine is lucky**." *(The passage is garbled around which game and which screen; both readings recorded, neither resolved.)* [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+
+### And Val's rejection of the "we know less than they do" premise
+
+> "**JV[L], Light and Wonder, Aristocrat, IGT — we know everything that the other guy knows. My VP, senior VP of game design, used to work for Light and Wonder. So what is it that I don't know that Light and Wonder knows? Nothing. There is no secret between us**… sometimes there is [a] small thing that maybe we didn't notice right away, but eventually we catch up. **We notice it because we go to the same trade shows. We see the same machines.**"
+
+*(The senior VP of game design is [[wiki/people/michael-gottlieb.md|Michael Gottlieb]]; the transcript gives only the title. The corpus already records his Light & Wonder background — the identification is consistent, and is an **inference** in this source.)* [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+
+**§15.8:** clear — game-design, settings and progressive economics only; no named-person compensation.
+
 ## Open questions (Sept 4 2026)
 
 - Whether JVL's V-deck is costing revenue against a mechanical deck defaulting to a dollar — Efim's sharper form: is Aristocrat's **average bet** actually higher, or just their play count? No data on either side — [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
@@ -817,3 +871,5 @@ At the [[wiki/meetings/2026-09-04-naming-convention-standards-and-nova-conversio
 - [[raw/Meeting_Notes_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
 - [[raw/Meeting_Transcript_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
 - [[raw/Meeting_Transcript_Air_Gaming_Group_Transactional_Walkthrough-September-1-2026.md]]
+- [[raw/Meeting_Notes_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+- [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]

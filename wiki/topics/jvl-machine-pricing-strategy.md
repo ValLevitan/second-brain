@@ -3,7 +3,7 @@ type: topic
 title: JVL machine pricing and commercial strategy
 date: 2025-09-23
 aliases: [machine pricing, fifteen seven fifty, $15750, free hardware instead of discount, retail price, price list, Dennis one number, CFO-to-CFO credit, market pricing, list price, dollars not discounts, JVL Dollars pricing lever, show special pricing, Georgia machine price, D43 price, D27 trade-in, South Dakota premium, twelve eight twenty, two nine thirty, $795 port, $895 IQ, $7950 Flex-Slim, kill the market]
-source-count: 15
+source-count: 19
 ---
 
 # JVL machine pricing and commercial strategy
@@ -132,6 +132,46 @@ Hours before telling the game team how the $15,750 came about (section above), V
 
 **§15.8:** clear — machine, device and subscription pricing only; no named-person compensation.
 
+## Sept 8 2026 — two more quotes of the bundle, and neither names a machine price
+
+On **September 8 2026** the same offer went to two Georgia masters — [[wiki/organizations/arc-gaming.md|ARC Gaming]] in the morning and [[wiki/organizations/dixie-amusement.md|Dixie Amusement]] in the afternoon — and **in neither conversation did Val state a machine price.** That is a change from Sept 1, 2 and 4, where the number ($15,750 / $16,000) was the anchor the giveaway was fenced to. [[raw/Meeting_Transcript_ARC_Gaming_Vertical_Screen_Bundle_Offer_and_David_Intro-September-8-2026.md]] [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+
+- **To ARC, the bundle was described without any price at all** — it was a sanity check, not a quote: "one machine, kiosk, POS. Plus five additional ports… **it's an extremely aggressive deal**." Composition on [[wiki/decisions/2026-09-02-free-ports-and-pos-with-every-machine-bought.md]]. [[raw/Meeting_Transcript_ARC_Gaming_Vertical_Screen_Bundle_Offer_and_David_Intro-September-8-2026.md]]
+- **To Dixie, the anchor was the machine's earnings, not its price.** "Do you know how much it makes? You told me last time. **Two hundred ninety-four dollars**" a day — and the ask was framed against that: "**For one of this, which makes good money for you, you'll get everything else for free.**" *(Salim referred to the same machine minutes later as making "**three hundred and ninety something dollars**"; the two are not reconciled — see [[wiki/decisions/2026-09-08-the-bundle-put-to-dixie-with-installation-explicitly-excluded.md]].)* [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+- **The recurring line is the one number that held:** "**Ninety bucks. Per location**" — the fourth consecutive customer quoted $90/month, and the first time the inclusions are itemised to a customer as the **on-site mini server + cloud backup server + TITO**, all JVL's own. [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+- **The competitive band for the recurring fee, from the operator:** "the **cheapest I've seen is thirteen dollars per month per machine**. Where another one I've seen is **a dollar per day per machine**, which is far on the high side." At the market's ~5.9 machines per location, $13/machine is roughly $77 a location — i.e. **JVL's $90 sits just above the cheapest competitor and far below the dearest**. *(That per-location conversion is arithmetic done here, labelled as such; neither man performed it in the room.)* [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+
+**And a price-history datum from the operator side.** Salim's account of machine values moving *up* once, against the industry's normal depreciation: "in my **30 years**… **I see game equipment appreciating**… **IGT did an end of life on it**, and around us we bought it. **Eight thousand was the price, and people were ready to pay sixteen thousand for it** because there was no competition… **Now again, people are ready to give those away and buy yours or Aristocrat.**" Recorded on [[wiki/people/salim-khambawala.md]]; it is the only appreciation case in the corpus. [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+
+**§15.8:** clear — machine, bundle and subscription pricing and competitor fee levels only; no named-person compensation.
+
+## Sept 9 2026 — $15,750 quoted twice more, FlexPay priced to a customer for the first time, and the competitive band from the buyer's side
+
+Two Georgia customer meetings on **September 9 2026** put the machine price back on the table after the Sept-8 silence, and one of them produced the first **customer-facing** price for the FlexPay unit.
+
+- **To [[wiki/people/narasimha-rao-namburi.md|Rao]] (10:04 AM), $15,750 fenced to the fifteen-game software**, exactly as Val described building it on Sept 4: "The machine is a **fifteen-game software**… We're charging **fifteen thousand seven hundred and fifty dollars**. Right for the fifteen." [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+- **To [[wiki/organizations/lucky-coin.md|Lucky Coin]] (1:31 PM), the same number** — "**Fifteen seven fifty**" — quoted straight back at an operator who had opened at "seventeen sixteen sixteen." [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
+- **FlexPay priced to a customer at $7,950.** "I will sweeten the pot by throwing a the **[FlexPay] per location, which is a seven thousand nine hundred and fifty dollar piece of equipment**." **That figure had previously existed only as internal arithmetic** — the Sept-4 Flex-Slim retail value Val gave [[wiki/people/genadi-peari.md|Genadi Peari]] ($795 port / $895 IQ / $7,950 slim = $12,820). It is now a number a Georgia operator has heard. **Whether the "FlexPay" here and the "Flex-Slim" of Sept 4 are the same box is not stated in either source and is not asserted.** [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]] [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+- **The giveaway is now valued at ~$15,000 in both meetings**, against "seven thousand dollars worth of discounts" on Sept 2 — see [[wiki/decisions/2026-09-02-free-ports-and-pos-with-every-machine-bought.md]]. Rao heard "**six, seven, plus eight, fifteen thousand dollars**" *(spoken arithmetic, left unrepaired)*; Lucky Coin heard "**practically getting fifteen thousand dollar gift per location**." [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]] [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
+
+### The competitive band, from the man writing the cheque
+
+The clearest buyer-side price comparison in the corpus, volunteered by [[wiki/people/kyle-shepherd.md|Kyle Shepherd]] without being asked: [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
+
+| Product | Price as Kyle stated it |
+|---|---|
+| JVL, the new game | "fifteen fifteen or sixteen" — Val corrected to **$15,750** |
+| A new **Aristocrat** | **"eighteen or nineteen"** thousand |
+| A new **Bad Dog** game | **"ten or twelve thousand bucks"** |
+
+> "now I can **put so many aristocrats in a location**… So for them, **it's got to work better**. For me… **where do I get the most bang for my buck?** And that's not to say that the JVLs don't play because they do. A few of them that do really well. I just have to be honest with you that **that's a hurdle**… **It doesn't make sense everywhere for me. Whereas it might if it were a little less expensive.**"
+
+- **The $18,000–19,000 Aristocrat figure is the outside confirmation of Val's own target.** On Sept 4 Val told his product team "I need to get to that **18, $19,000 level**" before he can discount into it; five days later an operator put Aristocrat at exactly that band unprompted. *(The two are placed side by side here; neither source mentions the other.)* [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+- **Note also Val's internal Sept-4 comparison used "Аристократа за 20000"** — $20,000 — against Kyle's $18–19k. Both stand. [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+- **And the operator prices the machine to himself at $16,000, not $15,750**, in the same conversation in which Val quotes $15,750: "if you're asking me to **buy fifty of them at sixteen thousand**, that's…" Neither corrects the other — the same $15,750/$16,000 pair already recorded for Sept 2. [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
+
+**§15.8:** clear — machine, device and competitor pricing only; no named-person compensation.
+
 **Temporal note:** the $16,000–$18,000 retail band above is the **Sept-2025** class-3 / skill-market policy and is not superseded by these Georgia COAM numbers — Georgia is a different market segment. The two are recorded side by side; no source in this batch revisits the class-3 band.
 
 ## Sources
@@ -151,3 +191,7 @@ Hours before telling the game team how the $15,750 came about (section above), V
 - [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]
 - [[raw/Meeting_Notes_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+- [[raw/Meeting_Transcript_ARC_Gaming_Vertical_Screen_Bundle_Offer_and_David_Intro-September-8-2026.md]]
+- [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+- [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+- [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
