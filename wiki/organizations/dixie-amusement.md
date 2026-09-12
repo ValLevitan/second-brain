@@ -1,0 +1,116 @@
+---
+type: organization
+title: Dixie Amusement
+date: 2026-08-31
+aliases: [Dixie Amusement, Dixie, Dixie Amusements]
+source-count: 6
+open-commitments: 2
+open-questions: 2
+---
+
+# Dixie Amusement
+
+A **Georgia COAM master licensee** on the **south side of Atlanta**, run by [[wiki/people/salim-khambawala.md|Salim Khambawala]]. JVL has dealt with it since at least **May 2025** as an influential board-level account, and visited its office/warehouse on **August 31 2026** — see [[wiki/meetings/2026-08-31-dixie-amusement-kiosk-wait-and-see.md]]. [[raw/Meeting_Notes_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]] [[raw/felipe_georgia_market_update-may-29-2025.md]]
+
+**A naming caveat the notes raise themselves.** The account name "Dixie Amusement" comes from the **export filename, not from the recording** — Salim never names his company anywhere in the Aug-31 transcript, and the notes flag this for Val to confirm. It is nonetheless corroborated independently inside this corpus: Felipe named "Selim Kwambuwala from Dixie Amusement" in May 2025, "Salim (Dixie Amusement)" in June 2026 and "Salim… now with Dixie" in July 2026. [[raw/Meeting_Notes_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]] [[raw/felipe_georgia_market_update-may-29-2025.md]] [[raw/Meeting_Notes_Forecast_Review_Felipe-June-24-2026.md]] [[raw/Meeting_Notes_GA_COAM_Inventory_Pipeline_Review-July-7-2026.md]]
+
+## The route
+
+- **About 70 locations.** Val: "How many locations do you have?… Seventy locations. That's a big one. You're very modest." Salim: "Very modest." *(The turn is mis-split in the transcript — the question and part of the answer sit under one speaker label — but the figure and Val's "that's a big one" reaction are unambiguous; the derived notes record "about **70 locations**.")* [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]] [[raw/Meeting_Notes_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+- **It is one of only four master licensees on the south side of Atlanta.** "Only in this part of town, I think only four. Master licenses. Me, then it's **Epic**. Then it's **Georgia Point**. And **Paul Patel**. Only four in this part. Rest everybody is in **Gwinnett County**." [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+- **He runs it without partners, and says that shows in the numbers.** Asked about the market's ownership structures — "some companies have five partners or three partners, and two are not on the books, while three are on the books" — his own position was: "**My revenue is not going to be as great as theirs. Also, my per day revenue is going to be much more conservative because I don't do aggressive**… They take more risks." *(The speaker labels merge across this exchange; the "no partners / more conservative" self-description is Salim's, read from content.)* [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+- **He is the market's tester.** "When we started, I did it the first time. Then it's all a repeat. Second time, third time, you don't need me, **unless somebody comes up with a new product and they say, 'Test it.' So I test it.** And I put it on trial, then everybody starts calling me." [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+
+## The two JVL test machines
+
+- **Two JVL machines on trial, installed about six weeks earlier.** Salim: "Currently, I think two of them." A JVL voice (read as [[wiki/people/felipe-miranda.md|Felipe]] — inference): "It's been about a month and a half." [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+- **Val opened the meeting with the number and Salim took it without argument.** Val: "I pulled up the average, and I think it's excellent. **It's about two hundred ninety dollars per day.**" Salim: "**I'll take it. I'll take it as is.**" Later in the meeting Val put a second figure into the room — "we know from the QR code that you make another **two hundred dollars per day**" — and asked "Can we get more business from you?" [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+  - *The $290/day figure is not reconciled in these sources against the unresolved Georgia daily-hold dispute recorded on [[wiki/projects/georgia-market-rollout.md]] (Val $230–240, Felipe $146–167 as of Aug 21 2026), nor against the bare "Two ninety-five" spoken earlier the same day at the [[wiki/meetings/2026-08-31-c-store-trade-show-go-to-market.md|C-store session]]. Recorded as stated.*
+- **His answer on buying more was demand-led, not price-led:** "business — we get when we get a new location, we buy new, or if we have to replace." [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+
+## What Dixie runs today for prize-card redemption
+
+- **[[wiki/organizations/incom.md|InComm]] via PAX — contracted by the location, not by Dixie.** "We do [InComm], the [PAX], the back system." Val: "You have to buy the [PAX] or they give you the [PAX]?" Salim: "**It's free, but I don't do it. The location does it directly**" — with InComm. [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+- **Fiery Pay added at two locations.** "And now I do [Fiery Pay]… It's two locations." [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+- **MudaGoose stays underneath as the fallback.** Val worked out the stack aloud — "if let's say the [Fiery Pay] link doesn't approve something, they use MudaGoose" — and Salim confirmed the fallback chain: "**MudaGoose and [PAX].**" Asked whether he is content with that arrangement: "Currently, yes, **but once you know the final product comes out** from the regulator, then **the whole industry is going to pick one**." [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+- **He has seen JVL's whole line.** Told the JVL products are the two-screen unit, the stand-alone with money in and out, the desktop machine and the single-screen gift-card dispenser (FlexPay): "**I think I saw all three**… I saw it last time when you displayed at the meeting… **So I've seen all your system, and I've seen everybody's system, not just yours.**" [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+- **On TITO, only one customer ever asked for a no-cash machine** — and for a reason that had nothing to do with regulation: "Only one customer has said, 'Oh, if it doesn't have money going in and out, can this work?'… **he was in a rough neighborhood. Breaking in.**" [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+
+## Why he will not buy a kiosk yet
+
+The full ruling and the political timeline behind it are on [[wiki/decisions/2026-08-31-dixie-defers-kiosk-investment-until-the-rules-settle.md]]. His one-line verdict on the whole vendor field — JVL's included — was: "**nobody has yet figured out an end-to-end system.**" [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+
+## Who carries the credit risk — Dixie's position
+
+- **Dixie does not stand behind the location's card bill, by design.** "They directly apply with [InComm]. [InComm] approves them with a limit of **twenty five hundred, thirty five hundred, or two thousand**, whatever their credit limit allows. And **if they don't pay, that's between [InComm] and the location. It has nothing to do with a distributor or a master.**" He extends the same logic to himself: "It's like JVL. And as a master licensee, I buy something on credit from you, and I don't pay. **It's between you and me.** How do you get a store owner involved?" [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+- **He took no per-card commission from Fiery Pay, precisely so he would carry no risk.** "When they were offering me **twenty cents [or] thirty cents [per] card issued, I said I don't want it.** Don't give it to me. **That dollar also, what they are offering you, I would say don't take it**… You take the risk. You take the reward. You take everything. **Just give me that API to process.**" [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+- **He lets vendors sell into his locations directly — his equipment access is the thing he controls.** "You can go there and show your kiosk or your back system. Because **I'm not getting involved**… You can go to my locations, market your product, but **it's between you and them. And if you want access to my equipment, then you tell me what.**" His location list is not secret: "you can get it from [the] lottery portal, and it's there. Nothing, nobody's hiding it." [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+- **One distributor broke that rule and he stopped the job.** A distributor told a location its system was "free," then billed Dixie **$7,000** for the installation. "I said, **no, don't. That's bad business**… If you told them it's free for them, but you are telling them free because you want to charge me, **no, you cannot charge me**. I'm giving you access to put your whatever system you need… **I'll send my tech.** Whatever wire you want to connect, connect. Whatever money you want to make… two dollars or fifty dollars, I really don't care. **That's between you and them. I'm not in.**" [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+- **He applies the same answer to the processors when they ask him to backstop locations.** Of InComm's free-access promotion: "same thing they asked me. I said, what about the risk if they don't pay? I said, **guys, you don't have a contract with me. You have a contract with the location.**… If they don't pay [the] lottery, I don't get paid… **So I'm in the same boat.**" [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+
+Val's counter-argument — why a manufacturer cannot take that position, and what JVL would need instead — is the ruling on [[wiki/decisions/2026-08-31-transactional-equipment-only-with-location-exclusivity.md]]. Salim did not dispute it: "**Nobody wants to be in that** [business]. The way others are doing, they are saying the payment and creditors let them deal directly." [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+
+## How Salim calculates a risk
+
+His own test, offered as the general rule: "**every business, if you take reward, you have to take risk**… **but it has to be calculable.** I paid **hundred and fifty thousand dollars worth of equipment in a location.** I don't know. I took the risk, but it's calculated. I go do some research, see if it's a gas station. The station performing. I was the lottery sales. **If the lottery sales is fifty thousand a month, I know [COAM] will do fifteen at least, because that's what the ratio is.**" [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+
+## The market numbers exchanged
+
+*Both men put figures into the room and they do not agree. Both are recorded; neither is reconciled in these sources.*
+
+- **Val's count:** "Number of machines. **Forty-seven thousand now**… and **seven thousand four hundred locations. Five point nine machine per location.** In the last three years, it was **thirty-five thousand**. Now it's forty-seven. So it's **twelve thousand additional machines** over three years, **four thousand more machines per year**." [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+- **Salim's count, in the same breath as his revenue reframe:** "Twenty five ver[sus] twenty six numbers are **four percent up, not down**. **Equipment was thirty eight thousand. It's now at forty four thousand.**" The derived notes carry only Val's figures and record Salim's contribution as "total money is up 4% year on year." [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]] [[raw/Meeting_Notes_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+- **The dilution argument — his real explanation for operator pain.** "So that's what I'm saying: more machines, more locations, but new locations coming up. **That money is four percent above the money it was in 2025.**" Val restated it back: "**per machine average is diluted**, more money going in, but average per machine is diluted." Salim's summary: "**my volume is going down. The business is getting divided, and my cost of doing business is going up.**" [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+- **Machine replacement runs at ~20% a year in his group today, and he expects it to settle at ~10%.** Asked by the JVL side "What percentage of machine… do masters change in a year, from your experience?" — "**Twenty percent. Twenty percent per year.**" Val: "You're too aggressive… **Normally, it's ten percent maximum.**" Salim's reason: "**this industry is only thirteen years young**… up till five years before, we were using those metal and wooden boxes… **currently, it's at 20% because we have to take all the legacy equipment out. We call it legacy, which is old [Pinero], [Banilla]… Aurora.**" And he conceded the endpoint: "Of course, if everything gets updated to IGT, Aristocrat, JVL, Light and Wonder, **then it will get to 10%, as you said.**" [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+- **Machine prices.** Val: "you used to buy JVL at **fifteen thousand**. Now you're buying **Aristocrat twenty-two, twenty-three**," and of JVL's current price: "**we're just under sixteen.** So the price for you is going up." Salim's own price history of the market is **badly garbled in the transcript** — "It became eight thousand seven hundred eighty. Then you guys came. **IGT** came in at seven hundred eighty thousand with their product… Your first one was at eight hundred twelve… And now they are sitting at **fourteen hundred eighteen. IGT.**" The derived notes read the last figure as **IGT ~$14,180**; the intermediate figures are not recoverable from the source and are **not** asserted here. [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]] [[raw/Meeting_Notes_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+
+## The warehouse — legacy equipment is still coming out
+
+- **Half the market was still single-button legacy at the time he last looked.** Walking Val past old cabinets: "This is when the actual dumpster has been used… **that's why I said it's 20 percent waste.** I still remember. **I still have, I think, 10 or 15 of these still out there.** … Some of my older customers, older players… **they don't want all this touch. There is just one button. They want one button**… When you came in, you saw **fifty percent was that**." [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+- **More stock sits in the warehouse than on the floor.** "**The volume is not there**, and in my showroom, in my warehouse, there are less. **I have more in my warehouse now** than in that piece." Val's reply: "But the old stuff. It's always like this. **That's the problem with operations.**" [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+
+## The building conversation (real estate, Aug 31 2026)
+
+Val asked Salim to sanity-check a building **JVL is buying**. The figures as stated in the room: [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+
+- **JVL's building:** "**one point five million**, ten thousand square feet," **freestanding**, with **three truck-level / shipping doors** and a **metal beam** structure. Salim: "Freestanding, and **it's a good deal**… **It's a good value**… **I hope the building you are looking at has metal beam. I don't like the wooden.**" *(Salim's confirming line renders the price as "9.5 million at 10,000 square feet" — a transcript garble of the 1.5 figure he is agreeing with; not recorded as a real number.)*
+- **Salim's own comparable:** "I'm on the **south side of the town**, which is lower, cheaper… **I paid a million dollars for this building**," having "bought the building for **eight hundred**, and I spent **two hundred thousand**" renovating.
+- **Construction cost as the benchmark:** ground-up "around between **two hundred to three hundred per square feet**," and "Metal in the back, **hundred and fifty bucks. It's unfinished**" — which Val turned into the replacement-cost test: "if I count 150 bucks, 10,000 square feet, **that's just the value**… **Replacement cost.**"
+- **Rent and cap rates:** about **$8,000–$10,000 a month** triple net for a 10,000 sq ft building on the south side — Val: "That's twelve dollars per square foot" — against "**more like fifteen or sixteen dollars up north**." Salim: "**I do my real estate stuff at eight cap**… Eight cap, nine cap. But there are stuff which will be at six cap."
+- **North vs south:** Gwinnett is "where all the businesses are," and the same 10,000 sq ft building there runs "**fifty percent more**."
+
+*(The transcript block carrying Val's "I think one point five is steep. You guys don't buy it" is mis-split across speakers and reads against the rest of the exchange, in which Salim twice calls it a good deal and Val says "We're closing the deal now." The derived notes record only the "good deal / good value on replacement cost" reading. Noted rather than resolved.)* [[raw/Meeting_Notes_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+
+## A field event mentioned in passing
+
+Mid-meeting, a JVL voice reported: "**All machines were shut down today**… **All machines in Georgia are down**," with Salim adding that the central system "is down. He told me that last Friday happened." *(The system is rendered "Interlock" in the transcript; the corpus carries Georgia's central COAM system as **Intralot** — reading it as Intralot is an **inference**, not stated in this source. The derived notes do not carry this item at all.)* [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+
+## History
+
+- **May 29 2025 — the upgrade-kit pricing pushback.** Felipe met "**Selim Kwambuwala** from Dixie Amusement, he's very important in the board" and quoted ~$2,500–$3,000 for the Peach One TITO/AFT conversion; Kwambuwala called it "very dangerous" and said operators would not pay $3,000 "for software they already have," citing **Aristocrat** giving its TITO upgrade and printers away free. Val's coaching response is on [[wiki/decisions/2025-04-01-price-georgia-coam-upgrade-kits.md]]. [[raw/felipe_georgia_market_update-may-29-2025.md]]
+- **Jun 24 2026 — Dixie secured as a trial account.** Felipe's trial strategy targeted the association board and secured **Salim (Dixie Amusement)** among them; Felipe mentioned JVL's upcoming transactional product to him and reported "strong interest." Felipe's note also records Salim saying he is **moving away from TITO** but thinks DSC will come back. [[raw/Meeting_Notes_Forecast_Review_Felipe-June-24-2026.md]]
+- **Jul 7 2026 — moving off kiosks.** Felipe reported Salim's read that operators are unhappy with current solutions, "especially kiosks — everyone is moving away from kiosks toward something simpler." [[raw/Meeting_Notes_GA_COAM_Inventory_Pipeline_Review-July-7-2026.md]]
+- **Aug 21 2026 — on the September forecast.** In Felipe's pipeline walk-through, Dixie sat in the September tally at "**at least two**" machines. [[raw/Meeting_Transcript_Georgia_Machine_Sales_Strategy_Post_GOAM-August-21-2026.md]]
+
+## Open commitments
+
+- [ ] [[wiki/people/salim-khambawala.md|Salim]] — talk to a couple of his operators about JVL's numbers and come back: "let me talk to a couple of guys and the numbers are…" — due unspecified — [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]] [[raw/Meeting_Notes_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+- [ ] [[wiki/people/val-levitan.md|Val]] / Salim — meet **Tuesday** for lunch, with Salim viewing JVL's $1.5M building: "I'm back here on Tuesday. Next Tuesday. Can you see the building?… Let's do Tuesday. I'll take you out for lunch." *(The derived notes date this "Tue Sep 8"; the transcript itself says only "next Tuesday.")* — due the following Tuesday — [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]] [[raw/Meeting_Notes_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+
+*(Salim's further undertakings — the Fiery Pay introduction and the post-show board debrief — are held once, on [[wiki/people/salim-khambawala.md]].)*
+
+## Open questions
+
+- **Is "Dixie Amusement" the right account name for this recording?** The notes flag it themselves: the name comes from the export filename, not from the recording, and Salim never names his company. Corroborated elsewhere in the corpus but not from this source. [[raw/Meeting_Notes_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+- **Does the $290/day trial average survive contact with the reporting?** It was stated by Val and accepted by Salim without either side producing the report, and it sits above every other Georgia per-day figure in the corpus for the same period. Not reconciled in either source. [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+
+**§15.8:** clear — machine prices, location counts, replacement rates, per-card distributor margins and real-estate economics only; no named-person compensation.
+
+## Sources
+
+- [[raw/Meeting_Notes_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+- [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+- [[raw/felipe_georgia_market_update-may-29-2025.md]]
+- [[raw/Meeting_Notes_Forecast_Review_Felipe-June-24-2026.md]]
+- [[raw/Meeting_Notes_GA_COAM_Inventory_Pipeline_Review-July-7-2026.md]]
+- [[raw/Meeting_Transcript_Georgia_Machine_Sales_Strategy_Post_GOAM-August-21-2026.md]]

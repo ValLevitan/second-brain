@@ -3,7 +3,7 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS, ATM registration, slim ATM, Flex-Port-Mini, Flex Port Mini, eVoucher, wrapped gift card, EasyLynx, second SAS port, ATM Recycler, PTI Sentry, MudaGoose]
-source-count: 189
+source-count: 191
 open-commitments: 78
 open-questions: 15
 ---
@@ -1344,6 +1344,15 @@ Two customer visits ([[wiki/meetings/2026-08-26-narayani-amusements-trade-in-neg
 - **A dispensing fault was being worked in the room**, cause not settled: "If it's a software issue, which means our issue, or if it's a **dispensing** issue. Dispensing definitely has enough five dollars" / "Probably a software. Could be. But let's test it afterwards… I'm pretty sure it's not mechanical." No device or ticket number is given. [[raw/Meeting_Transcript_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]]
 - **§15.8:** clear — device prices, subscription fees and cash-handling economics only; no named-person compensation.
 
+## Aug 31 2026 — "there's no money in selling kiosks": the fee sheet that set the recurring-revenue premise
+
+At the [[wiki/meetings/2026-08-31-dixie-amusement-kiosk-wait-and-see.md|Aug-31 Dixie Amusement visit]] [[wiki/people/val-levitan.md|Val]] took apart a **Fiery Pay fee schedule** handed to him by [[wiki/people/salim-khambawala.md|Salim Khambawala]] and drew the product conclusion out loud. The full arithmetic — activation, dormancy, lost-card and transaction fees, the stranded-balance float, and the ~$5bn/15% market estimate — is on [[wiki/topics/georgia-prize-card-processor-economics.md]]. Three lines belong here because they set the terms this whole catalogue is built to. [[raw/Meeting_Notes_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+
+- **The kiosk is not the business.** "**how do we make money? Selling kiosks. There's no money in selling kiosks. You cannot make money**… we don't believe in kiosks. **We're showing kiosks, but we don't think that people should be buying kiosks.** There's no value in [them]… **even that technology is changing now.**" [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+- **The premise stated as a rule:** "**The value is in recurring revenue. This is where the value is. Unless we can get recurring revenue, there's no point for us.**" This is the same premise as the free-hardware / fixed-monthly-fee model on [[wiki/decisions/2026-08-24-free-hardware-fixed-monthly-fee-model.md]], stated to a customer rather than internally. [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+- **And the condition attached to placing any of it:** exclusivity in the location, MudaGoose removed, JVL rewiring, its own POS replacing PAX, Flex ports in the machines, and a retained remote shut-off — the ruling on [[wiki/decisions/2026-08-31-transactional-equipment-only-with-location-exclusivity.md]]. Two days later the shut-off half of that became "a hard requirement" on the Sept-2 call below. [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+- **§15.8:** clear — card fees and device/market economics only; no named-person compensation.
+
 ## Sept 2 2026 — the pre-pilot punch list, the carrier-medium problem, and Val's target topology
 
 On the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-updates-after-the-show.md|Sept-2 pre-pilot call]] (Russian, 8:03–9:17 AM ET; [[wiki/people/andrei-klimovich.md|Andrei Klimovich]], [[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]], [[wiki/people/irina-shishko.md|Irina Shishko]]) the team fixed what Flex-IQ still needs before the first pilot location, then opened how IQ should work with Flex-Ports in a closed-loop wallet system. Rulings: [[wiki/decisions/2026-09-02-activate-incomm-cards-by-barcode-on-flex-iq.md]], [[wiki/decisions/2026-09-02-implicit-consent-and-mandatory-printed-receipt.md]], [[wiki/decisions/2026-09-02-e-wallets-move-to-the-cloud.md]], [[wiki/decisions/2026-09-02-flex-port-sas-universal-with-scanner-touch-vs-non-touch.md]], [[wiki/decisions/2026-09-02-priorities-iq-ports-flex-pay-recycler-texas-on-wallets.md]].
@@ -1687,3 +1696,5 @@ On the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-updates-after-the-show.md|Se
 - [[raw/Meeting_Transcript_Narayani_Amusements_Trade_In_Negotiation-August-26-2026.md]]
 - [[raw/Meeting_Notes_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]]
 - [[raw/Meeting_Transcript_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]]
+- [[raw/Meeting_Notes_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
+- [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]

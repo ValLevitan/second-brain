@@ -4,7 +4,7 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 47
+source-count: 49
 open-commitments: 28
 open-questions: 0
 ---
@@ -246,6 +246,19 @@ On the [[wiki/meetings/2026-08-27-flex-iq-multiple-clearinghouse-selection.md|Au
 - **He asked the two scoping questions.** Whether to start approaching other clearing houses — Val: "No… Not for now. We're fine for now." And whether to unwind the capability into requirements now "or let's just make sure that it's not lost"; Val's answer is not clearly audible on the recording (the transcript records only "Val." then "Yeah, yeah"), so it is left unresolved here. He undertook to create the capability, "maybe a set of capabilities, but again, it's very minimal as for now." [[raw/Meeting_Transcript_Flex_IQ_Multiple_Clearinghouse_Selection-August-27-2026.md]]
 - **He set the same-day follow-up on his proposed printer and dispenser features** for 4:00 PM, needing preparation time; Val agreed and said he had sent the invite. [[raw/Meeting_Transcript_Flex_IQ_Multiple_Clearinghouse_Selection-August-27-2026.md]]
 
+## Aug 31 2026 — demonstrates the transactional line to a locked-in customer
+
+The notes list Andrei as an attendee at the [[wiki/meetings/2026-08-31-arc-gaming-transactional-demo-class-a.md|Aug-31 ARC Gaming demo]]. **He is not named in the transcript**; the JVL voice that walks [[wiki/organizations/arc-gaming.md|ARC]] through the device flow is Speaker 3, and reading that voice as Andrei is an **inference from role** (product manager, transactional equipment) — supported by one detail: mid-demo Val apologises to a colleague by name for interrupting the presentation — "Sorry, Andrei, I keep interrupting" — at exactly the point that voice is presenting. Recorded as an inference, not as fact. [[raw/Meeting_Notes_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]] [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
+
+What that voice put in front of the customer is the clearest plain-language statement of the product in the corpus:
+
+- **The ticket as wallet carrier.** "the ticket itself is a **carrier of an electronic wallet**. Money is on the electronic wallet of the player, and this ticket can be redeemed at the start of the session… you get the ticket by pushing one button. It's empty or it's already in place. You go to the machine, you [scan] it… and you transfer money to the machine." [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
+- **The service benefit, stated as the headline:** "**Only one printer in the location, no jamming anywhere.** Now we can move to another machine through the same port" — aimed directly at the customer's own #1 service cost. And: "**Minus ticket printers on every game machine in this location.** You still can keep your [bill acceptors] to improve the player experience because we know they love to play to input money on the machine itself." [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
+- **Redemption is optional in form:** "the redemption might be different. You can use either keyless or a card"; and self-service is possible — "The player can give the ticket to the cashier, they scan it, they see the exact amount, they push one button, they take away the card and that's it. **Or it can also be self-service, so the cashier has no burden.**" [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
+- **Durability across hardware changes:** "all the transactions are being kept in the vault service… **in case you decide to upgrade the core or update the hardware, all the history and all the current transactions are kept**." [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
+- **Enforcement comes free with the topology:** "**Because we are sitting on every game machine, we can lock** [it]" — Val completing it: "And we can lock the entire operation." [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
+- **He offered the cooperative route before Val offered the disruptive one.** Asked how the functionality could be fitted to ARC's existing kiosks: "**if the kiosk developers are open to give us access to the API**, all we do is integrate ports into game machines and make sure that our protocol creates tickets that work with a kiosk." Val's counter was the board swap that needs nobody's permission. See [[wiki/decisions/2026-08-31-arc-kiosk-board-swap-routed-through-the-ceo.md]], which also carries the commitment he shares with Val. [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
+
 ## Sept 2 2026 — runs the Flex-IQ pre-pilot punch list and opens the closed-loop wallet question
 
 Andrei convened and chaired the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-updates-after-the-show.md|Sept-2 pre-pilot call]] (Russian, 8:03–9:17 AM ET), having posted the change list to the chat beforehand. His stated goal: agree what it takes to fix each item, what the difficulties are, "и когда мы сможем запустить этот [пилот]" [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]].
@@ -331,3 +344,5 @@ Andrei convened and chaired the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-upd
 - [[raw/Meeting_Transcript_Flex_IQ_Multiple_Clearinghouse_Selection-August-27-2026.md]]
 - [[raw/Meeting_Notes_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- [[raw/Meeting_Notes_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
+- [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
