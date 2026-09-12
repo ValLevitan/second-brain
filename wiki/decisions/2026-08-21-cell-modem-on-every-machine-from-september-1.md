@@ -2,8 +2,8 @@
 type: decision
 title: From September 1 2026, every machine that ships gets the cell modem and SIM installed — but the modem is activated only for customers who sign the data-sharing agreement
 date: 2026-08-21
-aliases: [cell modem on every machine, modem and SIM from September 1, data-sharing agreement activation, modem activation condition]
-source-count: 2
+aliases: [cell modem on every machine, modem and SIM from September 1, data-sharing agreement activation, modem activation condition, LTE modem September 1, $337 data contract]
+source-count: 4
 status: active
 open-commitments: 0
 open-questions: 0
@@ -11,7 +11,7 @@ open-questions: 0
 
 # Every shipped machine gets the modem; activation requires a signed data-sharing agreement
 
-At the [[wiki/meetings/2026-08-21-post-goam-show-recap.md|Aug 21 2026 post-GOAM recap]] (recording 2), [[wiki/people/juan-martinez.md|Juan Martinez]] asked for a ruling: "you're starting September 1st, you're installing the modem and SIM card on every machine that leaves the door, and whether or not we activate it is what's unknown, correct?" [[wiki/people/felipe-miranda.md|Felipe]] said he was hoping for direction from Val, and [[wiki/people/val-levitan.md|Val]] gave it [[raw/Meeting_Transcript_Georgia_Machine_Sales_Strategy_Post_GOAM-August-21-2026.md]].
+At the [[wiki/meetings/2026-08-21-post-goam-show-recap.md|Aug 21 2026 post-GAMOA recap]] (recording 2), [[wiki/people/juan-martinez.md|Juan Martinez]] asked for a ruling: "you're starting September 1st, you're installing the modem and SIM card on every machine that leaves the door, and whether or not we activate it is what's unknown, correct?" [[wiki/people/felipe-miranda.md|Felipe]] said he was hoping for direction from Val, and [[wiki/people/val-levitan.md|Val]] gave it [[raw/Meeting_Transcript_Georgia_Machine_Sales_Strategy_Post_GOAM-August-21-2026.md]].
 
 ## What was decided
 
@@ -25,8 +25,14 @@ At the [[wiki/meetings/2026-08-21-post-goam-show-recap.md|Aug 21 2026 post-GOAM 
 - The modem is also the **price of a free software conversion**: Val's preferred play for an unhappy master is to convert their under-performing vertical machines to the new software at no charge, "but under one condition, that I will install my cell modem in there" — see [[wiki/decisions/2026-08-21-convert-vertical-machines-instead-of-new-trials.md]] [[raw/Meeting_Transcript_Georgia_Machine_Sales_Strategy_Post_GOAM-August-21-2026.md]].
 - Data sharing is already one of the stackable discount levers Felipe was given ("if they share data, they have… that's the discount") [[raw/Meeting_Transcript_Georgia_Machine_Sales_Strategy_Post_GOAM-August-21-2026.md]].
 
+## Update — Aug 26–27 2026: the data-sharing agreement gets a price
+
+This ruling settled *install-all, activate-some*; it left open what the operator gets for signing. Five days later Val put a number on it in front of customers: **$337 per machine per year on a three-year contract ($1,000 over three years)**, offered at the [[wiki/meetings/2026-08-26-narayani-amusements-trade-in-negotiation.md|Aug-26 Narayani visit]] (where it was accepted — "Fine") and repeated as standing terms at the [[wiki/meetings/2026-08-27-halcyon-amusements-recycler-pitch.md|Aug-27 Halcyon visit]] ("we're offering to **repurchase our own data**… three hundred thirty-seven dollars a year"). The September-1 start date restated to the customer matches this decision. Terms, scope and the open contradiction about what data is covered: [[wiki/topics/machine-data-repurchase-program.md]]. **The ruling above is unchanged and stays `active`** — this is the commercial price attached to it, not a revision of it. [[raw/Meeting_Transcript_Narayani_Amusements_Trade_In_Negotiation-August-26-2026.md]] [[raw/Meeting_Transcript_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]]
+
 Market context and the LTE-modem engineering thread are on [[wiki/projects/georgia-market-rollout.md]].
 
 ## Sources
 - [[raw/Meeting_Notes_Georgia_Machine_Sales_Strategy_Post_GOAM-August-21-2026.md]]
 - [[raw/Meeting_Transcript_Georgia_Machine_Sales_Strategy_Post_GOAM-August-21-2026.md]]
+- [[raw/Meeting_Transcript_Narayani_Amusements_Trade_In_Negotiation-August-26-2026.md]]
+- [[raw/Meeting_Transcript_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]]

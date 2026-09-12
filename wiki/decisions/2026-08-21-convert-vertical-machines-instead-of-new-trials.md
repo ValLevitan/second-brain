@@ -11,7 +11,7 @@ open-questions: 1
 
 # Convert under-performing verticals free instead of new-machine trials; Bulldog is the exception
 
-At the [[wiki/meetings/2026-08-21-post-goam-show-recap.md|Aug 21 2026 post-GOAM recap]] (recording 2), [[wiki/people/felipe-miranda.md|Felipe]] argued that "for meaningful volume in Georgia, structured trials are still necessary," recommending disciplined 60-day trials for most new prospects. [[wiki/people/val-levitan.md|Val]] pushed back hard on giving away brand-new hardware [[raw/Meeting_Transcript_Georgia_Machine_Sales_Strategy_Post_GOAM-August-21-2026.md]]. Sales-pipeline substance is on [[wiki/projects/georgia-market-rollout.md]].
+At the [[wiki/meetings/2026-08-21-post-goam-show-recap.md|Aug 21 2026 post-GAMOA recap]] (recording 2), [[wiki/people/felipe-miranda.md|Felipe]] argued that "for meaningful volume in Georgia, structured trials are still necessary," recommending disciplined 60-day trials for most new prospects. [[wiki/people/val-levitan.md|Val]] pushed back hard on giving away brand-new hardware [[raw/Meeting_Transcript_Georgia_Machine_Sales_Strategy_Post_GOAM-August-21-2026.md]]. Sales-pipeline substance is on [[wiki/projects/georgia-market-rollout.md]].
 
 ## What was decided
 

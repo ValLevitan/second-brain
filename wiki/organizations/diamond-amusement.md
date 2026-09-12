@@ -2,8 +2,8 @@
 type: organization
 title: Diamond Amusement
 date: 2026-07-23
-aliases: [Diamond Amusement, Diamond, Diamond Amuse, Diamond Games]
-source-count: 4
+aliases: [Diamond Amusement, Diamond, Diamond Amuse, Diamond Games, route acquisition]
+source-count: 5
 open-commitments: 3
 open-questions: 2
 ---
@@ -62,6 +62,8 @@ A JVL operator briefing prepared for the 2026 meeting cycle profiles Diamond as 
 
 The briefing reinforces the strategic read already on this page — Diamond's industry influence makes it a valuable **reference operator**, its growth via route acquisition increases JVL's indirect footprint, and continued technical engagement strengthens relationship stability. See [[wiki/projects/georgia-market-rollout.md]] and the related Georgia masters [[wiki/organizations/aks-amusement.md|AKS Amusement]] and [[wiki/organizations/inamax-ultra.md|Inamax / Ultra]]. [[raw/georgia_operator_briefing_Diamond_Amusement.md]]
 
+**A named route seller (Aug 26 2026).** [[wiki/people/felipe-miranda.md|Felipe]], briefing Val in the car, named Diamond alongside **United Gaming** as a buyer of [[wiki/people/vishal-patel.md|Vishal Patel]]'s Georgia routes: "United has bought a lot of his routes, uh Diamond Amusement and others." This is a concrete instance of the route-acquisition growth noted above, and it is also why JVL keeps reconfiguring cabinets it originally sold to one operator for whoever now runs the location. See [[wiki/meetings/2026-08-26-vishal-patel-pre-meeting-briefing.md]]. [[raw/Meeting_Transcript_Vishal_Patel_Pre_Meeting_Briefing-August-26-2026.md]]
+
 *Note (reconciliation): the briefing's direct-purchase count (24 recent Flex cabinets) is distinct from — and complementary to — the ~41 total JVL units deployed at Diamond cited in the Feb-9-2026 interview/debrief, which include legacy route-acquired units.*
 
 ## Sources
@@ -70,3 +72,4 @@ The briefing reinforces the strategic read already on this page — Diamond's in
 - [[raw/Exec_recap_Diamond_Amusement-February-9-2026.md]]
 - [[raw/felipe_georgia_market_update-may-29-2025.md]]
 - [[raw/georgia_operator_briefing_Diamond_Amusement.md]]
+- [[raw/Meeting_Transcript_Vishal_Patel_Pre_Meeting_Briefing-August-26-2026.md]]

@@ -2,8 +2,8 @@
 type: organization
 title: Incom (payment processor)
 date: 2025-02-27
-aliases: [Incom, InComm, Incomm, Income, Incom Payments, wrapped card rule, PAX, PAX 80, reloadable gift cards, Nathan Carver]
-source-count: 39
+aliases: [Incom, InComm, Incomm, Income, NCOM, Incom Payments, wrapped card rule, PAX, PAX 80, reloadable gift cards, Nathan Carver, cash-back commission]
+source-count: 42
 open-commitments: 13
 open-questions: 3
 ---
@@ -234,7 +234,7 @@ The same day, the [[wiki/meetings/2026-08-12-fiery-pay-competitive-analysis.md|F
 
 ## Aug 21 2026 — the wrapped-card shipping rule, and Val's read on InComm's PAX economics
 
-On the [[wiki/meetings/2026-08-21-post-goam-show-recap.md|Aug-21 post-GOAM recap]] (recording 1) [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] brought back a card-handling rule from InComm's card product manager, and [[wiki/people/val-levitan.md|Val]] gave a blunt read on the PAX programme's economics. Device consequences are on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Aug 21).
+On the [[wiki/meetings/2026-08-21-post-goam-show-recap.md|Aug-21 post-GAMOA recap]] (recording 1) [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] brought back a card-handling rule from InComm's card product manager, and [[wiki/people/val-levitan.md|Val]] gave a blunt read on the PAX programme's economics. Device consequences are on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Aug 21).
 
 - **Wrapped vs unwrapped cards — a rule JVL had not known.** Andrei: "if cards are being shipped for a kiosk, which means that they're hidden in a protected box. Neither cashier nor player can reach out to them. Those cards are shipped as unwrapped, so regular stack of cards. But in any other case, if those cards are being kept at the cashier desk or publicly available for players, they can only be shipped in the way when they are wrapped… you cannot see the number." He learned it "for the first time" from InComm's product manager for these cards, and treats it as absolute: IQ "cannot work with unwrapped cards and it will never be allowed by income." (Andrei's phrasing inverts the terms at that point in the transcript — the constraint is that publicly-handled cards must be **wrapped**.) [[raw/Meeting_Transcript_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
 - **A wrapped card that is activated counts as the player accepting the rules.** Per Andrei, InComm's position is that activating a wrapped card "equals automatically to the point that player has already accepted the… rules," i.e. the terms-and-conditions disclaimer, removing the need for a player-facing screen on the activating device. [[raw/Meeting_Transcript_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
@@ -283,6 +283,14 @@ The [[wiki/meetings/2026-08-26-incomm-skill-pay-atm-guidance.md|Aug-26 3:00–3:
 ## Open questions (Aug 26 2026)
 
 - Does JVL giving up its commission to a location raise a GLC **inducement** concern? Jason could speak only to the master↔location relationship and explicitly could not speak to distributor/manufacturer requirements in Georgia — [[raw/Meeting_Transcript_InComm_Skill_Pay_ATM_Guidance-August-26-2026.md]]
+
+## Aug 26–27 2026 — what InComm's card looks like from the operator's side of the counter
+
+Two customer visits give the field view of the card program JVL sells alongside: what a location pays, and what the retailer charges on top.
+
+- **Aug 26, at [[wiki/organizations/narayani-amusements.md|Narayani Amusements]]:** "If they go with a gift card program right now, **everybody's doing [InComm]**… which is **fifty dollars for the POS a month**… Fifty dollars a month is their subscription," on top of hardware Val put at "three to five hundred dollars. Plus each machine has a piece of hardware." The derived notes read the same passage as locations "mostly use InComm via **PAX** at $50/month subscription." [[raw/Meeting_Transcript_Narayani_Amusements_Trade_In_Negotiation-August-26-2026.md]] [[raw/Meeting_Notes_Narayani_Amusements_Trade_In_Negotiation-August-26-2026.md]]
+- **Aug 27, at [[wiki/organizations/halcyon-amusements.md|Halcyon Amusements]] — the commission stack that the Georgia Lottery has now noticed.** "[InComm] is taking **two dollars fifty cents** to transact that card. Now the retailer to do cash back is saying, 'Hey, we'll take **five dollars or ten dollars or thirty dollars**.' And at some locations, when they win a big prize, the players come in like, 'I've got a thousand dollars on this card. **Keep fifty dollars. Keep a hundred dollars.**'" The lottery's reaction, per the operator: "'Oh man, we're missing out on this money. How do we come back in?'" — and it has sent retailers a notice demanding end-of-day register reports, bank statements and the cash-back commissions they charge. Full account and the reversal of **Chris Plonic**'s earlier "we don't care what happens to it" position on [[wiki/projects/georgia-market-rollout.md]] (Aug 27 2026). [[raw/Meeting_Transcript_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]]
+- **Why it matters here:** the $2.50 InComm transaction fee is the *floor* of a stack the retailer builds on, and it is the retailer's markup — not InComm's fee — that has drawn the regulator in. That sits directly beside the Aug-26 ATM red line above, where InComm warned JVL off combining an ATM with a Georgia COAM redemption kiosk. [[raw/Meeting_Transcript_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]]
 
 ## Sept 2 2026 — the sealed-packaging rule forces barcode activation on Flex-IQ
 
@@ -343,3 +351,6 @@ Full ruling: [[wiki/decisions/2026-09-02-activate-incomm-cards-by-barcode-on-fle
 - [[raw/Meeting_Notes_Fiery_Pay_Competitive_Analysis-August-12-2026.md]]
 - [[raw/Meeting_Notes_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- [[raw/Meeting_Notes_Narayani_Amusements_Trade_In_Negotiation-August-26-2026.md]]
+- [[raw/Meeting_Transcript_Narayani_Amusements_Trade_In_Negotiation-August-26-2026.md]]
+- [[raw/Meeting_Transcript_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]]

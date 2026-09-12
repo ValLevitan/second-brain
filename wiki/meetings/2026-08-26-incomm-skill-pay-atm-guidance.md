@@ -24,7 +24,7 @@ Substance lives on:
 - [[wiki/people/joe-kim.md]] — the Georgia Lottery general counsel whose expo reaction set InComm's posture.
 - [[wiki/projects/georgia-market-rollout.md]] — JVL's ATM-operator ambition, the licensing precondition and the bank contact (Aug-26 section).
 
-**On "SAEE":** the abbreviation appears **only in the meeting titles** of this and the [[wiki/meetings/2026-08-26-incomm-skill-pay-atm-guidance.md|Aug-26 InComm follow-up]] — it is never spoken in any transcript in the corpus, and nothing in either file expands it. Asked directly on 2026-09-05, the owner said he does not know what it stands for either. **Left unexpanded — not guessed.** By context both meetings are post-trade-show InComm / Flex-IQ follow-ups to the show covered by the [[wiki/meetings/2026-08-21-post-goam-show-recap.md|Aug-21 GOAM recap]], so it most plausibly labels that show, but the corpus does not say so and the expansion is **not asserted**.
+**On "SAEE":** the abbreviation appears **only in the meeting titles** of this and the [[wiki/meetings/2026-08-26-incomm-skill-pay-atm-guidance.md|Aug-26 InComm follow-up]] — it is never spoken in any transcript in the corpus, and nothing in either file expands it. Asked directly on 2026-09-05, the owner said he does not know what it stands for either. **Left unexpanded — not guessed.** By context both meetings are post-trade-show InComm / Flex-IQ follow-ups to the show covered by the [[wiki/meetings/2026-08-21-post-goam-show-recap.md|Aug-21 GAMOA recap]], so it most plausibly labels that show, but the corpus does not say so and the expansion is **not asserted**.
 
 ## Sources
 - [[raw/Meeting_Notes_InComm_Skill_Pay_ATM_Guidance-August-26-2026.md]]

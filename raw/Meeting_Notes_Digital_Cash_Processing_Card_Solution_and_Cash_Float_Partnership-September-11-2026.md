@@ -1,0 +1,75 @@
+# Meeting Summary — Digital Cash Processing: Card Solution and Cash Float Partnership
+
+**Date:** September 11, 2026, 11:07 AM - 11:46 AM Eastern
+**Duration:** approximately 39 minutes
+**Attendees:** Val Levitan (JVL); Andrew Cashin (ICP Inc.), Richard "Rick" Beer (president and founder, Digital Cash Processing), Linda Markert (project manager and salesperson, ICP Inc.)
+**Raw transcript:** [[Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026]]
+**Source meeting:** JVL/DCP Exploratory Meeting GA and Other Route Markets — Google Meet, organised by Linda Markert
+**Source:** Plaud recording (offline), via Plaud-Inbox/JVL
+
+## Summary
+
+A first, exploratory call between JVL and a payment-processing group that came to the Georgia market off the back of the recent trade show. They wanted to know whether their card product is useful in Georgia and the other route markets; Val spent the meeting telling them the regulatory position honestly, and then redirected the conversation onto the only part of the business he is interested in.
+
+**Who they are.** Andrew Cashin introduced the group. Rick Beer is the president and started the company in 1996; it has been in payment processing throughout. Linda Markert is project manager and salesperson. Cashin's own background runs through Cash Systems, which he joined and where he became CFO after the IPO, then head of engineering, and which eventually sold to Global Cash Access — now, in his account, Everi and then IGT. Their line of work is driving cash to the casino floor, ATMs and the banking interfaces behind them, including selling services to banks across the Caribbean. Rick Beer is in Minnesota; Cashin was calling from Mexico, where he also has a kiosk company. Rick described the technical position precisely later on: they are a registered payment facilitator in the US with their own issuing party and switch, they drive and process ATM transactions in the US, and they board sub-merchants — so processing, issuing and ATM driving can be combined and customised.
+
+**Val's own introduction.** Forty-two-year-old family company, second generation; his father started as an amusement operator; in the nineties they owned the bill-acceptor company sold to CPI in 2006, which CPI used as a technological springboard to acquire the rest. Val sat on the Gaming Standards Association board in Las Vegas from 2000 to 2006, re-elected six times. He retired on the sale and returned half a year later, converting JVL from an amusement company into a slot machine manufacturer, with offices in Mexico, Colombia and Peru until COVID, after which they stopped investing in Latin America and pivoted to North America. Two years ago JVL re-entered the transactional business and showed those products in Georgia for the first time this year. Manufacturing is in Georgia; licensed in South Dakota, Nebraska, Florida and Georgia. [Personal passage removed — owner ruling 2026-09-28: the JVL brain holds JVL matters only. Original kept in the source vault.]
+
+**What they built, and why they are confused.** Six to eight weeks before the show, somebody convinced them to put a card product into an off-the-shelf Gen Mega ATM, working with Bill Nader at Gaming Solutions Corporation — a relationship going back to 1995 and United Coin in Las Vegas. They implemented a generic magstripe card, sourced the hard parts, and had the kiosk at GLI because the card was already in the approved base code. Then they went to the show, watched the videos, and found the incumbent rolling out a card at three dollars. Their open question was blunt: does the market want a card-based solution without the branded network piece, or is that piece mandatory? They can load a generic magstripe card at the ATM, put a PIN on it, and the holder either takes it down the street to any magstripe-accepting ATM or puts it straight back into their own machine for cash. Cashin said he genuinely does not know what the legal difference is between a card with a logo and one without, and that Bill Nader had the same position — he sells systems and hardware and does not know which card belongs in it. They are following up with Sutton Bank, the sponsor bank behind the incumbent, who is making introductions to other issuers; the bank had told them before the show that a $120 million a year volume fits, and Cashin could not promise that. They are also following up with the competing prize-card provider.
+
+**Val's read of the regulatory position.** He gave it as personal opinion, twice stating he is not an authority and not a legislator, just a technology guy like them. Everyone is confused today; there is no clear guidance from the legislature on which card or which system is legal. On whether the product is useful in the other markets, his answer was general: **a card solution is not useful in any market if it does not lead to cash**, and any card solution is a way of circumventing a black market or creating another grey one.
+
+He then gave them the specific ruling he had received the day before: **the coming Georgia guidance makes a transaction from a card onto an ATM in the same location illegal**, and he pointed at the wording — *in the same location*. It is not written yet; the draft is coming. Cashin's reaction was that the rule reduces to whether the other machine is ten feet away, which Val called absolutely funny. Val's explanation of why they are panicking: every location already has an ATM, and what Georgia does not allow is gambling — the machines are skill machines and do not award cash, so promoting the path from award to cash is exactly what the state does not want. He was candid that JVL's own stand had drawn this: they showed a hardware device that takes cash, issues a ticket or a card, lets the player walk the floor and then come back to the same device for cash like an ATM, and the general counsel from the Lottery reacted negatively. Val also drew the distinction the group kept collapsing — guidance is not law, and legislation is not law; the law has not passed.
+
+When Cashin said he relies on Bill Nader and his people to guide him, Val's response was that he does not know whether Nader speaks to the Lottery at all.
+
+**Val's actual proposition.** He cut through the product demo: the technology is understood and clear, and many providers have it; what he does not know is whether it applies to the Georgia market. Then he moved to economics and asked Rick directly what can be made on holding the money — all in, including processing fees, monthly charges and unused funds at the end of the term, per hundred dollars per year. Rick could not answer without running projections, and flagged the legal side: how long they can hold funds in the FBO account they have with their sponsor bank before depository-institution regulation bites. He confirmed the mechanics — funds sit in an FBO account they control, would prudently go into a safe and easily liquid investment, and when the cardholder draws cash through the ATM network they take the fee and release the money, with ATM interchange bypassed where they are driving the ATM themselves. On the incumbent's economics, Rick's point was that the card issuer makes interchange whenever the customer uses it, plus whatever the float earns.
+
+On fees, Val and Cashin compared notes on the incumbent's monthly card charge — about five dollars, with Val believing it starts in the first month and Cashin saying the thirteenth after activation. Val's conclusion either way: they are not making money forever on that.
+
+Asked what he wanted, Val was explicit. Being asked simply to carry someone's card does not interest him — **"I'm not making any money on it… in order for me to handle somebody's card, I want to have part of that profit, because this is where the money is at."** He said the incumbent offers no profit sharing on the back end, which is exactly why he asks why he would work with them. His model: JVL's job is to sell hardware to operators, and once the hardware is placed the transactional business follows; the ATM fee itself he believes should go to the master operator, who buys and places the machines and should be the beneficiary. He does not want the group buying or placing his hardware — operators do that. **What he wants in exchange for giving them access to the market is a share of their side of the business.** Cashin's counter-position was that they are not trying to make money on hardware at all; they want to share revenue on the ATM fee and have others distribute their product, which Val pushed back on as competing on price.
+
+**The number that landed.** Val sized the Georgia market for them: **7,400 locations, 47,000 machines, five billion dollars.** Cashin had guessed at 6,800 and did not know the real figure — "five billion, didn't know that, B with a B." Val then put his own estimate on the table: **approximately 8% to be made on the back end**, his own projection and personal calculation, with the caveat that he might be totally off base. Cashin said they would run the numbers.
+
+**Where it ended.** Amicably and without commitment. They will send Val more material on their products, including video of tapping a wallet to add money to a machine or buy a ticket; both sides will keep following up as the Georgia regulations settle, and Cashin noted Georgia is not the end of it — there are many route markets. He also wants a separate follow-up with Val about his kiosk experience in Mexico and the route markets. Val's closing statement of intent: he is happy to work with them and share ideas, and **his goal is to derive his profit from managing cash.**
+
+## Decisions Made
+
+- **No agreement was reached** — this was an introductory call and both sides left it at continued contact. (mutual)
+- **Val will not simply carry another provider's card** — any arrangement has to give JVL a share of the back-end profit, not a hardware sale. (Val Levitan)
+- **The ATM fee belongs to the master operator**, in Val's view, because the operator buys and places the equipment; JVL's return has to come from the processing side instead. (Val Levitan)
+- **JVL's route to the transactional business is selling hardware to operators first**; the group does not need to buy or place JVL hardware. (Val Levitan)
+- **Both sides keep following up as the Georgia guidance is published**, across Georgia and the other route markets. (mutual)
+
+## Undertakings
+
+| # | Who | What | By When | Priority | Context |
+|---|-----|------|---------|----------|---------|
+| 1 | Rick Beer | Run projections on what can be earned on holding the float — all in, including processing fees, monthly charges and unused funds — and check the legal limits on how long funds can sit in the FBO account before depository regulation applies | TBD | High | Val's direct question; Rick could not answer on the call |
+| 2 | Andrew Cashin | Run the numbers against Val's figures — 47,000 machines, 7,400 locations, $5bn, ~8% back-end margin | TBD | High | He said "we're going to run those numbers" |
+| 3 | Andrew Cashin | Send Val more material on their products, including video of wallet-tap to add money to a machine or buy a ticket | TBD | Normal | Offered twice |
+| 4 | Andrew Cashin | Continue the follow-ups with Sutton Bank's introductions to other card issuers, and with the competing prize-card provider | TBD | Normal | In progress at the time of the call |
+| 5 | Andrew Cashin | Post-show follow-up with Bill Nader, who wants him to become a branded-network issuer | TBD | Normal | Cashin was unclear what Nader actually needs |
+| 6 | Andrew Cashin / Val Levitan | Separate follow-up conversation on Val's kiosk and route-market experience, including Mexico | TBD | Low | Cashin raised it as the call closed |
+
+## Open Questions
+
+- **Whether a branded-network card is legally required at all in Georgia, or whether a generic magstripe card works.** Cashin said plainly he does not know the legal difference between a card with a logo and one without, and neither did Bill Nader.
+- **What the Georgia guidance will actually say when the draft is published.** Val's information is that a card-to-ATM transaction in the same location becomes illegal, and the wording turns on "same location" — which neither side thought was a workable distinction.
+- **Whether Bill Nader has any direct line to the Lottery.** Cashin relies on him for guidance; Val does not believe he speaks to them.
+- **What the float is actually worth.** Val's 8% back-end figure is his own estimate, offered with the caveat that he may be off base; it has not been tested against the group's numbers.
+- **Whether there is a deal shape here at all.** Val wants a share of the processing profit; the group wants to share the ATM fee and have others distribute their product. Those two positions were stated but not reconciled.
+
+## Notes on the transcript
+
+Plaud labels speakers by number. Attribution here is taken from the calendar invite plus self-identification on the recording: Speaker 2 is Val, Speaker 3 is Andrew Cashin (he names himself at 00:33), Speaker 1 is Rick Beer (he describes the payment-facilitator business at 19:25).
+
+**Val confirmed all of the readings below on 2026-09-11 and 18 corrections were applied to the raw transcript.** Recorded here so the changes are traceable:
+
+- **"Rick Beard" → "Rick Beer"** (×2, 00:33) and **"Rick, Rick, Bear" → "Rick, Rick Beer"** (37:34). The invite gives the full name as Richard Beer, rbeer@digitalcashprocessing.com, but he is introduced and addressed as Rick throughout and the same speaker renders it correctly as "Rick Beer" twice — so only the surname was corrected, leaving the familiar first name as spoken.
+- **"Linda Martet" → "Linda Markert"** (00:33) — per the invite, lmarkert@icp-inc.com.
+- **"Cashco" → "CashCode"** (×3, 02:27) — the bill-acceptor company sold to CPI in 2006.
+- **"Mei" → "MEI"** (02:27) — described in the same breath as Mars Electronics.
+- **"Every" → "Everi"** (01:24 only) — the chain Global Cash Access → Everi → IGT. **The second occurrence at 15:50 is the ordinary word** ("Every location today has an ATM machine") and was deliberately left alone; this is why the fix is anchored to the phrase and never becomes a blind rule.
+- **"Columbia Fire Group" → "Fiery Pay"** (26:29) and **"Fire Repay" → "Fiery Pay"** (26:46) — the competing prize-card provider.
+- **"income" / "Income" / "Incom" → "InComm"** — all 7 occurrences, applied under the glossary's scoped-fix rule after Val's confirmation. Every one is the company, with no accounting sense of the word anywhere in the recording: "what InComm has" (08:33), "that InComm was out there talking about" (09:39), "the sponsor bank behind InComm" (11:09 — Sutton Bank is InComm's sponsor bank), "InComm doesn't offer any profit sharing… why would I do InComm" (26:37, two in one breath), and "so intertwined with InComm… we've done NDAs with InComm" (30:58). Word-boundary matching only; the transcript contains no occurrences of "information", so there was no collision risk.

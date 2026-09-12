@@ -11,7 +11,7 @@ open-questions: 1
 
 # Keep "JVL Dollars" as designed — printed, serialized barcode cards, not an account credit
 
-At the [[wiki/meetings/2026-08-21-post-goam-show-recap.md|Aug 21 2026 post-GOAM recap]], [[wiki/people/felipe-miranda.md|Felipe]] said the JVL-dollars pitch confused customers at the show — "It's going to cost 950, but since you will get JVL dollars for this, you can spend it on this. It was a little bit confusing" — and proposed packaging a credit per purchase instead. [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] added that "maybe the term JVL dollars doesn't ring the bell. So maybe if we call it just a credit line, it should be easier for people to understand." [[wiki/people/val-levitan.md|Val]] rejected both and defended the design in detail [[raw/Meeting_Transcript_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]].
+At the [[wiki/meetings/2026-08-21-post-goam-show-recap.md|Aug 21 2026 post-GAMOA recap]], [[wiki/people/felipe-miranda.md|Felipe]] said the JVL-dollars pitch confused customers at the show — "It's going to cost 950, but since you will get JVL dollars for this, you can spend it on this. It was a little bit confusing" — and proposed packaging a credit per purchase instead. [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] added that "maybe the term JVL dollars doesn't ring the bell. So maybe if we call it just a credit line, it should be easier for people to understand." [[wiki/people/val-levitan.md|Val]] rejected both and defended the design in detail [[raw/Meeting_Transcript_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]].
 
 ## What was decided
 

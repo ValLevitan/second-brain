@@ -11,7 +11,7 @@ open-questions: 3
 
 # Release Flex IQ in its current configuration and place 20–50 units to collect factual field data
 
-At the [[wiki/meetings/2026-08-21-post-goam-show-recap.md|Aug 21 2026 post-GOAM recap]] (recording 1), [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] reported that essentially every operator at the Georgia GOAM show asked for two things Flex IQ does not do — **replay** (letting a player move from one machine to another) and **splitting a cash-out** (part onto a gift card, the rest as cash or lottery tickets) [[raw/Meeting_Transcript_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]. [[wiki/people/val-levitan.md|Val]] refused to change the product on that basis. Device substance lives on [[wiki/topics/flexpay-business-architecture-payout-devices.md]].
+At the [[wiki/meetings/2026-08-21-post-goam-show-recap.md|Aug 21 2026 post-GAMOA recap]] (recording 1), [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] reported that essentially every operator at the Georgia GAMOA show asked for two things Flex IQ does not do — **replay** (letting a player move from one machine to another) and **splitting a cash-out** (part onto a gift card, the rest as cash or lottery tickets) [[raw/Meeting_Transcript_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]. [[wiki/people/val-levitan.md|Val]] refused to change the product on that basis. Device substance lives on [[wiki/topics/flexpay-business-architecture-payout-devices.md]].
 
 ## What was decided
 
