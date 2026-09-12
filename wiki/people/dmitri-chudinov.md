@@ -4,8 +4,8 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 39
-open-commitments: 8
+source-count: 41
+open-commitments: 10
 open-questions: 0
 ---
 
@@ -175,6 +175,23 @@ On the [[wiki/meetings/2026-09-04-flex-slim-first-ten-and-flex-port-sas.md|Sept-
 
 - **Open commitment (conditional):** extend the SAS command document if the implemented set proves insufficient — named jointly with [[wiki/people/pavel.md|Pavel Frolov]] ("чтоб там Дмитрий или Павел добавил"); contingent on the stage-one test [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]].
 
+## Sept 7 2026 — "implemented, but not verified", and the AFT command document lands on him
+
+At the [[wiki/meetings/2026-09-07-sas-aft-on-flex-port-and-remote-update.md|Sept 7 10:02 engineers' alignment]] (Russian), credited in the recording as "Dzmitry Chudzinau".
+
+- **He raised the Georgia protocol question that produced the AFT ruling:** "протокол будет в [Джордже] — это через a[ ]ft мы будем проводить?" — and asked for the PIN to be made optional, which Pavel turned into the requirement [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- **He gave the single most useful correction of the call.** Alekseev said the error handling and handshakes were all implemented; Chudinov: **"но реализовано, но не проверялось"** — [[wiki/decisions/2026-09-07-error-recovery-and-non-functional-requirements-come-first.md]] [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- **He is asked to produce the AFT command document**, matching the earlier TITO/SAS one he made, and proposed letting Claude do it across two projects at once — he named them as Flex-IQ and Flex-Port [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- **The Flex-IQ barcode-activation build promised for Monday was ready:** "Готова[,] сегодня залил." He had checked it on his own terminal but preferred staging, "потому что там более правдивые данные будут" [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- **He is finishing the remote-update system for Flex-IQ**, "к моменту релиза уже сможем," with rework still needed — the release in question was never pinned down [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- **He offered the pragmatic fallback for the test environment:** "проще будет запустить как… в докер[е] либо… в каком-нибудь режиме дем[о]на[,] [с] симуляцией некоторых данных" — Pavel preferred full ARM emulation and put Docker second [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- **He asked the question that reopened MudaGoose:** does the whole Flex-IQ flow still make sense "если мы уходим от системы [Муда]г[уз]" [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+
+## Open commitments (Sept 7 2026)
+
+- [ ] Produce an AFT command document for Flex-Port matching the earlier TITO/SAS document — due unspecified, high — [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- [ ] Send Andrei Klimovich the link to the new barcode-activation Flex-IQ build, preferably on staging — due Sept 7 2026 — [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
@@ -216,3 +233,5 @@ On the [[wiki/meetings/2026-09-04-flex-slim-first-ten-and-flex-port-sas.md|Sept-
 - [[raw/Meeting_Notes_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+- [[raw/Meeting_Notes_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]

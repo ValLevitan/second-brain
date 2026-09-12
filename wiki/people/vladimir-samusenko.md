@@ -3,7 +3,7 @@ type: person
 title: Vladimir Samusenko
 date: 2026-02-04
 aliases: [Vladimir Samusenko, Vladimir, Vlad, Владимир, Самусенко]
-source-count: 9
+source-count: 11
 open-commitments: 4
 ---
 
@@ -55,6 +55,12 @@ At the [[wiki/meetings/2026-09-03-nova-prose-standard-skills-and-module-contract
 - [ ] With Evgeny: run Claude over the existing prose to normalize it to the new standard — due after the standard is placed — [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
 - [ ] With Evgeny: merge the overlapping backend and frontend capability sets into one after the standard is set — due unspecified — [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
 
+## Sept 7 2026 — his prose skills and plugin become the tool for reverse-engineering Flex-Port
+
+At the [[wiki/meetings/2026-09-07-sas-aft-on-flex-port-and-remote-update.md|Sept 7 10:02 engineers' alignment]] (Russian), accepting Val's process chain, [[wiki/people/pavel.md|Pavel Frolov]] named what he would use to apply it to code that already exists: "мне надо будет сделать реверс[-]инжиниринг… на готовый код… то, что уже есть в[о] Флекс[-]Порт[е]… с тем, что Владимир делает — скиллы и плагин для создания прозы," producing retrospectively a list of the capabilities that relate to Flex-Port [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+
+Vladimir was not on the call. This is the first recorded use of his Sept-3 deliverable on a different team's codebase — see [[wiki/decisions/2026-09-03-prose-standard-into-knowledge-repository.md]] and [[wiki/decisions/2026-09-07-andrei-bosik-drives-the-wi-fi-work-and-the-process-chain.md]].
+
 ## Sources
 
 - [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
@@ -66,3 +72,5 @@ At the [[wiki/meetings/2026-09-03-nova-prose-standard-skills-and-module-contract
 - [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
 - [[raw/Meeting_Notes_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 - [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
+- [[raw/Meeting_Notes_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]

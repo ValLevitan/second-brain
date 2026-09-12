@@ -1,9 +1,9 @@
 ---
 type: decision
-title: Pursue convenience-store trade shows as a sales channel — target the October 22 GACS show, chase a share of a friend's booth at C-Store Connect on September 17
+title: Pursue convenience-store trade shows as a sales channel — target the GACS show (recorded here as October 22; the Sept-7 2026 planning call says October 21 — OPEN CONTRADICTION), chase a share of a friend's booth at C-Store Connect on September 17
 date: 2026-08-31
-aliases: [C-Store trade shows, C-Store Connect September 17, GACS Southern Convenience Store and Petroleum Show, October 22 show, not a COAM show]
-source-count: 2
+aliases: [C-Store trade shows, C-Store Connect September 17, GACS Southern Convenience Store and Petroleum Show, October 22 show, October 21 show, not a COAM show]
+source-count: 4
 status: active
 open-commitments: 3
 open-questions: 1
@@ -18,6 +18,14 @@ Decided in a ~12-minute exchange in the JVL Georgia office on **August 31 2026**
 - **Pursue convenience-store trade shows as a channel.** Val's answer to "You should do it?" was "**Definitely. Good thinking. Totally with you on this.**" [[raw/Meeting_Transcript_C_Store_Trade_Show_Go_To_Market-August-31-2026.md]]
 - **Go for the October 22 show**, where there is still runway: "There's another show on October twenty-second, which is called the **GACS Southern Convenience Store Petroleum Show**." Val: "That's also October twenty second. **It might be in time to get it.**" The notes record the decision as "Go for the October 22 GACS show, where there is still time to secure space." [[raw/Meeting_Transcript_C_Store_Trade_Show_Go_To_Market-August-31-2026.md]] [[raw/Meeting_Notes_C_Store_Trade_Show_Go_To_Market-August-31-2026.md]]
 - **Treat the September 17 show as a fallback that depends on borrowed space.** "the **C store Connect show is on September seventeenth here in Georgia**. Maybe it'd be a good idea." The blocker was raised immediately — "**Not if [booths] are sold out**" — and Val's answer was a workaround rather than a booking: "**I actually have a friend of mine who's going to that. Just putting up a booth. Maybe I could get a small piece from him. Do you want me to find out?**" [[raw/Meeting_Transcript_C_Store_Trade_Show_Go_To_Market-August-31-2026.md]]
+
+## Update — Sept 7 2026: the show becomes JVL's engineering deadline, and a date discrepancy appears
+
+A week later the show is no longer a booth question but the date the whole transactional product line is being built to. At the [[wiki/meetings/2026-09-07-gacs-show-setup-flex-iq-flex-ports-and-the-e-wallet.md|Sept 7 8:00 AM call]] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] opened with "У нас следующая выставка[ —] октябрь 21," and presented a three-setup stand — Flex-IQ with Flex-Ports, the Pay Slim kiosk, and the Flex recycler. **Val insisted it is not an exhibit**: "мы сейчас не просто говорим, что вот у нас будет трейд[-шоу]… Мы сейчас активно занимаемся продажей… определённых решений в Джорджии," and Klimovich agreed the show is "наш конкретный milestone с конкретной датой[,] дедлайном." Val then pushed past it entirely — "я работаю сильно над тем, чтобы сделать installation в сентябре… Мне нужен продукт сейчас." The product substance is on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 7, 8:00) [[raw/Meeting_Transcript_GACS_Expo_IQ_FlexPorts_and_Ewallet-September-7-2026.md]] [[raw/Meeting_Notes_GACS_Expo_IQ_FlexPorts_and_Ewallet-September-7-2026.md]].
+
+**Open contradiction — the show's date.** This decision records **October 22**, read aloud from the listing on Aug 31. The Sept-7 call says **October 21**, three times. The Sept-7 transcript never names the show — only its derived notes do ("GACS in Georgia on October 21") — so the two may not even be the same event, though nothing in either source suggests a second convenience-store show that week. **Recorded, not resolved**; also carried on [[wiki/projects/georgia-market-rollout.md]] under Open contradictions. *(A show spanning both days would explain it; no source says so, and that is inference.)* [[raw/Meeting_Transcript_C_Store_Trade_Show_Go_To_Market-August-31-2026.md]] [[raw/Meeting_Transcript_GACS_Expo_IQ_FlexPorts_and_Ewallet-September-7-2026.md]] [[raw/Meeting_Notes_GACS_Expo_IQ_FlexPorts_and_Ewallet-September-7-2026.md]]
+
+**The Sept-17 fallback is not mentioned on Sept 7**, and none of the three Aug-31 commitments below is discharged by these sources.
 
 ## Why this is a different channel, not more of the same
 
@@ -45,3 +53,5 @@ The point of the decision is **who is in the room**. Val marked the distinction 
 
 - [[raw/Meeting_Notes_C_Store_Trade_Show_Go_To_Market-August-31-2026.md]]
 - [[raw/Meeting_Transcript_C_Store_Trade_Show_Go_To_Market-August-31-2026.md]]
+- [[raw/Meeting_Notes_GACS_Expo_IQ_FlexPorts_and_Ewallet-September-7-2026.md]]
+- [[raw/Meeting_Transcript_GACS_Expo_IQ_FlexPorts_and_Ewallet-September-7-2026.md]]

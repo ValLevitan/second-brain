@@ -4,8 +4,8 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 75
-open-commitments: 12
+source-count: 77
+open-commitments: 15
 ---
 
 # Andrey Bosik
@@ -237,6 +237,24 @@ At the [[wiki/meetings/2026-09-03-nova-prose-standard-skills-and-module-contract
 - **Moving the prose skills into the Claude Code configuration.** Vladimir: "разговаривал по этому поводу с Андреем[.] Вчера пришли к тому, что когда мы закончим… вынесем в конфи[г] кода так, чтобы все разработчики пользовались одной и той же версией скилла." [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 - A **fourth, separate** "Андрей" mention on the same call is *not* attributable here: Irina said an "Андрей" had written the Recycler capabilities and broken them down very finely. Left unresolved per §4. [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 
+## Sept 7 2026 — named driver of the Wi-Fi work, and the router-brand adviser
+
+At the [[wiki/meetings/2026-09-07-wifi-on-flex-port-and-qr-provisioning.md|9:08 Wi-Fi meeting]] (Russian) Val put the Wi-Fi write-up on Bosik specifically to take load off [[wiki/people/pavel.md|Pavel Frolov]]: "Андрей Босик, вы на себя можете это взять?" — "Да да, я, давайте конечно." Val's instruction: start today, take it under his control, talk directly to the people in that meeting, set the pace — "вы драйвер… вы задаете темп" — and, because "мне нужно это завтра, то вы вчера должны были начать." Bosik: "Все понятно, вопросов нету." Val's closing image was a tank that has to drive through walls. See [[wiki/decisions/2026-09-07-andrei-bosik-drives-the-wi-fi-work-and-the-process-chain.md]] [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+
+His other contributions:
+- **He talked Val out of the jamming worry** — such devices exist and "забивают вот этот канал там 2 и 4 герца полностью по всем частотам," but the attacker must be inside the premises, and "кто это будет делать? Зачем кому это вообще делать?" [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- **He argued for making a JVL device the access point** ("мне 2 вариант, лично больше нравится") and lost to Alekseev and Genadi on reliability grounds, taking it gracefully: "не[,] как скажете, я же только идеи подкидываю" [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- **He answered the machine-count question:** with a third-party router, "там ограничения это только сам роутер" [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- **He is the router-brand knowledge on the call:** Cisco as the American answer, and "Линксис это и есть циска[,] это суббренд циска," home/small-office against Cisco's mid- and large-business line; Nokia Finnish; MikroTik Lithuanian. He also raised the router QR sticker and was honest that he did not know which manufacturers ship one: "Не уверен, честно скажу" [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- **He confirmed the non-functional requirements already exist for Ethernet** — "для [Ethernet], наверное, это то же самое, что делали" — which is why Val's instruction was to have Claude find them rather than write them again [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- **Val named him as the person who understands the prose/data-contract standard**: "Андрей глубоко в этом разбирается, он был частью всей этой гимнастики" [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+
+## Open commitments (Sept 7 2026)
+
+- [ ] Write the Wi-Fi capabilities, break them into features in Jira, own the pace and coordinate the group — due start Sept 7 2026, high — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- [ ] Ask Claude to find the existing non-functional requirements in the WebSocket protocol (handshake, heartbeat, reconnect, self-diagnostics) and attach them to the capabilities with single-line acceptance criteria — due unspecified, high — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- [ ] Call [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] today and set him up on Claude Code — due Sept 7 2026 — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
@@ -317,3 +335,5 @@ At the [[wiki/meetings/2026-09-03-nova-prose-standard-skills-and-module-contract
 - [[raw/keeper_security_implimentation_IT_maturity-august-15-2025.md]]
 - [[raw/Meeting_Notes_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
 - [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]

@@ -4,7 +4,7 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "IT (GitHub-admin, infrastructure, secrets/Azure, AI-tool accounts) — the IT-context "Dima". Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 24
+source-count: 26
 open-commitments: 2
 ---
 
@@ -95,6 +95,12 @@ On the [[wiki/meetings/2026-03-27-review-of-engineering-guides.md|Review of Engi
 
 On the [[wiki/meetings/2026-04-15-legacy-cms-documentation-progress-check.md|Apr-15 legacy-CMS docs check]] Kovalchuk clarified that the cost figure he had presented earlier was the cost of lifting-and-shifting the legacy CMS infrastructure **as-is** into cloud with no rework — context for why refactoring it first onto cheaper infrastructure (which the documentation pass enables) is the cheaper path. Substance on [[wiki/topics/docs-as-code-and-atlassian-exit.md]] (Apr-15). [[raw/Meeting_Notes_Legacy_CMS_Documentation_Progress_Check-April-15-2026.md]]
 
+## Sept 7 2026 — named as a candidate to take Jira write-up load off Pavel, then passed over
+
+At the [[wiki/meetings/2026-09-07-wifi-on-flex-port-and-qr-provisioning.md|Sept 7 9:08 Wi-Fi meeting]] (Russian), [[wiki/people/val-levitan.md|Val]] asked whether the Wi-Fi capability write-up could be handed to "Диме Ковальчуку, Андрею Климовичу и Андрею Босику," saying "мне нужна помощь в этом" [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+
+He was not on the call and the work went to [[wiki/people/andrey-bosik.md|Andrei Bosik]] — [[wiki/decisions/2026-09-07-andrei-bosik-drives-the-wi-fi-work-and-the-process-chain.md]]. No commitment attaches to Kovalchuk.
+
 ## Sources
 
 - [[raw/Meeting_Notes_Legacy_CMS_Documentation_Progress_Check-April-15-2026.md]]
@@ -121,3 +127,5 @@ On the [[wiki/meetings/2026-04-15-legacy-cms-documentation-progress-check.md|Apr
 - [[raw/it_automation_schemas_secrets_server-apr-16-2025.md]]
 - [[raw/secrets_server-apr-30-2025.md]]
 - [[raw/it_department_maturity-may-7-2025.md]]
+- [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]

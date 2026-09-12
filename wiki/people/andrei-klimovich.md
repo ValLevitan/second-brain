@@ -4,8 +4,8 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 62
-open-commitments: 33
+source-count: 66
+open-commitments: 36
 open-questions: 0
 ---
 
@@ -341,6 +341,26 @@ He went from that 8:03 AM internal call into both external meetings [[raw/Meetin
 
 Klimovich was not on the [[wiki/meetings/2026-09-04-flex-slim-first-ten-and-flex-port-sas.md|Sept-4 midday call]], but his diary set its outcome. [[wiki/people/pavel.md|Pavel]] recalled that Klimovich "и планировал митинг как раз на тему развития флекс портов" for Monday; Val scheduled the engineers ahead of it — "давайте тогда соберёмся с инженерами до митинга с Климовичем… Митинг с Климовичем назначен на 08:00? Так давайте тогда на 07:00" — and undertook to send the invitation. *(Asked whether "Андрей" was needed, Pavel offered "Ты Бусик[?] Или Андрей Климович?" and Val answered "Климович" — [[wiki/people/andrey-bosik.md|Andrey Bosik]] is not on this thread.)* Ruling: [[wiki/decisions/2026-09-04-port-the-smib-sas-module-into-the-flex-port-main-branch.md]] [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]].
 
+## Sept 7 2026 — he settles the Wi-Fi topology, gets his title corrected to "use cases", and chases the InComm approval material
+
+Present at both Monday meetings ([[wiki/meetings/2026-09-07-wifi-on-flex-port-and-qr-provisioning.md|9:08]] and [[wiki/meetings/2026-09-07-sas-aft-on-flex-port-and-remote-update.md|10:02]], Russian).
+
+- **He ended the access-point argument with a physical layout:** "роутер может стоять где-то условно в игровой зоне под потолком… IQ с ним общается по вайфаю и все порты общаются тоже по вайфаю," and asked the practical question nobody had — is there a cap on how many machines can attach [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- **He turned Val's "devices must show what they see" into a shape that can be built** — an operational dashboard the operator logs into, with signal quality per item — after first mis-reading it as a purely local display. See [[wiki/decisions/2026-09-07-every-jvl-device-must-show-what-it-sees.md]] [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- **He added the configurable wallet load** on the SAS call: partial load by player choice today, so "это тоже должно быть сконфигурировано" — [[wiki/decisions/2026-09-07-pin-and-wallet-load-configurable-per-location.md]] [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- **Val corrected his terminology, and the correction is the process ruling.** Klimovich offered capabilities tied to user experience; Val: "Это юз[-]кейсы… добавить юз[-]кейсы; в юз[-]кейсы прикрепите ка[па]билити[с] и ре[к]ва[йр]мент[ы]. На этом заканчивается ваша функция" — [[wiki/decisions/2026-09-07-andrei-bosik-drives-the-wi-fi-work-and-the-process-chain.md]] [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- **He asked the release question twice and got nothing** — "В момент релиза — это что? …какая версия чего?" / "Какой-то релиз" [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- **He added the failure mode nobody had listed:** the touchscreen itself can stop responding [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- **He explained why he was pressing on the Flex-IQ screens:** JVL must send InComm "видео и скриншоты полного флоу[,] для Того, чтобы они запрувили наше устройство." He also confirmed the Dwolla debit went through but that he cannot see the credit land — "это наверно [Нэйтан] должен увидеть" — and asked about receipt printing after card activation, unanswered [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- **He put the MudaGoose question to Val** and got a deferral: Val does not think so, wants a day or two, and asked to be reminded [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- **His line of the day**, on remote update having been a priority a year earlier too: "Теперь это тоже приоритет, видите? Всё константно" [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+
+## Open commitments (Sept 7 2026)
+
+- [ ] Write the use cases for the SAS user-experience changes (the PIN above all) and attach capabilities and requirements; his function ends there — due unspecified, high — [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- [ ] Write to the team about the Flex-IQ screen changes and chase what is actually in the new build, for the InComm approval video and screenshots — due Sept 7 2026 — [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- [ ] With Val — decide whether to keep installing at some locations on MudaGoose in the interim — due ~Sept 9 2026 — [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Continental_Vendor_Lock_In_Dead_End-September-2-2026.md]]
@@ -405,3 +425,7 @@ Klimovich was not on the [[wiki/meetings/2026-09-04-flex-slim-first-ten-and-flex
 - [[raw/Meeting_Notes_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]]
 - [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+- [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- [[raw/Meeting_Notes_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]

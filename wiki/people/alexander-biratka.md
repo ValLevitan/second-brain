@@ -4,7 +4,7 @@ title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka, Alex Baratka, Alex Beratka, Alexander Berankov, Biratko, Alexander Biratko]
 disambiguation: "Alexander cluster (provisional — owner ruling pending): distinct JVL people sharing the given name Alexander. [[wiki/people/alexander-biratka.md|Alexander Biratka]] = Omni/Pixi framework & build engineer (aka Sasha; garbles Beratko/Baratka); [[wiki/people/alexander-korochkin.md|Alexander Korochkin]] = LGS QA-automation engineer (GitHub Alexander_K@JVL, read-only; aka Alexander K); [[wiki/people/alexander-tumanov.md|Alexander Tumanov]] = Minsk QA / data-center knowledge-capture hire (surname unverified). Resolve by context: Omni framework / Pixi / build → Biratka; LGS QA automation / read-only build consumer → Korochkin; manual-tester onboarding / data-center interviews → Tumanov. A further name 'Alexander Derok' (back-end build-integration / Java, per Val on Feb-6-2026) is unconfirmed — queued, not a page. Not [[wiki/people/alexei-khamin.md|Alexei Khamin]] (different name). Queue anything fitting none; never force-match."
-source-count: 45
+source-count: 47
 open-commitments: 3
 open-questions: 0
 ---
@@ -156,6 +156,12 @@ At the [[wiki/meetings/2026-09-04-rage-nova-conversion-readiness.md|Sept-4 morni
 - **He reported the printer library is already being integrated into Flex-Pay** — "Библиотеку принтера уже интегрируем во флекспей" — one of the pieces of evidence Val used for "1 октября началось уже в сентябре или даже в августе." [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - **He named the Val–Irina acceptance-criteria disagreement for what it is:** "что перв[ое,] яйцо или курица." [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 
+## Sept 7 2026 — named for the Flex-Pay emulator groundwork
+
+At the [[wiki/meetings/2026-09-07-wifi-on-flex-port-and-qr-provisioning.md|Sept 7 9:08 Wi-Fi meeting]] (Russian), pressed by [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] for a virtual test system, [[wiki/people/pavel.md|Pavel Frolov]] said he would take it to Biratka and [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]: "я поговорю с Сашей Бираткой, с Димой Чудиновым — что можно сделать относительно быстро" [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+
+The route Pavel eventually chose is on [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]]. Biratka was not on the call and took on nothing himself.
+
 ## Sources
 
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
@@ -204,3 +210,5 @@ At the [[wiki/meetings/2026-09-04-rage-nova-conversion-readiness.md|Sept-4 morni
 - [[raw/set_up_screen_omni-apr-24-2025.md]]
 - [[raw/unity_instead_miranda-may-1-2025.md]]
 - [[raw/mcp_servers_for_jvl-may-8-2025.md]]
+- [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]

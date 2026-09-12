@@ -4,8 +4,8 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 125
-open-commitments: 20
+source-count: 129
+open-commitments: 30
 open-questions: 0
 ---
 
@@ -411,6 +411,31 @@ He also confirmed, per Genadi, that **both card-dispenser versions are supported
 - [ ] Think the Flex-Port capability breakdown over the weekend and bring it to the Monday 7:00 engineers' meeting — SAS AFT transactions on Flex-Port, the existing Flex-Port use, and a supporting debug-environment capability — due Monday Sept 7 2026 — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
 - [ ] Upload the software remotely to the replacement Georgia modems and verify they hold a connection; if a good modem does not work on the existing software, connect remotely and find the cause — due after installation — [[raw/Meeting_Transcript_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]]
 
+## Sept 7 2026 — the Monday he absorbs the Flex-Port work: Wi-Fi provisioning designed, SAS/AFT taken on, the emulator finally scoped
+
+Across both Monday meetings ([[wiki/meetings/2026-09-07-wifi-on-flex-port-and-qr-provisioning.md|9:08 Wi-Fi]] and [[wiki/meetings/2026-09-07-sas-aft-on-flex-port-and-remote-update.md|10:02 SAS/AFT]], Russian) Pavel is the person who turns each of Val's directions into a mechanism — and the person Val is explicitly trying to unload.
+
+- **He designed the Wi-Fi provisioning flow**, including the security point nobody else raised: the QR must not be the plain phone network-sharing code, "он в незашифрованном виде отдаёт название сети и пароль," so "этот пароль всё таки надо каким то образом шифровать и уже потом на флекс па[р]те расшифровывать" — see [[wiki/decisions/2026-09-07-wi-fi-provisioning-by-encrypted-qr.md]] [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- **He named the jamming risk on Val's behalf** — "вайфай легко зафлудить… у нас вся сеть сразу же ложится" — and separately doubted the on-module antenna would radiate out of "железный огромный корпус и чуть чуть пластмаск[и], которая торчит" [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- **He supplied the one-firmware-by-configuration answer** when Alekseev asked how three machine interfaces can be served: a SAS-configured port simply does not load the EBDS and identifier code, and counters become statistics, "не считаем их как элемент вывода денег" — [[wiki/decisions/2026-09-07-flex-port-goes-sas-and-jvl-drops-the-old-machine-segment.md]] [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- **He had already run the AFT experiment, on the Friday**, on the SAS firmware "которую Евгений, 2 Евгения делали," and wants it finished so the minimal command set can be written down. He then took the larger part of the SAS/AFT implementation himself, on the reasoning that Alekseev is on vacation, has Wi-Fi, and can only work weekends — while SAS parallelises locally "потому что у нас несколько машин и несколько портов" [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- **He accepted the reverse-engineering burden**: prose and a retrospective capability list onto the Flex-Port code that already exists, working with what [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] is building [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- **He pushed the virtual test system to its most ambitious form** — full ARM emulation running the production build, simpler options only as fallback "потому что… более простые варианты… не покрывают весь функционал" — see [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]]. He would not accept Val's "50 % готово" characterisation of what he already has: "не готова, у меня какие-то наработки есть… я пока не уверен, что они готовы к тому, чтобы их отдать" [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]] [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- **Val's stated motive for appointing a driver was Pavel's load:** "На Павла ложится очень много работы… я бы хотел, чтобы с Павла это ушло" — and the driver named was [[wiki/people/andrey-bosik.md|Andrei Bosik]] [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+
+## Open commitments (Sept 7 2026)
+
+- [ ] Build the Wi-Fi provisioning screens on Flex-Pay and Flex-IQ and the encrypted-QR handoff to the Flex-Ports, diagnostic screens included — due unspecified — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- [ ] Extend the cloud logging to capture connection/installation telemetry, with store-and-forward when there is no internet — due unspecified — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- [ ] Verify the Flex-IQ side of the Wi-Fi work, at Val's explicit request — due unspecified — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- [ ] Finish the AFT experiment (test credits and cashouts over AFT) so the minimal command set can be documented — due unspecified, high — [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- [ ] Take the larger part of the SAS/AFT implementation — due unspecified — [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- [ ] Reverse-engineer prose and a retrospective capability list onto the existing Flex-Port code, plus the changes needed now and the new ones — due unspecified — [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- [ ] Break the capabilities into features and open the feature branch — due unspecified — [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- [ ] Attempt the ARM-emulation virtual test system with simulated devices; Docker/daemon-mode is the fallback — due within a week or two — [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- [ ] Talk to [[wiki/people/alexander-biratka.md|Alexander Biratka]] and [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] about standing up the Flex-Pay emulator side quickly — due unspecified — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- [ ] Find out what remains for "Сергей" on the Flex-IQ screen changes; he thinks it should finish that day — due Sept 7 2026 — [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
@@ -540,3 +565,7 @@ He also confirmed, per Genadi, that **both card-dispenser versions are supported
 - [[raw/Meeting_Transcript_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]]
 - [[raw/Meeting_Notes_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+- [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- [[raw/Meeting_Notes_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]

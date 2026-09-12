@@ -4,8 +4,8 @@ title: Evgeniy Alekseev
 date: 2025-03-11
 aliases: [Evgeniy Alekseev, Evgeny Alekseev, Zhenya Alekseev, Женя Алексеев, Alekseev]
 disambiguation: "Owner of the main embedded code branch, this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
-source-count: 28
-open-commitments: 4
+source-count: 32
+open-commitments: 8
 ---
 
 # Evgeniy Alekseev
@@ -120,6 +120,28 @@ Ruling: [[wiki/decisions/2026-09-04-port-the-smib-sas-module-into-the-flex-port-
 - [ ] Restore his working environment and merge the trade-show SAS work into the Flex-Port main branch, connecting it up and checking what he can — due the weekend of Sept 5–7 2026 — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
 - [ ] Create the Jira ticket for the SAS-on-Flex-Port work — due unspecified — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
 
+## Sept 7 2026 — he specifies the Wi-Fi module, loses the antenna argument to certification, and takes remote update off Yavorsky
+
+In both Monday meetings ([[wiki/meetings/2026-09-07-wifi-on-flex-port-and-qr-provisioning.md|9:08]] and [[wiki/meetings/2026-09-07-sas-aft-on-flex-port-and-remote-update.md|10:02]], Russian) Alekseev is the hardware voice.
+
+- **He answered Val's opening question in three words** — "Конечно, есть вай фай" — and specified the answer: a module soldered onto the Flex-Port board, "намного дешевле и проще," at "4 $5 за борт," running the module's standard firmware over a UART so the existing WebSocket channel is simply duplicated, "может даже клод справиться" [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- **He wanted a module with its own antenna and lost**, but on his own ground: the constraint he then supplied — "мы должны применять сертифицированную антенну, если мы хотим сертифика[цию]… все модули сертифицируются с определёнными видами антенн" — is what the ruling rests on. His evidence for onboard antennas was four devices he has built, one inside "полностью закрытого [железного] ящика" — [[wiki/decisions/2026-09-07-wi-fi-module-on-flex-port-with-an-external-router.md]] [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- **He raised the three-interfaces-one-firmware problem** that Val could not answer and Pavel then solved [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- **He is on vacation that week** — "эту неделю я в отпуске не могу" — and has the Wi-Fi work, which is why Pavel took the larger part of SAS [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- **He put Flex-Port error handling at about 80 %** and was certain only of the heartbeat; Chudinov's "реализовано, но не проверялось" is the correction that stuck — [[wiki/decisions/2026-09-07-error-recovery-and-non-functional-requirements-come-first.md]] [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- **He volunteered for the remote firmware update** after the Wi-Fi work, when Val took it off [[wiki/people/eugine-yavorski.md|Eugine Yavorsky]]. His last test of it was "ещё год назад," against a simple simulator he wrote himself rather than over USB [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- **He explained the flash cut and its cause:** two 16 MB blocks instead of two 64 MB, ~10 MB used, "процентов 60," because "последний прайс на этот чип, который у нас заложен — $148. Я там вообще охренел просто" — [[wiki/decisions/2026-09-07-flex-port-flash-cut-to-two-sixteen-megabyte-blocks.md]] [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- **He tried the shortcut and was refused.** Suggesting they simply amend the existing Jira ticket to say a module should be added, Val said no five times: "Давайте пусть больше будет ответственн[ости]" [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- **His standing request finally landed.** The emulators/virtual test system he says he has asked for since Flex-Port began — "я всё время просил сделать какие-то эмуляторы" — became [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]]. He can write the machine emulator himself; it is the Flex-Pay side he needs from someone else [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- **Access, not willingness, is his blocker on prose:** "мне надо туда подключиться — для начала, чтоб кто-то меня подключил, ввёл [в] курс дела." Bosik undertook to set him up on Claude Code that day [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+
+## Open commitments (Sept 7 2026)
+
+- [ ] Produce the new Flex-Port board configuration with the Wi-Fi module and tell [[wiki/people/genadi-peari.md|Genadi Peari]] what to add — due before the large board order — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- [ ] Implement the Wi-Fi link on Flex-Port using the module's standard firmware, duplicating the WebSocket channel — due ~2 weeks max; no boards yet — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- [ ] Implement and verify the remote firmware update on Flex-Port, after the Wi-Fi work — due after Wi-Fi, high — [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- [ ] Do Wi-Fi first; SAS only at weekends this week — due this week — [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_recycler_architecture_planning-April-28-2026.md]]
@@ -150,3 +172,7 @@ Ruling: [[wiki/decisions/2026-09-04-port-the-smib-sas-module-into-the-flex-port-
 - [[raw/Meeting_Notes_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+- [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- [[raw/Meeting_Notes_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]

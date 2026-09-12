@@ -1,12 +1,13 @@
 ---
 type: decision
-title: SAS is carried across from SMIB into Flex-Port and merged into the main branch, not polished in place — scope comes from Chudinov's existing command document, Alekseev starts over the weekend, Yavorsky on Monday evening
+title: SAS is carried across from SMIB into Flex-Port and merged into the main branch, not polished in place — scope comes from Chudinov's existing command document; Alekseev starts over the weekend, and from Sept 7 2026 Pavel Frolov takes the larger part while Yavorsky is removed
 date: 2026-09-04
-aliases: [SAS on Flex-Port, port SAS from SMIB, merge into main branch, Chudinov's SAS command document, restore the environment first, no weekends, SAS AFT transactions, Monday 7 o'clock engineers meeting]
-source-count: 2
+aliases: [SAS on Flex-Port, port SAS from SMIB, merge into main branch, Chudinov's SAS command document, restore the environment first, no weekends, SAS AFT transactions, Monday 7 o'clock engineers meeting, Yavorsky on Monday evening]
+source-count: 5
 status: active
-open-commitments: 5
-open-questions: 3
+open-commitments: 3
+open-questions: 2
+disambiguation: "Status note: the core ruling (carry SAS across from SMIB, merge into main, scope from Chudinov's command document) stands and is active. The titular 'Yavorsky on Monday evening' element is DEAD — on Sept 7 2026 Val took tasks off Yavorsky and Pavel Frolov took the larger part of the SAS/AFT implementation. See the Update section."
 ---
 
 # SAS is ported from SMIB into Flex-Port and merged into the main branch
@@ -40,22 +41,40 @@ Asked to do it over the long weekend, Alekseev raised the obvious. Val's answer:
 
 Both engineers named the same real obstacle, separately: rebuilding a working environment. Yavorsky: "всегда проблема заново пересобрать рабочее место[,] там всё… очень капризно… обычно нужно… помучиться, чтобы оно всё заработало," and he asked for help from Pavel or someone to restore his SMIB setup. Alekseev: "мне тоже надо опять всё собирать" [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]. That is what makes Pavel's stage-2 debug-environment proposal (same call) the natural successor — see [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 4).
 
+## Update — what happened on the Monday (Sept 7 2026)
+
+The Monday this decision pointed at was Sept 7 2026, and it produced two meetings: [[wiki/meetings/2026-09-07-wifi-on-flex-port-and-qr-provisioning.md|9:08–9:55 on Wi-Fi]] and [[wiki/meetings/2026-09-07-sas-aft-on-flex-port-and-remote-update.md|10:02–10:33 on SAS/AFT]], both organised by Val [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]] [[raw/Meeting_Notes_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]].
+
+- **The meetings happened — at 9:08 and 10:02, not at the 7:00/8:00 slots discussed on Sept 4.** A **schedule slip, not a change of decision**: the engineers' alignment took place with Val as organiser, as planned. Neither Sept-7 source explains or even mentions the time change, so nothing is asserted about why [[raw/Meeting_Notes_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]].
+- **The weekend merge is NOT reported as done.** Alekseev never reports the result of it; what he does say is "эту неделю я в отпуске не могу… там вай фай же ж ещё надо" — on vacation this week and with the Wi-Fi work on top. Pavel's read: "Евгений… только в выходные сможет этим заниматься" — Alekseev can only work on this at weekends. **The commitment stays open** [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]].
+- **The SAS work moved forward anyway, through Pavel.** He ran his own experiment on the Friday, on the firmware "которую Евгений, 2 Евгения делали… сасовскую," trying to add AFT to it, and then said "я наверное на себя возьму большую часть работы… по сас имплементации." SAS can be parallelised locally "потому что у нас несколько машин и несколько портов" [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]].
+- **Yavorsky is off.** Pavel reported the remote-update task still sitting with him and not started; Val's response was general — "я бы не хотел на Яворского иметь какие-то таски[;] с ним что-то я не умею с ним работать" — so the Sept-4 "Yavorsky from Monday evening" element is dead. Detail on [[wiki/decisions/2026-09-07-remote-firmware-update-mandatory-and-taken-off-yavorsky.md]] [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]].
+- **Scope grew in a known direction: Georgia needs AFT, and the existing command document does not cover it.** "Это другие команды, не те, которые были реализованы… в тестовой прошивке — там поддерживался режим тит[о]… а нам сейчас надо реализовать режим AFT." A matching AFT command document was asked of Chudinov, who agreed and proposed letting Claude do it across two projects at once. See [[wiki/decisions/2026-09-07-flex-port-goes-sas-and-jvl-drops-the-old-machine-segment.md]] [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]].
+- **The environment problem both engineers named on Sept 4 became a decision of its own:** [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]].
+
 ## Open commitments
 
-- [ ] [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] — over the weekend, restore his working environment and merge the trade-show SAS work into the main branch, connecting it up and checking what he can — due the weekend of Sept 5–7 2026 — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
-- [ ] [[wiki/people/eugine-yavorski.md|Eugine Yavorsky]] — rebuild his working environment and take up the SAS port on Flex-Port — due from Monday evening on his return — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
-- [ ] [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] — create the Jira ticket for the SAS-on-Flex-Port work — due unspecified — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
-- [ ] [[wiki/people/val-levitan.md|Val Levitan]] — send the invitation for the Monday 7:00 engineers' meeting, ahead of Andrei Klimovich's 8:00 Flex-Port meeting — due before Monday — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
-- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] or [[wiki/people/pavel.md|Pavel Frolov]] — extend the SAS command document if the implemented set proves insufficient — due unspecified, contingent on the stage-one test — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+- [ ] [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] — over the weekend, restore his working environment and merge the trade-show SAS work into the main branch, connecting it up and checking what he can — due the weekend of Sept 5–7 2026 — **still open: no result reported at the Sept-7 meeting, and he is on vacation that week with the Wi-Fi work ahead of SAS** — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]] [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- [ ] [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] — create the Jira ticket for the SAS-on-Flex-Port work — due unspecified; not reported on Sept 7 — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] or [[wiki/people/pavel.md|Pavel Frolov]] — extend the SAS command document if the implemented set proves insufficient — **sharpened Sept 7 2026 into a request for a separate AFT command document from Chudinov** — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]] [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+
+## Discharged and superseded
+
+- [x] [[wiki/people/val-levitan.md|Val Levitan]] — send the invitation for the Monday engineers' meeting. **Discharged Sept 7 2026:** both Monday meetings took place with Val as organiser; the times slipped from the 7:00/8:00 discussed to 9:08 and 10:02 — [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]] [[raw/Meeting_Notes_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- ~~[[wiki/people/eugine-yavorski.md|Eugine Yavorsky]] — rebuild his working environment and take up the SAS port on Flex-Port from Monday evening~~ — **SUPERSEDED Sept 7 2026.** Val: "я бы не хотел на Яворского иметь какие-то таски." Pavel took the larger part of the SAS/AFT implementation instead — [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 
 ## Open questions
 
-- **How long the port actually takes.** Yavorsky says two weeks, possibly three, possibly a month; Genadi privately says at least two months and not without Pavel; Alekseev wants the estimate deferred until stage one is tested — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
-- **Is Chudinov's command list sufficient?** Only answerable after the environment is restored and the listed commands are tested — [[raw/Meeting_Notes_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]] [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
-- **Where the document actually lives.** Val and Alekseev both said Confluence, both hedging ("скорее всего", "помоему"); not confirmed on the call — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+- **How long the port actually takes.** Yavorsky says two weeks, possibly three, possibly a month; Genadi privately says at least two months and not without Pavel; Alekseev wants the estimate deferred until stage one is tested. *(Genadi's "it will not work without Pavel" read is the one Sept 7 bore out, though no source says so.)* — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+- **Where the document actually lives.** Val and Alekseev both said Confluence, both hedging ("скорее всего", "помоему"); not confirmed on the call, and not raised again on Sept 7 — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+
+*(Answered Sept 7 2026: "Is Chudinov's command list sufficient?" — **no, not for Georgia.** The existing document covers the TITO mode the test firmware supported; Georgia runs AFT, "это другие команды", and a separate AFT command document was requested. [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]])*
 
 **§15.8:** clear — engineering scope and scheduling only; no named-person compensation.
 
 ## Sources
 - [[raw/Meeting_Notes_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+- [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- [[raw/Meeting_Notes_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]

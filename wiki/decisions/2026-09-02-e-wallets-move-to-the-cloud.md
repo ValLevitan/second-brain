@@ -1,10 +1,10 @@
 ---
 type: decision
-title: E-wallets move to the cloud — "это даже не обсуждается" — and must survive a hardware swap at the location
+title: E-wallets move to the cloud — "это даже не обсуждается" — and must survive a hardware swap at the location (timing deferred Sept 7 2026: local until JVL has its own cloud server)
 date: 2026-09-02
-aliases: [e-wallets to the cloud, cloud wallet storage, wallets survive hardware replacement, friendly locations, wallet scoped to location, local wallet storage]
-source-count: 2
-status: active
+aliases: [e-wallets to the cloud, cloud wallet storage, wallets survive hardware replacement, friendly locations, wallet scoped to location, local wallet storage, cloud deferred six months]
+source-count: 4
+status: active  # the cloud DIRECTION still stands; its immediacy was superseded on 2026-09-07 (wallets stay on the local gateway until JVL has its own cloud server, ~6 months) — see the dated Update
 open-commitments: 1
 open-questions: 2
 ---
@@ -26,6 +26,14 @@ Settled in the strategic half of the [[wiki/meetings/2026-09-02-flex-iq-pre-pilo
 - **[[wiki/people/val-levitan.md|Val]] pushed back without ruling:** "Я не уверен, что мы хотим делать такой дизайн." [[wiki/people/irina-shishko.md|Irina Shishko]] restated what is being questioned — "Привязка только к одному лак[ейшену]… Оператору" — and Chudinov added "Игроку тоже интересно" (the player has an interest too). Andrei's response was to put it back as a question: "сейчас у нас так сделано… Вопрос, хотим ли мы поменять это сейчас?" **No ruling was made** [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]].
 - **Pavel offered the mechanism for later:** with globally-issued QR codes landing in the cloud anyway, "мы можем потом какое то дополнительной опции сказать, что вот эти вот лакейшины, они френдли и они могут… Использовать друг друга [и]лет[ы]. Ну то есть прям на сервере сказать" — a server-side flag marking locations "friendly" so they can share wallets. Andrei: "Да я понимаю да" [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]].
 
+## Update — Sept 7 2026: the destination stands, the timing does not
+
+At the [[wiki/meetings/2026-09-07-gacs-show-setup-flex-iq-flex-ports-and-the-e-wallet.md|Sept 7 8:00 AM call]] Chudinov re-opened the question and Val **deferred the move**: wallets stay on the local gateway for now, because JVL will release **its own cloud server within about six months** and everything moves then — "Это в течение полугода мы выпустим свой облачный сервер… Загружать сейчас свой мозг этим — это мне кажется[,] просто выставка… Шансы очень, очень маленькие… И инсталляций будет не очень много." Klimovich confirmed the interim state and stated the limit that goes with it: **a wallet created at location A will never be supported at location B.** Full record on [[wiki/decisions/2026-09-07-e-wallets-stay-on-the-local-gateway-until-jvl-has-its-own-cloud.md]] [[raw/Meeting_Transcript_GACS_Expo_IQ_FlexPorts_and_Ewallet-September-7-2026.md]] [[raw/Meeting_Notes_GACS_Expo_IQ_FlexPorts_and_Ewallet-September-7-2026.md]].
+
+This is **evolution, not contradiction**: nobody on Sept 7 argued against the cloud. Klimovich's "это даже не обсуждается" remains the direction; what changed five days later is that it happens on JVL's own server, after the show, rather than now. **Read this page as the direction and the Sept-7 page as the current state.**
+
+It also **partly answers the first open question below** — for the local period only, the wallet stays scoped to the location that created it, and that is now an accepted stated limit rather than an unexamined default. Nothing was said about the post-cloud design, so the question stands for that [[raw/Meeting_Transcript_GACS_Expo_IQ_FlexPorts_and_Ewallet-September-7-2026.md]].
+
 ## Relationship to earlier rulings
 
 The Aug-24 Flex-Port-Mini design already assumed a central component — Pavel's QR-embedded cloud-service URL registering transactions centrally ([[wiki/decisions/2026-08-24-drop-pin-from-evoucher-flow.md]]) — but the wallet itself was never moved off the local device. This ruling closes that gap. It is also what makes the phone-based direction discussed on the same call reachable at all; see [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept-2).
@@ -42,3 +50,5 @@ The Aug-24 Flex-Port-Mini design already assumed a central component — Pavel's
 ## Sources
 - [[raw/Meeting_Notes_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- [[raw/Meeting_Notes_GACS_Expo_IQ_FlexPorts_and_Ewallet-September-7-2026.md]]
+- [[raw/Meeting_Transcript_GACS_Expo_IQ_FlexPorts_and_Ewallet-September-7-2026.md]]

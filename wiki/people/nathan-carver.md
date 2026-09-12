@@ -3,7 +3,8 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 28
+source-count: 30
+open-commitments: 1
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
 
@@ -97,6 +98,14 @@ On the Payment Hub GL / sales-tax session ([[wiki/meetings/2026-05-12-payment-hu
 
 On the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-updates-after-the-show.md|Sept-2 Flex-IQ pre-pilot call]] (Russian; Nathan **not present**), asked for the payment-hub status, [[wiki/people/pavel.md|Pavel Frolov]] answered: "там всё что было сделано [Нейтоном] оно за[]деплоино" — everything Nathan built is deployed. What remained was operational, not development: [[wiki/people/andrei-klimovich.md|Andrei]] to fund the test card and Pavel to re-run the API request so stuck, errored transactions move to pending and retry ACH the next morning. Detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept-2). [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
 
+## Sept 7 2026 — named as the person who can see the bank side of the Dwolla settlement
+
+At the [[wiki/meetings/2026-09-07-sas-aft-on-flex-port-and-remote-update.md|Sept 7 10:02 engineers' alignment]] (Russian), [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] confirmed the test transaction had gone through Dwolla and the money had been debited — "Деньги снялись" — but that he cannot see the funds arrive: "надо взглянуть на стороне банка, что к нам пришли эти деньги — это я уже не вижу… это наверно [Нэйтан] должен увидеть" [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+
+## Open commitments (Sept 7 2026)
+
+- [ ] Confirm on the bank side that the Dwolla transaction funds actually arrived — due unspecified — [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Notes_Payment_Hub_GL_Sales_Tax-May-12-2026.md]]
 - [[raw/Nate_Val_Sync-March-11-2026.md]]
@@ -127,3 +136,5 @@ On the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-updates-after-the-show.md|Se
 - [[raw/flex_POS-use_case_architecture_requirements-june-19-2025.md]]
 - [[raw/Meeting_Notes_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- [[raw/Meeting_Notes_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]

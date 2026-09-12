@@ -2,8 +2,8 @@
 type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
-aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing, GAMOA, ILERS, ILAS report, Eilers, Eiler report, show special, Mega Hit Blaze, sales channel report, Bulldog Gaming, ARC, ARC Gaming, Class A, C-Store Connect, GACS, route consolidation, gift-card cash-back notice, Chris Plonic, Double Down Gaming, Ryan O'Donnell, Billy Liu, Play Payments, PlayPay, banking licence moat, 7455 modem, KORE, KORE SIM, APN]
-source-count: 168
+aliases: [Georgia, Georgia co-op, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing, GAMOA, ILERS, ILAS report, Eilers, Eiler report, show special, Mega Hit Blaze, sales channel report, Bulldog Gaming, ARC, ARC Gaming, Class A, C-Store Connect, GACS, route consolidation, gift-card cash-back notice, Chris Plonic, Double Down Gaming, Ryan O'Donnell, Billy Liu, Play Payments, PlayPay, banking licence moat, 7455 modem, KORE, KORE SIM, APN, GACS October 21, Pay Slim, over-drive]
+source-count: 170
 open-commitments: 46
 open-questions: 22
 ---
@@ -1076,6 +1076,16 @@ Three and a half weeks after the [[wiki/meetings/2026-08-10-lte-modem-v1000-geor
 - **Commercially this is the modem the whole data programme rides on** — [[wiki/decisions/2026-08-21-cell-modem-on-every-machine-from-september-1.md]] and [[wiki/topics/machine-data-repurchase-program.md]]. As of Sept 4 the fleet-wide fitment ruling is unchanged; what is not yet true in the field is that a fitted modem actually connects [[raw/Meeting_Transcript_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]].
 - **§15.8:** clear — component pricing and vendor economics only; no named-person compensation.
 
+## Sept 7 2026 — the convenience-store show becomes a product deadline, and Val pushes installations ahead of it
+
+The [[wiki/meetings/2026-09-07-gacs-show-setup-flex-iq-flex-ports-and-the-e-wallet.md|Sept 7 2026 8:00 AM call]] (Russian) is where the trade-show channel approved on Aug 31 turns into an engineering schedule. [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] opened it with "У нас следующая выставка[ —] октябрь 21," and the derived notes name the show **GACS** [[raw/Meeting_Transcript_GACS_Expo_IQ_FlexPorts_and_Ewallet-September-7-2026.md]] [[raw/Meeting_Notes_GACS_Expo_IQ_FlexPorts_and_Ewallet-September-7-2026.md]]. **The date does not match the one recorded on Aug 31 — see the open contradiction below.**
+
+- **The stand is a sales configuration, not an exhibit.** Val, interrupting the agenda: "мы сейчас не просто говорим, что вот у нас будет трейд[-шоу]… Мы сейчас активно занимаемся продажей… определённых решений в Джорджии. Одн[о] из основных решений — это флекс[-]айкью и порты. И флекспей." Klimovich agreed and called the show "наш конкретный milestone с конкретной датой[,] дедлайном," with the stand built on "текущем нашем понимании требовани[й] рынка." Three setups are planned — Flex-IQ with Flex-Ports, the **Pay Slim** kiosk, and the Flex recycler; the device detail is on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 7, 8:00) [[raw/Meeting_Transcript_GACS_Expo_IQ_FlexPorts_and_Ewallet-September-7-2026.md]].
+- **Val will not let the show set the pace.** "Когда мы говорим про выставку, мы автоматически отбегаем это на октябрь месяц[,] на конец октября. У нас… я работаю сильно над тем, чтобы сделать **installation в сентябре**. Сейчас. **Мне нужен продукт сейчас**… тот, кто захватит сегодня вот этот рынок [первым,] тот будет им контролировать. То есть сегодня нужно работать в системе **over[-]драйв**[.] Вот эта система регулярной… планированной работы[ —] её надо чуть-чуть запарковать… Мне нужн[ы] IQ [и] flex pay. **Завтра**" [[raw/Meeting_Transcript_GACS_Expo_IQ_FlexPorts_and_Ewallet-September-7-2026.md]] [[raw/Meeting_Notes_GACS_Expo_IQ_FlexPorts_and_Ewallet-September-7-2026.md]].
+- **Two Georgia market facts stated in passing.** Room size: "лак[ейшн]ы очень маленькие, там **в среднем стоит 6 машин**" — consistent with the 5.9-machines-per-location arithmetic Val gave operators on Aug 31 and Sept 4 above. And the incumbent redemption habit JVL's configurable wallet lifetime is being set against: "обычно локации[,] всё, что я видел… здесь, в Джорджии[ —] они дают **30 дней**[,] срок жизни тито[-]тикета" (Klimovich) [[raw/Meeting_Transcript_GACS_Expo_IQ_FlexPorts_and_Ewallet-September-7-2026.md]].
+- **What this costs JVL commercially in this market:** installing now means displacing the incumbent's system outright, not sitting beside it — [[wiki/decisions/2026-09-07-flex-iq-cannibalises-mudagoose-no-parallel-operation.md]], which hardens the exclusivity term of [[wiki/decisions/2026-08-31-transactional-equipment-only-with-location-exclusivity.md]] into a product constraint and has JVL running its own cabling or its own wireless network at each location [[raw/Meeting_Transcript_GACS_Expo_IQ_FlexPorts_and_Ewallet-September-7-2026.md]].
+- **§15.8:** clear — market, show and product economics only; no named-person compensation.
+
 ## Open commitments (Sept 4 2026)
 
 - [ ] [[wiki/people/lena.md|Lena Zhukova]] — finish the Queen of Luxor graphics and the wider touch area on the nudge arrows (six scenes re-exported) — due before the September 10 submission — [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
@@ -1085,6 +1095,11 @@ Three and a half weeks after the [[wiki/meetings/2026-08-10-lte-modem-v1000-geor
 - [ ] Unassigned — fix the Jackpot Rush "win at max bet" help text live on the ten V2 trial machines in Georgia — no owner or date set — [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 
 ## Open contradictions
+
+**The date of the GACS convenience-store show.** Two sources a week apart give different dates for what appears to be the same show; neither mentions the other and nothing reconciles them. Recorded, not resolved.
+- **October 22** — Aug 31 2026, English, a colleague reading the listing aloud to Val in the Georgia office: "There's another show on October twenty-second, which is called the **GACS Southern Convenience Store Petroleum Show**," with Val repeating "That's also October twenty second." [[raw/Meeting_Transcript_C_Store_Trade_Show_Go_To_Market-August-31-2026.md]]
+- **October 21** — Sept 7 2026, Russian, Andrei Klimovich planning the stand: "У нас следующая выставка[ —] октябрь 21," repeated as the deadline three times ("к октябрю 21… начиная с условного октября 21"). The transcript never names the show; the derived notes identify it as GACS. [[raw/Meeting_Transcript_GACS_Expo_IQ_FlexPorts_and_Ewallet-September-7-2026.md]] [[raw/Meeting_Notes_GACS_Expo_IQ_FlexPorts_and_Ewallet-September-7-2026.md]]
+- *(A multi-day show spanning both dates would explain it, but no source says so — recorded here as an inference, not a resolution.)*
 
 **The Georgia daily-hold figure (as of Aug 21 2026).** Two irreconcilable figures for the same period were stated in the same session; recorded, not resolved.
 - **Val: about $230–240 per day net win**, and earlier that evening "we know for sure that it's making north of $200 per day." Juan corroborated that Val "said, 200." [[raw/Meeting_Transcript_Georgia_Machine_Sales_Strategy_Post_GOAM-August-21-2026.md]] [[raw/Meeting_Transcript_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
@@ -1272,3 +1287,5 @@ Felipe screen-shared his prospect pipeline organised into monthly "waves," each 
 - [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]]
 - [[raw/Meeting_Notes_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]]
 - [[raw/Meeting_Transcript_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]]
+- [[raw/Meeting_Notes_GACS_Expo_IQ_FlexPorts_and_Ewallet-September-7-2026.md]]
+- [[raw/Meeting_Transcript_GACS_Expo_IQ_FlexPorts_and_Ewallet-September-7-2026.md]]

@@ -3,8 +3,8 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий]
-source-count: 74
-open-commitments: 10
+source-count: 78
+open-commitments: 11
 ---
 
 # Genadi Peari
@@ -289,6 +289,30 @@ He also reported spending time the previous day pushing [[wiki/people/elizabeth.
 
 - [ ] Source and spec a cheap non-touch information display for Flex-Port-Mini and confirm flash/memory sizing so the build lands near $40–45 — due unspecified — [[raw/Meeting_Notes_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
 
+## Sept 7 2026 (8:00) — he challenges the ticket printer, and supplies the idea the group liked most
+
+At the [[wiki/meetings/2026-09-07-gacs-show-setup-flex-iq-flex-ports-and-the-e-wallet.md|8:00 GACS show-setup call]] (Russian) — the first of the morning's three.
+
+- **He asked the awkward hardware question twice and lost it on the merits.** "откуда пришло требование, что нам нужен именно ticket[-]принтер на лак[ейшне]? Почему обычный ролл[-]принтер, который уже стоит, не может быть и [для e-]вол[етов]?" His case: the roll printer is already there, the TITO unit is "немножко нестандартная вещь," it needs its own supply because "они **24 вольта**," everyone else prints QR codes on ordinary roll printers, and the tickets are awkward to carry — "вот эти тикеты в кошельке не очень удобно держать, они длинные." Pavel, Chudinov and Val defended the TITO printer on paper quality and ticket format; the ruling went against him — [[wiki/decisions/2026-09-07-one-tito-printer-and-one-paper-for-everything.md]] [[raw/Meeting_Transcript_GACS_Expo_IQ_FlexPorts_and_Ewallet-September-7-2026.md]]
+- **And in the same meeting he supplied the improvement everyone approved.** Starting from "каким образом [и]гро[к] получает [и]волет, если нету на машине принтера?" he proposed that the Flex-Port send a command over SAS so the ticket prints at the cashier's IQ printer — his objection to the alternative being "**он оставляет машину с выигрышем**." Klimovich: "мне нравится. Идея хорошая" — [[wiki/decisions/2026-09-07-print-the-winnings-ticket-at-the-cashier-over-sas.md]] [[raw/Meeting_Transcript_GACS_Expo_IQ_FlexPorts_and_Ewallet-September-7-2026.md]]
+- **He set the Pay Slim schedule under questioning.** The brackets and fittings for the dispenser and printer are done, but the drawings had **not** gone out — Val: "вы уже отправили чертежи?"; Genadi: "Нет ещё… В течение одного[-]2 дней. Сегодня[,] завтра" — and the Slim itself about two weeks. Val converted it into Wednesday drawings, factory Monday, air freight, "в течение 2 недель это будет в Джорджии" [[raw/Meeting_Transcript_GACS_Expo_IQ_FlexPorts_and_Ewallet-September-7-2026.md]] [[raw/Meeting_Notes_GACS_Expo_IQ_FlexPorts_and_Ewallet-September-7-2026.md]]
+
+*(His three commitments from this meeting — the Pay Slim drawings, the first Pay Slim unit, and the 3D-printed TITO-printer enclosure — are held once on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] and [[wiki/decisions/2026-09-07-one-tito-printer-and-one-paper-for-everything.md]], and deliberately not re-counted here.)*
+
+## Sept 7 2026 (9:08) — he frees the board space for the Wi-Fi module and kills Val's cost-saving idea in one line
+
+At the [[wiki/meetings/2026-09-07-wifi-on-flex-port-and-qr-provisioning.md|9:08 Wi-Fi meeting]] (Russian).
+
+- **He said the thing that settled the access-point question.** Against Bosik's proposal to make a JVL device the AP and Val's momentary agreement, Genadi: "Андрей, это не экономия, это надежно здесь. Ротор поставить, этого не ставить — это не экономия" — removing the router is not a saving. Val withdrew his own idea straight after [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- **He confirmed the module already carries FCC** when Pavel queried it: "Он уже он уже включен," and compared it to the module on the Rockchip board [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- **He freed the space.** First "Выкинь 2 банк[.] Флэш," then the better answer to Alekseev's question about two serial connectors — "Выглядит, что нам один нужен" — giving both board space and a UART: "нам 3 сериальных порта не нужно… на порте, то есть один можно убрать… [остаётся] 2 для вай фая." He noted the printer UART is spare in this variant and that he had already sent the SAS arrangement: "мы уже договорились, куда сас[,] я уже… послал уже" [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- **He is the one who made the antenna solvable:** "у нас [порт] торчит наружу, и там огромный периметр, по всему периметру можно пустить [антенну]," and asked for an optional socket for a certified external antenna to be fitted regardless. Alekseev would not commit — see [[wiki/decisions/2026-09-07-wi-fi-module-on-flex-port-with-an-external-router.md]] [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- **He set the hardware deadline:** the module goes into the board revision now under way, "перед заказом вот этого большого количества" — before the large order [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+
+## Open commitments (Sept 7 2026)
+
+- [ ] Provide board space and an optional socket for a certified external antenna within the Flex-Port's plastic perimeter — due unspecified; not fully agreed with Alekseev — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Genadi_General_Alignment-May-22-2026.md]]
@@ -365,3 +389,7 @@ He also reported spending time the previous day pushing [[wiki/people/elizabeth.
 - [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
 - [[raw/Meeting_Transcript_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+- [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- [[raw/Meeting_Notes_GACS_Expo_IQ_FlexPorts_and_Ewallet-September-7-2026.md]]
+- [[raw/Meeting_Transcript_GACS_Expo_IQ_FlexPorts_and_Ewallet-September-7-2026.md]]

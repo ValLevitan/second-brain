@@ -4,7 +4,7 @@ title: Eugine Yavorski
 date: 2025-02-18
 aliases: [Eugine Yavorski, Evgeny Yavorsky, Yavorski, Yavorsky, Яворский, Evgeny Egorsky, Egorsky, Егорский, Evgeny Nevorsky, Nevorsky, Неворский, Evgeny, Yevgeny, Zhenya, Женя, Евгений]
 disambiguation: "FlexPort/FlexPay integration engineer (alias Egorsky), this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
-source-count: 27
+source-count: 29
 open-commitments: 4
 ---
 
@@ -135,6 +135,20 @@ Ruling: [[wiki/decisions/2026-09-04-port-the-smib-sas-module-into-the-flex-port-
 
 - [ ] Rebuild his working environment and take up the SAS port on Flex-Port — due from Monday evening, Sept 7 2026 — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
 
+## Sept 7 2026 — Val takes the tasks off him
+
+He was not on either Monday meeting, and both facts recorded about him here are second-hand.
+
+At the [[wiki/meetings/2026-09-07-sas-aft-on-flex-port-and-remote-update.md|10:02 engineers' alignment]] (Russian), [[wiki/people/pavel.md|Pavel Frolov]] reported that the Flex-Port remote-firmware-update task "висит на Евгении Яворском, и он ещё её не начинал" — sits with Yavorsky and he has not started it [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+
+[[wiki/people/val-levitan.md|Val]]'s response was to remove it, and then to generalise: **"Давайте мы Яворского снимем, потому что [с] Яворским мне очень тяжело работать"** and **"я я бы не хотел на Яворского иметь какие-то таски[;] с ним что-то я не умею с ним работать."** [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] took the remote update instead, after the Wi-Fi work — [[wiki/decisions/2026-09-07-remote-firmware-update-mandatory-and-taken-off-yavorsky.md]] [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+
+Consequence for the SAS thread: the Sept-4 commitment that Yavorsky would take up the Flex-Port SAS port from Monday evening is **superseded** — Pavel took the larger part of the implementation. Annotated on [[wiki/decisions/2026-09-04-port-the-smib-sas-module-into-the-flex-port-main-branch.md]] [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+
+He is also the other half of "the two Evgenys" whose SAS firmware Pavel used for the Friday AFT experiment — "эту прошивку, которую Евгений, 2 Евгения делали… сасовскую" [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+
+*(Genadi Peari's private Sept-4 judgement — that nothing on this thread would work without Pavel — is what Sept 7 looks like in practice. No source draws that link; recorded as an observation, not a sourced claim.)*
+
 ## Sources
 
 - [[raw/Schedule_review-March-4-2026.md]]
@@ -164,3 +178,5 @@ Ruling: [[wiki/decisions/2026-09-04-port-the-smib-sas-module-into-the-flex-port-
 - [[raw/flex-pay_flex-port_update-may-15-2025.md]]
 - [[raw/flex-port_flex-pay_smib_update-may-20-2025.md]]
 - [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+- [[raw/Meeting_Notes_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
