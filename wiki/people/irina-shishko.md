@@ -4,8 +4,8 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 83
-open-commitments: 16
+source-count: 85
+open-commitments: 17
 ---
 
 # Irina Shishko
@@ -314,6 +314,25 @@ She had the AI assistant build her the list — capabilities whose requirements 
 
 - [ ] Review and update the status of every capability and requirement she authored, as Klimovich has done for his own — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 
+## Sept 17 2026 (8:02 AM) — she drives the list, and one sentence about the installed base moves a capability out of MVP 1
+
+The fourth MVP 1 morning call ([[wiki/meetings/2026-09-17-transactional-mvp1-skillpay-multi-product-and-device-network-security.md|Sept 17 2026 8:02 AM call]], Russian). She ran the requirement-by-requirement pass over [[wiki/people/andrey-bosik.md|Bosik]]'s network document, opening each item by number, telling him where to click, and asking the question that decided each one. [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+**Her decisive intervention is eleven words of operational experience.** Bosik argued the remote FlexPort master had to be in MVP 1 because walking a USB stick round six Flex-Ports is "**такое себе удовольствие**". Irina: "**Обновить можно из флешки[,] 6 штук — это не проблема[;] мы 3000 машин обновляем с флешки**" — JVL already updates three thousand machines that way. [[wiki/people/andrei-klimovich.md|Klimovich]] conceded within the minute and she closed it: "**значит, убираем на MVP 2 и поехали дальше**". See [[wiki/decisions/2026-09-17-bosiks-network-list-splits-between-mvp1-and-mvp2.md]]. [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+**She also enforced release hygiene on a delivered capability.** Told capability 91 was already done and therefore had no fix version, she insisted the version go on anyway — "**чтобы мы понимали, что это у нас вошло в этот релиз. Поэтому чисто добавить версию**" — and had Bosik set it during the call. [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+**One correction she took, and it is worth recording because it runs the other way.** She believed capability 141 had been moved wholly to the next release the previous day; [[wiki/people/dmitri-chudinov.md|Chudinov]] corrected her — "**Капс[тура] 141 не может уехать [в MVP] 2[:] там уже часть физически закрыта или практически закрыта. Там одна фича осталась за мной**" — and she accepted it without argument. [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+**Progress on Val's non-functional requirements.** She reported working through Pavel's Flex-Port list with Claude — "**я позволила себе с Кло[дом] дописать, переработать там кое[-]что[,] разделили**" — partially done, to be finished and sent to Klimovich to review. See the Sept-17 update on [[wiki/decisions/2026-09-15-the-week-goes-to-non-functional-requirements-and-monday-september-21-is-the-deadline.md]]. [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+She also asked to be added to the new InComm SkillPay email thread ("**В меня добавляй**") and confirmed that the printer tilt texts Klimovich wants for the Flex IQ text collection are the only hardware messages that apply — the bill validator is not on the near-term Flex IQ. [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+## Open commitments (Sept 17 2026)
+
+- [ ] Finish reworking the non-functional Flex-Port requirements with Pavel Frolov and send the list to Andrei Klimovich to review — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+
 ## Sources
 
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
@@ -399,3 +418,5 @@ She had the AI assistant build her the list — capabilities whose requirements 
 - [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]

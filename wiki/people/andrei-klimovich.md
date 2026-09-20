@@ -4,8 +4,8 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich, Andre]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 80
-open-commitments: 62
+source-count: 82
+open-commitments: 70
 open-questions: 0
 ---
 
@@ -506,6 +506,34 @@ A small human detail that shaped the meeting: his machine was struggling through
 - [x] Push his own MVP 1 capabilities and requirements out of unsuitable statuses — discharged for the items he authors; items authored by others were deliberately left to their authors — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - [x] Create the MVP 2 cloud capability — confirmed created on Sept 15 2026 ("я уже вчера создал"); the separate move of requirement 1538 onto it remains unconfirmed — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 
+## Sept 17 2026 (8:02 AM) — a competitor's launch lands on his desk and he widens the design rather than picking a card
+
+The fourth MVP 1 morning call ([[wiki/meetings/2026-09-17-transactional-mvp1-skillpay-multi-product-and-device-network-security.md|Sept 17 2026 8:02 AM call]], Russian), and the first of the four he ran without [[wiki/people/val-levitan.md|Val]] in the room. [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+**He opened with market intelligence, not with Jira.** InComm launched SkillPay on Sept 16 — loads and spends like the existing $2 card but cashes out at any certified ATM — and he read the consequence for JVL immediately: "**вся логика подсказывает, что игроки с большим удовольствием будут хотеть именно ск[ил]л[ ]пей карту**", so JVL must be able to issue it. He also named the risk in the same breath: nobody knows how regulators will react, and "**если через неделю её закроют, мы сейчас проделаем работу и выяснится, что она не поддерживается**". [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+**His answer to that risk is the decision of the day, and he corrected himself upward mid-sentence:** "**давайте мы примем решение, что для [MVP] один мы делаем поддержку 2 продуктов — нет, не 2. Мы делаем поддержку мультипродуктов от инкома**", on the payment hub, as a collection of products. See [[wiki/decisions/2026-09-17-jvl-supports-multiple-incomm-products-not-a-fixed-pair.md]]. [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+**He then parked the part he could not settle, on purpose.** The cashier's screen flow drew three incompatible positions and he stopped it rather than force one: "**давайте мы ещё поспим с этой идеей… давайте сейчас припаркуем это обсуждение**", back on tomorrow's call. His own contribution to it was the frame everyone accepted — "**Это деньги игрока, и он всегда будет хотеть забрать всё**" — and the observation that the existing pre-fill rule silently decides for the player once two products have different max caps. [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+**On scope he ruled five times in ninety minutes**, all recorded on [[wiki/decisions/2026-09-17-bosiks-network-list-splits-between-mvp1-and-mvp2.md]] — and the notable one is where he *gave ground*: on remote FlexPort firmware update he accepted Irina Shishko's USB-stick argument with "**[MVP] один согласен, это мы переживём**", attaching only a logging condition. That reverses half of his own week-old position ([[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]]). [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+**He is also the channel through which Val is present.** Twice he invoked Val's standing instructions without Val being on the call — the Monday-September-21 item on operating devices remotely, which he used to set the MVP 1 boundary for signal telemetry, and (via Pavel) the watchdog rule. [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+**Housekeeping he took on himself:** the Flex IQ text collection. "**я дожимаю все эти экраны, создаю коллекцию текстов**", and he asked the team for every hardware-related string a cashier can see on the IQ screen — printer tilts from Irina, the InComm error list and JVL's own messages ("no internet", "lease expired") from Chudinov. [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+## Open commitments (Sept 17 2026)
+
+- [ ] Write the multi-product capability up in Jira — a product collection on the payment hub — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [ ] Rethink the cashier UI flow for choosing the product and bring it back to tomorrow's call — due **Sept 18 2026** — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [ ] Install the new MudaGoose build and record screenshots and video of the full activation flow, per product, for InComm's broker verification — due **today** (Sept 17) — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [ ] Find a production SkillPay card with a barcode and swipe it on a Flex IQ so Chudinov can read the magnetic stripe from the logs; his test card has no barcode — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [ ] Open a new email thread to InComm — JVL is ready to support SkillPay; send documentation and test cards, including two of different products with different UPCs — and add Bosik to the KORE communication chain — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [ ] Link orphan requirements 1431, 1030, 1413 and 1421 to the MVP 2 parking capability, and attach 1431 to FlexPay — due unspecified; 1431 and 1030 done on the call — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [ ] Take requirement 1410 into the portal dashboard work, so Flex-Ports and their serial numbers appear — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [ ] Collect the hardware-related on-screen texts for the Flex IQ text collection — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+
 ## Sources
 
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
@@ -588,3 +616,5 @@ A small human detail that shaped the meeting: his machine was struggling through
 - [[raw/Meeting_Transcript_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]

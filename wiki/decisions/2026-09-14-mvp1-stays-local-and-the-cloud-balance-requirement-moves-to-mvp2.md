@@ -3,7 +3,7 @@ type: decision
 title: MVP 1 keeps wallet balances on the terminal — requirement 1538 comes off capability 158 and moves to a new MVP 2 cloud capability, and the MVP 1 dashboard shows activated cards only
 date: 2026-09-14
 aliases: [requirement 1538, MVP1 cloud scope is two things, device online status, issued cards dashboard, operations dashboard specification, machine statistics premium tier, capability 158, cloud balance moves to MVP2, local terminal storage, dashboard shows activated cards only, eWallet movement reporting deferred, Claude closing a capability wrong, рекламент 1538, requirement 1436, data retention, factory reset wipes everything, capability 177]
-source-count: 6
+source-count: 7
 status: active
 open-commitments: 3
 open-questions: 2
@@ -70,6 +70,18 @@ At the [[wiki/meetings/2026-09-16-transactional-mvp1-open-questions-and-offline-
 
 **The operations-dashboard specification is still outstanding.** Klimovich's Sept-16 status was "продолжаю заниматься [UI] и… дэшборд[ом]" — still in progress, nothing delivered [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
 
+
+## Update, Sept 17 2026 — 1538 is still not mentioned, and a second "capability created yesterday" appears
+
+At the [[wiki/meetings/2026-09-17-transactional-mvp1-skillpay-multi-product-and-device-network-security.md|Sept-17 8:02 AM call]] requirement **1538 was not raised at all**, by anyone. The commitment below therefore remains open and unconfirmed for a third consecutive day [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]].
+
+**Two new facts about the MVP 2 capability, neither of which settles its number.**
+
+- **Klimovich again describes creating one "yesterday", for a different purpose.** On Sept 16 it was the *cloud* capability, created Sept 15. On Sept 17 he says: "**Для [MVP] 2… вчера я создал такой плейхолдер [капабилити]… я туда скидываю вот как раз такие сиротливые рек[вайрменты]… И вот это наш бакет[,] переиспользован[ие]**" — a **placeholder / parking bucket for orphan requirements**, created the previous day, i.e. Sept 16. Whether this is the same capability doing two jobs or a second one is not stated anywhere in the source [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]].
+- **The only number spoken about it is a range, read off the screen by [[wiki/people/irina-shishko.md|Irina Shishko]]:** "**там что[-]то написано[:] 14[ ]31 привязать кап 151[,] но он привязан к кап[,] там что[-]то 170 с чем[-]то**" — attached to a capability "something in the 170s". Klimovich confirmed the function and not the number: "**Я уже привязал его[;] это вот наш паркинг для [MVP] 2**" [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]].
+
+**"Something in the 170s" is consistent with 177 and proves nothing.** The corpus still does **not** establish 177 as the MVP 2 cloud capability's identifier, and this recording does not change that. Requirements **1431**, **1030**, **1413** and **1421** were all sent to the same parking bucket on Sept 17 — see [[wiki/decisions/2026-09-17-bosiks-network-list-splits-between-mvp1-and-mvp2.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — move requirement 1538 onto the MVP 2 cloud capability, off capability 158 — restated Sept 15 2026 as due **that day**. **Partially discharged Sept 16 2026**: the MVP 2 cloud capability was created on Sept 15; the move of 1538 is still unconfirmed — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
@@ -90,3 +102,4 @@ At the [[wiki/meetings/2026-09-16-transactional-mvp1-open-questions-and-offline-
 - [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]

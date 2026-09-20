@@ -3,7 +3,7 @@ type: decision
 title: Anything that depends on the cloud comes out of MVP 1 — Val orders the whole requirement list swept against what will actually work on October 1, and the rule is then applied requirement by requirement
 date: 2026-09-16
 aliases: [be honest with yourselves, уберите это, capability 116, capability 177, requirement 1379, requirement 1431, requirement 1444, requirement 1450, requirement 1483, requirement 1485, requirement 1486, single cloud channel, cloud wording removed, MVP2 cloud capability, local store only, open items capability, самим себе врать нельзя]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 1
 open-questions: 1
@@ -70,6 +70,13 @@ Separately, and against deleting requirements wholesale, Val proposed a holding 
 
 - [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — find the FlexPay capability that requirement 1431 (ticket PIN) should hang off, now that it is unlinked from Flex IQ capability 141 — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 
+
+## Update, Sept 17 2026 — one more data point on the number, and it is still not enough
+
+The [[wiki/meetings/2026-09-17-transactional-mvp1-skillpay-multi-product-and-device-network-security.md|next morning's call]] sent four more orphan requirements (**1431, 1030, 1413, 1421**) to the same MVP 2 parking bucket, and produced the only fresh evidence about its identifier: Irina Shishko, reading a note off the screen, said 1431 is attached to "**кап[,] там что[-]то 170 с чем[-]то**" — a capability *somewhere in the 170s*. Klimovich confirmed only that he had linked it and that it is "**наш паркинг для [MVP] 2**" [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]].
+
+That is consistent with 177 and establishes nothing. **177 stays provisional and is not asserted.** A second uncertainty was added at the same time: Klimovich describes creating a *placeholder capability for orphan requirements* "yesterday" (Sept 16), having described creating the *cloud* capability "yesterday" (Sept 15) on the previous call — one capability or two is unstated. See [[wiki/decisions/2026-09-17-bosiks-network-list-splits-between-mvp1-and-mvp2.md]].
+
 ## Open questions
 
 - **Which capability is actually the MVP 2 cloud capability.** The team hung requirement 1379 on 177 because it was the highest-numbered, while recognising 177 as the balance-related one; the number is not established — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
@@ -79,3 +86,4 @@ Separately, and against deleting requirements wholesale, Val proposed a holding 
 ## Sources
 - [[raw/Meeting_Notes_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]

@@ -3,9 +3,9 @@ type: organization
 title: Incom (payment processor)
 date: 2025-02-27
 aliases: [Incom, InComm, SkillPay launch email, hold off for two years, we will take the card away from you, Intum, they totally misled me, InComm's credit, that shift in opinion has only happened recently, black prize play card, white card ATM functionality, replace InComm on the back end, backend displacement, Incomm, Income, NCOM, Incom Payments, wrapped card rule, PAX, PAX 80, reloadable gift cards, Nathan Carver, cash-back commission, barcode activation, Mastercard rules, ABA number, MLH fee sharing, kicked to the curb, InComm doesn't offer any profit sharing, they've ignored us before during and after the show, sponsor bank behind InComm, 120 million a year, the easy living guys, daily cap five k, velocity calculated on the fly, it still says soon, InComm is the master guy, sub accounts, they actually buy bonds, biggest issuer, blue card, black card, billion-dollar gorilla, two dollars to load]
-source-count: 70
+source-count: 72
 open-commitments: 14
-open-questions: 5
+open-questions: 7
 ---
 
 # Incom (payment processor)
@@ -533,6 +533,37 @@ Billy names the addressee of the Georgia Lottery's new opinion letter as **John 
 
 **Billy will not deal with InComm at all** — "**We don't do business with the devil… he's the billion-dollar gorilla**" — hardening the Sept-2 position above. Val declined to endorse it: "**I'm not sure where you get this information.**" See [[wiki/people/billy-liu.md]] [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]. The derived notes record Val pushing "**twice, asking why it is half and why InComm appears to get more**" and list the answer as one of the meeting's open items [[raw/Meeting_Notes_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]].
 
+## Sept 17 2026 (8:02 AM) — the SkillPay launch as JVL's engineers heard it, and InComm's conditions for verifying JVL as a broker
+
+Forty-seven minutes before the Roswell breakfast below, the [[wiki/meetings/2026-09-17-transactional-mvp1-skillpay-multi-product-and-device-network-security.md|MVP 1 engineering call]] opened on the same event from the opposite end. [[wiki/people/andrei-klimovich.md|Klimovich]]'s briefing: "**ИНКОМ вчера запустили официально на рынок карточку skill pay**" — launched officially on Sept 16 — and what makes it different: it loads and spends like the existing card, "**но в отличие от прайс[]пей, теперь её можно вставить в любой сертифицированный [ATM] и получить на выход кэш. Это большое изменение на рынке**" [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]].
+
+**Note the information gap inside the same morning, recorded as a juxtaposition and not as a contradiction.** On this call the regulator's response is still an unknown — "**Ещё непонятно, как регуляторы на это отреагируют**" — and the named risk is prospective: "**если через неделю её закроют, мы сейчас проделаем работу и выяснится, что она не поддерживается**". By the time Val sat down to breakfast at 8:49 he was being told by an operator that the Georgia Lottery had already pushed back publicly the previous evening (next section). The two rooms are not disagreeing; the engineering room had not yet been told [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]] [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]].
+
+### Two products, two sets of settings
+
+- **Activation fee:** "**если [прайс]пей — это $2, то у скил[л ]пей карты это $3**" — the same $2 / $3 split this page records from June 2025.
+- **Load minimum and maximum are identical today and explicitly not guaranteed:** "**Мин[/]макс кепы загрузки на карту совпадают[,] пока это 5 и 1000, но не факт, что они такими останутся**" — **$5 / $1,000**.
+- **Daily cap and velocity may differ by product:** "**Возможно[,] d[ai]ly cap[,] возможно[,] v[e]l[oc]ity отличаются по продукту**" — possibility, not confirmed fact.
+- Klimovich's conclusion, which drove JVL's design answer: the two products' settings "**должны существовать раздельно, чтобы их можно было настраивать независимо друг от друга**". See [[wiki/decisions/2026-09-17-jvl-supports-multiple-incomm-products-not-a-fixed-pair.md]]. The derived notes carry the same three figures — "$2 for PricePay and $3 for SkillPay", load min/max "$5 and $1,000" the same today with no promise they stay so, and daily cap and velocity possibly differing [[raw/Meeting_Notes_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]].
+
+[[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+### What InComm requires before it will verify JVL as a broker
+
+This is the first statement of the condition in the corpus. "**ИНКОМ для того, чтобы верифицировать [JVL] как брокера, который будет на рынке выпускать их карточки, просит нас прислать им скриншоты и видео всего фл[о]у для каждого продукта**" — screenshots and video of the **entire flow, per product**, for every device that issues cards. Scope today is the Flex IQ; "**киоск[е] мы не трогаем**" [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]].
+
+**What they are actually checking is the sleeve.** "**Они хотят посмотреть, что пишется на экране, что мы обещаем игроку как процесс… Они хотят убедиться, что карта активируется в тот момент, когда находится внутри слива, что кассир не открывает слив, не лезет внутрь, отдаёт полностью запакованную карточку игроку**" — the card must be activated while still sealed, the cashier must not open the sleeve or reach inside, and the player receives a fully packed card [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]. *(This is the operational form of the wrapped-vs-unwrapped shipping rule this page records from Aug 21 2026.)*
+
+**JVL can satisfy it from the MudaGoose environment, and InComm does not care which environment it is.** Klimovich: "**Мы это можем сделать на муто[ ]гус[ ][э]н[ва]йр[он]мент без проблем**", and "**им по барабану[,] муто[]гус[ ][э]нв[айронмент] это или [прод] [э]нв[айронмент;] им неважно на этом этапе[,] им важно увидеть, что происходит**". The build sent two or three days earlier already has the player-confirmation step removed, which [[wiki/people/dmitri-chudinov.md|Chudinov]] confirmed twice ("**Убрали[,] убрали[,] да**"), so it now matches the real cashier-only flow. Klimovich's stated end state: "**после этого… мы будем ими полностью верифицированы и, в принципе, можем на рынок заходить**" [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]].
+
+### What JVL is asking InComm for
+
+Klimovich opened a new email thread — "**закину это в ИНКОМ[:] давайте[,] вот мы готовы поддерживать скилл[ ]пэй… пришлите нам всё, что нам надо, дайте нам тестовые карточки**" — to include [[wiki/people/pavel.md|Pavel Frolov]], Chudinov, [[wiki/people/irina-shishko.md|Irina Shishko]] (who asked to be added: "**В меня добавляй**") and Sergei. Chudinov's specific ask on top: "**чтоб 2 тестовые карточки были… разнопродуктовые с разными [U]PC**" — two test cards of *different products* with *different UPCs*. JVL has test cards for the existing product only, and Klimovich's own SkillPay test card "**она без баркода даже пока ещё**" — it has no barcode yet, so he needs a production card to swipe [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]].
+
+One integration fact was given in passing: the **UPC is carried in the contract** with InComm — "**там UPC передаётся в контракте**" (Chudinov) [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]].
+
+**§15.9:** no UPC value, card number, endpoint or credential was spoken in this material — only the fields by name.
+
 ## Sept 17 2026 — the SkillPay launch, the public reversal, and a two-year-old grievance Val had never put on the record
 
 At the [[wiki/meetings/2026-09-17-halcyon-amusements-georgia-class-a-and-texas-route-partnership.md|Roswell breakfast]] [[wiki/people/yash-patel.md|Yash Patel]] gave the **retailer-facing** account of the SkillPay launch and its reversal — the first in this corpus from someone whose own stores were on the shipping list — and Val answered it with a story about InComm that appears nowhere else. This is the meeting's tense opening, and it set the tone for the rest of it. [[raw/Meeting_Notes_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
@@ -573,6 +604,11 @@ Val: "**the mistake is this conflict should have been left in the back room, not
 *(Transcript note: this source renders InComm as "**income**"/"**Income**" nine times, of which the derived notes rule **seven are InComm** and **two are the ordinary word** — "if we get incremental income", "the incremental income right away". One further occurrence reads "**Intum**". The notes call this "the eighth transcript in ten days to need it." The canonical name is used in the wiki's own voice; garbles survive only where quoted.)* [[raw/Meeting_Notes_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
 
 **§15.8:** clear — product, regulatory and market content only; no named-person compensation. **§15.9:** clear — no card, account or licence numbers.
+
+## Open questions (Sept 17 2026)
+
+- **Does SkillPay use the same InComm endpoint as the existing card?** Pavel Frolov asked on the Sept-17 engineering call — "**надо будет уточнить[,] такой же IP у них или нет для этого продукта**" — and it was not answered — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- **Does a SkillPay card carry the UPC on its magnetic stripe?** Unknown until a production card is swiped and the logs read; if it does not, Chudinov said there is a "дилемма[:] как узнавать, что за продукт?" — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 
 ## Open questions (Sept 15 2026)
 
@@ -661,3 +697,5 @@ Val: "**the mistake is this conflict should have been left in the back room, not
 - [[raw/Meeting_Notes_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
 - [[raw/Meeting_Notes_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]

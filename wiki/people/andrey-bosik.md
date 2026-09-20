@@ -4,8 +4,8 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 91
-open-commitments: 28
+source-count: 93
+open-commitments: 33
 ---
 
 # Andrey Bosik
@@ -369,6 +369,31 @@ The third MVP 1 morning call ([[wiki/meetings/2026-09-16-transactional-mvp1-open
 
 He also backed [[wiki/people/pavel.md|Pavel]]'s proposal for one shared requirements filter across all four authors — "да я тоже так думаю" [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]. Nothing new was assigned to him on this call; his standing Jira exception-report commitment is untouched.
 
+## Sept 17 2026 (8:02 AM) — his document is the meeting's second half, and he wins the security argument on the phone bill
+
+The fourth MVP 1 morning call ([[wiki/meetings/2026-09-17-transactional-mvp1-skillpay-multi-product-and-device-network-security.md|Sept 17 2026 8:02 AM call]], Russian). This is his largest contribution in the series: the network-and-security document he had put into the chat the previous day was walked line by line, with him sharing Jira and driving the list. [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+**He deliberately did not file it as requirements first.** "**я вон на лицо не хочу это добавлять в MVP один. Я хочу, чтобы… что[-]то обсудили**" — he wanted it discussed before it went into the release, and asked only that it be taken either on this call or tomorrow's. He got it on this one. [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+**The win: firewall, NAT and WAN/LAN profiles stay in MVP 1** ([[wiki/decisions/2026-09-17-the-device-does-the-routers-job-firewall-nat-and-wan-lan-profiles-stay-in-mvp1.md]]). Two of his arguments did the work. First, he closed off the easy alternative of asking the SIM carrier to fence the devices in — "**у клауда[,] Паша[,] миллиард IP адресов, и они динамические. Притом мы используем ещё кл[ауд]фронт**" — so the hardening has to be on the device. Second, and this is what actually moved Klimovich, he costed the failure: "**если устройство пингуется из интернета… боты бесконечно пинговать[,] и у тебя… объём трафика вылетает на мобильном интернете**", plus "**у нас там[,] Андрей[,] не анлим на этих сим картах**". Klimovich confirmed per-megabyte billing and closed it on the spot. [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+**Two candid admissions in the same passage.** He does not want to write the change himself — "**я боюсь сломать операционн[ую систему]**" — and proposes Claude writes it into [[wiki/people/pavel.md|Pavel]]'s repository as a branch and a pull request; and he has no test plan, which nobody else had either. [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+**The loss: capability 144.** He had wanted the remote FlexPort master — telemetry, firmware update, cloud identification — in MVP 1, and [[wiki/people/irina-shishko.md|Irina Shishko]] took it out from under him with the installed-base argument (3,000 machines already updated off a USB stick). He accepted it and undertook to thin the capability down himself. See [[wiki/decisions/2026-09-17-bosiks-network-list-splits-between-mvp1-and-mvp2.md]]. [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+**Two smaller things he raised.** He asked for signal strength to be readable both as bars and in decibels, because a jammer leaves the bars looking perfect — and was made the owner of the requirement for it ([[wiki/decisions/2026-09-17-signal-quality-in-mvp1-means-remote-visibility-not-a-screen.md]]). And he asked the team to stop saying "the cloud", because his Claude then misreads what was meant ([[wiki/decisions/2026-09-17-the-operations-portal-not-the-cloud.md]]). [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+*(§4: this recording carries the clearest disambiguation in the series — when Pavel addressed a bare "Андрей" about the SIM provider, Klimovich said out loud "**Я так понял[,] это Андрею Босик[у]… вопрос не мне**". Bosik in turn addressed Klimovich as "Андрей" once, over the SIM data plan, and Klimovich answered. Every other bare "Андрей" on the recording is resolved on the meeting stub.)* [[raw/Meeting_Notes_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+## Open commitments (Sept 17 2026)
+
+- [ ] Choose the router model — approved and sold in the United States — and name it so a couple can be ordered from Amazon in time — due **Sept 18 2026** ("на завтра") — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [ ] Get the firewall / NAT / WAN-LAN-profile work (requirement 1556) written by Claude into Pavel Frolov's repository as a branch and a pull request — due with MVP 1 — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [ ] Make sure a requirement exists for remote visibility of signal quality (decibels and signal-to-noise), and add it if it does not — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [ ] Thin capability 144 down, removing the requirements that moved to MVP 2 — due unspecified; started on the call — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [ ] Contact KORE, the SIM provider, once Klimovich adds him to the communication chain, and look through their site and API for anything useful — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+
 ## Sources
 
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
@@ -465,3 +490,5 @@ He also backed [[wiki/people/pavel.md|Pavel]]'s proposal for one shared requirem
 - [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]

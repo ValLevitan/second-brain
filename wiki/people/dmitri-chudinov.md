@@ -4,8 +4,8 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 55
-open-commitments: 20
+source-count: 57
+open-commitments: 22
 open-questions: 0
 ---
 
@@ -296,6 +296,28 @@ The third MVP 1 morning call ([[wiki/meetings/2026-09-16-transactional-mvp1-open
 - [ ] Find the FlexPay capability that requirement 1431 (ticket PIN) should hang off, now that he has unlinked it from Flex IQ capability 141 — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - [ ] Review and update the status of every capability and requirement he authored, as Klimovich has done for his own — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 
+## Sept 17 2026 (8:02 AM) — he designs the multi-product answer on a shared screen, and twice refuses a framing rather than a request
+
+The fourth MVP 1 morning call ([[wiki/meetings/2026-09-17-transactional-mvp1-skillpay-multi-product-and-device-network-security.md|Sept 17 2026 8:02 AM call]], Russian). [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+**The design of the day is his.** Told that InComm now has two card products with independent settings, he asked for the screen and reshaped the location record live: today the location holds a single UPC field, but "**по факту [U]PC — это продукт**", so the field becomes a collection — add product, name it, enter the UPC InComm gives, set that product's own limits and fees. Two consequences he spelled out: the card's barcode already carries the UPC alongside the card number, so "**[при] скан[ировании] карты мы всегда знаем, какой UPC идёт**"; and the check is server-side, the **location manager** answering whether that location supports that UPC, otherwise "**отклоняем[:] вам продукт недоступен**". He put the build cost low. See [[wiki/decisions/2026-09-17-jvl-supports-multiple-incomm-products-not-a-fixed-pair.md]]. [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+**He lost the UI argument and kept arguing it anyway.** His position — amount and product on one screen, because the amount decides which products are possible, and "**иначе мы будем плясать от экрана к экрану вперёд и назад**" — was not adopted; [[wiki/people/andrei-klimovich.md|Klimovich]] parked the whole question overnight. [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+**Two refusals, both of framing rather than of work.** He would not let signal telemetry be described as something a person can look at — "**это просто лог информации… показывать никому не сможем**" — and instead specified the mechanism (periodic metrics, automatic send, buffer to file offline, flush on reconnect, Grafana on top) and split it into two tasks, collect and then notify ([[wiki/decisions/2026-09-17-signal-quality-in-mvp1-means-remote-visibility-not-a-screen.md]]). And he would not let the gateway/master question be treated as one question: "**разделяй бизнес[-]логику — через кого создать [е]волет или там транзакции — или через кого слать графа[ну], логи, секреты, бандлы, обновления… Это очень большая разница**". [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+**He stopped the meeting to correct a requirement nobody else had read properly.** Requirement 1431 is a PIN-entry timeout **on the Flex-Port**, "**чтобы подтвердить, что это твой [е]волет**"; Flex IQ has no PINs at all, FlexPay does — so it must come off capability 141 and attach to FlexPay. Klimovich took both points. [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+**And he supplied the implemented truth twice**, as on the previous mornings: the Flex IQ setup screen in master mode already lists the Flex-Ports present on the network, and **Sergei** is finishing the function that re-attaches one; and Flex IQ will still update itself remotely in MVP 1 — "**IQ в [MVP] один будет обновляться**" — even after the Flex-Port half moved out. [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+**Status he gave on his own requirements work:** all open questions on **capability 122** closed, some new requirements added, plus a couple of non-functional network requirements; the logging and Grafana requirements are "**запланировано, оно ещё не сделал**" — planned, not written. [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+## Open commitments (Sept 17 2026)
+
+- [ ] Finish the logging work and write the Grafana / metrics requirements, including periodic signal metrics with offline buffering — due unspecified; nothing written yet — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [ ] Send the InComm error list and JVL's own on-screen messages ("no internet", "lease expired") into the meeting chat for Klimovich's Flex IQ text collection — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
@@ -353,3 +375,5 @@ The third MVP 1 morning call ([[wiki/meetings/2026-09-16-transactional-mvp1-open
 - [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]

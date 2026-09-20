@@ -3,7 +3,7 @@ type: decision
 title: Val repoints the rest of the week at the non-functional requirements, names the five people who own them, and sets Monday September 21 as the deadline for a grooming pass over the whole of MVP 1
 date: 2026-09-15
 aliases: [if it is not written it does not exist, non-functional requirements owners, nonfunctional requirements week, September 21 deadline, MVP1 grooming meeting, engineering ideology, architecture ideologist, это не написано этого нету, нон фанкшинал, Sonos analogy, half the requirements have open questions, Claude refuses past an open question, focus rule]
-source-count: 4
+source-count: 5
 status: active
 open-commitments: 3
 open-questions: 1
@@ -69,6 +69,18 @@ That is the concrete mechanism by which unanswered questions block the Sept-21 g
 
 **Val closed the Sept-16 call by restating the focus rule unchanged:** "[и]нженер[ы] продолжа[ют] работать на одном [функциональном рек]в[а]йрмент[е] и продолжа[ют] делать[;] кроме [этого] никто ничего не программирует. Фокусируемся на этом" — nothing outside the one functional requirement set gets programmed [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
 
+
+## Update, Sept 17 2026 — partial progress, and Val adds remote device operation to the Monday list
+
+The [[wiki/meetings/2026-09-17-transactional-mvp1-skillpay-multi-product-and-device-network-security.md|Sept-17 8:02 AM call]] opened with a round of status on this commitment. **None of the three commitments below is discharged; all three moved.**
+
+- **[[wiki/people/irina-shishko.md|Irina Shishko]] and [[wiki/people/pavel.md|Pavel Frolov]] — partly done, and reworked rather than merely written.** Pavel had handed over "**нонфан[кшн] требования, которые вчера с Кло[дом] делали**"; Irina had been through part of them — "**частично мы тут посмотрели кое[-]что… я позволила себе с Кло[дом] дописать, переработать там кое[-]что[,] разделили**" — and Pavel judged there was still "**много чего ещё лишнего**". The agreed next step is that she finishes and sends the list to [[wiki/people/andrei-klimovich.md|Klimovich]] to look over. **These are the Flex-Port non-functional requirements specifically**; Pavel said the Flex IQ ones Chudinov created had already been reviewed the previous day [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]].
+- **[[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — partly done.** "**я по 122 там закрыл все открытые [вопросы] и добавил там новых**" — all open questions on capability 122 closed and some new requirements added — plus "**парочку нефункциональных… на работу сети**", a couple of non-functional network requirements. What is **not** done and was stated as not done: "**остаётся ряд по логам, по графан[е;] запланировано, оно ещё не сделал**" — the logging and Grafana requirements are planned and unwritten [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]].
+- **[[wiki/people/andrey-bosik.md|Andrey Bosik]] — his contribution arrived as a document in the chat rather than as Jira requirements**, and he asked for it to be discussed rather than filed: "**я вон на лицо не хочу это добавлять в MVP один. Я хочу, чтобы… что[-]то обсудили**". That discussion is this meeting, and it produced [[wiki/decisions/2026-09-17-bosiks-network-list-splits-between-mvp1-and-mvp2.md]]. He left it owing at least one written requirement — the signal-quality one Klimovich assigned him ([[wiki/decisions/2026-09-17-signal-quality-in-mvp1-means-remote-visibility-not-a-screen.md]]) [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]].
+- **Klimovich's own Wednesday-to-Friday cleanup is what this call largely was** — capability by capability, with him taking requirement 1410 and the multi-product write-up onto his own list [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]].
+
+**And the Monday gate acquired a fourth item.** Klimovich, recalling Val: "**я помню, что вал говорил о том, что… условно к понедельнику нам надо ещё продумать всю вот эту вещь, связанную с оперированием устройств по удалёнке**" — by Monday the team also has to have thought through operating the devices remotely. He used that to set the MVP 1 boundary for signal telemetry [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]. *(Val is not on this recording; this is Klimovich reporting Val's instruction, and is recorded as such.)*
+
 ## Open commitments
 
 - [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]], [[wiki/people/andrey-bosik.md|Andrey Bosik]], [[wiki/people/irina-shishko.md|Irina Shishko]], [[wiki/people/alexander-biratka.md|Alexander Biratka]] and [[wiki/people/pavel.md|Pavel Frolov]] — write the non-functional requirements for FlexPay, Flex-Port and Flex IQ (timers, handshaking, encryption, hung states, device pings, the incoming Wi-Fi, unit identification numbers) — due Monday Sept 21 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
@@ -86,3 +98,4 @@ That is the concrete mechanism by which unanswered questions block the Sept-21 g
 - [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]

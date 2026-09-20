@@ -4,8 +4,8 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 152
-open-commitments: 62
+source-count: 154
+open-commitments: 64
 open-questions: 0
 ---
 
@@ -640,6 +640,30 @@ His fifth recorded appearance of the day. At the [[wiki/meetings/2026-09-16-stre
 - [ ] Pavel Frolov — finish the first AI-converted game, close its bugs, then confirm how fast conversion really is — due unspecified — [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
 - [ ] Pavel Frolov — confirm what must still be written to FRAM once the per-game statistics move out, and size the single chip accordingly — due unspecified — [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
 
+## Sept 17 2026 (8:02 AM) — he loses the capability he promoted, wins the one about basements, and finds nothing in Jira
+
+The fourth MVP 1 morning call ([[wiki/meetings/2026-09-17-transactional-mvp1-skillpay-multi-product-and-device-network-security.md|Sept 17 2026 8:02 AM call]], Russian). [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+**He had promoted capability 144 into MVP 1 before the call** — "**я это [капабилити] перенёс вверх и поставил ему MVP один**" — and watched [[wiki/people/irina-shishko.md|Irina Shishko]] take the remote-firmware half back out with the 3,000-machines argument ([[wiki/decisions/2026-09-17-bosiks-network-list-splits-between-mvp1-and-mvp2.md]]). [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+**The argument he did win is the one about the field.** Against [[wiki/people/andrey-bosik.md|Bosik]]'s push for automatic route priority: "**для каких[-]то лакейш[е]нов может быть л[]т[]е вообще не работает. Вот в подвале где[-]то… А если у тебя эта [логика] прибито гвоздями, ты ничего не сделаешь**" — some locations have no LTE at all, and a hard-wired priority leaves the technician nothing to do. The manual override survived ([[wiki/decisions/2026-09-17-lte-is-the-default-route-and-the-manual-override-stays.md]]). [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+**On the cashier UI he argued for fewer screens, not more.** "**зачем нам кнопку здесь нажимать?**" — show the products side by side with their fees and what each can do, wait for the scan, and let the barcode route the flow; "**Зачем континиу?**" His position was not adopted and the whole question was parked overnight ([[wiki/decisions/2026-09-17-jvl-supports-multiple-incomm-products-not-a-fixed-pair.md]]). [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+**A product fact he volunteered:** he has already added cents to the Flex-Port — "**я на всякий случай в флекс[]порт сейчас добавил центы, потому что по [ACH] транзакции мы можем любую сумму туда[-]сюда загнать**" — because ACH can carry any amount even though a player can neither insert nor withdraw a fraction of a dollar. Klimovich backed it for portability ("если IQ потом куда[-]нибудь в Техас поедет"). [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+**He is the one who raised KORE**, proposing JVL ask the SIM provider whether their network could confine the devices to JVL's own hosts, and separately that their API might give a direct debug channel to the devices. Bosik had never heard of KORE; Klimovich explained it and undertook to add him to the chain. Bosik's answer closed the network-side option and is why the firewall work landed on the device ([[wiki/decisions/2026-09-17-the-device-does-the-routers-job-firewall-nat-and-wan-lan-profiles-stay-in-mvp1.md]]). [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+**And he searched Jira live and came up empty:** "**Я пересмотрел по логированию на клауд[-]сервер… ничего не нашёл, надо будет через Клода поспрашивать**". He also stated plainly that he does not know how to test the firewall change — "**Я не представляю, как это протестить**". [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+**Val's watchdog rule is quoted by him, in Val's absence:** "**вочдог должен быть во всех устройствах. Если он вешается, он должен выходить в ребут и загружаться с нуля**" — and he identified why requirement 1030 does not transfer to Flex IQ: "**тут описание конкретное для фп 10**". [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+## Open commitments (Sept 17 2026)
+
+- [ ] Find or create the Jira capability covering logging to the cloud server; nothing was found on the call — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [ ] Finish reworking the non-functional Flex-Port requirements with Irina Shishko and send the list to Andrei Klimovich — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
@@ -797,3 +821,5 @@ His fifth recorded appearance of the day. At the [[wiki/meetings/2026-09-16-stre
 - [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
 - [[raw/Meeting_Notes_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]

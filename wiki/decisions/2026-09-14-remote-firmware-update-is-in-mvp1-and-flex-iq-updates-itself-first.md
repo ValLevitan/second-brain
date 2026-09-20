@@ -1,15 +1,17 @@
 ---
 type: decision
-title: Remote firmware update is in MVP 1 — Flex IQ and FlexPay update themselves first, then distribute firmware to the Flex-Ports
+title: Remote firmware update is in MVP 1 for the gateways only — Flex IQ and FlexPay update themselves; distributing firmware to the Flex-Ports moved to MVP 2 on Sept 17
 date: 2026-09-14
-aliases: [firmware upgrade in MVP1, remote firmware update, OTA firmware, приоритет номер один это чтобы обновлялся флекс ай кю, flash the FlexPorts, Flex IQ to FlexPort protocol, доперфек]
-source-count: 2
-status: active
+aliases: [firmware upgrade in MVP1, remote firmware update, OTA firmware, приоритет номер один это чтобы обновлялся флекс ай кю, flash the FlexPorts, Flex IQ to FlexPort protocol, доперфек, priority two deferred, FlexPort firmware by USB stick, capability 144 to MVP2]
+source-count: 3
+status: active — but PARTLY SUPERSEDED: "priority two" (the gateways distributing firmware to the Flex-Ports) left MVP 1 on Sept 17 2026; see the dated update below
 open-commitments: 2
-open-questions: 1
+open-questions: 2
 ---
 
 # Remote firmware update is in MVP 1, and Flex IQ updates itself before it updates anything else
+
+> **Read the Sept-17 update at the foot of this page before relying on the second half of this decision.** Priority one (the gateways updating themselves) still stands and is confirmed. Priority two (the gateways flashing the Flex-Ports) was moved out of MVP 1 three days later.
 
 Settled at the [[wiki/meetings/2026-09-14-hardware-priorities-tito-case-and-street-cabinet.md|Sept 14 2026 12:04 PM call]] (Russian). [[wiki/people/val-levitan.md|Val Levitan]] set the requirement; [[wiki/people/pavel.md|Pavel Frolov]] set the order of work.
 
@@ -38,6 +40,20 @@ Pavel named the sequence of people, not just of tasks: "**сначала её с
 
 *(§4 resolutions: "дима чудинов" → **Dmitri Chudinov**, the back-end architect (the derived notes render the Belarusian spelling "Dzmitry Chudzinau"); "Алексеев" → **Evgeniy Alekseev**, the embedded-code owner who works on Genadi Peari's hardware-adjacent projects — the registry's Zhenya-by-context rule, and the fit is exact here.)*
 
+
+## Update, Sept 17 2026 — priority two leaves MVP 1, and a USB stick does it instead
+
+At the [[wiki/meetings/2026-09-17-transactional-mvp1-skillpay-multi-product-and-device-network-security.md|Sept-17 8:02 AM call]] the team went through [[wiki/people/andrey-bosik.md|Bosik]]'s capability 144 — the master that would let the Flex-Ports "**отправлять их телеметрию, обновлять их ф[ё]рв[а]ры и идентифицировать их… в клауде**" — which [[wiki/people/pavel.md|Pavel]] had moved up into MVP 1 before the call. **It came back out.**
+
+- **[[wiki/people/irina-shishko.md|Irina Shishko]]'s argument carried it:** "**Обновить можно из флешки[,] 6 штук — это не проблема[;] мы 3000 машин обновляем с флешки**" — six Flex-Ports off a USB stick is not a problem when JVL already updates 3,000 machines that way. [[wiki/people/andrei-klimovich.md|Klimovich]] added the correction that sharpened it — "**обновляем не мы[;] обновля[ют] те техники владельцев машин**" — and accepted: "**[MVP] один согласен, это мы переживём**". Irina closed it: "**значит, убираем на MVP 2**" [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]].
+- **Priority one is explicitly unaffected.** Asked directly whether anything still updates remotely, [[wiki/people/dmitri-chudinov.md|Chudinov]] answered "**IQ в [MVP] один будет обновляться**" — Flex IQ updates in MVP 1 [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]].
+- **A condition was attached in exchange**, and it is a logging condition, not a firmware one: Klimovich required that MVP 1 still make it visible that a device is not working "**чтобы хотя бы была информация, что надо ехать с этой флешкой**" — so that at minimum somebody knows to drive out with the stick [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]].
+- **Requirement 1413** — the specific "deliver updates through a master node and keep the images where the Flex/kiosk firmware already lives" requirement — was moved to the MVP 2 parking capability in the same pass [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]].
+
+The full sweep, including what happened to capability 144's own label, is on [[wiki/decisions/2026-09-17-bosiks-network-list-splits-between-mvp1-and-mvp2.md]].
+
+**The Sept-14 commitments below are unchanged in substance but narrowed in scope:** the Flex IQ ↔ Flex-Port protocol work Chudinov took on Sept 14 is now MVP 2 work for the distribution half, while the gateway self-update remains MVP 1. Neither was restated or discharged on Sept 17, so both stay open.
+
 ## Open commitments
 
 - [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — work the Flex IQ ↔ Flex-Port firmware-distribution protocol from his side, and improve it if he can — due unspecified — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
@@ -46,6 +62,7 @@ Pavel named the sequence of people, not just of tasks: "**сначала её с
 ## Open questions
 
 - **Is Evgeniy Alekseev actually assigned to this?** Pavel's own wording is hedged — "**возможно… по[-]моему там на него тоже задача висит**" — and nothing in the source confirms it — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+- **Whether capability 144 itself now carries an MVP 1 or MVP 2 fix version.** The *content* ruling above is clear; the capability's own label was left ambiguous on the Sept-17 recording after it was thinned — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 
 **§15.8:** clear — product scope and task assignment only; no compensation or performance judgement for any named person.
 
@@ -53,3 +70,4 @@ Pavel named the sequence of people, not just of tasks: "**сначала её с
 
 - [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
