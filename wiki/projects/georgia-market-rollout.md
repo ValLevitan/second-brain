@@ -2,10 +2,10 @@
 type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
-aliases: [Georgia, Georgia co-op, COAM Hearing Room, Georgia Lottery Corporation, Tracy Warren, HB 353, Intralot lab, Bill at Intralot, three fifty-eight nine, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing, GAMOA, ILERS, ILAS report, Eilers, Eiler report, show special, Mega Hit Blaze, sales channel report, Bulldog Gaming, ARC, ARC Gaming, Class A, C-Store Connect, GACS, route consolidation, gift-card cash-back notice, Chris Plonic, Double Down Gaming, Ryan O'Donnell, Billy Liu, Play Payments, PlayPay, banking licence moat, 7455 modem, KORE, KORE SIM, APN, GACS October 21, Pay Slim, over-drive, Rao, Narasimha Rao Namburi, David Milani, September 2 letter, 5500 PAX locations, Lucky Coin service burden, Lucky Bucks is ARC, the market is literally bottomless, backend displacement, David Sloan, Dave Sloan, Bill the kiosk vendor, the wording is in the same location, guidance is not the law, Digital Cash Processing, DCP, ICP Inc., Gen Mega, Andrew Cashin, Rick Beer, seventy four hundred locations forty seven thousand machines]
-source-count: 195
+aliases: [Georgia, Georgia co-op, COAM Hearing Room, Georgia Lottery Corporation, Tracy Warren, HB 353, Intralot lab, Bill at Intralot, three fifty-eight nine, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing, GAMOA, ILERS, ILAS report, Eilers, Eiler report, show special, Mega Hit Blaze, sales channel report, Bulldog Gaming, ARC, ARC Gaming, Class A, C-Store Connect, GACS, route consolidation, gift-card cash-back notice, Chris Plonic, Double Down Gaming, Ryan O'Donnell, Billy Liu, Play Payments, PlayPay, banking licence moat, 7455 modem, KORE, KORE SIM, APN, GACS October 21, Pay Slim, over-drive, Rao, Narasimha Rao Namburi, David Milani, September 2 letter, 5500 PAX locations, Lucky Coin service burden, Lucky Bucks is ARC, the market is literally bottomless, backend displacement, David Sloan, Dave Sloan, Bill the kiosk vendor, the wording is in the same location, guidance is not the law, Digital Cash Processing, DCP, ICP Inc., Gen Mega, Andrew Cashin, Rick Beer, seventy four hundred locations forty seven thousand machines, Unlimited Amusement, Mega Hit Blaze V3, program the rollout, Swanee, Johns Creek, Singleton, SurfNote, Debbie Alford, eighteen thousand connected, Mike Mackey, five hundred dollars per unit per machine, WSS protocol, not even one installation]
+source-count: 199
 open-commitments: 64
-open-questions: 22
+open-questions: 23
 ---
 
 # Georgia market rollout (Peach1234 / DLKG)
@@ -471,6 +471,8 @@ A ~2h43m JIRA portfolio review ([[wiki/meetings/2026-05-13-schedule-review.md|Sc
 - [x] [[wiki/people/pavel.md|Pavel Frolov]] — discuss the antenna-mounting approach for the V-1000 LTE modem with [[wiki/people/genadi-peari.md|Genadi]] (raised Aug 10 2026). **Discharged Sept 4 2026:** Pavel relayed Genadi's shielding suspicion on the modem call and Genadi stated his position directly on the same call ("ее лучше вставлять в opening"); two antennas are now fitted. The *conclusion* — a final mounting solution — is still open, and stays under Open questions below. [[raw/Meeting_Notes_LTE_Modem_V-1000_Georgia_COAM-August-10-2026.md]] [[raw/Meeting_Transcript_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]]
 
 ## Open questions
+
+- **Will the next-generation Wi-Fi link replace the wired WSS run at installation?** Val put the saving at two hours and two people per location but would not claim reliability — "I cannot answer the question of how reliable Wi-Fi will be on all of these devices… However, inside a metal cabinet" (Sept 15) — [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
 
 - Are Georgia players in fact disinclined to use their own phone for play? Stated by Andrei as a hypothesis on Sept 2 2026, untested; it is the main obstacle to the phone-based e-wallet direction. — [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
 
@@ -1312,6 +1314,56 @@ At the [[wiki/meetings/2026-09-14-texas-vertical-conversion-and-georgia-game-bas
 
 **§15.8:** clear — game-production content only. **§15.9:** no identifiers in the source.
 
+## Sept 15 2026 — another operator visit: the V3 pitched by its game content for once, and the market explained back to JVL
+
+An in-person visit at the Georgia office, 2:24–3:35 PM ET, with [[wiki/organizations/unlimited-amusement.md|Unlimited Amusement]] — an existing JVL customer ([[wiki/meetings/2026-09-15-unlimited-amusement-mega-hit-blaze-v3-and-bundle-pitch.md]]). Teams recorded nothing; the record exists only because Val recorded it on Plaud. [[raw/Meeting_Notes_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]]
+
+**What is new for the Georgia record is the game pitch itself.** Across the Sept 1–10 visits the machine is sold on price and on the transactional bundle; here [[wiki/people/felipe-miranda.md|Felipe]] sells it on **content**, and it is the fullest customer-facing description of **Mega Hit Blaze V3** in the corpus. [[raw/Meeting_Transcript_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]]
+
+- **Its lineage is named:** "we have studied what our customers want **based on our experience with Peach One, Peach Two, and all these games**, and we released **our new V three called a Mega Hit Blaze game**."
+- **Fifteen games, three progressives, all cabinet mechanics.** "**Different types of progressives**… lines games, ways games, everything that people already like and love… **We will have three progressives for all kinds of players. One is more aggressive than the other.** And we've made it **tailored for the [*Kuna*] market** to make sure that it makes money. **It will have 15 games total.**" *(The market word is rendered "Kuna" and is **not** interpreted; COAM is the obvious reading but the source does not say it. The derived notes' glossary separately records one `Coim`→COAM fix elsewhere in the file.)*
+- **It is not released yet, and the reason is the count.** "we have **some in testing, not with the full fifteen, but with the previous version**, it is **making great money. It's stable. People like it. People continue ordering, but we don't want to release it just yet until we have the full fifteen.**" That is consistent with the V3 release work tracked above; **no date is given to the customer.**
+- **The line-count spread, as spoken:** "**Fifty lines, games of fifty lines**… we've had games of fifty lines before… **All kinds of twenty-five lines**", "we have **high volatility games for those high rollers**. We have **fun bonuses**, and we have new games such as **jackpot. Class three, very easy to play, easy to understand. The more you bet, the higher your jackpot is.**" The design reason given: "**Someone who's betting high will be rewarded accordingly, and they won't be upset because the guy next door betting twenty-five cents just got a jackpot for the same amount that he was betting.**" See [[wiki/topics/slot-game-design-principles.md]].
+- **The topper is recommended where ceiling height allows**, with a figure attached — prices on [[wiki/topics/jvl-machine-pricing-strategy.md]].
+
+**What the operator gave back is the better half of the meeting** — an operator's own map of who plays in metro Atlanta, by community and by area; the card-fee complaints that drive player behaviour; the "cannot replay after cashing out" problem they call their biggest; and an unapproved credit-transfer "black box" they have already paid for. All of it is on [[wiki/organizations/unlimited-amusement.md]].
+
+**Two things that bear on the wider Georgia picture:** [[raw/Meeting_Transcript_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]]
+
+- **Val used the regulator's and the processor's uncertainty as a selling argument, to a customer.** "I met with **Georgia Lottery Corporation**. They are not clear on how everything will function. The lawyer for the association, **[[wiki/people/joe-kim.md|Joe Kim]]**… He is not sure how everything will function. **InComm, the card provider, not sure which card they're gonna end up with**" — therefore buy from a supplier that "will **stay here locally**, will have the **ear to the ground**" and "**grow with you**." This is the [[wiki/meetings/2026-09-10-georgia-lottery-coam-manufacturer-introduction.md|Sept-10 regulator meeting]] being used as sales material five days later.
+- **His prediction for where the Georgia market settles on service fees:** "**I believe business in Georgia will end up where location does not pay for anything**" — against the operator's "**here mostly all they charge to locations**." Stated as opinion, not as a finding.
+
+**Outcome: one pilot location, no volume, no date — and a new ask, a month-by-month rollout calendar so inventory can be reserved** — [[wiki/decisions/2026-09-15-unlimited-amusement-pilots-one-location.md]]. **No exclusivity was asked for in this meeting**, unlike the Sept-9 visits; recorded as an absence.
+
+**§15.8:** clear — operator, machine and market economics only; no named-person compensation. **§15.9:** no identifiers in either source.
+
+## Sept 15 2026 (evening) — the market's own origin story, told by someone who was at the 2014 launch
+
+From the [[wiki/meetings/2026-09-15-billy-liu-playpay-nda-and-georgia-float-economics.md|Sept-15 evening session]] with [[wiki/people/billy-liu.md|Billy Liu]]. **This is the earliest first-hand account of the Georgia COAM connection era in the corpus** — the market as it looked at switch-on. Company detail on [[wiki/organizations/surfnote.md]]. [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
+
+- **The market started at ~18,000 connected machines, in one week.** "**In the very beginning, there was only twenty thousand. Not even. Eighteen thousand connected in the very first week of connections… Georgia started with eighteen thousand machines.**" Against the **47,000 machines / 7,400 locations** the corpus carries for 2026, that is roughly a 2.6× expansion over twelve years *(the comparison is this page's arithmetic, not anything said in the source)* [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]].
+- **Intralot won the 2014 central-monitoring bid, and its board did not work.** "**Back in twenty fourteen, [Intralot] won the bid to become the central monitoring system**… **[Intralot]'s piece of shit didn't work, so we kind of took their glory away. But we also worked with [Intralot] because they are the… partner.**" [[wiki/organizations/surfnote.md|SurfNote]] boards went into about half the initial estate. The Lottery's director at the time is named as **Debbie Alford** [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]].
+- **SAS connectivity was preceded by a year of paper.** Billy, in the first segment: "**SAS required first of twenty sixteen. They started regulating on a common basis, based on their own readings and pencil and paper. Write down your meter readings. They started on partner systems a year before the actual SAS connectivity.**" *(Speaker labels are **inverted between the two segments** — in this one Billy is Speaker 3 and Val is Speaker 1. The passage is fragmentary and the date is his recollection, not a document's.)* [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Mutual_NDA_Renegotiation-September-15-2026.md]]
+- **Before the connection era, one operator held most of the state.** Billy, twice: "**Mike Mackey… when he had ninety-five percent of the marketplace**"; his own family "**had over a thousand machines out**" at the time. *(No page exists for Mike Mackey and none is created on this alone.)* [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Mutual_NDA_Renegotiation-September-15-2026.md]]
+
+### What the incumbents charge, and what JVL's giveaway is aimed at
+
+- **~$500 per unit per machine, paid by the master.** Val: "**they still force master to buy and install the unit… whatever that each unit per machine is. Five hundred dollars. Times six machines, that's three thousand dollars. And if they need a few… points of sale, they need to buy it.**" Against JVL: "**the master doesn't have to pay**… **[JVL] is the only company that gives it away.**" *(The transcript renders the company "GDL" — read as JVL from context, an inference.)* See [[wiki/decisions/2026-09-02-free-ports-and-pos-with-every-machine-bought.md]] [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]].
+- **Connected-location counts for the incumbents are given and immediately contradicted** — Axis "thirty-four thousand locations", EasyLink "closing on a thousand", then "those two together, you got five thousand". **Nothing is asserted**; see [[wiki/organizations/surfnote.md]] [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]].
+
+### Installation cost is the next lever, and it turns on Wi-Fi
+
+Told under the NDA and flagged "**strictly confidential and not to discuss with anybody**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]:
+
+> "**Right now, we need to run the WSS protocol through wires… The protocol between our devices is WSS protocol, which means you have to lay wires. But the next generation that's coming out now is all Wi-Fi.**"
+
+- **The saving he is chasing:** "**you probably need three hours, two people, three hours for location for wires and the connector. You could shrink it to an hour.**" Even partial success pays: "**if it works sixty percent of the time. That's a big saving.**"
+- **And the risk he names himself:** "**I cannot answer the question of how reliable Wi-Fi will be on all of these devices… However, inside a metal cabinet. Because our antenna is on the outside.**" Val's own caveat back: "**what about the reliability? That has to be part of the scaling equation.**"
+
+### And the state of sales, in his own words
+
+"**I just started after the show. I don't have even one installation. Not even one. And maybe I will fail.**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
@@ -1511,3 +1563,7 @@ At the [[wiki/meetings/2026-09-14-texas-vertical-conversion-and-georgia-game-bas
 - [[raw/Meeting_Transcript_Halcyon_Amusements_Texas_Net_Win_and_Industry_Lobbying-September-12-2026.md]]
 - [[raw/Meeting_Notes_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+- [[raw/Meeting_Notes_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]]
+- [[raw/Meeting_Transcript_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]]
+- [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
+- [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Mutual_NDA_Renegotiation-September-15-2026.md]]

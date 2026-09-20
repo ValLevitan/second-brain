@@ -2,10 +2,10 @@
 type: organization
 title: Play Payments (PlayPay) — the bank-licensed Visa wallet
 date: 2026-09-02
-aliases: [Play Payments, PlayPay, Play Pay, PlayPlay, PayApp, Play Pay wallet, play wallet, tap to fund, Billy Liu's company, they work their magic through visa and mobile application]
-source-count: 3
+aliases: [Play Payments, PlayPay, Play Pay, PlayPlay, PayApp, Play Pay wallet, play wallet, pay wallet, rewards wallet, tap to fund, Billy Liu's company, they work their magic through visa and mobile application, Late payments, late pay, playhead, Quipay]
+source-count: 5
 open-commitments: 0
-open-questions: 3
+open-questions: 4
 ---
 
 # Play Payments (PlayPay)
@@ -89,14 +89,58 @@ Nine days after the deep-dive, at the [[wiki/meetings/2026-09-11-digital-cash-pr
 
 ## Open questions
 
+- **Does the "rewards wallet" layer do anything but move money one more hop?** Billy called it "a powerful idea" and would not explain it; Val said outright he did not understand it and Billy declined to pursue it (Sept 15) — [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
 - **How much does PlayPay actually earn on volume?** Billy could not answer for $1 billion transacted and named "tiers" without describing them; Val's own $150M projection is his arithmetic, not Billy's — see [[wiki/decisions/2026-09-02-val-proposes-fifty-percent-of-play-payments.md]] — [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]]
 - **What are the real load limits?** $1,000 per load, $2,500 per person per day, $4,000 tranches and "up to ten thousand dollars" are all stated in the same conversation and never reconciled — [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]]
 - **Does the exclusivity Billy asked for extend to the EasyLink relationship he already has?** He asked JVL not to offer InComm and not to dispense physical cards, while PlayPay itself sits inside a competitor's kiosk stack alongside a physical gift card at the same redemption screen. Not raised by either side — [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]]
 
-**§15.8:** clear — company, product and market fee economics only; no named-person compensation.
+## Sept 15 2026 — it is one of two companies, and the wallet has a second half
+
+At the [[wiki/meetings/2026-09-15-billy-liu-playpay-nda-and-georgia-float-economics.md|Sept-15 evening session]] Billy separated his businesses for the first time: the Georgia Lottery licence and the SMIB hardware belong to [[wiki/organizations/surfnote.md|SurfNote]], which is wholly his, while **Play Payments came later and has his brother in it** — "**Play payments has my brother involved. The two of us.**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
+
+*(Sept 2 has him saying "Play Payments is the company, and it's ten years old"; Sept 15 has it built **after** SurfNote's 2014 start. The two are loosely compatible and neither is treated as superseding the other.)* [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]]
+
+**This is probably the entity on the mutual NDA, but not certainly.** Asked "**What's the name of the company that the NDA is for?**", Billy answered with a name the recording renders "**Late payments**" — the same garble as the "late pay" its speech-to-text makes of his email domain. Read as Play Payments, **as an inference**; see [[wiki/decisions/2026-09-15-mutual-nda-agreed-clause-12-deleted-and-clause-8-time-boxed.md]] [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Mutual_NDA_Renegotiation-September-15-2026.md]].
+
+### The two-wallet design, and the second rail he finished the week before
+
+His own account of the architecture, described as a ten-year-old intention only just completed [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]:
+
+> "**I built the rails within my ecosystem and talked to Visa… In my vision ten years ago… I wanted to have two wallets. Play is to fund machines, upload credits, download credits. This is your wallet as your TITO… The play section of the wallet. Then there's the pay wallet**… **when I send money to the player, the thousand dollars sits at the play wallet**… **The pay wallet is empty. So just last week, I completed this whole… ecosystem.**"
+
+- **Loading was never the hard part; unloading was.** "**This thousand dollars can load to Visa card**… **I built another rail for it to unload. Everybody knows how to load [InComm]s, but I can unload. That thousand dollars can be unloaded onto my pay wallet.**"
+- **Then a third environment on top.** "**I built another environment, a rewards environment. I log in to the rewards environment, using the same login I use for the [PlayPay] wallet**… **That's where I can find the funds of my pay wallet. After some fees, let's say fifty dollars is gone. I end up with nine hundred and fifty dollars in my pay [wallet] at the rewards site. I can then walk up to your kiosk and tap your kiosk.**" *(The $50 on $1,000 is introduced as "let's say" and is not a quoted rate.)*
+- **The point of the rewards layer was not explained to Val's satisfaction.** Val: "**Why do you… emphasize the rewards plan?**"; Billy: "**Because rewards is another**… **It's a powerful idea**"; Val: "**I don't value, I don't understand this**"; Billy: "**that's why it's not the topic of our conversation right now.**"
+- **And Val's legal objection to the whole chain** — that the laundering exposure does not disappear because the money passed through a rewards wallet ("**Rewards or not… it doesn't matter**") — is on [[wiki/topics/georgia-prize-card-processor-economics.md]].
+
+### The compliance feature at the centre of it
+
+The app can move money off the Visa card to a bank account or PayPal. That is the function the Georgia Lottery's new opinion letter is read as barring, and Billy has offered to disable it and been told to wait — "**Not right now. We'll let you know**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]. His fallback: "**As long as I turn off the features, it is still a valid product**" — leaving a card that can only be spent, "**money though by Amazon… you can't get cash. You can't transfer away**." Val's reaction was "**I'm not sure.**" See [[wiki/people/joe-kim.md]].
+
+### Card mechanics added on Sept 15
+
+- **Pre-funded at Visa.** "**I already have an account at Visa, so I have a pre-fund account with them as well.**" Full float discussion on [[wiki/topics/georgia-prize-card-processor-economics.md]] [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]].
+- **The load fee, restated and consistent with Sept 2.** "**loads, hundred dollars, take a two dollar fee. Up to a thousand, it's two dollars up to a thousand. If it's two thousand, then it's four dollars.**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
+- **A funded card can be reversed if unspent.** Val: "**[InComm] told me that they can reverse the charge on [the] card**"; Billy: "**After they funded it, if they haven't spent the money, I can do the same.**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
+- **Payouts can be held as pending credit, and he avoids doing it.** "**I can make the money pending on my wallet before I transfer it over to Visa**… **I've done it. They don't like it. The player is fucking pissed.**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
+- **Reloadable by design, and he built it that way deliberately against the incumbent** — "**Mine is a reloadable card**"; "**I wanted to be different from [InComm].**" When Val pointed out that the unspendable residue on a **non**-reloadable card is where the money is, Billy offered to add one: "**I can offer a non-reloadable product… And just let them put as many non-reloadable cards as they wish. I can keep multiple cards.**" Val: "**I liked it.**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
+- **Funds expire after two years on his programme.** "**That money has an expiration date. One year. Mine is two.**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
+
+### Val's structural criticism: PlayPay does not hold the money
+
+The thing he kept returning to, and Billy did not rebut [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]:
+
+> Val: "**I don't see how you make money in your case. I'm puzzled trying to understand because you actually don't earn so much. It's because you transfer it to the player right away. It's not your money. You don't even hold it overnight.**"
+> Billy: "**I'm just… waiting to get paid from the store… Once I get paid, that money, it's gonna float around. It's gonna accumulate.**"
+
+And the demand that follows from it: "**Do you have custody of the money? Or power of attorney… Show me the contract, I can try to figure out whether you have possession of the money or not.**" Billy agreed to show it — "**Not today, but eventually**" — which is not recorded as a commitment because no timing was given.
+
+**§15.8:** clear — company, product and market fee economics only; no named-person compensation. **§15.9:** no identifier value appears; the Visa pre-fund account is named as existing, with no account number in the source.
 
 ## Sources
 
 - [[raw/Meeting_Notes_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]
+- [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
+- [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Mutual_NDA_Renegotiation-September-15-2026.md]]

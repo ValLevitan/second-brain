@@ -3,8 +3,8 @@ type: decision
 title: JVL will support both dual SAS and single SAS — decided in a customer meeting on the distributor's insistence — and definitely not MudaGoose
 date: 2026-09-09
 status: active
-aliases: [dual plus single, we're going with both, you just made up our decision, definitely not going with MudaGoose, dual saws or single saws, no final decision on SAS]
-source-count: 4
+aliases: [dual plus single, we're going with both, you just made up our decision, definitely not going with MudaGoose, dual saws or single saws, no final decision on SAS, ten thousand machines with no secondary SAS, secondary sats, AFT through the bill acceptor]
+source-count: 5
 open-commitments: 0
 open-questions: 0
 ---
@@ -29,6 +29,16 @@ Val's next sentence gives the reason, and it is the collection argument, not a t
 
 A JVL colleague turned it into a test condition in the same conversation: "So **dual source and single source deal. Thank you for the feedback.** In October, if it's doable, we would prefer to start with a location where **all the machines are dual source**. Just for test." Rao: "There already all of them do it." [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
 
+## Sept 15 2026 — the segment gets a size, and a reason to keep it
+
+Six days later, explaining his collection mechanism to [[wiki/people/billy-liu.md|Billy Liu]] at the [[wiki/meetings/2026-09-15-billy-liu-playpay-nda-and-georgia-float-economics.md|Sept-15 evening session]], [[wiki/people/val-levitan.md|Val]] put the **first number in the corpus on the no-secondary-SAS population** — and described serving it rather than abandoning it [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]:
+
+> "**it's approximately ten thousand machines in the field that don't have secondary [SAS], and that is easier for me because I come down with my bill… acceptor, because there is no secondary [SAS]. I take the bill acceptor. I plug my AFT into the bill acceptor, and I plug the bill acceptor into my AFT. At the moment I shut down my AFT, the bill acceptor shuts down too.**"
+
+- **He calls it *easier*, not a segment to drop** — the bill-acceptor wiring gives him a kill switch on money in and money out without touching the machine, which the Lottery forbids switching off. Commercial context on [[wiki/topics/georgia-prize-card-processor-economics.md]].
+- **The figure is Val's own estimate**, given conversationally and prefixed "approximately"; nothing in the source attributes it to a report, and no other source in the corpus sizes the segment.
+- **This is a dated data point on the contradiction below, not a resolution of it.** Sept 7 says drop the old-machine segment; Sept 8 leans the same way; Sept 9 says support both; Sept 15 describes a concrete mechanism for exactly the machines Sept 7 would abandon — but it is said to an outsider in a commercial argument, not as an engineering ruling. **Nothing is resolved.**
+
 ## Open contradictions
 
 **Whether JVL supports single-SAS machines at all (Sept 7/8 vs Sept 9 2026).** Three statements inside three days point in opposite directions. Recorded, **not resolved**.
@@ -47,3 +57,4 @@ A JVL colleague turned it into a test condition in the same conversation: "So **
 - [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
 - [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+- [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]

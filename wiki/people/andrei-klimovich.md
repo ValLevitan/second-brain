@@ -2,9 +2,9 @@
 type: person
 title: Andrei Klimovich
 date: 2025-01-30
-aliases: [Andrei Klimovich]
+aliases: [Andrei Klimovich, Andre]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 76
+source-count: 78
 open-commitments: 56
 open-questions: 0
 ---
@@ -446,6 +446,18 @@ He convened and drove the [[wiki/meetings/2026-09-15-transactional-mvp1-balance-
 
 **Two process things he owns from the same call.** The capability↔requirement link direction was his and it was backwards; Irina corrected it and he took the cleanup across every link. And he proposed making the daily call standing practice, which Val accepted [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]].
 
+## Sept 15 2026 (2:24 PM) — six hours later he demonstrates the same product to a customer, in English
+
+The first time in the corpus he runs the transactional product **in front of an operator** rather than in a design meeting — at the [[wiki/meetings/2026-09-15-unlimited-amusement-mega-hit-blaze-v3-and-bundle-pitch.md|Unlimited Amusement visit]], handed the floor by Val: "**I will let Andre show you one of the ways.**" [[raw/Meeting_Transcript_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]]
+
+- **He opened by asking, not presenting** — "let me ask you a question, mate. **What are three major problems you are in relation to transactions and in relation to redemption?**" — and repeated it later: "**I can't help but ask: What are other issues you currently have with transactions?**" His stated method, said out loud to the buyer: "**We ask questions to understand your real need, and this need can be sliced per location, per audience, whatever**… **we can build the solution specifically for that location.**"
+- **He walked the whole flow** — wallet creation into "**a vault server, which has been managed by JVL**", the PIN as a per-location switch, incremental cash-out, machine-to-machine transfer on the same ticket, cashier-reprint of a lost ticket from the cloud, and both redemption paths. Full walk-through on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 15).
+- **He gave InComm's daily cap a number in public** — a **$5,000 per-location default** with velocity computed live — one day after telling the engineers JVL does not know per-location values. See [[wiki/organizations/incom.md]] (Sept 15).
+- **He drew the TITO comparison as a cost argument, not a feature argument** — "**you have two additional pieces of equipment needed just to operate**", "**You don't need TITO printers. You save money and time on servicing them.**"
+- **And he declined to over-promise on the InComm gift-card question**, arguing the feature is technically possible but commercially pointless: "**Technically, we can do that. It's up to InComm to make it worth it.**"
+
+*(Speaker labels in this source are unreliable; the attribution rests on Val naming "Andre" immediately before the demo begins and the derived notes listing Andrei Klimovich as present. [[raw/Meeting_Notes_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]])*
+
 ## Open commitments (Sept 15 2026)
 
 - [ ] Andrei Klimovich — go through every capability↔requirement link and unify it to "capability requires requirement" — due the same day — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
@@ -542,3 +554,5 @@ He convened and drove the [[wiki/meetings/2026-09-15-transactional-mvp1-balance-
 - [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- [[raw/Meeting_Notes_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]]
+- [[raw/Meeting_Transcript_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]]

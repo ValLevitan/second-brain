@@ -36,7 +36,7 @@ This is the **last** of **five** recordings Val made on Sept 14 2026 (6:38, 7:37
 
 The notes and the transcript are one **derived-document family** (§12) — one meeting, one stub, both cited.
 
-**Not created:** "**unlimited amusement**", the counterparty of the colleague's 2:00 PM Tuesday meeting, appears **only** in these two files and nowhere else in the corpus. Too thin for an organization page; recorded here as spoken.
+**Superseded note — the page now exists.** When this stub was written, "**unlimited amusement**" — the counterparty of the colleague's 2:00 PM Tuesday meeting — appeared only in these two files and was judged too thin for an organization page. **The meeting itself was then ingested:** it took place the next day, Tuesday **September 15 2026**, 2:24–3:35 PM ET, and has its own stub and organization page — [[wiki/meetings/2026-09-15-unlimited-amusement-mega-hit-blaze-v3-and-bundle-pitch.md]], [[wiki/organizations/unlimited-amusement.md]].
 
 ## Sources
 

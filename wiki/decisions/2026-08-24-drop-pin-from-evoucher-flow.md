@@ -2,8 +2,8 @@
 type: decision
 title: The eVoucher flow runs without a PIN — a QR voucher is trusted the same way a TITO ticket is; from Sept 2 2026 the PIN survives as a per-location switchable option rather than being removed
 date: 2026-08-24
-aliases: [drop the PIN, eVoucher without PIN, no PIN code voucher, TITO trust model, QR voucher security, PIN as a switchable option, PIN per location]
-source-count: 3
+aliases: [drop the PIN, eVoucher without PIN, no PIN code voucher, TITO trust model, QR voucher security, PIN as a switchable option, PIN per location, I would operate without pincode, additional friction]
+source-count: 5
 status: active
 open-commitments: 0
 open-questions: 1
@@ -44,6 +44,17 @@ On the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-updates-after-the-show.md|Se
 
 **Net effect:** the trust model and the no-PIN default are unchanged; what changed is that the PIN is no longer removed from the product — it is a per-location switch, and Flex-Port variants must be priced with that in mind.
 
+## Sept 15 2026 — the per-location switch demonstrated to a customer, and Val states his own preference out loud
+
+The first time in the corpus the PIN option is shown to an **operator**, at the [[wiki/meetings/2026-09-15-unlimited-amusement-mega-hit-blaze-v3-and-bundle-pitch.md|Sept-15 Unlimited Amusement visit]]. [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] ran the e-wallet demo and treated the PIN exactly as the Sept-2 update describes — a switch, not a feature of the product. [[raw/Meeting_Transcript_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]]
+
+- **Presented as optional friction from the first mention:** "In case I lose my ticket, nobody can use it. It can be switched off. **If you don't want this additional friction, don't want a pin code**[…]"
+- **Switched off live, with the per-location reason given:** "**I can switch off right now. We don't need it. But some locations would like to keep it** because somebody can take this."
+- **[[wiki/people/val-levitan.md|Val]]'s own preference, said twice in front of the buyer:** "**You don't have to use the pin.** That's what I mean. So as long as you hold this […] **and you don't throw it away, it's your reward**" *(the noun is garbled on the tape — "cap, just like cap, nipple, cap" — and is not supplied)*; then "**I could tell you, I personally, if it would be me, I would operate without pincode, without pin**" — and, on the wider choice of options, "**We're showing you all the options that you want. But if it would be up to me, I would go like this, zoom, and that's the best thing to do.**" He also gave the commercial reason: "**Some locations say I don't want to burden my player.** That's why I say make it easier for you."
+- **The obvious customer objection was raised and answered on the uniqueness of the wallet, not the PIN.** Asked what stops two players choosing the same code — "Suppose if you put code six five two, and another customer put six five two, so **my money goes to it**[?]" — Andrei: "**money are located on unique e wallet. This pin code is just protection to access this e wallet, but this part is unique.**"
+
+**Net effect:** nothing in the ruling changes. This is field confirmation that the Sept-2 softening is what actually ships and what customers are shown — with the no-PIN default now also being **recommended aloud by the owner** rather than merely set as a default.
+
 ## Open questions
 
 - Reliable optical read of a QR shown on a phone screen. Val insisted the sensor must read it "100% всегда" despite glare or low screen brightness, comparing it to airport and customs scanners; Pavel thought JVL's existing scanner should manage it if its illumination is switched off — "Главное, чтоб он бликий не создавал" — and Val still asked for "чтото более надёжное," suspecting off-the-shelf solutions already exist. Unresolved — [[raw/Meeting_Transcript_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
@@ -52,3 +63,5 @@ On the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-updates-after-the-show.md|Se
 - [[raw/Meeting_Notes_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
 - [[raw/Meeting_Transcript_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
 - [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- [[raw/Meeting_Notes_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]]
+- [[raw/Meeting_Transcript_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]]

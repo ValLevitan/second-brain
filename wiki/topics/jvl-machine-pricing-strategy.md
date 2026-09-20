@@ -2,8 +2,8 @@
 type: topic
 title: JVL machine pricing and commercial strategy
 date: 2025-09-23
-aliases: [machine pricing, fifteen seven fifty, $15750, free hardware instead of discount, retail price, price list, Dennis one number, CFO-to-CFO credit, market pricing, list price, dollars not discounts, JVL Dollars pricing lever, show special pricing, Georgia machine price, D43 price, D27 trade-in, South Dakota premium, twelve eight twenty, two nine thirty, $795 port, $895 IQ, $7950 Flex-Slim, kill the market]
-source-count: 21
+aliases: [machine pricing, fifteen seven fifty, $15750, free hardware instead of discount, retail price, price list, Dennis one number, CFO-to-CFO credit, market pricing, list price, dollars not discounts, JVL Dollars pricing lever, show special pricing, Georgia machine price, D43 price, D27 trade-in, South Dakota premium, twelve eight twenty, two nine thirty, $795 port, $895 IQ, $7950 Flex-Slim, kill the market, fifty-seven fifty, topper eight hundred to one thousand, ten dollars per machine, value almost as much as this machine is]
+source-count: 23
 ---
 
 # JVL machine pricing and commercial strategy
@@ -185,6 +185,20 @@ At the [[wiki/meetings/2026-09-10-diamond-amusements-machine-performance-and-bun
 
 **§15.8:** clear — machine, bundle and subscription pricing only; no named-person compensation.
 
+## Sept 15 2026 — the topper priced, the competitor's monthly number named, and a machine price that does not match the run
+
+At the [[wiki/meetings/2026-09-15-unlimited-amusement-mega-hit-blaze-v3-and-bundle-pitch.md|Sept-15 Unlimited Amusement visit]] the pricing came from [[wiki/people/felipe-miranda.md|Felipe]] rather than Val, and it is the first customer meeting in the run where the **topper** carries a price of its own. [[raw/Meeting_Transcript_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]]
+
+- **The topper is worth $800–$1,000 of extra daily take, per Felipe** — "I recommend you with **topper** for those locations that can add the topper. I understand that some the heights not good enough, but **if with the topper, it will have an additional eight hundred to one thousand dollars.**" *(What the $800–1,000 is **per** — per month, per unit of price, or something else — is **not stated**; the sentence stops there and is recorded as spoken. Note the earlier, different sense already on this page: Sept 2025, "you opted for the topper, an **$800 item**," which is the topper's own cost.)* [[raw/Meeting_Transcript_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]]
+- **The machine price as spoken: "Fifty-seven fifty is what we have as of today, and that includes access to all the…"** — the sentence is cut off. **This is the only machine number in the meeting and it does not match anything else in the run.** Four consecutive customers between Sept 1 and Sept 10 heard **$15,750**; a $5,750 machine would be below every figure in the corpus, including the $13,500 the same machines sold for before the show. **The most likely reading is a truncated rendering of "fifteen seven fifty" — but that is an inference, flagged as one, and the transcript's words are left as they are.** No other JVL speaker restates a machine price in this meeting. [[raw/Meeting_Transcript_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]]
+- **The derived notes do not quote a machine price at all** — they record only the free hardware and the monthly fee, so they neither confirm nor correct the figure. [[raw/Meeting_Notes_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]]
+- **The free set is sized against the machine instead of in dollars:** "**It's a value almost as much as this machine is.**" First time in the corpus the giveaway is valued that way rather than at $7,000 (Sept 2) or ~$15,000 (Sept 9–10). [[raw/Meeting_Transcript_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]]
+- **The first competitor monthly-service number put beside JVL's $90.** Felipe: "**For ten dollars per machine**, thirty ninety. As opposed to, **we are priced at ninety dollars a month**, which includes everything that under discussion." The derived notes read the argument as: **$10 per machine buys a far narrower service**, and once a location makes the operator pay, the operator should be paying for the thing that costs least — "**nobody else in the market gives the equipment away.**" **No competitor is named anywhere in the exchange, and "thirty ninety" is not interpreted.** Two further monthly figures cross the same passage, from people the speaker labels do not identify — "**Forty dollars. I think it's more because I think it's per device**" and "**It's thirteen dollars ninety cents**" — recorded as spoken and **attributed to no company**. [[raw/Meeting_Transcript_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]] [[raw/Meeting_Notes_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]]
+- **Wallets are priced only as "much more."** Asked for Apple Pay / Google Pay, Val: "it can go in my Apple Wallet. Eventually, it will, but **it needs to happen on the side of the integrator**… if you want Apple Pay or if you want Google Pay, **this will cost much more than**[…]" — the sentence trails off and **no figure is given**. [[raw/Meeting_Transcript_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]]
+- **The card-fee side of the market, from the operator:** transaction fees "range from **two to three dollars**" with "**three dollars for installation activation fees**", plus ATM charges and per-withdrawal limits on top. See [[wiki/topics/georgia-prize-card-processor-economics.md]] and [[wiki/organizations/unlimited-amusement.md]]. [[raw/Meeting_Transcript_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]]
+
+**§15.8:** clear — machine, topper, bundle and subscription pricing and operator card-fee economics only; no named-person compensation.
+
 **Temporal note:** the $16,000–$18,000 retail band above is the **Sept-2025** class-3 / skill-market policy and is not superseded by these Georgia COAM numbers — Georgia is a different market segment. The two are recorded side by side; no source in this batch revisits the class-3 band.
 
 ## Sources
@@ -210,3 +224,5 @@ At the [[wiki/meetings/2026-09-10-diamond-amusements-machine-performance-and-bun
 - [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
 - [[raw/Meeting_Notes_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
 - [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- [[raw/Meeting_Notes_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]]
+- [[raw/Meeting_Transcript_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]]
