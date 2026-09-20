@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий]
-source-count: 87
+source-count: 91
 open-commitments: 25
 ---
 
@@ -389,8 +389,32 @@ At the [[wiki/meetings/2026-09-16-street-machine-board-spec-and-georgia-class-a-
 - [ ] Genadi Peari — design the new street-machine I/O board (USB hub, 2 SAS, printer port, bill-acceptor port with ID003 + ccTalk, lighting support, front-mounted connections) plus the separate button/counter board — due unspecified — [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
 - [ ] Genadi Peari — start the street machine's visual design the following week, without a reference picture — due week of Sept 21 2026 — [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
 
+## Sept 17 2026 (1:47 PM) — he is on the receiving end of a finish-and-fit list, and then raises the costing gap nobody else raises
+
+A ten-minute Val↔Genadi call in two recorded segments ([[wiki/meetings/2026-09-17-flexpay-slim-lid-critique-and-flexport-landed-cost.md|Sept-17 1:47 PM call]], Russian), the first of the two with Val holding a built **FlexPay Slim** and reading out complaints.
+
+**He argued the cover was unnecessary, and lost on aesthetics rather than on engineering.** His case was that the bay is already a service compartment — the monitor locks when shut and it is opened only for service — so tidying and shortening the wires is enough without adding another cover. Val did not take it and specified a flat **metal mesh on small legs or standoffs** instead, rejecting both a box and a solid plate: "**она бы стоила нам буквально копейки, но эстетику придала просто колоссальны**". Genadi echoed it back — "**Мэш металлический[,] мэш такой**" — and took it: "**Окей… Понял**". See [[wiki/decisions/2026-09-17-a-metal-mesh-on-standoffs-covers-the-flexpay-slim-service-bay-and-legs-replace-the-string.md]]. [[raw/Meeting_Transcript_Flex_Pay_Slim_Lid_and_Wiring_Critique-September-17-2026.md]]
+
+**He contributed the one piece of mechanism on the call.** Having asked Val to choose between a lid that does not slam and a lid that opens itself — and been told to decide it himself — he supplied the consequence: with a gas strut "**нам не нужно делать стоперы, потому что оно поднимется на высоту этого… газ[ ]лоудера**", no separate travel stoppers are needed because the strut sets the open height. Val: "**Да да, хорошо**". [[raw/Meeting_Transcript_Flex_Pay_Slim_Lid_and_Wiring_Critique-September-17-2026.md]]
+
+**He corrected Val on the state of the front wiring rather than letting it pass.** Val believed the front-side connections had already been rerouted to the back — "**Помоему, что это уже сделано**" — and Genadi said plainly they had not: "**Ну не сделано, но…**" Same shape as his Sept-14 "**Нет**" on the Flex IQ covers. [[raw/Meeting_Transcript_Flex_Pay_Slim_Lid_and_Wiring_Critique-September-17-2026.md]]
+
+**He closed the topic with a service reservation, not a design objection:** "**Я с проводами немножко тяжело[,] на ремонт[ ]ли[,] это надо**" — the wiring is awkward where servicing is concerned. He had also let slip "**А я думал[,] что это серьёзно?**", the same deflating reaction he gave on Sept 14 when sequenced. Neither line appears in the derived notes. [[raw/Meeting_Transcript_Flex_Pay_Slim_Lid_and_Wiring_Critique-September-17-2026.md]] [[raw/Meeting_Notes_Flex_Pay_Slim_Lid_and_Wiring_Critique-September-17-2026.md]]
+
+**And in the second segment he said the thing he is the only one in the corpus who says out loud: he does not know what a machine costs.** Having priced the FlexPort electronic board at quantity with [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]], he put the gap to Val — it "**будет обходиться не… в $46, как должно быть**" but "**в $60 изза этих таксов**" — and then gave the reason he was raising it at all: "**вы меня[,] когда спрашиваете[:] Геннадий, сколько стоит мне эта машина? Я, честно говоря, confus[ed], потому что я смотрю… а потом я смотрю туда[,] и в[о] студии freen[t] [words]**" — one figure, then another with freight in it. He warned Val off his own numbers — "**чтобы вы не были мистейкенс с нашими ценами, потому что это зависит и прайсинг**" — because the suppliers "**перепаковывают… делают хитрости**", and "**потом это в аэропорте**". Ruling: [[wiki/decisions/2026-09-17-import-duty-gets-its-own-tax-category-in-business-central.md]]. [[raw/Meeting_Transcript_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]] [[raw/Meeting_Notes_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]]
+
+This is the third time in a fortnight that Genadi is the one who names a *visibility* problem rather than a technical one — after the twenty plastics that were physically in Georgia but invisible in the system (Sept 4) and his own "$600 за борт" board price withdrawn as last year's number inside two lines (Sept 16).
+
+*(His four commitments from the Sept-17 lid list — the mesh, the damped legs, the wire tidy-up and the front-to-back rerouting — are held once on [[wiki/decisions/2026-09-17-a-metal-mesh-on-standoffs-covers-the-flexpay-slim-service-bay-and-legs-replace-the-string.md]] and deliberately not re-counted here.)*
+
+**§15.8:** clear — the call is a criticism of the unit, and only the engineering faults are recorded here, never a judgement of the person who built it. No compensation material appears in either Sept-17 file.
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Flex_Pay_Slim_Lid_and_Wiring_Critique-September-17-2026.md]]
+- [[raw/Meeting_Notes_Flex_Pay_Slim_Lid_and_Wiring_Critique-September-17-2026.md]]
+- [[raw/Meeting_Transcript_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]]
+- [[raw/Meeting_Notes_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [[raw/Meeting_Notes_Genadi_General_Alignment-May-22-2026.md]]

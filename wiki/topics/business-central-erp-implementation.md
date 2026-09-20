@@ -2,8 +2,8 @@
 type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
-aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention, installment payments, aged receivables, Customer Ledger Entries, category-based terms, subscription module, parts vs machines terms, Black Horse Entertainment, Sales Watch]
-source-count: 59
+aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention, installment payments, aged receivables, Customer Ledger Entries, category-based terms, subscription module, parts vs machines terms, Black Horse Entertainment, Sales Watch, import duties tax category, landed cost, tax category]
+source-count: 61
 open-questions: 4
 ---
 
@@ -364,7 +364,17 @@ On the [[wiki/meetings/2026-09-08-bank-of-america-cashpro-api-capabilities.md|Se
 - **Failure handling may not reach Business Central automatically.** Nathan asked how NACHA failure codes flow back into JVL's system. File acknowledgements and returns/NSF notices are largely a **visual** inside CashPro (PDF or text, up to about twenty rejects with reason lines) "more of a visual than a parsing back into your system"; Connie believes a NACHA-format return that could be read into the ERP may also be available and will confirm — recorded as an open question on [[wiki/organizations/bank-of-america.md]]. [[raw/Meeting_Transcript_Bank_of_America_CashPro_API_Integration-September-8-2026.md]]
 - **No API addenda.** If JVL wants an invoice number travelling with a credit, the API cannot carry it — only the file can (80 characters, or 9,999 on a CTX). The alternative the bank offered is having the ERP email the recipient. §15.8: banking and integration mechanics only, no named-person compensation. [[raw/Meeting_Transcript_Bank_of_America_CashPro_API_Integration-September-8-2026.md]]
 
+## Sept 17 2026 — hardware asks BC for an import-duties tax category, so a part costs what it lands for
+
+The first request in the corpus for a Business Central field that comes from the **hardware** side rather than from finance. On the [[wiki/meetings/2026-09-17-flexpay-slim-lid-critique-and-flexport-landed-cost.md|Sept-17 1:54 PM segment]] (Russian) [[wiki/people/genadi-peari.md|Genadi Peari]] showed [[wiki/people/val-levitan.md|Val]] that the FlexPort electronic board he had priced with [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] costs **$60** on order rather than the **$46** the component is worth, "**изза этих таксов**". [[raw/Meeting_Transcript_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]]
+
+- **The split agreed.** Genadi: keep the cost "**как наш би[лл ]о[ф ]материал[,] то, что стоит компонент**" — as the bill of material, the component price — and handle the rest "**в BC**". Val named the mechanism: "**Мы должны внести[,] завести категорию[,] налоговую категорию**" for import duties. The category's name arrives garbled in the transcript ("**Импульс импульрис**") and **import duties** is a reading of the sound, taken with the derived notes. [[raw/Meeting_Transcript_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]] [[raw/Meeting_Notes_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]]
+- **Nobody took it.** Val said "we must"; no owner was named on the call and the derived notes flag the same gap. Tracked on [[wiki/decisions/2026-09-17-import-duty-gets-its-own-tax-category-in-business-central.md]] and [[wiki/topics/tariffs-and-customs-compliance.md]] (Sept 17 2026). [[raw/Meeting_Notes_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]]
+- **Why it belongs here and not only on the tariff page.** Genadi's stated reason is that he cannot answer Val's question "**сколько стоит мне эта машина?**" — he looks at one number and then at another with freight in it. That is the same **inventory-and-cost-visibility** gap this page has tracked since the Sept-4 plastics that were physically in Georgia but absent from the system, and since the three-source cost hierarchy work of May 21 2026. Val's own workaround today is arithmetic outside the system: he adds **30%** to whatever bill-of-material figure Genadi gives him, and said the truer number is about **35%**. **§15.8:** component, freight and duty economics only. [[raw/Meeting_Transcript_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]]
+
 ## Sources
+- [[raw/Meeting_Transcript_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]]
+- [[raw/Meeting_Notes_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]]
 - [[raw/Meeting_Notes_Bank_of_America_CashPro_API_Integration-September-8-2026.md]]
 - [[raw/Meeting_Transcript_Bank_of_America_CashPro_API_Integration-September-8-2026.md]]
 - [[raw/Meeting_Notes_General_Ledger_Labs_Alignment-July-31-2026.md]]

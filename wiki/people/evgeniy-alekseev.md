@@ -4,7 +4,7 @@ title: Evgeniy Alekseev
 date: 2025-03-11
 aliases: [Evgeniy Alekseev, Evgeny Alekseev, Zhenya Alekseev, Женя Алексеев, Alekseev]
 disambiguation: "Owner of the main embedded code branch, this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
-source-count: 37
+source-count: 39
 open-commitments: 8
 ---
 
@@ -173,8 +173,18 @@ Separately from the 7:37 AM call above, [[wiki/people/pavel.md|Pavel Frolov]] na
 
 **§15.8:** clear — task assignment only; no compensation or performance judgement is taken from this source.
 
+## Sept 17 2026 (in absentia) — he is the one who prices the FlexPort board at quantity
+
+[[wiki/people/genadi-peari.md|Genadi Peari]], putting the landed-cost problem to Val on the [[wiki/meetings/2026-09-17-flexpay-slim-lid-critique-and-flexport-landed-cost.md|Sept-17 1:54 PM segment]], named him as the person he checks board prices with: "**он стоит сегодня[ — ]я проверил на квонти[ти] с алексеевым**". The board is the FlexPort electronic board; the component price and the ordered price are **$46 and $60**. He was not on the call. See [[wiki/decisions/2026-09-17-import-duty-gets-its-own-tax-category-in-business-central.md]]. [[raw/Meeting_Transcript_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]]
+
+This is the same working pair the corpus records on the flash-chip reduction (Sept 2 2026) and on the Aug-24 Flex-Port-Mini costing — Alekseev supplies the board numbers, Genadi carries them to Val. [[raw/Meeting_Notes_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]]
+
+*(§4: "алексеевым" resolves to this page by context — board pricing on a Genadi Peari hardware project. **§15.8:** component pricing only, no compensation content.)*
+
 ## Sources
 
+- [[raw/Meeting_Transcript_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]]
+- [[raw/Meeting_Notes_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [[raw/Meeting_Notes_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]

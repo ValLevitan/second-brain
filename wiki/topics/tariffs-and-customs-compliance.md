@@ -2,10 +2,10 @@
 type: topic
 title: Tariffs and customs compliance (US–Canada tariffs, HS-code tracking, CBSA validation)
 date: 2025-04-28
-aliases: [tariffs, US-Canada tariffs, HS code, HS codes, harmonized system, country of origin, intercompany transfer pricing, BOM plus 30, CBSA, Canadian customs, CARM, trade compliance validation, international trade attorney, duty drawback, transitional export waiver, slot machine component subcategory]
-source-count: 11
-open-commitments: 6
-open-questions: 2
+aliases: [tariffs, US-Canada tariffs, HS code, HS codes, harmonized system, country of origin, intercompany transfer pricing, BOM plus 30, CBSA, Canadian customs, CARM, trade compliance validation, international trade attorney, duty drawback, transitional export waiver, slot machine component subcategory, landed cost, import duties tax category, bill of material excludes freight, FlexPort board 46 versus 60]
+source-count: 13
+open-commitments: 7
+open-questions: 3
 ---
 
 # Tariffs and customs compliance (US–Canada tariffs, HS-code tracking, CBSA validation)
@@ -101,8 +101,18 @@ Two July-3 sources show the tariff strategy hitting concrete numbers as the manu
 - **DDP monitor/board quotes (procurement).** On the relocation alignment ([[wiki/meetings/2025-07-03-procurement-relocation-georgia.md]]) the first **DDP (Delivered Duty Paid)** quotes into the US landed brutal: from the distributor **Alpha**, a 21.5"/27" monitor costing ~**$95–100** carries ~**$70 of tariff per unit** — roughly **70–90%** — plus ~$15 delivery (e.g. 100 units = ~$7,200, of which ~$6,000 is tariff; a 200-unit / 2-skid shipment ≈ **$14–15k of duty**). The 43" monitor is still unquoted. Val wants a **reference quote from bySearch** (the ~7-year California distributor who imports into the US and "knows everything") to sanity-check the numbers, and floated a **US-fabrication trick** a supplier mentioned — importing the bare monitor, then mounting it to a plastic/metal part done in the US so ~50% is "made in USA" — as something worth investigating (Val's caution: the importer still pays tariff at US entry unless done in a free-trade zone). **Power supplies** are a distinct case: bought via a US distributor (MeanWell/Sagir, China/Taiwan origin), where the distributor **added ~10% to an invoice as a tariff pass-through** ("due to tariff our cost went up, we're raising your price") — Val had the charge removed once but expects it won't fly again. [[raw/procurement_production_relocation-july-3-2025.md]]
 - **The double-tariff rationale (finance).** On the [[wiki/meetings/2025-07-03-alka-finance-update.md|Alka finance update]] Val gave the reason manufacturing is leaving Canada in tariff terms: after consulting US and Canadian legal teams, **no one can assure him** how US↔Canada tariffs will be treated or whether he can reclaim tariff on goods entering Canada — so he expects to **pay double tariff (China→Canada, then Canada→US)**, and because the US is cracking down on **"screwdriver assemblies,"** a China-heavy BOM assembled in Canada risks being deemed **China-origin**, "and then the tariff will just kill me." Hence production moves to Georgia. [[raw/finance_update_alka-july-3-2025.md]]
 
+## Sept 17 2026 — the duty finally shows up as a line on a single part, and gets an ERP field
+
+Everything above is strategy: classification, origin, transfer pricing, who advises. The [[wiki/meetings/2026-09-17-flexpay-slim-lid-critique-and-flexport-landed-cost.md|Sept-17 2026 1:54 PM segment]] is the first source in the corpus where the duty arrives as a **per-part costing gap on a named component**, raised by [[wiki/people/genadi-peari.md|Genadi Peari]] to [[wiki/people/val-levitan.md|Val]] (Russian).
+
+- **The gap on the FlexPort electronic board.** Priced at quantity with [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]], the board "**будет обходиться не… в $46, как должно быть, он нам будет обходиться в $60 изза этих таксов**" — **$46** as it ought to cost, **$60** as it actually lands, because of the taxes. Val: "**мы не уйдём вот так**" — we cannot keep going this way. **No rate, HTS/tariff classification, country of origin or freight/duty split is stated in the source**, and none is inferred here; the figure Genadi first quotes before the comparison is garbled in the transcript. [[raw/Meeting_Transcript_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]]
+- **The fix is an ERP category, not a classification argument.** Val: "**Мы должны… завести… налоговую категорию**" for import duties, with the bill of material keeping the bare component price — see [[wiki/decisions/2026-09-17-import-duty-gets-its-own-tax-category-in-business-central.md]] and [[wiki/topics/business-central-erp-implementation.md]] (Sept 17 2026). [[raw/Meeting_Transcript_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]]
+- **Supplier behaviour is named as part of the distortion.** Genadi: the suppliers "**перепаковывают… делают хитрости, но это хьюч**" — they repack, they use tricks, and it is huge — and he asked Val not to be misled by the prices he himself quotes, "**потому что это зависит и прайсинг**". The supplier is **not identified**: his phrase for them, "**not sow mach**", is not interpretable, and the derived notes' reading of it as "the current suppliers" is their inference, not the source. [[raw/Meeting_Transcript_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]] [[raw/Meeting_Notes_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]]
+- **Val's private markup, and the 30% coincidence.** He stated twice that he adds **30%** to any bill-of-material number Genadi gives him, and once that the truer figure is about **35%** — no change was agreed. **Inference, labelled:** this 30% and the Apr-2025 intercompany "bill of material + 30% markup" recorded above are numerically the same but are different instruments — a declared customs value between JVL Labs and JVL Systems in one case, Val's estimating rule for reading a hardware quote in the other. No source connects them; they are not merged. [[raw/Meeting_Transcript_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]] [[raw/business_central_update-apr-28-2025.md]]
+
 ## Open commitments
 
+- [ ] Owner not named on the call — create an import-duties tax category in Business Central so the landed cost of a part is captured, not just its component price — due unspecified — [[raw/Meeting_Transcript_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]]
 - [ ] Val — send [[wiki/people/lucie.md|Lucie]] the current HS classification number + product descriptions for the China-origin cabinet metal — due right away (before the June-16 CBSA reply) — [[raw/tariffs_lucie_alan_intro-june-11-2025.md]]
 - [ ] [[wiki/people/alan.md|Alan]] — respond to CBSA's last email (cc Lucie); reply or request an extension by June 16 — due by June 16 — [[raw/tariffs_lucie_alan_intro-june-11-2025.md]]
 - [ ] [[wiki/people/lucie.md|Lucie]] / Alan — study whether JVL qualifies for a duty-drawback / transitional export-waiver licence (and the specific-vs-general HS classification), given the new April-2025 CBSA release rules — due unspecified — [[raw/tariffs_lucie_alan_intro-june-11-2025.md]]
@@ -114,9 +124,12 @@ Two July-3 sources show the tariff strategy hitting concrete numbers as the manu
 
 - Does a Canada–China free-trade agreement exist (bearing on the China-import tariff/origin treatment)? Being checked. [[raw/cbsa_maria_sanchez-april-30-2025.md]]
 - What will CBSA actually request in its follow-up letter (origin, valuation, or routine input verification), and what is JVL's exposure? Unknown until the letter arrives. [[raw/cbsa_maria_sanchez-april-30-2025.md]]
+- What makes up the **$46 → $60** gap on the FlexPort board — duty, freight, handling, or supplier repacking — and at what rate? The source names only "таксов" and "these duties". [[raw/Meeting_Transcript_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]]
 
 ## Sources
 
+- [[raw/Meeting_Transcript_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]]
+- [[raw/Meeting_Notes_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]]
 - [[raw/business_central_update-apr-28-2025.md]]
 - [[raw/cbsa_maria_sanchez-april-30-2025.md]]
 - [[raw/action_list_review_lev_rudky-may-1-2025.md]]
