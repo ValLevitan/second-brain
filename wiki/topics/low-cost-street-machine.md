@@ -2,8 +2,8 @@
 type: topic
 title: Low-cost street machine (sub-$2,000 street cabinet program)
 date: 2026-06-09
-aliases: [street machine, street cabinet, low-cost street machine, low-cost street cabinet, street slot machine, sub-$2000 street machine, RK3588 street machine, stripped street cabinet, Flex S, флекс эс, стрит машина, RK3576 street machine, wooden monolithic body]
-source-count: 10
+aliases: [street machine, street cabinet, Sept 16 board spec, ID003 and ccTalk, eye level electronics, halo light, plywood cabinet, cup holders, low-cost street machine, low-cost street cabinet, street slot machine, sub-$2000 street machine, RK3588 street machine, stripped street cabinet, Flex S, флекс эс, стрит машина, RK3576 street machine, wooden monolithic body]
+source-count: 12
 ---
 
 # Low-cost street machine (sub-$2,000 street cabinet program)
@@ -118,6 +118,44 @@ That makes three materials proposed for the same monolithic body across four mon
 
 **§15.8:** clear — cabinet, board and build-cost economics only; no named-person compensation appears in either Sept-14 12:04 file.
 
+## Sept 16 2026 — the electronics get specified, and the cabinet gets a shape
+
+Two days after the Sept-14 call gave the cabinet a start date, the [[wiki/meetings/2026-09-16-street-machine-board-spec-and-georgia-class-a-order.md|Sept-16 12:35 PM ET alignment call]] (Russian; [[wiki/people/val-levitan.md|Val]], [[wiki/people/genadi-peari.md|Genadi Peari]], [[wiki/people/pavel.md|Pavel Frolov]]) spends an hour turning it into an electronics specification. Val restated the target unchanged — asked "**вы хотите тысячу долларов в машину**", he answered "**Я хочу тысячу долларов машин[у], да**" — and Genadi's whole case for cutting hangs off it [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]].
+
+**Val's own description of the machine, in one pass:** "**очень, очень простая машина за тысячу долларов**", running on the compute board (transcript "**рк 38 76**"), with a bill validator "**как об[ыч]но**" and **JVL's own FlexPort**. He doubts the validator will be used at all — "**вряд ли мы будем пользоваться валидатором вообще**" — but if it is, it will be backlit, and a **peripheral printer** should be fitted anyway "**на всякий случай**". Two SAS ports. The panel smaller than the current 21-inch (transcript renders the size "**21000**"), mostly buttons, "**около 8 кнопок**" — to be confirmed with [[wiki/people/michael-gottlieb.md|Michael Gottlieb]] once the design is finished [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]].
+
+**Five things were actually fixed, each on its own page:**
+
+- **The electronics layout** — two boards (a new I/O board plus a button/counter board), the I/O board carrying a USB hub, 2 SAS, a printer port and a bill-acceptor port (**ID003 + ccTalk**, pulse ruled out of gaming without discussion), plus lighting support; the amplifier dropped for the TV's own; no electromechanical counters; **cell modem and WiFi both mandatory**. → [[wiki/decisions/2026-09-16-the-street-machine-carries-two-boards-and-a-new-io-board.md]]
+- **The memory cut** — the **six 256 FRAM chips go to one**, the per-game statistics (last 10 games and last 50 free spins, for each of six games) move out to an SD card or the eMMC, and low-power mode is **laid into the design but not populated**. → [[wiki/decisions/2026-09-16-one-fram-chip-instead-of-six-and-low-power-mode-laid-in-but-not-populated.md]]
+- **Serviceability** — electronics at **eye level** in a metal box screwed to the back of the TV; the monitor **hinged like a cupboard door**, opening no more than **90°**; no podium, no base, no two-screen-to-horizontal conversion. Driven by a recording Val holds of technicians refusing to buy JVL machines, not by preference. → [[wiki/decisions/2026-09-16-street-machine-electronics-move-to-eye-level-and-the-monitor-opens-like-a-cupboard-door.md]]
+- **Machine identity** — the cabinet-bound encrypted passport component is removed and identity binds to **JVL's own I/O board**, because JVL does not change its own board but may change processor suppliers. → [[wiki/decisions/2026-09-16-machine-identity-moves-off-the-cabinet-passport-onto-jvls-own-io-board.md]]
+- **Certification** — **no GLI for street machines**, therefore no enclosure boxes and no tampers, only door monitoring, setup and audit — then Val reopened it himself over Nebraska. → [[wiki/decisions/2026-09-16-street-machines-skip-gli-so-no-boxes-and-no-tampers-but-nebraska-reopens-it.md]]
+
+### The cabinet look — Genadi asked for a reference picture and there isn't one
+
+Genadi wanted to start the visual design the following week and asked Val for something to work from: "**у вас есть какая[-]то картинка[?]**" Val had none, and gave the reason: "**Нету ни одного [competition]. Поэтому я настолько тороплюсь**" — there is no competitor product, which is exactly why he is in a hurry [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]].
+
+What Val described instead: a **vertical TV at the current tilt angle but thinner**, a **smaller panel**, **cup holders** ("**обязательно нужно капхолдеры для [drink]**"), and **possibly a small elongated video camera** ("**маленьк[ая] продолговат[ая]**"). Body in **plywood** — "**я бы делал бы это из плай[-]вуда**", sanded (the second half of the phrase, "**солэнд … доски**", is garbled) — with a **plastic finish on the monitor** [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]].
+
+**Genadi's read-back is the most compact description of the machine anywhere in this thread:** "**по большому счету это наша сегодняшняя 43 с маленьким видеок[амерой,] с капхолдером[,] и уменьшенной … панел[ью,] дверь монолитная и … кабинет шало[у]**" — essentially today's 43-inch machine with a small camera and a cup holder, a reduced panel, a monolithic door and a shallow cabinet — "**то же самое, только просто[е]**". He was not sure the plywood finish is cheap: "**Я не знаю сколько это стоит… мне кажется это довольно сложно**" [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]].
+
+**Note against the material history above:** this is **plywood**, a fourth material description in the same four-month run (sheet metal → plastic back cavity → wood, Sept 14 → plywood with a plastic monitor finish, Sept 16). The Sept-14 "wooden monolithic rear body" and this are close but not identical, and neither Genadi nor Val treats the earlier proposals as withdrawn. Recorded as the latest description, not as a settled choice.
+
+### Lighting — Val now leans halo and would drop the perimeter light
+
+Genadi asked whether the lighting is still the closed loop Val had described before — around the monitor, then down the sides, one big closed loop — or whether it is being reviewed. Val: "**[в]округ монитора на 100%**", but the rest "**надо ревью, я не знаю. В зависимости, сколько экспенс на это потратить**" [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]].
+
+Then his own lean: light the panel from behind the monitor "**как хейло лайт сделать**", so that "**на панели … красиво ложился лайт[,] один такой плавный**" — and, explicitly, "**вообще хейло лайн хорошо работает. Можно тогда вот периметр лайт отказаться**" — a halo works well, and the perimeter light could then be dropped [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]].
+
+**This reverses Val's own earlier lean and leaves a June objection unanswered.** In June 2026 his lean was **one perimeter light line** and Genadi's counter-point was that **a halo light shows poorly in bright street locations**; in August the NOVA wishlist call settled on **perimeter lights, yes**. The Sept-16 position is newer and becomes the current lean — but nothing in the Sept-16 source addresses the bright-street objection, and Val himself subordinates the whole scheme to a cost review. **Open:** whether the halo-plus-perimeter scheme is worth the expense, and whether the June brightness objection still stands. [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]] [[raw/Meeting_Notes_Street_Machine_Industrial_Design-June-9-2026.md]] [[raw/Meeting_Transcript_NOVA_Capability_Wishlist-August-14-2026-Part_2.md]]
+
+### The priority order Genadi is actually working
+
+Genadi's own status round opens the call and confirms the Sept-14 sequence is holding: he is **releasing the plastics for Georgia** (quoting and ordering now); he is **updating the monitor scanner**, moving the scanner to a different place, and needs a quotation before he can release it; "**послезавтра**" — the day after tomorrow — he moves to the **TITO printer**; and "**[н]екс[т] … [в]ик — [п]ереключаюсь на стрит**", next week he switches to the street machine [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]. That is consistent with the **September 23** start on [[wiki/decisions/2026-09-14-tito-printer-cases-come-before-the-street-cabinet.md]].
+
+*§15.8: board, component, cabinet and build-cost economics only; one comparative remark about a named colleague's board work was excluded. No named-person compensation.*
+
 ## Sources
 
 - [[raw/Meeting_Notes_Low_Cost_Street_Machine_Design-June-8-2026.md]]
@@ -130,3 +168,5 @@ That makes three materials proposed for the same monolithic body across four mon
 - [[raw/Meeting_Transcript_NOVA_Capability_Wishlist-August-14-2026-Part_2.md]]
 - [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+- [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
+- [[raw/Meeting_Notes_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]

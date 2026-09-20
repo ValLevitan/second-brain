@@ -3,8 +3,8 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий]
-source-count: 85
-open-commitments: 20
+source-count: 87
+open-commitments: 25
 ---
 
 # Genadi Peari
@@ -367,6 +367,28 @@ At the [[wiki/meetings/2026-09-15-transactional-mvp1-balance-naming-and-ui-flow-
 
 The reader matters because Val wants the cashier login method to become selectable between a PIN and a magnetic stripe card — see [[wiki/decisions/2026-09-15-the-flex-iq-cashier-flow-login-redemption-receipts-and-records.md]].
 
+## Sept 16 2026 (12:35 PM) — he pushes back on being told how, then concedes on evidence, and wins the identity argument
+
+At the [[wiki/meetings/2026-09-16-street-machine-board-spec-and-georgia-class-a-order.md|Sept-16 12:35 PM alignment call]] Genadi ran the street machine's electronics down to a specification with [[wiki/people/pavel.md|Pavel Frolov]]. Three things characterise how he argued it [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]:
+
+- **He objected, on the record, to Val specifying method.** Mid-way through Val's list of how the cabinet should open and where the electronics should sit: "**вы сейчас очень много говорите, как делать? Я считаю, что это неправильно**". He raised two concrete engineering objections behind it — machines could not then stand side by side, and there would be no room for lighting around the monitor — and both were answered on the spot. See [[wiki/decisions/2026-09-16-street-machine-electronics-move-to-eye-level-and-the-monitor-opens-like-a-cupboard-door.md]].
+- **He conceded the moment he heard the evidence, and said why the argument had gone badly.** On Val's recording of technicians refusing to buy JVL machines: "**Я верю[,] просто…**", "**во-первых, я это всё слышу 1 раз сейчас**", and then "**если бы начали с Того, что просят[,] … то я понял**" — if we had started from what they are asking for, I would have understood.
+- **He won the machine-identity argument against Pavel** on a supply-chain point rather than a technical one: identity should bind to JVL's own I/O board, not the processor board, because "**это наша … более надежная [шт]ука[;] поменяешь завтра … [д]ругого производителя. Нашу — нет**". Val ruled his way. See [[wiki/decisions/2026-09-16-machine-identity-moves-off-the-cabinet-passport-onto-jvls-own-io-board.md]].
+
+**His cost frame for the whole exercise**, which is the argument the rest of the call ran on: "**Стрит машина дешевая. [I/O] bort не может быть[,] с таким количеством памятью, которое он стоит там 60[-]$70. Когда он хочет машину за тысячу?**" — and "**много денег стоит фиро[м]агнитик мемори**". On the current board price he gave "**сегодня мы платим $600 за борт**" and then corrected himself inside two lines — that was last year, and he does not know today's figure [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]].
+
+**Two facts he stated about the board being replaced:** he laid out its connectors and chose its components himself — "**как коннектора расставили? Это я делал[,] как компоненты[,] какие — это тоже я**" — and it is four-layer, with a processor he called "**древний**" and "**15 лет ему**" [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]].
+
+**His status round opened the call** and confirms the Sept-14 sequence is holding: releasing the Georgia plastics (quoting and ordering now); updating the monitor scanner, moving it to a different place, needing a quotation before release; the **TITO printer** "**послезавтра**"; and the **street machine** next week [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]. He also asked Val for a reference picture for the cabinet's visual design and was told there is no competitor product to point at — see [[wiki/topics/low-cost-street-machine.md]].
+
+## Open commitments (Sept 16 2026, 12:35 PM call)
+
+- [ ] Genadi Peari — release the IQ moulds and tooling. Val: "**Выпускаться? Да, да, выпускать**"; Genadi: "**Я сегодня[,] завтра же я это сделаю**" — due Sept 16–17 2026 — [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
+- [ ] Genadi Peari — get the quotation for the Georgia plastics and release them — due that week — [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
+- [ ] Genadi Peari — finish the monitor scanner update (scanner moved to a different position); needs a quotation before release — due that week — [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
+- [ ] Genadi Peari — design the new street-machine I/O board (USB hub, 2 SAS, printer port, bill-acceptor port with ID003 + ccTalk, lighting support, front-mounted connections) plus the separate button/counter board — due unspecified — [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
+- [ ] Genadi Peari — start the street machine's visual design the following week, without a reference picture — due week of Sept 21 2026 — [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
@@ -454,3 +476,5 @@ The reader matters because Val wants the cashier login method to become selectab
 - [[raw/Meeting_Notes_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
+- [[raw/Meeting_Notes_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]

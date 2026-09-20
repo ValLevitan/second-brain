@@ -3,7 +3,7 @@ type: decision
 title: Val commits to a Georgia Class A deal with ARC within three months — "January. We're gonna do business."
 date: 2026-08-31
 aliases: [Class A deal within three months, January means a decision not a deal, I doubt very much that I can do anything until January, ARC Class A commitment, January Class A deal, three-month Class A promise]
-source-count: 5
+source-count: 7
 status: active
 open-commitments: 2
 open-questions: 1
@@ -58,9 +58,22 @@ Ten days after the commitment, at the [[wiki/meetings/2026-09-10-georgia-lottery
 
 *(Note also what the Sept-10 meeting settled in JVL's favour: the Lottery says manufacturing Class A is lawful today and would not damage the relationship — [[wiki/decisions/2026-09-10-the-lottery-tells-jvl-class-a-manufacturing-is-lawful-today.md]]. So the wait is a commercial and legislative judgement, not a regulatory block.)*
 
+## Sept 16 2026 — a date for the hardware, a concrete offer, and still no handshake
+
+At the [[wiki/meetings/2026-09-16-arc-gaming-cashless-suite-demo-and-class-a-cabinet-counter-offer.md|Sept-16 10:12 AM meeting]] Val gave ARC's CEO a **third** version of the timing — this one about the machine rather than the deal or the decision [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]:
+
+> "My machine is very expensive, and I need to redesign it. **I can redesign it by New Year.**… I have to redesign math. I have to redesign graphics. That's not a big deal. **But I have to redesign hardware**… **So I will do it. There's no issue.**"
+
+- **The build is now explicitly unconditional on ARC.** "**I need it for others. It's not on your account. You're not responsible for it.**" That removes ARC as the reason for the work while leaving the promise to ARC standing [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]].
+- **A concrete deal shape finally went on the table** — $2,500 per new complete cabinet plus 20%, JVL scrapping ARC's own — **and was not accepted**: "Let me just think on that." See [[wiki/decisions/2026-09-16-jvl-offers-arc-new-class-a-cabinets-at-2500-plus-20-percent.md]] [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]].
+- **The open question below — who at ARC signs — is not answered.** No handshake was asked for or given on Sept 16; the next contact is **October 15 2026** [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]].
+- **And Val's own record of what ARC has committed to is: nothing.** Having told an internal call the same day that ARC "basically gave me an order for Class A machines," he confirmed on 2026-09-16: "**I agree with your record, however, I played it to my advantage**" [[raw/Meeting_Notes_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]].
+
+**The Aug-31 / Sept-10 strain above is neither resolved nor deepened by this.** "New Year" is a hardware-redesign date, not the deal date of Aug 31 nor the hear-the-legislation decision point of Sept 10. All three are left standing side by side.
+
 ## Open commitments
 
-- [ ] [[wiki/people/val-levitan.md|Val]] — bring ARC a Class A partnership deal — due "three months / January" as stated. **Strained as of Sept 10 2026**: to the regulator Val said he doubts he can do anything before January and will hear the legislation first. Not discharged, not withdrawn — [[raw/Meeting_Notes_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]] [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
+- [ ] [[wiki/people/val-levitan.md|Val]] — bring ARC a Class A partnership deal — due "three months / January" as stated. **Still open at Sept 16 2026: an offer was made and not accepted, and no handshake was sought.** **Strained as of Sept 10 2026**: to the regulator Val said he doubts he can do anything before January and will hear the legislation first. Not discharged, not withdrawn — [[raw/Meeting_Notes_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]] [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
 - [ ] [[wiki/people/val-levitan.md|Val]] — visit and film a live Class A location ("I'm gonna be filming the living share of that. Send me to a friendly location that will allow me to film" — transcribed as written; Zazanis: "Just go and play. Put 100 bucks, sit down, play, take some pictures") — due same day, gated on ARC sending the address — [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]] [[raw/Meeting_Notes_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 
 ## Open questions
@@ -71,6 +84,8 @@ Ten days after the commitment, at the [[wiki/meetings/2026-09-10-georgia-lottery
 
 ## Sources
 
+- [[raw/Meeting_Notes_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+- [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
 - [[raw/Meeting_Notes_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
 - [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
 - [[raw/Meeting_Notes_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]

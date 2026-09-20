@@ -2,8 +2,8 @@
 type: organization
 title: Eclipse (gaming test lab)
 date: 2025-03-14
-aliases: [Eclipse, Eclipse lab, Xlibs, эклипс, a week for Eclipse to issue certificates, only the machine]
-source-count: 9
+aliases: [Eclipse, Eclipse lab, клипс, клипсе, always wanted a local box for the electronics, Nebraska parameters, Xlibs, эклипс, a week for Eclipse to issue certificates, only the machine]
+source-count: 11
 ---
 
 # Eclipse (gaming test lab)
@@ -50,6 +50,19 @@ The question left open the day before was settled the next morning at the [[wiki
 
 **So the transactional devices — Flex IQ, FlexPay, the Flex-Ports — are not part of the Eclipse submission; only the gaming machine is.** This closes the open question carried on [[wiki/decisions/2026-09-10-requirements-come-first-and-the-recycler-is-out-of-both-mvps.md]], and it leaves Irina's backwards-calculated schedule above intact — the week of Eclipse time and the 24th hand-over apply to the machine, not to the transactional line [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]].
 
+## Sept 16 2026 — the lab's Nebraska requirements reopen a street-machine design decision, and nobody in the room knows them
+
+At the [[wiki/meetings/2026-09-16-street-machine-board-spec-and-georgia-class-a-order.md|Sept-16 12:35 PM alignment call]] Val ruled that the [[wiki/topics/low-cost-street-machine.md|street machine]] does **not** go through [[wiki/organizations/gli.md|GLI]] — and then reopened his own ruling four minutes later because the machine might go to **Nebraska**, where Eclipse is the lab [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]].
+
+- **Val confirmed Eclipse is the Nebraska route but could not state its requirements:** "**в [Н]ебраск[е] я не помню[,] я сделал[] или нет. Я знаю[,] что мы там [через Eclipse] проходим, но я не знаю[,] какие там [требования;] по[-]моему[,] они какие[-]то вялые такие**" — he knows JVL goes through Eclipse there; he does not know the parameters and thinks they are slack [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]].
+- **[[wiki/people/genadi-peari.md|Genadi Peari]]'s recollection — the lab has always wanted a local electronics box:** "**[Eclipse] всегда хотели коробочку для электроники локал[ьную;] мы помним[,] мы им посылали[,] даже что[-]то меняли**". That cuts directly against the no-enclosure street-machine design [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]].
+- **On tampers his recollection is not self-consistent**, inside one minute: "**И [тамперы] не хотят**", then that tampers would need supporting if the case arises, then "**[Eclipse] не требует это мониторить … [п]о[-]моему**". Recorded as spoken, not reconciled [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]].
+- **The outcome was to go and ask:** "**С ними, скорее всего, стоит связаться и спросить [про] [Н]ебраск[у] — какие параметры?**" — **no owner was named aloud.** Tracked on [[wiki/decisions/2026-09-16-street-machines-skip-gli-so-no-boxes-and-no-tampers-but-nebraska-reopens-it.md]] [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]].
+
+*(**§4 note:** the Sept-16 transcript renders the lab as "**клипс**" / "**клипсе**" throughout. Read as Eclipse on context — Val names it as the Nebraska route, which matches this page's June-2025 record. The reading is an **inference** from a garble, not a literal string. The same garble family in a *different* Sept-14 context referred to an older **machine** and was deliberately left unidentified — see [[wiki/topics/low-cost-street-machine.md]].)*
+
+**§15.8:** clear — certification-scope facts only; no named-person compensation.
+
 ## Sources
 
 - [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
@@ -61,3 +74,5 @@ The question left open the day before was settled the next morning at the [[wiki
 - [[raw/Meeting_Notes_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
 - [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
+- [[raw/Meeting_Notes_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]

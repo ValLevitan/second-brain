@@ -2,9 +2,9 @@
 type: organization
 title: ARC Gaming
 date: 2026-08-31
-aliases: [ARC, Arc, ARC Gaming, Art, ARC Gaming DC, ARC Gaming & Technologies, Lucky Bucks, Lucky Bugs, Lucky Box, Arc Luck]
-source-count: 10
-open-commitments: 5
+aliases: [ARC, Arc, ARC Gaming, намберту, number two company in Georgia, two machines a week, five machines a week, Art, ARC Gaming DC, ARC Gaming & Technologies, Lucky Bucks, Lucky Bugs, Lucky Box, Arc Luck]
+source-count: 14
+open-commitments: 6
 open-questions: 5
 disambiguation: "The Georgia COAM master/route operator whose COO is Georgios 'Zaza' Zazanis and whose CEO is David Sloan. **Lucky Bucks is its FORMER NAME** — one company, renamed (Val's ruling, 2026-09-10). The corpus's earlier bare 'Arc' mentions in a *kiosk-vendor* sense are a separate, still-unresolved thread — see the §4 name note below. Resolve by context."
 ---
@@ -111,10 +111,68 @@ Nine days after the COO demo, Val met ARC's chief executive [[wiki/people/david-
 
 *(Nothing in this source touches the Aug-31 kiosk lock-in, the EXIO agreement, the remaining five units or the ninety-location PAX swap — none is mentioned and none is changed. The kiosk **board-swap proposal** that the [[wiki/decisions/2026-08-31-arc-kiosk-board-swap-routed-through-the-ceo.md|Aug-31 ruling]] routes through Sloan was **not put to him**.)*
 
+## Sept 16 2026 — the CEO sees the equipment, and the Class A talk becomes a negotiation
+
+The third ARC meeting and the first to put the transactional equipment physically in front of [[wiki/people/david-sloan.md|Sloan]] ([[wiki/meetings/2026-09-16-arc-gaming-cashless-suite-demo-and-class-a-cabinet-counter-offer.md|Sept-16 2026, 10:12–10:41 AM]], at **JVL's Lawrenceville office**, not Sloan's place as planned). [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] demonstrated the wallet; the Class A half is [[wiki/decisions/2026-09-16-jvl-offers-arc-new-class-a-cabinets-at-2500-plus-20-percent.md]]. [[raw/Meeting_Notes_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+
+### What ARC's CEO says the problem is — not equipment, but the absence of a standard
+
+> "I think a lot of it because of the technology and **so many different types of technology, and it's not standardized. That costs a lot. It takes a lot of time to adopt, to rebuild, to roll out. I still have old games on the ground.**" [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+
+**And the strategy that follows from it — locations as a portfolio:** "You treat it as a **portfolio of your locations**, so **build it up**, build it on your own, and then **flush stuff out that's not working, and build it back**, and again, retail. **So that's kind of what our strategy is.**" [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+
+### The gift-card solution is being pulled back out
+
+- **Coverage, as he gave it:** "we have **some sort of gift card solution in most of our locations. We're down to maybe 20 of them**, so whether it's a full kiosk." *(The sentence breaks off; the derived notes read the twenty as the locations still **without** a full kiosk. **Ambiguous in the source** and recorded as such.)* [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]] [[raw/Meeting_Notes_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+- **Why it is coming out:** "**I love it, but it's got to comply**… **But there is no replayability**… So that was the biggest issue, though. **At least it got us compliant. Didn't really cost much in capital. We're getting complaints now, so we're kind of taking those out**… **we have to now move into something else.**" [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+
+**This is the operator's own verdict on the compliance-first card fix that the Aug-31 record describes ARC living inside.** Cheap, compliant, and now generating complaints.
+
+### Limits, brokerage and risk — restated by the CEO
+
+> "**We can get it maybe at five or ten thousand dollars a day, but they won't go above that.** So, but **we're our own broker**… on our kiosk, whether it be the GLC, **we basically are the broker**, so I can. **My window goes**" — and, asked point-blank by Val who carries the risk, "**We are**"; "**But there are locations, and most locations we're moving and collecting the cash anyway**"; "**But we take the risk out of it. Yes.**" [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+
+This **corroborates the Aug-31 account from the COO** — ARC is the broker, and the ceiling is the same order of magnitude ("It doesn't go more than 10k… Our exposure is 10k per day"). **It says nothing about whether [[wiki/organizations/incom.md|InComm]] carries a broker's risk in anyone else's arrangement, and is not used to settle that question.** *(The question Klimovich asks immediately before — "It's not like a phone call to income. Can you rise up?" — renders a processor name that **is not asserted** to be any known company.)* [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]] [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+
+### Cashless: ARC has some, does not want it, and may convert it back
+
+- **It exists because a landlord demands it, not because ARC chose it.** "When I'm talking to a couple of customers, they're **basically totally cashless. Play-wise, it doesn't do me good. I'd rather have cash because we generate more.** But for certain **security reasons, at the corporate level, they're not allowed to go cashless**" *(as transcribed — the sense of the last clause is that the venue's corporate policy forbids **cash**, which is how the derived notes read it)*. [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+- **The legal hook is Georgia's open-air provision.** "**It fits under the open air provision in Georgia law.** So an open air provision in Georgia law, **if you've got a place that's been open more than thirty-five years, it qualifies as an entertainment place. There's no cash.**" And the size of it: "**There's only one location in the state that has right now. They only have, I think they have 12 machines. They haven't taken advantage of it.**" [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+- **How redemption works there:** "I can use simple enough, which is **Apple Pay, tap and go, credits on a game**… I just want to make sure that **you go through the kiosk way, the processor**, so I don't have to do things in the game. **I still get my ticket. Now I don't have to touch the game**"; redemption stays "**debit cards or gift**[cards]… **No cash.** Well, they can… **they won't be able to redeem the new card at necessarily the location, but they can go down the street and get it.**" [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+- **And the reason he expects cash to win, stated as player behaviour:** "**We might eventually try to convert them to cash**, just because… **the revenues will be much higher**… **if you get cash at a payout, more likely you're going to put it back into the machine**… As soon as you feel it… **they start chasing. But if you take that cash aspect out, you lose that.**" [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+
+**This is the sharpest operator-side argument in the corpus *against* the product JVL is selling** — from the CEO of the operator being sold to, in the middle of the demo.
+
+### What he liked, and where the locations are going
+
+- **The "print and sell" kiosk, for the 2 AM failure case** *(his phrase, transcribed as spoken)***:** "**I do like the print and sell one with the kiosk.** Because this breaks, something happens **two o'clock in the morning**… **they got to pay the customer, and that's not what I'm supposed to do**" *(garbled in the middle; the sense is an attended payout when the machinery fails)*. [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+- **Where ARC's estate is heading:** "we're trying to get the best we can out of the **convenience store business**. So that's **most of our twenty-four-seven places**… they're still in the back of **truck stops**, whatnot… **They're pushing big into the bars right now, grocery stores right now.**" And what those sites want: "**They don't want their personnel touching anything**… **You do everything, that's fine.** So having that, **still having redundancy.**" [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+- **An app is about to go live across the estate, and it can take JVL promo credits.** Sloan: "we have an **app that we're basically getting ready to roll across all our locations**… **we're just about there as far as having all the locations online**… **I can essentially put them in the app as well, [can I] not?**" Val: "**Absolutely.**" [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+- **Val's second lever was back-office, not hardware:** "**I can process accounting with no manpower.** So I could **send you a file of all of your accounting on a daily basis**, and I can **swipe your customers' ACH and bring it into your bank and reconcile with… Microsoft 365 Business Central**" — "**a single file**." This is the Aug-31 pitch to the COO, now made to the CEO [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]].
+
+### Class A, and the placement rate
+
+- **Class A is a licensing shortcut before it is a revenue line.** "we have **a lot of locations that for some reason class B is harder for them to get licensed**… **I have locations that take six months to get a license. I can drop these in two days or two weeks**" [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]].
+- **And ARC intends to defend the category politically:** "**Huge opportunity**… Right now there are **some other smaller guys that are doing it as well**, but I think it's a huge opportunity, and **we're going to fight like hell, legislation, make sure it stays**" [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]].
+- **Placement rate: "one location a day, so it's like four machines, five machines a day."** *(The line falls under the **Val** speaker label; the derived notes read it as **Sloan describing ARC's own rate**, which is how it is used on [[wiki/topics/georgia-class-a-machines.md]]. **Attribution flagged, not settled.**)* [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]] [[raw/Meeting_Notes_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+
+### The Jamie connection, stated on both sides for the first time
+
+Val: "**I got here in this market through Lucky Bucks, through Jamie. I'm having dinner with Jamie on Monday night.**" Sloan: "**He's a wonderful man. I put him in business in Illinois. Now he's buying locations, cafes**… **He's doing pretty good. I'm happy. I'm the one who dragged him in there**" — into **South Dakota**, where "**the licensing is more difficult… you got to get [a] liquor license in every little jurisdiction.**" Val: "**He dragged me to South Dakota too**"; "**You know that I invested in that**… **I'm happy with my investment.**" [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+
+**Jamie is the shared origin of both relationships** — ARC's CEO put him into business in Illinois, and he is how Val entered Georgia through **Lucky Bucks**, ARC's former name. The corpus has no page for him; he is left as a named mention, **not created and not matched to anyone** (§4). *(Val also called a Jamie at 12:50 the same day — a separate recording with its own record.)* [[raw/Meeting_Notes_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+
+### What this meeting did NOT touch
+
+Nothing in either Sept-16 file mentions **the EXIO kiosk lock-in**, **[[wiki/people/bill.md|Bill]]**, the kiosk **board swap** the [[wiki/decisions/2026-08-31-arc-kiosk-board-swap-routed-through-the-ceo.md|Aug-31 ruling]] routes through Sloan, the **InComm displacement intent** Val disclosed to him on Sept 9, the **$15,750 machine bundle**, the **remaining five units**, or the **ninety-location PAX swap**. All are unmentioned and unchanged. **Nor was exclusivity of any kind raised again** [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]].
+
+**And ARC committed to nothing.** Val told an internal call the same day that ARC had "basically gave me an order for Class A machines"; the derived notes record his own correction — "**I agree with your record, however, I played it to my advantage**" — and rule that **no ARC Class A order goes into any forecast**. Full account on [[wiki/decisions/2026-09-16-jvl-offers-arc-new-class-a-cabinets-at-2500-plus-20-percent.md]] [[raw/Meeting_Notes_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]].
+
 ## Open commitments
 
-- [ ] [[wiki/people/david-sloan.md|David Sloan]] — establish whether [[wiki/people/bill.md|Bill]] is working on a back-end solution of the same nature as JVL's intent — due unspecified — [[raw/Meeting_Notes_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
-- [ ] [[wiki/people/val-levitan.md|Val Levitan]] + [[wiki/people/david-sloan.md|David Sloan]] — meet again at Sloan's place — due **September 16 2026** — [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+- [ ] [[wiki/people/david-sloan.md|David Sloan]] — send ARC staff to JVL's office to see the transactional equipment, or come himself — due **Friday Sept 18 2026**, before he leaves on the Saturday for G2E ("I was going to send a couple of my guys over… If I want to come over, no problem") — [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]] [[raw/Meeting_Notes_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+- [ ] [[wiki/people/val-levitan.md|Val Levitan]] + [[wiki/people/david-sloan.md|David Sloan]] — reconnect — due **October 15 2026** — [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+- [ ] [[wiki/people/david-sloan.md|David Sloan]] — establish whether [[wiki/people/bill.md|Bill]] is working on a back-end solution of the same nature as JVL's intent — due unspecified; **not mentioned on Sept 16** — [[raw/Meeting_Notes_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
 - [ ] [[wiki/people/georgios-zazanis.md|George Zazanis]] — send Val the address of a friendly Class A location to visit and film — due same day ("I'll let you know when I go to the office. I'll send you the closest one here") — [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]] [[raw/Meeting_Notes_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 - [ ] [[wiki/people/georgios-zazanis.md|George Zazanis]] — send the **Class A regulations** (via ARC's legal department) and the **DC regulations** — due unspecified ("I think I have somewhere in the regulations. If I find them from our legal department, I send it to you"; on DC, "I do not have them, but I'm sure I can find them") — [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 - [ ] [[wiki/people/georgios-zazanis.md|George Zazanis]] — settle the **invoice and agreement** and schedule the remaining **five units** into the field — due unspecified ("I'll send you the invoice first and the agreement… People are all over my bed to put them in the field" — transcribed as written) — [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]] [[raw/Meeting_Notes_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
@@ -125,14 +183,31 @@ Nine days after the COO demo, Val met ARC's chief executive [[wiki/people/david-
 
 - **Does ARC pilot JVL's cloud processing, and where?** A pilot "in a few locations" was floated in the room and never landed on a location, a date or an owner. [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 - **What does ARC actually pay the kiosk vendor each month?** Its own COO does not know — "In a monthly basis, there is something, but I do not know how much" — which makes the economics of any swap unquantifiable from JVL's side. [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
-- **What is ARC's real revenue split with Primero on Class A?** Val's "fifty" was corrected to "Much less" with no number supplied on Aug 31. **Sept 9 does not settle it:** Sloan described the structure (revenue share; a *lower* percentage where JVL's own cabinet is used than where the manufacturer's is) and Val worked three alternatives aloud — zero up front on pure revenue share, $1,000 up front plus 20 %, $4,000 up front plus 10 % — but the exchange is garbled and **whether those are ARC's actual terms or Val's own illustration is not established.** [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]] [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]] [[raw/Meeting_Notes_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
-- **How much of ARC's business does JVL get?** Sloan ruled the whole account out and asked Val how much he wanted; no figure was reached, and Val confirmed on 2026-09-10 that exclusivity is off the table. The Sept-16 meeting is where it lands. [[raw/Meeting_Notes_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+- **~~What is ARC's real revenue split with Primero on Class A?~~ LARGELY ANSWERED (Sept 16 2026), by the CEO in plain numbers:** **$1,000 for the software plus 10% when ARC uses its own cabinet; 20% when it uses Primero's** — with the up-front figure on the second variant left uncertain by Sloan himself ("I don't remember if it's a thousand dollars up front, but I think it still is"). ARC has never taken the second option. That is consistent with Aug-31's "Much less" than Val's guessed fifty, and it supersedes the garbled Sept-9 exchange. Terms and caveats on [[wiki/decisions/2026-09-16-jvl-offers-arc-new-class-a-cabinets-at-2500-plus-20-percent.md]] — [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]] [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
+- **How much of ARC's business does JVL get?** Sloan ruled the whole account out and asked Val how much he wanted; no figure was reached, and Val confirmed on 2026-09-10 that exclusivity is off the table. **The Sept-16 meeting did not land it either** — the transactional equipment was demonstrated and the negotiation moved to Class A cabinets instead; no share, no volume and no exclusivity were discussed. Still open. [[raw/Meeting_Notes_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]] [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
 - **Does Val proceed at all, given the Sloan–[[wiki/people/bill.md|Bill]] relationship?** He twice offered to withdraw and said he was not convinced either way; nothing was settled. [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
 
-**§15.8:** clear — operator, machine, licence and market economics only; no named-person compensation recorded.
+## Sept 16 2026 (12:35 PM) — how Val described this account to his own engineers, two hours after the meeting
+
+The [[wiki/meetings/2026-09-16-street-machine-board-spec-and-georgia-class-a-order.md|Sept-16 12:35 PM internal alignment call]] (Russian) is the private account of the 10:12 AM meeting above, and it adds two things about this operator that the customer-facing record does not hold [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]:
+
+- **The ranking, corroborated from a second direction.** Val called it "**[номер] ту[-]компания [Д]жорджи[и]**" — the state's **number two** — using the same former name, "**[Lucky Bucks] … и переименовали себя**". This is independent support for Val's own 2026-09-10 ruling in the `disambiguation:` block above, and against ARC's COO's hedged "two or three, give or take". *(The derived notes render it "the number-one company in Georgia"; the transcript does not support that.)* [[raw/Meeting_Notes_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
+- **A volume expectation, stated only here.** "**[о]ни только одни выставляют где[-]то 5 машин в неделю**" and "**[о]ни у нас будут брать где[-]то 2 машины в неделю**" — about five machines a week going out from ARC, about **two a week** expected to come from JVL, with the rest of the market following once ARC moves. **No volume figure appears in the customer-facing Sept-16 record**; this is Val's internal expectation, not anything ARC said.
+
+**And the claim that the same day's notes correct.** To the engineers, Val said "**[о]ни в принципе дали мне заказ на класс[] [А] машин[ы]**" — *basically* gave me an order for Class A machines. The derived notes of the 10:12 AM meeting carry **Val's own dated correction**: "I agree with your record, however, I played it to my advantage", and rule that **nothing in that meeting is an order and no ARC Class A order goes into any forecast**. **The correction governs.** Both are kept, and the internal version does not soften it. Full treatment on [[wiki/topics/georgia-class-a-machines.md]] (Sept 16, internal) [[raw/Meeting_Notes_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]] [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]].
+
+*(The queued **Lucky Bucks → ARC reconciliation sweep** across the older pages is **still not started** — deliberately, as before.)*
+
+## History
+
+- [x] [[wiki/people/val-levitan.md|Val Levitan]] + [[wiki/people/david-sloan.md|David Sloan]] — meet again at Sloan's place, due Sept 16 2026 — **discharged: the meeting happened on Wednesday Sept 16 at 10:12 AM, but at JVL's Lawrenceville office rather than Sloan's place. Neither source says why it moved** — [[raw/Meeting_Notes_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+
+**§15.8:** clear — operator, machine, licence and market economics only; no named-person compensation recorded. *(The Sept-16 source contains Val's remark that he invested in a third party's business and is happy with the investment — an investment, not anyone's pay, and recorded as relationship/market context.)*
 
 ## Sources
 
+- [[raw/Meeting_Notes_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+- [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
 - [[raw/Meeting_Notes_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 - [[raw/Meeting_Transcript_Georgia_Machine_Sales_Strategy_Post_GOAM-August-21-2026.md]]
@@ -143,3 +218,5 @@ Nine days after the COO demo, Val met ARC's chief executive [[wiki/people/david-
 - [[raw/Meeting_Transcript_Georgia_Exclusivity_Bet_and_Sebastian_Reassignment-September-9-2026.md]]
 - [[raw/Meeting_Notes_Georgia_Exclusivity_Bet_and_Sebastian_Reassignment-September-9-2026.md]]
 - [[raw/To-Do_Georgia_meetings-February-18-2026.md]]
+- [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
+- [[raw/Meeting_Notes_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]

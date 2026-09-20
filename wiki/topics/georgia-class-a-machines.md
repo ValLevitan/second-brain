@@ -2,8 +2,8 @@
 type: topic
 title: Georgia Class A machines
 date: 2026-08-31
-aliases: [Class A, Class A machines, Class A on Nova, Class A V43, party time feature, awards cannot be bet, for now yes, playing within the rules, no book of Class A regulations, if you had a pulse you get a license, not hooked up to a central accounting system, hang our hat on one supplier, slinging them out and seeing what sticks, it's predominantly the meters, Class A licence easier than B, Georgia Class A, Class A licence, amusement machines Georgia, two-bucket win system, $50 per spin cap, $50 per hand, Primero Class A, play bucket, redemption bucket, Hope Scholarship, class eight]
-source-count: 18
+aliases: [Class A, Class A machines, намберту, в принципе дали мне заказ, two machines a week, five machines a week, the same machines go to Texas, Class A on Nova, Class A V43, party time feature, awards cannot be bet, for now yes, playing within the rules, no book of Class A regulations, if you had a pulse you get a license, not hooked up to a central accounting system, hang our hat on one supplier, slinging them out and seeing what sticks, it's predominantly the meters, Class A licence easier than B, Georgia Class A, Class A licence, amusement machines Georgia, two-bucket win system, $50 per spin cap, $50 per hand, Primero Class A, play bucket, redemption bucket, Hope Scholarship, class eight]
+source-count: 22
 open-commitments: 0
 open-questions: 6
 ---
@@ -252,13 +252,78 @@ Three days later the "put Michael in front of a machine" instruction turned into
 
 **§15.8:** clear — product and market content only.
 
+## Sept 16 2026 — the numbers, at last: what ARC actually pays, and what JVL offered against it
+
+At the [[wiki/meetings/2026-09-16-arc-gaming-cashless-suite-demo-and-class-a-cabinet-counter-offer.md|Sept-16 10:12 AM meeting]] [[wiki/people/david-sloan.md|David Sloan]] raised Class A himself — "It's what about **Class A? Let's go into the work**" — and then, in answer to Val's questions, **gave the commercial terms of his Primero arrangement in plain numbers for the first time in this corpus.** The deal page is [[wiki/decisions/2026-09-16-jvl-offers-arc-new-class-a-cabinets-at-2500-plus-20-percent.md]]. [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+
+### What a Class A placement costs the operator
+
+- **$1,000 for the software, plus 10% when ARC supplies the cabinet.** "every gamepad, and basically **ten percent. We use our own cabinets. It's ten percent**"; "**I pay a thousand dollars for the software. I'm using my piece of equipment.**"
+- **20% when the manufacturer supplies the cabinet** — with the up-front figure uncertain in Sloan's own words: "**I don't remember if it's a thousand dollars up front, but I think it still is, in twenty percent.**" ARC has **never used Primero's cabinets**, preferring a warehouse of refurbished ones.
+- **A cabinet costs ARC $2,500**, so "**twenty-five hundred plus a thousand, thirty-five hundred**" all in (Val's arithmetic, uncorrected). *(For scale: the Feb-18 2026 first sighting on this page put a Class A machine at about **$3,000**. The two are in the same range — an **observation**, not a reconciliation; the figures describe different things.)*
+- **Nobody would give the earnings side.** Val: "**What's the realistic average per day now per machine?**" Sloan: "**Right now, I can't say it's a lot.**" Val's own working figure, left uncorrected: "**Thirty bucks. Ten percent is three dollars**" — against which Sloan agreed Primero's position is "**no cost to them at that point**… **they're getting three bucks continuously. It's a good return for those games.**"
+
+[[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+
+### Why a master operator takes Class A on — the licence, in numbers
+
+> "we have **a lot of locations that for some reason class B is harder for them to get licensed**… **I have locations that take six months to get a license. I can drop these in two days or two weeks.**"
+
+**This is the Sept-9 "the licence is the reason they are in it" point, now with a time comparison attached: six months against two days to two weeks.** And ARC intends to defend the category — "**we're going to fight like hell, legislation, make sure it stays**" — while noting "**there are some other smaller guys that are doing it as well**" *(whether he means other manufacturers or other operators is **not clear in the source**)*. [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+
+**Placement pace: "one location a day, so it's like four machines, five machines a day."** *(The line sits under the Val speaker label; the derived notes read it as Sloan's description of ARC's own rate. **Attribution flagged, not settled** — and if it is ARC's rate, it is the fastest Class A placement figure in the corpus.)* [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]] [[raw/Meeting_Notes_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+
+### JVL's product answer: redesign the hardware, by New Year
+
+> "So I have **my designer. We looked at the location. We saw Primero. We know how to do it. We understand what Primero does. My machine is very expensive, and I need to redesign it. I can redesign it by New Year.**… **I have to redesign math. I have to redesign graphics. That's not a big deal. But I have to redesign hardware**… it's **too expensive. It just can't fit into the bulk market. So I will do it. There's no issue.**"
+
+**And it is not billed to this customer:** "**I need it for others. It's not on your account. You're not responsible for it.**" Val also drew the line on price: "**Price-wise, I cannot touch your deal with [Primero]. They're subsidizing a crazy amount of money**" — while conceding the product is real work: "**it's not easy to manufacture a product like this. I played it; they did a good job.**" [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+
+**The counter-offer that followed** — a brand-new complete JVL cabinet at **$2,500 plus 20%**, with JVL taking and scrapping ARC's own — **was not accepted**: "Let me just think on that." [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+
+### And the order that does not exist
+
+The derived notes record Val's own correction, dated 2026-09-16, after he told an internal call the same day that this operator "basically gave me an order for Class A machines": "**I agree with your record, however, I played it to my advantage.**" The notes rule that **nothing in the meeting is an order and no ARC Class A order goes into any forecast.** [[raw/Meeting_Notes_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+
+**§15.8:** clear — licence, cabinet, software and revenue-share economics only.
+
+## Sept 16 2026 (12:35 PM, internal) — what Val told his own engineers, two hours later
+
+The [[wiki/meetings/2026-09-16-street-machine-board-spec-and-georgia-class-a-order.md|Sept-16 12:35 PM ET alignment call]] (Russian; Val with [[wiki/people/genadi-peari.md|Genadi Peari]] and [[wiki/people/pavel.md|Pavel Frolov]]) is the **internal** account of the same morning's ARC meeting — the one the section above records Val correcting. It is worth keeping because it is how the category was explained to the people who have to build for it.
+
+**Val's explanation of Class A, to engineers who had not heard it before:**
+
+> "**[К]ласс [А] — это лимите[д] машины, которые были … в законе … записаны … 20 лет тому назад. Но никто не обращал на них внимания, потому что там стоял максимум пей … про спин — $50, ну кому интересно[?] … пока одна из компаний [не] нашла очень интересный вариант[,] как … обойти закон[:] они сделали машину, которая максимум про спин выплачивает $50. Но спин[,] когда начинается, они запускают [multiple spins] один за другим[,] котор[ый] каждый выплачивает $50.**"
+> [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
+
+That is the **first internal-facing statement of the $50 mechanic in the corpus** and it matches the operator accounts above — Val had it right, from the outside, two weeks after first hearing it. He also drew the line the engineers needed: "**сейчас для [Д]жорди мы делаем класс би … [П]аша[,] скилл называется класс би**" — what JVL builds for Georgia today is Class B, the skill product [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]].
+
+**The field trip.** Val brought [[wiki/people/michael-gottlieb.md|Michael Gottlieb]] to Georgia — "**привез нашего Майкл[а] [Г]атли[ба], который приехал в понедельник вечером со мной**" — and Michael spent the previous day driving every location, "**сделал все фотографии, все видео**", having gone over it beforehand with [[wiki/people/efim-podvoiski.md|Efim]] [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]. This is the errand scheduled on Sept 14 — see the section above.
+
+**The claim, as made to the engineering team:**
+
+> "**Я сегодня встречался с [номер] ту[-]компанией [Д]жорджи[и] — [Lucky Bucks] — и переименовали себя. Они в принципе дали мне заказ на класс[] [А] машин[ы].**"
+> [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
+
+Two things to note about the wording. First, **"в принципе"** — *basically / in principle*, not a purchase order, and the hedge is in the source. Second, the transcript says **"намберту" — number TWO**, which matches Val's own 2026-09-10 ruling that [[wiki/organizations/arc-gaming.md|ARC]] is the state's number-two operator; **the derived notes render it "the number-one company in Georgia", which the transcript does not support** [[raw/Meeting_Notes_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]].
+
+**The volume he expects:** "**[о]ни только одни выставляют где[-]то 5 машин в неделю**" and "**[о]ни у нас будут брать где[-]то 2 машины в неделю, но это только они одни. Как только они начнут брат[ь], все другие пойдут брат[ь]**" — about five a week going out from that operator, about two a week expected from JVL, and the rest of the market following once the first one moves [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]].
+
+**And the link to the hardware programme** — this is why the call spent the next hour on boards: "**те же машины идут в Техас — те же самые машины. То, что мы называем street машины**" — the same machine serves Georgia Class A and Texas. On Texas itself: "**[п]охоже, что мы сможем ставить машины с нашим портом и с нашим рисайкл[ером]**" [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]. The machine is [[wiki/topics/low-cost-street-machine.md]].
+
+**This does not change the order position.** The section above records Val's own dated 2026-09-16 correction — "**I played it to my advantage**" — and the ruling that nothing in the ARC meeting is an order and none goes into a forecast. That correction governs; this page now simply also holds **what he said internally before making it**. The two are recorded together, and the correction is not softened by the internal version.
+
+**It also does not move the timing strain.** Nothing on this internal call names a Class A delivery date, a legislature date, or the ARC three-month promise. The four dated positions below stand exactly as they were.
+
+*§15.8: operator, licence and market economics only; no named-person compensation.*
+
 ## Open questions
 
-- **Does the February-1 Class A software goal sit against the January wait, and against the three months promised to ARC?** [[wiki/decisions/2026-09-11-georgia-class-a-v43-is-built-on-nova-not-rage.md|Sept 11]] sets a product goal of February 1 [2027 — year inferred] and starts design work immediately; [[wiki/decisions/2026-09-10-no-class-a-build-until-the-january-legislature-is-heard.md|Sept 10]] has Val saying he doubts he can do anything until January; [[wiki/decisions/2026-08-31-class-a-deal-with-arc-within-three-months.md|Aug 31]] has him promising [[wiki/organizations/arc-gaming.md|ARC]] a deal by January. **None of the three sources mentions the others.** Not resolved. [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+- **Does the February-1 Class A software goal sit against the January wait, and against the three months promised to ARC?** [[wiki/decisions/2026-09-11-georgia-class-a-v43-is-built-on-nova-not-rage.md|Sept 11]] sets a product goal of February 1 [2027 — year inferred] and starts design work immediately; [[wiki/decisions/2026-09-10-no-class-a-build-until-the-january-legislature-is-heard.md|Sept 10]] has Val saying he doubts he can do anything until January; [[wiki/decisions/2026-08-31-class-a-deal-with-arc-within-three-months.md|Aug 31]] has him promising [[wiki/organizations/arc-gaming.md|ARC]] a deal by January. **None of the three sources mentions the others.** Not resolved. **A fourth dated position, Sept 16 2026:** to ARC's CEO, Val said "**I can redesign it by New Year**" and that he will do it regardless of ARC — a hardware redesign date, not a deal date and not a decision date. It is recorded alongside the other three and **resolves none of them.** [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]] [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
 - **What actually makes a game "compliant with Class A"?** The only requirement written down anywhere in the corpus is the behaviour sketch above (credits in, awards out, awards not bettable) plus the $50-per-spin cap from the operator accounts. The Lottery says there is no rulebook. JVL is specifying against operator description. [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
 
 - **~~What do the Class A regulations actually say?~~ ANSWERED (Sept 10 2026) — there is no rulebook to read.** Val had asked ARC twice on Aug 31 — "Is there regulation? For class A… Can you give me the regulation?" — and got "I think I have somewhere in the regulations. If I find them from our legal department, I send it to you. **Not specific.**" The Georgia Lottery gave the definitive answer in person on Sept 10: Class A machines are not on a central accounting system, "**so there's no certification**", and no book of Class A regulations was produced when Val asked for one. Everything else on this page therefore remains operator description **by necessity**, not by omission. [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]] [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
-- **What is the real manufacturer revenue share?** Val's "fifty" was corrected to "Much less" without a number. [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
+- **~~What is the real manufacturer revenue share?~~ ANSWERED for ARC/Primero (Sept 16 2026):** **10% where the operator supplies the cabinet, 20% where the manufacturer does, on top of $1,000 for the software** — given by ARC's CEO himself, with the up-front figure on the 20% variant left uncertain by him. Aug-31's "Much less" than fifty is now a number. **It remains unknown whether these are the category's terms or only ARC's.** [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]] [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
 - **Does the GLC move, and how?** Both sources record the threat; neither records an action. Note the Feb-18 view that only the GLC could regulate or tax these and had signalled it would not, against the Aug-31 report that the GLC is "fighting" the progressive and says it will "go after it extremely hard" — a change in posture across six months, recorded but not analysed. **Update (Sept 10 2026):** the GLC itself says the mover is expected to be the **legislature**, not the Lottery — "possibly in January, and next session" — and that its own understanding "**may change with the legislation**." It does not say what it would do. [[raw/To-Do_Georgia_meetings-February-18-2026.md]] [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]] [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
 
 - **Is Primero really the only supplier in this category?** A JVL colleague named it as his remaining doubt before JVL commits to one supplier — Banilla is not in it and he knows of nobody else. Val said others will follow and gave **no timing**. Note this sits directly against Zazanis's Aug-31 account of the field, which named a second (garbled beyond recovery) manufacturer and an unnamed third. [[raw/Meeting_Transcript_Georgia_Exclusivity_Bet_and_Sebastian_Reassignment-September-9-2026.md]] [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
@@ -268,6 +333,8 @@ Three days later the "put Michael in front of a machine" instruction turned into
 
 ## Sources
 
+- [[raw/Meeting_Notes_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+- [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
 - [[raw/To-Do_Georgia_meetings-February-18-2026.md]]
 - [[raw/Meeting_Notes_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
 - [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
@@ -286,3 +353,5 @@ Three days later the "put Michael in front of a machine" instruction turned into
 - [[raw/Meeting_Notes_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Competitor_Field_Reconnaissance_and_Class_A_Visits-September-14-2026.md]]
+- [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
+- [[raw/Meeting_Notes_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]

@@ -1,15 +1,17 @@
 ---
 type: decision
-title: Val asks Lucky Coin for its entire business — one machine per location at $15,750 against five free ports, an IQ, a Pay unit, a free FlexPay per location and free replacement of its existing kiosks; answer due Tuesday
+title: Val asks Lucky Coin for its entire business — one machine per location at $15,750 against five free ports, an IQ, a Pay unit, a free FlexPay per location and free replacement of its existing kiosks; EXCLUSIVITY DECLINED Sept 16 2026
 date: 2026-09-09
-status: active
+status: superseded
 aliases: [exclusive business with you, I have your entire business, FlexPay per location, seven thousand nine hundred and fifty, fifteen thousand dollar gift per location, replace the Gauselmann kiosks free, every location must have my machine, answer on Tuesday, pitchforks and lanterns, eight months not half a year]
-source-count: 4
-open-commitments: 3
-open-questions: 4
+source-count: 6
+open-commitments: 2
+open-questions: 3
 ---
 
-# Val asks Lucky Coin for its entire business
+# Val asks Lucky Coin for its entire business — exclusivity declined
+
+> **Status: superseded on Sept 16 2026 (§3).** The titular element — **exclusive business, one JVL machine in every location** — was **refused** by [[wiki/people/kyle-shepherd.md|Kyle Shepherd]] seven days later, and Val accepted the refusal and stopped pursuing. What replaces it is on [[wiki/decisions/2026-09-16-lucky-coin-declines-exclusivity-and-opens-a-kiosk-pilot.md]]: more JVL machines on the route without exclusivity, plus a kiosk trial in one or two locations. **The bundle terms below were never separately withdrawn and were never separately re-offered** — whether any of them survive without the exclusivity is an open question on the Sept-16 page. Everything below is preserved as the offer as it stood on Sept 9; see the dated update at the foot [[raw/Meeting_Transcript_Lucky_Coin_Exclusivity_Declined_and_Pilot_Opening-September-16-2026.md]].
 
 Made at the [[wiki/meetings/2026-09-09-lucky-coin-service-burden-and-exclusive-partnership.md|Sept-9 2026 1:31 PM visit]] to the [[wiki/organizations/lucky-coin.md|Lucky Coin]] shop, a week after the [[wiki/decisions/2026-09-02-free-ports-and-pos-with-every-machine-bought.md|Sept-2 free-ports offer]] to the same customer — and **materially larger than it**. [[wiki/people/val-levitan.md|Val]] had spent the first half of the meeting listening to the technicians' complaints, then asked for everything [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]].
 
@@ -72,20 +74,39 @@ Note that Kyle prices the machine at "**sixteen thousand**" in his own arithmeti
 
 **This is a different exclusivity from the one [[wiki/decisions/2026-08-31-transactional-equipment-only-with-location-exclusivity.md|Aug 31]] ruled on.** That ruling is about being the only transactional system *in a location*, backed by a remote shut-off. What Val asked Lucky Coin for is **the operator's whole account** — all of its business, one JVL machine in every location. **No shut-off, no non-payment enforcement and no removal of a competing system was mentioned in this meeting at all.** Recorded as dated evidence on that page's second open question; neither resolves it. [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
 
+## Update — Sept 16 2026: the answer is no to exclusivity, and only to exclusivity
+
+Kyle phoned Val on **Wednesday September 16 at 2:42 PM**, a day after the deadline, and declined ([[wiki/meetings/2026-09-16-lucky-coin-exclusivity-declined-and-pilot-opening.md|the call]]):
+
+> "as much as I appreciate your offer, the the exclusivity. Really, what I'm hung up on. **I just don't know that I want to put myself in a box like that. As fast as the technology is changing in this state**" [[raw/Meeting_Transcript_Lucky_Coin_Exclusivity_Declined_and_Pilot_Opening-September-16-2026.md]]
+
+- **The blocker he named on Sept 9 — his technicians' testing fatigue — is not the reason he gave on Sept 16.** The reason given is the speed of technology change in Georgia and not wanting to be boxed in. Both stand as stated on their own dates; neither source mentions the other [[raw/Meeting_Transcript_Lucky_Coin_Exclusivity_Declined_and_Pilot_Opening-September-16-2026.md]].
+- **The week was consultation, not deliberation.** "I probably would have given you this. Answer when we met last week" — the delay was to talk it over with "**Curtis and Barry and those guys**," because "**we are a family business**" [[raw/Meeting_Transcript_Lucky_Coin_Exclusivity_Declined_and_Pilot_Opening-September-16-2026.md]].
+- **What he offered instead:** more JVL machines worked into the route, and "**your PLS, your kiosk in a location or two**." No scope, no terms, no date [[raw/Meeting_Transcript_Lucky_Coin_Exclusivity_Declined_and_Pilot_Opening-September-16-2026.md]] [[raw/Meeting_Notes_Lucky_Coin_Exclusivity_Declined_and_Pilot_Opening-September-16-2026.md]].
+- **Val apologised for the pressure and parked the pursuit:** "I know that my ask was a lot. I was aggressive"; "**I'm not gonna pursue this business. I'm gonna leave it in your court**" [[raw/Meeting_Transcript_Lucky_Coin_Exclusivity_Declined_and_Pilot_Opening-September-16-2026.md]].
+- **Nothing was said about the $15,750 machine price, the five free ports, the Flex-IQ, the Pay unit, the free FlexPay per location, the free kiosk replacement or the eight-month rollout.** No figure of any kind is quoted on the Sept-16 call. Recorded as an absence [[raw/Meeting_Transcript_Lucky_Coin_Exclusivity_Declined_and_Pilot_Opening-September-16-2026.md]].
+
+Full account: [[wiki/decisions/2026-09-16-lucky-coin-declines-exclusivity-and-opens-a-kiosk-pilot.md]].
+
 ## Open commitments
 
-- [ ] [[wiki/people/kyle-shepherd.md|Kyle Shepherd]] — consult Curtis, Aaron and his people and give Val an answer on the exclusivity offer — due **Tuesday Sept 15 2026** — [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
 - [ ] [[wiki/people/val-levitan.md|Val Levitan]] / JVL — station an engineer locally for Lucky Coin's use for a limited period at the start, if the deal is taken — due on acceptance — [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
 - [ ] JVL — replace Lucky Coin's ten to twelve existing German/Austrian kiosks free, with the old units available to reinstate if the JVL kiosk fails — due on acceptance — [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
 
+*(Both were conditional on Lucky Coin accepting the exclusive deal. **That acceptance did not come** — see the Sept-16 update above. They are left open rather than closed because neither was withdrawn and a non-exclusive arrangement is still being worked out; whether they survive is the first open question on [[wiki/decisions/2026-09-16-lucky-coin-declines-exclusivity-and-opens-a-kiosk-pilot.md]].)* [[raw/Meeting_Transcript_Lucky_Coin_Exclusivity_Declined_and_Pilot_Opening-September-16-2026.md]]
+
 ## Open questions
 
-- **Will Kyle accept?** Due Sept 15 2026. He called the FlexPay sweetener "a deal" and the price help real, and still would not commit — [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
 - **Can the price gap against Aristocrat and Bad Dog be closed?** Kyle's lens: JVL at $15,750 against a new Aristocrat at **$18,000–19,000** and a new Bad Dog game at **$10,000–12,000** — "**for them, it's got to work better**… **It doesn't make sense everywhere for me. Whereas it might if it were a little less expensive.**" The bundle helps; he did not say it closes the gap — [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
 - **Does "exclusive business" mean a contract, and on what terms?** No term, no document, no exclusivity period and no exit are mentioned anywhere in either source — unlike the Rao offer the same morning, which named two years and a three-year location contract — [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]] [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
 - **How many locations and machines is this actually?** Val worked from "thirty locations" and "fifty machines"; Kyle corrected to "**north of forty**" locations; the Sept-2 record has "**roughly 50 locations and 250 machines**." Not reconciled — see [[wiki/organizations/lucky-coin.md]] — [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]] [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]
 
-**§15.8:** clear — machine, bundle, kiosk and route economics only; no named-person compensation.
+## History
+
+- [x] [[wiki/people/kyle-shepherd.md|Kyle Shepherd]] — consult Curtis, Aaron and his people and give Val an answer on the exclusivity offer — due Tuesday Sept 15 2026 — **discharged one day late, on Wednesday Sept 16 at 2:42 PM, by a direct phone call. The answer was no to the exclusivity and only to the exclusivity.** He named his consultation circle as "**Curtis and Barry and those guys**" — Barry is not Aaron and is unknown to the corpus — [[raw/Meeting_Transcript_Lucky_Coin_Exclusivity_Declined_and_Pilot_Opening-September-16-2026.md]]
+- **Answered (Sept 16 2026) — "Will Kyle accept?"** **No.** "the exclusivity… I just don't know that I want to put myself in a box like that. As fast as the technology is changing in this state." He offered more JVL machines on the route and a kiosk trial in a location or two instead, and Val accepted the refusal and stopped pursuing — [[raw/Meeting_Transcript_Lucky_Coin_Exclusivity_Declined_and_Pilot_Opening-September-16-2026.md]]
+
+**§15.8:** clear — machine, bundle, kiosk and route economics only; no named-person compensation. The Sept-16 sources quote no figure at all.
 
 ## Sources
 
@@ -93,3 +114,5 @@ Note that Kyle prices the machine at "**sixteen thousand**" in his own arithmeti
 - [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
 - [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+- [[raw/Meeting_Transcript_Lucky_Coin_Exclusivity_Declined_and_Pilot_Opening-September-16-2026.md]]
+- [[raw/Meeting_Notes_Lucky_Coin_Exclusivity_Declined_and_Pilot_Opening-September-16-2026.md]]

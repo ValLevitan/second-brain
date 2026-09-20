@@ -4,8 +4,8 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 150
-open-commitments: 59
+source-count: 152
+open-commitments: 62
 open-questions: 0
 ---
 
@@ -620,6 +620,26 @@ The third MVP 1 morning call ([[wiki/meetings/2026-09-16-transactional-mvp1-open
 - [ ] Build the shared filter showing the live requirements from all four authors, so the team walks one list — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - [ ] Review and update the status of every capability and requirement he authored, as Klimovich has done for his own — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 
+## Sept 16 2026 (12:35 PM) — the AI-conversion experiments, and the cost work on the boards
+
+His fifth recorded appearance of the day. At the [[wiki/meetings/2026-09-16-street-machine-board-spec-and-georgia-class-a-order.md|12:35 PM alignment call]] Pavel did two distinct jobs [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]].
+
+**He reported the AI game-conversion experiments** — two of them, both running: generating a background video from a written description of a horizontal game's video, and rebuilding a different game with different maths for a different market under an existing vertical layout (Georgia's layout, Texas's maths). Val pressed for a unit — "**измеряется в днях[,] не в неделях**" — and **Pavel would not sign up to it**: "**можно будет это утверждать, когда … первую игру … сделаем, закроем все баги**". What he *would* state flatly is that the asset-development stretch of the pipeline "**сократится точно**". Detail on [[wiki/decisions/2026-09-14-vertical-texas-starts-from-the-georgia-coam-vertical-games.md]] (Sept-16 section).
+
+**He drove the memory cut on the board**, and his framing of it is the record of the trade: one FRAM chip instead of six, the per-game statistics moved out to an SD card or the eMMC, and the consequence accepted out loud — "**рассчитывать, что она не всегда может быть корректно записана**". He twice flagged that the whole cut depends on a requirement nobody could confirm: "**опять[-]таки надо посмотреть по требованиям**". See [[wiki/decisions/2026-09-16-one-fram-chip-instead-of-six-and-low-power-mode-laid-in-but-not-populated.md]].
+
+**He lost the identity argument and closed it himself.** He wanted the machine identified by the processor board — fewer parts, better fault tolerance — and when Genadi's supplier-risk counter landed, he said "**давайте тогда зафиксируемся и будем идентифицировать [по I/O борту]**" rather than press it. He then asked the question nobody could answer: what the board-change procedure is. See [[wiki/decisions/2026-09-16-machine-identity-moves-off-the-cabinet-passport-onto-jvls-own-io-board.md]].
+
+**His unresolved position on board mounting** is on [[wiki/decisions/2026-09-16-street-machine-electronics-move-to-eye-level-and-the-monitor-opens-like-a-cupboard-door.md]]: the board fixed to the back of the TV so the LVDS is connected once and never moves, because "**[LVDS] он умрёт после 10 открытия**". Genadi did not dispute the ten-openings figure but wanted both boards together; Pavel's hinge-only-the-centre-section compromise was declined without comment.
+
+**He also re-asked the GLI question** that had gone unanswered while Val was off the call, the moment Val returned — and got the answer. See [[wiki/decisions/2026-09-16-street-machines-skip-gli-so-no-boxes-and-no-tampers-but-nebraska-reopens-it.md]].
+
+## Open commitments (Sept 16 2026, 12:35 PM call)
+
+- [ ] Pavel Frolov — extend the development environment and build a new SDK targeted at the new board. Val instructed it; Pavel's read-back: "**нам надо под новую плату делать свой SDK … именно заточен[ный] под новую плату**" — due unspecified — [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
+- [ ] Pavel Frolov — finish the first AI-converted game, close its bugs, then confirm how fast conversion really is — due unspecified — [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
+- [ ] Pavel Frolov — confirm what must still be written to FRAM once the per-game statistics move out, and size the single chip accordingly — due unspecified — [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
@@ -775,3 +795,5 @@ The third MVP 1 morning call ([[wiki/meetings/2026-09-16-transactional-mvp1-open
 - [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
+- [[raw/Meeting_Notes_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]

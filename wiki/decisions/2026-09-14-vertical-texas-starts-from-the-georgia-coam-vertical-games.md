@@ -2,10 +2,10 @@
 type: decision
 title: A vertical Texas product starts from the vertical Georgia COAM games, not from converting the horizontal Texas games
 date: 2026-09-14
-aliases: [Texas vertical conversion, horizontal to vertical Texas, Georgia COAM as the Texas base, vertical Texas product, конвертация горизонтального Техаса в вертикальный, Rage-Nova_conversion]
-source-count: 2
+aliases: [Texas vertical conversion, days not weeks, измеряется в днях не в неделях, generate background video from description, two AI conversion experiments, склад код, graphic assets stretch will shrink, horizontal to vertical Texas, Georgia COAM as the Texas base, vertical Texas product, конвертация горизонтального Техаса в вертикальный, Rage-Nova_conversion]
+source-count: 4
 status: active
-open-commitments: 1
+open-commitments: 2
 open-questions: 4
 ---
 
@@ -76,14 +76,41 @@ No other firm commitment was made. Igor's offer to try further layouts was condi
 
 ## Open questions
 
-- **Who assembles the background video?** Igor needs a person who can build it; after that he can fit it to element positions with Claude. No name was proposed. [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+- **Who assembles the background video?** Igor needs a person who can build it; after that he can fit it to element positions with Claude. No name was proposed. **Sept 16 update:** Pavel is testing whether the background video can be *generated* from a written description instead of assembled by a person — see the Sept-16 section above. The experiment is running; the question is not answered. [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
 - **Which progressive does a vertical Texas product carry?** Set aside by Val, not answered; Igor's "mystery" read is an inference off a jackpot frame, not knowledge. [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
 - **How big is the maths rework?** Val directed that the maths be redone ("Математику другую"); nobody sized it. [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
 - **What was cut out of the Georgia games, and what merely hidden?** Pavel: "мы выпиливали хенс, например, тогда… из Джорджия"; Irina: "Но мы его скрыли" — we cut *[hens/hands — garbled, not recoverable]* out of Georgia / no, we hid it. Recorded as spoken; not interpreted. [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
 
-**§15.8:** clear on this page — game-engineering, art-production and product economics only; no named-person compensation appears in either source. **§15.9:** no licence, registration, tax or account numbers appear in either source.
+## Sept 16 2026 — two experiments are running, and Val puts a unit on "fast"
+
+Two days later, at the [[wiki/meetings/2026-09-16-street-machine-board-spec-and-georgia-class-a-order.md|Sept-16 12:35 PM ET alignment call]], Val asked [[wiki/people/pavel.md|Pavel Frolov]] for a short update "**просто чтобы Геннадий ориентировался лучше**" — so [[wiki/people/genadi-peari.md|Genadi]] could see where this stands. Pavel named **two experiments, both in progress** [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]:
+
+1. **Generate the background video from a written description.** "**[В]зять горизонтальную игру[,] описать ее словесно[,] что там видео делает[.] И сейчас будем проверять, сможем ли мы генерировать фоновое видео по описанию. Скорее всего, что[-]то из этого получится.**" — take a horizontal game, describe in words what its video does, then test whether a background video can be generated from that description. **This goes directly at the open question below** — who assembles the background video — though nothing here answers it yet.
+2. **Reuse a vertical layout for a different game, different maths, different market.** "**существующ[ую] … вертикальную игру с вертикальным [layout'ом] — для [Д]жорджия, например — взять и попытаться под этот [layout] сделать … другую игру с другой математикой и для другого рынка, например, для Техаса.**" — which is this decision's own scheme, now being tested rather than argued.
+
+**If both work:** "**мы, наверное, довольно[-]таки быстро сможем конвертировать … разные игры … [под] вертикальный кабинет**" [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]].
+
+**Val supplied the unit, unprompted:** "**Когда мы говорим очень быстро — это измеряется в днях[,] не в неделях**" — days, not weeks [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]].
+
+**Pavel would not commit to it**, and the exchange is worth keeping whole because the two men end up agreeing on different things. Pavel: "**можно будет это утверждать, когда … первую игру … сделаем, закроем все баги**" — the claim can be made once the first game is finished and its bugs are closed. Val accepted that ("**Конечно, я понимаю[,] попробуй**") and narrowed his own claim to "**индикация на то, что похоже, что это получится**" — an indication, not a result [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]].
+
+**The one thing Pavel would state flatly** is the part of the pipeline that shrinks:
+
+> "**[Т]о[,] что у нас из пайплайна уберётся довольно длительный период, который раньше занимал … разработка графических асса[тов] и их … причёсывание. Ну это сократится точно.**"
+> — the long stretch that used to go on developing graphic assets and tidying them will definitely shrink.
+> [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
+
+*(**§4 / §9.131 — the tool.** Val credits "**склад код[ом]**" / "**склодам**" for this. The derived notes read it as **Claude Code**; the reading is supported inside this thread — the Sept-14 source has Igor Metelski naming "**Клод**" explicitly for the same work — but the Sept-16 string itself is a garble and the product name is recorded here as **an inference**, not as a fact. Val's verb in the same sentence, "**конденсировать игры**", is likewise a garble of *convert*, which is the word Pavel uses throughout.)* [[raw/Meeting_Notes_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
+
+**Open commitment added Sept 16:**
+
+- [ ] Pavel Frolov — finish the first AI-converted game, close its bugs, and then confirm how fast conversion actually is against Val's "days, not weeks" — due unspecified — [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
+
+**§15.8:** clear on this page — game-engineering, art-production and product economics only; no named-person compensation appears in any of the sources. **§15.9:** no licence, registration, tax or account numbers appear.
 
 ## Sources
 
 - [[raw/Meeting_Notes_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+- [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
+- [[raw/Meeting_Notes_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]

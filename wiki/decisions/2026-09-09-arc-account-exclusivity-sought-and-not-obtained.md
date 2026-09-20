@@ -4,8 +4,8 @@ title: Val asks ARC's CEO for the account and does not get exclusivity — the "
 date: 2026-09-09
 status: active
 aliases: [verbal handshake from a CEO of Lucky Bucks, every location will have our machine, I don't think you can buy my entire business, how much of a business can I get, one machine per location, fifteen thousand dollars worth of equipment, exclusive in the location, ARC exclusivity, Wednesday the sixteenth]
-source-count: 5
-open-commitments: 3
+source-count: 7
+open-commitments: 2
 open-questions: 3
 ---
 
@@ -50,7 +50,7 @@ At the [[wiki/meetings/2026-09-09-georgia-exclusivity-bet-and-sebastian-reassign
 
 ## How this sits against the standing exclusivity ruling
 
-**This is the account-level exclusivity, not the in-location one** — the same distinction drawn on [[wiki/decisions/2026-09-09-val-asks-lucky-coin-for-its-entire-business.md]] earlier the same day. Both were asked for on September 9; **both are now unanswered or refused**: Lucky Coin's answer is due Tuesday Sept 15, and ARC's chief executive said outright that his whole business is not purchasable. The *in-location* condition, by contrast, was stated to Sloan as a product constraint and drew no objection in the recorded portion. Dated evidence on [[wiki/decisions/2026-08-31-transactional-equipment-only-with-location-exclusivity.md]]; **nothing here resolves that page's open questions.** [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]] [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
+**This is the account-level exclusivity, not the in-location one** — the same distinction drawn on [[wiki/decisions/2026-09-09-val-asks-lucky-coin-for-its-entire-business.md]] earlier the same day. Both were asked for on September 9; **both are now refused**: ARC's chief executive said outright that his whole business is not purchasable, and Lucky Coin's [[wiki/people/kyle-shepherd.md|Kyle Shepherd]] declined on **Sept 16 2026** — "I just don't know that I want to put myself in a box like that. As fast as the technology is changing in this state" ([[wiki/decisions/2026-09-16-lucky-coin-declines-exclusivity-and-opens-a-kiosk-pilot.md]]). **Two Georgia operators, eight days apart, refusing account-level exclusivity for two different reasons** — ARC because it already runs several systems, Lucky Coin because the technology is moving too fast to be boxed in. The *in-location* condition, by contrast, was stated to Sloan as a product constraint and drew no objection in the recorded portion. Dated evidence on [[wiki/decisions/2026-08-31-transactional-equipment-only-with-location-exclusivity.md]]; **nothing here resolves that page's open questions.** [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]] [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
 
 ## The condition Val attached to proceeding at all
 
@@ -64,22 +64,31 @@ Sloan neither confirmed nor denied it: "That he's looking at different things be
 
 **Wednesday, September 16 2026, at Sloan's place.** "Wednesday is perfect. **Wednesday, my place.** Early or late." / "**Sixteenth, Right.**" Val is back Monday night and travelling to Miami in between. *(Sept 9 2026 was a Wednesday, so the 16th is the following Wednesday — consistent.)* [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
 
+### What happened on the 16th
+
+The meeting took place — **at JVL's Lawrenceville office, not Sloan's place** — and **exclusivity was not raised again by either side.** Val demonstrated the transactional equipment and then negotiated Class A cabinets instead; Sloan sent his people to look at the kit and took the cabinet offer away to think about. So the account-level question this page records is **still where Sept 9 left it: refused, with no share agreed in its place.** [[wiki/meetings/2026-09-16-arc-gaming-cashless-suite-demo-and-class-a-cabinet-counter-offer.md|Sept-16 meeting]] · [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]] [[raw/Meeting_Notes_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+
 **§15.8:** clear — machine, bundle, account and market economics only; no named-person compensation.
 
 ## Open commitments
 
-- [ ] [[wiki/people/val-levitan.md|Val Levitan]] + [[wiki/people/david-sloan.md|David Sloan]] — meet again at Sloan's place to continue — due **Wednesday September 16 2026** — [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]] [[raw/Meeting_Notes_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
 - [ ] [[wiki/people/david-sloan.md|David Sloan]] — establish whether [[wiki/people/bill.md|Bill]] is working on a back-end solution of the same nature as JVL's intent — due unspecified — [[raw/Meeting_Notes_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
 - [ ] [[wiki/people/val-levitan.md|Val Levitan]] — decide whether to proceed at all given the Sloan–Bill relationship; he offered to step back twice and never closed it — due unspecified — [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
 
 ## Open questions
 
-- **How much of ARC's business does JVL actually get?** Sloan asked the same question from his side and no figure was reached. Exclusivity is off the table; the September 16 meeting is where this lands. [[raw/Meeting_Notes_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+- **How much of ARC's business does JVL actually get?** Sloan asked the same question from his side and no figure was reached. Exclusivity is off the table. **The Sept-16 meeting did not land it** — the subject was not raised and the negotiation moved to Class A cabinets. Still open; next contact **Oct 15 2026**. [[raw/Meeting_Notes_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]] [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
 - **Does Val proceed given the Bill relationship?** Offered to withdraw twice, said he was not convinced either way, and got "I'm not against what you're saying" rather than an answer. [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
 - **What is in the unrecorded remainder of the meeting?** About 22 minutes of a 60-minute slot were captured before the battery died, and Val confirms the conversation continued past the end of the transcript. Anything agreed after that point is not in the corpus. [[raw/Meeting_Notes_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
 
+## History
+
+- [x] [[wiki/people/val-levitan.md|Val Levitan]] + [[wiki/people/david-sloan.md|David Sloan]] — meet again at Sloan's place, due Wednesday September 16 2026 — **discharged: they met on Sept 16 at 10:12 AM, at JVL's Lawrenceville office instead of Sloan's place** — [[raw/Meeting_Notes_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+- [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
 - [[raw/Meeting_Notes_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
 - [[raw/Meeting_Notes_Georgia_Exclusivity_Bet_and_Sebastian_Reassignment-September-9-2026.md]]
