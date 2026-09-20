@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna, Selena, Elena]
-source-count: 63
+source-count: 64
 open-commitments: 12
 ---
 
@@ -262,8 +262,21 @@ At the [[wiki/meetings/2026-09-11-rage-sunset-and-class-a-on-nova.md|Sept-11 1:0
 - [ ] Move the existing Omni/NOVA naming documents into the Knowledge Base standards folder — due unspecified — [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 - [ ] All design screens for South Dakota Real Keno while developers are on Nebraska, then redo Solar from vertical to horizontal — due through October — [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 
+## Sept 17 2026 (in absentia) — she is ruled out of a piece of work, in one word
+
+At the [[wiki/meetings/2026-09-17-kleimenychev-hire-nova-direction-and-planning-handover.md|Sept-17 12:45 PM "General alignment" call]] — which she did not attend and is not told about in either source — [[wiki/people/val-levitan.md|Val]] hired a man onto a **secret** Texas / Class A assignment and ruled that Lena is **not to be consulted on it at any point**. [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+
+The man asked, through [[wiki/people/pavel.md|Pavel Frolov]], whether he could come to her with questions during the work or whether it was fully secret work. Val: "**Даю ответ.**" … "**Что абсолютно нет.**" [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+
+**One thing Val said that bounds the ruling is recorded**, because without it the ruling would read as something it is not: he opened his reasoning by asking the room not to misunderstand him and saying he does **not** think badly of her. This is a secrecy instruction, not a statement against her. Full record on [[wiki/decisions/2026-09-17-kleimenychev-is-hired-from-monday-onto-texas-and-class-a-in-full-secrecy.md]].
+
+> **⚠ §15.8 — deliberate exclusion.** Val's **stated reasoning** for the ruling is a **personal assessment of Lena's mindset**, and it is **not ingested** — not here, not in paraphrase, not anywhere in the wiki. What is recorded above is the instruction and the limit Val himself put on it. No compensation material of any kind appears in either source.
+
+**Note on standing:** nothing here reduces her role. Across the same period she continues to lead the game-design / art side, including the Class A work on NOVA ([[wiki/decisions/2026-09-11-georgia-class-a-v43-is-built-on-nova-not-rage.md]]). The exclusion is scoped to one secret assignment.
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
 - [[raw/Meeting_Notes_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 - [[raw/Meeting_Notes_NOVA_Capability_Wishlist-August-14-2026.md]]

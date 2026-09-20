@@ -3,7 +3,7 @@ type: decision
 title: Georgia COAM Class A (V43) is built on NOVA, not RAGE — Nebraska keeps precedence and February 1 is a goal, not a commitment
 date: 2026-09-11
 aliases: [Class A on Nova, Georgia Class A V43 Nova, Class A V43 Nova, do not do it on Rage, Rage needs to end, let's just now park it, Nebraska takes the precedence, February 1st is a goal, Line Switches test bed, six lines and ways games to Nova]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 6
 open-questions: 3
@@ -97,7 +97,14 @@ This **confirms** the same claim already recorded from the [[wiki/meetings/2026-
 
 **§15.8:** clear on this page — platform, schedule and product content only. One HR-adjacent line about an unnamed departed hire is noted above and deliberately not reproduced.
 
+## Update — Sept 17 2026: the no-RAGE rule is generalised, and a second Class A thread appears
+
+On the [[wiki/meetings/2026-09-17-kleimenychev-hire-nova-direction-and-planning-handover.md|Sept-17 12:45 PM "General alignment" call]], Val generalised the platform half of this ruling from Class A to everything: "**не делать никаких игр в речь**", build no games at all in RAGE, and do Texas on NOVA ([[wiki/decisions/2026-09-17-no-more-games-on-rage-and-texas-is-built-on-nova.md]]). Nothing there reopens this decision, and the February-1 goal, the Nebraska precedence and the open questions below are not mentioned. [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+
+**One thing is flagged rather than folded in.** On the same call Val put a newly hired man on "**направление Техас и класс эй**" — the Texas and **Class A** direction — as **secret** work, with himself directing it and [[wiki/people/lena.md|Lena]] explicitly not to be consulted ([[wiki/decisions/2026-09-17-kleimenychev-is-hired-from-monday-onto-texas-and-class-a-in-full-secrecy.md]]). **Which Class A market that is, is not stated** — the words "Georgia" and "COAM" appear nowhere in that source — so it is **not** asserted here to be this Class A programme, and no inference is drawn. What is on the record is that a second, secret line of Class A work now exists alongside the one this decision governs, and that the person leading the work this decision assigns is the person excluded from it. [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
 - [[raw/Meeting_Notes_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]

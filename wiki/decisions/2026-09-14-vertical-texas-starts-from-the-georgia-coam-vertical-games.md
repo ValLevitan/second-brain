@@ -3,7 +3,7 @@ type: decision
 title: A vertical Texas product starts from the vertical Georgia COAM games, not from converting the horizontal Texas games
 date: 2026-09-14
 aliases: [Texas vertical conversion, days not weeks, измеряется в днях не в неделях, generate background video from description, two AI conversion experiments, склад код, graphic assets stretch will shrink, horizontal to vertical Texas, Georgia COAM as the Texas base, vertical Texas product, конвертация горизонтального Техаса в вертикальный, Rage-Nova_conversion]
-source-count: 6
+source-count: 7
 status: active
 open-commitments: 2
 open-questions: 4
@@ -122,8 +122,21 @@ Three days later, at the [[wiki/meetings/2026-09-17-vertical-game-skeletons-and-
 
 **Val's own closing line is worth keeping for its correction.** He praised the result and added that they had managed without Anton — "**Классный результат … и обошлись без Антона**" — and was immediately put right by [[wiki/people/irina-shishko.md|Irina Shishko]] ("**а видео чьё?**") and [[wiki/people/pavel.md|Pavel Frolov]] ("**как это без Антона?**"); Val accepted it ("**опять Антон**"). The derived notes report that the video was Anton's work but **omit the claim Val actually made**, which is the part that shows how invisible the generation step was to him [[raw/Meeting_Notes_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]] [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]].
 
+## Sept 17 2026 (12:45 PM) — the missing platform choice is supplied: Texas goes on NOVA
+
+Two minutes after the 12:19 PM session above ended, on the [[wiki/meetings/2026-09-17-kleimenychev-hire-nova-direction-and-planning-handover.md|12:45 PM "General alignment" call]], [[wiki/people/val-levitan.md|Val]] ruled "**не делать никаких игр в речь**" and "**сразу переключиться на нового и Техас сделать на ново**" — build no games at all in RAGE, switch straight to NOVA, and **do Texas on NOVA**. [[wiki/people/pavel.md|Pavel Frolov]] had prompted it by noting that the running experiment produces RAGE output which would then need converting into NOVA anyway. [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+
+**This answers one of this page's own gaps.** The "What this decision does and does not settle" section above records that **no platform choice for the Texas vertical product is stated anywhere** in the Sept-14 sources. It is stated here, three days later: **NOVA**. That sentence stands as written about its own sources; this is the later source that supplies the answer. Full record on [[wiki/decisions/2026-09-17-no-more-games-on-rage-and-texas-is-built-on-nova.md]].
+
+**The rest of that sentence still holds.** No product name, release date or market date for the Texas vertical product is given on the Sept-17 call either, and nothing there touches the standing positions that **RAGE is parked with no sunset date** and **NOVA→GLI is unscheduled** (see [[wiki/topics/nova-platform-architecture.md]]).
+
+**This decision's own scheme is unaffected.** The *starting material* remains the vertical Georgia COAM game set; what Sept 17 adds is the platform that material lands on. **Its open questions are not answered** — who assembles the background video, which progressive a vertical Texas product carries, and how big the maths rework is are all untouched by the Sept-17 call.
+
+**A new question comes with it:** what becomes of the RAGE horizontal→vertical conversion experiment already running — Val ruled on future games without saying whether the work in flight continues, is redirected or stops, and nobody asked. It is recorded on the Sept-17 decision page, not duplicated here.
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
 - [[raw/Meeting_Notes_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
 - [[raw/Meeting_Notes_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]

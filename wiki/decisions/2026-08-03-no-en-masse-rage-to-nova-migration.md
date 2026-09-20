@@ -3,7 +3,7 @@ type: decision
 title: Do not migrate RAGE games to NOVA en masse; fully port the South Dakota product (~6 months)
 date: 2026-08-03
 aliases: [no en-masse Rage to Nova migration, South Dakota full Nova port, do not certify Calle Ocho]
-source-count: 2
+source-count: 3
 status: active
 ---
 
@@ -24,6 +24,13 @@ The experiment showed resource migration is fast (a vertical re-skin dropped fro
 
 This refines the platform direction tracked on [[wiki/topics/nova-platform-architecture.md]] and the market plan on [[wiki/projects/south-dakota-vlt-market.md]].
 
+## Update — Sept 17 2026: "build no games in RAGE at all"
+
+On the [[wiki/meetings/2026-09-17-kleimenychev-hire-nova-direction-and-planning-handover.md|Sept-17 12:45 PM "General alignment" call]], Val sharpened the forward half of this decision from *build new games on the new tools* to an absolute: "**не делать никаких игр в речь**" — build no games at all in RAGE — "**сразу переключиться на нового и Техас сделать на ново**". See [[wiki/decisions/2026-09-17-no-more-games-on-rage-and-texas-is-built-on-nova.md]]. [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+
+**This decision is not superseded.** Its titular claim — do **not** migrate the existing RAGE library to NOVA en masse — is neither contradicted nor mentioned on the Sept-17 call, and the South Dakota full-port plan is not raised there either. What changed is only the rule for *new* work. `status: active` stands.
+
 ## Sources
+- [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
 - [[raw/Meeting_Notes_Rage_to_Nova_Migration_Experiment-August-3-2026.md]]
 - [[raw/Meeting_Transcript_Rage_to_Nova_Migration_Experiment-August-3-2026.md]]

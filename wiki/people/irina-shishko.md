@@ -4,8 +4,8 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 87
-open-commitments: 17
+source-count: 89
+open-commitments: 20
 ---
 
 # Irina Shishko
@@ -342,8 +342,27 @@ Both `Game_Conversion` sessions that day ([[wiki/meetings/2026-09-17-game-conver
 
 **§15.8:** clear — engineering and product-design content only.
 
+## Sept 17 2026 (12:45 PM) — she is made joint owner of the new planning arrangement
+
+At the [[wiki/meetings/2026-09-17-kleimenychev-hire-nova-direction-and-planning-handover.md|12:45 PM "General alignment" call]] — a three-person call, her, [[wiki/people/pavel.md|Pavel Frolov]] and [[wiki/people/val-levitan.md|Val]] — she is named in every instruction Val gives, alongside Pavel. [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+
+- **She is the one who pinned down what the new role actually is.** Val said he wanted to bring "Диму Ковальчука" in; she asked "**Но дима Ковальчука чисто как?**" — in what capacity exactly — which is what produced Val's answer "**Как администратора**" and then the specific term, **application administrator**. Without her question the role would have gone unnamed. See [[wiki/decisions/2026-09-17-planning-comes-off-pavel-and-goes-to-an-application-administrator.md]].
+- **She and Pavel jointly own the handover**: persuading Kovalchuk, then sitting with him on a regular cadence, recording the planning conversations and handing plan administration over. Val's wording: "**а Ирина Павел, вы садитесь с ним**".
+- **She is also joint owner of the hire and its secrecy.** Val's hiring instruction is addressed to the room in the plural, and she answers "**Да**" twice — see [[wiki/decisions/2026-09-17-kleimenychev-is-hired-from-monday-onto-texas-and-class-a-in-full-secrecy.md]]. (The derived notes assign the hiring action to Pavel alone; the transcript does not.)
+- **Her one read of the candidate** is an assessment of a named person and is **not ingested** (§15.8).
+
+**§15.8 — held on this call.** The call is largely made up of personal assessments of named individuals; none is recorded. No compensation material of any kind appears in either source.
+
+## Open commitments (Sept 17 2026, 12:45 PM call)
+
+- [ ] Irina Shishko — with Pavel Frolov, persuade [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] to come in as application administrator — due unspecified — [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+- [ ] Irina Shishko — with Pavel Frolov, run the recorded planning sessions with him on a regular cadence and hand plan administration over — due unspecified — [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+- [ ] Irina Shishko — with Pavel Frolov, hire [[wiki/people/sergey-kleimenychev.md|Sergey Kleimenychev]] from Monday onto Texas and Class A, and keep the work in full secrecy with no consultation of [[wiki/people/lena.md|Lena]] — due Monday / ongoing — [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+- [[raw/Meeting_Notes_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Game_Conversion_Vertical_Scene_Progress-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]

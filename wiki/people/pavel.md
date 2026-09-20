@@ -4,8 +4,8 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 156
-open-commitments: 64
+source-count: 158
+open-commitments: 67
 open-questions: 0
 ---
 
@@ -674,8 +674,28 @@ Both `Game_Conversion` sessions that day ([[wiki/meetings/2026-09-17-game-conver
 
 **§15.8:** clear — engineering content only.
 
+## Sept 17 2026 (12:45 PM) — planning is taken off him, and he raises the double-conversion problem
+
+Two minutes after the 12:19 PM session ended, the [[wiki/meetings/2026-09-17-kleimenychev-hire-nova-direction-and-planning-handover.md|12:45 PM "General alignment" call]] took a standing job away from him and gave him a different one. [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+
+- **Planning comes off him.** Val, directly: "**Паша с вас нужно снять.**" … "**Планирование.**" Plan *administration* moves to a proposed application administrator ([[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]], not yet asked); Pavel and [[wiki/people/irina-shishko.md|Irina Shishko]] keep talking the plans through and correcting them, in recorded sessions. Pavel agreed in the room — "**Давайте да**", "**Хорошо**". Full record on [[wiki/decisions/2026-09-17-planning-comes-off-pavel-and-goes-to-an-application-administrator.md]].
+- **What he gets instead.** Val's stated purpose is that Pavel stops doing the work and instead "**приедете сюда в атланту и начнёте заниматься… Чемто серьёзно**" — comes to Atlanta and takes on something serious. No date.
+- **The engineering point he raised, which changed the platform.** He pointed out that the running experiment converts **RAGE horizontal into RAGE vertical**, so the same games would need converting into NOVA afterwards — "**возможно, нам потом понадобится конвертация рейч тех же самых игр речь в нова**". Val's answer was to stop building games in RAGE altogether and do Texas on NOVA ([[wiki/decisions/2026-09-17-no-more-games-on-rage-and-texas-is-built-on-nova.md]]). Pavel did not respond to the ruling; Val took the silence as agreement.
+- **He set the terms for the secret experiment before it was staffed.** "**Мы не знаем, стопроцентный ли получится результат или нет, то эксперимент провести можно**" — the experiment can be run provided nobody expects a guaranteed result — and the scale limit he had already given the candidate: "**мы не собираемся делать 20 игр, а потом сказать, что всё плохо и всё в мусорку**".
+- **He is the channel to the new hire.** Every one of the candidate's questions reached Val through him.
+
+**§15.8 — held on this call.** Val's stated reasons for removing planning from Pavel were a **personal assessment of Pavel** and are **not ingested**, here or anywhere. What is recorded is the change of duties and its stated purpose. No compensation material appears in either source.
+
+## Open commitments (Sept 17 2026, 12:45 PM call)
+
+- [ ] Pavel Frolov — with Irina Shishko, persuade Dmitri Kovalchuk to come in as application administrator — due unspecified — [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+- [ ] Pavel Frolov — with Irina Shishko, hire [[wiki/people/sergey-kleimenychev.md|Sergey Kleimenychev]] from Monday onto the Texas and Class A direction, and keep the work in full secrecy with no consultation of [[wiki/people/lena.md|Lena]] — due Monday / ongoing — [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+- [ ] Pavel Frolov — come to Atlanta and take on more serious work once planning is off him — due unspecified — [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+- [[raw/Meeting_Notes_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Game_Conversion_Vertical_Scene_Progress-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]

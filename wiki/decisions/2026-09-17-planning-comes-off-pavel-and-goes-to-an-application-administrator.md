@@ -1,0 +1,83 @@
+---
+type: decision
+title: Planning comes off Pavel Frolov and goes to an "application administrator" — Dmitri Kovalchuk proposed, not yet agreed
+date: 2026-09-17
+aliases: [planning comes off Pavel, application administrator, аппликейщен администратор, Dima Kovalchuk administrator, Зиму Ковальчука, planning handover, полный трансперация, Pavel comes to Atlanta]
+source-count: 2
+status: active
+open-commitments: 3
+open-questions: 2
+---
+
+# Planning comes off Pavel Frolov and goes to an "application administrator"
+
+Taken by [[wiki/people/val-levitan.md|Val Levitan]] at the [[wiki/meetings/2026-09-17-kleimenychev-hire-nova-direction-and-planning-handover.md|Sept 17 2026 12:45 PM ET "General alignment" call]] (held in **Russian**), in the last two minutes of the call, with [[wiki/people/pavel.md|Pavel Frolov]] and [[wiki/people/irina-shishko.md|Irina Shishko]] present. Both agreed in the room — Pavel "**Давайте да**" and "**Хорошо**", Irina "**Да**" [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]].
+
+## The ruling
+
+Val put it to Pavel directly, across two cues:
+
+> "**Паша с вас нужно снять.**" … "**Планирование.**"
+> [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+
+— Pasha, planning has to be taken off you.
+
+*(Val's stated reasons for taking it off Pavel are a personal assessment of Pavel and are **not ingested** — §15.8. What is recorded is the organisational change itself and its stated purpose below.)*
+
+## Who takes it — proposed, not secured
+
+Val named a person and, in the same breath, made clear he is not yet on board:
+
+> "**Я, я думаю, что если можно, я бы привлёк.**" … "**Както нужно уговорить.**" … "**Это вам.**" … "**Зиму Ковальчука.**"
+> [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+
+— I would bring in … somehow he has to be persuaded … that is on you … Dima Kovalchuk. ("Зиму" is the speech-to-text's garble of "Диму"; Irina says the name clearly a moment later.)
+
+Irina asked what capacity was meant — "**Но дима Ковальчука чисто как?**" — and Val answered "**Как администратора**", then specified the term: "**И вы и и вы так как аппликейщен администратора**" — as an **application administrator** ("аппликейщен" is the Russian transcript's rendering of the English *application*). [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+
+**He has not agreed.** Val assigned the persuading to Pavel and Irina; nothing in either source records Kovalchuk being asked, still less accepting. See [[wiki/people/dmitri-kovalchuk.md]].
+
+## The working method Val specified
+
+> "**а Ирина Павел, вы садитесь с ним.**"
+> "**Записывайте свой разговор, проговаривайте, какие планы, и он начинает администрировать их.**"
+> "**Вы собираетесь там каждые 14:00? Он вам рассказывает, какие планы вы вносите корректировку, это бы всё записываете на митинг и Колей, и он дальше администрирует вот такой вот вот такое движение должно появиться.**"
+> [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+
+In plain terms: Irina and Pavel sit down with him, **record the conversation**, talk the plans through, and he then administers them. They meet on a **regular cadence**; he reports the plans back to them; they make corrections; it is all captured from the meeting; and he carries the administration forward.
+
+**The cadence itself did not come through.** The transcript reads "**каждые 14:00**" — literally "every 14:00" — which is not a usable interval. The derived notes flag the same thing: the cadence "was stated but came through unclearly in the transcript" [[raw/Meeting_Notes_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]. Recorded as garbled, not interpreted. The phrase "**записываете на митинг и Колей**" is likewise garbled at its tail and is not interpreted.
+
+## Val's stated purpose
+
+> "**Мы приобретём себе руки, приобретём хорошего администратора, и у нас появится полный трансперация, и вам не не, не надо будет заниматься работой, которую вы ненавидите, а вы приедете сюда в атланту и начнёте заниматься, что ли? Чемто серьёзно?**"
+> [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+
+Four stated gains: JVL acquires an extra pair of hands; it acquires a good administrator; the team gets **full transparency** on plans ("полный трансперация" — the transcript's rendering of *transparency*); and Pavel is freed from work he does not want to do so he can **come to Atlanta and take on something serious**.
+
+## What this does and does not change
+
+- **It does not name a tool or a system.** No mention of Jira, a board, a document or any named planning tool appears in either source. The unit of the change is a *person administering plans*, plus a recorded conversation.
+- **It does not remove Pavel and Irina from planning.** They are the ones who talk the plans through and make corrections; what moves is the **administration** of the plans.
+- **It sits alongside, and does not replace, the standing [[wiki/decisions/2026-08-26-pavel-irina-own-nova-capabilities-to-jira-through-september.md|Aug-26 assignment]]** of NOVA capabilities-to-Jira work to Pavel and Irina through September. Neither source mentions that assignment, and nothing here states that it ends.
+- **No date is set** for the handover, for approaching Kovalchuk, or for Pavel's move to Atlanta.
+
+## Open commitments
+
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] / [[wiki/people/irina-shishko.md|Irina Shishko]] — persuade [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] to come in as application administrator ("Както нужно уговорить. Это вам.") — due unspecified — [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] / [[wiki/people/irina-shishko.md|Irina Shishko]] — once he is in, sit with him on a regular cadence, record the planning conversations and hand plan administration over to him — due unspecified — [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — come to Atlanta and take on more serious work once planning is off him — due unspecified — [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+
+## Open questions
+
+- **Will Dmitri Kovalchuk accept the role?** Val told Pavel and Irina to persuade him; nothing is agreed, and he is not on the call. [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+- **How often do the planning sessions run?** Stated by Val but garbled in the transcript as "каждые 14:00"; the derived notes flag the same gap. [[raw/Meeting_Notes_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+
+## §15.8 / §15.9
+
+**§15.8:** Val's stated reasoning for removing planning from Pavel included a **personal assessment of Pavel's aptitude for the work**, which is deliberately **not ingested** — this page records the organisational change, the method and the stated purpose only. No compensation material of any kind appears in either source. **§15.9:** no licence, registration, tax or account numbers appear.
+
+## Sources
+
+- [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+- [[raw/Meeting_Notes_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]

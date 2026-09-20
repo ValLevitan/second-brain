@@ -4,9 +4,9 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "IT (GitHub-admin, infrastructure, secrets/Azure, AI-tool accounts) — the IT-context "Dima". Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 32
+source-count: 34
 open-commitments: 6
-open-questions: 1
+open-questions: 2
 ---
 
 # Dmitri Kovalchuk
@@ -145,8 +145,26 @@ This sits against his two Sept-11 commitments below, one of which — moving all
 
 - **Did the capability workflow change actually take effect?** Bosik says yes, Pavel sees evidence it did not — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 
+## Sept 17 2026 (in absentia) — proposed as "application administrator" for engineering plans, and not yet asked
+
+At the [[wiki/meetings/2026-09-17-kleimenychev-hire-nova-direction-and-planning-handover.md|Sept-17 12:45 PM "General alignment" call]] — which he did not attend — [[wiki/people/val-levitan.md|Val]] proposed taking plan administration off [[wiki/people/pavel.md|Pavel Frolov]] and giving it to him. Val named him ("**Зиму Ковальчука**", the transcript's garble of *Диму*; [[wiki/people/irina-shishko.md|Irina Shishko]] says the name clearly a moment later) and, when Irina asked in what capacity — "**Но дима Ковальчука чисто как?**" — answered "**Как администратора**", then specified the term: "**аппликейщен администратора**", an **application administrator**. [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+
+**The job as described:** Irina and Pavel sit with him, record the conversation, talk the plans through; he administers them, reports them back on a regular cadence, they correct, he carries on. Val's stated gains were an extra pair of hands, a good administrator, and "**полный трансперация**" — full transparency on plans. Full record on [[wiki/decisions/2026-09-17-planning-comes-off-pavel-and-goes-to-an-application-administrator.md]].
+
+**He has not been asked, let alone agreed.** Val handed the persuading to Pavel and Irina in the same breath as the name: "**Както нужно уговорить.**" … "**Это вам.**" Nothing in either source records him being approached. [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+
+**§4 note.** This mention is an **IT / administration** context — administering plans as a service to the engineering group — which fits the owner-ruled IT "Dima" of this page. It does not resurface the queued ambiguity about a "Dima Kovalchuk" appearing in software-architecture contexts; no architecture or development work is discussed here.
+
+**§15.8:** clear on this entry — role and working method only; no compensation and no personal assessment of him appears in either source. (The same meeting contained assessment material about other named people; it was not ingested — see the meeting stub.)
+
+## Open questions (Sept 17 2026)
+
+- **Will he accept the application-administrator role?** Val instructed Pavel and Irina to persuade him; nothing is agreed and he was not on the call — [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+- [[raw/Meeting_Notes_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - [[raw/Meeting_Notes_Legacy_CMS_Documentation_Progress_Check-April-15-2026.md]]

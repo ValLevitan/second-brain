@@ -2,9 +2,10 @@
 type: person
 title: Sergey Kleimenychev
 date: 2025-11-20
-aliases: [Sergey Kleimenychev, Kleimenychev Sergey, Sergey, Sergei]
-source-count: 1
-open-commitments: 1
+aliases: [Sergey Kleimenychev, Kleimenychev Sergey, Sergey, Sergei, Sergey Kleimenich, Сергей Клемёныч, Клемёныч, кремёнычев, Kremyonychev, климеч, Klimech]
+source-count: 4
+open-commitments: 3
+open-questions: 1
 disambiguation: "One of several 'Sergey/Sergei' at JVL. This Sergey = the graphics-team design generalist (artist + a bit of a programmer) who owns the artists' Git/LFS workflow. Distinct from Sergey Tsymanov (Minsk CMS-requirements engineer) and Sergei Novitsky (advanced-setup technician). Resolve by context."
 ---
 
@@ -23,10 +24,44 @@ Sergey Kleimenychev is a JVL **graphic-design team member** whom Val describes a
 - Proposed: **reduce the interaction surface** for artists (button-press clone/pull/push via onboarding scripts + aliases), **squash merges** to keep history tidy and allow pruning ~1 GB/day/person of daily renders, and documenting the **stash + LFS** pitfall. [[raw/application of GitHub for graphic design team.md]]
 - **Took ownership** of the simplified artist Git-flow "product" — for as long as he works at JVL — to be built with Andrei. Details on [[wiki/topics/graphics-team-git-workflow.md]] and the meeting stub [[wiki/meetings/2025-11-20-github-for-graphic-design-team-git-lfs.md]]. [[raw/application of GitHub for graphic design team.md]]
 
+## Sept 16–17 2026 — Val brings him back, and hires him from Monday
+
+> **⚠ §15.8 — deliberate exclusion.** The Sept-17 call that produced this hire consisted largely of **personal assessments of this man** — his competence, temperament, character, domestic life, political leanings, prior-employment history and fitness to manage — voiced by more than one speaker. **None of it is recorded on this page or anywhere in the wiki.** Only the non-compensation business substance is kept. **No compensation material of any kind appears in either source** (no salary, rate, bonus, equity or engagement terms, and no paraphrase of any); there was nothing of that class to withhold.
+
+**Sept 16 — the plan.** At the [[wiki/meetings/2026-09-16-street-machine-board-spec-and-georgia-class-a-order.md|Sept-16 12:35 PM ET alignment call]] Val set out a plan to route the street-machine graphics work **around** JVL's graphics department, take **one person in Minsk**, and bring "**Сергей Клемёныч**" back to work — paired with a programmer or working alone, and taught the AI coding tool. Full quotation and context on [[wiki/people/val-levitan.md]]. That name was **queued unresolved** at the time. [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
+
+**Sept 17 — the hire.** The next day, at the [[wiki/meetings/2026-09-17-kleimenychev-hire-nova-direction-and-planning-handover.md|12:45 PM ET "General alignment" call]], Val instructed [[wiki/people/pavel.md|Pavel Frolov]] and [[wiki/people/irina-shishko.md|Irina Shishko]] to hire him **from Monday**, put him on the **Texas and Class A** direction, and keep the work **in full secrecy** — "**Я советую климеча взять на работу с понедельника**", "**И толкать направление Техас и класс эй**", "**В полном в полном секрете.**" Val also stated he will direct the work himself: "**А командовать парадом буду я.**" [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+
+**He asked one question, through Pavel, and it was refused.** May he approach [[wiki/people/lena.md|Lena]] with questions during the work, or is it fully secret work? Val: "**Даю ответ.**" … "**Что абсолютно нет.**" [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]] Full record on [[wiki/decisions/2026-09-17-kleimenychev-is-hired-from-monday-onto-texas-and-class-a-in-full-secrecy.md]].
+
+**The date is derived, not spoken.** The transcript says only "с понедельника"; Sept 17 2026 was a Thursday, so the next Monday is **Sept 21 2026** — which is what the derived notes state [[raw/Meeting_Notes_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]].
+
+### §4 — how the name was resolved
+
+Three renderings appear in seven minutes: Pavel says "**кремёнычев**", Val says "**климеча**", and the derived notes and both filenames render it "**Kleimenich**"; the Sept-16 source has "**Сергей Клемёныч**". These are read as **this person**, on four converging grounds, all from the sources:
+
+1. The **given name matches** — Pavel and Irina both call him "Сергей" / "Сергею" in the Sept-17 call, and the Sept-16 mention is "Сергей".
+2. The **surname stem matches** the Minsk payroll roster entry "**Kleimenychev Sergey**" ([[wiki/topics/minsk-staff-roster.md]]); "кремёнычев" differs from it by a single consonant, a routine speech-to-text substitution.
+3. The **work context matches** — Sept-16 is explicitly about **graphics** work taken away from the graphics department and given to one person in Minsk, and this page is the Minsk **graphic-design generalist** ("a little bit of a programmer, a little bit of a designer").
+4. The **relationship matches** — the one person he asked to be allowed to consult is [[wiki/people/lena.md|Lena]], who **leads JVL's game design / art team**, i.e. the head of the discipline he works in.
+
+**Recorded, with its residual uncertainty stated:** the Sept-16 "Сергей Клемёныч" and the Sept-17 hire are the **same person**, and that person is read as the Sergey Kleimenychev of this page. Grounds 1–2 are name evidence and 3–4 are context evidence; none of the four is a stated identification by a speaker. All renderings are held as aliases above. **Queued for the owner to confirm in one word**, because the corpus has no source in which any speaker spells the surname or links the two mentions.
+
+**One thing this does not explain:** Val's Sept-16 word is "**обратно**" — bring him back to work — which implies he had left JVL. Nothing in the corpus records him leaving. The Nov-2025 session has him a serving JVL employee who took on the artist Git-flow "for as long as he works at JVL". Recorded as an unexplained gap, not resolved either way. [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]] [[raw/application of GitHub for graphic design team.md]]
+
 ## Open commitments
 
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] / [[wiki/people/irina-shishko.md|Irina Shishko]] — hire Sergey Kleimenychev starting Monday (Sept 21 2026 by derivation) and put him on the Texas and Class A direction — due Monday — [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] / [[wiki/people/irina-shishko.md|Irina Shishko]] — keep his work in full secrecy; no consultation with Lena at any point — ongoing — [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
 - [ ] Sergey Kleimenychev — own and build the simplified artist Git flow (onboarding scripts/aliases, one-shot clone setup, squash-merge convention, stash/LFS guidance) with Andrei; teach the artists to understand Git, not just use shortcuts — due unspecified — [[raw/application of GitHub for graphic design team.md]]
+
+## Open questions
+
+- **Did he leave JVL between Nov 2025 and Sept 2026?** Val's Sept-16 wording is "bring him back to work"; nothing in the corpus records a departure. [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
 
 ## Sources
 
 - [[raw/application of GitHub for graphic design team.md]]
+- [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+- [[raw/Meeting_Notes_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+- [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
