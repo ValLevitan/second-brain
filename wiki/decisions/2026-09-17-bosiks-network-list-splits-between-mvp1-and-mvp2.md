@@ -2,11 +2,11 @@
 type: decision
 title: Bosik's network list is split requirement by requirement — the remote FlexPort master goes to MVP 2, and a USB stick does the job until then
 date: 2026-09-17
-aliases: [capability 144, capability 91, capability 141, requirement 1410, requirement 1411, requirement 1413, requirement 1418, requirement 1421, requirement 1431, requirement 1030, watchdog, FP10, MVP2 parking capability, placeholder capability, orphan requirements, обновляем 3000 машин с флешки, сиротливые реквайрменты, our reuse bucket, router approved in the United States, gateway replacement loses tickets]
-source-count: 2
+aliases: [capability 144, capability 91, capability 141, requirement 1410, requirement 1411, requirement 1413, requirement 1418, requirement 1421, requirement 1431, requirement 1030, watchdog, FP10, MVP2 parking capability, placeholder capability, orphan requirements, обновляем 3000 машин с флешки, сиротливые реквайрменты, our reuse bucket, router approved in the United States, gateway replacement loses tickets, capability 144 cloned, clone to MVP2 trimmed copy stays MVP1, master board change requirement removed, buy routers on the local market]
+source-count: 3
 status: active
 open-commitments: 4
-open-questions: 3
+open-questions: 2
 ---
 
 # The network list is split item by item, and the remote FlexPort master leaves MVP 1
@@ -26,6 +26,8 @@ Klimovich's one correction sharpened rather than weakened it: "**обновля�
 This reverses half of the [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md|Sept-14 firmware ruling]] — see the dated update there. **Flex IQ still updates itself in MVP 1**: asked directly, [[wiki/people/dmitri-chudinov.md|Chudinov]] said "**IQ в [MVP] один будет обновляться**" [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]].
 
 ## Where capability 144 itself ended up is left ambiguous on the recording
+
+> **Settled the next morning.** The Sept-18 call cloned the capability — trimmed original in MVP 1, clone in MVP 2 — which is why neither reading below could be made to work. The paragraphs here record what the **Sept-17 source** does and does not say; see the Sept-18 update at the foot of the page for the answer.
 
 Irina's "**убираем на MVP 2**" is unambiguous about the *firmware-update* content. But the capability was then **thinned** rather than emptied — Bosik twice proposed "**прор[е]дить**" it (thin the rows out), several of its requirements were moved to the MVP 2 parking bucket during the call, and after the requirement-1410 exchange Bosik said of what was left "**144, окей, поехали следующий, то есть это идёт в MVP один**", to which Klimovich answered only "**Угу**" [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]].
 
@@ -76,16 +78,29 @@ Chudinov pushed back on the idea that nothing shows the ports today: "**на IQ 
 
 Bosik's use case for wanting it visible is a field one: a technician arrives, opens the menu, "**я вижу здесь 5… а у него 6 должно быть портов… сфоткал их… на телефон и пошёл просто по серийникам нашёл, какой из 6 портов отвалился[,] на какой машине**" [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]].
 
+## Update, Sept 18 2026 — 144 is cloned rather than thinned, which settles its fix version; the router model is not delivered
+
+The [[wiki/meetings/2026-09-18-transactional-mvp1-capability-cleanup-and-the-monday-deadline.md|Sept-18 8:03 AM call]] came back to capability 144 as the second item of the cleanup sweep [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]].
+
+- **The ambiguity above is resolved, by a method rather than a ruling.** [[wiki/people/pavel.md|Pavel]] restated the problem — "**он выглядит как отдельный проект, который явно в [MVP] один… не будет сделан[,] по крайней мере в полном его объёме**" — and [[wiki/people/irina-shishko.md|Irina]] proposed **cloning** instead of moving requirements out one by one: "**склонировать его[,] и в т[ом], которы[й] [MVP] один[,] оставить… 2[,] 3[,] 4 требования. Остальные требования уезжают в тот клон, который будет на [MVP] 2, потому что если так перебрасывать[,] это… дольше[,] будет потерять**". Klimovich did it live: "**Клон я закину на MVP 2**". So **the trimmed original stays in MVP 1 and the clone goes to MVP 2** — the open question below is answered.
+- **Requirement 1410 is explicitly kept in the MVP 1 copy.** Bosik, reading down the list: "**смотрю на 14 10[ —] оставляем[;] это то, что мы вчера говорили, что мы должны видеть всё**". *(That is what the Sept-17 derived notes asserted and the Sept-17 transcript did not settle; this source supports it. Klimovich's separate point that the **device**-side display can wait is untouched.)*
+- **One more requirement was cut — the master-board one.** Pavel read it out ("**Изменения мастер[ ]бортов… не должно терять деньги… и должно быть задокументировано**") and killed it on the same ground as requirement 1421: with no cloud version of tickets, an un-cashed ticket does not transfer to a new device, so it is not MVP 1. Bosik: "**Тогда убираю**".
+- **A requirement that stays and is nobody's code:** buying routers on the local market. Pavel: "**то, что там надо покупать роутеры локального рынка… это простое требование, оно не к разработчикам**".
+- **⚠ The router model itself was NOT delivered.** Bosik's commitment was to name an approved US-market model "**на завтра**" — i.e. on this call. **No model, brand or part is named anywhere in the Sept-18 source**, and nobody asked for it. The only router mention is the requirement above. **Overdue.**
+- **Bosik re-committed on the capability itself,** with a tighter deadline: rewrite 144's description to match what survives, clean it, move it to the next status — Klimovich: "**Андрей, сделай это сегодня[,] пожалуйста, до конца дня**"; Bosik: "**Я прямо сейчас сделаю[,] после митинга**" — plus creating its features.
+
+**What went unmentioned again on Sept 18:** the **MVP 2 parking capability's number** (177 remains unestablished), whether the MVP 2 **cloud** capability and the **parking** capability are one or two, requirements **1431**, **1030**, **1413** and **1421**, and capability **91**. Capability **141** does reappear — and is the item that triggered the day's freeze on closing anything ([[wiki/decisions/2026-09-18-nothing-is-closed-until-the-conflict-findings-are-worked-back-in.md]]). **None of the three open questions below except the first is touched.**
+
 ## Open commitments
 
-- [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — choose the router model, approved and sold in the United States, and name it so a couple can be ordered from Amazon in time — due **tomorrow** (Sept 18 2026); he said "на завтра" — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
-- [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — thin capability 144 down, removing the requirements that moved to MVP 2 — due unspecified; started during the call — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — choose the router model, approved and sold in the United States, and name it so a couple can be ordered from Amazon in time — due **Sept 18 2026**; he said "на завтра". **Not delivered — no model is named anywhere in the Sept-18 source and nobody raised it. Overdue.** — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+- [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — thin capability 144 down, removing the requirements that moved to MVP 2 — **restated and re-dated on Sept 18 to today, end of day**, and widened: rewrite the description to match what is left, move it to the next status, and create its features. Partly done on the call (the list was read through and the master-board requirement removed) — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — link the orphan requirements 1431, 1030, 1413 and 1421 to the MVP 2 parking capability, and attach 1431 to FlexPay — due unspecified; 1431 and 1030 were linked during the call — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — take requirement 1410 into the portal dashboard work, so Flex-Ports and their serial numbers appear — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 
 ## Open questions
 
-- **What fix version capability 144 itself now carries.** Irina said "убираем на MVP 2"; after the capability was thinned, Bosik said of the remainder "это идёт в MVP один" and Klimovich only grunted assent. The derived notes assert MVP 2 flatly; the transcript does not settle it — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]] [[raw/Meeting_Notes_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- ~~**What fix version capability 144 itself now carries.**~~ **Answered Sept 18 2026:** the capability was **cloned** — the trimmed original stays in MVP 1, the clone holding the removed requirements goes to MVP 2. Both the Sept-17 readings were half-right, which is why the recording could not settle it. See the Sept-18 update above — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]] [[raw/Meeting_Notes_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - **Whether the MVP 2 cloud capability and the MVP 2 parking capability are the same thing.** Klimovich describes creating one "yesterday" on both Sept 16 and Sept 17, for two different purposes, and no number is confirmed for either — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - **Whether a Flex IQ or kiosk may ever act as a router for the Flex-Ports.** Requirement 1418 says no device is a gateway for another, but Pavel asked "**а вдруг захотим сделать его маршрутизатором для флекс портов?**" and Bosik answered only "**ну тогда я переписываю**" — the question was left open — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 
@@ -95,3 +110,4 @@ Bosik's use case for wanting it visible is a field one: a technician arrives, op
 
 - [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]

@@ -1,15 +1,17 @@
 ---
 type: decision
-title: JVL supports multiple InComm card products, not a hard-coded pair — a collection of products per location on the payment hub, identified by the UPC in the barcode
+title: JVL supports multiple InComm card products, not a hard-coded pair — a collection of products per location on the payment hub, identified by the UPC in the barcode; the MVP 1 delivery of it was cut back to a single product on Sept 18
 date: 2026-09-17
-aliases: [multi-product, мультипродукты от инкома, collection of products, UPC is the product, product not available, SkillPay, Skill Pay, скилл пэй, PrizePay, прайс пэй, PricePay, activation fee two dollars three dollars, payment hub product collection, location manager UPC check, add product, per-product limits and fees, second payment provider]
-source-count: 2
-status: active
-open-commitments: 4
+aliases: [multi-product, мультипродукты от инкома, collection of products, UPC is the product, product not available, SkillPay, Skill Pay, скилл пэй, скилпы, PrizePay, прайс пэй, PricePay, activation fee two dollars three dollars, payment hub product collection, location manager UPC check, add product, per-product limits and fees, second payment provider, capability 178, InComm card configuration capability, two products will not be in MVP1, 178 must be MVP1, single product fallback]
+source-count: 4
+status: active — but the MVP 1 SCOPE half is CONTESTED: on Sept 18 2026 Klimovich said "almost finally" that two products will not be built for MVP 1, against Val's written instruction that capability 178 must be in MVP 1. The payment-hub design itself stands. See the dated update below.
+open-commitments: 5
 open-questions: 5
 ---
 
-# MVP 1 supports multi-product from InComm — a product collection on the payment hub, not two hard-coded cards
+# InComm card products are a collection on the payment hub — and on Sept 18 the MVP 1 delivery of it was cut to one product
+
+> **Read the Sept-18 update at the foot of this page before relying on the MVP 1 scope.** The design ruling — a product collection on the payment hub, the UPC carried in the barcode — is unchanged and still governs. What changed the next morning is how much of it ships in MVP 1.
 
 Taken on the [[wiki/meetings/2026-09-17-transactional-mvp1-skillpay-multi-product-and-device-network-security.md|Sept 17 2026 8:02 AM call]] (Russian). [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] proposed the shape on a shared screen and [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] ruled it in, correcting himself mid-sentence to widen it.
 
@@ -79,10 +81,44 @@ Pavel's compromise inside Chudinov's one-screen layout, also unadopted: the prod
 
 *(The worked example — a player holding **$1,500** against one product capped at **$1,000** and another at **$1,200** — was posed by **Klimovich**, not by Chudinov: "**2 продукта[:] у одного макс лоуд 1000, у 2 — 1200, а у игрока было 1500**". The derived notes attribute it to Chudinov. Corrected here against the source.)* [[raw/Meeting_Notes_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 
+## Update, Sept 18 2026 — the capability has a number, and its MVP 1 scope is cut back to one product against Val's written instruction
+
+At the [[wiki/meetings/2026-09-18-transactional-mvp1-capability-cleanup-and-the-monday-deadline.md|Sept-18 8:03 AM call]] this was the **first** item on the cleanup sweep, and it did not move forward.
+
+**The capability is number 178.** Klimovich, filtering the board: "**Один [капабилити] прополз[ —] это ИНКОМ карт конфигур[ейшн капабилити]. Это то, что мы вчера обсудили[:] поддерживать несколько продуктов**", and when Bosik asked for the number, "**Да[,] 178 — это то, что мы вчера обсуждали про появление нового продукта инкома**". *(The Sept-17 recording never gave it one.)* [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+**He would not advance it, and named both possible outcomes:** "**Я его не готов перевести дальше[:] пока он или вообще уедет на [MVP] 2, или… в каком[-]то супер урезанном [виде] останется в [MVP] один**"; "**он не доработан, он не может переехать дальше, он требует ещё работы**" [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]].
+
+**Then, later in the same call, he went further than he had on Sept 17** — prompted by [[wiki/people/dmitri-chudinov.md|Chudinov]] naming the two-product, two-card requirement split as one of his two biggest blockers ("**они визуально… сильно меняют логику значительно**") [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]:
+
+> "**я склоняюсь к тому, что 2 продукта мы к [MVP] один не будем делать[.] Я могу вам почти уже финально это заявить.**"
+
+**Val's chat message says the opposite, and was read out in the room.** [[wiki/people/irina-shishko.md|Irina Shishko]]: "**178 — [маст би MVP] один**"; Klimovich asked what that was; [[wiki/people/pavel.md|Pavel Frolov]] confirmed "**Это текст от Вала**". [[wiki/people/val-levitan.md|Val]] did not speak on this recording — he was in the meeting chat [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]].
+
+**Klimovich's answer was a fallback, not a reversal:** "**мы можем сделать поддержку одного продукта, например, всё[-]таки[,] просто у нас сейчас уже всё работает. Мы можем сделать поддержку [скилпей]**" — a single product, **SkillPay**, because it already works end to end. Pavel costed that small: "**со стороны сервера это можем очень легко сделать[,] в интерфейс добавить для оператора**", needing "**данные по карточкам**" from InComm and a graphical check, "**и с точки зрения бэкэнда это будет сделано**" [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]].
+
+**Nothing was reconciled.** Irina cut the discussion off to keep the meeting moving — "**давайте мы не будем сейчас это много говорить**", "**чтоб… не переливать из пустого в порожнее**" — and the only action recorded is that Klimovich finishes 178's window designs: "**Андрей делает[,] заканчивает окна 178 [капабилити]**" [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]].
+
+**What the Sept-18 call did NOT touch:**
+
+- **The cashier's product-selection flow** — parked overnight on Sept 17 with a commitment to bring it back to "tomorrow's call". **Tomorrow's call is this one, and it never came back.** The commitment stands undischarged and the three positions are untouched.
+- **The naming question.** The incumbent $2 card is **not named at all** on Sept 18 — only "**скилпей**" is spoken. The "прайс пэй / PricePay"-versus-**PrizePay** identification recorded above therefore gains no new evidence in either direction and stays exactly as it was. **Not resolved.**
+- **The SkillPay test card, the InComm documentation request and the broker-verification email thread** — none is mentioned.
+
+## Open contradictions
+
+**Whether capability 178 — multi-product support — is in MVP 1 (Sept 18 2026).** Two positions stated in the same hour, neither withdrawn. Recorded, **not resolved**.
+
+- **[[wiki/people/val-levitan.md|Val Levitan]], in the meeting chat:** "**178 — [маст би MVP] один**" — it must be in MVP 1 [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]].
+- **[[wiki/people/andrei-klimovich.md|Andrei Klimovich]], aloud, minutes later:** "**2 продукта мы к [MVP] один не будем делать[.] Я могу вам почти уже финально это заявить**" — near-final that two products are not built for MVP 1 [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]].
+
+**Why this is a contradiction rather than an evolution.** They are the same day, the same capability, and one is the owner's written instruction while the other is the product owner's near-final engineering position; Klimovich answered Val's message with a *partial* compliance (one product, not two) and nobody closed the gap. The derived notes flag it in the same terms — "Val's chat instruction that 178 must be in MVP1 sits against Klimovich's near-final position… Not reconciled on this call" [[raw/Meeting_Notes_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]. **It is the single unresolved scope item going into the Monday Sept 21 gate.**
+
 ## Open commitments
 
-- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — write the multi-product capability up in Jira (a product collection on the payment hub) — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
-- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — rethink the cashier UI flow for choosing the product and bring it back to tomorrow's call — due **Sept 18 2026** — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — finish the reworked window designs for capability 178; Chudinov named them as his single biggest blocker — due **Monday Sept 21 2026** — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — write the multi-product capability up in Jira (a product collection on the payment hub) — due unspecified; **partly advanced on Sept 18** — the capability exists as **178** and is being worked, but Klimovich called it "**не доработан**" and refused to move its status — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — rethink the cashier UI flow for choosing the product and bring it back to tomorrow's call — due **Sept 18 2026**; **the Sept-18 call came and went without it being raised — overdue and unmentioned** — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — find a production SkillPay card with a barcode and swipe it on a Flex IQ so Chudinov can read the logs and see what the magnetic stripe carries; his own test card has no barcode yet — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — open a new email thread to InComm saying JVL is ready to support SkillPay, and ask for the documentation and test cards, **including two test cards of different products with different UPCs** (Chudinov's request); thread to include Pavel Frolov, Chudinov, Irina Shishko and Sergei — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 
@@ -100,3 +136,5 @@ Pavel's compromise inside Chudinov's one-screen layout, also unadopted: the prod
 
 - [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]

@@ -2,11 +2,11 @@
 type: decision
 title: Remote firmware update is in MVP 1 for the gateways only — Flex IQ and FlexPay update themselves; distributing firmware to the Flex-Ports moved to MVP 2 on Sept 17
 date: 2026-09-14
-aliases: [firmware upgrade in MVP1, remote firmware update, OTA firmware, приоритет номер один это чтобы обновлялся флекс ай кю, flash the FlexPorts, Flex IQ to FlexPort protocol, доперфек, priority two deferred, FlexPort firmware by USB stick, capability 144 to MVP2]
-source-count: 3
-status: active — but PARTLY SUPERSEDED: "priority two" (the gateways distributing firmware to the Flex-Ports) left MVP 1 on Sept 17 2026; see the dated update below
+aliases: [firmware upgrade in MVP1, remote firmware update, OTA firmware, приоритет номер один это чтобы обновлялся флекс ай кю, flash the FlexPorts, Flex IQ to FlexPort protocol, доперфек, priority two deferred, FlexPort firmware by USB stick, capability 144 to MVP2, capability 144 cloned, no rollback, roll forward only, requirement 1367]
+source-count: 4
+status: active — but PARTLY SUPERSEDED: "priority two" (the gateways distributing firmware to the Flex-Ports) left MVP 1 on Sept 17 2026, and rolling BACK to a previous build was removed from MVP 1 on Sept 18 2026; see the dated updates below
 open-commitments: 2
-open-questions: 2
+open-questions: 1
 ---
 
 # Remote firmware update is in MVP 1, and Flex IQ updates itself before it updates anything else
@@ -54,6 +54,16 @@ The full sweep, including what happened to capability 144's own label, is on [[w
 
 **The Sept-14 commitments below are unchanged in substance but narrowed in scope:** the Flex IQ ↔ Flex-Port protocol work Chudinov took on Sept 14 is now MVP 2 work for the distribution half, while the gateway self-update remains MVP 1. Neither was restated or discharged on Sept 17, so both stay open.
 
+## Update, Sept 18 2026 — rolling *back* is removed from MVP 1 outright, and capability 144's fix version is settled by cloning
+
+Two things at the [[wiki/meetings/2026-09-18-transactional-mvp1-capability-cleanup-and-the-monday-deadline.md|Sept-18 8:03 AM call]] finish the picture this page has been carrying.
+
+**1. The rollback requirement is out of MVP 1, and the team's policy is roll-forward only.** [[wiki/people/dmitri-chudinov.md|Chudinov]] named requirement **1367** under **capability 122** as the one he could not build — the database schema moves with the code, so an older build meets a schema it does not match and may come up empty or not at all. [[wiki/people/andrey-bosik.md|Bosik]] turned it into policy ("**надо придерживаться всегда форвард**") and [[wiki/people/val-levitan.md|Val]] wrote in the chat to remove it. **This does not touch priority one above — Flex IQ still updates itself in MVP 1.** Full argument on [[wiki/decisions/2026-09-18-no-rollback-to-a-previous-build-and-the-team-rolls-forward-only.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]].
+
+**2. Capability 144's own fix version — the open question below — is answered, and the answer is "both, on two objects".** [[wiki/people/irina-shishko.md|Irina Shishko]] proposed **cloning** the capability rather than moving requirements out one at a time: the trimmed original keeps a handful of requirements and **stays in MVP 1**, the clone holds the rest and **goes to MVP 2**. [[wiki/people/andrei-klimovich.md|Klimovich]] did it live — "**Клон я закину на MVP 2**". 144 then reappears in the MVP 1 feature-planning walk on the same call. Detail on [[wiki/decisions/2026-09-18-the-mvp1-capability-list-is-walked-item-by-item-and-every-capability-gets-an-owner.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]].
+
+**Neither Sept-14 commitment below was mentioned on Sept 18**, so both stay open — Chudinov's protocol work and Pavel's production-standard firmware update (pings, verification, timer) went unraised, as did the open question about whether [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] is assigned.
+
 ## Open commitments
 
 - [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — work the Flex IQ ↔ Flex-Port firmware-distribution protocol from his side, and improve it if he can — due unspecified — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
@@ -62,7 +72,7 @@ The full sweep, including what happened to capability 144's own label, is on [[w
 ## Open questions
 
 - **Is Evgeniy Alekseev actually assigned to this?** Pavel's own wording is hedged — "**возможно… по[-]моему там на него тоже задача висит**" — and nothing in the source confirms it — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
-- **Whether capability 144 itself now carries an MVP 1 or MVP 2 fix version.** The *content* ruling above is clear; the capability's own label was left ambiguous on the Sept-17 recording after it was thinned — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- ~~**Whether capability 144 itself now carries an MVP 1 or MVP 2 fix version.**~~ **Answered Sept 18 2026:** the capability was **cloned** — the trimmed original stays in MVP 1, the clone carrying the removed requirements goes to MVP 2. See the Sept-18 update above — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 
 **§15.8:** clear — product scope and task assignment only; no compensation or performance judgement for any named person.
 
@@ -71,3 +81,4 @@ The full sweep, including what happened to capability 144's own label, is on [[w
 - [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]

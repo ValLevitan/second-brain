@@ -3,8 +3,8 @@ type: decision
 title: JVL will support both dual SAS and single SAS — decided in a customer meeting on the distributor's insistence — and definitely not MudaGoose
 date: 2026-09-09
 status: active
-aliases: [dual plus single, we're going with both, you just made up our decision, definitely not going with MudaGoose, dual saws or single saws, no final decision on SAS, ten thousand machines with no secondary SAS, secondary sats, AFT through the bill acceptor]
-source-count: 5
+aliases: [dual plus single, we're going with both, you just made up our decision, definitely not going with MudaGoose, dual saws or single saws, no final decision on SAS, ten thousand machines with no secondary SAS, secondary sats, AFT through the bill acceptor, MVP1 dual SAS only, MVP1 locations fully equipped with dual SAS]
+source-count: 6
 open-commitments: 0
 open-questions: 0
 ---
@@ -39,6 +39,14 @@ Six days later, explaining his collection mechanism to [[wiki/people/billy-liu.m
 - **The figure is Val's own estimate**, given conversationally and prefixed "approximately"; nothing in the source attributes it to a report, and no other source in the corpus sizes the segment.
 - **This is a dated data point on the contradiction below, not a resolution of it.** Sept 7 says drop the old-machine segment; Sept 8 leans the same way; Sept 9 says support both; Sept 15 describes a concrete mechanism for exactly the machines Sept 7 would abandon — but it is said to an outsider in a commercial argument, not as an engineering ruling. **Nothing is resolved.**
 
+## Sept 18 2026 — the first release picks a side, and the business question is restated as open
+
+At the [[wiki/meetings/2026-09-18-transactional-mvp1-capability-cleanup-and-the-monday-deadline.md|Sept-18 MVP 1 call]] the engineers settled it **for MVP 1 only**: [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] ruled "**[MVP] один — только д[у]о[ ]сас**", with MVP 1 pilot locations chosen so every machine is dual-SAS, and the bill-acceptor / counter-emulation route deferred. [[wiki/people/pavel.md|Pavel Frolov]] backed it on testing cost — "**поддерживать оба — это почти икс 2 тестирования**". See [[wiki/decisions/2026-09-18-mvp1-supports-dual-sas-only-and-locations-are-chosen-to-match.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]].
+
+**This resolves nothing below, and Klimovich said so himself in the same breath:** "**это нерешённый до конца ещё бизнес вопрос[:] у нас одни операторы говорят, что мне достаточно д[у]о сас[,] я все машины[;] другие говорят…**" — the sentence trails off unfinished on the recording [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]].
+
+**Recorded as a dated data point of a different kind.** Sept 7, 8, 9 and 15 are statements about what *JVL the product company* supports; Sept 18 is a statement about what the *first release* covers. They are not the same claim, so this neither contradicts nor confirms any of them — but it is the first time a JVL decision has deliberately excluded the single-SAS half of the market with a date attached, and a reader tracking the argument should have it here. **The contradiction below stays open.**
+
 ## Open contradictions
 
 **Whether JVL supports single-SAS machines at all (Sept 7/8 vs Sept 9 2026).** Three statements inside three days point in opposite directions. Recorded, **not resolved**.
@@ -58,3 +66,4 @@ Six days later, explaining his collection mechanism to [[wiki/people/billy-liu.m
 - [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
 - [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]

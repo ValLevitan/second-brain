@@ -4,8 +4,8 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 93
-open-commitments: 33
+source-count: 95
+open-commitments: 34
 ---
 
 # Andrey Bosik
@@ -335,7 +335,7 @@ Twenty-five minutes after the [[wiki/meetings/2026-09-14-code-standards-main-bra
 
 ## Open commitments (Sept 14 2026, 8:01 AM call)
 
-- [ ] Andrey Bosik — build a routine that checks the Jira status rules (nothing in MVP 1 still Proposed; To Do items carry features; features In Progress carry a linked feature branch; capabilities In Progress linked to requirements with acceptance criteria) and send a short exception report — only the mismatches — to Val, Pavel Frolov and Andrei Klimovich — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+- [x] Andrey Bosik — build a routine that checks the Jira status rules (nothing in MVP 1 still Proposed; To Do items carry features; features In Progress carry a linked feature branch; capabilities In Progress linked to requirements with acceptance criteria) and send a short exception report — only the mismatches — to Val, Pavel Frolov and Andrei Klimovich — due unspecified. **Discharged by Sept 18 2026:** built, scoped to MVP 1, and arriving by email every morning; Klimovich reads it to open the daily call. Irina Shishko is not on the distribution — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - [ ] Andrey Bosik (with [[wiki/people/pavel.md|Pavel Frolov]]) — finish the automatic update environment so nobody has to download and install builds by hand, Flex-Port included — due within 30 days of Sept 14 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 
 ## Sept 15 2026 (8:03 AM) — his report sets the agenda for the first ten minutes, and his questions produce two rulings
@@ -387,12 +387,33 @@ The fourth MVP 1 morning call ([[wiki/meetings/2026-09-17-transactional-mvp1-ski
 
 ## Open commitments (Sept 17 2026)
 
-- [ ] Choose the router model — approved and sold in the United States — and name it so a couple can be ordered from Amazon in time — due **Sept 18 2026** ("на завтра") — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [ ] Choose the router model — approved and sold in the United States — and name it so a couple can be ordered from Amazon in time — due **Sept 18 2026** ("на завтра"). **Not delivered: no model is named anywhere in the Sept-18 source and nobody raised it. Overdue.** — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - [ ] Get the firewall / NAT / WAN-LAN-profile work (requirement 1556) written by Claude into Pavel Frolov's repository as a branch and a pull request — due with MVP 1 — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [ ] Make sure a requirement exists for remote visibility of signal quality (decibels and signal-to-noise), and add it if it does not — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
-- [ ] Thin capability 144 down, removing the requirements that moved to MVP 2 — due unspecified; started on the call — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [ ] Thin capability 144 down, removing the requirements that moved to MVP 2 — **restated and re-dated Sept 18 to today, end of day**; the capability was cloned instead, so this is now the trimmed MVP 1 copy — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - [ ] Contact KORE, the SIM provider, once Klimovich adds him to the communication chain, and look through their site and API for anything useful — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 
+
+## Sept 18 2026 (8:03 AM) — his report is now the meeting's opening fact, and he loses the second half of capability 144
+
+The [[wiki/meetings/2026-09-18-transactional-mvp1-capability-cleanup-and-the-monday-deadline.md|fifth and final MVP 1 morning call]] before the Monday gate (Russian). Forty speaker turns — his quietest of the series — but two of them matter.
+
+**The exception report he was asked for on Sept 14 exists and runs daily.** [[wiki/people/andrei-klimovich.md|Klimovich]] opened the meeting by reading that morning's edition, and Bosik confirmed the mechanism when [[wiki/people/irina-shishko.md|Irina]] asked where the reports were: "**на почту там каждое утро… приходит отчёт[,] да[,] по тем критериям, которые…**". Asked about coverage he scoped it: "**Нет, MVP один только**", "**100% [MVP] один**". **That discharges the commitment** ([[wiki/decisions/2026-09-14-nothing-in-mvp1-may-still-be-proposed-and-bosik-writes-the-exception-report.md]]) — with the gap that Irina, who actually drives the board, is not on the distribution. [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+**He turned the rollback argument into development policy**, and it is the sentence worth keeping: "**есть там разные технологии разработки… можно идти вперёд, можно возвращаться назад. Вот у нас надо придерживаться всегда форвард[ —] оно называется всегда[:] идём вперёд, нашли баг, выпустили следующую версию, накатили, обновили всё, дальше работаем**". See [[wiki/decisions/2026-09-18-no-rollback-to-a-previous-build-and-the-team-rolls-forward-only.md]]. [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+**He objected to walking the capability list a second time** — "**Мы вроде это уже делали[;] не зачем мы 2 раз[а] их открывать**" — and was overruled on two grounds: Val had asked for it, and capabilities had been added since the last pass. *(Absent from the derived notes.)* [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]] [[raw/Meeting_Notes_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+**Capability 144 shrank again, and his first reading of it did not hold.** Reading the surviving requirements aloud he concluded none could go — "**Пока выглядит, как будто там всё осталось нужным**", "**здесь всё нужно и осталось после вчерашнего**" — and Klimovich needled him once [[wiki/people/pavel.md|Pavel]] found one to cut: "**это оставит под сомнение твоё предыдущее заявление, Андрей**". The master-board requirement (a master-board change must lose no money and be documented) went, on the ground that with no cloud version of tickets an un-cashed ticket does not transfer to a new device. **What he kept** is requirement **1410** — "**оставляем[;] это то, что мы вчера говорили, что мы должны видеть всё**". Irina's cloning method then split the capability, leaving him the trimmed MVP 1 copy. [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+**⚠ The router model he owed "by tomorrow" — i.e. by this call — was not delivered.** No model, brand or part is named anywhere in the Sept-18 source and nobody asked for it. The only router mention is a requirement inside 144 about buying routers on the local market, which Pavel pointed out is not a developer's requirement at all. [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+**⚠ He is also one of the two of Val's five named non-functional-requirement owners who go unmentioned** in the Sept-18 status round — the other is [[wiki/people/alexander-biratka.md|Alexander Biratka]]. His share of that work is neither reported nor discharged ([[wiki/decisions/2026-09-15-the-week-goes-to-non-functional-requirements-and-monday-september-21-is-the-deadline.md]]). [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+## Open commitments (Sept 18 2026)
+
+- [ ] Andrey Bosik — rewrite capability 144's description to match the trimmed requirement set, clean it and move it to the next status — due **today, Sept 18 2026, end of day**; Klimovich asked for it by end of day and Bosik said he would do it straight after the meeting — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+- [ ] Andrey Bosik — create the features under capability 144 — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 
 ## Sources
 
@@ -492,3 +513,5 @@ The fourth MVP 1 morning call ([[wiki/meetings/2026-09-17-transactional-mvp1-ski
 - [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]

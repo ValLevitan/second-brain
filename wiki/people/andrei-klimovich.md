@@ -4,8 +4,8 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich, Andre]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 82
-open-commitments: 70
+source-count: 84
+open-commitments: 76
 open-questions: 0
 ---
 
@@ -534,6 +534,35 @@ The fourth MVP 1 morning call ([[wiki/meetings/2026-09-17-transactional-mvp1-ski
 - [ ] Collect the hardware-related on-screen texts for the Flex IQ text collection — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 
 
+## Sept 18 2026 (8:03 AM) — he runs the last cleanup before the gate, sets the scope freeze, and gives ground on multi-product
+
+The [[wiki/meetings/2026-09-18-transactional-mvp1-capability-cleanup-and-the-monday-deadline.md|fifth and final MVP 1 morning call]] before the Monday Sept 21 gate (Russian). He opened it on [[wiki/people/andrey-bosik.md|Bosik]]'s daily automated report — "**около 80 в состоянии, которое они считаются завершёнными… Классифицируют их как бло[к]еры. Это не очень хорошо, так не должно быть**" — and asked the team directly what was stopping them building. [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+**He restated the deadline he had been given, and then added the rule that follows it** [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]:
+
+> "**У нас был дедлайн, пред[ъявленный] перед нами, что в понедельник у нас всё[:] [капабилити]с[,] все фичи[,] все нон[-]факс… в нужных статусах[,] нету [анассайнд].**"
+>
+> "**в понедельник… И начинаем работать[,] и больше ничего никуда долетать нельзя. Это в том числе сам себе говорю.**"
+
+**On his own share he was careful not to over-promise:** "**Я вижу всё, что сейчас на меня завязано[,] я дожимаю всё это[;] то есть с моей стороны постараюсь к понедельнику всё закрыть**" — *постараюсь*, he will try. [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+**The concession: two InComm products will not be in MVP 1.** Pressed by [[wiki/people/dmitri-chudinov.md|Chudinov]], who named the two-product requirement split as one of his two biggest blockers, he said "**я склоняюсь к тому, что 2 продукта мы к [MVP] один не будем делать[.] Я могу вам почти уже финально это заявить**" — and, on hearing Val's chat message that capability 178 must be in MVP 1, offered a single-product fallback rather than reversing: "**Мы можем сделать поддержку [скилпей]**". **The gap was not closed** — see the open contradiction on [[wiki/decisions/2026-09-17-jvl-supports-multiple-incomm-products-not-a-fixed-pair.md]]. [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+**Where he held the line.** He refused to move capability 175 out of MVP 1 before checking its logic was documented elsewhere — "**надо сначала убедиться, что описанная здесь логика, которая сейчас ссылается на клауд, она описана гдето в других местах**" — and he held the balance display to a release standard rather than an existence test: "**Мы же говорим ещё о релизной версии[,] о том, чтобы показывать людям чтото на экране[ —] в хьюман[-]рид[абл] пригодном виде**". [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+**One push-back of his own, absent from the derived notes.** Asked to prioritise the designs, he answered with his own load: "**мне нужно время[.] Повторюсь… Мы работаем в обстоятельствах, где у нас много разных задач и одновременно**". [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]] [[raw/Meeting_Notes_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+**He also ruled MVP 1 onto dual SAS only** ([[wiki/decisions/2026-09-18-mvp1-supports-dual-sas-only-and-locations-are-chosen-to-match.md]]) while flagging the market question as still open, and accepted Chudinov's conflict-sweep document as his working base. **He left the call at about 56 minutes** for another meeting — "**я здесь отскочу[,] мне надо на другой звонок переключиться**" — so the feature-planning half ran mostly without him, which is why the receipt format was chased in his absence. He made himself available through the weekend and confirmed the daily call continues Monday to Friday. [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+## Open commitments (Sept 18 2026)
+
+- [ ] Andrei Klimovich — finish the reworked window designs, starting with capability 178; Chudinov's single biggest blocker — due **Monday Sept 21 2026** — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+- [ ] Andrei Klimovich — give the receipt format: which fields print and in what order. Chased by Pavel Frolov after he had left the call — "**до сих пор не сказал**" — and it blocks the printing features — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+- [ ] Andrei Klimovich — take Chudinov's conflict document as the base and work the remaining discrepancies back into the capabilities while adding the new ones — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+- [ ] Andrei Klimovich — confirm whether capability 175's cloud-referencing logic is described elsewhere, then decide whether 175 moves to MVP 2 — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+- [ ] Andrei Klimovich — finish the daily audit-ticket reporting capability and keep it inside MVP 1 — due **Monday Sept 21 2026** — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+- [ ] Andrei Klimovich — close everything assigned to him (capabilities, features and non-functional requirements) in the correct statuses — due **Monday Sept 21 2026**; his own words were "**постараюсь**" — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
@@ -618,3 +647,5 @@ The fourth MVP 1 morning call ([[wiki/meetings/2026-09-17-transactional-mvp1-ski
 - [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]

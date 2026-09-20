@@ -4,8 +4,8 @@ title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka, Alex Baratka, Alex Beratka, Alexander Berankov, Biratko, Alexander Biratko]
 disambiguation: "Alexander cluster (provisional — owner ruling pending): distinct JVL people sharing the given name Alexander. [[wiki/people/alexander-biratka.md|Alexander Biratka]] = Omni/Pixi framework & build engineer (aka Sasha; garbles Beratko/Baratka); [[wiki/people/alexander-korochkin.md|Alexander Korochkin]] = LGS QA-automation engineer (GitHub Alexander_K@JVL, read-only; aka Alexander K); [[wiki/people/alexander-tumanov.md|Alexander Tumanov]] = Minsk QA / data-center knowledge-capture hire (surname unverified). Resolve by context: Omni framework / Pixi / build → Biratka; LGS QA automation / read-only build consumer → Korochkin; manual-tester onboarding / data-center interviews → Tumanov. A further name 'Alexander Derok' (back-end build-integration / Java, per Val on Feb-6-2026) is unconfirmed — queued, not a page. Not [[wiki/people/alexei-khamin.md|Alexei Khamin]] (different name). Queue anything fitting none; never force-match."
-source-count: 58
-open-commitments: 8
+source-count: 59
+open-commitments: 9
 open-questions: 0
 ---
 
@@ -234,6 +234,24 @@ That framing — a synchronisation point rather than a distributed ledger — is
 
 He also joined Chudinov in refusing Val's pre-generated-validation-ID idea, in his own gentler register: "это решение очень не очень хорошее", and before that "это сложно" [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
 
+## Sept 18 2026 (8:03 AM) — he is back in the room, inherits the FlexPay half of MVP 1's cast-offs, and says almost nothing
+
+The [[wiki/meetings/2026-09-18-transactional-mvp1-capability-cleanup-and-the-monday-deadline.md|fifth and final MVP 1 morning call]] before the Monday gate (Russian). He is **back after missing the Sept-17 session**, and speaks five times in sixty-eight minutes.
+
+**Four capabilities moved to him and out of MVP 1 in the same motion.** [[wiki/people/irina-shishko.md|Irina Shishko]]'s reason each time is that the work is FlexPay and "**Саша занимается flexpay['ем]**": **117**, **79** and **80** went to MVP 2 as FlexPay items sitting in MVP 1 by mistake — "**её просто пропустили в прошлый раз, когда передвигали**" — and **116**, "**вообще… флекспей сплошной**", had its responsible person changed from [[wiki/people/dmitri-chudinov.md|Chudinov]] to him and went to MVP 2 too, "**потому что все фичи саши[ны]**". [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+**Capability 156 is the one he waits on rather than owns.** [[wiki/people/pavel.md|Pavel]] set the sequence: "**как только дима сделает имплементацию, саша просто возьмёт и перенесёт её… это простое[,] по идее[,] копирование**", with Biratka's dates set only after Chudinov's. [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+**One capability was taken away from him on principle.** Capability 180 (Flex-Port session life — waiting mode, inactivity timeout) had been assigned to him, and both Pavel and Irina called that wrong — "**требования вешать [на] разработчика — это вообще странно**" — so it went to Pavel. Nobody blamed him; nobody knew who had done it. [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+**His one substantive question is about receipts**, and it is the question that produced the printing answer: "**а там такие же… будут ре[си]ты, да?**" Pavel: "**Да[,] одинаковые. Единственное[,] там логика печати… чуть[-]чуть разная**" — at the FlexPay the cashier chooses whether to print, in the self-service kiosk the player chooses whether he wants English. [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+**⚠ He is one of the two of Val's five named non-functional-requirement owners who go unmentioned** in the Sept-18 status round — the other is [[wiki/people/andrey-bosik.md|Andrey Bosik]]. He was in the room and it never came up; his share is neither reported nor discharged ([[wiki/decisions/2026-09-15-the-week-goes-to-non-functional-requirements-and-monday-september-21-is-the-deadline.md]]). [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+## Open commitments (Sept 18 2026)
+
+- [ ] Alexander Biratka — port Chudinov's implementation of capability 156 across to FlexPay once it is done, and set his dates after Chudinov's — due after Chudinov delivers — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
@@ -295,3 +313,4 @@ He also joined Chudinov in refusing Val's pre-generated-validation-ID idea, in h
 - [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]

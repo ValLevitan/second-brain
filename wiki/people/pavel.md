@@ -4,8 +4,8 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 158
-open-commitments: 67
+source-count: 159
+open-commitments: 69
 open-questions: 0
 ---
 
@@ -692,6 +692,31 @@ Two minutes after the 12:19 PM session ended, the [[wiki/meetings/2026-09-17-kle
 - [ ] Pavel Frolov — with Irina Shishko, hire [[wiki/people/sergey-kleimenychev.md|Sergey Kleimenychev]] from Monday onto the Texas and Class A direction, and keep the work in full secrecy with no consultation of [[wiki/people/lena.md|Lena]] — due Monday / ongoing — [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
 - [ ] Pavel Frolov — come to Atlanta and take on more serious work once planning is off him — due unspecified — [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
 
+## Sept 18 2026 (8:03 AM) — he supplies the cuts, the cost arguments and the one amendment that stops empty capabilities
+
+The [[wiki/meetings/2026-09-18-transactional-mvp1-capability-cleanup-and-the-monday-deadline.md|fifth and final MVP 1 morning call]] before the Monday gate (Russian). He shared the board for the feature-planning half and did most of the scope-cutting.
+
+**He is the one who says out loud that capability 144 will not fit:** "**он выглядит как отдельный проект, который явно в [MVP] один… не будет сделан[,] по крайней мере в полном его объёме**" — which is what prompted [[wiki/people/irina-shishko.md|Irina]]'s cloning method. He then found the one requirement [[wiki/people/andrey-bosik.md|Bosik]] had judged all still necessary and killed it: a master-board change must lose no money and be documented, "**но… у нас сейчас нету клауд[-]версий тикетов[,] то они… не переносятся на новое устройство… это не MVP один, значит**". [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+**He asked the two-environments question and then argued the answer on testing cost.** The question — must the Flex-Port support both a SAS connection and a bill-acceptor/counter-emulation connection in MVP 1 — came out of the MudaGoose scope item being struck from capability 151; he first asked it about Flex IQ and corrected himself inside the same turn. When [[wiki/people/andrei-klimovich.md|Klimovich]] proposed dual SAS only, Pavel's support was concrete: "**поддерживать оба — это почти икс 2 тестирования**", and he attached the price — automate the tests now so the second environment can be covered quickly later. See [[wiki/decisions/2026-09-18-mvp1-supports-dual-sas-only-and-locations-are-chosen-to-match.md]]. [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+**His amendment on empty capabilities is the process contribution.** Where a capability describes functionality that already works, what goes under it is not a feature but **test executions**: "**то, что уже работает[ —] нам там надо добавить будет тест[-]экзекушен[ы]… и эти самые автоматизированные тесты. Тогда [у] нас не будет пуст[ых капа]билити**". [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+**Three more calls of his** [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]:
+
+- **He took capability 180 off a developer.** "**на Александре[ —] вот это вот на Александре неправильно висит**", then "**Перевесь на меня лучше тогда**".
+- **He priced the single-product fallback for 178 as small:** "**со стороны сервера это можем очень легко сделать[,] в интерфейс добавить для оператора**", needing card data from InComm and a graphical check.
+- **He raised the audit ticket** — the daily audit printout at a location — which turned out to be Klimovich's own unfinished capability, and he chased the **receipt format** after Klimovich had left the call: "**конкретный ор[дер], что там печатать[,] это от Андрея**", who "**до сих пор не сказал**". The team can print fields by its own judgement; the order and content are the product owner's.
+
+**On his own features** he planned 165, FlexPort 9 and 10 and 173 — 160 was also named as his, without a scheduling action recorded — and found one in-progress feature with no commit against it — "**Комитет тут есть? Нет**" — which he has to trace to a branch before deciding whether to close it as a duplicate: "**[в] какую ветку оно [в]мерж[ило]сь**". [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+**He is working Sunday**, per Irina's answer for both of them. [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+## Open commitments (Sept 18 2026)
+
+- [ ] Pavel Frolov — plan his own features (165, FlexPort 9 and 10, 173; 160 was also named as his) and check which branch the in-progress feature with no commit against it merged into, before deciding whether to close it as a duplicate — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+- [ ] Pavel Frolov and [[wiki/people/irina-shishko.md|Irina Shishko]] — walk the non-functional requirement list together, Flex-Port side first — due unspecified, intended before the Monday gate — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
@@ -855,3 +880,4 @@ Two minutes after the 12:19 PM session ended, the [[wiki/meetings/2026-09-17-kle
 - [[raw/Meeting_Notes_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]

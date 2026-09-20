@@ -4,8 +4,8 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 89
-open-commitments: 20
+source-count: 90
+open-commitments: 23
 ---
 
 # Irina Shishko
@@ -359,6 +359,32 @@ At the [[wiki/meetings/2026-09-17-kleimenychev-hire-nova-direction-and-planning-
 - [ ] Irina Shishko — with Pavel Frolov, run the recorded planning sessions with him on a regular cadence and hand plan administration over — due unspecified — [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
 - [ ] Irina Shishko — with Pavel Frolov, hire [[wiki/people/sergey-kleimenychev.md|Sergey Kleimenychev]] from Monday onto Texas and Class A, and keep the work in full secrecy with no consultation of [[wiki/people/lena.md|Lena]] — due Monday / ongoing — [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
 
+## Sept 18 2026 (8:03 AM) — she runs the last call before the gate, and supplies the method that unsticks capability 144
+
+The [[wiki/meetings/2026-09-18-transactional-mvp1-capability-cleanup-and-the-monday-deadline.md|fifth and final MVP 1 morning call]] before the Monday Sept 21 grooming gate (Russian). **She drove it** — 369 speaker turns against [[wiki/people/andrei-klimovich.md|Klimovich]]'s 203 and [[wiki/people/pavel.md|Pavel]]'s 193, reading the board out, naming who owns what and cutting off discussion that had stopped producing anything. [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+**Her method call is the meeting's most durable contribution.** Capability 144 was too big for MVP 1 and moving requirements out one at a time risked losing them, so she proposed cloning it: "**склонировать его[,] и в т[ом], которы[й] [MVP] один[,] оставить… 2[,] 3[,] 4 требования. Остальные требования уезжают в тот клон, который будет на [MVP] 2, потому что если так перебрасывать[,] это… дольше[,] будет потерять**". Klimovich adopted it on the spot, and it ends the ambiguity two earlier sessions had left about 144's release. See [[wiki/decisions/2026-09-18-the-mvp1-capability-list-is-walked-item-by-item-and-every-capability-gets-an-owner.md]]. [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+**She also stated the principle that moved capability 180 off a developer:** "**вопервых[,] требования вешать [на] разработчика — это вообще странно**" — and refused to spend the meeting on how it had happened: "**давайте мы не будем искать, почему**". [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+**Three more things she settled or closed off** [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]:
+
+- **She stopped a redesign before it could start.** On the balance display (capability 150), with Pavel arguing the gap was design-only, she ruled: "**мы не будем переделывать дизайн**".
+- **She cut off the 178 argument** rather than let it run — "**давайте мы не будем сейчас это много говорить, определимся, что нам [нужно делать]**", "**чтоб… не переливать из пустого в порожнее**" — and then read out the action list for each person.
+- **She stated the fix-version mechanic that governs the whole gate:** requirements inherit their capability's release — "**если [капабилити] в [MVP] один, значит все требования, которые под [капабилити], будут в [MVP;] не выставляем фикс[ ]версию**".
+
+**She is not on the distribution of the daily exception report and said so.** When [[wiki/people/andrey-bosik.md|Bosik]]'s automated capability report opened the meeting she asked "**Отчёты где?**" and then "**Почему я его не видела?**" The Sept-14 distribution list was Val, Pavel and Klimovich ([[wiki/decisions/2026-09-14-nothing-in-mvp1-may-still-be-proposed-and-bosik-writes-the-exception-report.md]]) — she is the person who actually drives the board. [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+*(§4: she is also the meeting's own disambiguator of the two Andreis, naming surnames in consecutive sentences — "**Андрей делает[,] заканчивает окна 178… Андрей босик[:] Capability 144 перерабатывает**" — and again, lightly, "**Андрей[,] да[,] который Климович[,] не смотри такими глазами**".)* [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+**She is working Sunday.** Asked about the weekend, she answered for two: "**мы[,] я[,] Паша будем в воскресенье**". [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+## Open commitments (Sept 18 2026)
+
+- [ ] Irina Shishko and [[wiki/people/pavel.md|Pavel Frolov]] — sit together and walk the non-functional requirement list, Flex-Port side first — due unspecified, intended before the Monday gate — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+- [ ] Irina Shishko — make a second pass over the acceptance criteria on every MVP 1 requirement, to confirm none is half-written; they are present everywhere but completeness is unverified — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+- [ ] Irina Shishko and [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — meet after the call and walk his capabilities and features to set real dates — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
@@ -450,3 +476,4 @@ At the [[wiki/meetings/2026-09-17-kleimenychev-hire-nova-direction-and-planning-
 - [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]

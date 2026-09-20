@@ -4,8 +4,8 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 57
-open-commitments: 22
+source-count: 58
+open-commitments: 26
 open-questions: 0
 ---
 
@@ -318,6 +318,27 @@ The fourth MVP 1 morning call ([[wiki/meetings/2026-09-17-transactional-mvp1-ski
 - [ ] Send the InComm error list and JVL's own on-screen messages ("no internet", "lease expired") into the meeting chat for Klimovich's Flex IQ text collection — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 
 
+## Sept 18 2026 (8:03 AM) — he brings the contradiction that started the day, kills the rollback requirement, and becomes the plan's single dependency
+
+The [[wiki/meetings/2026-09-18-transactional-mvp1-capability-cleanup-and-the-monday-deadline.md|fifth and final MVP 1 morning call]] before the Monday gate (Russian). Asked what was blocking the team, he answered with a live blocker: starting his next feature the day before, he found a capability whose requirements demanded a PIN for the wallet even though the team had dropped the PIN — "**есть требования, где нужен пин код[,] и требования, где пинкод не нужен. Возникло противоречие[,] конфликт[,] естественно, бло[к]ер**". [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+**So he ran the whole release through Claude looking for conflicts** — "**я прогнал весь наш [MVP] один по теме флекса ай кю, флекс[]порт и работа с клаудом на поиск различных блокеров, противоречий и конфликтов**" — put the resulting document in the meeting chat, and handed it to [[wiki/people/andrei-klimovich.md|Klimovich]] as a working base. His recommendation for the future is a process one: write and link the requirements by hand, **then** run the set through the tool. What he actually wants next is a **specification document** for how MVP 1 works, readable end to end — and his reason for saying it cannot be produced today is the whole argument in a sentence: it would say both that a PIN must be entered and that it must not. See [[wiki/decisions/2026-09-18-nothing-is-closed-until-the-conflict-findings-are-worked-back-in.md]]. [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+**He then froze all closures**, and the mechanism is his: the sweep pushed new requirements onto capabilities whose existing features already closed the old ones, so "**надо будет открывать ещё одну фичу, поэтому… Пока ничего не закрывается**". It cost him capability 122, which he was ready to close after a weekend test run. [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+**The technical ruling of the day is also his.** He named the rollback-to-a-previous-build requirement (requirement **1367** under capability **122**) as the one he could not deliver, and the reason is the database, not the firmware: the schema moves with the code, so the old build meets a structure that does not match — his example being a wallet table dropped for the cloud move, after which going back brings the system up empty. The proper answer is to re-cut the wanted version as a new one, raising the needed commits and dropping the rest. See [[wiki/decisions/2026-09-18-no-rollback-to-a-previous-build-and-the-team-rolls-forward-only.md]]. [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+**He ends the meeting as the bottleneck.** His capabilities — 148, 149, 150, 151, 163, 174, 175, 176, 152 and the location-block capability — carry no features, and [[wiki/people/irina-shishko.md|Irina]] closed the session on it: "**по [MVP] один мы… больше ничего не распланируем, пока Дима не сделает фичи**". He refused to invent dates in the meeting — "**я как сейчас с головы дату возьму?**" — and agreed to walk them with Irina afterwards. [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+**His two named blockers, given when Klimovich asked him to prioritise:** the reworked window designs, and the requirements split across two products and two cards — "**они визуально… сильно меняют логику значительно**". Both are Klimovich's to clear, and neither is. [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+## Open commitments (Sept 18 2026)
+
+- [ ] Dmitri Chudinov — create features under all of his capabilities, which are currently bare, then tell the others so planning can continue; **the rest of the MVP 1 plan is blocked behind this** — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+- [ ] Dmitri Chudinov — run the tests on capability 122 over the weekend and close it if they pass — due the weekend of **Sept 19–20 2026** — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+- [ ] Dmitri Chudinov — finish reworking his own team's share of the conflict-sweep findings; only part was done — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+- [ ] Dmitri Chudinov and [[wiki/people/irina-shishko.md|Irina Shishko]] — meet after the call and walk his capabilities and features to set real dates — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
@@ -377,3 +398,4 @@ The fourth MVP 1 morning call ([[wiki/meetings/2026-09-17-transactional-mvp1-ski
 - [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]

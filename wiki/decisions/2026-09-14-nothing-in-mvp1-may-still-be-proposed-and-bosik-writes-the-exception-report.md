@@ -2,10 +2,10 @@
 type: decision
 title: Nothing in MVP 1 may still sit in "Proposed" — Val fixes the Jira status chain (Accepted → To Do with features → In Progress with a linked feature branch) and asks Bosik for an automated exception report
 date: 2026-09-14
-aliases: [nothing in MVP1 can be Proposed, sell the capabilities to the developers, exception report, эксепшн репорт, feature branch linked, To Do must have features, capability linked to requirements, requirements must have acceptance criteria, Kovalchuk changed the workflow, every author cleans their own, shared requirements filter, requirement 1454 back to Draft]
-source-count: 4
+aliases: [nothing in MVP1 can be Proposed, sell the capabilities to the developers, exception report, эксепшн репорт, feature branch linked, To Do must have features, capability linked to requirements, requirements must have acceptance criteria, Kovalchuk changed the workflow, every author cleans their own, shared requirements filter, requirement 1454 back to Draft, daily capabilities report, around eighty items classified as blockers, report arrives every morning by email, To Do is the working floor]
+source-count: 6
 status: active
-open-commitments: 4
+open-commitments: 3
 open-questions: 1
 ---
 
@@ -56,15 +56,29 @@ Klimovich opened the [[wiki/meetings/2026-09-16-transactional-mvp1-open-question
 
 **Pavel's process proposal, not yet built:** a filter showing the live requirements from all four authors, so the team walks one shared list instead of one person's — "может нам сейчас сделать какой[-]то фильтр, который показывает актуальные [реквайрментс]… и иметь этот общий список у всех". [[wiki/people/andrey-bosik.md|Bosik]] agreed ("да я тоже так думаю"); the meeting used Irina's list for the day instead [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
 
+## Update, Sept 18 2026 — the exception report is built, running and mailing every morning, and it opened the meeting
+
+**Bosik's report exists and is in daily operation.** The [[wiki/meetings/2026-09-18-transactional-mvp1-capability-cleanup-and-the-monday-deadline.md|Sept-18 8:03 AM call]] opened on it, with Klimovich reading that morning's edition: "**пришёл новый репорт по поводу [капабилити]с[,] [реквайрментс,] их состояни[й]. У нас там по[-]прежнему… около 80 в состоянии, которое они считаются завершёнными. Классифицируют их как бло[к]еры. Это не очень хорошо, так не должно быть[.] Что мы с этим можем сделать в ближайшее время?**" [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+
+**Bosik confirmed the mechanism when Irina asked where the reports were:** "**на почту там каждое утро… приходит отчёт[,] да[,] по тем критериям, которые…**" — it arrives by email every morning, against the agreed criteria. Asked whether it covers everything, he scoped it: "**Нет, MVP один только**", and again "**100% [MVP] один**". Klimovich approved the scope — "**Надеюсь, что [MVP] один, только[;] мы ж пока про MVP 2 не говорим**" [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]].
+
+**The commitment is therefore discharged — with one gap worth flagging.** The Sept-14 distribution list was Val, Pavel Frolov and Klimovich. [[wiki/people/irina-shishko.md|Irina Shishko]] is not on it, and said so: "**Почему я его не видела?**" She drives the capability board in practice and is the person who would act on the report [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]].
+
+**The ~80 figure is recorded as the report's own output, and its sense is unclear.** The transcript says the 80 items sit "**в состоянии, которое они считаются завершёнными**" — in a state in which they count as *completed* — while the derived notes gloss the same sentence as "states that count as **incomplete**" [[raw/Meeting_Notes_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]. Opposite senses; the "blockers" classification fits the notes' reading better, but it is not what the source says. **Recorded as spoken and flagged unclear.** The whole capability-cleanup sweep that followed was Klimovich's answer to his own question — see [[wiki/decisions/2026-09-18-the-mvp1-capability-list-is-walked-item-by-item-and-every-capability-gets-an-owner.md]].
+
+**The working status floor was restated in practice.** Klimovich asked which status means a capability is thought through and ready to work — "**Какой нижний статус?**" — and Irina answered "**В прогрессе или в туду**". He then filtered for everything **below In Progress or To Do**, plus everything unassigned. Requirements were moved along the parallel chain: Irina, of a requirement stuck in Draft, "**эктив — это как раз из драфта в эктив**", with review and Publish after it [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]].
+
+*(**Still unmentioned:** whether [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]'s change to the capability workflow actually landed — the open question below — and Pavel's shared cross-author requirements filter. Neither was raised on Sept 17 or Sept 18.)*
+
 ## Open commitments
 
 - [ ] All four requirement authors — [[wiki/people/andrei-klimovich.md|Andrei Klimovich]], [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]], [[wiki/people/pavel.md|Pavel Frolov]] and [[wiki/people/irina-shishko.md|Irina Shishko]] — review and update the status of every capability and requirement they authored, as Klimovich has done for his own — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — build the shared filter showing the live requirements from all four authors, so the team walks one list — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
-- [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — build a routine that checks the Jira status rules and sends a short exception report — only what does not match — to Val, Pavel Frolov and Andrei Klimovich — due unspecified; he agreed and needs to work out how — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
-- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — make sure everything In Progress is scheduled, ahead of the next morning's meeting — due Sept 15 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — make sure everything In Progress is scheduled, ahead of the next morning's meeting — due Sept 15 2026; **partly advanced Sept 18** — he set schedules for his own features (165, FlexPort 9 and 10, 173; 160 was also named as his) during the planning half of that call — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 
 ## History
 
+- [x] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — build a routine that checks the Jira status rules and sends a short exception report — only what does not match — to Val, Pavel Frolov and Andrei Klimovich — due unspecified. **Discharged by Sept 18 2026:** the report is built and arrives by email every morning against the agreed criteria, scoped to MVP 1, and Klimovich reads it to open the daily call. **[[wiki/people/irina-shishko.md|Irina Shishko]] is not on the distribution and has not seen it** — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - [x] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — push every MVP 1 capability out of "Proposed" status — due immediately; Val: nothing in MVP 1 can still be Proposed today. **Discharged for his own items on Sept 16 2026** ([[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]); items authored by others were deliberately left to their authors — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 
 ## Open questions
@@ -80,3 +94,5 @@ Klimovich opened the [[wiki/meetings/2026-09-16-transactional-mvp1-open-question
 - [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
