@@ -1,12 +1,12 @@
 ---
 type: decision
-title: JVL supports multiple InComm card products, not a hard-coded pair — a collection of products per location on the payment hub, identified by the UPC in the barcode; the MVP 1 delivery of it was cut back to a single product on Sept 18
+title: JVL supports multiple InComm card products, not a hard-coded pair — a collection of products per location on the payment hub, identified by the UPC in the barcode; MVP 1 delivers ONE product (owner ruling 2026-09-20)
 date: 2026-09-17
 aliases: [multi-product, мультипродукты от инкома, collection of products, UPC is the product, product not available, SkillPay, Skill Pay, скилл пэй, скилпы, PrizePay, прайс пэй, PricePay, activation fee two dollars three dollars, payment hub product collection, location manager UPC check, add product, per-product limits and fees, second payment provider, capability 178, InComm card configuration capability, two products will not be in MVP1, 178 must be MVP1, single product fallback]
 source-count: 4
-status: active — but the MVP 1 SCOPE half is CONTESTED: on Sept 18 2026 Klimovich said "almost finally" that two products will not be built for MVP 1, against Val's written instruction that capability 178 must be in MVP 1. The payment-hub design itself stands. See the dated update below.
+status: active — the payment-hub multi-product design stands. Its MVP 1 SCOPE was contested on Sept 18 2026 and is now SETTLED by owner ruling 2026-09-20: two-product support is not in MVP 1.
 open-commitments: 5
-open-questions: 5
+open-questions: 6
 ---
 
 # InComm card products are a collection on the payment hub — and on Sept 18 the MVP 1 delivery of it was cut to one product
@@ -105,14 +105,16 @@ At the [[wiki/meetings/2026-09-18-transactional-mvp1-capability-cleanup-and-the-
 - **The naming question.** The incumbent $2 card is **not named at all** on Sept 18 — only "**скилпей**" is spoken. The "прайс пэй / PricePay"-versus-**PrizePay** identification recorded above therefore gains no new evidence in either direction and stays exactly as it was. **Not resolved.**
 - **The SkillPay test card, the InComm documentation request and the broker-verification email thread** — none is mentioned.
 
-## Open contradictions
+## How the 178 scope question was settled
 
-**Whether capability 178 — multi-product support — is in MVP 1 (Sept 18 2026).** Two positions stated in the same hour, neither withdrawn. Recorded, **not resolved**.
+**RESOLVED by owner ruling, 2026-09-20 — Klimovich's position is correct.** Asked directly, the owner ruled: **"Klimovich is correct."** Capability 178 / two-product support is therefore **NOT in MVP 1**; the owner's own Sept-18 chat instruction that "178 must be MVP 1" is **withdrawn by the same owner** and moved to History below. The multi-product payment-hub design itself is unaffected — it stands as the architecture, and only its MVP 1 *delivery* is cut back to a single product. *(An owner ruling is its own citation — §16. No source in `raw/` records it.)*
+
+**Residual, NOT ruled on:** Klimovich's stated fallback was to support **SkillPay** alone ("Мы можем сделать поддержку скилпы"). The owner endorsed his position but did not separately name which single product MVP 1 ships, so that is left as an open question rather than inferred.
+
+### History — the two positions before the ruling (Sept 18 2026, same hour, neither withdrawn at the time)
 
 - **[[wiki/people/val-levitan.md|Val Levitan]], in the meeting chat:** "**178 — [маст би MVP] один**" — it must be in MVP 1 [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]].
 - **[[wiki/people/andrei-klimovich.md|Andrei Klimovich]], aloud, minutes later:** "**2 продукта мы к [MVP] один не будем делать[.] Я могу вам почти уже финально это заявить**" — near-final that two products are not built for MVP 1 [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]].
-
-**Why this is a contradiction rather than an evolution.** They are the same day, the same capability, and one is the owner's written instruction while the other is the product owner's near-final engineering position; Klimovich answered Val's message with a *partial* compliance (one product, not two) and nobody closed the gap. The derived notes flag it in the same terms — "Val's chat instruction that 178 must be in MVP1 sits against Klimovich's near-final position… Not reconciled on this call" [[raw/Meeting_Notes_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]. **It is the single unresolved scope item going into the Monday Sept 21 gate.**
 
 ## Open commitments
 

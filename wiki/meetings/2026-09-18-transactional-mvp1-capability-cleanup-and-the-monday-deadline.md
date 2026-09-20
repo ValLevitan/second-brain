@@ -22,7 +22,7 @@ open-questions: 0
 
 Substance lives on:
 
-- [[wiki/decisions/2026-09-18-the-mvp1-capability-list-is-walked-item-by-item-and-every-capability-gets-an-owner.md]] — the sweep itself, the capability-144 clone, and the contested capability 178
+- [[wiki/decisions/2026-09-18-the-mvp1-capability-list-is-walked-item-by-item-and-every-capability-gets-an-owner.md]] — the sweep itself, the capability-144 clone, and capability 178 — contested on the call, **settled by owner ruling 2026-09-20 in Klimovich's favour**
 - [[wiki/decisions/2026-09-18-no-rollback-to-a-previous-build-and-the-team-rolls-forward-only.md]] — the first thing dropped, and the policy that replaced it
 - [[wiki/decisions/2026-09-18-mvp1-supports-dual-sas-only-and-locations-are-chosen-to-match.md]]
 - [[wiki/decisions/2026-09-18-nothing-is-closed-until-the-conflict-findings-are-worked-back-in.md]]
