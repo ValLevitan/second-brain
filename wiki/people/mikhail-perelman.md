@@ -4,7 +4,8 @@ title: Mikhail Perelman
 date: 2026-07-13
 aliases: [Mikhail Perelman, Misha, Миша, Mikhail, Michael]
 disambiguation: "Procurement Manager (parts/vendors/shipments; the retrofit-lead "Misha"). Misha/Michael cluster (2, owner-ruled): [[wiki/people/michael-gottlieb.md|Michael Gottlieb]]=Senior VP Game Design / [[wiki/people/mikhail-perelman.md|Mikhail Perelman]]=Procurement Manager (the "retrofit Misha"). Resolve by context; queue if none."
-source-count: 8
+source-count: 10
+open-commitments: 1
 ---
 
 # Mikhail Perelman
@@ -42,8 +43,24 @@ Two procurement threads on the [[wiki/meetings/2026-09-04-flex-slim-first-ten-an
 - **The Flex-Slim brackets and harnesses go through him to China.** [[wiki/people/genadi-peari.md|Genadi]]: "что Миша может сделать… В Китае попросить за неделю сделать и прислать самолетом. Скажем, 10 [се]тов… ну в лучшем случае 2 недели." Val took China and told Genadi to ask for a rush through him: "Я бы хотел бы, чтобы вы попросили их… [через] Миша… Они всегда идут навстречу, им только нужно сказать." Ruling: [[wiki/decisions/2026-09-04-brackets-and-harnesses-from-china-and-a-metal-order-for-one-hundred.md]].
 - **He is also the one to start ordering the harnesses for 100 Flex-Ports.** Genadi had spent time the previous day pushing him and [[wiki/people/elizabeth.md|Elizabeth Palomino]] to move that order — "чтобы она пошла, посчитала, чтобы он харнес[ы] начал заказывать" — and expected "Миша должен… маленькие какието заслать [orders]" for the Flex-Port SAS harnesses too.
 
+## Sept 14 2026 — Val names him as the man who controls the RK3576 supply
+
+At the [[wiki/meetings/2026-09-14-hardware-priorities-tito-case-and-street-cabinet.md|Sept-14 12:04 PM hardware call]] Val wanted the new compute boards moved: "**Значит, нам нужно срочно нажать на поставку RK 35 76 Минск. И это кто это контролирует? Это миша контролирует. Миша перельман**" — he asks who controls it and answers himself, **by full name**, which is unusual in this corpus and removes the normal §4 ambiguity [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]].
+
+[[wiki/people/genadi-peari.md|Genadi]] did not know the order's status — "**я не знаю статус… Этот инвойс… вышел[?] я не знаю**" — then read the figures off his screen: supplier rendered "**тач, интеллигент**" (Touch Intelligent, name uncertain), about **$300 plus shipment**, "**3 секси чтото**" (three sixty something) all in, being **2 samples at $150** and about **$65 freight to Minsk**. Full record on [[wiki/decisions/2026-09-14-the-street-cabinet-board-is-the-rk3576-not-the-rk3568.md]] [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]].
+
+**A second shipment on the same call, this one to Belarus.** Asked where the arrived validator/recycler had landed, Genadi's reply is mostly garbled but carries "**миша организовывает [ship]м[е]нт в Белоруссию**" — Misha organising the shipment to Belarus. Same procurement/shipment context, resolved to Perelman the same way (§4) [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]].
+
+**§15.8:** clear — freight and component cost only.
+
+## Open commitments (Sept 14 2026)
+
+- [ ] Mikhail Perelman — push the RK3576 delivery to Minsk (2 samples, ~$300 plus ~$65 freight) — due urgently. *(Val names him as the person who controls it; the transcript does not record the instruction being given to him or accepted, and the derived notes flag the same gap.)* — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]] [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+- [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [[raw/Meeting_Transcript_bc_material_requirements_mcp-May-11-2026.md]]
 - [[raw/Meeting_Notes_bc_material_requirements_mcp-May-11-2026.md]]
 - [[raw/retrofit_january_7_2025.md]]

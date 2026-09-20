@@ -3,7 +3,7 @@ type: person
 title: Elizabeth
 date: 2025-04-28
 aliases: [Elizabeth, Elizabeth Palomino, Элизабет]
-source-count: 15
+source-count: 17
 open-commitments: 3
 disambiguation: "JVL engineering technician (full engineer by degree) handling Georgia service/parts; ex-Colombian-operation technician; Spanish-speaking. Surname Palomino (per the Jun-11-2026 passport/dsKey source). Distinct from Eliana, the Colombian EDS principal (wiki/people/eliana.md)."
 ---
@@ -64,8 +64,19 @@ Two separate mentions on the same morning.
 - **Flex-Port flashing.** Discussing how the October-1 rehearsal gets software onto the devices, [[wiki/people/pavel.md|Pavel Frolov]] said Flex-Port software will be released as functionality is added and "[Э]лизабет вроде бы умеет уже прошивать, если что" — she can already flash them if needed [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]].
 - **Enabling games in Georgia.** At the [[wiki/meetings/2026-09-11-nova-game-change-regulatory-procedure.md|9:30 regulatory call]] [[wiki/people/juan-martinez.md|Juan Martinez]] named her and [[wiki/people/felipe-miranda.md|Felipe]] as the pair who decide which of the submitted games are switched on: "**we always submitted six games, but Elizabeth or Felipe could have chosen to only enable four of the six**" [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]].
 
+## Sept 14 2026 — ten Flex IQ covers in her hands, and the recycler lands with her
+
+Two mentions at the [[wiki/meetings/2026-09-14-hardware-priorities-tito-case-and-street-cabinet.md|Sept-14 12:04 PM hardware call]] (Russian; she was not on it) [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]:
+
+- **The Flex IQ covers.** [[wiki/people/genadi-peari.md|Genadi]], asked where the rear-screen-removal change stood: "**Элизабет получила 10 крышечек. И мы можем 10 штук сделать [manually]… борты уже изменили… поэтому это можно сделать [manually]**" — she has received 10 covers, and ten units can be done by hand because the boards are already changed. The permanent engineering change is **not** done: a cover still has to be ordered that week.
+- **The arrived validator/recycler.** Val asked whether it had landed in Toronto or Georgia; **the transcript does not answer him** — Genadi's reply is mostly garbled and carries only her name and "**миша организовывает [ship]м[е]нт в Белоруссию**" ([[wiki/people/mikhail-perelman.md|Mikhail Perelman]] organising the shipment to Belarus). The derived notes read the passage as the validator having arrived with her. **Recorded as the notes' reading, not asserted**; no location is established. [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+
+**§15.8:** clear — parts and shipment content only; nothing about her terms or performance is taken from this source.
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+- [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [[raw/Meeting_Notes_Manufacturing_Production_Planning-July-27-2026.md]]
 - [[raw/Meeting_Transcript_Manufacturing_Production_Planning-July-27-2026.md]]
 - [[raw/Meeting_Notes_Passport_Scan_dsKey_Malfunction-June-11-2026.md]]

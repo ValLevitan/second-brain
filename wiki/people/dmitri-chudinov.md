@@ -4,7 +4,7 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 49
+source-count: 51
 open-commitments: 15
 open-questions: 0
 ---
@@ -243,8 +243,20 @@ At the [[wiki/meetings/2026-09-14-transactional-mvp1-use-cases-and-ewallet-ticke
 
 - [ ] Dmitri Chudinov — send Klimovich the library of InComm errors with the interpretation texts currently in use, for a wording review — due "when he has time"; he agreed with "без проблем" — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 
+## Sept 14 2026 (12:04 PM, in absentia) — given the Flex IQ ↔ Flex-Port protocol, and licence to improve it
+
+He was not on the [[wiki/meetings/2026-09-14-hardware-priorities-tito-case-and-street-cabinet.md|12:04 PM hardware call]], but [[wiki/people/pavel.md|Pavel Frolov]] put him first in the chain for remote firmware update: "**сначала её сейчас дима чудинов проработает со своей стороны. Может быть, как[-]нибудь там улучшить протокол? Общение между флекса IQ и портами**" — Chudinov works it from his side first, and may improve the Flex IQ ↔ Flex-Port communication protocol. [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] may be needed on the same task. See [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]].
+
+*(The derived notes render his name in the Belarusian spelling "**Dzmitry Chudzinau**", already an alias on this page; the transcript says "**дима чудинов**".)* [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+
+## Open commitments (Sept 14 2026, 12:04 PM call)
+
+- [ ] Dmitri Chudinov — work the Flex IQ ↔ Flex-Port firmware-distribution protocol from his side, and improve it if he can — due unspecified — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+- [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]

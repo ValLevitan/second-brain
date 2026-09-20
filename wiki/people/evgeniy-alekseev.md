@@ -4,7 +4,7 @@ title: Evgeniy Alekseev
 date: 2025-03-11
 aliases: [Evgeniy Alekseev, Evgeny Alekseev, Zhenya Alekseev, Женя Алексеев, Alekseev]
 disambiguation: "Owner of the main embedded code branch, this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
-source-count: 35
+source-count: 37
 open-commitments: 8
 ---
 
@@ -165,8 +165,18 @@ Half of the [[wiki/meetings/2026-09-14-code-standards-main-branch-rule-and-aleks
 - **His availability window is stated for the first time:** "**в 07:00 он может взять митинг[;] в 8 он уже бежит на работу к себе**" — he can take a meeting at 07:00 and by 08:00 leaves for his own job [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]. That is the explicit version of the weekend-only pattern already recorded here for Sept 7 and Sept 9.
 - **The resourcing contingency, recorded as a resourcing fact:** if Bosik judges after the meeting that the way of working will not be adopted, JVL looks for another developer; Val's stated preference is to resolve the situation rather than break it. **The associated judgement about him is excluded** — [[wiki/decisions/2026-09-14-alekseev-is-walked-through-the-standards-by-bosik-not-ordered.md]] [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
 
+## Sept 14 2026 (12:04 PM, in absentia) — possibly needed on the firmware-distribution protocol
+
+Separately from the 7:37 AM call above, [[wiki/people/pavel.md|Pavel Frolov]] named him at the [[wiki/meetings/2026-09-14-hardware-priorities-tito-case-and-street-cabinet.md|12:04 PM hardware call]] as possibly needed on the Flex IQ ↔ Flex-Port firmware-distribution work: "**возможно, как раз по этой задаче нам понадобится Алексеев, ну по[-]моему там на него тоже задача висит**" — and he thinks a task is already assigned. **Hedged on both counts and unconfirmed anywhere in the source.** The lead on it is [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]. See [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]].
+
+*(§4: "Алексеев" resolves to this page by context — embedded / hardware-adjacent work on [[wiki/people/genadi-peari.md|Genadi Peari]]'s projects, which is exactly what a Flex IQ-to-Flex-Port firmware protocol is.)*
+
+**§15.8:** clear — task assignment only; no compensation or performance judgement is taken from this source.
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+- [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [[raw/Meeting_Notes_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
 - [[raw/Meeting_Transcript_recycler_architecture_planning-April-28-2026.md]]

@@ -3,7 +3,7 @@ type: topic
 title: Georgia Class A machines
 date: 2026-08-31
 aliases: [Class A, Class A machines, Class A on Nova, Class A V43, party time feature, awards cannot be bet, for now yes, playing within the rules, no book of Class A regulations, if you had a pulse you get a license, not hooked up to a central accounting system, hang our hat on one supplier, slinging them out and seeing what sticks, it's predominantly the meters, Class A licence easier than B, Georgia Class A, Class A licence, amusement machines Georgia, two-bucket win system, $50 per spin cap, $50 per hand, Primero Class A, play bucket, redemption bucket, Hope Scholarship, class eight]
-source-count: 17
+source-count: 18
 open-commitments: 0
 open-questions: 6
 ---
@@ -240,6 +240,16 @@ The day after the Lottery told Val there is no Class A rulebook and no certifica
 
 **The absence worth naming.** In sixty-eight minutes of Class A planning, **nobody mentions the regulator, the missing rulebook, certification or the January legislature.** The room is building a product for a category the Georgia Lottery had described the previous day as having no regulations to read and no certification to obtain (above, Sept 10). That is recorded here as an absence in the source — not as a decision, and not as criticism. The tension with Val's own Sept-10 position is on [[wiki/decisions/2026-09-11-georgia-class-a-v43-is-built-on-nova-not-rage.md]] under `## Open contradictions`. [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
 
+## Sept 14 2026 — the video errand gets a place and a date
+
+Three days later the "put Michael in front of a machine" instruction turned into a scheduled site visit. On the [[wiki/meetings/2026-09-14-competitor-field-reconnaissance-and-class-a-visits.md|Sept-14 12:51 PM call]] [[wiki/people/val-levitan.md|Val]] raised it as a deliberately **separate** errand from the competitor-machine tour that filled the rest of the call: "Also, I would recommend. **I need him to see the Class A machines** as a separate matter or in addition." [[raw/Meeting_Transcript_Competitor_Field_Reconnaissance_and_Class_A_Visits-September-14-2026.md]]
+
+- **The place is one JVL already knows**, and it is not an operator's warehouse or a route stop: "**that's the Mexican restaurant**" — "the location that we already know." No town, street or business name is given in either source, and none is asserted. [[raw/Meeting_Transcript_Competitor_Field_Reconnaissance_and_Class_A_Visits-September-14-2026.md]]
+- **Moved forward a day because the machines may not last.** Val started on Wednesday and corrected himself inside the same sentence: "I recommend for you to go there on Wednesday, because **by any chance those machines are not there anymore**, we would have to find a new location for Wednesday. **Sorry, I meant to say you should go there on Tuesday, tomorrow.**" Going Tuesday keeps Wednesday free to find a replacement site. That is the plainest statement in the corpus of how **impermanent** Class A placements are in the field — the machines may simply be gone from a known location inside a few days. [[raw/Meeting_Transcript_Competitor_Field_Reconnaissance_and_Class_A_Visits-September-14-2026.md]]
+- **A fallback was ordered in parallel**, through [[wiki/people/narasimha-rao-namburi.md|Rao]], and the reason is about comprehension rather than footage: "**Because the more he sees, even if the machines are not open, the more he understands.**" ("Not open" is not explained in the source; read in context it means machines that cannot be opened up for inspection — an **inference**.) [[raw/Meeting_Transcript_Competitor_Field_Reconnaissance_and_Class_A_Visits-September-14-2026.md]]
+
+**No source in the corpus records the visit happening**, so what JVL learned about the party-time feature, the streak or the three-spins mechanic — the gaps Efim named on Sept 11 — is still unrecorded. [[raw/Meeting_Transcript_Competitor_Field_Reconnaissance_and_Class_A_Visits-September-14-2026.md]]
+
 **§15.8:** clear — product and market content only.
 
 ## Open questions
@@ -275,3 +285,4 @@ The day after the Lottery told Val there is no Class A rulebook and no certifica
 - [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
 - [[raw/Meeting_Notes_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+- [[raw/Meeting_Transcript_Competitor_Field_Reconnaissance_and_Class_A_Visits-September-14-2026.md]]

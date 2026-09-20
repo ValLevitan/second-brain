@@ -3,8 +3,8 @@ type: person
 title: Narasimha Rao Namburi (Georgia distributor and installer)
 date: 2026-09-09
 aliases: [Rao, Narasimha Rao, Narasimha Rao Namburi, Rau, Rio, Raul, Raúl, Rallo, Lao, Mr Singh, techs at PLAY LLC]
-source-count: 3
-open-commitments: 5
+source-count: 4
+open-commitments: 6
 open-questions: 3
 disambiguation: "Georgia transactional-equipment distributor/installer who sells and installs Access — not a JVL employee. Transcripts render his name Rao, Raul, Raúl, Rallo and Lao within a single file, and the Sept-8 Dixie transcript foreshadowed the meeting as 'Rio, Rau'."
 ---
@@ -56,8 +56,15 @@ His two conditions, in his own words: "I want to do this **installation entity s
 
 The deal itself is on [[wiki/decisions/2026-09-09-rao-takes-the-bundle-with-jvl-exclusive-in-the-location.md]].
 
+## Sept 14 2026 — kept as the standing fallback for field access
+
+Five days after the exclusivity meeting, Rao appears in a different role: the backup when a *different* operator's locations are in doubt. Arranging [[wiki/people/michael-gottlieb.md|Michael Gottlieb]]'s Georgia field day on the [[wiki/meetings/2026-09-14-competitor-field-reconnaissance-and-class-a-visits.md|Sept-14 12:51 PM call]], the unnamed JVL colleague said that if Diamond's head tech "**doesn't confirm, I'll have to reach out to Rao and get something planned out**" — and [[wiki/people/val-levitan.md|Val]] told him to do it **regardless**: "I think you should **reach out to Rao just in case. Put something in place for Wednesday. Because the more he sees, even if the machines are not open, the more he understands.**" [[raw/Meeting_Transcript_Competitor_Field_Reconnaissance_and_Class_A_Visits-September-14-2026.md]]
+
+That is the Sept-9 commitment below — "take Val round the locations one by one… **I'm booking you next week**" — being drawn on in the week it was due, though for Michael's benefit rather than Val's, and the source does not record Rao being reached. [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+
 ## Open commitments
 
+- [ ] The unidentified JVL colleague on the Sept-14 12:51 call — contact Rao and put backup Georgia locations in place for Wednesday Sept 16 2026 — due Sept 14 2026 — [[raw/Meeting_Transcript_Competitor_Field_Reconnaissance_and_Class_A_Visits-September-14-2026.md]]
 - [ ] Rao — select five locations for October, with the first installation in the first week of October: Val, twice, "Let's plan five locations for October. Only five locations" and "Please **select five locations for October**, please" — due week of Sept 14 2026 — [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
 - [ ] Rao — send the **settings** of the competitor machines and photographs of their bet buttons, not the revenue report: "I will send the settings" — due Sept 9 2026 ("I will send today") — [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
 - [ ] Rao — take Val round the locations one by one, starting with the one where JVL ranks behind Novomatic: "Let's start zeroing in on locations"; "I'm booking you next week" — due week of Sept 14 2026 — [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
@@ -77,3 +84,4 @@ The deal itself is on [[wiki/decisions/2026-09-09-rao-takes-the-bundle-with-jvl-
 - [[raw/Meeting_Notes_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
 - [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
 - [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+- [[raw/Meeting_Transcript_Competitor_Field_Reconnaissance_and_Class_A_Visits-September-14-2026.md]]

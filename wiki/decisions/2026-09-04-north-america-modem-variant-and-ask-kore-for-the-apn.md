@@ -3,9 +3,9 @@ type: decision
 title: The Georgia LTE modem failure is treated as a source-and-firmware mismatch — buy the North-America variant and, in parallel, ask KORE for the recommended modems and the APN
 date: 2026-09-04
 aliases: [7455 modem, modem firmware mismatch, North America modem variant, KORE APN, ask KORE which modems, AliExpress modem Minsk, $16 Amazon modem, two antennas on the module, antenna in an opening]
-source-count: 2
+source-count: 4
 status: active
-open-commitments: 5
+open-commitments: 7
 open-questions: 2
 ---
 
@@ -42,6 +42,27 @@ The SIM side compounds it. Pavel: "у них свои настройки на с
 
 **On the network behind the KORE SIM:** asked which SIM cards go in, Genadi answered with a phrase the transcript does not render readably ("Ну коры то живорайзен ну") and then "Тот же самый да." **No carrier is asserted here** — the underlying network is not legible in the source [[raw/Meeting_Transcript_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]].
 
+## Sept 14 2026 — the gate Val put on it, two form factors to order, and a disagreement that did not close
+
+Ten days later the same three people came back to it at the [[wiki/meetings/2026-09-14-hardware-priorities-tito-case-and-street-cabinet.md|Sept-14 12:04 PM hardware call]] (Russian). [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+
+**Val turned it into a deployment gate, twice.** "**[Cell] мод[е]м мы не можем поставить это [в поле], притом это должно работать идеально**" — we cannot put this out, and it has to work **perfectly**. And, after the technical exchange: "**я просто говорю, что если он не заработает, мы не можем поставить. Даже ни одного [unit] там**" — if it does not work, not even one goes out. *(The transcript garbles two words in these lines — "**на волоке**" and "**ни одного июня**" ("June"); the derived notes read them as "in the field" and "a single unit". Recorded as **readings**, and the gate itself is unambiguous in either.)* [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]] [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+
+**Pavel wants to order from KORE now, in two form factors.** "**нам надо обязательно заказывать [у KORE] сейчас модемы, причём нам надо 2 разных образца модемов… [о]дни, которые [M.2] слот, а 2, которые [mini-PCIe]**" — two different samples, one M.2 and one mini-PCIe. This is the "**А мы можем заказать [modems] from [KORE]?**" route Val opened on Sept 4 being taken up as an order rather than a question. *(The transcript renders the vendor as "**укора**" — read as "[у] KORE", an **inference** supported by the whole Sept-4 KORE thread — and the second form factor as "**минипис**", read as mini-PCIe.)* [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+
+**Which product each form factor is for is only half legible.** "**[о]дни получаются идут для [vivan sousend], а 2 идут для… Флекс ай[ ]кю**" — one lot for a product rendered "**vivan sousend**", **which is not interpretable and is not identified here**; the other for **Flex IQ**. The derived notes skip the unreadable product and say only "one type for each product line". [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]] [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+
+**The diagnosis has moved — and the two engineers still do not agree.** Genadi now says the modem itself is fine and the SIM is the problem: "**[Ф]лекс[ ]айкью уже мод[ем] заработал сразу без всяких проблем — это симка какая[-]то [incompatibility]**." Pavel would not accept it: "**Я бы так не говорил однозначно, Гена — это надо с этой симкой пробовать коннектиться, может быть всё что угодно**" — it could be anything, and it has to be tried *with that SIM*. What they do agree on is the observation underneath: Genadi — "**у тебя же с другой симкой он сразу заработал**"; Pavel — "**Да, с другой симкой он сразу заработал**." A **different SIM worked immediately** [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]].
+
+This is the **same shape as the Sept-4 exchange above** — Genadi naming a cause, Pavel refusing the framing, nothing reconciled — and it is again left unresolved in the source. The Sept-4 page's open question about the APN is untouched: **nothing in the Sept-14 source records KORE having answered.**
+
+**The parallel test.** "**[п]араллельно с этим будем сейчас с Андреем пробовать… ставить эти же симки [в] Флекс [IQ] — смотреть, как оно работает**" — Pavel and an "Андрей" will put the same SIMs into the Flex units and watch. *(**§4 unresolved:** the corpus holds three distinct Andreis — [[wiki/people/andrey-bosik.md|Andrey Bosik]] (DevOps), [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] (online games / product) and Andrew Khandov (C# Miranda) — and **none of them is a hardware or SIM tester**. Left unresolved and queued rather than force-matched.)* [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+
+## Open commitments (Sept 14 2026)
+
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — order modems from KORE now: two samples, M.2 and mini-PCIe — due as soon as possible; nothing deploys until the modem works — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] and "Андрей" (unresolved, §4) — put the same SIM cards into the Flex units and establish whether the fault is the SIM or the modem — due unspecified — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+
 ## Open commitments
 
 - [ ] [[wiki/people/val-levitan.md|Val Levitan]] — email KORE: which modems do they recommend, and will they supply the modem configuration parameters and the APN — due right after this call — [[raw/Meeting_Notes_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]] [[raw/Meeting_Transcript_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]]
@@ -62,3 +83,5 @@ Val's own undertaking from this call — to check his message history for when h
 ## Sources
 - [[raw/Meeting_Notes_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]]
 - [[raw/Meeting_Transcript_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]]
+- [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+- [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]

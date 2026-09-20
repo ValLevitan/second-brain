@@ -4,8 +4,8 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 144
-open-commitments: 46
+source-count: 146
+open-commitments: 52
 open-questions: 0
 ---
 
@@ -552,8 +552,33 @@ At the [[wiki/meetings/2026-09-14-transactional-mvp1-use-cases-and-ewallet-ticke
 - [ ] Pavel Frolov — give Klimovich the current Flex-Port firmware so he can install it, connect over SAS and walk the new workflow himself — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - [ ] Pavel Frolov — make sure everything In Progress is scheduled, ahead of the next morning's UI/UX meeting — due Sept 15 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 
+## Sept 14 2026 (12:04 PM) — his fourth call of the day, and the one where he refuses a diagnosis and then supplies the unsolvable case
+
+At the [[wiki/meetings/2026-09-14-hardware-priorities-tito-case-and-street-cabinet.md|12:04 PM hardware call]] (Russian; with Val and [[wiki/people/genadi-peari.md|Genadi Peari]]) he does three distinct things. [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+
+- **He refuses Genadi's modem diagnosis, in the same words as ten days earlier.** Genadi said the modem is fine and the SIM is incompatible; Pavel: "**Я бы так не говорил однозначно, Гена — это надо с этой симкой пробовать коннектиться, может быть всё что угодно**." He then proposed the test that would settle it — putting the same SIMs into the Flex units, with an "Андрей" (§4 unresolved) — and wants to **order modems from KORE now**, in two form factors, M.2 and mini-PCIe. See [[wiki/decisions/2026-09-04-north-america-modem-variant-and-ask-kore-for-the-apn.md]] (Sept-14 update).
+- **He sets the firmware-update order himself**, after Val demands it be in MVP 1: priority one is Flex IQ and FlexPay updating themselves, priority two is those units distributing and flashing Flex-Port firmware, with [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] on the IQ↔port protocol first and [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] possibly needed. See [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]]. This is the same gap he had named himself at 8:01 that morning ("пока что мы не умеем обновлять Флекс[-]порт") now turned into a plan.
+- **He names the loss case nobody can close.** Pressed by Val on what happens when printing breaks part-way, he described the boundary precisely — up to a point the money can come back, "**но если уже баркот напечатал[ся] — деньги уже с машины снимутся**" — and then volunteered the case that defeats it: a deliberate power cut once the barcode has begun leaves a redeemable ticket and the money cannot be returned. For the TITO-as-wallet flow he made it worse: a working barcode exists "**вот на самом краю. Даже если чуть[-]чуть напечаталась — то уже всё**." Recorded on [[wiki/decisions/2026-09-14-the-ewallet-is-created-before-its-ticket-prints.md]].
+
+**His one piece of good news all call**, and he offered it unprompted: the recycler's documentation ships an **ARM library** — "**сэкономит, я думаю, неделю разработки точно**" — about a week of development saved [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]].
+
+**And the honest state of the new board**, matching the honesty he showed on the NOVA build that morning: on the RK3576 "**мы вопервых должны запустить хотя бы одну игру… [н]а текущих версиях мы ни разу не доходили до этого**" — they have never once got a game running on the current versions — with the 3576 SDK still to be reworked and the integration repository still to be built. See [[wiki/decisions/2026-09-14-the-street-cabinet-board-is-the-rk3576-not-the-rk3568.md]] [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]].
+
+**§15.8:** clear — product, component and task content only.
+
+## Open commitments (Sept 14 2026, 12:04 PM call)
+
+- [ ] Pavel Frolov — order modems from KORE: two samples, M.2 and mini-PCIe — due as soon as possible — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+- [ ] Pavel Frolov (with "Андрей", §4 unresolved) — test the same SIM cards in the Flex units to establish whether the fault is the SIM or the modem — due unspecified — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+- [ ] Pavel Frolov — verify that the card dispenser's low-level sensor actually reports — due unspecified — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+- [ ] Pavel Frolov — on arrival of the RK3576, get at least one game running and report memory use — due on arrival — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+- [ ] Pavel Frolov — rework the SDK for the RK3576 board and build the integration repository — due unspecified — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+- [ ] Pavel Frolov — deliver firmware update in MVP 1 to a production standard, with pings, verification and a timer — due with MVP 1 — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+- [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - [[raw/Meeting_Notes_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]

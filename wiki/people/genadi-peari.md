@@ -3,8 +3,8 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий]
-source-count: 82
-open-commitments: 14
+source-count: 84
+open-commitments: 20
 ---
 
 # Genadi Peari
@@ -336,8 +336,35 @@ At the [[wiki/meetings/2026-09-11-transactional-mvp1-scope-and-priorities.md|Sep
 
 - [ ] Genadi Peari — control the in-house Flex IQ rehearsal build in the Georgia office: new software, TITO printer connected, QR scanner moved — due before October 1 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]] [[raw/Meeting_Notes_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 
+## Sept 14 2026 (12:04 PM) — he loses the work-order argument, wins the enclosure, and reads the board invoice off the screen
+
+At the [[wiki/meetings/2026-09-14-hardware-priorities-tito-case-and-street-cabinet.md|Sept-14 12:04 PM hardware call]] (Russian; with Val and [[wiki/people/pavel.md|Pavel Frolov]]) Genadi is the one being sequenced, and he pushes back in three places. [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+
+- **The one he lost.** He asked to release a **standalone TITO printer and standalone card dispenser** as peripherals first; Val refused — the cabinet comes first — and Genadi took it without argument: "**А я думал надо быстро и пропустить окей?**" But he immediately converted the loss into the thing he actually needed: "**нам надо рядом с [IQ] иметь тито принтер, чтобы работал**" and "**хотя бы в[а]ринг надо заказать**", which is how the printer *enclosure* got pulled in front of the cabinet instead. See [[wiki/decisions/2026-09-14-tito-printer-cases-come-before-the-street-cabinet.md]].
+- **The one he lost on materials.** Told to hand the box to "Sasha" as a plastic part, he objected that they had agreed not to do plastic and that metal is trivial — "**если просто согнуть из металла — это очень быстро, это один день… нечего отдавать**." Val overruled him on product grounds ("**Вы не можете поставить предмет из металла на стол… Это не модерн[ый] подход**"), and Genadi conceded on his own terms: the unknowns get resolved first, then Sasha can have it.
+- **The one he won.** The enclosure spec is entirely his — external desktop power supply, **RS-232 in from outside** instead of AC inside the box, **connectors on a back panel** ("**индустриальная, это как нормальная**"), and no security because "**это всего лишь принтер[]**". Val's only addition was to size the back for **400 tickets** rather than 200.
+
+**He gave the date and Val held him to it.** IQ, then Slim, then IQ again, then the printer, all that week; the cabinet starts **September 23** — "**23 можете приступить к кабинету?**" / "**Думаю да**" [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]].
+
+**The rest of his list on this call:** the Flex IQ covers (Elizabeth has 10; boards already changed so ten can be done by hand; the screens cannot simply be removed, so a cover has to be ordered and a permanent change issued — **not done yet**, and he said so plainly: "**Нет**"); the **FlexPay Slim** full BOM and drawing set released that day so a ~50-unit request could go the next; **one recycler only**, in the **option-2** variant that keeps the card dispenser, with the dispenser fit unchecked — "**честно говоря, я не проверял**"; the **RK3576** as the target board; and the street cabinet, where he already has ideas written down for a cheaper one-piece body and simpler electronics. Detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 14, 12:04) and [[wiki/topics/low-cost-street-machine.md]] (Sept 14). [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+
+**He also carries the modem diagnosis forward, and Pavel still will not take it.** Genadi: on Flex IQ "**мод[ем] заработал сразу без всяких проблем — это симка какая[-]то [incompatibility]**"; Pavel: "**Я бы так не говорил однозначно, Гена.**" Same shape as their Sept-4 exchange. See [[wiki/decisions/2026-09-04-north-america-modem-variant-and-ask-kore-for-the-apn.md]] (Sept-14 update). [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+
+**§15.8:** clear — hardware, sequencing and component-cost content only.
+
+## Open commitments (Sept 14 2026)
+
+- [ ] Genadi Peari — order the Flex IQ cover and issue the permanent change for the rear-screen removal — due week of Sept 14 2026 — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+- [ ] Genadi Peari — release the full FlexPay Slim bill of materials and drawing set, new card-dispenser harnesses included — due Sept 14 2026 — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+- [ ] Genadi Peari — check whether the card dispenser fits alongside the recycler, and order the option-2 unit — due unspecified — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+- [ ] Genadi Peari — design the standalone TITO printer enclosure (back-panel connectors, external desktop power supply, RS-232 from outside, 400 tickets, no security) — due before Sept 23 2026 — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+- [ ] Genadi Peari — resolve the enclosure unknowns, then hand the plastic box design to "Sasha" (§4 unresolved) — due unspecified — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+- [ ] Genadi Peari — finish IQ, Slim, IQ again and the printer this week, then start the street cabinet — due Sept 23 2026 — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+- [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [[raw/Meeting_Notes_Genadi_General_Alignment-May-22-2026.md]]
 - [[raw/Meeting_Transcript_genadi_schedule_review_alignment-April-20-2026.md]]
 - [[raw/Meeting_Notes_genadi_schedule_review_alignment-April-20-2026.md]]

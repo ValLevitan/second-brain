@@ -2,8 +2,8 @@
 type: topic
 title: Low-cost street machine (sub-$2,000 street cabinet program)
 date: 2026-06-09
-aliases: [street machine, street cabinet, low-cost street machine, low-cost street cabinet, street slot machine, sub-$2000 street machine, RK3588 street machine, stripped street cabinet]
-source-count: 8
+aliases: [street machine, street cabinet, low-cost street machine, low-cost street cabinet, street slot machine, sub-$2000 street machine, RK3588 street machine, stripped street cabinet, Flex S, флекс эс, стрит машина, RK3576 street machine, wooden monolithic body]
+source-count: 10
 ---
 
 # Low-cost street machine (sub-$2,000 street cabinet program)
@@ -96,6 +96,28 @@ On the [[wiki/meetings/2026-08-14-nova-capability-wishlist.md|Aug-14 NOVA wishli
 - **No wedge machines / LCD-screen wedges** — a waste of money and space in street rows of 4–7 machines (no room for pie/circle formats). [[raw/Meeting_Transcript_NOVA_Capability_Wishlist-August-14-2026-Part_2.md]]
 - **Parked or rejected ideas.** 3D no-glasses toppers — parked (not needed for street; 3D historically makes people sick). Promo credits in street locations — parked (needs player tracking, raises jurisdictional issues; "not all business is good business" — the Treasure Island $200-free-play and Hard Rock free-bus examples show free play draws non-customers who crowd out regulars). An at-home machine as a dumb terminal to a legal offshore server for real money — parked (huge project, needs state-by-state approval and player tracking, plus social/psychological risk). Camera / player identification — interesting but parked over regulatory/privacy concerns; the anonymous alternative is posting a screenshot of the machine's own jackpot-lockup screen (no human in frame). Social-media win sharing — rejected (players are private about money). [[raw/Meeting_Transcript_NOVA_Capability_Wishlist-August-14-2026-Part_2.md]] [[raw/Meeting_Notes_NOVA_Capability_Wishlist-August-14-2026-Part_2.md]]
 
+## Sept 14 2026 — a wooden monolithic body, a $1,000 build target, and a date: the 23rd
+
+At the [[wiki/meetings/2026-09-14-hardware-priorities-tito-case-and-street-cabinet.md|Sept-14 12:04 PM hardware call]] (Russian; [[wiki/people/val-levitan.md|Val]], [[wiki/people/genadi-peari.md|Genadi Peari]], [[wiki/people/pavel.md|Pavel Frolov]]) the street cabinet stops being a design conversation and gets a start date. Val names it plainly: "**флекс эс это стрит машина**" — **Flex S** is the street machine [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]].
+
+**A third material proposal — wood.** Val's idea: "**[к]орпус сделал бы из дерева. Задний корпус. Монолитный — просто такой, не делил бы это на бейс и на [верх]. Сделал бы как [upright] монолитный корпус**" — a wooden **rear** body, monolithic, not split into base and top, made as an upright. His precedent: "**типа, как мы делали, если помните, это [клипс], или что мы делали машину. Там корпус был деревянный, а фр[онт] [fibreglass]**" [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]].
+
+That makes three materials proposed for the same monolithic body across four months — **sheet metal** (Jun 9), **plastic back cavity** (Jun 16, left unresolved with Genadi unconvinced), and now **wood** (Sept 14). None of the earlier two is withdrawn in the source; the September proposal is the latest and is recorded as such, not as a settled choice — Genadi's reply was "**[я] не знаю, сейчас про дерево не дерево**" [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]].
+
+*(**Unresolved name (§4):** the older machine is rendered "**это клипс**". The derived notes read it as "the older Eclipse machine". The only **Eclipse** in this corpus is the **certification lab** JVL uses for Georgia and Nebraska, not a cabinet — so the notes' reading is not supported from inside the corpus. **No machine is identified**; queued for the owner.)* [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+
+**Genadi has already worked the problem and wants to simplify twice over.** "**Мы когда с вами обсудили, а потом это начал прорабатывать… [е]сть несколько идей… [чтобы] он был дешевле и упростить. [One]-пис[-]бади и всё это. Всё у меня это записано**" — several ideas, written down, aimed at a cheaper one-piece body; and separately "**нам надо электронику упростить**" — the electronics need simplifying too [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]].
+
+**The three things that were actually fixed on this call**, each on its own page:
+
+- **Screen connection and cost target** — the main screen runs on **LVDS** with JVL's own cable and adapter; the optional second screen keeps **HDMI plus a controller**; **only Full HD** is locked in; the saving is **$15–20**; and the build has to "**вложи[ть]ся в тысячу долларов**" — fit inside **$1,000**. Genadi's screen-size warning (43 inches and above means 4K, which the board cannot drive, and the price jumps past 43 because the next size is 49) lands on the same page. → [[wiki/decisions/2026-09-14-street-cabinet-main-screen-runs-on-lvds-not-a-controller.md]]
+- **Compute board** — the **RK3576 with 8 GB** replaces the **RK3568**, because the 3568 "**на горизонтальном телевизоре работает хорошо, на вертикальном плохо**" and the machine is vertical. → [[wiki/decisions/2026-09-14-the-street-cabinet-board-is-the-rk3576-not-the-rk3568.md]]
+- **Start date** — Genadi finishes IQ, Slim, IQ again and the printer that week, and starts the cabinet on **September 23 2026**, after the TITO printer cases. → [[wiki/decisions/2026-09-14-tito-printer-cases-come-before-the-street-cabinet.md]]
+
+**Two earlier positions on this page are superseded by the above and are kept as history:** the **$1,200**-ish build target (June 8) gives way to **$1,000**; and the July-29 preference for **2–3 uniform HDMI outputs** over "impractical" LVDS gives way to LVDS as the main output. The **$5,000 sell price** (June 16) is a different figure and is untouched. [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+
+**§15.8:** clear — cabinet, board and build-cost economics only; no named-person compensation appears in either Sept-14 12:04 file.
+
 ## Sources
 
 - [[raw/Meeting_Notes_Low_Cost_Street_Machine_Design-June-8-2026.md]]
@@ -106,3 +128,5 @@ On the [[wiki/meetings/2026-08-14-nova-capability-wishlist.md|Aug-14 NOVA wishli
 - [[raw/Meeting_Notes_RK3588_Game_Performance_Findings-July-29-2026.md]]
 - [[raw/Meeting_Notes_NOVA_Capability_Wishlist-August-14-2026-Part_2.md]]
 - [[raw/Meeting_Transcript_NOVA_Capability_Wishlist-August-14-2026-Part_2.md]]
+- [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+- [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]

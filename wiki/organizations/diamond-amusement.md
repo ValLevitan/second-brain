@@ -3,9 +3,9 @@ type: organization
 title: Diamond Amusement
 date: 2026-07-23
 aliases: [Diamond Amusement, Diamond, Diamond Amuse, Diamond Games, Diamond Amusements, route acquisition, Conyers GA, 2069 Lake Industrial Ct, peach ones, 74 JVLs deployed, field auditor, American Kiosk]
-source-count: 7
-open-commitments: 9
-open-questions: 3
+source-count: 9
+open-commitments: 8
+open-questions: 4
 ---
 
 # Diamond Amusement
@@ -125,11 +125,24 @@ The first half-hour was Diamond's technicians itemising what is wrong with JVL m
 
 Three meetings, all inside the following week: [[wiki/people/michael-gottlieb.md|JVL's senior VP of game design]] tours Diamond's **locations** (targeting **Tuesday Sept 15**, to be confirmed the next day — "**Let's communicate tomorrow. Let me just check everybody's availability**", with Diamond's site rep present "so that… you can look at each individual game"); Sean comes to JVL's office on **Wednesday September 16 at about 3:00 PM** to see the transactional system; and the three of them go to **dinner** that evening — "**maybe the three of us could go for dinner… and then we could sit and discuss games.**" [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
 
+## Sept 14 2026 — the tour gets booked, but not by Sean
+
+Four days later the location tour was actually arranged — and it went round Sean rather than through him. On a ~4-minute call at **12:51 PM** ([[wiki/meetings/2026-09-14-competitor-field-reconnaissance-and-class-a-visits.md|the field-reconnaissance call]]) a JVL colleague — **never named in the recording** — told [[wiki/people/val-levitan.md|Val]] he had reached "**Tara from Diamond Amusement Sean's head tech**", who "**did not receive any instruction from Sean**, but she could **arrange with me and have it happen tomorrow**." Sean himself was "**at a golfing event**". Val approved it in one line: "**This is absolutely perfect.**" [[raw/Meeting_Transcript_Competitor_Field_Reconnaissance_and_Class_A_Visits-September-14-2026.md]]
+
+- **Shape of the visit:** "**at least three locations, one tier two, something you recommend visiting**" — the tier-two site chosen on Tara's own recommendation, which is consistent with Diamond running its routes by tier structures (above). [[raw/Meeting_Transcript_Competitor_Field_Reconnaissance_and_Class_A_Visits-September-14-2026.md]]
+- **What JVL wants out of it is the competitors' machines, not its own:** "**We need access to the machines, the competitors' machines. Take a few screenshots, get some information.** She said, '**that's fine.**'" That is the field test of Val's Sept-10 **settings** hypothesis for why JVL ranks behind Aristocrat and Light & Wonder in Diamond's own locations (the third open question above). *(The causal link is an inference; the Sept-14 source gives the purpose, not the reasoning.)* [[raw/Meeting_Transcript_Competitor_Field_Reconnaissance_and_Class_A_Visits-September-14-2026.md]]
+- **Day:** Tuesday **September 15**, morning — the colleague had a 2:00 PM commitment and said he would "**make as many visits in the morning as possible**." [[raw/Meeting_Transcript_Competitor_Field_Reconnaissance_and_Class_A_Visits-September-14-2026.md]]
+- *(Identity, inference only: "Tara" is most likely **Terra Horton**, the head warehouse technician the 2026 operator briefing names and the Sept-10 visit records in the room. The Sept-14 source gives only the first name plus "Sean's head tech." Not asserted.)* [[raw/georgia_operator_briefing_Diamond_Amusement.md]]
+
+The ruling and its consequences are on [[wiki/decisions/2026-09-14-competitor-machine-access-at-diamond-goes-ahead-through-the-head-tech.md]].
+
+**New open question (Sept 14 2026):** **Is Sean told afterwards that his head tech opened Diamond's locations to JVL without him?** Nothing in the source addresses it, and he was separately due at JVL's office the following afternoon. [[raw/Meeting_Notes_Competitor_Field_Reconnaissance_and_Class_A_Visits-September-14-2026.md]]
+
 ## Open commitments (Sept 10 2026)
 
 - [ ] [[wiki/people/sean-fellows.md|Sean Fellows]] (Diamond) — identify the two pilot locations, buy the two machines and deploy them in two different location types — due ~Oct 1 2026 — [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
 - [ ] [[wiki/people/sean-fellows.md|Sean Fellows]] (Diamond) — send Val the per-game performance breakdown — due unspecified — [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
-- [ ] [[wiki/people/sean-fellows.md|Sean Fellows]] (Diamond) — check his team's availability and confirm the location-tour day — due Sept 11 2026 — [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- [x] ~~[[wiki/people/sean-fellows.md|Sean Fellows]] (Diamond) — check his team's availability and confirm the location-tour day~~ — due Sept 11 2026 — **overtaken, not discharged (Sept 14 2026):** the day was settled by JVL calling Diamond's head tech directly while Sean was unreachable, not by Sean confirming. Nothing in the corpus records Sean confirming anything — [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]] [[raw/Meeting_Transcript_Competitor_Field_Reconnaissance_and_Class_A_Visits-September-14-2026.md]]
 - [ ] Diamond's field auditor — capture settings/menu-screen data off the JVL fleet on compliance rounds — ongoing — [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
 - [ ] [[wiki/people/val-levitan.md|Val]] — provide a written price and proposal for incremental fleet upgrades — due unspecified — [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
 - [ ] [[wiki/people/val-levitan.md|Val]] — upgrade Diamond's older "four one nine" units with modem and software, free — due unspecified — [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
@@ -144,3 +157,5 @@ Three meetings, all inside the following week: [[wiki/people/michael-gottlieb.md
 - [[raw/Meeting_Transcript_Vishal_Patel_Pre_Meeting_Briefing-August-26-2026.md]]
 - [[raw/Meeting_Notes_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
 - [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- [[raw/Meeting_Transcript_Competitor_Field_Reconnaissance_and_Class_A_Visits-September-14-2026.md]]
+- [[raw/Meeting_Notes_Competitor_Field_Reconnaissance_and_Class_A_Visits-September-14-2026.md]]

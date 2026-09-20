@@ -3,10 +3,10 @@ type: decision
 title: The e-wallet is created the moment the player presses "print new" — before the ticket prints — so a printer failure cannot lose the money; the cashier recovers it from the transaction list
 date: 2026-09-14
 aliases: [create new then print, wallet created before printing, the painful scenario, carrier that did not print, ticket recovery, reissue versus reprint, print-carrier command, unclaimed money on the terminal, collect fork, блок номер 5 и блок номер 6]
-source-count: 2
+source-count: 4
 status: active
 open-commitments: 1
-open-questions: 3
+open-questions: 4
 ---
 
 # The e-wallet is created before its ticket prints
@@ -58,6 +58,24 @@ Klimovich accepted that the whole transaction-search block may not be finished f
 
 A small convenience sits in the same block: scanning the player's carrier on IQ filters the transaction list down to that wallet — "[и]грок даёт свой [c]arrier[, ] мы его сканируем на IQ[;] транзакции… в этом интерфейсе должны быть [от]фильтрованы по этому [e-]волиту" [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]].
 
+## Sept 14 2026, 12:04 PM — the same day, the same problem from the printer end, and the loss case this rule does *not* cover
+
+Four hours later Val put the printing failure to [[wiki/people/genadi-peari.md|Genadi Peari]] and [[wiki/people/pavel.md|Pavel Frolov]] at the [[wiki/meetings/2026-09-14-hardware-priorities-tito-case-and-street-cabinet.md|12:04 PM hardware call]] (Russian). He was asking about the standalone TITO printer enclosure, and the same money-must-not-be-lost principle came straight back [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]:
+
+> "**человек же заплатил, он заплатил, ему надо получить свой этот тикет. Если что[-]то по дороге оборвалось — мы должны иметь возможность сказать: транзакция не прошла, отдать ему обратно деньги, или обратно подключиться, догнать транзакцию обратно.**"
+
+**What the machine already does.** Pavel: "**мы своими этими библиотеками это читаем — если принтер отключить сейчас на машине, сразу тил[т] срабатывает; если его воткнуть обратно, тил[т] снимается**" — their libraries read the printer state; unplugging raises a tilt at once and plugging back in clears it. And the sensor Val asked for already exists: "**этот [сенсор] внутри принтера уже есть… если тикет полностью выехал, то мы это состояние имеем**" — the printer itself confirms the ticket fully exited [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]].
+
+**Where the money crosses over, and stops being recoverable.** "**если он не до конца допечатал — до какого[-]то момента ещё эти деньги могут вернуться назад. Но если уже баркот напечатал[ся] — деньги уже с машины снимутся.**" Up to a point the money can come back; once the barcode has printed, it has left the machine [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]].
+
+**The unsolved case — and it is deliberate, not accidental.** Pavel: "**скользкий момент здесь в том, что вот если уже тикет начинает выезжать, баркот на нём напечатался, и кто[-]то специально вырубает питание. Это тикет достанут. Он будет реально, его можно будет отоварить. Но при этом… мы не можем возвращать деньги обратно в такой ситуации.**" A deliberate power cut mid-print leaves a **real, redeemable ticket**, and the money cannot be put back [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]].
+
+Pavel asked whether this was about the street machine's TITO variant; **Val said no — it is the TITO-printer-as-wallet flow**, i.e. exactly the flow this page governs: "**Нет, там, где мы пользуемся тито принтером, как и [wallet]**." Pavel then made the window **worse, not better**, for that case: "**мы только начинаем печатать — у нас уже есть баркод, который рабочий, вот на самом краю. Даже если чуть[-]чуть напечаталась — то уже всё. [Э]тот тикет просто достанут и будут использовать**" — a working barcode exists from the very start of printing, so even a sliver is enough [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]].
+
+**And the obvious hardware escape is closed.** Genadi asked whether these ticket printers reprint an incomplete ticket themselves — "**нет в этих тикет[-]принтерах… [что] он сам перепечатывает, если он не допечатал?**" Pavel: "**Нет.**" Genadi withdrew it: "**С чем[-]то путаю**" [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]].
+
+**How this sits against the 8:01 AM rule.** The two are not in conflict; they cover opposite directions of the same transfer. The morning rule protects the **player** — the wallet exists before the print, so a dead printer cannot swallow his money. The midday exchange exposes the **house** side: a ticket that partly printed is redeemable and the debit has already happened, so a bad actor can take the ticket *and* leave JVL unable to reverse. **Nothing in either source resolves the second case**, and no one proposed a mitigation. Recorded as a new open question below, not as a contradiction.
+
 ## Open commitments
 
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — re-read the reissue capability and settle whether MVP 1 reissues the wallet or simply reprints the carrier — due unspecified, parked on the call — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
@@ -66,6 +84,7 @@ A small convenience sits in the same block: scanning the player's carrier on IQ 
 
 - **Reissue or reprint?** Parked with three people arguing against reissue and its author unable to recall why he chose it — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - **Can collect money stay on the machine** instead of moving to the port the instant collect is confirmed? Pavel tried and failed; with [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+- **A ticket whose barcode started printing before a deliberate power cut is redeemable, and the money is already off the machine — what stops that?** Raised by Pavel on the Sept-14 12:04 PM call and left with no answer; the printer cannot reprint an incomplete ticket — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - **What the cashier actually does with money sitting in "unclaimed"** — reprint a ticket, or something else. Pavel named it as the open part: "вопрос, что с ними дальше делать… кассир должен что[-]то выбрать" — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 
 *(The derived notes record the same rule — "the eWallet is created the moment the player presses 'create new' and the machine's game credit is loaded onto it, so the money is already saved" — and the same parked reissue-versus-reprint question. The notes render the print option as "print new" / "create new"; the transcript's rendering of the button is garbled, so no exact button text is asserted here.)* [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
@@ -75,3 +94,5 @@ A small convenience sits in the same block: scanning the player's carrier on IQ 
 ## Sources
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+- [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+- [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
