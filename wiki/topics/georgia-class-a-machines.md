@@ -2,10 +2,10 @@
 type: topic
 title: Georgia Class A machines
 date: 2026-08-31
-aliases: [Class A, Class A machines, намберту, в принципе дали мне заказ, two machines a week, five machines a week, the same machines go to Texas, Class A on Nova, Class A V43, party time feature, awards cannot be bet, for now yes, playing within the rules, no book of Class A regulations, if you had a pulse you get a license, not hooked up to a central accounting system, hang our hat on one supplier, slinging them out and seeing what sticks, it's predominantly the meters, Class A licence easier than B, Georgia Class A, Class A licence, amusement machines Georgia, two-bucket win system, $50 per spin cap, $50 per hand, Primero Class A, play bucket, redemption bucket, Hope Scholarship, class eight]
-source-count: 25
+aliases: [Class A, Class A machines, Alan Powell, twenty five seventy five, twenty eighty, one game suite, forty bucks per day, намберту, в принципе дали мне заказ, two machines a week, five machines a week, the same machines go to Texas, Class A on Nova, Class A V43, party time feature, awards cannot be bet, for now yes, playing within the rules, no book of Class A regulations, if you had a pulse you get a license, not hooked up to a central accounting system, hang our hat on one supplier, slinging them out and seeing what sticks, it's predominantly the meters, Class A licence easier than B, Georgia Class A, Class A licence, amusement machines Georgia, two-bucket win system, $50 per spin cap, $50 per hand, Primero Class A, play bucket, redemption bucket, Hope Scholarship, class eight]
+source-count: 27
 open-commitments: 0
-open-questions: 9
+open-questions: 11
 ---
 
 # Georgia Class A machines
@@ -355,8 +355,72 @@ The last Class A conversation of the day, in [[wiki/meetings/2026-09-16-jvl-tran
 
 **Still no fifth dated timing position.** Nothing on this call names a Class A delivery date, a legislature date or the ARC three-month promise. The ten-year remark above is about **when a tax lands**, not about when JVL ships [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]].
 
+## Sept 17 2026 — a seventh operator, Primero's terms from the *other* side of the table, and a named ban bill
+
+[[wiki/people/yash-patel.md|Yash Patel]] of [[wiki/organizations/halcyon-amusements.md|Halcyon Amusements]], over breakfast in Roswell ([[wiki/meetings/2026-09-17-halcyon-amusements-georgia-class-a-and-texas-route-partnership.md|8:49–10:19 AM ET]]). **Val asked the question cold, and this is the first source on this page from an operator who was *offered* the Primero deal, worked the numbers, committed to units — and then walked away.** He is also a [[wiki/organizations/gamoa.md|GAMOA]] board member, which makes his account of the association's position first-hand rather than reported. [[raw/Meeting_Notes_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+
+### The position: in favour of the category, against spending money on it now
+
+Val's framing: "I get a lot of operators that actually I have dinners with… and they are **openly interested in Class A**, because they see it as a very profitable thing. So we're obviously **thinking about bringing Class A to the market.** What is your opinion on this?"
+
+- **The verdict:** "**Class A is good. It's steady. There's no reporting to be done. It's a good cash business. It's not as competitive.**" That is the most positive operator summary on this page since ARC's — and it comes with the sharpest warning (below).
+- **The cap, stated the same way every other operator has stated it:** cash payouts "up to **fifty dollars**… **per spin**", with no limit on spins — Val: "if you do twenty spins and win twenty times fifty, you're still allowed" — "**Still allowed.**" **Independent corroboration of the $50-per-spin mechanic from a seventh source.**
+- **He would link Class A to the InComm card; Val would not.** "**Link it to InComm card.**" Val: "**InComm doesn't do our show.**"
+
+[[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+
+### Primero's Class A deal, as offered to an operator — and it is not the ARC deal
+
+This is the page's **second** set of Primero terms, and the **shapes do not match**. Yash's version:
+
+- **Two structures.** "**The percentage is 25, 75. They keep 25, I get 75.** Now that 25 they receive is based on **them financing the equipment**." And: "**If you choose to pay up front, then it's 20 percent for them.**"
+- **Hardware, with his own vagueness intact:** "I can't remember exactly how much they said per device, but I think it's like **2,500** for capital… **25 or 3,500. I can't remember exactly.**"
+- **The 25% comes off the top, before the location split.** Val: "it's hundred dollars minus twenty-five dollars, and then seventy-five dollars you split with the location" — "**Correct.**" The consequence Yash flagged: retailers know the operator's share and squeeze it — "he's taking seventy-five dollars of this… **I'm going to squeeze him. Now I want seventy percent of that.**"
+- **Why it still works for the operator:** "**operators getting a larger cut with no money in**", because the device is "a nominal cost… **It's twenty five hundred.**"
+- **The repayment mechanics he described:** either write a cheque for the lot, or "give me ten every Tuesday until that twenty-five thousand is paid off… **as soon as I cover your twenty-five thousand, then you take no money. We just do a revenue split.**"
+
+**Against ARC's terms recorded above (Sept 16 2026): $1,000 for the software plus 10% where the operator supplies the cabinet, 20% where Primero does.** Yash's structure has **no software fee at all** and turns on **who finances the hardware**, not on whose cabinet it is. **Neither source mentions the other; the two are recorded side by side and reconciled nowhere.** That sharpens the existing open question below — the terms are looking **deal-by-deal**, not categorical. [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]] [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+
+### He committed to 25–30 units and never took delivery — for two reasons, not one
+
+"I committed to them up to you know **25, 30**." Asked "**Why didn't you ever take a deal?**", the answer in the recording is:
+
+> "**The games don't do well. Nobody plays [Primero].**"
+
+and, separately in the same passage:
+
+> "**they only have one game suite, right? You need to have a variety because everybody in Georgia is used to that.**"
+
+*(The derived notes carry only the one-suite reason and call it "one reason". **The recording gives both**, and the games-don't-do-well answer is the one that directly answers Val's question. Recorded as found — see the meeting stub.)*
+
+**Val's conclusion from it, stated in the room:** "**And that's why I'm being asked to make it… because operator wants variety. They don't want to go with one brand.**" That is the demand-side case for a JVL Class A product, from the customer, in one line — and it matches the Aug-31 ARC complaint on this page that uniformity is the category's weakness. [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]] [[raw/Meeting_Notes_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+
+### The earnings picture: still nobody has one
+
+Asked "what's the average that machine makes?" — "**I have no idea.**" **That is now the fourth operator on this page who cannot or will not give a Class A per-day figure.** Val offered his own hearsay in exchange: "**Some operators are telling me that their average is about forty bucks per day**… some locations make **four dollars**, some locations make **a hundred dollars**… but they say **it's growing. I have no idea.**" *(Recorded as Val's report of what operators tell him, hedged by him twice. For scale against the rest of this page: ARC's CEO said "I can't say it's a lot" on Sept 16, and Val's own working figure there was "thirty bucks".)* The only anecdote Yash had is a man who "**put a game room in… with like 40 or 50 of these games in it. He's not doing** [well]**, but he doesn't care**", because the units were financed and he leased the site himself — Val: "**the machines are supplied to him on a participation basis**… 'if it makes a dollar, it makes a dollar. If it makes a hundred, it makes a hundred.' **That's aggressive.**" [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+
+### The ban bill has a sponsor and a near miss — new to this page
+
+> "last session, they tried to **put out a bill to ban these games**… And **Alan Powell sponsored it**… **Almost won. They almost got the path and the votes through.**"
+
+Asked whether they will ban it: "**They're going to push hard for it. I would think twice before spending a lot of money into** [it]**, is all I would say.**" Val: "Thank you. I appreciate it."
+
+**This is the first named legislative attempt on the category recorded anywhere in this corpus**, and it is a *past* one that nearly passed — which is a different fact from the January-session expectation the Georgia Lottery gave on Sept 10 and from the "legislative change is five years away" line recorded on Sept 9. *(Titles given for Powell in the same breath — "chairman of the Senate", "on the allied gambling committee" — are garbled and are **not** asserted. No bill number is given.)* [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+
+### GAMOA's position, from a board member: "one hundred percent" against
+
+Val: "**[GAMOA] is against it. One hundred percent.**" Yash — who sits on the board — did not dispute it, and gave the association's stated reason: "**their fear is this is gonna cut into the revenue of class B, and if it cuts into the class B revenue, then folks' scholarships aren't gonna get funded.**" His own objection to his own board: "we're all operators here… **they don't understand that you have to do what's best for the industry, and what's best for the industry is growth.**"
+
+**Val named the fear he thinks Class B operators should have instead** — and it is the reverse of the scholarship argument: "**their fear should be that class B gets** [taken] **and they get stuck with already banned class A. So stuck with nothing. So now what do they have? Pinball machines. Pool tables. Loot boxes.**"
+
+**This partly answers the standing question "Does GAMOA have a position on Class A at all?"** — a sitting board member accepts "one hundred percent against" without correction and supplies the reasoning. It is still **not** a recorded formal association position, and it sits against the Sept-1 board member who said "we don't have a specific thing." **Both stand.** [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]] [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+
+**§15.8:** clear — licence, machine, placement and revenue-share economics only; no named-person compensation.
+
 ## Open questions
 
+- **Are Primero's Class A terms categorical or deal-by-deal?** Two operators now describe **different structures**: ARC (Sept 16) pays **$1,000 for the software plus 10%/20%** depending on whose cabinet; Halcyon (Sept 17) was offered **25% financed / 20% paid up front with no software fee**, on hardware of "$2,500… 25 or 3,500". Neither source knows of the other. [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]] [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+- **How does the Alan Powell ban bill sit against the January-session expectation?** A sponsored bill that "almost got the votes" last session is a stronger signal than anything else on this page, and **no other source in the corpus mentions it** — not the Georgia Lottery on Sept 10, not ARC, not the JVL engineering calls. [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
 - **Does the February-1 Class A software goal sit against the January wait, and against the three months promised to ARC?** [[wiki/decisions/2026-09-11-georgia-class-a-v43-is-built-on-nova-not-rage.md|Sept 11]] sets a product goal of February 1 [2027 — year inferred] and starts design work immediately; [[wiki/decisions/2026-09-10-no-class-a-build-until-the-january-legislature-is-heard.md|Sept 10]] has Val saying he doubts he can do anything until January; [[wiki/decisions/2026-08-31-class-a-deal-with-arc-within-three-months.md|Aug 31]] has him promising [[wiki/organizations/arc-gaming.md|ARC]] a deal by January. **None of the three sources mentions the others.** Not resolved. **A fourth dated position, Sept 16 2026:** to ARC's CEO, Val said "**I can redesign it by New Year**" and that he will do it regardless of ARC — a hardware redesign date, not a deal date and not a decision date. It is recorded alongside the other three and **resolves none of them.** [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]] [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
 - **What actually makes a game "compliant with Class A"?** The only requirement written down anywhere in the corpus is the behaviour sketch above (credits in, awards out, awards not bettable) plus the $50-per-spin cap from the operator accounts. The Lottery says there is no rulebook. JVL is specifying against operator description. [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
 
@@ -401,3 +465,5 @@ The last Class A conversation of the day, in [[wiki/meetings/2026-09-16-jvl-tran
 - [[raw/Meeting_Transcript_Competitor_Field_Reconnaissance_and_Class_A_Visits-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
 - [[raw/Meeting_Notes_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
+- [[raw/Meeting_Notes_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+- [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]

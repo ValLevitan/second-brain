@@ -2,17 +2,17 @@
 type: organization
 title: Halcyon Amusements
 date: 2026-08-27
-aliases: [Halcyon Amusements, Halcyon Amusements LLC, Halcyon]
-source-count: 6
-open-commitments: 2
-open-questions: 1
+aliases: [Halcyon Amusements, Halcyon Amusements LLC, Halcyon, San Antonio to Beaumont, six fifty, Hackberry, Oranthis, Nix, Axcess locations, three hundred cabinets in two weeks]
+source-count: 8
+open-commitments: 4
+open-questions: 3
 ---
 
 # Halcyon Amusements
 
 A **family route operator running in both Georgia and Texas**, run by [[wiki/people/yash-patel.md|Yash Patel]], which visited the JVL office on **August 27 2026** — see [[wiki/meetings/2026-08-27-halcyon-amusements-recycler-pitch.md]]. The company name comes from the calendar entry "Halcyon Amusements LLC - JVL" that [[wiki/people/val-levitan.md|Val]] **manually confirmed as the match for the recording on 2026-09-05**; the transcript itself names neither the company nor the person. [[raw/Meeting_Notes_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]]
 
-**The thread so far.** **Aug 27 2026** — the office visit: recycler pitch, the Georgia Lottery notice, a Texas test agreed in principle ([[wiki/meetings/2026-08-27-halcyon-amusements-recycler-pitch.md]]). → **~Sept 10 2026** — **Halcyon's first order**, per the Sept-12 notes ("two days after Halcyon's first order"); *the order itself appears in no source the wiki holds, and neither its size nor its content is recorded anywhere.* → **Sept 12 2026** — the nine-minute phone call below: the Texas net-win numbers, the "big cabinet, big screen" warning, and a request that JVL join a unified Texas lobbying front ([[wiki/meetings/2026-09-12-halcyon-amusements-texas-net-win-and-lobbying.md]]). → **Sept 17 2026** — a follow-on meeting the Sept-12 notes point to; **not yet in the corpus**. [[raw/Meeting_Notes_Halcyon_Amusements_Texas_Net_Win_and_Industry_Lobbying-September-12-2026.md]]
+**The thread so far.** **Aug 27 2026** — the office visit: recycler pitch, the Georgia Lottery notice, a Texas test agreed in principle ([[wiki/meetings/2026-08-27-halcyon-amusements-recycler-pitch.md]]). → **~Sept 10 2026** — **Halcyon's first order**, per the Sept-12 notes ("two days after Halcyon's first order"); *the order itself appears in no source the wiki holds, and neither its size nor its content is recorded anywhere.* → **Sept 12 2026** — the nine-minute phone call below: the Texas net-win numbers, the "big cabinet, big screen" warning, and a request that JVL join a unified Texas lobbying front ([[wiki/meetings/2026-09-12-halcyon-amusements-texas-net-win-and-lobbying.md]]). → **Sept 17 2026** — the breakfast in Roswell: the first in-person meeting since August, and the first one that ends in an agreed installation and a booked site visit ([[wiki/meetings/2026-09-17-halcyon-amusements-georgia-class-a-and-texas-route-partnership.md]]). [[raw/Meeting_Notes_Halcyon_Amusements_Texas_Net_Win_and_Industry_Lobbying-September-12-2026.md]] [[raw/Meeting_Notes_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
 
 ## The route
 
@@ -56,6 +56,55 @@ A nine-minute phone call with [[wiki/people/val-levitan.md|Val]] ([[wiki/meeting
 - **The relationship, in both men's words.** Val: "**It's better to know it up front than to be disappointed after the ship**" and "**A straightforward conversation is appreciated more than anything.**" Yash: "**I don't want to do that. I think we're building a great relationship.**" [[raw/Meeting_Transcript_Halcyon_Amusements_Texas_Net_Win_and_Industry_Lobbying-September-12-2026.md]]
 - **And the ask.** Halcyon wants JVL inside a **single industry front for Texas** — "we need to make a **full industry effort for Texas** because Texas is a great market, and **we all need to work at it from the same direction**" — and proposed breakfast on **Thursday Sept 17** while Val was in town ("happy to meet you in **Lawrenceville**, or we can meet anywhere"). Val accepted and left the venue to him. The commitment is held on [[wiki/projects/texas-used-machine-distribution.md]]. [[raw/Meeting_Transcript_Halcyon_Amusements_Texas_Net_Win_and_Industry_Lobbying-September-12-2026.md]] [[raw/Meeting_Notes_Halcyon_Amusements_Texas_Net_Win_and_Industry_Lobbying-September-12-2026.md]]
 
+## Sept 17 2026 — the Texas route described properly, and JVL gets in
+
+The [[wiki/meetings/2026-09-17-halcyon-amusements-georgia-class-a-and-texas-route-partnership.md|Roswell breakfast]] (8:49–10:19 AM ET) is the fullest account of this route in the corpus. The commercial outcome is [[wiki/decisions/2026-09-17-halcyon-takes-one-machine-plus-the-free-transactional-package-first-week-of-november.md]]; Yash's own market and political reading is on [[wiki/people/yash-patel.md]] and [[wiki/projects/texas-used-machine-distribution.md]]. [[raw/Meeting_Notes_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+
+### The Texas route, in his own numbers
+
+- **The geography: San Antonio to Beaumont.** "It's **from San Antonio all the way to Beaumont. Beaumont is on the border of Louisiana, so it's through Houston**… it's a fairly long route." [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+- **The size: about 650 machines.** Asked how many, "I think it's over. **Last count was six fifty**, I think." *(Compare the Aug-27 claim on this page — "**I've got four hundred locations in Texas**". Locations and machines are different units and the two figures are **not** reconciled here; note only that 650 machines across 400 locations would sit below his own stated two-to-three-per-location practice.)* [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]] [[raw/Meeting_Transcript_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]]
+- **The venue: gas stations, small ones.** "**Mostly gas stations.**" "The stores are the gas stations by the size of maybe the interior of this — very small." [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+- **Net win: "about one hundred eighty" per machine per day.** Asked "And what's the average? Daily… per machine" — "**About one hundred eighty.**" **This is a new dated data point in the Texas net-win contradiction and it resolves nothing** — see `## Open contradictions` below and [[wiki/projects/texas-used-machine-distribution.md]]. [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+
+### How he places and pulls machines — the discipline behind the numbers
+
+- **Two to three games, usually three** — "if I put in three games in a location, **typically I start with three, two to three, and it usually ends up being three**." *(In the same meeting he also describes the Texas market generally as "**Average location has about three to four games**"; both are recorded.)* [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+- **He grows by locations, not by machines per location.** Val: "why do you put three machines or four?… your goal is to occupy more" — Yash: "**Yeah, get more locations. Hold the locations and add.**" Two reasons given: the stores are physically small, and a fourth cabinet **dilutes the hold** — "if the in stays the same and our hold percentage is dropping, there's no point. **You take the cabinet out.**" [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+- **The trial clocks: six to eight months for a new location, 90 to 180 days for an established one.** "If it's a location that's brand new, **I'll give the guy six months, maybe eight months**, and if it doesn't make sense, I just pull those out and put them in a different location." And for a site "we've already had for two years", the window is "**90 to 180 days**." A fourth-cabinet test is run at "**three months to get 90 days worth of data**". Val's comment: "I just wonder if three months is enough. We've tried a year." [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+- **He is inventory-limited, not demand-limited.** "**I'm getting calls for locations every single day**… I mean, **if I had 300 cabinets right now, I could go place them in two weeks**… But it's a matter of I buy the machines." Val's test question — "Place them in good locations or in sheer locations?" — got the honest answer: "**That's the thing. Is we can place the games, but is it returning to be there?**" [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+- **He turns counties down.** "It's still **county to county**. There's some counties we just want [to avoid]. If I get a call from a location guy in a certain county, I'm like, **sorry, you can find somebody else. It's not worth it**, because first of all, you're not gonna make any money there, because **everybody's scared to play and everybody's scared to cash**." [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+
+### The warehouse of games that did not work
+
+"**Camaros don't do well there. I bought a bunch. They're almost basically all in my warehouse… I bought a bunch of Boras. Same thing.**" And later, of a licensed casino game the notes render as **Bravery** from **Yildar Studios** — "a Georgia manufacturer… **their games don't do well in Georgia. So they're really pushing into gray markets**" — "Picked him up, **did nothing. Romero does nothing. Arreiro does nothing.**" *(All five game/studio names are transcript renderings the derived notes flag as unverified; none is upgraded to a real-world brand.)* [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]] [[raw/Meeting_Notes_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+
+### What Halcyon already runs, and why JVL only gets the new sites
+
+His Georgia and route locations are fitted with **Axcess** equipment — "**I already have all the equipment from [Axcess] for my locations. I mean, I'm just gonna tell you the truth**" — so JVL goes into **new** locations plus **a couple of high-volume existing ones** "because the more data, the better." Full terms on the decision page. [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+
+### The AFT argument that actually moved him
+
+Price did not. Val's "**I don't think anybody could beat my price**" was agreed with and changed nothing. Three AFT arguments did the work, and the second and third are the ones this corpus should keep:
+
+1. **Promo credits buy the operator a customer database.** Give $5 in promo credit on cash-out for a scanned barcode, and "**now you have the phone number… You're making a customer database.**" The point is ownership of the player: "So **whose customers are these now?… You're operator's customers.**" And the weapon it hands him — "**if he keeps you out from the location, the location next door, the customer receives a message: Come location next door for Wednesday night promo.**" Yash: "**That's perfect. I was looking for a solution like that.**" [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+2. **Promo credits cost the operator nothing real.** "**Under [SAS] regulation… promo credits go into promo meter. Promo meter does not allow you to cash out… You can only cash out the winnings.**" [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+3. **Partial redemption is "a killer application" for Georgia.** "we allow **partial redemption** of your electronic wallet… would you like to transfer **five dollars, ten dollars, twenty-five dollars, or all of it**… and you choose right on the AFT display." The case he made for it: with TITO, a player who wins $300 walks, because "**if I insert three hundred dollars into this machine… all my three hundred dollars is eaten up.**" So "**the moment you get a high win, you lost your customer. If you allow partial deposit, then you suck them in with ten dollars, and then he feels like another five dollars and another twenty dollars.**" *(The recording renders SAS as "SASS" and "SAB Sport", and TITO once as "Quito".)* [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+
+### The Texas site visit, as planned in the room
+
+**October 2**, San Antonio. Val flies in — "**Can I fly private?**" — and declines a pickup: "**No! Don't want to get far. I'll get an Uber.**" The itinerary Yash set out: "**I'll show you the warehouse, Hackberry, and [Oranthis]. It's right there. We can walk all three of those**… And then I'll show you **Nix**, which is **one of my best locations**. I think we have **eight or nine games there right now**." Then lunch, then Val leaves. Val: "**So maybe four hours altogether.**" Yash asked for the 2nd rather than the 1st because he is training a new man and a colleague from India on the 1st. *(The second location is rendered "**Oranthis**" once and "**Rances**" once, in the same conversation, and the derived notes adopt Oranthis; **neither is verified**. The recording never says "Friday" — that weekday is the notes' addition. Whether San Antonio takes private landings is left unsettled in the room, with Austin as the fallback: "**Austin's about an hour away.**")* [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]] [[raw/Meeting_Notes_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+
+**§15.8:** clear — route, machine, placement and net-win economics only; no named-person compensation. **§15.9:** clear — no licence or registration numbers.
+
+## Open contradictions
+
+- **Halcyon's Texas net win per device per day — three figures, none preferred.** All three are in the corpus and each is recorded with its date:
+  - **Sept 2 2026:** about **$15**, from another Texas-running Georgia operator ([[wiki/organizations/continental.md|Continental]]). [[raw/Meeting_Transcript_Continental_Vendor_Lock_In_Dead_End-September-2-2026.md]]
+  - **Sept 12 2026:** about **$250**, read off Halcyon's own live report that morning, with a self-imposed floor of "at least two hundred bucks a day per device". [[raw/Meeting_Transcript_Halcyon_Amusements_Texas_Net_Win_and_Industry_Lobbying-September-12-2026.md]]
+  - **Sept 17 2026:** "**About one hundred eighty**", from the same man, five days later, in person. [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+  - The Sept-12 and Sept-17 figures come from **one source, days apart, with no explanation of the gap in either recording**, and the September 17 conversation never mentions the earlier number. **Nothing here resolves any of it**; the full set — including Val's own $250-against-$25 framing of the spread on Sept 16 — is held on [[wiki/projects/texas-used-machine-distribution.md]] under `## Open contradictions`.
+
 ## History
 
 - **Aug 21 2026 — already on JVL's October pipeline.** "Halcyon" appears in Felipe's **Wave 4 — October** prospect list (~29 companies at 2 machines each) in the sales-channel report walked through at the post-GAMOA recap, six days before this visit. [[raw/Meeting_Notes_Georgia_Machine_Sales_Strategy_Post_GOAM-August-21-2026.md]]
@@ -64,11 +113,17 @@ A nine-minute phone call with [[wiki/people/val-levitan.md|Val]] ([[wiki/meeting
 
 - [ ] [[wiki/people/val-levitan.md|Val]] — call him next week to line up the Texas test location (one machine Oct, one Nov) — due next week (week of Aug 31 2026) — [[raw/Meeting_Notes_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]]
 - [ ] Val / JVL — send numbers on the recycler for his ~400 Texas locations — due unspecified — [[raw/Meeting_Notes_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]]
+- [ ] [[wiki/people/val-levitan.md|Val]] — fly to **San Antonio on October 2 2026** for the route tour: warehouse, Hackberry, Oranthis, Nix, then lunch; about four hours, no pickup — due 2026-10-02 — [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+- [ ] [[wiki/people/val-levitan.md|Val]] — check whether San Antonio takes private landings, else Austin — due before Oct 2 2026 — [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+
+(The November installation and the Axcess placement rule are held once, on [[wiki/decisions/2026-09-17-halcyon-takes-one-machine-plus-the-free-transactional-package-first-week-of-november.md]]; Yash's own undertakings are held once, on [[wiki/people/yash-patel.md]].)
 
 (The two commitments owed by the operator — sending the Georgia Lottery notice letter and the DJI mic model — are held once, on [[wiki/people/yash-patel.md]].)
 
 ## Open questions
 
+- **Which state is the November installation in?** Neither man names it — see the decision page. [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+- **How do 650 machines square with 400 locations?** The two counts come from the same man three weeks apart and are in different units; his own stated practice is two to three machines per location. Not reconciled. [[raw/Meeting_Transcript_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]] [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
 - Does the free three-month Flex-IQ pilot at **Lilburn** go ahead? Offered and verbally welcomed in the room, but no date, no owner and no confirmation appear in either source, and the derived notes omit it entirely. [[raw/Meeting_Transcript_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]] [[raw/Meeting_Notes_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]]
 
 **§15.8:** clear — machine prices, location counts, net-win and cash-handling economics only; no named-person compensation. **§15.9:** no licence or registration numbers appear in any of these sources.
@@ -81,3 +136,5 @@ A nine-minute phone call with [[wiki/people/val-levitan.md|Val]] ([[wiki/meeting
 - [[raw/Meeting_Notes_Halcyon_Amusements_Texas_Net_Win_and_Industry_Lobbying-September-12-2026.md]]
 - [[raw/Meeting_Transcript_Halcyon_Amusements_Texas_Net_Win_and_Industry_Lobbying-September-12-2026.md]]
 - [[raw/Meeting_Transcript_Continental_Vendor_Lock_In_Dead_End-September-2-2026.md]]
+- [[raw/Meeting_Notes_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+- [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]

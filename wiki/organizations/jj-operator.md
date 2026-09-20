@@ -2,10 +2,10 @@
 type: organization
 title: J&J (gaming route operator)
 date: 2025-05-07
-aliases: [J&J, JJ, J and J, J&J Gaming, JJ Gaming, J&J Ventures]
-source-count: 10
+aliases: [J&J, JJ, J and J, J&J Gaming, JJ Gaming, J&J Ventures, J&J Ventures Gaming, Effingham, Effingham Illinois, Ethingham, Derek Bremley]
+source-count: 12
 open-commitments: 0
-open-questions: 3
+open-questions: 4
 ---
 
 # J&J (gaming route operator)
@@ -116,6 +116,20 @@ Two days after the Omaha visit, [[wiki/organizations/mg-oil.md|MG Oil]]'s [[wiki
 
 Dana knew of **no J&J presence in South Dakota**; he named only MG Oil and Axcess Entertainment as the state's large operators — see [[wiki/projects/south-dakota-vlt-market.md]] (Jun-18). [[raw/Meeting_Transcript_MG_Oil_Dana_Giesey_South_Dakota_Visit-June-18-2026.md]]
 
+## Sept 17 2026 — how J&J actually evaluates equipment, and who decides
+
+A nine-minute phone call between [[wiki/people/val-levitan.md|Val]] and [[wiki/people/sam-westgate.md|Sam Westgate]] ([[wiki/meetings/2026-09-17-jj-gaming-nebraska-entry-and-effingham-evaluation.md|Sept-17, 7:59–8:08 AM ET]]) — the first principal-level J&J contact in the corpus, and the first account of the company's **buying process** rather than its operations. Val's own commitment out of it is [[wiki/decisions/2026-09-17-jvl-ships-to-effingham-because-jj-evaluates-everything-there.md]]. [[raw/Meeting_Notes_J_and_J_Gaming_Nebraska_Entry_and_Effingham_Evaluation-September-17-2026.md]]
+
+- **Everything is evaluated in one place: Effingham, Illinois.** Products "get shipped to our office here… in **Effingham**", where J&J goes through them "**with our CEO**", and "**that was all evaluation for Nebraska or anywhere else that matters done here in Effingham**." A supplier may come and demo, or ship and talk by phone — Sam's offer was "whatever you prefer to do." *(This is a new fact about the company: the June-2026 visit established Omaha as the Nebraska operation; the buying decision does not sit there.)* [[raw/Meeting_Transcript_J_and_J_Gaming_Nebraska_Entry_and_Effingham_Evaluation-September-17-2026.md]]
+- **The CTO evaluates; Sam does not.** "**I'm not the one you need to convince. Our CTO evaluates everything.**" **No name is given for the CTO** in either source. [[raw/Meeting_Transcript_J_and_J_Gaming_Nebraska_Entry_and_Effingham_Evaluation-September-17-2026.md]]
+- **A second name buys equipment — for two states, not three.** "**A gentleman by the name of Derek Bremley is also involved and handles equipment purchasing for Nebraska and Georgia, not Illinois.**" *(The spelling is the recording's only; the derived notes flag Bramley/Bromley as possible and the wiki substitutes nothing.)* The practical consequence Val was given: **Nebraska and Georgia are one conversation at J&J, not two.** [[raw/Meeting_Transcript_J_and_J_Gaming_Nebraska_Entry_and_Effingham_Evaluation-September-17-2026.md]] [[raw/Meeting_Notes_J_and_J_Gaming_Nebraska_Entry_and_Effingham_Evaluation-September-17-2026.md]]
+- **The route up the company Sam offered.** First: "text me your contact information, or you can email it, and **I will meet with our CTO** when I get to the office, which will be in about an hour, and I'll have him call you back." Then, a few lines later: "Send me that information. **I will walk it over to our CEO** and have him give you a call." **Both are recorded; neither is preferred** — the offers name different officers. The commitments are held on [[wiki/people/sam-westgate.md]]. [[raw/Meeting_Transcript_J_and_J_Gaming_Nebraska_Entry_and_Effingham_Evaluation-September-17-2026.md]]
+- **The state list Sam gave:** "**Whether it's Montana or Nebraska or Vegas or Pennsylvania or Illinois or Georgia, and of course we're in Iowa too.**" *(The derived notes read this as **J&J's footprint**; in the recording the sentence opens "Our CTO does not cover all states" and is garbled, so the **list is sourced and the framing is the notes'**. Compare the May-2025 footprint already on this page — Illinois, Georgia, Nebraska, Montana, Nevada, growing in Pennsylvania — which it matches, with Iowa added and "Vegas" standing where Nevada stood.)* [[raw/Meeting_Transcript_J_and_J_Gaming_Nebraska_Entry_and_Effingham_Evaluation-September-17-2026.md]] [[raw/Meeting_Notes_J_and_J_Gaming_Nebraska_Entry_and_Effingham_Evaluation-September-17-2026.md]]
+- **J&J asked about Illinois, unprompted.** "**Is this available in Illinois as well? As far as your transactional product.**" Val had **no Illinois licence** and gave no answer beyond the Georgia push and "we're anxious to put it in every market." Sam's follow-up was the sharpest question of the call: "**How does it apply in Georgia when there's no cash out in Georgia?**" — answered with the Georgia kiosk variant (see the decision page). [[raw/Meeting_Transcript_J_and_J_Gaming_Nebraska_Entry_and_Effingham_Evaluation-September-17-2026.md]]
+- **Val told J&J the first Nebraska game had failed.** "**Full disclosure: our original reiteration… [did] not show good results.**" That is JVL's own position stated to a prospective route customer, and it is consistent with the Nebraska performance record on [[wiki/projects/nebraska-skill-market.md]]. [[raw/Meeting_Transcript_J_and_J_Gaming_Nebraska_Entry_and_Effingham_Evaluation-September-17-2026.md]]
+
+*§15.8: clear — process, product and market only; no named-person compensation. §15.9: clear — Val's "I don't have a license yet" for Illinois is kept as a status, with no number recorded.*
+
 ## Open contradictions
 
 - **How many people does J&J employ?** Three figures in the corpus do not fit together and none is preferred here.
@@ -128,6 +142,7 @@ Dana knew of **no J&J presence in South Dakota**; he named only MG Oil and Axces
 
 - **Is the father-owner "Jay Jansen" or "Jack Jansen"?** One transcript passage says "Jay Jansen," two later ones say James is "the son of **Jack**." Not resolved. [[raw/Meeting_Transcript_JJ_Gaming_Nebraska_Site_Visit-June-16-2026.md]]
 - **What is the relationship between Midwest Amusements and Trestle?** Rick names the Omaha operator as Midwest Amusements and Trestle as the machine manufacturer and current landlord, without explaining whether they are one entity or two. [[raw/Meeting_Transcript_JJ_Gaming_Nebraska_Site_Visit-June-16-2026.md]]
+- **Who is J&J's CTO?** Named only by role on Sept 17 2026 — and he is the man who actually evaluates equipment. [[raw/Meeting_Transcript_J_and_J_Gaming_Nebraska_Entry_and_Effingham_Evaluation-September-17-2026.md]]
 - **Which state holds J&J's "less than a hundred machines"?** The derived notes say Alabama; the transcript's market name at that point is garbled and unrecoverable. [[raw/Meeting_Notes_JJ_Gaming_Nebraska_Site_Visit-June-16-2026.md]] [[raw/Meeting_Transcript_JJ_Gaming_Nebraska_Site_Visit-June-16-2026.md]]
 
 ## Sources
@@ -142,3 +157,5 @@ Dana knew of **no J&J presence in South Dakota**; he named only MG Oil and Axces
 - [[raw/Meeting_Transcript_JJ_Gaming_Bank_Shot_and_Nebraska_Withholding-June-16-2026.md]]
 - [[raw/Meeting_Notes_MG_Oil_Dana_Giesey_South_Dakota_Visit-June-18-2026.md]]
 - [[raw/Meeting_Transcript_MG_Oil_Dana_Giesey_South_Dakota_Visit-June-18-2026.md]]
+- [[raw/Meeting_Notes_J_and_J_Gaming_Nebraska_Entry_and_Effingham_Evaluation-September-17-2026.md]]
+- [[raw/Meeting_Transcript_J_and_J_Gaming_Nebraska_Entry_and_Effingham_Evaluation-September-17-2026.md]]

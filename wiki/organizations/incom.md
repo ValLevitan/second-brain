@@ -2,8 +2,8 @@
 type: organization
 title: Incom (payment processor)
 date: 2025-02-27
-aliases: [Incom, InComm, they totally misled me, InComm's credit, that shift in opinion has only happened recently, black prize play card, white card ATM functionality, replace InComm on the back end, backend displacement, Incomm, Income, NCOM, Incom Payments, wrapped card rule, PAX, PAX 80, reloadable gift cards, Nathan Carver, cash-back commission, barcode activation, Mastercard rules, ABA number, MLH fee sharing, kicked to the curb, InComm doesn't offer any profit sharing, they've ignored us before during and after the show, sponsor bank behind InComm, 120 million a year, the easy living guys, daily cap five k, velocity calculated on the fly, it still says soon, InComm is the master guy, sub accounts, they actually buy bonds, biggest issuer, blue card, black card, billion-dollar gorilla, two dollars to load]
-source-count: 68
+aliases: [Incom, InComm, SkillPay launch email, hold off for two years, we will take the card away from you, Intum, they totally misled me, InComm's credit, that shift in opinion has only happened recently, black prize play card, white card ATM functionality, replace InComm on the back end, backend displacement, Incomm, Income, NCOM, Incom Payments, wrapped card rule, PAX, PAX 80, reloadable gift cards, Nathan Carver, cash-back commission, barcode activation, Mastercard rules, ABA number, MLH fee sharing, kicked to the curb, InComm doesn't offer any profit sharing, they've ignored us before during and after the show, sponsor bank behind InComm, 120 million a year, the easy living guys, daily cap five k, velocity calculated on the fly, it still says soon, InComm is the master guy, sub accounts, they actually buy bonds, biggest issuer, blue card, black card, billion-dollar gorilla, two dollars to load]
+source-count: 70
 open-commitments: 14
 open-questions: 5
 ---
@@ -533,6 +533,47 @@ Billy names the addressee of the Georgia Lottery's new opinion letter as **John 
 
 **Billy will not deal with InComm at all** — "**We don't do business with the devil… he's the billion-dollar gorilla**" — hardening the Sept-2 position above. Val declined to endorse it: "**I'm not sure where you get this information.**" See [[wiki/people/billy-liu.md]] [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]. The derived notes record Val pushing "**twice, asking why it is half and why InComm appears to get more**" and list the answer as one of the meeting's open items [[raw/Meeting_Notes_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]].
 
+## Sept 17 2026 — the SkillPay launch, the public reversal, and a two-year-old grievance Val had never put on the record
+
+At the [[wiki/meetings/2026-09-17-halcyon-amusements-georgia-class-a-and-texas-route-partnership.md|Roswell breakfast]] [[wiki/people/yash-patel.md|Yash Patel]] gave the **retailer-facing** account of the SkillPay launch and its reversal — the first in this corpus from someone whose own stores were on the shipping list — and Val answered it with a story about InComm that appears nowhere else. This is the meeting's tense opening, and it set the tone for the rest of it. [[raw/Meeting_Notes_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+
+### What happened, as the operator saw it
+
+- **An earlier clearance, in early September.** "**Was it September second, I believe, or fifth, something like that? Where they were like, 'Hey, yeah, we're fine with SkillPay. We'll let retailers use it.'** And everybody's like, 'Okay, great. This is fantastic. All my retailers are ready for it.'" *(The date is his own guess and is kept hedged.)*
+- **Then the launch email, the morning of Sept 16.** "**Yesterday morning, [InComm] sends an email out to all the retailers, like, 'Hey, SkillPay's been approved. You don't need to call us to get your cards. We've got everybody's locations on the list. We'll send you emails with tracking numbers.' We did all that. Most of my retailers got their tracking number.**"
+- **And the reversal the same evening.** "**And now at 7:00 p.m.**…" — the sentence breaks off, but the context is the Georgia Lottery's public pushback, which is what Val opened the subject with: "**What do you make of the announcement yesterday? The SkillPay one.**" Yash's answer: "**It's [expletive] stupid**" — and, asked stupid by whom, "**It's lottery, because [InComm]'s ready. They sent all the retailers emails.**"
+- **He had already told his own retailers they were clear**, which is why it stung: "**I tell all my retailers that we're gonna be good.**"
+
+[[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+
+### His account of the permission that was supposedly given
+
+He describes a prior association meeting at which the position was set: "**once the retailer issues the gift card, we do not care what happens to the gift card**", which the master licensees took as sanctioning cash-back — "**All the masters [were] like, oh, this is great… it's basically cash back.**" He listed four people as present, "**all the people that needed to be there were there**."
+
+**The four names are recorded as unresolved.** They are rendered "**Joe Kim**", "**Chris Bonnick**", "**Michael Parham**" and "**Reggie Tar**", in a passage that also renders GAMOA as "Gamboa" and the meeting itself as "the May gala meeting". **None matches anyone in this corpus, none is verified, and no page is created for any of them (§4).** A fifth name, "**Laurie**", appears in the same passage as the person who said "Okay, great" — also unresolved. [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]] [[raw/Meeting_Notes_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+
+### Val's grievance: InComm asked him to build a retail kiosk, then told him to shelve it for two years
+
+**This is new to the corpus and it is the strongest thing Val says about InComm anywhere in it.**
+
+> "**Two years ago, [InComm] came to me. They came to my office and they asked me to manufacture [a] retail kiosk that I showed in the show. You saw it, right? So we shook hands. I said, 'Okay, great, I'll do it.' I did it. So then, [InComm] calls me and says, 'We need you to — after the show. We need you to hold off for two years.' I said, 'What are you saying?'… I showed it. I put money into it.**"
+
+And the leverage they used: "**'Well, we just want to tell you that if you do it, we will take the card away from you. We're not going to let you clear it.'**" Val's own summary: "**So I was pissed off.**"
+
+**Why it matters beyond the anecdote.** This page already records that JVL intends to displace InComm on the back end (Sept 9), that Val told the regulator he was misled (Sept 10), that a would-be competitor says InComm signs NDAs and then ignores them (Sept 11), and that InComm shares no back-end profit. **The kiosk story is the earliest-dated grievance of the set and the only one in which InComm is described as threatening to withdraw the card.** *(Val gives no date beyond "two years ago" and does not name which show; nothing is inferred.)* [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+
+### Where both men landed: do nothing, and say nothing
+
+Val: "**the mistake is this conflict should have been left in the back room, not in public. The lottery shouldn't have come out with a statement, and [InComm] should not have forced the issue. It should have been just quiet. Issue your… cards. Don't make any statements. The law is the law, what it is right now. Whatever the conflict is, [leave it] up to the judge and the attorney general**"; and "**the more anybody asks for clarity or justification… Stop asking. Just stop digging.**" Yash agreed line for line and added the risk of drawing in prosecutors: "**now you bring it to the attention of the DAs and the Attorney General.**"
+
+**On timing, both expect nothing before the election.** Val: "**Will Attorney General come down and start ruling on it? Oh, for sure. Not before election.**" Yash: "**Nothing's going to happen before November.**" Val's model of the two attorneys-general who might act — one with political ambition in a Bible-Belt state, one who "wants tax dollars" — is on [[wiki/people/val-levitan.md]].
+
+**And Val's stated priority, in his own words, which is the reason he will not take a side:** "**I want gift card. I want ATM. I want cash. But that's me personally… The view of my company is this: I want longevity of the business… I want to sell today, tomorrow, and I want to build relationships.**" His stated fear is **not** which way the market goes but that it **splits**: "**The split of the market is more dangerous than everybody going in one direction.**" [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+
+*(Transcript note: this source renders InComm as "**income**"/"**Income**" nine times, of which the derived notes rule **seven are InComm** and **two are the ordinary word** — "if we get incremental income", "the incremental income right away". One further occurrence reads "**Intum**". The notes call this "the eighth transcript in ten days to need it." The canonical name is used in the wiki's own voice; garbles survive only where quoted.)* [[raw/Meeting_Notes_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+
+**§15.8:** clear — product, regulatory and market content only; no named-person compensation. **§15.9:** clear — no card, account or licence numbers.
+
 ## Open questions (Sept 15 2026)
 
 - **Why does InComm get a bigger share of Visa interchange than a smaller issuer?** Val asked it directly of a competitor — "Why does [InComm] get more?" — and no answer survives on the record; the only explanation offered ("they have a slightly different formula") sits on the wrong speaker label — [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
@@ -618,3 +659,5 @@ Billy names the addressee of the Georgia Lottery's new opinion letter as **John 
 - [[raw/Meeting_Transcript_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]]
 - [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
 - [[raw/Meeting_Notes_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
+- [[raw/Meeting_Notes_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+- [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]

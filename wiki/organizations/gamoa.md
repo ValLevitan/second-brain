@@ -2,8 +2,8 @@
 type: organization
 title: GAMOA — the Georgia coin-operated amusement machine operators' association
 date: 2026-09-01
-aliases: [GAMOA, GOAM, GMUA, Gamua, Gamboa, Gomoa, Gomorrah, Georgia operators association, the state association, the association, GAMOA board, GAMOA show, GAMOA expo, gift-card lobbying]
-source-count: 9
+aliases: [GAMOA, GOAM, Demola, Gamal, seventy thirty, you are ostracized, indecision is the worst decision, GMUA, Gamua, Gamboa, Gomoa, Gomorrah, Georgia operators association, the state association, the association, GAMOA board, GAMOA show, GAMOA expo, gift-card lobbying]
+source-count: 11
 open-commitments: 0
 open-questions: 2
 ---
@@ -101,6 +101,18 @@ Discussing a **September-2 letter** worrying that players now reach cash too qui
 - **The body is not named GAMOA in the source.** Val says "Coin Coin Operators Machines Association," which is a description of the Georgia COAM operators' association rather than its name; **identifying it as GAMOA is an inference** from role and market, consistent with the naming note above (the transcripts render the name many ways and sometimes not at all).
 - **What it adds:** every other source on this page treats the association as a channel to be courted. This is the first to treat it as a **veto** — and Val's stated position is that he would accept the veto without changing the product, because "it has nothing to do with the technology." [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
 
+## Sept 17 2026 — a sitting board member's criticism of his own association, and his 70/30 count on SkillPay
+
+[[wiki/people/yash-patel.md|Yash Patel]] of [[wiki/organizations/halcyon-amusements.md|Halcyon Amusements]], over breakfast with Val ([[wiki/meetings/2026-09-17-halcyon-amusements-georgia-class-a-and-texas-route-partnership.md|Sept-17, 8:49–10:19 AM ET]]). **He is a board member, and he says so before criticising** — "**I'm a member of [GAMOA]. I'm on the board, right? So this is nothing against them. It's not vindication.**" [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+
+- **His charge: compulsory membership, enforced socially.** The association "**has made it to where they want to force every other retailer and master licensee and operator, manufacturer, to be a member… And it's like if you're not a member, if you're not part of this club, then we don't like you. You're ostracized.**" *(This is the demand-side view of the "every part of the trade in one body" structure recorded above.)* [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+- **His count on the SkillPay split: about 70/30 in favour, not 50/50.** Val put the market as "split more or less in the middle"; Yash: "**I'd say seventy thirty, honestly**", reasoning from having sat on both the retail and the operator side. His evidence is specific and is about **non-members**: "**All the other operators that I know, I'm friends with, that are not [GAMOA] members, they all want skill pay. All the retailers I know, they all want skill pay. There's nobody out there who says no.**" And within the association itself: "**the [GAMOA] members — half of them, probably majority, wanted the skill pay**." [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+- **His governing rule, and Val's agreement:** "**the minority should just get absorbed into the majority… If it's good for ninety percent of the people, the ten percent needs to deal with that and move in one direction. Because indecision is the worst decision.**" Val's own version is about **splitting**, not direction: "**The split of the market is more dangerous than everybody going in one direction. I almost prefer everybody going in whatever direction they pick. Just pick a… direction and go in that direction.**" [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+- **On lobbying, he tells his own masters to stop.** "some of these guys are like, oh, we're going to lobby to the state to get this law changed. I'm like… **save your fucking money.** Because now you're lobbying for one thing, then you get another master… [who] wants it done a different way. That's more beneficial to him than the industry… **Now you're bringing more attention to this wound. It's festering now. Just leave it alone. That's my strategy: do nothing.**" [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+- **On Class A, he accepts "one hundred percent against" as the association's line** and gives its reason (Class A cutting Class B revenue, and therefore state scholarships), while disagreeing with it himself. Full passage on [[wiki/topics/georgia-class-a-machines.md]] (Sept 17 2026). **This does not settle whether GAMOA holds a formal position** — the Sept-1 board member said "we don't have a specific thing" — and both stand. [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+
+*(The recording renders GAMOA as "**Demola**" throughout, with "**Gamboa**", "**Gamow**" and "**Gamal**" as further variants in the same passage; the derived notes read all of them as GAMOA and flag "Demola" as a probable new glossary entry. The identification rests on context — "I'm a member of Demola. I'm on the board" from a Georgia COAM operator — and is consistent with the many renderings this page already carries.)* [[raw/Meeting_Notes_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+
 **§15.8:** clear — association budget structure, membership and board composition, show economics and political-spending mechanics only. The one pay-related statement in the source (that a single administrator is salaried while the board volunteers) carries **no figure**, and none is recorded.
 
 ## Sources
@@ -114,3 +126,5 @@ Discussing a **September-2 letter** worrying that players now reach cash too qui
 - [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
 - [[raw/Meeting_Notes_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
 - [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+- [[raw/Meeting_Notes_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+- [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
