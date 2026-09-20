@@ -3,7 +3,9 @@ type: topic
 title: Low-cost street machine (sub-$2,000 street cabinet program)
 date: 2026-06-09
 aliases: [street machine, street cabinet, Sept 16 board spec, ID003 and ccTalk, eye level electronics, halo light, plywood cabinet, cup holders, low-cost street machine, low-cost street cabinet, street slot machine, sub-$2000 street machine, RK3588 street machine, stripped street cabinet, Flex S, флекс эс, стрит машина, RK3576 street machine, wooden monolithic body]
-source-count: 12
+source-count: 14
+open-commitments: 2
+open-questions: 0
 ---
 
 # Low-cost street machine (sub-$2,000 street cabinet program)
@@ -154,6 +156,35 @@ Then his own lean: light the panel from behind the monitor "**как хейло 
 
 Genadi's own status round opens the call and confirms the Sept-14 sequence is holding: he is **releasing the plastics for Georgia** (quoting and ordering now); he is **updating the monitor scanner**, moving the scanner to a different place, and needs a quotation before he can release it; "**послезавтра**" — the day after tomorrow — he moves to the **TITO printer**; and "**[н]екс[т] … [в]ик — [п]ереключаюсь на стрит**", next week he switches to the street machine [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]. That is consistent with the **September 23** start on [[wiki/decisions/2026-09-14-tito-printer-cases-come-before-the-street-cabinet.md]].
 
+## Sept 16 2026 (afternoon, in English) — the same cabinet costed out loud, and a glued screen rejected at the machine
+
+Later the same day, on [[wiki/meetings/2026-09-16-jvl-transactional-ecosystem-and-class-a-market-strategy.md|the 2:53 PM strategy session]], [[wiki/people/val-levitan.md|Val]] gave the cheap-cabinet specification a second time — to JVL's games lead, in English, and in commercial rather than engineering terms. Asked outright "**Do you have a vision for what that cabinet's going to be?**", he answered [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]:
+
+- **The governing constraint, in his own words:** "**It has to be reduced… we're fighting for every, for every, literally for every ten dollars. Like literally fighting for every ten dollars.**"
+- **Certification cost comes out:** "**Most of GLI [stuff] is going to be cannibalized**" — the same call as the [[wiki/decisions/2026-09-16-street-machines-skip-gli-so-no-boxes-and-no-tampers-but-nebraska-reopens-it.md|morning GLI ruling]], reached independently in a different conversation.
+- **Connectivity replaces memory:** "**Memory is extremely expensive, so we use cell phone and data plan. It's very cheap for us to buy it in bulk. So we can reload, preload, unload, load games or selections overnight.**" That is the commercial rationale behind the morning's [[wiki/decisions/2026-09-16-one-fram-chip-instead-of-six-and-low-power-mode-laid-in-but-not-populated.md|memory cut]] and the mandatory cell modem.
+- **The money-in spec, stated as a default plus an option:** "**the standard should be our AFT with no bill, with no printer, and if people want bill acceptor, we should offer back load. It's one third of a price**" — with the front-load validator still being designed. **And "as for the vertical screen, it will not have an option."**
+- **Audio.** "**All of it is gone. The amplifier, subwoofer, mid range**"… "**they absolutely assassinate audio. It is heartbreaking, and that's why I believe that the speaker should be frontal, frontal mount, and very focused.**" That corroborates the morning decision to drop the amplifier, and adds a positive requirement the morning call did not state: **a single front-mounted, focused speaker.**
+- **The economic case for the whole machine:** "**if you take the anticipated price of the machine, the anticipated daily net daily win per machine, and the fact that there is no taxation from GLC… You could potentially put more machines in the location. There's no limit. There's no limit.**"
+
+*(Two items in the same passage are **garbled and left as transcribed, not upgraded**: "**something like Bali has**" — a smaller fallback feedback device — and "**I don't like the square Vex… But I do like Valor, like critical people, standard**", which is not interpretable.)* [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
+
+### The walk-round at the machine (01:08 onwards) — build quality rejected on three counts
+
+The last part of the recording is Val standing at a physical machine with two other people. **Which machine is not named on the recording**; the derived notes read it as the street cabinet, and that reading is **recorded as theirs, not asserted here** [[raw/Meeting_Notes_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]] [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]].
+
+- **Wires from the back, not hanging.** Val: "**Did you tell [[wiki/people/genadi-peari.md|Gennady]] that we want the wires running from the back?**" — and Genadi's answer, relayed in the room, was that he had seen a video of how it runs now and "**it's a good idea**". Val on what is in front of him: "**I don't like these wires hanging like this**… **We have holes here so we can run. This is not elegant. This is not right.**" The answer from the room was that it is temporary — "**It shouldn't be like that. It's all temporary. We are building this machine.**"
+- **The holder needs proper fixings.** "**The holder needs to be here, and there has to be a limiter here**"… "**There needs to be a slot in here and a holder. There has to be a pem in here, a slot in here, and a attachment here. This is not good.**"
+- **The glued screen — rejected outright.** "**why is it always glued? It cannot be… No, it cannot be glued. You gotta fix that. We need a solution because this one is a screen, and we obviously cannot screw it**… **You have to say glueing it is not a solution**"; "**perfectly secure. This is not a solution.**"
+- **And he asked for it on the record:** "**Please take a picture of it**"… "**Please document it.**"
+
+*(**Speaker labels straddle turns badly through this stretch** — the glue rejection and the reply to it fall under one label. The reading above follows the derived notes; **flagged, not silently repaired**. A phrase transcribed as "**Tell United this is not good**" is left as transcribed and not interpreted.)* [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]] [[raw/Meeting_Notes_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
+
+## Open commitments
+
+- [ ] **Mechanical engineering (via [[wiki/people/genadi-peari.md|Genadi Peari]])** — re-engineer the cabinet so the screen is **fastened, not glued**, and so the wires run from the back with a proper holder, slot, pem and limiter — due **not stated**; "**You gotta fix that**" — [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]] [[raw/Meeting_Notes_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
+- [ ] **Whoever was at the machine** — photograph and document the wiring and mounting defects Val called out — due **immediately**; "**Please take a picture of it… Please document it**" — [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
+
 *§15.8: board, component, cabinet and build-cost economics only; one comparative remark about a named colleague's board work was excluded. No named-person compensation.*
 
 ## Sources
@@ -170,3 +201,5 @@ Genadi's own status round opens the call and confirms the Sept-14 sequence is ho
 - [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
 - [[raw/Meeting_Notes_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
+- [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
+- [[raw/Meeting_Notes_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]

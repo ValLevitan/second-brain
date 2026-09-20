@@ -3,7 +3,7 @@ type: person
 title: Joe Kim (Georgia Lottery general counsel, COAM)
 date: 2026-08-26
 aliases: [Joe Kim, Joe Kemp, Joe, Joel, Joe's recent letter, the letter from last week, we directed it to an appropriate department, Joakim, Joe can, lottery council, Georgia Lottery general counsel, GLC general counsel, chief legal counsel of the Georgia lottery, he brushed it off, a stupid letter, bipolar regulator, addressed to John Household, he's kind of redacting what he had said, he did not come by my booth]
-source-count: 11
+source-count: 12
 open-commitments: 0
 open-questions: 4
 ---
@@ -76,7 +76,19 @@ At the [[wiki/meetings/2026-09-15-billy-liu-playpay-nda-and-georgia-float-econom
 
 **Is this the same letter Val read on Sept 10?** Billy's own dating wavers inside one sentence — "**Just this week, a few days ago. Not a few days ago. There is a new one**" — and the source never settles whether he means the letter already on this page or a further one. **Not resolved; recorded as an open question below.** [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
 
+## Sept 16 2026 — Val's own telling, to an outside operator: "he shot in his pants"
+
+On the [[wiki/meetings/2026-09-16-jamie-boyden-call-recycler-advice-and-class-a-recruitment.md|12:50 PM phone call with Jamie Boyden]], Val narrated the recycler episode from the beginning. It is his **bluntest description of Kim's reaction in the corpus**, and the first told to someone outside the JVL/InComm/Lottery circle [[raw/Meeting_Transcript_Jamie_Georgia_Class_A_Opportunity_and_Market_Outlook-September-16-2026.md]].
+
+- "**I reached out to Joe Kim. I showed all the cards that Georgia introduced. InComm… They introduced a conversion to an ATM card. I manufactured a recycler that would take these cards and dispense cash. When Joe Kim saw it, he shot in his pants. He just went ballistic.**" [[raw/Meeting_Transcript_Jamie_Georgia_Class_A_Opportunity_and_Market_Outlook-September-16-2026.md]]
+- **Asked why — "Is it because he didn't understand it, or because he thought it was legal?" — Val did not answer the question** and went to the consequence instead: "**the whole Georgia Lottery now is backpedaling on the card, on the ATM card, and the whole industry is upside down.**" [[raw/Meeting_Transcript_Jamie_Georgia_Class_A_Opportunity_and_Market_Outlook-September-16-2026.md]]
+- **And he says plainly that he thinks Kim is lost:** "**That's how I interpret it. That's how InComm interprets it. Everybody's confused. I think Joe Kim is confused.**" [[raw/Meeting_Transcript_Jamie_Georgia_Class_A_Opportunity_and_Market_Outlook-September-16-2026.md]]
+
+The consequence side of this — both InComm **and** the Georgia Lottery asking Val after the fact not to put the recycler in the market — is on [[wiki/decisions/2026-09-02-hold-the-recycler-back-but-sign-no-undertaking.md]].
+
 ## Open contradictions
+
+**Did Val show the recycler to Kim himself?** The Sept-16 telling reads that way — "**I reached out to Joe Kim. I showed all the cards**… **When Joe Kim saw it**" — while everything else in the corpus has Kim seeing JVL's equipment **on the show floor in August**, reaching JVL only through InComm and [[wiki/people/andrei-klimovich.md|Andrei Klimovich]], and Val stating on Sept 10 that he asked for a meeting and was brushed off. **Both stand; the phone-call wording is loose and no source settles whether "showed" means a meeting, a booth, or the product simply being seen.** Not resolved [[raw/Meeting_Transcript_Jamie_Georgia_Class_A_Opportunity_and_Market_Outlook-September-16-2026.md]] [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]] [[raw/Meeting_Transcript_InComm_Skill_Pay_ATM_Guidance-August-26-2026.md]]
 
 **Did Kim see Billy Liu's product at the August show?** Two accounts of the same event, from the two competitors, and they do not agree. Recorded, **not resolved**.
 
@@ -106,3 +118,4 @@ The two may be compatible if "noticed" means something looser than a booth visit
 - [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
 - [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
 - [[raw/Meeting_Notes_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
+- [[raw/Meeting_Transcript_Jamie_Georgia_Class_A_Opportunity_and_Market_Outlook-September-16-2026.md]]

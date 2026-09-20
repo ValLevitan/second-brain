@@ -3,9 +3,9 @@ type: topic
 title: Georgia prize-card processor economics — the fee sheet, the float, and who actually captures the money
 date: 2026-08-31
 aliases: [prize card economics, cannot be exchanged for currency at the location, where the prize is won, welcome to our world, three fifty-eight nine, HB 353, white card ATM functionality, black prize play card, should I be working on ATMs, Avshad Patel, Ready Credit Corporation, the card puzzle, why pay cash without issuing a card, average load per card, two hundred eighty dollars per card, InComm takes the risk, program manager not provider, Fiserv, breakage zero point three, card to machine fee, MoneyPass, fifty basis points, PAX A80 two hundred dollars, gift card float, dormancy fee, card fee structure, 9.6 percent per year, I'm in the wrong business, free PAX, breakage, five billion in payouts, multi-provider manipulation, reloadable cards, Mastercard rules, gift card policy intent, half a percent, front fees to the store, two dollars per push, PlayPay fees, eight percent on the back end, FBO account, holding that money, B with the B, seventy four hundred locations forty seven thousand machines, InComm doesn't offer any profit sharing, a card solution is not useful if it doesn't lead to cash, thirteenth month after activation, pre-fund, ten thousand dollar pre-fund, twenty four thousand dollars over the weekend, half a percent is my percentage, that's my agreement with Visa, secret document that Visa does not divulge, I can turn my AFT off, GDL is the only company that gives it away, mute them for now, anti money laundering, house bill three fifty three, I faked that, pass to cash, self checkout counter, escheat, easement, sub accounts, they actually buy bonds]
-source-count: 27
+source-count: 29
 open-commitments: 0
-open-questions: 12
+open-questions: 13
 ---
 
 # Georgia prize-card processor economics
@@ -576,8 +576,25 @@ Billy said the same thing from the other side: "**store owners make more. Store 
 
 **§15.8:** clear — float mechanics, fee structures, market sizing and back-end margin estimates only; no named-person compensation.
 
+## Sept 16 2026 — what the 8% actually *is*, and the endgame said plainly: be a partner at a bank
+
+On [[wiki/meetings/2026-09-16-jvl-transactional-ecosystem-and-class-a-market-strategy.md|the 2:53 PM strategy session]], talking to a JVL colleague rather than a counterparty, Val stated the whole economic thesis in about ninety seconds. **It is the first time in the corpus he says what the 8% is made of** [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]].
+
+- **The fee line, restated:** "**It is approximately one percent to be made on the amount of money that you transact. You transact five billion dollars. That's what I'm up**" [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]].
+- **And then the part that matters, named for the first time:** "**It's not about the charge. It's about money that you leave behind and don't process. That amounts to approximately eight percent.**" **On Sept 11 the same 8% was labelled only "back end"** ([[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]); here he identifies it as **unspent, unprocessed balances** — breakage, not investment yield. *(That is a clarification of his own earlier figure, not a new number, and it still does not reconcile the 8 / 15 / 20 % spread in the open question below.)* [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
+- **The transaction fee itself he is willing to give away entirely:** "**Two dollar fee. We don't really care. We're willing to give it up. We make money on monthly recurring fees, but I'm after slightly different thing. I want to have that cash. The transactional cash. That's what I'm after**" [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]].
+
+**The destination he names for it: a bank.** "**So, so what I would like to do is I would like to be a partner at a bank, and that's what I'm looking**" — and the whole-stack argument behind it [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]:
+
+> "**Nobody is in a position to sell machines, class A and class B, provide transactional equipment, the AFTs, the point of sales, to transact, and then to have cash. Unheard of. If I can pull it off, that's going to be a stunt and a half.**"
+
+*(The following line — "**And I have a few friends that own banks, so I know I will get it. I want to hold that money**" — falls under the **other** speaker's label in the transcript, directly after Val's sentence. It reads as his continuation and the derived notes treat it as his. **Flagged as a possible diarisation artifact, not silently reassigned.**)* [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]] [[raw/Meeting_Notes_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
+
+**Val also drew the boundary of the business while describing it.** He does not want gaming machines inside the transactional ecosystem at all: "**I don't want to include gaming machines into any sort of ecosystem except the machines, because… to make machines is very difficult and I don't want to bring it into the pot of soup with something else**"; "**As a separate business, I enjoy being in that business, and I don't want to dilute it with some mechanical transactional business. Transactional business is not creative; it's mechanical. It was easy for me to enter because of my cash card experience.**" **The naming question was left open** — the colleague proposed **"JTE — the JVL transactional ecosystem"**, Val liked the concept and rejected the abbreviation ("**I just don't like the name. Can you come up with a different abbreviation? I like the JVL ecosystem**") and tried several aloud without choosing one [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]].
+
 ## Open questions
 
+- **What is the transactional business to be called?** "JTE" was proposed and rejected on Sept 16 2026; nothing was chosen — [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
 - **What does Visa actually pay PlayPay, and why is InComm's share bigger?** Billy stated 1% interchange of which he keeps half, refused to go further — "that is a secret document that Visa does not divulge" — and Val's question "Why does [InComm] get more?" was never answered on the record (Sept 15) — [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
 - **Would the Lottery accept a whole-store self-checkout as the cash point instead of a prize-card dispenser?** Val floated it under NDA on Sept 15 and did not know the answer himself — "maybe yes, maybe not" — [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
 - **Who funds the pre-fund if JVL and PlayPay go together?** Val offered to find a backer and Billy accepted the idea; neither could size the return, which is the stated reason no deal was reached on Sept 15 — [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]] [[raw/Meeting_Notes_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
@@ -622,3 +639,5 @@ Billy said the same thing from the other side: "**store owners make more. Store 
 - [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
 - [[raw/Meeting_Notes_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
+- [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
+- [[raw/Meeting_Notes_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]

@@ -4,7 +4,7 @@ title: Lucky Coin declines exclusivity — and offers more JVL machines on the r
 date: 2026-09-16
 status: active
 aliases: [Kyle declines exclusivity, put myself in a box, exclusivity is what I'm hung up on, more JVLs into our route, kiosk in a location or two, I'm not gonna pursue this business, leave it in your court, Kyle Shepard is back online, he's afraid of exclusivity]
-source-count: 2
+source-count: 4
 open-commitments: 2
 open-questions: 3
 ---
@@ -48,9 +48,24 @@ Kyle's close: "**I will let you know**… [as] **soon as we come up with all the
 - **The account is not lost.** What died is the exclusivity, not the relationship: a non-exclusive route expansion plus a kiosk pilot is live, and by Val's own choice the next move belongs to Kyle [[raw/Meeting_Notes_Lucky_Coin_Exclusivity_Declined_and_Pilot_Opening-September-16-2026.md]].
 - **This is evolution, not contradiction (§11).** Sept 9 left the answer open and due Sept 15; Sept 16 supplies it. The Sept-9 page is annotated and its titular ask marked dead; nothing there is deleted.
 - **The Sept-9 bundle's fate is untouched by this call.** The free per-location equipment, the locally stationed engineer and the free replacement of Lucky Coin's ten-to-twelve existing kiosks were all priced against winning the whole account. **Nothing was said on Sept 16 about what stays on the table** — recorded as an absence, an open question below [[raw/Meeting_Notes_Lucky_Coin_Exclusivity_Declined_and_Pilot_Opening-September-16-2026.md]].
-- **How Val reported it internally the same afternoon.** The derived notes quote him on that day's later strategy recording — "**Kyle Shepard is back online. He called me. He's afraid of exclusivity. Everything else works**" — and use it to confirm the counterparty's identity, recorded as confirmed by Val on 2026-09-16 [[raw/Meeting_Notes_Lucky_Coin_Exclusivity_Declined_and_Pilot_Opening-September-16-2026.md]].
+- **How Val reported it internally the same afternoon.** The derived notes quote him on that day's later strategy recording — "**Kyle Shepard is back online. He called me. He's afraid of exclusivity. Everything else works**" — and use it to confirm the counterparty's identity, recorded as confirmed by Val on 2026-09-16 [[raw/Meeting_Notes_Lucky_Coin_Exclusivity_Declined_and_Pilot_Opening-September-16-2026.md]]. **That recording is now in the corpus and the line is verified against it directly — see the section below.**
 
 **Second Georgia operator in eight days to refuse account-level exclusivity.** [[wiki/organizations/arc-gaming.md|ARC Gaming]] refused it on Sept 9 — "I don't think you can buy my entire business" ([[wiki/decisions/2026-09-09-arc-account-exclusivity-sought-and-not-obtained.md]]) — and Lucky Coin refuses it here for a different stated reason: not the size of the account but the **speed of technology change in the state**. *(The pairing is an observation across two pages, labelled as an **inference**; neither source mentions the other.)*
+
+## Corroborated five minutes later, from a second independent recording
+
+Val reported the outcome to a JVL colleague **four minutes into [[wiki/meetings/2026-09-16-jvl-transactional-ecosystem-and-class-a-market-strategy.md|the 2:53 PM strategy session]]** — a different recording, different participants, and **the first corroboration of this decision from a source other than the call itself** [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]].
+
+> "**Also, one more news. Kyle Shepard is back online. He called me. He's afraid of exclusivity. Everything else works.**"
+> [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
+
+That line independently confirms every load-bearing element of this decision: **Kyle placed the call**, the refusal is **about the exclusivity specifically**, and **the rest of the relationship is intact** ("everything else works").
+
+- **Val's own read of the counter-offer:** "**A smaller, smaller portion, test it, try it. It's absolutely civilized and frugal approach.**" [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
+- **And his account of his own conduct, made to a third party rather than to the customer:** "**I apologize. I said I was a little bit aggressive in my offering**… **I actually appreciate the fact that he called and had a very decent conversation. I enjoyed myself very much, and I was aggressive, and it's my nature.**" That matches the apology he made to Kyle on the call itself [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]].
+- **An hour later he turns it into a general rule about how this market buys:** "**at the end a decision is made, just like Kyle made a decision. You could give any deal you want, but first they'll try it. If it works, if the location works, then the deal is important**" — and "**Nothing happens** [until] **they're 100% sure they're going to go through it**", capped with his father's line, "**Great, show me the cash box.**" This sits directly beside the [[wiki/decisions/2026-09-16-do-not-discount-hold-price-extend-terms-add-value.md|no-discount doctrine]] set in the same conversation: **the deal does not move the decision; the trial does** [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]].
+
+*(**Spelling:** the strategy transcript also renders the surname "Shepard"; the vault standard is **Shepherd**. Same person — see [[wiki/people/kyle-shepherd.md]]. **The derived notes of the 2:53 PM session omit this passage entirely** — no mention of it in their summary, decisions, undertakings or open questions. Recovered from the transcript.)* [[raw/Meeting_Notes_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
 
 ## Open commitments
 
@@ -69,3 +84,5 @@ Kyle's close: "**I will let you know**… [as] **soon as we come up with all the
 
 - [[raw/Meeting_Notes_Lucky_Coin_Exclusivity_Declined_and_Pilot_Opening-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Lucky_Coin_Exclusivity_Declined_and_Pilot_Opening-September-16-2026.md]]
+- [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
+- [[raw/Meeting_Notes_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]

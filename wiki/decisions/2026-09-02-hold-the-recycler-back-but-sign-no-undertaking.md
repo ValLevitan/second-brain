@@ -3,10 +3,10 @@ type: decision
 title: Hold the cash recycler back from anything InComm-associated — but sign no undertaking not to build it
 date: 2026-09-02
 aliases: [recycler standoff, cash recycler red line, no letter, the note InComm asked for, it leaves me with no choice, ten steps away, partnership would struggle, it's not gonna fit, a second piece of equipment beside it, I don't think it should be an ATM]
-source-count: 5
+source-count: 7
 status: active
-open-commitments: 2
-open-questions: 3
+open-commitments: 3
+open-questions: 4
 ---
 
 # Hold the cash recycler back from anything InComm-associated — but sign no undertaking not to build it
@@ -77,8 +77,26 @@ A week later, at the [[wiki/meetings/2026-09-09-lucky-coin-service-burden-and-ex
 
 **How this bears on the first open question below, without answering it.** "Does 'hold it back' mean not building it, or building it and not selling it into Georgia COAM?" — Sept 9 says something narrower and new: **the recycler will not be a field upgrade to the shipped Pay unit**, and Val expects "something else" instead, which he refused to describe. That is a product-architecture statement, not a development-status one, so the question stays open. It also **pulls against the Sept-2 modularity promise made to the same customer** — [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]'s "if you decide to add additional features, you can **upgrade, not replace**," and Val's own "you're not losing anything… **the same form-fit device**." Both stand; **the two sources do not mention each other and nothing here reconciles them.** [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]] [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
 
+## Sept 16 2026 — Val's own account of the standoff, and an operator telling him to break it
+
+On a **12:50 PM phone call** with [[wiki/people/jamie-boyden.md|Jamie Boyden]] ([[wiki/meetings/2026-09-16-jamie-boyden-call-recycler-advice-and-class-a-recruitment.md|the call]]), Val narrated the whole recycler episode to someone outside JVL for the first time in the corpus — and got the opposite advice to the one he has been following [[raw/Meeting_Transcript_Jamie_Georgia_Class_A_Opportunity_and_Market_Outlook-September-16-2026.md]].
+
+**His own telling of what happened:**
+
+> "**I reached out to Joe Kim. I showed all the cards that Georgia introduced. InComm… They introduced a conversion to an ATM card. I manufactured a recycler that would take these cards and dispense cash. When Joe Kim saw it, he shot in his pants. He just went ballistic.**"
+> [[raw/Meeting_Transcript_Jamie_Georgia_Class_A_Opportunity_and_Market_Outlook-September-16-2026.md]]
+
+- **Both parties asked him to stop, and both asked *after* they had seen it.** "**InComm politely asked me, 'Please not do not make it, do not put it in the market.' And so I met with Georgia Lottery… And they also politely told me it would be nice if you wouldn't do**" — and, to Jamie's "**You went ahead and did it**": "**No. Post fact. They asked me post fact after they saw it.**" *(This is the **first statement in the corpus that the Georgia Lottery itself made the same request**. Which Lottery meeting he means is **not stated on the call** and is not asserted here.)* [[raw/Meeting_Transcript_Jamie_Georgia_Class_A_Opportunity_and_Market_Outlook-September-16-2026.md]]
+- **He says the regulator is now retreating from its own card.** "**the whole Georgia Lottery now is backpedaling on the card, on the ATM card, and the whole industry is upside down.**" *(Val's characterisation, on a phone call; no Lottery source in the corpus says this.)* [[raw/Meeting_Transcript_Jamie_Georgia_Class_A_Opportunity_and_Market_Outlook-September-16-2026.md]]
+- **And he states his own legal reading out loud, which he had not done before.** Jamie: "**It's illegal under the current law, is it not?**" Val: "**That's how I interpret it. That's how InComm interprets it. Everybody's confused. I think Joe Kim is confused.**" [[raw/Meeting_Transcript_Jamie_Georgia_Class_A_Opportunity_and_Market_Outlook-September-16-2026.md]]
+
+**The advice he was given, and did not answer.** Jamie told him to do the opposite of holding back: "**Don't you want to force the issue? Sell a bunch, force the issue, and then they have to change the rates. It's going to open up. It could open up the door to make Georgia a VLP market**" — with the political case behind it (Kemp's departure; Jamie's estimate of "**over sixty percent in favor of cash gaming in Georgia**"; "**if you get the catalyst going to force change, could be kind of interesting**"). **Val answered only with a joke — "It could make Georgia great again" — and moved the conversation to Class A. He took no position either way on the call** [[raw/Meeting_Transcript_Jamie_Georgia_Class_A_Opportunity_and_Market_Outlook-September-16-2026.md]] [[raw/Meeting_Notes_Jamie_Georgia_Class_A_Opportunity_and_Market_Outlook-September-16-2026.md]].
+
+**Nothing here changes the decision.** No source shows Val acting on the advice; the Sept-2 hold stands, and the new question it raises is recorded below rather than resolved.
+
 ## Open commitments
 
+- [ ] [[wiki/people/val-levitan.md|Val Levitan]] — decide whether to keep holding the recycler back or push it into the market against the Lottery's and InComm's requests — due **open**; raised by [[wiki/people/jamie-boyden.md|Jamie Boyden]] on Sept 16 2026 and left unanswered on the call — [[raw/Meeting_Notes_Jamie_Georgia_Class_A_Opportunity_and_Market_Outlook-September-16-2026.md]] [[raw/Meeting_Transcript_Jamie_Georgia_Class_A_Opportunity_and_Market_Outlook-September-16-2026.md]]
 - [ ] **InComm** — write to Val asking him to confirm that the features seen on the show floor are not associated with the Skill Pay solution (the agreed substitute for Val writing a note) — due unspecified — [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]] [[raw/Meeting_Notes_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]]
 - [ ] [[wiki/people/val-levitan.md|Val Levitan]] — decide how to answer that letter when it arrives, with JVL's in-house counsel involved — due on receipt — [[raw/Meeting_Notes_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]]
 
@@ -87,6 +105,7 @@ A week later, at the [[wiki/meetings/2026-09-09-lucky-coin-service-burden-and-ex
 - **Does "hold it back" mean not building it, or building it and not selling it into Georgia COAM?** Val said only that he has no choice but not to do it; no source states whether development stops, and on [[wiki/decisions/2026-09-02-priorities-iq-ports-flex-pay-recycler-texas-on-wallets.md]] — set the same morning — the recycler is still a named priority with Texas as an entry market — [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]]
 - **Is the grievance about John's two-year-old validation going to be used?** The notes flag that "if it is going to be used, the record of that conversation is worth locating now." Val declined to escalate in the room: "Right now, to me, that's not a pain point. I don't need to send anything to you… **let's not get into legal councils**" — [[raw/Meeting_Notes_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]] [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]]
 - **Would a written clarification from Joe Kim actually unlock it?** InComm framed its position as a risk assessment that a clear lottery statement would change, but gave no process and no date — [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]]
+- **Which Georgia Lottery meeting is the one where they asked him not to put the recycler in the market?** On Sept 16 Val says "**I met with Georgia Lottery… and they also politely told me it would be nice if you wouldn't do**" — but names no date and no person. The corpus holds a Sept-10 Lottery meeting ([[wiki/decisions/2026-09-10-the-lottery-tells-jvl-class-a-manufacturing-is-lawful-today.md]]), which records a different subject. **Not matched, not assumed** — [[raw/Meeting_Transcript_Jamie_Georgia_Class_A_Opportunity_and_Market_Outlook-September-16-2026.md]]
 
 **§15.8:** clear — product, licence and partnership economics only; no named-person compensation.
 
@@ -97,3 +116,5 @@ A week later, at the [[wiki/meetings/2026-09-09-lucky-coin-service-burden-and-ex
 - [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
+- [[raw/Meeting_Transcript_Jamie_Georgia_Class_A_Opportunity_and_Market_Outlook-September-16-2026.md]]
+- [[raw/Meeting_Notes_Jamie_Georgia_Class_A_Opportunity_and_Market_Outlook-September-16-2026.md]]

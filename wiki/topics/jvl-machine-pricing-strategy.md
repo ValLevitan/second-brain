@@ -3,7 +3,7 @@ type: topic
 title: JVL machine pricing and commercial strategy
 date: 2025-09-23
 aliases: [machine pricing, fifteen seven fifty, $15750, free hardware instead of discount, retail price, price list, Dennis one number, CFO-to-CFO credit, market pricing, list price, dollars not discounts, JVL Dollars pricing lever, show special pricing, Georgia machine price, D43 price, D27 trade-in, South Dakota premium, twelve eight twenty, two nine thirty, $795 port, $895 IQ, $7950 Flex-Slim, kill the market, fifty-seven fifty, topper eight hundred to one thousand, ten dollars per machine, value almost as much as this machine is]
-source-count: 23
+source-count: 24
 ---
 
 # JVL machine pricing and commercial strategy
@@ -201,6 +201,12 @@ At the [[wiki/meetings/2026-09-15-unlimited-amusement-mega-hit-blaze-v3-and-bund
 
 **Temporal note:** the $16,000–$18,000 retail band above is the **Sept-2025** class-3 / skill-market policy and is not superseded by these Georgia COAM numbers — Georgia is a different market segment. The two are recorded side by side; no source in this batch revisits the class-3 band.
 
+## Sept 16 2026 — the doctrine behind all of the above, stated as a rule for the first time
+
+On [[wiki/meetings/2026-09-16-jvl-transactional-ecosystem-and-class-a-market-strategy.md|the afternoon strategy session]] [[wiki/people/val-levitan.md|Val]] argued the whole pricing position from first principles and against a direct objection from JVL's games lead: **operators buy on cash flow, not price, so extend terms rather than cut the number; if a discount is forced, discount from a high price or add value instead; make the Class B machine expensive and make it look expensive; fight for every ten dollars on Class A.** The full argument, the objection, and the $16,000 / $30,000 bundle framing said in the same conversation are on [[wiki/decisions/2026-09-16-do-not-discount-hold-price-extend-terms-add-value.md]] [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]].
+
+**It is not reconciled with the field practice catalogued above** — the $15,750 machine with ~$7,000 of free hardware attached is exactly the "add value instead of cutting the price" move, but no source connects the two, and the doctrine is stated without reference to any of the quotes on this page.
+
 ## Sources
 
 - [[raw/Meeting_Notes_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
@@ -226,3 +232,4 @@ At the [[wiki/meetings/2026-09-15-unlimited-amusement-mega-hit-blaze-v3-and-bund
 - [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
 - [[raw/Meeting_Notes_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]]
 - [[raw/Meeting_Transcript_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]]
+- [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]

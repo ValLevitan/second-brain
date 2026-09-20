@@ -3,8 +3,8 @@ type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
 aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus, $20 test, twenty dollar test, Twin Bison, Wolfpack, Clover Fortune, Liberty Spins, peek-to-be-in bonus, locking bison, Rodeo Spins, multi-progressive, Multi-Progressive initiative, three-level progressive, three progressive styles, bet-dependent progressive, symbol-driven progressive, time on device, jackpot reset value, RTP parity, Pyre Island, dual box skill feature, Lions Riches, Primero, Piggy, attraction loop, credits vs dollars, default to a dollar, first three rankings, the ice maker, settings not the report, no secret between us, Anchor Gaming, Wheel of Fortune]
-source-count: 89
-open-questions: 6
+source-count: 90
+open-questions: 9
 ---
 
 # Slot game-design principles and the progressive-bet-incentive debate
@@ -855,6 +855,56 @@ At the [[wiki/meetings/2026-09-11-rage-sunset-and-class-a-on-nova.md|Sept-11 1:0
 
 **§15.8:** clear — design content only.
 
+## Sept 16 2026 — the 30-second cash-out grace period, the two-games-a-month cadence, and the WMS warning
+
+A long design argument between [[wiki/people/val-levitan.md|Val]] and JVL's games lead on [[wiki/meetings/2026-09-16-jvl-transactional-ecosystem-and-class-a-market-strategy.md|the 2:53 PM strategy session]]. *(Which named person the games lead is, is **not settled** — see the stub. Nothing here is attributed to a named individual.)* [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
+
+### The observation: a cash-out that failed in front of him
+
+He had been taken to a location the night before by [[wiki/people/felipe-miranda.md|Felipe]] and watched the payout break down: "**he cashed out. His ticket didn't even work in the dispenser gadget, and the woman was like a deer in the headlights**"; and it happened to him too — "**I hit cash out. My ticket got stuck on the machine. I had to pull it out. The barcode did not print fully.**" His read: "**whatever they think they're doing, it ain't right. They're not doing it correct, and we have a hell of a lot more experience in doing that**"; "**there resides the opportunity to do it better than those guys are doing it**" [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]].
+
+### The proposal: hold the game and the denomination for thirty seconds after cash-out
+
+> "**maybe we could put a timer on there. That from the time there's cash out, maybe we give a thirty-second grace period. That if you put the ticket back in, you're in the same game at the same** [denomination]… **Visible or not visible? I haven't figured it out yet. I'm just talking in real time with you.**"
+> "**Maybe it's just a conditional state code that basically says, upon cash out, stay on the same game for thirty seconds, the same** [denomination], **give the person the opportunity to take out the ticket, put the ticket back in, and they're in the same game.**"
+> [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
+
+**The reasoning is session continuity, not convenience:** "**otherwise, conceivably, you're breaking their** — **You're breaking the hypnosis. You're breaking the cadence. You're breaking the tempo, and they may choose another game**", and choosing another game costs "**like a ten, twenty, thirty**" [seconds] "**in time… that's like eternity. It's an absolute eternity. We can make that experience more elegant**" — "**play velocity because tick it out, tick it in. I'm still in this game**" [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]].
+
+**Nobody decided anything.** He flagged one risk himself — "**This might be confusing with the thirty-second hand count**" — and Val did not respond to the proposal on the recording. **Open, recorded below** [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]].
+
+*(The transcript renders "denomination" as "Dino" and "denum"; read as denomination from context. He also mentions JVL's own version of a streak feature — "**it cannot be called leading streak. Right now, it's called party time. I've already got some graphics work from [[wiki/people/lena.md|Lena]]**" — and compares it to something transcribed as "**how Ace Hood did their quad shot**". **"Leading streak", "Ace Hood" and "quad shot" are left as transcribed and are not upgraded to any real product name.** "party time" also appears in this page's sibling [[wiki/topics/georgia-class-a-machines.md]] alias list from an earlier source.)* [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
+
+### Class B: more games, and three progressive types — an accident or a design?
+
+Val: "**on class B, I'm pushing multi-game and I'm pushing more. I feel that it should be more than eight, more than ten. It should be more.**" Challenged — "**if all of our competitors are at six, what is better about eight?**" — he answered "**Ten?**" and then made the real argument: "**having three different progressive types is really very nice. We stumbled on it by accident, but I think we discovered something very valuable because we are going to address different player preferences… the progressive math will appeal better than the skin of the game. It will touch them deeper than just the skin of the game**" [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]].
+
+**It was not an accident.** The games lead corrected him directly: "**I wouldn't suggest it wasn't an accident. It was completely intentional. I did it intentionally**"… "**And [[wiki/people/felipe-miranda.md|Felipe]] looked at it and said, 'These games are all too similar. I want, I need more than that.' So then I went through and came up with what this is.**" Val accepted it: "**If you did it intentionally, then I take my hat off to you. It wasn't intentional for me. For me, it was a complete accident. And up until the time that I actually physically played it and saw it myself, I didn't realize the potential**" [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]].
+
+**And a counter-argument to per-game progressives, from the same man:** with each game carrying its own meter, "**you create, I'll call it, data pollution**" — the player reads the highest top value as the popular game, but the highest value is simply the one that has not hit yet, so "**your decision-making process is influenced by more than one factor**". His preference: "**It seems more elegant to have shared progression amongst the six games. You get more action, more activity. It's more… player familiarity of what it is that you're chasing**" [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]].
+
+### The content cadence: two new games a month, always replacing the lowest earner
+
+Val's pitch, framed as an operator-facing offer: "**in each location, a wall of ten games. Every two weeks, keep on introducing a couple of new games**"… "**you tell him, hey, these ten machines, and I will change two games every month. I will download two new games for you. Create a world of ten games. That's a massive presentation.**" He was explicit about the rule: "**Of course, I'm not going to change the top earner on the location… We always replace the lower earner**" [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]].
+
+**The warning, and it is a precedent argument.** The games lead: "**what brought WMS to their knees was… churnin'. But it was basically like just more and more and more and more and the operator got used to new product every three months. Why did they need new product every three months? Because the games were dribbler, they were time on device, they didn't stick**"; and before that, "**there is a lot of player loyalty, and it kind of counteracts whatever you are trying to do… you've got to invest a certain amount in creating software, and you want to maximize the return on investment in software**" [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]].
+
+**Val's answer — the risk is the game quality, not the cadence, and Georgia removes the brake:** "**that's not what I'm suggesting. I'm not suggesting creating dribblers. I'm not creating second-class games… Just saying replacing your lowest performers in a location, but replacing them aggressively and fast enough.**" And the reason he thinks he can: **there is no GLI submission in this market.** "**just to get them through GLI is a chore. So you can't release games as fast and expensive… Each game through GLI is seven and a half thousand dollars**" — "**But in here… There's none of it, right? You don't have to do GLI… You just have to put out games**" [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]. See [[wiki/topics/gli-certification-bottleneck.md]].
+
+*(**Note the $7,500 figure is Val's, spoken without a source, and the sentence around it is self-contradictory as transcribed — "I don't think that Williams was able to produce games fast enough. I actually know that they could." Quoted as spoken; not tidied.**)* [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
+
+**The counter-example the games lead offered for leaving a game alone:** "**we did a game called Cashman about** [that]… **the game earned like** [poorly] **for about the first three or four months, and then caught fire, and it became the highest selling game we ever had. It just, for whatever reason… it was inexplicable. It took a while for players to get going.**" Val: "**I think there are anomalies on both sides… If you put two ends of anomalies aside and just focus on normality, maybe this** [is one of the ways] "**And I'm not arguing that this the right way, but I'm saying maybe this one of the ways we could run our business. But maybe I'm wrong.**" **No conclusion was reached** [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]].
+
+*(**"Cashman" is as transcribed** — the name of a game the speaker says he made. Not matched to any product in this corpus and **not upgraded** to any real-world title.)*
+
+**§15.8:** design and market economics only; no named-person compensation.
+
+## Open questions (Sept 16 2026)
+
+- **Does JVL build the 30-second cash-out grace period?** Proposed live, with the visible-timer question left open by the proposer himself, and never answered by Val on the recording — [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
+- **Two new games every two weeks, or every month — and does the cadence work at all?** Val gave both intervals in the same argument; the games lead's WMS precedent was never rebutted on its own terms — [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
+- **Per-game progressives or one shared progressive across the games in a machine?** JVL's current three-type design is per-game; the games lead argued shared is more elegant and that per-game creates "data pollution". Not decided — [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
+
 ## Open questions (Sept 4 2026)
 
 - Whether JVL's V-deck is costing revenue against a mechanical deck defaulting to a dollar — Efim's sharper form: is Aristocrat's **average bet** actually higher, or just their play count? No data on either side — [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
@@ -956,3 +1006,4 @@ At the [[wiki/meetings/2026-09-11-rage-sunset-and-class-a-on-nova.md|Sept-11 1:0
 - [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
 - [[raw/Meeting_Notes_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+- [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]

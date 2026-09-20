@@ -3,7 +3,7 @@ type: organization
 title: ARC Gaming
 date: 2026-08-31
 aliases: [ARC, Arc, ARC Gaming, намберту, number two company in Georgia, two machines a week, five machines a week, Art, ARC Gaming DC, ARC Gaming & Technologies, Lucky Bucks, Lucky Bugs, Lucky Box, Arc Luck]
-source-count: 14
+source-count: 16
 open-commitments: 6
 open-questions: 5
 disambiguation: "The Georgia COAM master/route operator whose COO is Georgios 'Zaza' Zazanis and whose CEO is David Sloan. **Lucky Bucks is its FORMER NAME** — one company, renamed (Val's ruling, 2026-09-10). The corpus's earlier bare 'Arc' mentions in a *kiosk-vendor* sense are a separate, still-unresolved thread — see the §4 name note below. Resolve by context."
@@ -160,13 +160,27 @@ This **corroborates the Aug-31 account from the COO** — ARC is the broker, and
 
 Val: "**I got here in this market through Lucky Bucks, through Jamie. I'm having dinner with Jamie on Monday night.**" Sloan: "**He's a wonderful man. I put him in business in Illinois. Now he's buying locations, cafes**… **He's doing pretty good. I'm happy. I'm the one who dragged him in there**" — into **South Dakota**, where "**the licensing is more difficult… you got to get [a] liquor license in every little jurisdiction.**" Val: "**He dragged me to South Dakota too**"; "**You know that I invested in that**… **I'm happy with my investment.**" [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
 
-**Jamie is the shared origin of both relationships** — ARC's CEO put him into business in Illinois, and he is how Val entered Georgia through **Lucky Bucks**, ARC's former name. The corpus has no page for him; he is left as a named mention, **not created and not matched to anyone** (§4). *(Val also called a Jamie at 12:50 the same day — a separate recording with its own record.)* [[raw/Meeting_Notes_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+**Jamie is the shared origin of both relationships** — ARC's CEO put him into business in Illinois, and he is how Val entered Georgia through **Lucky Bucks**, ARC's former name. **He now has a page: [[wiki/people/jamie-boyden.md|Jamie Boyden]]** — created from the 12:50 PM phone call Val took the same day, which corroborates the Illinois route and the South Dakota history from Jamie's own mouth. The surname comes from an owner confirmation recorded in that call's derived notes, not from any recording [[raw/Meeting_Notes_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]] [[raw/Meeting_Notes_Jamie_Georgia_Class_A_Opportunity_and_Market_Outlook-September-16-2026.md]]
 
 ### What this meeting did NOT touch
 
 Nothing in either Sept-16 file mentions **the EXIO kiosk lock-in**, **[[wiki/people/bill.md|Bill]]**, the kiosk **board swap** the [[wiki/decisions/2026-08-31-arc-kiosk-board-swap-routed-through-the-ceo.md|Aug-31 ruling]] routes through Sloan, the **InComm displacement intent** Val disclosed to him on Sept 9, the **$15,750 machine bundle**, the **remaining five units**, or the **ninety-location PAX swap**. All are unmentioned and unchanged. **Nor was exclusivity of any kind raised again** [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]].
 
 **And ARC committed to nothing.** Val told an internal call the same day that ARC had "basically gave me an order for Class A machines"; the derived notes record his own correction — "**I agree with your record, however, I played it to my advantage**" — and rule that **no ARC Class A order goes into any forecast**. Full account on [[wiki/decisions/2026-09-16-jvl-offers-arc-new-class-a-cabinets-at-2500-plus-20-percent.md]] [[raw/Meeting_Notes_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]].
+
+## Sept 16 2026 (2:53 PM, internal) — Val's read on ARC's former interim president, and why he thinks its kiosk play fails
+
+Hours after the CEO meeting above, on [[wiki/meetings/2026-09-16-jvl-transactional-ecosystem-and-class-a-market-strategy.md|the afternoon strategy session]], Val gave his own assessment of the man behind the kiosks a JVL colleague had seen at a location the night before. **All of it is Val's characterisation, on an internal recording, and is recorded as such** [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]].
+
+- **Who he says the man is.** Known to Val for thirty years ("**The first time I met him, thirty years ago**"), came out of the financial/investment world, and "**was a chairman of a company called GPT, Global Payment Systems, out of Long Island… They were taking the company public. They were competitors to [CashCode]**" — Val's own former company. *(The company name is as transcribed; "Cash Colt" in the source is read as **CashCode** by the derived notes and **not upgraded** here. **No person is named anywhere in this passage.**)*
+- **Val's judgement of him:** "**He comes across strong, and he probably knows the financial aspect of the business, but he is not an engineer… I've never seen them deliver a strong engineering product.**"
+- **The allegation.** "**He was a interim appointed president of Ark. And while he was in Ark, he was double dipping, running his own company manufacturing kiosks. He sold, he pre-sold, and got paid for 170 kiosks, which is they have 170 locations. So, they have something, and he does not own his own engineering. So he subcontracted.**" *(Val later says "**172**" for the same count. **170 is the figure he states twice; 172 is recorded as the variant and not used.**)*
+- **Why he thinks it fails — and he applies the same test to JVL.** Subcontracted engineering cannot track a moving market: "**the marketplace is a moving liquid subject, and your capabilities are not perfect. So between not perfect capabilities and the ever-moving market, you drift apart so far… by the time it's… delivered to you, the market has moved sideways. You literally [are] delivering a product that nobody needs.**" Then, on JVL's own transactional programme: "**while we presented [the] first set of capabilities… I would say at least fifty percent of those capabilities are dead**… **and even right now, we're about to roll out the product, and a set of capabilities here is already obsolete, or not needed, or maybe we shouldn't even do it.**" His conclusion on the competitor: "**now you have 17[0] [kio]sks sitting that are manufactured with no permanent engineering, and with an individual who is clever, comes from a financial sector. But not an engineer. So I think chances of them succeeding are very slim.**"
+- **And his read on the current CEO, from that morning's meeting:** "**even today, I met with the CEO of the company, the new CEO of the company, and he throws proper phrases and adjectives at things**… **he says, 'Yeah, we're working on it,' but I don't think anybody's working on it.**" *(That he means [[wiki/people/david-sloan.md|David Sloan]] follows from the same-day 10:12 AM meeting and "the new CEO"; **stated as the reading, not as a quotation about a named person**.)*
+
+**§4 caution — which "Arc" this is.** The transcript renders the name "**Ark**" twice and "**CEO of Art**" once. The same-day CEO meeting makes **ARC Gaming** the natural reading and it is recorded here on that basis; but this page's standing name note flags an unresolved, separate "Arc" thread in a **kiosk-vendor** sense, and **a kiosk vendor is exactly what this passage is about**. The identification is therefore **supported but not certain** — no merge of the old kiosk-vendor mentions is made, and nothing on this page depends on it [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]].
+
+*(Val's read on **Primero** from the same conversation is on [[wiki/topics/georgia-class-a-machines.md]]. **§15.8:** the man above is unnamed and the material is competitor/market intelligence, not compensation; no pay, rate or HR judgement about any named person is recorded.)*
 
 ## Open commitments
 
@@ -220,3 +234,5 @@ The [[wiki/meetings/2026-09-16-street-machine-board-spec-and-georgia-class-a-ord
 - [[raw/To-Do_Georgia_meetings-February-18-2026.md]]
 - [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
 - [[raw/Meeting_Notes_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
+- [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
+- [[raw/Meeting_Notes_Jamie_Georgia_Class_A_Opportunity_and_Market_Outlook-September-16-2026.md]]
