@@ -3,7 +3,7 @@ type: organization
 title: Halcyon Amusements
 date: 2026-08-27
 aliases: [Halcyon Amusements, Halcyon Amusements LLC, Halcyon]
-source-count: 3
+source-count: 6
 open-commitments: 2
 open-questions: 1
 ---
@@ -11,6 +11,8 @@ open-questions: 1
 # Halcyon Amusements
 
 A **family route operator running in both Georgia and Texas**, run by [[wiki/people/yash-patel.md|Yash Patel]], which visited the JVL office on **August 27 2026** — see [[wiki/meetings/2026-08-27-halcyon-amusements-recycler-pitch.md]]. The company name comes from the calendar entry "Halcyon Amusements LLC - JVL" that [[wiki/people/val-levitan.md|Val]] **manually confirmed as the match for the recording on 2026-09-05**; the transcript itself names neither the company nor the person. [[raw/Meeting_Notes_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]]
+
+**The thread so far.** **Aug 27 2026** — the office visit: recycler pitch, the Georgia Lottery notice, a Texas test agreed in principle ([[wiki/meetings/2026-08-27-halcyon-amusements-recycler-pitch.md]]). → **~Sept 10 2026** — **Halcyon's first order**, per the Sept-12 notes ("two days after Halcyon's first order"); *the order itself appears in no source the wiki holds, and neither its size nor its content is recorded anywhere.* → **Sept 12 2026** — the nine-minute phone call below: the Texas net-win numbers, the "big cabinet, big screen" warning, and a request that JVL join a unified Texas lobbying front ([[wiki/meetings/2026-09-12-halcyon-amusements-texas-net-win-and-lobbying.md]]). → **Sept 17 2026** — a follow-on meeting the Sept-12 notes point to; **not yet in the corpus**. [[raw/Meeting_Notes_Halcyon_Amusements_Texas_Net_Win_and_Industry_Lobbying-September-12-2026.md]]
 
 ## The route
 
@@ -42,6 +44,18 @@ The notes record one decision from the meeting: a **Texas recycler/machine test 
 
 An unnamed JVL voice offered a **free three-month Flex-IQ pilot** running against **MudaGoose**: "we can start with standard I.Q. and annotation with [MudaGoose]. Then, in a matter of months, we can add sports and make this whole system work without even [MudaGoose]… are we ready to run this pilot release of I.Q. working in [MudaGoose] for three months as a pilot release? When I say pilot, I mean **no charge**. If you have a location somewhere nearby which perfectly fits this purpose, we can install one in a matter of a couple of weeks." The operator offered **Lilburn** ("Let's try it there. It's Lilburn, right here. That's perfect"). The transcript then moves on — **no install date and no confirmation are recorded**, and the derived notes do not carry this item at all. *(MudaGoose is rendered "Montegoos" and "Nootegoo" in the transcript.)* [[raw/Meeting_Transcript_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]]
 
+## Sept 12 2026 — the route's own Texas numbers, and a warning about what Texas buys
+
+A nine-minute phone call with [[wiki/people/val-levitan.md|Val]] ([[wiki/meetings/2026-09-12-halcyon-amusements-texas-net-win-and-lobbying.md|Sept-12, 10:04–10:13 AM ET]]). The legislative, enforcement and lobbying substance is on [[wiki/projects/texas-used-machine-distribution.md]] (Sept 12 2026) and [[wiki/people/yash-patel.md]]; what the route itself reports is here. [[raw/Meeting_Notes_Halcyon_Amusements_Texas_Net_Win_and_Industry_Lobbying-September-12-2026.md]]
+
+- **Halcyon's live Texas net win: about $250 per device per day.** Read off that morning's report during the call: "Our **net win per day live across the board averages out to be around two hundred and fifty bucks**." Val confirmed the basis twice — per machine, per day, **net win** — and made it "about **two and a half times** more than the average in in Georgia," which he put at "**roughly a hundred dollars**" and Yash at "**One hundred fourteen**, something like that." [[raw/Meeting_Transcript_Halcyon_Amusements_Texas_Net_Win_and_Industry_Lobbying-September-12-2026.md]]
+- **He discounted his own figure, and gave a floor.** "**I don't like having bad locations. I'd rather pick my games up and put them somewhere else.** So my numbers might be a little higher, but I think you can go with a rough estimate of **at least two hundred bucks a day per device**." *(This is the same operating habit the Aug-27 visit shows — he moves machines rather than tolerate a weak site.)* [[raw/Meeting_Transcript_Halcyon_Amusements_Texas_Net_Win_and_Industry_Lobbying-September-12-2026.md]]
+- **Note the size of this claim against the corpus:** it is roughly **sixteen times** (arithmetic on the two stated figures) the Texas per-machine figure another Texas-running Georgia operator gave Val ten days earlier. Recorded as an unresolved contradiction on [[wiki/projects/texas-used-machine-distribution.md]] (`## Open contradictions`), not reconciled here. [[raw/Meeting_Transcript_Continental_Vendor_Lock_In_Dead_End-September-2-2026.md]]
+- **The warning that opened the call — Texas does not buy software.** His brother had been in Texas "this past week"; he had already given the same read to [[wiki/people/felipe-miranda.md|Felipe]]. "**What they don't understand is that the software is important. What they care about is having a big cabinet with a big screen.**" Halcyon still intends to buy — "**We're happy to buy them**" — but he did not want Val disappointed after shipping. *(The judgement sentence is garbled in the transcript — "the retailers out there are that sophisticated?" — and the derived notes read it as "**the retailers out there are not sophisticated**." The notes' reading is recorded; the transcript wording is not clean.)* [[raw/Meeting_Transcript_Halcyon_Amusements_Texas_Net_Win_and_Industry_Lobbying-September-12-2026.md]] [[raw/Meeting_Notes_Halcyon_Amusements_Texas_Net_Win_and_Industry_Lobbying-September-12-2026.md]]
+- **What the Texas market takes, as a cabinet spec: vertical, 43" or 47".** Val: "the market is **vertical forty-three**"; Yash: "**Forty-three, forty-seven.**" The preference for 47" sits in a merged-sounding block labelled as Val's ("But **preferably forty-seven** or forty-three… when forty-seven is preferable"); the derived notes record the spec as **vertical, 43" or 47", 47" preferred**. [[raw/Meeting_Transcript_Halcyon_Amusements_Texas_Net_Win_and_Industry_Lobbying-September-12-2026.md]] [[raw/Meeting_Notes_Halcyon_Amusements_Texas_Net_Win_and_Industry_Lobbying-September-12-2026.md]]
+- **The relationship, in both men's words.** Val: "**It's better to know it up front than to be disappointed after the ship**" and "**A straightforward conversation is appreciated more than anything.**" Yash: "**I don't want to do that. I think we're building a great relationship.**" [[raw/Meeting_Transcript_Halcyon_Amusements_Texas_Net_Win_and_Industry_Lobbying-September-12-2026.md]]
+- **And the ask.** Halcyon wants JVL inside a **single industry front for Texas** — "we need to make a **full industry effort for Texas** because Texas is a great market, and **we all need to work at it from the same direction**" — and proposed breakfast on **Thursday Sept 17** while Val was in town ("happy to meet you in **Lawrenceville**, or we can meet anywhere"). Val accepted and left the venue to him. The commitment is held on [[wiki/projects/texas-used-machine-distribution.md]]. [[raw/Meeting_Transcript_Halcyon_Amusements_Texas_Net_Win_and_Industry_Lobbying-September-12-2026.md]] [[raw/Meeting_Notes_Halcyon_Amusements_Texas_Net_Win_and_Industry_Lobbying-September-12-2026.md]]
+
 ## History
 
 - **Aug 21 2026 — already on JVL's October pipeline.** "Halcyon" appears in Felipe's **Wave 4 — October** prospect list (~29 companies at 2 machines each) in the sales-channel report walked through at the post-GAMOA recap, six days before this visit. [[raw/Meeting_Notes_Georgia_Machine_Sales_Strategy_Post_GOAM-August-21-2026.md]]
@@ -57,10 +71,13 @@ An unnamed JVL voice offered a **free three-month Flex-IQ pilot** running agains
 
 - Does the free three-month Flex-IQ pilot at **Lilburn** go ahead? Offered and verbally welcomed in the room, but no date, no owner and no confirmation appear in either source, and the derived notes omit it entirely. [[raw/Meeting_Transcript_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]] [[raw/Meeting_Notes_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]]
 
-**§15.8:** clear — machine prices, location counts and cash-handling economics only; no named-person compensation.
+**§15.8:** clear — machine prices, location counts, net-win and cash-handling economics only; no named-person compensation. **§15.9:** no licence or registration numbers appear in any of these sources.
 
 ## Sources
 
 - [[raw/Meeting_Notes_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]]
 - [[raw/Meeting_Transcript_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]]
 - [[raw/Meeting_Notes_Georgia_Machine_Sales_Strategy_Post_GOAM-August-21-2026.md]]
+- [[raw/Meeting_Notes_Halcyon_Amusements_Texas_Net_Win_and_Industry_Lobbying-September-12-2026.md]]
+- [[raw/Meeting_Transcript_Halcyon_Amusements_Texas_Net_Win_and_Industry_Lobbying-September-12-2026.md]]
+- [[raw/Meeting_Transcript_Continental_Vendor_Lock_In_Dead_End-September-2-2026.md]]

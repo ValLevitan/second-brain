@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 138
+source-count: 140
 open-commitments: 43
 open-questions: 0
 ---
@@ -507,6 +507,19 @@ At the [[wiki/meetings/2026-09-11-technician-complaints-and-new-capabilities-wor
 - [ ] Pavel Frolov — move the Flex-Port remote-firmware-update capability so the master-device half sits in MVP 1 — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [ ] Pavel Frolov — move the Flex and FlexPay capabilities into the E-wallet Operations initiative and rename the bucket off "FlexPort", which Val called too narrow — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 
+## Sept 14 2026 (6:38 AM) — he proposes the Georgia base, and gives the honest state of the NOVA build
+
+At the [[wiki/meetings/2026-09-14-texas-vertical-conversion-and-georgia-game-base.md|Sept-14 6:38 AM ET session]] (Russian) Pavel did two things: he supplied the way out of a dead end, and he answered Val's question about the NOVA build without softening it. [[raw/Meeting_Notes_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+
+- **He proposed taking the vertical Georgia games as the base for a vertical Texas product**, crediting a conversation with [[wiki/people/igor-metelski.md|Igor Metelski]] the day before: "Вчера ещё вот мы с Игорем общались… может быть нам логичнее взять вертикальную игру для джорджии и её конвертировать в вертикальную игру для Техаса. Что это возможно, будет гораздо дешевле." Val adopted it — [[wiki/decisions/2026-09-14-vertical-texas-starts-from-the-georgia-coam-vertical-games.md]]. [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+- **He also floated, and immediately doubted, an AI layout idea** — let AI stretch the top background and place the auxiliary blocks itself — "но по-моему всё равно оно будет слишком разрежено и слишком много занимать места именно вспомогательная информация, а не рилы." [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+- **Asked whether NOVA is at the state where the new architecture and tech stack can be used: "Ну до конца нет, мы не довели."** One or two games run on the FP7; the HAL library integration is unfinished; the shared-object build still is not done the new way, and the integration repository "мы это обсудили, но мы это не делали вообще." The build comes out of the game repository pulling hand-made artefacts — "на коленке без помощи искусственного интеллекта" — via a Linux snapshot, a kernel build baked into a separate image, then games, HAL and maths in Docker containers, output as an ISO. Full detail on [[wiki/topics/nova-platform-architecture.md]] (Sept 14). [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+- **His definition of doing it properly:** rebuild that repository on the same Linux used for RK — "там[,] что мы дебиан по-моему брали", the hedge his own — so everything sits in one development system; a small piece of work so the existing RK kernel builds for the LAN-based machines; and create the integration repository that collects artefacts from the separate repositories. On RK the work is already possible today, but RK needs its integration repository too, from which they would take the build made for the RK SDK that exists now for Transactional — "тут даже чуть-чуть меньше работы возможно." [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+- **He closed Igor's OmniCore objection with current information:** "Игорь[,] это уже не актуально. Уже на днях саша с даниилом уже всё это объединили в один репозиторий." [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+- **He tried to raise a topic involving "Юрий Валентинович" and finding a group of people** at the close — "прежде чем искать какую-то группу людей" — and Val cut it out of this meeting into a separate call. The topic is not described further in either source. [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+
+**§15.8:** clear — engineering and build content only.
+
 ## Sources
 
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
@@ -649,3 +662,5 @@ At the [[wiki/meetings/2026-09-11-technician-complaints-and-new-capabilities-wor
 - [[raw/Meeting_Notes_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]]
 - [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]]
+- [[raw/Meeting_Notes_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+- [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]

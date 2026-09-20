@@ -4,7 +4,7 @@ title: Anton Leshkevich
 date: 2025-01-21
 aliases: [Anton Leshkevich, Anton, Antoine, Anton Dmishkevich, Дмишкевич, Дмишкевичем, Liashkevich, Anton Liashkevich, Lishkevich, Anton Lishkevich, Лишкевич, Rishkevich, Anton Rishkevich, ришкевич, Vishkevich, вишкевич, брижке]
 disambiguation: "Minsk engineer (Omni/RGS), this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 29
+source-count: 31
 open-commitments: 4
 open-questions: 0
 ---
@@ -125,6 +125,18 @@ At the [[wiki/meetings/2026-09-04-rage-nova-conversion-readiness.md|Sept-4 morni
 
 - [ ] Continue the scene-validation tool; the screenshot-comparison extension Alexander Biratko proposed is wanted but unscheduled — due unspecified — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 
+## Sept 14 2026 — confirmed as a builder of both the Nebraska/Texas games and the last Georgia COAM
+
+Anton was pulled into the [[wiki/meetings/2026-09-14-texas-vertical-conversion-and-georgia-game-base.md|Sept-14 6:38 AM ET session]] (Russian) because Val expected the Texas conversion to need him; in the event he spoke little, and Val apologised for the early start — "я извиняюсь, я вас поднял рано утром" — to which he answered "Ничего страшного." [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]] [[raw/Meeting_Notes_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+
+- **He worked on the Nebraska product on RAGE.** Val: "Антон, вы занимались техасом, да? Ну небраской… На реййд[,] да." Anton: "Когда-то давно мне кажется да" and "Техаса наверное уже нет, но [не]брас[кой] точно занимался." [[wiki/people/irina-shishko.md|Irina]] then said "Техас из небраски" and Val confirmed the two are the same thing. [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+- **He built the last Georgia COAM jointly with [[wiki/people/igor-metelski.md|Igor Metelski]]** — Igor, asked who did it: "Мы вдвоём с Антоном." That matters here because those Georgia games are the donor set for the vertical Texas route ([[wiki/decisions/2026-09-14-vertical-texas-starts-from-the-georgia-coam-vertical-games.md]]). [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+- **Asked by Irina to recall whether that product carries a mystery progressive**, his replies are garbled in the recording and no answer is recoverable; recorded as unclear rather than guessed. [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+
+*(§4: this is Anton Leshkevich by context — Minsk engineer, RAGE/Omni game work with Igor Metelski — not [[wiki/people/anton-seregin.md|Anton Seregin]] or the SMM contractor.)*
+
+**§15.8:** clear — engineering content only.
+
 ## Sources
 
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
@@ -157,3 +169,5 @@ At the [[wiki/meetings/2026-09-04-rage-nova-conversion-readiness.md|Sept-4 morni
 - [[raw/integration_tests-apr-24-2025.md]]
 - [[raw/Player_behavior_simulator.md]]
 - [[raw/player_emulator.md]]
+- [[raw/Meeting_Notes_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+- [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]

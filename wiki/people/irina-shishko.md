@@ -4,7 +4,7 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 73
+source-count: 75
 open-commitments: 13
 ---
 
@@ -244,6 +244,19 @@ She is named to the Monday Sept-14 9:30 working meeting on the new Passport/RIS 
 - [ ] Irina Shishko — schedule the automated-test features for the e-wallet use cases and assign them, with [[wiki/people/alexei-khamin.md|Alexei Khamin]] as the named owner — due week of Sept 14 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [ ] Irina Shishko — request edit rights for release names in the tool — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 
+## Sept 14 2026 (6:38 AM) — she argues the layout question on its merits, and is answered with a production constraint
+
+At the [[wiki/meetings/2026-09-14-texas-vertical-conversion-and-georgia-game-base.md|Sept-14 6:38 AM ET session]] (Russian) Irina was the only person pushing to save the horizontal→vertical conversion by rearranging the scene rather than changing the source game. [[raw/Meeting_Notes_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+
+- **Her proposal:** leave the top screen at its current size and enlarge the main game field instead — "нам нужно main экран увеличивать, а не верхний. То есть этого достаточно информации, и он не нужен больше" — keep the pay table as it is, "потому что он достаточн[ой] высоты [и] ширины", then see what is left at the top for the logo. [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+- **She interrogated the geometry before arguing**, checking whether the three areas were equal and pinning Igor down to numbers ("не просто говоришь, 1080, 1000"), and asked whether the dashboard area could be separated out and played with independently. [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+- **The answer she got is a production fact, not a refusal:** the reel frame and the logo are baked into the background video, so "замена фона это фактически замена все[й] сцены" — see [[wiki/topics/game-art-animation-production-pipeline.md]] (Sept 14). She conceded the point by moving to the economics: "переделать фон или… одну игру доработать, это всё-таки меньше, чем с нуля сделать там все игры." [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+- **When [[wiki/people/igor-metelski.md|Igor]] deflected with "мы с вами… не художники[,] дизайнера… и не [ге]й[м] продюсер", she did not accept it:** "Я чисто по расположению… Мы люди с опытом." [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+- **She is the one who asked what progressive Texas currently runs** — "А у нас Техас мистери сейчас?" — and put the same question to [[wiki/people/anton-leshkevich.md|Anton]] ("Антон, напомни, разве там мистери прогрессив?"). Neither answer was clear in the recording, and Val then ruled the question aside. She also flagged early that a different game base means different maths: "Ну математика будет другая." [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+- **She stated that Texas and Nebraska are the same thing** — "Техас из небраски" — which Val confirmed: "Да, это одно [и] то же." See [[wiki/projects/texas-used-machine-distribution.md]] (Sept 14). [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+
+**§15.8:** clear — engineering and product content only.
+
 ## Sources
 
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
@@ -319,3 +332,5 @@ She is named to the Monday Sept-14 9:30 working meeting on the new Passport/RIS 
 - [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]]
+- [[raw/Meeting_Notes_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+- [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]

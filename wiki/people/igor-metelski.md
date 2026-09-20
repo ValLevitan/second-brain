@@ -4,7 +4,7 @@ title: Igor Metelski
 date: 2026-07-14
 aliases: [Igor Metelski, Igar Miatselski, Miatselski, Igor, Igor Mitelsky, Мительский, Mitsierski, Igor Mitsierski]
 disambiguation: "RGS engineer on Efim Podvoiski codebase (= payroll Igar Miatselski). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
-source-count: 20
+source-count: 22
 open-commitments: 7
 ---
 
@@ -102,8 +102,22 @@ At the [[wiki/meetings/2026-09-04-rage-nova-conversion-readiness.md|Sept-4 morni
 - [ ] Have Claude evaluate Test 360 from a clean session with no knowledge of the criteria — due this week — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [ ] Read the repository standard, correct his structure to match, verify everything is committed and move his branch into the new repository — due unspecified — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 
+## Sept 14 2026 — he proves the horizontal→vertical conversion cannot be done on the existing art, and says where development is faster
+
+At the [[wiki/meetings/2026-09-14-texas-vertical-conversion-and-georgia-game-base.md|Sept-14 6:38 AM ET session]] (Russian) Igor presented his own experiments turning horizontal Texas games into vertical ones, and Val thanked him for them: "Игорь большое спасибо за проделанные эксперименты, я вас благодарю… Очень полезно." [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]] [[raw/Meeting_Notes_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+
+- **He built and screen-shared three real converted scenes** (Spicy Fruits, Midnight Money, the 3×3 Dutch Mill) plus a self-rejected fourth variant, and drew the line himself: the scene work is easy, "с существующим ар[то]м эта задача не решим[а]" — and AI cannot close the gap short of generating new art, which he called doubtful. Detail on [[wiki/decisions/2026-09-14-vertical-texas-starts-from-the-georgia-coam-vertical-games.md]] and [[wiki/topics/game-art-animation-production-pipeline.md]]. [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+- **He gave the clearest RAGE-vs-NOVA comparison in the corpus** — RAGE is faster today (game library, bonus library, Efim's maths already implemented, well tested), NOVA's advantage is that Claude can launch the browser game, check it did not crash and diff screenshots against references, and NOVA still cannot ship several games in one shell. On [[wiki/topics/nova-platform-architecture.md]] (Sept 14). [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+- **He built the last Georgia COAM together with [[wiki/people/anton-leshkevich.md|Anton Leshkevich]]** — asked who did it, "Мы вдвоём с Антоном." [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+- **He accepted Val's direction without argument** once the Georgia-base route was set — "это более рабочая схема, по крайней мере чем пытаться… угадать" — and withdrew his own OmniCore-submodule objection as soon as Pavel told him it had been merged away: "я был не в контексте. Прошу прощения." [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+- **The limit he states about himself:** he can place reels and style symbols but cannot produce a background video — "нам нужен человек, который… может собрать фоновое видео… А я уже смогу с помощью Клода подстроиться [под] это фоновое видео по позициям [э]лементов." No such person was named. [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+
+**§15.8:** clear — engineering content only.
+
 ## Sources
 
+- [[raw/Meeting_Notes_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+- [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]
