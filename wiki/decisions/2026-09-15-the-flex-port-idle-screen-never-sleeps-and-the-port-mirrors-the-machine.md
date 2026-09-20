@@ -2,8 +2,8 @@
 type: decision
 title: The Flex-Port idle screen loses its buttons and its scanner never sleeps, language becomes a top-right toggle that switches on the fly, error and block states share one screen with maintenance and lockout as two distinct signals, and the port mirrors the machine's own state even when the block comes from the Georgia Lottery
 date: 2026-09-15
-aliases: [idle screen, always-on scanner, scan your ticket or insert money, language toggle, service button top right, maintenance versus lockout, under maintenance, out of service, unified error screen, port mirrors the machine, door open cannot accept money, Georgia Lottery block, Spanish support, two SAS ports tilt test, вайдал скрин, аут оф сервис]
-source-count: 2
+aliases: [idle screen, always-on scanner, scan your ticket or insert money, language toggle, service button top right, maintenance versus lockout, under maintenance, out of service, unified error screen, port mirrors the machine, door open cannot accept money, Georgia Lottery block, Spanish support, two SAS ports tilt test, вайдал скрин, аут оф сервис, requirement 1454, requirement 1469, requirement 852, error catalogue back to Draft, collect timeout thirty seconds]
+source-count: 4
 status: active
 open-commitments: 4
 open-questions: 2
@@ -61,10 +61,18 @@ Klimovich supplied the ownership argument: "**да[,] вал[,] мы отвеч�
 - **The countdown appears late, not throughout.** Chudinov: "тайм[-]аут, наверное[,] лучше включать, когда там чтото остаётся до конца[;] когда постоянный тайма[ут,] сразу заставляешь немножко нервничать". Klimovich: "согласен… да[,] слишком тайм[-]прессинг" [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]. What happens *when* it expires is [[wiki/decisions/2026-09-15-a-timeout-sends-the-money-to-unclaimed-and-the-player-never-loses-it.md]].
 - **The error list is not final.** Klimovich could not explain his own error codes on the mock-up — "я не помню[,] почему у меня разные [error] ид[ы], чем они принципиально отличаются? Я пересмотрю" — and expects to add more: "наверное, это не все ошибки, мы их добавим" [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]].
 
+## Update, Sept 16 2026 — the error catalogue gets a Jira consequence, and the collect timeout gets a number
+
+At the [[wiki/meetings/2026-09-16-transactional-mvp1-open-questions-and-offline-operation.md|Sept-16 8:01 AM call]] the incomplete error list stopped being only a to-do and became a status change. Requirement **1454** (capability not named on the call) carries the error handling, and Klimovich conceded the catalogue does not exist: "здесь нам нужно просто каталог этих всех ошибок создать… это надо сделать[,] это тоже задача". [[wiki/people/irina-shishko.md|Irina]] had its status moved **back from Published to Draft** until it does — "паблиш для этого [реквайрмента] поменяй на[…] драфт" [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]. The commitment below is therefore **not discharged**; it now has a visible marker in Jira.
+
+**The Flex-Port collect timeout is 30 seconds** (requirement 1469), universal rather than per-location — see [[wiki/decisions/2026-09-16-the-mvp1-timing-numbers-two-hundred-milliseconds-and-thirty-seconds.md]]. Klimovich's read of the value that was there before was "по ощущениям секунд 15", an impression rather than a figure [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+**The two-SAS-port question was touched and not settled.** Requirement **852** — an older requirement about the Flex-Port and SAS — came up at the end. [[wiki/people/pavel.md|Pavel]]: "это требование к машинам[:] наши машины мы знаем, что они 2 порта поддерживают, а… чужие[ —] это как повезёт" (JVL's own machines support two ports; other manufacturers' are luck of the draw). [[wiki/people/dmitri-chudinov.md|Chudinov]] said the current protocol treats the second port as a reserve it does not know about, and Irina closed it with "мы ж не будем на ходу ничего переключать" — nothing will be switched over on the fly. **No ruling was made**, and the standing corpus contradiction over how many machines carry a second SAS port is untouched by this [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — redraw the Flex-Port mock-ups at the port's real screen resolution, with finger-sized buttons — due before the next review — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
-- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — review the Flex-Port error identifiers he could not explain, and complete the error list behind the unified error screen — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — review the Flex-Port error identifiers he could not explain, and create the full catalogue of errors behind the unified error screen — due unspecified; **still outstanding on Sept 16 2026**, with requirement 1454 moved back to Draft until it exists — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — test that a block arriving over one SAS port is seen by the Flex-Port when two ports are connected — due unspecified; untested in the build handed to Klimovich on Sept 14 — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — help Pavel build the test cases for machine tilt and block handling over SAS, using his field experience — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 
@@ -78,3 +86,5 @@ Klimovich supplied the ownership argument: "**да[,] вал[,] мы отвеч�
 ## Sources
 - [[raw/Meeting_Notes_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]

@@ -2,8 +2,8 @@
 type: decision
 title: A wallet balance is three lines everywhere — Total, Playable only, Redeemable — with no separate engineering and player vocabulary; Val declared it an ADR that must live in the repository
 date: 2026-09-15
-aliases: [balance naming, Total Playable only Redeemable, playable only, playbolo onli, three lines, тотал плейбл онли редимобл, dual balance naming, the balance ADR, ADR in the repo, promo balance parked, promo money to MVP2, withdrawal priority playable first]
-source-count: 3
+aliases: [balance naming, Total Playable only Redeemable, playable only, playbolo onli, three lines, тотал плейбл онли редимобл, dual balance naming, the balance ADR, ADR in the repo, promo balance parked, promo money to MVP2, withdrawal priority playable first, requirement 1552, withdrawable logic, everything is hand-paid]
+source-count: 5
 status: active
 open-commitments: 1
 open-questions: 2
@@ -84,6 +84,14 @@ Whether promo is a separate balance type or only a protocol flag was argued and 
 
 The dual-counter fact is not new — the Aug-2025 CMS block-diagram document already recorded that the e-wallet ticket carries two counters, playable-only and redeemable [[raw/CMS- Block Diagram_Arch 082225.md]] (see [[wiki/topics/flexpay-business-architecture-payout-devices.md]], Aug-20 2025). What Sept 15 adds is (a) **Total** as a named, displayed third line, (b) the rule that there is no separate internal vocabulary, and (c) the ADR obligation. It also discharges the Sept-14 commitment to get the dual-balance logic into the capabilities — see [[wiki/decisions/2026-09-14-mvp1-stays-local-and-the-cloud-balance-requirement-moves-to-mvp2.md]] for the neighbouring capability bookkeeping.
 
+## Update, Sept 16 2026 — requirement 1552 asks for the withdrawable logic to be spelled out
+
+At the [[wiki/meetings/2026-09-16-transactional-mvp1-open-questions-and-offline-operation.md|Sept-16 8:01 AM call]], requirement **1552** carried an open question [[wiki/people/andrei-klimovich.md|Klimovich]] paraphrased as "как нам определить деньги, которые считаются пригодными для вывода… с игровой машины" — how to determine which money counts as withdrawable off a gaming machine [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+**It is already covered.** Klimovich: "я уже это описал[;] это отдельно висит в MVP один[,] уже есть на это [ка]п[а]билити отдельно[,] с разделением [е]волет[а] — она тотал и… логика переноса с машин" — the wallet-splitting capability with Total and the transfer-from-machine logic already exists in MVP 1, and [[wiki/people/irina-shishko.md|Irina]] confirmed 1552 sits inside that very capability. What the AI assistant was asking for was the logic written out in prose: "тут он хочет, чтобы мы ещё объяснили, по какой логике деньги считаются" [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+**In Georgia the answer is trivial** — Klimovich: "в джорджии там всё понятно[,] всё hand[-]p[ai]d" (everything is hand-paid) — which is the same market fact behind the Redeemable line on this page. [[wiki/people/pavel.md|Pavel]] proposed reusing the Sept-15 withdrawal priority — playable credited first — as the requirement's logic [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]. The requirement was not moved or deleted.
+
 ## Open commitments
 
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — record the Total / Playable only / Redeemable naming as an ADR in the repository — due unspecified; Val named it an architecture decision on the call and asked the transcript to capture it — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
@@ -99,3 +107,5 @@ The dual-counter fact is not new — the Aug-2025 CMS block-diagram document alr
 - [[raw/Meeting_Notes_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [[raw/CMS- Block Diagram_Arch 082225.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]

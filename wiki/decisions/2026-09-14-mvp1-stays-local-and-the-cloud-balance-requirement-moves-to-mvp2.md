@@ -2,8 +2,8 @@
 type: decision
 title: MVP 1 keeps wallet balances on the terminal — requirement 1538 comes off capability 158 and moves to a new MVP 2 cloud capability, and the MVP 1 dashboard shows activated cards only
 date: 2026-09-14
-aliases: [requirement 1538, MVP1 cloud scope is two things, device online status, issued cards dashboard, operations dashboard specification, machine statistics premium tier, capability 158, cloud balance moves to MVP2, local terminal storage, dashboard shows activated cards only, eWallet movement reporting deferred, Claude closing a capability wrong, рекламент 1538]
-source-count: 4
+aliases: [requirement 1538, MVP1 cloud scope is two things, device online status, issued cards dashboard, operations dashboard specification, machine statistics premium tier, capability 158, cloud balance moves to MVP2, local terminal storage, dashboard shows activated cards only, eWallet movement reporting deferred, Claude closing a capability wrong, рекламент 1538, requirement 1436, data retention, factory reset wipes everything, capability 177]
+source-count: 6
 status: active
 open-commitments: 3
 open-questions: 2
@@ -58,10 +58,22 @@ So MVP 1 in the cloud is **device/operator online status** plus the **issued-car
 
 **And the deferred half got a commercial shape.** Chudinov raised that JVL can now collect statistics from the machines over SAS and could give the operator machine-level statistics. Val: "**абсолютно абсолютно… это это наш гвоздь программы**" — our showpiece. Klimovich: "это огромн[ый], один из самых сладких и важных кусочков, которые мы будем добавлять поэтапно", to be sold in blocks from the web service — "хотите расширенный пакет? пожалуйста, вот столько стоит[;] там ужатый пакет[ —] столько стоит" — while the location itself sees only "очень сжатая информация только для этого лакейш[на,] [в] самом минимальном формате" (Val). None of that is MVP 1 [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]].
 
+## Update, Sept 16 2026 — the MVP 2 cloud capability now exists, and the local rule is generalised to the whole requirement list
+
+At the [[wiki/meetings/2026-09-16-transactional-mvp1-open-questions-and-offline-operation.md|Sept-16 8:01 AM call]] Klimovich confirmed the capability has been created — "[ка]п[а]билити… я уже вчера создал, да, котор[ая] касательно клауд[а] именно[,] всё, что у нас… висит на MVP 2" — i.e. on Sept 15, after that morning's call. **That discharges the creation half of the commitment below; the corpus still contains no confirmation that requirement 1538 itself has been moved onto it** — 1538 was not mentioned at all on Sept 16 [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+**Its number is unresolved.** The team settled on **177** for want of a better candidate — Irina's reasoning was ordinal ("177 тогда возможно, потому что наверно выше нет ничего") and Klimovich recognised 177 as the balance-related capability before saying "давайте пока туда повесим". See [[wiki/decisions/2026-09-16-anything-that-depends-on-the-cloud-leaves-mvp1.md]], where the whole sweep is recorded and the number is carried as provisional [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+**The one-requirement ruling became a rule for everything.** Val: "уберите это. Надо быть честн[ым] с самим собой… всё, что мы не можем сделать 1 октября, уберите" — and requirements 1379, 1431, 1444, 1450, 1483 and 1485 left MVP 1 in the same hour [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+**"Local" was also given a retention meaning (requirement 1436).** Chudinov: "срок хранения[,] в случае, если образ не переустанавливает[ся,] — бесконечность. При переустановке нового инсталлера будет полное затирание[,] с потерей всех данных" — while the data lives on the device it is kept indefinitely; a full re-image from the SD card (the team reached for "factory reset" as the name) wipes everything. Pavel set the expectation that this is rare: "переустановка софта с [SD-]карточки[ —] это будет крайне редкое событие. Мы рассчитываем, что обновление всё[-]таки будет через воздух… с сохранением" — updates come over the air with data preserved, which is the remote-update path ruled into MVP 1 on [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]]. Klimovich noted the whole question changes once records live in the cloud and are merely pushed to the machine [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+**The operations-dashboard specification is still outstanding.** Klimovich's Sept-16 status was "продолжаю заниматься [UI] и… дэшборд[ом]" — still in progress, nothing delivered [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
 ## Open commitments
 
-- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — create the MVP 2 cloud capability and move requirement 1538 onto it, off capability 158 — restated Sept 15 2026 as due **that day**; still not done as of the Sept-15 call — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
-- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — produce the MVP 1 operations-dashboard specification naming which reports it actually contains — due within a couple of days of Sept 15 2026, after closing the IQ and port capabilities — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — move requirement 1538 onto the MVP 2 cloud capability, off capability 158 — restated Sept 15 2026 as due **that day**. **Partially discharged Sept 16 2026**: the MVP 2 cloud capability was created on Sept 15; the move of 1538 is still unconfirmed — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — produce the MVP 1 operations-dashboard specification naming which reports it actually contains — due within a couple of days of Sept 15 2026, after closing the IQ and port capabilities; **still in progress as of Sept 16 2026** ("продолжаю заниматься [UI] и… дэшборд[ом]") — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — prepare the ground so requirement 1538's status can be changed as soon as Klimovich moves it — due Sept 15 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 
 ## Open questions
@@ -76,3 +88,5 @@ So MVP 1 in the cloud is **device/operator online status** plus the **issued-car
 - [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]

@@ -2,11 +2,11 @@
 type: decision
 title: An e-wallet gets a lifetime (TTL) — 30 days by default, set per location between 1 and 365 days, and printed on the ticket as a validity period
 date: 2026-09-14
-aliases: [eWallet TTL, TTL thing, wallet lifetime 30 days, minimum one day maximum 365, wallet valid for X days, empty wallets are simply kept, expiry printed on the ticket, срок жизни волета]
-source-count: 2
+aliases: [eWallet TTL, TTL thing, wallet lifetime 30 days, minimum one day maximum 365, wallet valid for X days, empty wallets are simply kept, expiry printed on the ticket, срок жизни волета, requirement 1451, expired wallet display, expired wallet wording]
+source-count: 4
 status: active
-open-commitments: 0
-open-questions: 1
+open-commitments: 1
+open-questions: 2
 ---
 
 # An e-wallet expires on a TTL: 30 days by default, 1–365 per location
@@ -44,6 +44,22 @@ The TTL runs alongside two rules restated in the same block and unchanged from t
 
 **§15.8:** clear — product configuration only.
 
+## Update, Sept 16 2026 — how an expired wallet is shown is still an open UI question (requirement 1451)
+
+At the [[wiki/meetings/2026-09-16-transactional-mvp1-open-questions-and-offline-operation.md|Sept-16 8:01 AM call]], requirement **1451** was the last item on the list. [[wiki/people/andrei-klimovich.md|Klimovich]] confirmed the behaviour — a scanned wallet that has expired is shown as expired — and said the only unanswered part is wording: "мы будем показывать, если просканирован какой[-]то вол[ет], который [э]кспа[йр]ед… тут вопрос к [UI] чисто[:] просто какими словами всё это будет названо" [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+**This is the one open question the meeting deliberately left in place for a reason of its own**: Klimovich kept the placeholder so he would not forget to remove it — "давайте я оставлю эту [толпу] на этом пока[,] и потом, когда UI добавится, я удалю его отсюда". [[wiki/people/irina-shishko.md|Irina]] had the requirement's status taken off Published at the same time; her following words naming the target status are garbled and are not reconstructed here [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+## Open commitments
+
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — remove the open-question placeholder from requirement 1451 once the expired-wallet UI wording is added — due after the UI is added — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+
+## Open questions
+
+- **What an expired wallet is actually called on screen.** Behaviour agreed; the wording is a UI question left open on purpose — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]

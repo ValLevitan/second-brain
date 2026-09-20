@@ -4,8 +4,8 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 148
-open-commitments: 57
+source-count: 150
+open-commitments: 59
 open-questions: 0
 ---
 
@@ -597,6 +597,29 @@ He is one of the five owners of the non-functional requirements due Monday Sept 
 - [ ] Pavel Frolov (with [[wiki/people/andrey-bosik.md|Andrey Bosik]]) — work out whether the per-device LTE modems can back each other up when Wi-Fi drops — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [ ] Pavel Frolov (with [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]], [[wiki/people/andrey-bosik.md|Andrey Bosik]], [[wiki/people/irina-shishko.md|Irina Shishko]] and [[wiki/people/alexander-biratka.md|Alexander Biratka]]) — write the non-functional requirements for FlexPay, Flex-Port and Flex IQ — due Monday Sept 21 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 
+## Sept 16 2026 (8:01 AM) — two of the requirements under review are his, and he supplies the wording that fixes one of them
+
+The third MVP 1 morning call ([[wiki/meetings/2026-09-16-transactional-mvp1-open-questions-and-offline-operation.md|Sept 16 2026 8:01 AM call]], Russian). Klimovich identified requirement 1378 as his — "это авторство Павла" — and requirement 1382 as his too, and Pavel wrote the replacement wording for the first live on the call: "[en]rolled kios[k] can be d[e-]en[]rol[le]d from [the] location but never from the cloud [database]" ([[wiki/decisions/2026-09-16-a-kiosk-is-de-enrolled-from-a-location-never-from-the-cloud-database.md]]) [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+**His process proposal, not yet built:** a filter showing the live requirements from all four authors — "может нам сейчас сделать какой[-]то фильтр, который показывает актуальные [реквайрментс], котор[ые] часть Андре[й] создавал, часть Дим[а], часть [Ир]а, часть я… и иметь этот общий список у всех" — so the team walks one shared list instead of one person's. [[wiki/people/andrey-bosik.md|Bosik]] agreed; the meeting used Irina's list for the day [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+**Design corrections he supplied:**
+
+- On requirement 1382, the end states that actually exist: the player gets the card, or hits a card error, "тогда у него деньги остались на его [во]лет[е]" [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+- Escrow scope on FlexPay: "эскроу только… на одну последнюю купюру", and then the consequence he spotted himself — "после 1 купюры мы уже можем печатать ticket" [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+- On the receipt: not every top-up should create one [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+- The capacity constraint is strictly per network, not per location — "если мы разделяем лакейшн на саб[-]нетворк[и], то там эта проблема снимется" — though a centralised terminal is still needed, so the qualifier buys no escape ([[wiki/decisions/2026-09-16-fifteen-flex-ports-in-mvp1-and-the-system-designed-for-ninety-nine.md]]) [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+- The failure case nobody had raised: a player pressing *generate ticket* on a Flex-Port while a different player stands at the FlexPay the ticket would emerge from ([[wiki/decisions/2026-09-16-a-self-service-ticket-is-collected-at-the-service-kiosk-with-a-four-digit-pin.md]]) [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+**Two things he asked for and did not get.** He wanted the Flex-Port collect timeout configurable per location and Klimovich refused it as universal; and he wanted the day's running card total visible to the cashier, on the argument that InComm's first question will be how many cards went out today and "он скажет[:] не знаю. Сейчас я возьму калькулятор, посчитаю" — Klimovich refused to show an unofficial number to an operator ([[wiki/decisions/2026-09-16-incomm-returns-no-daily-cap-error-so-the-call-comes-to-jvl-first.md]]) [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+**On offline operation he took the middle position** — internet required at boot for the parameter check, short losses tolerated with a tilt after "5 минут[,] 15 минут" — and then, once Val had reversed the premise, drew the consequence that carried: "**это приводит к тому, что на подъёме устройства нам не надо требовать, чтоб был интернет обязательно**" [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+## Open commitments (Sept 16 2026)
+
+- [ ] Build the shared filter showing the live requirements from all four authors, so the team walks one list — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [ ] Review and update the status of every capability and requirement he authored, as Klimovich has done for his own — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
@@ -750,3 +773,5 @@ He is one of the five owners of the non-functional requirements due Monday Sept 
 - [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]

@@ -2,8 +2,8 @@
 type: decision
 title: Lease blocking must reach the Flex-Ports as well as the terminal, so players cannot play — and blocking is never automatic, only manual through the hub
 date: 2026-09-11
-aliases: [block the flex ports too, players cannot play, never block automatically, expired lease in the hub stops everything, lease feature written in so it gets tested, disable the bill acceptor through SAS, we can block Flex IQ FlexPay and the Flex Ports]
-source-count: 2
+aliases: [block the flex ports too, players cannot play, never block automatically, expired lease in the hub stops everything, lease feature written in so it gets tested, disable the bill acceptor through SAS, we can block Flex IQ FlexPay and the Flex Ports, lease expiry blocks offline too, lease versus internet loss, fresh lease date at start-up]
+source-count: 4
 status: active
 open-commitments: 3
 open-questions: 1
@@ -50,6 +50,14 @@ Klimovich supplied the missing context and it resolved cleanly:
 
 **So the settled position is:** the *trigger* is always a human setting a location's lease to expired in the hub; what follows *after* that trigger is automatic and stops everything, ports included. The Dolla Play production-payment testing is the reason automatic blocking on non-payment was disabled, and that disabling was Val's own instruction — recorded here because the misunderstanding was live in the room and is now closed.
 
+## Update, Sept 16 2026 — lease expiry and internet loss are separated, and the device-side mechanism is stated
+
+At the [[wiki/meetings/2026-09-16-transactional-mvp1-open-questions-and-offline-operation.md|Sept-16 8:01 AM call]] [[wiki/people/dmitri-chudinov.md|Chudinov]] described how the lease actually works on the device: Flex IQ and FlexPay fetch a fresh lease date at start-up, then keep monitoring the last lease they hold, and **block themselves on expiry even while disconnected**, unblocking as soon as a connection returns with a fresh date [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+The meeting then established that **lease expiry and loss of internet are two different things and only lease expiry blocks** — [[wiki/people/irina-shishko.md|Irina]]: "мы тут 2 вещи… в одну свалили" — and that a device with a valid lease now starts up and keeps trading with no internet at all. See [[wiki/decisions/2026-09-16-a-location-keeps-working-without-internet-and-only-the-card-stops.md]], which also records Chudinov arguing the opposite first, from the control requirement recorded on this page: "мы в любой момент должны уметь заблокировать терминал. Сами" [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+**Nothing on this page is superseded** — manual-only blocking and the reach into the ports both stand. What is added is that the *lease* block survives disconnection, and that an internet outage on its own is not a block.
+
 ## Open commitments
 
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — add requirements for the Flex-Port screens so they show adequate states when a location is blocked — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
@@ -67,3 +75,5 @@ Klimovich supplied the missing context and it resolved cleanly:
 ## Sources
 - [[raw/Meeting_Notes_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]

@@ -4,8 +4,8 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 53
-open-commitments: 17
+source-count: 55
+open-commitments: 20
 open-questions: 0
 ---
 
@@ -274,6 +274,28 @@ At the [[wiki/meetings/2026-09-15-transactional-mvp1-balance-naming-and-ui-flow-
 - [ ] Dmitri Chudinov — hand Klimovich the first version of Flex IQ in wallet mode so he can see which screens already exist — due the same day (Sept 15 2026) — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [ ] Dmitri Chudinov (with [[wiki/people/andrey-bosik.md|Andrey Bosik]], [[wiki/people/irina-shishko.md|Irina Shishko]], [[wiki/people/alexander-biratka.md|Alexander Biratka]] and [[wiki/people/pavel.md|Pavel Frolov]]) — write the non-functional requirements for FlexPay, Flex-Port and Flex IQ — due Monday Sept 21 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 
+## Sept 16 2026 (8:01 AM) — he supplies the implemented truth four times, loses the offline argument, and settles a requirement by reading the API documentation live
+
+The third MVP 1 morning call ([[wiki/meetings/2026-09-16-transactional-mvp1-open-questions-and-offline-operation.md|Sept 16 2026 8:01 AM call]], Russian). His role on this recording is consistent: he is the person who says what the code actually does, against what the requirement assumes.
+
+- **The lease, device-side:** Flex IQ and FlexPay fetch a fresh lease date at start-up, then keep monitoring the last lease they hold and block on expiry "даже если был дисконнект", unblocking when a connection returns [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+- **Storage:** contradicting Klimovich's assumption that locally-created wallets would later replicate to the cloud — "**не… в текущей реализации. Текущая реализация[ —] только локал стор[идж]. Конкретного мастера устройства**" [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+- **Cash:** "**нету никакого кэша на fl[e]xpay. Ни в каком виде**" — not by a recycler, not by a cashier, because the kiosk is purely for the player ([[wiki/decisions/2026-09-16-there-is-no-cash-on-flexpay-in-any-form.md]]) [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+- **Retention:** indefinite while the image stands, total erasure on a re-install — "при переустановке нового инсталлера будет полное затирание[,] с потерей всех данных" [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+- **Registration:** "[считай], что зарегистрировано, зарегистрировано навсегда… без практики[,] с методологи[ей] ничего не удаляется" ([[wiki/decisions/2026-09-16-a-kiosk-is-de-enrolled-from-a-location-never-from-the-cloud-database.md]]) [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+**He argued the offline case hardest and lost it.** His position — "на флекс[ ]айк[ью] было жесткое требование[:] если нет интернет и связи с нашими серверами[,] в принципе смысла ему работать нет" — rested on the control rule the team itself set: "**мы в любой момент должны уметь заблокировать терминал. Сами**". [[wiki/people/val-levitan.md|Val]] called the approach too categorical ("дима очень категорично к этому подходит") and Chudinov conceded the reading he was working from: "я слышу[:] в любой момент[;] для меня это сигнал[ —] в любой момент" [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]. See [[wiki/decisions/2026-09-16-a-location-keeps-working-without-internet-and-only-the-card-stops.md]].
+
+**He closed one requirement by going and reading the documentation during the call.** Asked whether InComm returns an explicit daily-cap error, he checked and came back with "я посмотрел [доку]ментаци[ю]… [про] дейли кап нет. Соответственно и ошибок никаких не будет" — which deleted requirement 1533 and reshaped JVL's support path ([[wiki/decisions/2026-09-16-incomm-returns-no-daily-cap-error-so-the-call-comes-to-jvl-first.md]]) [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+**He named a failure he has never seen and would not dismiss:** InComm answering nothing at all, leaving JVL unable to tell whether a card activated — "такое… ни разу ещё не ловил" — and credited the AI assistant with raising it, "Клод подсказывает, что такое может быть". The ruling that followed parks such an operation as pending ([[wiki/decisions/2026-09-16-the-mvp1-timing-numbers-two-hundred-milliseconds-and-thirty-seconds.md]]) [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]. He also supplied the 200 ms screen-response standard: "200 миллисекунд[ —] это стандарт, ну мировой" [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+## Open commitments (Sept 16 2026)
+
+- [ ] Rework the acceptance criteria for capability 122 himself, off the back of the requirements work he is doing with Klimovich — due unspecified; he asked for it to be skipped on this call — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [ ] Find the FlexPay capability that requirement 1431 (ticket PIN) should hang off, now that he has unlinked it from Flex IQ capability 141 — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [ ] Review and update the status of every capability and requirement he authored, as Klimovich has done for his own — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
@@ -329,3 +351,5 @@ At the [[wiki/meetings/2026-09-15-transactional-mvp1-balance-naming-and-ui-flow-
 - [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]

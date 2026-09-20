@@ -4,7 +4,7 @@ title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka, Alex Baratka, Alex Beratka, Alexander Berankov, Biratko, Alexander Biratko]
 disambiguation: "Alexander cluster (provisional — owner ruling pending): distinct JVL people sharing the given name Alexander. [[wiki/people/alexander-biratka.md|Alexander Biratka]] = Omni/Pixi framework & build engineer (aka Sasha; garbles Beratko/Baratka); [[wiki/people/alexander-korochkin.md|Alexander Korochkin]] = LGS QA-automation engineer (GitHub Alexander_K@JVL, read-only; aka Alexander K); [[wiki/people/alexander-tumanov.md|Alexander Tumanov]] = Minsk QA / data-center knowledge-capture hire (surname unverified). Resolve by context: Omni framework / Pixi / build → Biratka; LGS QA automation / read-only build consumer → Korochkin; manual-tester onboarding / data-center interviews → Tumanov. A further name 'Alexander Derok' (back-end build-integration / Java, per Val on Feb-6-2026) is unconfirmed — queued, not a page. Not [[wiki/people/alexei-khamin.md|Alexei Khamin]] (different name). Queue anything fitting none; never force-match."
-source-count: 56
+source-count: 58
 open-commitments: 8
 open-questions: 0
 ---
@@ -220,6 +220,20 @@ At the [[wiki/meetings/2026-09-15-transactional-mvp1-balance-naming-and-ui-flow-
 - [ ] Alexander Biratka — add the missing Flex IQ screen showing tilts and how to resolve them — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [ ] Alexander Biratka (with [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]], [[wiki/people/andrey-bosik.md|Andrey Bosik]], [[wiki/people/irina-shishko.md|Irina Shishko]] and [[wiki/people/pavel.md|Pavel Frolov]]) — write the non-functional requirements for FlexPay, Flex-Port and Flex IQ — due Monday Sept 21 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 
+## Sept 16 2026 (8:01 AM) — he asks why the wallet is going to the cloud at all, and the problem shrinks
+
+The third MVP 1 morning call ([[wiki/meetings/2026-09-16-transactional-mvp1-open-questions-and-offline-operation.md|Sept 16 2026 8:01 AM call]], Russian). He spoke little and changed the shape of one argument.
+
+With the room deep in offline synchronisation, he stopped it to ask the first-principles question: "**для начала[,] почему мы хотим переместить [е]в[олет] в облако, для чего?… кто[-]нибудь может сказать[,] я просто не в курсе**" [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]. The answers were [[wiki/people/val-levitan.md|Val]]'s — central validation of all tickets, consolidation, bonuses — and [[wiki/people/andrei-klimovich.md|Klimovich]]'s, kiosk replacement at a location [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+He then tested the hardest case himself — cashing the same e-wallet at a different kiosk — and, once Val confirmed there is no such goal, revised his own estimate of the difficulty downward on the spot [[[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]]:
+
+> **[Т]огда проблема, наверное, не такая большая, как как я сразу подумал… нужна нам нужна точка синхронизации[;] если… больше никто не будет пытаться обновить наш тикет на облаке, тогда… немного возникнет сложностей.**
+
+That framing — a synchronisation point rather than a distributed ledger — is what let Val close the topic as a 2027–2028 problem ([[wiki/decisions/2026-09-16-a-location-keeps-working-without-internet-and-only-the-card-stops.md]]) [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+He also joined Chudinov in refusing Val's pre-generated-validation-ID idea, in his own gentler register: "это решение очень не очень хорошее", and before that "это сложно" [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
@@ -279,3 +293,5 @@ At the [[wiki/meetings/2026-09-15-transactional-mvp1-balance-naming-and-ui-flow-
 - [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]

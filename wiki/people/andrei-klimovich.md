@@ -4,8 +4,8 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich, Andre]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 78
-open-commitments: 56
+source-count: 80
+open-commitments: 62
 open-questions: 0
 ---
 
@@ -476,6 +476,36 @@ The first time in the corpus he runs the transactional product **in front of an 
 - [x] Andrei Klimovich — add the dual-balance logic to the capabilities — **discharged Sept 15 2026**: "я добавил кэп[абилити]… релиз [MVP] один[,] котор[ая]… регулиру[ет] эту логику двойного волета" — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [x] Andrei Klimovich — re-read the reissue capability and settle reissue versus reprint — **discharged Sept 15 2026** as **reprint**; see [[wiki/decisions/2026-09-14-the-ewallet-is-created-before-its-ticket-prints.md]] — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 
+## Sept 16 2026 (8:01 AM) — he drives a ninety-six-minute cleanup, cleans his own Jira and hands the rest back, and is told he argues too softly
+
+The third consecutive morning call ([[wiki/meetings/2026-09-16-transactional-mvp1-open-questions-and-offline-operation.md|Sept 16 2026 8:01 AM call]], Russian). He opened with a status sweep: "я почистил [ка]п[а]билити [и] ре[кваймент]с, которые были [в] неподходящих статусах. Теперь все, за которые я отвечаю, они все переведены в актуальные статусы" — and then deliberately stopped there, "те [ка]п[а]билити[с и] ре[кваймент]с, чьим автором я не был, я не трогал. Я советую каждому автору посмотреть и актуализировать их" [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]. He also reported the small Sept-15 changes applied, including the reissue-versus-reprint logic, and said he was still on the UI and the dashboard [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+**He separated his own open questions into two kinds** — a distinction worth keeping, because it tells you which of them he is refusing to answer: "часть вопросов… инженерного плана, где я специально подсвечивал, что это решение не на уровне продукта или бизнеса… это в поле инженеров", the rest being business logic that does need a decision [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+**[[wiki/people/val-levitan.md|Val]] told him he was arguing his own position too weakly.** On the offline question Klimovich had in fact been on the business side all along, and said so ("так я же это и говорю"); Val's answer was "**ну слабо говорит[е]**", and Klimovich's "**хорошо, буду более агрессивно говорить**" [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]. Val also twice told him to keep the meeting moving — "Андрей климович, ваша задача толкать митинг" — which is how the room was actually run: Irina supplied the list, Klimovich drove the screen and edited each requirement live [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+**Where he held a line.** He refused a QR code for MVP 2 self-service redemption, and did so without inventing evidence: "[я] не буду сейчас сочинять процент пользователей, но большой процент… пользоваться не будут… у больш[инства] пользовател[ей] нету даже смартфонов" [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]. He refused to put JVL's own daily card total in front of a cashier because "это не очень [о]фиши[а]л намбер", wanting it in JVL's support web interface instead [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]. And he refused to patch requirement 1382 in place — "тут надо это переписывать… точечно… не пере[к]ро[и]м" [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+**Where he gave way.** He proposed no time limit at all on offline operation ("мы продолжаем работать неограниченное количество времени. Я не вижу проблем") and Val overruled him with 24 hours [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]. He accepted [[wiki/people/dmitri-chudinov.md|Chudinov]]'s correction that nothing is ever deleted from the cloud database, and [[wiki/people/pavel.md|Pavel]]'s that not every top-up should create a receipt [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+A small human detail that shaped the meeting: his machine was struggling throughout — Chrome "выжирает память, чудовищную просто", and near the end his audio and then the whole machine froze, which is how the call ended a minute early [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]. The decisions he closed on this call: [[wiki/decisions/2026-09-16-a-location-keeps-working-without-internet-and-only-the-card-stops.md]], [[wiki/decisions/2026-09-16-anything-that-depends-on-the-cloud-leaves-mvp1.md]], [[wiki/decisions/2026-09-16-fifteen-flex-ports-in-mvp1-and-the-system-designed-for-ninety-nine.md]], [[wiki/decisions/2026-09-16-the-mvp1-timing-numbers-two-hundred-milliseconds-and-thirty-seconds.md]], [[wiki/decisions/2026-09-16-incomm-returns-no-daily-cap-error-so-the-call-comes-to-jvl-first.md]], [[wiki/decisions/2026-09-16-there-is-no-cash-on-flexpay-in-any-form.md]], [[wiki/decisions/2026-09-16-a-kiosk-is-de-enrolled-from-a-location-never-from-the-cloud-database.md]].
+
+## Open commitments (Sept 16 2026)
+
+- [ ] Check requirement 1382 against the other requirements covering card issuance on Flex IQ; if it duplicates them, move it to MVP 2 and rework it for the FlexPay dispenser cases — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [ ] Add to the boot requirement that the device continues working with no internet at start-up while the lease is valid, up to the agreed window — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [ ] Design the Flex IQ receipt field by field: which fields are printed (his own note in requirement 1447) — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [ ] Check requirement 1430 ("unconfirmed money" as the transcript renders it) and attach it to the capability created for it — due unspecified; raised by Chudinov at the end of the call — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [ ] Remove the open-question placeholder from requirement 1451 once the expired-wallet UI wording is added — due after the UI is added — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [ ] Provide the day's running card-issuance total to support in JVL's own reporting interface, so a suspected InComm daily cap can be spotted — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+
+*(His standing commitment to complete the Flex-Port error catalogue is **not** discharged: requirement 1454 was moved back from Published to Draft on this call until the catalogue exists.)* [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+
+## History (discharged Sept 16 2026)
+
+- [x] Push his own MVP 1 capabilities and requirements out of unsuitable statuses — discharged for the items he authors; items authored by others were deliberately left to their authors — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [x] Create the MVP 2 cloud capability — confirmed created on Sept 15 2026 ("я уже вчера создал"); the separate move of requirement 1538 onto it remains unconfirmed — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
@@ -556,3 +586,5 @@ The first time in the corpus he runs the transactional product **in front of an 
 - [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [[raw/Meeting_Notes_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]]
 - [[raw/Meeting_Transcript_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]

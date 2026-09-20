@@ -2,10 +2,10 @@
 type: decision
 title: The Flex IQ cashier flow is settled — login becomes selectable between a PIN and a magnetic stripe card and the reader stays in the hardware, Cancel is removed, redemption pre-fills the maximum and freezes the amount on continue, the activation receipt always prints while a top-up receipt is optional, and the records list gets date and direction filters
 date: 2026-09-15
-aliases: [Flex IQ cashier flow, PIN or magnetic stripe, selectable login, magstripe reader stays, remove the cancel button, four digit PIN, pre-filled redemption, freeze the amount, receipt optional on top-up, records filters, X and Z reports, card stock tracking, home screen three blocks, кассир пинкод, магнетик стрип]
-source-count: 2
+aliases: [Flex IQ cashier flow, PIN or magnetic stripe, selectable login, magstripe reader stays, remove the cancel button, four digit PIN, pre-filled redemption, freeze the amount, receipt optional on top-up, records filters, X and Z reports, card stock tracking, home screen three blocks, кассир пинкод, магнетик стрип, requirement 1447, requirement 1490, receipt fields, wallet identifier is the key, transaction protocol]
+source-count: 4
 status: active
-open-commitments: 3
+open-commitments: 4
 open-questions: 2
 ---
 
@@ -78,7 +78,25 @@ Biratka asked for a missing screen showing tilts and how to resolve them ("у н
 
 Chudinov closed that thread with an offer that unblocks it: "**скорее всего, тебе сегодня подготовлю первую версию флекс[а ай кью с] волят[ным] режимом**… сможешь посмотреть, какие экраны сейчас… что переехало с [Flex]Pay… и дальше уже от этого можно будет отталкиваться, что переделать, что добавлять" [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]].
 
+## Update, Sept 16 2026 — the receipt still has no field list, and the wallet identifier is the key for records
+
+Two items on [[wiki/people/irina-shishko.md|Irina]]'s open-question list at the [[wiki/meetings/2026-09-16-transactional-mvp1-open-questions-and-offline-operation.md|Sept-16 8:01 AM call]] land on this page.
+
+**Requirement 1447 — the receipt.** The open question turned out to be [[wiki/people/andrei-klimovich.md|Klimovich]]'s own note to himself: "это мне пометка[ —] это сделать дизайн[…] ресита конкретно по полям, что мы хотим там печатать" — design the receipt field by field. It is still not done. [[wiki/people/pavel.md|Pavel]] used the same item to correct the wording so that not every top-up creates a receipt, and Klimovich confirmed why it had been left hanging: "мы вчера это проговорили[ —] мы добавим гейт на выбор оператора[-]кассира[,] хотите или не хотите[, —] и это повлияет на этот [реквайрмент]" — yesterday's cashier prompt gate changes it [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]. That gate is the narrowing already recorded on [[wiki/decisions/2026-09-02-implicit-consent-and-mandatory-printed-receipt.md]].
+
+**Requirement 1490 — cancel handling, and the key for the records list.** Klimovich deleted the open question on the grounds that cancel behaviour belongs in the transaction protocol, not here — "здесь это всё у нас будет жить в [транзакционном] протоколе" — and stated the identifier the records must be retrievable by [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]:
+
+> **Идентификатор волета, скорее всего, как самый надёжный идентификатор[,] и по вол[ету] мы всегда должны… иметь возможность поднять все транзакции, связанные с этим вол[етом].**
+>
+> *(The wallet identifier, most likely, as the most reliable identifier — and by the wallet we must always be able to pull up every transaction tied to that wallet.)*
+
+*(Klimovich hedged it with "скорее всего"; it is recorded as his stated design intent, not as a closed ruling.)* Pavel attached the receipt question to the same point: whatever the key, "для ресита нам надо понимать, какие поля мы будем [печатать]" [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+**The X and Z report question was not revisited** on Sept 16 and stays open below.
+
 ## Open commitments
+
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — design the Flex IQ receipt field by field: which fields are printed — due unspecified; his own note in requirement 1447, still outstanding on Sept 16 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — remind [[wiki/people/genadi-peari.md|Genadi Peari]] that the magnetic stripe reader stays in Flex IQ — due at his next conversation with Genadi; Val's precaution — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — add the missing Flex IQ screen showing tilts and how to resolve them — due unspecified; he raised it and Val agreed — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
@@ -94,3 +112,5 @@ Chudinov closed that thread with an offer that unblocks it: "**скорее вс
 ## Sources
 - [[raw/Meeting_Notes_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]

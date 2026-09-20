@@ -4,8 +4,8 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 81
-open-commitments: 15
+source-count: 83
+open-commitments: 16
 ---
 
 # Irina Shishko
@@ -296,6 +296,24 @@ Her position on the balance naming was consistent with the outcome from the star
 
 - [ ] Irina Shishko (with [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]], [[wiki/people/andrey-bosik.md|Andrey Bosik]], [[wiki/people/alexander-biratka.md|Alexander Biratka]] and [[wiki/people/pavel.md|Pavel Frolov]]) — write the non-functional requirements for FlexPay, Flex-Port and Flex IQ — due Monday Sept 21 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 
+## Sept 16 2026 (8:01 AM) — she calls the meeting, drives it from her own list, and makes the separation that ends the offline argument
+
+The third MVP 1 morning call ([[wiki/meetings/2026-09-16-transactional-mvp1-open-questions-and-offline-operation.md|Sept 16 2026 8:01 AM call]], Russian) exists because of her. She had started on the non-functional requirements [[wiki/people/val-levitan.md|Val]] ordered the previous evening and could not proceed [[[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]]:
+
+> **[Я] стара[ла]сь поработать с требованиями… нон фан[кшнл,] и столкнулась с тем, что у нас половина требований имеют открытые вопросы, и как только Клода просишь с этим поработать, мы тут же получаем[:] "у тебя там открытый вопрос"… нам нужно вот эти все требования почистить[:] либо дать ответ, либо… убрать этот вопрос.**
+
+She had the AI assistant build her the list — capabilities whose requirements carry open questions — and then navigated Klimovich through it for ninety minutes, number by number [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+**Her single most useful contribution was a distinction.** With the offline argument circling, she split the two things that had been run together: "**по[-]моему[,] мы тут 2 вещи… в одну свалили[:] есть[,] когда блокировка [придёт] — то есть закончилась лиза[ —] мы блокируем[,] это одно. А когда там нет интернета… это уже 2[-]й вопрос, и мы договорились, что мы работу не блокируем… игрок играет, единственное[ —] мы не можем выпустить карточку. И говорим, приходи завтра**" — which is the settlement the meeting adopted ([[wiki/decisions/2026-09-16-a-location-keeps-working-without-internet-and-only-the-card-stops.md]]) [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]. Earlier in the same exchange she had already pushed back on Chudinov's framing: "мы ничего не блокируем, мы только не можем выпустить карточку" [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+**Release legibility is again her argument for moving things rather than rewording them:** "как нам делить, что сделано, что не сделан[о]? Есть capability 116. По нашим требованиям это всё должно работать к 1 октября, но не будет работать" ([[wiki/decisions/2026-09-16-anything-that-depends-on-the-cloud-leaves-mvp1.md]]) [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+**She enforced status discipline in the direction people avoid.** Requirement 1454 was moved *back* from Published to Draft because the error catalogue behind it does not exist — "паблиш для этого [реквайрмента] поменяй на… драфт" — and requirement 1451 was taken off Published too [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]. She also flagged the practical cost of the team's AI-assisted workflow: an open item deliberately left in place "нужно будет как[-]то обозначить для Клода", or the assistant keeps tripping on it [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+## Open commitments (Sept 16 2026)
+
+- [ ] Review and update the status of every capability and requirement she authored, as Klimovich has done for his own — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
@@ -379,3 +397,5 @@ Her position on the balance naming was consistent with the outcome from the star
 - [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]

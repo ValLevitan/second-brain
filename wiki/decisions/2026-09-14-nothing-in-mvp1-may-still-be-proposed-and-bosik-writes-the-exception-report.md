@@ -2,10 +2,10 @@
 type: decision
 title: Nothing in MVP 1 may still sit in "Proposed" — Val fixes the Jira status chain (Accepted → To Do with features → In Progress with a linked feature branch) and asks Bosik for an automated exception report
 date: 2026-09-14
-aliases: [nothing in MVP1 can be Proposed, sell the capabilities to the developers, exception report, эксепшн репорт, feature branch linked, To Do must have features, capability linked to requirements, requirements must have acceptance criteria, Kovalchuk changed the workflow]
-source-count: 2
+aliases: [nothing in MVP1 can be Proposed, sell the capabilities to the developers, exception report, эксепшн репорт, feature branch linked, To Do must have features, capability linked to requirements, requirements must have acceptance criteria, Kovalchuk changed the workflow, every author cleans their own, shared requirements filter, requirement 1454 back to Draft]
+source-count: 4
 status: active
-open-commitments: 3
+open-commitments: 4
 open-questions: 1
 ---
 
@@ -46,11 +46,26 @@ Val opened the block by asking whether [[wiki/people/dmitri-kovalchuk.md|Dmitri 
 
 **One correction inside the exchange, worth keeping straight:** Val's first phrasing swept In-Progress items into the "must move to Accepted" rule, and Pavel stopped him — "не так[:] те, которые [In Progress,] это уже после [Accepted]", with Irina adding "это уже их реализовывает девелопер." Val accepted the correction and restated that he meant **Proposed** only [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]].
 
+## Update, Sept 16 2026 — Klimovich has cleaned his own items, and hands the rest back to their authors
+
+Klimovich opened the [[wiki/meetings/2026-09-16-transactional-mvp1-open-questions-and-offline-operation.md|Sept-16 8:01 AM call]] with the status sweep as his first item: "я почистил [ка]п[а]билити [и] ре[кваймент]с, которые были [в] неподходящих статусах. Теперь все, за которые я отвечаю, они все переведены в актуальные статусы" — everything he authors is now in a current status [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+**He explicitly did not touch anyone else's, and pushed the obligation outward:** "те [ка]п[а]билити[с и] ре[кваймент]с, чьим автором я не был, я не трогал. Я советую каждому автору посмотреть и актуализировать их" [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]. That converts one commitment into five: the four requirement authors named on this recording are Klimovich, [[wiki/people/dmitri-chudinov.md|Chudinov]], [[wiki/people/pavel.md|Pavel Frolov]] and [[wiki/people/irina-shishko.md|Irina Shishko]] — Pavel's own count of who writes them: "часть Андре[й] создавал, часть Дим[а], часть [Ир]а, часть я" [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+**The status discipline was exercised live twice on the same call**, in the opposite direction to the usual push forward: requirement **1454** was moved *back* from Published to Draft because the error catalogue it depends on does not exist yet, and requirement **1451** was taken off Published as well (the target status is garbled in the transcript) [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+**Pavel's process proposal, not yet built:** a filter showing the live requirements from all four authors, so the team walks one shared list instead of one person's — "может нам сейчас сделать какой[-]то фильтр, который показывает актуальные [реквайрментс]… и иметь этот общий список у всех". [[wiki/people/andrey-bosik.md|Bosik]] agreed ("да я тоже так думаю"); the meeting used Irina's list for the day instead [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
 ## Open commitments
 
+- [ ] All four requirement authors — [[wiki/people/andrei-klimovich.md|Andrei Klimovich]], [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]], [[wiki/people/pavel.md|Pavel Frolov]] and [[wiki/people/irina-shishko.md|Irina Shishko]] — review and update the status of every capability and requirement they authored, as Klimovich has done for his own — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — build the shared filter showing the live requirements from all four authors, so the team walks one list — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — build a routine that checks the Jira status rules and sends a short exception report — only what does not match — to Val, Pavel Frolov and Andrei Klimovich — due unspecified; he agreed and needs to work out how — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
-- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — push every MVP 1 capability out of "Proposed" status — due immediately; Val: nothing in MVP 1 can still be Proposed today — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — make sure everything In Progress is scheduled, ahead of the next morning's meeting — due Sept 15 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+
+## History
+
+- [x] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — push every MVP 1 capability out of "Proposed" status — due immediately; Val: nothing in MVP 1 can still be Proposed today. **Discharged for his own items on Sept 16 2026** ([[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]); items authored by others were deliberately left to their authors — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 
 ## Open questions
 
@@ -63,3 +78,5 @@ Val opened the block by asking whether [[wiki/people/dmitri-kovalchuk.md|Dmitri 
 ## Sources
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]

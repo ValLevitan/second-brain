@@ -2,11 +2,11 @@
 type: decision
 title: A collect timeout must never destroy the player's money — it goes to unclaimed money, built as a wallet that is created and funded but never printed; the specification to work from is AFT plus state banking law, starting with Juan Martinez and then GLI, and none of it is in MVP 1
 date: 2026-09-15
-aliases: [unclaimed money, anklaim money, анклейм мани, timeout money evaporates, money never lost, wallet without printing, unclaimed wallet, AFT specification, GLI consulting fee, деньги испаряются, escheatment]
-source-count: 3
+aliases: [unclaimed money, anklaim money, анклейм мани, timeout money evaporates, money never lost, wallet without printing, unclaimed wallet, AFT specification, GLI consulting fee, деньги испаряются, escheatment, requirement 1430, unconfirmed money, анконференд мани]
+source-count: 5
 status: active
-open-commitments: 2
-open-questions: 3
+open-commitments: 3
+open-questions: 4
 ---
 
 # A timeout sends the money to unclaimed money — the player never loses it
@@ -55,8 +55,15 @@ Pavel also offered a market data point Val rejected: that casinos collect unclai
 
 Klimovich asked for the release disclaimer directly — "окей[,] ли нам, если это не будет реализовано в рамках MVP один[,] готовы ли мы зарелизи[ться]?" Val, without hesitation: "**Конечно, конечно, конечно, конечно, никаких проблем в этом нету, но это должно быть сделано… Скоро. Я не знаю [MVP] 2 и [MVP] 3[,] но де[фи]н[итли] это [не] MVP один**" [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]. He then closed the topic: "Все на этом… я хочу эти дебаты закрыть, идём дальше."
 
+## Update, Sept 16 2026 — requirement 1430, and an unresolved word
+
+The last item of the [[wiki/meetings/2026-09-16-transactional-mvp1-open-questions-and-offline-operation.md|Sept-16 8:01 AM call]] was [[wiki/people/dmitri-chudinov.md|Chudinov]] pointing [[wiki/people/andrei-klimovich.md|Klimovich]] at a requirement that had been closed off the wrong capability: "Андрей[,] помет[ь] еще одно требование… не из этой [ка]п[а]бил[ити;] это **14[ ]30**[ —] это про [анконференд] мани, котор[ое] мы вчера обсуждали, и ты там говорил, что создашь [ка]п[а]бил[ити] под неё[ —] вот это требование к ней будет". Klimovich: "14[ ]30[,] хорошо[,] я гляну" [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+**Which money he means is genuinely unclear and is not resolved here.** The transcript renders the term "анконференд мани" — phonetically *unconfirmed* money — whereas the Sept-15 subject of this page is rendered throughout as "анклейм/анклейд/онклайнт мани", *unclaimed* money. The derived notes read 1430 as **unconfirmed** money [[raw/Meeting_Notes_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]. Two things argue each way: Chudinov ties it to "what we discussed yesterday", which on this page is unclaimed money; but the Sept-15 transcript contains **no** promise by Klimovich to create a capability for unclaimed money, and the Sept-16 call did settle a separate *pending / unconfirmed* transaction state for a silent InComm answer ([[wiki/decisions/2026-09-16-the-mvp1-timing-numbers-two-hundred-milliseconds-and-thirty-seconds.md]]). Recorded as unclear rather than assigned.
+
 ## Open commitments
 
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — check requirement 1430 ("unconfirmed money" as the transcript renders it) and attach it to the capability created for it — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — speak to [[wiki/people/juan-martinez.md|Juan Martinez]] about unclaimed money: where the entity lives, who is obliged to create and hold it, and who owns the balance — due the same day (Sept 15 2026); "я обязательно этот сегодня же поговорю с хуаном" — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — book a meeting with [[wiki/organizations/gli.md|GLI]] on unclaimed money if Juan cannot cover it, accepting a consulting fee — due after Klimovich's call with Juan — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 
@@ -64,6 +71,7 @@ Klimovich asked for the release disclaimer directly — "окей[,] ли нам
 
 - **Where the unclaimed-money entity lives and who owns the balance.** Klimovich asked whether JVL is obliged to create and hold it, and whose money it then is — "не [JVL] же принадлежит, он принадлежит лакейшн". Val did not know: "или оператору, или GLC, или лакейши[ну], или налоговой[,] но неважно… я говорю, кто должен держать это?" — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - **Wallet or separate entity?** Biratka's create-fund-mark-do-not-print wallet is the simpler route; Chudinov wants a separate entity because the cloud wallet lands in the next MVP. Unresolved — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- **Is requirement 1430 about unclaimed money or unconfirmed money?** The Sept-16 transcript renders it "анконференд мани" while tying it to the previous day's discussion; the corpus does not settle which topic it belongs to — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - **One unclaimed wallet updated forever, or a new one per event?** Klimovich raised it; Biratka guessed a new one each time, "только он должен какого-то определённого типа быть". Not settled — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 
 **§15.8:** clear — regulatory and money-flow design only. No named person's pay, rate or performance judgement appears in either source; nothing was excluded on that ground. **§15.9:** no licence, registration, tax or account number appears in this material.
@@ -72,3 +80,5 @@ Klimovich asked for the release disclaimer directly — "окей[,] ли нам
 - [[raw/Meeting_Notes_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]

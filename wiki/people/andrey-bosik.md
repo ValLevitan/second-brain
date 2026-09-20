@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 89
+source-count: 91
 open-commitments: 28
 ---
 
@@ -359,6 +359,16 @@ At the [[wiki/meetings/2026-09-15-transactional-mvp1-balance-naming-and-ui-flow-
 - [ ] Andrey Bosik (with [[wiki/people/pavel.md|Pavel Frolov]]) — work out whether the per-device LTE modems can back each other up when Wi-Fi drops, and whether a separate Wi-Fi access point is still worth installing — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [ ] Andrey Bosik (with [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]], [[wiki/people/irina-shishko.md|Irina Shishko]], [[wiki/people/alexander-biratka.md|Alexander Biratka]] and [[wiki/people/pavel.md|Pavel Frolov]]) — write the non-functional requirements for FlexPay, Flex-Port and Flex IQ — due Monday Sept 21 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 
+## Sept 16 2026 (8:01 AM) — two short network-side interventions, and the one that disambiguates him
+
+The third MVP 1 morning call ([[wiki/meetings/2026-09-16-transactional-mvp1-open-questions-and-offline-operation.md|Sept 16 2026 8:01 AM call]], Russian). He was present throughout and spoke twice to effect, both times on the network — which is the context signature that separates him from [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] on a recording where both men are addressed as "Андрей".
+
+**He settled what "the channel" meant in requirement 1379.** [[wiki/people/dmitri-chudinov.md|Chudinov]] had asked whether it was the Flex IQ ↔ cloud channel or the Flex-Ports ↔ master-device channel; Bosik: "уже написано сингл клауд ч[а]н[е]л… **в общем, внешний канал связи**" — the external communication channel [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]. That reading is what let the requirement be moved out of MVP 1 ([[wiki/decisions/2026-09-16-anything-that-depends-on-the-cloud-leaves-mvp1.md]]).
+
+**He declined to give a timeout number**, asked directly for one by Chudinov ("может Андрей бы подсказал цифёрку?"), on the grounds that it is not JVL's to fix: "**она ж может зависеть от чего угодно… у самого провайдера может что[-]то быть [с] сетью**". The 30 seconds the meeting settled on came from Chudinov and Klimovich instead ([[wiki/decisions/2026-09-16-the-mvp1-timing-numbers-two-hundred-milliseconds-and-thirty-seconds.md]]) [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+He also backed [[wiki/people/pavel.md|Pavel]]'s proposal for one shared requirements filter across all four authors — "да я тоже так думаю" [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]. Nothing new was assigned to him on this call; his standing Jira exception-report commitment is untouched.
+
 ## Sources
 
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
@@ -453,3 +463,5 @@ At the [[wiki/meetings/2026-09-15-transactional-mvp1-balance-naming-and-ui-flow-
 - [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]

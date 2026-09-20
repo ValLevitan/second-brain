@@ -2,8 +2,8 @@
 type: decision
 title: Val repoints the rest of the week at the non-functional requirements, names the five people who own them, and sets Monday September 21 as the deadline for a grooming pass over the whole of MVP 1
 date: 2026-09-15
-aliases: [if it is not written it does not exist, non-functional requirements owners, nonfunctional requirements week, September 21 deadline, MVP1 grooming meeting, engineering ideology, architecture ideologist, это не написано этого нету, нон фанкшинал, Sonos analogy]
-source-count: 2
+aliases: [if it is not written it does not exist, non-functional requirements owners, nonfunctional requirements week, September 21 deadline, MVP1 grooming meeting, engineering ideology, architecture ideologist, это не написано этого нету, нон фанкшинал, Sonos analogy, half the requirements have open questions, Claude refuses past an open question, focus rule]
+source-count: 4
 status: active
 open-commitments: 3
 open-questions: 1
@@ -55,6 +55,20 @@ Val asked for agreement and got it from Pavel ("Окей"), Bosik ("Да") and K
 
 The Sept-7 ruling said non-functional requirements come first and named their form (a single-line acceptance criterion per requirement, so the tests can be automated). Eight days later they still did not exist in writing — Chudinov's "требования не прописанные" is the admission. What Sept 15 adds is ownership by name, three working days cleared for the work, and a dated assembly point where every capability must arrive with both its functional and its non-functional requirements already attached.
 
+## Update, Sept 16 2026 — the non-functional work is blocked by the functional requirements' own open questions
+
+The next morning's call ([[wiki/meetings/2026-09-16-transactional-mvp1-open-questions-and-offline-operation.md|Sept 16, 8:01 AM]]) opened with [[wiki/people/irina-shishko.md|Irina]] reporting why she had not got far. She had started on the non-functional requirements and run into the state of the functional ones [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]:
+
+> **[Я] стара[ла]сь поработать с требованиями… нон фан[кшнл,] и столкнулась с тем, что у нас половина требований имеют открытые вопросы, и как только Клода просишь с этим поработать, мы тут же получаем[:] "у тебя там открытый вопрос". На них нужны ответы, иначе уводят неизвестно куда… нам нужно вот эти все требования почистить, то есть либо дать ответ, либо если это не актуально[ —] убрать этот вопрос.**
+>
+> *(I was trying to work on the requirements — the non-functional ones — and ran into the fact that half our requirements carry open questions, and the moment you ask Claude to work with one, straight back comes "you have an open question there". They need answers, otherwise it leads nowhere… we have to clean all these requirements: either give an answer, or, if it is no longer relevant, remove the question.)*
+
+That is the concrete mechanism by which unanswered questions block the Sept-21 gate: the team's AI-assisted requirement workflow refuses to proceed past one. **Val's plan for the Sept-16 meeting therefore did not hold as stated** — it was to be devoted to the non-functional requirements and instead went, end to end, to clearing open questions out of the functional ones. The gate itself is unchanged and nobody re-opened the date.
+
+[[wiki/people/andrei-klimovich.md|Klimovich]] entered one qualification: not every open question is his to answer. Some he flagged deliberately as engineering questions — "это решение не на уровне продукта или бизнеса… это скорее ответ на вопрос, как это должно быть сделано[;] это в поле инженеров" — while conceding the rest really are business logic needing a decision [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
+**Val closed the Sept-16 call by restating the focus rule unchanged:** "[и]нженер[ы] продолжа[ют] работать на одном [функциональном рек]в[а]йрмент[е] и продолжа[ют] делать[;] кроме [этого] никто ничего не программирует. Фокусируемся на этом" — nothing outside the one functional requirement set gets programmed [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]], [[wiki/people/andrey-bosik.md|Andrey Bosik]], [[wiki/people/irina-shishko.md|Irina Shishko]], [[wiki/people/alexander-biratka.md|Alexander Biratka]] and [[wiki/people/pavel.md|Pavel Frolov]] — write the non-functional requirements for FlexPay, Flex-Port and Flex IQ (timers, handshaking, encryption, hung states, device pings, the incoming Wi-Fi, unit identification numbers) — due Monday Sept 21 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
@@ -70,3 +84,5 @@ The Sept-7 ruling said non-functional requirements come first and named their fo
 ## Sources
 - [[raw/Meeting_Notes_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
