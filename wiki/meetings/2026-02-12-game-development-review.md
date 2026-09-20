@@ -24,3 +24,8 @@ Substance is recorded where it belongs:
 - **[[wiki/people/igor-metelski.md|Igor Metelski]] away ~2 months in a military training camp** (limited internet/phone), and the single-programmer risk to the South Dakota release — [[wiki/people/anton-leshkevich.md|Anton]] to scope inheriting his assignments → [[wiki/people/igor-metelski.md]] (Feb-12) and [[wiki/people/anton-leshkevich.md]] (Feb-12). [[raw/Game_Development-February-12-2026-1.md]]
 - **The revised-nudge RTP finding — the root cause of the Feb-9 underperformance** (the "new RIS" package dropped the popular low bet buttons from 92% to 88%, a 4% cut players feel; urgent revert toward the 1919 package's percentages) → [[wiki/projects/georgia-market-rollout.md]] (Feb-12) and [[wiki/people/juan-martinez.md]] (Feb-12). [[raw/Game_Development-February-12-2026-2..md]]
 - **Georgia go-to-market** (June machine-testing before the August trade show; GCOM software ready late-April/early-May for the Eclipse lab; the 16-game "mega monster" vs a 10-game "Platinum" upgrade for Peach One; commoditization / Bad Dog conversion kits; the Felipe office-manager-vs-salesperson and Elizabeth-replacement debate; a Konami/Bravery-Gaming distribution idea) → [[wiki/projects/georgia-market-rollout.md]] (Feb-12), [[wiki/people/juan-martinez.md]] (Feb-12) and [[wiki/people/michael-gottlieb.md]] (Feb-12). [[raw/Game_Development-February-12-2026-2..md]]
+
+## Sources
+
+- [[raw/Game_Development-February-12-2026-1.md]]
+- [[raw/Game_Development-February-12-2026-2..md]]

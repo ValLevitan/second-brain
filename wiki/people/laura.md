@@ -3,7 +3,7 @@ type: person
 title: Laura
 date: 2025-04-15
 aliases: [Laura, Laura Escorcia]
-source-count: 8
+source-count: 9
 ---
 
 # Laura
@@ -34,3 +34,4 @@ At the Aug-3 [[wiki/meetings/2026-08-03-gl-accounts-systems-labs.md|GL working s
 - [[raw/Meeting_Transcript_MSII_Refund_Situation-June-29-2026.md]]
 - [[raw/Meeting_Transcript_GL_Accounts_Systems_Labs-August-3-2026.md]]
 - [[raw/Meeting_Transcript_Chart_of_Accounts_Alignment_Systems_Labs-August-5-2026.md]]
+- [[raw/Meeting_Notes_Chart_of_Accounts_Alignment_Systems_Labs-August-5-2026.md]]

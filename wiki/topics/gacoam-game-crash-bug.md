@@ -3,7 +3,7 @@ type: topic
 title: GA-COAM V3 game-crash bug ("Tilt-1")
 date: 2026-08-11
 aliases: [Tilt-1, Tilt-1 analysis, tilt one, Hero Safari error 1, GACOAM 2 crash, GA-COAM crash bug, new-family game crash, Max Bet bug, V.43 bugs]
-source-count: 6
+source-count: 7
 open-commitments: 2
 open-questions: 3
 ---
@@ -58,3 +58,4 @@ The next day ([[wiki/meetings/2026-08-14-tilt1-maxbet-bug-fix.md|Tilt-1 Max Bet 
 - [[raw/Meeting_Transcript_Tilt-1_Bug_Analysis_V43_COAM-August-13-2026.md]]
 - [[raw/Meeting_Notes_Tilt-1_MaxBet_Bug_Fix-August-14-2026.md]]
 - [[raw/Meeting_Transcript_Tilt-1_MaxBet_Bug_Fix-August-14-2026.md]]
+- [[raw/Meeting_Notes_GA_COAM_Pipeline_Trial_Forecast-August-11-2026.md]]
