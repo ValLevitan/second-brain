@@ -3,7 +3,7 @@ type: project
 title: South Dakota VLT market entry
 date: 2025-01-22
 aliases: [South Dakota, SD VLT, South Dakota VLT 3, VLT3, South Dakota D2703, IP1180, IP887, IP1131, IP1137, GD918, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950, V43, D27, SD cap, Bioliches, Gypsy Spirit, Crazy Colt, Queen of Luxor, Liberty Spin, Rodeo Spin, South Dakota vertical, MG Oil report, VLT2, Cool Cat, Black Hills Kino, Dragon Pace, Dakota Bison, Solar Keno, Keno Deluxe, IP459, IP1063]
-source-count: 43
+source-count: 45
 open-commitments: 4
 ---
 
@@ -194,6 +194,35 @@ A ~39-minute game-development meeting ([[wiki/meetings/2026-05-29-game-developme
 - **Rust conversion status — steady, not ahead.** [[wiki/people/efim-podvoiski.md|Efim]] reported the Rust conversion is **not moving faster than planned**: three weeks ago he estimated ~10 more weeks, and he still estimates ~10 more weeks. Satisfied but not ahead of schedule. [[raw/Game_Development-May-29-2026.md]]
 - **Event-recorder ("black box") data preview.** Val previewed an upcoming decision to put an **event recorder with a built-in LTE modem** (and possibly GPS) into every machine; because it transmits continuously it can send effectively unlimited data, and the main interest is **player-behaviour data**, not just technical fault data. Michael's wish-list: which games players choose, bet levels, play-session/bankroll behaviour, time on device, and spin timing (especially for Keno, where the chosen speed across three settings would help set the default). The technical-fault data is already planned; the open part is the player-behaviour list, so Val asked everyone to write down their data-collection requirements — there is no definitive list yet. (Ties to the [[wiki/meetings/2026-05-25-gsm-gps-modem-and-event-recorder.md|May-25 GSM/GPS modem + event-recorder]] hardware planning on [[wiki/topics/flexpay-business-architecture-payout-devices.md]].) [[raw/Game_Development-May-29-2026.md]]
 
+## Jun 18 2026 — the regulatory wall, the ten-machine room, and the competitive structure (MG Oil, Rapid City)
+
+From the [[wiki/meetings/2026-06-18-mg-oil-dana-giesey-rapid-city-visit.md|June-18 2026 visit]] to [[wiki/organizations/mg-oil.md|MG Oil]]'s head office, where [[wiki/people/dana-giesey.md|Dana Giesey]] explained why almost nothing JVL was offering could be sold into this state. The office decision taken on the same visit is [[wiki/decisions/2026-06-18-jvl-moves-its-south-dakota-office-to-nebraska.md]]; the QR/Passport thread is on [[wiki/topics/ris-remote-install-and-machine-states.md]] (Jun-18). **§15 #8:** market and machine economics only; no named-person compensation appears in these sources. [[raw/Meeting_Transcript_MG_Oil_Dana_Giesey_South_Dakota_Visit-June-18-2026.md]] [[raw/Meeting_Notes_MG_Oil_Dana_Giesey_South_Dakota_Visit-June-18-2026.md]]
+
+### The regulatory wall, from the operator's side
+
+- **You run exactly what the state approved, and nothing else.** Dana: "**You can't change a bill acceptor unless it's the exact same thing. They don't allow you to put any kind of other device in anything. You can't even change the color of the machine. We painted a cabinet once and they made us destroy it. They're that strict here.**" And on settings: the other products MG Oil runs have no adjustable settings at all — "**It's the way they come out from the state of South Dakota for approval. That's just the way they are. We can't change it.**" [[raw/Meeting_Transcript_MG_Oil_Dana_Giesey_South_Dakota_Visit-June-18-2026.md]]
+- **Val recognised it from certification.** "**we never dealt with a strict territory like South Dakota. Regulators usually say machines have a bill of sale and that's it. South Dakota is the only state that says it needs to be this bill of sale. This one.**" *(The passage is garbled — "bill of sale" recurs where a bill validator is plainly meant, and "even our certification says this is still acceptable" is not interpretable. The derived notes read it as **South Dakota being the only jurisdiction that insists the certification name one specific validator**; that is the notes' reading and is not asserted as fact here.)* [[raw/Meeting_Transcript_MG_Oil_Dana_Giesey_South_Dakota_Visit-June-18-2026.md]] [[raw/Meeting_Notes_MG_Oil_Dana_Giesey_South_Dakota_Visit-June-18-2026.md]]
+- **Getting a rule changed is, in Dana's experience, close to impossible:** "**It's tough to get them to change anything. We've been trying to get the badland money increased for twenty years, and it goes nowhere.**" *("badland money" is a garble; the notes read it as the **payout limit**.)* [[raw/Meeting_Transcript_MG_Oil_Dana_Giesey_South_Dakota_Visit-June-18-2026.md]] [[raw/Meeting_Notes_MG_Oil_Dana_Giesey_South_Dakota_Visit-June-18-2026.md]]
+
+### The ten-machine room — why kiosks do not work in South Dakota
+
+This is the structural fact behind the whole state, and the corpus did not have it before. [[raw/Meeting_Transcript_MG_Oil_Dana_Giesey_South_Dakota_Visit-June-18-2026.md]]
+
+- "**In South Dakota, you can have ten machines per license.** So in order to get over the ten machines, you have to basically — **each room with ten machines in the state's eyes is a separate establishment. So you have to have a place to dispense alcohol for each ten machines.**" That is why the large venues Val had walked through have bars split up and spread around the floor.
+- "**There's a separate site controller that operates the ten machines in each room, and they do not communicate with each other**" — so a player "**could never be able to currently go to another room with that ticket, put it in the machine, because they're separate establishments**", even with **fifty machines in the same building**.
+- **MG Oil already tried.** "**we've looked into doing a kiosk before with another company out of Nebraska, and they didn't go anywhere**" for exactly this reason. Val's answer — "**and I can make it that you can**" — drew Dana's: "**I know you can, but I don't know if you can get the state of South Dakota on board with it because it would require a rule change.**"
+
+### Competitive structure (Dana's account)
+
+- **Two large operators are left: MG Oil and Axcess Entertainment.** Axcess is "**probably twenty five to thirty percent the size of us, but that's our next largest competitor**" and has "**bought out probably five other venues around the state**" *(the derived notes read those as five other **routes**)*. Everyone else is "**ten or twenty machine operators**", of which there are still quite a few. Val's read of MG Oil's position: "**It seems like he has got a near monopoly in South Dakota.**" [[raw/Meeting_Transcript_MG_Oil_Dana_Giesey_South_Dakota_Visit-June-18-2026.md]] [[raw/Meeting_Notes_MG_Oil_Dana_Giesey_South_Dakota_Visit-June-18-2026.md]]
+- **Who is behind Axcess.** "**There is another oil company called Harms Oil that's a similar company to ours, but they don't do as much retail. They're one of the major investors in Access Entertainment. Then there's a couple of guys with the last name Jones that are the other partners in it.**" [[raw/Meeting_Transcript_MG_Oil_Dana_Giesey_South_Dakota_Visit-June-18-2026.md]]
+- **Spelling, unresolved.** The transcript says "**Access Entertainment**"; the derived notes say "**Axcess Entertainment**". Both are recorded, neither preferred. **This is not the same entity** as the Georgia card-payment vendor the corpus carries as **Access** (see [[wiki/organizations/continental.md]]) — resolved by context. No organization page is created for it: it is a single-source competitor mention and the market intel lives here, as it does for IGT/AGT/Grover above. [[raw/Meeting_Transcript_MG_Oil_Dana_Giesey_South_Dakota_Visit-June-18-2026.md]] [[raw/Meeting_Notes_MG_Oil_Dana_Giesey_South_Dakota_Visit-June-18-2026.md]]
+- **Excel Gaming** operates around the region "but **they don't operate anything in South Dakota that I'm aware of**." And **J&J** ([[wiki/organizations/jj-operator.md]]) is moving into **Nebraska** — Val: "**J and J is very large in** [Nebraska]. **But they're out of Illinois.**" *(The transcript renders Nebraska "the Brown Skis" in both lines; the derived notes read it as Nebraska.)* [[raw/Meeting_Transcript_MG_Oil_Dana_Giesey_South_Dakota_Visit-June-18-2026.md]] [[raw/Meeting_Notes_MG_Oil_Dana_Giesey_South_Dakota_Visit-June-18-2026.md]]
+
+### Where the account stood
+
+MG Oil was taking delivery of **the last of ten machines** that week, and owner [[wiki/people/troy-erikson.md|Troy Erickson]] wants **60–90 days of numbers** before deciding on further purchases. MG Oil's accounting was behind because of a **January 2026 ransomware attack** — detail on [[wiki/organizations/mg-oil.md]] (Jun-18). Val also told Dana that **Keno games are coming in the next software release**. [[raw/Meeting_Transcript_MG_Oil_Dana_Giesey_South_Dakota_Visit-June-18-2026.md]]
+
 ## Jun 26 2026 — SD VLT concept queued behind Nebraska; Georgia V3 gates the SD vertical
 
 On the [[wiki/meetings/2026-06-26-game-development.md|Jun-26 1:00pm ET game-development session]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/michael-gottlieb.md|Michael Gottlieb]], [[wiki/people/juan-martinez.md|Juan Martinez]], [[wiki/people/lena.md|Lena Zhukova]]) the game-concept queue was set as **Nebraska D2702 → Nebraska vertical (NADV43) → South Dakota VLT**. Two SD constraints were restated: **Georgia V3 must finish (targeted late August) before the SD vertical starts** — resources go to Georgia first — and **South Dakota is more complicated because it requires submitting an actual cabinet to the regulator**, so Nebraska (which can also be sold into Texas) is completed first. Full Nebraska detail on [[wiki/projects/nebraska-skill-market.md]] (Jun-26). §15.8 clear — market sequencing / regulator process only; no named-person compensation. [[raw/Meeting_Transcript_Game_Development-June-26-2026.md]]
@@ -310,6 +339,8 @@ This source names the NOVA South Dakota product **"VLT 3"**, twice and unambiguo
 - [[raw/Meeting_Transcript_vertical_roadmap_and_omni_transition-May-7-2026.md]]
 - [[raw/Meeting_Notes_vertical_roadmap_and_omni_transition-May-7-2026.md]]
 - [[raw/Meeting_Notes_Game_Development_Schedule_Review-May-14-2026.md]]
+- [[raw/Meeting_Notes_MG_Oil_Dana_Giesey_South_Dakota_Visit-June-18-2026.md]]
+- [[raw/Meeting_Transcript_MG_Oil_Dana_Giesey_South_Dakota_Visit-June-18-2026.md]]
 - [[raw/Meeting_Transcript_Game_Development-June-26-2026.md]]
 - [[raw/Meeting_Notes_South_Dakota_Vertical_Lineup-May-14-2026.md]]
 - [[raw/Meeting_Notes_Rage_to_Nova_Migration_Experiment-August-3-2026.md]]

@@ -3,7 +3,7 @@ type: organization
 title: Incom (payment processor)
 date: 2025-02-27
 aliases: [Incom, InComm, they totally misled me, InComm's credit, that shift in opinion has only happened recently, black prize play card, white card ATM functionality, replace InComm on the back end, backend displacement, Incomm, Income, NCOM, Incom Payments, wrapped card rule, PAX, PAX 80, reloadable gift cards, Nathan Carver, cash-back commission, barcode activation, Mastercard rules, ABA number, MLH fee sharing, kicked to the curb, InComm doesn't offer any profit sharing, they've ignored us before during and after the show, sponsor bank behind InComm, 120 million a year, the easy living guys]
-source-count: 61
+source-count: 62
 open-commitments: 13
 open-questions: 3
 ---
@@ -393,6 +393,15 @@ That is the first dated statement in the corpus of **why the 1.5-cards-a-day fig
 
 **§15.8:** clear — card, device, network-fee and market-share economics only; no named-person compensation. **§15 #9:** no corporate digital identifier values were spoken.
 
+## Jun 18 2026 — the prize-card route described to a South Dakota prospect, with a size for InComm
+
+At the [[wiki/meetings/2026-06-18-mg-oil-dana-giesey-rapid-city-visit.md|June-18 2026 MG Oil visit]] [[wiki/people/val-levitan.md|Val]] used InComm as the payout route in a sales pitch to a route operator who had never heard of it — the clearest plain-language description of the mechanism in the corpus, given to an outsider. [[raw/Meeting_Transcript_MG_Oil_Dana_Giesey_South_Dakota_Visit-June-18-2026.md]]
+
+- **The size he gave the company:** "we work with a company that is called… **Income** [InComm]. **Income is a six billion dollar company.**" *(Val's figure, as spoken; no basis is given and none is verified here. The transcript renders the name "Income" throughout — already an alias on this page.)* [[raw/Meeting_Transcript_MG_Oil_Dana_Giesey_South_Dakota_Visit-June-18-2026.md]]
+- **The two-step conversion, stated plainly:** "what they do — they convert money, physical money, **into electronic money**. And they put this money, electronic money, on **prepaid Mastercard**… And then they have a **second transaction. It's called prize money.** And so they issue Mastercard, then **Mastercard converts it into prize card.**" [[raw/Meeting_Transcript_MG_Oil_Dana_Giesey_South_Dakota_Visit-June-18-2026.md]]
+- **Why it matters commercially:** "**This prize card is accepted by every ATM in the nation. So we act as an ATM under ATM rules**" — and the player sees only one thing: "the player doesn't see one conversion, then the second conversion. **All the player sees is dispensing of a prize card.**" The card carries a barcode or QR and is "a plastic card like Mastercard". [[raw/Meeting_Transcript_MG_Oil_Dana_Giesey_South_Dakota_Visit-June-18-2026.md]]
+- **The prospect did not bite** — not on the product, but on the regulator: "Pretty handy thing to do, but… **I don't know if you could get it done in South Dakota or not.**" Val agreed he did not know South Dakota's law and undertook to check. The transactional pitch this sat inside is on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Jun-18). **§15 #8:** clear — processor and market economics only. [[raw/Meeting_Transcript_MG_Oil_Dana_Giesey_South_Dakota_Visit-June-18-2026.md]]
+
 ## Sept 2 2026 (evening) — InComm seen from a competing processor's side
 
 Hours after the lunch above, a rival payments company sat in the JVL Georgia office and described InComm from the outside ([[wiki/meetings/2026-09-02-billy-liu-playpay-partnership-deep-dive.md]]). [[wiki/people/billy-liu.md|Billy Liu]] of [[wiki/organizations/play-payments.md|Play Payments]] competes with InComm on the card network — "**We compete against [InComm] because we offer a wallet that is a Visa wallet**," against InComm's Mastercard prepaid product — and what he said is worth keeping because it is the corpus's only account of InComm's commercial manner from a company it tried to recruit. [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]]
@@ -541,3 +550,4 @@ None of this comes from InComm. It is how the company looks to a third payment p
 - [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
 - [[raw/Meeting_Notes_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]
+- [[raw/Meeting_Transcript_MG_Oil_Dana_Giesey_South_Dakota_Visit-June-18-2026.md]]
