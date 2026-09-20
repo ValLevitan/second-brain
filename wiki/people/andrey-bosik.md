@@ -4,8 +4,8 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 83
-open-commitments: 20
+source-count: 87
+open-commitments: 24
 ---
 
 # Andrey Bosik
@@ -306,8 +306,44 @@ He was not on the [[wiki/meetings/2026-09-11-technician-complaints-and-new-capab
 - [ ] Andrey Bosik — check whether the router already requested carries an LTE modem, and write up the router / network-topology view as a capability tied to a recognised standard — due immediately, flagged urgent — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [ ] Andrey Bosik — have the Flex-Port firmware placed by the workflow into the same Amazon S3 store as the kiosk firmware; he believes a capability for it already exists and should be found — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 
+## Sept 14 2026 — he is given the Alekseev coaching, and lands the only amendment to the code standard
+
+At the [[wiki/meetings/2026-09-14-code-standards-main-branch-rule-and-alekseev-coaching.md|Sept-14 7:37 AM code-standards call]] (Russian, ~21 min) Bosik is the person Val routes the whole personnel side through, and the only one who changed a rule.
+
+- **He had already read the email and judged it uncontroversial:** "**Я уже прочитал, да там в принципе. Ну очевидные вещи, да, которые у нас они и так уже и работают**" — obvious things that already work here [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]].
+- **His one objection changed the standard.** "**Единственное там по поводу только полриквестов… не всегда… Кто то другой должен мержить? Пол реквест бывает так, что иногда надо самому замерз[ить]**" — sometimes you have to merge your own pull request. Val agreed on the spot and downgraded the rule to a preference; Bosik: "**Ну мы так и стараемся делать**" — [[wiki/decisions/2026-09-14-main-branch-must-always-build-and-the-code-belongs-to-the-project.md]] [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
+- **He is given the coaching assignment — and had already started it himself.** Before Val finished asking, Bosik reported he had written to [[wiki/people/evgeniy-alekseev.md|Alekseev]] to schedule time "**настроить код, провести небольшое обучение, и как раз я его введу в наши… стандарты и практики, как мы разрабатываем**", with no reply yet. Val then set the slot: the next morning, inside the 07:00–08:00 window. Bosik: "**Хорошо**" — [[wiki/decisions/2026-09-14-alekseev-is-walked-through-the-standards-by-bosik-not-ordered.md]] [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]. **This is the fourth subject in eight days routed through him** — Wi-Fi (Sept 7), planning (Sept 9), the Passport/RIS regulations (Sept 11), and now the standards onboarding.
+- **He answered Val's "why one branch?" for the engineering** — "**Они все взаимосвязаны**" — and corrected [[wiki/people/pavel.md|Pavel]]'s capability count for scope: "**это по всем системам, там же по порту конкретно меньше**" — that is across all systems; for the port it is fewer. See [[wiki/decisions/2026-09-14-flex-port-sas-mode-is-a-selection-capability-not-a-long-lived-branch.md]] [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
+- **He raised the dormant-account question nobody had answered:** "**А яворский еще с нами или уже нет?… Так его можно выключать уже учетную запись, это нам никто не говорит**". Val: not yet, for diplomatic reasons, and no work is being given — see [[wiki/people/eugine-yavorski.md]] (Sept 14) [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]].
+- **He stated his own method, against Val's advice to go carefully.** After Val's widow-Ivanova joke: "**я всегда считаю лучше прямо и сразу сказать, чем какимито обходными путями**" — better to say it directly and at once than by roundabout routes. Earlier, on the team having learned the same standards: "**Через это все прошли**", said twice [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]].
+
+## Open commitments (Sept 14 2026)
+
+- [ ] Andrey Bosik — book a meeting with [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] for the morning of Sept 15 2026, inside his 07:00–08:00 window, and take him through JVL's code standards and practices — explaining the reason, the dependency and the sequence rather than issuing an instruction — due **Sept 15 2026** — [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
+- [ ] Andrey Bosik — report back to Val if he judges, after that meeting, that the new way of working will not be adopted — due after the meeting above — [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
+
+## Sept 14 2026 (8:01 AM) — the automatic update environment, and a second exception report to build
+
+Twenty-five minutes after the [[wiki/meetings/2026-09-14-code-standards-main-branch-rule-and-alekseev-coaching.md|7:37 code-standards call]] he was on the [[wiki/meetings/2026-09-14-transactional-mvp1-use-cases-and-ewallet-ticket-recovery.md|8:01 AM transactional call]], where Val named him twice for infrastructure work.
+
+- **The automatic build environment is "почти готово"** — his answer when Val said he wanted nobody downloading and installing builds. [[wiki/people/pavel.md|Pavel]] immediately narrowed it: the Flex-Port cannot be updated remotely yet, and Bosik agreed that is the exception. Val then set a 30-day target on finishing it ([[wiki/decisions/2026-09-14-nobody-downloads-and-installs-builds-thirty-day-target.md]]).
+- **He is given the Jira exception report.** Val asked him to write a routine that checks the status rules and mails only the mismatches to Val, Pavel and Klimovich. He agreed twice, asked for thinking time — "надо подумать, как это реализовать" — and thought something similar may already exist ("по[-]моему, есть такое у нас"). His summary: "я просто сделаю такой отчёт[,] и он будет всем приходить" ([[wiki/decisions/2026-09-14-nothing-in-mvp1-may-still-be-proposed-and-bosik-writes-the-exception-report.md]]).
+- **He also believed Kovalchuk had already changed the capability workflow** — "насколько знаю, да, поменял" — where Pavel saw evidence it had not taken effect [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]].
+- **His one product question was the scaling one:** does the whole scenario assume exactly one Flex IQ per location, and what happens with two cashiers and two IQs? Klimovich refused to consider it for MVP 1 [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]].
+
+*(Both "Андрей" names are in this room. Every attribution above is to **Andrey Bosik** the DevOps engineer, resolved by Val speaking the surname — "Андрей Босик" — and by the subject matter being build environments and Jira automation rather than capabilities.)*
+
+## Open commitments (Sept 14 2026, 8:01 AM call)
+
+- [ ] Andrey Bosik — build a routine that checks the Jira status rules (nothing in MVP 1 still Proposed; To Do items carry features; features In Progress carry a linked feature branch; capabilities In Progress linked to requirements with acceptance criteria) and send a short exception report — only the mismatches — to Val, Pavel Frolov and Andrei Klimovich — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+- [ ] Andrey Bosik (with [[wiki/people/pavel.md|Pavel Frolov]]) — finish the automatic update environment so nobody has to download and install builds by hand, Flex-Port included — due within 30 days of Sept 14 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+- [[raw/Meeting_Notes_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
+- [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 - [[raw/Meeting_Notes_Legacy_CMS_Documentation_Progress_Check-April-15-2026.md]]
 - [[raw/Meeting_Notes_Aaron_Claude_Advancements_Review-April-13-2026.md]]

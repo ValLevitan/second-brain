@@ -4,8 +4,8 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 75
-open-commitments: 13
+source-count: 79
+open-commitments: 14
 ---
 
 # Irina Shishko
@@ -257,8 +257,35 @@ At the [[wiki/meetings/2026-09-14-texas-vertical-conversion-and-georgia-game-bas
 
 **§15.8:** clear — engineering and product content only.
 
+## Sept 14 2026 (7:37 AM) — she was left off the code-standards email, and Val cut her off mid-point
+
+At the [[wiki/meetings/2026-09-14-code-standards-main-branch-rule-and-alekseev-coaching.md|Sept-14 7:37 AM code-standards call]] (Russian), an hour after the session above:
+
+- **She did not receive the email the meeting was about.** Val asked whether everyone had it; [[wiki/people/alexei-khamin.md|Khamin]] said yes; Irina said "**У меня нет**" and then "**Интересно, а почему меня не хочет меня присылать? Ну ладно**" — interesting, why won't it send to me; never mind. Val asked whether she was copied and nobody established it. **Not followed up in the call.** [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]] A distribution gap on a company standard addressed to engineering, with the Director of QA off it — recorded as an open question on [[wiki/decisions/2026-09-14-main-branch-must-always-build-and-the-code-belongs-to-the-project.md]].
+- **She tried to enter the branch argument and was held back.** As Pavel was proposing to tag the no-SAS version as release one and promote his own branch to main, she began "**Паша, ну мне кажется что это…**"; Val stopped her — "**подождите, Ирина, дать им закончит[ь]**" — and she did not return to the point [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]. Her view on the tag-versus-branch question is therefore **unrecorded**.
+- She agreed with the main-branch rule as read ("**Ну должно**") and, on the coaching question, supplied the one-word answer "**Научит**" — he will teach him [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]].
+
+## Sept 14 2026 (8:01 AM) — she names the port interaction a dialogue, and keeps pushing the status question
+
+An hour after being cut off on the code-standards call, she was back in the transactional [[wiki/meetings/2026-09-14-transactional-mvp1-use-cases-and-ewallet-ticket-recovery.md|8:01 AM use-case call]] and her contributions were taken up each time.
+
+- **The framing that stuck.** On Klimovich's rule that the port must show the balance and wait for confirmation, she supplied the description everyone then used: "**то есть диалог должен произойти между игроком и портом**." Klimovich agreed and folded it into the requirement [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]].
+- **The release-legibility argument** that justified moving requirement 1538 rather than editing every capability: "мы выпустим 1 октября[ —] как ты закроешь эти [capabilities], что мы выпустим, чтобы понимать, что вот в этом релизе мы сделали вот это, а теперь мы будем делать следующее" ([[wiki/decisions/2026-09-14-mvp1-stays-local-and-the-cloud-balance-requirement-moves-to-mvp2.md]]).
+- **The printer question that opened the whole failure scenario:** with no paper or a dead printer, "а как [IQ] после создания [e-]лет[а] распечатает [carrier] этот?" That is the question the Sept-13 transaction-recovery block turned out to answer ([[wiki/decisions/2026-09-14-the-ewallet-is-created-before-its-ticket-prints.md]]). She offered the machine-side tilt list on the spot — "я могу тебе их… которые на машине дать" — and named low paper and no paper; the head error and the general error came from Pavel.
+- **The top-up gap.** She pointed out the wallet can also be topped up at the counter — "[e-]лет на IQ пополняемый" — and Klimovich conceded there is no use case for it although the capability exists. She also flagged that capabilities 148, 149 and 150 had been treated as already implemented, needing only automated tests [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]].
+- **She would not let the status question go, again.** As on Sept 11, she pressed that a capability should only be Accepted once it holds all its requirements, and that requirements themselves must change status when approved. Val conceded the principle ([[wiki/decisions/2026-09-14-nothing-in-mvp1-may-still-be-proposed-and-bosik-writes-the-exception-report.md]]).
+- A lighter moment, recorded because it dates the standard: she put SAS 6.02 at "уже лет 20", was talked down to about ten by Pavel and Biratka, and accepted it — Val: "Ирина[,] что[-]то вы нас на скрипке сыграли сейчас" [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]].
+
+## Open commitments (Sept 14 2026)
+
+- [ ] Irina Shishko (with [[wiki/people/alexander-biratka.md|Alexander Biratka]] confirming it is the same printer) — send Klimovich the list of printer tilts handled on the machine — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+- [[raw/Meeting_Notes_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
+- [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Notes_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]

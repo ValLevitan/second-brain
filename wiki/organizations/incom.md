@@ -3,8 +3,8 @@ type: organization
 title: Incom (payment processor)
 date: 2025-02-27
 aliases: [Incom, InComm, they totally misled me, InComm's credit, that shift in opinion has only happened recently, black prize play card, white card ATM functionality, replace InComm on the back end, backend displacement, Incomm, Income, NCOM, Incom Payments, wrapped card rule, PAX, PAX 80, reloadable gift cards, Nathan Carver, cash-back commission, barcode activation, Mastercard rules, ABA number, MLH fee sharing, kicked to the curb, InComm doesn't offer any profit sharing, they've ignored us before during and after the show, sponsor bank behind InComm, 120 million a year, the easy living guys]
-source-count: 62
-open-commitments: 13
+source-count: 64
+open-commitments: 14
 open-questions: 3
 ---
 
@@ -481,6 +481,19 @@ None of this comes from InComm. It is how the company looks to a third payment p
 
 **§15.8:** clear — competitor and fee-structure content only.
 
+## Sept 14 2026 — the fraud controls JVL neither sets nor sees, and the error library JVL does own
+
+At the [[wiki/meetings/2026-09-14-transactional-mvp1-use-cases-and-ewallet-ticket-recovery.md|Sept-14 8:01 AM transactional call]] the redemption design was walked end to end, and the InComm side of it was stated plainly for the first time in the corpus.
+
+- **The card itself is unchanged in MVP 1** — "[в] этой версии у нас карточка инкомовская[ —] принципиально никаких изменений" [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]].
+- **Velocity and a daily cap are held per location by InComm, and JVL does not manage or even know them.** [[wiki/people/andrei-klimovich.md|Klimovich]]: "для каждой локации у них есть понятие [velocity] и [daily] cap. **Мы этим не управляем, и более того, мы даже скорее всего не знаем, какие есть значения для каждой локации.** Они контролируют так, чтобы не было фрод[а]… [и] если мы достигаем этого кэпа[ —] ну мы ничего сделать не можем" [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]].
+- **What JVL can do is translate the refusal.** Klimovich's question to the engineers was whether a cap rejection returns an explicit InComm error that can be rendered for the cashier — "ваша локация достигла day cap, свяжитесь с [InComm]" — or only a generic failure. [[wiki/people/dmitri-chudinov.md|Chudinov]]: everything InComm documents is handled and interpreted; a bare "ошибка" on screen means the response could not be recognised. He returns interpretations rather than codes — "если… эта карточка… уже выпущена, я текстом интерпретирую, что там с этой карточкой что[-]то не в порядке[,] используйте другую[,] это уже активирован[а]" — with the raw codes logged. Spanish comes from a hard-coded translation collection, not live translation [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]].
+- **The min/max rules around the card** — refusal below the minimum plus the activation fee with no lottery-ticket fallback, and $1,000 maximum with repeat issuance — are recorded on [[wiki/decisions/2026-09-11-one-card-at-a-thousand-dollars-and-the-rest-stays-on-the-ticket.md]]. The derived notes of the same meeting summarise the position as "daily caps and velocity stay InComm's — JVL does not manage them and only interprets the returned error for the cashier", and add the caution that the $1,000 card maximum "should be checked against the InComm terms" [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]].
+
+## Open commitments (Sept 14 2026)
+
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — send Klimovich the library of InComm errors with the interpretation texts currently in use, for a wording review — due "when he has time" — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+
 ## Open commitments (Sept 2 2026)
 
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — re-verify barcode card activation with InComm by activating a couple more cards — due unspecified, ahead of the pilot — [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
@@ -489,6 +502,8 @@ None of this comes from InComm. It is how the company looks to a third payment p
 
 ## Sources
 
+- [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - [[raw/Meeting_Notes_Continental_Vendor_Lock_In_Dead_End-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Continental_Vendor_Lock_In_Dead_End-September-2-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]

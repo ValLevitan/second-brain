@@ -4,8 +4,8 @@ title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka, Alex Baratka, Alex Beratka, Alexander Berankov, Biratko, Alexander Biratko]
 disambiguation: "Alexander cluster (provisional — owner ruling pending): distinct JVL people sharing the given name Alexander. [[wiki/people/alexander-biratka.md|Alexander Biratka]] = Omni/Pixi framework & build engineer (aka Sasha; garbles Beratko/Baratka); [[wiki/people/alexander-korochkin.md|Alexander Korochkin]] = LGS QA-automation engineer (GitHub Alexander_K@JVL, read-only; aka Alexander K); [[wiki/people/alexander-tumanov.md|Alexander Tumanov]] = Minsk QA / data-center knowledge-capture hire (surname unverified). Resolve by context: Omni framework / Pixi / build → Biratka; LGS QA automation / read-only build consumer → Korochkin; manual-tester onboarding / data-center interviews → Tumanov. A further name 'Alexander Derok' (back-end build-integration / Java, per Val on Feb-6-2026) is unconfirmed — queued, not a page. Not [[wiki/people/alexei-khamin.md|Alexei Khamin]] (different name). Queue anything fitting none; never force-match."
-source-count: 52
-open-commitments: 4
+source-count: 54
+open-commitments: 5
 open-questions: 0
 ---
 
@@ -187,8 +187,25 @@ At the [[wiki/meetings/2026-09-11-transactional-mvp1-scope-and-priorities.md|Sep
 
 **He was not working that day.** Pavel reported "саша… сейчас не работает" and that Sasha's tasks are FlexPay, which MVP 1 no longer needs after Val's narrowing; [[wiki/people/irina-shishko.md|Irina]] added that he simply cannot. Twenty minutes later, on the [[wiki/meetings/2026-09-11-nova-game-change-regulatory-procedure.md|9:30 call]], Pavel gave the reason — "[у] саши там какая[-]то трагедия в семье сегодня" — a family bereavement [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]] [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]]. *(The two "Sasha" mentions are treated as the same person on context — the transactional call names Biratka in full — and this is flagged rather than asserted.)*
 
+## Sept 14 2026 (8:01 AM) — back on the call, and the one who keeps asking what happens when it breaks
+
+Three days after his absence he was present and active on the [[wiki/meetings/2026-09-14-transactional-mvp1-use-cases-and-ewallet-ticket-recovery.md|8:01 AM use-case call]], and every one of his contributions was a failure case.
+
+- **How a player proves a printed ticket is his**, and what happens when two people from different machines both claim one: "если пришло… 2 человека там с разных машин[,] говорят[: ] я напечатал". Klimovich's answer — match the IQ transaction, which carries the machine, against the identifier on the ticket — is recorded on [[wiki/decisions/2026-09-14-the-ewallet-is-created-before-its-ticket-prints.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]].
+- **Does a broken or empty printer block card issue?** "[Е]сли принтер недоступен, сломался или там нет бумаги[,] мы не блокируем же выпуск карточки[?]" Klimovich: "нет, не блокируем" [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]].
+- **The observation that broke the FlexPay analogy.** Where Chudinov said FlexPay simply does not create the wallet if the printer is dead, Biratka pointed out the port cannot do that, because "они же не остаются на машине, они переходят на порт" — the money has already left. He then sketched the recovery himself: "теоретически… транзакция может закончиться, но потом мы… можем перепечатать [ticket] на самом IQ."
+- **The limit of any anti-copy protection:** "защититься от копирования тикета это практически нереально[,] если мы не используем пин[-]код" [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]].
+- **He supplied the SAS knowledge Klimovich lacked** — the specification is public, it says which AFT features are mandatory on a machine and which optional, and he volunteered to send it. He also held the minority view that AFT did not change between 6.02 and 6.03, which Val over-ruled on principle ([[wiki/decisions/2026-09-14-capabilities-are-written-against-the-published-sas-standard.md]]). His own dating of the standard: when he joined, 6.02 was current, and 6.03 came out recently.
+- He confirmed the IQ printer is the same one as on the machine — "они точно такие же будут[,] и там принтер такой же" — and that JVL has no capability yet for measuring paper, cards or stacker fill: "у нас, наверное, нет таких к[а]пабилити пока что" [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]].
+
+## Open commitments (Sept 14 2026)
+
+- [ ] Alexander Biratka — send Klimovich the SAS specification (public; the version Val ruled on is 6.02) — due unspecified; Val offered to obtain it himself if nobody sends it — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Notes_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]

@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, Copilot Studio, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest, LaTeX, printer tool, Ollama, llama.cpp, local inference, Code Llama, Hugging Face, Claude Code, AI sandwich, developer experience, think like a data scientist, sub-agents, verbose output, compiler layer, ways vs skills, ADR, cross-examination, Python Vulture, intelligence center, Waze system, ways framework, compiler stack diagram, module federation, Aaron ways system, Ways ADR, Ways capabilities catalog, regulatory provenance chain, JVL Ways pipeline, ways branch architecture, trusted stage users, clean environment lesson, engagement auditor agent, translation service, terminology override table, GitHub Enterprise fork, JVL GitHub Ways architecture guide, Capability Ticket, Jira hierarchy restructure, engineering guides, architecture black hole, Piratka, prose standard, code to prose, capability extraction, 29 capabilities, AI flattery caution, agent setup, prose initialization skill, prose skill, dependency-tree mapping, prose pending folder, contracts written by Claude, development pipeline end to end, clean-session evaluation, naming by Claude]
-source-count: 160
+source-count: 162
 ---
 
 # AI-assisted development adoption
@@ -906,8 +906,20 @@ At the [[wiki/meetings/2026-09-04-rage-nova-conversion-readiness.md|Sept-4 morni
 - **The same day, to the game team:** Val told the graphics side that a file "cannot be named manually. It should probably be named through a reference by, you know, **Claude**. I would use that… that's how I name my files" — the naming convention becoming a machine-read standard rather than a human habit. See [[wiki/decisions/2026-09-04-point-claude-at-the-standards-repository-first.md]] [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]].
 - **§15.8:** clear — method/tooling content only; no named-person compensation.
 
+## Sept 14 2026 — Claude Code is the reason a tester may now change the code, and it is written into the standard
+
+At the [[wiki/meetings/2026-09-14-code-standards-main-branch-rule-and-alekseev-coaching.md|Sept-14 7:37 AM code-standards call]] (Russian), reading his own code-standards email aloud, Val used Claude Code as the **justification for a rule about who may touch the code** — the first time on this thread that the tool is the reason for a *permission* rather than a productivity claim.
+
+Expanding "the code belongs to the project, not to any one developer", he described a tester or QA who installs something that does not work: "**особенно сегодня с использованием клад коуд. Он может предложить исправление, может [и] исправить этот к[од]. И может… сделать пул[ре]к[вест]**", after which the reviewer examines the pull request, agrees it is right, and pulls it into main [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]. [[wiki/people/andrey-bosik.md|Bosik]]: "**Все верно**". Full ruling on [[wiki/decisions/2026-09-14-main-branch-must-always-build-and-the-code-belongs-to-the-project.md]].
+
+The counter-case in the same call is an engineer whose practice predates the tool — one who holds the whole code on his local machine and asks that bugs be reported to him rather than fixed by others; the access question for him had been "**кто[-]то меня подключил**" to Claude Code a week earlier (see [[wiki/people/evgeniy-alekseev.md]], Sept 7 and Sept 14). **§15.8:** tooling and permission content only; the judgements about that engineer are excluded, see [[wiki/decisions/2026-09-14-alekseev-is-walked-through-the-standards-by-bosik-not-ordered.md]].
+
+*(The rendering is "**клад коуд**" — Claude Code, the reading already standard on this page. "**Репортер**" for the pull-request reviewer is flagged as an inference on the decision page.)*
+
 ## Sources
 
+- [[raw/Meeting_Notes_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
+- [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]

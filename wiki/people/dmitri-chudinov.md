@@ -4,8 +4,8 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 47
-open-commitments: 14
+source-count: 49
+open-commitments: 15
 open-questions: 0
 ---
 
@@ -224,8 +224,29 @@ He was not on the [[wiki/meetings/2026-09-11-technician-complaints-and-new-capab
 - [ ] Dmitri Chudinov — extend the existing firmware-dissemination mechanism to all FlexPay and Flex IQ devices (step one of the three-step staging) — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [ ] Dmitri Chudinov — remove the code supporting MudaGoose, at MVP 3 — due MVP 3, undated — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 
+## Sept 14 2026 (8:01 AM) — the man who caught four things nobody had said out loud
+
+At the [[wiki/meetings/2026-09-14-transactional-mvp1-use-cases-and-ewallet-ticket-recovery.md|8:01 AM use-case call]] he supplied most of the corrections, and did it by asking small practical questions rather than arguing scope.
+
+- **The play-through rule.** "[К]ак[-]то не прозвучало ни разу, но вроде как подразумевается[:] у нас же остаётся режим[ —] деньги на [e-]волет положили, но их надо проиграть, прежде чем вывести." Klimovich's reply was "да, чёрт возьми, это важный момент", and he retracted a contrary comment he had made a minute before [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]].
+- **Requirement 1538 versus local MVP 1**, including the first recorded instance of the AI assistant mis-closing a capability because its requirement demands a cloud balance — "клод начинает с ума сходить… я начинаю создавать эти фичи." See [[wiki/decisions/2026-09-14-mvp1-stays-local-and-the-cloud-balance-requirement-moves-to-mvp2.md]].
+- **What the TTL means for an already-printed ticket** when a location changes its setting — the question that produced the "printed tickets are not reprinted" rule ([[wiki/decisions/2026-09-14-ewallet-ttl-defaults-to-thirty-days-and-is-set-per-location.md]]).
+- **The cashier needs a view of wallets created but never printed** — "кассиру нужен даш[б]орт, например, тикетов, которые были созданы, но не напечатаны" — which Klimovich answered by revealing he had added exactly that block the day before ([[wiki/decisions/2026-09-14-the-ewallet-is-created-before-its-ticket-prints.md]]). He also supplied the alternative design that is now competing with Klimovich's reissue: create the wallet with a status, let the print action change the status, and keep the same number.
+
+**On InComm errors he is the owner of record.** Everything InComm documents is handled and interpreted — "мы их все обрабатываем и как[-]то интерпретируем" — a bare "error" on screen means the response could not be recognised, he returns interpretations rather than codes while logging the codes, and the Spanish comes from a hard-coded collection: "[з]ашита[;] мы ещё не попали на следующий уровень" [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]. He also stated the FlexPay precedent that framed the printer-failure debate: there, wallet creation sits inside the output transaction, so "если принтер не работает, мы и не создаём это [e-]волят."
+
+**He ruled the e-wallet movement reporting out of MVP 1 himself** — a separate group of work, better done together with the move to cloud — and Klimovich accepted: "договорились, согласен" [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]].
+
+*(Irina addressed him about **capability 115**, which she said he is working on inside MVP 1; the exchange is too garbled to record a conclusion.)*
+
+## Open commitments (Sept 14 2026)
+
+- [ ] Dmitri Chudinov — send Klimovich the library of InComm errors with the interpretation texts currently in use, for a wording review — due "when he has time"; he agreed with "без проблем" — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Notes_Legacy_CMS_Documentation_Progress_Check-April-15-2026.md]]

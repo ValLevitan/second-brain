@@ -4,7 +4,7 @@ title: Eugine Yavorski
 date: 2025-02-18
 aliases: [Eugine Yavorski, Evgeny Yavorsky, Yavorski, Yavorsky, Яворский, Evgeny Egorsky, Egorsky, Егорский, Evgeny Nevorsky, Nevorsky, Неворский, Evgeny, Yevgeny, Zhenya, Женя, Евгений]
 disambiguation: "FlexPort/FlexPay integration engineer (alias Egorsky), this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
-source-count: 31
+source-count: 33
 open-commitments: 4
 ---
 
@@ -164,8 +164,22 @@ Two mentions at the [[wiki/meetings/2026-09-11-transactional-mvp1-scope-and-prio
 
 *(Resolved by §4 context — FlexPort/FlexPay integration software is Yavorski's lane, and these capabilities are the Flex-Port money-out path. The source says only "Женя"; flagged as a context resolution, not asserted.)*
 
+## Sept 14 2026 — his account stays open for now, and no work is given to him
+
+At the [[wiki/meetings/2026-09-14-code-standards-main-branch-rule-and-alekseev-coaching.md|Sept-14 7:37 AM code-standards call]] (Russian) [[wiki/people/andrey-bosik.md|Andrey Bosik]] raised the housekeeping question directly, because nobody had told IT anything: "**А яворский еще с нами или уже нет?**… **Так его можно выключать уже учетную запись, это нам никто не говорит**" — is Yavorsky still with us, and can his account be switched off? [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
+
+**Val's answer: not yet, and no work.** "**Ну давайте с дипломатической стороны ещё пока не будем выключать, но мы ему работу не даём**" — for diplomatic reasons let us not switch it off yet, but we are not giving him work [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]. Bosik: "**Хорошо**" [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
+
+This is the first source that states the engagement status as a standing position rather than a per-task removal, and it follows the task-by-task withdrawal already recorded for Sept 4 → Sept 7 → Sept 11 ([[wiki/decisions/2026-09-07-remote-firmware-update-mandatory-and-taken-off-yavorsky.md]]). **Nothing was decided about ending the arrangement**, and no terms of any kind were discussed.
+
+*(He is mentioned once more in the same call, by [[wiki/people/pavel.md|Pavel Frolov]], as one of the people who had been working in main on the version his own Flex-Port branch is kept from mixing with — "**может быть, там… работал [Я]ворский[,] Алексеев, чтото в той ветке делал, ну, в мейне**" [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]].)*
+
+**§15.8:** Val's personal characterisation of him in the same exchange is a judgement about a named person and is **deliberately not recorded**; only the account/no-work resourcing facts above are kept.
+
 ## Sources
 
+- [[raw/Meeting_Notes_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
+- [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
 - [[raw/Schedule_review-March-4-2026.md]]
 - [[raw/Claude_Code-Yavorski.md]]
 - [[raw/Aaron_Briefing_FlexPay_FlexPort_WSS-February-5-2026.md]]

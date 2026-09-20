@@ -4,8 +4,9 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "IT (GitHub-admin, infrastructure, secrets/Azure, AI-tool accounts) — the IT-context "Dima". Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 30
+source-count: 32
 open-commitments: 6
+open-questions: 1
 ---
 
 # Dmitri Kovalchuk
@@ -134,8 +135,20 @@ Kovalchuk joined the [[wiki/meetings/2026-09-11-transactional-mvp1-scope-and-pri
 - [ ] Dmitri Kovalchuk — automate the capability status transition from feature status (To Do → In Progress and back), after testing — due after Monday Sept 14 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [ ] Dmitri Kovalchuk — move all MVP 1 capabilities into To Do — due Monday Sept 14 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 
+## Sept 14 2026 (in absentia) — his workflow change is asked about, and two people disagree on whether it landed
+
+He was not on the [[wiki/meetings/2026-09-14-transactional-mvp1-use-cases-and-ewallet-ticket-recovery.md|Sept-14 8:01 AM call]], but [[wiki/people/val-levitan.md|Val]] opened his process block by asking about him directly: "[К]овальчук[,] поменял ли он [workflow] на… кей[по]б[и]л[и]т[и] [workflow?]" [[wiki/people/andrey-bosik.md|Andrey Bosik]] answered "насколько знаю, да, поменял"; [[wiki/people/pavel.md|Pavel Frolov]] said he still sees the old behaviour — "после [Proposed] Accept это он зелёненьким остался." Nobody resolved it, and Val proceeded on the assumption that it had landed [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]] [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]].
+
+This sits against his two Sept-11 commitments below, one of which — moving all MVP 1 capabilities into To Do — fell due that very Monday. The whole Jira rule set Val then laid down is on [[wiki/decisions/2026-09-14-nothing-in-mvp1-may-still-be-proposed-and-bosik-writes-the-exception-report.md]].
+
+## Open questions (Sept 14 2026)
+
+- **Did the capability workflow change actually take effect?** Bosik says yes, Pavel sees evidence it did not — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - [[raw/Meeting_Notes_Legacy_CMS_Documentation_Progress_Check-April-15-2026.md]]
 - [[raw/Meeting_Transcript_Review_of_Engineering_Guides-March-27-2026.md]]
 - [[raw/Meeting_Notes_Review_of_Engineering_Guides-March-27-2026.md]]

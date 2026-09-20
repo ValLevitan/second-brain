@@ -4,8 +4,8 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 72
-open-commitments: 43
+source-count: 74
+open-commitments: 52
 open-questions: 0
 ---
 
@@ -406,8 +406,38 @@ Klimovich organised and chaired the [[wiki/meetings/2026-09-11-transactional-mvp
 - [ ] Andrei Klimovich — draw up the list of what is configurable per kiosk, per POS and per location, before the remote-config requirements can be written — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [ ] Andrei Klimovich — find out as early as possible which machines sit at the first installation locations, and arrange the warehouse visit or machine loan for the one-to-two-day compatibility window — due before the testing window — [[raw/Meeting_Notes_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 
+## Sept 14 2026 (8:01 AM) — he runs MVP 1 as a story, discovers SAS is not his invention, and is handed the Jira selling job
+
+He convened and drove the [[wiki/meetings/2026-09-14-transactional-mvp1-use-cases-and-ewallet-ticket-recovery.md|Sept-14 8:01 AM use-case call]] on his own screen, walking the MVP 1 use cases one by one so "мы все одинаково понимаем ожидания." He opened with a claim of completeness — MVP 1 "полностью сформирован на уровне [capability]", finalised into one version, with only the UI/UX screens and final texts to add "к завтрашнему вашему утру" [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]].
+
+**He had done homework nobody asked for, of two kinds.** He tested how Flex-Port behaves today and came back with the measured timeout ("что[-]то в районе 30 секунд"), and he had run the whole capability list through Claude in both directions the previous day — use cases against capabilities, then capabilities back to the experience — before declaring the list current [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]].
+
+**The first thing he asked for was refused.** His request for regular builds with a change list ran into Val's flat "это невозможно" — see [[wiki/decisions/2026-09-14-nobody-downloads-and-installs-builds-thirty-day-target.md]] — and the job of ending manual installs was handed back to him.
+
+**Where he gave ground.** Three times in an hour he took a correction cleanly: he retracted his own implication that a player could top up and cash out without playing through ("это неправильный комментарий с моей стороны"); he accepted Chudinov's narrower fix on requirement 1538 rather than defend his cloud-worded capabilities; and on the reissue-versus-reprint design he could not reconstruct his own reasoning — "[д]а, я не помню, почему я пришёл к решению именно делать [reissue]" — and parked it for both sides to re-read rather than insist [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]].
+
+**Where he did not.** He refused to rewrite the capability set down to "local, local, local", because he wrote them describing where JVL wants to arrive; he kept capability 171 despite conceding it overlaps capability 118, because 171 carries the per-device detail; and he shut down the two-IQ question outright [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]].
+
+**A visible gap in his own knowledge, admitted on the record.** Told that the funds-transfer screens appear on third-party machines because SAS says so, his reaction was "[н]ичего себе", and he accepted the homework: "пока для меня это новая область знаний[;] я освою… [я] быстро разберусь." See [[wiki/decisions/2026-09-14-capabilities-are-written-against-the-published-sas-standard.md]].
+
+**Val's framing of his job, stated more plainly than anywhere before:** everything on the capability side is his, and his task is to push items out of Proposed — "**ваша задача [Proposed] в кавычках продать… [девелоперам]**" — after which features get created and scheduled. See [[wiki/decisions/2026-09-14-nothing-in-mvp1-may-still-be-proposed-and-bosik-writes-the-exception-report.md]].
+
+## Open commitments (Sept 14 2026)
+
+- [ ] Andrei Klimovich — add the final UI/UX screens and texts for Flex IQ and the Flex-Port to the MVP 1 page — due Sept 15 2026 morning — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+- [ ] Andrei Klimovich — add the receipt design: which fields print on card activation and the logic behind them — due Sept 14 2026, promised for the same day — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+- [ ] Andrei Klimovich — add the capability for the one-button audit report (cards issued over a period, for a Georgia Lottery inspection) and settle what it shows and how it fits the ticket printer, modelled on a competitor's report he holds — due "today or tomorrow" from Sept 14 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+- [ ] Andrei Klimovich — add the dual-balance (deposited versus playable) logic to the capabilities, after searching whether it already exists as a requirement inside an existing capability — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+- [ ] Andrei Klimovich — create the MVP 2 cloud capability and move requirement 1538 onto it, off capability 158 — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+- [ ] Andrei Klimovich — add preventive printer messaging to Flex IQ (warn on low paper, not only on no paper); needs the tilt list first — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+- [ ] Andrei Klimovich — re-read the reissue capability and settle whether MVP 1 reissues the wallet or simply reprints the carrier — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+- [ ] Andrei Klimovich — learn the published SAS 6.02 AFT standard and write the capabilities against it — due unspecified; "я быстро разберусь" — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+- [ ] Andrei Klimovich — push every MVP 1 capability out of "Proposed" status — due immediately, per Val — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - [[raw/Meeting_Notes_Continental_Vendor_Lock_In_Dead_End-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Continental_Vendor_Lock_In_Dead_End-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Flex-Pay_functionality_review-1-April-15-2026.md]]

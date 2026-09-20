@@ -3,7 +3,7 @@ type: person
 title: Alexei Khamin
 date: 2025-04-22
 aliases: [Alexei Khamin, Aliaksey Khamin, Alexey Khamin, Khamin, Хамин, Khanin, Ханин, Kamin, Alexey Kamin, Lyosha, Лёша]
-source-count: 11
+source-count: 13
 open-commitments: 4
 ---
 
@@ -64,8 +64,19 @@ Coverage is honestly scoped: Pavel said automated testing will cover "тольк
 
 - [ ] Alexei Khamin — write the automated tests for the e-wallet use cases on Flex IQ — due unspecified, ahead of Oct 1 — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 
+## Sept 14 2026 — he is the named test of whether main is healthy, and he corrects the branch premise
+
+At the [[wiki/meetings/2026-09-14-code-standards-main-branch-rule-and-alekseev-coaching.md|Sept-14 7:37 AM code-standards call]] (Russian) Khamin is used twice as the concrete person the main-branch rule exists for.
+
+- **Val states the failure test in his name.** "**если Алексей берет этот код и не может установить его, просто взять и установить на машину. Это значит, что код не работает или релиз ноут неправильный. Или проза неправильная… приоритет должен быть на то, чтобы это работало**" — if Khamin takes the code from main and simply cannot install it on a machine, then either the code, the release note or the prose is wrong, and fixing it takes priority. See [[wiki/decisions/2026-09-14-main-branch-must-always-build-and-the-code-belongs-to-the-project.md]] [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
+- **He corrected Val's premise about branches.** Val argued that QA only ever checks main — "**Он же не ваш бранч проверяет**" — and Khamin's one technical contribution to the call was the opposite: "**Да, есть возможность собрать из ветки и проверить**" — yes, it is possible to build from a branch and check it. See [[wiki/decisions/2026-09-14-flex-port-sas-mode-is-a-selection-capability-not-a-long-lived-branch.md]] [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
+
+*(He confirmed at the start of the call that he had received Val's code-standards email — "**Да это есть**" — unlike [[wiki/people/irina-shishko.md|Irina Shishko]].)* [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
+- [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
 - [[raw/Meeting_Notes_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 - [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 - [[raw/Meeting_Notes_nova_platform_architecture_overview-Segment_2-May-12-2026.md]]

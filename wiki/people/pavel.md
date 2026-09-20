@@ -4,8 +4,8 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 140
-open-commitments: 43
+source-count: 144
+open-commitments: 46
 open-questions: 0
 ---
 
@@ -520,7 +520,44 @@ At the [[wiki/meetings/2026-09-14-texas-vertical-conversion-and-georgia-game-bas
 
 **§15.8:** clear — engineering and build content only.
 
+## Sept 14 2026 (7:37 AM) — he is the only objection to the main-branch rule, and it is turned back on Val
+
+An hour later, at the [[wiki/meetings/2026-09-14-code-standards-main-branch-rule-and-alekseev-coaching.md|7:37 AM code-standards call]] (Russian), Pavel is one of the two addressees of Val's code-standards email and the only person who argues with it at length.
+
+- **He accepted the main-branch rule only "in general"** — "**Инженерал все правильно инженерал**" — and Val deliberately kept the hedge rather than pressing for an absolute [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]].
+- **His objection is the long-lived development branch:** "**за исключением тех случаев, где мы хотим от мэйна держать ещё какойто девелопмент бранч… на какое то время становится мейнстримом**". His live example is his own — he branched off the **Flex-Port** platform project to add the **SAS / AFT** work [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]].
+- **He proposed promoting his branch to main and tagging the old version as release one**, and Val refused it: "**Чтото я так не вижу**" [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]].
+- **The example he produced to defend the branch is what defeated it.** Val had written the day before that Flex-Port must also work on machines **without SAS** — "**вчера вы написали… Это как бы немножко ломает то, что я уже сделал. И то есть надо обратно возвращаться в мэйн и иметь возможность переключать, либо мы работаем так, либо так, но кодовая база одна**". Val agreed it was a good example, took the specification gap as his own, and ruled the split a selection capability inside main rather than a branch — [[wiki/decisions/2026-09-14-flex-port-sas-mode-is-a-selection-capability-not-a-long-lived-branch.md]] [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]].
+- **His own restatement is the requirement that came out of the call:** "**у нас должна быть возможность задавать режим работы для флекспорта… либо на этапе сборки либо… на собранном девайсе каким то параметр[ом]**" — build time or a device parameter; neither chosen [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]].
+- **He gave the October 1 capability counts** — "**30**" across all systems, corrected by [[wiki/people/andrey-bosik.md|Bosik]] to fewer for the port, then "**Ну 10**" unchecked; the Friday meeting he refers to is Sept 11 [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]].
+- **He confirmed Val's account of [[wiki/people/evgeniy-alekseev.md|Alekseev]]'s "tell me and I will implement it" rule** — "**Это было примерно так**" [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]].
+
+## Open commitments (Sept 14 2026)
+
+- [ ] Pavel Frolov — treat the Flex-Port SAS / no-SAS split as a selection capability inside main, with one code base and a way to set the operating mode, instead of a long-lived branch — due unspecified; no Jira item named in the call — [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
+
+## Sept 14 2026 (8:01 AM) — the cheap answer, the correction, and the offer to put the product manager on a real machine
+
+At the [[wiki/meetings/2026-09-14-transactional-mvp1-use-cases-and-ewallet-ticket-recovery.md|8:01 AM use-case call]] he played the role he usually plays: the shortest defensible answer, delivered without argument.
+
+- **Why empty wallets are simply kept.** Val questioned holding an empty wallet for 30 days; Pavel answered on build cost, not policy — "[н]ам проще его держать, чем придумывать отдельную логику работы с пустыми тикетами" — and Val closed the point with "это хороший ответ." See [[wiki/decisions/2026-09-14-ewallet-ttl-defaults-to-thirty-days-and-is-set-per-location.md]].
+- **He corrected the remote-update optimism in real time.** Against Bosik's "почти готово", Pavel named the gap — "пока что мы не умеем обновлять Флекс[-]порт… придётся пока что скачивать и ставить, как ставили раньше" — which is what turned Val's complaint into a dated target ([[wiki/decisions/2026-09-14-nobody-downloads-and-installs-builds-thirty-day-target.md]]).
+- **He dismantled the photocopy-fraud argument** with one observation — "с одного тикета деньги можно один раз снять… [д]аже если 2 раза он распечатал, он один раз может только" — and backed Chudinov's no-new-number alternative: "но под новым номером не надо" ([[wiki/decisions/2026-09-14-the-ewallet-is-created-before-its-ticket-prints.md]]).
+- **He offered Klimovich the port firmware** so he could install it, connect over SAS and walk the new workflow himself — the offer that led, two minutes later, to Val's ruling on the published SAS standard ([[wiki/decisions/2026-09-14-capabilities-are-written-against-the-published-sas-standard.md]]). It was also Pavel who answered Klimovich's "how will this work on a third-party machine?" with two words: "**Это стандарт**" [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]].
+- **His verdict on the list:** the use cases were clear — "всё очевидно" — and a large part of the capability list "выглядит как почти сделано, или сделанное, но не покрыт[о]… автотестами", needing corrections and some added reports. He then found the two things missing from it: the audit report, and the capability 171 / 118 overlap [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]].
+- **He corrected Val on his own process rule**, without hedging: Val's phrasing swept In-Progress items into the move-to-Accepted demand and Pavel stopped him — "не так[:] те, которые [In Progress,] это уже после [Accepted]" — and Val accepted it [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]].
+
+## Open commitments (Sept 14 2026, 8:01 AM call)
+
+- [ ] Pavel Frolov — give Klimovich the current Flex-Port firmware so he can install it, connect over SAS and walk the new workflow himself — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+- [ ] Pavel Frolov — make sure everything In Progress is scheduled, ahead of the next morning's UI/UX meeting — due Sept 15 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+
 ## Sources
+
+- [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+- [[raw/Meeting_Notes_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
+- [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
 
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]

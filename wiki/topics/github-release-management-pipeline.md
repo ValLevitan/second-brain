@@ -3,7 +3,7 @@ type: topic
 title: GitHub release management and the CI/CD release pipeline
 date: 2025-10-21
 aliases: [release management, release pipeline, CI/CD, GitHub Actions pipeline, release artifacts, ISO image release, release manager role, continuous delivery, flex os installer, manifest, release candidate, single source of truth, feature branch discipline, sprints vs kanban, Jira GitHub link, FlexPos IP 902, FP 519, IP 89 dashboard grooming, bulk archive automation, Jira resolutions cleanup, Flex-POS Transition to Production, alpha build release tracking, knowledge repository, prose pending folder, prose merge action, docs contracts folder, integration repository, Knowledge Base repository, Standards folder, 39 accesses]
-source-count: 90
+source-count: 92
 open-questions: 9
 ---
 
@@ -692,8 +692,23 @@ Two things landed on this thread at the [[wiki/meetings/2026-09-04-rage-nova-con
 - **Still unresolved on the graphics side: where art assets and branches live and how a starting branch is chosen.** The afternoon meeting established that the naming convention and folder structure are undocumented for Rage Studio, that the branch-selection method has no written rule, and that Juan — the VP product owner whose requirements are supposed to drive the choice — does not know where the file repositories are. See [[wiki/decisions/2026-09-04-asset-naming-convention-must-be-written-down.md]] [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]].
 - **§15.8:** clear — process/standard content only; no named-person compensation.
 
+## Sept 14 2026 — the branch discipline written down: main always builds, a branch may promise less, and tags are not a substitute for a capability
+
+A **code-standards email** from Val to [[wiki/people/pavel.md|Pavel Frolov]] and [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]], read aloud and confirmed at the [[wiki/meetings/2026-09-14-code-standards-main-branch-rule-and-alekseev-coaching.md|Sept-14 7:37 AM call]] (Russian). It is the **branch/merge** counterpart to the prose-on-PR standard this page already carries from Jul 2 and Aug 24. Full rulings on [[wiki/decisions/2026-09-14-main-branch-must-always-build-and-the-code-belongs-to-the-project.md]] and [[wiki/decisions/2026-09-14-flex-port-sas-mode-is-a-selection-capability-not-a-long-lived-branch.md]].
+
+- **The main-branch promise, in pipeline terms:** main must always contain correct working code, and anyone must be able to pull it and **build a working installer** using the **release notes that exist today**. The named test is the QA engineer: if [[wiki/people/alexei-khamin.md|Khamin]] takes main and cannot install it on a machine, then either the code, the release note or the **prose** is wrong — and fixing that takes priority [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]. This is the first source that makes the **prose and release notes a build-health dependency** rather than a documentation duty.
+- **The commit cadence is stated as a norm for the first time:** small pieces, integration tests on every one, "**камин 234 раза в день**" — commit two, three, four times a day — so that review lands on "**какойто вменяемый кусок работы, а не на огромный кусок работы, который неделю нужно проверять**" [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]].
+- **Pull-request review: someone else should merge — but it is a preference, not an absolute.** [[wiki/people/andrey-bosik.md|Bosik]] raised the self-merge exception and Val accepted it on the spot [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]].
+- **A branch may carry a narrower promise than main.** Val: "**мы можем сказать, что в бра[н]че должно работать, только вот это и вот это**" — the full rule applies from the merge point. Khamin confirmed a branch can be built and checked in its own right [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]].
+- **Tags/releases were floated as the isolation mechanism and rejected as a substitute.** Pavel and Bosik agreed a tag and a release are effectively the same ("**Релиз это и есть тоже так**"), and Pavel proposed tagging the old no-SAS version as release one and promoting his branch to main. Val would not have it — "**Чтото я так не вижу**" — and re-framed the need as a **capability holding the filter** inside main that decides what is switched on [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]].
+- **The standards are recent enough that the team remembers learning them.** Val: "**стандартам, которые мы совсем недавно сами адаптировали… Мы тоже мучились**"; Bosik, twice: "**Через это все прошли**" [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]].
+- **Where this standard is stored is NOT stated.** No source connects the email to the `knowledge` repository / Standards folder recorded above for Sept 3–4; the link would be an inference and is not made [[raw/Meeting_Notes_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]].
+- **§15.8:** clear on this page — branch/merge process only. The personnel-adjacent half of the same call is held on [[wiki/decisions/2026-09-14-alekseev-is-walked-through-the-standards-by-bosik-not-ordered.md]] with an exclusion note.
+
 ## Sources
 
+- [[raw/Meeting_Notes_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
+- [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]

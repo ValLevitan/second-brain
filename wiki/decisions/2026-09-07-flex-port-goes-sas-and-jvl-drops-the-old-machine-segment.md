@@ -3,7 +3,7 @@ type: decision
 title: The Flex-Port project goes with SAS — JVL drops the flexible bill-acceptor/counter connection and will not address the part of the market still on old machines; SAS goes into the current software, one firmware serves all interfaces by configuration, and Georgia runs AFT not TITO
 date: 2026-09-07
 aliases: [Flex-Port goes SAS, away from the acrobatics, drop the flexible connection, not address old machines, one firmware three interfaces, EBDS not loaded, counters for statistics only, Georgia runs AFT, AFT not TITO, RS-232 and power, Class III machines, Pavel's Friday AFT experiment]
-source-count: 4
+source-count: 6
 status: active — but the "drops the old-machine segment" half is contradicted two days later; see ## Open contradictions
 open-commitments: 4
 open-questions: 0
@@ -80,9 +80,15 @@ The day after this ruling, at the [[wiki/meetings/2026-09-08-dixie-amusement-bun
 
 **Why it is held open rather than treated as a plain evolution.** The statements are two days apart — the same period — and directly incompatible. But they are not like for like: Sept 7 is an internal engineering ruling about how the Flex-Port connects, Sept 8 is explicitly a thought in progress, and Sept 9 is a sales-room concession whose wording ("dual saws or single saws") is garbled enough that it is not certain Val is answering the same question the engineers asked. **No source mentions any other.** Full treatment on [[wiki/decisions/2026-09-09-jvl-supports-both-dual-sas-and-single-sas-and-not-mudagoose.md]].
 
+**Sept 13 2026 — a fourth data point, on the engineering side this time.** At the [[wiki/meetings/2026-09-14-code-standards-main-branch-rule-and-alekseev-coaching.md|Sept-14 7:37 AM code-standards call]] [[wiki/people/pavel.md|Pavel Frolov]] reported an email Val had written **the previous day**: "**вчера вы написали, что нам надо, чтобы флекспорт мог работать и на машинах без сас. Это как бы немножко ломает то, что я уже сделал**" — Flex-Port must also work on machines **without SAS**, which breaks what he had already built [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]. Val did not dispute it; he treated the resulting rework as his own specification gap and ruled the two modes a selection capability inside main — [[wiki/decisions/2026-09-14-flex-port-sas-mode-is-a-selection-capability-not-a-long-lived-branch.md]].
+
+This lands on the **"support both"** side, consistent with the Sept-9 sales-room position and [[wiki/decisions/2026-09-09-jvl-supports-both-dual-sas-and-single-sas-and-not-mudagoose.md]], and it is the first time the both-modes requirement reaches the engineering work as a written instruction. **The contradiction is still not resolved here:** the Sept-14 source records only Pavel's report of the email — the email itself is not in `raw/` — and it says nothing about the market-scope half of the Sept-7 ruling ("we will not address the old-machine segment"). *(Note also that "machines without SAS" and "single-SAS machines" are not stated to be the same set in any source; no equivalence is asserted.)*
+
 **§15.8:** clear — protocol and market-scope content only; no named-person compensation.
 
 ## Sources
+- [[raw/Meeting_Notes_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
+- [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
 - [[raw/Meeting_Notes_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]

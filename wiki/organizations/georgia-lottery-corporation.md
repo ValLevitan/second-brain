@@ -3,7 +3,7 @@ type: organization
 title: Georgia Lottery Corporation (COAM regulator)
 date: 2026-09-10
 aliases: [Georgia Lottery, Georgia Lottery Corporation, GLC, COAM staff, the Lottery, COAM division, COAM Hearing Room, Georgia Lottery COAM, guidance is not the law, they're coming out with the draft, the general counsel had a negative reaction]
-source-count: 6
+source-count: 8
 open-commitments: 2
 open-questions: 3
 ---
@@ -87,6 +87,14 @@ At the [[wiki/meetings/2026-09-11-digital-cash-processing-card-solution-and-cash
 
 One thing the same call shows about how JVL is read from outside: asked whether he had spoken to the Lottery at all, [[wiki/people/andrew-cashin.md|Andrew Cashin]] said "**I've always relied on Bill Nader and those guys to guide**", and Val answered "**I don't know if Bill Nader speaks to [the Lottery].**" The corpus records no contact between that person and this regulator [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]].
 
+## Sept 14 2026 — an inspection scenario shapes a JVL product feature
+
+The Lottery does not appear at the [[wiki/meetings/2026-09-14-transactional-mvp1-use-cases-and-ewallet-ticket-recovery.md|Sept-14 transactional call]], but it drives one of the few reports that had to make MVP 1. [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] described the scenario the feature exists for: an inspection arrives at a location from "лотере[и] Джорджия… которая контролирует весь этот рынок" and asks for a report of cards issued over a given period; the cashier must be able to press one simple button and produce it [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]. The derived notes record the same scenario [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]].
+
+Klimovich holds an example of the same report produced by one of JVL's competitors and intends to reproduce it — so the format JVL shows an inspector is being set by what the market already shows them. See [[wiki/decisions/2026-09-14-one-report-must-make-mvp1-cards-issued-for-a-georgia-lottery-inspection.md]].
+
+**§15.9:** no licence or registration number appears in either source, and none is recorded here.
+
 ## Open commitments
 
 - [ ] Georgia Lottery staff — connect Val with the right people at InComm and give him a direct phone number and email address for [[wiki/people/joe-kim.md|Joe Kim]]: "**We can call. We'll be glad to give you a phone number and… email address**", and at the close "**Let me get you some contacts, and I'll email them to you, and we'll go from there**" — due unspecified — [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
@@ -101,6 +109,8 @@ One thing the same call shows about how JVL is read from outside: asked whether 
 **§15.8:** clear — regulatory and market content only; no named-person compensation.
 
 ## Sources
+- [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - [[raw/Meeting_Notes_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
 - [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
 - [[raw/Meeting_Notes_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]

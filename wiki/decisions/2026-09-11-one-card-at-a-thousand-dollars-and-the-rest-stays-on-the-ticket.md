@@ -3,7 +3,7 @@ type: decision
 title: A payout over the card limit issues one card at $1,000 and leaves the remainder on the player's ticket — splitting across several cards is rejected and parked on MVP 2
 date: 2026-09-11
 aliases: [one thousand dollars per card, the rest stays on the ticket, split across several cards rejected, split logic out of MVP 1, receipt shows both amounts, five or ten dollar auto-fail, minimum and maximum card limits, second screen removed]
-source-count: 2
+source-count: 4
 status: active
 open-commitments: 2
 open-questions: 1
@@ -57,8 +57,22 @@ A capability nobody could place — Pavel read it as "carrier… wallet cred[ent
 
 *(The derived notes record the same outcome and the same $1,000 figure — "issue the card for $1,000 and leave the remainder on the player's ticket" — with the split "pulled out of MVP1 onto MVP2".)* [[raw/Meeting_Notes_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 
+## Update — Sept 14 2026: the other end of the min/max rule is settled
+
+Three days later, at the [[wiki/meetings/2026-09-14-transactional-mvp1-use-cases-and-ewallet-ticket-recovery.md|Sept 14 8:01 AM use-case call]], Klimovich walked redemption again — "ре[де]мшн… это, собственно, сердце всего этого сейчас процесса" — and closed the **minimum** side that the Sept-11 call had left as rework.
+
+- **The InComm card itself is unchanged in this version:** "[в] этой версии у нас карточка инкомовская[ —] принципиально никаких изменений." What is added is the min/max logic, and it needs a different approach from the one used for MudaGoose: "мы для [MudaGoose] там была одна логика, здесь требуется другой подход" [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]].
+- **Below the floor, nothing happens and MVP 1 offers no fallback.** "[Е]сли у нас на [e-]волите баланс меньш[е,] чем… плюс [activation] fee… сейчас мы ничего с этой транзакцией делать не можем и не хотим. То есть мы сейчас не добавляем в MVP один никаких [lottery] ticket[,] ничего подобного." The flow is blunt: the cashier scans, "IQ прямо скажет, что это нельзя загрузить на карточку[;] он ему вернёт этот тикет[,] скажет[: ] ну иди ещё проиграй или добавь сюда денег" [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]. *(The transcript drops the word for the minimum itself — Klimovich says "меньший, чем ⟨…⟩ плюс активэйшн фи" — so the floor is recorded as "the card minimum plus the activation fee", which is how the derived notes read it, with the gap noted rather than filled.)* [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+- **The $1,000 maximum and the repeat-issuance loop are restated unchanged:** "у нас на карточку $1000 максимальная загрузка[;] то мы можем выпустить одну карточку[,] остаток баланса остаётся на [e-]волите… снова просканировали этот тикет, выпустили ещё одну карточку, и так можно [redeem] весь баланс" [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]].
+- **The play-through rule survives the whole redesign, and it nearly got lost.** [[wiki/people/dmitri-chudinov.md|Chudinov]] flagged that it had not been said out loud: "у нас же остаётся режим[:] деньги на [e-]волет положили, но их надо проиграть, прежде чем вывести." Klimovich had, a minute earlier, implied a player short of the card minimum could simply top up and cash out; he retracted it on the spot — "**не[,] это неправильный комментарий с моей стороны[;] нет, так не должно быть**" — and confirmed the **dual balance stays**: "должен быть… двойной баланс… [deposited] и [playable]", visible everywhere a balance is communicated, including on the cashier's IQ screen: "если мы… кассиру показываем баланс, он должен быть разделён на 2… логические группы" [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]].
+- Klimovich offered to add a capability for the dual balance so it could not be lost again; [[wiki/people/pavel.md|Pavel]] suggested it may already exist as a requirement inside an existing capability — "это похоже на ре[кваймент] внутри какой[-]то к[а]пбилити существующе[й]… можно поискать" — and Klimovich agreed to search first: "я поищу и добавлю" [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]].
+
+**Also settled the same morning:** on activating a card, once the card is confirmed active, a receipt prints immediately showing how much was loaded and the fee — "тут же должен быть распечатан [receipt], подтверждающ[ий] эту транзакцию[:] сколько денег загружено, сколько f[ee]" — and a broken or empty printer does **not** block card issue (Biratka asked; Klimovich: "[н]ет, не блокируем") [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]].
+
 **§15.8:** clear — product limits and player flow only; the dollar figures are device/card limits, not anyone's compensation.
 
 ## Sources
 - [[raw/Meeting_Notes_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
