@@ -3,7 +3,7 @@ type: decision
 title: A vertical Texas product starts from the vertical Georgia COAM games, not from converting the horizontal Texas games
 date: 2026-09-14
 aliases: [Texas vertical conversion, days not weeks, измеряется в днях не в неделях, generate background video from description, two AI conversion experiments, склад код, graphic assets stretch will shrink, horizontal to vertical Texas, Georgia COAM as the Texas base, vertical Texas product, конвертация горизонтального Техаса в вертикальный, Rage-Nova_conversion]
-source-count: 4
+source-count: 6
 status: active
 open-commitments: 2
 open-questions: 4
@@ -76,7 +76,7 @@ No other firm commitment was made. Igor's offer to try further layouts was condi
 
 ## Open questions
 
-- **Who assembles the background video?** Igor needs a person who can build it; after that he can fit it to element positions with Claude. No name was proposed. **Sept 16 update:** Pavel is testing whether the background video can be *generated* from a written description instead of assembled by a person — see the Sept-16 section above. The experiment is running; the question is not answered. [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+- **Who assembles the background video?** Igor needs a person who can build it; after that he can fit it to element positions with Claude. No name was proposed. **Sept 16 update:** Pavel is testing whether the background video can be *generated* from a written description instead of assembled by a person — see the Sept-16 section above. The experiment is running; the question is not answered. **Sept 17 update:** the first such video exists and is running inside a playable vertical game — Anton Leshkevich generated it on Sept 16 and Igor built the scene from it on Sept 17 [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]. That answers *whether* it can be generated rather than assembled. It does **not** answer who does this as a standing job: no role or name was assigned, and the day's ruling points at a single "universal graphic designer" who has not been identified or hired. [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
 - **Which progressive does a vertical Texas product carry?** Set aside by Val, not answered; Igor's "mystery" read is an inference off a jackpot frame, not knowledge. [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
 - **How big is the maths rework?** Val directed that the maths be redone ("Математику другую"); nobody sized it. [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
 - **What was cut out of the Georgia games, and what merely hidden?** Pavel: "мы выпиливали хенс, например, тогда… из Джорджия"; Irina: "Но мы его скрыли" — we cut *[hens/hands — garbled, not recoverable]* out of Georgia / no, we hid it. Recorded as spoken; not interpreted. [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
@@ -108,8 +108,24 @@ Two days later, at the [[wiki/meetings/2026-09-16-street-machine-board-spec-and-
 
 **§15.8:** clear on this page — game-engineering, art-production and product economics only; no named-person compensation appears in any of the sources. **§15.9:** no licence, registration, tax or account numbers appear.
 
+## Sept 17 2026 — the scheme is running: a generated video is inside a playing vertical game
+
+Three days later, at the [[wiki/meetings/2026-09-17-vertical-game-skeletons-and-the-art-pipeline.md|Sept-17 12:19 PM ET session]], [[wiki/people/igor-metelski.md|Igor Metelski]] screen-shared **a vertical game that plays**, built by dropping the video [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] had generated the day before into an existing game as its scene, with symbol positions computed from the video's proportions so each symbol lands in its own cell. Anton's video was itself produced in part by parsing an existing **vertical 3×3** game JVL already owns. [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
+
+**This is the first time in the corpus that both Sept-16 experiments appear as one working artifact** — a generated background video (experiment 1) carrying a different game on an existing vertical layout (experiment 2).
+
+**What it does not do is close this decision's open questions.** The demo bypassed the pay-table mechanism the team had built, cutting the vertical pay table out of the horizontal one by hand; the untouched horizontal scene still breaks; and nobody was made the standing owner of background-video production. See the open-questions section above, where the "who assembles the background video?" item is updated rather than closed.
+
+**Pavel's Sept-16 commitment is not discharged.** He undertook to confirm conversion speed only once the first game is finished and its bugs are closed; on Sept 17 the game runs but the bugs are not closed, and no speed claim was made. It stays open.
+
+**A second ruling was taken at that session, recorded separately:** the reference layout for a conversion is another vertical game JVL already has, and each game format gets a fixed vertical skeleton — [[wiki/decisions/2026-09-17-hard-geometry-from-the-scene-files-and-a-vertical-skeleton-per-game-format.md]]. Nothing in it contradicts this decision; it is the working method underneath it.
+
+**Val's own closing line is worth keeping for its correction.** He praised the result and added that they had managed without Anton — "**Классный результат … и обошлись без Антона**" — and was immediately put right by [[wiki/people/irina-shishko.md|Irina Shishko]] ("**а видео чьё?**") and [[wiki/people/pavel.md|Pavel Frolov]] ("**как это без Антона?**"); Val accepted it ("**опять Антон**"). The derived notes report that the video was Anton's work but **omit the claim Val actually made**, which is the part that shows how invisible the generation step was to him [[raw/Meeting_Notes_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]] [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]].
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
+- [[raw/Meeting_Notes_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
 - [[raw/Meeting_Notes_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]

@@ -3,7 +3,7 @@ type: topic
 title: Game art & animation production pipeline (comp art → Miranda)
 date: 2025-03-12
 aliases: [animation production, comp art pipeline, CompArt, storyboards, Spine, Blender, After Effects, placeholder build, Miranda scene assembly, art production stages, spike, sorting, symbol containers, Glorosa, Havana Noches, Fiery Ice Link, Rodeo Spin]
-source-count: 16
+source-count: 20
 ---
 
 # Game art & animation production pipeline (comp art → Miranda)
@@ -152,8 +152,38 @@ The [[wiki/meetings/2026-09-14-texas-vertical-conversion-and-georgia-game-base.m
 
 The three games used as test material were **Spicy Fruits**, **Midnight Money** and **Dutch Mill** (a 3×3 title), all rendered in garbled form in the transcript and identified from the existing lineup; the Georgia COAM game whose background video Igor opened is rendered "куриного флюксора" and is **not recoverable** — it is left unidentified. [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]] [[raw/Meeting_Notes_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
 
+## Sept 17 2026 — what a scene actually is on disk, and the first generated background video inside a running game
+
+Two `Game_Conversion` sessions the same day — [[wiki/meetings/2026-09-17-game-conversion-vertical-scene-progress.md|a four-minute stand-up at 10:14 AM ET]] and [[wiki/meetings/2026-09-17-vertical-game-skeletons-and-the-art-pipeline.md|a 24-minute working session at 12:19 PM ET]], both in Russian — add the missing structural layer under the Sept-14 material above: not what a background video contains, but **how a game's art is stored and addressed**. The direction Val set out of the second session is on [[wiki/decisions/2026-09-17-hard-geometry-from-the-scene-files-and-a-vertical-skeleton-per-game-format.md]].
+
+**A scene is a folder in the game directory.** [[wiki/people/igor-metelski.md|Igor Metelski]] walked Val through it on screen: "**у меня в директории игры … вот эти вот папки. По большому счету, в каждой из этих папок лежит … то, что я называю сценой, и все эти сцены они выгружаются в игру. [А] игра уже занимается менеджментом, когда какая сцена отображается.**" The main scene is one of them and it is where the background video sits — "**мейн — это отдельная сцена, в мейне есть фоновое видео**". Val restated it back ("**в каждой папке … папка — это сцена**", each holding a set of artifacts the scene is assembled and transformed from) and Igor confirmed it holds for **every game JVL has ever made** — Val: "**Под каждую игру, которую мы вообще делали когда-то**", Igor: "**Да, да, да, всё верно.**" [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
+
+**Where the hard geometry lives, and how it is read.** The geometry of a scene is written in a file inside the scene ("**в сцене написано в файле**"), and JVL's tooling already carries **parsers that read existing geometry out of it** — "**у нас в рамках инструментов написаны парсеры, которые вот эту самую существующую [геометрию] разбирают**". This is the enabling fact behind Val's whole demand that the artists' intent be replaced by numbers. [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
+
+**Which scenes need a vertical version.** Igor's list: the main game scenes, free spins, transitions, messages, and any separate bonus that a game has — his example being the plate in **Dutch Mill** ("**бонусы, если есть какие-то отдельные бонусы, как, например, в этом [Dutch Mill] … есть этот плейт**"). *(The derived notes render this as a "touch-wheel plate"; the transcript's "тачмиле / точмиле" is the same 3×3 title the Sept-14 source renders "дачмил" — **Dutch Mill**, not a wheel. The notes' reading is not followed* [[raw/Meeting_Notes_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]*.)* [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
+
+**The demo: a generated video became a playing game.** Igor took an existing game and put the video [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] had generated the previous day into it as the scene; symbol positions are computed from the video's proportions so each symbol lands in its own cell, and the game plays. Anton's video was itself produced in part by parsing an existing **vertical 3×3** game JVL already owns — "**оно сгенерировано в том числе на основании того, что мы разобрали какую-то вертикальную 3 на 3 игру, которые у нас уже есть**". Some vertical resources existed before this: Igor named the **game-selection screen** as one already available for vertical machines. He worked in the existing branch rather than cutting a new one, and said the changes can be moved to a fresh branch later if the product goes ahead. [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
+
+**The pay table was cut by hand, around the mechanism.** For the demo the vertical pay-table screen was made out of the **horizontal** pay table and deliberately bypassed the mechanism the team had built earlier — "**он сделан … в обход того механизма, который мы уже ранее разработали**" — because the horizontal source was a whole scene with its own background and did not fit; it had to be sliced and recomposed ("**всё это пришлось как-то нарезать, скомпоновать**"). It displays in the correct position. What Igor said would have made it clean is the thing the Sept-14 material also identified as missing: a **comp art** to aim at — "**если бы у нас был какой-то [компарт], на который можно было ориентироваться**". [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
+
+**Comp art *is* the skeleton.** [[wiki/people/pavel.md|Pavel Frolov]], answering Anton's grey-squares template idea: "**компарт — это по сути то и есть вот этот вот скелет, да, с положением чего-то**" — which ties Val's new skeleton directly to the comp-art vocabulary settled on Apr 2 2026 above. [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
+
+**The squashed picture was not a defect.** Val asked why everything looked flattened; Igor said it was his monitor layout or the screen share, not the scene — "**это … не артефакты самой сцены, это артефакты того, что я ввожу это … на [W]indows машине**". Pavel had him squeeze the shared window until the sides were roughly **9:16**, after which the proportions read correctly. No work is being spent on it. [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
+
+**From the 10:14 AM stand-up — the state of the same scene a couple of hours earlier** [[raw/Meeting_Transcript_Game_Conversion_Vertical_Scene_Progress-September-17-2026.md]]:
+
+- **The stretched symbols are a placeholder.** The symbols in the vertical cells come from a horizontal layout and had to be pulled a little to fit — "**символов с горизонтальной раскладки, поэтому их пришлось чуть-чуть растянуть**" — and Igor said this stops mattering once the real vertical symbols exist. No work is spent on them.
+- **The pay table on its own camera squashes the main scene.** "**вот вот этот мейн он так вот сплющен, потому что здесь есть вот этот вот [pay table]**" — a separate camera for the pay table compresses the main view. Igor was generating a scene that puts the pay table on the **upper part of the screen** instead, after which "**не будет вот этого вот искажения … оно будет выглядеть как … игра**". He put it at half an hour to an hour of work.
+- **Launching in vertical mode was itself not the problem.** What broke were small things: **font names that do not match in some scenes**, and **elements missing from the dashboard**.
+- **The steal / nudge scene may only need a camera change**, not a rebuild — "**даже не переделывать. Его можно … просто там камеру … изменить … он по масштабу как раз [низ] перекроет**". *(The scene name is garbled — "стилдейм" / "стил день" / "ненаджев стиль" — and whether this is one scene or two is not recoverable.)*
+- **Deliberate ugliness is a requirement, not a defect.** [[wiki/people/irina-shishko.md|Irina Shishko]] interrupted to remind the call that the **additional games inside the Texas product were meant to be unattractive on purpose**: "**чем страшнее, тем лучше. Эти игры, которые дополнительные … у Техаса … они должны быть не привлекательные**", so that players would not want to play them. Igor accepted it ("**ну хорошо**"). Art effort on those games is therefore not a quality target.
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Game_Conversion_Vertical_Scene_Progress-September-17-2026.md]]
+- [[raw/Meeting_Notes_Game_Conversion_Vertical_Scene_Progress-September-17-2026.md]]
+- [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
+- [[raw/Meeting_Notes_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
 - [[raw/Specs_graphics.md]]
 - [[raw/games_design_recap-may-29-2025.md]]
 - [[raw/Game Development How animation are made with Lena - March 12-2025.md]]

@@ -3,7 +3,7 @@ type: meeting
 title: Games conversion and AI graphics — transcription failed (Sept 16 2026, 11:31 AM)
 date: 2026-09-16
 aliases: [Games Conversion AI Graphics, Games conversion-September-16-2026, the 11:31 games conversion call, AI graphics conversion, failed transcription September 16, minimax.io, Georgia vertical layout]
-source-count: 2
+source-count: 3
 open-commitments: 0
 open-questions: 3
 ---
@@ -50,8 +50,8 @@ Had it transcribed, this session would most likely have fed [[wiki/decisions/202
 
 ## Open questions
 
-- **Does the Teams transcription language need to be set to Russian for this recurring series?** The same failure will repeat on every occurrence until it is changed. Other Russian-language JVL calls transcribe correctly — including the **12:35 alignment call the same day**, which came back in readable Russian — so this is a per-meeting setting, not a tenant-wide fault. [[raw/Meeting_Notes_Games_Conversion_AI_Graphics-September-16-2026.md]]
-- **Was this meeting series renamed?** Val says "AI graphics conversion" at 25:47 and again at 26:17; Irina produces a garbled version at 25:23; Pavel says "Alignment" at 26:14. Whether the series was renamed, or a new one created, cannot be confirmed. Note that the next recording Val makes that day, 37 minutes later, is a session titled `Alignment call` — see [[wiki/meetings/2026-09-16-street-machine-board-spec-and-georgia-class-a-order.md]]. **Suggestive, not evidence.** [[raw/Meeting_Transcript_Games_Conversion_AI_Graphics-September-16-2026.md]]
+- **Does the Teams transcription language need to be set to Russian for this recurring series?** Other Russian-language JVL calls transcribe correctly — including the **12:35 alignment call the same day**, which came back in readable Russian — so this is a per-meeting setting, not a tenant-wide fault. [[raw/Meeting_Notes_Games_Conversion_AI_Graphics-September-16-2026.md]] **Sept 17 update: the failure did not repeat.** The next day's session under the same name — `Game_Conversion-September-17-2026`, 10:14 AM ET — came back in **readable Russian**, cue by cue, with the same Minsk speakers [[raw/Meeting_Transcript_Game_Conversion_Vertical_Scene_Progress-September-17-2026.md]]. So the standing expectation that "every occurrence will fail until the setting is changed" is **wrong**. Whether anyone changed a setting, or the Sept-16 failure was a one-off, is not recorded anywhere; the cause stays open.
+- **Was this meeting series renamed?** Val says "AI graphics conversion" at 25:47 and again at 26:17; Irina produces a garbled version at 25:23; Pavel says "Alignment" at 26:14. Whether the series was renamed, or a new one created, cannot be confirmed. Note that the next recording Val makes that day, 37 minutes later, is a session titled `Alignment call` — see [[wiki/meetings/2026-09-16-street-machine-board-spec-and-georgia-class-a-order.md]]. **Suggestive, not evidence.** [[raw/Meeting_Transcript_Games_Conversion_AI_Graphics-September-16-2026.md]] **Sept 17 partial answer:** the thread continued the next day under game-conversion names — `Game_Conversion-September-17-2026` at 10:14 AM ET ([[wiki/meetings/2026-09-17-game-conversion-vertical-scene-progress.md]]) and `Game_Conversion_progress` at 12:19 PM ET ([[wiki/meetings/2026-09-17-vertical-game-skeletons-and-the-art-pipeline.md]]) — so the series was not renamed to "AI graphics conversion". Whether a *separate* AI-graphics series was created is still not known [[raw/Meeting_Transcript_Game_Conversion_Vertical_Scene_Progress-September-17-2026.md]].
 - **What was the minimax.io account issue?** Raised clearly at 12:47 and not resolvable from the text. [[raw/Meeting_Transcript_Games_Conversion_AI_Graphics-September-16-2026.md]]
 
 ## §12 note
@@ -63,4 +63,5 @@ The notes and the transcript are one **derived-document family** — one meeting
 ## Sources
 
 - [[raw/Meeting_Transcript_Games_Conversion_AI_Graphics-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Game_Conversion_Vertical_Scene_Progress-September-17-2026.md]]
 - [[raw/Meeting_Notes_Games_Conversion_AI_Graphics-September-16-2026.md]]

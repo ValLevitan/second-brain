@@ -4,7 +4,7 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 85
+source-count: 87
 open-commitments: 17
 ---
 
@@ -332,9 +332,20 @@ She also asked to be added to the new InComm SkillPay email thread ("**В мен
 
 - [ ] Finish reworking the non-functional Flex-Port requirements with Pavel Frolov and send the list to Andrei Klimovich to review — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 
+## Sept 17 2026 (10:14 AM and 12:19 PM) — she supplies the product memory the engineers were about to design against
+
+Both `Game_Conversion` sessions that day ([[wiki/meetings/2026-09-17-game-conversion-vertical-scene-progress.md]], [[wiki/meetings/2026-09-17-vertical-game-skeletons-and-the-art-pipeline.md]]). Her three interventions are all corrections of the room, and each is short [[raw/Meeting_Transcript_Game_Conversion_Vertical_Scene_Progress-September-17-2026.md]] [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]:
+
+- **"They were supposed to be ugly."** Hearing Igor plan to make the extra Texas games vertical and calling them frightful, she interrupted to say that was the design intent, not a defect — "**чем страшнее, тем лучше. Эти игры, которые дополнительные … у Техаса … они должны быть не привлекательные**", so players would not want to play them. Igor accepted it. This governs how much art effort those games deserve — see [[wiki/topics/game-art-animation-production-pipeline.md]].
+- **She restated Igor's method in plain words** when Val and Igor were talking past each other: he had taken a **3×3** game whose main scene, reels and pay tables sat in fixed described positions and told it to fit the new video into those frames — "**ты взял игру 3 на 3 … вот здесь мейн с [релами], вот здесь [пэйтейблы] … и ты вот на вот это … описанн[ое] по … пикселям … сказал: а вот это вот видео, и теперь его всунь вот в рамки**". Igor confirmed. Val's "да" runs through the whole passage.
+- **She backed Pavel's pay-table objection** — "**оно не повторяется как раз**" — and **corrected Val's credit** at the end: told that the team had managed without Anton, she asked "**а видео чьё?**" See [[wiki/people/anton-leshkevich.md]].
+
+**§15.8:** clear — engineering and product-design content only.
 
 ## Sources
 
+- [[raw/Meeting_Transcript_Game_Conversion_Vertical_Scene_Progress-September-17-2026.md]]
+- [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - [[raw/Meeting_Notes_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]

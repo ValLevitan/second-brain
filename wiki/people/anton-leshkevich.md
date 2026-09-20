@@ -4,7 +4,7 @@ title: Anton Leshkevich
 date: 2025-01-21
 aliases: [Anton Leshkevich, Anton, Antoine, Anton Dmishkevich, Дмишкевич, Дмишкевичем, Liashkevich, Anton Liashkevich, Lishkevich, Anton Lishkevich, Лишкевич, Rishkevich, Anton Rishkevich, ришкевич, Vishkevich, вишкевич, брижке]
 disambiguation: "Minsk engineer (Omni/RGS), this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 31
+source-count: 34
 open-commitments: 4
 open-questions: 0
 ---
@@ -137,8 +137,23 @@ Anton was pulled into the [[wiki/meetings/2026-09-14-texas-vertical-conversion-a
 
 **§15.8:** clear — engineering content only.
 
+## Sept 16–17 2026 — he generates the background video that makes the vertical game work, and Val does not realise it
+
+**He is the author of the first generated background video in the corpus.** [[wiki/people/igor-metelski.md|Igor Metelski]] built the playable vertical game shown on Sept 17 out of the video "**которое … вчера скинул Антон**" — the one Anton sent the previous day — and said it was generated in part by parsing an existing vertical 3×3 game JVL already owns. This is the artifact that the Sept-14 "who assembles the background video?" question had no answer for; see [[wiki/decisions/2026-09-14-vertical-texas-starts-from-the-georgia-coam-vertical-games.md]]. [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
+
+**Val credited the result to everyone but him, and was corrected on the spot.** "**Классный результат … и обошлись без Антона**" — [[wiki/people/irina-shishko.md|Irina Shishko]]: "**а видео чьё?**"; [[wiki/people/pavel.md|Pavel Frolov]]: "**как это без Антона?**"; Val: "**опять Антон**". [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
+
+**His own proposal for the skeleton problem:** a game template in which the animations are replaced by plain grey squares, with tools that generate content on the fly — "**игра [темплейт], где вместо анимации будут просто серенькие квадратики … и потом предоставить тулы, которые … генерируют на лету**". Pavel's answer was that this is comp art, and comp art is already the skeleton. See [[wiki/decisions/2026-09-17-hard-geometry-from-the-scene-files-and-a-vertical-skeleton-per-game-format.md]]. [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
+
+**At the 10:14 AM stand-up the same day he had nothing to report** — Pavel closed the call on the assumption, and Anton's only words in that file are "да" and "до свидания" [[raw/Meeting_Transcript_Game_Conversion_Vertical_Scene_Progress-September-17-2026.md]].
+
+**§15.8:** clear — engineering content only; the "without Anton" exchange is recorded as a factual correction about authorship, not as a performance judgement.
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
+- [[raw/Meeting_Notes_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
+- [[raw/Meeting_Transcript_Game_Conversion_Vertical_Scene_Progress-September-17-2026.md]]
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Notes_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]

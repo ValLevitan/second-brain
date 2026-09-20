@@ -4,8 +4,8 @@ title: Igor Metelski
 date: 2026-07-14
 aliases: [Igor Metelski, Igar Miatselski, Miatselski, Igor, Igor Mitelsky, Мительский, Mitsierski, Igor Mitsierski]
 disambiguation: "RGS engineer on Efim Podvoiski codebase (= payroll Igar Miatselski). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
-source-count: 22
-open-commitments: 7
+source-count: 26
+open-commitments: 14
 ---
 
 # Igor Metelski
@@ -114,8 +114,34 @@ At the [[wiki/meetings/2026-09-14-texas-vertical-conversion-and-georgia-game-bas
 
 **§15.8:** clear — engineering content only.
 
+## Sept 17 2026 — he makes a vertical game play, and is handed the job of turning art into numbers
+
+Two `Game_Conversion` sessions the same day. At the [[wiki/meetings/2026-09-17-game-conversion-vertical-scene-progress.md|10:14 AM stand-up]] he was the only person with anything to show; at the [[wiki/meetings/2026-09-17-vertical-game-skeletons-and-the-art-pipeline.md|12:19 PM session]] he demonstrated it to Val and left with the pipeline work.
+
+- **He got a vertical game running** out of the video [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] generated the day before, computing symbol positions from the video's proportions so each symbol falls in its own cell. He worked **inside the existing branch** rather than cutting a new one, on the reasoning that the changes can be moved later if the product goes ahead. [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
+- **He reported his own defects without being asked** — the stretched placeholder symbols, the pay table on a separate camera squashing the main scene, mismatched font names in some scenes, missing dashboard elements, and the untouched horizontal scene that still drops into the steal scene when you pick something in it. [[raw/Meeting_Transcript_Game_Conversion_Vertical_Scene_Progress-September-17-2026.md]] [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
+- **He corrected Val's mental model of how art reaches code**, then answered the question behind it. Designers do not hand over instructions for a programmer to place — they hand over a scene with the components already placed "по авторской задумке"; but the hard geometry that results is written in a file inside the scene, and JVL's tooling already has **parsers that read it back out**. On that basis he told Val the whole request was easy: "**Да без проблем конечно, ну это это очень легко сделать.**" [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
+- **He owns the skeleton work** — "**мы можем создать скелет для любого исполнителя дизайнера, куда нам что нужно размещать**" — and asked the one question that actually blocked him: what to use as the reference, since the game has no vertical layout of its own. Val answered it. See [[wiki/decisions/2026-09-17-hard-geometry-from-the-scene-files-and-a-vertical-skeleton-per-game-format.md]]. [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
+- **He declined to work Saturday, and then offered to anyway.** "**В субботу мне не хотелось работать, смогу в воскресенье … или в понедельник, но если вы хотите, сможем в субботу**"; "**суббота — день для семьи**"; then "**ну хорошо, давайте в субботу**". Val refused to pick for him and told him to write. [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
+
+## Open commitments (Sept 17 2026)
+
+- [ ] Finish the scene that moves the pay table onto the upper part of the screen — due same day, self-estimated half an hour to an hour — [[raw/Meeting_Transcript_Game_Conversion_Vertical_Scene_Progress-September-17-2026.md]]
+- [ ] Walk every scene that has to be replaced — the game scene at minimum, plus the shared ones — due unspecified — [[raw/Meeting_Transcript_Game_Conversion_Vertical_Scene_Progress-September-17-2026.md]]
+- [ ] Fix the mismatched font names and the missing dashboard elements — due unspecified — [[raw/Meeting_Transcript_Game_Conversion_Vertical_Scene_Progress-September-17-2026.md]]
+- [ ] Build vertical skeletons for about six horizontal games (3×3, 3×5, 4×5) — due "a couple of days", Sept 18 or Mon Sept 21 2026 — [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
+- [ ] Pull the hard geometry and motion physics out of the existing scene files with the existing parsers — due unspecified — [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
+- [ ] Point AI at the game directories and produce the list of scenes with the artifacts each needs — due unspecified — [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
+- [ ] Write to Val on Friday Sept 18 with the day he prefers to meet — due Sept 18 2026 — [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
+
+**§15.8:** clear — engineering and scheduling only; his family-day remark is recorded as scheduling, not as a performance or HR judgement, and no compensation appears.
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Game_Conversion_Vertical_Scene_Progress-September-17-2026.md]]
+- [[raw/Meeting_Notes_Game_Conversion_Vertical_Scene_Progress-September-17-2026.md]]
+- [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
+- [[raw/Meeting_Notes_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
 - [[raw/Meeting_Notes_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]

@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 154
+source-count: 156
 open-commitments: 64
 open-questions: 0
 ---
@@ -663,9 +663,21 @@ The fourth MVP 1 morning call ([[wiki/meetings/2026-09-17-transactional-mvp1-ski
 - [ ] Find or create the Jira capability covering logging to the cloud server; nothing was found on the call — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [ ] Finish reworking the non-functional Flex-Port requirements with Irina Shishko and send the list to Andrei Klimovich — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 
+## Sept 17 2026 (10:14 AM and 12:19 PM) — he raises the one objection to the skeleton, and supplies the method that might defeat it
+
+Both `Game_Conversion` sessions that day ([[wiki/meetings/2026-09-17-game-conversion-vertical-scene-progress.md]], [[wiki/meetings/2026-09-17-vertical-game-skeletons-and-the-art-pipeline.md]]). He chaired the four-minute stand-up and closed it on the judgement that Anton would have nothing new; on the longer session he was the only person who pushed back on Val's plan [[raw/Meeting_Transcript_Game_Conversion_Vertical_Scene_Progress-September-17-2026.md]] [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]:
+
+- **The objection:** the pay table is laid out differently by the designer in every game and does not repeat, "**то есть вот это мы в скелет [засунуть] никак не сможем**" — that part cannot go into a skeleton. [[wiki/people/irina-shishko.md|Irina Shishko]] backed him. Val did not rule on it, and it is the open question on [[wiki/decisions/2026-09-17-hard-geometry-from-the-scene-files-and-a-vertical-skeleton-per-game-format.md]].
+- **The reframing:** a grey-square game template is **comp art**, and comp art is already the skeleton — "**компарт — это по сути то и есть вот этот вот скелет, да, с положением чего-то**". This is the clearest link in the corpus between Val's new skeleton idea and the comp-art vocabulary JVL already uses ([[wiki/topics/game-art-animation-production-pipeline.md]]).
+- **The possible fix, hedged:** if the pay-table frames existed in advance and positioned, generate the video first, then ask **Claude** or another AI to overlay those frames on every frame and regenerate the video with them — "**Ну так это работает, наверное.**"
+- **Two small things that show how he reviews.** He had Igor squeeze the shared window until the sides were about **9:16** before accepting that the demo's proportions were a display artifact; and the one product note he volunteered was that he would have found the video more interesting with **windows lighting up and going dark in different places in the little houses** — Igor: "**если это на видео есть, то будут**".
+
+**§15.8:** clear — engineering content only.
 
 ## Sources
 
+- [[raw/Meeting_Transcript_Game_Conversion_Vertical_Scene_Progress-September-17-2026.md]]
+- [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
