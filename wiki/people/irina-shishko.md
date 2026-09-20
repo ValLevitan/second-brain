@@ -4,8 +4,8 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 79
-open-commitments: 14
+source-count: 81
+open-commitments: 15
 ---
 
 # Irina Shishko
@@ -280,6 +280,22 @@ An hour after being cut off on the code-standards call, she was back in the tran
 
 - [ ] Irina Shishko (with [[wiki/people/alexander-biratka.md|Alexander Biratka]] confirming it is the same printer) — send Klimovich the list of printer tilts handled on the machine — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 
+## Sept 15 2026 (8:03 AM) — she corrects the link direction, and puts promo money out of the release
+
+At the [[wiki/meetings/2026-09-15-transactional-mvp1-balance-naming-and-ui-flow-walkthrough.md|Sept-15 8:03 AM call]] (Russian) she made three interventions that changed outcomes [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]].
+
+**She corrected the Jira link direction.** She named Klimovich's habit before he described it — "**я знаю, что ты всегда ставишь [implemented by requirements]**… мне кажется, это неправильная" — and gave the reasoning: a *feature* is what gets implemented; a capability is *based on* requirements. The agreed form became "capability requires requirement", and Klimovich took the cleanup across every link. See [[wiki/decisions/2026-09-15-capability-requires-requirement-and-dates-sit-on-the-lowest-level.md]].
+
+**She put promotional money out of MVP 1 in one sentence:** "**давайте, если мы хотим до 1 числа и промо деньги нам не до 1 числа, мы это сделаем MVP 2[ или ]3, потому что там всё очень сложно с этим**". Klimovich parked it and thanked her by name. See [[wiki/decisions/2026-09-15-balance-is-total-playable-only-and-redeemable-everywhere.md]].
+
+**She found the emphasis backwards on the collect screen** — the big button pushes the player to take a new ticket rather than scan the one in his hand — and Klimovich agreed the emphasis must move to scanning [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]].
+
+Her position on the balance naming was consistent with the outcome from the start: "баланс это полностью баланс… это всё, что есть[,] неважно[,] играемо[е] или выводимая", which is what "Total" came to mean. She is one of the five named owners of the non-functional requirements due Monday Sept 21 ([[wiki/decisions/2026-09-15-the-week-goes-to-non-functional-requirements-and-monday-september-21-is-the-deadline.md]]).
+
+## Open commitments (Sept 15 2026)
+
+- [ ] Irina Shishko (with [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]], [[wiki/people/andrey-bosik.md|Andrey Bosik]], [[wiki/people/alexander-biratka.md|Alexander Biratka]] and [[wiki/people/pavel.md|Pavel Frolov]]) — write the non-functional requirements for FlexPay, Flex-Port and Flex IQ — due Monday Sept 21 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
@@ -361,3 +377,5 @@ An hour after being cut off on the code-standards call, she was back in the tran
 - [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]]
 - [[raw/Meeting_Notes_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]

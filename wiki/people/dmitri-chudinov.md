@@ -4,8 +4,8 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 51
-open-commitments: 15
+source-count: 53
+open-commitments: 17
 open-questions: 0
 ---
 
@@ -253,6 +253,27 @@ He was not on the [[wiki/meetings/2026-09-14-hardware-priorities-tito-case-and-s
 
 - [ ] Dmitri Chudinov — work the Flex IQ ↔ Flex-Port firmware-distribution protocol from his side, and improve it if he can — due unspecified — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 
+## Sept 15 2026 (8:03 AM) — he wins two arguments on the audit trail, and is cut off for saying the requirements are not written
+
+At the [[wiki/meetings/2026-09-15-transactional-mvp1-balance-naming-and-ui-flow-walkthrough.md|Sept-15 8:03 AM call]] (Russian) he was again the one who asked what happens when something breaks [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]].
+
+**He kept the two internal balances.** Against a single displayed total, his case was recovery: "**с нашей стороны с инженерной всё равно остаются плейбл у редимого, потому что есть дилеммы[ —] откуда брать деньги и куда их возвращать?**" — if a transfer to the port is refused, the engine must know which side to return the money to, "иначе он попадёт в какойто абстрактный тотал… поэтому формально баланса 2". He also set the withdrawal priority: playable first, then redeemable, then refusal. Klimovich: "прекрасно. Я поддерживаю." See [[wiki/decisions/2026-09-15-balance-is-total-playable-only-and-redeemable-everywhere.md]].
+
+**He closed reissue versus reprint.** Two carriers with identical barcodes protects against nothing a photograph can already defeat, and reissue's real cost is the investigation trail: "**потом усложняет [инвестигацию — ]что происходило в истории, что куда[-]то перевели на другой, с 2 на 3**". Klimovich had already switched the design to reprint. Out of the same scenario came the redemption freeze rule. See the Sept-15 update on [[wiki/decisions/2026-09-14-the-ewallet-is-created-before-its-ticket-prints.md]].
+
+**He pinned the MVP 1 cloud scope to two items** — "**не фантазируй[,] давай на MVP один**… девайсы оператора подключены[,] онлайн… и даш[б]орт по выпущенным карточкам. Все остальное… на MVP 2[ или ]3" — with billing continuing as it works today. See the Sept-15 update on [[wiki/decisions/2026-09-14-mvp1-stays-local-and-the-cloud-balance-requirement-moves-to-mvp2.md]].
+
+**He was also the one who raised machine statistics as an operator product** — "у нас же теперь есть возможность собирать с машины… статистику[;] мы могли бы предоставлять какую то статистику оператору по машинам" — which Val called "наш гвоздь программы" [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]].
+
+**And he was cut off.** Asked by Val how devices reconnect and how JVL learns they dropped, he answered with what exists: "**могу сказать, что требования не прописанные, но у нас реализована система графана, где в будущем возможны настройки на алерты**". Val: "я устал. Мне надоедает слушать, что мы знаем, но это не прописано… если это не написано, этого нету." He is first of the five named owners of the non-functional requirements. See [[wiki/decisions/2026-09-15-the-week-goes-to-non-functional-requirements-and-monday-september-21-is-the-deadline.md]].
+
+**Two smaller contributions:** the countdown should appear only near the end rather than running throughout ("постоянный тайма[ут] сразу заставляешь немножко нервничать"), and the records list needs a direction filter for money moving to and from the machine, which the first FlexPay implementation had [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]].
+
+## Open commitments (Sept 15 2026)
+
+- [ ] Dmitri Chudinov — hand Klimovich the first version of Flex IQ in wallet mode so he can see which screens already exist — due the same day (Sept 15 2026) — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- [ ] Dmitri Chudinov (with [[wiki/people/andrey-bosik.md|Andrey Bosik]], [[wiki/people/irina-shishko.md|Irina Shishko]], [[wiki/people/alexander-biratka.md|Alexander Biratka]] and [[wiki/people/pavel.md|Pavel Frolov]]) — write the non-functional requirements for FlexPay, Flex-Port and Flex IQ — due Monday Sept 21 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
@@ -306,3 +327,5 @@ He was not on the [[wiki/meetings/2026-09-14-hardware-priorities-tito-case-and-s
 - [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [[raw/Meeting_Notes_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]

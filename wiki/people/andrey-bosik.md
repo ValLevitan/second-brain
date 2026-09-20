@@ -4,8 +4,8 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 87
-open-commitments: 24
+source-count: 89
+open-commitments: 28
 ---
 
 # Andrey Bosik
@@ -338,6 +338,27 @@ Twenty-five minutes after the [[wiki/meetings/2026-09-14-code-standards-main-bra
 - [ ] Andrey Bosik — build a routine that checks the Jira status rules (nothing in MVP 1 still Proposed; To Do items carry features; features In Progress carry a linked feature branch; capabilities In Progress linked to requirements with acceptance criteria) and send a short exception report — only the mismatches — to Val, Pavel Frolov and Andrei Klimovich — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - [ ] Andrey Bosik (with [[wiki/people/pavel.md|Pavel Frolov]]) — finish the automatic update environment so nobody has to download and install builds by hand, Flex-Port included — due within 30 days of Sept 14 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 
+## Sept 15 2026 (8:03 AM) — his report sets the agenda for the first ten minutes, and his questions produce two rulings
+
+At the [[wiki/meetings/2026-09-15-transactional-mvp1-balance-naming-and-ui-flow-walkthrough.md|Sept-15 8:03 AM call]] (Russian) he opened the meeting by asking for his own report to be checked — "надо тоже обсудить некоторые поля, потому что я их интерпретировал так, как я вижу" — and the answers became rules [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]].
+
+**The planning-date rule.** His question "на что мы ставим дату?" produced Val's roll-up rule: dates always sit on the lowest level of work that exists, moving down from capability to feature to story as each appears, "чтобы постоянно был ролл[-]ап, иначе ролл[-]ап исчезает, и там начинается конфликт". He accepted and, pressed by Val on why a correction should wait for tomorrow's copy, agreed to push an updated report the same day. See [[wiki/decisions/2026-09-15-capability-requires-requirement-and-dates-sit-on-the-lowest-level.md]].
+
+**The LTE-modem ruling.** He had been assuming the location's router could serve as the shared modem for everything. Val's answer was that every device — each Flex IQ, each machine, the kiosk — carries its own modem and SIM and is self-sufficient while still seeing the others over Wi-Fi. Bosik immediately drew the consequence for his own Wi-Fi work: whether a separate access point is worth installing at all. See [[wiki/decisions/2026-09-15-every-device-carries-its-own-lte-modem-and-sim.md]].
+
+**He brought an idea from outside the room.** Starting from the fiscal boards fitted to cash-accepting machines in Belarus and, he believes, Russia, he asked whether standard retail **X and Z reports** apply to Flex IQ. Klimovich had not heard the term — "я не знаю, что такое… икс[;] я погуглю" — and Bosik posted a short explanation into the meeting chat during the call, while saying plainly he does not know whether they apply: "просто это здесь применимо или нет[ —] без понятия". Pavel supplied the fact that the gaming machines have such counters but Flex-Port and Flex IQ do not, there being no Georgia regulator requirement for one [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]].
+
+**Two smaller contributions:** he asked for a calendar/date-period filter on the cashier records list, which was accepted; and he confirmed that permanently-live scanners are ordinary — "в магазинах же прайсчек[еры] тоже висят в режиме ожидания". He is one of the five named owners of the non-functional requirements ([[wiki/decisions/2026-09-15-the-week-goes-to-non-functional-requirements-and-monday-september-21-is-the-deadline.md]]).
+
+*(§4 note: two men named Andrei were on this call. Everything above is Bosik — the report, the fiscal/X-and-Z question, the calendar filter, the router question; the screen-sharing, capabilities and UI/UX are [[wiki/people/andrei-klimovich.md|Andrei Klimovich]].)*
+
+## Open commitments (Sept 15 2026)
+
+- [ ] Andrey Bosik — correct the report's date-field interpretation to the lowest-level-of-work rule and push an updated copy the same day — due Sept 15 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- [ ] Andrey Bosik — prepare the ground so requirement 1538's status can be changed as soon as Klimovich moves it to the new MVP 2 capability — due Sept 15 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- [ ] Andrey Bosik (with [[wiki/people/pavel.md|Pavel Frolov]]) — work out whether the per-device LTE modems can back each other up when Wi-Fi drops, and whether a separate Wi-Fi access point is still worth installing — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- [ ] Andrey Bosik (with [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]], [[wiki/people/irina-shishko.md|Irina Shishko]], [[wiki/people/alexander-biratka.md|Alexander Biratka]] and [[wiki/people/pavel.md|Pavel Frolov]]) — write the non-functional requirements for FlexPay, Flex-Port and Flex IQ — due Monday Sept 21 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
@@ -430,3 +451,5 @@ Twenty-five minutes after the [[wiki/meetings/2026-09-14-code-standards-main-bra
 - [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]

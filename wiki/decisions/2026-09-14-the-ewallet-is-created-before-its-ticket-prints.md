@@ -2,11 +2,11 @@
 type: decision
 title: The e-wallet is created the moment the player presses "print new" — before the ticket prints — so a printer failure cannot lose the money; the cashier recovers it from the transaction list
 date: 2026-09-14
-aliases: [create new then print, wallet created before printing, the painful scenario, carrier that did not print, ticket recovery, reissue versus reprint, print-carrier command, unclaimed money on the terminal, collect fork, блок номер 5 и блок номер 6]
-source-count: 4
+aliases: [create new then print, reprint not reissue, wallet created before printing, the painful scenario, carrier that did not print, ticket recovery, reissue versus reprint, print-carrier command, unclaimed money on the terminal, collect fork, блок номер 5 и блок номер 6]
+source-count: 5
 status: active
 open-commitments: 1
-open-questions: 4
+open-questions: 3
 ---
 
 # The e-wallet is created before its ticket prints
@@ -52,6 +52,16 @@ He was pushed back on from three sides:
 
 Klimovich could not reconstruct his own reasoning — "**Да[,] я не помню[,] почему я пришёл к решению именно делать [reissue]**… может там есть какие[-]то подводные камни[;] я не помню, может быть[,] я передумал[,] слишком сложно сделать" — and parked it for both sides to re-read: "давайте пока подвесим этот вопрос" [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]].
 
+### Update, Sept 15 2026 — closed as **reprint**, against its author
+
+At the [[wiki/meetings/2026-09-15-transactional-mvp1-balance-naming-and-ui-flow-walkthrough.md|Sept-15 8:03 AM call]] Klimovich re-opened it having thought about it overnight, and argued *for* reissue again — this time on universality rather than fraud. His case: a reprint only covers a carrier that was never printed, but there is also the carrier that printed and is unreadable — "баркод не читается, он стёрся" — or that the player lost, and reprinting those leaves two potential carriers for one wallet: "**иначе у нас появятся 2 потенциальных носителя к одному и тому же [e-]воли[ту]**". He wanted one answer that works on every gateway, "не только для IQ… [но и на] всякие селфсервис киоски" [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]].
+
+[[wiki/people/dmitri-chudinov.md|Chudinov]]'s counter carried the room in three sentences: two carriers with identical barcodes is not what reissue prevents, because a ticket can be photographed either way — "**печать снова с другим номером, но таким же балансом… ни от чего не защищает**" — and reissue's real cost is the audit trail: "**потом усложняет [инвестигацию — ]что происходило в истории, что куда[-]то перевели на другой, с 2 на 3 и так далее… и мы будем сводить концы с концами**" [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]].
+
+Klimovich put it to the room — "короче[,] вы против ри[ишью,] репринт нужен[,] да?" — [[wiki/people/pavel.md|Pavel]] answered "да", Chudinov "я больше за репринт", and Klimovich reported he had already made the change: "**окей[,] ри[ишью] я переделал на репринт. Я ещё раз посмотрю, почему я так хотел… но скорее всего репринт**" [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]. The open question below is therefore closed and moved to `## History`; the residual — re-checking why reissue was chosen in the first place — is a new small commitment.
+
+**A related protection was settled in the same exchange.** Chudinov's photographed-barcode scenario ("ты можешь выводить деньги, а твой там подельник будет в это время будет пытаться отсканировать и деньги на машину закинуть") produced the redemption freeze rule: the wallet is re-queried and the amount frozen at the moment the cashier enters it and presses continue. See [[wiki/decisions/2026-09-15-the-flex-iq-cashier-flow-login-redemption-receipts-and-records.md]].
+
 ## Priority, if not everything lands
 
 Klimovich accepted that the whole transaction-search block may not be finished for MVP 1 — "[д]опускаю, что не всё из этого может быть успето… это ничего страшного, но есть там приоритизация" — and gave the order: **first** showing the created transaction so a carrier can be produced, **then** the history of issued cards, which feeds the audit report [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]].
@@ -78,11 +88,14 @@ Pavel asked whether this was about the street machine's TITO variant; **Val said
 
 ## Open commitments
 
-- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — re-read the reissue capability and settle whether MVP 1 reissues the wallet or simply reprints the carrier — due unspecified, parked on the call — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — re-check why reissue was originally chosen, now that the design has been switched to reprint — due unspecified; "я ещё раз посмотрю, почему я так хотел" — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+
+## History
+
+- [x] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — re-read the reissue capability and settle whether MVP 1 reissues the wallet or simply reprints the carrier — **discharged Sept 15 2026**: he re-argued for reissue, lost the argument to Chudinov's audit-trail objection, and had already changed the design to reprint — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- ~~**Reissue or reprint?**~~ — **resolved Sept 15 2026 as reprint.** See the dated update above.
 
 ## Open questions
-
-- **Reissue or reprint?** Parked with three people arguing against reissue and its author unable to recall why he chose it — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - **Can collect money stay on the machine** instead of moving to the port the instant collect is confirmed? Pavel tried and failed; with [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - **A ticket whose barcode started printing before a deliberate power cut is redeemable, and the money is already off the machine — what stops that?** Raised by Pavel on the Sept-14 12:04 PM call and left with no answer; the printer cannot reprint an incomplete ticket — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - **What the cashier actually does with money sitting in "unclaimed"** — reprint a ticket, or something else. Pavel named it as the open part: "вопрос, что с ними дальше делать… кассир должен что[-]то выбрать" — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
@@ -96,3 +109,4 @@ Pavel asked whether this was about the street machine's TITO variant; **Val said
 - [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]

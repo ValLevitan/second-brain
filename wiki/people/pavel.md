@@ -4,8 +4,8 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 146
-open-commitments: 52
+source-count: 148
+open-commitments: 57
 open-questions: 0
 ---
 
@@ -575,6 +575,28 @@ At the [[wiki/meetings/2026-09-14-hardware-priorities-tito-case-and-street-cabin
 - [ ] Pavel Frolov — rework the SDK for the RK3576 board and build the integration repository — due unspecified — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [ ] Pavel Frolov — deliver firmware update in MVP 1 to a production standard, with pings, verification and a timer — due with MVP 1 — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 
+## Sept 15 2026 (8:03 AM) — he refuses Val's position on a state-issued block, and supplies three design corrections
+
+At the [[wiki/meetings/2026-09-15-transactional-mvp1-balance-naming-and-ui-flow-walkthrough.md|Sept-15 8:03 AM call]] (Russian) he was the most-corrected-into-the-design voice of the meeting [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]].
+
+**He overruled Val on the Georgia Lottery block.** Told it was not JVL's problem, he said so three times — "не не, не, это неправильно. Это это неправильно, вау[,] совсем неправильно" — and stated the rule that was adopted: "**мы должны синхронизировать с машиной максимально[;] если машина заблокирована, мы должны здесь тоже сказать… если дверь открыта, мы должны сказать[ —] дверь открыта. Мы не можем принимать сейчас деньги**". The behaviour already works in the build he handed Klimovich the previous day; it is untested with two SAS ports connected. See [[wiki/decisions/2026-09-15-the-flex-port-idle-screen-never-sleeps-and-the-port-mirrors-the-machine.md]].
+
+**Three design corrections, all accepted.** He gave the balance display its final form — total in large type, the two components small beneath ("и у игрока не будет вопроса, на какие деньги играть?"); he required the mock-ups be redrawn at the Flex-Port's real screen resolution, because a finger-sized button makes the Spanish toggle "четверть экрана"; and he argued the top-up receipt should be optional rather than automatic, on paper volume — "иначе ты представь[,] сколько мы тикетов будем печатать? Просто вот пришёл человек[,] $5" [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]].
+
+**He disagreed with Klimovich on where money actually enters.** Klimovich expects the bill validator to dominate; Pavel: "**так это 100% случаев**" for the cashier route, and pinned the vocabulary — "билл валидатор это флекс[пей,] кассир это флекс айкью" [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]].
+
+**He asked for Biratka's field experience rather than guessing:** "Саша[,] надо будет твой экспириенс, чтобы придумать тест кейсы для этого… мы даже по имплементации не можем это всё предвидеть без вот твоих знаний". And on Wi-Fi resilience he supplied the fact that a machine already has two channels — Flex-Port and modem — so the server can still be told something when Wi-Fi fails [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]].
+
+He is one of the five owners of the non-functional requirements due Monday Sept 21 ([[wiki/decisions/2026-09-15-the-week-goes-to-non-functional-requirements-and-monday-september-21-is-the-deadline.md]]).
+
+## Open commitments (Sept 15 2026)
+
+- [ ] Pavel Frolov — test that a block arriving over one SAS port is seen by the Flex-Port when two ports are connected — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- [ ] Pavel Frolov — remind [[wiki/people/genadi-peari.md|Genadi Peari]] that the magnetic stripe reader stays in Flex IQ — due at his next conversation with Genadi — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- [ ] Pavel Frolov — book a meeting with [[wiki/organizations/gli.md|GLI]] on unclaimed money if [[wiki/people/juan-martinez.md|Juan Martinez]] cannot cover it — due after Klimovich's call with Juan — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- [ ] Pavel Frolov (with [[wiki/people/andrey-bosik.md|Andrey Bosik]]) — work out whether the per-device LTE modems can back each other up when Wi-Fi drops — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- [ ] Pavel Frolov (with [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]], [[wiki/people/andrey-bosik.md|Andrey Bosik]], [[wiki/people/irina-shishko.md|Irina Shishko]] and [[wiki/people/alexander-biratka.md|Alexander Biratka]]) — write the non-functional requirements for FlexPay, Flex-Port and Flex IQ — due Monday Sept 21 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
@@ -726,3 +748,5 @@ At the [[wiki/meetings/2026-09-14-hardware-priorities-tito-case-and-street-cabin
 - [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]]
 - [[raw/Meeting_Notes_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]

@@ -2,8 +2,8 @@
 type: decision
 title: Error recovery, handshaking, heartbeat and error detection are MVP and come ahead of extra functionality — the non-functional requirements go into the capabilities with single-line acceptance criteria so the tests can be automated
 date: 2026-09-07
-aliases: [non-functional requirements first, error recovery before features, MVP requirement handshaking, heartbeat, self-diagnostics, drop-off and reconnect, single-line acceptance criteria, ask Claude to find the existing requirements, positive path first then failure cases, error table]
-source-count: 4
+aliases: [non-functional requirements first, if it is not written it does not exist, error recovery before features, MVP requirement handshaking, heartbeat, self-diagnostics, drop-off and reconnect, single-line acceptance criteria, ask Claude to find the existing requirements, positive path first then failure cases, error table]
+source-count: 5
 status: active
 open-commitments: 2
 open-questions: 1
@@ -35,6 +35,12 @@ The most useful exchange of the 10:02 call. Alekseev: "насколько я п�
 - [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] added a failure nobody had listed: "состояние экрана ещё — может тачскрин отключиться, например, перестать действовать." Alekseev asked whether it can even be detected; Val's answer was that it is a passive device ("это пассивный де[вайс]") [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]].
 - **There is an existing error table to work from.** Alekseev: "сейчас мы имеем там набор ошибок… таблица ошибок, которая выдаёт этот флэкспорт. И насколько я понимаю, сегодня их часть точно обрабатывается… но вполне могут новые появиться. И вот… может[,] кл[а]уд нам даст там ещё какие-то варианты" [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]].
 
+## Update, Sept 15 2026 — still not written, so Val put owners and a date on it
+
+Eight days later the requirements still did not exist on paper. At the [[wiki/meetings/2026-09-15-transactional-mvp1-balance-naming-and-ui-flow-walkthrough.md|Sept-15 8:03 AM call]] Val re-listed his worries (timers, handshaking, encryption, hung states, pings between devices, the incoming Wi-Fi, unit identification numbers); Chudinov answered that Grafana exists and alerting "**требования не прописанные**" — the requirements are not written; and Val cut him off with "**Это, если это не написано, этого нету**" [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]].
+
+The priority stated here became a schedule: tomorrow's daily call and Wednesday–Friday are given over to the non-functional requirements, five named engineers own them, and **Monday September 21** is the assembly gate at which every capability must arrive with its functional *and* non-functional requirements attached. See [[wiki/decisions/2026-09-15-the-week-goes-to-non-functional-requirements-and-monday-september-21-is-the-deadline.md]]. The open question below — how complete Flex-Port error handling really is — was not touched and stays open.
+
 ## Open commitments
 
 - [ ] [[wiki/people/andrey-bosik.md|Andrei Bosik]] — ask Claude to find the existing non-functional requirements in the WebSocket protocol (handshake, heartbeat, reconnect, self-diagnostics) and attach them to the Wi-Fi capabilities, each with a single-line acceptance criterion — due unspecified, high priority; without them there can be no automated tests — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]] [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
@@ -51,3 +57,4 @@ The most useful exchange of the 10:02 call. Alekseev: "насколько я п�
 - [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
 - [[raw/Meeting_Notes_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]

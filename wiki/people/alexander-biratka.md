@@ -4,8 +4,8 @@ title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka, Alex Baratka, Alex Beratka, Alexander Berankov, Biratko, Alexander Biratko]
 disambiguation: "Alexander cluster (provisional — owner ruling pending): distinct JVL people sharing the given name Alexander. [[wiki/people/alexander-biratka.md|Alexander Biratka]] = Omni/Pixi framework & build engineer (aka Sasha; garbles Beratko/Baratka); [[wiki/people/alexander-korochkin.md|Alexander Korochkin]] = LGS QA-automation engineer (GitHub Alexander_K@JVL, read-only; aka Alexander K); [[wiki/people/alexander-tumanov.md|Alexander Tumanov]] = Minsk QA / data-center knowledge-capture hire (surname unverified). Resolve by context: Omni framework / Pixi / build → Biratka; LGS QA automation / read-only build consumer → Korochkin; manual-tester onboarding / data-center interviews → Tumanov. A further name 'Alexander Derok' (back-end build-integration / Java, per Val on Feb-6-2026) is unconfirmed — queued, not a page. Not [[wiki/people/alexei-khamin.md|Alexei Khamin]] (different name). Queue anything fitting none; never force-match."
-source-count: 54
-open-commitments: 5
+source-count: 56
+open-commitments: 8
 open-questions: 0
 ---
 
@@ -202,6 +202,24 @@ Three days after his absence he was present and active on the [[wiki/meetings/20
 
 - [ ] Alexander Biratka — send Klimovich the SAS specification (public; the version Val ruled on is 6.02) — due unspecified; Val offered to obtain it himself if nobody sends it — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 
+## Sept 15 2026 (8:03 AM) — he opens the meeting's central question from his own mistake, and brings the SAS wording that settles it
+
+At the [[wiki/meetings/2026-09-15-transactional-mvp1-balance-naming-and-ui-flow-walkthrough.md|Sept-15 8:03 AM call]] (Russian) he raised the balance-naming problem that became the meeting's title, and grounded it in something that had confused him personally while building FlexPay: "**вроде бы есть какойто плейбол и редибл и мне так хочется их сложить, но по факту нельзя их слаживать**" [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]].
+
+**He refused the split and supplied the word.** When Klimovich proposed separate internal and player vocabularies, Biratka refused alongside Val — "я тоже не согласен, надо чтоб одинаково было" — and it was his insistence on "**playable only**" rather than "playable" that made the arithmetic work, with the authority that the SAS specification already uses that term. He pressed for it in the internal database field too, and Val widened it to everyone. See [[wiki/decisions/2026-09-15-balance-is-total-playable-only-and-redeemable-everywhere.md]].
+
+**He designed the unclaimed-money mechanism** as the smallest possible change: create an empty wallet, transfer the money, mark it unclaimed, and simply do not print a carrier — "по факту то же самое, только без печати тикета". Chudinov dissented in favour of a separate entity, and Val stopped the debate and routed it to Juan and GLI. See [[wiki/decisions/2026-09-15-a-timeout-sends-the-money-to-unclaimed-and-the-player-never-loses-it.md]].
+
+**He kept asking what happens when it breaks.** He asked what happens when the timeout expires, which is what produced the ruling above; he asked whether the two-SAS-port block case had been tested, which it had not; and he asked for a Flex IQ screen showing tilts and how to resolve them, which does not exist — "я вот не увидел экрана, наверное, его стоит добавить". Val agreed [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]].
+
+**Two smaller ones:** he suggested showing both languages at once, and was overruled on friction grounds; and he confirmed the magnetic stripe reader does not write, so cards must arrive pre-encoded. He is one of the five named owners of the non-functional requirements ([[wiki/decisions/2026-09-15-the-week-goes-to-non-functional-requirements-and-monday-september-21-is-the-deadline.md]]).
+
+## Open commitments (Sept 15 2026)
+
+- [ ] Alexander Biratka — help [[wiki/people/pavel.md|Pavel Frolov]] build the test cases for machine tilt and block handling over SAS, using his field experience — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- [ ] Alexander Biratka — add the missing Flex IQ screen showing tilts and how to resolve them — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- [ ] Alexander Biratka (with [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]], [[wiki/people/andrey-bosik.md|Andrey Bosik]], [[wiki/people/irina-shishko.md|Irina Shishko]] and [[wiki/people/pavel.md|Pavel Frolov]]) — write the non-functional requirements for FlexPay, Flex-Port and Flex IQ — due Monday Sept 21 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
@@ -259,3 +277,5 @@ Three days after his absence he was present and active on the [[wiki/meetings/20
 - [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]

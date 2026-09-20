@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий]
-source-count: 84
+source-count: 85
 open-commitments: 20
 ---
 
@@ -361,6 +361,12 @@ At the [[wiki/meetings/2026-09-14-hardware-priorities-tito-case-and-street-cabin
 - [ ] Genadi Peari — resolve the enclosure unknowns, then hand the plastic box design to "Sasha" (§4 unresolved) — due unspecified — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [ ] Genadi Peari — finish IQ, Slim, IQ again and the printer this week, then start the street cabinet — due Sept 23 2026 — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 
+## Sept 15 2026 (in absentia) — the magnetic stripe reader is confirmed to stay in Flex IQ
+
+At the [[wiki/meetings/2026-09-15-transactional-mvp1-balance-naming-and-ui-flow-walkthrough.md|Sept-15 8:03 AM call]] [[wiki/people/pavel.md|Pavel Frolov]] raised an alarm that Genadi was about to drop the magnetic stripe reader from the Flex IQ design — "нам сейчас надо главное остановить Геннадия, а то он сейчас магни[т]ик страйп ридер выбросит из флекс[ ай]к[ью]". Val had already spoken to him and said he is not dropping it: "**я разговаривал с ним, он это не выбрасывает[;] всё, что мы уничтожаем в этом дизайне[ — ]это 2 экран… мы просто крышку делаем сверху**" — the only thing removed is the second, player-facing screen, and it is covered rather than taken out. Val asked Pavel to remind him anyway, as a precaution, in case other conversations had gone differently [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]].
+
+The reader matters because Val wants the cashier login method to become selectable between a PIN and a magnetic stripe card — see [[wiki/decisions/2026-09-15-the-flex-iq-cashier-flow-login-redemption-receipts-and-records.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
@@ -447,3 +453,4 @@ At the [[wiki/meetings/2026-09-14-hardware-priorities-tito-case-and-street-cabin
 - [[raw/Meeting_Notes_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]

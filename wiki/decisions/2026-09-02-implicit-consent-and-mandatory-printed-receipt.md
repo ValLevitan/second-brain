@@ -2,8 +2,8 @@
 type: decision
 title: Activating the card is the player's consent — nothing is accepted on screen, a printed receipt becomes mandatory, and the second screen is retired
 date: 2026-09-02
-aliases: [implicit consent, no on-screen consent, mandatory ticket receipt, print the receipt, retire the second screen, player-facing screen dies, harness version 1, printer switcher]
-source-count: 2
+aliases: [implicit consent, receipt optional on top-up, second screen covered not removed, no on-screen consent, mandatory ticket receipt, print the receipt, retire the second screen, player-facing screen dies, harness version 1, printer switcher]
+source-count: 3
 status: active
 open-commitments: 3
 open-questions: 2
@@ -22,6 +22,12 @@ The second and third of the three pre-pilot changes from the [[wiki/meetings/202
 - **The user flow is stripped of every player action.** "У нас от пользователя ничего не требуется, никаких подтверждений, никаких интераций со 2 экраном." Andrei had named the existing screens and posted the naming to **Confluence** "чтобы мы оперировали одними и тем же названиями экранов," and written out the positive and negative flows "со всеми нюансами" [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]].
 - **Wording fixes go with it.** "частичные изменения по вордингам там были местами ошибки упоминания терминов, которые в go лучше не упоминать" — terms best not mentioned (the transcript renders the place as "go"; the derived note reads it as Georgia — recorded as transcribed, not asserted). Andrei called it "Косметическая работа… но её лучше доделать, чтобы смело заходить на локацию" — cosmetic, but worth finishing before walking into a location [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]] [[raw/Meeting_Notes_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]].
 - **The second (player-facing) screen should be retired.** Andrei: "2 экран вообще должен будет по идее умереть, он не нужен и Более того… в реальности конкретных локаций он мало [пригоден]. Это сложно, везде защитные экраны, бронированные стёкла" — behind protective screens and armoured glass it is barely usable. His regulatory point: "Нас вроде нет для этого никакого рекламента, то есть нам не нужно пользователю ничего. Карточка теперь может выпускаться без его консента." Val noted the capability still exists — "у нас есть возможность ремонт 2 экрана. Если мы хотим?" — and Andrei was not persuaded there is a reason to want it. On emailing the receipt instead, Andrei: "Один из миллиона захочет это сделать по сравнению с тем, чтобы получить распечатанный бумажный" [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]].
+
+## Update, Sept 15 2026 — mandatory on activation, optional on a top-up; and the second screen is covered, not removed
+
+At the [[wiki/meetings/2026-09-15-transactional-mvp1-balance-naming-and-ui-flow-walkthrough.md|Sept-15 8:03 AM call]] the mandatory receipt was confirmed for card activation and narrowed everywhere else. Klimovich: "я за то, чтобы там всегда печата[ть]… [ресит] без промежуточных экранов[,] без вопросов… **ресит это наша единственная точка, где игрок сразу может увидеть, сколько у него осталось на [e-]волит[е]**". For a counter top-up or a wallet created at the counter, Pavel's paper-volume objection carried — Chudinov: "на каждые 5 баксов будем печатать ресит" — and Klimovich accepted a confirmation screen instead. Detail on [[wiki/decisions/2026-09-15-the-flex-iq-cashier-flow-login-redemption-receipts-and-records.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]].
+
+The second-screen retirement recorded above is confirmed by Val as a **cover, not a removal**: "всё, что мы уничтожаем в этом дизайне[ — ]это 2 экран… мы просто крышку делаем сверху", and in the same breath he confirmed the magnetic stripe reader stays in the Flex IQ hardware [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]].
 
 ## Engineering state and constraints
 
@@ -45,3 +51,4 @@ The second and third of the three pre-pilot changes from the [[wiki/meetings/202
 ## Sources
 - [[raw/Meeting_Notes_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]

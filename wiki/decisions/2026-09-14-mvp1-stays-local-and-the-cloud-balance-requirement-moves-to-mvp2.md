@@ -2,11 +2,11 @@
 type: decision
 title: MVP 1 keeps wallet balances on the terminal — requirement 1538 comes off capability 158 and moves to a new MVP 2 cloud capability, and the MVP 1 dashboard shows activated cards only
 date: 2026-09-14
-aliases: [requirement 1538, capability 158, cloud balance moves to MVP2, local terminal storage, dashboard shows activated cards only, eWallet movement reporting deferred, Claude closing a capability wrong, рекламент 1538]
-source-count: 2
+aliases: [requirement 1538, MVP1 cloud scope is two things, device online status, issued cards dashboard, operations dashboard specification, machine statistics premium tier, capability 158, cloud balance moves to MVP2, local terminal storage, dashboard shows activated cards only, eWallet movement reporting deferred, Claude closing a capability wrong, рекламент 1538]
+source-count: 4
 status: active
-open-commitments: 1
-open-questions: 0
+open-commitments: 3
+open-questions: 2
 ---
 
 # MVP 1 stays local; the cloud-balance requirement moves to MVP 2
@@ -44,12 +44,35 @@ Klimovich noted in passing that the card-only dashboard is inherited from MudaGo
 
 **A separate dashboard need surfaced in the same session and is NOT deferred:** Chudinov argued the cashier needs a view of "тикетов, которые были созданы, но не напечатаны" — wallets created but not printed — and Klimovich said that exact block had been added the day before. That belongs to [[wiki/decisions/2026-09-14-the-ewallet-is-created-before-its-ticket-prints.md]], not to the deferred cloud reporting [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]].
 
+## Update, Sept 15 2026 — the cloud scope is pinned to exactly two things, and 1538 has still not moved
+
+At the [[wiki/meetings/2026-09-15-transactional-mvp1-balance-naming-and-ui-flow-walkthrough.md|Sept-15 8:03 AM call]] Klimovich began to describe an MVP 1 cloud dashboard in aspirational terms — "чтото вообще такое красивое чистенькое с лакейш[н,] трекинг[,] юниты[,] транз[э]кшнс[,] инвойсы… перформанс" — and Chudinov cut the scope down to a list of two [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]:
+
+> **не фантазируй[,] давай на MVP один… на веб сервис[ах] то, что вот мы в [клауде] отображаем[ — ]это репорт по карточкам. То есть мы можем показать[,] девайсы оператора подключены[,] онлайн… работает[,] не работает. И даш[б]орт по выпущенным карточкам… Все остальное обсуждаем[ое] и на MVP 2[ или ]3.**
+
+So MVP 1 in the cloud is **device/operator online status** plus the **issued-cards dashboard** — the second of which is exactly the "activated cards only" line already ruled above. Klimovich accepted: "хорошо, я понял." Asked about invoices, Chudinov kept billing where it is: "всё, что с биллингом[,] остаётся, оно будет работать[,] как работа[ет] сейчас", and Pavel confirmed "инвойсы это остаются" [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]].
+
+**Requirement 1538 has still not been moved.** Klimovich, the next morning: "рек[вайрмент] 15[ ]38[ — ]то, что вчера проговорили[ — ]ещё не вынес[,] вынесу. Сегодня оно должно будет уйти в новый к[а]п[абилити] для 2 MVP и тогда уберу оттуда." [[wiki/people/val-levitan.md|Val]] asked [[wiki/people/andrey-bosik.md|Bosik]] to prepare the ground so the status change can be made the moment Klimovich finishes. The commitment below stands with a restated due date [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]].
+
+**Val refused an abstract MVP 1 promise.** Klimovich said some part of the dashboard would definitely appear in MVP 1; Val: "**но вы не можете абстрактно говорить, что чтото будет в [MVP] один без точного указания, что будет**… то есть вы говорите, что будет [operations dashboard], но вы ещё не обусловили, какие репорты в нём будут… в стадии [MVP] один". Klimovich accepted and gave a sequence: close everything needed for the IQ device and the ports that day, including the whole transaction set, "после этого я переключаюсь на… о[пера]ционный дэшборд MVP один версию… конкретно, какие параметры, какие репортинги" — delivered "буквально в ближайши[е] пару дней" [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]].
+
+**And the deferred half got a commercial shape.** Chudinov raised that JVL can now collect statistics from the machines over SAS and could give the operator machine-level statistics. Val: "**абсолютно абсолютно… это это наш гвоздь программы**" — our showpiece. Klimovich: "это огромн[ый], один из самых сладких и важных кусочков, которые мы будем добавлять поэтапно", to be sold in blocks from the web service — "хотите расширенный пакет? пожалуйста, вот столько стоит[;] там ужатый пакет[ —] столько стоит" — while the location itself sees only "очень сжатая информация только для этого лакейш[на,] [в] самом минимальном формате" (Val). None of that is MVP 1 [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]].
+
 ## Open commitments
 
-- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — create the MVP 2 cloud capability and move requirement 1538 onto it, off capability 158 — due unspecified; he named it among the things he would work on that day and the next — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — create the MVP 2 cloud capability and move requirement 1538 onto it, off capability 158 — restated Sept 15 2026 as due **that day**; still not done as of the Sept-15 call — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — produce the MVP 1 operations-dashboard specification naming which reports it actually contains — due within a couple of days of Sept 15 2026, after closing the IQ and port capabilities — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — prepare the ground so requirement 1538's status can be changed as soon as Klimovich moves it — due Sept 15 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 
-**§15.8:** clear — scope and tooling only.
+## Open questions
+
+- **Whether machine statistics collected over SAS become a paid premium tier on the web service, and in which MVP each block lands.** Val calls it the showpiece and Klimovich describes a tiered package model, but no tier, price or release was fixed — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- **What the location gets versus what the operator gets** in report form. Klimovich named it as needing thought, with [[wiki/people/juan-martinez.md|Juan Martinez]] and the locations as the sources — "с вами[,] и[з] хуаном[,] и собрать побольше информации от лак[ей]шн[о]в… какой тип информации нужен" — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+
+**§15.8:** clear — scope, tooling and product-tier economics only; no named person's compensation appears.
 
 ## Sources
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
