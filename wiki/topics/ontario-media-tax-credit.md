@@ -3,8 +3,9 @@ type: topic
 title: Ontario Media Tax Credit — JVL's game-production claim
 date: 2025-07-28
 aliases: [Media Tax Credit, Ontario Creates tax credit, OID media tax credit, game-production tax credit, interactivity claim]
-source-count: 3
-open-questions: 2
+source-count: 6
+open-commitments: 1
+open-questions: 3
 ---
 
 # Ontario Media Tax Credit — JVL's game-production claim
@@ -68,13 +69,41 @@ Nine months later the credit resurfaces as a **data-extraction / supporting-docu
 - **The JVL Labs gap (Igor's flag).** The biggest issue is with **JVL Labs (the Canadian entity)**: for the 2023–2024 period, Labs does **not** have these expense types recorded in the GL, yet the claim requires them. [[raw/Meeting_Notes_Media_Tax_Credit_GL_Requirement-April-8-2026.md]] [[raw/Meeting_Transcript_Media_Tax_Credit_GL_Requirement-April-8-2026.md]]
 - **§15.8:** clear — tax-credit / GL / corporate expense-category economics only; no named-person compensation. [[raw/Meeting_Notes_Media_Tax_Credit_GL_Requirement-April-8-2026.md]]
 
+## Jul 1 2026 — the reviewer's 2022 questions, and Inna's claim-timing rule
+
+Two short July-1 recordings: a working session where [[wiki/people/val-levitan.md|Val]] and [[wiki/people/inna-levitan.md|Inna Levitan]] answered a reviewer's questions ([[wiki/meetings/2026-07-01-jv-documentation-review-2022-invoice-gap.md]]), and a one-minute note from Inna on claim timing ([[wiki/meetings/2026-07-01-tax-credit-claim-timing-strategy.md]]). [[raw/Meeting_Transcript_JV_Documentation_Review_2022_Invoice_Gap-July-1-2026.md]] [[raw/Meeting_Transcript_RD_Credit_Claim_Timing_Strategy-July-1-2026.md]]
+
+*Which credit (inference).* Neither source names the program. The derived notes call the second one an "R&D credit". The wiki files both here because Inna's rule — claim only when a product earns revenue, and claim labour — matches this credit's "claims go by deployment" rule, and the July-2025 examiner review above was also on the **2022** claim year [[raw/media_tax_credit_team_coaching-july-28-2025.md]]. This is an inference, not a sourced fact. [[raw/Meeting_Transcript_RD_Credit_Claim_Timing_Strategy-July-1-2026.md]] [[raw/Meeting_Notes_RD_Credit_Claim_Timing_Strategy-July-1-2026.md]] [[raw/Meeting_Transcript_JV_Documentation_Review_2022_Invoice_Gap-July-1-2026.md]]
+
+**The 2022 filing — agreement yes, invoices missing.** [[raw/Meeting_Transcript_JV_Documentation_Review_2022_Invoice_Gap-July-1-2026.md]]
+- The reviewer ("she"; Val: "He or she, I have no idea") asked JVL to provide the **joint-venture agreement** again. Val: "we have it on file now". It is "an agreement submitted in the previous year", for the "Twenty two filing". [[raw/Meeting_Transcript_JV_Documentation_Review_2022_Invoice_Gap-July-1-2026.md]]
+- Val called it "the particular collaboration agreement between **JVL Systems and JVL Labs**". Its key term, in his words: "it's profit sharing. **Fifty percent** earns net profit from game." He wondered whether JVL should be "a little more vague than fifty percent profit"; Inna asked if he meant "for the future" — "Revise for the next file". Nothing was decided. [[raw/Meeting_Transcript_JV_Documentation_Review_2022_Invoice_Gap-July-1-2026.md]]
+- **Val's ruling: leave the agreement as it is** for this letter — "Oh no, so leave it the way it is… Leave it as is." [[raw/Meeting_Transcript_JV_Documentation_Review_2022_Invoice_Gap-July-1-2026.md]]
+- **The gap is the invoices.** Inna: the reviewer "has the joint venture agreement with the revenue participation. But now she wants the invoices or some sort of a documentation for all the revenue spread, which I knew this was coming." Val: "These documents are the eligibility items. So it's a two part. So the invoices we don't have yet. We will have it, I'll get it." He said he had already told Inna on a walk that this was needed and that he had to work on it. [[raw/Meeting_Transcript_JV_Documentation_Review_2022_Invoice_Gap-July-1-2026.md]]
+- Also in passing: "One thirty three products from G B S" confirmed as correct ("G B S" unclear). [[raw/Meeting_Transcript_JV_Documentation_Review_2022_Invoice_Gap-July-1-2026.md]]
+
+**Inna's claim-timing rule — revenue, not completion.** [[raw/Meeting_Transcript_RD_Credit_Claim_Timing_Strategy-July-1-2026.md]]
+- "The application works is only when a product is generating revenue, that's when you can claim it. So it's not so much about the completion; it's only about the revenue stream." [[raw/Meeting_Transcript_RD_Credit_Claim_Timing_Strategy-July-1-2026.md]]
+- **Why she avoids showing certification dates.** Sending "this um G O I" letter with a "February approval date or January approval date" could hurt JVL, "because I am claiming um employee labor for the entire twenty twenty four years". A product "completed and certified in January means that the engineers were not doing it." ("G O I" is kept as spoken; it likely means the [[wiki/organizations/gli.md|GLI]] test lab — inference.) [[raw/Meeting_Transcript_RD_Credit_Claim_Timing_Strategy-July-1-2026.md]]
+- **Her long-standing answer.** "It was certified on that date, but there were bugs. And we kept on reviewing the bugs and fixing them, and then we finally released it." She said "we could probably get the latest version of approval". [[raw/Meeting_Transcript_RD_Credit_Claim_Timing_Strategy-July-1-2026.md]]
+- **Rollout window.** "We like to roll out prior to the holidays, **November fifteenth to December thirty first**." The recording ends at "This way gives me an opportunity" — the reason is not stated. [[raw/Meeting_Transcript_RD_Credit_Claim_Timing_Strategy-July-1-2026.md]]
+- §15.8: "employee labor" here is the claim category; no named person's pay is in either source. [[raw/Meeting_Transcript_RD_Credit_Claim_Timing_Strategy-July-1-2026.md]]
+
+## Open commitments
+
+- [ ] Val — get the invoices / documentation for the revenue spread under the Systems–Labs joint venture, for the 2022 filing — due unspecified — [[raw/Meeting_Transcript_JV_Documentation_Review_2022_Invoice_Gap-July-1-2026.md]]
+
 ## Open questions
 
 - Does the never-deployed online interactive bonus expose JVL on **prior** Media Tax Credit claims that listed online games as interactive, or only on the current application? (Raised implicitly by Val's "black mark" reaction; unresolved in the source.) — [[raw/media_tax_credit_team_coaching-july-28-2025.md]]
 - Why does **JVL Labs** have no recorded expenses of the required types for the 2023–2024 period — a booking issue (expenses recorded under JVL Systems instead of Labs), a data-migration gap, or were those expenses genuinely not incurred by the Canadian entity? — [[raw/Meeting_Notes_Media_Tax_Credit_GL_Requirement-April-8-2026.md]]
+- Which program is the July-1 2026 reviewer file (2022 filing) and Inna's revenue-not-completion note about — this media credit, as inferred here, or another claim? Neither source names it. — [[raw/Meeting_Transcript_RD_Credit_Claim_Timing_Strategy-July-1-2026.md]]
 
 ## Sources
 
 - [[raw/media_tax_credit_team_coaching-july-28-2025.md]]
 - [[raw/Meeting_Transcript_Media_Tax_Credit_GL_Requirement-April-8-2026.md]]
 - [[raw/Meeting_Notes_Media_Tax_Credit_GL_Requirement-April-8-2026.md]]
+- [[raw/Meeting_Transcript_JV_Documentation_Review_2022_Invoice_Gap-July-1-2026.md]]
+- [[raw/Meeting_Transcript_RD_Credit_Claim_Timing_Strategy-July-1-2026.md]]
+- [[raw/Meeting_Notes_RD_Credit_Claim_Timing_Strategy-July-1-2026.md]]

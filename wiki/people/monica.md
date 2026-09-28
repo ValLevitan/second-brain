@@ -3,7 +3,7 @@ type: person
 title: Monica
 date: 2026-07-12
 aliases: [Monica, Monika, Monica Levitan-Fenwick, Monica Levitan]
-source-count: 10
+source-count: 12
 ---
 
 # Monica
@@ -46,8 +46,17 @@ On the [[wiki/meetings/2025-11-05-jvl-dwolla-onboarding-kickoff.md|Nov-5 Dwolla 
 
 On the [[wiki/meetings/2026-02-09-cibc-us-account-opening-and-financing-pipeline.md|Feb-9 CIBC call]] Michael Hill of [[wiki/organizations/cibc.md|CIBC]] told Monica "you're going to be the primary administrator" of the new US account that receives JVL's ACH money. She co-signs the signature card, receives the set-up forms by DocuSign, attends CIBC's training, and adds other users (such as the accountant) herself. She described JVL's current payment control: "our accountant set up the payments, then I usually approve the payments." Val said the account work "is up to Monica." (The transcript labels her "Speaker 2"; the bank addresses her by name.) [[raw/Meeting_Transcript_CIBC_Sanjay_US_Account_Opening_and_Financing_Pipeline-February-9-2026.md]]
 
+## June 8 2026 — a signer on the Bank of America accounts
+
+At the Bank of America meeting ([[wiki/meetings/2026-06-08-bank-of-america-banking-review-and-georgia-financing.md]]) the banker left signature cards for all three accounts for Monica to sign ("What is your daughter's name? Monica"), so every signer could be added at once. [[wiki/organizations/bank-of-america.md]] [[raw/Meeting_Transcript_BofA_Lenin_Hernandez_Banking_Review_and_Georgia_Financing-June-8-2026.md]] *(A different Monica — a Merrill Lynch financial adviser — was also named in that meeting; she is not this person.)*
+
+## July 2 2026 — holder of CIBC's Business Central directions
+
+On the [[wiki/meetings/2026-07-02-cibc-business-central-integration.md|July-2 CIBC call]] (Monica not on the call) Michael Hill of [[wiki/organizations/cibc.md|CIBC]] said he had worked with Monica on turning on the link between CIBC's online banking and Business Central, and "sent Monica directions and everything". He did not know whether she had finished; "she may have already initiated this." Val's next step was to check with Monica and work with her and his tech person to enable the setting. [[raw/Meeting_Transcript_CIBC_ACH_Account_Architecture-July-2-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_CIBC_ACH_Account_Architecture-July-2-2026.md]]
 - [[raw/JVL_Dwolla-november-5-2025.md]]
 - [[raw/Meeting_Transcript_CIBC_Sanjay_US_Account_Opening_and_Financing_Pipeline-February-9-2026.md]]
 - [[raw/jvl_online_sync_2025-03-29 1.md]]
@@ -58,3 +67,4 @@ On the [[wiki/meetings/2026-02-09-cibc-us-account-opening-and-financing-pipeline
 - [[raw/flex_pay_scope_gap-mach-27-2025.md]]
 - [[raw/estrella_law_carlos_infante_puerto_rico-april-10-2025.md]]
 - [[raw/andrei _klimovich_update-apr-15-2025.md]]
+- [[raw/Meeting_Transcript_BofA_Lenin_Hernandez_Banking_Review_and_Georgia_Financing-June-8-2026.md]]

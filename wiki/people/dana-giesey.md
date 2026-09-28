@@ -3,10 +3,10 @@ type: person
 title: Dana Giesey
 date: 2026-06-18
 aliases: [Dana, Dana Giesey, MG Oil GM, MG Oil general manager]
-source-count: 4
+source-count: 6
 open-commitments: 2
 open-questions: 0
-disambiguation: "MG Oil's headquarters manager in Rapid City, South Dakota — JVL's day-to-day contact at its only South Dakota customer. Not to be confused with the operator called 'Dana' in the Jun-22 2026 NTN notes, whose identity is not established (see Open questions)."
+disambiguation: "MG Oil's headquarters manager in Rapid City, South Dakota — JVL's day-to-day contact at its only South Dakota customer. The 'Dana' relayed on the Jun-22 2026 TNT Enterprises call (MG Oil's Nebraska arm) is taken to be him by context (inference); an earlier notes file wrongly made that Dana one of the operators."
 ---
 
 # Dana Giesey
@@ -49,9 +49,12 @@ This is the most useful thing in the source: Val offered to strip a feature out,
 
 *(A third commitment — passing Val the contact details for Robert "Whitey" Tolliver and Mike Kotab and opening the introduction — the derived notes record as **already done on June 18**, pointing at a separate vault record not held in this corpus. It is therefore not carried as open here. [[raw/Meeting_Notes_MG_Oil_Dana_Giesey_South_Dakota_Visit-June-18-2026.md]])*
 
-## Open questions
+## June 22 2026 — relayed on the TNT call
 
-- Whether the operator referred to as "**Dana**" in the [[wiki/meetings/2026-06-22-ntn-operator-introduction.md|Jun-22 2026 NTN introductory call]] — who asked Val about an incoming South Dakota software update — is this Dana. The Jun-22 operators are anonymized in that source and the name is the only link, so **no identification is made**. [[raw/Meeting_Notes_NTN_Operator_Introduction-June-22-2026.md]]
+On the [[wiki/meetings/2026-06-22-ntn-operator-introduction.md|Jun-22 TNT Enterprises call]] a TNT speaker told Val: "**Dana said there is an update coming up for the South Dakota stuff**." Val gave the timing (mid-to-late August, with Keno games). [[raw/Meeting_Transcript_TNT_Enterprises_Nebraska_Intro_and_Product_Ideas-June-22-2026.md]]
+
+- **Who this Dana is.** The transcript gives only the first name. TNT is MG Oil's Nebraska arm, and Dana Giesey is JVL's contact at MG Oil, so the context fits him (inference, not asserted as fact). The TNT notes also list him as a calendar invitee to this call; that is the notes' claim only. [[raw/Meeting_Notes_TNT_Enterprises_Nebraska_Intro_and_Product_Ideas-June-22-2026.md]]
+- **Correction.** The earlier NTN notes made "Dana" one of the two operators who spoke. In the transcript Dana does not speak; a TNT speaker reports what Dana said. The open question this page carried ("is the Jun-22 'Dana' this Dana?") is answered as above, by context. [[raw/Meeting_Notes_NTN_Operator_Introduction-June-22-2026.md]] [[raw/Meeting_Transcript_TNT_Enterprises_Nebraska_Intro_and_Product_Ideas-June-22-2026.md]]
 
 ## Sources
 
@@ -59,3 +62,5 @@ This is the most useful thing in the source: Val offered to strip a feature out,
 - [[raw/Meeting_Notes_MG_Oil_Dana_Giesey_South_Dakota_Visit-June-18-2026.md]]
 - [[raw/Meeting_Transcript_MG_Oil_Dana_Giesey_South_Dakota_Visit-June-18-2026.md]]
 - [[raw/Meeting_Notes_NTN_Operator_Introduction-June-22-2026.md]]
+- [[raw/Meeting_Transcript_TNT_Enterprises_Nebraska_Intro_and_Product_Ideas-June-22-2026.md]]
+- [[raw/Meeting_Notes_TNT_Enterprises_Nebraska_Intro_and_Product_Ideas-June-22-2026.md]]

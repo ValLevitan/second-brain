@@ -3,7 +3,7 @@ type: person
 title: Ashley (JVL US tax firm contact)
 date: 2025-05-27
 aliases: [Ashley]
-source-count: 1
+source-count: 2
 disambiguation: "External contact at JVL's US accounting firm (with Mark); the day-to-day coordinator on JVL's US returns. Surname not stated. Not a JVL employee."
 ---
 
@@ -13,6 +13,11 @@ The day-to-day contact at JVL's **US accounting firm** who set up and coordinate
 
 - Prepares/works JVL's US returns (helped set the timetable for the treaty-based JVL Labs federal return and the prior-year Georgia question). Works alongside **Mark** ([[wiki/people/mark-tax-advisor.md]]); to share the US-side 2023/2024 figures with Val ahead of the follow-up call with [[wiki/people/sean-riley.md|Sean Riley]]. [[raw/finance_tax_review_for_2023_2024-on_may-27-2025.md]]
 
+## June 30 2026 — filed GameWorks' 2025 US return
+
+On the [[wiki/meetings/2026-06-30-gilmore-gameworks-us-tax-and-labs-filing.md|Jun-30 2026 Gilmore call]], Nick said "Ashley at BSB" (read as BSP) had been dealing directly with Val to file the [[wiki/organizations/jvl-gameworks.md|GameWorks]] US returns, due June 15, and that he thought they had been signed and filed; later on the call he read the tax figure from the filed return. [[raw/Meeting_Transcript_Gilmore_GameWorks_US_Tax_and_Labs_Filing-June-30-2026.md]]
+
 ## Sources
 
 - [[raw/finance_tax_review_for_2023_2024-on_may-27-2025.md]]
+- [[raw/Meeting_Transcript_Gilmore_GameWorks_US_Tax_and_Labs_Filing-June-30-2026.md]]

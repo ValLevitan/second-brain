@@ -2,8 +2,8 @@
 type: person
 title: John Houseal
 date: 2025-07-01
-aliases: [John Houseal, John, "John from Income", "John from InComm", "John Hasil", Housel]
-source-count: 7
+aliases: [John Houseal, John, "John from Income", "John from InComm", "John Hasil", Housel, "John Hassel"]
+source-count: 8
 disambiguation: "InComm's product-development / route-gaming lead — the 'John' who leads the InComm↔JVL relationship (gift-card / COAM payment products). Distinct from Allen Lee (the InComm 'Alan', technical/API contact) and other InComm reps (Adam, Jared, Billy, Susanne). Resolve by context: InComm product strategy / market / roadmap → Houseal."
 ---
 
@@ -36,6 +36,11 @@ It sits in a longer complaint — "**Lately, very aggravated. It was… very dif
 
 *This is Val's characterisation, recorded as such — no InComm source in the corpus responds to it.*
 
+
+## May 18 2026 — the ATM-card pilot, as relayed second-hand
+
+He was not on the call. On the [[wiki/meetings/2026-05-18-ga-trip-recap-kiosk-intel.md|May-18 GA trip recap]] [[wiki/people/felipe-miranda.md|Felipe]] reported that at an industry meeting InComm "took over John Hassel" (transcribed; also "John Housel") and he described "an active pilot where a kiosk based cash redemption system allows players to redeem winning into a gift card", converted onward to a card usable at an ATM for "around six dollars and fifty cents". Felipe gave Housel's reason as players already taking the gift card to Kroger to buy a money order. Andrei and Felipe agreed it was still a trial with no deal signed; GAMOA's president said the association was not endorsing it. Detail on [[wiki/projects/georgia-market-rollout.md]] (May-18). [[raw/Meeting_Transcript_GA_Trip_Recap_Kiosk_Intel-May-18-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
@@ -45,3 +50,4 @@ It sits in a longer complaint — "**Lately, very aggravated. It was… very dif
 - [[raw/incomm_jvl_alignment-june-23-2025.md]]
 - [[raw/review_flex-POS_use_cases.md]]
 - [[raw/incomm_product_discussion-july-1-2025-1.md]]
+- [[raw/Meeting_Transcript_GA_Trip_Recap_Kiosk_Intel-May-18-2026.md]]

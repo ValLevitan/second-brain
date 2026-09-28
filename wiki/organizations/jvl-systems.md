@@ -3,7 +3,7 @@ type: organization
 title: JVL Systems, Inc.
 date: 2026-07-13
 aliases: [JVL Systems, JVL Systems Inc., JVL Systems Inc, JVL Systems, Inc.]
-source-count: 6
+source-count: 9
 open-commitments: 1
 open-questions: 3
 ---
@@ -55,6 +55,30 @@ JVL Systems' US commercial insurance is placed through broker **HUB Internationa
   - **Two small Florida storage sites** to be added, about **$5,000** of minor parts in total. Val: "purely storage", with no labour or added-value work there. [[raw/Meeting_Transcript_Mauricio_HUB_Insurance_Renewal_Reconciliation-May-1-2026.md]]
   - The renewal kit's location schedule (page 5 of 10) did not yet show Florida or the updated premises. Mauricio noted a site of about 10,500 sq ft total, about 8,000 of it warehouse (location not named in the transcript; likely Lawrenceville — inference). [[raw/Meeting_Transcript_Mauricio_HUB_Insurance_Renewal_Reconciliation-May-1-2026.md]]
 
+## Banking and financials as told to Bank of America (June 8 2026)
+
+At the [[wiki/meetings/2026-06-08-bank-of-america-banking-review-and-georgia-financing.md|June-8 Bank of America meeting]] Inna called JVL Systems "our main business" and the account JVL holds with Bank of America; the meeting asked for an operating line of credit for it (details on [[wiki/organizations/bank-of-america.md]]). [[raw/Meeting_Transcript_BofA_Lenin_Hernandez_Banking_Review_and_Georgia_Financing-June-8-2026.md]]
+
+- **Figures given to the bank (spoken, from memory):** 2025 sales "approximately six million" (Inna confirmed "This is the JVL systems we're talking about"), with a net result that was negative; the year before, **8.5 million**, and the year before that "I think seven point two or something like this"; Val said earlier years ran at a margin "between ten to twenty percent". AR: Inna, "one point four million for twenty twenty- five". [[raw/Meeting_Transcript_BofA_Lenin_Hernandez_Banking_Review_and_Georgia_Financing-June-8-2026.md]]
+- **Why 2025 was a loss (Val):** sales "fell slightly in one region"; two new regions had not converted yet; more engineering spend; and a new product with tooling costs. He expected 2026 to look like 2025 and 2027 like the earlier years. [[raw/Meeting_Transcript_BofA_Lenin_Hernandez_Banking_Review_and_Georgia_Financing-June-8-2026.md]]
+- **Collections (Val):** billing at delivery; the normal term is about **ninety days** from delivery; the full cycle from build to collection is "Half a year. Six months." Charge-offs "maybe less than one percent", because customers must be licensed and a default stops them renewing the yearly licence. [[raw/Meeting_Transcript_BofA_Lenin_Hernandez_Banking_Review_and_Georgia_Financing-June-8-2026.md]]
+- **Corporate status on the bank's file:** the account still showed the company as registered in Delaware; the bank was told Delaware is deactivated and it is now Florida, and JVL Systems was confirmed as a C corporation. (Monica had confirmed Florida status on 2026-04-30 — see Corporate identity above.) [[raw/Meeting_Transcript_BofA_Lenin_Hernandez_Banking_Review_and_Georgia_Financing-June-8-2026.md]]
+
+§15.8: company revenue, margin and receivables are company economics (allowed); no named-person pay appears.
+
+## June 30 2026 — 2025 US tax is $800, but 2026 may be different
+
+On the [[wiki/meetings/2026-06-30-gilmore-gameworks-us-tax-and-labs-filing.md|Jun-30 2026 call]] with the Gilmore accountants: [[raw/Meeting_Transcript_Gilmore_GameWorks_US_Tax_and_Labs_Filing-June-30-2026.md]]
+
+- **2025 is done.** BSP had just finalized the JVL Systems 2025 US return: "just eight hundred dollars worth of taxes to pay," booked in the statements. Sean called it a "Filing fee they basically can't get rid of down there." *(Inference: this fits the $800 California minimum recorded above; the call does not name the state.)* [[raw/Meeting_Transcript_Gilmore_GameWorks_US_Tax_and_Labs_Filing-June-30-2026.md]]
+- **Why 2025 profit was low.** Sean: JVL Labs sold the machines to Systems "at such high margins that there was really no profit left in systems." [[raw/Meeting_Transcript_Gilmore_GameWorks_US_Tax_and_Labs_Filing-June-30-2026.md]]
+- **The 2026 risk.** Val: "Next year, there will be no machine sales." Then Systems will show bigger profits while the losses stay in JVL Labs. The US accountants had earlier warned against management or admin fees from Labs to Systems ("US issues and filing issues"). How to charge Systems in 2026 is open; see [[wiki/topics/jvl-finance-back-office.md]] (Jun-30). [[raw/Meeting_Transcript_Gilmore_GameWorks_US_Tax_and_Labs_Filing-June-30-2026.md]]
+- **The $1.6M scare.** Val had read a $1.6 million obligation on the statements as a Systems tax liability. It was not; the recording does not say what it is. [[raw/Meeting_Transcript_Gilmore_GameWorks_US_Tax_and_Labs_Filing-June-30-2026.md]]
+
+## July 1 2026 — the joint-venture agreement with JVL Labs (2022 filing)
+
+JVL Systems is one side of the **collaboration / joint-venture agreement** with [[wiki/organizations/jvl-labs.md|JVL Labs]] that a reviewer asked for again on the 2022 filing — a **50% net-profit-from-games** share, in Val's words. The agreement stays as is; the missing piece is invoices for the revenue spread. Details: [[wiki/organizations/jvl-labs.md]] (July 1 2026) and [[wiki/meetings/2026-07-01-jv-documentation-review-2022-invoice-gap.md]]. [[raw/Meeting_Transcript_JV_Documentation_Review_2022_Invoice_Gap-July-1-2026.md]]
+
 ## Open commitments
 
 - [ ] [[wiki/people/mauricio-hub-international.md|Mauricio]] (HUB) — deliver the 2026–27 renewal quotes, reflecting the schedule changes above — due end of June 2026 — [[raw/Meeting_Transcript_Mauricio_HUB_Insurance_Renewal_Reconciliation-May-1-2026.md]]
@@ -73,3 +97,6 @@ JVL Systems' US commercial insurance is placed through broker **HUB Internationa
 - [[raw/cibc_account_the_january_6_2025.md]]
 - [[raw/Meeting_Transcript_Mauricio_HUB_Insurance_Renewal_Reconciliation-May-1-2026.md]]
 - [[raw/Meeting_Notes_Mauricio_HUB_Insurance_Renewal_Reconciliation-May-1-2026.md]]
+- [[raw/Meeting_Transcript_BofA_Lenin_Hernandez_Banking_Review_and_Georgia_Financing-June-8-2026.md]]
+- [[raw/Meeting_Transcript_Gilmore_GameWorks_US_Tax_and_Labs_Filing-June-30-2026.md]]
+- [[raw/Meeting_Transcript_JV_Documentation_Review_2022_Invoice_Gap-July-1-2026.md]]

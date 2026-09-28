@@ -3,7 +3,7 @@ type: organization
 title: GAMOA — the Georgia coin-operated amusement machine operators' association
 date: 2026-09-01
 aliases: [GAMOA, GOAM, Demola, Gamal, seventy thirty, you are ostracized, indecision is the worst decision, GMUA, Gamua, Gamboa, Gomoa, Gomorrah, Georgia operators association, the state association, the association, GAMOA board, GAMOA show, GAMOA expo, gift-card lobbying]
-source-count: 12
+source-count: 13
 open-commitments: 0
 open-questions: 2
 ---
@@ -117,6 +117,11 @@ Discussing a **September-2 letter** worrying that players now reach cash too qui
 
 **§15.8:** clear — association budget structure, membership and board composition, show economics and political-spending mechanics only. The one pay-related statement in the source (that a single administrator is salaried while the board volunteers) carries **no figure**, and none is recorded.
 
+
+## History — May 18 2026: the president declines to endorse InComm's ATM-card pilot (as relayed)
+
+On the [[wiki/meetings/2026-05-18-ga-trip-recap-kiosk-intel.md|May-18 GA trip recap]] [[wiki/people/felipe-miranda.md|Felipe]] reported that, after [[wiki/people/john-houseal.md|John Houseal]] presented InComm's gift-card-to-ATM pilot at the meeting they attended, "Mike Patel then took the stage and they say, 'Listen, we are not endorsing this product.'" Felipe's reason: fear it will "trigger more investigation". Val's reading: Patel "doesn't want to bring spotlights to the business." Separately, Felipe said that at "the Kamau meeting" (read as GAMOA — inference) an operator told him a request to the Georgia Lottery to extend the July-1 deadline by "at least another year" was denied. Whether the pilot presentation was the same meeting is not stated. [[raw/Meeting_Transcript_GA_Trip_Recap_Kiosk_Intel-May-18-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Double_Down_Gaming_Venue_Selection-September-1-2026.md]]
@@ -131,3 +136,4 @@ Discussing a **September-2 letter** worrying that players now reach cash too qui
 - [[raw/Meeting_Notes_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Rich_Winley_Georgia_COAM_Market_Intel-January-27-2026.md]]
+- [[raw/Meeting_Transcript_GA_Trip_Recap_Kiosk_Intel-May-18-2026.md]]

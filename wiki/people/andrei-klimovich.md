@@ -4,8 +4,8 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich, Andre]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 85
-open-commitments: 78
+source-count: 86
+open-commitments: 79
 open-questions: 0
 ---
 
@@ -572,6 +572,19 @@ The [[wiki/meetings/2026-09-18-transactional-mvp1-capability-cleanup-and-the-mon
 - [ ] Andrei Klimovich — finish the daily audit-ticket reporting capability and keep it inside MVP 1 — due **Monday Sept 21 2026** — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - [ ] Andrei Klimovich — close everything assigned to him (capabilities, features and non-functional requirements) in the correct statuses — due **Monday Sept 21 2026**; his own words were "**постараюсь**" — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 
+
+## May 18 2026 — GA trip recap: he reports the field, questions the kiosk, and reframes it as risks
+
+On the [[wiki/meetings/2026-05-18-ga-trip-recap-kiosk-intel.md|May-18 GA trip recap]] Andrei (Speaker 8) led the debrief of his Georgia field trip. Detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] and [[wiki/projects/georgia-market-rollout.md]] (both May-18). [[raw/Meeting_Transcript_GA_Trip_Recap_Kiosk_Intel-May-18-2026.md]]
+
+- **He questioned the standalone kiosk** — "Do we really need a standalone kiosk Maybe we can do everything, as in the shape of electronic wallet" — and Val ruled to stay on the committed products ([[wiki/decisions/2026-05-18-stay-on-the-committed-transactional-pipeline.md]]). Andrei: "three days is not enough" to call the product a mistake — "let's call it risks." [[raw/Meeting_Transcript_GA_Trip_Recap_Kiosk_Intel-May-18-2026.md]]
+- **His FlexPay risk list:** no gift-card refill, no debit/credit acceptance, and a form factor "too massive" next to competitors' towers. [[raw/Meeting_Transcript_GA_Trip_Recap_Kiosk_Intel-May-18-2026.md]]
+- **On "POS":** "when I say P O S, I still got a feeling like we are developing uh a system like point of sale system, but not gift card validation system" — the observation behind [[wiki/decisions/2026-05-18-rename-flex-pos-away-from-point-of-sale.md]]. [[raw/Meeting_Transcript_GA_Trip_Recap_Kiosk_Intel-May-18-2026.md]]
+
+## Open commitments (May 18 2026)
+
+- [ ] Andrei Klimovich — share the photos of the competitor kiosk models for a later hardware discussion ("I can share the pictures later") — due unspecified — [[raw/Meeting_Transcript_GA_Trip_Recap_Kiosk_Intel-May-18-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
@@ -659,3 +672,4 @@ The [[wiki/meetings/2026-09-18-transactional-mvp1-capability-cleanup-and-the-mon
 - [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - [[raw/Meeting_Transcript_Andrei_Klimovich_Ecommerce_Fraud_Loss_and_Marketplace_Expansion-January-21-2026.md]]
+- [[raw/Meeting_Transcript_GA_Trip_Recap_Kiosk_Intel-May-18-2026.md]]
