@@ -2,8 +2,8 @@
 type: person
 title: John Houseal
 date: 2025-07-01
-aliases: [John Houseal, John, head of the Coin Card division, "John from Income", "John from InComm", "John Hasil", Housel, "John Hassel"]
-source-count: 10
+aliases: [John Houseal, John, "John of InComm", head of the Coin Card division, "John from Income", "John from InComm", "John Hasil", Housel, "John Hassel"]
+source-count: 12
 open-questions: 1
 disambiguation: "InComm's product-development / route-gaming lead — the 'John' who leads the InComm↔JVL relationship (gift-card / COAM payment products). Distinct from Allen Lee (the InComm 'Alan', technical/API contact) and other InComm reps (Adam, Jared, Billy, Susanne). Resolve by context: InComm product strategy / market / roadmap → Houseal."
 ---
@@ -12,7 +12,7 @@ disambiguation: "InComm's product-development / route-gaming lead — the 'John'
 
 John Houseal is **InComm's product-development lead for route gaming** and the InComm executive who leads the relationship with JVL (the gift-card / COAM prize-redemption payment products). Surname confirmed on the Apr-3 2025 "JVL Payment Options" recording; the July 1–2 2025 in-person meeting fills in his background and remit. [[raw/incomm_transcript_gacoam_payment_options-april-4-2025.md]] [[raw/incomm_product_discussion-july-1-2025-1.md]]
 
-**Current status — reported to have left InComm (Sept 22 2026).** [[wiki/people/billy-liu.md|Billy Liu]] told Val that John has moved from InComm to **Bulldog**. This is second-hand, from a competitor, and the "John" is identified as Houseal by context only (inference; see Sept 22 below) [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
+**Current status — left InComm; Sept 25 2026 was his last day (first-hand).** On the [[wiki/meetings/2026-09-25-incomm-john-exit-and-blue-card-hold.md|Sept-25 phone call]] with Val, John said: "**Today's my last day with InComm. I quit.**" He has a new job and is "staying in the industry", but "**I can't share anything now… In the next week, I can.**" The recording gives no surname; this page reads him as Houseal by context (inference; see Sept 25 below) [[raw/Meeting_Transcript_InComm_John_Exit_and_Blue_Card_Hold-September-25-2026.md]]. Where he went is **not confirmed**: only [[wiki/people/billy-liu.md|Billy Liu]]'s second-hand Sept-22 account names **Bulldog** [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
 
 ## Background (as told July 1 2025)
 
@@ -56,9 +56,22 @@ On the [[wiki/meetings/2026-09-22-billy-liu-playpay-virtual-wallet-pay-tag-plan.
 
 **§15.8 exclusion:** Billy's estimate of John's yearly worth, and the private job conversations between the two men, are **not recorded** [[raw/Meeting_Notes_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
 
+## Sept 25 2026 — his last day at InComm, told to Val directly
+
+Val phoned him after hearing he had left. All from [[raw/Meeting_Transcript_InComm_John_Exit_and_Blue_Card_Hold-September-25-2026.md]] unless marked.
+
+- **The role change.** "**Today's my last day with InComm. I quit. I resigned about a month ago. Month or two ago, August twenty-first, I think.**" He said he told InComm six months earlier that he was leaving "**and that they should start planning for the transition**", and that the focus since has been "**getting a team in place that can take over behind me**". (A name in that line, "Iron Jason", is garbled and not resolved.)
+- **Where next: not said.** "**I have a new job**"; asked if he is staying in the industry: "**I am**". He could not share more yet. This first-hand account confirms the **exit**; it neither confirms nor denies Billy's **Bulldog** report of Sept 22 [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
+- **His own account of his weight at InComm:** "**The thing that people don't know is that InComm got into this business largely because of me.**" His view of why the Blue Card is on hold is on [[wiki/organizations/incom.md]] (Sept 25).
+- **No new product from him.** Asked if JVL should expect something: "**I don't have anything right now, Val… I'm trying to let InComm figure out what they're going to do with themselves.**"
+- **The relationship stays open.** He keeps the same phone number, and Val proposed a coffee in Atlanta the week of October 12; John "should be around" but must check his travel.
+- **Why this is read as Houseal (inference):** an InComm John who led its entry into this market and who discussed JVL's machine with Val two years ago matches this page; no surname is spoken.
+
+**§15.8 exclusion:** the personal reason John gave for leaving concerns his pay and is **not recorded** here [[raw/Meeting_Notes_InComm_John_Exit_and_Blue_Card_Hold-September-25-2026.md]].
+
 ## Open questions
 
-- **Has John Houseal actually left InComm for Bulldog?** Only Billy's second-hand account says so; no InComm or Bulldog source confirms it — [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]
+- **Where did John Houseal go after InComm?** *(Updated Sept 25: the exit itself is now confirmed first-hand — his last day was Sept 25 [[raw/Meeting_Transcript_InComm_John_Exit_and_Blue_Card_Hold-September-25-2026.md]].)* Only Billy's second-hand Sept-22 account names Bulldog; John said he could share his new role "in the next week" — [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]] [[raw/Meeting_Transcript_InComm_John_Exit_and_Blue_Card_Hold-September-25-2026.md]]
 
 ## Sources
 
@@ -72,3 +85,5 @@ On the [[wiki/meetings/2026-09-22-billy-liu-playpay-virtual-wallet-pay-tag-plan.
 - [[raw/Meeting_Transcript_GA_Trip_Recap_Kiosk_Intel-May-18-2026.md]]
 - [[raw/Meeting_Notes_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]
+- [[raw/Meeting_Notes_InComm_John_Exit_and_Blue_Card_Hold-September-25-2026.md]]
+- [[raw/Meeting_Transcript_InComm_John_Exit_and_Blue_Card_Hold-September-25-2026.md]]

@@ -3,7 +3,7 @@ type: decision
 title: The first transactional installation is planned for October 1 and the whole schedule is built on that assumption — the date stands; the FlexPay self-service configuration named here was replaced by Flex IQ on Sept 11
 date: 2026-09-09
 aliases: [first installation October 1, assume October 1, one installation on the first of October, self-service wallet case, bill acceptor card dispenser and printer, it might be September 28, the October 1 case]
-source-count: 9
+source-count: 10
 status: active
 open-commitments: 1
 open-questions: 0
@@ -72,6 +72,16 @@ At the [[wiki/meetings/2026-09-24-transactional-mvp1-flexport-money-loss-bugs-an
 
 **§15.8:** clear.
 
+## Update, Sept 25 2026 — development is planned to October 7, autotests after it, and third-party tests after October 1
+
+At the [[wiki/meetings/2026-09-25-transactional-mvp1-flexport-third-party-egm-compatibility-testing.md|Sept-25 8:05 AM MVP 1 call]] (Russian) [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]:
+
+- **October 1 is still the working date.** Klimovich: "у нас вот есть условно релиз 1 октября."
+- **The plan runs past it.** Reading the Jira plan, Irina: "сейчас без учёта написания автотестов до 7 числа всё распланировано? Разработка." Pavel: "Да." Val then spoke of "окончание работы… 7 октября". Irina: autotests "будут написаны позже, чем 7 число".
+- **Not everything is ready by the 1st.** Chudinov: "Не будет акмулятора к 1 числу." Tests in other makers' machines wait until after October 1 (Klimovich: "тогда после 1 октября").
+
+**Plan vs actual.** Nobody moved the October-1 date on this call. The Jira development plan now ends October 7 — later than the October-2 end date challenged on Sept 22. This is recorded beside the plan, not as a new plan; nobody said what October 1 will deliver if development runs to October 7 (not discussed).
+
 ## Sources
 - [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 - [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
@@ -82,3 +92,4 @@ At the [[wiki/meetings/2026-09-24-transactional-mvp1-flexport-money-loss-bugs-an
 - [[raw/Meeting_Transcript_Dwolla_Reserve_Reduction_Negotiation-August-11-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
 - [[raw/Meeting_Notes_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]

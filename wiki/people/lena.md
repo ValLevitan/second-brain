@@ -3,8 +3,8 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna, Selena, Elena]
-source-count: 68
-open-commitments: 13
+source-count: 70
+open-commitments: 14
 ---
 
 # Lena
@@ -303,6 +303,19 @@ At the [[wiki/meetings/2026-09-22-multi-game-screen-layout-and-game-count.md|Sep
 
 - [ ] Lena Zhukova — fix the broken layout and send Val the idle screen's frame zero — due unspecified — [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
 
+## Sept 25 2026 — the first Class A screens, and storyboards next
+
+At the [[wiki/meetings/2026-09-25-georgia-progressives-and-class-a-lions-riches.md|Sept-25 2:32 PM game-development call]] [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]:
+
+- **She showed the Class A images** for Lions Riches: the reduced dual box, the party-time message, the cash-out confirmation and the continue / print dialog. See [[wiki/topics/georgia-class-a-machines.md]] (Sept 25).
+- **Class A in Nova, after Nebraska.** "**that's what we agreed that this Class A is going to be done in Nova**"; the team is working "**with Dima, Sasha Biratko, and Igor on experimenting with assets transfer and how we are going to do liquid glass in Nova**"; full production "**after Nebraska**", not before "**December, January**". See [[wiki/decisions/2026-09-11-georgia-class-a-v43-is-built-on-nova-not-rage.md]] (Sept-25 update). *(Which Dima and which Igor is not stated.)*
+- **Design is mostly done; storyboards are not.** "**design is basically already done**" for the visual parts, and she will "**close this feature… of graphical adaptation, and now I will create all storyboards**".
+- **Felipe's praise**, relayed by Michael: Twin Bison, the revised Lions Riches, and the parrots in Tropical Paradise.
+
+## Open commitments (Sept 25 2026)
+
+- [ ] Lena Zhukova — close the graphical-adaptation feature and create all the Class A storyboards so the engineers understand the flow — due unspecified — [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
@@ -374,3 +387,5 @@ At the [[wiki/meetings/2026-09-22-multi-game-screen-layout-and-game-count.md|Sep
 - [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]
 - [[raw/Meeting_Transcript_Clayton_Jira_MCP_Demo_and_Toolset_Direction-January-29-2026.md]]
 - [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
+- [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- [[raw/Meeting_Notes_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]

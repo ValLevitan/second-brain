@@ -3,7 +3,7 @@ type: person
 title: Elizabeth
 date: 2025-04-28
 aliases: [Elizabeth, Elizabeth Palomino, Элизабет]
-source-count: 19
+source-count: 20
 open-commitments: 3
 disambiguation: "JVL engineering technician (full engineer by degree) handling Georgia service/parts; ex-Colombian-operation technician; Spanish-speaking. Surname Palomino (per the Jun-11-2026 passport/dsKey source). Distinct from Eliana, the Colombian EDS principal (wiki/people/eliana.md)."
 ---
@@ -81,6 +81,10 @@ On the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-tests.
 
 On the [[wiki/meetings/2026-09-23-open-purchase-order-payment-walkthrough.md|Sept-23 purchase-order walkthrough]], Mikhail Perelman explained one open Everglory PO: parts for the touchscreen board, because some had been lost — "Элизабет попросила заказать там 15 комплектов." The invoice was issued in July, and Mikhail wanted it paid now. *(Resolved to Elizabeth Palomino by the parts/service context — inference.)* Details on [[wiki/people/mikhail-perelman.md]] (Sept 23) [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]].
 
+## Sept 25 2026 — named as the likely tester of Flex-Port in other makers' machines
+
+On the [[wiki/meetings/2026-09-25-transactional-mvp1-flexport-third-party-egm-compatibility-testing.md|Sept-25 8:05 AM MVP 1 call]] (Russian; she did not speak), Klimovich said the compatibility testing "скорее всего, это делать будет или Элизабет или Элизабет, с кем то из технище" — she or she with a local technician — and that she and the other technicians need a clear manual. Irina: she checks a JVL machine first, then repeats on another maker's. Klimovich: she already knows how to install builds, so builds can be sent while he is away [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]. See [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] (Sept-25 update).
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]]
@@ -102,3 +106,4 @@ On the [[wiki/meetings/2026-09-23-open-purchase-order-payment-walkthrough.md|Sep
 - [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]

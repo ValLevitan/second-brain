@@ -4,8 +4,8 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich, Andre]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 95
-open-commitments: 92
+source-count: 97
+open-commitments: 93
 open-questions: 0
 ---
 
@@ -637,8 +637,8 @@ On the [[wiki/meetings/2026-09-22-digital-marketing-lead-and-georgia-demand-camp
 
 ## Open commitments (Sept 22 2026)
 
-- [ ] Andrei Klimovich — pass the task context to Sergey Vysotsky in writing (not the recording) — due Sept 22 2026 ("я контекст ему сегодня передам") — [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]]
-- [ ] Andrei Klimovich — if Sergey takes the task, set up a call so Val can brief him and hear it played back — due ~Sept 23 2026 ("он завтра уже точно будет готов") — [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]]
+- [x] Andrei Klimovich — pass the task context to Sergey Vysotsky in writing (not the recording) — due Sept 22 2026 ("я контекст ему сегодня передам") — [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]] — **discharged Sept 25 2026, by his own report:** "по поводу Сергея, я ему в среду переслал" (Wednesday, Sept 23); what he forwarded is not stated — [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]]
+- [ ] Andrei Klimovich — if Sergey takes the task, set up a call so Val can brief him and hear it played back — due ~Sept 23 2026 ("он завтра уже точно будет готов") — [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]] — *Sept 25 2026: Sergey will think over the weekend (Sept 26–27) and answer; if he is ready, they meet the week of Sept 28 — "если готов пообщаться, мы сразу встретимся на следующей неделе"; still open* — [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]]
 - [ ] Andrei Klimovich — send Val the next version of the presentation, from Val's written comments — due Sept 22–23 2026 ("сегодня завтра не затягивать") — [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]]
 
 ## Sept 22 2026 (8:01 AM) — Val takes his requirements "as dogma", and he owes the design, 178 and a change list
@@ -693,10 +693,38 @@ On the [[wiki/meetings/2026-09-24-transactional-mvp1-flexport-money-loss-bugs-an
 
 ## Open commitments (Sept 24 2026, 8:01 AM)
 
-- [ ] Andrei Klimovich — add the two logic changes from bugs 349 and 354 to the requirements — due Sept 24 2026 — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+- [x] Andrei Klimovich — add the two logic changes from bugs 349 and 354 to the requirements — due Sept 24 2026 — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]] — **discharged Sept 25 2026, by his own report:** "Изменения, которые мы вчера проговорили на митинге, всё уже внесено" — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
 - [ ] Andrei Klimovich — email the team a Jira change log at the end of any day he changes Jira — due ongoing — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
 - [ ] Andrei Klimovich — mark that receipts for pending transactions must be available for reprint — due unspecified — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
-- [ ] Andrei Klimovich — update the mock-up with the version footer on service, initialisation and idle screens, and the status-bar rule — due unspecified — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+- [ ] Andrei Klimovich — update the mock-up with the version footer on service, initialisation and idle screens, and the status-bar rule — due unspecified — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]] — *Sept 25 2026: he reports the previous day's changes are in and "В джира обновлена макапа"; the footer is not named, so this stays open* — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
+
+## Sept 25 2026 (8:05 AM) — he asks for a mailing list, raises third-party machine testing, and arranges his week away
+
+On the [[wiki/meetings/2026-09-25-transactional-mvp1-flexport-third-party-egm-compatibility-testing.md|Sept-25 8:05 AM MVP 1 call]] (Russian) [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]:
+
+- **Update.** The previous day's changes are in, the mock-up is updated in Jira, and he emailed the report. He picked recipients by hand and missed Ivan, so he asked for a mailing group, ideally per product or stream.
+- **Compatibility testing.** He raised how Flex-Port is tested with other makers' machines: large operators have agreed in principle to lend machines or open their warehouse for "день 2"; Elizabeth would test from a manual. He summed up the plan — Minsk sends the set-up, the local team borrows machines and connects them to the MikroTik — and set third-party tests for after October 1. He will open the capability. See [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] (Sept-25 update).
+- **Printer.** He had emailed Val and Genadi to move the printer on. See [[wiki/decisions/2026-09-23-jvl-stops-building-its-own-tito-desktop-box-and-uses-jcm-or-transact-for-now.md]] (Sept-25 update).
+- **Away next week.** He will not be on site; his absence "не должно блокировать процесс разработки". He keeps the daily syncs at the same time and answers in Teams.
+- **On testing.** It will be easier once the product team delivers capabilities and requirements "хотя бы полтора полторы версии, опережая разработку".
+
+## Open commitments (Sept 25 2026, 8:05 AM)
+
+- [ ] Andrei Klimovich — create the capability for Flex-Port working with other makers' machines, from the transcript — due unspecified — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
+- [ ] Andrei Klimovich — set up next week's meetings for this group at the same time — due before Mon Sept 28 2026 — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
+
+## Sept 25 2026 (1:30 PM) — Val reviews his promo flier; Sergey answers after the weekend
+
+On the [[wiki/meetings/2026-09-25-promo-flier-review-and-sergey-vysotsky-wait.md|Sept-25 1:30 PM call]] (English then Russian, about 16 minutes) [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]]:
+
+- **The flier.** Val read Klimovich's draft JVL promo flier line by line. He asked to remove "Build to upgrade your floor and not replace it", wanted the headers "The problem we address, the solution we offer" in one font and one size, and proposed a data-ownership line. Klimovich then went through the four problems and said three need new wording. Content on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 25, 1:30 PM).
+- **Solutions not reviewed yet.** Val found it hard to review "на лету"; Klimovich will send an updated version from the comments.
+- **Sergey Vysotsky.** Klimovich forwarded it to him on Wednesday; Sergey "подумает на выходных и ответит". Val: "значит мы ждём". See [[wiki/people/sergey-vysotsky.md]] (Sept 25).
+- **The transcript.** At the end Klimovich asked Val to send him the transcript ("скиньте пожалуйста транспри"). Val's answer is not in the recording.
+
+## Open commitments (Sept 25 2026, 1:30 PM)
+
+- [ ] Andrei Klimovich — send Val an updated version of the promo flier based on his comments — due unspecified — [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]]
 
 ## Sources
 
@@ -795,3 +823,5 @@ On the [[wiki/meetings/2026-09-24-transactional-mvp1-flexport-money-loss-bugs-an
 - [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
+- [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]]

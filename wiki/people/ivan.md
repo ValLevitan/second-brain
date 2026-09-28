@@ -3,8 +3,9 @@ type: person
 title: Ivan
 date: 2025-02-19
 aliases: [Ivan, Ivan Shpakov, Иван Шпаков, Ivan Shpak, Ваня]
-source-count: 14
-open-commitments: 3
+source-count: 16
+open-commitments: 4
+disambiguation: "JVL release manager (GLI submittals, release-candidate marks). Not the bank representative Ivan of the Sept-25-2026 CIBC call (surname Lucic per the notes) — see wiki/meetings/2026-09-25-cibc-ivan-lucic-600k-transfer-post-dated.md. Resolve by context: releases/GLI → this page."
 ---
 
 # Ivan
@@ -17,6 +18,8 @@ Ivan handles JVL's **release scheduling and certification paperwork** — the re
 - Ivan sends the paperwork to GLI; Val noted costs can be kept low by detailing exactly what changed so GLI doesn't retest untouched code — the **release notes** (generated from Jira stories, with ChatGPT wording that must be checked) plus Irina's separate **diffs document**. See [[wiki/projects/georgia-market-rollout.md]] and [[wiki/projects/south-dakota-vlt-market.md]]. [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 
 **Surname (Oct 22 2025):** in the Calle Ocho practice-release session Val named the release-manager Ivan as **"Иван Шпаков" (Ivan Shpakov)** — same release/build-marking role, so recorded as this Ivan's transcribed surname. [[raw/practice_release_calle_ocho-github-october-21-2025.md]] (Distinct from any "Ivan" greeted in the Puerto Rico contacts — see Owner Decisions.)
+
+**Not the bank's Ivan.** The "Ivan" who calls Val on Sept 25 2026 about a CAD 600,000 transfer is a bank representative ("it's Ivan calling you for Premium Edge"), not this Ivan — see [[wiki/meetings/2026-09-25-cibc-ivan-lucic-600k-transfer-post-dated.md]]. [[raw/Meeting_Transcript_CIBC_Ivan_Lucic_840914_600K_Transfer-September-25-2026.md]]
 
 ## Release-manager role in the GitHub pipeline (Oct 21–22 2025)
 
@@ -96,6 +99,18 @@ On the [[wiki/meetings/2026-09-24-transactional-mvp1-flexport-money-loss-bugs-an
 
 - [ ] Ivan — commit his local connection-test work to GitHub — due Sept 24 2026 (Irina: "вечером он закомтил") — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
 
+## Sept 25 2026 (8:05 AM) — he takes the set-up instruction for third-party machine tests
+
+On the [[wiki/meetings/2026-09-25-transactional-mvp1-flexport-third-party-egm-compatibility-testing.md|Sept-25 8:05 AM MVP 1 call]] (Russian) [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]:
+
+- **What the test site needs**, in his words: the right cables; a computer for the SAS emulator with a COM port, best from the motherboard ("USB tome это плохая идея, но… реализуемая"); at least two cables; and the IGT SAS host simulator he works with. Irina: nobody knows it better, so he writes the instruction. "Я к понедельнику постараюсь всё это сделать." See [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] (Sept-25 update).
+- **His tests.** Irina: his tests worked the day before; he and Khamin are merging the work. He opened a pull request in the transactional platform repository. See [[wiki/topics/test-automation-strategy.md]] (Sept 25, 8:05 AM).
+- He had been left off Klimovich's report by mistake — the reason for the new mailing list.
+
+## Open commitments (Sept 25 2026, 8:05 AM)
+
+- [ ] Ivan — write the compatibility-test set-up instruction and attach the SAS emulator and the SAS commands document — due Mon Sept 28 2026 — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
+
 ## Sources
 
 - [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
@@ -112,3 +127,5 @@ On the [[wiki/meetings/2026-09-24-transactional-mvp1-flexport-money-loss-bugs-an
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
 - [[raw/Meeting_Transcript_Georgia_Hard_Reset_Remedies_and_Passport_Removal-September-24-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
+- [[raw/Meeting_Transcript_CIBC_Ivan_Lucic_840914_600K_Transfer-September-25-2026.md]]

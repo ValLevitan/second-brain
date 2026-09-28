@@ -4,8 +4,8 @@ title: Igor Metelski
 date: 2026-07-14
 aliases: [Igor Metelski, Igar Miatselski, Miatselski, Igor, Igor Mitelsky, Мительский, Mitsierski, Igor Mitsierski]
 disambiguation: "RGS engineer on Efim Podvoiski codebase (= payroll Igar Miatselski). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
-source-count: 27
-open-commitments: 20
+source-count: 28
+open-commitments: 24
 ---
 
 # Igor Metelski
@@ -159,6 +159,25 @@ At the [[wiki/meetings/2026-09-20-vertical-geometry-standard-and-adr-consolidati
 - [ ] Finish end-to-end auto-testing so a full flow exists — due after the GitHub work — [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
 - [ ] Run the timed conversion of a horizontal RAGE game into a working vertical NOVA game — due after end-to-end testing — [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
 
+## Sept 25 2026 — his questions settle where everything goes, and the experiment is closed
+
+At the [[wiki/meetings/2026-09-25-games-conversion-repos-jira-capabilities.md|Sept-25 9:02 AM games-conversion session]] (Russian) he presented the open questions behind the missing repositories [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]:
+
+- **What he has.** A glossary, one big ADR list, and a document of art requirements on element geometry and timing; Claude also wrote a converter (for the Dragon Pays experiment) and small scripts such as a screenshot script.
+- **What he proposed and lost.** Keep the converter inside each converted game's repository; Val ruled it gets its own project and repository. He asked about a third, RAGE-to-NOVA project; Val kept all conversion in one.
+- **What he accepted.** Standards and glossary to the `knowledge` standards folder; the geometry graphics converted to Markdown rather than split into HTML; scripts in a `tools` folder; split the ADR list by repository.
+- **Capabilities.** His draft capabilities are local, not in Jira; he wants it done "честно… в джире". Val: close them retroactively with acceptance criteria.
+- **Still open for him.** The E2E tests on the capabilities — started, not finished. He asked for a week and got Wednesday Sept 30 at 7:00, and asked for a point-by-point list of what must be ready.
+
+All on [[wiki/decisions/2026-09-25-the-conversion-experiment-closes-and-the-converter-gets-its-own-project-and-repository.md]].
+
+## Open commitments (Sept 25 2026)
+
+- [ ] Igor Metelski — split the ADR list by topic and commit each part to its repository — due Wed Sept 30 2026 — [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]
+- [ ] Igor Metelski — commit the glossary and standards (geometry standard with graphics in Markdown) to the `knowledge` standards folder — due Wed Sept 30 2026 — [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]
+- [ ] Igor Metelski — write prose in each repository next to the code — due Wed Sept 30 2026 — [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]
+- [ ] Igor Metelski — put the updated capabilities in Jira with requirements and acceptance criteria, close them retroactively, and finish the flow to E2E tests — due Wed Sept 30 2026 — [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
@@ -188,3 +207,4 @@ At the [[wiki/meetings/2026-09-20-vertical-geometry-standard-and-adr-consolidati
 - [[raw/vector_meeting_db-march-31-2025.md]]
 - [[raw/daily_omni_progress-april-16-2025 (Val Levitan's conflicted copy).md]]
 - [[raw/omni_calle_ocho_scheduling-apr-22-2025.md]]
+- [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]

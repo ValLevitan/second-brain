@@ -3,7 +3,7 @@ type: topic
 title: RIS (remote install/setup system) and machine states
 date: 2026-02-06
 aliases: [RIS, component allow-listing, portal access, give you access to the portal, reload after component change, born on the manufacturing floor, birth certificate, validator swap fraud, remote initial setup, remote install system, remote setup, RIS modernization, machine states, sold-machine RIS, RIS subscription, manual override screens, participation financed debt-free, the Passport, passport lock, passcode key, jugular of the whole operating system, peripheral lock, it's in the center not on the side, the passport must not be killed, do not confuse RIS and passport, the bindings are good we use them wrongly, unit 17 changed its bill acceptor, operator nominates who may update the passport, a technician to me is a business owner, hard reset, passport is a symptom not a root cause, eight hard-reset cases, factory reset, decommission and recommission, error code 2, boot loop, three kinds of factory reset, restore the last RIS, file store of every RIS, soft reset, use case 11, who scans the passport, one USB for the whole bank]
-source-count: 16
+source-count: 17
 open-questions: 12
 ---
 
@@ -257,6 +257,10 @@ Near-term vs medium-term, and Pavel's "70%" estimate, are on [[wiki/decisions/20
 
 On Sept 23 Val proposed a release "not have any reference to passport" (section above). On Sept 24 at 7:02 AM he called the passport scan "a great feature" and ruled mismatched installs "restricted", which matches the Sept-11 instruction to keep the passport ([[wiki/decisions/2026-09-11-the-passport-is-preserved-and-jvl-is-using-the-bindings-wrongly-in-this-market.md]]). Earlier that morning, without him, the engineers had planned to switch the passport check off for Georgia builds. **The engineers' plan and Val's defence are recorded side by side, not reconciled** — see the Open contradictions on [[wiki/decisions/2026-09-24-engineering-plans-to-switch-off-the-passport-check-for-georgia-builds.md]].
 
+## Sept 24 2026 (11:46 AM) — with a modem, the machine passes the RIS step on its own
+
+On the [[wiki/meetings/2026-09-24-v-1000-modem-current-use-cases.md|Sept-24 11:46 AM modem call]] (Russian), [[wiki/people/pavel.md|Pavel]] named RIS as the modem's main use today: "Ну основное это. Прохождение раэс." After a factory reset ("эффекторе ресет") or a software install, if a RIS "создан на сервере" for this machine, "на этапе яцитап можно автоматически пройти" — the initial-setup step passes automatically. The modem does **not** carry software updates: asked about them, Pavel said "Нет, ничего." The full list of the modem's current uses is on [[wiki/projects/georgia-market-rollout.md]] (Sept 24, 11:46 AM) [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]].
+
 **§15.8:** a personal phone call Pavel took during the 5:41 AM review is withheld. **§15 #8:** an internal web account name Ivan mentioned is not recorded.
 
 ## Open questions
@@ -292,3 +296,4 @@ On Sept 23 Val proposed a release "not have any reference to passport" (section 
 - [[raw/Meeting_Transcript_RIS_and_Passport_Hard_Reset_Burden-September-23-2026.md]]
 - [[raw/Meeting_Transcript_Georgia_Hard_Reset_Remedies_and_Passport_Removal-September-24-2026.md]]
 - [[raw/Meeting_Transcript_RIS_Serial_Binding_and_Factory_Reset_Focus-September-24-2026.md]]
+- [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]]

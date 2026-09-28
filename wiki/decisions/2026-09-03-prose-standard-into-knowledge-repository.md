@@ -3,7 +3,7 @@ type: decision
 title: The prose standard has exactly one location — it moves out of the LGS repository into the `knowledge` repository's standards folder, and the prose skills move into the Claude Code configuration
 date: 2026-09-03
 aliases: [one location for a standard, prose standard in knowledge repo, knowledge repository standards folder, prose skills into Claude Code config, Val's single-location rule]
-source-count: 4
+source-count: 5
 status: active
 open-commitments: 3
 open-questions: 1
@@ -49,8 +49,13 @@ He named it as a recurring pattern rather than a one-off mistake: "просто 
 
 - **How many prose skills there are.** On [[wiki/meetings/2026-09-01-nova-prose-qa-automation-check.md|Sept 1]] Pavel reported second-hand that Vladimir had built "3 разных скила" — three different skills for Claude — while describing two functions. On Sept 3 Vladimir, first-hand, said "самое ценное, считаю сделано 2. Скилла для клауд код" — two skills. Both recorded; not reconciled — [[raw/Meeting_Transcript_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]] [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 
+## Update, Sept 25 2026 — the conversion glossary and standards go to the same folder
+
+At the [[wiki/meetings/2026-09-25-games-conversion-repos-jira-capabilities.md|Sept-25 9:02 AM games-conversion session]] (Russian), Val sent the games-conversion glossary and standards to the same place: the repository "нолочь" (knowledge) and its folder "Которая называется стандарты". He would not add another folder: "лучше переборщить стандарта, чем разбавить". Pavel: in one place Claude "не будет распылять свой мозг". Whether the geometry document is a standard or a group of its own is left open [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]. Detail on [[wiki/decisions/2026-09-25-the-conversion-experiment-closes-and-the-converter-gets-its-own-project-and-repository.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Notes_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 - [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 - [[raw/Meeting_Transcript_Nova_Prose_QA_Automation_Strategy-September-1-2026.md]]
+- [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]

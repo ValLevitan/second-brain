@@ -3,9 +3,9 @@ type: topic
 title: Machine data repurchase program ($337 per year per machine)
 date: 2026-08-26
 aliases: [data repurchase, validator acceptance rate, data purchase contract, buy back our own data, $337 per year per machine, three-year data contract, data-sharing agreement, data sharing discount, data discount]
-source-count: 17
+source-count: 18
 open-commitments: 1
-open-questions: 1
+open-questions: 2
 ---
 
 # Machine data repurchase program ($337 per year per machine)
@@ -118,6 +118,16 @@ At the [[wiki/meetings/2026-09-10-diamond-amusements-machine-performance-and-bun
 
 **The "operator intelligence" side, restated for a second customer.** The free-now-chargeable-later caveat first recorded at Dixie on Sept 8 was repeated here — "**Ninety dollars does not include charges for the intelligence, the operator's intelligence. Right now we're giving it for free, but eventually we'll start charging for it**" — with one genuinely new term: **the API is free.** "we'll give you an **API for free**, but if you want us to provide you with intelligence, then it will cost." Val's suggested consumption path — via an **MCP** using Anthropic or Grok rather than the raw API — is on [[wiki/decisions/2026-09-02-free-ports-and-pos-with-every-machine-bought.md]]. [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
 
+### Sept 24 2026 — engineering says the statistics over the modem have not been tested yet
+
+At the [[wiki/meetings/2026-09-24-v-1000-modem-current-use-cases.md|Sept-24 11:46 AM modem call]] (Russian) Val asked what the V-1000 modem does today. On statistics — the thing this programme pays for — [[wiki/people/pavel.md|Pavel Frolov]] said the game data now collected by QR scans "тоже должны будут через модем приходить" [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]].
+
+- **What should arrive.** Val asked if this means all meters plus service statistics, or only some meters. Pavel: "по идее, должно и то и то приходить, и и сервисная статистика, и аккаунтеры" [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]].
+- **But nobody has checked.** Pavel: "Это сейчас я так понимаю, никто не проверял на модеме." [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]]
+- **How often, and where it lands.** A sync is sent "несколько несколько раз в день". The data "кладётся в базу данных к нам", with the service messages. Whether it reaches JVL's reporting server: "Это вопрос надо смотреть я я не помню" [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]].
+
+**Why this matters here (inference).** Since Aug 25 Val has pitched the modem's reporting in many customer meetings (sections above). As of Sept 24, by engineering's own account, that data path had not yet been tested end to end.
+
 ## History
 
 - **Feb 10 2026 — an earlier form of the trade, with goods instead of cash.** Six months before the $337 offer, JVL asked [[wiki/organizations/aks-amusement.md|AKS Amusement]] for game-level data and offered goods and services in return, not a yearly payment: "free trial games, free software updates, spare parts extended warranty", complimentary software and training, "whatever is most comfortable for your organization in exchange for this data." Val already ranked the machine's own data above the operator's reports: a money-in/money-out report "has much less value than a QR scan that we have built inside of the machine." See [[wiki/meetings/2026-02-10-aks-amusements-performance-data-collaboration.md]]. [[raw/Meeting_Transcript_AKS_Amusements_Jay_Performance_Data_Collaboration-February-10-2026.md]]
@@ -129,6 +139,7 @@ At the [[wiki/meetings/2026-09-10-diamond-amusements-machine-performance-and-bun
 
 ## Open questions
 
+- **Do all meters and the service statistics actually arrive over the modem, and do they reach the reporting server?** Pavel: in theory yes, but "никто не проверял на модеме", and he did not remember about the reporting server (Sept 24 2026) — [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]]
 - **What happens to a three-year data contract when the machine is sold with the route?** Raised from JVL's side at the Narayani meeting — "You buy and sell routes as everyone does, right? This three year contract." — and dropped without an answer. This matters because route-flipping is the normal Georgia pattern (see [[wiki/organizations/narayani-amusements.md]] and [[wiki/projects/georgia-market-rollout.md]]). [[raw/Meeting_Transcript_Narayani_Amusements_Trade_In_Negotiation-August-26-2026.md]]
 
 **§15.8:** clear — per-machine programme economics only; no named-person compensation.
@@ -152,3 +163,4 @@ At the [[wiki/meetings/2026-09-10-diamond-amusements-machine-performance-and-bun
 - [[raw/Meeting_Transcript_Allenson_Malik_Market_Review_and_Data_Partnership-February-16-2026.md]]
 - [[raw/Meeting_Transcript_Epic_Amusement_Kenny_Patel_Visit-August-25-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]]
+- [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]]

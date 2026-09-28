@@ -3,10 +3,10 @@ type: decision
 title: Testing starts September 15 with the negative cases first, and Flex-Ports must be proved in borrowed non-JVL machines — fake-commissioned, tracked as a separate Jira item from JVL-machine testing
 date: 2026-09-09
 aliases: [negative cases first, door open, borrow a machine fake commission it, Aristocrat and Light and Wonder, at least one or two machines, two separate records, two different router manufacturers, no Chinese manufacturer, stay away from Cisco, ten port router, storm through the test, bracket drawings to Genadi]
-source-count: 5
+source-count: 6
 status: active
-open-commitments: 4
-open-questions: 0
+open-commitments: 7
+open-questions: 2
 ---
 
 # Negative cases first, in borrowed non-JVL machines, from September 15
@@ -61,9 +61,38 @@ At the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-tests.
 
 **§15.8:** clear.
 
+## Update, Sept 25 2026 — how the test is set up: office not warehouse, JVL machines first, after October 1
+
+At the [[wiki/meetings/2026-09-25-transactional-mvp1-flexport-third-party-egm-compatibility-testing.md|Sept-25 8:05 AM MVP 1 call]] (Russian) [[wiki/people/andrei-klimovich.md|Klimovich]] raised it as not yet discussed: "Что мы будем делать с тестированием… на сас с разными моделями машин разных производителей?" [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
+
+- **The machines.** Klimovich: JVL has "предварительная договорённость с несколькими большими операторами" who will let JVL into their warehouse or lend a few machines for "день 2" (read as a day or two). The test would most likely be done by [[wiki/people/elizabeth.md|Elizabeth]], perhaps with a local technician, who need "понятный воркфлоу" and a manual. Once Minsk gives the signal, the local team contacts the operators and sets dates [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]. *(The Sept-9 commitment put the borrowing on Felipe; on Sept 25 Klimovich speaks for "мы" — the local team. Whether the job moved is not said.)*
+- **Pavel's set-up — two SAS ports.** Bring the machine to the office and connect it to the internal network Minsk can reach. "Нам надо подключать 2 сасса": on the first, the SAS accumulator [[wiki/people/ivan.md|Ivan]] works with, which sends commands such as lock, unlock and accounting requests — ideally every command InComm and Intralot send; on the second, the Flex-Port. Check that no function breaks under third-party commands, and that Flex-Port can pass money, take money, track the machine's state and show it [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]].
+- **Record the raw SAS traffic.** [[wiki/people/dmitri-chudinov.md|Chudinov]] proposed that IQ and the port send the SAS commands the machine sends to a website, so JVL's machine and another's can be compared directly, not through logs. Pavel had a similar "дампер" idea and asked whether it should run in production — all SAS commands except pings. Chudinov: "Да я я бы собирал, потому что будет полезно." Klimovich noted this data holds money in and out down to each game title. Pavel: "это явно… не один это может быть MVP 23" — not MVP 1; Klimovich agreed [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]].
+- **Office, not warehouse.** Biratka asked whether a warehouse is better, since the owner's staff can help. Irina: "нам туда не будет доступа"; Chudinov: network access is needed. Pavel's hybrid: take one or two machines first; if all works, "уверенно ехать в в любой варихаус" until a problem shows. Val first asked why location matters if there is a modem, then said he had misunderstood. Pavel: a remote modem is another network and needs a wrapper; Chudinov: modem access is "отдельная задача… Сложная" [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]].
+- **What the site needs** (Ivan): the right cables; a computer for the SAS emulator with a COM port, best from the motherboard — USB-to-COM works but gives problems; at least two cables, one from the Flex-Port and one from the emulator; and the IGT SAS host simulator he uses (transcript "Ig t sхозсемолета"; reading from the notes). Klimovich: "сейчас ни у кого ничего нету" — it all goes in the manual [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]].
+- **Which commands.** [[wiki/people/irina-shishko.md|Irina]]: there is a document with every command a machine must support, used for certification — go through it. Ivan: the risk is a maker adding something new [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]].
+- **JVL's own machines first.** Irina: "сначала бы на наших машинах пройти эту процедуру", with a near-final port and IQ; Elizabeth checks on a JVL machine, then repeats it on another maker's. Klimovich: "Поддерживаю" [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]. This is the order Val set on Sept 22 (above).
+- **After October 1.** Klimovich asked whether testing can start without IQ, which is not ready. Pavel: a machine emulator exists and an IQ emulator is coming. Chudinov: "Не будет акмулятора к 1 числу"; he would test with the terminal and add the SAS capture first. Klimovich: "Ну хорошо, тогда после 1 октября." Biratka: nothing stops the instruction starting now [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]].
+- **Tracked in Jira.** Klimovich will create a capability from the transcript. Pavel's wording: "флекспорт должен иметь возможность работать с cota EGMS" ("cota" unclear as spoken); first task, describe the procedure and equipment; Flex-Port changes may follow once real machines are tried. Irina: Ivan writes the instruction and attaches the emulator and the commands document. Ivan: "Я к понедельнику постараюсь всё это сделать." Pavel on the task: "Создаем, конечно" [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]].
+- **The site's kit.** Klimovich: "у нас есть все девайсы, у нас есть все харнесы"; missing parts arrive in a couple of days; there are Flexes of all kinds and Alters [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]].
+
+**Against the Sept-9 rule.** The rule stands and gets a method. The Sept-15 start did not happen; on this evidence third-party testing now waits until after October 1 (evolution, not a contradiction). A separate capability for other makers' machines moves toward Pavel's Sept-9 ask for two separate records, but the JVL-machine item is not mentioned, so his commitment stays open.
+
+### Open commitments (Sept 25 2026)
+
+- [ ] [[wiki/people/ivan.md|Ivan]] — write the set-up instruction for the compatibility test (hardware, cables, COM port, SAS emulator) and attach the emulator and the SAS commands document — due Mon Sept 28 2026 ("постараюсь") — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — create the capability for Flex-Port working with other makers' machines, from the transcript — due unspecified — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
+- [ ] Klimovich and the local team — once the set-up arrives, contact operators, borrow machines, bring them to the office and connect them to the MikroTik — due after October 1 — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
+
+### Open questions (Sept 25 2026)
+
+- Should Flex IQ record all SAS commands (except pings) in production? Chudinov: yes; Pavel: not MVP 1. Not settled — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
+- Can the SAS accumulator send every command InComm and Intralot send? Pavel's "в идеале"; not answered — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 - [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 - [[raw/Meeting_Notes_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
 - [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]

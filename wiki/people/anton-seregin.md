@@ -4,7 +4,8 @@ title: Anton Seregin
 date: 2026-07-13
 aliases: [Anton Seregin, Seregin, Anton Seryogin, Серёги, Серёгин]
 disambiguation: "Minsk payroll / React-TS front-end dev, this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 13
+source-count: 14
+open-commitments: 1
 ---
 
 # Anton Seregin
@@ -60,6 +61,18 @@ At the [[wiki/meetings/2026-09-24-daily-standup-firmware-delivery-and-capability
 - **The emulator.** He will move the FlexPay emulator across to Flex IQ "За сегодня". He emulates device behaviour, not screens, so it may work with little change. It runs only on his machine so far. See [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]] (Sept-24 update).
 - **A spike, proposed for him.** Pavel proposed he check how the current contract covers firmware delivery. See [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Sept-24 update).
 
+## Sept 25 2026 — progressive 12-60, conflicts with main, and the prose rule
+
+At the [[wiki/meetings/2026-09-25-daily-standup-engineering-menu-and-jira-discipline.md|Sept-25 Minsk stand-up]] (Russian; speaker label) [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]:
+
+- **Progressive work.** He is on "прогрессив 12, 60". His branch is old and conflicts with main ("редко уже далеко ушло"); he is sorting it out so it lands cleanly.
+- **Next.** He will write instructions for "IQ" to move a project across — "перетащил вот этому натор проект". Read as the emulator project, moving to Flex IQ (**inference**, from the Sept-24 plan below); the words are garbled.
+- **Prose.** Pavel asked that the prose lands with it. His branch predates the prose tooling, so he may need an extra branch from main to generate it. Pavel then stated the rule for every merge; see [[wiki/topics/github-release-management-pipeline.md]] (Sept 25).
+
+## Open commitments (Sept 25 2026)
+
+- [ ] Anton Seregin — resolve the conflicts with main, then write the instructions to move the project across, with its prose — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
+
 ## Sources
 
 - [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
@@ -75,3 +88,4 @@ At the [[wiki/meetings/2026-09-24-daily-standup-firmware-delivery-and-capability
 - [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]

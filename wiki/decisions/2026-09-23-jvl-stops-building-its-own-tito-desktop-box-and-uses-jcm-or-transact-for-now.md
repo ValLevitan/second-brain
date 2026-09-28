@@ -3,7 +3,7 @@ type: decision
 title: JVL stops building its own TITO desktop box for now — it connects JCM's or TransAct's to the IQ and offers both
 date: 2026-09-23
 aliases: [TITO desktop, DB9 serial connector, дебинайн, TransAct meeting Sept 24, тито десктоп, nobody needs it, никому не нужно, own TITO box stopped, GCM TITO desktop, TransAct TITO desktop, two options on IQ]
-source-count: 4
+source-count: 5
 status: active
 open-commitments: 3
 open-questions: 3
@@ -60,9 +60,21 @@ On the [[wiki/meetings/2026-09-24-hardware-repo-bom-source-of-truth-and-street-c
 
 **§15.8:** clear — product and market only.
 
+## Sept 25 2026 — the TransAct unit has "our Epic 950" inside, and Val approves Genadi's connector change
+
+On the [[wiki/meetings/2026-09-25-transactional-mvp1-flexport-third-party-egm-compatibility-testing.md|Sept-25 8:05 AM MVP 1 call]] (Russian) [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]:
+
+- **Klimovich pushed it.** "Это я написал письмо вал вам и геназию да, чтобы этот процесс двинуть… мы ждём какойто корпус там."
+- **What TransAct has.** [[wiki/people/pavel.md|Pavel]]: the day before there was a meeting "с Геннадием и с производителем вот этих вот эпиков"; "У транзакта у них уже есть… принтер, который с корпусом уже, а внутри стоит наш эпик 950", with the power supply inside. They talked about how to order exactly that version as fast as possible. Val had met them too. Val: "У них уже готовый taybeltop" (read as table-top; **inference**).
+- **Val's approval.** Val: "Геннадий хочет сделать небольшую поливозку на плате, чтобы поставить стандартный дебильной коннектор" — a small board change for a standard connector ("дебильной" read as the DB9 agreed on Sept 24 — **inference**). Val: "я дал санкцию… Этот вопрос практически закрыт."
+- **With today's board.** Klimovich asked how to connect the printer now. Pavel: make a cable to the black 10-pin connector; "Скорее всего, надо будет перепаять 2 провода".
+
+This moves the Sept-23 ruling on (use TransAct's or JCM's unit, not JVL's own box): TransAct's housed version is the one the team wants to order fast. Genadi's sample order stays open — no order is confirmed here.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
 - [[raw/Meeting_Notes_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
 - [[raw/Meeting_Notes_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]

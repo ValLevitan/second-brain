@@ -3,7 +3,7 @@ type: topic
 title: Docs-as-code and the plan to exit Atlassian
 date: 2025-02-21
 aliases: [docs as code, documentation site, GitHub Pages, GitHub Docs, mermaid, Confluence exit, Atlassian exit, single source of truth, template repo, contact sheet, GDD, markdown tooling, VS Code vs Obsidian, GitHub Sync, GitHub Desktop, code-first toolbox]
-source-count: 17
+source-count: 19
 open-questions: 3
 ---
 
@@ -126,6 +126,16 @@ The follow-up to the Apr-28 gate ([[wiki/meetings/2026-05-07-cas-cloud-migration
 - **Timeline + the May-14 kickoff.** Documentation grooming targets completion by **Thu May 14 2026**; Val will book a meeting **May 14 at 8:00am Eastern** to begin the tech-stack discussion, using as an **anchor** (explicitly "not the answer") the architectural proposal he previously generated via Claude and shared with the team — he stressed he is *not* the architect ("just a secretary who passed you the document") and engineering must produce its own counter-proposal. Val pegged the team as heavily loaded until roughly **June 1**, after which more architectural-thinking bandwidth opens up. [[raw/CAS_Cloud_Migration_ex-CMS_Grooming_Follow-up-May-7-2026.md]] [[raw/Meeting_Notes_CAS_Cloud_Migration_Sequencing-May-7-2026.md]]
 - **Tableau renewal approved.** [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] raised that the Tableau licence expires **May 23 2026**; with Anatoly's departure removing one seat the annual renewal is **USD $900/yr**. Val approved the annual renewal without hesitation ("trivial relative to the value"). §15.8 clear — a software-licence figure, no named-person compensation. [[raw/CAS_Cloud_Migration_ex-CMS_Grooming_Follow-up-May-7-2026.md]] [[raw/Meeting_Notes_CAS_Cloud_Migration_Sequencing-May-7-2026.md]]
 
+## Sept 25 2026 — the game team builds the first Nova products in Jira and Confluence, and Val warns of a later move
+
+At the end of the [[wiki/meetings/2026-09-25-georgia-progressives-and-class-a-lions-riches.md|Sept-25 2:32 PM game-development call]] [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]:
+
+- **Michael's notice.** "**this is all being done in Jira and Confluence. And I know that the guys are using GitHub for code, but you had mentioned at some point that we may be migrating to GitHub for other elements as well. So I'm just letting you know we're going full steam ahead with Confluence and… JIRA… for the first set of Nova products.**"
+- **Val's answer: go ahead, but expect redundancy.** "**there might be some redundancy and there might be some migration in the way. I cannot predict how and when. And honestly, I don't have the bandwidth for this right now.**" And: "**just don't get upset with me that it's partially redundant work.**"
+- **Lena: moving it later is easy.** "**we will transfer a conference document to M.D. when… it's needed**" ("conference" = Confluence, "M.D." = Markdown — both inference). Val: "**it's quite easy**".
+
+This keeps the Jan-2026 Confluence-to-GitHub direction above as intent, with no date. For the same morning's Jira discussion see [[wiki/decisions/2026-09-25-one-company-second-brain-feeds-an-ai-project-manager-for-jira.md]]. [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+
 ## Open questions
 
 - The initial Confluence-to-Markdown export was **incomplete**: the symbol table (symbol names + export naming) that exists in Confluence did **not** port. Aaron said Confluence's export may be lossy and it must be reconciled. [[raw/GitHub_commit_of_LFS_demo_by_Lena_2025-02-21.md]]
@@ -152,3 +162,5 @@ The follow-up to the Apr-28 gate ([[wiki/meetings/2026-05-07-cas-cloud-migration
 - [[raw/Meeting_Notes_CAS_Cloud_Migration_Sequencing-May-7-2026.md]]
 - [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]
 - [[raw/Meeting_Transcript_Clayton_Jira_MCP_Demo_and_Toolset_Direction-January-29-2026.md]]
+- [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- [[raw/Meeting_Notes_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]

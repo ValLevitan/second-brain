@@ -4,8 +4,8 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "IT (GitHub-admin, infrastructure, secrets/Azure, AI-tool accounts) — the IT-context "Dima". Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 38
-open-commitments: 11
+source-count: 41
+open-commitments: 14
 open-questions: 2
 ---
 
@@ -207,6 +207,39 @@ At the [[wiki/meetings/2026-09-24-nova-galaxy-jira-hierarchy-cleanup.md|Sept-24 
 
 - [ ] Dmitri Kovalchuk — rename the LGS and RGS Jira projects to match their repositories, keeping the keys (his proposal, which Val approved) — due unspecified — [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]
 
+## Sept 25 2026 (4:57 AM stand-up) — the discipline emails go out
+
+At the [[wiki/meetings/2026-09-25-daily-standup-engineering-menu-and-jira-discipline.md|Sept-25 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]:
+
+- **The emails are live.** The first went out that morning, only to people with problems, and they will come "Каждое утро". He showed HFM-671 (end date September 5), and named the other checks: over 14 days In Progress, a child open under a closed parent, a To-Do task with no dates. Fixes take "5, 10 минут через клод". See [[wiki/decisions/2026-09-17-planning-comes-off-pavel-and-goes-to-an-application-administrator.md]] (Sept-25 update).
+- **A second message.** Chudinov got a "hierarchy exceptions, Friday 25" message; Kovalchuk said it is a different one and he will come and look at it.
+
+## Sept 25 2026 (7:33 AM) — tasks straight to Claude, a shared knowledge base, and homework
+
+At the [[wiki/meetings/2026-09-25-ai-project-manager-for-jira.md|Sept-25 "JIRA management AI" call]] (Russian) [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]:
+
+- **Two problems, not one.** He split Val's problem into "не на кого назначить" and "нечего назначить" (tasks are not created).
+- **Assign tasks to Claude.** He proposed assigning some Jira tasks directly to Claude, which would open a pull request; JVL once tried to connect this and it stalled. Not adopted; Val wants it studied.
+- **A shared knowledge base.** Topics cross between meetings, so he suggested a server with one large knowledge base, like a second brain in Obsidian. He warned the data would be large and expensive, and that a pull request alone does not tell the AI to act.
+- **Homework.** He proposed that each person design their own version of the AI project manager before the next meeting; Val agreed. See [[wiki/decisions/2026-09-25-one-company-second-brain-feeds-an-ai-project-manager-for-jira.md]].
+
+## Open commitments (Sept 25 2026)
+
+- [ ] Dmitri Kovalchuk — look at the "Jira hierarchy exceptions" message Chudinov received — due unspecified ("я к тебе подойду") — [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
+- [ ] Dmitri Kovalchuk (with the others on the call) — think through how he would build the AI project manager — due Tuesday Sept 29 2026, 7:00 — [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]
+
+## Sept 25 2026 (9:02 AM) — project equals repository, and repositories come first
+
+At the [[wiki/meetings/2026-09-25-games-conversion-repos-jira-capabilities.md|Sept-25 9:02 AM games-conversion session]] (Russian) [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]:
+
+- **Initiative vs project.** When Val said he mixes them up, he answered "Проект равно репозиторию" and read the standard: an initiative is a long direction with several releases that "будет объединять несколько проектов"; capabilities gather features, and features "лежат в проектах".
+- **Order.** "Сначала репозитории создаем. Потом проект", because Jira project names match repository names.
+- **His job.** Val: he opens the two Jira projects for the conversion work. Detail on [[wiki/decisions/2026-09-25-the-conversion-experiment-closes-and-the-converter-gets-its-own-project-and-repository.md]].
+
+## Open commitments (Sept 25 2026, 9:02 AM)
+
+- [ ] Dmitri Kovalchuk — open the two Jira projects for the games-conversion work, named to match the repositories — due after the repositories exist — [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
@@ -247,3 +280,6 @@ At the [[wiki/meetings/2026-09-24-nova-galaxy-jira-hierarchy-cleanup.md|Sept-24 
 - [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
 - [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
+- [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]
+- [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]

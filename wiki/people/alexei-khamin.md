@@ -3,8 +3,8 @@ type: person
 title: Alexei Khamin
 date: 2025-04-22
 aliases: [Alexei Khamin, Aliaksey Khamin, Alexey Khamin, Khamin, Хамин, Khanin, Ханин, Kamin, Alexey Kamin, Lyosha, Лёша]
-source-count: 19
-open-commitments: 8
+source-count: 21
+open-commitments: 10
 ---
 
 # Alexei Khamin
@@ -100,7 +100,7 @@ On the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-au
 ## Open commitments (Sept 23 2026, 8:00 AM)
 
 - [x] Alexei Khamin — attach his five lost-money Flex-Port bugs to capability 231, "первым делом" — due Sept 23 2026 — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]] — **discharged Sept 24 2026:** linked under 231 — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
-- [ ] Alexei Khamin — build the tool or instruction set so Claude can generate the money-crediting test and check balances — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]] — **Sept 24 2026:** he expects the tooling ready that day, depending on the terminal test API — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+- [x] Alexei Khamin — build the tool or instruction set so Claude can generate the money-crediting test and check balances — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]] — **Sept 24 2026:** he expects the tooling ready that day, depending on the terminal test API — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]] — **discharged Sept 25 2026:** on the new test API his test "Заработал почти сразу"; Claude created a wallet, scanned it on the Flex-Port, chose an amount and checked the machine balance — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
 
 ## Sept 24 2026 — the lost-money bugs are linked, and stale docs confuse Claude
 
@@ -121,6 +121,31 @@ On the [[wiki/meetings/2026-09-24-transactional-mvp1-flexport-money-loss-bugs-an
 
 - [ ] Alexei Khamin — finish the test tooling, then start filling in tests — due Sept 25 2026 — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
 - [ ] Alexei Khamin — point his Claude at the repository standard and consult Bosik on the test repository — due unspecified — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+
+## Sept 25 2026 — tests may set the PIN and the lease, and a meeting with Alekseev
+
+At the [[wiki/meetings/2026-09-25-daily-standup-engineering-menu-and-jira-discipline.md|Sept-25 Minsk stand-up]] (Russian; label "Alexey Khamin") [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]:
+
+- **Status.** Mostly autotests; he waits for an API from a "Дима" (not resolved). His Sept-24 tooling commitment below is not reported as done.
+- **Test settings.** He asked that a test can set a cashier PIN and a lease directly on a terminal, for virtual terminals. Chudinov agreed, as long as the server may overwrite them. See [[wiki/topics/test-automation-strategy.md]] (Sept 25).
+- **His pull request.** It is still waiting. Pavel told him to request a meeting with [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]]; Irina: include Pavel.
+
+## Open commitments (Sept 25 2026)
+
+- [ ] Alexei Khamin — request a meeting with Evgeniy Alekseev about his waiting pull request, and include Pavel — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
+
+## Sept 25 2026 (8:05 AM) — the first test runs on the test API, and the test repository needs a shape
+
+On the [[wiki/meetings/2026-09-25-transactional-mvp1-flexport-third-party-egm-compatibility-testing.md|Sept-25 8:05 AM MVP 1 call]] (Russian) [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]:
+
+- **It works.** A Flex IQ version with Chudinov's test API went in about 20 minutes before the meeting, and his test "Заработал почти сразу". Claude ran a demonstration end to end: devices and machine balance, a wallet created on the terminal and scanned on the Flex-Port, the balance checked.
+- **The repository.** He is not merging Ivan's pull request yet: first, where tests go and how they are tagged so CI on one product's merge also runs related products' tests. Structure by Monday, with Claude instructions for the test standards; tests over the next two days; then CI with manual start. See [[wiki/topics/test-automation-strategy.md]] (Sept 25, 8:05 AM).
+- **Scope question.** He asked who would run the third-party machine tests and what result to expect: "надо бы сначала человека научить".
+
+## Open commitments (Sept 25 2026, 8:05 AM)
+
+- [ ] Alexei Khamin — settle the test-repository structure and test tags, and add Claude instructions with the test standards — due Mon Sept 28 2026 — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
+- [ ] Alexei Khamin — fill the repository with tests, then start CI with manual start — due about Sept 27 2026 — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
 
 ## Sources
 
@@ -143,3 +168,5 @@ On the [[wiki/meetings/2026-09-24-transactional-mvp1-flexport-money-loss-bugs-an
 - [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]

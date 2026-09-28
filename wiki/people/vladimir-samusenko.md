@@ -3,8 +3,8 @@ type: person
 title: Vladimir Samusenko
 date: 2026-02-04
 aliases: [Vladimir Samusenko, Vladimir, Vlad, Владимир, Самусенко]
-source-count: 17
-open-commitments: 7
+source-count: 18
+open-commitments: 9
 ---
 
 # Vladimir Samusenko
@@ -107,7 +107,20 @@ At the [[wiki/meetings/2026-09-24-daily-standup-firmware-delivery-and-capability
 
 ## Open commitments (Sept 24 2026)
 
-- [ ] Vladimir Samusenko — close the Flex-Port design task, open the pull request, and log tasks for the screens with no implementation — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
+- [ ] Vladimir Samusenko — close the Flex-Port design task, open the pull request, and log tasks for the screens with no implementation — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]] — *Sept 25: the missing screens already have tasks under capability 156; closing and the pull request not yet reported* [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
+
+## Sept 25 2026 — the missing screens all have tasks, and an engineering menu to sketch
+
+At the [[wiki/meetings/2026-09-25-daily-standup-engineering-menu-and-jira-discipline.md|Sept-25 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]:
+
+- **Screens.** He finished the Flex-Port fixes. Every missing screen already has a task under capability 156; the collector and claim screens wait for Flex-Port tasks 14, 15, 63 and 64. All his commits go into the "порт 9" branch, so the tasks ship together. This covers the "log the missing screens" part of his Sept-24 commitment below (the tasks exist); closing the design task and the pull request are not reported yet.
+- **Out of work soon.** He expected to finish "в течение… часа полутора" and then need new work. Pavel asked him to sketch an engineering menu for technicians in TouchGFX. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 25).
+- **An artifact for Pavel.** He will send Pavel the artifact describing all this, for Pavel's Claude or to read.
+
+## Open commitments (Sept 25 2026)
+
+- [ ] Vladimir Samusenko — sketch an engineering menu (network, last transactions, recent errors) for discussion — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
+- [ ] Vladimir Samusenko — send Pavel the artifact describing the missing screens and their tasks — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
 
 ## Sources
 
@@ -128,3 +141,4 @@ At the [[wiki/meetings/2026-09-24-daily-standup-firmware-delivery-and-capability
 - [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]

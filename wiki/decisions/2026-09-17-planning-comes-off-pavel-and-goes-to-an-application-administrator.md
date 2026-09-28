@@ -3,7 +3,7 @@ type: decision
 title: Planning comes off Pavel Frolov and goes to an "application administrator" — Dmitri Kovalchuk proposed, not yet agreed
 date: 2026-09-17
 aliases: [planning comes off Pavel, application administrator, аппликейщен администратор, Dima Kovalchuk administrator, Зиму Ковальчука, planning handover, полный трансперация, Pavel comes to Atlanta]
-source-count: 5
+source-count: 7
 status: active
 open-commitments: 3
 open-questions: 2
@@ -83,6 +83,24 @@ At the [[wiki/meetings/2026-09-24-nova-galaxy-jira-hierarchy-cleanup.md|Sept-24 
 
 *This is a concrete task, not acceptance of the "application administrator" role; whether he has taken that role is still an **inference**.*
 
+## Update, Sept 25 2026 (4:57 AM) — the discipline emails go live, and "everyone watches their own dates"
+
+At the [[wiki/meetings/2026-09-25-daily-standup-engineering-menu-and-jira-discipline.md|Sept-25 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]:
+
+- **The first emails went out that morning.** Kovalchuk: "всем сегодня, у кого есть всякие недочёты было. Посланное Сообщение". They come by email, "Каждое утро", and "Будет приходить только тем, у кого есть" problems — "Если кому то не пришло, значит, у вас всё хорошо."
+- **What the report flags.** He showed task HFM-671 with an end date of September 5 ("Дата окончания 5 сентября"); a task In Progress for more than 14 days; a child still in progress under a closed parent; and a To-Do task with no dates.
+- **How to fix.** By hand, or "за 5, 10 минут через клод" — ask Claude to move the dates or check the statuses. Claude can also help plan, for example laying work out "лесенкой" at two features a day. Moving dates by one command means Pavel does not spend meeting time on it.
+- **A different message.** Chudinov had also received "аджеро херархик сепшнс пятница 25" (Jira hierarchy exceptions, Friday 25). Kovalchuk: "Это не то" — he will come and look at it.
+- **Pavel closed it:** "всё начинаем каждый смотреть за своими сроками."
+
+*(Who had the most problems is not recorded — §15.8. Whether this is Kovalchuk acting as the application administrator is still an **inference**.)*
+
+## Update, Sept 25 2026 (7:33 AM) — the report exists; Val likes it, but it needs the right assignees
+
+At the [[wiki/meetings/2026-09-25-ai-project-manager-for-jira.md|Sept-25 "JIRA management AI" call]] (Russian) [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]], Val asked for daily reminder reports from "дима или Андрей". Bosik: these "уже делаются" — each person gets their own Jira information, and a similar mailing exists for GitHub. Pavel: "дима буквально вчера или сегодня сделал". Val: he saw the report, "Репорт замечательно, мне очень нравится", and it led him to call the meeting — but it will work only "с условием, что сделан правильный ассальным на людей." He then set a wider direction: [[wiki/decisions/2026-09-25-one-company-second-brain-feeds-an-ai-project-manager-for-jira.md]].
+
+*(Val again framed the problem as Pavel doing the assigning for everyone. His personal remarks about Pavel are not recorded — §15.8.)*
+
 ## Open commitments
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] / [[wiki/people/irina-shishko.md|Irina Shishko]] — persuade [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] to come in as application administrator ("Както нужно уговорить. Это вам.") — due unspecified — [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
@@ -105,3 +123,5 @@ At the [[wiki/meetings/2026-09-24-nova-galaxy-jira-hierarchy-cleanup.md|Sept-24 
 - [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
 - [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
+- [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]

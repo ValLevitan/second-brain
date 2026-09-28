@@ -4,8 +4,8 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 66
-open-commitments: 30
+source-count: 68
+open-commitments: 32
 open-questions: 0
 ---
 
@@ -416,7 +416,7 @@ On the [[wiki/meetings/2026-09-24-transactional-mvp1-flexport-money-loss-bugs-an
 
 ## Open commitments (Sept 24 2026, 8:01 AM)
 
-- [ ] Dmitri Chudinov — finish the terminal test API (task "56") so autotests run with no person — due Sept 24 2026 (as he said it) — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+- [x] Dmitri Chudinov — finish the terminal test API (task "56") so autotests run with no person — due Sept 24 2026 (as he said it) — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]] — **discharged Sept 25 2026:** a Flex IQ version with the test API ("Это вот дима делал") was installed about 20 minutes before the 8:05 AM call, and Khamin's test worked on it — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
 
 ## Sept 24 2026 (10:00 AM) — "90% of work crosses repositories", and Galaxy with NOVA
 
@@ -426,6 +426,36 @@ At the [[wiki/meetings/2026-09-24-nova-galaxy-jira-hierarchy-cleanup.md|Sept-24 
 - **Galaxy.** Server and machine capabilities belong together: either all under Galaxy or all under NOVA, or they split again. He asked whether only two platforms should remain (CMS as fading legacy), with progressives and math moving to NOVA. Not settled.
 - **Reservation.** "Давайте сначала сделаем, а потом посмотрим" — he wants to see the filters work first.
 - Val asked him and Biratka to move their own capabilities by the next morning. Commitment on [[wiki/decisions/2026-09-24-capabilities-sit-in-one-flat-list-under-each-platform-and-releases-are-timeline-lines-not-initiatives.md]].
+
+## Sept 25 2026 — capability 152, test settings, update variables, and Claude on the mock-ups
+
+At the [[wiki/meetings/2026-09-25-daily-standup-engineering-menu-and-jira-discipline.md|Sept-25 Minsk stand-up]] (Russian; label "Dzmitry Chudzinau") [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]:
+
+- **Capability 152.** "Я работаю по cabolity 152" — a batch is closing, and about three items remain.
+- **Test settings.** Tests may set the cashier PIN and the lease; the server may overwrite them; no "do not overwrite" flag logic. See [[wiki/topics/test-automation-strategy.md]] (Sept 25).
+- **Update variables.** With Andrei ([[wiki/people/andrey-bosik.md|Bosik]], by context) he will review the GitHub variables for updates: common to all terminals versus per terminal. See [[wiki/topics/github-release-management-pipeline.md]] (Sept 25).
+- **Screens.** Let Claude build the screens roughly from Andrei's mock-ups now, and check the mismatches at the end.
+- **A message.** He received "hierarchy exceptions, Friday 25"; Kovalchuk will look at it.
+
+## Open commitments (Sept 25 2026)
+
+- [ ] Dmitri Chudinov — think about test settings for the PIN and the lease, and send a list of other needed items — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
+- [ ] Dmitri Chudinov, with Andrey Bosik — review the GitHub update variables (common versus per terminal) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
+
+## Sept 25 2026 (8:05 AM) — record the raw SAS traffic, no accumulator by the 1st, and a Monday build
+
+On the [[wiki/meetings/2026-09-25-transactional-mvp1-flexport-third-party-egm-compatibility-testing.md|Sept-25 8:05 AM MVP 1 call]] (Russian) [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]:
+
+- **SAS capture.** He proposed that IQ and the port send the SAS commands a machine sends to a website, so JVL's machine and another maker's can be compared "буквально дату", not through logs. Asked whether it should run in production, he said "я бы собирал, потому что будет полезно"; Pavel put it beyond MVP 1.
+- **The 1st.** "Не будет акмулятора к 1 числу." He would test with the terminal and add the SAS capture first; the terminal is not 100% ready "но он работоспособен".
+- **Test API delivered.** Khamin's test ran on the Flex IQ version with the test API — "Это вот дима делал" (him, by context).
+- **Monday build.** "наверное, в понедельник" a Flex IQ build with the printer set up; card activation lacks some screens, the main flow works.
+- **While Klimovich is away** he asked how conflicts between requirements and capabilities get settled; the answer was Teams and the daily syncs.
+- See [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] (Sept-25 update) and [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 25, 8:05 AM).
+
+## Open commitments (Sept 25 2026, 8:05 AM)
+
+- [ ] Dmitri Chudinov — give Klimovich a Flex IQ build with the printer set up and connected — due Mon Sept 28 2026 ("наверное") — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
 
 ## Sources
 
@@ -495,3 +525,5 @@ At the [[wiki/meetings/2026-09-24-nova-galaxy-jira-hierarchy-cleanup.md|Sept-24 
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
 - [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]

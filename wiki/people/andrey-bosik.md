@@ -4,8 +4,8 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 103
-open-commitments: 39
+source-count: 107
+open-commitments: 43
 ---
 
 # Andrey Bosik
@@ -470,6 +470,42 @@ At the [[wiki/meetings/2026-09-24-nova-galaxy-jira-hierarchy-cleanup.md|Sept-24 
 - **The rename.** "у нас 15 репозиториев, которые содержат" "omni" in the name, to become "nova". Renaming affects cross-repository build dependencies; developers must fix their own builds. Val: go ahead now. Commitment on [[wiki/topics/nova-platform-architecture.md]] (Sept 24 section).
 - **Forward fix.** He asked how a hot fix outside a planned release fits ("модели форварденг"). See [[wiki/topics/github-release-management-pipeline.md]] (Sept 24 section).
 
+## Sept 25 2026 (4:57 AM, in absentia, by context) — repository keys and update variables
+
+At the [[wiki/meetings/2026-09-25-daily-standup-engineering-menu-and-jira-discipline.md|Sept-25 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]], [[wiki/people/alexander-biratka.md|Biratka]] said "Андрей там создал нужные ключи там, которые есть в репозитории" for the updates, and [[wiki/people/dmitri-chudinov.md|Chudinov]] will review the GitHub update variables "с Андреем". Both read as Bosik **by context** (DevOps, GitHub). See [[wiki/topics/github-release-management-pipeline.md]] (Sept 25).
+
+## Sept 25 2026 (7:33 AM) — the reports already exist, Claude over-complicates, and "Tuesday at least"
+
+At the [[wiki/meetings/2026-09-25-ai-project-manager-for-jira.md|Sept-25 "JIRA management AI" call]] (Russian; label "Andrei Bosik") [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]:
+
+- **Reports.** Val's first two points "уже делаются": personal Jira reports, plus a similar GitHub mailing.
+- **Tasks straight to Claude.** "есть такой функционал, но он страшно."
+- **Claude over-complicates.** When it drafts features "он зачастую накручивает" things the team does not need.
+- **A project-manager role.** "по сути то нам нужен, наверное, роль проджект менеджера."
+- **Hard parts.** The architecture is not simple, and getting meeting transcripts out of Azure is hard. He suggested gaps be confirmed by email with the task owner before a Jira task is made; Git is not the right tool for it.
+- **Timing.** He asked to meet on Tuesday rather than Monday. See [[wiki/decisions/2026-09-25-one-company-second-brain-feeds-an-ai-project-manager-for-jira.md]].
+
+## Open commitments (Sept 25 2026)
+
+- [ ] Andrey Bosik (with the others on the call) — think through how he would build the AI project manager — due Tuesday Sept 29 2026, 7:00 — [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]
+- [ ] Andrey Bosik, with Dmitri Chudinov — review the GitHub update variables (common versus per terminal) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
+
+## Sept 25 2026 (8:05 AM) — a distribution list for the transactional system
+
+On the [[wiki/meetings/2026-09-25-transactional-mvp1-flexport-third-party-egm-compatibility-testing.md|Sept-25 8:05 AM MVP 1 call]] (Russian): Klimovich asked for a mailing group for his daily report. Bosik: "дистрибьюшен лист можно создать под транзакшн систем"; he questioned adding a Zhenya ("вроде транзакционной не занимается") and then agreed. "Хорошо я создам… я тебе Андрей скину имя дистрибьюшен листа" [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]].
+
+## Open commitments (Sept 25 2026, 8:05 AM)
+
+- [ ] Andrey Bosik — create a distribution list for the transactional system and send its name to Klimovich — due unspecified — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
+
+## Sept 25 2026 (9:02 AM) — the conversion repositories
+
+At the [[wiki/meetings/2026-09-25-games-conversion-repos-jira-capabilities.md|Sept-25 9:02 AM games-conversion session]] (Russian) he opened: the repositories Val asked for by email were not created yet, because of open questions. His view: documentation "не должна быть оторвана от от продукта" — game material in the game's repository, shared material in the framework repository. He first agreed to keep the converter in the game's repository, then asked how reusable it is (10% vs 90%). He already keeps a tools folder for scripts. By context he creates the two repositories (**inference**; the line is garbled) [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]. Detail on [[wiki/decisions/2026-09-25-the-conversion-experiment-closes-and-the-converter-gets-its-own-project-and-repository.md]].
+
+## Open commitments (Sept 25 2026, 9:02 AM)
+
+- [ ] Andrey Bosik (by context) — create the repositories for the two conversion projects, including the converter's — due before Wed Sept 30 2026 — [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
@@ -578,3 +614,7 @@ At the [[wiki/meetings/2026-09-24-nova-galaxy-jira-hierarchy-cleanup.md|Sept-24 
 - [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
 - [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
+- [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
+- [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]

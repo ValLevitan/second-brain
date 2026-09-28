@@ -4,8 +4,8 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 176
-open-commitments: 83
+source-count: 181
+open-commitments: 86
 open-questions: 0
 ---
 
@@ -887,9 +887,53 @@ At the [[wiki/meetings/2026-09-24-nova-galaxy-jira-hierarchy-cleanup.md|Sept-24 
 - **Naming.** IP 738 "Core" is really helper tools; he agreed to "Назовем это кор" for the new stream. He accepted the flat list: "это в принципе всех устраивает такой подход."
 - Val named him the most likely NOVA product manager for now. Val does not want him acting as the team's secretary. See [[wiki/decisions/2026-09-24-capabilities-sit-in-one-flat-list-under-each-platform-and-releases-are-timeline-lines-not-initiatives.md]].
 
+## Sept 24 2026 (11:46 AM) — he lists what the V-1000 modem does today
+
+On the [[wiki/meetings/2026-09-24-v-1000-modem-current-use-cases.md|Sept-24 11:46 AM modem call]] (Russian) Val asked him to say in words what the modem can do. He named four things: pass the RIS step at setup after a factory reset or install, update the lease on its cycle, send the game and service statistics (untested — "никто не проверял на модеме"), and no software updates ("Нет, ничего"). Detail on [[wiki/projects/georgia-market-rollout.md]] (Sept 24, 11:46 AM) and [[wiki/topics/machine-data-repurchase-program.md]] (Sept 24). In Jira he confirmed capability 109 covers what was built, proposed Irina as reporter when he cannot be, and moved the old modem IP work toward a capability — see [[wiki/topics/github-release-management-pipeline.md]] (Sept 24, 11:46 AM) [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]].
+
+## Open commitments (Sept 24 2026, 11:46 AM)
+
+- [ ] Pavel Frolov, with [[wiki/people/irina-shishko.md|Irina Shishko]] — finish the modem Jira clean-up: move out features that do not belong to the capability, add another capability if needed, fix parents — due unspecified (Val left it to them after the meeting) — [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]]
+- [ ] Pavel Frolov — check whether the modem's statistics reach JVL's reporting server ("Это вопрос надо смотреть я я не помню") — due unspecified — [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]]
+
 ## Sept 24 2026 (4:38 PM) — a USB stick to flash modem firmware (reported by Genadi)
 
 On the [[wiki/meetings/2026-09-24-hardware-repo-bom-source-of-truth-and-street-cabinet-layout.md|Sept-24 4:38 PM alignment call]] (Pavel not present), [[wiki/people/genadi-peari.md|Genadi]] said he and Pavel had agreed about an hour earlier that Pavel will prepare a USB stick which, plugged into a machine, upgrades the modem firmware automatically; he also said the LTE module chosen with Pavel works after a firmware upgrade. The commitment is held on [[wiki/decisions/2026-09-04-north-america-modem-variant-and-ask-kore-for-the-apn.md]] (Sept-24 update). [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+
+## Sept 25 2026 (4:57 AM) — an engineering menu, prose on every merge, and "everyone watches their own dates"
+
+He ran the [[wiki/meetings/2026-09-25-daily-standup-engineering-menu-and-jira-discipline.md|Sept-25 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]:
+
+- **Engineering menu.** He proposed a hidden TouchGFX menu for technicians, opened by a special QR code, with network status, last transactions and recent errors; IP addresses matter most to him. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 25).
+- **Prose.** On every merge into main or a top-level branch, the prose must be updated to match the code. See [[wiki/topics/github-release-management-pipeline.md]] (Sept 25).
+- **Jira dates.** After Kovalchuk's discipline emails: "всё начинаем каждый смотреть за своими сроками." See [[wiki/decisions/2026-09-17-planning-comes-off-pavel-and-goes-to-an-application-administrator.md]] (Sept-25 update).
+- **Alekseev.** He told Khamin to request a meeting with Alekseev about Khamin's waiting pull request.
+
+## Sept 25 2026 (7:33 AM) — he already drafts tasks with Claude, and Git is the wrong tool
+
+At the [[wiki/meetings/2026-09-25-ai-project-manager-for-jira.md|Sept-25 "JIRA management AI" call]] (Russian) [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]:
+
+- **His method.** After a meeting he asks Claude to compare the talk with existing tasks and propose, not create, new ones. It writes better than a person, but takes about the same time. See [[wiki/topics/ai-assisted-development.md]] (Sept 25, 7:33 AM).
+- **Knowledge.** Every company meeting should reach one knowledge base, because each person's is local. He records his meetings.
+- **Running it.** The manager should run at set times and look for missing tasks and gaps; he called assigning tasks straight to Claude "Радикальный", and said Git is not the right tool for approvals. See [[wiki/decisions/2026-09-25-one-company-second-brain-feeds-an-ai-project-manager-for-jira.md]].
+
+## Open commitments (Sept 25 2026)
+
+- [ ] Pavel Frolov (with the others on the call) — think through how he would build the AI project manager — due Tuesday Sept 29 2026, 7:00 — [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]
+
+## Sept 25 2026 (8:05 AM) — the two-SAS test set-up, the capability's wording, and the printer cable
+
+On the [[wiki/meetings/2026-09-25-transactional-mvp1-flexport-third-party-egm-compatibility-testing.md|Sept-25 8:05 AM MVP 1 call]] (Russian) [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]:
+
+- **Test set-up.** The machine comes to the office on the network Minsk can reach; "Нам надо подключать 2 сасса" — the accumulator on one, the Flex-Port on the other. His "дампер" idea matches Chudinov's SAS capture; full statistics are "не один это может быть MVP 23". His hybrid: one or two machines first, then warehouses.
+- **The capability.** "флекспорт должен иметь возможность работать с cota EGMS" ("cota" unclear), first task the procedure and equipment. See [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] (Sept-25 update).
+- **Printer.** He reported the TransAct meeting and the cable for today's board ("перепаять 2 провода"). See [[wiki/decisions/2026-09-23-jvl-stops-building-its-own-tito-desktop-box-and-uses-jcm-or-transact-for-now.md]] (Sept-25 update).
+- **Jira plan.** He shared it; 156's start date must be fixed; 67 seems to lack a testing task; he confirmed development is planned to the 7th.
+- **Claude and the hooks.** His Claude found and pressed the machine's Play button through generated button presses.
+
+## Sept 25 2026 (9:02 AM) — SVN links only, a tools folder, and the initiative for the conversion work
+
+At the [[wiki/meetings/2026-09-25-games-conversion-repos-jira-capabilities.md|Sept-25 9:02 AM games-conversion session]] (Russian) [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]: ADRs about moving games from SVN go into the NOVA framework repository with a link to SVN — "в с в н ничего не комитить только в гид". He first disliked a separate repository for the converter, then agreed after Irina's question ("Раз он не нужен после Того, как один раз применился… лучше выносить"). He keeps scripts in a "каталог тулз". He was "не уверен на 100%" whether the geometry standard is a standard. He named the initiative "снова геймин платформ лэндбэйст" and the RAGE-to-NOVA conversion capability, and supplied the term data contract. Detail on [[wiki/decisions/2026-09-25-the-conversion-experiment-closes-and-the-converter-gets-its-own-project-and-repository.md]].
 
 ## Sources
 
@@ -1072,3 +1116,8 @@ On the [[wiki/meetings/2026-09-24-hardware-repo-bom-source-of-truth-and-street-c
 - [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
 - [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
+- [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
+- [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]
+- [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]]

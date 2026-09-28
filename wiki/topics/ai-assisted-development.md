@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, truth as code, knowledge work framework, keep Jira current, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, Copilot Studio, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest, LaTeX, printer tool, Ollama, llama.cpp, local inference, Code Llama, Hugging Face, Claude Code, AI sandwich, developer experience, think like a data scientist, sub-agents, verbose output, compiler layer, ways vs skills, ADR, cross-examination, Python Vulture, intelligence center, Waze system, ways framework, compiler stack diagram, module federation, Aaron ways system, Ways ADR, Ways capabilities catalog, regulatory provenance chain, JVL Ways pipeline, ways branch architecture, trusted stage users, clean environment lesson, engagement auditor agent, translation service, terminology override table, GitHub Enterprise fork, JVL GitHub Ways architecture guide, Capability Ticket, Jira hierarchy restructure, engineering guides, architecture black hole, Piratka, prose standard, code to prose, capability extraction, 29 capabilities, AI flattery caution, agent setup, prose initialization skill, prose skill, dependency-tree mapping, prose pending folder, contracts written by Claude, development pipeline end to end, clean-session evaluation, naming by Claude]
-source-count: 167
+source-count: 169
 ---
 
 # AI-assisted development adoption
@@ -971,6 +971,25 @@ At the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-tests.
 - **Changed capabilities need a signal.** New requirements will land in existing capabilities as the design goes in. Klimovich will send a plain list of changed capabilities so the developers can tell Claude to re-read them. Pavel: "Это будет очень полезно", because such features are now found "слишком поздно… когда уже дойдём до реализации", and a list is faster than Claude checking every task's history. [[wiki/people/andrey-bosik.md|Bosik]]: keep each capability "по принципу [ADR]" — add the date and what changed. Chudinov: Claude still has to be told to re-read each time. Klimovich will run the list for a day or two and think about the process after [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]].
 - **Val's version of the same idea, for tests.** With good requirements, acceptance criteria, features, code in the right repositories and written prose, "в теории… [Клод] должен с этим справиться" — see [[wiki/topics/test-automation-strategy.md]] (Sept 22, 8:01 AM).
 
+## Sept 25 2026 (4:57 AM) — Claude moves Jira dates in minutes, and builds screens from the mock-ups first
+
+At the [[wiki/meetings/2026-09-25-daily-standup-engineering-menu-and-jira-discipline.md|Sept-25 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]:
+
+- **Jira upkeep through Claude.** [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]]: the problems in the new daily Jira emails can be fixed by hand "либо за 5, 10 минут через клод" — ask it to move dates or check statuses. People can feed the email to Claude and ask for help, or ask it to plan work, for example "из расчета там 2 фичи в день", and "он там выставит всё лесенкой". Moving tasks a day forward is "одной командой". See [[wiki/decisions/2026-09-17-planning-comes-off-pavel-and-goes-to-an-application-administrator.md]] (Sept-25 update).
+- **Screens from the mock-ups.** [[wiki/people/dmitri-chudinov.md|Chudinov]]: let Claude look at Andrei's mock-ups and build the screens roughly to them now, then check all mismatches at the end. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 25).
+- **Documents for someone else's Claude.** [[wiki/people/vladimir-samusenko.md|Vladimir]] will send Pavel the artifact describing the screens: "можешь плоду своему скормить или сам почитать" ("плоду" = Claude, the usual garble).
+
+## Sept 25 2026 (7:33 AM) — how the team already drafts tasks with Claude, and Val's limits for an AI project manager
+
+At the [[wiki/meetings/2026-09-25-ai-project-manager-for-jira.md|Sept-25 "JIRA management AI" call]] (Russian) [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]] — the direction itself is on [[wiki/decisions/2026-09-25-one-company-second-brain-feeds-an-ai-project-manager-for-jira.md]]:
+
+- **Pavel's practice.** After a meeting he gives Claude the recording and asks it to compare what was discussed with the tasks already created, and to **propose** — "Я говорю, предложи я не говорю, создай" — which features or requirements to add. He then tells it which to create and which to merge. The result "прописано лучше, чем человек прописывает", but "я бы наверное потратил то же время заводя это сам."
+- **Bosik's experience.** Claude "зачастую накручивает" — it adds things the team does not need, and he has to cut them back. Pavel: when it has too little context "он там начинает фантазировать"; but mostly it is on topic, and the tasks are simply "избыточны для нас".
+- **Val's answer: firm limits in the prompt.** Tell it the transcript is the fact and the standards are the fact; let it look at the code repositories; tell it "компания 20 человек, что у нас не хватает ресурсов", and how many tasks it may create. "Нельзя просто один раз сказать и рассчитывать, что он это сделает" — the prompt must be polished over time.
+- **Tasks straight to Claude — tried once, not adopted.** [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] proposed assigning Jira tasks directly to Claude, which would open a pull request; he said JVL once tried to connect this and "Это вопрос заглох". Seen as risky; Val wants it studied first. *(No date is given for the earlier trial.)*
+- **ESL output.** Val: the prompt should ask for English for second-language readers, and he tells his own prompt to keep replies to no more than 30 seconds of reading.
+- **Val's own persona.** Val said he set up a persona for himself ("персонаж, как EI chol") that works very well — most likely his AI-CFO (**inference**; the word is garbled).
+
 ## Sources
 - [[raw/Meeting_Transcript_Clayton_Chancey_Initial_AI_Consulting_Engagement-January-23-2026.md]]
 
@@ -1140,3 +1159,5 @@ At the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-tests.
 - [[raw/Meeting_Transcript_Clayton_Jira_MCP_Demo_and_Toolset_Direction-January-29-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
+- [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]

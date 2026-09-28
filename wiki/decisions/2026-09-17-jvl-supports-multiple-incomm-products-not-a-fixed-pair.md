@@ -3,7 +3,7 @@ type: decision
 title: JVL supports multiple InComm card products, not a hard-coded pair — a collection of products per location on the payment hub, identified by the UPC in the barcode; MVP 1 delivers ONE product (owner ruling 2026-09-20)
 date: 2026-09-17
 aliases: [multi-product, мультипродукты от инкома, collection of products, UPC is the product, product not available, SkillPay, Skill Pay, скилл пэй, скилпы, PrizePay, прайс пэй, PricePay, activation fee two dollars three dollars, payment hub product collection, location manager UPC check, add product, per-product limits and fees, second payment provider, capability 178, InComm card configuration capability, two products will not be in MVP1, 178 must be MVP1, single product fallback, UPC plus card code, card number not used, if SkillPay stays on the market, product field informational only]
-source-count: 7
+source-count: 8
 status: active — the payment-hub multi-product design stands. Its MVP 1 SCOPE was contested on Sept 18 2026 and is now SETTLED by owner ruling 2026-09-20: two-product support is not in MVP 1.
 open-commitments: 4
 open-questions: 6
@@ -156,6 +156,10 @@ At the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-au
 
 **§15.8:** clear — card-product economics (activation fees, load limits) are product economics, not any named person's pay; no compensation or performance judgement appears. **§15.9:** no UPC value, card number, endpoint address or credential was spoken — UPCs and card numbers are discussed only as *fields* in a barcode.
 
+## Update, Sept 25 2026 — 178 still on the Jira plan
+
+At the [[wiki/meetings/2026-09-25-transactional-mvp1-flexport-third-party-egm-compatibility-testing.md|Sept-25 8:05 AM MVP 1 call]], during the Jira-plan review (poor audio), [[wiki/people/irina-shishko.md|Irina]] asked "Так а 178 кудато?" and a little later "А это на диме" (read as on Chudinov; whether "это" means 178 is **unclear**) [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]. Nobody said 178 is in or out of MVP 1. **This does not reopen the owner ruling** of 2026-09-20 (not in MVP 1); it is one more sign that 178 still sits on the working plan. The derived notes omit the passage.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
@@ -165,3 +169,4 @@ At the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-au
 - [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]

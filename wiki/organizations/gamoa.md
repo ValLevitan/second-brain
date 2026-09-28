@@ -3,7 +3,7 @@ type: organization
 title: GAMOA — the Georgia coin-operated amusement machine operators' association
 date: 2026-09-01
 aliases: [GAMOA, GOAM, Demola, Gamal, seventy thirty, you are ostracized, indecision is the worst decision, GMUA, Gamua, Gamboa, Gomoa, Gomorrah, Georgia operators association, the state association, the association, GAMOA board, GAMOA show, GAMOA expo, gift-card lobbying]
-source-count: 13
+source-count: 14
 open-commitments: 0
 open-questions: 2
 ---
@@ -118,6 +118,10 @@ Discussing a **September-2 letter** worrying that players now reach cash too qui
 **§15.8:** clear — association budget structure, membership and board composition, show economics and political-spending mechanics only. The one pay-related statement in the source (that a single administrator is salaried while the board volunteers) carries **no figure**, and none is recorded.
 
 
+## Sept 25 2026 — "responses… to what GAMOA is doing", as InComm's departing lead put it
+
+On the [[wiki/meetings/2026-09-25-incomm-john-exit-and-blue-card-hold.md|Sept-25 phone call]], Val told [[wiki/people/john-houseal.md|John]] of [[wiki/organizations/incom.md|InComm]] he assumed the Blue Card would not go forward. John: "**I think you're going to see some responses here shortly to what GAMOA is doing. We'll see what happens.**" What GAMOA is doing is not described. Asked whether GAMOA wants the card, John did not know, but said that as far as it follows [[wiki/people/sean-fellows.md|Sean Fellows]], "the answer is no" [[raw/Meeting_Transcript_InComm_John_Exit_and_Blue_Card_Hold-September-25-2026.md]].
+
 ## History — May 18 2026: the president declines to endorse InComm's ATM-card pilot (as relayed)
 
 On the [[wiki/meetings/2026-05-18-ga-trip-recap-kiosk-intel.md|May-18 GA trip recap]] [[wiki/people/felipe-miranda.md|Felipe]] reported that, after [[wiki/people/john-houseal.md|John Houseal]] presented InComm's gift-card-to-ATM pilot at the meeting they attended, "Mike Patel then took the stage and they say, 'Listen, we are not endorsing this product.'" Felipe's reason: fear it will "trigger more investigation". Val's reading: Patel "doesn't want to bring spotlights to the business." Separately, Felipe said that at "the Kamau meeting" (read as GAMOA — inference) an operator told him a request to the Georgia Lottery to extend the July-1 deadline by "at least another year" was denied. Whether the pilot presentation was the same meeting is not stated. [[raw/Meeting_Transcript_GA_Trip_Recap_Kiosk_Intel-May-18-2026.md]]
@@ -137,3 +141,4 @@ On the [[wiki/meetings/2026-05-18-ga-trip-recap-kiosk-intel.md|May-18 GA trip re
 - [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Rich_Winley_Georgia_COAM_Market_Intel-January-27-2026.md]]
 - [[raw/Meeting_Transcript_GA_Trip_Recap_Kiosk_Intel-May-18-2026.md]]
+- [[raw/Meeting_Transcript_InComm_John_Exit_and_Blue_Card_Hold-September-25-2026.md]]

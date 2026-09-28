@@ -2,8 +2,8 @@
 type: person
 title: Sergey Vysotsky
 date: 2026-09-22
-aliases: [Sergey Vysotsky, Сергей Высоцкий, Sergey (digital growth)]
-source-count: 1
+aliases: [Sergey Vysotsky, Сергей Высоцкий, Sergey (digital growth), Vysotski]
+source-count: 2
 open-commitments: 0
 open-questions: 1
 disambiguation: "Outside digital-growth specialist working with Andrei Klimovich (ECHO growth; proposed for the Georgia location-owner task). Not Sergey Tsymanov (Minsk CMS/backend engineer, wiki/people/sergey-tsymanov.md), not Sergey Kleimenychev (wiki/people/sergey-kleimenychev.md), not Sergei Novitsky (technician, wiki/people/sergei-novitsky.md). Resolve by context: digital marketing / growth strategy → this page."
@@ -30,11 +30,16 @@ Sergey Vysotsky is a **digital-growth specialist** who works with [[wiki/people/
 
 Klimovich recommended him for the first part of Val's Georgia demand plan — building a list of location owners who agree to be contacted: "задача… Сергею подходит идеально". Val wants to be present when Sergey is briefed. Klimovich will pass him the context in writing, and if Sergey takes the task, set up a call with Val. See [[wiki/projects/georgia-market-rollout.md]] (Sept 22) [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]].
 
+## Sept 25 2026 — he takes the weekend to think
+
+On a [[wiki/meetings/2026-09-25-promo-flier-review-and-sergey-vysotsky-wait.md|Sept-25 call]] (session title "…Vysotski deployment") Klimovich told Val: "по поводу Сергея, я ему в среду переслал. Он посмотрел, сказал, что он подумает на выходных и ответит." The weekend is Saturday–Sunday Sept 26–27. Val: "значит мы ждём". If Sergey is ready to talk, they meet the following week. The transcript says only "Сергей"; he is this Sergey by the session title and the Sept-22 plan. What was forwarded is not stated [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]].
+
 ## Open questions
 
-- Whether Sergey takes the Georgia location-owner task. Klimovich expected him to be ready to talk "завтра" (Sept 23) — [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]]
+- Whether Sergey takes the Georgia location-owner task. Klimovich expected him to be ready to talk "завтра" (Sept 23) — [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]] — *Sept 25: still open; he is to answer after the weekend of Sept 26–27* — [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]]
 
 **§15.8 exclusion:** Val asked about his age, how Klimovich knows him and whether he is reliable. The answers — his age, a family connection, the state of his private business, and Klimovich's personal assessment of him — are **not recorded**. Val's own reaction is also a personal judgement and is not recorded. No pay or rate was spoken.
 
 ## Sources
 - [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]]

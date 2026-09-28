@@ -3,7 +3,7 @@ type: decision
 title: Georgia COAM Class A (V43) is built on NOVA, not RAGE — Nebraska keeps precedence and February 1 is a goal, not a commitment
 date: 2026-09-11
 aliases: [Class A on Nova, Georgia Class A V43 Nova, Class A V43 Nova, do not do it on Rage, Rage needs to end, let's just now park it, Nebraska takes the precedence, February 1st is a goal, Line Switches test bed, six lines and ways games to Nova]
-source-count: 3
+source-count: 5
 status: active
 open-commitments: 6
 open-questions: 3
@@ -82,8 +82,8 @@ This **confirms** the same claim already recorded from the [[wiki/meetings/2026-
 ## Open commitments
 
 - [ ] [[wiki/people/lena.md|Lena Zhukova]] — bring the first six lines-and-ways games from Georgia V3 over to NOVA for Class A — due **goal** February 1 [2027 — year inferred], starting after Nebraska — [[raw/Meeting_Notes_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]] [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
-- [ ] [[wiki/people/lena.md|Lena Zhukova]] — use Line Switches as the Class A NOVA test bed and do the dialogue/dashboard design work — due unspecified — [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
-- [ ] [[wiki/people/lena.md|Lena Zhukova]] — start the new NOVA workflow with [[wiki/people/alexander-biratka.md|Alexander Biratko]] and the developers, and begin asset-transition experiments, in parallel with Nebraska — due once Dima is back from vacation — [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+- [ ] [[wiki/people/lena.md|Lena Zhukova]] — use Line Switches as the Class A NOVA test bed and do the dialogue/dashboard design work — due unspecified — [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]] — *Sept 25: the test bed is named **Lions Riches** in plain words, and Lena showed the first Class A screens; see the update below* — [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- [ ] [[wiki/people/lena.md|Lena Zhukova]] — start the new NOVA workflow with [[wiki/people/alexander-biratka.md|Alexander Biratko]] and the developers, and begin asset-transition experiments, in parallel with Nebraska — due once Dima is back from vacation — [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]] — *Sept 25: under way — Lena: "we also focus in with Dima, Sasha Biratko, and Igor on experimenting with assets transfer and how we are going to do liquid glass in Nova"* — [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
 - [ ] [[wiki/people/lena.md|Lena Zhukova]] — give a firmer read on whether February 1 is achievable, once the asset transition is understood — due unspecified — [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
 - [ ] [[wiki/people/michael-gottlieb.md|Michael Gottlieb]] — record video of a Class A machine, free spins and the party-time feature, while in Georgia — due week of Sept 14 2026; blocks Efim's write-up — [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
 - [ ] [[wiki/people/efim-podvoiski.md|Efim Podvoiski]] — write up Class A behaviour (money in gives credits; wins give awards; awards cannot be bet) so programmers can start thinking about it — due after the party-time and streak mechanics are understood; he expects information in two to three weeks — [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
@@ -93,7 +93,7 @@ This **confirms** the same claim already recorded from the [[wiki/meetings/2026-
 
 - **Is February 1 achievable?** Lena holds it as a goal only until she sees how well the assets convert. [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
 - **How do the party-time feature, the streak and the three spins actually work?** Efim is blocked on this before the Class A write-up, and what is missing is video of a Class A machine. Michael asked for it; Val's answer was to put him in front of a machine in Georgia. Michael also mentioned "**ideally, I guess Sebastian, yeah, Sebastian is going to be coming to Georgia**" without saying what Sebastian would do. [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
-- **Which cabinet does Class A actually run on?** The product is named "Class A, V43, Nova" (V43 = the 43-inch vertical cabinet, per [[wiki/decisions/2026-09-04-d27-discontinued-curve-c43-premium-line.md]]), yet Lena's constraint on sequencing was that "**our first release [i]n No[va] was scheduled for dual screen**" and a garbled line reads "**the reason know why it's going to be for dual screen, not for vertical**". Not reconciled in the source. [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+- **Which cabinet does Class A actually run on?** *Partly answered Sept 25 2026: Val — "Class A will go inside of a… Flex - capital S… Sporty version, AKA Street Machine", an upright with a 43-inch vertical screen (see [[wiki/topics/low-cost-street-machine.md]]). The "dual screen" line below is not addressed.* [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]] — original question: The product is named "Class A, V43, Nova" (V43 = the 43-inch vertical cabinet, per [[wiki/decisions/2026-09-04-d27-discontinued-curve-c43-premium-line.md]]), yet Lena's constraint on sequencing was that "**our first release [i]n No[va] was scheduled for dual screen**" and a garbled line reads "**the reason know why it's going to be for dual screen, not for vertical**". Not reconciled in the source. [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
 
 **§15.8:** clear on this page — platform, schedule and product content only. One HR-adjacent line about an unnamed departed hire is noted above and deliberately not reproduced.
 
@@ -103,8 +103,20 @@ On the [[wiki/meetings/2026-09-17-kleimenychev-hire-nova-direction-and-planning-
 
 **One thing is flagged rather than folded in.** On the same call Val put a newly hired man on "**направление Техас и класс эй**" — the Texas and **Class A** direction — as **secret** work, with himself directing it and [[wiki/people/lena.md|Lena]] explicitly not to be consulted ([[wiki/decisions/2026-09-17-kleimenychev-is-hired-from-monday-onto-texas-and-class-a-in-full-secrecy.md]]). **Which Class A market that is, is not stated** — the words "Georgia" and "COAM" appear nowhere in that source — so it is **not** asserted here to be this Class A programme, and no inference is drawn. What is on the record is that a second, secret line of Class A work now exists alongside the one this decision governs, and that the person leading the work this decision assigns is the person excluded from it. [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
 
+## Update — Sept 25 2026: Lions Riches is named as the test bed, and full production waits for Nebraska
+
+At the [[wiki/meetings/2026-09-25-georgia-progressives-and-class-a-lions-riches.md|Sept-25 2:32 PM game-development call]] [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]:
+
+- **The test-bed title, in plain words.** Michael: "**We are going to use Lions Riches as the test bed for the Class A product.**" The abstract is "**for Lions Riches**", and "**everything leads with Lion's Riches**". This bears on the Sept-11 question above (Line Switches or Lion's Riches). It does not prove what was said on Sept 11, but the Sept-25 source names Lions Riches three times and Line Switches never. **Reading (inference): the test bed is Lion's Riches.** Queued for the owner to confirm.
+- **Nova, restated — with one unclear line.** Val: "**So most likely this will be done in Omni.**" Lena: "**that's what we agreed that this Class A is going to be done in Nova.**" Val: "**Sorry, no, no, no, no, no.**" Michael later: "**we're working on the Class A Nova.**" The derived notes treat "Omni" as a garble of Nova; the recording could also be Val correcting himself. Not resolved; nothing here reverses this decision. [[raw/Meeting_Notes_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- **Full production after Nebraska — the sequencing holds.** Lena: "**once we finish Nebraska in production… we will start full-blown production for this class A after Nebraska.**" Production "**has not been measured yet**" and "**we will not start it until December, January**", with R&D "**during this month**". The Lions Riches abstract targets **October 9** (Jira IP-1190).
+- **The February-1 goal is not mentioned.** A December/January production start sits beside it; the source does not say whether February 1 still holds.
+- **The cabinet.** Val: Class A goes into the **Flex-S** street machine. See [[wiki/topics/low-cost-street-machine.md]] (Sept 25).
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
 - [[raw/Meeting_Notes_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+- [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- [[raw/Meeting_Notes_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]

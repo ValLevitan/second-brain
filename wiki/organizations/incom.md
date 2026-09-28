@@ -3,9 +3,9 @@ type: organization
 title: Incom (payment processor)
 date: 2025-02-27
 aliases: [Incom, InComm, SkillPay launch email, hold off for two years, we will take the card away from you, Intum, they totally misled me, InComm's credit, that shift in opinion has only happened recently, black prize play card, white card ATM functionality, replace InComm on the back end, backend displacement, Incomm, Income, NCOM, Incom Payments, wrapped card rule, PAX, PAX 80, reloadable gift cards, Nathan Carver, cash-back commission, barcode activation, Mastercard rules, ABA number, MLH fee sharing, kicked to the curb, InComm doesn't offer any profit sharing, they've ignored us before during and after the show, sponsor bank behind InComm, 120 million a year, the easy living guys, daily cap five k, velocity calculated on the fly, it still says soon, InComm is the master guy, sub accounts, they actually buy bonds, biggest issuer, blue card, black card, billion-dollar gorilla, two dollars to load]
-source-count: 79
+source-count: 81
 open-commitments: 16
-open-questions: 10
+open-questions: 12
 ---
 
 # Incom (payment processor)
@@ -665,10 +665,30 @@ Six days after the launch, [[wiki/people/billy-liu.md|Billy Liu]] gave Val his a
 - **Store owners at the C-store show:** "**they're fine the way it is. They don't need that card**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
 - **The black-card business carries on.** "**It's not like InComm is gonna go out of business. InComm has already their existing network of the black**"; "**If the blue card is not welcome, it doesn't mean that they're gonna lose their… black card business**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
 - **Fiery Pay** is "**a carbon copy. They issue a physical card through another program manager**", and Billy "**can't imagine that they can go forward with it**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
-- **John has left.** Billy says John went to Bulldog and was "**irate**" when InComm announced it would go forward with Skill Pay. The "John" is read as [[wiki/people/john-houseal.md|John Houseal]] by context (inference) [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
+- **John has left.** *(Confirmed first-hand Sept 25 — see below; the Bulldog destination is still Billy's claim only.)* Billy says John went to Bulldog and was "**irate**" when InComm announced it would go forward with Skill Pay. The "John" is read as [[wiki/people/john-houseal.md|John Houseal]] by context (inference) [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
 - **The earlier InComm approach to Billy came from John.** John had suggested "**if I provide a virtual… card, and they provide a physical card, if we could join forces**"; Billy took it as "**a takeover tactic**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]. This fills in the Sept-15 "that son of a bitch wants to talk to me" line on Billy's page.
 
 **Val's read of the legal position** — the blue card is a path to cash, which the legislation makes illegal, so a location that takes it breaks the law "**with a loud bang**" — is on [[wiki/topics/georgia-prize-card-processor-economics.md]] (Sept 22) [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
+
+## Sept 25 2026 — the Blue Card is on hold, in the account of InComm's departing lead
+
+On the [[wiki/meetings/2026-09-25-incomm-john-exit-and-blue-card-hold.md|Sept-25 phone call]], on his last day at InComm, "John" — read as [[wiki/people/john-houseal.md|John Houseal]] by context (inference) — gave Val InComm's position from the inside. All from [[raw/Meeting_Transcript_InComm_John_Exit_and_Blue_Card_Hold-September-25-2026.md]].
+
+- **What set it off.** Val: "**I've read a new press release from InComm today. That the blue card.**" The sentence breaks off; the content of the release is not in the recording.
+- **On hold, and why — John's account.** "**The reason blue card got put on hold is that in my absence, InComm doesn't have a lot of risk tolerance.**" And: "**InComm got into this business largely because of me. So they don't really understand**" the market; so they did not want to take legal "**Risks**". This is one departing insider's view; no other InComm source gives the reason.
+- **Not because of JVL's machine.** John opened with "**The skill pay thing**" and said JVL's machine — "**I didn't see it**" — "**really created a lot of anger at the lottery**". Val: it is "**the machine that I discussed with you two years ago**"; John: "**A good idea. The lottery did not agree.**" Asked if that is why the card was put on hold: "**No.**" *(Which machine is not named. It may be the retail kiosk InComm asked Val to build "two years ago", told on Sept 17 above — inference only.)*
+- **JVL stays on the black card.** Val: "**My assumption is that the blue card will not go forward, and we continue to use that black Mastercard prepaid card.**" John: "**I think we'll see. I think you're going to see some responses here shortly to what GAMOA is doing.**" See [[wiki/organizations/gamoa.md]] (Sept 25).
+- **Who is against the card.** Asked if GAMOA wants the Blue Card, John did not know, but "to the extent that GAMOA [is] influenced by Sean Fellows, the answer is no", and "**Sean is running around threatening legal action against anybody who uses the card**". See [[wiki/people/sean-fellows.md]] (Sept 25).
+- **The handover.** John said he told InComm six months earlier to plan for his exit, and that the focus since has been "**getting a team in place that can take over behind me**". Who leads InComm's side for JVL now is not said.
+
+**Beside Sept 16–22 (evolution, not contradiction).** The card launched on Sept 16, drew a public Lottery pushback that evening, and was refused by some retailers by Sept 22 (sections above). On Sept 25 it is "**on hold**", by the account of the man leaving InComm that day.
+
+**§15.8:** John's personal reason for leaving InComm is withheld [[raw/Meeting_Notes_InComm_John_Exit_and_Blue_Card_Hold-September-25-2026.md]]. **§15 #9:** clear.
+
+## Open questions (Sept 25 2026)
+
+- **Does the Blue Card (Skill Pay) go forward at all, and what does InComm answer to GAMOA?** Val assumes not; John: "we'll see" — [[raw/Meeting_Transcript_InComm_John_Exit_and_Blue_Card_Hold-September-25-2026.md]]
+- **Who now leads InComm's side of the JVL relationship?** John left on Sept 25; his successor team is not named — [[raw/Meeting_Transcript_InComm_John_Exit_and_Blue_Card_Hold-September-25-2026.md]]
 
 ## Open questions (Sept 22 2026)
 
@@ -782,3 +802,5 @@ Six days after the launch, [[wiki/people/billy-liu.md|Billy Liu]] gave Val his a
 - [[raw/Meeting_Notes_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]
 - [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]]
+- [[raw/Meeting_Notes_InComm_John_Exit_and_Blue_Card_Hold-September-25-2026.md]]
+- [[raw/Meeting_Transcript_InComm_John_Exit_and_Blue_Card_Hold-September-25-2026.md]]

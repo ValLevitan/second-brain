@@ -3,7 +3,7 @@ type: decision
 title: Reverse-engineer requirements and acceptance criteria from the ported Dragon Pays game and try to automate its QA (one to two weeks)
 date: 2026-08-28
 aliases: [Dragon Pays QA experiment, no-hands QA experiment, reverse-engineer acceptance criteria, automate QA Rage to Nova, second game port in parallel]
-source-count: 4
+source-count: 5
 status: active
 open-commitments: 3
 open-questions: 2
@@ -50,8 +50,13 @@ Ruled by Val at the end of the [[wiki/meetings/2026-08-28-dragon-pays-nova-conve
 - How to test animation dynamics that cannot be written pixel- or frame-accurate in acceptance criteria. Pavel's event-by-event comparison against the original game on real hardware is the candidate answer; Igor's experiment is meant to settle it — [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
 - Should Igor's test-only LGS modifications for **mystery progressive** be merged, or should the LGS team implement that support properly? Igor raised it and doubted his own changes belong in the branch; Val set it aside for that meeting — [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
 
+## Update, Sept 25 2026 — the capabilities exist as local drafts; they go into Jira and are closed retroactively
+
+At the [[wiki/meetings/2026-09-25-games-conversion-repos-jira-capabilities.md|Sept-25 9:02 AM games-conversion session]] (Russian), Igor said the question was raised "как только у нас был готов порт" (transcript "порт до RM pса", read as the Dragon Pays port — **inference**), and the capabilities exist "локально в виде черновиков" and are not yet in Jira; later work (such as the geometry standard) means they need updating. Val: write prose for the code, go back to the capabilities, attach requirements with acceptance criteria, and close them "задним числом" on today's code and prose. Igor: "Мы хотим это честно сделать в джире." Val: acceptance criteria are the only basis for automated E2E tests [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]. Detail on [[wiki/decisions/2026-09-25-the-conversion-experiment-closes-and-the-converter-gets-its-own-project-and-repository.md]].
+
 ## Sources
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Notes_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
 - [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
+- [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]

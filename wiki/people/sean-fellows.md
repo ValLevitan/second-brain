@@ -3,7 +3,7 @@ type: person
 title: Sean Fellows
 date: 2026-07-23
 aliases: [Sean Fellows, Shawn Fellows, Sean Phillips, Sean, Shonfellows, Shonfello, Sonfellows, "shunned fellows", I'm not going to upgrade 74 games, I'm not going to be a reseller, arms-length relationship, everything we do is data]
-source-count: 9
+source-count: 10
 disambiguation: "Sean Fellows = CEO/owner of the Georgia operator Diamond Amusement — resolve by the Georgia-COAM / operator / market-data context. Distinct from Sean Riley (JVL's external chartered accountant, finance/tax context) and from the still-unresolved batch-32 FlexPay-enclosure 'Sean' (surname unknown). Never merge these; decide by context, not the name string."
 ---
 
@@ -75,6 +75,10 @@ The [[wiki/meetings/2026-09-10-diamond-amusements-machine-performance-and-bundle
 
 His read is negative and structural, and it is the fifth operator account on [[wiki/topics/georgia-class-a-machines.md]]: "**the Class A, what everybody's calling these AV games, is to me… problematic. It wasn't what was intended, and I don't know that the players are really going to migrate.**" On deployment he and Val agreed it is "**spotty**." On Primero specifically: "**It is a classic**… it **doesn't have the RTP, the distribution of prizes. Everything is… old processes**", and "**they had to take the progressive off.**" He expects the regulator to address it in "**the next four to six months**", and his account of how the grey area formed is on that page. [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
 
+## Sept 25 2026 — named by InComm's departing lead as the card's main opponent (second-hand)
+
+On the [[wiki/meetings/2026-09-25-incomm-john-exit-and-blue-card-hold.md|Sept-25 phone call]], Val asked [[wiki/people/john-houseal.md|John]] of [[wiki/organizations/incom.md|InComm]] whether [[wiki/organizations/gamoa.md|GAMOA]] wants the Blue Card (the Skill Pay card). John: "**to the extent that GAMOA [is] influenced by Sean Fellows, the answer is no**", and "**Sean is running around threatening legal action against anybody who uses the card. So I'd say he's definitely against it.**" John framed it as "**my impression**" and said Val could ask Sean himself. This is John's account; no source from Sean or Diamond speaks to it [[raw/Meeting_Transcript_InComm_John_Exit_and_Blue_Card_Hold-September-25-2026.md]].
+
 ## Identity note
 
 The name "Sean" appears for three different people in this wiki — see the `disambiguation` field above. Sean Fellows is the operator/Diamond-Amusement Sean; he is **not** [[wiki/people/sean-riley.md|Sean Riley]] (JVL's external accountant) nor the unresolved FlexPay-enclosure "Sean."
@@ -90,3 +94,4 @@ The name "Sean" appears for three different people in this wiki — see the `dis
 - [[raw/Meeting_Notes_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
 - [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
 - [[raw/Meeting_Transcript_Rich_Winley_Georgia_COAM_Market_Intel-January-27-2026.md]]
+- [[raw/Meeting_Transcript_InComm_John_Exit_and_Blue_Card_Hold-September-25-2026.md]]

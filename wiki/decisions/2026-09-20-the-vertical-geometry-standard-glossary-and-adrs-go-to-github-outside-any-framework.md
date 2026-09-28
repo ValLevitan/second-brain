@@ -3,13 +3,15 @@ type: decision
 title: The vertical geometry standard, glossary and ADRs go into GitHub, outside any framework — then end-to-end tests, then a timed conversion
 date: 2026-09-20
 aliases: [geometry standard to GitHub, vertical geometry standard, ADR consolidation, glossary standards ADRs, experiment in a vacuum, эксперимент в вакууме, стандарты глоссари ADR, stopwatch experiment, секундомер, frameless integration, безрамочная интеграция, Pantone to Pantone, three stages GitHub then e2e then conversion]
-source-count: 2
+source-count: 3
 status: active
-open-commitments: 8
+open-commitments: 7
 open-questions: 4
 ---
 
 # The vertical geometry standard, glossary and ADRs go into GitHub, outside any framework
+
+*Status note (Sept 25 2026): still active. The "outside any framework" part now holds for the standards and glossary only — on Sept 25 framework and conversion-procedure ADRs were placed in the NOVA framework repository and game ADRs in game repositories. See the Sept-25 update below.*
 
 Set by [[wiki/people/val-levitan.md|Val Levitan]] at the [[wiki/meetings/2026-09-20-vertical-geometry-standard-and-adr-consolidation.md|Sunday Sept 20 2026, 7:04 AM ET session]] (held in **Russian**), after [[wiki/people/igor-metelski.md|Igor Metelski]] showed the geometry standard he wrote for vertical game screens. [[wiki/people/pavel.md|Pavel Frolov]] proposed a different home for the work; Val overruled him. It follows the Sept-17 ruling that art must be turned into numbers — see [[wiki/decisions/2026-09-17-hard-geometry-from-the-scene-files-and-a-vertical-skeleton-per-game-format.md]]. [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
 
@@ -66,14 +68,14 @@ Set by [[wiki/people/val-levitan.md|Val Levitan]] at the [[wiki/meetings/2026-09
 
 ## Open commitments
 
-- [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — move and organise the geometry standard, glossary, standards and ADRs into GitHub, detached from any framework — due Thu Sept 24 2026 — [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+- [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — move and organise the geometry standard, glossary, standards and ADRs into GitHub, detached from any framework — due Thu Sept 24 2026 — [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]] — *Sept 25: not done — the repositories were not yet created; where each piece goes was settled and the work re-set for Wed Sept 30 (see the Sept-25 update)* — [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]
 - [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — add the glossary to the document, and an English version (it is in Russian today) — due Thu Sept 24 2026 — [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
-- [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — extract ADRs from the meeting transcripts with Claude, drop the false ones, and keep them in the repository with the code — due Thu Sept 24 2026 — [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+- [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — extract ADRs from the meeting transcripts with Claude, drop the false ones, and keep them in the repository with the code — due Thu Sept 24 2026 — [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]] — *Sept 25: he has one big ADR list; he will split it by repository and commit it by Sept 30* — [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]
 - [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — add frameless integration (objects and backgrounds), the colour approach and materials/motion physics to the glossary — due unspecified — [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
-- [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — finish the end-to-end auto-testing so a full flow exists (stage 2) — due after the GitHub work — [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
-- [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — run the timed conversion: a horizontal RAGE game into a working vertical NOVA game, from the standards and glossary (stage 3) — due after stage 2 — [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+- [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — finish the end-to-end auto-testing so a full flow exists (stage 2) — due after the GitHub work — [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]] — *Sept 25: started, not finished; Val agreed it must be finished* — [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]
+- [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — run the timed conversion: a horizontal RAGE game into a working vertical NOVA game, from the standards and glossary (stage 3) — due after stage 2 — [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]] — *Sept 25: not mentioned; Val said the experiment ends in a couple of days and converting real games is a separate project. Whether stage 3 is dropped is **unclear*** — [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — carry the standard into the NOVA framework as part of the unified skeleton, with a standard call for every game — due unspecified — [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
-- [ ] [[wiki/people/val-levitan.md|Val Levitan]] — set the one-hour follow-up for Thursday at 8:00 AM Eastern — due Sept 20 2026 — [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+- [x] [[wiki/people/val-levitan.md|Val Levitan]] — set the one-hour follow-up for Thursday at 8:00 AM Eastern — due Sept 20 2026 — [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]] — **discharged in substance:** a follow-up session was held Friday Sept 25 at 9:02 AM, not Thursday at 8:00 (that it is the meeting he set is an **inference**; Igor opens with "На предыдущем митинге мы договорились") — [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]
 
 ## Open questions
 
@@ -93,7 +95,21 @@ The derived notes were checked against the transcript. Where they differ, the tr
 
 **§15.8:** Val's remarks on Igor's temperament and his view of how the designers would react are **not recorded** beyond the business rule (keep the designers out). No pay or compensation appears. **§15 #9:** no licence, registration, tax or account numbers appear.
 
+## Update, Sept 25 2026 — where each piece goes, and the experiment closes
+
+At the [[wiki/meetings/2026-09-25-games-conversion-repos-jira-capabilities.md|Sept-25 9:02 AM session]] (Russian) the move into GitHub had not happened: Bosik said the repositories were not created because of open questions about where things go [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]. The questions were settled (full detail on [[wiki/decisions/2026-09-25-the-conversion-experiment-closes-and-the-converter-gets-its-own-project-and-repository.md]]):
+
+- **Standards and glossary** — the standards folder of the `knowledge` repository, outside any framework; the geometry standard goes there too in Val's view ("чувства у меня что это стандарт"), both he and Pavel "не уверен на 100%".
+- **ADRs** — next to the code: game ADRs in the game's repository with SVN links; framework and conversion-procedure ADRs in the NOVA framework repository; nothing committed to SVN.
+- **The converter** — its own Jira project and repository, because it "имеет файнайт… Срок жизни". Scripts go in a `tools` folder.
+- **The experiment** — "Еще как бы пару дней, и он закончится"; converting real games is a separate project with a schedule, resources and a calendar. Igor still has to finish the E2E tests.
+
+[[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]
+
+**Evolution, not contradiction.** Sept 20 set "in a vacuum, outside any framework"; Sept 25, a later source, puts framework-related ADRs into the NOVA framework repository. The Sept-20 line that ADRs belong "В репозитории" with the code already pointed this way (**inference**). The deadline moved from Thu Sept 24 to Wed Sept 30.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
 - [[raw/Meeting_Notes_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+- [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]

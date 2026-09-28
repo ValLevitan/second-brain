@@ -3,7 +3,7 @@ type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
 aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus, $20 test, twenty dollar test, Twin Bison, Wolfpack, Clover Fortune, Liberty Spins, peek-to-be-in bonus, locking bison, Rodeo Spins, multi-progressive, Multi-Progressive initiative, three-level progressive, three progressive styles, bet-dependent progressive, symbol-driven progressive, time on device, jackpot reset value, RTP parity, Pyre Island, dual box skill feature, Lions Riches, Primero, Piggy, attraction loop, credits vs dollars, default to a dollar, first three rankings, the ice maker, settings not the report, no secret between us, Anchor Gaming, Wheel of Fortune, sickly sweet, two RTP versions, too many options]
-source-count: 92
+source-count: 94
 open-questions: 12
 ---
 
@@ -933,6 +933,20 @@ From the [[wiki/meetings/2026-09-22-multi-game-screen-layout-and-game-count.md|S
 - **Val has no view yet.** "**I don't have a philosophy. I have to be led to a philosophy right now.**" This fits his Sept-11 line that he is "not in charge of the philosophy". [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
 - **Michael on the library.** Shipping everything is "**fine as long as it's going to be a cumulative release. But what you're looking at here, Val, reflects several years of work and a hell of a lot of money.**" [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
 
+## Sept 25 2026 — progressive top awards from field research, and why a cabinet needs more than one progressive
+
+From the [[wiki/meetings/2026-09-25-georgia-progressives-and-class-a-lions-riches.md|Sept-25 2:32 PM game-development call]]. The settings themselves (92% RTP; **$2,400 Match 3, $2,400 Fiery Ice, $1,500 Jackpot Rush**) are on [[wiki/decisions/2026-09-25-georgia-machines-go-out-at-92-percent-and-the-progressive-tops-are-2400-2400-1500.md]]. This section keeps the design reasoning. [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+
+- **Field research, no single answer.** [[wiki/people/michael-gottlieb.md|Michael]]: "**I did a lot of field research. Progressives are all over the map.**" Some competitors run **$5,000** top awards; IGT runs "**discrete progressives per game**" worth "**300 bucks, 400 bucks**". "**I found successful examples of multiple different approaches**" — among "**the big boys**", not only small makers. [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- **Why more than one progressive in a cabinet.** What Michael learned "**Saturday night**" from someone he does not name: if every game feeds one big progressive and it hits, "**that cabinet goes dead. It goes soft**" — regular players see a low top award and walk away. With three, "**when a fiery ice pops at 5, 6, 7,000, the other ones are still cooking**". That was given as the reason IGT runs a progressive per game. [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- **"Three dimensional" thinking.** Michael's frame for working with [[wiki/people/felipe-miranda.md|Felipe]]: what JVL wants, what the customer wants and what the player wants "**can be 3 different things**", and "**you can reward the player and F the customer, or you can give the customer what they want and F the player**" — so balance, and "**first rule of medicine, do no harm.**" [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- **Val's frame: no data yet.** "**We agree that we don't have enough data… We agree that we need multiple progressives.**" Competitor success stories are "**hearsay… not conclusive**". [[wiki/people/efim-podvoiski.md|Efim]]: "**something in the middle**". [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- **The cash-out screen — don't be clever.** For the Class A cash-out flow Michael kept close to Primero's look: "**a bill validator is a bill validator, a hand is a hand**", and "**when you're messing with people's money, don't be clever.**" Val's concern was not the look but "**how to avoid putting a printer inside**". See [[wiki/topics/georgia-class-a-machines.md]] (Sept 25). [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+
+**Note against the Sept 10 table above:** JVL's default top progressive was given as **$2,400** there. The Sept-25 values keep $2,400 for Match 3 and Fiery Ice and set Jackpot Rush at $1,500. The Sept-10 RTP line ("**between ninety-two and ninety-four**") and the Sept-25 report of V2 deployed at **96.5%** (92 + 4.5 progressive) are recorded side by side; the sources do not say whether 92–94 counts the progressive. [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+
+**§15.8:** clear — design and settings content only.
+
 ## Open questions (Sept 22 2026)
 
 - Discrete or cumulative releases? Michael laid out Juan's blended approach; Val made no ruling — [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
@@ -943,7 +957,7 @@ From the [[wiki/meetings/2026-09-22-multi-game-screen-layout-and-game-count.md|S
 
 - **Does JVL build the 30-second cash-out grace period?** Proposed live, with the visible-timer question left open by the proposer himself, and never answered by Val on the recording — [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
 - **Two new games every two weeks, or every month — and does the cadence work at all?** Val gave both intervals in the same argument; the games lead's WMS precedent was never rebutted on its own terms — [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
-- **Per-game progressives or one shared progressive across the games in a machine?** JVL's current three-type design is per-game; the games lead argued shared is more elegant and that per-game creates "data pollution". Not decided — [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
+- **Per-game progressives or one shared progressive across the games in a machine?** JVL's current three-type design is per-game; the games lead argued shared is more elegant and that per-game creates "data pollution". Not decided — [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]] — *Sept 25 update: Match 3 is fed by all six games, and Val and Michael agree "we need multiple progressives"; per-game vs shared as such is still not decided* — [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
 
 ## Open questions (Sept 4 2026)
 
@@ -1049,3 +1063,5 @@ From the [[wiki/meetings/2026-09-22-multi-game-screen-layout-and-game-count.md|S
 - [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Rich_Winley_Georgia_COAM_Market_Intel-January-27-2026.md]]
 - [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
+- [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- [[raw/Meeting_Notes_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]

@@ -3,7 +3,7 @@ type: topic
 title: Low-cost street machine (sub-$2,000 street cabinet program)
 date: 2026-06-09
 aliases: [street machine, machine-width video deck, 10-degree play panel, golden mark, Light and Wonder panel on an arm, pull-out electronics shelf, street cabinet, Sept 16 board spec, ID003 and ccTalk, eye level electronics, halo light, plywood cabinet, cup holders, low-cost street machine, low-cost street cabinet, street slot machine, sub-$2000 street machine, RK3588 street machine, stripped street cabinet, Flex S, флекс эс, стрит машина, RK3576 street machine, wooden monolithic body, wood or metal, price both then decide, three containers, 7000 square feet]
-source-count: 20
+source-count: 22
 open-commitments: 5
 open-questions: 3
 ---
@@ -226,6 +226,20 @@ The day after the cabinet started, the second part of the [[wiki/meetings/2026-0
 - **Printer and bill acceptor.** Genadi: the printer in the middle, under the video deck, so the cabinet stays shallow; the bill acceptor in the usual place, on the right above the panel. Val: "Да да да." Whether it is front-load, back-load or both is garbled ("бетлок, но общий на франклод"; "и frond lode, и blackloud"). [[raw/Meeting_Transcript_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]] [[raw/Meeting_Notes_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]]
 - **Igor.** Genadi may talk to Igor ([[wiki/people/igor-starovoytov.md|Starovoytov]], by context — inference) at the weekend, but can only describe things verbally; Val advised planning more than one conversation. *(A remark about Igor's working style is withheld, §15.8.)* [[raw/Meeting_Transcript_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]]
 
+## Sept 25 2026 — Val gives the game team the Flex-S spec, in English, and names Class A as its first software
+
+At the [[wiki/meetings/2026-09-25-georgia-progressives-and-class-a-lions-riches.md|Sept-25 2:32 PM game-development call]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/michael-gottlieb.md|Michael Gottlieb]], [[wiki/people/efim-podvoiski.md|Efim Podvoiski]], [[wiki/people/lena.md|Lena Zhukova]]) Val told the game side what cabinet Class A goes into. It restates the Sept-16 to Sept-24 engineering calls above for a new audience; the new point is the link to Class A. [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+
+- **The name.** "**Plus A will go inside of a… Let's call it Flex - capital S… Sporty version, AKA Street Machine.**" ("Plus A" = Class A, by context.) See [[wiki/topics/georgia-class-a-machines.md]] (Sept 25).
+- **No VDEC in the basic machine, but room for one.** Michael: "**No VDEC.**" Val: "**the basic machine will go without**", but "**I am building a provision just in case we source the right screen and the right touch screen**", and even then "**It will be a skinny and narrow screen.**" Michael: "**it's unnecessary.**" This fits Sept 24 (buttons as the main configuration, the video deck as an extra).
+- **The body.** "**It will only be an upright version**"; "**there is no depth to the machine… it's a shallow deck**"; "**slanted on slope approximately 10 degrees**"; "**a cup holder on one side**" and a "**Large slim button**" ("slam button") on the other. Same as Sept 24.
+- **Buttons.** Val to Michael: "**you need to tell me how many button panels do you need? Probably 8 buttons.**" On Sept 16 Val said this was to be confirmed with Michael; now the question is put to him. The commitment is on [[wiki/people/michael-gottlieb.md]].
+- **Screen.** "**It will be 43 inch screen because if we get into 47 or 50, it's substantially more money. So 43 inch vertical.**" Controls: "**your controls need to be on the screen**", then "**on the control panel**" — both said in the same passage.
+- **Michael's answer.** "**I think we'll probably orient similar to what Primero is doing. The vast majority of the interface with Primero is on the screen.**"
+- **Texas too.** Val: "**I also would like to put the same Flex-S hardware in Texas.**" This matches the Sept-16 "те же машины идут в Техас" above.
+
+The derived notes list this spec as a decision by Val; the recording is Val describing the machine, with no objection. [[raw/Meeting_Notes_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+
 ## Open commitments
 
 - [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — review the market for a long, machine-width touchscreen for the video deck — due unspecified ("я должен ребеью маркет") — [[raw/Meeting_Transcript_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]]
@@ -264,3 +278,5 @@ The day after the cabinet started, the second part of the [[wiki/meetings/2026-0
 - [[raw/Meeting_Notes_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
 - [[raw/Meeting_Transcript_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]]
 - [[raw/Meeting_Notes_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]]
+- [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- [[raw/Meeting_Notes_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]

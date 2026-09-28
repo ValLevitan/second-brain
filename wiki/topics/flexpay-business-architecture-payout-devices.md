@@ -3,8 +3,8 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, floating FlexPort, FlexPort on posts, флори дизайн, recycling cassette, drop cassette, two-tape reel, refill cycle, IQ point of sale, promo credit on SAS 2, validator emulation, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS, ATM registration, slim ATM, Flex-Port-Mini, Flex Port Mini, Flex-Slim first ten, brackets from China, twelve eight twenty, eVoucher, wrapped gift card, EasyLynx, second SAS port, ATM Recycler, PTI Sentry, MudaGoose, Lego bricks, closed loop ATM, promo meter, technology agnostic, player is the king, tap to fund, the magic is in speed, Pay Slim, cannibalise MudaGoose, zero-balance wallet, wallet lifetime, one TITO printer, splitting, AFT device, AFT window, emulate an AFT device, no cash dispensing, eWallet TTL, collect fork, unclaimed transaction, reissue versus reprint, print new carrier, balance snapshot, daily cap and velocity, SAS 6.02, Gaming Standards Association, audit report one button, dual balance deposited and playable, Total Playable only Redeemable, balance naming ADR, playable only, unclaimed money, maintenance versus lockout, always-on scanner, LTE modem per device, capability requires requirement, printer tilts, preventive supply telemetry, vault server, incremental five, five dollars of promotional credit for a phone number, clearance network prohibits proceeds from gambling, business way agnostic, they are not your customer they are mine, offline operation, twenty-four hour offline window, lease expiry versus internet loss, be honest with yourselves, no cash on FlexPay, de-enrolled from a location never from the cloud, fifteen Flex-Ports design for 99, no daily cap error, pending transaction, one-time redemption PIN, synchronisation point, metal mesh on standoffs, Flex-Pay-Slim lid, service bay cover, taut string stopper, roll forward only, no rollback to a previous build, MVP1 dual SAS only, capability 144 cloned, nothing is closed, Monday scope freeze, receipt format still not given, balance display game agnostic, stackable recycler, cash box capacity, standalone TITO printer topology, four swimlanes seven columns, language button top left, 854 by 480, status icons on error screens, asset number, серийный номер машины, engineering menu QR, machine performance report MVP2, feature lock slips, capability 229, TouchGFX Designer, two-stage screen redraw, HTML mock-up versus Figma, design tokens, the kiosk is FlexPay, player gets two dollars less, blank not empty, texts compiled at build, October 2 end date, E2E micro-step, KORE SIM in the IQ, capability 234, capability 235, forfeit wallet, no PIN lockout, nine Flex-Ports default twenty]
-source-count: 271
-open-commitments: 107
+source-count: 274
+open-commitments: 112
 open-questions: 28
 ---
 
@@ -2568,6 +2568,73 @@ Near the end of the [[wiki/meetings/2026-09-24-hardware-repo-bom-source-of-truth
 
 *(The derived notes place the four holes in the new cover; the transcript places them in the machines' panels. The wiki follows the transcript.)* [[raw/Meeting_Notes_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]]
 
+## Sept 25 2026 — a hidden engineering menu for technicians, and the missing Flex-Port screens all have tasks
+
+At the [[wiki/meetings/2026-09-25-daily-standup-engineering-menu-and-jira-discipline.md|Sept-25 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]:
+
+- **Missing screens are covered.** [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] finished the Flex-Port fixes after Andrei updated the description. Screens he cannot build yet (no firmware) all have tasks: "Они все подкоп обилити 156" (under capability 156). The collector screens need Flex-Port tasks 14 and 15; the claim screens need tasks 63 and 64 — Pavel: a back end is needed first to bind them. His design task is "торт 52" (read as port 52); all commits go into the "порт 9" branch, so "Все эти задачи пойдут вместе." He will send Pavel the artifact that describes all this, for Pavel's Claude or to read. He expects to finish in "часа полутора" and then needs new work.
+- **Claude builds from the mock-ups first.** [[wiki/people/dmitri-chudinov.md|Chudinov]]: for now, let Claude look at Andrei's mock-ups and build the screens close to them; at the end, walk through and check the mismatches. (Andrei = [[wiki/people/andrei-klimovich.md|Klimovich]], **by context**.)
+- **An engineering menu — Pavel's idea for the free time.** Pavel: sketch a page in TouchGFX ("в тач GFX какуюто страничку набросать") for "инженерного меню", showing critical information that is not available now. Vladimir: for the developer or the operator? Pavel: "Скорее для технического персонала", who reach it in a special way, "например, сканированием специального кюара". It may have several pages: a status screen (Wi-Fi connection, signal level), a second screen with the last transactions, and a screen of recent errors — the time, what failed, "пропадание связи, отваливание, какогото устройства, не прошедшие транзакции". Most critical for Pavel: the IP addresses received, because "в продакшн билл день не будут доступны", plus link state. Vladimir: "Чтонибудь накидаю, тогда потом обсудим."
+- **This does not change the Sept-21 scope call.** On Sept 21 the QR-code engineering menu went to MVP 2 ("100% это MVP 2", see the Sept-21 section above). The Sept-25 ask is a sketch for discussion; no MVP is named. *(That it stays MVP 2 is an **inference**; nothing on Sept 25 moves it.)*
+- **Later work.** Pavel named "линк кволите девайс стэйт даш борт пердевайс" — a per-device link-quality and device-state dashboard — as work for later ("Это потом да?").
+
+### Open commitments (Sept 25 2026)
+
+- [ ] [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] — sketch an engineering menu (network, last transactions, recent errors) for discussion — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
+- [ ] [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] — send Pavel the artifact describing the missing screens and their tasks — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
+
+## Sept 25 2026 (8:05 AM) — day ten: how Flex-Port will be proved in other makers' machines, a Monday build, and development planned to October 7
+
+The [[wiki/meetings/2026-09-25-transactional-mvp1-flexport-third-party-egm-compatibility-testing.md|tenth morning call]] (Russian, 8:05–8:50). Nine voices, Val present [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]].
+
+**Klimovich's update.** The changes from the day before are in: "В джира обновлена макапа", the day's questions are answered in Jira, and he emailed the report. He had picked the recipients by hand and missed [[wiki/people/ivan.md|Ivan]], so he asked for a mailing group, better one per product or stream. [[wiki/people/andrey-bosik.md|Bosik]]: "дистрибьюшен лист можно создать под транзакшн систем"; Irina suggested all Minsk developers except the artists [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]].
+
+**Other makers' machines.** The main topic — two SAS ports (the accumulator on one, the Flex-Port on the other), the office rather than a warehouse, JVL's own machines first, and third-party tests after October 1; Ivan writes the set-up instruction and Klimovich opens a capability. All on [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] (Sept-25 update) [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]. *(The test design assumes a machine with two SAS ports. No share-of-market figure was given, so the single-SAS estimate question under Open contradictions gets no new datum.)*
+
+**A Monday build.** [[wiki/people/dmitri-chudinov.md|Chudinov]] to Klimovich: "наверное, в понедельник дам билд" for Flex IQ, with the printer set up and connected. On Monday the flow can be checked: print, wallet, a run through the Flex-Port. Card activation does not have all its screens yet, "но основной флор работает" [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]].
+
+**The printer.** Klimovich had emailed Val and Genadi to move it on. Pavel: TransAct has a printer in a housing with "наш эпик 950" inside; the question is how to order that version fast. Val gave approval for Genadi's small board change for a standard connector: "Этот вопрос практически закрыт." For the current board, Pavel: a cable to the black 10-pin connector, "перепаять 2 провода". See [[wiki/decisions/2026-09-23-jvl-stops-building-its-own-tito-desktop-box-and-uses-jcm-or-transact-for-now.md]] (Sept-25 update) [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]].
+
+**Klimovich away next week.** Elizabeth knows how to install builds; send them anyway. Chudinov asked what to do if requirements and capabilities conflict while he is away. Klimovich: "это не должно блокировать процесс разработки"; he will be in almost the same time zone (Vilnius), keep the daily syncs at the same time all week, and answer in Teams [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]].
+
+**The Jira plan** (poor audio). Val: "156 надо поставить им прогноз" — Pavel: "дима когда возьмётся тогда?" and "надо поправить, что начало не сейчас" (the start date must be fixed). Pavel: capability 67 seems to lack a testing task that should extend it; Irina: testing tasks are not planned yet — 67 is done but its tests must be written. Irina asked "а 178 кудато?" (see [[wiki/decisions/2026-09-17-jvl-supports-multiple-incomm-products-not-a-fixed-pair.md]], Sept-25 data point). Irina: without autotests, development "до 7 числа всё распланировано"; Pavel: "Да" [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]. On the date, see [[wiki/decisions/2026-09-09-first-transactional-installation-planned-for-october-1.md]] (Sept-25 update).
+
+**Autotests after October 7**, the working test API and the test-repository structure — on [[wiki/topics/test-automation-strategy.md]] (Sept 25, 8:05 AM).
+
+**§15.8:** clear. **§15 #9:** none.
+
+### Open commitments (Sept 25 2026, 8:05 AM)
+
+- [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — create a distribution list for the transactional system and send its name to Klimovich — due unspecified (Klimovich wanted it for that day's report) — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — give Klimovich a Flex IQ build with the printer set up and connected — due Mon Sept 28 2026 ("наверное") — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — set up next week's meetings for this group at the same time — due before Mon Sept 28 2026 — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
+
+## Sept 25 2026 (1:30 PM) — the promo flier: what the transactional family is called, and the four problems it solves
+
+On a [[wiki/meetings/2026-09-25-promo-flier-review-and-sergey-vysotsky-wait.md|16-minute call]] Val read [[wiki/people/andrei-klimovich.md|Klimovich]]'s draft JVL promo flier line by line (English, poor audio; then Russian). Only the clear points are kept [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]].
+
+**How the flier describes the product.** Val read out: "One floor, one system, every state"; "a modular transactional platform for multi-state operators"; "Load play redeem all match from one view" (as transcribed); then the product lines — Flexport, "AFT, all capital letters", "With touchscreen", "An optical reader", Flex IQ, "Cashier POS", "Flex Play Slim", "Self-service. Payment kiosk", and an operators' "Dashboard" with "transactional and service information" [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]].
+
+**Val's changes (English part).**
+- "Build to upgrade your floor and not replace it. **Remove it, please.**" Klimovich: "Okay." [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]]
+- The two section headers read "**The problem we address, the solution we offer**" — "no orange in one font in one size" (as transcribed) [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]].
+- The first problem is "**the cost of cash management**" — "per machine validated printer location by location" — tied to the Flex Recycler ("Cost of cash management at Flex Recycler") [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]].
+- **Data ownership.** "Data ownership hints with data management… the ownership is not it is not negotiable." Val's proposed line: "**Your floor runs on your data. It should be yours to see, keep, and use.**" [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]] *(This is the same theme as operators owning their machine data on [[wiki/topics/machine-data-repurchase-program.md]] — linking them is an inference.)*
+- Val also said "Promo management, but most it's a flex part 2" — meaning **unclear** [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]].
+- A JVL logo / "JVLUS headquarters" / "building background" point was made; the exact change is **unclear** [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]].
+
+**The four problems (Russian part, Klimovich).** [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]]
+1. Cash management.
+2. Data management — "всё разобрано на разных… Файлы, где то все существует, не используется эффективно" (spread across files; it exists but is not used well).
+3. He was unsure how to word it: "нету решения, которое бы позволило быстро эффективно настроить локацию или под селсервис или под тенден" — no solution to set up a location fast for self-service or for "тенден" (likely *attended*, staffed — an inference); "У нас один пакет, который предлагает это решение, хотите так хотите этак".
+4. Promo management — "у вас нету аутрия к вашим плеерсу они вот приходят и уходят. Нету ретаргетинга." Val: "не знаете кто" (you don't know who they are).
+
+Klimovich: "Вот 4 проблемы, мы согласны с этими, просто их надо 3 писать подругому" (the "3" may be garble). Val: "Да, наверно." [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]]
+
+**The solutions part is not reviewed yet.** Val read it for about a minute: "Мне тяжело на лету… когда все слова поменяются. Мне тогда легче будет". Klimovich: "давайте я пришлю вам обновлённую версию по этим комментариям" [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]]. Commitments on [[wiki/people/andrei-klimovich.md]] (Sept 25, 1:30 PM).
+
+**§15.8:** clear. **§15 #9:** none.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
@@ -2843,3 +2910,6 @@ Near the end of the [[wiki/meetings/2026-09-24-hardware-repo-bom-source-of-truth
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
 - [[raw/Meeting_Transcript_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]]
 - [[raw/Meeting_Notes_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
+- [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]]

@@ -3,7 +3,8 @@ type: topic
 title: GitHub release management and the CI/CD release pipeline
 date: 2025-10-21
 aliases: [release management, release pipeline, CI/CD, GitHub Actions pipeline, release artifacts, ISO image release, release manager role, continuous delivery, flex os installer, manifest, release candidate, single source of truth, feature branch discipline, sprints vs kanban, Jira GitHub link, FlexPos IP 902, FP 519, IP 89 dashboard grooming, bulk archive automation, Jira resolutions cleanup, Flex-POS Transition to Production, alpha build release tracking, knowledge repository, prose pending folder, prose merge action, docs contracts folder, integration repository, Knowledge Base repository, Standards folder, 39 accesses, hardware GitHub standard, hardware-components repo, hardware-manufacturing repo, BOM sync robot, category first manufacturer second]
-source-count: 99
+source-count: 101
+open-commitments: 1
 open-questions: 10
 ---
 
@@ -750,9 +751,32 @@ The [[wiki/meetings/2026-09-24-nova-galaxy-jira-hierarchy-cleanup.md|Sept-24 10:
 - **Value streams.** The top stream is Core (NOVA and Galaxy platforms under it); the old IP 738 "Core", which holds helper tools, is to be called Tools. Val sees three clear streams: "Геймс кор и харвар" [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]].
 - **Forward fix.** [[wiki/people/andrey-bosik.md|Bosik]] asked how a hot fix outside a planned release fits ("модели форварденг"); Chudinov: a feature goes under the right capability. Chudinov and Pavel agreed the MVP "release" is really a grouping of work, not a release ("это группа работ, это не релиз") [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]].
 
+## Sept 24 2026 (11:46 AM) — the V-1000 modem's capability is closed, and an old IP becomes a capability
+
+Two hours later the same standard was applied to the modem on the V-1000, on the [[wiki/meetings/2026-09-24-v-1000-modem-current-use-cases.md|Sept-24 11:46 AM modem call]] (Russian; Val, [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/irina-shishko.md|Irina Shishko]]). Val's ask: attach the released capability in Jira, close its features "даже если это один или 2", align it with a project and repository, "и сказать сделано закрыл" [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]].
+
+- **Capability 109 is closed.** Irina found two capabilities, 109 and 172; 109 "находится под айпи 747" — the Flex-1000 entry point named on Jul 21 above. Pavel: "По факту 109 да это всё" that was built. Val: "Закрыто." [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]]
+- **Capability 172 stays open.** It is the Texas item, under IP 1061; the Texas plan is unclear. Val reminded them "все эти IP, они же мы переформатируем." [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]]
+- **The reporter, when the builder cannot be.** Val raised who the reporter on 109 was (the line naming Klimovich is garbled). Pavel: "мне надо было когото поставиться, отличного от себя". Val first named himself or Bosik; Pavel proposed Irina, "Ирина в таком случае будет видеть… Что делалось?"; Val: "Хорошо." [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]]
+- **The code is in SVN, and releases are made from there.** Pavel: "Это вообще с в н?"… "Да." Irina: "Ну нам ещё с ним жить?" Compare the Jun-22 SVN-to-GitHub question above [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]].
+- **An IP turned into a capability.** For the other modem work, already "в gedхабе", Pavel said there was no capability — "это делалось ещё под IP" — and it can be redone as one. Val: fold the old IPs ("не закройте, а сверните их") and move items by bulk change. Pavel found the item "под компакт под IP 760", with only "fextop, кабинет и эхо" as products. Irina moved **977**; its new parent became **IP 1199**, with capability **238** named. Pavel then judged the move "Слишком… грубо": some features do not belong and must go outside it; Irina: "значит, ещё одна… побили[ти]". Val left the rest to them after the meeting [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]].
+- **Beside the 10:00 AM ruling (noted, not reconciled).** At 10:00 AM Val rejected release-named initiatives such as IP 1199 (section above); at 11:46 AM IP 1199 was used as a parent here, and nobody raised it. The source does not say whether this is a conflict [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]] [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]].
+
 ## Sept 24 2026 (4:38 PM) — the hardware repo is the one source of truth for product structure; the BOM is not built in GitHub
 
 On the [[wiki/meetings/2026-09-24-hardware-repo-bom-source-of-truth-and-street-cabinet-layout.md|Sept-24 4:38 PM alignment call]] Val read the rule from his note: "That source of truth is the latest release design in GitHub hardware repo," with one-way flow to BC. His note says "each module gets one plain text file." When Genadi asked how a BOM is built in GitHub, Val said it is not: "я не вижу, зачем его нужно строить в гидхады" — GitHub holds the source data and the BOM is built in BC. Genadi said he has no problem keeping "Parts, drawings, documentation" in GitHub. See [[wiki/decisions/2026-09-23-the-bom-source-of-truth-is-the-latest-design-in-github-and-sync-runs-one-way.md]] (Sept-24 update). [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+
+## Sept 25 2026 — prose follows the code on every merge into main or a top-level branch
+
+At the [[wiki/meetings/2026-09-25-daily-standup-engineering-menu-and-jira-discipline.md|Sept-25 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]:
+
+- **The rule, restated by Pavel.** [[wiki/people/anton-seregin.md|Anton Seregin]]'s branch is old and conflicts with main; he is resolving it. Pavel asked that the prose for his work lands too — "описание, что это такое, как он устроен". Anton asked whether it was for one project ("Это для fre fexpery да?" — garbled; possibly FlexPay, **inference**). Pavel: "Это для любого проекта, то есть когда идёт мерж в… Или mersh какую то ранч верхнего уровня. То должны обновляться проза в соответствии со сделанным кодом." This matches the Sept-3 design above, where prose merges into main after review.
+- **Old branches need a catch-up step.** Anton: his branch was started before the prose tooling existed ("ещё до Того, как этот логин появился"), so he may need an extra branch from main to generate the prose. Pavel: "возможно так".
+- **Update variables: common versus per terminal.** [[wiki/people/dmitri-chudinov.md|Chudinov]] and [[wiki/people/andrey-bosik.md|Andrey Bosik]] ("Андрей", by context) will review the GitHub variables for updates, so that what can be common to all terminals is common, and what is per terminal is separate. [[wiki/people/alexander-biratka.md|Biratka]]: Andrei created the needed keys in the repository; he is generating certificates to upload for the updates.
+
+### Open commitments (Sept 25 2026)
+
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] and [[wiki/people/andrey-bosik.md|Andrey Bosik]] — review the GitHub update variables: common to all terminals versus per terminal — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
 
 ## Sources
 
@@ -855,3 +879,5 @@ On the [[wiki/meetings/2026-09-24-hardware-repo-bom-source-of-truth-and-street-c
 - [[raw/Meeting_Notes_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]
 - [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
+- [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]]

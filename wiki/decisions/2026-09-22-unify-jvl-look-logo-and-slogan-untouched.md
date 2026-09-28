@@ -3,7 +3,7 @@ type: decision
 title: Unify JVL's look into one package — collect and arrange, no rebrand; the logo and slogan are not touched
 date: 2026-09-22
 aliases: [JVL brand unification, no rebrand, logo cannot be touched, slogan cannot be touched, JVL style guide, JVL collateral, trade show attire]
-source-count: 2
+source-count: 3
 status: active
 open-questions: 2
 ---
@@ -32,6 +32,10 @@ Decided by [[wiki/people/val-levitan.md|Val Levitan]] on the [[wiki/meetings/202
 
 Howard to send a proposal; his commitment is on [[wiki/people/howard-tikka.md]]. Val: "Think it through. See how many hours you have around and let me know." [[raw/Meeting_Transcript_Howard_Tikka_Brand_Realignment_and_Collateral-September-22-2026.md]]
 
+## Update — Sept 25 2026: the slogan on the promo flier
+
+Reading Klimovich's draft promo flier three days later, Val read "We take our game seriously." and "with slogan in blue". No clear change to the slogan is asked for; a later line, "Whatever slogan you're losing.", is **unclear** (garbled audio). See [[wiki/meetings/2026-09-25-promo-flier-review-and-sergey-vysotsky-wait.md]]. [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]] *(The transcript has "game"; the earlier document has "Games". Which is the exact slogan wording is not settled by a speech-to-text line — not treated as a contradiction.)*
+
 ## Open questions
 
 - What budget goes with the work? None was named. Val: "I do miss the marketing budget we used to have." — [[raw/Meeting_Transcript_Howard_Tikka_Brand_Realignment_and_Collateral-September-22-2026.md]]
@@ -42,3 +46,4 @@ Howard to send a proposal; his commitment is on [[wiki/people/howard-tikka.md]].
 ## Sources
 - [[raw/Meeting_Notes_Howard_Tikka_Brand_Realignment_and_Collateral-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Howard_Tikka_Brand_Realignment_and_Collateral-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]]

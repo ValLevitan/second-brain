@@ -3,9 +3,9 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, COAM Hearing Room, Georgia Lottery Corporation, Tracy Warren, HB 353, Intralot lab, Bill at Intralot, three fifty-eight nine, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing, GAMOA, ILERS, ILAS report, Eilers, Eiler report, show special, Mega Hit Blaze, sales channel report, Bulldog Gaming, ARC, ARC Gaming, Class A, C-Store Connect, GACS, route consolidation, gift-card cash-back notice, Chris Plonic, Double Down Gaming, Ryan O'Donnell, Billy Liu, Play Payments, PlayPay, banking licence moat, 7455 modem, KORE, KORE SIM, APN, GACS October 21, Pay Slim, over-drive, Rao, Narasimha Rao Namburi, David Milani, September 2 letter, 5500 PAX locations, Lucky Coin service burden, Lucky Bucks is ARC, the market is literally bottomless, backend displacement, David Sloan, Dave Sloan, Bill the kiosk vendor, the wording is in the same location, guidance is not the law, Digital Cash Processing, DCP, ICP Inc., Gen Mega, Andrew Cashin, Rick Beer, seventy four hundred locations forty seven thousand machines, Unlimited Amusement, Mega Hit Blaze V3, program the rollout, Swanee, Johns Creek, Singleton, SurfNote, Debbie Alford, eighteen thousand connected, Mike Mackey, five hundred dollars per unit per machine, WSS protocol, not even one installation, Georgia Lazy, Skyriser, Cardinal, outside looking in, Rich Winley briefing]
-source-count: 224
-open-commitments: 70
-open-questions: 30
+source-count: 227
+open-commitments: 73
+open-questions: 31
 ---
 
 # Georgia market rollout (Peach1234 / DLKG)
@@ -1651,6 +1651,41 @@ At the [[wiki/meetings/2026-09-24-georgia-hard-reset-remedies-and-passport-remov
 
 - What sets the lease-scan flag on fully paid machines — a person or an automatic mechanism? — [[raw/Meeting_Transcript_Georgia_Hard_Reset_Remedies_and_Passport_Removal-September-24-2026.md]]
 
+## Sept 24 2026 (11:46 AM) — what the V-1000 modem does today, in Pavel's words
+
+This continues the LTE-modem thread above (Aug 10, Sept 4). On the [[wiki/meetings/2026-09-24-v-1000-modem-current-use-cases.md|Sept-24 11:46 AM modem call]] (Russian; [[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/irina-shishko.md|Irina Shishko]]) Val asked the team to say in words what the modem on the V-1000 can do "в том воплощение, как он есть" [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]].
+
+- **1. RIS pass-through.** After a factory reset or a software install, if a RIS has been created on the server for this machine, the machine can pass that step automatically at initial setup: "если рэс создан на сервере… То на этапе яцитап можно автоматически пройти." See [[wiki/topics/ris-remote-install-and-machine-states.md]] (Sept 24, 11:46 AM) [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]].
+- **2. Lease update.** If a machine's lease renews on a fixed cycle — "каждые 2 недели обновляться или раз в месяц" — it does so automatically. Irina: a machine with an active lease pulls it in. Pavel: if the lease was cancelled, an update arrives and the machine "перестанет работать по по истечению этого срока" [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]].
+- **3. Statistics.** The game data now gathered by QR scans "должны будут через модем приходить". Untested so far; detail on [[wiki/topics/machine-data-repurchase-program.md]] (Sept 24) [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]].
+- **4. Software updates: none.** Val: "Апдейты программ." Pavel: "Нет, ничего." This matches Val's own Sept-1 line to Double Down, "you cannot download any software" [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]] [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]].
+- **A Texas capability waits.** Irina: a second capability, **172**, is "конкретно получается для Техаса"; it is still open and sits under IP 1061, which Pavel queried as a GA-COAM item. Irina: the Texas plan is unclear; if it ships soon, it can stay there [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]].
+- **Val's next step.** Use this transcript to write the current use cases properly, write today's capabilities under them, and then write new capabilities for the modem and check "что можно выполнить, а что нельзя выполнить." Pavel agreed. No owner was named [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]].
+
+### Open commitments (Sept 24 2026, 11:46 AM)
+
+- [ ] Unassigned (Val's direction; no owner named) — write the modem's current use cases from the Sept-24 transcript, then the capabilities under them, then new modem capabilities — due unspecified — [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]]
+
+## Sept 25 2026 (2:32 PM) — the V2 machines went out at 96.5%, 92% from now, and V3 passes its test
+
+From the [[wiki/meetings/2026-09-25-georgia-progressives-and-class-a-lions-riches.md|Sept-25 2:32 PM game-development call]] (English). The settings rulings are on [[wiki/decisions/2026-09-25-georgia-machines-go-out-at-92-percent-and-the-progressive-tops-are-2400-2400-1500.md]]. [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+
+- **The V2 RTP was wrong in the field.** [[wiki/people/michael-gottlieb.md|Michael]]: "**Georgia Vertical 2 was deployed at 92 plus 4.5 for the progressive. So those machines were deployed at 96.5**". Val: at 96.5% "**we will never get to our net win… And eventually we're going to get kicked out.**" Val set **92% as "good enough right now"**. Nobody knew how 96.5% happened. [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- **Spot-check what is actually installed.** Val asked [[wiki/people/efim-podvoiski.md|Efim]] to get the RIS "**that you actually installed yesterday on the machine**" and check it ("RAS" in the transcript = RIS). Michael said he had told [[wiki/people/felipe-miranda.md|Felipe]] to be "**communicative**" up front, and Efim to "**trust but verify the data**". [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- **Georgia V3 passed its test.** Asked "**Where are we with submission of Georgia V3?**", Val: "**it passed the interlock test and we should get a letter on hand on Monday and we are delivering Monday, Tuesday, Wednesday.**" Monday is Sept 28 2026 (date worked out, not spoken). "Interlock" is most likely **Intralot** (inference; the corpus has this garble before). This follows the Sept-22 submission and Val's "approved by Friday" above. [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- **Nobody has checked the release content.** Val: "**I did not check whether all the changes that you worked on made into that release.**" He asked Michael to have Felipe show a running machine on video — "**show me the VDEC… show me the settings, show me the RTP**". Michael: "**We will do it. Efim and I will do it.**" [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- **Data is coming, in Val's words.** "**for the first time… we'll be putting out machines with models**" — "**a big, big, humongous breakthrough**". "Models" is as spoken; the notes read it as "modems" (a reading only, not asserted). Compare the built-in modem on Sept 22 (2:45 PM) above. [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]] [[raw/Meeting_Notes_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- **Felipe's feedback on the look.** He praised **Twin Bison**, the **revised Lions Riches**, and the parrots in **Tropical Paradise**, as Michael reported it. [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+
+### Open commitments (Sept 25 2026, 2:32 PM)
+
+- [ ] [[wiki/people/efim-podvoiski.md|Efim Podvoiski]] — spot-check the RIS actually installed on a Georgia machine, including the RTP — due unspecified — [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- [ ] [[wiki/people/michael-gottlieb.md|Michael Gottlieb]] (with Efim) — call Felipe and check on a running machine, by video, that the V3 release has all of Michael's changes (VDEC, settings, RTP) — due unspecified; delivery is Sept 28–30 — [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+
+### Open questions (Sept 25 2026, 2:32 PM)
+
+- How did the Georgia V2 machines come to be deployed at 96.5%? — [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_GA_Trip_Recap_Kiosk_Intel-May-18-2026.md]]
@@ -1879,3 +1914,6 @@ At the [[wiki/meetings/2026-09-24-georgia-hard-reset-remedies-and-passport-remov
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
 - [[raw/Meeting_Transcript_State_Farm_Arena_Suite_Options_Intro_Call-September-23-2026.md]]
 - [[raw/Meeting_Transcript_Georgia_Hard_Reset_Remedies_and_Passport_Removal-September-24-2026.md]]
+- [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]]
+- [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- [[raw/Meeting_Notes_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]

@@ -3,9 +3,9 @@ type: topic
 title: Georgia Class A machines
 date: 2026-08-31
 aliases: [Class A, Class A machines, Alan Powell, twenty five seventy five, twenty eighty, one game suite, forty bucks per day, намберту, в принципе дали мне заказ, two machines a week, five machines a week, the same machines go to Texas, Class A on Nova, Class A V43, party time feature, awards cannot be bet, for now yes, playing within the rules, no book of Class A regulations, if you had a pulse you get a license, not hooked up to a central accounting system, hang our hat on one supplier, slinging them out and seeing what sticks, it's predominantly the meters, Class A licence easier than B, Georgia Class A, Class A licence, amusement machines Georgia, two-bucket win system, $50 per spin cap, $50 per hand, Primero Class A, play bucket, redemption bucket, Hope Scholarship, class eight]
-source-count: 28
+source-count: 30
 open-commitments: 0
-open-questions: 11
+open-questions: 14
 ---
 
 # Georgia Class A machines
@@ -430,6 +430,24 @@ This adds to the open skill question below: Val's Sept-22 line that Class A is "
 
 **§15.8:** clear.
 
+## Sept 25 2026 — the first Class A screens, on Lions Riches, and party time as the thing players chase
+
+At the [[wiki/meetings/2026-09-25-georgia-progressives-and-class-a-lions-riches.md|Sept-25 2:32 PM game-development call]] (English) the Class A product was shown for the first time. Platform and schedule points are on [[wiki/decisions/2026-09-11-georgia-class-a-v43-is-built-on-nova-not-rage.md]] (Sept-25 update); the cabinet is on [[wiki/topics/low-cost-street-machine.md]] (Sept 25). [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+
+- **Lions Riches is the test bed.** [[wiki/people/michael-gottlieb.md|Michael]]: "**We are going to use Lions Riches as the test bed for the Class A product.**" [[wiki/people/lena.md|Lena]] showed the images. [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- **The screen.** A "**reduced dual box**" that Val had liked; "**credits on the left, awards in the center**"; bet levels plus and minus "**in increments of 25 cents… all the way up to 5 bucks**". A VDEC layout with plus and minus buttons is still to be made. Michael: "**Graphically, not overwhelming, but mathematically it remains to be seen.**" [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- **The math has to be redone.** "**Lions Riches Georgia is a nudge-based game**", and Class A has no nudge, so [[wiki/people/efim-podvoiski.md|Efim]] must work out the math again. Michael asked whether that means "**taking a class 3 lions riches and just throwing the dual box on top of it? That appears to be what our competitors are doing.**" Efim's challenges: the **$50 cap** ("$50 cup" in the transcript), "**What to do with free spins? How do we deal with all party time**", and the number of math files. [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- **Nebraska, for comparison.** Asked if the Nebraska software is "**basically class 3 with dual box added**", Efim: "**It's basically class 3, yes, I think.**" [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- **Party time, as Michael now reads it.** "**when you go into party time, you're going to get repeated $50 wins. It's similar to their hot streak. Basically, I have concluded that this mechanism is a substitute for progressives. So, instead of winning 250 bucks, you win 50 bucks five times.**" The party-time message stays on top while it is active — "**It's basically a state**". Why it matters: in the competitor game he and Val played, "**Your base game wins were nothing to get excited about. Your free spins weren't even that exciting**"; "**this is the real chase here**", and the pay table is "**fuel to get to the oasis across the desert**". [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- **The party-time math.** Efim's idea: take the part of the payout distribution above $50 and pay it through party time — "**maybe 10, 15, 20% of RTP**". Michael: the party-time wins they saw were "**always at least $100**"; target "**somewhere in that 150 to $250 range**", then "**somewhere between 100 and 250**"; "**50 is not enough**". Val had no view on the numbers: "**I have no opinion… I have no clue**"; his experience was "**I enjoyed the party time**", and "**turbo is not a bad thing**". [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- **Cash-out.** The confirmation asks the player to collect their cashable awards; the amount "**is a function of whatever amount of awards the player happens to have**". There is "**a minimum cashable award**", perhaps $5 — Michael was not sure. Then a continue / print ticket / reinsert dialog, "**quite similar to what [Primero is] doing**". When the ticket prints, "**your awards will go to zero**". [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- **Val would rather not print.** "**I'm thinking how to avoid putting a printer inside**" — perhaps AFT with the optical ticket scanner, or scanning the e-wallet again: "**I just don't want to print another ticket.**" For now: "**Let's just leave it at this icon. We could always revise it.**" On the meters he noted "**the logic here is to have two pods**" (pots — credits and awards). Close: "**Let's leave it like this for now.**" [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- **Schedule.** In Jira, under the game-concept item **IP-1190**, "**The abstract for Lions Riches, we're targeting October 9th**" — Michael: "**conceivably, we have to see**". Lena: the visual design for the extra pieces is "**basically already done**", but storyboards are still needed. Production "**has not been measured yet**"; Lena: "**we will not start it until December, January**", with R&D "**during this month**". [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+
+This is the fullest internal description of Class A behaviour so far. It still rests on the competitor game the team played; no rulebook is cited (see Sept 10 above).
+
+**§15.8:** clear — product and market content only.
+
 ## Open questions
 
 - **Are Primero's Class A terms categorical or deal-by-deal?** Two operators now describe **different structures**: ARC (Sept 16) pays **$1,000 for the software plus 10%/20%** depending on whose cabinet; Halcyon (Sept 17) was offered **25% financed / 20% paid up front with no software fee**, on hardware of "$2,500… 25 or 3,500". Neither source knows of the other. [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]] [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
@@ -447,6 +465,10 @@ This adds to the open skill question below: Val's Sept-22 line that Class A is "
 - **Single title or multi-game for Class A?** Val wants a single-title machine with a cell modem so a weak game can be replaced remotely; JVL's games lead says multi-game is "the religion" in this market. Proposed and countered on Sept 16 2026, concluded neither way — [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
 - **Is there actually skill in a Class A game, or is the skill element a fiction?** Val says he does not believe there is one, then recalls seeing one and calls it misread; the games lead calls it "a white lie" to make the games look like ordinary games. Both positions stand; **no regulation exists to check them against** — [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
 - **Who is "Mike", the person an out-of-state operator says is pushing Class A?** Named on the Sept-16 phone call with no surname and matched to nobody (§4) — [[raw/Meeting_Transcript_Jamie_Georgia_Class_A_Opportunity_and_Market_Outlook-September-16-2026.md]]
+
+- **How big should a party-time win be?** Michael expects $100–$250 (also "150 to 250"); Efim suggests 10–20% of RTP through party time; nothing is set — [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- **What is the minimum cashable award?** "I don't know if it's $5" — [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- **Can the Class A cabinet do without a printer?** Val floated AFT with the optical scanner, or rescanning the e-wallet; the icon stays for now — [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
 
 **§15.8:** clear — licence, machine, location and market economics only; no named-person compensation.
 
@@ -481,3 +503,5 @@ This adds to the open skill question below: Val's Sept-22 line that Class A is "
 - [[raw/Meeting_Notes_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
 - [[raw/Meeting_Notes_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+- [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- [[raw/Meeting_Notes_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]

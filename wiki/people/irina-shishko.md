@@ -4,8 +4,8 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 101
-open-commitments: 30
+source-count: 106
+open-commitments: 33
 ---
 
 # Irina Shishko
@@ -489,6 +489,44 @@ At the [[wiki/meetings/2026-09-24-nova-galaxy-jira-hierarchy-cleanup.md|Sept-24 
 - **Live moves.** She moved items during the call, and said the capabilities now under Galaxy (IP "10 30 96", garbled) move under IP 1199.
 - **Games.** She asked where game production / design / concept IPs go once the grooming is done; Val parked it.
 
+## Sept 24 2026 (11:46 AM) — the modem's capabilities, found and moved
+
+On the [[wiki/meetings/2026-09-24-v-1000-modem-current-use-cases.md|Sept-24 11:46 AM modem call]] (Russian) she found the two modem capabilities — 109 under IP 747 and 172, "конкретно… для Техаса", under IP 1061 — and moved item 977 live, giving it IP 1199 as parent. Pavel proposed her as reporter when he cannot be one, so she "будет видеть… Что делалось"; Val agreed. On the modem's lease use she added: "Если активная лиза, есть она, машина её подтянет." See [[wiki/topics/github-release-management-pipeline.md]] (Sept 24, 11:46 AM) [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]].
+
+## Open commitments (Sept 24 2026, 11:46 AM)
+
+- [ ] Irina Shishko, with [[wiki/people/pavel.md|Pavel Frolov]] — finish the modem Jira clean-up (move out features that do not belong, add a capability if needed, fix parents) — due unspecified — [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]]
+
+## Sept 25 2026 (4:57 AM) — features for autotests
+
+At the [[wiki/meetings/2026-09-25-daily-standup-engineering-menu-and-jira-discipline.md|Sept-25 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]], she will first sort out the differences and an email that arrived, then go on creating features "Для автотестов". She asked Khamin to include Pavel in his meeting request to Alekseev.
+
+## Sept 25 2026 (7:33 AM) — "it must be set up perfectly first"
+
+At the [[wiki/meetings/2026-09-25-ai-project-manager-for-jira.md|Sept-25 "JIRA management AI" call]] (Russian) [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]: on assigning Jira tasks straight to Claude, "Это должно быть всё настроено, просто идеально… Если оно не настроено всё, он нас задушит". She agreed each person's knowledge base is separate today ("у каждого своё получается"). See [[wiki/decisions/2026-09-25-one-company-second-brain-feeds-an-ai-project-manager-for-jira.md]].
+
+## Open commitments (Sept 25 2026)
+
+- [ ] Irina Shishko (with the others on the call) — think through how she would build the AI project manager — due Tuesday Sept 29 2026, 7:00 — [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]
+
+## Sept 25 2026 (8:05 AM) — JVL machines first, the certification command list, and autotests after October 7
+
+On the [[wiki/meetings/2026-09-25-transactional-mvp1-flexport-third-party-egm-compatibility-testing.md|Sept-25 8:05 AM MVP 1 call]] (Russian) [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]:
+
+- **Order of testing.** "сначала бы на наших машинах пройти эту процедуру", with a near-final port and IQ; Elizabeth checks a JVL machine, then another maker's.
+- **The command list.** There is a document of every command a machine must support, used for certification — go through it. She named Ivan to write the set-up instruction.
+- **Office, not warehouse.** At a warehouse "нам туда не будет доступа".
+- **Autotests.** She finishes the features the next day and splits them between Ivan and Khamin; autotests "будут написаны позже, чем 7 число", because fitting them into the week is "физически невозможно". See [[wiki/topics/test-automation-strategy.md]] (Sept 25, 8:05 AM).
+- **Mailing list.** She suggested all Minsk developers except the artists.
+
+## Open commitments (Sept 25 2026, 8:05 AM)
+
+- [ ] Irina Shishko — finish the autotest features, split them between Ivan and Khamin, and show the plan on Monday — due Sat Sept 26 / Mon Sept 28 2026 — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
+
+## Sept 25 2026 (9:02 AM) — the question that decided the converter
+
+At the [[wiki/meetings/2026-09-25-games-conversion-repos-jira-capabilities.md|Sept-25 9:02 AM games-conversion session]] (Russian) she asked whether the converter is still needed once a game is converted — "Или он просто будет уже лежать там какимто мертвым грузом?" Igor said no, and Pavel called it the right question. Her example: six games converted one after another, after which "этот конвертер уже больше… не нужен". She put its reusable share at "80 70" per cent [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]. Detail on [[wiki/decisions/2026-09-25-the-conversion-experiment-closes-and-the-converter-gets-its-own-project-and-repository.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
@@ -592,3 +630,8 @@ At the [[wiki/meetings/2026-09-24-nova-galaxy-jira-hierarchy-cleanup.md|Sept-24 
 - [[raw/Meeting_Transcript_RIS_Serial_Binding_and_Factory_Reset_Focus-September-24-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
 - [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
+- [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
+- [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]
+- [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]]

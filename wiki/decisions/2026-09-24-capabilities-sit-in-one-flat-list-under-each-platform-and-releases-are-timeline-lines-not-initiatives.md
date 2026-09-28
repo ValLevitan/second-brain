@@ -3,7 +3,7 @@ type: decision
 title: Capabilities sit in one flat list under each platform, views come from filters, and releases are Jira timeline lines — not initiatives
 date: 2026-09-24
 aliases: [one long list of capabilities, flat capability list, releases are vertical lines, no release-named initiatives, Core value stream, Core and Tools rename, Galaxy Platform, remove the product IP layer, Games Core Hardware value streams, IP-1204 Core, IP-738 Tools, IP-481 NOVA Gaming Platform Land-based, IP-1199 IP-1202 MVP split]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 4
 open-questions: 2
@@ -60,6 +60,16 @@ Taken by [[wiki/people/val-levitan.md|Val Levitan]] at the [[wiki/meetings/2026-
 
 **§15.8:** clear — Jira structure and process only. **§15 #9:** IP numbers are Jira work references, not corporate identifiers.
 
+## Update, Sept 25 2026 — initiative vs project, and repositories before Jira projects
+
+At the [[wiki/meetings/2026-09-25-games-conversion-repos-jira-capabilities.md|Sept-25 9:02 AM games-conversion session]] (Russian) the day after this ruling [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]:
+
+- **Val is still unsure.** "я лично путаюсь. Я не знаю, что назвать инициативой, что назвать проектом."
+- **Kovalchuk's reading of the standard.** "Проект равно репозиторию"; an initiative is a long direction with several releases and "будет объединять несколько проектов"; initiative → capabilities → features, which "лежат в проектах". "Вчера инициативой мы назвали Галакси и no…" — pointing back to this Sept-24 call.
+- **Applied.** Pavel picked the existing initiative "снова геймин платформ лэндбэйст" (NOVA Gaming Platform Land-based) with the capability for RAGE-to-NOVA conversion under it; two projects follow. Detail on [[wiki/decisions/2026-09-25-the-conversion-experiment-closes-and-the-converter-gets-its-own-project-and-repository.md]].
+- **Order.** Kovalchuk: "Сначала репозитории создаем. Потом проект", since Jira project names match repositories. Val asked for it in the standard; Pavel: "Она внесена уже".
+
 ## Sources
 - [[raw/Meeting_Notes_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]
 - [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]
+- [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]
