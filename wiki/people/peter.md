@@ -3,7 +3,7 @@ type: person
 title: Peter (former JVL Corp CFO/CEO)
 date: 2025-06-13
 aliases: [Peter]
-source-count: 2
+source-count: 3
 disambiguation: "Peter — a former CFO/CEO and shareholder of the old JVL Corp who led the 2006 restructuring; his ~$150k loan was converted to shares. Surname not stated. Distinct from 'Peter Betty' of Betson (an external industry figure named on the Apr-1 game-design brainstorm)."
 ---
 
@@ -16,7 +16,12 @@ Peter is a **former shareholder and executive of the old JVL Corp** who surfaces
 
 Paired throughout with [[wiki/people/boris.md|Boris]] (the other former shareholder whose loan was likewise converted to shares).
 
+## Jul 10 2026 — Val wants their interest diluted
+
+Planning the 2026 raise with [[wiki/people/alan.md|Alan Litwack]], Val said: "I really would like to get rid of Boris and Peter… I don't mean to forcefully take take them out… but in a way diluting their interest." Litwack: "you are going to dilute everybody." See [[wiki/topics/jvl-2026-funding-crisis-capital-call.md]]. [[raw/Meeting_Transcript_Alan_Litwack_Convertible_Debenture_Design-July-10-2026.md]]
+
 ## Sources
 
 - [[raw/finance_loans_review_sean_alka-june-13-2025.md]]
 - [[raw/finance_loan_summary_detailed_review_alka-june-13-2025.md]]
+- [[raw/Meeting_Transcript_Alan_Litwack_Convertible_Debenture_Design-July-10-2026.md]]

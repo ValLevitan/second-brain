@@ -21,6 +21,7 @@ Substance lives on:
 - [[wiki/topics/sred-tax-credit.md]] (Jun-30 2026) — SR&ED filed with the Labs return; "first time in history… on time".
 - [[wiki/organizations/jvl.md]] (Jun-30 2026) — background to the July transfer-pricing study.
 - [[wiki/people/sean-riley.md]], [[wiki/people/mark-tax-advisor.md]], [[wiki/people/ashley-tax-advisor.md]] (Jun-30 2026).
+- Follow-up meeting with Mark: [[wiki/meetings/2026-07-08-gilmore-bsp-intercompany-software-licensing-and-florida-nexus.md]] (Jul-8 2026).
 
 ## Notes vs transcript
 

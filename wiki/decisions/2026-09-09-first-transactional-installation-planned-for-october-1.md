@@ -3,7 +3,7 @@ type: decision
 title: The first transactional installation is planned for October 1 and the whole schedule is built on that assumption — the date stands; the FlexPay self-service configuration named here was replaced by Flex IQ on Sept 11
 date: 2026-09-09
 aliases: [first installation October 1, assume October 1, one installation on the first of October, self-service wallet case, bill acceptor card dispenser and printer, it might be September 28, the October 1 case]
-source-count: 6
+source-count: 7
 status: active
 open-commitments: 1
 open-questions: 0
@@ -57,6 +57,8 @@ The readiness estimate given in the same call — best case **September 25** for
 - [x] [[wiki/people/pavel.md|Pavel Frolov]] — build the work schedule on the assumption of one installation on October 1 and have it ready by Friday; Val set the Friday meeting specifically ("Я особенно назначил [ап]poi[n]tment") — due Sept 11 2026 — **discharged Sept 11 2026**: Pavel opened the Friday call with the two releases already created in the product-capability space and capabilities being linked to MVP 1 — [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]] [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [x] [[wiki/people/val-levitan.md|Val Levitan]] and [[wiki/people/pavel.md|Pavel Frolov]] — meet Friday to work the schedule through — due Sept 11 2026 — **discharged Sept 11 2026**: the [[wiki/meetings/2026-09-11-transactional-mvp1-scope-and-priorities.md|8:04–9:29 AM call]] is that meeting — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 
+- **Back-fill (Aug 11 2026) — an earlier single-unit schedule.** A month before this anchor, Val told [[wiki/organizations/dwolla.md|Dwolla]] "we would like to uh place one test unit in one single location" that day, then five more units in September, ten more in October, and "by the end of the year… twenty terminals." That earlier plan is history only; it does not change the October-1 anchor above. [[raw/Meeting_Transcript_Dwolla_Reserve_Reduction_Negotiation-August-11-2026.md]]
+
 **§15.8:** clear.
 
 ## Sources
@@ -66,3 +68,4 @@ The readiness estimate given in the same call — best case **September 25** for
 - [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
 - [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [[raw/Meeting_Transcript_Dwolla_Reserve_Reduction_Negotiation-August-11-2026.md]]

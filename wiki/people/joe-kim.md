@@ -6,6 +6,7 @@ aliases: [Joe Kim, Joe Kemp, Joe, Joel, Joe's recent letter, the letter from las
 source-count: 12
 open-commitments: 0
 open-questions: 4
+disambiguation: "PROVISIONAL (owner ruling pending) — 'Joe' cluster: Joe Kim [[wiki/people/joe-kim.md]] (Georgia Lottery general counsel) · Joe Hello [[wiki/people/joe-hello.md]] (Texas operator). Resolve by context: Georgia Lottery / COAM regulation → Joe Kim; Texas operator / AMOT / Capitol Amusement / Texas test placement → Joe Hello; a 'Joe' fitting neither stays unresolved and is queued."
 ---
 
 # Joe Kim (Georgia Lottery general counsel, COAM)

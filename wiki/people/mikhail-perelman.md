@@ -4,7 +4,7 @@ title: Mikhail Perelman
 date: 2026-07-13
 aliases: [Mikhail Perelman, Misha, Миша, Mikhail, Michael]
 disambiguation: "Procurement Manager (parts/vendors/shipments; the retrofit-lead "Misha"). Misha/Michael cluster (2, owner-ruled): [[wiki/people/michael-gottlieb.md|Michael Gottlieb]]=Senior VP Game Design / [[wiki/people/mikhail-perelman.md|Mikhail Perelman]]=Procurement Manager (the "retrofit Misha"). Resolve by context; queue if none."
-source-count: 10
+source-count: 11
 open-commitments: 1
 ---
 
@@ -35,6 +35,10 @@ On the July-3 alignment review ([[wiki/meetings/2025-07-03-procurement-relocatio
 ## May 11 2026 — material-requirements report to be delivered via the BC MCP
 
 On a [[wiki/people/val-levitan.md|Val]] / Perelman / [[wiki/people/lev-rudky.md|Lev Rudky]] call ([[wiki/meetings/2026-05-11-bc-material-requirements-mcp.md]]) Misha, as procurement manager, spelled out the material-requirements (MRP) report he wants — the one-click Navision report Anatoly built him, which the standard Business Central report does not reproduce. His model: input a part/subassembly/machine with a target quantity; get a **consolidated shortage list** (one row per unique part, netting stock + on-order + in-transit) enriched with **vendor + last price + minimum order quantity**, grouped by vendor for POs, plus a per-subassembly side-list for cross-checking. Today he builds the consolidation himself in an **Excel pivot table** on top of the BC export. Val proposed delivering it not by modifying BC but through the **BC MCP layer** (Claude doing the consolidation/enrichment in one step), and made Misha the canonical **"procurement manager" persona** for the requirements Val will draft from the transcript + Misha's example Excel. Misha to send the Excel sample immediately. Substance on [[wiki/topics/business-central-erp-implementation.md]] (May-11). §15.8 clear. [[raw/Meeting_Transcript_bc_material_requirements_mcp-May-11-2026.md]] [[raw/Meeting_Notes_bc_material_requirements_mcp-May-11-2026.md]]
+
+## Aug 12 2026 (in absentia) — the purchasing lag, and where an agent would fit
+
+On the [[wiki/meetings/2026-08-12-hardware-github-standard-bc-sync-design.md|Aug-12 Val–Genadi hardware-standard session]], Genadi gave a live example: he had told Misha that a quotation for 43-inch touch screens for the next month had come in, a week had passed and the PO approval had not been sent — "it's between chairs and there's no one to remind them". Val's picture of the fix: a purchasing agent with access to Business Central prepares all the purchase orders and Misha gets approval rights to release them. Genadi also said he had raised a missing bezel with Misha because of an upcoming show. **§15.8:** Val's personal remarks about Misha in the same passage are withheld. [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
 
 ## Sept 4 2026 — the China route for the Flex-Slim brackets, and the 100-Flex-Port order
 
@@ -69,3 +73,4 @@ At the [[wiki/meetings/2026-09-14-hardware-priorities-tito-case-and-street-cabin
 - [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
 - [[raw/procurement_production_relocation-july-3-2025.md]]
 - [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+- [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]

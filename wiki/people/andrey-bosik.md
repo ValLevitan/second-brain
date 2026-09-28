@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 95
+source-count: 96
 open-commitments: 34
 ---
 
@@ -219,6 +219,10 @@ Two connected threads this day. In the morning [[wiki/meetings/2026-04-13-aaron-
 ## Apr 15 2026 — legacy CMS documentation progress check: owns the "documents readiness" report
 
 On the [[wiki/meetings/2026-04-15-legacy-cms-documentation-progress-check.md|Legacy CMS Documentation Progress Check]] (with Val, [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]], [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]], [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]]) Andrei presented his 6-metric **"documents readiness"** dashboard tracking README/CLAUDE.md/docstring coverage across the legacy-CMS repos. Val coached him to *guide* a reader through a report rather than hand it over cold. Andrei argued the docs pass is also a **bus-factor** safeguard (the legacy CMS lives on a while regardless of future architecture) and undertook to deepen from repo-organization into **deployment infrastructure** by Apr 28. Substance on [[wiki/topics/docs-as-code-and-atlassian-exit.md]] + [[wiki/topics/ai-assisted-development.md]] (Apr-15). [[raw/Meeting_Notes_Legacy_CMS_Documentation_Progress_Check-April-15-2026.md]]
+
+## Aug 12 2026 (in absentia) — his repository question starts the hardware standard
+
+On the [[wiki/meetings/2026-08-12-hardware-github-standard-bc-sync-design.md|Aug-12 Val–Genadi hardware-standard session]], Genadi said Andrey had asked him "How should I prepare a repository?" and he had no answer — the question that led to the draft hardware GitHub standard (see [[wiki/topics/github-release-management-pipeline.md]], Aug-12). Genadi also said Andrey recommends working CAD files on OneDrive once the licence is in place, and that the product-based repo layout Andrey follows came from Pavel's advice about three months earlier. Val wants Andrey, Pavel and Genadi to agree the layout before it is final. **§15.8:** Val's remark on Andrey's recent work is withheld. [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
 
 ## Aug 24 2026 (reported) — he and Val ran the first prose-from-code experiment, and it failed
 
@@ -515,3 +519,4 @@ The [[wiki/meetings/2026-09-18-transactional-mvp1-capability-cleanup-and-the-mon
 - [[raw/Meeting_Notes_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+- [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]

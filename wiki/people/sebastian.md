@@ -3,7 +3,7 @@ type: person
 title: Sebastian
 date: 2025-02-19
 aliases: [Sebastian, the engineer I brought in from Miami]
-source-count: 9
+source-count: 10
 open-commitments: 0
 open-questions: 2
 ---
@@ -27,6 +27,10 @@ The transcript does not give Sebastian's last name.
 ## Apr 28 2025 — Business Central order role; ex-Colombia engineer
 
 On the BC status call ([[wiki/meetings/2025-04-28-business-central-labs-tariffs-status.md]]) Val placed Sebastian as one of three engineers who place orders — he should **place purchase orders** (internal, to JVL Labs/[[wiki/people/arkady-batson.md|Arkady]]), not sales orders. Val confirmed his background: a **full-time engineering technician** in Florida who **used to work for JVL's Colombian entity as a field-service engineer** ("he knows everything inside out"), speaks Spanish, and is currently light on installations. [[raw/business_central_update-apr-28-2025.md]]
+
+## Aug 11 2026 — the phone tech-support contact for a Texas operator
+
+On the [[wiki/meetings/2026-08-11-joe-hello-texas-skill-game-payout-wording.md|Aug-11 call]] Texas operator [[wiki/people/joe-hello.md|Joe Hello]] said his crew could install a JVL machine themselves, and "your guy I spoke with on the phone, tech support guy, could walk my guys through anything." Val: "Yeah, Sebastian. My guy is Sebastian." See [[wiki/projects/texas-used-machine-distribution.md]] (Aug 11). [[raw/Meeting_Transcript_Hello_Games_Texas_Skill_Payout_Wording-August-11-2026.md]]
 
 ## Sept 9 2026 — one half of the installation split
 
@@ -68,3 +72,4 @@ At the [[wiki/meetings/2026-09-10-diamond-amusements-machine-performance-and-bun
 - [[raw/Meeting_Notes_Georgia_Exclusivity_Bet_and_Sebastian_Reassignment-September-9-2026.md]]
 - [[raw/Meeting_Notes_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
 - [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- [[raw/Meeting_Transcript_Hello_Games_Texas_Skill_Payout_Wording-August-11-2026.md]]

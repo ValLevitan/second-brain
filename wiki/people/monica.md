@@ -54,17 +54,25 @@ At the Bank of America meeting ([[wiki/meetings/2026-06-08-bank-of-america-banki
 
 On the [[wiki/meetings/2026-07-02-cibc-business-central-integration.md|July-2 CIBC call]] (Monica not on the call) Michael Hill of [[wiki/organizations/cibc.md|CIBC]] said he had worked with Monica on turning on the link between CIBC's online banking and Business Central, and "sent Monica directions and everything". He did not know whether she had finished; "she may have already initiated this." Val's next step was to check with Monica and work with her and his tech person to enable the setting. [[raw/Meeting_Transcript_CIBC_ACH_Account_Architecture-July-2-2026.md]]
 
+## July 15 2026 — keeper of the warrant records
+
+On the [[wiki/meetings/2026-07-15-warrant-history-new-raise-priority-litwack.md|Jul-15 Litwack call]], asked who holds the paperwork for the old warrants and loans, the answer was "Monica". Val: "I mean Monica has it. We have a record of it." Val will dig up the warrant issuance agreement from her records. This fits the Jul-2025 note that the warrants are "very well organized with Monica". [[wiki/topics/jvl-corporate-loans-and-shareholder-financing.md]] [[raw/Meeting_Transcript_Alan_Litwack_Warrant_History_and_New_Raise_Priority-July-15-2026.md]]
+
+## Aug 11 2026 — the signer for Dwolla's updated order form
+
+On the [[wiki/meetings/2026-08-11-dwolla-reserve-reduction-negotiation.md|Aug-11 Dwolla call]] (Monica not on it) Dwolla's Nancy Baccam said that once the reserve is agreed, the order form will be updated with the new transaction limit and reserve and sent "I believe to Monica for her to sign", with production access after that. Val made the reserve agreement come first. Detail on [[wiki/organizations/dwolla.md]]. [[raw/Meeting_Transcript_Dwolla_Reserve_Reduction_Negotiation-August-11-2026.md]]
+
 ## Sources
 
-- [[raw/Meeting_Transcript_CIBC_ACH_Account_Architecture-July-2-2026.md]]
-- [[raw/JVL_Dwolla-november-5-2025.md]]
-- [[raw/Meeting_Transcript_CIBC_Sanjay_US_Account_Opening_and_Financing_Pipeline-February-9-2026.md]]
-- [[raw/jvl_online_sync_2025-03-29 1.md]]
 - [[raw/cibc_account_the_january_6_2025.md]]
-- [[raw/RBC_services_review-june-4-2025.md]]
-- (source: Corporate Registry — JVL Systems Identity & Tax IDs)
-- (source: Corporate Registry — JVL Gameworks Identity & Tax IDs)
+- [[raw/jvl_online_sync_2025-03-29 1.md]]
 - [[raw/flex_pay_scope_gap-mach-27-2025.md]]
 - [[raw/estrella_law_carlos_infante_puerto_rico-april-10-2025.md]]
 - [[raw/andrei _klimovich_update-apr-15-2025.md]]
+- [[raw/RBC_services_review-june-4-2025.md]]
+- [[raw/JVL_Dwolla-november-5-2025.md]]
+- [[raw/Meeting_Transcript_CIBC_Sanjay_US_Account_Opening_and_Financing_Pipeline-February-9-2026.md]]
 - [[raw/Meeting_Transcript_BofA_Lenin_Hernandez_Banking_Review_and_Georgia_Financing-June-8-2026.md]]
+- [[raw/Meeting_Transcript_CIBC_ACH_Account_Architecture-July-2-2026.md]]
+- [[raw/Meeting_Transcript_Alan_Litwack_Warrant_History_and_New_Raise_Priority-July-15-2026.md]]
+- [[raw/Meeting_Transcript_Dwolla_Reserve_Reduction_Negotiation-August-11-2026.md]]

@@ -3,8 +3,8 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 35
-open-commitments: 4
+source-count: 37
+open-commitments: 5
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
 
@@ -102,6 +102,14 @@ Val had asked Nathan to find a North American engineer for JVL's machine events 
 
 On the Payment Hub GL / sales-tax session ([[wiki/meetings/2026-05-12-payment-hub-gl-sales-tax.md]]; with [[wiki/people/igor-donis.md|Igor Donis]], [[wiki/people/val-levitan.md|Val]], [[wiki/people/sean-riley.md|Sean Riley]], [[wiki/people/juan-martinez.md|Juan Martinez]], [[wiki/people/lev-rudky.md|Lev Rudky]]) Nathan came to collect the five GL account codes Payment Hub needs to post into Business Central (two sales-invoice, one customer payment, two AR dimensions) so he could point alpha testing at real codes — Igor to create them in sandbox + production same-day. Nathan initially assumed Payment Hub would signal taxable-vs-non-taxable; Val rejected that and named it a **scope gap in the original Payment Hub design** — Payment Hub asks the accounting host (BC + Avalara) for an invoice, and the host decides taxability, with an optional explicit non-taxable override. Nathan owns **re-architecting Payment Hub** accordingly (each transaction carries a taxable/non-taxable flag, customer-default + line-override) and exploring the MSBC API for per-customer tax-status control at onboarding. Substance on [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (May-12) and [[wiki/topics/jvl-finance-back-office.md]] (May-12). §15.8 clear. [[raw/Meeting_Notes_Payment_Hub_GL_Sales_Tax-May-12-2026.md]]
 
+## Aug 12 2026 — named (in absentia) as the owner of the GitHub→Business Central sync service
+
+Nathan was not on the [[wiki/meetings/2026-08-12-hardware-github-standard-bc-sync-design.md|Aug-12 Val–Genadi hardware-standard session]]; Val dictated a message to him there. The message: "We're putting in place standards for storing hardware information in GitHub, and it needs its. Synchronization service that you would own. I want you to define the capability of this synchronization and start developing it." Principle stated in it: GitHub is the source of truth for design facts and Business Central follows it; nobody types design data into BC by hand. The service reads the BOM CSV from a tagged GitHub revision, rewrites the item's assembly BOM in BC through the BC API and stamps the tag on the item card (detail on [[wiki/topics/business-central-erp-implementation.md]], Aug-12). Val asked Genadi to write Nathan a scope first. (The derived notes say Nathan was "brought in near the end"; the transcript does not show him speaking.) [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]] [[raw/Meeting_Notes_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
+
+## Open commitments (Aug 12 2026)
+
+- [ ] (blocked-on: Genadi-scope) Nathan Carver — define and start building the GitHub→BC sync service on the BC API (Val's request; Nathan's acceptance is not in this source) — due unspecified — [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
+
 ## Sept 2 2026 — his payment-hub work confirmed deployed
 
 On the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-updates-after-the-show.md|Sept-2 Flex-IQ pre-pilot call]] (Russian; Nathan **not present**), asked for the payment-hub status, [[wiki/people/pavel.md|Pavel Frolov]] answered: "там всё что было сделано [Нейтоном] оно за[]деплоино" — everything Nathan built is deployed. What remained was operational, not development: [[wiki/people/andrei-klimovich.md|Andrei]] to fund the test card and Pavel to re-run the API request so stuck, errored transactions move to pending and retry ACH the next morning. Detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept-2). [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
@@ -172,3 +180,5 @@ Two qualifications came straight back, and both are recorded because they cut ag
 - [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 - [[raw/Meeting_Transcript_Payment_Hub_Billing_Collection_Workflow-January-6-2026.md]]
 - [[raw/Meeting_Transcript_Kyle_Johnson_Event_Recorder_Recruitment_Intro-April-3-2026.md]]
+- [[raw/Meeting_Notes_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
+- [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]

@@ -3,7 +3,7 @@ type: topic
 title: Low-cost street machine (sub-$2,000 street cabinet program)
 date: 2026-06-09
 aliases: [street machine, street cabinet, Sept 16 board spec, ID003 and ccTalk, eye level electronics, halo light, plywood cabinet, cup holders, low-cost street machine, low-cost street cabinet, street slot machine, sub-$2000 street machine, RK3588 street machine, stripped street cabinet, Flex S, флекс эс, стрит машина, RK3576 street machine, wooden monolithic body]
-source-count: 14
+source-count: 16
 open-commitments: 2
 open-questions: 0
 ---
@@ -86,6 +86,17 @@ The [[wiki/meetings/2026-07-29-rk3588-game-performance-findings.md|Jul-29 7:00am
 - **Memory sizing — 16 GB for 8 games.** One game plus the system plus LGS uses roughly **5 GB**; each additional game adds at least **1 GB**. So 8 games is about 5 + 7 = **12 GB**, and a **16 GB board leaves ~4 GB headroom**. An 8 GB board only covers about 2 games. Boards come in 4, 8 and 16 GB; onboard storage (32–64 GB) is more than enough for years of games. Textures could be hand-optimized to trim roughly **200 MB per game** (from ~1 GB toward ~800 MB) if needed. **Decision: order an RK3588 with 16 GB RAM** (RAM is soldered, so a different board is required — not an upgrade). [[raw/Meeting_Notes_RK3588_Game_Performance_Findings-July-29-2026.md]]
 - **Multi-progressive / multi-product.** Irina asked whether running multi-progressives that mix games from different products (Caliente + Peaches + Jackpot Rush) would change the picture once ported to Nova; Alexander said it would add some resources per game but likely isn't critical, and the 16 GB estimate still holds. Irina noted the current multi image has grown ~30% versus the old one, approaching ~8 GB. [[raw/Meeting_Notes_RK3588_Game_Performance_Findings-July-29-2026.md]]
 - **Board and display decisions.** RK3588 confirmed as the evaluation platform (RK3576 comparable, RK3399 older and no faster). The board supports at most 2 monitors, so no horizontal layout — only a compact one-main-plus-topper. One video interface is LVDS (impractical); the team prefers a board variant with **2–3 uniform HDMI outputs**. A progressive controller would add a database + controller app (a bit more load). Becoming a **Rockchip developer costs ~$3,000**, likely per platform (the earlier application was for the RK3568; a fresh request for the RK3588 is likely needed — Pavel to check). §15.8: board/memory/BOM economics only; no named-person compensation. [[raw/Meeting_Notes_RK3588_Game_Performance_Findings-July-29-2026.md]]
+
+## Aug 12 2026 — the 16 GB board is judged not worth it; two RK3576 8 GB boards to test
+
+At the start of the [[wiki/meetings/2026-08-12-hardware-github-standard-bc-sync-design.md|Aug-12 Val–Genadi session]] the board question came back two weeks after the Jul-29 "order a 16 GB RK3588" decision. [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
+
+- **The 16 GB option.** Val had asked for a 16 GB Rockchip board; he was not sure it was worth "$ 250 for us to have. 290?" Genadi agreed the almost-$300 board "doesn't make any sense". [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
+- **The RK3576 with 8 GB.** Genadi: a sample costs $150, production is cheaper, and "Such a board for a street machine is more than enough"; it supports 4K and is comparable in performance to the V1000 the machines use now ("что у нас сейчас стоит"). Val noted the street machine drives at most two monitors, while the V1000 supports four. [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
+- **The saving.** Genadi put the V1000 at $250 plus memory and SSD, "almost $400"; his comparison was "140 versus 380. 240 dollars. Saving." Val: "if you look at it four times, that's a thousand dollars on the car" (what the "four times" refers to is not stated). Genadi: "if we're going to make a street car, then every$ 10 counts." [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
+- **Memory handled by limiting games.** Genadi proposed limiting the games' size a little to fit 8 GB, and the game count settled on six (the transcript reads "you wanted 8 games, right? Six. Six."); he said he had told "Pasha" (Pavel, by context — inference) this is not a problem. [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
+- **Outcome.** Val: "**3576 с 8 гигабайтами и это будем тестировать. Мне кажется это хорошая платформа. Да, давайте мы возьмем два борта.**" — the RK3576 with 8 GB is to be tested; take two boards. (The derived notes turn this into "proceed with the board"; the transcript says test two.) This is the earliest source in the wiki for the RK3576 8 GB choice that the Sept-14 call confirmed — see [[wiki/decisions/2026-09-14-the-street-cabinet-board-is-the-rk3576-not-the-rk3568.md]]. [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]] [[raw/Meeting_Notes_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
+- **§15.8:** clear — board economics only.
 
 ## Aug 14 2026 — machine-design direction from the NOVA wishlist: capability over cost, buttons over VDEC, removable toppers
 
@@ -203,3 +214,5 @@ The last part of the recording is Val standing at a physical machine with two ot
 - [[raw/Meeting_Notes_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
 - [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
 - [[raw/Meeting_Notes_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
+- [[raw/Meeting_Notes_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
+- [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]

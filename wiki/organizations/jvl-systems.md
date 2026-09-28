@@ -3,7 +3,7 @@ type: organization
 title: JVL Systems, Inc.
 date: 2026-07-13
 aliases: [JVL Systems, JVL Systems Inc., JVL Systems Inc, JVL Systems, Inc.]
-source-count: 9
+source-count: 10
 open-commitments: 1
 open-questions: 3
 ---
@@ -79,6 +79,19 @@ On the [[wiki/meetings/2026-06-30-gilmore-gameworks-us-tax-and-labs-filing.md|Ju
 
 JVL Systems is one side of the **collaboration / joint-venture agreement** with [[wiki/organizations/jvl-labs.md|JVL Labs]] that a reviewer asked for again on the 2022 filing — a **50% net-profit-from-games** share, in Val's words. The agreement stays as is; the missing piece is invoices for the revenue spread. Details: [[wiki/organizations/jvl-labs.md]] (July 1 2026) and [[wiki/meetings/2026-07-01-jv-documentation-review-2022-invoice-gap.md]]. [[raw/Meeting_Transcript_JV_Documentation_Review_2022_Invoice_Gap-July-1-2026.md]]
 
+## July 8 2026 — the US "all-encompassing operating entity", with its brain in Florida
+
+On the [[wiki/meetings/2026-07-08-gilmore-bsp-intercompany-software-licensing-and-florida-nexus.md|July-8 2026 accountants' call]] (Sean Riley, Mark, Igor, Val, Inna), the plan for 2026 became: JVL Labs charges Systems software-licensing fees, sourced to Florida — see [[wiki/decisions/2026-07-08-jvl-labs-charges-jvl-systems-software-licensing-fees-sourced-to-florida.md]]. What the call said about Systems itself: [[raw/Meeting_Transcript_Gilmore_Cross_Border_Tax_Strategy-July-8-2026.md]]
+
+- **Its role (Val).** "We treat JVL system now as a US, all - encompassing operating entity where JVL Labs has become a development company." Systems puts machines together, repairs, ships and refurbishes them, issues the invoices and services operators. [[raw/Meeting_Transcript_Gilmore_Cross_Border_Tax_Strategy-July-8-2026.md]]
+- **Markets (Val).** Georgia "was the only market we had in the U. S."; now "A large portion of uh twenty twenty six revenue will be coming from other markets, South Dakota and Nebraska", and "we're starting on Texas." [[raw/Meeting_Transcript_Gilmore_Cross_Border_Tax_Strategy-July-8-2026.md]]
+- **Sites (Inna and Val).** Florida: a physical office and some inventory; Inna called it "a permanent office there in Aventura, Florida." Georgia: "an office and a warehouse... With inventory." Val: a small warehouse opened in South Dakota in **November 2025**; an extra warehouse in Nebraska is planned "Towards the end of this year"; an operations-support storage warehouse in Austin is being looked at. So Georgia's early image as a manufacturing site is being "diluted", while "the brain of the company is consolidating in Florida." [[raw/Meeting_Transcript_Gilmore_Cross_Border_Tax_Strategy-July-8-2026.md]]
+- **People in Florida (Val).** The senior people are moving to or already partly work in Florida; he named himself, Inna, [[wiki/people/monica.md|Monica]], Jessica (surname not given) and [[wiki/people/juan-martinez.md|Juan Martinez]] (then "We have director of sales works in Florida"), plus product management, and said "Andre is there, Sebastian is there." (Which "Andre" is meant is unclear — not resolved.) [[raw/Meeting_Transcript_Gilmore_Cross_Border_Tax_Strategy-July-8-2026.md]]
+- **Registration.** Inna: it was "incorporated in Delaware initially, but we changed that to a Florida incorporation, um, I think two years ago"; after Mark's question she said "It's registered in Florida." This matches the Corporate identity section above. [[raw/Meeting_Transcript_Gilmore_Cross_Border_Tax_Strategy-July-8-2026.md]]
+- **Federal loss carry-over (Mark).** Systems has "like five hundred and forty thousand of NOL carryovers at the federal level" (net operating losses). The use is limited to 80% of taxable income — on $100,000 of income, tax is still due on $20,000 — and it "carries forward indefinitely." Sean: these are Systems' own losses from its start-up years, not from Peru or Colombia. [[raw/Meeting_Transcript_Gilmore_Cross_Border_Tax_Strategy-July-8-2026.md]]
+- **State apportionment (Mark).** Three factors: sales by state, inventory and fixed assets by state, and payroll by state. For the Labs charge, what matters is where the benefit is received — "It's definitely Florida." [[raw/Meeting_Transcript_Gilmore_Cross_Border_Tax_Strategy-July-8-2026.md]]
+- *(Inference: this July-8 reasoning is the background to the group decision dated 2026-07-13 in the Corporate identity section, which routes the business address to Florida so the group's nexus sits there. The Registry note does not cite the call.)*
+
 ## Open commitments
 
 - [ ] [[wiki/people/mauricio-hub-international.md|Mauricio]] (HUB) — deliver the 2026–27 renewal quotes, reflecting the schedule changes above — due end of June 2026 — [[raw/Meeting_Transcript_Mauricio_HUB_Insurance_Renewal_Reconciliation-May-1-2026.md]]
@@ -100,3 +113,4 @@ JVL Systems is one side of the **collaboration / joint-venture agreement** with 
 - [[raw/Meeting_Transcript_BofA_Lenin_Hernandez_Banking_Review_and_Georgia_Financing-June-8-2026.md]]
 - [[raw/Meeting_Transcript_Gilmore_GameWorks_US_Tax_and_Labs_Filing-June-30-2026.md]]
 - [[raw/Meeting_Transcript_JV_Documentation_Review_2022_Invoice_Gap-July-1-2026.md]]
+- [[raw/Meeting_Transcript_Gilmore_Cross_Border_Tax_Strategy-July-8-2026.md]]

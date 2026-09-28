@@ -2,8 +2,8 @@
 type: decision
 title: The street cabinet's board is the RK3576, not the RK3568 — the 3568 renders badly on a vertical screen
 date: 2026-09-14
-aliases: [RK3576, RK3568 vertical screen, 3576 target board, аркеи на горизонтальном телевизоре, именно 35 68, Touch Intelligent, RK3576 shipment to Minsk, 8 gigabytes, тач интеллигент]
-source-count: 4
+aliases: [RK3576, RK3568 vertical screen, 3576 target board, аркеи на горизонтальном телевизоре, именно 35 68, Touch Intelligent, RK3576 shipment to Minsk, 8 gigabytes, тач интеллигент, два борта]
+source-count: 6
 status: active
 open-commitments: 3
 open-questions: 2
@@ -31,13 +31,14 @@ Val tied it to the cabinet in the same breath: the street machine "**будет 
 
 ## What it displaces, and the tension it leaves open
 
-This is the third board position in the corpus on this machine, and it narrows rather than repeats the earlier ones — see the timeline on [[wiki/topics/low-cost-street-machine.md]]:
+This narrows rather than repeats the earlier board positions on this machine (four in the corpus, counting the Aug-12 antecedent added below) — see the timeline on [[wiki/topics/low-cost-street-machine.md]]:
 
 - **June 9 2026:** the team had RK3568 boards but only at **2 GB**, too little; Pavel and Genadi favoured the **RK3588**, with the RK3576 named as the in-between option [[raw/Meeting_Notes_Low_Cost_Street_Cabinet_Platform-June-9-2026.md]].
 - **July 29 2026:** measured results put one game plus system plus LGS at ~**5 GB** and each further game at ~**1 GB**, so an **8 GB board covers about two games**, and the decision was to **order an RK3588 with 16 GB** [[raw/Meeting_Notes_RK3588_Game_Performance_Findings-July-29-2026.md]].
+- **August 12 2026 (antecedent, back-filled):** Val and Genadi judged a ~$250–290 16 GB board not worth it, Genadi called the **RK3576 with 8 GB** (sample ~$150) "more than enough" for a street machine, and Val ruled "**3576 с 8 гигабайтами и это будем тестировать… давайте мы возьмем два борта**" — test the RK3576 8 GB, take two boards. So the Sept-14 choice was already made, as a test, on Aug-12; the Sept-14 call adds the vertical-screen reason for leaving the 3568 [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]] [[raw/Meeting_Notes_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]].
 - **September 14 2026 (current):** the target for this machine is the **RK3576 with 8 GB**.
 
-**The tension is real and nobody named it on the call.** The July measurement says 8 GB is about two games; the September choice is an 8 GB board, and Pavel's own next step is to launch a game on it and *then* judge memory. These are statements about different dates, so this page records the September position as current and the July one as what it displaced — it is **not** filed as a contradiction — but the arithmetic is not reconciled anywhere in the corpus. Flagged as an **observation**, not a finding.
+**The tension is real and nobody named it on the call.** The July measurement says 8 GB is about two games; the September choice is an 8 GB board, and Pavel's own next step is to launch a game on it and *then* judge memory. These are statements about different dates, so this page records the September position as current and the July one as what it displaced — it is **not** filed as a contradiction — and the arithmetic is still not reconciled in numbers. The nearest the corpus comes is Aug-12: Genadi proposed limiting the games' size a little to fit 8 GB, with six games as the count spoken, and said he had told "Pasha" this was not a problem [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]. Flagged as an **observation**, not a finding.
 
 ## What Pavel has to do before it is usable
 
@@ -74,3 +75,5 @@ Genadi did not know where it stood — "**я не знаю статус… Эт�
 - [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [[raw/Meeting_Notes_Low_Cost_Street_Cabinet_Platform-June-9-2026.md]]
 - [[raw/Meeting_Notes_RK3588_Game_Performance_Findings-July-29-2026.md]]
+- [[raw/Meeting_Notes_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
+- [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]

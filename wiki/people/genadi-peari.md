@@ -3,8 +3,8 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий]
-source-count: 93
-open-commitments: 25
+source-count: 95
+open-commitments: 29
 ---
 
 # Genadi Peari
@@ -248,6 +248,22 @@ Val asked him to **build a hardware "CxO" AI** (a hardware operational/product o
 
 - [ ] Genadi Peari — spend a couple of days in conversation with AI to assess where SolidWorks/AI integration stands and how organized files across Business Central + SolidWorks + GitHub would help a hardware CxO — due TBD — [[raw/Meeting_Notes_AI_Engineering_Workflow_and_Hardware_CxO-August-6-2026.md]]
 - [ ] Genadi Peari — firm up the 4–5 next-step topics and structure the past year's accumulated quotations so a CxO can review prices/quantities for sourcing — due TBD — [[raw/Meeting_Notes_AI_Engineering_Workflow_and_Hardware_CxO-August-6-2026.md]]
+
+## Aug 12 2026 — the hardware GitHub standard, the BC sync, a JCM recycler and a cheaper board
+
+A ~2.5-hour 1:1 with Val ([[wiki/meetings/2026-08-12-hardware-github-standard-bc-sync-design.md|Aug-12 3:00 PM ET]]; Genadi is the transcript's "Speaker 1"). [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]] [[raw/Meeting_Notes_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
+
+- **Sourcing.** He had contacted JCM about its four-drum recycler, received the full SDK and documentation and a link to its engineering sustaining team, and been quoted 1,850 for one unit (currency not spoken; the notes read it as dollars); he agreed to organise a sample to Minsk. He also argued for the **RK3576 with 8 GB** (sample ~$150, cheaper in production) over a ~$250–290 16 GB board, as "more than enough" for a street machine. See [[wiki/organizations/jcm.md]] and [[wiki/topics/low-cost-street-machine.md]] (Aug-12). [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
+- **Purchasing gap he named.** A quotation for 43-inch touch screens for the next month had waited a week with no PO approval, "between chairs"; he wants something automatic to chase it, not him or Val. [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
+- **The repository question.** He raised it because Andrey had asked him how to prepare a repository. He described buy vs make components, said his electronics are already in product-organised GitHub repos, and pushed back on the draft in two places: why two separate repos (hardware-mechanical vs hardware-manufacturing) when only final versions go to GitHub — which led to the merge — and against new numbers for a finished product when its BOM changes (versions under the same number would be fine). He described a release as source + Gerber archive + pick-and-place + BOM + schematic PDF. Detail on [[wiki/topics/github-release-management-pipeline.md]] and [[wiki/topics/business-central-erp-implementation.md]] (Aug-12). [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
+- **His review role.** Val told him he should not upload the files himself: the engineer opens the pull request and he, as reviewer, merges it. [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
+
+## Open commitments (Aug 12 2026)
+
+- [ ] Genadi Peari — write the BOM-synchronization section into the draft hardware standard — due unspecified — [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
+- [ ] Genadi Peari — read the draft hardware standard (knowledge-repository invitation) and approve the pull request if he agrees, raising any disagreement now — due unspecified — [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
+- [ ] Genadi Peari — write a scope/task from this discussion so Nathan Carver can start the GitHub→BC sync capability — due unspecified — [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
+- [ ] Genadi Peari — ask JCM for one recycler unit and organise delivery to Minsk — due unspecified — [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
 
 ## Aug 24 2026 — costs the Flex-Port-Mini down to ~$40–45, and picks up AI agents in a day
 
@@ -516,3 +532,5 @@ This is the third time in a fortnight that Genadi is the one who names a *visibi
 - [[raw/Meeting_Notes_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Pyramid_Technologies_Printer_Integration_Intro-January-8-2026.md]]
 - [[raw/Meeting_Transcript_Crane_CPI_Jacob_Blair_BNR_vs_SCR_Recyclers-February-23-2026.md]]
+- [[raw/Meeting_Notes_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
+- [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]

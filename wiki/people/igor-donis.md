@@ -3,7 +3,8 @@ type: person
 title: Igor Donis
 date: 2026-07-13
 aliases: [Igor Donis, Igor]
-source-count: 14
+source-count: 15
+open-commitments: 1
 disambiguation: "JVL Financial Controller — the finance/corporate Igor. One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
 ---
 
@@ -57,11 +58,23 @@ On the [[wiki/meetings/2026-03-30-black-horse-invoice-payment-review.md|Black Ho
 
 On the [[wiki/meetings/2026-04-28-cash-reporting-standardization.md|cash-reporting standardization]] call (with [[wiki/people/val-levitan.md|Val]] and Cris Nacarino) Val assigned Igor to unify JVL's three weekly cash artifacts — cash-position-consolidated, weekly cash-demand, and the vendor-payment-approval workbook — so all three share the same publication date, account set, reference number, and top/bottom totals, and become AI-reconcilable. Igor owns: reformatting both cash reports, converting the approval workbook from colour codes to check-marks, setting up 52 weekly SharePoint folders per year, deriving a reusable JVL Excel formatting-standard prompt via Claude, and producing a first draft for Val's review. Igor flagged (and Val confirmed) the one-week offset between the prior-week approval and the current-week statement. Detail on [[wiki/topics/jvl-finance-back-office.md]] (Apr-28). §15.8 clear (reporting workflow; no compensation). [[raw/Meeting_Transcript_cash_reporting_standardization-April-28-2026.md]] [[raw/Meeting_Notes_Cash_Reporting_Standardization-April-28-2026.md]]
 
+## July 8 2026 — on the accountants' call; the 2026 Labs invoices
+
+Igor was on the [[wiki/meetings/2026-07-08-gilmore-bsp-intercompany-software-licensing-and-florida-nexus.md|July-8 2026 structuring call]] with Sean Riley and Mark ("Speaker 3" in the transcript — by context the finance Igor, this page; the derived notes wrongly treat him as absent). [[raw/Meeting_Transcript_Gilmore_Cross_Border_Tax_Strategy-July-8-2026.md]]
+
+- Val wanted Igor to answer whether JVL Labs has any 2026 sales of goods, because the accounting system could have been "unintentionally contaminated" by unneeded invoices. Igor: "I am sure the only invoices in twenty twenty six from labs is only for service. Is nothing there about the machines or parts" — and asked to double-check and reply to Mark and Ashley. [[raw/Meeting_Transcript_Gilmore_Cross_Border_Tax_Strategy-July-8-2026.md]]
+- He said the meeting should have been recorded so notes could follow; Mark promised a summary to him, Val, Inna and Sean. [[raw/Meeting_Transcript_Gilmore_Cross_Border_Tax_Strategy-July-8-2026.md]]
+
+### Open commitments
+
+- [ ] Igor Donis — double-check JVL Labs' 2026 invoices (service only, no machines or parts) and answer Mark and Ashley, so Labs' Georgia return can be marked final or not — due before the 2025 US return is finalized — [[raw/Meeting_Transcript_Gilmore_Cross_Border_Tax_Strategy-July-8-2026.md]]
+
 ## Aug 2026 — the chart-of-accounts working sessions
 
 Across the Aug-3 [[wiki/meetings/2026-08-03-gl-accounts-systems-labs.md|GL working session]] and the Aug-5 [[wiki/meetings/2026-08-05-chart-of-accounts-alignment-systems-labs.md|chart-of-accounts alignment]] Igor argued (through Felipe) that he is not inventing accounts but preserving JVL Labs' Navision history — reuse **211** historical Labs accounts plus **35** from Systems (**246** total) — and that non-posting accounts should be kept as titles/subtitles/totals so historical statements and backward analysis stay possible; he raised the difficulty of renaming vs recreating codes, preserving each account's history, and re-linking posting groups/dimensions/bank modules. He is one of the three finance people (with Cris and Laura) whose joint agreement is now required before any proposed account change is accepted. Detail on [[wiki/topics/business-central-erp-implementation.md]] (Aug-3/Aug-5) and [[wiki/decisions/2026-08-05-erase-replace-labs-gl-reduce-chart-of-accounts.md]]. [[raw/Meeting_Transcript_GL_Accounts_Systems_Labs-August-3-2026.md]] [[raw/Meeting_Transcript_Chart_of_Accounts_Alignment_Systems_Labs-August-5-2026.md]]
 
 ## Sources
+- [[raw/Meeting_Transcript_Gilmore_Cross_Border_Tax_Strategy-July-8-2026.md]]
 - [[raw/Meeting_Transcript_cash_reporting_standardization-April-28-2026.md]]
 - [[raw/Meeting_Notes_Cash_Reporting_Standardization-April-28-2026.md]]
 - [[raw/Meeting_Transcript_controller_search_and_2011_filing-March-24-2026.md]]

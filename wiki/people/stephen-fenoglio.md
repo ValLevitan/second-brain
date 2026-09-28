@@ -2,8 +2,8 @@
 type: person
 title: Stephen Fenoglio
 date: 2026-06-10
-aliases: [Stephen Fenoglio, Steven, Steve, Fenolio, Steve Brunoglio, Stephen Pinoglu, Texas gaming counsel, AMOT outside counsel, the attorney who vets games in Texas]
-source-count: 4
+aliases: [Stephen Fenoglio, Steven, Steve, Fenolio, Steve Brunoglio, Stephen Pinoglu, Texas gaming counsel, AMOT outside counsel, the attorney who vets games in Texas, Familio, Filonio, Panolio, Steve Camillo]
+source-count: 6
 open-commitments: 2
 open-questions: 2
 ---
@@ -50,6 +50,13 @@ The full market read — the pure-skill test, the county patchwork, market size 
 
 He told Val he takes a summer sabbatical: **"I'll be leaving July eighth and will not be returning till the end of September"**, out of Austin and "in the mountains". That set the deadline on any Austin visit. He also checked flights during the call and reported **one Southwest Airlines nonstop from Miami to Austin**, adding that he did not know about other airlines; Val believed there was a nonstop from Toronto but not from Miami. [[raw/Meeting_Transcript_Stephen_Fenoglio_Texas_Skill_Gaming_Counsel-June-10-2026.md]]
 
+## Aug 11 2026 — reviewing a JVL game through an operator (name by context)
+
+On the [[wiki/meetings/2026-08-11-joe-hello-texas-skill-game-payout-wording.md|Aug-11 call]] Texas operator [[wiki/people/joe-hello.md|Joe Hello]] said he was waiting to hear back from a reviewer — rendered "Familio", "Filonio" and "Panolio" — who "doesn't get back till middle of September", and wanted his "final say" before placing a JVL game. [[raw/Meeting_Transcript_Hello_Games_Texas_Skill_Payout_Wording-August-11-2026.md]]
+
+- **Why this is taken to be Fenoglio (inference, not stated).** The garbles sound like his name; he is away on a summer break (his own words on Jun 10: "will not be returning till the end of September"); and he can review a machine only when an operator presents it, which is what Joe is doing. *(Joe says "middle of September", Fenoglio said "end of September" — second-hand timing, not reconciled.)* [[raw/Meeting_Transcript_Stephen_Fenoglio_Texas_Skill_Gaming_Counsel-June-10-2026.md]] [[raw/Meeting_Transcript_Hello_Games_Texas_Skill_Payout_Wording-August-11-2026.md]]
+- **Notes divergence.** The Aug-11 derived notes call this reviewer "Steve Camillo". That name is not in the recording; it is kept as an alias only. [[raw/Meeting_Notes_Hello_Games_Texas_Skill_Payout_Wording-August-11-2026.md]]
+
 ## Open commitments
 
 - [ ] Stephen Fenoglio — send Val the opinion that discusses the skillful-player test ("I can send you an opinion that discusses the skillful player") — due unspecified — [[raw/Meeting_Transcript_Stephen_Fenoglio_Texas_Skill_Gaming_Counsel-June-10-2026.md]]
@@ -59,7 +66,7 @@ He told Val he takes a summer sabbatical: **"I'll be leaving July eighth and wil
 
 - **Jun 17 2026 — the operator introductions arrived.** The derived notes (written Sept 7 2026) record that Fenoglio group-emailed Val to **Jordan Barberio** (Barberio Amusement, San Antonio area) and **Joe Hello** (Capitol Amusement, Austin) with mobile numbers, and that this produced a scheduled discovery call with Capitol on **June 24**. This is the notes-writer's account, not something said on the June-10 call. [[raw/Meeting_Notes_Stephen_Fenoglio_Texas_Skill_Gaming_Counsel-June-10-2026.md]]
 - [x] Val — get to Austin face-to-face before the July 8 sabbatical. Offered on the call ("I am very happy to hop on a plane and come and see you. Maybe share a steak and a glass of wine with you") with no date fixed; **discharged by Jun 23**, when Val told the two operators "I flew to Austin. I met with Steven, and he recommended that I meet with the two of you." [[raw/Meeting_Transcript_Stephen_Fenoglio_Texas_Skill_Gaming_Counsel-June-10-2026.md]] [[raw/Transcript_Texas_Operators_Reach_Out-June-23-2026.md]]
-- [x] Val — have Fenoglio look at a JVL game and give a verbal skill assessment. Asked for on Jun 10 and **asked again directly by Jun 23** — "I asked him to look at my machine. He says he's got conflict of interest" — with Jordan offering to present the machine as the operator so that Fenoglio can review it. Still awaiting an actual machine review; the arrangement, not the review, is what was settled. [[raw/Transcript_Texas_Operators_Reach_Out-June-23-2026.md]]
+- [x] Val — have Fenoglio look at a JVL game and give a verbal skill assessment. Asked for on Jun 10 and **asked again directly by Jun 23** — "I asked him to look at my machine. He says he's got conflict of interest" — with Jordan offering to present the machine as the operator so that Fenoglio can review it. Still awaiting an actual machine review; the arrangement, not the review, is what was settled. *(Aug 11 2026: an operator, Joe Hello, was presenting a JVL game for the review and awaiting the reviewer's return in mid-September — see above.)* [[raw/Meeting_Transcript_Hello_Games_Texas_Skill_Payout_Wording-August-11-2026.md]] [[raw/Transcript_Texas_Operators_Reach_Out-June-23-2026.md]]
 
 ## Open questions
 
@@ -72,3 +79,5 @@ He told Val he takes a summer sabbatical: **"I'll be leaving July eighth and wil
 - [[raw/Meeting_Transcript_Stephen_Fenoglio_Texas_Skill_Gaming_Counsel-June-10-2026.md]]
 - [[raw/Transcript_Texas_Operators_Reach_Out-June-23-2026.md]]
 - [[raw/Meeting_Notes_AMOT_Texas_Market_Scouting-June-5-2026.md]]
+- [[raw/Meeting_Transcript_Hello_Games_Texas_Skill_Payout_Wording-August-11-2026.md]]
+- [[raw/Meeting_Notes_Hello_Games_Texas_Skill_Payout_Wording-August-11-2026.md]]
