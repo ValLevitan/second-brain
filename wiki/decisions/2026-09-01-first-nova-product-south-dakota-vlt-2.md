@@ -3,7 +3,7 @@ type: decision
 title: First NOVA product = South Dakota VLT-2 (owner ruling, 2026-09-01) — supersedes the Aug-14 "South Dakota Vertical 01 first" sequencing
 date: 2026-09-01
 aliases: [first NOVA product, South Dakota VLT 3, VLT3 vs VLT-2, first Nova release, SD VLT-2 first on NOVA, South Dakota VLT-2 first NOVA product, NOVA release sequencing ruling]
-source-count: 3
+source-count: 4
 status: active
 open-commitments: 0
 open-questions: 0
