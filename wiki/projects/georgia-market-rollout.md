@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, COAM Hearing Room, Georgia Lottery Corporation, Tracy Warren, HB 353, Intralot lab, Bill at Intralot, three fifty-eight nine, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing, GAMOA, ILERS, ILAS report, Eilers, Eiler report, show special, Mega Hit Blaze, sales channel report, Bulldog Gaming, ARC, ARC Gaming, Class A, C-Store Connect, GACS, route consolidation, gift-card cash-back notice, Chris Plonic, Double Down Gaming, Ryan O'Donnell, Billy Liu, Play Payments, PlayPay, banking licence moat, 7455 modem, KORE, KORE SIM, APN, GACS October 21, Pay Slim, over-drive, Rao, Narasimha Rao Namburi, David Milani, September 2 letter, 5500 PAX locations, Lucky Coin service burden, Lucky Bucks is ARC, the market is literally bottomless, backend displacement, David Sloan, Dave Sloan, Bill the kiosk vendor, the wording is in the same location, guidance is not the law, Digital Cash Processing, DCP, ICP Inc., Gen Mega, Andrew Cashin, Rick Beer, seventy four hundred locations forty seven thousand machines, Unlimited Amusement, Mega Hit Blaze V3, program the rollout, Swanee, Johns Creek, Singleton, SurfNote, Debbie Alford, eighteen thousand connected, Mike Mackey, five hundred dollars per unit per machine, WSS protocol, not even one installation, Georgia Lazy, Skyriser, Cardinal, outside looking in, Rich Winley briefing]
-source-count: 206
+source-count: 207
 open-commitments: 66
 open-questions: 25
 ---
@@ -347,6 +347,17 @@ On the [[wiki/meetings/2026-02-27-game-development-review.md|Feb-27 game-develop
 - **Georgia timeline — hard August date, June realistic.** Juan has a **hard date** for Georgia product to be **viewable by the 2nd week of August** at the annual gaming show; working back, he wanted it lab-ready by **end of March / early-to-late April**, but Lena called mid-April "absolutely impossible" and Val/Lena landed on a **realistic completion of mid-May to June** (lab submission by end of May; the lab needs ~30–45 days given the significant changes). The date isn't treated as slipped — the August show is fixed, the internal completion moved. [[raw/Game_Development-February-27-2026.md]] [[raw/Summary_Game_Development-February-27-2026.md]]
 - **Nebraska liquid glass deferred to protect Georgia.** Val pushed to disregard the Nebraska **GC372 liquid-glass** work (deleted, see [[wiki/projects/nebraska-skill-market.md]] Feb-27) partly because a ~2-month liquid-glass effort **would delay Georgia** (Lena's urgent priority is to finish South Dakota, then immediately start Georgia); liquid glass for both markets can be revisited in summer, after Georgia ships. [[raw/Game_Development-February-27-2026.md]] [[raw/Summary_Game_Development-February-27-2026.md]]
 - **Condensed pay-table layout for the two new Georgia flagships.** Lion's Riches and Twin Bison adopt the new **symbol-pay-row + big-character-canvas** screen (a massive lion / two bison instead of a full pay table) — kept to those two new games; existing games keep their pay tables. Design detail on [[wiki/topics/slot-game-design-principles.md]] (Feb-27). [[raw/Game_Development-February-27-2026.md]] [[raw/Summary_Game_Development-February-27-2026.md]]
+
+## Mar 9 2026 — an outside operator names who is buying in Georgia
+
+At the end of a Texas call ([[wiki/meetings/2026-03-09-rich-winley-texas-rollout-delay-georgia-buyers.md]]) [[wiki/people/val-levitan.md|Val]] asked former Georgia route operator [[wiki/people/rich-winley.md|Rich Winley]]: "Hey Rich, have you heard anything about JVL in Georgia?… Who's a good buyer right now in Georgia?" No answer to the first question is recorded. His read, from the transcript [[raw/Meeting_Transcript_Rich_Winley_Texas_Rollout_Delay_and_Georgia_Buyers-March-9-2026.md]]:
+
+- **[[wiki/organizations/diamond-amusement.md|Diamond]]:** "Diamond's a good buyer."
+- **[[wiki/organizations/united-gaming.md|United]]:** "doesn't buy enough because he just has so much out there… He probably got seventeen thousand pieces out there… not in a hurry to replace everything."
+- **[[wiki/organizations/inamax-ultra.md|Ultra]]:** "Ultra is the other one"; "Ultra is a good tire" (a garble; the notes read "good buyer").
+- **A fourth master he has never met:** "He has three guys running, but I've never met him so now even know his name. You might introduce me to him". Not named.
+
+*(The three names are resolved to the Georgia masters by context — a Georgia-buyer question. Rich's "seventeen thousand pieces" is his estimate, said with "I don't know… probably".)*
 
 ## Mar 13 2026 — Georgia pick-3 progressive designs; casino royals; Crazy Colt; COAM backlog item
 
@@ -1651,3 +1662,4 @@ Told under the NDA and flagged "**strictly confidential and not to discuss with 
 - [[raw/Meeting_Transcript_Inamax_Ray_Cosentino_Georgia_Market_and_Trial_Agreement-February-11-2026.md]]
 - [[raw/Meeting_Transcript_Michael_Gottlieb_Georgia_Sales_Debrief-February-11-2026.md]]
 - [[raw/Meeting_Transcript_Allenson_Malik_Market_Review_and_Data_Partnership-February-16-2026.md]]
+- [[raw/Meeting_Transcript_Rich_Winley_Texas_Rollout_Delay_and_Georgia_Buyers-March-9-2026.md]]

@@ -3,7 +3,7 @@ type: organization
 title: Diamond Amusement
 date: 2026-07-23
 aliases: [Diamond Amusement, Diamond, Diamond Amuse, Diamond Games, Diamond Amusements, route acquisition, Conyers GA, 2069 Lake Industrial Ct, peach ones, 74 JVLs deployed, field auditor, American Kiosk]
-source-count: 9
+source-count: 10
 open-commitments: 8
 open-questions: 4
 ---
@@ -148,6 +148,10 @@ The ruling and its consequences are on [[wiki/decisions/2026-09-14-competitor-ma
 - [ ] [[wiki/people/val-levitan.md|Val]] — upgrade Diamond's older "four one nine" units with modem and software, free — due unspecified — [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
 - [ ] [[wiki/people/val-levitan.md|Val]] — confirm the senior VP of game design is travelling, then coordinate the location tour — due Sept 11 2026 — [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
 
+## History
+
+- **Mar 9 2026 — an outside operator's read.** Asked by Val "Who's a good buyer right now in Georgia?", former Georgia route operator [[wiki/people/rich-winley.md|Rich Winley]] named Diamond first: "Diamond Diamond's a good buyer." [[wiki/meetings/2026-03-09-rich-winley-texas-rollout-delay-georgia-buyers.md]] [[raw/Meeting_Transcript_Rich_Winley_Texas_Rollout_Delay_and_Georgia_Buyers-March-9-2026.md]]
+
 ## Sources
 
 - [[raw/Diamond_Shawn_Fellows_interview-February-9-2026.md]]
@@ -159,3 +163,4 @@ The ruling and its consequences are on [[wiki/decisions/2026-09-14-competitor-ma
 - [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
 - [[raw/Meeting_Transcript_Competitor_Field_Reconnaissance_and_Class_A_Visits-September-14-2026.md]]
 - [[raw/Meeting_Notes_Competitor_Field_Reconnaissance_and_Class_A_Visits-September-14-2026.md]]
+- [[raw/Meeting_Transcript_Rich_Winley_Texas_Rollout_Delay_and_Georgia_Buyers-March-9-2026.md]]

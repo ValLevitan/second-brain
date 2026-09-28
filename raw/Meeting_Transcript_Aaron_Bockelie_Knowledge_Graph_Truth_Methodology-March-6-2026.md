@@ -1,0 +1,92 @@
+# Raw Transcript — Aaron Bockelie — knowledge graph truth methodology
+**Date:** March 6, 2026, 3:27 PM Eastern
+**Source:** Plaud recording (offline), via Plaud-Inbox/JVL
+**Summary note:** [[Meeting_Notes_Aaron_Bockelie_Knowledge_Graph_Truth_Methodology-March-6-2026]]
+---
+00:00:00 Speaker 1
+Necessarily know how to use it well yet. And this an example of a research paper. So, training on generated data makes models forget, right? And, this like the whole research papers in here with all the data and everything. Hundreds of you know almost a lot of pages of stuff. And all of the concepts that get out of it and the way it connects and stuff. And I've been working on a research paper.
+00:00:43 Speaker 1
+Slightly older version of the research paper, and I'm not like asking you to read it all right now, but I'll forward you a copy. is Intent Amplification and Neural Hallucination: Feedback Dynamics in Human-AI Systems. And, this is essentially the the understanding why these systems work and how they're affecting your own cognition on an ongoing basis and how you can control them. Because this is a pretty serious subject of almost psychology, it's like it's a psychological phenomenon as much as it is a technological phenomenon. And basically, We talked about gradient descent, mirrors and signal chains and how to define what a hell round is. And actually mathematically show it. And talked about how escalation happens. And why do you feel good when it tells you the right thing, right? And all these other things that go.
+00:01:44 Speaker 1
+The point is, Is that this entire paper was written from agents that just went through the knowledge graph. So I loaded all the content into it, And then it started running hundreds of queries to build all of the content up and build all of the answers and come up with a really tightly defined understanding of the problem. And I think that the time is near once once.
+00:02:15 Speaker 1
+This together or something like that to start putting a really difficult problem in front of it as related to like JVL's business [Personal passage removed — owner ruling 2026-09-28: the JVL brain holds JVL matters only. Original kept in the source vault.] and really build something that's an actual strong prospectus or operational model, or whatever it is, you want to try to do because uh it basically. Total time involved for me was asking it to go do the research, look at all of our chats and add some stuff from that, and then just go crunch on it. And a half an hour later, I've got a full research paper that I just need to do some adjustments to to be able to make it do what I want it to say. This is incredible. And yeah, it's just, it's amazing where this stuff is going with this. So,
+00:03:07 Val
+How do you see? How do you see us starting to implement the uh uh, memory ground?
+00:03:13 Speaker 1
+So, I think it's a pretty specialized tool right now. I think it's you have to really be in a research mode or a thinking mode or a strategic you need to be in a strategic position to make use of this, whatever that strategic position may be. And so, One of the things I'm thinking about right now and why I'm bringing it up when you're talking about real time conversations is that taking the text. From a real time conversation and sticking it into a fresh knowledge graph environment along with some other stuff. So, let's say that you're, you know how you collect all of your transcripts and stuff, right? And you curate them and it's like the long term, it's the library of stuff. This system is more of the shorter term view. Not the library, but all the books you pulled off the off the shelves and ready to check out.
+00:04:17 Speaker 1
+Photocopying pages and highlighting stuff and writing notes down and all that stuff to try to formulate the opinion. And normally that takes hours and hours or weeks or months to be able to do that. But in this case, because of how it works, it's nearly real time. So you could load what you think you're anticipating to work with, And then you bring this thing as a companion in alongside of a live set of conversations over the the series of time you're concerned about it.
+00:04:47 Speaker 1
+And use it to essentially superintelligence pair the opinion of what you're trying to do with this, especially if you're loading the text in real time. So, you can as long as you're able to there's a missing piece of this. So Claude desktop, you have to type and ask questions, right? But, it would be quite straightforward to have a little transcript shunt that formulates questions as the conversation goes.
+00:05:17 Val
+Exactly, especially based on facts.
+00:05:20 Speaker 1
+Right, and so if they formulate the questions based on how it goes, And you have the knowledge graph to back up why you are asking the questions, Suddenly, you are have a full other intelligence that has a full backing and logical understanding of all the constructive and deconstructive arguments of whatever it is. You are dealing with.
+00:05:40 Val
+I know, but what worries me is I told you that I don't consider, Uh transcript as uh truth. It's not truth.
+00:05:51 Speaker 1
+No, no, it's not.
+00:05:52 Val
+But, how do I I know? But how do I uh derive to to the to truth from transcript?
+00:05:59 Speaker 1
+Here's here's how. Let me let me show you. The truth is subjective and I'll show you what I mean by this So. If we look at this graph There's all this information here. And let's just look at something here. So I have this big topic, neural howl around, right? And we can see that it has a bunch of provenance, meaning it has a bunch of evidence where it came from. And it has a lot of evidence with actual quotes about what it is. And then we see relationships, right? Requires, exploits, exemplifies, results from, contrasts with, composed of, analogous to , closure of.
+00:06:45 Speaker 1
+And, we can see that it has grounding and diversity and authentication scores in this. What, this means is, is that all of the other stuff that's surrounding. It has a bunch of either supporting or detracting terms from what the original one said. Some of these are outbound terms, see how this onearrow goes out composed of,
+00:07:08 Val
+And it goes to here? All of these scores are computed real time.
+00:07:14 Speaker 1
+And what we also have is a view. Let me refresh this. A plot of clusters of what different aspects of the conversation that we're worried about. So I know this is a little hard to read, but this blue area is social feedback. This purple area, Is essentially like attractor ruggedness and some other terms. And so, These are geometric terms in the high dimensional brain of knowledge for all of the stuff that's in the knowledge graph right now. And what happens then is that when you view this differently, we can encode this in another way. Let me let me show this here. Please wait. So see how these colors have slightly different shades to them?
+00:08:16 Speaker 1
+Yeah, This region of convex whole conversations, media ecology, thetetrad of media effects, orality, advertising, and so forth. They are in a supportive area of all the concepts in the graph. That's why they're green colored. Then we have this whole other ground. This is a high grounding area. Then we have this other area that is low grounding. It's actually negative grounding, So it's detracting a lot of this stuff from the overall set of topics inside of the data set that we've got. So, we're able to make actual distinctions between the diversity and truthiness of all the concept as organized and compared against everything else in the system.
+00:09:13 Speaker 1
+So, if you load, like I don't know, all of the architectural documents for the thing you are going to talk about, All of the derived commentary about the source code of the product that you are actually dealing with. And, then you talk to a vendor or your people or whatever. And you say, we're going to do a new cool thing. Tell me what you think. And then it all gets slurped up real time into that. It gets all evaluated Evaluated and established and connected in parallel all at once against what was existing facts and stuff in there. And so, during that process of doing that, the mathematical score representing the text, you know, The directionality of all this stuff is then guiding the language model to help you make decisions. And since we're deliberately I should not have.
+00:10:11 Speaker 1
+Ended my screen share yet one second. This is obviously sort of pointed towards English language epistemics. But what we can then also see is an understanding of what areas of the words do we have in here. So we can see causation dependencies evidentials. Logical arguments, modification arguments, and operation arguments, and semantics, and everything else, and where they all bridge and connect to. So, all of this is essentially saying, we can take these conversations and split them in a positive or negative manner against other pieces of text. When we ingest every statement, the language model is going to fit its connection to all the other data.
+00:11:11 Speaker 1
+That's in the in the mind of this thing, And then it can make a determination as to whether this contradicts fundamentally or agrees with fundamentally, or supports or or not supports or whatever those phrases are. And this this stuff builds up over time. It's like if you take a single fortune cookie and you read the the fortune cookie and you compare it against your entire life, right? Like when you read the fortune cookie, you go oh yeah that's totally gonna, Or oh my god, you know. And so, if you read enough fortune cookies, you start to build up a pattern against your real life. If you just had like a whole pot of like a thousand fortune cookies each with individual messages, Just by reading the fortune cookie and reacting positively or negatively to that against someone who is truthfully stating what they knew in their head, you could begin to figure out what their life is like. And that's kind of what's happening here.
+00:12:05 Val
+All right. This this is your.
+00:12:09 Val
+You explained to me the theory of this. Yes. But switch to primitive, practical side of it. So I have a bunch of transcripts. Mhm How do I extract truth? Practically You don't You do not?
+00:12:29 Speaker 1
+You do not Sorry,
+00:12:30 Val
+You're saying Well, No That's not what you're saying You're saying there is no specific cycle that extracts and says. This portion is true, but the other portion is not true. Ignore it. I understand this. Yeah, I got it, But at the end, there is more reliance on this block rather than this block, and this block is more of a negative thing. So from a practical thing you're saying we will take all of my conversations, all of the transcripts and we simply uh apply.
+00:13:08 Val
+Memory graph against it, and something will form. And because it's very gigantic piece of information, it will form various blocks of certain weight, of certain positivity or negativity. And however they overlap, we will figure out how close to the truth are we. When we talk about a particular subject in a given time in the future,
+00:13:43 Speaker 1
+Let me yes, let me tell you an exact real scenario that could play out. Let's say you load the last six months of transcripts into this thing of talking to. We don't want to load everything.;, let's just pick certain people you talk to conversations where Aaron was in the transcript. Let's say right now my position on a lot of things has stayed really. Relatively even keeled, but some of my positions have shifted over time, right? So six months ago, I thought X and now six months later, I think Y. Right? But then other things has consistently been W over the entire time. I'm going to use another variable W. So every concept that we pull out of each of these transcripts gets matched up to all the data.
+00:14:35 Speaker 1
+So, we're doing what is essentially a type of embedding of all of the text. We're doing similarity matching. We're taking some string of text, and we're comparing the similarity of this to every other possible string of text in the system. And we're finding out whether Aaron said this thing kind of like this here, Did he say it anywhere else during the entire data set of everything else in the system? And if Aaron keeps consistently saying the same shit over time, it keeps adding to. The same concept over time, growing the score, Making the bubble of what Aaron has said bigger and bigger and bigger right here. But if Aaron has said this thing, but then he contradicted himself, and then he changed his mind again over time loading this stuff up. He's going to get a whole bunch of little weak points instead of varying degrees of different things about that concept. It's no longer about Aaron anymore; it's about.
+00:15:33 Speaker 1
+Claude AI or Jira or whatever the things, whatever concept it is that makes sense that comes out of that text. And as soon as you break it apart that way, It's like making a million sticky notes for literally everything everybody has ever said or stated and deciding whether it's essentially a duplicate of the same thing they said before or different than what they said before for that concept. Cause we're using concepts as the core bedrock of of the core.
+00:16:04 Speaker 1
+Currency of of exchange inside of the system. So, When all of your concepts are essentially the same, but come from various different contexts and different sources and different documents and things like that, your diversity of that same statement says it over and over again. It's like asking a hundred people a particular opinion, if they all say the same fucking thing, all hundred people, you know you're probably on to something. But if a hundred people say a hundred different things, It's probably not as reality of how it is, but then there's the contrast of this, which is when you take a hundred accounts of something, a hundred concepts, And if the concepts themselves are all different from each other, but connect to the same other concept, one concept removed, right? What happens is the diversity of that targeted concept becomes truthier.
+00:17:03 Speaker 1
+Because, from a you know, You've heard the phrase ". It ' s it's uh I. Don't know how it's written exactly, but basically it's harder to lie than it is to tell the truth, because you have to you have to substantiate it. You have to create this whole universe of things around it to do stuff, right. And if you just say that actually exists, it's so easy because it takes less energy to do that. And so there is actually an information Energy theory that goes along with this : that it's less energetic to tell the truth than it is to tell a lie, for sure. And you can compute that in this graph now. When somebody keeps saying shit that doesn't make sense because they're pushing an agenda, That agenda is difficult to create true diversity because they kind of say it in a one way. All the time, and you can detect that signal. But, if they just go about their business and do all this other stuff, and it just happens to align with whatever it is they're doing, there's true.
+00:18:02 Speaker 1
+Truth to it, and you can compute. You can see that signal out from the other pieces of information in the data set. So, that's that's ultimately what this does. And. So if you have a data set of information about a topic, you want to deal with, a big a big topic, you know long term worth investing the time in, then you can bring in actors and and uh bring in, Documents and information, Break it into concepts and figure out how it fits into the worldview that you are trying to compute for.
+00:18:41 Val
+Well, we need to try it. You know, it's hard for me to imagine.
+[Personal passage removed — owner ruling 2026-09-28: the JVL brain holds JVL matters only. Original kept in the source vault.]
+00:19:02 Speaker 1
+Throw that into the graph as a set of related ontologies. One about the financial value, one about your strategy, one about the way you'd like to do it and so forth. Then, we let Claude loose, searching the internet to figure out what's the evidence of how other people are doing this. And, you also throw in any conversations that you've had with people you trust that are maybe guidance or whatever. Throw this all the knowledge graph into the big heap and just let it sort itself out. And then what you do is when you feel like you can kind of cross check it, you can investigate it and flow through it and ask questions. And, if it seems to reveal the evidence that you feel is correct for what you are trying to solve, or more interestingly, sometimes it'll actually contradict you. It'll say, actually what you thought was wrong, because here all of these things connect in this sort of way.
+00:20:01 Speaker 1
+And you either need to be have humility and go, "Well, I was I was wrong," or let me go find those pieces because I know it's true. Let me go get that evidence and bring it into it to bring the score up. And when you can do that, you kind of build this data set bigger and bigger. So now when you introduce another piece of information or concept, is it a document? Is it a person? Is it an opportunity? Whatever it is, you can then take that into it.
+00:20:32 Speaker 1
+The concepts that came out of that piece of text and information and go, how well does this fit my worldview of how I thought? Somebody's going to tell me, we're going to invest this way or this is the financial model to do it. And, all of the concepts of that document describing that financial model get exploded into 10, 000 pieces and connected to all of the other knowledge inside of the space.
+00:20:56 Val
+I suggest we do this with JVL. Yeah.
+00:21:05 Val
+When when are you gonna be ready.
+00:21:08 Speaker 1
+Well, I think we could what we need to do is we need to have a meeting where we could sit down and just discuss what. What aspect do we want to analyze.
+00:21:21 Val
+Sorry, hold on a second. Sure.
+00:23:07 Speaker 1
+Anyway, I should probably run. I got a, I got some business upstairs. I gotta attend to here. Um, okay. Things are happening. But let's uh keep playing with the Jira thing. Um,
+00:23:22 Val
+I want to ask you uh one more question. Sure. Uh GitHub reports and yes, I i sent you a message, i forwarded a message that i sent toumum dima.
+00:23:37 Val
+So I wrote. Claude and Claude suggests that since I am already using.

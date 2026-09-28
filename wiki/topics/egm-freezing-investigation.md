@@ -3,7 +3,7 @@ type: topic
 title: EGM freezing investigation (Georgia field fleet)
 date: 2026-07-29
 aliases: [GA freezing, Georgia freezing, machine freezing, EGM freeze, GA Freezing Issue, freezing investigation, JVL silent killer, nudge animation freeze, kernel-panic freeze]
-source-count: 22
+source-count: 23
 open-questions: 12
 ---
 
@@ -137,6 +137,18 @@ The two March-25 meetings — [[wiki/meetings/2026-03-25-digging-into-freezing-i
 
 *A near-duplicate consolidated report, "JVL Freezing Investigation — Comprehensive Report" (same Mar 9–25 scope, same conclusions, richer tables/ADRs), was **§12-skipped** as a re-titled twin of this V1.3 report — see [[wiki/skipped.md]]; V1.3 is the cited source of record.*
 
+## Apr-3 2026 — Val looks outside for an engineer to build the "events recorder"
+
+Ten days after the Mar-24 "black box" idea, [[wiki/people/val-levitan.md|Val]] was recruiting an outside embedded engineer to build it. On the [[wiki/meetings/2026-04-03-kyle-johnson-event-recorder-recruitment-intro.md|Apr-3 intro]] with [[wiki/people/kyle-johnson.md|Kyle Johnson]] (put forward by [[wiki/people/nathan-carver.md|Nathan Carver]]) he described the product. All from the transcript [[raw/Meeting_Transcript_Kyle_Johnson_Event_Recorder_Recruitment_Intro-April-3-2026.md]]:
+
+- **What it is.** "I'm gonna call it events recorder… it would be wedged on top of our system. And uh, record all of the events that happens between different modules. And if and when machine hangs for any reason we would uh, Go into that recorder and start analyzing." Examples he gave: "different run- ins between framework and data center and Linux", "the watchdog timer doesn't reset", "buttons press. Touch screen touched framework, set something to data center. Data center got into a cycle, got hung up". His image: "a in- flight black box".
+- **Where it would sit.** "I assume it will be an embedded solution… We envision that it will be sitting on top of our I O board. And so we'll Probably have to redesign the I O board". An exit point back to JVL: "It could be a USB uh connection. It could be a um mobile uh cellular modem." *(This fits the Mar-24 plan to make the IO board a built-in black box, above; the Apr-3 recording does not name the Omni board.)*
+- **No design yet.** "if there is an architectural design yet, no There isn't". Val showed a board "designed by somebody else, but we would probably want to put our own chip on it"; Kyle read it as "a Cortex A fifty five… four core".
+- **Not urgent.** "this event recorder is not schedule critical device because I can snap it in when it's ready."
+- **Why an outside engineer.** Val said he is "seeking North American. Uh. Expertise", someone who can "adhere to these standards" of records and documentation and help bring that culture into the company.
+
+The idea returns on May 25 2026 as an internal hardware discussion; see [[wiki/meetings/2026-05-25-gsm-gps-modem-and-event-recorder.md]]. Whether Kyle took the work is not in any source (see [[wiki/people/kyle-johnson.md]]).
+
 ## Apr-24 2026 — the field rollout plan (the fix reaches the fleet)
 
 By late April the fix had shipped and the question turned to **deploying it across the field fleet** — the downstream resolution this whole investigation pointed at. Planned in the [[wiki/meetings/2026-04-24-software-fix-rollout-plan.md|Software Fix Rollout Plan]] meeting ([[wiki/people/val-levitan.md|Val]], [[wiki/people/felipe-miranda.md|Felipe Miranda Giorgi]], [[wiki/people/juan-martinez.md|Juan Martinez]]). The release-delivery mechanics (per-serial builds, RIS, USB/dongle vs emailed file) are on [[wiki/topics/github-release-management-pipeline.md]]; the freezing-relevant substance is here. [[raw/Meeting_Notes_software_fix_rollout_plan-April-24-2026.md]]
@@ -230,7 +242,7 @@ At the [[wiki/meetings/2026-09-09-lucky-coin-service-burden-and-exclusive-partne
 - What exactly changed in the DC layer between the old release and v1.14 that raised the freeze frequency? (Waiting on Irina's exact version numbers for a diff + the Claude Code review.) [[raw/EGM_Freezing_Issue_Full_Investigation_Report-V1.3.md]]
 - Are there memory leaks / out-of-bounds errors in the C++ Framework or HAL? (Alekseev's ~90% hypothesis; needs a static analyzer.) [[raw/EGM_Freezing_Issue_Full_Investigation_Report-V1.3.md]]
 - Does the `amdgpu.noretry=0` parameter already in the Texas build actually reduce freezes on kernel 4.19? [[raw/EGM_Freezing_Issue_Full_Investigation_Report-V1.3.md]]
-- Is the IO-board watchdog the final design, and does the diagnostic-co-processor "black box" get built for the Omni board? (Preferred but not formally locked as of Mar 25.) [[raw/I_O-centric_Watchdog_wiring.md]] [[raw/EGM_Freezing_Issue_Full_Investigation_Report-V1.3.md]]
+- Is the IO-board watchdog the final design, and does the diagnostic-co-processor "black box" get built for the Omni board? (Preferred but not formally locked as of Mar 25.) [[raw/I_O-centric_Watchdog_wiring.md]] [[raw/EGM_Freezing_Issue_Full_Investigation_Report-V1.3.md]] *(Apr 3 2026: still no architecture; Val was recruiting an outside engineer for an "events recorder" on top of a redesigned I/O board.)* [[raw/Meeting_Transcript_Kyle_Johnson_Event_Recorder_Recruitment_Intro-April-3-2026.md]]
 
 ## Sources
 
@@ -245,6 +257,7 @@ At the [[wiki/meetings/2026-09-09-lucky-coin-service-burden-and-exclusive-partne
 - [[raw/EGM_Freezing_Issue_Full_Investigation_Report-V1.3.md]] — *derived/secondary:* Val's consolidated V1.3 full investigation report (Mar 9–25); the fuller synthesis of the two Mar-25 meetings. Supersedes V1.2 (skip-ledgered); near-duplicate "Comprehensive Report" also skip-ledgered.
 - [[raw/transcript_Digging_into_Freezing_issues-March-25-2026.md]] — Mar-25 9:32am freezing software-analysis call (transcript; primary record of the V1.3 "Digging" meeting).
 - [[raw/transcript_Freezing_investigation-March-25-2026.md]] — Mar-25 11:03am Alekseev follow-up call (transcript; primary record of the V1.3 "with Alekseev" meeting).
+- [[raw/Meeting_Transcript_Kyle_Johnson_Event_Recorder_Recruitment_Intro-April-3-2026.md]] — Apr-3 event-recorder recruitment intro (transcript).
 - [[raw/Meeting_Transcript_software_fix_rollout_plan-April-24-2026.md]] — Apr-24 field rollout plan for the freezing fix (transcript).
 - [[raw/Meeting_Notes_software_fix_rollout_plan-April-24-2026.md]] — Apr-24 field rollout plan (derived notes).
 - [[raw/Letter_to_Operators_Freezing_Fix-April-27-2026.md]] — *written operator letter:* the Apr-27 customer-communication artifact JVL prepared (signed Val Levitan/JVL) announcing the root cause + free kernel upgrade; the operator-facing output of the Apr-24 rollout plan.

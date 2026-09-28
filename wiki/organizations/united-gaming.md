@@ -3,7 +3,7 @@ type: organization
 title: United Gaming (Georgia's largest master operator)
 date: 2026-09-02
 aliases: [United, United Gaming, Bunty's company, the largest Georgia master]
-source-count: 4
+source-count: 5
 open-commitments: 1
 open-questions: 2
 ---
@@ -61,6 +61,7 @@ Val opened the lunch with "what is this exodus from United?" The InComm side des
 
 - **Jan 27 2026 — the earliest mention.** Former Georgia route operator [[wiki/people/rich-winley.md|Rich Winley]] used United as the example of a big buyer: "if they go to a United, yeah, he's going to put everything, but if they go to a Mike Patel, Mike only has 20 locations". [[wiki/meetings/2026-01-27-rich-winley-georgia-coam-market-intel.md]] [[raw/Meeting_Transcript_Rich_Winley_Georgia_COAM_Market_Intel-January-27-2026.md]]
 - **The same call: how the top of a big master is reached.** Rich called "Bunchy" (later "Bunty") a friend who will not "give a lot of people time. He's going to say, well, you need to go talk to Ashish", and "Ashish is going to go talk to Bunchy's dad". Rich did not name United here; linking this to United rests on the wiki's Feb-18 2026 record of Bunty as United's owner and Ashish as its buyer (inference). [[raw/Meeting_Transcript_Rich_Winley_Georgia_COAM_Market_Intel-January-27-2026.md]]
+- **Mar 9 2026 — "doesn't buy enough".** Asked who is a good buyer in Georgia, [[wiki/people/rich-winley.md|Rich Winley]] said United "doesn't buy enough because he just has so much out there… He probably got seventeen thousand pieces out there… not in a hurry to replace everything." The figure is his estimate ("I don't know… probably"). [[wiki/meetings/2026-03-09-rich-winley-texas-rollout-delay-georgia-buyers.md]] [[raw/Meeting_Transcript_Rich_Winley_Texas_Rollout_Delay_and_Georgia_Buyers-March-9-2026.md]]
 
 ## Open commitments
 
@@ -79,3 +80,4 @@ Val opened the lunch with "what is this exodus from United?" The InComm side des
 - [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]]
 - [[raw/To-Do_Georgia_meetings-February-18-2026.md]]
 - [[raw/Meeting_Transcript_Rich_Winley_Georgia_COAM_Market_Intel-January-27-2026.md]]
+- [[raw/Meeting_Transcript_Rich_Winley_Texas_Rollout_Delay_and_Georgia_Buyers-March-9-2026.md]]

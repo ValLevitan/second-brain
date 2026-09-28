@@ -3,7 +3,7 @@ type: organization
 title: Inamax (Powered by Ultra)
 date: 2026-07-27
 aliases: [Inamax, Ultra, Inamax Ultra, "Inamax (Powered by Ultra)", Ultra Gaming, Inna Max, Ray Constantino]
-source-count: 5
+source-count: 6
 open-commitments: 4
 open-questions: 2
 ---
@@ -96,6 +96,7 @@ At the [[wiki/meetings/2026-08-31-arc-gaming-transactional-demo-class-a.md|Aug-3
 ## History
 
 - **Jan 27 2026 — an outside operator's read.** Former Georgia route operator [[wiki/people/rich-winley.md|Rich Winley]], listing masters JVL should work, placed Nick Damani at "number three or four in the market". The line around it is garbled; no company is named with him in that source, so the link to Inamax rests on this page's record of him as its CEO. *(The 2026 briefing ranks Inamax about #5 by decals — a different measure, date and speaker, so this is not recorded as a contradiction.)* [[wiki/meetings/2026-01-27-rich-winley-georgia-coam-market-intel.md]] [[raw/Meeting_Transcript_Rich_Winley_Georgia_COAM_Market_Intel-January-27-2026.md]]
+- **Mar 9 2026 — a good buyer.** Asked who is a good buyer in Georgia, [[wiki/people/rich-winley.md|Rich Winley]] listed Ultra with Diamond and United — "and if Ultras are good buyers", then "Ultra is the other one"; his next line, "Ultra is a good tire", is a garble (the derived notes read "good buyer"). Val's reply, "Ultra so Ultra is M Diamond", is unclear. "Ultra" is resolved to this page by context. [[wiki/meetings/2026-03-09-rich-winley-texas-rollout-delay-georgia-buyers.md]] [[raw/Meeting_Transcript_Rich_Winley_Texas_Rollout_Delay_and_Georgia_Buyers-March-9-2026.md]]
 
 ## Open contradictions
 
@@ -126,3 +127,4 @@ At the [[wiki/meetings/2026-08-31-arc-gaming-transactional-demo-class-a.md|Aug-3
 - [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 - [[raw/Meeting_Transcript_Rich_Winley_Georgia_COAM_Market_Intel-January-27-2026.md]]
 - [[raw/Meeting_Transcript_Inamax_Ray_Cosentino_Georgia_Market_and_Trial_Agreement-February-11-2026.md]]
+- [[raw/Meeting_Transcript_Rich_Winley_Texas_Rollout_Delay_and_Georgia_Buyers-March-9-2026.md]]

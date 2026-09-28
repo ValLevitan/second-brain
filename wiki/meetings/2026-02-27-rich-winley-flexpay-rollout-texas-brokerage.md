@@ -3,7 +3,7 @@ type: meeting
 title: Rich Winley — FlexPay rollout and Texas brokerage (February 27 2026)
 date: 2026-02-27
 aliases: [Rich Winley FlexPay call, Texas - product roll-out, FlexPay Cash Kiosk Rollout, Two-Tier Product Strategy and Texas Market Entry via Brokerage Model, Texas brokerage model]
-source-count: 3
+source-count: 4
 ---
 
 # Rich Winley — FlexPay rollout and Texas brokerage (February 27 2026)
@@ -27,6 +27,7 @@ source-count: 3
 - **The first configuration does remove bill acceptors and printers from the machines.** The summary says it "avoids the bill acceptor/printer elimination strategy". In the transcript the FlexPort inside the machine "will allow you not to install bill acceptors and printers in the machines"; the bill acceptor and TITO printer sit in the kiosk. [[raw/Texas-product_roll-out.md]] [[raw/Meeting_Transcript_Rich_Winley_FlexPay_Rollout_and_Texas_Brokerage-February-27-2026.md]]
 - **Who holds the cellular subscription.** The notes say Val was "leaning to subscribing on the operator's behalf and passing the cost through". In the transcript Val says the subscription "has to be a responsibility of an operator", while he still has to "figure out how to do the subscription". [[raw/Meeting_Notes_Rich_Winley_FlexPay_Rollout_and_Texas_Brokerage-February-27-2026.md]] [[raw/Meeting_Transcript_Rich_Winley_FlexPay_Rollout_and_Texas_Brokerage-February-27-2026.md]]
 - **Not in the transcript:** the notes' kiosk price "ours (Access?) ~$14K"; "6–7 machines per Texas location"; and Rich "reframing" the fee as "online access to your route" or route management. Rich gave one kiosk price only: "Jim Meg is nine or something like that". The summary's "8% on gross sales, non-negotiable" and "12+ machines per terminal" are also not spoken; Val's own line is "you could connect what twenty five fifty machines?". [[raw/Meeting_Notes_Rich_Winley_FlexPay_Rollout_and_Texas_Brokerage-February-27-2026.md]] [[raw/Texas-product_roll-out.md]] [[raw/Meeting_Transcript_Rich_Winley_FlexPay_Rollout_and_Texas_Brokerage-February-27-2026.md]]
+- **Where those unsupported items come from (found Mar 4 2026 back-fill).** All of them are spoken in the *next* call with Rich, on Mar 4 2026: "the ours are fourteen", "the average you know six to seven", "I would say we're charging for online access to your route. It's almost like a route management system", the wasted-gas collection trip, and Val asking whether to "subscribe on behalf of the operator? And charge the operator for it." *(Inference: the Feb-27 notes mixed in content from the Mar-4 call. The facts are recorded under Mar 4, not Feb 27.)* See [[wiki/meetings/2026-03-04-rich-winley-kiosk-delay-tribal-casino-trial.md]]. [[raw/Meeting_Transcript_Rich_Winley_Kiosk_Delay_and_Tribal_Casino_Trial-March-4-2026.md]]
 - **Numbers the derived documents rounded or worked out.** The prospect's size is spoken as "eighty ninety seven locations"; the notes give "~87–97", the summary "80–90". The fee is "roughly a thousand dollars a year"; the summary gives "~$1,095/year". [[raw/Meeting_Transcript_Rich_Winley_FlexPay_Rollout_and_Texas_Brokerage-February-27-2026.md]]
 - **The notes leave out** Rich's question about games ("people are asking about games now") and his remark that "fifteen is gonna be strong". Both are recorded on the pages above. [[raw/Meeting_Transcript_Rich_Winley_FlexPay_Rollout_and_Texas_Brokerage-February-27-2026.md]]
 
@@ -38,3 +39,4 @@ source-count: 3
 - [[raw/Meeting_Transcript_Rich_Winley_FlexPay_Rollout_and_Texas_Brokerage-February-27-2026.md]]
 - [[raw/Meeting_Notes_Rich_Winley_FlexPay_Rollout_and_Texas_Brokerage-February-27-2026.md]]
 - [[raw/Texas-product_roll-out.md]]
+- [[raw/Meeting_Transcript_Rich_Winley_Kiosk_Delay_and_Tribal_Casino_Trial-March-4-2026.md]]

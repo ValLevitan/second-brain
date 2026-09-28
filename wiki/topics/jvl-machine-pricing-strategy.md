@@ -3,7 +3,7 @@ type: topic
 title: JVL machine pricing and commercial strategy
 date: 2025-09-23
 aliases: [machine pricing, fifteen seven fifty, $15750, free hardware instead of discount, retail price, price list, Dennis one number, CFO-to-CFO credit, market pricing, list price, dollars not discounts, JVL Dollars pricing lever, show special pricing, Georgia machine price, D43 price, D27 trade-in, South Dakota premium, twelve eight twenty, two nine thirty, $795 port, $895 IQ, $7950 Flex-Slim, kill the market, fifty-seven fifty, topper eight hundred to one thousand, ten dollars per machine, value almost as much as this machine is]
-source-count: 30
+source-count: 31
 ---
 
 # JVL machine pricing and commercial strategy
@@ -81,6 +81,13 @@ On a call with [[wiki/people/rich-winley.md|Rich Winley]] ([[wiki/meetings/2026-
 - **The machine.** [[wiki/people/val-levitan.md|Val]]: "I need to get a fifteen thousand dollar retail for the machine. I know that there are machines out there for eight thousand dollars. Right, and I'm talking about retail price." Quantity purchases get discounts, "and of course I'm not going to lose a deal with a serious operator." Rich: "I think fifteen is gonna be strong, but I mean, I can get the feedback". [[raw/Meeting_Transcript_Rich_Winley_FlexPay_Rollout_and_Texas_Brokerage-February-27-2026.md]]
 - **FlexPay, two prices.** The Fujitsu-dispenser configuration at "approximately eleven thousand dollars"; the bill-recycler configuration "around nine thousand dollars". Val: "we're gonna have discounts and quantity discounts. I'm just giving you." (sentence left unfinished). Two days earlier Val had floated a ~$9,000 kiosk price internally to Genadi Peari ("И вот я вам этот киоск Продаю, например, за 9000"; see [[wiki/topics/flexpay-business-architecture-payout-devices.md]], Feb 25 2026). [[raw/Call_Genadi_Peari-February-25-2026.md]] Rich's comparison: "Jim Meg is nine or something like that. So we'll be somewhere in the middle." ("Jim Meg" is not identified.) [[raw/Meeting_Transcript_Rich_Winley_FlexPay_Rollout_and_Texas_Brokerage-February-27-2026.md]]
 - **A recurring fee on top.** "roughly three dollars a day… Roughly a thousand dollars a year" per FlexPay terminal, against a market rate Rich put at "twenty five cents per day per machine". Detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Feb 27 2026). [[raw/Meeting_Transcript_Rich_Winley_FlexPay_Rollout_and_Texas_Brokerage-February-27-2026.md]]
+
+## Mar 4 2026 — kiosk prices from the Texas market, and the fee restated
+
+A follow-up call with [[wiki/people/rich-winley.md|Rich Winley]] ([[wiki/meetings/2026-03-04-rich-winley-kiosk-delay-tribal-casino-trial.md]]). Market prices only. [[raw/Meeting_Transcript_Rich_Winley_Kiosk_Delay_and_Tribal_Casino_Trial-March-4-2026.md]]
+
+- **Cost is the objection.** Rich: "everybody knows this kiosk will make you money. So everybody grips about cost. So I know the gym megas are like nine grand, the ours are fourteen. You know everybody's in between that nine." ("gym megas" matches Feb 27's "Jim Meg" and is not identified; whose kiosk "the ours" means is unclear.) [[raw/Meeting_Transcript_Rich_Winley_Kiosk_Delay_and_Tribal_Casino_Trial-March-4-2026.md]]
+- **The service fee, as Val put it this time.** "I need thirty dollars a month for the… service… but the modem is on top of it". The competitor rate Rich recalled: "it's like twenty five". This differs from Val's Feb 27 "roughly three dollars a day" above; the question is held on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Open questions). [[raw/Meeting_Transcript_Rich_Winley_Kiosk_Delay_and_Tribal_Casino_Trial-March-4-2026.md]]
 
 ## Aug 21 2026 — "dollars, not discounts": the JVL-Dollars alternative to discounting
 
@@ -270,3 +277,4 @@ On [[wiki/meetings/2026-09-16-jvl-transactional-ecosystem-and-class-a-market-str
 - [[raw/Meeting_Transcript_Rich_Winley_Georgia_COAM_Market_Intel-January-27-2026.md]]
 - [[raw/Meeting_Transcript_Rich_Winley_FlexPay_Rollout_and_Texas_Brokerage-February-27-2026.md]]
 - [[raw/Call_Genadi_Peari-February-25-2026.md]]
+- [[raw/Meeting_Transcript_Rich_Winley_Kiosk_Delay_and_Tribal_Casino_Trial-March-4-2026.md]]
