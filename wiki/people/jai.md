@@ -3,10 +3,10 @@ type: person
 title: Jai
 date: 2026-09-01
 aliases: [Jai, Jay]
-source-count: 2
+source-count: 3
 open-commitments: 0
 open-questions: 0
-disambiguation: "Service and orders manager of [[wiki/organizations/akshar-gaming.md|Akshar Gaming]] (and of Ananta Amusement), the route JVL demoed to on Sept 1 2026 (Georgia by inference — see the org page). No surname is given in any source, so this page is filed under the given name alone. Distinct from [[wiki/people/neel.md|Neel]], his colleague on operations, whose lines the transcript merges into the same speaker label. The corpus also carries an unrelated 'Jay' — the outside Texas skill-game market consultant on the Sept-23 2025 call ([[wiki/meetings/2025-09-23-texas-skill-game-strategy-jay-call.md]]). Different person, different market; resolve by context, nothing has been merged."
+disambiguation: "Service and orders manager of [[wiki/organizations/akshar-gaming.md|Akshar Gaming]] (and of Ananta Amusement), the route JVL demoed to on Sept 1 2026 (Georgia by inference — see the org page). No surname is given in any source, so this page is filed under the given name alone. Distinct from [[wiki/people/neel.md|Neel]], his colleague on operations, whose lines the transcript merges into the same speaker label. The corpus also carries an unrelated 'Jay' — the outside Texas skill-game market consultant on the Sept-23 2025 call ([[wiki/meetings/2025-09-23-texas-skill-game-strategy-jay-call.md]]). Different person, different market; resolve by context, nothing has been merged. A third 'Jay' is the back-end data lead of [[wiki/organizations/aks-amusement.md|AKS Amusement]] (Feb 10 2026) — a different company (AKS is unrelated to Akshar) and a different role (data/dashboards, not orders/service); no page, nothing merged."
 ---
 
 # Jai
@@ -29,7 +29,12 @@ The one commitment he shares — taking the games and JVL's offer back to Vishal
 
 **§15.8:** clear — no compensation of any named person appears in these sources.
 
+## Name note (§4) — AKS's Jay
+
+On **February 10 2026** JVL met a "Jay" from [[wiki/organizations/aks-amusement.md|AKS Amusement]] who works on AKS's back-end operations and says "I am kind of the data guy". That is a different company and a different job from this page's Jai (orders and service calls at Akshar Gaming). No source links the two; they are kept apart. See [[wiki/meetings/2026-02-10-aks-amusements-performance-data-collaboration.md]]. [[raw/Meeting_Transcript_AKS_Amusements_Jay_Performance_Data_Collaboration-February-10-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
 - [[raw/Meeting_Transcript_Narayani_Amusements_Mega_Hit_Demo_and_Trade_In-September-1-2026.md]]
+- [[raw/Meeting_Transcript_AKS_Amusements_Jay_Performance_Data_Collaboration-February-10-2026.md]]

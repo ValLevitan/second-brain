@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 161
+source-count: 162
 open-commitments: 69
 open-questions: 0
 ---
@@ -224,6 +224,10 @@ On the [[wiki/meetings/2026-01-06-payment-hub-billing-collection-workflow.md|Jan
 ## Jan 8 2026 — technical questions to Pyramid Technologies
 
 On the [[wiki/meetings/2026-01-08-pyramid-technologies-printer-integration-intro.md|Jan-8 Pyramid intro call]] Val introduced him as director of engineering, located in Belarus. Pavel (Speaker 4 by context — inference) asked the printer questions: whether JVL's tickets should look like the existing kiosk tickets he showed, and how a serial-connected printer handles the QR code (answer: generated automatically from the payload). Val is to come back to him on which ticket types Texas needs. See [[wiki/organizations/pyramid-technologies.md]]. [[raw/Meeting_Transcript_Pyramid_Technologies_Printer_Integration_Intro-January-8-2026.md]]
+
+## Jan 28 2026 — GLI Omni kickoff: the lab date and the RNG container
+
+On the [[wiki/meetings/2026-01-28-gli-omni-platform-certification-kickoff.md|GLI kickoff]] Pavel gave the lab-entry estimate for the Omni platform: "From here, probably in May, mid-May." He said the mask plus RNG used for online will be packaged "into a container" for land-based, "very close" to the previous platform. On hardware he reported that Gennady had updated the documents — "minor changes", tied to new printers as an optional device. See [[wiki/organizations/gli.md]] (Jan 28 2026). [[raw/Meeting_Transcript_GLI_Omni_Platform_Certification_Kickoff-January-28-2026.md]]
 
 ## Feb 3–4 2026 — Claude Code rollout (architectural voice; excused from the figma sessions)
 
@@ -891,3 +895,4 @@ The [[wiki/meetings/2026-09-18-transactional-mvp1-capability-cleanup-and-the-mon
 - [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - [[raw/Meeting_Transcript_Payment_Hub_Billing_Collection_Workflow-January-6-2026.md]]
 - [[raw/Meeting_Transcript_Pyramid_Technologies_Printer_Integration_Intro-January-8-2026.md]]
+- [[raw/Meeting_Transcript_GLI_Omni_Platform_Certification_Kickoff-January-28-2026.md]]

@@ -3,7 +3,7 @@ type: topic
 title: JVL machine pricing and commercial strategy
 date: 2025-09-23
 aliases: [machine pricing, fifteen seven fifty, $15750, free hardware instead of discount, retail price, price list, Dennis one number, CFO-to-CFO credit, market pricing, list price, dollars not discounts, JVL Dollars pricing lever, show special pricing, Georgia machine price, D43 price, D27 trade-in, South Dakota premium, twelve eight twenty, two nine thirty, $795 port, $895 IQ, $7950 Flex-Slim, kill the market, fifty-seven fifty, topper eight hundred to one thousand, ten dollars per machine, value almost as much as this machine is]
-source-count: 25
+source-count: 30
 ---
 
 # JVL machine pricing and commercial strategy
@@ -58,6 +58,29 @@ On the separate Sept-23 Texas market call ([[wiki/meetings/2025-09-23-texas-skil
 At lunch with [[wiki/people/rich-winley.md|Rich Winley]] ([[wiki/meetings/2026-01-08-rich-winley-miami-lunch-texas-distribution-pitch.md]]), Rich said JVL's cabinet "looks real expensive". [[wiki/people/val-levitan.md|Val]] answered: "**I can match any cost and I can get into any market. There is no reason selling cheaper if you're not going to sell more. And there is no reason discounting the price if people will buy it at the price that you offer.** So let's not mistake what we can do with what we should do… we should be a premium." On the main Texas rival: "We are premium to Banila. Banila sells at $12. Why would you want to sell at $12?… can I afford selling at $12? Sure". Rich had put Banilla "in that 12 to 14 thousand dollar market" in Texas. Val's reason the premium holds: "Every room needs a machine today… There's not enough selection." [[raw/Meeting_Transcript_Rich_Winley_Miami_Lunch_Texas_Distribution_Pitch-January-8-2026.md]]
 
 *(The Sept-2025 policy above already set premium positioning for Texas. This Jan-8 wording of "don't discount if people will pay" comes eight months before the Sept-16 2026 session below, and is shorter than that doctrine — no credit-terms or add-value points — so the two are recorded side by side.)*
+
+## Jan 27 2026 — Georgia competitor prices, and "I don't think you need to be that low cost"
+
+On the [[wiki/meetings/2026-01-27-rich-winley-georgia-coam-market-intel.md|Jan-27 Georgia briefing]], [[wiki/people/rich-winley.md|Rich Winley]] gave his read of the Georgia price band. Advice from an outside operator, not a JVL ruling. [[raw/Meeting_Transcript_Rich_Winley_Georgia_COAM_Market_Intel-January-27-2026.md]]
+
+- **Top makers:** Aristocrat, Light & Wonder and IGT games "cost $20,000 to $24,000".
+- **Bad Dog:** "coming in as a low cost… nine, ten thousand." Rich: "I don't think you need to be that low cost."
+- **Credit is how Banilla sells.** Its own terms run from "90 days" to "two years"; Rich built his route on an IGT facility of "six months, 3% interest rate" and shopped it to Banilla. His advice to JVL: "I don't recommend becoming a finance dummy, but I'm telling you, that's how they're selling a lot of these games." More on [[wiki/projects/georgia-market-rollout.md]] (Jan 27 2026).
+
+## Feb 11 2026 — the price tiers from a master's side, and the trade-in numbers
+
+- **An operator's price tiers.** [[wiki/people/ray-cosentino.md|Ray]] of [[wiki/organizations/inamax-ultra.md|Inamax]]: "the aristocrat games are over twenty thousand dollars, The curves over twenty thousand dollars", so they go only to the best locations; "the light and wonders and the bad dog and the JVL, You guys are all kind of in my in up in the same bucket for me. Price comparably". Makers price by games per machine, so he buys "the six highest performing games". [[raw/Meeting_Transcript_Inamax_Ray_Cosentino_Georgia_Market_and_Trial_Agreement-February-11-2026.md]]
+- **The cheap alternative JVL competes with.** Ray rebuilds pulled cabinets with a "thousand dollar monitor conversion" and a "three thousand dollar four thousand dollar" Bad Dog board — five to six thousand "tops". [[raw/Meeting_Transcript_Inamax_Ray_Cosentino_Georgia_Market_and_Trial_Agreement-February-11-2026.md]]
+- **Trade-in, the operator's number.** Ray: "if we could get maybe a few thousand out of them, that would be enticing", taken as a discount on JVL cabinets. Val offered to extend JVL's earlier Christmas trade-in offer to Inamax. [[raw/Meeting_Transcript_Inamax_Ray_Cosentino_Georgia_Market_and_Trial_Agreement-February-11-2026.md]]
+- **Trade-in, Val's numbers (debrief the same afternoon).** Val said the customer "would trade it for two thousand dollars but uh, We offered the trade in at four thousand dollars. And he didn't… react", and set out the pitch as a price dial: "two thousand not enough, four thousand not enough. How about six thousand?… It's just a matter of price now." These are remarks, not a price ruling. *(Ray's own words on the call were "a few thousand"; the "two thousand" is Val's retelling.)* [[raw/Meeting_Transcript_Michael_Gottlieb_Georgia_Sales_Debrief-February-11-2026.md]]
+
+## Feb 27 2026 — "$15,000 retail" for Texas, and two FlexPay prices, said to a broker
+
+On a call with [[wiki/people/rich-winley.md|Rich Winley]] ([[wiki/meetings/2026-02-27-rich-winley-flexpay-rollout-texas-brokerage.md]]), who would sell for JVL in Texas as a broker. Company and market prices only; the broker's commission is not recorded (§15.8). [[raw/Meeting_Transcript_Rich_Winley_FlexPay_Rollout_and_Texas_Brokerage-February-27-2026.md]]
+
+- **The machine.** [[wiki/people/val-levitan.md|Val]]: "I need to get a fifteen thousand dollar retail for the machine. I know that there are machines out there for eight thousand dollars. Right, and I'm talking about retail price." Quantity purchases get discounts, "and of course I'm not going to lose a deal with a serious operator." Rich: "I think fifteen is gonna be strong, but I mean, I can get the feedback". [[raw/Meeting_Transcript_Rich_Winley_FlexPay_Rollout_and_Texas_Brokerage-February-27-2026.md]]
+- **FlexPay, two prices.** The Fujitsu-dispenser configuration at "approximately eleven thousand dollars"; the bill-recycler configuration "around nine thousand dollars". Val: "we're gonna have discounts and quantity discounts. I'm just giving you." (sentence left unfinished). Two days earlier Val had floated a ~$9,000 kiosk price internally to Genadi Peari ("И вот я вам этот киоск Продаю, например, за 9000"; see [[wiki/topics/flexpay-business-architecture-payout-devices.md]], Feb 25 2026). [[raw/Call_Genadi_Peari-February-25-2026.md]] Rich's comparison: "Jim Meg is nine or something like that. So we'll be somewhere in the middle." ("Jim Meg" is not identified.) [[raw/Meeting_Transcript_Rich_Winley_FlexPay_Rollout_and_Texas_Brokerage-February-27-2026.md]]
+- **A recurring fee on top.** "roughly three dollars a day… Roughly a thousand dollars a year" per FlexPay terminal, against a market rate Rich put at "twenty five cents per day per machine". Detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Feb 27 2026). [[raw/Meeting_Transcript_Rich_Winley_FlexPay_Rollout_and_Texas_Brokerage-February-27-2026.md]]
 
 ## Aug 21 2026 — "dollars, not discounts": the JVL-Dollars alternative to discounting
 
@@ -153,11 +176,11 @@ On **September 8 2026** the same offer went to two Georgia masters — [[wiki/or
 
 ## Sept 9 2026 — $15,750 quoted twice more, FlexPay priced to a customer for the first time, and the competitive band from the buyer's side
 
-Two Georgia customer meetings on **September 9 2026** put the machine price back on the table after the Sept-8 silence, and one of them produced the first **customer-facing** price for the FlexPay unit.
+Two Georgia customer meetings on **September 9 2026** put the machine price back on the table after the Sept-8 silence, and one of them produced the first **customer-facing** price for the FlexPay unit. *(Earlier FlexPay figures were put to a broker, not a customer: ~$11,000 and ~$9,000 on Feb 27 2026 — see above.)* [[raw/Meeting_Transcript_Rich_Winley_FlexPay_Rollout_and_Texas_Brokerage-February-27-2026.md]]
 
 - **To [[wiki/people/narasimha-rao-namburi.md|Rao]] (10:04 AM), $15,750 fenced to the fifteen-game software**, exactly as Val described building it on Sept 4: "The machine is a **fifteen-game software**… We're charging **fifteen thousand seven hundred and fifty dollars**. Right for the fifteen." [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
 - **To [[wiki/organizations/lucky-coin.md|Lucky Coin]] (1:31 PM), the same number** — "**Fifteen seven fifty**" — quoted straight back at an operator who had opened at "seventeen sixteen sixteen." [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
-- **FlexPay priced to a customer at $7,950.** "I will sweeten the pot by throwing a the **[FlexPay] per location, which is a seven thousand nine hundred and fifty dollar piece of equipment**." **That figure had previously existed only as internal arithmetic** — the Sept-4 Flex-Slim retail value Val gave [[wiki/people/genadi-peari.md|Genadi Peari]] ($795 port / $895 IQ / $7,950 slim = $12,820). It is now a number a Georgia operator has heard. **Whether the "FlexPay" here and the "Flex-Slim" of Sept 4 are the same box is not stated in either source and is not asserted.** [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]] [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+- **FlexPay priced to a customer at $7,950.** "I will sweeten the pot by throwing a the **[FlexPay] per location, which is a seven thousand nine hundred and fifty dollar piece of equipment**." **The $7,950 figure had previously existed only as internal arithmetic** — the Sept-4 Flex-Slim retail value Val gave [[wiki/people/genadi-peari.md|Genadi Peari]] ($795 port / $895 IQ / $7,950 slim = $12,820). It is now a number a Georgia operator has heard. **Whether the "FlexPay" here and the "Flex-Slim" of Sept 4 are the same box is not stated in either source and is not asserted.** [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]] [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
 - **The giveaway is now valued at ~$15,000 in both meetings**, against "seven thousand dollars worth of discounts" on Sept 2 — see [[wiki/decisions/2026-09-02-free-ports-and-pos-with-every-machine-bought.md]]. Rao heard "**six, seven, plus eight, fifteen thousand dollars**" *(spoken arithmetic, left unrepaired)*; Lucky Coin heard "**practically getting fifteen thousand dollar gift per location**." [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]] [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
 
 ### The competitive band, from the man writing the cheque
@@ -217,6 +240,8 @@ On [[wiki/meetings/2026-09-16-jvl-transactional-ecosystem-and-class-a-market-str
 
 ## Sources
 
+- [[raw/Meeting_Transcript_Inamax_Ray_Cosentino_Georgia_Market_and_Trial_Agreement-February-11-2026.md]]
+- [[raw/Meeting_Transcript_Michael_Gottlieb_Georgia_Sales_Debrief-February-11-2026.md]]
 - [[raw/Meeting_Notes_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
@@ -242,3 +267,6 @@ On [[wiki/meetings/2026-09-16-jvl-transactional-ecosystem-and-class-a-market-str
 - [[raw/Meeting_Transcript_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]]
 - [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Rich_Winley_Miami_Lunch_Texas_Distribution_Pitch-January-8-2026.md]]
+- [[raw/Meeting_Transcript_Rich_Winley_Georgia_COAM_Market_Intel-January-27-2026.md]]
+- [[raw/Meeting_Transcript_Rich_Winley_FlexPay_Rollout_and_Texas_Brokerage-February-27-2026.md]]
+- [[raw/Call_Genadi_Peari-February-25-2026.md]]

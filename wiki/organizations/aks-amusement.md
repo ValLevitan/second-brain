@@ -2,10 +2,11 @@
 type: organization
 title: AKS Amusement
 date: 2026-07-27
-aliases: [AKS Amusement LLC, AKS Amusement, AKS]
-source-count: 2
-open-commitments: 1
-disambiguation: "§4 name note — two distinct Karims. **This** Karim is AKS Amusement's technical/operations lead, reporting to AKS's CEO Zahir. A **different** Karim is the sole owner of [[wiki/organizations/air-gaming-group.md|Air Gaming Group]], a separate multi-state operator with a large Texas footprint, who was named as such on Sept 1 2026. Different companies, different roles; neither has a person page and nothing has been merged. Resolve by context. Provisional — owner ruling pending. (Note also that AKS and **Akshar Gaming** are unrelated companies whose names happen to look alike — see [[wiki/organizations/akshar-gaming.md]].)"
+aliases: [AKS Amusement LLC, AKS Amusement, AKS, AKS Amusements]
+source-count: 4
+open-commitments: 5
+open-questions: 2
+disambiguation: "§4 name note — two distinct Karims. **This** Karim is AKS Amusement's technical/operations lead, reporting to AKS's CEO Zahir. A **different** Karim is the sole owner of [[wiki/organizations/air-gaming-group.md|Air Gaming Group]], a separate multi-state operator with a large Texas footprint, who was named as such on Sept 1 2026. Different companies, different roles; neither has a person page and nothing has been merged. Resolve by context. Provisional — owner ruling pending. (Note also that AKS and **Akshar Gaming** are unrelated companies whose names happen to look alike — see [[wiki/organizations/akshar-gaming.md]].) Page note: AKS's data lead **Jay** (Feb 10 2026) is a third person, not [[wiki/people/jai.md|Jai]] of Akshar Gaming and not the Texas consultant Jay; he has no page."
 ---
 
 # AKS Amusement
@@ -43,9 +44,50 @@ The briefing's suggested meeting objectives were to confirm the upgrade scope an
 
 See [[wiki/projects/georgia-market-rollout.md]]; related Georgia masters [[wiki/organizations/diamond-amusement.md|Diamond Amusement]] and [[wiki/organizations/inamax-ultra.md|Inamax / Ultra]].
 
+## Feb 10 2026 — first executive call with JVL: Jay's numbers and the data-for-support offer
+
+On a ~42-minute [[wiki/meetings/2026-02-10-aks-amusements-performance-data-collaboration.md|Feb-10 2:00 PM ET video call]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/juan-martinez.md|Juan Martinez]], [[wiki/people/felipe-miranda.md|Felipe]] and a game producer for JVL) JVL met **Jay**, who describes himself as AKS's back-end "data guy": he pulls AKS's data from Intralot, loads the machine-meter reports into a database every week, and builds dashboards. This source is earlier than the Jul-31 2026 choice of AKS as first IQ beta operator (see [[wiki/projects/georgia-market-rollout.md]]). [[raw/Meeting_Transcript_AKS_Amusements_Jay_Performance_Data_Collaboration-February-10-2026.md]]
+
+**Name calls (§4).** Jay says he must "run it by **Zaire**", and that "**Kareem**'s kind of our our head of tech… service" who "visits a lot of locations on a recurring basis". By context (same company, same roles) these are read as the CEO **Zahir** and tech lead **Karim** named in the briefing above. This is an inference from context, not a spelling in the source. [[raw/Meeting_Transcript_AKS_Amusements_Jay_Performance_Data_Collaboration-February-10-2026.md]]
+
+**AKS's operation, as Jay described it.** [[raw/Meeting_Transcript_AKS_Amusements_Jay_Performance_Data_Collaboration-February-10-2026.md]]
+- He calls AKS "a pretty pretty small operator" in Georgia — "a little bit over 100 locations". On machines the transcript gives two figures: "about 56 0 machines" early, and "close to five hundred machines" later. Both are recorded as spoken. (The briefing above calls AKS medium–large with 510 decals.)
+- **By unit count** Banilla is largest ("over one hundred and eighty"), then IGT ("about one hundred and fifty"), then makes transcribed "Jenca Premiero", Aristocrat, JVL "about the sixth", and Bad Dog.
+- **By revenue** Aristocrat leads: about **24% of cash-in** over a three-month window, from about **7% of the machines**.
+- **Where money is made.** The top 20–25 locations "probably produce seventy to eighty percent of our net". Top locations are mostly gas stations, spread across towns such as Rome, Cleveland and Newton; Jay puts much of the difference down to the location's own operator. AKS tries to fill a strong location to the maximum number of machines the municipality allows.
+- **Aristocrat demand.** AKS has been adding Aristocrats and locations ask for them by name, but the volume has to justify the price. (Juan quoted the Aristocrat cabinet at $22–24K "from the casino side".)
+- **Business is steady.** Week-to-week swings of about 3–8%; a dip on the bad-weather days. AKS turns away locations it does not know and grows by referral.
+- **Players.** From his own visits, mostly men ("nine out of ten"); best days Friday and Saturday, evenings.
+- **EasyLink.** About twelve locations with EasyLink by the next week; it gives real-time data. Kiosk redemption runs about 75–85% versus the teller window. Jay plans to compare before and after once EasyLink goes into strong locations with history.
+
+**JVL's numbers at AKS (Jay's screen).** Filtered to active machines: **19 JVL machines** over three months from November 16. Spoken figures: about half a million cash-in, $393K out, $132K held, so about **$7K net per machine** for the period; Val worked it out as about **$80 a day**. Mostly convenience stores with gas. With disabled and deleted machines added back the count is about 30 (Felipe expected 30–32). Juan saw "almost a forty five percent drop in net revenue" with all games included; Jay said that view is not "apples to apples" because some machines ran only part of the period. About four JVL machines sit next to an Aristocrat. In one store with one JVL, two IGTs, two Banillas and one Aristocrat, JVL ranked third (IGT combined first, then Aristocrat). [[raw/Meeting_Transcript_AKS_Amusements_Jay_Performance_Data_Collaboration-February-10-2026.md]]
+
+**July 1.** Asked about "the big day… July first" and whether GLC would enforce it, Jay said he felt it would be pushed back and that AKS is "behind the eight ball". AKS may use cheaper options that tie into a system transcribed "mother deuce" (probably Mutha Goose — inference) without buying kiosks, for its weaker locations. [[raw/Meeting_Transcript_AKS_Amusements_Jay_Performance_Data_Collaboration-February-10-2026.md]]
+
+**The JVL ask and offer.** [[raw/Meeting_Transcript_AKS_Amusements_Jay_Performance_Data_Collaboration-February-10-2026.md]]
+- **The problem.** Intralot reports do not show which of the (on average) six games in a box earns. Jay: "We don't even have a line sight into that. I wish we did."
+- **The ask.** Game-level data. Val said a money-in/money-out report "has much less value than a QR scan that we have built inside of the machine", and asked permission for JVL, or AKS staff, to scan the machines. Jay: "I don't think there'll be a problem with that", and pointed to Kareem for the scans.
+- **The offer.** Juan offered free trial games, free software updates, spare parts, extended warranty, and complimentary software including dual-SAS support for AKS's EasyLink rollout, plus help with upgrade kits and a local tech training session — "whatever is most comfortable for your organization in exchange for this data."
+- **Jay's answer.** "Great idea", but he has to "run it by Zaire". He offered an anonymised report comparing AKS's top JVL locations against the number-one machine in each, after approval. JVL said Zaire had earlier asked about upgrades and had said he would give some location data (the speaker labels split these lines between Juan and Felipe).
+
+**Transactional products — go through AKS.** Val said JVL's transactional products would come "approximately May of this year": TITO or e-wallet, a counter-top point-of-sale device for locations that do not want a kiosk, and, with e-wallet, the choice to drop printers and bill acceptors ("approximately two thousand dollars per machine"). Jay wants a demo when ready. Asked whether JVL should go through AKS or directly to locations, he said "it would be good to go through us", because AKS has strong relationships with location owners and they need help understanding the technology. Val said Felipe would organise something locally. [[raw/Meeting_Transcript_AKS_Amusements_Jay_Performance_Data_Collaboration-February-10-2026.md]]
+
+**Roadmap preview.** Juan showed next-generation JVL games — persistent games like IGT's (transcribed "Cash Ruption"), a multi-level progressive like classic (transcribed "Bounty") Quick Hit games, and the classic Peach-style games, in an "Apple liquid glass-like effect" — and said data-sharing partners would get them first. Val closed by calling it "a door opening session" and asking for recurring meetings. [[raw/Meeting_Transcript_AKS_Amusements_Jay_Performance_Data_Collaboration-February-10-2026.md]]
+
+**Notes vs transcript.** The derived notes give "~560 active machines", call July 1 a "gift-card mandate", and call Zaire "AKS decision-maker"; none of these is literally in the transcript (see the meeting stub). [[raw/Meeting_Notes_AKS_Amusements_Jay_Performance_Data_Collaboration-February-10-2026.md]] [[raw/Meeting_Transcript_AKS_Amusements_Jay_Performance_Data_Collaboration-February-10-2026.md]]
+
 ## Open commitments
 
 - [ ] AKS Amusement (Karim / Zahir + AKS's internal reporting owner) — provide complete **location-level Georgia Lottery performance reports** for all AKS machines (define cadence, format, and owner), in exchange for the no-charge software upgrade Felipe agreed in principle — due unspecified — [[raw/georgia_operator_briefing_AKS.md]]
+- [ ] Jay (AKS) — get Zaire's approval for the data exchange, then produce an anonymised report of AKS's top JVL locations versus the number-one machine in each — due unspecified — [[raw/Meeting_Transcript_AKS_Amusements_Jay_Performance_Data_Collaboration-February-10-2026.md]]
+- [ ] AKS (Kareem) — scan JVL machines' QR / game screens during location visits, or let JVL do it — due unspecified — [[raw/Meeting_Transcript_AKS_Amusements_Jay_Performance_Data_Collaboration-February-10-2026.md]]
+- [ ] JVL (Juan) — provide the offered support in exchange for data: upgrade-kit help, dual-SAS software for the EasyLink rollout, and a local tech training session — due unspecified — [[raw/Meeting_Transcript_AKS_Amusements_Jay_Performance_Data_Collaboration-February-10-2026.md]]
+- [ ] Felipe — organise a local demo of JVL's transactional products for AKS when ready (Val gave ~May 2026) — due ~May 2026 — [[raw/Meeting_Transcript_AKS_Amusements_Jay_Performance_Data_Collaboration-February-10-2026.md]]
+
+## Open questions
+
+- Is the ~45% lower net with all JVL machines included just machines that ran part of the period, or real under-performance? Jay said it was not "apples to apples" and offered to "crunch the numbers" — [[raw/Meeting_Transcript_AKS_Amusements_Jay_Performance_Data_Collaboration-February-10-2026.md]]
+- How do Jay's counts (19 active JVL machines, about 30 with disabled/deleted) fit the briefing's 29 Flex D27 + 9 Flex V43 direct purchases? Different measures, not reconciled by any source — [[raw/Meeting_Transcript_AKS_Amusements_Jay_Performance_Data_Collaboration-February-10-2026.md]] [[raw/georgia_operator_briefing_AKS.md]]
 
 ## Name note (§4) — the other Karim
 
@@ -55,3 +97,5 @@ On **September 1 2026** an operator called **Air Gaming Group** visited the JVL 
 
 - [[raw/georgia_operator_briefing_AKS.md]]
 - [[raw/Meeting_Transcript_Air_Gaming_Group_Transactional_Walkthrough-September-1-2026.md]]
+- [[raw/Meeting_Notes_AKS_Amusements_Jay_Performance_Data_Collaboration-February-10-2026.md]]
+- [[raw/Meeting_Transcript_AKS_Amusements_Jay_Performance_Data_Collaboration-February-10-2026.md]]

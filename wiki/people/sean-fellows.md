@@ -2,8 +2,8 @@
 type: person
 title: Sean Fellows
 date: 2026-07-23
-aliases: [Sean Fellows, Shawn Fellows, Sean, Shonfellows, Shonfello, Sonfellows, "shunned fellows", I'm not going to upgrade 74 games, I'm not going to be a reseller, arms-length relationship, everything we do is data]
-source-count: 8
+aliases: [Sean Fellows, Shawn Fellows, Sean Phillips, Sean, Shonfellows, Shonfello, Sonfellows, "shunned fellows", I'm not going to upgrade 74 games, I'm not going to be a reseller, arms-length relationship, everything we do is data]
+source-count: 9
 disambiguation: "Sean Fellows = CEO/owner of the Georgia operator Diamond Amusement — resolve by the Georgia-COAM / operator / market-data context. Distinct from Sean Riley (JVL's external chartered accountant, finance/tax context) and from the still-unresolved batch-32 FlexPay-enclosure 'Sean' (surname unknown). Never merge these; decide by context, not the name string."
 ---
 
@@ -22,6 +22,14 @@ disambiguation: "Sean Fellows = CEO/owner of the Georgia operator Diamond Amusem
 - Presented Diamond's own market data (competitive benchmark, saturation, RTP tactics, gift-card readiness — detailed on [[wiki/organizations/diamond-amusement.md]]) and responded positively to JVL's data-sharing proposal, committing to deploy JVL machines across low/mid/premium tiers, share performance data, provide historical baselines, and facilitate field visits. [[raw/Diamond_Shawn_Fellows_interview-February-9-2026.md]]
 - Val judged there is "a deal to be made with Sean" but that Sean **sidestepped** the question of how much business JVL could win by pricing machines at $1 — smirking and moving on rather than answering — which Val read as politics on Sean's side. [[raw/Exec_recap_Diamond_Amusement-February-9-2026.md]]
 - First surfaced (as "Sean") on the May 29 2025 Georgia update, when Felipe installed Diamond's early "Peach One" test units and met Sean and his tech. [[raw/felipe_georgia_market_update-may-29-2025.md]]
+
+## Jan 27 2026 — an operator's first call
+
+On the [[wiki/meetings/2026-01-27-rich-winley-georgia-coam-market-intel.md|Jan-27 Georgia briefing]], former route operator [[wiki/people/rich-winley.md|Rich Winley]] named him as the first master he would call for JVL. [[raw/Meeting_Transcript_Rich_Winley_Georgia_COAM_Market_Intel-January-27-2026.md]]
+
+- **Why him.** "somebody like calling it Sean Fellows, he's for a long time… He understands the difference in features. He understands the difference in payouts." Later: "Sean's growing, but a lot of these other guys aren't growing", and "He's all about the relationship… He's not trying to take your head off."
+- **What Rich expected.** "Let's start with Sean, and he'll give it to me raw." On a trade-in deal with report access: "Somebody like Sean will give it to you." Rich said he knows him "personally done business".
+- **Identification.** The transcript names him "Sean Fellows" once and "Sean Phillips" once; Juan's reply names "Diamond", and Juan then asks how the games are set up at Diamond. So this is read as the Diamond Sean by context. Rich undertook to call him the next day — tracked on [[wiki/people/rich-winley.md]]. No source says whether that call led to the Feb 9 meeting.
 
 ## Aug 31 2026 — "the most politically connected in the state of Georgia"
 
@@ -81,3 +89,4 @@ The name "Sean" appears for three different people in this wiki — see the `dis
 - [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
 - [[raw/Meeting_Notes_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
 - [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- [[raw/Meeting_Transcript_Rich_Winley_Georgia_COAM_Market_Intel-January-27-2026.md]]

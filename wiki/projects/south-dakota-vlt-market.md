@@ -3,7 +3,7 @@ type: project
 title: South Dakota VLT market entry
 date: 2025-01-22
 aliases: [South Dakota, SD VLT, South Dakota VLT 3, VLT3, South Dakota D2703, IP1180, IP887, IP1131, IP1137, GD918, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950, V43, D27, SD cap, Bioliches, Gypsy Spirit, Crazy Colt, Queen of Luxor, Liberty Spin, Rodeo Spin, South Dakota vertical, MG Oil report, VLT2, Cool Cat, Black Hills Kino, Dragon Pace, Dakota Bison, Solar Keno, Keno Deluxe, IP459, IP1063]
-source-count: 46
+source-count: 47
 open-commitments: 4
 ---
 
@@ -303,6 +303,10 @@ This source names the NOVA South Dakota product **"VLT 3"**, twice and unambiguo
 
 **§15.8:** clear — product and tooling content only.
 
+## History
+
+- **Feb 16 2026 — how Juan described the market to a Georgia operator.** On the [[wiki/meetings/2026-02-16-allenson-malik-market-review-and-data-partnership.md|Feb-16 Allenson call]], [[wiki/people/juan-martinez.md|Juan]]: "we've been live in South Dakota since October of last year. We have an office now in South Dakota. And, there is about eleven thousand machines currently in South Dakota for the whole market". *(The office was later moved to Nebraska — see [[wiki/decisions/2026-06-18-jvl-moves-its-south-dakota-office-to-nebraska.md]].)* [[raw/Meeting_Transcript_Allenson_Malik_Market_Review_and_Data_Partnership-February-16-2026.md]]
+
 ## Open commitments (Sept 4 2026)
 
 - [ ] [[wiki/people/juan-martinez.md|Juan Martinez]] — evaluate and confirm which games go into South Dakota D2703, including whether to add Fiery Ice Link and Jackpot Rush — due unspecified — [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
@@ -365,3 +369,4 @@ This source names the NOVA South Dakota product **"VLT 3"**, twice and unambiguo
 - [[raw/Meeting_Notes_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Doug_Skrepnek_Loan_Lenience_and_Business_Update-January-9-2026.md]]
+- [[raw/Meeting_Transcript_Allenson_Malik_Market_Review_and_Data_Partnership-February-16-2026.md]]

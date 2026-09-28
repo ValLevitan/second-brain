@@ -3,7 +3,7 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention, installment payments, aged receivables, Customer Ledger Entries, category-based terms, subscription module, parts vs machines terms, Black Horse Entertainment, Sales Watch, import duties tax category, landed cost, tax category]
-source-count: 61
+source-count: 62
 open-questions: 4
 ---
 
@@ -166,6 +166,10 @@ A [[wiki/people/val-levitan.md|Val]] ↔ [[wiki/people/lev-rudky.md|Lev Rudky]] 
 ## Feb 2 2026 — reconciliation stays in Business Central, not Payment Hub
 
 On the [[wiki/meetings/2026-02-02-payment-hub-finance-reconciliation.md|Feb-2 payment-hub finance sync]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/nathan-carver.md|Nathan Carver]], [[wiki/people/alka-sood.md|Alka Sood]], [[wiki/people/sean-riley.md|Sean Riley]], [[wiki/people/juan-martinez.md|Juan Martinez]]) Val ruled that **all reconciliation and posting must live in Business Central**, not in the Payment Hub — because BC is the accounting application with rigid posting rules and controls, whereas Payment Hub is a "transport" that "could be anything we write it to be," exposing JVL to a single developer's mistake. Nathan positioned Payment Hub as "the automation glue to Business Central" that posts fees/payments via the MSBC API. The unresolved BC-side gap: **posting a payment to an invoice does not tie it to the actual bank deposit** — a bulk Dwolla deposit must be split back to its constituent invoices, and neither the bank data nor a posted customer-payment carries that link today. Nathan owns checking whether the MSBC API supports that deposit↔invoice tie. Full substance on [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Feb-2). **§15.8:** clear — no compensation. [[raw/Payment_Hub_Finance-February-2-2026.md]]
+
+## Feb 9 2026 — the bank-to-accounting link is asked for at the CIBC account opening
+
+On the [[wiki/meetings/2026-02-09-cibc-us-account-opening-and-financing-pipeline.md|Feb-9 CIBC call]], while opening the US account that receives JVL's ACH money, [[wiki/people/val-levitan.md|Val]] told CIBC: "We will need an automated API into our accounting system to make sure that we can reconcile the incoming funds." (He said "accounting system"; Business Central is not named in this source.) CIBC's Michael Hill said a cheaper, faster option than the standard ~90-day API set-up was being tested and he would report back. The same need is worked through with CIBC on July 2 and July 6 2026 (below). Account detail: [[wiki/organizations/cibc.md]] (Feb 9 2026). [[raw/Meeting_Transcript_CIBC_Sanjay_US_Account_Opening_and_Financing_Pipeline-February-9-2026.md]]
 
 ## Apr 6 2026 — treating the BOM for single-line invoicing (top-level parent part number)
 
@@ -436,3 +440,4 @@ The first request in the corpus for a Business Central field that comes from the
 - [[raw/Meeting_Transcript_CIBC_JVL_MSBC_API_Integration-July-28-2026.md]]
 - [[raw/Meeting_Notes_COA_Tracer_GL_Account_Review-August-11-2026.md]]
 - [[raw/Meeting_Transcript_COA_Tracer_GL_Account_Review-August-11-2026.md]]
+- [[raw/Meeting_Transcript_CIBC_Sanjay_US_Account_Opening_and_Financing_Pipeline-February-9-2026.md]]

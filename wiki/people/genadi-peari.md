@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий]
-source-count: 92
+source-count: 93
 open-commitments: 25
 ---
 
@@ -180,6 +180,14 @@ Two same-day Val↔Genadi calls ([[wiki/meetings/2026-02-12-genadi-flex-station-
 - **Flex-Port BOM**: the main board is **~$45 per 100** (he'd recorded $50), of which **flash memory ≈ $15 (~half)** — flash tripled in price; to ask [[wiki/people/evgeniy-alekseev.md|Alekseev]] whether the memory amount can be cut and to price **EPROM** as the alternative (Val: EPROM's write endurance is plenty; JVL doesn't need flash speed). Left for Genadi to verify. [[raw/Call_Genadi_Peari-February-12-2026-2.md]]
 - Flagged a **Flex-Port lighting/scanner** cosmetic defect (black spot / flickering backlight); Val wants it done properly, Genadi to experiment and dim the intensity meanwhile. [[raw/Call_Genadi_Peari-February-12-2026-2.md]]
 - Val: before the **dispenser**, pick up the **statics** work, and **[[wiki/people/igor-starovoytov.md|Igor]] needs to be started first** ("the old wheel needs spinning up"). [[raw/Call_Genadi_Peari-February-12-2026-2.md]]
+
+## Feb 23 2026 — the Crane CPI recycler consultation
+
+Genadi joined Val and Juan on the [[wiki/meetings/2026-02-23-crane-cpi-bnr-vs-scr-recyclers.md|Feb-23 call]] with [[wiki/organizations/crane-cpi.md|Crane CPI]]. The transcript labels him only "Speaker 5"; he is identified by context (Val greets "Gennady"; Juan asks "the S C R Gennady right?"). [[raw/Meeting_Transcript_Crane_CPI_Jacob_Blair_BNR_vs_SCR_Recyclers-February-23-2026.md]]
+
+- He asked how the BNR loader capacity and the recyclers fit together, what "not marketed for gaming" means for GLI, and how the SCR's four drums are configured. [[raw/Meeting_Transcript_Crane_CPI_Jacob_Blair_BNR_vs_SCR_Recyclers-February-23-2026.md]]
+- His comparison: using two SCRs "is very similar to having one BNR… In terms of capacity" and price; the smaller unit is "exactly a width of the bill acceptor". He closed on the SCR: "We are more flexible and better reliability." [[raw/Meeting_Transcript_Crane_CPI_Jacob_Blair_BNR_vs_SCR_Recyclers-February-23-2026.md]]
+- He asked for "the command list and every all the software package firmware" so JVL can integrate. Substance on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Feb-23). [[raw/Meeting_Transcript_Crane_CPI_Jacob_Blair_BNR_vs_SCR_Recyclers-February-23-2026.md]]
 
 ## Feb 25 2026 — packaging in production, China shipment, POS to tooling; flagged as lagging
 
@@ -507,3 +515,4 @@ This is the third time in a fortnight that Genadi is the one who names a *visibi
 - [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
 - [[raw/Meeting_Notes_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Pyramid_Technologies_Printer_Integration_Intro-January-8-2026.md]]
+- [[raw/Meeting_Transcript_Crane_CPI_Jacob_Blair_BNR_vs_SCR_Recyclers-February-23-2026.md]]

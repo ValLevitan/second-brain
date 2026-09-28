@@ -4,7 +4,7 @@ title: Port Calle Ocho as the first game on the Omni framework, target June 1 fo
 date: 2025-04-14
 aliases: [Calle Ocho on Omni, Calle Ocho Omni, first Omni game decision, Kai-Ocho, Kaiocho, Kayo Ocho, Kali-Ochi, Kali Ocha, Cayocho, Kai-Ochi]
 status: active
-source-count: 5
+source-count: 6
 ---
 
 # Port Calle Ocho as the first game on the Omni framework — target June 1 for GLI
@@ -30,6 +30,10 @@ The decision was taken in the Monday-morning Omni progress review (internally-du
 - **Asset-port method (adopted):** not a straight as-is re-export (Lena's plan A, May-1) nor a full rebuild (Sasha's plan B, ~2 months), but Dima's **middle approach** — port what's portable, properly rework only what recurs across future games — driven by the June-1 pressure. Detail on [[wiki/topics/game-art-animation-production-pipeline.md]]. [[raw/graphical_assets_redesign_omni_calle_ocho-apr-17-2025.md]]
 - **Deploy the current Coyote meanwhile:** Val will keep deploying the **current** Coyote once its bill-validator bug is fixed, in parallel with building the Omni version. [[raw/game_development_update-apr-17-2025.md]]
 
+## Jan 28 2026 — Calle Ocho is the GLI test game for Omni, not a market release
+
+At the [[wiki/meetings/2026-01-28-gli-omni-platform-certification-kickoff.md|GLI kickoff]] for the Omni platform, Val presented Calle Ocho as the sample game GLI will test the platform with: "We have a sample game for it. We're not putting it in the market. You guys have seen that game. It's called Calle Ocho". He added that "it doesn't need to function but it… provides a tie-in for you guys to test". The June-1-2025 target above had long passed; lab entry was now estimated at about mid-May 2026 (see [[wiki/topics/omni-core-advancement-and-game-templating.md]], Jan 28 2026). [[raw/Meeting_Transcript_GLI_Omni_Platform_Certification_Kickoff-January-28-2026.md]]
+
 ## Relation
 
 - Continues the "printing press for games" program on [[wiki/topics/omni-core-advancement-and-game-templating.md]] and the freeze rule [[wiki/decisions/2025-03-24-freeze-core-capabilities-before-game-production.md]].
@@ -42,3 +46,4 @@ The decision was taken in the Monday-morning Omni progress review (internally-du
 - [[raw/daily_omni_progress-apr-15-2025.md]]
 - [[raw/game_development_update-apr-17-2025.md]]
 - [[raw/graphical_assets_redesign_omni_calle_ocho-apr-17-2025.md]]
+- [[raw/Meeting_Transcript_GLI_Omni_Platform_Certification_Kickoff-January-28-2026.md]]

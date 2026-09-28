@@ -3,7 +3,7 @@ type: organization
 title: GLI (Gaming Laboratories International)
 date: 2026-07-12
 aliases: [GLI, Gaming Laboratories International, GLC, start with GLI, they are the most savvy, they will ask for a payment]
-source-count: 3
+source-count: 4
 ---
 
 # GLI (Gaming Laboratories International)
@@ -13,7 +13,7 @@ GLI is the independent testing lab that certifies JVL's gaming machines and game
 ## Relationship with JVL
 
 - GLI has been in business about 40 years. [[raw/gli_visit-jan-7-2025.md]]
-- JVL's account contacts at GLI: Deb (client-facing account manager, fairly new), [[wiki/people/patrick-gli.md|Patrick]] (now senior director, keeps oversight of JVL), and technical/testing people Dan, Jason, Joseph, and Joe. [[raw/gli_visit-jan-7-2025.md]]
+- JVL's account contacts at GLI: Deb (client-facing account manager, fairly new), [[wiki/people/patrick-gli.md|Patrick]] (now senior director, keeps oversight of JVL), and technical/testing people Dan, Jason, Joseph, and Joe. [[raw/gli_visit-jan-7-2025.md]] The Jan 28 2026 transcript gives two full names: Deb is taken as [[wiki/people/deb-gli.md|Deborah Oxnem]] and Dan as [[wiki/people/dan-lewis.md|Dan Lewis]] (both by context). [[raw/Meeting_Transcript_GLI_Omni_Platform_Certification_Kickoff-January-28-2026.md]]
 - As an independent lab, GLI must stay neutral — it will not train or coach a client on how to test so as to pass, because that would risk its accreditation. This is what "proprietary" tends to mean in their conversations. [[raw/gli_visit-jan-7-2025.md]]
 
 ## Certification facts
@@ -25,6 +25,22 @@ GLI is the independent testing lab that certifies JVL's gaming machines and game
 - Live JVL approvals in progress: two games for South Dakota, two games for Florida, plus a separate 40-game online transfer proposal for about three states (Michigan, Pennsylvania, and another). [[raw/gli_visit-jan-7-2025.md]]
 
 Account contact [[wiki/people/deb-gli.md|Deb]] (client-facing account manager). 
+
+## Jan 28 2026 — the Omni platform certification kickoff
+
+JVL opened GLI certification of its new Omni platform at the [[wiki/meetings/2026-01-28-gli-omni-platform-certification-kickoff.md|Jan-28 kickoff]] (JVL: Val, Pavel Frolov, Juan Martinez, Efim Podvoiski; GLI: Deborah Oxnem, Dan Lewis). All from the transcript unless marked. [[raw/Meeting_Transcript_GLI_Omni_Platform_Certification_Kickoff-January-28-2026.md]]
+
+- **What JVL is submitting.** Val's summary: GLI has so far approved JVL products on the AMD V1000 processor with the Rage framework. The new product is a Unity-based framework with Pixi inside and an internal database, on the new FP7 hardware, in the cabinet GLI already approved (code name rendered "Dash Super"). The sample game for testing is Calle Ocho: "We're not putting it in the market… it doesn't need to function but it… provides a tie-in for you guys to test". Detail on [[wiki/topics/omni-core-advancement-and-game-templating.md]] (Jan 28 2026). [[raw/Meeting_Transcript_GLI_Omni_Platform_Certification_Kickoff-January-28-2026.md]]
+- **Timing, stated as estimates.** Asked for the lab-entry date, Pavel said "probably in May, mid-May." Val: "accept those as estimates". [[raw/Meeting_Transcript_GLI_Omni_Platform_Certification_Kickoff-January-28-2026.md]]
+- **RNG.** Pavel: the mask plus RNG used for online will be packaged "into a container" for land-based, "very close" to the previous platform. [[raw/Meeting_Transcript_GLI_Omni_Platform_Certification_Kickoff-January-28-2026.md]]
+- **How the two sides will work.** JVL writes white papers, GLI reviews them; GLI's commercial proposal waits until then; questions go through Val and Juan. See [[wiki/decisions/2026-01-28-gli-omni-certification-runs-on-jvl-white-papers.md]]. [[raw/Meeting_Transcript_GLI_Omni_Platform_Certification_Kickoff-January-28-2026.md]]
+- **What JVL owes GLI** (none has a date):
+  1. A list of all peripherals, marking those GLI already approved, so all are tested in one pass. Juan: "We'll list them all and I'll put a note by previously approved." (The transcript renders "peripherals" once as "employees".)
+  2. A white paper on how the math and RNG are built in the new framework — given to Efim: "So, Yefim, this is an undertaking for you".
+  3. A white paper on how GLI can plug into JVL's ecosystem and get an output — taken by Val as "JVL's undertaking"; no person named.
+  4. A white paper on testing the setup screens, since "we're changing practically every single screen". Val offered automation: "we could probably provide you with a lot of automation."
+  [[raw/Meeting_Transcript_GLI_Omni_Platform_Certification_Kickoff-January-28-2026.md]]
+- **GLI's testing approach (Dan).** Tools that compare screen images with a reference image, and a wish to run tests from JVL's own ecosystem so any deviation stands out. See [[wiki/people/dan-lewis.md]]. [[raw/Meeting_Transcript_GLI_Omni_Platform_Certification_Kickoff-January-28-2026.md]]
 
 ## Sept 11 2026 — GLI as a paid regulatory adviser, not just a certifier
 
@@ -39,5 +55,6 @@ A new use of the relationship, ruled by [[wiki/people/val-levitan.md|Val]] at th
 ## Sources
 
 - [[raw/gli_visit-jan-7-2025.md]]
+- [[raw/Meeting_Transcript_GLI_Omni_Platform_Certification_Kickoff-January-28-2026.md]]
 - [[raw/Meeting_Notes_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]]
 - [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]]

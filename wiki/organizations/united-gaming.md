@@ -3,14 +3,14 @@ type: organization
 title: United Gaming (Georgia's largest master operator)
 date: 2026-09-02
 aliases: [United, United Gaming, Bunty's company, the largest Georgia master]
-source-count: 3
+source-count: 4
 open-commitments: 1
 open-questions: 2
 ---
 
 # United Gaming (Georgia's largest master operator)
 
-**United is the largest master operator in the Georgia COAM market**, and the account JVL has never been able to reach above working level. It has appeared across the corpus since February 2026 as a market fact — the #1 master, a consolidator buying up other people's routes, and a company whose purchasing decisions sit above anyone JVL talks to. Those earlier appearances are on [[wiki/projects/georgia-market-rollout.md]] (Feb-18, Aug-11, Aug-21, Aug-26, Aug-31), [[wiki/people/felipe-miranda.md]] and [[wiki/people/juan-martinez.md]]. This page exists because the **Sept-2 2026 InComm lunch** ([[wiki/meetings/2026-09-02-incomm-machine-payments-and-recycler-standoff.md]]) put a former United executive across the table from Val and produced the first account of **who now decides what United buys** [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]].
+**United is the largest master operator in the Georgia COAM market**, and the account JVL has never been able to reach above working level. It has appeared across the corpus since January 2026 as a market fact — the #1 master, a consolidator buying up other people's routes, and a company whose purchasing decisions sit above anyone JVL talks to. Those earlier appearances are on [[wiki/projects/georgia-market-rollout.md]] (Jan-27, Feb-18, Aug-11, Aug-21, Aug-26, Aug-31), [[wiki/people/felipe-miranda.md]] and [[wiki/people/juan-martinez.md]]. This page exists because the **Sept-2 2026 InComm lunch** ([[wiki/meetings/2026-09-02-incomm-machine-payments-and-recycler-standoff.md]]) put a former United executive across the table from Val and produced the first account of **who now decides what United buys** [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]].
 
 ## Who decides what United buys (Sept 2 2026)
 
@@ -57,6 +57,11 @@ Val opened the lunch with "what is this exodus from United?" The InComm side des
 - **United has been on InComm's cards from the start.** Asked "is United on In[Comm] cards now?" — "**From the beginning.**" And on hardware: "Primarily… I think all of the operators are adding solutions and testing. So **United has a number of different kiosks and systems**" [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]].
 - **What United would never do, from the inside.** "In my experience at United, you always have a handful of games that I would say were at like **tier two**, not the top tier earners… And what I could never get us doing over there was **moving games like you would on a casino floor**, where you tinker with it all the time and try to optimize. I think a lot of these operators just want to **set it and forget it**." The illustration: two JVL machines together were "the top performing games in the whole area," the same pairing failed at another location, "and we would say… one yes, one no. It's not enough to make a decision." The wider argument this belongs to is on [[wiki/topics/georgia-prize-card-processor-economics.md]] and [[wiki/topics/machine-data-repurchase-program.md]] [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]].
 
+## History
+
+- **Jan 27 2026 — the earliest mention.** Former Georgia route operator [[wiki/people/rich-winley.md|Rich Winley]] used United as the example of a big buyer: "if they go to a United, yeah, he's going to put everything, but if they go to a Mike Patel, Mike only has 20 locations". [[wiki/meetings/2026-01-27-rich-winley-georgia-coam-market-intel.md]] [[raw/Meeting_Transcript_Rich_Winley_Georgia_COAM_Market_Intel-January-27-2026.md]]
+- **The same call: how the top of a big master is reached.** Rich called "Bunchy" (later "Bunty") a friend who will not "give a lot of people time. He's going to say, well, you need to go talk to Ashish", and "Ashish is going to go talk to Bunchy's dad". Rich did not name United here; linking this to United rests on the wiki's Feb-18 2026 record of Bunty as United's owner and Ashish as its buyer (inference). [[raw/Meeting_Transcript_Rich_Winley_Georgia_COAM_Market_Intel-January-27-2026.md]]
+
 ## Open commitments
 
 - [ ] [[wiki/people/val-levitan.md|Val Levitan]] — get time with **Jason Flurry** (CFO) and **Marsha Hayward** (COO) at United, where machine-purchasing decisions now sit — due unspecified; Hayward is described as very hard to reach — [[raw/Meeting_Notes_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]] [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]]
@@ -73,3 +78,4 @@ Val opened the lunch with "what is this exodus from United?" The InComm side des
 - [[raw/Meeting_Notes_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]]
 - [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]]
 - [[raw/To-Do_Georgia_meetings-February-18-2026.md]]
+- [[raw/Meeting_Transcript_Rich_Winley_Georgia_COAM_Market_Intel-January-27-2026.md]]

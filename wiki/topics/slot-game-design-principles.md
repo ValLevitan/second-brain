@@ -2,8 +2,8 @@
 type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
-aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus, $20 test, twenty dollar test, Twin Bison, Wolfpack, Clover Fortune, Liberty Spins, peek-to-be-in bonus, locking bison, Rodeo Spins, multi-progressive, Multi-Progressive initiative, three-level progressive, three progressive styles, bet-dependent progressive, symbol-driven progressive, time on device, jackpot reset value, RTP parity, Pyre Island, dual box skill feature, Lions Riches, Primero, Piggy, attraction loop, credits vs dollars, default to a dollar, first three rankings, the ice maker, settings not the report, no secret between us, Anchor Gaming, Wheel of Fortune]
-source-count: 90
+aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus, $20 test, twenty dollar test, Twin Bison, Wolfpack, Clover Fortune, Liberty Spins, peek-to-be-in bonus, locking bison, Rodeo Spins, multi-progressive, Multi-Progressive initiative, three-level progressive, three progressive styles, bet-dependent progressive, symbol-driven progressive, time on device, jackpot reset value, RTP parity, Pyre Island, dual box skill feature, Lions Riches, Primero, Piggy, attraction loop, credits vs dollars, default to a dollar, first three rankings, the ice maker, settings not the report, no secret between us, Anchor Gaming, Wheel of Fortune, sickly sweet, two RTP versions, too many options]
+source-count: 91
 open-questions: 9
 ---
 
@@ -320,6 +320,18 @@ A short **written AI-generated summary artifact** (not a transcript) captures a 
 
 - **The GDD is a living document, finalized only at the end of Production**; components are developed across the **Concept, Design and Production** stages and can be updated throughout (e.g. Audio, visuals, settings may be updated during Production). [[raw/gdd_development_stages_and_table.md]]
 - **Chapter → stage table (as provided by Lena).** Developed in **Concept:** Abstract (updated in Design), Main Screens (updated Design/Production). Developed in **Design** (most updated in Production): Game Functionality, Pay Table, Symbols, Bonuses, Transitions, Big Win, Pre-Cog, Game-Specific Digital Toppers, Messages, Help Screens, vDeck Visuals, More Games Attraction Mode, More Games Screen Game Icon, Audio. Developed in **Production** (not updated after): Show Mode Menu, Default Progressive Settings. [[raw/gdd_development_stages_and_table.md]]
+
+## Jan 27 2026 — what a Georgia master wants from a game (Rich Winley's briefing)
+
+On the [[wiki/meetings/2026-01-27-rich-winley-georgia-coam-market-intel.md|Jan-27 call]] former Georgia route operator [[wiki/people/rich-winley.md|Rich Winley]] gave product advice, and [[wiki/people/michael-gottlieb.md|Michael]] added a design warning. Advice only — nothing was ruled. The market side is on [[wiki/projects/georgia-market-rollout.md]] (Jan 27 2026). All from the transcript. [[raw/Meeting_Transcript_Rich_Winley_Georgia_COAM_Market_Intel-January-27-2026.md]]
+
+- **Two RTP versions, not one.** Juan asked whether "coming in at $89.90" would be accepted (an unidentified voice: "Yeah, for sure"). Rich: "I would still make it super aggressive. It's the marketing. Let's get them in the location. These customers are winning… So I would probably come out with two different ones." A low version suits only "the smaller masters who have, like, under 50 locations"; sophisticated masters who watch the numbers "they'll be happy". When Rich mentioned Banilla versions near 70%, Juan said masters would "jump for joy because that's what they dream."
+- **Masters mix payouts by location.** "put this one at 92… this one at 88"; Juan noted Aristocrat comes "in at 92 percent".
+- **Bet range.** "The max right now is $5. I would generally say a dollar or higher", because low bets let players cash out as soon as they win. His buttons: 25¢, 50¢, $1, "then there's a two dollar", and $5. Val thought JVL had dropped its 25¢ button; Juan said JVL still has it, made "the $0.25 and $0.50 smaller on the far left" (his count of buttons is garbled). Rich's caution: "too many options is challenging."
+- **Players watch minimum bets.** "There's a lot of player communities with forums".
+- **Regional taste is real.** "I would only buy a Primero if it was going to the border of Georgia"; "a pot of gold still runs in Cherokee". A maker should tell the operator where a game fits: "We have games that perform extremely well in North Georgia." Rich: "You can't be everywhere."
+- **Michael's "sickly sweet" warning.** From his WMS and Bally years: WMS "would introduce flashy things great in the beginning, and then after six months it would fall off like a rock", chasing replacements until "they ended up losing market share". A second Krispy Kreme donut or a re-watched Super Bowl ad does not please like the first — "They're non-repeatable experiences." He sees the same in Banilla: "a lot of stuff happening, but the player's not really winning a whole lot of money." Banilla's decay after about six months was Rich's own point.
+- **Multi-game packs hide the weak game.** The Georgia reports "only show you the specific game path"; Rich learned which pack game "sucks" by reading machines on site. Michael: in JVL's case "the six-pack is actually working well".
 
 ## Feb 6 2026 — Georgia partially-fractional progressives; Keno design language
 
@@ -1007,3 +1019,4 @@ Val's pitch, framed as an operator-facing offer: "**in each location, a wall of 
 - [[raw/Meeting_Notes_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
 - [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Rich_Winley_Georgia_COAM_Market_Intel-January-27-2026.md]]

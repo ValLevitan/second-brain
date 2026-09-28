@@ -3,7 +3,7 @@ type: topic
 title: Machine data repurchase program ($337 per year per machine)
 date: 2026-08-26
 aliases: [data repurchase, validator acceptance rate, data purchase contract, buy back our own data, $337 per year per machine, three-year data contract, data-sharing agreement, data sharing discount, data discount]
-source-count: 13
+source-count: 15
 open-commitments: 1
 open-questions: 1
 ---
@@ -112,6 +112,11 @@ At the [[wiki/meetings/2026-09-10-diamond-amusements-machine-performance-and-bun
 
 **The "operator intelligence" side, restated for a second customer.** The free-now-chargeable-later caveat first recorded at Dixie on Sept 8 was repeated here — "**Ninety dollars does not include charges for the intelligence, the operator's intelligence. Right now we're giving it for free, but eventually we'll start charging for it**" — with one genuinely new term: **the API is free.** "we'll give you an **API for free**, but if you want us to provide you with intelligence, then it will cost." Val's suggested consumption path — via an **MCP** using Anthropic or Grok rather than the raw API — is on [[wiki/decisions/2026-09-02-free-ports-and-pos-with-every-machine-bought.md]]. [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
 
+## History
+
+- **Feb 10 2026 — an earlier form of the trade, with goods instead of cash.** Six months before the $337 offer, JVL asked [[wiki/organizations/aks-amusement.md|AKS Amusement]] for game-level data and offered goods and services in return, not a yearly payment: "free trial games, free software updates, spare parts extended warranty", complimentary software and training, "whatever is most comfortable for your organization in exchange for this data." Val already ranked the machine's own data above the operator's reports: a money-in/money-out report "has much less value than a QR scan that we have built inside of the machine." See [[wiki/meetings/2026-02-10-aks-amusements-performance-data-collaboration.md]]. [[raw/Meeting_Transcript_AKS_Amusements_Jay_Performance_Data_Collaboration-February-10-2026.md]]
+- **Feb 16 2026 — the same ask at Allenson, taken for friendship, not money.** [[wiki/people/juan-martinez.md|Juan]] asked [[wiki/organizations/allenson.md|Allenson]]'s Malik for per-title data inside the box ("per title, per game title within the cabinet"), because JVL does not trust Intralot's per-game data: "it's very inconsistent related to each game's pay table ID". Malik offered his technician to photograph the game settings "for one or two locations", including competitor machines, and send them to Felipe; JVL's own cabinets can be scanned "with QR code". His condition: his data must not "become… a general database". Val gave his legal view: "Machines are yours, data is yours, money is yours… If those machines were rented machines, they would be a different story." Val offered to "compensate you for your efforts" (no amount); Malik: "it's not about money… it's about relationship also." See [[wiki/meetings/2026-02-16-allenson-malik-market-review-and-data-partnership.md]]. [[raw/Meeting_Transcript_Allenson_Malik_Market_Review_and_Data_Partnership-February-16-2026.md]]
+
 ## Open commitments
 
 - [ ] Diamond Amusement's field auditor — capture settings / menu-screen data off JVL machines during compliance rounds, across the whole JVL fleet — ongoing, no start date named — [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
@@ -137,3 +142,5 @@ At the [[wiki/meetings/2026-09-10-diamond-amusements-machine-performance-and-bun
 - [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
 - [[raw/Meeting_Notes_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
 - [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- [[raw/Meeting_Transcript_AKS_Amusements_Jay_Performance_Data_Collaboration-February-10-2026.md]]
+- [[raw/Meeting_Transcript_Allenson_Malik_Market_Review_and_Data_Partnership-February-16-2026.md]]

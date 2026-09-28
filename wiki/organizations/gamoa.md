@@ -3,7 +3,7 @@ type: organization
 title: GAMOA — the Georgia coin-operated amusement machine operators' association
 date: 2026-09-01
 aliases: [GAMOA, GOAM, Demola, Gamal, seventy thirty, you are ostracized, indecision is the worst decision, GMUA, Gamua, Gamboa, Gomoa, Gomorrah, Georgia operators association, the state association, the association, GAMOA board, GAMOA show, GAMOA expo, gift-card lobbying]
-source-count: 11
+source-count: 12
 open-commitments: 0
 open-questions: 2
 ---
@@ -39,6 +39,7 @@ From [[wiki/people/ryan-odonnell.md|Ryan O'Donnell]], a sitting board member, at
 - **How a manufacturer representative gets elected is not known even to the board.** "**I'm not 100 sure. It's a great question.** He was on the board when I got there. He's been there for a long time." [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
 - **A new manufacturer-representative nomination was being voted on that week.** "He was **nominated, and we're voting on it now**. We had a **meeting last week** about it." Val approved of the candidate — "He's a very eloquent young man… comes across very gentlemanlike. **I think it's a great choice**" — but **the candidate is never named in the source**; the surrounding sentence ("He's taking BJ to Mars. Rotation.") is garbled beyond recovery and no name is inferred from it. [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
 - **Seats are unwanted, and vacancies get filled by whoever will take them.** "**A lot of people don't want to do this**"; "somebody can volunteer, but typically what happens is…" — the mechanism trails off, and a fourth voice adds that a replacement serves "the remaining amount of time." [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+- **A past board member: Rich Winley.** On Jan 27 2026 former Georgia route operator [[wiki/people/rich-winley.md|Rich Winley]] said he "sat on the georgia the gomoa board for quite some time". Dates are not given. [[raw/Meeting_Transcript_Rich_Winley_Georgia_COAM_Market_Intel-January-27-2026.md]]
 - **Officers, from the Aug-31 Dixie visit:** Salim Khambawala is **vice president**; the sitting president is **Mike Patel**, then in his second year. See [[wiki/people/salim-khambawala.md]] for the full officer picture, including the unreconciled question of whether Salim still holds the office. [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
 
 ## The political and legal apparatus
@@ -64,6 +65,7 @@ The association's show is half its income and, in 2026, the source of its main o
 
 ## Why JVL cares
 
+- **Jan 2026: the show alone does not sell.** Rich Winley's view: "Just showing up at Gamoa, it's not going to sell it." The deals are made in the masters' WhatsApp groups and at "a party after the party. Two, three o'clock in the morning" at the association's events. Detail on [[wiki/projects/georgia-market-rollout.md]] (Jan 27 2026). [[raw/Meeting_Transcript_Rich_Winley_Georgia_COAM_Market_Intel-January-27-2026.md]]
 - **Access to the association is JVL's standing Georgia problem.** Val asked Salim on Aug 31 how to get in front of his 30–40-strong buying group inside the ~190-member association, and concluded the only route that works is a personal ask from a member; the detail is on [[wiki/people/salim-khambawala.md]] and [[wiki/projects/georgia-market-rollout.md]]. On Sept 1 he went at it a different way — he asked Ryan directly for the **list of board members**, and then asked for it to be sent to him **personally**: "Can you ask her to send it to me personally?" [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]] [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
 - **The board is also where Class A gets decided politically.** Ryan's account of the board's posture — "We're not in favor of them" — and his own reasoning are on [[wiki/topics/georgia-class-a-machines.md]]. The Class A threat first reached JVL through a GAMOA board meeting in February 2026 ([[wiki/projects/georgia-market-rollout.md]]).
 
@@ -128,3 +130,4 @@ Discussing a **September-2 letter** worrying that players now reach cash too qui
 - [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
 - [[raw/Meeting_Notes_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+- [[raw/Meeting_Transcript_Rich_Winley_Georgia_COAM_Market_Intel-January-27-2026.md]]

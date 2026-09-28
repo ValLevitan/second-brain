@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna, Selena, Elena]
-source-count: 66
+source-count: 67
 open-commitments: 12
 ---
 
@@ -149,12 +149,18 @@ With [[wiki/people/val-levitan.md|Val]] and [[wiki/people/efim-podvoiski.md|Efim
 
 ## Jan 29 2026 — MCP-tools working session (requirements from the design side)
 
-On the [[wiki/meetings/2026-01-29-jvl-working-session-mcp-tools-demo.md|working session]] where [[wiki/people/clayton-chancey.md|Clayton Chancey]] demoed his custom JVL Atlassian MCP tools (with Val and [[wiki/people/aaron.md|Aaron]]), Lena spoke for the design side. [[raw/Clayton_jvl-working-session-2-summary-January-20-2026.md]]
+On the [[wiki/meetings/2026-01-29-jvl-working-session-mcp-tools-demo.md|working session]] where [[wiki/people/clayton-chancey.md|Clayton Chancey]] demoed his first JVL Jira MCP tool (with Val and [[wiki/people/aaron.md|Aaron]]), Lena spoke for the design side. The transcript tags her "Speaker 2" (an inference from context). Facts are from the transcript unless marked. [[raw/Meeting_Transcript_Clayton_Jira_MCP_Demo_and_Toolset_Direction-January-29-2026.md]]
 
-- **Manual-work perspective:** current game work is highly manual, and any automation must account for the unique creative/artistic elements in each game. [[raw/Clayton_jvl-working-session-2-summary-January-20-2026.md]]
-- **Image-handling requirement:** when creating Jira structures for new games she needs to upload artistic images and reference artifacts directly into ticket descriptions, so the planned `create_game_from_template` tool must support embedding a predetermined set of images (still a research item). [[raw/Clayton_jvl-working-session-2-summary-January-20-2026.md]]
-- **Clone vs. blanket structure:** Lena prefers a single broad structure applied universally with non-applicable elements removed case-by-case; Val emphasized cloning is key to the use case. Both agreed Jira structure and game function can be cloned, but **art elements (images, descriptions, themes) must be unique per adaptation**. [[raw/Clayton_jvl-working-session-2-summary-January-20-2026.md]]
-- She was set to be walked through installing Claude Code + the MCP tools on her local Claude Desktop on **Tuesday, February 4**. [[raw/Clayton_jvl-working-session-2-summary-January-20-2026.md]]
+- **Her verdict on the Game Status tool.** "It's definitely useful for a status review and very useful. I like it. I use it." To connect it she would need IT, since it uses a token. [[raw/Meeting_Transcript_Clayton_Jira_MCP_Demo_and_Toolset_Direction-January-29-2026.md]]
+- **Val on her needs.** Val said she knows Jira status "by heart", so the status report helps him more than her; "What she spends a lot of time on is… entering tasks." He had shared his own status prompt (built on Aaron's MCP) with her. [[raw/Meeting_Transcript_Clayton_Jira_MCP_Demo_and_Toolset_Direction-January-29-2026.md]]
+- **Images must reach the right story.** Her art is made with AI help but "it's never just raw AI-generated"; each game has its own layout, colours and scheme. Files are "JPEG and PNG, and PSD files". She asked that a create-game tool at least attach "proper image from my folder" to the proper story, by her file names — her example "La Rosa, a symbol, Goldenback" — and she would then add the animation notes by hand. [[raw/Meeting_Transcript_Clayton_Jira_MCP_Demo_and_Toolset_Direction-January-29-2026.md]]
+  - The summary doc words this as embedding a set of images in the ticket descriptions, "still a research item". [[raw/Clayton_jvl-working-session-2-summary-January-20-2026.md]]
+- **Cloning, from the art side.** When a game is cloned, the maths and game function carry over, "but for us we need to create all these assets". For Jira, a clone needs "the same structure but different names" — her example: "lion reaches" (read as Lion's Riches), themed on a savannah ("seen by sam savannah", garbled), now being cloned with the same issues, bonuses and function. Val's reply: cloning is "the essence of our business" (see [[wiki/topics/ai-assisted-development.md]], Jan 29 2026). [[raw/Meeting_Transcript_Clayton_Jira_MCP_Demo_and_Toolset_Direction-January-29-2026.md]]
+  - The summary doc says she "prefers a single broad structure applied universally". The transcript does not show that; treat it as the summary's reading only. [[raw/Clayton_jvl-working-session-2-summary-January-20-2026.md]]
+- **Her ChatGPT project and February 6.** She likes her ChatGPT project, which is "learning my style". She said: "starting from February 6th, we need to use something because our subscription is going to end", and asked for a recommendation. Clayton: "Nano Bananas. Yep, a Gemini tool." Aaron: "There are many kinds." No choice was made. Val called her "captured by an open AI ecosystem". (On Feb 6 Val approved a one-month ChatGPT extension — section below.) [[raw/Meeting_Transcript_Clayton_Jira_MCP_Demo_and_Toolset_Direction-January-29-2026.md]]
+- **Her design knowledge.** Val: her work follows the game producer's spoken guidance, and "when lena leaves jvl the knowledge cannot escape" — so those talks should be recorded and turned into "JVL truth". See [[wiki/topics/ai-assisted-development.md]] (Jan 29 2026). [[raw/Meeting_Transcript_Clayton_Jira_MCP_Demo_and_Toolset_Direction-January-29-2026.md]]
+- **Next session.** Clayton: next meeting "next tuesday at the same time", Lena shares her screen and they install Claude Code and the MCP server in the meeting; "come with a blank slate don't prepare at all". Lena: "should I prepare somehow" — no. The summary doc dates it "Tuesday, February 4", but February 4 2026 is a Wednesday; the date is unclear. [[raw/Meeting_Transcript_Clayton_Jira_MCP_Demo_and_Toolset_Direction-January-29-2026.md]] [[raw/Clayton_jvl-working-session-2-summary-January-20-2026.md]]
+- *(§15.8: a remark by Aaron about her working style is not recorded.)*
 
 ## Feb 6 2026 — image-generation tooling; ChatGPT extension request
 
@@ -353,3 +359,4 @@ The man asked, through [[wiki/people/pavel.md|Pavel Frolov]], whether he could c
 - [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Michael_Gottlieb_Art_Production_Roles_and_Estimation-January-23-2026.md]]
 - [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]
+- [[raw/Meeting_Transcript_Clayton_Jira_MCP_Demo_and_Toolset_Direction-January-29-2026.md]]

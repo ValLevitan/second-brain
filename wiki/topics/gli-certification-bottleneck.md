@@ -3,7 +3,7 @@ type: topic
 title: GLI certification cost and speed (the scaling bottleneck)
 date: 2026-07-12
 aliases: [game certification, GLI approval, math testing, GLI automation, RiskCherry, certification cost]
-source-count: 5
+source-count: 6
 ---
 
 # GLI certification cost and speed (the scaling bottleneck)
@@ -48,6 +48,17 @@ Getting each game approved by the testing lab GLI is slow and expensive. Val see
 
 - JVL's online games need GLI certification before the HollywoodBets integration is worth doing; per Efim (relayed by Andrei Klimovich), passing requires **reworking the RNG** ("Ему нужно переделать RNG"). Val had helped Efim frame the right questions to GLI, and says Efim "знает, что нужно сделать конкретно"; Val's sizing: "я не вижу никакой проблемы с тем, чтобы пройти сертификацию GLI … я думаю, что это займет пару месяцев." The task's priority was raised on the call. See [[wiki/topics/online-games-rgs-distribution.md]] and [[wiki/people/efim-podvoiski.md]]. [[raw/andrei _klimovich_update-apr-15-2025.md]]
 
+## Jan 28 2026 — the Omni kickoff: written papers, one-pass testing, GLI working from JVL's ecosystem
+
+A year after the Jan-2025 visit, JVL opened certification of the new Omni platform at the [[wiki/meetings/2026-01-28-gli-omni-platform-certification-kickoff.md|GLI kickoff]]. Several of the Jan-2025 asks came back in a new form. [[raw/Meeting_Transcript_GLI_Omni_Platform_Certification_Kickoff-January-28-2026.md]]
+
+- **Papers instead of talk.** Val: "I do like the idea of us initiating the white paper, you assessing the white paper, and reflecting on it". GLI's proposal (its price and scope) waits until GLI has read the papers. See [[wiki/decisions/2026-01-28-gli-omni-certification-runs-on-jvl-white-papers.md]]. [[raw/Meeting_Transcript_GLI_Omni_Platform_Certification_Kickoff-January-28-2026.md]]
+- **Test everything once.** JVL will list every peripheral and mark the ones GLI already approved, so the lab tests them all in one pass. Val: "it's always cheaper to test it at one." [[raw/Meeting_Transcript_GLI_Omni_Platform_Certification_Kickoff-January-28-2026.md]]
+- **GLI now asks to work from JVL's ecosystem.** In Jan 2025 Val could not get GLI to say whether it would accept JVL's own tools [[raw/gli_visit-jan-7-2025.md]]. At this kickoff GLI's Dan Lewis raised it himself: "I want to have an ecosystem and have your ecosystem and generate this rather than somebody making it." Efim's read-back: "I push these numbers, and I want to see this set of numbers after they are used." Dan: any deviation then becomes "something that we need to look at". JVL took a white paper on how this would work. *(Reading this as progress on the Jan-2025 question is an inference.)* [[raw/Meeting_Transcript_GLI_Omni_Platform_Certification_Kickoff-January-28-2026.md]]
+- **Math/RNG in writing.** JVL owes a white paper on how the math and RNG are built and called in the new framework (Efim). Pavel: the online mask plus RNG will be packaged in a container for land-based. [[raw/Meeting_Transcript_GLI_Omni_Platform_Certification_Kickoff-January-28-2026.md]]
+- **Setup screens.** Nearly every setup screen is changing, so JVL will propose, in a white paper, how to test them, with automation. Juan: no JVL pre-screening is needed; GLI does its own. [[raw/Meeting_Transcript_GLI_Omni_Platform_Certification_Kickoff-January-28-2026.md]]
+- **Screen-image checks.** Dan described GLI tools that compare what is on screen with a reference image. [[raw/Meeting_Transcript_GLI_Omni_Platform_Certification_Kickoff-January-28-2026.md]]
+
 ## Sources
 
 - [[raw/gli_visit-jan-7-2025.md]]
@@ -55,3 +66,4 @@ Getting each game approved by the testing lab GLI is slow and expensive. Val see
 - [[raw/parameterization_in_the_development_pipeline_part_4_january_15_2025.md]]
 - [[raw/Recap with Andrei Klimovich - January 30, 2025.md]]
 - [[raw/andrei _klimovich_update-apr-15-2025.md]]
+- [[raw/Meeting_Transcript_GLI_Omni_Platform_Certification_Kickoff-January-28-2026.md]]

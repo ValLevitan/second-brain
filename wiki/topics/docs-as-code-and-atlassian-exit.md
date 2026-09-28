@@ -3,7 +3,7 @@ type: topic
 title: Docs-as-code and the plan to exit Atlassian
 date: 2025-02-21
 aliases: [docs as code, documentation site, GitHub Pages, GitHub Docs, mermaid, Confluence exit, Atlassian exit, single source of truth, template repo, contact sheet, GDD, markdown tooling, VS Code vs Obsidian, GitHub Sync, GitHub Desktop, code-first toolbox]
-source-count: 16
+source-count: 17
 open-questions: 3
 ---
 
@@ -87,6 +87,10 @@ On the [[wiki/meetings/2026-01-27-clayton-lena-game-design-jira-orientation.md|J
 - **Confluence → GitHub, restated as final.** "I find that Confluence is more polluted and more unproductive… we made a decision to move away from Confluence into GitHub… It's a decision… we're not discussing it anymore." [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]
 - **Lena's correction.** Lena said the process "is applicable for production of only games in our like for our like only game engine" (garbled; which engine is not stated). Val then said Lena "correctly. Corrected me": it is "our future plan for omni ecosystem", while Rage Studio still sits on SVN and Jenkins: "we will be moving into GitHub, moving away from SVN, moving away from Jenkins." See [[wiki/topics/omni-core-advancement-and-game-templating.md]] (Jan 27 2026). [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]
 
+## Jan 29 2026 — "convert it into dot md and park it… next to the developers code"
+
+Two days after the Jan-27 restatement, on the [[wiki/meetings/2026-01-29-jvl-working-session-mcp-tools-demo.md|Jan-29 working session]], Val said again where the game-design content should end up: "our goal is to convert it into dot md and park it together with the code… next to the developers code… as we migrate to omni we migrate to github". Aaron: decisions, transcripts and design documents will "probably going to end up in github… a series of markdown files". Clayton: "Jira and eventually GitHub should be our source for planning the work." [[raw/Meeting_Transcript_Clayton_Jira_MCP_Demo_and_Toolset_Direction-January-29-2026.md]]
+
 ## Apr 15 2026 — legacy CMS documentation progress check: the "documents readiness" dashboard, path to Apr 28
 
 A ~19-minute status check ([[wiki/meetings/2026-04-15-legacy-cms-documentation-progress-check.md|Legacy CMS Documentation Progress Check]]; [[wiki/people/val-levitan.md|Val]], [[wiki/people/andrey-bosik.md|Andrei Bosik]], [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]], [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]], [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]]) ~2 weeks after the Mar-31 alignment where Val asked the team to spend ~2 hours/day documenting the legacy CMS via Claude Code — README files, CLAUDE.md guides, docstrings — with a dual purpose: ramp the team onto Claude Code as the standard authoring tool, and produce the documentation needed to judge whether Claude's earlier-proposed architectural rework (from the Mar-23 data-access-strategy session) is actually feasible on this codebase. (Note: the recording header mislabels this "orchestration_observability_tech-stack"; the content is the legacy-CMS documentation review — §11 content wins.) [[raw/Meeting_Transcript_legacy_cms_documentation_progress_check-April-15-2026.md]] [[raw/Meeting_Notes_Legacy_CMS_Documentation_Progress_Check-April-15-2026.md]]
@@ -147,3 +151,4 @@ The follow-up to the Apr-28 gate ([[wiki/meetings/2026-05-07-cas-cloud-migration
 - [[raw/CAS_Cloud_Migration_ex-CMS_Grooming_Follow-up-May-7-2026.md]]
 - [[raw/Meeting_Notes_CAS_Cloud_Migration_Sequencing-May-7-2026.md]]
 - [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]
+- [[raw/Meeting_Transcript_Clayton_Jira_MCP_Demo_and_Toolset_Direction-January-29-2026.md]]

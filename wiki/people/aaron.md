@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 120
+source-count: 121
 open-commitments: 2
 ---
 
@@ -111,6 +111,16 @@ His surname is given as **Bockelie** on the Jan 21 continuous-delivery transcrip
 
 - **N8N + Pinecone (Apr 15):** screen-shared to build a RAG document-chatbot over Val's transcripts using the **N8N** automation platform + a **Pinecone** vector index + Google Drive + OpenAI embeddings/GPT-4o-mini; taught the embedding-model-must-match-the-index and input-sanitization lessons. See [[wiki/topics/transcript-knowledge-base-tooling.md]] and [[wiki/meetings/2025-04-15-n8n-pinecone-rag-setup.md]]. [[raw/pinecone_n8n_transcript_setup-apr-15-2025.md]]
 - **Verba/Weaviate + cloud hand-off (Apr 23):** demoed the open-source **Verba** RAG app on the **Weaviate** vector DB against ~384 of Val's transcript documents, walked Val's company-wide-knowledge-base thesis, and — when Val asked to scale it beyond his laptop — brought in [[wiki/people/andrey-bosik.md|Andrei Bosik]] to run it on JVL's AWS cloud in Docker; his **personal email aaronsb@gmail.com** was given for the doc-archive share. Also helped install the **Confluence MCP** on Val's laptop and reaffirmed the "run MCPs as Docker, not Node.js, so Watchtower keeps them current" rule. See [[wiki/topics/transcript-knowledge-base-tooling.md]] and [[wiki/meetings/2025-04-23-verba-weaviate-company-knowledge-base.md]]. [[raw/aaron_vector_knowledge_base-apr-23-2025.md]]
+
+## Jan 29 2026 — the Clayton demo: GitHub comments, many MCP servers, and the knowledge-graph intro
+
+On the [[wiki/meetings/2026-01-29-jvl-working-session-mcp-tools-demo.md|Jan-29 working session]] (Clayton's Game Status demo, with Lena and Val) Aaron is the transcript's "Speaker 4" — an inference: he speaks of what "I've pushed for you guys" on GitHub, and Val says he uses "Aaron's MCP". [[raw/Meeting_Transcript_Clayton_Jira_MCP_Demo_and_Toolset_Direction-January-29-2026.md]]
+
+- **Keep the talk in GitHub.** A chat with the AI "will be lost"; teams should comment on GitHub issues and pull requests, and the same MCP server could run through a bot there. "aim for where they will be not where it's at." See [[wiki/topics/ai-assisted-development.md]] (Jan 29 2026). [[raw/Meeting_Transcript_Clayton_Jira_MCP_Demo_and_Toolset_Direction-January-29-2026.md]]
+- **Sandbox.** For safe testing of Clayton's create-game tool: "we would have to ask Andre to recreate the sandbox." [[raw/Meeting_Transcript_Clayton_Jira_MCP_Demo_and_Toolset_Direction-January-29-2026.md]]
+- **Own the image sources.** On moving Lena off ChatGPT: "we would rather build our own prison where we can open our own", with sources JVL can trace. [[raw/Meeting_Transcript_Clayton_Jira_MCP_Demo_and_Toolset_Direction-January-29-2026.md]]
+- **Several MCP servers by role.** After the meeting he told Val: "There is no reason to have a one-size-fits-all thing. I've built kind of the big overseer"; Lena's server is built "for her role". The AI picks tools from the descriptions that come "From the MCP server itself." [[raw/Meeting_Transcript_Clayton_Jira_MCP_Demo_and_Toolset_Direction-January-29-2026.md]]
+- **Booked the knowledge-graph intro** with Val for "Monday at 10", to install and explain his tool with Val present — very likely the [[wiki/meetings/2026-02-02-knowledge-graph-tool-introduction.md|Feb-2 introduction]] (inference). [[raw/Meeting_Transcript_Clayton_Jira_MCP_Demo_and_Toolset_Direction-January-29-2026.md]]
 
 ## Feb 9–10 2026 — per-engineer Claude Code onboarding (Chudinov, Yavorski)
 
@@ -450,3 +460,4 @@ Asked by Val whether the Flex-Port debug environment should be "типа, как
 - [[raw/Meeting_Notes_Transcripts_MCP_Setup_Lena-March-31-2026.md]]
 - [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]
+- [[raw/Meeting_Transcript_Clayton_Jira_MCP_Demo_and_Toolset_Direction-January-29-2026.md]]

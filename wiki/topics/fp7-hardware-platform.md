@@ -3,7 +3,7 @@ type: topic
 title: FP7 hardware platform
 date: 2026-07-12
 aliases: [FP7, FR7, FG7, FP-7]
-source-count: 4
+source-count: 5
 ---
 
 # FP7 hardware platform
@@ -50,9 +50,17 @@ FP7 is a JVL CPU-board hardware platform being evaluated for the Flex-S cabinet,
 
 On the FlexPay/server call ([[wiki/meetings/2025-04-24-flexpay-server-dispenser-pos-evolution.md]]), the FR7/FP7 "powerful platform" status: the supplier ("the tank") is fixing prototype issues and issues the first real **production batch in early May** (ready mid-June); JVL can place an order **until end of May**. JVL wants only **5–10 units for approvals** — **5 to Toronto in June** (production batch, not samples) and **3 to Minsk**. Pavel already holds **2 samples** and still needs to do the **BIOS ("bias")**; thermal/performance is limited on the first units. [[raw/evolution_flex-pay_pos_server-apr-24-2025.md]]
 
+## Jan 28 2026 — FP7 in the already-approved cabinet, as presented to GLI
+
+At the [[wiki/meetings/2026-01-28-gli-omni-platform-certification-kickoff.md|GLI kickoff]] Val told the lab the new Omni software will sit "on top of a new hardware platform. based on FP7 process", placed "inside our existing cabinet" (code name rendered "Dash Super"). GLI had so far approved JVL products on the AMD V1000. [[raw/Meeting_Transcript_GLI_Omni_Platform_Certification_Kickoff-January-28-2026.md]]
+
+- **Scope of the hardware change.** Val asked: "Is it just a logic board, or are we changing the I.O. board." Pavel said Gennady ([[wiki/people/genadi-peari.md|Genadi Peari]], by context) had updated the hardware documents; "it's minor changes", linked to "some new printers" as an optional device. [[raw/Meeting_Transcript_GLI_Omni_Platform_Certification_Kickoff-January-28-2026.md]]
+- **Re-testing.** Val's assumption: because the cabinet is already approved, "things like electrical or discharge is not applicable". Dan Lewis's reply is garbled ("Yes, that's not good, especially if it's just a logic… A few hours."), so what GLI will re-test is unclear. [[raw/Meeting_Transcript_GLI_Omni_Platform_Certification_Kickoff-January-28-2026.md]]
+
 ## Sources
 
 - [[raw/fp-7_performance_analysis_january_13_2025.md]]
 - [[raw/game_design_january_16_2025.md]]
 - [[raw/fr-7_identifying_bottlenecks_in_performance_during_testing_january_17_2025.md]]
 - [[raw/evolution_flex-pay_pos_server-apr-24-2025.md]]
+- [[raw/Meeting_Transcript_GLI_Omni_Platform_Certification_Kickoff-January-28-2026.md]]
