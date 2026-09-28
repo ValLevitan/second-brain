@@ -3,9 +3,9 @@ type: organization
 title: Incom (payment processor)
 date: 2025-02-27
 aliases: [Incom, InComm, SkillPay launch email, hold off for two years, we will take the card away from you, Intum, they totally misled me, InComm's credit, that shift in opinion has only happened recently, black prize play card, white card ATM functionality, replace InComm on the back end, backend displacement, Incomm, Income, NCOM, Incom Payments, wrapped card rule, PAX, PAX 80, reloadable gift cards, Nathan Carver, cash-back commission, barcode activation, Mastercard rules, ABA number, MLH fee sharing, kicked to the curb, InComm doesn't offer any profit sharing, they've ignored us before during and after the show, sponsor bank behind InComm, 120 million a year, the easy living guys, daily cap five k, velocity calculated on the fly, it still says soon, InComm is the master guy, sub accounts, they actually buy bonds, biggest issuer, blue card, black card, billion-dollar gorilla, two dollars to load]
-source-count: 78
+source-count: 79
 open-commitments: 16
-open-questions: 9
+open-questions: 10
 ---
 
 # Incom (payment processor)
@@ -644,6 +644,17 @@ At and after the [[wiki/meetings/2026-09-17-dynamic-gaming-georgia-master-licens
 - **A letter, named unclearly.** [[wiki/people/felipe-miranda.md|Felipe]]: "**Dave. Ingram has already sent a letter saying that they started distributing this. This letter will not stop distribution**". *The name is not resolved and matches no one in the corpus; it may be a garble. Not linked.*
 - **The free cashback.** Val: "**the cashback. There is no charge to it. There's no charge.**" Felipe: "**Zero. I swear. I don't know if there's a cap.**" Val: "**I need to test it with live locations because I feel that something fishy. Something that they're not disclosing.**" He told Felipe: "**You should try to go on Uncom's website and find out what it is. They probably have legal papers posted on that.**"
 
+## Sept 22 2026 (1:01 PM) — InComm seen from the ATM network it rides on
+
+On a first call with [[wiki/organizations/ncr-atleos.md|NCR Atleos]] about its cardless ReadyCode product ([[wiki/meetings/2026-09-22-ncr-atleos-readycode-cardless-atm-payout.md]]), Val raised InComm before anything else. He called InComm "a company that you probably compete head to head" and said JVL gets "partial service from them" [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]].
+
+- **What NCR Atleos said about InComm.** "They do business with us… They have our surcharge - free platform today… They transact on our ATMs surcharge - free today." Carlos called it public knowledge. There is an NDA, and "we've had no discussions with with them in relation to your business whatsoever." [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]]
+- **How this sits with Sept 2.** On Sept 2 InComm said it contracted with **MoneyPass** for surcharge-free use of its card (section above). The two statements are not necessarily in conflict — a card can run on more than one network — so this is logged as an open question, not a contradiction. [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]]
+- **The InComm flow, as Val explained it to an outsider:** a Mastercard prepaid step "in the background" that is "opaque" to the player, then a physical card he called "Prize Play" — "I don't remember… I can look it up". InComm "ships blank cards with barcode on it" to a registered location; at issue the barcode is "married" to the amount through an API call. [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]]
+- **KYC sits on the location.** "there is no reliance on the player for KYC. The reliance is on the licensed location to… know their player." Val: "the maximum value in order to fall under KYC is a thousand dollars." [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]]
+- **One-time use, no reload, no app.** The card offers "ATM redemption, or cash or cashback program, or partial redemption"; asked whether money can be put back on it: "Right now, it does not." Val: "I don't understand why InComm is truncating this functionality… it's certainly not a technological limitation." Carlos guessed "some compliance reason or some regulatory" one. And: "Today, in the Incomes [InComm's] business scheme, there is no connection to any app." [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]]
+- **Market share.** InComm "has two thirds of the, maybe more than two thirds of the market." Val added that "a competitor program… that is fully digital" exists, "But I don't know much about it." [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]]
+
 ## Sept 22 2026 — a competitor's account: location owners turn away the Skill Pay card
 
 Six days after the launch, [[wiki/people/billy-liu.md|Billy Liu]] gave Val his account on the [[wiki/meetings/2026-09-22-billy-liu-playpay-virtual-wallet-pay-tag-plan.md|Sept-22 call]]. **All of it is second-hand** — "**At least that's what I heard**" — and no InComm source answers it [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
@@ -661,6 +672,7 @@ Six days after the launch, [[wiki/people/billy-liu.md|Billy Liu]] gave Val his a
 
 ## Open questions (Sept 22 2026)
 
+- Which ATM network(s) carry InComm's card surcharge-free? InComm named MoneyPass on Sept 2; NCR Atleos said on Sept 22 that InComm uses its surcharge-free platform — [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]]
 - **Is the Skill Pay card really being refused across the market, or only by United?** Billy's account is second-hand ("at least that's what I heard") and no InComm or United source confirms it — [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]
 
 ## Open questions (Sept 17 2026)
@@ -769,3 +781,4 @@ Six days after the launch, [[wiki/people/billy-liu.md|Billy Liu]] gave Val his a
 - [[raw/Meeting_Transcript_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]
 - [[raw/Meeting_Notes_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]
+- [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]]

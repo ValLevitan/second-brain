@@ -3,9 +3,9 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, COAM Hearing Room, Georgia Lottery Corporation, Tracy Warren, HB 353, Intralot lab, Bill at Intralot, three fifty-eight nine, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing, GAMOA, ILERS, ILAS report, Eilers, Eiler report, show special, Mega Hit Blaze, sales channel report, Bulldog Gaming, ARC, ARC Gaming, Class A, C-Store Connect, GACS, route consolidation, gift-card cash-back notice, Chris Plonic, Double Down Gaming, Ryan O'Donnell, Billy Liu, Play Payments, PlayPay, banking licence moat, 7455 modem, KORE, KORE SIM, APN, GACS October 21, Pay Slim, over-drive, Rao, Narasimha Rao Namburi, David Milani, September 2 letter, 5500 PAX locations, Lucky Coin service burden, Lucky Bucks is ARC, the market is literally bottomless, backend displacement, David Sloan, Dave Sloan, Bill the kiosk vendor, the wording is in the same location, guidance is not the law, Digital Cash Processing, DCP, ICP Inc., Gen Mega, Andrew Cashin, Rick Beer, seventy four hundred locations forty seven thousand machines, Unlimited Amusement, Mega Hit Blaze V3, program the rollout, Swanee, Johns Creek, Singleton, SurfNote, Debbie Alford, eighteen thousand connected, Mike Mackey, five hundred dollars per unit per machine, WSS protocol, not even one installation, Georgia Lazy, Skyriser, Cardinal, outside looking in, Rich Winley briefing]
-source-count: 216
-open-commitments: 66
-open-questions: 27
+source-count: 220
+open-commitments: 68
+open-questions: 28
 ---
 
 # Georgia market rollout (Peach1234 / DLKG)
@@ -1558,6 +1558,48 @@ From the [[wiki/meetings/2026-09-22-digital-marketing-lead-and-georgia-demand-ca
 - Whether Meta and Google will accept a creative that does not name gambling. Klimovich raised it as a creative task still to be worked — [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]]
 - **Tier A (held, §15 #8):** how the location-owner calls are placed lawfully. Val's instructions on this passage are held for owner review and not recorded — [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]]
 
+## Sept 22 2026 (8:01 AM) — the IQ goes on the KORE SIM in the Georgia office, and the office router keeps dropping
+
+At the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-tests.md|Sept-22 MVP 1 call]] (Russian) [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]:
+
+- **Klimovich is in the Georgia office this week.** Bosik asked "ты… же в офисе Джорджия находишься, да?"; Klimovich: "до конца этой недели". Val said Klimovich was sitting beside him on the call.
+- **The IQ must run on LTE with the KORE SIM for MVP 1.** Klimovich, looking at a dismantled IQ, recalled that its modem differs from the game machine's, and the KORE SIM has only been brought up on the game machine. Pavel asked him to fit the SIM in the IQ, switch it on and leave it online for remote access. Klimovich: "я поставлю в IQ вам сегодня и отпишусь" once the SIM is activated. The Sept-4 modem history is above (Sept 4).
+- **The office router drops.** Bosik sees in the logs that it "постоянно куда-то вырубается", although [[wiki/people/elizabeth.md|Elizabeth]] had told him it would not. Klimovich thinks the power is switched off in the evening when people leave, and said they will stop doing that. Pavel: "Это наши глаза и руки у вас в офисе в Джорджии" [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]].
+- **Other makers' machines in this office** are named by Pavel as the place to test real Flex-Ports next month — see [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] (Sept-22 update).
+
+### Open commitments (Sept 22 2026, 8:01 AM)
+
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — fit the KORE SIM in the IQ, activate it, leave it online for remote access, and report back — due Sept 22 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
+
+## Sept 22 2026 (1:01 PM) — does Georgia require a physical card? Val is not sure
+
+On the [[wiki/meetings/2026-09-22-ncr-atleos-readycode-cardless-atm-payout.md|Sept-22 NCR Atleos call]], a cardless ATM payout was offered for Georgia players [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]].
+
+- **Val's first answer was firm.** "I need a card… The law says you must have a card." [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]]
+- **Then he softened it.** Asked again by NCR Atleos's product manager: "I cannot say it with hundred percent reliance. But I can tell you that InComm that has two thirds of the, maybe more than two thirds of the market. That's what they do." NCR Atleos will check with its own compliance department. [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]]
+- **JVL's Georgia payout volume is zero today.** "Zero… It's a new legislation. This legislation just went into going into effect." Val gave the market as "seven four hundred locations" and "forty-seven thousand amusement licensed machines", regulated by the GLC. [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]]
+- **Val's framing of the machine.** When Carlos said "gamble", Val: "the state of Georgia prohibits gambling… We explicitly approve our machine through a testing laboratory to ensure that it's not a gambling device… It's called a skill amusement device." [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]]
+
+### Open questions (Sept 22 2026, 1:01 PM)
+
+- Does Georgia law require a physical prize card, or is a cardless payout (code at an ATM) allowed? Val said a card is required, then that he could not say so with full certainty; NCR Atleos is checking — [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]]
+
+
+## Sept 22 2026 (2:45 PM) — the V3 product is submitted, the screen stays at ten games, and the modem is the swap tool
+
+From the [[wiki/meetings/2026-09-22-multi-game-screen-layout-and-game-count.md|Sept-22 2:45 PM multi-game screen call]] with [[wiki/people/michael-gottlieb.md|Michael Gottlieb]] and [[wiki/people/lena.md|Lena Zhukova]]. The design side is on [[wiki/topics/slot-game-design-principles.md]] (Sept 22). [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
+
+- **Submitted.** Val: "**The the the product has has been submitted today; I expect it to be approved by Friday**" — Friday would be Sept 25 2026 (date worked out, not spoken). The lab is not named. The call is about Georgia V3 (Michael: "**Are we still talking about Giorgi V3?**" Val: "**Yes**"), so this is **most likely the V3 submission (inference)**. It follows the Sept-10 and Sept-15 target dates above. [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]] The notes give the same date and expectation [[raw/Meeting_Notes_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]].
+- **Ten on screen, fifteen in the product.** Val: "**10 games in three categories. For now. We'll have 15 games to play with.**" Lena: "**the actual product has 15 games, we just show 10**". See [[wiki/decisions/2026-09-11-no-new-game-badge-and-two-titles-per-category-stand.md]] (Sept-22 update). *(Beside Val's Sept-17 "eight games… 14 or 15" and his 7:31 AM "15 игр а не 6" above; not reconciled.)* [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
+- **Still more than the competition.** Michael: "**our competitors are deploying with six games**", so "**We are definitely offering more than our competition… even at 10**". [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
+- **Operators do not touch deployed machines — Michael's field view.** From his trip and "**hours and hours of conversations with Felipe**", most operators are not analytical and "**set it and forget it**"; "**once it's deployed, updating it is very challenging.**" So "**the number one thing to do is make sure that what we offer works correctly and is reliable**". He allowed he "**could be completely misreading it**". [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
+- **The modem is Val's answer.** "**the new machine has a modem built in… that can enable and disable games.**" JVL would do it for the customer: "**We, we don't have an interface where a customer could manage it himself**"; "**I realize that this is not a good solution**". At the end: "**The Modem… should be a game changer for us.**" [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
+- **Idle-screen frame zero.** Val asked why the first frame shows Fiery Ice Link with Calle Ocho. Michael: "**Because Calle Ocho is part of Fiery Ice Link.**" Lena: frame zero "**shows mega hit blaze**", but she cannot show it with the current layout, which is broken; she will send it. [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
+
+### Open commitments (Sept 22 2026, 2:45 PM)
+
+- [ ] [[wiki/people/lena.md|Lena Zhukova]] — fix the broken layout and send Val the idle screen's frame zero — due unspecified — [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_GA_Trip_Recap_Kiosk_Intel-May-18-2026.md]]
@@ -1778,3 +1820,7 @@ From the [[wiki/meetings/2026-09-22-digital-marketing-lead-and-georgia-demand-ca
 - [[raw/Meeting_Transcript_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]]
 - [[raw/Meeting_Transcript_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
+- [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
+- [[raw/Meeting_Notes_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]

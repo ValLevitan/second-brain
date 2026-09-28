@@ -2,8 +2,8 @@
 type: decision
 title: JVL supports multiple InComm card products, not a hard-coded pair — a collection of products per location on the payment hub, identified by the UPC in the barcode; MVP 1 delivers ONE product (owner ruling 2026-09-20)
 date: 2026-09-17
-aliases: [multi-product, мультипродукты от инкома, collection of products, UPC is the product, product not available, SkillPay, Skill Pay, скилл пэй, скилпы, PrizePay, прайс пэй, PricePay, activation fee two dollars three dollars, payment hub product collection, location manager UPC check, add product, per-product limits and fees, second payment provider, capability 178, InComm card configuration capability, two products will not be in MVP1, 178 must be MVP1, single product fallback, UPC plus card code, card number not used, if SkillPay stays on the market]
-source-count: 5
+aliases: [multi-product, мультипродукты от инкома, collection of products, UPC is the product, product not available, SkillPay, Skill Pay, скилл пэй, скилпы, PrizePay, прайс пэй, PricePay, activation fee two dollars three dollars, payment hub product collection, location manager UPC check, add product, per-product limits and fees, second payment provider, capability 178, InComm card configuration capability, two products will not be in MVP1, 178 must be MVP1, single product fallback, UPC plus card code, card number not used, if SkillPay stays on the market, product field informational only]
+source-count: 7
 status: active — the payment-hub multi-product design stands. Its MVP 1 SCOPE was contested on Sept 18 2026 and is now SETTLED by owner ruling 2026-09-20: two-product support is not in MVP 1.
 open-commitments: 4
 open-questions: 6
@@ -124,6 +124,20 @@ On the [[wiki/meetings/2026-09-21-transactional-mvp1-flexport-and-iq-ux-design.m
 
 **The barcode layout is confirmed from the card-search design.** Chudinov: the barcode carries "юпис плюс карткод" — the UPC plus the card code. Klimovich: the card number "у нас походу вообще нигде нет", so JVL works with the card code everywhere [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]. That fits the UPC-is-the-product shape above.
 
+## Update, Sept 22 2026 — Jira still lists 178 under MVP 1, and the screen is built for one product
+
+At the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-tests.md|Sept-22 8:01 AM call]], with Val present, [[wiki/people/pavel.md|Pavel]] read the board: "капбилити 178… скилл пэй настройка прайс пэй", in Proposed, "единственное… в [пропоузд] состоянии ещё из [MVP] один". [[wiki/people/andrei-klimovich.md|Klimovich]] said it is his task that day to take it to at least Accepted, with the right requirements and mock-up links, after the design work [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]].
+
+**The screen shows one product.** On the Redeem screen he is adding a product choice for two-product support; "пока у нас только один продукт здесь этот поля только информационное для референса, но оно невыбираемое". The product line he will show reads "прайс пэй минимум $5 максимум 1000 фи $2" [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]].
+
+**This does not reopen the owner ruling.** The ruling of 2026-09-20 — two-product support is not in MVP 1 — stands. Nobody on the call raised it; Val did not comment on 178. The Jira label is behind the ruling (**inference**). Note one new data point on the residual question below: the product named on the one-product screen is "прайс пэй" — the existing $2 card (PrizePay, per the naming note above) — not SkillPay, which Klimovich had named as his likely single product on Sept 18 and 21. Whether that is a placeholder or a choice is not said [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]].
+
+## Update, Sept 23 2026 — 178 is still on the planning list, with a feature for a second card type
+
+At the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-autotests.md|Sept-23 8:00 AM call]], reading the capabilities still to plan, [[wiki/people/pavel.md|Pavel]] listed "178? 230? 231? 234? 235?", and later: "вот это только побилите 178… Нам надо создать под неё тогда фищу поддержки дополнительного типа карт". Val then asked whether a capability's status goes from Accepted to To Do once its features exist; Chudinov: "Конечно" [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]].
+
+**This does not reopen the owner ruling** of 2026-09-20 (two-product support is not in MVP 1). Nobody said 178 is in MVP 1, and nobody said it is out. Val's status question followed the 178 remark but was about capabilities in general (**inference**). Recorded as a data point: Jira work on 178 continues [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]].
+
 ## Open commitments
 
 - [x] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — finish the reworked window designs for capability 178; Chudinov named them as his single biggest blocker — due **Monday Sept 21 2026** — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]] — **discharged in substance Sept 21 2026:** the reworked Flex IQ and Flex-Port screens were walked on the call, functional side fixed, polish and Jira load still to come; no separate two-product screens were shown, which the owner ruling makes moot for MVP 1 — [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
@@ -149,3 +163,5 @@ On the [[wiki/meetings/2026-09-21-transactional-mvp1-flexport-and-iq-ux-design.m
 - [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]

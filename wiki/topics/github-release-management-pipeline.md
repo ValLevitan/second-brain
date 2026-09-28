@@ -3,7 +3,7 @@ type: topic
 title: GitHub release management and the CI/CD release pipeline
 date: 2025-10-21
 aliases: [release management, release pipeline, CI/CD, GitHub Actions pipeline, release artifacts, ISO image release, release manager role, continuous delivery, flex os installer, manifest, release candidate, single source of truth, feature branch discipline, sprints vs kanban, Jira GitHub link, FlexPos IP 902, FP 519, IP 89 dashboard grooming, bulk archive automation, Jira resolutions cleanup, Flex-POS Transition to Production, alpha build release tracking, knowledge repository, prose pending folder, prose merge action, docs contracts folder, integration repository, Knowledge Base repository, Standards folder, 39 accesses, hardware GitHub standard, hardware-components repo, hardware-manufacturing repo, BOM sync robot, category first manufacturer second]
-source-count: 94
+source-count: 95
 open-questions: 10
 ---
 
@@ -724,6 +724,16 @@ A **code-standards email** from Val to [[wiki/people/pavel.md|Pavel Frolov]] and
 - **Where this standard is stored is NOT stated.** No source connects the email to the `knowledge` repository / Standards folder recorded above for Sept 3–4; the link would be an inference and is not made [[raw/Meeting_Notes_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]].
 - **§15.8:** clear on this page — branch/merge process only. The personnel-adjacent half of the same call is held on [[wiki/decisions/2026-09-14-alekseev-is-walked-through-the-standards-by-bosik-not-ordered.md]] with an exclusion note.
 
+## Sept 22 2026 — dependency updates stay manual and deliberate
+
+[[wiki/people/val-levitan.md|Val]] asked at the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-tests.md|Sept-22 8:01 AM MVP 1 call]] (Russian) whether the platforms JVL builds on need regular updates after release. The answer was no, not automatically [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]].
+
+- **[[wiki/people/dmitri-chudinov.md|Chudinov]]:** the Java platform and the frameworks release new versions; raising one means changing the version and recompiling, and fixing code that no longer compiles. "Это не автоматический апдейт… в любой момент может всё поломаться. Это должно быть контролируемо."
+- **[[wiki/people/alexander-biratka.md|Biratka]] — only two reasons to update:** a vulnerability in a library JVL uses that actually shows up for JVL, or missing functionality a newer library gives. "В других случаях я думаю, не нужно." Sometimes the vulnerability can be fixed in JVL's own code instead.
+- **Pavel:** "любое обновление, как в телефонах или в компьютерах, это лишняя возможность ломать всё." Val: "вопрос закрыт".
+- **The cloud is the exception.** [[wiki/people/andrey-bosik.md|Bosik]]: JVL must keep pace with Amazon's changes. He gets notices by email, reviews them, changes code where an API is affected, and updates "где-то раз в 2 недели". It cannot be automatic, he must still review what Claude does, and modules must be updated "в порядке их зависимости".
+- **GitHub Actions need attention too.** Pavel: the actions warn that Node is moving "С 20 по 24"; they work for now with no guarantee in a year, so they must be kept current in every repository. Bosik: repositories are the easier case — the build fails and you fix it on the spot [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Notes_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
@@ -820,3 +830,4 @@ A **code-standards email** from Val to [[wiki/people/pavel.md|Pavel Frolov]] and
 - [[raw/Meeting_Transcript_Hardware_Repo_SolidWorks_GitHub_Large_Files-Part_2-July-29-2026.md]]
 - [[raw/Meeting_Notes_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]

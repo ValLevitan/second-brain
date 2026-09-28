@@ -3,10 +3,10 @@ type: decision
 title: No "new game" badge in the menu and two titles per category stand — Val questions both, disagrees on the record, and declines to overrule the design group
 date: 2026-09-11
 aliases: [no new game stamp, new game badge, players don't care if a game is new, two games per category, all fifteen games on the home screen, paradox of choice, burning titles, I don't direct the design, unenabled games for flexibility]
-source-count: 2
+source-count: 4
 status: active
 open-commitments: 0
-open-questions: 2
+open-questions: 3
 ---
 
 # No "new game" badge, and two titles per category stand
@@ -43,10 +43,28 @@ This is the part worth keeping. He dissented, on the record, and then explicitly
 
 This restates, in a new context, the authority line already recorded from May 14 2026 — that lineup decision authority sits with Juan and Michael, not Val ("I will never say no to something that you should be saying yes or no") — see [[wiki/projects/south-dakota-vlt-market.md]]. Treated as **consistent, not new**.
 
+
+## Update, Sept 22 2026 — Val reopens the count for a price increase, then settles on ten games in three categories again
+
+At the [[wiki/meetings/2026-09-22-multi-game-screen-layout-and-game-count.md|Sept-22 2:45 PM multi-game screen call]] with [[wiki/people/michael-gottlieb.md|Michael Gottlieb]] and [[wiki/people/lena.md|Lena Zhukova]], Val raised the count again, for a new reason. The Sept-11 outcome held. [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
+
+- **Val's new reason is price, not variety.** "**I cannot have 10 game release because… because I needed to have a price increase. And so it has to be 15 games. It could be 14, it could be 16, but it cannot be 10.**" (On Sept 11 his question was depth — four games per category.) [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
+- **Michael restated the Felipe argument.** "**we're reintroducing the problem that we just spent a year to solve, which is to say that Felipe's initial concern and criticism was all the jackpot rush games were too similar.**" The answer had been "**a buffet… Six Lines and Ways games, a couple of Jackpot Rush games, a couple of Fiery Ice Link games**". Jackpot Rush "**does not have four completely separate and distinct mechanics. There's like 2**", and Fiery Ice has two as well. [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
+- **Two per family, stated as a rule.** Val: "**Jackpot Rush should not be more than two titles. Same as link games should not be more than two titles.**" Michael: "**Correct.**" Val: "**Okay, okay, I can I can subscribe to this logic.**" [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
+- **Lena's point:** "**the actual product has 15 games, we just show 10**". [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
+- **The close.** Val: "**So we're leaving it with 10 games, 3 categories**", and at the end "**10 games in three categories. For now. We'll have 15 games to play with.**" [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
+- **Michael now doubts the rotation he offered on Sept 11.** From his talks with Felipe, operators "**set it and forget it**", so extra games may "**never see the light of day**". Val's answer is the new machine's built-in modem, which "**can enable and disable games**" — "**Right now, we would be doing it on behalf of the customer**"; "**We, we don't have an interface where a customer could manage it himself.**" More on [[wiki/projects/georgia-market-rollout.md]] (Sept 22, 2:45 PM). [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
+
+This **confirms** the Sept-11 ruling; nothing was reversed. The notes record the same outcome [[raw/Meeting_Notes_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]].
+
+**Open for Val:** "**I don't know how I'm going to skate around the issue of 15 games versus 10. and the higher price that I want.**" (Open questions below.) [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
+
 ## Open questions
 
 - **Do fourteen or fifteen games actually fit in memory?** Val reports Pavel and Irina see no issue; Efim says it should be tested but most likely cannot. Never tested, never resolved — moot only while the home screen stays as it is. [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
 - **What is the "Monica 40 game format" Val cites as a failure?** He used it as his precedent for why many pages of games overwhelm a player — "**we're probably talking about the Monica 40 game format that, you know, failed**". The name matches nothing in this corpus and the derived notes themselves flag it for Val's confirmation. Recorded as spoken, not interpreted. [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]] [[raw/Meeting_Notes_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+
+- **How does Val square a price increase with ten games shown?** He wants a higher price and said it needs about fifteen games; the screen stays at ten, with fifteen in the product. He said he does not know how to handle it — [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
 
 **§15.8:** clear — design and product content only.
 
@@ -54,3 +72,5 @@ This restates, in a new context, the authority line already recorded from May 14
 
 - [[raw/Meeting_Notes_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+- [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
+- [[raw/Meeting_Notes_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]

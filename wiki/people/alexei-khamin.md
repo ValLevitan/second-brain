@@ -3,8 +3,8 @@ type: person
 title: Alexei Khamin
 date: 2025-04-22
 aliases: [Alexei Khamin, Aliaksey Khamin, Alexey Khamin, Khamin, Хамин, Khanin, Ханин, Kamin, Alexey Kamin, Lyosha, Лёша]
-source-count: 14
-open-commitments: 4
+source-count: 17
+open-commitments: 7
 ---
 
 # Alexei Khamin
@@ -77,6 +77,33 @@ At the [[wiki/meetings/2026-09-14-code-standards-main-branch-rule-and-alekseev-c
 
 At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexport-gui.md|Sept-22 stand-up]] (Russian; label "Alexey Khamin"), he said he would look at pull requests "от вёрского" (name garbled) and move them into a branch to test. In the status debate he named the missing stage after In Progress: "это стабилизация больше идёт… Чтобы было понятно, что разработка… закончилась"; Kovalchuk: "Клеша правильно говорит". See [[wiki/topics/test-automation-strategy.md]] (Sept 22) [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
 
+## Sept 22 2026 (8:01 AM, in absentia) — he gets the first end-to-end test
+
+Not on the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-tests.md|Sept-22 8:01 AM MVP 1 call]], but named there. Pavel: "лёша, я думаю напишет это за час… или за 2" — the Flex-Port connection test (cable in reports connected, cable out not connected, read through the telnet hook), filed under capability 173. Val asked that he and Ivan be put on the test work in the schedule, naming "Алексея Хамина" in full. See [[wiki/decisions/2026-09-22-autotests-go-inside-the-existing-capabilities-and-the-first-e2e-test-is-a-one-hour-micro-step.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]].
+
+## Open commitments (Sept 22 2026)
+
+- [ ] Alexei Khamin — write and run the first E2E test (Flex-Port connection state, telnet hook, capability 173) — due Sept 23 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]] **Update (Sept 23 2026):** he is dropping other work to write it; not yet reported done — [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]] — **8:00 AM the same day:** not finished; the connection tests came from Ivan — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+
+
+## Sept 23 2026 — he drops the pull-request cleanup for the autotest
+
+At the [[wiki/meetings/2026-09-23-daily-standup-terminal-emulator-and-capability-split.md|Sept-23 Minsk stand-up]] (Russian; label "Alexey Khamin"), he said he moved the pull requests into branch 9 and deleted dead branches, and is now dropping the rest to write the autotest. He raised that how the transactional tests are organised needs thinking through, "а не ляпать просто лепёшкой непонятно куда". See [[wiki/topics/test-automation-strategy.md]] (Sept 23). The Sept-22 test commitment above stays open. [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
+
+
+## Sept 23 2026 (8:00 AM) — his money-crediting test is not finished, and five lost-money bugs go to 231
+
+On the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-autotests.md|Sept-23 8:00 AM MVP 1 call]] (Russian; label "Alexey Khamin") [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]:
+
+- **The test.** It credits money to the machine through terminal, Flex-Port and EGM. Claude offered only manual options, which he refused; he found no open API. On Chudinov's advice he is building a tool or instruction set so Claude can generate the test and check the balance. See [[wiki/decisions/2026-09-22-autotests-go-inside-the-existing-capabilities-and-the-first-e2e-test-is-a-one-hour-micro-step.md]] (Sept-23 update).
+- **Lost-money bugs.** He raised five open Flex-Port bugs where money disappears; Klimovich ruled a "forfeit" wallet, and the bugs go to capability 231. See [[wiki/decisions/2026-09-23-open-requirements-are-settled-on-the-call-and-only-slow-ones-are-parked.md]].
+- **Capability status.** A capability cannot be in review while its requirements are open; the developer moves it to Review when all features are done.
+
+## Open commitments (Sept 23 2026, 8:00 AM)
+
+- [ ] Alexei Khamin — attach his five lost-money Flex-Port bugs to capability 231, "первым делом" — due Sept 23 2026 — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [ ] Alexei Khamin — build the tool or instruction set so Claude can generate the money-crediting test and check balances — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
@@ -93,3 +120,6 @@ At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexp
 - [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]

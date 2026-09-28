@@ -3,7 +3,7 @@ type: person
 title: Elizabeth
 date: 2025-04-28
 aliases: [Elizabeth, Elizabeth Palomino, Элизабет]
-source-count: 17
+source-count: 19
 open-commitments: 3
 disambiguation: "JVL engineering technician (full engineer by degree) handling Georgia service/parts; ex-Colombian-operation technician; Spanish-speaking. Surname Palomino (per the Jun-11-2026 passport/dsKey source). Distinct from Eliana, the Colombian EDS principal (wiki/people/eliana.md)."
 ---
@@ -73,8 +73,17 @@ Two mentions at the [[wiki/meetings/2026-09-14-hardware-priorities-tito-case-and
 
 **§15.8:** clear — parts and shipment content only; nothing about her terms or performance is taken from this source.
 
+## Sept 22 2026 (in absentia) — the Georgia office router
+
+On the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-tests.md|Sept-22 8:01 AM MVP 1 call]], Andrey Bosik said the Georgia office router keeps dropping in his logs: "Я [Элизабет] писал… она говорила всё, он не будет вырубаться… я всё равно вижу, что он вырубается". Klimovich's guess is that the power is switched off in the evening. See [[wiki/projects/georgia-market-rollout.md]] (Sept 22, 8:01 AM) [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]].
+
+## Sept 23 2026 (in absentia) — 15 sets of touchscreen-board parts
+
+On the [[wiki/meetings/2026-09-23-open-purchase-order-payment-walkthrough.md|Sept-23 purchase-order walkthrough]], Mikhail Perelman explained one open Everglory PO: parts for the touchscreen board, because some had been lost — "Элизабет попросила заказать там 15 комплектов." The invoice was issued in July, and Mikhail wanted it paid now. *(Resolved to Elizabeth Palomino by the parts/service context — inference.)* Details on [[wiki/people/mikhail-perelman.md]] (Sept 23) [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]].
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [[raw/Meeting_Notes_Manufacturing_Production_Planning-July-27-2026.md]]
@@ -92,3 +101,4 @@ Two mentions at the [[wiki/meetings/2026-09-14-hardware-priorities-tito-case-and
 - [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]

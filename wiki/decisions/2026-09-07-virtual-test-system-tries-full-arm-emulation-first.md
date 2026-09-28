@@ -3,10 +3,10 @@ type: decision
 title: The virtual test system attempts full ARM-processor emulation running the production build plus simulated devices first — Docker or a daemon-mode simulation is the fallback, because the simpler options do not cover the full functionality
 date: 2026-09-07
 aliases: [virtual test system, emulators, virtual Flex-Pay, virtual gaming machine, virtual Flex-Port, ARM emulation, same build as on the machines, Docker fallback, daemon mode, bare remote-update tool, redeploy all the hardware from scratch]
-source-count: 4
+source-count: 8
 status: active
-open-commitments: 2
-open-questions: 1
+open-commitments: 3
+open-questions: 2
 ---
 
 # The virtual test system: try full ARM emulation first
@@ -35,14 +35,47 @@ He repeated it an hour later against remote update specifically: "если бы�
 
 "Я поговорю с Сашей Бираткой, с Димой Чудиновым — что можно сделать относительно быстро" — [[wiki/people/alexander-biratka.md|Alexander Biratka]] and Chudinov [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]].
 
+## Update, Sept 22 2026 — a FlexPay emulator is being built
+
+At the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-tests.md|Sept-22 8:01 AM MVP 1 call]], when Irina looked for developers to help with tests, Pavel kept one of them where he was: "Антон сейчас делает эмулятор для флекспея. Это как раз то, что вам понадобится. И вам и Евгению Алексееву ещё кому-то, кто будет проводить тесты" [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]].
+
+- This is the **Flex-Pay side** [[wiki/people/evgeniy-alekseev.md|Alekseev]] said on Sept 7 he needed from someone else. It is now being built, and Alekseev is named as one of its users.
+- **Which Anton is not resolved** — no surname is spoken, and none of the three Antons on file clearly fits. Not linked.
+- Whether this emulator is part of Pavel's full ARM-emulation attempt or a separate piece is not said. Pavel's commitments below stay open.
+
+
+## Update, Sept 23 2026 — the emulator's new priority one: a terminal emulator that works with a real Flex IQ
+
+At the [[wiki/meetings/2026-09-23-daily-standup-terminal-emulator-and-capability-split.md|Sept-23 Minsk stand-up]] (Russian), [[wiki/people/anton-seregin.md|Anton Seregin]] (speaker label) reported on the kiosk emulator. **The Sept-22 "Антон" above is very likely him (inference)** — same work, next day. [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
+
+- **What he fixed.** He built on the existing validator daemon ("Поверх вот этого демона"), which another Anton had written (not resolved). Before, it could not change currency or bill denominations, a bill-cheating error "никак не всплывала", and there was no fail pause — "события срабатывали мгновенно", so the kiosk skipped steps and its logic broke. He added escrow cases and the disconnect case "когда купюра типа съелась, но не прошла транзакция". He is still checking it. [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
+- **Pavel named the most critical use.** "наиболее критичное направление для использования этого эмулятора киоска это обновление прошивок для флекспортов" — so it can be handed to [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]]. Anton: the Flex-Port is not in the emulator at all — "такого как бы устройства даже нет". [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
+- **Priority one, first version:** "Эмуляцию полную протокола общения с флекспортом." [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
+- **Then narrowed.** Pavel: do the same for Flex IQ — "брать уже именно флекса и кюшны проект, потому что он тоже более приоритетный флекс пэй он как бы будет 2 номером." Anton's working branch can be merged into main, then cloned for Flex IQ. The Flex-Port protocol already sits in the backend; it needs checking somehow, and "Как это сделать, пока не знаю". [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
+- **A piece to reuse.** [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] had built a Flex-Port emulation for an earlier task, but "он у меня локально" — never in a repository. Anton: "По идее, можно переиспользовать." [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
+- **Final wording:** "приоритет номер один это эмулятор терминала, чтобы с ним можно было работать реальным устройством. Не не эмулятору другому а реальному устройству." Anton: "IQ который". Pavel: "Да да." [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
+
+The notes read it the same way: priority one is a terminal emulator against a real Flex IQ; FlexPay second [[raw/Meeting_Notes_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]. Whether this is part of Pavel's full ARM-emulation attempt is still not said.
+
+## Update, Sept 23 2026 (8:00 AM) — the FlexPay emulator is to be copied for Flex IQ
+
+At the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-autotests.md|Sept-23 8:00 AM call]], answering Khamin's problem with a money-crediting test, Pavel described the emulator work: without real hardware it must be able to issue and redeem wallets — "сделать эмуляцию операций, которая делает реальный бэкенд". It is "тот же самый бэк энд, который на боевой машине только он будет работать с фейковыми устройствами", run "в докер контейнере", deployable on a developer's computer or a server [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]. *(The transcript renders "emulator" as "аккумулятора" — read as "эмулятора", an **inference**; the notes say emulator.)*
+
+**Status.** Asked when the IQ emulator is due: "Не запланирован, пока сейчас он заканчивает флекс певский эмулятор. Ему сейчас надо завести задачу на то, чтобы он это размножил на флекс айкю" — "пару дней наверно". "He" is Anton — [[wiki/people/anton-seregin.md|Anton Seregin]] by **inference** (same work he reported at the 4:48 stand-up) [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]].
+
+**Reading against the ruling above (inference):** the Docker container was this page's fallback, and full ARM emulation the first choice. This call describes the emulator as a Docker-hosted backend with fake devices. Whether that means the fallback was taken, or the container simply hosts the emulation, is **not said**.
+
 ## Open commitments
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — attempt the virtual test system as a full ARM-processor emulation running the production build, with simulated devices settable by command; fall back to Docker / daemon-mode simulation only if that fails — due within a week or two — [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]] [[raw/Meeting_Notes_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — talk to Alexander Biratka and Dmitri Chudinov about what can be stood up quickly on the Flex-Pay emulator side; Alekseev writes the gaming-machine emulator himself — due unspecified — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]] [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — merge the emulator branch into main, then clone the work for Flex IQ and build the terminal emulator that works with a real device — due unspecified; named priority one — [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
 
 ## Open questions
 
 - **Whether Pavel's existing groundwork is fit to hand over.** He said he is not sure it is ready, against Val's "50 % done" — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]] [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+
+- **How is the backend's Flex-Port firmware protocol checked?** Pavel said it must be checked "какимто образом" and did not yet know how — [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
 
 **§15.8:** clear — tooling only.
 
@@ -51,3 +84,7 @@ He repeated it an hour later against remote update specifically: "если бы�
 - [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
 - [[raw/Meeting_Notes_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]

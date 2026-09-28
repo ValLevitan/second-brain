@@ -3,7 +3,7 @@ type: decision
 title: Testing starts September 15 with the negative cases first, and Flex-Ports must be proved in borrowed non-JVL machines — fake-commissioned, tracked as a separate Jira item from JVL-machine testing
 date: 2026-09-09
 aliases: [negative cases first, door open, borrow a machine fake commission it, Aristocrat and Light and Wonder, at least one or two machines, two separate records, two different router manufacturers, no Chinese manufacturer, stay away from Cisco, ten port router, storm through the test, bracket drawings to Genadi]
-source-count: 4
+source-count: 5
 status: active
 open-commitments: 4
 open-questions: 0
@@ -46,6 +46,12 @@ Pavel's ask, and the reason for it: "эти вот кейсы их надо от
 - **Port count and borrowing constraint.** "It would be hard pressed to find a **10 port router**"; "you can only borrow it for a day or two. Nobody will give it to you… So you have to set everything up and **storm through the test**" [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]].
 - The external router is the one specified on [[wiki/decisions/2026-09-07-wi-fi-module-on-flex-port-with-an-external-router.md]].
 
+## Update, Sept 22 2026 — other makers' machines not yet tested, and expected next month
+
+At the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-tests.md|Sept-22 8:01 AM MVP 1 call]] Pavel described the state of Flex-Port testing: "Мы, мы сейчас работаем в окружении с нашими машинами"; how SAS works on others' machines "Мы не знаем, мы это узнаем только по факту подключения". Tests of real Flex-Ports "подключенных к чужим машинам, например, в Джорджия офисе… скорее всего, растянется ещё на следующий месяц" [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]].
+
+[[wiki/people/val-levitan.md|Val]] agreed there will be problems there, and set the order: first end-to-end tests on JVL's own equipment, the rest later. See [[wiki/decisions/2026-09-22-autotests-go-inside-the-existing-capabilities-and-the-first-e2e-test-is-a-one-hour-micro-step.md]]. **The Sept-15 start in borrowed non-JVL machines had not happened by Sept 22** on this evidence; the rule itself was not withdrawn. Felipe's machine-borrowing commitment below was not mentioned.
+
 ## Open commitments
 
 - [ ] [[wiki/people/felipe-miranda.md|Felipe Miranda]] — arrange one or two non-JVL machines to borrow for Flex-Port testing (Aristocrat and Light & Wonder preferred, even for a single day) — due Sept 15 2026 — [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]] [[raw/Meeting_Notes_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
@@ -60,3 +66,4 @@ Pavel's ask, and the reason for it: "эти вот кейсы их надо от
 - [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 - [[raw/Meeting_Notes_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
 - [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]

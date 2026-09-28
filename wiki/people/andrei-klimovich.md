@@ -4,8 +4,8 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich, Andre]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 91
-open-commitments: 85
+source-count: 94
+open-commitments: 92
 open-questions: 0
 ---
 
@@ -614,8 +614,8 @@ On the [[wiki/meetings/2026-09-21-transactional-mvp1-flexport-and-iq-ux-design.m
 
 ## Open commitments (Sept 21 2026)
 
-- [ ] Andrei Klimovich — finish removing cloud references from the MVP 1 capabilities and requirements — due Sept 21 2026 ("минут через 10, после завершения нашего звонка") — [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
-- [ ] Andrei Klimovich — load the Flex-Port and Flex IQ UI/UX into Jira as capabilities and requirements, so features can be created — due Sept 21 2026 (he said yes to "сегодня") — [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]] — **still open on Sept 22 2026:** Pavel saw no new capabilities linked ("я не вижу привязанных к… Этому айпи новых кап обилити"); Chudinov: "он написал про телты, но больше ничего" — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
+- [x] Andrei Klimovich — finish removing cloud references from the MVP 1 capabilities and requirements — due Sept 21 2026 ("минут через 10, после завершения нашего звонка") — [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]] — **discharged by Sept 22 2026:** "Теперь все чисто" — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
+- [ ] Andrei Klimovich — load the Flex-Port and Flex IQ UI/UX into Jira as capabilities and requirements, so features can be created — due Sept 21 2026 (he said yes to "сегодня") — [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]] — **still open on Sept 22 2026:** Pavel saw no new capabilities linked ("я не вижу привязанных к… Этому айпи новых кап обилити"); Chudinov: "он написал про телты, но больше ничего" — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]] — **still open at 8:01 AM Sept 22:** he needed "3–4" more hours that day — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
 - [x] Andrei Klimovich — post the mock-up / design project link in the team chat — due Sept 21 2026 ("прямо сейчас") — [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]] — **discharged in substance by Sept 22 2026:** Pavel told the stand-up that Klimovich "сбросил это в виде… Интерактивная страницы htt mall" the day before (the channel is not named) — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
 - [ ] Andrei Klimovich — ask the operators JVL is in touch with which identifier they use for a machine (asset number or serial number) — due unspecified — [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
 - [ ] Andrei Klimovich — record a note to add the technician information screen (machine / asset / serial number on the Flex-Port) in MVP 2 — due unspecified — [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
@@ -642,6 +642,48 @@ On the [[wiki/meetings/2026-09-22-digital-marketing-lead-and-georgia-demand-camp
 - [ ] Andrei Klimovich — pass the task context to Sergey Vysotsky in writing (not the recording) — due Sept 22 2026 ("я контекст ему сегодня передам") — [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]]
 - [ ] Andrei Klimovich — if Sergey takes the task, set up a call so Val can brief him and hear it played back — due ~Sept 23 2026 ("он завтра уже точно будет готов") — [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]]
 - [ ] Andrei Klimovich — send Val the next version of the presentation, from Val's written comments — due Sept 22–23 2026 ("сегодня завтра не затягивать") — [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]]
+
+## Sept 22 2026 (8:01 AM) — Val takes his requirements "as dogma", and he owes the design, 178 and a change list
+
+On the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-tests.md|Sept-22 8:01 AM MVP 1 call]] (Russian), with Val chairing and sitting beside him [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]:
+
+- **Val's trust.** Val had not gone deep into the screens, but said Klimovich knows best what the screen must show, having sat in on the customer presentations: "Легко воспринимаю Андрея требования как догма сейчас". Klimovich's condition: the next IQ version follows his UX and workflow, while the visual design language is reused — "Я не предлагаю ничего с нуля отрисовывать".
+- **Two wording corrections accepted** — "the player gets $2 less" and "blank" for "empty"; see [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 22, 8:01 AM).
+- **Product owner versus engineers.** Val told him he was mixing an architectural decision with a business requirement. Klimovich: "я не должен описывать как это сделать, но я как продуктовый, имею право писать, как бы мне хотелось". Val: "Не как бы вам хотелось бы, а как маркет требует". Both called it semantics.
+- **The cloud clean-up is done:** "Теперь все чисто".
+- **He defended capability 157** as the rule for a new wallet at the Flex-Port collect, lost the argument to Val's "этот спор… никому не нужен", and will decide later whether it is needed at all ([[wiki/decisions/2026-09-18-the-mvp1-capability-list-is-walked-item-by-item-and-every-capability-gets-an-owner.md]], Sept-22 update).
+- **He confirmed the commitment Val is making to customers:** "Мы делаем очень серьезные [коммитменты]".
+- **He is in the Georgia office this week** and will put the KORE SIM into an IQ ([[wiki/projects/georgia-market-rollout.md]], Sept 22, 8:01 AM).
+
+## Open commitments (Sept 22 2026, 8:01 AM)
+
+- [ ] Andrei Klimovich — take capability 178 to at least Accepted, with its requirements and mock-up links — due Sept 22 2026 (about 2 hours after the design) — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]] *(owner ruling 2026-09-20: two-product support is not in MVP 1 — see [[wiki/decisions/2026-09-17-jvl-supports-multiple-incomm-products-not-a-fixed-pair.md]])*
+- [x] Andrei Klimovich — fill capability 180 with the Flex-Port design and move it to To Do — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]] — **superseded Sept 23 2026:** the Flex-Port design went into new capability 235 — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [ ] Andrei Klimovich — send the team a list of capabilities where he added requirements, so they can ask Claude to re-read them — due "в ближайший день 2" — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]] — **Sept 23 2026:** restated; he will post the collection to the chat right after the call — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [ ] Andrei Klimovich — convert his text library to the Flex-Port XML format Pavel posted — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
+- [ ] Andrei Klimovich — fit the KORE SIM in the IQ, activate it, leave it online for remote access, and report back — due Sept 22 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]] — **Sept 23 2026:** he said he had set up a card in the IQ with a machine connected for remote work and will keep it on; that the card is the KORE SIM is an **inference** (garbled: "настроил карточку") — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+
+
+## Sept 23 2026 (in absentia) — new requirements the team had not discussed
+
+At the [[wiki/meetings/2026-09-23-daily-standup-terminal-emulator-and-capability-split.md|Sept-23 Minsk stand-up]] (Russian), Chudinov said "там Андрей чтото создал" — new requirements, read as **REQ-1460** on card programs — and Pavel saw a multi-card item accepted but assigned to nobody. Pavel parked them for a later meeting that day. At the start Pavel also looked for the GUI capability Andrei was to create; Irina pointed to 180. That this Andrei is Klimovich is **by context** (he writes the capabilities and owns 180). See [[wiki/decisions/2026-09-18-the-mvp1-capability-list-is-walked-item-by-item-and-every-capability-gets-an-owner.md]] (Sept-23 update). [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
+
+
+## Sept 23 2026 (8:00 AM) — the UI/UX package goes into Jira, and he sets the one-minute rule
+
+On the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-autotests.md|Sept-23 8:00 AM MVP 1 call]] (Russian) [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]:
+
+- **Capabilities 234 (Flex IQ) and 235 (Flex-Port)** now hold his mock-ups, text library and screen requirements. He is responsible for keeping them current and telling the team of each change. Claude cannot download Jira attachments, so each capability tells Claude to ask a person for the file. See [[wiki/decisions/2026-09-18-the-mvp1-capability-list-is-walked-item-by-item-and-every-capability-gets-an-owner.md]] (Sept-23 8:00 AM update).
+- **His rulings:** no PIN lockout on Flex IQ; CAP-173 cannot be Complete while its requirements are active; lost money creates a wallet with a "forfeit" status; and "любой рекламент, который потребует больше, чем одна минута… парковать", everything else decided on the spot. See [[wiki/decisions/2026-09-23-open-requirements-are-settled-on-the-call-and-only-slow-ones-are-parked.md]].
+- **Status flow.** He moves a capability to Accepted; the assignee takes it to To Do, then In Progress — see [[wiki/decisions/2026-09-11-accepted-means-reviewed-taken-into-work-is-the-move-to-to-do.md]] (Sept-23 update).
+- **File names get dates**, using the repository's naming standard (Chudinov's request; Pavel's link).
+
+## Open commitments (Sept 23 2026, 8:00 AM)
+
+- [ ] Andrei Klimovich — move the IQ operator tilts and alerts into a separate text collection with codes — due Sept 23 2026 — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [ ] Andrei Klimovich — decide whether a confirmation screen is needed when creating or loading a wallet — due Sept 23 2026 ("минут там 10") — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [ ] Andrei Klimovich — make the home-screen icons in the kiosks' design language, trying AI — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [ ] Andrei Klimovich — review Irina's full NFR list with Claude for conflicts with product logic — due Sept 23 2026 — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
 
 ## Sources
 
@@ -736,3 +778,6 @@ On the [[wiki/meetings/2026-09-22-digital-marketing-lead-and-georgia-demand-camp
 - [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]

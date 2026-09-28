@@ -4,8 +4,9 @@ title: Mikhail Perelman
 date: 2026-07-13
 aliases: [Mikhail Perelman, Misha, Миша, Mikhail, Michael]
 disambiguation: "Procurement Manager (parts/vendors/shipments; the retrofit-lead "Misha"). Misha/Michael cluster (2, owner-ruled): [[wiki/people/michael-gottlieb.md|Michael Gottlieb]]=Senior VP Game Design / [[wiki/people/mikhail-perelman.md|Mikhail Perelman]]=Procurement Manager (the "retrofit Misha"). Resolve by context; queue if none."
-source-count: 11
-open-commitments: 1
+source-count: 12
+open-commitments: 3
+open-questions: 2
 ---
 
 # Mikhail Perelman
@@ -61,8 +62,38 @@ At the [[wiki/meetings/2026-09-14-hardware-priorities-tito-case-and-street-cabin
 
 - [ ] Mikhail Perelman — push the RK3576 delivery to Minsk (2 samples, ~$300 plus ~$65 freight) — due urgently. *(Val names him as the person who controls it; the transcript does not record the instruction being given to him or accepted, and the derived notes flag the same gap.)* — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]] [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 
+## Sept 23 2026 — the open purchase-order walkthrough: who gets paid now
+
+On the [[wiki/meetings/2026-09-23-open-purchase-order-payment-walkthrough.md|Sept-23 1:02 PM call]] Val and Misha went down the file of open purchase orders, vendor by vendor, with [[wiki/people/genadi-peari.md|Genadi]] joining in. Val's aim was triage, not an audit: "Я пытаюсь найти меньше работы для себя." Misha: "Я тоже так хочу." Vendor names and figures below are as spoken; the transcript garbles many of them [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]].
+
+- **Mold payments that are late.** One line was a mold order of **$28,000**, of which **$12,000** was paid; **$7,405** is due now — the second payment, owed in June and still not made at the end of September. Val: "Окей, так я должен заплатить 7 405, правильно?" Misha: "7 405." [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]]
+- **A May order of $6,960** should have been paid by August; a prepayment was made and the final payment is open. Misha checked PO 370 — "это прессформа да там 30% можно заплатить" — and on **$11,600** that is "3000 там 480" ($3,480). *(Inference: $6,960 is 60% of $11,600, so this is probably the same mold order.)* [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]]
+- **PO 313, $28,000 mold** — "там 30%": this is the second 30%, and the last 30% is spread "на полгода помесячной" (monthly over half a year) [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]].
+- **Small POs pass.** Val: "$200 и $100 это не проблема" and "4 $475 тоже не проблема." PO 440 ($200) is a mold modification, nothing to ship. PO 485 ($475) is one missing Flex part; 100 came by air, 500 were cast because it is cheap, and the other 400 ride in the general shipment. A 20-piece order of two parts ("сети 23"), $130, needs air [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]].
+- **Flex parts for the 43 (PO 464).** Parts that must be paid before shipment, "все детали для флекса и в основном для… Ви 43." There is some stock, but "до конца года не хватит." Shipped at the end of September, they arrive about "начало ноября." [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]]
+- **Prepayment before shipment is the vendors' rule.** PO 501 is DDP delivery for those POs; "dt p это то, что все требуют оплатить до отправки." Val asked if paying the other invoices would make them relax it. Misha: no, and not only this vendor — Everglory demanded the same that day ("40% за детали 100% за детей", garbled) [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]].
+- **General Touch ("gen touch"), PO 446, $6,700.** 21-inch touchscreens, 100 at $67 each, and no stock. Misha: the PO "висит, неподписаны очень давно"; some may have to go by air. The three could not agree on the weight (Misha about 3–4 kg; Genadi about 400 g; Val about half a kilo). Misha: glass must ship crated on skids, so "упаковка может весить больше, чем… товар." *(Supplier read as the General Touch named in July 2025 above — inference.)* [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]]
+- **The Echo motherboard vendor waits.** Val: "это можно подождать." Misha agreed — they performed badly in the spring and delayed one release by three months; it is the Echo motherboard, and they could not find the processor. See [[wiki/topics/echo-home-gaming-device.md]] (Sept 23) [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]].
+- **Paid because urgent.** A vendor rendered "хуан джо"/"хонг джинг": three POs that must be paid, "один из них вообще нужно абсолютно срочно." PO 453 is hardware for the 43-inch, sea only; the other two are for new projects. Stock check: part 346 has **87** pieces — "Закончить сентябрь и октябрь и всё." **Shenzhen Everglory** — "очень срочно": touchscreens for the 43 must ship by air and sea express; that payment was not in the file yet and would come to Val for signature today, after a change Misha asked for. Two more Everglory POs: samples sent to Minsk/Kiev, and touchscreen-board components after some were lost — [[wiki/people/elizabeth.md|Elizabeth]] asked for 15 sets. The invoice was issued in July; Misha: better to pay now [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]].
+- **Can wait.** A small order already delivered, with the vendor asking for nothing ("джиндау"); a vendor whose payment "может быть до лэйн бай туинс" (delayed by two weeks, as Val read it); and **StarTech** — "компания, где мы покупаем телевизоры" — where Misha had ordered 70 more small TVs on top of 30 in stock, to reach 100: "Мы можем потерпеть." [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]]
+- **Springs: part by air.** A $3,000 order of 500 springs. Misha preferred sea (heavy, bought in bulk). He said stock covers 80 machines; Val said that is not enough and asked to fly part. Misha: "давай я попрошу, чтобы он отправил, допустим, ещё 100 штук самолётом, остальное морем." Genadi asked why pay extra for air when the vendor ships in a week on request. Misha: JVL's own payment also takes a week, so starting today is already the fast case [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]].
+- **Unclear.** Dongguan Bashida (small sums, vendor not pressing) — the outcome is garbled ("Тонал пей"); probably wait. Hong Kong Wanlin (harnesses) — shipping mode unclear [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]].
+
+**§15.8:** clear — supplier and freight economics only.
+
+## Open commitments (Sept 23 2026)
+
+- [ ] Mikhail Perelman — ask the springs supplier to air-ship about 100 springs and send the rest by sea — due unspecified — [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]]
+- [ ] Mikhail Perelman — get the urgent Everglory payment (with the transfer change he asked for) to Val for signature — due Sept 23 2026 ("Должна сегодня прийти к тебе на подпись") — [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]]
+
+## Open questions
+
+- General Touch PO 446 (100 touchscreens, $6,700, no stock, unsigned a long time): pay now, fly part, or hold? The talk moved to weight and packaging and did not come back to it. — [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]]
+- Part 346 runs out after October (87 on hand). No reorder was stated. — [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [[raw/Meeting_Transcript_bc_material_requirements_mcp-May-11-2026.md]]

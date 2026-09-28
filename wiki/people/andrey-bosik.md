@@ -4,8 +4,8 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 97
-open-commitments: 34
+source-count: 100
+open-commitments: 38
 ---
 
 # Andrey Bosik
@@ -423,6 +423,33 @@ The [[wiki/meetings/2026-09-18-transactional-mvp1-capability-cleanup-and-the-mon
 
 On the [[wiki/meetings/2026-09-21-transactional-mvp1-flexport-and-iq-ux-design.md|Sept-21 8:02 AM call]] (speaker label "Andrei Bosik") he spoke once. For the help-screen support line he proposed a number bought from a phone operator with call forwarding to Klimovich and Felipe, "Не надо физически. Отдельно телефоны, физическая симкарта"; Klimovich: "Отлично, тогда ещё лучше" [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]. See [[wiki/decisions/2026-09-15-the-flex-iq-cashier-flow-login-redemption-receipts-and-records.md]] (Sept-21 update).
 
+## Sept 22 2026 (8:01 AM) — owner of the text library, and the man who keeps up with Amazon
+
+On the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-tests.md|Sept-22 8:01 AM MVP 1 call]] (Russian) [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]:
+
+- **Val named him owner of the English–Spanish text library:** "Андрей Босик, я считаю, должен быть хозяином", under a mandatory standard ([[wiki/decisions/2026-09-04-point-claude-at-the-standards-repository-first.md]], Sept-22 update). He described the fix path: "создал пул реквест", then he or a developer merges it.
+- **Changed capabilities:** keep them "по принципу [ADR]" — add the date and what changed.
+- **Cloud updates are his, and manual.** Amazon sends notices; he reviews them and changes code where an API is affected, about "раз в 2 недели", in dependency order ([[wiki/topics/github-release-management-pipeline.md]], Sept 22).
+- **The Georgia office router** keeps dropping in his logs, despite Elizabeth's assurance ([[wiki/projects/georgia-market-rollout.md]], Sept 22, 8:01 AM).
+- **Cloud testing needs him, by context.** Chudinov said the cloud platform cannot be tested "без Андрея" — read as Bosik (**inference**).
+
+
+## Sept 23 2026 (in absentia, by inference) — the STG cluster question comes to him
+
+At the [[wiki/meetings/2026-09-23-daily-standup-terminal-emulator-and-capability-split.md|Sept-23 Minsk stand-up]], Chudinov said he would go to "Андрей" about the STG/DEV certificate clash, and that Andrei had argued the shared cluster saves "кучу денег". That this is Bosik is an **inference** — he runs the cloud side; no surname is spoken. See [[wiki/decisions/2026-09-18-the-mvp1-capability-list-is-walked-item-by-item-and-every-capability-gets-an-owner.md]] (Sept-23 update). [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
+
+
+## Sept 23 2026 (8:00 AM) — four of his requirements to rewrite, one ADR to write
+
+On the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-autotests.md|Sept-23 8:00 AM MVP 1 call]] (Russian; label "Andrei Bosik"), several of the requirements with open questions were his (under CAP-144 and nearby). He said the non-functional ones need developers' answers, "в одно лицо ответить я не могу". REQ-1550 (external-traffic protection) stays in MVP 1 because "наш терминалы смотрят в интернет"; Val and Pavel asked for it short and in plain English. He suggested a "not development" capability for purchasing requirements. On tests, he said they live in the integration repository and the standards answer half of Khamin's questions. See [[wiki/decisions/2026-09-23-open-requirements-are-settled-on-the-call-and-only-slow-ones-are-parked.md]] [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]].
+
+## Open commitments (Sept 23 2026, 8:00 AM)
+
+- [ ] Andrey Bosik — rewrite REQ-1413 with the Flex-Port switching answers from the transcript — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [ ] Andrey Bosik — turn the open questions in REQ-1603 into acceptance criteria — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [ ] Andrey Bosik — rewrite REQ-1550 short and write the ADR for the external-traffic protection mechanism — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [ ] Andrey Bosik — make the acceptance criteria of REQ-1416 (router and modem purchasing) testable — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
@@ -525,3 +552,6 @@ On the [[wiki/meetings/2026-09-21-transactional-mvp1-flexport-and-iq-ux-design.m
 - [[raw/Meeting_Notes_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]

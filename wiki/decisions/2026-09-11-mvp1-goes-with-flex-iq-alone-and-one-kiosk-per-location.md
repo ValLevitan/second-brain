@@ -2,11 +2,11 @@
 type: decision
 title: October 1 goes with one configuration — Flex IQ alone, the Flex-Port stays, FlexPay moves to MVP 2; MVP 1 runs on the linked network with one kiosk per location
 date: 2026-09-11
-aliases: [we finally decide we go with only one configuration, Flex IQ alone for October 1, FlexPay out of MVP 1, machine port IQ then machine port Pay, one kiosk per location either IQ or FlexPay, MVP 1 runs through the linked network, if there is no bottleneck we reconsider MVP 1, transactional MVP1 transactional MVP2 releases]
-source-count: 2
+aliases: [we finally decide we go with only one configuration, Flex IQ alone for October 1, FlexPay out of MVP 1, machine port IQ then machine port Pay, one kiosk per location either IQ or FlexPay, MVP 1 runs through the linked network, if there is no bottleneck we reconsider MVP 1, transactional MVP1 transactional MVP2 releases, October 2 end date, why ten more days, FlexPay initiative split, the kiosk is FlexPay]
+source-count: 3
 status: active
 open-commitments: 4
-open-questions: 2
+open-questions: 3
 ---
 
 # October 1 goes with Flex IQ alone — FlexPay drops to MVP 2, the Flex-Port stays in
@@ -63,6 +63,16 @@ Klimovich still owes five capabilities and their requirements, then the UI/UX sc
 
 **A follow-up call was set for Monday at 8:00 AM Eastern** to re-review the MVP 1 scope — "можем делать в понедельник снова звонок сделать на те же 08:00" — with Klimovich reserving the right to bring back capabilities that did not make MVP 1 rather than adding them alone: "[с]ам я их добавлять не буду… я бы хотел, чтоб мы так коллегиально делали". Val's answer: "это право у вас остается ежедневно" — the right to add stays open every day [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]].
 
+## Update, Sept 22 2026 — the plan ends on October 2, Val wants other dates, and FlexPay gets its own initiative
+
+At the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-tests.md|Sept-22 8:01 AM call]], Pavel showed the MVP 1 schedule: "все, что [MVP] один сейчас… до 2 октября грубо стоит". The view mixed in MVP 2 items, so [[wiki/people/irina-shishko.md|Irina Shishko]] proposed two initiatives — one for Flex IQ (MVP 1), one for FlexPay (MVP 2). Val: "мне нравится, как [Ира] предлагает"; Pavel created it on the call. Val also ruled on the name: the kiosk is FlexPay, not "kiosk" — "Нам нужно быть [консистентны] к нашим стандартам" [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]].
+
+**The date was challenged, not changed.** Val: "сделано большинство", so "почему нужно ещё 10 дней?" Pavel: "Потому что до этого было 2 года." [[wiki/people/dmitri-chudinov.md|Chudinov]]: built functionality still has clarifying requirements to meet, plus "абсолютно новые функционалы типа блокировки [Flex-Port]". Val asked twice for "почестнее". Pavel: "сейчас нет никого, кто хочет задержать сроки, скорее наоборот". Val agreed — "группа очень честная… ни у кого нету заинтересованности растягивать" — and closed: "вопрос оставлю открытым, хотел бы видеть другие сроки" [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]].
+
+**Irina's release condition.** She said the team would release on time whether or not end-to-end tests exist, and that this is wrong for this release. Val: the only way to release "2 числа" is if developers help with the tests. See [[wiki/decisions/2026-09-22-autotests-go-inside-the-existing-capabilities-and-the-first-e2e-test-is-a-one-hour-micro-step.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]].
+
+*(The release object Pavel set up on Sept 11 is dated October 1; the Sept-22 schedule ends "roughly" October 2, and Val speaks of releasing "on the 2nd". This reads as the same target seen at day level, not a new date — **inference**.)*
+
 ## Open commitments
 
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — finish the remaining five capabilities and their requirements, then the UI/UX screen descriptions with texts; he expects to be done about half-way through Monday — due Sept 14 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
@@ -72,6 +82,7 @@ Klimovich still owes five capabilities and their requirements, then the UI/UX sc
 
 ## Open questions
 
+- **Does MVP 1 keep its early-October end date?** Val left it open on Sept 22 and asked to see other dates; Pavel and Chudinov defended the plan — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
 - **Does the bottleneck the engineers report actually exist?** Val made the whole narrowing conditional on it and said MVP 1 would be reopened if it does not — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - **Which date is the second milestone — October 21, October 30, or November 1?** The release object says October 30, the meeting title says November 1, the Sept-10 ruling said November 1 with a possible move to October 21. Not reconciled in any source — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]] [[raw/Meeting_Notes_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 
@@ -80,3 +91,4 @@ Klimovich still owes five capabilities and their requirements, then the UI/UX sc
 ## Sources
 - [[raw/Meeting_Notes_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]

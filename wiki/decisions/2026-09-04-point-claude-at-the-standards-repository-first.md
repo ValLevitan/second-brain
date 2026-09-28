@@ -3,7 +3,7 @@ type: decision
 title: Standing instruction — use the standards, add to the standards, and point your Claude at the standards repository first (Knowledge Base / Standards in GitHub, access verified for all 39 accounts)
 date: 2026-09-04
 aliases: [point your code at the standards, standards repository instruction, Knowledge Base Standards folder, 39 accesses verified, write narrow granular standards, moving away from Confluence]
-source-count: 5
+source-count: 7
 status: active
 open-commitments: 3
 open-questions: 1
@@ -45,6 +45,25 @@ At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexp
 
 *This sits against the Sept-4 statement that access was checked for all 39 accounts. Daniil may have joined after that check; the source does not say. Recorded as an open question, not a contradiction.*
 
+## Update, Sept 22 2026 (8:01 AM) — Val restates the rule, and names an owner for the texts
+
+At the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-tests.md|Sept-22 MVP 1 call]], Klimovich asked for an English–Spanish text library that anyone responsible can edit. Val gave it an owner and tied it to this rule [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]:
+
+- **Owner:** "Андрей Босик, я считаю, должен быть хозяином" — [[wiki/people/andrey-bosik.md|Andrey Bosik]].
+- **The standard is hard and mandatory:** "абсолютно жёсткий стандарт", "Я бы это сделал как [мэндатори]", pointing at the standards repository ("Standerds… Rupo").
+- **Everyone adds to it:** "если чего-то не дописано в стандарте… я настаиваю, чтобы стандарты постоянно дополнялись".
+- **Small and single-purpose:** standards must be "симплистик" and each about one thing — "будет сотни и сотни… MD файлс… описывают… один стандарт", growing all the time.
+
+How the texts themselves are stored (the Flex-Port's XML file, compiled at build) is on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 22, 8:01 AM).
+
+## Update, Sept 23 2026 — the file-naming standard, and "half your answers are in the standards"
+
+At the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-autotests.md|Sept-23 8:00 AM call]]:
+
+- **Mock-up files get dates.** [[wiki/people/dmitri-chudinov.md|Chudinov]] asked Klimovich to put a date in the file names of each new mock-up, so Claude can compare versions. Pavel: "У нас у нас есть стандарт наименование файлов… И там и там как раз в конце есть эта дата" — "В репозитории сейчас я тебе сброшу ссылку". Klimovich: "Хорошо сделаю" [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]].
+- **Tests.** When Khamin asked how autotests should be stored and structured, [[wiki/people/andrey-bosik.md|Bosik]]: "половина если не больше ответов на твой вопросы описаны уже в стандартах" [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]].
+- **Plain English for Claude.** Val told the team to instruct Claude to limit sentence count and write in "e sl. Типом английского языка" — see [[wiki/decisions/2026-09-23-open-requirements-are-settled-on-the-call-and-only-slow-ones-are-parked.md]] [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]].
+
 ## Open commitments
 
 - [ ] Everyone (engineering and the game team) — use the standards, add narrow granular standards to them, and point Claude at the standards repository as part of routine work — ongoing standing rule — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]] [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
@@ -61,3 +80,5 @@ At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexp
 - [[raw/Meeting_Notes_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]

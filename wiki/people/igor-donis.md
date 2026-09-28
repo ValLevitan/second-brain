@@ -3,8 +3,8 @@ type: person
 title: Igor Donis
 date: 2026-07-13
 aliases: [Igor Donis, Igor]
-source-count: 15
-open-commitments: 1
+source-count: 17
+open-commitments: 2
 disambiguation: "JVL Financial Controller — the finance/corporate Igor. One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
 ---
 
@@ -73,7 +73,21 @@ Igor was on the [[wiki/meetings/2026-07-08-gilmore-bsp-intercompany-software-lic
 
 Across the Aug-3 [[wiki/meetings/2026-08-03-gl-accounts-systems-labs.md|GL working session]] and the Aug-5 [[wiki/meetings/2026-08-05-chart-of-accounts-alignment-systems-labs.md|chart-of-accounts alignment]] Igor argued (through Felipe) that he is not inventing accounts but preserving JVL Labs' Navision history — reuse **211** historical Labs accounts plus **35** from Systems (**246** total) — and that non-posting accounts should be kept as titles/subtitles/totals so historical statements and backward analysis stay possible; he raised the difficulty of renaming vs recreating codes, preserving each account's history, and re-linking posting groups/dimensions/bank modules. He is one of the three finance people (with Cris and Laura) whose joint agreement is now required before any proposed account change is accepted. Detail on [[wiki/topics/business-central-erp-implementation.md]] (Aug-3/Aug-5) and [[wiki/decisions/2026-08-05-erase-replace-labs-gl-reduce-chart-of-accounts.md]]. [[raw/Meeting_Transcript_GL_Accounts_Systems_Labs-August-3-2026.md]] [[raw/Meeting_Transcript_Chart_of_Accounts_Alignment_Systems_Labs-August-5-2026.md]]
 
+## Sept 23 2026 — he escalates Val's vendor-payment approval, and Val puts it on the record
+
+At 2:20 PM Igor called Val urgently: he had seen Val's email approving the last vendor payment, "More or less forty point forty three thousand dollars," and wanted to show him the real cash first. Val: "I would like to have this conversation on the record, so let me book a meeting with you now" — for 2:30 ([[wiki/meetings/2026-09-23-igor-donis-vendor-payment-escalation.md]]). [[raw/Meeting_Transcript_Igor_Donis_Vendor_Payment_Escalation-September-23-2026.md]]
+
+In the booked meeting ([[wiki/meetings/2026-09-23-cash-position-and-vendor-payment-plan.md]], 2:32 PM) Igor walked through the week's cash in Bank of America and RBC and left all collections out on purpose — "in the last seven weeks, the expectation is big amount, but the reality is low amount" — which Val accepted. His alternatives were to hold the vendor payment to next week or to bring money in from Colombia. The plan Val said "Yeah" to: once Laura and Marta send the EDS-vs-Colombia offset position, Igor asks Colombia to send money (about $25,000). He closed: "I worry because your last approved the vendor forty-three $1000… I needed your knowledge all all picture." Figures on [[wiki/topics/jvl-finance-back-office.md]] (Sept 23). [[raw/Meeting_Transcript_Cash_Position_and_Vendor_Payment_Plan-September-23-2026.md]]
+
+**§15.8:** Val's remark on how Igor ran the call is a personal performance judgement — withheld.
+
+### Open commitments (Sept 23 2026)
+
+- [ ] Igor Donis — after Laura and Marta send the EDS-vs-Colombia offset position, ask Colombia to send JVL about $25,000 — due unspecified — [[raw/Meeting_Transcript_Cash_Position_and_Vendor_Payment_Plan-September-23-2026.md]]
+
 ## Sources
+- [[raw/Meeting_Transcript_Igor_Donis_Vendor_Payment_Escalation-September-23-2026.md]]
+- [[raw/Meeting_Transcript_Cash_Position_and_Vendor_Payment_Plan-September-23-2026.md]]
 - [[raw/Meeting_Transcript_Gilmore_Cross_Border_Tax_Strategy-July-8-2026.md]]
 - [[raw/Meeting_Transcript_cash_reporting_standardization-April-28-2026.md]]
 - [[raw/Meeting_Notes_Cash_Reporting_Standardization-April-28-2026.md]]

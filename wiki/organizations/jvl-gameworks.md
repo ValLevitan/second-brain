@@ -3,7 +3,7 @@ type: organization
 title: JVL Gameworks Corp.
 date: 2026-07-13
 aliases: [JVL Gameworks, JVL GameWorks, GameWorks, Game Works, JVL Gameworks Corp., JVL Gameworks Corp, JVL Gameworks Inc., JVL Gameworks, Inc.]
-source-count: 6
+source-count: 7
 open-questions: 1
 ---
 
@@ -38,6 +38,10 @@ On the [[wiki/meetings/2026-06-30-gilmore-gameworks-us-tax-and-labs-filing.md|Ju
 - **The plan to wipe the profit.** Book more revenue in JVL Labs on the machines Labs sold to GameWorks, so GameWorks shows no profit. If BSP agrees to amend the filed US return, do it now; if not, pay now and create a loss next year to carry back. Detail on [[wiki/topics/jvl-finance-back-office.md]] (Jun-30). [[raw/Meeting_Transcript_Gilmore_GameWorks_US_Tax_and_Labs_Filing-June-30-2026.md]]
 - **Amazon-entity note.** Val's line that GameWorks "only sells through Amazon" is one more data point for the open Amazon-commerce-entity question on [[wiki/topics/echo-home-gaming-device.md]]. It is recorded there, not treated as settling it. [[raw/Meeting_Transcript_Gilmore_GameWorks_US_Tax_and_Labs_Filing-June-30-2026.md]]
 
+## Sept 23 2026 — about $7,000 in cash
+
+On the [[wiki/meetings/2026-09-23-cash-position-and-vendor-payment-plan.md|Sept-23 cash-position call]], Val asked "is there a GameWorks money?" Igor Donis: "in GBL Gamers, $7000. Only." ("GBL Gamers" is how the transcript renders GameWorks.) See [[wiki/topics/jvl-finance-back-office.md]] (Sept 23). [[raw/Meeting_Transcript_Cash_Position_and_Vendor_Payment_Plan-September-23-2026.md]]
+
 ## Governance
 
 - The JVL Constitution names JVL Gameworks as one of the group's core entities (written there as "JVL Gameworks Inc."). (source: JVL Constitution — ~/Projects/Constitution/) The confirmed legal name is JVL Gameworks Corp. See [[wiki/topics/jvl-operating-principles.md]].
@@ -56,3 +60,4 @@ On the [[wiki/meetings/2026-06-30-gilmore-gameworks-us-tax-and-labs-filing.md|Ju
 - [[raw/cibc_account_the_january_6_2025.md]]
 - [[raw/Meeting_Transcript_BofA_Lenin_Hernandez_Banking_Review_and_Georgia_Financing-June-8-2026.md]]
 - [[raw/Meeting_Transcript_Gilmore_GameWorks_US_Tax_and_Labs_Filing-June-30-2026.md]]
+- [[raw/Meeting_Transcript_Cash_Position_and_Vendor_Payment_Plan-September-23-2026.md]]

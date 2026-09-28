@@ -4,8 +4,8 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 60
-open-commitments: 27
+source-count: 63
+open-commitments: 29
 open-questions: 0
 ---
 
@@ -361,6 +361,45 @@ At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexp
 - **Testing.** He does not close a capability until it is tested or test plans exist. He argued features cannot be tested alone — "Все эти фичи это какието промежуточные точки от а до б" — and that acceptance criteria hang on requirements. He named the case no one could answer: screens in one capability, balance and wallets in others. See [[wiki/topics/test-automation-strategy.md]] (Sept 22) [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
 - **Time.** "мы не успеем все до 1 числа", and he doubted the MVP 2 line would hold: "каждый день мы получаем новый список" [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
 
+## Sept 22 2026 (8:01 AM) — MVP 1 is clear to him, 122 is closed, and the cloud is a different test problem
+
+On the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-tests.md|Sept-22 8:01 AM MVP 1 call]] (Russian) [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]:
+
+- **MVP 1 is clear.** He reviewed it for Flex IQ and the Flex-Port: "критичных расхождений нету".
+- **Capability 122 (Flex IQ remote updates) closed that day** — [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Sept-22 update).
+- **The Jira pass.** He wanted capability 157 removed ("Я бы ее убирал"), named 148 as the wallet-issue capability, backed moving 115 to MVP 2, scheduled FIQ-34, and took the feature dates under 152 ([[wiki/decisions/2026-09-18-the-mvp1-capability-list-is-walked-item-by-item-and-every-capability-gets-an-owner.md]], Sept-22 update).
+- **How he builds features with Claude** — capability plus linked requirements, Claude picks the scope — and the payment-hub incident that made him insist on clean requirements: [[wiki/topics/ai-assisted-development.md]] (Sept 22).
+- **On the date:** clarifying requirements still to meet, plus new functions "типа блокировки [Flex-Port]".
+- **On tests:** the cloud platform "сильно отличается от машины" and cannot sit in one Docker container; he first preferred a separate capability for autotests. See [[wiki/decisions/2026-09-22-autotests-go-inside-the-existing-capabilities-and-the-first-e2e-test-is-a-one-hour-micro-step.md]].
+- **On dependency updates:** "Это не автоматический апдейт… Это должно быть контролируемо."
+
+## Open commitments (Sept 22 2026, 8:01 AM)
+
+- [ ] Dmitri Chudinov — set the feature dates under capability 152 — due Sept 22 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
+
+
+## Sept 23 2026 — "I told you not to mix products", and a certificate clash on STG
+
+At the [[wiki/meetings/2026-09-23-daily-standup-terminal-emulator-and-capability-split.md|Sept-23 Minsk stand-up]] (Russian; label "Dzmitry Chudzinau") [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]:
+
+- **His earlier warning came true.** "я вам говорил не мешать в одной капубилике продукты". He told Sergey one shared repository for FlexPay and Flex IQ may work later, not now. See [[wiki/decisions/2026-09-23-capability-118-is-split-by-product-and-two-devices-keep-two-repositories.md]].
+- **Capability 152 (card activation) on STG.** The DEV and STG cluster share one region and group, so a DEV-registered terminal clashes with STG and its certificate must be unbound. He dislikes both fixes and will take it to Andrei (Bosik, by inference). See [[wiki/decisions/2026-09-18-the-mvp1-capability-list-is-walked-item-by-item-and-every-capability-gets-an-owner.md]] (Sept-23 update).
+- **Scope.** "на меня flexpay не вешайте." He will tidy and assign his own tasks.
+
+
+## Sept 23 2026 (8:00 AM) — REQ-753 is "abstract", buffering already works, and he takes the Flex IQ capability
+
+On the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-autotests.md|Sept-23 8:00 AM MVP 1 call]] (Russian; label "Dzmitry Chudzinau") [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]:
+
+- **Requirements.** REQ-753 "Непродуктовый, он абстрактный" — deleted. Open questions are fine while work runs, "Главное не оставить их открытыми по завершении". Buffering when the link drops "уже работает"; no cloud view of Flex-Ports in MVP 1, only logs in Grafana. See [[wiki/decisions/2026-09-23-open-requirements-are-settled-on-the-call-and-only-slow-ones-are-parked.md]].
+- **Flex-Port limits.** Georgia has 9 machines, so at most 9 Flex-Ports; the default is set to 20; the ceiling needs a stress test. See [[wiki/decisions/2026-09-16-fifteen-flex-ports-in-mvp1-and-the-system-designed-for-ninety-nine.md]] (Sept-23 update).
+- **Capabilities.** The Flex IQ UI/UX capability goes to him; he had already created 231 for lost money. See [[wiki/decisions/2026-09-18-the-mvp1-capability-list-is-walked-item-by-item-and-every-capability-gets-an-owner.md]] (Sept-23 8:00 AM update).
+- **Mock-ups.** He asked Klimovich to date the files so Claude can compare versions.
+
+## Open commitments (Sept 23 2026, 8:00 AM)
+
+- [ ] Dmitri Chudinov — create the features under capabilities 230, 231 and 234 — due Sept 24 2026 — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
@@ -423,3 +462,6 @@ At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexp
 - [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]

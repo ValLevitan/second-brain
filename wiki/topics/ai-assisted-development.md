@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, truth as code, knowledge work framework, keep Jira current, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, Copilot Studio, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest, LaTeX, printer tool, Ollama, llama.cpp, local inference, Code Llama, Hugging Face, Claude Code, AI sandwich, developer experience, think like a data scientist, sub-agents, verbose output, compiler layer, ways vs skills, ADR, cross-examination, Python Vulture, intelligence center, Waze system, ways framework, compiler stack diagram, module federation, Aaron ways system, Ways ADR, Ways capabilities catalog, regulatory provenance chain, JVL Ways pipeline, ways branch architecture, trusted stage users, clean environment lesson, engagement auditor agent, translation service, terminology override table, GitHub Enterprise fork, JVL GitHub Ways architecture guide, Capability Ticket, Jira hierarchy restructure, engineering guides, architecture black hole, Piratka, prose standard, code to prose, capability extraction, 29 capabilities, AI flattery caution, agent setup, prose initialization skill, prose skill, dependency-tree mapping, prose pending folder, contracts written by Claude, development pipeline end to end, clean-session evaluation, naming by Claude]
-source-count: 166
+source-count: 167
 ---
 
 # AI-assisted development adoption
@@ -961,6 +961,16 @@ The counter-case in the same call is an engineer whose practice predates the too
 
 *(The rendering is "**клад коуд**" — Claude Code, the reading already standard on this page. "**Репортер**" for the pull-request reviewer is flagged as an inference on the decision page.)*
 
+## Sept 22 2026 — how Claude turns a capability into features, and a change list so it re-reads
+
+At the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-tests.md|Sept-22 8:01 AM MVP 1 call]] (Russian), [[wiki/people/andrei-klimovich.md|Klimovich]], the product owner, asked the developers how they create features [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]].
+
+- **The method, from [[wiki/people/dmitri-chudinov.md|Chudinov]].** He points Claude at a capability with its linked requirements and asks it to write the features. "Репозитории он уже у меня знает, и он сам решает по объёму" how many to make. "чем лучше всё прописано, тем меньше у него путаницы."
+- **Which Jira links Claude follows is not known.** Each capability's requirements hang on it by the "required by" link, and other capabilities sit under "relates". Chudinov: "Пока не готов ответить". Pavel and Irina both think it takes every link type. Klimovich worried that makes a cascading read that can "дрифтовать"; Chudinov: it still works from the capability's own text.
+- **The failure that set the rule.** Chudinov: because the cloud was written into the requirements, Claude started creating wallet-behaviour features on a repository where none should be — the transcript has "на п мхабе", read as the payment hub (**inference**). That is why he asked for the requirements to be fixed; see [[wiki/decisions/2026-09-16-anything-that-depends-on-the-cloud-leaves-mvp1.md]] (Sept-22 update).
+- **Changed capabilities need a signal.** New requirements will land in existing capabilities as the design goes in. Klimovich will send a plain list of changed capabilities so the developers can tell Claude to re-read them. Pavel: "Это будет очень полезно", because such features are now found "слишком поздно… когда уже дойдём до реализации", and a list is faster than Claude checking every task's history. [[wiki/people/andrey-bosik.md|Bosik]]: keep each capability "по принципу [ADR]" — add the date and what changed. Chudinov: Claude still has to be told to re-read each time. Klimovich will run the list for a day or two and think about the process after [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]].
+- **Val's version of the same idea, for tests.** With good requirements, acceptance criteria, features, code in the right repositories and written prose, "в теории… [Клод] должен с этим справиться" — see [[wiki/topics/test-automation-strategy.md]] (Sept 22, 8:01 AM).
+
 ## Sources
 - [[raw/Meeting_Transcript_Clayton_Chancey_Initial_AI_Consulting_Engagement-January-23-2026.md]]
 
@@ -1129,3 +1139,4 @@ The counter-case in the same call is an engineer whose practice predates the too
 - [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]
 - [[raw/Meeting_Transcript_Clayton_Jira_MCP_Demo_and_Toolset_Direction-January-29-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]

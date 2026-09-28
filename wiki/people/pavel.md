@@ -4,8 +4,8 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 166
-open-commitments: 73
+source-count: 169
+open-commitments: 78
 open-questions: 0
 ---
 
@@ -774,6 +774,49 @@ He ran the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-f
 - [ ] Pavel Frolov — send Vladimir Samusenko the TouchGFX Designer installer (not available on the ST site) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
 - [ ] Pavel Frolov — create the GUI conversion task for Vladimir Samusenko, possibly after the Klimovich meeting — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
 
+## Sept 22 2026 (8:01 AM) — he runs the Jira pass, defends the date, and specifies the first test
+
+On the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-tests.md|Sept-22 8:01 AM MVP 1 call]] (Russian), sharing his Jira screen [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]:
+
+- **The Jira pass.** He moved capability 157 to MVP 2, pointed the Flex-Port design at capability 180, and created the second initiative for FlexPay during the call ([[wiki/decisions/2026-09-18-the-mvp1-capability-list-is-walked-item-by-item-and-every-capability-gets-an-owner.md]], Sept-22 update).
+- **The date.** His schedule shows MVP 1 ending "до 2 октября грубо". Asked why ten more days: "Потому что до этого было 2 года", and "сейчас нет никого, кто хочет задержать сроки, скорее наоборот".
+- **Testing.** "Я диму и сашу на это не отдам." He named the test writers and set the first test: Flex-Port connection state, read "через хук, который сделан через telnet". Autotests go inside the existing capabilities, his view — see [[wiki/decisions/2026-09-22-autotests-go-inside-the-existing-capabilities-and-the-first-e2e-test-is-a-one-hour-micro-step.md]].
+- **His limit on scope.** JVL tests the Flex-Port with its own machines only; how SAS behaves on others' "Мы не знаем" — that testing likely runs into next month.
+- **Dependencies.** "любое обновление… это лишняя возможность ломать всё"; GitHub Actions must move from Node 20 to 24 in every repository ([[wiki/topics/github-release-management-pipeline.md]], Sept 22).
+- **Capability 180's colour.** A task on it already went to Dmitri Kovalchuk and it still turned green; "к этому надо ещё раз подойти".
+
+## Open commitments (Sept 22 2026, 8:01 AM)
+
+- [ ] Pavel Frolov (with Irina Shishko) — put Ivan and Alexei Khamin on the test work in the schedule — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
+
+
+## Sept 23 2026 — he re-sets the emulator's priority one and agrees to split capability 118
+
+At the [[wiki/meetings/2026-09-23-daily-standup-terminal-emulator-and-capability-split.md|Sept-23 Minsk stand-up]] (Russian), which he ran [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]:
+
+- **Emulator priority.** He first made full Flex-Port protocol emulation priority one, then narrowed it: "приоритет номер один это эмулятор терминала, чтобы с ним можно было работать реальным устройством" — a real Flex IQ, with FlexPay second. See [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]] (Sept-23 update).
+- **Capability 118.** He agreed to split it — "давайте разделим один будет flexpay" — and recalled the earlier ruling that two devices mean two repositories. See [[wiki/decisions/2026-09-23-capability-118-is-split-by-product-and-two-devices-keep-two-repositories.md]].
+- **Review he cannot do now.** He has no time "сегодня, завтра" to look at Vladimir's contract work, so Vladimir merges it and they fix it later: "если неправильно поправим в следующем какомнибудь комиссии".
+- **Parked items.** New capabilities and requirements Andrei had created (REQ-1460 on card programs) go to a meeting later that day. See [[wiki/decisions/2026-09-18-the-mvp1-capability-list-is-walked-item-by-item-and-every-capability-gets-an-owner.md]] (Sept-23 update). He also owes a look at requirement 743 — see [[wiki/topics/test-automation-strategy.md]] (Sept 23).
+
+
+## Sept 23 2026 (8:00 AM) — the disconnect wording, the symlink answer, and the capability assignments
+
+On the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-autotests.md|Sept-23 8:00 AM MVP 1 call]] (Russian) [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]:
+
+- **No fixed timeouts.** His wording for all device-disconnect requirements: show the fault on the player's screen as fast as possible and keep retrying. See [[wiki/decisions/2026-09-23-open-requirements-are-settled-on-the-call-and-only-slow-ones-are-parked.md]].
+- **The symlink answer.** When Ivan said four tests needed a hand on the cable, Pavel: every port on the machine is a symbolic link; point it at /dev/null and the channel drops. See [[wiki/decisions/2026-09-22-autotests-go-inside-the-existing-capabilities-and-the-first-e2e-test-is-a-one-hour-micro-step.md]] (Sept-23 update). He also said that bringing every problem to him "тоже не самое хорошее решение".
+- **Emulator.** Anton is finishing the FlexPay emulator; a task is needed to copy it for Flex IQ — see [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]] (Sept-23 8:00 AM update).
+- **Jira.** He assigned the new capabilities, moved the screen feature from 180 to 235, and named 178, 230, 231, 234 and 235 as still to plan. See [[wiki/decisions/2026-09-18-the-mvp1-capability-list-is-walked-item-by-item-and-every-capability-gets-an-owner.md]] (Sept-23 8:00 AM update).
+- **REQ-1550 is unreadable:** "столько слов, столько букв, что ну человеку невозможно это прочитать".
+
+## Open commitments (Sept 23 2026, 8:00 AM)
+
+- [ ] Pavel Frolov — send Klimovich the link to the file-naming standard in the repository — due Sept 23 2026 — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [ ] Pavel Frolov — review requirements 1560, 1563 and 1565 under CAP-173, add the engineering answers, move them to Accepted — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [ ] Pavel Frolov — raise a task for Anton to copy the FlexPay emulator for Flex IQ — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [ ] Pavel Frolov — create a feature under capability 178 for supporting an additional card type — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
@@ -945,3 +988,6 @@ He ran the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-f
 - [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]

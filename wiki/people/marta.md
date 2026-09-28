@@ -3,7 +3,7 @@ type: person
 title: Marta (Automated Technologies)
 date: 2025-03-22
 aliases: [Marta, Martha]
-source-count: 3
+source-count: 4
 ---
 
 # Marta (Automated Technologies)
@@ -20,8 +20,13 @@ Marta (also transcribed "Martha") is a JVL-connected businesswoman in Colombia. 
 
 On the Apr-3 tech call ([[wiki/meetings/2025-04-03-sd-printer-and-mh1-settings.md]]) Marta (with a "Freddie") asked [[wiki/people/pavel.md|Pavel]], via [[wiki/people/juan-martinez.md|Juan]], to configure a **Mega Hits 1 (MH1)** game so several game sets share the **same max bet** within one game mix (copying an **EDS**-recommended setup) — for the **Colombia** market. Pavel said the data-center currently disallows multiple button-sets at the same max bet but it's a minor change (really a per-button multiplier, e.g. 5/10/20/25/50). Val's steer: stop relaying between Marta and Pavel — get Marta on a call to establish the actual **market requirement** ("we're in the search of market requirement here"). [[raw/tech_and_settings_issues-juan_martinez-april-3-2025.md]]
 
+## Sept 23 2026 (in absentia) — no cash toward the EDS payment this time
+
+On the [[wiki/meetings/2026-09-23-cash-position-and-vendor-payment-plan.md|Sept-23 cash-position call]], Val reminded Igor Donis that "Marta will have to add a little bit of money for the EDS payment." Igor said Laura and Martha told him she will not pay; Val: "they withheld the money from paying us." Igor is waiting for Laura and Martha to send him the EDS-vs-Colombia offset position before asking Colombia to send money to JVL. Detail on [[wiki/organizations/eds-colombia.md]] (Sept 23). *(Same "Marta/Martha" who pays the Colombian share to EDS — by the Colombia/EDS context.)* [[raw/Meeting_Transcript_Cash_Position_and_Vendor_Payment_Plan-September-23-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Cash_Position_and_Vendor_Payment_Plan-September-23-2026.md]]
 - [[raw/meeting_with_julian_puerta_texas_eds.md]]
 - [[raw/julian _puerta_nebraska-march-29-2025.md]]
 - [[raw/tech_and_settings_issues-juan_martinez-april-3-2025.md]]

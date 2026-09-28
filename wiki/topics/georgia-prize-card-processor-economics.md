@@ -3,9 +3,9 @@ type: topic
 title: Georgia prize-card processor economics — the fee sheet, the float, and who actually captures the money
 date: 2026-08-31
 aliases: [prize card economics, cannot be exchanged for currency at the location, where the prize is won, welcome to our world, three fifty-eight nine, HB 353, white card ATM functionality, black prize play card, should I be working on ATMs, Avshad Patel, Ready Credit Corporation, the card puzzle, why pay cash without issuing a card, average load per card, two hundred eighty dollars per card, InComm takes the risk, program manager not provider, Fiserv, breakage zero point three, card to machine fee, MoneyPass, fifty basis points, PAX A80 two hundred dollars, gift card float, dormancy fee, card fee structure, 9.6 percent per year, I'm in the wrong business, free PAX, breakage, five billion in payouts, multi-provider manipulation, reloadable cards, Mastercard rules, gift card policy intent, half a percent, front fees to the store, two dollars per push, PlayPay fees, eight percent on the back end, FBO account, holding that money, B with the B, seventy four hundred locations forty seven thousand machines, InComm doesn't offer any profit sharing, a card solution is not useful if it doesn't lead to cash, thirteenth month after activation, pre-fund, ten thousand dollar pre-fund, twenty four thousand dollars over the weekend, half a percent is my percentage, that's my agreement with Visa, secret document that Visa does not divulge, I can turn my AFT off, GDL is the only company that gives it away, mute them for now, anti money laundering, house bill three fifty three, I faked that, pass to cash, self checkout counter, escheat, easement, sub accounts, they actually buy bonds]
-source-count: 32
+source-count: 33
 open-commitments: 0
-open-questions: 15
+open-questions: 17
 ---
 
 # Georgia prize-card processor economics
@@ -613,6 +613,17 @@ At the [[wiki/meetings/2026-09-17-dynamic-gaming-georgia-master-licensee-and-cas
 
 **§15.8:** clear — vendor and device pricing only.
 
+## Sept 22 2026 (1:01 PM) — what an ATM network would charge for the payout, and who pays the fee
+
+A first price from outside the card chain. On the [[wiki/meetings/2026-09-22-ncr-atleos-readycode-cardless-atm-payout.md|Sept-22 NCR Atleos call]], Val asked what a cardless ATM payout would cost. Full detail is on [[wiki/organizations/ncr-atleos.md]] [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]].
+
+- **A ballpark, given only when pushed.** "Ballpark for two dollars and seventy five cents" per withdrawal. Deposits were given as two different ranges — "a dollar ten or eighty five cents… as high as… three dollars", then "a dollar twenty-five to… four dollars" — priced as "transaction cost plus… an interchange". [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]]
+- **Cash handling is inside the price.** "That's included in that dollar amount… 275… all of that is included." No monthly fee: "It's based off of transaction." [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]]
+- **The fee is the partner's to set, and the player never sees it at the ATM.** The partner can absorb it, give one free transaction a month, or charge every time; the charge is added to the held amount — "that sixty dollars… would be a pre-staged sixty-five dollar transaction" (using Val's placeholder $5). [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]]
+- **The float stays with the partner, not with them.** Two FBO accounts, daily settlement "by one thirty", next-business-day ACH for cash in, and a pull from the partner's bank for cash out. [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]]
+- **Val's own question about the float.** "when we have this massive amount of cash going through our account… what influence do we have over this money, and… how do we make money on this money?" The answer he got was about settlement, not earnings. *(The same concern appears in the 4:04 PM section below.)* [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]]
+- **Their benchmark:** a Green Dot cash-in is "like five dollars and fifty cents" on average. [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]]
+
 ## Sept 22 2026 — the legal line on a path to cash, and why a ban on cash-back keeps the float
 
 On the [[wiki/meetings/2026-09-22-billy-liu-playpay-virtual-wallet-pay-tag-plan.md|Sept-22 Val–Billy call]], six days after the Skill Pay launch, Val set out how he now reads the market [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
@@ -639,6 +650,8 @@ Val: "**I think people will give us the phone number for five dollars… and I t
 
 ## Open questions
 
+- What would a cardless ATM payout really cost? NCR Atleos gave only a $2.75 withdrawal ballpark and two different deposit ranges (Sept 22) — [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]]
+- Where would JVL get per-location volume data to build the 12/24/36-month projections NCR Atleos asked for? Its rep said the data does not exist in that form (Sept 22) — [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]]
 - **Is the Lottery's prepaid-card mandate firm?** Asked directly on Sept 22; Billy said only that it "has definitely been in play" — [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]
 - **How would JVL earn from holding a player's phone number?** Val: "I haven't figured out how yet" (Sept 22) — [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]
 - **What is the transactional business to be called?** "JTE" was proposed and rejected on Sept 16 2026; nothing was chosen — [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
@@ -691,3 +704,4 @@ Val: "**I think people will give us the phone number for five dollars… and I t
 - [[raw/Meeting_Transcript_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]
 - [[raw/Meeting_Notes_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]
+- [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]]

@@ -3,7 +3,7 @@ type: decision
 title: Fifteen Flex-Ports is the MVP 1 number per location and the system is designed for 99 — what happens above the limit stays open until load testing answers it
 date: 2026-09-16
 aliases: [requirement 1432, number of FlexPorts, ports per location, design for 99, fifteen for MVP1, nine is a bad number, maximum 9 gaming machines, load testing, subnetworks, на свой страх и риск, дизайн на 99]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 1
 open-questions: 1
@@ -39,6 +39,12 @@ Klimovich ruled that the question is not answerable by argument, only by measure
 
 This is the one open question the meeting **chose** to leave open rather than clear, which makes it the exception to the whole purpose of the call.
 
+## Update, Sept 23 2026 — the default in the code is 20
+
+At the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-autotests.md|Sept-23 8:00 AM call]], on REQ-1413 (Flex-Port switching), [[wiki/people/andrey-bosik.md|Bosik]] asked how many Flex-Ports one terminal can serve. [[wiki/people/dmitri-chudinov.md|Chudinov]]: "по ограничению то, что мы обсуждали в джорджии 9 машин соответственно, у нас может быть максимум 9 флекс портов, но мы там ставили сейчас дефолт с запасом 20. На будущее у нас ограничение, только сколько оплата потянет? Для этого надо будет отдельный стресс тест" [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]].
+
+**Read against this ruling (inference):** 20 is above the MVP 1 number (15) and below the design number (99), so the wiki does not treat it as a contradiction. Nobody on the call mentioned 15 or 99. The "limit" clause is garbled ("сколько оплата потянет"); the stress test he names is the load test this page leaves open [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]].
+
 ## Open commitments
 
 - [ ] Team — load-test the Flex-Port count per location to establish the real limit, and answer what happens to a port above it (reject, or admit without guarantees) — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
@@ -52,3 +58,4 @@ This is the one open question the meeting **chose** to leave open rather than cl
 ## Sources
 - [[raw/Meeting_Notes_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]

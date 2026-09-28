@@ -3,7 +3,7 @@ type: project
 title: South Dakota VLT market entry
 date: 2025-01-22
 aliases: [South Dakota, SD VLT, South Dakota VLT 3, VLT3, South Dakota D2703, IP1180, IP887, IP1131, IP1137, GD918, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950, V43, D27, SD cap, Bioliches, Gypsy Spirit, Crazy Colt, Queen of Luxor, Liberty Spin, Rodeo Spin, South Dakota vertical, MG Oil report, VLT2, Cool Cat, Black Hills Kino, Dragon Pace, Dakota Bison, Solar Keno, Keno Deluxe, IP459, IP1063]
-source-count: 49
+source-count: 51
 open-commitments: 4
 open-questions: 1
 ---
@@ -311,12 +311,20 @@ On a [[wiki/meetings/2026-09-22-eclipse-south-dakota-vlt-approval-inquiry.md|12:
 - **Why it matters (inference):** this page's certification record for South Dakota runs through the South Dakota lottery lab and [[wiki/organizations/gli.md|GLI]]. The call shows Val checking a second lab for the same product. The call itself gives no reason for asking.
 - **No version number is spoken** — only "South Dakota VLT". The call does not bear on the VLT-2 / VLT-3 question recorded above (Sept 11) [[raw/Meeting_Transcript_Eclipse_Compliance_Testing_South_Dakota_VLT_Approval_Inquiry-September-22-2026.md]]. The derived notes carry the same open question [[raw/Meeting_Notes_Eclipse_Compliance_Testing_South_Dakota_VLT_Approval_Inquiry-September-22-2026.md]].
 
+## Sept 23 2026 — Eclipse's answer: no, for now
+
+On the [[wiki/meetings/2026-09-23-eclipse-nick-farley-south-dakota-vlt-answer.md|Sept-23 10:30 AM call-back]], Nick Farley of [[wiki/organizations/eclipse-gaming-lab.md|Eclipse]] told [[wiki/people/val-levitan.md|Val]] that Eclipse does not currently support South Dakota VLT submission. Eclipse is authorized with the South Dakota Commission on Gaming, but the lottery side is not in place (the key line is garbled — "I don't think we ever had to stop the clue lottery"). Val: "I said the answer is no." Nick: "That would be correct now." Nick will still have someone look into it [[raw/Meeting_Transcript_Eclipse_Nick_Farley_South_Dakota_VLT_Answer-September-23-2026.md]].
+
+- **The Eclipse route for the South Dakota VLT is closed for now.** This answers the Sept-22 open question. Which lab JVL will use instead was **not discussed** on the call [[raw/Meeting_Transcript_Eclipse_Nick_Farley_South_Dakota_VLT_Answer-September-23-2026.md]] [[raw/Meeting_Notes_Eclipse_Nick_Farley_South_Dakota_VLT_Answer-September-23-2026.md]].
+- **No version number is spoken** — only "South Dakota VLT". The call adds nothing to the VLT-2 / VLT-3 question above [[raw/Meeting_Transcript_Eclipse_Nick_Farley_South_Dakota_VLT_Answer-September-23-2026.md]].
+
 ## Open questions
 
-- **Can Eclipse test and approve the South Dakota VLT?** Unconfirmed as of Sept 22 2026; call-back pending — [[raw/Meeting_Transcript_Eclipse_Compliance_Testing_South_Dakota_VLT_Approval_Inquiry-September-22-2026.md]]
+- **With Eclipse out for now, which lab takes the South Dakota VLT?** Not discussed on the Sept-23 call; the derived notes raise it as open — [[raw/Meeting_Notes_Eclipse_Nick_Farley_South_Dakota_VLT_Answer-September-23-2026.md]]
 
 ## History
 
+- **Sept 22 → 23 2026 — the Eclipse question, asked and answered.** On Sept 22 it was open whether Eclipse can test and approve the South Dakota VLT (call-back pending) [[raw/Meeting_Transcript_Eclipse_Compliance_Testing_South_Dakota_VLT_Approval_Inquiry-September-22-2026.md]]; on Sept 23 Nick Farley said no, for now [[raw/Meeting_Transcript_Eclipse_Nick_Farley_South_Dakota_VLT_Answer-September-23-2026.md]].
 - **Feb 16 2026 — how Juan described the market to a Georgia operator.** On the [[wiki/meetings/2026-02-16-allenson-malik-market-review-and-data-partnership.md|Feb-16 Allenson call]], [[wiki/people/juan-martinez.md|Juan]]: "we've been live in South Dakota since October of last year. We have an office now in South Dakota. And, there is about eleven thousand machines currently in South Dakota for the whole market". *(The office was later moved to Nebraska — see [[wiki/decisions/2026-06-18-jvl-moves-its-south-dakota-office-to-nebraska.md]].)* [[raw/Meeting_Transcript_Allenson_Malik_Market_Review_and_Data_Partnership-February-16-2026.md]]
 
 ## Open commitments (Sept 4 2026)
@@ -384,3 +392,5 @@ On a [[wiki/meetings/2026-09-22-eclipse-south-dakota-vlt-approval-inquiry.md|12:
 - [[raw/Meeting_Transcript_Allenson_Malik_Market_Review_and_Data_Partnership-February-16-2026.md]]
 - [[raw/Meeting_Notes_Eclipse_Compliance_Testing_South_Dakota_VLT_Approval_Inquiry-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Eclipse_Compliance_Testing_South_Dakota_VLT_Approval_Inquiry-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Eclipse_Nick_Farley_South_Dakota_VLT_Answer-September-23-2026.md]]
+- [[raw/Meeting_Notes_Eclipse_Nick_Farley_South_Dakota_VLT_Answer-September-23-2026.md]]

@@ -2,10 +2,10 @@
 type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
-aliases: [test automation, testing architecture, eighty percent of the general functionality, requirements are step two, a hole automated tests will not cover, acceptance criteria in general terms, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction, Figma to React, Vite, Claude Code review loop, acceptance criteria, two test warehouses, frozen test cases, test harness, test registry]
-source-count: 41
-open-commitments: 12
-open-questions: 5
+aliases: [test automation, testing architecture, eighty percent of the general functionality, requirements are step two, a hole automated tests will not cover, acceptance criteria in general terms, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction, Figma to React, Vite, Claude Code review loop, acceptance criteria, two test warehouses, frozen test cases, test harness, test registry, no E2E tests for MVP 1, E2E micro-step, telnet hook test, 60 to 70 percent acceptance criteria, symlink to dev null, eight connection tests, money-crediting autotest]
+source-count: 44
+open-commitments: 19
+open-questions: 7
 ---
 
 # Test-automation strategy and testing architecture
@@ -452,6 +452,67 @@ At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexp
 - What the status after In Progress is called, and whether there is one or two — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
 - How to group capabilities so one flow can be laid against one test plan (Chudinov could not see how) — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
 
+## Sept 22 2026 (8:01 AM) — no end-to-end tests exist for MVP 1, and Val asks for one by tomorrow
+
+At the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-tests.md|MVP 1 call]] three hours after the stand-up above (Russian, Val chairing), the test question took most of the 82 minutes. The ruling is on [[wiki/decisions/2026-09-22-autotests-go-inside-the-existing-capabilities-and-the-first-e2e-test-is-a-one-hour-micro-step.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]].
+
+- **The acceptance criteria are two-thirds checked.** [[wiki/people/irina-shishko.md|Irina Shishko]]: "60 70%… мы там с [Клодом] их пересматривали, они все удовлетворяют"; the rest still need writing [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]].
+- **No end-to-end tests exist.** Asked whether the checked 60–70% have them: "Нет, потому что их ещё не писали", and "Этим пока у нас никто не занимался". Val asked how to write them — "это вопрос без [подвоха]. Я не знаю как это сделать" — and Irina said it is a hard question for her too [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]. *(This is about written MVP 1 tests. The May-2026 transactional E2E working group — [[wiki/meetings/2026-05-22-transactional-e2e-testing-framework.md]] and its follow-ups — discussed the approach; nothing here says any of it was built. Link is context, not a contradiction.)*
+- **Irina: the release will go anyway.** "мы выпустим, независимо от того, будут тесты написаны или нет", adding "это неправильно в этом релизе". Val: "Мы заставим Андрея Климовича… проверять" — and then, that the only way to release on the 2nd is for developers to help write or at least supervise the tests [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]].
+- **Pavel protects his developers.** "Я диму и сашу на это не отдам" — Chudinov and Biratka stay on features. Anton stays on the FlexPay emulator ([[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]], Sept-22 update). His test writers, "С помощью клодов": "женя… лёша… иван… ира" [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]. Names resolved on the meeting stub.
+- **Chudinov: the cloud platform is a different test problem.** "Подход тестирования этой платформы сильно отличается от машины" — clusters, a cloud structure, environments raised and deployed, "Отдельный продукт"; it cannot be isolated "в отдельном докер контейнере". He said this was not a way of pushing dates [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]].
+- **Pavel's narrower scope.** The part not tied to the cloud — machine, Flex-Port, Flex IQ — can be tested now, and "большинство… ошибок… на этой части будет лежать". Testing real Flex-Ports in other makers' machines will likely run into next month ([[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]], Sept-22 update) [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]].
+- **Val's frame.** "На это время нету." In theory — he said again he is not an engineer — with well-written requirements, acceptance criteria and features, code in the right repositories and prose written, Claude "должен с этим справиться". Solve JVL's own equipment first; other machines' problems come later [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]].
+- **The outcome:** autotest features inside the existing capabilities (Pavel's view, over Chudinov's first preference for a separate one), and one Flex-Port connection test — cable in reports connected, cable out not connected, read through the telnet hook — written by Khamin and filed under capability 173, to be checked the next day [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]].
+- **The stand-up's open case, half met.** Pavel had said at 4:48 he would ask Klimovich about a capability for the whole user flow. At this call Pavel said the user-workflow changes need one capability, "иначе… будут разбросаны по разным [капабилити] задачи"; the Flex-Port design went into capability 180. Whether that answers Chudinov's Flex IQ flow question is not said (**inference** that the two are linked) [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]].
+
+### Open commitments (Sept 22 2026, 8:01 AM)
+
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — write and run the first E2E test (Flex-Port connection state, telnet hook, capability 173) — due Sept 23 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]] — **Sept 23 2026:** not finished; Ivan brought the connection tests — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [x] [[wiki/people/irina-shishko.md|Irina Shishko]] — create the autotest features under the existing capabilities and plan them — due Sept 22 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]] — **superseded Sept 23 2026:** restated as a new commitment below (Sept 23, 8:00 AM) — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+
+### Open questions (Sept 22 2026, 8:01 AM)
+
+- How the cloud platform is tested end to end, given Chudinov's point that it cannot be isolated in a container — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
+
+
+## Sept 23 2026 — how the transactional autotests are organised is still open, and Ivan tries Claude as a test writer
+
+At the [[wiki/meetings/2026-09-23-daily-standup-terminal-emulator-and-capability-split.md|Sept-23 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]:
+
+- **Khamin drops everything for the test.** He had moved pull requests into branch 9 and deleted dead branches. Irina: "Всё правильно, всё бросаешь и занимаешься тестом." This is the first end-to-end test given to him on Sept 22 ([[wiki/decisions/2026-09-22-autotests-go-inside-the-existing-capabilities-and-the-first-e2e-test-is-a-one-hour-micro-step.md]]).
+- **Where the tests live — and how they are organised.** Pavel: the tests go in the repository that already holds the transactional integration tests. [[wiki/people/alexei-khamin.md|Khamin]]: writing one test is fine, but how the transactional tests should be organised "вопрос, который надо продумать, а не ляпать… непонятно куда". Irina: "Вот именно."
+- **Ivan as a Claude operator.** [[wiki/people/ivan.md|Ivan]]: "Пробуя себя в виде оператора Клода, который умеет писать автотест."
+- **Requirements cleanup.** [[wiki/people/irina-shishko.md|Irina]] will clean up requirements — add acceptance criteria, close what can be closed — and named one more requirement with everything lumped together and no criteria. She will also send Pavel the remarks Claude wrote on four checklist-like requirements; most is covered elsewhere, but requirement **743** has contradictions she finds hard to judge.
+- **Daniil's test idea.** He will add a second copy of a game to check game selection, switching between games, and paid-game limits.
+
+### Open commitments (Sept 23 2026)
+
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — look at the contradictions Claude found in requirement 743 and say whether they matter — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
+- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — clean up the requirements: add missing acceptance criteria, close what can be closed, break up the lumped one — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
+
+### Open questions (Sept 23 2026)
+
+- How should the transactional autotests be organised? Khamin said it needs thinking through; Irina agreed; no answer yet — [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
+
+## Sept 23 2026 (8:00 AM) — the micro-step comes back: eight tests, four manual, and a symlink fixes it
+
+At the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-autotests.md|Sept-23 8:00 AM MVP 1 call]] (Russian), three hours after the stand-up above, the one-hour test set on Sept 22 was checked. Full record on [[wiki/decisions/2026-09-22-autotests-go-inside-the-existing-capabilities-and-the-first-e2e-test-is-a-one-hour-micro-step.md]] (Sept-23 update) [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]].
+
+- **The method that makes a disconnect test automatic.** [[wiki/people/ivan.md|Ivan]] had 8 connection tests, 4 needing a hand on the cable. [[wiki/people/pavel.md|Pavel]]: on the machine every port is a symbolic link to a device; repoint it (to /dev/null — "Деф нул") and the channel drops. Ivan had given Claude full access to the machine and the Flex-Port and it had not found this; Pavel suggested asking Claude again, telling it the target platform is Linux [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]].
+- **Crediting money is the hard test.** [[wiki/people/alexei-khamin.md|Khamin]]'s test spans terminal, Flex-Port and EGM; Claude offered only manual routes and he found no open API. He is building a tool or a stored instruction for Claude instead [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]].
+- **The emulator is the way out of hardware.** Pavel: the FlexPay emulator runs the real backend with fake devices in a Docker container; a copy for Flex IQ is next ([[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]], Sept-23 8:00 AM update) [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]].
+- **Where tests live — partly answered.** Khamin asked how tests should be stored and structured. [[wiki/people/andrey-bosik.md|Bosik]]: "мы ж обсуждали, что тесты в интеграционном будут лежать", and the standards already answer half the questions. Khamin's point: once one finished test is committed, the real questions (where tools and Claude instructions go) will surface [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]. This narrows, but does not close, the stand-up's open question above.
+- **Val's yardstick and rule.** At least 70% of development through Claude at leading companies, by his reading; tests where half need a human "не попадает все рамки". And: "Не работайте в вакууме" [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]].
+- **Also ruled on the call:** open questions inside a requirement are not a blocker, but none may stay open when the task is done — see [[wiki/decisions/2026-09-23-open-requirements-are-settled-on-the-call-and-only-slow-ones-are-parked.md]] [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]].
+
+### Open commitments (Sept 23 2026, 8:00 AM)
+
+- [ ] [[wiki/people/ivan.md|Ivan]] — rewrite the four manual connection tests using the symlink-to-/dev/null method — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — build the tool or instruction set so Claude can generate the money-crediting test and check balances — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — create the autotest features under the MVP 1 capabilities — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — raise a task for Anton to copy the FlexPay emulator for Flex IQ ("пару дней наверно") — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
@@ -495,3 +556,6 @@ At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexp
 - [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]

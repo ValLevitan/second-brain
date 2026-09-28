@@ -3,7 +3,7 @@ type: person
 title: Vladimir Samusenko
 date: 2026-02-04
 aliases: [Vladimir Samusenko, Vladimir, Vlad, Владимир, Самусенко]
-source-count: 14
+source-count: 16
 open-commitments: 6
 ---
 
@@ -81,7 +81,25 @@ At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexp
 ## Open commitments (Sept 22 2026)
 
 - [ ] Vladimir Samusenko — install TouchGFX Designer, pull the Flex-Port project, import it and report what can be worked with — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
-- [ ] Vladimir Samusenko — review his Flex-Port contract tests once more and send the pull request to Pavel — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
+- [x] Vladimir Samusenko — review his Flex-Port contract tests once more and send the pull request to Pavel — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]] — **overtaken Sept 23 2026:** Pavel had not looked at it and has no time today or tomorrow, so Vladimir merges it himself (see Sept 23 below) — [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
+
+
+## Sept 23 2026 — he merges the contract documentation without Pavel's review
+
+At the [[wiki/meetings/2026-09-23-daily-standup-terminal-emulator-and-capability-split.md|Sept-23 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]:
+
+- **Board GUI.** He is doing "ревор гуи для борта" — probably the rework of the board GUI he took on Sept 22 (**inference**; the notes say "review").
+- **The contract.** He asked if Pavel had looked at it. Pavel: no time "сегодня, завтра". Vladimir: "это не сборку не поломает эта документация, я тогда мержу, а потом разберёмся." Pavel agreed; mistakes get fixed in a later commit.
+- He also created feature "Фпорт 52", with Pavel telling him to add stories under it himself if needed.
+
+## Open commitments (Sept 23 2026)
+
+- [ ] Vladimir Samusenko — merge the board GUI contract documentation without waiting for Pavel's review — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
+
+
+## Sept 23 2026 (8:00 AM, in absentia, by inference) — the Flex-Port UI/UX capability
+
+On the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-autotests.md|Sept-23 8:00 AM MVP 1 call]], Chudinov asked Pavel to put the Flex-Port UI/UX capability (235) "на Владимира", and the screen-rework feature already on him under 180 moves to 235. Only "Владимир" is said; that it is Vladimir Samusenko is an **inference** from his Sept-22 screen redraw. See [[wiki/decisions/2026-09-18-the-mvp1-capability-list-is-walked-item-by-item-and-every-capability-gets-an-owner.md]] (Sept-23 8:00 AM update) [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]].
 
 ## Sources
 
@@ -99,3 +117,5 @@ At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexp
 - [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]

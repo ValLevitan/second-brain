@@ -4,8 +4,8 @@ title: Eclipse Compliance Testing — does Eclipse do South Dakota VLT approvals
 date: 2026-09-22
 aliases: [Eclipse South Dakota inquiry, Eclipse Compliance Testing call, South Dakota VLT approval inquiry, Nick Farley call]
 source-count: 2
-open-commitments: 1
-open-questions: 1
+open-commitments: 0
+open-questions: 0
 ---
 
 # Eclipse — South Dakota VLT approval inquiry
@@ -21,13 +21,13 @@ open-questions: 1
 - [[wiki/organizations/eclipse-gaming-lab.md]] (Sept 22) — what Ricky found, the call-back promise, and the Nick Farley question
 - [[wiki/projects/south-dakota-vlt-market.md]] (Sept 22) — Val asks Eclipse whether it can approve the South Dakota VLT
 
-## Open commitments
+## Commitments (discharged)
 
-- [ ] **Ricky (Eclipse)** — text Nick Farley the question now, and call Val back on the same number with a confirmed answer — due unspecified ("I'll text him right now") — [[raw/Meeting_Transcript_Eclipse_Compliance_Testing_South_Dakota_VLT_Approval_Inquiry-September-22-2026.md]]
+- [x] **Ricky (Eclipse)** — text Nick Farley the question now, and call Val back on the same number with a confirmed answer — due unspecified ("I'll text him right now") — [[raw/Meeting_Transcript_Eclipse_Compliance_Testing_South_Dakota_VLT_Approval_Inquiry-September-22-2026.md]] — **discharged Sept 23 2026:** Nick Farley called Val back — see [[wiki/meetings/2026-09-23-eclipse-nick-farley-south-dakota-vlt-answer.md]]
 
-## Open questions
+## Questions (answered)
 
-- **Will Eclipse formally test and approve JVL's South Dakota VLT?** Ricky found "**South Dakota Commission on gaming**" in Eclipse's system but offered only to "**check with Nick to see and confirm for sure**" — [[raw/Meeting_Transcript_Eclipse_Compliance_Testing_South_Dakota_VLT_Approval_Inquiry-September-22-2026.md]]
+- *(Answered Sept 23 2026 — "no, for now"; see [[wiki/meetings/2026-09-23-eclipse-nick-farley-south-dakota-vlt-answer.md]].)* **Will Eclipse formally test and approve JVL's South Dakota VLT?** Ricky found "**South Dakota Commission on gaming**" in Eclipse's system but offered only to "**check with Nick to see and confirm for sure**" — [[raw/Meeting_Transcript_Eclipse_Compliance_Testing_South_Dakota_VLT_Approval_Inquiry-September-22-2026.md]]
 
 ## Notes on the sources
 

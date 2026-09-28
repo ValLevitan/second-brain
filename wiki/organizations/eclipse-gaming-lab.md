@@ -3,9 +3,9 @@ type: organization
 title: Eclipse (gaming test lab)
 date: 2025-03-14
 aliases: [Eclipse, Eclipse Compliance Testing, Eclipse lab, клипс, клипсе, always wanted a local box for the electronics, Nebraska parameters, Xlibs, эклипс, a week for Eclipse to issue certificates, only the machine]
-source-count: 13
+source-count: 15
 open-commitments: 1
-open-questions: 2
+open-questions: 1
 ---
 
 # Eclipse (gaming test lab)
@@ -73,17 +73,33 @@ On a [[wiki/meetings/2026-09-22-eclipse-south-dakota-vlt-approval-inquiry.md|sho
 
 **Who is Nick Farley?** This is the first time the surname appears in the corpus. The call shows him reachable through Eclipse's front desk, and Eclipse staff defer to him on what the lab covers [[raw/Meeting_Transcript_Eclipse_Compliance_Testing_South_Dakota_VLT_Approval_Inquiry-September-22-2026.md]]. Whether he is the **Nick** of the June-2025 call above is **not stated** in either source; see Open contradictions.
 
+## Sept 23 2026 — Nick Farley calls back: Eclipse does not do the South Dakota VLT today
+
+On a [[wiki/meetings/2026-09-23-eclipse-nick-farley-south-dakota-vlt-answer.md|Sept-23 10:30 AM call-back]], Nick Farley answered the question Val left with the lab the day before. Val: "I was wondering if Eclipse supported South Dakota VLT submission." [[raw/Meeting_Transcript_Eclipse_Nick_Farley_South_Dakota_VLT_Answer-September-23-2026.md]]
+
+- **What Eclipse has.** Nick: "We got authorized with the South Dakota Commission on Gaming. But I don't think we ever had to stop the clue lottery." The second sentence is garbled; the derived notes read it as the lottery-side path never being completed (**inference**) [[raw/Meeting_Transcript_Eclipse_Nick_Farley_South_Dakota_VLT_Answer-September-23-2026.md]] [[raw/Meeting_Notes_Eclipse_Nick_Farley_South_Dakota_VLT_Answer-September-23-2026.md]].
+- **The answer is no, for now.** Val: "I said the answer is no." Nick: "That would be correct now." Val: "That closes the." Nick: "Subject." [[raw/Meeting_Transcript_Eclipse_Nick_Farley_South_Dakota_VLT_Answer-September-23-2026.md]]
+- **But he will look.** "I'm gonna have somebody look into it though, because we're trying to get more jurisdictions." [[raw/Meeting_Transcript_Eclipse_Nick_Farley_South_Dakota_VLT_Answer-September-23-2026.md]]
+- **Eclipse is expanding.** Nick named **Raúl Mondragon** — "He's working for me now, and he's working to get us into Peru, Chile, Panama, Costa Rica… Mexico and a few other Latin American countries" — and alliances with trade-show organisers "to try and get us into Europe and elsewhere. We're trying to grow globally." *(A Raul Mondragon appears once before in the wiki, as the man who obtained JVL's Chilean licence long ago — [[wiki/topics/online-games-rgs-distribution.md]]. Whether it is the same man is **not stated**.)* [[raw/Meeting_Transcript_Eclipse_Nick_Farley_South_Dakota_VLT_Answer-September-23-2026.md]]
+- **Las Vegas.** Nick is "heading out on Saturday. And we are exhibiting at the show." Val is not going [[raw/Meeting_Transcript_Eclipse_Nick_Farley_South_Dakota_VLT_Answer-September-23-2026.md]].
+
+**Who Nick Farley is — a new data point, not a resolution.** In this call Nick speaks for Eclipse in the first person ("we got authorized", "we're trying to get more jurisdictions") and says an expansion lead is "working for me". That fits a senior Eclipse role. It does not settle the open contradiction below about the June-2025 "Nick" [[raw/Meeting_Transcript_Eclipse_Nick_Farley_South_Dakota_VLT_Answer-September-23-2026.md]].
+
 ## Open contradictions
 
-- **Is "Nick" part of Eclipse or not?** The June-4 2025 entry above reads the Nick on that call as "not an Eclipse employee" (an independent skill-game expert with Las Vegas and Cleveland offices) [[raw/eclipse_nebraska_testing_requirement_review-june-4-2025.md]]. On Sept 22 2026 Eclipse's reception takes messages for a **Nick Farley** ("He's not in office") and its technician checks with him before confirming the lab's scope [[raw/Meeting_Transcript_Eclipse_Compliance_Testing_South_Dakota_VLT_Approval_Inquiry-September-22-2026.md]]. If these are the same man, the June reading is wrong; if not, they are two Nicks. **No source links them — not resolved.**
+- **Is "Nick" part of Eclipse or not?** The June-4 2025 entry above reads the Nick on that call as "not an Eclipse employee" (an independent skill-game expert with Las Vegas and Cleveland offices) [[raw/eclipse_nebraska_testing_requirement_review-june-4-2025.md]]. On Sept 22 2026 Eclipse's reception takes messages for a **Nick Farley** ("He's not in office") and its technician checks with him before confirming the lab's scope [[raw/Meeting_Transcript_Eclipse_Compliance_Testing_South_Dakota_VLT_Approval_Inquiry-September-22-2026.md]]. If these are the same man, the June reading is wrong; if not, they are two Nicks. **No source links them — not resolved.** **Sept 23 2026 data point:** Nick Farley speaks for Eclipse as "we" and says a Latin-America lead is "working for me"; he is also bound for a Las Vegas show where Eclipse exhibits. The June-2025 Nick had Las Vegas offices. Neither fact links the two men — **still not resolved** [[raw/Meeting_Transcript_Eclipse_Nick_Farley_South_Dakota_VLT_Answer-September-23-2026.md]].
+
+## History
+
+- **Answered Sept 23 2026 — the Sept-22 open question.** "Does Eclipse offer a full test-and-approval route for the South Dakota VLT?" was open after Sept 22; Nick Farley answered no, for now — [[raw/Meeting_Transcript_Eclipse_Nick_Farley_South_Dakota_VLT_Answer-September-23-2026.md]]
 
 ## Open commitments
 
-- [ ] **Ricky (Eclipse)** — confirm with Nick Farley and call Val back on whether Eclipse approves South Dakota VLTs — due unspecified — [[raw/Meeting_Transcript_Eclipse_Compliance_Testing_South_Dakota_VLT_Approval_Inquiry-September-22-2026.md]]
+- [x] **Ricky (Eclipse)** — confirm with Nick Farley and call Val back on whether Eclipse approves South Dakota VLTs — due unspecified — [[raw/Meeting_Transcript_Eclipse_Compliance_Testing_South_Dakota_VLT_Approval_Inquiry-September-22-2026.md]] — **discharged Sept 23 2026:** Nick Farley called Val back himself; the answer was no, for now — [[raw/Meeting_Transcript_Eclipse_Nick_Farley_South_Dakota_VLT_Answer-September-23-2026.md]]
+- [ ] **Nick Farley (Eclipse)** — have someone look into the South Dakota submission path, as Eclipse seeks more jurisdictions — due unspecified; Val had already accepted "no" — [[raw/Meeting_Transcript_Eclipse_Nick_Farley_South_Dakota_VLT_Answer-September-23-2026.md]]
 
 ## Open questions
 
-- **Does Eclipse offer a full test-and-approval route for the South Dakota VLT?** A database listing for the South Dakota Commission on Gaming was found; a service commitment was not given — [[raw/Meeting_Transcript_Eclipse_Compliance_Testing_South_Dakota_VLT_Approval_Inquiry-September-22-2026.md]]
 - **Is Nick Farley the Nick of the June-4 2025 Nebraska call?** — [[raw/Meeting_Transcript_Eclipse_Compliance_Testing_South_Dakota_VLT_Approval_Inquiry-September-22-2026.md]] [[raw/eclipse_nebraska_testing_requirement_review-june-4-2025.md]]
 
 **§15.8:** clear — certification-scope facts only; no named-person compensation.
@@ -103,3 +119,5 @@ On a [[wiki/meetings/2026-09-22-eclipse-south-dakota-vlt-approval-inquiry.md|sho
 - [[raw/Meeting_Notes_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
 - [[raw/Meeting_Notes_Eclipse_Compliance_Testing_South_Dakota_VLT_Approval_Inquiry-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Eclipse_Compliance_Testing_South_Dakota_VLT_Approval_Inquiry-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Eclipse_Nick_Farley_South_Dakota_VLT_Answer-September-23-2026.md]]
+- [[raw/Meeting_Notes_Eclipse_Nick_Farley_South_Dakota_VLT_Answer-September-23-2026.md]]

@@ -3,8 +3,8 @@ type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
 aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus, $20 test, twenty dollar test, Twin Bison, Wolfpack, Clover Fortune, Liberty Spins, peek-to-be-in bonus, locking bison, Rodeo Spins, multi-progressive, Multi-Progressive initiative, three-level progressive, three progressive styles, bet-dependent progressive, symbol-driven progressive, time on device, jackpot reset value, RTP parity, Pyre Island, dual box skill feature, Lions Riches, Primero, Piggy, attraction loop, credits vs dollars, default to a dollar, first three rankings, the ice maker, settings not the report, no secret between us, Anchor Gaming, Wheel of Fortune, sickly sweet, two RTP versions, too many options]
-source-count: 91
-open-questions: 9
+source-count: 92
+open-questions: 12
 ---
 
 # Slot game-design principles and the progressive-bet-incentive debate
@@ -911,6 +911,34 @@ Val's pitch, framed as an operator-facing offer: "**in each location, a wall of 
 
 **§15.8:** design and market economics only; no named-person compensation.
 
+
+## Sept 22 2026 — two titles per family, progressives on the icons, and discrete vs cumulative releases
+
+From the [[wiki/meetings/2026-09-22-multi-game-screen-layout-and-game-count.md|Sept-22 2:45 PM multi-game screen call]] (Georgia V3 selection screen). The game-count outcome is on [[wiki/decisions/2026-09-11-no-new-game-badge-and-two-titles-per-category-stand.md]] (Sept-22 update). [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
+
+### Why two titles per family
+
+- **The games were built to be deployed two at a time.** [[wiki/people/michael-gottlieb.md|Michael]]: "**they were designed under the auspice that we would only deploy two in a casino. And then over time, we would refresh. It's basically just the same as the Aristocrat deployment philosophy.**" You swap them out "**when the numbers drop off and the players want something different.**" [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
+- **A family has about two real mechanics.** Jackpot Rush has "**like 2**"; for Fiery Ice Link the plan was two titles, "**One title would have added Wilds, the other title would have expanding Wilds**". If a player picks two that play the same, "**they're going to feel like all the Fiery Ice games are the same.**" Variety inside a family comes from theme: "**if you're Hispanic theme oriented, we have Calle Ocho… if you like a different theme, we've got Tropical Paradise.**" [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
+- **More Jackpot Rush titles later only on results.** "**Conceivably, depending on if Jackpot Rush continues to perform, yes… Nothing is set in stone.**" "**the idea is to chase our winners.**" [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
+
+### Progressives on the game icons — moved to the next release
+
+- Michael's layout puts a progressive on each icon. He had planned it for V4: "**having the progressives on the buttons.**" Val asked if it could go into V3. [[wiki/people/lena.md|Lena]]: "**It will take at least two weeks to renew the whole layout.**" Val: "**let's include it in the future release… I don't know whether it's V4 or can we call it V3 and a half?**" The name was left open. [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
+- **The trade-off Michael named.** Ten games in three categories means "**we can promote the progressives, which is what we should be doing**"; with the new layout "**you lose the progressive promotion text, which I think is a distinct negative.**" [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
+
+### Discrete or cumulative releases — no ruling
+
+- **Two schools.** Discrete: each release "**its own discrete 6… and never the two shall meet.**" [[wiki/people/juan-martinez.md|Juan]]'s proposal, as Michael relayed it: V4 carries "**the top performers from V3, along with a number of new games**", because "**coming to the market with like 15 15 new games is pretty aggressive. It's expensive and time-consuming**" — "**a blended philosophy of optimizing your winners.**" [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
+- **Val has no view yet.** "**I don't have a philosophy. I have to be led to a philosophy right now.**" This fits his Sept-11 line that he is "not in charge of the philosophy". [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
+- **Michael on the library.** Shipping everything is "**fine as long as it's going to be a cumulative release. But what you're looking at here, Val, reflects several years of work and a hell of a lot of money.**" [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
+
+## Open questions (Sept 22 2026)
+
+- Discrete or cumulative releases? Michael laid out Juan's blended approach; Val made no ruling — [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
+- Does the progressive promotion text that the new layout drops come back? Michael called its loss a negative; nobody answered — [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
+- Is the next release called V4 or "V3 and a half"? Left open — [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
+
 ## Open questions (Sept 16 2026)
 
 - **Does JVL build the 30-second cash-out grace period?** Proposed live, with the visible-timer question left open by the proposer himself, and never answered by Val on the recording — [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
@@ -1020,3 +1048,4 @@ Val's pitch, framed as an operator-facing offer: "**in each location, a wall of 
 - [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
 - [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Rich_Winley_Georgia_COAM_Market_Intel-January-27-2026.md]]
+- [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]

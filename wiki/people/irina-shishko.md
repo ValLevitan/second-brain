@@ -4,8 +4,8 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 93
-open-commitments: 25
+source-count: 96
+open-commitments: 29
 ---
 
 # Irina Shishko
@@ -413,6 +413,41 @@ At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexp
 
 - [ ] Irina Shishko — with Ivan, work the maths error that surfaced in (she thought) Clover Fortune — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
 
+## Sept 22 2026 (8:01 AM) — she moves FlexPay out, splits the initiative, and says the release has no tests
+
+On the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-tests.md|Sept-22 8:01 AM MVP 1 call]] (Russian) [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]:
+
+- **Capability 115 leaves MVP 1 on her argument:** "мы… flex pay в [MVP один] не проверяем и не выпускаем". Val: "Я согласен с Ириной" ([[wiki/decisions/2026-09-18-the-mvp1-capability-list-is-walked-item-by-item-and-every-capability-gets-an-owner.md]], Sept-22 update).
+- **She proposed splitting the initiative** into Flex IQ (MVP 1) and FlexPay (MVP 2) so the schedule reads right; Val: "мне нравится".
+- **Acceptance criteria:** about "60 70%" checked with Claude and passing; the rest still to write.
+- **No end-to-end tests:** "Этим пока у нас никто не занимался". She said the team would release anyway and called that "неправильно в этом релизе". The ruling that followed is on [[wiki/decisions/2026-09-22-autotests-go-inside-the-existing-capabilities-and-the-first-e2e-test-is-a-one-hour-micro-step.md]].
+- **Statuses:** a capability with new requirements goes to To Do or Accepted, "Только не инпрогресс".
+- **She filed the first E2E test under capability 173**, and her Claude froze while she was creating the feature, which ended the call.
+
+## Open commitments (Sept 22 2026, 8:01 AM)
+
+- [ ] Irina Shishko — create the autotest features under the existing capabilities and plan them — due Sept 22 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
+- [ ] Irina Shishko (with Pavel Frolov) — put Ivan and Alexei Khamin on the test work in the schedule — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
+
+
+## Sept 23 2026 — she splits capability 118 and takes the requirements cleanup
+
+At the [[wiki/meetings/2026-09-23-daily-standup-terminal-emulator-and-capability-split.md|Sept-23 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]:
+
+- **She split 118 live**, by cloning it: the Flex-Port / Sergey's item stays, 12-03 and 12-04 go to the FlexPay capability. Her reason: finished Flex IQ work cannot be closed "потому что flexpay ещё не готов". See [[wiki/decisions/2026-09-23-capability-118-is-split-by-product-and-two-devices-keep-two-repositories.md]].
+- **Requirements.** She will add missing criteria, close what she can, and sort out one lumped requirement. She is sending Pavel Claude's remarks on four checklist-like requirements; requirement 743 has contradictions she asked him to judge. See [[wiki/topics/test-automation-strategy.md]] (Sept 23).
+- **She backed Khamin on the test first:** "всё бросаешь и занимаешься тестом."
+
+
+## Sept 23 2026 (8:00 AM) — she walks the open requirements, and calls the test a positive experiment
+
+On the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-autotests.md|Sept-23 8:00 AM MVP 1 call]] (Russian) she shared the list of about 12–13 requirements with open questions and took the group through them one by one — see [[wiki/decisions/2026-09-23-open-requirements-are-settled-on-the-call-and-only-slow-ones-are-parked.md]]. She reported that two capabilities mixing FlexPay and Flex IQ were split and the FlexPay part moved to MVP 2. On the tests: "Положительный эксперимент проведен"; she will create the autotest features under the MVP 1 capabilities. See [[wiki/decisions/2026-09-22-autotests-go-inside-the-existing-capabilities-and-the-first-e2e-test-is-a-one-hour-micro-step.md]] (Sept-23 update) [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]].
+
+## Open commitments (Sept 23 2026, 8:00 AM)
+
+- [ ] Irina Shishko — apply Pavel's "no fixed time, show at once, keep retrying" wording to the device-disconnect requirements — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [ ] Irina Shishko — create the autotest features under the MVP 1 capabilities — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
@@ -508,3 +543,6 @@ At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexp
 - [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]

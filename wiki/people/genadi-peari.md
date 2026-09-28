@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий, Kenadi]
-source-count: 98
+source-count: 99
 open-commitments: 32
 ---
 
@@ -457,8 +457,13 @@ This is the third time in a fortnight that Genadi is the one who names a *visibi
 
 On the [[wiki/meetings/2026-09-21-transactional-mvp1-flexport-and-iq-ux-design.md|Sept-21 8:02 AM call]], Klimovich said he took the screen sizes and pixel data from Genadi: "я все взял данные от Геннадия по размеру экранов", and gave the resolution as "854 на 480" [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]].
 
+## Sept 23 2026 — why pay for air now?
+
+On the [[wiki/meetings/2026-09-23-open-purchase-order-payment-walkthrough.md|Sept-23 purchase-order walkthrough]] (Val and [[wiki/people/mikhail-perelman.md|Mikhail Perelman]]) Genadi spoke a few times. He named the vendor being made to wait as the Echo board supplier: "Это плата на эхо мазербор." When Val agreed to fly about 100 springs, Genadi pushed back: "Из самолета можешь в любой момент попросить тебя в течение недели он пришлёт… Может ты их зачем экстрамани платишь?" Mikhail's answer: JVL's own payment also takes a week, so starting today is already the fast case. Details on [[wiki/people/mikhail-perelman.md]] (Sept 23) [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]].
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]]
 - [[raw/Meeting_Transcript_Flex_Pay_Slim_Lid_and_Wiring_Critique-September-17-2026.md]]
 - [[raw/Meeting_Notes_Flex_Pay_Slim_Lid_and_Wiring_Critique-September-17-2026.md]]
 - [[raw/Meeting_Transcript_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]]

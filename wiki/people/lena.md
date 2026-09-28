@@ -3,8 +3,8 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna, Selena, Elena]
-source-count: 67
-open-commitments: 12
+source-count: 68
+open-commitments: 13
 ---
 
 # Lena
@@ -290,6 +290,19 @@ The man asked, through [[wiki/people/pavel.md|Pavel Frolov]], whether he could c
 
 **Note on standing:** nothing here reduces her role. Across the same period she continues to lead the game-design / art side, including the Class A work on NOVA ([[wiki/decisions/2026-09-11-georgia-class-a-v43-is-built-on-nova-not-rage.md]]). The exclusion is scoped to one secret assignment.
 
+
+## Sept 22 2026 — the layout costs two weeks, and the product holds fifteen games
+
+At the [[wiki/meetings/2026-09-22-multi-game-screen-layout-and-game-count.md|Sept-22 2:45 PM multi-game screen call]] [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]:
+
+- **She sized the layout change.** "**It will take at least two weeks to renew the whole layout.**" That moved the progressives-on-icons layout out of V3. See [[wiki/topics/slot-game-design-principles.md]] (Sept 22).
+- **She reframed the game count.** "**the actual product has 15 games, we just show 10**". See [[wiki/decisions/2026-09-11-no-new-game-badge-and-two-titles-per-category-stand.md]] (Sept-22 update).
+- **Frame zero of the idle screen** "**shows mega hit blaze**", but the current layout is broken, so she could not show it. She will send it to Val.
+
+## Open commitments (Sept 22 2026)
+
+- [ ] Lena Zhukova — fix the broken layout and send Val the idle screen's frame zero — due unspecified — [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
@@ -360,3 +373,4 @@ The man asked, through [[wiki/people/pavel.md|Pavel Frolov]], whether he could c
 - [[raw/Meeting_Transcript_Michael_Gottlieb_Art_Production_Roles_and_Estimation-January-23-2026.md]]
 - [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]
 - [[raw/Meeting_Transcript_Clayton_Jira_MCP_Demo_and_Toolset_Direction-January-29-2026.md]]
+- [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]

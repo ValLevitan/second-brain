@@ -4,7 +4,7 @@ title: Anton Seregin
 date: 2026-07-13
 aliases: [Anton Seregin, Seregin, Anton Seryogin, Серёги, Серёгин]
 disambiguation: "Minsk payroll / React-TS front-end dev, this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 10
+source-count: 12
 ---
 
 # Anton Seregin
@@ -37,6 +37,21 @@ On the [[wiki/meetings/2026-02-11-github-front-end-waze-setup.md|Feb-11 GitHub f
 
 On the [[wiki/meetings/2026-08-24-nova-lgs-prose-standard-checkpoint.md|Aug-24 prose checkpoint]] (Russian; Seregin **not present**) [[wiki/people/pavel.md|Pavel Frolov]] cited him as having already done the work JVL now wants extended to the backend: "у нас Антон серёгин писал… Прозу и капбилити для… со стороны график юзер интерфейс" — prose and capabilities from the graphical-user-interface side. [[wiki/people/irina-shishko.md|Irina Shishko]] identified the subject as **RIS**: "так для риса писал, если уже это проза." (The middle of Pavel's sentence is garbled in the transcript; the GUI-side attribution and Irina's RIS identification are clear.) Pavel's proposal was to give [[wiki/people/sergey-tsymanov.md|Sergey Tsimanov]] the parallel backend/CMS prose. See [[wiki/topics/github-release-management-pipeline.md]] (Aug-24). [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]] [[raw/Meeting_Notes_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
 
+
+## Sept 23 2026 — the kiosk emulator: bill-validator cases, and the new priority one
+
+At the [[wiki/meetings/2026-09-23-daily-standup-terminal-emulator-and-capability-split.md|Sept-23 Minsk stand-up]] (Russian), by speaker label [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]:
+
+- **He extended the bill-validator emulation** on top of an existing validator daemon: currency and denomination changes, a bill-cheating error, a fail pause (events had fired instantly and broken the kiosk's logic), escrow, and the disconnect case where a bill is taken but the transaction does not go through.
+- **The Flex-Port is not in his emulator** — "такого как бы устройства даже нет".
+- **Next:** merge his branch into main, then clone the work for Flex IQ and build a terminal emulator that works with a real device — Pavel's priority one. See [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]] (Sept-23 update).
+- **Very likely the "Антон" building a FlexPay emulator on Sept 22** (inference — same work, next day).
+
+
+## Sept 23 2026 (8:00 AM, in absentia, by inference) — the FlexPay emulator, to be copied for Flex IQ
+
+On the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-autotests.md|Sept-23 8:00 AM MVP 1 call]], Pavel said "он заканчивает флекс певский эмулятор" and that a task is needed for him to copy it for Flex IQ — "пару дней наверно". Only "Антон" is named; that it is Anton Seregin is an **inference** from his emulator report at the 4:48 stand-up the same day. See [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]] (Sept-23 8:00 AM update) [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]].
+
 ## Sources
 
 - [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
@@ -49,3 +64,5 @@ On the [[wiki/meetings/2026-08-24-nova-lgs-prose-standard-checkpoint.md|Aug-24 p
 - [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-4.md]]
 - [[raw/Meeting_Notes_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
 - [[raw/Meeting_Transcript_NOVA_LGS_Prose_Standard_Checkpoint-August-24-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]

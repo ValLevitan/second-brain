@@ -2,11 +2,11 @@
 type: decision
 title: "Accepted" on a capability means reviewed and accepted, not taken into work — taken into work is the move to To Do when the release scope is set, and the transition will be automated from feature status
 date: 2026-09-11
-aliases: [the green status in the middle misleads, accepted is not taken into work, move to To Do when we say we are doing MVP 1, automate capability status from feature status, a feature going In Progress moves its capability, move all MVP 1 capabilities into To Do]
-source-count: 3
+aliases: [the green status in the middle misleads, accepted is not taken into work, move to To Do when we say we are doing MVP 1, automate capability status from feature status, a feature going In Progress moves its capability, move all MVP 1 capabilities into To Do, green Accepted looks done, change the colour, only not In Progress]
+source-count: 6
 status: active
 open-commitments: 3
-open-questions: 1
+open-questions: 2
 ---
 
 # "Accepted" means reviewed — taken into work is the move to To Do
@@ -44,6 +44,25 @@ The Sept-11 fix settled the front of the capability workflow. At the [[wiki/meet
 
 **A workflow snag.** Pavel could not move a story "Из реквест ревью… в комплитет", because of "особые настройки проекта h fm". Kovalchuk offered to look, now or later [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
 
+## Update, Sept 22 2026 (8:01 AM) — the green colour still reads as "done"
+
+Three hours later, at the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-tests.md|8:01 AM MVP 1 call]], the Sept-11 complaint came back on capability 180. Pavel asked Klimovich to move it to To Do once filled, "потому что он сейчас в акцепт он в зеленом состоянии кажется, что он сделан" [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]].
+
+- **Klimovich: the status move does not fix the look.** "это же не решит проблему того, что [акцепт] воспринимается как сделан, это надо цвет поменять" — Accepted is green and To Do grey, "как будто туду это более… ценное состояние".
+- **Irina restated the meaning.** Accepted means the capability and its requirements were accepted and work may start on it — the Sept-11 definition above.
+- **Pavel: the fix was already asked for.** "Уже задачу поставили диме… все равно стала зеленым. Наверное, к этому надо ещё раз подойти" — "диме ковальчуку" [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]].
+- **A changed capability is never pushed back to In Progress.** When Chudinov suggested resetting a status to flag new requirements, Irina cut in: "Только не инпрогресс… то до либо акцепт[ед]", because In Progress means a feature is already being worked [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]].
+
+## Update, Sept 23 2026 — the whole flow, restated by the product owner
+
+At the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-autotests.md|Sept-23 8:00 AM call]], Val asked who moves a capability, and when. Pavel first answered "Кто заметил, тот и переводит". [[wiki/people/andrei-klimovich.md|Klimovich]] corrected him [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]:
+
+> "до этапа осептает, я перевожу после септает. Тот, на кого о сайне должен забрать её к себе в туду, и потом, когда начал ей заниматься, перевести в инпрогресс"
+
+[[wiki/people/alexei-khamin.md|Khamin]] added the end: when all features are done the developer moves it to Review, and from Review to Complete it goes through QA/product. Klimovich: "тут надо ещё подумать, как это сделать, но вот на этой VPE мы обкатаем этот процесс" — the process is tried out during this MVP. His last line, "Без разрешения к и родок точно не должен это сделать", is garbled; the derived notes read it as "a developer must not close it" (**inference**) [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]] [[raw/Meeting_Notes_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]].
+
+Pavel's rule on To Do, the same call: "как только фичи созданы сразу, они должны быть в туду после Того, как фичи наполнены" [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]. **The flow in one line:** Klimovich → Accepted; assignee → To Do (features filled) → In Progress (work starts) → Review (all features done); Review → Complete by QA/product, not decided in detail.
+
 ## Open commitments
 
 - [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — automate the capability status transition from feature status (a feature going In Progress moves its capability To Do → In Progress, and back), after testing it — due after Monday Sept 14 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
@@ -53,6 +72,7 @@ The Sept-11 fix settled the front of the capability workflow. At the [[wiki/meet
 
 ## Open questions
 
+- **Will the Accepted colour be changed?** Klimovich and Irina say green Accepted and grey To Do mislead; Pavel says a task to Kovalchuk left it green and needs another pass; no owner or date was set — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
 - **What, if anything, has to happen between Accepted and To Do?** Klimovich asked directly — "что должно происходить с [капабилити,] для Того, чтобы он перешёл [из] [ак]септ[а] в туду[,] какой процесс[?]" — and the answer given was the release-scope declaration itself, with no intermediate step named — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 
 *(The derived notes record the same outcome — "the meaning was fixed rather than the status removed" — and attribute the automation to Kovalchuk.)* [[raw/Meeting_Notes_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
@@ -63,3 +83,6 @@ The Sept-11 fix settled the front of the capability workflow. At the [[wiki/meet
 - [[raw/Meeting_Notes_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [[raw/Meeting_Notes_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]

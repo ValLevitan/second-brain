@@ -3,7 +3,7 @@ type: decision
 title: Remote firmware update is in MVP 1 for the gateways only — Flex IQ and FlexPay update themselves; distributing firmware to the Flex-Ports moved to MVP 2 on Sept 17
 date: 2026-09-14
 aliases: [firmware upgrade in MVP1, remote firmware update, OTA firmware, приоритет номер один это чтобы обновлялся флекс ай кю, flash the FlexPorts, Flex IQ to FlexPort protocol, доперфек, priority two deferred, FlexPort firmware by USB stick, capability 144 to MVP2, capability 144 cloned, no rollback, roll forward only, requirement 1367]
-source-count: 5
+source-count: 7
 status: active — but PARTLY SUPERSEDED: "priority two" (the gateways distributing firmware to the Flex-Ports) left MVP 1 on Sept 17 2026, and rolling BACK to a previous build was removed from MVP 1 on Sept 18 2026; see the dated updates below
 open-commitments: 2
 open-questions: 1
@@ -68,6 +68,19 @@ Two things at the [[wiki/meetings/2026-09-18-transactional-mvp1-capability-clean
 
 At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexport-gui.md|Sept-22 Minsk stand-up]] (Russian), [[wiki/people/dmitri-chudinov.md|Chudinov]] warned time is very short "если сейчас захотят апдейты на флекспорты". [[wiki/people/pavel.md|Pavel]]: "Так вроде же уже принято решение, что дейтэфлекс портов идут на ревизию. Ой на версию MVP 2." Chudinov: "Я не знаю… каждый день мы получаем новый список." This confirms the Sept-17 move above as Pavel's understanding; Chudinov's reply is a complaint about changing lists, not a reversal [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
 
+## Update, Sept 22 2026 (8:01 AM) — the Flex IQ half is closed
+
+Three hours later, at the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-tests.md|8:01 AM MVP 1 call]], [[wiki/people/dmitri-chudinov.md|Chudinov]] offered it as the good news of the date argument: "Самое верхнее [капабилити] 122 сегодня закрыто это ремоут апдейтс", and he would test it now. Pavel confirmed which one: "Ремонт апдейт флекса… флекс айкью" [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]. So **the Flex IQ self-update capability, 122, is closed as of Sept 22** — the same capability the 4:48 stand-up saw In Progress with all features closed and tests pending ([[wiki/topics/test-automation-strategy.md]], Sept 22). The Flex-Port half stays in MVP 2.
+
+
+## Update, Sept 23 2026 — Flex-Port firmware named as the emulator's most critical use
+
+At the [[wiki/meetings/2026-09-23-daily-standup-terminal-emulator-and-capability-split.md|Sept-23 Minsk stand-up]] (Russian), Pavel said the most critical use of the kiosk emulator is "обновление прошивок для флекспортов", so the work can be handed to [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]]. He described the flow as he remembers it: new firmware placed in a set location becomes available, a connected Flex-Port sees it and downloads it "по своему протоколу". [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
+
+- **Not a reversal of the Sept-17 MVP 2 move.** Pavel did not say which MVP this serves. Recorded as spoken.
+- **On the open question below:** Alekseev is again named as the intended user, but no one assigns him. The question stays open.
+- The emulator detail is on [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]] (Sept-23 update).
+
 ## Open commitments
 
 - [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — work the Flex IQ ↔ Flex-Port firmware-distribution protocol from his side, and improve it if he can — due unspecified — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
@@ -87,3 +100,5 @@ At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexp
 - [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
