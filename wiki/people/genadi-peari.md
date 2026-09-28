@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий]
-source-count: 91
+source-count: 92
 open-commitments: 25
 ---
 
@@ -159,6 +159,10 @@ On the Nov-11 POS + FlexPort schedule review ([[wiki/meetings/2025-11-11-pos-fle
 ## Nov 19 2025 — digital-amplifier standalone device + POS audio design requirements
 
 On a brief Val↔Genadi one-on-one ([[wiki/meetings/2025-11-19-genadi-audio-amplifier-standalone-pos-design-requirements.md]]; two recording segments 8:40 PM + 8:44 PM, ~7½ min total, Russian) Genadi restated that the **digital audio amplifier** must be broken out of the framework into a **standalone, hot-pluggable USB device**: today it is wired into the framework, so if it disconnects "the whole game falls" — as a standalone device the system must not crash, must return a defined error, and must re-attach on the fly. A serious cabinet needs a digital amplifier for adequate sound; ties to the move to the **Flex model's new speaker design** (3-way, no old grille). [[raw/Call_Genadi-November-19-2025-1.md]] For the POS/dispenser devices Val listed the audio components to fold into the requirements (speaker, an audio hub that can transmit, a monitor switch) and explained his design philosophy — **specify the building blocks and hand the graphics/UX to the professionals** rather than dictate it (the one constraint he imposes: place the speaker so nothing can be spilled on it). Genadi to add the feature to the design; Val recording and forwarding it. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/Call_Genadi-November-19-2025-2.md]]
+
+## Jan 8 2026 — introduced to Pyramid Technologies; the printer CAD file to go to him
+
+On the [[wiki/meetings/2026-01-08-pyramid-technologies-printer-integration-intro.md|Jan-8 Pyramid intro call]] Val introduced "Gennady" to Pyramid as JVL's director of the electromechanical department, located in Toronto, and asked that Pyramid's mechanical CAD file of the printer be sent to him for hardware integration, so JVL need not hand-measure it. See [[wiki/organizations/pyramid-technologies.md]]. [[raw/Meeting_Transcript_Pyramid_Technologies_Printer_Integration_Intro-January-8-2026.md]] *(§15.8: a joking remark about his relocation is not recorded.)*
 
 ## Feb 12 2026 — two calls: Flex station for Texas + tooling onboarding; then ECHO printer, the Georgia freeze, Flex-Port BOM
 
@@ -502,3 +506,4 @@ This is the third time in a fortnight that Genadi is the one who names a *visibi
 - [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
 - [[raw/Meeting_Notes_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Pyramid_Technologies_Printer_Integration_Intro-January-8-2026.md]]

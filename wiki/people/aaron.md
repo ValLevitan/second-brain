@@ -3,7 +3,7 @@ type: person
 title: Aaron
 date: 2026-07-12
 aliases: [Aaron, Aron, Erin, Eric, Aaron Bockelie, aaronsb]
-source-count: 118
+source-count: 120
 open-commitments: 2
 ---
 
@@ -228,6 +228,14 @@ On a coaching 1:1 ([[wiki/meetings/2025-09-10-minimum-architecture-pos-deploymen
 
 On the [[wiki/meetings/2025-09-16-backend-blueprint-payment-hub-review.md|Sept-16 blueprint review]] (1:03 PM, with Val + Pavel + Nathan) Aaron played the process advisor on how JVL should write specs. He surfaced the formal frameworks — **TOGAF** (The Open Group), **ArchiMate**, **PlantUML**, **ISO** requirement/spec standards — but judged them **not a match** for JVL's size and the January deadline ("you'll be spinning months writing all the specs; it will not let you hit January 1st"). His steer: distil an **informal, smaller** interpretation — an internal agreement on "what we consider a specification," not ISO certification. See [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Sept-16). [[raw/back-end_architecture_blueprint_review.md]]
 
+## Jan 23 2026 — introduces Clayton to Val
+
+On the [[wiki/meetings/2026-01-23-clayton-chancey-initial-ai-consulting-engagement.md|Jan-23 call]] Aaron introduced [[wiki/people/clayton-chancey.md|Clayton Chancey]] to Val. His own account: he has known Val "since twenty twenty two twenty one", doing "side consulting work" on Atlassian, Agile "in the least possible way, the most useful way", Git and engineering leadership; "in the last year and a half, we've made this huge pivot into AI accelerated everything", with JVL "using the Jira MCP server that I've got and that I wrote". He said he has "stuck around… at C Prime" while Clayton left it. He said that same morning he told a meeting that people "are going to be using Claude code", and that with "JVL taking on an enterprise… Anthropic account" a hosted approach now makes sense. His framing, which Clayton's framework builds on: AI tools "collapse the time it takes for bureaucratic processes to occur while still allowing them to happen"; and "software is as epistemically honest as possible" — legislation is "literally code review", one code "runs on people, one runs on computers". Val's view of him: "I look at Aaron as an educator to me." Val asked that Aaron attend the first working meetings with Clayton. Detail on [[wiki/topics/ai-assisted-development.md]] (Jan 23 2026). [[raw/Meeting_Transcript_Clayton_Chancey_Initial_AI_Consulting_Engagement-January-23-2026.md]]
+
+## Jan 27 2026 — joins the game-design orientation (inferred)
+
+A "Speaker 5" who joins the [[wiki/meetings/2026-01-27-clayton-lena-game-design-jira-orientation.md|Jan-27 orientation]] partway is taken as Aaron (inference: he is building the developer team's Jira MCP, Clayton refers to work "Aaron and I have done", and Val thanks "Aaron" at the end). He said AI tools have changed a lot and Lena's view rests on "information that's about nine months old, maybe ten months old"; argued for several focused MCP servers by role — "it's not a one size fits all solution"; and warned that one call of the official server "consumed a quarter of his context" while he watched a "Yevgeny" work. Val credited him with the phrase "good bureaucracy". Detail on [[wiki/topics/ai-assisted-development.md]] (Jan 27 2026). [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]
+
 ## Jan 29 2026 — Clayton's MCP-tools working session
 
 On the [[wiki/meetings/2026-01-29-jvl-working-session-mcp-tools-demo.md|working session]] where his colleague [[wiki/people/clayton-chancey.md|Clayton Chancey]] demoed the custom JVL Atlassian MCP tools (with Val and [[wiki/people/lena.md|Lena]]), Aaron shared Clayton's "AI-augmented" framing: with enough high-quality context scaffolded intelligently, an LLM can judge which pieces to automate and how — judgment-informed augmentation, not blind automation. Substance on [[wiki/people/clayton-chancey.md]]. [[raw/Clayton_jvl-working-session-2-summary-January-20-2026.md]]
@@ -320,6 +328,7 @@ A long [[wiki/people/val-levitan.md|Val]] session ([[wiki/meetings/2026-04-13-aa
 Asked by Val whether the Flex-Port debug environment should be "типа, как сделал [Аарон] для rk 35 68," [[wiki/people/pavel.md|Pavel Frolov]] said no and drew the distinction: "**Аарон никакую среду не подымал**, он всего лишь собрал набор скриптов, которые позволяли собрать нужные модули[ ]и собрать корневую файловую систему для этого [RK] процессора" — a build toolchain, not a development environment; the environment work that followed was Pavel's own ("а потом вы уже делали" — Val; "Да" — Pavel). Recorded because it narrows what the corpus elsewhere attributes to Aaron on the RK3568. Context on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 4) [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]].
 
 ## Sources
+- [[raw/Meeting_Transcript_Clayton_Chancey_Initial_AI_Consulting_Engagement-January-23-2026.md]]
 
 - [[raw/Meeting_Transcript_lena_IP_MCP_model_regression-1-April-28-2026.md]]
 - [[raw/Meeting_Transcript_cas_cloud_migration_doc_readiness_review-April-28-2026.md]]
@@ -440,3 +449,4 @@ Asked by Val whether the Flex-Port debug environment should be "типа, как
 - [[raw/Meeting_Transcript_Transcripts_MCP_setup_Lena-March-31-2026.md]]
 - [[raw/Meeting_Notes_Transcripts_MCP_Setup_Lena-March-31-2026.md]]
 - [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+- [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]

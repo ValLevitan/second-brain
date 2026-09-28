@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna, Selena, Elena]
-source-count: 64
+source-count: 66
 open-commitments: 12
 ---
 
@@ -136,6 +136,16 @@ On the [[wiki/meetings/2025-07-28-media-tax-credit-examiner-coaching.md|Media Ta
 ## Jul 31 2025 — amusement-games revival (team & scope)
 
 With [[wiki/people/val-levitan.md|Val]] and [[wiki/people/efim-podvoiski.md|Efim Podvoiski]], Lena scoped **reviving JVL's ~150 aged amusement games** onto the HTML framework — a full redesign from assets to framework programming (concepts/scenes/character designs reusable, assets not), games assembled in **Miranda**, ~2 years for ~50 games; she proposed **outsourcing** the self-contained project and flagged its market as distinct from mobile/internet. In the parallel Pavel session she and Efim are named as the ones who "know the whole history" and can advise. Full substance: [[wiki/topics/amusement-games-revival.md]]. [[raw/amusement_games_development_revival-july-31-2025-efim_lena.md]] [[raw/amusement_games_development_revivial-july-31-2025-pavel.md]]
+
+## Jan 23 & 27 2026 — her admin load, her Jira workflow, and meeting Clayton
+
+- **Jan 23 (Val and Michael, about her).** On the [[wiki/meetings/2026-01-23-michael-gottlieb-art-production-roles-and-estimation.md|Val–Gottlieb call]] Val said: "Whatever Lena is busy right now in terms of administration, I intend to automate 95% of it this year in 2026." He counts supervision and "inputting tasks into JIRA" as necessary but "non-value producing" work. The hierarchy is Michael, then Lena; the open question was whether a role is needed under her. Michael described her part in estimating: she looks at the metric and the employee's own estimate, then gives "guidance and shortcuts" and can move a task to someone else. Val said he and Lena saw the uneven story sizing as an issue "about a year ago" but lacked the bandwidth. See [[wiki/topics/game-production-throughput-strategy.md]] (Jan 23 2026). [[raw/Meeting_Transcript_Michael_Gottlieb_Art_Production_Roles_and_Estimation-January-23-2026.md]]
+- **Jan 27 — her role as Val stated it.** On the [[wiki/meetings/2026-01-27-clayton-lena-game-design-jira-orientation.md|Jan-27 orientation]] with [[wiki/people/clayton-chancey.md|Clayton Chancey]], Val introduced her as "a director of game design" who "reports directly to. The game producer", with a team of designers "located mainly in Europe, Portugal, Poland". She is present at game concept but that stage is mainly the product manager and producer; from design on, "this is where Lena is mainly running the show and she is pushing the production." [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]
+- **Her Jira workflow.** Concept and design are managed by "me, VP product owner and game producer"; production by "me and art managers". Each game has a list of deliverables; each milestone is treated as a feature; stories sit inside, "we're trying to keep our stories not more than two days. It's not always two days". Her main problem: "the amount of issues you need to enter, and you need to do description." Two people help her — she called them art managers — but "they are game artists by themselves". Val's clarification: they are senior design people who help enter tasks and are not managers. *(§15.8: Val's personal judgements of the two are not recorded.)* [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]
+- **Product cycles.** New complex games (several bonuses) can take about five months; adapting an existing game to another market is "a different cycle" whose length varies. [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]
+- **Rage Studio risk.** "Rage Studio is based on 3 ds Max11, which is not supported already by Autodesk… we don't have a team to work on Rage… there are some risks that we are working on unsupported software." Val: her "prime bureaucratic swamp is on Rage Studio", and "I have a feeling that Lena is spending somewhere between 20 to 40 % of her productive time on bureaucracy" — he does not know which end. See [[wiki/topics/omni-core-advancement-and-game-templating.md]] (Jan 27 2026). [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]
+- **Her AI experience so far.** She had not used Claude for tasks; "a couple of days ago" she tried a tool rendered "spline" (which one is unclear) and found it "helped a little bit", but it asks "so many questions on the way", everything must be rechecked, and it sometimes changes things "because he thinks it's better" when they are that way "because… There are some regulations on our market". The artists mostly use ChatGPT for art references and game concepts. Val noted she had not used Claude Desktop with a Jira MCP. See [[wiki/topics/ai-assisted-development.md]] (Jan 27 2026). [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]
+- **Next step.** She agreed to join the next meeting ("the day after tomorrow") to judge Clayton's first tool; Val gave Clayton a direct line to her: "My main objective is to make, Your life personally easier to unload the bureaucracy on automation." [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]
 
 ## Jan 29 2026 — MCP-tools working session (requirements from the design side)
 
@@ -341,3 +351,5 @@ The man asked, through [[wiki/people/pavel.md|Pavel Frolov]], whether he could c
 - [[raw/Meeting_Notes_Transcripts_MCP_Setup_Lena-March-31-2026.md]]
 - [[raw/Meeting_Notes_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+- [[raw/Meeting_Transcript_Michael_Gottlieb_Art_Production_Roles_and_Estimation-January-23-2026.md]]
+- [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]

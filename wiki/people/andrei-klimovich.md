@@ -4,8 +4,8 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich, Andre]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 84
-open-commitments: 76
+source-count: 85
+open-commitments: 78
 open-questions: 0
 ---
 
@@ -171,6 +171,15 @@ On the [[wiki/meetings/2025-09-15-echo-distribution-marketing-update.md|Sept-15 
 ## Sept 16 2025 — ECHO marketing session 2 (influencer sourcing, Amazon ad shift, website)
 
 On the [[wiki/meetings/2025-09-16-echo-marketing-influencer-sourcing.md|Sept-16 update]] (Russian; session 2 of the series) Andrei detailed his **influencer-sourcing method** (guns via 4 brand categories → collaborators; Valeria on horses; two arcade collectors responded, one at **$750/Reel+2 stories**), the **Amazon visual→search ad shift** (via a call with [[wiki/people/fedor.md|Fedor]]; visual cart-cost ~2× search; a "gaming equipment" $100/day locomotive broken by Amazon since Friday), pricing experiments (Prime-Day ~$2,990), a **June-2026** mental deadline to know if the product sells at a viable price, the plan to **intercept distributor web traffic** via Google, a full **website walk-through** (ECHO page $4,500/$6,000; Flex temp page $638 + $1,500 video; AR feature; $166/mo 0%-APR message), and the **Abfluence** influencer-tool trial ($660/mo, parked as too early). Val coached the premium-collector targeting again. Full detail on [[wiki/topics/echo-home-gaming-device.md]] (Sept-16). [[raw/echo_distribution_marketing_update-september-16-2025.md]]
+
+## Jan 21 2026 — reports a seven-machine fraud loss on the e-commerce channel
+
+On a Russian-language review with Val ([[wiki/meetings/2026-01-21-andrei-klimovich-ecommerce-fraud-loss-marketplace-expansion.md]]) Andrei reported that a buyer paid through QuickBooks, the money cleared to the Bank of America account, he shipped "seven machines" via Amazon, and about two weeks later the payment was "cancelled, By The payer" and reversed by QuickBooks. He called it "the biggest loss that we can potentially bring". Val told him to write the machines off against profit. He also reported the ad account behind "X" unlocked after "three managers" ("We managed to prove that we are not gambling devices"), first campaigns live, Bing on, Yahoo under consideration, and proposed new tasks for [[wiki/people/valeria.md|Valeria]]. Full detail on [[wiki/topics/echo-home-gaming-device.md]] (Jan 21 2026). §15.8: Valeria's pay terms withheld. [[raw/Meeting_Transcript_Andrei_Klimovich_Ecommerce_Fraud_Loss_and_Marketplace_Expansion-January-21-2026.md]]
+
+## Open commitments (Jan 21 2026)
+
+- [ ] Andrei Klimovich — write off the seven lost machines against profit and show what profit is left ("See how much money you have left") — due unspecified — [[raw/Meeting_Transcript_Andrei_Klimovich_Ecommerce_Fraud_Loss_and_Marketplace_Expansion-January-21-2026.md]]
+- [ ] Andrei Klimovich — hand Valeria the replacement-shipping work on the corporate FedEx account and first-line support ("Okay, let's go ahead and do this") — due unspecified — [[raw/Meeting_Transcript_Andrei_Klimovich_Ecommerce_Fraud_Loss_and_Marketplace_Expansion-January-21-2026.md]]
 
 ## Mar 20 2026 — role change: Product Manager, Transactional Equipment (role evolution)
 
@@ -649,3 +658,4 @@ The [[wiki/meetings/2026-09-18-transactional-mvp1-capability-cleanup-and-the-mon
 - [[raw/Meeting_Notes_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+- [[raw/Meeting_Transcript_Andrei_Klimovich_Ecommerce_Fraud_Loss_and_Marketplace_Expansion-January-21-2026.md]]

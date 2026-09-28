@@ -3,7 +3,7 @@ type: project
 title: South Dakota VLT market entry
 date: 2025-01-22
 aliases: [South Dakota, SD VLT, South Dakota VLT 3, VLT3, South Dakota D2703, IP1180, IP887, IP1131, IP1137, GD918, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950, V43, D27, SD cap, Bioliches, Gypsy Spirit, Crazy Colt, Queen of Luxor, Liberty Spin, Rodeo Spin, South Dakota vertical, MG Oil report, VLT2, Cool Cat, Black Hills Kino, Dragon Pace, Dakota Bison, Solar Keno, Keno Deluxe, IP459, IP1063]
-source-count: 45
+source-count: 46
 open-commitments: 4
 ---
 
@@ -109,6 +109,17 @@ On the [[wiki/meetings/2025-09-18-games-concepts-markets-review.md|Sept-18 games
 ## Oct 10 2025 — JCM iVizion firmware v2.84-44 approved (from Juan's G2E report)
 
 From [[wiki/people/juan-martinez.md|Juan]]'s post-G2E written status report ([[wiki/meetings/2025-10-10-g2e-juan-martinez-report.md]], not a transcript): the **JCM iVizion BV** (bill validator) was **approved — specifically firmware v2.84-44**; the **beta-test approval letter is expected Oct 14** and **other-location placements can start Oct 15**. Juan and [[wiki/people/denis-desmarais.md|Denis]] discussed **another technician-training session ~Nov 15**. **Keno game design has started** (the [[wiki/meetings/2025-10-06-game-design-scheduling-jira-grooming.md|Oct-6]] Black Hills / Solar / Liberty keno pack). [[raw/G2E_juan_martinez_report-october-10-2025.md]]
+
+## Jan 9 2026 — Val's account to a lender: a monthly order from the dominant operator
+
+On the [[wiki/meetings/2026-01-09-doug-skrepnek-loan-lenience-business-update.md|Jan-9 2026 lender call]] Val described the South Dakota position to [[wiki/people/doug-skrepnek.md|Doug Skrepnek]]. These are Val's own figures, said to a lender. [[raw/Meeting_Transcript_Doug_Skrepnek_Loan_Lenience_and_Business_Update-January-9-2026.md]]
+
+- **The market:** about 40 years old, "very mature market but it's very small it's 9 000 machines"; the equipment is old and parts are gone, so it is being replaced. One company "owns 70 percent of the market". *(That this is [[wiki/organizations/mg-oil.md|MG Oil]] is an inference — the operator is not named on the call. May 2025 gave MG Oil ~7,000 of ~9,000 machines.)* [[raw/Meeting_Transcript_Doug_Skrepnek_Loan_Lenience_and_Business_Update-January-9-2026.md]]
+- **Approval:** "it took us eight months longer than usual" between licensing and the lottery's internal approvals. [[raw/Meeting_Transcript_Doug_Skrepnek_Loan_Lenience_and_Business_Update-January-9-2026.md]]
+- **The order:** the operator "tested the product thoroughly for 90 days in four different locations", then "placed an order for monthly delivery" — "we're delivering 10 machines a month", at "$13,000 per machine, which is not a retail price". Val: "I'm content." [[raw/Meeting_Transcript_Doug_Skrepnek_Loan_Lenience_and_Business_Update-January-9-2026.md]]
+- **Val's outlook:** about 20 machines a month "is kind of a steady thing for years". He put the total market at "450 machines per year" and said JVL could "theoretically get about 50% of that" because operators "want less dependency on the big guy". *(May 2025 recorded ~400 replacements a year, from Troy; a different speaker and date — not treated as a contradiction.)* [[raw/Meeting_Transcript_Doug_Skrepnek_Loan_Lenience_and_Business_Update-January-9-2026.md]]
+- **Stickiness:** "he knows if he kicks me out, I don't have a secondary market within the state. So that means he's losing all his equipment." [[raw/Meeting_Transcript_Doug_Skrepnek_Loan_Lenience_and_Business_Update-January-9-2026.md]]
+- *Later context:* by Jun 18 2026 (below) MG Oil was "still getting the last ten in" and its owner wanted 60–90 days of numbers before buying more. Whether that is the end of the monthly order Val described here is not stated by either source. [[raw/Meeting_Transcript_MG_Oil_Dana_Giesey_South_Dakota_Visit-June-18-2026.md]]
 
 ## Mar 4 2026 — South Dakota came #1 in the MG Oil report
 
@@ -353,3 +364,4 @@ This source names the NOVA South Dakota product **"VLT 3"**, twice and unambiguo
 - [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]]
 - [[raw/Meeting_Notes_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+- [[raw/Meeting_Transcript_Doug_Skrepnek_Loan_Lenience_and_Business_Update-January-9-2026.md]]

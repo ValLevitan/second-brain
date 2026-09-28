@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 159
+source-count: 161
 open-commitments: 69
 open-questions: 0
 ---
@@ -216,6 +216,14 @@ On the [[wiki/meetings/2025-11-05-jvl-dwolla-onboarding-kickoff.md|Nov-5 Dwolla 
 ## Nov 5–10 2025 — payment-hub ACH-spec-review arc (named driver)
 
 Across the three ~7 AM ACH-module spec-review sessions ([[wiki/meetings/2025-11-05-payment-hub-ach-spec-review-states-provider-routing.md|Nov-5]], [[wiki/meetings/2025-11-06-payment-hub-ach-spec-review-registration-onboarding.md|Nov-6]], [[wiki/meetings/2025-11-10-payment-hub-ach-spec-review-undertakings-plaid-qa.md|Nov-10]]) Pavel drove the screen-share and the requirement walk-through — provider routing (one adapter at a time but two in parallel during a switch), the passport-vs-terminal registration split, the funding-source-ID money model (no Dwolla wallet, in his read), and the location-onboarding/web-interface design. On Nov-10 Val named him the **driver** of these meetings ("it's your bulldozer now") and asked him to run the AI-undertakings meeting-prep discipline. Substance on [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Nov 5–10 ACH-spec arc). [[raw/Payment HUB_ACH module specification_05.11.25 .md]] [[raw/Payment HUB_ACH module specification_06.11.25.md]] [[raw/Payment HUB_ACH module specification_10.11.25.md]]
+
+## Jan 6 2026 — Payment Hub billing & collection rules (three points of his)
+
+On the [[wiki/meetings/2026-01-06-payment-hub-billing-collection-workflow.md|Jan-6 billing & collection session]] (Speaker 5, addressed as "Pavel") he pushed three points: (1) as an alternative to queuing weekend ACH draws, post nothing to Dwolla until a working day — which needs a working-day calendar (e.g. Georgia's); (2) the **POS must display a message when a location is locked**, manual or automatic; (3) when cash is short, draw the invoices "that give more money", which Val restated as the cash-maximising combination and called "a great point". He also warned that a manual balance check is a weak trigger to re-enable a location, since funds may be gone again before the ACH draw — left open. See [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Jan 6 2026). [[raw/Meeting_Transcript_Payment_Hub_Billing_Collection_Workflow-January-6-2026.md]]
+
+## Jan 8 2026 — technical questions to Pyramid Technologies
+
+On the [[wiki/meetings/2026-01-08-pyramid-technologies-printer-integration-intro.md|Jan-8 Pyramid intro call]] Val introduced him as director of engineering, located in Belarus. Pavel (Speaker 4 by context — inference) asked the printer questions: whether JVL's tickets should look like the existing kiosk tickets he showed, and how a serial-connected printer handles the QR code (answer: generated automatically from the payload). Val is to come back to him on which ticket types Texas needs. See [[wiki/organizations/pyramid-technologies.md]]. [[raw/Meeting_Transcript_Pyramid_Technologies_Printer_Integration_Intro-January-8-2026.md]]
 
 ## Feb 3–4 2026 — Claude Code rollout (architectural voice; excused from the figma sessions)
 
@@ -881,3 +889,5 @@ The [[wiki/meetings/2026-09-18-transactional-mvp1-capability-cleanup-and-the-mon
 - [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+- [[raw/Meeting_Transcript_Payment_Hub_Billing_Collection_Workflow-January-6-2026.md]]
+- [[raw/Meeting_Transcript_Pyramid_Technologies_Printer_Integration_Intro-January-8-2026.md]]

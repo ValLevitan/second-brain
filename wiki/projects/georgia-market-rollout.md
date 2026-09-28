@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, COAM Hearing Room, Georgia Lottery Corporation, Tracy Warren, HB 353, Intralot lab, Bill at Intralot, three fifty-eight nine, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing, GAMOA, ILERS, ILAS report, Eilers, Eiler report, show special, Mega Hit Blaze, sales channel report, Bulldog Gaming, ARC, ARC Gaming, Class A, C-Store Connect, GACS, route consolidation, gift-card cash-back notice, Chris Plonic, Double Down Gaming, Ryan O'Donnell, Billy Liu, Play Payments, PlayPay, banking licence moat, 7455 modem, KORE, KORE SIM, APN, GACS October 21, Pay Slim, over-drive, Rao, Narasimha Rao Namburi, David Milani, September 2 letter, 5500 PAX locations, Lucky Coin service burden, Lucky Bucks is ARC, the market is literally bottomless, backend displacement, David Sloan, Dave Sloan, Bill the kiosk vendor, the wording is in the same location, guidance is not the law, Digital Cash Processing, DCP, ICP Inc., Gen Mega, Andrew Cashin, Rick Beer, seventy four hundred locations forty seven thousand machines, Unlimited Amusement, Mega Hit Blaze V3, program the rollout, Swanee, Johns Creek, Singleton, SurfNote, Debbie Alford, eighteen thousand connected, Mike Mackey, five hundred dollars per unit per machine, WSS protocol, not even one installation]
-source-count: 199
+source-count: 200
 open-commitments: 64
 open-questions: 23
 ---
@@ -210,6 +210,16 @@ On the [[wiki/meetings/2025-11-20-games-development-review-georgia-liquid-glass-
 - **Val's pricing angle:** enable all games and **raise the price ~$2,000**, framed on the tariff increases buyers expect this year; start with vertical, then revisit dual-screen. [[raw/Games_development_review (1).md]]
 - **Market math driving it:** ~**35,000 machines / ~6,500 locations** (~5.5/location) with 5–6 brands now (IGT, L&W, Aristocrat, JVL, Novomatic, newly Konami); JVL now targets **one machine per location**, so a larger per-machine library matters — tempered by the "arms race" and "paradox of choice" risk (12 is "aplenty"). [[raw/Games_development_review (1).md]]
 - **Nebraska essentially licensed** (approval draft letter received; one affidavit left; ~Dec-1 selling target), and **South Dakota** is JVL's #1 win-per-unit market on only 6 games, with a proposed 7-game South Dakota slate. See the meeting stub. [[raw/Games_development_review.md]]
+
+## Jan 9 2026 — Georgia volume and price, as Val told a lender
+
+On the [[wiki/meetings/2026-01-09-doug-skrepnek-loan-lenience-business-update.md|Jan-9 2026 lender call]] Val gave [[wiki/people/doug-skrepnek.md|Doug Skrepnek]] the Georgia picture. Val's own figures. [[raw/Meeting_Transcript_Doug_Skrepnek_Loan_Lenience_and_Business_Update-January-9-2026.md]]
+
+- **Levelling off was expected:** "we anticipated that sales in Georgia will level off and we would have to share our territory with new competition… Things are developing exactly as we thought." [[raw/Meeting_Transcript_Doug_Skrepnek_Loan_Lenience_and_Business_Update-January-9-2026.md]]
+- **Volume and price:** "in Georgia we used to move 40 to 50 machines a month. We are now down to 20 machines a month"; to hold 20 a month, "my price is sliding towards $10,000." [[raw/Meeting_Transcript_Doug_Skrepnek_Loan_Lenience_and_Business_Update-January-9-2026.md]]
+- **Unit cost:** a garbled line ("My bone, my heart costs $3,500" — read as hardware, inference), then "all in my cost is $4,000, but that's not including soft cost… engineering is a bugger." [[raw/Meeting_Transcript_Doug_Skrepnek_Loan_Lenience_and_Business_Update-January-9-2026.md]]
+- **Credit terms (all markets):** no participation deals; "our longest credit, I think, is six months to select operators and they pay monthly"; machines of non-payers stop working; bad debt "probably zero point something percent". [[raw/Meeting_Transcript_Doug_Skrepnek_Loan_Lenience_and_Business_Update-January-9-2026.md]]
+- **The June-1 prepaid-card law and the InComm plan** as Val explained them are on [[wiki/organizations/incom.md]] (Jan 9 2026).
 
 ## Feb 9 2026 — Diamond Amusement partnership + performance/data-reliability review
 
@@ -1567,3 +1577,4 @@ Told under the NDA and flagged "**strictly confidential and not to discuss with 
 - [[raw/Meeting_Transcript_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]]
 - [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
 - [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Mutual_NDA_Renegotiation-September-15-2026.md]]
+- [[raw/Meeting_Transcript_Doug_Skrepnek_Loan_Lenience_and_Business_Update-January-9-2026.md]]

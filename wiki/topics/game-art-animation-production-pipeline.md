@@ -3,7 +3,7 @@ type: topic
 title: Game art & animation production pipeline (comp art → Miranda)
 date: 2025-03-12
 aliases: [animation production, comp art pipeline, CompArt, storyboards, Spine, Blender, After Effects, placeholder build, Miranda scene assembly, art production stages, spike, sorting, symbol containers, Glorosa, Havana Noches, Fiery Ice Link, Rodeo Spin]
-source-count: 20
+source-count: 21
 ---
 
 # Game art & animation production pipeline (comp art → Miranda)
@@ -130,6 +130,14 @@ On a Val ↔ [[wiki/people/pavel.md|Pavel Frolov]] ↔ [[wiki/people/irina-shish
 
 Val's larger why — generating/cloning games from this specification — is on [[wiki/topics/game-production-throughput-strategy.md]] (Nov-11 section); he told Pavel and Irina to keep that ambition to themselves and not raise it with Lena's team.
 
+## Jan 27 2026 — the three baskets, and Rage Studio pinned to 3ds Max 11
+
+From the [[wiki/meetings/2026-01-27-clayton-lena-game-design-jira-orientation.md|Jan-27 orientation]] for [[wiki/people/clayton-chancey.md|Clayton Chancey]]. [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]
+
+- **Three baskets.** Val: game design "is broken into three segments.: game concept, uh game design, and game production" — "this is the conveyor belt". Concept is mainly the product manager and producer; from design on, [[wiki/people/lena.md|Lena]] "is mainly running the show". The baskets load differently and are cumulative; results can be put "on a shelf" until needed. [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]
+- **How production is tracked (Lena).** Per game, a list of deliverables; each milestone is a feature; stories under each feature, kept to "not more than two days" where possible. [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]
+- **3ds Max risk.** Lena: "Rage Studio is based on 3 ds Max11, which is not supported already by Autodesk. So, we use a very old version of 3 ds Max, but we don't have a team to work on Rage". This adds to the Mar-2025 note above that the new framework moves off 3D Max. [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]
+
 ## Apr 2 2026 — deliverable vocabulary settled (master file / storyboard / comp art) + Val's pre-build-shell vision
 
 On the [[wiki/meetings/2026-04-02-game-development-review.md|Apr-2 game-development review]] ([[wiki/people/val-levitan.md|Val]], [[wiki/people/michael-gottlieb.md|Michael Gottlieb]], [[wiki/people/lena.md|Lena Zhukova]], [[wiki/people/juan-martinez.md|Juan]], [[wiki/people/efim-podvoiski.md|Efim]]) Val spent much of the meeting nailing down exactly what the design stage delivers and how it flows downstream, arriving at a shared vocabulary (his "shopping bag," Efim's "collage"). [[raw/Meeting_Transcript_Game_Development-1-April-2-2026.md]] [[raw/Meeting_Notes_Game_Dev_Pipeline_Review-April-2-2026.md]]
@@ -200,3 +208,4 @@ Two `Game_Conversion` sessions the same day — [[wiki/meetings/2026-09-17-game-
 - [[raw/Meeting_Notes_Game_Dev_Pipeline_Review-April-2-2026.md]]
 - [[raw/Meeting_Notes_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+- [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]

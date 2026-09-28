@@ -3,7 +3,7 @@ type: person
 title: Cris Nacarino
 date: 2026-08-05
 aliases: [Cris Nacarino, Cris, Chris, Cristina Nacarino]
-source-count: 7
+source-count: 8
 ---
 
 # Cris Nacarino
@@ -23,6 +23,8 @@ Part of the Peru-based staff kept on after the Peru office closure (moved to rem
 - **Apr 15 2025 — the commission test:** Alka gave her the task of **calculating Felipe's sales commission** (pulling data from several systems into a spreadsheet template). "She turned it around on time. And it was accurate" — and she caught returned customer checks and adjusted the commission herself rather than posting mechanically. It took her ~2 hours where Alka needed ~4 ("I said to Grace when she did the sales commission" — "Grace" read as an ASR slip for Cris in the same anecdote; labeled inference). Alka on Val's question whether she could be his next controller: **"Yes"** — with the caveat that the language barrier would be a problem. Val: "I always hear wonderful things about Chris." Also slated for analytics work and (per the February plan) the sales-tax and commission calculations. [[raw/finance_update-apr-15-2025.md]] [[raw/Finance - Alka.md]]
 - **2025 finance back-office (Sep–Oct):** thorough, but the language barrier meant Alka often worked through Igor to translate; as procurement shifted to JVL Systems (US) and Mary came off A/P, Cris's Systems payment proposals grew (Mary trained her). Workload readings tracked on [[wiki/topics/jvl-finance-back-office.md]]. [[raw/finance_recurring_meeting-september-9-2025.md]] [[raw/finance_recurring_meeting-october-7-2025.md]]
 
+- **Jan 21 2026:** [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] said he "got confirmation from Chris that the money was cleared" before shipping seven ECHO-channel machines on a payment later cancelled by the payer (see [[wiki/topics/echo-home-gaming-device.md]], Jan 21 2026). "Chris" resolved to Cris by finance context (payment confirmation) — not stated by surname. [[raw/Meeting_Transcript_Andrei_Klimovich_Ecommerce_Fraud_Loss_and_Marketplace_Expansion-January-21-2026.md]]
+
 ## Sources
 
 - [[raw/financial_alka_alignment-march-24-2025.md]]
@@ -32,3 +34,4 @@ Part of the Peru-based staff kept on after the Peru office closure (moved to rem
 - [[raw/finance_recurring_meeting-october-7-2025.md]]
 - [[raw/Meeting_Notes_GL_Accounts_Systems_Labs-August-3-2026.md]]
 - [[raw/Meeting_Notes_Chart_of_Accounts_Alignment_Systems_Labs-August-5-2026.md]]
+- [[raw/Meeting_Transcript_Andrei_Klimovich_Ecommerce_Fraud_Loss_and_Marketplace_Expansion-January-21-2026.md]]

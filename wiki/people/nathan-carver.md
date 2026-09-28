@@ -3,8 +3,8 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 33
-open-commitments: 2
+source-count: 34
+open-commitments: 4
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
 
@@ -70,6 +70,10 @@ On the [[wiki/meetings/2025-11-05-jvl-dwolla-onboarding-kickoff.md|Nov-5 Dwolla 
 
 Across the three ~7 AM ACH-module spec-review sessions Nathan is JVL's ACH technical advisor: he supplied the initial invoice/ACH-transaction **state-diagram** concepts (created → in-process → pending → completed/failed) the engineers build from, explained the Dwolla **verified/unverified customer** model, **drop-in UI components vs API integration**, and Plaid-based account verification, and raised the Dwolla balance/wallet-vs-direct-transfer question (Nov-6) and retry/escalation logic tied to error codes (Nov-10). Substance on [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Nov 5–10 ACH-spec arc). [[raw/Payment HUB_ACH module specification_05.11.25 .md]] [[raw/Payment HUB_ACH module specification_06.11.25.md]] [[raw/Payment HUB_ACH module specification_10.11.25.md]]
 
+## Jan 6 2026 — walking the location billing & collection workflow
+
+On the [[wiki/meetings/2026-01-06-payment-hub-billing-collection-workflow.md|Jan-6 billing & collection session]] Nathan presented the written Payment Hub workflow to Val, [[wiki/people/pavel.md|Pavel]] and others: invoice creation in MSBC, the 8 a.m. Central balance check ahead of Dwolla's 9 a.m. cutoff, locking a location on insufficient funds, failure modes, alerting and Dwolla retries. He raised the NACHA point that drawing part of a single invoice makes a customer dispute easier, and proposed "oldest first" when cash is short. He had started looking at the rules on storing balance data, since balance checks return more personal account information. Full substance: [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Jan 6 2026). [[raw/Meeting_Transcript_Payment_Hub_Billing_Collection_Workflow-January-6-2026.md]]
+
 ## Feb 2 2026 — payment-hub reconciliation finance sync
 
 On the [[wiki/meetings/2026-02-02-payment-hub-finance-reconciliation.md|Feb-2 payment-hub finance sync]] (with Val, [[wiki/people/alka-sood.md|Alka Sood]], [[wiki/people/sean-riley.md|Sean Riley]], [[wiki/people/juan-martinez.md|Juan Martinez]]) Nathan was the engineer explaining the payment-hub↔Business-Central mechanics. He positioned Payment Hub as **"the automation glue to Business Central"** (posting fees/payments via the MSBC API), diagnosed the missing link — **posting a payment to an invoice in MSBC does not tie it to the actual bank deposit** — and explained the traceability design: on individual location→wallet moves the **invoice ID rides as Dwolla's "correlation ID,"** but an aggregated wallet→JVL-bank transfer needs a JVL-generated **payment ID** linking that one deposit to its invoices (Dwolla won't do the linking). He took the undertaking to check whether the MSBC API supports the deposit↔invoice tie. Substance on [[wiki/topics/persona-driven-design-and-orchestration-platform.md]] (Feb-2). §15.8 clear. [[raw/Payment_Hub_Finance-February-2-2026.md]]
@@ -110,6 +114,11 @@ On the [[wiki/meetings/2026-09-08-bank-of-america-cashpro-api-capabilities.md|Se
 
 - [ ] Confirm on the bank side that the Dwolla transaction funds actually arrived — due unspecified — [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [ ] Review Bank of America's API documentation, then request sandbox access once CashPro is set up — due unspecified — [[raw/Meeting_Transcript_Bank_of_America_CashPro_API_Integration-September-8-2026.md]]
+
+## Open commitments (Jan 6 2026)
+
+- [ ] Nathan Carver — build more multi-invoice scenarios for the partial-coverage logic ("maybe we just need two more") — due unspecified — [[raw/Meeting_Transcript_Payment_Hub_Billing_Collection_Workflow-January-6-2026.md]]
+- [ ] Nathan Carver — work out how Business Central emails the invoice and how Payment Hub knows it was sent — due unspecified — [[raw/Meeting_Transcript_Payment_Hub_Billing_Collection_Workflow-January-6-2026.md]]
 
 ## Sept 9 2026 — held up by both Val and Pavel as the model, and as the man working in a vacuum
 
@@ -157,3 +166,4 @@ Two qualifications came straight back, and both are recorded because they cut ag
 - [[raw/Meeting_Notes_Bank_of_America_CashPro_API_Integration-September-8-2026.md]]
 - [[raw/Meeting_Transcript_Bank_of_America_CashPro_API_Integration-September-8-2026.md]]
 - [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
+- [[raw/Meeting_Transcript_Payment_Hub_Billing_Collection_Workflow-January-6-2026.md]]

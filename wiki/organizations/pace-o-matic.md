@@ -2,8 +2,8 @@
 type: organization
 title: Pace-O-Matic
 date: 2026-06-10
-aliases: [Pace-O-Matic, Pace, Pace Omatic, Panthematic, pays thematics, paces, POM]
-source-count: 3
+aliases: [Pace-O-Matic, Pace, Pace Omatic, Panthematic, pays thematics, paces, POM, Pace Somatic, pace matters]
+source-count: 4
 open-commitments: 0
 open-questions: 1
 ---
@@ -50,13 +50,23 @@ Fenoglio's account of how Texas ended up with so many "skill" games: "A number o
 
 Because Fenoglio is Pace outside counsel, he will not put anything in writing for another manufacturer. The rule JVL now operates under is on [[wiki/decisions/2026-06-10-texas-legal-read-comes-through-an-operator-never-in-writing.md]]. [[raw/Meeting_Transcript_Stephen_Fenoglio_Texas_Skill_Gaming_Counsel-June-10-2026.md]]
 
+## Jan 8 2026 — a Pace distributor on Pace (Rich Winley)
+
+Five months before Fenoglio, Texas operator [[wiki/people/rich-winley.md|Rich Winley]] talked about Pace over lunch with [[wiki/people/val-levitan.md|Val]] ([[wiki/meetings/2026-01-08-rich-winley-miami-lunch-texas-distribution-pitch.md]]). All from the transcript [[raw/Meeting_Transcript_Rich_Winley_Miami_Lunch_Texas_Distribution_Pitch-January-8-2026.md]]:
+
+- **He holds a Pace distribution agreement.** "I had a distribution agreement with…" and later "I do have that distribution agreement." The state it covers is not said.
+- **Size, by his estimate.** Asked how Pace is doing: "he does about 200, I'd say… About 200 mil a year." An outside guess, not a reported figure.
+- **Ownership history — unclear.** Rich said "Mike Pace" "still runs Pace" and at some point lost the company to a bank ("It was held by a banker"), with the dates given as "the early 2000s" and "2013, 2016". The passage is garbled and the sequence cannot be recovered; not recorded as fact.
+- **Why Texas rooms dislike it.** Asked why operators are "rebellious against it": "Machines are shit and their distributors are not great. They don't service the machines like they should" — and, when Val asked if the issue is sharing profit, "It's a share in the profit… 33%". This fits Fenoglio's later "Pace does not sell… operate[s] it through a series of operators" (above); neither source mentions the other.
+- **JVL's angle.** Rich framed JVL's Texas chance as "how many of these pace matters can we replace" ("pace matters" as transcribed = Pace-O-Matic machines, an inference).
+
 ## Where else Pace appears in this wiki
 
 - [[wiki/projects/texas-used-machine-distribution.md]] — the Sept-23 2025 competitive read (ranking, TRT access, the placement model) and the Jun-5 2026 AMOT show observations.
 - [[wiki/projects/nebraska-skill-market.md]] — external counsel "Nick" is described as having worked a Pace-O-Matic-style Texas case.
 - [[wiki/organizations/incom.md]] — the Fannin County ruling as InComm's reason for re-opening Texas.
 
-**§15.8:** clear — market, litigation and business-model knowledge only; no named-person compensation. The seized-cash and criminal-defence-cost figures are third-party enforcement and market data.
+**§15.8:** clear — market, litigation and business-model knowledge only (Rich Winley's own finances from the Jan-8 lunch are not recorded here); no named-person compensation. The seized-cash and criminal-defence-cost figures are third-party enforcement and market data.
 
 ## Open questions
 
@@ -67,3 +77,4 @@ Because Fenoglio is Pace outside counsel, he will not put anything in writing fo
 - [[raw/Meeting_Transcript_Stephen_Fenoglio_Texas_Skill_Gaming_Counsel-June-10-2026.md]]
 - [[raw/Meeting_Notes_Stephen_Fenoglio_Texas_Skill_Gaming_Counsel-June-10-2026.md]]
 - [[raw/incomm_transcript_gacoam_payment_options-april-4-2025.md]]
+- [[raw/Meeting_Transcript_Rich_Winley_Miami_Lunch_Texas_Distribution_Pitch-January-8-2026.md]]

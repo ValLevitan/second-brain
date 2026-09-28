@@ -4,7 +4,7 @@ title: Game production throughput strategy (Val's "much faster" push)
 date: 2025-03-12
 aliases: [developing games faster, production throughput, game a month, game a week, parallel tracks, disjoint animation, zero to GLI, production time, scaling game output]
 open-questions: 2
-source-count: 5
+source-count: 7
 ---
 
 # Game production throughput strategy (Val's "much faster" push)
@@ -71,6 +71,19 @@ On the Nov-11 graphics-specification call ([[wiki/meetings/2025-11-11-graphics-s
 
 This extends the throughput doctrine on this page (serial→parallel, feature-level forecasting, ship-imperfect) from *making each game faster* toward *not hand-making most games at all*. Nothing was decided.
 
+## Jan 23 2026 — estimating in hours, uneven story sizes, the "manager" title, generalists
+
+A Val–[[wiki/people/michael-gottlieb.md|Michael Gottlieb]] one-on-one ([[wiki/meetings/2026-01-23-michael-gottlieb-art-production-roles-and-estimation.md]]). Val called estimation "probably the most important subject I need to nail". Nothing was ruled. [[raw/Meeting_Transcript_Michael_Gottlieb_Art_Production_Roles_and_Estimation-January-23-2026.md]]
+
+- **Val's automation aim.** "Whatever Lena is busy right now in terms of administration, I intend to automate 95% of it this year in 2026." He called the art production pipeline "about twice as complicated now as anything i've ever been exposed to" and wants to optimize it this year. [[raw/Meeting_Transcript_Michael_Gottlieb_Art_Production_Roles_and_Estimation-January-23-2026.md]]
+- **How estimates are made today (Michael).** A metric from the last similar job (the Georgia Peach jackpot as the guide for the Gold Nugget jackpot, adjusted for added complexity), the employee's own estimate, then [[wiki/people/lena.md|Lena]]'s review with "guidance and shortcuts". Deadlines often come first "and we work backwards from there." [[raw/Meeting_Transcript_Michael_Gottlieb_Art_Production_Roles_and_Estimation-January-23-2026.md]]
+- **Val's arithmetic.** Stories are measured in hours. He first assumed about "2.2 or 2.5" iterations per story; Michael said iteration is "an extremely small percentage" of the time; Val then took "as a norm, 1.3 reiteration", about three hours of actual work per task, so a senior designer with ten tasks is "busy 30 hours" — and a whole game can be estimated in hours. Michael: "that's the way it works". *(The 2.5 figure matches Lena's Apr-2025 rule of thumb, see the Apr 17–18 2025 section above.)* [[raw/Meeting_Transcript_Michael_Gottlieb_Art_Production_Roles_and_Estimation-January-23-2026.md]]
+- **The gap Val found.** Michael put a story at "an hour, up to, could be a day or two". Val: "an hour to a day, that's a big gap… may I make a recommendation? Break stories consistently." He and Lena saw this "about a year ago" but "didn't have the bandwidth". Michael's caution: over-fine tasks are "very, very deceptive"; "I need final assets. I don't need completed tasks." Val's reply: people at different levels live in different worlds — designers live in tasks and deliverables, Michael in whole assets. [[raw/Meeting_Transcript_Michael_Gottlieb_Art_Production_Roles_and_Estimation-January-23-2026.md]]
+- **Four days later, Lena's own rule:** "we're trying to keep our stories not more than two days. It's not always two days". [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]
+- **The title question.** Val takes "manager" "extremely seriously": a manager must be responsible for cost elements (schedule, processes) — "I cannot call everybody a manager." What Michael needs under Lena is a senior person who takes a top-level directive and plans it. Michael proposed **"Art Production Lead"** as a real industry title; Val left it open ("let me give it some thought"). Val's hiring stance: seniority and qualification first, found in markets such as Poland, Portugal, Spain, Italy, Belarus, Russia or Ukraine, with pay set by supply and demand. [[raw/Meeting_Transcript_Michael_Gottlieb_Art_Production_Roles_and_Estimation-January-23-2026.md]]
+- **Generalists vs specialists.** Michael: "I don't think we're large enough for specialists. I think we need generalists" — a dedicated animator is "an excuse", and specialist work "regresses to the mean". Val: animator and illustrator are real, narrow specialities; but the point is "a mute point" because good specialists are very hard to find, "So we'll probably end up with a generalist." Val added that Adobe "is about to revolutionize the market with a lot of automation" and "2027 should be a killer year" — his reason for pressing on duration per task now. [[raw/Meeting_Transcript_Michael_Gottlieb_Art_Production_Roles_and_Estimation-January-23-2026.md]]
+- **Jan 27 — the three baskets as workload.** The roadmap's dates are per-basket workload, not one line: "we have five months of concepts", design "only… a month of work maybe less", production "another four to six months"; outputs can be put "on a shelf" until needed (Val). [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]
+
 ## Open questions
 
 - Nothing was decided — Val closed with "I'm going to think about it. We'll have another conversation on this." Whether JVL adopts the two-team split, the parallel-track/disjoint-animation model, or the junior-art-director experiment is unresolved. [[raw/developing_games_faster_michael_gottlieb_march_12-2025.md]]
@@ -84,3 +97,5 @@ This extends the throughput doctrine on this page (serial→parallel, feature-le
 - [[raw/game_development_update-apr-17-2025.md]]
 - [[raw/games_production-apr-18-2025.md]]
 - [[raw/Specs_graphics.md]]
+- [[raw/Meeting_Transcript_Michael_Gottlieb_Art_Production_Roles_and_Estimation-January-23-2026.md]]
+- [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]

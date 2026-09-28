@@ -3,8 +3,8 @@ type: decision
 title: Val to fund Aaron (and Clayton) to build bespoke AI tools
 date: 2025-03-21
 aliases: [bespoke AI tools, guaranteed hours, Foray, potatoes and hamburgers]
-source-count: 1
-status: active
+source-count: 2
+status: active   # core (funded hours for bespoke AI tools) stands; the 'Clayton never deals with Val directly' element fell on Jan 23 2026 — see Update
 ---
 
 # Val to fund Aaron (and Clayton) to build bespoke AI tools
@@ -20,8 +20,13 @@ On the Mar 21 2025 "building tools" call, [[wiki/people/val-levitan.md|Val]] and
 
 ## Rationale
 
-Aaron and Clayton have been building an enterprise-AI-architecture consultancy (an alternative to Aaron's prior firm CPRIME); Clayton struggles with customer retention, and Val — self-described as an ideal, loyal, non-flaky retained customer ("I am your number-one customer") who doesn't care how much they make — is a natural anchor client. Val ties this to his standing push to adopt AI tooling and hire self-managing developers. [[raw/aaron_building_tools-march-21-2025.md]]
+Aaron and Clayton have been building an enterprise-AI-architecture consultancy (an alternative to CPRIME, the consultancy where Aaron works — on Jan 23 2026 he said he has "stuck around" there [[raw/Meeting_Transcript_Clayton_Chancey_Initial_AI_Consulting_Engagement-January-23-2026.md]]); Clayton struggles with customer retention, and Val — self-described as an ideal, loyal, non-flaky retained customer ("I am your number-one customer") who doesn't care how much they make — is a natural anchor client. Val ties this to his standing push to adopt AI tooling and hire self-managing developers. [[raw/aaron_building_tools-march-21-2025.md]]
+
+## Update — Jan 23 2026: Val engages Clayton directly
+
+The "Clayton will never see me" element no longer holds. On Jan 23 2026 Aaron introduced Clayton to Val on a call, and Val set up a **direct** engagement: "Let's call it five hours a week", a one-page retainer agreement from Clayton, and a first objective Val chose himself (apply Clayton's knowledge-work framework to games production; first priority, the work of keeping Jira current). The core of this decision — Val funding guaranteed hours for bespoke AI tools — continues; only the arm's-length route through Aaron changed. This is evolution, not a contradiction. See [[wiki/meetings/2026-01-23-clayton-chancey-initial-ai-consulting-engagement.md]] and [[wiki/people/clayton-chancey.md]]. *(§15.8: billing terms from that call are not recorded.)* [[raw/Meeting_Transcript_Clayton_Chancey_Initial_AI_Consulting_Engagement-January-23-2026.md]]
 
 ## Sources
+- [[raw/Meeting_Transcript_Clayton_Chancey_Initial_AI_Consulting_Engagement-January-23-2026.md]]
 
 - [[raw/aaron_building_tools-march-21-2025.md]]

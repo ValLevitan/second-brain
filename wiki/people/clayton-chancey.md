@@ -3,7 +3,8 @@ type: person
 title: Clayton Chancey
 date: 2026-07-14
 aliases: [Clayton Chancey, Clayton, Foray Consulting]
-source-count: 9
+source-count: 12
+open-commitments: 1
 ---
 
 # Clayton Chancey
@@ -13,8 +14,32 @@ Clayton Chancey (Foray Consulting) is a JVL **contractor** — a data scientist 
 ## Role and the proposed arrangement (Mar 21 2025)
 
 - Clayton shared the newly-released OpenAI **GPT-4o Transcribe** models with Aaron (which prompted the plan to rebase JVL's transcription tool off Whisper). [[raw/aaron_building_tools-march-21-2025.md]]
-- Aaron said he and Clayton "and a few others" have been loosely working together and natively understand the kind of bespoke-AI-tool work Val wants. Aaron described their in-progress brand as an alternative to **CPRIME** (Aaron's prior consultancy), "deliberately mysterious," centred on enterprise AI architecture. [[raw/aaron_building_tools-march-21-2025.md]]
+- Aaron said he and Clayton "and a few others" have been loosely working together and natively understand the kind of bespoke-AI-tool work Val wants. Aaron described their in-progress brand as an alternative to **CPRIME** (the consultancy where Aaron works; on Jan 23 2026 he said he has "stuck around at that company at C Prime" [[raw/Meeting_Transcript_Clayton_Chancey_Initial_AI_Consulting_Engagement-January-23-2026.md]]), "deliberately mysterious," centred on enterprise AI architecture. [[raw/aaron_building_tools-march-21-2025.md]]
 - Val proposed **funding Clayton's time through Aaron** so Clayton (who, per Aaron, struggles with customer retention) would gain a guaranteed retained customer without ever having to interact directly with Val — "he'll never see me… he'll just see money come… and you get tools." See [[wiki/decisions/2025-03-21-fund-aaron-clayton-bespoke-ai-tools.md]]. [[raw/aaron_building_tools-march-21-2025.md]]
+
+## Jan 23 2026 — the first direct meeting with Val; the engagement starts
+
+Stub: [[wiki/meetings/2026-01-23-clayton-chancey-initial-ai-consulting-engagement.md]]. [[wiki/people/aaron.md|Aaron]] introduced Clayton to [[wiki/people/val-levitan.md|Val]]; it is the first Val–Clayton meeting in the corpus ("Hey Clayton… nice to meet you"). It replaces the Mar-2025 idea that Clayton would work for Val only through Aaron and "never see me" (see [[wiki/decisions/2025-03-21-fund-aaron-clayton-bespoke-ai-tools.md]]). All from the transcript unless marked. [[raw/Meeting_Transcript_Clayton_Chancey_Initial_AI_Consulting_Engagement-January-23-2026.md]]
+
+- **Background, in his words.** Based in Los Angeles. High school, then logistics work in Sudan / South Sudan; **Harbor Freight** during its cloud move, where he became owner of its Atlassian instance; an internal consultant at **SpaceX** (Starlink and Starship, "at the time… called the BFR"); then **C Prime**, where he came to lead the IT service management (ITSM) practice. He left C Prime "about a year ago or a little longer" (Aaron's words) after C Prime's "Goldman Sachs overlords" preferred what he saw as "a license reselling type play" to his "think tank" proposal. He calls his company "a think tank… somewhat productized": advisory plus AI applications he has built for clients, including real estate; he uses contractors, "including Aaron for certain use cases".
+- **Aaron and Clayton.** They know each other from C Prime and "meet at least weekly"; Aaron has stayed at C Prime.
+- **His framework.** An "AI augmented knowledge work framework" — "one or two pages at the most" — productized into tools: paste in a transcript or business-process artifacts and get "prompts inputs outputs and the sequence of events", then decide how AI can augment it. Applied to one process with a known "cost of goods", it gives "a very measurable way to calculate the return on investment of applying AI". He reframed Val's "positive bureaucratic process" as **knowledge work** — work whose input and output are knowledge.
+- **"Truth as code."** Clayton: infrastructure has been treated as code for about ten years (DevOps); since AI is so good at code, a GitHub repository can hold "HR policies or job descriptions or meeting transcripts", version-controlled, in "English or Russian or Swahili" rather than JavaScript. Val: "I never thought about it truth as code… I am definitely going to steal it and use it." Detail on [[wiki/topics/ai-assisted-development.md]] (Jan 23 2026).
+- **The engagement terms (time only).** Val: "I don't need any agreements", but will sign one; "Let's call it five hours a week." Clayton will send "a one page retainer agreement" that leaves it "very open". Val's rules: "I do not read minds… tell me what it is in very binary form"; it "needs to go both ways" or he will not continue; start with "one narrow subject and see if we like each other". *(§15.8: billing and payment terms on the call are not recorded.)*
+- **The first objectives Val set.** (1) "Let's apply this augmented business learning tool to games production. That would be our objective." (2) The low-hanging fruit: the company complaint about how much work it takes "to keep G R A current" (read as Jira — an inference, also the derived notes' reading [[raw/Meeting_Notes_Clayton_Chancey_Initial_AI_Consulting_Engagement-January-23-2026.md]]; see the stub) — "a lot of animosity now comes from the game design team"; "if I would put my money, my effort first priority, that would be it". Clayton: "that's a very low hanging fruit right there."
+- **The tactical idea (Clayton to Aaron).** A custom Atlassian MCP server like the one he built for "Precipio": "ten percent of what Jira can do, but… one hundred percent of what these people do with Jira", hosted on Cloudflare with OAuth, costing "zero dollars to run". This is what he demoed six days later (Jan 29 section below).
+- **Schedule.** Val asked for Aaron to be present at the first meetings and suggested the **27th and 29th**, 10–11 Eastern, then up to an hour a day the week of **Feb 2** — "that will keep my commitment of five hours per per week to you". Minsk's usable window is about 9–11 AM Eastern; Clayton said he can start "five six in the morning" Pacific, and over the next six weeks he will be in Germany, Raleigh and Texas, closer to Minsk's time zone. *(The Jan 27 meeting did take place — see the section below — so the Jan-29 file titled "session-2" fits this plan, with Jan 27 as the first working session. Still an inference: no source says "session 1".)*
+
+## Jan 27 2026 — the game-design orientation and the "opinionated MCP" plan (working session 1)
+
+Stub: [[wiki/meetings/2026-01-27-clayton-lena-game-design-jira-orientation.md]]. With [[wiki/people/val-levitan.md|Val]], [[wiki/people/lena.md|Lena Zhukova]] and (from mid-meeting, inferred) [[wiki/people/aaron.md|Aaron]]. Val and Lena showed him the Jira roadmap and how game design runs. All from the transcript. [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]
+
+- **His questions.** Is Jira accurate today? (Lena: "Not bad. We are trying to keep it up to date and accurate.") What is the most painful part of managing the work in Jira? (Lena: "Communication", and the sheer number of issues and descriptions to enter.) He asked to see exactly what Lena's two Jira helpers do — "what their inputs and outputs look like in Jira". [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]
+- **His case study.** For another client he built a custom MCP tool "sort of based on some of the Atlassian MCPs", in "maybe ten hours". Each tool call holds "five or six or ten or twenty API calls" plus embedded prompts that encode how that team works (e.g. when the user says "release", look up the fixed-version field). He pasted a two-hour meeting transcript into Claude and "with one shot, it created three hundred and forty tickets in Jira", which he says saved "Sixty hours, probably". [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]
+- **His plan for JVL.** He can put an MIT licence on that code and fork it. The key is not the server but "very specific" knowledge of "how you guys are working in Jira". He would explore JVL's Jira (Dima had just emailed him access), come to the next meeting "not tomorrow but the day after" with a first tool, ask it "read only questions", and have Lena judge the answers as the feedback loop. His hope: "within one week or two weeks" the tool does "seventy five percent" of what the managers and scrum masters do. Val: "That's a great direction. I really like it." [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]
+- **Role-based servers.** Aaron is doing the developer team's version; they agreed several focused MCP servers by role fit better than one, and Clayton floated one "JVL MCP server with different roles baked in" for their design session. [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]
+- **Judgment, not typing, is the cost.** Agreeing with Lena's experience that AI output needs a lot of checking, he said: "the goal of all of this is how do we bake the judgment work into the tool? So that you are doing the judgment work once". [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]
+- **Access and onboarding.** He had GitHub and Outlook access and would email to get access to the "Elastique piece" as well (read as Atlassian by the notes — an inference). Asked by Val to start using Microsoft, he said he would do the onboarding "today or tomorrow morning at the latest". Val gave him a direct line to Lena and told her "Clayton is really hired because of you for you." [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]
 
 ## Jan 29 2026 — building JVL's custom Atlassian MCP tools (working session 2)
 
@@ -27,7 +52,7 @@ On a JVL working session ([[wiki/meetings/2026-01-29-jvl-working-session-mcp-too
 - **Hours authorization:** Val authorized **up to 10 additional hours** (beyond the 2 already spent that week) for Clayton to build out the tools discussed. (Hours only; no rate/compensation figure stated.) [[raw/Clayton_jvl-working-session-2-summary-January-20-2026.md]]
 - **Next session — Tuesday, February 4:** Lena shares her screen and Clayton walks her through installing Claude Code via command line, pulling/configuring the MCP tools for her local Claude Desktop, and experimenting with them — to build the AI-augmentation muscle memory to displace the manual workflow. [[raw/Clayton_jvl-working-session-2-summary-January-20-2026.md]]
 
-*(The file is titled "session-2"; a session-1 is implied but is not present in the vault — flagged, not invented.)*
+*(The file is titled "session-2". Session 1 is very likely the Jan 27 2026 orientation above — an inference from the Jan-23 schedule and Clayton's Jan-27 "not tomorrow but the day after" promise; no source says "session 1".)* [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]
 
 ## Mar 13 & 19 2026 — the "Semantic Understanding" transcription-pipeline sessions
 
@@ -48,7 +73,18 @@ On the [[wiki/meetings/2026-03-31-transcripts-mcp-setup-lena.md|Mar-31 transcrip
 
 On the [[wiki/meetings/2026-04-28-lena-ip-mcp-model-regression.md|Lena IP MCP Model Regression]] session (with [[wiki/people/lena.md|Lena Zhukova]] and [[wiki/people/val-levitan.md|Val]], who joined mid-call) Clayton presented ~2 weeks of benchmarking (in partnership with Anthropic, across several of his projects incl. a university economics project) proving that **Opus 4.7 is materially worse than 4.6 at multi-needle retrieval** — the transcript-as-prompt class of task the IP MCP relies on. Reverting Lena's workflow to 4.6 restored it. He also traced and live-fixed a real bug (create endpoints hitting sandbox while read/attach hit production → 404s), committed the fix to the JVL GitHub, and defended keeping the workflow as one high-context inference rather than decomposing it into brittle deterministic sub-steps. He committed to adding delete-issue and archive-issue tools and to documenting install/config so Andrei can propagate the tool to Lena's team leads. Detail on [[wiki/topics/ai-assisted-development.md]] and [[wiki/topics/transcript-knowledge-base-tooling.md]] (Apr-28). §15.8 clear. [[raw/Meeting_Transcript_lena_IP_MCP_model_regression-1-April-28-2026.md]] [[raw/Meeting_Notes_lena_IP_MCP_model_regression-April-28-2026.md]]
 
+## Open commitments
+
+- [ ] Clayton — send Val the one-page retainer agreement and the AI-augmented knowledge-work framework document — due the same afternoon (Jan 23 2026) — [[raw/Meeting_Transcript_Clayton_Chancey_Initial_AI_Consulting_Engagement-January-23-2026.md]]
+
+## History
+
+- [x] Clayton + Aaron — build a scoped, team-specific Atlassian MCP server for JVL (Jan 23 2026 idea) — discharged: Clayton demoed the custom JVL Atlassian MCP tools on Jan 29 2026 — [[raw/Meeting_Transcript_Clayton_Chancey_Initial_AI_Consulting_Engagement-January-23-2026.md]] [[raw/Clayton_jvl-working-session-2-summary-January-20-2026.md]]
+- [x] Clayton — bring a first read-only Jira tool to the next meeting (Jan 29) for Lena to judge (Jan 27 2026) — discharged: he demoed `game_status_get` on Jan 29 2026 — [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]] [[raw/Clayton_jvl-working-session-2-summary-January-20-2026.md]]
+
 ## Sources
+- [[raw/Meeting_Transcript_Clayton_Chancey_Initial_AI_Consulting_Engagement-January-23-2026.md]]
+- [[raw/Meeting_Notes_Clayton_Chancey_Initial_AI_Consulting_Engagement-January-23-2026.md]]
 
 - [[raw/Meeting_Transcript_lena_IP_MCP_model_regression-1-April-28-2026.md]]
 - [[raw/Meeting_Notes_lena_IP_MCP_model_regression-April-28-2026.md]]
@@ -59,3 +95,4 @@ On the [[wiki/meetings/2026-04-28-lena-ip-mcp-model-regression.md|Lena IP MCP Mo
 - [[raw/Meeting_Transcript_automation_progress_review-March-27-2026.md]]
 - [[raw/Meeting_Transcript_Transcripts_MCP_setup_Lena-March-31-2026.md]]
 - [[raw/Meeting_Notes_Transcripts_MCP_Setup_Lena-March-31-2026.md]]
+- [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]
