@@ -3,7 +3,7 @@ type: decision
 title: The chain of up to six QR scans goes (use case 9), and one final activation scan stays for machines without a modem (use case 10)
 date: 2026-09-24
 aliases: [use case 9, use case 10, no more multiple QR code scans, six screens of lease scan, final QR code activation scan, scan and enter activation number, activation code, we're nixing it]
-source-count: 1
+source-count: 2
 status: active
 open-commitments: 0
 open-questions: 0
@@ -31,6 +31,10 @@ The final scan itself is not the problem: "I don't see a problem with that. What
 
 **Only where there is no modem.** Pavel: "This is only for machines. We are no modem. If we have modem, it will be sent automatically." Val: "Yes, yes, yes, of course."
 
+## Update — Sept 28 2026: capability 9, "Lease renew with one QR scan"
+
+At the [[wiki/meetings/2026-09-28-ris-mvp1-capabilities-walkthrough-and-jira-handover.md|Sept-28 11:07 AM RIS review]], Felipe read it as the ninth RIS MVP1 capability: "Lease renew with one QR scan. That was one that was added. Remember how we have four, 5, 6 QR codes? We want to do it with just one QR code and be done with it." Pavel: "It's clear. It's okay." Irina: "Okay, it's simple." It goes into Jira with the other capabilities — [[wiki/decisions/2026-09-28-sebastian-takes-the-ris-mvp1-capabilities-into-jira-and-felipe-steps-back.md]]. [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]
+
 ## Related
 
 The **statistics-scan** parameter on a factory reset (on today; Georgia might default it off) was raised by Irina at the earlier 5:41 AM engineers' review; Pavel was to ask about it — see [[wiki/decisions/2026-09-24-engineering-plans-to-switch-off-the-passport-check-for-georgia-builds.md]]. Whether that scan is one of the six Felipe described is **not stated**.
@@ -40,3 +44,4 @@ The **statistics-scan** parameter on a factory reset (on today; Georgia might de
 ## Sources
 
 - [[raw/Meeting_Transcript_RIS_Serial_Binding_and_Factory_Reset_Focus-September-24-2026.md]]
+- [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]

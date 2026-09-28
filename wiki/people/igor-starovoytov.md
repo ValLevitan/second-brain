@@ -3,7 +3,7 @@ type: person
 title: Igor Starovoytov
 date: 2026-07-13
 aliases: [Igor Starovoytov, Igor, Starovoytov]
-source-count: 9
+source-count: 10
 disambiguation: "Contractor industrial designer (Flex cabinets; via Genadi Peari). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
 ---
 
@@ -43,6 +43,10 @@ On the [[wiki/meetings/2026-09-23-texas-flex-slim-release-street-cabinet-and-bom
 
 On the [[wiki/meetings/2026-09-24-hardware-repo-bom-source-of-truth-and-street-cabinet-layout.md|Sept-24 4:38 PM alignment call]], [[wiki/people/genadi-peari.md|Genadi]] said he might talk to Igor at the weekend about the street cabinet, but could only describe it verbally ("Могу только вёрбале ему описать"). Val advised planning more than one conversation. The surname is not spoken; this page reads him as Starovoytov by the cabinet-design context (inference). *(A remark about his working style is withheld, §15.8.)* [[raw/Meeting_Transcript_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]]
 
+## Sept 25 2026 — his view on hiding the printer, relayed
+
+On the [[wiki/meetings/2026-09-25-street-cabinet-deep-layout-and-service-door.md|Sept-25 street-cabinet review]], [[wiki/people/genadi-peari.md|Genadi]] cited him: "то, что Игорь всегда говорит, если делаешь ner и, ты прячешь туда принтер, это это nice в плане визуально" — hiding the printer in a narrow cabinet looks good. Val preferred a deeper cabinet with the printer on the dashboard. The surname is not spoken; matched by the cabinet-design context (inference). See [[wiki/topics/low-cost-street-machine.md]] (Sept 25, 3:16 PM). [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
+
 ## Sources
 
 - [[raw/Call_Genadi_Peari-February-12-2026-2.md]]
@@ -54,3 +58,4 @@ On the [[wiki/meetings/2026-09-24-hardware-repo-bom-source-of-truth-and-street-c
 - [[raw/industrial_design_update-may-20-2025.md]]
 - [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
 - [[raw/Meeting_Transcript_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]]
+- [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]

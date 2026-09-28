@@ -3,7 +3,7 @@ type: decision
 title: The virtual test system attempts full ARM-processor emulation running the production build plus simulated devices first — Docker or a daemon-mode simulation is the fallback, because the simpler options do not cover the full functionality
 date: 2026-09-07
 aliases: [virtual test system, emulators, virtual Flex-Pay, virtual gaming machine, virtual Flex-Port, ARM emulation, same build as on the machines, Docker fallback, daemon mode, bare remote-update tool, redeploy all the hardware from scratch]
-source-count: 9
+source-count: 12
 status: active
 open-commitments: 5
 open-questions: 2
@@ -77,6 +77,17 @@ At the [[wiki/meetings/2026-09-24-daily-standup-firmware-delivery-and-capability
 
 **Anton's Sept-23 commitment below stays open** — the move to Flex IQ was due that day, but no later source confirms it.
 
+## Update, Sept 26 2026 — the firmware simulator is not ready
+
+At the [[wiki/meetings/2026-09-26-flex-port-telnet-console-and-gui-harness.md|Sept-26 Flex-Port development sync]], [[wiki/people/pavel.md|Pavel]]: "пока что на симулятор не готов для прошивок. И, наверное, сегодня завтра не будет готов." Reading this as the virtual test system on this page is an **inference** (he names no project). His commitment below stays open. [[raw/Meeting_Transcript_FlexPort_Telnet_Console_and_GUI_Harness-September-26-2026.md]]
+
+## Update, Sept 28 2026 — a plan to move the emulator to Flex IQ, first step done
+
+- **At the 4:56 AM stand-up** ([[wiki/meetings/2026-09-28-daily-standup-log-traffic-and-nova-rename.md|Sept 28]], Russian), [[wiki/people/anton-seregin.md|Anton Seregin]] said he finished a move ("закончил переносом") on Saturday and "составил план переноса на fex IQ аккумулятора" ("аккумулятора" read as the emulator — **inference**, as on Sept 23–24). The first task "[в]роде выполнил, сейчас это всё проверяю". The work is to fit it to the Flex IQ contract: a bridge that "[с] 2 сторон контракт принимает от флекса IQ и аккумулятора". His AI tool set its own dates; Irina: "Но не до 21 октября явно." Pavel asked that it write autotests for each task; Anton said it already writes quick endpoint tests that run in the GitHub Actions build [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]].
+- **At the 8:02 AM call** ([[wiki/meetings/2026-09-28-transactional-mvp1-remote-updates-and-october-15-target.md|Sept 28]]), Khamin asked who builds emulators. Irina: "Этим занимается Антон." [[wiki/people/alexander-biratka.md|Biratka]]: he made one, but "внутри [ф]лекс pay", with the card dispenser. Pavel: "Он должен сейчас перетянуть это все в флексей кю[]" [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]].
+
+**Anton's Sept-24 commitment below stays open** — the move is planned and started, not finished.
+
 ## Open commitments
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — attempt the virtual test system as a full ARM-processor emulation running the production build, with simulated devices settable by command; fall back to Docker / daemon-mode simulation only if that fails — due within a week or two — [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]] [[raw/Meeting_Notes_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
@@ -103,3 +114,6 @@ At the [[wiki/meetings/2026-09-24-daily-standup-firmware-delivery-and-capability
 - [[raw/Meeting_Notes_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
+- [[raw/Meeting_Transcript_FlexPort_Telnet_Console_and_GUI_Harness-September-26-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]

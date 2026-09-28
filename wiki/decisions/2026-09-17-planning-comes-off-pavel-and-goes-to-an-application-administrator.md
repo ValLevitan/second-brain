@@ -3,9 +3,9 @@ type: decision
 title: Planning comes off Pavel Frolov and goes to an "application administrator" — Dmitri Kovalchuk proposed, not yet agreed
 date: 2026-09-17
 aliases: [planning comes off Pavel, application administrator, аппликейщен администратор, Dima Kovalchuk administrator, Зиму Ковальчука, planning handover, полный трансперация, Pavel comes to Atlanta]
-source-count: 7
+source-count: 8
 status: active
-open-commitments: 3
+open-commitments: 4
 open-questions: 2
 ---
 
@@ -101,7 +101,19 @@ At the [[wiki/meetings/2026-09-25-ai-project-manager-for-jira.md|Sept-25 "JIRA m
 
 *(Val again framed the problem as Pavel doing the assigning for everyone. His personal remarks about Pavel are not recorded — §15.8.)*
 
+## Update, Sept 28 2026 — two daily reports, and "say which CAP and which feature"
+
+At the end of the [[wiki/meetings/2026-09-28-daily-standup-log-traffic-and-nova-rename.md|Sept-28 Minsk stand-up]] (Russian) [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] asked the room to wait [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]:
+
+- **Two reports now arrive.** "вам приходят по 2 отчёта": "Джиро иерархия это связано с MVP один и джиродисциплина. Это связано со статусами и с датами." His request: "не сбивать и статус. Если работа действительно в работе, ставьте в работе."
+- **Name the exact item.** Because "возможно, в будущем эти митинги будут читаться искусственным интеллектом", people should say "конкретно над какой [к]ап и над какой фичей" they work. So far only "саша говорит конкретно кап", and "дима 50 на 50" (read as Chudinov — **inference**). Pavel: "Хорошо, правильно."
+- **Dates on tasks.** Earlier in the same stand-up Pavel asked [[wiki/people/alexander-biratka.md|Biratka]] to put at least rough start and end dates on the tasks he works on.
+
+*(This is Kovalchuk running the reports; whether it is the "application administrator" role is still an **inference**.)*
+
 ## Open commitments
+
+- [ ] All stand-up participants — keep Jira statuses true (In Progress only when work is in progress), and name the exact CAP and feature at stand-ups — due ongoing — [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] / [[wiki/people/irina-shishko.md|Irina Shishko]] — persuade [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] to come in as application administrator ("Както нужно уговорить. Это вам.") — due unspecified — [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] / [[wiki/people/irina-shishko.md|Irina Shishko]] — once he is in, sit with him on a regular cadence, record the planning conversations and hand plan administration over to him — due unspecified — [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
@@ -125,3 +137,4 @@ At the [[wiki/meetings/2026-09-25-ai-project-manager-for-jira.md|Sept-25 "JIRA m
 - [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
 - [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]

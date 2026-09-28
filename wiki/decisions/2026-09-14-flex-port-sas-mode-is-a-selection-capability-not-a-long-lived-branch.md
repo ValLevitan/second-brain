@@ -3,7 +3,7 @@ type: decision
 title: The Flex-Port SAS / no-SAS split is a selection capability inside main, not a long-lived branch — Val names the missing selection screen as his own specification gap, and a branch may promise less than main until it merges
 date: 2026-09-14
 aliases: [SAS no-SAS selection capability, long-lived development branch, branch becomes mainstream, a branch may promise less, capability that holds the filter, selection screen, scope gap, FlexPort operating mode, build-time or device parameter, one code base, 10 capabilities for the port, 30 capabilities October 1]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 1
 open-questions: 2
@@ -68,6 +68,10 @@ Pavel then swapped the hypothetical for the real release: "**делаем вер
 
 — there must be a way to set Flex-Port's **operating mode**, either at build time or by a parameter on an assembled device [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]. Which of the two was **not chosen**.
 
+## Update, Sept 26 2026 — the branch still carries the SAS work, and a debug command switches the mode
+
+At the [[wiki/meetings/2026-09-26-flex-port-telnet-console-and-gui-harness.md|Sept-26 Flex-Port development sync]], [[wiki/people/pavel.md|Pavel]] described the "порт 9" branch: SAS support "перетянутая из Того проекта, который был с сасом", AFT commands, and part of the Wi-Fi work, with pull requests 51 and 68 to follow into it. So as of Sept 26 the SAS work still sits in a branch. The board's Telnet debug console can "включить режим сас или включите режим ноу сас" — a mode switch on an assembled device. Whether that debug command is the product's mode setting is not said. [[raw/Meeting_Transcript_FlexPort_Telnet_Console_and_GUI_Harness-September-26-2026.md]]
+
 ## Open commitments
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — treat the Flex-Port SAS / no-SAS split as a selection capability inside main, with one code base and a way to set the operating mode, instead of a long-lived branch — due unspecified; no Jira item named in the call — [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
@@ -83,3 +87,4 @@ Pavel then swapped the hypothetical for the real release: "**делаем вер
 
 - [[raw/Meeting_Notes_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
+- [[raw/Meeting_Transcript_FlexPort_Telnet_Console_and_GUI_Harness-September-26-2026.md]]

@@ -4,8 +4,8 @@ title: Evgeniy Alekseev
 date: 2025-03-11
 aliases: [Evgeniy Alekseev, Evgeny Alekseev, Zhenya Alekseev, Женя Алексеев, Alekseev]
 disambiguation: "Owner of the main embedded code branch, this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
-source-count: 43
-open-commitments: 8
+source-count: 45
+open-commitments: 10
 ---
 
 # Evgeniy Alekseev
@@ -198,6 +198,29 @@ At the [[wiki/meetings/2026-09-23-daily-standup-terminal-emulator-and-capability
 
 At the [[wiki/meetings/2026-09-25-daily-standup-engineering-menu-and-jira-discipline.md|Sept-25 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]], [[wiki/people/alexei-khamin.md|Khamin]] asked whether they would meet "с алексеевым". Pavel asked what was needed from him "по прошивкам"; Khamin: "У меня мой пиар так и висит." Pavel: "Запроси митингу Алексеева." Irina: include Pavel. (Surname only; firmware fits this page's role.)
 
+## Sept 26 2026 — WebSocket "later", the GUI page for himself, and new boards to test
+
+At the [[wiki/meetings/2026-09-26-flex-port-telnet-console-and-gui-harness.md|Sept-26 Flex-Port development sync]] (Russian) [[raw/Meeting_Transcript_FlexPort_Telnet_Console_and_GUI_Harness-September-26-2026.md]]:
+
+- **WebSocket.** He asked whether WebSocket had been tried on the Wi-Fi link; Pavel had not tried the one built into the module firmware. He began to ask whether Wi-Fi should be built into the WebSocket, then: "Ну ладно это потом." See [[wiki/decisions/2026-09-07-wi-fi-module-on-flex-port-with-an-external-router.md]] (Sept-26 update).
+- **The GUI page.** "Мне бы хотелось бы" — Pavel showed him how to run the GUI harness. He asked which UART the console uses (the three-pin one).
+- **New boards.** "Платы пришли" (count garbled) and "поиспитываем" — we'll test them.
+
+## Open commitments (Sept 26 2026)
+
+- [ ] Evgeniy Alekseev (speaker; "поиспитываем" = "we'll test", who exactly is not stated) — test the newly arrived boards — due unspecified — [[raw/Meeting_Transcript_FlexPort_Telnet_Console_and_GUI_Harness-September-26-2026.md]]
+
+## Sept 28 2026 (8:02 AM, in absentia) — PORT-13 stays with him; the Wi-Fi software is taken off him
+
+On the [[wiki/meetings/2026-09-28-transactional-mvp1-remote-updates-and-october-15-target.md|Sept-28 8:02 AM MVP 1 call]] (Russian; he was not present) [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]:
+
+- **Firmware delivery.** Pavel: part of the remote-update tasks "[с]тояла на алексееве, но поскольку он работает только в выходные", and offered to take the story "порт 13 по доставке новой прошивке на flexport" himself. Val: "Я бы оставил бы это алексееву." So PORT-13 stays his, now inside MVP 1. See [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Sept-28 update).
+- **Wi-Fi.** Pavel: "вай фай я у него забрал он он только железо сделал" — Pavel's team does the Wi-Fi software. See [[wiki/decisions/2026-09-07-wi-fi-module-on-flex-port-with-an-external-router.md]] (Sept-28 update).
+
+## Open commitments (Sept 28 2026)
+
+- [ ] Evgeniy Alekseev — deliver the firmware-delivery story PORT-13 for the Flex-Port, now in MVP 1 — due unspecified (the MVP 1 date is October 15) — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]]
@@ -243,3 +266,5 @@ At the [[wiki/meetings/2026-09-25-daily-standup-engineering-menu-and-jira-discip
 - [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
+- [[raw/Meeting_Transcript_FlexPort_Telnet_Console_and_GUI_Harness-September-26-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]

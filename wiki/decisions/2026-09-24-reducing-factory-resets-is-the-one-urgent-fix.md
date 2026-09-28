@@ -3,15 +3,15 @@ type: decision
 title: If only one thing can be fixed, it is to reduce the number of factory resets — urgent, and the next meeting is narrowed to it
 date: 2026-09-24
 aliases: [reduce the number of factory resets, as little factory reset as possible, low-hanging fruits, I am narrowing the subject, meeting three, 2 1/2 thousand machines in the field]
-source-count: 1
+source-count: 2
 status: active
-open-commitments: 2
+open-commitments: 0
 open-questions: 0
 ---
 
 # Reducing factory resets is the one urgent fix
 
-Ruled by [[wiki/people/val-levitan.md|Val Levitan]] at the close of the [[wiki/meetings/2026-09-24-ris-serial-binding-and-factory-reset-focus.md|Sept 24 2026 7:02 AM RIS follow-up]], after the talk had drifted into redesign. All quotations from [[raw/Meeting_Transcript_RIS_Serial_Binding_and_Factory_Reset_Focus-September-24-2026.md]].
+Ruled by [[wiki/people/val-levitan.md|Val Levitan]] at the close of the [[wiki/meetings/2026-09-24-ris-serial-binding-and-factory-reset-focus.md|Sept 24 2026 7:02 AM RIS follow-up]], after the talk had drifted into redesign. All quotations up to the Sept-25 update from [[raw/Meeting_Transcript_RIS_Serial_Binding_and_Factory_Reset_Focus-September-24-2026.md]].
 
 ## The stop
 
@@ -31,13 +31,22 @@ Ruled by [[wiki/people/val-levitan.md|Val Levitan]] at the close of the [[wiki/m
 
 "I suggest having another meeting tomorrow at 7… on the same subject. I am narrowing the subject now… I will schedule another meeting for tomorrow at 7 A.m."
 
-## Open commitments
+## Update — Sept 25 2026: the follow-up is held, and the fix gets a name
 
-- [ ] Val Levitan — schedule the follow-up meeting for 7:00 AM on Sept 25, narrowed to reducing factory resets — due Sept 24 2026 — [[raw/Meeting_Transcript_RIS_Serial_Binding_and_Factory_Reset_Focus-September-24-2026.md]]
-- [ ] Pavel Frolov — split the factory-reset case into several separate cases — due unspecified (the next meeting) — [[raw/Meeting_Transcript_RIS_Serial_Binding_and_Factory_Reset_Focus-September-24-2026.md]]
+The narrowed meeting took place on Sept 25 at **10:31 AM**, not 7 AM ([[wiki/meetings/2026-09-25-ris-mvp1-factory-reset-reduction-plan.md|Sept-25 RIS follow-up]]). Val opened by repeating this ruling: "we lost our focus… I want to find at least one. maybe hopefully two, three items that by fixing it, we can alleviate maybe 50, 60% of the issues. And I would call it MVP1 release of the RIS. So RIS rework." And: "the most suffering comes with the factory reset, that everything requires a factory reset for us, which I'm repeating myself, is appropriate design for 20 year ago." [[raw/Meeting_Transcript_RIS_MVP1_Factory_Reset_Reduction_Plan-September-25-2026.md]]
+
+- Pavel answered with a numbered list of six points; his first idea (point 4 in his final list) was to reuse the last RIS after a factory reset, which he thinks "will fix more than 50% of cases". The list is on [[wiki/topics/ris-remote-install-and-machine-states.md]] (Sept 25, 10:34 AM) [[raw/Meeting_Transcript_RIS_MVP1_Factory_Reset_Reduction_Plan-September-25-2026.md]].
+- Val also said all of it is "called patching. It's not really fixing. So fixing, for example, is moving people to a modem." [[raw/Meeting_Transcript_RIS_MVP1_Factory_Reset_Reduction_Plan-September-25-2026.md]]
+- Scope and next step: [[wiki/decisions/2026-09-25-the-ris-rework-mvp1-is-for-flex-machines-only.md]] and [[wiki/decisions/2026-09-25-felipe-acts-as-product-owner-for-the-ris-rework.md]].
+
+## History
+
+- [x] Val Levitan — schedule the follow-up meeting for 7:00 AM on Sept 25, narrowed to reducing factory resets — due Sept 24 2026 — [[raw/Meeting_Transcript_RIS_Serial_Binding_and_Factory_Reset_Focus-September-24-2026.md]] — **discharged Sept 25:** the follow-up was held that day, at 10:31 AM rather than 7 AM [[raw/Meeting_Transcript_RIS_MVP1_Factory_Reset_Reduction_Plan-September-25-2026.md]]
+- [x] Pavel Frolov — split the factory-reset case into several separate cases — due unspecified (the next meeting) — [[raw/Meeting_Transcript_RIS_Serial_Binding_and_Factory_Reset_Focus-September-24-2026.md]] — **discharged Sept 25:** Pavel read out six numbered points, and Felipe split the hard-reset need across the 8 use cases [[raw/Meeting_Transcript_RIS_MVP1_Factory_Reset_Reduction_Plan-September-25-2026.md]]
 
 **§15.8:** clear.
 
 ## Sources
 
 - [[raw/Meeting_Transcript_RIS_Serial_Binding_and_Factory_Reset_Focus-September-24-2026.md]]
+- [[raw/Meeting_Transcript_RIS_MVP1_Factory_Reset_Reduction_Plan-September-25-2026.md]]

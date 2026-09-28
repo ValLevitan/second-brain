@@ -2,10 +2,10 @@
 type: topic
 title: Low-cost street machine (sub-$2,000 street cabinet program)
 date: 2026-06-09
-aliases: [street machine, machine-width video deck, 10-degree play panel, golden mark, Light and Wonder panel on an arm, pull-out electronics shelf, street cabinet, Sept 16 board spec, ID003 and ccTalk, eye level electronics, halo light, plywood cabinet, cup holders, low-cost street machine, low-cost street cabinet, street slot machine, sub-$2000 street machine, RK3588 street machine, stripped street cabinet, Flex S, флекс эс, стрит машина, RK3576 street machine, wooden monolithic body, wood or metal, price both then decide, three containers, 7000 square feet]
-source-count: 22
-open-commitments: 5
-open-questions: 3
+aliases: [street machine, machine-width video deck, 10-degree play panel, golden mark, Light and Wonder panel on an arm, pull-out electronics shelf, street cabinet, Sept 16 board spec, ID003 and ccTalk, eye level electronics, halo light, plywood cabinet, cup holders, low-cost street machine, low-cost street cabinet, street slot machine, sub-$2000 street machine, RK3588 street machine, stripped street cabinet, Flex S, флекс эс, стрит машина, RK3576 street machine, wooden monolithic body, wood or metal, price both then decide, three containers, 7000 square feet, deeper cabinet, fixed dashboard, slide-down panel, fold-down door, plastic is out, kitchen-cabinet makers, pedestal split]
+source-count: 24
+open-commitments: 6
+open-questions: 5
 ---
 
 # Low-cost street machine (sub-$2,000 street cabinet program)
@@ -240,10 +240,37 @@ At the [[wiki/meetings/2026-09-25-georgia-progressives-and-class-a-lions-riches.
 
 The derived notes list this spec as a decision by Val; the recording is Val describing the machine, with no objection. [[raw/Meeting_Notes_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
 
+## Sept 25 2026 (3:16 PM) — a deeper cabinet, a fixed dashboard, and a panel that slides down
+
+Later the same day, after the 2:32 PM game call, the [[wiki/meetings/2026-09-25-street-cabinet-deep-layout-and-service-door.md|Sept-25 3:16 PM street-cabinet review]] (Russian; [[wiki/people/val-levitan.md|Val]], [[wiki/people/genadi-peari.md|Genadi Peari]]) went through Genadi's block layout. Genadi opened on service: "У нас проблема же вообще аксес туда особо нету. Её надо очень далеко выдвигать." [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
+
+- **The layout ruling** — a deeper cabinet so the printer fits; the bill acceptor must support TITO, so back-load is out and only front-load is left; port, printer and front-load validator on a fixed dashboard, printer left, bill acceptor right; the play panel slides down on rails and a separate door folds down 90° with the electronics lying on it. → [[wiki/decisions/2026-09-25-the-street-cabinet-goes-deeper-so-the-printer-and-a-tito-front-load-acceptor-sit-on-a-fixed-dashboard.md]]
+- **This answers the Sept-24 front/back-load question** (front-load, TITO) and replaces the Sept-24 printer-in-the-middle layout. The **play panel stays shallow**; it is the cabinet that goes deeper. Evolution, not contradiction — Val: "Я сегодня пересмотрел". [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
+- **The TV simply hangs.** "Когда мы решили вопрос, что телевизор просто вешается. А отпала вся система вот этого открытия сложного." See [[wiki/decisions/2026-09-16-street-machine-electronics-move-to-eye-level-and-the-monitor-opens-like-a-cupboard-door.md]] (Sept-25 update). [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
+
+**Buttons or a video deck — Val now leans video.** Genadi had found a deck with touchscreen "в районе $100" at about 30 cm long; one at 21.5 length would be "в районе где то 180 за панель", because "Они берут всю панель". Val: "Это нехорошо, это очень дорого." Buttons: Taiwan-made ones about "по 6 по 7" (better ones cost more). Val's sums: 8 buttons "Это уже $50", "Плюс… харнес ещё $10", "Это это 60". His conclusion: "Если кнопки нам стоят? $60 с харнестом. Авидок стоит нам $120. То, скорее всего, мы пойдем на вида." Genadi noted Val wants to position it as a dearer model ("вы хотите позиционировать это как более дорогая модель") and that LVDS can save on the controller. The supplier's staff were away at a festival; Genadi will talk to them again. Not final. [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]] *(See Open contradictions below — at 2:32 PM the same day Val said the basic machine goes without a VDEC.)*
+
+**Material — plastic is out; Val prefers plywood; metal is possible.** Genadi: "Пластик пластик это очень сложно… Такой молод это 250000 такого размера" (currency not spoken), then "это не молт, это какойто вакуум в форме я не знаю". Val: "Нет пластик отпадает, можно делать, можно делать металл, но я бы делал бы это и сплань… конструкцию, которую вы нарисовали вот такой брикет меня полностью удовлетворяет." Shipping containers of plastic is "очень, очень, очень тяжело". The Sept-23 wood-against-metal pricing is still owed; this retires the June-16 plastic back cavity. [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
+
+**Why wood: anyone can cut it, anywhere.** Val: "стрит машина рассчитывается на то, чтобы мы могли ее манефакче в больших тиражах легко везде… спорта рико… в Техасе… в джорджи везде есть какойто маленький кетчур, который делает эти кабинеты китченкабинеты." "Доски режут все"; painted black, "ты их не видишь". This extends his Sept-23 logistics argument. [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
+
+**Genadi's counter: shallow ships at half the size.** "Есть огромное преимущество шалого кабинета" — for transport from China and warehouse space, "если он в 2 раза уже это в 2 раза меньше." Val kept the deeper cabinet. [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
+
+**A pedestal split, raised as an option.** Val: "Есть еще есть еще одно решение… распилить машину на 2 части, делать пьедестал отдельно. А саму машину отдельно." *(On Sept 14 and Sept 16 he had said no separate base or podium. Raised here as an option, not chosen.)* [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
+
+**Stability.** Val asked if it will stand firm. Genadi: the box needs a separate leg added ("надо будет приделать ногу сюда. Такую вот отдельную"), and perhaps a small shield at the back "если это не возле стены". Val: "это же можно сделать такую металлическую пластинку, как вы сделали на на флекспей?" Genadi: "Да." [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
+
+**Igor's view, as Genadi relayed it.** "то, что Игорь всегда говорит, если делаешь ner и, ты прячешь туда принтер, это это nice в плане визуально" — hiding the printer in a narrow cabinet looks good. Val: "Если ты прячешь… принтер, то да, но я буду очень сделал машину глубже и оставил бы принтеры на дашборд." *(Igor = [[wiki/people/igor-starovoytov.md|Starovoytov]] by context — inference.)* [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
+
+*The derived notes list the same layout decisions; they give the plastic figure as a mould cost, which Genadi corrects in the transcript.* [[raw/Meeting_Notes_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
+
+**§15.8:** clear — component and cabinet economics only.
+
 ## Open commitments
 
-- [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — review the market for a long, machine-width touchscreen for the video deck — due unspecified ("я должен ребеью маркет") — [[raw/Meeting_Transcript_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]]
-- [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — do the street-cabinet layout and work with Igor on pictures to present to Val — due Sept 24 2026 ("я завтра. Я сделаю компоновку") — [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]] — *Sept 24: layout in progress (printer and bill-acceptor placement proposed); Igor not yet contacted, perhaps at the weekend* [[raw/Meeting_Transcript_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]]
+- [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — review the market for a long, machine-width touchscreen for the video deck — due unspecified ("я должен ребеью маркет") — [[raw/Meeting_Transcript_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]] — *Sept 25: first prices reported (~$100 at ~30 cm, ~$180 at 21.5 length); he will talk to the supplier again* [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
+- [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — do the street-cabinet layout and work with Igor on pictures to present to Val — due Sept 24 2026 ("я завтра. Я сделаю компоновку") — [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]] — *Sept 24: layout in progress (printer and bill-acceptor placement proposed); Igor not yet contacted, perhaps at the weekend* [[raw/Meeting_Transcript_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]] — *Sept 25: a block layout was shown and Val said it "меня полностью удовлетворяет"; the service design is now owed on the Sept-25 decision; pictures with Igor not reported* [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
+- [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — talk to the deck supplier again about the touchscreen panel prices (its staff were away at a festival) — due unspecified ("Я ещё буду общаться") — [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
 - [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — price wood against metal for the street cabinet, with manufacturers, so the choice is made on numbers — due unspecified — [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
 - [ ] **Mechanical engineering (via [[wiki/people/genadi-peari.md|Genadi Peari]])** — re-engineer the cabinet so the screen is **fastened, not glued**, and so the wires run from the back with a proper holder, slot, pem and limiter — due **not stated**; "**You gotta fix that**" — [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]] [[raw/Meeting_Notes_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
 - [ ] **Whoever was at the machine** — photograph and document the wiring and mounting defects Val called out — due **immediately**; "**Please take a picture of it… Please document it**" — [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
@@ -251,8 +278,16 @@ The derived notes list this spec as a decision by Val; the recording is Val desc
 ## Open questions
 
 - Where does the scanner go — about 10 cm higher (Genadi) or under the monitor (Val)? [[raw/Meeting_Transcript_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]]
-- Is the street machine's bill acceptor front-load, back-load, or both? The Sept-24 passage is garbled. [[raw/Meeting_Transcript_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]]
-- Wood, plywood or metal for the street-cabinet body? Val argues logistics and form for wood; Genadi argues bracket count and assembly error, US wood prices, and a ~40% cheaper simplified metal build. Not decided as of Sept 23. [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+- Wood, plywood or metal for the street-cabinet body? Val argues logistics and form for wood; Genadi argues bracket count and assembly error, US wood prices, and a ~40% cheaper simplified metal build. Not decided as of Sept 23. *Sept 25: plastic is out; Val prefers plywood, metal "можно"; still not priced.* [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]] [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
+- Buttons (~$60 with harness) or the video deck (~$120)? Val: "скорее всего, мы пойдем на вида" — not final. [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
+- One piece, or a separate pedestal plus the machine? Val raised the split as "ещё одно решение". [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
+- Does the cabinet need a back shield or a FlexPay-style metal plate when it does not stand against a wall, and a separate leg for stability? [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
+
+*Answered:* ~~Is the street machine's bill acceptor front-load, back-load, or both? The Sept-24 passage is garbled.~~ [[raw/Meeting_Transcript_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]] — **Sept 25: front-load, TITO-capable; back-load is out** ("отпадает беклот") — [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
+
+## Open contradictions
+
+- **Video deck in the basic machine — two statements on the same day.** Sept 25, 2:32 PM (English, to the game team): "**the basic machine will go without**", with "a provision just in case we source the right screen" [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]. Sept 25, 3:16 PM (Russian, to Genadi): "Авидок стоит нам $120. То, скорее всего, мы пойдем на вида" [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]. The later one may follow from Genadi's prices, but the source does not say so. Both recorded; not resolved.
 
 *§15.8: board, component, cabinet and build-cost economics only; one comparative remark about a named colleague's board work was excluded. No named-person compensation.*
 
@@ -280,3 +315,5 @@ The derived notes list this spec as a decision by Val; the recording is Val desc
 - [[raw/Meeting_Notes_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]]
 - [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
 - [[raw/Meeting_Notes_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
+- [[raw/Meeting_Notes_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]

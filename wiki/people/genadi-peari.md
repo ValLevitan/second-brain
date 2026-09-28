@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий, Kenadi]
-source-count: 102
+source-count: 104
 open-commitments: 31
 ---
 
@@ -485,6 +485,21 @@ On the [[wiki/meetings/2026-09-24-hardware-repo-bom-source-of-truth-and-street-c
 
 *(His Sept-24 commitments are held once on the pages above.)*
 
+## Sept 25 2026 (in absentia) — his IO-board port move "seems to help a lot"
+
+At the [[wiki/meetings/2026-09-25-ris-mvp1-factory-reset-reduction-plan.md|Sept-25 RIS follow-up]] Felipe said: "I think Genadi suggested moving the connection of the IO board from the original port it was connected to to the one under the IO board. This seems to help a lot… I mean a hardware fix" — for machines that report IO devices not found. See [[wiki/topics/ris-remote-install-and-machine-states.md]] (Sept 25, 10:34 AM) [[raw/Meeting_Transcript_RIS_MVP1_Factory_Reset_Reduction_Plan-September-25-2026.md]].
+
+## Sept 25 2026 (3:16 PM) — the street cabinet goes deeper over his case for shallow
+
+On the [[wiki/meetings/2026-09-25-street-cabinet-deep-layout-and-service-door.md|Sept-25 street-cabinet review]] (Russian) with Val. [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
+
+- **He showed his block layout** in a SolidWorks viewer and opened on the real problem: there is no good access to the electronics, and the part would have to slide out very far. Val said the block design "меня полностью удовлетворяет". [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
+- **He argued for a shallow cabinet** (half the size to ship from China and to store) and for looking at several layout options — "Мы ничего не сэкономим, если мы не рассмотрим несколько вариантов". Val chose the deeper cabinet with the printer and a TITO front-load acceptor on a fixed dashboard: [[wiki/decisions/2026-09-25-the-street-cabinet-goes-deeper-so-the-printer-and-a-tito-front-load-acceptor-sit-on-a-fixed-dashboard.md]]. He closed: "у меня вопросов нет, надо работать." [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
+- **He priced the deck and the buttons**, and relayed Igor's view that hiding the printer in a narrow cabinet looks good. See [[wiki/topics/low-cost-street-machine.md]] (Sept 25, 3:16 PM). [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
+- **He said plastic is very hard** for a body this size, and suggested a separate leg and a small back shield for stability. [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
+
+*(His Sept-25 commitments are held once: the service design on the Sept-25 decision; the supplier follow-up and the updated layout item on the street-machine topic.)*
+
 ## History
 
 - [x] Genadi Peari — finish IQ, Slim, IQ again and the printer (week of Sept 14), then start the street cabinet — due Sept 23 2026 — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]] — **discharged Sept 23 2026:** he started the cabinet that day ("Я могу начинать стрит кабель" — "можете начинать") and said almost nothing was left on him. [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
@@ -593,3 +608,5 @@ On the [[wiki/meetings/2026-09-24-hardware-repo-bom-source-of-truth-and-street-c
 - [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
 - [[raw/Meeting_Transcript_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]]
+- [[raw/Meeting_Transcript_RIS_MVP1_Factory_Reset_Reduction_Plan-September-25-2026.md]]
+- [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]

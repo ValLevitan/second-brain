@@ -4,7 +4,7 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "IT (GitHub-admin, infrastructure, secrets/Azure, AI-tool accounts) — the IT-context "Dima". Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 41
+source-count: 42
 open-commitments: 14
 open-questions: 2
 ---
@@ -240,6 +240,10 @@ At the [[wiki/meetings/2026-09-25-games-conversion-repos-jira-capabilities.md|Se
 
 - [ ] Dmitri Kovalchuk — open the two Jira projects for the games-conversion work, named to match the repositories — due after the repositories exist — [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]
 
+## Sept 28 2026 — two daily Jira reports, and "name the CAP and the feature"
+
+At the end of the [[wiki/meetings/2026-09-28-daily-standup-log-traffic-and-nova-rename.md|Sept-28 Minsk stand-up]] (Russian) he said two reports now arrive — Jira hierarchy (tied to MVP 1) and Jira discipline (statuses and dates) — and asked people not to break statuses. Because the meetings may later be read by AI, he proposed that everyone name the exact CAP and feature they work on; Pavel agreed. See [[wiki/decisions/2026-09-17-planning-comes-off-pavel-and-goes-to-an-application-administrator.md]] (Sept-28 update) [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
@@ -283,3 +287,4 @@ At the [[wiki/meetings/2026-09-25-games-conversion-repos-jira-capabilities.md|Se
 - [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
 - [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]
 - [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]

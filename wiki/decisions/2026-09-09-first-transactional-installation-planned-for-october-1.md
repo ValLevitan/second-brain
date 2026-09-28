@@ -1,15 +1,18 @@
 ---
 type: decision
-title: The first transactional installation is planned for October 1 and the whole schedule is built on that assumption — the date stands; the FlexPay self-service configuration named here was replaced by Flex IQ on Sept 11
+title: The first transactional installation was planned for October 1 — SUPERSEDED Sept 28 2026, when October 15 became the working MVP 1 date (the FlexPay self-service configuration named here was already replaced by Flex IQ on Sept 11)
 date: 2026-09-09
-aliases: [first installation October 1, assume October 1, one installation on the first of October, self-service wallet case, bill acceptor card dispenser and printer, it might be September 28, the October 1 case]
-source-count: 10
-status: active
+aliases: [first installation October 1, October 1 unrealizable, 1 октября нереализуемо, assume October 1, one installation on the first of October, self-service wallet case, bill acceptor card dispenser and printer, it might be September 28, the October 1 case]
+source-count: 11
+status: superseded — the October-1 date fell on Sept 28 2026 (October 15 is the working MVP 1 date); the office-rehearsal, LTE-modem and RK3568 content below is unchanged history
 open-commitments: 1
 open-questions: 0
 ---
 
-# The first transactional installation is planned for October 1
+# The first transactional installation was planned for October 1 — superseded by October 15
+
+> **Update — Sept 28 2026: the date falls.** At the [[wiki/meetings/2026-09-28-transactional-mvp1-remote-updates-and-october-15-target.md|Sept-28 8:02 AM call]] Klimovich — who had held October 1 on Sept 24 — said October 15 is the real date and October 1 is not achievable ("будем честны, что у нас 15 число. Это реальная дата… Нереализуемо"). Val then asked the team for the final state by October 15 "если это возможно". **October 1 is no longer the plan.** The new date and its caveats are on [[wiki/decisions/2026-09-28-october-15-replaces-october-1-as-the-mvp1-date.md]]. Treated as **evolution, not contradiction** (§11). [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+
 
 > **Update — Sept 11 2026: the date survives, the configuration does not.** At the [[wiki/meetings/2026-09-11-transactional-mvp1-scope-and-priorities.md|Sept 11 8:04 AM call]] Val ruled that October 1 goes with **one configuration, Flex IQ** — FlexPay moves to MVP 2 and the Flex-Port stays in. Irina Shishko put it as "к 1 октября… мы окончательно решаем, что мы идём только с одной конфигурацией. С флекс[ ]а[й]кю", and Val confirmed it, conditional on the bottleneck the engineers report. So the **FlexPay self-service configuration described below is superseded**; everything about the October-1 date, the wallet behaviour, the LTE modem and the RK3568 platform still stands. Full ruling on [[wiki/decisions/2026-09-11-mvp1-goes-with-flex-iq-alone-and-one-kiosk-per-location.md]]. Treated as **evolution, not contradiction** (§11). [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 
@@ -82,6 +85,16 @@ At the [[wiki/meetings/2026-09-25-transactional-mvp1-flexport-third-party-egm-co
 
 **Plan vs actual.** Nobody moved the October-1 date on this call. The Jira development plan now ends October 7 — later than the October-2 end date challenged on Sept 22. This is recorded beside the plan, not as a new plan; nobody said what October 1 will deliver if development runs to October 7 (not discussed).
 
+## Update, Sept 28 2026 — October 1 is called unachievable, and October 15 takes its place
+
+At the [[wiki/meetings/2026-09-28-transactional-mvp1-remote-updates-and-october-15-target.md|Sept-28 8:02 AM MVP 1 call]] (Russian) [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]:
+
+- **Pavel:** "Мы MVP один, например, сдвигаем на 15 октября."
+- **Klimovich:** "будем честны, что у нас 15 число. Это реальная дата 1 октября. Нереализуемо" — read as: October 15 is the real date; October 1 is not achievable.
+- **Val:** final state by "15 октября, если это возможно"; 95% done is fine.
+
+**Plan vs actual.** Plan: October 1 (this page) → October 15 (Sept 28). Actual: none yet. Irina's autotest estimate is October 23. Details on [[wiki/decisions/2026-09-28-october-15-replaces-october-1-as-the-mvp1-date.md]].
+
 ## Sources
 - [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 - [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
@@ -93,3 +106,4 @@ At the [[wiki/meetings/2026-09-25-transactional-mvp1-flexport-third-party-egm-co
 - [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
 - [[raw/Meeting_Notes_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]

@@ -4,8 +4,8 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 68
-open-commitments: 32
+source-count: 70
+open-commitments: 36
 open-questions: 0
 ---
 
@@ -455,7 +455,19 @@ On the [[wiki/meetings/2026-09-25-transactional-mvp1-flexport-third-party-egm-co
 
 ## Open commitments (Sept 25 2026, 8:05 AM)
 
-- [ ] Dmitri Chudinov — give Klimovich a Flex IQ build with the printer set up and connected — due Mon Sept 28 2026 ("наверное") — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
+- [ ] Dmitri Chudinov — give Klimovich a Flex IQ build with the printer set up and connected — due Mon Sept 28 2026 ("наверное") — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]] — *Sept 28 2026: builds are now in the dashboard's Updates tab (Klimovich: "есть белды") and Chudinov said to install the latest; whether the printer set-up is in it is not stated, so this stays open* — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+
+## Sept 28 2026 — log traffic, card activation, the update dashboard, and a PIN rule for later
+
+- **At the 4:56 AM stand-up** ([[wiki/meetings/2026-09-28-daily-standup-log-traffic-and-nova-rename.md|Sept-28 Minsk stand-up]], Russian): with Andrei ([[wiki/people/andrey-bosik.md|Bosik]], by context) he aligned the product-terminal names for updates; builds install and work. Card activation is done; tests were finishing on his container; he would push capability 237 (a dashboard of activated cards) that day. An overnight test put logs and metrics at about 120 MB a day, a bit over 3 GB a month; junk logs can be cut, maybe by half. See [[wiki/decisions/2026-09-17-signal-quality-in-mvp1-means-remote-visibility-not-a-screen.md]] (Sept-28 update) [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]].
+- **At the 8:02 AM call** ([[wiki/meetings/2026-09-28-transactional-mvp1-remote-updates-and-october-15-target.md|Sept-28 8:02 AM MVP 1 call]], Russian): he will post the new card-activation negative cases in the common chat, not send them one-on-one. He raised the PIN dilemma for two devices at one location and proposed a PIN always on the port; Pavel's hidden fixed PIN did not convince him. He showed the terminal-management Updates tab — devices, builds with SD-card installers, update campaigns — and said older terminals first need the new software by SD card. He will check with "Сергей" (not resolved) which role Elizabeth needs. FlexPay updates wait "пока [MVP один] не закроем". See [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Sept-28 update) [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]].
+
+## Open commitments (Sept 28 2026)
+
+- [ ] Dmitri Chudinov — push the card-activation tests and capability 237 (activated-cards dashboard); close the overdue tasks — due Sept 28 2026 — [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
+- [ ] Dmitri Chudinov — remove junk logs to cut the traffic, and tell Andrei about the ~3 GB a month — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
+- [ ] Dmitri Chudinov — post the file of new card-activation negative cases and terminal errors in the common chat — due Sept 28 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [ ] Dmitri Chudinov — check which role Elizabeth needs to download builds from the dashboard, and have it assigned — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
 
 ## Sources
 
@@ -527,3 +539,5 @@ On the [[wiki/meetings/2026-09-25-transactional-mvp1-flexport-third-party-egm-co
 - [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]

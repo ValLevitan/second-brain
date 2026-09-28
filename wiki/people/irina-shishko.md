@@ -4,8 +4,8 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 106
-open-commitments: 33
+source-count: 111
+open-commitments: 35
 ---
 
 # Irina Shishko
@@ -527,6 +527,30 @@ On the [[wiki/meetings/2026-09-25-transactional-mvp1-flexport-third-party-egm-co
 
 At the [[wiki/meetings/2026-09-25-games-conversion-repos-jira-capabilities.md|Sept-25 9:02 AM games-conversion session]] (Russian) she asked whether the converter is still needed once a game is converted — "Или он просто будет уже лежать там какимто мертвым грузом?" Igor said no, and Pavel called it the right question. Her example: six games converted one after another, after which "этот конвертер уже больше… не нужен". She put its reusable share at "80 70" per cent [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]. Detail on [[wiki/decisions/2026-09-25-the-conversion-experiment-closes-and-the-converter-gets-its-own-project-and-repository.md]].
 
+
+## Sept 25 2026 (10:34 AM) — RIS meeting three: one RIS for a list of machines, and no statistics
+
+At the [[wiki/meetings/2026-09-25-ris-mvp1-factory-reset-reduction-plan.md|Sept-25 RIS follow-up]] she spoke mostly in Russian [[raw/Meeting_Transcript_RIS_MVP1_Factory_Reset_Reduction_Plan-September-25-2026.md]]:
+
+- **One RIS, a list of machines.** Instead of a RIS per machine, "один рис и просто список машин"; a machine that finds its number takes the RIS, "И не нужно делать. Много инсталляций." Pavel called it a rework of installation; she said installations must be reworked anyway so they do not conflict with the passport. Not settled; the derived notes leave it out.
+- **No statistics.** The RIS should bring only what is needed, "И никаких статистик"; the flag to show the statistics QR code "достаточно просто регулируется сейчас уже в текущем рейсе".
+- See [[wiki/topics/ris-remote-install-and-machine-states.md]] (Sept 25, 10:34 AM).
+
+## Sept 28 2026 — autotests to about October 23, and one email thread for MVP 2
+
+- **At the 4:56 AM stand-up** ([[wiki/meetings/2026-09-28-daily-standup-log-traffic-and-nova-rename.md|Sept-28 Minsk stand-up]], Russian): she must re-plan with [[wiki/people/vladimir-samusenko.md|Vladimir]] to see when he can join the autotests, and will close unneeded features and tasks in Jira. On a Grafana task: it belongs in the integration repository only if its result is committed there [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]].
+- **At the 8:02 AM call** ([[wiki/meetings/2026-09-28-transactional-mvp1-remote-updates-and-october-15-target.md|Sept-28 8:02 AM MVP 1 call]]): all MVP 1 capabilities and requirements are reworked and all autotest features created. With Vladimir from Wednesday for about 8 days, the autotests end "до 23 числа" (October); development should end earlier. She needs "пару дней" to judge the real speed. She named capabilities 145 (Wi-Fi, MVP 2) and 146 (remote Flex-Port update). She asked that MVP 2 questions come as replies in one thread, not a new letter each day. See [[wiki/decisions/2026-09-28-october-15-replaces-october-1-as-the-mvp1-date.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]].
+
+## Open commitments (Sept 28 2026)
+
+- [ ] Irina Shishko — re-judge the autotest finish date after a couple of days — due about Sept 30 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [ ] Irina Shishko — meet Vladimir Samusenko after the stand-up to agree when he joins the autotests, and re-plan; close unneeded features and tasks in Jira — due Sept 28 2026 / unspecified — [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
+
+## Sept 28 2026 (10:33 and 11:07 AM) — at the RIS review: acceptance criteria, and no autotests for it
+
+- **At both RIS reviews** ([[wiki/meetings/2026-09-28-ris-battery-replacement-capability-framing.md|Sept-28 10:33 AM RIS review]]; [[wiki/meetings/2026-09-28-ris-mvp1-capabilities-walkthrough-and-jira-handover.md|11:07 AM second try]]); most of her lines are short or garbled. Pavel relayed her view that capability 2 is better as two capabilities (reuse the RIS after a factory reset; keep it across a version change). She called the one-QR-scan capability "simple". [[raw/Meeting_Transcript_RIS_Battery_Replacement_Capability_Framing-September-28-2026.md]] [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]
+- **Her part.** Val: "Irina will manage acceptance criteria, and her department will create automated testing for." Irina: "No." Val: "Well, no, no, sorry… The automated testing will not be created on this." See [[wiki/decisions/2026-09-28-sebastian-takes-the-ris-mvp1-capabilities-into-jira-and-felipe-steps-back.md]] (commitment held there). [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
@@ -635,3 +659,8 @@ At the [[wiki/meetings/2026-09-25-games-conversion-repos-jira-capabilities.md|Se
 - [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
 - [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]
 - [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]]
+- [[raw/Meeting_Transcript_RIS_MVP1_Factory_Reset_Reduction_Plan-September-25-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [[raw/Meeting_Transcript_RIS_Battery_Replacement_Capability_Framing-September-28-2026.md]]
+- [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]

@@ -30,6 +30,8 @@ open-questions: 0
 - The notes say no calendar event matched; the call is filed on content alone [[raw/Meeting_Notes_InComm_John_Exit_and_Blue_Card_Hold-September-25-2026.md]].
 - Val and John also agreed, loosely, to meet for coffee in Atlanta the week of October 12 (scheduling; not tracked as a commitment) [[raw/Meeting_Transcript_InComm_John_Exit_and_Blue_Card_Hold-September-25-2026.md]].
 
+**§12 — concurrent capture.** This call (~10:39 AM, about 7 minutes) sits inside the Teams [[wiki/meetings/2026-09-25-ris-mvp1-factory-reset-reduction-plan.md|RIS follow-up]] (10:31–11:33 AM, segment 2 from 10:34 AM), which belongs to another unit and is **not cited here**. In that recording Val says "I need, I need to take this, continue talking" at 00:04:27 (~10:38 AM) and then has **zero turns** until 00:13:37 (~10:47 AM), while the others keep talking. That window covers this call. Two different conversations that share one participant; Val stepped out of the Teams meeting to take this call (**inference**). Nothing is merged.
+
 **§15.8:** John's personal reason for leaving, which is about his pay, is **not recorded**. Only the business fact of the role change is kept. **§15 #9:** no corporate identifiers spoken.
 
 ## Sources

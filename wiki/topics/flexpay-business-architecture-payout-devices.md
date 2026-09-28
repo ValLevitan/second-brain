@@ -3,8 +3,8 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, floating FlexPort, FlexPort on posts, флори дизайн, recycling cassette, drop cassette, two-tape reel, refill cycle, IQ point of sale, promo credit on SAS 2, validator emulation, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS, ATM registration, slim ATM, Flex-Port-Mini, Flex Port Mini, Flex-Slim first ten, brackets from China, twelve eight twenty, eVoucher, wrapped gift card, EasyLynx, second SAS port, ATM Recycler, PTI Sentry, MudaGoose, Lego bricks, closed loop ATM, promo meter, technology agnostic, player is the king, tap to fund, the magic is in speed, Pay Slim, cannibalise MudaGoose, zero-balance wallet, wallet lifetime, one TITO printer, splitting, AFT device, AFT window, emulate an AFT device, no cash dispensing, eWallet TTL, collect fork, unclaimed transaction, reissue versus reprint, print new carrier, balance snapshot, daily cap and velocity, SAS 6.02, Gaming Standards Association, audit report one button, dual balance deposited and playable, Total Playable only Redeemable, balance naming ADR, playable only, unclaimed money, maintenance versus lockout, always-on scanner, LTE modem per device, capability requires requirement, printer tilts, preventive supply telemetry, vault server, incremental five, five dollars of promotional credit for a phone number, clearance network prohibits proceeds from gambling, business way agnostic, they are not your customer they are mine, offline operation, twenty-four hour offline window, lease expiry versus internet loss, be honest with yourselves, no cash on FlexPay, de-enrolled from a location never from the cloud, fifteen Flex-Ports design for 99, no daily cap error, pending transaction, one-time redemption PIN, synchronisation point, metal mesh on standoffs, Flex-Pay-Slim lid, service bay cover, taut string stopper, roll forward only, no rollback to a previous build, MVP1 dual SAS only, capability 144 cloned, nothing is closed, Monday scope freeze, receipt format still not given, balance display game agnostic, stackable recycler, cash box capacity, standalone TITO printer topology, four swimlanes seven columns, language button top left, 854 by 480, status icons on error screens, asset number, серийный номер машины, engineering menu QR, machine performance report MVP2, feature lock slips, capability 229, TouchGFX Designer, two-stage screen redraw, HTML mock-up versus Figma, design tokens, the kiosk is FlexPay, player gets two dollars less, blank not empty, texts compiled at build, October 2 end date, E2E micro-step, KORE SIM in the IQ, capability 234, capability 235, forfeit wallet, no PIN lockout, nine Flex-Ports default twenty]
-source-count: 274
-open-commitments: 112
+source-count: 277
+open-commitments: 116
 open-questions: 28
 ---
 
@@ -2606,8 +2606,8 @@ The [[wiki/meetings/2026-09-25-transactional-mvp1-flexport-third-party-egm-compa
 ### Open commitments (Sept 25 2026, 8:05 AM)
 
 - [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — create a distribution list for the transactional system and send its name to Klimovich — due unspecified (Klimovich wanted it for that day's report) — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
-- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — give Klimovich a Flex IQ build with the printer set up and connected — due Mon Sept 28 2026 ("наверное") — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
-- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — set up next week's meetings for this group at the same time — due before Mon Sept 28 2026 — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — give Klimovich a Flex IQ build with the printer set up and connected — due Mon Sept 28 2026 ("наверное") — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]] — *Sept 28 2026: builds are in the dashboard's Updates tab; the printer set-up is not mentioned, so this stays open* — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [x] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — set up next week's meetings for this group at the same time — due before Mon Sept 28 2026 — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]] — **discharged Sept 28 2026:** he chaired the Monday 8:02 AM call — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
 
 ## Sept 25 2026 (1:30 PM) — the promo flier: what the transactional family is called, and the four problems it solves
 
@@ -2634,6 +2634,76 @@ Klimovich: "Вот 4 проблемы, мы согласны с этими, пр
 **The solutions part is not reviewed yet.** Val read it for about a minute: "Мне тяжело на лету… когда все слова поменяются. Мне тогда легче будет". Klimovich: "давайте я пришлю вам обновлённую версию по этим комментариям" [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]]. Commitments on [[wiki/people/andrei-klimovich.md]] (Sept 25, 1:30 PM).
 
 **§15.8:** clear. **§15 #9:** none.
+
+## Sept 26 2026 (9:36 AM) — what the PORT 9 branch holds, a Telnet console on the board, and the GUI harness
+
+A 9-minute Saturday [[wiki/meetings/2026-09-26-flex-port-telnet-console-and-gui-harness.md|Flex-Port development sync]] (Russian; [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]], [[wiki/people/alexei-khamin.md|Alexei Khamin]], [[wiki/people/irina-shishko.md|Irina Shishko]]). [[raw/Meeting_Transcript_FlexPort_Telnet_Console_and_GUI_Harness-September-26-2026.md]]
+
+**What is in the branch.** Pavel: "в рамках вот порт 9… Добавлена поддержка. Сас, то есть перетянутая из Того проекта, который был с сасом"; "А FT команды непосредственно общение с асом"; and "какая то часть работ по вайфай модулю е с п 32 c 6". The next pull requests, "порт, 51 и порт 68", will be committed into it too. That is the SAS/AFT branch Pavel described on Sept 14 — see [[wiki/decisions/2026-09-14-flex-port-sas-mode-is-a-selection-capability-not-a-long-lived-branch.md]] (Sept-26 update) — and the Wi-Fi work on [[wiki/decisions/2026-09-07-wi-fi-module-on-flex-port-with-an-external-router.md]] (Sept-26 update). [[raw/Meeting_Transcript_FlexPort_Telnet_Console_and_GUI_Harness-September-26-2026.md]]
+
+**A Telnet debug console on the board.** "Нам сейчас тилнет сервер загружен… можно к платье подключаться потелны, а то у нее там богатый набор команд" — for debugging: the SAS channel state, Wi-Fi, Ethernet, the IP address, and "включить режим сас или включите режим ноу сас". Typing help lists all commands. The same console works over the UART — "который трехконтактный" — but without pictures. [[raw/Meeting_Transcript_FlexPort_Telnet_Console_and_GUI_Harness-September-26-2026.md]]
+
+**Screenshots and a web page.** On a separate port a service takes screenshots of what the Flex-Port shows; a web page shows the screen and emulates actions — "отсканировать тикет или там, например, вот прописать вайфай сеть". [[raw/Meeting_Transcript_FlexPort_Telnet_Console_and_GUI_Harness-September-26-2026.md]]
+
+**How to run the GUI harness** (Alekseev wanted the page for himself). In the project's "тулс папочка": "Гуй харнес это питоновский скрипт". You give it the Flex-Port's IP address; "в последних прошивках этот IP адрес даже на экране будет высвечиваться". It starts a local web server, default port "80 73" (localhost). It has two channels: Telnet on port 23, and a second port "какой то 5000 чем то" that returns a raw picture, which the server turns into a PNG for the page. It refreshes on click, not all the time, because "там пол секунды идёт скачивание картинки". [[raw/Meeting_Transcript_FlexPort_Telnet_Console_and_GUI_Harness-September-26-2026.md]]
+
+**Not ready: the firmware simulator** — "пока что на симулятор не готов для прошивок. И, наверное, сегодня завтра не будет готов." See [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]] (Sept-26 update). [[raw/Meeting_Transcript_FlexPort_Telnet_Console_and_GUI_Harness-September-26-2026.md]]
+
+**Autotests** through the board's hooks — on [[wiki/topics/test-automation-strategy.md]] (Sept 26). [[raw/Meeting_Transcript_FlexPort_Telnet_Console_and_GUI_Harness-September-26-2026.md]]
+
+**New boards arrived.** Alekseev: "Платы пришли" — the count is garbled ("2 этот новых да 2 типа ещё 3 дороги") — and "поиспитываем" (we'll test them). Pavel had seen the photo. Pavel closed: keep working "В общем направлении". [[raw/Meeting_Transcript_FlexPort_Telnet_Console_and_GUI_Harness-September-26-2026.md]]
+
+**§15.8:** clear. **§15 #9:** none.
+
+## Sept 28 2026 (4:56 AM stand-up) — Syncotek first, the engineering menu under capability 235, and the latest Flex-Port on a real machine
+
+At the [[wiki/meetings/2026-09-28-daily-standup-log-traffic-and-nova-rename.md|Sept-28 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]:
+
+- **Card dispenser: try Syncotek first.** [[wiki/people/alexander-biratka.md|Biratka]] is bringing capability 134 (features 12 84, 12 85, 12 86) to full card-dispenser support "по аналогии с флекс айкью". Two dispenser types are supported; at start the software checks each and picks the one that answers. Pavel: "пусть пробует синка текст сначала" — it will be used in about "99%" of cases; the second type only if a location bought a few of those.
+- **Bills to accept.** Biratka worked on capability 133 over the weekend — choosing which bills to accept. To close it he must feed bills into the kiosk and check. He expects 133, 134 and 137 (updates) to close soon; next is moving the GSM-modem control code to the Flex-Port. Pavel asked him to put start and end dates on his tasks.
+- **The engineering menu gets a home.** [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] is building the Flex-Port service menu and found no capability to link it to. Pavel first offered a new capability, then: add a separate requirement under the capability for screens and texts — "экраны для… [д]иагностики… инженерное меню" — and a new feature will come from it; "так даже проще". Vladimir named it: "235". This follows the Sept-25 sketch above; no MVP was named. *(That it stays MVP 2, as on Sept 21, is an **inference**.)*
+- **The latest Flex-Port goes on a real machine.** Pavel: the recent fixes "проверялись только на эмуляторе", and at the start work done only on the emulator did not all work on the machine. [[wiki/people/ivan.md|Ivan]]: "Я к себе поставлю." Ports sit on two or three machines; Pavel has two more, "самые продвинутые у них вайфай есть".
+- **Card activation.** [[wiki/people/dmitri-chudinov.md|Chudinov]] finished card activation; his tests were finishing, and he would push capability 237 — the dashboard of activated cards — that day. Pavel: the overdue tasks can be closed "по пэймэнхабу".
+- **Wallet on the Flex-Port.** [[wiki/people/sergey-tsymanov.md|Tsymanov]] finished wallet creation on Flex IQ and took the next task, wallet creation through the Flex-Port (the name is garbled; read from the 8:02 AM call — **inference**).
+
+### Open commitments (Sept 28 2026, 4:56 AM)
+
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — add a requirement for diagnostic / engineering-menu screens under capability 235, so a feature can come from it — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
+- [ ] [[wiki/people/ivan.md|Ivan]] — install the latest Flex-Port version on his real machine — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
+- [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — make the card dispenser try Syncotek first; finish capability 134 that day; test bill acceptance on the kiosk to close 133; put start and end dates on his tasks — due Sept 28 2026 (134) / unspecified — [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
+
+## Sept 28 2026 (8:02 AM) — day eleven: October 15 becomes the date, remote Flex-Port update comes back, the update dashboard, and "no private chats"
+
+The [[wiki/meetings/2026-09-28-transactional-mvp1-remote-updates-and-october-15-target.md|eleventh morning call]] (Russian, 8:02–8:45). Eight voices, Val present [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]].
+
+**The date.** October 15 replaces October 1 — Pavel named it, Klimovich called October 1 not achievable, and Val asked for the final state by October 15 "если это возможно". Irina's autotest estimate is October 23. Full record on [[wiki/decisions/2026-09-28-october-15-replaces-october-1-as-the-mvp1-date.md]]; the old plan on [[wiki/decisions/2026-09-09-first-transactional-installation-planned-for-october-1.md]] (now superseded) [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]].
+
+**Remote Flex-Port update is back in MVP 1** (capability 146), and PORT-13 stays with Alekseev. On [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Sept-28 update), with the terminal-management Updates dashboard Chudinov showed [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]].
+
+**A PIN question for later, not MVP 1.** Chudinov: Flex IQ needs no PIN but FlexPay does, so with two devices at a location a ticket made without a PIN may need to be redeemed on FlexPay. [[wiki/people/andrei-klimovich.md|Klimovich]]'s idea: with two active gateways, the port always asks for a PIN when a new wallet is created; a player who goes to the cashier gets the ticket found and printed without a PIN. Chudinov proposed fixing it as a rule: always a PIN on the port. Pavel proposed a hidden fixed PIN — "4 единицы, например там всегда 1234" — as the current Flex-Port already does with the old FlexPay; the PIN window is hidden and four ones are entered "под капотом". Chudinov: that breaks once the wallet moves to the cloud, or when Flex IQ stops ignoring the PIN; Pavel: the Flex-Port has the same parameter. Klimovich: "не в [MVP] один очевидно, потому что у нас только [IQ]". Biratka: "это техническая задача… [н]е бизнес". No decision. Asked by Khamin, for MVP 1 Flex IQ cannot create a ticket with a PIN — Chudinov: "Не будет" [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]].
+
+**Card errors into the requirements.** Klimovich asked for the new tilts and card errors in the common chat after the call; there is "хороший шар" he updates the requirements, the errors and the text library by the next day's call. Pavel's Wi-Fi QR-code material (with Claude-proposed Wi-Fi error screens) is not MVP 1 and not urgent [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]. The "no private chats" rule is on [[wiki/decisions/2026-09-24-written-records-go-by-email-and-chats-are-for-instant-matters.md]] (Sept-28 update).
+
+**Status (Irina).** All MVP 1 capabilities and requirements are reworked; all autotest features are created; Khamin and Ivan implement them. Ivan is preparing a document, to send the next day, on setting up the machine, port and SAS in Georgia. Detail on [[wiki/topics/test-automation-strategy.md]] (Sept 28, 8:02 AM) [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]].
+
+**Wi-Fi.** Val thought Alekseev focuses on Wi-Fi. Pavel: "вай фай я у него забрал он он только железо сделал вай фай мы сделаем сами… 90% наверное уже сделано." It stays MVP 2 — Irina: "Capolity 145… [флек]спорт вай фай линк". See [[wiki/decisions/2026-09-07-wi-fi-module-on-flex-port-with-an-external-router.md]] (Sept-28 update) [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]].
+
+**The repository standard.** Val asked if work follows the repository standard. Pavel: yes, the Flex-Port platform repository holds the code, prose and contracts; and while Claude updates the prose "он наряду с этим ещё находит баги. И предлагает их поправить" [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]].
+
+**Brackets for other makers' machines.** Val, to Klimovich: Flex-Ports need mounting brackets for other makers' machines — "например, если вы хотите установить машину на аристократ". "Я возьму это на себя, но напомните мне, если я упущу это." Klimovich: "я понимаю о чём речь" [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]].
+
+**FlexPay updates wait.** Biratka, who works on FlexPay: the server has no update infrastructure for FlexPay yet, which blocks him. Chudinov: a future capability, a FlexPay tab next to Flex IQ, "пока [MVP один] не закроем" [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]].
+
+**MVP 2.** Biratka works only on MVP 2 — bill validator, cards, GSM modem — and nobody works on its capabilities. Klimovich: the MVP 2 capabilities and requirements are "совершенно не актуально", and need a business scope first; he returns on the 12th and "что я успею сделать до 12 я не берусь". Biratka will collect business questions — for example a card that is dispensed but not taken: swallow it back into the box? What state is the device in, what errors go to the operator? — and bring them to these calls and by email [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]].
+
+**Emulators.** Khamin asked who builds emulators. Irina: "Этим занимается Антон." Biratka: Anton made one, but inside FlexPay. Pavel: he must now move it all to Flex IQ. See [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]] (Sept-28 update) [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]].
+
+**§15.8:** clear. **§15 #9:** none.
+
+### Open commitments (Sept 28 2026, 8:02 AM)
+
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — update the MVP 1 requirements with the new tilts and card errors, and the text library — due Sept 29 2026 (the next call; "хороший шар") — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [ ] [[wiki/people/val-levitan.md|Val Levitan]] — arrange Flex-Port mounting brackets for other makers' machines (for example Aristocrat); asked to be reminded — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
 
 ## Sources
 
@@ -2913,3 +2983,6 @@ Klimovich: "Вот 4 проблемы, мы согласны с этими, пр
 - [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
 - [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]]
+- [[raw/Meeting_Transcript_FlexPort_Telnet_Console_and_GUI_Harness-September-26-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]

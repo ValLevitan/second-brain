@@ -3,10 +3,10 @@ type: decision
 title: Wi-Fi goes onto the Flex-Port board as a soldered module and an external commercial router stays the access point — mesh rejected, cable stays supported, router brands must be American or allied
 date: 2026-09-07
 aliases: [Wi-Fi module on Flex-Port, soldered Wi-Fi module, $4-5 per board, mesh rejected, external router stays, Val's dumb idea withdrawn, American routers only, Cisco Linksys Nokia MikroTik, certified antenna, one serial connector, jamming a location]
-source-count: 3
+source-count: 5
 status: active
-open-commitments: 4
-open-questions: 2
+open-commitments: 3
+open-questions: 3
 ---
 
 # Wi-Fi goes onto the Flex-Port board; the external router stays
@@ -47,16 +47,36 @@ One radio question was closed: Pavel — "вся передняя панель�
 
 Genadi wanted the module in the board revision now under way, before the large order goes out: "вы сейчас делаете… изменение этого порта[,] и перед заказом вот этого большого количества… вставляете туда вайфай модуль." Alekseev agreed ("Да могу"). On software he put the standard-firmware route at "пару недель[.] Максимум," noted "у нас же бортов нету" — no boards yet — and offered a temporary mock-up in the meantime ("какоето временный макет сделать"). Val, asked how long, had already answered himself: "Мне нужно это завтра," and rejected the mock-up as the deliverable — "завтра готовый продукт[,] макет нам не нужен" [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]].
 
+## Update, Sept 26 2026 — part of the Wi-Fi work is in the branch; the module's own WebSocket is not tried
+
+At the [[wiki/meetings/2026-09-26-flex-port-telnet-console-and-gui-harness.md|Sept-26 Flex-Port development sync]] (Russian), [[wiki/people/pavel.md|Pavel Frolov]] said the "порт 9" branch holds "какая то часть работ по вайфай модулю е с п 32 c 6" — the module is an **ESP32-C6** — and that pull requests "порт, 51 и порт 68" will be committed into it. Who wrote the Wi-Fi part is not stated. [[raw/Meeting_Transcript_FlexPort_Telnet_Console_and_GUI_Harness-September-26-2026.md]]
+
+- **Firmware.** "этот модуль прошит. Прошивка эти команс" — read as AT commands (inference), which matches the Sept-7 notes' reading of Alekseev's "IT commond". [[raw/Meeting_Transcript_FlexPort_Telnet_Console_and_GUI_Harness-September-26-2026.md]]
+- **WebSocket.** Alekseev asked if they had tried WebSocket. Pavel: "Я в вебсоке встроенный в эту прошивку не пробовал"; WebSocket is used "на st m 32". The code is now unified for Ethernet and Wi-Fi — packets are built the same way, but over Wi-Fi "Идут свои команды" while Ethernet goes direct. Alekseev began to ask whether Wi-Fi should be built into the WebSocket, then: "Ну ладно это потом." [[raw/Meeting_Transcript_FlexPort_Telnet_Console_and_GUI_Harness-September-26-2026.md]]
+
+*(Alekseev's Sept-7 commitment below stays open: work is in the branch, but it is not reported finished or merged.)*
+
+## Update, Sept 28 2026 — Pavel does the Wi-Fi software, about 90% done, and it stays MVP 2
+
+At the [[wiki/meetings/2026-09-28-transactional-mvp1-remote-updates-and-october-15-target.md|Sept-28 8:02 AM MVP 1 call]] (Russian) [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]:
+
+- **Who does what.** Val thought [[wiki/people/evgeniy-alekseev.md|Alekseev]] focuses mainly on Wi-Fi. [[wiki/people/pavel.md|Pavel]]: "Нет вай фай я у него забрал он он только железо сделал вай фай мы сделаем сами ну я так скажу что 90% наверное уже сделано." Val had missed this: "я даже честно говоря, пропустил".
+- **Still MVP 2.** Irina and Pavel: the Wi-Fi features are in MVP 2 — "Capolity 145… [флек]спорт вай фай линк". Irina: MVP 2 work already runs in parallel with other people and does not touch MVP 1.
+- **Pavel's QR material.** He had sent Klimovich Wi-Fi QR-code material with error screens proposed by Claude; both agreed it is not MVP 1 and not urgent. See [[wiki/decisions/2026-09-07-wi-fi-provisioning-by-encrypted-qr.md]].
+
 ## Open commitments
 
-- [ ] [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] — produce the new Flex-Port board configuration with the Wi-Fi module and tell Genadi Peari what to add — due before the large board order — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]] [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
-- [ ] [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] — implement the Wi-Fi link on Flex-Port using the module's standard firmware, duplicating the existing WebSocket channel — due ~2 weeks maximum; no boards yet, temporary mock-up offered sooner — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — finish the Flex-Port Wi-Fi software (about 90% done by his estimate), under MVP 2 capability 145 — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+
+- [x] [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] — produce the new Flex-Port board configuration with the Wi-Fi module and tell Genadi Peari what to add — due before the large board order — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]] [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]] — **discharged by Sept 28 2026 (Pavel's account):** "он только железо сделал" — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [x] [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] — implement the Wi-Fi link on Flex-Port using the module's standard firmware, duplicating the existing WebSocket channel — due ~2 weeks maximum; no boards yet, temporary mock-up offered sooner — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]] — **reassigned Sept 28 2026:** Pavel took the Wi-Fi software from him ("вай фай я у него забрал"); see the Sept-28 update — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
 - [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — provide board space and an optional socket for a certified external antenna within the Flex-Port's plastic perimeter — due unspecified; not fully agreed with Alekseev — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — verify the Flex-IQ side of the Wi-Fi work, and extend the Flex-IQ and Flex-Pay software for router connection and diagnostic screens — due unspecified — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
 
 ## Open questions
 
 - Whether a module's internal antenna can coexist with an optional external certified antenna on the same board. Alekseev said the pinouts look the same and "possibly both" could be fitted, but would not commit; certification is the binding constraint — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- Should the Flex-Port's Wi-Fi use the WebSocket built into the ESP32-C6 firmware? Not tried yet; Alekseev: "это потом" — [[raw/Meeting_Transcript_FlexPort_Telnet_Console_and_GUI_Harness-September-26-2026.md]]
 - Which router manufacturers ship a scannable QR sticker that would remove SSID/password typing. Bosik raised it — "на некоторых роутерах есть кюар наклеенные" — and was candid that he did not know which: "я только не помню, на каких производителей роутеров есть… Не уверен, честно скажу" — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
 
 **§15.8:** clear — component cost ($4–5 per board) and vendor/brand selection only; no named-person compensation.
@@ -65,3 +85,5 @@ Genadi wanted the module in the board revision now under way, before the large o
 - [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
 - [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
 - [[raw/Meeting_Transcript_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]] (the Aug-24 Wi-Fi rejection and the $10 module estimate this decision reverses)
+- [[raw/Meeting_Transcript_FlexPort_Telnet_Console_and_GUI_Harness-September-26-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]

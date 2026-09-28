@@ -4,8 +4,8 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 181
-open-commitments: 86
+source-count: 187
+open-commitments: 91
 open-questions: 0
 ---
 
@@ -862,7 +862,7 @@ At the [[wiki/meetings/2026-09-24-ris-serial-binding-and-factory-reset-focus.md|
 
 ## Open commitments (Sept 24 2026, 7:02 AM)
 
-- [ ] Pavel Frolov — split the factory-reset case into several separate cases — due unspecified (the next meeting) — [[raw/Meeting_Transcript_RIS_Serial_Binding_and_Factory_Reset_Focus-September-24-2026.md]]
+- [x] Pavel Frolov — split the factory-reset case into several separate cases — due unspecified (the next meeting) — [[raw/Meeting_Transcript_RIS_Serial_Binding_and_Factory_Reset_Focus-September-24-2026.md]] — **discharged Sept 25:** he read out six numbered points [[raw/Meeting_Transcript_RIS_MVP1_Factory_Reset_Reduction_Plan-September-25-2026.md]]
 
 ## Sept 24 2026 (8:01 AM) — the 8-second SAS window, the nearest-wallet idea, and hooks only in debug
 
@@ -934,6 +934,53 @@ On the [[wiki/meetings/2026-09-25-transactional-mvp1-flexport-third-party-egm-co
 ## Sept 25 2026 (9:02 AM) — SVN links only, a tools folder, and the initiative for the conversion work
 
 At the [[wiki/meetings/2026-09-25-games-conversion-repos-jira-capabilities.md|Sept-25 9:02 AM games-conversion session]] (Russian) [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]: ADRs about moving games from SVN go into the NOVA framework repository with a link to SVN — "в с в н ничего не комитить только в гид". He first disliked a separate repository for the converter, then agreed after Irina's question ("Раз он не нужен после Того, как один раз применился… лучше выносить"). He keeps scripts in a "каталог тулз". He was "не уверен на 100%" whether the geometry standard is a standard. He named the initiative "снова геймин платформ лэндбэйст" and the RAGE-to-NOVA conversion capability, and supplied the term data contract. Detail on [[wiki/decisions/2026-09-25-the-conversion-experiment-closes-and-the-converter-gets-its-own-project-and-repository.md]].
+
+
+## Sept 25 2026 (10:34 AM) — RIS meeting three: his six-point list
+
+At the [[wiki/meetings/2026-09-25-ris-mvp1-factory-reset-reduction-plan.md|Sept-25 RIS follow-up]] (English) [[raw/Meeting_Transcript_RIS_MVP1_Factory_Reset_Reduction_Plan-September-25-2026.md]]:
+
+- **His first idea:** apply the last RIS after a factory reset — "I think this will fix more than 50% of cases when the person needs to go to the office, download file, write it to USB stick".
+- **The list:** (1) remove statistics from the scan; (2) move the passport QR screen out of the factory reset, to the next QR scan; (3) allow component changes within remote initial setup; (4) reuse the last applied RIS; (5) investigate a soft factory reset — "looks quite difficult. and requires some investigation"; (6) split "hardware not detected" into counter board and IO board — "not very… Difficult". See [[wiki/topics/ris-remote-install-and-machine-states.md]] (Sept 25, 10:34 AM).
+- **Release view:** the fixes must go into each field version "or to install the latest"; for certificates "the cheaper is to get one bundle with 18 games within one package"; the update can "enable modem. Even if this is an old software". See [[wiki/decisions/2026-09-25-the-ris-rework-mvp1-is-for-flex-machines-only.md]].
+- **Error code 2/3:** the USB stick "In most cases"; no special stick to buy.
+- **Next:** he receives Felipe's package and splits capabilities into features — held on [[wiki/decisions/2026-09-25-felipe-acts-as-product-owner-for-the-ris-rework.md]].
+
+## Open commitments (Sept 25 2026, 10:34 AM)
+
+- [ ] Pavel Frolov — investigate the automatic soft factory reset (point 5: keep meters and game settings, clear game history and error state) — due unspecified — [[raw/Meeting_Transcript_RIS_MVP1_Factory_Reset_Reduction_Plan-September-25-2026.md]]
+
+*(Sept 25: his Sept-24 5:41 AM commitments to split the card error and to ask about the statistics scan reappear as points 6 and 1 of his list; neither is shown done, so both stay open.)*
+
+## Sept 26 2026 (9:36 AM) — the PORT 9 branch, the Telnet console, and the GUI harness
+
+He ran the 9-minute Saturday [[wiki/meetings/2026-09-26-flex-port-telnet-console-and-gui-harness.md|Sept-26 Flex-Port development sync]] [[raw/Meeting_Transcript_FlexPort_Telnet_Console_and_GUI_Harness-September-26-2026.md]]:
+
+- **The branch.** SAS support carried over from the SAS project, AFT commands, and part of the ESP32-C6 Wi-Fi work, with pull requests 51 and 68 to follow. See [[wiki/decisions/2026-09-07-wi-fi-module-on-flex-port-with-an-external-router.md]] and [[wiki/decisions/2026-09-14-flex-port-sas-mode-is-a-selection-capability-not-a-long-lived-branch.md]] (Sept-26 updates).
+- **The debug tools.** A Telnet server on the board with debug commands (help lists them), the same console over UART, a screenshot service and a web page; he showed how to run the "гуй харнес" Python script from the tools folder. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 26).
+- **Not ready:** the firmware simulator, "наверное, сегодня завтра не будет готов". See [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]] (Sept-26 update).
+
+## Sept 28 2026 — Syncotek first, capability 235, October 15, and PORT-13 offered
+
+- **At the 4:56 AM stand-up** ([[wiki/meetings/2026-09-28-daily-standup-log-traffic-and-nova-rename.md|Sept-28 Minsk stand-up]], Russian), which he ran: the card dispenser should try Syncotek first; the engineering menu becomes a new requirement under capability 235; the latest Flex-Port should go on a real machine because the recent fixes were tested only on the emulator; Dragon Rain may serve the game-select screen, and he will open Daniil's access. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 28, 4:56 AM) [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]].
+- **At the 8:02 AM call** ([[wiki/meetings/2026-09-28-transactional-mvp1-remote-updates-and-october-15-target.md|Sept-28 8:02 AM MVP 1 call]]): he named October 15 ("сдвигаем на 15 октября"), argued a trial batch of about 10 locations can go out before all autotests finish, and proposed bringing remote Flex-Port update back into MVP 1. He offered to take PORT-13 from Alekseev — his port tasks are done and he expects the RK3576 board this week — but Val kept it with Alekseev. He does the Wi-Fi software himself, "90% наверное уже сделано". He proposed a hidden fixed PIN for later. He said Claude, while updating the prose, "ещё находит баги. И предлагает их поправить" [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]].
+
+## Open commitments (Sept 28 2026)
+
+- [ ] Pavel Frolov — add a requirement for diagnostic / engineering-menu screens under capability 235 — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
+- [ ] Pavel Frolov — open repository access for Daniil Stauskiy to the Dragon Rain game — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
+- [ ] Pavel Frolov — finish the Flex-Port Wi-Fi software (about 90% by his estimate), MVP 2 capability 145 — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+
+## Sept 28 2026 (10:33 and 11:07 AM) — the engineering voice at the RIS review
+
+- **10:33 AM.** He agreed with Val's one-line capability, "Replace battery without factory reset": "Yeah, I agree." See [[wiki/decisions/2026-09-28-a-capability-is-one-high-level-line-and-the-product-owner-does-not-tell-engineers-how.md]]. [[raw/Meeting_Transcript_RIS_Battery_Replacement_Capability_Framing-September-28-2026.md]]
+- **11:07 AM.** Val: Pavel "will drive the meeting from an engineering perspective. He will demand that the capabilities be clear, simplistic, and very high level." His answers to the nine capabilities: battery, part without passport QR, missed upgrades and one QR scan "clear"; capability 2 split in two for Irina, with (b), keeping the RIS across a version change, harder because RIS files are tied to a software version on the server, and no estimate yet; boot loop "absolutely in the fog", with a soft factory reset "after three tries" as one idea and extra logging as the likely first step; printer and bill acceptor today can be added "only through the initial setup" — "Let's investigate this"; lease on mismatch — "Do not know what changes it will require on the server side". On the critical-error cause, "In most cases, we do not know beforehand, before we investigate crash logs" — Val moved it to MVP 2 ([[wiki/decisions/2026-09-28-showing-the-real-cause-of-a-critical-error-moves-to-mvp2.md]]). See [[wiki/topics/ris-remote-install-and-machine-states.md]] (Sept 28). [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]
+- **Next.** He directs Sebastian, creates the features and schedules the work — held on [[wiki/decisions/2026-09-28-sebastian-takes-the-ris-mvp1-capabilities-into-jira-and-felipe-steps-back.md]]. [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]
+
+## Open commitments (Sept 28 2026, RIS review)
+
+- [ ] Pavel Frolov — investigate the effort for RIS capabilities 2b (keep the RIS across a software-version change), 4 (printer on the fly) and 5 (lease on mismatch, server side) — due unspecified — [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]
+- [ ] Pavel Frolov — think through the boot-loop recovery approach (Val: "Why don't you… think about it?"); likely start with extra logging — due unspecified — [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]
 
 ## Sources
 
@@ -1121,3 +1168,9 @@ At the [[wiki/meetings/2026-09-25-games-conversion-repos-jira-capabilities.md|Se
 - [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
 - [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]
 - [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]]
+- [[raw/Meeting_Transcript_RIS_MVP1_Factory_Reset_Reduction_Plan-September-25-2026.md]]
+- [[raw/Meeting_Transcript_FlexPort_Telnet_Console_and_GUI_Harness-September-26-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [[raw/Meeting_Transcript_RIS_Battery_Replacement_Capability_Framing-September-28-2026.md]]
+- [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]

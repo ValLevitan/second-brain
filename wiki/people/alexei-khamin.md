@@ -3,8 +3,8 @@ type: person
 title: Alexei Khamin
 date: 2025-04-22
 aliases: [Alexei Khamin, Aliaksey Khamin, Alexey Khamin, Khamin, Хамин, Khanin, Ханин, Kamin, Alexey Kamin, Lyosha, Лёша]
-source-count: 21
-open-commitments: 10
+source-count: 24
+open-commitments: 11
 ---
 
 # Alexei Khamin
@@ -147,6 +147,19 @@ On the [[wiki/meetings/2026-09-25-transactional-mvp1-flexport-third-party-egm-co
 - [ ] Alexei Khamin — settle the test-repository structure and test tags, and add Claude instructions with the test standards — due Mon Sept 28 2026 — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
 - [ ] Alexei Khamin — fill the repository with tests, then start CI with manual start — due about Sept 27 2026 — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
 
+## Sept 26 2026 — Flex-Port autotests through the hooks
+
+At the [[wiki/meetings/2026-09-26-flex-port-telnet-console-and-gui-harness.md|Sept-26 Flex-Port development sync]] (Russian; label "Alexey Khamin"), Pavel said "лёша" is writing the Flex-Port autotests, including the link "с машиной" (Khamin's words), using the board's hooks to check whether money was transferred, hung, or ended in an error state. He had no questions. See [[wiki/topics/test-automation-strategy.md]] (Sept 26). *(His Sept-25 test-repository commitments are not reported done.)* [[raw/Meeting_Transcript_FlexPort_Telnet_Console_and_GUI_Harness-September-26-2026.md]]
+
+## Sept 28 2026 — the cash-out test, and "who builds the emulators?"
+
+- **At the 4:56 AM stand-up** ([[wiki/meetings/2026-09-28-daily-standup-log-traffic-and-nova-rename.md|Sept-28 Minsk stand-up]], Russian): he wants to close the cash-out autotest that day and will spread Ivan's autotests across the repository by the new rules. Task 16 (deposit to the EGM) has one scenario written. Ports sit on two or three machines, "Одна по центру ванино и и моя" [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]].
+- **At the 8:02 AM call** ([[wiki/meetings/2026-09-28-transactional-mvp1-remote-updates-and-october-15-target.md|Sept-28 8:02 AM MVP 1 call]]): he confirmed that in MVP 1 Flex IQ cannot create a ticket with a PIN. He suggested installing the previous build in Georgia and updating remotely to the newest. He asked who builds emulators; Irina: Anton [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]].
+
+## Open commitments (Sept 28 2026)
+
+- [ ] Alexei Khamin — close the cash-out autotest, and spread Ivan's autotests across the repository by the new rules — due Sept 28 2026 — [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
@@ -170,3 +183,6 @@ On the [[wiki/meetings/2026-09-25-transactional-mvp1-flexport-third-party-egm-co
 - [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
+- [[raw/Meeting_Transcript_FlexPort_Telnet_Console_and_GUI_Harness-September-26-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]

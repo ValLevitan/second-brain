@@ -3,8 +3,8 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, eighty percent of the general functionality, requirements are step two, a hole automated tests will not cover, acceptance criteria in general terms, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction, Figma to React, Vite, Claude Code review loop, acceptance criteria, two test warehouses, frozen test cases, test harness, test registry, no E2E tests for MVP 1, E2E micro-step, telnet hook test, 60 to 70 percent acceptance criteria, symlink to dev null, eight connection tests, money-crediting autotest]
-source-count: 48
-open-commitments: 26
+source-count: 51
+open-commitments: 28
 open-questions: 6
 ---
 
@@ -573,9 +573,39 @@ On the [[wiki/meetings/2026-09-25-transactional-mvp1-flexport-third-party-egm-co
 
 ### Open commitments (Sept 25 2026, 8:05 AM)
 
-- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — finish the autotest features, split them between Ivan and Khamin, and show the plan on Monday — due Sat Sept 26 2026 (features), Mon Sept 28 2026 (plan) — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
-- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — settle the test-repository structure and test tags for CI, and add Claude instructions with the test standards — due Mon Sept 28 2026 — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
+- [x] [[wiki/people/irina-shishko.md|Irina Shishko]] — finish the autotest features, split them between Ivan and Khamin, and show the plan on Monday — due Sat Sept 26 2026 (features), Mon Sept 28 2026 (plan) — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]] — **discharged Sept 28 2026:** "Все фичи[] создания автотестов сделаны"; Khamin and Ivan implement them, and she gave the finish estimate (October 23) — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — settle the test-repository structure and test tags for CI, and add Claude instructions with the test standards — due Mon Sept 28 2026 — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]] — *Sept 28 2026: still in progress — Irina: he works "чтоб окончательно сделать структуру… добавить всякие [т]еги"* — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
 - [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — fill the repository with tests, then start CI with manual start — due about Sept 27 2026 ("за завтра послезавтра") — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
+
+## Sept 26 2026 — Flex-Port autotests through the board's hooks
+
+At the [[wiki/meetings/2026-09-26-flex-port-telnet-console-and-gui-harness.md|Sept-26 Flex-Port development sync]] (Russian), [[wiki/people/pavel.md|Pavel]]: "лёша занимается сейчас уже автоматическими тестами по флекспорт" — [[wiki/people/alexei-khamin.md|Khamin]] ("Ну и с машиной, да?"). The board has hooks "которые там дают доступ к внутреннему состоянию. Платы", and the tests use them to check the money state: "деньги. Перечисленность не перечислились, зависли, состояние ошибки и так далее." Alekseev: "это лишь полезная". The board also has a Telnet debug console and a screenshot service — see [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 26). [[raw/Meeting_Transcript_FlexPort_Telnet_Console_and_GUI_Harness-September-26-2026.md]]
+
+## Sept 28 2026 (4:56 AM) — the cash-out test, the deposit test barely started, and quick endpoint tests in the build
+
+At the [[wiki/meetings/2026-09-28-daily-standup-log-traffic-and-nova-rename.md|Sept-28 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]:
+
+- **[[wiki/people/alexei-khamin.md|Khamin]].** He wants to close the autotest for taking money off the machine ("по выводу денег") that day, and will spread Ivan's autotests across the repository "по правилам уже, которые созданы". Task 16 — deposit to the EGM — is barely started: "там один только сценарий написан".
+- **[[wiki/people/ivan.md|Ivan]].** His priorities: an installation, the drafts sent on Friday, then autotests; the instruction promised for Monday will not be ready that day. Irina: a feature is needed for it. He will keep working on his draft autotest after the meeting "чтоб показать".
+- **Quick tests in the build.** [[wiki/people/anton-seregin.md|Seregin]]'s AI tool writes tests that call the endpoints and check they answer correctly, run in the GitHub Actions build, "чтоб понять зелёное, оно или нет". Pavel: "это потом для автоматических тестов очень пригодится."
+- **Vladimir joins.** Irina must re-plan with [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] and see when he can help with autotests; they agreed to settle it after the meeting.
+
+## Sept 28 2026 (8:02 AM) — all autotest features exist, Vladimir joins for about 8 days, and the estimate is October 23
+
+On the [[wiki/meetings/2026-09-28-transactional-mvp1-remote-updates-and-october-15-target.md|Sept-28 8:02 AM MVP 1 call]] (Russian) [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]:
+
+- **Where it stands.** [[wiki/people/irina-shishko.md|Irina]]: all MVP 1 capabilities and requirements are reworked; "Все фичи[] создания автотестов сделаны"; Khamin and Ivan implement them. Khamin has new tasks to settle the structure and add tags so the right tests run on new commits. Ivan finished one test-set feature, committed it and took the next.
+- **Vladimir.** He finishes his design implementation work and "со среды" joins the autotests for "на 8 где то" days, then goes on leave.
+- **The estimate.** With Vladimir, the autotests end "до 23 числа" — Val: "до 23 октября". Irina: this is autotests, not development, which "должна закончиться раньше"; she needs "пару дней" to judge the real speed. The date consequences are on [[wiki/decisions/2026-09-28-october-15-replaces-october-1-as-the-mvp1-date.md]].
+- **What the tests cover.** Val asked if they cover the port, FlexPay and Flex IQ. Irina: for now Flex IQ and Flex-Port; the port tests will be reused on FlexPay, with some added for it. Pavel: some tests act on the machine — pressing cash-out or opening the door. Irina: the first such tests exist — put money in and take it out.
+- **Written with Claude.** Val: "написание этих автотестов тоже через клод, правильно?" Irina: "Ну конечно." Val: so the figures given "они консервативные".
+- **Emulators.** Irina: [[wiki/people/anton-seregin.md|Anton]] builds them (**inference** for the surname); see [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]] (Sept-28 update).
+
+### Open commitments (Sept 28 2026)
+
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — close the cash-out autotest, and spread Ivan's autotests across the repository by the new rules — due Sept 28 2026 — [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
+- [ ] [[wiki/people/ivan.md|Ivan]] — send the document on setting up the machine, port and SAS in Georgia — due Sept 29 2026 (Irina: "завтра отправит") — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] and [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] — agree after the stand-up when Vladimir starts on autotests, and re-plan — due Sept 28 2026 — [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
 
 ## Sources
 
@@ -627,3 +657,6 @@ On the [[wiki/meetings/2026-09-25-transactional-mvp1-flexport-third-party-egm-co
 - [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
+- [[raw/Meeting_Transcript_FlexPort_Telnet_Console_and_GUI_Harness-September-26-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]

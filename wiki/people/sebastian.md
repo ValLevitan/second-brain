@@ -3,9 +3,9 @@ type: person
 title: Sebastian
 date: 2025-02-19
 aliases: [Sebastian, Sebastian Cortes, the engineer I brought in from Miami]
-source-count: 12
-open-commitments: 0
-open-questions: 2
+source-count: 16
+open-commitments: 1
+open-questions: 1
 ---
 
 # Sebastian
@@ -48,7 +48,6 @@ Nine hours after the morning split above, at the [[wiki/meetings/2026-09-09-geor
 
 ## Open questions
 
-- **What is the assignment, and when exactly does he arrive?** "Earlier" than the end of September is all that is said; no date is set in either source. [[raw/Meeting_Transcript_Georgia_Exclusivity_Bet_and_Sebastian_Reassignment-September-9-2026.md]]
 - **Is he "the engineer I brought in from Miami" Val promised Diamond for October 1?** See the labelled inference below; **not stated in any source.** [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
 
 ## Sept 10 2026 — an unnamed Miami engineer promised to a customer for October 1 (inference, labelled)
@@ -75,6 +74,27 @@ At the [[wiki/meetings/2026-09-24-ris-serial-binding-and-factory-reset-focus.md|
 - **He confirmed** use cases 9 and 10 ("Yes"). See [[wiki/decisions/2026-09-24-multiple-qr-scans-go-and-one-final-activation-scan-stays.md]].
 - **His question:** is it possible "to only scan the passport QR code and get the activation code without logging in the CMS and keep all the features that exist now". Not answered on the recording. See [[wiki/topics/ris-remote-install-and-machine-states.md]] (Sept 24, 7:02 AM).
 
+
+## Sept 25 2026 — on his way to Georgia, and named the RIS rework's field product manager
+
+- **Absent from the RIS follow-up.** Felipe: "Sebastian called me about 40 minutes ago. He said he's driving, he's about to get to Georgia, but he cannot join the meeting." Val: "The meeting is recorded and you could share the transcript with him" [[raw/Meeting_Transcript_RIS_Pre_Meeting_Travel_Productivity_Chat-September-25-2026.md]].
+- **His job on arrival (Val):** "Sebastian, when he arrives there, his job will be to go and… Update all of the machines. Of course, it will not be as direct as this, but assist in upgrading all of the machines" [[raw/Meeting_Transcript_RIS_MVP1_Factory_Reset_Reduction_Plan-September-25-2026.md]].
+- **Product manager in the field.** Felipe, as product owner, hands the RIS rework to him, "And Sebastian will then manage the product in the field." See [[wiki/decisions/2026-09-25-felipe-acts-as-product-owner-for-the-ris-rework.md]] [[raw/Meeting_Transcript_RIS_MVP1_Factory_Reset_Reduction_Plan-September-25-2026.md]].
+
+## Sept 28 2026 — he takes the RIS MVP1 capabilities into Jira
+
+- **At both RIS reviews** ([[wiki/meetings/2026-09-28-ris-battery-replacement-capability-framing.md|Sept-28 10:33 AM RIS review]]; [[wiki/meetings/2026-09-28-ris-mvp1-capabilities-walkthrough-and-jira-handover.md|11:07 AM second try]]) — speaker label "Sebastian Cortes". [[raw/Meeting_Transcript_RIS_Battery_Replacement_Capability_Framing-September-28-2026.md]] [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]
+- **Jira is his.** Val: "Sebastian, you know how to do it, right?" — "Yes, sir, I know." — "Okay, so it's on you. Work with Pavel directly. You're taking over from now." He enters the capabilities in Jira and links the requirements, with Pavel directing and Felipe helping in the background. See [[wiki/decisions/2026-09-28-sebastian-takes-the-ris-mvp1-capabilities-into-jira-and-felipe-steps-back.md]] (commitment held there). [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]
+- **A machine to restore.** Val asked him to watch a machine that "needs to be restored" (the rest is garbled). Sebastian: "I'm waiting for the technician is on his way to the location." He did not need Irina's help. Which machine is not stated. [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]
+
+## Open commitments (Sept 28 2026)
+
+- [ ] Sebastian Cortes — follow the machine that needs to be restored until the technician, who was on his way, has dealt with it — due Sept 28 2026 — [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]
+
+## History
+
+- *(Answered Sept 25)* Open question "What is the assignment, and when exactly does he arrive?" (from [[raw/Meeting_Transcript_Georgia_Exclusivity_Bet_and_Sebastian_Reassignment-September-9-2026.md]]) — on Sept 25 he was driving and about to reach Georgia, and Val set his job as helping upgrade the machines and managing the RIS rework in the field [[raw/Meeting_Transcript_RIS_Pre_Meeting_Travel_Productivity_Chat-September-25-2026.md]] [[raw/Meeting_Transcript_RIS_MVP1_Factory_Reset_Reduction_Plan-September-25-2026.md]].
+
 ## Sources
 
 - [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
@@ -89,3 +109,7 @@ At the [[wiki/meetings/2026-09-24-ris-serial-binding-and-factory-reset-focus.md|
 - [[raw/Meeting_Transcript_Hello_Games_Texas_Skill_Payout_Wording-August-11-2026.md]]
 - [[raw/Meeting_Transcript_RIS_and_Passport_Hard_Reset_Burden-September-23-2026.md]]
 - [[raw/Meeting_Transcript_RIS_Serial_Binding_and_Factory_Reset_Focus-September-24-2026.md]]
+- [[raw/Meeting_Transcript_RIS_Pre_Meeting_Travel_Productivity_Chat-September-25-2026.md]]
+- [[raw/Meeting_Transcript_RIS_MVP1_Factory_Reset_Reduction_Plan-September-25-2026.md]]
+- [[raw/Meeting_Transcript_RIS_Battery_Replacement_Capability_Framing-September-28-2026.md]]
+- [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]

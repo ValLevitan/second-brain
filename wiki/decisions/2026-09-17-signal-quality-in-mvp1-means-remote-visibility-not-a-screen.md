@@ -2,10 +2,10 @@
 type: decision
 title: Signal quality in MVP 1 means remote visibility — periodic metrics into the logs, buffered offline, surfaced through Grafana
 date: 2026-09-17
-aliases: [signal quality, decibels, signal to noise, SNR, jammer, глушилка, антенки, remote diagnostics, periodic metrics, log buffering, Grafana alerts, modem telemetry, удалённо мы должны видеть децибелы]
-source-count: 3
+aliases: [log traffic, 120 MB a day, three gigabytes a month, junk logs, TPT-INT Grafana dashboard task, signal quality, decibels, signal to noise, SNR, jammer, глушилка, антенки, remote diagnostics, periodic metrics, log buffering, Grafana alerts, modem telemetry, удалённо мы должны видеть децибелы]
+source-count: 4
 status: active
-open-commitments: 2
+open-commitments: 4
 open-questions: 2
 ---
 
@@ -57,7 +57,21 @@ At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexp
 - **The date.** [[wiki/people/dmitri-chudinov.md|Chudinov]]: "мы не успеем все до 1 числа. Андрей там уже это предлагал" — what Andrei proposed is not said [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
 - **Signal-to-noise on Wi-Fi.** Tsymanov asked whether he may change the platform SDK repository, because, per Claude, the Wi-Fi link has no SNR parameter. Pavel: "Потом, да можешь добавлять", but Wi-Fi is basic only and "это точно не VP один" [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
 
+## Update, Sept 28 2026 — the logs cost about 3 GB a month, and the Grafana dashboards may already exist
+
+At the [[wiki/meetings/2026-09-28-daily-standup-log-traffic-and-nova-rename.md|Sept-28 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]:
+
+- **How much traffic.** [[wiki/people/dmitri-chudinov.md|Chudinov]] left a test running overnight to see how much traffic logs and metrics use: "в районе 120 м в сутки" — "на текущем чуть больше трёх гигов в месяц". This is idle mode with no updates: "это без апдейтов, это просто вот обычный ночной… режим". Pavel: "немало".
+- **What can be cut.** Some logs are junk: "принтер сервис какойто шлёт от это сканер чтото шлёт одно и то же". They can go through a cache — send only if something changed — or once every 5 minutes. Chudinov: "может раза в 2". Pavel: half is nicer, "а в 3 было бы вообще хорошо, то есть один гигабайт". Going further means lower log levels — "вместо добага ставить инфо, но тогда мы не получим чтото детальное" — and checking what the operating system sends.
+- **Who judges.** Chudinov: "Нужно будет Андрею сказать об этом, чтоб он посмотрел критично это или не критично." Which Andrei is **not resolved**.
+- **The Grafana dashboard task.** [[wiki/people/sergey-tsymanov.md|Tsymanov]] has a task of type "т п т инт" in the integration repository. He has seen dashboard templates — "заглушки даже бордов" — for Grafana in the Flex IQ project, and thinks the task is to configure a dashboard for "тех вот метри[к], которые мы научились отправлять в флекс айкью там по качеству связи там всяких л т е модемов". He believes he already updated those dashboards when he added the link-quality metrics. Irina: a task belongs in the integration repository only if its result is committed there. Pavel: if it is done, "просто прокомментируй и закрой".
+
+**On the open questions below:** the link-quality metrics are now sent from Flex IQ, and Grafana dashboard templates exist in the project (Tsymanov's account). Whether a person sees the numbers in MVP 1 is still not stated, so both questions stay open.
+
 ## Open commitments
+
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — remove junk logs (caching repeat messages or sending them every 5 minutes) to cut the traffic, and tell Andrei about the ~3 GB a month so he can judge if it is critical — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
+- [ ] [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] — check whether the Grafana dashboard task is already done; if so, comment and close it — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
 
 - [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — as owner of the request, make sure a requirement exists for remote visibility of signal quality (decibels and signal-to-noise), and add it if it does not — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — find or create the Jira capability covering logging to the cloud server; nothing was found on the call — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
@@ -74,3 +88,4 @@ At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexp
 - [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]

@@ -4,8 +4,8 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich, Andre]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 97
-open-commitments: 93
+source-count: 98
+open-commitments: 96
 open-questions: 0
 ---
 
@@ -711,7 +711,7 @@ On the [[wiki/meetings/2026-09-25-transactional-mvp1-flexport-third-party-egm-co
 ## Open commitments (Sept 25 2026, 8:05 AM)
 
 - [ ] Andrei Klimovich — create the capability for Flex-Port working with other makers' machines, from the transcript — due unspecified — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
-- [ ] Andrei Klimovich — set up next week's meetings for this group at the same time — due before Mon Sept 28 2026 — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
+- [x] Andrei Klimovich — set up next week's meetings for this group at the same time — due before Mon Sept 28 2026 — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]] — **discharged Sept 28 2026:** he chaired the Monday 8:02 AM call — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
 
 ## Sept 25 2026 (1:30 PM) — Val reviews his promo flier; Sergey answers after the weekend
 
@@ -725,6 +725,23 @@ On the [[wiki/meetings/2026-09-25-promo-flier-review-and-sergey-vysotsky-wait.md
 ## Open commitments (Sept 25 2026, 1:30 PM)
 
 - [ ] Andrei Klimovich — send Val an updated version of the promo flier based on his comments — due unspecified — [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]]
+
+## Sept 28 2026 (8:02 AM) — "October 15 is the real date", remote Flex-Port update supported, and Georgia as the first remote test
+
+On the [[wiki/meetings/2026-09-28-transactional-mvp1-remote-updates-and-october-15-target.md|Sept-28 8:02 AM MVP 1 call]] (Russian), which he chaired [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]:
+
+- **The date.** Having held October 1 on Sept 24, he now said: "будем честны, что у нас 15 число. Это реальная дата… Нереализуемо" (October 1). With October 15, he supports remote Flex-Port update in MVP 1. See [[wiki/decisions/2026-09-28-october-15-replaces-october-1-as-the-mvp1-date.md]] and [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Sept-28 update).
+- **The PIN question.** With two active gateways at a location, his idea is that the port always asks for a PIN when a new wallet is created; the cashier can still find and print the ticket without it. Not MVP 1, "потому что у нас только [IQ]". See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 28, 8:02 AM).
+- **Private chats.** Pavel had sent him Wi-Fi QR-code material in a private chat; "я их перешлю в общий[;] такие вещи не должны оставаться в личном чате." He asked for the new tilts and card errors in the common chat and hopes to update the requirements and the text library by the next call.
+- **Georgia.** The Georgia Flex IQ on remote access with a KORE SIM is his proposed first remote-update test. He will ask [[wiki/people/elizabeth.md|Elizabeth]] to install the latest build by SD card and report back.
+- **MVP 2.** He agreed its capabilities and requirements are "совершенно не актуально" and need a business scope first. He returns on the 12th; "что я успею сделать до 12 я не берусь." Biratka should raise business questions on these calls and send them to the group, not to him alone.
+
+## Open commitments (Sept 28 2026, 8:02 AM)
+
+- [ ] Andrei Klimovich — forward Pavel's Wi-Fi QR-code material from the private chat to the common chat — due Sept 28 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [ ] Andrei Klimovich — update the MVP 1 requirements with the new tilts and card errors, and the text library — due Sept 29 2026 ("хороший шар") — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [ ] Andrei Klimovich — ask Elizabeth to install the latest build by SD card on the Georgia Flex IQ, then report back so remote update can be tested — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [ ] Andrei Klimovich — bring the MVP 2 capabilities and business scope up to date — due after his return on the 12th — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
 
 ## Sources
 
@@ -825,3 +842,4 @@ On the [[wiki/meetings/2026-09-25-promo-flier-review-and-sergey-vysotsky-wait.md
 - [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
 - [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]

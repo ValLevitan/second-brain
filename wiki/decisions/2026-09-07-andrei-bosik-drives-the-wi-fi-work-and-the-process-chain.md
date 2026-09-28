@@ -3,7 +3,7 @@ type: decision
 title: Andrei Bosik becomes the driver for the Wi-Fi work and writes it up in Jira — the existing ticket is not to be amended, and the chain runs use cases (Klimovich) → capabilities → features (Pavel) → feature branch → commit carrying code plus prose plus data contracts
 date: 2026-09-07
 aliases: [Bosik is the driver, if it is not in Jira there is no work, do not amend the existing ticket, you are driving a tank, use cases not capabilities, capabilities broken into features, docs/contracts directory, prose and data contract, set him up on Claude Code]
-source-count: 6
+source-count: 7
 status: active
 open-commitments: 5
 open-questions: 0
@@ -53,6 +53,10 @@ At the [[wiki/meetings/2026-09-11-technician-complaints-and-new-capabilities-wor
 
 **Bosik's transcript-to-capabilities role is now being used for a third, unrelated subject** (Wi-Fi → planning generally → Passport/RIS), and this time he was not in the room when it was assigned. Full ruling: [[wiki/decisions/2026-09-11-new-regulations-for-the-passport-and-ris-talked-out-monday-and-converted-from-the-transcript.md]].
 
+## Update — Sept 25 2026: the same chain for the RIS rework, with Felipe as product owner
+
+At the [[wiki/meetings/2026-09-25-ris-mvp1-factory-reset-reduction-plan.md|Sept-25 RIS follow-up]] Val set the chain again, in English, for the factory-reset work: "You need to start with use cases. Use cases first lead you into capabilities. Then you explain how the capability works through a set of requirements… each requirement will have a set of acceptance criteria. You will hand over the package to Pavel." Pavel then assigns resources and negotiates "a set of features for each of the capability. A feature becomes a… Feature branch in Github". The use-case step this time goes to Felipe, as product owner, not to Klimovich — see [[wiki/decisions/2026-09-25-felipe-acts-as-product-owner-for-the-ris-rework.md]] [[raw/Meeting_Transcript_RIS_MVP1_Factory_Reset_Reduction_Plan-September-25-2026.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/andrey-bosik.md|Andrei Bosik]] — write the Wi-Fi capabilities, break them into features in Jira, own the pace and coordinate the group from this meeting — **partly discharged Sept 9 2026**: the capabilities and requirements exist and were emailed round (Wi-Fi capabilities 140/142/143/145), but Pavel expected them to cover "5% в лучшем случае" of kiosk behaviour and put a review in front of the next step; the coordination half continues — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]] [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]] [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
@@ -70,3 +74,4 @@ At the [[wiki/meetings/2026-09-11-technician-complaints-and-new-capabilities-wor
 - [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 - [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]]
+- [[raw/Meeting_Transcript_RIS_MVP1_Factory_Reset_Reduction_Plan-September-25-2026.md]]
