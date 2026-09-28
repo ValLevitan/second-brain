@@ -3,9 +3,9 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, COAM Hearing Room, Georgia Lottery Corporation, Tracy Warren, HB 353, Intralot lab, Bill at Intralot, three fifty-eight nine, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing, GAMOA, ILERS, ILAS report, Eilers, Eiler report, show special, Mega Hit Blaze, sales channel report, Bulldog Gaming, ARC, ARC Gaming, Class A, C-Store Connect, GACS, route consolidation, gift-card cash-back notice, Chris Plonic, Double Down Gaming, Ryan O'Donnell, Billy Liu, Play Payments, PlayPay, banking licence moat, 7455 modem, KORE, KORE SIM, APN, GACS October 21, Pay Slim, over-drive, Rao, Narasimha Rao Namburi, David Milani, September 2 letter, 5500 PAX locations, Lucky Coin service burden, Lucky Bucks is ARC, the market is literally bottomless, backend displacement, David Sloan, Dave Sloan, Bill the kiosk vendor, the wording is in the same location, guidance is not the law, Digital Cash Processing, DCP, ICP Inc., Gen Mega, Andrew Cashin, Rick Beer, seventy four hundred locations forty seven thousand machines, Unlimited Amusement, Mega Hit Blaze V3, program the rollout, Swanee, Johns Creek, Singleton, SurfNote, Debbie Alford, eighteen thousand connected, Mike Mackey, five hundred dollars per unit per machine, WSS protocol, not even one installation, Georgia Lazy, Skyriser, Cardinal, outside looking in, Rich Winley briefing]
-source-count: 214
+source-count: 216
 open-commitments: 66
-open-questions: 25
+open-questions: 27
 ---
 
 # Georgia market rollout (Peach1234 / DLKG)
@@ -1506,6 +1506,58 @@ Told under the NDA and flagged "**strictly confidential and not to discuss with 
 
 "**I just started after the show. I don't have even one installation. Not even one. And maybe I will fail.**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
 
+## Sept 17 2026 (afternoon) — a master licensee on Aristocrat and IGT, the "more machines" argument, and the new machine's game count
+
+From the [[wiki/meetings/2026-09-17-dynamic-gaming-georgia-master-licensee-and-cashless-pitch.md|Dynamic Gaming meeting]] (3:17 PM). The customer's own fleet and grievances are on [[wiki/organizations/dynamic-gaming.md]]; the market points are here. [[raw/Meeting_Transcript_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]
+
+### Aristocrat and IGT, from the field
+
+- **Locations demand Aristocrat.** The master: "**Every eight-year location they want**" Aristocrat One, Two and Three ("eight-year" is the transcript's rendering of **Class A**), "**And if I don't give them, I lose that location.**" He expected the vertical Aristocrat Two to fail against dual screens; it did better, and "**three is killing it**". Aristocrat is raising prices, with a discount only on "**three months term**".
+- **Val's view of why Aristocrat can do this:** "**Aristocrat has… sixty-five percent of Australian market, and Australian market is reoccurring revenue. So they have an incredibly large cash flow.**" IGT once had that position but "**killed themselves by selling their own cash flow because they needed to meet the revenue targets for a public company… The same thing will happen to Aristocrat.**"
+- **IGT's Prices Right bug**, as the master tells it — he found it, lost $150,000 across five locations, and IGT re-released the game until he had eight versions in the field; of his 127 Prices Right machines only 37 make money, at about $238 a day, against about $400 for Aristocrat. Detail on [[wiki/organizations/dynamic-gaming.md]].
+- **Novomatic is paying to stay in the field:** "**Take free software, upgrade your machines. Just don't pull them out**", with a new title, Rocket Rush.
+- **Where JVL sits, in Val's debrief:** "**We know now for sure that AGT does not make money more than us**" ("AGT" reads as IGT); "**We still fight for sixth position. I don't like to be in sixth position… I want to be in number one position.**"
+
+### Do more machines grow a mature location? — both sides kept their view
+
+- **Val's challenge:** a "**very known operator**" he will not name, who "**collects nine million data points per day**", told him "**none of the locations have increased in overall long term… if you put from one aristocrat to two aristocrats to three aristocrats**".
+- **The master's cases:** a relative's location that went from Banillas to five IGTs and is now far above its old figures, and his "**number one customer**", whose locations rose after a full upgrade. (Units in the recording are unclear — see the stub.)
+- **Val's answer:** that is displacement or high RTP, not growth — "**I can put ninety eight percent RTP, and people will line up**"; once the next location matches the equipment, the gain goes. The master: "**I have seen in in few locations.**"
+- **Val's market sizes, said to the customer:** "**When the market was 18, 000 machines in Georgia, it's one thing. When the market is 30, 000 machines… The market is close to 50, Fifty thousand machines now. The market is filling up. The locations are maturing.**" *(These sit beside the 18,000 start and the 47,000 figure already on this page; not reconciled.)*
+
+### The new Georgia machine, as Val described it
+
+- "**The new machine for here for Georgia… Comes with… eight games. We're changing interface. It will be ready probably in November. It will have 14 or 15 games, and the most important thing, it will have the Buffalo game. Bison.**" *(Which title "Bison" is — e.g. Twin Bison above — is not said.)* Compare Felipe's Sept-15 line that the V3 is held "until we have the full fifteen" (above); here eight games now, 14–15 by about November.
+- **A high-roller progressive family** where "**The progressive grows with the bet**". Val: "**I suggest eliminating twenty - five cents**"; the master: "**We don't want that twenty - five cent**"; a $1 / $2 / $5 floor was named, and Val limited it: "**For this progressive, I agree, but only for this… For this family of games**".
+- **The master's reaction to the cabinet:** "**this is a masterpiece right here. State of the art machine technology. I love it.**"
+
+## Sept 22 2026 — Val's demand plan: first a list of owners who agree to be contacted, then the players
+
+From the [[wiki/meetings/2026-09-22-digital-marketing-lead-and-georgia-demand-campaign.md|Sept-22 call]] with [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] (Russian, 7:31 AM). Klimovich read a document from Val on the call and they worked through its two parts. The document's text is not in the source [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]].
+
+### Part 1 — reaching the location owners
+
+- **Klimovich's doubt.** Public numbers will mostly be the locations' own lines — "как просто позвонить на заправочную станцию" — so it is unclear how far the owners can be found [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]].
+- **Val's answer: AI calls make it realistic.** With AI, logic and a script, "это уже не фантастика никакая": call the general number, find the decision maker, get his consent, then keep a standing line to him. It may take more than one call, but "это aipow call это недорого" [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]].
+- **The target.** "Здесь 7 7000 лайсенс лакейшинов, поэтому даже если мы получим 20% от этого, я считаю, что это будет успех" — about 7,000 licensed locations; 20% would be a success. *(Val's round figure; this page's own market counts are 7,400 locations — not a contradiction, a rounder number.)* [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]]
+- **The list comes first, and JVL appears only after it.** Val: "Чей вел может появляться только тогда, когда ты получил разрешенный список… Контактов." Until that list exists, JVL offers nothing: "мы ничего не будем предлагать… до сих пор, пока это… лес не создаст" [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]].
+- **What goes on the list.** Klimovich asked what makes an owner part of it. Val: "он разрешает, чтоб мы пользовались его телефоном для… Информационных месседжей или звонков" — the owner allows his phone to be used for information messages or calls [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]].
+- **Legality — asked, and held.** Klimovich asked whether a gaming-machine maker may contact a location owner at all: "Нет ли никаких ограничений в этом плане?" Val: "Вопрос очень хороший." His answer, on how the calls would be placed, is **held for owner review** (§15 #8 — legal material; Tier A) [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]].
+- **Who does it.** Klimovich proposed [[wiki/people/sergey-vysotsky.md|Sergey Vysotsky]]. Val wants to be present at the briefing, "так как я присутствую при вашем общении с инженерами". He did not want the recording passed on; a **written memo** of the needed solution goes instead. Klimovich will pass Sergey the context the same day and, if Sergey takes it, set up a call with Val. Val then explains it and Sergey says back how he understood it [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]].
+
+### Part 2 — reaching the players
+
+- **The ad platforms will block gambling.** Klimovich: "мета Google… Очень ревностно относится к рекламе гэмблинга в любом его виде" — ads for gaming machines as gaming machines will not pass. The creative must avoid the word and still be understood. He called it "креативная задача" [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]].
+- **The goal, as Klimovich restated it.** Players living near the gaming locations start to see JVL games, build brand awareness and desire, up to asking their own location "а что это у вас нету игрового аппарата j vi?" [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]]
+- **Val's two hooks for players.** "у нас есть 15 игр а не 6 как обычно", and with the transactional system "Игрок может получить промокрэлидж" (promo credit). Because gambling is banned in Georgia, the pitch can be "компьютер геймс" [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]]. *(15 games matches Val's Sept-17 "14 or 15 games" for the new machine, above. The promo-credit hook is the same lever as the Sept-15 phone-number play on [[wiki/topics/flexpay-business-architecture-payout-devices.md]].)*
+- **Class A or Class B in the ads** — see [[wiki/topics/georgia-class-a-machines.md]] (Sept 22).
+- **Sequencing restated.** Val: "мы короче не можем выступать в 1 роли до тех пор, пока не создастся жёсткий список" — the player side waits for the owner list too [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]].
+
+### Open questions (Sept 22 2026)
+
+- Whether Meta and Google will accept a creative that does not name gambling. Klimovich raised it as a creative task still to be worked — [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]]
+- **Tier A (held, §15 #8):** how the location-owner calls are placed lawfully. Val's instructions on this passage are held for owner review and not recorded — [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_GA_Trip_Recap_Kiosk_Intel-May-18-2026.md]]
@@ -1724,3 +1776,5 @@ Told under the NDA and flagged "**strictly confidential and not to discuss with 
 - [[raw/Meeting_Transcript_Really_Killer_Systems_Operator_Vetting-August-25-2026.md]]
 - [[raw/Meeting_Notes_Really_Killer_Systems_Operator_Vetting-August-25-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]]
+- [[raw/Meeting_Transcript_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]
+- [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]]

@@ -2,11 +2,11 @@
 type: decision
 title: The e-wallet is created the moment the player presses "print new" — before the ticket prints — so a printer failure cannot lose the money; the cashier recovers it from the transaction list
 date: 2026-09-14
-aliases: [create new then print, reprint not reissue, wallet created before printing, the painful scenario, carrier that did not print, ticket recovery, reissue versus reprint, print-carrier command, unclaimed money on the terminal, collect fork, блок номер 5 и блок номер 6]
-source-count: 5
-status: active
+aliases: [create new then print, reprint not reissue, wallet created before printing, the painful scenario, carrier that did not print, ticket recovery, reissue versus reprint, print-carrier command, unclaimed money on the terminal, collect fork, блок номер 5 и блок номер 6, print from unclaimed, reprint only while the wallet is active]
+source-count: 6
+status: active — holds for the Flex-Port collect path; since Sept 21 2026 the Flex IQ counter path checks the printer first and creates no wallet (see the Sept-21 update)
 open-commitments: 1
-open-questions: 3
+open-questions: 2
 ---
 
 # The e-wallet is created before its ticket prints
@@ -86,6 +86,12 @@ Pavel asked whether this was about the street machine's TITO variant; **Val said
 
 **How this sits against the 8:01 AM rule.** The two are not in conflict; they cover opposite directions of the same transfer. The morning rule protects the **player** — the wallet exists before the print, so a dead printer cannot swallow his money. The midday exchange exposes the **house** side: a ticket that partly printed is redeemable and the debit has already happened, so a bad actor can take the ticket *and* leave JVL unable to reverse. **Nothing in either source resolves the second case**, and no one proposed a mitigation. Recorded as a new open question below, not as a contradiction.
 
+## Update, Sept 21 2026 — the port rule holds; the counter goes the other way
+
+At the [[wiki/meetings/2026-09-21-transactional-mvp1-flexport-and-iq-ux-design.md|Sept-21 8:02 AM call]] the no-paper case was argued again and split by flow. **For the Flex-Port this rule stands:** where money cannot reach a wallet on the port, "мы это всё скидываем в анклейт, а из анклейт уже может напечатать кассир" (Pavel; Chudinov "Да, согласен"). **For the Flex IQ counter the opposite now applies:** the printer is checked first, and if it cannot print the carrier, no wallet is created (Klimovich: "мы сразу не создаём и уволят. Это случай работы с кассиром"). Full record: [[wiki/decisions/2026-09-21-at-the-counter-no-printer-no-wallet-at-the-port-the-wallet-goes-to-unclaimed.md]] [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]].
+
+**The same call limits the reprint.** From the records list a ticket can be reprinted only while the wallet is still active; for an expired wallet it is not offered: "если у нас иволят уже за экспарившийся. То мы реприм тикета не предлагаем" [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — re-check why reissue was originally chosen, now that the design has been switched to reprint — due unspecified; "я ещё раз посмотрю, почему я так хотел" — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
@@ -94,11 +100,11 @@ Pavel asked whether this was about the street machine's TITO variant; **Val said
 
 - [x] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — re-read the reissue capability and settle whether MVP 1 reissues the wallet or simply reprints the carrier — **discharged Sept 15 2026**: he re-argued for reissue, lost the argument to Chudinov's audit-trail objection, and had already changed the design to reprint — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - ~~**Reissue or reprint?**~~ — **resolved Sept 15 2026 as reprint.** See the dated update above.
+- ~~**What the cashier actually does with money sitting in "unclaimed"**~~ (Pavel, Sept 14: "вопрос, что с ними дальше делать") — **answered Sept 21 2026 for the failed-print case:** the cashier prints it from the unclaimed screen — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]] [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
 
 ## Open questions
 - **Can collect money stay on the machine** instead of moving to the port the instant collect is confirmed? Pavel tried and failed; with [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - **A ticket whose barcode started printing before a deliberate power cut is redeemable, and the money is already off the machine — what stops that?** Raised by Pavel on the Sept-14 12:04 PM call and left with no answer; the printer cannot reprint an incomplete ticket — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
-- **What the cashier actually does with money sitting in "unclaimed"** — reprint a ticket, or something else. Pavel named it as the open part: "вопрос, что с ними дальше делать… кассир должен что[-]то выбрать" — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 
 *(The derived notes record the same rule — "the eWallet is created the moment the player presses 'create new' and the machine's game credit is loaded onto it, so the money is already saved" — and the same parked reissue-versus-reprint question. The notes render the print option as "print new" / "create new"; the transcript's rendering of the button is garbled, so no exact button text is asserted here.)* [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 
@@ -110,3 +116,4 @@ Pavel asked whether this was about the street machine's TITO variant; **Val said
 - [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]

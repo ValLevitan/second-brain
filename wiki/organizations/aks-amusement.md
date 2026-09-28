@@ -11,7 +11,7 @@ disambiguation: "§4 name note — two distinct Karims. **This** Karim is AKS Am
 
 # AKS Amusement
 
-**AKS Amusement LLC** is a **medium–large Georgia coin-operated-amusement-machine (COAM) master/terminal operator** and a JVL customer in the Georgia land-based market. It is led by CEO **Zahir**, with **Karim** as its technical leader / operations manager. Per the JVL operator briefing (2026), AKS **appears to have originated from — or been closely associated with — the smaller-master ecosystem connected to Lucky Bucks** (alongside groups such as Dynamic Gaming); the briefing states this as market context, not confirmed fact. [[raw/georgia_operator_briefing_AKS.md]]
+**AKS Amusement LLC** is a **medium–large Georgia coin-operated-amusement-machine (COAM) master/terminal operator** and a JVL customer in the Georgia land-based market. It is led by CEO **Zahir**, with **Karim** as its technical leader / operations manager. Per the JVL operator briefing (2026), AKS **appears to have originated from — or been closely associated with — the smaller-master ecosystem connected to Lucky Bucks** (alongside groups such as [[wiki/organizations/dynamic-gaming.md|Dynamic Gaming]]); the briefing states this as market context, not confirmed fact. [[raw/georgia_operator_briefing_AKS.md]]
 
 Zahir is a GAMOA member but is not active in GAMOA leadership and is generally hands-off with day-to-day location operations, so execution on the account depends on who owns reporting internally. [[raw/georgia_operator_briefing_AKS.md]]
 

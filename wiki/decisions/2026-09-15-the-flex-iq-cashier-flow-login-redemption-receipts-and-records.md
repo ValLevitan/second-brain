@@ -2,11 +2,11 @@
 type: decision
 title: The Flex IQ cashier flow is settled — login becomes selectable between a PIN and a magnetic stripe card and the reader stays in the hardware, Cancel is removed, redemption pre-fills the maximum and freezes the amount on continue, the activation receipt always prints while a top-up receipt is optional, and the records list gets date and direction filters
 date: 2026-09-15
-aliases: [Flex IQ cashier flow, PIN or magnetic stripe, selectable login, magstripe reader stays, remove the cancel button, four digit PIN, pre-filled redemption, freeze the amount, receipt optional on top-up, records filters, X and Z reports, card stock tracking, home screen three blocks, кассир пинкод, магнетик стрип, requirement 1447, requirement 1490, receipt fields, wallet identifier is the key, transaction protocol]
-source-count: 4
+aliases: [Flex IQ cashier flow, PIN or magnetic stripe, selectable login, magstripe reader stays, remove the cancel button, four digit PIN, pre-filled redemption, freeze the amount, receipt optional on top-up, records filters, X and Z reports, card stock tracking, home screen three blocks, кассир пинкод, магнетик стрип, requirement 1447, requirement 1490, receipt fields, wallet identifier is the key, transaction protocol, four home buttons, help screen support number, virtual number with forwarding, create empty wallet button, last four digits of the barcode, card code not card number, date picker, red tilt indicator, text library English Spanish]
+source-count: 5
 status: active
-open-commitments: 4
-open-questions: 2
+open-commitments: 6
+open-questions: 3
 ---
 
 # The Flex IQ cashier flow — login, redemption, receipts and records
@@ -94,16 +94,43 @@ Two items on [[wiki/people/irina-shishko.md|Irina]]'s open-question list at the 
 
 **The X and Z report question was not revisited** on Sept 16 and stays open below.
 
+## Update, Sept 21 2026 — the finished Flex IQ screens are walked
+
+At the [[wiki/meetings/2026-09-21-transactional-mvp1-flexport-and-iq-ux-design.md|Sept-21 8:02 AM call]] [[wiki/people/andrei-klimovich.md|Klimovich]] showed the Flex IQ design as done on the functional side: "Для IQUX полностью готов. Какие элементы на каких экранах всё", with only text sizes and alignment left. No new visual language: "Никакого нового визуального языка мы не предлагаем" [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]].
+
+**Home screen.** He now wants **four** buttons, in the kiosk design language: "на хомскрине. Я бы хотел иметь 4 кнопки" [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]. *(Sept 15 described three routes from home — create wallet, records, reports. The fourth button is not named on Sept 21; Help is shown as its own screen. Evolution, recorded as spoken.)* The location name and address come from registration, not from a separate setup field — the human-readable "doing business as" field plus the city: "Не штат даже смысла нет показывать достаточно города. Может быть улицу я я в рекламенте это пропишу конкретно" [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]].
+
+**Help screen.** It shows who to call. Phone number and working hours must come from server configuration so the client need not be rebuilt: "чтобы не требовалось пересобирать… оно должно откудато с сервера тянуться" [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]. The contacts named are "gell" (unclear word) and InComm. Klimovich said competitors promise support from about 06:00 to 23:00 ("по-моему"), and JVL will probably have its own number, answered by him or [[wiki/people/felipe-miranda.md|Felipe]]. [[wiki/people/andrey-bosik.md|Bosik]] proposed a virtual number from a phone operator with call forwarding, "Не надо физически… физическая симкарта"; Klimovich: "Отлично, тогда ещё лучше" [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]].
+
+**Wallet screen, and who may issue a card.** Scanning a carrier from home opens the wallet: created when, valid until, balance. A card can be issued against a wallet only if the cashier scans the carrier. Opened from transaction history without the carrier, "он не должен иметь возможность выпустить карточку по этому балансу" — to cut down card issue without a carrier [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]].
+
+**Creating a wallet.** Amount entry shows only the dollar sign and places the decimal point by itself as digits are typed (Pavel: "А точку сам подставляет"; Klimovich: "Да да да"). "Create empty" is a separate, explicit button. An empty wallet prints its ticket with a reminder to hand it to the player. A funded one (his example: $25) confirms, prints, then asks whether to print a receipt, and ends by repeating the balance and reminding the cashier to hand over the ticket and receipt [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]. This fits the Sept-15 receipt rule above (optional for a counter-created wallet).
+
+**Timer and logout.** [[wiki/people/dmitri-chudinov.md|Chudinov]] asked why a logout button exists if an inactivity timer returns every screen to idle or home. Klimovich kept it on purpose, for ending the session "явным образом без таймера"; idle stays behind the PIN [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]].
+
+**Printer tilts.** Klimovich proposed banners that always sit over every screen, so the cashier wants to fix the problem fast. Chudinov and Pavel objected: several at once would cover the screen, and a reporting screen does not need them. Chudinov's alternative — a red exclamation mark at the top that opens a list of current problems — won: "Да ладно, соглашусь перемудрил" [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]. The printer's own no-paper case is on [[wiki/decisions/2026-09-21-at-the-counter-no-printer-no-wallet-at-the-port-the-wallet-goes-to-unclaimed.md]].
+
+**InComm errors.** Klimovich added the InComm errors Chudinov had sent that make sense to a cashier, shown with a code and recorded in the transaction record [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]].
+
+**Records and search.** Reprint from the record details is offered only while the wallet is active. The search needs a large, touch-friendly date picker; Klimovich did not know which control library IQ uses, and Chudinov thought "скорее всего реакторскую стандартную… но надо уже уточнять у фронтенда" [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]].
+
+**Card search by the last four digits of the barcode.** Added to settle disputes on the spot. Chudinov: the barcode holds "юпис плюс карткод"; Klimovich: the card number "у нас походу вообще нигде нет", so JVL works with the card code everywhere. Pavel warned that a cashier will read the digits on the card front instead; Chudinov proposed a clickable picture of the card with the right digits marked, "где смотреть под штрихкодом"; Klimovich: "хорошая идея поправим" [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]].
+
+**Texts.** Every interface element has an ID, and a library holds the English and Spanish text for each ID; shared buttons such as Cancel exist once under a universal ID [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — design the Flex IQ receipt field by field: which fields are printed — due unspecified; his own note in requirement 1447, still outstanding on Sept 16 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — remind [[wiki/people/genadi-peari.md|Genadi Peari]] that the magnetic stripe reader stays in Flex IQ — due at his next conversation with Genadi; Val's precaution — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — add the missing Flex IQ screen showing tilts and how to resolve them — due unspecified; he raised it and Val agreed — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — write the requirement for the location name and address on the home screen (doing-business-as field plus city, maybe street) — due unspecified — [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — add the clickable card picture showing the cashier which digits under the barcode to use — due unspecified — [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
 - [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — hand Klimovich the first version of Flex IQ in wallet mode so he can see which screens already exist — due the same day (Sept 15 2026) — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 
 ## Open questions
 
+- **Which control library supplies the date picker on the IQ search screens.** Chudinov thinks the standard React one; to be confirmed with the front-end — [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
 - **Whether X and Z reports apply to Flex IQ at all.** Klimovich had not heard the term and will look it up against Bosik's chat note; Bosik himself says he does not know whether they apply — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - **What the location gets versus what the operator gets**, in report form. Named by Klimovich as needing thought and not answered — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 
@@ -114,3 +141,4 @@ Two items on [[wiki/people/irina-shishko.md|Irina]]'s open-question list at the 
 - [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]

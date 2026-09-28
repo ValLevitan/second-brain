@@ -2,14 +2,17 @@
 type: person
 title: John Houseal
 date: 2025-07-01
-aliases: [John Houseal, John, "John from Income", "John from InComm", "John Hasil", Housel, "John Hassel"]
-source-count: 8
+aliases: [John Houseal, John, head of the Coin Card division, "John from Income", "John from InComm", "John Hasil", Housel, "John Hassel"]
+source-count: 10
+open-questions: 1
 disambiguation: "InComm's product-development / route-gaming lead — the 'John' who leads the InComm↔JVL relationship (gift-card / COAM payment products). Distinct from Allen Lee (the InComm 'Alan', technical/API contact) and other InComm reps (Adam, Jared, Billy, Susanne). Resolve by context: InComm product strategy / market / roadmap → Houseal."
 ---
 
 # John Houseal
 
 John Houseal is **InComm's product-development lead for route gaming** and the InComm executive who leads the relationship with JVL (the gift-card / COAM prize-redemption payment products). Surname confirmed on the Apr-3 2025 "JVL Payment Options" recording; the July 1–2 2025 in-person meeting fills in his background and remit. [[raw/incomm_transcript_gacoam_payment_options-april-4-2025.md]] [[raw/incomm_product_discussion-july-1-2025-1.md]]
+
+**Current status — reported to have left InComm (Sept 22 2026).** [[wiki/people/billy-liu.md|Billy Liu]] told Val that John has moved from InComm to **Bulldog**. This is second-hand, from a competitor, and the "John" is identified as Houseal by context only (inference; see Sept 22 below) [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
 
 ## Background (as told July 1 2025)
 
@@ -41,6 +44,22 @@ It sits in a longer complaint — "**Lately, very aggravated. It was… very dif
 
 He was not on the call. On the [[wiki/meetings/2026-05-18-ga-trip-recap-kiosk-intel.md|May-18 GA trip recap]] [[wiki/people/felipe-miranda.md|Felipe]] reported that at an industry meeting InComm "took over John Hassel" (transcribed; also "John Housel") and he described "an active pilot where a kiosk based cash redemption system allows players to redeem winning into a gift card", converted onward to a card usable at an ATM for "around six dollars and fifty cents". Felipe gave Housel's reason as players already taking the gift card to Kroger to buy a money order. Andrei and Felipe agreed it was still a trial with no deal signed; GAMOA's president said the association was not endorsing it. Detail on [[wiki/projects/georgia-market-rollout.md]] (May-18). [[raw/Meeting_Transcript_GA_Trip_Recap_Kiosk_Intel-May-18-2026.md]]
 
+## Sept 22 2026 — reported move to Bulldog, as told by a competitor
+
+On the [[wiki/meetings/2026-09-22-billy-liu-playpay-virtual-wallet-pay-tag-plan.md|Sept-22 Val–Billy call]], Val opened with "**How did you get the news about John?**" Billy's account [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]:
+
+- **Where he went:** Bulldog. Billy's reason came down to Bulldog being able to take him on; the pay side of that answer is withheld (§15.8). *(Bulldog is read as the Georgia operator Bulldog on [[wiki/projects/georgia-market-rollout.md]] — an inference; the call gives no full name.)* On what Bulldog offers him: "**Bulldog is big… Bulldog has many states… They have a close loop program. They can issue close loop cards. Retail cards.**" Val's own question — "**what is Bulldog's plan for John?**" — got no clear answer [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
+- **His InComm role, as Billy put it:** "**John was the head of the Coin Card division. He was there since the pilot program.**" *(Both the division name and the pilot are Billy's; the corpus has no other source for them.)* [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]
+- **He opposed the Skill Pay push.** "**when InComm made that announcement that they were going to go forward with the skill pay, John was irate**"; "**InComm just went against all logic, reason, and wanted to push it through**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]. See [[wiki/organizations/incom.md]] (Sept 22).
+- **He had proposed a tie-up with Billy's company:** Billy providing a virtual card and InComm a physical one — "**if we could join forces**" — which Billy read as "**a takeover tactic**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
+- **Why this is read as Houseal:** an InComm "John" running its card business in Georgia since the pilot matches this page (inference). Billy never gives a surname [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
+
+**§15.8 exclusion:** Billy's estimate of John's yearly worth, and the private job conversations between the two men, are **not recorded** [[raw/Meeting_Notes_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
+
+## Open questions
+
+- **Has John Houseal actually left InComm for Bulldog?** Only Billy's second-hand account says so; no InComm or Bulldog source confirms it — [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
@@ -51,3 +70,5 @@ He was not on the call. On the [[wiki/meetings/2026-05-18-ga-trip-recap-kiosk-in
 - [[raw/review_flex-POS_use_cases.md]]
 - [[raw/incomm_product_discussion-july-1-2025-1.md]]
 - [[raw/Meeting_Transcript_GA_Trip_Recap_Kiosk_Intel-May-18-2026.md]]
+- [[raw/Meeting_Notes_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]

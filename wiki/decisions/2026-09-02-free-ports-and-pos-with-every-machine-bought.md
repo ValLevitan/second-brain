@@ -3,7 +3,7 @@ type: decision
 title: Six Flex ports and a terminal free with every machine bought, at $90 a month per location — "I am buying my way in"
 date: 2026-09-02
 aliases: [buying my way in, ninety dollars a month, value almost as much as this machine is, zero cost except a monthly maintenance fee, six ports plus a terminal free, $15,750 machine, seven thousand dollars of discounts, ninety dollars per location, guinea pig offer, Lucky Coin offer, sixteen thousand dollar machine, rent or lease the units]
-source-count: 18
+source-count: 20
 status: active
 open-commitments: 1
 open-questions: 5
@@ -172,6 +172,30 @@ At the [[wiki/meetings/2026-09-15-unlimited-amusement-mega-hit-blaze-v3-and-bund
 
 **Outcome:** one pilot location, no volume, and Val's counter-ask for a month-by-month rollout calendar — [[wiki/decisions/2026-09-15-unlimited-amusement-pilots-one-location.md]].
 
+## Sept 17 2026 — another composition, "your cost is $750", and a debrief on when to say "free"
+
+At the [[wiki/meetings/2026-09-17-dynamic-gaming-georgia-master-licensee-and-cashless-pitch.md|Sept-17 3:17 PM Dynamic Gaming meeting]] the bundle went to another Georgia master, [[wiki/organizations/dynamic-gaming.md|Dynamic Gaming]] (about 130–150 locations). [[raw/Meeting_Transcript_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]
+
+| Date / counterparty | Composition as stated | Machine price stated | Monthly fee |
+|---|---|---|---|
+| **Sept 17 — [[wiki/organizations/dynamic-gaming.md\|Dynamic Gaming]]** | "**one will be installed, plus five more**" ports, and "**one of these free of charge for each location**"; later itemised as a **kiosk** (bill acceptor, printer, card dispenser, scanner) plus the ports; free side valued "**fifteen thousand dollars**" | **$15,750** ("fifteen thousand seven hundred and fifty dollars") | **$90 per location** — billed to the location, see [[wiki/decisions/2026-09-17-the-ninety-dollar-fee-is-drafted-from-the-location-not-paid-by-the-master.md]] |
+
+- **The net is put at $750** (against "just under nine thousand" on Sept 2, when the free side was valued at ~$7,000): "**The value is… fifteen thousand dollars. Count the six. And the machine is fifteen thousand seven hundred and fifty. So basically, your cost is seven hundred fifty dollars.**" [[raw/Meeting_Transcript_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]
+- **The kiosk is inside the free set**, and Val stressed it: "**You know what's inside of that kiosk, right? Bill acceptor, printer, card dispenser**" — the visitor added "**And the scanner**" — "**It's a complete kiosk. But it dispenses the card, not cash.**" Whether a separate POS is also in the set is not clear from the pointing ("**six of these. Per location… one of these, and… one of these**"). [[raw/Meeting_Transcript_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]
+- **"Buying the market" is said to the customer, as the reason there is no special price:** "**We offer this deal post show… We're buying the market. We're simply buying the market**", and "**we can't offer discounts**". [[raw/Meeting_Transcript_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]
+- **No contract, and no exclusivity asked.** "**No contract**" was Val's answer to the equipment question; nothing in the meeting mentions exclusivity. See the Sept-17 decision above. [[raw/Meeting_Transcript_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]
+- **The extra-ports question is untouched for a fifth meeting running** — nothing about a seventh port or its price.
+
+### The debrief — when to say "free"
+
+After the visitor left, the JVL side reviewed the pitch. [[raw/Meeting_Transcript_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]
+
+- **Val's read of what landed:** "**two things hit him in the forehead. It was what we give away**", and the Texas idea. He says he watched the visitor "**on the phone calling a shop and say, 'Did you know that they're giving this away?'**" (Val's account of what he saw.)
+- **Felipe: the giveaway came too late.** "**towards the end, you kind of said, 'Oh, I forgot to tell you this and that'**… **It's like we haven't made much progress here**". Val: "**you probably… have a point. Yes, I think you have a point.**"
+- **Andrei: the machine does not sell; the redemption does.** "**I'm as a customer. I'm not impressed by the machine… But the redemption solution sounds as if maybe he is interested**". He also raised "**this edge case that Philippa mentioned that a little bit devalues the machine**" — this answers, in part, the brand question Val raised on Sept 8 (below).
+- **Val's answer: keep "free", say "buying the market".** "**the way I confront this is by saying that we're buying the market, and then it's honest**", and "**In America, there is no better price than free**". Then a new wording: "**For the limited time, post show we're offering the entire package for fifteen thousand seven hundred fifty dollars.**" Felipe and Val both held that "free" is the punchline: "**I think we lose the giveaway… Which I think is is a punchline**" — "**I… also believe that free free is a punchline.**"
+- **Where it landed:** Andrei proposed rephrasing it "**in the way that limited time after the show**", and Val: "**Could definitely try. Why not?**" The derived notes record it as "rephrase the pitch as a limited-time post-show package at $15,750, while keeping 'free' as the punchline" [[raw/Meeting_Notes_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/kyle-shepherd.md|Kyle Shepherd]] — decide on the offer. Val did not press for an answer on Sept 2 ("You don't have to give me the answer right now. You can consult your brother") and expected it at the Sept-9 visit. **At that visit Kyle still did not answer**, asked for a couple of hours, and agreed a date with Val — so this now runs against the larger [[wiki/decisions/2026-09-09-val-asks-lucky-coin-for-its-entire-business.md|Sept-9 offer]] — due **Tuesday Sept 15 2026** (was ~Sept 9) — [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]] [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
@@ -182,7 +206,7 @@ At the [[wiki/meetings/2026-09-15-unlimited-amusement-mega-hit-blaze-v3-and-bund
 - **Does the $90/month begin at installation, and does it apply to a location that took the free hardware but no kiosk?** Neither is addressed in the source — [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]
 - **Does the deal have to be packaged at all?** Val spent the Sept-9 Rao meeting on the bundle, then argued a distributor can install and resell the transactional equipment **standalone** to operators who do not want a machine, and asked the room to confirm. **The recording ends without an answer.** This bears directly on this page's titular condition — *free with every machine bought* — [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]] [[raw/Meeting_Notes_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
 - **Is the $90 a month per location or per machine?** Five customer quotes (Sept 2, 8, 10) say "**per location**" explicitly. On **Sept 15** [[wiki/people/felipe-miranda.md|Felipe]] quoted "**ninety dollars a month**" with **no unit**, and that meeting's derived notes gloss it as "**$90 per machine per month**." The transcript does not settle it and the two written records disagree — **not resolved** — [[raw/Meeting_Transcript_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]] [[raw/Meeting_Notes_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]]
-- **Does the giveaway cheapen the brand?** Val raised it himself on Sept 8 — "I also don't wanna give something away, and just cheapen the brand" — asked an experienced operator to check him on it, and got no answer; the derived notes record it as open. No source in the corpus addresses it. — [[raw/Meeting_Transcript_ARC_Gaming_Vertical_Screen_Bundle_Offer_and_David_Intro-September-8-2026.md]] [[raw/Meeting_Notes_ARC_Gaming_Vertical_Screen_Bundle_Offer_and_David_Intro-September-8-2026.md]]
+- **Does the giveaway cheapen the brand?** *(Sept 17: raised again inside JVL — Andrei relayed Felipe's worry that the giveaway "a little bit devalues the machine", and Val answered that calling it "buying the market" keeps it honest; still no outside answer.)* Val raised it himself on Sept 8 — "I also don't wanna give something away, and just cheapen the brand" — asked an experienced operator to check him on it, and got no answer; the derived notes record it as open. No source in the corpus addresses it. — [[raw/Meeting_Transcript_ARC_Gaming_Vertical_Screen_Bundle_Offer_and_David_Intro-September-8-2026.md]] [[raw/Meeting_Notes_ARC_Gaming_Vertical_Screen_Bundle_Offer_and_David_Intro-September-8-2026.md]]
 
 **§15.8:** clear — machine, device and subscription pricing and operator economics only; no named-person compensation.
 
@@ -206,3 +230,5 @@ At the [[wiki/meetings/2026-09-15-unlimited-amusement-mega-hit-blaze-v3-and-bund
 - [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
 - [[raw/Meeting_Notes_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]]
 - [[raw/Meeting_Transcript_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]]
+- [[raw/Meeting_Notes_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]
+- [[raw/Meeting_Transcript_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]

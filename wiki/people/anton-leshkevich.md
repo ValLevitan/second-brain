@@ -4,7 +4,7 @@ title: Anton Leshkevich
 date: 2025-01-21
 aliases: [Anton Leshkevich, Anton, Antoine, Anton Dmishkevich, Дмишкевич, Дмишкевичем, Liashkevich, Anton Liashkevich, Lishkevich, Anton Lishkevich, Лишкевич, Rishkevich, Anton Rishkevich, ришкевич, Vishkevich, вишкевич, брижке]
 disambiguation: "Minsk engineer (Omni/RGS), this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 34
+source-count: 35
 open-commitments: 4
 open-questions: 0
 ---
@@ -149,8 +149,13 @@ Anton was pulled into the [[wiki/meetings/2026-09-14-texas-vertical-conversion-a
 
 **§15.8:** clear — engineering content only; the "without Anton" exchange is recorded as a factual correction about authorship, not as a performance judgement.
 
+## Sept 20 2026 — his frame-by-frame method is cited
+
+At the [[wiki/meetings/2026-09-20-vertical-geometry-standard-and-adr-consolidation.md|Sunday Sept-20 7:04 AM ET session]], [[wiki/people/igor-metelski.md|Igor Metelski]] said Claude has no video or image generator of its own and credited "**Антон**" with a good method: "**По кадрово разобрал анимацию. Вот и на основании этих разобранных анимаций … составил пром[т] для стороннего сервиса**". Read as this Anton by context — he made the generated video on Sept 16. He was not on the call. [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
 - [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
 - [[raw/Meeting_Notes_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Game_Conversion_Vertical_Scene_Progress-September-17-2026.md]]

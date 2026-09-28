@@ -4,8 +4,8 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 58
-open-commitments: 26
+source-count: 60
+open-commitments: 27
 open-questions: 0
 ---
 
@@ -339,6 +339,28 @@ The [[wiki/meetings/2026-09-18-transactional-mvp1-capability-cleanup-and-the-mon
 - [ ] Dmitri Chudinov — finish reworking his own team's share of the conflict-sweep findings; only part was done — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - [ ] Dmitri Chudinov and [[wiki/people/irina-shishko.md|Irina Shishko]] — meet after the call and walk his capabilities and features to set real dates — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 
+## Sept 21 2026 (8:02 AM) — he backs Irina on the printer, draws the payment-hub line, and takes the main IQ flow
+
+On the [[wiki/meetings/2026-09-21-transactional-mvp1-flexport-and-iq-ux-design.md|Sept-21 8:02 AM call]] (Russian; speaker label "Dzmitry Chudzinau"):
+
+- **Payment hub = card only.** "на терминале, наоборот, все балансы и создания по вольтам идут локально. Карточка это пхаб" — and he asked everyone to mark it so in future reviews [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]].
+- **No printer, no wallet — at the counter.** "принтер бросил ошибку, всё значит не напечатано и воли инвалидный"; one transaction with confirmations. See [[wiki/decisions/2026-09-21-at-the-counter-no-printer-no-wallet-at-the-port-the-wallet-goes-to-unclaimed.md]].
+- **Tilts:** he proposed the red exclamation mark that opens a list, which replaced Klimovich's banners [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]].
+- **Barcode:** "на баркозе юпис плюс карткод"; he proposed the clickable card picture for the cashier [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]].
+- **Work split:** he takes the main Flex IQ flow, because it ties to the business logic, and Vladimir the smaller pieces [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]].
+
+## Open commitments (Sept 21 2026)
+
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — extend the Flex-Port ↔ machine protocol to pass the asset number as well as the serial number — due unspecified — [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
+
+## Sept 22 2026 (4:48 AM stand-up) — he argues the capability, not the feature, is what gets tested
+
+At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexport-gui.md|Sept-22 stand-up]] (Russian; label "Dzmitry Chudzinau") [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]:
+
+- **Work status.** On updates: "Почти всё замерзло" (probably "merged" — unclear); the kernel is rebuilding from the SDK; he is deploying a new build to STG in parallel. He will merge one feature with main and then close the open features of capability 152 in order [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+- **Testing.** He does not close a capability until it is tested or test plans exist. He argued features cannot be tested alone — "Все эти фичи это какието промежуточные точки от а до б" — and that acceptance criteria hang on requirements. He named the case no one could answer: screens in one capability, balance and wallets in others. See [[wiki/topics/test-automation-strategy.md]] (Sept 22) [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+- **Time.** "мы не успеем все до 1 числа", and he doubted the MVP 2 line would hold: "каждый день мы получаем новый список" [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
@@ -399,3 +421,5 @@ The [[wiki/meetings/2026-09-18-transactional-mvp1-capability-cleanup-and-the-mon
 - [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]

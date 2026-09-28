@@ -3,9 +3,9 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, eighty percent of the general functionality, requirements are step two, a hole automated tests will not cover, acceptance criteria in general terms, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction, Figma to React, Vite, Claude Code review loop, acceptance criteria, two test warehouses, frozen test cases, test harness, test registry]
-source-count: 40
+source-count: 41
 open-commitments: 12
-open-questions: 3
+open-questions: 5
 ---
 
 # Test-automation strategy and testing architecture
@@ -426,6 +426,32 @@ At the [[wiki/meetings/2026-09-11-transactional-mvp1-scope-and-priorities.md|Sep
 - [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — have Claude evaluate Test 360 from a clean session that knows nothing of the acceptance criteria, and judge how suitable it is for autotests — due this week — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [ ] [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — continue the scene-validation tool; the screenshot-comparison extension Alexander Biratko proposed is wanted but unscheduled — due unspecified — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 
+## Sept 22 2026 — what status a capability carries while it is tested, and what can be tested at all
+
+At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexport-gui.md|Sept-22 Minsk stand-up]] (Russian) the team argued two linked points. Nothing was formally ruled [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+
+### The status question
+
+- **The trigger.** [[wiki/people/irina-shishko.md|Irina Shishko]]: capability 122 "в прогрессе стоит, но там все фичи закрытые". [[wiki/people/dmitri-chudinov.md|Chudinov]] explained he does not close a capability until it is tested or test plans are written [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+- **Kovalchuk's proposal.** [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] had asked Pavel the day before, and Pavel said it must be tested. So "может быть, мы тогда введём статус типа реквистест". Later he wanted two new statuses: one for development done, one for testing running [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+- **Irina's view.** Any name will do — "рекласт ревью реквист тест или ещё что то, но главное не… в прогрессе, потому что тогда считается, что ещё не закончили". She warned against many statuses: "уже проходили 10 статусов и начинается потом только хуже" [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+- **Pavel's view.** At first he resisted: "мне както не нравится такой подход слишком много статусов". His alternative: the capability stays In Progress, with a task under it showing that tests are running; when tests pass with no bugs left, it moves to Complete. A capability in a review-type status must have something under it — "если никаких задач нету… с какой стати оно тогда висит" [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+- **Where it ended.** [[wiki/people/alexei-khamin.md|Khamin]] framed it as a stage after In Progress where testing finishes — "это стабилизация больше идёт". Kovalchuk: "Клеша правильно говорит". Pavel: "как его назвать, я не знаю лучше там интегрейшн или ещё чтонибудь, но в общем, хорошо статус. Скорее всего нужен". Pavel's picture of closing: an integration-test task under the capability; when a build runs it and it passes, "коп обилити можно закрывать" [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+- **The name is not settled**, and neither is one status versus two. The earlier status ruling is on [[wiki/decisions/2026-09-11-accepted-means-reviewed-taken-into-work-is-the-move-to-to-do.md]] (Sept-22 update).
+
+### What can be tested at feature level
+
+- **Chudinov's challenge.** "А вы точно собираетесь фичи тестировать?" A feature that runs between services cannot be reached by a tester. He holds that the capability is what gets tested, "потому что мы смотрим всё с точки зрения пользователя"; features are "промежуточные точки от а до б" [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+- **The requirement link.** Pavel: a feature with its own acceptance criterion could be tested. Chudinov: acceptance criteria hang on the requirement, and several features can implement one requirement. Pavel: "Да да ты прав… Мы полноценно этот реквиймент не сможем протестировать." This matches [[wiki/decisions/2026-09-11-acceptance-criteria-live-in-the-regulations-not-the-capabilities.md]] only loosely *(link is an inference)* [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+- **The landing point.** At feature level, at most a unit or contract test ("какойнибудь интеграционный тест… соответствует ли он этому контракту" / "Скорее там юнит тест"). Pavel: "capobility, если мы тестируем, то здесь мы уже можем говорить о какихто интеграционных тестах". Irina: "поэтому и получается, что авто тесты пишутся параллельно" [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+- **Pavel's direction: test alongside development.** "В идеале, когда… нарезали фичи, в этот момент уже должен быть… тест план и… задачи по созданию… автотестов". The aim is to move away from "один за одним". He also noted that of about ten closed features none was separately tested, though Chudinov tested his own "сам и с клодом очень много" [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+- **The open case.** Chudinov: [[wiki/people/andrei-klimovich.md|Klimovich]] is adding a capability of user screens up to card issue, while balance recalculation and wallets sit in other capabilities — "Ты не сможешь протестировать одно без другого". No capability describes the whole flow. Pavel will ask Klimovich at that day's meeting [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+
+### Open questions (Sept 22 2026)
+
+- What the status after In Progress is called, and whether there is one or two — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
+- How to group capabilities so one flow can be laid against one test plan (Chudinov could not see how) — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
@@ -468,3 +494,4 @@ At the [[wiki/meetings/2026-09-11-transactional-mvp1-scope-and-priorities.md|Sep
 - [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 - [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]

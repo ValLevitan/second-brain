@@ -3,7 +3,7 @@ type: decision
 title: Planning comes off Pavel Frolov and goes to an "application administrator" — Dmitri Kovalchuk proposed, not yet agreed
 date: 2026-09-17
 aliases: [planning comes off Pavel, application administrator, аппликейщен администратор, Dima Kovalchuk administrator, Зиму Ковальчука, planning handover, полный трансперация, Pavel comes to Atlanta]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 3
 open-questions: 2
@@ -62,6 +62,12 @@ Four stated gains: JVL acquires an extra pair of hands; it acquires a good admin
 - **It sits alongside, and does not replace, the standing [[wiki/decisions/2026-08-26-pavel-irina-own-nova-capabilities-to-jira-through-september.md|Aug-26 assignment]]** of NOVA capabilities-to-Jira work to Pavel and Irina through September. Neither source mentions that assignment, and nothing here states that it ends.
 - **No date is set** for the handover, for approaching Kovalchuk, or for Pavel's move to Atlanta.
 
+## Update, Sept 22 2026 — Kovalchuk shows a draft overdue-task report
+
+At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexport-gui.md|Sept-22 Minsk stand-up]], [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] presented a draft report: a personal mailing to each person listing overdue tasks, tasks ending today ("их либо закрыть, либо передвинуть сроки"), tasks older than 14 days, tasks still open under a closed parent, and tasks with no end date. Only To Do items, not backlog ("который в туду"). He warned the logic may still be wrong or incomplete [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+
+*Whether this is him taking on the administrator role is an **inference**; neither source says he accepted it.*
+
 ## Open commitments
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] / [[wiki/people/irina-shishko.md|Irina Shishko]] — persuade [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] to come in as application administrator ("Както нужно уговорить. Это вам.") — due unspecified — [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
@@ -81,3 +87,4 @@ Four stated gains: JVL acquires an extra pair of hands; it acquires a good admin
 
 - [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
 - [[raw/Meeting_Notes_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]

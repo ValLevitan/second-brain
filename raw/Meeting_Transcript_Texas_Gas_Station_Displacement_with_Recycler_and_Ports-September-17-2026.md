@@ -1,0 +1,11 @@
+# Raw Transcript — 09-17 Texas Gas Station Displacement Strategy: Dual-Screen Kiosks with Cash Recycler and Modular Ports (Plaud)
+**Date:** September 17, 2026, 7:03 PM Eastern
+**Summary note:** [[Meeting_Notes_Texas_Gas_Station_Displacement_with_Recycler_and_Ports-September-17-2026]]
+**Source:** Plaud recording (offline), via Plaud-Inbox/JVL
+---
+00:00:00 Speaker 1
+Sorry. Hi. Hey, can you hear me? Yes, yes, I can hear you. Hey, good evening. How are you? Good. Good. The idea is very simple, and it's not mine. I actually had somebody came in to make a deal with me on the on the refurbished machines for Texas, and I told them that you know I only have dual screen, and he says, "Yeah, great." I'll take your dual screen. I'll take two of your ports. Put ports into your machines, and I will take a recycler. And I said, "Oh wow, what are you doing with it?" He says, "I'm putting it in gas stations in Texas against against Banilla." I said, "How do you do it?" He says, "Well, Banilla has let's say two machines."
+00:00:56 Speaker 1
+I come in and I offer these two machines with recycler, and because the machine with recycler has easier functionality and has direct access to cash immediately, I eventually move Banilla out of it because the owner now wants another machine and another machine from me, and all I need to do is provide them with additional ports, and then I have a full setup. So he says to make the most economical way of expanding in taxes and become desirable because now I offer something very different. I said, "Oh, okay." Exactly. This the recycler was in your game, right? Remember recycler I showed? The shepherd recycler. It's a kiosk, remember? So recycler is twelve thousand dollars.
+00:01:53 Speaker 1
+Purchased two machines at six thousand, so that's another twelve thousand. So he got a twenty-four thousand dollar package, which, in Texas, he's going with something that is self-contained. That's interesting. I really like the idea. I thought it was interesting. I was going to tell you this. That's it for me. Got it. Very cool. So let's look at it and see what we can figure out when we get to Texas, man. That's it. That's all I wanted to tell you. Perfect. Sounds great. Bye. You as well. Thank you.

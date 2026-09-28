@@ -3,7 +3,7 @@ type: decision
 title: Val proposes taking 50% of Play Payments in exchange for driving it into the Georgia market — not accepted, not refused
 date: 2026-09-02
 aliases: [fifty percent of your company, I'm driving you right into the market, sleep on it, celebration dinner, the magic is in speed, give the hardware away, front fees to the store owner, PlayPay partnership, Billy Liu deal]
-source-count: 2
+source-count: 4
 status: active
 open-commitments: 4
 open-questions: 3
@@ -78,6 +78,12 @@ This is the single most consequential open item on the page, because JVL is comm
 
 And it runs head-on into the *other* exclusivity demand made of JVL the same day: at lunch [[wiki/organizations/incom.md|InComm]] told Val the partnership would struggle if he put cash functionality near COAM ([[wiki/decisions/2026-09-02-hold-the-recycler-back-but-sign-no-undertaking.md]]). **Two counterparties, one day, each asking JVL to close a door to the other. Nothing here reconciles them** — the derived notes flag exactly this and recommend settling it before any contract [[raw/Meeting_Notes_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]].
 
+## Update — Sept 22 2026: still no deal, and physical cards back in the plan
+
+- **No deal, said plainly by Val.** "**I'm openly discussing subjects without even knowing whether you and I will ever make a deal. I'm just being super, super, super, super open**" ([[wiki/meetings/2026-09-22-billy-liu-playpay-virtual-wallet-pay-tag-plan.md|Sept-22 call]]). Twenty days on, the proposal is still neither accepted nor refused; the open commitments below stay open [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]. The derived notes say the same: "There is no partnership agreement" [[raw/Meeting_Notes_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
+- **The physical-card half of Billy's exclusivity condition softened in conversation.** Val proposed a dispensed barcode card that mirrors the phone wallet; Billy argued the API "pay tag" is cheaper, but both then expected to "**dispense those cards in the very beginning**", with a promo credit (a $5 placeholder) for players who go phone-only. Detail on [[wiki/organizations/play-payments.md]] (Sept 22) [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]. *(Inference: this is Billy accepting some card dispensing, against his Sept-2 "You're not gonna dispense a physical card". Neither man linked the two.)*
+- **The InComm half is untouched** — not raised on Sept 22 [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/billy-liu.md|Billy Liu]] — sleep on the 50% proposal and answer — due the week of Sept 7 2026; Val is back in Georgia on the Tuesday — [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]]
@@ -97,3 +103,5 @@ And it runs head-on into the *other* exclusivity demand made of JVL the same day
 
 - [[raw/Meeting_Notes_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]]
 - [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]]
+- [[raw/Meeting_Notes_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]

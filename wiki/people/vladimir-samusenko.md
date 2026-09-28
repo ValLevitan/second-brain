@@ -3,8 +3,8 @@ type: person
 title: Vladimir Samusenko
 date: 2026-02-04
 aliases: [Vladimir Samusenko, Vladimir, Vlad, Владимир, Самусенко]
-source-count: 12
-open-commitments: 4
+source-count: 14
+open-commitments: 6
 ---
 
 # Vladimir Samusenko
@@ -67,6 +67,22 @@ At the [[wiki/meetings/2026-09-11-transactional-mvp1-scope-and-priorities.md|Sep
 
 *(Identified as Samusenko by context — he is the Minsk React developer who owns the machine/setup screens — not by surname in the source.)*
 
+## Sept 21 2026 — named for the smaller Flex IQ screen pieces (by context)
+
+On the [[wiki/meetings/2026-09-21-transactional-mvp1-flexport-and-iq-ux-design.md|Sept-21 8:02 AM call]], Pavel suggested "По IQ, я думаю, что Владимир может", and Chudinov settled the split: he takes the main flow and "он уже посмотрит какиенибудь кисички" — the smaller pieces [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]. *(No surname is spoken; this page is chosen because he is the only Vladimir in the corpus and tidied the Flex-IQ screens on Sept 11. Inference, queued.)*
+
+## Sept 22 2026 (4:48 AM stand-up) — the Flex-Port contracts, and the Flex-Port screen redraw
+
+At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexport-gui.md|Sept-22 stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]:
+
+- **Contracts.** He worked on the Flex-Port contracts; the tool chosen is rendered "синкапе" (unclear). He lacks the expertise to verify it himself and will send a pull request to Pavel. He raised that Daniil had no access to the knowledge repository, and that two parallel efforts gave two results. See [[wiki/decisions/2026-09-04-data-contracts-closed-every-repository-by-september-11.md]] and [[wiki/decisions/2026-09-04-point-claude-at-the-standards-repository-first.md]] (Sept-22 updates) [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+- **The screen redraw is his.** He objected to design delivered as an HTML page rather than Figma with design tokens — as a rule for the future — and accepted the job: "Окей скидывай я стал я буду заниматься". See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 22) [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+
+## Open commitments (Sept 22 2026)
+
+- [ ] Vladimir Samusenko — install TouchGFX Designer, pull the Flex-Port project, import it and report what can be worked with — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
+- [ ] Vladimir Samusenko — review his Flex-Port contract tests once more and send the pull request to Pavel — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
+
 ## Sources
 
 - [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
@@ -81,3 +97,5 @@ At the [[wiki/meetings/2026-09-11-transactional-mvp1-scope-and-priorities.md|Sep
 - [[raw/Meeting_Notes_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]

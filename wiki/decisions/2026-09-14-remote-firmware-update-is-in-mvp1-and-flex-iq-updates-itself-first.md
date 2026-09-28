@@ -3,7 +3,7 @@ type: decision
 title: Remote firmware update is in MVP 1 for the gateways only — Flex IQ and FlexPay update themselves; distributing firmware to the Flex-Ports moved to MVP 2 on Sept 17
 date: 2026-09-14
 aliases: [firmware upgrade in MVP1, remote firmware update, OTA firmware, приоритет номер один это чтобы обновлялся флекс ай кю, flash the FlexPorts, Flex IQ to FlexPort protocol, доперфек, priority two deferred, FlexPort firmware by USB stick, capability 144 to MVP2, capability 144 cloned, no rollback, roll forward only, requirement 1367]
-source-count: 4
+source-count: 5
 status: active — but PARTLY SUPERSEDED: "priority two" (the gateways distributing firmware to the Flex-Ports) left MVP 1 on Sept 17 2026, and rolling BACK to a previous build was removed from MVP 1 on Sept 18 2026; see the dated updates below
 open-commitments: 2
 open-questions: 1
@@ -64,6 +64,10 @@ Two things at the [[wiki/meetings/2026-09-18-transactional-mvp1-capability-clean
 
 **Neither Sept-14 commitment below was mentioned on Sept 18**, so both stay open — Chudinov's protocol work and Pavel's production-standard firmware update (pings, verification, timer) went unraised, as did the open question about whether [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] is assigned.
 
+## Update, Sept 22 2026 — the MVP 2 move restated, and doubted in practice
+
+At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexport-gui.md|Sept-22 Minsk stand-up]] (Russian), [[wiki/people/dmitri-chudinov.md|Chudinov]] warned time is very short "если сейчас захотят апдейты на флекспорты". [[wiki/people/pavel.md|Pavel]]: "Так вроде же уже принято решение, что дейтэфлекс портов идут на ревизию. Ой на версию MVP 2." Chudinov: "Я не знаю… каждый день мы получаем новый список." This confirms the Sept-17 move above as Pavel's understanding; Chudinov's reply is a complaint about changing lists, not a reversal [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — work the Flex IQ ↔ Flex-Port firmware-distribution protocol from his side, and improve it if he can — due unspecified — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
@@ -82,3 +86,4 @@ Two things at the [[wiki/meetings/2026-09-18-transactional-mvp1-capability-clean
 - [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]

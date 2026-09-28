@@ -3,9 +3,9 @@ type: organization
 title: Incom (payment processor)
 date: 2025-02-27
 aliases: [Incom, InComm, SkillPay launch email, hold off for two years, we will take the card away from you, Intum, they totally misled me, InComm's credit, that shift in opinion has only happened recently, black prize play card, white card ATM functionality, replace InComm on the back end, backend displacement, Incomm, Income, NCOM, Incom Payments, wrapped card rule, PAX, PAX 80, reloadable gift cards, Nathan Carver, cash-back commission, barcode activation, Mastercard rules, ABA number, MLH fee sharing, kicked to the curb, InComm doesn't offer any profit sharing, they've ignored us before during and after the show, sponsor bank behind InComm, 120 million a year, the easy living guys, daily cap five k, velocity calculated on the fly, it still says soon, InComm is the master guy, sub accounts, they actually buy bonds, biggest issuer, blue card, black card, billion-dollar gorilla, two dollars to load]
-source-count: 75
-open-commitments: 14
-open-questions: 7
+source-count: 78
+open-commitments: 16
+open-questions: 9
 ---
 
 # Incom (payment processor)
@@ -635,8 +635,37 @@ Val: "**the mistake is this conflict should have been left in the back room, not
 
 **§15.8:** clear — product, regulatory and market content only; no named-person compensation. **§15.9:** clear — no card, account or licence numbers.
 
+## Sept 17 2026 (3:17 PM) — Val's read after a customer meeting: the card kills split, lobbying, and a cashback he distrusts
+
+At and after the [[wiki/meetings/2026-09-17-dynamic-gaming-georgia-master-licensee-and-cashless-pitch.md|Dynamic Gaming meeting]] InComm came up three ways. The transcript renders InComm as "income", "Incom", "UCOM" and "Uncom"; the canonical name is used here. [[raw/Meeting_Transcript_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]
+
+- **InComm's terminal footprint, as Val gave it to the customer:** "**Incom has five thousand locations with PAX, five and a half thousand with PAX. So PAX needs PAX needs equipment.**" And: "**I know for sure that locations that have income have benefit now.**"
+- **The card makes split redemption pointless, in Val's view.** In the JVL-only debrief: "**with the introduction of the InComm card, that whole split disappears, Will it survive?… Will it survive a push of a six billion dollar company? They can buy every senator here.**" Then: "**It's Called lobbying… We lobby senators**", and "**As long as income is making money on their cash handling, they will lobby every single senator**". His market call: "**The market will arrive to cash… legally or illegally.**" (The split feature itself is on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 17, 3:17 PM).)
+- **A letter, named unclearly.** [[wiki/people/felipe-miranda.md|Felipe]]: "**Dave. Ingram has already sent a letter saying that they started distributing this. This letter will not stop distribution**". *The name is not resolved and matches no one in the corpus; it may be a garble. Not linked.*
+- **The free cashback.** Val: "**the cashback. There is no charge to it. There's no charge.**" Felipe: "**Zero. I swear. I don't know if there's a cap.**" Val: "**I need to test it with live locations because I feel that something fishy. Something that they're not disclosing.**" He told Felipe: "**You should try to go on Uncom's website and find out what it is. They probably have legal papers posted on that.**"
+
+## Sept 22 2026 — a competitor's account: location owners turn away the Skill Pay card
+
+Six days after the launch, [[wiki/people/billy-liu.md|Billy Liu]] gave Val his account on the [[wiki/meetings/2026-09-22-billy-liu-playpay-virtual-wallet-pay-tag-plan.md|Sept-22 call]]. **All of it is second-hand** — "**At least that's what I heard**" — and no InComm source answers it [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
+
+- **The notice that set it off.** "**Send out a notice to all of their stores that the Skill Pay card is coming. This is why all of a sudden the LLHs spoke to each other.**" The sender is lost in the transcript; the notes read it as InComm, which fits the retailer email described on Sept 17 above (inference) [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]] [[raw/Meeting_Notes_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
+- **The fear is disclosure to the Lottery.** Location owners fear that InComm "**will tell the lottery or disclose who, which [LLH] took on that card and then go after them. So the location owners don't want that card because they don't want to be targeted**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
+- **United pulled out, and others followed.** "**United now is pulling the plug and said, 'No! We're not going forward with that card.'**" and "**If United is afraid to take on that card, they all kind of shied away from it**" — see [[wiki/organizations/united-gaming.md]] [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
+- **Store owners at the C-store show:** "**they're fine the way it is. They don't need that card**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
+- **The black-card business carries on.** "**It's not like InComm is gonna go out of business. InComm has already their existing network of the black**"; "**If the blue card is not welcome, it doesn't mean that they're gonna lose their… black card business**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
+- **Fiery Pay** is "**a carbon copy. They issue a physical card through another program manager**", and Billy "**can't imagine that they can go forward with it**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
+- **John has left.** Billy says John went to Bulldog and was "**irate**" when InComm announced it would go forward with Skill Pay. The "John" is read as [[wiki/people/john-houseal.md|John Houseal]] by context (inference) [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
+- **The earlier InComm approach to Billy came from John.** John had suggested "**if I provide a virtual… card, and they provide a physical card, if we could join forces**"; Billy took it as "**a takeover tactic**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]. This fills in the Sept-15 "that son of a bitch wants to talk to me" line on Billy's page.
+
+**Val's read of the legal position** — the blue card is a path to cash, which the legislation makes illegal, so a location that takes it breaks the law "**with a loud bang**" — is on [[wiki/topics/georgia-prize-card-processor-economics.md]] (Sept 22) [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
+
+## Open questions (Sept 22 2026)
+
+- **Is the Skill Pay card really being refused across the market, or only by United?** Billy's account is second-hand ("at least that's what I heard") and no InComm or United source confirms it — [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]
+
 ## Open questions (Sept 17 2026)
 
+- **Does the InComm card's cashback have a cap or a hidden cost?** Val and Felipe both said there is no charge; neither knew of a cap, and Val suspects "something that they're not disclosing" — [[raw/Meeting_Transcript_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]
 - **Does SkillPay use the same InComm endpoint as the existing card?** Pavel Frolov asked on the Sept-17 engineering call — "**надо будет уточнить[,] такой же IP у них или нет для этого продукта**" — and it was not answered — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - **Does a SkillPay card carry the UPC on its magnetic stripe?** Unknown until a production card is swiped and the logs read; if it does not, Chudinov said there is a "дилемма[:] как узнавать, что за продукт?" — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 
@@ -644,6 +673,11 @@ Val: "**the mistake is this conflict should have been left in the back room, not
 
 - **Why does InComm get a bigger share of Visa interchange than a smaller issuer?** Val asked it directly of a competitor — "Why does [InComm] get more?" — and no answer survives on the record; the only explanation offered ("they have a slightly different formula") sits on the wrong speaker label — [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
 - **Is "2.5 percent" a real InComm offer to JVL?** Billy attributes it to Val's own account of the Sept-2 meeting; no page and no source carries it, the same line transcribes twice as two different numbers, and Val neither confirmed nor denied it — [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
+
+## Open commitments (Sept 17 2026, 3:17 PM)
+
+- [ ] [[wiki/people/val-levitan.md|Val Levitan]] — test the InComm card's cashback "with live locations" — due unspecified — [[raw/Meeting_Transcript_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]
+- [ ] [[wiki/people/felipe-miranda.md|Felipe Miranda]] — look up InComm's published legal terms on the cashback, as Val asked — due unspecified — [[raw/Meeting_Transcript_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]
 
 ## Open commitments (Sept 14 2026)
 
@@ -732,3 +766,6 @@ Val: "**the mistake is this conflict should have been left in the back room, not
 - [[raw/Meeting_Transcript_Rich_Winley_Miami_Lunch_Texas_Distribution_Pitch-January-8-2026.md]]
 - [[raw/Meeting_Transcript_Doug_Skrepnek_Loan_Lenience_and_Business_Update-January-9-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]]
+- [[raw/Meeting_Transcript_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]
+- [[raw/Meeting_Notes_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]

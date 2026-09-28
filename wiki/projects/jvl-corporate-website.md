@@ -3,7 +3,7 @@ type: project
 title: JVL corporate website (new site, three modules)
 date: 2024-11-06
 aliases: [JVL website, new website, corporate site, client portal, website redesign, JVL public client portal]
-source-count: 4
+source-count: 5
 open-questions: 2
 ---
 
@@ -56,9 +56,15 @@ From the May-16 Klimovich update ([[wiki/meetings/2025-05-16-klimovich-update-ec
 - Did the website ship on anything like the Nov-2024 release ladder (R1 target ~Mar 10 2025)? Jan–Mar 2025 sources confirm only that the vendor contract reached signature (~Feb 1) — no launch record in the wiki yet. [[raw/business_architecture_and_the_website_design_for_online_2025-03-29.md]]
 - Who is the website contractor? The call implies a candidate **from Poland** ("Если мы берем контрактора из Польши, будут польские праздники") but never names the firm. [[raw/business_architecture_and_the_website_design_for_online_2025-03-29.md]]
 
+
+## Sept 22 2026 — "clean, but it only has partial information"
+
+On a [[wiki/meetings/2026-09-22-howard-tikka-brand-realignment-and-collateral.md|brand call]], [[wiki/people/howard-tikka.md|Howard Tikka]] said he had been looking at the site: "the website's nice and clean now, which is good and easy to follow." Val: "The website is clean, but it only has partial information. I don't have anybody who knows me or the company well enough to say where the rest of the information is. I don't have time for it. I'm running engineering and sales and marketing." So a site is live by Sept 2026. Which of the planned modules shipped is not said. [[raw/Meeting_Transcript_Howard_Tikka_Brand_Realignment_and_Collateral-September-22-2026.md]]
+
 ## Sources
 
 - [[raw/business_architecture_and_the_website_design_for_online_2025-03-29.md]]
 - [[raw/jvl_website_20_epics_use_cases_and_accpt_criteria_2025-03-29.md]]
 - [[raw/andrei _klimovich_update-apr-15-2025.md]]
 - [[raw/andrei_klimovich_update-may-16-2025.md]]
+- [[raw/Meeting_Transcript_Howard_Tikka_Brand_Realignment_and_Collateral-September-22-2026.md]]

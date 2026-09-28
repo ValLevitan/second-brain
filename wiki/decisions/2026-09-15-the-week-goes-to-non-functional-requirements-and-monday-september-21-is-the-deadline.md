@@ -2,10 +2,10 @@
 type: decision
 title: Val repoints the rest of the week at the non-functional requirements, names the five people who own them, and sets Monday September 21 as the deadline for a grooming pass over the whole of MVP 1
 date: 2026-09-15
-aliases: [if it is not written it does not exist, non-functional requirements owners, nonfunctional requirements week, September 21 deadline, MVP1 grooming meeting, engineering ideology, architecture ideologist, это не написано этого нету, нон фанкшинал, Sonos analogy, half the requirements have open questions, Claude refuses past an open question, focus rule, Monday scope freeze, nothing more may fly into MVP1, больше ничего никуда долетать нельзя, acceptance criteria second pass, requirements inherit the capability fix version]
-source-count: 6
+aliases: [if it is not written it does not exist, non-functional requirements owners, nonfunctional requirements week, September 21 deadline, MVP1 grooming meeting, engineering ideology, architecture ideologist, это не написано этого нету, нон фанкшинал, Sonos analogy, half the requirements have open questions, Claude refuses past an open question, focus rule, Monday scope freeze, nothing more may fly into MVP1, больше ничего никуда долетать нельзя, acceptance criteria second pass, requirements inherit the capability fix version, no feature lock today, feature lock maybe tomorrow]
+source-count: 7
 status: active
-open-commitments: 5
+open-commitments: 7
 open-questions: 1
 ---
 
@@ -113,13 +113,26 @@ Klimovich confirmed the daily call continues **Monday to Friday** at the same ti
 
 **MVP 1 goes into Monday with its scope cleaned but not closed.** Every capability now has an owner and a status, and several have been cut or moved; but features do not yet exist under Chudinov's capabilities, nothing may be marked complete until the conflict findings are absorbed ([[wiki/decisions/2026-09-18-nothing-is-closed-until-the-conflict-findings-are-worked-back-in.md]]), two of the five non-functional-requirement owners are silent, the acceptance-criteria pass has not run, and the designs that unblock the largest capability are outstanding. **Nobody re-opened the date, and nobody claimed the work would be finished by it** — the strongest statement made was *постараюсь*.
 
+## Update, Sept 21 2026 — the gate day: the designs arrive, and the feature lock slips to "maybe tomorrow"
+
+The one recorded call on the gate day is the [[wiki/meetings/2026-09-21-transactional-mvp1-flexport-and-iq-ux-design.md|Sept-21 8:02 AM session]] (about 52 minutes, Russian). **It is not the grooming meeting Val promised to run.** Val has no speaker turn on it, and it was a walk of Klimovich's Flex-Port and Flex IQ screens, not a capability-by-capability pass over functional and non-functional requirements together [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]. Whether Val's grooming meeting happened at another time is not in the sources.
+
+**No feature lock.** Klimovich, at the end: "У нас какойто. Торжественного фича лока и не будет сейчас ещё да, потому что от меня ещё доедут [капабилити и] рекламус… может завтра тогда его сделаем". He checked that nobody is waiting on him — "у вас же сейчас всё равно есть всё, чтобы вы не сидите, не ждёте меня правильно" — and Pavel said yes [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]. **So the Sept-18 freeze ("в понедельник… точка") did not land on Monday.** Nobody objected.
+
+**Klimovich's own side, as of the call.** Cloud clean-up: "буквально минут через 10, после завершения нашего звонка я закончу чистку клауды". UI/UX into Jira after the call; asked by Irina "Что сегодня ты это сделаешь?", he said yes, "я чувствую что это блогер сейчас" [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]. Features under the new screens cannot be made until that is loaded.
+
+**Non-functional requirements.** Irina will hand Klimovich the Flex-Port list she and Pavel produced, for him to review with his Claude and comment. Chudinov said his main Flex IQ ones exist: "свои основные осоздал. Остальные может, будут только добавлять" [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]. Nothing was said about Bosik's or Biratka's share.
+
 ## Open commitments
 
 - [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] and [[wiki/people/pavel.md|Pavel Frolov]] — sit together and walk the non-functional requirement list, Flex-Port side first — due unspecified, and before the Monday gate in intent — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — make a second pass over the acceptance criteria on every MVP 1 requirement, to confirm none is half-written — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]], [[wiki/people/andrey-bosik.md|Andrey Bosik]], [[wiki/people/irina-shishko.md|Irina Shishko]], [[wiki/people/alexander-biratka.md|Alexander Biratka]] and [[wiki/people/pavel.md|Pavel Frolov]] — write the non-functional requirements for FlexPay, Flex-Port and Flex IQ (timers, handshaking, encryption, hung states, device pings, the incoming Wi-Fi, unit identification numbers) — due Monday Sept 21 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
-- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — finish and clean every MVP 1 capability and requirement during Wednesday–Friday, ready for the Monday grooming pass — due Sept 21 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
-- [ ] [[wiki/people/val-levitan.md|Val Levitan]] — run the Monday Sept 21 grooming meeting across the whole of MVP 1, capability by capability, functional and non-functional together — due Sept 21 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — finish and clean every MVP 1 capability and requirement during Wednesday–Friday, ready for the Monday grooming pass — due Sept 21 2026; **not finished on Sept 21** — capabilities and requirements still to be loaded, feature lock moved to "maybe tomorrow" — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]] [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
+- [ ] [[wiki/people/val-levitan.md|Val Levitan]] — run the Monday Sept 21 grooming meeting across the whole of MVP 1, capability by capability, functional and non-functional together — due Sept 21 2026; the one recorded Sept-21 call is not it (no Val speaker turn) — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]] [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
+
+- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — give Klimovich the Flex-Port non-functional requirement list she and Pavel produced — due unspecified — [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — review that list (with his Claude) and comment — due after Irina hands it over — [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
 
 ## Open questions
 
@@ -134,3 +147,4 @@ Klimovich confirmed the daily call continues **Monday to Friday** at the same ti
 - [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]

@@ -2,8 +2,8 @@
 type: decision
 title: Anything that depends on the cloud comes out of MVP 1 — Val orders the whole requirement list swept against what will actually work on October 1, and the rule is then applied requirement by requirement
 date: 2026-09-16
-aliases: [be honest with yourselves, уберите это, capability 116, capability 177, requirement 1379, requirement 1431, requirement 1444, requirement 1450, requirement 1483, requirement 1485, requirement 1486, single cloud channel, cloud wording removed, MVP2 cloud capability, local store only, open items capability, самим себе врать нельзя]
-source-count: 3
+aliases: [be honest with yourselves, уберите это, capability 116, capability 177, requirement 1379, requirement 1431, requirement 1444, requirement 1450, requirement 1483, requirement 1485, requirement 1486, single cloud channel, cloud wording removed, MVP2 cloud capability, local store only, open items capability, самим себе врать нельзя, capability 229, capability 158, requirement 1514, requirement 1515, requirement 1516, requirement 1543, payment hub is only the card]
+source-count: 4
 status: active
 open-commitments: 1
 open-questions: 1
@@ -77,9 +77,15 @@ The [[wiki/meetings/2026-09-17-transactional-mvp1-skillpay-multi-product-and-dev
 
 That is consistent with 177 and establishes nothing. **177 stays provisional and is not asserted.** A second uncertainty was added at the same time: Klimovich describes creating a *placeholder capability for orphan requirements* "yesterday" (Sept 16), having described creating the *cloud* capability "yesterday" (Sept 15) on the previous call — one capability or two is unstated. See [[wiki/decisions/2026-09-17-bosiks-network-list-splits-between-mvp1-and-mvp2.md]].
 
+## Update, Sept 21 2026 — capability 229, and the last cloud mentions come out
+
+The [[wiki/meetings/2026-09-21-transactional-mvp1-flexport-and-iq-ux-design.md|Sept-21 8:02 AM call]] opened on this rule. [[wiki/people/irina-shishko.md|Irina Shishko]]: "Я получается создала capaбилити 229 туда сейчас… вынесла то, Что касается клауда, чтоб оно не мешало текущей разработке, то есть это нужно будет потом" — she created **capability 229** to hold the cloud material, out of the way of current work, "На MP 2" [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]. **This is the first spoken number for a cloud capability that is not a guess.** It does not say whether 229 replaces the provisional 177 or sits beside it.
+
+[[wiki/people/andrei-klimovich.md|Klimovich]] was running the rest of the list through Claude during the call and had found more: requirements **1514, 1515, 1516 and 1543** under **capability 158**, which mention the payment hub working with wallets. Irina expected nothing cloud to be left in 158: "Не должно было быть уже в 158, ничего." His rewrite: because the payment hub is a cloud service, "работа с валитами у нас локальная на машине" — the whole wallet life cycle stays local [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]. [[wiki/people/dmitri-chudinov.md|Chudinov]] asked everyone to mark it the same way in future reviews: the payment hub only handles the card; "на терминале… все балансы и создания по вольтам идут локально. Карточка это пхаб" [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]. Klimovich put the finish at about ten minutes after the call.
+
 ## Open questions
 
-- **Which capability is actually the MVP 2 cloud capability.** The team hung requirement 1379 on 177 because it was the highest-numbered, while recognising 177 as the balance-related one; the number is not established — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- **Which capability is actually the MVP 2 cloud capability.** The team hung requirement 1379 on 177 because it was the highest-numbered, while recognising 177 as the balance-related one; the number is not established — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]] *(Sept 21: Irina names capability **229** as the one she created for the cloud material; how it relates to 177 is not stated, so the question stays open.)* [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
 
 **§15.8:** clear — release scope and Jira hygiene only; no named person's pay, rate or performance judgement appears in either source, and nothing was excluded on that ground. **§15.9:** no licence, registration, tax or account number appears in this material.
 
@@ -87,3 +93,4 @@ That is consistent with 177 and establishes nothing. **177 stays provisional and
 - [[raw/Meeting_Notes_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]

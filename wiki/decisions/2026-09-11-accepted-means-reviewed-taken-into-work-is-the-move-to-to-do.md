@@ -3,9 +3,9 @@ type: decision
 title: "Accepted" on a capability means reviewed and accepted, not taken into work — taken into work is the move to To Do when the release scope is set, and the transition will be automated from feature status
 date: 2026-09-11
 aliases: [the green status in the middle misleads, accepted is not taken into work, move to To Do when we say we are doing MVP 1, automate capability status from feature status, a feature going In Progress moves its capability, move all MVP 1 capabilities into To Do]
-source-count: 2
+source-count: 3
 status: active
-open-commitments: 2
+open-commitments: 3
 open-questions: 1
 ---
 
@@ -38,10 +38,18 @@ Pavel's manual answer was "когда хотя бы одна [ф]ича гото
 
 **He could not do it on the fly.** "Это займет некоторое время[,] надо… протестировать… [п]рям на лету не смогу." Val left it for Monday, together with moving all the MVP 1 capabilities into To Do: "давайте это оставим тогда на понедельник… дима, вы можете взять все M[V]P один… и перевести их в туду?" [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 
+## Update, Sept 22 2026 — the other end of the workflow: a status after In Progress
+
+The Sept-11 fix settled the front of the capability workflow. At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexport-gui.md|Sept-22 Minsk stand-up]] the argument moved to the back: capability 122 sat In Progress with all its features closed, waiting on tests. [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] proposed a status "типа реквистест" (later, two statuses); [[wiki/people/irina-shishko.md|Irina]] wanted anything but In Progress; Pavel first objected to "слишком много статусов", then said a status "Скорее всего нужен", name open ("интегрейшн или ещё чтонибудь"). Nothing was set. Full debate on [[wiki/topics/test-automation-strategy.md]] (Sept 22) [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+
+**A workflow snag.** Pavel could not move a story "Из реквест ревью… в комплитет", because of "особые настройки проекта h fm". Kovalchuk offered to look, now or later [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — automate the capability status transition from feature status (a feature going In Progress moves its capability To Do → In Progress, and back), after testing it — due after Monday Sept 14 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — move all MVP 1 capabilities into To Do — due Monday Sept 14 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+
+- [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — check why a story cannot move from Request Review to Complete in the "h fm" project settings — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
 
 ## Open questions
 
@@ -54,3 +62,4 @@ Pavel's manual answer was "когда хотя бы одна [ф]ича гото
 ## Sources
 - [[raw/Meeting_Notes_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]

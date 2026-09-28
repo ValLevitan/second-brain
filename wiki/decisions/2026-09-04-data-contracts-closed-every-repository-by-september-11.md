@@ -3,10 +3,10 @@ type: decision
 title: Data contracts are not up for debate — every repository carries its own contract beside its code by September 11, and the maths server is opened up and gets one too
 date: 2026-09-04
 aliases: [data contracts closed, contracts by September 11, every repository carries its data contract, maths server opened up, zero trust input contract, eighty percent is fine]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 3
-open-questions: 3
+open-questions: 4
 ---
 
 # Data contracts are not up for debate — one per repository, by September 11
@@ -35,6 +35,12 @@ Ruled by Val at the [[wiki/meetings/2026-09-04-rage-nova-conversion-readiness.md
 - **How two sides agree a contract: each describes its own half, with zero trust in between.** Evgeny to Igor: Igor mostly receives rather than emits, so his is an input contract — "у тебя есть определённый функционал… нужны… получать какие то данные в каком то виде это и есть контракт твой входной контракт… у тебя а отпытов нету у тебя только импорт." When new functionality changes a contract, "мы с тобой договариваемся об этой снова об этих контрактах, и ты со своей стороны его описываешь. Я со своей стороны описываю, я описываю, что я отдаю и описываю, что ты принимаешь." And the principle: "У нас поддерживается зиро Траст так называемый, который подразумевает то, что тебе пофиг. Кто тебе эти данные даст элджис или какойнибудь другой сервис" [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]].
 - **Contracts are living documents, with "frozen" meaning only "not currently changing."** Val: "дата контракт это живой организм"; Evgeny: on a finished interface such as SAS, "на сас не меняется уже там сколько? Ну много лет, соответственно он будет как бы… в заморозке жить"; Val: "заморозки это относительные заморозки, то есть мы говорим, если меняется, значит меняется не меняется, значит, не меняется" [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]].
 
+## Update, Sept 22 2026 — the Flex-Port contracts, and "nobody knows how"
+
+At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexport-gui.md|Sept-22 Minsk stand-up]] (Russian), [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] reported on the contracts "для порта" (Flex-Port). "Что-то он сделал для описания контрактов выбрал синкапе" — who chose, and what "синкапе" is, are unclear. It "вроде бы покрывает всё", but he lacks the expertise to check it himself. He has finished the tests and will send a pull request to [[wiki/people/pavel.md|Pavel]] for review [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+
+His wider point: "есть задача сделать даты контракта, а как их делать никто не знает". Two people did the task in parallel and got two different results; one of them had no access to the standards (see [[wiki/decisions/2026-09-04-point-claude-at-the-standards-repository-first.md]], Sept-22 update) [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+
 ## Open commitments
 
 - [ ] All repository owners — place a data contract beside the code in every repository they are responsible for — due **September 11 2026** (80% acceptable) — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
@@ -46,7 +52,9 @@ Ruled by Val at the [[wiki/meetings/2026-09-04-rage-nova-conversion-readiness.md
 - Versioning of the machine's contracts with **CMS and the account host** — Dzmitry Chudzinau argued they must bake the same way as the rest of the product; Evgeny called it "сложнее, но… решаемо" and it was left unresolved — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - Who releases the transaction / integration repository on every release once the wave of releases begins, given Flex-IQ alone has **twelve repositories** each with its own contracts — raised by Dzmitry Chudzinau, not settled — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - Who actually consumes the data contracts — a human or Claude — and why the repositories alone are not sufficient. Raised by Igor Metelski and backed by Dzmitry Chudzinau; **closed by Val's ruling rather than answered** — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- How a data contract is to be written in practice. Vladimir: "как их делать никто не знает"; two parallel efforts gave two results (Sept 22 2026) — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
 
 ## Sources
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]

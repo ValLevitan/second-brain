@@ -3,10 +3,10 @@ type: decision
 title: Signal quality in MVP 1 means remote visibility — periodic metrics into the logs, buffered offline, surfaced through Grafana
 date: 2026-09-17
 aliases: [signal quality, decibels, signal to noise, SNR, jammer, глушилка, антенки, remote diagnostics, periodic metrics, log buffering, Grafana alerts, modem telemetry, удалённо мы должны видеть децибелы]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 2
-open-questions: 1
+open-questions: 2
 ---
 
 # For MVP 1, signal quality has to be visible remotely — not on the device screen
@@ -48,6 +48,15 @@ Asked whether anything in Jira covers it, Pavel searched live and found nothing:
 
 And he put the signal requirement on the man who raised it: "**ты как о[у]нер… этого запроса должен убедиться, что есть нужный рек[вайрмент] для этого[;] если его нету, то добавить**". Bosik: "**Хорошо**" [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]].
 
+## Update, Sept 22 2026 — Tsymanov takes the modem metrics, and the Grafana route is questioned
+
+At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexport-gui.md|Sept-22 Minsk stand-up]] (Russian), [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] said he has taken tasks on forwarding and collecting metrics on the modem connection ("по пересылке сбору метрик по подключению… Модема"). He asked why this should go through the logs, and said he would first check whether Flex IQ already transports metrics to Grafana, and build that if not [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+
+- **What goes to Grafana today.** Pavel asked what Flex IQ sends; Tsymanov: "Мы шлем только логи." Pavel: information about connected ports is probably not sent at all yet [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+- **Not necessarily Grafana.** Tsymanov: "нам, наверное, не обязательно реализовывать на стороне через графану". He floated keeping a map of connected devices in a cache instead [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+- **The date.** [[wiki/people/dmitri-chudinov.md|Chudinov]]: "мы не успеем все до 1 числа. Андрей там уже это предлагал" — what Andrei proposed is not said [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+- **Signal-to-noise on Wi-Fi.** Tsymanov asked whether he may change the platform SDK repository, because, per Claude, the Wi-Fi link has no SNR parameter. Pavel: "Потом, да можешь добавлять", but Wi-Fi is basic only and "это точно не VP один" [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — as owner of the request, make sure a requirement exists for remote visibility of signal quality (decibels and signal-to-noise), and add it if it does not — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
@@ -55,6 +64,7 @@ And he put the signal requirement on the man who raised it: "**ты как о[у
 
 ## Open questions
 
+- **Whether modem metrics go through Grafana at all, and whether any of it is ready by the 1st.** Tsymanov questioned the Grafana route; Chudinov said there is no time before the 1st — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
 - **Whether the numbers ever reach a person in MVP 1.** Klimovich wanted the signal figures on the operations portal for a role-holder; Chudinov said the collected data cannot be shown to anyone as it stands, and the Grafana dashboard/alerting half was explicitly labelled "task 2". No date or owner was set for it — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 
 **§15.8:** clear — device telemetry and tooling only; no compensation or performance judgement for any named person. **§15.9:** no credential, key, certificate, APN or address value was spoken — the discussion stays at signal level, noise ratio and log transport.
@@ -63,3 +73,4 @@ And he put the signal requirement on the man who raised it: "**ты как о[у
 
 - [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]

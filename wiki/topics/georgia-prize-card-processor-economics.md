@@ -3,9 +3,9 @@ type: topic
 title: Georgia prize-card processor economics — the fee sheet, the float, and who actually captures the money
 date: 2026-08-31
 aliases: [prize card economics, cannot be exchanged for currency at the location, where the prize is won, welcome to our world, three fifty-eight nine, HB 353, white card ATM functionality, black prize play card, should I be working on ATMs, Avshad Patel, Ready Credit Corporation, the card puzzle, why pay cash without issuing a card, average load per card, two hundred eighty dollars per card, InComm takes the risk, program manager not provider, Fiserv, breakage zero point three, card to machine fee, MoneyPass, fifty basis points, PAX A80 two hundred dollars, gift card float, dormancy fee, card fee structure, 9.6 percent per year, I'm in the wrong business, free PAX, breakage, five billion in payouts, multi-provider manipulation, reloadable cards, Mastercard rules, gift card policy intent, half a percent, front fees to the store, two dollars per push, PlayPay fees, eight percent on the back end, FBO account, holding that money, B with the B, seventy four hundred locations forty seven thousand machines, InComm doesn't offer any profit sharing, a card solution is not useful if it doesn't lead to cash, thirteenth month after activation, pre-fund, ten thousand dollar pre-fund, twenty four thousand dollars over the weekend, half a percent is my percentage, that's my agreement with Visa, secret document that Visa does not divulge, I can turn my AFT off, GDL is the only company that gives it away, mute them for now, anti money laundering, house bill three fifty three, I faked that, pass to cash, self checkout counter, escheat, easement, sub accounts, they actually buy bonds]
-source-count: 29
+source-count: 32
 open-commitments: 0
-open-questions: 13
+open-questions: 15
 ---
 
 # Georgia prize-card processor economics
@@ -592,8 +592,55 @@ On [[wiki/meetings/2026-09-16-jvl-transactional-ecosystem-and-class-a-market-str
 
 **Val also drew the boundary of the business while describing it.** He does not want gaming machines inside the transactional ecosystem at all: "**I don't want to include gaming machines into any sort of ecosystem except the machines, because… to make machines is very difficult and I don't want to bring it into the pot of soup with something else**"; "**As a separate business, I enjoy being in that business, and I don't want to dilute it with some mechanical transactional business. Transactional business is not creative; it's mechanical. It was easy for me to enter because of my cash card experience.**" **The naming question was left open** — the colleague proposed **"JTE — the JVL transactional ecosystem"**, Val liked the concept and rejected the abbreviation ("**I just don't like the name. Can you come up with a different abbreviation? I like the JVL ecosystem**") and tried several aloud without choosing one [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]].
 
+## Sept 17 2026 — two competitors' device prices, from a master who has run both
+
+At the [[wiki/meetings/2026-09-17-dynamic-gaming-georgia-master-licensee-and-cashless-pitch.md|Dynamic Gaming meeting]] the visiting master of [[wiki/organizations/dynamic-gaming.md|Dynamic Gaming]] gave prices for the two systems he has used. **Speaker labels in this passage are loose and some figures sit in merged turns; they are recorded as spoken.** [[raw/Meeting_Transcript_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]
+
+### Novomatic's system
+
+- "**Hers is the most affordable. She's not charging for a harness or member or anything. Just the printers**", and "**behind the counter device, that's thirty five, thirty six hundred dollars**"; "**the kiosk is seventy five**", which Val restated as "**Seventy five hundred**".
+- It was tried first at one of his locations — "**the first ever location in Georgia that they tried**" — and "**it failed miserably**".
+
+### Fiery Pay's system
+
+- **Device and connections.** "**This device is six hundred dollars per machine. The device itself is six hundred**"; asked the cost of each connection, "**Two fifty. Two fifty per machine**". It "**can be connected to all six machines**", while "**The income tax device cannot be connected to all six machines**" (the transcript's rendering of the InComm device).
+- **Monthly.** Val asked the connection fee paid to the Fiery Pay principal (rendered "Afsha"): "**Fifty dollars per month**", then "**For location. For month.**" For InComm: "**There is no fee in income**".
+- **Per card.** "**Device will redeem gift card at 35 cents, no matter how much the dollar amount**", and "**It's going to be charged to the store.**"
+- **The InComm device price, as Val put it:** "**Income sends them tax. It's three hundred dollars… They don't charge.**" *(A merged, garbled turn; the $300 is recorded but not interpreted.)*
+- **Why a store cares about the fee, per the master:** "**that two and a half percent that the location owner is spending, is a hundred thousand dollar transaction. That's twenty five hundred dollars a month.**" Val had argued the per-card fee does not matter because the player pays it.
+- **The principal's name.** The transcript renders him "Afshar", "Afsha", "Offshot", "off shop". The corpus carries the Fiery Pay principal as **Afshad** / "Avshad Patel" (Sept 8 and Sept 9 above, from the Aug-12 competitive analysis). *Inference, flagged:* same person; not asserted.
+- **A cash card of his own, waiting on the Lottery.** Asked how Fiery Pay competes with InComm's new card: "**He said he has his own cash card too**"; "**He's waiting on that GLC thing because GLC didn't approve it. The September 16 letter says we did not approve it.**" *(Which product the Sept-16 letter refers to is not clear in this passage. "Hugo went ahead and did whatever he wanted" follows; who "Hugo" is, is unclear — not linked.)*
+
+**§15.8:** clear — vendor and device pricing only.
+
+## Sept 22 2026 — the legal line on a path to cash, and why a ban on cash-back keeps the float
+
+On the [[wiki/meetings/2026-09-22-billy-liu-playpay-virtual-wallet-pay-tag-plan.md|Sept-22 Val–Billy call]], six days after the Skill Pay launch, Val set out how he now reads the market [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
+
+### The legal line, in Val's words
+
+- **The ATM-access card is the path to cash, and that is what the law bars.** "**And what do the blue cards offer? Path to cash.** [The black cards.] **ATM access or cashback access. So that's a direct path to cash, which lottery says the legislation states that it's… Illegal, which they're right.**" *(A stray fragment, "The black cards.", sits inside the line; the derived notes pin the path to cash on the black card. The transcript opens on the blue card, and the wiki's record has blue = Skill Pay with ATM access — see [[wiki/organizations/incom.md]]. Followed here.)* [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]] [[raw/Meeting_Notes_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]
+- **So it becomes the location's choice.** "**So now it's location's choice if they want to break the law or not.**" Billy: "**The location is already breaking the law no matter what, right? But they just don't wanna… complicate.**" Val: "**Location is breaking the law, but silently. If they embrace the blue card, they break the law with a loud bang**… **They will openly break the law when they facilitate the transaction on the machine.**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]
+- **Is the prepaid-card mandate firm?** Val asked: "**lottery is mandating that the funds be transferred to a prepaid card. Is that a mandate now?**" Billy: "**That's definitely been in play.**" — not a yes [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
+
+### Why no cash-back means JVL could hold the money
+
+Val tied this back to the float argument this page already records (Sept 15–16):
+
+> "**Because there is no cashback, cashback was killing us. Remember?**… **if were giving cashback, weren't holding the money. The assumption was that people will immediately convert into cash**… **So we cannot make money on it. But if we're holding, imagine if we're holding hundred million dollars. We can make a lot of money on it.**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]
+
+The reply (Billy, by content): "**It's actually not a total disaster. There's a blessing in disguise with what we're about to face.**" Val: "**We also have their phone number**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]. *(The "hundred million dollars" is Val's "imagine if", not a projection.)*
+
+### The phone number as an asset — no plan yet
+
+Val: "**I think people will give us the phone number for five dollars… and I think we can turn around and make much more money knowing the phone number of the… Player**", then "**I haven't figured out how yet**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]. The $5 promo mechanism is on [[wiki/organizations/play-payments.md]] (Sept 22).
+
+**§15.8:** clear — market and product economics only.
+
 ## Open questions
 
+- **Is the Lottery's prepaid-card mandate firm?** Asked directly on Sept 22; Billy said only that it "has definitely been in play" — [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]
+- **How would JVL earn from holding a player's phone number?** Val: "I haven't figured out how yet" (Sept 22) — [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]
 - **What is the transactional business to be called?** "JTE" was proposed and rejected on Sept 16 2026; nothing was chosen — [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
 - **What does Visa actually pay PlayPay, and why is InComm's share bigger?** Billy stated 1% interchange of which he keeps half, refused to go further — "that is a secret document that Visa does not divulge" — and Val's question "Why does [InComm] get more?" was never answered on the record (Sept 15) — [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
 - **Would the Lottery accept a whole-store self-checkout as the cash point instead of a prize-card dispenser?** Val floated it under NDA on Sept 15 and did not know the answer himself — "maybe yes, maybe not" — [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
@@ -641,3 +688,6 @@ On [[wiki/meetings/2026-09-16-jvl-transactional-ecosystem-and-class-a-market-str
 - [[raw/Meeting_Notes_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
 - [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
 - [[raw/Meeting_Notes_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]
+- [[raw/Meeting_Notes_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]

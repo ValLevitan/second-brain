@@ -4,8 +4,8 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 163
-open-commitments: 69
+source-count: 166
+open-commitments: 73
 open-questions: 0
 ---
 
@@ -733,8 +733,50 @@ The [[wiki/meetings/2026-09-18-transactional-mvp1-capability-cleanup-and-the-mon
 - [ ] Pavel Frolov — plan his own features (165, FlexPort 9 and 10, 173; 160 was also named as his) and check which branch the in-progress feature with no commit against it merged into, before deciding whether to close it as a duplicate — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - [ ] Pavel Frolov and [[wiki/people/irina-shishko.md|Irina Shishko]] — walk the non-functional requirement list together, Flex-Port side first — due unspecified, intended before the Monday gate — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 
+## Sept 20 2026 (7:04 AM, Sunday) — he backs the liquid-glass shader, and is overruled on where the standard lives
+
+At the [[wiki/meetings/2026-09-20-vertical-geometry-standard-and-adr-consolidation.md|Sunday Sept-20 7:04 AM ET session]] (Russian):
+
+- **He called Igor's framework-drawn liquid glass the right approach**: "**это правильный подход, потому что очень легко поменять игру с трёх прогрессив левел на 2**". He recalled Lena's earlier doubt about the reprogramming and the performance. [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+- **He challenged the transition chart** — he wants the base-screen and bonus-screen curves drawn under the alpha curve — and Igor agreed it must be redrawn. [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+- **He supplied the Russian word "безрамочный"** for Igor's "frameless" integration. [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+- **He proposed a home for the work, and lost.** His view: this is an experiment; only when a game is actually made for Texas or Nebraska does it get a new GitHub repository with its documents. Val insisted the standard, glossary and ADRs go into GitHub now, outside any framework — [[wiki/decisions/2026-09-20-the-vertical-geometry-standard-glossary-and-adrs-go-to-github-outside-any-framework.md]]. [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+- **He offered a way round the designers:** "**попросите Андрея, достанька нам видео сырой**" — which Andrey is not said. [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+- **He was given the NOVA side.** Val asked that the new standard be carried into NOVA's framework as part of the unified "**Скелетон**" (Pavel's word). [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+
+## Open commitments (Sept 20 2026)
+
+- [ ] Pavel Frolov — carry the vertical geometry standard into the NOVA framework as part of the unified skeleton, with a standard call for every game — due unspecified — [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+
+## Sept 21 2026 (8:02 AM) — he wins the status icons, supplies the port's unclaimed rule, and raises the asset number
+
+On the [[wiki/meetings/2026-09-21-transactional-mvp1-flexport-and-iq-ux-design.md|Sept-21 8:02 AM call]] (Russian):
+
+- **Status icons on error screens.** "У нас где то будет 70% экрана это какието ошибочные экраны", where the icons help; Klimovich agreed to show them there [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]].
+- **The port rule for a failed print** is his wording: "мы это всё скидываем в анклейт, а из анклейт уже может напечатать кассир" — see [[wiki/decisions/2026-09-21-at-the-counter-no-printer-no-wallet-at-the-port-the-wallet-goes-to-unclaimed.md]].
+- **The asset number** — he suggested the lottery operator may assign it centrally, and said himself he was not sure ("я могу пофантазировать. Я не уверен в этом"); he proposed passing it with the serial number, and a technician QR menu that he put firmly in MVP 2 ("100% это MVP 2") [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]].
+- **The card-front digits.** He warned that a cashier will read the wrong four digits off the card [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]].
+- **The port screens go to his side** [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]].
+
+## Sept 22 2026 (4:48 AM) — he runs the stand-up, resists extra statuses, and splits the Flex-Port redraw in two
+
+He ran the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexport-gui.md|Sept-22 stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+
+- **Capability status.** He resisted new statuses ("слишком много статусов"), then allowed that one is probably needed after In Progress, name open. He pushed testing alongside development rather than after it. See [[wiki/topics/test-automation-strategy.md]] (Sept 22).
+- **Feature-level testing.** He conceded Chudinov's point that a requirement cannot be fully tested feature by feature: "Да да ты прав в этом случае" [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+- **The Flex-Port screens.** Klimovich's HTML page matches the workflow "Процентов на 95"; he proposed a two-stage redraw and gave the job to Vladimir Samusenko, with TouchGFX Designer. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 22).
+- **MVP boundaries.** He restated that Flex-Port updates go to MVP 2, and that Wi-Fi "точно не VP один" [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+- **The CMS release.** When Ivan asked for the overdue CMS server release, he gave it to Sergey Tsymanov [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+
+## Open commitments (Sept 22 2026)
+
+- [ ] Pavel Frolov — ask Klimovich at that day's meeting how to test a flow split across capabilities, and whether a capability for the overall flow exists — due Sept 22 2026 ("спросим сегодня у Андрея на митинге") — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
+- [ ] Pavel Frolov — send Vladimir Samusenko the TouchGFX Designer installer (not available on the ST site) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
+- [ ] Pavel Frolov — create the GUI conversion task for Vladimir Samusenko, possibly after the Klimovich meeting — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
 - [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
 - [[raw/Meeting_Notes_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Game_Conversion_Vertical_Scene_Progress-September-17-2026.md]]
@@ -901,3 +943,5 @@ The [[wiki/meetings/2026-09-18-transactional-mvp1-capability-cleanup-and-the-mon
 - [[raw/Meeting_Transcript_Pyramid_Technologies_Printer_Integration_Intro-January-8-2026.md]]
 - [[raw/Meeting_Transcript_GLI_Omni_Platform_Certification_Kickoff-January-28-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]

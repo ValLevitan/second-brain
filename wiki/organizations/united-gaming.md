@@ -3,7 +3,7 @@ type: organization
 title: United Gaming (Georgia's largest master operator)
 date: 2026-09-02
 aliases: [United, United Gaming, Bunty's company, the largest Georgia master]
-source-count: 6
+source-count: 8
 open-commitments: 1
 open-questions: 1
 ---
@@ -57,6 +57,14 @@ Val opened the lunch with "what is this exodus from United?" The InComm side des
 - **United has been on InComm's cards from the start.** Asked "is United on In[Comm] cards now?" — "**From the beginning.**" And on hardware: "Primarily… I think all of the operators are adding solutions and testing. So **United has a number of different kiosks and systems**" [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]].
 - **What United would never do, from the inside.** "In my experience at United, you always have a handful of games that I would say were at like **tier two**, not the top tier earners… And what I could never get us doing over there was **moving games like you would on a casino floor**, where you tinker with it all the time and try to optimize. I think a lot of these operators just want to **set it and forget it**." The illustration: two JVL machines together were "the top performing games in the whole area," the same pairing failed at another location, "and we would say… one yes, one no. It's not enough to make a decision." The wider argument this belongs to is on [[wiki/topics/georgia-prize-card-processor-economics.md]] and [[wiki/topics/machine-data-repurchase-program.md]] [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]].
 
+## Sept 22 2026 — reported to have turned down InComm's Skill Pay card
+
+On the [[wiki/meetings/2026-09-22-billy-liu-playpay-virtual-wallet-pay-tag-plan.md|Sept-22 Val–Billy call]], [[wiki/people/billy-liu.md|Billy Liu]] said: "**United now is pulling the plug and said, 'No! We're not going forward with that card.'**" and "**United… Backed off on all of our locations from that card**." In his account the rest of the market followed: "**United is their biggest competitor anywhere in the state. If United is afraid to take on that card, they all kind of shied away from it.**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]
+
+- **Second-hand**, from a competitor: "**At least that's what I heard.**" No United source confirms it [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
+- **Read as United Gaming** because Billy calls it the biggest competitor "in the state", in talk of the Lottery and location licence holders that fits Georgia — an inference; the call names neither the state nor the full company name [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]. The derived notes say the same: "the biggest operator in the state" [[raw/Meeting_Notes_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
+- Wider context on [[wiki/organizations/incom.md]] (Sept 22).
+
 ## History
 
 - **Jan 27 2026 — the earliest mention.** Former Georgia route operator [[wiki/people/rich-winley.md|Rich Winley]] used United as the example of a big buyer: "if they go to a United, yeah, he's going to put everything, but if they go to a Mike Patel, Mike only has 20 locations". [[wiki/meetings/2026-01-27-rich-winley-georgia-coam-market-intel.md]] [[raw/Meeting_Transcript_Rich_Winley_Georgia_COAM_Market_Intel-January-27-2026.md]]
@@ -86,3 +94,5 @@ Val opened the lunch with "what is this exodus from United?" The InComm side des
 - [[raw/Meeting_Transcript_Rich_Winley_Georgia_COAM_Market_Intel-January-27-2026.md]]
 - [[raw/Meeting_Transcript_Rich_Winley_Texas_Rollout_Delay_and_Georgia_Buyers-March-9-2026.md]]
 - [[raw/Meeting_Transcript_BofA_Treasury_MS_Dynamics_Integration-August-27-2026.md]]
+- [[raw/Meeting_Notes_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]

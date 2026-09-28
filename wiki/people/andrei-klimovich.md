@@ -4,8 +4,8 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich, Andre]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 87
-open-commitments: 79
+source-count: 91
+open-commitments: 85
 open-questions: 0
 ---
 
@@ -547,6 +547,18 @@ The fourth MVP 1 morning call ([[wiki/meetings/2026-09-17-transactional-mvp1-ski
 - [ ] Collect the hardware-related on-screen texts for the Flex IQ text collection — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 
 
+## Sept 17 2026 (3:17 PM) — in a customer meeting: the demo, the dates, and an admission in the debrief
+
+At the [[wiki/meetings/2026-09-17-dynamic-gaming-georgia-master-licensee-and-cashless-pitch.md|Dynamic Gaming meeting]], the same day as the morning MVP 1 call above [[raw/Meeting_Transcript_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]:
+
+- **He demonstrated the prototype ticket flow** and framed the system as building blocks: "**Like a Lego, we can build up.**" He told the customer JVL "**can set up a cap per location**".
+- **He gave the release dates:** "**MVP1 to be available by the first of October. It's dual SAS and the next MVP2, which is end of October, is dual SAS plus single SAS on the same device**", calling the roadmap "**not concrete**".
+- **He proposed the seven-year ceiling** after the customer's unclaimed-funds point: "**our U wallets should have a ceiling up to seven years**" — against the 30-day TTL he introduced on Sept 14 ([[wiki/decisions/2026-09-14-ewallet-ttl-defaults-to-thirty-days-and-is-set-per-location.md]]).
+- **He pitched testing side by side:** "**run them all in parallel. You collect data. You analyze data**", and "**you have a beautiful capacity of 130 locations where you can add one more solution**".
+- **In the debrief he said he had overstated the plan:** "**I was actually lying to him a little bit about our priorities… because the split redemption is not possible with the one, but we can rearrange the order**", and that at the show "**every second one was asking**" for split redemption into lottery tickets.
+- **His read of the customer:** "**I'm not impressed by the machine… But the redemption solution sounds as if maybe he is interested**". He proposed rewording the bundle as a limited-time post-show package.
+- **What he owes:** taking the customer's operational-reporting needs at the next meeting — held on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Open commitments).
+
 ## Sept 18 2026 (8:03 AM) — he runs the last cleanup before the gate, sets the scope freeze, and gives ground on multi-product
 
 The [[wiki/meetings/2026-09-18-transactional-mvp1-capability-cleanup-and-the-monday-deadline.md|fifth and final MVP 1 morning call]] before the Monday Sept 21 gate (Russian). He opened it on [[wiki/people/andrey-bosik.md|Bosik]]'s daily automated report — "**около 80 в состоянии, которое они считаются завершёнными… Классифицируют их как бло[к]еры. Это не очень хорошо, так не должно быть**" — and asked the team directly what was stopping them building. [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
@@ -569,7 +581,7 @@ The [[wiki/meetings/2026-09-18-transactional-mvp1-capability-cleanup-and-the-mon
 
 ## Open commitments (Sept 18 2026)
 
-- [ ] Andrei Klimovich — finish the reworked window designs, starting with capability 178; Chudinov's single biggest blocker — due **Monday Sept 21 2026** — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+- [x] Andrei Klimovich — finish the reworked window designs, starting with capability 178; Chudinov's single biggest blocker — due **Monday Sept 21 2026** — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]] — **discharged in substance Sept 21 2026:** screens walked, functional side fixed; 178 itself is out of MVP 1 by owner ruling — [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
 - [ ] Andrei Klimovich — give the receipt format: which fields print and in what order. Chased by Pavel Frolov after he had left the call — "**до сих пор не сказал**" — and it blocks the printing features — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - [ ] Andrei Klimovich — take Chudinov's conflict document as the base and work the remaining discrepancies back into the capabilities while adding the new ones — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - [ ] Andrei Klimovich — confirm whether capability 175's cloud-referencing logic is described elsewhere, then decide whether 175 moves to MVP 2 — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
@@ -588,6 +600,48 @@ On the [[wiki/meetings/2026-05-18-ga-trip-recap-kiosk-intel.md|May-18 GA trip re
 ## Open commitments (May 18 2026)
 
 - [ ] Andrei Klimovich — share the photos of the competitor kiosk models for a later hardware discussion ("I can share the pictures later") — due unspecified — [[raw/Meeting_Transcript_GA_Trip_Recap_Kiosk_Intel-May-18-2026.md]]
+
+## Sept 21 2026 (8:02 AM) — he walks his finished screens, loses the no-paper argument, and moves the freeze
+
+On the [[wiki/meetings/2026-09-21-transactional-mvp1-flexport-and-iq-ux-design.md|Sept-21 8:02 AM call]] — the Monday gate day — he walked the Flex-Port and Flex IQ design he had built: "функционально уже всё зафиксировано", with text sizes and alignment left [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]].
+
+- **He lost the no-paper argument and said so.** His plan was to create the wallet and reprint later; Irina and Chudinov objected, and he closed it: "Хорошо… давайте так и сделаем" — the counter checks the printer first, the port sends the wallet to unclaimed. See [[wiki/decisions/2026-09-21-at-the-counter-no-printer-no-wallet-at-the-port-the-wallet-goes-to-unclaimed.md]].
+- **He conceded one over-design:** banners over every screen for printer tilts — "Да ладно, соглашусь перемудрил" [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]].
+- **He kept the machine identifier off the Flex-Port screen**, worried that "конкуренты, пришедшие на локацию" could use it, and took the question of which identifier operators use [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]].
+- **He moved the feature lock:** "Торжественного фича лока и не будет сейчас ещё… может завтра тогда его сделаем" [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]].
+- **On multi-product he still said "надо сегодня это решить"** — the day after the owner ruling that two-product support is not in MVP 1; see [[wiki/decisions/2026-09-17-jvl-supports-multiple-incomm-products-not-a-fixed-pair.md]] [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]].
+- **Support line.** He expects a separate support number answered by him or Felipe, and accepted Bosik's virtual-number idea [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]].
+
+## Open commitments (Sept 21 2026)
+
+- [ ] Andrei Klimovich — finish removing cloud references from the MVP 1 capabilities and requirements — due Sept 21 2026 ("минут через 10, после завершения нашего звонка") — [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
+- [ ] Andrei Klimovich — load the Flex-Port and Flex IQ UI/UX into Jira as capabilities and requirements, so features can be created — due Sept 21 2026 (he said yes to "сегодня") — [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]] — **still open on Sept 22 2026:** Pavel saw no new capabilities linked ("я не вижу привязанных к… Этому айпи новых кап обилити"); Chudinov: "он написал про телты, но больше ничего" — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
+- [x] Andrei Klimovich — post the mock-up / design project link in the team chat — due Sept 21 2026 ("прямо сейчас") — [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]] — **discharged in substance by Sept 22 2026:** Pavel told the stand-up that Klimovich "сбросил это в виде… Интерактивная страницы htt mall" the day before (the channel is not named) — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
+- [ ] Andrei Klimovich — ask the operators JVL is in touch with which identifier they use for a machine (asset number or serial number) — due unspecified — [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
+- [ ] Andrei Klimovich — record a note to add the technician information screen (machine / asset / serial number on the Flex-Port) in MVP 2 — due unspecified — [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
+
+## Sept 22 2026 (4:48 AM stand-up, in absentia) — his screens reach the team as an HTML page
+
+He was not at the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexport-gui.md|Sept-22 stand-up]], but his work framed two of its debates [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]:
+
+- **The Flex-Port screens.** Pavel said he had shared them as an interactive HTML page; the workflow matches the current screens "Процентов на 95". The team's plan for redrawing them, and Vladimir Samusenko's objection to design delivered as HTML, are on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 22).
+- **The overall-flow capability.** Chudinov said the user screens up to card issue sit in one capability and balance recalculation and wallets in others, so neither can be tested alone. Pavel: if no capability describes the overall flow, "значит Андрей его ещё просто не сделал", and he would ask him "сегодня… на митинге". See [[wiki/topics/test-automation-strategy.md]] (Sept 22).
+- **A requirement from him drove the redo.** Pavel: the back end and GUI were already built "и пришло требование от… Андрея" to redo it; about 95% of the change is screen display, not back end.
+
+## Sept 22 2026 (7:31 AM) — he lays out who runs JVL's advertising, and takes Val's Georgia demand plan
+
+On the [[wiki/meetings/2026-09-22-digital-marketing-lead-and-georgia-demand-campaign.md|Sept-22 call]] with Val (Russian, about 22 minutes) [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]]:
+
+- **Who does what.** [[wiki/people/sergey-vysotsky.md|Sergey Vysotsky]] for digital-growth strategy; [[wiki/people/anton-smm.md|Anton]] for Meta ads only; Google ads stopped and the Webcom agency dropped since the start of the year — see [[wiki/topics/echo-home-gaming-device.md]] (Sept 22).
+- **The Georgia demand plan.** He read Val's document and raised two doubts: whether owners' contacts can be found, and whether a gaming-machine maker may contact owners at all. He also warned that Meta and Google block gambling ads. Detail on [[wiki/projects/georgia-market-rollout.md]] (Sept 22) and [[wiki/topics/georgia-class-a-machines.md]] (Sept 22).
+- **He proposed Sergey Vysotsky for the owner-list task,** and offered to send him the recording. Val objected; Klimovich at once agreed — "Понял, тогда не буду" — and will work from a written brief instead [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]].
+- **The presentation.** Val said his written comments were clear; Klimovich will send the next version [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]].
+
+## Open commitments (Sept 22 2026)
+
+- [ ] Andrei Klimovich — pass the task context to Sergey Vysotsky in writing (not the recording) — due Sept 22 2026 ("я контекст ему сегодня передам") — [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]]
+- [ ] Andrei Klimovich — if Sergey takes the task, set up a call so Val can brief him and hear it played back — due ~Sept 23 2026 ("он завтра уже точно будет готов") — [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]]
+- [ ] Andrei Klimovich — send Val the next version of the presentation, from Val's written comments — due Sept 22–23 2026 ("сегодня завтра не затягивать") — [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]]
 
 ## Sources
 
@@ -678,3 +732,7 @@ On the [[wiki/meetings/2026-05-18-ga-trip-recap-kiosk-intel.md|May-18 GA trip re
 - [[raw/Meeting_Transcript_Andrei_Klimovich_Ecommerce_Fraud_Loss_and_Marketplace_Expansion-January-21-2026.md]]
 - [[raw/Meeting_Transcript_GA_Trip_Recap_Kiosk_Intel-May-18-2026.md]]
 - [[raw/Meeting_Transcript_Texas_Install_Recycler_Sourcing_CPI-August-25-2026.md]]
+- [[raw/Meeting_Transcript_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]]

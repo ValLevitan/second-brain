@@ -3,7 +3,7 @@ type: decision
 title: Pursue convenience-store trade shows as a sales channel — target the GACS show (recorded here as October 22; the Sept-7 2026 planning call says October 21 — OPEN CONTRADICTION), chase a share of a friend's booth at C-Store Connect on September 17
 date: 2026-08-31
 aliases: [C-Store trade shows, C-Store Connect September 17, GACS Southern Convenience Store and Petroleum Show, October 22 show, October 21 show, not a COAM show]
-source-count: 4
+source-count: 5
 status: active
 open-commitments: 3
 open-questions: 1
@@ -49,9 +49,15 @@ The point of the decision is **who is in the room**. Val marked the distinction 
 
 **§15.8:** clear — show and channel logistics only; no named-person compensation.
 
+
+## Update — Sept 22 2026: home and design shows added, and the look comes first
+
+Explaining JVL to [[wiki/people/howard-tikka.md|Howard Tikka]], Val widened the list: "we're now looking to show our product at c-store trade shows, or at home shows, design trade shows." He put the brand work first: "I need to collect the look again. I need to put everything together, and then we'll see where the road leads." The brand ruling is [[wiki/decisions/2026-09-22-unify-jvl-look-logo-and-slogan-untouched.md]]. No show date is named on this call, and none of the Aug-31 commitments is discharged by it. [[raw/Meeting_Transcript_Howard_Tikka_Brand_Realignment_and_Collateral-September-22-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_C_Store_Trade_Show_Go_To_Market-August-31-2026.md]]
 - [[raw/Meeting_Transcript_C_Store_Trade_Show_Go_To_Market-August-31-2026.md]]
 - [[raw/Meeting_Notes_GACS_Expo_IQ_FlexPorts_and_Ewallet-September-7-2026.md]]
 - [[raw/Meeting_Transcript_GACS_Expo_IQ_FlexPorts_and_Ewallet-September-7-2026.md]]
+- [[raw/Meeting_Transcript_Howard_Tikka_Brand_Realignment_and_Collateral-September-22-2026.md]]

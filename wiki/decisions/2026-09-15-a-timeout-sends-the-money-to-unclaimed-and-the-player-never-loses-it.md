@@ -3,10 +3,10 @@ type: decision
 title: A collect timeout must never destroy the player's money — it goes to unclaimed money, built as a wallet that is created and funded but never printed; the specification to work from is AFT plus state banking law, starting with Juan Martinez and then GLI, and none of it is in MVP 1
 date: 2026-09-15
 aliases: [unclaimed money, anklaim money, анклейм мани, timeout money evaporates, money never lost, wallet without printing, unclaimed wallet, AFT specification, GLI consulting fee, деньги испаряются, escheatment, requirement 1430, unconfirmed money, анконференд мани]
-source-count: 5
+source-count: 7
 status: active
 open-commitments: 3
-open-questions: 4
+open-questions: 5
 ---
 
 # A timeout sends the money to unclaimed money — the player never loses it
@@ -61,6 +61,22 @@ The last item of the [[wiki/meetings/2026-09-16-transactional-mvp1-open-question
 
 **Which money he means is genuinely unclear and is not resolved here.** The transcript renders the term "анконференд мани" — phonetically *unconfirmed* money — whereas the Sept-15 subject of this page is rendered throughout as "анклейм/анклейд/онклайнт мани", *unclaimed* money. The derived notes read 1430 as **unconfirmed** money [[raw/Meeting_Notes_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]. Two things argue each way: Chudinov ties it to "what we discussed yesterday", which on this page is unclaimed money; but the Sept-15 transcript contains **no** promise by Klimovich to create a capability for unclaimed money, and the Sept-16 call did settle a separate *pending / unconfirmed* transaction state for a silent InComm answer ([[wiki/decisions/2026-09-16-the-mvp1-timing-numbers-two-hundred-milliseconds-and-thirty-seconds.md]]). Recorded as unclear rather than assigned.
 
+## Update, Sept 17 2026 — the Georgia rule, as a master licensee states it
+
+Two days later a customer supplied the state-law half Val had named. At the [[wiki/meetings/2026-09-17-dynamic-gaming-georgia-master-licensee-and-cashless-pitch.md|Dynamic Gaming meeting]] the visiting master of [[wiki/organizations/dynamic-gaming.md|Dynamic Gaming]] set it out. **This is one operator's account, not the statute, and he was unsure of the period himself.** [[raw/Meeting_Transcript_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]
+
+- **The store owner holds and reports it.** "**Once there is an unclaimed fund, you have to report on your tax return as a store owner. That's my obligation.**" And: "**If he walks out without paying the twenty dollars, you are liable to pay the state of Georgia the twenty dollars as an unclaimed fund.**"
+- **Seven years, then reporting is mandatory.** "**They can do it before, but after seven years, it's mandatory**" — but also "**Five years or seven years? Just need to confirm that.**"
+- **No dormancy fee and no service fee:** "**there shouldn't be any dormancy on that. There shouldn't be any service fee on that, as per law.**"
+- **Two ways to settle it.** "**Either he keeps forty-three point five percent, give thirteen percent to Georgia Lottery, and give forty-three point five percent to Masters**… **Or he can keep the profit hundred percent, but he has to show that I claim this as an unclaimed funds**", and pay tax on it.
+- **What JVL's side said it keeps.** [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]: "**In the clouds, there is a record created**… **So we have the track and all the records**", and for "**reporting to a regulatory… or unclaimed funds, you get this report.**" [[wiki/people/val-levitan.md|Val]] called the expiry setting "**a hole in our… design**" — see [[wiki/decisions/2026-09-14-ewallet-ttl-defaults-to-thirty-days-and-is-set-per-location.md]] (Sept 17).
+
+**What this does to the open question below.** It gives one answer to "who must hold it" — the **location (store owner)** — from a customer's mouth. It does not replace the routing to [[wiki/people/juan-martinez.md|Juan Martinez]] and GLI; nothing here says that call happened. The owner question stays open.
+
+## Update, Sept 21 2026 — unclaimed turns up inside the MVP 1 screen walk
+
+On the [[wiki/meetings/2026-09-21-transactional-mvp1-flexport-and-iq-ux-design.md|Sept-21 call]], the port's answer to a failed print was to send the money to unclaimed and let the cashier print it from there — Pavel: "в любом случае, где мы не можем перечислить деньги на его лет на порте мы это всё скидываем в анклейт, а из анклейт уже может напечатать кассир"; Chudinov: "Да, согласен" [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]. See [[wiki/decisions/2026-09-21-at-the-counter-no-printer-no-wallet-at-the-port-the-wallet-goes-to-unclaimed.md]]. **Nobody said whether this puts any part of the unclaimed handling into MVP 1**, against Val's Sept-15 "definitely not MVP 1". Recorded as an open question, not as a contradiction: the Sept-15 ruling was about the regulated side (who holds the money, state law), and the Sept-21 point is a screen the cashier prints from.
+
 ## Open commitments
 
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — check requirement 1430 ("unconfirmed money" as the transcript renders it) and attach it to the capability created for it — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
@@ -69,7 +85,8 @@ The last item of the [[wiki/meetings/2026-09-16-transactional-mvp1-open-question
 
 ## Open questions
 
-- **Where the unclaimed-money entity lives and who owns the balance.** Klimovich asked whether JVL is obliged to create and hold it, and whose money it then is — "не [JVL] же принадлежит, он принадлежит лакейшн". Val did not know: "или оператору, или GLC, или лакейши[ну], или налоговой[,] но неважно… я говорю, кто должен держать это?" — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- **Is the Sept-21 "print from unclaimed" path part of MVP 1?** Designed in the MVP 1 screen walk; its release is not stated — [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
+- **Where the unclaimed-money entity lives and who owns the balance.** Klimovich asked whether JVL is obliged to create and hold it, and whose money it then is — "не [JVL] же принадлежит, он принадлежит лакейшн". Val did not know: "или оператору, или GLC, или лакейши[ну], или налоговой[,] но неважно… я говорю, кто должен держать это?" — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]] *(Sept 17: a Georgia master says the store owner holds it and reports it on his tax return, with a 43.5 / 13 / 43.5 split or 100% kept and taxed — one operator's account, unverified.)* [[raw/Meeting_Transcript_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]
 - **Wallet or separate entity?** Biratka's create-fund-mark-do-not-print wallet is the simpler route; Chudinov wants a separate entity because the cloud wallet lands in the next MVP. Unresolved — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - **Is requirement 1430 about unclaimed money or unconfirmed money?** The Sept-16 transcript renders it "анконференд мани" while tying it to the previous day's discussion; the corpus does not settle which topic it belongs to — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - **One unclaimed wallet updated forever, or a new one per event?** Klimovich raised it; Biratka guessed a new one each time, "только он должен какого-то определённого типа быть". Not settled — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
@@ -82,3 +99,5 @@ The last item of the [[wiki/meetings/2026-09-16-transactional-mvp1-open-question
 - [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]

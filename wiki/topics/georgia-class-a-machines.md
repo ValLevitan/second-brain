@@ -3,7 +3,7 @@ type: topic
 title: Georgia Class A machines
 date: 2026-08-31
 aliases: [Class A, Class A machines, Alan Powell, twenty five seventy five, twenty eighty, one game suite, forty bucks per day, намберту, в принципе дали мне заказ, two machines a week, five machines a week, the same machines go to Texas, Class A on Nova, Class A V43, party time feature, awards cannot be bet, for now yes, playing within the rules, no book of Class A regulations, if you had a pulse you get a license, not hooked up to a central accounting system, hang our hat on one supplier, slinging them out and seeing what sticks, it's predominantly the meters, Class A licence easier than B, Georgia Class A, Class A licence, amusement machines Georgia, two-bucket win system, $50 per spin cap, $50 per hand, Primero Class A, play bucket, redemption bucket, Hope Scholarship, class eight]
-source-count: 27
+source-count: 28
 open-commitments: 0
 open-questions: 11
 ---
@@ -417,6 +417,19 @@ Val: "**[GAMOA] is against it. One hundred percent.**" Yash — who sits on the 
 
 **§15.8:** clear — licence, machine, placement and revenue-share economics only; no named-person compensation.
 
+## Sept 22 2026 — how to advertise to players: Class A as amusement, and Val's "phenomenon"
+
+On the [[wiki/meetings/2026-09-22-digital-marketing-lead-and-georgia-demand-campaign.md|Sept-22 marketing call]] (Russian), the question was how JVL can advertise to Georgia players when Meta and Google block gambling ads. The plan itself is on [[wiki/projects/georgia-market-rollout.md]] (Sept 22) [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]].
+
+- **Klimovich's idea: advertise Class A.** "Здесь идеально бы класс эймс подошли. Мне кажется класс эй не регулируется, так как класс b." Advertise Class A as amusement; on site the player also sees Class B. *(His belief about regulation is stated as "мне кажется" — a speaker view, not a checked fact.)* [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]]
+- **Val's answer: he has not worked it out yet.** "Здесь существует такая интересная феномена. И я в ней еще полностью не разобрался." His reading: Class B is the skill amusement game set by law ("Законом установлены силом юсман гейм"); Class A is "в принципе… Не амьюсмент, pure gamble", because the law allows a win of up to fifty dollars ("вын проспепен of fifty dalax" — garbled; read as a win of up to fifty dollars, matching the $50 cap above) [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]].
+- **Why Class A stayed small, in Val's view:** "Почему класс эй был не развит до сих пор? Потому что… никому, было не интересно" — at a fifty-dollar maximum nobody found it interesting [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]].
+- **Either way, a creative is needed.** Val: "в любом случае, здесь должен быть определенный креатив". Klimovich: study all the market restrictions first so no problem "прилетело", then find a way between them [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]].
+
+This adds to the open skill question below: Val's Sept-22 line that Class A is "pure gamble" sits with his Sept-16 doubt that there is any skill in it. No regulation was checked.
+
+**§15.8:** clear.
+
 ## Open questions
 
 - **Are Primero's Class A terms categorical or deal-by-deal?** Two operators now describe **different structures**: ARC (Sept 16) pays **$1,000 for the software plus 10%/20%** depending on whose cabinet; Halcyon (Sept 17) was offered **25% financed / 20% paid up front with no software fee**, on hardware of "$2,500… 25 or 3,500". Neither source knows of the other. [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]] [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
@@ -440,6 +453,7 @@ Val: "**[GAMOA] is against it. One hundred percent.**" Yash — who sits on the 
 ## Sources
 
 - [[raw/Meeting_Transcript_Jamie_Georgia_Class_A_Opportunity_and_Market_Outlook-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]]
 - [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
 - [[raw/Meeting_Notes_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
 

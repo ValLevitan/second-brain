@@ -2,8 +2,8 @@
 type: person
 title: Ivan
 date: 2025-02-19
-aliases: [Ivan, Ivan Shpakov, Иван Шпаков]
-source-count: 7
+aliases: [Ivan, Ivan Shpakov, Иван Шпаков, Ivan Shpak, Ваня]
+source-count: 8
 ---
 
 # Ivan
@@ -39,6 +39,10 @@ At the [[wiki/meetings/2026-09-11-nova-game-change-regulatory-procedure.md|Sept-
 
 The Georgia bin file carries only SAS-operation data, not game sets, which is the reason a new game can ship without the Lottery learning of it — see [[wiki/organizations/georgia-lottery-corporation.md]] (Sept 11) [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]].
 
+## Sept 22 2026 — he chases an overdue CMS release
+
+At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexport-gui.md|Sept-22 stand-up]] (Russian; label "Ivan Shpak"), he asked for the release of changes requested the day before: "до сих пор нету. Сделайте, пожалуйста, сегодня это прям кровь из носу надо". Pavel gave it to [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] — "Компонентов, которые менялись для CMS сервера" [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]. Irina said Ivan ("Ваня") was installing a version in which a maths error surfaced; she will work it with him (see [[wiki/people/irina-shishko.md]], Sept 22) [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+
 ## Sources
 
 - [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
@@ -48,3 +52,4 @@ The Georgia bin file carries only SAS-operation data, not game sets, which is th
 - [[raw/artifacts_assembly_GitHub-october-21-2025.md]]
 - [[raw/practice_release_calle_ocho-github-october-21-2025.md]]
 - [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]

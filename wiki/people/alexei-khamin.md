@@ -3,7 +3,7 @@ type: person
 title: Alexei Khamin
 date: 2025-04-22
 aliases: [Alexei Khamin, Aliaksey Khamin, Alexey Khamin, Khamin, Хамин, Khanin, Ханин, Kamin, Alexey Kamin, Lyosha, Лёша]
-source-count: 13
+source-count: 14
 open-commitments: 4
 ---
 
@@ -73,6 +73,10 @@ At the [[wiki/meetings/2026-09-14-code-standards-main-branch-rule-and-alekseev-c
 
 *(He confirmed at the start of the call that he had received Val's code-standards email — "**Да это есть**" — unlike [[wiki/people/irina-shishko.md|Irina Shishko]].)* [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
 
+## Sept 22 2026 — moving pull requests to test, and the "stabilisation" stage
+
+At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexport-gui.md|Sept-22 stand-up]] (Russian; label "Alexey Khamin"), he said he would look at pull requests "от вёрского" (name garbled) and move them into a branch to test. In the status debate he named the missing stage after In Progress: "это стабилизация больше идёт… Чтобы было понятно, что разработка… закончилась"; Kovalchuk: "Клеша правильно говорит". See [[wiki/topics/test-automation-strategy.md]] (Sept 22) [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Notes_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
@@ -88,3 +92,4 @@ At the [[wiki/meetings/2026-09-14-code-standards-main-branch-rule-and-alekseev-c
 - [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
 - [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]

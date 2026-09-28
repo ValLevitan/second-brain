@@ -3,10 +3,10 @@ type: decision
 title: The MVP 1 capability list is walked item by item before the Monday freeze — the FlexPay capabilities leave for MVP 2, requirements come off developers, and every remaining capability gets an owner and a status
 date: 2026-09-18
 aliases: [capability cleanup, MVP1 capability sweep, capability 178, capability 144 clone, capability 151, capability 163, capability 174, capability 175, capability 176, capability 180, capability 148, capability 149, capability 150, capability 116, capability 117, capability 79, capability 80, capability 156, requirements are not hung on developers, требования вешать на разработчика это странно, clone the capability instead of moving requirements one by one, location block enforcement, audit ticket, daily audit printout, capabilities without features, empty capability, test executions instead of features]
-source-count: 2
+source-count: 4
 status: active
-open-commitments: 9
-open-questions: 3
+open-commitments: 8
+open-questions: 4
 ---
 
 # The MVP 1 capability list is cleaned item by item, and everything gets an owner
@@ -78,11 +78,15 @@ Klimovich's answer was a fallback, not a reversal: "**мы можем сдела
 
 
 **Settled after the fact.** Asked directly on **2026-09-20**, the owner ruled: **"Klimovich is correct."** Capability 178 / two-product support is **not in MVP 1**, and the owner's own chat instruction is withdrawn. The multi-product payment-hub design is unaffected; only its MVP 1 delivery is cut to a single product. *(An owner ruling is its own citation — §16.)* See [[wiki/decisions/2026-09-17-jvl-supports-multiple-incomm-products-not-a-fixed-pair.md]].
+## Update, Sept 22 2026 — a developer owns a capability outright
+
+At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexport-gui.md|Sept-22 Minsk stand-up]], [[wiki/people/alexander-biratka.md|Biratka]] asked whether capability 137 "должна на мне висеть или… только фичи". Pavel: "ответственного назначили по capility на тебя, значит, ты будешь за неё отвечать." Biratka took it: "значит я ее на себя саю". He is building its features by porting the mechanism already built for Flex IQ under capability 122 [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — rewrite capability 144's description to match the trimmed requirement set, clean it and move it to the next status — due **today, Sept 18 2026, end of day**; he said he would do it straight after the meeting — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — create the features under capability 144 as well — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
-- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — finish the reworked window designs, starting with capability 178; Chudinov named them as his single biggest blocker — due **Monday Sept 21 2026** — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+- [x] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — finish the reworked window designs, starting with capability 178; Chudinov named them as his single biggest blocker — due **Monday Sept 21 2026** — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]] — **discharged in substance Sept 21 2026:** the reworked Flex IQ and Flex-Port screens were walked on the [[wiki/meetings/2026-09-21-transactional-mvp1-flexport-and-iq-ux-design.md|Sept-21 call]] ("функционально уже всё зафиксировано"); polish and the Jira load remain; capability 178 itself is out of MVP 1 by owner ruling — [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — confirm whether the cloud-referencing logic in capability 175 is described elsewhere, then decide whether 175 moves to MVP 2 — due unspecified; he refused to move it before checking — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — finish the daily audit-ticket reporting capability and keep it inside MVP 1 — due **Monday Sept 21 2026**; Irina: "**ты отметь себе, чтоб она точно была в [MVP] один, а не уехала куда[-]то**" — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — create features under all of his capabilities, which are currently bare, then tell the others so planning can continue; nothing else in MVP 1 can be planned until he does — due unspecified, and it blocks the rest — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
@@ -95,10 +99,14 @@ Klimovich's answer was a fallback, not a reversal: "**мы можем сдела
 - **Whether capability 175 duplicates reporting already covered elsewhere.** Irina raised it — "**не будет ли это у нас дубл[ь]… делали же какие[-]то отчёты[,] и… на IQ обсуждали в рамках других**" — and it was marked rather than answered — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - **Which capability hosts the daily audit-ticket requirement.** Klimovich could not remember — "**я не помню, в как[ой]… там хостится [реквайрмент] этот**" — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - **Whether capability 156 itself changes fix version.** The port to FlexPay and the ownership split are clear; the version wording in this passage is garbled and no clean statement of a move is on the recording. The derived notes list 156 among capabilities moving to MVP 2; **recorded as unclear, not asserted** — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]] [[raw/Meeting_Notes_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+- **Does the Sept-18 principle cover capabilities too?** On Sept 18 Pavel and Irina said requirements should not hang on a developer (capability 180 moved off Biratka). On Sept 22 Pavel confirmed Biratka, a developer, as the responsible for capability 137. The two were not linked by anyone — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
 
 **§15.8:** clear — Jira scope, ownership and device behaviour only. No named person's pay, rate, bonus or performance judgement appears in either source; Klimovich's jab at Bosik's reading of his own capability is recorded as a working exchange, not as an assessment, and nothing was excluded on §15.8 grounds. **§15.9:** no identifier, credential, card number or UPC value appears — card data is discussed only as something InComm has yet to supply.
+
 
 ## Sources
 
 - [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]

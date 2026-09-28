@@ -3,10 +3,10 @@ type: decision
 title: Standing instruction — use the standards, add to the standards, and point your Claude at the standards repository first (Knowledge Base / Standards in GitHub, access verified for all 39 accounts)
 date: 2026-09-04
 aliases: [point your code at the standards, standards repository instruction, Knowledge Base Standards folder, 39 accesses verified, write narrow granular standards, moving away from Confluence]
-source-count: 4
+source-count: 5
 status: active
 open-commitments: 3
-open-questions: 0
+open-questions: 1
 ---
 
 # Point your Claude at the standards repository first
@@ -39,14 +39,25 @@ The repository Val calls **"Knowledge Base"** here is the one [[wiki/people/pave
 
 The morning meeting had already produced a live instance: Igor's new repository structure had been built without reference to the written standard, and Igor said he had not read it (see [[wiki/topics/github-release-management-pipeline.md]], Sept-4). The afternoon meeting produced the second instance — a naming convention held as a verbal agreement (see [[wiki/decisions/2026-09-04-asset-naming-convention-must-be-written-down.md]]). Val's own statement of the principle, given to the game team: "there has to be… a repository where all standards are written, and when there is a… file to be named. It cannot be named manually. It should probably be named through a reference by, you know, **Claude**. I would use that… that's how I name my files." [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 
+## Update, Sept 22 2026 — a developer without access, and two results for one task
+
+At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexport-gui.md|Sept-22 Minsk stand-up]] (Russian), [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] reported that the student developer Daniil "нет доступа к ноутджбэй с репозиторию" (garbled; read as the knowledge repository — **inference**), so "он не видел, не знал про стандарты, которые там есть". His Claude did not know the standards either. Two people did the same data-contract task in parallel and got "2 разных результата". [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]: "должно всех доступен быть… По дефолту"; Vladimir: "Еще раз проверится" [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+
+*This sits against the Sept-4 statement that access was checked for all 39 accounts. Daniil may have joined after that check; the source does not say. Recorded as an open question, not a contradiction.*
+
 ## Open commitments
 
 - [ ] Everyone (engineering and the game team) — use the standards, add narrow granular standards to them, and point Claude at the standards repository as part of routine work — ongoing standing rule — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]] [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 - [ ] [[wiki/people/lena.md|Lena Zhukova]] — move the graphics team's existing Omni/NOVA naming documents into the Knowledge Base standards folder — due unspecified — [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 - [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — read the repository standard and correct his repository structure to match — due unspecified; he said "я могу смог ознакомиться и поправить под стандарт" — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 
+## Open questions
+
+- Does every developer — including Daniil — now have access to the knowledge repository? Kovalchuk said it should be open by default; a re-check was mentioned, with no owner named — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Notes_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]

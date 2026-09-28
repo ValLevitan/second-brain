@@ -4,8 +4,8 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 90
-open-commitments: 23
+source-count: 93
+open-commitments: 25
 ---
 
 # Irina Shishko
@@ -385,8 +385,37 @@ The [[wiki/meetings/2026-09-18-transactional-mvp1-capability-cleanup-and-the-mon
 - [ ] Irina Shishko — make a second pass over the acceptance criteria on every MVP 1 requirement, to confirm none is half-written; they are present everywhere but completeness is unverified — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - [ ] Irina Shishko and [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — meet after the call and walk his capabilities and features to set real dates — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 
+## Sept 20 2026 (7:04 AM, Sunday) — the vertical geometry standard session
+
+At the [[wiki/meetings/2026-09-20-vertical-geometry-standard-and-adr-consolidation.md|Sunday Sept-20 7:04 AM ET session]] (Russian) she said she had not known the liquid-glass frames and the background video were fused — "**Я даже не думала, что они вместе соединены**". She told Val the games are still "**только в [SVN,] нет ещё в гите**". She said the designers' stored work can be found without asking them, "**за спиной**". On whether the team wants the full end-to-end auto-test flow: "**Очень хотим**". Val's rulings are on [[wiki/decisions/2026-09-20-the-vertical-geometry-standard-glossary-and-adrs-go-to-github-outside-any-framework.md]]. [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+
+## Sept 21 2026 (8:02 AM) — she creates the cloud capability and wins the no-paper argument
+
+On the [[wiki/meetings/2026-09-21-transactional-mvp1-flexport-and-iq-ux-design.md|Sept-21 8:02 AM call]] (Russian):
+
+- **Capability 229.** She created it to hold the cloud material out of current work — see [[wiki/decisions/2026-09-16-anything-that-depends-on-the-cloud-leaves-mvp1.md]] [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]].
+- **The no-paper case was her question, and her objection carried it:** "ты как кассир забрал деньги и теперь сказал иди гуляй… Он 2 раз к тебе не придёт." See [[wiki/decisions/2026-09-21-at-the-counter-no-printer-no-wallet-at-the-port-the-wallet-goes-to-unclaimed.md]].
+- **She also caught the port side:** "у нас же с флекс порта деньги не возвращаются, они ж просто пропадут тогда" [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]].
+
+## Open commitments (Sept 21 2026)
+
+- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — give Klimovich the Flex-Port non-functional requirement list she and Pavel produced — due unspecified — [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
+
+## Sept 22 2026 (4:48 AM stand-up) — capability 122 looks unfinished when it is not, and a maths error in a game
+
+At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexport-gui.md|Sept-22 stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]:
+
+- **The status problem.** She raised capability 122: In Progress with all features closed. Any status other than In Progress would do, because In Progress "считается, что ещё не закончили"; but not ten statuses again. See [[wiki/topics/test-automation-strategy.md]] (Sept 22) [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+- **The Figma point.** "мы не можем сейчас Андрею сказать… переделывай всё" — the HTML design stands for this round [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+- **Her work.** Finishing the differences in the GCOAM V3 document ("по г к вам 3 документ" — read as GCOAM V3, **inference**), then the MVP 1 capability requirements. A maths error surfaced "В клавер клавер форчен помоему" when Ivan installed a version; she will work it with him [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
+
+## Open commitments (Sept 22 2026)
+
+- [ ] Irina Shishko — with Ivan, work the maths error that surfaced in (she thought) Clover Fortune — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
 - [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
 - [[raw/Meeting_Notes_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Game_Conversion_Vertical_Scene_Progress-September-17-2026.md]]
@@ -477,3 +506,5 @@ The [[wiki/meetings/2026-09-18-transactional-mvp1-capability-cleanup-and-the-mon
 - [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]

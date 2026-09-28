@@ -2,10 +2,10 @@
 type: organization
 title: Play Payments (PlayPay) — the bank-licensed Visa wallet
 date: 2026-09-02
-aliases: [Play Payments, PlayPay, Play Pay, PlayPlay, PayApp, Play Pay wallet, play wallet, pay wallet, rewards wallet, tap to fund, Billy Liu's company, they work their magic through visa and mobile application, Late payments, late pay, playhead, Quipay]
-source-count: 5
+aliases: [Play Payments, pay tag, PayTag, PlayPay, Play Pay, PlayPlay, PayApp, Play Pay wallet, play wallet, pay wallet, rewards wallet, tap to fund, Billy Liu's company, they work their magic through visa and mobile application, Late payments, late pay, playhead, Quipay]
+source-count: 7
 open-commitments: 0
-open-questions: 4
+open-questions: 5
 ---
 
 # Play Payments (PlayPay)
@@ -89,6 +89,7 @@ Nine days after the deep-dive, at the [[wiki/meetings/2026-09-11-digital-cash-pr
 
 ## Open questions
 
+- **Will players give a phone number to use a PlayPay wallet, instead of an anonymous plastic card?** Val called it "**the only question I have**" (Sept 22) — [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]
 - **Does the "rewards wallet" layer do anything but move money one more hop?** Billy called it "a powerful idea" and would not explain it; Val said outright he did not understand it and Billy declined to pursue it (Sept 15) — [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
 - **How much does PlayPay actually earn on volume?** Billy could not answer for $1 billion transacted and named "tiers" without describing them; Val's own $150M projection is his arithmetic, not Billy's — see [[wiki/decisions/2026-09-02-val-proposes-fifty-percent-of-play-payments.md]] — [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]]
 - **What are the real load limits?** $1,000 per load, $2,500 per person per day, $4,000 tranches and "up to ten thousand dollars" are all stated in the same conversation and never reconciled — [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]]
@@ -137,6 +138,33 @@ And the demand that follows from it: "**Do you have custody of the money? Or pow
 
 **§15.8:** clear — company, product and market fee economics only; no named-person compensation. **§15.9:** no identifier value appears; the Visa pre-fund account is named as existing, with no account number in the source.
 
+## Sept 22 2026 — two features off, the pay tag, and a $5 nudge away from plastic
+
+On the [[wiki/meetings/2026-09-22-billy-liu-playpay-virtual-wallet-pay-tag-plan.md|Sept-22 call]] Val asked Billy to explain again "**how your system fits into this picture, and how you're not breaking the law**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
+
+### The compliance answer: switch two features off
+
+- "**Two of the features on my system have to be turned off in order to comply.**" The two are the off-ramps: once funds are on the card "**you could push it back to your bank account, or send money via a debit card, your bank debit card**", and his plan is to "**turn off the pushback to bank account**" — Val completing the line, "**Or debit card**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
+- **What is left** is the wallet and the card: "**I have a virtual wallet where the funds on the wallet can be turned into a reloadable virtual Visa**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
+- *(This moves on from Sept 15, when he said he had offered the Lottery to switch the bank / PayPal transfer off and was told to wait — see above. On Sept 22 he states it as his plan. No source says the Lottery has answered.)*
+
+### The pay tag — how money reaches the player from a kiosk
+
+- Val proposed a JVL-dispensed plastic card that is "**just a bar code**" and "**will mirror a virtual card**" — "**an e wallet in the form of a plastic card**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
+- Billy's alternative, already built: "**send the funds via the API in which we have built already. It sends what's called a pay tag. That's our unique identifier. If you sign up to our service, you get a pay tag, your handle.**" At the kiosk the player scans the pay tag or types it "**via an on-screen keyboard… which is an alphanumeric handle, and the money goes to that person's wallet**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]. *(The "handle" is the same one recorded on Sept 2 above; "pay tag" is the name he gives it here.)*
+- He also has "**a feature to scan in my version of a keto card**" — "keto card" is left as transcribed; the notes say Val did not know it [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]] [[raw/Meeting_Notes_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
+- On cost Billy said "**To dispense a physical card that has the same barcode, it's costly**"; Val: "**I absolutely agree that it's costly and inefficient**… **My only question is whether the player will embrace it**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
+
+### The plan they talked through — not agreed, and the number is a placeholder
+
+- **Cards at the start, a reward for skipping them.** Val: register by phone and "**you're gonna get five dollars of promo credits**"; take the plastic card and "**we basically penalize you five dollars**." Billy: "**we probably would dispense those cards in the very beginning**." Val expects word to spread among a location's players until "**nobody wants a physical card**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
+- **The $5 is not a price.** "**Five dollars or two dollars or three—I don't know how much… it's just a placeholder, but it's going to cost us something**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]. On the card's own cost Val said it would not be five dollars — "**let's say… forty nine cents or whatever**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
+- **The anonymity question stays open.** Val: "**Do you not think that anonymous player has an advantage?**" Billy: "**Probably yes, but not for very long**"; a phone number is normal now "**as long as they don't have to disclose their… social security number**", as in "**any kind of program for rewards at a coffee shop**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
+- **Wording.** Billy called the trick "**how we con the player to give up their phone number**"; Val: "**I don't like the choice of words**… **how do we incentivize a player… To release his phone number for a future benefit of marketing**" [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
+- *(The derived notes list the pay tag as a settled preference over the barcode card. The transcript does not support that — see the stub.)* [[raw/Meeting_Notes_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]
+
+**§15.8:** clear — product and fee mechanics only.
+
 ## Sources
 
 - [[raw/Meeting_Notes_Billy_Liu_PlayPay_Partnership_Deep_Dive-September-2-2026.md]]
@@ -144,3 +172,5 @@ And the demand that follows from it: "**Do you have custody of the money? Or pow
 - [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
 - [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Mutual_NDA_Renegotiation-September-15-2026.md]]
+- [[raw/Meeting_Notes_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]

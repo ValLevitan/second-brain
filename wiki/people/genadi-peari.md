@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий, Kenadi]
-source-count: 97
+source-count: 98
 open-commitments: 32
 ---
 
@@ -453,6 +453,10 @@ This is the third time in a fortnight that Genadi is the one who names a *visibi
 
 **§15.8:** clear — the call is a criticism of the unit, and only the engineering faults are recorded here, never a judgement of the person who built it. No compensation material appears in either Sept-17 file.
 
+## Sept 21 2026 — the source of the Flex-Port screen size
+
+On the [[wiki/meetings/2026-09-21-transactional-mvp1-flexport-and-iq-ux-design.md|Sept-21 8:02 AM call]], Klimovich said he took the screen sizes and pixel data from Genadi: "я все взял данные от Геннадия по размеру экранов", and gave the resolution as "854 на 480" [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Flex_Pay_Slim_Lid_and_Wiring_Critique-September-17-2026.md]]
@@ -552,3 +556,4 @@ This is the third time in a fortnight that Genadi is the one who names a *visibi
 - [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
 - [[raw/Meeting_Transcript_Texas_Install_Recycler_Sourcing_CPI-August-25-2026.md]]
 - [[raw/Meeting_Notes_Texas_Install_Recycler_Sourcing_CPI-August-25-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]

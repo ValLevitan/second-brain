@@ -2,8 +2,8 @@
 type: topic
 title: Game art & animation production pipeline (comp art → Miranda)
 date: 2025-03-12
-aliases: [animation production, comp art pipeline, CompArt, storyboards, Spine, Blender, After Effects, placeholder build, Miranda scene assembly, art production stages, spike, sorting, symbol containers, Glorosa, Havana Noches, Fiery Ice Link, Rodeo Spin]
-source-count: 21
+aliases: [animation production, comp art pipeline, CompArt, storyboards, Spine, Blender, After Effects, placeholder build, Miranda scene assembly, art production stages, spike, sorting, symbol containers, Glorosa, Havana Noches, Fiery Ice Link, Rodeo Spin, vertical geometry standard, liquid glass shader, screen zones]
+source-count: 22
 ---
 
 # Game art & animation production pipeline (comp art → Miranda)
@@ -186,8 +186,37 @@ Two `Game_Conversion` sessions the same day — [[wiki/meetings/2026-09-17-game-
 - **The steal / nudge scene may only need a camera change**, not a rebuild — "**даже не переделывать. Его можно … просто там камеру … изменить … он по масштабу как раз [низ] перекроет**". *(The scene name is garbled — "стилдейм" / "стил день" / "ненаджев стиль" — and whether this is one scene or two is not recoverable.)*
 - **Deliberate ugliness is a requirement, not a defect.** [[wiki/people/irina-shishko.md|Irina Shishko]] interrupted to remind the call that the **additional games inside the Texas product were meant to be unattractive on purpose**: "**чем страшнее, тем лучше. Эти игры, которые дополнительные … у Техаса … они должны быть не привлекательные**", so that players would not want to play them. Igor accepted it ("**ну хорошо**"). Art effort on those games is therefore not a quality target.
 
+## Sept 20 2026 — the vertical geometry standard is written, and liquid glass moves out of the video
+
+At the [[wiki/meetings/2026-09-20-vertical-geometry-standard-and-adr-consolidation.md|Sunday Sept-20 7:04 AM ET session]] (Russian), [[wiki/people/igor-metelski.md|Igor Metelski]] showed the first written standard for the geometry of a vertical screen. Val's ruling on where it lives is on [[wiki/decisions/2026-09-20-the-vertical-geometry-standard-glossary-and-adrs-go-to-github-outside-any-framework.md]]. [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+
+**The base and the count.** Igor used the product rendered "г к м 3" (read as Georgia COAM 3, an inference) because its art is the newest. By Claude's review, **66 scenes** must be made in vertical format, plus **60 symbol scenes** if the symbols are redone. [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+
+**The zones of a vertical screen.** On a main screen Igor split the picture into: a large **background video**, "**1920 на 1080 вертикальное**"; the **frame for the reels**; the **logo**; one bright **accent element** on a fairly neutral background — "**как, например, в случае игры [Crescent City Carnival]? Вот эта вот девушка**"; a **frame for progressives** where the game has them; and a separate **dashboard** area. Each element has a written position and size, set out "**словесное [о]писание, табличное описание**" and in drawings. [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+
+- **Layouts shown:** a **3×5** game (Igor first called it 3×4; Val and Pavel pointed out it has five reels, and Igor corrected himself) and a **3×3** game.
+- **Screens covered:** main screens of the base game and of free spins, messages, transitions, precognition, anticipation, pay table and help.
+
+**Bonuses had nothing to copy.** In the other product (rendered "над" / "н а т", unresolved) the bonuses have no match in "г к м 3" — the **Dutch Mill** plate-picking bonus, a **Clover Fortune** bonus, and a bonus rendered "джембриллианте" (title not verified). Their originals are horizontal, over two screens. Igor asked Claude to propose vertical layouts from them. The documents describe the bonuses **without naming the games** — "**в документах обезличены**" — so the standard is not tied to one title. [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+
+**Transition timing.** A transition starts as a clear layer over the base game; the base screen dissolves; the transition art shows; then that art dissolves into the bonus screen, so the move is seamless. Igor also wrote where alpha must rise. **Pavel** wanted the base-screen and bonus-screen curves drawn under the alpha curve. **Igor agreed the chart is wrong**: "**это иишка как бы [генерило] это все надо перепроверять ещё руками**"; an earlier draft had drawn it more clearly. [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+
+**Liquid glass, drawn by code.** Today the semi-transparent frames — dashboard, progressive frames, the backing under symbols — are baked into the background video by the designers. Igor built the same effect as a **post-process shader** so the framework draws it over a clean video. Over a moving background (the swaying woman in the game) his frame "**корректным образом преломляет картинку**". Claude wrote the shader and tested it "**через VGL**", not in RAGE. [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+
+- **Why:** a clean video means a new style later needs no new video. [[wiki/people/pavel.md|Pavel]]: "**это правильный подход, потому что очень легко поменять игру с трёх прогрессив левел на 2**".
+- **[[wiki/people/irina-shishko.md|Irina]] had not known the two were fused:** "**Я даже не думала, что они вместе соединены.**"
+- **The old objection.** Pavel recalled that when this came up before, "**Елена говорила, ой, там перепрограммировать, это очень все сложно. Мы не уверены, хватит ли нам перформанса**" — read as [[wiki/people/lena.md|Lena]] by context. Igor's answer: performance-manager statistics show the GPU is not heavily loaded, and the effect is a shader, so it should not hurt much.
+- **The limit.** The effect is baked into the **material of the background video**. An element from another scene placed in that area does not get it. Engine work to lift this was started but not finished — a "**place hole[der]**" sits where working code should be.
+
+[[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+
+**Video rules.** Each video is its own decoder, so a running game should use as few videos as possible, with elements baked together. But before baking, the pieces should stay separate, so a revised standard (say, the logo moves) means only a new bake. The **alpha channel is optional**: where nothing happens it is left out, to save a Full-HD decoder. Igor also noted the layered approach is not new — designers' tools are layered too; only the output arrives flat. [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+
+**Re-cutting the Dutch Mill background.** Val thinks Claude Code can move the horizon point of a flat horizontal picture into a vertical one. Igor said maybe, but with the existing art he cannot split it; for a new game the art could be built for both layouts from the start. He offered to try it as cheap background work. Pavel suggested using only the **raw houses video without frames** — "**лучше иметь голое сырое видео только домиков**" — since the frames would pollute any AI description. Igor noted Claude has no video or image generator of its own; third-party services are needed, and [[wiki/people/anton-leshkevich.md|Anton]] (by context, Anton Leshkevich) had found a good method: break the animation down frame by frame and write a prompt for such a service from it. [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
 - [[raw/Meeting_Transcript_Game_Conversion_Vertical_Scene_Progress-September-17-2026.md]]
 - [[raw/Meeting_Notes_Game_Conversion_Vertical_Scene_Progress-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]

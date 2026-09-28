@@ -3,10 +3,10 @@ type: decision
 title: Hard geometry comes out of the scene files, and every game format gets a fixed vertical skeleton
 date: 2026-09-17
 aliases: [vertical skeleton, жёсткий скелет, hard geometry and motion physics, жёсткая геометрия и физика, skeleton per game format, one universal graphic designer, reference layout is another vertical game, за эталон другую вертикальную игру, 3x3 3x5 4x5 skeletons, game scene is a folder]
-source-count: 2
+source-count: 3
 status: active
-open-commitments: 4
-open-questions: 3
+open-commitments: 3
+open-questions: 2
 ---
 
 # Hard geometry comes out of the scene files, and every game format gets a fixed vertical skeleton
@@ -77,15 +77,26 @@ Nothing was settled between these positions. Val did not rule on the pay table.
 - [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — build the vertical skeletons for the roughly six horizontal games (3×3, 3×5, 4×5), using another existing vertical game's layout as the reference — due "a couple of days", i.e. Sept 18 or Mon Sept 21 2026 — [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
 - [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — pull the hard geometry and motion physics out of the existing scene files with the parsers already written, so each artifact is described in numbers — due unspecified — [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
 - [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — point AI at the game directories and produce the list of scenes across the games with the artifacts each one needs; he said this "**не займёт много времени**" — due unspecified — [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
-- [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — write to Val on Friday Sept 18 with the day he prefers to meet (Saturday, Sunday or Monday) — due Sept 18 2026 — [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
 
 *(A fifth item the derived notes list as an undertaking — writing the technical requirements for an outside designer, naming the video format, aspect ratio and required resources — is in the transcript only as something that **can** be formulated out of this work, "**можно сформулировать чисто технические требования к … внешнему дизайнеру**". It is recorded here as a possibility, not a commitment [[raw/Meeting_Notes_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]] [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]].)*
 
 ## Open questions
 
 - **How does the pay table fit a fixed skeleton?** Pavel and Irina say its layout differs in every game; Anton's grey-square template and Pavel's overlay-the-frames-with-Claude method were both floated and neither was adopted. Val did not rule. [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
-- **Which day do Val and Igor meet — Saturday, Sunday or Monday?** Val flies on Friday and offered Saturday; Igor would rather not work Saturday ("**суббота — день для семьи**"), offered Sunday or Monday, then said "**ну хорошо, давайте в субботу**" anyway; Val refused to choose for him — "**подумайте, напишите мне**" — and added he may be free from the airport on Friday if he gets there early with somewhere to sit. Unresolved at the end of the call. [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
 - **Who fixes the old horizontal scene and the steal scene?** Igor showed that the untouched horizontal scene still breaks — picking something there drops into the steal scene — and said it is outside the question of his own scene. Nobody was assigned. [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
+
+## Sept 20 2026 update — the meeting happened on Sunday, and the geometry is now written down
+
+**The meeting day is answered.** The follow-up took place on **Sunday Sept 20 2026, 7:04 AM ET**, with Pavel and Irina as well. *(That this is the meeting Val and Igor were arranging is read from the day — Sunday was one of Igor's offers — and from the content, which picks up the Sept-17 work; no speaker says so. Inference.)* — see [[wiki/meetings/2026-09-20-vertical-geometry-standard-and-adr-consolidation.md]]. Whether Igor wrote to Val on the Friday is not shown by any source; the item is closed as overtaken by events. [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+
+**Progress on the skeleton work, not a discharge.** Igor brought a written standard of screen zones, positions and sizes for vertical **3×5** and **3×3** layouts, built from the games of the product rendered "г к м 3" (read as Georgia COAM 3, an inference), with a Claude count of **66 scenes plus 60 symbol scenes** to redo. He did not say the six-game skeleton set is finished, so those commitments stay open. [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+
+**What Val ruled next** is recorded on [[wiki/decisions/2026-09-20-the-vertical-geometry-standard-glossary-and-adrs-go-to-github-outside-any-framework.md]]: the standard, a glossary and ADRs go into GitHub outside any framework; then end-to-end tests; then a timed RAGE-to-NOVA conversion.
+
+## History
+
+- [x] [[wiki/people/igor-metelski.md|Igor Metelski]] — write to Val on Friday Sept 18 with the day he prefers to meet — **overtaken by events**: the meeting took place Sunday Sept 20 — [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]] [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+- *(Closed Sept 20 — "Which day do Val and Igor meet — Saturday, Sunday or Monday?" Answered: Sunday Sept 20.)* [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
 
 ## What this decision does not touch
 
@@ -95,5 +106,6 @@ No product, release date, market or cabinet is named for a vertical product anyw
 
 ## Sources
 
+- [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
 - [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
 - [[raw/Meeting_Notes_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]

@@ -2,8 +2,8 @@
 type: person
 title: Sergey Kleimenychev
 date: 2025-11-20
-aliases: [Sergey Kleimenychev, Kleimenychev Sergey, Sergey, Sergei, Sergey Kleimenich, Сергей Клемёныч, Клемёныч, кремёнычев, Kremyonychev, климеч, Klimech]
-source-count: 4
+aliases: [Sergey Kleimenychev, Kleimenychev Sergey, Sergey, Sergei, Sergey Kleimenich, Сергей Клемёныч, Клемёныч, кремёнычев, Kremyonychev, климеч, Klimech, клименвича, клименничева, Sergey Klimenchuk]
+source-count: 5
 open-commitments: 3
 open-questions: 1
 disambiguation: "One of several 'Sergey/Sergei' at JVL. This Sergey = the graphics-team design generalist (artist + a bit of a programmer) who owns the artists' Git/LFS workflow. Distinct from Sergey Tsymanov (Minsk CMS-requirements engineer) and Sergei Novitsky (advanced-setup technician). Resolve by context."
@@ -59,8 +59,13 @@ Three renderings appear in seven minutes: Pavel says "**кремёнычев**",
 
 - **Did he leave JVL between Nov 2025 and Sept 2026?** Val's Sept-16 wording is "bring him back to work"; nothing in the corpus records a departure. [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
 
+## Sept 20 2026 — Val names him as the source of new art
+
+At the [[wiki/meetings/2026-09-20-vertical-geometry-standard-and-adr-consolidation.md|Sunday Sept-20 7:04 AM ET session]], rejecting any use of the game designers, Val said: "**Нам лучше взять этого Сергея [клименвича клименничева], чтоб он нам создал чтото новое, если мы хотим**". Read as this Sergey by context: the day before his Monday start on the Texas work, and a Minsk graphics generalist. The derived notes write the name "**Sergey Klimenchuk**" — a surname that exists nowhere in the corpus; the transcript is followed. Full ruling on [[wiki/decisions/2026-09-20-the-vertical-geometry-standard-glossary-and-adrs-go-to-github-outside-any-framework.md]]. [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
 - [[raw/application of GitHub for graphic design team.md]]
 - [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
 - [[raw/Meeting_Notes_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]

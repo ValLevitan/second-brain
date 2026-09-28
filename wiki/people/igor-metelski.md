@@ -4,8 +4,8 @@ title: Igor Metelski
 date: 2026-07-14
 aliases: [Igor Metelski, Igar Miatselski, Miatselski, Igor, Igor Mitelsky, Мительский, Mitsierski, Igor Mitsierski]
 disambiguation: "RGS engineer on Efim Podvoiski codebase (= payroll Igar Miatselski). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
-source-count: 26
-open-commitments: 14
+source-count: 27
+open-commitments: 20
 ---
 
 # Igor Metelski
@@ -132,12 +132,36 @@ Two `Game_Conversion` sessions the same day. At the [[wiki/meetings/2026-09-17-g
 - [ ] Build vertical skeletons for about six horizontal games (3×3, 3×5, 4×5) — due "a couple of days", Sept 18 or Mon Sept 21 2026 — [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
 - [ ] Pull the hard geometry and motion physics out of the existing scene files with the existing parsers — due unspecified — [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
 - [ ] Point AI at the game directories and produce the list of scenes with the artifacts each needs — due unspecified — [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
-- [ ] Write to Val on Friday Sept 18 with the day he prefers to meet — due Sept 18 2026 — [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
+- [x] Write to Val on Friday Sept 18 with the day he prefers to meet — **overtaken by events**: they met on Sunday Sept 20 (whether he wrote is not shown) — [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]] [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
 
 **§15.8:** clear — engineering and scheduling only; his family-day remark is recorded as scheduling, not as a performance or HR judgement, and no compensation appears.
 
+## Sept 20 2026 — he writes the vertical geometry standard, and is told to put it in GitHub by Thursday
+
+At the [[wiki/meetings/2026-09-20-vertical-geometry-standard-and-adr-consolidation.md|Sunday Sept-20 7:04 AM ET session]] (Russian) he showed what he had built since Sept 17. [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+
+- **A written geometry standard for vertical screens**, based on the product rendered "г к м 3" because its art is newest: screen zones, positions and sizes in text, tables and drawings; 3×5 and 3×3 layouts; the main screens, free spins, messages, transitions, precognition, anticipation, pay table and help. By Claude's count, 66 scenes plus 60 symbol scenes need vertical versions. Detail on [[wiki/topics/game-art-animation-production-pipeline.md]] (Sept 20). [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+- **He works with Claude in Russian.** "**я к [Клоду] работаю на русском, мне как бы так проще**"; he agreed to add a glossary and an English version. He also said he finds large amounts of generated text hard to read, so the document needs checking by hand. [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+- **A liquid-glass shader** drawn by the framework over a clean video, written by Claude and tested through "VGL"; and he found its limit (it does not reach elements from other scenes). [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+- **Where the files were:** not yet committed in one product's repository, copies in the "г к м 3" branch, plus a local md store; he had brought the game rendered "драгон пейс" to the repository standard, but not the older SVN projects. Val ruled the work goes into GitHub, detached from any framework — [[wiki/decisions/2026-09-20-the-vertical-geometry-standard-glossary-and-adrs-go-to-github-outside-any-framework.md]]. [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+- **He did not know the term ADR** and asked: "**что такое эдиарс?**" [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+- **He held the line on sequence.** A timed conversion is meaningless until the end-to-end testing is done; Val agreed. He asked for a week for the GitHub work; Val set Thursday. [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+
+**§15.8:** Val's remarks on his temperament are not recorded.
+
+## Open commitments (Sept 20 2026)
+
+- [ ] Move and organise the geometry standard, glossary, standards and ADRs into GitHub, detached from any framework — due Thu Sept 24 2026 — [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+- [ ] Add the glossary and an English version of the document — due Thu Sept 24 2026 — [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+- [ ] Extract ADRs from the meeting transcripts with Claude, drop the false ones, keep them with the code — due Thu Sept 24 2026 — [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+- [ ] Add frameless integration (objects and backgrounds), the colour approach and materials/motion physics to the glossary — due unspecified — [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+- [ ] Redraw the transition alpha chart so the base-screen and bonus-screen curves show — due unspecified — [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+- [ ] Finish end-to-end auto-testing so a full flow exists — due after the GitHub work — [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+- [ ] Run the timed conversion of a horizontal RAGE game into a working vertical NOVA game — due after end-to-end testing — [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
 - [[raw/Meeting_Transcript_Game_Conversion_Vertical_Scene_Progress-September-17-2026.md]]
 - [[raw/Meeting_Notes_Game_Conversion_Vertical_Scene_Progress-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
