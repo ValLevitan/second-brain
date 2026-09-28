@@ -2,8 +2,8 @@
 type: organization
 title: JCM (bill validator / recycler vendor)
 date: 2025-05-20
-aliases: [JCM, JCM Global, GCM, G 7]
-source-count: 6
+aliases: [JCM, JCM Global, GCM, G 7, G C M]
+source-count: 8
 open-questions: 1
 ---
 
@@ -33,6 +33,19 @@ On the [[wiki/meetings/2026-08-12-hardware-github-standard-bc-sync-design.md|Aug
 - *(Inference, not stated in the source: the four-drum unit fits the "larger four-drum RQ" variant Cliff described in May 2025; the model is not named on Aug-12.)*
 - **A bezel problem (vendor not named).** Genadi said "they" sent a unit without a bezel and the narrow bezel cannot be obtained ahead of a show; a European bezel he found does not fit. The derived notes pin this on JCM; the transcript does not name the vendor. [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]] [[raw/Meeting_Notes_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
 
+## Aug 18 2026 — an outside maker's view: ID-003 papers held back, and JVL cannot buy the connectors
+
+At a show-week [[wiki/meetings/2026-08-18-mutha-goose-maker-supplier-dinner.md|dinner]] the maker of the Mutha Goose ([[wiki/organizations/rks.md|RKS]] by context) described JCM as hard to get documents from. [[raw/Meeting_Transcript_Mutha_Goose_Supplier_Dinner_Intel-August-18-2026.md]]
+
+- **ID-003 editions are not shared.** "JCM's pretty tight-lipped on all their editions they've done. I've got ID zero three documented, But then all of a sudden new calls show up, and they won't give me the latest ID zero three paperwork." His last official copy came "from Paceomatic" ([[wiki/organizations/pace-o-matic.md|Pace-O-Matic]]) after he signed a confidentiality agreement. [[raw/Meeting_Transcript_Mutha_Goose_Supplier_Dinner_Intel-August-18-2026.md]]
+- **Others publish.** "MEI, they they publish theirs openly. Even incredible technologies, they'll let you know anything you want to know about their protocols." [[raw/Meeting_Transcript_Mutha_Goose_Supplier_Dinner_Intel-August-18-2026.md]]
+- **JVL's connector problem.** Val: "We… were trying to uh get one of their connectors. JCM connectors… And they they're not selling… We haven't been able to find." The maker said it is "really close to an automotive part" (Molex). The table agreed the plastic housing can be 3D-printed ("We print the plastic connector" / Val: "that's not an issue. But the pins?") — the pins are a Molex-type pin, and "if the pin is not sitting correctly, it's a lot of problems." Val's view: "Clearly GCM is just this difficult company to do business with" ("GCM" = JCM). [[raw/Meeting_Transcript_Mutha_Goose_Supplier_Dinner_Intel-August-18-2026.md]]
+- *(How this sits with Aug 12 above: there Genadi said JCM "has opened up" and JVL now has the full SDK. Six days later Val still could not buy the connector. Different items — documents vs parts — so recorded as both, not as a contradiction.)*
+
+## Aug 25 2026 — kept as the parallel source while CPI is tried
+
+On an [[wiki/meetings/2026-08-25-texas-install-recycler-sourcing-cpi.md|Aug-25 call]] about a 25-machine Texas install (the transcript renders JCM "G C M"), [[wiki/people/genadi-peari.md|Genadi]] said that on configurability "JCM product is better". Val: "I don't know whether there will be enough capacity or not. And the fact that we have JCM product is fantastic. Let's continue working with JCM, but I also want to try the new C[PI]." — i.e. [[wiki/organizations/crane-cpi.md|CPI]]'s stackable unit. Two suppliers remain the line, as on Aug 12. [[raw/Meeting_Transcript_Texas_Install_Recycler_Sourcing_CPI-August-25-2026.md]]
+
 ## Open questions
 
 - Does the RT denominate notes on the way *out*? Cliff was ~99% sure it tracks which drum holds which denomination (so pre-loaded drums stay correct) but had to confirm. [[raw/JCM_meeting_Cliff__bill_recycler-may-20-2025.md]]
@@ -45,3 +58,5 @@ On the [[wiki/meetings/2026-08-12-hardware-github-standard-bc-sync-design.md|Aug
 - [[raw/JCM_meeting_Cliff__bill_recycler-may-20-2025.md]]
 - [[raw/Meeting_Notes_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
+- [[raw/Meeting_Transcript_Mutha_Goose_Supplier_Dinner_Intel-August-18-2026.md]]
+- [[raw/Meeting_Transcript_Texas_Install_Recycler_Sourcing_CPI-August-25-2026.md]]

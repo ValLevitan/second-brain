@@ -2,8 +2,8 @@
 type: organization
 title: Crane CPI
 date: 2026-02-23
-aliases: [CPI, Crane CPI, Crane, BNR, BNR Advance, BNR BNF, SCR, SCR Advance, SC Advance, Jacob Blair]
-source-count: 5
+aliases: [CPI, Crane CPI, Crane, BNR, BNR Advance, BNR BNF, SCR, SCR Advance, SC Advance, Jacob Blair, CPI stackable recycler]
+source-count: 7
 open-commitments: 3
 open-questions: 1
 disambiguation: "Crane CPI is the bill-acceptor / bill-recycler vendor. It is not the same thing as Val's old company CashCode, which Val says he sold to 'Crane' or 'CPI' (renderings vary; see [[wiki/people/val-levitan.md]]). 'CPI-477' on the FlexPay topic is a Jira ticket key, not this company."
@@ -33,12 +33,13 @@ All figures as Jacob gave them; prices are his ballpark, not quotes. [[raw/Meeti
 
 - **Feb 23 2026 — consultation.** JVL leaned to the SCR if $50/$100 recycling is not available. Detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Feb 23 2026). [[raw/Meeting_Transcript_Crane_CPI_Jacob_Blair_BNR_vs_SCR_Recyclers-February-23-2026.md]]
 - **Jul 31 2026 — the drum-order rule.** Genadi reported that CPI's logic makes the first drum hold the lowest denomination; Val called this unusable and wanted it changed [[raw/Meeting_Notes_Flex_Recycler_Georgia_Show_Readiness-July-31-2026.md]].
+- **Aug 25 2026 — the stackable recycler lead, from the Georgia show.** On an [[wiki/meetings/2026-08-25-texas-install-recycler-sourcing-cpi.md|Aug-25 call]] Val told Genadi he had met "CPI the marketing guy" at "The show in Georgia", who said CPI has a product "that would probably fit our description" for a 25-machine Texas site; Val did not know its name. His understanding: "a product that is stackable. That you could use either four cassettes or six cassettes or eight cassettes." Genadi said CPI positions it for vending; Val thought large retail checkouts ("Walmart's and Kroger's"). Val wants the product information and the SDK — "we already have everything signed with CPI, and there should not be any problems" — and does not know if its SDK and protocol match JVL's current integration. A former JVL employee from Florida now works at CPI and also came to see Val at the show (name not given). Genadi mentioned a "Matthew Cherian"; who he is, and whether he is at CPI, is unclear in the source. [[raw/Meeting_Transcript_Texas_Install_Recycler_Sourcing_CPI-August-25-2026.md]]
 - **Aug 26 2026 — a bigger CPI recycler.** Val told Genadi to source a larger-capacity recycler from CPI; Pavel named the model only as "some BNR or BNP, I think BNR", and said its library would not work with JVL's [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]].
 - *Inference, not stated in any source:* the Feb-23 lean was to the smaller SCR; the Aug-26 order points back to the larger BNR. Recorded as sequence only.
 
 ## Link to Val's CashCode story
 
-Val tells the story of selling his company CashCode in 2006. On Sept 17 2026 he said "Sold it to Crane National Vendor, CPI now" [[raw/Meeting_Transcript_J_and_J_Gaming_Nebraska_Entry_and_Effingham_Evaluation-September-17-2026.md]]. The Feb-23 derived notes also say CashCode "is a Crane brand" [[raw/Meeting_Notes_Crane_CPI_Jacob_Blair_BNR_vs_SCR_Recyclers-February-23-2026.md]]. **The Feb-23 transcript does not mention CashCode at all**, so this meeting adds no evidence to the open "who bought CashCode" question on [[wiki/people/val-levitan.md]].
+Val tells the story of selling his company CashCode in 2006. On Aug 21 2026 he said "I sold it to CPI and CPI later bought MEI which was Mars Electronics. So, the technology behind CPI is my technology", and that with his non-compete over he is "now starting the transactional company again" on that technology [[raw/Meeting_Transcript_Hello_Games_Texas_Market_Entry_Followup-August-21-2026.md]]. On Sept 17 2026 he said "Sold it to Crane National Vendor, CPI now" [[raw/Meeting_Transcript_J_and_J_Gaming_Nebraska_Entry_and_Effingham_Evaluation-September-17-2026.md]]. The Feb-23 derived notes also say CashCode "is a Crane brand" [[raw/Meeting_Notes_Crane_CPI_Jacob_Blair_BNR_vs_SCR_Recyclers-February-23-2026.md]]. **The Feb-23 transcript does not mention CashCode at all**, so this meeting adds no evidence to the open "who bought CashCode" question on [[wiki/people/val-levitan.md]].
 
 ## Open commitments
 
@@ -59,3 +60,5 @@ Val tells the story of selling his company CashCode in 2006. On Sept 17 2026 he 
 - [[raw/Meeting_Notes_Flex_Recycler_Georgia_Show_Readiness-July-31-2026.md]]
 - [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
 - [[raw/Meeting_Transcript_J_and_J_Gaming_Nebraska_Entry_and_Effingham_Evaluation-September-17-2026.md]]
+- [[raw/Meeting_Transcript_Hello_Games_Texas_Market_Entry_Followup-August-21-2026.md]]
+- [[raw/Meeting_Transcript_Texas_Install_Recycler_Sourcing_CPI-August-25-2026.md]]

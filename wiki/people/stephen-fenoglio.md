@@ -2,8 +2,8 @@
 type: person
 title: Stephen Fenoglio
 date: 2026-06-10
-aliases: [Stephen Fenoglio, Steven, Steve, Fenolio, Steve Brunoglio, Stephen Pinoglu, Texas gaming counsel, AMOT outside counsel, the attorney who vets games in Texas, Familio, Filonio, Panolio, Steve Camillo]
-source-count: 6
+aliases: [Stephen Fenoglio, Steven, Steve, Fenolio, Steve Brunoglio, Stephen Pinoglu, Texas gaming counsel, AMOT outside counsel, the attorney who vets games in Texas, Familio, Filonio, Panolio, Steve Camillo, Steve Tonolio, Fenoglio]
+source-count: 8
 open-commitments: 2
 open-questions: 2
 ---
@@ -55,7 +55,17 @@ He told Val he takes a summer sabbatical: **"I'll be leaving July eighth and wil
 On the [[wiki/meetings/2026-08-11-joe-hello-texas-skill-game-payout-wording.md|Aug-11 call]] Texas operator [[wiki/people/joe-hello.md|Joe Hello]] said he was waiting to hear back from a reviewer — rendered "Familio", "Filonio" and "Panolio" — who "doesn't get back till middle of September", and wanted his "final say" before placing a JVL game. [[raw/Meeting_Transcript_Hello_Games_Texas_Skill_Payout_Wording-August-11-2026.md]]
 
 - **Why this is taken to be Fenoglio (inference, not stated).** The garbles sound like his name; he is away on a summer break (his own words on Jun 10: "will not be returning till the end of September"); and he can review a machine only when an operator presents it, which is what Joe is doing. *(Joe says "middle of September", Fenoglio said "end of September" — second-hand timing, not reconciled.)* [[raw/Meeting_Transcript_Stephen_Fenoglio_Texas_Skill_Gaming_Counsel-June-10-2026.md]] [[raw/Meeting_Transcript_Hello_Games_Texas_Skill_Payout_Wording-August-11-2026.md]]
-- **Notes divergence.** The Aug-11 derived notes call this reviewer "Steve Camillo". That name is not in the recording; it is kept as an alias only. [[raw/Meeting_Notes_Hello_Games_Texas_Skill_Payout_Wording-August-11-2026.md]]
+- **Notes divergence.** The Aug-11 derived notes call this reviewer "Steve Camillo". That name is not in the Aug-11 recording; it is kept as an alias only. [[raw/Meeting_Notes_Hello_Games_Texas_Skill_Payout_Wording-August-11-2026.md]] *(It does appear in the Aug-21 recording — see below.)*
+
+## Aug 21 2026 — booked to review the JVL game on his return (name by context)
+
+On the [[wiki/meetings/2026-08-21-joe-hello-texas-market-entry-follow-up.md|Aug-21 follow-up call]] [[wiki/people/joe-hello.md|Joe Hello]] and Jordan Barberio spoke of the reviewer again. [[raw/Meeting_Transcript_Hello_Games_Texas_Market_Entry_Followup-August-21-2026.md]]
+
+- **Return date and booking.** Joe: "Steve Camillo to make sure he has a good in depth look at the game… He'll be back around I think September twentieth… I've got him booked up to come here." He has the manual and the how-to-play material. [[raw/Meeting_Transcript_Hello_Games_Texas_Market_Entry_Followup-August-21-2026.md]]
+- **How he reviews.** Joe: "He sat there in front of the pace game. He's he sat there in front of the Banilla game for hours and just did his little notes." [[raw/Meeting_Transcript_Hello_Games_Texas_Market_Entry_Followup-August-21-2026.md]]
+- **To sit in on the October install.** Joe wants the first-week-of-October equipment install "After Steve is back, and we can have him sit down with us". [[raw/Meeting_Transcript_Hello_Games_Texas_Market_Entry_Followup-August-21-2026.md]]
+- **Name (§4, by context — inference).** One recording names him three ways: "Steve Camillo" (Joe), "Fenoglio" (Jordan: "We probably want to update Fenoglio on this conversation, Joe") and "Steve Tonolio" (Joe: "you have Steve Tonolio's email address"). All three are read here as one reviewer, Stephen Fenoglio: same first name, the same away-until-September timing, and the same role of reviewing games that operators present. The derived notes instead treat "Fenoglio" as Steve Camillo's colleague. Not owner-confirmed. [[raw/Meeting_Transcript_Hello_Games_Texas_Market_Entry_Followup-August-21-2026.md]] [[raw/Meeting_Notes_Hello_Games_Texas_Market_Entry_Followup-August-21-2026.md]]
+- *(Timing: "around… September twentieth" (Aug 21), "middle of September" (Aug 11), "end of September" (his own words, Jun 10) — all second-hand except the last; not reconciled.)*
 
 ## Open commitments
 
@@ -81,3 +91,5 @@ On the [[wiki/meetings/2026-08-11-joe-hello-texas-skill-game-payout-wording.md|A
 - [[raw/Meeting_Notes_AMOT_Texas_Market_Scouting-June-5-2026.md]]
 - [[raw/Meeting_Transcript_Hello_Games_Texas_Skill_Payout_Wording-August-11-2026.md]]
 - [[raw/Meeting_Notes_Hello_Games_Texas_Skill_Payout_Wording-August-11-2026.md]]
+- [[raw/Meeting_Transcript_Hello_Games_Texas_Market_Entry_Followup-August-21-2026.md]]
+- [[raw/Meeting_Notes_Hello_Games_Texas_Market_Entry_Followup-August-21-2026.md]]

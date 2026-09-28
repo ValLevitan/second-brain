@@ -3,9 +3,9 @@ type: organization
 title: United Gaming (Georgia's largest master operator)
 date: 2026-09-02
 aliases: [United, United Gaming, Bunty's company, the largest Georgia master]
-source-count: 5
+source-count: 6
 open-commitments: 1
-open-questions: 2
+open-questions: 1
 ---
 
 # United Gaming (Georgia's largest master operator)
@@ -49,7 +49,7 @@ Val opened the lunch with "what is this exodus from United?" The InComm side des
 - The wiki carries **"Jason Hall"** twice — as **United's director of operations** (Feb-18 2026, the only United contact [[wiki/people/felipe-miranda.md|Felipe]] could reach) and as **InComm's Georgia COAM lead** who "joined InComm ~5 months earlier" as of Jul-27 2026, i.e. around February 2026. Both are on [[wiki/projects/georgia-market-rollout.md]] and [[wiki/organizations/incom.md]].
 - The commercial lead's self-description — three years running United's operations and gift cards, then recruited into InComm — fits that pattern on its face.
 - **The one bare "Jason" in the transcript does not settle it, and arguably cuts the other way.** It appears in the second leaver's line "and then a few months later, I said, 'Jason, I'm gonna go to lunch'" — which could address the colleague across the table, **or** refer to **Jason Flurry**, United's CFO, who is named twice later in the same transcript. Ambiguous; no reading is adopted.
-- **This is recorded as an unresolved same-name question, not asserted.** No source in the corpus states that United's Jason Hall and InComm's Jason Hall are the same person, and no page is merged on the strength of it. Queued for the owner.
+- **An earlier-dated source now says it outright (back-filled Aug 27 2026).** In office talk recorded after the [[wiki/meetings/2026-08-27-bank-of-america-treasury-needs-review.md|Aug-27 Bank of America call]], [[wiki/people/felipe-miranda.md|Felipe]] said that before his current United contact "it was Jason Hall, who is in now with helping Andre at income [InComm]. He… was the person. I had contact with." Val: "Jason Hall, was with United?" Felipe: "Yeah, he was… my contact for placing orders and everything." Val then phoned Jason and asked, "I also understand that you uh worked for United, am I correct?" (Jason's reply is not on the tape), and afterwards said "That changes a lot of things that Jason worked for, income… Worked, sorry, worked for United." [[raw/Meeting_Transcript_BofA_Treasury_MS_Dynamics_Integration-August-27-2026.md]] So a source now states that InComm's Jason Hall is the former United contact. Reading "Andre" as [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] (who works with InComm) is an inference. No pages exist to merge; the identity is recorded here and queued for owner confirmation.
 
 ## Market position (from the Sept-2 lunch)
 
@@ -69,8 +69,12 @@ Val opened the lunch with "what is this exodus from United?" The InComm side des
 
 ## Open questions
 
-- **Is United's "Jason Hall" (director of operations, Feb 2026) the same person as InComm's "Jason Hall" (Georgia COAM lead, joined ~Feb 2026)?** The Sept-2 lunch supplies circumstantial support — an ex-United operations/gift-card executive recruited into InComm at about that time — but **no source says so**, the InComm attendees are unnamed, and the single bare "Jason" in the transcript is ambiguous against the **Jason Flurry** named later in the same file. Left unresolved; no pages merged — [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]] [[raw/To-Do_Georgia_meetings-February-18-2026.md]]
 - **Has the change of control at United already changed formal purchasing authority, or only the budget process?** "I don't think there's been any **formal changes yet**" — stated by someone who had left the company — [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]]
+
+## Answered questions
+
+- **Is United's "Jason Hall" the same person as InComm's "Jason Hall"?** Answered by source: yes, per Felipe on Aug 27 2026 (see above) [[raw/Meeting_Transcript_BofA_Treasury_MS_Dynamics_Integration-August-27-2026.md]]. Owner confirmation still requested. The original question as first raised is kept below for the record.
+- *(Superseded question, as first raised)* **Is United's "Jason Hall" (director of operations, Feb 2026) the same person as InComm's "Jason Hall" (Georgia COAM lead, joined ~Feb 2026)?** The Sept-2 lunch supplies circumstantial support — an ex-United operations/gift-card executive recruited into InComm at about that time — but **no source says so**, the InComm attendees are unnamed, and the single bare "Jason" in the transcript is ambiguous against the **Jason Flurry** named later in the same file. Left unresolved; no pages merged — [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]] [[raw/To-Do_Georgia_meetings-February-18-2026.md]]
 
 **§15.8:** clear — credit lines, capex budgets, market position and role descriptions only; no compensation figure for any named person appears in either Sept-2 InComm source.
 
@@ -81,3 +85,4 @@ Val opened the lunch with "what is this exodus from United?" The InComm side des
 - [[raw/To-Do_Georgia_meetings-February-18-2026.md]]
 - [[raw/Meeting_Transcript_Rich_Winley_Georgia_COAM_Market_Intel-January-27-2026.md]]
 - [[raw/Meeting_Transcript_Rich_Winley_Texas_Rollout_Delay_and_Georgia_Buyers-March-9-2026.md]]
+- [[raw/Meeting_Transcript_BofA_Treasury_MS_Dynamics_Integration-August-27-2026.md]]

@@ -3,7 +3,7 @@ type: decision
 title: Give the operator all the transactional hardware free and charge a fixed ~$60–90 per month; hand the per-transaction dollar back to the operator
 date: 2026-08-24
 aliases: [free hardware monthly fee, $65 per month model, operator keeps the transaction dollar, profit centre not cost centre, Flex subscription model, 42000 machines 7400 locations]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 1
 open-questions: 2
@@ -42,15 +42,26 @@ This is consistent with the ~$65–$100/month recurring-revenue figure Val repor
 
 - **Drop Flex IQ entirely and issue vouchers from any mobile device running a cashier app.** Val: "2 этапом мы уходим от флекс IQ. И даём им пользоваться любым… Мобильным девайсом, с какимто приложением?" and even wondered aloud whether it should come first ("А может быть, это даже стоит сделать в первую?"). Pavel liked it — "в плане железа упрощается" — but flagged the cost trap: "понадобится ставить модем в каждый… сми борт… чтоб каждый сми п независимо… На сервер передавал данные," which Val agreed would put the cost back where it started: "Ну тогда это получится то же самое. По цене." Left as a possible stage 2 [[raw/Meeting_Transcript_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]].
 
+## Update — Aug 27 2026: the model said to a customer, at $49
+
+Three days later, at the [[wiki/meetings/2026-08-27-arc-coffee-fleet-swap-and-transactional-pitch.md|Aug-27 coffee at ARC Gaming]], Val put the same model to a master — but with a lower number and a retail price on the hardware. [[raw/Meeting_Transcript_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]]
+
+- **The fee: $49 a month, per location.** "we need a forty nine dollar per month charge. We have a number of expenses associated with it… we do need a monthly connection fee, which is forty nine dollars." An ARC voice: "Per location." [[raw/Meeting_Transcript_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]]
+- **The transaction dollar, handed over.** "what [InComm] offers is a dollar for… validated transaction. So we don't want that dollar. We're happy to give up the dollar to either you or location. I don't know what the legislation legislative restrictions are, but we're really not after that dollar." [[raw/Meeting_Transcript_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]]
+- **The hardware is not called free here.** Val gave "a thousand dollar per machine retail" for the POS + Flex-Port — then "Don't worry about the price." [[raw/Meeting_Transcript_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]]
+
+$49 is below the $60–90 range and the $65 reference above. Whether it is a new figure or a pitch number for one customer is not stated. [[raw/Meeting_Transcript_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]]
+
 ## Open commitments
 
 - [ ] Val Levitan — write up the player use-case and the operator / master-operator business case in plain writing against the ~$45 (Mini) / ~$250 (Flex-Port) budget assumptions, then have Claude produce the capabilities document, and reconvene — due unspecified — [[raw/Meeting_Transcript_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
 
 ## Open questions
 
-- The fee is a range ($60–90) with $65 as the working reference; the final figure is not fixed — [[raw/Meeting_Transcript_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
+- The fee is a range ($60–90) with $65 as the working reference; the final figure is not fixed — [[raw/Meeting_Transcript_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]] *(Aug 27: $49 per location quoted to ARC — still not fixed.)* [[raw/Meeting_Transcript_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]]
 - What kind of specialist is needed to build the stage-2 mobile cashier app? Val: "Я не знаю, что для этого требуется какого сорта специалист для этого тоже" — [[raw/Meeting_Transcript_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
 
 ## Sources
 - [[raw/Meeting_Notes_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
 - [[raw/Meeting_Transcript_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]]
+- [[raw/Meeting_Transcript_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]]

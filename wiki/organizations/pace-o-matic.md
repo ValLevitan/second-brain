@@ -3,7 +3,7 @@ type: organization
 title: Pace-O-Matic
 date: 2026-06-10
 aliases: [Pace-O-Matic, Pace, Pace Omatic, Panthematic, pays thematics, paces, POM, Pace Somatic, pace matters]
-source-count: 4
+source-count: 6
 open-commitments: 0
 open-questions: 1
 ---
@@ -60,11 +60,20 @@ Five months before Fenoglio, Texas operator [[wiki/people/rich-winley.md|Rich Wi
 - **Why Texas rooms dislike it.** Asked why operators are "rebellious against it": "Machines are shit and their distributors are not great. They don't service the machines like they should" — and, when Val asked if the issue is sharing profit, "It's a share in the profit… 33%". This fits Fenoglio's later "Pace does not sell… operate[s] it through a series of operators" (above); neither source mentions the other.
 - **JVL's angle.** Rich framed JVL's Texas chance as "how many of these pace matters can we replace" ("pace matters" as transcribed = Pace-O-Matic machines, an inference).
 
+## Aug 21 2026 — two Texas operators on Pace before the January session
+
+On the [[wiki/meetings/2026-08-21-joe-hello-texas-market-entry-follow-up.md|Aug-21 call]] Texas operators [[wiki/people/joe-hello.md|Joe Hello]] and Jordan Barberio gave Val their view of Pace. [[raw/Meeting_Transcript_Hello_Games_Texas_Market_Entry_Followup-August-21-2026.md]]
+
+- **Pace is preparing for the session.** Joe: "Pace is here with all their legal team going to be here for the sessions, starting in January… They're actually already starting the prep… with their legal team and lobbyists." [[raw/Meeting_Transcript_Hello_Games_Texas_Market_Entry_Followup-August-21-2026.md]]
+- **Its profile has drawn heat.** Joe: "Pace has really come in and just put their face in front of everybody… and really just kind of exposed our whole industry to a lot of criticism… making their self known that skill game is legal. And we're going to operate whether you like it or not." [[raw/Meeting_Transcript_Hello_Games_Texas_Market_Entry_Followup-August-21-2026.md]]
+- **Pace set the path, Banilla followed.** Joe: "It started with Pace; Pace kind of set the path for everybody… Behind them came Banilla… there's a Pace game, there's a Banilla game and there's nothing else." He put the Texas market at "eighty percent Banilla". [[raw/Meeting_Transcript_Hello_Games_Texas_Market_Entry_Followup-August-21-2026.md]]
+
 ## Where else Pace appears in this wiki
 
 - [[wiki/projects/texas-used-machine-distribution.md]] — the Sept-23 2025 competitive read (ranking, TRT access, the placement model) and the Jun-5 2026 AMOT show observations.
 - [[wiki/projects/nebraska-skill-market.md]] — external counsel "Nick" is described as having worked a Pace-O-Matic-style Texas case.
 - [[wiki/organizations/incom.md]] — the Fannin County ruling as InComm's reason for re-opening Texas.
+- [[wiki/organizations/jcm.md]] — Aug 18 2026: the Mutha Goose maker said his last official copy of JCM's ID-003 protocol came "from Paceomatic" after he signed a confidentiality agreement. [[raw/Meeting_Transcript_Mutha_Goose_Supplier_Dinner_Intel-August-18-2026.md]]
 
 **§15.8:** clear — market, litigation and business-model knowledge only (Rich Winley's own finances from the Jan-8 lunch are not recorded here); no named-person compensation. The seized-cash and criminal-defence-cost figures are third-party enforcement and market data.
 
@@ -78,3 +87,5 @@ Five months before Fenoglio, Texas operator [[wiki/people/rich-winley.md|Rich Wi
 - [[raw/Meeting_Notes_Stephen_Fenoglio_Texas_Skill_Gaming_Counsel-June-10-2026.md]]
 - [[raw/incomm_transcript_gacoam_payment_options-april-4-2025.md]]
 - [[raw/Meeting_Transcript_Rich_Winley_Miami_Lunch_Texas_Distribution_Pitch-January-8-2026.md]]
+- [[raw/Meeting_Transcript_Mutha_Goose_Supplier_Dinner_Intel-August-18-2026.md]]
+- [[raw/Meeting_Transcript_Hello_Games_Texas_Market_Entry_Followup-August-21-2026.md]]

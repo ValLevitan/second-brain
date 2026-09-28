@@ -3,7 +3,7 @@ type: organization
 title: Incom (payment processor)
 date: 2025-02-27
 aliases: [Incom, InComm, SkillPay launch email, hold off for two years, we will take the card away from you, Intum, they totally misled me, InComm's credit, that shift in opinion has only happened recently, black prize play card, white card ATM functionality, replace InComm on the back end, backend displacement, Incomm, Income, NCOM, Incom Payments, wrapped card rule, PAX, PAX 80, reloadable gift cards, Nathan Carver, cash-back commission, barcode activation, Mastercard rules, ABA number, MLH fee sharing, kicked to the curb, InComm doesn't offer any profit sharing, they've ignored us before during and after the show, sponsor bank behind InComm, 120 million a year, the easy living guys, daily cap five k, velocity calculated on the fly, it still says soon, InComm is the master guy, sub accounts, they actually buy bonds, biggest issuer, blue card, black card, billion-dollar gorilla, two dollars to load]
-source-count: 74
+source-count: 75
 open-commitments: 14
 open-questions: 7
 ---
@@ -314,6 +314,15 @@ Two customer visits give the field view of the card program JVL sells alongside:
 - **Aug 27, at [[wiki/organizations/halcyon-amusements.md|Halcyon Amusements]] — the commission stack that the Georgia Lottery has now noticed.** "[InComm] is taking **two dollars fifty cents** to transact that card. Now the retailer to do cash back is saying, 'Hey, we'll take **five dollars or ten dollars or thirty dollars**.' And at some locations, when they win a big prize, the players come in like, 'I've got a thousand dollars on this card. **Keep fifty dollars. Keep a hundred dollars.**'" The lottery's reaction, per the operator: "'Oh man, we're missing out on this money. How do we come back in?'" — and it has sent retailers a notice demanding end-of-day register reports, bank statements and the cash-back commissions they charge. Full account and the reversal of **Chris Plonic**'s earlier "we don't care what happens to it" position on [[wiki/projects/georgia-market-rollout.md]] (Aug 27 2026). [[raw/Meeting_Transcript_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]]
 - **Why it matters here:** the $2.50 InComm transaction fee is the *floor* of a stack the retailer builds on, and it is the retailer's markup — not InComm's fee — that has drawn the regulator in. That sits directly beside the Aug-26 ATM red line above, where InComm warned JVL off combining an ATM with a Georgia COAM redemption kiosk. [[raw/Meeting_Transcript_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]]
 
+## Aug 27 2026 — the day after the follow-up, as Val told it to ARC
+
+At the [[wiki/meetings/2026-08-27-arc-coffee-fleet-swap-and-transactional-pitch.md|Aug-27 coffee at ARC]], Val's own account of the Aug-26 InComm call, and ARC's view of InComm's motive. [[raw/Meeting_Transcript_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]]
+
+- **"Slow down", promised.** "Yesterday, I had a meeting with [InComm], and they politely asked me to slow down in my ambitions, which I promised to do, and I think that pacified them." [[raw/Meeting_Transcript_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]]
+- **"Please don't do it for two years."** Asked about the authorities, Val: "They told me please don't do it for two years… they didn't say you're not allowed; they said, 'Please don't do it for two years.' And [InComm] specifically called me and said, 'We feel uncomfortable sanctioning this.'" Who "they" are in the first sentence is **not stated**. This is the earliest dating of the two-year request in the corpus. [[raw/Meeting_Transcript_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]]
+- **ARC's read of InComm's motive: fees.** "their solution… It cuts them out of fifty percent of their fees. Because if… your step is a digital card… the transformation to the cash it's irrelevant"; another ARC voice: "they're cutting out their interchange fees on the back end and ATM fees… Give us time to build out this thing." And: "[InComm], they're trying to protect their own interests." These are ARC's opinions. [[raw/Meeting_Transcript_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]]
+- **The dollar per card, offered away.** Val: "what [InComm] offers is a dollar for… validated transaction. So we don't want that dollar. We're happy to give up the dollar to either you or location." Fee detail on [[wiki/decisions/2026-08-24-free-hardware-fixed-monthly-fee-model.md]]. [[raw/Meeting_Transcript_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]]
+
 ## Aug 31 2026 — the broker's view: InComm's daily file, the two shut-off thresholds, and a two-day cash cycle
 
 The [[wiki/meetings/2026-08-31-arc-gaming-transactional-demo-class-a.md|Aug-31 ARC Gaming demo]] is the corpus's clearest account of what it is like to sit **between** InComm and the locations. [[wiki/organizations/arc-gaming.md|ARC Gaming]] is its own card broker, and its COO [[wiki/people/georgios-zazanis.md|George Zazanis]] walked [[wiki/people/val-levitan.md|Val]] through the whole loop. Full operational detail on [[wiki/organizations/arc-gaming.md]]; what belongs here is the InComm-side mechanics. [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
@@ -606,7 +615,7 @@ He describes a prior association meeting at which the position was set: "**once 
 
 ### Val's grievance: InComm asked him to build a retail kiosk, then told him to shelve it for two years
 
-**This is new to the corpus and it is the strongest thing Val says about InComm anywhere in it.**
+**This is the strongest thing Val says about InComm anywhere in the corpus.** *(Back-fill correction: this line earlier said the story was new to the corpus. The "please don't do it for two years" request itself is already in Val's Aug-27 ARC account above; what is new on Sept 17 is the kiosk-commission story and the threat to take the card away.)*
 
 > "**Two years ago, [InComm] came to me. They came to my office and they asked me to manufacture [a] retail kiosk that I showed in the show. You saw it, right? So we shook hands. I said, 'Okay, great, I'll do it.' I did it. So then, [InComm] calls me and says, 'We need you to — after the show. We need you to hold off for two years.' I said, 'What are you saying?'… I showed it. I put money into it.**"
 
@@ -722,3 +731,4 @@ Val: "**the mistake is this conflict should have been left in the back room, not
 - [[raw/Meeting_Notes_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Rich_Winley_Miami_Lunch_Texas_Distribution_Pitch-January-8-2026.md]]
 - [[raw/Meeting_Transcript_Doug_Skrepnek_Loan_Lenience_and_Business_Update-January-9-2026.md]]
+- [[raw/Meeting_Transcript_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]]

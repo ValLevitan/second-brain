@@ -3,7 +3,7 @@ type: person
 title: Bob (American FlexPay/Georgia colleague — identity unresolved)
 date: 2025-04-07
 aliases: [Bob, Bob Perez, Bob at Perez, IFS founder]
-source-count: 7
+source-count: 8
 disambiguation: "'Bob' as addressed on the Apr 7 2025 SMIB/TITO meeting — an American colleague on the FlexPay/Georgia side. Very likely the same 'unnamed American attendee' of the Mar 27 scope-gap meeting (Bally iView background, M3T/Mother Goose knowledge, Georgia demo coordination). Owner-ruled 2026-07-15: definitively NOT Michael Gottlieb. Identity itself owner-deferred to future transcripts. Separately, on the Apr 5 AND May 29 Denis Desmarais↔Val calls a speaker is addressed as 'Bob' (Apr-5 greeting = Val's content; May-29 Val signs off 'OK, Bob' to Denis) — a recurring transcription/verbal-tic artifact on those calls, not this person."
 open-questions: 1
 ---
@@ -47,6 +47,8 @@ open-questions: 1
   - **Sept 1 2026 — [[wiki/people/ryan-odonnell.md|Ryan O'Donnell]]** of [[wiki/organizations/double-down-gaming.md|Double Down Gaming]], at the [[wiki/meetings/2026-09-01-double-down-gaming-visit.md|Double Down visit]], answering Andrei's question about who provides his kiosks and cards: "**I had a couple kiosks already from IFS, so I'm using IFS one.** Is it card or is it the cell? The card is. **I gotta talk to Bob at Perez.**" And on the card's status: "is it ATM access card? **Not yet.**" [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
   - **Why this is a lead and not a resolution.** The Sept-1 source is the first in the corpus to put **"Bob"** and **IFS** in the same breath from an operator's own mouth, which matches the July-2025 description of this Bob as the founder of IFS. But no source states that the two are the same man; "Bob at Perez" and "Bob Perez" are not the same construction; and "Perez" is a name neither source explains. **Read as a labelled inference, queued Tier A for the owner; nothing merged, no page created for "Bob Perez," and the identity stays owner-deferred.** The variants are carried in `aliases` so a future source naming him resolves against this page rather than spawning a second one.
 
+- **Aug 18 2026 — the IFS QR-code kiosk, from its hardware side (still not resolving).** At a show-week [[wiki/meetings/2026-08-18-mutha-goose-maker-supplier-dinner.md|dinner]] the Mutha Goose maker expanded IFS as "the internal financial services" and said "We did a system with him, and that's what he did was print QR codes" — a standalone kiosk where a QR code set up "a virtual bank account". "Him" is not named; that it is this Bob is an **inference** from the IFS link above, not stated. Val: "I'll go look at IFS tomorrow." (The "Bob" later in the same transcript is a shooting-range acquaintance — unrelated.) [[raw/Meeting_Transcript_Mutha_Goose_Supplier_Dinner_Intel-August-18-2026.md]]
+
 ## Sources
 
 - [[raw/flex_pay_tito_smib_port-april7-2025.md]]
@@ -56,3 +58,4 @@ open-questions: 1
 - [[raw/incomm_product_discussion-july-2-2025-9.md]]
 - [[raw/Meeting_Transcript_Dixie_Amusement_Kiosk_Wait_and_See_and_Market_Economics-August-31-2026.md]]
 - [[raw/Meeting_Transcript_Double_Down_Gaming_Operations_Review-September-1-2026.md]]
+- [[raw/Meeting_Transcript_Mutha_Goose_Supplier_Dinner_Intel-August-18-2026.md]]

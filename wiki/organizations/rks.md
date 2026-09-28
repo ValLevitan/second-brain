@@ -2,13 +2,14 @@
 type: organization
 title: RKS (Mother Goose board maker)
 date: 2025-07-09
-aliases: [RKS, RTS, Mother Goose, Mutha Goose, Mutagoose, Muda Goose, Mutable, Mutabus, Jim RKS, Escape POS printer, Janka Labs]
-source-count: 3
+aliases: [RKS, Really Killer Systems, RTS, Mother Goose, Mutha Goose, MudaGoose, Mutagoose, Muda Goose, Mutable, Mutabus, Jim RKS, Escape POS printer, Janka Labs, Mutha Goose maker]
+source-count: 8
+open-questions: 2
 ---
 
 # RKS (Mother Goose board maker)
 
-RKS is the third-party maker of the **Mother Goose** board (transcribed variously "Muda Goose," "Mutagoose," "Mutabus," "Mutable"), the payout/print controller that sits at the end of the machine daisy-chain in Georgia COAM locations. JVL's Flex-POS strategy centres on capturing the Mother Goose ticket signal, so RKS is a recurring counterparty. JVL's contact there is **Jim**. Interaction sequence in July 2025: **Jul 7** first Jim call (FTP-board deep-dive; [[wiki/meetings/2025-07-07-rks-mother-goose-ftp-board.md]]) → **Jul 9** internal FTP-vs-serial debate → **Jul 14** Jim confirms the confidence-number hash. [[raw/JVL-RKS-Mutha-Goose-Printer-1.md]] [[raw/Flex-POS Mid-Iteration Sync.md]] [[raw/Flex-POS Iteration Planning 2025-07-14.md]]
+RKS is the third-party maker of the **Mother Goose** board (transcribed variously "Muda Goose," "Mutagoose," "Mutabus," "Mutable"), the payout/print controller that sits at the end of the machine daisy-chain in Georgia COAM locations. JVL's Flex-POS strategy centres on capturing the Mother Goose ticket signal, so RKS is a recurring counterparty. JVL's contact there is **Jim**. Interaction sequence in July 2025: **Jul 7** first Jim call (FTP-board deep-dive; [[wiki/meetings/2025-07-07-rks-mother-goose-ftp-board.md]]) → **Jul 9** internal FTP-vs-serial debate → **Jul 14** Jim confirms the confidence-number hash. [[raw/JVL-RKS-Mutha-Goose-Printer-1.md]] [[raw/Flex-POS Mid-Iteration Sync.md]] [[raw/Flex-POS Iteration Planning 2025-07-14.md]] Later: **Aug 2026** a show-week dinner with the Mutha Goose maker (see the Aug-18 section below). [[raw/Meeting_Transcript_Mutha_Goose_Supplier_Dinner_Intel-August-18-2026.md]] Then **Aug 25 2026** Val visited the shop (two recordings; see the Aug-25 sections below). [[raw/Meeting_Transcript_Really_Killer_Systems_Operator_Vetting-August-25-2026.md]]
 
 ## Jul 7 2025 — first Jim call (the FTP replacement board)
 
@@ -33,8 +34,57 @@ On the first direct call ([[wiki/people/juan-martinez.md|Juan Martinez]] + [[wik
 - Val is skeptical the RS-485 protocol will ever be shared (RKS guards it so their board can't be replaced), so JVL focuses on the **RS-232 printer protocol** and is confident Evgeny/Yavorski can reverse-engineer the signals if needed. Nathan (not Pavel/Genadi) owns the Jim interaction — same time zone, "culturally more compatible." [[raw/Flex-POS Mid-Iteration Sync.md]]
 - A second Mother Goose competitor, **Omega Games**, exists but is mainly for their own operations and is **less than 1% of the market** (Felipe has never seen one in use) — JVL will focus on RKS only. [[raw/Flex-POS Mid-Iteration Sync.md]]
 
+## Aug 18 2026 — the maker at dinner: how the Mutha Goose is sold, who builds the back ends, and the SAS wedge
+
+At a show-week [[wiki/meetings/2026-08-18-mutha-goose-maker-supplier-dinner.md|dinner]] with [[wiki/people/val-levitan.md|Val]] and [[wiki/people/inna-levitan.md|Inna]], the maker of the Mutha Goose (transcribed "MudaGoose") talked about his system. The transcript never says "RKS" or "Jim"; the link to this page is by context (he speaks as the Mutha Goose's maker), and the link to Jim is an **inference** queued for the owner — see the stub. [[raw/Meeting_Transcript_Mutha_Goose_Supplier_Dinner_Intel-August-18-2026.md]]
+
+- **Why it exists.** It was "designed a quarter of a century ago, just to get the printers out of the machines" — one printer "at the counter… or kiosks" instead of one per machine. "I didn't think anything about barcodes, QR codes." Every in-machine printer jams or runs out of paper, and in rural Georgia a field tech may drive hundreds of miles to clear one (his example: "I'm in Macon, there's a printer down in Valdosta"). [[raw/Meeting_Transcript_Mutha_Goose_Supplier_Dinner_Intel-August-18-2026.md]]
+- **No recurring fee.** "Now there's no work charges." His partner: "You buy the MudaGoose system… It's that one time purchase." (What else is bought is garbled — "the blood jugs or the runs".) [[raw/Meeting_Transcript_Mutha_Goose_Supplier_Dinner_Intel-August-18-2026.md]]
+- **He supplies data; others build the back ends.** "We make one unit that goes online that you can make a back end for." "I don't do the backend system. I just supply the data… they give me their cloud server address." One back end is built by a firm in Florida transcribed "**Platinum Pet Services**" (name as heard; unverified), and "there's another… local guy" with near-identical software. Asked if it is "four eighty five protocol between them" — "Yes… then it goes out over the internet." [[raw/Meeting_Transcript_Mutha_Goose_Supplier_Dinner_Intel-August-18-2026.md]]
+- **Machines per location.** He confirmed Val's "approximately six machines per location" and gave the figure from his own link system: "That average is like five point seven." [[raw/Meeting_Transcript_Mutha_Goose_Supplier_Dinner_Intel-August-18-2026.md]]
+- **Custom work for JVL.** "Done a couple custom extensions to the system for like JVL, where they was doing some barcode stuff." No other source in this wiki describes this work; recorded as said. [[raw/Meeting_Transcript_Mutha_Goose_Supplier_Dinner_Intel-August-18-2026.md]]
+- **The legacy burden.** "You just layer stuff on twenty five year old backwards compatibility and I've got the Intel problem. Had I known what the industry was going to become, I would not have done it the way I did it." A major rework "would be incompatible with most of these." (Same "Intel problem" phrase as Jim on Jul 7 2025, above.) [[raw/Meeting_Transcript_Mutha_Goose_Supplier_Dinner_Intel-August-18-2026.md]]
+- **The SAS wedge — what he is building now.** "Now that they're putting secondary SAS on everything, it just makes sense to go to SAS… to keep the old system rocking and rolling, Where I am doing a SAS to our network protocol wedge, so they can send money onto the secondary SAS. They all want to keep what they've already paid." [[raw/Meeting_Transcript_Mutha_Goose_Supplier_Dinner_Intel-August-18-2026.md]]
+- **Operators feel squeezed.** "They're being bled dry by everything. Every time the lottery has something new come out, it's more money out of their pocket. All… these guys that have the accounting systems, they want a monthly fee that's outrageous on every machine." [[raw/Meeting_Transcript_Mutha_Goose_Supplier_Dinner_Intel-August-18-2026.md]]
+- **Fiery Pay hardware.** He says his side "did all the hardware except for that, the prebuilt POS" for Fiery Payment; "they had an outside contract" for the POS, and "I did everything from the USB port to the games." Fiery Payments "wanted to leverage our existing… structure". Detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Aug 18). [[raw/Meeting_Transcript_Mutha_Goose_Supplier_Dinner_Intel-August-18-2026.md]]
+- **Open to a redesign.** Val: "Are you open to any redesigns? … And will you do it yourself?" — "Sure." / "It depends on how complicated it is. I have other outsiders like pull in if something needs that I can't get done right away." At the close, both were going to the show next day, and he offered: "If you want to talk about messing around with adding some functionality or something." No commitment was made. [[raw/Meeting_Transcript_Mutha_Goose_Supplier_Dinner_Intel-August-18-2026.md]]
+- **In-house build.** Most interface boards are built in-house, with short runs and repairs done by their own staff. Whether "We actually own half of it… We're in S Corp" refers to Fiery Payment or to his own company is **unclear**. [[raw/Meeting_Transcript_Mutha_Goose_Supplier_Dinner_Intel-August-18-2026.md]]
+- **Notes vs transcript.** The derived notes turn Val's unconfirmed "fifty bucks a month" guess into a Fiery Pay price, and omit the Fiery hardware, JVL-extensions and 5.7-machines points. [[raw/Meeting_Notes_Mutha_Goose_Supplier_Dinner_Intel-August-18-2026.md]]
+- **How it sits against later sources (inference, not stated here).** Within three weeks JVL ruled against running Flex-IQ alongside the Mutha Goose ([[wiki/decisions/2026-09-07-flex-iq-cannibalises-mudagoose-no-parallel-operation.md]]) and kept it out of MVP 1 ([[wiki/decisions/2026-09-11-mudagoose-never-in-mvp1-and-its-code-comes-out-at-mvp3.md]]). The dinner shows the maker moving to SAS at the same time.
+
+**§15.8:** family, health, staff and social talk not recorded; no one's pay. **§15 #9:** clear.
+
+## Aug 25 2026 — arrival at the shop, caught on the Epic recording
+
+The last ~18 minutes of the long [[wiki/meetings/2026-08-25-epic-amusement-kenny-patel-visit.md|Aug-25 Epic recording]] (about 3:34–3:52 PM ET) are Val arriving at the Mutha Goose maker's premises — the speaker (unnamed; transcript "Speaker 2") says "they had one of our MudaGoose systems". **The link to the separately recorded Really Killer Systems visit is now confirmed on content:** the Epic tail ends with Val asking for "the lay of the land" and the maker saying "I guess I better bring Tony in", and the RKS recording opens on exactly that ("Tony… He wants to know who which operators are doing what around here now"). See [[wiki/meetings/2026-08-25-really-killer-systems-operator-vetting.md]]. [[raw/Meeting_Transcript_Really_Killer_Systems_Operator_Vetting-August-25-2026.md]] [[raw/Meeting_Transcript_Epic_Amusement_Kenny_Patel_Visit-August-25-2026.md]]
+
+- **Most older Georgia machines are single-SAS.** "The old stuff's all single"; at a typical gas station with ten machines "there'll be two out of ten" with dual SAS (transcribed "dual sound sources"). [[raw/Meeting_Transcript_Epic_Amusement_Kenny_Patel_Visit-August-25-2026.md]]
+- **Texas now outsells Georgia for him.** "I sell more in Texas of most stuff than I do in Georgia right now… it's county by county and wild west stuff." [[raw/Meeting_Transcript_Epic_Amusement_Kenny_Patel_Visit-August-25-2026.md]]
+- **Other states chase sellers, not just operators.** A Colorado county official traced one of their MudaGoose systems and asked "who sold it into the state"; they track boards by manufacturing lot, not by buyer; he has had calls from the Texas AG, and says the Carolinas impound machines. His advice on Val's used machines: "Probably in Texas… Don't go anywhere near Colorado." [[raw/Meeting_Transcript_Epic_Amusement_Kenny_Patel_Visit-August-25-2026.md]]
+
+## Aug 25 2026 (3:54 PM) — the same visit, second recording: a vetted list of masters, and how RKS learned the protocols
+
+The continuation at the shop ([[wiki/meetings/2026-08-25-really-killer-systems-operator-vetting.md]]). The derived notes and calendar name the hosts **Jim and Mary Beck** of **Really Killer Systems** — the full name behind "RKS". The recording itself names only "Mary" ("Mary The Whip") and a "Tony". [[raw/Meeting_Notes_Really_Killer_Systems_Operator_Vetting-August-25-2026.md]] [[raw/Meeting_Transcript_Really_Killer_Systems_Operator_Vetting-August-25-2026.md]]
+
+- **A list of the masters worth meeting.** "what we can do is make you a list. And just email it to you of who's doing, what where". About "two dozen… in between twenty and thirty" are worth seeing; "probably another fifty… Don't make sense… they're either too small or they're too insulated." Val asked for the decision-maker at each. Master names and the market read are on [[wiki/projects/georgia-market-rollout.md]] (Aug 25, RKS). [[raw/Meeting_Transcript_Really_Killer_Systems_Operator_Vetting-August-25-2026.md]]
+- **Roles, as said in the room.** The maker: "I just design them; I don't sell them" (the line is mis-labelled as Val). Speaker 3, read as Mary by context, on sales: "I make the majority of them"; and of her, "She's our enforcer. She's the whip." [[raw/Meeting_Transcript_Really_Killer_Systems_Operator_Vetting-August-25-2026.md]]
+- **Why they reverse-engineer.** They bought an old IGT machine "to reverse engineer NetFlex. Because of course, IGT doesn't tell anybody anything… I reverse engineered NetFlex so we could emulate the dollar bill acceptor" for a customer. ("NetFlex" is spelled as transcribed.) [[raw/Meeting_Transcript_Really_Killer_Systems_Operator_Vetting-August-25-2026.md]]
+- **How he first got SAS: Montana.** "The first time I ever found a copy of the SAS protocol was because… the state of Montana. Montana requires public disclosure… but they got away with it by only publishing a subset… like the Georgia version of SAS… It led me down a trail where I could start piecing the SAS protocol." [[raw/Meeting_Transcript_Really_Killer_Systems_Operator_Vetting-August-25-2026.md]]
+- **An RKS product in Puerto Rico.** "we've got a unit that does online bookkeeping. And that's what they were using" — detail on [[wiki/projects/puerto-rico-expansion.md]]. [[raw/Meeting_Transcript_Really_Killer_Systems_Operator_Vetting-August-25-2026.md]]
+- **Open to selling to JVL.** At the close: "anytime you want to buy uh our cash[…]" (sentence cut off). [[raw/Meeting_Transcript_Really_Killer_Systems_Operator_Vetting-August-25-2026.md]]
+
+## Open questions
+
+- Is the Aug-18 dinner host the same man as the RKS "Jim" of July 2025 and the Aug-13 "Jim" call? (inference only; queued) — [[raw/Meeting_Transcript_Mutha_Goose_Supplier_Dinner_Intel-August-18-2026.md]] *(Aug-25 evidence, not a ruling: the notes pair the Aug-25 shop visit with a calendar event "JVL-Jim and Mary Beck", and the maker's partner is called "Mary" in both the Aug-18 and Aug-25 recordings.)* [[raw/Meeting_Notes_Really_Killer_Systems_Operator_Vetting-August-25-2026.md]]
+- Did the promised list of ~two dozen masters arrive? — [[raw/Meeting_Transcript_Really_Killer_Systems_Operator_Vetting-August-25-2026.md]]
+
 ## Sources
 
 - [[raw/JVL-RKS-Mutha-Goose-Printer-1.md]]
 - [[raw/Flex-POS Mid-Iteration Sync.md]]
 - [[raw/Flex-POS Iteration Planning 2025-07-14.md]]
+- [[raw/Meeting_Notes_Mutha_Goose_Supplier_Dinner_Intel-August-18-2026.md]]
+- [[raw/Meeting_Transcript_Mutha_Goose_Supplier_Dinner_Intel-August-18-2026.md]]
+- [[raw/Meeting_Transcript_Epic_Amusement_Kenny_Patel_Visit-August-25-2026.md]]
+- [[raw/Meeting_Transcript_Really_Killer_Systems_Operator_Vetting-August-25-2026.md]]
+- [[raw/Meeting_Notes_Really_Killer_Systems_Operator_Vetting-August-25-2026.md]]

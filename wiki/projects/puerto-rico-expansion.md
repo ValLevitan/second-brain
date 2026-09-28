@@ -3,7 +3,7 @@ type: project
 title: Puerto Rico expansion
 date: 2026-07-12
 aliases: [Puerto Rico expansion, Puerto Rico office, PR route market, gaming license, resident agent, FYC Consulting, Ruta license, IGS, vertical machines, Chinese copies]
-source-count: 11
+source-count: 12
 ---
 
 # Puerto Rico expansion
@@ -106,6 +106,13 @@ On the [[wiki/meetings/2025-05-30-games-performance-review-juan.md|May-30 games-
 - **The unregulated street market.** Alex argued oversight is effectively zero (State Gaming Commission not involved; **Blueberry** selling cabinets directly to third parties), that street machines are **double** the casino count, and that JVL is over-cautious — but Val held firm on not jeopardising licences (a brand-new game on the street is different from a used, resold machine). Board/CPU pricing: Chinese boards **$1,000–1,200**; PR CPUs **$400–1,500** (many from IGS). [[raw/games_performance_review_juan_martinez-may-30-2025.md]]
 - **Colombia (same call).** **Martha** flagged the **Vika** conversion as urgent (machines could be pulled for performance); games ready+approved are **Dragons of Rain** and **Gaiotro** (single-vs-dual-game question), and **Gaiotro/Jackpot Rush** still need a final tweak for the **Colombia** denominations/progressives — awaiting Val's direction. Colombia inventory is half **V43**, half **D27** (no D27 content); ship vertical conversion kits. See [[wiki/topics/slot-game-design-principles.md]]. [[raw/games_performance_review_juan_martinez-may-30-2025.md]]
 
+## Aug 25 2026 — the island seen by a Georgia supplier: still grey
+
+At the [[wiki/meetings/2026-08-25-really-killer-systems-operator-vetting.md|Aug-25 RKS shop visit]] (a later, unrelated source; JVL's own Puerto Rico plan is not discussed) the Mutha Goose maker's side described Puerto Rico. [[raw/Meeting_Transcript_Really_Killer_Systems_Operator_Vetting-August-25-2026.md]]
+
+- **Still unregulated in practice.** "They're still operating independently." Asked if still grey: "they keep trying to make it more like Georgia. But then it falls apart. I don't think the right people are getting greased." [[raw/Meeting_Transcript_Really_Killer_Systems_Operator_Vetting-August-25-2026.md]]
+- **The interlock that never came.** The authorities announced "a state one to come in and do like an interlock style setup" twice ("No, for real this time"), and "they didn't. So… it's an unknown there." Meanwhile operators "were still using ours" — RKS's "unit that does online bookkeeping". [[raw/Meeting_Transcript_Really_Killer_Systems_Operator_Vetting-August-25-2026.md]]
+
 ## Sources
 
 - [[raw/games_performance_review_juan_martinez-may-30-2025.md]]
@@ -119,3 +126,4 @@ On the [[wiki/meetings/2025-05-30-games-performance-review-juan.md|May-30 games-
 - [[raw/estrella_law_carlos_infante_puerto_rico-april-10-2025.md]]
 - [[raw/evolution_flex_pay-april-11-2025.md]]
 - [[raw/estrella_engagement_agreement_negotiations-may-5-2025.md]]
+- [[raw/Meeting_Transcript_Really_Killer_Systems_Operator_Vetting-August-25-2026.md]]

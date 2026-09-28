@@ -6,7 +6,7 @@ aliases: [Vishal Patel, Vishal, Michelle Patel, Michelle, Bashar, Narayani Amuse
 source-count: 6
 open-commitments: 0
 open-questions: 2
-disambiguation: "Transcription garble, not a same-name collision: the Aug-26 briefing transcript renders his first name as 'Michelle' throughout ('Michelle Patel', 'I spoke to Michelle right now'); the derived notes for the same recording give 'Vishal Patel', which is the form used here. There is no separate Michelle Patel in the corpus. Patel is a very common surname among Georgia COAM operators and this corpus already carries several unrelated Patels — Vishal Patel (Narayani Amusements, [[wiki/people/vishal-patel.md]]), Yash Patel (Halcyon Amusements, [[wiki/people/yash-patel.md]]), and, in prose only, Mike Patel (GAMOA), Kenny Patel (Epic Amusements) and Alex Patel (Sonatype). Distinct people; resolve by context. Provisional — owner ruling pending."
+disambiguation: "Transcription garble, not a same-name collision: the Aug-26 briefing transcript renders his first name as 'Michelle' throughout ('Michelle Patel', 'I spoke to Michelle right now'); the derived notes for the same recording give 'Vishal Patel', which is the form used here. There is no separate Michelle Patel in the corpus. Patel is a very common surname among Georgia COAM operators and this corpus already carries several unrelated Patels — Vishal Patel (Narayani Amusements, [[wiki/people/vishal-patel.md]]), Yash Patel (Halcyon Amusements, [[wiki/people/yash-patel.md]]), Kenny Patel (Epic Amusement, [[wiki/people/kenny-patel.md]]), and, in prose only, Mike Patel (GAMOA) and Alex Patel (Sonatype). Distinct people; resolve by context. Provisional — owner ruling pending."
 ---
 
 # Vishal Patel

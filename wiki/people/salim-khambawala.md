@@ -2,8 +2,8 @@
 type: person
 title: Salim Khambawala (Dixie Amusement; VP of the Georgia operators' association)
 date: 2026-08-31
-aliases: [Salim Khambawala, Salim, Selim Kwambuwala, Salim Dixie, Salim from Dixie Amusement, Salim Dixie Amusement]
-source-count: 8
+aliases: [Salim Khambawala, Salim, Selim Kwambuwala, Salim Dixie, Salim from Dixie Amusement, Salim Dixie Amusement, Salim from Awala, Sam]
+source-count: 9
 open-commitments: 2
 open-questions: 1
 disambiguation: "Salim cluster (2 members, provisional — owner ruling pending): [[wiki/people/salim-khambawala.md|Salim Khambawala]] = the Georgia COAM master licensee behind [[wiki/organizations/dixie-amusement.md|Dixie Amusement]], south-side Atlanta, vice-president of the state operators' association — resolve by the Georgia association / GAMOA / buying-group context. [[wiki/people/salim-punjani.md|Salim Punjani]] = the operator behind [[wiki/organizations/continental.md|Continental]], two companies running Georgia plus a larger estate outside it (Texas primarily, plus Virginia) — resolve by the Texas / Virginia route context. Never merge these; decide by context, not the name string."
@@ -106,6 +106,7 @@ His read, as an operator and an association officer: "**Class A is not as regula
 - **May 29 2025 — first appearance.** Felipe met "Selim Kwambuwala from Dixie Amusement, **he's very important in the board**," and got the pricing pushback recorded on [[wiki/decisions/2025-04-01-price-georgia-coam-upgrade-kits.md]]. [[raw/felipe_georgia_market_update-may-29-2025.md]]
 - **Jun 24 2026.** Felipe secured a trial from him as part of the board-targeting strategy and reported "strong interest" in JVL's coming transactional product; Felipe's note describes him as a **former GMUA president**. [[raw/Meeting_Notes_Forecast_Review_Felipe-June-24-2026.md]]
 - **Jul 7 2026.** Felipe's note describes him as "**formerly VP at [GAMOA], now with Dixie**" and relays his read that operators are moving off kiosks. [[raw/Meeting_Notes_GA_COAM_Inventory_Pipeline_Review-July-7-2026.md]]
+- **Aug 25 2026.** Felipe told Val he was "trying to set up a meeting with Salim from Awala. He's also from the G I M O A… they call him Sam" — the man who "helped me put together a group of masters when I first came in", each committing to a number of cabinets at a special price. Felipe wants him to do "something similar with this new product" via a WhatsApp group. ("Awala" is read as a garble of Khambawala, and the man as this Salim by the GAMOA / buying-group context — inference.) [[raw/Meeting_Transcript_Epic_Amusement_Kenny_Patel_Visit-August-25-2026.md]]
 
 ## Open contradictions
 
@@ -145,3 +146,4 @@ His read, as an operator and an association officer: "**Class A is not as regula
 - [[raw/Meeting_Notes_Fiery_Pay_Competitive_Analysis-August-12-2026.md]]
 - [[raw/Meeting_Notes_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
 - [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
+- [[raw/Meeting_Transcript_Epic_Amusement_Kenny_Patel_Visit-August-25-2026.md]]

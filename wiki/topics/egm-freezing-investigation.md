@@ -3,7 +3,7 @@ type: topic
 title: EGM freezing investigation (Georgia field fleet)
 date: 2026-07-29
 aliases: [GA freezing, Georgia freezing, machine freezing, EGM freeze, GA Freezing Issue, freezing investigation, JVL silent killer, nudge animation freeze, kernel-panic freeze]
-source-count: 23
+source-count: 24
 open-questions: 12
 ---
 
@@ -178,6 +178,15 @@ Four months after the fix, Val recounted this freeze as the **proximate cause of
 - **Version note.** On the Aug-7 call Val gave the kernel loosely as **"Linux 4.7"** — inconsistent with the established investigation figure of **kernel 4.19 (upgraded to 5.15 LTS)**; treat "4.7" as a retrospective misstatement on a phone call, not a new fact. [[raw/Meeting_Transcript_JVL_Funding_Crisis_Cash_Call_Doug_Skrepnek-August-7-2026.md]]
 - At the [[wiki/meetings/2026-08-11-nova-architecture-design-session-2.md|Aug-11 NOVA session 2]] Val restated the toll while making the freeze a design driver for NOVA: the AMD processor froze on **Linux kernel 4.19**, it took roughly **1.5–2 years to find**, it nearly cost the business, and machines had to be **given away free** to rebuild trust — the fix being the **4.19 → 5.15** kernel upgrade. This motivates NOVA's health-check/heartbeat, the "Black Box" recorder and an undisableable watchdog (see [[wiki/topics/nova-platform-architecture.md]]). [[raw/Meeting_Notes_NOVA_Architecture_Design_Session_2-August-11-2026.md]]
 
+## Aug 27 2026 — the story told to a customer, as a confession
+
+At the [[wiki/meetings/2026-08-27-arc-coffee-fleet-swap-and-transactional-pitch.md|Aug-27 coffee at ARC Gaming]] Val told the freeze as part of his opening pitch — "I'm confessing here, I don't know if I should, but I am." [[raw/Meeting_Transcript_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]]
+
+- **Cause, as told:** "we used a brand new AMD processor in order for us to accelerate our graphics. Not known to us, The AMD processor was not compatible with the latest Linux operating system." No kernel version is given. [[raw/Meeting_Transcript_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]]
+- **How it hid:** "the player would see a screen, normal game screen. So, the game seemed to be functional to an attendant. But the game itself wasn't functioning." [[raw/Meeting_Transcript_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]]
+- **The wrong response:** "I said our games are not making money, our content's a shit, we need to change it and we all went to work, Changing the content." Then: "By the time we figured it out we lost a lot of market." [[raw/Meeting_Transcript_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]]
+- **The turn:** "we fixed it, we came out with new games and… Here we are," with version 3 games from September 1. ARC's reply named the other half of JVL's record: "it always had service issues." [[raw/Meeting_Transcript_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]]
+
 ## Sept 2 2026 — an operator disputes the premise that a frozen machine goes unnoticed
 
 At the [[wiki/meetings/2026-09-02-lucky-coin-service-and-upgrade-offer.md|Sept-2 Lucky Coin visit]] Val used the silent-freeze argument as the case for the new modems, and the customer rejected it from his own field experience. Recorded because the "nobody knows it is down" premise is load-bearing for the retrospective above and for the remote-monitoring case, and this is the first operator in the corpus to contest it [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]].
@@ -269,3 +278,4 @@ At the [[wiki/meetings/2026-09-09-lucky-coin-service-burden-and-exclusive-partne
 - [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
 - [[raw/Meeting_Notes_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
 - [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- [[raw/Meeting_Transcript_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]]

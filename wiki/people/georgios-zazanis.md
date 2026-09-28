@@ -3,7 +3,7 @@ type: person
 title: Georgios "Zaza" Zazanis
 date: 2026-08-31
 aliases: [George Zazanis, Georgios Zazanis, Zaza, Zazanis, George]
-source-count: 6
+source-count: 8
 open-commitments: 0
 open-questions: 0
 disambiguation: "COO of the Georgia operator ARC Gaming — resolve by the Georgia-COAM / operator / Class-A context. He goes by 'Zaza' precisely because 'George' is ambiguous in his own circle; do not attach a bare 'George' in another context to this page without contextual support."
@@ -12,6 +12,10 @@ disambiguation: "COO of the Georgia operator ARC Gaming — resolve by the Georg
 # Georgios "Zaza" Zazanis
 
 **COO of [[wiki/organizations/arc-gaming.md|ARC Gaming]]**, a Georgia COAM master operator. He met [[wiki/people/val-levitan.md|Val]] for the [[wiki/meetings/2026-08-31-arc-gaming-transactional-demo-class-a.md|Aug 31 2026 transactional demo]], a candid ~1h 41m session he closed by being thanked for exactly that — Val: "thank you for being sincere. I appreciate it." [[raw/Meeting_Notes_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]] [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
+
+## Aug 27 2026 — probably at the coffee four days earlier
+
+The notes put him at the [[wiki/meetings/2026-08-27-arc-coffee-fleet-swap-and-transactional-pitch.md|Aug-27 coffee at ARC]] — the calendar attendee was "Georgios Zazanis" — and label him Speaker 3. [[raw/Meeting_Notes_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]] The recording never names him. By content, Speaker 4 fits better: he sets the Monday visit to JVL, and quotes a nine-machine monthly fee like the one Zazanis gives on Aug 31. Neither reading is settled. What ARC said that morning is on [[wiki/organizations/arc-gaming.md]] (Aug 27). [[raw/Meeting_Transcript_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]]
 
 ## Why "Zaza"
 
@@ -73,3 +77,5 @@ The three items he took away — the Class A location address, the Class A + DC 
 - [[raw/Meeting_Notes_ARC_Gaming_Vertical_Screen_Bundle_Offer_and_David_Intro-September-8-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
 - [[raw/Meeting_Notes_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
+- [[raw/Meeting_Notes_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]]
+- [[raw/Meeting_Transcript_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]]

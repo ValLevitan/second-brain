@@ -3,7 +3,7 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 37
+source-count: 39
 open-commitments: 5
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
@@ -110,6 +110,11 @@ Nathan was not on the [[wiki/meetings/2026-08-12-hardware-github-standard-bc-syn
 
 - [ ] (blocked-on: Genadi-scope) Nathan Carver — define and start building the GitHub→BC sync service on the BC API (Val's request; Nathan's acceptance is not in this source) — due unspecified — [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
 
+## Aug 27–28 2026 — the engineer on the Bank of America initiative; his CIBC user approved
+
+- **Aug 27 — Bank of America treasury needs review.** Val introduced him to the bank as "an engineer on this initiative", said he would himself "take a backstage", and later told him about the follow-up slot: "Nathan, it's really you." The voice labelled "Speaker 5" — read as Nathan by inference — said JVL wants "to build out invoicing, and the approach is going to be through Business Central", and put an international wire at "usually forty five dollars". The follow-up session is the Sept-8 API review below. [[wiki/meetings/2026-08-27-bank-of-america-treasury-needs-review.md]] [[raw/Meeting_Transcript_BofA_Treasury_MS_Dynamics_Integration-August-27-2026.md]]
+- **Aug 28 — his CIBC Business Net Banking user.** [[wiki/people/monica.md|Monica]] had set up a JVL user for him; Val approved it, and CIBC's Annie (Ann Reese) will send him a first-time login guide and help by phone. This is the bank-side access Michael Hill suggested on Jul 28. Details on [[wiki/organizations/cibc.md]] (Aug 28). [[wiki/meetings/2026-08-28-cibc-business-net-banking-access-recovery.md]] [[raw/Meeting_Transcript_CIBC_Business_Net_Banking_Access-August-28-2026.md]]
+
 ## Sept 2 2026 — his payment-hub work confirmed deployed
 
 On the [[wiki/meetings/2026-09-02-flex-iq-pre-pilot-updates-after-the-show.md|Sept-2 Flex-IQ pre-pilot call]] (Russian; Nathan **not present**), asked for the payment-hub status, [[wiki/people/pavel.md|Pavel Frolov]] answered: "там всё что было сделано [Нейтоном] оно за[]деплоино" — everything Nathan built is deployed. What remained was operational, not development: [[wiki/people/andrei-klimovich.md|Andrei]] to fund the test card and Pavel to re-run the API request so stuck, errored transactions move to pending and retry ACH the next morning. Detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept-2). [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
@@ -175,6 +180,8 @@ Two qualifications came straight back, and both are recorded because they cut ag
 - [[raw/Meeting_Transcript_Flex_IQ_Barcode_Receipt_Ewallet_Strategy-September-2-2026.md]]
 - [[raw/Meeting_Notes_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
+- [[raw/Meeting_Transcript_BofA_Treasury_MS_Dynamics_Integration-August-27-2026.md]]
+- [[raw/Meeting_Transcript_CIBC_Business_Net_Banking_Access-August-28-2026.md]]
 - [[raw/Meeting_Notes_Bank_of_America_CashPro_API_Integration-September-8-2026.md]]
 - [[raw/Meeting_Transcript_Bank_of_America_CashPro_API_Integration-September-8-2026.md]]
 - [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]

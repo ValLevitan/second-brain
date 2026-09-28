@@ -4,7 +4,7 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich, Andre]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 86
+source-count: 87
 open-commitments: 79
 open-questions: 0
 ---
@@ -232,6 +232,10 @@ On the [[wiki/meetings/2026-08-21-post-goam-show-recap.md|Aug-21 post-GAMOA reca
 - **He challenged the JVL Dollars packaging and then publicly reversed.** He suggested "maybe if we call it just a credit line, it should be easier for people to understand"; after Val's explanation he said "I'm totally following you and I agree with this idea… now we understand why it is good," and volunteered the strongest argument for it: "It definitely creates an additional reason to meet in person." See [[wiki/decisions/2026-08-21-keep-jvl-dollars-printed-serialized-cards.md]]. [[raw/Meeting_Transcript_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
 - **Val rebuked him sharply, once.** When Andrei relayed the internal comment that the show unit's cover should be moulded rather than 3D-printed, Val cut him off: "I love you. You're a very fundamental individual. You're smart. But when you start saying stupid ****, I really don't like you," because he had said several times that the permanent moulds are ready and 3D printing was only used for lack of time before the show. Andrei: "Okay, thank you for your feedback." Val also called on him as the marketing voice — "Andrei, you're in marketing. You're good at it. Don't you know these things?" [[raw/Meeting_Transcript_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
 - **He is Val's designated Flex-IQ placement owner**, carrying the InComm retest, the first real location registration and card order, the barcode-reader resolution, and the push toward 20–50 units. [[raw/Meeting_Notes_Flex_IQ_Georgia_Recap_and_JVL_Dollars-August-21-2026.md]]
+
+## Aug 24–25 2026 — a no-recycler location topology, relayed by Val (name by context)
+
+On an [[wiki/meetings/2026-08-25-texas-install-recycler-sourcing-cpi.md|Aug-25 call]] (Andrei not present) Val told [[wiki/people/genadi-peari.md|Genadi]]: "yesterday Andrei proposed another topographic solution" — Flex-IQ at the counter, Flex-Ports on each machine, and one standalone slim TITO printer near the machines, for locations with no recycler. The recording says only "Andrei"; he is taken to be Andrei Klimovich by context (transactional product manager; he presented a similar slim floor-printer option on Sept 2 below) — an inference. Val said he first objected, then agreed with Andrei, and on reflection did not like it (a shared printer invites fights and ticket theft) and parked it. Detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Aug 25). Val's personal remarks about their working relationship are not recorded (§15.8). [[raw/Meeting_Transcript_Texas_Install_Recycler_Sourcing_CPI-August-25-2026.md]]
 
 ## Aug 26 2026 — runs JVL's side of the InComm follow-up call
 
@@ -673,3 +677,4 @@ On the [[wiki/meetings/2026-05-18-ga-trip-recap-kiosk-intel.md|May-18 GA trip re
 - [[raw/Meeting_Notes_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - [[raw/Meeting_Transcript_Andrei_Klimovich_Ecommerce_Fraud_Loss_and_Marketplace_Expansion-January-21-2026.md]]
 - [[raw/Meeting_Transcript_GA_Trip_Recap_Kiosk_Intel-May-18-2026.md]]
+- [[raw/Meeting_Transcript_Texas_Install_Recycler_Sourcing_CPI-August-25-2026.md]]
