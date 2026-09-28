@@ -3,13 +3,15 @@ type: decision
 title: The Passport is preserved, not killed — the bindings are good and JVL is using them wrongly in this market, so the fix is to record and flag component changes rather than forbid them
 date: 2026-09-11
 aliases: [the passport must not be killed, паспорт убивать не надо, do not confuse RIS and passport, the bindings are good we use them wrongly, unit 17 changed its bill acceptor, record instead of forbid, operator nominates who may update the passport, they like that the passport exists]
-source-count: 2
+source-count: 4
 status: active
 open-commitments: 0
-open-questions: 0
+open-questions: 1
 ---
 
 # The Passport is preserved — the bindings are good, JVL uses them wrongly in this market
+
+**Status note (Sept 24 2026):** still active. Val defended the passport scan again on Sept 24 at 7:02 AM; the same morning, without him, the engineers planned to switch the passport check off for Georgia builds. See the Sept-24 update below.
 
 Ruled by [[wiki/people/val-levitan.md|Val Levitan]] at the [[wiki/meetings/2026-09-11-technician-complaints-and-new-capabilities-workshop.md|Sept 11 2026 10:33 AM call]], in answer to [[wiki/people/pavel.md|Pavel Frolov]]'s read of the field complaints. **This is the first internal ruling on the Passport after two weeks of operators complaining about it to Val's face.** Background and the operator-side quotations are on [[wiki/topics/ris-remote-install-and-machine-states.md]]. The derived notes state the ruling as "**The passport is preserved, not removed** — the bindings are good and are simply being used wrongly in this market" and attribute it to Val [[raw/Meeting_Notes_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]].
 
@@ -54,9 +56,22 @@ The corpus already holds two customer-facing positions on the same lock, in oppo
 
 **Sept 11 is a third, internal position and it is not the same as either:** the Passport stays, on every platform, and what changes is what JVL does with it in this market. It does not resolve the Sept-2/Sept-10 pair — nothing in this source mentions either conversation — and the open contradiction on [[wiki/topics/ris-remote-install-and-machine-states.md]] stands. Both earlier quotations and their citations are on that page.
 
+## Sept-24 update — challenged by an engineering plan, defended by Val the same morning
+
+- **5:41 AM, without Val.** At the [[wiki/meetings/2026-09-24-georgia-hard-reset-remedies-and-passport-removal.md|engineers' hard-reset review]], Pavel proposed to "принять решение, что паспорт на самом деле отключить для джорджевских билдов"; Irina and Evgeny agreed it is not hard. Full plan: [[wiki/decisions/2026-09-24-engineering-plans-to-switch-off-the-passport-check-for-georgia-builds.md]]. The source does not mention this Sept-11 ruling. [[raw/Meeting_Transcript_Georgia_Hard_Reset_Remedies_and_Passport_Removal-September-24-2026.md]]
+- **7:02 AM, with Val.** At the [[wiki/meetings/2026-09-24-ris-serial-binding-and-factory-reset-focus.md|RIS follow-up]] Val said the passport is what tells JVL the CPU, I/O board, monitors, topper and MDEC/VDEC of a machine, and that "when we're trying to kill a good thing, we might be over-executing, we might be killing an innocent person." On rescanning it after hardware work: "I think this feature is tremendous… And if you disable it, you're in a way you're losing." On installing any RIS on any machine: "Okay, so restricted. Do not allow." [[raw/Meeting_Transcript_RIS_Serial_Binding_and_Factory_Reset_Focus-September-24-2026.md]]
+- **Who may update a passport, restated.** Pavel: "right now, only our personnel, internal personnel, able to scan passport and update passport on machine" — the same constraint as on Sept 11. For outside technicians he suggested allowing only basic updates (printer, bill acceptor, monitor), not model-type changes. [[raw/Meeting_Transcript_RIS_Serial_Binding_and_Factory_Reset_Focus-September-24-2026.md]]
+- **Reading.** Val's 7:02 AM words match this ruling; the engineers' 5:41 AM plan points the other way for Georgia builds. The plan was not named at 7:02 AM. **Nothing here is reconciled.**
+
+## Open questions
+
+- Does the engineers' Sept-24 plan to switch the passport check off for Georgia builds go ahead, given this ruling and Val's Sept-24 defence? — [[raw/Meeting_Transcript_Georgia_Hard_Reset_Remedies_and_Passport_Removal-September-24-2026.md]]
+
 **§15.8:** clear — product control design only; no named-person compensation.
 
 ## Sources
 
 - [[raw/Meeting_Notes_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]]
+- [[raw/Meeting_Transcript_Georgia_Hard_Reset_Remedies_and_Passport_Removal-September-24-2026.md]]
+- [[raw/Meeting_Transcript_RIS_Serial_Binding_and_Factory_Reset_Focus-September-24-2026.md]]

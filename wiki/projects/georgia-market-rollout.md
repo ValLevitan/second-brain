@@ -3,9 +3,9 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, COAM Hearing Room, Georgia Lottery Corporation, Tracy Warren, HB 353, Intralot lab, Bill at Intralot, three fifty-eight nine, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing, GAMOA, ILERS, ILAS report, Eilers, Eiler report, show special, Mega Hit Blaze, sales channel report, Bulldog Gaming, ARC, ARC Gaming, Class A, C-Store Connect, GACS, route consolidation, gift-card cash-back notice, Chris Plonic, Double Down Gaming, Ryan O'Donnell, Billy Liu, Play Payments, PlayPay, banking licence moat, 7455 modem, KORE, KORE SIM, APN, GACS October 21, Pay Slim, over-drive, Rao, Narasimha Rao Namburi, David Milani, September 2 letter, 5500 PAX locations, Lucky Coin service burden, Lucky Bucks is ARC, the market is literally bottomless, backend displacement, David Sloan, Dave Sloan, Bill the kiosk vendor, the wording is in the same location, guidance is not the law, Digital Cash Processing, DCP, ICP Inc., Gen Mega, Andrew Cashin, Rick Beer, seventy four hundred locations forty seven thousand machines, Unlimited Amusement, Mega Hit Blaze V3, program the rollout, Swanee, Johns Creek, Singleton, SurfNote, Debbie Alford, eighteen thousand connected, Mike Mackey, five hundred dollars per unit per machine, WSS protocol, not even one installation, Georgia Lazy, Skyriser, Cardinal, outside looking in, Rich Winley briefing]
-source-count: 220
-open-commitments: 68
-open-questions: 28
+source-count: 224
+open-commitments: 70
+open-questions: 30
 ---
 
 # Georgia market rollout (Peach1234 / DLKG)
@@ -1600,6 +1600,57 @@ From the [[wiki/meetings/2026-09-22-multi-game-screen-layout-and-game-count.md|S
 
 - [ ] [[wiki/people/lena.md|Lena Zhukova]] — fix the broken layout and send Val the idle screen's frame zero — due unspecified — [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
 
+## Sept 23 2026 — what one hard reset costs a Georgia operator, in Val's numbers
+
+On the [[wiki/meetings/2026-09-23-ris-and-passport-hard-reset-burden.md|Sept-23 RIS and Passport call]], [[wiki/people/val-levitan.md|Val]] put the field cost of JVL's hard-reset cycle into money. The technical cases are on [[wiki/topics/ris-remote-install-and-machine-states.md]] (Sept 23). [[raw/Meeting_Transcript_RIS_and_Passport_Hard_Reset_Burden-September-23-2026.md]]
+
+- **The service bill.** "If a technician cost $30 per hour. Then a service provider would charge probably… minimum $60 an hour to the operator"; five hours "would be $300… that they pay out of pocket." So operators often "leave machine out of service for a day or two until they have a second round." [[raw/Meeting_Transcript_RIS_and_Passport_Hard_Reset_Burden-September-23-2026.md]]
+- **The service provider's side (Felipe).** Service providers bill a master "let's say, to $160 to take care of their location for per month"; if their technicians must go often, "They're losing money, so they will definitely tell the master do not buy this". [[raw/Meeting_Transcript_RIS_and_Passport_Hard_Reset_Burden-September-23-2026.md]]
+- **The location's side.** "locations on an average have 6 machines"; a machine that earns nothing gets the location "screaming, take it out." Technicians with "five, six calls a day… cannot spend more than an hour… per location, including the driving distance" — "if they… cannot fix it within 20 minutes, they are out of there." Val added he has "never driven less than one hour… One way" in Georgia. [[raw/Meeting_Transcript_RIS_and_Passport_Hard_Reset_Burden-September-23-2026.md]]
+- **Val's hypothesis, not yet evidence.** A "very sophisticated operator" who says he collects "9 million data points per day" promised JVL a utilization report. Val suspects JVL machines "are performing well… when they operate. The problem is that they're down probably 20% of the time." He said the report would give "factual evidence"; he was not sure the operator would deliver. The operator is not named. [[raw/Meeting_Transcript_RIS_and_Passport_Hard_Reset_Burden-September-23-2026.md]]
+- **Commissioning runs through the central system.** Every hard reset needs a decommission and a recommission call to the central-system hotline (transcript "Interlock"; read as **Intralot** — inference), which identifies machines by port. [[raw/Meeting_Transcript_RIS_and_Passport_Hard_Reset_Burden-September-23-2026.md]]
+- **Settings over the modem.** Felipe: "yesterday we tested mega hits and you know the settings load through the modem", so no RIS file is needed on that product. [[raw/Meeting_Transcript_RIS_and_Passport_Hard_Reset_Burden-September-23-2026.md]]
+
+### Open commitments (Sept 23 2026, 9:30 AM)
+
+- [ ] [[wiki/people/val-levitan.md|Val]] — obtain the promised JVL utilization report from the operator who collects 9 million data points a day — due unspecified — [[raw/Meeting_Transcript_RIS_and_Passport_Hard_Reset_Burden-September-23-2026.md]]
+
+## Sept 23 2026 (12:00 PM) — a suite for hosting Atlanta-area clients
+
+On the [[wiki/meetings/2026-09-23-state-farm-arena-suite-options-intro-call.md|Sept-23 12:00 PM call]] with [[wiki/organizations/state-farm-arena.md|State Farm Arena]], Val said hosting clients is "a new venture for our company", to keep JVL's name "on top of their minds". He wants an 8–12 person suite with catering for five or six Hawks games a year, hosting "CEO-type people" himself. The seller's estimate for that: "thirty to forty thousand", as individual rentals. Nothing was bought; a site visit is aimed at the week of October 12. Detail on the organization page [[raw/Meeting_Transcript_State_Farm_Arena_Suite_Options_Intro_Call-September-23-2026.md]].
+
+## Sept 24 2026 — the lab file lists all 15 games, though only 10 run at once
+
+At the [[wiki/meetings/2026-09-24-daily-standup-firmware-delivery-and-capability-statuses.md|Sept-24 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]:
+
+- **The file.** [[wiki/people/ivan.md|Ivan]] made an MD file "для джорджии для гюхама 3" — read as Georgia COAM V3 (**inference**; the Sept-22 stand-up rendered it "г к вам 3").
+- **New for JVL.** Ivan: "У нас до этого никогда не было так, чтобы количество игр, которые заимплеменчены на машину не совпадало с тем, что я делал в рисе." Now "Из 15 возможных игр единовременно может быть только 10." This matches the Sept-22 "ten on screen, fifteen in the product" above.
+- **Nobody knows how the lab side handles it.** "Такой опыт для общения между интерлотом и клипсом у нас впервые" — Intralot and Eclipse (**inference** for "клипсом"). He first wanted only the games he turns on in RIS, but made the file for all 15. There may be delays in passing Intralot's tests.
+- **Pavel: the full list is right.** About two years ago, work was done so every game in a build has its own identifier. "интролоту всё равно, сколько там сейчас 10 игр из 15." Ivan expected to learn the answer that day.
+- **One RTP, or three?** Irina: the sheet holds three percentages per game, but RIS states only one. Ivan: he pulls all three through the list. He asked the team only to be aware.
+
+### Open questions (Sept 24 2026)
+
+- Does Intralot accept a file listing 15 games when only 10 run at once? Pavel says the build identifiers make it work; Ivan did not know yet — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
+
+## Sept 24 2026 (5:41 AM) — most Georgia machines are bought outright, so why do they carry a lease?
+
+At the [[wiki/meetings/2026-09-24-georgia-hard-reset-remedies-and-passport-removal.md|engineers' hard-reset review]] (Russian; Val absent) the lease-mismatch case led to a wider question. The technical cases are on [[wiki/topics/ris-remote-install-and-machine-states.md]] (Sept 24). [[raw/Meeting_Transcript_Georgia_Hard_Reset_Remedies_and_Passport_Removal-September-24-2026.md]]
+
+- **Bought, not placed.** Evgeny: "А Джорджия все куплены машины." Pavel: "там большинство купленных." Irina: "там большинство, скажем, 90 и 100. Процентов." (A spoken estimate, not a count.) [[raw/Meeting_Transcript_Georgia_Hard_Reset_Remedies_and_Passport_Removal-September-24-2026.md]]
+- **So why a lease?** Evgeny: "если это купленная машина, то действительно зачем лиза?" Irina: "они там вообще не должны были быть с лизу накопленной машине. Может мы чтото гдето пропустили?" [[raw/Meeting_Transcript_Georgia_Hard_Reset_Remedies_and_Passport_Removal-September-24-2026.md]]
+- **The data is mixed.** Ivan: some fully paid machines have the lease-scan box crossed — installed with no lease — "Может у нас как бы есть уже этот механизм?"; but many fully paid machines had leases "до 22 сентября". Either someone maintains it or "какой то автоматически механизм к этому есть. Я не знаю." [[raw/Meeting_Transcript_Georgia_Hard_Reset_Remedies_and_Passport_Removal-September-24-2026.md]]
+- **Agreed:** review it on JVL's side and switch leases off where not needed — Irina: "Надо с нашей стороны это пересмотреть"; Evgeny: "Лиза пересмотреть, если что отключить". [[raw/Meeting_Transcript_Georgia_Hard_Reset_Remedies_and_Passport_Removal-September-24-2026.md]]
+- **Most locations have no network.** Ivan asked why RIS is not pulled over the network; Pavel: "Где то есть, но в большинстве случаев нет." [[raw/Meeting_Transcript_Georgia_Hard_Reset_Remedies_and_Passport_Removal-September-24-2026.md]]
+
+### Open commitments (Sept 24 2026, 5:41 AM)
+
+- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — review on the server whether sold (fully paid) Georgia machines need leases, find what sets the lease-scan flag, and switch leases off where not needed — due unspecified — [[raw/Meeting_Transcript_Georgia_Hard_Reset_Remedies_and_Passport_Removal-September-24-2026.md]]
+
+### Open questions (Sept 24 2026, 5:41 AM)
+
+- What sets the lease-scan flag on fully paid machines — a person or an automatic mechanism? — [[raw/Meeting_Transcript_Georgia_Hard_Reset_Remedies_and_Passport_Removal-September-24-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_GA_Trip_Recap_Kiosk_Intel-May-18-2026.md]]
@@ -1824,3 +1875,7 @@ From the [[wiki/meetings/2026-09-22-multi-game-screen-layout-and-game-count.md|S
 - [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
 - [[raw/Meeting_Notes_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
+- [[raw/Meeting_Transcript_RIS_and_Passport_Hard_Reset_Burden-September-23-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
+- [[raw/Meeting_Transcript_State_Farm_Arena_Suite_Options_Intro_Call-September-23-2026.md]]
+- [[raw/Meeting_Transcript_Georgia_Hard_Reset_Remedies_and_Passport_Removal-September-24-2026.md]]

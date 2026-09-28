@@ -3,7 +3,7 @@ type: decision
 title: A collect timeout must never destroy the player's money — it goes to unclaimed money, built as a wallet that is created and funded but never printed; the specification to work from is AFT plus state banking law, starting with Juan Martinez and then GLI, and none of it is in MVP 1
 date: 2026-09-15
 aliases: [unclaimed money, anklaim money, анклейм мани, timeout money evaporates, money never lost, wallet without printing, unclaimed wallet, AFT specification, GLI consulting fee, деньги испаряются, escheatment, requirement 1430, unconfirmed money, анконференд мани]
-source-count: 7
+source-count: 8
 status: active
 open-commitments: 3
 open-questions: 5
@@ -77,6 +77,15 @@ Two days later a customer supplied the state-law half Val had named. At the [[wi
 
 On the [[wiki/meetings/2026-09-21-transactional-mvp1-flexport-and-iq-ux-design.md|Sept-21 call]], the port's answer to a failed print was to send the money to unclaimed and let the cashier print it from there — Pavel: "в любом случае, где мы не можем перечислить деньги на его лет на порте мы это всё скидываем в анклейт, а из анклейт уже может напечатать кассир"; Chudinov: "Да, согласен" [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]. See [[wiki/decisions/2026-09-21-at-the-counter-no-printer-no-wallet-at-the-port-the-wallet-goes-to-unclaimed.md]]. **Nobody said whether this puts any part of the unclaimed handling into MVP 1**, against Val's Sept-15 "definitely not MVP 1". Recorded as an open question, not as a contradiction: the Sept-15 ruling was about the regulated side (who holds the money, state law), and the Sept-21 point is a screen the cashier prints from.
 
+## Update, Sept 24 2026 — Val questions the 30 seconds, and MVP 1 only keeps the money
+
+On the [[wiki/meetings/2026-09-24-transactional-mvp1-flexport-money-loss-bugs-and-release-date.md|Sept-24 8:01 AM call]] (Russian) [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]:
+
+- **Val asked why a working Flex-Port sends money to unclaimed after 30 seconds.** "вы дали ему 30 секунд, если 30 секунд прошло и он… не знает, что ему делать, то его деньги исчезли." He asked for a PIN, as with an AFT card, so the money stays tied to the player. Pavel: SAS allows about 8 seconds on the machine, after which the money must move and the port be freed. Klimovich: money on the Flex-Port is not tied to any wallet; tying it means a real player account. He said the wait could be one minute instead of 30 seconds.
+- **The rule of this page held.** Klimovich: the money falls into unclaimed "чтобы не было пропавших вообще денег они сохранены, пока непонятно, чьи они."
+- **Nothing to process it in MVP 1.** Klimovich: "даже в [MVP] один мы не предлагаем никаких экшнов сейчас даже для обработки… Наша задача пока сохранять эти деньги." What a cashier may do with it — Pavel's nearest-wallet match, Val's PIN, Khamin's replay — goes to MVP 2; Val: "Андрей прав, мы это сейчас не поднимем." See [[wiki/decisions/2026-09-24-a-flex-port-that-dies-holding-money-sends-it-to-unclaimed-and-one-without-a-gateway-goes-out-of-service.md]].
+- **Two new routes into unclaimed.** A Flex-Port that dies holding money sends it to unclaimed when it comes back (bug 349). A Flex-Port with no gateway link does not take the money at all (bug 354). Same page.
+
 ## Open commitments
 
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — check requirement 1430 ("unconfirmed money" as the transcript renders it) and attach it to the capability created for it — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
@@ -85,7 +94,7 @@ On the [[wiki/meetings/2026-09-21-transactional-mvp1-flexport-and-iq-ux-design.m
 
 ## Open questions
 
-- **Is the Sept-21 "print from unclaimed" path part of MVP 1?** Designed in the MVP 1 screen walk; its release is not stated — [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
+- **Is the Sept-21 "print from unclaimed" path part of MVP 1?** Designed in the MVP 1 screen walk; its release is not stated — [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]] *(Sept 24: Klimovich said MVP 1 offers no actions for processing unclaimed money, and the cashier gets no way to move it. Whether that covers printing from unclaimed was not said — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]])*
 - **Where the unclaimed-money entity lives and who owns the balance.** Klimovich asked whether JVL is obliged to create and hold it, and whose money it then is — "не [JVL] же принадлежит, он принадлежит лакейшн". Val did not know: "или оператору, или GLC, или лакейши[ну], или налоговой[,] но неважно… я говорю, кто должен держать это?" — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]] *(Sept 17: a Georgia master says the store owner holds it and reports it on his tax return, with a 43.5 / 13 / 43.5 split or 100% kept and taxed — one operator's account, unverified.)* [[raw/Meeting_Transcript_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]
 - **Wallet or separate entity?** Biratka's create-fund-mark-do-not-print wallet is the simpler route; Chudinov wants a separate entity because the cloud wallet lands in the next MVP. Unresolved — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - **Is requirement 1430 about unclaimed money or unconfirmed money?** The Sept-16 transcript renders it "анконференд мани" while tying it to the previous day's discussion; the corpus does not settle which topic it belongs to — [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
@@ -101,3 +110,4 @@ On the [[wiki/meetings/2026-09-21-transactional-mvp1-flexport-and-iq-ux-design.m
 - [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]

@@ -2,11 +2,11 @@
 type: decision
 title: The Georgia LTE modem failure is treated as a source-and-firmware mismatch — buy the North-America variant and, in parallel, ask KORE for the recommended modems and the APN
 date: 2026-09-04
-aliases: [7455 modem, modem firmware mismatch, North America modem variant, KORE APN, ask KORE which modems, AliExpress modem Minsk, $16 Amazon modem, two antennas on the module, antenna in an opening]
-source-count: 4
+aliases: [7455 modem, firmware-update USB stick, 5G module, LTE hard to buy, modem firmware mismatch, North America modem variant, KORE APN, ask KORE which modems, AliExpress modem Minsk, $16 Amazon modem, two antennas on the module, antenna in an opening]
+source-count: 6
 status: active
-open-commitments: 7
-open-questions: 2
+open-commitments: 9
+open-questions: 3
 ---
 
 # The Georgia modem failure is a source-and-firmware mismatch — buy the North-America variant, and ask KORE for the APN
@@ -58,6 +58,18 @@ This is the **same shape as the Sept-4 exchange above** — Genadi naming a caus
 
 **The parallel test.** "**[п]араллельно с этим будем сейчас с Андреем пробовать… ставить эти же симки [в] Флекс [IQ] — смотреть, как оно работает**" — Pavel and an "Андрей" will put the same SIMs into the Flex units and watch. *(**§4 unresolved:** the corpus holds three distinct Andreis — [[wiki/people/andrey-bosik.md|Andrey Bosik]] (DevOps), [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] (online games / product) and Andrew Khandov (C# Miranda) — and **none of them is a hardware or SIM tester**. Left unresolved and queued rather than force-matched.)* [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 
+## Sept 24 2026 — the chosen module works after a firmware upgrade, LTE is hard to buy, and a USB stick to flash the firmware
+
+On the [[wiki/meetings/2026-09-24-hardware-repo-bom-source-of-truth-and-street-cabinet-layout.md|Sept 24 4:38 PM alignment call]] [[wiki/people/genadi-peari.md|Genadi]] said he had spent the day on modems and was confused ("я честно говоря уже конфьюз совсем с модом"). [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+
+- **The module works after a firmware upgrade.** The LTE module chosen with Pavel is "хорошее нормальная китайский"; he then did an upgrade ("он потом сделал апвер") and "они тоже заработали." *(Who "он" is — Pavel, by context — is an inference.)* [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+- **LTE is now hard to buy.** "Проблема что LTE сейчас очень уже тяжело купить… И локали." Misha ([[wiki/people/mikhail-perelman.md|Mikhail Perelman]], by the procurement context — inference) bought a small number; the count is garbled ("10 чтото там купил длина 8"). [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+- **5G quoted from China.** Genadi: "в Китае… модули они сразу стоит $150." Val did not know the difference between 5G and LTE "Кроме скорости", but: "если, например, Файв ч работает лучше на лакешене чем LTI то конечно лучше брать". He doubted the price — "160 я еще не уверен… это стоит во всех телефонах, значит, у нас просто неправильно соплаер." Genadi: it is a laptop module, not a phone one ("модули, которые используются в лэптопах"), and he wants to research the market. [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+- **Val's pressure.** "мне нужно выставлять машины", and he had already written the quantities. [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+- **A USB stick that flashes the modem firmware.** Genadi and Pavel had agreed about an hour earlier that Pavel will prepare a USB stick: plugged into the machine, it upgrades the modem firmware automatically, because bought modules come with different firmware — "мы покупаем… мы не знаем, что там стоит, какой [firmware], они все продают с разными." It speaks to the firmware-mismatch cause named on Sept 4 (inference). [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+
+*(Derived-notes check: the notes put the count at "about 8–10, unclear" and Val's figure at $160 against Genadi's $150; the wiki records the count as garbled and both prices as spoken.)* [[raw/Meeting_Notes_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+
 ## Open commitments (Sept 14 2026)
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — order modems from KORE now: two samples, M.2 and mini-PCIe — due as soon as possible; nothing deploys until the modem works — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
@@ -65,6 +77,8 @@ This is the **same shape as the Sept-4 exchange above** — Genadi naming a caus
 
 ## Open commitments
 
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — prepare a USB stick that, plugged into a machine, upgrades the modem firmware automatically — due unspecified (agreed with Genadi on Sept 24, as Genadi reported) — [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+- [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — research the LTE / 5G module market and prices, working with the Chinese suppliers — due unspecified ("сегодня опять") — [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
 - [ ] [[wiki/people/val-levitan.md|Val Levitan]] — email KORE: which modems do they recommend, and will they supply the modem configuration parameters and the APN — due right after this call — [[raw/Meeting_Notes_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]] [[raw/Meeting_Transcript_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]]
 - [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — order the North-America-variant modems (~$16 on Amazon) and ship them to Georgia — due within about two days — [[raw/Meeting_Notes_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]] [[raw/Meeting_Transcript_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]]
 - [ ] [[wiki/people/elizabeth.md|Elizabeth Palomino]] — install the replacement modems in Georgia when they arrive — due on arrival — [[raw/Meeting_Transcript_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]]
@@ -75,6 +89,7 @@ Val's own undertaking from this call — to check his message history for when h
 
 ## Open questions
 
+- 5G or LTE for the machine modem, and is ~$150–160 a real market price for a 5G module? Val: take 5G if it works better at locations. — [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
 - Does the second modem version now going into the Georgia units behave any better than the first? Genadi reported **two types, five of each** received, with the second version going in for Pavel to look at. *(The transcript renders the count as "22 вида модемов по 5 штук"; the derived notes read it as two types of five, which is what is recorded.)* — [[raw/Meeting_Notes_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]] [[raw/Meeting_Transcript_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]]
 - Will KORE supply modem recommendations and the APN? That answer decides between buying new hardware and reconfiguring what is already in the field — [[raw/Meeting_Notes_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]]
 
@@ -85,3 +100,5 @@ Val's own undertaking from this call — to check his message history for when h
 - [[raw/Meeting_Transcript_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+- [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+- [[raw/Meeting_Notes_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]

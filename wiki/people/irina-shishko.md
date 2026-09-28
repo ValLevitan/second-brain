@@ -4,8 +4,8 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 96
-open-commitments: 29
+source-count: 101
+open-commitments: 30
 ---
 
 # Irina Shishko
@@ -426,9 +426,8 @@ On the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-tests.
 
 ## Open commitments (Sept 22 2026, 8:01 AM)
 
-- [ ] Irina Shishko — create the autotest features under the existing capabilities and plan them — due Sept 22 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
+- [ ] Irina Shishko — create the autotest features under the existing capabilities and plan them — due Sept 22 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]] — **Sept 24 2026:** in progress; she expects to finish all capabilities that day or the next — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
 - [ ] Irina Shishko (with Pavel Frolov) — put Ivan and Alexei Khamin on the test work in the schedule — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
-
 
 ## Sept 23 2026 — she splits capability 118 and takes the requirements cleanup
 
@@ -438,7 +437,6 @@ At the [[wiki/meetings/2026-09-23-daily-standup-terminal-emulator-and-capability
 - **Requirements.** She will add missing criteria, close what she can, and sort out one lumped requirement. She is sending Pavel Claude's remarks on four checklist-like requirements; requirement 743 has contradictions she asked him to judge. See [[wiki/topics/test-automation-strategy.md]] (Sept 23).
 - **She backed Khamin on the test first:** "всё бросаешь и занимаешься тестом."
 
-
 ## Sept 23 2026 (8:00 AM) — she walks the open requirements, and calls the test a positive experiment
 
 On the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-autotests.md|Sept-23 8:00 AM MVP 1 call]] (Russian) she shared the list of about 12–13 requirements with open questions and took the group through them one by one — see [[wiki/decisions/2026-09-23-open-requirements-are-settled-on-the-call-and-only-slow-ones-are-parked.md]]. She reported that two capabilities mixing FlexPay and Flex IQ were split and the FlexPay part moved to MVP 2. On the tests: "Положительный эксперимент проведен"; she will create the autotest features under the MVP 1 capabilities. See [[wiki/decisions/2026-09-22-autotests-go-inside-the-existing-capabilities-and-the-first-e2e-test-is-a-one-hour-micro-step.md]] (Sept-23 update) [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]].
@@ -446,7 +444,50 @@ On the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-au
 ## Open commitments (Sept 23 2026, 8:00 AM)
 
 - [ ] Irina Shishko — apply Pavel's "no fixed time, show at once, keep retrying" wording to the device-disconnect requirements — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
-- [ ] Irina Shishko — create the autotest features under the MVP 1 capabilities — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [ ] Irina Shishko — create the autotest features under the MVP 1 capabilities — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]] — **Sept 24 2026:** in progress; she expects to finish all capabilities that day or the next — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+
+## Sept 23 2026 (9:30 AM) — on the RIS and Passport call
+
+She attended the [[wiki/meetings/2026-09-23-ris-and-passport-hard-reset-burden.md|Sept-23 RIS and Passport call]]. Val suggested that she and Pavel use Felipe's report, "translate it into Russian or… however you would like to use it", and work out what to disable. Her own turns on the recording are short and partly garbled. The case-by-case review is Pavel's commitment, with her — see [[wiki/people/pavel.md]] (Sept 23, 9:30 AM) and [[wiki/topics/ris-remote-install-and-machine-states.md]] (Sept 23). [[raw/Meeting_Transcript_RIS_and_Passport_Hard_Reset_Burden-September-23-2026.md]]
+
+## Open commitments (Sept 23 2026, 9:30 AM)
+
+- [x] Irina Shishko (with Pavel Frolov) — review Felipe's hard-reset cases point by point and estimate the fixes — due Sept 24 2026, 7:00 AM follow-up — [[raw/Meeting_Transcript_RIS_and_Passport_Hard_Reset_Burden-September-23-2026.md]] — **discharged Sept 24 2026, 5:41 AM** (the review was held) — [[raw/Meeting_Transcript_Georgia_Hard_Reset_Remedies_and_Passport_Removal-September-24-2026.md]]
+
+## Sept 24 2026 (5:41 AM) — the server-side catch, the statistics scan, and leases on sold machines
+
+At the [[wiki/meetings/2026-09-24-georgia-hard-reset-remedies-and-passport-removal.md|Sept-24 5:41 AM hard-reset review]] (Russian) [[raw/Meeting_Transcript_Georgia_Hard_Reset_Remedies_and_Passport_Removal-September-24-2026.md]]:
+
+- **The server catch.** If the passport is switched off, RIS creation on the server will clash, because it offers only machines that match the passport: "И начнутся конфликты при создании риса." Pavel agreed and set a "do not filter" flag. See [[wiki/decisions/2026-09-24-engineering-plans-to-switch-off-the-passport-check-for-georgia-builds.md]].
+- **The statistics scan.** A factory reset has two separate checks, the secure reset with the flash drive and a QR scan; the scan parameter "есть и он включен", and for Georgia it could default off.
+- **Soft reset and progressives.** She explained the old soft-reset idea (clear only the part the bug touched) and proposed skipping the progressive-controller step when a single machine has only default values. See [[wiki/topics/ris-remote-install-and-machine-states.md]] (Sept 24).
+- **Leases.** Georgia is "большинство, скажем, 90 и 100. Процентов" bought; "Надо с нашей стороны это пересмотреть." See [[wiki/projects/georgia-market-rollout.md]] (Sept 24, 5:41 AM).
+
+## Open commitments (Sept 24 2026, 5:41 AM)
+
+- [ ] Irina Shishko — review on the server whether sold Georgia machines need leases, find what sets the lease-scan flag, and switch leases off where not needed — due unspecified — [[raw/Meeting_Transcript_Georgia_Hard_Reset_Remedies_and_Passport_Removal-September-24-2026.md]]
+
+## Sept 24 2026 (7:02 AM) — at the RIS follow-up
+
+She attended the [[wiki/meetings/2026-09-24-ris-serial-binding-and-factory-reset-focus.md|Sept-24 7:02 AM RIS follow-up]]. Her turns are short; near the end she said, in Russian, that settings "подтянется… По интернету", with no USB sticks. See [[wiki/topics/ris-remote-install-and-machine-states.md]] (Sept 24, 7:02 AM). [[raw/Meeting_Transcript_RIS_Serial_Binding_and_Factory_Reset_Focus-September-24-2026.md]]
+
+## Sept 24 2026 (8:01 AM) — features for every capability, and "50 на 50"
+
+On the [[wiki/meetings/2026-09-24-transactional-mvp1-flexport-money-loss-bugs-and-release-date.md|Sept-24 8:01 AM MVP 1 call]] (Russian) [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]:
+
+- **Bug 349.** She asked why a player still standing at the port cannot scan his ticket after a reboot. See [[wiki/decisions/2026-09-24-a-flex-port-that-dies-holding-money-sends-it-to-unclaimed-and-one-without-a-gateway-goes-out-of-service.md]].
+- **Autotest features.** She creates them per capability and expects to finish "[с]егодня, завтра"; 24 capabilities, "по 45 фич" each (4–5 or 45 — **unclear**). Full coverage is counted in weeks. See [[wiki/topics/test-automation-strategy.md]] (Sept 24, 8:01 AM).
+- **The date.** "1 октября мы релизим, но это будет 50 на 50." See [[wiki/decisions/2026-09-09-first-transactional-installation-planned-for-october-1.md]] (Sept-24 update).
+- **Commits.** She explained Ivan did the work that morning and would commit in the evening.
+
+## Sept 24 2026 (10:00 AM) — the MVP split by initiative, and where the games go
+
+At the [[wiki/meetings/2026-09-24-nova-galaxy-jira-hierarchy-cleanup.md|Sept-24 10:00 AM NOVA/Galaxy call]] (Russian) [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]:
+
+- **IP 1199 and IP 1202.** She explained that the day before the team made IP 1202 beside IP 1199 so that MVP 1 (ends October 1) and MVP 2 (ends October 29) show apart, and that the team finds it useful. Val ruled against release-named initiatives; releases become timeline lines and filters. See [[wiki/decisions/2026-09-24-capabilities-sit-in-one-flat-list-under-each-platform-and-releases-are-timeline-lines-not-initiatives.md]].
+- **Her objection to per-part initiatives:** one capability for, say, a progressive would need three copies, one per product.
+- **Live moves.** She moved items during the call, and said the capabilities now under Galaxy (IP "10 30 96", garbled) move under IP 1199.
+- **Games.** She asked where game production / design / concept IPs go once the grooming is done; Val parked it.
 
 ## Sources
 
@@ -546,3 +587,8 @@ On the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-au
 - [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [[raw/Meeting_Transcript_RIS_and_Passport_Hard_Reset_Burden-September-23-2026.md]]
+- [[raw/Meeting_Transcript_Georgia_Hard_Reset_Remedies_and_Passport_Removal-September-24-2026.md]]
+- [[raw/Meeting_Transcript_RIS_Serial_Binding_and_Factory_Reset_Focus-September-24-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]

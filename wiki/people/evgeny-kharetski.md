@@ -3,7 +3,7 @@ type: person
 title: Evgeny Kharetski
 date: 2025-07-10
 aliases: [Evgeny Kharetski, Evgeny Kharetsky, Evgeny Khoretsky, Kharevsky, Yauheni Kharetski, Kharetsky, Koretski, Koretsky, Korecki, Khorvatsky, Корецкий, Хорватский, Халецкий]
-source-count: 26
+source-count: 28
 open-commitments: 6
 disambiguation: "LGS developer (payroll "Kharetski Yauheni"), this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
 ---
@@ -130,6 +130,19 @@ At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexp
 
 At the [[wiki/meetings/2026-09-23-daily-standup-terminal-emulator-and-capability-split.md|Sept-23 Minsk stand-up]] (Russian), called on as "женя", he said he is working on the contract and needs to talk to Pavel about it in person — "сейчас приеду, поговорить надо". Which contract is not said (on Sept 22 it was under LGS-1185). [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
 
+
+## Sept 24 2026 (5:41 AM) — the store of every RIS, and "in principle yes"
+
+At the [[wiki/meetings/2026-09-24-georgia-hard-reset-remedies-and-passport-removal.md|Sept-24 5:41 AM hard-reset review]] (Russian; called "Женя") [[raw/Meeting_Transcript_Georgia_Hard_Reset_Remedies_and_Passport_Removal-September-24-2026.md]]:
+
+- **Passport switch-off.** Asked whether removing the passport check for the Georgia build is hard: "Но в целом да… Я уже говорю что в целом да." See [[wiki/decisions/2026-09-24-engineering-plans-to-switch-off-the-passport-check-for-georgia-builds.md]].
+- **The hidden RIS history.** "у нас есть файл сторож, который мы храним. Все рисы, которые когдалибо были применены на машине" — a mechanism "мало кто знает"; the latest is picked by file number, not by time. The catch is progressives. See [[wiki/topics/ris-remote-install-and-machine-states.md]] (Sept 24).
+- **He pushed on scope:** is the list "здесь и сейчас", or gathered "чтоб это всё обработать и сделать красиво в будущем"? He doubted the soft reset ("Слишком много ситуаций надо обработать"), raised the lost-money case, and said that with services a printer could be found and added to the payout order on the fly.
+
+## Sept 24 2026 (10:00 AM, in absentia, by inference) — the integration-repository manifest
+
+At the [[wiki/meetings/2026-09-24-nova-galaxy-jira-hierarchy-cleanup.md|Sept-24 10:00 AM NOVA/Galaxy call]], Pavel said "женя" will work on a task in the integration repository: a manifest that ties versions of different repositories into one build, ending in an artefact like an ISO. Read as this Zhenya by context — he leads the NOVA integration repository since Sept 3. **Inference.** Not present. [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
@@ -158,3 +171,5 @@ At the [[wiki/meetings/2026-09-23-daily-standup-terminal-emulator-and-capability
 - [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
+- [[raw/Meeting_Transcript_Georgia_Hard_Reset_Remedies_and_Passport_Removal-September-24-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]

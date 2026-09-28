@@ -3,7 +3,7 @@ type: decision
 title: Re-carve the "Gaming Platform" Jira initiative into six product-repos (OmniCore, OmniLandBaseFramework, OmniOnlineFramework, LGS, RGS, OmniMath)
 date: 2025-04-07
 aliases: [six products, gaming platform recarve, IP481 products, OmniLandBaseFramework, OmniOnlineFramework, OmniMath, product per repository, LGS RGS split]
-source-count: 2
+source-count: 3
 status: active
 open-questions: 3
 ---
@@ -45,6 +45,10 @@ The next working session ([[wiki/meetings/2025-04-08-github-jira-product-repo-na
 - **Vivien needs its own repository** — it has never been in the Jira repos and never will be code-wise; it currently exists only as a **feature ("Vivien DataSync") under IP24**. (See [[wiki/projects/vivien-application.md]].) [[raw/github_jira_structure_repositories-april-8-2025.md]]
 - **OmniMath sits in a separate GitHub org** ("JVL Game Math Engine Mechanics", transcribed variants) created for **restricted access** to the math; that org does not line up with a Jira value stream. The **template-repo** mechanism was confirmed — "create new repository from template" (green button) — and Val asked that a **GitHub link be added to every Jira IP**. [[raw/github_jira_structure_repositories-april-8-2025.md]]
 
+## Later — Sept 24 2026: where IP481 sits now
+
+On the [[wiki/meetings/2026-09-24-nova-galaxy-jira-hierarchy-cleanup.md|Sept-24 2026 NOVA/Galaxy call]], [[wiki/people/pavel.md|Pavel]] described IP 481 as the initiative "NOVA Gaming Platform Land-based", sitting under IP 90 Applications, with the NOVA work filed there. Val ruled it should move under a **Core** value stream, holding one flat list of capabilities, with the repositories as Jira projects. See [[wiki/decisions/2026-09-24-capabilities-sit-in-one-flat-list-under-each-platform-and-releases-are-timeline-lines-not-initiatives.md]]. [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]
+
 ## Open questions
 
 - **GitHub organizations vs Jira value streams (opened Apr 8):** three linked questions Val left open — (a) how to map GitHub orgs at all; (b) whether to parallel org names to Jira value streams (Andrei's original proposal; Aaron pushed to merge game concept/design/production into one "games development" org); (c) whether **OmniMath** belongs under Gaming Platform or should move to Game Concepts. Sasha's view: orgs are a GitHub-only construct (Bitbucket/Azure have no equivalent) used only for access control — JVL may simply ignore them for Jira purposes. Deferred. [[raw/github_jira_structure_repositories-april-8-2025.md]]
@@ -55,3 +59,4 @@ The next working session ([[wiki/meetings/2025-04-08-github-jira-product-repo-na
 
 - [[raw/github_jira_reshuffling_products-april-7-2025.md]]
 - [[raw/github_jira_structure_repositories-april-8-2025.md]]
+- [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]

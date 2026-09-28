@@ -3,7 +3,7 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention, installment payments, aged receivables, Customer Ledger Entries, category-based terms, subscription module, parts vs machines terms, Black Horse Entertainment, Sales Watch, import duties tax category, landed cost, tax category, assembly BOM, production BOM, BOM history, BOM sync robot, tag stamp on item card]
-source-count: 69
+source-count: 71
 open-questions: 4
 ---
 
@@ -403,6 +403,21 @@ The first request in the corpus for a Business Central field that comes from the
 - **Nobody took it.** Val said "we must"; no owner was named on the call and the derived notes flag the same gap. Tracked on [[wiki/decisions/2026-09-17-import-duty-gets-its-own-tax-category-in-business-central.md]] and [[wiki/topics/tariffs-and-customs-compliance.md]] (Sept 17 2026). [[raw/Meeting_Notes_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]]
 - **Why it belongs here and not only on the tariff page.** Genadi's stated reason is that he cannot answer Val's question "**сколько стоит мне эта машина?**" — he looks at one number and then at another with freight in it. That is the same **inventory-and-cost-visibility** gap this page has tracked since the Sept-4 plastics that were physically in Georgia but absent from the system, and since the three-source cost hierarchy work of May 21 2026. Val's own workaround today is arithmetic outside the system: he adds **30%** to whatever bill-of-material figure Genadi gives him, and said the truer number is about **35%**. **§15.8:** component, freight and duty economics only. [[raw/Meeting_Transcript_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]]
 
+
+## Sept 23 2026 — "MSBC or GitHub?" for the BOM: Val says GitHub, Genadi builds it in BC
+
+Six weeks after the Aug-12 design, the same two people argued it again on the [[wiki/meetings/2026-09-23-texas-flex-slim-release-street-cabinet-and-bom-source-of-truth.md|Sept-23 alignment call]]. Full ruling on [[wiki/decisions/2026-09-23-the-bom-source-of-truth-is-the-latest-design-in-github-and-sync-runs-one-way.md]]. [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+
+- **Genadi's practice:** he builds the BOM in BC — "Сегодня все цены находятся в м из би си"; a revision change there flows to all related items; all orders go out of MSBC. He could not picture BOM trees in GitHub. [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+- **Val's sequence:** drawing (SolidWorks) → GitHub for versions and history → part-number list into MSBC → supplier, quotations, vendor card → purchase order. "Mсбиси или гетхап." — "Китхаб конечно, потому что это последняя версия дизайна." [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+- **Agreed:** the sync is one way; "Обе стороны… плохо… Должен быть wan sorrs of chers". [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+- **Status of the sync project:** Val had had no time with [[wiki/people/nathan-carver.md|Nathan]] and did not know where it stood; he will call a separate meeting. [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+- **Against June 25 and Aug 12 (evolution, inference):** this keeps the Aug-12 narrowing of the June-25 "BC is the single source of truth" rule for design data, but shows it is not yet agreed with the person who builds the BOMs.
+
+## Sept 24 2026 (4:38 PM) — BC holds a copy plus everything commercial; the BOM is built in BC automatically
+
+The next day, on the [[wiki/meetings/2026-09-24-hardware-repo-bom-source-of-truth-and-street-cabinet-layout.md|Sept-24 4:38 PM alignment call]] (Val and [[wiki/people/genadi-peari.md|Genadi]]), Val read out his written rule: GitHub's latest released design is the one source of truth for product structure; "Business Central holds a copy of that structure. Plus, everything commercial"; data flows one way, GitHub to BC; if they disagree, "GitHub is right and BC gets corrected." Vendors, prices, lead times, packaging, labour and consumables stay in BC. Val's research question is how to build the BOM **in BC, automatically**, with GitHub as the source for every component; Val and Genadi will try a test BOM on the new Slim. Genadi showed today's practice — a Flex machine in BC with modules, top assembly and parts, and a new revision entered at quantity zero until old stock runs out. Full detail on [[wiki/decisions/2026-09-23-the-bom-source-of-truth-is-the-latest-design-in-github-and-sync-runs-one-way.md]] (Sept-24 update). [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]]
 - [[raw/Meeting_Notes_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]]
@@ -475,3 +490,5 @@ The first request in the corpus for a Business Central field that comes from the
 - [[raw/Meeting_Transcript_BofA_Lenin_Hernandez_Banking_Review_and_Georgia_Financing-June-8-2026.md]]
 - [[raw/Meeting_Notes_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
+- [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+- [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]

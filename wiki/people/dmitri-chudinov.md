@@ -4,8 +4,8 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 63
-open-commitments: 29
+source-count: 66
+open-commitments: 30
 open-questions: 0
 ---
 
@@ -317,7 +317,6 @@ The fourth MVP 1 morning call ([[wiki/meetings/2026-09-17-transactional-mvp1-ski
 - [ ] Finish the logging work and write the Grafana / metrics requirements, including periodic signal metrics with offline buffering — due unspecified; nothing written yet — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [ ] Send the InComm error list and JVL's own on-screen messages ("no internet", "lease expired") into the meeting chat for Klimovich's Flex IQ text collection — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 
-
 ## Sept 18 2026 (8:03 AM) — he brings the contradiction that started the day, kills the rollback requirement, and becomes the plan's single dependency
 
 The [[wiki/meetings/2026-09-18-transactional-mvp1-capability-cleanup-and-the-monday-deadline.md|fifth and final MVP 1 morning call]] before the Monday gate (Russian). Asked what was blocking the team, he answered with a live blocker: starting his next feature the day before, he found a capability whose requirements demanded a PIN for the wallet even though the team had dropped the PIN — "**есть требования, где нужен пин код[,] и требования, где пинкод не нужен. Возникло противоречие[,] конфликт[,] естественно, бло[к]ер**". [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
@@ -377,7 +376,6 @@ On the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-tests.
 
 - [ ] Dmitri Chudinov — set the feature dates under capability 152 — due Sept 22 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
 
-
 ## Sept 23 2026 — "I told you not to mix products", and a certificate clash on STG
 
 At the [[wiki/meetings/2026-09-23-daily-standup-terminal-emulator-and-capability-split.md|Sept-23 Minsk stand-up]] (Russian; label "Dzmitry Chudzinau") [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]:
@@ -385,7 +383,6 @@ At the [[wiki/meetings/2026-09-23-daily-standup-terminal-emulator-and-capability
 - **His earlier warning came true.** "я вам говорил не мешать в одной капубилике продукты". He told Sergey one shared repository for FlexPay and Flex IQ may work later, not now. See [[wiki/decisions/2026-09-23-capability-118-is-split-by-product-and-two-devices-keep-two-repositories.md]].
 - **Capability 152 (card activation) on STG.** The DEV and STG cluster share one region and group, so a DEV-registered terminal clashes with STG and its certificate must be unbound. He dislikes both fixes and will take it to Andrei (Bosik, by inference). See [[wiki/decisions/2026-09-18-the-mvp1-capability-list-is-walked-item-by-item-and-every-capability-gets-an-owner.md]] (Sept-23 update).
 - **Scope.** "на меня flexpay не вешайте." He will tidy and assign his own tasks.
-
 
 ## Sept 23 2026 (8:00 AM) — REQ-753 is "abstract", buffering already works, and he takes the Flex IQ capability
 
@@ -398,7 +395,37 @@ On the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-au
 
 ## Open commitments (Sept 23 2026, 8:00 AM)
 
-- [ ] Dmitri Chudinov — create the features under capabilities 230, 231 and 234 — due Sept 24 2026 — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [ ] Dmitri Chudinov — create the features under capabilities 230, 231 and 234 — due Sept 24 2026 — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]] — **Sept 24 2026:** he said he raised features on all the new capabilities Andrei created; the numbers read out are garbled, and 231 was his own, so this stays open until a source confirms all three — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
+
+## Sept 24 2026 — he would rethink his firmware scheme, and asks who closes a feature
+
+At the [[wiki/meetings/2026-09-24-daily-standup-firmware-delivery-and-capability-statuses.md|Sept-24 Minsk stand-up]] (Russian; label "Dzmitry Chudzinau") [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]:
+
+- **Firmware delivery.** Asked if the team keeps his firmware-transfer scheme: "Я бы я бы пересмотрел". It was not properly tested, the port-to-IQ contract may have changed, and the server side is now different. He wanted AI to review the finished work first. See [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Sept-24 update).
+- **Features raised.** He raised features, with dates and statuses, on all the new capabilities Andrei created. He continues 152 (card activations) and is finishing the last update fixes — fine on one terminal, problems on another. See [[wiki/decisions/2026-09-18-the-mvp1-capability-list-is-walked-item-by-item-and-every-capability-gets-an-owner.md]] (Sept-24 update).
+- **Completed or Closed?** He asked which one a developer sets, and who checks. He said he still had no answer. See [[wiki/decisions/2026-09-11-accepted-means-reviewed-taken-into-work-is-the-move-to-to-do.md]] (Sept-24 update).
+- **Dates on To-Do tasks.** "Должна" — set as soon as a task is discussed.
+
+## Sept 24 2026 (8:01 AM) — lost money is "unconfirmed", the clever cashier, and the terminal test API
+
+On the [[wiki/meetings/2026-09-24-transactional-mvp1-flexport-money-loss-bugs-and-release-date.md|Sept-24 8:01 AM MVP 1 call]] (Russian; label "Dzmitry Chudzinau") [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]:
+
+- **Bug 349.** Money on a Flex-Port that died is unconfirmed — nobody knows how long it was off. He showed the "хитрый кассир" risk of resuming the timeout, and for unclaimed matching gave a case where the nearest wallet is the wrong person's. See [[wiki/decisions/2026-09-24-a-flex-port-that-dies-holding-money-sends-it-to-unclaimed-and-one-without-a-gateway-goes-out-of-service.md]].
+- **Receipts.** He asked what happens when a cashier screen's idle timer expires before the action; he uses Claude to check mock-ups against the screens, so asked for the version footer in the mock-up.
+- **Test API.** His task "Фик фик 56" adds the terminal test API that unattended autotests need — "В работе". Pavel noted his plan had end dates but no start dates. Hooks: "Для продакшн… такие вещи запрещены." See [[wiki/topics/test-automation-strategy.md]] (Sept 24, 8:01 AM).
+
+## Open commitments (Sept 24 2026, 8:01 AM)
+
+- [ ] Dmitri Chudinov — finish the terminal test API (task "56") so autotests run with no person — due Sept 24 2026 (as he said it) — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+
+## Sept 24 2026 (10:00 AM) — "90% of work crosses repositories", and Galaxy with NOVA
+
+At the [[wiki/meetings/2026-09-24-nova-galaxy-jira-hierarchy-cleanup.md|Sept-24 10:00 AM NOVA/Galaxy call]] (Russian; label "Dzmitry Chudzinau") [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]:
+
+- **Against splitting by repository.** "Я почти уверен, что 90% работ идут взаимодействие. Более одного репозитория." A capability almost always spans several products; he liked grouping by planned release, as in MVP 1.
+- **Galaxy.** Server and machine capabilities belong together: either all under Galaxy or all under NOVA, or they split again. He asked whether only two platforms should remain (CMS as fading legacy), with progressives and math moving to NOVA. Not settled.
+- **Reservation.** "Давайте сначала сделаем, а потом посмотрим" — he wants to see the filters work first.
+- Val asked him and Biratka to move their own capabilities by the next morning. Commitment on [[wiki/decisions/2026-09-24-capabilities-sit-in-one-flat-list-under-each-platform-and-releases-are-timeline-lines-not-initiatives.md]].
 
 ## Sources
 
@@ -465,3 +492,6 @@ On the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-au
 - [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]

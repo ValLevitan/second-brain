@@ -3,7 +3,7 @@ type: decision
 title: Capabilities get per-product components — FlexPay, Flex-IQ, FlexPort, Terminal Hub — and MVP fix versions, so the one undifferentiated pile can be filtered
 date: 2026-09-10
 aliases: [components in the capability project, FlexPay Flex IQ FlexPort Terminal Hub components, cloud services not split out, fix versions for MVP 1 and MVP 2, all the requirements and capabilities dumped in one pile, hang the capability on the product project, filter only works by reporter]
-source-count: 3
+source-count: 4
 status: active
 open-commitments: 2
 open-questions: 1
@@ -30,6 +30,12 @@ Settled by the Minsk transactional group at the [[wiki/meetings/2026-09-10-capab
 
 This advances, but does not fully close, the open question carried on [[wiki/decisions/2025-04-03-jira-capability-level-and-github-mapping.md]] — how MVP 1 and MVP 2 are separated in Jira. Pavel's fix-version route is now being built; Irina's rival proposal (use the capability status) is not mentioned in this source.
 
+## Update, Sept 24 2026 — the MVP is a release, never an initiative
+
+At the [[wiki/meetings/2026-09-24-nova-galaxy-jira-hierarchy-cleanup.md|Sept-24 10:00 AM call]] (Russian), [[wiki/people/irina-shishko.md|Irina Shishko]] showed that the transactional team had also made a second initiative, **IP 1202** beside **IP 1199**, so MVP 1 (ending October 1) and MVP 2 (ending October 29) could be seen apart. [[wiki/people/val-levitan.md|Val]] was "категорически против" release-named initiatives: a release is a vertical line on the timeline, and MVP 1 is found by a release filter. [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]]: "фильтром фильтровать по релизу, выбрать м VP один". This keeps the fix-version route of this decision and rules out the initiative route. See [[wiki/decisions/2026-09-24-capabilities-sit-in-one-flat-list-under-each-platform-and-releases-are-timeline-lines-not-initiatives.md]]. [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]
+
+*(The per-product component idea of this page is not mentioned on Sept 24; Val instead pointed to project filters, since each product has its own repository and project.)* [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]
+
 ## Open commitments
 
 - [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — create the components in the capability project. He asked for the list in writing so he could do it fast: "[в]ы можете мне список скинуть, я посо[зд]аю быстро… [в] чатик напишите[,] я создам" — due September 10 2026 — [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
@@ -48,3 +54,4 @@ This advances, but does not fully close, the open question carried on [[wiki/dec
 - [[raw/Meeting_Notes_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
 - [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]

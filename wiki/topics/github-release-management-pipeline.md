@@ -3,7 +3,7 @@ type: topic
 title: GitHub release management and the CI/CD release pipeline
 date: 2025-10-21
 aliases: [release management, release pipeline, CI/CD, GitHub Actions pipeline, release artifacts, ISO image release, release manager role, continuous delivery, flex os installer, manifest, release candidate, single source of truth, feature branch discipline, sprints vs kanban, Jira GitHub link, FlexPos IP 902, FP 519, IP 89 dashboard grooming, bulk archive automation, Jira resolutions cleanup, Flex-POS Transition to Production, alpha build release tracking, knowledge repository, prose pending folder, prose merge action, docs contracts folder, integration repository, Knowledge Base repository, Standards folder, 39 accesses, hardware GitHub standard, hardware-components repo, hardware-manufacturing repo, BOM sync robot, category first manufacturer second]
-source-count: 95
+source-count: 99
 open-questions: 10
 ---
 
@@ -734,6 +734,26 @@ A **code-standards email** from Val to [[wiki/people/pavel.md|Pavel Frolov]] and
 - **The cloud is the exception.** [[wiki/people/andrey-bosik.md|Bosik]]: JVL must keep pace with Amazon's changes. He gets notices by email, reviews them, changes code where an API is affected, and updates "где-то раз в 2 недели". It cannot be automatic, he must still review what Claude does, and modules must be updated "в порядке их зависимости".
 - **GitHub Actions need attention too.** Pavel: the actions warn that Node is moving "С 20 по 24"; they work for now with no guarantee in a year, so they must be kept current in every repository. Bosik: repositories are the easier case — the build fails and you fix it on the spot [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]].
 
+
+## Sept 23 2026 — the BOM's source of truth is the design in GitHub, restated and contested
+
+On the [[wiki/meetings/2026-09-23-texas-flex-slim-release-street-cabinet-and-bom-source-of-truth.md|Sept-23 alignment call]] Val restated the Aug-12 direction: GitHub is "самое удобное место для Того, чтобы монитор все ревизии, все изменения", and the BOM's source of truth is the latest design version there; the sync to BC is one way. [[wiki/people/genadi-peari.md|Genadi]] questioned how multi-module BOM trees would be kept in GitHub and whether the part number belongs there. Val said he is not sure the part number should sit in GitHub at all, since GitHub holds the latest drawing number and revision. See [[wiki/decisions/2026-09-23-the-bom-source-of-truth-is-the-latest-design-in-github-and-sync-runs-one-way.md]]. [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+
+## Sept 24 2026 — the hierarchy standard applied to NOVA and Galaxy: one flat capability list, releases as timeline lines, no product IPs
+
+The [[wiki/meetings/2026-09-24-nova-galaxy-jira-hierarchy-cleanup.md|Sept-24 10:00 AM call]] (Russian) took the [[#jun-16-2026--the-jira-hierarchy-standard-is-locked-value-stream--initiative--capability--project-capabilities-close-project--repository-11|Jun-16 standard]] to NOVA and Galaxy, which were still filed the old way. Full rulings: [[wiki/decisions/2026-09-24-capabilities-sit-in-one-flat-list-under-each-platform-and-releases-are-timeline-lines-not-initiatives.md]]. [[raw/Meeting_Notes_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]
+
+- **Project = repository is now true for every repository.** [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] had created all projects: "отношение один к одному все репозитории соответствуют проектам в жире". Only the LGS and RGS keys were taken by old projects; he proposed keeping the key and renaming the project to match the repository (his example "платформ лол gaming Server", garbled). Val: "Окей класс класс отлично." [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]
+- **Capabilities in one flat list; views by filter.** Under a platform, capabilities form one long list; release, status, assignee and project (= repository) are filters. Kovalchuk added that Jira now calls projects "spaces" ("Так в жюри называются спейсы") [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]].
+- **Releases are timeline lines, not initiatives.** Val rejected the release-named initiatives (IP 1199 / IP 1202) the transactional team had made the day before; releases are the "вертикальные вот эти линии" — the same cross-space release lines described on Jun-16. Pavel: the same release must then exist in every project, and features must carry it [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]].
+- **The product IP layer goes.** FlexPort, IQ, Dispenser and similar are repositories already, so they stop being IPs; their old features move under capabilities. Grooming goes to Kovalchuk, with Claude doing much of it [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]].
+- **Value streams.** The top stream is Core (NOVA and Galaxy platforms under it); the old IP 738 "Core", which holds helper tools, is to be called Tools. Val sees three clear streams: "Геймс кор и харвар" [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]].
+- **Forward fix.** [[wiki/people/andrey-bosik.md|Bosik]] asked how a hot fix outside a planned release fits ("модели форварденг"); Chudinov: a feature goes under the right capability. Chudinov and Pavel agreed the MVP "release" is really a grouping of work, not a release ("это группа работ, это не релиз") [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]].
+
+## Sept 24 2026 (4:38 PM) — the hardware repo is the one source of truth for product structure; the BOM is not built in GitHub
+
+On the [[wiki/meetings/2026-09-24-hardware-repo-bom-source-of-truth-and-street-cabinet-layout.md|Sept-24 4:38 PM alignment call]] Val read the rule from his note: "That source of truth is the latest release design in GitHub hardware repo," with one-way flow to BC. His note says "each module gets one plain text file." When Genadi asked how a BOM is built in GitHub, Val said it is not: "я не вижу, зачем его нужно строить в гидхады" — GitHub holds the source data and the BOM is built in BC. Genadi said he has no problem keeping "Parts, drawings, documentation" in GitHub. See [[wiki/decisions/2026-09-23-the-bom-source-of-truth-is-the-latest-design-in-github-and-sync-runs-one-way.md]] (Sept-24 update). [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
@@ -831,3 +851,7 @@ A **code-standards email** from Val to [[wiki/people/pavel.md|Pavel Frolov]] and
 - [[raw/Meeting_Notes_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+- [[raw/Meeting_Notes_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]
+- [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]

@@ -3,7 +3,7 @@ type: decision
 title: The first transactional installation is planned for October 1 and the whole schedule is built on that assumption — the date stands; the FlexPay self-service configuration named here was replaced by Flex IQ on Sept 11
 date: 2026-09-09
 aliases: [first installation October 1, assume October 1, one installation on the first of October, self-service wallet case, bill acceptor card dispenser and printer, it might be September 28, the October 1 case]
-source-count: 7
+source-count: 9
 status: active
 open-commitments: 1
 open-questions: 0
@@ -48,6 +48,17 @@ The 7:02 AM and 8:43 AM statements above are internal planning. At **10:04 AM** 
 
 The readiness estimate given in the same call — best case **September 25** for the Flex-Port MVP — leaves almost no margin before October 1. Both stand as stated; see [[wiki/decisions/2026-09-09-flex-port-readiness-slips-to-september-25-and-stays-the-bottleneck.md]]. The one-unit-per-location limit that shapes what can actually be installed is on [[wiki/decisions/2026-09-09-one-transactional-unit-per-location-until-the-wi-fi-iteration.md]].
 
+## Update, Sept 24 2026 — October 15 is floated, and October 1 stays
+
+At the [[wiki/meetings/2026-09-24-transactional-mvp1-flexport-money-loss-bugs-and-release-date.md|Sept-24 8:01 AM MVP 1 call]] (Russian) the date was argued once more, and it did not move [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]].
+
+- **Why it came up.** [[wiki/people/irina-shishko.md|Irina Shishko]] said autotest coverage is counted in weeks; Val summed it up as "максимум 4 недели, правильно?" and she agreed. Val then asked how the October-1 release will be tested. Irina: "1 октября мы релизим, но это будет 50 на 50… это не означает, что мы за эту неделю покроем все всё автотестами" [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]].
+- **Val offered October 15.** "Давайте сделаем 1 релиз 15 октября… Я всегда знал что это будет 15 октября, а вам говорил 1." He linked it to [[wiki/people/andrei-klimovich.md|Klimovich]] being away: "раньше вас же не будет, и мы всё равно не… установим ничего. Поэтому торопить команду тоже не имеет смысла" [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]].
+- **Klimovich objected.** The Georgia team stays and will install the build, connect it to machines and start testing. "[К]огда озвучивается 15 это может превратиться в 30 так же как 1 превратилось в 15. Поэтому я бы хотел, чтобы 1 октября билд был получен… [у]становлен и было обнаружено, что там половина не работает. Ну хотя бы этот шаг был сделан" [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]].
+- **Val agreed.** "Окей, хорошо, давай согласен, это правильно… Это правда, конечно согласен" [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]].
+
+**Plan vs actual.** The **plan of record stays October 1**. October 15 was an offer that was withdrawn on the same call, not a slip and not a new plan. What October 1 now means, in Klimovich's words, is a build delivered, installed on machines and tested in Georgia, even if half of it fails. No actual date is known yet; when one is, it is recorded beside the plan, per the owner's 2026-09-01 principle ([[wiki/decisions/2026-09-01-first-nova-product-south-dakota-vlt-2.md]]). *(The derived notes give the same account [[raw/Meeting_Notes_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]].)*
+
 ## Open commitments
 
 - [ ] [[wiki/people/narasimha-rao-namburi.md|Rao]] — select the five October locations so the first-week-of-October installation has a host — due week of Sept 14 2026 — [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
@@ -69,3 +80,5 @@ The readiness estimate given in the same call — best case **September 25** for
 - [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Dwolla_Reserve_Reduction_Negotiation-August-11-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+- [[raw/Meeting_Notes_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]

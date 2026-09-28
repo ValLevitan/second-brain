@@ -3,7 +3,7 @@ type: decision
 title: The MVP 1 timing numbers — 200 ms between screens under load, 30 seconds to wait for an activation answer, 30 seconds for a player to collect at the Flex-Port, and a silent InComm leaves a pending transaction
 date: 2026-09-16
 aliases: [requirement 1435, requirement 1437, requirement 1438, requirement 1469, capability 151, 200 milliseconds, 30 seconds, thirty second timeout, collect timeout, activation timeout, pending transaction, no answer at all, retry later, universal not per-location, 200 миллисекунд это стандарт]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 0
 open-questions: 0
@@ -45,8 +45,13 @@ Irina framed the test as a human one — how long does a person need to get the 
 
 **It is universal, not a per-location parameter.** Pavel asked for it to be configurable per location and was refused: "нет, точно не для локации… мне сложно представить локаци[ю,] где… люди не успевают просканировать… это универсальная. Без проблем[,] мы будем наблюдать. Ну если мы убедимся[,] [что] 30 секунд слишком мало, мы везде поменяем это значение" — one value everywhere, changed everywhere at once if observation says so [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]. That is the same collect fork described on [[wiki/decisions/2026-09-15-the-flex-port-idle-screen-never-sleeps-and-the-port-mirrors-the-machine.md]], and the timeout's consequence — the money going to unclaimed rather than being lost — is [[wiki/decisions/2026-09-15-a-timeout-sends-the-money-to-unclaimed-and-the-player-never-loses-it.md]].
 
+## Update, Sept 24 2026 — the 30 seconds is questioned, not changed
+
+On the [[wiki/meetings/2026-09-24-transactional-mvp1-flexport-money-loss-bugs-and-release-date.md|Sept-24 8:01 AM call]] Klimovich confirmed the value in force — "у нас сейчас там задан 30 секунд. Вот этот скрин ожидания 30 секунд просканируй меня" — and said "Мы можем поменять его на одну минуту". Pavel had asked for "течение минуты". Val challenged the 30 seconds as too short for a player who turns away. Nobody changed the value. Pavel also gave the machine-side number: about **8 seconds** under SAS in which the money may stay on the machine [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]. See [[wiki/decisions/2026-09-24-a-flex-port-that-dies-holding-money-sends-it-to-unclaimed-and-one-without-a-gateway-goes-out-of-service.md]]. *(Irina's Sept-16 guess about "8 секунд… между машиной и портом" fits Pavel's number — **inference**.)*
+
 **§15.8:** clear — timing standards and error handling only; no named person's pay, rate or performance judgement appears in either source, and nothing was excluded on that ground. **§15.9:** no licence, registration, tax or account number appears in this material.
 
 ## Sources
 - [[raw/Meeting_Notes_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]

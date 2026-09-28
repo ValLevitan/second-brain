@@ -3,9 +3,9 @@ type: decision
 title: "Accepted" on a capability means reviewed and accepted, not taken into work — taken into work is the move to To Do when the release scope is set, and the transition will be automated from feature status
 date: 2026-09-11
 aliases: [the green status in the middle misleads, accepted is not taken into work, move to To Do when we say we are doing MVP 1, automate capability status from feature status, a feature going In Progress moves its capability, move all MVP 1 capabilities into To Do, green Accepted looks done, change the colour, only not In Progress]
-source-count: 6
+source-count: 7
 status: active
-open-commitments: 3
+open-commitments: 5
 open-questions: 2
 ---
 
@@ -63,17 +63,30 @@ At the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-au
 
 Pavel's rule on To Do, the same call: "как только фичи созданы сразу, они должны быть в туду после Того, как фичи наполнены" [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]. **The flow in one line:** Klimovich → Accepted; assignee → To Do (features filled) → In Progress (work starts) → Review (all features done); Review → Complete by QA/product, not decided in detail.
 
+## Update, Sept 24 2026 — a Req Review status, the Accept status goes grey, and Completed versus Closed
+
+At the [[wiki/meetings/2026-09-24-daily-standup-firmware-delivery-and-capability-statuses.md|Sept-24 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]], [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] showed his Jira changes:
+
+- **A new status after In Progress.** "Я добавил в капобилити статус… реквест ревью". Today he will build a rule moving a capability from In Progress to Req Review when all features and stories are closed — green — "Чтобы это не вручную… не терялся". This answers the Sept-22 question of what the status is called.
+- **Irina's check.** Autotest-writing features sit under the capability, so it stays In Progress until they are done. Irina: autotests should be written before Req Review, so that is right.
+- **The Accept colour is changed.** "Ацепт копобилити… был зеленый, что клодом воспринимается как закрытая задача". He moved it to the To Do category, grey. Pavel: "это это нам и надо было". This answers the open question below.
+- **Completed versus Closed — not settled.** [[wiki/people/dmitri-chudinov.md|Chudinov]] asked which one a developer sets, because each person does it differently, and said "вал говорил тогда клоуз" at some recent meeting. Kovalchuk: Completed is done but can be sent back; Closed is "всё запаковано". Irina: Completed is done but not checked; Closed is checked and working. Chudinov asked twice who checks — "Кто будет проверять фичу" — and said "я спросил и всё равно ответа нету". Pavel: "Автотесты", and before a capability closes, everything is clicked through.
+- **Parents before children.** Kovalchuk: closing a capability should set Closed everywhere below it. Irina: Jira then says the parent closed before the child — children must close first. Pavel: Kovalchuk will check how the auto-rule behaves.
+
 ## Open commitments
 
 - [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — automate the capability status transition from feature status (a feature going In Progress moves its capability To Do → In Progress, and back), after testing it — due after Monday Sept 14 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — move all MVP 1 capabilities into To Do — due Monday Sept 14 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 
 - [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — check why a story cannot move from Request Review to Complete in the "h fm" project settings — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
+- [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — build the rule that moves a capability from In Progress to Req Review when all its features and stories are green — due Sept 24 2026 — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
+- [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — check how the auto-rule behaves when a capability closes, so a parent never closes before its children — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
 
 ## Open questions
 
-- **Will the Accepted colour be changed?** Klimovich and Irina say green Accepted and grey To Do mislead; Pavel says a task to Kovalchuk left it green and needs another pass; no owner or date was set — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
+- ~~**Will the Accepted colour be changed?**~~ **Answered Sept 24 2026:** Kovalchuk moved Accept Capability into the To Do category, grey — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]] — was: Klimovich and Irina say green Accepted and grey To Do mislead; Pavel says a task to Kovalchuk left it green and needs another pass; no owner or date was set — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
 - **What, if anything, has to happen between Accepted and To Do?** Klimovich asked directly — "что должно происходить с [капабилити,] для Того, чтобы он перешёл [из] [ак]септ[а] в туду[,] какой процесс[?]" — and the answer given was the release-scope declaration itself, with no intermediate step named — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **Who checks a feature before it is Closed, and does a developer set Completed or Closed?** Pavel said autotests and a click-through; Kovalchuk and Irina gave two different definitions; Chudinov said he still had no answer — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
 
 *(The derived notes record the same outcome — "the meaning was fixed rather than the status removed" — and attribute the automation to Kovalchuk.)* [[raw/Meeting_Notes_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 
@@ -86,3 +99,4 @@ Pavel's rule on To Do, the same call: "как только фичи создан
 - [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
 - [[raw/Meeting_Notes_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]

@@ -3,7 +3,7 @@ type: decision
 title: Remote firmware update is in MVP 1 for the gateways only — Flex IQ and FlexPay update themselves; distributing firmware to the Flex-Ports moved to MVP 2 on Sept 17
 date: 2026-09-14
 aliases: [firmware upgrade in MVP1, remote firmware update, OTA firmware, приоритет номер один это чтобы обновлялся флекс ай кю, flash the FlexPorts, Flex IQ to FlexPort protocol, доперфек, priority two deferred, FlexPort firmware by USB stick, capability 144 to MVP2, capability 144 cloned, no rollback, roll forward only, requirement 1367]
-source-count: 7
+source-count: 8
 status: active — but PARTLY SUPERSEDED: "priority two" (the gateways distributing firmware to the Flex-Ports) left MVP 1 on Sept 17 2026, and rolling BACK to a previous build was removed from MVP 1 on Sept 18 2026; see the dated updates below
 open-commitments: 2
 open-questions: 1
@@ -81,6 +81,18 @@ At the [[wiki/meetings/2026-09-23-daily-standup-terminal-emulator-and-capability
 - **On the open question below:** Alekseev is again named as the intended user, but no one assigns him. The question stays open.
 - The emulator detail is on [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]] (Sept-23 update).
 
+## Update, Sept 24 2026 — how firmware reaches the device is not defined yet, and a spike is proposed
+
+At the [[wiki/meetings/2026-09-24-daily-standup-firmware-delivery-and-capability-statuses.md|Sept-24 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]:
+
+- **The Flex-Port firmware protocol comes first.** Pavel, on the Flex IQ emulator: "Необходим в первую очередь именно протокол обновления прошивок флекс портов", as its own feature. He said this is "более приоритетно даже сейчас". He did not say which MVP it serves. Recorded as spoken; it does not by itself reverse the Sept-17 MVP 2 move above.
+- **Chudinov would revisit his own scheme.** Asked whether the team keeps the firmware-transfer scheme he built: "Я бы я бы пересмотрел". It was not properly tested — Pavel: "никто не тестировал, Кроме тебя". Chudinov does not know if the current port-to-IQ contract still holds, and the server side is different now: "там с друг бокс Загрузка всё там уже точно по другому" (read as a Dropbox-style download — **inference**).
+- **Pavel's conclusion:** "способ доставки прошивки на флекс ай на флекс пэй пока не определён. Ну то есть не сделан." The open part is the step where firmware sits on the FlexPay and is handed to the ports.
+- **A spike, proposed.** Pavel: give [[wiki/people/anton-seregin.md|Anton Seregin]] a spike on how the current contract covers the needed function, and whether to change it. Chudinov wanted to feed the finished work to an AI first, to see if it finds faults. His answer to the spike itself is unclear in the transcript.
+- **The same behaviour for firmware update.** Pavel: "для обновления прошивки… это будет одинаковое поведение, чтоэкспорта, что с флекса айкюл" — read as FlexPay and Flex IQ (**inference**; the first device name is garbled).
+
+**On the commitments below:** Chudinov's protocol work is not discharged — he now proposes to rethink it. Pavel's production-standard commitment was not raised.
+
 ## Open commitments
 
 - [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — work the Flex IQ ↔ Flex-Port firmware-distribution protocol from his side, and improve it if he can — due unspecified — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
@@ -102,3 +114,4 @@ At the [[wiki/meetings/2026-09-23-daily-standup-terminal-emulator-and-capability
 - [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]

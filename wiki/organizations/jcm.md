@@ -3,7 +3,7 @@ type: organization
 title: JCM (bill validator / recycler vendor)
 date: 2025-05-20
 aliases: [JCM, JCM Global, GCM, G 7, G C M]
-source-count: 8
+source-count: 9
 open-questions: 1
 ---
 
@@ -46,6 +46,13 @@ At a show-week [[wiki/meetings/2026-08-18-mutha-goose-maker-supplier-dinner.md|d
 
 On an [[wiki/meetings/2026-08-25-texas-install-recycler-sourcing-cpi.md|Aug-25 call]] about a 25-machine Texas install (the transcript renders JCM "G C M"), [[wiki/people/genadi-peari.md|Genadi]] said that on configurability "JCM product is better". Val: "I don't know whether there will be enough capacity or not. And the fact that we have JCM product is fantastic. Let's continue working with JCM, but I also want to try the new C[PI]." — i.e. [[wiki/organizations/crane-cpi.md|CPI]]'s stackable unit. Two suppliers remain the line, as on Aug 12. [[raw/Meeting_Transcript_Texas_Install_Recycler_Sourcing_CPI-August-25-2026.md]]
 
+## Sept 23 2026 — a recycler in the Texas Flex Slim, and a ready-made TITO desktop
+
+On the [[wiki/meetings/2026-09-23-texas-flex-slim-release-street-cabinet-and-bom-source-of-truth.md|Sept-23 Val–Genadi call]] the transcript again renders the maker as "GCM" (read as JCM — inference, as on Aug 12). [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+
+- **Texas Flex Slim.** The Texas version drops the card dispenser and puts a "GCM" recycler where the bill acceptor was ("вместо билаксептера. Устанавливаем GCM"; later "GSMR setletler"). See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 23, 11:05 AM). [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+- **TITO desktop.** Genadi found that "GCM" and TransAct already sell a "тито десктоп"; Val stopped JVL's own box for now and will connect a bought one to the IQ. See [[wiki/decisions/2026-09-23-jvl-stops-building-its-own-tito-desktop-box-and-uses-jcm-or-transact-for-now.md]]. [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+
 ## Open questions
 
 - Does the RT denominate notes on the way *out*? Cliff was ~99% sure it tracks which drum holds which denomination (so pre-loaded drums stay correct) but had to confirm. [[raw/JCM_meeting_Cliff__bill_recycler-may-20-2025.md]]
@@ -60,3 +67,4 @@ On an [[wiki/meetings/2026-08-25-texas-install-recycler-sourcing-cpi.md|Aug-25 c
 - [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
 - [[raw/Meeting_Transcript_Mutha_Goose_Supplier_Dinner_Intel-August-18-2026.md]]
 - [[raw/Meeting_Transcript_Texas_Install_Recycler_Sourcing_CPI-August-25-2026.md]]
+- [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]

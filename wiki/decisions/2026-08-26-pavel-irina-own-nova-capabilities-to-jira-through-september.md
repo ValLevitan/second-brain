@@ -3,7 +3,7 @@ type: decision
 title: Pavel and Irina own the NOVA capabilities → MVP → Jira process through September; developers start on NOVA ~Oct 1
 date: 2026-08-26
 aliases: [capabilities to MVP to Jira ownership, Pavel and Irina own capabilities, September capability polish ownership, Oct 1 NOVA dev start]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 1
 open-questions: 1
@@ -26,6 +26,10 @@ On the [[wiki/meetings/2026-08-26-alignment-planning-nova-september-releases.md|
 - **The stated obstacle is not technical but communicative, and Val named it as their biggest problem.** "в этом у вас у двоих самая большая проблема. Вы или не умеете или не любите разговаривать? Из вас тяжело чтото вытащить. Хотя знание много." He wants an explicit education process — not just answering, but giving the background and the depth behind a decision: "должен быть agucation op prostass [education process]… Донести глубину этого решения." [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
 - **The "one virtual company" framing.** Val told them to stop dividing the world into "Минск девелопмент и всё остальное" (Minsk development and everything else) — "У нас всё одно" — and that if they accept the company works virtually as one, they will see that nobody else will carry the message for them. Detail on [[wiki/topics/minsk-team-communication.md]] (Aug-26 section). [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
 
+## Update, Sept 24 2026 — part of the NOVA capability work moves to Biratka and Chudinov
+
+At the [[wiki/meetings/2026-09-24-nova-galaxy-jira-hierarchy-cleanup.md|Sept-24 NOVA/Galaxy call]] (Russian), Val put the moving of NOVA features under the right capabilities on [[wiki/people/alexander-biratka.md|Alexander Biratka]] ("Александр, тогда я хочу на вас положить ответственность"), including creating missing capabilities with requirements. He wanted Biratka and [[wiki/people/dmitri-chudinov.md|Chudinov]] to move their own capabilities by the next morning, so that Pavel does not work as the team's secretary. Pavel and Irina were in the room; nothing said ends their ownership. Commitments are on [[wiki/decisions/2026-09-24-capabilities-sit-in-one-flat-list-under-each-platform-and-releases-are-timeline-lines-not-initiatives.md]]. [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]
+
 ## Open commitments
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] and [[wiki/people/irina-shishko.md|Irina Shishko]] — polish the capabilities set, extract the MVPs, sketch them in Jira and align across the company — due through September 2026 (developers start ~Oct 1) — [[raw/Meeting_Notes_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
@@ -37,3 +41,4 @@ On the [[wiki/meetings/2026-08-26-alignment-planning-nova-september-releases.md|
 ## Sources
 - [[raw/Meeting_Notes_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
 - [[raw/Meeting_Transcript_Alignment_Planning_NOVA_and_Sept_Releases-August-26-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]

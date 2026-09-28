@@ -3,7 +3,7 @@ type: organization
 title: Diamond Amusement
 date: 2026-07-23
 aliases: [Diamond Amusement, Diamond, Diamond Amuse, Diamond Games, Diamond Amusements, route acquisition, Conyers GA, 2069 Lake Industrial Ct, peach ones, 74 JVLs deployed, field auditor, American Kiosk]
-source-count: 10
+source-count: 11
 open-commitments: 8
 open-questions: 4
 ---
@@ -138,6 +138,10 @@ The ruling and its consequences are on [[wiki/decisions/2026-09-14-competitor-ma
 
 **New open question (Sept 14 2026):** **Is Sean told afterwards that his head tech opened Diamond's locations to JVL without him?** Nothing in the source addresses it, and he was separately due at JVL's office the following afternoon. [[raw/Meeting_Notes_Competitor_Field_Reconnaissance_and_Class_A_Visits-September-14-2026.md]]
 
+## Sept 23 2026 — two machines boot-looping at one location
+
+On the [[wiki/meetings/2026-09-23-ris-and-passport-hard-reset-burden.md|Sept-23 RIS and Passport call]], [[wiki/people/felipe-miranda.md|Felipe]] used Diamond as his example of the unexplained **boot loop** that only a hard reset clears: "Just the other day with Diamond Amusement, we had in one location two machines going in this boot loop at the same time. This was very strange". He linked boot loops in general to electrical problems at a location ("A power spike thunder somewhere"). The cause was not known as of that call. See [[wiki/topics/ris-remote-install-and-machine-states.md]] (Sept 23). [[raw/Meeting_Transcript_RIS_and_Passport_Hard_Reset_Burden-September-23-2026.md]]
+
 ## Open commitments (Sept 10 2026)
 
 - [ ] [[wiki/people/sean-fellows.md|Sean Fellows]] (Diamond) — identify the two pilot locations, buy the two machines and deploy them in two different location types — due ~Oct 1 2026 — [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
@@ -164,3 +168,4 @@ The ruling and its consequences are on [[wiki/decisions/2026-09-14-competitor-ma
 - [[raw/Meeting_Transcript_Competitor_Field_Reconnaissance_and_Class_A_Visits-September-14-2026.md]]
 - [[raw/Meeting_Notes_Competitor_Field_Reconnaissance_and_Class_A_Visits-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Rich_Winley_Texas_Rollout_Delay_and_Georgia_Buyers-March-9-2026.md]]
+- [[raw/Meeting_Transcript_RIS_and_Passport_Hard_Reset_Burden-September-23-2026.md]]

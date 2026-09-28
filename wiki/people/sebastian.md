@@ -2,8 +2,8 @@
 type: person
 title: Sebastian
 date: 2025-02-19
-aliases: [Sebastian, the engineer I brought in from Miami]
-source-count: 10
+aliases: [Sebastian, Sebastian Cortes, the engineer I brought in from Miami]
+source-count: 12
 open-commitments: 0
 open-questions: 2
 ---
@@ -61,6 +61,20 @@ At the [[wiki/meetings/2026-09-10-diamond-amusements-machine-performance-and-bun
 
 **Two things do not fit cleanly and are recorded rather than smoothed:** the Apr-2025 record calls him a **full-time engineering technician**, where Val says "**an engineer by education**"; and "**brought in from Miami**" reads as a new hire, where Sebastian has been a JVL employee since at least early 2025 — though it is equally readable as *brought in from the Miami office to Georgia*, which is what the Sept-9 reassignment describes. **Flagged for owner confirmation; no merge is asserted and no second person page is created.** [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
 
+
+## Sept 23 2026 — on the RIS and Passport call
+
+Sebastian (the transcript labels him **Sebastian Cortes**) attended the [[wiki/meetings/2026-09-23-ris-and-passport-hard-reset-burden.md|Sept-23 RIS and Passport call]]. Val asked him to add to Felipe's cases: "Sebastian, I know that you also have experience working with the RIS… if we're missing something, you want to jump in". He did not add a case on the recording. *(Identity: this page's field technician, matched by the RIS field-work context and the name "Sebastian Cortes" already used on [[wiki/projects/georgia-market-rollout.md]] — inference.)* [[raw/Meeting_Transcript_RIS_and_Passport_Hard_Reset_Burden-September-23-2026.md]]
+
+
+## Sept 24 2026 — at the RIS follow-up
+
+At the [[wiki/meetings/2026-09-24-ris-serial-binding-and-factory-reset-focus.md|Sept-24 7:02 AM RIS follow-up]] (label "Sebastian Cortes"; he was not on the invite at first and joined from standby) [[raw/Meeting_Transcript_RIS_Serial_Binding_and_Factory_Reset_Focus-September-24-2026.md]]:
+
+- **Several RIS files on one stick.** "When we did installations here in Florida, actually one copy, for example, 8 files onto one USB and apply one by one in each machine." See [[wiki/decisions/2026-09-24-ris-keeps-the-jvl-serial-number-but-it-becomes-less-binding.md]].
+- **He confirmed** use cases 9 and 10 ("Yes"). See [[wiki/decisions/2026-09-24-multiple-qr-scans-go-and-one-final-activation-scan-stays.md]].
+- **His question:** is it possible "to only scan the passport QR code and get the activation code without logging in the CMS and keep all the features that exist now". Not answered on the recording. See [[wiki/topics/ris-remote-install-and-machine-states.md]] (Sept 24, 7:02 AM).
+
 ## Sources
 
 - [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
@@ -73,3 +87,5 @@ At the [[wiki/meetings/2026-09-10-diamond-amusements-machine-performance-and-bun
 - [[raw/Meeting_Notes_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
 - [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
 - [[raw/Meeting_Transcript_Hello_Games_Texas_Skill_Payout_Wording-August-11-2026.md]]
+- [[raw/Meeting_Transcript_RIS_and_Passport_Hard_Reset_Burden-September-23-2026.md]]
+- [[raw/Meeting_Transcript_RIS_Serial_Binding_and_Factory_Reset_Focus-September-24-2026.md]]

@@ -3,9 +3,9 @@ type: decision
 title: The virtual test system attempts full ARM-processor emulation running the production build plus simulated devices first — Docker or a daemon-mode simulation is the fallback, because the simpler options do not cover the full functionality
 date: 2026-09-07
 aliases: [virtual test system, emulators, virtual Flex-Pay, virtual gaming machine, virtual Flex-Port, ARM emulation, same build as on the machines, Docker fallback, daemon mode, bare remote-update tool, redeploy all the hardware from scratch]
-source-count: 8
+source-count: 9
 status: active
-open-commitments: 3
+open-commitments: 5
 open-questions: 2
 ---
 
@@ -65,11 +65,25 @@ At the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-au
 
 **Reading against the ruling above (inference):** the Docker container was this page's fallback, and full ARM emulation the first choice. This call describes the emulator as a Docker-hosted backend with fake devices. Whether that means the fallback was taken, or the container simply hosts the emulation, is **not said**.
 
+## Update, Sept 24 2026 — the Flex IQ emulator is the FlexPay one, moved across
+
+At the [[wiki/meetings/2026-09-24-daily-standup-firmware-delivery-and-capability-statuses.md|Sept-24 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]:
+
+- **Features to be raised.** Pavel asked [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] to see that features for the Flex IQ emulator are created "по аналогии с флекс пэем". Kovalchuk: "Это мне надо сделать задачу." Pavel said Claude could create them from the previous day's recording, or they could be made by hand, and then read and agreed by all.
+- **Little change expected.** [[wiki/people/anton-seregin.md|Anton]] asked if the devices use the same models, protocol and contracts. Pavel: yes, apart from workflow and screens — Flex IQ has its own screens where the cashier enters data. Anton: "я же… эмилирую конкретно поведение устройств". Pavel: "Даже, скорее всего, всё заработает."
+- **Anton moves it today.** "перенесу, пока этот аккумулятор… За сегодня… На IQ" (read as "эмулятор" — **inference**, as on Sept 23).
+- **It runs only on his machine.** Nobody else has looked at it yet; running it in the cloud is pointless, but anyone can run it locally. Pavel: someone should look "когда выкроится на это время".
+- **The spike** on the firmware contract is on [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Sept-24 update).
+
+**Anton's Sept-23 commitment below stays open** — the move to Flex IQ was due that day, but no later source confirms it.
+
 ## Open commitments
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — attempt the virtual test system as a full ARM-processor emulation running the production build, with simulated devices settable by command; fall back to Docker / daemon-mode simulation only if that fails — due within a week or two — [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]] [[raw/Meeting_Notes_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — talk to Alexander Biratka and Dmitri Chudinov about what can be stood up quickly on the Flex-Pay emulator side; Alekseev writes the gaming-machine emulator himself — due unspecified — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]] [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
 - [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — merge the emulator branch into main, then clone the work for Flex IQ and build the terminal emulator that works with a real device — due unspecified; named priority one — [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
+- [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — see that features for the Flex IQ emulator are created, by analogy with FlexPay, with the Flex-Port firmware-update protocol as its own feature — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
+- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — move the FlexPay emulator across to Flex IQ — due Sept 24 2026 ("За сегодня") — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
 
 ## Open questions
 
@@ -88,3 +102,4 @@ At the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-au
 - [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]

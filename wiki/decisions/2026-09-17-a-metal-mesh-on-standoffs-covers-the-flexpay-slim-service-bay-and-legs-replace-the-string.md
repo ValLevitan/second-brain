@@ -3,7 +3,7 @@ type: decision
 title: A metal mesh on standoffs covers the FlexPay Slim service bay, and damped legs replace the string stopper
 date: 2026-09-17
 aliases: [FlexPay Slim lid critique, Flex-Pay-Slim top lid, сеточка металлическая, metal mesh on standoffs, натянутая струна, taut string stopper, air shock lid, gas strut lid, Flex Slim service compartment, front wiring to the back, elegant and industrial]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 4
 open-questions: 1
@@ -65,6 +65,10 @@ He ended the topic with a service concern about the same wiring, not a design ob
 
 This is the first source in the corpus where Val inspects a built FlexPay Slim and returns a **finish-and-fit** list. The programme context is the [[wiki/decisions/2026-09-04-brackets-and-harnesses-from-china-and-a-metal-order-for-one-hundred.md|first ten Slims]] and the ~50-unit request released on [[wiki/decisions/2026-09-14-tito-printer-cases-come-before-the-street-cabinet.md|Sept 14]]; the same week Genadi is due to start the [[wiki/topics/low-cost-street-machine.md|street cabinet]] on **September 23**. Val's stated trigger — installations begin and the units will be judged in the field — is the same argument he used on Sept 16 to move the street machine's electronics to eye level ([[wiki/decisions/2026-09-16-street-machine-electronics-move-to-eye-level-and-the-monitor-opens-like-a-cupboard-door.md]]). **Inference, labelled:** the mesh-not-box ruling and the eye-level ruling both trade a small part cost for serviceability and appearance; the transcripts do not connect them.
 
+## Update — Sept 23 2026: Val repeats it, and nothing is ordered yet
+
+Six days later, on the [[wiki/meetings/2026-09-23-texas-flex-slim-release-street-cabinet-and-bom-source-of-truth.md|Sept-23 alignment call]], Val asked again for the boards to be closed "крышкой да сеткой какойто" and the board harnesses made shorter: "обязательно закрыть это не это не годится так." Genadi said he had prepared a provision for it, "пока ничего не заказывали", and that a lid can be done. So the ruling stands; the cover was not yet ordered as of Sept 23. [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+
 ## Open commitments
 
 - [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — cover the exposed boards and wiring with a flat metal mesh on small legs or standoffs, not a box and not a solid plate — due unspecified — [[raw/Meeting_Transcript_Flex_Pay_Slim_Lid_and_Wiring_Critique-September-17-2026.md]]
@@ -88,3 +92,4 @@ This is the first source in the corpus where Val inspects a built FlexPay Slim a
 
 - [[raw/Meeting_Transcript_Flex_Pay_Slim_Lid_and_Wiring_Critique-September-17-2026.md]]
 - [[raw/Meeting_Notes_Flex_Pay_Slim_Lid_and_Wiring_Critique-September-17-2026.md]]
+- [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]

@@ -4,8 +4,8 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 100
-open-commitments: 38
+source-count: 103
+open-commitments: 39
 ---
 
 # Andrey Bosik
@@ -397,7 +397,6 @@ The fourth MVP 1 morning call ([[wiki/meetings/2026-09-17-transactional-mvp1-ski
 - [ ] Thin capability 144 down, removing the requirements that moved to MVP 2 — **restated and re-dated Sept 18 to today, end of day**; the capability was cloned instead, so this is now the trimmed MVP 1 copy — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - [ ] Contact KORE, the SIM provider, once Klimovich adds him to the communication chain, and look through their site and API for anything useful — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 
-
 ## Sept 18 2026 (8:03 AM) — his report is now the meeting's opening fact, and he loses the second half of capability 144
 
 The [[wiki/meetings/2026-09-18-transactional-mvp1-capability-cleanup-and-the-monday-deadline.md|fifth and final MVP 1 morning call]] before the Monday gate (Russian). Forty speaker turns — his quietest of the series — but two of them matter.
@@ -433,11 +432,9 @@ On the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-tests.
 - **The Georgia office router** keeps dropping in his logs, despite Elizabeth's assurance ([[wiki/projects/georgia-market-rollout.md]], Sept 22, 8:01 AM).
 - **Cloud testing needs him, by context.** Chudinov said the cloud platform cannot be tested "без Андрея" — read as Bosik (**inference**).
 
-
 ## Sept 23 2026 (in absentia, by inference) — the STG cluster question comes to him
 
 At the [[wiki/meetings/2026-09-23-daily-standup-terminal-emulator-and-capability-split.md|Sept-23 Minsk stand-up]], Chudinov said he would go to "Андрей" about the STG/DEV certificate clash, and that Andrei had argued the shared cluster saves "кучу денег". That this is Bosik is an **inference** — he runs the cloud side; no surname is spoken. See [[wiki/decisions/2026-09-18-the-mvp1-capability-list-is-walked-item-by-item-and-every-capability-gets-an-owner.md]] (Sept-23 update). [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
-
 
 ## Sept 23 2026 (8:00 AM) — four of his requirements to rewrite, one ADR to write
 
@@ -449,6 +446,29 @@ On the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-au
 - [ ] Andrey Bosik — turn the open questions in REQ-1603 into acceptance criteria — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
 - [ ] Andrey Bosik — rewrite REQ-1550 short and write the ADR for the external-traffic protection mechanism — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
 - [ ] Andrey Bosik — make the acceptance criteria of REQ-1416 (router and modem purchasing) testable — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+
+## Sept 23 2026 — named for the GitHub ↔ MSBC meeting
+
+Closing the BOM argument on the [[wiki/meetings/2026-09-23-texas-flex-slim-release-street-cabinet-and-bom-source-of-truth.md|Sept-23 Val–Genadi call]], Val said he would set up a separate meeting on GitHub and its sync with MSBC "С Андреем осиком и с может быть. С нейтаном". "Андреем осиком" is read as Andrey Bosik by the GitHub context (inference). See [[wiki/decisions/2026-09-23-the-bom-source-of-truth-is-the-latest-design-in-github-and-sync-runs-one-way.md]]. [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+
+## Sept 24 2026 (8:01 AM) — the integration repository is his to set up
+
+On the [[wiki/meetings/2026-09-24-transactional-mvp1-flexport-money-loss-bugs-and-release-date.md|Sept-24 8:01 AM MVP 1 call]] (Russian; label "Andrei Bosik") [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]:
+
+- **Integration repository.** It exists for scripts and CI that check how devices interact, so the autotests live there. He could not say whether a matching Jira project exists. Val asked him to take the set-up "чтобы мне не нужно было чейса"; he: "Да да да, я сделаю все это." See [[wiki/decisions/2026-09-04-point-claude-at-the-standards-repository-first.md]] (Sept-24 update).
+- **Hooks.** Against Val's remote-key idea: "если я в сговоре с ним и я отсюда удалённо включил эти куки, а он оттуда деньги снял." See [[wiki/topics/test-automation-strategy.md]] (Sept 24, 8:01 AM).
+- **Flex IQ** should show the build version only in service modes; Klimovich said that was the plan.
+
+## Open commitments (Sept 24 2026, 8:01 AM)
+
+- [ ] Andrey Bosik — set up the integration repository to the standard (check the matching Jira project, ADRs in docs) so Val does not have to chase it — due unspecified — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+
+## Sept 24 2026 (10:00 AM) — the "omni" → "nova" rename, and the forward fix
+
+At the [[wiki/meetings/2026-09-24-nova-galaxy-jira-hierarchy-cleanup.md|Sept-24 10:00 AM NOVA/Galaxy call]] (Russian; label "Andrei Bosik") [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]:
+
+- **The rename.** "у нас 15 репозиториев, которые содержат" "omni" in the name, to become "nova". Renaming affects cross-repository build dependencies; developers must fix their own builds. Val: go ahead now. Commitment on [[wiki/topics/nova-platform-architecture.md]] (Sept 24 section).
+- **Forward fix.** He asked how a hot fix outside a planned release fits ("модели форварденг"). See [[wiki/topics/github-release-management-pipeline.md]] (Sept 24 section).
 
 ## Sources
 
@@ -555,3 +575,6 @@ On the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-au
 - [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]

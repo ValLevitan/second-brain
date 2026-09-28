@@ -3,9 +3,9 @@ type: decision
 title: Open MVP 1 requirement questions are settled on the call — REQ-753 deleted, no fixed disconnect timeouts, no PIN lockout on Flex IQ, CAP-173 reopened, REQ-1550 kept with an ADR — and only a question that takes more than a minute is parked
 date: 2026-09-23
 aliases: [REQ-753 deleted, requirement 753, graveyard, кладбище, one-minute rule, park anything that takes more than a minute, no fixed timeouts, show the disconnect as fast as possible, keep retrying the device, no PIN lockout, REQ-1429, CAP-173 back to In Progress, capability 173 reopened, REQ-1550, external traffic protection, ADR for traffic protection, REQ-1413, Flex-Port switching, nine Flex-Ports default twenty, REQ-1603, buffering, REQ-1416, router purchasing, European or American routers, REQ-1412, ESL English for Claude, limit sentence count, forfeit wallet, lost money wallet, open questions are not a blocker]
-source-count: 2
+source-count: 4
 status: active
-open-commitments: 9
+open-commitments: 6
 open-questions: 2
 ---
 
@@ -42,6 +42,17 @@ REQ-753 was **deleted** on the call — Irina: "мы его удаляем"; Pav
 
 [[wiki/people/alexei-khamin.md|Khamin]] raised five open Flex-Port bugs where money is lost — for example a second collect from the machine while the Flex-Port shows a cash-out, or a scanned ticket no longer in the database. Klimovich: "Я предлагаю создавать его лет и с отдельным статусом там форфайт" — the money "лежат, но с ними пока ничего сделать нельзя, но они существуют" *("его лет" read as "wallet" — **inference**, matching the notes)*. Chudinov had already created **capability 231** for it; the five bugs go there [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]] [[raw/Meeting_Notes_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]].
 
+## Update, Sept 24 2026 — the lost-money bugs are linked to 231, and the team fixes them itself
+
+At the [[wiki/meetings/2026-09-24-daily-standup-firmware-delivery-and-capability-statuses.md|Sept-24 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]:
+
+- **Done.** [[wiki/people/alexei-khamin.md|Khamin]]: "я слинковал всё под кап 231". [[wiki/people/andrei-klimovich.md|Klimovich]] checked them for relevance and added comments. Who fixes them was still open.
+- **Who fixes them.** Pavel: "Мы будем фиксить, я думаю." Irina: "Да я даже уверена… Что кто то из наших". Pavel: waiting for [[wiki/people/eugine-yavorski.md|Yavorski]] is out — "яворский точно не будет с нами" — and waiting for [[wiki/people/evgeniy-alekseev.md|Alekseev]] to do it at weekends "тоже не вариант". No person was named.
+
+## Update, Sept 24 2026 (8:01 AM) — two of the lost-money bugs get rules
+
+Three hours after the stand-up, on the [[wiki/meetings/2026-09-24-transactional-mvp1-flexport-money-loss-bugs-and-release-date.md|8:01 AM MVP 1 call]], [[wiki/people/andrei-klimovich.md|Klimovich]] brought bugs **349** and **354** and called "вот эти 5 багов очень хорошие баги классные" [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]. Two rules were agreed: a Flex-Port that dies holding money keeps the transaction and sends it to unclaimed when it comes back; a Flex-Port with no gateway link goes out of service and the money stays on the machine. He will add both to the requirements that day. Full ruling on [[wiki/decisions/2026-09-24-a-flex-port-that-dies-holding-money-sends-it-to-unclaimed-and-one-without-a-gateway-goes-out-of-service.md]]. *(That these two are among the five linked to capability 231 is an **inference**.)* The Sept-23 "forfeit" status was not mentioned on the call.
+
 ## Open commitments
 
 - [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — apply Pavel's "no fixed time, show at once, keep retrying" wording to the device-disconnect requirements (she noted minute 24 of the call) — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
@@ -50,9 +61,9 @@ REQ-753 was **deleted** on the call — Irina: "мы его удаляем"; Pav
 - [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — turn the open questions in REQ-1603 into acceptance criteria — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
 - [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — rewrite REQ-1550 short, keeping only the essence, and write the ADR for the external-traffic protection mechanism — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
 - [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — make the acceptance criteria of REQ-1416 (router and modem purchasing) testable — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
-- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — attach his five lost-money Flex-Port bugs to capability 231, "первым делом" — due Sept 23 2026 — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
-- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — move the IQ operator tilts and alerts into a separate text collection with codes — due Sept 23 2026 ("Я хочу сегодня ещё дожать") — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
-- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — review Irina's full NFR list with Claude for conflicts with product logic — due Sept 23 2026 ("постараюсь сегодня") — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [x] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — attach his five lost-money Flex-Port bugs to capability 231, "первым делом" — due Sept 23 2026 — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]] — **discharged Sept 24 2026:** "я слинковал всё под кап 231" — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
+- [x] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — move the IQ operator tilts and alerts into a separate text collection with codes — due Sept 23 2026 ("Я хочу сегодня ещё дожать") — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]] — **closed differently Sept 24 2026:** he finalised the IQ tilt logic with a code for each error but kept the tilts inside the main text library — "Я решил не выносить селты в отдельный документ… заставляет редактировать 2 документа" — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+- [x] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — review Irina's full NFR list with Claude for conflicts with product logic — due Sept 23 2026 ("постараюсь сегодня") — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]] — **discharged Sept 24 2026:** "проревэл всю коллекцию, нон фанш эквайменс против бизнес и фанкшена логики" and fixed the differences in Jira — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
 
 ## Open questions
 
@@ -64,3 +75,5 @@ REQ-753 was **deleted** on the call — Irina: "мы его удаляем"; Pav
 ## Sources
 - [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
 - [[raw/Meeting_Notes_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]

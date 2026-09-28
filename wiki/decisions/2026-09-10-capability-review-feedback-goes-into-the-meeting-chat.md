@@ -3,7 +3,7 @@ type: decision
 title: Disagreement with a capability goes into this meeting's chat, with a comment on the capability where a discussion is useful — and the review must say what is missing and where a requirement is absent
 date: 2026-09-10
 aliases: [what do I do if I disagree, comments on the capability, write it in the chat, chat of this meeting, what is the result of the review, obvious mistakes, where a requirement is linked and where it is not]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 2
 open-questions: 0
@@ -27,6 +27,10 @@ Agreed by the Minsk transactional group at the [[wiki/meetings/2026-09-10-capabi
 
 *(The same chat is the channel for the component list in [[wiki/decisions/2026-09-10-per-product-components-and-mvp-fix-versions-on-the-capability-project.md]] — one Teams meeting chat now carries both the component naming and the capability objections.)*
 
+## Related, Sept 24 2026 — Val: written records go by email
+
+On the [[wiki/meetings/2026-09-24-transactional-mvp1-flexport-money-loss-bugs-and-release-date.md|Sept-24 8:01 AM call]] Val ruled that things needing a written form go by email, and that chats are "чтото инстантениас" [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]. The case was a Jira change log posted to a chat that people missed. It does not say whether capability-review feedback leaves the chat; both rulings stand. See [[wiki/decisions/2026-09-24-written-records-go-by-email-and-chats-are-for-instant-matters.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — review his own FlexPay capabilities, the ones discussed that morning: "[а] [С]аша посмотрит свои cap[ab]ilt[y], которые мы сегодня утром говорили[,] по flexpay" — due September 10 2026 — [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
@@ -37,3 +41,4 @@ Agreed by the Minsk transactional group at the [[wiki/meetings/2026-09-10-capabi
 ## Sources
 - [[raw/Meeting_Notes_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
 - [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]

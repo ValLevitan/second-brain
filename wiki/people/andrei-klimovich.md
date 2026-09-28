@@ -4,7 +4,7 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich, Andre]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 94
+source-count: 95
 open-commitments: 92
 open-questions: 0
 ---
@@ -546,7 +546,6 @@ The fourth MVP 1 morning call ([[wiki/meetings/2026-09-17-transactional-mvp1-ski
 - [ ] Take requirement 1410 into the portal dashboard work, so Flex-Ports and their serial numbers appear — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [ ] Collect the hardware-related on-screen texts for the Flex IQ text collection — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 
-
 ## Sept 17 2026 (3:17 PM) — in a customer meeting: the demo, the dates, and an admission in the debrief
 
 At the [[wiki/meetings/2026-09-17-dynamic-gaming-georgia-master-licensee-and-cashless-pitch.md|Dynamic Gaming meeting]], the same day as the morning MVP 1 call above [[raw/Meeting_Transcript_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]:
@@ -587,7 +586,6 @@ The [[wiki/meetings/2026-09-18-transactional-mvp1-capability-cleanup-and-the-mon
 - [ ] Andrei Klimovich — confirm whether capability 175's cloud-referencing logic is described elsewhere, then decide whether 175 moves to MVP 2 — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - [ ] Andrei Klimovich — finish the daily audit-ticket reporting capability and keep it inside MVP 1 — due **Monday Sept 21 2026** — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - [ ] Andrei Klimovich — close everything assigned to him (capabilities, features and non-functional requirements) in the correct statuses — due **Monday Sept 21 2026**; his own words were "**постараюсь**" — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
-
 
 ## May 18 2026 — GA trip recap: he reports the field, questions the kiosk, and reframes it as risks
 
@@ -659,15 +657,13 @@ On the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-tests.
 
 - [ ] Andrei Klimovich — take capability 178 to at least Accepted, with its requirements and mock-up links — due Sept 22 2026 (about 2 hours after the design) — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]] *(owner ruling 2026-09-20: two-product support is not in MVP 1 — see [[wiki/decisions/2026-09-17-jvl-supports-multiple-incomm-products-not-a-fixed-pair.md]])*
 - [x] Andrei Klimovich — fill capability 180 with the Flex-Port design and move it to To Do — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]] — **superseded Sept 23 2026:** the Flex-Port design went into new capability 235 — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
-- [ ] Andrei Klimovich — send the team a list of capabilities where he added requirements, so they can ask Claude to re-read them — due "в ближайший день 2" — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]] — **Sept 23 2026:** restated; he will post the collection to the chat right after the call — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [x] Andrei Klimovich — send the team a list of capabilities where he added requirements, so they can ask Claude to re-read them — due "в ближайший день 2" — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]] — **Sept 23 2026:** restated; he will post the collection to the chat right after the call — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]] — **discharged Sept 24 2026:** at the end of Sept 23 he posted an auto-generated Jira change log to the team chat (by email from now on) — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
 - [ ] Andrei Klimovich — convert his text library to the Flex-Port XML format Pavel posted — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
 - [ ] Andrei Klimovich — fit the KORE SIM in the IQ, activate it, leave it online for remote access, and report back — due Sept 22 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]] — **Sept 23 2026:** he said he had set up a card in the IQ with a machine connected for remote work and will keep it on; that the card is the KORE SIM is an **inference** (garbled: "настроил карточку") — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
-
 
 ## Sept 23 2026 (in absentia) — new requirements the team had not discussed
 
 At the [[wiki/meetings/2026-09-23-daily-standup-terminal-emulator-and-capability-split.md|Sept-23 Minsk stand-up]] (Russian), Chudinov said "там Андрей чтото создал" — new requirements, read as **REQ-1460** on card programs — and Pavel saw a multi-card item accepted but assigned to nobody. Pavel parked them for a later meeting that day. At the start Pavel also looked for the GUI capability Andrei was to create; Irina pointed to 180. That this Andrei is Klimovich is **by context** (he writes the capabilities and owns 180). See [[wiki/decisions/2026-09-18-the-mvp1-capability-list-is-walked-item-by-item-and-every-capability-gets-an-owner.md]] (Sept-23 update). [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
-
 
 ## Sept 23 2026 (8:00 AM) — the UI/UX package goes into Jira, and he sets the one-minute rule
 
@@ -680,10 +676,27 @@ On the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-au
 
 ## Open commitments (Sept 23 2026, 8:00 AM)
 
-- [ ] Andrei Klimovich — move the IQ operator tilts and alerts into a separate text collection with codes — due Sept 23 2026 — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [x] Andrei Klimovich — move the IQ operator tilts and alerts into a separate text collection with codes — due Sept 23 2026 — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]] — **closed differently Sept 24 2026:** he finalised the IQ tilt logic with a code for each error but kept the tilts inside the main text library — "Я решил не выносить селты в отдельный документ… заставляет редактировать 2 документа" — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
 - [ ] Andrei Klimovich — decide whether a confirmation screen is needed when creating or loading a wallet — due Sept 23 2026 ("минут там 10") — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
-- [ ] Andrei Klimovich — make the home-screen icons in the kiosks' design language, trying AI — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
-- [ ] Andrei Klimovich — review Irina's full NFR list with Claude for conflicts with product logic — due Sept 23 2026 — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [x] Andrei Klimovich — make the home-screen icons in the kiosks' design language, trying AI — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]] — **discharged Sept 24 2026:** "на Холмс скрин я добавил иконки" — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+- [x] Andrei Klimovich — review Irina's full NFR list with Claude for conflicts with product logic — due Sept 23 2026 — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]] — **discharged Sept 24 2026:** "проревэл всю коллекцию, нон фанш эквайменс против бизнес и фанкшена логики" and fixed the differences in Jira — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+
+## Sept 24 2026 (8:01 AM) — the mock-up is final, two bug rules, and he keeps October 1
+
+On the [[wiki/meetings/2026-09-24-transactional-mvp1-flexport-money-loss-bugs-and-release-date.md|Sept-24 8:01 AM MVP 1 call]] (Russian) [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]:
+
+- **Mock-up final.** "Я считаю, что он в финале уже". He fixed mock-up/requirement conflicts, reviewed the NFR collection against business logic, finalised the IQ tilts with codes inside the one text library, and added home-screen icons.
+- **Change logs by email.** His Jira change log went to a chat Val and Pavel missed; from now on he emails it at the end of any day he changes Jira. See [[wiki/decisions/2026-09-24-written-records-go-by-email-and-chats-are-for-instant-matters.md]].
+- **Bugs 349 and 354.** He brought both and set the simple rules; he would not give cashiers a way to move unclaimed money before MVP 2. See [[wiki/decisions/2026-09-24-a-flex-port-that-dies-holding-money-sends-it-to-unclaimed-and-one-without-a-gateway-goes-out-of-service.md]].
+- **Screens.** An expired cashier receipt choice becomes "no receipt" after 15 + 15 seconds; he asked Pavel for the list of tilts and errors with a recommended action; the version footer goes on initialisation, idle and service screens, and the status bar on every screen except where the player is acting.
+- **The date.** He objected to Val's October 15: "15 это может превратиться в 30 так же как 1 превратилось в 15." He wants the build received, installed and tested in Georgia on October 1. Val agreed. See [[wiki/decisions/2026-09-09-first-transactional-installation-planned-for-october-1.md]] (Sept-24 update).
+
+## Open commitments (Sept 24 2026, 8:01 AM)
+
+- [ ] Andrei Klimovich — add the two logic changes from bugs 349 and 354 to the requirements — due Sept 24 2026 — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+- [ ] Andrei Klimovich — email the team a Jira change log at the end of any day he changes Jira — due ongoing — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+- [ ] Andrei Klimovich — mark that receipts for pending transactions must be available for reprint — due unspecified — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+- [ ] Andrei Klimovich — update the mock-up with the version footer on service, initialisation and idle screens, and the status-bar rule — due unspecified — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
 
 ## Sources
 
@@ -781,3 +794,4 @@ On the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-au
 - [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]

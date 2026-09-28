@@ -1,0 +1,69 @@
+---
+type: decision
+title: Two lost-money bugs get simple MVP 1 rules — a Flex-Port that dies while holding money keeps the transaction and sends it to unclaimed when it comes back; a Flex-Port with no gateway link goes out of service and the money stays on the machine; what a cashier may do with unclaimed money is moved to MVP 2
+date: 2026-09-24
+aliases: [bug 349, bug 354, 349 баг, 354 бак, Flex-Port dies holding money, Flex-Port reboot money lost, power loss on the Flex-Port, quick blink, быстрый блинк, clever cashier, хитрый кассир, no gateway no collect, Flex-Port out of service without gateway, cashier redirect of unclaimed money, unclaimed handling MVP 2, nearest wallet matching, PIN-bound wallet idea]
+source-count: 2
+status: active
+open-commitments: 2
+open-questions: 2
+---
+
+# Two lost-money bugs get simple MVP 1 rules
+
+Ruled on the [[wiki/meetings/2026-09-24-transactional-mvp1-flexport-money-loss-bugs-and-release-date.md|Sept-24 8:01 AM MVP 1 call]] (Russian). [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] brought the two bugs as product owner. He called the five lost-money bugs "очень хорошие баги классные", because they tell the product team early what to change in the requirements [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]. These are two of the lost-money Flex-Port bugs that were sent to capability 231 on Sept 23 ([[wiki/decisions/2026-09-23-open-requirements-are-settled-on-the-call-and-only-slow-ones-are-parked.md]]) — that 349 and 354 are among those five is an **inference**; no source lists the five numbers.
+
+## Bug 349 — the Flex-Port dies while it holds the money
+
+**The case.** The player collects. The money leaves the game machine and sits on the Flex-Port, which waits for a ticket scan or a new wallet. Then the Flex-Port reboots or loses power and comes back. Klimovich: "судя по всему, деньги у нас теряются в этот момент. Но у нас такая логика нигде не была описана" [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]].
+
+**The argument.**
+
+- [[wiki/people/dmitri-chudinov.md|Chudinov]] (label "Dzmitry Chudzinau"): the money is unconfirmed, because nobody knows how long the power was off — "Может он на следующий день поднялся, может его увезли в are house". He first offered a time rule: if little time has passed, show the scan screen again; anything longer goes to unclaimed [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]].
+- [[wiki/people/irina-shishko.md|Irina Shishko]] asked why a player still standing at the port cannot scan his ticket [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]].
+- [[wiki/people/pavel.md|Pavel Frolov]]: after a restart, continue the timeout, or start the minute again [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]].
+- Chudinov showed the risk: a player collects, "я в это время там гашу", the player leaves, and "я подхожу на включённую машину и забираю его коллег себе. Как хитрый кассир." Pavel and Klimovich both called it a good case. [[wiki/people/ivan.md|Ivan]] added that machines and Flex-Ports start up at different speeds [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]].
+- Klimovich asked whether the pending transaction survives in the Flex-Port's own memory. [[wiki/people/alexei-khamin.md|Khamin]] doubted it is built that way today, and Irina said "Оно нереализовано сейчас". Chudinov set the expectation: "как минимум транзакция должна сохраниться и не потеряться" [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]].
+
+**The rule (Klimovich, agreed by Pavel and Chudinov).** "Давайте простую какуюто логику… пока примем… потом будем наблюдать в реальности". The transaction is saved locally on the Flex-Port. When the port comes back and can reach a gateway, the money goes to unclaimed automatically — "как Только этот порт получит возможность для этого, то есть он будет подключён к какомуто гейтвейю". No dialog is offered to the player, "даже если это секундный какойто, блинк". Pavel: "Да". Chudinov: "Да" [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]. His summary at the end: "в момент его возвращения к жизни он сразу же старается эти деньги отдать через гей и создать их в банклейнт" [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]].
+
+## Bug 354 — the Flex-Port loses its gateway link
+
+**The proposal (Klimovich).** If the Flex-Port has no link to the gateway, "[п]орт считается нефункционален, он не должен позволить… [в]ыводить деньги". He explained why this link is special: today the port-to-gateway link is cabled — "У нас прям кабели проложены" — while the gateway itself may lose the internet, and that is fine: "gatway, пока он связан с партом, должен позволить эти деньги выводить и создавать валюты" [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]].
+
+**The alternative he put up himself** — take the money anyway, keep it in the port's memory, and retry the gateway later. Pavel: then it goes to unclaimed, and the player cannot use it and has to argue with the cashier — "Поэтому лучше на машине оставить." Chudinov: for a player "это уже сложно, он же не знает вся этой кухни." Pavel also floated letting the player choose, and asked whether that is worth the complexity [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]].
+
+**The rule.** No gateway link → the Flex-Port goes out of service with a message, collect is not allowed, and the money stays on the machine. Pavel: "Я согласен, лучше пусть на машине остаются и деньги." Klimovich asked for objections; Chudinov: "Нет, нет… В целом согласен." Klimovich's summary: "мы не разрешаем пользоваться фэкспортом, если… нету установленной связи с гитвей" [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]. Chudinov expects the unclaimed statistics to show how often the Bug-349 case really happens [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]].
+
+## Val challenges the 30-second timeout, and cashier handling goes to MVP 2
+
+**Val's challenge.** [[wiki/people/val-levitan.md|Val]] asked why a fully working Flex-Port sends money to unclaimed after 30 seconds: "флек абсолютно работающий флегспорт. Полностью функционирует, но деньги ушли." His scenario: a friend walks up, the player turns, "Прошло 30 секунд, он смотрит на это, а где мои деньги?" He asked for a PIN, as with an AFT card, so the money stays tied to the player: "может быть, нам нужно оставить пин код" [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]. *(A PIN was taken out of MVP 1 for Flex IQ on Sept 11 — [[wiki/decisions/2026-09-11-mvp1-boundary-bill-escrow-and-pin-out-remote-update-and-master-device-in.md]]. Val's idea did not reopen that.)*
+
+**The engineers' answers.**
+
+- Pavel: SAS gives about 8 seconds in which the money may stay on the machine, "[п]о спецификации сас"; after that it must move, and the port must be freed — "мы должны освободить машину… Мы не знаем, игрок ушёл или отвлекся" [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]].
+- Klimovich: money leaving a machine is not tied to any wallet — "они уволят агностик". Tying it to a player means registering a player session, which is "настоящий плеер аккаунт, который надо менеджрить, верифицировать" — a large change. He also said the 30-second wait could be made one minute [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]].
+- Pavel's middle way: match the unclaimed money to the nearest earlier wallet that started a session on the same machine, so a cashier can confirm it fast. Val: "Это очень хорошая". Klimovich: the logs already hold this — the deposit transaction has the machine, the time code and the wallet ID; only a cashier filter is missing [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]].
+- Counter-points: [[wiki/people/alexander-biratka.md|Biratka]] (label "Alexander Biratko") warned a cashier could invent a way to steal it. Chudinov gave a case where the nearest wallet belongs to someone who lost everything, while the real owner fed cash through the bill validator. Khamin suggested the cashier could replay the withdrawal to the port [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]].
+
+**The ruling.** Klimovich would not give the cashier any way to move unclaimed money yet: "забирать деньги с анклейн кудато выводить их не хочу пока давать… [в] мвпи 2 мы можем вернуться к этому вопросу." In MVP 1 "мы не предлагаем никаких экшнов сейчас даже для обработки… Наша задача пока сохранять эти деньги." Val closed it: "давайте на [MVP] один это дело оставим[,] Андрей прав, мы это сейчас не поднимем… Перенесём это" [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]. The considered options — Val's PIN idea, Pavel's nearest-wallet matching, Khamin's replay — are not adopted and not rejected; they wait for MVP 2.
+
+**How this sits with earlier rulings.** It keeps Val's Sept-15 rule that the player never loses the money and that unclaimed handling is not MVP 1 ([[wiki/decisions/2026-09-15-a-timeout-sends-the-money-to-unclaimed-and-the-player-never-loses-it.md]], Sept-24 update). The 30-second collect wait is [[wiki/decisions/2026-09-16-the-mvp1-timing-numbers-two-hundred-milliseconds-and-thirty-seconds.md]]; it was questioned, not changed.
+
+## Open commitments
+
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — add the two logic changes from bugs 349 and 354 to the MVP 1 requirements — due Sept 24 2026 ("2 изменения, которые будут добавлены сегодня") — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+- [ ] (blocked-on: MVP-2) [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — return to what a cashier may do with unclaimed money (redirect to a wallet, nearest-wallet matching, PIN) in MVP 2 — due MVP 2 — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+
+## Open questions
+
+- **How will locations deal with unclaimed money in MVP 1, when the cashier has no action to release it?** Pavel asked; Chudinov: "Ваши деньги… я их вижу, но я вам их не отдам. Моя кнопочки нет." Klimovich asked back how locations handle it today. No answer — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+- **Does the Flex-Port save a pending transaction in its own memory today?** Khamin and Irina said it is not built that way now; the rule needs it — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+
+**Notes vs transcript.** The notes' account of both rules matches the transcript [[raw/Meeting_Notes_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]. They leave out Chudinov's first time-based proposal, Klimovich's one-minute option and Val's praise of Pavel's nearest-wallet idea.
+
+**§15.8:** clear — product logic only. **§15 #9:** none; 349 and 354 are bug numbers.
+
+## Sources
+- [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+- [[raw/Meeting_Notes_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]

@@ -3,13 +3,15 @@ type: decision
 title: Finish the TITO printer cases first, then start the street cabinet on September 23 — the standalone peripherals wait
 date: 2026-09-14
 aliases: [TITO cases then the street machine, standalone TITO printer, standalone card dispenser, кейсы для тито, стрит кабинет, September 23 start, 400 tickets, desktop power supply RS-232, no metal 3D print first, hand the box to Sasha]
-source-count: 2
+source-count: 3
 status: active
-open-commitments: 4
+open-commitments: 3
 open-questions: 1
 ---
 
 # TITO printer cases first, then the street cabinet — starting September 23
+
+**Status (Sept 23 2026 update):** the **street-cabinet start held** — it began on Sept 23 as planned. The **TITO-case half is paused**: on Sept 23 Val stopped JVL's own TITO desktop box "for now" in favour of bought JCM or TransAct units — see [[wiki/decisions/2026-09-23-jvl-stops-building-its-own-tito-desktop-box-and-uses-jcm-or-transact-for-now.md]]. *(That the Sept-23 "TITO desktop" is this enclosure is an inference.)* [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
 
 Settled at the [[wiki/meetings/2026-09-14-hardware-priorities-tito-case-and-street-cabinet.md|Sept 14 2026 12:04 PM call]] (Russian) between [[wiki/people/val-levitan.md|Val Levitan]], [[wiki/people/genadi-peari.md|Genadi Peari]] and [[wiki/people/pavel.md|Pavel Frolov]].
 
@@ -59,10 +61,9 @@ Asked "**когда можно рассчитывать, что вы прист�
 
 ## Open commitments
 
-- [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — design the standalone TITO printer enclosure: back-panel connectors, external desktop power supply, RS-232 in from outside, sized for 400 tickets, no security — due before Sept 23 2026 — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+- [ ] *(paused Sept 23 — see status note)* [[wiki/people/genadi-peari.md|Genadi Peari]] — design the standalone TITO printer enclosure: back-panel connectors, external desktop power supply, RS-232 in from outside, sized for 400 tickets, no security — due before Sept 23 2026 — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — resolve the enclosure unknowns (bezel, printer integration, electronics found-or-bought, how it opens, access points, JVL wiring, the small connection board), then hand the plastic box design to "Sasha" — due unspecified — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — finish IQ, Slim, IQ again and the printer this week — due week of Sept 14 2026 — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
-- [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — start the street cabinet — due Sept 23 2026 — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 
 ## Open questions
 
@@ -74,7 +75,12 @@ The **standalone TITO printer and standalone card dispenser as separately releas
 
 **§15.8:** clear — enclosure and work-sequencing content only; no named-person compensation appears in either Sept-14 12:04 file.
 
+## History
+
+- [x] [[wiki/people/genadi-peari.md|Genadi Peari]] — start the street cabinet — due Sept 23 2026 — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]] — **discharged Sept 23 2026:** Genadi asked "Я могу начинать стрит кабель" and Val answered "можете начинать"; Genadi would do the layout the next day. [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+- [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]

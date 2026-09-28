@@ -3,10 +3,10 @@ type: decision
 title: October 1 goes with one configuration — Flex IQ alone, the Flex-Port stays, FlexPay moves to MVP 2; MVP 1 runs on the linked network with one kiosk per location
 date: 2026-09-11
 aliases: [we finally decide we go with only one configuration, Flex IQ alone for October 1, FlexPay out of MVP 1, machine port IQ then machine port Pay, one kiosk per location either IQ or FlexPay, MVP 1 runs through the linked network, if there is no bottleneck we reconsider MVP 1, transactional MVP1 transactional MVP2 releases, October 2 end date, why ten more days, FlexPay initiative split, the kiosk is FlexPay]
-source-count: 3
+source-count: 4
 status: active
 open-commitments: 4
-open-questions: 3
+open-questions: 2
 ---
 
 # October 1 goes with Flex IQ alone — FlexPay drops to MVP 2, the Flex-Port stays in
@@ -73,6 +73,10 @@ At the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-tests.
 
 *(The release object Pavel set up on Sept 11 is dated October 1; the Sept-22 schedule ends "roughly" October 2, and Val speaks of releasing "on the 2nd". This reads as the same target seen at day level, not a new date — **inference**.)*
 
+## Update, Sept 24 2026 — Val floats October 15, then agrees October 1 stays
+
+At the [[wiki/meetings/2026-09-24-transactional-mvp1-flexport-money-loss-bugs-and-release-date.md|Sept-24 8:01 AM call]] Val offered to move the release to October 15. [[wiki/people/andrei-klimovich.md|Klimovich]] objected that 15 could become 30 "так же как 1 превратилось в 15", and asked that the build be received, installed and tested on October 1 even if half does not work. Val: "давай согласен, это правильно" [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]. The plan of record stays October 1; detail on [[wiki/decisions/2026-09-09-first-transactional-installation-planned-for-october-1.md]] (Sept-24 update).
+
 ## Open commitments
 
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — finish the remaining five capabilities and their requirements, then the UI/UX screen descriptions with texts; he expects to be done about half-way through Monday — due Sept 14 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
@@ -82,9 +86,12 @@ At the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-tests.
 
 ## Open questions
 
-- **Does MVP 1 keep its early-October end date?** Val left it open on Sept 22 and asked to see other dates; Pavel and Chudinov defended the plan — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
 - **Does the bottleneck the engineers report actually exist?** Val made the whole narrowing conditional on it and said MVP 1 would be reopened if it does not — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - **Which date is the second milestone — October 21, October 30, or November 1?** The release object says October 30, the meeting title says November 1, the Sept-10 ruling said November 1 with a possible move to October 21. Not reconciled in any source — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]] [[raw/Meeting_Notes_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+
+## History
+
+- *(Answered Sept 24 2026)* **Does MVP 1 keep its early-October end date?** Val left it open on Sept 22 and asked to see other dates; Pavel and Chudinov defended the plan — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]. **Answer:** yes — on Sept 24 Val floated October 15 and then agreed October 1 stays — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
 
 **§15.8:** clear — scope, sequencing and work assignment only; no named-person compensation.
 
@@ -92,3 +99,4 @@ At the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-tests.
 - [[raw/Meeting_Notes_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]

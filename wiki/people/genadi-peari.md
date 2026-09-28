@@ -3,8 +3,8 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий, Kenadi]
-source-count: 99
-open-commitments: 32
+source-count: 102
+open-commitments: 31
 ---
 
 # Genadi Peari
@@ -403,7 +403,6 @@ At the [[wiki/meetings/2026-09-14-hardware-priorities-tito-case-and-street-cabin
 - [ ] Genadi Peari — check whether the card dispenser fits alongside the recycler, and order the option-2 unit — due unspecified — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [ ] Genadi Peari — design the standalone TITO printer enclosure (back-panel connectors, external desktop power supply, RS-232 from outside, 400 tickets, no security) — due before Sept 23 2026 — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [ ] Genadi Peari — resolve the enclosure unknowns, then hand the plastic box design to "Sasha" (§4 unresolved) — due unspecified — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
-- [ ] Genadi Peari — finish IQ, Slim, IQ again and the printer this week, then start the street cabinet — due Sept 23 2026 — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 
 ## Sept 15 2026 (in absentia) — the magnetic stripe reader is confirmed to stay in Flex IQ
 
@@ -460,6 +459,35 @@ On the [[wiki/meetings/2026-09-21-transactional-mvp1-flexport-and-iq-ux-design.m
 ## Sept 23 2026 — why pay for air now?
 
 On the [[wiki/meetings/2026-09-23-open-purchase-order-payment-walkthrough.md|Sept-23 purchase-order walkthrough]] (Val and [[wiki/people/mikhail-perelman.md|Mikhail Perelman]]) Genadi spoke a few times. He named the vendor being made to wait as the Echo board supplier: "Это плата на эхо мазербор." When Val agreed to fly about 100 springs, Genadi pushed back: "Из самолета можешь в любой момент попросить тебя в течение недели он пришлёт… Может ты их зачем экстрамани платишь?" Mikhail's answer: JVL's own payment also takes a week, so starting today is already the fast case. Details on [[wiki/people/mikhail-perelman.md]] (Sept 23) [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]].
+
+## Sept 23 2026 (11:05 AM) — Texas Slim released, the TITO box dropped on his own market check, and two arguments he did not lose quietly
+
+On the [[wiki/meetings/2026-09-23-texas-flex-slim-release-street-cabinet-and-bom-source-of-truth.md|Sept-23 alignment call]] (Russian) with Val. [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+
+- **He said his old tasks were nearly closed:** "я старые все хвосты более менее. С меня ничего не осталось почти." [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+- **Texas Flex Slim.** He had checked it: no change inside the cabinet; card dispenser out, a recycler in place of the bill acceptor, three extra parts. He would release it and its Texas bill of materials that day. He argued against air freight for the ten sets of parts. Detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 23, 11:05 AM). [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+- **The TITO desktop.** Reviewing the design, he saw expensive plastics and checked the market first — JCM and TransAct already sell one. That led Val to stop JVL's own box for now: [[wiki/decisions/2026-09-23-jvl-stops-building-its-own-tito-desktop-box-and-uses-jcm-or-transact-for-now.md]]. [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+- **Street cabinet — wood or metal.** He started the cabinet on the planned day. He argued for a simplified metal build (perhaps 40% cheaper) against Val's wood, and asked that the choice be made on prices, not feeling: "Никаких сантиментов тут нету. Что лучше то лучше." See [[wiki/topics/low-cost-street-machine.md]] (Sept 23). [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+- **The BOM.** He builds it in Business Central and did not accept that its source of truth is GitHub; he asked twice whether Val wanted "свой erp систему в gi". He agreed the sync must be one way. See [[wiki/decisions/2026-09-23-the-bom-source-of-truth-is-the-latest-design-in-github-and-sync-runs-one-way.md]]. [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+- **The IQ board fault.** He had found the short on the IQ mainboard, given the team a workaround, and seen the board corrected. [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+
+*(His Sept-23 commitments are held once on the pages above: the Texas release, the parts order and the 20 covers on the FlexPay topic; the TITO documentation and sample on the TITO decision; the layout and the wood-versus-metal pricing on the street-machine topic.)*
+
+## Sept 24 2026 (4:38 PM) — the BOM again, a TransAct meeting, modems, and the cabinet layout
+
+On the [[wiki/meetings/2026-09-24-hardware-repo-bom-source-of-truth-and-street-cabinet-layout.md|Sept-24 4:38 PM alignment call]] (English, then Russian) with Val. [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]] [[raw/Meeting_Transcript_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]]
+
+- **The BOM.** He said he has no problem keeping "Parts, drawings, documentation" in GitHub, but not the bill of materials, and showed how BC holds it today. Val read out his rule and said the BOM is built in BC automatically from GitHub data; Genadi: "Я не понимаю наш выигрыш." He proposed the new Slim for a test BOM. See [[wiki/decisions/2026-09-23-the-bom-source-of-truth-is-the-latest-design-in-github-and-sync-runs-one-way.md]] (Sept-24 update). [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+- **TransAct and a DB9.** He met TransAct about their TITO product and proposed a standard DB9 serial connector; Val agreed. See [[wiki/decisions/2026-09-23-jvl-stops-building-its-own-tito-desktop-box-and-uses-jcm-or-transact-for-now.md]] (Sept-24 update). [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+- **Modems.** LTE is hard to buy; 5G quoted from China at $150; he and Pavel agreed a firmware-update USB stick. See [[wiki/decisions/2026-09-04-north-america-modem-variant-and-ask-kore-for-the-apn.md]] (Sept-24 update). [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+- **The street-cabinet layout.** Printer in the middle under the video deck, bill acceptor on the right; he proposed a pull-out electronics shelf and a hung TV. See [[wiki/topics/low-cost-street-machine.md]] (Sept 24) and [[wiki/decisions/2026-09-16-street-machine-electronics-move-to-eye-level-and-the-monitor-opens-like-a-cupboard-door.md]] (Sept-24 update). [[raw/Meeting_Transcript_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]]
+- **FlexPort revision.** He said the current plastic base needs only a back cover with the tubes moulded in. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 24, 4:38 PM). [[raw/Meeting_Transcript_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]]
+
+*(His Sept-24 commitments are held once on the pages above.)*
+
+## History
+
+- [x] Genadi Peari — finish IQ, Slim, IQ again and the printer (week of Sept 14), then start the street cabinet — due Sept 23 2026 — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]] — **discharged Sept 23 2026:** he started the cabinet that day ("Я могу начинать стрит кабель" — "можете начинать") and said almost nothing was left on him. [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
 
 ## Sources
 
@@ -562,3 +590,6 @@ On the [[wiki/meetings/2026-09-23-open-purchase-order-payment-walkthrough.md|Sep
 - [[raw/Meeting_Transcript_Texas_Install_Recycler_Sourcing_CPI-August-25-2026.md]]
 - [[raw/Meeting_Notes_Texas_Install_Recycler_Sourcing_CPI-August-25-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
+- [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+- [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+- [[raw/Meeting_Transcript_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]]

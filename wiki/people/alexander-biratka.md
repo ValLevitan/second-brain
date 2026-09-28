@@ -4,7 +4,7 @@ title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka, Alex Baratka, Alex Beratka, Alexander Berankov, Biratko, Alexander Biratko]
 disambiguation: "Alexander cluster (provisional — owner ruling pending): distinct JVL people sharing the given name Alexander. [[wiki/people/alexander-biratka.md|Alexander Biratka]] = Omni/Pixi framework & build engineer (aka Sasha; garbles Beratko/Baratka); [[wiki/people/alexander-korochkin.md|Alexander Korochkin]] = LGS QA-automation engineer (GitHub Alexander_K@JVL, read-only; aka Alexander K); [[wiki/people/alexander-tumanov.md|Alexander Tumanov]] = Minsk QA / data-center knowledge-capture hire (surname unverified). Resolve by context: Omni framework / Pixi / build → Biratka; LGS QA automation / read-only build consumer → Korochkin; manual-tester onboarding / data-center interviews → Tumanov. A further name 'Alexander Derok' (back-end build-integration / Java, per Val on Feb-6-2026) is unconfirmed — queued, not a page. Not [[wiki/people/alexei-khamin.md|Alexei Khamin]] (different name). Queue anything fitting none; never force-match."
-source-count: 65
+source-count: 68
 open-commitments: 11
 open-questions: 0
 ---
@@ -278,15 +278,29 @@ On the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-tests.
 - **Kept on features.** Pavel would not release him for test writing: "Я диму и сашу на это не отдам" ([[wiki/decisions/2026-09-22-autotests-go-inside-the-existing-capabilities-and-the-first-e2e-test-is-a-one-hour-micro-step.md]]).
 - **Dependency updates.** Only for a vulnerability in a library JVL uses that shows up for JVL, or for functionality a newer library gives; "В других случаях я думаю, не нужно" ([[wiki/topics/github-release-management-pipeline.md]], Sept 22).
 
-
 ## Sept 23 2026 — three features under capability 137
 
 At the [[wiki/meetings/2026-09-23-daily-standup-terminal-emulator-and-capability-split.md|Sept-23 Minsk stand-up]] (Russian; label "Alexander Biratko"), he said he created three features under 137. **FP-1249** (update work) is almost done and installed on the kiosk for checking; a separate logging bug is in progress; **FP-1250** and **FP-1251** are also update work. See [[wiki/decisions/2026-09-18-the-mvp1-capability-list-is-walked-item-by-item-and-every-capability-gets-an-owner.md]] (Sept-23 update). He confirmed he works in the FlexPay platform repository. [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
 
-
 ## Sept 23 2026 (8:00 AM) — "we are the host", on what a lost SAS link means
 
 On the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-autotests.md|Sept-23 8:00 AM MVP 1 call]] (Russian; label "Alexander Biratko"), on the device-disconnect requirements: the SAS standard "описывает работу машины, а не хаста, а мы в данном случае хостом работаем", and losing the machine over SAS is losing the main link — "мы дальше работать не можем". On router purchasing: test it by looking at the router bought. See [[wiki/decisions/2026-09-23-open-requirements-are-settled-on-the-call-and-only-slow-ones-are-parked.md]] [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]].
+
+## Sept 24 2026 — 137 blocked on Amazon-side endpoints
+
+At the [[wiki/meetings/2026-09-24-daily-standup-firmware-delivery-and-capability-statuses.md|Sept-24 Minsk stand-up]] (Russian; label "Alexander Biratko") [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]], he said he is closing feature 13-49 under capability 137. The next two, 12-50 and 12-51, are blocked until new endpoints are added on the Amazon services side, so the app can update. Then he will review the FlexPay capability. See [[wiki/decisions/2026-09-18-the-mvp1-capability-list-is-walked-item-by-item-and-every-capability-gets-an-owner.md]] (Sept-24 update).
+
+## Sept 24 2026 (8:01 AM) — a warning on cashier power over unclaimed money
+
+On the [[wiki/meetings/2026-09-24-transactional-mvp1-flexport-money-loss-bugs-and-release-date.md|Sept-24 8:01 AM MVP 1 call]] (Russian; label "Alexander Biratko"; joined late) he warned that if cashiers can redirect unclaimed money, one may "потом не придумал способ их воровать". Cashier handling went to MVP 2. See [[wiki/decisions/2026-09-24-a-flex-port-that-dies-holding-money-sends-it-to-unclaimed-and-one-without-a-gateway-goes-out-of-service.md]] [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]].
+
+## Sept 24 2026 (10:00 AM) — features under the right capabilities, and "now is the time" to rename
+
+At the [[wiki/meetings/2026-09-24-nova-galaxy-jira-hierarchy-cleanup.md|Sept-24 10:00 AM NOVA/Galaxy call]] (Russian; label "Alexander Biratko") [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]:
+
+- **Given the job.** Val: "Александр, тогда я хочу на вас положить ответственность" — move all NOVA features under the right capabilities, creating capabilities and requirements where missing. He pointed out there are no requirements yet. Commitment on [[wiki/decisions/2026-09-24-capabilities-sit-in-one-flat-list-under-each-platform-and-releases-are-timeline-lines-not-initiatives.md]].
+- **The rename.** On renaming the "omni" repositories: there is "нет финальной сборки" yet, so now is the time; what breaks gets fixed.
+- **The model.** Once only capabilities sit under the platform, he said, the two views (Chudinov's and the project view) are combined.
 
 ## Sources
 
@@ -356,3 +370,6 @@ On the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-au
 - [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]

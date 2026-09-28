@@ -2,14 +2,16 @@
 type: decision
 title: The street machine's electronics move to eye level behind the monitor, and the monitor opens sideways like a cupboard door — driven by technician complaints, not preference
 date: 2026-09-16
-aliases: [eye level electronics, ай левел, чтобы это было ай левел, electronics behind the monitor, metal box on screws, коробочкой металлической на винтиках, monitor opens like a kitchen door, как дверка на кухне, 90 degrees, no podium no base, they will not hang a TV, technicians swearing recording, no two-screen to horizontal conversion, board mounting unresolved, LVDS dies after ten openings]
-source-count: 2
+aliases: [eye level electronics, pull-out electronics shelf, шельф, crossbar instead of hooks, меня можно уговорить, ай левел, чтобы это было ай левел, electronics behind the monitor, metal box on screws, коробочкой металлической на винтиках, monitor opens like a kitchen door, как дверка на кухне, 90 degrees, no podium no base, they will not hang a TV, technicians swearing recording, no two-screen to horizontal conversion, board mounting unresolved, LVDS dies after ten openings]
+source-count: 4
 status: active
-open-commitments: 0
-open-questions: 3
+open-commitments: 1
+open-questions: 4
 ---
 
 # The street machine's electronics move to eye level, and the monitor opens like a cupboard door
+
+**Status note (Sept 24):** still active, but **reopened in part**. On Sept 24 Genadi proposed a pull-out electronics shelf and a hung TV instead of a hinged monitor, and Val said he could be persuaded; nothing was decided — see [[#sept-24-2026--genadi-proposes-a-pull-out-shelf-and-a-hung-tv-val-can-be-persuaded|Sept 24]] below. [[raw/Meeting_Transcript_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]]
 
 Ruled by [[wiki/people/val-levitan.md|Val Levitan]] at the [[wiki/meetings/2026-09-16-street-machine-board-spec-and-georgia-class-a-order.md|Sept 16 2026 12:35 PM ET alignment call]] (held in **Russian**), over [[wiki/people/genadi-peari.md|Genadi Peari]]'s objections — and then justified, at length, on grounds that had not been put on the table before. The electronics half of the same call is on [[wiki/decisions/2026-09-16-the-street-machine-carries-two-boards-and-a-new-io-board.md]]; the programme is [[wiki/topics/low-cost-street-machine.md]].
 
@@ -63,8 +65,24 @@ The one thing this ruling does not fix is where the two boards go, and the two e
 
 **The main-monitor connector was also raised and left open.** Pavel asked whether it would be the connector he renders "**es de mi**" — **read as HDMI by context; this is an inference, the transcript string is a garble** — and Genadi answered "**Я не знаю**", then made the technicians' point again from his own side: on a big machine "**кто втыкать будет? Техники… от этого там они будут материться… ты же не знаешь[,] какой стороны его воткнуть**" — a connector you cannot orient by feel. Pavel countered that the same connector is "**тоже ненадежное крепление**" — also an unreliable fixing. Nothing was settled [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]. This sits beside, and does not disturb, the [[wiki/decisions/2026-09-14-street-cabinet-main-screen-runs-on-lvds-not-a-controller.md|Sept 14 ruling that the main screen runs on LVDS]].
 
+## Sept 24 2026 — Genadi proposes a pull-out shelf and a hung TV; Val "can be persuaded"
+
+On the [[wiki/meetings/2026-09-24-hardware-repo-bom-source-of-truth-and-street-cabinet-layout.md|Sept 24 4:38 PM alignment call]] (Russian) the monitor question came back from Genadi's side. [[raw/Meeting_Transcript_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]]
+
+- **The tilt.** Val wants the vertical monitor's tilt "Такой же, как сейчас." Genadi: the tilt "делает… много нехороших вещей" — when opened, the monitor can swing back and hit the technician unless it is held, spring-loaded. Val had thought offset hinges ("offсет делать такие Винчи") could solve it. [[raw/Meeting_Transcript_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]]
+- **Genadi's alternative.** Open the door, pull out a shelf above it with all the electronics in front of you, push it back, and never touch the monitor: "Это было бы столько, так и дёшево и просто." He said he accepted Val's point that the technician should not have to reach down ("чтоб туда не лазить вниз"). [[raw/Meeting_Transcript_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]]
+- **Hanging the TV.** Genadi: hanging the heavy monitor takes three people, while today one person hooks it on. Val: "если вы хотите вешать телевизор, я могу на это согласиться." He thinks the mistake was hooks on the TV that must hit pins, where a crossbar to hang on ("как перекладина как турник") would be easier; Genadi said there are two flat ribs and it is easy. [[raw/Meeting_Transcript_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]]
+- **Where it ended.** Val: "Меня меня можно на это уговорить, конечно, но я. Я не уверен что… Я не совсем понимаю, как вы всё там расположите." **Not decided.** [[raw/Meeting_Transcript_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]]
+
+**How it sits against Sept 16 (evolution, not contradiction):** on Sept 16 Val rejected Genadi's "hang the monitor once" idea, citing technicians who will not hang a TV. On Sept 24 Val himself said he could agree to hanging it. The Sept-16 ruling stands until Genadi shows the layout. *(Genadi's "three people" and the Sept-16 "2 человека, чтобы поменять телевизор" describe different tasks and are not compared.)* The derived notes record the same "not decided". [[raw/Meeting_Transcript_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]] [[raw/Meeting_Notes_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]]
+
+## Open commitments
+
+- [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — show how the pull-out electronics shelf and the hung TV would fit, so Val can judge it — due unspecified — [[raw/Meeting_Transcript_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]]
+
 ## Open questions
 
+- Hinged monitor at the current tilt (with offset hinges), or a hung TV with a pull-out electronics shelf? Val "can be persuaded" but is not convinced. [[raw/Meeting_Transcript_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]]
 - Where the I/O board and the motherboard sit — on the back of the TV (Pavel) or together elsewhere (Genadi). Unresolved at the end of the call. [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
 - Which connector drives the main monitor, given the LVDS ten-opening lifetime and the technicians' complaint about connectors that cannot be oriented by feel. [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
 - Whether the full lighting scheme is worth its cost — see [[wiki/topics/low-cost-street-machine.md]] (Sept 16). [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
@@ -75,3 +93,5 @@ The one thing this ruling does not fix is where the two boards go, and the two e
 
 - [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
 - [[raw/Meeting_Notes_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]]
+- [[raw/Meeting_Notes_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]]

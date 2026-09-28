@@ -3,8 +3,8 @@ type: person
 title: Sergey Tsymanov
 date: 2026-07-14
 aliases: [Sergey Tsymanov, Siarhei Tsymanau, Sergey Tsimanov, Tsymanau, Tsimanov, Sergei Tsyganov, Tsyganov, Цыганов, Sergei, Sergey]
-source-count: 16
-open-commitments: 6
+source-count: 17
+open-commitments: 7
 disambiguation: "Minsk engineer who drafts CMS requirements with the backend 'Dima' (Chudinov). OWNER-CONFIRMED 2026-07-14 = the payroll 'Siarhei Tsymanau' (Belarusian) and the IT-records 'Sergey Tsimanov' — same person; Tsymanov canonical, Tsymanau/Tsimanov aliases. Distinct from other 'Sergei/Sergey' names (e.g. Sergei Novitsky the advanced-setup technician; Sergey Vysotsky the outside digital-growth specialist, wiki/people/sergey-vysotsky.md); resolve by context."
 ---
 
@@ -93,6 +93,14 @@ At the [[wiki/meetings/2026-09-23-daily-standup-terminal-emulator-and-capability
 - **A local Flex-Port emulation** from an earlier task — "он у меня локально" — which Anton may reuse. See [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]] (Sept-23 update).
 - **Capability 118.** He said his items there were done for Flex IQ, not FlexPay, and asked why the two alike products are not one repository built two ways. See [[wiki/decisions/2026-09-23-capability-118-is-split-by-product-and-two-devices-keep-two-repositories.md]].
 
+## Sept 24 2026 — connection metrics done, and the Flex IQ wallet task
+
+At the [[wiki/meetings/2026-09-24-daily-standup-firmware-delivery-and-capability-statuses.md|Sept-24 Minsk stand-up]] (Russian; label "Sergey Tsimanov") [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]], he finished the connection-state metrics and checked them on a new build. He took the Flex IQ task for creating a wallet and putting money into it; the requirements hold "куча противоречий", so he is preparing questions for Andrei. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 24).
+
+## Open commitments (Sept 24 2026)
+
+- [ ] Sergey Tsymanov — prepare the questions on the contradictory Flex IQ wallet requirements for Andrei (Klimovich, by context) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Legacy_CMS_Documentation_Progress_Check-April-15-2026.md]]
@@ -111,3 +119,4 @@ At the [[wiki/meetings/2026-09-23-daily-standup-terminal-emulator-and-capability
 - [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]

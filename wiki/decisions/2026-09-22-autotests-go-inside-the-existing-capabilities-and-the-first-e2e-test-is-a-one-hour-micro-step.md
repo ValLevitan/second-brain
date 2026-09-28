@@ -3,9 +3,9 @@ type: decision
 title: Autotest features go inside the existing MVP 1 capabilities, not a separate one — and the first end-to-end test is a one-hour micro-step, run by the next day
 date: 2026-09-22
 aliases: [autotests inside existing capabilities, E2E micro-step, one-hour test, микрошаг, first end-to-end test, Flex-Port connection test, cable in cable out test, telnet hook, capability 173 test, test your own ecosystem first, the Texas two-machine case, developers help write E2E tests, symlink to dev null, four manual tests]
-source-count: 3
+source-count: 4
 status: active
-open-commitments: 5
+open-commitments: 4
 open-questions: 2
 ---
 
@@ -52,14 +52,23 @@ Checked the next morning at the [[wiki/meetings/2026-09-23-transactional-mvp1-re
 
 *(§15.8: Val's remarks to one named engineer about not asking for help are a personal performance judgement and are not recorded; only the team-level instruction is.)*
 
+## Update, Sept 24 2026 — features nearly all raised, the manual tests fixed, and a test API on the terminal
+
+At the [[wiki/meetings/2026-09-24-transactional-mvp1-flexport-money-loss-bugs-and-release-date.md|Sept-24 8:01 AM call]] (Russian) [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]:
+
+- **Irina's features.** She is creating the autotest features capability by capability — "Сегодня, завтра… я всё закончу" — after which they are planned and taken one by one. There are 24 capabilities, "на каждое по 45 фич" (4–5 or 45 each — **unclear**).
+- **Unattended tests need a test API.** [[wiki/people/alexei-khamin.md|Khamin]]: "Нашли мы вариант как автотест вообще без… участия человека могут ходить, для этого нужно… [д]обавить тест [API] на терминал". It is [[wiki/people/dmitri-chudinov.md|Chudinov]]'s task, read out as "Фик фик 56"; Chudinov: "В работе", and "Он будет сегодня сделан" (transcribed as a question). Khamin expects his tooling ready that day and to start filling in tests the next day.
+- **Ivan's manual tests are fixed.** [[wiki/people/ivan.md|Ivan]]: "то, что у меня вчера было, что надо было руками это исправлено, то есть нужно было внести камиты в прошивку самого". He checks connections between Flex-Port and machine against a 20-second budget, and next wants to run the negative cases. Whether he used the symlink method is not stated.
+- **Val: "это экстрим и импортный для нас… Всем сконцентрироваться на этом. Включая Андрей климович".** His reason: when a device comes back from the field, an end-to-end test could show where the problem most likely sits ("когда приходит девайс fredy field"). Argument and the hook rule on [[wiki/topics/test-automation-strategy.md]] (Sept 24, 8:01 AM).
+
 ## Open commitments
 
 - [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — write and run the first E2E test: Flex-Port connection state to Flex IQ and to the machine, read through the telnet hook, under capability 173 — due Sept 23 2026 (Val: check it "завтра") — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]] — **Sept 23 2026:** the connection tests came from Ivan (8, half manual); Khamin's own money-crediting test is not finished — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
-- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — create the autotest features under the existing capabilities and plan them — due Sept 22 2026 ("Давайте сегодня я сделаю фичи") — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]] — **Sept 23 2026:** restated, still to do ("я создам фичи под этими") — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — create the autotest features under the existing capabilities and plan them — due Sept 22 2026 ("Давайте сегодня я сделаю фичи") — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]] — **Sept 23 2026:** restated, still to do ("я создам фичи под этими") — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]] — **Sept 24 2026:** in progress; she expects to finish all capabilities that day or the next — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] and [[wiki/people/irina-shishko.md|Irina Shishko]] — put Ivan and Alexei Khamin on the test work in the schedule — due unspecified (Val asked for it on the call) — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
 - [x] [[wiki/people/val-levitan.md|Val Levitan]] and the team — at the next call, check whether the one E2E flow worked, then plan the schedule for the remaining tests — due Sept 23 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]] — **discharged Sept 23 2026:** checked on the 8:00 AM call (above); no test schedule was set — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
-- [ ] [[wiki/people/ivan.md|Ivan]] — rewrite the four manual connection tests so they drop the channel by repointing the port symlink to /dev/null — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
-- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — build the tool or instruction set so Claude can generate the money-crediting autotest and check balances — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [x] [[wiki/people/ivan.md|Ivan]] — rewrite the four manual connection tests so they drop the channel by repointing the port symlink to /dev/null — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]] — **discharged Sept 24 2026:** "что надо было руками это исправлено" (it needed commits into the firmware; the method is not stated) — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — build the tool or instruction set so Claude can generate the money-crediting autotest and check balances — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]] — **Sept 24 2026:** he expects the tooling ready that day, depending on the terminal test API — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
 
 ## Open questions
 
@@ -72,3 +81,4 @@ Checked the next morning at the [[wiki/meetings/2026-09-23-transactional-mvp1-re
 - [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]

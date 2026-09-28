@@ -3,8 +3,8 @@ type: person
 title: Ivan
 date: 2025-02-19
 aliases: [Ivan, Ivan Shpakov, Иван Шпаков, Ivan Shpak, Ваня]
-source-count: 11
-open-commitments: 1
+source-count: 14
+open-commitments: 3
 ---
 
 # Ivan
@@ -48,11 +48,9 @@ At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexp
 
 On the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-tests.md|Sept-22 8:01 AM MVP 1 call]], Pavel listed "иван" among those who should write the end-to-end tests with Claude, and Val asked for "Ивана и Алексея" to be put on the schedule for it. No surname is spoken; he is matched to this page by context (the roster "Shpak, Ivan", and the test role he shares with Alexei Khamin). See [[wiki/decisions/2026-09-22-autotests-go-inside-the-existing-capabilities-and-the-first-e2e-test-is-a-one-hour-micro-step.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]].
 
-
 ## Sept 23 2026 — trying Claude as an autotest writer
 
 At the [[wiki/meetings/2026-09-23-daily-standup-terminal-emulator-and-capability-split.md|Sept-23 Minsk stand-up]] (Russian; label "Ivan Shpak"): "Пробуя себя в виде оператора Клода, который умеет писать автотест." See [[wiki/topics/test-automation-strategy.md]] (Sept 23). [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
-
 
 ## Sept 23 2026 (8:00 AM) — eight connection tests, four still manual
 
@@ -60,7 +58,43 @@ On the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-au
 
 ## Open commitments (Sept 23 2026, 8:00 AM)
 
-- [ ] Ivan — rewrite the four manual connection tests using the symlink-to-/dev/null method — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [x] Ivan — rewrite the four manual connection tests using the symlink-to-/dev/null method — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]] — **discharged Sept 24 2026:** "что надо было руками это исправлено" (it needed commits into the firmware; the method is not stated) — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+
+## Sept 24 2026 — the Georgia lab file for 15 games, and write access he did not ask for
+
+At the [[wiki/meetings/2026-09-24-daily-standup-firmware-delivery-and-capability-statuses.md|Sept-24 Minsk stand-up]] (Russian; label "Ivan Shpak") [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]:
+
+- **Georgia.** He made the MD file for Georgia COAM V3 (inference) with all 15 games, though only 10 run at once, and warned of possible delays in Intralot's tests. See [[wiki/projects/georgia-market-rollout.md]] (Sept 24).
+- **The cashout button.** He pointed to the RIS screen-cashout parameter that hides the cashout button. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 24).
+- **Write access.** He said he does not need write rights; Irina ruled he gets them. See [[wiki/topics/test-automation-strategy.md]] (Sept 24).
+
+## Open commitments (Sept 24 2026)
+
+- [ ] Ivan — tell Kovalchuk which repository needs write access, and take the rights — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
+
+## Sept 24 2026 (5:41 AM) — the battery test, and whether a lease user could be shared
+
+At the [[wiki/meetings/2026-09-24-georgia-hard-reset-remedies-and-passport-removal.md|Sept-24 5:41 AM hard-reset review]] (Russian; label "Ivan Shpak") [[raw/Meeting_Transcript_Georgia_Hard_Reset_Remedies_and_Passport_Removal-September-24-2026.md]]:
+
+- **Battery.** He offered to test the power-off battery swap on the Georgia machine behind Irina that still has the bad battery. See [[wiki/topics/ris-remote-install-and-machine-states.md]] (Sept 24).
+- **A limited user.** He asked about the internal web user used to scan leases, and suggested a user "у которого будут права только отсканить паспорт". The account name is not recorded.
+- **Leases.** He noticed some fully paid machines have the lease-scan box crossed, while many had leases "до 22 сентября". See [[wiki/projects/georgia-market-rollout.md]] (Sept 24, 5:41 AM).
+
+## Open commitments (Sept 24 2026, 5:41 AM)
+
+- [ ] Ivan — test the battery swap with the power off on the Georgia machine with the bad battery, and confirm whether it gives the yellow screen — due Sept 24 2026 ("Я сейчас с батарейкой ещё посмотрю") — [[raw/Meeting_Transcript_Georgia_Hard_Reset_Remedies_and_Passport_Removal-September-24-2026.md]]
+
+## Sept 24 2026 (8:01 AM) — the manual tests are fixed, and the commit rule lands on his local work
+
+On the [[wiki/meetings/2026-09-24-transactional-mvp1-flexport-money-loss-bugs-and-release-date.md|Sept-24 8:01 AM MVP 1 call]] (Russian; label "Ivan Shpak") [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]:
+
+- **Tests.** What needed hands the day before is fixed — it needed commits into the firmware. He checks Flex-Port-to-machine connections against a 20-second budget and next wants the negative cases. See [[wiki/topics/test-automation-strategy.md]] (Sept 24, 8:01 AM).
+- **Local only.** The work was "только локально на компьютере никуда не комичено", which drew Val's rule: commit several times a day, no more than 300 lines held locally. See [[wiki/decisions/2026-09-14-main-branch-must-always-build-and-the-code-belongs-to-the-project.md]] (Sept-24 update).
+- **Bug 349.** He noted machines and Flex-Ports start up at different speeds. See [[wiki/decisions/2026-09-24-a-flex-port-that-dies-holding-money-sends-it-to-unclaimed-and-one-without-a-gateway-goes-out-of-service.md]].
+
+## Open commitments (Sept 24 2026, 8:01 AM)
+
+- [ ] Ivan — commit his local connection-test work to GitHub — due Sept 24 2026 (Irina: "вечером он закомтил") — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
 
 ## Sources
 
@@ -75,3 +109,6 @@ On the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-au
 - [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
+- [[raw/Meeting_Transcript_Georgia_Hard_Reset_Remedies_and_Passport_Removal-September-24-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]

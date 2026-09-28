@@ -3,8 +3,8 @@ type: person
 title: Alexei Khamin
 date: 2025-04-22
 aliases: [Alexei Khamin, Aliaksey Khamin, Alexey Khamin, Khamin, Хамин, Khanin, Ханин, Kamin, Alexey Kamin, Lyosha, Лёша]
-source-count: 17
-open-commitments: 7
+source-count: 19
+open-commitments: 8
 ---
 
 # Alexei Khamin
@@ -85,11 +85,9 @@ Not on the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-te
 
 - [ ] Alexei Khamin — write and run the first E2E test (Flex-Port connection state, telnet hook, capability 173) — due Sept 23 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]] **Update (Sept 23 2026):** he is dropping other work to write it; not yet reported done — [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]] — **8:00 AM the same day:** not finished; the connection tests came from Ivan — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
 
-
 ## Sept 23 2026 — he drops the pull-request cleanup for the autotest
 
 At the [[wiki/meetings/2026-09-23-daily-standup-terminal-emulator-and-capability-split.md|Sept-23 Minsk stand-up]] (Russian; label "Alexey Khamin"), he said he moved the pull requests into branch 9 and deleted dead branches, and is now dropping the rest to write the autotest. He raised that how the transactional tests are organised needs thinking through, "а не ляпать просто лепёшкой непонятно куда". See [[wiki/topics/test-automation-strategy.md]] (Sept 23). The Sept-22 test commitment above stays open. [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
-
 
 ## Sept 23 2026 (8:00 AM) — his money-crediting test is not finished, and five lost-money bugs go to 231
 
@@ -101,8 +99,28 @@ On the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-au
 
 ## Open commitments (Sept 23 2026, 8:00 AM)
 
-- [ ] Alexei Khamin — attach his five lost-money Flex-Port bugs to capability 231, "первым делом" — due Sept 23 2026 — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
-- [ ] Alexei Khamin — build the tool or instruction set so Claude can generate the money-crediting test and check balances — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [x] Alexei Khamin — attach his five lost-money Flex-Port bugs to capability 231, "первым делом" — due Sept 23 2026 — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]] — **discharged Sept 24 2026:** linked under 231 — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
+- [ ] Alexei Khamin — build the tool or instruction set so Claude can generate the money-crediting test and check balances — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]] — **Sept 24 2026:** he expects the tooling ready that day, depending on the terminal test API — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+
+## Sept 24 2026 — the lost-money bugs are linked, and stale docs confuse Claude
+
+At the [[wiki/meetings/2026-09-24-daily-standup-firmware-delivery-and-capability-statuses.md|Sept-24 Minsk stand-up]] (Russian; label "Alexey Khamin") [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]:
+
+- **Bugs linked.** "я слинковал всё под кап 231" — this discharges his Sept-23 commitment below. Klimovich checked them. The team fixes them, not an outside developer. See [[wiki/decisions/2026-09-23-open-requirements-are-settled-on-the-call-and-only-slow-ones-are-parked.md]] (Sept-24 update).
+- **Autotests.** Mostly autotests; he waits for an API. The screens changed but the prose docs did not, so Claude could not follow. See [[wiki/topics/test-automation-strategy.md]] (Sept 24).
+
+## Sept 24 2026 (8:01 AM) — tests that run with no person, written with Claude
+
+On the [[wiki/meetings/2026-09-24-transactional-mvp1-flexport-money-loss-bugs-and-release-date.md|Sept-24 8:01 AM MVP 1 call]] (Russian; label "Alexey Khamin") [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]:
+
+- **Unattended tests.** He found a way for autotests to run with no person; it needs a test API on the terminal (Chudinov's task). The rest of the test already exists. Tooling that day, tests from the next. "[П]ишу [с] клодом, но… с тем условием, чтобы тесты проходили без его [участия]." See [[wiki/topics/test-automation-strategy.md]] (Sept 24, 8:01 AM).
+- **Repository.** Val told him to point his Claude at the repository standard and consult Bosik. See [[wiki/decisions/2026-09-04-point-claude-at-the-standards-repository-first.md]] (Sept-24 update).
+- **Unclaimed.** He suggested the cashier could replay the withdrawal to the port; deferred with the rest to MVP 2. See [[wiki/decisions/2026-09-24-a-flex-port-that-dies-holding-money-sends-it-to-unclaimed-and-one-without-a-gateway-goes-out-of-service.md]].
+
+## Open commitments (Sept 24 2026, 8:01 AM)
+
+- [ ] Alexei Khamin — finish the test tooling, then start filling in tests — due Sept 25 2026 — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+- [ ] Alexei Khamin — point his Claude at the repository standard and consult Bosik on the test repository — due unspecified — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
 
 ## Sources
 
@@ -123,3 +141,5 @@ On the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-au
 - [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]

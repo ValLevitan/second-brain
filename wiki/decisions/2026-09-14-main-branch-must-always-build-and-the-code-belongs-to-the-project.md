@@ -3,7 +3,7 @@ type: decision
 title: The main branch must always contain working code anyone can pull and build, and the code belongs to the project rather than to any one developer — confirmed already in force
 date: 2026-09-14
 aliases: [main branch must always build, main must always contain correct working code, the code belongs to the project, not to any one developer, paragraph 2 sentence 1, paragraph 2 sentence 4, code standards email September 14 2026, small frequent commits, 2-3-4 commits a day, someone else merges the pull request, menbrange mast always contank crind working cor, code standard]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 0
 open-questions: 4
@@ -73,6 +73,19 @@ That places this email at the end of the standards-writing arc that runs through
 
 **Not recoverable from these sources.** Val names the subject once — "**Называется флегспорт иголог metruzan proyrice**" — and the transcription is unusable; the derived notes flag the same thing and recommend confirming the subject line with Val before treating it as fact [[raw/Meeting_Notes_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]. What is certain is that it has **numbered paragraphs with numbered sentences** (Val cites "paragraph 2, sentence 1" and "the fourth, last sentence in this paragraph"), is written in **English**, and covers at least: main-branch build health, pull-request review, and code ownership [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]].
 
+## Update, Sept 24 2026 — the 300-line habit becomes an instruction
+
+On the [[wiki/meetings/2026-09-24-transactional-mvp1-flexport-money-loss-bugs-and-release-date.md|Sept-24 8:01 AM MVP 1 call]] (Russian), [[wiki/people/ivan.md|Ivan]] said his new connection-test work was "пока что у меня только локально на компьютере никуда не комичено". Irina explained he had done it that morning and would commit in the evening [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]].
+
+Val: "Я, я категорически я категорически против этого." Then, as a rule for everyone [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]:
+
+- "у нас должен быть comid в йетхабе малта полтай day" — read as a commit to GitHub multiple times a day (**inference**; he says "китхаб" and "Акит хаб" in the same passage).
+- "Я хочу видеть 300 лайнзов… comits в среднем. Это может быть 10 раз в день."
+- "Я не хочу, чтобы на локал компьютере было больше, чем 300 лайнов." Reached 300 lines — push it.
+- "Я не хочу… эксьюсис… Эти эксьюсис это прошлое… все получили амнистию." And: "я за ним слежу, я хочу видеть прогресс."
+
+**What changed.** On Sept 14 the 300 lines and "2, 3, 4 times a day" were Val describing his own habit, not a stated standard (above). On Sept 24 he states them as what he wants from every developer: about 300 lines per commit on average, and no more than 300 lines held locally. Treated as **evolution** (§11), not a contradiction.
+
 ## Open questions
 
 - **What the code-standards email's subject and full contents are.** The subject-line transcription is unrecoverable; only two sentences of paragraph 2 were read aloud — [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]] [[raw/Meeting_Notes_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
@@ -86,3 +99,4 @@ That places this email at the end of the standards-writing arc that runs through
 
 - [[raw/Meeting_Notes_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]

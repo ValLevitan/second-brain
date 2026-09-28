@@ -3,8 +3,8 @@ type: person
 title: Vladimir Samusenko
 date: 2026-02-04
 aliases: [Vladimir Samusenko, Vladimir, Vlad, Владимир, Самусенко]
-source-count: 16
-open-commitments: 6
+source-count: 17
+open-commitments: 7
 ---
 
 # Vladimir Samusenko
@@ -101,6 +101,14 @@ At the [[wiki/meetings/2026-09-23-daily-standup-terminal-emulator-and-capability
 
 On the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-autotests.md|Sept-23 8:00 AM MVP 1 call]], Chudinov asked Pavel to put the Flex-Port UI/UX capability (235) "на Владимира", and the screen-rework feature already on him under 180 moves to 235. Only "Владимир" is said; that it is Vladimir Samusenko is an **inference** from his Sept-22 screen redraw. See [[wiki/decisions/2026-09-18-the-mvp1-capability-list-is-walked-item-by-item-and-every-capability-gets-an-owner.md]] (Sept-23 8:00 AM update) [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]].
 
+## Sept 24 2026 — the Flex-Port design task closes, and the missing screens become new tasks
+
+At the [[wiki/meetings/2026-09-24-daily-standup-firmware-delivery-and-capability-statuses.md|Sept-24 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]], he said the Flex-Port idle screen, element positions, buttons and shortcuts are updated and can go to testing; pixel-for-pixel is not possible now. Screens with no implementation become new tasks, which Pavel said are **not MVP 1**. He will close the task, open the pull request and log the missing screens. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 24).
+
+## Open commitments (Sept 24 2026)
+
+- [ ] Vladimir Samusenko — close the Flex-Port design task, open the pull request, and log tasks for the screens with no implementation — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
+
 ## Sources
 
 - [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
@@ -119,3 +127,4 @@ On the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-au
 - [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]

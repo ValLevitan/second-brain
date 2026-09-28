@@ -4,8 +4,8 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 169
-open-commitments: 78
+source-count: 176
+open-commitments: 83
 open-questions: 0
 ---
 
@@ -789,7 +789,6 @@ On the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-tests.
 
 - [ ] Pavel Frolov (with Irina Shishko) — put Ivan and Alexei Khamin on the test work in the schedule — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
 
-
 ## Sept 23 2026 — he re-sets the emulator's priority one and agrees to split capability 118
 
 At the [[wiki/meetings/2026-09-23-daily-standup-terminal-emulator-and-capability-split.md|Sept-23 Minsk stand-up]] (Russian), which he ran [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]:
@@ -798,7 +797,6 @@ At the [[wiki/meetings/2026-09-23-daily-standup-terminal-emulator-and-capability
 - **Capability 118.** He agreed to split it — "давайте разделим один будет flexpay" — and recalled the earlier ruling that two devices mean two repositories. See [[wiki/decisions/2026-09-23-capability-118-is-split-by-product-and-two-devices-keep-two-repositories.md]].
 - **Review he cannot do now.** He has no time "сегодня, завтра" to look at Vladimir's contract work, so Vladimir merges it and they fix it later: "если неправильно поправим в следующем какомнибудь комиссии".
 - **Parked items.** New capabilities and requirements Andrei had created (REQ-1460 on card programs) go to a meeting later that day. See [[wiki/decisions/2026-09-18-the-mvp1-capability-list-is-walked-item-by-item-and-every-capability-gets-an-owner.md]] (Sept-23 update). He also owes a look at requirement 743 — see [[wiki/topics/test-automation-strategy.md]] (Sept 23).
-
 
 ## Sept 23 2026 (8:00 AM) — the disconnect wording, the symlink answer, and the capability assignments
 
@@ -816,6 +814,82 @@ On the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-au
 - [ ] Pavel Frolov — review requirements 1560, 1563 and 1565 under CAP-173, add the engineering answers, move them to Accepted — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
 - [ ] Pavel Frolov — raise a task for Anton to copy the FlexPay emulator for Flex IQ — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
 - [ ] Pavel Frolov — create a feature under capability 178 for supporting an additional card type — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+
+## Sept 23 2026 (9:30 AM) — factory reset, and "we cannot just switch off" Passport or RIS
+
+On the [[wiki/meetings/2026-09-23-ris-and-passport-hard-reset-burden.md|Sept-23 RIS and Passport call]] (English) Pavel answered Felipe's hard-reset cases and Val's proposal to disable Passport and RIS on the current machines. Detail on [[wiki/topics/ris-remote-install-and-machine-states.md]] (Sept 23). [[raw/Meeting_Transcript_RIS_and_Passport_Hard_Reset_Burden-September-23-2026.md]]
+
+- **Factory reset instead of reinstall.** The option has existed "for 10 years on, probably more"; "in most cases, I would say 95% factory reset will do the same procedure as reinstalling software", without the USB stick. He agreed with Felipe that it still needs decommission and recommission. [[raw/Meeting_Transcript_RIS_and_Passport_Hard_Reset_Burden-September-23-2026.md]]
+- **The limit on switching off:** "we cannot just switch off our services like Passport or RIS. We don't support manual settings apply right now." On Val's narrower version (keep RIS for the load) he said a next version with the passport check disabled is "highly likely… I think it can be done not so difficult." [[raw/Meeting_Transcript_RIS_and_Passport_Hard_Reset_Burden-September-23-2026.md]]
+- He asked to "review point by point and advise solution and estimate what is simple, what is not so simple", and agreed to a follow-up at 7 AM the next day. [[raw/Meeting_Transcript_RIS_and_Passport_Hard_Reset_Burden-September-23-2026.md]]
+
+## Open commitments (Sept 23 2026, 9:30 AM)
+
+- [x] Pavel Frolov (with Irina Shishko) — go through Felipe's hard-reset cases point by point, propose a solution for each and estimate what is simple and what is not — due Sept 24 2026, 7:00 AM follow-up — [[raw/Meeting_Transcript_RIS_and_Passport_Hard_Reset_Burden-September-23-2026.md]] — **discharged Sept 24 2026, 5:41 AM**: the case-by-case review was held with Irina, Kharetski and Ivan — [[raw/Meeting_Transcript_Georgia_Hard_Reset_Remedies_and_Passport_Removal-September-24-2026.md]]
+- [x] Pavel Frolov — confirm whether a next software version can ship with the passport check disabled — due Sept 24 2026 — [[raw/Meeting_Transcript_RIS_and_Passport_Hard_Reset_Burden-September-23-2026.md]] — **discharged Sept 24 2026, 5:41 AM**: Kharetski said switching it off for the Georgia build is "в целом да" not hard, and Pavel planned it — [[raw/Meeting_Transcript_Georgia_Hard_Reset_Remedies_and_Passport_Removal-September-24-2026.md]]
+
+## Sept 24 2026 (4:46 AM stand-up) — firmware delivery "not defined", and new screens not MVP 1
+
+At the [[wiki/meetings/2026-09-24-daily-standup-firmware-delivery-and-capability-statuses.md|Sept-24 Minsk stand-up]] (Russian), which he ran [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]:
+
+- **Firmware.** He named the Flex-Port firmware-update protocol as needed first, and concluded the delivery method to Flex IQ and FlexPay "пока не определён". He proposed a spike for Anton. See [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Sept-24 update).
+- **Screens.** The new Flex-Port screens are "не MVP один" and not promised by October 1. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 24).
+- **Georgia.** Build game identifiers mean a 15-game file is fine when 10 run. See [[wiki/projects/georgia-market-rollout.md]] (Sept 24).
+- **Lost-money bugs.** "Мы будем фиксить, я думаю." See [[wiki/decisions/2026-09-23-open-requirements-are-settled-on-the-call-and-only-slow-ones-are-parked.md]] (Sept-24 update).
+
+## Sept 24 2026 (5:41 AM) — he runs the case-by-case review, and plans to switch off the Georgia passport check
+
+He ran the [[wiki/meetings/2026-09-24-georgia-hard-reset-remedies-and-passport-removal.md|Sept-24 5:41 AM hard-reset review]] (Russian; Val absent) — the review he promised on Sept 23. [[raw/Meeting_Transcript_Georgia_Hard_Reset_Remedies_and_Passport_Removal-September-24-2026.md]]
+
+- **The plan:** "нам надо сейчас просто принять решение, что паспорт на самом деле отключить для джорджевских билдов" — with a server flag so RIS creation stops filtering machines by passport. See [[wiki/decisions/2026-09-24-engineering-plans-to-switch-off-the-passport-check-for-georgia-builds.md]].
+- **Three kinds of factory reset** — full, restore the last RIS, and a soft reset that clears meters and state. See [[wiki/topics/ris-remote-install-and-machine-states.md]] (Sept 24).
+- **His split:** passport removal and RIS restore in the nearest releases; soft resets and partly manual init medium-term; "не знаю" whether RAGE or NOVA. His read: the short-term fixes could close "наверное, там 70%" of the problems.
+
+## Open commitments (Sept 24 2026, 5:41 AM)
+
+- [ ] Pavel Frolov — plan and schedule the removal of the passport check from the Georgia build — due unspecified — [[raw/Meeting_Transcript_Georgia_Hard_Reset_Remedies_and_Passport_Removal-September-24-2026.md]]
+- [ ] Pavel Frolov — ask whether the statistics QR scan is needed on a factory reset, and whether Georgia can default it off — due Sept 24 2026 — [[raw/Meeting_Transcript_Georgia_Hard_Reset_Remedies_and_Passport_Removal-September-24-2026.md]]
+- [ ] Pavel Frolov — split the installer's "cannot find card" error into I/O board and counter board ("ко мне вопрос больше") — due unspecified — [[raw/Meeting_Transcript_Georgia_Hard_Reset_Remedies_and_Passport_Removal-September-24-2026.md]]
+
+## Sept 24 2026 (7:02 AM) — several RIS files on one stick, restore the last RIS, and limits for outside technicians
+
+At the [[wiki/meetings/2026-09-24-ris-serial-binding-and-factory-reset-focus.md|Sept-24 7:02 AM RIS follow-up]] (English) [[raw/Meeting_Transcript_RIS_Serial_Binding_and_Factory_Reset_Focus-September-24-2026.md]]:
+
+- **One stick, many files** "works last four years, I assume"; he offered a warning-and-confirm or a server-set multi-machine parameter for loosening the serial link. See [[wiki/decisions/2026-09-24-ris-keeps-the-jvl-serial-number-but-it-becomes-less-binding.md]].
+- **Passport today:** "only our personnel, internal personnel, able to scan passport and update passport on machine"; for outside users, allow only basic updates (printer, bill acceptor, monitor). See [[wiki/decisions/2026-09-11-the-passport-is-preserved-and-jvl-is-using-the-bindings-wrongly-in-this-market.md]] (Sept-24 update).
+- **Restore the last RIS** "without USB stick… we are having a copy of this file on the machine right now on the newer software". See [[wiki/topics/ris-remote-install-and-machine-states.md]] (Sept 24, 7:02 AM).
+- At the close: "we need at least to split this case to separate to several." See [[wiki/decisions/2026-09-24-reducing-factory-resets-is-the-one-urgent-fix.md]].
+
+## Open commitments (Sept 24 2026, 7:02 AM)
+
+- [ ] Pavel Frolov — split the factory-reset case into several separate cases — due unspecified (the next meeting) — [[raw/Meeting_Transcript_RIS_Serial_Binding_and_Factory_Reset_Focus-September-24-2026.md]]
+
+## Sept 24 2026 (8:01 AM) — the 8-second SAS window, the nearest-wallet idea, and hooks only in debug
+
+On the [[wiki/meetings/2026-09-24-transactional-mvp1-flexport-money-loss-bugs-and-release-date.md|Sept-24 8:01 AM MVP 1 call]] (Russian) [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]:
+
+- **Bug 354:** "лучше пусть на машине остаются и деньги." **Unclaimed:** SAS gives about 8 seconds to hold the money on the machine; after that it must move. He proposed matching unclaimed money to the nearest earlier wallet on the same machine, which Val praised; it waits for MVP 2. He asked how locations will deal with unclaimed money in MVP 1. See [[wiki/decisions/2026-09-24-a-flex-port-that-dies-holding-money-sends-it-to-unclaimed-and-one-without-a-gateway-goes-out-of-service.md]].
+- **Service screens.** Out-of-service screens can name the cause (door open, machine locked, QR scanner down), and a version footer goes at the bottom.
+- **Hooks** "будут доступны только для нашего дебаг окружения"; for Val's remote-key idea: "надо продумать. Как защитить девайс от себя же?" See [[wiki/topics/test-automation-strategy.md]] (Sept 24, 8:01 AM).
+- **ADRs** belong in docs under the new standard. See [[wiki/decisions/2026-09-04-point-claude-at-the-standards-repository-first.md]] (Sept-24 update).
+
+## Open commitments (Sept 24 2026, 8:01 AM)
+
+- [ ] Pavel Frolov — send Klimovich the list of Flex-Port tilts and errors, each with a recommended action where one makes sense — due unspecified — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+
+## Sept 24 2026 (10:00 AM) — no Galaxy work, the release filter, and "Core"
+
+At the [[wiki/meetings/2026-09-24-nova-galaxy-jira-hierarchy-cleanup.md|Sept-24 10:00 AM NOVA/Galaxy call]] (Russian) he shared the Jira screen [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]:
+
+- **State of play.** No Galaxy work at all; NOVA work is filed under IP 90 Applications / IP 481, "не по последним нашим стандартам".
+- **His concern.** Splitting NOVA into per-part initiatives would force copies of one capability; his only gain would be not having about 100 capabilities in one list.
+- **The release filter.** He showed a release filter live; the same release must then exist in every project, and features must carry it. He proposed giving everyone present the task of tagging their features.
+- **Naming.** IP 738 "Core" is really helper tools; he agreed to "Назовем это кор" for the new stream. He accepted the flat list: "это в принципе всех устраивает такой подход."
+- Val named him the most likely NOVA product manager for now. Val does not want him acting as the team's secretary. See [[wiki/decisions/2026-09-24-capabilities-sit-in-one-flat-list-under-each-platform-and-releases-are-timeline-lines-not-initiatives.md]].
+
+## Sept 24 2026 (4:38 PM) — a USB stick to flash modem firmware (reported by Genadi)
+
+On the [[wiki/meetings/2026-09-24-hardware-repo-bom-source-of-truth-and-street-cabinet-layout.md|Sept-24 4:38 PM alignment call]] (Pavel not present), [[wiki/people/genadi-peari.md|Genadi]] said he and Pavel had agreed about an hour earlier that Pavel will prepare a USB stick which, plugged into a machine, upgrades the modem firmware automatically; he also said the LTE module chosen with Pavel works after a firmware upgrade. The commitment is held on [[wiki/decisions/2026-09-04-north-america-modem-variant-and-ask-kore-for-the-apn.md]] (Sept-24 update). [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
 
 ## Sources
 
@@ -991,3 +1065,10 @@ On the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-au
 - [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [[raw/Meeting_Transcript_RIS_and_Passport_Hard_Reset_Burden-September-23-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
+- [[raw/Meeting_Transcript_Georgia_Hard_Reset_Remedies_and_Passport_Removal-September-24-2026.md]]
+- [[raw/Meeting_Transcript_RIS_Serial_Binding_and_Factory_Reset_Focus-September-24-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]
+- [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]

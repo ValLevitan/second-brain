@@ -3,7 +3,7 @@ type: decision
 title: Planning comes off Pavel Frolov and goes to an "application administrator" — Dmitri Kovalchuk proposed, not yet agreed
 date: 2026-09-17
 aliases: [planning comes off Pavel, application administrator, аппликейщен администратор, Dima Kovalchuk administrator, Зиму Ковальчука, planning handover, полный трансперация, Pavel comes to Atlanta]
-source-count: 3
+source-count: 5
 status: active
 open-commitments: 3
 open-questions: 2
@@ -68,6 +68,21 @@ At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexp
 
 *Whether this is him taking on the administrator role is an **inference**; neither source says he accepted it.*
 
+## Update, Sept 24 2026 — To-Do tasks get dates, and the report goes out by email
+
+At the [[wiki/meetings/2026-09-24-daily-standup-firmware-delivery-and-capability-statuses.md|Sept-24 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]:
+
+- **The date rule.** Kovalchuk: his report shows many To-Do tasks with no end date. Must a To-Do task carry an end date, or only an In Progress one? [[wiki/people/dmitri-chudinov.md|Chudinov]]: "Должна" — at least whatever is discussed ("то, что мы слабом обсуждаем", garbled; the stand-up is an **inference**) gets a date at once, set forward ("наперёд"). Pavel agreed. Kovalchuk will remind everyone.
+- **The report is ready.** "Я сегодня доделал этот отчет… и завтра утром уже начнёт приходить на почту оповещения" — email alerts from Sept 25 2026.
+
+*Whether this is him acting as the application administrator is still an **inference**; no source says he accepted the role.*
+
+## Update, Sept 24 2026 (10:00 AM) — Val hands Kovalchuk the hierarchy grooming directly
+
+At the [[wiki/meetings/2026-09-24-nova-galaxy-jira-hierarchy-cleanup.md|Sept-24 NOVA/Galaxy call]] (Russian), Val asked [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] in person to do the Jira grooming (remove the product IP layer, move features under capabilities with Claude, then set up the releases). Kovalchuk: "Я могу попробовать", and he will say on Tuesday how long it needs. Val also said: "Я очень против Того, чтоб чтоб Павел работает за секретаря" — Biratka and Chudinov should move their own capabilities. [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]
+
+*This is a concrete task, not acceptance of the "application administrator" role; whether he has taken that role is still an **inference**.*
+
 ## Open commitments
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] / [[wiki/people/irina-shishko.md|Irina Shishko]] — persuade [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] to come in as application administrator ("Както нужно уговорить. Это вам.") — due unspecified — [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
@@ -88,3 +103,5 @@ At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexp
 - [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
 - [[raw/Meeting_Notes_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]

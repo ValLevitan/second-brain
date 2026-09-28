@@ -3,9 +3,9 @@ type: decision
 title: Standing instruction — use the standards, add to the standards, and point your Claude at the standards repository first (Knowledge Base / Standards in GitHub, access verified for all 39 accounts)
 date: 2026-09-04
 aliases: [point your code at the standards, standards repository instruction, Knowledge Base Standards folder, 39 accesses verified, write narrow granular standards, moving away from Confluence]
-source-count: 7
+source-count: 8
 status: active
-open-commitments: 3
+open-commitments: 5
 open-questions: 1
 ---
 
@@ -64,11 +64,23 @@ At the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-au
 - **Tests.** When Khamin asked how autotests should be stored and structured, [[wiki/people/andrey-bosik.md|Bosik]]: "половина если не больше ответов на твой вопросы описаны уже в стандартах" [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]].
 - **Plain English for Claude.** Val told the team to instruct Claude to limit sentence count and write in "e sl. Типом английского языка" — see [[wiki/decisions/2026-09-23-open-requirements-are-settled-on-the-call-and-only-slow-ones-are-parked.md]] [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]].
 
+## Update, Sept 24 2026 — the integration repository, ADRs in docs, and Bosik takes it on
+
+On the [[wiki/meetings/2026-09-24-transactional-mvp1-flexport-money-loss-bugs-and-release-date.md|Sept-24 8:01 AM call]] (Russian) [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]:
+
+- **Where the autotests live.** [[wiki/people/andrey-bosik.md|Bosik]]: "У нас есть интеграционный репозиторий, который как раз и создавался… для Того, чтобы внутри него находились скрипты и CI процесс, которые проверяют взаимодействие между устройствами." Irina: the tests span Flex-Port and Flex IQ, so they cannot go in either device's repository.
+- **Repository = project code.** Val: "мы сказали, что у нас репозитории это равняется коду проекта." Bosik agreed a Jira project should then exist for the integration repository. Asked whether it does, Bosik — "Я не готов щас ответить" — and Pavel could not say either.
+- **Point Claude at the standard.** Val to [[wiki/people/alexei-khamin.md|Khamin]]: "Вы… можете поинт свой клод на этот стандарт… Тогда он организует вам правильно репозиторий. Я вам очень советую посоветоваться с Андреем босиком".
+- **ADRs go in docs.** Pavel: what he sees is "устаревший подход к [ADR;] по новому стандарту, наверное, [ADR] должен в докс лежать."
+- **Bosik owns it.** Val: "Вы можете на себя взять этот, чтобы мне не нужно было чейса туда?" Bosik: "Да да да, я сделаю все это."
+
 ## Open commitments
 
 - [ ] Everyone (engineering and the game team) — use the standards, add narrow granular standards to them, and point Claude at the standards repository as part of routine work — ongoing standing rule — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]] [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 - [ ] [[wiki/people/lena.md|Lena Zhukova]] — move the graphics team's existing Omni/NOVA naming documents into the Knowledge Base standards folder — due unspecified — [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 - [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — read the repository standard and correct his repository structure to match — due unspecified; he said "я могу смог ознакомиться и поправить под стандарт" — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — set up the integration repository to the standard (check the matching Jira project, ADRs in docs) so Val does not have to chase it — due unspecified — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — point his Claude at the repository standard and consult Bosik on the test repository — due unspecified — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
 
 ## Open questions
 
@@ -82,3 +94,4 @@ At the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-au
 - [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]

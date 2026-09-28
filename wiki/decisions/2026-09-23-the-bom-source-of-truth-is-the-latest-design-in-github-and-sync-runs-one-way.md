@@ -1,0 +1,78 @@
+---
+type: decision
+title: The BOM's source of truth is the latest design in GitHub, and the GitHub–Business Central sync runs one way (contested by Genadi)
+date: 2026-09-23
+aliases: [BOM source of truth, BOM built in BC automatically from GitHub, each module gets one plain text file, test BOM on the new Slim, BOM in GitHub or MSBC, one source of truth, wan sorrs of chers, two-way sync is bad, drawing first then part number, GitHub MSBC synchronization, lost in two pine trees]
+source-count: 5
+status: active
+open-commitments: 3
+open-questions: 4
+---
+
+# The BOM's source of truth is the latest design in GitHub, and the sync runs one way
+
+Stated by [[wiki/people/val-levitan.md|Val Levitan]] at the [[wiki/meetings/2026-09-23-texas-flex-slim-release-street-cabinet-and-bom-source-of-truth.md|Sept 23 2026 11:05 AM alignment call]] (Russian) with [[wiki/people/genadi-peari.md|Genadi Peari]]. **Status note:** active as Val's ruling, but **Genadi did not accept the BOM half** and the conversation was cut off; Val took it to a separate meeting [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]. **Sept 24 update:** Val read the rule out from his written note, and said the BOM itself is **built in BC, automatically**, from GitHub as the source data. How to do that is still open research; Genadi still said he could not see the gain — see [[#sept-24-2026--the-written-rule-read-out-and-the-bom-built-in-bc-from-github-data|Sept 24]] below. [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+
+## How it came up
+
+Val asked where the **GitHub ↔ MSBC synchronization** project stands; he had had no time with [[wiki/people/nathan-carver.md|Nathan]] ("у нас не было времени общаться с нейтаном вообще") and did not know what was needed. Genadi said he had written Nathan his vision: that the sync lets Val have an AI chief-operations assistant over everything. Val corrected the premise: "могу своего AICO направить на gedхаб также удачно даже может быть и легче" — he can point his AI assistant at GitHub just as well, maybe more easily, and does not need the sync with Microsoft BC for that [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]].
+
+## The two positions
+
+- **Genadi — build the BOM in Business Central.** "Сегодня все цены находятся в м из би си." It is convenient in the ERP because "если изменяется ревизия, оно сразу уходит во все rileated itames"; all orders go out of MSBC; a requisition is easier there. He could not picture BOM trees in GitHub: "если у нас есть. Флекс у него есть там 10 модулей разных… я могу это Excel файлы держать разные XL файлы, которые потом merch. Как это сделать?" [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+- **Val — drawing first, then part number, then MSBC.** "нет чертежа нету пагнала" — no drawing, no part number. You design in SolidWorks; the finished parts go into GitHub, which keeps versions and history; then the part-number list is carried into MSBC, a supplier is attached, quotations come in, a new supplier gets a vendor card, and only then does a purchase order go out. "версионность деталей конструкции деталей лучше всего удобней держать в кидхабе, потому что там поддерживается версионный случай всего." [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+
+## The ruling
+
+- **One source of truth; two-way sync rejected.** Genadi asked whether the sync works both ways. Val: "Обе стороны это обе стороны обе стороны плохо, когда работает. Должен быть wan sorrs of chers" — there must be one source of truth — "Иначе у вас будет ту сорси". Genadi: "Хорошо." [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+- **The BOM's source of truth is GitHub.** Genadi asked it straight — "Mсбиси или гетхап." Val: "Китхаб конечно, потому что это последняя версия дизайна." The BOM in MSBC is "уже финальный результат", derived from the design versions. [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+- **The reason Val gave is about culture:** "вы не думаете в м с биc у вас нету мысли в MSBC у вас перед вами дизайн и вы работаете с дизайном и я бы не хотел бы это менять, потому что это правильная культура." [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+
+## What stayed open
+
+- **Genadi did not accept the BOM half.** "Я не понимаю, как можно биллов материал manten в gi." When Val said "Сейчас это строите gedхады это уже решённый вопрос", Genadi answered that he builds it in BC. Twice he asked whether Val wanted "построить свой erp систему в gi"; Val said he did not know how to answer that. Val at one point: "мы в 2 соснах заблудились" — we are lost between two pine trees. [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+- **Where the part number lives.** Genadi: the link between MSBC and GitHub runs through the part number. Val: GitHub holds the latest drawing number and revision, and "я даже может быть и не думаю, что парк нам должен лежать в гетхабе". Genadi had started to explain JVL's part-numbering system — numbers he assigns by hand when he makes the drawings — when Val had to leave for another call. [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+
+## How it sits against Aug 12
+
+On Aug 12 the same two people agreed "GitHub is the source of design truth", with a one-way sync robot from GitHub into BC that rewrites the assembly BOM when a revision is tagged — see [[wiki/topics/business-central-erp-implementation.md]] (Aug 12) and [[wiki/topics/github-release-management-pipeline.md]] (Aug 12). Sept 23 restates that direction. What is new is that Genadi now says he builds the BOM in BC and questions keeping BOM trees in GitHub. This is recorded as an **evolution with a live disagreement**, not as a contradiction: the two sources describe the same plan at different dates, and the Sept-23 source shows it is not yet agreed in practice. It also narrows the **June-25** "Business Central is the single source of truth" rule for design data, as Aug 12 already did (inference). [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]] [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
+
+## Sept 24 2026 — the written rule read out, and the BOM built in BC from GitHub data
+
+The next day's [[wiki/meetings/2026-09-24-hardware-repo-bom-source-of-truth-and-street-cabinet-layout.md|Sept 24 4:38 PM alignment call]] (English, then Russian; Val and Genadi only — Nathan did not join) returned to it. Val opened with his written note on "integration of bill of material and integration of GitHub and MSPC" and asked whether Genadi had read it. [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+
+- **Genadi's starting point.** "I don't have any issues with the… Parts, drawings, documentation. Keep in a GitHub. What I do not understand fully about the bill of materials." He showed the Excel file that sales and others use to find a machine number (his example: "I need V43. South Dakota") and then the Flex machine in BC — modules, top assembly, parts — as "what we need to transfer" to GitHub. [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+- **Val: nothing is transferred from BC.** The Excel is "already baked cake… a final product"; "I can produce these files on the fly… All I need you to do is to organize GitHub." And: "PC is not the source of truth. You cannot transfer anything from PC… the source of truth starts from… your drawings." His note says what Genadi does: "Engineering bomb fire" — "each module gets one plain text file." [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+- **The rule, read out in four lines:** "There is one source of truth for product structure. That source of truth is the latest release design in GitHub hardware repo." — "Business Central holds a copy of that structure. Plus, everything commercial." — "Data flows one way only. GitHub to Business Central. Nothing flows back." — "If 2 systems ever disagree, GitHub is right and BC gets corrected." Genadi answered "Yeah" and "Yes" along the way. [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+- **Engineering BOM vs manufacturing BOM.** In Russian, Val split the two: the engineering BOM is Genadi's; the manufacturing BOM is built automatically ("автодоссенг", garbled) and adds vendors, prices, lead times, packaging, labour and consumables, which come from BC. "Вендерс infomation… прайс информишен… это всё должно храниться, безусловно. В бесе. Но… Дизайн futures дизайн, элементы, чертежи это всё должно храниться в гитхабе." His reasons for GitHub are partly garbled; the readable ones are storage ("сторож") and the integration of the drawing files ("интеграция, и ты читал файлс и чертежей"). The derived notes add revision history. [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+- **Genadi's objections.** About **30%** of parts come from SolidWorks, "the rest is buy" (he also said "50% mechanical, 50% electronics"). The Flex has "15 сегодня модификаций" from one SolidWorks file. BC is a strong ERP that already keeps these BOMs, "А как мне в гетхабе делать это тысячу этих файлов?" Val: "Я не думаю, что надо иметь тысячу файлов… ты делаешь один и тот же экспорт"; the variants "просто вытягивают другие линки." Genadi: "Я не понимаю наш выигрыш." [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+- **Revisions.** Genadi: today a new revision goes into the BOM at quantity zero, the old stock is used up, then the new one takes over; he, Mikhail or someone else does it. Val: in his model the new revision is live as soon as it is entered, new orders use it, and old parts are still used while stock lasts; today "трём или четырём людям надо о чём то договориться, надо обменяться какимито имейлами", "А в моём варианте это не надо делать." [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+- **Where it ended.** Val summed up two questions (below) and said he would take them to Claude: "давайте я постараюсь проговорить это с клодом, и я вернусь к вам." Genadi asked how the BOM is built in GitHub; Val: "я не вижу, зачем его нужно строить в гидхады. Его нужно строить… в беси." The research question, in Val's words: "Как можно создать билов материю в би си? Автоматическим методом. Имея… Сортов чувств на все компоненты. Кит хаты". He suggested an experiment with "какойто фейковый билог материл"; Genadi: "Я бы сделал даже вот на наш слим новый." Val: "Хорошо." [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+- **The method applies to every bought part.** Genadi showed adding a modem to a kit in BC through the edit list. Val asked what the source of truth for the modem is: if its maker, source or design changes, "вы должны гдето в сорс офз это изменить." The same method covers metal made by a supplier in China, modems, buttons, PCBs, displays and harnesses. Genadi confirmed he makes harness drawings; the supplier makes its technical drawings and Genadi approves connectors, length and wire gauge. [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+
+**How it sits against Sept 23 (evolution):** Sept 23 left the BOM half contested, with Val saying the BOM's source of truth is GitHub. Sept 24 keeps GitHub as the source of truth for product structure but makes clear the BOM list itself is **assembled in BC** from GitHub data, not kept as a BOM tree in GitHub. This answers the form of Genadi's Sept-23 worry ("свой erp систему в gi") without settling how the automatic build is done. The derived notes record the same two-part outcome. [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]] [[raw/Meeting_Notes_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+
+## Open commitments
+
+- [ ] Val Levitan — set up a separate meeting on GitHub and its sync with MSBC, "С Андреем осиком и с может быть. С нейтаном" (read as [[wiki/people/andrey-bosik.md|Andrey Bosik]] and possibly [[wiki/people/nathan-carver.md|Nathan Carver]] — inference) — due unspecified — [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]] — *Sept 24: the follow-up call was held with Genadi only; Nathan did not join and Andrey was not there, so this stays open* [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+- [ ] Val Levitan — research, with Claude, how to build the BOM in BC automatically with GitHub as the source of truth, answer the two questions below, and come back to Genadi — due unspecified — [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+- [ ] Val Levitan and Genadi Peari — build a test ("фейковый") BOM on the new Slim to see how it is created — due unspecified — [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+
+## Open questions
+
+- How are multi-module BOM trees (Flex has "10 модулей разных") kept in GitHub, and how are they changed? Val said it is "не сложно продумать"; no method was given. [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]] *Sept 24 restatement:* how to build one BOM for a product with many modules when about half the parts come ready-made from vendors and are not in SolidWorks — now framed as a BOM built in BC automatically from GitHub data. Val to research. [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+- On a revision, how is old stock of a component used up, and how is that marked in inventory control? Val's second question, to research. [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+- Does the part number belong in GitHub at all, or only the drawing number and revision? [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+- Where is a part number first created — by hand at drawing time, as Genadi began to describe? Cut off. [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+
+*The derived notes record the one-way rule as "not disputed" and the GitHub ruling as "stated by Val… Genadi did not accept this" — consistent with the transcript [[raw/Meeting_Notes_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]].*
+
+**§15 #9:** clear — the vendor card is described as holding banking information; no detail is given. **§15.8:** clear.
+
+## Sources
+
+- [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+- [[raw/Meeting_Notes_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+- [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
+- [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+- [[raw/Meeting_Notes_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]

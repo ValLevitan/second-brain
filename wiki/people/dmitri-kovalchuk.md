@@ -4,8 +4,8 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "IT (GitHub-admin, infrastructure, secrets/Azure, AI-tool accounts) — the IT-context "Dima". Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 36
-open-commitments: 8
+source-count: 38
+open-commitments: 11
 open-questions: 2
 ---
 
@@ -172,11 +172,40 @@ At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexp
 ## Open commitments (Sept 22 2026)
 
 - [ ] Dmitri Kovalchuk — check why a story cannot move from Request Review to Complete in the "h fm" project settings — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
-- [ ] Dmitri Kovalchuk — finish the overdue-task report and send each person their list, after feedback — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
+- [x] Dmitri Kovalchuk — finish the overdue-task report and send each person their list, after feedback — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]] — **discharged Sept 24 2026:** report finished; email alerts start Sept 25 morning — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
 
 ## Sept 22 2026 (8:01 AM, in absentia) — the green Accepted colour comes back to him
 
 On the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-tests.md|Sept-22 8:01 AM MVP 1 call]], Pavel said a task on the Accepted colour had already gone to "диме ковальчуку", yet capability 180 still showed green, "наверное, к этому надо ещё раз подойти". No new task or date was set. See [[wiki/decisions/2026-09-11-accepted-means-reviewed-taken-into-work-is-the-move-to-to-do.md]] (Sept-22, 8:01 AM update) [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]].
+
+## Sept 24 2026 (4:46 AM stand-up) — Req Review, the grey Accept status, and the report goes out
+
+At the [[wiki/meetings/2026-09-24-daily-standup-firmware-delivery-and-capability-statuses.md|Sept-24 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]:
+
+- **Statuses.** He added a Req Review status to capabilities and will build a rule moving a capability there from In Progress when all features and stories are green. He moved Accept Capability to grey To Do, because Claude read green as closed. See [[wiki/decisions/2026-09-11-accepted-means-reviewed-taken-into-work-is-the-move-to-to-do.md]] (Sept-24 update).
+- **Completed versus Closed.** His definition: Completed can be sent back; Closed is fully packed up. Same page.
+- **The report.** Finished; email alerts start Sept 25 in the morning. To-Do tasks must carry an end date. See [[wiki/decisions/2026-09-17-planning-comes-off-pavel-and-goes-to-an-application-administrator.md]] (Sept-24 update). This discharges his Sept-22 report commitment above.
+- **The Flex IQ emulator.** Pavel asked him to see its features created. See [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]] (Sept-24 update).
+- **Access.** He will give [[wiki/people/ivan.md|Ivan]] write access once told where.
+
+## Open commitments (Sept 24 2026)
+
+- [ ] Dmitri Kovalchuk — build the In Progress → Req Review rule — due Sept 24 2026 — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
+- [ ] Dmitri Kovalchuk — check the auto-rule so a parent never closes before its children — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
+- [ ] Dmitri Kovalchuk — see that features for the Flex IQ emulator are created, with the Flex-Port firmware protocol as its own feature — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
+
+## Sept 24 2026 (10:00 AM) — projects match repositories, and the grooming job
+
+At the [[wiki/meetings/2026-09-24-nova-galaxy-jira-hierarchy-cleanup.md|Sept-24 10:00 AM NOVA/Galaxy call]] (Russian) [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]:
+
+- **Project = repository, done.** He had created all projects: "отношение один к одному все репозитории соответствуют проектам в жире". Older extra projects remain; Val: they will be closed.
+- **LGS and RGS.** Their keys were already taken by old projects; he proposed keeping the key and renaming the project to match the repository. Val: "Окей класс класс отлично."
+- **Filters.** A task already lives in its own project, so that is a grouping; one can filter by release and pick MVP 1. Jira now calls projects "spaces".
+- **The grooming.** Val asked him to remove the product IP layer, attach features to existing or new capabilities with Claude, then create the releases as timeline lines. He: "Я могу попробовать"; he cannot yet see the size of the job and will report on Tuesday. Commitment on [[wiki/decisions/2026-09-24-capabilities-sit-in-one-flat-list-under-each-platform-and-releases-are-timeline-lines-not-initiatives.md]]. See also [[wiki/decisions/2026-09-17-planning-comes-off-pavel-and-goes-to-an-application-administrator.md]] (Sept-24 10:00 update).
+
+## Open commitments (Sept 24 2026, 10:00 AM)
+
+- [ ] Dmitri Kovalchuk — rename the LGS and RGS Jira projects to match their repositories, keeping the keys (his proposal, which Val approved) — due unspecified — [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]
 
 ## Sources
 
@@ -216,3 +245,5 @@ On the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-tests.
 - [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]

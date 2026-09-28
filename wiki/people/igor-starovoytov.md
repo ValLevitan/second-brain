@@ -3,7 +3,7 @@ type: person
 title: Igor Starovoytov
 date: 2026-07-13
 aliases: [Igor Starovoytov, Igor, Starovoytov]
-source-count: 7
+source-count: 9
 disambiguation: "Contractor industrial designer (Flex cabinets; via Genadi Peari). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
 ---
 
@@ -35,6 +35,14 @@ On the May-20 Val↔Genadi industrial-design call ([[wiki/meetings/2025-05-20-fl
 
 On the second Feb-12 [[wiki/people/genadi-peari.md|Genadi]] call ([[wiki/meetings/2026-02-12-genadi-echo-printer-freeze-flexport-bom.md]]), Val said that before Genadi tackles the **dispenser**, "**Igor** needs to be started first" — "the old wheel needs spinning up" — and to run the two as one family. By cabinet/industrial-design context (Genadi's orbit) this is Starovoytov, labeled an inference. [[raw/Call_Genadi_Peari-February-12-2026-2.md]]
 
+## Sept 23 2026 — pictures for the street cabinet
+
+On the [[wiki/meetings/2026-09-23-texas-flex-slim-release-street-cabinet-and-bom-source-of-truth.md|Sept-23 alignment call]], [[wiki/people/genadi-peari.md|Genadi]] asked whether Val wanted "Игоря привлечь на какихто пару картинок" for the street cabinet; Val: "Безусловно". Genadi later said he could work with Igor "над. Общей картинкой, чтобы вам презент это". The surname is not spoken; this page is matched by the cabinet-design context (inference). See [[wiki/topics/low-cost-street-machine.md]] (Sept 23). [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+
+## Sept 24 2026 — a weekend conversation, verbal only
+
+On the [[wiki/meetings/2026-09-24-hardware-repo-bom-source-of-truth-and-street-cabinet-layout.md|Sept-24 4:38 PM alignment call]], [[wiki/people/genadi-peari.md|Genadi]] said he might talk to Igor at the weekend about the street cabinet, but could only describe it verbally ("Могу только вёрбале ему описать"). Val advised planning more than one conversation. The surname is not spoken; this page reads him as Starovoytov by the cabinet-design context (inference). *(A remark about his working style is withheld, §15.8.)* [[raw/Meeting_Transcript_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]]
+
 ## Sources
 
 - [[raw/Call_Genadi_Peari-February-12-2026-2.md]]
@@ -44,3 +52,5 @@ On the second Feb-12 [[wiki/people/genadi-peari.md|Genadi]] call ([[wiki/meeting
 - [[raw/flex_tower_spacial_design_review-may-1-2025.md]]
 - [[raw/flex_tower_pos_form_fit_design-may-2-2025.md]]
 - [[raw/industrial_design_update-may-20-2025.md]]
+- [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+- [[raw/Meeting_Transcript_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]]

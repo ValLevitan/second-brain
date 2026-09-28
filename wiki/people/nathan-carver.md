@@ -3,7 +3,7 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 39
+source-count: 41
 open-commitments: 5
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
@@ -148,6 +148,14 @@ Two qualifications came straight back, and both are recorded because they cut ag
 
 **Pavel also cited the Nathan project as the precedent for writing requirements up front** — "как это мы в принципе начинали с [Н]ейт[а]ном… там несколько месяцев писались требования" — and as the reason it cannot be repeated now: "у нас нет времени сейчас 2 месяца писать это." See [[wiki/topics/test-automation-strategy.md]] (Sept 9). [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 
+## Sept 23 2026 — the GitHub ↔ MSBC sync: no time with him, and a meeting to come
+
+On the [[wiki/meetings/2026-09-23-texas-flex-slim-release-street-cabinet-and-bom-source-of-truth.md|Sept-23 Val–Genadi call]], Val said "у нас не было времени общаться с нейтаном вообще" and he did not know where the GitHub–MSBC sync project stood. Genadi said he had met Nathan once or twice and written him his vision. Val will set up a separate meeting "С Андреем осиком и с может быть. С нейтаном". Ruling on [[wiki/decisions/2026-09-23-the-bom-source-of-truth-is-the-latest-design-in-github-and-sync-runs-one-way.md]]. [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+
+## Sept 24 2026 — not at the follow-up
+
+At the start of the [[wiki/meetings/2026-09-24-hardware-repo-bom-source-of-truth-and-street-cabinet-layout.md|Sept-24 4:38 PM alignment call]] on the BOM and the GitHub–MSBC link, Genadi asked "Is there Nathan also joining?"; Val: "No, Nathan is not joining." [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Notes_Payment_Hub_GL_Sales_Tax-May-12-2026.md]]
 - [[raw/Nate_Val_Sync-March-11-2026.md]]
@@ -189,3 +197,5 @@ Two qualifications came straight back, and both are recorded because they cut ag
 - [[raw/Meeting_Transcript_Kyle_Johnson_Event_Recorder_Recruitment_Intro-April-3-2026.md]]
 - [[raw/Meeting_Notes_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
+- [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+- [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]

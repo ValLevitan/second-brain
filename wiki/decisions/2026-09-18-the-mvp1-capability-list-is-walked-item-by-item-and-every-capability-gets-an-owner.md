@@ -3,7 +3,7 @@ type: decision
 title: The MVP 1 capability list is walked item by item before the Monday freeze — the FlexPay capabilities leave for MVP 2, requirements come off developers, and every remaining capability gets an owner and a status
 date: 2026-09-18
 aliases: [capability cleanup, MVP1 capability sweep, capability 178, capability 144 clone, capability 151, capability 163, capability 174, capability 175, capability 176, capability 180, capability 148, capability 149, capability 150, capability 116, capability 117, capability 79, capability 80, capability 156, requirements are not hung on developers, требования вешать на разработчика это странно, clone the capability instead of moving requirements one by one, location block enforcement, audit ticket, daily audit printout, capabilities without features, empty capability, test executions instead of features, capability 115 to MVP 2, capability 157 emptied, requirement 1473 on 156, FIQ-34, capability 152 dates, change list for Claude, capability 234, capability 235, capability 230, capability 231, FIQ fort FP DTP repositories]
-source-count: 8
+source-count: 9
 status: active
 open-commitments: 15
 open-questions: 5
@@ -125,6 +125,16 @@ At the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-au
 - **Repository names**, asked by Val: Flex IQ = **FIQ**, Flex-Port = **fort**, FlexPay = **FP**; for the server Pavel first said BIP, and Chudinov corrected it to **DTP** — Pavel: BIP "значит были то, что ещё старые задачи открыты".
 - **Chudinov's working preference:** close one business topic at a time across devices — e.g. card activation — rather than return to it a week later.
 
+## Update, Sept 24 2026 — features raised on the new capabilities, capability 237 appears, and the new Flex-Port screens are not MVP 1
+
+At the [[wiki/meetings/2026-09-24-daily-standup-firmware-delivery-and-capability-statuses.md|Sept-24 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]:
+
+- **Chudinov raised the features.** "По этим копобилити, которые новые были созданы Андреем на все завёл фиччи с этими с датами со статусом". The numbers then read out are garbled — "88? 230? 231? 203? 4?". That 230, 231 and 234 are among them is an **inference**; see the commitment below.
+- **Capability 237 is new.** Pavel read out "237… Терминал сервис рэдин из гейт" and did not know it. Chudinov checked its history: created "13:00 назад", probably by Andrei ([[wiki/people/andrei-klimovich.md|Klimovich]], by context). It is assigned to no one. Pavel: "это надо всем вычитать тогда".
+- **Capability 137.** [[wiki/people/alexander-biratka.md|Biratka]] is closing feature 13-49; 12-50 and 12-51 are blocked until new endpoints are added on the Amazon services side, so the app can update.
+- **Capability 152.** Chudinov continues it (card activations).
+- **The new Flex-Port screens are not MVP 1.** Screens in Klimovich's design that were never built become separate tasks. Pavel: "это будет задача не MVP один, то есть мы мы её делаем. Но не гарантируем, что это будет к 1 октября сделано и протестировано" — said so that no one expects it. Detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 24).
+
 ## Open commitments
 
 - [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — rewrite capability 144's description to match the trimmed requirement set, clean it and move it to the next status — due **today, Sept 18 2026, end of day**; he said he would do it straight after the meeting — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
@@ -142,7 +152,7 @@ At the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-au
 - [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — set the feature dates under capability 152 himself — due Sept 22 2026 (he had started) — [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
 - [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — settle the STG certificate clash (constant unbinding vs an environment in the thing-name) with Andrei — due unspecified; it blocks installing 152 on STG — [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — read the new capabilities and requirements Andrei created (REQ-1460 on card programs; the unassigned multi-card item) and take them to the later meeting — due Sept 23 2026 — [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
-- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — create the features under capabilities 230, 231 and 234 — due Sept 24 2026 (Pavel: "до завтра") — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — create the features under capabilities 230, 231 and 234 — due Sept 24 2026 (Pavel: "до завтра") — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]] — **Sept 24 2026:** he said he raised features on all the new capabilities Andrei created; the numbers read out are garbled, and 231 was his own, so this stays open until a source confirms all three — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — create a feature under capability 178 for supporting an additional card type — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]] *(owner ruling 2026-09-20: two-product support is not in MVP 1; this does not reopen it)*
 
 ## Open questions
@@ -167,3 +177,4 @@ At the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-au
 - [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]

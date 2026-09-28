@@ -4,7 +4,7 @@ title: Mikhail Perelman
 date: 2026-07-13
 aliases: [Mikhail Perelman, Misha, Миша, Mikhail, Michael]
 disambiguation: "Procurement Manager (parts/vendors/shipments; the retrofit-lead "Misha"). Misha/Michael cluster (2, owner-ruled): [[wiki/people/michael-gottlieb.md|Michael Gottlieb]]=Senior VP Game Design / [[wiki/people/mikhail-perelman.md|Mikhail Perelman]]=Procurement Manager (the "retrofit Misha"). Resolve by context; queue if none."
-source-count: 12
+source-count: 14
 open-commitments: 3
 open-questions: 2
 ---
@@ -62,6 +62,12 @@ At the [[wiki/meetings/2026-09-14-hardware-priorities-tito-case-and-street-cabin
 
 - [ ] Mikhail Perelman — push the RK3576 delivery to Minsk (2 samples, ~$300 plus ~$65 freight) — due urgently. *(Val names him as the person who controls it; the transcript does not record the instruction being given to him or accepted, and the derived notes flag the same gap.)* — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]] [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 
+## Sept 23 2026 (11:05 AM) — named on the morning alignment call
+
+On the [[wiki/meetings/2026-09-23-texas-flex-slim-release-street-cabinet-and-bom-source-of-truth.md|Sept-23 Val–Genadi call]], Genadi said he did not see Mikhail moving on the Georgia order and asked whether Val had told him to wait. Val said no: Mikhail had issued many purchase orders ("прочих сордеров"), which Val signed, but Val is managing cash. He wants the suppliers' terms negotiated so that the release or the payment can move, because "там везде стоит предоплата". He said he would try to sit with Mikhail that day and go through the signed orders to decide what to pay. *(That the 1:02 PM walkthrough below is that meeting is an inference.)* [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+
+**§15.8:** Val's remarks on this call about how Mikhail deals with suppliers are a personal performance judgement and are **withheld**.
+
 ## Sept 23 2026 — the open purchase-order walkthrough: who gets paid now
 
 On the [[wiki/meetings/2026-09-23-open-purchase-order-payment-walkthrough.md|Sept-23 1:02 PM call]] Val and Misha went down the file of open purchase orders, vendor by vendor, with [[wiki/people/genadi-peari.md|Genadi]] joining in. Val's aim was triage, not an audit: "Я пытаюсь найти меньше работы для себя." Misha: "Я тоже так хочу." Vendor names and figures below are as spoken; the transcript garbles many of them [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]].
@@ -91,6 +97,10 @@ On the [[wiki/meetings/2026-09-23-open-purchase-order-payment-walkthrough.md|Sep
 - General Touch PO 446 (100 touchscreens, $6,700, no stock, unsigned a long time): pay now, fly part, or hold? The talk moved to weight and packaging and did not come back to it. — [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]]
 - Part 346 runs out after October (87 on hand). No reorder was stated. — [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]]
 
+## Sept 24 2026 — named on the BOM and modem items (inference)
+
+On the [[wiki/meetings/2026-09-24-hardware-repo-bom-source-of-truth-and-street-cabinet-layout.md|Sept-24 4:38 PM alignment call]], [[wiki/people/genadi-peari.md|Genadi]] named "Mikhail" among the people who use his part-number Excel ("for Felipe, sales people, Lev, Mikhail") and among those who can mark a new revision in BC ("или Михаил или я"). He also said "Misha" had bought a small number of LTE modules, which are now hard to buy locally (count garbled). All three mentions are read as Mikhail Perelman by the procurement/parts context — inference. [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]]
@@ -105,3 +115,5 @@ On the [[wiki/meetings/2026-09-23-open-purchase-order-payment-walkthrough.md|Sep
 - [[raw/procurement_production_relocation-july-3-2025.md]]
 - [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
+- [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+- [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]

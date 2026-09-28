@@ -3,9 +3,9 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, eighty percent of the general functionality, requirements are step two, a hole automated tests will not cover, acceptance criteria in general terms, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction, Figma to React, Vite, Claude Code review loop, acceptance criteria, two test warehouses, frozen test cases, test harness, test registry, no E2E tests for MVP 1, E2E micro-step, telnet hook test, 60 to 70 percent acceptance criteria, symlink to dev null, eight connection tests, money-crediting autotest]
-source-count: 44
-open-commitments: 19
-open-questions: 7
+source-count: 46
+open-commitments: 22
+open-questions: 6
 ---
 
 # Test-automation strategy and testing architecture
@@ -449,7 +449,7 @@ At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexp
 
 ### Open questions (Sept 22 2026)
 
-- What the status after In Progress is called, and whether there is one or two — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
+- ~~What the status after In Progress is called, and whether there is one or two~~ — **answered Sept 24 2026:** one status, Req Review — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]] — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
 - How to group capabilities so one flow can be laid against one test plan (Chudinov could not see how) — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
 
 ## Sept 22 2026 (8:01 AM) — no end-to-end tests exist for MVP 1, and Val asks for one by tomorrow
@@ -513,6 +513,38 @@ At the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-au
 - [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — create the autotest features under the MVP 1 capabilities — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — raise a task for Anton to copy the FlexPay emulator for Flex IQ ("пару дней наверно") — due unspecified — [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
 
+## Sept 24 2026 — the status after In Progress gets a name, and who checks before Closed is still open
+
+At the [[wiki/meetings/2026-09-24-daily-standup-firmware-delivery-and-capability-statuses.md|Sept-24 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]:
+
+- **Req Review.** [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] added a Req Review status to capabilities, with an auto-rule from In Progress once all features and stories are green. This answers the Sept-22 question above. Detail on [[wiki/decisions/2026-09-11-accepted-means-reviewed-taken-into-work-is-the-move-to-to-do.md]] (Sept-24 update).
+- **Who checks.** [[wiki/people/dmitri-chudinov.md|Chudinov]] asked who checks a feature before it is Closed, and got no clear answer. Pavel: autotests, and a click-through before the capability closes. Same page.
+- **Irina's features.** "Фичи, чтобы тесты писали, создаю дальше" — she is still creating the features that tests are written against. Her Sept-23 commitment below stays open.
+- **Khamin.** Mostly autotests; he waits for an API. The screens had changed but the project docs had not, "Поэтому клод сразу ну не понимал, что происходит. Оказывается, просто доки устарели прозу" — the "prose" docs, JVL's own term (**inference**; see [[wiki/topics/github-release-management-pipeline.md]]). Pavel: a hook on each pull request regenerates the prose, and it had already found and rewritten a mismatch once — "возможно, что это нам поможет?"
+- **Ivan gets write access.** [[wiki/people/ivan.md|Ivan]], also on autotests, said he has no rights and probably does not want write access to the repository. [[wiki/people/irina-shishko.md|Irina]]: "Ты будешь записывать, поэтому права ты получишь, и это не обсуждается." Kovalchuk needs to be told where. Ivan: "Пока что на флек спортном 9"; Irina: "просто фликспорт".
+
+### Open commitments (Sept 24 2026)
+
+- [ ] [[wiki/people/ivan.md|Ivan]] — tell Kovalchuk which repository needs write access (the Flex-Port one), and take the rights — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
+
+## Sept 24 2026 (8:01 AM) — a test API on the terminal, test hooks only in debug, and "extremely important"
+
+On the [[wiki/meetings/2026-09-24-transactional-mvp1-flexport-money-loss-bugs-and-release-date.md|Sept-24 8:01 AM MVP 1 call]] (Russian), three hours after the stand-up above [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]:
+
+- **Features per capability.** [[wiki/people/irina-shishko.md|Irina]] creates the autotest features capability by capability and expects to finish "[с]егодня, завтра"; then they are planned and taken one by one. "[К]ополлити 24 штуки на каждое по 45 фич" — 4–5 or 45 per capability, **unclear**. Ivan and Khamin pick up the next feature when they finish the current one.
+- **Unattended tests.** [[wiki/people/alexei-khamin.md|Khamin]] found a way for tests to run with no person, which needs a test API on the terminal — [[wiki/people/dmitri-chudinov.md|Chudinov]]'s task "Фик фик 56", "В работе". Pavel noticed Chudinov had set end dates but no start dates in the plan. The rest of the test — connecting to the Flex-Port, reading its screen state, checking the machine balance — already exists. Khamin expects his tooling that day and to fill in tests the next.
+- **Claude writes, the test runs alone.** Val asked whether Khamin uses Claude. Khamin: "Конечно, пишу [с] клодом, но… с тем условием, чтобы тесты проходили без его [участия]". Irina: "Он пишет, но… тесты сами запускаются." The test "должен всё уже хранить в себе" and not ask Claude for anything.
+- **Val: "это экстрим и импортный для нас… Всем сконцентрироваться на этом. Включая Андрей климович".** His case: a device returns from the field and an end-to-end test shows where the problem most likely sits.
+- **Hooks exist only in debug.** Pavel: "все эти хуки, они будут доступны только для нашего дебаг окружения… Большинство хуков будут закрыты, потому что они являются дырами." Val agreed, then floated enabling hooks remotely for a technician in the field — "Конечно, это не [MVP] один может быть даже не мвпи 3." [[wiki/people/andrey-bosik.md|Bosik]]: "Вообще так делать нельзя, а если я в сговоре с ним и я отсюда удалённо включил эти куки, а он оттуда деньги снял." Chudinov: "Для продакшн… такие вещи запрещены." Val: with a special key, then? Pavel: "надо продумать. Как защитить девайс от себя же?" Val: "Согласен."
+- **The integration repository.** Tests span Flex-Port and Flex IQ, so they live in the integration repository, which Bosik says was built for scripts and CI that check how devices interact. Whether a matching Jira project exists nobody could say. Bosik takes the set-up; see [[wiki/decisions/2026-09-04-point-claude-at-the-standards-repository-first.md]] (Sept-24 update).
+- **Ivan's work.** [[wiki/people/ivan.md|Ivan]]'s yesterday's manual cases are fixed with commits into the firmware. He checks Flex-Port-to-machine connections against a 20-second budget ("бюджет там в 20 секунд… если мы там не вкладываемся, то он должен упасть") and wants to add negative cases by unplugging. The log records every step. It was only on his computer — which drew Val's commit rule, on [[wiki/decisions/2026-09-14-main-branch-must-always-build-and-the-code-belongs-to-the-project.md]] (Sept-24 update). He named a task "Fort 47" (garbled; not resolved).
+- **Timing.** Val asked when a large share of exceptions would be covered. Irina: counted in weeks; Val: "максимум 4 недели, правильно?" — she agreed. Irina: an October-1 release "будет 50 на 50" on coverage. The date stayed October 1; see [[wiki/decisions/2026-09-09-first-transactional-installation-planned-for-october-1.md]] (Sept-24 update).
+
+### Open commitments (Sept 24 2026, 8:01 AM)
+
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — finish the terminal test API (task "56") so autotests run with no person — due Sept 24 2026 (as he said it) — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — finish the test tooling, then start filling in tests — due Sept 25 2026 — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
@@ -559,3 +591,5 @@ At the [[wiki/meetings/2026-09-23-transactional-mvp1-requirements-cleanup-and-au
 - [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
