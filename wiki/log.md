@@ -5384,3 +5384,6 @@ Lint only diagnosed; content pages were not edited by lint (one wrong link in th
 
 ## [2026-10-05] note | weekly report written — steady-state run of 2026-10-05 complete
 `reports/weekly-report-latest.md` overwritten (plain prose for the owner). Run summary: 33 recordings / 24 meeting events / 66 raws / 250 of 250 facts verified / 27 decisions, 1 person, 2 projects created / September 2026 closed. Bonus email attempted via the authenticated Outlook MCP to val@jvl.ca (§17.1, the one authorized autonomous send). GitHub push outstanding (owner action). Lock removed at clean end.
+
+## [2026-10-05] note | GitHub history replaced — the owner ran the lease-guarded force push
+Val ran `git push --force-with-lease=main:aad7fb4 origin main` from his terminal: `+ aad7fb4...4e6839b main -> main (forced update)`. GitHub now carries the purged history (owner ruling 2026-09-28) plus the 2026-10-05 run. Owner Decisions item A8 closed. Normal pushes work again from here.
