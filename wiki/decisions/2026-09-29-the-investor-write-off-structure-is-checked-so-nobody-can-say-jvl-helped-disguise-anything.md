@@ -3,15 +3,17 @@ type: decision
 title: The investor write-off structure gets checked by Litwack's US people so nobody can say JVL helped disguise anything
 date: 2026-09-29
 aliases: [nobody in the IRS can say you helped them disguise something, structure it better, the tax write-off is for him not for me, look at it enough, accused of participating, US people review of the write-off, write-off model compliance check]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 2
-open-questions: 0
+open-questions: 1
 ---
 
 # The write-off structure gets checked so nobody can say JVL helped disguise anything (Sept 29 2026)
 
 Advised by [[wiki/people/alan.md|Alan Litwack]] and accepted by [[wiki/people/val-levitan.md|Val Levitan]] ("Okay, understood") on the second segment of the [[wiki/meetings/2026-09-29-litwack-capital-call-letter-and-transactional-equipment-write-off-model.md|Sept-29 call]]. Quotations from [[raw/Meeting_Transcript_Alan_Litwack_Transactional_Equipment_Tax_Write_Off_Model-September-29-2026.md]].
+
+**Status note (Sept 30 2026):** the model Litwack was to have checked — a write-off on the $15,000 retail price for $4,000 paid, with the balance owed over time — was **dropped the next morning**: the investor side now buys at the real $4,000 invoice with no note, in one JV entity with a special allocation of depreciation ([[wiki/decisions/2026-09-30-one-jv-entity-a-florida-llc-50-50-with-a-special-allocation-of-depreciation-and-jvl-invoices-the-real-4000.md]]). The principle of this ruling (JVL must not be seen to help disguise anything) stands; what, if anything, Litwack's US people still need to look at is not said on the Sept-30 tape [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]].
 
 ## The model being checked
 
@@ -36,8 +38,13 @@ The derived notes record the same decision ("The structure must be checked enoug
 - [ ] Val Levitan — explain the write-off model to Alan Litwack in more detail ("stay tuned"; the "financial engineering" he wants help with) — due unspecified — [[raw/Meeting_Transcript_Alan_Litwack_Transactional_Equipment_Tax_Write_Off_Model-September-29-2026.md]]
 - [ ] Alan Litwack — have his US people look at how the write-off works, enough to protect JVL — due unspecified — [[raw/Meeting_Transcript_Alan_Litwack_Transactional_Equipment_Tax_Write_Off_Model-September-29-2026.md]]
 
+## Open questions
+
+- Is the Litwack check still needed now that JVL invoices the real $4,000 and the depreciation sits in a special allocation inside the JV? Not addressed on Sept 30 — [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]]
+
 **§15.8:** clear — deal economics only. The investor is not named on the tape and is not named here. **§15 #9:** none.
 
 ## Sources
 - [[raw/Meeting_Notes_Alan_Litwack_Transactional_Equipment_Tax_Write_Off_Model-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Alan_Litwack_Transactional_Equipment_Tax_Write_Off_Model-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]]

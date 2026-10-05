@@ -3,8 +3,8 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, eighty percent of the general functionality, requirements are step two, a hole automated tests will not cover, acceptance criteria in general terms, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction, Figma to React, Vite, Claude Code review loop, acceptance criteria, two test warehouses, frozen test cases, test harness, test registry, no E2E tests for MVP 1, E2E micro-step, telnet hook test, 60 to 70 percent acceptance criteria, symlink to dev null, eight connection tests, money-crediting autotest]
-source-count: 54
-open-commitments: 30
+source-count: 56
+open-commitments: 31
 open-questions: 6
 ---
 
@@ -623,7 +623,7 @@ At the [[wiki/meetings/2026-09-29-daily-standup-firmware-reissue-and-modem-gatew
 
 - [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — close two bug tasks and item 601 — due Sept 29 2026 — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 - [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — add the delay / hang cases to the EGM emulator as a separate tab or panel — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
-- [ ] [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] — start on the autotests with TINT-41, in the integration repository — due started Sept 29 2026 — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+- [x] [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] — start on the autotests with TINT-41, in the integration repository — due started Sept 29 2026 — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]] — **discharged Sept 30 2026:** "Я сделал этот 41 задачу" — written, with about three defects filed; the task itself goes to Blocked — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 
 ## Sept 29 2026 (8:06 AM) — Vladimir started that day, Irina sets up her own environment, and the test tasks' end dates are stale
 
@@ -647,8 +647,30 @@ At the [[wiki/meetings/2026-09-29-dev-environments-rk3568-sdk-amd-spike-and-ai-p
 
 **§15.8:** clear — tooling. **§15 #9:** none.
 
+## Sept 30 2026 (4:57 AM) — Ivan's remaining tests, Vladimir's first autotest task goes to Blocked, and "take any unassigned task"
+
+At the [[wiki/meetings/2026-09-30-daily-standup-flexport-firmware-delivery-and-network-loss.md|Sept-30 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]:
+
+- **[[wiki/people/ivan.md|Ivan]]'s remaining tests.** "самый основной тест, который остался": the one where the machine pulls its installation from the production server — "С прод с продсервером и должны были вытягивать инсталляцию и при этом… как тогда будет вести себя поиск прогресса в контроллер" (read as the progressive controller — **inference**) — then "подключаю отдельную сеть", the network tests on a separate network. On Eclipse: "Ждём пока моего ответа я сразу договариваюсь с Алексом" — he waits for an answer, then arranges with "Алекс" (**not resolved**); what the Eclipse item is, is not said. His network-loss question is on [[wiki/decisions/2026-09-24-a-flex-port-that-dies-holding-money-sends-it-to-unclaimed-and-one-without-a-gateway-goes-out-of-service.md]] (Sept-30 update).
+- **[[wiki/people/vladimir-samusenko.md|Vladimir]]'s task 41.** Written; "3 или сколькото дефектов и несколько задач на… доработку" filed and linked; he cannot pass every scenario, so it goes to **Blocked**, not closed, and is raised at the next meeting; next he picks the task closest to ready (probably 148) and moves its dates — [[wiki/decisions/2026-09-30-an-autotest-task-that-cannot-finish-goes-to-blocked-not-closed.md]]. His measure of readiness: in some tasks "из 10 4 сценария я не могу пройти", in others "из 18 2 сценария я могу пройти".
+- **[[wiki/people/irina-shishko.md|Irina]]'s rule.** "ты можешь выбирать любую задачу из тех, которые на ванне алёша… так как я сейчас делаю. То есть на мне нет задач, но я просто их… нашла. Забрала" — any unassigned task on Ivan or Khamin may be taken, as she does herself.
+- **The SAS-link checkbox.** [[wiki/people/evgeny-kharetski.md|Kharetski]] pointed out the checkbox that shows a fault when the SAS link is down; Ivan does not set it — nobody asked for it. Open on the Sept-24 decision page.
+
+### Open commitments (Sept 30 2026, 4:57 AM)
+
+- [ ] [[wiki/people/ivan.md|Ivan]] — run the production-server install test with the progressive-controller behaviour, then the network tests on a separate network — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- [ ] [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] — set task 41 to Blocked with the defects linked, raise it at the next meeting, and pick the next task closest to ready (probably 148), moving its dates — due Sept 30 2026 — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+
+## Sept 30 2026 (8:03 AM) — "неплохо": everyone writes, tests pass, receipts pile up, and one Flex IQ is shared
+
+At the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-modem-supply.md|Sept-30 8:03 AM MVP 1 call]] (Russian) [[wiki/people/irina-shishko.md|Irina]], "чисто поставить в известность": "с тестами получается, на мой взгляд, неплохо. Все подтянулись, пишут… тесты проходят о напечатали целую толпу" — everyone is writing, tests pass, and a crowd of receipts has been printed. [[wiki/people/pavel.md|Pavel]]: "Надо у вас отобрать принтеры… скоро бумага закончится, пользуйте эмуляторы." Irina: "не эмуляторы нужны, потому что не очень удобно. Мы просто вот сейчас айкью делим… остальные ждут, потому что всётаки IQ нужен" — the testers share one Flex IQ. Pavel: a second Flex IQ as bare boards is enough for tests; the boards and a couple more arriving are on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 30, 8:03 AM). No new finish date was given — her Sept-28 re-judging commitment on [[wiki/decisions/2026-09-28-october-15-replaces-october-1-as-the-mvp1-date.md]] stays open [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]].
+
+**§15.8:** clear — work status. **§15 #9:** none.
+
 ## Sources
 - [[raw/Meeting_Transcript_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 
 - [[raw/Meeting_Notes_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
 - [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]

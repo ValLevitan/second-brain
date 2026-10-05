@@ -3,7 +3,7 @@ type: topic
 title: GitHub release management and the CI/CD release pipeline
 date: 2025-10-21
 aliases: [release management, release pipeline, CI/CD, GitHub Actions pipeline, release artifacts, ISO image release, release manager role, continuous delivery, flex os installer, manifest, release candidate, single source of truth, feature branch discipline, sprints vs kanban, Jira GitHub link, FlexPos IP 902, FP 519, IP 89 dashboard grooming, bulk archive automation, Jira resolutions cleanup, Flex-POS Transition to Production, alpha build release tracking, knowledge repository, prose pending folder, prose merge action, docs contracts folder, integration repository, Knowledge Base repository, Standards folder, 39 accesses, hardware GitHub standard, hardware-components repo, hardware-manufacturing repo, BOM sync robot, category first manufacturer second]
-source-count: 102
+source-count: 105
 open-commitments: 1
 open-questions: 10
 ---
@@ -788,8 +788,33 @@ At the [[wiki/meetings/2026-09-29-daily-standup-firmware-reissue-and-modem-gatew
 
 **§15.8:** clear — release mechanics only. **§15 #9:** none; version numbers are work references.
 
+## Sept 30 2026 — one flat list of parts in GitHub, part numbers from the "standards" repo, and a build-script bridge to MSBC
+
+On the [[wiki/meetings/2026-09-30-github-to-msbc-bom-flat-list-bridge.md|Sept-30 10:00 AM GitHub_to_MSBC_BOM_Integration meeting]] (English; Val, Genadi, Nathan Carver, Lev Rudky) the GitHub side of the hardware thread moved three ways [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]:
+
+- **The GitHub artifact is one flat list.** "Github has a list, one flat list of everything either designed by you that comes out from SolidWorks or comes out from a supplier which you spec, which you approved, which a supplier must. Provide the drawing for… if there are revision, then it gets substituted into revision… a flat list is kept in Github." Genadi: "Great." The Sept-24 "each module gets one plain text file" was not repeated; whether the flat list is one file or many is not said. Grouping into assemblies happens in MSBC — contested: [[wiki/decisions/2026-09-23-the-bom-source-of-truth-is-the-latest-design-in-github-and-sync-runs-one-way.md]] (Sept-30 update).
+- **The part-number standard lives in the standards repo, and Claude applies it.** "We have a standard of creating parts, part numbers. That is written in Github, in the knowledge base, in the repo that is called standards. So. Claude looks at the standards and gives it a part number" — pushed to MSBC "only for the first time. When that part is created, it's done." This changes the Aug-12 "BC assigns numbers, GitHub assigns meaning" (evolution, not reconciled on tape). Ruling: [[wiki/decisions/2026-09-30-a-new-part-number-is-assigned-by-claude-from-the-standard-in-github-and-pushed-to-msbc-once.md]].
+- **The bridge is a build.** Nathan: "these are similar to a… Build script. your whatever structure is needed to maintain. That within Github and then have a build that translates that into a data structure that can be pushed to Msbc… there may be a middle step that is automated." And: "the more it's following a convention or a standard for how those files are written, the easier it will be for an automated process to read them… ensuring that everything is built consistently. So the reader… can read consistent data." Val's name for it: "a transcriber… a tool that looks after the revisions all the time, flat revisions… It could be hourly, it could be by minute" — see [[wiki/decisions/2026-09-30-engineers-never-change-msbc-and-administration-never-changes-github.md]].
+- **Who may touch what.** "The administrator is never allowed to change anything in Github" — the mirror of "Engineers are never allowed. To change anything in Msbc." Same decision page.
+
+Nathan will experiment in phases (items first) in the development MSBC instances. **§15.8:** clear. **§15 #9:** none.
+
+## Sept 30 2026 (11:07 AM) — Val walks Efim through the repo standards; topic words only
+
+An hour later Val gave [[wiki/people/efim-podvoiski.md|Efim Podvoiski]] — owner of the RGS / maths-engine codebase — a 13-minute walkthrough of the repo standards ([[wiki/meetings/2026-09-30-repo-standards-walkthrough-with-efim.md]]). The recording is near-unreadable (Russian speech transcribed as English, per the notes [[raw/Meeting_Notes_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]), so only the subjects Val named can be set against this page's thread [[raw/Meeting_Transcript_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]:
+
+- "repo standards" / "standards, material" / "it's for GitHub" — the standards material (Sept 3–4 above).
+- "repository organ zone [organisation], repository, zero trust, custom repository is data contract repository" — repository structure, the zero-trust model (Apr 17 and Jun 1 above) and the contracts reference (`docs/contracts`, Sept 3 above). Which repository "data contract repository" means is **unclear**.
+- "ADRs" (ADRs in docs, Sept 24 above) · "discussion" · "Pull request pull request" · "Claude Reviewer is to cache the pull request" — a Claude reviewer on pull requests; the verb is **unclear** (the notes read "checks") · "Local computer".
+- "commit… lines of code" · "Proser [prose — **inference**] defines standard, but the most of principle, but not defined" — sense not recoverable.
+
+Efim's side gives "Repository mass engine… data contract. But the robot is Nova" and "Excel file… result of the test of mathematics" — the maths-engine repository, a data contract, NOVA, and an Excel file of maths test results; nothing about their state is readable. No ruling, no undertaking. **§15.8:** clear (Val's opening remark on how Efim is doing has no readable subject and is held). **§15 #9:** none.
+
 ## Sources
 
+- [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]
+- [[raw/Meeting_Notes_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 - [[raw/Meeting_Notes_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]

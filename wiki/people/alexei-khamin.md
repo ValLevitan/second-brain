@@ -3,8 +3,8 @@ type: person
 title: Alexei Khamin
 date: 2025-04-22
 aliases: [Alexei Khamin, Aliaksey Khamin, Alexey Khamin, Khamin, Хамин, Khanin, Ханин, Kamin, Alexey Kamin, Lyosha, Лёша]
-source-count: 26
-open-commitments: 13
+source-count: 27
+open-commitments: 12
 ---
 
 # Alexei Khamin
@@ -183,9 +183,14 @@ On the [[wiki/meetings/2026-09-29-transactional-mvp1-setup-instructions-and-mikr
 
 ## Open commitments (Sept 29 2026, 8:06 AM)
 
-- [ ] Alexei Khamin — tell Ivan where the old Flex-Port flashing instruction is, and update it to the current state in the same style, in Confluence — due unspecified ("займусь параллельно") — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+- [x] Alexei Khamin — tell Ivan where the old Flex-Port flashing instruction is, and update it to the current state in the same style, in Confluence — due unspecified ("займусь параллельно") — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]] — **discharged Sept 30 2026:** Klimovich: "Алексей сегодня добавил, прислал ссылку" — the updated Flex-Port instruction is in Confluence — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
+
+## Sept 30 2026 (8:03 AM) — the Flex-Port instruction is in; "a separate product", so its folder goes up a level
+
+On the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-modem-supply.md|Sept-30 8:03 AM MVP 1 call]] (Russian; label "Alexey Khamin") his updated Flex-Port instruction was on screen, inside the FlexPay technical space. His point: "она должна располагаться… на одном уровне с [FlexPay] и [Flex IQ]. [Э]то отдельный продукт все таки" — Klimovich agreed to move it up. He too saw "С картинками проблема" in Ivan's instruction. He is one of the four Pavel named for Elizabeth's chat ("Лёшу"). See [[wiki/topics/docs-as-code-and-atlassian-exit.md]] (Sept 30) and [[wiki/decisions/2026-09-30-elizabeths-georgia-set-up-questions-go-to-a-shared-teams-chat-not-one-person.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]. His Sept-29 EGM-emulator and bug-task commitments were not mentioned.
 
 ## Sources
+- [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 

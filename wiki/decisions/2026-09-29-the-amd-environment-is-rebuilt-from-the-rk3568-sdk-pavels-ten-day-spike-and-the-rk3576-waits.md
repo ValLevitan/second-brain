@@ -3,7 +3,7 @@ type: decision
 title: The AMD development environment is rebuilt from the RK3568 SDK as a skeleton — Pavel takes the spike himself, MVP 1 is kernel, root file system, installer and bootloader, ten days with a review on the 8th; the RK3576 waits until the two environments are standardised; RK and AMD stay separate repositories
 date: 2026-09-29
 aliases: [AMD SDK spike, x86 SDK from the RK3568 skeleton, standardise the two development environments first, RK3576 after standardisation, RK and AMD separate repositories, dev environment MVP 1 kernel rootfs installer bootloader, ten days review on the 8th, Dev_environments decision, скелет для AMD процессора, спайк перенести SDK в новый репозиторий, сначала стандартизировать между двумя девелопментами, 95% репозиторий такой же, прошивать проводом]
-source-count: 4
+source-count: 6
 status: active
 open-commitments: 2
 open-questions: 3
@@ -47,7 +47,7 @@ Val: "У нас как бы получается 2 дега за сегодня,
 
 ## Open commitments
 
-- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — the spike: move the RK3568 SDK into a new repository and adapt it for AMD processors; MVP 1 = kernel, root file system, installer and bootloader builds; about 80 % expected in the first week — due in ten days, review "8 числа" (Oct 8 2026 by context) — [[raw/Meeting_Transcript_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]] [[raw/Meeting_Notes_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — the spike: move the RK3568 SDK into a new repository and adapt it for AMD processors; MVP 1 = kernel, root file system, installer and bootloader builds; about 80 % expected in the first week — due in ten days, review "8 числа" (Oct 8 2026 by context) — [[raw/Meeting_Transcript_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]] [[raw/Meeting_Notes_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]] — *Sept 30 2026: taken into work — at the Minsk stand-up Pavel: "я взял а ц т 57 80… [SDK] платформы для… [процессора], то есть для нового… [н]овой материнской платы сделать [SDK]. Полноценная, чтобы собиралось все и [kernel и] файловая система" (the task key and "AMD" are the derived notes' readings; the processor word is garbled on tape)* — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]] [[raw/Meeting_Notes_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [ ] [[wiki/people/val-levitan.md|Val Levitan]] — book the follow-up meeting on the development environments for the 8th — due Oct 8 2026 (by context) — [[raw/Meeting_Transcript_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]]
 
 ## Open questions
@@ -63,3 +63,5 @@ Val: "У нас как бы получается 2 дега за сегодня,
 - [[raw/Meeting_Transcript_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]]
 - [[raw/Meeting_Notes_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]

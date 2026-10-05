@@ -3,7 +3,7 @@ type: person
 title: Vladimir Samusenko
 date: 2026-02-04
 aliases: [Vladimir Samusenko, Vladimir, Vlad, Владимир, Самусенко]
-source-count: 22
+source-count: 23
 open-commitments: 10
 ---
 
@@ -133,13 +133,26 @@ At the [[wiki/meetings/2026-09-29-daily-standup-firmware-reissue-and-modem-gatew
 
 ## Open commitments (Sept 29 2026)
 
-- [ ] Vladimir Samusenko — start on the autotests with TINT-41 in the integration repository — due started Sept 29 2026 — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+- [x] Vladimir Samusenko — start on the autotests with TINT-41 in the integration repository — due started Sept 29 2026 — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]] — **discharged Sept 30 2026:** "Я сделал этот 41 задачу" — written, about three defects filed; the task goes to Blocked — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 
 ## Sept 29 2026 (8:06 AM, in absentia) — "he started working today"
 
 On the [[wiki/meetings/2026-09-29-transactional-mvp1-setup-instructions-and-mikrotik-router.md|Sept-29 8:06 AM MVP 1 call]] (Russian; he was not present) Irina reported: "мы подтянули Владимира, он начал работать уже сегодня… он уже там вник[ает]… [н]ачинает писать, ну будут ещё с его стороны вопросы" — a day earlier than the "со среды" of Sept 28; consistent with his own stand-up report above. Matched to this page by context (autotests) [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]. See [[wiki/topics/test-automation-strategy.md]] (Sept 29, 8:06 AM).
 
+## Sept 30 2026 — task 41 done as far as the defects allow; it goes to Blocked; the next task is the one closest to ready
+
+At the [[wiki/meetings/2026-09-30-daily-standup-flexport-firmware-delivery-and-network-loss.md|Sept-30 Minsk stand-up]] (Russian; speaker label) [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]:
+
+- **What he did.** "Я сделал этот 41 задачу с [экспайдная примешен]" ("expired permission" is a reading); "[з]авёл… по результатам выполнения там 3 или сколькото дефектов и несколько задач на… доработку". He linked the blocking tasks and left a comment.
+- **His question.** "фактически я её не закончил, потому что… не могу сделать для всех сценариев сейчас"; and the unfinished autotest branch — "через пару дней мне начнут писать эти письма о том, что… у вас там бранч висит". "Как поступать с такими задачами?"
+- **The answer.** Pavel: Blocked, raised at the next meeting; next, the task "более в готовом состоянии" (he thinks "один 48"), with dates moved; Irina: any unassigned task on Ivan or Khamin can be taken. His readiness measure: some tasks "из 10 4 сценария я не могу пройти", others "из 18 2 сценария я могу пройти". "Тогда окей, будем считать с этим закончил и возьму следующий." See [[wiki/decisions/2026-09-30-an-autotest-task-that-cannot-finish-goes-to-blocked-not-closed.md]] and [[wiki/topics/test-automation-strategy.md]] (Sept 30, 4:57 AM).
+
+## Open commitments (Sept 30 2026)
+
+- [ ] Vladimir Samusenko — set task 41 to Blocked with the defects linked, raise it at the next meeting, and pick the next autotest task closest to ready (probably 148), moving its dates — due Sept 30 2026 — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 

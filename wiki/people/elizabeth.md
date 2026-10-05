@@ -3,8 +3,8 @@ type: person
 title: Elizabeth
 date: 2025-04-28
 aliases: [Elizabeth, Elizabeth Palomino, Элизабет]
-source-count: 22
-open-commitments: 3
+source-count: 24
+open-commitments: 4
 disambiguation: "JVL engineering technician (full engineer by degree) handling Georgia service/parts; ex-Colombian-operation technician; Spanish-speaking. Surname Palomino (per the Jun-11-2026 passport/dsKey source). Distinct from Eliana, the Colombian EDS principal (wiki/people/eliana.md)."
 ---
 
@@ -97,8 +97,22 @@ On the [[wiki/meetings/2026-09-29-transactional-mvp1-setup-instructions-and-mikr
 - **Dashboard access.** Chudinov: "Мы проверили вчера с Сергеем у Элизабет доступ, и она увидит вкладку апдейтс" — she can see the Updates tab; the Flex IQ install instruction (none yet) will show her where to download and how to write the SD card. See [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Sept-29, 8:06 AM update).
 - **The SAS tool.** Ivan had emailed her the SAS tool zip ("кидал в почту Элизабет"); it will also be put where all JVL staff can reach it.
 
+## Sept 30 2026 (in absentia) — she starts the Georgia test set-up tomorrow, with a shared chat for her questions
+
+On the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-modem-supply.md|Sept-30 8:03 AM MVP 1 call]] (Russian; she was not present) Klimovich: with all three instructions in Confluence, "завтра… Элизабет может начать делать тестовый сетап в джорджии по всем этим мануалам" — the Flex-Port flashing (Khamin's), the machine-plus-port set-up (Ivan's) and the Flex IQ SD-card install (Chudinov's, due that day). Her questions go to a shared Teams chat with Khamin, Pavel, Chudinov and Irina, not to one person — Irina: she already writes to Irina alone, who then has to find the answers, and "Элизабет ещё пишет вечером". See [[wiki/decisions/2026-09-30-elizabeths-georgia-set-up-questions-go-to-a-shared-teams-chat-not-one-person.md]] and [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] (Sept-30 update) [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]].
+
+## Sept 30 2026 (10:00 AM, in absentia) — "you tell Elizabeth which lock goes where" (inference)
+
+On the [[wiki/meetings/2026-09-30-github-to-msbc-bom-flat-list-bridge.md|Sept-30 10:00 AM GitHub-to-MSBC meeting]] Val, to Genadi, on why the design is the only source of truth: "Nobody in manufacturing can assemble, nobody can put a lock inside of the machine without you telling them which lock, which key goes where. You specify the hole, you specify the lock, and you tell Michael which lock he orders, and you tell Elizabeth which lock goes where." "Elizabeth" is read as her by the Georgia assembly context — inference. It places her as the assembly side that works from Genadi's drawings [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]].
+
+## Open commitments (Sept 30 2026, in absentia)
+
+- [ ] Elizabeth (as stated by Klimovich) — start the test set-up in Georgia from the three instructions — due from Oct 1 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]

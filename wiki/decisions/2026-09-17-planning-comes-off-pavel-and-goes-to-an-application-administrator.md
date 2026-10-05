@@ -3,7 +3,7 @@ type: decision
 title: Planning comes off Pavel Frolov and goes to an "application administrator" — Dmitri Kovalchuk proposed, not yet agreed
 date: 2026-09-17
 aliases: [planning comes off Pavel, application administrator, аппликейщен администратор, Dima Kovalchuk administrator, Зиму Ковальчука, planning handover, полный трансперация, Pavel comes to Atlanta]
-source-count: 9
+source-count: 10
 status: active
 open-commitments: 4
 open-questions: 2
@@ -115,9 +115,15 @@ At the end of the [[wiki/meetings/2026-09-28-daily-standup-log-traffic-and-nova-
 
 At the end of the [[wiki/meetings/2026-09-29-daily-standup-firmware-reissue-and-modem-gateway.md|Sept-29 Minsk stand-up]] (Russian) [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] reported on the reports' effect: "**ребята молодцы… [з]акрывают, следят да, по крайней мере есть динамика**" — people are closing and watching their tasks; there is movement. [[wiki/people/pavel.md|Pavel]]: "я тоже вчера даже чтото там позакрывал. То, что не соответствовало" — he closed items that did not match reality — and will look at that day's reports. Kovalchuk also gave [[wiki/people/vladimir-samusenko.md|Vladimir]] access to the "тинты" repositories (the TINT test repositories, by context) [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]].
 
+## Update, Sept 30 2026 — "watch your dates and statuses", and tasks go in the repository you work in
+
+At the end of the [[wiki/meetings/2026-09-30-daily-standup-flexport-firmware-delivery-and-network-loss.md|Sept-30 Minsk stand-up]] (Russian) [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]], with "особо нечего сказать", repeated two rules: "**Смотрите за датами статусами**" and "**Задачи создавайте в тех репозиториях, в которых работаете. Имя репозитории соответствует имени [проекта]**" (the last word is garbled — "пассажире"; the project-name reading follows the Sept-25 rule that Jira project names match repository names). [[wiki/people/pavel.md|Pavel]]: "есть такое тоже надо на свои посмотреть там чтото надо поменять" — he must check his own [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]. Earlier in the same stand-up Pavel had asked Chudinov to set a start date on FIQU-86 "чтобы он не показывал левые дату старта" and had ruled that an autotest task stopped by defects goes to Blocked — [[wiki/decisions/2026-09-30-an-autotest-task-that-cannot-finish-goes-to-blocked-not-closed.md]] [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]].
+
+*(Kovalchuk running the discipline; whether it is the "application administrator" role is still an **inference**.)*
+
 ## Open commitments
 
-- [ ] All stand-up participants — keep Jira statuses true (In Progress only when work is in progress), and name the exact CAP and feature at stand-ups — due ongoing — [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
+- [ ] All stand-up participants — keep Jira statuses true (In Progress only when work is in progress), name the exact CAP and feature at stand-ups, watch dates and statuses, and create tasks in the repository they work in — due ongoing — [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]] [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] / [[wiki/people/irina-shishko.md|Irina Shishko]] — persuade [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] to come in as application administrator ("Както нужно уговорить. Это вам.") — due unspecified — [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] / [[wiki/people/irina-shishko.md|Irina Shishko]] — once he is in, sit with him on a regular cadence, record the planning conversations and hand plan administration over to him — due unspecified — [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
@@ -143,3 +149,4 @@ At the end of the [[wiki/meetings/2026-09-29-daily-standup-firmware-reissue-and-
 - [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]

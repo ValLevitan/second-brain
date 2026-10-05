@@ -4,7 +4,7 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "IT (GitHub-admin, infrastructure, secrets/Azure, AI-tool accounts) — the IT-context "Dima". Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 44
+source-count: 45
 open-commitments: 13
 open-questions: 2
 ---
@@ -258,7 +258,12 @@ At the [[wiki/meetings/2026-09-29-ai-pm-architecture-and-second-brain-plan.md|Se
 - **References.** Keeping the transcripts means the AI "сможет сослаться куда то вот здесь тогда то принято такоето решение".
 - He asked Val whether he could describe the character he wants for the AI PM.
 
+## Sept 30 2026 — "watch your dates and statuses", and tasks go in the repository you work in
+
+At the end of the [[wiki/meetings/2026-09-30-daily-standup-flexport-firmware-delivery-and-network-loss.md|Sept-30 Minsk stand-up]] (Russian): "Работать особо нечего сказать. Смотрите за датами статусами… Задачи создавайте в тех репозиториях, в которых работаете. Имя репозитории соответствует имени [проекта]" (last word garbled). Pavel: "есть такое тоже надо на свои посмотреть". See [[wiki/decisions/2026-09-17-planning-comes-off-pavel-and-goes-to-an-application-administrator.md]] (Sept-30 update) [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]].
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 - [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
 

@@ -3,10 +3,10 @@ type: decision
 title: Two lost-money bugs get simple MVP 1 rules — a Flex-Port that dies while holding money keeps the transaction and sends it to unclaimed when it comes back; a Flex-Port with no gateway link goes out of service and the money stays on the machine; what a cashier may do with unclaimed money is moved to MVP 2
 date: 2026-09-24
 aliases: [bug 349, bug 354, 349 баг, 354 бак, Flex-Port dies holding money, Flex-Port reboot money lost, power loss on the Flex-Port, quick blink, быстрый блинк, clever cashier, хитрый кассир, no gateway no collect, Flex-Port out of service without gateway, cashier redirect of unclaimed money, unclaimed handling MVP 2, nearest wallet matching, PIN-bound wallet idea]
-source-count: 2
+source-count: 4
 status: active
 open-commitments: 2
-open-questions: 2
+open-questions: 4
 ---
 
 # Two lost-money bugs get simple MVP 1 rules
@@ -50,6 +50,24 @@ Ruled on the [[wiki/meetings/2026-09-24-transactional-mvp1-flexport-money-loss-b
 
 **How this sits with earlier rulings.** It keeps Val's Sept-15 rule that the player never loses the money and that unclaimed handling is not MVP 1 ([[wiki/decisions/2026-09-15-a-timeout-sends-the-money-to-unclaimed-and-the-player-never-loses-it.md]], Sept-24 update). The 30-second collect wait is [[wiki/decisions/2026-09-16-the-mvp1-timing-numbers-two-hundred-milliseconds-and-thirty-seconds.md]]; it was questioned, not changed.
 
+## Update, Sept 30 2026 — Ivan reads the network-loss behaviour back for his tests; Pavel confirms "an error is better than unclaimed"; the no-bill-validator case and the SAS-link checkbox stay open
+
+At the [[wiki/meetings/2026-09-30-daily-standup-flexport-firmware-delivery-and-network-loss.md|Sept-30 Minsk stand-up]] (Russian) [[wiki/people/ivan.md|Ivan]] asked, "для теста", what a machine does when the Flex-Port loses its network [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]:
+
+- **Ivan's reading.** "машина ж не упадет в [тилт], она просто будет говорить, что коллект можно сделать. Ты жмёшь [коллект], но она упадёт дальше в ошибку, потому что нет, [нет] куда вывезти… И там у нас есть [ретрай], и если вдруг… сеть восстановятся, то будет [ретрай] и мы сможем [довести], если [нет] — всё на машине осталось." Pavel: "Да, я думаю что так." He meant the local network ("Я говорю про локальную сеть"), not SAS.
+- **Pavel's reason.** The current behaviour — "На данный момент выдается ошибка" (Ivan) — is right: "**Это лучше, чем передать на порт. На порте пройдёт 30 секунд таймаута, и они потом пометятся как [unclaimed]. И при следующем коллекции они придут как [unclaimed]**." The 30-second wait is the one on [[wiki/decisions/2026-09-16-the-mvp1-timing-numbers-two-hundred-milliseconds-and-thirty-seconds.md]].
+- **The key unknown is a third-party machine.** Pavel: "тут будет ключевой момент с чужой машиной, как себе чужая машина ведёт" — the Sept-9 rule on [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]].
+- **Two channels.** Ivan: the Flex-Port "общается по 2 каналам, один из интернет 2 ну сас линг назовём его так"; if the port has no connection it "будет аутосервис" — [[wiki/people/irina-shishko.md|Irina]]: "Порт будет ауто сервис" — the Bug-354 rule above. [[wiki/people/dmitri-chudinov.md|Chudinov]] asked whether a port "должен принять деньги. Даже если он в [out of service]?" — Pavel: with no network the port reports an error; it cannot.
+- **Irina's case: no bill validator.** "Есть ли порт потерял связь с айкю… [о]н становится… [out of service]… Машина продолжает играть, потому что можно бросить деньги через билвалидатор, но если нет бил валидатора, то тогда и машина тоже должна блокироваться." Ivan: "я пока даже не смотрел ситуацию, что нету [bill validator]"; Irina: for now there should be one. Pavel doubted it: "Мы как бы рассчитываем на то, что если пропадает связь, то она не навсегда… И зачем на этот короткое время машину блокировать?" Irina: "я же говорю, что машина продолжает работать." Not settled.
+- **The SAS-link checkbox.** [[wiki/people/evgeny-kharetski.md|Kharetski]]: there is "галочка… [п]оказывает [fault], если [SAS] линк даун". Ivan: "я не ставлю ее пока специально… никто не говорил, что нужно её ставить." Kharetski: "никто не говорил, но никто не запрещает ей ставить." Not settled.
+
+The derived notes record the same exchange and list the three open points [[raw/Meeting_Notes_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]. Against the rules above: Bug 354's "no gateway link → out of service, money stays on the machine" is confirmed as the behaviour the tests expect; nothing is changed.
+
+### Open questions (Sept 30 2026)
+
+- Should a machine with **no bill validator** lock when its Flex-Port is out of service? Irina: yes; Pavel: a short outage is expected, why lock — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- Should the "fault if SAS link down" checkbox be set? Nobody has asked for it; nobody forbids it — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+
 ## Open commitments
 
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — add the two logic changes from bugs 349 and 354 to the MVP 1 requirements — due Sept 24 2026 ("2 изменения, которые будут добавлены сегодня") — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
@@ -67,3 +85,5 @@ Ruled on the [[wiki/meetings/2026-09-24-transactional-mvp1-flexport-money-loss-b
 ## Sources
 - [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
 - [[raw/Meeting_Notes_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]

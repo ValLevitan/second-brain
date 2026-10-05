@@ -3,7 +3,7 @@ type: organization
 title: Eclipse (gaming test lab)
 date: 2025-03-14
 aliases: [Eclipse, Eclipse Compliance Testing, Eclipse lab, клипс, клипсе, always wanted a local box for the electronics, Nebraska parameters, Xlibs, эклипс, a week for Eclipse to issue certificates, only the machine]
-source-count: 15
+source-count: 16
 open-commitments: 1
 open-questions: 1
 ---
@@ -102,10 +102,15 @@ On a [[wiki/meetings/2026-09-23-eclipse-nick-farley-south-dakota-vlt-answer.md|S
 
 - **Is Nick Farley the Nick of the June-4 2025 Nebraska call?** — [[raw/Meeting_Transcript_Eclipse_Compliance_Testing_South_Dakota_VLT_Approval_Inquiry-September-22-2026.md]] [[raw/eclipse_nebraska_testing_requirement_review-june-4-2025.md]]
 
+## Sept 30 2026 — an open Eclipse item on the transactional side: Ivan waits for an answer, then arranges with "Alex"
+
+At the [[wiki/meetings/2026-09-30-daily-standup-flexport-firmware-delivery-and-network-loss.md|Sept-30 Minsk stand-up]] (Russian) [[wiki/people/ivan.md|Ivan]]: "что мы тогда делаем с [Эклипсом]? Ждём пока моего ответа я сразу договариваюсь с Алексом" — he is waiting for an answer and will then arrange the next step with "Алекс" (**not resolved**; no Alex at Eclipse is on file — Eclipse's named contacts are Steve, Nick Farley and Ricky). What the item is — the machine certification of the Sept-11 ruling, or something else — is not said on tape [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]].
+
 **§15.8:** clear — certification-scope facts only; no named-person compensation.
 
 ## Sources
 
+- [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
 - [[raw/products_puerto_rico_touch_fix.md]]
 - [[raw/eclipse_nebraska_testing_requirement_review-june-4-2025.md]]

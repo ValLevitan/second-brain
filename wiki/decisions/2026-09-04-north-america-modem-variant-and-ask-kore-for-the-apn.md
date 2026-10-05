@@ -3,10 +3,10 @@ type: decision
 title: The Georgia LTE modem failure is treated as a source-and-firmware mismatch — buy the North-America variant and, in parallel, ask KORE for the recommended modems and the APN
 date: 2026-09-04
 aliases: [7455 modem, firmware-update USB stick, 5G module, LTE hard to buy, modem firmware mismatch, North America modem variant, KORE APN, ask KORE which modems, AliExpress modem Minsk, $16 Amazon modem, two antennas on the module, antenna in an opening]
-source-count: 6
+source-count: 8
 status: active
 open-commitments: 9
-open-questions: 3
+open-questions: 4
 ---
 
 # The Georgia modem failure is a source-and-firmware mismatch — buy the North-America variant, and ask KORE for the APN
@@ -70,6 +70,21 @@ On the [[wiki/meetings/2026-09-24-hardware-repo-bom-source-of-truth-and-street-c
 
 *(Derived-notes check: the notes put the count at "about 8–10, unclear" and Val's figure at $160 against Genadi's $150; the wiki records the count as garbled and both prices as spoken.)* [[raw/Meeting_Notes_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
 
+## Sept 30 2026 — the supply picture: 100 asked for, 5 or 10 offered, 1,000 minimums, end-of-life models, about 30 more on order, and code written for one model
+
+At the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-modem-supply.md|Sept-30 8:03 AM MVP 1 call]] (Russian) [[wiki/people/alexander-biratka.md|Biratka]] asked the question nobody had answered: "GSM модемы у нас будут какого?… какой модели у нас будет 2 возможных подключённых или один всётаки. Никто не знает." [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
+
+- **The model in the code today.** [[wiki/people/andrey-bosik.md|Bosik]]: "Паша мне сказал что будет [кьюн какой то там адем]"; [[wiki/people/pavel.md|Pavel]]: "Квеэл вектелл" — a maker's name, **garbled** in both mouths (the derived notes read it as Quectel [[raw/Meeting_Notes_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]). Bosik's point: "разные модемы поразному в операционной системе определяются какието определяются как USB какието как в лан какието как ещё чтото и я сейчас пишу конкретно под вот этот который ты паше говорил" — modems show up differently in the OS, so his code is written for that one model.
+- **Genadi and the suppliers.** Pavel: "гена активно работает с поставщиками [sere virles]" (a supplier name, **garbled**; the notes read Sierra Wireless), "потому что когда начали, реально вышли на рынок и сказали, **нам надо 100 модемов**. То ктото говорит не у нас только 5 или у нас только 10. А ктото говорит 1000 мы с вами не работаем, вы слишком маленькие для нас." [[wiki/people/genadi-peari.md|Genadi]] is working out which models that supplier will offer.
+- **New models, most likely.** "скорее всего, нам придётся вообще какието абсолютно новые модели брать, потому что… те, с которыми мы работали до сих пор. Они уже [end of life]. Они уже давно перестали их производить, это продаются какието остатки." Biratka: new modems must be tested "чтобы они работали, это такая важная часть"; Pavel: "это относится и к игровым машинам, и к [транзакшн] продукции."
+- **Georgia's stock and Val's order.** [[wiki/people/andrei-klimovich.md|Klimovich]]: "у нас в джорджии вообще было только 10 этих модемов… 10 инсталляций мы сможем сделать, причём это 10 игровых машин и 10 транзакционных устройств" (as spoken); "у нас нету пока заказов на новую партию?" Pavel: "в джорджии [Вал давал]… [в] команду купить помоему 30 новых. И они сейчас как раз покупаются" — about 30 more, "[т]акие же да как первые 10" — "Да да да" — the same, outdated, model; "параллельно… идёт работа над тем, чтобы всётаки выйти на те, которые [up to date]."
+
+This continues the Sept-24 line that LTE is hard to buy and Genadi researches the market (his commitment below stays open — the work is reported as ongoing). The modem the Sept-4 and Sept-14 updates argue over is not named here either.
+
+### Open questions (Sept 30 2026)
+
+- Which modem model goes forward, and will a device carry one or two? Nobody knows; Genadi is with the suppliers; Bosik's code targets the one model Pavel named — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
+
 ## Open commitments (Sept 14 2026)
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — order modems from KORE now: two samples, M.2 and mini-PCIe — due as soon as possible; nothing deploys until the modem works — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
@@ -78,7 +93,7 @@ On the [[wiki/meetings/2026-09-24-hardware-repo-bom-source-of-truth-and-street-c
 ## Open commitments
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — prepare a USB stick that, plugged into a machine, upgrades the modem firmware automatically — due unspecified (agreed with Genadi on Sept 24, as Genadi reported) — [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
-- [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — research the LTE / 5G module market and prices, working with the Chinese suppliers — due unspecified ("сегодня опять") — [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+- [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — research the LTE / 5G module market and prices, working with the Chinese suppliers — due unspecified ("сегодня опять") — [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]] — *Sept 30 2026: ongoing — "гена активно работает с поставщиками"; the market answered 5, 10 or a 1,000 minimum to a request for 100* — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [ ] [[wiki/people/val-levitan.md|Val Levitan]] — email KORE: which modems do they recommend, and will they supply the modem configuration parameters and the APN — due right after this call — [[raw/Meeting_Notes_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]] [[raw/Meeting_Transcript_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]]
 - [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — order the North-America-variant modems (~$16 on Amazon) and ship them to Georgia — due within about two days — [[raw/Meeting_Notes_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]] [[raw/Meeting_Transcript_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]]
 - [ ] [[wiki/people/elizabeth.md|Elizabeth Palomino]] — install the replacement modems in Georgia when they arrive — due on arrival — [[raw/Meeting_Transcript_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]]
@@ -102,3 +117,5 @@ Val's own undertaking from this call — to check his message history for when h
 - [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
 - [[raw/Meeting_Notes_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]

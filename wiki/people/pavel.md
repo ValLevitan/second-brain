@@ -4,8 +4,8 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 193
-open-commitments: 95
+source-count: 195
+open-commitments: 96
 open-questions: 0
 ---
 
@@ -1035,7 +1035,37 @@ At the [[wiki/meetings/2026-09-29-dev-environments-rk3568-sdk-amd-spike-and-ai-p
 
 - [ ] Pavel Frolov — the spike: move the RK3568 SDK into a new repository and adapt it for AMD processors (MVP 1 = kernel, root file system, installer and bootloader builds; ~80 % in the first week) — due in ten days, review "8 числа" (Oct 8 2026 by context) — [[raw/Meeting_Transcript_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]]
 
+## Sept 30 2026 (4:57 AM) — he takes the SDK task, parks the firmware-delivery design to tomorrow, confirms the network-loss behaviour, and puts a blocked autotest in "Blocked"
+
+At the [[wiki/meetings/2026-09-30-daily-standup-flexport-firmware-delivery-and-network-loss.md|Sept-30 Minsk stand-up]] (Russian), which he ran [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]:
+
+- **His own task.** "я взял а ц т 57 80… [SDK] платформы для… [процессора], то есть для нового… [н]овой материнской платы сделать [SDK]. Полноценная, чтобы собиралось все и [kernel и] файловая система" — the AMD-SDK spike of Sept 29, now in work (the key and "AMD" are the notes' readings). See [[wiki/decisions/2026-09-29-the-amd-environment-is-rebuilt-from-the-rk3568-sdk-pavels-ten-day-spike-and-the-rk3576-waits.md]].
+- **The LED service.** The service exists in two copies — "один, который я написал когдато" to prove the new-firmware approach, and Anton's with a Java wrapper; Biratka should use the service. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 30, 4:57 AM).
+- **The emulator.** "может мы как раз как раз не трогать л т е модем… слишком специфическая область." See [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]] (Sept-30 update).
+- **Firmware delivery.** "по передаче прошивок на флекспорт я не знаю, сможем ли мы до конца недели это сделать"; the server should send "забери. Вот эту версию прошивки" centrally, per location; the operator or JVL presses "apply"; delivery method first, trigger and feedback next; "дальше мы эту работу оставляем на Алексеева"; "поговорим завтра". See [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Sept-30 update).
+- **Network loss.** An error on collect "лучше, чем передать на порт. На порте пройдёт 30 секунд таймаута, и они потом пометятся как [unclaimed]"; a short outage is expected — "зачем на этот короткое время машину блокировать?"; the key unknown is "как себе чужая машина ведёт". See [[wiki/decisions/2026-09-24-a-flex-port-that-dies-holding-money-sends-it-to-unclaimed-and-one-without-a-gateway-goes-out-of-service.md]] (Sept-30 update).
+- **Small rulings.** Chudinov sets a start date on FIQU-86 ("я поставил 28"); Daniil may ask "Игорю" (not resolved) or Biratka for help; Vladimir's task 41 goes to Blocked and the next task is the one "более в готовом состоянии" — [[wiki/decisions/2026-09-30-an-autotest-task-that-cannot-finish-goes-to-blocked-not-closed.md]]. On Kovalchuk's repository rule: "тоже надо на свои посмотреть".
+
+## Open commitments (Sept 30 2026, 4:57 AM)
+
+- [ ] Pavel Frolov (with Dmitri Chudinov) — continue the Flex-Port firmware-delivery discussion: the delivery method first, then who triggers and how the ports report back — due Oct 1 2026 ("поговорим завтра") — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+
+## Sept 30 2026 (8:03 AM) — the chat members, bare boards as a second Flex IQ, "MVP 2 is exclusively FlexPay", the modem supply, and Val's thirty
+
+On the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-modem-supply.md|Sept-30 8:03 AM MVP 1 call]] (Russian) [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]:
+
+- **The old document** beside Khamin's instruction "это описание протокола прошивки удалённо не через провод". **The chat** for Elizabeth: "Лёшу. Меня. Диму… иру" — [[wiki/decisions/2026-09-30-elizabeths-georgia-set-up-questions-go-to-a-shared-teams-chat-not-one-person.md]].
+- **Test devices.** "Надо у вас отобрать принтеры… пользуйте эмуляторы"; another Flex IQ "в виде… плат лежащих на столе… для тестов этого достаточно"; a FlexPay case cannot be printed — "экран больше, чем печатное поле твоего принтера"; "у нас телевизор один только с правильным разрешением"; four boards in all, a couple more coming. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 30, 8:03 AM).
+- **Recycler and MVPs.** The recycler "[у]же едет… через пару недель"; "3 будет"; "[MVP] 2 это исключительно добавление [FlexPay]… все остальное это уже [MVP] 3"; Wi-Fi connect stays MVP 2. See [[wiki/decisions/2026-09-10-requirements-come-first-and-the-recycler-is-out-of-both-mvps.md]] and [[wiki/decisions/2026-09-09-one-transactional-unit-per-location-until-the-wi-fi-iteration.md]] (Sept-30 updates).
+- **Spare parts.** The small monitor they bought "[н]ужного разрешения нужна диагонали"; a second FlexPay device needs another; Irina should be on the email "чтобы она была в курсе… что у нас болит".
+- **Modems.** The model he named is garbled ("Квеэл вектелл"); "гена активно работает с поставщиками"; "нам надо 100 модемов" met 5, 10 or 1,000-minimum answers; the current models are end of life; "[в] команду купить помоему 30 новых" on Val's order, same model, "параллельно… выйти на те, которые [up to date]". See [[wiki/decisions/2026-09-04-north-america-modem-variant-and-ask-kore-for-the-apn.md]] (Sept-30 update).
+- **Sound.** "дима тут вскрыл… [у]пустили важный [capability]. Звуковое сопровождение"; speakers are inside; Biratka already has sounds on FlexPay — [[wiki/decisions/2026-09-30-flex-iq-sound-feedback-and-the-flexpay-slim-led-language-go-to-mvp-2.md]].
+
+**§15.8:** clear. **§15 #9:** none.
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Dev_Environments_AI_PM_Direction_Check-September-29-2026.md]]

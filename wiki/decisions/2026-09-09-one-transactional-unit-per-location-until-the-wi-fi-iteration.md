@@ -1,10 +1,10 @@
 ---
 type: decision
-title: In the first iteration a location gets either FlexPay or Flex-IQ, never both — multiple units per location arrive in the second iteration together with Wi-Fi
+title: In the first iteration a location gets either FlexPay or Flex-IQ, never both — multiple units per location were to arrive in the second iteration with Wi-Fi; on Sept 30 2026 Pavel placed them in a probable MVP 3, with Wi-Fi staying MVP 2
 date: 2026-09-09
-aliases: [either Pay or IQ not both, one unit per location, serious engineering fork, single copy per location, second iteration with WiFi, the bundle delivered in stages, machine port IQ or machine port Pay]
-source-count: 4
-status: active
+aliases: [either Pay or IQ not both, one unit per location, serious engineering fork, single copy per location, second iteration with WiFi, the bundle delivered in stages, machine port IQ or machine port Pay, two devices per location MVP 3, MVP 2 is exclusively adding FlexPay, исключительно добавление флекспэя]
+source-count: 6
+status: active — the one-unit limit stands; the "second iteration with Wi-Fi" timing for multiple units was moved to a probable MVP 3 on Sept 30 2026 (see update)
 open-commitments: 1
 open-questions: 0
 ---
@@ -32,6 +32,12 @@ Asked in the engineering call what else he should stop promising in the market �
 - The Wi-Fi iteration it defers to is on [[wiki/decisions/2026-09-09-wi-fi-is-second-in-urgency-and-october-november-run-wires.md]] and [[wiki/decisions/2026-09-07-wi-fi-module-on-flex-port-with-an-external-router.md]].
 - The bundle whose delivery is now staged is on [[wiki/decisions/2026-09-02-free-ports-and-pos-with-every-machine-bought.md]].
 
+## Update, Sept 30 2026 — MVP 2 is "exclusively adding FlexPay" plus Wi-Fi; two devices at one location slip to a probable MVP 3
+
+At the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-modem-supply.md|Sept-30 8:03 AM MVP 1 call]] (Russian) [[wiki/people/andrei-klimovich.md|Klimovich]] sketched MVP 2 as he will take it up on his return: "в [MVP] 2 там будет акцент на [FlexPay] [в] [слим-факторе], и чтобы там актуальные все экраны были flow, всё был чистенько аккуратненький." Then: "Мы отложили на MVP 2 поддержку 2 устройств на одной локации помоему… или это позже ещё уехала." [[wiki/people/pavel.md|Pavel]]: "**Это наверное 3 будет уже**… [MVP] 2 это исключительно добавление [FlexPay]. [В]се остальное это уже [MVP] 3." Klimovich: "А вай фай коннект мы хотели помоему на [MVP] 2." Pavel: "Да да." Klimovich: "Вот это… главная такая будет [фича]" (garbled) [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]].
+
+**Against the title.** The titular "multiple units per location arrive in the second iteration together with Wi-Fi" is now split: Wi-Fi stays MVP 2 ([[wiki/decisions/2026-09-07-wi-fi-module-on-flex-port-with-an-external-router.md]], Sept-30 update); multiple units per location go to a probable MVP 3 ("наверное"). Klimovich's "Окей" is acceptance, not a ruling. Recorded as evolution; the one-unit limit itself is unchanged. The derived notes read it the same way [[raw/Meeting_Notes_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/val-levitan.md|Val Levitan]] — pre-run the parallel wiring for the WSU protocol at locations so the second unit can be added later — due unspecified — [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
@@ -43,3 +49,5 @@ Asked in the engineering call what else he should stop promising in the market �
 - [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 - [[raw/Meeting_Notes_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
 - [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]

@@ -4,8 +4,8 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 72
-open-commitments: 36
+source-count: 74
+open-commitments: 39
 open-questions: 0
 ---
 
@@ -475,7 +475,7 @@ At the [[wiki/meetings/2026-09-29-daily-standup-firmware-reissue-and-modem-gatew
 
 ## Open commitments (Sept 29 2026)
 
-- [ ] Dmitri Chudinov — finish capability 152 on the test stands, roll it out and check it on a real device; then capability 176 — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+- [ ] Dmitri Chudinov — finish capability 152 on the test stands, roll it out and check it on a real device; then capability 176 — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]] — *Sept 30 2026: "Завершается кэп 152… нашлись коекакие проблемы"; 175 in work; 176 not mentioned* — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 
 ## Sept 29 2026 (8:06 AM) — no Flex IQ instruction exists, Elizabeth sees the Updates tab, "always the latest build", and the switch that hid his devices
 
@@ -486,7 +486,37 @@ On the [[wiki/meetings/2026-09-29-transactional-mvp1-setup-instructions-and-mikr
 - **Which build.** "Берите всегда последний актуальный" — the standard rule for technicians with fresh boards; higher version = more features and fixes; tomorrow is better because "сегодня будет там большая выкадка". See [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Sept-29, 8:06 AM update).
 - **The switch.** Asked by Pavel, he confirmed a local network he built did not work through an ordinary switch — "не видел девайсы друг друга и надо будет разбираться, почему". See [[wiki/decisions/2026-09-29-mikrotik-is-the-location-router-and-val-leaves-the-brand-to-the-team.md]].
 
+## Sept 30 2026 — 152 finishing with problems, 175 in work, features on 241, FIQU-86, and the firmware-delivery argument
+
+At the [[wiki/meetings/2026-09-30-daily-standup-flexport-firmware-delivery-and-network-loss.md|Sept-30 Minsk stand-up]] (Russian; label "Dzmitry Chudzinau") [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]:
+
+- **Status.** "Завершается кэп 152 это всё по активации, когда там нашлись коекакие проблемы"; "в работе кэп 175" (what it is — "рекорд. Пресса" — is **unclear**), to be extended later; he sets In Progress and closes on completion. FIQU-86: Pavel asked for a start date ("я поставил 28"); "[start date] сейчас поставлю."
+- **Capability 241.** Created by "Андрей" (Klimovich by context), assigned to nobody; he added features: machine connected / disconnected and its status, out-of-service with a list of reasons, SAS logs sent to the server, "Кроме пингов". "Я могу возможно сделать протокол на айкью, а ты потом будешь под него подстраиваться… эту задачу могу сегодня взять в работу." Pavel: "Хорошо."
+- **Sounds.** "Сегодня можно поднять на митинге тему по звукам" — raised that morning; see below.
+- **Firmware delivery.** "Времечко тут уже мало"; the server must show "на каждом терминале… портов их прошивкой", then "[з]абери всем или каждому", and "время применения надо выстоять"; the old scheme "Почтал сразу применил" (garbled; read as downloaded and applied at once), with an operator pressing apply from the port list; "задача большая. Я с последним апдейтом не хочу заставлять ещё"; "это основной [скоуп] работы". Parked to tomorrow. See [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Sept-30 update). "Диспенсер не используется" on Flex IQ — [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]] (Sept-30 update).
+
+## Open commitments (Sept 30 2026)
+
+- [ ] Dmitri Chudinov — start the capability 241 protocol on the Flex IQ side (connected / disconnected, out-of-service reasons, SAS logs without pings) — due started Sept 30 2026 — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- [ ] Dmitri Chudinov (with Pavel Frolov) — continue the Flex-Port firmware-delivery discussion: delivery method first, then trigger and feedback — due Oct 1 2026 — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- [x] Dmitri Chudinov — raise the sounds topic at the later meeting that day — due Sept 30 2026 — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]] — **discharged Sept 30 2026 (8:03 AM):** Pavel raised it for him — "дима тут вскрыл… [у]пустили важный [capability]. Звуковое сопровождение" — and it went to MVP 2 — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
+
+## Sept 30 2026 (8:03 AM) — the old firmware document stays, he takes the Flex IQ install instruction, and the chat
+
+On the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-modem-supply.md|Sept-30 8:03 AM MVP 1 call]] (Russian; label "Dzmitry Chudzinau") [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]:
+
+- **The old document** (January 2025, the remote-firmware protocol): "пока может пока оставить… когда будет ревизия, всего разберём"; on the folder move, "главное не удалил".
+- **The Flex IQ instruction.** "Андрей, я её сейчас взял в работу, я там инструкцию начал, я возьму часть твоих картинок касательно самого терминала. И распишу откуда там что берётся потом скину ссылку" — due that day ("Да да"). See [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Sept-30, 8:03 AM update).
+- **The chat.** "Согласен" to a chat for Elizabeth; he is one of its four members ("Диму", by context). See [[wiki/decisions/2026-09-30-elizabeths-georgia-set-up-questions-go-to-a-shared-teams-chat-not-one-person.md]].
+- **Sound.** The missed Flex IQ capability was his find — [[wiki/decisions/2026-09-30-flex-iq-sound-feedback-and-the-flexpay-slim-led-language-go-to-mvp-2.md]]. His "Флекспэй себе 2 распечатай" line was a joke, not recorded.
+
+## Open commitments (Sept 30 2026, 8:03 AM)
+
+- [ ] Dmitri Chudinov — finish the Flex IQ SD-card install instruction in Confluence (reusing Klimovich's terminal pictures; where each piece comes from) and send the link — due Sept 30 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 

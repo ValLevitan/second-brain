@@ -3,7 +3,7 @@ type: person
 title: Efim Podvoiski
 date: 2026-07-13
 aliases: [Efim Podvoiski, Efim, Yefim, Ifim, EFIM, Podvoiski, Athim, Athene, Athena, Ethan, Epheme, Afim]
-source-count: 67
+source-count: 69
 open-commitments: 10
 open-questions: 0
 ---
@@ -223,7 +223,7 @@ At the [[wiki/meetings/2026-09-04-naming-convention-standards-and-nova-conversio
 ## Open commitments (Sept 4 2026)
 
 - [ ] Check the denomination mix across the Georgia titles to establish whether a credits-only button display is possible at all — due unspecified — [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
-- [ ] A data contract for the maths server, with access opened to the framework and DataCenter side — due unspecified — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- [ ] A data contract for the maths server, with access opened to the framework and DataCenter side — due unspecified — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]] *(Sept 30 2026: on the repo-standards call he named the maths-engine repository and a data contract in one breath; whether the contract is written is unreadable — not discharged [[raw/Meeting_Transcript_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]])*
 
 ## Sept 8–9 2026 — told to change the maths on two games and put credits on the buttons
 
@@ -275,7 +275,19 @@ At the [[wiki/meetings/2026-09-25-georgia-progressives-and-class-a-lions-riches.
 
 - [ ] Efim Podvoiski — work out the Class A Lions Riches math without nudge ($50 cap, free spins, party time) — due unspecified — [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
 
+## Sept 30 2026 (11:07 AM) — walked through the repo standards by Val; topic words only
+
+A 13-minute one-on-one with Val ([[wiki/meetings/2026-09-30-repo-standards-walkthrough-with-efim.md]]; per the notes spoken mostly in Russian but transcribed as English, so almost nothing is readable) [[raw/Meeting_Notes_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]. What survives [[raw/Meeting_Transcript_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]:
+
+- **Val pointed him at the repo standards in GitHub** — "I pointed I pointed you to a repo standards", "standards, material", "it's for GitHub" — and ran through subjects: "repository organ zone [organisation]… zero trust… data contract repository", "ADRs", "discussion", "Pull request pull request", "Claude Reviewer is to cache the pull request" (verb **unclear**), "Local computer". This is the Sept-4 standing instruction ([[wiki/decisions/2026-09-04-point-claude-at-the-standards-repository-first.md]], Sept-30 update) applied to him in person.
+- **His own words, as fragments:** "Repository mass engine… data contract. But the robot is Nova" — the maths-engine repository, a data contract, NOVA; "Excel file… result of the test of mathematics" — an Excel file with maths test results. No status, undertaking or decision is readable; the Sept-4 data-contract commitment above is not discharged by this.
+- Val near the end: "we committed", "lines of code", "I encourage you", "Proser [prose — **inference**] defines standard, but the most of principle, but not defined" — sense not recoverable.
+
+**§15.8:** Val's opening "you're doing remarkably well" has no readable subject and is held, not recorded either way. Nothing on pay or performance is recorded. **§15 #9:** none.
+
 ## Sources
+- [[raw/Meeting_Notes_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]
 
 - [[raw/Meeting_Notes_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]

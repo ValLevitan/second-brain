@@ -3,10 +3,10 @@ type: decision
 title: Remote firmware update is in MVP 1 — Flex IQ and FlexPay update themselves first; distributing firmware to the Flex-Ports left MVP 1 on Sept 17 and came BACK into MVP 1 on Sept 28, when the date moved to October 15
 date: 2026-09-14
 aliases: [firmware upgrade in MVP1, capability 146, PORT-13, remote FlexPort update back in MVP1, remote firmware update, OTA firmware, приоритет номер один это чтобы обновлялся флекс ай кю, flash the FlexPorts, Flex IQ to FlexPort protocol, доперфек, priority two deferred, FlexPort firmware by USB stick, capability 144 to MVP2, capability 144 cloned, no rollback, roll forward only, requirement 1367]
-source-count: 11
-status: active — priority two (remote update of the Flex-Ports) left MVP 1 on Sept 17 2026 and RETURNED to MVP 1 on Sept 28 2026 (capability 146); rolling BACK to a previous build stays out of MVP 1 (Sept 18 2026); see the dated updates below
-open-commitments: 4
-open-questions: 0
+source-count: 15
+status: active — priority two (remote update of the Flex-Ports) left MVP 1 on Sept 17 2026 and RETURNED to MVP 1 on Sept 28 2026 (capability 146); rolling BACK to a previous build stays out of MVP 1 (Sept 18 2026); the delivery design is still open as of Sept 30 2026; see the dated updates below
+open-commitments: 6
+open-questions: 2
 ---
 
 # Remote firmware update is in MVP 1, and Flex IQ updates itself before it updates anything else
@@ -128,15 +128,43 @@ At the [[wiki/meetings/2026-09-29-transactional-mvp1-setup-instructions-and-mikr
 
 Klimovich's Sept-28 commitment to have Elizabeth install by SD card is unchanged in substance; it now waits on the instructions (held on [[wiki/people/andrei-klimovich.md]]). Chudinov's Sept-28 role check is discharged on his page.
 
+## Update, Sept 30 2026 — Flex IQ has nothing for Flex-Port updates yet; the delivery design is argued out between Pavel and Chudinov and parked to tomorrow; the port side stays with Alekseev
+
+At the [[wiki/meetings/2026-09-30-daily-standup-flexport-firmware-delivery-and-network-loss.md|Sept-30 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]:
+
+- **What Seregin found.** [[wiki/people/anton-seregin.md|Anton Seregin]], on the Flex-Port side of his Sept-29 task: "В этом флексе [IQ] как бы ничего нет эти обновления" — Flex IQ has nothing for Flex-Port updates; there is FlexPay code, "[н]аписан", but "Дима говорил, что он еще не тестировал его никак" (Chudinov, by context — his untested transfer scheme of Sept 24). "Мне не донимаю, что мне нужно будет сделать" — he does not yet understand what he must do.
+- **Pavel doubts the week.** "по передаче прошивок на флекспорт я не знаю, сможем ли мы до конца недели это сделать." [[wiki/people/dmitri-chudinov.md|Chudinov]]: "Времечко тут уже мало. Ну может суммарно с выходными, чтонибудь получится" — then "хотя бы обсудить, как мы это можем сделать".
+- **Pavel's scope split.** "нам надо придумать способ… [п]ередачи файла на флекспорт. А дальше мы эту работу оставляем на Алексеева, чтоб он дальше на порте сделал" — the delivery method is theirs; what happens on the port is [[wiki/people/evgeniy-alekseev.md|Alekseev]]'s (consistent with PORT-13 staying with him on Sept 28). Chudinov: "нет, не я имею в виду бизнес логика."
+- **The business logic, as argued.** Chudinov: a store holds "прошивку какойто версии"; "Кто решает, какую прошивку забирать всегда последнее терминал решает" (who decides — always the latest? the terminal?). Pavel: "мы с сервера должны иметь возможность отправить команду забери. Вот эту версию прошивки. Централизованно на киоск… для каждого [location]… актуальная версия такаято." Chudinov: then the server must also know what runs — "на каждом терминале показывать портов их прошивкой" — then say "[з]абери всем или каждому", and "ещё и время применения надо выстоять".
+- **What the earlier version did.** Pavel remembered the port seeing new firmware on start, downloading and storing it, with a time given later. Chudinov: "там не было никаких времен ничего… Почтал сразу применил" (the first word is garbled; read as "скачал" — downloaded and applied at once), and in fact "открывали список портов и нажимали там типа [применить] прошивку" — an operator opened the port list and pressed apply. Pavel: "можем так и оставить… [л]ибо оператор нажимает кнопку, либо мы удаленно нажимаем кнопку, типа применить эти прошивки."
+- **Chudinov's reservation.** "задача большая. Я с последним апдейтом не хочу заставлять ещё" — a big task he does not want forced in with the last update. Pavel: at least work out "способ доставки"; "кто тригерит обновления это следующая, и… обратная связь, то есть получили ли порты эти прошивки, какието статусы". Chudinov: "это основной [скоуп] работы."
+- **Parked.** Pavel: "Ладно, поговорим завтра. Может, что придумаем?"
+
+The derived notes read the exchange the same way and list it as "discussed but not decided; moved to tomorrow" [[raw/Meeting_Notes_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]. **On the commitments below:** Seregin's Sept-29 task is in progress, not done; Pavel's Sept-29 feature for it was not mentioned; Chudinov's protocol work is now the open design above.
+
+## Update, Sept 30 2026 (8:03 AM) — an old remote-firmware protocol document from January 2025 stays in Confluence; the Flex IQ SD-card instruction was in Confluence after all, and Chudinov writes the new one today
+
+At the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-modem-supply.md|Sept-30 8:03 AM MVP 1 call]] (Russian) [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]:
+
+- **The old document.** Beside the new Flex-Port instruction [[wiki/people/andrei-klimovich.md|Klimovich]] found "какойто старый [firmware document]… ревизия, последняя от января 25. Это уже не актуальный документ, правильно?" [[wiki/people/irina-shishko.md|Irina]]: everything else is outdated. [[wiki/people/pavel.md|Pavel]]: "здесь как раз прошивка это описание протокола прошивки удалённо не через провод" — it describes the remote (not wired) firmware protocol. [[wiki/people/dmitri-chudinov.md|Chudinov]]: "пока может пока оставить… когда будет ревизия, всего разберём" — leave it; sort it at the next revision.
+- **The Flex IQ install instruction.** Klimovich posted the link to the old SD-card instruction: "Я ошибся это было не в гите как мне память подсказывал вчера это было тоже в [Confluence]." Chudinov: "я её сейчас взял в работу, я там инструкцию начал, я возьму часть твоих картинок касательно самого терминала. И распишу откуда там что берётся потом скину ссылку." Klimovich: "сегодня доделаешь" — "Да да". With that, "у нас тогда есть все 3 элемента инструкции" and Elizabeth can start tomorrow — see [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] (Sept-30 update).
+
+The notes match [[raw/Meeting_Notes_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]].
+
 ## Open commitments
 
-- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — work on the Flex-Port firmware update through Flex IQ (file-transfer protocol and the start/allow commands) in the Flex IQ emulator, with a very simple Flex-Port emulation only if needed — due started Sept 29 2026 — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] and [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — continue the Flex-Port firmware-delivery discussion: the delivery method first, then who triggers an update and how the ports report back — due Oct 1 2026 ("поговорим завтра") — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — finish the Flex IQ SD-card install instruction (reusing Klimovich's terminal pictures, explaining where each piece comes from) and send the link — due Sept 30 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
+
+- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — work on the Flex-Port firmware update through Flex IQ (file-transfer protocol and the start/allow commands) in the Flex IQ emulator, with a very simple Flex-Port emulation only if needed — due started Sept 29 2026 — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]] — *Sept 30 2026: in progress — he found nothing in Flex IQ for Flex-Port updates and untested FlexPay code; "не донимаю, что мне нужно будет сделать"* — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — create the feature "проверка workflow по передаче прошивки и… управления прошивкой" for Seregin — due Sept 29 2026 — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 - [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — work the Flex IQ ↔ Flex-Port firmware-distribution protocol from his side, and improve it if he can — due unspecified — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — deliver firmware update in MVP 1 to a production standard, with pings, verification and a timer — due with MVP 1 — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 
 ## Open questions
 
+- **How does Flex-Port firmware delivery work in business terms?** Who decides which version a port takes (server command per location, or always the latest), whether the server shows each port's current firmware, when an update applies, who presses "apply" (operator or JVL remotely), and how the ports report back — argued on Sept 30, not decided — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- **Where does the January-2025 remote-firmware protocol document belong?** Left for the next revision — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - ~~**Is Evgeniy Alekseev actually assigned to this?**~~ Pavel's own wording was hedged — "**возможно… по[-]моему там на него тоже задача висит**" — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]. **Answered Sept 28 2026:** the firmware-delivery story PORT-13 is on him, and Val kept it with him — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
 - ~~**Whether capability 144 itself now carries an MVP 1 or MVP 2 fix version.**~~ **Answered Sept 18 2026:** the capability was **cloned** — the trimmed original stays in MVP 1, the clone carrying the removed requirements goes to MVP 2. See the Sept-18 update above — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 
@@ -155,3 +183,7 @@ Klimovich's Sept-28 commitment to have Elizabeth install by SD card is unchanged
 - [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]

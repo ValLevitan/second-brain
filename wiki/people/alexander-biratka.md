@@ -4,8 +4,8 @@ title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka, Alex Baratka, Alex Beratka, Alexander Berankov, Biratko, Alexander Biratko]
 disambiguation: "Alexander cluster (provisional — owner ruling pending): distinct JVL people sharing the given name Alexander. [[wiki/people/alexander-biratka.md|Alexander Biratka]] = Omni/Pixi framework & build engineer (aka Sasha; garbles Beratko/Baratka); [[wiki/people/alexander-korochkin.md|Alexander Korochkin]] = LGS QA-automation engineer (GitHub Alexander_K@JVL, read-only; aka Alexander K); [[wiki/people/alexander-tumanov.md|Alexander Tumanov]] = Minsk QA / data-center knowledge-capture hire (surname unverified). Resolve by context: Omni framework / Pixi / build → Biratka; LGS QA automation / read-only build consumer → Korochkin; manual-tester onboarding / data-center interviews → Tumanov. A further name 'Alexander Derok' (back-end build-integration / Java, per Val on Feb-6-2026) is unconfirmed — queued, not a page. Not [[wiki/people/alexei-khamin.md|Alexei Khamin]] (different name). Queue anything fitting none; never force-match."
-source-count: 74
-open-commitments: 14
+source-count: 76
+open-commitments: 16
 open-questions: 0
 ---
 
@@ -325,7 +325,31 @@ At the [[wiki/meetings/2026-09-29-daily-standup-firmware-reissue-and-modem-gatew
 
 On the [[wiki/meetings/2026-09-29-transactional-mvp1-setup-instructions-and-mikrotik-router.md|Sept-29 8:06 AM MVP 1 call]] (Russian; label "Alexander Biratko"), asked by Klimovich about MVP 2: "я буду, если что писать… письма… как договорились… пока у меня такого именно срочного ничего нет" — he will send the business questions by email as agreed on Sept 28 (that commitment stays open above); nothing urgent that day. In segment 1 he joined the small talk (not recorded) [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Pre_Meeting_Draniki_Chat-September-29-2026.md]].
 
+## Sept 30 2026 — capability 247 (the modem for FlexPay) connects on a SIM, and the LED service instead of the HAL
+
+At the [[wiki/meetings/2026-09-30-daily-standup-flexport-firmware-delivery-and-network-loss.md|Sept-30 Minsk stand-up]] (Russian; label "Alexander Biratko") [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]:
+
+- **247.** "я вчера создал новую [capability], связанную с [модемом] для flexpay. Её не было это [capability] 247"; most features done, checks left; "сегодня с утра у тебя взял. Симкарту… всё уже подключилась, то есть сеть есть"; he expects to close it that day. The Sept-29 "GS[M] task not started" is now this capability.
+- **LEDs.** His analysis: the HAL library already implements the LED strip but its APIs are not exposed; FlexPay still runs on the HAL; the LED service exists in two copies (Pavel's early one, and Anton's with a Java wrapper — "я его подключаю как джава библиотеку… это будет удобнее"); "я попробую наверно уже с сервисом работать уже [с HAL] не буду бороться". Next: "работа с ледами и с переключением на сервис". See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 30, 4:57 AM).
+- His Sept-28 commitments (134, Syncotek, 133, dates) were not mentioned.
+
+## Open commitments (Sept 30 2026)
+
+- [ ] Alexander Biratka — finish the checks and close capability 247 (modem for FlexPay) — due Sept 30 2026 — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- [ ] Alexander Biratka — the LEDs on FlexPay through the LED service (not the HAL) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+
+## Sept 30 2026 (8:03 AM) — print another Flex IQ, no FlexPay cases, a burned USB port, the modem question, and sounds already on FlexPay
+
+On the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-modem-supply.md|Sept-30 8:03 AM MVP 1 call]] (Russian; label "Alexander Biratko") [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]:
+
+- **Devices.** "Можно еще один распечатать?" — a 3D-printed Flex IQ "чтобы он был более менее законченным устройством"; for FlexPay "с корпусами у нас вообще нету… может быть гена может там чтото похожее дать?"; big parts "можно склеивать… прям как Монолит"; but without the right panel "смысла нету". His board: "со сгоревшим [USB] одной". He proposed ordering "оригинальную панель хоть одну". See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 30, 8:03 AM).
+- **The recycler** belongs to the Flex Recycler project — "какой [MVP] у нас" — Pavel: 3. See [[wiki/decisions/2026-09-10-requirements-come-first-and-the-recycler-is-out-of-both-mvps.md]] (Sept-30 update).
+- **Modems.** "GSM модемы у нас будут какого?… какой модели… 2 возможных подключённых или один всётаки. Никто не знает"; new modems "надо будет протестировать… это такая важная часть". See [[wiki/decisions/2026-09-04-north-america-modem-variant-and-ask-kore-for-the-apn.md]] (Sept-30 update).
+- **Sounds.** Pavel: "Саша уже со стороны даже flex pay звуки поднял… звучки красивые играют". See [[wiki/decisions/2026-09-30-flex-iq-sound-feedback-and-the-flexpay-slim-led-language-go-to-mvp-2.md]].
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Pre_Meeting_Draniki_Chat-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]

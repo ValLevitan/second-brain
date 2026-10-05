@@ -3,7 +3,7 @@ type: person
 title: Sergey Tsymanov
 date: 2026-07-14
 aliases: [Sergey Tsymanov, Siarhei Tsymanau, Sergey Tsimanov, Tsymanau, Tsimanov, Sergei Tsyganov, Tsyganov, Цыганов, Sergei, Sergey]
-source-count: 20
+source-count: 21
 open-commitments: 9
 disambiguation: "Minsk engineer who drafts CMS requirements with the backend 'Dima' (Chudinov). OWNER-CONFIRMED 2026-07-14 = the payroll 'Siarhei Tsymanau' (Belarusian) and the IT-records 'Sergey Tsimanov' — same person; Tsymanov canonical, Tsymanau/Tsimanov aliases. Distinct from other 'Sergei/Sergey' names (e.g. Sergei Novitsky the advanced-setup technician; Sergey Vysotsky the outside digital-growth specialist, wiki/people/sergey-vysotsky.md); resolve by context."
 ---
@@ -120,9 +120,18 @@ At the [[wiki/meetings/2026-09-29-daily-standup-firmware-reissue-and-modem-gatew
 
 ## Open commitments (Sept 29 2026)
 
-- [ ] Sergey Tsymanov — finish capability 156 (wallet through the Flex-Port), find a way to flash the board or bring it back to Pavel, then start capability 158 (zero balance) — due Sept 29 2026 (156) / unspecified — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+- [x] Sergey Tsymanov — finish capability 156 (wallet through the Flex-Port), find a way to flash the board or bring it back to Pavel, then start capability 158 (zero balance) — due Sept 29 2026 (156) / unspecified — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]] — **discharged Sept 30 2026:** "Закончил задачу созданием [волета] через [Флекс-Порт]" and he is on 158; the board flashing was not mentioned — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+
+## Sept 30 2026 — the wallet through the Flex-Port is done; 158 has four tasks and some will be dropped
+
+At the [[wiki/meetings/2026-09-30-daily-standup-flexport-firmware-delivery-and-network-loss.md|Sept-30 Minsk stand-up]] (Russian; label "Sergey Tsimanov"): "Закончил задачу созданием [волета] через [Флекс-Порт]" (156, by his Sept-29 report — **inference**). On 158: "там есть куча задач ну 4 задачи"; "какойто надо выкинуть допустим [pay mament hop 5]" (garbled) "потому что у нас [волеты] будут храниться пока. На терминале"; "много вещей, которые реализованы… выискивают, что надо дореализовать"; "планирую закрыть сегодня следующую взять". See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 30, 4:57 AM). His Sept-28 Grafana commitment is again not mentioned [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]].
+
+## Open commitments (Sept 30 2026)
+
+- [ ] Sergey Tsymanov — close one capability-158 (zero balance) task and take the next; drop the ones that no longer apply while wallets stay on the terminal — due Sept 30 2026 — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 
 - [[raw/Meeting_Notes_Legacy_CMS_Documentation_Progress_Check-April-15-2026.md]]

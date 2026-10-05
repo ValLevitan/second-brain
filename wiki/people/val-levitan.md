@@ -3,7 +3,7 @@ type: person
 title: Val Levitan
 date: 2026-07-12
 aliases: [Val, Val Levitan]
-source-count: 391
+source-count: 398
 open-commitments: 73
 open-questions: 1
 ---
@@ -1511,7 +1511,51 @@ He called and ran the [[wiki/meetings/2026-09-29-dev-environments-rk3568-sdk-amd
 
 - [ ] Val Levitan — book the follow-up meeting on the development environments for the 8th — due Oct 8 2026 (by context) — [[raw/Meeting_Transcript_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]]
 
+## Sept 30 2026 (8:42 AM) — the Larry call: "No gymnastics whatsoever", "let's have a small test", and "the business will finance itself"
+
+Larry Sharon called with the reworked deal ([[wiki/meetings/2026-09-30-larry-sharon-single-entity-jv-and-100-machine-pilot.md]]; mostly English, some Russian). Full detail on [[wiki/projects/transactional-equipment-depreciation-investor-deal.md]] (Sept 30) and the rulings on [[wiki/decisions/2026-09-30-one-jv-entity-a-florida-llc-50-50-with-a-special-allocation-of-depreciation-and-jvl-invoices-the-real-4000.md]] and [[wiki/decisions/2026-09-30-a-100-machine-trial-first-then-bell-bank-seacoast-and-possibly-incomm-finance-the-rest.md]] [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]]:
+
+- **He accepted at once.** "Unbelievably. Smart… I would have not come up with this"; "Very smart, very clever, very simple. No complications. No gymnastics whatsoever"; and on the real-value invoice, "Even better… We don't have to do. Any Of that."
+- **He still thought in the old numbers for a moment.** "I have to. Out invoice for the full amount, so I know there will be income that I need to book a JVL. But I must say I will have to get that fifteen thousand" — Larry: "Why fifteen?… I won't have an invoice for fifteen." Val: "And I got infected by."
+- **He asked for the small run.** "I really don't want you to take any risks with me. I hate to bring people that may lose money with me. So let's have a small test, small run, because we will have disappointments"; "Let's call it for the sake of this deal. Let's call it a 100 machine trial"; "We have a handshake agreement. We're ready to go."
+- **His own view of financing.** "I actually don't think that we need to finance this business past one thousand machines. Not machines, installations. I think the business will finance itself."
+- **InComm is not the only door.** "Income [InComm] has two competitors" — one he could not name ("Blackwater… I might be misquoting"), and "NCR… being purchased right now by Brinks… They have actually a product that we might even bring on board afterwards" — "At least two more parties."
+
+**§15.8:** clear — deal economics only. **Personal matters not recorded.** **§15 #9:** none.
+
+## Sept 30 2026 (10:00 AM) — the GitHub-to-MSBC meeting: "I don't want to be a therapist", "one flat list", and "this meeting is not productive"
+
+He called and ran the [[wiki/meetings/2026-09-30-github-to-msbc-bom-flat-list-bridge.md|Sept-30 GitHub_to_MSBC_BOM_Integration meeting]] (English) with Genadi, Nathan and Lev. Rulings on [[wiki/decisions/2026-09-30-engineers-never-change-msbc-and-administration-never-changes-github.md]] and [[wiki/decisions/2026-09-30-a-new-part-number-is-assigned-by-claude-from-the-standard-in-github-and-pushed-to-msbc-once.md]]; the contested BOM half on [[wiki/decisions/2026-09-23-the-bom-source-of-truth-is-the-latest-design-in-github-and-sync-runs-one-way.md]] (Sept-30 update) [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]:
+
+- **How he set it up.** "I don't want to play a role of a therapist that convinces why one thing is better than the other. I'm just saying that's how we are setting up our business. To function… let's identify a concern and let's find a solution for it."
+- **The rule.** "Engineers are never allowed. To change anything in Msbc. The administrator is never allowed to change anything in Github"; later, "a clear border, non-penetrable border, between engineering and administration… under the key and lock."
+- **The flat list.** "Genadi says there is 550 nominations that will go into assembling one machine… But a flat list is 550 nominations"; "in Github, it is all flood [flat] information… It gets grouped, compiled… inside of Msbc. But that grouping, the step, could be a step of automation. It doesn't have to be a manual step."
+- **On Navision.** "Navision was designed 50 years ago, got obsolete 30 years ago, and was taken offline 20 years ago, and now practically dead… whatever methodology Navision used, we kind of inherited and trained our minds to use."
+- **What he does not know.** Asked what exactly Claude will do to populate a part into three products: "Hopefully… I don't know… before Nathan had a chance to experiment with it, we don't know right now, but it's not… spaceship science."
+- **He cut it short.** "I think this meeting is not productive. I need to let Lev and Nathan go because I'm just burning their hours. And I will switch to a different meeting with Genadi."
+
+**§15.8:** his exasperated remarks at Genadi mid-call are not recorded. **§15 #9:** none.
+
+## Sept 30 2026 (11:07 AM) — walks Efim through the repo standards
+
+A 13-minute one-on-one with [[wiki/people/efim-podvoiski.md|Efim Podvoiski]] ([[wiki/meetings/2026-09-30-repo-standards-walkthrough-with-efim.md]]; Russian speech transcribed as English, so near-unreadable [[raw/Meeting_Notes_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]). What is readable is the rule of [[wiki/decisions/2026-09-04-point-claude-at-the-standards-repository-first.md]] applied in person: "I pointed I pointed you to a repo standards", "standards, material", "it's for GitHub", a run of subjects — "repository organ zone [organisation]… zero trust… data contract repository", "ADRs", "discussion", "Pull request pull request", "Claude Reviewer is to cache the pull request" (verb **unclear**) — then "it's a standard" and "I encourage you" [[raw/Meeting_Transcript_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]. **§15.8:** his opening "you're doing remarkably well" to Efim has no readable subject and is held. **§15 #9:** none.
+
+## Sept 30 2026 (12:04 PM) — the SolidWorks-to-flat-list follow-on with Genadi, parked after two minutes
+
+The separate meeting with [[wiki/people/genadi-peari.md|Genadi]] he had moved to at 10:51 ([[wiki/meetings/2026-09-30-solidworks-flat-parts-list-parked.md]]): "Can I call you back?", then a reaction to something outside the meeting ("You're kidding me", "So upset", "Terrible" — cause not stated), then "They might have to park this conversation." Two minutes; nothing discussed [[raw/Meeting_Transcript_Solid_Works_Flat_Parts_List_Parked-September-30-2026.md]] [[raw/Meeting_Notes_Solid_Works_Flat_Parts_List_Parked-September-30-2026.md]]. **§15.8:** clear. **§15 #9:** none.
+
+## Sept 30 2026 (in absentia) — about thirty more modems on his order, and a spare-parts email to him
+
+On the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-modem-supply.md|Sept-30 8:03 AM MVP 1 call]] (Russian; he was not present) Pavel, asked whether a new modem batch is on order: "в джорджии [Вал давал]… [в] команду купить помоему 30 новых. И они сейчас как раз покупаются" — about 30 more, the same (end-of-life) model as Georgia's first 10, being bought now. Klimovich will start an email to Genadi and him to bring the Minsk spare-parts set up to date. See [[wiki/decisions/2026-09-04-north-america-modem-variant-and-ask-kore-for-the-apn.md]] (Sept-30 update) [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]].
+
 ## Sources
+- [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]]
+- [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]
+- [[raw/Meeting_Notes_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]
+- [[raw/Meeting_Notes_Solid_Works_Flat_Parts_List_Parked-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Solid_Works_Flat_Parts_List_Parked-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Dev_Environments_AI_PM_Direction_Check-September-29-2026.md]]

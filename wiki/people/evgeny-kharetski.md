@@ -3,8 +3,8 @@ type: person
 title: Evgeny Kharetski
 date: 2025-07-10
 aliases: [Evgeny Kharetski, Evgeny Kharetsky, Evgeny Khoretsky, Kharevsky, Yauheni Kharetski, Kharetsky, Koretski, Koretsky, Korecki, Khorvatsky, Корецкий, Хорватский, Халецкий]
-source-count: 31
-open-commitments: 7
+source-count: 32
+open-commitments: 9
 disambiguation: "LGS developer (payroll "Kharetski Yauheni"), this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
 ---
 
@@ -166,9 +166,26 @@ At the [[wiki/meetings/2026-09-29-daily-standup-firmware-reissue-and-modem-gatew
 
 ## Open commitments (Sept 29 2026)
 
-- [ ] Evgeny Kharetski — finish the fix, build 4.50.2 with that one commit, and write to Ivan when it is ready — due Sept 29 2026 — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+- [ ] Evgeny Kharetski — finish the fix, build 4.50.2 with that one commit, and write to Ivan when it is ready — due Sept 29 2026 — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]] — *Sept 30 2026: "я вчера закончил с этими с правками для джорджии"; whether that is this fix, and whether the build went to Ivan, is not said* — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+
+## Sept 30 2026 — the Georgia fixes done, the queue fix that does not show, CC talk closed, and the LED service
+
+At the [[wiki/meetings/2026-09-30-daily-standup-flexport-firmware-delivery-and-network-loss.md|Sept-30 Minsk stand-up]] (Russian; called on as "женя") [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]:
+
+- **Georgia.** "я вчера закончил с этими с правками для джорджии". One thing is left: he needs logs ("[о]твалишелоги, я ему попросил" — garbled; from whom is unclear), because the queue fix Pavel asked for — "чтоб ты всегда последний был" — "почемуто визуально это не так", "хотя клод утверждал, что там и так он всегда последний"; he will look.
+- **CC talk.** "[сиси] толк сделал да, но я чтото потерял задачу" — found with Pavel as "сети 58 58" (the notes: CT-5858), in the backlog — Pavel: "А потому что она в бэклогии?"; "я её сегодня тоже закрываю". ("сиси толк" / "сити толк" — the same unresolved item as Sept 29.)
+- **Help.** "Дон много чего доделал по моим просьбам… все эти вот задачи… [н]у почти все" — "Дон" is **not resolved** (no such person on file).
+- **Next.** "буду дальше интеграцией заниматься теперь вроде как всё готово для этого" — "лджес 20, 19. И 12, 17" (garbled; Sept 29 heard the same pair as LGS-219 / 217).
+- **The LED service.** Pavel: "женя там уже давал замечание Антону, он уже фиксел это"; he is moving the data-centre side onto that service ("женя сейчас это делает"). See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 30, 4:57 AM).
+- **The SAS-link checkbox.** "у нас… галочка… [п]оказывает [fault], если [SAS] линк даун… никто не запрещает ей ставить". See [[wiki/decisions/2026-09-24-a-flex-port-that-dies-holding-money-sends-it-to-unclaimed-and-one-without-a-gateway-goes-out-of-service.md]] (Sept-30 update).
+
+## Open commitments (Sept 30 2026)
+
+- [ ] Evgeny Kharetski — get the logs and find out why the "always last" queue fix does not show on screen — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- [ ] Evgeny Kharetski — close the CC-talk task (heard as "сети 58 58"; the notes read CT-5858) — due Sept 30 2026 — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]

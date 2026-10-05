@@ -3,7 +3,7 @@ type: decision
 title: The virtual test system attempts full ARM-processor emulation running the production build plus simulated devices first — Docker or a daemon-mode simulation is the fallback, because the simpler options do not cover the full functionality
 date: 2026-09-07
 aliases: [virtual test system, emulators, virtual Flex-Pay, virtual gaming machine, virtual Flex-Port, ARM emulation, same build as on the machines, Docker fallback, daemon mode, bare remote-update tool, redeploy all the hardware from scratch]
-source-count: 15
+source-count: 18
 status: active
 open-commitments: 6
 open-questions: 2
@@ -106,6 +106,23 @@ At the [[wiki/meetings/2026-09-29-dev-environments-rk3568-sdk-amd-spike-and-ai-p
 - **What it is for in the SDK.** The only useful direct test of a build environment is "что текущая сборка… собралась и на ней может загрузиться. Эмулятор… просто чтобы сказать, что полученный имидж рабочий" — the built image boots in an ARM-processor emulator; it presumes an emulator one trusts ("при условии, что мы доверяем [эмулятором]"). See [[wiki/topics/test-automation-strategy.md]] (Sept 29, 10:06 AM).
 - **Reading against the ruling (inference):** a full ARM-processor emulation running the production build is this page's first choice; "какойто… есть, но… не настолько хороший" is the nearest the corpus has to its status. Pavel's commitments below stay open; the call names no emulator project.
 
+## Update, Sept 30 2026 — the printer and scanner emulation fit Flex IQ, the card dispenser is not used, the LTE modem is not emulated, and the Flex-Port side is empty
+
+At the [[wiki/meetings/2026-09-30-daily-standup-flexport-firmware-delivery-and-network-loss.md|Sept-30 Minsk stand-up]] (Russian) [[wiki/people/anton-seregin.md|Anton Seregin]] reported on the Flex IQ emulator [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]:
+
+- **What fits.** "Проверял ticket принтер эмулятор. Если баркот скайнер, как оно согласуется с флексом IQ? Там как бы она работает" — the ticket-printer and barcode-scanner emulation work against Flex IQ.
+- **The card dispenser is out.** Asked whether it is used at all: [[wiki/people/dmitri-chudinov.md|Chudinov]] — "Диспенсер не используется"; [[wiki/people/pavel.md|Pavel]] repeated it. (Flex IQ has no dispenser; the dispenser is FlexPay's — see [[wiki/people/alexander-biratka.md|Biratka]]'s capability 134.)
+- **LED backlight on events.** "он ещё предлагает делать… подсветку вот симулировать надо на ивенты" — something (who "он" is — the tool, by context — is **unclear**) proposes simulating the LED backlight on events. Not ruled on.
+- **The LTE modem is not emulated.** Pavel: "может мы как раз как раз не трогать л т е модем… слишком специфическая область." Seregin agreed.
+- **The Flex-Port side.** Nothing exists in Flex IQ for Flex-Port updates, and the FlexPay code is untested — on [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Sept-30 update).
+- **An instruction.** "скинул в чат этот аккумулятор. Большую инструкцию, если интересно" — a long emulator instruction posted in the chat ("аккумулятор" read as emulator — **inference**, as throughout). Pavel will read it later.
+
+The derived notes record the dispenser and LTE points the same way and call "the Flex IQ emulator will not simulate the LTE modem" a decision by Pavel [[raw/Meeting_Notes_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]].
+
+**At the 8:03 AM call** ([[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-modem-supply.md|Sept 30]]), emulators came up from the other side: Pavel, on the receipts the testers print — "пользуйте эмуляторы"; [[wiki/people/irina-shishko.md|Irina]]: "не эмуляторы нужны, потому что не очень удобно" — the testers share one Flex IQ and queue for it; Pavel: a second Flex IQ as bare boards on a table is enough for tests. See [[wiki/topics/test-automation-strategy.md]] (Sept 30, 8:03 AM) [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]].
+
+**Anton's Sept-23 and Sept-24 commitments below stay open** — the move to Flex IQ is being checked device by device; Khamin's delay-case item was not mentioned.
+
 ## Open commitments
 
 - [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — add the delay / hang test cases to the EGM emulator himself, as a separate tab or panel of test functions — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
@@ -140,3 +157,6 @@ At the [[wiki/meetings/2026-09-29-dev-environments-rk3568-sdk-amd-spike-and-ai-p
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]

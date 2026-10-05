@@ -3,7 +3,8 @@ type: topic
 title: Docs-as-code and the plan to exit Atlassian
 date: 2025-02-21
 aliases: [docs as code, documentation site, GitHub Pages, GitHub Docs, mermaid, Confluence exit, Atlassian exit, single source of truth, template repo, contact sheet, GDD, markdown tooling, VS Code vs Obsidian, GitHub Sync, GitHub Desktop, code-first toolbox]
-source-count: 20
+source-count: 22
+open-commitments: 1
 open-questions: 3
 ---
 
@@ -142,6 +143,21 @@ At the [[wiki/meetings/2026-09-29-transactional-mvp1-setup-instructions-and-mikr
 
 Same position as Sept 25 above, now stated to the engineering team in Russian: Confluence stays in use, the exit has no date, and the migration of files is accepted as a later cost.
 
+## Sept 30 2026 — the three instructions land in Confluence; the Flex-Port folder moves up a level; pictures break in the page body
+
+At the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-modem-supply.md|Sept-30 8:03 AM MVP 1 call]] (Russian) [[wiki/people/andrei-klimovich.md|Klimovich]] shared the Confluence space [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]:
+
+- **Where it sits.** [[wiki/people/alexei-khamin.md|Khamin]]'s updated Flex-Port instruction "лежит в. [FlexPay]. [Technical space]… [Flex-Port]". [[wiki/people/irina-shishko.md|Irina]] first: "давай мы вытащим…" — pull it out; Khamin: "оно должно быть на одном уровне… [Flex IQ] и [FlexPay] на одном [уровне] должно быть… [Flex-Port] на одном уровне с [FlexPay] и [Flex IQ]. [Э]то отдельный продукт все таки." Klimovich: "имеет смысл… вынести это на уровень выше". The move was tried live and the folder briefly vanished ("куда ну всё пропало… Вот оно… Ну все потеряли"); [[wiki/people/dmitri-chudinov.md|Chudinov]]: "главное не удалил… когда будет ревизия, всего разберём." At the end: "папку перенесу я нашёл, где она лежит, я принесу на уровень выше. Я отпишусь в чате нам, чтоб все знали, где оно всё будет лежать."
+- **An old document beside it** — a remote-firmware protocol description last revised January 2025 — stays until the revision; on [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Sept-30, 8:03 AM update).
+- **Pictures.** [[wiki/people/ivan.md|Ivan]]'s instruction showed "превью [unavailable]" to Klimovich and Khamin, though "у меня с утра, когда я это всё вкинулся, было хорошо"; he restored them by the end of the call. His reading: pictures added in the page body "почемуто вот такой ерундой страдают", so the emulator he posted goes as an archive in a comment at the foot of the page ("Араровский архив, чтоб он копировался. Я в комментарии добавил… внизу" — read as the SAS tool, **inference**).
+- **The Flex IQ instruction** was in Confluence, not Git ("Я ошибся… это было тоже в [Confluence]"); Chudinov rewrites it there that day.
+
+The Sept-29 position holds: Confluence is the working place for the transactional set-up documents; one folder per product at one level. The derived notes read the day the same way, except that they say the folder was lost and found during the move; on tape the move is still to be done [[raw/Meeting_Notes_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]].
+
+### Open commitments (Sept 30 2026)
+
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — move the Flex-Port folder up to the same level as FlexPay and Flex IQ in Confluence, and post in the team chat where everything now lies — due Sept 30 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
+
 ## Open questions
 
 - The initial Confluence-to-Markdown export was **incomplete**: the symbol table (symbol names + export naming) that exists in Confluence did **not** port. Aaron said Confluence's export may be lossy and it must be reconciled. [[raw/GitHub_commit_of_LFS_demo_by_Lena_2025-02-21.md]]
@@ -171,3 +187,5 @@ Same position as Sept 25 above, now stated to the engineering team in Russian: C
 - [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
 - [[raw/Meeting_Notes_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]

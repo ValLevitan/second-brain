@@ -3,7 +3,7 @@ type: decision
 title: Wi-Fi goes onto the Flex-Port board as a soldered module and an external commercial router stays the access point — mesh rejected, cable stays supported, router brands must be American or allied
 date: 2026-09-07
 aliases: [Wi-Fi module on Flex-Port, soldered Wi-Fi module, $4-5 per board, mesh rejected, external router stays, Val's dumb idea withdrawn, American routers only, Cisco Linksys Nokia MikroTik, certified antenna, one serial connector, jamming a location]
-source-count: 6
+source-count: 7
 status: active
 open-commitments: 3
 open-questions: 3
@@ -72,6 +72,10 @@ At the [[wiki/meetings/2026-09-29-transactional-mvp1-setup-instructions-and-mikr
 - **Antenna.** Pavel asked whether MikroTik Wi-Fi comes with an external antenna; Bosik: about a thousand devices in the line, any form can be found [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]].
 - The topology above (router plus devices) gains a switch: routers carry three or four ports, so the equipment hangs off a switch — on the Sept-29 decision page.
 
+## Update, Sept 30 2026 — Wi-Fi connect confirmed for MVP 2
+
+At the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-modem-supply.md|Sept-30 8:03 AM MVP 1 call]] (Russian) [[wiki/people/andrei-klimovich.md|Klimovich]]: "А вай фай коннект мы хотели помоему на [MVP] 2." [[wiki/people/pavel.md|Pavel]]: "Да да." Klimovich: "Вот это… главная такая будет [фича]" (garbled). Pavel had just said MVP 2 is "исключительно добавление [FlexPay]" and everything else MVP 3 — so Wi-Fi is the one exception, confirmed. The MVP 2/3 split is on [[wiki/decisions/2026-09-09-one-transactional-unit-per-location-until-the-wi-fi-iteration.md]] (Sept-30 update) [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]. Pavel's commitment below is unchanged.
+
 ## Open commitments
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — finish the Flex-Port Wi-Fi software (about 90% done by his estimate), under MVP 2 capability 145 — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
@@ -96,3 +100,4 @@ At the [[wiki/meetings/2026-09-29-transactional-mvp1-setup-instructions-and-mikr
 - [[raw/Meeting_Transcript_FlexPort_Telnet_Console_and_GUI_Harness-September-26-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]

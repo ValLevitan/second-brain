@@ -3,7 +3,7 @@ type: person
 title: Lev Rudky
 date: 2024-01-01
 aliases: [Lev Rudky, Lev, Lev Rudki, Лёва Рудки]
-source-count: 15
+source-count: 16
 ---
 
 # Lev Rudky
@@ -44,8 +44,19 @@ On the brief [[wiki/meetings/2026-04-14-accounts-receivables-ga-coam.md|Accounts
 
 On the two-segment [[wiki/meetings/2026-04-15-bc-progress-payments-payment-terms.md|Apr-15 progress-payments call]] with [[wiki/people/val-levitan.md|Val]], Lev confirmed the AP Commerce **Progress Payment** add-on has been working since ~mid-March (an unsubscribe/resubscribe fixed it) — clarifying and apologizing for the Apr-14 impression that it still didn't work. Lev is to **clean up the old/inconsistently-named payment terms** (keeping only the new correctly-configured ones), **fix the 60-vs-90-day grace-period calc error**, and continue working the (still-broken) **sales-rep data-segregation** via permission sets + security filters. He explained the progress- (event-driven, A/P) vs installment- (time-driven, A/R) payment distinction and that each purchase-payment event posts a purchase invoice to the vendor/GL ledgers. Detail on [[wiki/topics/business-central-erp-implementation.md]] (Apr-15). **§15.8:** clear. [[raw/Meeting_Transcript_Lev_Rudky_BC_progress_payments_payment_terms-1-April-15-2026.md]] [[raw/Meeting_Transcript_Lev_Rudky_BC_progress_payments_payment_terms-2-April-15-2026.md]] [[raw/Meeting_Notes_Lev_Rudky_BC_progress_payments_payment_terms-April-15-2026.md]]
 
+## Sept 30 2026 — the GitHub-to-MSBC meeting: a part number in BC needs more than engineering data
+
+On the [[wiki/meetings/2026-09-30-github-to-msbc-bom-flat-list-bridge.md|Sept-30 10:00 AM GitHub_to_MSBC_BOM_Integration meeting]] (English; with [[wiki/people/val-levitan.md|Val]], [[wiki/people/genadi-peari.md|Genadi]] and [[wiki/people/nathan-carver.md|Nathan Carver]]) Lev spoke once, late, and made the one accounting point of the meeting [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]:
+
+- "If the source of a new part number. He is in Github. And it automatically gets created in BC afterwards. So you need to populate there more than engineering parameters in order to create a part number. in BC. It's all kinds of BC classifications associated with the part number, which has nothing to do with engineering. It's various posting groups, things like that, dimensions." Hence "Two sources of input. for a specific new part number" — engineers and somebody else.
+- He kept it to the item itself, not vendors: "talking strictly about part number as a stand-alone entity… when Genadi creates… a new part number in Msbc, he enters additional information that is not strictly engineering information. Things like Dimensions. Type of inventory in simple language… if there is, for example, a new unit of measure for some part, it has to be initialized in the system and has to be accommodated during transfer as well."
+- His verdict: "it's probably a good idea to experiment with to see how this concept works, because there are… some unanswered questions there. I understand it on high level, but in terms of getting into practical implementation. There might be issues."
+
+Val released him and Nathan before the end ("I'm just burning their hours"). Recorded on [[wiki/decisions/2026-09-30-a-new-part-number-is-assigned-by-claude-from-the-standard-in-github-and-pushed-to-msbc-once.md]] and [[wiki/topics/business-central-erp-implementation.md]] (Sept 30). **§15.8:** clear.
+
 ## Sources
 
+- [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Lev_Rudky_BC_progress_payments_payment_terms-1-April-15-2026.md]]
 - [[raw/Meeting_Transcript_Lev_Rudky_BC_progress_payments_payment_terms-2-April-15-2026.md]]
 - [[raw/Meeting_Notes_Lev_Rudky_BC_progress_payments_payment_terms-April-15-2026.md]]

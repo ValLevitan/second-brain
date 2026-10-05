@@ -3,7 +3,7 @@ type: decision
 title: October 15 replaces October 1 as the working MVP 1 date — Val asks for the final state by then "if possible", while the autotest estimate runs to October 23
 date: 2026-09-28
 aliases: [October 15 MVP1, MVP1 moves to October 15, сдвигаем на 15 октября, 15 число это реальная дата, final state October 15, 95 percent is fine, autotests until October 23, trial batch of ten locations, пробную партию 10]
-source-count: 1
+source-count: 2
 status: active
 open-commitments: 2
 open-questions: 1
@@ -35,7 +35,7 @@ Reached at the [[wiki/meetings/2026-09-28-transactional-mvp1-remote-updates-and-
 ## Open commitments
 
 - [ ] The autotest team ([[wiki/people/alexei-khamin.md|Khamin]], [[wiki/people/ivan.md|Ivan]], Vladimir Samusenko) — finish the autotests and reach the final state by October 15 if possible; 95% done is acceptable — due Oct 15 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
-- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — re-judge the autotest finish date after a couple of days of real progress — due about Sept 30 2026 ("пару дней") — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — re-judge the autotest finish date after a couple of days of real progress — due about Sept 30 2026 ("пару дней") — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]] — *Sept 30 2026: her status was "с тестами получается, на мой взгляд, неплохо. Все подтянулись, пишут… тесты проходят"; no new date was given, so October 23 stands* — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 
 ## Open questions
 
@@ -45,3 +45,4 @@ Reached at the [[wiki/meetings/2026-09-28-transactional-mvp1-remote-updates-and-
 
 ## Sources
 - [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]

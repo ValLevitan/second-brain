@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 111
+source-count: 112
 open-commitments: 48
 ---
 
@@ -547,7 +547,17 @@ On the [[wiki/meetings/2026-09-29-transactional-mvp1-setup-instructions-and-mikr
 
 - [ ] Andrey Bosik — go ahead with MikroTik: pick a model, buy and test it in Minsk, and prepare a config for roll-out — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
 
+## Sept 30 2026 (8:03 AM) — one contact for Elizabeth (not adopted), code for one modem model, and "why sound"
+
+On the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-modem-supply.md|Sept-30 8:03 AM MVP 1 call]] (Russian; label "Andrei Bosik") [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]:
+
+- **The chat.** "Я бы оставил когото одного, лишь бы она комуто одному писала, там человек разрулит, куда надо. Зачем тебе Паша и эта информация, если она вас не касается?" Irina answered him ("Андрей ты не прав… 2 Андрея") and the shared chat carried. See [[wiki/decisions/2026-09-30-elizabeths-georgia-set-up-questions-go-to-a-shared-teams-chat-not-one-person.md]].
+- **Cases.** On 3D-printing a FlexPay case: "склеить из кусков, он же клеится, Паша."
+- **The modem.** "Паша мне сказал что будет [кьюн какой то там адем]" (the maker's name is garbled); "разные модемы поразному в операционной системе определяются какието определяются как USB какието как в лан какието как ещё чтото и я сейчас пишу конкретно под вот этот который ты паше говорил" — his code targets that one model. See [[wiki/decisions/2026-09-04-north-america-modem-variant-and-ask-kore-for-the-apn.md]] (Sept-30 update).
+- **Sound.** "Там динамику с на нём нету" (there are speakers inside, Pavel and Klimovich said); "банкоматы такто не пикают особо зачем нам там вообще какойто звук". See [[wiki/decisions/2026-09-30-flex-iq-sound-feedback-and-the-flexpay-slim-led-language-go-to-mvp-2.md]].
+
 ## Sources
+- [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
 - [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
 

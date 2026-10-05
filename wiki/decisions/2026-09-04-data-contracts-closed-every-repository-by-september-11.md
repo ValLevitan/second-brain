@@ -3,7 +3,7 @@ type: decision
 title: Data contracts are not up for debate — every repository carries its own contract beside its code by September 11, and the maths server is opened up and gets one too
 date: 2026-09-04
 aliases: [data contracts closed, contracts by September 11, every repository carries its data contract, maths server opened up, zero trust input contract, eighty percent is fine]
-source-count: 3
+source-count: 5
 status: active
 open-commitments: 3
 open-questions: 4
@@ -41,11 +41,15 @@ At the [[wiki/meetings/2026-09-22-daily-standup-capability-test-status-and-flexp
 
 His wider point: "есть задача сделать даты контракта, а как их делать никто не знает". Two people did the task in parallel and got two different results; one of them had no access to the standards (see [[wiki/decisions/2026-09-04-point-claude-at-the-standards-repository-first.md]], Sept-22 update) [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]].
 
+## Update, Sept 30 2026 (11:07 AM) — the maths-engine repository and a data contract named by Efim; status unreadable
+
+On the [[wiki/meetings/2026-09-30-repo-standards-walkthrough-with-efim.md|Sept-30 repo-standards call]] with Val, [[wiki/people/efim-podvoiski.md|Efim Podvoiski]] said, in a near-unreadable transcript, "Repository mass engine. There is a more last quote on real in their data contract. But the robot is Nova" — the maths-engine repository, a data contract, NOVA — and Val's own run of subjects included "data contract repository" [[raw/Meeting_Transcript_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]. The notes confirm only the words: "Efim mentioned a math engine repository, a data contract, NOVA" [[raw/Meeting_Notes_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]. Whether the maths-server contract is written, or where, cannot be read; the commitment below stays open.
+
 ## Open commitments
 
 - [ ] All repository owners — place a data contract beside the code in every repository they are responsible for — due **September 11 2026** (80% acceptable) — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [ ] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — the same for his own repository, which carries the largest number of contracts; he flagged in the meeting that he may not make the Friday — due **September 11 2026** — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
-- [ ] [[wiki/people/efim-podvoiski.md|Efim Podvoiski]] / maths-server owner — a data contract for the maths server, with access opened to the framework and DataCenter side — due unspecified — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- [ ] [[wiki/people/efim-podvoiski.md|Efim Podvoiski]] / maths-server owner — a data contract for the maths server, with access opened to the framework and DataCenter side — due unspecified — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]] *(Sept 30: named by Efim, status unreadable — see the Sept-30 update [[raw/Meeting_Transcript_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]])*
 
 ## Open questions
 
@@ -58,3 +62,5 @@ His wider point: "есть задача сделать даты контракт
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
+- [[raw/Meeting_Notes_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]

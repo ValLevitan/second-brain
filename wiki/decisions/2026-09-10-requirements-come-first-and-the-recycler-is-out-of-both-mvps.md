@@ -3,8 +3,8 @@ type: decision
 title: Requirements are step two — the MVP split and the test automation come after; MVP 1 is October 1, MVP 2 is November 1, and the Flex-Recycler is in neither
 date: 2026-09-10
 aliases: [requirements are step two, MVP 1 October 1, MVP 2 November 1, recycler is not MVP 1 and not MVP 2, eighty percent of the general functionality, go through the capabilities of the last seven days, transactional products management]
-source-count: 3
-status: active
+source-count: 5
+status: active — the recycler is out of MVP 1 and MVP 2 as ruled; on Sept 30 2026 it was placed in a probable MVP 3 (see update)
 open-commitments: 3
 open-questions: 1
 ---
@@ -50,9 +50,17 @@ Pavel accepted it as a fair question — "[д]а[,] [Д]има[,] хороший
 - **Should the business or the engineers write the requirements, and may a reporter leave a capability with none attached?** Raised by Dmitri Chudinov; Pavel deferred it to the Klimovich meeting rather than ruling — [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
 - [x] **ANSWERED Sept 11 2026 — whether the work is being certified at all.** Working backwards from a field deployment on October 1, Irina Shishko allowed a week for [[wiki/organizations/eclipse-gaming-lab.md|Eclipse]] to issue certificates and a week for the machine itself, so "24 мы должны максимально отдать машину" — the machine goes out by the 24th at the latest. Andrey Bosik questioned whether this is certified at all — "а это тоже сертифицируется?… [г]оворишь, вроде не будут сертифицировать это?" — and Irina's answer was that she had been told it would be but suspects the answer was wrong: "[в]роде сказали[,] да[,] какие[-]то се[ртификаты]… не знаю[,] почему[-]то вам сказал[и;] может быть[,] это он просто ошибся" — [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]. **Val answered it the next morning at the [[wiki/meetings/2026-09-11-transactional-mvp1-scope-and-priorities.md|Sept-11 8:04 call]]:** Irina asked "[н]ам нужно через эклипс сертифицировать… машину или[…] это только машину[,] всё" and Val confirmed "[т]олько машину" — **only the machine goes through Eclipse**, not the transactional devices — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 
+## Update, Sept 30 2026 — the recycler is shipping to Minsk and lands in a probable MVP 3
+
+At the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-modem-supply.md|Sept-30 8:03 AM MVP 1 call]] (Russian) [[wiki/people/andrei-klimovich.md|Klimovich]] asked: "а [ресайклер] к вам ездит тот, который мы здесь решили использовать" [[wiki/people/pavel.md|Pavel]]: "Да… Уже едет… он недавно выехал, но через пару недель он приедет" — the chosen bill recycler (not named on tape) is on its way to Minsk, about two weeks out. [[wiki/people/alexander-biratka.md|Biratka]]: "Это будем в рамках проекта [flexre shitler], да?" — Pavel: "Да" (read as the Flex Recycler project — **inference**); "это какой [MVP] у нас" — Pavel: "3 будет"; Klimovich: "3 3 полагаю да" [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]].
+
+The titular ruling holds — not MVP 1, not MVP 2 — and now has a probable home: **MVP 3**, said as "полагаю", not decided. Biratka: "оно тоже как бы не проработано, да пока что надо будет" — the project is not worked out yet. The derived notes read it the same way ("probably MVP3") [[raw/Meeting_Notes_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]. The MVP 2 shape Pavel gave on the same call — FlexPay only, plus Wi-Fi — is on [[wiki/decisions/2026-09-09-one-transactional-unit-per-location-until-the-wi-fi-iteration.md]] (Sept-30 update).
+
 **§15.8:** clear — scope, schedule and process only; no named-person compensation.
 
 ## Sources
 - [[raw/Meeting_Notes_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
 - [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]

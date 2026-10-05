@@ -4,7 +4,7 @@ title: Mikhail Perelman
 date: 2026-07-13
 aliases: [Mikhail Perelman, Misha, Миша, Mikhail, Michael]
 disambiguation: "Procurement Manager (parts/vendors/shipments; the retrofit-lead "Misha"). Misha/Michael cluster (2, owner-ruled): [[wiki/people/michael-gottlieb.md|Michael Gottlieb]]=Senior VP Game Design / [[wiki/people/mikhail-perelman.md|Mikhail Perelman]]=Procurement Manager (the "retrofit Misha"). Resolve by context; queue if none."
-source-count: 14
+source-count: 15
 open-commitments: 3
 open-questions: 2
 ---
@@ -101,8 +101,13 @@ On the [[wiki/meetings/2026-09-23-open-purchase-order-payment-walkthrough.md|Sep
 
 On the [[wiki/meetings/2026-09-24-hardware-repo-bom-source-of-truth-and-street-cabinet-layout.md|Sept-24 4:38 PM alignment call]], [[wiki/people/genadi-peari.md|Genadi]] named "Mikhail" among the people who use his part-number Excel ("for Felipe, sales people, Lev, Mikhail") and among those who can mark a new revision in BC ("или Михаил или я"). He also said "Misha" had bought a small number of LTE modules, which are now hard to buy locally (count garbled). All three mentions are read as Mikhail Perelman by the procurement/parts context — inference. [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
 
+## Sept 30 2026 (in absentia) — "you tell Michael which lock he orders" (inference)
+
+On the [[wiki/meetings/2026-09-30-github-to-msbc-bom-flat-list-bridge.md|Sept-30 10:00 AM GitHub-to-MSBC meeting]] Val, arguing that nothing in a machine is improvised, said to Genadi: "You specify the hole, you specify the lock, and you tell Michael which lock he orders, and you tell Elizabeth which lock goes where." "Michael" is read as Mikhail Perelman by the ordering/procurement context — inference. It places him as the one who orders purchased parts off Genadi's specification, consistent with the Apr-28 2025 PO role model above [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]].
+
 ## Sources
 
+- [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]

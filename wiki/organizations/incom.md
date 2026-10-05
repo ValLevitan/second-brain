@@ -3,7 +3,7 @@ type: organization
 title: Incom (payment processor)
 date: 2025-02-27
 aliases: [Incom, InComm, SkillPay launch email, hold off for two years, we will take the card away from you, Intum, they totally misled me, InComm's credit, that shift in opinion has only happened recently, black prize play card, white card ATM functionality, replace InComm on the back end, backend displacement, Incomm, Income, NCOM, Incom Payments, wrapped card rule, PAX, PAX 80, reloadable gift cards, Nathan Carver, cash-back commission, barcode activation, Mastercard rules, ABA number, MLH fee sharing, kicked to the curb, InComm doesn't offer any profit sharing, they've ignored us before during and after the show, sponsor bank behind InComm, 120 million a year, the easy living guys, daily cap five k, velocity calculated on the fly, it still says soon, InComm is the master guy, sub accounts, they actually buy bonds, biggest issuer, blue card, black card, billion-dollar gorilla, two dollars to load]
-source-count: 83
+source-count: 84
 open-commitments: 16
 open-questions: 12
 ---
@@ -700,6 +700,12 @@ To the unnamed adviser that afternoon Val did not name InComm; he said only that
 
 **§15.8:** clear. **Personal matters not recorded.** **§15 #9:** none.
 
+## Sept 30 2026 — InComm as a possible financier of the JV, with a first right of refusal; "at least two more parties"
+
+On the [[wiki/meetings/2026-09-30-larry-sharon-single-entity-jv-and-100-machine-pilot.md|Sept-30 8:42 AM call]], [[wiki/people/larry-sharon.md|Larry Sharon]] — who remembered InComm as the "potential buyer for this business down the road" from the lunch — proposed going to InComm as well as to banks once the 100-machine proof is done: "We want to put out two thousand, five thousand, seven thousand more machines. We're willing to give you first right of refusal on a… future acquisition of this business. Would you be interested in financing this business?… at a normal interest rate with… the opportunity to buy it in the future." He would also "Tell them what the idea is in terms of becoming the financial tool booth. I think they can help there as well." (His first renderings of the name are "income" and "2M's income" — garbles; he later says "InComm".) Val's reply: "Income has two competitors" — one he could not name with certainty ("I think it's Blackwater… I might be misquoting"; Larry's "BlackRock and a Blackstone" were "Completely different"), and "NCR… NCR is being purchased right now by Brinks… They have actually a product that we might even bring on board afterwards." Larry: "we don't just have to go to InComm. We can go to three different parties." Val: "At least, at least two more parties." Ruling on [[wiki/decisions/2026-09-30-a-100-machine-trial-first-then-bell-bank-seacoast-and-possibly-incomm-finance-the-rest.md]]; NCR on [[wiki/organizations/ncr-atleos.md]] (Sept 30) [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]].
+
+**§15.8:** clear. **§15 #9:** none.
+
 ## Open questions (Sept 25 2026)
 
 - **Does the Blue Card (Skill Pay) go forward at all, and what does InComm answer to GAMOA?** Val assumes not; John: "we'll see" — [[raw/Meeting_Transcript_InComm_John_Exit_and_Blue_Card_Hold-September-25-2026.md]]
@@ -821,3 +827,4 @@ To the unnamed adviser that afternoon Val did not name InComm; he said only that
 - [[raw/Meeting_Transcript_InComm_John_Exit_and_Blue_Card_Hold-September-25-2026.md]]
 - [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Equipment_Depreciation_Investor_Pitch-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]]

@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий, Kenadi]
-source-count: 104
+source-count: 108
 open-commitments: 31
 ---
 
@@ -504,8 +504,33 @@ On the [[wiki/meetings/2026-09-25-street-cabinet-deep-layout-and-service-door.md
 
 - [x] Genadi Peari — finish IQ, Slim, IQ again and the printer (week of Sept 14), then start the street cabinet — due Sept 23 2026 — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]] — **discharged Sept 23 2026:** he started the cabinet that day ("Я могу начинать стрит кабель" — "можете начинать") and said almost nothing was left on him. [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
 
+## Sept 30 2026 (10:00 AM) — the GitHub-to-MSBC meeting: "Perfect" on parts and part numbers, "I cannot comprehend" on the BOM, and "we don't want to be first"
+
+On the [[wiki/meetings/2026-09-30-github-to-msbc-bom-flat-list-bridge.md|Sept-30 10:00 AM GitHub_to_MSBC_BOM_Integration meeting]] (English) with Val, [[wiki/people/nathan-carver.md|Nathan Carver]] and [[wiki/people/lev-rudky.md|Lev Rudky]] [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]:
+
+- **He accepted the engineering half again, and the border rule.** "I fully support first part of your description when we keep all the engineering information in Github, including… Parts, specifications, drawings, designs of the printed circuit boards, mechanical designs… No questions." To Val's "Engineers are never allowed. To change anything in Msbc": "And should we command this?" — and "Understood" when Val restated the "non-penetrable border". See [[wiki/decisions/2026-09-30-engineers-never-change-msbc-and-administration-never-changes-github.md]].
+- **He accepted the part-number flow.** On his own test case ("tomorrow we need South Dakota, we need to supply cable for light and wonder. I need to create the part number"), Val's answer — Claude reads the standard in the standards repo, assigns the number, pushes it to MSBC once — got "Perfect" and "OK, good. No, no questions… I can create it in Github. It's perfect. Or Msbc, it doesn't matter." See [[wiki/decisions/2026-09-30-a-new-part-number-is-assigned-by-claude-from-the-standard-in-github-and-pushed-to-msbc-once.md]].
+- **He agreed to the flat list, and still not to the BOM.** "If you keep all the database of the flat list in Github. Perfect. No argue. But why you need to keep in Github? You take two of these and three of these. You can keep it in Msbc. You keep all the revision, all the history in Github." His ten-locks example ("tubular lock or flat key… different types of cams") ended in "We have 10 part numbers in Github for different logs… this is doable… It just will be kept in the Github." But: "I cannot comprehend how it's possible, in what format we can keep all the bill of materials in Github"; to Nathan, "what rule you will apply for converting… If each bill of material is different, how you can create the rule?"; "I really don't see the advantage here, but… Maybe I don't understand." See [[wiki/decisions/2026-09-23-the-bom-source-of-truth-is-the-latest-design-in-github-and-sync-runs-one-way.md]] (Sept-30 update).
+- **He proposed the phases.** "I would go with… Few iterations. We'll start with the database to keep in Github. And then, next step would be to deal with all the bill of materials" — and "Maybe we should check our best practices before we start the deep investigation… we don't want to be first in this investigation." Nathan took both.
+- **How he builds a BOM today, in his words.** "The SolidWorks is just a tool to create mechanical parts. It just shape and the drawings"; "I do not have in the SolidWorks source of all fasteners, all the tapes, locks, wires… otherwise it's very heavy… I need a powerful computer"; a designed part gets its number in SolidWorks, which he enters in MSBC by hand "after the project is done"; a washer "we need 6… I add the instance. This part number multiply 6. It's not during the design, it's during the building bill of material."
+- The meeting ended with Val taking him into a separate meeting ("I'm going to invite Genadi to the different meeting") — the 12:04 PM recording below.
+
+**§15.8:** Val's exasperated remarks at him mid-call are not recorded. **§15 #9:** none.
+
+## Sept 30 2026 (12:04 PM) — the SolidWorks-to-flat-list follow-on, parked after two minutes
+
+The separate meeting, titled "How to get from Solid Works mechanical design tool to a flat list of parts" ([[wiki/meetings/2026-09-30-solidworks-flat-parts-list-parked.md]]), lasted two minutes. Genadi opened with one garbled line — "Series of SolidWorks is a chair, bill of material parts, chips, coils" — Val asked "Can I call you back?", reacted to something outside the meeting (cause not stated), and said "They might have to park this conversation"; Genadi: "Thanks" [[raw/Meeting_Transcript_Solid_Works_Flat_Parts_List_Parked-September-30-2026.md]]. Nothing was discussed; the notes list the subject as an open question, "Not discussed; conversation parked" [[raw/Meeting_Notes_Solid_Works_Flat_Parts_List_Parked-September-30-2026.md]]. The question sits on [[wiki/decisions/2026-09-23-the-bom-source-of-truth-is-the-latest-design-in-github-and-sync-runs-one-way.md]] (Sept 30, 12:04 PM). **§15.8:** clear. **§15 #9:** none.
+
+## Sept 30 2026 (in absentia) — with the modem suppliers, and a spare-parts email coming his way
+
+On the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-modem-supply.md|Sept-30 8:03 AM MVP 1 call]] (Russian; he was not present) Pavel: "гена активно работает с поставщиками [sere virles]" (a supplier name, garbled; the notes read Sierra Wireless), "потому что когда начали, реально вышли на рынок и сказали, нам надо 100 модемов. То ктото говорит не у нас только 5 или у нас только 10. А ктото говорит 1000 мы с вами не работаем"; he is working out "с какими какие нам модели предложат этот поставщик", most likely new models since the current ones are end of life. Klimovich will start an email to him and Val to bring the Minsk spare-parts set up to date — "вы там уже сами расскажете геннадию, что у вас есть, он скажет, что вам ещё имеет смысл дослать"; Biratka also wondered whether "гена может там чтото похожее дать" for a FlexPay case. See [[wiki/decisions/2026-09-04-north-america-modem-variant-and-ask-kore-for-the-apn.md]] (Sept-30 update) and [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 30, 8:03 AM) [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]].
+
 ## Sources
 
+- [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]
+- [[raw/Meeting_Notes_Solid_Works_Flat_Parts_List_Parked-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Solid_Works_Flat_Parts_List_Parked-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]]
 - [[raw/Meeting_Transcript_Flex_Pay_Slim_Lid_and_Wiring_Critique-September-17-2026.md]]
 - [[raw/Meeting_Notes_Flex_Pay_Slim_Lid_and_Wiring_Critique-September-17-2026.md]]

@@ -3,7 +3,7 @@ type: organization
 title: NCR Atleos (ReadyCode cardless ATM network)
 date: 2026-09-22
 aliases: [NCR Atleos, NCR, NCRA, ReadyCode, Ready Code, Redigo, ReadyGo, ReadyCo, NCR Outlets, National Cash Register, Cardtronics, Waypoint, pre-staged transaction, PlayStation transaction, mini network, surcharge-free network, all point surcharge free]
-source-count: 3
+source-count: 4
 open-commitments: 5
 open-questions: 5
 disambiguation: "NCR Atleos = the ATM-network company (ReadyCode cardless cash in / cash out). An earlier transcript's 'NCR/Cruz' was a garble for NTS / Ryan Cruz (see wiki/organizations/nts-nebraska-technical-services.md) — not this company. The NCR 'dispenser' price on wiki/topics/flexpay-business-architecture-payout-devices.md refers to NCR as a maker of cash dispensers, not to this network deal."
@@ -71,6 +71,10 @@ Carlos first refused — "We haven't dived into the commercials" — then gave n
 - **JVL's route to the player** is the AFT insert and a JVL app — see [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 22). [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]]
 - **Next step:** a commercial call. Carlos: "I'll meet with with our internal teams… That's the next discussion. It's a commercial discussion." [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]]
 
+## Sept 30 2026 — named by Val as an InComm competitor "being purchased right now by Brinks" (as said, not checked)
+
+On the [[wiki/meetings/2026-09-30-larry-sharon-single-entity-jv-and-100-machine-pilot.md|Sept-30 8:42 AM call]] with [[wiki/people/larry-sharon.md|Larry Sharon]], when Larry proposed asking InComm to finance the JV, Val named NCR as one of InComm's competitors: "another one is you will know that company for sure called NCR. Okay. NCR is being purchased right now by Brinks. Okay. Because they shifted more more aligned with my business that I'm building now. Okay. They have actually a product that we might even bring on board afterwards. I spoke." Whether "NCR" here means NCR Atleos (this page) or another NCR company is not said; the Brinks purchase is recorded as Val's statement, not verified. The "product" is by context ReadyCode (see above) — **inference**. See [[wiki/organizations/incom.md]] (Sept 30) [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]].
+
 ## History
 
 - **Jul 1 2025 — InComm's own NCR deal.** At the Toronto product-strategy meeting, InComm's John described a cash-pickup code printed on the game receipt and collected at an ATM, with a deal "signed last week with NCR" (see [[wiki/organizations/incom.md]], July 1–2 2025). The Sept 22 2026 call does not mention this deal. [[raw/incomm_product_discussion-july-1-2025-4.md]]
@@ -98,3 +102,4 @@ Carlos first refused — "We haven't dived into the commercials" — then gave n
 - [[raw/Meeting_Notes_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]]
 - [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]]
 - [[raw/incomm_product_discussion-july-1-2025-4.md]]
+- [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]]

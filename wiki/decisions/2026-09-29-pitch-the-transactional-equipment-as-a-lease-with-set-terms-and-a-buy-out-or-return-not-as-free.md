@@ -3,7 +3,7 @@ type: decision
 title: The transactional equipment is pitched as a lease with set terms and a buy-out or return at the end — "we do nothing for free; $150 minimum" — and 3/4/5/7/10-year terms get modelled
 date: 2026-09-29
 aliases: [lease not free, we do nothing for free, $150 minimum, BMW lease, car lease framing, return in good working condition or buy it out, predetermined buy-out price, three four five seven ten years, lease term scale, let them choose, I got stuck on my own bullshit, shove it down their throats as a lease, lifetime contract with exit fee]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 1
 open-questions: 2
@@ -37,9 +37,13 @@ Proposed by [[wiki/people/larry-sharon.md|Larry Sharon]] and adopted by [[wiki/p
 - It is a different instrument from the Sept-16 doctrine "extend terms rather than cut the number" on [[wiki/topics/jvl-machine-pricing-strategy.md]] — here the term is the product.
 - Pricing of short terms is not settled: Val floated "если ты хочешь три года, мы тебе даем там за сто девяносто девять долларов" ($199 for three years); Larry: "three seems very low" (as an option) [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]].
 
+## Sept 30 2026 update — "Let's call them leases from now on"; tables for 3, 5, 7 and 10 years
+
+On the [[wiki/meetings/2026-09-30-larry-sharon-single-entity-jv-and-100-machine-pilot.md|Sept-30 8:42 AM call]] Larry confirmed the instrument by name — "the Excel tables showing three, five, seven, and ten year terms on the leases that we'd be. Let's call them leases from from from now on. On the leases that we're gonna be providing to… the distributors" — and said he would send the tables "today". The **4-year** term of the Sept-29 list is not mentioned; recorded as a change in the list, not an error. The investor structure behind the lease changed the same morning (one JV entity; JVL invoices the real $4,000) — see [[wiki/decisions/2026-09-30-one-jv-entity-a-florida-llc-50-50-with-a-special-allocation-of-depreciation-and-jvl-invoices-the-real-4000.md]] [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]].
+
 ## Open commitments
 
-- [ ] Larry Sharon — build and send the pricing models for the 3, 4, 5, 7 and 10-year terms ("I'll build out all of those models… later tonight I'll send you the models across the different yearly amounts") — due later Sept 29 or Sept 30 2026 — [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]]
+- [ ] Larry Sharon — build and send the pricing models for the 3, 4, 5, 7 and 10-year terms ("I'll build out all of those models… later tonight I'll send you the models across the different yearly amounts") — due later Sept 29 or Sept 30 2026 — [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]] *(Sept 30, 8:42 AM: restated as tables for "three, five, seven, and ten year terms", with the structure, "I'm sending everything to you today" — still open [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]])*
 
 ## Open questions
 
@@ -51,3 +55,4 @@ Proposed by [[wiki/people/larry-sharon.md|Larry Sharon]] and adopted by [[wiki/p
 ## Sources
 - [[raw/Meeting_Notes_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]]

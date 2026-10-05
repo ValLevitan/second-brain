@@ -3,9 +3,9 @@ type: decision
 title: Testing starts September 15 with the negative cases first, and Flex-Ports must be proved in borrowed non-JVL machines — fake-commissioned, tracked as a separate Jira item from JVL-machine testing
 date: 2026-09-09
 aliases: [negative cases first, door open, borrow a machine fake commission it, Aristocrat and Light and Wonder, at least one or two machines, two separate records, two different router manufacturers, no Chinese manufacturer, stay away from Cisco, ten port router, storm through the test, bracket drawings to Genadi]
-source-count: 7
+source-count: 9
 status: active
-open-commitments: 8
+open-commitments: 6
 open-questions: 2
 ---
 
@@ -108,9 +108,20 @@ At the [[wiki/meetings/2026-09-29-transactional-mvp1-setup-instructions-and-mikr
 
 ### Open commitments (Sept 29 2026)
 
-- [ ] [[wiki/people/ivan.md|Ivan]] — put his set-up instruction into Confluence as separate pages, and try to attach the SAS tool zip there with the link in the instruction — due about Sept 30 2026 (Klimovich: "если у нас завтра всё готово") — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
-- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — tell Ivan where his old Flex-Port flashing instruction is, and update it to the current state in the same style, in Confluence — due unspecified ("займусь параллельно") — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
-- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — once the instructions are in Confluence, send them to Elizabeth so she builds the full set-up in Georgia — due after the instructions land — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+- [x] [[wiki/people/ivan.md|Ivan]] — put his set-up instruction into Confluence as separate pages, and try to attach the SAS tool zip there with the link in the instruction — due about Sept 30 2026 (Klimovich: "если у нас завтра всё готово") — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]] — **discharged Sept 30 2026:** the instruction sits in Confluence beside Khamin's ("рядом… лежала инструкция вани"); its pictures broke ("превью [unavailable]") and he restored them by the end of the call; the emulator he had posted goes as an archive in a comment at the foot of the page ("Араровский архив… в комментарии… внизу" — read as the SAS tool, **inference**) — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
+- [x] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — tell Ivan where his old Flex-Port flashing instruction is, and update it to the current state in the same style, in Confluence — due unspecified ("займусь параллельно") — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]] — **discharged Sept 30 2026:** "Алексей сегодня добавил, прислал ссылку" — the updated Flex-Port instruction is in Confluence — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — once the instructions are in Confluence, send them to Elizabeth so she builds the full set-up in Georgia — due after the instructions land — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]] — *Sept 30 2026: all three are in or due in Confluence today; "завтра… Элизабет может начать"* — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
+
+## Update, Sept 30 2026 — all three instructions are in Confluence, and Elizabeth starts the Georgia set-up tomorrow with a shared chat behind her
+
+At the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-modem-supply.md|Sept-30 8:03 AM MVP 1 call]] (Russian) [[wiki/people/andrei-klimovich.md|Klimovich]] walked the Confluence space on screen [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]:
+
+- **The Flex-Port instruction** — [[wiki/people/alexei-khamin.md|Khamin]]'s, added that day — sits "в [FlexPay] [technical space]"; Khamin: "она должна располагаться… на одном уровне с [FlexPay] и [Flex IQ]. [Э]то отдельный продукт все таки." Klimovich: "имеет смысл… вынести это на уровень выше" — he found the folder and will move it and post where it lies. On [[wiki/topics/docs-as-code-and-atlassian-exit.md]] (Sept 30).
+- **Ivan's instruction** is beside it; pictures showed "превью [unavailable]" for Klimovich and Khamin; by the end [[wiki/people/ivan.md|Ivan]]: "Я картинки вернул" — see the discharged commitment above.
+- **The Flex IQ instruction** — the old SD-card one was in Confluence, not Git; [[wiki/people/dmitri-chudinov.md|Chudinov]] took it on, due that day — on [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Sept-30, 8:03 AM update).
+- **Tomorrow.** "у нас тогда есть все 3 элемента инструкции. Это значит, что там завтра… Элизабет может начать делать тестовый сетап в джорджии по всем этим мануалам." Her questions go to a shared Teams chat — [[wiki/decisions/2026-09-30-elizabeths-georgia-set-up-questions-go-to-a-shared-teams-chat-not-one-person.md]].
+
+**Against the rule above.** The Sept-25/29 order holds: Elizabeth's full set-up on JVL's own machine first, other makers' machines after. The Sept-15 start never happened and no date for borrowed machines is given; Felipe's Sept-9 machine commitment is again not mentioned. The derived notes read the day the same way [[raw/Meeting_Notes_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]].
 
 ## Sources
 - [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
@@ -120,3 +131,5 @@ At the [[wiki/meetings/2026-09-29-transactional-mvp1-setup-instructions-and-mikr
 - [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]

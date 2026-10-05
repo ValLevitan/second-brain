@@ -3,8 +3,8 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 41
-open-commitments: 5
+source-count: 42
+open-commitments: 7
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
 
@@ -156,7 +156,25 @@ On the [[wiki/meetings/2026-09-23-texas-flex-slim-release-street-cabinet-and-bom
 
 At the start of the [[wiki/meetings/2026-09-24-hardware-repo-bom-source-of-truth-and-street-cabinet-layout.md|Sept-24 4:38 PM alignment call]] on the BOM and the GitHub–MSBC link, Genadi asked "Is there Nathan also joining?"; Val: "No, Nathan is not joining." [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
 
+## Sept 30 2026 — the GitHub-to-MSBC meeting: "a build script", and he takes the experiments, items first
+
+On the [[wiki/meetings/2026-09-30-github-to-msbc-bom-flat-list-bridge.md|Sept-30 10:00 AM GitHub_to_MSBC_BOM_Integration meeting]] (English; Val, [[wiki/people/genadi-peari.md|Genadi]], [[wiki/people/lev-rudky.md|Lev]]) — the meeting Val had promised on Sept 23 — Nathan was the one asked to make the bridge work [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]:
+
+- **His framing.** "these are similar to a… Build script. your whatever structure is needed to maintain. That within Github and then have a build that translates that into a data structure that can be pushed to Msbc. So there may be a middle step that is automated, translating what Genadi is seeing and managing into something that the application can sync back and forth with Msbc."
+- **What he needs.** "examples or actual actual BOM structures that you're using now. What does flat versions look like, and then… we look at the structure within Msbc and determine what are the median steps that we have to take to convert that automatically." "Is it a convention that's followed across every file? What kind of one-off cases might there be?… the more it's following a convention or a standard… the easier it will be for an automated process to read them." He has "development Msbc instances that we can use". Genadi's workflow "doesn't change much" — "just ensuring that everything is built consistently."
+- **His read of the rule.** "Engineers are not going to go into Msbc and enter this information. So then we do need some way to structure a BOM outside of Msbc so it can be. Programmatically added." And, after Lev: "that's accounting, entering that information… we have to map all the account codes to that item, all the other outside of engineering work."
+- **He took the phases.** "So start with just maintaining items and updating those first before going into bill of materials… I can experiment in phases and figure out what we can and can't do, what it might look like. to maintain that in Github." To Genadi's "check our best practices… we don't want to be first": "Yeah, I agree with that… how are people entering this into Msbc? What are examples I can use?" His end state: "once we have clarity on both ends, the input, the output, we can start to build that automated bridge between them."
+- Val released him before the end: "I need to let Lev and Nathan go because I'm just burning their hours." Nathan: "Okay, sounds good."
+
+Rulings on [[wiki/decisions/2026-09-30-engineers-never-change-msbc-and-administration-never-changes-github.md]] and [[wiki/decisions/2026-09-30-a-new-part-number-is-assigned-by-claude-from-the-standard-in-github-and-pushed-to-msbc-once.md]]; the contested BOM half on [[wiki/decisions/2026-09-23-the-bom-source-of-truth-is-the-latest-design-in-github-and-sync-runs-one-way.md]] (Sept-30 update). This picks up the Aug-12 assignment above (owner of the GitHub→BC sync service). **§15.8:** clear — "burning their hours" is a process remark; no rate is stated.
+
+## Open commitments (Sept 30 2026)
+
+- [ ] Nathan Carver — experiment with the GitHub-to-MSBC bridge in phases, items first, then bills of material, using the development MSBC instances; trace an existing MSBC BOM back to its items and work out what it would look like in GitHub — due unspecified — [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]
+- [ ] Nathan Carver — check how others handle an engineering-to-BC item/BOM sync before the deep investigation — due unspecified — [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]
+
 ## Sources
+- [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]
 - [[raw/Meeting_Notes_Payment_Hub_GL_Sales_Tax-May-12-2026.md]]
 - [[raw/Nate_Val_Sync-March-11-2026.md]]
 - [[raw/Claude_set-up_GitHub_Front_End-February-11-2026-part-3.md]]

@@ -3,7 +3,7 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention, installment payments, aged receivables, Customer Ledger Entries, category-based terms, subscription module, parts vs machines terms, Black Horse Entertainment, Sales Watch, import duties tax category, landed cost, tax category, assembly BOM, production BOM, BOM history, BOM sync robot, tag stamp on item card]
-source-count: 71
+source-count: 72
 open-questions: 4
 ---
 
@@ -418,7 +418,21 @@ Six weeks after the Aug-12 design, the same two people argued it again on the [[
 
 The next day, on the [[wiki/meetings/2026-09-24-hardware-repo-bom-source-of-truth-and-street-cabinet-layout.md|Sept-24 4:38 PM alignment call]] (Val and [[wiki/people/genadi-peari.md|Genadi]]), Val read out his written rule: GitHub's latest released design is the one source of truth for product structure; "Business Central holds a copy of that structure. Plus, everything commercial"; data flows one way, GitHub to BC; if they disagree, "GitHub is right and BC gets corrected." Vendors, prices, lead times, packaging, labour and consumables stay in BC. Val's research question is how to build the BOM **in BC, automatically**, with GitHub as the source for every component; Val and Genadi will try a test BOM on the new Slim. Genadi showed today's practice — a Flex machine in BC with modules, top assembly and parts, and a new revision entered at quantity zero until old stock runs out. Full detail on [[wiki/decisions/2026-09-23-the-bom-source-of-truth-is-the-latest-design-in-github-and-sync-runs-one-way.md]] (Sept-24 update). [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
 
+## Sept 30 2026 — the GitHub-to-MSBC meeting: one flat list in GitHub, the BOM grouped in MSBC, and a new item needs accounting fields too
+
+The follow-up Val had promised on Sept 23 — [[wiki/meetings/2026-09-30-github-to-msbc-bom-flat-list-bridge.md|Sept 30, 10:00 AM, "GitHub_to_MSBC_BOM_Integration"]] (English) with [[wiki/people/genadi-peari.md|Genadi]], [[wiki/people/nathan-carver.md|Nathan Carver]] and [[wiki/people/lev-rudky.md|Lev]]. The BC-side points [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]:
+
+- **What stays in MSBC.** "The supplier. Information. financial information, banking information, address, contact information for the supplier, active supplier. He is located and updated inside of the Msbc" — and "Engineers are never allowed. To change anything in Msbc." Ruling: [[wiki/decisions/2026-09-30-engineers-never-change-msbc-and-administration-never-changes-github.md]].
+- **What MSBC receives.** A flat list from GitHub (Val: "a flat list is 550 nominations" for one machine), grouped into assemblies inside MSBC — Val wants that grouping automated; Genadi says production orders need real sub-assemblies in MSBC ("monitor assembly. It has to be this assembly in the Msbc") and would rather build the BOM in MSBC with the item database and history in GitHub. Not settled — on [[wiki/decisions/2026-09-23-the-bom-source-of-truth-is-the-latest-design-in-github-and-sync-runs-one-way.md]] (Sept-30 update).
+- **Navision, in Val's words.** "Navision was designed 50 years ago, got obsolete 30 years ago, and was taken offline 20 years ago, and now practically dead. So whatever methodology Navision used, we kind of inherited and trained our minds to use Navision."
+- **Lev's point — an item is more than engineering data.** A part number created in BC carries "all kinds of BC classifications… which has nothing to do with engineering. It's various posting groups, things like that, dimensions", inventory type, and units of measure ("if there is… a new unit of measure for some part, it has to be initialized in the system and has to be accommodated during transfer as well"). So a new part number has "Two sources of input" — engineers and somebody else. Val: "Nothing changes, it's still the same. Today, we require two or three people participating in. Creating a proper. Part number in BC. Except we do it part by part manually." Ruling and caveat on [[wiki/decisions/2026-09-30-a-new-part-number-is-assigned-by-claude-from-the-standard-in-github-and-pushed-to-msbc-once.md]].
+- **Nathan's method.** Experiment in phases — items first, BOMs after — in "development Msbc instances"; "take an existing BOM and Msbc. trace it back to all of its items and come up with a way, okay, what would this BOM look like in Github?"; "we have to map all the account codes to that item". Genadi asked to check best practice first; Nathan agreed.
+- **Today's practice, from Genadi.** SolidWorks holds only the parts JVL designs ("I do not have in the SolidWorks source of all fasteners, all the tapes, locks, wires"); a designed part gets its number in SolidWorks and he enters it in MSBC by hand after the project; standard parts ("washer… multiply 6") are added at BOM-building time. Compare the Apr-6 top-level part-number fix above, which this does not change.
+
+The meeting ended early — "I'm just burning their hours" — and Val took Genadi into a separate meeting (not among this unit's sources). **§15.8:** clear. **§15 #9:** clear — "highly confidential banking information" for a vendor is named as a category only.
+
 ## Sources
+- [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]
 - [[raw/Meeting_Transcript_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]]
 - [[raw/Meeting_Notes_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]]
 - [[raw/Meeting_Transcript_BofA_Treasury_MS_Dynamics_Integration-August-27-2026.md]]

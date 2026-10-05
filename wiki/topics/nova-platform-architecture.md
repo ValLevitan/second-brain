@@ -3,7 +3,7 @@ type: topic
 title: NOVA platform architecture (JVL land-based gaming platform)
 date: 2026-05-12
 aliases: [NOVA, NOVA platform, NOVA gaming platform, land-based platform, land-based gaming platform, services architecture, library-to-service decomposition, Chief Architect NOVA, Unix-socket services, per-service repositories, packaged games, AMQP CMS protocol, capabilities from prose, prose standard, LGS prose, repo to Jira linkage, module contracts, NOVA integration repository, knowledge repository]
-source-count: 61
+source-count: 63
 open-commitments: 47
 open-questions: 26
 disambiguation: "NOVA is the named successor of the 'Omni' land-based platform code-word — do not conflate NOVA (this on-cabinet services platform) with the Omni game-templating / Rage→Omni content transition tracked on [[wiki/topics/omni-core-advancement-and-game-templating.md]]."
@@ -524,7 +524,11 @@ At the [[wiki/meetings/2026-09-29-daily-standup-firmware-reissue-and-modem-gatew
 
 ### Open commitments (Sept 29 2026)
 
-- [ ] Daniil Stauskiy (no page) — finish and commit the game-select stories with stub names in place of assets — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+- [ ] Daniil Stauskiy (no page) — finish and commit the game-select stories with stub names in place of assets — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]] — *Sept 30 2026: "Вчера закончился фичами… 1384 85" — two features finished; whether they are the Sept-29 stories (heard as 1483/1484) is unclear, so not marked discharged* — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+
+## Sept 30 2026 — Daniil converts the select screen and game icons for NOVA
+
+At the [[wiki/meetings/2026-09-30-daily-standup-flexport-firmware-delivery-and-network-loss.md|Sept-30 Minsk stand-up]] (Russian) Daniil Stauskiy (no page): "Вчера закончился фичами… 1384 85. Сегодня продолжаю работать с [capability] 228 взял обработку новую [фичу]… 1486. Занимаюсь сейчас конвертом [селект] скрина и иконок игр [в NOVA]" (prefixes garbled; the derived notes read features 1384, 1385 and 1486 under capability 228 [[raw/Meeting_Notes_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]). Pavel: "если тебе помощь надо… можешь к Игорю обращаться или к саше биратко" — "Игорь" is **not resolved** between the Igors (the same unresolved "Игорь" with a game-select screen of Sept 28); Sasha = [[wiki/people/alexander-biratka.md|Biratka]] [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]. This continues the Sept-28/29 select-screen thread above; whether the Dragon Rain access was opened is still not said.
 
 ## Sept 29 2026 (10:06 AM) — two development environments, one skeleton: the RK3568 SDK's state, the dependency on Pavel, the AMD spike, and the RK3576 branch
 
@@ -547,6 +551,8 @@ The derived notes read the same way [[raw/Meeting_Notes_Dev_Environments_RK3568_
 - [[raw/Meeting_Transcript_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]]
 
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]

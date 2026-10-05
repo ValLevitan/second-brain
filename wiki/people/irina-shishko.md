@@ -4,7 +4,7 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 116
+source-count: 118
 open-commitments: 34
 ---
 
@@ -543,7 +543,7 @@ At the [[wiki/meetings/2026-09-25-ris-mvp1-factory-reset-reduction-plan.md|Sept-
 
 ## Open commitments (Sept 28 2026)
 
-- [ ] Irina Shishko — re-judge the autotest finish date after a couple of days — due about Sept 30 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [ ] Irina Shishko — re-judge the autotest finish date after a couple of days — due about Sept 30 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]] — *Sept 30 2026: "неплохо… тесты проходят"; no new date given* — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [ ] Irina Shishko — meet Vladimir Samusenko after the stand-up to agree when he joins the autotests, and re-plan; close unneeded features and tasks in Jira — due Sept 28 2026 / unspecified — [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
 
 ## Sept 28 2026 (10:33 and 11:07 AM) — at the RIS review: acceptance criteria, and no autotests for it
@@ -581,7 +581,24 @@ At the [[wiki/meetings/2026-09-29-dev-environments-rk3568-sdk-amd-spike-and-ai-p
 - She pointed Pavel to a written reply from Alekseev ("Паша видела ответ Алексеева… Он там как раз пишет"); what it concerned is **unclear** on tape (see the stub). She confirmed Pavel's prose check was about the RK repository ("это ты про рка говоришь всё?"). On the RK3576 staying in one repository with the RK3568: "А нужно?" — not answered. Rulings on [[wiki/decisions/2026-09-29-the-amd-environment-is-rebuilt-from-the-rk3568-sdk-pavels-ten-day-spike-and-the-rk3576-waits.md]].
 - **At 10:31 AM**, on the AI project manager, after Pavel's "год назад казалось, что [AI] это чисто помощник": "А теперь ещё кто кого ведёт?" — and now who leads whom. No reservations stated. See [[wiki/projects/ai-project-manager-and-company-second-brain.md]] (Sept 29, 10:31 AM) [[raw/Meeting_Transcript_Dev_Environments_AI_PM_Direction_Check-September-29-2026.md]].
 
+## Sept 30 2026 (4:57 AM) — the no-bill-validator case, and "take any unassigned task, as I do"
+
+At the [[wiki/meetings/2026-09-30-daily-standup-flexport-firmware-delivery-and-network-loss.md|Sept-30 Minsk stand-up]] (Russian) she passed on her own status ("Просто не буду дальше") [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]:
+
+- **Network loss.** "Есть ли порт потерял связь с айкю… [о]н становится… [out of service]… Машина продолжает играть, потому что можно бросить деньги через билвалидатор, но если нет бил валидатора, то тогда и машина тоже должна блокироваться." Pavel doubted locking for a short outage; "я же говорю, что машина продолжает работать." See [[wiki/decisions/2026-09-24-a-flex-port-that-dies-holding-money-sends-it-to-unclaimed-and-one-without-a-gateway-goes-out-of-service.md]] (Sept-30 update).
+- **Vladimir's task.** "ты можешь выбирать любую задачу из тех, которые на ванне алёша… так как я сейчас делаю. То есть на мне нет задач, но я просто их… нашла. Забрала." See [[wiki/decisions/2026-09-30-an-autotest-task-that-cannot-finish-goes-to-blocked-not-closed.md]].
+
+## Sept 30 2026 (8:03 AM) — "Андрей ты не прав": the shared chat; tests going well; one Flex IQ shared
+
+On the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-modem-supply.md|Sept-30 8:03 AM MVP 1 call]] (Russian) [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]:
+
+- **The folder.** She first proposed pulling Flex-Port out to its own level ("давай мы вытащим…"), "чтобы потом не было, что он потерялась"; and "всё остальное это устаевшее" of the old document. See [[wiki/topics/docs-as-code-and-atlassian-exit.md]] (Sept 30).
+- **The chat.** Against Bosik's single contact: she already is Elizabeth's single contact and then goes to find the answers; "Элизабет ещё пишет вечером"; "кто знает, тот отвечает и помогает быстрее" — the shared chat carried; "эту лекцию это я Андрею босику читала, а то я забыла, что ещё у нас 2 Андрея." See [[wiki/decisions/2026-09-30-elizabeths-georgia-set-up-questions-go-to-a-shared-teams-chat-not-one-person.md]].
+- **Autotests.** "с тестами получается, на мой взгляд, неплохо. Все подтянулись, пишут… тесты проходят"; against Pavel's "пользуйте эмуляторы": "не эмуляторы нужны, потому что не очень удобно. Мы просто вот сейчас айкью делим". See [[wiki/topics/test-automation-strategy.md]] (Sept 30, 8:03 AM). Pavel asked that she be on the spare-parts email.
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Dev_Environments_AI_PM_Direction_Check-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]

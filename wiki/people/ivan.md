@@ -3,8 +3,8 @@ type: person
 title: Ivan
 date: 2025-02-19
 aliases: [Ivan, Ivan Shpakov, Иван Шпаков, Ivan Shpak, Ваня]
-source-count: 20
-open-commitments: 7
+source-count: 22
+open-commitments: 6
 disambiguation: "JVL release manager (GLI submittals, release-candidate marks). Not the bank representative Ivan of the Sept-25-2026 CIBC call (surname Lucic per the notes) — see wiki/meetings/2026-09-25-cibc-ivan-lucic-600k-transfer-post-dated.md. Resolve by context: releases/GLI → this page."
 ---
 
@@ -132,7 +132,7 @@ At the [[wiki/meetings/2026-09-29-daily-standup-firmware-reissue-and-modem-gatew
 
 ## Open commitments (Sept 29 2026)
 
-- [ ] Ivan — rebuild and verify the modem fix once Kharetski's 4.50.2 build arrives — due unspecified (re-release not before Sept 30 2026) — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+- [ ] Ivan — rebuild and verify the modem fix once Kharetski's 4.50.2 build arrives — due unspecified (re-release not before Sept 30 2026) — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]] — *Sept 30 2026: not mentioned; Kharetski reported the Georgia fixes finished* — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [x] Ivan — send the instruction (PDF) by email before the later meeting that day — due Sept 29 2026 — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]] — **discharged Sept 29 2026:** at the 8:06 AM call Klimovich called it "этот документ, который ты сегодня прислал" — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
 
 ## Sept 29 2026 (8:06 AM) — he walks the team through the set-up instruction, and it goes to Confluence with the SAS tool
@@ -147,10 +147,28 @@ On the [[wiki/meetings/2026-09-29-transactional-mvp1-setup-instructions-and-mikr
 
 ## Open commitments (Sept 29 2026, 8:06 AM)
 
-- [ ] Ivan — put the set-up instruction into Confluence as separate pages — due about Sept 30 2026 (Klimovich: "если у нас завтра всё готово") — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
-- [ ] Ivan — try to attach the SAS tool zip to the Confluence instruction so all JVL staff can reach it; else find another place — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+- [x] Ivan — put the set-up instruction into Confluence as separate pages — due about Sept 30 2026 (Klimovich: "если у нас завтра всё готово") — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]] — **discharged Sept 30 2026:** Klimovich found "рядом… лежала инструкция вани" in Confluence; the pictures broke and he restored them — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
+- [x] Ivan — try to attach the SAS tool zip to the Confluence instruction so all JVL staff can reach it; else find another place — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]] — **discharged Sept 30 2026 (inference):** "В [эмуляторе], который я скинул… Араровский архив, чтоб он копировался. Я в комментарии добавил… внизу" — the emulator goes as an archive in a comment at the foot of the page; read as the SAS tool ("аккумулятор" = emulator, as throughout) — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
+
+## Sept 30 2026 — the remaining tests, Eclipse and "Alex", and the network-loss question
+
+At the [[wiki/meetings/2026-09-30-daily-standup-flexport-firmware-delivery-and-network-loss.md|Sept-30 Minsk stand-up]] (Russian; label "Ivan Shpak") [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]:
+
+- **Tests.** "Для протокола один 74, дальше без протокола" (garbled). "самый основной тест, который остался": "С прод с продсервером и должны были вытягивать инсталляцию и при этом… как тогда будет вести себя поиск прогресса в контроллер" (read as the progressive controller — **inference**); then "подключаю отдельную сеть" for the network tests. See [[wiki/topics/test-automation-strategy.md]] (Sept 30, 4:57 AM).
+- **Eclipse.** "что мы тогда делаем с [Эклипсом]? Ждём пока моего ответа я сразу договариваюсь с Алексом" — he waits for an answer, then arranges with "Алекс" (**not resolved**); what the Eclipse item is, is not said. See [[wiki/organizations/eclipse-gaming-lab.md]] (Sept 30).
+- **Network loss.** His reading — no tilt, collect allowed but fails with an error, a retry if the network returns, otherwise the credits stay on the machine — Pavel: "Да, я думаю что так." He does not set the "fault if SAS link down" checkbox: "никто не говорил, что нужно её ставить." See [[wiki/decisions/2026-09-24-a-flex-port-that-dies-holding-money-sends-it-to-unclaimed-and-one-without-a-gateway-goes-out-of-service.md]] (Sept-30 update).
+
+## Open commitments (Sept 30 2026)
+
+- [ ] Ivan — run the production-server install test with the progressive-controller behaviour, then the network tests on a separate network — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+
+## Sept 30 2026 (8:03 AM) — the pictures in his instruction, restored; the emulator as an archive in a comment
+
+On the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-modem-supply.md|Sept-30 8:03 AM MVP 1 call]] (Russian; label "Ivan Shpak") his instruction showed "превью [unavailable]" to Klimovich and Khamin; "у меня с утра, когда я это всё вкинулся, было хорошо, а сейчас тоже проблема"; he posted a link in the group, and by the end: "Я картинки вернул, посмотрите, пожалуйста." Pictures added in the page body "почемуто вот такой ерундой страдают", so the emulator he posted goes as an archive in a comment at the foot — Klimovich: "на скачку пошёл картинки подсосались тоже вижу." See [[wiki/topics/docs-as-code-and-atlassian-exit.md]] (Sept 30) [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]].
 
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 

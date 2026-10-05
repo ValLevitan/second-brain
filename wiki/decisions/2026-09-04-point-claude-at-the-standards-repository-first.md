@@ -3,7 +3,7 @@ type: decision
 title: Standing instruction — use the standards, add to the standards, and point your Claude at the standards repository first (Knowledge Base / Standards in GitHub, access verified for all 39 accounts)
 date: 2026-09-04
 aliases: [point your code at the standards, standards repository instruction, Knowledge Base Standards folder, 39 accesses verified, write narrow granular standards, moving away from Confluence]
-source-count: 8
+source-count: 10
 status: active
 open-commitments: 5
 open-questions: 1
@@ -74,6 +74,10 @@ On the [[wiki/meetings/2026-09-24-transactional-mvp1-flexport-money-loss-bugs-an
 - **ADRs go in docs.** Pavel: what he sees is "устаревший подход к [ADR;] по новому стандарту, наверное, [ADR] должен в докс лежать."
 - **Bosik owns it.** Val: "Вы можете на себя взять этот, чтобы мне не нужно было чейса туда?" Bosik: "Да да да, я сделаю все это."
 
+## Update, Sept 30 2026 (11:07 AM) — Efim is walked through the standards one-on-one
+
+On the [[wiki/meetings/2026-09-30-repo-standards-walkthrough-with-efim.md|Sept-30 11:07 AM "REPO standards" call]] Val applied the rule to [[wiki/people/efim-podvoiski.md|Efim Podvoiski]] in person. The transcript is mostly unreadable (Russian speech rendered as English, per the notes [[raw/Meeting_Notes_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]); what is readable is Val's "I pointed I pointed you to a repo standards", "standards, material", "it's for GitHub", and the subjects he ran through — "repository organ zone [organisation]… zero trust… data contract repository", "ADRs", "discussion", "Pull request pull request", "Claude Reviewer is to cache the pull request" (verb **unclear**; the notes read "checks"), "Local computer" — and, near the end, "it's a standard" and "I encourage you" [[raw/Meeting_Transcript_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]. No undertaking by Efim is readable, so none is recorded. *(The owner of the RGS / maths-engine codebase thus joins Metelski (Sept 4), Khamin (Sept 24) and the Minsk team in being pointed at the standards; whether Efim has read them, or has access, the source does not say.)*
+
 ## Open commitments
 
 - [ ] Everyone (engineering and the game team) — use the standards, add narrow granular standards to them, and point Claude at the standards repository as part of routine work — ongoing standing rule — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]] [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
@@ -95,3 +99,5 @@ On the [[wiki/meetings/2026-09-24-transactional-mvp1-flexport-money-loss-bugs-an
 - [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+- [[raw/Meeting_Notes_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]
