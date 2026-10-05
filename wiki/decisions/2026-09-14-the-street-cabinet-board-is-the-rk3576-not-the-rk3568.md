@@ -3,7 +3,7 @@ type: decision
 title: The street cabinet's board is the RK3576, not the RK3568 — the 3568 renders badly on a vertical screen
 date: 2026-09-14
 aliases: [RK3576, RK3568 vertical screen, 3576 target board, аркеи на горизонтальном телевизоре, именно 35 68, Touch Intelligent, RK3576 shipment to Minsk, 8 gigabytes, тач интеллигент, два борта]
-source-count: 6
+source-count: 7
 status: active
 open-commitments: 3
 open-questions: 2
@@ -56,6 +56,17 @@ Genadi did not know where it stood — "**я не знаю статус… Эт�
 - **Amount:** "**3 хандрид плюс… Shipment… 3 секси чтото**" — three hundred plus shipment, "three sixty something".
 - **Breakdown:** "**2 сэмпла по 150 и sixy five dola frade. В Минск**" — 2 samples at $150 each and about $65 freight to Minsk.
 
+## Update, Sept 29 2026 — the 3576 lives as a branch in the RK3568 repository, cannot boot from SD, and waits until the two environments are standardised
+
+At the [[wiki/meetings/2026-09-29-dev-environments-rk3568-sdk-amd-spike-and-ai-pm-direction-check.md|Sept-29 "Dev_environments" call]] (Russian) [[wiki/people/pavel.md|Pavel]] gave the first status on the "SDK for the 76 board" named above [[raw/Meeting_Transcript_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]]:
+
+- **Where it is.** "сейчас 76 процессор. Он в виде бранча живёт в р к 35 68… Мне казалось, что там почти всё то же самое, но когда начал работать, оказалось, что там есть расхождения" — a branch in the RK3568 SDK repository; he has started working on it and found differences. "А в целом дальше на 95% репозиторий такой же."
+- **The one hard difference.** "для 76 процессора есть отличие от 68, что он не умеет грузиться со с д карточки… нам придётся 76 прошивать. Проводом. Всегда 1 Загрузка будет надо будет подключаться проводам к компьютеру" — no SD-card boot; the first load is always flashed by cable from a computer.
+- **One repository or two — open.** It "в принципе можно держать в одном репозитории" so that a tool or network filter added once works for both the 3568 and the 3576; Irina: "А нужно?"; Pavel: "Надо подумать как как лучше."
+- **Order.** [[wiki/people/val-levitan.md|Val]]: "Конечно. Но я бы хотел сначала стандартизировать между 2. Девелопментами, а потом уже дальше их развивать" — the RK3568/AMD standardisation first, the 3576 after. Rulings on [[wiki/decisions/2026-09-29-the-amd-environment-is-rebuilt-from-the-rk3568-sdk-pavels-ten-day-spike-and-the-rk3576-waits.md]].
+
+Pavel's SDK commitment below stays open; whether a game has been run on the 3576 is not said.
+
 ## Open commitments
 
 - [ ] [[wiki/people/mikhail-perelman.md|Mikhail Perelman]] — push the RK3576 delivery to Minsk (2 samples, ~$300 plus ~$65 freight) — due urgently, Val's word was "срочно". *(Val names him as the person who **controls** the supply; the transcript does not record the instruction being given to him or accepted, and the derived notes flag the same gap as "[Needs Val's confirmation]".)* — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]] [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
@@ -77,3 +88,4 @@ Genadi did not know where it stood — "**я не знаю статус… Эт�
 - [[raw/Meeting_Notes_RK3588_Game_Performance_Findings-July-29-2026.md]]
 - [[raw/Meeting_Notes_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
+- [[raw/Meeting_Transcript_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]]

@@ -3,8 +3,8 @@ type: person
 title: Evgeny Kharetski
 date: 2025-07-10
 aliases: [Evgeny Kharetski, Evgeny Kharetsky, Evgeny Khoretsky, Kharevsky, Yauheni Kharetski, Kharetsky, Koretski, Koretsky, Korecki, Khorvatsky, Корецкий, Хорватский, Халецкий]
-source-count: 30
-open-commitments: 6
+source-count: 31
+open-commitments: 7
 disambiguation: "LGS developer (payroll "Kharetski Yauheni"), this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
 ---
 
@@ -154,7 +154,22 @@ At the [[wiki/meetings/2026-09-25-daily-standup-engineering-menu-and-jira-discip
 
 At the [[wiki/meetings/2026-09-28-daily-standup-log-traffic-and-nova-rename.md|Sept-28 Minsk stand-up]] (Russian; he answers to "женя") he said he worked through the weekend on a move to LGS ("С переносом… в LGS"; the object, "Дотацентра", is **unclear**). "Антон" — **not resolved** between the Antons — fixed gaps in the services for him. "Сейчас я закончу с переносом и буду [в]недр[ять] дальше сервисы." So the move is not fully finished [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]].
 
+## Sept 29 2026 — the version table into main, the 4.50.2 fix, and "that network cannot be trusted for long connections"
+
+At the [[wiki/meetings/2026-09-29-daily-standup-firmware-reissue-and-modem-gateway.md|Sept-29 Minsk stand-up]] (Russian; speaker label; called on as "Женя") [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]:
+
+- **The bug, and the table.** He is on a bug whose number he forgot. He "очень долго воевал" the day before because he had to rework the release ("Англия" — **unclear**): the table matching centre versions to the games they commit into "[п]ришлось переносить в мэйн" — triggered by Ivan's stand on 4.50.1 against the team's 4.60, since one game version cannot serve two data centres. Then a test started failing. "[С]ейчас я уже почти готов [с] [фиксом]". See [[wiki/topics/github-release-management-pipeline.md]] (Sept 29).
+- **The re-release.** The fix can be checked on 4.60 now or "на 502" if re-released; the commit also changes a library ("Бракаст" — unclear), which he changed "[ч]тоб… править нормально и подстраховаться на будущее"; he will write to Ivan when the build is ready. See [[wiki/decisions/2026-09-29-the-fix-goes-out-as-a-re-release-not-a-hack-and-only-that-commit-goes-in.md]].
+- **His main work.** "Л джес 212 19 и л джи с 12:17" (read as LGS-219 and LGS-217 — the notes' reading) plus new tasks on "росссервиса для сити толка" and its integration (**unclear**, not interpreted).
+- **The modem.** He corrected Pavel on the progressive: it does not stop, "[о]н постоянно реконнектится"; "на эту сеть полагаться для каких то коммуникаций долгосрочных нельзя". See [[wiki/decisions/2026-09-17-lte-is-the-default-route-and-the-manual-override-stays.md]] (Sept-29 update).
+- Pavel made him a cable: "я тебе кабель сделал" — "Ну супер шикарно."
+
+## Open commitments (Sept 29 2026)
+
+- [ ] Evgeny Kharetski — finish the fix, build 4.50.2 with that one commit, and write to Ivan when it is ready — due Sept 29 2026 — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]

@@ -3,9 +3,9 @@ type: decision
 title: Remote firmware update is in MVP 1 — Flex IQ and FlexPay update themselves first; distributing firmware to the Flex-Ports left MVP 1 on Sept 17 and came BACK into MVP 1 on Sept 28, when the date moved to October 15
 date: 2026-09-14
 aliases: [firmware upgrade in MVP1, capability 146, PORT-13, remote FlexPort update back in MVP1, remote firmware update, OTA firmware, приоритет номер один это чтобы обновлялся флекс ай кю, flash the FlexPorts, Flex IQ to FlexPort protocol, доперфек, priority two deferred, FlexPort firmware by USB stick, capability 144 to MVP2, capability 144 cloned, no rollback, roll forward only, requirement 1367]
-source-count: 9
+source-count: 11
 status: active — priority two (remote update of the Flex-Ports) left MVP 1 on Sept 17 2026 and RETURNED to MVP 1 on Sept 28 2026 (capability 146); rolling BACK to a previous build stays out of MVP 1 (Sept 18 2026); see the dated updates below
-open-commitments: 2
+open-commitments: 4
 open-questions: 0
 ---
 
@@ -106,8 +106,32 @@ At the [[wiki/meetings/2026-09-28-transactional-mvp1-remote-updates-and-october-
 
 **On the open question below:** it is answered. Alekseev carries the firmware-delivery story PORT-13, and Val kept it with him. **On the commitments below:** not discharged. Pavel's production-standard update (pings, verification, timer) and Chudinov's protocol work now serve MVP 1 again.
 
+## Update, Sept 29 2026 — Pavel puts the Flex-Port firmware update through Flex IQ first, ahead of any Flex-Port emulation
+
+At the [[wiki/meetings/2026-09-29-daily-standup-firmware-reissue-and-modem-gateway.md|Sept-29 Minsk stand-up]] (Russian) [[wiki/people/anton-seregin.md|Anton Seregin]] planned to open a feature for the Flex-Port, "[ч]тобы поизучать… [к]ак он будет [э]мулировать". [[wiki/people/pavel.md|Pavel Frolov]] redirected him: "**первостепенная это флекс айкью, [э]мулятор и особенно обновление прошивки флекспорта через флекс айкю**" — first the Flex IQ emulator, and above all the Flex-Port firmware update through Flex IQ [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]].
+
+- **What "update" means here.** Seregin asked whether it is the device firmware or a scenario. Pavel: "**это имплементация протокола передачи самого файла[,] команды на то, чтобы начинай прошивку такого рода**" — the protocol that carries the file itself, and the commands that start the flashing [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]].
+- **A very simple Flex-Port emulation is optional.** "какую[-]то простую эмуляцию флекспорта наверное можно было бы… но вот совсем просто должно быть" — at most something that answers commands, "уже… второстепенно" if Flex IQ can send the firmware-transfer commands and then "начинай или разрешаю тебе обновиться". Once those commands work, "это можно будет уже пробовать на реальном железе" — which Pavel finds "более… интересно" [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]].
+- **A feature for it.** Seregin: "буду этим заниматься сегодня". Pavel: "я тебе тогда фича[:] проверка… [workflow] по передаче прошивки и непосредственно управления прошивкой" — a feature to check the firmware-transfer and firmware-control workflow. Seregin: "Заведу" [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]].
+
+This sharpens the Sept-24 line above ("протокол обновления прошивок флекс портов" first) into a task with an owner on the Flex IQ side. Chudinov's and Pavel's commitments below are unchanged.
+
+## Update, Sept 29 2026 (8:06 AM) — no Flex IQ install instruction exists; Elizabeth can see the Updates tab; "always the latest build", and tomorrow is the better day
+
+At the [[wiki/meetings/2026-09-29-transactional-mvp1-setup-instructions-and-mikrotik-router.md|Sept-29 8:06 AM MVP 1 call]] (Russian) the Sept-28 SD-card plan for Georgia got its missing piece named [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]:
+
+- **No instruction.** [[wiki/people/irina-shishko.md|Irina]] thought "дима говорил, какая то была инструкция, уже тоже готовая" for Flex IQ. [[wiki/people/dmitri-chudinov.md|Chudinov]]: "Инструкции нету… Ничего нет."
+- **Elizabeth's access is checked.** "Мы проверили вчера с Сергеем у Элизабет доступ, и она увидит вкладку апдейтс" — with "Сергей" (not resolved) he confirmed the day before that [[wiki/people/elizabeth.md|Elizabeth]] sees the Updates tab. This answers the Sept-28 role question. What the instruction needs: "пару скринов, куда ей зайти, [с]качать", how to write it to an SD card, "[в]ставляйте, что нажимать". He suggested adding "как стереть секреты на терминале" — how to wipe the secrets on a terminal — "если… чтото не заработает сразу".
+- **An old instruction as the base.** [[wiki/people/andrei-klimovich.md|Klimovich]]: an SD-card install instruction "которую когдато кто то сделал" exists (where it lies is garbled — "на гипсе"); "мы в своё время инсталлировали все [билды] на IQ. По этой инструкции она была достаточно подробной." He will find the link and post it in the chat; it can be moved to Confluence beside the port instruction and the machine set-up. Chudinov: "скидывай посмотрим… если что там чуть чуть добавится". Who updates it: "Я скину старую там ктото её подхватит, обновит" — not assigned.
+- **Which build.** Klimovich asked for a build that works with the Flex-Port, "хотя бы проверку, чтобы сделать". Chudinov: the instruction will say "Берите всегда последний актуальный" — and this will be the standard instruction for every technician taking fresh, empty boards; all builds in the list are compatible, and "чем выше версия, тем больше фич или багов исправлено… смысла брать какойто более ранний нет". Irina sharpened Klimovich's question to *when* — today, tomorrow? Chudinov: "лучше уже, наверное, завтра сегодня будет там большая выкадка, там много чего уже добавили" — a large release lands today, so tomorrow.
+- **Sequence for Georgia.** Klimovich: "нам тогда нужна инструкция по инсталляции на IQ… ваня ты в [Confluence] закинешь… свою инструкцию… и нам нужна ещё инструкция по прошивке флекспорта". "если у нас завтра всё готово, то Элизабет сможет сделать уже [первый] этап[,] мы посмотрим[,] как это всё будет работать." The full set-up plan is on [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] (Sept-29 update).
+
+Klimovich's Sept-28 commitment to have Elizabeth install by SD card is unchanged in substance; it now waits on the instructions (held on [[wiki/people/andrei-klimovich.md]]). Chudinov's Sept-28 role check is discharged on his page.
+
 ## Open commitments
 
+- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — work on the Flex-Port firmware update through Flex IQ (file-transfer protocol and the start/allow commands) in the Flex IQ emulator, with a very simple Flex-Port emulation only if needed — due started Sept 29 2026 — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — create the feature "проверка workflow по передаче прошивки и… управления прошивкой" for Seregin — due Sept 29 2026 — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 - [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — work the Flex IQ ↔ Flex-Port firmware-distribution protocol from his side, and improve it if he can — due unspecified — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — deliver firmware update in MVP 1 to a production standard, with pings, verification and a timer — due with MVP 1 — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 
@@ -129,3 +153,5 @@ At the [[wiki/meetings/2026-09-28-transactional-mvp1-remote-updates-and-october-
 - [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]

@@ -3,7 +3,7 @@ type: decision
 title: Written records go by email and chats are for instant matters — so Klimovich emails the team a Jira change log at the end of any day he changes Jira
 date: 2026-09-24
 aliases: [no private chats, личных чатов нету, one email thread for MVP 2 questions, email not chat, written form by email, chats are instant, Jira change log by email, end-of-day change log, давайте адаптируем эту культуру, IQ chat log missed]
-source-count: 3
+source-count: 5
 status: active
 open-commitments: 3
 open-questions: 0
@@ -31,11 +31,20 @@ At the [[wiki/meetings/2026-09-28-transactional-mvp1-remote-updates-and-october-
 
 This is **evolution** of the Sept-24 rule, not a contradiction: written records still go by email; chats stay for instant matters, and now only shared ones.
 
+## Update, Sept 29 2026 — Ivan's instruction goes by email, not into the group
+
+At the [[wiki/meetings/2026-09-29-daily-standup-firmware-reissue-and-modem-gateway.md|Sept-29 Minsk stand-up]] (Russian) [[wiki/people/ivan.md|Ivan]] said he had written the instruction the day before, "[в] pdf формате выглядит вроде неплохо", and asked whether to show it at that day's meeting or "скину сразу же в группу". [[wiki/people/irina-shishko.md|Irina]]: "Можно группы, нет, есть письма, ты же помнишь?… Отправь письмо" — not the group; send a letter, so "всё заинтересованное, пускай почитают, посмотрят. Может быть, ктото успеет до митинга". Ivan: "давайте письмо напишу". He left no links to the program in it on purpose: "[к]огда будет конкретика, кому что скинут тогда и скину" [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]. The rule applied, one more time: a written record goes by email.
+
+## Update, Sept 29 2026 (8:06 AM) — the instruction arrived; the tilts document is asked for by email
+
+At the [[wiki/meetings/2026-09-29-transactional-mvp1-setup-instructions-and-mikrotik-router.md|Sept-29 8:06 AM MVP 1 call]] (Russian) [[wiki/people/andrei-klimovich.md|Klimovich]] opened with the document that had not come: "Документы мне не скидывали по поводу новых тилтов… если есть какая то документ, коллекция новых [тилтов] и ошибок. Вы пришлите пожалуйста на email." [[wiki/people/dmitri-chudinov.md|Chudinov]]: "в процессе я заканчиваю эту задачу и будет." And Ivan's instruction had come the same morning — Klimovich: "этот документ, который ты сегодня прислал" [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]. The rule held both ways: the written record that was sent by email was on the table; the one that was not is now asked for by email rather than in the chat.
+
 ## Open commitments
 
+- [x] [[wiki/people/ivan.md|Ivan]] — send the instruction (PDF) by email to everyone interested, before the later meeting that day — due Sept 29 2026 — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]] — **discharged Sept 29 2026:** Klimovich, at the 8:06 AM call, "этот документ, который ты сегодня прислал" — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — at the end of any working day in which he changes Jira, email the team a change log — due ongoing — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
 
-- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — post the file of new card-activation negative cases and terminal errors in the common chat — due Sept 28 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — post the file of new card-activation negative cases and terminal errors in the common chat — due Sept 28 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]] — *Sept 29 2026: not yet sent ("в процессе я заканчиваю эту задачу"); Klimovich now asks for it by email* — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
 - [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — collect MVP 2 business questions and send them by email in one thread; raise them on these calls — due ongoing — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
 
 **Notes vs transcript.** The notes match [[raw/Meeting_Notes_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]. The chat's name is garbled in the transcript and is not recorded.
@@ -46,3 +55,5 @@ This is **evolution** of the Sept-24 rule, not a contradiction: written records 
 - [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
 - [[raw/Meeting_Notes_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]

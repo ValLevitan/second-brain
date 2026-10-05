@@ -3,7 +3,7 @@ type: decision
 title: Planning comes off Pavel Frolov and goes to an "application administrator" — Dmitri Kovalchuk proposed, not yet agreed
 date: 2026-09-17
 aliases: [planning comes off Pavel, application administrator, аппликейщен администратор, Dima Kovalchuk administrator, Зиму Ковальчука, planning handover, полный трансперация, Pavel comes to Atlanta]
-source-count: 8
+source-count: 9
 status: active
 open-commitments: 4
 open-questions: 2
@@ -111,6 +111,10 @@ At the end of the [[wiki/meetings/2026-09-28-daily-standup-log-traffic-and-nova-
 
 *(This is Kovalchuk running the reports; whether it is the "application administrator" role is still an **inference**.)*
 
+## Update, Sept 29 2026 — "есть динамика"
+
+At the end of the [[wiki/meetings/2026-09-29-daily-standup-firmware-reissue-and-modem-gateway.md|Sept-29 Minsk stand-up]] (Russian) [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] reported on the reports' effect: "**ребята молодцы… [з]акрывают, следят да, по крайней мере есть динамика**" — people are closing and watching their tasks; there is movement. [[wiki/people/pavel.md|Pavel]]: "я тоже вчера даже чтото там позакрывал. То, что не соответствовало" — he closed items that did not match reality — and will look at that day's reports. Kovalchuk also gave [[wiki/people/vladimir-samusenko.md|Vladimir]] access to the "тинты" repositories (the TINT test repositories, by context) [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]].
+
 ## Open commitments
 
 - [ ] All stand-up participants — keep Jira statuses true (In Progress only when work is in progress), and name the exact CAP and feature at stand-ups — due ongoing — [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
@@ -138,3 +142,4 @@ At the end of the [[wiki/meetings/2026-09-28-daily-standup-log-traffic-and-nova-
 - [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
 - [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]

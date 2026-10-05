@@ -4,7 +4,7 @@ title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka, Alex Baratka, Alex Beratka, Alexander Berankov, Biratko, Alexander Biratko]
 disambiguation: "Alexander cluster (provisional — owner ruling pending): distinct JVL people sharing the given name Alexander. [[wiki/people/alexander-biratka.md|Alexander Biratka]] = Omni/Pixi framework & build engineer (aka Sasha; garbles Beratko/Baratka); [[wiki/people/alexander-korochkin.md|Alexander Korochkin]] = LGS QA-automation engineer (GitHub Alexander_K@JVL, read-only; aka Alexander K); [[wiki/people/alexander-tumanov.md|Alexander Tumanov]] = Minsk QA / data-center knowledge-capture hire (surname unverified). Resolve by context: Omni framework / Pixi / build → Biratka; LGS QA automation / read-only build consumer → Korochkin; manual-tester onboarding / data-center interviews → Tumanov. A further name 'Alexander Derok' (back-end build-integration / Java, per Val on Feb-6-2026) is unconfirmed — queued, not a page. Not [[wiki/people/alexei-khamin.md|Alexei Khamin]] (different name). Queue anything fitting none; never force-match."
-source-count: 71
+source-count: 74
 open-commitments: 14
 open-questions: 0
 ---
@@ -317,7 +317,18 @@ On the [[wiki/meetings/2026-09-25-transactional-mvp1-flexport-third-party-egm-co
 - [ ] Alexander Biratka — accept and merge the Omni → NOVA rename pull requests in his repositories — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
 - [ ] Alexander Biratka — collect MVP 2 business questions, send them by email in one thread, and raise them on these calls — due ongoing — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
 
+## Sept 29 2026 — capability 134 waits on a real server, and the modem reconnects
+
+At the [[wiki/meetings/2026-09-29-daily-standup-firmware-reissue-and-modem-gateway.md|Sept-29 Minsk stand-up]] (Russian; label "Alexander Biratko"; he appeared late): on capability 134 "[т]ам у меня 3 фичи… открыто", all possible update tasks are done, and "последним шагом будет проверка на реальном с реальным сервером, который пока не поддерживает flexpay" — so his Sept-28 commitment to finish 134 that day is not discharged. The "GS[M]" task is still not started. On the modem: the progressive reconnected and carried on — "просто это учитывать". See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 29, 4:49 AM) and [[wiki/decisions/2026-09-17-lte-is-the-default-route-and-the-manual-override-stays.md]] (Sept-29 update) [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]].
+
+## Sept 29 2026 (8:06 AM) — nothing urgent on MVP 2
+
+On the [[wiki/meetings/2026-09-29-transactional-mvp1-setup-instructions-and-mikrotik-router.md|Sept-29 8:06 AM MVP 1 call]] (Russian; label "Alexander Biratko"), asked by Klimovich about MVP 2: "я буду, если что писать… письма… как договорились… пока у меня такого именно срочного ничего нет" — he will send the business questions by email as agreed on Sept 28 (that commitment stays open above); nothing urgent that day. In segment 1 he joined the small talk (not recorded) [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Pre_Meeting_Draniki_Chat-September-29-2026.md]].
+
 ## Sources
+- [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Pre_Meeting_Draniki_Chat-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]

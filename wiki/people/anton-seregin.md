@@ -4,8 +4,8 @@ title: Anton Seregin
 date: 2026-07-13
 aliases: [Anton Seregin, Seregin, Anton Seryogin, Серёги, Серёгин]
 disambiguation: "Minsk payroll / React-TS front-end dev, this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 16
-open-commitments: 1
+source-count: 17
+open-commitments: 2
 ---
 
 # Anton Seregin
@@ -78,7 +78,19 @@ At the [[wiki/meetings/2026-09-25-daily-standup-engineering-menu-and-jira-discip
 - **At the 4:56 AM stand-up** ([[wiki/meetings/2026-09-28-daily-standup-log-traffic-and-nova-rename.md|Sept-28 Minsk stand-up]], Russian; speaker label): he finished a move on Saturday, then made a plan to move "аккумулятора" to Flex IQ (read as the emulator — **inference**, as on Sept 23–24). The first task seems done and he is checking it. A bridge takes contracts from both Flex IQ and the emulator. His AI tool set its own dates; Irina: "Но не до 21 октября явно." The tool writes quick endpoint tests that run in the GitHub Actions build. See [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]] (Sept-28 update) [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]].
 - **At the 8:02 AM call** ([[wiki/meetings/2026-09-28-transactional-mvp1-remote-updates-and-october-15-target.md|Sept-28 8:02 AM MVP 1 call]]; in absentia): Irina said "Антон" builds the emulators; Biratka: his emulator sits inside FlexPay; Pavel: he must move it to Flex IQ. That this "Антон" is Seregin is an **inference** from the work [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]].
 
+## Sept 29 2026 — re-checking Claude's stories, and the Flex-Port firmware update through Flex IQ becomes his task
+
+At the [[wiki/meetings/2026-09-29-daily-standup-firmware-reissue-and-modem-gateway.md|Sept-29 Minsk stand-up]] (Russian; speaker label) [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]:
+
+- **Status.** "Фейки 67 и к 243" (garbled; a feature and a task number, not interpreted); "по сичии, как бы вроде всё закрыл" (CI, by context); he is re-checking "[в]се эти истории, которые клод заводил по плану" — the stories his AI tool created from the plan — and "[р]абота на флекс… [т]о, что переносил аккумулятор" (the emulator move; "аккумулятор" read as before — **inference**), in parallel with a check of "ведущего счёта" (garbled).
+- **Redirected.** He planned a Flex-Port feature "[ч]тобы поизучать… [к]ак он будет [э]мулировать". Pavel: first "флекс айкью, [э]мулятор и особенно обновление прошивки флекспорта через флекс айкю" — the file-transfer protocol and the commands that start the flashing; a Flex-Port emulation only if "совсем просто". "Ну вот буду этим заниматься сегодня, значит?" — "Заведу" the feature Pavel names. See [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Sept-29 update) and [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]] (Sept-29 update). His Sept-25 commitment above is not reported done.
+
+## Open commitments (Sept 29 2026)
+
+- [ ] Anton Seregin — work on the Flex-Port firmware update through Flex IQ (file-transfer protocol, start/allow commands) in the Flex IQ emulator, under the feature Pavel creates — due started Sept 29 2026 — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 
 - [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
 - [[raw/minsk_staff_roster_2025_names-only.md]]

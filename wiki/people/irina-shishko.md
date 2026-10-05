@@ -4,8 +4,8 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 111
-open-commitments: 35
+source-count: 116
+open-commitments: 34
 ---
 
 # Irina Shishko
@@ -507,7 +507,7 @@ At the [[wiki/meetings/2026-09-25-ai-project-manager-for-jira.md|Sept-25 "JIRA m
 
 ## Open commitments (Sept 25 2026)
 
-- [ ] Irina Shishko (with the others on the call) — think through how she would build the AI project manager — due Tuesday Sept 29 2026, 7:00 — [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]
+- [x] Irina Shishko (with the others on the call) — think through how she would build the AI project manager — due Tuesday Sept 29 2026, 7:00 — [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]] — **discharged Sept 29 2026:** the design meeting was held; see below — [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
 
 ## Sept 25 2026 (8:05 AM) — JVL machines first, the certification command list, and autotests after October 7
 
@@ -551,7 +551,42 @@ At the [[wiki/meetings/2026-09-25-ris-mvp1-factory-reset-reduction-plan.md|Sept-
 - **At both RIS reviews** ([[wiki/meetings/2026-09-28-ris-battery-replacement-capability-framing.md|Sept-28 10:33 AM RIS review]]; [[wiki/meetings/2026-09-28-ris-mvp1-capabilities-walkthrough-and-jira-handover.md|11:07 AM second try]]); most of her lines are short or garbled. Pavel relayed her view that capability 2 is better as two capabilities (reuse the RIS after a factory reset; keep it across a version change). She called the one-QR-scan capability "simple". [[raw/Meeting_Transcript_RIS_Battery_Replacement_Capability_Framing-September-28-2026.md]] [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]
 - **Her part.** Val: "Irina will manage acceptance criteria, and her department will create automated testing for." Irina: "No." Val: "Well, no, no, sorry… The automated testing will not be created on this." See [[wiki/decisions/2026-09-28-sebastian-takes-the-ris-mvp1-capabilities-into-jira-and-felipe-steps-back.md]] (commitment held there). [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]
 
+## Sept 29 2026 (4:49 AM) — "only this commit", the instruction by email, and learning the autotests
+
+At the [[wiki/meetings/2026-09-29-daily-standup-firmware-reissue-and-modem-gateway.md|Sept-29 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]:
+
+- **The re-release.** "от вас зависит, когда вы что отдадите и когда… ваня проверит"; and the one-commit rule: "Нам нужно, чтобы пошёл Только этот камит туда и больше ничего". She asked why the library had been changed. See [[wiki/decisions/2026-09-29-the-fix-goes-out-as-a-re-release-not-a-hack-and-only-that-commit-goes-in.md]].
+- **Email, not the group.** Ivan's instruction (PDF) goes out by letter so everyone interested can read it before the later meeting. See [[wiki/decisions/2026-09-24-written-records-go-by-email-and-chats-are-for-instant-matters.md]] (Sept-29 update).
+- **Her own day.** "Попробую с этими с авто тестами разобраться… понять, как и что пишется. Запускается." She asked Khamin about item "61" (601). The Sept-28 plan to settle Vladimir's start is overtaken: he is already on the autotests — see [[wiki/topics/test-automation-strategy.md]] (Sept 29).
+
+## Sept 29 2026 (8:06 AM) — Vladimir started today, two or three documents side by side, JVL's own machine first, and the SAS-tool computer
+
+On the [[wiki/meetings/2026-09-29-transactional-mvp1-setup-instructions-and-mikrotik-router.md|Sept-29 8:06 AM MVP 1 call]] (Russian) [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]:
+
+- **Autotests.** "мы подтянули Владимира, он начал работать уже сегодня"; Khamin and Ivan continue; she has set up her own environment and will try to write some tests. See [[wiki/topics/test-automation-strategy.md]] (Sept 29, 8:06 AM).
+- **The instruction set.** Ivan's document should be joined by how to install versions on the port and the IQ — "может быть 2 документа… может быть 3 даже", side by side, in one place "[ч]тобы все файлы в одном месте лежали". She told Khamin to update his old flashing instruction "в таком стиле для текущего состояния", and told Chudinov she had imagined a Flex IQ instruction that does not exist ("то я придумала"). She asked Ivan to share his screen so the others "не… пытаются себе это представить".
+- **Order.** "Сначала мы должны проверить у нас, как работают на нашей машине IQ port" — JVL's own machine first, before other makers'. Elizabeth can already prepare the SAS-tool computer and cables from Ivan's instruction rather than wait; she pressed Klimovich on what Elizabeth has — a PC or a laptop for the SAS tool, and the cables to the machine. See [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] (Sept-29 update).
+- **Jira dates.** Pavel: the test tasks' end dates are yesterday's but the work goes on; "Правильно."
+
+## Sept 29 2026 (6:02 AM) — at the AI PM design call
+
+At the [[wiki/meetings/2026-09-29-ai-pm-architecture-and-second-brain-plan.md|Sept-29 "Design_AI-PM" call]] (Russian) her lines are short [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]: on Val's fear that the person receiving the AI's drafts "не с ума не сошёл" — "От переизбытка информации и тасков"; she asked where the meeting organizer's transcripts actually sit, and for what period transcripts would be turned into the second brain ("это за какой период?"), suggesting it may not be worth digging everything out — Val: some history is needed. The project is on [[wiki/projects/ai-project-manager-and-company-second-brain.md]].
+
+## Sept 29 2026 (10:06 AM) — at the "Dev_environments" call: "the source of hardware knowledge", and "who leads whom"
+
+At the [[wiki/meetings/2026-09-29-dev-environments-rk3568-sdk-amd-spike-and-ai-pm-direction-check.md|Sept-29 "Dev_environments" call]] (Russian; with Val and Pavel) [[raw/Meeting_Transcript_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]]:
+
+- She named the dependency Val was circling: Pavel as the single "[и]сточник знаний по железу" (source of knowledge on the hardware). *(Dependency fact only — §15.8.)*
+- On testing the environment she pressed Pavel to "тест назови какой нибудь, который можно проверить касательно р к этого… [ж]елезо. В платы", and noted any such test "всё равно будет интеграционная" — see [[wiki/topics/test-automation-strategy.md]] (Sept 29, 10:06 AM).
+- She pointed Pavel to a written reply from Alekseev ("Паша видела ответ Алексеева… Он там как раз пишет"); what it concerned is **unclear** on tape (see the stub). She confirmed Pavel's prose check was about the RK repository ("это ты про рка говоришь всё?"). On the RK3576 staying in one repository with the RK3568: "А нужно?" — not answered. Rulings on [[wiki/decisions/2026-09-29-the-amd-environment-is-rebuilt-from-the-rk3568-sdk-pavels-ten-day-spike-and-the-rk3576-waits.md]].
+- **At 10:31 AM**, on the AI project manager, after Pavel's "год назад казалось, что [AI] это чисто помощник": "А теперь ещё кто кого ведёт?" — and now who leads whom. No reservations stated. See [[wiki/projects/ai-project-manager-and-company-second-brain.md]] (Sept 29, 10:31 AM) [[raw/Meeting_Transcript_Dev_Environments_AI_PM_Direction_Check-September-29-2026.md]].
+
 ## Sources
+- [[raw/Meeting_Transcript_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Dev_Environments_AI_PM_Direction_Check-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+- [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
 
 - [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
 - [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]

@@ -3,7 +3,7 @@ type: decision
 title: Wi-Fi goes onto the Flex-Port board as a soldered module and an external commercial router stays the access point — mesh rejected, cable stays supported, router brands must be American or allied
 date: 2026-09-07
 aliases: [Wi-Fi module on Flex-Port, soldered Wi-Fi module, $4-5 per board, mesh rejected, external router stays, Val's dumb idea withdrawn, American routers only, Cisco Linksys Nokia MikroTik, certified antenna, one serial connector, jamming a location]
-source-count: 5
+source-count: 6
 status: active
 open-commitments: 3
 open-questions: 3
@@ -64,6 +64,14 @@ At the [[wiki/meetings/2026-09-28-transactional-mvp1-remote-updates-and-october-
 - **Still MVP 2.** Irina and Pavel: the Wi-Fi features are in MVP 2 — "Capolity 145… [флек]спорт вай фай линк". Irina: MVP 2 work already runs in parallel with other people and does not touch MVP 1.
 - **Pavel's QR material.** He had sent Klimovich Wi-Fi QR-code material with error screens proposed by Claude; both agreed it is not MVP 1 and not urgent. See [[wiki/decisions/2026-09-07-wi-fi-provisioning-by-encrypted-qr.md]].
 
+## Update, Sept 29 2026 — the router brand is chosen: MikroTik
+
+At the [[wiki/meetings/2026-09-29-transactional-mvp1-setup-instructions-and-mikrotik-router.md|Sept-29 8:06 AM MVP 1 call]] (Russian) the "American or allied" brand rule above produced a brand. [[wiki/people/andrey-bosik.md|Bosik]]: Linksys does not come up without internet; Netgear cannot be bought or tested in Belarus; so MikroTik, buyable in Minsk, $40 to $100. [[wiki/people/val-levitan.md|Val]] restated the rule — "Мы не можем пользоваться китайским… оборудованием" — and left the choice to the team; [[wiki/people/andrei-klimovich.md|Klimovich]] closed it: "можем с микротиком дальше двигаться". Full record on [[wiki/decisions/2026-09-29-mikrotik-is-the-location-router-and-val-leaves-the-brand-to-the-team.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]].
+
+- **The country is inconsistent in the sources.** Here, on Sept 7, Bosik answered "Литва" (Lithuania) for MikroTik. On Sept 29 he said "Зарегистрирован в литвеле в Латвии. Я точно не помню где" — and that production is most likely Chinese. Both are recorded as spoken; nothing is resolved [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]].
+- **Antenna.** Pavel asked whether MikroTik Wi-Fi comes with an external antenna; Bosik: about a thousand devices in the line, any form can be found [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]].
+- The topology above (router plus devices) gains a switch: routers carry three or four ports, so the equipment hangs off a switch — on the Sept-29 decision page.
+
 ## Open commitments
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — finish the Flex-Port Wi-Fi software (about 90% done by his estimate), under MVP 2 capability 145 — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
@@ -87,3 +95,4 @@ At the [[wiki/meetings/2026-09-28-transactional-mvp1-remote-updates-and-october-
 - [[raw/Meeting_Transcript_Flex_Port_Mini_Capabilities_Design-August-24-2026.md]] (the Aug-24 Wi-Fi rejection and the $10 module estimate this decision reverses)
 - [[raw/Meeting_Transcript_FlexPort_Telnet_Console_and_GUI_Harness-September-26-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]

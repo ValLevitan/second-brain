@@ -3,8 +3,8 @@ type: person
 title: Alexei Khamin
 date: 2025-04-22
 aliases: [Alexei Khamin, Aliaksey Khamin, Alexey Khamin, Khamin, Хамин, Khanin, Ханин, Kamin, Alexey Kamin, Lyosha, Лёша]
-source-count: 24
-open-commitments: 11
+source-count: 26
+open-commitments: 13
 ---
 
 # Alexei Khamin
@@ -158,9 +158,36 @@ At the [[wiki/meetings/2026-09-26-flex-port-telnet-console-and-gui-harness.md|Se
 
 ## Open commitments (Sept 28 2026)
 
-- [ ] Alexei Khamin — close the cash-out autotest, and spread Ivan's autotests across the repository by the new rules — due Sept 28 2026 — [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
+- [x] Alexei Khamin — close the cash-out autotest, and spread Ivan's autotests across the repository by the new rules — due Sept 28 2026 — [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]] — **Sept 29 2026:** Ivan's tests were placed by Claude "так как нужно"; closing the cash-out test is not reported — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+
+## Sept 29 2026 — TINT-16 and TINT-79, Ivan's tests placed by Claude, and the EGM emulator cases he takes himself
+
+At the [[wiki/meetings/2026-09-29-daily-standup-firmware-reissue-and-modem-gateway.md|Sept-29 Minsk stand-up]] (Russian; label "Alexey Khamin") [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]:
+
+- **Tests.** His main work is "тесты… Тинт… 16 и тинт 79"; he adds scenarios for filed bugs with comments on how it should work, and tests for things not yet implemented. He will close "2 задачи" on bugs and, if nothing else turns up, item 601 that day.
+- **Ivan's tests.** "вчера я добавлял ванины тесты и как бы клод хорошо понял систему и положил так как нужно, теггер оставил". He told Ivan to have Claude look at his machine-collection tests, partly in Git already; he will push the rest if needed.
+- **The EGM emulator.** He cannot write some scenarios because the EGM/SAS emulator cannot delay or hang; he wrote three points the day before. Pavel: take it, as a separate tab or panel of test cases ("отвечать с задержкой на следующей… пакет там 72 лонгпола"). Khamin: it fits the existing design — "[в]ыставлять флаг какойто". See [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]] (Sept-29 update) and [[wiki/topics/test-automation-strategy.md]] (Sept 29).
+
+## Open commitments (Sept 29 2026)
+
+- [ ] Alexei Khamin — close two bug tasks and item 601 — due Sept 29 2026 — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+- [ ] Alexei Khamin — add the delay / hang test cases to the EGM emulator as a separate tab or panel — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+
+## Sept 29 2026 (8:06 AM) — the devices the diagram leaves out, Confluence, his old flashing instruction, and the bootloader
+
+On the [[wiki/meetings/2026-09-29-transactional-mvp1-setup-instructions-and-mikrotik-router.md|Sept-29 8:06 AM MVP 1 call]] (Russian; label "Alexey Khamin") [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]:
+
+- **Two remarks on Ivan's instruction.** The diagram does not show "доп устройства типа принтер, бил валидатор и так далее" — required equipment that must also be on site; and the document is better kept in Confluence "чтобы можно было редактировать". Val agreed Confluence can be used for now ([[wiki/topics/docs-as-code-and-atlassian-exit.md]], Sept 29).
+- **His Flex-Port flashing instruction.** "У меня есть там инструкция тоже… может устаревшая там для [Flex-Port] как прошивать[,] ване скину, где она лежит". Irina: update it in the same style for the current state; "Да займусь параллельно."
+- **The bootloader.** "вчера Алексеев тебе дал рабочую же версию, которая ставится [на] нормальное устройство[,] бут лодер… Говорил в понедельник буду готова, но если нет, значит… через костыли устанавли[ваем]… и обновляем" — Pavel will ask Alekseev. See [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] (Sept-29 update).
+
+## Open commitments (Sept 29 2026, 8:06 AM)
+
+- [ ] Alexei Khamin — tell Ivan where the old Flex-Port flashing instruction is, and update it to the current state in the same style, in Confluence — due unspecified ("займусь параллельно") — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
 
 ## Sources
+- [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 
 - [[raw/Meeting_Notes_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]

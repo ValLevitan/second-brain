@@ -4,8 +4,8 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 187
-open-commitments: 91
+source-count: 193
+open-commitments: 95
 open-questions: 0
 ---
 
@@ -919,7 +919,7 @@ At the [[wiki/meetings/2026-09-25-ai-project-manager-for-jira.md|Sept-25 "JIRA m
 
 ## Open commitments (Sept 25 2026)
 
-- [ ] Pavel Frolov (with the others on the call) — think through how he would build the AI project manager — due Tuesday Sept 29 2026, 7:00 — [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]
+- [x] Pavel Frolov (with the others on the call) — think through how he would build the AI project manager — due Tuesday Sept 29 2026, 7:00 — [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]] — **discharged Sept 29 2026:** the design meeting was held; see below — [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
 
 ## Sept 25 2026 (8:05 AM) — the two-SAS test set-up, the capability's wording, and the printer cable
 
@@ -982,7 +982,66 @@ He ran the 9-minute Saturday [[wiki/meetings/2026-09-26-flex-port-telnet-console
 - [ ] Pavel Frolov — investigate the effort for RIS capabilities 2b (keep the RIS across a software-version change), 4 (printer on the fly) and 5 (lease on mismatch, server side) — due unspecified — [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]
 - [ ] Pavel Frolov — think through the boot-loop recovery approach (Val: "Why don't you… think about it?"); likely start with extra logging — due unspecified — [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]
 
+## Sept 29 2026 (4:49 AM) — "no hack, we re-release", the modem as default gateway, and Flex IQ firmware update first
+
+At the [[wiki/meetings/2026-09-29-daily-standup-firmware-reissue-and-modem-gateway.md|Sept-29 Minsk stand-up]] (Russian), which he ran [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]:
+
+- **Val's ruling, relayed.** "вал вчера сказал что мы этот хак делать не будем. Мы… будем перевыпускать" — as fast as possible, "не раньше завтра"; the library change goes out declared as a connectivity change. See [[wiki/decisions/2026-09-29-the-fix-goes-out-as-a-re-release-not-a-hack-and-only-that-commit-goes-in.md]].
+- **The modem as default gateway.** With "группкой людей" the evening before he found that with the modem as default gateway the progressive stops (Kharetski: it keeps reconnecting) and broadcast packets create "теневой трафик"; he will try filtering the progressive-controller ports to the internal network, and it must be "держать в уме… для всех наших транзакшнл продуктов". See [[wiki/decisions/2026-09-17-lte-is-the-default-route-and-the-manual-override-stays.md]] (Sept-29 update).
+- **Priorities for Seregin.** Not a Flex-Port emulation but "флекс айкью, [э]мулятор и особенно обновление прошивки флекспорта через флекс айкю"; he will create the feature for checking the firmware-transfer workflow. See [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Sept-29 update).
+- **Small rulings.** Daniil goes ahead with stub names on the game-select screen ([[wiki/topics/nova-platform-architecture.md]], Sept 29); Khamin adds the delay/hang cases to the EGM emulator himself, as a separate tab ([[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]], Sept-29 update). He made Kharetski a cable. He had closed Jira items of his own that did not match reality.
+
+## Open commitments (Sept 29 2026, 4:49 AM)
+
+- [ ] Pavel Frolov — create the feature for Seregin: check the workflow of firmware transfer and firmware control through Flex IQ — due Sept 29 2026 — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+- [ ] Pavel Frolov — issue the re-release (one commit, declared as a connectivity change) as fast as possible — due not before Sept 30 2026 — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+- [ ] Pavel Frolov — try, on the machine Kharetski and Ivan work on, filtering the progressive-controller ports so they go only to the internal network — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+
+## Sept 29 2026 (8:06 AM) — the Flex-Port SAS icon, screenshots not photos, the bootloader question for Alekseev, stale test dates, and the PoE idea
+
+On the [[wiki/meetings/2026-09-29-transactional-mvp1-setup-instructions-and-mikrotik-router.md|Sept-29 8:06 AM MVP 1 call]] (Russian; he joined as segment 1 ended) [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]:
+
+- **The SAS icon.** On the Flex-Port "сейчас отображается иконка подключение к машине по сас": red when nothing is connected, yellow when SAS commands flow, and green — "Но не зелёная, а голубенькая" — when registration has happened.
+- **Screenshots.** "пожелание скриншоты с экрана, чтобы были всётаки скриншотами, а не фотографиями."
+- **The bootloader.** After Khamin's remark that Alekseev had given him a working bootloader version: "у Алексеева спросим готовность прошивок… загрузчик". He had noted Elizabeth has already flashed a port ("она ж уже порт прошивала"). See [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] (Sept-29 update).
+- **Jira dates.** "поправьте, даты завершения вот там где есть тесты. Они уже указывают, что должны были вчера закончиться, ещё идут в работе." See [[wiki/topics/test-automation-strategy.md]] (Sept 29, 8:06 AM).
+- **The switch and PoE.** The same switch model should be picked in Minsk because Chudinov's devices once did not see each other through one. He raised PoE switches — power the ports from the switch "[и] даже если выключают машину… наши порты оставались на связи" — for future capabilities only, "Сейчас нет" on the hardware; and he disputed Bosik's price for a PoE switch ("может быть на $5 дороже"). He asked whether MikroTik Wi-Fi has an external antenna. See [[wiki/decisions/2026-09-29-mikrotik-is-the-location-router-and-val-leaves-the-brand-to-the-team.md]].
+
+## Open commitments (Sept 29 2026, 8:06 AM)
+
+- [ ] Pavel Frolov — ask Alekseev whether the Flex-Port firmware (bootloader) is ready — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+
+## Sept 29 2026 (6:02 AM) — at the AI PM design call: drafts get lost in the Jira tree, "where does it run?", and 8 tasks per person
+
+At the [[wiki/meetings/2026-09-29-ai-pm-architecture-and-second-brain-plan.md|Sept-29 "Design_AI-PM" call]] (Russian) [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]; the project is on [[wiki/projects/ai-project-manager-and-company-second-brain.md]]:
+
+- **Drafts in Jira will get lost.** "в джире вообще эти задачи очень легко будут теряться, поскольку у нас древовидная система… на какомто 3 4 уровне… [м]ы об этом можем узнать через неделю, через месяц." Bosik disagreed; Kovalchuk proposed a task type shown at the top of the plan.
+- **"Где… этот [AI] запускается?"** Someone must run it on a server and keep it current; Bosik: design first, technical later.
+- **Second brain vs knowledge base.** "у меня оно не разграничивается"; after Bosik's graph explanation he agreed the difference is the index that moves between records. He also reported that an AI says Karpathy uses a wiki, not Obsidian, and asked whether Obsidian is just one vector-database implementation (Val: yes).
+- **Volume.** 50 AI tasks a day split across owners "будет там 8 задач на человека"; code owners absent from a meeting are a rare case, and the tasks should link to the meeting notes. If the drafts are well described, a person can later tell the AI to move item N into Jira — Bosik: that is the human labour they want to remove.
+- **Timing.** On Bosik's "immediately or once a day": "Хороший вопрос" — some tasks are urgent, others still in discussion and tomorrow's continuation may change them.
+
+## Sept 29 2026 (10:06 AM) — the "Dev_environments" call: the RK3568 SDK is documented and shared, he takes the AMD spike himself, ten days
+
+At the [[wiki/meetings/2026-09-29-dev-environments-rk3568-sdk-amd-spike-and-ai-pm-direction-check.md|Sept-29 "Dev_environments" call]] (Russian; with Val and Irina). Rulings on [[wiki/decisions/2026-09-29-the-amd-environment-is-rebuilt-from-the-rk3568-sdk-pavels-ten-day-spike-and-the-rk3576-waits.md]]; the platform picture on [[wiki/topics/nova-platform-architecture.md]] (Sept 29, 10:06 AM) [[raw/Meeting_Transcript_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]] [[raw/Meeting_Transcript_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]]:
+
+- **The dependency problem, and his answer.** Val opened on "баттлнек которым создаём вокруг Павла" — the environment work rested on him alone; Irina: the single "[и]сточник знаний по железу". Pavel: at the start of the RK3568 work "никто не мог к этому особо подключиться, просто по недостатку знаний", but "это все делалось в принципе клодом хорошо там документировалось. И сейчас в этот проект уже лазили ну разные разработчики" — Dima (automatic updates) and Sasha have worked in the platform-SDK-RK3568 repository (Chudinov and Biratka by context — **inference**). *(§15.8: dependency fact only; Val's remarks about him are not recorded.)*
+- **What he reported.** The repository is now universal — FlexPay and a machine both build from it on the RK3568, "слабенький процессор для машины"; prose current, "13 секций прозы", in the new structure (checked live); capabilities exist from some point, "[в]озможно, чего то не хватает". AMD "немножко подругому сделано" and both SDKs should be made "максимально близко" so a NOVA game moves between platforms "в идеале вообще без дополнительных операций".
+- **Testing the environment.** "Это всё должно уже тестироваться… через интеграционные репозиторий… в рамках других задач"; the only useful direct test is that the build boots in an emulator — see [[wiki/topics/test-automation-strategy.md]] (Sept 29, 10:06 AM).
+- **The spike is his.** "это и есть с д к репозиторий сейчас можем сделать. Спайк на то, чтобы. Перенести его в новый репозиторий. И. Адаптировать его для [AMD]"; "Ну сейчас это только на меня можно, [ассайн]"; "сейчас я могу взять на на себя". "[З]а первую неделю 80% сделается"; Val set ten days and a review on the 8th. MVP 1 = kernel, root file system, installer, bootloader. RK and AMD stay separate repositories; the RK3576 branch waits.
+- **At 10:31 AM**, asked by Val whether he had reservations about the AI project manager: "Нет, я уверен, что мы идем правильно… нам год назад казалось, что [AI] это чисто помощник… если мы гдето даже во чтото упрёмся то чего сейчас будет нереально, то оно через через полгода станет реально" — see [[wiki/projects/ai-project-manager-and-company-second-brain.md]] (Sept 29, 10:31 AM) [[raw/Meeting_Transcript_Dev_Environments_AI_PM_Direction_Check-September-29-2026.md]].
+
+## Open commitments (Sept 29 2026, 10:06 AM)
+
+- [ ] Pavel Frolov — the spike: move the RK3568 SDK into a new repository and adapt it for AMD processors (MVP 1 = kernel, root file system, installer and bootloader builds; ~80 % in the first week) — due in ten days, review "8 числа" (Oct 8 2026 by context) — [[raw/Meeting_Transcript_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]]
+
 ## Sources
+- [[raw/Meeting_Transcript_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Dev_Environments_AI_PM_Direction_Check-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+- [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
 
 - [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
 - [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]

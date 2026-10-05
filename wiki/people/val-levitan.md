@@ -3,8 +3,8 @@ type: person
 title: Val Levitan
 date: 2026-07-12
 aliases: [Val, Val Levitan]
-source-count: 386
-open-commitments: 72
+source-count: 391
+open-commitments: 73
 open-questions: 1
 ---
 
@@ -1365,7 +1365,7 @@ He called and ran the [[wiki/meetings/2026-09-25-ai-project-manager-for-jira.md|
 
 ## Open commitments (Sept 25 2026, 7:33 AM)
 
-- [ ] Val Levitan (with the others on the call) — think through how to build the AI project manager — due Tuesday Sept 29 2026, 7:00 — [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]
+- [x] Val Levitan (with the others on the call) — think through how to build the AI project manager — due Tuesday Sept 29 2026, 7:00 — [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]] — **discharged Sept 29 2026:** he sent a file before the call and ran the design meeting; see the Sept-29 6:02 AM entry — [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
 - [ ] Val Levitan — if the team wants it, have Claude write up how his second-brain system is built — due unspecified — [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]
 
 ## Sept 25 2026 (10:31 AM) — RIS meeting three: "MVP1 release of the RIS rework", Flex only, and Felipe as product owner
@@ -1467,7 +1467,56 @@ The call-back ([[wiki/meetings/2026-09-29-larry-sharon-lease-pricing-problem-b-a
 
 **§15.8:** clear — deal economics only. **Personal matters not recorded.** **§15 #9:** none.
 
+## Sept 29 2026 (6:02 AM) — the AI PM design call: "I don't want the AI PM to write to us; I want it to do the work", the bot to MVP 2, and "no bonus — Friday at 7"
+
+He called and ran the [[wiki/meetings/2026-09-29-ai-pm-architecture-and-second-brain-plan.md|Sept-29 "Design_AI-PM" call]] (Russian) [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]. The project is on [[wiki/projects/ai-project-manager-and-company-second-brain.md]]; the rulings on [[wiki/decisions/2026-09-29-bosik-owns-the-ai-pm-the-meeting-bot-waits-and-the-second-brain-is-built-first.md]].
+
+- **The model is his AI-CFO.** A role he uses "каждый день… [д]овольно успешно", that "опирается только на факты", that talks with the accounting department and has begun to give directions; it runs "как рутин. 2 раза в день" and makes him a report he reacts to. He is now setting up another such role for himself (the name is garbled on tape).
+- **What he wants.** "Я не хочу чтобы AIPM нам писал, я хочу чтоб это был рабочий AIP[M], который с нас снимает работу. Его задача [создавать] таски проперные, без ошибок. И в лимитированном количестве. Согласно нашим стандартам." No human "responsible": "Это… должна быть автономная роль… единственный полноценный про[джект] менеджер". Knowledge deliberately narrow — Jira, Confluence, PM textbooks, the company, the standards, the code and the prose, "[н]е давать… никакой другой философии".
+- **The second brain, not a knowledge base.** Facts are the frozen conversations; the index is built on them. Transcripts stay in Obsidian with a light local index; summaries go to GitHub — the architecture his Claude recommended and that he offered to repeat for the company. His own brain: 18 months of transcripts, about a month and about $7,000 to process, checked quarterly.
+- **Order and pace.** The meeting bot goes to MVP 2; "давайте мы имплементируем сегодня то, что легко заработает" — "[м]ы не хотим наращивать количество людей. Скорость мы хотим повысить". Transcripts into one store first (1–2 days), then the brain (about a month, started first), the persona in parallel (2–3 days), the glossary after.
+- **"Никаких бонусов."** To Bosik's "через недельку, через 2" and "Это так бонус": "у меня нету стоков времени, так это не работает… никаких бонусов здесь нету. Давайте в пятницу встретимся… гдето на 07:00."
+- **His way with two AIs.** A "teacher" Claude designs and an "implementer" Claude builds; he copies between them (Bosik's term: "мясное прокси"). His advice: "сделайте вид, что вы ничего не знаете… [н]е задавайте тон работы". See [[wiki/topics/ai-assisted-development.md]] (Sept 29). At the close he asked that the transcript disregard what he had said about applying AI (recorded on the stub for the owner).
+
+**§15.8:** his remarks about how Bosik presents himself and his general asides are not recorded. **Personal matters not recorded.** **§15 #9:** none.
+
+## Open commitments (Sept 29 2026, 6:02 AM)
+
+- [ ] Val Levitan — book the AI PM status meeting for Friday Oct 2 2026 at about 7:00 — due Sept 29 2026 — [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
+
+## Sept 29 2026 (8:06 AM) — "use Confluence for now", "no Chinese equipment", and "what do I have to decide — they can decide this"
+
+On the [[wiki/meetings/2026-09-29-transactional-mvp1-setup-instructions-and-mikrotik-router.md|Sept-29 8:06 AM MVP 1 call]] (Russian) he spoke three times [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]:
+
+- **Confluence.** "пока вы можете смело пользоваться [Confluence]… мы будем от него отходить в будущем, но… нам нужно будет потом… перевести оттуда все файлы. Поэтому я вам советую, пока не обращать на это внимание." See [[wiki/topics/docs-as-code-and-atlassian-exit.md]] (Sept 29).
+- **The router rule, again.** "Мы не можем пользоваться китайским китайским оборудованием. Это… будет дисконтен по в Америке" (last word garbled; read as "discontinued"). On MikroTik's Chinese production: "Я думаю, что сегодня всё производится в Китае." He asked the price, did not know the brand ("Я не слышал никуда такого названия") and asked for a link.
+- **He refused the brand decision.** Klimovich: "Вал за вами вопрос". Val: "Что мне надо решать, они в состоянии решать эти вопросы… Я же сказал что я… сколько раз надо говорить. Я же сказал чётко." Klimovich then closed on MikroTik. See [[wiki/decisions/2026-09-29-mikrotik-is-the-location-router-and-val-leaves-the-brand-to-the-team.md]].
+
+**§15.8:** clear. **§15 #9:** none.
+
+## Sept 29 2026 (10:06 AM) — the "Dev_environments" call: "the company cannot work like this", "we will not even go in that direction", and ten days for the AMD skeleton
+
+He called and ran the [[wiki/meetings/2026-09-29-dev-environments-rk3568-sdk-amd-spike-and-ai-pm-direction-check.md|Sept-29 "Dev_environments" call]] (Russian; Pavel and Irina). Rulings on [[wiki/decisions/2026-09-29-the-amd-environment-is-rebuilt-from-the-rk3568-sdk-pavels-ten-day-spike-and-the-rk3576-waits.md]] [[raw/Meeting_Transcript_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]] [[raw/Meeting_Transcript_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]]:
+
+- **The problem as he set it.** Two development environments (RK and AMD), "[и]х надо обе поддерживать и создавать [environments] благоприятные для девелоперов"; the environment work resting on one person is "очень опасно… Компания не может так работать". *(His remarks about Pavel himself are not recorded — §15.8.)*
+- **What he asked for.** That the RK3568 repository is "правильно задокументирован, что там есть проза там есть [ADRs]", with capabilities behind it; whether the environment must be tested the way other work is; and whether the whole environment can be copied as "скелет какойто. Для [AMD] процессора". After Pavel's answers: "это хорошая новость, я очень доволен этим. Я думал, что это всё не так."
+- **The prose is the instrument.** "проза очень инструментал для. Будущего развития. То есть надо, чтобы этот репозиторий совпадал стандарту сегодняшнему… но мне кажется, что это через клод довольно легко."
+- **No archaeology.** On why the old AMD build was made the way it was: "Нас абсолютно нас абсолютно не интересует, почему 25 лет тому назад было бы. Мы даже не пойдём в эту сторону."
+- **Order and clock.** "я бы хотел сначала стандартизировать между 2. Девелопментами, а потом уже дальше их развивать" (the RK3576 after); "Какой [undertaking], какие сроки и на кого это [ассайн]?"; "По моим представлениям это гдето 2 недели"; then "Давайте тогда 10 дней дадим… 8 числа я назначу [митинг]". He also said RK "у нас пойдёт быстрее… И более агрессивна" (garbled).
+- **At 10:31 AM** he closed with the AI project manager: "Мне кажется, мы на правильном пути мне понравился этот разговор. У вас есть какието резерве по этому поводу?" — neither Pavel nor Irina had any. See [[wiki/projects/ai-project-manager-and-company-second-brain.md]] (Sept 29, 10:31 AM) [[raw/Meeting_Transcript_Dev_Environments_AI_PM_Direction_Check-September-29-2026.md]].
+
+**§15.8:** his remarks about Pavel himself are not recorded. **§15 #9:** none.
+
+## Open commitments (Sept 29 2026, 10:06 AM)
+
+- [ ] Val Levitan — book the follow-up meeting on the development environments for the 8th — due Oct 8 2026 (by context) — [[raw/Meeting_Transcript_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]]
+
 ## Sources
+- [[raw/Meeting_Transcript_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Dev_Environments_AI_PM_Direction_Check-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+- [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Equipment_Depreciation_Investor_Pitch-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]

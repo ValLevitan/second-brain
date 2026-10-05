@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna, Selena, Elena]
-source-count: 70
+source-count: 71
 open-commitments: 14
 ---
 
@@ -316,7 +316,12 @@ At the [[wiki/meetings/2026-09-25-georgia-progressives-and-class-a-lions-riches.
 
 - [ ] Lena Zhukova — close the graphical-adaptation feature and create all the Class A storyboards so the engineers understand the flow — due unspecified — [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
 
+## Sept 29 2026 (in absentia) — her glossary is the AI PM's vocabulary; her old transcript repository no longer works
+
+At the [[wiki/meetings/2026-09-29-ai-pm-architecture-and-second-brain-plan.md|Sept-29 "Design_AI-PM" call]] (Russian; she was not present) [[wiki/people/val-levitan.md|Val]] said the AI project manager needs a special vocabulary for the team's mixed English-Russian speech and that it already exists — "Лена сделала хорошую работу на эту тему"; [[wiki/people/andrey-bosik.md|Bosik]] said the team will reuse "наш [глоссарий]" and extend it. Bosik also said the GitHub repository "где сохранялись транскрипты митингов раньше" — made by Lena — "сейчас не актуально, оно не работает". That "Лена" is Lena Zhukova is **by context** (her Mar-2026 taxonomy/glossary work above). See [[wiki/projects/ai-project-manager-and-company-second-brain.md]] [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]].
+
 ## Sources
+- [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
 
 - [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
 - [[raw/Meeting_Notes_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]

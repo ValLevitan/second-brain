@@ -3,9 +3,9 @@ type: decision
 title: Testing starts September 15 with the negative cases first, and Flex-Ports must be proved in borrowed non-JVL machines — fake-commissioned, tracked as a separate Jira item from JVL-machine testing
 date: 2026-09-09
 aliases: [negative cases first, door open, borrow a machine fake commission it, Aristocrat and Light and Wonder, at least one or two machines, two separate records, two different router manufacturers, no Chinese manufacturer, stay away from Cisco, ten port router, storm through the test, bracket drawings to Genadi]
-source-count: 6
+source-count: 7
 status: active
-open-commitments: 7
+open-commitments: 8
 open-questions: 2
 ---
 
@@ -56,7 +56,7 @@ At the [[wiki/meetings/2026-09-22-transactional-mvp1-jira-cleanup-and-e2e-tests.
 
 - [ ] [[wiki/people/felipe-miranda.md|Felipe Miranda]] — arrange one or two non-JVL machines to borrow for Flex-Port testing (Aristocrat and Light & Wonder preferred, even for a single day) — due Sept 15 2026 — [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]] [[raw/Meeting_Notes_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
 - [ ] Unassigned (the source names no owner) — get the bracket drawings released by Light & Wonder, IGT, Banilla and Aristocrat and pass them to Genadi Peari — due unspecified — [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
-- [ ] Unassigned (the source names no owner) — source and test routers from two different manufacturers, no Chinese brands, avoiding Cisco; they are borrowable for a day or two only — due Sept 15 2026 — [[raw/Meeting_Notes_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]] [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
+- [x] Unassigned (the source names no owner) — source and test routers from two different manufacturers, no Chinese brands, avoiding Cisco; they are borrowable for a day or two only — due Sept 15 2026 — [[raw/Meeting_Notes_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]] [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]] — **overtaken Sept 29 2026:** Bosik reported on the available brands and the team chose MikroTik (one manufacturer, not two; the "two manufacturers" ask was not mentioned) — see [[wiki/decisions/2026-09-29-mikrotik-is-the-location-router-and-val-leaves-the-brand-to-the-team.md]] — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — record the Flex-Port SAS testing as two separate items, JVL machines and other suppliers' machines — due unspecified — [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 
 **§15.8:** clear.
@@ -80,7 +80,7 @@ At the [[wiki/meetings/2026-09-25-transactional-mvp1-flexport-third-party-egm-co
 
 ### Open commitments (Sept 25 2026)
 
-- [ ] [[wiki/people/ivan.md|Ivan]] — write the set-up instruction for the compatibility test (hardware, cables, COM port, SAS emulator) and attach the emulator and the SAS commands document — due Mon Sept 28 2026 ("постараюсь") — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
+- [x] [[wiki/people/ivan.md|Ivan]] — write the set-up instruction for the compatibility test (hardware, cables, COM port, SAS emulator) and attach the emulator and the SAS commands document — due Mon Sept 28 2026 ("постараюсь") — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]] — **discharged Sept 29 2026:** written the day before and sent that morning (Klimovich: "этот документ, который ты сегодня прислал"); walked through on the call; the SAS tool zip went to Elizabeth by email. Putting it in Confluence is the new commitment below — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — create the capability for Flex-Port working with other makers' machines, from the transcript — due unspecified — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
 - [ ] Klimovich and the local team — once the set-up arrives, contact operators, borrow machines, bring them to the office and connect them to the MikroTik — due after October 1 — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
 
@@ -89,6 +89,29 @@ At the [[wiki/meetings/2026-09-25-transactional-mvp1-flexport-third-party-egm-co
 - Should Flex IQ record all SAS commands (except pings) in production? Chudinov: yes; Pavel: not MVP 1. Not settled — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
 - Can the SAS accumulator send every command InComm and Intralot send? Pavel's "в идеале"; not answered — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
 
+## Update, Sept 29 2026 — Ivan's instruction is walked through; three documents go to Confluence; Elizabeth builds the full set-up in Georgia first, and only then other makers' machines
+
+At the [[wiki/meetings/2026-09-29-transactional-mvp1-setup-instructions-and-mikrotik-router.md|Sept-29 8:06 AM MVP 1 call]] (Russian) [[wiki/people/ivan.md|Ivan]] shared the instruction he had sent that morning [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]:
+
+- **What it covers.** Asked by [[wiki/people/andrei-klimovich.md|Klimovich]] which of three parts it holds: "уже настроенный [Flex-Port, Flex IQ] есть[,] подключение между [Flex-Port] и машиной[,] между машиной и пк… где у тебя будет сам [SAS эмулятор]", the commands to set up the emulator, and "команда, которую на[м] шлют в эклипсе именно лонг pole" — the Eclipse long-poll commands, with what the machine must show for each (for example a lock command: "вот такое должно быть на машине"). It has screenshots where possible, text where not. The scheme: the machine's SAS goes "по 2 порту" to the Flex-Port; the Flex-Port talks over the network. **The SAS checkbox on the machine must be set on the port where the Flex-Port sits**: "если её настроить не на том порту, то… флекспорт у нас работать не будет". The application's port setting must match the computer's. Klimovich: "Отличная работа".
+- **The Flex-Port SAS icon** ([[wiki/people/pavel.md|Pavel]]): red when nothing is connected, yellow when SAS commands flow, and — green, corrected to "голубенькая" (light blue; Klimovich: "Синяк") — when registration has happened (the protocol word is garbled).
+- **What is still missing** so [[wiki/people/elizabeth.md|Elizabeth]] can build the first stage alone (Klimovich's question): Ivan — "как прошить флекспорт… и 2 это флекс IQ то же самое. Вот эти 2 документа". [[wiki/people/irina-shishko.md|Irina]] wanted Ivan's document extended with how to install versions on the port and the IQ; Ivan prefers separate documents side by side — Irina: "может быть 2 документа… может быть 3 даже". [[wiki/people/alexei-khamin.md|Khamin]]'s two remarks: the diagram does not show the required extra devices "типа принтер, бил валидатор и так далее" — they must be on site too; and the document belongs in Confluence so it can be edited and viewed. Pavel's wish: screen captures, not photographs of the screen; Ivan: hard with two computers ("чуть дополнительный геморрой"), he does not dispute it.
+- **Confluence, for now.** Klimovich recalled a plan to drop Confluence; [[wiki/people/val-levitan.md|Val]]: use it freely for now, the files move later — see [[wiki/topics/docs-as-code-and-atlassian-exit.md]] (Sept 29). Irina: one place, so all files lie together. Ivan: "отдельные страницы… своё залью".
+- **The Flex-Port flashing instruction.** Khamin has one, "может устаревшая", and will tell Ivan where it is; Irina: "обнови её, пожалуйста, в таком стиле для текущего состояния"; Khamin: "Да займусь параллельно". Klimovich: "нам нужна ещё инструкция по прошивке флекспорта тоже [в Confluence]"; Irina: "Это Алеша… обновит и выложит".
+- **The Flex IQ install instruction** — none exists; Chudinov's "always the latest build" is on [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Sept-29, 8:06 AM update).
+- **The bootloader.** Khamin: Alekseev had given Pavel a working bootloader version the day before — "Говорил в понедельник буду готова" — and if it is not ready "через костыли устанавли[ваем]… и обновляем". Pavel: "Нет, нет" (unclear what he denies), then "у Алексеева спросим готовность прошивок… загрузчик" — he will ask [[wiki/people/evgeniy-alekseev.md|Alekseev]].
+- **The plan restated** (Klimovich): "подготовить все инструкции. Потом Элизабет должна в джорджии собрать сетап полностью по этим инструкциям. Убедиться, что всё работает, и после этого мы считаем, что мы готовы к тому, чтобы привозить машины других производителей к себе… на склад." Irina: first check Flex IQ and the port on JVL's own machine — the Sept-25 order. "если у нас завтра всё готово, то Элизабет сможет сделать уже [первый] этап."
+- **The site's kit.** Irina: Elizabeth can already prepare the SAS-tool computer and cables from Ivan's instruction rather than wait. Klimovich: "Есть всё, всё есть"; a laptop in Georgia is "специально отведённый, который для всех прошивок используется"; she has flashed "флек спорт только пока". When Irina clarified she meant the SAS-tool computer and its cables, he said they will follow the instruction step by step.
+- **The SAS tool zip.** Ivan had emailed it to Elizabeth ("Я саму зипку со стула кидал в почту Элизабет"). Klimovich wants it "доступное для всех работников [JVL] и актуальная ссылка была приот[а]чена к [ин]струкци[и]". Ivan: "Давай я попробую в [Confluence] залить", if a file can be attached to a page; "Если нет что, то придумаем".
+
+**Against the rule above.** The Sept-25 order (JVL machines first, then other makers') is restated as the plan; third-party machines still come only after Elizabeth's full set-up works. The Sept-15 start never happened and no new date for borrowed machines is given. Felipe's Sept-9 machine commitment is again not mentioned.
+
+### Open commitments (Sept 29 2026)
+
+- [ ] [[wiki/people/ivan.md|Ivan]] — put his set-up instruction into Confluence as separate pages, and try to attach the SAS tool zip there with the link in the instruction — due about Sept 30 2026 (Klimovich: "если у нас завтра всё готово") — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — tell Ivan where his old Flex-Port flashing instruction is, and update it to the current state in the same style, in Confluence — due unspecified ("займусь параллельно") — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — once the instructions are in Confluence, send them to Elizabeth so she builds the full set-up in Georgia — due after the instructions land — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 - [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
@@ -96,3 +119,4 @@ At the [[wiki/meetings/2026-09-25-transactional-mvp1-flexport-third-party-egm-co
 - [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Jira_Cleanup_and_E2E_Tests-September-22-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]

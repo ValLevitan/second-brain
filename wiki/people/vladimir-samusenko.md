@@ -3,8 +3,8 @@ type: person
 title: Vladimir Samusenko
 date: 2026-02-04
 aliases: [Vladimir Samusenko, Vladimir, Vlad, Владимир, Самусенко]
-source-count: 20
-open-commitments: 9
+source-count: 22
+open-commitments: 10
 ---
 
 # Vladimir Samusenko
@@ -127,7 +127,21 @@ At the [[wiki/meetings/2026-09-25-daily-standup-engineering-menu-and-jira-discip
 - **At the 4:56 AM stand-up** ([[wiki/meetings/2026-09-28-daily-standup-log-traffic-and-nova-rename.md|Sept-28 Minsk stand-up]], Russian): he is building the Flex-Port service menu and found no capability for it. Pavel will add a requirement under capability 235 for diagnostic screens; Vladimir agreed ("Давай так"). He and Irina will agree after the meeting when he can help with autotests [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]].
 - **At the 8:02 AM call** ([[wiki/meetings/2026-09-28-transactional-mvp1-remote-updates-and-october-15-target.md|Sept-28 8:02 AM MVP 1 call]]; in absentia): Irina said he finishes his design implementation work and joins the autotests "со среды" for about 8 days, then goes on leave [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]].
 
+## Sept 29 2026 — port tasks done; he starts on the autotests with TINT-41
+
+At the [[wiki/meetings/2026-09-29-daily-standup-firmware-reissue-and-modem-gateway.md|Sept-29 Minsk stand-up]] (Russian; speaker label): "С задачами по порту закончил. Сейчас смотрю, что происходит с автостерами." He confirmed with Pavel that the autotests "живут в интеграционном репозитории", requested access — [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] granted it during the stand-up ("Владимиру я доступа дал уже на репетитории тинты") — and will start with "тинт 41 задачу. Она самая понятная, на мой взгляд." This overtakes the Sept-28 plan to settle his start with Irina. See [[wiki/topics/test-automation-strategy.md]] (Sept 29) [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]. *(Whether the Flex-Port design task was closed and its pull request opened — his Sept-24 commitment — is not said; "с задачами по порту закончил" suggests so, but is not read as discharge.)*
+
+## Open commitments (Sept 29 2026)
+
+- [ ] Vladimir Samusenko — start on the autotests with TINT-41 in the integration repository — due started Sept 29 2026 — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+
+## Sept 29 2026 (8:06 AM, in absentia) — "he started working today"
+
+On the [[wiki/meetings/2026-09-29-transactional-mvp1-setup-instructions-and-mikrotik-router.md|Sept-29 8:06 AM MVP 1 call]] (Russian; he was not present) Irina reported: "мы подтянули Владимира, он начал работать уже сегодня… он уже там вник[ает]… [н]ачинает писать, ну будут ещё с его стороны вопросы" — a day earlier than the "со среды" of Sept 28; consistent with his own stand-up report above. Matched to this page by context (autotests) [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]. See [[wiki/topics/test-automation-strategy.md]] (Sept 29, 8:06 AM).
+
 ## Sources
+- [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 
 - [[raw/UI_Claude_Code_adaptation-February-6-2026.md]]
 - [[raw/Irina_Pavel_Figma_React-February-4-2026.md]]

@@ -3,8 +3,8 @@ type: topic
 title: NOVA platform architecture (JVL land-based gaming platform)
 date: 2026-05-12
 aliases: [NOVA, NOVA platform, NOVA gaming platform, land-based platform, land-based gaming platform, services architecture, library-to-service decomposition, Chief Architect NOVA, Unix-socket services, per-service repositories, packaged games, AMQP CMS protocol, capabilities from prose, prose standard, LGS prose, repo to Jira linkage, module contracts, NOVA integration repository, knowledge repository]
-source-count: 56
-open-commitments: 46
+source-count: 61
+open-commitments: 47
 open-questions: 26
 disambiguation: "NOVA is the named successor of the 'Omni' land-based platform code-word — do not conflate NOVA (this on-cabinet services platform) with the Omni game-templating / Rage→Omni content transition tracked on [[wiki/topics/omni-core-advancement-and-game-templating.md]]."
 ---
@@ -518,8 +518,35 @@ At the end of the [[wiki/meetings/2026-09-28-daily-standup-log-traffic-and-nova-
 - [ ] Repository maintainers (most are [[wiki/people/alexander-biratka.md|Alexander Biratka]]'s repositories) — accept and merge the Omni → NOVA rename pull requests — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — open repository access for Daniil Stauskiy to the Dragon Rain game — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
 
+## Sept 29 2026 — the game-select screen goes ahead with stub names
+
+At the [[wiki/meetings/2026-09-29-daily-standup-firmware-reissue-and-modem-gateway.md|Sept-29 Minsk stand-up]] (Russian) Daniil Stauskiy (no page) reported on the game-select feature — "28 фичи far 1483" and "фараум 1484" as spoken (the derived notes read FAR-1483/1484; the prefix is garbled). The stories tied to it are essentially done and ready to commit, "но вот единственное, что… они будут заглушками, потому что у меня нету селек[та]" — stubs, because he has no select-screen assets; he tested formally on a second game whose name is garbled. Some acceptance criteria "не могу как бы выполнить пока" for that reason. Pavel: so the screen exists but instead of real pictures "у тебя просто какието [плейсхолдеры]"; Daniil: "У меня там название просто стоят" — only names. Pavel: "Да да" — go ahead with stubs [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]. This continues the Sept-28 point above that the screen needs two games and Dragon Rain may serve; whether the Dragon Rain access was opened is not said.
+
+### Open commitments (Sept 29 2026)
+
+- [ ] Daniil Stauskiy (no page) — finish and commit the game-select stories with stub names in place of assets — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+
+## Sept 29 2026 (10:06 AM) — two development environments, one skeleton: the RK3568 SDK's state, the dependency on Pavel, the AMD spike, and the RK3576 branch
+
+At the [[wiki/meetings/2026-09-29-dev-environments-rk3568-sdk-amd-spike-and-ai-pm-direction-check.md|Sept-29 "Dev_environments" call]] (Russian; [[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/irina-shishko.md|Irina Shishko]]) the platform's build environments were looked at as one problem. The rulings are on [[wiki/decisions/2026-09-29-the-amd-environment-is-rebuilt-from-the-rk3568-sdk-pavels-ten-day-spike-and-the-rk3576-waits.md]]; this is the platform picture [[raw/Meeting_Transcript_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]] [[raw/Meeting_Transcript_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]].
+
+- **Two environments, both to be kept.** Val: "2 дега… которые нужно поддерживать один на rky а 2 на… экосистеме. Их надо обе поддерживать и создавать [environments] благоприятные для девелоперов" — an RK (Rockchip) one and an AMD one [[raw/Meeting_Transcript_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]].
+- **The dependency problem.** Val's worry is "баттлнек которым создаём вокруг Павла"; Irina: the single "[и]сточник знаний по железу"; Val: "это очень опасно… Компания не может так работать." Pavel's answer: when the RK3568 work began "никто не мог к этому особо подключиться, просто по недостатку знаний", but it was done with Claude and documented, and "сейчас в этот проект уже лазили ну разные разработчики" — "дима" on automatic updates, "Саша" too (Chudinov and Biratka by context — **inference**). *(Recorded as a dependency fact; nothing about Pavel as a person — §15.8.)* [[raw/Meeting_Transcript_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]]
+- **The RK3568 SDK today.** The repository "платформ с д к р к 35 68" is now "довольнотаки универсален" after Dima's last clean-up: FlexPay and a machine can both be built from it on the RK3568, "[н]у это слабенький процессор для машины". Prose: "актуальная… 13 секций прозы… по новой структуре… Андрей их сделал" (Bosik by context — **inference**). Capabilities exist from some point on; the work began without them and "[в]озможно, чего то не хватает" [[raw/Meeting_Transcript_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]].
+- **Why unify the two SDKs.** Pavel: AMD is "немножко подругому сделано"; make both "максимально близко" so an application on top — games, kiosks, anything else — can be reused, and a NOVA game "если мы её сейчас запускаем на AMD… легко перейдёт на 2 платформу… в идеале вообще без дополнительных операций" [[raw/Meeting_Transcript_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]].
+- **The plan.** Copy the RK3568 SDK as a skeleton for AMD — a spike into a new repository; bootloader and installer differ completely, the kernel and root-file-system builds are the same, possibly the same kernel version; MVP 1 = kernel, root file system, installer, bootloader; Pavel does it; ten days, review on the 8th. RK and AMD stay separate repositories. The RK3576 "[в] виде бранча живёт в р к 35 68" with differences found, cannot boot from an SD card (first load by cable), "на 95% репозиторий такой же", and waits until the two environments are standardised. Detail and commitments on the decision page [[raw/Meeting_Transcript_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]].
+- **This closes the loop on July 20.** The x86 platform SDK "analogue of the RK3568 platform SDK" was chosen on the [[wiki/meetings/2026-07-20-lte-modem-jira-structure.md|July-20 LTE-modem call]] (see [[wiki/topics/flexpay-business-architecture-payout-devices.md]], Jul 20); on Sept 29 it became a dated spike with an owner (**observation**, the call does not mention July) [[raw/Meeting_Transcript_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]].
+
+The derived notes read the same way [[raw/Meeting_Notes_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]] [[raw/Meeting_Notes_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]]; where they diverge (FlexPay vs "Flex" as the repository's first purpose; "Debian"; the month of "the 8th") the stub records it.
+
 ## Sources
 
+- [[raw/Meeting_Notes_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]]
+- [[raw/Meeting_Notes_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]]
+
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]

@@ -4,8 +4,8 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 109
-open-commitments: 43
+source-count: 111
+open-commitments: 48
 ---
 
 # Andrey Bosik
@@ -487,7 +487,7 @@ At the [[wiki/meetings/2026-09-25-ai-project-manager-for-jira.md|Sept-25 "JIRA m
 
 ## Open commitments (Sept 25 2026)
 
-- [ ] Andrey Bosik (with the others on the call) — think through how he would build the AI project manager — due Tuesday Sept 29 2026, 7:00 — [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]
+- [x] Andrey Bosik (with the others on the call) — think through how he would build the AI project manager — due Tuesday Sept 29 2026, 7:00 — [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]] — **discharged Sept 29 2026:** he brought a presentation overlapping Val's by about 70 %; see below — [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
 - [ ] Andrey Bosik, with Dmitri Chudinov — review the GitHub update variables (common versus per terminal) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
 
 ## Sept 25 2026 (8:05 AM) — a distribution list for the transactional system
@@ -512,7 +512,44 @@ At the [[wiki/meetings/2026-09-25-games-conversion-repos-jira-capabilities.md|Se
 - **Also at the stand-up:** Chudinov aligned the product-terminal names for updates "с Андреем" (read as Bosik — **inference**, DevOps context) [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]].
 - **At the 8:02 AM call** ([[wiki/meetings/2026-09-28-transactional-mvp1-remote-updates-and-october-15-target.md|Sept-28 8:02 AM MVP 1 call]]): on whether Elizabeth can log in to the terminal-management portal — "Ну завести она может", but if Sergey has added roles, she may need an extra one. On environments: an SD card is the first install, "а потом оно привязывается к какомуто из окружения" [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]].
 
+## Sept 29 2026 (6:02 AM) — he takes the AI PM project: "AI draft" tasks for code owners after a dry run, and the transcripts nobody can collect
+
+At the [[wiki/meetings/2026-09-29-ai-pm-architecture-and-second-brain-plan.md|Sept-29 "Design_AI-PM" call]] (Russian; label "Andrei Bosik") [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]. The project is on [[wiki/projects/ai-project-manager-and-company-second-brain.md]]; the rulings on [[wiki/decisions/2026-09-29-bosik-owns-the-ai-pm-the-meeting-bot-waits-and-the-second-brain-is-built-first.md]].
+
+- **His presentation** overlapped Val's file "на процентов 70"; he shared it rather than publish it. His additions: the three existing daily reports as data for the PM; drafts of tasks about half an hour after a meeting; tasks in Jira with an "AI draft" status that a person corrects, cancels or accepts; drafts assigned or reported to each repository's code owners (one repository = one Jira project); the transcript time cited in each task; and "драйверан" — a week or two with no Jira writes before giving it access.
+- **Owner.** "Я могу взять на себя, попробовать это реализовать"; asked who is responsible: "Нет, видимо я наверное буду."
+- **Transcripts.** "[о]ни кладутся к владельцу митинга… у меня как [админа] их тоже нету… нам надо построить механизм, чтобы мы могли доставать расшифровки митингов у каждого пользователя"; the admin "не должен нарушать границы конфиденциальности". The old GitHub transcript repository Lena made "не работает". He disagreed with Val on taking the transcripts out of a repository: keep them there as storage and let the second brain rest on them; Obsidian can use GitHub as storage anyway; markdown transcripts "ничего не весят".
+- **Second brain vs knowledge base.** "секонд брейн опирается… на [knowledge base]… более верхний уровень абстракции, где появляются… граф" that finds intersections between topics.
+- **The bot, and what came first.** He found creating the bot the most interesting part; Val moved it to MVP 2. His own first step — automate getting the transcripts — and Val's "build the second brain first" turned out to be the same step.
+- **Results he named for the next meeting:** finish the architecture design "чтобы он был внятным даже для [AI]", set up transcript collection from each user, and start building the second brain. On the persona: "персона по сути надо сформировать".
+- **"Это так бонус."** His "через недельку, через 2" was refused — Friday at about 7:00.
+- **A term.** On Val's copying between two AIs: "Мясное прокси" (meat proxy). He now tells his own AI "давай подумаем над тем, как это реализовать… предложу варианты".
+
+**§15.8:** Val's remarks about how he presents himself are not recorded.
+
+## Open commitments (Sept 29 2026, 6:02 AM)
+
+- [ ] Andrey Bosik — finish the AI PM architecture design so it is clear, including to the AI itself — due Fri Oct 2 2026 — [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
+- [ ] Andrey Bosik — set up collection of every user's meeting transcripts into one store — due about 1–2 days (Val's sizing); status Oct 2 2026 — [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
+- [ ] Andrey Bosik — start building the company second brain from the collected transcripts, in phases — due started; about a month of processing — [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
+- [ ] Andrey Bosik — design the AI PM's architecture and persona while the brain builds — due unspecified (Val: 2–3 days) — [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
+- [ ] Andrey Bosik — run the task drafting as a dry run with no Jira writes for a week or two before giving it Jira access — due after the pipeline exists — [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
+
+## Sept 29 2026 (8:06 AM) — his router report: Linksys out, Netgear untestable, MikroTik it is
+
+On the [[wiki/meetings/2026-09-29-transactional-mvp1-setup-instructions-and-mikrotik-router.md|Sept-29 8:06 AM MVP 1 call]] (Russian; label "Andrei Bosik") he asked for "пару слов" at the end and reported on the routers [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]:
+
+- **The brands.** Linksys (a Cisco sub-brand for the home segment) "не подымаются без наличия интернета"; Netgear cannot be bought in Belarus, so a problem with it could not be tested there; "остается, по сути, микротики" — registered in Lithuania or Latvia ("Я точно не помню где"), production "всё равно китайское. Скорее всего", sanctions unknowable. His first instinct was to keep the TP-Link routers in use, since his AI ("как сказал мне клод") had told him equipment bought before any restriction counts as lawfully bought. Val: no Chinese equipment. "Давайте тогда остановимся на микротиках" — buyable in Minsk, so he can test it and roll out a config; $40 for the simplest, $40–$100 in general. Val had not heard of the brand; he posted the name in the chat.
+- **Switch and PoE.** Routers have four ports (newer ones three), so a switch takes the equipment; the switch brand matters less but should not be Chinese — "А у нас наверное, все китайские, если честно." On Pavel's PoE idea: the Flex-Port hardware would have to support it — "это аппаратная часть". He put a PoE switch at two to three times the price of an ordinary one; Pavel disagreed.
+- **The ruling.** Klimovich: "можем с микротиком дальше двигаться"; Bosik: "Да, хорошо." See [[wiki/decisions/2026-09-29-mikrotik-is-the-location-router-and-val-leaves-the-brand-to-the-team.md]] and [[wiki/decisions/2026-09-07-wi-fi-module-on-flex-port-with-an-external-router.md]] (Sept-29 update).
+
+## Open commitments (Sept 29 2026, 8:06 AM)
+
+- [ ] Andrey Bosik — go ahead with MikroTik: pick a model, buy and test it in Minsk, and prepare a config for roll-out — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+
 ## Sources
+- [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+- [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
 
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]

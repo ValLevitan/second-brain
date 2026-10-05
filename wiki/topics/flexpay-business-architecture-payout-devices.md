@@ -3,9 +3,9 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, floating FlexPort, FlexPort on posts, флори дизайн, recycling cassette, drop cassette, two-tape reel, refill cycle, IQ point of sale, promo credit on SAS 2, validator emulation, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS, ATM registration, slim ATM, Flex-Port-Mini, Flex Port Mini, Flex-Slim first ten, brackets from China, twelve eight twenty, eVoucher, wrapped gift card, EasyLynx, second SAS port, ATM Recycler, PTI Sentry, MudaGoose, Lego bricks, closed loop ATM, promo meter, technology agnostic, player is the king, tap to fund, the magic is in speed, Pay Slim, cannibalise MudaGoose, zero-balance wallet, wallet lifetime, one TITO printer, splitting, AFT device, AFT window, emulate an AFT device, no cash dispensing, eWallet TTL, collect fork, unclaimed transaction, reissue versus reprint, print new carrier, balance snapshot, daily cap and velocity, SAS 6.02, Gaming Standards Association, audit report one button, dual balance deposited and playable, Total Playable only Redeemable, balance naming ADR, playable only, unclaimed money, maintenance versus lockout, always-on scanner, LTE modem per device, capability requires requirement, printer tilts, preventive supply telemetry, vault server, incremental five, five dollars of promotional credit for a phone number, clearance network prohibits proceeds from gambling, business way agnostic, they are not your customer they are mine, offline operation, twenty-four hour offline window, lease expiry versus internet loss, be honest with yourselves, no cash on FlexPay, de-enrolled from a location never from the cloud, fifteen Flex-Ports design for 99, no daily cap error, pending transaction, one-time redemption PIN, synchronisation point, metal mesh on standoffs, Flex-Pay-Slim lid, service bay cover, taut string stopper, roll forward only, no rollback to a previous build, MVP1 dual SAS only, capability 144 cloned, nothing is closed, Monday scope freeze, receipt format still not given, balance display game agnostic, stackable recycler, cash box capacity, standalone TITO printer topology, four swimlanes seven columns, language button top left, 854 by 480, status icons on error screens, asset number, серийный номер машины, engineering menu QR, machine performance report MVP2, feature lock slips, capability 229, TouchGFX Designer, two-stage screen redraw, HTML mock-up versus Figma, design tokens, the kiosk is FlexPay, player gets two dollars less, blank not empty, texts compiled at build, October 2 end date, E2E micro-step, KORE SIM in the IQ, capability 234, capability 235, forfeit wallet, no PIN lockout, nine Flex-Ports default twenty]
-source-count: 279
-open-commitments: 116
-open-questions: 28
+source-count: 282
+open-commitments: 118
+open-questions: 29
 ---
 
 # FlexPay business architecture and the payout-device catalog
@@ -1148,6 +1148,7 @@ On the [[wiki/meetings/2026-07-20-lte-modem-jira-structure.md|July-20 6:06 AM se
 - **No source-based build for the V1000 OS today.** Pavel explained there are **no source files for the V1000 operating system** — only a **prebuilt binary package** (Linux plus OS files) sitting on the builder, reused for every product build; a new package was created each time the kernel changed. Two options: (1) the old way — **rebuild the OS with modem support** (~3–5 days); or (2) build a proper **git-based build system** like the existing **RK3568 platform SDK** repository (~2–3 weeks, "3–4× longer"). [[raw/Meeting_Transcript_LTE_Modem_Jira_Structure-July-20-2026.md]]
 - **Decision — take the git-based route (a new x86 platform SDK).** Val agreed with Pavel's recommendation of the git-based approach even though it takes longer: it **unifies the SDK style across platforms** (V1000, FP7, ARM), the team already has a **Linux kernel mirror in its own repository** (made by Andrei, so one kernel version can serve all projects), and the work runs **in parallel with other projects** (an isolated task Claude can grind on with occasional check-ins). It also fits Friday's direction of possibly moving **RAGE to Nova**, which would pull repository reorganization and GitHub Actions builds along with it. A **new repository is needed — an x86 platform SDK** (analog of the RK3568 platform SDK), named something like "Platform SDK x86 Gaming." [[raw/Meeting_Transcript_LTE_Modem_Jira_Structure-July-20-2026.md]]
 - **Kernel question deferred.** V1000 is on kernel **5.15**, RK3568 is on **6.12** — whether to spread 6.12 to the Nova transition needs a decision later (maybe for Nova; not for V1000 in Georgia for now), not at this meeting. **§15.8:** clear — device/build-system/platform economics only, no named-person compensation. [[raw/Meeting_Transcript_LTE_Modem_Jira_Structure-July-20-2026.md]]
+- **Sept-29 update — the x86/AMD SDK becomes a dated spike.** On the [[wiki/meetings/2026-09-29-dev-environments-rk3568-sdk-amd-spike-and-ai-pm-direction-check.md|Sept-29 "Dev_environments" call]] Pavel proposed, and Val accepted, a spike to "[п]еренести [the RK3568 SDK] в новый репозиторий. И. Адаптировать его для [AMD]. Процессоров" — bootloader and installer differ, the kernel and root-file-system builds are the same, "[м]ы даже можем наверно одну и ту же версию кернел использовать и там, и там"; Pavel takes it himself, ten days, review on the 8th. Rulings on [[wiki/decisions/2026-09-29-the-amd-environment-is-rebuilt-from-the-rk3568-sdk-pavels-ten-day-spike-and-the-rk3576-waits.md]]. (Whether this spike is the same "Platform SDK x86 Gaming" repository named in July, or a new one, is not said — **observation**.) [[raw/Meeting_Transcript_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]]
 
 ## Jul 20 2026 — configuring Payment Hub in Business Central before production
 
@@ -2702,7 +2703,7 @@ The [[wiki/meetings/2026-09-28-transactional-mvp1-remote-updates-and-october-15-
 
 ### Open commitments (Sept 28 2026, 8:02 AM)
 
-- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — update the MVP 1 requirements with the new tilts and card errors, and the text library — due Sept 29 2026 (the next call; "хороший шар") — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — update the MVP 1 requirements with the new tilts and card errors, and the text library — due Sept 29 2026 (the next call; "хороший шар") — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]] — *Sept 29 2026: blocked — the tilts document had not reached him ("Документы мне не скидывали по поводу новых тилтов"); he asked Chudinov for it by email* — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
 - [ ] [[wiki/people/val-levitan.md|Val Levitan]] — arrange Flex-Port mounting brackets for other makers' machines (for example Aristocrat); asked to be reminded — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
 
 ## Sept 28 2026 (12:50 PM) — the product set described to investors: ~$4,000 cost, what is easy and hard to make, and the AFT as a peripheral in competitors' machines
@@ -2718,8 +2719,53 @@ At the [[wiki/meetings/2026-09-28-larry-john-eddie-lunch-transactional-equipment
 
 **§15.8:** clear. **§15 #9:** none.
 
+## Sept 29 2026 (4:49 AM stand-up) — wallet through the Flex-Port (156) nearly done, zero balance (158) half done already, 152 goes to a real device, and 134 waits on a real server
+
+At the [[wiki/meetings/2026-09-29-daily-standup-firmware-reissue-and-modem-gateway.md|Sept-29 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]:
+
+- **[[wiki/people/dmitri-chudinov.md|Chudinov]].** "Вчера сегодня закрыл капсту 230 150" (two capabilities closed; the numbers as spoken — whether capability 237 from Sept 28 is among them is **unclear**). He is finishing 152 on the test stands and will roll it out — "надо посмотреть на реальном девайсе. Может и что бросится в глаза" — then plans 176, "возможно уже частично закрыто".
+- **[[wiki/people/sergey-tsymanov.md|Tsymanov]].** "Я заканчиваю с каппобилити 156 это по… [с]оздание [волета] это через [Флекс-Порт]" — wallet creation through the Flex-Port is implemented and under test on the stand. He cannot yet flash through the programmer ("fixot" — unclear) because the board he names ("таммар 64" — **unclear**) has no USB; he is looking for a workaround, else he brings it back to Pavel. Next: capability 158, "[з]еро баланс" — he and "Дима" (Chudinov, by context) looked quickly and "[п]оловина из них точно реализована уже"; he must find which. Pavel: "стать зерро баланс… ага" and asked whether the tasks go on him; Tsymanov has already reassigned them to himself.
+- **[[wiki/people/alexander-biratka.md|Biratka]].** Capability 134: "3 фичи… открыто", all possible update tasks done; "последним шагом будет проверка на реальном с реальным сервером, который пока не поддерживает flexpay" — the last step needs a real server, which does not yet support FlexPay (the same block as Sept 28 above). The "GS[M]" task is still not started. His Sept-28 commitment to finish 134 that day is therefore not discharged.
+- **Modem as default gateway.** Pavel's and Kharetski's finding that the progressive link keeps reconnecting and broadcast packets leak to the modem, "для всех наших транзакшнл продуктов", is on [[wiki/decisions/2026-09-17-lte-is-the-default-route-and-the-manual-override-stays.md]] (Sept-29 update).
+- **Firmware update through Flex IQ first.** Pavel's order to [[wiki/people/anton-seregin.md|Seregin]] is on [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Sept-29 update).
+
+**§15.8:** clear. **§15 #9:** none.
+
+### Open commitments (Sept 29 2026, 4:49 AM)
+
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — finish capability 152 on the test stands, roll it out and check it on a real device; then capability 176 — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+- [ ] [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] — finish capability 156 (wallet through the Flex-Port), find a way to flash the board or bring it back to Pavel, then start capability 158 (zero balance) — due Sept 29 2026 (156) / unspecified — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+
+## Sept 29 2026 (8:06 AM) — day twelve: the tilts document is still missing, Ivan's set-up instruction is walked through, three documents go to Confluence for Elizabeth, "always the latest build", and MikroTik is the router
+
+The [[wiki/meetings/2026-09-29-transactional-mvp1-setup-instructions-and-mikrotik-router.md|twelfth morning call]] (Russian, 8:03–8:31 in two segments; the first three minutes are waiting and small talk). Nine voices, Val present [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]].
+
+**The tilts document.** [[wiki/people/andrei-klimovich.md|Klimovich]] had no news of his own and had not received the collection of new tilts and errors he asked for the day before; he asked for it by email. [[wiki/people/dmitri-chudinov.md|Chudinov]]: "в процессе я заканчиваю эту задачу и будет" — so the Sept-28 requirements update (above) is blocked on it. On [[wiki/decisions/2026-09-24-written-records-go-by-email-and-chats-are-for-instant-matters.md]] (Sept-29, 8:06 AM update) [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]].
+
+**Ivan's set-up instruction**, sent that morning, walked through on screen: the Flex-Port and Flex IQ already set up, the cables PC–machine and Flex-Port–machine, the SAS set-up on the machine, the SAS emulator, and the Eclipse long-poll commands with what the machine should show. **The SAS checkbox on the machine must be on the port where the Flex-Port is connected, or the Flex-Port does not work.** [[wiki/people/pavel.md|Pavel]] on the Flex-Port's SAS icon: red = nothing connected, yellow = SAS commands flowing, light blue (he first said green) = registered. Still missing: how to flash the Flex-Port ([[wiki/people/alexei-khamin.md|Khamin]] updates his old instruction) and how to install Flex IQ (none exists). All three go into Confluence. Then [[wiki/people/elizabeth.md|Elizabeth]] builds the full set-up in Georgia; when it works, other makers' machines come to the warehouse. The SAS tool zip went to Elizabeth by email and should sit where every JVL employee can reach it. Full record on [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] (Sept-29 update) [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]].
+
+**Confluence stays for now.** Val: "пока вы можете смело пользоваться [Confluence]"; the files move when JVL moves. On [[wiki/topics/docs-as-code-and-atlassian-exit.md]] (Sept 29) [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]].
+
+**Which Flex IQ build.** Chudinov: "Берите всегда последний актуальный" — the standard rule for every technician with fresh boards; a large release lands today, so install tomorrow. Elizabeth can see the Updates tab (checked with "Сергей", not resolved). On [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Sept-29, 8:06 AM update) [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]].
+
+**The bootloader.** Khamin: [[wiki/people/evgeniy-alekseev.md|Alekseev]] had given Pavel a working bootloader version the day before and had said "в понедельник буду готова"; if not, the team installs "через костыли". Pavel will ask Alekseev whether the firmware is ready [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]].
+
+**Autotests.** [[wiki/people/vladimir-samusenko.md|Vladimir]] started that day; Khamin and Ivan continue; [[wiki/people/irina-shishko.md|Irina]] sets up her own environment. Pavel: the test tasks in the schedule show end dates of yesterday but are still in work; Irina: "Правильно". On [[wiki/topics/test-automation-strategy.md]] (Sept 29, 8:06 AM) [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]].
+
+**MVP 2.** Klimovich: "Александр по MVP 2… Что надо обсудить?" [[wiki/people/alexander-biratka.md|Biratka]]: he will write emails as agreed; "пока у меня такого именно срочного ничего нет" [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]].
+
+**The router.** [[wiki/people/andrey-bosik.md|Bosik]]'s report — Linksys does not come up without internet, Netgear cannot be tested in Belarus, MikroTik can be bought in Minsk at $40–$100 — met Val's "Мы не можем пользоваться китайским… оборудованием"; Val left the brand to the team and Klimovich closed on MikroTik. A switch is needed as well (routers have three or four ports); the same switch model should be chosen in Minsk because Chudinov once had devices that did not see each other through one. Pavel's PoE idea — power the ports from the switch so they stay online when the machine is off — needs Flex-Port hardware that does not exist today; future only. Full record on [[wiki/decisions/2026-09-29-mikrotik-is-the-location-router-and-val-leaves-the-brand-to-the-team.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]].
+
+**§15.8:** clear. **§15 #9:** none.
+
+### Open questions (Sept 29 2026, 8:06 AM)
+
+- Should a future Flex-Port revision take power over Ethernet from a PoE switch, so the ports stay online when the machine is off? Pavel raised it for future capabilities only; Bosik: the hardware would have to support it — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Equipment_Depreciation_Investor_Pitch-September-28-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
@@ -3001,3 +3047,4 @@ At the [[wiki/meetings/2026-09-28-larry-john-eddie-lunch-transactional-equipment
 - [[raw/Meeting_Transcript_FlexPort_Telnet_Console_and_GUI_Harness-September-26-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]

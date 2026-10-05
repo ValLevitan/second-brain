@@ -3,7 +3,7 @@ type: topic
 title: Transcript knowledge-base tooling
 date: 2026-07-14
 aliases: [knowledge graph, tagging pipeline, transcript tagging, text analysis, force-directed graph, Bayesian tagging, second brain tool, value streams, making use of knowledge, vector database, Open Semantic Search, diarization, Pinecone, semantic search, N8N, Verba, Weaviate, company-wide knowledge base, PDFX, PDF access, SurfSense, memory graph, reasoning as a service, company's truth, binary facts, Apache Age, ontology, Fuse driver, KG tool, broccoli.house, engineering knowledge base, graph vs tags, labeling taxonomy, controlled vocabulary, ecosystem-independent, SharePoint access, n8n pipeline, ADR graduation, Semantic Understanding, JVL whisperer, taxonomy vocabulary, Turboscribe, dual-source transcription, MCPB]
-source-count: 48
+source-count: 49
 open-questions: 6
 ---
 
@@ -307,6 +307,18 @@ At the [[wiki/meetings/2026-09-25-ai-project-manager-for-jira.md|Sept-25 "JIRA m
 - **The ruling.** Val: create one company second brain on the Karpathy method and point the AI project manager at it and at the GitHub repositories. See [[wiki/decisions/2026-09-25-one-company-second-brain-feeds-an-ai-project-manager-for-jira.md]].
 - **Still hard: getting the transcripts.** Bosik: getting meeting transcripts out of Azure has "сложности". Kovalchuk: the data volume will be large and probably very expensive.
 
+## Sept 29 2026 — second brain vs knowledge base, transcripts only the organizer can see, and Val's brain in numbers
+
+At the [[wiki/meetings/2026-09-29-ai-pm-architecture-and-second-brain-plan.md|Sept-29 "Design_AI-PM" call]] (Russian) [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]] the Sept-25 direction above became a plan — see [[wiki/projects/ai-project-manager-and-company-second-brain.md]] and [[wiki/decisions/2026-09-29-bosik-owns-the-ai-pm-the-meeting-bot-waits-and-the-second-brain-is-built-first.md]]. What this page adds to the long thread:
+
+- **The distinction, in Val's words.** "архив это не нолычбэйс… а это [second brain]." A knowledge base is "те нолочь, которые мы накапливаем… [с]писок знаний"; a second brain is "[ф]актически… [р]азговоры, которые происходили в компании… эти факты… никогда не меняются. И на них строится уже индекс." Pavel: "у меня оно не разграничивается"; Bosik: the second brain rests on a knowledge base and adds a graph that finds intersections between topics; Pavel: a classic knowledge base is a database of records, the second brain adds "хороший индекс". Pavel also said an AI reports Karpathy uses a wiki, "совсем не обсидиан"; Val: Karpathy throws any information in, whereas JVL uses its brain "как [с]формированный [knowledge base]… нам нужны эти факты"; Obsidian is "одна из реализаций векторной базы данных" — Val: "Да да".
+- **Storage, per Val's Claude.** The never-changing transcripts are kept and accumulated in Obsidian; "местные индексные data" are attached because the files grow many, with a light local database; the summaries go to GitHub. Bosik: Obsidian "в качестве источника хранения данных может использовать китхаб", and he would keep the transcripts in a repository as plain storage; Kovalchuk: so the AI can later cite where a decision was made. This is the Sept-25 "where do approvals and versions live" question moved on, not closed.
+- **Nobody can collect the transcripts.** Bosik: they sit "к владельцу митинга… у тебя доступ только к твоим расшифровкам", and as admin "у меня… их тоже нету… из коробки такого механизма не существует"; the admin "не должен нарушать границы конфиденциальности". Pavel's "SharePoint belongs to the company" did not change that. The GitHub repository "где сохранялись транскрипты митингов раньше" that Lena made "не работает" — the Mar-31-2026 pipeline above is the likely referent (**inference**). Val sized the collection at "около дня. 2 дней".
+- **Val's own brain.** Transcripts over "18 месяцев" (years garbled; read as Jan 2025–Jun 2026 — **inference**); "[п]ерерабатывать у меня заняло около месяца. И около около $7000"; from ready transcripts the AI's own work is "гдето неделя"; it runs in phases, and "каждый квартал я читал… [а]нализа этого second b[r]ain, что он понимает, моя компания делает" and had to confirm it. The glossary comes after the brain: it compiles the terms it does not understand, and the glossary confirms them.
+- **The order.** The company's "200 500" transcripts take about a month to process — "самый длинный… самый дорогой" step, started first; the AI PM's persona is designed in parallel.
+
+**§15.8:** clear — tooling, method and tool cost only.
+
 ## Open questions
 
 - Does the Feb-2-2026 knowledge-graph platform actually get deployed and adopted by Andrei/Dima, and how does it relate to (or replace) the earlier Verba/Weaviate and Open WebUI attempts? Handed over as "barely alpha"; adoption not yet shown. — [[raw/Introduction to Knowledge Graph Tool-part-1-February-2-2026.md]]
@@ -366,3 +378,4 @@ At the [[wiki/meetings/2026-09-25-ai-project-manager-for-jira.md|Sept-25 "JIRA m
 - [[raw/Meeting_Transcript_Aaron_Bockelie_Knowledge_Graph_Truth_Methodology-March-6-2026.md]]
 - [[raw/Meeting_Notes_Aaron_Bockelie_Knowledge_Graph_Truth_Methodology-March-6-2026.md]]
 - [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]
+- [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]

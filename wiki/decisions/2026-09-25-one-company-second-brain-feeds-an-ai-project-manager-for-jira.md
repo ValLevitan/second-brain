@@ -3,9 +3,9 @@ type: decision
 title: One company second brain feeds an AI project manager for Jira — Val's direction; the design goes to homework for a Tuesday meeting
 date: 2026-09-25
 aliases: [AI project manager for Jira, AI проджект менеджер, AI Project Manager, company second brain, одна компании секунд брейн, Karpathy method, JIRA management AI, conservative framework, 20 people limit, ESL English prompt]
-source-count: 2
+source-count: 3
 status: active
-open-commitments: 2
+open-commitments: 1
 open-questions: 4
 ---
 
@@ -59,15 +59,19 @@ Pavel: "Ну да, выглядит." No one objected to the direction [[raw/Mee
 
 ## Open commitments
 
-- [ ] Val Levitan, Pavel Frolov, Irina Shishko, Andrey Bosik, Dmitri Kovalchuk — each think through how to build the AI project manager (functions, algorithm, how it works) — due Tuesday Sept 29 2026, 7:00 (date worked out) — [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]
-- [ ] Val Levitan — if the team wants it, have Claude write up how his own second-brain system is built ("Я могу, если хотите попросить") — due unspecified — [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]
+- [x] Val Levitan, Pavel Frolov, Irina Shishko, Andrey Bosik, Dmitri Kovalchuk — each think through how to build the AI project manager (functions, algorithm, how it works) — due Tuesday Sept 29 2026, 7:00 (date worked out) — [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]] — **discharged Sept 29 2026:** the "Design_AI-PM" call was held (6:02 AM); Val had sent a file, Bosik brought slides overlapping it by about 70 % — [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
+- [ ] Val Levitan — if the team wants it, have Claude write up how his own second-brain system is built ("Я могу, если хотите попросить") — due unspecified — [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]] — *Sept 29: he described it on the call (Obsidian for the frozen transcripts, a light local index, summaries in GitHub) and said "Я могу повторить архитектуру, которая у меня работает"; no written hand-over is reported* — [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
+
+## Update, Sept 29 2026 — the design meeting happened; the direction became a plan
+
+The Tuesday meeting was held as the [[wiki/meetings/2026-09-29-ai-pm-architecture-and-second-brain-plan.md|"Design_AI-PM" call]]. Its rulings — Bosik owns the project, the live meeting bot waits for MVP 2, the transcripts are collected and the second brain built first, drafts go to repository code owners with an "AI draft" status after a dry run, status on Friday Oct 2 at about 7:00 — are on [[wiki/decisions/2026-09-29-bosik-owns-the-ai-pm-the-meeting-bot-waits-and-the-second-brain-is-built-first.md]]; the whole picture on [[wiki/projects/ai-project-manager-and-company-second-brain.md]] [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]. This page stays `active`: the direction holds, and Sept 29 carries it out rather than replacing it.
 
 ## Open questions
 
-- Where do approvals and versions live — pull requests in GitHub (Val) or Obsidian or similar (Kovalchuk; Pavel and Bosik: Git is the wrong tool)? — [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]
-- How does the company get the meeting transcripts out of Teams/Azure (Bosik)? — [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]
-- What does it cost to process that much data (Kovalchuk)? — [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]
-- How often should it run — daily (Pavel) or more often (Val)? — [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]
+- Where do approvals and versions live — pull requests in GitHub (Val) or Obsidian or similar (Kovalchuk; Pavel and Bosik: Git is the wrong tool)? — [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]] — *Sept 29: moved on, not closed. Approvals: Bosik's "AI draft" status in Jira, accepted, edited or rejected by a person, after a dry run (no objection). Storage: Val, per his Claude, keeps the frozen transcripts in Obsidian with a light local index and puts the summaries in GitHub; Bosik would keep the transcripts in a GitHub repository (Obsidian can use GitHub as storage). Not settled* — [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
+- How does the company get the meeting transcripts out of Teams/Azure (Bosik)? — [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]] — *Sept 29, sharpened: transcripts sit only with each meeting's organizer; even the admin cannot read others' ("у меня как [админа] их тоже нету"); no out-of-the-box mechanism; Bosik is to build one. Still open* — [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
+- What does it cost to process that much data (Kovalchuk)? — [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]] — *Sept 29, a data point: Val's own brain, 18 months of transcripts, took about a month and "около $7000"; the company's 200–500 transcripts are sized at about a month, "самый дорогой" step* — [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
+- How often should it run — daily (Pavel) or more often (Val)? — [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]] — *Sept 29: Bosik asked "сразу… или… раз в сутки"; Val prefers at once, asking for comments; Pavel: it depends on urgency. Not ruled* — [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
 
 ## Related
 
@@ -80,3 +84,4 @@ Pavel: "Ну да, выглядит." No one objected to the direction [[raw/Mee
 ## Sources
 - [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]
 - [[raw/Meeting_Notes_AI_Project_Manager_for_Jira-September-25-2026.md]]
+- [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]

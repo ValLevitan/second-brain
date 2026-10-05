@@ -3,7 +3,7 @@ type: topic
 title: Docs-as-code and the plan to exit Atlassian
 date: 2025-02-21
 aliases: [docs as code, documentation site, GitHub Pages, GitHub Docs, mermaid, Confluence exit, Atlassian exit, single source of truth, template repo, contact sheet, GDD, markdown tooling, VS Code vs Obsidian, GitHub Sync, GitHub Desktop, code-first toolbox]
-source-count: 19
+source-count: 20
 open-questions: 3
 ---
 
@@ -136,6 +136,12 @@ At the end of the [[wiki/meetings/2026-09-25-georgia-progressives-and-class-a-li
 
 This keeps the Jan-2026 Confluence-to-GitHub direction above as intent, with no date. For the same morning's Jira discussion see [[wiki/decisions/2026-09-25-one-company-second-brain-feeds-an-ai-project-manager-for-jira.md]]. [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
 
+## Sept 29 2026 — the transactional set-up instructions go into Confluence: "пока вы можете смело пользоваться"
+
+At the [[wiki/meetings/2026-09-29-transactional-mvp1-setup-instructions-and-mikrotik-router.md|Sept-29 8:06 AM MVP 1 call]] (Russian) [[wiki/people/alexei-khamin.md|Alexei Khamin]] proposed putting Ivan's machine set-up instruction in Confluence so it can be edited and viewed. [[wiki/people/andrei-klimovich.md|Klimovich]] hesitated: "я не помню какая у нас политика относительн[о Confluence]. Мы вроде когдато планировали от него отказаться полностью." [[wiki/people/val-levitan.md|Val]]: "**Если мы будем отказываться от этого, то мы переведём потом все файлы в другое место, пока вы можете смело пользоваться [Confluence]… мы будем от него отходить в будущем, но… нам нужно будет потом наладить переход на новый какойто медиум и перевести оттуда все файлы. Поэтому я вам советую, пока не обращать на это внимание.**" Klimovich: then better in Confluence, with versioning; [[wiki/people/irina-shishko.md|Irina]]: pick one place so all the files lie together. The three documents (Ivan's set-up, Khamin's Flex-Port flashing, the Flex IQ SD-card install) are listed on [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] (Sept-29 update) [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]].
+
+Same position as Sept 25 above, now stated to the engineering team in Russian: Confluence stays in use, the exit has no date, and the migration of files is accepted as a later cost.
+
 ## Open questions
 
 - The initial Confluence-to-Markdown export was **incomplete**: the symbol table (symbol names + export naming) that exists in Confluence did **not** port. Aaron said Confluence's export may be lossy and it must be reconciled. [[raw/GitHub_commit_of_LFS_demo_by_Lena_2025-02-21.md]]
@@ -164,3 +170,4 @@ This keeps the Jan-2026 Confluence-to-GitHub direction above as intent, with no 
 - [[raw/Meeting_Transcript_Clayton_Jira_MCP_Demo_and_Toolset_Direction-January-29-2026.md]]
 - [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
 - [[raw/Meeting_Notes_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]

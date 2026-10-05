@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, truth as code, knowledge work framework, keep Jira current, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, Copilot Studio, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest, LaTeX, printer tool, Ollama, llama.cpp, local inference, Code Llama, Hugging Face, Claude Code, AI sandwich, developer experience, think like a data scientist, sub-agents, verbose output, compiler layer, ways vs skills, ADR, cross-examination, Python Vulture, intelligence center, Waze system, ways framework, compiler stack diagram, module federation, Aaron ways system, Ways ADR, Ways capabilities catalog, regulatory provenance chain, JVL Ways pipeline, ways branch architecture, trusted stage users, clean environment lesson, engagement auditor agent, translation service, terminology override table, GitHub Enterprise fork, JVL GitHub Ways architecture guide, Capability Ticket, Jira hierarchy restructure, engineering guides, architecture black hole, Piratka, prose standard, code to prose, capability extraction, 29 capabilities, AI flattery caution, agent setup, prose initialization skill, prose skill, dependency-tree mapping, prose pending folder, contracts written by Claude, development pipeline end to end, clean-session evaluation, naming by Claude]
-source-count: 169
+source-count: 170
 ---
 
 # AI-assisted development adoption
@@ -990,7 +990,20 @@ At the [[wiki/meetings/2026-09-25-ai-project-manager-for-jira.md|Sept-25 "JIRA m
 - **ESL output.** Val: the prompt should ask for English for second-language readers, and he tells his own prompt to keep replies to no more than 30 seconds of reading.
 - **Val's own persona.** Val said he set up a persona for himself ("персонаж, как EI chol") that works very well — most likely his AI-CFO (**inference**; the word is garbled).
 
+## Sept 29 2026 (6:02 AM) — "teacher" and "implementer": Val's two-AI method, and "act as if you know nothing"
+
+At the [[wiki/meetings/2026-09-29-ai-pm-architecture-and-second-brain-plan.md|Sept-29 "Design_AI-PM" call]] (Russian) [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]] — the project itself is on [[wiki/projects/ai-project-manager-and-company-second-brain.md]]:
+
+- **Two Claudes, one copying human.** Val told one Claude: "я в компьютерах ничего не понимаю, в second brain ничего не понимаю, я хочу сделать [second brain], как сделает Андрей карпаты[,] создай мне архитектуру. И ты для меня будешь учителем." Then a second: "у меня есть учитель… ты будешь для меня [р]уками ты будешь имплементировать." He carries instructions one way and results back — "я беру этот ответ, даю учителю… Я не понимаю ничего в этом, что мне делать" — and names them "учитель" and "имплементор" so the side-bar shows who said what. Bosik's term for the role: "Мясное прокси" (meat proxy). He also lets Grok and Anthropic talk through him the same way, tells each that the other will get its output, and "никогда не слышал конфликта".
+- **The advice.** "сделайте вид, что вы ничего не знаете, чем больше вы на себя берёте [responsibilities], тем хуже получается дизайн. Лучше сделать дизайн и лучше составлять промты, когда ты говоришь, я ничего не понимаю в этом." And: "[н]е задавайте тон работы." Bosik: lately he says "давай подумаем над тем, как это реализовать… предложу варианты". Val keeps the AIs "в рамки": "ты можешь опираться только на знания вот эти".
+- **His AI-CFO as the pattern.** It runs "как рутин. 2 раза в день", makes a report he reacts to, then a file; "чем больше я пользуюсь этой должностью, тем точнее она сама выполняет функции". The AI PM is to be the same kind of role — "должность, которая опирается только на факты" — and its live-voice, question-asking form (a friend of Val's runs one on Grok with a natural voice) waits for MVP 2.
+- **Output volume is the risk he names in himself.** "я имею такую тенденцию очень много публиковать… [AI] только дай писать он будет писать без остановок"; he limits sentence count and bans complex or technical language, "но всё равно это много читать".
+- *At the close Val asked that the transcript "не обращать внимание на то, что было сказано раньше по поводу как применять [AI]" — this section is kept short and flagged for the owner on the meeting stub.*
+
+**§15.8:** Val's personal remarks to Bosik are not recorded.
+
 ## Sources
+- [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Clayton_Chancey_Initial_AI_Consulting_Engagement-January-23-2026.md]]
 
 - [[raw/Meeting_Notes_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]

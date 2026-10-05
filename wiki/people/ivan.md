@@ -3,8 +3,8 @@ type: person
 title: Ivan
 date: 2025-02-19
 aliases: [Ivan, Ivan Shpakov, Иван Шпаков, Ivan Shpak, Ваня]
-source-count: 18
-open-commitments: 6
+source-count: 20
+open-commitments: 7
 disambiguation: "JVL release manager (GLI submittals, release-candidate marks). Not the bank representative Ivan of the Sept-25-2026 CIBC call (surname Lucic per the notes) — see wiki/meetings/2026-09-25-cibc-ivan-lucic-600k-transfer-post-dated.md. Resolve by context: releases/GLI → this page."
 ---
 
@@ -109,7 +109,7 @@ On the [[wiki/meetings/2026-09-25-transactional-mvp1-flexport-third-party-egm-co
 
 ## Open commitments (Sept 25 2026, 8:05 AM)
 
-- [ ] Ivan — write the compatibility-test set-up instruction and attach the SAS emulator and the SAS commands document — due Mon Sept 28 2026 — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
+- [x] Ivan — write the compatibility-test set-up instruction and attach the SAS emulator and the SAS commands document — due Mon Sept 28 2026 — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]] — **written Sept 28 2026** ("я написал инструкцию вчера… [в] pdf формате"), with no links to the program yet on purpose; sending is a new commitment below (Sept 29) — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 
 ## Sept 28 2026 — the latest Flex-Port on his machine, and the Georgia set-up document
 
@@ -119,9 +119,40 @@ On the [[wiki/meetings/2026-09-25-transactional-mvp1-flexport-third-party-egm-co
 ## Open commitments (Sept 28 2026)
 
 - [ ] Ivan — install the latest Flex-Port version on his real machine — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
-- [ ] Ivan — send the document on setting up the machine, port and SAS in Georgia — due Sept 29 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [x] Ivan — send the document on setting up the machine, port and SAS in Georgia — due Sept 29 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]] — *Sept 29: very likely the same PDF instruction he wrote on Sept 28 (**inference**); Irina told him to send it by email — see below* — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]] — **discharged Sept 29 2026:** sent that morning and walked through at the 8:06 AM call (Klimovich: "этот документ, который ты сегодня прислал") — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+
+## Sept 29 2026 — the modem fix to rebuild, the instruction by email, and the build he keeps
+
+At the [[wiki/meetings/2026-09-29-daily-standup-firmware-reissue-and-modem-gateway.md|Sept-29 Minsk stand-up]] (Russian; label "Ivan Shpak") [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]:
+
+- **Main task.** "основная будет это фикс по модемам пересобрать всё сделать, проверить" — rebuild and verify the modem fix; Kharetski will tell him when the 4.50.2 build is ready. He checks the release before it goes (Irina: "ваня проверит"). See [[wiki/decisions/2026-09-29-the-fix-goes-out-as-a-re-release-not-a-hack-and-only-that-commit-goes-in.md]].
+- **The stand.** Switching it to 4.50.2 may remove what his autotests need; "У меня бинт есть собранные, просто его не буду сносить" — he keeps his build.
+- **Autotest.** It "дальше пишется"; he has a question for colleagues on why the tests do not pass cleanly — Khamin: let Claude look at Khamin's machine-collection tests. See [[wiki/topics/test-automation-strategy.md]] (Sept 29).
+- **The instruction.** Written the day before, "[в] pdf формате выглядит вроде неплохо", no program links yet; Irina: send it by email, not into the group, so people can read it before the later meeting. See [[wiki/decisions/2026-09-24-written-records-go-by-email-and-chats-are-for-instant-matters.md]] (Sept-29 update).
+
+## Open commitments (Sept 29 2026)
+
+- [ ] Ivan — rebuild and verify the modem fix once Kharetski's 4.50.2 build arrives — due unspecified (re-release not before Sept 30 2026) — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+- [x] Ivan — send the instruction (PDF) by email before the later meeting that day — due Sept 29 2026 — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]] — **discharged Sept 29 2026:** at the 8:06 AM call Klimovich called it "этот документ, который ты сегодня прислал" — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+
+## Sept 29 2026 (8:06 AM) — he walks the team through the set-up instruction, and it goes to Confluence with the SAS tool
+
+On the [[wiki/meetings/2026-09-29-transactional-mvp1-setup-instructions-and-mikrotik-router.md|Sept-29 8:06 AM MVP 1 call]] (Russian; label "Ivan Shpak") he shared the instruction on screen ("Могу чуть уменьшиться так или плохо?") [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]:
+
+- **What it covers.** A Flex-Port and Flex IQ already set up; the connections Flex-Port–machine and machine–PC, where the SAS emulator runs; the emulator set-up commands; and the Eclipse long-poll commands with what the machine should show for each ("допустим 1 команда, что мы блокируем машину вот такое должно быть на машине"). Screenshots "где можно", text where not. His key warning: the SAS checkbox on the machine must be on the port where the Flex-Port sits — "если её настроить не на том порту, то… флекспорт у нас работать не будет". Klimovich: "Отличная работа, Спасибо большое."
+- **What is missing**, in his words: "как прошить флекспорт… и 2 это флекс IQ то же самое. Вот эти 2 документа." He prefers separate documents side by side, in order: Flex IQ set-up and install, Flex-Port set-up and install, then his machine-plus-port document.
+- **Screenshots.** Pavel wanted screen captures, not photographs; Ivan: hard with two computers, "чуть дополнительный геморрой, поэтому я снимал на камеру[,] я не спорю".
+- **Confluence.** He will put it in as separate pages. He had emailed the SAS tool zip to Elizabeth; Klimovich wants it reachable by all JVL staff with the link in the instruction; "Давай я попробую в [Confluence] залить… [е]сли нет что, то придумаем."
+- See [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] (Sept-29 update) and [[wiki/topics/docs-as-code-and-atlassian-exit.md]] (Sept 29).
+
+## Open commitments (Sept 29 2026, 8:06 AM)
+
+- [ ] Ivan — put the set-up instruction into Confluence as separate pages — due about Sept 30 2026 (Klimovich: "если у нас завтра всё готово") — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+- [ ] Ivan — try to attach the SAS tool zip to the Confluence instruction so all JVL staff can reach it; else find another place — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
 
 ## Sources
+- [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 
 - [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 - [[raw/andrei _klimovich_update-apr-15-2025.md]]

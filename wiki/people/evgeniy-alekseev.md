@@ -4,8 +4,8 @@ title: Evgeniy Alekseev
 date: 2025-03-11
 aliases: [Evgeniy Alekseev, Evgeny Alekseev, Zhenya Alekseev, Женя Алексеев, Alekseev]
 disambiguation: "Owner of the main embedded code branch, this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
-source-count: 45
-open-commitments: 10
+source-count: 46
+open-commitments: 11
 ---
 
 # Evgeniy Alekseev
@@ -221,7 +221,17 @@ On the [[wiki/meetings/2026-09-28-transactional-mvp1-remote-updates-and-october-
 
 - [ ] Evgeniy Alekseev — deliver the firmware-delivery story PORT-13 for the Flex-Port, now in MVP 1 — due unspecified (the MVP 1 date is October 15) — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
 
+## Sept 29 2026 (8:06 AM, in absentia) — a working bootloader version handed over; "Monday" as reported
+
+On the [[wiki/meetings/2026-09-29-transactional-mvp1-setup-instructions-and-mikrotik-router.md|Sept-29 8:06 AM MVP 1 call]] (Russian; he was not present) [[wiki/people/alexei-khamin.md|Khamin]] said: "вчера Алексеев тебе дал рабочую же версию, которая ставится [на] нормальное устройство[,] бут лодер… Говорил в понедельник буду готова, но если нет, значит… через костыли устанавли[ваем]… и обновляем" — a working bootloader version was handed to Pavel the day before, Alekseev had said it would be ready "в понедельник" (which Monday is not said), and the fallback is to install by workaround. Pavel: "у Алексеева спросим готовность прошивок… загрузчик". Surname only; firmware fits this page's role [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]. See [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] (Sept-29 update).
+
+## Open commitments (Sept 29 2026, 8:06 AM — reported, not spoken by him)
+
+- [ ] Evgeniy Alekseev (as reported by Khamin) — have the Flex-Port bootloader firmware ready for installing on a normal device — due "в понедельник" (which Monday is unclear) — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+
 ## Sources
+
+- [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
 
 - [[raw/Meeting_Transcript_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]]
 - [[raw/Meeting_Notes_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]]

@@ -4,8 +4,8 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "IT (GitHub-admin, infrastructure, secrets/Azure, AI-tool accounts) — the IT-context "Dima". Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 42
-open-commitments: 14
+source-count: 44
+open-commitments: 13
 open-questions: 2
 ---
 
@@ -226,7 +226,7 @@ At the [[wiki/meetings/2026-09-25-ai-project-manager-for-jira.md|Sept-25 "JIRA m
 ## Open commitments (Sept 25 2026)
 
 - [ ] Dmitri Kovalchuk — look at the "Jira hierarchy exceptions" message Chudinov received — due unspecified ("я к тебе подойду") — [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
-- [ ] Dmitri Kovalchuk (with the others on the call) — think through how he would build the AI project manager — due Tuesday Sept 29 2026, 7:00 — [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]
+- [x] Dmitri Kovalchuk (with the others on the call) — think through how he would build the AI project manager — due Tuesday Sept 29 2026, 7:00 — [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]] — **discharged Sept 29 2026:** the design meeting was held; see below — [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
 
 ## Sept 25 2026 (9:02 AM) — project equals repository, and repositories come first
 
@@ -244,7 +244,23 @@ At the [[wiki/meetings/2026-09-25-games-conversion-repos-jira-capabilities.md|Se
 
 At the end of the [[wiki/meetings/2026-09-28-daily-standup-log-traffic-and-nova-rename.md|Sept-28 Minsk stand-up]] (Russian) he said two reports now arrive — Jira hierarchy (tied to MVP 1) and Jira discipline (statuses and dates) — and asked people not to break statuses. Because the meetings may later be read by AI, he proposed that everyone name the exact CAP and feature they work on; Pavel agreed. See [[wiki/decisions/2026-09-17-planning-comes-off-pavel-and-goes-to-an-application-administrator.md]] (Sept-28 update) [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]].
 
+## Sept 29 2026 (4:49 AM) — "есть динамика", and access for Vladimir
+
+At the end of the [[wiki/meetings/2026-09-29-daily-standup-firmware-reissue-and-modem-gateway.md|Sept-29 Minsk stand-up]] (Russian): "Владимиру я доступа дал уже на репетитории тинты" (the TINT test repositories, by context), and on the reports: "ребята молодцы… [з]акрывают, следят да, по крайней мере есть динамика". See [[wiki/decisions/2026-09-17-planning-comes-off-pavel-and-goes-to-an-application-administrator.md]] (Sept-29 update) [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]].
+
+## Sept 29 2026 (6:02 AM) — at the AI PM design call: a task type at the top, who is responsible, and the absent code owner
+
+At the [[wiki/meetings/2026-09-29-ai-pm-architecture-and-second-brain-plan.md|Sept-29 "Design_AI-PM" call]] (Russian) [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]; the project is on [[wiki/projects/ai-project-manager-and-company-second-brain.md]]:
+
+- **Against "drafts get lost".** "можно создать какойто тип задачи, определённый… проект, который будет… автоматически отображаться тебе в плане… на самом верху".
+- **"Как определить ответственного."** His dilemma; Val's answer was no human responsible — the AI PM is an autonomous role.
+- **The absent code owner.** If a code owner is not at the meeting, "PM создаст кучу задач, он придёт к паше условному либо к Ирине и спросит" — Bosik and Pavel called it the rare case.
+- **References.** Keeping the transcripts means the AI "сможет сослаться куда то вот здесь тогда то принято такоето решение".
+- He asked Val whether he could describe the character he wants for the AI PM.
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+- [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
 
 - [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
 - [[raw/Meeting_Notes_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]

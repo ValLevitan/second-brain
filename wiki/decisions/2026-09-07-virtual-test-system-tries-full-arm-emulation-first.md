@@ -3,9 +3,9 @@ type: decision
 title: The virtual test system attempts full ARM-processor emulation running the production build plus simulated devices first — Docker or a daemon-mode simulation is the fallback, because the simpler options do not cover the full functionality
 date: 2026-09-07
 aliases: [virtual test system, emulators, virtual Flex-Pay, virtual gaming machine, virtual Flex-Port, ARM emulation, same build as on the machines, Docker fallback, daemon mode, bare remote-update tool, redeploy all the hardware from scratch]
-source-count: 12
+source-count: 15
 status: active
-open-commitments: 5
+open-commitments: 6
 open-questions: 2
 ---
 
@@ -88,7 +88,27 @@ At the [[wiki/meetings/2026-09-26-flex-port-telnet-console-and-gui-harness.md|Se
 
 **Anton's Sept-24 commitment below stays open** — the move is planned and started, not finished.
 
+## Update, Sept 29 2026 — the Flex IQ emulator comes before any Flex-Port emulation, and the EGM emulator gets delay and hang cases
+
+At the [[wiki/meetings/2026-09-29-daily-standup-firmware-reissue-and-modem-gateway.md|Sept-29 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]:
+
+- **[[wiki/people/anton-seregin.md|Seregin]]'s status.** "по сичии, как бы вроде всё закрыл" (read as CI — **inference**); he is re-checking "[в]се эти истории, которые клод заводил по плану" — the stories Claude created from the plan; "[р]абота на флекс… [т]о, что переносил аккумулятор" (the move of the emulator, "аккумулятор" read as before — **inference**). He wanted to open a Flex-Port feature "[ч]тобы поизучать… [к]ак он будет [э]мулировать".
+- **Pavel's order.** "**нам, наверное, [Флекс-П]орта особо не надо**"; first the Flex IQ emulator and the Flex-Port firmware update through it; a Flex-Port emulation only if "совсем просто" — something that answers commands. Detail and the feature on [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Sept-29 update).
+- **The EGM emulator cannot delay or hang.** [[wiki/people/alexei-khamin.md|Khamin]]: "я несколько сценариев не могу написать, потому что там нет функционала, типа там остаться, повисеть" — the "эмулятор этот е г м с, а с" (the EGM / SAS emulator) has no way to hang or delay. He had written up three points the day before and asked whether Pavel does it or he does. Pavel: "**бери бери бери себе**" — but as a separate tab or panel of test functions, "список кейсов… что типа отвечать с задержкой на следующей, например, пакет там 72 лонгпола" (answer the next long poll 72 with a delay). Khamin: it fits the existing design, just "[в]ыставлять флаг какойто".
+
+**Anton's Sept-23 and Sept-24 commitments below stay open** — the emulator move is still in progress.
+
+## Update, Sept 29 2026 (10:06 AM) — an x86 emulator exists and is good, the RK3568 one is weaker, and "the image boots in an emulator" is the one useful SDK test
+
+At the [[wiki/meetings/2026-09-29-dev-environments-rk3568-sdk-amd-spike-and-ai-pm-direction-check.md|Sept-29 "Dev_environments" call]] (Russian) [[wiki/people/pavel.md|Pavel]] described the processor emulators as they stand [[raw/Meeting_Transcript_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]] [[raw/Meeting_Transcript_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]]:
+
+- **Status.** Asked by Val whether an emulator must be made: "Для икс 86 [э]мулятор есть. Он хороший. [Эмулятор] для рк 35 68 он тоже какойто помоему есть, но он не не настолько будет хороший как для икс 86" (the transcript says "стимулятор" and "аккумулятор"; read as emulator — **inference**, as on the Sept 23–29 updates above).
+- **What it is for in the SDK.** The only useful direct test of a build environment is "что текущая сборка… собралась и на ней может загрузиться. Эмулятор… просто чтобы сказать, что полученный имидж рабочий" — the built image boots in an ARM-processor emulator; it presumes an emulator one trusts ("при условии, что мы доверяем [эмулятором]"). See [[wiki/topics/test-automation-strategy.md]] (Sept 29, 10:06 AM).
+- **Reading against the ruling (inference):** a full ARM-processor emulation running the production build is this page's first choice; "какойто… есть, но… не настолько хороший" is the nearest the corpus has to its status. Pavel's commitments below stay open; the call names no emulator project.
+
 ## Open commitments
+
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — add the delay / hang test cases to the EGM emulator himself, as a separate tab or panel of test functions — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — attempt the virtual test system as a full ARM-processor emulation running the production build, with simulated devices settable by command; fall back to Docker / daemon-mode simulation only if that fails — due within a week or two — [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]] [[raw/Meeting_Notes_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — talk to Alexander Biratka and Dmitri Chudinov about what can be stood up quickly on the Flex-Pay emulator side; Alekseev writes the gaming-machine emulator himself — due unspecified — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]] [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
@@ -117,3 +137,6 @@ At the [[wiki/meetings/2026-09-26-flex-port-telnet-console-and-gui-harness.md|Se
 - [[raw/Meeting_Transcript_FlexPort_Telnet_Console_and_GUI_Harness-September-26-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]]

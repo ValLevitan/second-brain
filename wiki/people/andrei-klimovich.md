@@ -4,8 +4,8 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich, Andre]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 98
-open-commitments: 96
+source-count: 99
+open-commitments: 98
 open-questions: 0
 ---
 
@@ -739,11 +739,27 @@ On the [[wiki/meetings/2026-09-28-transactional-mvp1-remote-updates-and-october-
 ## Open commitments (Sept 28 2026, 8:02 AM)
 
 - [ ] Andrei Klimovich — forward Pavel's Wi-Fi QR-code material from the private chat to the common chat — due Sept 28 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
-- [ ] Andrei Klimovich — update the MVP 1 requirements with the new tilts and card errors, and the text library — due Sept 29 2026 ("хороший шар") — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
-- [ ] Andrei Klimovich — ask Elizabeth to install the latest build by SD card on the Georgia Flex IQ, then report back so remote update can be tested — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [ ] Andrei Klimovich — update the MVP 1 requirements with the new tilts and card errors, and the text library — due Sept 29 2026 ("хороший шар") — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]] — *Sept 29 2026: blocked — the document had not reached him; he asked for it by email* — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+- [ ] Andrei Klimovich — ask Elizabeth to install the latest build by SD card on the Georgia Flex IQ, then report back so remote update can be tested — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]] — *Sept 29 2026: waits on the Flex IQ install instruction, which does not exist yet; "если у нас завтра всё готово, то Элизабет сможет сделать"* — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
 - [ ] Andrei Klimovich — bring the MVP 2 capabilities and business scope up to date — due after his return on the 12th — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
 
+## Sept 29 2026 (8:06 AM) — the tilts document still missing, Ivan's instruction praised, the plan for Elizabeth restated, and the router handed to Bosik
+
+On the [[wiki/meetings/2026-09-29-transactional-mvp1-setup-instructions-and-mikrotik-router.md|Sept-29 8:06 AM MVP 1 call]] (Russian), which he chaired [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]:
+
+- **No news, no document.** "С моей стороны, очевидно, новостей особо нету"; the collection of new tilts and errors had not been sent to him — "Вы пришлите пожалуйста на email." See [[wiki/decisions/2026-09-24-written-records-go-by-email-and-chats-are-for-instant-matters.md]] (Sept-29, 8:06 AM update).
+- **Ivan's instruction.** "Отличная работа, Спасибо большое." His one question: what is still missing so Elizabeth can build the first stage alone. On Confluence he recalled a plan to drop it; Val said to use it for now. He will find the link to the old SD-card Flex IQ install instruction, "достаточно подробной", and post it in the chat; "ктото её подхватит, обновит".
+- **The plan.** "подготовить все инструкции. Потом Элизабет должна в джорджии собрать сетап полностью по этим инструкциям… после этого мы считаем, что мы готовы к тому, чтобы привозить машины других производителей." Georgia has everything, including a laptop "специально отведённый… для всех прошивок"; once Ivan's instruction is in Confluence "мы скинем её Элизабет". The SAS tool zip should be stored where all JVL staff can reach it. See [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] (Sept-29 update) and [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Sept-29, 8:06 AM update).
+- **The router.** He put the brand to Val — "Вал за вами вопрос" — Val sent it back to the team, and he closed it: "Окей Андрей, тогда можем с микротиком дальше двигаться." He also asked whether the router should take ten connections or sit behind a switch. See [[wiki/decisions/2026-09-29-mikrotik-is-the-location-router-and-val-leaves-the-brand-to-the-team.md]].
+
+## Open commitments (Sept 29 2026, 8:06 AM)
+
+- [ ] Andrei Klimovich — find the link to the old SD-card Flex IQ install instruction and post it in the chat, as the base for the new one — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+- [ ] Andrei Klimovich — once the instructions are in Confluence, send them to Elizabeth so she builds the full set-up in Georgia — due after the instructions land — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+
 ## Sources
+
+- [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
 
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]

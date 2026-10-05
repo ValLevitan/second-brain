@@ -3,7 +3,7 @@ type: topic
 title: GitHub release management and the CI/CD release pipeline
 date: 2025-10-21
 aliases: [release management, release pipeline, CI/CD, GitHub Actions pipeline, release artifacts, ISO image release, release manager role, continuous delivery, flex os installer, manifest, release candidate, single source of truth, feature branch discipline, sprints vs kanban, Jira GitHub link, FlexPos IP 902, FP 519, IP 89 dashboard grooming, bulk archive automation, Jira resolutions cleanup, Flex-POS Transition to Production, alpha build release tracking, knowledge repository, prose pending folder, prose merge action, docs contracts folder, integration repository, Knowledge Base repository, Standards folder, 39 accesses, hardware GitHub standard, hardware-components repo, hardware-manufacturing repo, BOM sync robot, category first manufacturer second]
-source-count: 101
+source-count: 102
 open-commitments: 1
 open-questions: 10
 ---
@@ -778,8 +778,19 @@ At the [[wiki/meetings/2026-09-25-daily-standup-engineering-menu-and-jira-discip
 
 - [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] and [[wiki/people/andrey-bosik.md|Andrey Bosik]] — review the GitHub update variables: common to all terminals versus per terminal — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
 
+## Sept 29 2026 — "no hack, we re-release", and the version table moves into main
+
+At the [[wiki/meetings/2026-09-29-daily-standup-firmware-reissue-and-modem-gateway.md|Sept-29 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]:
+
+- **A fix is re-released, not slipped onto a production machine.** [[wiki/people/pavel.md|Pavel]] relayed Val's ruling of the day before — "вал вчера сказал что мы этот хак делать не будем. Мы… будем перевыпускать" — and [[wiki/people/irina-shishko.md|Irina]] added the one-commit rule: "чтобы пошёл Только этот камит туда и больше ничего". The re-release build is spoken as "4502" (read as 4.50.2) against the team's "460" (4.60). A library change inside the commit will be declared as "изменения… связанные с коннективити". Full record on [[wiki/decisions/2026-09-29-the-fix-goes-out-as-a-re-release-not-a-hack-and-only-that-commit-goes-in.md]].
+- **The version table now lives in main.** [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] had to rework the release "Англия" (**unclear** word) so that the table matching versions — "какая версия центр, в какую в какие игры комитятся" (which centre version commits into which games) — "[п]ришлось переносить в мэйн эту таблицу". The trigger: [[wiki/people/ivan.md|Ivan]] asked for a new webhook for the autotests, "а у него 4501 стоит на этом на стенде, а у нас уже версия 460", and "в одну и ту же версию игр 2 разных датацентра" cannot both look (the sentence is garbled; the sense is that one game version cannot serve two data centres). Keeping the table in main means nobody has to go hunting through pull requests for it: "чтоб никто… не бегать не смотреть ни пиар". A test then started failing and took him a long time; "сейчас я уже почти готов".
+- **A build on the stand is kept, not torn down.** Switching the stand between 4.60 and 4.50.2 would remove something Ivan needs for the autotests; Ivan: "У меня бинт есть собранные, просто его не буду сносить" (he keeps his build). Irina: or store it somewhere.
+
+**§15.8:** clear — release mechanics only. **§15 #9:** none; version numbers are work references.
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 - [[raw/Meeting_Notes_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]

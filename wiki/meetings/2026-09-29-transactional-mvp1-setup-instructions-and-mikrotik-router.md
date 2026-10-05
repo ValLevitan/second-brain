@@ -1,0 +1,59 @@
+---
+type: meeting
+title: Transactional MVP 1 — Ivan's set-up instruction is walked through, the instructions go to Confluence for Elizabeth to build the Georgia set-up, and MikroTik is the router (Sept 29 2026, 8:03–8:31 AM)
+date: 2026-09-29
+aliases: [Transactional MVP1 sync Sept 29, Transactional MVP1 Pre-Meeting Draniki Chat, Transactional MVP1 Setup Instructions and MikroTik Router, day twelve of the MVP1 series, Sept 29 8am transactional call, draniki chat, Ivan's set-up instruction, SAS checkbox on the Flex-Port port, FlexPort SAS icon red yellow blue, use Confluence for now, install the latest build, MikroTik router, Linksys needs internet, no Chinese equipment, PoE switch idea, Jira test end dates]
+source-count: 4
+open-commitments: 0
+open-questions: 0
+---
+
+# Transactional MVP 1 — the set-up instructions and the MikroTik router (Sept 29 2026)
+
+**Date/time:** September 29 2026 (a Tuesday), **8:03 – 8:31 AM Eastern** (about 28 minutes), from the two `**Date:**` header lines — segment 1: 8:03–8:06 AM; segment 2: 8:06–8:31 AM [[raw/Meeting_Transcript_Transactional_MVP1_Pre_Meeting_Draniki_Chat-September-29-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]. **Series:** the Teams session "Transactional MVP1 sync" — the **twelfth** morning call, the day after [[wiki/meetings/2026-09-28-transactional-mvp1-remote-updates-and-october-15-target.md|Sept 28]]. **Language: Russian.**
+
+**Who spoke** (speaker labels): [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] (chair), [[wiki/people/val-levitan.md|Val Levitan]], [[wiki/people/irina-shishko.md|Irina Shishko]], [[wiki/people/ivan.md|Ivan]] (label "Ivan Shpak"; shared his document), [[wiki/people/pavel.md|Pavel Frolov]] (joined at the end of segment 1), [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] (label "Dzmitry Chudzinau"), [[wiki/people/alexei-khamin.md|Alexei Khamin]] (label "Alexey Khamin"), [[wiki/people/alexander-biratka.md|Alexander Biratka]] (label "Alexander Biratko") and [[wiki/people/andrey-bosik.md|Andrey Bosik]] (label "Andrei Bosik") [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]. Chudinov and Khamin have no turn in segment 1 [[raw/Meeting_Transcript_Transactional_MVP1_Pre_Meeting_Draniki_Chat-September-29-2026.md]].
+
+**Purpose.** Klimovich's update (the tilts document still missing); Irina's autotest status; Ivan walks through his set-up instruction and the group lists what is still missing so [[wiki/people/elizabeth.md|Elizabeth]] can build the set-up in Georgia alone; where the instructions live (Confluence); which Flex IQ build to install; MVP 2; the Jira test dates; Bosik's router report and the MikroTik choice [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]].
+
+**§12 — one meeting in two segments, four files (source-count 4).** Both segments carry the same Teams title "Transactional MVP1 sync"; the headers say "Segment 1 of 2" and "Segment 2 of 2"; the times run on without a gap (8:06 AM end, 8:06 AM start); the people are the same. Segment 1 is the **opening of this meeting**, not a separate event: the group waits for Pavel, jokes, and Irina and Bosik ask to stop the recording and start a new one; Klimovich already names the first item — "начать тогда с этой инструкции, которая ваня сделал" — and segment 2 opens with his "Готово" [[raw/Meeting_Transcript_Transactional_MVP1_Pre_Meeting_Draniki_Chat-September-29-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]. Segment 1 holds no durable fact of its own and is not stubbed separately; it follows the Sept-25 precedent ([[wiki/meetings/2026-09-25-ris-mvp1-factory-reset-reduction-plan.md]]). A corpus-wide grep for all four filenames, "Draniki", "MikroTik_Router" and "September 29, 2026, 8:0" found no page citing them and no other Sept-29 MVP 1 stub. The same morning's [[wiki/meetings/2026-09-29-daily-standup-firmware-reissue-and-modem-gateway.md|4:49 AM stand-up]] and [[wiki/meetings/2026-09-29-ai-pm-architecture-and-second-brain-plan.md|6:02 AM AI PM call]] are different meetings. It is a new meeting.
+
+Substance lives on:
+
+- [[wiki/decisions/2026-09-29-mikrotik-is-the-location-router-and-val-leaves-the-brand-to-the-team.md]] — Bosik's router report, Val's "no Chinese equipment", and "можем с микротиком дальше двигаться"; the switch and the PoE idea
+- [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] — Sept-29 update: Ivan's instruction, what is still missing, the three-document set in Confluence, Elizabeth builds the full set-up in Georgia, then other makers' machines; the SAS tool zip
+- [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] — Sept-29 (8:06 AM) update: no Flex IQ install instruction exists yet; Elizabeth sees the Updates tab; always install the latest build, better tomorrow
+- [[wiki/decisions/2026-09-07-wi-fi-module-on-flex-port-with-an-external-router.md]] — Sept-29 update: the router brand is chosen; MikroTik's country of registration is inconsistent across sources
+- [[wiki/decisions/2026-09-24-written-records-go-by-email-and-chats-are-for-instant-matters.md]] — Sept-29 (8:06 AM) update: Ivan's instruction arrived; the tilts document is asked for by email
+- [[wiki/topics/docs-as-code-and-atlassian-exit.md]] (Sept 29) — Val: use Confluence freely for now; the files move when JVL moves
+- [[wiki/topics/flexpay-business-architecture-payout-devices.md]] — the MVP 1 series timeline (Sept 29, 8:06 AM entry): the SAS checkbox, the Flex-Port SAS icon colours, the switch, PoE, the test dates
+- [[wiki/topics/test-automation-strategy.md]] (Sept 29, 8:06 AM) — Vladimir started that day; Khamin and Ivan continue; Irina sets up her own environment
+- People: [[wiki/people/andrei-klimovich.md]] · [[wiki/people/val-levitan.md]] · [[wiki/people/irina-shishko.md]] · [[wiki/people/ivan.md]] · [[wiki/people/pavel.md]] · [[wiki/people/dmitri-chudinov.md]] · [[wiki/people/alexei-khamin.md]] · [[wiki/people/alexander-biratka.md]] · [[wiki/people/andrey-bosik.md]] · [[wiki/people/elizabeth.md]] (discussed, not present) · [[wiki/people/evgeniy-alekseev.md]] (discussed, not present) · [[wiki/people/vladimir-samusenko.md]] (discussed, not present)
+
+**§4 name calls** [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Pre_Meeting_Draniki_Chat-September-29-2026.md]]:
+
+- "Павла", whom the group waits for in segment 1 = Pavel Frolov (he greets at the end of it). "ваня" / "Ваня" = Ivan (label "Ivan Shpak"). "Лёша" / "Алеша" / "лёша и ваня" = Khamin (he holds the old flashing instruction; Irina: "Это Алеша… обновит"). "Александр" called on for MVP 2 = Biratka (he answers). "Паша" (Bosik, on the MikroTik line) = Pavel. "Вал" = Val Levitan.
+- "дима", who Irina thought had a Flex IQ instruction = Chudinov (label "Dzmitry Chudzinau"; he answers "Инструкции нету"). "у димы были проблемы" with a switch (Pavel) = Chudinov (he answers "Ну да, был делал специфический").
+- "Андрей" to whom Klimovich says "можем с микротиком дальше двигаться" = Bosik (he answers "Да, хорошо"). "Андрей" in Biratka's segment-1 joke — not resolved; small talk, not recorded.
+- "Владимира", who started autotests that day = [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]], by context (the Sept-28 and Sept-29 autotest plan). "Алексеев", who gave Khamin a bootloader version = [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] (surname; firmware fits the registry role). "Элизабет" = [[wiki/people/elizabeth.md|Elizabeth]], the Georgia technician.
+- "с Сергеем", with whom Chudinov checked Elizabeth's dashboard access the day before — **not resolved**; the same unresolved "Sergey, roles" of the Sept-28 stub, and nothing ties it to [[wiki/people/sergey-tsymanov.md|Tsymanov]].
+- "воша логин в тимс" (Ivan, segment 1 — whose Teams login was not working) — **unclear**, not resolved. "клод" (Bosik: "как сказал мне клод") = the Claude AI, not a person. "Павла в интернета" (Bosik) = a garble of "Power over Ethernet", not a person.
+
+**Where the notes and the transcript diverge** (transcript followed; notes [[raw/Meeting_Notes_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]] and [[raw/Meeting_Notes_Transactional_MVP1_Pre_Meeting_Draniki_Chat-September-29-2026.md]]):
+
+1. **The Flex-Port SAS icon.** The notes give red, yellow, blue. Pavel first said green — "она становится зеленой, когда произошла регистрация" — then "Но не зелёная, а голубенькая"; Klimovich: "Синяк скорее всего". The notes keep only the correction. What the registration is "по" is garbled ("по э т").
+2. **MikroTik's country.** The notes say "registered in Latvia". Bosik: "Зарегистрирован в литвеле в Латвии. Я точно не помню где" — Lithuania or Latvia, he does not remember. On Sept 7 he had said "Литва". Recorded as spoken on the decision page.
+3. **"Everything is already in Georgia."** The notes have Klimovich answering Irina's SAS-tool question with "everything is there, including a dedicated laptop for flashing". In the transcript he said that about the flashing laptop and the Flex-Port ("Для спорт флек спорт только пока"); when Irina clarified she meant the SAS-tool computer and its cables, he answered "Хорошо все сделаем по вашей же инструкции, по шагам пройдем" — they will follow the instruction step by step.
+4. **Khamin's due date.** The notes give "Sep 30" for his flashing instruction. The transcript has his "Да займусь параллельно" and Klimovich's conditional "если у нас завтра всё готово, то Элизабет сможет сделать".
+5. **The old Flex IQ instruction.** The notes say "an older, detailed SD-card install instruction exists". Klimovich: "она на гипсе лежала" — where it lies is **unclear** (the word is garbled).
+6. **Omitted by the notes:** Khamin's line that Alekseev had said the bootloader "в понедельник буду готова", with the fallback "через костыли устанавли[ваем]"; Chudinov's "но скидывай посмотрим… если что там чуть чуть добавится" on the old instruction; Bosik's "как сказал мне клод" that equipment bought before any restriction counts as lawfully bought; Pavel's question whether MikroTik Wi-Fi has an external antenna (Bosik: a line of about a thousand devices, any form); Bosik's "12… 24 вольта" on PoE; and the PoE price disagreement (Bosik: 2–3 times an ordinary switch; Pavel: about $5 more, from his own experience).
+7. **Val on "discontinued".** The notes read "it will be discontinued in America". The transcript word is "дисконтен по в Америке" — garbled; "discontinued" is a reading (**inference**).
+8. **Segment 1.** The notes say the team "joked about sending draniki across the border" and that Pavel "joined at the end" — both match the transcript. Small talk is not recorded.
+
+**§15.8:** clear. Work status and process only. Klimovich's "С моей стороны… новостей особо нету" and Biratka's "Срочного ничего нет" are status lines. Nobody's pay, performance or personal matters are recorded; the segment-1 jokes and two remarks about home equipment are not recorded. **§15 #9:** no corporate identifier appears. Prices ($40 to $100 for a home-class router) are market knowledge.
+
+## Sources
+- [[raw/Meeting_Notes_Transactional_MVP1_Pre_Meeting_Draniki_Chat-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Pre_Meeting_Draniki_Chat-September-29-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]

@@ -3,7 +3,7 @@ type: person
 title: Elizabeth
 date: 2025-04-28
 aliases: [Elizabeth, Elizabeth Palomino, Элизабет]
-source-count: 21
+source-count: 22
 open-commitments: 3
 disambiguation: "JVL engineering technician (full engineer by degree) handling Georgia service/parts; ex-Colombian-operation technician; Spanish-speaking. Surname Palomino (per the Jun-11-2026 passport/dsKey source). Distinct from Eliana, the Colombian EDS principal (wiki/people/eliana.md)."
 ---
@@ -89,8 +89,17 @@ On the [[wiki/meetings/2026-09-25-transactional-mvp1-flexport-third-party-egm-co
 
 On the [[wiki/meetings/2026-09-28-transactional-mvp1-remote-updates-and-october-15-target.md|Sept-28 8:02 AM MVP 1 call]] (Russian; she was not present), Klimovich said the Georgia Flex IQ on remote access with a KORE SIM is a good first test of remote update. Chudinov: it first needs the new software by SD card. Klimovich: "Элизабет его поставят через с д карточку", and then remote update can be tested; he will ask her. Irina: nobody has shown her the new download route yet. Whether she needs an extra role to download builds from the dashboard is to be checked. See [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Sept-28 update) [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]].
 
+## Sept 29 2026 (in absentia) — she will build the full set-up in Georgia from the instructions; she sees the Updates tab; the SAS tool is in her mailbox
+
+On the [[wiki/meetings/2026-09-29-transactional-mvp1-setup-instructions-and-mikrotik-router.md|Sept-29 8:06 AM MVP 1 call]] (Russian; she was not present) [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]:
+
+- **The plan.** Klimovich's question was what is still missing "чтобы Элизабет, получив эти документы, смогла сама собрать 1 [этап] и проверить все подключения на нашей машине" — the Flex-Port flashing and Flex IQ install instructions. Then "Элизабет должна в джорджии собрать сетап полностью по этим инструкциям"; once it works, other makers' machines come to the warehouse. Irina: she can start preparing the SAS-tool computer and cables from Ivan's instruction now. Klimovich: Georgia has everything, including a laptop set aside for all flashing; she has flashed "флек спорт только пока" (Pavel: "она ж уже порт прошивала"). See [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] (Sept-29 update).
+- **Dashboard access.** Chudinov: "Мы проверили вчера с Сергеем у Элизабет доступ, и она увидит вкладку апдейтс" — she can see the Updates tab; the Flex IQ install instruction (none yet) will show her where to download and how to write the SD card. See [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Sept-29, 8:06 AM update).
+- **The SAS tool.** Ivan had emailed her the SAS tool zip ("кидал в почту Элизабет"); it will also be put where all JVL staff can reach it.
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]

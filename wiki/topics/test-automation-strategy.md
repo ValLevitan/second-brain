@@ -3,8 +3,8 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, eighty percent of the general functionality, requirements are step two, a hole automated tests will not cover, acceptance criteria in general terms, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction, Figma to React, Vite, Claude Code review loop, acceptance criteria, two test warehouses, frozen test cases, test harness, test registry, no E2E tests for MVP 1, E2E micro-step, telnet hook test, 60 to 70 percent acceptance criteria, symlink to dev null, eight connection tests, money-crediting autotest]
-source-count: 51
-open-commitments: 28
+source-count: 54
+open-commitments: 30
 open-questions: 6
 ---
 
@@ -604,10 +604,51 @@ On the [[wiki/meetings/2026-09-28-transactional-mvp1-remote-updates-and-october-
 ### Open commitments (Sept 28 2026)
 
 - [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — close the cash-out autotest, and spread Ivan's autotests across the repository by the new rules — due Sept 28 2026 — [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
-- [ ] [[wiki/people/ivan.md|Ivan]] — send the document on setting up the machine, port and SAS in Georgia — due Sept 29 2026 (Irina: "завтра отправит") — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
-- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] and [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] — agree after the stand-up when Vladimir starts on autotests, and re-plan — due Sept 28 2026 — [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
+- [x] [[wiki/people/ivan.md|Ivan]] — send the document on setting up the machine, port and SAS in Georgia — due Sept 29 2026 (Irina: "завтра отправит") — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]] — **discharged Sept 29 2026:** sent that morning and walked through at the 8:06 AM call (Klimovich: "этот документ, который ты сегодня прислал") — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+- [x] [[wiki/people/irina-shishko.md|Irina Shishko]] and [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] — agree after the stand-up when Vladimir starts on autotests, and re-plan — due Sept 28 2026 — [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]] — **overtaken Sept 29 2026:** Vladimir finished the port tasks and is already on the autotests, starting with TINT-41 — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+
+## Sept 29 2026 (4:49 AM) — Claude places Ivan's tests, Khamin's TINT tests, Vladimir starts on TINT-41, and the EGM emulator needs delay cases
+
+At the [[wiki/meetings/2026-09-29-daily-standup-firmware-reissue-and-modem-gateway.md|Sept-29 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]:
+
+- **[[wiki/people/alexei-khamin.md|Khamin]].** His main work is tests — "Тинт… 16 и тинт 79" (TINT-16 and TINT-79). He is adding scenarios for bugs already filed, with comments on how the thing should work — "тесты, которые на данный момент что то не реализованное ещё" (tests for behaviour not yet implemented). He plans to close "2 задачи" on bugs and, asked by Irina about "61", item 601 that day if nothing else turns up. **Ivan's tests are placed.** "вчера я добавлял ванины тесты и как бы клод хорошо понял систему и положил так как нужно, теггер оставил" — Claude understood the structure and put Ivan's tests where they belong, keeping the tagger. This covers the "spread Ivan's autotests" half of his Sept-28 commitment above; closing the cash-out test is not reported.
+- **[[wiki/people/ivan.md|Ivan]].** The autotest "дальше пишется"; he has a question for colleagues about why the tests do not pass cleanly. Khamin's answer: "у меня тесты уже есть, которые коллектят с машины, поэтому ты можешь просто клоду сказать, чтобы он посмотрел на мои автотесты" — tell Claude to look at Khamin's machine-collection tests; they are partly in Git, and Khamin will push the rest if Claude cannot find them. The instruction (PDF) is written; it goes by email — see [[wiki/decisions/2026-09-24-written-records-go-by-email-and-chats-are-for-instant-matters.md]] (Sept-29 update).
+- **[[wiki/people/vladimir-samusenko.md|Vladimir]] joins.** "С задачами по порту закончил. Сейчас смотрю, что происходит с автостерами." He confirmed with Pavel that the autotests "живут в интеграционном репозитории", asked for access ("написал… запрос на доступ") — [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] granted it during the stand-up ("Владимиру я доступа дал уже на репетитории тинты") — and will start with "тинт 41 задачу. Она самая понятная".
+- **[[wiki/people/irina-shishko.md|Irina]]** is learning the set-up: "Попробую с этими с авто тестами разобраться… понять, как и что пишется. Запускается."
+- **The EGM emulator cannot delay or hang.** Khamin cannot write some scenarios; Pavel told him to add the cases himself as a separate tab or panel (e.g. "отвечать с задержкой на следующей… пакет там 72 лонгпола"). Detail on [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]] (Sept-29 update).
+- **Quick endpoint tests, again.** [[wiki/people/anton-seregin.md|Seregin]] is re-checking "[в]се эти истории, которые клод заводил по плану" — the stories his AI tool created from the plan (compare Sept 28 above).
+- **The stand.** Re-releasing 4.50.2 may remove something Ivan's autotests need on the stand; he keeps his build. See [[wiki/decisions/2026-09-29-the-fix-goes-out-as-a-re-release-not-a-hack-and-only-that-commit-goes-in.md]].
+
+### Open commitments (Sept 29 2026)
+
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — close two bug tasks and item 601 — due Sept 29 2026 — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — add the delay / hang cases to the EGM emulator as a separate tab or panel — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+- [ ] [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] — start on the autotests with TINT-41, in the integration repository — due started Sept 29 2026 — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+
+## Sept 29 2026 (8:06 AM) — Vladimir started that day, Irina sets up her own environment, and the test tasks' end dates are stale
+
+At the [[wiki/meetings/2026-09-29-transactional-mvp1-setup-instructions-and-mikrotik-router.md|Sept-29 8:06 AM MVP 1 call]] (Russian) [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]:
+
+- **[[wiki/people/irina-shishko.md|Irina]]'s status.** "по автотестам… процесс идёт, мы подтянули Владимира, он начал работать уже сегодня" — [[wiki/people/vladimir-samusenko.md|Vladimir]] started that day, a day earlier than the "со среды" of Sept 28 (evolution, not a contradiction); he is "в[ник]ает" and will have questions. "лёша и ваня продолжают" — [[wiki/people/alexei-khamin.md|Khamin]] and [[wiki/people/ivan.md|Ivan]] carry on. She has "попробовала у себя тут настроить" and will "[п]опытаюсь чтото писать" — her own environment, to write some tests herself (the stand-up plan of 4:49 AM, now started).
+- **The set-up instruction** Ivan wrote for the Georgia compatibility test was walked through on this call — on [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] (Sept-29 update).
+- **Jira dates.** [[wiki/people/pavel.md|Pavel]], looking at the schedule: "поправьте, даты завершения вот там где есть тесты. Они уже указывают, что должны были вчера закончиться, ещё идут в работе" — the test tasks show end dates of the day before but are still in progress. Irina: "Правильно." Nobody was named to fix them.
+
+### Open commitments (Sept 29 2026, 8:06 AM)
+
+- [ ] Unassigned (Pavel asked; Irina agreed; no owner named) — correct the end dates of the in-progress test tasks in the Jira schedule — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+
+## Sept 29 2026 (10:06 AM) — how a development environment is tested: through the integration repository, and "the image boots in an emulator" as the one direct test
+
+At the [[wiki/meetings/2026-09-29-dev-environments-rk3568-sdk-amd-spike-and-ai-pm-direction-check.md|Sept-29 "Dev_environments" call]] (Russian) [[wiki/people/val-levitan.md|Val]] asked whether the RK3568 build environment "не надо тестировать, как мы обычно тестируем чтото. Или вот это както тестируется? Или… не надо волноваться вообще" [[raw/Meeting_Transcript_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]]:
+
+- **[[wiki/people/pavel.md|Pavel]]'s answer.** "Это всё должно уже тестироваться. Ну, если смотрим интеграционные тесты через интеграционные репозиторий, то оно будет тестироваться в рамках других задач" — the environment is exercised by the integration tests in the integration repository, inside other tasks. He recalled "базовые тесты при сборке [environment]" but then "А нет, это для икс 86 это для [AMD]" — those exist for the x86/AMD build, not the RK one. [[wiki/people/irina-shishko.md|Irina]]: whatever test one names, "это всё равно будет интеграционная".
+- **The one useful direct test.** Pressed by Irina to name a test for the RK hardware/boards, Pavel: "базово, что текущая сборка, например, собралась и на ней может загрузиться. Эмулятор вот это вот… единственный полезный тест, просто чтобы сказать, что полученный имидж рабочий. Вот чтото дальше проверять, но это уже будет конкретная логика конкретного устройства" — that the build completes and the image boots in an ARM emulator; anything beyond that is device logic. Running the built system "в какомто эмуляторе армпроцессора" presumes an emulator one trusts (the word is heard as "аккумулятором"; read as emulator — **inference**). Emulator status is on [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]] (Sept-29, 10:06 AM update).
+- **Val's conclusion.** "если это тестировать не надо. И у нас есть [environment], который в принципе. Более или менее работает, тогда нужно проверить только, чтобы. Было правильно, просто написано" — then only the prose has to match today's standard. Rulings on [[wiki/decisions/2026-09-29-the-amd-environment-is-rebuilt-from-the-rk3568-sdk-pavels-ten-day-spike-and-the-rk3576-waits.md]].
+
+**§15.8:** clear — tooling. **§15 #9:** none.
 
 ## Sources
+- [[raw/Meeting_Transcript_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]]
 
 - [[raw/Meeting_Notes_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
 - [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
@@ -660,3 +701,5 @@ On the [[wiki/meetings/2026-09-28-transactional-mvp1-remote-updates-and-october-
 - [[raw/Meeting_Transcript_FlexPort_Telnet_Console_and_GUI_Harness-September-26-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]

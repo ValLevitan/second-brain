@@ -4,7 +4,7 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 70
+source-count: 72
 open-commitments: 36
 open-questions: 0
 ---
@@ -466,10 +466,29 @@ On the [[wiki/meetings/2026-09-25-transactional-mvp1-flexport-third-party-egm-co
 
 - [ ] Dmitri Chudinov — push the card-activation tests and capability 237 (activated-cards dashboard); close the overdue tasks — due Sept 28 2026 — [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
 - [ ] Dmitri Chudinov — remove junk logs to cut the traffic, and tell Andrei about the ~3 GB a month — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
-- [ ] Dmitri Chudinov — post the file of new card-activation negative cases and terminal errors in the common chat — due Sept 28 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
-- [ ] Dmitri Chudinov — check which role Elizabeth needs to download builds from the dashboard, and have it assigned — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [ ] Dmitri Chudinov — post the file of new card-activation negative cases and terminal errors in the common chat — due Sept 28 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]] — *Sept 29 2026: not yet sent — "в процессе я заканчиваю эту задачу и будет"; Klimovich now asks for it by email* — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+- [x] Dmitri Chudinov — check which role Elizabeth needs to download builds from the dashboard, and have it assigned — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]] — **discharged Sept 29 2026:** "Мы проверили вчера с Сергеем у Элизабет доступ, и она увидит вкладку апдейтс" — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+
+## Sept 29 2026 — two capabilities closed, 152 to a real device, 176 next
+
+At the [[wiki/meetings/2026-09-29-daily-standup-firmware-reissue-and-modem-gateway.md|Sept-29 Minsk stand-up]] (Russian; label "Dzmitry Chudzinau"): "Вчера сегодня закрыл капсту 230 150" (two capabilities, numbers as spoken — whether 237 from Sept 28 is among them is **unclear**, so his Sept-28 commitment stays as is); "Завершаю 152 на тестовых стендах", then roll out and "посмотреть на реальном девайсе. Может и что бросится в глаза"; next "176… [т]ам возможно уже частично закрыто". Tsymanov said he and "Дима" (Chudinov, by context) had looked at the zero-balance tasks under 158 and found about half already implemented. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 29, 4:49 AM) [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]].
+
+## Open commitments (Sept 29 2026)
+
+- [ ] Dmitri Chudinov — finish capability 152 on the test stands, roll it out and check it on a real device; then capability 176 — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+
+## Sept 29 2026 (8:06 AM) — no Flex IQ instruction exists, Elizabeth sees the Updates tab, "always the latest build", and the switch that hid his devices
+
+On the [[wiki/meetings/2026-09-29-transactional-mvp1-setup-instructions-and-mikrotik-router.md|Sept-29 8:06 AM MVP 1 call]] (Russian; label "Dzmitry Chudzinau") [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]:
+
+- **The tilts document.** Still in progress — "в процессе я заканчиваю эту задачу и будет"; Klimovich wants it by email.
+- **Flex IQ install.** Irina thought he had an instruction; "Инструкции нету… Ничего нет." He and "Сергей" (not resolved) checked the day before that Elizabeth sees the Updates tab. The instruction needs screenshots of where to download, how to write the SD card, what to press — and he would add how to wipe the secrets on a terminal in case it does not work at once. On Klimovich's old instruction: "скидывай посмотрим… если что там чуть чуть добавится."
+- **Which build.** "Берите всегда последний актуальный" — the standard rule for technicians with fresh boards; higher version = more features and fixes; tomorrow is better because "сегодня будет там большая выкадка". See [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Sept-29, 8:06 AM update).
+- **The switch.** Asked by Pavel, he confirmed a local network he built did not work through an ordinary switch — "не видел девайсы друг друга и надо будет разбираться, почему". See [[wiki/decisions/2026-09-29-mikrotik-is-the-location-router-and-val-leaves-the-brand-to-the-team.md]].
 
 ## Sources
+- [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 
 - [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
