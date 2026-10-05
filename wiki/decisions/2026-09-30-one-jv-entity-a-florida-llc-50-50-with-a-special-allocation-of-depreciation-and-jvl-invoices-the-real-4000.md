@@ -6,7 +6,7 @@ aliases: [one entity not two, single-entity JV, Florida LLC JV, special allocati
 source-count: 2
 status: active
 open-commitments: 4
-open-questions: 3
+open-questions: 2
 ---
 
 # One JV entity, 50/50, with a special allocation of depreciation; JVL invoices the real $4,000 (Sept 30 2026)
@@ -41,12 +41,12 @@ The derived notes record the same ruling as "One JV entity (Florida LLC), Val an
 
 - [ ] Larry Sharon — send Val the structure "how it looks like" and the Excel tables for the 3, 5, 7 and 10-year lease terms ("I'm sending everything to you today") — due Sept 30 2026 — [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]]
 - [ ] Val Levitan — review the structure and tables and make any tweaks ("you can tweak it… and we can discuss it" — Val: "I agree"; by context) — due after Larry sends them — [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]]
-- [ ] Larry Sharon — once the structure is agreed, have Gabe open a Florida LLC and start the partnership agreement — due unspecified — [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]]
+- [ ] Larry Sharon — once the structure is agreed, have [[wiki/people/gabriel-braun.md|Gabriel Braun]] ("Gabe") open a Florida LLC and start the partnership agreement — due unspecified — [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]]
 - [ ] Larry Sharon — get the company a licence "if the company needs… a license" — due unspecified; whether one is needed is still open — [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]]
 
 ## Open questions
 
-- Who is "Gabe"? Not stated; by context someone who forms companies for Larry — [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]]
+- ~~Who is "Gabe"?~~ **Answered (owner ruling 2026-10-05):** [[wiki/people/gabriel-braun.md|Gabriel Braun]], one of Larry's managers.
 - Does the one-entity JV need a licence to sell the transactional service in Georgia? Still open from Sept 29; today only "if the company needs a license, we'll get a license" — [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]]
 - How will the depreciation allocation be set — all to the partners' side, or shared "proportionately" year by year, as Larry sketched? — [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]]
 

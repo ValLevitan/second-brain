@@ -111,7 +111,7 @@ Rolled up from every page at each lint pass. Each traces to a raw source.
 - A8. **GitHub push.** The purged history must replace the old one on GitHub (a force push with lease); the scheduled run is not allowed to do it. One command from you, once.
 
 *Identities (safe defaults taken; one word settles each):*
-- C9. **"Larry" = Larry Sharon?** The surname is never spoken; it comes only from the Plaud recording labels of the Sept-29/30 calls. Also unknown: "John and Eddie" (his partners), "Trevor and Ben", "Gabe" (opens the Florida LLC), "Barry" (greeted on the Litwack call), "Blackwater" (a competitor as heard). — [[wiki/people/larry-sharon.md]]
+- C9. ~~"Larry" = Larry Sharon?~~ **RULED 2026-10-05:** yes — Larry Sharon; John and Eddie are his partners; Gabe = Gabriel Braun, one of his managers (page created); Trevor, Ben, Barry are from the past, not important (closed). "Blackwater" still unexplained (Tier B).
 - C10. **The service-side "Антон"** who fixes services at Kharetski's request — four stand-up mentions (Sept 23 – Oct 1), never named; fits Anton Leshkevich by context. Also the "Игорь" Daniil should ask about the select-screen converter (Sept 28 – Oct 5), "Маша" (Oct 5), "Дон" and "Алекс" (Sept 30). — [[wiki/people/evgeny-kharetski.md]]
 - C11. **Which board arrived Oct 2:** "35 67 с 8 гигабайтами" — most likely the RK3576 (two 8 GB samples ordered Sept 14), digits swapped. — [[wiki/topics/nova-platform-architecture.md]]
 - C12. **Dickinson Wright** appears only in the derived notes, never on tape — no organization page exists; create one? **Daniil Stauskiy** — six stand-ups, no page. **KORE** (the SIM carrier) — no page.

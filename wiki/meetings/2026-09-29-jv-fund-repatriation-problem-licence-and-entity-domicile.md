@@ -28,7 +28,7 @@ Substance lives on:
 **§4 name calls:**
 
 - The counterparty = [[wiki/people/larry-sharon.md|Larry Sharon]] **by context only** (see above). The surname itself is an inference from Plaud labels on this raw cluster; it is not spoken here.
-- "Trevor and Ben" (segment 1: "while I was on this meeting with Trevor and Ben") — **not resolved.** They fit nobody in the corpus; no pages created [[raw/Meeting_Transcript_Larry_Sharon_JV_Fund_Repatriation_Problem-September-29-2026.md]].
+- "Trevor and Ben" (segment 1: "while I was on this meeting with Trevor and Ben") — **not resolved.** They fit nobody in the corpus; no pages created [[raw/Meeting_Transcript_Larry_Sharon_JV_Fund_Repatriation_Problem-September-29-2026.md]]. **Owner ruling 2026-10-05:** Trevor and Ben are people from the past, not important — closed, no pages.
 - "the three of you" (Val: "Did you guys discuss it between the three of you?") — **not resolved** between the counterparty with Trevor and Ben and the counterparty with his Sept-28 partners John and Eddie; the notes' "the others" is kept as the reading [[raw/Meeting_Transcript_Larry_Sharon_JV_Fund_Repatriation_Problem-September-29-2026.md]].
 - "JVL", "your manufacturing company", "the manufacturer" = JVL as seller of the equipment. "Entity A" / "entity B" / "the JV entity" / "the joint entity" = the Sept-28 structure's two new companies.
 - "из Чехии" (segment 2, Russian: "what money will we need to take out of…") — **unclear**; read as a garble, not a place [[raw/Meeting_Transcript_JV_Licensing_and_Entity_Domicile-September-29-2026.md]].

@@ -5387,3 +5387,6 @@ Lint only diagnosed; content pages were not edited by lint (one wrong link in th
 
 ## [2026-10-05] note | GitHub history replaced — the owner ran the lease-guarded force push
 Val ran `git push --force-with-lease=main:aad7fb4 origin main` from his terminal: `+ aad7fb4...4e6839b main -> main (forced update)`. GitHub now carries the purged history (owner ruling 2026-09-28) plus the 2026-10-05 run. Owner Decisions item A8 closed. Normal pushes work again from here.
+
+## [2026-10-05] schema | OWNER RULINGS — Larry Sharon's circle (answers to the weekly report)
+Val ruled in chat: **"Larry" = Larry Sharon** (confirmed); **John and Eddie are Larry's partners**; **Gabe = Gabriel Braun, one of Larry's managers**; **Trevor, Ben and Barry are people from the past, not important.** Applied: larry-sharon.md (ruling recorded, inference paragraph kept as history), the investor-deal project page and the Sept-30 single-entity decision (the "who is Gabe" open questions answered, counts decremented), the Sept-30 stub (Gabe resolved), the Sept-29 JV stub (Trevor and Ben closed), the Sept-29 Litwack stub (Barry closed); **new page `wiki/people/gabriel-braun.md`** (1 source + owner ruling; indexed); overview LIVE OPEN C9 marked RULED. The owner's word is the citation (§16). Bijection 1496 = 1496.

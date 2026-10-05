@@ -33,7 +33,7 @@ Substance lives on:
 
 - "Larry" (spoken by Val) and the label "Larry Sharon" = [[wiki/people/larry-sharon.md]].
 - "John" ("I spoke to to John and and") = one of Larry's two partners from the Sept-28 lunch; no page. "Eddie" is named by Val only ("in front of you, John, and and Eddie"); not spoken to by Larry on this call.
-- "Gabe" ("I'll have Gabe open up a Florida LLC") — **unknown**; fits no person page; not created. By context someone who forms companies for Larry (**inference**); role not stated.
+- "Gabe" ("I'll have Gabe open up a Florida LLC") = [[wiki/people/gabriel-braun.md|Gabriel Braun]], one of Larry's managers — **resolved by owner ruling 2026-10-05** (not spoken on tape; page created on the owner's word).
 - "income" / "2M's income" (Larry: "I know you mentioned income. That's the name of the company, right? Yes. 2M.") = InComm, **by context** (the Sept-28 lunch's "potential buyer for this business down the road"); "2M" is **unclear** [[wiki/organizations/incom.md]]. Larry later says "InComm" plainly.
 - "Blackwater" (Val: "I may be misquoting the name") — a competitor of InComm Val could not name with certainty; **not resolved**, no organization asserted. Larry's "BlackRock and a Blackstone" were his guesses; Val: "Completely different."
 - "NCR" and "Brinks" = [[wiki/organizations/ncr-atleos.md]] (NCR) and Brinks (no page); Val's claim that NCR "is being purchased right now by Brinks" is recorded as said, not verified.
