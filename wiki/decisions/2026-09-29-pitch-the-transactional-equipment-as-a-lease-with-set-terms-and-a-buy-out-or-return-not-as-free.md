@@ -1,6 +1,6 @@
 ---
 type: decision
-title: The transactional equipment is pitched as a lease with set terms and a buy-out or return at the end — "we do nothing for free; $150 minimum" — and 3/4/5/7/10-year terms get modelled
+title: PROPOSAL (no decision yet — owner ruling 2026-10-05): The transactional equipment is pitched as a lease with set terms and a buy-out or return at the end — "we do nothing for free; $150 minimum" — and 3/4/5/7/10-year terms get modelled
 date: 2026-09-29
 aliases: [lease not free, we do nothing for free, $150 minimum, BMW lease, car lease framing, return in good working condition or buy it out, predetermined buy-out price, three four five seven ten years, lease term scale, let them choose, I got stuck on my own bullshit, shove it down their throats as a lease, lifetime contract with exit fee]
 source-count: 3
@@ -10,6 +10,8 @@ open-questions: 2
 ---
 
 # Pitch the transactional equipment as a lease with set terms, not as free (Sept 29 2026)
+
+**Standing (owner ruling 2026-10-05): this page records a working PROPOSAL, not a decision.** The lease framing at "$150 minimum" is what Val and Larry discussed on Sept 29; the customer pitch has not been decided. Owner ruling 2026-10-05: still under consideration — no decision made yet. `status: active` is kept only because nothing has superseded the proposal; it is not an agreed ruling.
 
 Proposed by [[wiki/people/larry-sharon.md|Larry Sharon]] and adopted by [[wiki/people/val-levitan.md|Val Levitan]] on the [[wiki/meetings/2026-09-29-larry-sharon-lease-pricing-problem-b-and-the-cash-plus-revenue-share-pivot.md|Sept-29 6:21 PM call]]. Quotations from [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]]. It changes how the Georgia transactional equipment is sold; the investor structure behind it is on [[wiki/projects/transactional-equipment-depreciation-investor-deal.md]].
 

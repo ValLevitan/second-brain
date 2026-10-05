@@ -268,6 +268,8 @@ Later the same day, after the 2:32 PM game call, the [[wiki/meetings/2026-09-25-
 
 ## Oct 1 2026 (5:39 PM) — the model shown: devices onto the panel, a 27-inch panel, an electronics drawer, and "why the FlexPort at all?"
 
+*Owner ruling 2026-10-05: the cabinet layout below is a working proposal — no decision made yet; the Sept-25 decision stands.*
+
 On the third segment of the [[wiki/meetings/2026-10-01-genadi-io-board-chips-flat-bom-pilot-and-street-cabinet-panel.md|Oct 1 call]] (Russian; [[wiki/people/val-levitan.md|Val]], [[wiki/people/genadi-peari.md|Genadi Peari]]) Genadi showed his cabinet model. The ruling that came out of it — printer and acceptor lowered onto the drop-down panel as on the Flex, the dashboard halved, plastic with no metal reinforcement, and "too early" to hand the model to Igor — is [[wiki/decisions/2026-10-01-the-street-cabinets-printer-and-acceptor-come-down-onto-the-panel-flex-style-in-plastic-and-the-model-does-not-go-to-igor-yet.md]]; the Sept-25 "fixed dashboard" is annotated. The rest of the segment [[raw/Meeting_Transcript_Street_Machine_Cabinet_Dashboard_and_Printer_Access-October-1-2026.md]]:
 
 - **Sizes.** "ширина кабинета она такая, как во флексе… монитор чуть-чуть больше… панель сейчас [same size] как у флекса и это… 27 инчей… 27 по моему да." Val: "Абсолютно."

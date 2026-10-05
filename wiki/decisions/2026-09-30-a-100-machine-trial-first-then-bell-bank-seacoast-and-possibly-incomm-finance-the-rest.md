@@ -1,6 +1,6 @@
 ---
 type: decision
-title: A 100-machine trial is the proof of concept; after it Larry takes the business to his banks (Bell Bank, Seacoast) and possibly to InComm with a first right of refusal
+title: PROPOSAL (no decision yet — owner ruling 2026-10-05): A 100-machine trial is the proof of concept; after it Larry takes the business to his banks (Bell Bank, Seacoast) and possibly to InComm with a first right of refusal
 date: 2026-09-30
 aliases: [100 machine trial, hundred machines is a good proof of concept, small test small run, proof of concept then bank, Bell Bank, Sea Coast, Seacoast, traditional financing like my rail cars, thirty-three percent down, the note is repaid from inside the company, first right of refusal, InComm as financier, financial toll booth, the business will finance itself past one thousand installations, we don't even need a handshake agreement, the faster we move the better we look]
 source-count: 2
@@ -10,6 +10,8 @@ open-questions: 2
 ---
 
 # A 100-machine trial first; then the banks, and possibly InComm (Sept 30 2026)
+
+**Standing (owner ruling 2026-10-05): this page records a working PROPOSAL, not a decision.** The 100-machine trial and the bank path belong to the same Sept-30 proposal; nothing is decided. Owner ruling 2026-10-05: still under consideration — no decision made yet. `status: active` is kept only because nothing has superseded the proposal; it is not an agreed ruling.
 
 Agreed between [[wiki/people/val-levitan.md|Val Levitan]] and [[wiki/people/larry-sharon.md|Larry Sharon]] on the [[wiki/meetings/2026-09-30-larry-sharon-single-entity-jv-and-100-machine-pilot.md|Sept-30 8:42 AM call]]. Quotations from [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]]. The entity and invoice side is on [[wiki/decisions/2026-09-30-one-jv-entity-a-florida-llc-50-50-with-a-special-allocation-of-depreciation-and-jvl-invoices-the-real-4000.md]]; the whole arc on [[wiki/projects/transactional-equipment-depreciation-investor-deal.md]].
 

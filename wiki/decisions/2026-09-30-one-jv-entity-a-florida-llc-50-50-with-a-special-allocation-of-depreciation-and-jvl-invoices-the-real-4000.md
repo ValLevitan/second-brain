@@ -1,6 +1,6 @@
 ---
 type: decision
-title: One JV entity — a Florida LLC, 50/50, with a special allocation of depreciation — and JVL invoices the real $4,000 per machine, no inflated values, no note
+title: PROPOSAL (no decision yet — owner ruling 2026-10-05): One JV entity — a Florida LLC, 50/50, with a special allocation of depreciation — and JVL invoices the real $4,000 per machine, no inflated values, no note
 date: 2026-09-30
 aliases: [one entity not two, single-entity JV, Florida LLC JV, special allocation for depreciation, allocate depreciation separate from profits, invoice us 4K instead of 12, no inflated values, the real four thousand dollar value, no gymnastics whatsoever, super simple structure, Gabe opens a Florida LLC, partnership agreement changed every year, you book and pay taxes off exactly what you received]
 source-count: 2
@@ -10,6 +10,8 @@ open-questions: 2
 ---
 
 # One JV entity, 50/50, with a special allocation of depreciation; JVL invoices the real $4,000 (Sept 30 2026)
+
+**Standing (owner ruling 2026-10-05): this page records a working PROPOSAL, not a decision.** The single-entity structure is Larry's Sept-30 working proposal; the joint-venture structure has not been decided. Owner ruling 2026-10-05: still under consideration — no decision made yet. `status: active` is kept only because nothing has superseded the proposal; it is not an agreed ruling.
 
 Proposed by [[wiki/people/larry-sharon.md|Larry Sharon]] and accepted by [[wiki/people/val-levitan.md|Val Levitan]] on the [[wiki/meetings/2026-09-30-larry-sharon-single-entity-jv-and-100-machine-pilot.md|Sept-30 8:42 AM call]]. Quotations from [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]]. It replaces the Entity A / Entity B structure of Sept 28 and the $12,000 note of Sept 29 on [[wiki/projects/transactional-equipment-depreciation-investor-deal.md]].
 

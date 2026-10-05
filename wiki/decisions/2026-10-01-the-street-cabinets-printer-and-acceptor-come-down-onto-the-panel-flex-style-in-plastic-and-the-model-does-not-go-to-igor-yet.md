@@ -1,6 +1,6 @@
 ---
 type: decision
-title: The street cabinet's printer and bill acceptor come down onto the panel, Flex-style, so the space opens when the panel drops; the dashboard shrinks by half; the construction is plastic with no metal reinforcement; and the model does not go to Igor yet
+title: PROPOSAL (no decision yet — owner ruling 2026-10-05): The street cabinet's printer and bill acceptor come down onto the panel, Flex-style, so the space opens when the panel drops; the dashboard shrinks by half; the construction is plastic with no metal reinforcement; and the model does not go to Igor yet
 date: 2026-10-01
 aliases: [devices lowered onto the panel, опустить это пониже эти 2 девайса, прямо на панели, same construction as the Flex, имплементировали ту же конструкцию, dashboard halved, дашборд уменьшить в 2 раза, printer paper loading, бумагу нельзя заложить, lower lip moves with the printer, нижняя губа, bill acceptor tunnel, туннель, old bill can slip in, small plastic door, plastic construction, всю конструкцию из пластика, no metal reinforcement, too early for Igor, ещё рановато, electronics drawer, why the FlexPort on a street machine]
 source-count: 2
@@ -10,6 +10,8 @@ open-questions: 3
 ---
 
 # The street cabinet's printer and acceptor come down onto the panel, in plastic; the model does not go to Igor yet (Oct 1 2026)
+
+**Standing (owner ruling 2026-10-05): this page records a working PROPOSAL, not a decision.** The panel layout is what Val asked Genadi to try on Oct 1; the cabinet design has not been decided. Owner ruling 2026-10-05: still under consideration — no decision made yet. `status: active` is kept only because nothing has superseded the proposal; it is not an agreed ruling.
 
 Ruled by [[wiki/people/val-levitan.md|Val Levitan]] on the third segment of the [[wiki/meetings/2026-10-01-genadi-io-board-chips-flat-bom-pilot-and-street-cabinet-panel.md|Oct 1 2026 call]] (5:39–6:00 PM, Russian), while [[wiki/people/genadi-peari.md|Genadi Peari]] showed his street-cabinet model. The programme is [[wiki/topics/low-cost-street-machine.md]]; the ruling it changes is [[wiki/decisions/2026-09-25-the-street-cabinet-goes-deeper-so-the-printer-and-a-tito-front-load-acceptor-sit-on-a-fixed-dashboard.md]]. Quotations from [[raw/Meeting_Transcript_Street_Machine_Cabinet_Dashboard_and_Printer_Access-October-1-2026.md]] unless marked.
 

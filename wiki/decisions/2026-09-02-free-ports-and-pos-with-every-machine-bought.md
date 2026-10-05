@@ -1,6 +1,6 @@
 ---
 type: decision
-title: Six Flex ports and a terminal free with every machine bought, at $90 a month per location — "I am buying my way in" (Sept 29 2026 — "free" and "$90" superseded as the pitch going forward by the lease at "$150 minimum"; the bundle stands as what customers were quoted through Sept 17)
+title: Six Flex ports and a terminal free with every machine bought, at $90 a month per location — "I am buying my way in"
 date: 2026-09-02
 aliases: [buying my way in, ninety dollars a month, value almost as much as this machine is, zero cost except a monthly maintenance fee, six ports plus a terminal free, $15,750 machine, seven thousand dollars of discounts, ninety dollars per location, guinea pig offer, Lucky Coin offer, sixteen thousand dollar machine, rent or lease the units]
 source-count: 23
@@ -11,7 +11,7 @@ open-questions: 5
 
 # Six Flex ports and a terminal free with every machine bought, at $90 a month per location
 
-**Status note (Sept 29 2026):** `status: active` is kept because this bundle is what customers were quoted from Sept 2 to Sept 17 and no source withdraws it from them. But two of its titular elements — **"free"** and **"$90 a month"** — are superseded as the pitch going forward: on Sept 29 Val agreed with his investor partner that "we do nothing for free; $150 minimum" and that the equipment is pitched as a lease with set terms — see the Sept-29 update below and [[wiki/decisions/2026-09-29-pitch-the-transactional-equipment-as-a-lease-with-set-terms-and-a-buy-out-or-return-not-as-free.md]] [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]]. No source yet shows the lease put to a customer.
+**Status note (owner ruling 2026-10-05):** this decision **stands**. The Sept-29 idea of a lease at "$150 minimum" (see [[wiki/decisions/2026-09-29-pitch-the-transactional-equipment-as-a-lease-with-set-terms-and-a-buy-out-or-return-not-as-free.md]]) is a working proposal still under consideration — no decision has been made to replace "free" or "$90". (An earlier note on this page had marked those elements superseded; withdrawn.)
 
 The first time in the corpus that the free-hardware model is quoted as a **priced, standing offer to a named operator**, and the first time it is made **conditional on buying a gaming machine**. Val put it to [[wiki/people/kyle-shepherd.md|Kyle Shepherd]] of [[wiki/organizations/lucky-coin.md|Lucky Coin]] at the [[wiki/meetings/2026-09-02-lucky-coin-service-and-upgrade-offer.md|Sept-2 2026 office visit]], and framed it in his own words as buying market share rather than selling equipment [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]].
 
