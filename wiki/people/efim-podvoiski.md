@@ -3,7 +3,7 @@ type: person
 title: Efim Podvoiski
 date: 2026-07-13
 aliases: [Efim Podvoiski, Efim, Yefim, Ifim, EFIM, Podvoiski, Athim, Athene, Athena, Ethan, Epheme, Afim]
-source-count: 69
+source-count: 70
 open-commitments: 10
 open-questions: 0
 ---
@@ -285,7 +285,12 @@ A 13-minute one-on-one with Val ([[wiki/meetings/2026-09-30-repo-standards-walkt
 
 **§15.8:** Val's opening "you're doing remarkably well" has no readable subject and is held, not recorded either way. Nothing on pay or performance is recorded. **§15 #9:** none.
 
+## Oct 2 2026 (in absentia) — his written note on the South Dakota maths: the minimum bet from 50 cents to 40
+
+At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-new-arm-boards.md|Oct-2 Minsk stand-up]] (Russian; he was not on it) [[wiki/people/ivan.md|Ivan]]: "у меня ефим вчера много чего писал я Ирине перекидывал. Это касательно [South Dakota]… Я так понимаю для математики?… где было 50 центов. Минимальная ставка сделали 40" — a written note from "ефим" (this page, by context — the South Dakota maths; inference) on Oct 1 changing the minimum bet from 50 cents to 40, handled by Irina and Ivan as a RIS with the 40-cent minimum and no rebuild. See [[wiki/projects/south-dakota-vlt-market.md]] (Oct 2) [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]. The note itself is not in the corpus.
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Notes_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]
 

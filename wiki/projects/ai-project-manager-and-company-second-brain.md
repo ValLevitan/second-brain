@@ -2,17 +2,17 @@
 type: project
 title: The AI project manager and the company second brain — Val's direction (Sept 25 2026), the design and plan of work (Sept 29 2026), owned by Andrey Bosik
 date: 2026-09-25
-aliases: [AI PM, AI project manager, AIPM, AI проджект менеджер, Design_AI-PM, company second brain, JVL second brain, одна компании секунд брейн, second brain for JVL, Karpathy method at JVL, AI draft tasks in Jira, meeting bot, AI PM persona, transcript collection, глоссарий Лены]
-source-count: 8
+aliases: [AI PM, AI project manager, AIPM, AI проджект менеджер, Design_AI-PM, company second brain, JVL second brain, одна компании секунд брейн, second brain for JVL, Karpathy method at JVL, AI draft tasks in Jira, meeting bot, AI PM persona, transcript collection, глоссарий Лены, Listener, листонер, 318 transcripts]
+source-count: 10
 open-commitments: 0
 open-questions: 0
 ---
 
 # The AI project manager and the company second brain
 
-A JVL initiative, set in direction by [[wiki/people/val-levitan.md|Val Levitan]] on Sept 25 2026 and given a design, an owner and an order of work on Sept 29 2026. Its aim, in Val's words on Sept 29: an AI project manager that "**с нас снимает работу**" — takes work off the team — by creating "таски проперные, без ошибок… в лимитированном количестве… [с]огласно нашим стандартам", fed by one company second brain built from the meeting transcripts [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]. **Owner: [[wiki/people/andrey-bosik.md|Andrey Bosik]]** (Sept 29). **Next checkpoint: Friday Oct 2 2026, about 7:00 AM** (Val will book it) [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]].
+A JVL initiative, set in direction by [[wiki/people/val-levitan.md|Val Levitan]] on Sept 25 2026 and given a design, an owner and an order of work on Sept 29 2026. Its aim, in Val's words on Sept 29: an AI project manager that "**с нас снимает работу**" — takes work off the team — by creating "таски проперные, без ошибок… в лимитированном количестве… [с]огласно нашим стандартам", fed by one company second brain built from the meeting transcripts [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]. **Owner: [[wiki/people/andrey-bosik.md|Andrey Bosik]]** (Sept 29) [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]. **State as of Oct 2 2026 (7:32 AM):** the system is designed and coding has started; 318 Teams transcripts are collected (from July 2025); the "Listener" core exists; MVP 1 works from the Teams transcripts as they are (Whisper waits for MVP 2); the transcripts will be stored in GitHub. **Next checkpoint: Tuesday Oct 6 2026, 7:00 AM Eastern / 14:00 Minsk** [[raw/Meeting_Transcript_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]].
 
-The rulings are on [[wiki/decisions/2026-09-25-one-company-second-brain-feeds-an-ai-project-manager-for-jira.md]] (the direction) and [[wiki/decisions/2026-09-29-bosik-owns-the-ai-pm-the-meeting-bot-waits-and-the-second-brain-is-built-first.md]] (the plan). This page keeps the whole picture in one place and will carry the timeline as the work moves.
+The rulings are on [[wiki/decisions/2026-09-25-one-company-second-brain-feeds-an-ai-project-manager-for-jira.md]] (the direction), [[wiki/decisions/2026-09-29-bosik-owns-the-ai-pm-the-meeting-bot-waits-and-the-second-brain-is-built-first.md]] (the plan) and [[wiki/decisions/2026-10-02-ai-pm-mvp1-uses-the-teams-transcripts-as-they-are-and-whisper-re-transcription-waits-for-mvp2.md]] (Bosik's MVP 1 scope). This page keeps the whole picture in one place and will carry the timeline as the work moves.
 
 ## Timeline
 
@@ -20,6 +20,25 @@ The rulings are on [[wiki/decisions/2026-09-25-one-company-second-brain-feeds-an
 - **Sept 29 2026 (6:02 AM)** — [[wiki/meetings/2026-09-29-ai-pm-architecture-and-second-brain-plan.md|"Design_AI-PM"]]: Val's picture and Bosik's slides (about 70 % overlap); Bosik takes ownership; the live meeting bot goes to MVP 2; transcripts are collected first and the second brain built from them; drafts go to repository code owners after a dry run; status on Friday [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]] [[raw/Meeting_Notes_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]].
 - **Sept 29 2026 (10:31 AM)** — a one-minute direction check at the end of the [[wiki/meetings/2026-09-29-dev-environments-rk3568-sdk-amd-spike-and-ai-pm-direction-check.md|"Dev_environments" call]]: Val, to Pavel and Irina, "Мне кажется, мы на правильном пути мне понравился этот разговор. У вас есть какието резерве по этому поводу? Вы считаете, что мы неправильно идём?" Pavel: "Нет, я уверен, что мы идем правильно. Это может казаться, что это ж нереальное, но нам год назад казалось, что [AI] это чисто помощник… если мы гдето даже во чтото упрёмся то чего сейчас будет нереально, то оно через через полгода станет реально." Irina: "А теперь ещё кто кого ведёт?" No reservations from either; nothing new decided [[raw/Meeting_Transcript_Dev_Environments_AI_PM_Direction_Check-September-29-2026.md]] [[raw/Meeting_Notes_Dev_Environments_AI_PM_Direction_Check-September-29-2026.md]].
 - **Oct 1 2026 (5:02 PM)** — a status line from Val to Genadi, on the [[wiki/meetings/2026-10-01-genadi-io-board-chips-flat-bom-pilot-and-street-cabinet-panel.md|Oct 1 call]], while explaining why he will not grow headcount: "Мы практически закончили архитектуру под AI проджект менеджер, который будет сидеть только на каждом митинге, слушать разговоры и [manage]… И я вижу это начинает получаться." He placed it beside his AI-CFO ("хорошо работает") and a second executive role he has started giving work to (the transcript's "air CO"; the notes read AI COO). No new ruling; the Sept-29 plan stands [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]] [[raw/Meeting_Notes_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]].
+- **Oct 2 2026 (7:32 AM)** — [[wiki/meetings/2026-10-02-ai-pm-status-listener-core-and-318-transcripts.md|"Design_AI-PM - status"]], the Friday checkpoint Val set on Sept 29: Bosik's five-minute report (below). Val's one question — where the transcripts are kept. Next status "Во вторник" at 7:00 Val's time, 14:00 Minsk [[raw/Meeting_Transcript_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]] [[raw/Meeting_Notes_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]].
+
+## Status, Oct 2 2026 — designed, coding started, 318 transcripts, the "Listener"
+
+Bosik's report at the [[wiki/meetings/2026-10-02-ai-pm-status-listener-core-and-318-transcripts.md|Oct-2 status call]] (Russian), in his order [[raw/Meeting_Transcript_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]]:
+
+- **Design done, coding started.** "Спроектировал всю систему, так как она выглядит на данный момент… И перешли уже реализовывать. Соответственно, это дело всё в какойто там код и действующие механизмы."
+- **The transcripts are collected — 318, from July 2025.** "Мы смогли собрать все доступные нам историю встреч, всю доступную историю встреч. То есть мы смогли забрать расшифровки. Митингов [Teams] с майкрософта"; "мы собрали 318 расшифровок, они собрались с июля 25, потому что есть ограничения по хранению соответственно." *(The Sept-29 blocker — nobody can read other users' transcripts — is not mentioned; how the collection was done is not said.)*
+- **The "Listener" core.** "Подготовили… Базовое ядро для… Я назвал это листонер это тот, кто будет превращать то, что было сказано на митингах в черновики задачи в джие. Вот он читает в том числе и русские расшифровки." "Переиспользовал клейтона немножко механизм" — a bit of Clayton's mechanism reused ([[wiki/people/clayton-chancey.md|Clayton Chancey]], by context — inference).
+- **Whisper deferred; Teams transcripts for MVP 1.** The reasoning and ruling are on [[wiki/decisions/2026-10-02-ai-pm-mvp1-uses-the-teams-transcripts-as-they-are-and-whisper-re-transcription-waits-for-mvp2.md]].
+- **The persona.** "личность то, что вы прислали [поэму — unclear], дописал немножко. Собрал ему знания немножко да?" — the persona Val sent, extended a little.
+- **Storage — Val's question.** "Где вы их храните?" — "пока забрал, но ещё не храню, но они будут обрабатываться и будут храниться в [GitHub]… этот репозиторий будет использоваться как база для последующего проджект менеджера, по крайней мере в начале. Возможно, в будущем… в какуюто реальную базу данных, типа там [SQLite] или в какуюто векторную… для старта этого вполне достаточно." On the Oct-2 decision page.
+- **The voice participant — attempted, hard.** "параллельно я попросил [Клода], и он пытается сделать вот этот голосового участника. Вот там пока сложно. Это достаточно сложная задача." *(The live meeting bot was put in MVP 2 on Sept 29; this is a side attempt, not a change of plan — observation.)*
+- **Literature in the PM repository.** "литературу подкачали с [Клодом]… положили её в репозиторий для [PM]" — the PM "учебники" Val asked for on Sept 29, by context (inference).
+- **The knowledge base.** To Pavel, who joined late: "в качестве базы знаний. Для этого агента я использую в том числе. Ну понятно, [Jira] сам [GitHub] вот но ещё я ему вот эти отчёты, которые вот ты вырвал сегодня, про которые писали там да, то есть это изначально было заложено у меня в дизайн то, что это будет основой для его… знаний и какойто базой для принятия последующих решений." Which reports is **unclear** on tape; the derived notes read them as Kovalchuk's Jira-discipline reports, which matches Bosik's Sept-29 "3 отчёта у нас получается есть" (inference) [[raw/Meeting_Notes_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]].
+- **Claude coding during the call.** "прямо сейчас параллели с вами говорю пишет код."
+- **Next checkpoint.** Val: "Опять встретимся во вторник" — "на 07:00"; Kovalchuk: "14 ноль ноль по идее по нашему"; Irina: "2 по нашему"; Bosik: "во вторник на 14 ноль ноль по Минску на 07:00. По вашему времени." Tuesday Oct 6 2026 (worked out, not spoken).
+
+Against the Sept-29 order of work: step 1 (collect) is done; step 2 (build the second brain) has started in the sense that the transcripts are pulled but "ещё не храню"; step 3 (persona) is in progress; step 4 (glossary pass) and step 5 (dry run) are not mentioned; step 6 (the bot) is being tried on the side. Commitments are tracked on the Sept-29 decision page.
 
 ## What the AI PM is meant to be (Val, Sept 29)
 
@@ -68,7 +87,7 @@ The rulings are on [[wiki/decisions/2026-09-25-one-company-second-brain-feeds-an
 
 ## Open items
 
-Commitments and open questions are held on the two decision pages, not duplicated here: [[wiki/decisions/2026-09-29-bosik-owns-the-ai-pm-the-meeting-bot-waits-and-the-second-brain-is-built-first.md]] (Bosik's four work items, Val's booking, the dry run; the transcript period, where it runs, output length, timing) and [[wiki/decisions/2026-09-25-one-company-second-brain-feeds-an-ai-project-manager-for-jira.md]] (Val's offer to have Claude write up his set-up; approvals/versions; cost).
+Commitments and open questions are held on the decision pages, not duplicated here: [[wiki/decisions/2026-09-29-bosik-owns-the-ai-pm-the-meeting-bot-waits-and-the-second-brain-is-built-first.md]] (Bosik's remaining work items, the dry run, the Oct-6 status; where it runs, output length, timing), [[wiki/decisions/2026-10-02-ai-pm-mvp1-uses-the-teams-transcripts-as-they-are-and-whisper-re-transcription-waits-for-mvp2.md]] (processing and storing the 318 transcripts; when the store moves to a database) and [[wiki/decisions/2026-09-25-one-company-second-brain-feeds-an-ai-project-manager-for-jira.md]] (Val's offer to have Claude write up his set-up; approvals/versions; cost).
 
 ## Related
 
@@ -88,3 +107,5 @@ Commitments and open questions are held on the two decision pages, not duplicate
 - [[raw/Meeting_Notes_Dev_Environments_AI_PM_Direction_Check-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
 - [[raw/Meeting_Notes_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
+- [[raw/Meeting_Transcript_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]]
+- [[raw/Meeting_Notes_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]]

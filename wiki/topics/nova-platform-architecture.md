@@ -3,9 +3,9 @@ type: topic
 title: NOVA platform architecture (JVL land-based gaming platform)
 date: 2026-05-12
 aliases: [NOVA, NOVA platform, NOVA gaming platform, land-based platform, land-based gaming platform, services architecture, library-to-service decomposition, Chief Architect NOVA, Unix-socket services, per-service repositories, packaged games, AMQP CMS protocol, capabilities from prose, prose standard, LGS prose, repo to Jira linkage, module contracts, NOVA integration repository, knowledge repository]
-source-count: 65
-open-commitments: 48
-open-questions: 27
+source-count: 70
+open-commitments: 51
+open-questions: 31
 disambiguation: "NOVA is the named successor of the 'Omni' land-based platform code-word — do not conflate NOVA (this on-cabinet services platform) with the Omni game-templating / Rage→Omni content transition tracked on [[wiki/topics/omni-core-advancement-and-game-templating.md]]."
 ---
 
@@ -547,6 +547,62 @@ The Sept-29 stub-names commitment above is not mentioned on Oct 1 and stays as i
 
 - Is the Rage-to-NOVA select-screen converter general enough to keep, or does each game package need its own? Daniil doubts it; not decided — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 
+## Oct 2 2026 — new ARM boards ("35 67", 8 GB) have arrived for the new game; "compile Rage for ARM" and FMOD; and feature 1386's videos — VP9 on Rage against VP8 in the repository
+
+At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-new-arm-boards.md|Oct-2 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]:
+
+- **The boards.** [[wiki/people/pavel.md|Pavel]]: "Нас приехали платы. 35 67 с 8 гигабайтами памяти можно будет потом запланировать. Тестирование новой игры на. На этом [ARM]." [[wiki/people/alexander-biratka.md|Biratka]]: "оно же у тебя плата да?" — Pavel: "Да да, у меня уже лежит." Biratka: "Надо вообще [билд] собирать и пробовать запускать полноценный." Pavel: "там не [билд] запускать там ну саму игру просто собраться там какаято система стоит вроде дебиан или у бунты на ней как бы просто запустить… и запустить браузер смотреть, что будет. Пока что в одномониторной, наверное, конфигурации, потом смотреть дальше… памяти уже должно хватать, и тут посмотрим, на чём мы дальше споткнёмся или наоборот, всё всё взлетит." **The number is spoken as "35 67"; no "RK" and no full part number.** The derived notes write "RK3567" [[raw/Meeting_Notes_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]. The wiki knows no RK3567: the boards on file are the RK3568 (the Flex board; "слабенький процессор для машины", Sept 29 below) and the RK3576 (the street cabinet's board — two samples with 8 GB ordered on Sept 14; [[wiki/decisions/2026-09-14-the-street-cabinet-board-is-the-rk3576-not-the-rk3568.md]], Oct-2 update). An 8 GB ARM board "for the new game" most likely is the RK3576 with two digits swapped on tape — **inference, not spoken**; the AMD/RK3576 order of Sept 29 ([[wiki/decisions/2026-09-29-the-amd-environment-is-rebuilt-from-the-rk3568-sdk-pavels-ten-day-spike-and-the-rk3576-waits.md]]) was not mentioned, and the plan here is a browser run of the game on whatever system the board ships with, not SDK work.
+- **Rage for ARM.** Biratka, "чтобы в транскрипт пошло": "возможно попробовать рэйдж скомпилить под арм и попробовать посмотреть, как это будет выглядеть на новое [плате]." Pavel: "[Rage], там основное так понимаю, это сорсы энджино. Не у нас вообще доступны недоступны. Ноль." Biratka: "Да, конечно, доступно." Pavel: "вроде бы все остальное, наверное, должно и собраться." Biratka: "если только какие то есть библиотеки ну какието старые… тот же этот саунд лайбери да там f mod. Я не думаю, не уверен, что у нас он есть в [сорсах]. И есть ли версия [под ARM]?" Pavel: "это может быть ключевым моментом." A proposal, not a task — recorded as an open question.
+- **Daniil's feature 1386 — the video codec.** Daniil Stauskiy (no page): "я уже сейчас заканчивал с вот фичи 1386. Я уже в целом всё перекинул, всё подставил, всё вроде отображается, красиво, нормально. Единственный у меня вопрос. Получается на [Rage] все видео были закодированы через в п 9. Итак вышло, когда а у нас в нашем репозитории буквально все с этого в п 8. Я сначала попробовал через [кодек VP8] посмотрел я прямо там прям видно, что качество очень сильно теряется. Поэтому я решил перекинуть в ну с тем же битрейтом и с с кодыком, как и на [Rage] был выглядит лучше. Но вот единственное, что стандарты нигде не нашёл и не знаю, будет ли там на машине, может быть через другой какое то браузер… оно может кодак просто ну Видео может не подняться." Biratka: "браузер мы можем взять ту версию, которая на машине будет проверить, но в целом помоему на [VP8] работало немножко быстрее. Мы пробовали много кодекков разных… то что качество упало, возможно, всётаки проблема в конвертации. Может, можно както переконвертировать немножечко. По другому. Надо поговорить, наверное, с дизайнерами?" Pavel: "Хорошо." *(Feature 1386 is the Oct-1 NOVA conversion above; the prefix is still garbled.)*
+
+The derived notes record the same three points [[raw/Meeting_Notes_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]].
+
+**§15.8:** clear. **§15 #9:** none.
+
+### Open commitments (Oct 2 2026)
+
+- [x] [[wiki/people/pavel.md|Pavel Frolov]] — plan and run the new game on the newly arrived 8 GB ARM board ("35 67" as spoken) in a browser, one-monitor configuration first, and see where it stumbles — due "потом запланировать" (unspecified) — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]] — *Oct 5 2026: handed to Daniil as his next task ("следующая задача тебе будет надо будет взять новую плату и попробовать запустить на [ARM]") — see the Oct-5 commitments* — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+- [ ] Daniil Stauskiy (no page) — check the re-encoded feature-1386 videos in the browser version the machine will run, and settle the codec / conversion with the designers — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+
+### Open questions (Oct 2 2026)
+
+- Does the machine's browser play the VP9-style encoding Daniil used, or must the videos be re-converted to VP8 without the quality loss? — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+- Can Rage be compiled for ARM at all — are the engine sources complete, and is there an ARM build of the FMOD sound library? Biratka's proposal; nobody took it — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+- Which board is "35 67" — the RK3576 (the number heard with two digits swapped) or something else? Only the digits and "8 GB" were spoken — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+
+## Oct 2 2026 (9:01 AM) — the diagnostic tool goes onto the install stick and into the SDK repository; "two products, for the record": RK (ARM, street) and FP-7 (x86, casino)
+
+On the [[wiki/meetings/2026-10-02-diagnostic-tool-on-the-install-stick-for-nova-fp7-and-rk.md|Oct-2 9:01 AM "EGMs diagnostic tool" call]] (Russian; [[wiki/people/pavel.md|Pavel]], [[wiki/people/genadi-peari.md|Genadi]], Val in the chat) [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]:
+
+- **The platform as Pavel names it.** "сейчас работаю над SD[K] для новой платформы под новой платформой подразумеваю и наш. Нова. Фреймворк и новые материнские платы. По базе там икс 86."
+- **The diagnostic tool is part of the SDK build.** "Мы всегда софт устанавливаемся с [USB-стика]. И нам ничто не мешает на этот [USB-стик] положить наш диагностик тул"; kept "вместе с SDK проектом и репозитории… всегда в актуальном состоянии… сборки из SDK линукса они у нас тоже используются каждый раз при каждой сборке игр. Каждый релиз идут." It reads only — boards, LEDs, bill acceptor, printer — "ещё до инсталляции". Ruling and detail: [[wiki/decisions/2026-10-02-the-diagnostic-tool-goes-onto-the-installation-stick-and-lives-in-the-sdk-repository-both-rk-and-fp7-are-worked-out.md]].
+- **Two products, "для записи".** "мы говорим сейчас о 2 разных продуктах, 1 из них это RK [based], то есть на арм платформе то что для стрит машин. И это будет идти быстрее и 2 платформа [FP-7] это икс 86 платформа и в основном для казино." For RK the tool "процентов на 50, 60, наверное, будет отличаться", the GUI "может быть на 100% переиспользован"; "RK это наверное степ 2". ("RK" is not expanded; the street board on file is the RK3576 — [[wiki/decisions/2026-09-14-the-street-cabinet-board-is-the-rk3576-not-the-rk3568.md]] — **inference**.)
+- **Later, a modern GUI.** "когда освободятся ресурсы после транзакшнл… Того же Владимира… чтобы график юзер интерфейс сделать ну обновлённый… многое из бэкэнда… можно переиспользовать" ([[wiki/people/vladimir-samusenko.md|Vladimir]] by context); with Claude "итерационная задача… делается. Не очень долго".
+
+**§15.8:** clear. **§15 #9:** none.
+
+## Oct 5 2026 — Daniil has "закончил 14, 86"; one branch in both the Rage-converter and the LGS repositories; icons load before games; the new ARM board is his next task
+
+At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-reopen-rules.md|Oct-5 Minsk stand-up]] (Russian) Daniil Stauskiy (no page) [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]:
+
+- **Done.** "уже закончил 14, 86. Так вот надо [—] обновить под нее и я буду уже 1 открывать." As spoken, "14, 86"; on Oct 1–2 his feature was "1386"; the derived notes write "1486" [[raw/Meeting_Notes_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]. Same feature or another — **unclear**.
+- **Which repository, which branch.** "В репозитории это которые [Rage] конвертер [—]. Я в эту же ветку получается, вот это делать. И тогда нужно ли еще создавать [—] в этой фиче, чтобы именно. Поменить заглушку, которая сейчас есть [в main] на экран и нужно ли отдельная ветка под лгс?" [[wiki/people/pavel.md|Pavel]]: "похорошему да… можешь завести ветку и там и там можно даже с одним описанием этой ветки, да только они будут в разных репозиториях. Как наверно правильнее будет." (The converter repository of [[wiki/decisions/2026-09-25-the-conversion-experiment-closes-and-the-converter-gets-its-own-project-and-repository.md]], Oct-5 annotation.)
+- **Icon loading — Biratka's point, relayed.** Pavel: "то, что саша. Говорил про оптимизацию загрузки. Этих иконок игр. Это же это сделано или ещё нет?" Daniil: icons load from the games — "только те игры, которые у нас ну иконки лежат в играх". Pavel: "порядок такой, что сначала пробегается по всем играм, загружается сами картинки, картинки загружаются на сцену [game select screen] и только потом начинает грузиться остальная часть игр." Daniil: "Да, так и есть." ([[wiki/people/alexander-biratka.md|Biratka]] was absent.)
+- **Next: the new board.** Pavel: "следующая задача тебе будет надо будет взять новую плату и попробовать запустить на [ARM]… Помнишь то, что у нас не хватало памяти на старых платах?" Daniil: "сейчас мне грузить заглушкой, чтобы можно было потенциально проверить вообще вот когда много игр, потому что до сих пор одна по сути… можно было бы сразу и селект скрин проверить, сколько он будет есть." Pavel: "похорошему [с] селекскрином, и тогда заглушки игр." Daniil: "Но Игорь ко иконок [тракшенов], потому что их тоже нету" (garbled; "Игорь" **not resolved**). Pavel: "тогда все вместе можно собрать и видеть. Более реальную картину сколько одна игра с [game select screen] занимает и как это потом? Будет увеличиваться с добавлением игр." This takes over Pavel's own Oct-2 item below. The board is the Oct-2 "35 67" with 8 GB ([[wiki/decisions/2026-09-14-the-street-cabinet-board-is-the-rk3576-not-the-rk3568.md]], Oct-5 annotation).
+
+The derived notes record the same four points and list "Daniil opens a branch in both repos" as a decision by Pavel [[raw/Meeting_Notes_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]. The Oct-2 video-codec question was not mentioned.
+
+**§15.8:** clear. **§15 #9:** none.
+
+### Open commitments (Oct 5 2026)
+
+- [ ] Daniil Stauskiy (no page) — open a branch in both the Rage-converter and the LGS repositories, with one description, to replace the stub select screen in main — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+- [ ] Daniil Stauskiy (no page) — then run the game on the new ARM board with the select screen and game stubs, and measure how much memory one game with the select screen takes and how it grows with more games — due unspecified (his next task) — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+
+### Open questions (Oct 5 2026)
+
+- Is "14, 86" the feature 1386 of Oct 1–2 mis-heard, or a different feature 1486? — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+
 ## Sept 29 2026 (10:06 AM) — two development environments, one skeleton: the RK3568 SDK's state, the dependency on Pavel, the AMD spike, and the RK3576 branch
 
 At the [[wiki/meetings/2026-09-29-dev-environments-rk3568-sdk-amd-spike-and-ai-pm-direction-check.md|Sept-29 "Dev_environments" call]] (Russian; [[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/irina-shishko.md|Irina Shishko]]) the platform's build environments were looked at as one problem. The rulings are on [[wiki/decisions/2026-09-29-the-amd-environment-is-rebuilt-from-the-rk3568-sdk-pavels-ten-day-spike-and-the-rk3576-waits.md]]; this is the platform picture [[raw/Meeting_Transcript_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]] [[raw/Meeting_Transcript_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]].
@@ -562,6 +618,9 @@ The derived notes read the same way [[raw/Meeting_Notes_Dev_Environments_RK3568_
 
 ## Sources
 
+- [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Notes_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]]
 - [[raw/Meeting_Notes_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]]
@@ -628,3 +687,5 @@ The derived notes read the same way [[raw/Meeting_Notes_Dev_Environments_RK3568_
 - [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]

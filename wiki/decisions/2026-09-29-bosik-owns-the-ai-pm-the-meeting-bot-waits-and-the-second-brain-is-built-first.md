@@ -1,12 +1,12 @@
 ---
 type: decision
-title: Bosik owns the AI project manager; the live meeting bot waits for MVP 2; the transcripts are collected and the company second brain is built first; drafts go to repository code owners with no human "responsible"; dry run before any Jira write; status on Friday at 7, not in a week or two
+title: Bosik owns the AI project manager; the live meeting bot waits for MVP 2; the transcripts are collected and the company second brain is built first; drafts go to repository code owners with no human "responsible"; dry run before any Jira write; status on Friday at 7, not in a week or two (held Oct 2 — 318 transcripts collected; next status Tuesday Oct 6 at 7)
 date: 2026-09-29
 aliases: [Bosik owns the AI PM, AI PM MVP 2 bot, meeting bot to MVP2, second brain first, collect the transcripts first, drafts to code owners, no responsible for the AI PM, AI draft status, dry run no Jira writes, Friday at 7 status, никаких бонусов, это не бонус, AI PM does the work not writes to us]
-source-count: 3
+source-count: 5
 status: active
-open-commitments: 6
-open-questions: 4
+open-commitments: 4
+open-questions: 3
 ---
 
 # Bosik owns the AI PM; the bot waits; the second brain comes first
@@ -45,21 +45,37 @@ Bosik: "Через недельку, через 2 встречаемся." Val: 
 
 Four and a half hours later, at the end of the [[wiki/meetings/2026-09-29-dev-environments-rk3568-sdk-amd-spike-and-ai-pm-direction-check.md|"Dev_environments" call]], Val asked [[wiki/people/pavel.md|Pavel]] and [[wiki/people/irina-shishko.md|Irina]] whether they had "какието резерве" about the AI project manager "как мы сегодня говорили". Pavel: "Нет, я уверен, что мы идем правильно… что сейчас будет нереально, то оно через через полгода станет реально." Irina: "А теперь ещё кто кого ведёт?" Nothing here changes; the rulings above stand [[raw/Meeting_Transcript_Dev_Environments_AI_PM_Direction_Check-September-29-2026.md]].
 
+## Update, Oct 2 2026 (7:32 AM) — the Friday checkpoint held: designed, 318 transcripts collected, the "Listener", and the next status on Tuesday at 7
+
+The status meeting of §6 took place as the [[wiki/meetings/2026-10-02-ai-pm-status-listener-core-and-318-transcripts.md|"Design_AI-PM - status" call]] (Russian; Val, Bosik, Pavel late, Irina and Kovalchuk at the end) [[raw/Meeting_Transcript_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]]. Against the rulings above:
+
+- **§1 — Bosik owns it, and reported.** "Спроектировал всю систему, так как она выглядит на данный момент… И перешли уже реализовывать."
+- **§2 — the bot still waits**, but is being tried on the side: "попросил [Клода], и он пытается сделать вот этот голосового участника… пока сложно." No change of plan.
+- **§3 — the transcripts are collected: 318, from July 2025.** "мы собрали 318 расшифровок, они собрались с июля 25, потому что есть ограничения по хранению." The second brain is not yet built from them — "пока забрал, но ещё не храню, но они будут обрабатываться и будут храниться в [GitHub]". The glossary pass was not mentioned. **New, Bosik's own ruling:** MVP 1 uses the Teams transcripts as they are; Whisper re-transcription with the glossary goes to MVP 2 — [[wiki/decisions/2026-10-02-ai-pm-mvp1-uses-the-teams-transcripts-as-they-are-and-whisper-re-transcription-waits-for-mvp2.md]].
+- **§4–5 — the drafting core exists, the dry run has not started.** "Базовое ядро… листонер это тот, кто будет превращать то, что было сказано на митингах в черновики задачи в джие… читает в том числе и русские расшифровки." Nothing on Jira writes or a dry run yet.
+- **§6 — Friday at 7 happened (7:32), and the next one is Tuesday at 7.** Val: "Опять встретимся во вторник… на 07:00"; Bosik, after Kovalchuk and Irina converted it: "во вторник на 14 ноль ноль по Минску на 07:00. По вашему времени" — Tuesday Oct 6 2026 (worked out). The derived notes read the same [[raw/Meeting_Notes_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]].
+
+The full status is on [[wiki/projects/ai-project-manager-and-company-second-brain.md]] (Oct 2).
+
 ## Open commitments
 
-- [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — finish the architecture design "чтобы он был внятным" — clear enough for the AI itself to know its direction — due Fri Oct 2 2026 (status meeting) — [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
-- [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — set up collection of the meeting transcripts "с каждого пользователя" into one store (no out-of-the-box mechanism exists; even an admin cannot read others' transcripts) — due about 1–2 days by Val's sizing; status Oct 2 2026 — [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
-- [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — start studying and building the company second brain from the collected transcripts, in phases — due started; about a month of processing by Val's sizing — [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
-- [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — while the second brain builds, prepare the AI PM's own architecture and character ("персона по сути надо сформировать"; Val: 2–3 days from his experience) — due unspecified — [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
-- [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — run the task-drafting as a dry run with no Jira writes for a week or two before giving it Jira access — due after the pipeline exists — [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
-- [ ] [[wiki/people/val-levitan.md|Val Levitan]] — book the status meeting for Friday Oct 2 2026 at about 7:00 — due Sept 29 2026 — [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
+- [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — start studying and building the company second brain from the collected transcripts, in phases — due started; about a month of processing by Val's sizing — [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]] — *Oct 2 2026: the 318 transcripts are pulled "но ещё не храню"; they will be processed and stored in GitHub; the brain itself is not reported built* — [[raw/Meeting_Transcript_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]]
+- [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — while the second brain builds, prepare the AI PM's own architecture and character ("персона по сути надо сформировать"; Val: 2–3 days from his experience) — due unspecified — [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]] — *Oct 2 2026: in progress — "личность то, что вы прислали… дописал немножко. Собрал ему знания немножко"* — [[raw/Meeting_Transcript_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]]
+- [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — run the task-drafting as a dry run with no Jira writes for a week or two before giving it Jira access — due after the pipeline exists — [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]] — *Oct 2 2026: not mentioned; the "Listener" core exists but no drafting run is reported* — [[raw/Meeting_Transcript_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]]
+- [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — the next status report on the AI PM — due Tuesday Oct 6 2026, 7:00 AM Eastern / 14:00 Minsk (Val: "Опять встретимся во вторник") — [[raw/Meeting_Transcript_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]]
 
 ## Open questions
 
-- **What period of transcripts.** Irina asked; Val: "с января 2026", then "может, с января, может быть, с июня… вам виднее"; Bosik will first see what period can be pulled — [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
 - **Where the AI PM runs.** Pavel: it must live on some server and stay current. Bosik: decide later — a Jira hook firing a GitHub action, a cloud service, a bought subscription "за адекватных денег", or a PC in the office — [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
 - **How to keep the AI's output short.** Val: "я имею такую тенденцию очень много публиковать… здесь надо быть осторожным"; he limits sentence count and bans complex or technical language, "но всё равно это много читать" — [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
 - **Right after each meeting, or once a day.** Bosik raised it; Pavel: some tasks are urgent, others are still being discussed and tomorrow's continuation may change them. Val's preference — do it at once and ask for comments; the AI chases what is not commented ("самоизлечиваемая такая болезнь") — is stated, not ruled — [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
+
+## History
+
+- [x] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — finish the architecture design "чтобы он был внятным" — due Fri Oct 2 2026 — [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]] — **discharged Oct 2 2026:** "Спроектировал всю систему, так как она выглядит на данный момент… И перешли уже реализовывать" — [[raw/Meeting_Transcript_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]]
+- [x] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — set up collection of the meeting transcripts "с каждого пользователя" into one store — due about 1–2 days; status Oct 2 2026 — [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]] — **discharged Oct 2 2026:** "мы собрали 318 расшифровок, они собрались с июля 25" (how the per-user access problem was solved is not said) — [[raw/Meeting_Transcript_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]]
+- [x] [[wiki/people/val-levitan.md|Val Levitan]] — book the status meeting for Friday Oct 2 2026 at about 7:00 — due Sept 29 2026 — [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]] — **discharged:** the "Design_AI-PM - status" call took place Friday Oct 2 2026, 7:32–7:37 AM Eastern — [[raw/Meeting_Transcript_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]]
+- **Answered — what period of transcripts.** Irina asked on Sept 29; Val: "с января 2026", then "может, с января, может быть, с июня… вам виднее"; Bosik was to see what could be pulled — [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]. **Oct 2 2026:** from July 2025, bounded by Microsoft's retention — "они собрались с июля 25, потому что есть ограничения по хранению" — [[raw/Meeting_Transcript_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]]
 
 **§15.8:** Val's remarks about how Bosik presents himself are personal judgements and are not recorded. No pay or personal matters. **§15 #9:** none.
 
@@ -67,3 +83,5 @@ Four and a half hours later, at the end of the [[wiki/meetings/2026-09-29-dev-en
 - [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
 - [[raw/Meeting_Notes_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Dev_Environments_AI_PM_Direction_Check-September-29-2026.md]]
+- [[raw/Meeting_Transcript_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]]
+- [[raw/Meeting_Notes_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]]

@@ -3,7 +3,7 @@ type: decision
 title: Requirements are step two — the MVP split and the test automation come after; MVP 1 is October 1, MVP 2 is November 1, and the Flex-Recycler is in neither
 date: 2026-09-10
 aliases: [requirements are step two, MVP 1 October 1, MVP 2 November 1, recycler is not MVP 1 and not MVP 2, eighty percent of the general functionality, go through the capabilities of the last seven days, transactional products management]
-source-count: 7
+source-count: 8
 status: active — the recycler is out of MVP 1 and MVP 2 as ruled; on Sept 30 2026 it was placed in a probable MVP 3 (see update); on Oct 1 2026 the engineers said they work from the mock-ups first because the requirements are abstract (see update)
 open-commitments: 5
 open-questions: 1
@@ -68,7 +68,7 @@ At the [[wiki/meetings/2026-10-01-transactional-mvp1-status-slice-and-sas-comman
 
 ### Open commitments (Oct 1 2026)
 
-- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — review the gaps document (contradictions, clarifications, missing tilts and negative cases on the capabilities he closed) and send it as a new email to the transactional distribution list — due Oct 1 2026 ("в течение часа 2") — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — review the gaps document (contradictions, clarifications, missing tilts and negative cases on the capabilities he closed) and send it as a new email to the transactional distribution list — due Oct 1 2026 ("в течение часа 2") — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]] — *Oct 2 2026: "собрал. Недочёта там либо разногласия, либо недоработали по требованиям. Скинула давно. Сейчас этот один. Если надо ещё потом продублирую по почте" — collected; whether it went by email to the list is unclear, so not marked done* — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — read the gaps document and update the requirements where the mock-ups and requirements diverge — due after his return (Oct 13 2026) — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 
 **§15.8:** clear — scope, schedule and process only; no named-person compensation.
@@ -81,3 +81,4 @@ At the [[wiki/meetings/2026-10-01-transactional-mvp1-status-slice-and-sas-comman
 - [[raw/Meeting_Notes_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]

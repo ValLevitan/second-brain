@@ -3,7 +3,7 @@ type: topic
 title: GitHub release management and the CI/CD release pipeline
 date: 2025-10-21
 aliases: [release management, release pipeline, CI/CD, GitHub Actions pipeline, release artifacts, ISO image release, release manager role, continuous delivery, flex os installer, manifest, release candidate, single source of truth, feature branch discipline, sprints vs kanban, Jira GitHub link, FlexPos IP 902, FP 519, IP 89 dashboard grooming, bulk archive automation, Jira resolutions cleanup, Flex-POS Transition to Production, alpha build release tracking, knowledge repository, prose pending folder, prose merge action, docs contracts folder, integration repository, Knowledge Base repository, Standards folder, 39 accesses, hardware GitHub standard, hardware-components repo, hardware-manufacturing repo, BOM sync robot, category first manufacturer second]
-source-count: 106
+source-count: 107
 open-commitments: 1
 open-questions: 10
 ---
@@ -822,7 +822,18 @@ On the [[wiki/meetings/2026-10-01-genadi-io-board-chips-flat-bom-pilot-and-stree
 
 **§15.8:** clear. **§15 #9:** none.
 
+## Oct 5 2026 — the release bakes a file of its component versions into the artifact; snapshots as well as releases; and the "Files changed" tab when a pull request shows a conflict
+
+At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-reopen-rules.md|Oct-5 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]:
+
+- **The versions file.** [[wiki/people/pavel.md|Pavel]]'s picture of the NOVA integration repository — "какойто манифест, который указывает. Версии компонентов… И там репозитории, откуда они берутся и оттуда будут на этапе сборки забираться релизные версии, скачиваться и запекаться в [имидж]" — and [[wiki/people/evgeny-kharetski.md|Kharetski]]'s correction: builds "не обязательно будут на релизных версии… художникам… нужны [—], где разрабатываются или для автотестов также нужны [снапшоты]"; a GitHub Page with a "release" tick ("если это делается в рамках [экшена], то это сложно сделать. Да, если сделать [Page], то там можно всё, что угодно навернуть" — Pavel); and the rule: "релиз должен в какомто файле… [з]апекать. Какие версии? Были. Включены в этот релиз. Чтоб потом это можно было отслеживать" — "в виде отдельного файла класть в артефакт, да?" — "да чтоб он к релизу был [приатачен]." Ruling: [[wiki/decisions/2026-10-05-a-release-bakes-a-file-of-the-component-versions-it-contains-into-the-artifact.md]].
+- **A pull request with a conflict.** Pavel could not approve "94": "вот тут висит [merge] конфликт, то есть я не могу… У меня почемуто нет возможности нажать… [approve] ну, то есть нет этой кнопки." [[wiki/people/alexei-khamin.md|Khamin]]: "Иди в файл с чейжит? Табу." Pavel: "Да есть такое сейчас я ревью." "59" he merged himself ("Я прям нажимаю [merge]"). [[wiki/people/dmitri-chudinov.md|Chudinov]] on the ordering: "у них своя очерёдность. 59 будет 2 помоему по очереди" — and when a pull request sits unmerged, "там автоматом задача закрывает мне сейчас надо будет вспоминать, что там за задачи." (The FPORT prefix is the derived notes' reading.) See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 5, 4:54 AM).
+- **The emulator image is company money.** [[wiki/people/anton-seregin.md|Seregin]], on rebuilding the terminal emulator on every GitHub Action run: "Там долго эта сборка, поэтому и она создаёт лишний образ ну образ это как бы и деньги компании. На хранение этого всего идёт и время занимаем"; images are overwritten ("перетирает они"). See [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]] (Oct-5 update).
+
+**§15.8:** clear. **§15 #9:** none.
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 
 - [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
 

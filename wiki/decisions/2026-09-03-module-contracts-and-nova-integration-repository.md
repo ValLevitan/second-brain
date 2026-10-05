@@ -3,7 +3,7 @@ type: decision
 title: Every NOVA module gets a contract (written by Claude, not by hand), and a machine-side NOVA integration repository is created and populated — two milestones over two weeks
 date: 2026-09-03
 aliases: [module contracts, NOVA integration repository, contracts written by Claude, integration repo for the machine side, JSON module links, two-week milestones contracts and integration repo]
-source-count: 3
+source-count: 4
 status: active
 open-commitments: 6
 open-questions: 2
@@ -56,6 +56,10 @@ The next morning's [[wiki/meetings/2026-09-04-rage-nova-conversion-readiness.md|
 
 Full ruling, with the quotations, on [[wiki/decisions/2026-09-04-data-contracts-closed-every-repository-by-september-11.md]].
 
+## Oct 5 2026 — the integration repository takes shape: a manifest of components, versions and sources; not only release versions; a baked versions file per release
+
+At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-reopen-rules.md|Oct-5 Minsk stand-up]] (Russian) [[wiki/people/evgeny-kharetski.md|Kharetski]] reported "прозы всякие контракты" for the integration repository ("в GT, который [трейдский]" — the repository's name is garbled) and [[wiki/people/pavel.md|Pavel]] checked his picture of it: "какойто манифест, который указывает. Версии компонентов… И там репозитории, откуда они берутся и оттуда будут на этапе сборки забираться релизные версии, скачиваться и запекаться в [имидж]." Kharetski: "Не обязательно, что ты укажешь для сборки то и будет" — artists and autotests need snapshots, not only releases; a GitHub Page with a "release" tick is his plan; and "релиз должен в какомто файле… [з]апекать. Какие версии? Были. Включены в этот релиз." Pavel: "в виде отдельного файла класть в артефакт, да?… сходится наше представление" [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]. Ruling: [[wiki/decisions/2026-10-05-a-release-bakes-a-file-of-the-component-versions-it-contains-into-the-artifact.md]]. This is the Sept-3 "module links as technical files" taking a concrete form (**observation**); Kharetski's populating commitment below is in progress, not done.
+
 ## Open commitments
 
 - [ ] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — write the LGS contracts (entry points: devices, the game, SAS, external server / player control) — due aim end of next week, ~Sept 11 2026; he flagged he may not finish everything — [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
@@ -71,6 +75,7 @@ Full ruling, with the quotations, on [[wiki/decisions/2026-09-04-data-contracts-
 - How the integration test runs are actually launched. Evgeny deferred it: "вопрос в том, как это всё правильно запускать. Но это мы разберемся, сначала нам надо дойти до этой пачки" — [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Notes_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]
 - [[raw/Meeting_Transcript_Nova_Prose_Standard_Skills_Module_Contracts-September-3-2026.md]]

@@ -4,8 +4,8 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 76
-open-commitments: 41
+source-count: 78
+open-commitments: 45
 open-questions: 0
 ---
 
@@ -538,10 +538,43 @@ On the [[wiki/meetings/2026-10-01-transactional-mvp1-status-slice-and-sas-comman
 ## Open commitments (Oct 1 2026, 8:02 AM)
 
 - [ ] Dmitri Chudinov — review and send the gaps document (contradictions, clarifications, missing tilts and negative cases on the capabilities he closed) as a new email to the transactional distribution list — due Oct 1 2026 ("в течение часа 2") — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
-- [ ] Dmitri Chudinov — finish reprint, records and the SAS-command logging (checked on real hardware) so the Flex IQ and port-client development is done by Sunday Oct 4 or Monday Oct 5 2026 — due Oct 5 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
+- [x] Dmitri Chudinov — finish reprint, records and the SAS-command logging (checked on real hardware) so the Flex IQ and port-client development is done by Sunday Oct 4 or Monday Oct 5 2026 — due Oct 5 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]] — *Oct 2 2026: "По флексу… суббота воскресенье всё закончим" — "ты будешь работать?" — "Да"* — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]] — *Oct 5 2026: "По транзакшн. Все закрыл" — taken as discharged on his word; the SAS-command logging's collect-not-send build is still its own open item on the Oct-2 decision page, and Tsymanov is now on reprint at card issue* — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+
+## Oct 2 2026 — 175 stays open for unclaimed, the Flex IQ connect / disconnect waits on Pavel's pull request, "collect, do not send" for the SAS command logs, repositories to standard with Tsymanov, Claude's plugin issues, and the gaps document
+
+At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-new-arm-boards.md|Oct-2 Minsk stand-up]] (Russian; label "Dzmitry Chudzinau") [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]:
+
+- **Status.** "Закончен 2 175 я его я его наверное, сделаю, но задача закрывать не буду, потому что будут ещё [анкла им — unclaimed] деньги… [дашборд] будет ещё добавлять с новыми сущностями… Текущие транзакции"; "Сделал 2 по. Подключение машек флекса и кю и отключению их к текущему. Нужен Паша, твоя [approval of the pull request]… Тогда я соберу новый [билд] и на [терминале] 84, а ещё Андрей сделал по. Секьюрити по лэ. Там с д к надо пересобирать" (Andrei = Bosik, by context); "там много изменений". See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 2, 4:50 AM).
+- **The SAS command logs.** "По следующим планам, тогда у меня идёт к этой же капбилити. Это логи с машины саскоманд… Графа она, наверное будет все это передавать"; to Pavel's objection: "Причина."; "Так мы шпинги уберем"; "я всё равно буду делать ревью трафика. Скорее всего, на выходных… коллекции открытия закрытия дверей… Суммарно на весь трафик… мы же можем собирать, например, но нет не отправлять"; "**пускай это будет лучше не на порте, а на IQ. Пускай он лучше не шлёт, но собирает. То есть, что тогда всегда можешь подключиться и посмотреть**"; "порт… девайс такой далёкий с ним работать сложнее". Ruling: [[wiki/decisions/2026-10-02-sas-command-logs-are-collected-on-the-flex-iq-and-not-sent-to-grafana-by-default.md]].
+- **Repositories and Claude.** "Разделили с Сергеем там на пополам репозиторий, там где то 78 у него у меня… Проза [ADR]. Приведены в стандарт. Это то, Что касается транзакшенных системы" (Tsymanov by context; "78" as spoken); Claude "писал, что надо доработать этот агент вот этот вот логин… Комментарий может соберу и Владимира скину… это вообще плагин на плагина"; "я сессию не закрывал, я тогда соберу все недочёты и и что нибудь заведём… скиньте может в чат что [за репа]? У меня наверное какие доступа нет"; on the old updater: "ближе к статусу архив. Мы будем на них прозу делать?" — Pavel: no. See [[wiki/decisions/2026-09-04-point-claude-at-the-standards-repository-first.md]] (Oct-2 update) and [[wiki/topics/ai-assisted-development.md]] (Oct 2).
+- **The gaps document.** "собрал. Недочёта там либо разногласия, либо недоработали по требованиям. Скинула давно. Сейчас этот один. Если надо ещё потом продублирую по почте" — unclear whether it went by email; the Oct-1 commitment above is not marked done ([[wiki/decisions/2026-09-10-requirements-come-first-and-the-recycler-is-out-of-both-mvps.md]], Oct-2 annotation).
+- **Jira's red.** "Жира подсвечивает красным сегодняшнее же число. Это формально работа идёт" — Kovalchuk will take it out of the report ([[wiki/decisions/2026-09-17-planning-comes-off-pavel-and-goes-to-an-application-administrator.md]], Oct-2 update). On Tsymanov's GitHub branch: "Важно префикс не совпадает. Мало информации."
+
+## Open commitments (Oct 2 2026)
+
+- [ ] Dmitri Chudinov — build the SAS-command logging so the Flex IQ collects and does not send, off by default and switchable per machine — due unspecified (next after 175) — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+- [ ] Dmitri Chudinov — review the total traffic over the weekend of Oct 3–4 with the machine on the firmware (collections, door open / close) — due Oct 5 2026 — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]] — *Oct 5 2026: in progress — looking at what the machine sends over SAS; polling / "handpay 51" noisy; no total given* — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+- [ ] Dmitri Chudinov — after Pavel's approval, build and put the new build on terminal 84 with the SDK rebuilt for the security policy, and look at the machines with Bosik — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+- [ ] Dmitri Chudinov — collect the Claude plugin's shortcomings from his open session and file them as issues in the plugin repository once Vladimir sends the link — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+
+## Oct 5 2026 — Transactional "все закрыл", capability 141 (unclaimed), the stand "по правильному… в облаке", FPORT-59 / 94, the SAS traffic "сильно мусорит", the Port tasks parked on Pavel, and the reopen rule
+
+At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-reopen-rules.md|Oct-5 Minsk stand-up]] (Russian; label "Dzmitry Chudzinau") [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]:
+
+- **The stand.** "вы собираетесь тестировать с реальным инкламом либо с фейковым? Если реальный ИНКОМ то нужны реальные карты… фейковый ИНКОМ… должен подниматься какойто стенд, который эмулирует работы инкома"; "Мы делаем это локально, подымается локальный стенд. Со всеми. Веб сервисами"; "Стенд достаточно большой жрёт там 15 20 гигов памяти… комуто держать это на машине будет одному тяжеловато"; "это не песочница… Нам выдали специальные карты. Беленькие… [креденшлы] надо использовать конкретные"; "Надо надо открывать система вместе с Андреем… даже несколько сложнее, чем [э]мулятор порта и IQ"; "По правильному, да надо держать всё это в облаке"; "Я с Андреем говорил. Он был несколько против, потому что отдельный [environment] поднимать"; "у менято ничего не возьмёшь… это лично моя работа"; "как ты будешь [э]мулировать например апдейты без [—]. Это уже не настоящий тест"; "Давайте на эту штуку отдельный митинг, и туда Андрея надо." Ruling: [[wiki/decisions/2026-10-05-the-payment-hub-autotest-stand-is-not-mvp1-and-a-separate-meeting-with-andrei-designs-it.md]].
+- **Status.** "По транзакшн. Все закрыл… с чем сейчас работаю это. Кап… А в 141 все, что связано с [анклойтманией]"; Khamin's bugs "часть их закрыл… автоматически закрылись. 2 часть в процессе"; the pull requests — "сделай ревью"; "59 будет 2 помоему по очереди… Начало 94"; on the conflict "Ладно всё, я посмотрю"; the SAS traffic — "[поединг] 51 этот хэндпэй. Чтото он там сильно мусорит… женя скажет ваня"; "дальше будем делать ревью макапов". To Pavel: "по [MVP] один. Ряд [задач] по порту на тебе. Надо решать"; "там есть не мелкая… там, где 2 сас канала… мне надо хотя бы общее представление." See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 5, 4:54 AM) and [[wiki/decisions/2026-10-02-sas-command-logs-are-collected-on-the-flex-iq-and-not-sent-to-grafana-by-default.md]] (Oct-5 update).
+- **The reopen rule.** Stories must hang under a parent ("у меня ряд оказались ни к кому. Ну я там уже [Клодом] разобрал"); "фича комплитут [капабилити] в реквестту ревью надо её… либо кодом, либо автоматом перевозить в туду и тот и тот"; "гдето там внутри сидит открытая история. И как вот про это узнать?"; "у нас фамилии не называются… Я говорю всем." Ruling: [[wiki/decisions/2026-10-05-a-capability-moves-itself-to-request-review-when-all-its-features-are-completed-and-a-new-story-sends-feature-and-capability-back-to-to-do.md]].
+
+**§15.8:** clear. **§15 #9:** none.
+
+### Open commitments (Oct 5 2026)
+
+- [ ] Dmitri Chudinov — look at the "94" merge conflict so Pavel can approve — due Oct 5 2026 — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]

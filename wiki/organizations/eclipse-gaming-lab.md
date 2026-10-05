@@ -3,8 +3,8 @@ type: organization
 title: Eclipse (gaming test lab)
 date: 2025-03-14
 aliases: [Eclipse, Eclipse Compliance Testing, Eclipse lab, клипс, клипсе, always wanted a local box for the electronics, Nebraska parameters, Xlibs, эклипс, a week for Eclipse to issue certificates, only the machine]
-source-count: 16
-open-commitments: 1
+source-count: 18
+open-commitments: 2
 open-questions: 1
 ---
 
@@ -108,7 +108,19 @@ At the [[wiki/meetings/2026-09-30-daily-standup-flexport-firmware-delivery-and-n
 
 **§15.8:** clear — certification-scope facts only; no named-person compensation.
 
+## Oct 2 2026 — Ivan sends the files to Eclipse; certificate drafts may come today; build "43, 33"
+
+At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-new-arm-boards.md|Oct-2 Minsk stand-up]] (Russian) [[wiki/people/ivan.md|Ivan]]: "Сейчас отправлю этому в [Эклипс], в общем. Файле, к котором еще не обсуждали с тобой. Если все будет хорошо, то, по идее, сегодня драфты получше, они уже сертификаты. Я не знаю, просто во сколько это будет, если меня уже не будет… посмотрите глазами драфт, скажите там всё ок, что поддали сертификаты?" Pavel: "Хорошо." Ivan: "Сам [билд], я ещё не закидывал, сейчас закинул, чтоб уже было тоже на всякий." Pavel: "какойто номер на всякий случай скажи сейчас запись." Ivan: "43, 33." Pavel: "Такой красивый номер получился для релизного [билда]." [[wiki/people/irina-shishko.md|Irina]]: "Вань надо, чтобы информацию ты дал какой номер [билд], да какие суммы. Ну то, что в сертификате они прописывают, чтоб мы не не искали" [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]. This is the Sept-30 "waiting for an answer" item moved on: files sent, certificate drafts expected, a release build (43.33 — the derived notes' form [[raw/Meeting_Notes_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]) uploaded. **What is being certified is still not said** — the machine of the Sept-11 ruling by context (the South Dakota VLT was refused on Sept 23; Ivan's South Dakota item the same morning is a separate thread on [[wiki/projects/south-dakota-vlt-market.md]], Oct 2). "Alex" was not mentioned.
+
+### Open commitments (Oct 2 2026)
+
+- [ ] [[wiki/people/ivan.md|Ivan]] — send the files to Eclipse, upload the build, and give Irina the build number (43.33) and the amounts the certificate lists — due Oct 2 2026 — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+
+**§15.8:** clear. **§15 #9:** none — a build number is a work reference, not a corporate identifier.
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]

@@ -4,8 +4,8 @@ title: Anton Seregin
 date: 2026-07-13
 aliases: [Anton Seregin, Seregin, Anton Seryogin, Серёги, Серёгин]
 disambiguation: "Minsk payroll / React-TS front-end dev, this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 19
-open-commitments: 4
+source-count: 21
+open-commitments: 6
 ---
 
 # Anton Seregin
@@ -106,11 +106,26 @@ At the [[wiki/meetings/2026-10-01-daily-standup-sas-mode-flag-and-feature-status
 
 ## Open commitments (Oct 1 2026)
 
-- [ ] Anton Seregin — finish the Flex IQ emulator verification (the scenario comparison and the register of verified device models and firmware) and look for further cases — due Oct 1 2026 — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
-- [ ] Anton Seregin — next, have his emulator environment brought up by Khamin, Vladimir or Irina in a different set-up, for example against a real Flex IQ — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [ ] Anton Seregin — finish the Flex IQ emulator verification (the scenario comparison and the register of verified device models and firmware) and look for further cases — due Oct 1 2026 — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]] — *Oct 2 2026: in progress — scenarios "102 103" build the diffs, then the real device; "мне устройство бы еще проверить на устройстве"* — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]] — *Oct 5 2026: the emulator side closed (FAQ-105–108); the device side — printer scenarios, barcode scanner — remains (see the Oct-5 commitments)* — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+- [ ] Anton Seregin — next, have his emulator environment brought up by Khamin, Vladimir or Irina in a different set-up, for example against a real Flex IQ — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]] — *Oct 2 2026: in motion — Khamin: "Антон попросил ещё этот [эмулятор] попробовать… Можно наверно сегодня"* — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+
+## Oct 2 2026 — scenarios 102 / 103 and the diffs, then the real device; "if the tests pass, you are done"
+
+At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-new-arm-boards.md|Oct-2 Minsk stand-up]] (Russian; called on as "кантон") [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]: "Над 102 103. Я поставил и не загружается контент остановиться" (garbled); "такие типа сценарии, которые. Строять дифы… а потом, ну после этого надо будет с реальным устройством. Прогнать на нём сценарий? И вот он сравнит как бы. То, что [на эмуляторе] и то что [на устройстве]. Их логически это тот же самый процесс." Irina, in the weekend round: "Антон, у нас один с симулятором. В принципе, если тесты пройдут нормально, то ты закончил." Seregin: "Но мне устройство бы еще проверить на устройстве… пробовать можно уже по крайней мере." Khamin said Anton had asked him to try the emulator. Ivan's "это Антона зарелизить свою часть" on the South Dakota release is **not resolved** between the Antons. See [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]] (Oct-2 update) and [[wiki/topics/test-automation-strategy.md]] (Oct 2).
+
+## Oct 5 2026 — FAQ-105 to 108 closed, the printer scenarios still to run on a real device, a FlexPay-derived task "вообще блок надо", how the emulator is built, and "kiosk" → "terminal"
+
+At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-reopen-rules.md|Oct-5 Minsk stand-up]] (Russian; speaker label) [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]: "позакрывал стори. Для. Верификация… fa q 105 106 107 108 закрывал"; what is left — "для принтера осталось это свериться с реальным устройством… бумага замялась фейл самого принтера. Типа дисконнект принтера… Вот тогда можно их пометить, что [верифицированы]. И для [баркод-сканера]… попроще"; "Пришлось еще вот это эмулировать [привязку к локейшн]"; "осталось как бы физическое сравнение вот этих 2 разных путей." On a task hanging since Oct 2: "это, скорее всего, вообще блок надо, потому что это с флекс [пэем] мы так ничего не поняли… На этом невозможно ничего [инаследовать]." To Khamin on the emulator: "собираешь там есть скрипты внутри [репозитория]? По дефолту там берётся из мейна… можно уже готовый образ… Они на основе готовых уже собранных докера имиджа"; "Там долго эта сборка… образ это как бы и деньги компании"; "если ты меняешь код самого терминала, это одно, если ты меняешь код эмулятора это 2 вариант"; on the kiosk name: "Транслировалось этого с флекспэя мы сюда перенеслась ну поправимся." See [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]] (Oct-5 update) and [[wiki/decisions/2026-09-30-an-autotest-task-that-cannot-finish-goes-to-blocked-not-closed.md]] (Oct-5 annotation). ("акмулятор" / "аккумулятор" read as emulator — inference, as throughout.)
+
+### Open commitments (Oct 5 2026)
+
+- [ ] Anton Seregin — run the printer scenarios (success, paper jam, printer failure, disconnect) and the barcode-scanner ones on a real device, compare the two paths, then mark them verified — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+- [ ] Anton Seregin ("ну поправимся"; not assigned by name) — change "kiosk" to "terminal" in the Jira feature names and descriptions, not in commits — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 

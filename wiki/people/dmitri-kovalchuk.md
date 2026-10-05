@@ -4,9 +4,9 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "IT (GitHub-admin, infrastructure, secrets/Azure, AI-tool accounts) — the IT-context "Dima". Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 46
-open-commitments: 14
-open-questions: 2
+source-count: 49
+open-commitments: 15
+open-questions: 3
 ---
 
 # Dmitri Kovalchuk
@@ -268,10 +268,37 @@ At the end of the [[wiki/meetings/2026-10-01-daily-standup-sas-mode-flag-and-fea
 
 ## Open commitments (Oct 1 2026)
 
-- [ ] Dmitri Kovalchuk — add the Completed → To Do transition to the feature workflow in Jira — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [ ] Dmitri Kovalchuk — add the Completed → To Do transition to the feature workflow in Jira — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]] — *Oct 2 2026: not mentioned* — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+
+## Oct 2 2026 (4:50 AM) — "не забивать на счет жира дисциплин", ask Claude to move dates, today's date in red, and a due date fixed live
+
+At the end of the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-new-arm-boards.md|Oct-2 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]: "хотел попросить не забивать на счет жира дисциплин и и просить клоды. Тогда есть ли там нужно подвинуть сроки? Он замечательно подвиннет там попросить его подвинуть сроки на завтра и на такое число есть ручками. Это тяжело делать." To Chudinov's "Жира подсвечивает красным сегодняшнее же число": "Я б я внесу изменения… просто джира сама подсвечивает, то есть у тебя [репорт] подсвечивает, исходя из Того, что джира тоже подсвечивает сегодняшнее число. То есть в самой джире я этого брать не могу. Я могу это убрать из репорта… Давайте попробуем почитать, может быть, может быть, это и можно." Earlier he fixed a due date (on Kharetski's items by position in the round — inference) at Pavel's word ("Я поставлю какую дату поставить" — "поставь неделю назад"), and on Val's repository message: "Да, это [Вал] всем написал." See [[wiki/decisions/2026-09-17-planning-comes-off-pavel-and-goes-to-an-application-administrator.md]] (Oct-2 update) and [[wiki/topics/ai-assisted-development.md]] (Oct 2).
+
+## Oct 2 2026 (7:32 AM) — "14 ноль ноль по идее по нашему"
+
+On the [[wiki/meetings/2026-10-02-ai-pm-status-listener-core-and-318-transcripts.md|"Design_AI-PM - status" call]] (Russian) he spoke once, converting Val's "07:00" for the Tuesday status: "14 ноль ноль по идее по нашему" [[raw/Meeting_Transcript_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]]. Bosik told Pavel the agent's knowledge base includes "вот эти отчёты" (the derived notes read them as Kovalchuk's Jira-discipline reports — a reading; see [[wiki/projects/ai-project-manager-and-company-second-brain.md]], Oct 2).
+
+## Open commitments (Oct 2 2026)
+
+- [x] Dmitri Kovalchuk — take the red highlight on today's date out of his report, and read whether Jira itself can stop highlighting the current day — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]] — *Oct 5 2026: done in the report ("убрал сегодняшнюю дату"); Jira itself not mentioned* — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+
+## Oct 5 2026 (4:54 AM) — today's date out of the report, four weekend automations, and the reopen cascade to build
+
+At the end of the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-reopen-rules.md|Oct-5 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]: "Я и [из отчёта] убрал сегодняшнюю дату, чтобы вас не мучило что? То задачи сегодня стекают. А на выходных ещё написал 4 автоматизации, которые должны. Немножко помогать с очередями, то есть если все дочерние фичи в статусе. Комплект то [капабилити] должна будет автоматически перевестись [в] реквист ревью. Вот так что если кого то что то не будет работать, пожалуйста, сообщайте." Working out Chudinov's request: "получается, [story] в туду стоит, и ты хочешь, чтобы фичи переводилась из комплитов в [In Progress]"; "Получается [фичу] из комплитов в [To Do] переводим… Из [Request Review] туда." Earlier, on Chudinov's camera: "Дима скрытой." Ruling: [[wiki/decisions/2026-10-05-a-capability-moves-itself-to-request-review-when-all-its-features-are-completed-and-a-new-story-sends-feature-and-capability-back-to-to-do.md]]; see also [[wiki/decisions/2026-09-17-planning-comes-off-pavel-and-goes-to-an-application-administrator.md]] (Oct-5 update).
+
+### Open commitments (Oct 5 2026)
+
+- [ ] Dmitri Kovalchuk — automate the reopen: a story created under a Completed feature moves the feature Completed → To Do and its capability Request Review → To Do — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+
+### Open questions (Oct 5 2026)
+
+- What the other three of his four weekend automations do — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+- [[raw/Meeting_Transcript_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 - [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]

@@ -3,8 +3,8 @@ type: person
 title: Sergey Tsymanov
 date: 2026-07-14
 aliases: [Sergey Tsymanov, Siarhei Tsymanau, Sergey Tsimanov, Tsymanau, Tsimanov, Sergei Tsyganov, Tsyganov, Цыганов, Sergei, Sergey]
-source-count: 22
-open-commitments: 11
+source-count: 24
+open-commitments: 12
 disambiguation: "Minsk engineer who drafts CMS requirements with the backend 'Dima' (Chudinov). OWNER-CONFIRMED 2026-07-14 = the payroll 'Siarhei Tsymanau' (Belarusian) and the IT-records 'Sergey Tsimanov' — same person; Tsymanov canonical, Tsymanau/Tsimanov aliases. Distinct from other 'Sergei/Sergey' names (e.g. Sergei Novitsky the advanced-setup technician; Sergey Vysotsky the outside digital-growth specialist, wiki/people/sergey-vysotsky.md); resolve by context."
 ---
 
@@ -143,10 +143,34 @@ At the [[wiki/meetings/2026-10-01-daily-standup-sas-mode-flag-and-feature-status
 ## Open commitments (Oct 1 2026)
 
 - [ ] Sergey Tsymanov — forward the location's contact phone from location set-up to the e-wallet ticket as its support number — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
-- [ ] Sergey Tsymanov — finish the new e-wallet-ticket template in the printer library, to be tested on all printers — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [ ] Sergey Tsymanov — finish the new e-wallet-ticket template in the printer library, to be tested on all printers — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]] — *Oct 2 2026: "закончил вчера с тикетом новым на на печать" — the new print ticket is done (the e-wallet template by context — inference); testing on all printers not mentioned* — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+
+## Oct 2 2026 — the new print ticket done, three of Vladimir's stories fixed, the reopened feature's stale date, Val's note about a GitHub branch, prose, and the weekend
+
+At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-new-arm-boards.md|Oct-2 Minsk stand-up]] (Russian; label "Sergey Tsimanov") [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]:
+
+- **The red tasks.** Pavel: "вот эти вот красные таски, которые просроченные… с 15 сентября 29 сентября 1 октября." Tsymanov: "это не просроченное это закрыть надо. Я просто брал вчера задачу. На неё Владимир создал [story]. Вот и я их фиксел. Получается мне переоткрыли эту фичу… но дату не поменяли." Pavel: "Давай поменяем." Vladimir: "я их не назначал на исполнителя, ты их сам себе забрал" — "Да." Irina's rule: whoever takes a feature into work updates its schedule with Pavel or her. See [[wiki/decisions/2026-10-01-completed-is-the-developers-last-step-and-a-found-problem-sends-the-feature-from-completed-back-to-to-do-as-a-story.md]] (Oct-2 update).
+- **Status.** "закончил вчера с тикетом новым на на печать. Потом пофиксовал проблемы 3 человек вечером подходил… Позволял там кэша делать, если… На самом деле локация заблокирована, допустим. Вот там было 3 истории от Владимира… по ним и фикс делал. Ну и прозы параллельно вёл. Сейчас вот прозы заканчиваю." Chudinov: the transactional repositories are split between the two of them ("Разделили с Сергеем… на пополам"). See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 2, 4:50 AM) and [[wiki/decisions/2026-09-04-point-claude-at-the-standards-repository-first.md]] (Oct-2 update).
+- **Val's note.** "[Вал] пишет, что у меня есть какие то фича в гетхабе, а это не соответствует. Связанным… Ты где фичь? У нас должны быть [Jira] или в гетхабе"; "ему не не нравится, что клод, когда создал бранч, скорее всего… к фичи приотачивал этот бранч. А ими не соответствует какимто этого бранча" — not settled; Pavel: watch Claude. See [[wiki/topics/ai-assisted-development.md]] (Oct 2).
+- **Weekend.** "Да планирую" (to work). His Oct-1 support-phone commitment above was not mentioned.
+
+## Open commitments (Oct 2 2026)
+
+- [ ] Sergey Tsymanov — update the dates on the feature reopened by Vladimir's stories — due Oct 2 2026 — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+
+## Oct 5 2026 — "ещё один стенд… типа как наш [дев стейджинг]", reprint at card issue, and the Flex IQ tests in five minutes
+
+At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-reopen-rules.md|Oct-5 Minsk stand-up]] (Russian; label "Sergey Tsimanov") [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]:
+
+- **The stand.** "Или ещё один стенд?"; could test cards be generated — "у него есть какойто реестр этих карточек там нельзя сгенерировать какието по принципу свой… даже для песочницы" (Chudinov: no); "Еще один стенд, какойто нужен для тестов. Наверное, вот типа как наш [дев стейджинг] только"; a fixed version stack "который нельзя менять… Только под определенные тесты… Это будет само проще просто Андрею отдать… там слишком много зависимостей"; an InComm emulator "с какимито определёнными сценариями там зависания"; and "стенд, на котором они будут запускаться, должен быть максимально приближен к продуктовому… не так, что на машине… на моей над [диминой]." Ruling: [[wiki/decisions/2026-10-05-the-payment-hub-autotest-stand-is-not-mvp1-and-a-separate-meeting-with-andrei-designs-it.md]].
+- **Status.** "по каким [капабилити] на выходных не скажу, точно сделал. Сейчас занимаюсь репринтом для при выпуске карточки. И тут задача тоже ещё вот. Владимира. [—] занимается" (garbled); "уменьшил тесты время тестов за. [Flex IQ]. 5 минут выполнять" — Pavel: "Зачем?" Chudinov: the transactional repositories are split with him (Oct 2); Pavel will take him into the Port-tasks triage. Irina: "Сергей можешь подойти ко мне по[сле] митингу?" — "Да." See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] and [[wiki/topics/test-automation-strategy.md]] (Oct 5). His Oct-1 and Oct-2 commitments above were not mentioned.
+
+**§15.8:** clear. **§15 #9:** none.
 
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 

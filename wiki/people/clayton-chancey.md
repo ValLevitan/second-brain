@@ -3,7 +3,7 @@ type: person
 title: Clayton Chancey
 date: 2026-07-14
 aliases: [Clayton Chancey, Clayton, Foray Consulting]
-source-count: 13
+source-count: 14
 open-commitments: 1
 ---
 
@@ -81,6 +81,10 @@ On the [[wiki/meetings/2026-03-31-transcripts-mcp-setup-lena.md|Mar-31 transcrip
 
 On the [[wiki/meetings/2026-04-28-lena-ip-mcp-model-regression.md|Lena IP MCP Model Regression]] session (with [[wiki/people/lena.md|Lena Zhukova]] and [[wiki/people/val-levitan.md|Val]], who joined mid-call) Clayton presented ~2 weeks of benchmarking (in partnership with Anthropic, across several of his projects incl. a university economics project) proving that **Opus 4.7 is materially worse than 4.6 at multi-needle retrieval** — the transcript-as-prompt class of task the IP MCP relies on. Reverting Lena's workflow to 4.6 restored it. He also traced and live-fixed a real bug (create endpoints hitting sandbox while read/attach hit production → 404s), committed the fix to the JVL GitHub, and defended keeping the workflow as one high-context inference rather than decomposing it into brittle deterministic sub-steps. He committed to adding delete-issue and archive-issue tools and to documenting install/config so Andrei can propagate the tool to Lena's team leads. Detail on [[wiki/topics/ai-assisted-development.md]] and [[wiki/topics/transcript-knowledge-base-tooling.md]] (Apr-28). §15.8 clear. [[raw/Meeting_Transcript_lena_IP_MCP_model_regression-1-April-28-2026.md]] [[raw/Meeting_Notes_lena_IP_MCP_model_regression-April-28-2026.md]]
 
+## Oct 2 2026 (in absentia) — "a bit of Clayton's mechanism" reused in JVL's AI project manager
+
+At the [[wiki/meetings/2026-10-02-ai-pm-status-listener-core-and-318-transcripts.md|Oct-2 "Design_AI-PM - status" call]] (Russian; he was not present) [[wiki/people/andrey-bosik.md|Andrey Bosik]], describing the "Listener" core that turns meeting transcripts into draft Jira tasks, said "Переиспользовал клейтона немножко механизм" — a bit of Clayton's mechanism reused (which part is not said; his Mar-31 transcript pipeline above is the likely referent — **inference**). The Whisper-with-glossary route was set aside for MVP 2. See [[wiki/topics/transcript-knowledge-base-tooling.md]] (Oct 2) and [[wiki/projects/ai-project-manager-and-company-second-brain.md]] [[raw/Meeting_Transcript_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]].
+
 ## Open contradictions
 
 - **How long the Game Status tool took to build (Jan 29 2026).** The AI summary doc says "a 40-minute build cycle from scratch to working demo" [[raw/Clayton_jvl-working-session-2-summary-January-20-2026.md]]. The recording has Clayton saying "this game status tool that I just demoed to you. 19 minutes", implemented "15 minutes before the call" [[raw/Meeting_Transcript_Clayton_Jira_MCP_Demo_and_Toolset_Direction-January-29-2026.md]]. Both dated Jan 29 2026; not resolved. (The recording is the verbatim source.)
@@ -111,3 +115,4 @@ On the [[wiki/meetings/2026-04-28-lena-ip-mcp-model-regression.md|Lena IP MCP Mo
 - [[raw/Meeting_Notes_Transcripts_MCP_Setup_Lena-March-31-2026.md]]
 - [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]
 - [[raw/Meeting_Transcript_Clayton_Jira_MCP_Demo_and_Toolset_Direction-January-29-2026.md]]
+- [[raw/Meeting_Transcript_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]]

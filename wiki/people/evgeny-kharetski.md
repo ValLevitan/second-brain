@@ -3,8 +3,8 @@ type: person
 title: Evgeny Kharetski
 date: 2025-07-10
 aliases: [Evgeny Kharetski, Evgeny Kharetsky, Evgeny Khoretsky, Kharevsky, Yauheni Kharetski, Kharetsky, Koretski, Koretsky, Korecki, Khorvatsky, Корецкий, Хорватский, Халецкий]
-source-count: 34
-open-commitments: 10
+source-count: 37
+open-commitments: 12
 disambiguation: "LGS developer (payroll "Kharetski Yauheni"), this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
 ---
 
@@ -197,10 +197,29 @@ At the [[wiki/meetings/2026-10-01-daily-standup-sas-mode-flag-and-feature-status
 
 ## Open commitments (Oct 1 2026)
 
-- [ ] Evgeny Kharetski — find why the statistics are not being sent: connect to the local host over the internet and over the local network and check that all messages arrive — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [ ] Evgeny Kharetski — find why the statistics are not being sent: connect to the local host over the internet and over the local network and check that all messages arrive — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]] — *Oct 2 2026: "Вчера с ваней, я работал по статистике" — worked on, not declared fixed* — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+
+## Oct 2 2026 — statistics with Ivan, the LEDs and the IO board to be closed today: LGS-12, 17, 19 and CC Talk "58"
+
+At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-new-arm-boards.md|Oct-2 Minsk stand-up]] (Russian; called on as "женя") [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]: "Вчера с ваней, я работал по статистике. Леды добивал. Я даю сегодня закрою. Есть [поврек — unclear]. Вот ну и вот [IO board] добью. Сегодня тоже. Ну короче все 3 задачи сегодня будут закрыты [LGS] 12, 17, 19" — Pavel: "[CC Talk] тоже сегодня да" — "Где 58? 58 да?" ("ваней" = [[wiki/people/ivan.md|Ivan]], by context — inference.) The LGS numbers are clearer than on Sept 29 – Oct 1 (then "212 19", "20, 19", "12. 19"); the derived notes read LGS-12, LGS-17, LGS-19 and "CC Talk (58)" [[raw/Meeting_Notes_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]. Pavel then had Kovalchuk fix a due date, by position in the round on his items (inference): "Дью дэйт чуть не движок… Сегодня заканчивается начало, поставь неделю назад". Ivan said Zhenya may need to release his part for South Dakota ("Ещё тогда [Жене] нужно будет") — [[wiki/projects/south-dakota-vlt-market.md]] (Oct 2). The unresolved service-side "Антон" was not mentioned.
+
+## Open commitments (Oct 2 2026)
+
+- [ ] Evgeny Kharetski — close LGS-12, LGS-17 and LGS-19 (the LEDs, the IO board) and the CC Talk task ("58") — due Oct 2 2026 ("сегодня") — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]] — *Oct 5 2026: "закрыл там. Интеграции прошлые там [лет]… [IO] борду там чутьчуть" (the LED and board integrations closed — reading); CC Talk "сейчас… заинтегрирую" — in progress; the task numbers spoken ("12, 37… 12 3 24") do not match Oct 2's and are unclear* — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+
+## Oct 5 2026 — CC Talk being integrated, prose and contracts for the integration repository, another separate service, and "релиз должен в файле запекать какие версии были включены"
+
+At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-reopen-rules.md|Oct-5 Minsk stand-up]] (Russian; called on as "женя") [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]: "Я сейчас [CC Talk] заинтегрирую и одновременно на [тэтоцентр — unclear] в GT, который [трейдский — unclear]. Там прозы всякие контракты… закрыл там. Интеграции прошлые там [лет — LEDs, reading], [аккаунты борт — unclear] но по [IO] борду там чутьчуть… отдельный сервис сделали ещё один. Его тоже надо. Сделать… 12, 37 на очереди 12 3 24 чтото там ещё добавится новый." To Pavel's manifest question: "Не обязательно, что ты укажешь для сборки то и будет… я рассчитываю сделать. [GitHub Page]… галочку релиз… Без [снапшотов]… художникам… нужны [—], где разрабатываются или для автотестов также нужны [снапшоты]"; "главное, что релиз должен в какомто файле. Типа. Запекать. Какие версии? Были. Включены в этот релиз. Чтоб потом это можно было отслеживать всё." Chudinov named him (or Ivan) to say whether the SAS polling / handpay traffic is normal. Ruling: [[wiki/decisions/2026-10-05-a-release-bakes-a-file-of-the-component-versions-it-contains-into-the-artifact.md]]; see also [[wiki/decisions/2026-09-03-module-contracts-and-nova-integration-repository.md]] (Oct-5 update).
+
+### Open commitments (Oct 5 2026)
+
+- [ ] Evgeny Kharetski — make the release bake a file of the included component versions into the artifact; later the GitHub Page with release / snapshot selection — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]

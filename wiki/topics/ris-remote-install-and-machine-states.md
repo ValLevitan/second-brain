@@ -3,7 +3,7 @@ type: topic
 title: RIS (remote install/setup system) and machine states
 date: 2026-02-06
 aliases: [RIS, component allow-listing, portal access, give you access to the portal, reload after component change, born on the manufacturing floor, birth certificate, validator swap fraud, remote initial setup, remote install system, remote setup, RIS modernization, machine states, sold-machine RIS, RIS subscription, manual override screens, participation financed debt-free, the Passport, passport lock, passcode key, jugular of the whole operating system, peripheral lock, it's in the center not on the side, the passport must not be killed, do not confuse RIS and passport, the bindings are good we use them wrongly, unit 17 changed its bill acceptor, operator nominates who may update the passport, a technician to me is a business owner, hard reset, passport is a symptom not a root cause, eight hard-reset cases, factory reset, decommission and recommission, error code 2, boot loop, three kinds of factory reset, restore the last RIS, file store of every RIS, soft reset, use case 11, who scans the passport, one USB for the whole bank, MVP1 release of the RIS rework, RIS rework, soft factory reset, silent reset, reuse lastly applied RIS, one RIS and a list of machines, RIS inside the cabinet]
-source-count: 22
+source-count: 23
 open-questions: 16
 ---
 
@@ -328,6 +328,10 @@ Two short meetings on Monday Sept 28, the review Val asked for on Sept 25 ([[wik
 
 *(The derived notes follow the transcript closely, with two slips: they give the capability-2b release as "MVP 1, 2 or 3", where Pavel said "MVP 1 or MVP 3", and they say "Irina and Pavel" suggested the split, where Pavel relays Irina's view [[raw/Meeting_Notes_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]].)*
 
+## Oct 2 2026 (9:01 AM) — a diagnostic tool on the install stick, to answer the install errors "с непонятным описанием"
+
+On the [[wiki/meetings/2026-10-02-diagnostic-tool-on-the-install-stick-for-nova-fp7-and-rk.md|Oct-2 9:01 AM "EGMs diagnostic tool" call]] (Russian) [[wiki/people/pavel.md|Pavel]] tied his idea to this thread: putting the diagnostic tool on the installation USB stick means that "если чтото идёт не так на машине, то есть чтото из оборудования не установлено или не прошито или не той версии, то это сразу можно будет продиагностировать и понять, почему не идёт инсталляция. Это вот, а как раз относится к той теме, которая озвучивал недавно [Филипп]? Что там какието ошибки вылетают на этапе инсталляции с непонятным описанием" — Felipe's complaint about install errors with no useful description (the error-code-2 / 3 complaints of Sept 23–28 above, by context — **inference**; the transcript names no code). The tool reads only (boards, LEDs, bill acceptor, printer) "ещё до инсталляции". It is for the new NOVA / FP-7 and RK platforms, not the current fleet [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]. Ruling: [[wiki/decisions/2026-10-02-the-diagnostic-tool-goes-onto-the-installation-stick-and-lives-in-the-sdk-repository-both-rk-and-fp7-are-worked-out.md]].
+
 ## Open questions
 
 - Whether Val's **Sept-23 proposal** — a release for the current machines with every Passport and RIS reference disabled except an unrestricted initial load — replaces the **Sept-11 "preserve the Passport, no changes in RAGE Studio"** ruling, or sits beside it. The Sept-23 source does not mention Sept 11; Pavel was to answer after a case-by-case review. **Sept-24 update:** the engineers planned to switch the passport check off for Georgia builds (5:41 AM, Val absent); at 7:02 AM Val defended the passport scan as "a great feature". **Sept-28 data point:** Felipe's capabilities 5 and 6 aim for a lease that "does not depend on passport scan" and parts replaced "without passport updates or to update automatically"; Pavel called them clear; Val did not rule. Still open. [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]] [[raw/Meeting_Transcript_RIS_and_Passport_Hard_Reset_Burden-September-23-2026.md]] [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]] [[raw/Meeting_Transcript_Georgia_Hard_Reset_Remedies_and_Passport_Removal-September-24-2026.md]] [[raw/Meeting_Transcript_RIS_Serial_Binding_and_Factory_Reset_Focus-September-24-2026.md]]
@@ -371,3 +375,4 @@ Two short meetings on Monday Sept 28, the review Val asked for on Sept 25 ([[wik
 - [[raw/Meeting_Transcript_RIS_Battery_Replacement_Capability_Framing-September-28-2026.md]]
 - [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]
 - [[raw/Meeting_Notes_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]

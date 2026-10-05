@@ -3,7 +3,7 @@ type: decision
 title: Planning comes off Pavel Frolov and goes to an "application administrator" — Dmitri Kovalchuk proposed, not yet agreed
 date: 2026-09-17
 aliases: [planning comes off Pavel, application administrator, аппликейщен администратор, Dima Kovalchuk administrator, Зиму Ковальчука, planning handover, полный трансперация, Pavel comes to Atlanta]
-source-count: 11
+source-count: 13
 status: active
 open-commitments: 4
 open-questions: 2
@@ -127,8 +127,23 @@ At the end of the [[wiki/meetings/2026-10-01-daily-standup-sas-mode-flag-and-fea
 
 *(Kovalchuk administering the workflow; whether it is the "application administrator" role is still an **inference**.)*
 
+## Update, Oct 2 2026 — "не забивать на счет жира дисциплин", ask Claude to move the dates, the red highlight on today's date, and the overdue red tasks
+
+At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-new-arm-boards.md|Oct-2 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]:
+
+- **The reminder.** [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]], last: "хотел попросить не забивать на счет жира дисциплин и и просить клоды. Тогда есть ли там нужно подвинуть сроки? Он замечательно подвиннет там попросить его подвинуть сроки на завтра и на такое число есть ручками. Это тяжело делать."
+- **Today's date in red.** [[wiki/people/dmitri-chudinov.md|Chudinov]]: "у нас както можно сделать. Жира подсвечивает красным сегодняшнее же число. Это формально работа идёт." Kovalchuk: "Я б я внесу изменения… просто джира сама подсвечивает, то есть у тебя [репорт] подсвечивает, исходя из Того, что джира тоже подсвечивает сегодняшнее число. То есть в самой джире я этого брать не могу. Я могу это убрать из репорта." [[wiki/people/pavel.md|Pavel]]: "мне тоже не нравится, что джиро сегодняшнее число красным показывают." Kovalchuk: "Давайте попробуем почитать, может быть, может быть, это и можно."
+- **Pavel reads the red tasks.** Earlier he went through Tsymanov's overdue items ("с 15 сентября 29 сентября 1 октября") — a feature reopened by stories with its date not updated — and Irina ruled that whoever takes a feature into work refreshes its schedule with Pavel or her: [[wiki/decisions/2026-10-01-completed-is-the-developers-last-step-and-a-found-problem-sends-the-feature-from-completed-back-to-to-do-as-a-story.md]] (Oct-2 update). Pavel also had Kovalchuk fix a due date live: "Дью дэйт чуть не движок… Сегодня заканчивается начало, поставь неделю назад" (on Kharetski's items by position in the round — inference; Kovalchuk: "Я поставлю какую дату поставить").
+
+*(Kovalchuk running the discipline and the report; whether it is the "application administrator" role is still an **inference**.)*
+
+## Update, Oct 5 2026 — today's date is out of the report, and four weekend automations
+
+At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-reopen-rules.md|Oct-5 Minsk stand-up]] (Russian) [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]]: "Я и [из отчёта] убрал сегодняшнюю дату, чтобы вас не мучило что? То задачи сегодня стекают. А на выходных ещё написал 4 автоматизации, которые должны. Немножко помогать с очередями" — the one he described: all child features Completed → the capability moves itself to Request Review; "если кого то что то не будет работать, пожалуйста, сообщайте." The reopen cascade asked for by Chudinov and ruled by Irina is on [[wiki/decisions/2026-10-05-a-capability-moves-itself-to-request-review-when-all-its-features-are-completed-and-a-new-story-sends-feature-and-capability-back-to-to-do.md]] [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]. *(He is writing workflow automation and running the report; whether this is the "application administrator" role is still an **inference**.)*
+
 ## Open commitments
 
+- [x] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — take the red highlight on today's date out of his report, and read whether Jira itself can stop highlighting the current day — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]] — *Oct 5 2026: done in the report ("убрал сегодняшнюю дату"); whether Jira itself can be changed was not said* — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [ ] All stand-up participants — keep Jira statuses true (In Progress only when work is in progress), name the exact CAP and feature at stand-ups, watch dates and statuses, and create tasks in the repository they work in — due ongoing — [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]] [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] / [[wiki/people/irina-shishko.md|Irina Shishko]] — persuade [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] to come in as application administrator ("Както нужно уговорить. Это вам.") — due unspecified — [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
@@ -157,3 +172,5 @@ At the end of the [[wiki/meetings/2026-10-01-daily-standup-sas-mode-flag-and-fea
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]

@@ -3,7 +3,7 @@ type: person
 title: Val Levitan
 date: 2026-07-12
 aliases: [Val, Val Levitan]
-source-count: 401
+source-count: 404
 open-commitments: 76
 open-questions: 1
 ---
@@ -1560,11 +1560,26 @@ One sitting, three recordings ([[wiki/meetings/2026-10-01-genadi-io-board-chips-
 - [ ] Val Levitan and Genadi Peari — a working session of about two hours on the flat BOM, Val working it in front of Genadi — due unspecified — [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
 - [ ] Val Levitan — think over whether the street machine needs a FlexPort at all, or one scanner with the interface on the machine's touch screen; blocks the hand-over of the model to Igor — due unspecified — [[raw/Meeting_Transcript_Street_Machine_Cabinet_Dashboard_and_Printer_Access-October-1-2026.md]]
 
+## Oct 2 2026 (4:50 AM, in absentia) — his written message to put the repositories in order, and his note to Tsymanov about a GitHub branch
+
+At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-new-arm-boards.md|Oct-2 Minsk stand-up]] (Russian; he was not on it) two written messages of his were discussed [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]: Biratka — "[Вал] мне написал по репозиториям что надо ну. Привести в порядок там проза проза и всякое всякое там. Побыстрее"; Irina — "это касательно всех"; Kovalchuk — "Да, это [Вал] всем написал" ([[wiki/decisions/2026-09-04-point-claude-at-the-standards-repository-first.md]], Oct-2 update). And Tsymanov — "[Вал] пишет, что у меня есть какие то фича в гетхабе, а это не соответствует. Связанным" — a feature branch that does not match Jira, probably opened by Claude; what exactly he flagged was not settled ([[wiki/topics/ai-assisted-development.md]], Oct 2). Neither message is in the corpus.
+
+## Oct 2 2026 (7:32 AM) — the AI PM status he set for Friday: one question, and "again on Tuesday"
+
+On the [[wiki/meetings/2026-10-02-ai-pm-status-listener-core-and-318-transcripts.md|"Design_AI-PM - status" call]] (Russian) — the Friday-at-7 checkpoint of his Sept-29 ruling — he heard [[wiki/people/andrey-bosik.md|Bosik]]'s report (designed, coding started, 318 transcripts from July 2025, the "Listener", Whisper to MVP 2) and asked one thing: "Где вы их храните?" — GitHub, a database maybe later. He closed with "Опять встретимся во вторник, бывает… на 07:00" and "Спасибо". See [[wiki/projects/ai-project-manager-and-company-second-brain.md]] (Oct 2) and [[wiki/decisions/2026-09-29-bosik-owns-the-ai-pm-the-meeting-bot-waits-and-the-second-brain-is-built-first.md]] (Oct-2 update; his booking commitment discharged) [[raw/Meeting_Transcript_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]].
+
+**§15.8:** clear. **§15 #9:** none.
+
 ## Sept 30 2026 (in absentia) — about thirty more modems on his order, and a spare-parts email to him
 
 On the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-modem-supply.md|Sept-30 8:03 AM MVP 1 call]] (Russian; he was not present) Pavel, asked whether a new modem batch is on order: "в джорджии [Вал давал]… [в] команду купить помоему 30 новых. И они сейчас как раз покупаются" — about 30 more, the same (end-of-life) model as Georgia's first 10, being bought now. Klimovich will start an email to Genadi and him to bring the Minsk spare-parts set up to date. See [[wiki/decisions/2026-09-04-north-america-modem-variant-and-ask-kore-for-the-apn.md]] (Sept-30 update) [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]].
 
+## Oct 2 2026 (9:01 AM, in the chat) — "можем ли мы использовать [cell modem]?" on the diagnostic tool, and a use-case source
+
+On the [[wiki/meetings/2026-10-02-diagnostic-tool-on-the-install-stick-for-nova-fp7-and-rk.md|Oct-2 9:01 AM "EGMs diagnostic tool" call]] (Russian) he was present but spoke only in the chat; Pavel relayed: "Вал спрашивает, можем ли мы использовать sell mode? Для Того, чтобы в процессе инсталляции… Если если чтото идёт не так. Сделать диагностику и отправить это через модем" ("sell mode" read as the cell modem — **inference**) — Pavel: in theory yes, but a server side is needed; and "Вал если ну вопросов да пишите, мы сразу же их. Запишем озвучим." Pavel named him, "Андрей" (unresolved) and Felipe as sources of modem use cases, and answered a chat remark of his about Claude ("всё правильно с клодом"). His chat text is not in the transcript [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]. Ruling: [[wiki/decisions/2026-10-02-the-diagnostic-tool-goes-onto-the-installation-stick-and-lives-in-the-sdk-repository-both-rk-and-fp7-are-worked-out.md]].
+
 ## Sources
+- [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]
 - [[raw/Meeting_Transcript_IO_Board_Memory_Chip_Removal_and_Redesign-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Street_Machine_Cabinet_Dashboard_and_Printer_Access-October-1-2026.md]]
@@ -1974,3 +1989,5 @@ On the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-m
 - [[raw/Meeting_Transcript_JV_Licensing_and_Entity_Domicile-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Pricing_Pivot_to_Cash_and_Revenue_Share-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+- [[raw/Meeting_Transcript_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]]

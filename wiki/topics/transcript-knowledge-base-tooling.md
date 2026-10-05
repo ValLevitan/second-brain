@@ -3,7 +3,7 @@ type: topic
 title: Transcript knowledge-base tooling
 date: 2026-07-14
 aliases: [knowledge graph, tagging pipeline, transcript tagging, text analysis, force-directed graph, Bayesian tagging, second brain tool, value streams, making use of knowledge, vector database, Open Semantic Search, diarization, Pinecone, semantic search, N8N, Verba, Weaviate, company-wide knowledge base, PDFX, PDF access, SurfSense, memory graph, reasoning as a service, company's truth, binary facts, Apache Age, ontology, Fuse driver, KG tool, broccoli.house, engineering knowledge base, graph vs tags, labeling taxonomy, controlled vocabulary, ecosystem-independent, SharePoint access, n8n pipeline, ADR graduation, Semantic Understanding, JVL whisperer, taxonomy vocabulary, Turboscribe, dual-source transcription, MCPB]
-source-count: 49
+source-count: 50
 open-questions: 6
 ---
 
@@ -319,6 +319,17 @@ At the [[wiki/meetings/2026-09-29-ai-pm-architecture-and-second-brain-plan.md|Se
 
 **§15.8:** clear — tooling, method and tool cost only.
 
+## Oct 2 2026 — 318 transcripts collected back to July 2025, Clayton's mechanism reused, Whisper deferred, and GitHub as the store
+
+At the [[wiki/meetings/2026-10-02-ai-pm-status-listener-core-and-318-transcripts.md|Oct-2 "Design_AI-PM - status" call]] (Russian) [[wiki/people/andrey-bosik.md|Bosik]] closed the Sept-29 collection problem in practice and set the first version's transcript source [[raw/Meeting_Transcript_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]]:
+
+- **Collected.** "Мы смогли собрать все доступные нам историю встреч… забрать расшифровки. Митингов [Teams] с майкрософта… 318 расшифровок, они собрались с июля 25, потому что есть ограничения по хранению" — 318, from July 2025, the limit being Microsoft's retention. How the "only the organizer can see them" problem of Sept 29 was got round is not said. *(For comparison, not from the tape: the "200 500" of Sept 29 was Val's guess; and the Sept-29 question of which period — Val's "с января 2026… может, с июня" — is answered by the retention boundary.)*
+- **Clayton's mechanism, partly reused.** "Переиспользовал клейтона немножко механизм" — a bit of [[wiki/people/clayton-chancey.md|Clayton]]'s mechanism (by context the Mar-31 pipeline above — inference) in the "Listener" core that turns meeting speech into draft Jira tasks and reads Russian transcripts.
+- **Whisper with the glossary is set aside for MVP 2.** "Я думал сначала брать аудиозаписи, прогонять их через виспер и потом вместе с гласарем обрабатывать… более качественный транскрипты, чем Майкрософт. Но… это будет очень большой объём… долго по времени и… стоить достаточно приличных денег… перевёл всё в MVP 2… На MVP один пока что будем использовать готовые расшифровки" — the May-19 Whisper pipeline's quality advantage is acknowledged and deferred on volume, time and cost. Ruling: [[wiki/decisions/2026-10-02-ai-pm-mvp1-uses-the-teams-transcripts-as-they-are-and-whisper-re-transcription-waits-for-mvp2.md]].
+- **Storage.** Val: "Где вы их храните?" Bosik: pulled, not yet stored; "будут обрабатываться и будут храниться в [GitHub]… этот репозиторий будет использоваться как база для последующего проджект менеджера, по крайней мере в начале. Возможно, в будущем… в какуюто реальную базу данных, типа там [SQLite — the notes' reading] или в какуюто векторную" — Bosik's Sept-29 "repository as plain storage" position, with a database left for later. This moves the Sept-25 "where do approvals and versions live" question on again, not closed.
+
+**§15.8:** clear — tooling and scope only.
+
 ## Open questions
 
 - Does the Feb-2-2026 knowledge-graph platform actually get deployed and adopted by Andrei/Dima, and how does it relate to (or replace) the earlier Verba/Weaviate and Open WebUI attempts? Handed over as "barely alpha"; adoption not yet shown. — [[raw/Introduction to Knowledge Graph Tool-part-1-February-2-2026.md]]
@@ -330,6 +341,7 @@ At the [[wiki/meetings/2026-09-29-ai-pm-architecture-and-second-brain-plan.md|Se
 
 ## Sources
 - [[raw/Meeting_Transcript_Clayton_Chancey_Initial_AI_Consulting_Engagement-January-23-2026.md]]
+- [[raw/Meeting_Transcript_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]]
 
 - [[raw/Meeting_Transcript_lena_IP_MCP_model_regression-1-April-28-2026.md]]
 - [[raw/Meeting_Notes_lena_IP_MCP_model_regression-April-28-2026.md]]

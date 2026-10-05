@@ -3,7 +3,7 @@ type: person
 title: Felipe Miranda
 date: 2026-07-13
 aliases: [Felipe Miranda, Felipe, Filippo, Filipa, Philippe, Felipe Miranda Giorgi, Филипп, Филипп Н, Filipp N]
-source-count: 81
+source-count: 82
 open-commitments: 23
 open-questions: 0
 ---
@@ -380,7 +380,12 @@ At the [[wiki/meetings/2026-09-25-georgia-progressives-and-class-a-lions-riches.
 - **11:07 AM.** At the [[wiki/meetings/2026-09-28-ris-mvp1-capabilities-walkthrough-and-jira-handover.md|11:07 AM second try]] Val told him "you're playing the role now. It's not your primary role." He said he had made "two different versions, one very simple". He read nine capabilities (battery, upgrade without a new RIS, boot loop, printer, lease on mismatch, part without passport QR, missed upgrades, critical-error cause, one QR scan). His field input: a boot loop that morning that the technician put down to "the printer not connected to power"; boot loops seen "before the watchdog was implemented"; no logs because the machine "doesn't load to a point to send any logs." See [[wiki/topics/ris-remote-install-and-machine-states.md]] (Sept 28). [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]
 - **Stepped back.** Val: "I want to free up Felipe for other things"; Felipe "will help you in the background" while Sebastian manages Jira. See [[wiki/decisions/2026-09-28-sebastian-takes-the-ris-mvp1-capabilities-into-jira-and-felipe-steps-back.md]] (his commitment is held there). [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]
 
+## Oct 2 2026 (9:01 AM, in absentia) — the install errors "с непонятным описанием" he raised become a reason for the diagnostic tool
+
+On the [[wiki/meetings/2026-10-02-diagnostic-tool-on-the-install-stick-for-nova-fp7-and-rk.md|Oct-2 9:01 AM "EGMs diagnostic tool" call]] (Russian; he was not on it) Pavel tied the install-stick diagnostic tool to "той теме, которая озвучивал недавно [Филипп]? Что там какието ошибки вылетают на этапе инсталляции с непонятным описанием", and named him with Val and "Андрей" as a source of modem use cases ("Филиппа" = Felipe by context — the RIS thread of Sept 23–28 above) [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]. See [[wiki/decisions/2026-10-02-the-diagnostic-tool-goes-onto-the-installation-stick-and-lives-in-the-sdk-repository-both-rk-and-fp7-are-worked-out.md]] and [[wiki/topics/ris-remote-install-and-machine-states.md]] (Oct 2, 9:01 AM).
+
 ## Sources
+- [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]
 
 - [[raw/Meeting_Transcript_Inamax_Ray_Cosentino_Georgia_Market_and_Trial_Agreement-February-11-2026.md]]
 - [[raw/Meeting_Notes_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]

@@ -4,8 +4,8 @@ title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka, Alex Baratka, Alex Beratka, Alexander Berankov, Biratko, Alexander Biratko]
 disambiguation: "Alexander cluster (provisional — owner ruling pending): distinct JVL people sharing the given name Alexander. [[wiki/people/alexander-biratka.md|Alexander Biratka]] = Omni/Pixi framework & build engineer (aka Sasha; garbles Beratko/Baratka); [[wiki/people/alexander-korochkin.md|Alexander Korochkin]] = LGS QA-automation engineer (GitHub Alexander_K@JVL, read-only; aka Alexander K); [[wiki/people/alexander-tumanov.md|Alexander Tumanov]] = Minsk QA / data-center knowledge-capture hire (surname unverified). Resolve by context: Omni framework / Pixi / build → Biratka; LGS QA automation / read-only build consumer → Korochkin; manual-tester onboarding / data-center interviews → Tumanov. A further name 'Alexander Derok' (back-end build-integration / Java, per Val on Feb-6-2026) is unconfirmed — queued, not a page. Not [[wiki/people/alexei-khamin.md|Alexei Khamin]] (different name). Queue anything fitting none; never force-match."
-source-count: 78
-open-commitments: 18
+source-count: 80
+open-commitments: 19
 open-questions: 0
 ---
 
@@ -367,8 +367,27 @@ On the [[wiki/meetings/2026-10-01-transactional-mvp1-status-slice-and-sas-comman
 
 - [ ] Alexander Biratka — review the MVP 2 capabilities: drop the outdated or wrong ones, port the Flex IQ ones that apply to FlexPay by analogy, write no new ones until the flows are defined — due while Klimovich is away (until Oct 13 2026) — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 
+## Oct 2 2026 — validator and IO-board service bugs (HWBB-8), the LED strip on one channel, "compile Rage for ARM", the VP8 codec, Val's message on the repositories, and Saturday
+
+At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-new-arm-boards.md|Oct-2 Minsk stand-up]] (Russian; label "Alexander Biratko") [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]:
+
+- **Bugs.** "Вчера нашёл несколько багов. Связанных с работы валидатора и [IO board]. С сервисами, которые мы новую внедрили… он неправильно читал… [паспорт датчик — unclear]… по валидатору некорректно статусы после перезагрузки его… если она проглотила её или не до конца проглотил. Вот эти статусы и восстановления валидатора некорректно завершалось. Ещё я ещё продолжаю немножко тестировать"; the task "HWBA 8… HWBB. 8"; "в репозиториях… и [IO board], и репозитория билласептера. Там 3 или 4 задачи было… открыто и закрыто". The LED strip: all of it "был имплементирован, да в старой библиотеке" — Pavel: same protocol, "канал 1 вместо трёх"; "я ещё не до конца завершил". See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 2, 4:50 AM).
+- **The new board and Rage.** "оно же у тебя плата да?… Надо вообще [билд] собирать и пробовать запускать полноценный"; "чтобы в транскрипт пошло, что возможно попробовать рэйдж скомпилить под арм и попробовать посмотреть, как это будет выглядеть на новое [плате]"; the engine sources "Да, конечно, доступно"; "тот же этот саунд лайбери да там f mod. Я не думаю, не уверен, что у нас он есть в [сорсах]. И есть ли версия [под ARM]?" On Daniil's videos: "браузер мы можем взять ту версию, которая на машине будет проверить… на [VP8] работало немножко быстрее. Мы пробовали много кодекков разных… возможно, всётаки проблема в конвертации… Надо поговорить, наверное, с дизайнерами?" See [[wiki/topics/nova-platform-architecture.md]] (Oct 2).
+- **Val's message.** "[Вал] мне написал по репозиториям что надо ну. Привести в порядок там проза проза и всякое всякое там. Побыстрее" — Irina and Kovalchuk: it was to everyone ([[wiki/decisions/2026-09-04-point-claude-at-the-standards-repository-first.md]], Oct-2 update). On Tsymanov's branch: "может быть, клод открыл фичку… у меня клод иногда пытался открывать фичи прям в [GitHub]… Проджекс помоему" ([[wiki/topics/ai-assisted-development.md]], Oct 2).
+- **Weekend.** "я планирую тоже на один день прийти в субботу." His Oct-1 capability clean-up above was not mentioned.
+
+## Open commitments (Oct 2 2026)
+
+- [ ] Alexander Biratka — finish the LED-strip work on the IO-board service (one channel, same protocol) once the validator and IO-board bugs are done — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+
+## Oct 5 2026 — absent; his icon-loading point confirmed in place
+
+At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-reopen-rules.md|Oct-5 Minsk stand-up]] (Russian) he was absent — Pavel: "А саши сегодня нет" (the reason word is garbled; only the absence is recorded). Pavel relayed his point to Daniil: "то, что саша. Говорил про оптимизацию загрузки. Этих иконок игр. Это же это сделано или ещё нет?" — the order he had asked for ("сначала пробегается по всем играм, загружается сами картинки… на сцену [game select screen] и только потом начинает грузиться остальная часть игр") is in place: Daniil, "Да, так и есть" [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]. See [[wiki/topics/nova-platform-architecture.md]] (Oct 5). His Oct-2 LED-strip item above was not mentioned.
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]

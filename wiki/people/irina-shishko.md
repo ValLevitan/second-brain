@@ -4,8 +4,8 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 120
-open-commitments: 34
+source-count: 123
+open-commitments: 35
 ---
 
 # Irina Shishko
@@ -608,8 +608,40 @@ At the [[wiki/meetings/2026-10-01-daily-standup-sas-mode-flag-and-feature-status
 
 On the [[wiki/meetings/2026-10-01-transactional-mvp1-status-slice-and-sas-command-logging.md|Oct-1 8:02 AM MVP 1 call]] (Russian): "Тестирование моё завтра. Так, Андрей только по тестированию мы будем обновляться завтра сегодня не увидим ещё ничего. А с разработкой да можно оценить" — see [[wiki/decisions/2026-09-28-october-15-replaces-october-1-as-the-mvp1-date.md]] (Oct-1 update). On Bosik's SIM: "Не знаю, сегодня завтра послезавтра." On Klimovich's absence next week: "нужно ли нам тогда со вторника по четверг… Тебя не будет"; "Нашей синхронизация нужна, потому что мы синхронизируемся и 03:00 до этого на нашем местном [дейлике]"; on Val: "Он есть на всех виртуально. И все всё, он может видеть и читать." [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 
+## Oct 2 2026 (4:50 AM) — "whoever takes a feature updates its schedule with Pavel or me", the weekend round, acceptance criteria and tests for FlexPay next, the South Dakota RIS with 40 cents, and "it applies to everyone"
+
+At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-new-arm-boards.md|Oct-2 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]:
+
+- **Her status.** "Заканчиваю сейчас тестами, которые были. Посмотрю, что дальше брать, а дальше значит к Владимиру лёша и ваня всё, что сделали в [Jira]. Проверьте, что отмечено закрыто, потому что нужно как бы переобновить расписание, чтобы понимать до когда это будет сделано… Возможно, начну, как я говорила, работать с этими с. [Acceptance criteria], с тестами для флекспея." See [[wiki/topics/test-automation-strategy.md]] (Oct 2); her testing update for the MVP 1 call was not given here ([[wiki/decisions/2026-09-28-october-15-replaces-october-1-as-the-mvp1-date.md]], Oct-2 annotation).
+- **The weekend round.** "И у меня вопрос, какие планы на выходные?… не только моих трое. У некоторых я знаю, какие планы, но и остальные, чтобы тоже" — Chudinov Saturday and Sunday, Tsymanov yes, Biratka Saturday, Khamin the repository; to Seregin: "у нас один с симулятором. В принципе, если тесты пройдут нормально, то ты закончил."
+- **The schedule rule.** On Tsymanov's reopened feature: "**Никто из [QA] не может тебе назначить дату. Поэтому, если какуюто фичу берёшь в работу, получается, её нужно обновлять расписание. Либо. К паше подойти либо ко мне.**" See [[wiki/decisions/2026-10-01-completed-is-the-developers-last-step-and-a-found-problem-sends-the-feature-from-completed-back-to-to-do-as-a-story.md]] (Oct-2 update).
+- **South Dakota.** "у нас мы ещё не релизили. Да для [South Dakota]"; "наверно нужно взять этот самый рис создать с 40. 40 центов минимальный. Посмотреть, как она машина поднимется"; to Ivan on Eclipse: "надо, чтобы информацию ты дал какой номер [билд], да какие суммы… что в сертификате они прописывают, чтоб мы не не искали". See [[wiki/projects/south-dakota-vlt-market.md]] and [[wiki/organizations/eclipse-gaming-lab.md]] (Oct 2).
+- **Val's message.** "Это, в принципе, всех касается… порядок в репозитории навести это касательно всех" ([[wiki/decisions/2026-09-04-point-claude-at-the-standards-repository-first.md]], Oct-2 update). To Vladimir's context question: "В плане да с кем угодно."
+
+## Oct 2 2026 (7:32 AM) — "2 по нашему"
+
+On the [[wiki/meetings/2026-10-02-ai-pm-status-listener-core-and-318-transcripts.md|"Design_AI-PM - status" call]] (Russian) she spoke only to convert Val's "07:00" — "Это по нашему 3… Да нет… 2 по нашему" — and to say goodbye [[raw/Meeting_Transcript_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]].
+
+## Oct 5 2026 (4:54 AM) — "как вот с этими картами?" opens the stand debate, "пускай будет всё в туду" on the reopen rule, the wallet-creation requirements, and "не потому, чтобы наказать"
+
+At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-reopen-rules.md|Oct-5 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]:
+
+- **The stand.** To Khamin: "что ты планируешь по автотестам с самим по написанию?… то есть с 7 числа. Начнешь тесты окей." Then: "у лёши в основном стоят с карточками, связанные тесты… У нас же есть какие то я не знаю эмуляторы, заглушки, затычки. Как вот с этими картами? Создавать, работать, проверять." "паш давай соберём новый митинг, потому что вот мы упираемся в это создание карточек проверку"; "у нас единственный [IQ]. И он стоит уже на заданном [локейшене]"; to Pavel's quick fake: "те которые были да, но… большой кусок начинается, где уже проверки более там какието будут серьёзные. Я не могу прямо сейчас тебе сказать. Куда дальше мы упрёмся"; "Просто проверить, что работает система, которую вы. Создали"; "Значит, в этом обсудим?" Ruling: [[wiki/decisions/2026-10-05-the-payment-hub-autotest-stand-is-not-mvp1-and-a-separate-meeting-with-andrei-designs-it.md]].
+- **The reopen rule.** "[Фича] в туду"; "[Capability] можно в туду можно в in прогресс"; "**Хорошо, пускай будет всё в [туду] и сам переведёшь в [In Progress], когда возьмёшь эту сторию в работу.**" On who left open stories under done features: "Это ктото не досмотрел. Говори кто?… Не потому, чтобы наказать… просто чтобы обратить внимание, это неважно кто" — nobody was named. Ruling: [[wiki/decisions/2026-10-05-a-capability-moves-itself-to-request-review-when-all-its-features-are-completed-and-a-new-story-sends-feature-and-capability-back-to-to-do.md]].
+- **Her own work.** "Сейчас ещё раз требования буду разбираться с этим, когда создание кошелька. Когда там записи, какие появляются при при выводе на. [Спарта — unclear] если нет кошелька, нужно будет это поменять кое что. Что там такое расплывчатое у нас в требованиях?" ([[wiki/topics/test-automation-strategy.md]], Oct 5). She pointed Pavel to his own feature on the Port ("ты сам на себя писал какойто. Бак или task рядом с порт?") and asked Tsymanov to come to her after the meeting; to Seregin: "принтер там присутствует?" — "Принтер да."
+- Her camera remark to Chudinov ("Нет, я хочу видеть ваши лица") is banter, not recorded further. The Oct-2 "whoever takes a feature updates its schedule" rule was not mentioned.
+
+**§15.8:** clear. **§15 #9:** none.
+
+### Open commitments (Oct 5 2026)
+
+- [ ] Irina Shishko — rework the vague wallet-creation requirements (what records appear when there is no wallet) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+- [[raw/Meeting_Transcript_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]

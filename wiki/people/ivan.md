@@ -3,8 +3,8 @@ type: person
 title: Ivan
 date: 2025-02-19
 aliases: [Ivan, Ivan Shpakov, Иван Шпаков, Ivan Shpak, Ваня]
-source-count: 25
-open-commitments: 6
+source-count: 27
+open-commitments: 9
 disambiguation: "JVL release manager (GLI submittals, release-candidate marks). Not the bank representative Ivan of the Sept-25-2026 CIBC call (surname Lucic per the notes) — see wiki/meetings/2026-09-25-cibc-ivan-lucic-600k-transfer-post-dated.md. Resolve by context: releases/GLI → this page."
 ---
 
@@ -170,8 +170,31 @@ On the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-m
 
 At the [[wiki/meetings/2026-10-01-daily-standup-sas-mode-flag-and-feature-status-rules.md|Oct-1 Minsk stand-up]] (Russian; label "Ivan Shpak") his whole report: "С Женей авто тесты и все остальное, что хотите от меня всё это делают" — autotests with Zhenya ([[wiki/people/evgeny-kharetski.md|Kharetski]], by context — inference; on Sept 29 Pavel spoke of "то, что сейчас женя делает с Иваном") [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]. At the [[wiki/meetings/2026-10-01-transactional-mvp1-status-slice-and-sas-command-logging.md|8:02 AM MVP 1 call]] (label "Ivan Shpak"; he said only "Счастливо") Pavel, asked for a SIM by Bosik: "Симку можно у Ивана будет забрать. Ну, он сейчас заканчивает" — not today; "Симка сейчас у Ивана тестируется. Как работает [gom в 3] с модемом" (the derived notes read "GOM V3" [[raw/Meeting_Notes_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]); Bosik will wait for "ванино". His Sept-30 test commitment above is not mentioned. See [[wiki/decisions/2026-09-04-north-america-modem-variant-and-ask-kore-for-the-apn.md]] (Oct-1 update) [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]].
 
+## Oct 2 2026 — the files to Eclipse and build 43.33, Efim's South Dakota note (50 cents to 40), a RIS and no rebuild, and the South Dakota autotests in parallel
+
+At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-new-arm-boards.md|Oct-2 Minsk stand-up]] (Russian; label "Ivan Shpak") [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]:
+
+- **Eclipse.** "Сейчас отправлю этому в [Эклипс], в общем. Файле, к котором еще не обсуждали с тобой. Если все будет хорошо, то, по идее, сегодня драфты получше, они уже сертификаты… посмотрите глазами драфт, скажите там всё ок"; "Сам [билд], я ещё не закидывал, сейчас закинул" — "43, 33". Irina: give the build number and the amounts the certificate lists. See [[wiki/organizations/eclipse-gaming-lab.md]] (Oct 2).
+- **South Dakota.** "у меня ефим вчера много чего писал я Ирине перекидывал. Это касательно [South Dakota]… Я так понимаю для математики?… где было 50 центов. Минимальная ставка сделали 40 или мне это сделать 40 самому пересмотреть нам уже как бы сдавать надо… либо пересобрать или чтото посмотреть… Возможно, сегодня тогда всё отдам, но это нужно после обеда"; "Ещё тогда [Жене] нужно будет. И наверное, это Антона зарелизить свою часть, если надо" (Anton **not resolved**); "это после митинга будем определять… Эти автотесты в параллели тут как могу, так и пишу"; "Пересобирать не надо, [коммитов] не было." ("ефим" = [[wiki/people/efim-podvoiski.md|Efim]], by context.) See [[wiki/projects/south-dakota-vlt-market.md]] (Oct 2).
+- **Statistics.** Kharetski: "Вчера с ваней, я работал по статистике" (Ivan by context). Irina asked him, Vladimir and Khamin to mark their done items in Jira. His Sept-30 test commitment above is again not mentioned.
+
+## Open commitments (Oct 2 2026)
+
+- [ ] Ivan — send the files to Eclipse, upload the build, and give Irina the build number (43.33) and the certificate amounts — due Oct 2 2026 — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+- [ ] Ivan — create a RIS with the 40-cent minimum bet for South Dakota per Efim's note and check that the machine comes up; no rebuild — due Oct 2 2026 ("после обеда") — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+
+## Oct 5 2026 — a new build onto the stick, then autotests in parallel; named with Kharetski to judge the SAS traffic
+
+At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-reopen-rules.md|Oct-5 Minsk stand-up]] (Russian; label "Ivan Shpak") [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]: "Я собрал новую [сборку]. То есть сейчас уже записано флэшку поставлю, будем смотреть то что. Он тогда просил обновлённые эти минимальные данные… И дальше авто тесты в параллели" (who "он" is and which minimum data — **unclear**; the 40-cent South Dakota minimum of Oct 2 by context — inference). Chudinov, on the SAS traffic: "нормально, ненормально женя скажет ваня, я не знаю" ([[wiki/decisions/2026-10-02-sas-command-logs-are-collected-on-the-flex-iq-and-not-sent-to-grafana-by-default.md]], Oct-5 update). Eclipse and build 43.33 were not mentioned; his Oct-2 commitments above stand.
+
+### Open commitments (Oct 5 2026)
+
+- [ ] Ivan — put the new build on the stick, test it, then continue the autotests in parallel — due Oct 5 2026 — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]

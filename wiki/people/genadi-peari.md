@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий, Kenadi]
-source-count: 111
+source-count: 112
 open-commitments: 36
 ---
 
@@ -559,7 +559,12 @@ The third segment [[raw/Meeting_Transcript_Street_Machine_Cabinet_Dashboard_and_
 - [ ] Genadi Peari — put the exact MSBC part number of the Flex Pay Slim BOM in the chat — due Oct 1 2026 — [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
 - [ ] Genadi Peari — rework the cabinet model: the two devices onto the panel, Flex construction, dashboard halved, paper loading solved, the acceptor tunnel kept — due unspecified — [[raw/Meeting_Transcript_Street_Machine_Cabinet_Dashboard_and_Printer_Access-October-1-2026.md]]
 
+## Oct 2 2026 (9:01 AM) — the diagnostic tool on the install stick: "если… попадает неправильным людям", and "следующим шагом… решать проблемы"
+
+On the [[wiki/meetings/2026-10-02-diagnostic-tool-on-the-install-stick-for-nova-fp7-and-rk.md|Oct-2 9:01 AM "EGMs diagnostic tool" call]] (Russian; label "Genadi Peari") he was Pavel's one questioner [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]: "если это диагностика тул попадает неправильным людям. [В] плане что то они могут украсть наши?… мы и так даём техникам да на чужим это диагностику или мы не даём?" — Pavel: a read-only tool is "абсолютно безопасен"; Genadi: "Да или оно рабочее… Тот же [IO board] проверить?" On the modem: "ты запустил диагностик [тул] у тебя машина в принципе уже. Способна. Создать, наверное, и логи можно какието можно физически отослать, её поднял к ней можно даже подключиться, наверное… следующим шагом… Рассмотреть, как решать проблемы, Кроме диагностирования." Asked for concerns or proposals: "это хорошо"; at the close: "Очень хорошо. Спасибо." Ruling: [[wiki/decisions/2026-10-02-the-diagnostic-tool-goes-onto-the-installation-stick-and-lives-in-the-sdk-repository-both-rk-and-fp7-are-worked-out.md]]. His Oct-1 commitments above were not mentioned.
+
 ## Sources
+- [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]
 
 - [[raw/Meeting_Transcript_IO_Board_Memory_Chip_Removal_and_Redesign-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]

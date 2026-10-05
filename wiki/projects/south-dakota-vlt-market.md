@@ -3,9 +3,9 @@ type: project
 title: South Dakota VLT market entry
 date: 2025-01-22
 aliases: [South Dakota, SD VLT, South Dakota VLT 3, VLT3, South Dakota D2703, IP1180, IP887, IP1131, IP1137, GD918, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950, V43, D27, SD cap, Bioliches, Gypsy Spirit, Crazy Colt, Queen of Luxor, Liberty Spin, Rodeo Spin, South Dakota vertical, MG Oil report, VLT2, Cool Cat, Black Hills Kino, Dragon Pace, Dakota Bison, Solar Keno, Keno Deluxe, IP459, IP1063]
-source-count: 51
-open-commitments: 4
-open-questions: 1
+source-count: 53
+open-commitments: 5
+open-questions: 2
 ---
 
 # South Dakota VLT market entry
@@ -318,8 +318,21 @@ On the [[wiki/meetings/2026-09-23-eclipse-nick-farley-south-dakota-vlt-answer.md
 - **The Eclipse route for the South Dakota VLT is closed for now.** This answers the Sept-22 open question. Which lab JVL will use instead was **not discussed** on the call [[raw/Meeting_Transcript_Eclipse_Nick_Farley_South_Dakota_VLT_Answer-September-23-2026.md]] [[raw/Meeting_Notes_Eclipse_Nick_Farley_South_Dakota_VLT_Answer-September-23-2026.md]].
 - **No version number is spoken** — only "South Dakota VLT". The call adds nothing to the VLT-2 / VLT-3 question above [[raw/Meeting_Transcript_Eclipse_Nick_Farley_South_Dakota_VLT_Answer-September-23-2026.md]].
 
+## Oct 2 2026 — Efim's note: the minimum bet goes from 50 cents to 40; a RIS with 40 cents, no rebuild; "we have not released yet"
+
+At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-new-arm-boards.md|Oct-2 Minsk stand-up]] (Russian) [[wiki/people/ivan.md|Ivan]]: "у меня ефим вчера много чего писал я Ирине перекидывал. Это касательно [South Dakota] и что они? Я так понимаю для математики? Не знаю [Конор форчина — unclear], только ли ещё чтото. Там образно, где было 50 центов. Минимальная ставка сделали 40 или мне это сделать 40 самому пересмотреть нам уже как бы сдавать надо… нужно понять это, либо пересобрать или чтото посмотреть… Возможно, сегодня тогда всё отдам, но это нужно после обеда, потому что это всё займёт время очень много." ("ефим" = [[wiki/people/efim-podvoiski.md|Efim Podvoiski]], by context — the South Dakota maths; inference.) [[wiki/people/irina-shishko.md|Irina]]: "у нас мы ещё не релизили. Да для [South Dakota]." Ivan: "Ну тогда вот. Тем более. Ещё тогда [Жене] нужно будет. И наверное, это Антона зарелизить свою часть, если надо" (which Anton is **not resolved**). "это после митинга будем определять… Эти автотесты в параллели тут как могу, так и пишу." Irina: "они там поменяли, похоже просто написано 40 наверно нужно взять этот самый рис создать с 40. 40 центов минимальный. Посмотреть, как она машина поднимется." Ivan: "Пересобирать не надо, [коммитов] не было." Irina: "Я сейчас пока посмотрела по [конфуренции — unclear]… это следующий шаг. Отметьте только, пожалуйста, [в Jira]. А что сделал?" [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+
+- **What this says.** A South Dakota submission is being prepared for hand-over ("нам уже как бы сдавать надо"); a maths parameter — the minimum bet, 50 cents to 40 — came from Efim in writing on Oct 1; the change is handled as a RIS with the 40-cent minimum rather than a rebuild, because there were no commits. Which product this is — the RAGE VLT-2 of the Sept-1 ruling or the NOVA one — is **not said**; the version-number question above is not touched. The derived notes record the same and list the RIS as a decision by Irina and Ivan [[raw/Meeting_Notes_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]. The same morning Ivan was sending files to Eclipse — [[wiki/organizations/eclipse-gaming-lab.md]] (Oct 2); whether that is the South Dakota submission is not said either (Eclipse said no to the South Dakota VLT on Sept 23).
+
+**§15.8:** clear — product parameters and process only.
+
+### Open commitments (Oct 2 2026)
+
+- [ ] [[wiki/people/ivan.md|Ivan]] — create a RIS with the 40-cent minimum bet for South Dakota per Efim's note and check that the machine comes up; no rebuild — due Oct 2 2026 ("после обеда") — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+
 ## Open questions
 
+- Is the Oct-2 South Dakota hand-over ("сдавать надо") the RAGE VLT-2 submission or the NOVA release, and does Efim's 40-cent minimum apply to one or both? — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - **With Eclipse out for now, which lab takes the South Dakota VLT?** Not discussed on the Sept-23 call; the derived notes raise it as open — [[raw/Meeting_Notes_Eclipse_Nick_Farley_South_Dakota_VLT_Answer-September-23-2026.md]]
 
 ## History
@@ -394,3 +407,5 @@ On the [[wiki/meetings/2026-09-23-eclipse-nick-farley-south-dakota-vlt-answer.md
 - [[raw/Meeting_Transcript_Eclipse_Compliance_Testing_South_Dakota_VLT_Approval_Inquiry-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Eclipse_Nick_Farley_South_Dakota_VLT_Answer-September-23-2026.md]]
 - [[raw/Meeting_Notes_Eclipse_Nick_Farley_South_Dakota_VLT_Answer-September-23-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]

@@ -3,8 +3,8 @@ type: person
 title: Vladimir Samusenko
 date: 2026-02-04
 aliases: [Vladimir Samusenko, Vladimir, Vlad, Владимир, Самусенко]
-source-count: 25
-open-commitments: 10
+source-count: 28
+open-commitments: 12
 ---
 
 # Vladimir Samusenko
@@ -159,8 +159,30 @@ At the [[wiki/meetings/2026-10-01-daily-standup-sas-mode-flag-and-feature-status
 - **The printer library.** Pavel: the new ticket type that stopped the e-wallet ticket printing on FlexPay was his — "это Владимир Владимир делал, но он, наверное, делал только для этого. Для 950, да для эпика"; Vladimir: "Для эпика" — the Epic 950 printer. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 1, 4:48 AM).
 - **The story under FP-85.** Tsymanov's discipline email was about a story Vladimir created under Tsymanov's already-closed feature "фпорт 85"; Irina: "когда Владимир писал, нашлось что[-то]" — the autotest found something. The ruling it led to is on [[wiki/decisions/2026-10-01-completed-is-the-developers-last-step-and-a-found-problem-sends-the-feature-from-completed-back-to-to-do-as-a-story.md]]. He did not speak in that argument.
 
+## Oct 2 2026 — reviewing Khamin's work and finishing task 34, "I am not in the context" of the stories he creates, the Claude plugin's repository, and the three stories Tsymanov took
+
+At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-new-arm-boards.md|Oct-2 Minsk stand-up]] (Russian; speaker label) [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]:
+
+- **Status.** "занимаюсь тем, что ревью лёша. Доделываю. 34 34 задачу с этой блокировками. Сейчас там не все сценарии проходят, я до разберусь с этим. Отмечу, что нужно. Какие задачи на это влияют и буду брать что то следующее" (Khamin's review; task 34 — the derived notes read "task 34 (blocks)" [[raw/Meeting_Notes_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]).
+- **His question.** "у меня есть к [стори — unclear], который я завожу. Я вчера попытался в них вникать, и это ну, типа относительно меня тормозит, потому что я не в контексте происходящего… просто заводить и вы разбирайтесь там правильно, это неправильно… у меня много сил времени и калорий занимает разобраться, куда там порт должен слать, куда не должен слать. Какие [capabilities]? Он должен выполнять? Я не абсолютно не представляю… Этот вопрос только в моей эффективности и скорости." Pavel: talk it through with Irina or Khamin first; "Если… 23 там 5 тасков. Кажется, что все понятно. Ну тогда уже можно будет и самому." — "Окей." See [[wiki/topics/test-automation-strategy.md]] (Oct 2).
+- **The plugin.** On Chudinov's Claude-found issues: "[плагин] есть репозитория, которая там подключаешь и если в плагине есть баги заводите [issue] к этому репозиторию… Да просто скажи ему, он сходи в репу, заведи её на всем доступно… сейчас скину, окей?" (the prose skills of Sept 1–3 above by context — inference). See [[wiki/topics/ai-assisted-development.md]] (Oct 2).
+- **The three stories.** Tsymanov fixed "3 истории от Владимира" that reopened his feature; Vladimir: "я их не назначал на исполнителя, ты их сам себе забрал." See the Oct-1 decision (Oct-2 update).
+- In the weekend round he answered "Не знаю, давай после [—] последим… Думаю. Потом." Irina asked him, Khamin and Ivan to mark their done items in Jira. His Sept-30 commitment above (task 41 in Blocked; the next task) is not resolved by this.
+
+## Open commitments (Oct 2 2026)
+
+- [ ] Vladimir Samusenko — finish task 34 (the blocks), work out why not all scenarios pass, note which tasks affect it, then take the next task; talk through the stories he creates with Irina or Khamin first — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+- [ ] Vladimir Samusenko — send Chudinov the Claude plugin repository's link in the chat, for filing issues — due Oct 2 2026 ("сейчас скину") — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+
+## Oct 5 2026 — task 769, screens and texts
+
+At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-reopen-rules.md|Oct-5 Minsk stand-up]] (Russian; speaker label) [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]: "Занимаюсь это тестами сейчас 7 69. Там задача с проверкой экранов и текстов. Там задача будет на меня [подработки — unclear] сравнивать правильно. Ну и там всё в принципе." Task 34, task 41 and the stories under Tsymanov's feature were not mentioned; Tsymanov named "Владимира" in a garbled line about a task of his. His commitments above stand. See [[wiki/topics/test-automation-strategy.md]] (Oct 5).
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]

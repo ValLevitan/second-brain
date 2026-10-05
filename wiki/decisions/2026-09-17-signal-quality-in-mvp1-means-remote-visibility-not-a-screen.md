@@ -3,7 +3,7 @@ type: decision
 title: Signal quality in MVP 1 means remote visibility — periodic metrics into the logs, buffered offline, surfaced through Grafana
 date: 2026-09-17
 aliases: [log traffic, 120 MB a day, three gigabytes a month, junk logs, TPT-INT Grafana dashboard task, signal quality, decibels, signal to noise, SNR, jammer, глушилка, антенки, remote diagnostics, periodic metrics, log buffering, Grafana alerts, modem telemetry, удалённо мы должны видеть децибелы]
-source-count: 4
+source-count: 5
 status: active
 open-commitments: 4
 open-questions: 2
@@ -68,6 +68,10 @@ At the [[wiki/meetings/2026-09-28-daily-standup-log-traffic-and-nova-rename.md|S
 
 **On the open questions below:** the link-quality metrics are now sent from Flex IQ, and Grafana dashboard templates exist in the project (Tsymanov's account). Whether a person sees the numbers in MVP 1 is still not stated, so both questions stay open.
 
+## Update, Oct 2 2026 — the SAS command logs stay on the Flex IQ, off by default, because of the modem channel
+
+At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-new-arm-boards.md|Oct-2 Minsk stand-up]] (Russian) the traffic worry of Sept 28 decided the shape of a new log stream: [[wiki/people/dmitri-chudinov.md|Chudinov]] planned to pass the SAS command logs from the machines to Grafana ("Графа она, наверное будет все это передавать"); [[wiki/people/pavel.md|Pavel]] — "не будем сейчас передавать логи команд на графану… Избирательно… чтоб их по умолчанию они были выключены… потому что мы будем очень сильно засорять канал через [—] модем"; Chudinov — "пускай это будет лучше не на порте, а на IQ. Пускай он лучше не шлёт, но собирает… всегда можешь подключиться и посмотреть"; Pavel — "Да да, всё верно." Chudinov will "делать ревью трафика… на выходных… Суммарно на весь трафик" with collections and door open / close on the running firmware. Ruling: [[wiki/decisions/2026-10-02-sas-command-logs-are-collected-on-the-flex-iq-and-not-sent-to-grafana-by-default.md]] [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]. This is the first stream where "task 2" (display) is switched off by design rather than left for later. Chudinov's Sept-28 junk-log commitment below is not mentioned; the weekend traffic review is its nearest follow-up.
+
 ## Open commitments
 
 - [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — remove junk logs (caching repeat messages or sending them every 5 minutes) to cut the traffic, and tell Andrei about the ~3 GB a month so he can judge if it is critical — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
@@ -89,3 +93,4 @@ At the [[wiki/meetings/2026-09-28-daily-standup-log-traffic-and-nova-rename.md|S
 - [[raw/Meeting_Notes_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]

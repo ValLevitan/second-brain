@@ -3,9 +3,9 @@ type: decision
 title: Standing instruction — use the standards, add to the standards, and point your Claude at the standards repository first (Knowledge Base / Standards in GitHub, access verified for all 39 accounts)
 date: 2026-09-04
 aliases: [point your code at the standards, standards repository instruction, Knowledge Base Standards folder, 39 accesses verified, write narrow granular standards, moving away from Confluence]
-source-count: 10
+source-count: 12
 status: active
-open-commitments: 5
+open-commitments: 6
 open-questions: 1
 ---
 
@@ -78,8 +78,17 @@ On the [[wiki/meetings/2026-09-24-transactional-mvp1-flexport-money-loss-bugs-an
 
 On the [[wiki/meetings/2026-09-30-repo-standards-walkthrough-with-efim.md|Sept-30 11:07 AM "REPO standards" call]] Val applied the rule to [[wiki/people/efim-podvoiski.md|Efim Podvoiski]] in person. The transcript is mostly unreadable (Russian speech rendered as English, per the notes [[raw/Meeting_Notes_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]); what is readable is Val's "I pointed I pointed you to a repo standards", "standards, material", "it's for GitHub", and the subjects he ran through — "repository organ zone [organisation]… zero trust… data contract repository", "ADRs", "discussion", "Pull request pull request", "Claude Reviewer is to cache the pull request" (verb **unclear**; the notes read "checks"), "Local computer" — and, near the end, "it's a standard" and "I encourage you" [[raw/Meeting_Transcript_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]. No undertaking by Efim is readable, so none is recorded. *(The owner of the RGS / maths-engine codebase thus joins Metelski (Sept 4), Khamin (Sept 24) and the Minsk team in being pointed at the standards; whether Efim has read them, or has access, the source does not say.)*
 
+## Update, Oct 2 2026 — Val's written message to put the repositories in order "касается всех"; the transactional repositories split between Chudinov and Tsymanov; no prose for archived repositories
+
+At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-new-arm-boards.md|Oct-2 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]:
+
+- **Val's message.** [[wiki/people/alexander-biratka.md|Biratka]]: "[Вал] мне написал по репозиториям что надо ну. Привести в порядок там проза проза и всякое всякое там. Побыстрее." [[wiki/people/irina-shishko.md|Irina]]: "Это, в принципе, всех касается. Здесь написано [—] и порядок в репозитории навести это касательно всех." [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]]: "Да, это [Вал] всем написал." The message itself is not in the corpus; its content is known only from these words. [[wiki/people/alexei-khamin.md|Khamin]]'s weekend plan — "Я буду надо привести [репозиторий в] порядок" — follows it. [[wiki/people/sergey-tsymanov.md|Tsymanov]] also had a note from Val about a GitHub feature branch that does not match Jira — on [[wiki/topics/ai-assisted-development.md]] (Oct 2).
+- **The transactional repositories.** [[wiki/people/dmitri-chudinov.md|Chudinov]]: "Разделили с Сергеем там на пополам репозиторий, там где то 78 у него у меня. Вот и. Ну постепенно репозиториям. Проза [ADR]. Приведены в стандарт. Это то, Что касается транзакшенных системы." Pavel: "Отлично." ("78" as spoken; the derived notes read "7–8 repos" [[raw/Meeting_Notes_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]].) Tsymanov: "прозы параллельно вёл. Сейчас вот прозы заканчиваю."
+- **No prose for archived repositories.** Chudinov: "у нас есть [репозитории], которая уже. Наверное, ближе к статусу архив. Мы будем на них прозу делать. Это старая [updater]." [[wiki/people/pavel.md|Pavel]]: "**Нет, нет, там, скорее всего может быть прозы нету, но там [description] вполне себе нормальный был, но нет смысла нет смысла на него мы его точно не будем использовать.**" — the old updater and repositories near archive status get no prose.
+
 ## Open commitments
 
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — bring his repository into order over the weekend of Oct 3–4 2026, following Val's message — due Oct 5 2026 — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [ ] Everyone (engineering and the game team) — use the standards, add narrow granular standards to them, and point Claude at the standards repository as part of routine work — ongoing standing rule — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]] [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 - [ ] [[wiki/people/lena.md|Lena Zhukova]] — move the graphics team's existing Omni/NOVA naming documents into the Knowledge Base standards folder — due unspecified — [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 - [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — read the repository standard and correct his repository structure to match — due unspecified; he said "я могу смог ознакомиться и поправить под стандарт" — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
@@ -101,3 +110,5 @@ On the [[wiki/meetings/2026-09-30-repo-standards-walkthrough-with-efim.md|Sept-3
 - [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
 - [[raw/Meeting_Notes_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]

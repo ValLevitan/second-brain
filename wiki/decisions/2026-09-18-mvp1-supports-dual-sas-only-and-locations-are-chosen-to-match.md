@@ -3,10 +3,10 @@ type: decision
 title: MVP 1 supports dual SAS only — the bill-acceptor and counter-emulation environment is deferred, and MVP 1 locations will be picked so every machine is dual-SAS
 date: 2026-09-18
 aliases: [dual SAS only, only dual SAS in MVP1, MVP один только дуо сас, two environments or one, bill acceptor and counter emulation, эмуляция билакцептора и каунтеров, MudaGoose environment, MG environment, fully equipped with dual SAS machines, supporting both is almost double the testing, почти икс 2 тестирования, automate the tests so environment two is covered faster, capability 151 scope item four]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 1
-open-questions: 0
+open-questions: 1
 ---
 
 # MVP 1 runs on dual SAS only, and the MVP 1 locations are chosen so it can
@@ -45,6 +45,14 @@ The sentence trails off unfinished on the recording [[raw/Meeting_Transcript_Tra
 
 **It does not resolve the standing contradiction over how much of the Georgia fleet lacks a second SAS port**, which now runs to several incompatible estimates across Aug 24 – Sept 16 2026 — see the open contradiction on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] and the Sept-7-versus-Sept-9 split on [[wiki/decisions/2026-09-09-jvl-supports-both-dual-sas-and-single-sas-and-not-mudagoose.md]]. **Nothing here is resolved either way.** What this adds is a dated data point of a different kind: whatever the market split turns out to be, the **first release** deliberately does not address the single-SAS half, and JVL will choose its pilot locations to avoid needing to.
 
+## Oct 5 2026 — annotation: a Port task "где 2 сас канала" that nobody can yet approach
+
+At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-reopen-rules.md|Oct-5 Minsk stand-up]] (Russian) [[wiki/people/dmitri-chudinov.md|Chudinov]], on the MVP 1 Port tasks parked on Pavel: "там есть не мелкая. Я там одну задачу пропустил, даже не знаю как подходить там, где 2 сас канала." [[wiki/people/pavel.md|Pavel]]: "В [порте] нет смысла 2 [SAS] канала это ктото." Chudinov: "у него понятно один, но машина подключена к 2. У нас есть какието там требования или что мы чтото получаем оттуда я не понял… мне надо хотя бы общее представление." Pavel: a separate session after the stand-up to go through all those tasks, "кто создавал и так далее" [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]. Recorded here because it is the first engineering task the wiki sees on the dual-SAS case this ruling scoped MVP 1 to; what the task asks for is not known. Detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 5, 4:54 AM).
+
+## Open questions
+
+- What does the MVP 1 Port task with "2 сас канала" (the machine connected to two SAS hosts, the port with one) actually require, and who created it? — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+
 ## Open commitments
 
 - [ ] The MVP 1 team — automate the tests during MVP 1 so the second environment (bill acceptor and counter emulation) can be covered quickly afterwards — due unspecified; proposed by Pavel Frolov as the condition of deferring, and not assigned to a named person on the call — [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
@@ -53,5 +61,6 @@ The sentence trails off unfinished on the recording [[raw/Meeting_Transcript_Tra
 
 ## Sources
 
+- [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]

@@ -4,8 +4,8 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 197
-open-commitments: 96
+source-count: 201
+open-commitments: 101
 open-questions: 0
 ---
 
@@ -1085,8 +1085,59 @@ On the [[wiki/meetings/2026-10-01-transactional-mvp1-status-slice-and-sas-comman
 
 **§15.8:** clear. **§15 #9:** none.
 
+## Oct 2 2026 (4:50 AM) — the new boards "35 67", SAS command logs off by default, "a constant war with Claude", no prose for archived repositories, and the red tasks
+
+At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-new-arm-boards.md|Oct-2 Minsk stand-up]] (Russian), which he ran [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]:
+
+- **The boards.** "Нас приехали платы. 35 67 с 8 гигабайтами памяти можно будет потом запланировать. Тестирование новой игры на. На этом [ARM]… у меня уже лежит"; not a build — "саму игру просто собраться там какаято система стоит вроде дебиан или у бунты… запустить браузер смотреть, что будет. Пока что в одномониторной… памяти уже должно хватать". On Biratka's "compile Rage for ARM": the engine sources — "Не у нас вообще доступны недоступны. Ноль" (Biratka: available); FMOD "может быть ключевым моментом". See [[wiki/topics/nova-platform-architecture.md]] (Oct 2) and [[wiki/decisions/2026-09-14-the-street-cabinet-board-is-the-rk3576-not-the-rk3568.md]] (Oct-2 update; the number is as spoken).
+- **The SAS command logs.** "не будем сейчас передавать логи команд на графану, а сделать это както. Избирательно… чтоб их по умолчанию они были выключены… потому что мы будем очень сильно засорять канал через [—] модем"; "отключить на [порте] это в принципе да, небольшая задача… просто иметь параметр включено или выключенный"; to Chudinov's "лучше не на порте, а на IQ. Пускай он лучше не шлёт, но собирает" — "Да да, всё верно." Ruling: [[wiki/decisions/2026-10-02-sas-command-logs-are-collected-on-the-flex-iq-and-not-sent-to-grafana-by-default.md]].
+- **Prose and Claude.** "Нет, нет… нет смысла на него мы его точно не будем использовать" — no prose for the old updater and archived repositories ([[wiki/decisions/2026-09-04-point-claude-at-the-standards-repository-first.md]], Oct-2 update). On Val's note to Tsymanov: "с клодом постоянно идёт такое такая война, что если он сам вдруг начинает ни с Того, ни с сего открывать бранчи направо налево. Или там давать имена какието от балды, вместо Того чтобы в джиру залезть и посмотреть, какие там есть. За этим надо следить" ([[wiki/topics/ai-assisted-development.md]], Oct 2).
+- **Jira.** To Tsymanov: "Просьба посмотреть на вот эти вот красные таски, которые просроченные… с 15 сентября 29 сентября 1 октября" — "Давай поменяем"; to Kovalchuk on a due date: "Сегодня заканчивается начало, поставь неделю назад"; "мне тоже не нравится, что джиро сегодняшнее число красным показывают". See [[wiki/decisions/2026-10-01-completed-is-the-developers-last-step-and-a-found-problem-sends-the-feature-from-completed-back-to-to-do-as-a-story.md]] and [[wiki/decisions/2026-09-17-planning-comes-off-pavel-and-goes-to-an-application-administrator.md]] (Oct-2 updates).
+- **Vladimir's context question.** "для начала, наверное, можешь голосом поговорить с ирой, пока контекст не наберётся достаточно или с лёшей… если такие вопросы возникают сначала лучше проговорить, потом будет видно" ([[wiki/topics/test-automation-strategy.md]], Oct 2). On Ivan's build: "Такой красивый номер получился для релизного [билда]" (43.33). "Кто хочет поработать в выходные?" — Irina's round followed.
+- **Chudinov's pull request.** Chudinov needs his approval ("Нужен Паша, твоя [approval]") before the new build on 84 — his open item on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 2, 4:50 AM). The firmware-delivery design and the AMD spike were again not mentioned.
+
+## Oct 2 2026 (7:32 AM) — late to the AI PM status; Tuesday at 7
+
+He joined the [[wiki/meetings/2026-10-02-ai-pm-status-listener-core-and-318-transcripts.md|"Design_AI-PM - status" call]] (Russian) near its end — Bosik: "Хорошо паш привет… Ты пропустил" — and said "Добрый день", "7" (on the time) and "Хорошо до свидания". Bosik told him the agent's knowledge base includes "вот эти отчёты, которые вот ты вырвал сегодня" (unclear which — see [[wiki/projects/ai-project-manager-and-company-second-brain.md]], Oct 2) [[raw/Meeting_Transcript_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]].
+
+**§15.8:** clear. **§15 #9:** none.
+
+### Open commitments (Oct 2 2026)
+
+- [ ] Pavel Frolov — approve Chudinov's pull request (port and arrows — the notes' reading), which blocks the new build on terminal 84 — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]] — *Oct 5 2026: part-done — "59" merged, "94" in conflict and under review* — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+- [x] Pavel Frolov — plan and run the new game on the newly arrived 8 GB ARM board ("35 67") in a browser, one monitor first — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]] — *Oct 5 2026: handed to Daniil as his next task* — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+
+## Oct 2 2026 (9:01 AM) — the diagnostic tool on the install stick, "two products, for the record", and "both variants, RK and FP-7"
+
+On the [[wiki/meetings/2026-10-02-diagnostic-tool-on-the-install-stick-for-nova-fp7-and-rk.md|Oct-2 9:01 AM "EGMs diagnostic tool" call]] (Russian; with Genadi, Val in the chat) he presented one idea [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]: "сейчас работаю над SD[K] для новой платформы… Нова. Фреймворк и новые материнские платы. По базе там икс 86"; "Мы всегда софт устанавливаемся с [USB-стика]. И нам ничто не мешает на этот [USB-стик] положить наш диагностик тул" — kept "вместе с SDK проектом" so it is always current; it answers the install errors "с непонятным описанием" Felipe raised. To Genadi's security question: "если мы не даем с помощью диагностики тул никаким делать какието вмешательства в машину, то он абсолютно безопасен." To Val's chat question on the modem: "Теоретически можем. Но эта информация попадёт кудато на сервер. Это надо ещё серверную [сторону] продумывать." Scope: "Продумать. Что минимально мы можем поддержать и какие вообще шаги нам нужны? Кого надо привлечь к этому? И. Когда освобождаются ресурсы" — after Transactional, Vladimir for a modern GUI; much of the old back end reusable; with Claude "итерационная задача… Не очень долго". "Для записи… 2 разных продуктах… RK [based]… для стрит машин. И это будет идти быстрее и… [FP-7]… в основном для казино"; RK "это наверное степ 2". Close: "будем прорабатывать… оба варианта и RK и [FP-7]." Ruling: [[wiki/decisions/2026-10-02-the-diagnostic-tool-goes-onto-the-installation-stick-and-lives-in-the-sdk-repository-both-rk-and-fp7-are-worked-out.md]].
+
+## Oct 5 2026 (4:54 AM) — "это не MVP один" on the autotest stand, "не согласен… в облаке", FPORT-59 merged and 94 in conflict, the Port tasks parked on him and a triage "в час", Daniil's branch in both repositories and the new board, and "в коммитах нет смысла"
+
+At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-reopen-rules.md|Oct-5 Minsk stand-up]] (Russian), which he ran [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]:
+
+- **The stand.** "речь… идёт не о том, чтобы запустить на [GitHub] эти тесты. А чтобы локально у нас в офисе запустить"; the quick option — "вариант сборки флекса IQ, который будет… добавлять там какието фейковые данные о том, что карточка выпущена успешно"; "выглядит так, что это не [MVP] один, иначе мы тут все сейчас будем заниматься только одной этой задачей подъёмом инкома"; "я кстати не согласен с тем, что нам надо это в облаке подымать… апдейты мы можем исключить"; "На виртуальном сервере"; to the separate meeting with Andrei: "Ну хорошо." Ruling: [[wiki/decisions/2026-10-05-the-payment-hub-autotest-stand-is-not-mvp1-and-a-separate-meeting-with-andrei-designs-it.md]].
+- **Pull requests.** "fort 59 я сейчас замержу. Я прям нажимаю [merge]… Я 59 уже замержил"; "в этом 94 вот тут висит [merge] конфликт… нет этой кнопки" — Khamin's "Files changed" tab — "Да есть такое сейчас я ревью" ([[wiki/topics/flexpay-business-architecture-payout-devices.md]], Oct 5, 4:54 AM).
+- **The Port tasks.** "я вчера заметил, что много тут чегото позаводили и повесили просто на меня и надо действительно это сейчас всё. Пересмотреть… после этого митинга… с тобой соберёмся… Сергея наверно можно иру взять"; on the two-SAS-channel task: "В [порте] нет смысла 2 [SAS] канала"; "во сколько в час соберёмся? Тогда я назначу митинг или раньше?"
+- **Daniil.** A branch "и там и там… с одним описанием"; the icon-loading order Biratka had asked for is in place; "следующая задача тебе будет надо будет взять новую плату и попробовать запустить на [ARM]" — with the select screen and stubs, to see "сколько одна игра с [game select screen] занимает" ([[wiki/topics/nova-platform-architecture.md]], Oct 5).
+- **Kharetski's manifest.** "это будет какойто манифест, который указывает. Версии компонентов… запекаться в [имидж]"; "в виде отдельного файла класть в артефакт, да?… сходится наше представление" ([[wiki/decisions/2026-10-05-a-release-bakes-a-file-of-the-component-versions-it-contains-into-the-artifact.md]]).
+- **The SAS traffic.** "на 1 взгляд выглядит, что ненормально" ([[wiki/decisions/2026-10-02-sas-command-logs-are-collected-on-the-flex-iq-and-not-sent-to-grafana-by-default.md]], Oct-5 update). On Seregin's FlexPay-derived task: "Имплементация там какаято была там протокол какойто был… Ладно."
+- **The emulator artifact and the rename.** "если бы на этапе сборки основного вот флекса ай кю… клался артефакт ещё и эмулятора, то это тебя устроило" — then "подход тут альтернативный… Пакет с набором скриптов… докер контейнер"; on "kiosk" → "terminal": "в описании это легко поменять в джире… а в [коммитах] нет смысла уже как есть, так есть" ([[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]], Oct-5 update). On the reopen rule: "Окей" ([[wiki/decisions/2026-10-05-a-capability-moves-itself-to-request-review-when-all-its-features-are-completed-and-a-new-story-sends-feature-and-capability-back-to-to-do.md]]). Tsymanov's five-minute tests: "Зачем?"
+
+**§15.8:** clear. **§15 #9:** none.
+
+### Open commitments (Oct 2 2026, 9:01 AM, and Oct 5 2026)
+
+- [ ] Pavel Frolov — think through the minimum the diagnostic tool can support, the steps, whom to involve and when (after Transactional), including the modem use cases; then work out both the RK and the FP-7 variant — due unspecified — [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]
+- [ ] Pavel Frolov — call a separate meeting on the autotest / InComm stand with "Andrei" (Bosik by context), Chudinov, Tsymanov and Irina — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+- [ ] Pavel Frolov — meet Chudinov, Tsymanov and Irina after the stand-up ("в час", or earlier) to triage the MVP 1 Port tasks assigned to him, including the two-SAS-channel one — due Oct 5 2026 — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+- [ ] Pavel Frolov — review and merge "94" once its conflict is cleared ("сейчас я ревью") — due Oct 5 2026 — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+
 ## Sources
+- [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+- [[raw/Meeting_Transcript_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]

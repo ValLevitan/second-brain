@@ -3,7 +3,7 @@ type: decision
 title: The AMD development environment is rebuilt from the RK3568 SDK as a skeleton — Pavel takes the spike himself, MVP 1 is kernel, root file system, installer and bootloader, ten days with a review on the 8th; the RK3576 waits until the two environments are standardised; RK and AMD stay separate repositories
 date: 2026-09-29
 aliases: [AMD SDK spike, x86 SDK from the RK3568 skeleton, standardise the two development environments first, RK3576 after standardisation, RK and AMD separate repositories, dev environment MVP 1 kernel rootfs installer bootloader, ten days review on the 8th, Dev_environments decision, скелет для AMD процессора, спайк перенести SDK в новый репозиторий, сначала стандартизировать между двумя девелопментами, 95% репозиторий такой же, прошивать проводом]
-source-count: 6
+source-count: 8
 status: active
 open-commitments: 2
 open-questions: 3
@@ -45,6 +45,14 @@ Val: "У нас как бы получается 2 дега за сегодня,
 - "Для икс 86 [э]мулятор есть. Он хороший. [Эмулятор] для рк 35 68 он тоже какойто помоему есть, но он не не настолько будет хороший как для икс 86" (the transcript says "стимулятор"/"аккумулятор"; read as emulator — **inference**, as on [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]]) [[raw/Meeting_Transcript_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]].
 - The environment itself is tested through the integration repository inside other tasks; the one useful direct test is that the built image boots in an emulator — see [[wiki/topics/test-automation-strategy.md]] (Sept 29, 10:06 AM) [[raw/Meeting_Transcript_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]]. The derived notes for segment 1 read the testing point the same way and list the missing-capabilities question as open [[raw/Meeting_Notes_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]].
 
+## Update, Oct 2 2026 — new ARM boards have arrived; nothing on the spike
+
+At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-new-arm-boards.md|Oct-2 Minsk stand-up]] (Russian) [[wiki/people/pavel.md|Pavel]] announced "Нас приехали платы. 35 67 с 8 гигабайтами памяти" and a plan to run the new game on one in a browser — see [[wiki/topics/nova-platform-architecture.md]] (Oct 2) and [[wiki/decisions/2026-09-14-the-street-cabinet-board-is-the-rk3576-not-the-rk3568.md]] (Oct-2 update); the number is as spoken, and whether it is the RK3576 of ruling 2 above is an inference. The AMD spike, its ten days and the review on the 8th were not mentioned; the commitments below stand as they are [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]].
+
+## Update, Oct 2 2026 (9:01 AM) — "сейчас работаю над SDK для новой платформы… икс 86", the diagnostic tool goes into that SDK, and RK is "степ 2" for it
+
+On the [[wiki/meetings/2026-10-02-diagnostic-tool-on-the-install-stick-for-nova-fp7-and-rk.md|Oct-2 9:01 AM "EGMs diagnostic tool" call]] (Russian) [[wiki/people/pavel.md|Pavel]] opened with "сейчас работаю над SD[K] для новой платформы под новой платформой подразумеваю и наш. Нова. Фреймворк и новые материнские платы. По базе там икс 86" — the AMD / x86 spike above, in progress (the ten days and the 8th were not mentioned). The diagnostic tool is to live "вместе с SDK проектом и репозитории" so that "сборки из SDK линукса… при каждой сборке игр" keep it current; for the RK platform "это наверное степ 2… абсолютно. Другая платформа" — so the x86 SDK comes first here too, consistent with ruling 2 above [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]. Ruling: [[wiki/decisions/2026-10-02-the-diagnostic-tool-goes-onto-the-installation-stick-and-lives-in-the-sdk-repository-both-rk-and-fp7-are-worked-out.md]]. The commitments below stand as they are.
+
 ## Open commitments
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — the spike: move the RK3568 SDK into a new repository and adapt it for AMD processors; MVP 1 = kernel, root file system, installer and bootloader builds; about 80 % expected in the first week — due in ten days, review "8 числа" (Oct 8 2026 by context) — [[raw/Meeting_Transcript_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]] [[raw/Meeting_Notes_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]] — *Sept 30 2026: taken into work — at the Minsk stand-up Pavel: "я взял а ц т 57 80… [SDK] платформы для… [процессора], то есть для нового… [н]овой материнской платы сделать [SDK]. Полноценная, чтобы собиралось все и [kernel и] файловая система" (the task key and "AMD" are the derived notes' readings; the processor word is garbled on tape)* — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]] [[raw/Meeting_Notes_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
@@ -59,9 +67,11 @@ Val: "У нас как бы получается 2 дега за сегодня,
 **§15.8:** the "bottleneck around Pavel" is recorded as a dependency fact only (what only he could do, what is now spread); Val's remarks about Pavel himself are not recorded; no pay. **§15 #9:** none.
 
 ## Sources
+- [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]
 - [[raw/Meeting_Notes_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]]
 - [[raw/Meeting_Notes_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]

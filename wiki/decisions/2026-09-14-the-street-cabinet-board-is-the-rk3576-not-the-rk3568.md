@@ -3,9 +3,9 @@ type: decision
 title: The street cabinet's board is the RK3576, not the RK3568 — the 3568 renders badly on a vertical screen
 date: 2026-09-14
 aliases: [RK3576, RK3568 vertical screen, 3576 target board, аркеи на горизонтальном телевизоре, именно 35 68, Touch Intelligent, RK3576 shipment to Minsk, 8 gigabytes, тач интеллигент, два борта]
-source-count: 7
+source-count: 10
 status: active
-open-commitments: 3
+open-commitments: 2
 open-questions: 2
 ---
 
@@ -67,21 +67,30 @@ At the [[wiki/meetings/2026-09-29-dev-environments-rk3568-sdk-amd-spike-and-ai-p
 
 Pavel's SDK commitment below stays open; whether a game has been run on the 3576 is not said.
 
+## Update, Oct 2 2026 — boards "35 67" with 8 GB have arrived; the new game goes on one in a browser
+
+At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-new-arm-boards.md|Oct-2 Minsk stand-up]] (Russian) [[wiki/people/pavel.md|Pavel]]: "Нас приехали платы. 35 67 с 8 гигабайтами памяти можно будет потом запланировать. Тестирование новой игры на. На этом [ARM]… у меня уже лежит." The plan: not a build, "саму игру просто собраться там какаято система стоит вроде дебиан или у бунты на ней как бы просто запустить… и запустить браузер смотреть, что будет. Пока что в одномониторной, наверное, конфигурации, потом смотреть дальше… памяти уже должно хватать" [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]. **The number is spoken as "35 67"**, without "RK"; the derived notes write "RK3567" [[raw/Meeting_Notes_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]. An 8 GB ARM board that has just arrived matches the two RK3576 samples with 8 GB ordered above — so these are most likely the RK3576 boards, the digits swapped on tape (**inference, not spoken**; the stub and [[wiki/topics/nova-platform-architecture.md]] (Oct 2) carry the ambiguity). If so, the "where does the order stand" question below is answered — they have arrived — and Pavel's "one game running" commitment is now planned, not done. The SDK rework was not mentioned.
+
+## Update, Oct 5 2026 — Daniil takes the new board: the game with the select screen and game stubs, to measure memory
+
+At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-reopen-rules.md|Oct-5 Minsk stand-up]] (Russian) [[wiki/people/pavel.md|Pavel]] gave the board to Daniil Stauskiy (no page): "следующая задача тебе будет надо будет взять новую плату и попробовать запустить на [ARM]… Помнишь то, что у нас не хватало памяти на старых платах?" — with the select screen and game stubs, "чтобы… видеть. Более реальную картину сколько одна игра с [game select screen] занимает и как это потом? Будет увеличиваться с добавлением игр" [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]. Which board it is was again not named (the Oct-2 "35 67"); the commitment moves to Daniil on [[wiki/topics/nova-platform-architecture.md]] (Oct 5).
+
 ## Open commitments
 
 - [ ] [[wiki/people/mikhail-perelman.md|Mikhail Perelman]] — push the RK3576 delivery to Minsk (2 samples, ~$300 plus ~$65 freight) — due urgently, Val's word was "срочно". *(Val names him as the person who **controls** the supply; the transcript does not record the instruction being given to him or accepted, and the derived notes flag the same gap as "[Needs Val's confirmation]".)* — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]] [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
-- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — on arrival of the RK3576, get at least one game running and report memory use — due on arrival — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+- [x] [[wiki/people/pavel.md|Pavel Frolov]] — on arrival of the RK3576, get at least one game running and report memory use — due on arrival — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]] — *Oct 2 2026: boards "35 67" with 8 GB have arrived (most likely these — inference); "можно будет потом запланировать. Тестирование новой игры" in a browser, one monitor first — planned, not done* — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]] — *Oct 5 2026: handed to Daniil as his next task (the memory measurement with the select screen and stubs); held on [[wiki/topics/nova-platform-architecture.md]] (Oct 5)* — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — rework the SDK for the 3576 board and build the integration repository — due unspecified — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 
 ## Open questions
 
-- **Where does the RK3576 order actually stand?** Genadi did not know whether the invoice had gone out — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+- **Where does the RK3576 order actually stand?** Genadi did not know whether the invoice had gone out — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]] — *Oct 2 2026: boards "35 67" with 8 GB "приехали" and are with Pavel; whether they are the RK3576 is an inference from the number and the memory, so the question is not closed* — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - **Does 8 GB carry the game count this machine needs?** Unmeasured on the 3576, and the July-29 measurement on a different board points the other way (above) — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 
 **§15.8:** clear — board, component and freight economics only; no named-person compensation appears in either Sept-14 12:04 file.
 
 ## Sources
 
+- [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 - [[raw/Meeting_Notes_Low_Cost_Street_Cabinet_Platform-June-9-2026.md]]
@@ -89,3 +98,5 @@ Pavel's SDK commitment below stays open; whether a game has been run on the 3576
 - [[raw/Meeting_Notes_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
 - [[raw/Meeting_Transcript_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]

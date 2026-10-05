@@ -3,8 +3,8 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, eighty percent of the general functionality, requirements are step two, a hole automated tests will not cover, acceptance criteria in general terms, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction, Figma to React, Vite, Claude Code review loop, acceptance criteria, two test warehouses, frozen test cases, test harness, test registry, no E2E tests for MVP 1, E2E micro-step, telnet hook test, 60 to 70 percent acceptance criteria, symlink to dev null, eight connection tests, money-crediting autotest]
-source-count: 58
-open-commitments: 32
+source-count: 62
+open-commitments: 37
 open-questions: 7
 ---
 
@@ -694,7 +694,50 @@ At the [[wiki/meetings/2026-10-01-transactional-mvp1-status-slice-and-sas-comman
 
 **§15.8:** clear. **§15 #9:** none.
 
+## Oct 2 2026 (4:50 AM) — Khamin on prose and the repository, Seregin's scenarios 102 / 103, Vladimir's task 34 and "I am not in the context", Irina moves to acceptance criteria and tests for FlexPay and asks for Jira to be marked, and Ivan's South Dakota autotests in parallel
+
+At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-new-arm-boards.md|Oct-2 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]:
+
+- **[[wiki/people/alexei-khamin.md|Khamin]].** "В основном сейчас [привлекаю — unclear], занимаюсь. И сегодня ещё надо будет. Както прозу добавить. Думаю я Антон попросил ещё этот [эмулятор] попробовать… Можно наверно сегодня" — prose to add, and Seregin has asked him to try the emulator ([[wiki/people/anton-seregin.md|Seregin]] by context — the Oct-1 "bring it up elsewhere" plan). Irina: "это у тебя таски [FIQU — reading]шные а?" His weekend plan: "Я буду надо привести [репозиторий в] порядок." This is the repository-structure work of Oct 1 above, now with Val's written message behind it ([[wiki/decisions/2026-09-04-point-claude-at-the-standards-repository-first.md]], Oct-2 update).
+- **Seregin's emulator.** "Над 102 103. Я поставил и не загружается контент остановиться" (garbled); "такие типа сценарии, которые. Строять дифы… а потом, ну после этого надо будет с реальным устройством. Прогнать на нём сценарий? И вот он сравнит как бы. То, что [на эмуляторе] и то что [на устройстве]. Их логически это тот же самый процесс." Irina later: "Антон, у нас один с симулятором. В принципе, если тесты пройдут нормально, то ты закончил." Seregin: "Но мне устройство бы еще проверить на устройстве… пробовать можно уже по крайней мере." See [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]] (Oct-2 update).
+- **[[wiki/people/vladimir-samusenko.md|Vladimir]].** "занимаюсь тем, что ревью лёша. Доделываю. 34 34 задачу с этой блокировками. Сейчас там не все сценарии проходят, я до разберусь с этим. Отмечу, что нужно. Какие задачи на это влияют и буду брать что то следующее" — reviewing Khamin's work and finishing task 34 (blocks); not all scenarios pass. His question: "у меня есть к [стори — "паркам джо", unclear], который я завожу. Я вчера попытался в них вникать, и это ну, типа относительно меня тормозит, потому что я не в контексте происходящего… мне как с этим жить, я имею в виду, что просто заводить и вы разбирайтесь там правильно, это неправильно… у меня много сил времени и калорий занимает разобраться, куда там порт должен слать, куда не должен слать. Какие [capabilities]? Он должен выполнять? Я не абсолютно не представляю… Этот вопрос только в моей эффективности и скорости." [[wiki/people/pavel.md|Pavel]]: "для начала, наверное, можешь голосом поговорить с ирой, пока контекст не наберётся достаточно или с лёшей"; Irina: "с кем угодно"; Pavel: "если такие вопросы возникают сначала лучше проговорить, потом будет видно… Если ну там не знаю 23 там 5 тасков. Кажется, что все понятно. Ну тогда уже можно будет и самому." Vladimir: "Окей." *(The three stories he created under Tsymanov's feature are on [[wiki/decisions/2026-10-01-completed-is-the-developers-last-step-and-a-found-problem-sends-the-feature-from-completed-back-to-to-do-as-a-story.md]], Oct-2 update.)*
+- **[[wiki/people/irina-shishko.md|Irina]].** "Заканчиваю сейчас тестами, которые были. Посмотрю, что дальше брать, а дальше значит к Владимиру лёша и ваня всё, что сделали в [Jira]. Проверьте, что отмечено закрыто, потому что нужно как бы переобновить расписание, чтобы понимать до когда это будет сделано. После этого посмотрю, как там это идёт. Возможно, начну, как я говорила, работать с этими с. [Acceptance criteria], с тестами для флекспея, что потом их следом можно было продолжать писать." Her Oct-1 "autotests first, then FlexPay" order holds; her testing update for the MVP 1 call was not given here ([[wiki/decisions/2026-09-28-october-15-replaces-october-1-as-the-mvp1-date.md]], Oct-2 annotation).
+- **[[wiki/people/ivan.md|Ivan]].** On South Dakota: "Эти автотесты в параллели тут как могу, так и пишу" — the South Dakota autotests written in parallel with the Eclipse submission ([[wiki/projects/south-dakota-vlt-market.md]], Oct 2). Kharetski: "Вчера с ваней, я работал по статистике" — the statistics work with Ivan ([[wiki/people/evgeny-kharetski.md]], Oct 2).
+
+The derived notes record the same [[raw/Meeting_Notes_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]].
+
+**§15.8:** clear — work status. Vladimir's "моей эффективности" is his own remark about context, recorded as a working-method point, not as a judgement of him. **§15 #9:** none.
+
+### Open commitments (Oct 2 2026, 4:50 AM)
+
+- [ ] [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] — finish task 34 (the blocks), work out why not all scenarios pass, note which tasks affect it, then take the next task; talk through the stories he creates with Irina or Khamin first — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]] — *Oct 5 2026: he is on task 769 (screens and texts); 34 not mentioned* — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+- [ ] [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]], [[wiki/people/alexei-khamin.md|Alexei Khamin]], [[wiki/people/ivan.md|Ivan]] — check that everything they have done is marked closed in Jira, so Irina can refresh the test schedule (her request; nobody answered) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — try Seregin's emulator ("Можно наверно сегодня") — due Oct 2 2026 — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]] — *Oct 5 2026: not declared done; he asked Seregin how the emulator is built and kept in step with the main code, and will "посмотрю, что что есть"* — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+
+## Oct 5 2026 (4:54 AM) — Khamin's weekend (rules, pull requests, CI/CD at 3 of 5, prose) and tests from the 7th; the card-test stand debate goes to a separate meeting; Irina reworks the wallet-creation requirements; Ivan's new build then autotests; Tsymanov cut the Flex IQ tests to five minutes; Vladimir on task 769; and how the emulator follows the main code
+
+At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-reopen-rules.md|Oct-5 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]:
+
+- **[[wiki/people/alexei-khamin.md|Khamin]].** "За выходные, что делал? Подправил нет тесты я не писал поправил правила, которые. Для этот [trazsaler — unclear]. Плюс перепроверял все пиарки для Того, чтобы понять, какие ещё новые дополнительные правила стоит ввести, и CICD начал делать уже там. На 3 из 5 шагов. Ну и плюс параллельно началось уже заполнение немножко прозы, но это отдельным отдельным шагом ещё буду делать." Irina: "что ты планируешь по автотестам с самим по написанию?" — "Я думаю, я сегодня [с ними] закончу очень надеюсь. И ещё день на прозу мне понадобится. Потом тест." Irina: "то есть с 7 числа. Начнешь тесты окей." — "Да." (This is the repository-structure and rules work of Oct 1–2 above.)
+- **The stand.** Irina: "у лёши в основном стоят с карточками, связанные тесты… У нас же есть какие то я не знаю эмуляторы, заглушки, затычки. Как вот с этими картами?" — the argument that followed (real or fake InComm; a 15–20 GB stand; cloud or the office; a Flex IQ build variant that fakes card issuance; "это не [MVP] один") is on [[wiki/decisions/2026-10-05-the-payment-hub-autotest-stand-is-not-mvp1-and-a-separate-meeting-with-andrei-designs-it.md]]. What the current tests are for, in Irina's and Chudinov's words: "Просто проверить, что работает система, которую вы. Создали" / "В данный момент это просто проверить, что они запускаются."
+- **[[wiki/people/irina-shishko.md|Irina]].** "Сейчас ещё раз требования буду разбираться с этим, когда создание кошелька. Когда там записи, какие появляются при при выводе на. [Спарта — unclear] если нет кошелька, нужно будет это поменять кое что. Что там такое расплывчатое у нас в требованиях?" Her Oct-2 "acceptance criteria and tests for FlexPay" plan was not mentioned.
+- **[[wiki/people/ivan.md|Ivan]].** "Я собрал новую [сборку]. То есть сейчас уже записано флэшку поставлю, будем смотреть то что. Он тогда просил обновлённые эти минимальные данные… И дальше авто тесты в параллели" (who "он" is and which minimum data — **unclear**; the 40-cent South Dakota minimum of Oct 2 by context — inference).
+- **[[wiki/people/sergey-tsymanov.md|Tsymanov]].** "Сейчас занимаюсь репринтом для при выпуске карточки… А ну ещё уменьшил тесты время тестов за. [Flex IQ]. 5 минут выполнять." Pavel: "Зачем?" — no answer recorded.
+- **[[wiki/people/vladimir-samusenko.md|Vladimir]].** "Занимаюсь это тестами сейчас 7 69. Там задача с проверкой экранов и текстов. Там задача будет на меня [подработки — unclear] сравнивать правильно." Task 34 and task 41 were not mentioned.
+- **How the emulator follows the main code.** Khamin, at the end: "у нас есть сейчас [эмулятор] терминала так, а вот откуда он собирается этот [эмулятор]? То есть сейчас, допустим, [Дима] несёт правки в код там про [анклеймед мани], как мы это на эмуляторе получим?" [[wiki/people/anton-seregin.md|Seregin]]: "собираешь там есть скрипты внутри [репозитория]? По дефолту там берётся из мейна. Ну ты можешь указать с какой то ветки хочешь"; a ready image can be used; "Там долго эта сборка, поэтому и она создаёт лишний образ ну образ это как бы и деньги компании." Pavel's alternative — an emulator artifact attached to every Flex IQ build — Khamin: "не слишком ли это вес? Добавит сборкам… на каждый [билд] будет ещё один артефакт достаточно тяжёлый"; Seregin: the script "есть, он в репозитории… у него есть параметризация… Можно в какую хочешь версию собирать"; Khamin: "Посмотрю, что что есть." Detail on [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]] (Oct-5 update).
+
+The derived notes record the same [[raw/Meeting_Notes_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]].
+
+**§15.8:** clear — work status. **§15 #9:** none; task 769 is a work reference.
+
+### Open commitments (Oct 5 2026, 4:54 AM)
+
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — finish the test rules today, spend one day on prose, then start writing the tests from Oct 7 — due Oct 7 2026 — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — rework the vague wallet-creation requirements (what records appear when there is no wallet) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]]
@@ -754,3 +797,5 @@ At the [[wiki/meetings/2026-10-01-transactional-mvp1-status-slice-and-sas-comman
 - [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]

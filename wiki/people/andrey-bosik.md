@@ -4,8 +4,8 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 113
-open-commitments: 48
+source-count: 116
+open-commitments: 50
 ---
 
 # Andrey Bosik
@@ -569,7 +569,37 @@ On the [[wiki/meetings/2026-10-01-transactional-mvp1-status-slice-and-sas-comman
 
 - [ ] Andrey Bosik — once Ivan's SIM is free, run the firewall test cases with Claude on terminal 84 — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 
+## Oct 2 2026 (4:50 AM, in absentia) — "Андрей сделал… секьюрити полиси", and the SDK must be rebuilt
+
+At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-new-arm-boards.md|Oct-2 Minsk stand-up]] (Russian; he was not on it) [[wiki/people/dmitri-chudinov.md|Chudinov]]: "а ещё Андрей сделал по. Секьюрити по лэ. Там с д к надо пересобирать, в общем… я тогда собираю на новый билд… и Андрей свою часть смотрит и и по машинам посмотрим" — a security policy by "Андрей" (Bosik by context — the firewall / security work of Oct 1; inference), which needs the SDK rebuilt; he will check his part on the machines once the new build is on terminal 84. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 2, 4:50 AM) [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]].
+
+## Oct 2 2026 (7:32 AM) — the AI PM status: designed, coding, 318 transcripts, the "Listener", Whisper to MVP 2, GitHub as the store, and Tuesday at 7
+
+On the [[wiki/meetings/2026-10-02-ai-pm-status-listener-core-and-318-transcripts.md|"Design_AI-PM - status" call]] (Russian; label "Andrei Bosik") he gave the first status since taking the project on Sept 29 [[raw/Meeting_Transcript_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]]:
+
+- "Спроектировал всю систему, так как она выглядит на данный момент… И перешли уже реализовывать."
+- "Мы смогли собрать все доступные нам историю встреч… 318 расшифровок, они собрались с июля 25, потому что есть ограничения по хранению."
+- "Подготовили… Базовое ядро… Я назвал это листонер это тот, кто будет превращать то, что было сказано на митингах в черновики задачи в джие… читает в том числе и русские расшифровки"; "Переиспользовал клейтона немножко механизм" ([[wiki/people/clayton-chancey.md|Clayton]] by context).
+- Whisper with the glossary — "очень большой объём… долго по времени и… приличных денег… перевёл всё в MVP 2… На [MVP] один пока что будем использовать готовые расшифровки" — [[wiki/decisions/2026-10-02-ai-pm-mvp1-uses-the-teams-transcripts-as-they-are-and-whisper-re-transcription-waits-for-mvp2.md]].
+- "личность то, что вы прислали… дописал немножко. Собрал ему знания немножко"; to Val's "Где вы их храните?": "пока забрал, но ещё не храню, но они будут обрабатываться и будут храниться в [GitHub]… репозиторий будет использоваться как база для последующего проджект менеджера… Возможно, в будущем… в какуюто реальную базу данных, типа там [SQLite] или в какуюто векторную."
+- "попросил [Клода], и он пытается сделать вот этот голосового участника… пока сложно"; "литературу подкачали с [Клодом]… положили её в репозиторий для [PM]"; the knowledge base — Jira, GitHub and "вот эти отчёты" (unclear which); "прямо сейчас параллели с вами говорю пишет код."
+- "во вторник на 14 ноль ноль по Минску на 07:00. По вашему времени… пока вот такой краткий отчет."
+
+Discharged by this: his Sept-29 architecture-design and transcript-collection items; still open: the second brain itself, the persona, the dry run — all on [[wiki/decisions/2026-09-29-bosik-owns-the-ai-pm-the-meeting-bot-waits-and-the-second-brain-is-built-first.md]] (Oct-2 update); the status itself on [[wiki/projects/ai-project-manager-and-company-second-brain.md]] (Oct 2).
+
+## Open commitments (Oct 2 2026, 7:32 AM)
+
+- [ ] Andrey Bosik — process the 318 transcripts and store them in the GitHub repository that will be the project manager's base — due unspecified; next status Tuesday Oct 6 2026 — [[raw/Meeting_Transcript_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]]
+- [ ] Andrey Bosik — the next status report on the AI PM — due Tuesday Oct 6 2026, 7:00 AM Eastern / 14:00 Minsk — [[raw/Meeting_Transcript_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]]
+
+## Oct 5 2026 (4:54 AM, in absentia) — "Андрей" in the autotest-stand debate: against a separate environment, and the one to take it to
+
+At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-reopen-rules.md|Oct-5 Minsk stand-up]] (Russian; he was not on it) "Андрей" was named throughout the stand argument — [[wiki/people/dmitri-chudinov.md|Chudinov]]: "Надо надо открывать система вместе с Андреем и думать, как всё это будет разворачиваться"; "Я с Андреем говорил. Он был несколько против, потому что отдельный [environment] поднимать… Ктото захочет одну ветку… перепроверить, Андрей запретит на это разворачивает отдельные [environments]"; [[wiki/people/pavel.md|Pavel]]: "гдето поднять на нашем внутреннем сервере? На виртуальном Андрей же это сможет сделать, да?"; [[wiki/people/sergey-tsymanov.md|Tsymanov]]: "просто Андрею отдать, чтобы он сказал там вот наша репозитория разверни гдето на отдельной машине"; Chudinov: "отдельный митинг, и туда Андрея надо" [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]. Resolved to him **by context** (environments, deployment, what may be stood up — inference). Ruling: [[wiki/decisions/2026-10-05-the-payment-hub-autotest-stand-is-not-mvp1-and-a-separate-meeting-with-andrei-designs-it.md]]; the meeting is Pavel's commitment there.
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+- [[raw/Meeting_Transcript_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]

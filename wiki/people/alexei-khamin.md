@@ -3,8 +3,8 @@ type: person
 title: Alexei Khamin
 date: 2025-04-22
 aliases: [Alexei Khamin, Aliaksey Khamin, Alexey Khamin, Khamin, Хамин, Khanin, Ханин, Kamin, Alexey Kamin, Lyosha, Лёша]
-source-count: 28
-open-commitments: 13
+source-count: 30
+open-commitments: 17
 ---
 
 # Alexei Khamin
@@ -195,10 +195,30 @@ At the [[wiki/meetings/2026-10-01-daily-standup-sas-mode-flag-and-feature-status
 
 ## Open commitments (Oct 1 2026)
 
-- [ ] Alexei Khamin — make the repository-structure changes so the test repositories work properly, reviewing the team's pull requests meanwhile — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [ ] Alexei Khamin — make the repository-structure changes so the test repositories work properly, reviewing the team's pull requests meanwhile — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]] — *Oct 2 2026: "сегодня ещё надо будет. Както прозу добавить"; weekend plan "привести [репозиторий в] порядок"* — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+
+## Oct 2 2026 — prose to add, Anton's emulator to try, and the repository in order over the weekend
+
+At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-new-arm-boards.md|Oct-2 Minsk stand-up]] (Russian; label "Alexey Khamin") [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]: "В основном сейчас [привлекаю — unclear], занимаюсь. И сегодня ещё надо будет. Както прозу добавить. Думаю я Антон попросил ещё этот [эмулятор] попробовать… Можно наверно сегодня" (Anton = [[wiki/people/anton-seregin.md|Seregin]], by context — inference). Irina: "это у тебя таски [FIQU — reading]шные а?" In the weekend round: "Я буду надо привести [репозиторий в] порядок" — after Val's written message to put the repositories in order ([[wiki/decisions/2026-09-04-point-claude-at-the-standards-repository-first.md]], Oct-2 update). Vladimir is reviewing his work ("ревью лёша"); Irina asked him, Vladimir and Ivan to mark their done items in Jira. See [[wiki/topics/test-automation-strategy.md]] (Oct 2).
+
+## Open commitments (Oct 2 2026)
+
+- [ ] Alexei Khamin — try Seregin's emulator — due Oct 2 2026 ("Можно наверно сегодня") — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]] — *Oct 5 2026: not declared done; he asked how the emulator is built and kept in step with main, and will look at the scripts* — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+- [ ] Alexei Khamin — bring his repository into order over the weekend of Oct 3–4 2026 — due Oct 5 2026 — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]] — *Oct 5 2026: the weekend went on the rules, the pull-request review and CI/CD (3 of 5 steps); "repository in order" as such not declared done* — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+
+## Oct 5 2026 — the weekend's rules and pull-request review, CI/CD at 3 of 5 steps, tests from the 7th, the "Files changed" tab, and "откуда он собирается этот [эмулятор]?"
+
+At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-reopen-rules.md|Oct-5 Minsk stand-up]] (Russian; label "Alexey Khamin") [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]: "За выходные… поправил правила… Плюс перепроверял все пиарки для Того, чтобы понять, какие ещё новые дополнительные правила стоит ввести, и CICD начал делать уже там. На 3 из 5 шагов… началось уже заполнение немножко прозы"; to Irina: "я сегодня [с ними] закончу очень надеюсь. И ещё день на прозу мне понадобится. Потом тест" — "то есть с 7 числа" — "Да." Irina named his card tests as the reason for the stand question. To Pavel's missing approve button: "Иди в файл с чейжит? Табу." At the end: "у нас есть сейчас [эмулятор] терминала так, а вот откуда он собирается?… как мы это на эмуляторе получим?"; "мне нужно, чтобы эмулятор соответствовал… коду основного приложения"; on an artifact per build: "не слишком ли это вес? Добавит сборкам"; "Посмотрю, что что есть"; and the letter on "киоск" → "терминал": "У нас и в [Jira] тоже эти фичи названы тоже с киоском. Такой себе." See [[wiki/topics/test-automation-strategy.md]] (Oct 5) and [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]] (Oct-5 update). ("аккумулятор" / "акмулятор" read as emulator — inference.)
+
+### Open commitments (Oct 5 2026)
+
+- [ ] Alexei Khamin — finish the test rules today, one day on prose, then start writing the tests from Oct 7 — due Oct 7 2026 — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+- [ ] Alexei Khamin — look at the emulator's repository scripts and parameters and build it to match the main application's code — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]

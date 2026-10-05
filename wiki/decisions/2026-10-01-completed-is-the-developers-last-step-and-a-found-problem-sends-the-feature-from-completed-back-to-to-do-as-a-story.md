@@ -3,9 +3,9 @@ type: decision
 title: "Completed" is the developer's last step on a feature; a problem found while development is still going sends the feature from Completed back to To Do (not In Progress) with a Story, not a Bug — and every feature links to the requirements it covers
 date: 2026-10-01
 aliases: [Completed to To Do, из комплект в туду, Completed is the developer's final step, финальной степ для разработчика, story not bug, пока ты разрабатываешь нет бага, Request Review was for Lena's team, реквест ревью был только для лениных, FP-85 story under a closed feature, feature linked to requirements, autotests are written on requirements, мы пишем на требования, Kovalchuk adds the transition, Хорошо я добавлю, reopen a Completed feature]
-source-count: 2
+source-count: 5
 status: active
-open-commitments: 1
+open-commitments: 2
 open-questions: 1
 ---
 
@@ -43,16 +43,30 @@ In one line: **To Do → In Progress → Completed (the developer's last step). 
 - The discipline email that started it is Kovalchuk's daily report — [[wiki/decisions/2026-09-17-planning-comes-off-pavel-and-goes-to-an-application-administrator.md]] (Oct-1 update).
 - The derived notes record the same ruling and the same attribution (Pavel and Irina; Kovalchuk to configure) and add that problems during development are Stories, not Bugs [[raw/Meeting_Notes_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]. They omit Pavel's first position (Request Review until the autotest passes).
 
+## Update, Oct 2 2026 — the reopened feature shows as overdue, and "whoever takes a feature into work updates its schedule with Pavel or Irina"
+
+At the next morning's [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-new-arm-boards.md|Oct-2 stand-up]] (Russian) the rule met its first side effect [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]. [[wiki/people/pavel.md|Pavel]] to [[wiki/people/sergey-tsymanov.md|Tsymanov]]: "Просьба посмотреть на вот эти вот красные таски, которые просроченные… Вот с 15 сентября 29 сентября 1 октября." Tsymanov: "это не просроченное это закрыть надо. Я просто брал вчера задачу. На неё Владимир создал [story]. Вот и я их фиксел. Получается мне переоткрыли эту фичу. И [фичу] но но дату не поменяли." Pavel: "Давай поменяем." [[wiki/people/vladimir-samusenko.md|Vladimir]]: "я их не назначал на исполнителя, ты их сам себе забрал" — "Да." [[wiki/people/irina-shishko.md|Irina]]'s rule: "**Никто из [QA] не может тебе назначить дату. Поэтому, если какуюто фичу берёшь в работу, получается, её нужно обновлять расписание. Либо. К паше подойти либо ко мне.**" Pavel: "Угу." The derived notes record it as a decision by Irina [[raw/Meeting_Notes_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]].
+
+So the Oct-1 flow gains a step: **a feature that comes back from Completed to To Do with a story gets its dates refreshed by the developer who takes it, through Pavel or Irina** — otherwise it shows red in Kovalchuk's report. Kovalchuk's transition change below was not mentioned.
+
+## Update, Oct 5 2026 — the rule climbs to the capability and becomes automatic
+
+At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-reopen-rules.md|Oct-5 Minsk stand-up]] (Russian) [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] reported four weekend automations — "если все дочерние фичи в статусе. Комплект то [капабилити] должна будет автоматически перевестись [в] реквист ревью" — and [[wiki/people/dmitri-chudinov.md|Chudinov]] asked for the mirror of this rule one level up: a story created under a Completed feature should send "в туду и тот и тот" — the feature and its capability. Irina: "пускай будет всё в [туду] и сам переведёшь в [In Progress], когда возьмёшь эту сторию в работу"; Kovalchuk: "[фичу] из комплитов в [To Do] переводим… Из [Request Review] туда" [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]. Ruling and quotes: [[wiki/decisions/2026-10-05-a-capability-moves-itself-to-request-review-when-all-its-features-are-completed-and-a-new-story-sends-feature-and-capability-back-to-to-do.md]]. The Oct-1 feature rule stands unchanged inside it (**evolution**, not contradiction). Chudinov's "Как минимум фичу я могу в туду сам перевести" suggests the Oct-1 transition is already in the workflow — **inference**; nobody said so.
+
 ## Open commitments
 
-- [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — add the Completed → To Do transition to the feature workflow in Jira — due unspecified ("Хорошо, я добавлю") — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — add the Completed → To Do transition to the feature workflow in Jira — due unspecified ("Хорошо, я добавлю") — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]] — *Oct 2 2026: not mentioned* — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]] — *Oct 5 2026: Chudinov can already move a feature to To Do himself (so the transition seems in place — inference); the automated version, with the capability, is his new commitment on the Oct-5 decision page* — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+- [ ] [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] — update the dates on the feature reopened by Vladimir's stories (Pavel: "Давай поменяем") — due Oct 2 2026 — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 
 ## Open questions
 
-- **Does Request Review stay in the feature workflow at all?** Irina wanted either Completed or Request Review, not both; Pavel first wanted Request Review to hold a feature until its autotest passes; Kovalchuk said the status was made for Lena's team and never used for developers. The ruling made Completed the last step and left Request Review where it is — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- **Does Request Review stay in the feature workflow at all?** Irina wanted either Completed or Request Review, not both; Pavel first wanted Request Review to hold a feature until its autotest passes; Kovalchuk said the status was made for Lena's team and never used for developers. The ruling made Completed the last step and left Request Review where it is — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]] — *Oct 5 2026: Request Review now has a use for **capabilities** (all child features Completed → the capability goes there by itself); the feature-level question is still open* — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 
 **§15.8:** clear — Jira process only. Irina's "почему ты решил, что твой клод… наш клод глупее" is banter, not recorded. **§15 #9:** none; FP-85 is a work reference.
 
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]

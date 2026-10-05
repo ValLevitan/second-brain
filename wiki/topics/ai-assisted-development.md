@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, truth as code, knowledge work framework, keep Jira current, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, Copilot Studio, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest, LaTeX, printer tool, Ollama, llama.cpp, local inference, Code Llama, Hugging Face, Claude Code, AI sandwich, developer experience, think like a data scientist, sub-agents, verbose output, compiler layer, ways vs skills, ADR, cross-examination, Python Vulture, intelligence center, Waze system, ways framework, compiler stack diagram, module federation, Aaron ways system, Ways ADR, Ways capabilities catalog, regulatory provenance chain, JVL Ways pipeline, ways branch architecture, trusted stage users, clean environment lesson, engagement auditor agent, translation service, terminology override table, GitHub Enterprise fork, JVL GitHub Ways architecture guide, Capability Ticket, Jira hierarchy restructure, engineering guides, architecture black hole, Piratka, prose standard, code to prose, capability extraction, 29 capabilities, AI flattery caution, agent setup, prose initialization skill, prose skill, dependency-tree mapping, prose pending folder, contracts written by Claude, development pipeline end to end, clean-session evaluation, naming by Claude]
-source-count: 172
+source-count: 173
 ---
 
 # AI-assisted development adoption
@@ -1014,8 +1014,20 @@ On the [[wiki/meetings/2026-10-01-genadi-io-board-chips-flat-bom-pilot-and-stree
 
 **§15.8:** Val's sharper remarks at Genadi on this call are held; personal matters not recorded. **§15 #9:** none.
 
+## Oct 2 2026 (4:50 AM) — "a constant war with Claude": branches opened and named on its own, the Claude plugin's issues go to the plugin repository, Claude's review of the login agent, and "ask Claude to move the dates"
+
+At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-new-arm-boards.md|Oct-2 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]:
+
+- **Claude opens branches.** [[wiki/people/sergey-tsymanov.md|Tsymanov]] had a note from Val: "[Вал] пишет, что у меня есть какие то фича в гетхабе, а это не соответствует. Связанным… Ты где фичь? У нас должны быть [Jira] или в гетхабе." Irina: "В [Jira] фича в [GitHub] относительно этой фичи открыт фича бранч." [[wiki/people/dmitri-chudinov.md|Chudinov]]: "Важно префикс не совпадает. Мало информации." [[wiki/people/alexander-biratka.md|Biratka]]: "может быть, клод открыл фичку, как раз таки в гетхабе… у меня клод иногда пытался открывать фичи прям в [GitHub]… Проджекс помоему." Tsymanov: "ему не не нравится, что клод, когда создал бранч, скорее всего… к фичи приотачивал этот бранч. А ими не соответствует какимто этого бранча." [[wiki/people/pavel.md|Pavel]]: "**с клодом постоянно идёт такое такая война, что если он сам вдруг начинает ни с Того, ни с сего открывать бранчи направо налево. Или там давать имена какието от балды, вместо Того чтобы в джиру залезть и посмотреть, какие там есть. За этим надо следить, да? Иначе на один раз такое сделает о прокатило всё нормально. Пользователь устраивает, давай дальше так буду делать.**" What exactly Val flagged was not settled.
+- **The Claude plugin's issues.** Chudinov: "[Claude] параллельно… было там чтото он писал, что надо доработать этот агент вот этот вот логин. Я посмотрел на каком [pull request] он там сделал. Комментарий может соберу и Владимира скину. Не знаю, это вообще плагин на плагина. Она тоже, наверное, должен быть требовать истории." [[wiki/people/vladimir-samusenko.md|Vladimir]]: "[плагин] есть репозитория, которая там подключаешь и если в плагине есть баги заводите [issue] к этому репозиторию… Да просто скажи ему, он сходи в репу, заведи её на всем доступно." Chudinov: "я сессию не закрывал, я тогда соберу все недочёты и и что нибудь заведём… скиньте может в чат что [за репа]? У меня наверное какие доступа нет." Vladimir: "сейчас скину, окей?" *(The plugin is Vladimir's prose skills of Sept 1–3 above by context — inference; the call says only "плагин".)*
+- **Prose for archived repositories — no.** Chudinov: "у нас есть [репозитории], которая уже. Наверное, ближе к статусу архив. Мы будем на них прозу делать. Это старая [абдатор — updater]." Pavel: "Нет, нет, там, скорее всего может быть прозы нету, но там [description] вполне себе нормальный был, но нет смысла… мы его точно не будем использовать." See [[wiki/decisions/2026-09-04-point-claude-at-the-standards-repository-first.md]] (Oct-2 update).
+- **Claude moves Jira dates.** [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]]: "хотел попросить не забивать на счет жира дисциплин и и просить клоды. Тогда есть ли там нужно подвинуть сроки? Он замечательно подвиннет там попросить его подвинуть сроки на завтра и на такое число есть ручками. Это тяжело делать" — the Sept-25 point above restated: moving dates by hand is hard, ask Claude. See [[wiki/decisions/2026-09-17-planning-comes-off-pavel-and-goes-to-an-application-administrator.md]] (Oct-2 update).
+
+**§15.8:** clear. **§15 #9:** none.
+
 ## Sources
 - [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Notes_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
 - [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Clayton_Chancey_Initial_AI_Consulting_Engagement-January-23-2026.md]]

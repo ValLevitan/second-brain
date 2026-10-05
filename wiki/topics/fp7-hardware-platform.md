@@ -3,7 +3,7 @@ type: topic
 title: FP7 hardware platform
 date: 2026-07-12
 aliases: [FP7, FR7, FG7, FP-7]
-source-count: 5
+source-count: 6
 ---
 
 # FP7 hardware platform
@@ -57,8 +57,13 @@ At the [[wiki/meetings/2026-01-28-gli-omni-platform-certification-kickoff.md|GLI
 - **Scope of the hardware change.** Val asked: "Is it just a logic board, or are we changing the I.O. board." Pavel said Gennady ([[wiki/people/genadi-peari.md|Genadi Peari]], by context) had updated the hardware documents; "it's minor changes", linked to "some new printers" as an optional device. [[raw/Meeting_Transcript_GLI_Omni_Platform_Certification_Kickoff-January-28-2026.md]]
 - **Re-testing.** Val's assumption: because the cabinet is already approved, "things like electrical or discharge is not applicable". Dan Lewis's reply is garbled ("Yes, that's not good, especially if it's just a logic… A few hours."), so what GLI will re-test is unclear. [[raw/Meeting_Transcript_GLI_Omni_Platform_Certification_Kickoff-January-28-2026.md]]
 
+## Oct 2 2026 — FP-7 is "икс 86 платформа и в основном для казино", and the diagnostic tool goes on its install stick
+
+On the [[wiki/meetings/2026-10-02-diagnostic-tool-on-the-install-stick-for-nova-fp7-and-rk.md|Oct-2 9:01 AM "EGMs diagnostic tool - NOVA-FP-7" call]] (Russian) [[wiki/people/pavel.md|Pavel]] placed FP-7 "для записи": "мы говорим сейчас о 2 разных продуктах, 1 из них это RK [based], то есть на арм платформе то что для стрит машин. И это будет идти быстрее и 2 платформа [FP-7] это икс 86 платформа и в основном для казино." The new platform he is building the SDK for is "Нова. Фреймворк и новые материнские платы. По базе там икс 86" — the NOVA framework on the new x86 boards. The diagnostic tool is to ship on the FP-7 installation USB stick, built from the SDK, with "новая [FP-7] материнка и какойто там график юзер интерфейс продумать ну современный" as the main new work; "RK… это наверное степ 2" [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]. Ruling: [[wiki/decisions/2026-10-02-the-diagnostic-tool-goes-onto-the-installation-stick-and-lives-in-the-sdk-repository-both-rk-and-fp7-are-worked-out.md]]; the SDK spike on [[wiki/decisions/2026-09-29-the-amd-environment-is-rebuilt-from-the-rk3568-sdk-pavels-ten-day-spike-and-the-rk3576-waits.md]]. (Which AMD part the FP-7 board carries now was not said; the Jan-2025 numbers above are not updated by this.)
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]
 - [[raw/fp-7_performance_analysis_january_13_2025.md]]
 - [[raw/game_design_january_16_2025.md]]
 - [[raw/fr-7_identifying_bottlenecks_in_performance_during_testing_january_17_2025.md]]
