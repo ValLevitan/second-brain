@@ -1,7 +1,7 @@
 ---
 type: overview
 title: Second Brain — Overview
-updated: 2026-09-28
+updated: 2026-10-05
 ---
 
 # Overview — state of the wiki
@@ -10,27 +10,27 @@ A short, plain-language snapshot for the owner. Refreshed at each lint pass.
 
 ## What's in here now
 
-The wiki holds **1,441 content pages** built from **1,456 raw source files** — the complete backlog (2025-01-01 through mid-2026) plus weekly steady-state intake, now current **through Monday September 28 2026**. Everything traces to a source with an inline citation. The 2026-09-28 run (batches 242–252) absorbed a **large late back-fill** — ~50 January–August 2026 meetings the meeting pipeline filed into closed month folders on Sept 22–25 — plus every September recording from Sept 17 to Sept 28.
+The wiki holds **1,495 content pages** built from **1,521 raw source files** — the complete backlog (2025-01-01 through mid-2026) plus weekly steady-state intake, now current **through Monday October 5 2026** (the 4:54 AM Minsk stand-up of that morning). Everything traces to a source with an inline citation. The 2026-10-05 run (batches 253–257) absorbed **33 recordings = 24 meeting events** from Sept 28 to Oct 5: the Sept 28–30 investor / joint-venture arc with Larry Sharon and his partners and the Alan Litwack calls, the Minsk stand-ups and the daily Transactional MVP 1 calls, the "Design_AI-PM" meetings about an AI project manager and a company second brain, the GitHub → Business Central bill-of-materials thread with Genadi, Nathan and Lev, and the Oct-1 purchase-order / inventory calls. September 2026 is closed with a month-close manifest; October is open.
 
-By kind (lint pass, 2026-09-28):
-- **People — 140.** Val, the Minsk engineering team, commercial/field, corporate officers, contractors, and external operators/counterparties. The six owner-ruled same-name clusters plus four provisional ones (Kyle, Mauricio, Joe, Patel) all carry a shared `disambiguation:` block, **mechanically checked**.
-- **Organizations — 59.** Operators, vendors, labs, banks, regulators and counterparties (new this run: Pyramid Technologies, Allenson, Crane CPI, Wells Fargo, Dwolla, Epic Amusement, Dynamic Gaming, NCR Atleos, State Farm Arena).
+By kind (lint pass, 2026-10-05):
+- **People — 141.** Val, the Minsk engineering team, commercial/field, corporate officers, contractors, and external operators/counterparties (new this run: Larry Sharon — surname from recording labels only, never spoken). The six owner-ruled same-name clusters plus the provisional ones all carry a shared `disambiguation:` block, **mechanically checked** this pass.
+- **Organizations — 59.**
 - **Topics & Concepts — 59**, grouped in the index under 6 sub-headings.
-- **Projects — 10.**
-- **Decisions — 269**, grouped in the index under 5 sub-headings.
-- **Meetings — 904.** Thin stubs, grouped by month, complete through **Sept 28 2026**.
-- **Open items (frontmatter totals):** 1,778 open commitments and 864 open questions across all pages. The rollup lists below this block are the historical early-batch rollup; the live per-page lists are authoritative.
+- **Projects — 12** (new this run: the investor-funded transactional-equipment "depreciation deal", and the AI project manager / company second brain).
+- **Decisions — 296**, grouped in the index under 5 sub-headings (27 new this run).
+- **Meetings — 928.** Thin stubs, grouped by month, complete through **Oct 5 2026**; a new `### October 2026` heading was opened.
+- **Open items (frontmatter totals):** 1,966 open commitments and 949 open questions across all pages (7 lines quarantined as `blocked-on-*`). The rollup lists below this block are the historical early-batch rollup; the live per-page lists are authoritative.
 
 ## Health
 
-- **Verification:** every batch has passed the ≥9/10 gate; actual counts logged per batch. The 2026-09-28 run checked **283 facts across 11 batches — 283/283 held**, well over a third against Russian source strings.
-- **Structure:** index=disk bijection **exact (1,441 = 1,441)**, zero duplicate catalog lines, zero new dangling links (the only hits are old prose placeholders such as "raw/…"), artifact-tag scan clean, every content page has a `## Sources` list (the corporate/financial register excepted by design), **zero body-cited-but-unlisted raws**, and every index line's "(N sources)" now matches its page.
-- **Orphans:** **0** non-meeting pages without an inbound link from a substance page.
-- **Same-name clusters:** all 6 owner-ruled clusters and all 4 provisional ones pass the mechanical shared-block check.
-- **Regression drift-guard (2026-09-28):** 10 facts re-checked from older batches — **10/10 hold**; one minor quoting liberty (a paraphrase of Aaron's GitHub example shown inside quotation marks on the AI-development topic) noted, not a factual error.
-- **Privacy and identifiers — the run's main operational finding:** the upstream meeting pipeline now writes **banking details and log-in identifiers into the transcripts and their notes**. This run caught and stripped **four** such cases in `raw/` before commit (a CIBC account and routing number, spoken online-banking company IDs, a holding-company margin-account ending plus a transit number, a web user name). Nothing reached a wiki page or git history. The weekly intake is currently the only place this gets cleaned.
-- **The standing data-quality finding:** the derived notes keep altering their source — and this run found a new pattern: the notes-writer **mixes content between meetings of the same week** (Feb-27↔Mar-4↔Mar-9 Rich Winley calls; Aug-25 Epic ↔ Aug-27 ARC). The transcript remains the fact.
-- **Open contradictions are held open, not resolved:** the Passport question (engineers' plan to switch it off vs Val's defence, Sept 24); single-SAS share (seven estimates); Texas net win per device per day; Clayton's build time; Nebraska first-install date; the 2011-680 balance and JVL losses; the video deck on the basic street machine.
+- **Run of 2026-10-05 (batches 253–257):** every batch passed the ≥9/10 gate. **250 facts checked across 5 batches — 250/250 held**, 183 of them against Russian source strings. One paraphrased alias (not a fact) was removed. Regression drift-guard: 12 numeric facts re-checked from 2025 pages — **12/12 hold** (two needed the source read: a "11 85" garble, and a notes-vs-transcript cite).
+- **Structure (this pass):** index=disk bijection **exact (1,495 = 1,495 = 1,495)**, zero duplicate catalog lines, index "(N sources)" tails match every page, zero dangling links in content pages, artifact-tag scan clean, every raw cited by its page is in that page's Sources list, **0 orphans**. Every raw file is either cited by a page (1,492) or ledgered in `skipped.md` (5 §12-skipped twins) — nothing staged and forgotten. The seven pages whose `source-count` exceeds their raw-link count do so by design (they also count Corporate-Registry / Constitution documents).
+- **Same-name clusters:** all owner-ruled clusters (Dima 3, Zhenya 3, Anton 3, Igor 5, Andrei 3, Misha 2) and all provisional ones (Alexander 3, Patel 3, Joe 2, Irina 2, Pavel 2, Salim 2, Kyle 2) **pass the mechanical shared-block diff — 1 distinct block each.**
+- **GitHub is behind — one owner action needed.** The 28 September privacy cleanup rewrote the local history (personal passages purged) but that rewrite was never pushed; the remote still holds the old history. A lease-guarded force push is the only correct remedy (a plain pull-and-push would put the personal passages back into GitHub's history). The scheduled run's permission policy declined the force push, so **all of this run's commits are local only** until the owner runs it once. Nothing is lost.
+- **Privacy:** at staging the run cut 5 passing family remarks from 5 new raws; the writers found 10 more (a counterparty's new baby, a partner's house and lease, an adviser's divorce, Val's health wish, an engineer's family phone story) — all replaced by the marker line before commit. §15 #9 identifier scan clean on all 66 new files.
+- **Open contradictions are held open, not resolved** (32 pages carry an `## Open contradictions` section). New this run: is there a printer in the street machine at all (Val's Sept-25 "deeper so the printer fits" vs Genadi's Oct-1 "принтера не будут никогда стоять"). Still open: the Passport switch-off vs "a great feature"; single-SAS share; the video deck on the basic street machine; Texas net win; Clayton's build time; Nebraska first-install date; the 2011-680 balance.
+- **The standing data-quality finding** stands: the derived notes keep altering their source (this run: notes splitting one call into "two meetings", a notes-only "booked for 12:00 PM", vendor names "Quectel / Sierra Wireless" read into garbles). The transcript remains the fact.
+
 
 ### Audit #3 (batch 30, 2026-07-15) — SOUND-WITH-FIXES
 
@@ -103,6 +103,26 @@ Rolled up from every page at each lint pass. Each traces to a raw source.
 ### LIVE OPEN (count: ~27; #29 fully closed 2026-09-01) — refreshed lint 14 (2026-07-20, batch 93 / November close; +Ian Myers batch 150; +Kamin batch 157; +Dima-Kovalchuk-backend batch 158; +hardware-Andrei #19 & Chris-vs-Cris #20 batch 224; +prose-"Andrei" #25, Gamora #26, MSBC #27, Aug-21 split #28 batch 229; +first-NOVA-release-reopened #29 batch 230)
 
 *This is the single authoritative list of genuinely-open owner items. Recurring items live here ONCE, updated in place — NOT re-appended per batch. The per-batch subsections further below are the append-only journal, not the live set.*
+
+**ADDED by the 2026-10-05 run (batches 253–257) — for the owner's ruling.** *(Tier A first; details and sources on each named page.)*
+
+*Sensitive holds and scope — please rule:*
+- A7. **"For the transcript, disregard what I said about applying AI."** At the close of the Sept-29 "Design_AI-PM" call you asked that your earlier remarks on how you apply AI (the two-AI "teacher and implementer" method) be left out. A short version is kept on the AI-assisted-development topic because it is your standing method on record since July. Keep or strip? — [[wiki/meetings/2026-09-29-ai-pm-architecture-and-second-brain-plan.md]]
+- A8. **GitHub push.** The purged history must replace the old one on GitHub (a force push with lease); the scheduled run is not allowed to do it. One command from you, once.
+
+*Identities (safe defaults taken; one word settles each):*
+- C9. **"Larry" = Larry Sharon?** The surname is never spoken; it comes only from the Plaud recording labels of the Sept-29/30 calls. Also unknown: "John and Eddie" (his partners), "Trevor and Ben", "Gabe" (opens the Florida LLC), "Barry" (greeted on the Litwack call), "Blackwater" (a competitor as heard). — [[wiki/people/larry-sharon.md]]
+- C10. **The service-side "Антон"** who fixes services at Kharetski's request — four stand-up mentions (Sept 23 – Oct 1), never named; fits Anton Leshkevich by context. Also the "Игорь" Daniil should ask about the select-screen converter (Sept 28 – Oct 5), "Маша" (Oct 5), "Дон" and "Алекс" (Sept 30). — [[wiki/people/evgeny-kharetski.md]]
+- C11. **Which board arrived Oct 2:** "35 67 с 8 гигабайтами" — most likely the RK3576 (two 8 GB samples ordered Sept 14), digits swapped. — [[wiki/topics/nova-platform-architecture.md]]
+- C12. **Dickinson Wright** appears only in the derived notes, never on tape — no organization page exists; create one? **Daniil Stauskiy** — six stand-ups, no page. **KORE** (the SIM carrier) — no page.
+
+*State changes made this run — please confirm:*
+- B8. **The investor deal settled on Sept 30:** one JV entity (a Florida LLC), 50/50 with a special allocation of depreciation; JVL invoices the real $4,000; a 100-machine trial; then Bell Bank / Sea Coast and possibly InComm. The Entity A / Entity B structure and the $12,000 note are marked superseded. — [[wiki/projects/transactional-equipment-depreciation-investor-deal.md]]
+- B9. **"Free" and "$90" are no longer the pitch:** the Sept-2 free-ports decision is retitled — the offer going forward is a lease at "$150 minimum" with set terms (Sept 29). The Sept-2 bundle stands as what customers were quoted through Sept 17. — [[wiki/decisions/2026-09-02-free-ports-and-pos-with-every-machine-bought.md]]
+- B10. **Street cabinet:** the Sept-25 "fixed dashboard" is superseded — printer and acceptor come down onto the drop-down panel, dashboard halved (Oct 1); whether the street machine has a printer at all is now an open contradiction; you reopened whether it needs a FlexPort. — [[wiki/decisions/2026-09-25-the-street-cabinet-goes-deeper-so-the-printer-and-a-tito-front-load-acceptor-sit-on-a-fixed-dashboard.md]]
+- B11. **BOM source of truth** is still contested by Genadi after Sept 30 and Oct 1; the pilot (Claude Code builds the Flex Pay Slim flat structure, then a two-hour session) is the next step. — [[wiki/decisions/2026-09-23-the-bom-source-of-truth-is-the-latest-design-in-github-and-sync-runs-one-way.md]]
+- B12. **Capital call:** a written letter to all partners asking $1–2M (you write it, Litwack writes the dilution part; draft due the weekend of Oct 3–4). Whether it replaces the August bridge-loan offer is not said. — [[wiki/decisions/2026-09-29-val-writes-the-capital-call-letter-asking-one-to-two-million-and-litwack-writes-the-dilution-part.md]]
+- B13. **Multiple transactional units per location** moved to a probable MVP 3 (Sept 30); the recycler too. — [[wiki/decisions/2026-09-09-one-transactional-unit-per-location-until-the-wi-fi-iteration.md]]
 
 **ADDED by the 2026-09-28 run (batches 242–252) — for the owner's ruling.** *(Tier A first; details and sources on each named page.)*
 
