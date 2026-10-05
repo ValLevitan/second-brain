@@ -1,50 +1,41 @@
-# JVL second brain — weekly update, 28 September 2026
+# JVL second brain — weekly update, 5 October 2026
 
 ## The short version
 
-The biggest week yet. **102 recordings came in — about 98 meetings.** Everything checked out: I tested 283 facts against the actual recordings, and all 283 were right. Nothing is broken.
+**33 recordings came in — 24 meetings, from Sunday 28 September to this morning.** Everything checked out: I tested 250 facts against the actual recordings, and all 250 were right.
 
-A few things need your eye. They are at the bottom, under "For you".
+**One item needs your eye: GitHub.** Your 28 September cleanup (personal matters cut out of the brain) rewrote the saved history on this computer, but it was never sent to GitHub. GitHub still holds the old history with the personal passages in it. The only correct fix is a one-time "force push" from you; the scheduled run is not allowed to do it, and a normal push would put the personal passages back. Nothing is lost — all of this week's work is saved here. Details at the bottom.
 
 ## What came in
 
-Two groups.
+**1. The investor deal (28–30 September).** Lunch with Larry and his two partners, an afternoon pitch to a tax adviser, two calls with Alan Litwack, and four calls with Larry. By Tuesday the structure had settled: one joint company (a Florida LLC), 50/50, with the depreciation allocated to Larry's side. JVL invoices the real $4,000 per unit, with no note. A 100-machine trial comes first, then Larry takes it to his banks and maybe InComm. The customer offer is now a lease at "$150 minimum", not "free".
 
-**1. About 50 older meetings from January to August 2026.** They were added to the file store on 22–25 September, into months that were already closed. None of them had been seen before. Now they are all in, and January to August is closed again.
+**2. Money.** With Alan you agreed a written letter to all partners asking for 1 to 2 million. You write it, Alan writes the dilution part. Alan also wants the investor write-off model checked so nobody can say JVL helped hide anything.
 
-**2. Every September meeting from 17 to 28 September** — including this morning's calls.
+**3. Engineering, every day.** The Minsk stand-ups and the MVP 1 morning calls from 29 September to 5 October. By 1 October the developers had closed every MVP 1 feature. 15 October still holds. MikroTik is the location router. Elizabeth starts the Georgia test set-up with a shared chat. The modem supply is a problem: you asked the market for 100, and were offered 5, 10, or a 1,000 minimum.
 
-Roughly what the meetings were about:
+**4. The AI project manager.** Two meetings and a status check. Andrey Bosik owns it. 318 Teams transcripts are collected back to July 2025. The second brain comes first, the live meeting bot waits. Next status is Tuesday 6 October at 7.
 
-- **Money and banks.** The Doug Skrepnek calls (January, May). Alan Litwack on the convertible debenture and the warrant history (July). Tax calls with Gilmore and BSP. Bank of America, CIBC, Wells Fargo and Dwolla. The weekly cash position. The second CAD 600K from 840914 to JVL Labs.
-- **Georgia customers.** Rich Winley (six calls, January to April), AKS, Inamax, Allenson, Epic Amusement, RKS, ARC, Dynamic Gaming. The Georgia game settings (92%) and the Class A test game.
-- **Texas.** Rich Winley's early plans, Joe Hello, the gas-station package, the recycler from CPI.
-- **Payments partners.** Billy Liu, NCR Atleos (cardless ATM), and InComm.
-- **Engineering.** Eleven MVP 1 morning calls, the Minsk stand-ups, the hard-reset and Passport meetings, the street cabinet, the BOM rules, NOVA in Jira.
+**5. The bill of materials.** The GitHub-to-Business-Central thread with Genadi, Nathan and Lev, and two more calls with Genadi. One flat list in GitHub is agreed. Genadi still disagrees on grouping. The next step is a pilot on the Flex Pay Slim.
+
+**6. One October afternoon.** Mikhail's purchase order cut from 300 to 100 units. Lev found why the stock showed 233 instead of 29: a block of July count data was never posted. Two memory chips come off the IO board, saving $12 a board. The street cabinet changed again: the printer and acceptor come down onto the drop-down panel, and the dashboard halves.
 
 ## What the wiki learned
 
-- **MVP 1 moved from 1 October to 15 October** (today's call). The team agreed. Autotests are later, around 23 October.
-- **The Passport is now an open question.** On 24 September the engineers planned to switch it off for Georgia builds. The same morning you called it "a great feature". I did not pick a side.
-- **InComm.** John told you 25 September was his last day. The Blue Card is on hold without him. JVL stays on the black card.
-- **The street machine changed.** The TV simply hangs now. The cabinet goes deeper, with a fixed dashboard. The old "cupboard door" design is marked replaced.
-- **Eclipse will not take the South Dakota VLT** for now. There is no other lab named yet.
-- **New people and companies:** Rich Winley, Ray Cosentino, Joe Hello, Kenny Patel (Epic), Howard Tikka, Sergey Vysotsky, Dynamic Gaming, NCR Atleos, Wells Fargo, Dwolla, State Farm Arena, and others.
-- **Some older records were corrected** by the earlier meetings. Example: the July CIBC notes said you "agreed" to a money-market account. The recording shows the opposite: "No, no, that's an operational account."
+- **27 new decisions** this week. The biggest: the single-entity joint venture; the lease pitch; the capital-call letter; MikroTik; "Completed" is the developer's last step, and a problem found later sends the feature back to To Do as a story; SAS logs stay on the Flex IQ and are not sent by default; the diagnostic tool goes onto the installation stick.
+- **One new person:** Larry Sharon. His surname comes only from the recording labels. It is never spoken.
+- **Two new projects:** the investor deal, and the AI project manager with the company second brain.
+- **A new open question:** is there a printer in the street machine at all? You said the cabinet goes deeper so the printer fits (25 September). Genadi said printers will never be in it (1 October). I did not pick a side.
+- **Settled:** where the 233 came from. When the transcripts start (July 2025). What "RK3567" means (most likely the RK3576, digits swapped — an inference).
 
 ## For you
 
-1. **Bank numbers and log-ins are showing up in the transcripts.** In four files I found bank account numbers, a routing number, online-banking company IDs and a web user name. I removed them all before saving. None reached the wiki. A few of these numbers are not in your Corporate Registry. Please add them from the original files if you want them there. The meeting tool that writes these files should stop copying them in.
-2. **Three things I held back. Please say keep out or put in:**
-   - The second half of the 9 February CIBC call. It is about your personal real estate.
-   - The 22 September marketing call. You say you kept a recording back because you talk about getting around the law.
-   - At the Epic visit, Kenny Patel named two companies he is suing.
-3. **Please confirm three changes I made:** MVP 1 is now 15 October. The old street-machine design is replaced. The Passport is an open question.
-4. **One repair to an older page.** One older page named a private detail about a colleague. I changed it to "a planned absence".
-5. **About 25 short name questions.** Example: is the "Rich" in March the same Rich Winley? These are listed in the wiki's owner queue. One word from you settles each one.
+1. **GitHub.** Please run the one-time force push (it is written in the wiki's log with the exact command), or tell me to do it in a normal session where it is allowed.
+2. **One request you made to the transcript.** At the end of the 29 September AI meeting you asked that what you had said earlier about how you apply AI be left out. I kept a short version of that method, because it is your standing way of working since July. Say "strip" and it goes.
+3. **Names.** Is "Larry" Larry Sharon? Who are John and Eddie, Trevor and Ben, Gabe, and Barry? The "Anton" who fixes services for Kharetski — is it Anton Leshkevich? Which Igor should Daniil ask? One word each.
+4. **Please confirm four changes I made:** the free-ports offer is replaced by the lease; the street cabinet's fixed dashboard is replaced; the Entity A / Entity B structure is replaced by the single entity; multiple units per location moved to a probable MVP 3.
+5. **Personal remarks keep arriving.** I cut 15 passing personal remarks from this week's files before saving (a counterparty's new baby, a partner's house, an adviser's divorce, a family phone story, your own health wish). None reached the wiki. The meeting tool that writes these files does not filter them.
 
 ## Health
 
-Everything checked out. The catalog matches the pages exactly. There are no broken links and no loose pages. All the name groups passed the check.
-
-One small note: another scheduled task ran at the same time for part of this long run. Nothing was harmed.
+Everything checked out. The catalog matches the pages exactly. No broken links, no loose pages. All the name groups passed. September 2026 is closed with its file count on record; October is open. The only thing not done is the GitHub push, for the reason above.

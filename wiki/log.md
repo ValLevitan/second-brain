@@ -5381,3 +5381,6 @@ Progress: steady-state run of 2026-10-05 **COMPLETE — batches 253–257 (5 bat
 **Owner Decisions queue:** overview.md LIVE OPEN gained A7–A8, B8–B13, C9–C12 (this run); the 2026-09-28 block stands. **overview.md refreshed** (counts by kind, health, the GitHub-push finding, privacy note).
 **Verification totals for the run:** 250 facts / 250 held across 5 batches (59 + 58 + 51 + 51 + 31); 183 against Russian strings; 1 paraphrased alias removed; 0 quarantines.
 Lint only diagnosed; content pages were not edited by lint (one wrong link in the overview's own B13 line corrected).
+
+## [2026-10-05] note | weekly report written — steady-state run of 2026-10-05 complete
+`reports/weekly-report-latest.md` overwritten (plain prose for the owner). Run summary: 33 recordings / 24 meeting events / 66 raws / 250 of 250 facts verified / 27 decisions, 1 person, 2 projects created / September 2026 closed. Bonus email attempted via the authenticated Outlook MCP to val@jvl.ca (§17.1, the one authorized autonomous send). GitHub push outstanding (owner action). Lock removed at clean end.
