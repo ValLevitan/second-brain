@@ -3,14 +3,14 @@ type: topic
 title: JVL 2026 funding crisis and capital call
 date: 2026-08-08
 aliases: [cash call, capital call, JVL cash call, JVL capital call, funding crisis, liquidity crisis, pref debt, preferred debt, bridge loan, SR&ED bridge, dilution round]
-source-count: 19
-open-commitments: 7
+source-count: 21
+open-commitments: 9
 open-questions: 9
 ---
 
 # JVL 2026 funding crisis and capital call
 
-In August 2026 JVL ran out of operating cash and [[wiki/people/val-levitan.md|Val]] moved to raise roughly **$1 million** through a **capital call** on the company's partners. This page tracks that funding arc: why the cash ran out, the numbers Val put to partners, the ownership/debt picture, and the alternative (short-term "pref debt" secured by an approved tax refund) that emerged before any cash-call letter went out. Val made the calls one partner at a time, starting with the phone rather than "circulating paper." [[raw/Meeting_Notes_JVL_Funding_Crisis_Cash_Call_Doug_Skrepnek-August-7-2026.md]] [[raw/Meeting_Notes_JVL_Liquidity_Crisis_Cash_Call_Louis_Glenn-August-8-2026.md]]
+In August 2026 JVL ran out of operating cash and [[wiki/people/val-levitan.md|Val]] moved to raise roughly **$1 million** through a **capital call** on the company's partners. This page tracks that funding arc: why the cash ran out, the numbers Val put to partners, the ownership/debt picture, and the alternative (short-term "pref debt" secured by an approved tax refund) that emerged before any cash-call letter went out. Val made the calls one partner at a time, starting with the phone rather than "circulating paper." [[raw/Meeting_Notes_JVL_Funding_Crisis_Cash_Call_Doug_Skrepnek-August-7-2026.md]] [[raw/Meeting_Notes_JVL_Liquidity_Crisis_Cash_Call_Louis_Glenn-August-8-2026.md]] **Current state (Sept 29 2026):** the phone round produced no appetite, and after the trade show Val is drafting a **written capital-call letter to all partners asking for $1–2 million**, with his lawyer Alan Litwack writing the dilution part (see the Sept 29 section) [[raw/Meeting_Transcript_Alan_Litwack_Capital_Call_Letter_to_Partners-September-29-2026.md]].
 
 The planning started earlier. In July 2026 Val was already saying "JVL is running out of cash" and worked out with his lawyer [[wiki/people/alan.md|Alan Litwack]] how to structure a raise offered to the warrant holders (see the July 2026 History section below). [[raw/Meeting_Transcript_Alan_Litwack_Convertible_Debenture_Design-July-10-2026.md]]
 
@@ -99,6 +99,17 @@ On a ~2-minute call ([[wiki/meetings/2026-09-25-cibc-ivan-lucic-600k-transfer-po
 - **Not shown moving.** The recording does not show the money arriving. [[raw/Meeting_Notes_CIBC_Ivan_Lucic_840914_600K_Transfer-September-25-2026.md]]
 - *(§15 #9: every account and transit number on the call is held in Corporate Registry. §15 #8: the holding company's own affairs are not recorded; only the funding of JVL is. §15.8: no person's pay is spoken.)*
 
+## Sept 29 2026 — the written capital-call letter: $1–2 million, Val writes it, Litwack writes the dilution part
+
+A six-minute call with [[wiki/people/alan.md|Alan Litwack]] ([[wiki/meetings/2026-09-29-litwack-capital-call-letter-and-transactional-equipment-write-off-model.md]], 11:33 AM, segment 1). Decision page: [[wiki/decisions/2026-09-29-val-writes-the-capital-call-letter-asking-one-to-two-million-and-litwack-writes-the-dilution-part.md]].
+
+- **Where it stands a month on.** "It seems like JVL will be moving back into a healthy regime, like healthy capital." Val's partner discussions "approximately a month ago" went nowhere: "Some of them did not even reply to me. The rest who replied did not have any appetite for putting more money in. But with all fairness, I didn't sound very optimistic to them." After the trade show "the financial situation still has not changed, and we still need capital. But it looks like… JVL might be turning the corner" [[raw/Meeting_Transcript_Alan_Litwack_Capital_Call_Letter_to_Partners-September-29-2026.md]].
+- **The letter.** A "written letter to all the partners": after the trade show Val is "moderately optimistic that the situation will turn"; he encourages them to put money in; he gives "a top-level budget of what I think JVL needs"; the ask is "somewhere between one and two million dollars." His expectation: "I think that the partners will not pay" [[raw/Meeting_Transcript_Alan_Litwack_Capital_Call_Letter_to_Partners-September-29-2026.md]].
+- **Alan's dilution view.** "there's still debt owing… there's no equity in JVL after that debt… if money is going in, it would dilute the hell out of all the common shares, all the equity." Money going in now "should end up… once you get past the debt, with almost all of the equity." So the letter gives every partner "the same opportunity as you, in the proportion that you are already" — and if they decline, "you're essentially going to dilute the crap out of them." The same-offer protection of Jul 10 and Jul 15 (History below) carries through: "that way they can't complain if they chose not to exercise it" [[raw/Meeting_Transcript_Alan_Litwack_Capital_Call_Letter_to_Partners-September-29-2026.md]].
+- **Who writes what.** Val: "The only thing I don't know how to verbalize is the portion of dilution. How do I put it on paper?" Alan: "you write the part that you want to say, and I'll write the other part." Val: "Agreed. I will send you my draft shortly, probably by the weekend or earlier. I need to act on it right away" [[raw/Meeting_Transcript_Alan_Litwack_Capital_Call_Letter_to_Partners-September-29-2026.md]].
+
+*(Evolution, not contradiction: Aug 12–14 settled on a bridge loan plus a warrant-holder notice rather than a cash-call letter; on Sept 29 Val is writing a capital-call letter after all, for $1–2M. Whether the letter replaces or sits beside the August loan offer is not said on the call. The derived notes match the transcript on the decision and set the draft date as "Oct 4, 2026 (weekend) or earlier" [[raw/Meeting_Notes_Alan_Litwack_Capital_Call_Letter_to_Partners-September-29-2026.md]].)*
+
 ## Timeline
 
 - **Jan 9 2026 (earlier signal)** — on a New Year call Val told Doug Skrepnek "In terms of cash, we're in a bad position" and asked for lenience on "the remaining of the debt that we owe you"; they agreed to meet in March ([[wiki/meetings/2026-01-09-doug-skrepnek-loan-lenience-business-update.md]]). Val tied the cash drain to engineering spend on the transactional line, not to the Georgia freeze named in August. [[raw/Meeting_Transcript_Doug_Skrepnek_Loan_Lenience_and_Business_Update-January-9-2026.md]]
@@ -114,6 +125,7 @@ On a ~2-minute call ([[wiki/meetings/2026-09-25-cibc-ivan-lucic-600k-transfer-po
 - **Aug 14 2026** — CRA-refund / bridge-participation call with Doug's contact Jacob Kriszenfeld ([[wiki/meetings/2026-08-14-cra-refund-bridge-loan-participation.md]]). **Val has advanced $600K ($576K cash after the 4% fee) and is issuing a warrant-holder notice today** inviting accession on the same 4% + 10% terms within 30 days; **refuses outside group capital**. Escalation: the Aug-31 CRA date is the FY2025 assessment (~$370K), **not** the $1,693,589 amended-2024 refund, whose transmission is unconfirmed. [[raw/Meeting_Notes_CRA_Refund_Bridge_Loan_Participation-August-14-2026.md]]
 - **Sept 23 2026 (later signal)** — cash is still tight week to week. The same afternoon Val went through open China purchase orders to decide what to pay now and what can wait ([[wiki/meetings/2026-09-23-open-purchase-order-payment-walkthrough.md]]) [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]], and controller Igor Donis questioned Val's approval of a ~$43,000 vendor payment against the week's cash, which counts **zero collections** because expected collections had run far above real receipts for seven weeks; ~$25,000 is to be pulled in from Colombia ([[wiki/meetings/2026-09-23-cash-position-and-vendor-payment-plan.md]]). Figures on [[wiki/topics/jvl-finance-back-office.md]] (Sept 23). *(Linking these calls to the funding crisis is an inference; neither call mentions the bridge loan or the capital call.)* [[raw/Meeting_Transcript_Cash_Position_and_Vendor_Payment_Plan-September-23-2026.md]]
 - **Sept 25 2026** — a bank representative confirms a second **CAD 600,000** transfer from the holding company's margin account, post-dated to Monday Sept 28 to save three days of interest ([[wiki/meetings/2026-09-25-cibc-ivan-lucic-600k-transfer-post-dated.md]]); the notes call it "Loan #2 from 840914 Ontario to JVL Labs". [[raw/Meeting_Transcript_CIBC_Ivan_Lucic_840914_600K_Transfer-September-25-2026.md]] [[raw/Meeting_Notes_CIBC_Ivan_Lucic_840914_600K_Transfer-September-25-2026.md]]
+- **Sept 29 2026, 11:33 AM** — Val tells Alan Litwack the partner calls of a month earlier drew no appetite and that he will send **a written capital-call letter to all partners asking $1–2 million**, moderately optimistic after the trade show; **decision: Val writes the letter, Litwack writes the dilution part**; draft to Litwack by the weekend of Oct 3–4 ([[wiki/meetings/2026-09-29-litwack-capital-call-letter-and-transactional-equipment-write-off-model.md]]). [[raw/Meeting_Transcript_Alan_Litwack_Capital_Call_Letter_to_Partners-September-29-2026.md]]
 
 ## Open commitments
 
@@ -126,12 +138,14 @@ On a ~2-minute call ([[wiki/meetings/2026-09-25-cibc-ivan-lucic-600k-transfer-po
 - [ ] Louis Glenn — find out more about Andre Kapinski's son's transactional-card venture (possible merger) — due unspecified — [[raw/Meeting_Notes_JVL_Liquidity_Crisis_Cash_Call_Louis_Glenn-August-8-2026.md]]
 - [ ] Val Levitan — issue the warrant-holder notice inviting accession to the $600K loan on the same 4% + 10% terms (30-day window, extendable) — due Aug 14 2026 ("today") — [[raw/Meeting_Notes_CRA_Refund_Bridge_Loan_Participation-August-14-2026.md]]
 - [ ] Jacob Kriszenfeld — take the CRA refund-timing question back to Doug and revert on whether anything can be done — due unspecified — [[raw/Meeting_Notes_CRA_Refund_Bridge_Loan_Participation-August-14-2026.md]]
+- [ ] Val Levitan — send Alan Litwack his draft capital-call letter to all partners (optimism after the trade show, top-level budget, $1–2M ask) — due by the weekend of Oct 3–4 2026 or earlier — [[raw/Meeting_Transcript_Alan_Litwack_Capital_Call_Letter_to_Partners-September-29-2026.md]]
+- [ ] Alan Litwack — write the dilution part of the capital-call letter — due unspecified, after Val's draft — [[raw/Meeting_Transcript_Alan_Litwack_Capital_Call_Letter_to_Partners-September-29-2026.md]]
 
 ## Open questions
 
 - Exact amount needed — ~$1M, or ~$600K for ninety days if trade-show orders come. [[raw/Meeting_Notes_JVL_Funding_Crisis_Cash_Call_Doug_Skrepnek-August-7-2026.md]]
 - Timing of the ~$1.9M CRA refund — approved, but could be next month or up to six–nine months out. [[raw/Meeting_Notes_JVL_Funding_Crisis_Cash_Call_Doug_Skrepnek-August-7-2026.md]]
-- Whether any partner besides Val participates (Doug expected to engage; Muzzo family and Steve doubtful; Louis out). [[raw/Meeting_Notes_JVL_Liquidity_Crisis_Cash_Call_Louis_Glenn-August-8-2026.md]]
+- Whether any partner besides Val participates (Doug expected to engage; Muzzo family and Steve doubtful; Louis out). **Sept 29 update:** the phone round a month earlier drew no appetite, some partners did not reply, and Val expects the written $1–2M letter to draw nothing either ("I think that they will not contribute"). [[raw/Meeting_Notes_JVL_Liquidity_Crisis_Cash_Call_Louis_Glenn-August-8-2026.md]] [[raw/Meeting_Transcript_Alan_Litwack_Capital_Call_Letter_to_Partners-September-29-2026.md]]
 - Whether raising ~$1M makes sense against the ~$500K/month burn, or only delays the outcome (raised by Louis, conceded by Val). [[raw/Meeting_Notes_JVL_Liquidity_Crisis_Cash_Call_Louis_Glenn-August-8-2026.md]]
 - Final **facility size** — $1M? $1.2M? up to $2M with quarterly draw limits? — and whether **Ray Marks** (or another Doug contact) joins the lender group. (Aug-12.) [[raw/Meeting_Notes_Financial_Forecast_Bridge_Loan_Doug_Skrepnek-August-12-2026.md]]
 - Whether Doug takes a share of Val's initial $400K tranche or adds his own alongside it. (Aug-12.) [[raw/Meeting_Notes_Financial_Forecast_Bridge_Loan_Doug_Skrepnek-August-12-2026.md]]
@@ -159,3 +173,5 @@ On a ~2-minute call ([[wiki/meetings/2026-09-25-cibc-ivan-lucic-600k-transfer-po
 - [[raw/Meeting_Transcript_Cash_Position_and_Vendor_Payment_Plan-September-23-2026.md]]
 - [[raw/Meeting_Notes_CIBC_Ivan_Lucic_840914_600K_Transfer-September-25-2026.md]]
 - [[raw/Meeting_Transcript_CIBC_Ivan_Lucic_840914_600K_Transfer-September-25-2026.md]]
+- [[raw/Meeting_Notes_Alan_Litwack_Capital_Call_Letter_to_Partners-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Alan_Litwack_Capital_Call_Letter_to_Partners-September-29-2026.md]]

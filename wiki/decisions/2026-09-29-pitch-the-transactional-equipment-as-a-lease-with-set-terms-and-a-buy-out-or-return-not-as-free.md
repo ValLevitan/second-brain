@@ -1,0 +1,53 @@
+---
+type: decision
+title: The transactional equipment is pitched as a lease with set terms and a buy-out or return at the end — "we do nothing for free; $150 minimum" — and 3/4/5/7/10-year terms get modelled
+date: 2026-09-29
+aliases: [lease not free, we do nothing for free, $150 minimum, BMW lease, car lease framing, return in good working condition or buy it out, predetermined buy-out price, three four five seven ten years, lease term scale, let them choose, I got stuck on my own bullshit, shove it down their throats as a lease, lifetime contract with exit fee]
+source-count: 2
+status: active
+open-commitments: 1
+open-questions: 2
+---
+
+# Pitch the transactional equipment as a lease with set terms, not as free (Sept 29 2026)
+
+Proposed by [[wiki/people/larry-sharon.md|Larry Sharon]] and adopted by [[wiki/people/val-levitan.md|Val Levitan]] on the [[wiki/meetings/2026-09-29-larry-sharon-lease-pricing-problem-b-and-the-cash-plus-revenue-share-pivot.md|Sept-29 6:21 PM call]]. Quotations from [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]]. It changes how the Georgia transactional equipment is sold; the investor structure behind it is on [[wiki/projects/transactional-equipment-depreciation-investor-deal.md]].
+
+## What was decided
+
+- **Call it a lease.** Larry: "we have to discern between whether or not this machine is being sold to them, or it's being leased to them, or it's simply being licensed to them… to me, this is more akin to a lease because leases have monthly payments. Sometimes, for example, in the case of BMW, service and maintenance is included. And at the end of the lease, you could either give back the equipment or the car, or you could pay a fee to… keep the equipment, my first instinct is to model it after something like that." And: "the way you shove it down their throats is as a lease. You could tell them that you're leasing them the equipment for X amount per month. No different than a car lease. And at the end of their five-year term, seven-year term, ten-year term, they have the option to either return the equipment to us in good working condition, or they can buy it out from us at a predetermined price." If returned, "there's obviously going to be fees with us having to come out to pull the equipment" [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]].
+- **Nothing is "free"; $150 is the floor.** Val (Russian): "Ты никому не сочиняешь, никому не говоришь, что берите это за бесплатное. Это ничего за бесплатным мы вам не делаем. Мы делаем за 150 долларов минимум. Например, лист на три года. У нас есть три года, пять лет, семь лет или десять лет" — nobody is told to take it for free; we do nothing for free; we do it for $150 a month minimum; for example a three-year lease; we have three, five, seven or ten years [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]].
+- **A scale of terms, and the customer chooses.** Larry: "why not give them the option? Why not show them a scale and say, guys, you want to be with us for five years? Here's your payment… seven years?… ten years?… And let them choose." Val: "Should do three, four, three, five, seven" — Larry: "Ten. I'll build out all of those models." So **3, 4, 5, 7 and 10 years** are modelled [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]]. The derived notes record the same two points as the meeting's decisions [[raw/Meeting_Notes_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]].
+
+## Why
+
+- **Val's own words had boxed him in.** "Когда мы говорим, что даем это бесплатно, это совсем другая коннотация. Когда мы говорим, что продаем, или ты выплачишь за три года, или за пять, или за десять лет, это значит другое. Мы тебе продаем. So I got stuck on my own bullshit" — saying "free" means one thing; saying you pay it off over three, five or ten years means another: we are selling to you [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]].
+- **The arithmetic customers would do.** Val had told customers $90 a month with a machine purchase, then needed $150; a customer multiplying $150 by 60 months does not reach the $15,000 he asks for the equipment outright — "пятнадцать тысяч это сто месяцев, это не шестьдесят месяцев… А где еще сорок месяцев они возьмут" ($15,000 is 100 months, not 60; where do the other 40 months come from?). He would rather not go to $200: "I wouldn't want to charge it two hundred dollars because I would want to penetrate the market" [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]].
+- **Nobody wants ten years.** "Люди боятся быть привязанным к тебе десять лет" (people fear being tied to you for ten years) — about the transactional equipment, not the game, Val confirmed when Larry asked. The term scale answers that [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]].
+
+## What was set aside
+
+- **Val's first idea — a lifetime contract with an exit fee.** A contract "на жизнь машины" covering all service, all updates and advance replacement, from which the customer "в любой момент можешь выйти… by paying us the rest of the money for equipment", for example $15,000. Larry: "that doesn't solve… the problem between us"; Val agreed it was a different problem. The lease framing replaced it [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]].
+- **An "interest-free financing" story.** Val floated telling customers "мы даем тебе interest-free financing. Мы выпустим какой-то бонд" — not taken up [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]].
+- **Write-off on early return (answered, no change).** Val asked whether equipment taken back can still be written off. Larry: it was written off "everything in year one"; after that "ничего не можем списать"; returned equipment "we can recycle… somewhere else". Val: "потом это будет как профит" — Larry: "that's just how it is" [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]].
+
+## How this sits against earlier rulings
+
+- It supersedes the **"free"** and **"$90 a month"** elements of [[wiki/decisions/2026-09-02-free-ports-and-pos-with-every-machine-bought.md]] as the pitch going forward (that page's title and status are annotated). No source yet shows the lease put to a customer; the Sept-2 bundle remains what customers were quoted through Sept 17.
+- It is a different instrument from the Sept-16 doctrine "extend terms rather than cut the number" on [[wiki/topics/jvl-machine-pricing-strategy.md]] — here the term is the product.
+- Pricing of short terms is not settled: Val floated "если ты хочешь три года, мы тебе даем там за сто девяносто девять долларов" ($199 for three years); Larry: "three seems very low" (as an option) [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]].
+
+## Open commitments
+
+- [ ] Larry Sharon — build and send the pricing models for the 3, 4, 5, 7 and 10-year terms ("I'll build out all of those models… later tonight I'll send you the models across the different yearly amounts") — due later Sept 29 or Sept 30 2026 — [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]]
+
+## Open questions
+
+- What is the monthly price per term — stay at $150, or $175 / $200 (which "will bring it down from nine years to… five or six"), or $199 for a three-year lease? — [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]]
+- What is the "predetermined" buy-out price at the end of a term, and what are the fees for pulling returned equipment? Not stated — [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]]
+
+**§15.8:** clear — lease pricing and deal economics only. **Personal matters not recorded.** **§15 #9:** none.
+
+## Sources
+- [[raw/Meeting_Notes_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]]

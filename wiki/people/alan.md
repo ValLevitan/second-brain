@@ -3,7 +3,9 @@ type: person
 title: Alan (Val's long-time lawyer)
 date: 2025-06-11
 aliases: [Alan, Alan Litwack, Alan Litwak]
-source-count: 6
+source-count: 10
+open-commitments: 2
+open-questions: 0
 disambiguation: "Alan — a lawyer and long-time advisor/friend of Val (~40 years) who introduced the customs specialist [[wiki/people/lucie.md|Lucie]] for JVL's CBSA tariff matter on June 11 2025, and (as 'Alan Litwack') the lawyer to consult on the Boris/Peter loan-to-equity reclassification on June 13. Likely one and the same (surname now surfaced — Tier A). Distinct from [[wiki/people/alka-sood.md|Alka]] (finance) and [[wiki/people/alejandro.md|Alejandro]] (Mexico accountant)."
 ---
 
@@ -29,6 +31,21 @@ Three calls in July 2026 in which Litwack advised Val on raising new cash and of
 - **Jul 10** ([[wiki/meetings/2026-07-10-convertible-debenture-design-litwack.md]]) — proposed a **secured convertible debenture** at mezzanine rates, converting at today's low value, with the same offer to every holder so no one can later claim self-dealing. [[raw/Meeting_Transcript_Alan_Litwack_Convertible_Debenture_Design-July-10-2026.md]]
 - **Jul 15** ([[wiki/meetings/2026-07-15-warrant-history-new-raise-priority-litwack.md]]) — rebuilt the warrant and loan history with Val; holds that the original warrant money came with a loan (Val disagrees); confirmed new secured money is repaid first. [[raw/Meeting_Transcript_Alan_Litwack_Warrant_History_and_New_Raise_Priority-July-15-2026.md]]
 
+## Sept 29 2026 — the capital-call letter and the write-off model
+
+One call in two recorded segments ([[wiki/meetings/2026-09-29-litwack-capital-call-letter-and-transactional-equipment-write-off-model.md]], 11:33–11:53 AM). The derived notes again give his firm as "Dickinson Wright"; the recordings do not [[raw/Meeting_Notes_Alan_Litwack_Capital_Call_Letter_to_Partners-September-29-2026.md]] [[raw/Meeting_Notes_Alan_Litwack_Transactional_Equipment_Tax_Write_Off_Model-September-29-2026.md]].
+
+- **The letter to the partners.** Val will write to all partners asking for $1–2 million; Alan explained that with debt still owing "there's no equity in JVL after that debt", so new money "would dilute the hell out of all the common shares" — the letter gives every partner the same chance, in proportion, and "if they don't, you understand." He took the dilution wording himself: "you write the part that you want to say, and I'll write the other part" ([[wiki/decisions/2026-09-29-val-writes-the-capital-call-letter-asking-one-to-two-million-and-litwack-writes-the-dilution-part.md]]) [[raw/Meeting_Transcript_Alan_Litwack_Capital_Call_Letter_to_Partners-September-29-2026.md]].
+- **The write-off model.** Heard Val's investor idea for the Georgia transactional equipment ($4,000 paid now, write-off on $15,000, balance over time). His reading: "You're essentially… lending him. He's paying you over time" — fine "as long as at some point you're getting the full fifteen thousand dollars." His condition: JVL must not be "accused of participating" — "nobody in the IRS can say you helped them disguise something… we have to… structure it better"; he will "get some of my U.S. people" to look at how the write-off works ([[wiki/decisions/2026-09-29-the-investor-write-off-structure-is-checked-so-nobody-can-say-jvl-helped-disguise-anything.md]]; detail on [[wiki/projects/transactional-equipment-depreciation-investor-deal.md]]) [[raw/Meeting_Transcript_Alan_Litwack_Transactional_Equipment_Tax_Write_Off_Model-September-29-2026.md]].
+- **His own comparison.** "Carney is doing the same thing, but not for slot machines… in Canada for certain types of things, computer things, also… mining… You get to write it off the year it comes into use. So he took a page out of Trump's book." Recorded as his claim [[raw/Meeting_Transcript_Alan_Litwack_Transactional_Equipment_Tax_Write_Off_Model-September-29-2026.md]].
+
+## Open commitments
+
+- [ ] Alan Litwack — write the dilution part of Val's capital-call letter to the partners — due unspecified, after Val's draft (expected by the weekend of Oct 3–4 2026) — [[raw/Meeting_Transcript_Alan_Litwack_Capital_Call_Letter_to_Partners-September-29-2026.md]]
+- [ ] Alan Litwack — have his US people look at how the investor write-off works, enough that nobody can say JVL helped disguise anything — due unspecified — [[raw/Meeting_Transcript_Alan_Litwack_Transactional_Equipment_Tax_Write_Off_Model-September-29-2026.md]]
+
+**§15.8:** nothing about his fees or pay is recorded. **Personal matters not recorded** (the Sept-29 segment 1 ends on a removed personal passage).
+
 ## Sources
 
 - [[raw/tariffs_lucie_alan_intro-june-11-2025.md]]
@@ -37,3 +54,7 @@ Three calls in July 2026 in which Litwack advised Val on raising new cash and of
 - [[raw/Meeting_Transcript_warrant_holder_1M_cash_injection_Litwack-July-7-2026.txt]]
 - [[raw/Meeting_Transcript_Alan_Litwack_Convertible_Debenture_Design-July-10-2026.md]]
 - [[raw/Meeting_Transcript_Alan_Litwack_Warrant_History_and_New_Raise_Priority-July-15-2026.md]]
+- [[raw/Meeting_Notes_Alan_Litwack_Capital_Call_Letter_to_Partners-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Alan_Litwack_Capital_Call_Letter_to_Partners-September-29-2026.md]]
+- [[raw/Meeting_Notes_Alan_Litwack_Transactional_Equipment_Tax_Write_Off_Model-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Alan_Litwack_Transactional_Equipment_Tax_Write_Off_Model-September-29-2026.md]]

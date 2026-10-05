@@ -2,8 +2,8 @@
 type: topic
 title: JVL machine pricing and commercial strategy
 date: 2025-09-23
-aliases: [machine pricing, fifteen seven fifty, $15750, free hardware instead of discount, retail price, price list, Dennis one number, CFO-to-CFO credit, market pricing, list price, dollars not discounts, JVL Dollars pricing lever, show special pricing, Georgia machine price, D43 price, D27 trade-in, South Dakota premium, twelve eight twenty, two nine thirty, $795 port, $895 IQ, $7950 Flex-Slim, kill the market, fifty-seven fifty, topper eight hundred to one thousand, ten dollars per machine, value almost as much as this machine is]
-source-count: 33
+aliases: [machine pricing, fifteen seven fifty, $15750, free hardware instead of discount, retail price, price list, Dennis one number, CFO-to-CFO credit, market pricing, list price, dollars not discounts, JVL Dollars pricing lever, show special pricing, Georgia machine price, D43 price, D27 trade-in, South Dakota premium, twelve eight twenty, two nine thirty, $795 port, $895 IQ, $7950 Flex-Slim, kill the market, fifty-seven fifty, topper eight hundred to one thousand, ten dollars per machine, value almost as much as this machine is, ninety to one fifty, one hundred months, $150 minimum, lease pricing, fourteen dollars per machine per month]
+source-count: 35
 ---
 
 # JVL machine pricing and commercial strategy
@@ -258,8 +258,23 @@ On [[wiki/meetings/2026-09-16-jvl-transactional-ecosystem-and-class-a-market-str
 
 **It is not reconciled with the field practice catalogued above** — the $15,750 machine with ~$7,000 of free hardware attached is exactly the "add value instead of cutting the price" move, but no source connects the two, and the doctrine is stated without reference to any of the quotes on this page.
 
+## Sept 29 2026 — the transactional fee goes from $90 to $150, "100 months" to the equipment price, and the pitch becomes a lease
+
+On the [[wiki/meetings/2026-09-29-larry-sharon-lease-pricing-problem-b-and-the-cash-plus-revenue-share-pivot.md|Sept-29 6:21 PM call]] with his investor partner [[wiki/people/larry-sharon.md|Larry Sharon]], [[wiki/people/val-levitan.md|Val]] set out the pricing problem of the transactional equipment in his own numbers [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]]:
+
+- **$90 told, $150 needed.** "Я всем сказал… если ты покупаешь машину, то мы тебе это даем за девяносто долларов сервис-чардж. Но сейчас мне нужно было взять сто пятьдесят долларов" — everyone was told $90 a month with a machine purchase; now it has to be $150.
+- **The customer's arithmetic.** At $15,000 for the equipment bought outright ("Все equipment, которое я тебе перечислил, я попрошу пятнадцать тысяч"), $150 a month is "сто месяцев, это не шестьдесят месяцев" — 100 months, not the 60 a five-year contract implies; "где еще сорок месяцев они возьмут".
+- **$200 would fix the math; Val will not go there.** "We should charge closer to two hundred dollars. I wouldn't want to charge it two hundred dollars because I would want to penetrate the market." Larry: $175 or $200 only pays the investor note off faster ("from nine years to… five or six").
+- **Why $150 is "palatable".** "competitors are approximately the highest competitors at the same price. Plus… he doesn't have the same equipment. Plus… limited capabilities." The competitor "is charging upfront" for equipment; "Он берет четырнадцать долларов с машины в месяц" ($14 per machine per month); "сто пятьдесят долларов он берет" is also said — which charge is which is **unclear**, and no competitor is named. *(Compare the Sept-15 "ten dollars per machine" and the Sept-10 "card or gift card processing" exclusion above; nothing reconciles them.)*
+- **The operating-cost baseline behind the investor model:** about 10% of revenue, "fifteen dollars", on a ten-year machine life (a 49-second exchange at 5:01 PM the same day) [[raw/Meeting_Transcript_Machine_Life_and_Operating_Cost_Baseline-September-29-2026.md]].
+- **The framing changes to a lease.** "Мы делаем за 150 долларов минимум" — nothing is free; $150 a month is the floor; terms of 3, 4, 5, 7 and 10 years to be modelled, with a buy-out or return at the end; Val floated "$199" for a three-year term. Ruling on [[wiki/decisions/2026-09-29-pitch-the-transactional-equipment-as-a-lease-with-set-terms-and-a-buy-out-or-return-not-as-free.md]].
+
+**This is the first source that puts a number on the gap between the customer-facing "$90 per location" of Sept 2–17 and the "$150" of the Sept-28 investor model** — and Val's own account of why the two cannot both stand. The $15,750 machine price is not mentioned on this call; "$15,000" here is the price of the transactional set bought outright.
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Machine_Life_and_Operating_Cost_Baseline-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Inamax_Ray_Cosentino_Georgia_Market_and_Trial_Agreement-February-11-2026.md]]
 - [[raw/Meeting_Transcript_Michael_Gottlieb_Georgia_Sales_Debrief-February-11-2026.md]]
 - [[raw/Meeting_Notes_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]

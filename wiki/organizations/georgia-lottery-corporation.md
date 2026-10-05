@@ -3,7 +3,7 @@ type: organization
 title: Georgia Lottery Corporation (COAM regulator)
 date: 2026-09-10
 aliases: [Georgia Lottery, Georgia Lottery Corporation, GLC, COAM staff, the Lottery, COAM division, COAM Hearing Room, Georgia Lottery COAM, guidance is not the law, they're coming out with the draft, the general counsel had a negative reaction]
-source-count: 8
+source-count: 9
 open-commitments: 2
 open-questions: 3
 ---
@@ -95,6 +95,10 @@ Klimovich holds an example of the same report produced by one of JVL's competito
 
 **§15.9:** no licence or registration number appears in either source, and none is recorded here.
 
+## Sept 28 2026 — the August-show reaction, as Val retold it to investors
+
+At the [[wiki/meetings/2026-09-28-larry-john-eddie-lunch-transactional-equipment-investment-structure.md|Sept-28 lunch]] Val gave outsiders his version of the Lottery's August reaction, sharper than the Sept-10/11 wording above: "Georgia Lottery Corporation… flipped… They said our legislation, and we are overseeing the legislation. The legislation calls for no cash, and here at the machine in front of us, you cash me out. This cannot happen. So the head lawyer for Georgia Lottery Corporation flipped. He issued a statement that this is illegal. The operators association said we are going to sue anybody who pursues that." He also told them the Lottery's share of the net win: "GLC I believe gets slightly under twenty percent. I think eighteen percent", and that the Lottery "has always been afraid of inducement or money laundering… so they prohibit any form of participation on the gaming machine" — while "there is not even a regulation for transactional equipment" [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]]. (Val's own account; the statement itself is not in the corpus. The InComm side of the same story is on [[wiki/organizations/incom.md]], Sept 28.)
+
 ## Open commitments
 
 - [ ] Georgia Lottery staff — connect Val with the right people at InComm and give him a direct phone number and email address for [[wiki/people/joe-kim.md|Joe Kim]]: "**We can call. We'll be glad to give you a phone number and… email address**", and at the close "**Let me get you some contacts, and I'll email them to you, and we'll go from there**" — due unspecified — [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
@@ -117,3 +121,4 @@ Klimovich holds an example of the same report produced by one of JVL's competito
 - [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
 - [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]
+- [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]]

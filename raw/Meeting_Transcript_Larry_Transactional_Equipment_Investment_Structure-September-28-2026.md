@@ -18,11 +18,11 @@ I am too. I skipped breakfast.
 00:01:20 Val Levitan
 At the place.
 00:01:22 Speaker 3
-I don't have breakfast. They're going to the doctor to talk. They don't come today. They're going to try to induce that thing. The Artem just had a baby. Really? I knew. Saturday. Good. I'll see him. How she was acting. Are they okay?
+[Personal passage removed — owner ruling 2026-09-28: the JVL brain holds JVL matters only. Original kept in the source vault.]
 00:01:37 Speaker 4
-Baby's already doing housekeeping.
+[Personal passage removed — owner ruling 2026-09-28: the JVL brain holds JVL matters only. Original kept in the source vault.]
 00:01:49 Speaker 5
-I was joking with Artem that the baby was born too late because we had the session when Xi Jinping was in town. We could have presented the baby as a present from the People's Republic of China to the United States. We could have taken the baby from the delivery room straight.
+[Personal passage removed — owner ruling 2026-09-28: the JVL brain holds JVL matters only. Original kept in the source vault.]
 00:02:09 Val Levitan
 To the United Nations. I wonder what's going to happen to the United Nations. Is it going to survive?
 00:02:17 Speaker 5
@@ -36,11 +36,11 @@ Got it.
 00:03:21 Speaker 4
 We'll do our spices.
 00:03:51 Speaker 4
-Ready. New house coming off. Good. So drywall's done and things like that. Drywall's done.
+[Personal passage removed — owner ruling 2026-09-28: the JVL brain holds JVL matters only. Original kept in the source vault.]
 00:04:12 Speaker 6
 Not
 00:04:12 Speaker 4
-We'll build size. If not, I'm gonna add it. What Are you doing on the outside? What are you doing on the outside? Maybe a lot of tiles, maybe like wood, like wood. Yeah, yeah. Okay. But it's good. Small one. Good. So you might be in about May. I think May. Okay. They're telling me April, but I'm yeah. Are you okay on your lease right now? No. We'll see.
+[Personal passage removed — owner ruling 2026-09-28: the JVL brain holds JVL matters only. Original kept in the source vault.]
 00:04:47 Val Levitan
 June, July. He's not okay, but I will make it okay.
 00:04:52 Val Levitan
@@ -510,7 +510,7 @@ You get a third of the market. Let's say you only make the one percent. You got 
 01:11:09 Speaker 5
 Reason why I think that number came to me is because.
 01:11:15 Speaker 5
-Have money, our money, sitting in a money market account, which I'm now slowly moving to Belvedere.
+[Personal passage removed — owner ruling 2026-09-28: the JVL brain holds JVL matters only. Original kept in the source vault.]
 01:11:21 Abiguele
 Because it has a better rate. And for rate, okay.
 01:13:26 Speaker 5

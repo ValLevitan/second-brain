@@ -1,15 +1,17 @@
 ---
 type: decision
-title: Six Flex ports and a terminal free with every machine bought, at $90 a month per location — "I am buying my way in"
+title: Six Flex ports and a terminal free with every machine bought, at $90 a month per location — "I am buying my way in" (Sept 29 2026 — "free" and "$90" superseded as the pitch going forward by the lease at "$150 minimum"; the bundle stands as what customers were quoted through Sept 17)
 date: 2026-09-02
 aliases: [buying my way in, ninety dollars a month, value almost as much as this machine is, zero cost except a monthly maintenance fee, six ports plus a terminal free, $15,750 machine, seven thousand dollars of discounts, ninety dollars per location, guinea pig offer, Lucky Coin offer, sixteen thousand dollar machine, rent or lease the units]
-source-count: 20
+source-count: 23
 status: active
 open-commitments: 1
 open-questions: 5
 ---
 
 # Six Flex ports and a terminal free with every machine bought, at $90 a month per location
+
+**Status note (Sept 29 2026):** `status: active` is kept because this bundle is what customers were quoted from Sept 2 to Sept 17 and no source withdraws it from them. But two of its titular elements — **"free"** and **"$90 a month"** — are superseded as the pitch going forward: on Sept 29 Val agreed with his investor partner that "we do nothing for free; $150 minimum" and that the equipment is pitched as a lease with set terms — see the Sept-29 update below and [[wiki/decisions/2026-09-29-pitch-the-transactional-equipment-as-a-lease-with-set-terms-and-a-buy-out-or-return-not-as-free.md]] [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]]. No source yet shows the lease put to a customer.
 
 The first time in the corpus that the free-hardware model is quoted as a **priced, standing offer to a named operator**, and the first time it is made **conditional on buying a gaming machine**. Val put it to [[wiki/people/kyle-shepherd.md|Kyle Shepherd]] of [[wiki/organizations/lucky-coin.md|Lucky Coin]] at the [[wiki/meetings/2026-09-02-lucky-coin-service-and-upgrade-offer.md|Sept-2 2026 office visit]], and framed it in his own words as buying market share rather than selling equipment [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]].
 
@@ -196,6 +198,18 @@ After the visitor left, the JVL side reviewed the pitch. [[raw/Meeting_Transcrip
 - **Val's answer: keep "free", say "buying the market".** "**the way I confront this is by saying that we're buying the market, and then it's honest**", and "**In America, there is no better price than free**". Then a new wording: "**For the limited time, post show we're offering the entire package for fifteen thousand seven hundred fifty dollars.**" Felipe and Val both held that "free" is the punchline: "**I think we lose the giveaway… Which I think is is a punchline**" — "**I… also believe that free free is a punchline.**"
 - **Where it landed:** Andrei proposed rephrasing it "**in the way that limited time after the show**", and Val: "**Could definitely try. Why not?**" The derived notes record it as "rephrase the pitch as a limited-time post-show package at $15,750, while keeping 'free' as the punchline" [[raw/Meeting_Notes_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]].
 
+## Sept 28 2026 — to investors, the offer becomes two options, and Val questions tying the free equipment to a machine sale
+
+At the [[wiki/meetings/2026-09-28-larry-john-eddie-lunch-transactional-equipment-investment-structure.md|Sept-28 lunch]] with [[wiki/people/larry-sharon.md|Larry]] and his partners — the first time this offer is described to investors rather than customers — Val reduced it to two lines: "we either sell the transactional equipment and collect ninety dollars per month, or we give away the transactional equipment for free and collect one hundred fifty dollars a month. That is, in essence, that's what's on the table today" [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]]. He then said out loud that the "with every machine bought" condition of this decision may be the wrong pitch: "the deal that I have going right now… is I sell one machine with equipment for free… But an operator says, Yeah, but I still have to pay you sixteen thousand dollars. A better marketing strategy would be: Hey, buy machine. Don't buy machine. It's up to you. The equipment is for free" [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]]. To the unnamed tax-investment adviser that afternoon he gave only the free version: retail $16,000, "we go to them and give that equipment to them, and we charge them one hundred fifty dollars per month" — with "all future service for the duration of the contract is on me, advance replacement" [[raw/Meeting_Transcript_Equipment_Depreciation_Investor_Pitch-September-28-2026.md]]. He also named the term he wants, "five years", and a replacement reserve of "approximately two percent" [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]].
+
+*(Status: this decision stays active — the machine-bundle offer is still what customers were given through Sept 17 — but its titular "with every machine bought" condition was questioned by Val on Sept 28 and a stand-alone free-at-$150 option sits beside it. The investor structure built on the $150 option is on [[wiki/projects/transactional-equipment-depreciation-investor-deal.md]]. If a later source makes the stand-alone option the offer, this page should be retitled.)*
+
+## Sept 29 2026 — "we do nothing for free; $150 minimum": the free-and-$90 framing is dropped for a lease
+
+The next evening, on the [[wiki/meetings/2026-09-29-larry-sharon-lease-pricing-problem-b-and-the-cash-plus-revenue-share-pivot.md|6:21 PM call]] with [[wiki/people/larry-sharon.md|Larry Sharon]], Val named this page's offer as the problem: "Я всем сказал, например, что мы предлагаем. Если ты покупаешь машину, то мы тебе это даем за девяносто долларов сервис-чардж. Но сейчас мне нужно было взять сто пятьдесят долларов" — he told everyone $90 a month with a machine, and now needs $150 [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]]. On the word "free" itself: "Когда мы говорим, что даем это бесплатно, это совсем другая коннотация… So I got stuck on my own bullshit." And the new line: "Ты никому не сочиняешь, никому не говоришь, что берите это за бесплатное. Это ничего за бесплатным мы вам не делаем. Мы делаем за 150 долларов минимум" — nobody says "take it for free"; nothing is free; $150 a month minimum — as a lease of 3, 4, 5, 7 or 10 years with a buy-out or return at the end [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]]. The ruling is on [[wiki/decisions/2026-09-29-pitch-the-transactional-equipment-as-a-lease-with-set-terms-and-a-buy-out-or-return-not-as-free.md]].
+
+*(Evolution, not contradiction: the Sept-2 offer was the pitch then; the lease is the pitch agreed on Sept 29. What the "with every machine bought" condition becomes under the lease is not stated — the Sept-9 "does the deal have to be packaged at all?" question below stays open. Title annotated accordingly; the Sept-2 "I may even rent these or lease these" line above is the first hint of this framing.)*
+
 ## Open commitments
 
 - [ ] [[wiki/people/kyle-shepherd.md|Kyle Shepherd]] — decide on the offer. Val did not press for an answer on Sept 2 ("You don't have to give me the answer right now. You can consult your brother") and expected it at the Sept-9 visit. **At that visit Kyle still did not answer**, asked for a couple of hours, and agreed a date with Val — so this now runs against the larger [[wiki/decisions/2026-09-09-val-asks-lucky-coin-for-its-entire-business.md|Sept-9 offer]] — due **Tuesday Sept 15 2026** (was ~Sept 9) — [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]] [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
@@ -232,3 +246,6 @@ After the visitor left, the JVL side reviewed the pitch. [[raw/Meeting_Transcrip
 - [[raw/Meeting_Transcript_Unlimited_Amusement_Mega_Hit_Blaze_V3_and_Transactional_Bundle_Pitch-September-15-2026.md]]
 - [[raw/Meeting_Notes_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]
+- [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Equipment_Depreciation_Investor_Pitch-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]]

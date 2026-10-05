@@ -3,7 +3,7 @@ type: organization
 title: Incom (payment processor)
 date: 2025-02-27
 aliases: [Incom, InComm, SkillPay launch email, hold off for two years, we will take the card away from you, Intum, they totally misled me, InComm's credit, that shift in opinion has only happened recently, black prize play card, white card ATM functionality, replace InComm on the back end, backend displacement, Incomm, Income, NCOM, Incom Payments, wrapped card rule, PAX, PAX 80, reloadable gift cards, Nathan Carver, cash-back commission, barcode activation, Mastercard rules, ABA number, MLH fee sharing, kicked to the curb, InComm doesn't offer any profit sharing, they've ignored us before during and after the show, sponsor bank behind InComm, 120 million a year, the easy living guys, daily cap five k, velocity calculated on the fly, it still says soon, InComm is the master guy, sub accounts, they actually buy bonds, biggest issuer, blue card, black card, billion-dollar gorilla, two dollars to load]
-source-count: 81
+source-count: 83
 open-commitments: 16
 open-questions: 12
 ---
@@ -685,6 +685,21 @@ On the [[wiki/meetings/2026-09-25-incomm-john-exit-and-blue-card-hold.md|Sept-25
 
 **§15.8:** John's personal reason for leaving InComm is withheld [[raw/Meeting_Notes_InComm_John_Exit_and_Blue_Card_Hold-September-25-2026.md]]. **§15 #9:** clear.
 
+## Sept 28 2026 — the two-year history as Val tells it to investors: the half-a-percent offer, the August show, and the negotiator who resigned
+
+At the [[wiki/meetings/2026-09-28-larry-john-eddie-lunch-transactional-equipment-investment-structure.md|Sept-28 lunch]] with [[wiki/people/larry-sharon.md|Larry]] and his partners, Val gave the InComm story from the beginning, as background to the investment on [[wiki/projects/transactional-equipment-depreciation-investor-deal.md]]. It is the fullest single telling in the corpus and matches the Sept-17 grievance above in substance [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]]:
+
+- **Who they are, to him.** "It's a company called InComm. I I N C O M M… InComm is a six billion dollar a year company. And when this legislation came out, they came to my office."
+- **What he proposed two years ago.** "A set of hardware where a player would be able to digitally transact winning to prepaid debit card… a spending card, and then take this spending card, validate it in an ATM" built on the bill-to-bill recycler technology from the company he sold in 2006: "Put me in the position where I would be able to take your digital player card and recycle cash back to the player in the form of an ATM transaction… And by the time everybody would react, I would have the entire market."
+- **The offer.** "My idea… is to be able to get a fee on their end, and they offered me half a percent of transactional of the entire five billion dollars." *(The Sept-2 "0.5 percent of the processing fee" and this "half a percent of… the entire five billion" are the same offer told two ways; the open question on [[wiki/topics/georgia-prize-card-processor-economics.md]] about what it is a share of stays open.)*
+- **The August show.** "We came to the trade show, and I'm showing my equipment, and they're saying our card will be ready September 15th, which is exactly what they promised. Georgia Lottery Corporation… flipped… The legislation calls for no cash, and here at the machine in front of us, you cash me out… the head lawyer for Georgia Lottery Corporation flipped. He issued a statement that this is illegal. The operators association said we are going to sue anybody who pursues that."
+- **InComm's call.** "InComm calls me and they said the head guy who negotiated with me resigned… they said you cannot do it. If you do it, we're not gonna let you use our card." Asked whether they had known, Val: "we knew, but this was supposed to be an ATM type of transaction. And don't forget, we were backed up by a six billion dollar company." *(Compare the Sept-25 section above, where the departing InComm lead's exit is told from InComm's side.)*
+- **Where it stands.** "I have a brokerage agreement with InComm… It means that they're clearing my transactions, but I don't have to go through them. I already have offers from two other people" (on the prize-card page, Sept 28).
+
+To the unnamed adviser that afternoon Val did not name InComm; he said only that "the legislators… said, 'Aha, you are only allowed to transfer this on the prepaid Mastercard or Visa'" and that five billion "must, because of the legislation, go on the prepaid card. It doesn't have to be Mastercard" [[raw/Meeting_Transcript_Equipment_Depreciation_Investor_Pitch-September-28-2026.md]].
+
+**§15.8:** clear. **Personal matters not recorded.** **§15 #9:** none.
+
 ## Open questions (Sept 25 2026)
 
 - **Does the Blue Card (Skill Pay) go forward at all, and what does InComm answer to GAMOA?** Val assumes not; John: "we'll see" — [[raw/Meeting_Transcript_InComm_John_Exit_and_Blue_Card_Hold-September-25-2026.md]]
@@ -804,3 +819,5 @@ On the [[wiki/meetings/2026-09-25-incomm-john-exit-and-blue-card-hold.md|Sept-25
 - [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]]
 - [[raw/Meeting_Notes_InComm_John_Exit_and_Blue_Card_Hold-September-25-2026.md]]
 - [[raw/Meeting_Transcript_InComm_John_Exit_and_Blue_Card_Hold-September-25-2026.md]]
+- [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Equipment_Depreciation_Investor_Pitch-September-28-2026.md]]

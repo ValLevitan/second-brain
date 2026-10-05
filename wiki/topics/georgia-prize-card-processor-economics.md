@@ -3,9 +3,9 @@ type: topic
 title: Georgia prize-card processor economics — the fee sheet, the float, and who actually captures the money
 date: 2026-08-31
 aliases: [prize card economics, cannot be exchanged for currency at the location, where the prize is won, welcome to our world, three fifty-eight nine, HB 353, white card ATM functionality, black prize play card, should I be working on ATMs, Avshad Patel, Ready Credit Corporation, the card puzzle, why pay cash without issuing a card, average load per card, two hundred eighty dollars per card, InComm takes the risk, program manager not provider, Fiserv, breakage zero point three, card to machine fee, MoneyPass, fifty basis points, PAX A80 two hundred dollars, gift card float, dormancy fee, card fee structure, 9.6 percent per year, I'm in the wrong business, free PAX, breakage, five billion in payouts, multi-provider manipulation, reloadable cards, Mastercard rules, gift card policy intent, half a percent, front fees to the store, two dollars per push, PlayPay fees, eight percent on the back end, FBO account, holding that money, B with the B, seventy four hundred locations forty seven thousand machines, InComm doesn't offer any profit sharing, a card solution is not useful if it doesn't lead to cash, thirteenth month after activation, pre-fund, ten thousand dollar pre-fund, twenty four thousand dollars over the weekend, half a percent is my percentage, that's my agreement with Visa, secret document that Visa does not divulge, I can turn my AFT off, GDL is the only company that gives it away, mute them for now, anti money laundering, house bill three fifty three, I faked that, pass to cash, self checkout counter, escheat, easement, sub accounts, they actually buy bonds]
-source-count: 33
+source-count: 35
 open-commitments: 0
-open-questions: 17
+open-questions: 18
 ---
 
 # Georgia prize-card processor economics
@@ -648,7 +648,49 @@ Val: "**I think people will give us the phone number for five dollars… and I t
 
 **§15.8:** clear — market and product economics only.
 
+## Sept 28 2026 — the thesis told twice to investors: the two cards' fee sheets, "whoever owns the equipment clears the transactions", and a bank as the end
+
+Val told the whole prepaid-card story twice on Sept 28 — at the [[wiki/meetings/2026-09-28-larry-john-eddie-lunch-transactional-equipment-investment-structure.md|12:50 PM lunch]] with [[wiki/people/larry-sharon.md|Larry]] and his partners, and at the [[wiki/meetings/2026-09-28-equipment-depreciation-investor-pitch.md|3:33 PM pitch]] to an unnamed tax-investment adviser. Both were outsiders, so he told it from the start. The investment structure itself is on [[wiki/projects/transactional-equipment-depreciation-investor-deal.md]].
+
+### The market figure, restated
+
+- "There was 6.4 billion dollars wagered in 2025, and 5 billion paid out" (lunch) [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]]; "In 2025, the state of Georgia processed six point four billion dollars of wagers. Of which five billion were payouts. Which means five billion must, because of the legislation, go on the prepaid card. It doesn't have to be Mastercard. Prepaid card" (afternoon) [[raw/Meeting_Transcript_Equipment_Depreciation_Investor_Pitch-September-28-2026.md]].
+- **The fee range stays 1–8%, and he says he cannot pin it down.** "I don't know how to fully research this, but depending which way I research, the fee, the combined interest fee, is somewhere between one percent and eight percent on all transactions" (lunch); "according to my research, we can make approximately between one and eight percent on the money, depending on the number of factors, on five billion dollars" (afternoon). His low-end example: "fifty million dollars of recurring fees, and I'm taking it at one percent" [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]] [[raw/Meeting_Transcript_Equipment_Depreciation_Investor_Pitch-September-28-2026.md]]. *(This does not move the open 8 / 15 / 20 % question below.)*
+
+### The two cards' fee sheets, as Val described the sealed envelope
+
+At the lunch Val described the two InComm cards by colour: the player / points card "let's call it blue card because it was color blue… Blue is ATM card", and "the debit card is black" [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]]:
+
+- **The blue (ATM) card is "less profitable"**: "you charge them on the way in to the card, and one time on the way out, but charges stop… maybe between five and ten dollars in transaction fees, and you're done."
+- **The black (debit) card keeps charging**: "You charged on the way in three dollars. Then you charge for every transaction that you redeem your debit card, and then on month thirteenth… You charge five dollar fee to have the card on a monthly basis." Plus the balances that go dead — "I forgot the name. There's a financial term… funds that go dead, that get appropriated. So those funds is also quite a bit." *(The word he could not find is the breakage / dormancy concept this page already carries; he did not name it.)*
+
+*(Colour-to-card mapping is as spoken here; compare the Sept-22 line on this page where the blue card is the "path to cash".)*
+
+### "The gate to the transactions is the transactional equipment"
+
+- Lunch: "the idea is to own the transactions… How do you own the transactions? The gate to the transactions is the transactional [equipment]. Whoever owns the transactional equipment will be clearing the transactions. The rest, I think, is relatively not as difficult as we all imagine, because you could probably find a bank that will hold that, where you will be a power of attorney… We could probably become a bank, and if we do, then we're approximately, hypothetically, should be making somewhere between one and eight percent on five billion" [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]].
+- Afternoon: "If you get the transactional equipment in place, you create a toll booth where everything goes through you"; "What I would like to do is own the bank, or we could go into partnership with the bank. As long as you have the toll booth, which is the transactional equipment, you could put your transaction anywhere you want"; and the size he put on it: "If we get the banking side, a billion-dollar business" [[raw/Meeting_Transcript_Equipment_Depreciation_Investor_Pitch-September-28-2026.md]].
+- **"Toll booth" and "Trojan horse", in his own order.** "I think the goal right now is to become a toll booth for the location. The second, the banking already I think is easier than the first one." The free equipment is the horse: "what this would be is… a Trojan horse"; Larry: "the becoming the bank, so to speak, is the Trojan horse… if it doesn't [work], then you stand" — Val: "A great business… It's making ten million dollars per year in free cash" [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]].
+- **The fallback if JVL cannot bank it.** "There are currently three suppliers. I could go to one of them and say, look, I want part of that end business. I'll give you twenty five hundred accounts… Or maybe we'll find the bank who says, 'Yeah, I like how it sounds'" [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]].
+- **Larry's advice: partner first.** "You can partner with someone initially, and figure out how to become your own financial [institution]… it becomes a… scary game to become your own financial institution." Val: "Which is what I'm doing now" [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]].
+
+### Two other offers, one on a handshake
+
+"I have a brokerage agreement with InComm… It means that they're clearing my transactions, but I don't have to go through them. I already have offers from two other people, and one of them is actually verbally on a handshake. Is giving me fifty percent of all banking transactions that goes through him… he is not a business savvy guy. He's a scientist. He's a physicist" [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]]. Neither person is named. (The InComm history he told at the same lunch — the half-a-percent offer and the August show — is on [[wiki/organizations/incom.md]], Sept 28.)
+
+### What the adviser added
+
+The unnamed adviser (Sept 28) sketched the fee layers himself — "you can also pay a last mile to the location as a residual for the transaction fee. Then on the Mastercard, the prepaid Mastercard, who owns that channel? That's another additional fee that travels on a system" — and offered a Miami contact from merchant processing: "Last name is Saka… they had a bank. They had transaction money", later "The banking side, Andrew Sachs… I know his two brothers who had Merchant One in Miami" (both spellings as spoken; the two may be the same person — not resolved) [[raw/Meeting_Transcript_Equipment_Depreciation_Investor_Pitch-September-28-2026.md]].
+
+### Both sides park the banking upside
+
+Larry: "I think we only do the deal if we agree that the backend may never happen." Val: "I would also suggest for you to think that banking deal as something that is not going to happen… I feel uber uncomfortable promising something like that" [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]].
+
+**§15.8:** clear — market, card and deal economics only. **Personal matters not recorded.**
+
 ## Open questions
+
+- Who is the "physicist" offering Val, on a handshake, 50% of the banking transactions through him, and who is the second offer? Neither is named (Sept 28) — [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]]
 
 - What would a cardless ATM payout really cost? NCR Atleos gave only a $2.75 withdrawal ballpark and two different deposit ranges (Sept 22) — [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]]
 - Where would JVL get per-location volume data to build the 12/24/36-month projections NCR Atleos asked for? Its rep said the data does not exist in that form (Sept 22) — [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]]
@@ -705,3 +747,5 @@ Val: "**I think people will give us the phone number for five dollars… and I t
 - [[raw/Meeting_Notes_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]
 - [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Equipment_Depreciation_Investor_Pitch-September-28-2026.md]]

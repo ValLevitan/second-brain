@@ -1,0 +1,72 @@
+---
+type: person
+title: Larry Sharon (investor partner — the railcar-depreciation group)
+date: 2026-09-28
+aliases: [Larry, Larry Sharon, Speaker 5 at the Sept-28 lunch, Larry_John, Val+Larry_financial_engineering, Speaker 2 on the Sept-29 3:40 PM segment, Speaker 1 on the Sept-29 6:40 PM segment]
+source-count: 11
+open-commitments: 6
+open-questions: 0
+disambiguation: "Not the Atlanta partner 'Larry Simmons' of Sean Fellows's 1990s history, and not 'Larry Hilimire' of Stanton Automatics (ECHO video). This Larry is Val's investor friend who proposed the Entity A / Entity B depreciation deal on Sept 28 2026."
+---
+
+# Larry Sharon
+
+**Who he is.** A friend and investor Val goes walking with and bounces ideas off ("Larry and I would frequently do it"). He and two partners, John and Eddie, invest in railcars for the depreciation and are looking for more: "Currently, we have one avenue through which we capture depreciation that we desperately need." On **September 28 2026** he convened a lunch with Val and the two partners and laid out the structure for investing in JVL's Georgia transactional equipment — Entity A buys the equipment at $16,000 ($4,000 cash, $12,000 as an open receivable to JVL) and takes the depreciation; Entity B, a joint venture with Val, runs the active business and collects $150 a month per location. Detail on [[wiki/projects/transactional-equipment-depreciation-investor-deal.md]] [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]].
+
+**On the surname (inference).** The Sept-28 recording calls him only "Larry" ("Larry, we'll let you kick off the meeting"; he is Speaker 5). The surname is taken from the Plaud speaker labels and titles of the Sept-29 and Sept-30 recordings in the same raw cluster, which continue the same joint-venture conversation [[raw/Meeting_Notes_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]]. The first of those, the Sept-29 3:22 PM call, does **not** speak the name either: its derived notes name Larry from a calendar overlap only ("Val+Larry_financial_engineering", 3:00–3:30 PM) and say the match is unconfirmed [[raw/Meeting_Notes_Larry_Sharon_JV_Fund_Repatriation_Problem-September-29-2026.md]]. The surname is still unconfirmed by any spoken source. **Sept 29, 6:21 PM:** the evening call is the **first source labelled "Larry Sharon"** by Plaud, and Val speaks the first name on it — "Larry, I knew it and I solved it" — so "Larry" is now spoken; "Sharon" is still a label only [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]] [[raw/Meeting_Notes_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]]. That call also ties the earlier inferences together: its 6:40 PM segment refers back to the 3:22 PM call ("That's why I asked you where JVL is domiciled") and names "John and Eddie" as the partners he must go back to (**inference** that the 3:22 PM caller and the 6:40 PM "Speaker 1" are both him) [[raw/Meeting_Transcript_Pricing_Pivot_to_Cash_and_Revenue_Share-September-29-2026.md]].
+
+## What he said (Sept 28 2026)
+
+- **Active, not passive.** The deal only works if the partners run "an active business… It can't be a passive business" — the same reason they now buy railcars they use themselves [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]].
+- **Why he likes it.** "Our cash outlay is no different than what we're doing with railcars. Our depreciation is 25% higher, and the revenue stream starts happening from month one rather than from year fifteen" [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]].
+- **The backend may never happen.** "I think we only do the deal if we agree that the backend may never happen" — the prepaid-card banking upside is not part of the case [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]].
+- **Partner, then maybe bank.** On the processing side: "You can partner with someone initially, and figure out how to become your own financial [institution]… The probable right thing to do is to partner" [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]].
+- **Licences may not transfer.** He cautioned against Val's idea of licensing a second company and selling it; "we might be better off coming in and starting ourselves in an application" [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]].
+- **Time to think first.** He asked for time to think and talk among the partners before the "financial engineering" [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]].
+
+## Sept 29 2026 — the deal goes to Val's lawyer (by context)
+
+The next morning Val described the same structure to [[wiki/people/alan.md|Alan Litwack]] — "a friend of mine who's generating a lot of cash right now. We went for a walk… if I give you four thousand dollars, I can take a write-off for fifteen thousand dollars immediately that year." The tape does not name the friend; the walk, the $4,000 / $15,000 numbers and the $150-a-month five-year contract match Larry's Sept-28 proposal, so he is read as the friend meant (**inference**). Litwack's condition — the structure must be checked so nobody can say JVL helped disguise anything — is on [[wiki/projects/transactional-equipment-depreciation-investor-deal.md]] (Sept 29) [[raw/Meeting_Transcript_Alan_Litwack_Transactional_Equipment_Tax_Write_Off_Model-September-29-2026.md]].
+
+## Sept 29 2026, 3:22–3:47 PM — the money-return call (by context)
+
+The same afternoon Val took a two-segment phone call from the investor side ([[wiki/meetings/2026-09-29-jv-fund-repatriation-problem-licence-and-entity-domicile.md]]). **The counterparty is not named on either recording.** He is read as Larry **by context** — he owns "entity A, my entity", restates the Sept-28 structure in the same numbers ($4,000 down, $12,000 receivable, $150 a month split 50/50), and names "purchasing railcars" as what his side might need money for (**inference**) [[raw/Meeting_Transcript_Larry_Sharon_JV_Fund_Repatriation_Problem-September-29-2026.md]] [[raw/Meeting_Transcript_JV_Licensing_and_Entity_Domicile-September-29-2026.md]]. Two things on that call are identity signals worth noting: he had just been "on this meeting with Trevor and Ben" (unknown people), and on the second segment he speaks **Russian** as well as English (the Sept-28 lunch was all English) [[raw/Meeting_Transcript_JV_Licensing_and_Entity_Domicile-September-29-2026.md]]. What he said, in full, is on [[wiki/projects/transactional-equipment-depreciation-investor-deal.md]] (Sept 29, 3:22 PM); in short:
+
+- **The licence belongs to the JV entity, not Entity A** — the JV is the one buying from JVL and selling to the master distributors. He asked "Do you agree?"; Val went "through the motion" with a hesitation [[raw/Meeting_Transcript_Larry_Sharon_JV_Fund_Repatriation_Problem-September-29-2026.md]].
+- **The $12,000 "debt service" is "a debt payment for the sake of the authorities"** — it has to come back to his side, yet "has to look like an arms-length transaction. There's no way around that." He floated credit against future equipment purchases, and JVL holding the money; Val floated a bank-like company in the middle. None settled [[raw/Meeting_Transcript_Larry_Sharon_JV_Fund_Repatriation_Problem-September-29-2026.md]] [[raw/Meeting_Transcript_JV_Licensing_and_Entity_Domicile-September-29-2026.md]].
+- **Maybe no licence at all.** After Val's "this is not a gaming machine", he will find out "right away" whether selling "a transactional service" needs one [[raw/Meeting_Transcript_JV_Licensing_and_Entity_Domicile-September-29-2026.md]].
+- **Florida will do** for the JV entity, since JVL is not a Georgia entity [[raw/Meeting_Transcript_JV_Licensing_and_Entity_Domicile-September-29-2026.md]].
+- He asked for the rest of the day: "by the end of the day I'll have something, but I need some time to think about it" [[raw/Meeting_Transcript_JV_Licensing_and_Entity_Domicile-September-29-2026.md]].
+
+## Sept 29 2026, 6:21–6:47 PM — Problem B, the lease idea, and his own pivot to "$4,000, no note"
+
+He called back that evening ([[wiki/meetings/2026-09-29-larry-sharon-lease-pricing-problem-b-and-the-cash-plus-revenue-share-pivot.md]]; the labelled source above). Full detail on [[wiki/projects/transactional-equipment-depreciation-investor-deal.md]] (Sept 29, 6:21 PM); in short:
+
+- **He found "problem B" and solved it.** "In trying to solve problem A, I discovered problem B, which is mathematics… sixteen thousand doesn't work… the number at which it works is twelve thousand." The note "has to be repaid within the lifespan of the machine… within ten years"; at $135 net a month (the $150 fee less the $15 operating cost he had asked about at 5:01 PM — [[raw/Meeting_Transcript_Machine_Life_and_Operating_Cost_Baseline-September-29-2026.md]], by context) "the note gets paid off on month ninety nine" [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]].
+- **The lease framing is his.** "to me, this is more akin to a lease… in the case of BMW, service and maintenance is included… at the end of their five-year term, seven-year term, ten-year term, they have the option to either return the equipment to us in good working condition, or they can buy it out from us at a predetermined price." Val adopted it — [[wiki/decisions/2026-09-29-pitch-the-transactional-equipment-as-a-lease-with-set-terms-and-a-buy-out-or-return-not-as-free.md]] [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]].
+- **Then "problem C", and his own simpler deal.** JVL "paying taxes off… the full twelve? When you're only receiving four thousand in actual money. This is a real problem." His answer: "us giving you four thousand per machine. You invoicing us four thousand per machine. There is no note. We split everything fifty… I don't get the extra depreciation above the four grand, but then it removes every other problem." He must "run it by John and Eddie again" — after, at Val's request, deciding for himself whether he still wants the deal [[raw/Meeting_Transcript_Pricing_Pivot_to_Cash_and_Revenue_Share-September-29-2026.md]].
+- He said he had been "talking to Claude and doing my own math" for the model, and closed segment 1 with "Brother. Listen. Yesterday I was in control, so it's fine" [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]].
+
+## Open commitments
+
+- [ ] Larry Sharon (with John and Eddie) — think the proposal over and discuss among themselves — due unspecified — [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]] *(Sept 29, 6:40 PM: now the revised proposal — $4,000 cash per machine, no note, 50/50; first decide for himself whether he is still interested, then "explain the limitations" to John and Eddie [[raw/Meeting_Transcript_Pricing_Pivot_to_Cash_and_Revenue_Share-September-29-2026.md]])*
+- [ ] Larry Sharon with Val — the financial engineering of Entity A / Entity B and the $12,000 receivable — due unspecified — [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]] *(Sept 29, 6:21 PM: Problem B solved by his month-99 model at $12,000; Problem A open; the no-note proposal would drop the receivable [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]])*
+- [ ] Larry Sharon (by context) — confirm that booking the $12,000 per unit as receivables rather than a loan works for depreciation — due unspecified ("in the process of doing that as we speak") — [[raw/Meeting_Transcript_Larry_Sharon_JV_Fund_Repatriation_Problem-September-29-2026.md]] *(Sept 29 evening: not spoken to; moot if the no-note version is adopted)*
+- [ ] Larry Sharon (by context) — find out whether the JV entity needs a licence to sell the transactional service in Georgia — due Sept 29 2026 ("right away") — [[raw/Meeting_Transcript_JV_Licensing_and_Entity_Domicile-September-29-2026.md]]
+- [ ] Larry Sharon (by context) — think through how the money gets back to JVL and come back with something — due end of day Sept 29 2026 — [[raw/Meeting_Transcript_JV_Licensing_and_Entity_Domicile-September-29-2026.md]] *(Sept 29, 6:21 PM: came back with Problem B, not Problem A — "I'm gonna spend the rest of my night thinking about that, and I will get back to you"; still open [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]])*
+- [ ] Larry Sharon — build and send the pricing models for the 3, 4, 5, 7 and 10-year lease terms (and, offered, the Excel of the $150 / $135 note repayment) — due later Sept 29 or Sept 30 2026 — [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]]
+
+**§15.8:** clear — his investment terms are deal economics; nothing about his pay. **Personal matters not recorded.** **§15 #9:** none.
+
+## Sources
+- [[raw/Meeting_Notes_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Alan_Litwack_Transactional_Equipment_Tax_Write_Off_Model-September-29-2026.md]]
+- [[raw/Meeting_Notes_Larry_Sharon_JV_Fund_Repatriation_Problem-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Larry_Sharon_JV_Fund_Repatriation_Problem-September-29-2026.md]]
+- [[raw/Meeting_Notes_JV_Licensing_and_Entity_Domicile-September-29-2026.md]]
+- [[raw/Meeting_Transcript_JV_Licensing_and_Entity_Domicile-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Machine_Life_and_Operating_Cost_Baseline-September-29-2026.md]]
+- [[raw/Meeting_Notes_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Pricing_Pivot_to_Cash_and_Revenue_Share-September-29-2026.md]]

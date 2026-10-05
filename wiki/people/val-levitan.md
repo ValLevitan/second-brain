@@ -3,8 +3,8 @@ type: person
 title: Val Levitan
 date: 2026-07-12
 aliases: [Val, Val Levitan]
-source-count: 380
-open-commitments: 70
+source-count: 386
+open-commitments: 72
 open-questions: 1
 ---
 
@@ -1417,7 +1417,59 @@ On the [[wiki/meetings/2026-09-28-transactional-mvp1-remote-updates-and-october-
 - **10:33 AM.** He stopped Felipe's detailed battery use case: "Replace battery without factory reset" is the capability, and "you're now engineering a product. You're not an engineer." He gave half an hour for a rework and booked another meeting. See [[wiki/decisions/2026-09-28-a-capability-is-one-high-level-line-and-the-product-owner-does-not-tell-engineers-how.md]]. [[raw/Meeting_Transcript_RIS_Battery_Replacement_Capability_Framing-September-28-2026.md]]
 - **11:07 AM.** He set the roles (a capability "closes, it collapses"; a requirement "continues with the product"), then said "I have another meeting to attend… I'm going to leave, but I'm here, I'm present." On boot loops: "don't forget that we are switching to cell modem right now", a multi-step release is fine, but "If we don't, our product will be rejected." He moved the critical-error cause to MVP 2 ([[wiki/decisions/2026-09-28-showing-the-real-cause-of-a-critical-error-moves-to-mvp2.md]]) and gave the Jira work to Sebastian ([[wiki/decisions/2026-09-28-sebastian-takes-the-ris-mvp1-capabilities-into-jira-and-felipe-steps-back.md]]). See [[wiki/topics/ris-remote-install-and-machine-states.md]] (Sept 28). [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]
 
+## Sept 28 2026 (12:50 PM) — lunch with Larry, John and Eddie: the depreciation deal, "with or without you", and the banking upside set aside
+
+At the [[wiki/meetings/2026-09-28-larry-john-eddie-lunch-transactional-equipment-investment-structure.md|Sept-28 lunch]] (English) with [[wiki/people/larry-sharon.md|Larry]] and his two railcar-investor partners, Val pitched the Georgia transactional equipment as an investment ([[wiki/projects/transactional-equipment-depreciation-investor-deal.md]]) [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]]:
+
+- **The model in one sentence.** "We either sell the transactional equipment and collect ninety dollars per month, or we give away the transactional equipment for free and collect one hundred fifty dollars a month." His realistic target: "twenty percent of the market… let's call it two thousand locations. Two thousand locations times four is eight million dollars."
+- **He offered the vehicle.** "I can register JVL Distributing in Georgia… where my company and your company will be fifty fifty partners"; the $12,000 balance per unit is "Not financed. I open receivable."
+- **He will not wait.** "I'm getting ready to do it with or without you"; if they pass, "at a slower pace, or I'm gonna do it through some other."
+- **He set the banking dream aside himself.** "What I'm discussing right now is a complete unknown and complete dream"; "I would also suggest for you to think that banking deal as something that is not going to happen… I feel uber uncomfortable promising something like that." (The dream itself — toll booth, 1–8% on $5 billion, a bank — is on [[wiki/topics/georgia-prize-card-processor-economics.md]], Sept 28; the InComm history on [[wiki/organizations/incom.md]], Sept 28.)
+- **Licence.** "I'll get you a license… Distributor license is not a problem"; "Thirty days? I don't want to promise"; after Larry's transferability point, "You're right… I don't think you should be investing anything into anything until you hundred percent."
+- **Candour about JVL's standing.** "I am between number three and number six" in Georgia, for two reasons he named (on [[wiki/projects/georgia-market-rollout.md]], Sept 28); "About sixty-five" employees, "down from one hundred and fifty."
+
+## Open commitments (Sept 28 2026, 12:50 PM)
+
+- [ ] Val Levitan — get Larry's group a Georgia distributor licence (new application or his second company; open) — due unspecified — [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]] *(Sept 29 PM: the licence moved to the JV entity, and Val then said one "may not be needed… this is not a gaming machine"; the investor side is finding out — still open [[raw/Meeting_Transcript_JV_Licensing_and_Entity_Domicile-September-29-2026.md]])*
+- [ ] Val Levitan (with Larry) — the financial engineering of Entity A / Entity B and the $12,000 receivable, once the partners decide — due unspecified — [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]]
+
+## Sept 28 2026 (3:33 PM) — the same idea to an unnamed tax-investment adviser: "one fourth of a cash", and "I genuinely don't want anything"
+
+At the [[wiki/meetings/2026-09-28-equipment-depreciation-investor-pitch.md|3:33 PM pitch]] (English) [[raw/Meeting_Transcript_Equipment_Depreciation_Investor_Pitch-September-28-2026.md]]:
+
+- **"I'm in the exploration stage right now."** The idea: "the new beautiful bill has a hundred percent write-off… They will put in one fourth. The depreciation on the full amount… It's going to be Rev Share… on exit they will get a percentage." He admitted he had only lately seen it: "I never appreciated the opportunity of writing off everything in one year… We're talking about maybe weeks."
+- **He would not be pinned on lead time.** "You're asking the wrong question… I am moving with or without you. With or without them… You're not the only person I'm speaking to." Full disclosure at the end: "I'm speaking to not a broker, to another few friends of mine."
+- **He declined the adviser's handshake terms.** "I genuinely don't want anything… I absolutely want nothing."
+- **The ambition, sized.** "If we get the banking side, a billion-dollar business"; "What I would like to do is own the bank, or we could go into partnership with the bank" (on the prize-card page, Sept 28). And the boundary he keeps: "I'm looking for street gaming… I cannot make money in casinos."
+- **A card idea in passing.** He likes a metal card with perks — "airport lounge on me, just like platinum" — and the adviser showed him an NFC tap card as a model. No product decision.
+
+**§15.8:** clear across both. **Personal matters not recorded** (small talk at both meetings). **§15 #9:** none.
+
+## Sept 29 2026 (3:22–3:47 PM) — the investor-side call: "the real business is that I'm getting paid four thousand dollars, and the rest we split fifty"
+
+A two-segment phone call ([[wiki/meetings/2026-09-29-jv-fund-repatriation-problem-licence-and-entity-domicile.md]]; English, then mixed English/Russian) with the investor side — unnamed on tape, read as [[wiki/people/larry-sharon.md|Larry]] by context. Full detail on [[wiki/projects/transactional-equipment-depreciation-investor-deal.md]] (Sept 29, 3:22 PM) [[raw/Meeting_Transcript_Larry_Sharon_JV_Fund_Repatriation_Problem-September-29-2026.md]] [[raw/Meeting_Transcript_JV_Licensing_and_Entity_Domicile-September-29-2026.md]]:
+
+- **He named the problem plainly.** On the plan that Entity A pays JVL "debt service" on the $12,000 receivable out of its 50%: "But the real business is that I'm getting paid four thousand dollars, and the rest we split fifty"; "No, it's not your money. It's actually you're taking my fifty percent from the operating business and repaying JVL that fifty percent"; "how will this money actually get returned to you?" [[raw/Meeting_Transcript_Larry_Sharon_JV_Fund_Repatriation_Problem-September-29-2026.md]]
+- **His idea, and his objection to the other's.** "Maybe there should be another company in the middle that acts like a bank… that collects the hundred fifty dollars or a hundred dollars per month and repays JVL." To credit against future purchases: "how do you write off equipment afterward? How do you take a write off if you already have a credit?" To JVL holding the money: "It cannot because then it becomes a monopoly" [[raw/Meeting_Transcript_Larry_Sharon_JV_Fund_Repatriation_Problem-September-29-2026.md]] [[raw/Meeting_Transcript_JV_Licensing_and_Entity_Domicile-September-29-2026.md]]
+- **A hesitation he could not finish.** "I'm not sure that I could be a second entity. Like I, I can be one entity, but I'm not sure that I could be one and the other. But maybe I'm mistaken" — which two roles is unclear [[raw/Meeting_Transcript_Larry_Sharon_JV_Fund_Repatriation_Problem-September-29-2026.md]]
+- **The licence may not be needed, and Florida will do.** "May not be needed. Because this is not a gaming machine"; on where to form the JV entity: "No, it doesn't [have to be Georgia]. I mean, JVL is not a Georgia entity" — so "a Florida entity" [[raw/Meeting_Transcript_JV_Licensing_and_Entity_Domicile-September-29-2026.md]]
+
+**§15.8:** clear — deal economics only. **Personal matters not recorded.** **§15 #9:** none.
+
+## Sept 29 2026 (6:21–6:47 PM) — the evening call with Larry: "So I got stuck on my own bullshit"
+
+The call-back ([[wiki/meetings/2026-09-29-larry-sharon-lease-pricing-problem-b-and-the-cash-plus-revenue-share-pivot.md]]; mixed Russian and English, then English) with [[wiki/people/larry-sharon.md|Larry Sharon]]. Full detail on [[wiki/projects/transactional-equipment-depreciation-investor-deal.md]] (Sept 29, 6:21 PM) and the ruling on [[wiki/decisions/2026-09-29-pitch-the-transactional-equipment-as-a-lease-with-set-terms-and-a-buy-out-or-return-not-as-free.md]] [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]] [[raw/Meeting_Transcript_Pricing_Pivot_to_Cash_and_Revenue_Share-September-29-2026.md]]:
+
+- **He had seen the math problem already.** To Larry's "problem B" ($12,000, not $16,000): "Larry, I knew it and I solved it. I have another proposition. I just never wanted to bring it up yet"; "I knew about problem B before" [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]].
+- **His own pricing problem, said plainly.** "Я всем сказал… если ты покупаешь машину, то мы тебе это даем за девяносто долларов сервис-чардж. Но сейчас мне нужно было взять сто пятьдесят долларов" — he told everyone $90 with a machine, now needs $150; a customer's $150 × 60 months does not reach the $15,000 equipment price. "We should charge closer to two hundred dollars. I wouldn't want to… because I would want to penetrate the market" [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]].
+- **His first idea, then the lease.** A lifetime contract with all service and advance replacement, exit by paying the rest of the equipment price; then, on Larry's car-lease framing, "Когда мы говорим, что даем это бесплатно, это совсем другая коннотация… So I got stuck on my own bullshit" and "Это ничего за бесплатным мы вам не делаем. Мы делаем за 150 долларов минимум" [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]].
+- **On "problem C" (JVL taxed on an unpaid invoice):** "It is a problem… That one is a real problem"; on moving JVL's domicile: "Of course it's impossible. And even if it's possible, we're talking about months, years." On Larry's $4,000-cash, no-note version: "it's much easier. And at the end, we may build a huge business and be very happy" — and then: "put a fire extinguisher over your heat right now and sit down and think for yourself whether you're even interested in that deal" [[raw/Meeting_Transcript_Pricing_Pivot_to_Cash_and_Revenue_Share-September-29-2026.md]].
+
+**§15.8:** clear — deal economics only. **Personal matters not recorded.** **§15 #9:** none.
+
 ## Sources
+- [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Equipment_Depreciation_Investor_Pitch-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
 - [[raw/Meeting_Transcript_Texas_Gas_Station_Displacement_with_Recycler_and_Ports-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Inamax_Ray_Cosentino_Georgia_Market_and_Trial_Agreement-February-11-2026.md]]
@@ -1806,3 +1858,7 @@ On the [[wiki/meetings/2026-09-28-transactional-mvp1-remote-updates-and-october-
 - [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
 - [[raw/Meeting_Transcript_RIS_Battery_Replacement_Capability_Framing-September-28-2026.md]]
 - [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Larry_Sharon_JV_Fund_Repatriation_Problem-September-29-2026.md]]
+- [[raw/Meeting_Transcript_JV_Licensing_and_Entity_Domicile-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Pricing_Pivot_to_Cash_and_Revenue_Share-September-29-2026.md]]

@@ -230,15 +230,15 @@ No. This is. This is crazy. This is. This is childish talk. Child. Child. Listen
 00:29:45 Speaker 1
 Listen to me. Listen.
 00:29:52 Speaker 1
-Pay me back within the year. Pay me back in ninety days, and put me on the board for pay me two thousand dollars a month to sit on a board. Took a company from sixty million to nine hundred seventy-five million. Along the way, I got divorced, and he took warrant and converted it to shares. I ended up with seven and a half percent of the company. I was all done on a handshake. Now, I, I. If someone's going to fuck me, they're going to fuck me. They're going to fuck me on paper. They're going to fuck me on a handshake. I come from Montreal. Anyway, so if you want, I got a treadmill back there. Want a treadmill for your office? I don't want anything. So I am moving into that office.
+Pay me back within the year. Pay me back in ninety days, and put me on the board for pay me two thousand dollars a month to sit on a board. Took a company from sixty million to nine hundred seventy-five million. [Personal passage removed — owner ruling 2026-09-28: the JVL brain holds JVL matters only. Original kept in the source vault.] He took warrant and converted it to shares. I ended up with seven and a half percent of the company. I was all done on a handshake. Now, I, I. If someone's going to fuck me, they're going to fuck me. They're going to fuck me on paper. They're going to fuck me on a handshake. I come from Montreal. Anyway, so if you want, I got a treadmill back there. Want a treadmill for your office? I don't want anything. So I am moving into that office.
 00:30:40 Val Levitan
 I genuinely don't want anything.
 00:30:41 Speaker 1
 I swear. Here you go. That's the new design for that office. That's office four. Two chairs, a new desk coming, and it's I have Watson designing it, and I have a competing company called Veradesk versus Desk. So I am moving.
 00:30:55 Val Levitan
-I absolutely want nothing. I just want health. If you could, you can't buy it. If you could whisper to the guy upstairs, just keep all the desks, all the money. Just a little bit.
+I absolutely want nothing. [Personal passage removed — owner ruling 2026-09-28: the JVL brain holds JVL matters only. Original kept in the source vault.]
 00:31:07 Speaker 1
-God forbid you have an issue with your heart or family. I know some of the population. Anyone with orthopedic, I have. A Rolodex that. That's what I can offer you.
+[Personal passage removed — owner ruling 2026-09-28: the JVL brain holds JVL matters only. Original kept in the source vault.] That's what I can offer you.
 00:31:22 Val Levitan
 Enjoy your lunch in Utah.
 00:31:24 Speaker 1
