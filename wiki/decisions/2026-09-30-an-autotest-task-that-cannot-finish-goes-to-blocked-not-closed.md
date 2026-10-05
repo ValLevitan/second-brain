@@ -3,7 +3,7 @@ type: decision
 title: An autotest task whose scenarios are stopped by defects goes to "Blocked", not closed, and is raised at the next meeting — and the writer picks the next task that is closest to ready and moves its dates
 date: 2026-09-30
 aliases: [task 41 Blocked, в блок положить, blocked autotest task, Blocked not closed, raise at the next meeting, разблокировалась ли эта задача, pick the task closer to ready, более в готовом состоянии, move the dates, take any unassigned task, expired permission autotests, TINT-41 blocked, branch hanging]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 1
 open-questions: 0
@@ -37,10 +37,11 @@ The derived notes record the same ruling — "set it to Blocked and raise it at 
 
 ## Open commitments
 
-- [ ] [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] — set task 41 to Blocked with the blocking defects linked; raise it at the next meeting; pick the next autotest task that is closest to ready (probably 148) and move its dates — due Sept 30 2026 — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- [ ] [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] — set task 41 to Blocked with the blocking defects linked; raise it at the next meeting; pick the next autotest task that is closest to ready (probably 148) and move its dates — due Sept 30 2026 — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]] — *Oct 1 2026: at the next stand-up he reported "Сегодня ещё прошёлся по 7 41 задачи со своим уже портом и [эмулятором SAS]. Один [блокер] снимался, доделал" — a blocker was lifted and he worked the task further; whether it was set to Blocked, and which task he took next ("34 лакейшн блок тейкс" — garbled; 148 is not said), is not stated; nobody raised the task's status at the meeting* — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 
 **§15.8:** clear — Jira process only; no named person's pay, rate or performance judgement. **§15 #9:** none.
 
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]

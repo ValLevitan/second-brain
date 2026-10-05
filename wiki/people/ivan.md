@@ -3,7 +3,7 @@ type: person
 title: Ivan
 date: 2025-02-19
 aliases: [Ivan, Ivan Shpakov, Иван Шпаков, Ivan Shpak, Ваня]
-source-count: 22
+source-count: 25
 open-commitments: 6
 disambiguation: "JVL release manager (GLI submittals, release-candidate marks). Not the bank representative Ivan of the Sept-25-2026 CIBC call (surname Lucic per the notes) — see wiki/meetings/2026-09-25-cibc-ivan-lucic-600k-transfer-post-dated.md. Resolve by context: releases/GLI → this page."
 ---
@@ -132,7 +132,7 @@ At the [[wiki/meetings/2026-09-29-daily-standup-firmware-reissue-and-modem-gatew
 
 ## Open commitments (Sept 29 2026)
 
-- [ ] Ivan — rebuild and verify the modem fix once Kharetski's 4.50.2 build arrives — due unspecified (re-release not before Sept 30 2026) — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]] — *Sept 30 2026: not mentioned; Kharetski reported the Georgia fixes finished* — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- [ ] Ivan — rebuild and verify the modem fix once Kharetski's 4.50.2 build arrives — due unspecified (re-release not before Sept 30 2026) — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]] — *Sept 30 2026: not mentioned; Kharetski reported the Georgia fixes finished* — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]] — *Oct 1 2026: he works "С Женей" (Kharetski, by context), and Pavel said the team's SIM "сейчас у Ивана тестируется. Как работает [gom в 3] с модемом" — a modem test is under way; the fix is not named* — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [x] Ivan — send the instruction (PDF) by email before the later meeting that day — due Sept 29 2026 — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]] — **discharged Sept 29 2026:** at the 8:06 AM call Klimovich called it "этот документ, который ты сегодня прислал" — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
 
 ## Sept 29 2026 (8:06 AM) — he walks the team through the set-up instruction, and it goes to Confluence with the SAS tool
@@ -166,7 +166,14 @@ At the [[wiki/meetings/2026-09-30-daily-standup-flexport-firmware-delivery-and-n
 
 On the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-modem-supply.md|Sept-30 8:03 AM MVP 1 call]] (Russian; label "Ivan Shpak") his instruction showed "превью [unavailable]" to Klimovich and Khamin; "у меня с утра, когда я это всё вкинулся, было хорошо, а сейчас тоже проблема"; he posted a link in the group, and by the end: "Я картинки вернул, посмотрите, пожалуйста." Pictures added in the page body "почемуто вот такой ерундой страдают", so the emulator he posted goes as an archive in a comment at the foot — Klimovich: "на скачку пошёл картинки подсосались тоже вижу." See [[wiki/topics/docs-as-code-and-atlassian-exit.md]] (Sept 30) [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]].
 
+## Oct 1 2026 — autotests "with Zhenya", and the team's one SIM is with him for a modem test
+
+At the [[wiki/meetings/2026-10-01-daily-standup-sas-mode-flag-and-feature-status-rules.md|Oct-1 Minsk stand-up]] (Russian; label "Ivan Shpak") his whole report: "С Женей авто тесты и все остальное, что хотите от меня всё это делают" — autotests with Zhenya ([[wiki/people/evgeny-kharetski.md|Kharetski]], by context — inference; on Sept 29 Pavel spoke of "то, что сейчас женя делает с Иваном") [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]. At the [[wiki/meetings/2026-10-01-transactional-mvp1-status-slice-and-sas-command-logging.md|8:02 AM MVP 1 call]] (label "Ivan Shpak"; he said only "Счастливо") Pavel, asked for a SIM by Bosik: "Симку можно у Ивана будет забрать. Ну, он сейчас заканчивает" — not today; "Симка сейчас у Ивана тестируется. Как работает [gom в 3] с модемом" (the derived notes read "GOM V3" [[raw/Meeting_Notes_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]); Bosik will wait for "ванино". His Sept-30 test commitment above is not mentioned. See [[wiki/decisions/2026-09-04-north-america-modem-variant-and-ask-kore-for-the-apn.md]] (Oct-1 update) [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]].
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]

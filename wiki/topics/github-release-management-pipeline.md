@@ -3,7 +3,7 @@ type: topic
 title: GitHub release management and the CI/CD release pipeline
 date: 2025-10-21
 aliases: [release management, release pipeline, CI/CD, GitHub Actions pipeline, release artifacts, ISO image release, release manager role, continuous delivery, flex os installer, manifest, release candidate, single source of truth, feature branch discipline, sprints vs kanban, Jira GitHub link, FlexPos IP 902, FP 519, IP 89 dashboard grooming, bulk archive automation, Jira resolutions cleanup, Flex-POS Transition to Production, alpha build release tracking, knowledge repository, prose pending folder, prose merge action, docs contracts folder, integration repository, Knowledge Base repository, Standards folder, 39 accesses, hardware GitHub standard, hardware-components repo, hardware-manufacturing repo, BOM sync robot, category first manufacturer second]
-source-count: 105
+source-count: 106
 open-commitments: 1
 open-questions: 10
 ---
@@ -810,7 +810,21 @@ An hour later Val gave [[wiki/people/efim-podvoiski.md|Efim Podvoiski]] — owne
 
 Efim's side gives "Repository mass engine… data contract. But the robot is Nova" and "Excel file… result of the test of mathematics" — the maths-engine repository, a data contract, NOVA, and an Excel file of maths test results; nothing about their state is readable. No ruling, no undertaking. **§15.8:** clear (Val's opening remark on how Efim is doing has no readable subject and is held). **§15 #9:** none.
 
+## Oct 1 2026 (5:02 PM) — the flat list in GitHub gets its "configurator", every change is a commit with its reason, and Claude Code builds the first structure from the Flex Pay Slim
+
+On the [[wiki/meetings/2026-10-01-genadi-io-board-chips-flat-bom-pilot-and-street-cabinet-panel.md|Oct 1 5:02 PM call]] (Russian; Val, [[wiki/people/genadi-peari.md|Genadi]]) the GitHub side of the hardware thread [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]:
+
+- **What GitHub holds, in Genadi's read-back.** "в [GitHub] будет… структура просто дата, флэт. И будет какая-то логика, по которой будет создаваться продукт из [GitHub] посредством этого конфигуратора" — a flat data structure, and a configurator (AI logic, outside MSBC) that assembles the product from it. Ruling: [[wiki/decisions/2026-10-01-only-the-finished-bom-goes-into-msbc-the-configurator-is-ai-logic-outside-it-no-hybrid-and-the-pilot-is-the-flex-pay-slim.md]].
+- **Why the commit history is the logic.** Val: when a part is changed, "[commit] в [GitHub] объясняет, и почему вы делаете этот [commit], для чего… Тогда [the file] который контролирует все вот эти [commits]… знает, что туда положен новый [commit] для чего-то… И он на пожизненно это запомнил." Genadi: all ECOs "должны быть [stored в GitHub], проверяться каждый раз абсолютно" — no argument there.
+- **What does and does not go in.** Vendor revisions and datasheets with the items; quotations and prices do not ("в гетхабе это не нужно") — [[wiki/decisions/2026-09-30-engineers-never-change-msbc-and-administration-never-changes-github.md]] (Oct-1 update).
+- **Genadi's alternative, unanswered.** "может я вам посоветую быстро сделает какой-то модуль, который можно пользоваться прямо в [GitHub]… замены построение [bill of material] в MSBC… свой модуль простой."
+- **The first structure.** Val: "я сначала сделаю структуру в [GitHub]… Я практически уверен, что я сам это смогу сделать" — Claude Code to pull the Flex Pay Slim part number out of MSBC as a flat list with every supplier, then work backward. Whether Nathan's Sept-30 experiments continue beside it is garbled on tape (see the Sept-23 decision, Oct-1 update).
+
+**§15.8:** clear. **§15 #9:** none.
+
 ## Sources
+
+- [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
 
 - [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]
 - [[raw/Meeting_Notes_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]

@@ -4,8 +4,8 @@ title: Mikhail Perelman
 date: 2026-07-13
 aliases: [Mikhail Perelman, Misha, Миша, Mikhail, Michael]
 disambiguation: "Procurement Manager (parts/vendors/shipments; the retrofit-lead "Misha"). Misha/Michael cluster (2, owner-ruled): [[wiki/people/michael-gottlieb.md|Michael Gottlieb]]=Senior VP Game Design / [[wiki/people/mikhail-perelman.md|Mikhail Perelman]]=Procurement Manager (the "retrofit Misha"). Resolve by context; queue if none."
-source-count: 15
-open-commitments: 3
+source-count: 18
+open-commitments: 5
 open-questions: 2
 ---
 
@@ -105,7 +105,31 @@ On the [[wiki/meetings/2026-09-24-hardware-repo-bom-source-of-truth-and-street-c
 
 On the [[wiki/meetings/2026-09-30-github-to-msbc-bom-flat-list-bridge.md|Sept-30 10:00 AM GitHub-to-MSBC meeting]] Val, arguing that nothing in a machine is improvised, said to Genadi: "You specify the hole, you specify the lock, and you tell Michael which lock he orders, and you tell Elizabeth which lock goes where." "Michael" is read as Mikhail Perelman by the ordering/procurement context — inference. It places him as the one who orders purchased parts off Genadi's specification, consistent with the Apr-28 2025 PO role model above [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]].
 
+## Oct 1 2026 — the purchase order is cut from 300 to 100; the stock figure under it; the supplier's one-month lead time
+
+On the [[wiki/meetings/2026-10-01-mikhail-perelman-po-cut-to-100-units-and-stock-count.md|Oct-1 3:44 PM call]] (Russian; Val and Mikhail only) [[raw/Meeting_Transcript_Mikhail_Perelman_PO_Cut_to_100_Units_and_Stock_Count-October-1-2026.md]]:
+
+- **The order he was writing.** Mikhail wanted to release a PO; Val refused 300 units ("я не хочу замыкать деньги на 300 штук"), refused Mikhail's 200 ("На 200 на 200 штук ты согласишься"), and set 100: "мне хватит 100 у меня нету бенефита в 200 в 500 в миллион." Mikhail: "Я переделаю заказ на 100 штук. И отправлю." Ruling: [[wiki/decisions/2026-10-01-the-purchase-order-is-cut-to-100-units-not-300-or-200.md]]. The part is not named clearly in the source ("риун", garbled).
+- **What his orders rest on.** "до пересчета мне лёва никаких файлов не давал… После этого лева сделал файл… 1 августа он его сделал там 29 июля, и я его получил. Вот на этих цифрах я базирую мои заказы… Насколько они правильные? Все я не уверен. У меня другого нет." The 233-unit line in that file against 29 now in BC is on [[wiki/topics/business-central-erp-implementation.md]] (Oct 1 2026). He had asked the person who counted to recheck: "я переспрашивал несколько раз она мне сказала, что нет"; she "уже внесла изменения в BC, там 29 штук числятся". He keeps no written exchange about it: "Мне не нужна такая переписка, у меня есть новая цифра в би си."
+- **The supplier.** A Chinese supplier, away for a holiday from Oct 1 and back on the 7th; electronics now harder and dearer; lead time "месяц… минимум" where he could once ask for two weeks; a long-standing supplier with good terms (the term itself garbled). Val: "одно другого не касается."
+- **Val wants to deal with the supplier himself.** "познакомь меня с этими людьми… Отправь мне, пожалуйста имя я с кем ты разговариваешь." Mikhail: "Хорошо." Dates: "Сроки я еще не могу сказать."
+
+The derived notes carry the same decision and two undertakings [[raw/Meeting_Notes_Mikhail_Perelman_PO_Cut_to_100_Units_and_Stock_Count-October-1-2026.md]].
+
+**On the next call, in absentia.** Ten minutes later [[wiki/people/lev-rudky.md|Lev]] told Val that the 233 came from a block of July count data he had not posted, that "миша знает, что я ему пришлю файл", and that Mikhail knows the gap is on the BC side ("Он значил твоя вина?" — "Да"). Lev drew one exception: if Elizabeth had told Mikhail a part was missing and he had not had the quantity corrected, that part is not the BC load's error (the passage is broken; the notes' reading). "Миша" = Perelman by the PO/file context (§4) [[raw/Meeting_Transcript_Lev_Rudky_Missed_Inventory_Adjustments-October-1-2026.md]]. See [[wiki/meetings/2026-10-01-lev-rudky-missed-inventory-adjustments.md]].
+
+**§15.8:** Val's sharper remarks to Mikhail about the conversation itself are withheld; order size, supplier and lead-time facts are company procurement and are recorded.
+
+## Open commitments (Oct 1 2026)
+
+- [ ] Mikhail Perelman — redo the purchase order for 100 units (not 300) and send it — due unspecified — [[raw/Meeting_Transcript_Mikhail_Perelman_PO_Cut_to_100_Units_and_Stock_Count-October-1-2026.md]]
+- [ ] Mikhail Perelman — send Val the names of the supplier contacts and introduce him to them — due unspecified — [[raw/Meeting_Transcript_Mikhail_Perelman_PO_Cut_to_100_Units_and_Stock_Count-October-1-2026.md]]
+
 ## Sources
+
+- [[raw/Meeting_Transcript_Mikhail_Perelman_PO_Cut_to_100_Units_and_Stock_Count-October-1-2026.md]]
+- [[raw/Meeting_Notes_Mikhail_Perelman_PO_Cut_to_100_Units_and_Stock_Count-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Lev_Rudky_Missed_Inventory_Adjustments-October-1-2026.md]]
 
 - [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]]

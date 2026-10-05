@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna, Selena, Elena]
-source-count: 71
+source-count: 72
 open-commitments: 14
 ---
 
@@ -320,7 +320,12 @@ At the [[wiki/meetings/2026-09-25-georgia-progressives-and-class-a-lions-riches.
 
 At the [[wiki/meetings/2026-09-29-ai-pm-architecture-and-second-brain-plan.md|Sept-29 "Design_AI-PM" call]] (Russian; she was not present) [[wiki/people/val-levitan.md|Val]] said the AI project manager needs a special vocabulary for the team's mixed English-Russian speech and that it already exists — "Лена сделала хорошую работу на эту тему"; [[wiki/people/andrey-bosik.md|Bosik]] said the team will reuse "наш [глоссарий]" and extend it. Bosik also said the GitHub repository "где сохранялись транскрипты митингов раньше" — made by Lena — "сейчас не актуально, оно не работает". That "Лена" is Lena Zhukova is **by context** (her Mar-2026 taxonomy/glossary work above). See [[wiki/projects/ai-project-manager-and-company-second-brain.md]] [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]].
 
+## Oct 1 2026 (in absentia) — the feature-level "Request Review" status was made for her team
+
+At the [[wiki/meetings/2026-10-01-daily-standup-sas-mode-flag-and-feature-status-rules.md|Oct-1 Minsk stand-up]] (Russian; she was not present) [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]], asked why the feature workflow carries both Completed and Request Review: "Вообще этот рекластью был только для лениных. Это это как бы перенеслось, потому что для для лены создавался у них там есть такая штука, когда Майкл проверял. То, что нарисовали и переводил дальше, то есть у нас для разработчиков такое не использовалось" — the status exists for her design team's flow, where Michael (read as [[wiki/people/michael-gottlieb.md|Michael Gottlieb]] — inference) reviews what was drawn and moves it on; it was never meant for the developers. The developers' rule that came out of it is on [[wiki/decisions/2026-10-01-completed-is-the-developers-last-step-and-a-found-problem-sends-the-feature-from-completed-back-to-to-do-as-a-story.md]] [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]. (Her Feb-12-2026 note above that Request Review hides schedule dates is the same status.)
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 - [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
 
 - [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]

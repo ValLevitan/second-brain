@@ -3,10 +3,10 @@ type: decision
 title: The virtual test system attempts full ARM-processor emulation running the production build plus simulated devices first — Docker or a daemon-mode simulation is the fallback, because the simpler options do not cover the full functionality
 date: 2026-09-07
 aliases: [virtual test system, emulators, virtual Flex-Pay, virtual gaming machine, virtual Flex-Port, ARM emulation, same build as on the machines, Docker fallback, daemon mode, bare remote-update tool, redeploy all the hardware from scratch]
-source-count: 18
+source-count: 20
 status: active
-open-commitments: 6
-open-questions: 2
+open-commitments: 8
+open-questions: 3
 ---
 
 # The virtual test system: try full ARM emulation first
@@ -123,6 +123,26 @@ The derived notes record the dispenser and LTE points the same way and call "the
 
 **Anton's Sept-23 and Sept-24 commitments below stay open** — the move to Flex IQ is being checked device by device; Khamin's delay-case item was not mentioned.
 
+## Update, Oct 1 2026 — verifying the Flex IQ emulator against the device: a register of checked versions, "one instance per device" so it goes to work sooner, and someone else brings it up next
+
+At the [[wiki/meetings/2026-10-01-daily-standup-sas-mode-flag-and-feature-status-rules.md|Oct-1 Minsk stand-up]] (Russian) [[wiki/people/anton-seregin.md|Seregin]] reported on the Flex IQ side ("по [Flex IQ]… дошел до как бы до стадии") [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]:
+
+- **The check.** "шаблону для верификации. Ну корректность короче эмуляции… Сверить его с тем, что на… устройством" — run a scenario ("положить деньги, распечатать тикет… клиента забрал") on the emulator and on the device and compare the logs: "Не подмешивается ли чегото там дополнительного, либо, допустим, какойто [эвент] пропускается." [[wiki/people/irina-shishko.md|Irina]]'s worry — tests pass on the emulator and "на реальном устройстве. Будет ерунда" — and [[wiki/people/pavel.md|Pavel]]'s answer — "у нас не стоит задач полностью соответствовать… если находятся разночтения. Ну [фиксятся]" — are on [[wiki/topics/test-automation-strategy.md]] (Oct 1, 4:48 AM).
+- **A register.** "есть версия у самого эмулируемого устройства… у него есть поле к какому какой модели. И её прошивки. Было верифицировано. [Клод]… предлагает делать? Вести такой типа регистр. Он как бы уже сделал, просто он не заполнял. Реальной [сверки] с… устройством не было." Daemon versions as spoken: "на принтер вот этот демон он там ноль ноль 8 версия… И ноль ноль 6. Fix pay… Там там не поднимали версию. Вот но есть какието отличия" — 0.0.8 against 0.0.6 on FlexPay (reading).
+- **One instance per device.** Pavel: "у нас наверное, будет одно устройство. Например, если смотрим на принтер, там наверное для эпика надо сейчас делать… Даже наверное, этот картдиспенсер, хоть у нас там и 2 возможно использовать, наверное, лучше сделать всё пока что в в единичном экземпляре. В пользу Того, чтобы быстрее этот [эмулятор] пошёл в работу, чтобы все могли его использовать." Seregin: "Оно единственный экземпляре одна" — it already is. ("акмулятор" read as emulator — inference, as throughout.)
+- **Today, then the next priority.** Seregin: "попробуй за за сегодня это всё. Закрыть" and look for more cases. Pavel: "следующей задачей может быть даже приоритетной… попробовать этот [environment] твой поднять. У кого нибудь ещё, то есть там с лёшей поработать там или с Владимиром или там с ирой… в отличном [environment] от твоего смотреть, как оно работает там, например, с реальным флекса [IQ]" — [[wiki/people/alexei-khamin.md|Khamin]], [[wiki/people/vladimir-samusenko.md|Vladimir]] or Irina brings it up elsewhere. Seregin: "Угу."
+
+The derived notes record the same five points [[raw/Meeting_Notes_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]. His Sept-29 Flex-Port-update task was not mentioned (see [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]]).
+
+### Open commitments (Oct 1 2026)
+
+- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — finish the Flex IQ emulator verification (the scenario comparison and the register of checked device models and firmware) and look for further cases — due Oct 1 2026 ("за сегодня") — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — next, have the emulator environment brought up by someone else (Khamin, Vladimir or Irina) in a different set-up, for example against a real Flex IQ — due unspecified; Pavel's next priority for him — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+
+### Open questions (Oct 1 2026)
+
+- Which device model and firmware version each emulator release was verified against — the register exists but is empty — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+
 ## Open commitments
 
 - [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — add the delay / hang test cases to the EGM emulator himself, as a separate tab or panel of test functions — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
@@ -131,7 +151,7 @@ The derived notes record the dispenser and LTE points the same way and call "the
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — talk to Alexander Biratka and Dmitri Chudinov about what can be stood up quickly on the Flex-Pay emulator side; Alekseev writes the gaming-machine emulator himself — due unspecified — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]] [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
 - [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — merge the emulator branch into main, then clone the work for Flex IQ and build the terminal emulator that works with a real device — due unspecified; named priority one — [[raw/Meeting_Transcript_Daily_Standup_Terminal_Emulator_and_Capability_Split-September-23-2026.md]]
 - [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — see that features for the Flex IQ emulator are created, by analogy with FlexPay, with the Flex-Port firmware-update protocol as its own feature — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
-- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — move the FlexPay emulator across to Flex IQ — due Sept 24 2026 ("За сегодня") — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
+- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — move the FlexPay emulator across to Flex IQ — due Sept 24 2026 ("За сегодня") — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]] — *Oct 1 2026: on the Flex IQ side he is at the verification stage (see the Oct-1 update); the move itself is not declared done* — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 
 ## Open questions
 
@@ -160,3 +180,5 @@ The derived notes record the dispenser and LTE points the same way and call "the
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]

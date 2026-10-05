@@ -3,8 +3,8 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention, installment payments, aged receivables, Customer Ledger Entries, category-based terms, subscription module, parts vs machines terms, Black Horse Entertainment, Sales Watch, import duties tax category, landed cost, tax category, assembly BOM, production BOM, BOM history, BOM sync robot, tag stamp on item card]
-source-count: 72
-open-questions: 4
+source-count: 77
+open-questions: 5
 ---
 
 # Business Central ERP implementation (JVL's Dynamics 365 rollout)
@@ -61,6 +61,7 @@ An earlier Apr-3 use of BC: it is the intended data source for **software-licens
 - How to model a software sale so the accounting-system record (item/version/MSRP/customer) is **married to the RIS config file** from the JVL system in one sale — unresolved, needs Pavel + Dima Chudinov. [[raw/business_central_update-apr-28-2025.md]]
 - Is each of the ~147 GL accounts fully mapped for the specific **dimensions** it will need? (Val: still to be assessed account by account.) (Aug-11 2026.) [[raw/Meeting_Notes_COA_Tracer_GL_Account_Review-August-11-2026.md]]
 - Sequencing of the **auxiliaries/sub-ledgers and posting-group** combinations after the chart of accounts is set — Igor's "what is next" concern, acknowledged but not resolved. (Aug-11 2026.) [[raw/Meeting_Notes_COA_Tracer_GL_Account_Review-August-11-2026.md]]
+- Which other items, beyond the one that showed 233 instead of 29, carry the same missed adjustment from the July count load? Lev could not say during the call; he was still going through the block. (Oct 1 2026.) [[raw/Meeting_Transcript_Lev_Rudky_Missed_Inventory_Adjustments-October-1-2026.md]]
 
 ## Apr 28 2025 — deeper status: Systems solid, Labs plan, tariffs, software sales, PO roles
 
@@ -431,7 +432,37 @@ The follow-up Val had promised on Sept 23 — [[wiki/meetings/2026-09-30-github-
 
 The meeting ended early — "I'm just burning their hours" — and Val took Genadi into a separate meeting (not among this unit's sources). **§15.8:** clear. **§15 #9:** clear — "highly confidential banking information" for a vendor is named as a category only.
 
+## Oct 1 2026 — the July physical count was loaded into BC with one block missing: a stock line read 233 when it was 29
+
+Two short calls on the afternoon of Oct 1 — [[wiki/meetings/2026-10-01-mikhail-perelman-po-cut-to-100-units-and-stock-count.md|3:44 PM with Mikhail Perelman]] and [[wiki/meetings/2026-10-01-lev-rudky-missed-inventory-adjustments.md|3:54 PM with Lev Rudky]] (both Russian) — traced a wrong stock figure to the way the July count results were posted. The physical count is the one Elizabeth ran in the Georgia warehouse (the Jul-27 and Jul-30 sections above); Val dates it "на 1 августа… их было 29 июля" and Lev "С момента инвентаризации в июле" — the same count by date, **inference** [[raw/Meeting_Transcript_Lev_Rudky_Missed_Inventory_Adjustments-October-1-2026.md]].
+
+- **The symptom.** A file Lev made from BC after the count ("1 августа он его сделал там 29 июля") showed one line at **233 units**; Mikhail bases his purchase orders on that file. The person who counted rechecked at his request, found nothing more, and entered the change: BC now shows **29**. Mikhail: "Насколько они правильные? Все я не уверен. У меня другого нет." The order that rested on it is on [[wiki/decisions/2026-10-01-the-purchase-order-is-cut-to-100-units-not-300-or-200.md]] [[raw/Meeting_Transcript_Mikhail_Perelman_PO_Cut_to_100_Units_and_Stock_Count-October-1-2026.md]].
+- **The cause (Lev).** "когда заливал данные, я думаю, один блок данных пропустил." The count showed less than the system for those items; the difference was never posted as an inventory adjustment. He had worked from "Несколько сетов данных" during the inventory and did not enter one of them [[raw/Meeting_Transcript_Lev_Rudky_Missed_Inventory_Adjustments-October-1-2026.md]].
+- **Why later movements do not cure it.** "если там чтото продали это не проблема… дефицит остаётся всё равно как он был ошибка остаётся" — an item that showed 100 too many still shows 100 too many after the sales, purchases and builds since; only posting the missed adjustment closes the gap [[raw/Meeting_Transcript_Lev_Rudky_Missed_Inventory_Adjustments-October-1-2026.md]].
+- **The fix.** Isolate the items in the missed block; check which were counted again on their own since July — those are already balanced and must not be touched ("Такую позицию я трогать не могу, потому что она уже правильная"); post adjustments for the rest; finish today and send Mikhail the file. Val's alternative — the recounted figure minus sales since Aug 1, compared with BC — Lev set aside because it misses items a later recount already corrected [[raw/Meeting_Transcript_Lev_Rudky_Missed_Inventory_Adjustments-October-1-2026.md]]. The derived notes record the same method and the one undertaking [[raw/Meeting_Notes_Lev_Rudky_Missed_Inventory_Adjustments-October-1-2026.md]].
+- **No paper trail on the 233.** Mikhail keeps no written exchange on the figure ("Мне не нужна такая переписка, у меня есть новая цифра в би си"); Val's question whether the 233 was before or after the count got "после пересчета" — which the Lev call then explained as a count result never posted [[raw/Meeting_Transcript_Mikhail_Perelman_PO_Cut_to_100_Units_and_Stock_Count-October-1-2026.md]].
+- **Why it matters here (observation, not sourced).** Assembly runs on the Systems BC with no manufacturing module (June 26 2025 above), so a physical count reaches the system only through a manual load; this is the third such gap after the Toronto-to-Georgia move (July 23 2026 above) and the twenty unentered plastics of Sept 4 2026 ([[wiki/people/elizabeth.md]]).
+
+**§15.8:** recorded as a data gap and its fix; Val's remarks to either man about how it happened, and a remark about a staffing consequence, are withheld. **§15 #9:** clear — the "CM 08 / 40 08" string Val read out is an item reference, garbled, and is not resolved.
+
+## Oct 1 2026 (5:02 PM) — "only the finished BOM goes into MSBC"; MSBC holds the financial and administrative side per supplier; "MSBC is a poor form of what could be done"
+
+The day after the Sept-30 meeting, on the [[wiki/meetings/2026-10-01-genadi-io-board-chips-flat-bom-pilot-and-street-cabinet-panel.md|Oct 1 5:02 PM call]] (Russian; Val and [[wiki/people/genadi-peari.md|Genadi]] only), the BC side of the BOM thread [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]:
+
+- **What BC is for.** After the versioning is in GitHub, "нам нужно перейти на финансовый менеджмент… [per supplier], который находится [в] Business Central… Мы также называем [MSBC]… Там находится административно-финансовая менеджмент. Туда там ничего не надо делать. Туда нужно загнать только готовый [bill of material]." Prices and quotations stay there, not in GitHub ("в гетхабе это не нужно").
+- **The "configurator" is not in BC.** "Конфигуратор сам нужно создать вне, он должен быть логикой AI" — the step that turns the flat GitHub list into a structured BOM is AI logic outside MSBC; no hybrid in which MSBC builds the trees ("Я не хочу делать гибрид"). Ruling: [[wiki/decisions/2026-10-01-only-the-finished-bom-goes-into-msbc-the-configurator-is-ai-logic-outside-it-no-hybrid-and-the-pilot-is-the-flex-pay-slim.md]].
+- **Genadi's case for BC, restated.** "любая ERP система, самая новая, самая старая, SAP, они все [pull] из [database]"; "Почему не может MSBC, которая [builds BOMs]… быть сорсом для количества деталей в такой-то или другой продукт?" And his first-step offer: item cards in GitHub for everything bought today, taken from MSBC ("у нас сегодня есть эта вся в MSBC есть полностью все").
+- **Val on the ERP class.** "[MSBC]… это больная форма того, что могли сделать за все это время. Пока не было ничего лучшего"; companies like "[accounting — garbled]… Salesforce… в принципе ничего не предлагают собой" (Genadi interjected "Сап" — SAP). *(An opinion on the tools, recorded as his; the Sept-30 "Navision was designed 50 years ago" is the same view.)*
+- **The pilot's data comes out of BC.** Genadi is to post the Flex Pay Slim's MSBC part number; Val will have Claude Code pull it "флат" with "лист всех [suppliers] на все детали" and work backward. Genadi: that BOM "это то, что я последний создал. Для Джорджия", with all purchased components, a jurisdiction-dependent custom part, kits for the bill acceptor and card dispenser, and the right sub-assemblies, but not the small items.
+
+The derived notes record the same split of roles [[raw/Meeting_Notes_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]. The thread is sequenced on [[wiki/decisions/2026-09-23-the-bom-source-of-truth-is-the-latest-design-in-github-and-sync-runs-one-way.md]] (Oct-1 update). **§15.8:** Val's sharper remarks at Genadi are held. **§15 #9:** none — the part number is not spoken.
+
 ## Sources
+- [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
+- [[raw/Meeting_Notes_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Lev_Rudky_Missed_Inventory_Adjustments-October-1-2026.md]]
+- [[raw/Meeting_Notes_Lev_Rudky_Missed_Inventory_Adjustments-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Mikhail_Perelman_PO_Cut_to_100_Units_and_Stock_Count-October-1-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]
 - [[raw/Meeting_Transcript_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]]
 - [[raw/Meeting_Notes_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]]

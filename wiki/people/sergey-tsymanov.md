@@ -3,8 +3,8 @@ type: person
 title: Sergey Tsymanov
 date: 2026-07-14
 aliases: [Sergey Tsymanov, Siarhei Tsymanau, Sergey Tsimanov, Tsymanau, Tsimanov, Sergei Tsyganov, Tsyganov, Цыганов, Sergei, Sergey]
-source-count: 21
-open-commitments: 9
+source-count: 22
+open-commitments: 11
 disambiguation: "Minsk engineer who drafts CMS requirements with the backend 'Dima' (Chudinov). OWNER-CONFIRMED 2026-07-14 = the payroll 'Siarhei Tsymanau' (Belarusian) and the IT-records 'Sergey Tsimanov' — same person; Tsymanov canonical, Tsymanau/Tsimanov aliases. Distinct from other 'Sergei/Sergey' names (e.g. Sergei Novitsky the advanced-setup technician; Sergey Vysotsky the outside digital-growth specialist, wiki/people/sergey-vysotsky.md); resolve by context."
 ---
 
@@ -128,9 +128,25 @@ At the [[wiki/meetings/2026-09-30-daily-standup-flexport-firmware-delivery-and-n
 
 ## Open commitments (Sept 30 2026)
 
-- [ ] Sergey Tsymanov — close one capability-158 (zero balance) task and take the next; drop the ones that no longer apply while wallets stay on the terminal — due Sept 30 2026 — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- [ ] Sergey Tsymanov — close one capability-158 (zero balance) task and take the next; drop the ones that no longer apply while wallets stay on the terminal — due Sept 30 2026 — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]] — *Oct 1 2026: "Закончил там с капбилити там остатки, которые были по экранам… [взял] другую [capability]" — no number given; not read as 158* — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+
+## Oct 1 2026 — the support phone on the e-wallet ticket, a new ticket template, the printer-library API, "pass it through, right?", and the email about FP-85
+
+At the [[wiki/meetings/2026-10-01-daily-standup-sas-mode-flag-and-feature-status-rules.md|Oct-1 Minsk stand-up]] (Russian; label "Sergey Tsimanov") [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]:
+
+- **Status.** "Закончил там с капбилити там остатки, которые. Были по экранам… в порту там что тесты там добавить надо было. Я [взял] другую [capability]".
+- **The printer library.** On Biratka's broken e-wallet-ticket printing: "в той библиотеке я ничего не делал, вообще ничего не делал"; what was added was "[API] для для нашего демона, который который мы создаём по созданию по принту чека. Для [e-wallet] никто ничего ничего не делал"; "Смотря какую ты версию тянешь"; "я делаю темплейт нового [e-wallet ticket]" — a new template, to be tested on all printers. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 1, 4:48 AM).
+- **The support phone.** The new e-wallet ticket has a support-phone field; at location set-up step one there are two fields — phone number and contact phone number — "это один из них или надо добавлять ещё одно поле [support contact number]". "Я с Андреем вчера разговаривал" (Klimovich, by context): "Андрей сказал, этот это номер телефона, который будет указывать [—], чтоб связывался с лакейшином". He shared his screen ("у нас есть лакейшн дитейл… 2 номера"). Chudinov: it is JVL's support, not the location's. Pavel: "это контакт" — "Короче его пробрасывать, верно?" — "Да."
+- **The SAS flag.** He took "пробрасывать" to mean the server — "Для меня это было сервер" — and was corrected: the toggle is per port on the Flex IQ set-up; "окей, хорошо". He or Chudinov carries it in the PIN-code task. See [[wiki/decisions/2026-10-01-sas-or-no-sas-is-set-per-flex-port-on-the-flex-iq-set-up-screen-and-sent-at-registration-with-the-pin-code.md]].
+- **The email.** "мне пришло письмо на мыло… что у меня [парент] то уже закрыты, а эти нереализованные… на [FP-85]… Владимир создал. Это story, я думал мы всё работаем в рамках фичи… [story] была создана после Того, как я закрыл вот эту задачу". Later: "а что описывать, если проблема в виде стори?" — Irina: no bug while developing, so a story; "Это не они решат это [Клод]… решают. Я так понимаю" on which feature a problem falls under. See [[wiki/decisions/2026-10-01-completed-is-the-developers-last-step-and-a-found-problem-sends-the-feature-from-completed-back-to-to-do-as-a-story.md]].
+
+## Open commitments (Oct 1 2026)
+
+- [ ] Sergey Tsymanov — forward the location's contact phone from location set-up to the e-wallet ticket as its support number — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [ ] Sergey Tsymanov — finish the new e-wallet-ticket template in the printer library, to be tested on all printers — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 

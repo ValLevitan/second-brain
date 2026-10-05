@@ -3,7 +3,7 @@ type: person
 title: Vladimir Samusenko
 date: 2026-02-04
 aliases: [Vladimir Samusenko, Vladimir, Vlad, Владимир, Самусенко]
-source-count: 23
+source-count: 25
 open-commitments: 10
 ---
 
@@ -149,9 +149,19 @@ At the [[wiki/meetings/2026-09-30-daily-standup-flexport-firmware-delivery-and-n
 
 ## Open commitments (Sept 30 2026)
 
-- [ ] Vladimir Samusenko — set task 41 to Blocked with the defects linked, raise it at the next meeting, and pick the next autotest task closest to ready (probably 148), moving its dates — due Sept 30 2026 — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- [ ] Vladimir Samusenko — set task 41 to Blocked with the defects linked, raise it at the next meeting, and pick the next autotest task closest to ready (probably 148), moving its dates — due Sept 30 2026 — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]] — *Oct 1 2026: "Сегодня ещё прошёлся по 7 41 задачи со своим уже портом и [эмулятором SAS]. Один [блокер] снимался, доделал" — a blocker lifted and the task worked further; whether it is in Blocked, and which task he took next, is not said* — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+
+## Oct 1 2026 — TINT-40 finished, task 41 worked again with his own port and the SAS emulator, and his Epic-printer change in the shared library
+
+At the [[wiki/meetings/2026-10-01-daily-standup-sas-mode-flag-and-feature-status-rules.md|Oct-1 Minsk stand-up]] (Russian; speaker label) [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]:
+
+- **Status.** "[тинт] 40. Вчера закончил" (read as TINT-40). "Сегодня ещё прошёлся по 7 41 задачи со своим уже портом и [эмулятором SAS]. Один [блокер] снимался, доделал и чего я там активно ещё закинул 34 лакейшн блок тейкс" (the last phrase garbled; the derived notes read "a location task" [[raw/Meeting_Notes_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]). "Задачей занимаюсь сейчас." See [[wiki/topics/test-automation-strategy.md]] (Oct 1, 4:48 AM).
+- **The printer library.** Pavel: the new ticket type that stopped the e-wallet ticket printing on FlexPay was his — "это Владимир Владимир делал, но он, наверное, делал только для этого. Для 950, да для эпика"; Vladimir: "Для эпика" — the Epic 950 printer. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 1, 4:48 AM).
+- **The story under FP-85.** Tsymanov's discipline email was about a story Vladimir created under Tsymanov's already-closed feature "фпорт 85"; Irina: "когда Владимир писал, нашлось что[-то]" — the autotest found something. The ruling it led to is on [[wiki/decisions/2026-10-01-completed-is-the-developers-last-step-and-a-found-problem-sends-the-feature-from-completed-back-to-to-do-as-a-story.md]]. He did not speak in that argument.
 
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]

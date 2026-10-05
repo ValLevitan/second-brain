@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 112
+source-count: 113
 open-commitments: 48
 ---
 
@@ -392,7 +392,7 @@ The fourth MVP 1 morning call ([[wiki/meetings/2026-09-17-transactional-mvp1-ski
 ## Open commitments (Sept 17 2026)
 
 - [ ] Choose the router model — approved and sold in the United States — and name it so a couple can be ordered from Amazon in time — due **Sept 18 2026** ("на завтра"). **Not delivered: no model is named anywhere in the Sept-18 source and nobody raised it. Overdue.** — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
-- [ ] Get the firewall / NAT / WAN-LAN-profile work (requirement 1556) written by Claude into Pavel Frolov's repository as a branch and a pull request — due with MVP 1 — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [x] Get the firewall / NAT / WAN-LAN-profile work (requirement 1556) written by Claude into Pavel Frolov's repository as a branch and a pull request — due with MVP 1 — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]] — **discharged Oct 1 2026:** "я вчера там запушил [изменения] для. [Фаервола]… Я помоему уже смержил… Вчера" — pushed and merged on Sept 30; whether NAT and the profiles are in it is not said — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [ ] Make sure a requirement exists for remote visibility of signal quality (decibels and signal-to-noise), and add it if it does not — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [ ] Thin capability 144 down, removing the requirements that moved to MVP 2 — **restated and re-dated Sept 18 to today, end of day**; the capability was cloned instead, so this is now the trimmed MVP 1 copy — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Capability_Cleanup_and_Monday_Deadline-September-18-2026.md]]
 - [ ] Contact KORE, the SIM provider, once Klimovich adds him to the communication chain, and look through their site and API for anything useful — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
@@ -556,7 +556,21 @@ On the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-m
 - **The modem.** "Паша мне сказал что будет [кьюн какой то там адем]" (the maker's name is garbled); "разные модемы поразному в операционной системе определяются какието определяются как USB какието как в лан какието как ещё чтото и я сейчас пишу конкретно под вот этот который ты паше говорил" — his code targets that one model. See [[wiki/decisions/2026-09-04-north-america-modem-variant-and-ask-kore-for-the-apn.md]] (Sept-30 update).
 - **Sound.** "Там динамику с на нём нету" (there are speakers inside, Pavel and Klimovich said); "банкоматы такто не пикают особо зачем нам там вообще какойто звук". See [[wiki/decisions/2026-09-30-flex-iq-sound-feedback-and-the-flexpay-slim-led-language-go-to-mvp-2.md]].
 
+## Oct 1 2026 (8:02 AM) — the firewall change is merged and on terminal 84; he waits for Ivan's SIM and lets Claude run the test cases; a KORE SIM would be better
+
+On the [[wiki/meetings/2026-10-01-transactional-mvp1-status-slice-and-sas-command-logging.md|Oct-1 8:02 AM MVP 1 call]] (Russian; label "Andrei Bosik") [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]:
+
+- **The firewall.** "я вчера там запушил [изменения] для. [Фаервола], чтобы внешняя сеть отрезать от доступа к нашему этому терминалу. Вот и у меня вопрос я не знаю, как это протестить" — he needs a SIM in a terminal, and asked when an image with the change can be rolled out; "Я помоему уже смержил… Вчера." Chudinov: the fresh build on terminal 84 should carry it. See [[wiki/decisions/2026-09-17-the-device-does-the-routers-job-firewall-nat-and-wan-lan-profiles-stay-in-mvp1.md]] (Oct-1 update).
+- **How to test.** "либо ктото из опять же тестировщиков может взять [реквайрменты] и натравить [Клода], чтобы он поделал тесты"; "я подожду ванино [SIM] я потом запущу [Клод] и он протестирует все, что мы там [тест-кейсы], который придумали с ним и всё"; "Я не знаю сколько он там трафика начнёт" — Pavel: tiny.
+- **SIMs.** "кстати, данного бы идеале коровского [SIM] погонять, а здесь коровская симка или здесь нашего местного" (read as KORE's; not answered); his own earlier email on SIMs "осталось без ответа… не актуально". See [[wiki/decisions/2026-09-04-north-america-modem-variant-and-ask-kore-for-the-apn.md]] (Oct-1 update).
+- **Procedure.** "Все на [MVP] 2 переключаемся"; before the MVP 2 part: "Нам может запись новую начать? Лучше отдельно" — no second recording exists in the corpus.
+
+## Open commitments (Oct 1 2026, 8:02 AM)
+
+- [ ] Andrey Bosik — once Ivan's SIM is free, run the firewall test cases with Claude on terminal 84 — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
+
 ## Sources
+- [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
 - [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]

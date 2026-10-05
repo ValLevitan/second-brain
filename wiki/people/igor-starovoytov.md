@@ -3,7 +3,7 @@ type: person
 title: Igor Starovoytov
 date: 2026-07-13
 aliases: [Igor Starovoytov, Igor, Starovoytov]
-source-count: 10
+source-count: 11
 disambiguation: "Contractor industrial designer (Flex cabinets; via Genadi Peari). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
 ---
 
@@ -47,8 +47,13 @@ On the [[wiki/meetings/2026-09-24-hardware-repo-bom-source-of-truth-and-street-c
 
 On the [[wiki/meetings/2026-09-25-street-cabinet-deep-layout-and-service-door.md|Sept-25 street-cabinet review]], [[wiki/people/genadi-peari.md|Genadi]] cited him: "то, что Игорь всегда говорит, если делаешь ner и, ты прячешь туда принтер, это это nice в плане визуально" — hiding the printer in a narrow cabinet looks good. Val preferred a deeper cabinet with the printer on the dashboard. The surname is not spoken; matched by the cabinet-design context (inference). See [[wiki/topics/low-cost-street-machine.md]] (Sept 25, 3:16 PM). [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
 
+## Oct 1 2026 — "too early" to hand him the street-cabinet model
+
+On the [[wiki/meetings/2026-10-01-genadi-io-board-chips-flat-bom-pilot-and-street-cabinet-panel.md|Oct 1 5:39 PM call]], [[wiki/people/genadi-peari.md|Genadi]] said he wanted to give Igor a picture ("я хотел бы Игорю отдать на картинку, но я боюсь"), that "Игорь, это может красиво разрисовать", and proposed "эту модель отдать Игорю" to work the angles and slopes "если концепция остается". Val: "Только если вам не нужно металл строить на панели" — and, asked directly whether Igor can start, "Я думаю, что ещё рановато." Val first wants to think over whether the street machine carries a FlexPort at all. The surname is not spoken; matched by the cabinet-design context (inference). See [[wiki/decisions/2026-10-01-the-street-cabinets-printer-and-acceptor-come-down-onto-the-panel-flex-style-in-plastic-and-the-model-does-not-go-to-igor-yet.md]] and [[wiki/topics/low-cost-street-machine.md]] (Oct 1). [[raw/Meeting_Transcript_Street_Machine_Cabinet_Dashboard_and_Printer_Access-October-1-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Street_Machine_Cabinet_Dashboard_and_Printer_Access-October-1-2026.md]]
 - [[raw/Call_Genadi_Peari-February-12-2026-2.md]]
 - [[raw/Flex_V42_C_design_evolution_review_2025-02-27.md]]
 - [[raw/Flex-S-design-March-27-2025.md]]

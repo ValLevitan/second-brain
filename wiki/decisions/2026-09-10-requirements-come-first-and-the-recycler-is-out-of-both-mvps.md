@@ -3,9 +3,9 @@ type: decision
 title: Requirements are step two — the MVP split and the test automation come after; MVP 1 is October 1, MVP 2 is November 1, and the Flex-Recycler is in neither
 date: 2026-09-10
 aliases: [requirements are step two, MVP 1 October 1, MVP 2 November 1, recycler is not MVP 1 and not MVP 2, eighty percent of the general functionality, go through the capabilities of the last seven days, transactional products management]
-source-count: 5
-status: active — the recycler is out of MVP 1 and MVP 2 as ruled; on Sept 30 2026 it was placed in a probable MVP 3 (see update)
-open-commitments: 3
+source-count: 7
+status: active — the recycler is out of MVP 1 and MVP 2 as ruled; on Sept 30 2026 it was placed in a probable MVP 3 (see update); on Oct 1 2026 the engineers said they work from the mock-ups first because the requirements are abstract (see update)
+open-commitments: 5
 open-questions: 1
 ---
 
@@ -56,6 +56,21 @@ At the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-m
 
 The titular ruling holds — not MVP 1, not MVP 2 — and now has a probable home: **MVP 3**, said as "полагаю", not decided. Biratka: "оно тоже как бы не проработано, да пока что надо будет" — the project is not worked out yet. The derived notes read it the same way ("probably MVP3") [[raw/Meeting_Notes_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]. The MVP 2 shape Pavel gave on the same call — FlexPay only, plus Wi-Fi — is on [[wiki/decisions/2026-09-09-one-transactional-unit-per-location-until-the-wi-fi-iteration.md]] (Sept-30 update).
 
+## Update, Oct 1 2026 — "mock-ups first, then requirements": Chudinov's gaps document, and Klimovich to update the requirements
+
+At the [[wiki/meetings/2026-10-01-transactional-mvp1-status-slice-and-sas-command-logging.md|Oct-1 8:02 AM MVP 1 call]] (Russian) [[wiki/people/dmitri-chudinov.md|Chudinov]] put the "requirements are step two" rule in its practical light [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]:
+
+- **The gaps document.** "я обещал сделать документы по… противоречиям там или уточнениям, или то, что мы там с [Клодом] решили, что не хватает… [тилты] либо там негативные кейсы… по тем… [capabilities], что я закрывал, я набрал блок документов… в течение часа 2 отправлю" — as a new email to the transactional distribution list ([[wiki/decisions/2026-09-24-written-records-go-by-email-and-chats-are-for-instant-matters.md]], Oct-1 update).
+- **Why.** "надо, чтобы и [ты] потом посмотрел, если ты сделаешь апдейт на требования, потому что сейчас нам начнут писать. Доработки на основании требований. **А мы с Сергеем взяли в приоритет работу начала [мукапы], потом требования.** Вам уже то, что есть, потому что [мокапы]… выглядят более менее логично в требованиях многого не учтено… требования достаточно таки абстрактные. Естественно надо. Вот от этого будет плясать." ("Сергеем" = [[wiki/people/sergey-tsymanov.md|Tsymanov]], by context.)
+- **Klimovich's reply.** "я свой клод прогонял на расхождение между [мокапами] и требованиями, чтобы они друг другу соответствовали, но наверняка там не всё удалось отловить хорошо… давай посмотрим что там за комменты."
+
+*(This bears on the open question below — who writes the requirements — without answering it: the engineers now say they build from the product owner's mock-ups and ask him to bring the requirements up to them. He cannot write until Oct 13 — [[wiki/decisions/2026-10-01-mvp2-capabilities-biratka-ports-flex-iqs-to-flexpay-and-writes-no-new-ones-until-klimovich-defines-the-flows.md]].)* The derived notes record the same [[raw/Meeting_Notes_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]].
+
+### Open commitments (Oct 1 2026)
+
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — review the gaps document (contradictions, clarifications, missing tilts and negative cases on the capabilities he closed) and send it as a new email to the transactional distribution list — due Oct 1 2026 ("в течение часа 2") — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — read the gaps document and update the requirements where the mock-ups and requirements diverge — due after his return (Oct 13 2026) — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
+
 **§15.8:** clear — scope, schedule and process only; no named-person compensation.
 
 ## Sources
@@ -64,3 +79,5 @@ The titular ruling holds — not MVP 1, not MVP 2 — and now has a probable hom
 - [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]

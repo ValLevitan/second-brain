@@ -3,7 +3,7 @@ type: decision
 title: The fix goes out as a re-release, not a hack on a production machine — as fast as possible, and only that one commit goes in
 date: 2026-09-29
 aliases: [no hack we re-release, перевыпускать, хак делать не будем, re-release 4.50.2, 4502, one commit only, только этот коммит, connectivity change, Бракаст library, modem fix rebuild, фикс по модемам]
-source-count: 3
+source-count: 5
 status: active
 open-commitments: 3
 open-questions: 2
@@ -38,8 +38,8 @@ Kharetski will tell Ivan when the build is ready: "**я ване напишу т
 
 ## Open commitments
 
-- [ ] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — finish the fix ("сейчас я уже почти готов"), build 4.50.2 with that one commit, and write to Ivan when it is ready — due Sept 29 2026 — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]] — *Sept 30 2026: "я вчера закончил с этими с правками для джорджии" — the Georgia fixes are finished; whether they are this fix, and whether 4.50.2 was built and Ivan told, is not said* — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
-- [ ] [[wiki/people/ivan.md|Ivan]] — rebuild and verify the modem fix — due unspecified (the re-release "не раньше завтра", Sept 30 2026) — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]] — *Sept 30 2026: not mentioned at the stand-up; his report was about his remaining tests* — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- [ ] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — finish the fix ("сейчас я уже почти готов"), build 4.50.2 with that one commit, and write to Ivan when it is ready — due Sept 29 2026 — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]] — *Sept 30 2026: "я вчера закончил с этими с правками для джорджии" — the Georgia fixes are finished; whether they are this fix, and whether 4.50.2 was built and Ivan told, is not said* — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]] — *Oct 1 2026: "Она вчера зарядили версию" — a version was loaded ("зарядили") on Sept 30; which build, and for which machine, is not said; recorded as a probable reference to this re-release (inference), not as discharge* — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [ ] [[wiki/people/ivan.md|Ivan]] — rebuild and verify the modem fix — due unspecified (the re-release "не раньше завтра", Sept 30 2026) — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]] — *Sept 30 2026: not mentioned at the stand-up; his report was about his remaining tests* — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]] — *Oct 1 2026: "С Женей авто тесты и все остальное" — he is working with Kharetski (by context); at 8:02 AM Pavel said the team's one SIM "сейчас у Ивана тестируется. Как работает [gom в 3] с модемом" — a modem test is under way; the fix itself is not named* — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — issue the re-release, declared as a connectivity change — due as fast as possible, not before Sept 30 2026 — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 
 ## Open questions
@@ -58,3 +58,5 @@ Kharetski will tell Ivan when the build is ready: "**я ване напишу т
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]

@@ -3,7 +3,7 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 42
+source-count: 44
 open-commitments: 7
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
@@ -168,12 +168,18 @@ On the [[wiki/meetings/2026-09-30-github-to-msbc-bom-flat-list-bridge.md|Sept-30
 
 Rulings on [[wiki/decisions/2026-09-30-engineers-never-change-msbc-and-administration-never-changes-github.md]] and [[wiki/decisions/2026-09-30-a-new-part-number-is-assigned-by-claude-from-the-standard-in-github-and-pushed-to-msbc-once.md]]; the contested BOM half on [[wiki/decisions/2026-09-23-the-bom-source-of-truth-is-the-latest-design-in-github-and-sync-runs-one-way.md]] (Sept-30 update). This picks up the Aug-12 assignment above (owner of the GitHub→BC sync service). **§15.8:** clear — "burning their hours" is a process remark; no rate is stated.
 
+## Oct 1 2026 (in absentia) — Val may build the first flat-BOM structure himself with Claude Code; whether Nathan's experiments go on is garbled
+
+On the [[wiki/meetings/2026-10-01-genadi-io-board-chips-flat-bom-pilot-and-street-cabinet-panel.md|Oct 1 5:02 PM call]] (Russian; Val and Genadi) Genadi asked, "Я так понимаю, что нэйтан сделает какие-то эксперименты?" Val: "Да мне давно это нэйтане нужен, я сам могу это сделать" — **unclear** whether "I have long needed this from Nathan" (the derived notes' reading [[raw/Meeting_Notes_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]) or "I don't need Nathan for this"; the second half, that Val can do it himself with Claude Code on the Flex Pay Slim BOM, is clear. Later Val allowed "может быть куча вещей, которые нам или нейтану нужно будет подтянуть". Nathan's two Sept-30 items below are not withdrawn on tape; the question is recorded on [[wiki/decisions/2026-10-01-only-the-finished-bom-goes-into-msbc-the-configurator-is-ai-logic-outside-it-no-hybrid-and-the-pilot-is-the-flex-pay-slim.md]] [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]].
+
 ## Open commitments (Sept 30 2026)
 
-- [ ] Nathan Carver — experiment with the GitHub-to-MSBC bridge in phases, items first, then bills of material, using the development MSBC instances; trace an existing MSBC BOM back to its items and work out what it would look like in GitHub — due unspecified — [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]
+- [ ] Nathan Carver — experiment with the GitHub-to-MSBC bridge in phases, items first, then bills of material, using the development MSBC instances; trace an existing MSBC BOM back to its items and work out what it would look like in GitHub — due unspecified — [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]] *(Oct 1: Val says he will build the first structure himself with Claude Code; whether this item stands beside it is unclear on tape [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]])*
 - [ ] Nathan Carver — check how others handle an engineering-to-BC item/BOM sync before the deep investigation — due unspecified — [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]
 
 ## Sources
+- [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
+- [[raw/Meeting_Notes_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]
 - [[raw/Meeting_Notes_Payment_Hub_GL_Sales_Tax-May-12-2026.md]]
 - [[raw/Nate_Val_Sync-March-11-2026.md]]

@@ -3,8 +3,8 @@ type: person
 title: Alexei Khamin
 date: 2025-04-22
 aliases: [Alexei Khamin, Aliaksey Khamin, Alexey Khamin, Khamin, Хамин, Khanin, Ханин, Kamin, Alexey Kamin, Lyosha, Лёша]
-source-count: 27
-open-commitments: 12
+source-count: 28
+open-commitments: 13
 ---
 
 # Alexei Khamin
@@ -189,7 +189,16 @@ On the [[wiki/meetings/2026-09-29-transactional-mvp1-setup-instructions-and-mikr
 
 On the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-modem-supply.md|Sept-30 8:03 AM MVP 1 call]] (Russian; label "Alexey Khamin") his updated Flex-Port instruction was on screen, inside the FlexPay technical space. His point: "она должна располагаться… на одном уровне с [FlexPay] и [Flex IQ]. [Э]то отдельный продукт все таки" — Klimovich agreed to move it up. He too saw "С картинками проблема" in Ivan's instruction. He is one of the four Pavel named for Elizabeth's chat ("Лёшу"). See [[wiki/topics/docs-as-code-and-atlassian-exit.md]] (Sept 30) and [[wiki/decisions/2026-09-30-elizabeths-georgia-set-up-questions-go-to-a-shared-teams-chat-not-one-person.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]. His Sept-29 EGM-emulator and bug-task commitments were not mentioned.
 
+## Oct 1 2026 — pull-request reviews and the repository structure as his main task; Chudinov's build on his terminal
+
+At the [[wiki/meetings/2026-10-01-daily-standup-sas-mode-flag-and-feature-status-rules.md|Oct-1 Minsk stand-up]] (Russian; label "Alexey Khamin") [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]: "я в основном автотестами. Но больше сейчас почти не могу писать, потому что всё ещё у нас структура работает" (garbled — read as the repository structure still being reworked); "Плюс просматриваю [PR], которые ребята создают"; "[изменения] нужны, ну уже чтобы репозитории нормально работал" (garbled). Irina: "Это основная сейчас. Будет алёша." Chudinov put the new capability-152 build "на терминал, который у лёши" (Khamin's — by context). Pavel named him first among those who could bring up Seregin's emulator environment elsewhere ("с лёшей поработать"). See [[wiki/topics/test-automation-strategy.md]] (Oct 1, 4:48 AM). At the 8:02 AM MVP 1 call he spoke only to say goodbye. His Sept-29 commitments were again not mentioned.
+
+## Open commitments (Oct 1 2026)
+
+- [ ] Alexei Khamin — make the repository-structure changes so the test repositories work properly, reviewing the team's pull requests meanwhile — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]

@@ -3,7 +3,7 @@ type: project
 title: The AI project manager and the company second brain — Val's direction (Sept 25 2026), the design and plan of work (Sept 29 2026), owned by Andrey Bosik
 date: 2026-09-25
 aliases: [AI PM, AI project manager, AIPM, AI проджект менеджер, Design_AI-PM, company second brain, JVL second brain, одна компании секунд брейн, second brain for JVL, Karpathy method at JVL, AI draft tasks in Jira, meeting bot, AI PM persona, transcript collection, глоссарий Лены]
-source-count: 6
+source-count: 8
 open-commitments: 0
 open-questions: 0
 ---
@@ -19,6 +19,7 @@ The rulings are on [[wiki/decisions/2026-09-25-one-company-second-brain-feeds-an
 - **Sept 25 2026 (7:33 AM)** — [[wiki/meetings/2026-09-25-ai-project-manager-for-jira.md|"JIRA management AI"]]: Val names the problem (Jira work is stuck because tasks do not reach the right people) and the direction — "Да, давайте создадим одну… компании секунд брейн… По принципу Андрея карпатый… И давайте дадим знания этому [проджект] менеджеру… И давайте его направим на китхаб репозитории." Homework for everyone; meeting Tuesday at 7:00 [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]] [[raw/Meeting_Notes_AI_Project_Manager_for_Jira-September-25-2026.md]].
 - **Sept 29 2026 (6:02 AM)** — [[wiki/meetings/2026-09-29-ai-pm-architecture-and-second-brain-plan.md|"Design_AI-PM"]]: Val's picture and Bosik's slides (about 70 % overlap); Bosik takes ownership; the live meeting bot goes to MVP 2; transcripts are collected first and the second brain built from them; drafts go to repository code owners after a dry run; status on Friday [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]] [[raw/Meeting_Notes_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]].
 - **Sept 29 2026 (10:31 AM)** — a one-minute direction check at the end of the [[wiki/meetings/2026-09-29-dev-environments-rk3568-sdk-amd-spike-and-ai-pm-direction-check.md|"Dev_environments" call]]: Val, to Pavel and Irina, "Мне кажется, мы на правильном пути мне понравился этот разговор. У вас есть какието резерве по этому поводу? Вы считаете, что мы неправильно идём?" Pavel: "Нет, я уверен, что мы идем правильно. Это может казаться, что это ж нереальное, но нам год назад казалось, что [AI] это чисто помощник… если мы гдето даже во чтото упрёмся то чего сейчас будет нереально, то оно через через полгода станет реально." Irina: "А теперь ещё кто кого ведёт?" No reservations from either; nothing new decided [[raw/Meeting_Transcript_Dev_Environments_AI_PM_Direction_Check-September-29-2026.md]] [[raw/Meeting_Notes_Dev_Environments_AI_PM_Direction_Check-September-29-2026.md]].
+- **Oct 1 2026 (5:02 PM)** — a status line from Val to Genadi, on the [[wiki/meetings/2026-10-01-genadi-io-board-chips-flat-bom-pilot-and-street-cabinet-panel.md|Oct 1 call]], while explaining why he will not grow headcount: "Мы практически закончили архитектуру под AI проджект менеджер, который будет сидеть только на каждом митинге, слушать разговоры и [manage]… И я вижу это начинает получаться." He placed it beside his AI-CFO ("хорошо работает") and a second executive role he has started giving work to (the transcript's "air CO"; the notes read AI COO). No new ruling; the Sept-29 plan stands [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]] [[raw/Meeting_Notes_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]].
 
 ## What the AI PM is meant to be (Val, Sept 29)
 
@@ -85,3 +86,5 @@ Commitments and open questions are held on the two decision pages, not duplicate
 - [[raw/Meeting_Notes_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Dev_Environments_AI_PM_Direction_Check-September-29-2026.md]]
 - [[raw/Meeting_Notes_Dev_Environments_AI_PM_Direction_Check-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
+- [[raw/Meeting_Notes_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]

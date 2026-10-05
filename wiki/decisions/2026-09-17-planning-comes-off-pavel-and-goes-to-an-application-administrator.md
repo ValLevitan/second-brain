@@ -3,7 +3,7 @@ type: decision
 title: Planning comes off Pavel Frolov and goes to an "application administrator" — Dmitri Kovalchuk proposed, not yet agreed
 date: 2026-09-17
 aliases: [planning comes off Pavel, application administrator, аппликейщен администратор, Dima Kovalchuk administrator, Зиму Ковальчука, planning handover, полный трансперация, Pavel comes to Atlanta]
-source-count: 10
+source-count: 11
 status: active
 open-commitments: 4
 open-questions: 2
@@ -121,6 +121,12 @@ At the end of the [[wiki/meetings/2026-09-30-daily-standup-flexport-firmware-del
 
 *(Kovalchuk running the discipline; whether it is the "application administrator" role is still an **inference**.)*
 
+## Update, Oct 1 2026 — "dates slipped", and the discipline email that opened the feature-status argument
+
+At the end of the [[wiki/meetings/2026-10-01-daily-standup-sas-mode-flag-and-feature-status-rules.md|Oct-1 Minsk stand-up]] (Russian) [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]]: "даты у некоторых задачах посъезжали. Это просрочен" — due dates have slipped on some tasks and some are overdue. [[wiki/people/sergey-tsymanov.md|Tsymanov]] then raised one of the report's emails — a closed parent with unrealised children, because a story had been created under his closed feature — which turned into the argument ruled on [[wiki/decisions/2026-10-01-completed-is-the-developers-last-step-and-a-found-problem-sends-the-feature-from-completed-back-to-to-do-as-a-story.md]]. Kovalchuk took the Jira change ("Хорошо, я добавлю" — the Completed → To Do transition) and explained that the feature-level Request Review status "был только для лениных" [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]].
+
+*(Kovalchuk administering the workflow; whether it is the "application administrator" role is still an **inference**.)*
+
 ## Open commitments
 
 - [ ] All stand-up participants — keep Jira statuses true (In Progress only when work is in progress), name the exact CAP and feature at stand-ups, watch dates and statuses, and create tasks in the repository they work in — due ongoing — [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]] [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
@@ -150,3 +156,4 @@ At the end of the [[wiki/meetings/2026-09-30-daily-standup-flexport-firmware-del
 - [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]

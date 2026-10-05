@@ -4,8 +4,8 @@ title: Anton Seregin
 date: 2026-07-13
 aliases: [Anton Seregin, Seregin, Anton Seryogin, Серёги, Серёгин]
 disambiguation: "Minsk payroll / React-TS front-end dev, this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 18
-open-commitments: 2
+source-count: 19
+open-commitments: 4
 ---
 
 # Anton Seregin
@@ -87,7 +87,7 @@ At the [[wiki/meetings/2026-09-29-daily-standup-firmware-reissue-and-modem-gatew
 
 ## Open commitments (Sept 29 2026)
 
-- [ ] Anton Seregin — work on the Flex-Port firmware update through Flex IQ (file-transfer protocol, start/allow commands) in the Flex IQ emulator, under the feature Pavel creates — due started Sept 29 2026 — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]] — *Sept 30 2026: in progress — he found nothing in Flex IQ for Flex-Port updates and untested FlexPay code; "не донимаю, что мне нужно будет сделать"* — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- [ ] Anton Seregin — work on the Flex-Port firmware update through Flex IQ (file-transfer protocol, start/allow commands) in the Flex IQ emulator, under the feature Pavel creates — due started Sept 29 2026 — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]] — *Sept 30 2026: in progress — he found nothing in Flex IQ for Flex-Port updates and untested FlexPay code; "не донимаю, что мне нужно будет сделать"* — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]] — *Oct 1 2026: not mentioned; his report was the emulator verification* — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 
 ## Sept 30 2026 — printer and scanner emulation fit Flex IQ; the dispenser is out, the LTE modem is out, and the Flex-Port side is empty
 
@@ -97,7 +97,20 @@ At the [[wiki/meetings/2026-09-30-daily-standup-flexport-firmware-delivery-and-n
 - **The Flex-Port.** "В этом флексе [IQ] как бы ничего нет эти обновления"; FlexPay code is written but "Дима говорил, что он еще не тестировал его никак"; "Мне не донимаю, что мне нужно будет сделать". See [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Sept-30 update) and [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]] (Sept-30 update).
 - **An instruction.** "скинул в чат этот [эмулятор]. Большую инструкцию, если интересно" ("аккумулятор" read as emulator — **inference**). He had to leave for about an hour (logistics, not recorded further). Pavel noted he kept dropping off the call.
 
+## Oct 1 2026 — FP-60 closed, three kiosk bugs to capability 140, and verifying the Flex IQ emulator against the device
+
+At the [[wiki/meetings/2026-10-01-daily-standup-sas-mode-flag-and-feature-status-rules.md|Oct-1 Minsk stand-up]] (Russian; speaker label) [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]:
+
+- **Closed.** "Я закрыл FP 60… там было 3 бага. Продукте самого киоска… я их перетащил. [В capability] 140. На будущее".
+- **The emulator.** On Flex IQ he is at the verification stage: compare a scenario ("положить деньги, распечатать тикет… клиента забрал") on the emulator and the device and check the logs for extra or missing events; a register of which device model and firmware each emulator version was verified against — "[Клод]… предлагает… Вести такой типа регистр. Он как бы уже сделал, просто он не заполнял"; the printer daemon "ноль ноль 8 версия… И ноль ноль 6. Fix pay… не поднимали версию. Вот но есть какието отличия". Pavel: no full match needed; one instance per device — "Оно единственный экземпляре одна"; "попробуй за за сегодня это всё. Закрыть"; next, someone else (Khamin, Vladimir or Irina) brings his environment up elsewhere — "Угу". See [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]] (Oct-1 update) and [[wiki/topics/test-automation-strategy.md]] (Oct 1, 4:48 AM). ("акмулятор" / "мегатора" read as emulator — inference, as throughout.)
+
+## Open commitments (Oct 1 2026)
+
+- [ ] Anton Seregin — finish the Flex IQ emulator verification (the scenario comparison and the register of verified device models and firmware) and look for further cases — due Oct 1 2026 — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [ ] Anton Seregin — next, have his emulator environment brought up by Khamin, Vladimir or Irina in a different set-up, for example against a real Flex IQ — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 

@@ -3,8 +3,8 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий, Kenadi]
-source-count: 108
-open-commitments: 31
+source-count: 111
+open-commitments: 36
 ---
 
 # Genadi Peari
@@ -525,8 +525,45 @@ The separate meeting, titled "How to get from Solid Works mechanical design tool
 
 On the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-modem-supply.md|Sept-30 8:03 AM MVP 1 call]] (Russian; he was not present) Pavel: "гена активно работает с поставщиками [sere virles]" (a supplier name, garbled; the notes read Sierra Wireless), "потому что когда начали, реально вышли на рынок и сказали, нам надо 100 модемов. То ктото говорит не у нас только 5 или у нас только 10. А ктото говорит 1000 мы с вами не работаем"; he is working out "с какими какие нам модели предложат этот поставщик", most likely new models since the current ones are end of life. Klimovich will start an email to him and Val to bring the Minsk spare-parts set up to date — "вы там уже сами расскажете геннадию, что у вас есть, он скажет, что вам ещё имеет смысл дослать"; Biratka also wondered whether "гена может там чтото похожее дать" for a FlexPay case. See [[wiki/decisions/2026-09-04-north-america-modem-variant-and-ask-kore-for-the-apn.md]] (Sept-30 update) and [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 30, 8:03 AM) [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]].
 
+## Oct 1 2026 (4:59 PM) — the IO board plan in three steps: two FRAM chips off now, a half-cost redesign, then the street board from it
+
+Asked by Val to say again what is to be done ([[wiki/meetings/2026-10-01-genadi-io-board-chips-flat-bom-pilot-and-street-cabinet-panel.md|Oct 1 call]], first segment, Russian), he gave it in two minutes: "Наш текущий [IO board] right away мы снимаем 2 чипа памяти, удешевляем его $12 на борт" — two 256-Mbit FRAM chips at $6 each, simply not populated, because "у нас нету требований увеличить записи, количество транзакций"; then "ревью, редизайн… [existing IO board]… удешевить его хотя бы в 2 раза" with a different memory type and a modern USB controller in place of one "который уже тяжело купить… те уже очень старые динозавры"; then "на базе этого переделанного айо борта [мы] легко делаем [adjustment] для борта на стрит машину" — a USB hub, printer and card-dispenser ports, lights, "все необходимое, что для стрит машины нам будет не доставать". Ruling and his three commitments: [[wiki/decisions/2026-10-01-two-fram-chips-come-off-the-current-io-board-and-the-street-machine-board-grows-out-of-a-redesigned-io-board.md]] [[raw/Meeting_Transcript_IO_Board_Memory_Chip_Removal_and_Redesign-October-1-2026.md]].
+
+## Oct 1 2026 (5:02 PM) — the BOM again: "Я не вижу логики", a hybrid refused, and the Slim as the pilot
+
+The second segment of the same call, with Val alone [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]:
+
+- **What he agreed.** SolidWorks is a design tool and gives maybe 30% of the parts ("вначале я бы сказал 30%, а потом это всё поддержка… никакой связи с солидворксом"); supplier history should leave his head ("Так мы про это договорились?"); all ECOs belong in GitHub and are checked every time ("это прекрасно. Это должно быть, конечно"). He read Val's model back correctly: a flat data structure in GitHub and "какая-то логика, по которой будет создаваться продукт… посредством этого конфигуратора".
+- **What he still cannot see.** "Как можно создать заранее конфигуратор на то, что ты не знаешь, как будет?"; "Построение деревьев [bill of material в MSBC] посредством… флэт структуры в [GitHub] — вот эту трансформацию я просто не понимаю"; his screws-in-a-kit example; "Я не вижу логики… У меня нету даже идей но." Val: he will not see it until he works with it. Genadi: "Дай бог."
+- **What he offered.** Item cards in GitHub now for every bought item, from MSBC, with revisions and vendor records; later "какой-то модуль… прямо в [GitHub]… замены построение [bill of material] в MSBC"; and a hybrid — MSBC builds the trees, the rest elsewhere — which Val refused ("Я не хочу делать гибрид"). None taken up on tape.
+- **The pilot.** He chose it: "давайте слим, и мы сейчас надо работать со слим уже… будут конфигурации… для Техаса." The BOM he had already given a number for is "то, что я последний создал. Для Джорджия" — all purchased components, a jurisdiction-dependent custom part, kits for the bill acceptor and card dispenser, correct sub-assemblies, no small items. He is to post the exact MSBC part number in the chat; Val builds the GitHub structure with Claude Code and plays it in front of him for about two hours.
+- Ruling: [[wiki/decisions/2026-10-01-only-the-finished-bom-goes-into-msbc-the-configurator-is-ai-logic-outside-it-no-hybrid-and-the-pilot-is-the-flex-pay-slim.md]]; sequencer: [[wiki/decisions/2026-09-23-the-bom-source-of-truth-is-the-latest-design-in-github-and-sync-runs-one-way.md]] (Oct-1 update). He also said he had been given Claude at work and used it — the example he gave is personal and is not recorded.
+
+**§15.8:** Val's sharper remarks at him, an exchange about who is "smart" or "dumb" with his own self-deprecation, and a joke are held; personal matters not recorded (a marked passage and the lines after it). **§15 #9:** none — the part number is not spoken.
+
+## Oct 1 2026 (5:39 PM) — the street cabinet model: the dashboard will not slide, and the two devices go onto the panel
+
+The third segment [[raw/Meeting_Transcript_Street_Machine_Cabinet_Dashboard_and_Printer_Access-October-1-2026.md]]:
+
+- **The FlexPort rear cover** must sit far back for the connectors; Val's hole-saw template method; his own verdict on the layout, "Неправильно всё сделано неправильно, Я согласен"; Val: this stand-off mounting is the exception for machines whose panel cannot be cut. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 1, 5:39 PM).
+- **The cabinet.** He named the model's fault himself: "Мы эту штуку не можем [slide down]… не можем долезть до [bill acceptor] и до принтера… [в] принтер заложить бумагу." He proposed the Flex construction (devices at the very bottom, folding) and Val took it: lower the two devices onto the panel, halve the dashboard. His tunnel objection (a closed top so an old bill cannot slip in; hence a hinged door) is still open; Val wants plastic, not metal. He suggested an electronics drawer behind the door, said the side view looks "абсолютно пустой", gave the sizes (cabinet width as the Flex; monitor a little bigger; panel "27 инчей… по моему"), and said the street machine will most likely never carry a printer — recorded as a contradiction against the Sept-25 ruling. He asked to hand the model to Igor; Val: "ещё рановато." Ruling: [[wiki/decisions/2026-10-01-the-street-cabinets-printer-and-acceptor-come-down-onto-the-panel-flex-style-in-plastic-and-the-model-does-not-go-to-igor-yet.md]]; the rest on [[wiki/topics/low-cost-street-machine.md]] (Oct 1, 5:39 PM).
+- At the close, asked about Alekseev tomorrow: "он звонил уже 2 раза. Я ему хочу перезвонить" — subject not stated.
+
+*(His Oct-1 commitments are held once on the two Oct-1 decision pages and listed below.)*
+
+## Open commitments (Oct 1 2026)
+
+- [ ] Genadi Peari — stop populating the two 256-Mbit FRAM chips on the current IO board ($12 a board) — due unspecified ("right away") — [[raw/Meeting_Transcript_IO_Board_Memory_Chip_Removal_and_Redesign-October-1-2026.md]]
+- [ ] Genadi Peari — review and redesign the existing IO board to about half its cost (new memory type, volatile-memory handling, a modern USB controller) — due unspecified — [[raw/Meeting_Transcript_IO_Board_Memory_Chip_Removal_and_Redesign-October-1-2026.md]]
+- [ ] Genadi Peari — derive the street-machine board from the redesigned IO board (USB hub, printer and card-dispenser ports, lights) — due unspecified; follows the redesign — [[raw/Meeting_Transcript_IO_Board_Memory_Chip_Removal_and_Redesign-October-1-2026.md]]
+- [ ] Genadi Peari — put the exact MSBC part number of the Flex Pay Slim BOM in the chat — due Oct 1 2026 — [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
+- [ ] Genadi Peari — rework the cabinet model: the two devices onto the panel, Flex construction, dashboard halved, paper loading solved, the acceptor tunnel kept — due unspecified — [[raw/Meeting_Transcript_Street_Machine_Cabinet_Dashboard_and_Printer_Access-October-1-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_IO_Board_Memory_Chip_Removal_and_Redesign-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Street_Machine_Cabinet_Dashboard_and_Printer_Access-October-1-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]
 - [[raw/Meeting_Notes_Solid_Works_Flat_Parts_List_Parked-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Solid_Works_Flat_Parts_List_Parked-September-30-2026.md]]

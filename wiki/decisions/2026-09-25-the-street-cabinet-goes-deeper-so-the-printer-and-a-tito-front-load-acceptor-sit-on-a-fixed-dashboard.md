@@ -2,16 +2,18 @@
 type: decision
 title: The street cabinet goes deeper so the printer and a TITO front-load bill acceptor sit on a fixed dashboard — back-load is out, and service comes through a slide-down play panel and a fold-down door that carries the electronics
 date: 2026-09-25
-aliases: [deeper street cabinet, deep enough for the printer, оставьте глубину кабинета чтобы влез принтер, TITO bill acceptor, back-load is out, отпадает беклот, front-load only, printer left bill acceptor right, fixed dashboard, дашборд неподвижный, not a drawer, slide-down play panel, fold-down door, door folds 90 degrees, electronics on the door like a shelf, как на полке, stamped metal door, TV simply hangs, телевизор просто вешается]
-source-count: 3
+aliases: [deeper street cabinet, deep enough for the printer, оставьте глубину кабинета чтобы влез принтер, TITO bill acceptor, back-load is out, отпадает беклот, front-load only, printer left bill acceptor right, fixed dashboard, дашборд неподвижный, not a drawer, slide-down play panel, fold-down door, door folds 90 degrees, electronics on the door like a shelf, как на полке, stamped metal door, TV simply hangs, телевизор просто вешается, fixed dashboard superseded Oct 1]
+source-count: 5
 status: active
 open-commitments: 1
-open-questions: 3
+open-questions: 2
 ---
 
 # The street cabinet goes deeper; printer and TITO front-load acceptor on a fixed dashboard; service through a slide-down panel and a fold-down door
 
 Ruled by [[wiki/people/val-levitan.md|Val Levitan]] on the [[wiki/meetings/2026-09-25-street-cabinet-deep-layout-and-service-door.md|Sept 25 2026 3:16 PM street-cabinet review]] (Russian) with [[wiki/people/genadi-peari.md|Genadi Peari]]. The programme is [[wiki/topics/low-cost-street-machine.md]]. [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
+
+**Status note (Oct 1 2026): the "fixed dashboard" element is superseded; the rest stands.** On Oct 1 Val told Genadi to lower the printer and bill acceptor "прямо на панели" — onto the play panel that drops, as on the Flex — and to halve the dashboard; the deeper cabinet, the TITO front-load acceptor and the fold-down door with the electronics are not touched. See the Oct-1 update below and [[wiki/decisions/2026-10-01-the-street-cabinets-printer-and-acceptor-come-down-onto-the-panel-flex-style-in-plastic-and-the-model-does-not-go-to-igor-yet.md]] [[raw/Meeting_Transcript_Street_Machine_Cabinet_Dashboard_and_Printer_Access-October-1-2026.md]].
 
 ## The ruling
 
@@ -53,15 +55,24 @@ Val framed this as what to fight for: "Вот за что надо воеват�
 - **The Sept-16 monitor ruling.** Val said here: "Когда мы решили вопрос, что телевизор просто вешается. А отпала вся система вот этого открытия сложного." That settles the Sept-24 hung-TV question and retires the hinged-monitor and eye-level-electronics scheme — see [[wiki/decisions/2026-09-16-street-machine-electronics-move-to-eye-level-and-the-monitor-opens-like-a-cupboard-door.md]] (Sept-25 update). [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
 - **Same day, on the call just before.** On the Sept-25 2:32–3:14 PM game call Val said, about Class A cash-out, "I'm thinking how to avoid putting a printer inside" ([[wiki/topics/georgia-class-a-machines.md]]). Here the printer is required. Val's "Я сегодня пересмотрел" marks this as the later position; recorded as evolution, flagged for the owner. [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]] [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
 
+## Oct 1 2026 — the model comes back: the dashboard will not slide, the paper cannot be loaded, and the two devices move onto the panel
+
+On the third segment of the [[wiki/meetings/2026-10-01-genadi-io-board-chips-flat-bom-pilot-and-street-cabinet-panel.md|Oct 1 5:39 PM call]] (Russian) Genadi showed the model built to this ruling and named what it cannot do: "Мы эту штуку не можем [slide down]… Мы не можем долезть до [bill acceptor] и до принтера… [в] принтер заложить бумагу." Val: the dashboard is a service panel and comes off after the play panel; the only real problem is the paper. Then, taking Genadi's suggestion to put the devices at the very bottom as on the Flex: "я предлагаю, чтоб вы практически имплементировали ту же конструкцию… опустить это пониже. Эти 2 девайса… прямо на панели… когда панель уходит… вниз, тогда у вас открывается это пространство", and "дашборд уменьшить в 2 раза." Genadi's tunnel objection (a closed top over the acceptor so an old bill cannot slip in, which stops a slide-down) and a small hinged plastic door are left open; the door is to be plastic, not metal-reinforced. All on [[wiki/decisions/2026-10-01-the-street-cabinets-printer-and-acceptor-come-down-onto-the-panel-flex-style-in-plastic-and-the-model-does-not-go-to-igor-yet.md]] [[raw/Meeting_Transcript_Street_Machine_Cabinet_Dashboard_and_Printer_Access-October-1-2026.md]]. The derived notes read the same two outcomes [[raw/Meeting_Notes_Street_Machine_Cabinet_Dashboard_and_Printer_Access-October-1-2026.md]]. **Evolution:** the later source moves the two devices off the fixed dashboard; the rest of this ruling stands.
+
 ## Open commitments
 
-- [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — work out the slide-down play panel, the 90° fold-down door and the electronics lying on it, in the deeper cabinet with the printer left and bill acceptor right — due unspecified; he said he cannot present it on Monday Sept 28 ("я в понедельник не смогу это презент"); Val: "Безусловно" — [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
+- [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — work out the slide-down play panel, the 90° fold-down door and the electronics lying on it, in the deeper cabinet with the printer left and bill acceptor right — due unspecified; he said he cannot present it on Monday Sept 28 ("я в понедельник не смогу это презент"); Val: "Безусловно" — [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]] *(Oct 1: a model was shown; the dashboard in it does not slide and the paper cannot be loaded; reworked per the Oct-1 decision — the devices onto the panel, dashboard halved [[raw/Meeting_Transcript_Street_Machine_Cabinet_Dashboard_and_Printer_Access-October-1-2026.md]])*
 
 ## Open questions
 
 - Is the vertical door a separate part, or does it fold down with the panel as one plastic part? Val proposed separate; Genadi asked why a door is needed — [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
-- Door material — plastic or stamped metal? Val said both — [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
 - Does Genadi get to review several layout options? He says layout is the most important thing; Val says the effort is not worth it. Not settled between them — [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
+
+*Answered Oct 1:* ~~Door material — plastic or stamped metal? Val said both~~ [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]] — **plastic, with no metal reinforcement**: "Как я и предлагаю это делать из пластика, всю конструкцию из пластика… Я бы не хотел бы строить металл на это" [[raw/Meeting_Transcript_Street_Machine_Cabinet_Dashboard_and_Printer_Access-October-1-2026.md]].
+
+## Open contradictions
+
+- **Is there a printer in the street machine at all?** Sept 25 (Val): "Оставьте глубину кабинета, чтобы влез принтер" — the cabinet goes deeper for it [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]. Oct 1 (Genadi): "у вас в нашем [street] машине вообще эти принтера не будут никогда стоять. Скорее всего" — only for a "private" machine, for tickets (garbled); Val did not confirm or deny, and spoke of the printer conditionally ("если там будет принтер") [[raw/Meeting_Transcript_Street_Machine_Cabinet_Dashboard_and_Printer_Access-October-1-2026.md]]. One is Val's ruling, the other Genadi's expectation six days later; both recorded, not resolved. *(It joins the Sept-25 2:32 PM "I'm thinking how to avoid putting a printer inside" already noted above.)*
 
 **§15.8:** clear — cabinet design and component economics only. **§15 #9:** none.
 
@@ -70,3 +81,5 @@ Val framed this as what to fight for: "Вот за что надо воеват�
 - [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
 - [[raw/Meeting_Notes_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
 - [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- [[raw/Meeting_Transcript_Street_Machine_Cabinet_Dashboard_and_Printer_Access-October-1-2026.md]]
+- [[raw/Meeting_Notes_Street_Machine_Cabinet_Dashboard_and_Printer_Access-October-1-2026.md]]

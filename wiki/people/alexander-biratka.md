@@ -4,8 +4,8 @@ title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka, Alex Baratka, Alex Beratka, Alexander Berankov, Biratko, Alexander Biratko]
 disambiguation: "Alexander cluster (provisional — owner ruling pending): distinct JVL people sharing the given name Alexander. [[wiki/people/alexander-biratka.md|Alexander Biratka]] = Omni/Pixi framework & build engineer (aka Sasha; garbles Beratko/Baratka); [[wiki/people/alexander-korochkin.md|Alexander Korochkin]] = LGS QA-automation engineer (GitHub Alexander_K@JVL, read-only; aka Alexander K); [[wiki/people/alexander-tumanov.md|Alexander Tumanov]] = Minsk QA / data-center knowledge-capture hire (surname unverified). Resolve by context: Omni framework / Pixi / build → Biratka; LGS QA automation / read-only build consumer → Korochkin; manual-tester onboarding / data-center interviews → Tumanov. A further name 'Alexander Derok' (back-end build-integration / Java, per Val on Feb-6-2026) is unconfirmed — queued, not a page. Not [[wiki/people/alexei-khamin.md|Alexei Khamin]] (different name). Queue anything fitting none; never force-match."
-source-count: 76
-open-commitments: 16
+source-count: 78
+open-commitments: 18
 open-questions: 0
 ---
 
@@ -335,8 +335,8 @@ At the [[wiki/meetings/2026-09-30-daily-standup-flexport-firmware-delivery-and-n
 
 ## Open commitments (Sept 30 2026)
 
-- [ ] Alexander Biratka — finish the checks and close capability 247 (modem for FlexPay) — due Sept 30 2026 — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
-- [ ] Alexander Biratka — the LEDs on FlexPay through the LED service (not the HAL) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- [ ] Alexander Biratka — finish the checks and close capability 247 (modem for FlexPay) — due Sept 30 2026 — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]] — *Oct 1 2026: not mentioned* — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [ ] Alexander Biratka — the LEDs on FlexPay through the LED service (not the HAL) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]] — *Oct 1 2026: in progress — the IO board is on the service, "кнопки работают там двери работают. Сейчас проверяю саму ленту"* — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 
 ## Sept 30 2026 (8:03 AM) — print another Flex IQ, no FlexPay cases, a burned USB port, the modem question, and sounds already on FlexPay
 
@@ -347,7 +347,29 @@ On the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-m
 - **Modems.** "GSM модемы у нас будут какого?… какой модели… 2 возможных подключённых или один всётаки. Никто не знает"; new modems "надо будет протестировать… это такая важная часть". See [[wiki/decisions/2026-09-04-north-america-modem-variant-and-ask-kore-for-the-apn.md]] (Sept-30 update).
 - **Sounds.** Pavel: "Саша уже со стороны даже flex pay звуки поднял… звучки красивые играют". See [[wiki/decisions/2026-09-30-flex-iq-sound-feedback-and-the-flexpay-slim-led-language-go-to-mvp-2.md]].
 
+## Oct 1 2026 — the IO board on the service (capability 136), libraries from GitHub, a printer library that stopped printing the e-wallet ticket, and his FlexPay tasks ending
+
+At the [[wiki/meetings/2026-10-01-daily-standup-sas-mode-flag-and-feature-status-rules.md|Oct-1 Minsk stand-up]] (Russian; label "Alexander Biratko") [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]:
+
+- **The service.** "Работал по ледом. 1 пункт… переход [IO board] на сервис я с Женей поговорил. Женя сказал, что у него уже работает" (Kharetski, by context); "заодно переключил. Библиотеки, все эти сервисы… они с гетхаба"; "работает на [IO board] сервисе… кнопки работают там двери работают. Сейчас проверяю саму ленту"; "в рамках [capability] 136".
+- **The printer library.** "Последняя версия принтера… она не заработала на flexpay… Она не печатала [иволит]" (read as the e-wallet ticket — inference); a new ticket type "на ген 5… не поддерживается"; "Мой мой клод сделал какуюто правку теперь он мне печатается, но… может надо перепроверить там, где для кого это делалось" — nobody took the re-check; Tsymanov's new template "будет просто тестировать на всех платформах. Ну на всех принтерах". See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 1, 4:48 AM).
+- **Next.** "основные задачи в целом заканчиваются у меня по [FlexPay]"; Pavel: close the open capabilities that are done; "я уже делаю делал… Анализ типа какие [capabilities] в флекс айкью, какие… в флекспэ вот сравнивал их, и тут у меня сводка есть, я буду по ним работать".
+
+## Open commitments (Oct 1 2026)
+
+- [ ] Alexander Biratka — go through all open FlexPay capabilities and close the ones that are done, from his Flex IQ–FlexPay comparison — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+
+## Oct 1 2026 (8:02 AM) — his MVP 2 method: drop the wrong capabilities, port Flex IQ's by analogy, write no new ones
+
+On the [[wiki/meetings/2026-10-01-transactional-mvp1-status-slice-and-sas-command-logging.md|Oct-1 8:02 AM MVP 1 call]] (Russian; label "Alexander Biratko"): "Ну у меня нету" questions; "я как бы просто просмотрю то, что у нас сейчас сделано… не актуальное или вообще ошибочное… могу его отбросить"; "новых я особо писать не хочу, потому что они получатся такие незаконченные, без… подтверждения со стороны бизнеса"; "создаю [capability] по аналогии с флекса IQ… там бизнесмодель продумана"; the business flows "ещё не проработал… Чтоб Андрей со стороны юзера… и… администратора продумал вот эти вот все пути". Klimovich: "оптимальный подход". See [[wiki/decisions/2026-10-01-mvp2-capabilities-biratka-ports-flex-iqs-to-flexpay-and-writes-no-new-ones-until-klimovich-defines-the-flows.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]].
+
+## Open commitments (Oct 1 2026, 8:02 AM)
+
+- [ ] Alexander Biratka — review the MVP 2 capabilities: drop the outdated or wrong ones, port the Flex IQ ones that apply to FlexPay by analogy, write no new ones until the flows are defined — due while Klimovich is away (until Oct 13 2026) — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]

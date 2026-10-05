@@ -1,0 +1,53 @@
+---
+type: meeting
+title: Transactional MVP 1 — the October-1 slice: developers have closed all MVP 1 features (122 onward in Request Review, 165–174 still open), reprint, records and SAS-command logging finish by Sunday or Monday, the KORE SIM request is picked up, Elizabeth has not answered yet, and no sync Tuesday to Thursday while Klimovich is away until October 13 (Oct 1 2026, 8:02–8:18 AM)
+date: 2026-10-01
+aliases: [Transactional MVP1 sync Oct 1, Transactional MVP1 Status Slice and SAS Command Logging, day fourteen of the MVP1 series, Oct 1 8am transactional call, срез 1 октября, CAP-122 Request Review, 165 to 174, due dates October 22 23, SAS commands from machines, получение сас команд с машин, log everything the machine sends, до воскресенья до понедельника, mockups before requirements, gaps document to the mailing group, firewall merged terminal 84, SIM with Ivan, more SIMs from KORE, contract covers all US states, Elizabeth pinged, Klimovich back October 13, no sync Tuesday to Thursday, Biratka ports Flex IQ capabilities]
+source-count: 2
+open-commitments: 0
+open-questions: 0
+---
+
+# Transactional MVP 1 — the October-1 slice and SAS-command logging (Oct 1 2026)
+
+**Date/time:** October 1 2026 (a Thursday), **8:02 – 8:18 AM Eastern** (about 16 minutes), from the `**Date:**` header line [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]. **Series:** the Teams session "Transactional MVP1 sync" — the **fourteenth** morning call, the day after [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-modem-supply.md|Sept 30]]. **Language: Russian.**
+
+**Who spoke** (speaker labels): [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] (chair), [[wiki/people/irina-shishko.md|Irina Shishko]], [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] (label "Dzmitry Chudzinau"), [[wiki/people/andrey-bosik.md|Andrey Bosik]] (label "Andrei Bosik"), [[wiki/people/pavel.md|Pavel Frolov]] (shared his screen for the Jira slice), [[wiki/people/alexander-biratka.md|Alexander Biratka]] (label "Alexander Biratko"); [[wiki/people/ivan.md|Ivan]] (label "Ivan Shpak") and [[wiki/people/alexei-khamin.md|Alexei Khamin]] (label "Alexey Khamin") spoke only to say goodbye [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]. Val was not present.
+
+**Purpose.** Klimovich's agenda: MVP 1 questions, MVP 2 questions, then the schedule — "Сегодня, 1 октября, я думаю, что мы можем сделать срез" of where MVP 1 stands in development and testing. Chudinov's gaps document and where to send it; Bosik's merged firewall change and the one SIM card; more SIMs from KORE; Pavel's Jira slice; the SAS-command logging capability; Elizabeth's silence; Biratka's MVP 2 method; and Klimovich's absence [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]].
+
+**§12 — one meeting, two files.** The notes and the transcript share the date, time and title and link each other. A corpus-wide grep for both filenames, "October-1-2026", "2026-10-01", "Status_Slice", "SAS_Command_Logging" and "Transactional MVP1 sync" found no page citing either file and no other Oct-1 MVP 1 stub. The same morning's [[wiki/meetings/2026-10-01-daily-standup-sas-mode-flag-and-feature-status-rules.md|4:48 AM stand-up]] is a different meeting (Pavel's chair, other time, other content). Bosik asked "Нам может запись новую начать? Лучше отдельно" before the MVP 2 part; no second Oct-1 recording of this call exists in the corpus, and the MVP 2 part is in this file. It is a new meeting.
+
+Substance lives on:
+
+- [[wiki/decisions/2026-09-28-october-15-replaces-october-1-as-the-mvp1-date.md]] — Oct-1 update: the slice (122 onward in Request Review; 165–174 open; due dates Oct 22–23 include the autotests); development done "до воскресенья до понедельника"; Irina's testing update tomorrow
+- [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 1, 8:02 AM) — the day-fourteen entry: the slice, reprint and records, the SAS-command logging capability and its purpose, the gaps document, the firewall on terminal 84, the SIM, Biratka's MVP 2 method
+- [[wiki/decisions/2026-10-01-mvp2-capabilities-biratka-ports-flex-iqs-to-flexpay-and-writes-no-new-ones-until-klimovich-defines-the-flows.md]] — the MVP 2 working method while Klimovich is away
+- [[wiki/decisions/2026-09-10-requirements-come-first-and-the-recycler-is-out-of-both-mvps.md]] — Oct-1 update: Chudinov and Tsymanov work from the mock-ups first because the requirements are abstract; the gaps document; Klimovich to update the requirements
+- [[wiki/decisions/2026-09-24-written-records-go-by-email-and-chats-are-for-instant-matters.md]] — Oct-1 update: the gaps document goes as a new email to the transactional distribution list
+- [[wiki/decisions/2026-09-17-the-device-does-the-routers-job-firewall-nat-and-wan-lan-profiles-stay-in-mvp1.md]] — Oct-1 update: the firewall change is merged and in the fresh build on terminal 84; testing waits for the SIM and Claude runs the cases
+- [[wiki/decisions/2026-09-04-north-america-modem-variant-and-ask-kore-for-the-apn.md]] — Oct-1 update: KORE said "no problem" to more SIMs for Minsk and nothing followed; the contract covers all US states; Klimovich picks it up
+- [[wiki/decisions/2026-09-30-elizabeths-georgia-set-up-questions-go-to-a-shared-teams-chat-not-one-person.md]] — Oct-1 update: Elizabeth was given the task in Teams on Sept 30 and has not answered; Klimovich pings her for a date
+- [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] — Oct-1 update: the Georgia set-up has not started
+- [[wiki/topics/test-automation-strategy.md]] (Oct 1, 8:02 AM) — the autotests are what the Oct 22–23 dates carry; Bosik will have Claude run the firewall test cases; "ждём автотестов"
+- People: [[wiki/people/andrei-klimovich.md]] · [[wiki/people/irina-shishko.md]] · [[wiki/people/dmitri-chudinov.md]] · [[wiki/people/andrey-bosik.md]] · [[wiki/people/pavel.md]] · [[wiki/people/alexander-biratka.md]] · [[wiki/people/ivan.md]] · [[wiki/people/alexei-khamin.md]] · [[wiki/people/elizabeth.md]] (discussed, not present) · [[wiki/people/sergey-tsymanov.md]] (discussed, not present) · [[wiki/people/val-levitan.md]] (discussed, not present)
+
+**§4 name calls** [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]:
+
+- "Андрей создавал… транзакн" (the distribution list) = [[wiki/people/andrey-bosik.md|Bosik]], **by context** — Klimovich is the one speaking, and Bosik created the "транзакшн систем" distribution list on Sept 25 (inference). "Сергеем", with whom Chudinov put the mock-ups before the requirements = [[wiki/people/sergey-tsymanov.md|Tsymanov]], **by context** (his Sept 29–30 partner on the FlexPay capabilities — inference). "паше" / "Паша" / "Павел" = Pavel. "Ивана" / "ванька" / "ванино" = Ivan. "кору" / "коровская симка" = KORE, the carrier (the notes' reading; the Sept-4 decision page names KORE). "Элизабет" = [[wiki/people/elizabeth.md|Elizabeth]]. "саша" = Biratka. "Андрей" in Biratka's "если Андрей… сейчас не занимается [capabilities]" and "чтоб Андрей со стороны юзера… продумал" = Klimovich (he answers). "валу" = Val. "Матвей Андрей Матвей" (Chudinov, addressing Klimovich) — garbled; read as an address to Klimovich from his reply. "Клод" / "кулот" / "плод" = Claude, the AI tool.
+- **Garbled words:** "скэдвилл" = schedule; "телты" = tilts; "извинения для фарвола" = изменения for the firewall (reading); "тыркмутили", "Осилка в 84 стоит", "Ты намьете" — **unclear**; "джорджевском" = Georgia's; "gom в 3" — the notes read "GOM V3"; recorded as the notes' reading only; "реальном жилете" / "жале" = real hardware ("железе" — reading); "спасибо за бред" — not interpreted; "пидва" = MVP 2; "jobi" — read as Georgia from the sentence; "фло" = flow; "03:00" — Irina's local daily "на 03:00" (whose clock is not said).
+
+**Where the notes and the transcript diverge** (transcript followed; notes [[raw/Meeting_Notes_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]):
+
+1. **The dates of the missed syncs.** The notes' decision names "Oct 6–8" and "Oct 2 and Monday Oct 5". The transcript: "на следующей неделе со вторника по четверг… полное отсутствие" and "как минимум вторник тире четверг я не буду создавать митинг в понедельник встретимся и завтра встретимся, а там видно будет" — the dates are the notes' arithmetic; "а там видно будет" hedges it. Recorded as the notes' reading.
+2. **"Pavel had asked KORE."** The transcript has Klimovich saying it: "Павел, ты инициировал вопрос кору… и они сказали no problem" — Pavel: "Да". Matches; "кору" is the notes' reading as KORE.
+3. **"CAP-122… CAP-165 to CAP-174".** Spoken as "начинается отсюда 122", "начиная с к а п 165… заканчивая… кап 174", with Pavel's own "немножко не все еще да. Сейчас дочищу" — the list was not fully cleaned when shown.
+4. **Undertaking 5** ("tell Andrei Bosik when Ivan no longer needs the SIM", flagged by the notes as needing Val's confirmation). The transcript has only Bosik's "как ванька тесёмка не нужна будет дай знать", addressed to nobody in particular. Not recorded as a commitment.
+5. **"By Sunday or Monday".** Chudinov: "с учётом рабочего выходных… до конца до воскресенья до понедельника всё это добьём"; Klimovich restated "к понедельнику"; Pavel: "Ну примерно выглядит так". The weekend-work condition is in the transcript, not the notes' decision list.
+6. **Omitted by the notes:** Bosik's "Нам может запись новую начать? Лучше отдельно"; Chudinov's "живём с большой семьёй на одну" (one SIM); Pavel's "трафик… должен быть копеечный, за исключением кейсов, когда идёт обновление прошивок"; Irina's "мы синхронизируемся и 03:00 до этого на нашем местном далеке"; Klimovich's "вопрос к валу… может ли он присутствовать на ваших синках" and the answer "Он добавлен в те митинги… Он есть на всех виртуально… может видеть и читать".
+
+**§15.8:** clear. Work status, scope and schedule only. Klimovich's absence is recorded as a working-schedule fact (no sync Tuesday to Thursday; nothing written until Oct 13), not where he is or why. Nobody's pay, performance or personal matters are recorded. **§15 #9:** no corporate identifier appears; "84" is a test terminal's number, not an identifier.
+
+## Sources
+- [[raw/Meeting_Notes_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]

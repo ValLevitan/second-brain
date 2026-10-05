@@ -3,8 +3,8 @@ type: person
 title: Evgeny Kharetski
 date: 2025-07-10
 aliases: [Evgeny Kharetski, Evgeny Kharetsky, Evgeny Khoretsky, Kharevsky, Yauheni Kharetski, Kharetsky, Koretski, Koretsky, Korecki, Khorvatsky, Корецкий, Хорватский, Халецкий]
-source-count: 32
-open-commitments: 9
+source-count: 34
+open-commitments: 10
 disambiguation: "LGS developer (payroll "Kharetski Yauheni"), this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
 ---
 
@@ -184,7 +184,24 @@ At the [[wiki/meetings/2026-09-30-daily-standup-flexport-firmware-delivery-and-n
 - [ ] Evgeny Kharetski — get the logs and find out why the "always last" queue fix does not show on screen — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [ ] Evgeny Kharetski — close the CC-talk task (heard as "сети 58 58"; the notes read CT-5858) — due Sept 30 2026 — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 
+## Oct 1 2026 — "вчера зарядили версию", the IO board, LEDs and counter board, Anton's daily fixes at Claude's prompting, and statistics that do not work
+
+At the [[wiki/meetings/2026-10-01-daily-standup-sas-mode-flag-and-feature-status-rules.md|Oct-1 Minsk stand-up]] (Russian; called on as "Женя") [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]:
+
+- **A version loaded.** "Она вчера зарядили версию" — a version was loaded on Sept 30; which build and for which machine is not said (see [[wiki/decisions/2026-09-29-the-fix-goes-out-as-a-re-release-not-a-hack-and-only-that-commit-goes-in.md]], Oct-1 annotation).
+- **His work.** "дальше занимался l gs 12. 19 это и [IO board]. И ледами. [Counter board] ещё доделать" — the LGS number is garbled again (Sept 29 "212 19", Sept 30 "20, 19" — not resolved); the IO board, the LEDs and the counter board are the derived notes' readings [[raw/Meeting_Notes_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]. Biratka said that morning that Kharetski already has the IO board working on the service ("Женя сказал, что у него уже работает" — Kharetski by context).
+- **The loop with Anton.** "У нас каждый день Антон чтото доделывает. По моим просьбам в сервисах… Я. Прошу Клода посмотреть, что у нас есть всё, чтобы отказаться от [мотива — unclear]. Он смотрит и говорит, блин, тут ещё вот это вот надо сделать, без этого не можем. Я даю Антону Антон делает говорю, ну теперь то всё посмотри такой. Да Ну вот ещё нашёл момент." "Антон" — the same unresolved service-side Anton as on Sept 23, 28 and 30 (not forced).
+- **Statistics.** "Сейчас мы что то со статистикой подвисли, непонятно, что там как [шлёца — unclear] вообще работает, оно не работает. Так что сейчас план это на локальный хост подключиться через интернет и через интернет в локальной сети, посмотреть, что там. Все сообщения долетают как надо. Может у нас гдето в логике чтото у когото сломалось."
+- **In the status argument.** "почему прозвучало, что мы пишем автотесты на фичи? Может быть, на [требования] должны были в писать" — Irina: on requirements; "То есть одна фича одно требование" — not necessarily. See [[wiki/decisions/2026-10-01-completed-is-the-developers-last-step-and-a-found-problem-sends-the-feature-from-completed-back-to-to-do-as-a-story.md]].
+- His Sept-30 commitments above (the logs for the queue fix; the CC-talk task) were not mentioned. Ivan said he works "С Женей" on autotests that morning (Kharetski by context).
+
+## Open commitments (Oct 1 2026)
+
+- [ ] Evgeny Kharetski — find why the statistics are not being sent: connect to the local host over the internet and over the local network and check that all messages arrive — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
 

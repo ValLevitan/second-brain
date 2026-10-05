@@ -3,7 +3,7 @@ type: decision
 title: Memory comes out of the street machine's board — one FRAM chip instead of six, the per-game statistics move out, and low-power mode is laid in but not populated
 date: 2026-09-16
 aliases: [one FRAM chip instead of six, 6 микросхем fram, под 256, одной 256, ferromagnetic memory six banks, фиромагнитик мемори 6 банков, statistics move to SD card or eMMC, last ten games and fifty free spins, low power mode, лоу пауэр мод, компоненты заложить но not populate, lay in but do not populate, light controller must go, not always correctly written]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 1
 open-questions: 2
@@ -53,6 +53,10 @@ Pavel had set out what the feature actually costs in hardware terms — a batter
 
 **One further component goes without argument:** Genadi, early — "**Лайт контроллер … должен уйти в любом случае**", the light controller must go in any case [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]].
 
+## Oct 1 2026 — a first cut on the board already in production: two 256-Mbit FRAM chips not populated, $12 a board
+
+On the [[wiki/meetings/2026-10-01-genadi-io-board-chips-flat-bom-pilot-and-street-cabinet-panel.md|Oct 1 4:59 PM call]] (Russian) Genadi: "Наш текущий [IO board] right away мы снимаем 2 чипа памяти, удешевляем его $12 на борт… [FRAM] чипы по 256 мегабит, каждый чип стоит $6. Мы их просто… not populate." His reason is the same one Pavel attached here as a condition: "у нас нету требований увеличить записи, количество транзакций и объём транзакций." This is a step on the *current* board, ahead of the one-chip street board above; whether the current board goes from six chips to four is not said. The fuller redesign (memory type, USB controller) is on [[wiki/decisions/2026-10-01-two-fram-chips-come-off-the-current-io-board-and-the-street-machine-board-grows-out-of-a-redesigned-io-board.md]] [[raw/Meeting_Transcript_IO_Board_Memory_Chip_Removal_and_Redesign-October-1-2026.md]]. *(Pavel's open question below — is there a requirement for the extended statistics? — is still not answered by anyone; Genadi asserts there is none.)*
+
 ## Open commitments
 
 - [ ] Pavel Frolov — confirm what must still be written to FRAM once the per-game statistics move out, and size the single chip against the actual requirements ("**надо посмотреть по требованиям**", "**решить, что мы туда пишем**") — due unspecified — [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
@@ -68,3 +72,4 @@ Pavel had set out what the feature actually costs in hardware terms — a batter
 
 - [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
 - [[raw/Meeting_Notes_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
+- [[raw/Meeting_Transcript_IO_Board_Memory_Chip_Removal_and_Redesign-October-1-2026.md]]

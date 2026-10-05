@@ -3,9 +3,9 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, eighty percent of the general functionality, requirements are step two, a hole automated tests will not cover, acceptance criteria in general terms, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction, Figma to React, Vite, Claude Code review loop, acceptance criteria, two test warehouses, frozen test cases, test harness, test registry, no E2E tests for MVP 1, E2E micro-step, telnet hook test, 60 to 70 percent acceptance criteria, symlink to dev null, eight connection tests, money-crediting autotest]
-source-count: 56
-open-commitments: 31
-open-questions: 6
+source-count: 58
+open-commitments: 32
+open-questions: 7
 ---
 
 # Test-automation strategy and testing architecture
@@ -659,7 +659,7 @@ At the [[wiki/meetings/2026-09-30-daily-standup-flexport-firmware-delivery-and-n
 ### Open commitments (Sept 30 2026, 4:57 AM)
 
 - [ ] [[wiki/people/ivan.md|Ivan]] — run the production-server install test with the progressive-controller behaviour, then the network tests on a separate network — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
-- [ ] [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] — set task 41 to Blocked with the defects linked, raise it at the next meeting, and pick the next task closest to ready (probably 148), moving its dates — due Sept 30 2026 — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- [ ] [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] — set task 41 to Blocked with the defects linked, raise it at the next meeting, and pick the next task closest to ready (probably 148), moving its dates — due Sept 30 2026 — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]] — *Oct 1 2026: "Сегодня ещё прошёлся по 7 41 задачи со своим уже портом и [эмулятором SAS]. Один [блокер] снимался, доделал" — one blocker lifted and the task worked further; whether it sits in Blocked, and which task he took next ("34 лакейшн блок тейкс" — garbled), is not said* — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 
 ## Sept 30 2026 (8:03 AM) — "неплохо": everyone writes, tests pass, receipts pile up, and one Flex IQ is shared
 
@@ -667,7 +667,36 @@ At the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-m
 
 **§15.8:** clear — work status. **§15 #9:** none.
 
+## Oct 1 2026 (4:48 AM) — Khamin on PR reviews and the repository structure, Seregin's emulator-vs-device worry, "autotests are written on requirements, not features", Vladimir's TINT-40 and task 41, and the Request-Review-until-the-autotest-passes idea
+
+At the [[wiki/meetings/2026-10-01-daily-standup-sas-mode-flag-and-feature-status-rules.md|Oct-1 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]:
+
+- **[[wiki/people/alexei-khamin.md|Khamin]].** "я в основном автотестами. Но больше сейчас почти не могу писать, потому что всё ещё у нас структура работает" (garbled — read as the repository structure still being worked on); "Плюс просматриваю [PR], которые ребята создают"; "[изменения] нужны, ну уже чтобы репозитории нормально работал" (garbled). [[wiki/people/irina-shishko.md|Irina]]: "Это основная сейчас. Будет алёша" — that repository work is his main task now.
+- **[[wiki/people/anton-seregin.md|Seregin]]'s emulator check, and Irina's worry.** He is at the stage of verifying that the Flex IQ emulator behaves like the device — comparing logs for extra or missing events ("Не подмешивается ли чегото там дополнительного, либо… какойто [эвент] пропускается"). Irina: "убедиться, что [эмуляторы] реально работает так же, как и устройства"; "А как потом на нём это самое проверять? Если он там не соответствует, то есть на эмуляторе будут проходить тест, а потом на реальном устройстве. Будет ерунда." [[wiki/people/pavel.md|Pavel]]: "Наверно, у нас не стоит задач полностью соответствовать. Работе реальных устройств… Так бывает… если находятся разночтения. Ну [фиксятся]." The rest — the register of verified versions, one instance per device, the next priority — on [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]] (Oct-1 update).
+- **[[wiki/people/ivan.md|Ivan]].** "С Женей авто тесты и все остальное, что хотите от меня всё это делают" — autotests with Zhenya ([[wiki/people/evgeny-kharetski.md|Kharetski]], by context — inference). His Sept-30 tests are not mentioned.
+- **Irina.** "Авто тесты. Но я так понимаю, что надо, както нам переходить, смотреть, что там… [capabilities]… на [FlexPay]… сначала… автотесты… вперёд пройдут побольше. Тогда… [capabilities] [FlexPay] переведу" — autotests first, then she moves to the FlexPay capabilities.
+- **[[wiki/people/vladimir-samusenko.md|Vladimir]].** "тинт 40. Вчера закончил" (read as TINT-40; "Сомневаюсь это тестами" is garbled). "Сегодня ещё прошёлся по 7 41 задачи со своим уже портом и [эмулятором SAS]. Один [блокер] снимался, доделал и чего я там активно ещё закинул 34 лакейшн блок тейкс" (the last phrase garbled). "Задачей занимаюсь сейчас." See the annotation on his Sept-30 commitment above and [[wiki/decisions/2026-09-30-an-autotest-task-that-cannot-finish-goes-to-blocked-not-closed.md]] (Oct-1 note).
+- **What an autotest is written against.** In the feature-status argument Pavel said "Авто теста пишется под фичию"; Chudinov: "не всегда такое возможно… сделаю фичу на вест кластере, ну ты туда даже не подлезешь"; Kharetski asked why autotests are per feature rather than per requirement; Irina: "**Мы пишем не на фичи, мы пишем на требования. Которая находится в [capability]**" — a feature either implements its requirement correctly or has a problem. Pavel's first idea — a feature stays in Request Review "если авто тест подразумевается для этой фичи… комплекта станет только после Того, когда отработает автотест" — gave way to the ruling on [[wiki/decisions/2026-10-01-completed-is-the-developers-last-step-and-a-found-problem-sends-the-feature-from-completed-back-to-to-do-as-a-story.md]]: Completed is the developer's last step, and a problem the autotest finds sends the feature back to To Do with a story.
+
+**§15.8:** clear — work status. **§15 #9:** none.
+
+### Open commitments (Oct 1 2026, 4:48 AM)
+
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — make the repository-structure changes so the test repositories work properly (Irina: "Это основная сейчас"), reviewing the team's pull requests meanwhile — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+
+### Open questions (Oct 1 2026, 4:48 AM)
+
+- How much must the Flex IQ emulator match the real device before autotests run on it? Irina fears tests that pass on the emulator and fail on hardware; Pavel: full matching is not the goal, differences are fixed as found — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+
+## Oct 1 2026 (8:02 AM) — the Oct 22–23 dates are the autotests; Irina's testing update is tomorrow; Bosik will have Claude run the firewall cases; "ждём автотестов"
+
+At the [[wiki/meetings/2026-10-01-transactional-mvp1-status-slice-and-sas-command-logging.md|Oct-1 8:02 AM MVP 1 call]] (Russian) [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]: [[wiki/people/irina-shishko.md|Irina]] — "Тестирование моё завтра… по тестированию мы будем обновляться завтра сегодня не увидим ещё ничего. А с разработкой да можно оценить." On Pavel's slice, the top MVP 1 capabilities are in Request Review — "остались только задачи по тестированию и по написанию автотестов"; the due dates of "22 октября 23" are, per Chudinov, "там авто тесты… разработка с тестами смешанная". [[wiki/people/andrey-bosik.md|Bosik]], on testing his firewall change: "либо ктото из опять же тестировщиков может взять [реквайрменты] и натравить [Клода], чтобы он поделал тесты"; then "я подожду ванино [SIM] я потом запущу [Клод] и он протестирует все, что мы там [тест-кейсы], который придумали с ним". Klimovich's close: "к понедельнику ждём, что у нас по функционалу клиентов всё готово, можно накатывать и тестировать. Пользовательские [фло]… Ну и ждём автотестов." Irina's Sept-28 re-judging commitment on [[wiki/decisions/2026-09-28-october-15-replaces-october-1-as-the-mvp1-date.md]] moves to Oct 2.
+
+**§15.8:** clear. **§15 #9:** none.
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]

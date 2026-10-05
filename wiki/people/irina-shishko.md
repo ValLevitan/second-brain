@@ -4,7 +4,7 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 118
+source-count: 120
 open-commitments: 34
 ---
 
@@ -596,7 +596,21 @@ On the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-m
 - **The chat.** Against Bosik's single contact: she already is Elizabeth's single contact and then goes to find the answers; "Элизабет ещё пишет вечером"; "кто знает, тот отвечает и помогает быстрее" — the shared chat carried; "эту лекцию это я Андрею босику читала, а то я забыла, что ещё у нас 2 Андрея." See [[wiki/decisions/2026-09-30-elizabeths-georgia-set-up-questions-go-to-a-shared-teams-chat-not-one-person.md]].
 - **Autotests.** "с тестами получается, на мой взгляд, неплохо. Все подтянулись, пишут… тесты проходят"; against Pavel's "пользуйте эмуляторы": "не эмуляторы нужны, потому что не очень удобно. Мы просто вот сейчас айкью делим". See [[wiki/topics/test-automation-strategy.md]] (Sept 30, 8:03 AM). Pavel asked that she be on the spare-parts email.
 
+## Oct 1 2026 (4:48 AM) — "мы пишем на требования", "Только из комплект в туду", a story not a bug, and features linked to requirements
+
+At the [[wiki/meetings/2026-10-01-daily-standup-sas-mode-flag-and-feature-status-rules.md|Oct-1 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]:
+
+- **Her status.** "Авто тесты. Но я так понимаю, что надо, както нам переходить, смотреть, что там… [capabilities]… на [FlexPay]… сначала… автотесты… вперёд пройдут побольше. Тогда… [capabilities] [FlexPay] переведу." On Khamin's repository work: "Это основная сейчас. Будет алёша."
+- **The emulator.** "убедиться, что [эмуляторы] реально работает так же, как и устройства"; "на эмуляторе будут проходить тест, а потом на реальном устройстве. Будет ерунда." See [[wiki/topics/test-automation-strategy.md]] (Oct 1, 4:48 AM).
+- **Feature statuses.** The feature "не могла быть комплектов, потому что она не проверена… она должна была висеть в реквест ревью"; "Хорошо в комплект это вы сделали, проверили, не работает дальше, что делать"; "**Мы пишем не на фичи, мы пишем на требования. Которая находится в [capability]**… фича, либо реализует правильно это требование, либо там есть проблема"; "Куда бак мы не можем писать? Стори, потому что чтото недоделано… Ты в рамках этой фичи чтото не доработал"; "Его нужно переоткрыть… то, что фича оказалось не переоткрыто это было неправильно"; to Kovalchuk: "Я бы либо комплект, либо реклавью… непонятно зачем"; the ruling's last word: "**Только из комплект в туду**… мы не знаем. Сегодня возьмёт разработчик прямо сейчас или через [—] возьмёт работу эту фичу обратно"; "Пока ты разрабатываешь нет бага ты просто чтото не доработал. Поэтому стори"; and the close: "когда создаётся фича, она должна создаваться на какие то требования и при линковываться. И если не прошёл акцептонс критерий по данному требованию, то достаточно легко найти по какой фичи… была проблема." See [[wiki/decisions/2026-10-01-completed-is-the-developers-last-step-and-a-found-problem-sends-the-feature-from-completed-back-to-to-do-as-a-story.md]]. Her banter with Chudinov about whose Claude is cleverer is not recorded.
+
+## Oct 1 2026 (8:02 AM) — "Тестирование моё завтра", the team's own syncs stay, and Val is on all of them
+
+On the [[wiki/meetings/2026-10-01-transactional-mvp1-status-slice-and-sas-command-logging.md|Oct-1 8:02 AM MVP 1 call]] (Russian): "Тестирование моё завтра. Так, Андрей только по тестированию мы будем обновляться завтра сегодня не увидим ещё ничего. А с разработкой да можно оценить" — see [[wiki/decisions/2026-09-28-october-15-replaces-october-1-as-the-mvp1-date.md]] (Oct-1 update). On Bosik's SIM: "Не знаю, сегодня завтра послезавтра." On Klimovich's absence next week: "нужно ли нам тогда со вторника по четверг… Тебя не будет"; "Нашей синхронизация нужна, потому что мы синхронизируемся и 03:00 до этого на нашем местном [дейлике]"; on Val: "Он есть на всех виртуально. И все всё, он может видеть и читать." [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]]

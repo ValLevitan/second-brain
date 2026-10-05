@@ -3,8 +3,8 @@ type: person
 title: Val Levitan
 date: 2026-07-12
 aliases: [Val, Val Levitan]
-source-count: 398
-open-commitments: 73
+source-count: 401
+open-commitments: 76
 open-questions: 1
 ---
 
@@ -1544,11 +1544,30 @@ A 13-minute one-on-one with [[wiki/people/efim-podvoiski.md|Efim Podvoiski]] ([[
 
 The separate meeting with [[wiki/people/genadi-peari.md|Genadi]] he had moved to at 10:51 ([[wiki/meetings/2026-09-30-solidworks-flat-parts-list-parked.md]]): "Can I call you back?", then a reaction to something outside the meeting ("You're kidding me", "So upset", "Terrible" — cause not stated), then "They might have to park this conversation." Two minutes; nothing discussed [[raw/Meeting_Transcript_Solid_Works_Flat_Parts_List_Parked-September-30-2026.md]] [[raw/Meeting_Notes_Solid_Works_Flat_Parts_List_Parked-September-30-2026.md]]. **§15.8:** clear. **§15 #9:** none.
 
+## Oct 1 2026 (4:59–6:00 PM) — three segments with Genadi: "say again what needs doing", "I don't want a hybrid", and "why the FlexPort at all?"
+
+One sitting, three recordings ([[wiki/meetings/2026-10-01-genadi-io-board-chips-flat-bom-pilot-and-street-cabinet-panel.md]]; Russian; [[wiki/people/genadi-peari.md|Genadi]] only).
+
+- **4:59 PM — the IO board.** He opened with "Говорим ещё раз, что нужно сделать?" and asked one question — "Что это за чипы, как они называются?" — then let Genadi's three-step plan stand (two FRAM chips off at $12 a board; a half-cost redesign; the street board derived from it): [[wiki/decisions/2026-10-01-two-fram-chips-come-off-the-current-io-board-and-the-street-machine-board-grows-out-of-a-redesigned-io-board.md]] [[raw/Meeting_Transcript_IO_Board_Memory_Chip_Removal_and_Redesign-October-1-2026.md]].
+- **5:02 PM — the BOM, "Я хочу вернуться к разговору".** His framing of the whole thing: exporting a BOM and keeping orders and admin in MSBC "это неправильный подход к теме… убивает процесс того, что… я хочу добиться." His reasons, in order: "я не хочу расти в количестве людей… найти хороших людей всегда было тяжело… мы работаем в разных местах"; he will not build a C-level layer under himself ("какую-то бюрократию, которая совсем для ведения кампании не полезна") — the replacement is AI executives ("у меня сейчас хорошо работает [AI-CFO]… Мы практически закончили архитектуру под AI проджект менеджер"); and supplier history must leave Genadi's head into "свою память, AI… и AI… логику." The ruling: "Туда [в MSBC] нужно загнать только готовый [bill of material]. А конфигуратор… нужно создать вне, он должен быть логикой AI"; "Я не хочу делать гибрид"; prices do not go in GitHub. His sources of truth: the flat BOM in GitHub, lead time and MOQ-type facts, the physical count, the forecast — "Для меня этот [substance] это AI." On MSBC: "это больная форма того, что могли сделать за все это время." He proposed the pilot himself — "возьмём [flat bill of material], у нас не займёт больше, чем [два часа]. Я при вас поиграю с этим" — picked up Genadi's choice of the Slim, asked for the part number in the chat, and said "я попрошу, чтобы [Claude Code] создал мне инфраструктуру… Я практически уверен, что я сам это смогу сделать." On Nathan his line is garbled ("Да мне давно это нэйтане нужен, я сам могу это сделать"). His proof that AI can hold the logic: "сегодня Алексей Хамин и Ваня наш пишут эти тесты. И [Claude] тестируют." Ruling: [[wiki/decisions/2026-10-01-only-the-finished-bom-goes-into-msbc-the-configurator-is-ai-logic-outside-it-no-hybrid-and-the-pilot-is-the-flex-pay-slim.md]]; thread on [[wiki/decisions/2026-09-23-the-bom-source-of-truth-is-the-latest-design-in-github-and-sync-runs-one-way.md]] (Oct-1 update); the staffing and autotest points on [[wiki/topics/ai-assisted-development.md]] (Oct 1) [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]].
+- **5:39 PM — the street cabinet.** On the FlexPort rear cover: a template and a hole saw, fixings at the sides, "это исключение из правил" for machines whose panel cannot be cut ([[wiki/topics/flexpay-business-architecture-payout-devices.md]], Oct 1). On the cabinet: the dashboard is a service panel; the one real problem is paper loading; then "я предлагаю, чтоб вы практически имплементировали ту же конструкцию [as the Flex]… опустить это пониже. Эти 2 девайса… прямо на панели", "дашборд уменьшить в 2 раза", "всю конструкцию из пластика… Я бы не хотел бы строить металл на это", and to Igor starting now: "Я думаю, что ещё рановато." Then his own new question: "Если стоит [street] машина, то зачем мы туда ставим этот флекспорт? Нам нужно только один [scanner — inference]… перенести на общий экран машины" — "давайте последним ещё подумаю." Ruling: [[wiki/decisions/2026-10-01-the-street-cabinets-printer-and-acceptor-come-down-onto-the-panel-flex-style-in-plastic-and-the-model-does-not-go-to-igor-yet.md]]; the rest on [[wiki/topics/low-cost-street-machine.md]] (Oct 1) [[raw/Meeting_Transcript_Street_Machine_Cabinet_Dashboard_and_Printer_Access-October-1-2026.md]].
+
+**§15.8:** his sharper remarks at Genadi in the BOM segment, an exchange about who is "smart" or "dumb", and a joke he told are held; personal matters not recorded. **§15 #9:** none.
+
+## Open commitments (Oct 1 2026)
+
+- [ ] Val Levitan — take the Oct-1 transcript and the Flex Pay Slim part number and have Claude Code build the GitHub structure: the Slim as a flat list with all suppliers for every part, then work backward — due unspecified — [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
+- [ ] Val Levitan and Genadi Peari — a working session of about two hours on the flat BOM, Val working it in front of Genadi — due unspecified — [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
+- [ ] Val Levitan — think over whether the street machine needs a FlexPort at all, or one scanner with the interface on the machine's touch screen; blocks the hand-over of the model to Igor — due unspecified — [[raw/Meeting_Transcript_Street_Machine_Cabinet_Dashboard_and_Printer_Access-October-1-2026.md]]
+
 ## Sept 30 2026 (in absentia) — about thirty more modems on his order, and a spare-parts email to him
 
 On the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-modem-supply.md|Sept-30 8:03 AM MVP 1 call]] (Russian; he was not present) Pavel, asked whether a new modem batch is on order: "в джорджии [Вал давал]… [в] команду купить помоему 30 новых. И они сейчас как раз покупаются" — about 30 more, the same (end-of-life) model as Georgia's first 10, being bought now. Klimovich will start an email to Genadi and him to bring the Minsk spare-parts set up to date. See [[wiki/decisions/2026-09-04-north-america-modem-variant-and-ask-kore-for-the-apn.md]] (Sept-30 update) [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]].
 
 ## Sources
+- [[raw/Meeting_Transcript_IO_Board_Memory_Chip_Removal_and_Redesign-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Street_Machine_Cabinet_Dashboard_and_Printer_Access-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]
 - [[raw/Meeting_Notes_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]

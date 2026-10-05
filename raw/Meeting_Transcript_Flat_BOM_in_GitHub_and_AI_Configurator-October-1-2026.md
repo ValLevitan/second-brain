@@ -1238,37 +1238,7 @@ WEBVTT
 <v Genadi Peari>[Personal passage removed — owner ruling 2026-09-28: the JVL brain holds JVL matters only. Original kept in the source vault.]</v>
 
 00:35:14.215 --> 00:35:16.215
-<v Genadi Peari>Она не могла неделю.</v>
-
-00:35:17.135 --> 00:35:18.335
-<v Genadi Peari>Хотела новый купить?</v>
-
-00:35:19.055 --> 00:35:23.375
-<v Genadi Peari>Я говорю, нам мне дали на работе этот, как его клод.</v>
-
-00:35:23.875 --> 00:35:23.955
-<v Val Levitan>Да.</v>
-
-00:35:24.135 --> 00:35:24.895
-<v Genadi Peari>Да я.</v>
-
-00:35:25.535 --> 00:35:34.495
-<v Genadi Peari>Пару минут я его подключил к компьютеру, говорю, ты можешь посмотреть у него взяла примерно секунд, наверное 30.</v>
-
-00:35:36.335 --> 00:35:41.815
-<v Genadi Peari>500 он говорит, я тебе всё вычистил, пойди туда нажми на такуюто кнопку.</v>
-
-00:35:43.355 --> 00:35:43.835
-<v Genadi Peari>И всё.</v>
-
-00:35:47.325 --> 00:35:51.745
-<v Genadi Peari>Ангелео, потому что все эти чаджи 5 все эти чтото там советовали.</v>
-
-00:35:53.625 --> 00:35:54.745
-<v Genadi Peari>Аурсон ауэрс.</v>
-
-00:35:55.455 --> 00:35:56.415
-<v Genadi Peari>Чистили всё.</v>
+<v Genadi Peari>[Personal passage removed — owner ruling 2026-09-28: the JVL brain holds JVL matters only. Original kept in the source vault.]</v>
 
 00:36:00.685 --> 00:36:06.085
 <v Genadi Peari>Бал, у меня есть с вами вопросы насчет flexporta чтоб мы говорили я.</v>

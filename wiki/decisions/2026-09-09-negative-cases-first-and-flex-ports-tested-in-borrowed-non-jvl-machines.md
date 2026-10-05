@@ -3,9 +3,9 @@ type: decision
 title: Testing starts September 15 with the negative cases first, and Flex-Ports must be proved in borrowed non-JVL machines — fake-commissioned, tracked as a separate Jira item from JVL-machine testing
 date: 2026-09-09
 aliases: [negative cases first, door open, borrow a machine fake commission it, Aristocrat and Light and Wonder, at least one or two machines, two separate records, two different router manufacturers, no Chinese manufacturer, stay away from Cisco, ten port router, storm through the test, bracket drawings to Genadi]
-source-count: 9
+source-count: 11
 status: active
-open-commitments: 6
+open-commitments: 5
 open-questions: 2
 ---
 
@@ -110,7 +110,7 @@ At the [[wiki/meetings/2026-09-29-transactional-mvp1-setup-instructions-and-mikr
 
 - [x] [[wiki/people/ivan.md|Ivan]] — put his set-up instruction into Confluence as separate pages, and try to attach the SAS tool zip there with the link in the instruction — due about Sept 30 2026 (Klimovich: "если у нас завтра всё готово") — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]] — **discharged Sept 30 2026:** the instruction sits in Confluence beside Khamin's ("рядом… лежала инструкция вани"); its pictures broke ("превью [unavailable]") and he restored them by the end of the call; the emulator he had posted goes as an archive in a comment at the foot of the page ("Араровский архив… в комментарии… внизу" — read as the SAS tool, **inference**) — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [x] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — tell Ivan where his old Flex-Port flashing instruction is, and update it to the current state in the same style, in Confluence — due unspecified ("займусь параллельно") — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]] — **discharged Sept 30 2026:** "Алексей сегодня добавил, прислал ссылку" — the updated Flex-Port instruction is in Confluence — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
-- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — once the instructions are in Confluence, send them to Elizabeth so she builds the full set-up in Georgia — due after the instructions land — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]] — *Sept 30 2026: all three are in or due in Confluence today; "завтра… Элизабет может начать"* — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
+- [x] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — once the instructions are in Confluence, send them to Elizabeth so she builds the full set-up in Georgia — due after the instructions land — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]] — *Sept 30 2026: all three are in or due in Confluence today; "завтра… Элизабет может начать"* — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]] — **discharged Oct 1 2026:** "я вчера отписался в тимсе с Элизабет. Как бы задачу она получила, она может начинать действовать" — the task reached her on Sept 30; she has not yet answered (see the Oct-1 update) — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 
 ## Update, Sept 30 2026 — all three instructions are in Confluence, and Elizabeth starts the Georgia set-up tomorrow with a shared chat behind her
 
@@ -123,6 +123,12 @@ At the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-m
 
 **Against the rule above.** The Sept-25/29 order holds: Elizabeth's full set-up on JVL's own machine first, other makers' machines after. The Sept-15 start never happened and no date for borrowed machines is given; Felipe's Sept-9 machine commitment is again not mentioned. The derived notes read the day the same way [[raw/Meeting_Notes_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]].
 
+## Update, Oct 1 2026 — Elizabeth has the task and has not answered; Klimovich pings her for a date
+
+At the [[wiki/meetings/2026-10-01-transactional-mvp1-status-slice-and-sas-command-logging.md|Oct-1 8:02 AM MVP 1 call]] (Russian) [[wiki/people/andrei-klimovich.md|Klimovich]]: "вот этот тестовый запуск я вчера отписался в тимсе с Элизабет. Как бы задачу она получила, она может начинать действовать. Она вчера никак не прокомментировала. Это я сегодня её снова попингую там, чтобы хотя бы от неё получить дату, когда она готова взяться за это… мы уже всё на руках у нас есть чтобы. Проверить всю сборку хотя бы с нашей машиной." His closing list: "Тестовую сборку в [Джорджии] проверить нужна Элизабет." [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
+
+**Against the rule above.** The "tomorrow" of Sept 30 did not happen; the Georgia set-up now waits on a date from [[wiki/people/elizabeth.md|Elizabeth]]. Other makers' machines are not mentioned. The derived notes read it the same way [[raw/Meeting_Notes_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]. The ping commitment sits on [[wiki/decisions/2026-09-30-elizabeths-georgia-set-up-questions-go-to-a-shared-teams-chat-not-one-person.md]].
+
 ## Sources
 - [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 - [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
@@ -133,3 +139,5 @@ At the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-m
 - [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]

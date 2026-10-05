@@ -3,9 +3,9 @@ type: decision
 title: Elizabeth's questions during the Georgia test set-up go to a shared Teams chat with the Flex-Port, Flex IQ and machine owners in it — not to one contact person
 date: 2026-09-30
 aliases: [shared chat for Elizabeth, общий чат, chat for Elizabeth's questions, one contact person rejected, кто знает тот и ответит, Elizabeth writes in the evening, Элизабет ещё пишет вечером, Khamin Pavel Chudinov Irina in the chat, Georgia set-up support chat, 2 Андрея]
-source-count: 2
+source-count: 3
 status: active
-open-commitments: 2
+open-commitments: 3
 open-questions: 0
 ---
 
@@ -35,11 +35,13 @@ Klimovich: "Тогда что нужен общий чат, правильно?"
 
 ## Open commitments
 
-- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — create the Teams chat for Elizabeth's Georgia set-up questions with Khamin, Pavel, Chudinov and Irina in it (he proposed it and said "я это сделаю"; that the words refer to the chat is an inference) — due before Elizabeth starts (Oct 1 2026) — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
-- [ ] [[wiki/people/elizabeth.md|Elizabeth]] (as stated by Klimovich; she was not present) — start the test set-up in Georgia from the three instructions — due from Oct 1 2026 ("завтра") — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — create the Teams chat for Elizabeth's Georgia set-up questions with Khamin, Pavel, Chudinov and Irina in it (he proposed it and said "я это сделаю"; that the words refer to the chat is an inference) — due before Elizabeth starts (Oct 1 2026) — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]] — *Oct 1 2026: "я вчера отписался в тимсе с Элизабет. Как бы задачу она получила" — he wrote to her in Teams; whether that is the shared chat with the four members is not said* — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
+- [ ] [[wiki/people/elizabeth.md|Elizabeth]] (as stated by Klimovich; she was not present) — start the test set-up in Georgia from the three instructions — due from Oct 1 2026 ("завтра") — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]] — *Oct 1 2026: not started — "Она вчера никак не прокомментировала. Это я сегодня её снова попингую там, чтобы хотя бы от неё получить дату, когда она готова взяться за это"; the due date is now hers to give* — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — ping Elizabeth again and get a date from her for the Georgia test set-up — due Oct 1 2026 ("сегодня") — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 
 **§15.8:** clear — support process only. **§15 #9:** none.
 
 ## Sources
 - [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]

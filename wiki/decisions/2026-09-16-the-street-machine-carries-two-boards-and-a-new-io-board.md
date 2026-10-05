@@ -3,7 +3,7 @@ type: decision
 title: The street machine carries two electronic boards — a new I/O board and a button/counter board — and the existing all-in-one board is scrapped
 date: 2026-09-16
 aliases: [two electronic boards, 2 борта электронных, ibort и батон борт, new I/O board street machine, button counter board, USB hub 2 SAS printer port bill acceptor, ID003 and ccTalk, pulse is not used in gaming, ай борт, батон борт, четыре канала сериал портов, street machine electronics spec, amplifier dropped use the TV's own, cell modem and WiFi mandatory, no electromechanical counters]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 2
 open-questions: 3
@@ -70,6 +70,10 @@ The compute board was named twice and **not** re-decided. Val: the machine "**с
 
 Facts stated about the *current* I/O board, for the record: it is **four-layer** (Pavel: "**судя по всему, четырехслойная**"; Genadi confirmed "**Она четырехслойная**"); **Genadi laid it out himself** — "**как коннектора расставили? Это я делал[,] как компоненты[,] какие — это тоже я**"; and its processor is old — "**там уже процессор уже такой древний**", "**даже уже не 7 поколение**", "**15 лет ему**" (Pavel guessed "**6[-е?] 4[-е] поколение что ли?**" — the generation is not established). Genadi's conclusion: "**те умрут в любом случае[;] надо делать [I/O board]**" [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]].
 
+## Oct 1 2026 — the street board is now derived from a redesigned existing IO board, not a clean sheet
+
+On the [[wiki/meetings/2026-10-01-genadi-io-board-chips-flat-bom-pilot-and-street-cabinet-panel.md|Oct 1 4:59 PM call]] (Russian) Genadi restated the plan at Val's request: first two FRAM chips come off the current IO board ($12 a board), then the existing IO board is redesigned to about half its cost (new memory type, a modern USB controller in place of one "который уже тяжело купить"), and "на базе этого переделанного айо борта [мы] легко делаем [adjustment] для борта на стрит машину" — adding the interfaces the Rockchip lacks: a USB hub, "порты для принтера, [card dispenser]", light support. **Evolution of this page's "под этот проект… чистый лист":** the street board becomes a derivative of the production board. The Oct-1 list names a card-dispenser port where this page has a bill-acceptor port; not reconciled on tape. Ruling and commitments: [[wiki/decisions/2026-10-01-two-fram-chips-come-off-the-current-io-board-and-the-street-machine-board-grows-out-of-a-redesigned-io-board.md]] [[raw/Meeting_Transcript_IO_Board_Memory_Chip_Removal_and_Redesign-October-1-2026.md]].
+
 ## Open commitments
 
 - [ ] Genadi Peari — design the new I/O board to this specification (USB hub, 2 SAS, printer port, bill-acceptor port with ID003 + ccTalk, lighting support, front-mounted connections), plus the separate button/counter board — due unspecified — [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
@@ -87,3 +91,4 @@ Facts stated about the *current* I/O board, for the record: it is **four-layer**
 
 - [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
 - [[raw/Meeting_Notes_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
+- [[raw/Meeting_Transcript_IO_Board_Memory_Chip_Removal_and_Redesign-October-1-2026.md]]

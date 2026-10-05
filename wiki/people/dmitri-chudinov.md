@@ -4,8 +4,8 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 74
-open-commitments: 39
+source-count: 76
+open-commitments: 41
 open-questions: 0
 ---
 
@@ -475,7 +475,7 @@ At the [[wiki/meetings/2026-09-29-daily-standup-firmware-reissue-and-modem-gatew
 
 ## Open commitments (Sept 29 2026)
 
-- [ ] Dmitri Chudinov — finish capability 152 on the test stands, roll it out and check it on a real device; then capability 176 — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]] — *Sept 30 2026: "Завершается кэп 152… нашлись коекакие проблемы"; 175 in work; 176 not mentioned* — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- [x] Dmitri Chudinov — finish capability 152 on the test stands, roll it out and check it on a real device; then capability 176 — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]] — *Sept 30 2026: "Завершается кэп 152… нашлись коекакие проблемы"; 175 in work; 176 not mentioned* — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]] — **discharged Oct 1 2026 (152):** "за вчера закрыл [capability] 152… собрал с утра этот новый [билд] накатил на терминал, который у лёши"; 176 still not mentioned — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 
 ## Sept 29 2026 (8:06 AM) — no Flex IQ instruction exists, Elizabeth sees the Updates tab, "always the latest build", and the switch that hid his devices
 
@@ -497,8 +497,8 @@ At the [[wiki/meetings/2026-09-30-daily-standup-flexport-firmware-delivery-and-n
 
 ## Open commitments (Sept 30 2026)
 
-- [ ] Dmitri Chudinov — start the capability 241 protocol on the Flex IQ side (connected / disconnected, out-of-service reasons, SAS logs without pings) — due started Sept 30 2026 — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
-- [ ] Dmitri Chudinov (with Pavel Frolov) — continue the Flex-Port firmware-delivery discussion: delivery method first, then trigger and feedback — due Oct 1 2026 — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- [ ] Dmitri Chudinov — start the capability 241 protocol on the Flex IQ side (connected / disconnected, out-of-service reasons, SAS logs without pings) — due started Sept 30 2026 — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]] — *Oct 1 2026: not yet started — "возьму, наверное, в работу [capability] 241… как сделаю тогда тебе маякнул"* — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [ ] Dmitri Chudinov (with Pavel Frolov) — continue the Flex-Port firmware-delivery discussion: delivery method first, then trigger and feedback — due Oct 1 2026 — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]] — *Oct 1 2026: not taken up; the morning's exchange with Pavel was the SAS-mode flag* — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 - [x] Dmitri Chudinov — raise the sounds topic at the later meeting that day — due Sept 30 2026 — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]] — **discharged Sept 30 2026 (8:03 AM):** Pavel raised it for him — "дима тут вскрыл… [у]пустили важный [capability]. Звуковое сопровождение" — and it went to MVP 2 — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 
 ## Sept 30 2026 (8:03 AM) — the old firmware document stays, he takes the Flex IQ install instruction, and the chat
@@ -512,9 +512,37 @@ On the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-m
 
 ## Open commitments (Sept 30 2026, 8:03 AM)
 
-- [ ] Dmitri Chudinov — finish the Flex IQ SD-card install instruction in Confluence (reusing Klimovich's terminal pictures; where each piece comes from) and send the link — due Sept 30 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
+- [ ] Dmitri Chudinov — finish the Flex IQ SD-card install instruction in Confluence (reusing Klimovich's terminal pictures; where each piece comes from) and send the link — due Sept 30 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]] — *Oct 1 2026: not mentioned at either call* — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
+
+## Oct 1 2026 — 152 closed and on Khamin's terminal, 175, 241 "наверное", the SAS-mode flag he will add, "whose support number", and the feature-status argument
+
+At the [[wiki/meetings/2026-10-01-daily-standup-sas-mode-flag-and-feature-status-rules.md|Oct-1 Minsk stand-up]] (Russian; label "Dzmitry Chudzinau") [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]:
+
+- **Status.** "за вчера закрыл [capability] 152 это по активациям карт. Там ещё часть экранов поправилась. Я сейчас собрал с утра этот новый [билд] накатил на терминал, который у лёши"; "Заканчиваю 175 это там где рекорды. Она была сделана частично… Все сущности типа [анклин]" (unclaimed — inference) "…Потом в процессе залетай то, что не сделали"; "возьму, наверное, в работу [capability] 241… Информации о машине, подключенной к порту. И пробросам… команд [логов], как сделаю тогда тебе маякнул". See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 1, 4:48 AM).
+- **The SAS-mode flag.** "Ни сас это что?… А кто это решает?… зашибись Паша ну блин я на сервере думаю уже всё закончил"; "Это надо в ту задачу в [capability], где про пинкоды, чтоб это пошел как отдельный такой этот флаг"; "этот флаг еще на лету надо переключать… деньги потеряны"; "А мы точно… в [MVP] один будем в 2 режимах выходить… у нас в требованиях нет ничего про 2 режим, а мы начинаем набрасывать… на конец релиза"; "Не так я флаг сделаю. Вопрос… что будет на порте?"; "либо я, либо Сергей там будет задача с пинкодами. Когда регистрируются терминал, чтобы одни параметры шёл пинкод 2 параметром шёл вот этот режим"; "для 2 придумаем, что то более нормальное"; to Tsymanov: "на сетапе, где вкладка всех подключенных, чтоб у каждого была тумблер переключения". See [[wiki/decisions/2026-10-01-sas-or-no-sas-is-set-per-flex-port-on-the-flex-iq-set-up-screen-and-sent-at-registration-with-the-pin-code.md]].
+- **The support number.** "у нас на [терминале] это заглушки, они сервера никуда не идут. У нас на сервере нет никаких режимов прописать какието номера. Экранов никто не не писал и не обсуждал"; "это наш суппорт… Я не саппорт лакейшена… Это как на экране хелп саппорт терминала… у нас проблемы с терминалом, это наш саппорт". Pavel forwarded the location's contact phone anyway. See the FlexPay topic page (Oct 1, 4:48 AM).
+- **Feature statuses.** "Мы говорили, что разработчик делает комплект, но не делает клоуз"; "кюя вообще не проверяют фичики проверяют, капубилити"; "Вы не можете проверить фичу?… потому что нету интерфейсов… сделаю фичу на вест кластере, ну ты туда даже не подлезешь"; "всё было в голос, сказали клоус. Нельзя надо комплитат я все… перевёл в комплитор. Сейчас уже оказывается реквест"; "как вы будете решать, под какой фичей проблема?… [под capability] может быть там… 10 фич". See [[wiki/decisions/2026-10-01-completed-is-the-developers-last-step-and-a-found-problem-sends-the-feature-from-completed-back-to-to-do-as-a-story.md]].
+
+## Open commitments (Oct 1 2026)
+
+- [ ] Dmitri Chudinov (or Sergey Tsymanov) — add the SAS / no-SAS mode flag to the PIN-code capability: a per-port toggle on the Flex IQ set-up screen, sent as the second registration parameter after the PIN code — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+
+## Oct 1 2026 (8:02 AM) — the gaps document for the mailing list, "mock-ups first, then requirements", terminal 84, one SIM for a big family, and "by Sunday or Monday"
+
+On the [[wiki/meetings/2026-10-01-transactional-mvp1-status-slice-and-sas-command-logging.md|Oct-1 8:02 AM MVP 1 call]] (Russian; label "Dzmitry Chudzinau") [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]:
+
+- **The gaps document.** "я обещал сделать документы по… противоречиям там или уточнениям, или то, что мы там с [Клодом] решили, что не хватает… [тилты] либо там негативные кейсы… я набрал блок документов… в течение часа 2 отправлю" — to the transactional distribution list, which "в глаза не попадалась". "мы с Сергеем взяли в приоритет работу начала [мукапы], потом требования… требования достаточно таки абстрактные"; Klimovich should update the requirements. See [[wiki/decisions/2026-09-10-requirements-come-first-and-the-recycler-is-out-of-both-mvps.md]] and [[wiki/decisions/2026-09-24-written-records-go-by-email-and-chats-are-for-instant-matters.md]] (Oct-1 updates).
+- **Terminal 84 and the SIM.** "я сегодня накатывал на 84 терминал свежее [билд]… ты можешь прям на 84 проверить" (Bosik's merged firewall change); "может мы както подымем себе тему и заведём ещё симки, а то живём с большой семьёй на одну." See [[wiki/decisions/2026-09-17-the-device-does-the-routers-job-firewall-nat-and-wan-lan-profiles-stay-in-mvp1.md]] and [[wiki/decisions/2026-09-04-north-america-modem-variant-and-ask-kore-for-the-apn.md]] (Oct-1 updates).
+- **What is left.** "Репринты… простейшей реализации… рекорд заканчивается, и мы ж решили добавить [capability] получение. Сас команд с машин. Наших чужих, чтобы мы видели, что машины присылают… проверить на реальном [железе]"; "мы получим вообще всё, что машина присылает… мы будем логировать все эти команды"; "с учётом рабочего выходных… до конца до воскресенья до понедельника всё это добьём". The due dates of Oct 22–23 "там авто тесты… разработка с тестами смешанная". See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 1, 8:02 AM).
+
+## Open commitments (Oct 1 2026, 8:02 AM)
+
+- [ ] Dmitri Chudinov — review and send the gaps document (contradictions, clarifications, missing tilts and negative cases on the capabilities he closed) as a new email to the transactional distribution list — due Oct 1 2026 ("в течение часа 2") — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
+- [ ] Dmitri Chudinov — finish reprint, records and the SAS-command logging (checked on real hardware) so the Flex IQ and port-client development is done by Sunday Oct 4 or Monday Oct 5 2026 — due Oct 5 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]

@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, truth as code, knowledge work framework, keep Jira current, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, Copilot Studio, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest, LaTeX, printer tool, Ollama, llama.cpp, local inference, Code Llama, Hugging Face, Claude Code, AI sandwich, developer experience, think like a data scientist, sub-agents, verbose output, compiler layer, ways vs skills, ADR, cross-examination, Python Vulture, intelligence center, Waze system, ways framework, compiler stack diagram, module federation, Aaron ways system, Ways ADR, Ways capabilities catalog, regulatory provenance chain, JVL Ways pipeline, ways branch architecture, trusted stage users, clean environment lesson, engagement auditor agent, translation service, terminology override table, GitHub Enterprise fork, JVL GitHub Ways architecture guide, Capability Ticket, Jira hierarchy restructure, engineering guides, architecture black hole, Piratka, prose standard, code to prose, capability extraction, 29 capabilities, AI flattery caution, agent setup, prose initialization skill, prose skill, dependency-tree mapping, prose pending folder, contracts written by Claude, development pipeline end to end, clean-session evaluation, naming by Claude]
-source-count: 170
+source-count: 172
 ---
 
 # AI-assisted development adoption
@@ -1002,7 +1002,21 @@ At the [[wiki/meetings/2026-09-29-ai-pm-architecture-and-second-brain-plan.md|Se
 
 **§15.8:** Val's personal remarks to Bosik are not recorded.
 
+## Oct 1 2026 (5:02 PM) — "no C-level layer under me; AI executives instead", and "Khamin and Vanya write the autotests from acceptance criteria, and Claude tests them"
+
+On the [[wiki/meetings/2026-10-01-genadi-io-board-chips-flat-bom-pilot-and-street-cabinet-panel.md|Oct 1 5:02 PM call]] (Russian) Val gave [[wiki/people/genadi-peari.md|Genadi]] the reasoning behind the AI-built BOM "configurator" ([[wiki/decisions/2026-10-01-only-the-finished-bom-goes-into-msbc-the-configurator-is-ai-logic-outside-it-no-hybrid-and-the-pilot-is-the-flex-pay-slim.md]]) [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]:
+
+- **The staffing argument.** "я не хочу расти в количестве людей… найти хороших людей всегда было тяжело. Сейчас ничего не поменялось… мы работаем в разных местах. Тяжело собрать всех до кучи." Even if that changed, he would not want "класс… C класс" — a C-level layer — because it "удаляет меня [от] того места, где я должен быть… я как бы под собой должен создать какую-то бюрократию, которая совсем для ведения кампании не полезна." The replacement: "у меня сейчас хорошо работает [AI-CFO]. Я начал… давая работу [air CO — the notes read AI COO]. Мы практически закончили архитектуру под AI проджект менеджер" (see [[wiki/projects/ai-project-manager-and-company-second-brain.md]], Oct 1).
+- **AI reasons from categories and commit reasons.** "Если ты объясняешь, что такое money девайс, то AI шикарно разбирается в этом… AI разберется быстрее и более эффективно, чем любой [human]." And on a commit's stated reason: "он на пожизненно это запомнил."
+- **The autotest proof.** To Genadi's "У меня нету даже идей": "у вас есть идея, как можно, например, написать автотест из [acceptance criteria]?… Год тому назад… 2… это было просто на уровне фантастики. Но сегодня Алексей Хамин и Ваня наш пишут эти тесты. И [Claude] тестируют." *(= [[wiki/people/alexei-khamin.md|Alexei Khamin]] and [[wiki/people/ivan.md|Ivan]], by the autotest context — inference for "Ваня"; the work itself is on [[wiki/topics/test-automation-strategy.md]], Sept 29 – Oct 1.)* Genadi: "снимаю шляпу, как вы этот клод и вообще всё вот это изменили."
+- **Errors are expected and trained out.** "Может ли он сделать ошибки? Конечно, особенно на ранних стадиях. Но чем больше с ним работаешь, и тем больше ты ему даешь данных, тем более гарантированно, что ошибок будет… намного меньше, чем человек сделать. Притом с ним можно говорить на разных языках." The same "teach it, correct it, then let it run the logic" pattern as Sept 29 above.
+- **Genadi's own Claude use.** He said he had been given Claude at work ("мне дали на работе этот… клод") — the example he gave belongs to a personal passage and is not recorded.
+
+**§15.8:** Val's sharper remarks at Genadi on this call are held; personal matters not recorded. **§15 #9:** none.
+
 ## Sources
+- [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
+- [[raw/Meeting_Notes_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
 - [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Clayton_Chancey_Initial_AI_Consulting_Engagement-January-23-2026.md]]
 

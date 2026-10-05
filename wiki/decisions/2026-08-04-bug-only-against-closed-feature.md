@@ -3,7 +3,7 @@ type: decision
 title: A bug only exists against a closed (released) feature; never reopen a closed capability
 date: 2026-08-04
 aliases: [bug definition closed feature, never reopen a closed capability, released-product issue flow, bug documentation standard]
-source-count: 2
+source-count: 3
 status: active
 ---
 
@@ -28,8 +28,11 @@ On the [[wiki/meetings/2026-08-04-bug-documentation-standard.md|Aug 4 2026 bug-d
 
 **Follow-through (Aug 11 2026):** the concrete mechanism for this flow — a new **"Capability Amendment"** item that holds the bugs and drives the fix-branch cycle — was agreed and published on [[wiki/decisions/2026-08-11-capability-amendment-post-release-bug.md]].
 
+**Follow-through (Oct 1 2026):** the in-development half of the rule got its Jira transition at the [[wiki/meetings/2026-10-01-daily-standup-sas-mode-flag-and-feature-status-rules.md|Oct-1 Minsk stand-up]] — [[wiki/people/irina-shishko.md|Irina]]: "Пока ты разрабатываешь нет бага ты просто чтото не доработал. Поэтому стори"; the feature goes from Completed back to To Do, which [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] adds; nothing Closed is reopened. See [[wiki/decisions/2026-10-01-completed-is-the-developers-last-step-and-a-found-problem-sends-the-feature-from-completed-back-to-to-do-as-a-story.md]] [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]].
+
 Related process context on [[wiki/topics/github-release-management-pipeline.md]].
 
 ## Sources
 - [[raw/Meeting_Notes_Bug_Documentation_Standard-August-4-2026.md]]
 - [[raw/Meeting_Transcript_Bug_Documentation_Standard-August-4-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]

@@ -3,7 +3,7 @@ type: decision
 title: The device has to do the router's job — firewall, NAT and WAN/LAN profiles stay in MVP 1, and the traffic bill is the argument that settles it
 date: 2026-09-17
 aliases: [requirement 1556, device network security, firewall on the device, NAT, WAN LAN profiles, public private profile, advanced firewall, DDoS protection, ping from the internet, bots pinging the device, CloudFront hides our IPs, dynamic IPs, мы платим за мегабайты, хороший счет за трафик, no router in front of the device, Claude writes the firewall, branch and pull request]
-source-count: 2
+source-count: 4
 status: active
 open-commitments: 1
 open-questions: 1
@@ -58,13 +58,20 @@ Bosik does not want to write it by hand and does not want to own the operating s
 - Bosik — at minimum a code review that asserts the change actually closes the holes: "**хотя бы сделать проверку кода и сказать, что да, этот код действительно закрывает нас от уязвимостей**".
 - Chudinov — the honest version of the test: "**Для честного теста я бы сделал тот, который с изменениями и без[:] сможет он всё-таки сломать или нет**" — run the attack against a build with the changes and one without, and compare.
 
+## Update, Oct 1 2026 — the firewall change is pushed and merged; it is in the fresh build on terminal 84; testing waits for the one SIM, and Claude will run the test cases
+
+At the [[wiki/meetings/2026-10-01-transactional-mvp1-status-slice-and-sas-command-logging.md|Oct-1 8:02 AM MVP 1 call]] (Russian) [[wiki/people/andrey-bosik.md|Bosik]]: "я вчера там запушил [изменения] для. [Фаервола], чтобы внешняя сеть отрезать от доступа к нашему этому терминалу. Вот и у меня вопрос я не знаю, как это протестить" — he needs a SIM in a terminal; "Я помоему уже смержил… Вчера." [[wiki/people/dmitri-chudinov.md|Chudinov]]: "я сегодня накатывал на 84 терминал свежее [билд] там это должно быть так что ты можешь прям на 84 проверить." The SIM is with Ivan for a modem test, not today ([[wiki/decisions/2026-09-04-north-america-modem-variant-and-ask-kore-for-the-apn.md]], Oct-1 update). On the method: "либо ктото из опять же тестировщиков может взять [реквайрменты] и натравить [Клода], чтобы он поделал тесты"; then "я подожду ванино [SIM] я потом запущу [Клод] и он протестирует все, что мы там [тест-кейсы], который придумали с ним и всё." Pavel: the test traffic "должен быть копеечный" [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]].
+
+So the Sept-17 open question gets a working answer, not a ruling: test cases drawn up with Claude, run by Claude on terminal 84 over a SIM. Whether the change breaks the operating system is not mentioned. The derived notes read it the same way [[raw/Meeting_Notes_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]].
+
 ## Open commitments
 
-- [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — get the firewall / NAT / WAN-LAN-profile work written by Claude into Pavel Frolov's repository as a branch and a pull request (requirement 1556, MVP 1) — due with MVP 1; no date set — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [x] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — get the firewall / NAT / WAN-LAN-profile work written by Claude into Pavel Frolov's repository as a branch and a pull request (requirement 1556, MVP 1) — due with MVP 1; no date set — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]] — **discharged Oct 1 2026:** "я вчера там запушил [изменения] для. [Фаервола]… Я помоему уже смержил… Вчера" — pushed and merged on Sept 30; whether NAT and the WAN/LAN profiles are in that change is not said — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
+- [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — once Ivan's SIM is free, run the firewall test cases with Claude on terminal 84 — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 
 ## Open questions
 
-- **How the firewall change gets tested without breaking the operating system.** Pavel said outright he does not know how; the ideas floated (have Claude attack it; a code review asserting the fix; comparing a build with and without the change) were discussed and none was chosen or assigned — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- **How the firewall change gets tested without breaking the operating system.** Pavel said outright he does not know how; the ideas floated (have Claude attack it; a code review asserting the fix; comparing a build with and without the change) were discussed and none was chosen or assigned — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]] — *Oct 1 2026: a working answer — Claude runs the test cases on terminal 84 over a SIM (see the Oct-1 update); the operating-system worry is not addressed* — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 
 **§15.9 — checked explicitly, because this is a security session.** No credential, key, certificate, token, APN, SIM identifier, IP address or port number was spoken anywhere in this material. The whole discussion stays at the level of *categories* — firewall, NAT, WAN/LAN profile, ping, DDoS — and the one address-related statement is that JVL's cloud addresses are numerous and dynamic and sit behind CloudFront, with no value given. Nothing required routing to the Corporate Registry, and nothing was redacted.
 
@@ -74,3 +81,5 @@ Bosik does not want to write it by hand and does not want to own the operating s
 
 - [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]

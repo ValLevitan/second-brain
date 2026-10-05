@@ -2,8 +2,9 @@
 type: person
 title: Lev Rudky
 date: 2024-01-01
-aliases: [Lev Rudky, Lev, Lev Rudki, Лёва Рудки]
-source-count: 16
+aliases: [Lev Rudky, Lev, Lev Rudki, Лёва Рудки, Лёва, лева]
+source-count: 19
+open-commitments: 1
 ---
 
 # Lev Rudky
@@ -54,7 +55,29 @@ On the [[wiki/meetings/2026-09-30-github-to-msbc-bom-flat-list-bridge.md|Sept-30
 
 Val released him and Nathan before the end ("I'm just burning their hours"). Recorded on [[wiki/decisions/2026-09-30-a-new-part-number-is-assigned-by-claude-from-the-standard-in-github-and-pushed-to-msbc-once.md]] and [[wiki/topics/business-central-erp-implementation.md]] (Sept 30). **§15.8:** clear.
 
+## Oct 1 2026 — one block of the July count data was never posted to BC; he isolates the missed items and posts the adjustments
+
+**Named first, in absentia.** On the [[wiki/meetings/2026-10-01-mikhail-perelman-po-cut-to-100-units-and-stock-count.md|3:44 PM call]], [[wiki/people/mikhail-perelman.md|Mikhail Perelman]] said his orders rest on a file Lev made from Business Central after the physical count — "1 августа он его сделал там 29 июля, и я его получил" — and that it was Lev who worked with the counter on the figures: "это делалось там лево с ней делал. Она выдавала цифры." ("лёва"/"лево"/"лёгко" = Lev, by the BC-file context — §4 inference) [[raw/Meeting_Transcript_Mikhail_Perelman_PO_Cut_to_100_Units_and_Stock_Count-October-1-2026.md]].
+
+**Then on his own call**, the [[wiki/meetings/2026-10-01-lev-rudky-missed-inventory-adjustments.md|3:54 PM call]] (Russian; Val and Lev only) [[raw/Meeting_Transcript_Lev_Rudky_Missed_Inventory_Adjustments-October-1-2026.md]]:
+
+- **The cause.** Val read out a line showing 233 units in stock as of Aug 1, after Elizabeth's physical count. Lev: "это моя вина здесь… когда заливал данные, я думаю, один блок данных пропустил." The count had shown less than the system, and that difference was never posted. Why: "Несколько сетов данных я смотрел… И один из таких… я не забил" — several data sets during the inventory; one not entered.
+- **Why time does not cure it.** "если там чтото продали это не проблема… дефицит остаётся всё равно как он был ошибка остаётся" — an item that showed 100 too many still shows 100 too many after sales, purchases and builds.
+- **His method.** Isolate the items in the missed block; check which of them were counted again on their own since the July inventory ("С момента инвентаризации в июле"); leave those alone, because they are already right ("Такую позицию я трогать не могу, потому что она уже правильная"); post adjustments for all the rest. Finish today: "сейчас я должен это закончить сегодня." Mikhail knows a file is coming: "миша знает, что я ему пришлю файл."
+- **Val's alternative, and why Lev set it aside.** Val: take the recounted figure as of Aug 1, subtract sales since, compare. Lev: that misses items already corrected by a later recount.
+- **Other items.** Val asked whether other shortages carry the same missed adjustment; Lev: "Вот я прохожу, сейчас я должен это закончить сегодня" — not answerable during the call.
+
+Full record on [[wiki/topics/business-central-erp-implementation.md]] (Oct 1 2026). The derived notes agree on the cause, the method and the one undertaking [[raw/Meeting_Notes_Lev_Rudky_Missed_Inventory_Adjustments-October-1-2026.md]]. **§15.8:** recorded as the cause of a data gap and its fix only; Val's remarks on how it could have been missed, and a remark of his about a staffing consequence, are withheld.
+
+## Open commitments (Oct 1 2026)
+
+- [ ] Lev Rudky — find every item in the missed block of July count data, post the missing inventory adjustments in Business Central (skipping items recounted since July), and send Mikhail the file — due Oct 1 2026 ("закончить сегодня") — [[raw/Meeting_Transcript_Lev_Rudky_Missed_Inventory_Adjustments-October-1-2026.md]]
+
 ## Sources
+
+- [[raw/Meeting_Transcript_Lev_Rudky_Missed_Inventory_Adjustments-October-1-2026.md]]
+- [[raw/Meeting_Notes_Lev_Rudky_Missed_Inventory_Adjustments-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Mikhail_Perelman_PO_Cut_to_100_Units_and_Stock_Count-October-1-2026.md]]
 
 - [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Lev_Rudky_BC_progress_payments_payment_terms-1-April-15-2026.md]]

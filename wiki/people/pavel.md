@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 195
+source-count: 197
 open-commitments: 96
 open-questions: 0
 ---
@@ -1048,7 +1048,7 @@ At the [[wiki/meetings/2026-09-30-daily-standup-flexport-firmware-delivery-and-n
 
 ## Open commitments (Sept 30 2026, 4:57 AM)
 
-- [ ] Pavel Frolov (with Dmitri Chudinov) — continue the Flex-Port firmware-delivery discussion: the delivery method first, then who triggers and how the ports report back — due Oct 1 2026 ("поговорим завтра") — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- [ ] Pavel Frolov (with Dmitri Chudinov) — continue the Flex-Port firmware-delivery discussion: the delivery method first, then who triggers and how the ports report back — due Oct 1 2026 ("поговорим завтра") — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]] — *Oct 1 2026: not taken up at the stand-up; the exchange with Chudinov that morning was the SAS-mode flag instead* — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 
 ## Sept 30 2026 (8:03 AM) — the chat members, bare boards as a second Flex IQ, "MVP 2 is exclusively FlexPay", the modem supply, and Val's thirty
 
@@ -1063,7 +1063,31 @@ On the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-m
 
 **§15.8:** clear. **§15 #9:** none.
 
+## Oct 1 2026 (4:48 AM) — the SAS-mode flag goes on the Flex IQ set-up screen, "Completed is the developer's last step", the printer-library rule, "one emulator instance per device", and the firmware-delivery design left where it was
+
+At the [[wiki/meetings/2026-10-01-daily-standup-sas-mode-flag-and-feature-status-rules.md|Oct-1 Minsk stand-up]] (Russian), which he ran [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]:
+
+- **The SAS-mode flag.** "надо портам говорить, в каком режиме они сейчас работают. Сас или не сас?… Не сас этого как было раньше эмуляция билаксептора." First "на серверной стороне", then — after Chudinov's "я на сервере… уже всё закончил" — "можем пока что это на сервер не выносить можем оставить на вот этом вот окошке, где подключенные девайсы… выбрать напротив девайса… какой режим"; "порт должен этот флаг ловить, если у него в данный момент нет транзакции… он просто переключается"; "один режим называется sas AFT а 2 называется no… sas"; to Tsymanov: "это именно девайс относится к флекспорту… пока что оставляем на киоске. На MVP там 2 или 3… на сервере… тумблер тогда добавить"; "эта задача на 5 минут". See [[wiki/decisions/2026-10-01-sas-or-no-sas-is-set-per-flex-port-on-the-flex-iq-set-up-screen-and-sent-at-registration-with-the-pin-code.md]]. Wi-Fi: by default if found — "это MVP 2".
+- **The printer library.** "если добавляешь новый темплейт в принтер… библиотеку, то перестаёт работать всё, если там ошибка"; the change was Vladimir's "Для 950, да для эпика". To Biratka, whose FlexPay tasks are ending: "самая главная задача будет. Разобраться со всеми открытыми [capabilities] и как то их позакрывать, если они сделаны." The support phone on the e-wallet ticket: "по мне так [contact phone] то, как раз и есть этот сервисный номер… Как по мне, так это контакт" — "Да", forward it. See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 1, 4:48 AM).
+- **The emulator.** "у нас не стоит задач полностью соответствовать. Работе реальных устройств"; "лучше сделать всё пока что в в единичном экземпляре. В пользу Того, чтобы быстрее этот [эмулятор] пошёл в работу"; Seregin's next priority: have Khamin, Vladimir or Irina bring his environment up elsewhere. See [[wiki/decisions/2026-09-07-virtual-test-system-tries-full-arm-emulation-first.md]] (Oct-1 update).
+- **Daniil.** A separate story for the dock panel and icons if it is really a second sub-task; the converter question goes to "Игорю" (not resolved) and to a trial on a different game package. See [[wiki/topics/nova-platform-architecture.md]] (Oct 1).
+- **Feature statuses.** First: "у нас есть статус реквест… комплекта станет только после Того, когда отработает автотест"; then "правило… мы не можем переоткрывать клост [фичи] но если комплитэт процесс разработки ещё идёт, мы ничего не зарелизили… почему не вернуть её в работу с новой [стори]"; and the ruling: "давайте так и сделаем. Ну пусть будут комплиты тогда всётаки типа финальной степ для разработчика, но если там чтото находится" — Irina: from Completed to To Do. See [[wiki/decisions/2026-10-01-completed-is-the-developers-last-step-and-a-found-problem-sends-the-feature-from-completed-back-to-to-do-as-a-story.md]].
+- **Firmware delivery.** The Sept-30 "поговорим завтра" was not taken up; see the annotated commitment above.
+
+## Oct 1 2026 (8:02 AM) — the Jira slice on screen, "примерно выглядит так" for Monday, the one SIM with Ivan, and KORE's "no problem"
+
+On the [[wiki/meetings/2026-10-01-transactional-mvp1-status-slice-and-sas-command-logging.md|Oct-1 8:02 AM MVP 1 call]] (Russian) [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]:
+
+- **The slice.** "сейчас я шарю экран… мвпи один начинается отсюда 122… верхнее [capabilities] они все в… реквест ревью. Это значит, что разработчики закрыли. Все фичи. И остались только задачи по тестированию и по написанию автотестов"; open from 165 to 174, "Сейчас дочищу"; MVP 1 only in that view. Klimovich's "к понедельнику" — "Ну примерно выглядит так." See [[wiki/decisions/2026-09-28-october-15-replaces-october-1-as-the-mvp1-date.md]] (Oct-1 update).
+- **SAS-command logging.** His reading of Chudinov's capability: "чтобы мы собрали статистику работы сас и какие команды поддерживаются на чужих машинах? Знать, какие из них нам нужны для имплементации, какие не нужны." See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 1, 8:02 AM).
+- **The SIM.** "Симку можно у Ивана будет забрать… не сегодня"; "Симка сейчас у Ивана тестируется. Как работает [gom в 3] с модемом"; "Я тебе могу дать свою симку… ненадолго, а то чтоб там большой трафик не уходил"; "трафик, он должен быть копеечный, за исключением кейсов, когда идёт обновление прошивок". On KORE: he had raised more SIMs for Minsk — "Да" — and asked "С ними же договор только на работу в штате Джорджия правильно или?" (Klimovich: all US states). See [[wiki/decisions/2026-09-04-north-america-modem-variant-and-ask-kore-for-the-apn.md]] (Oct-1 update).
+- **Val and the syncs.** "у него в любом случае… Он добавлен в те митинги" — Val is on the team's own syncs.
+
+**§15.8:** clear. **§15 #9:** none.
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]]

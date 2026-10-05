@@ -3,7 +3,7 @@ type: decision
 title: Engineers never change anything in MSBC and administration never changes anything in GitHub — a "non-penetrable border", crossed only by a tool that carries flat revisions one way
 date: 2026-09-30
 aliases: [non-penetrable border, engineering territory and administrative territory, engineers are never allowed to change anything in MSBC, the administrator is never allowed to change anything in GitHub, under the key and lock, the transcriber, a tool that looks after the revisions all the time, hourly or by minute, supplier data lives in MSBC, engineering files live in GitHub, clear separation between engineering and administration]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 0
 open-questions: 1
@@ -39,6 +39,10 @@ The derived notes record it as "Engineering data lives in GitHub; supplier and f
 - **Evolution of Aug 12 and Sept 24**, not a contradiction: Aug 12 agreed "GitHub is the source of design truth" with a sync robot into BC ([[wiki/topics/github-release-management-pipeline.md]], Aug 12); Sept 24 read out "Data flows one way only. GitHub to Business Central. Nothing flows back." Sept 30 adds the people rule — who may edit which system — and names the crossing tool. Genadi accepted the engineering half on all three dates; the BOM half stays contested [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]].
 - It also narrows the June-25 2026 "Business Central is the single source of truth" governance rule on [[wiki/topics/business-central-erp-implementation.md]] for design data, as Aug 12 and Sept 23–24 already did (inference).
 
+## Oct 1 2026 — prices and quotations stay out of GitHub; revisions and datasheets go in
+
+On the [[wiki/meetings/2026-10-01-genadi-io-board-chips-flat-bom-pilot-and-street-cabinet-panel.md|Oct 1 5:02 PM call]] (Russian) Genadi proposed putting, beside every bought item in GitHub, "как мы общаемся… что записывается с вендерами, cotation какие-то spex". Val: "в гетхабе это не нужно." Genadi: "Но вы сказали общение с вендором, ревизии, даташиты — не цены." So the border holds in practice: vendor revisions and datasheets with the engineering files; quotations and prices on the MSBC side. The same call restated "Туда [в MSBC] нужно загнать только готовый [bill of material]" — see [[wiki/decisions/2026-10-01-only-the-finished-bom-goes-into-msbc-the-configurator-is-ai-logic-outside-it-no-hybrid-and-the-pilot-is-the-flex-pay-slim.md]] [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]].
+
 ## Open questions
 
 - What exactly is the "transcriber" — a GitHub Action on merge or tag (the Aug-12 design), a scheduled job ("hourly… by minute"), or something Nathan designs after his experiments? Not settled — [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]
@@ -48,3 +52,4 @@ The derived notes record it as "Engineering data lives in GitHub; supplier and f
 ## Sources
 - [[raw/Meeting_Notes_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]

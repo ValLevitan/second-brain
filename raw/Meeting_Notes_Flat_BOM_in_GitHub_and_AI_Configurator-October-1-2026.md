@@ -25,7 +25,7 @@ Teams meeting organized by Val. Held in Russian. Continues the Sep 30 BOM discus
 
 **No hybrid.** Genadi said a hybrid (MSBC builds the multi-level BOM, the rest elsewhere) seems realistic, and asked why MSBC cannot be the source of truth for quantities. Val said no: he wants an AI agent to watch the BOM, production, orders and shortages itself. Sources of truth are the flat BOM in GitHub, facts such as lead time and MOQ, the physical count, and the forecast. MSBC as a BOM tool is a poor form of what is possible today. Genadi suggested a quick module in GitHub to replace BOM building in MSBC.
 
-The segment ended with side talk (Grok's new finance features; Claude fixing Genadi's wife's phone). Genadi then asked to discuss the Flexport layout for the street machine before giving a picture to Igor. Val said he was ready now (see Segment 3).
+The segment ended with side talk (Grok's new finance features; [Personal passage removed — owner ruling 2026-09-28: the JVL brain holds JVL matters only. Original kept in the source vault.]). Genadi then asked to discuss the Flexport layout for the street machine before giving a picture to Igor. Val said he was ready now (see Segment 3).
 
 ## Decisions Made
 

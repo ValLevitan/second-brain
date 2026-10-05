@@ -3,9 +3,9 @@ type: topic
 title: NOVA platform architecture (JVL land-based gaming platform)
 date: 2026-05-12
 aliases: [NOVA, NOVA platform, NOVA gaming platform, land-based platform, land-based gaming platform, services architecture, library-to-service decomposition, Chief Architect NOVA, Unix-socket services, per-service repositories, packaged games, AMQP CMS protocol, capabilities from prose, prose standard, LGS prose, repo to Jira linkage, module contracts, NOVA integration repository, knowledge repository]
-source-count: 63
-open-commitments: 47
-open-questions: 26
+source-count: 65
+open-commitments: 48
+open-questions: 27
 disambiguation: "NOVA is the named successor of the 'Omni' land-based platform code-word — do not conflate NOVA (this on-cabinet services platform) with the Omni game-templating / Rage→Omni content transition tracked on [[wiki/topics/omni-core-advancement-and-game-templating.md]]."
 ---
 
@@ -530,6 +530,23 @@ At the [[wiki/meetings/2026-09-29-daily-standup-firmware-reissue-and-modem-gatew
 
 At the [[wiki/meetings/2026-09-30-daily-standup-flexport-firmware-delivery-and-network-loss.md|Sept-30 Minsk stand-up]] (Russian) Daniil Stauskiy (no page): "Вчера закончился фичами… 1384 85. Сегодня продолжаю работать с [capability] 228 взял обработку новую [фичу]… 1486. Занимаюсь сейчас конвертом [селект] скрина и иконок игр [в NOVA]" (prefixes garbled; the derived notes read features 1384, 1385 and 1486 under capability 228 [[raw/Meeting_Notes_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]). Pavel: "если тебе помощь надо… можешь к Игорю обращаться или к саше биратко" — "Игорь" is **not resolved** between the Igors (the same unresolved "Игорь" with a game-select screen of Sept 28); Sasha = [[wiki/people/alexander-biratka.md|Biratka]] [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]. This continues the Sept-28/29 select-screen thread above; whether the Dragon Rain access was opened is still not said.
 
+## Oct 1 2026 — Daniil has converted feature 1386 to NOVA; the dock panel and icons may be a story of their own; the select-screen converter is a question for "Игорь"
+
+At the [[wiki/meetings/2026-10-01-daily-standup-sas-mode-flag-and-feature-status-rules.md|Oct-1 Minsk stand-up]] (Russian) Daniil Stauskiy (no page): "Продолжаю работать, [с фичей] 1386. В целом я уже всё конвертировал в [NOVA]" (the feature's prefix is garbled, as on Sept 29–30; the derived notes give no number) [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]. Two questions:
+
+- **Scope.** "Эта задача подразумевает то, что я вставляю уже как бы экраны наши [док] панели иконки игр, либо это будет какаято отдельная задача". [[wiki/people/pavel.md|Pavel]]: "Можно сюда можно в рамках этой фичи создавать там отдельную историю. Если хочешь выделить лучше создать. Если у нас действительно выделяются 2 Как бы подзадачи."
+- **Whether to commit the converter.** The repository "который конвертирует из [Rage]"; "я делал конвертер иконок и конвертер экрана выбора, если там новую игру добавят конвертер иконок… нормально отработают, потому что… по общей структуре. Но вот селекскрин ну чтото я сомневаюсь" — a future package's select screen will differ too much; "есть ли смысл [коммитить] сами изменения в конвертере". Pavel: "давай этот вопрос попробуем задать Игорю, когда он будет" ("Игорь" — **not resolved** between the Igors; the same unresolved "Игорь" of Sept 28 and Sept 30), and meanwhile "взять какойнибудь другой пакет игр, где [селект] скрин сильно отличается от Того, что сейчас. Посмотреть, подходит ли этот конвертер для него. Если нет, то в чём доработки должны быть". Daniil: "Окей."
+
+The Sept-29 stub-names commitment above is not mentioned on Oct 1 and stays as it is.
+
+### Open commitments (Oct 1 2026)
+
+- [ ] Daniil Stauskiy (no page) — ask "Игорь" (unresolved) whether the select-screen converter is worth committing, and try the converter on another game package whose select screen differs strongly — due when Igor is available — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+
+### Open questions (Oct 1 2026)
+
+- Is the Rage-to-NOVA select-screen converter general enough to keep, or does each game package need its own? Daniil doubts it; not decided — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+
 ## Sept 29 2026 (10:06 AM) — two development environments, one skeleton: the RK3568 SDK's state, the dependency on Pavel, the AMD spike, and the RK3576 branch
 
 At the [[wiki/meetings/2026-09-29-dev-environments-rk3568-sdk-amd-spike-and-ai-pm-direction-check.md|Sept-29 "Dev_environments" call]] (Russian; [[wiki/people/val-levitan.md|Val]], [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/irina-shishko.md|Irina Shishko]]) the platform's build environments were looked at as one problem. The rulings are on [[wiki/decisions/2026-09-29-the-amd-environment-is-rebuilt-from-the-rk3568-sdk-pavels-ten-day-spike-and-the-rk3576-waits.md]]; this is the platform picture [[raw/Meeting_Transcript_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]] [[raw/Meeting_Transcript_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]].
@@ -609,3 +626,5 @@ The derived notes read the same way [[raw/Meeting_Notes_Dev_Environments_RK3568_
 - [[raw/Meeting_Notes_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]
 - [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]

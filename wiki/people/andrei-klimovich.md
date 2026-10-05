@@ -4,8 +4,8 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich, Andre]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 100
-open-commitments: 101
+source-count: 101
+open-commitments: 105
 open-questions: 0
 ---
 
@@ -771,12 +771,30 @@ On the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-m
 ## Open commitments (Sept 30 2026, 8:03 AM)
 
 - [ ] Andrei Klimovich — move the Flex-Port folder up to the same level as FlexPay and Flex IQ in Confluence, and post in the team chat where everything now lies — due Sept 30 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
-- [ ] Andrei Klimovich — create the Teams chat for Elizabeth's Georgia set-up questions (Khamin, Pavel, Chudinov, Irina) — due before Oct 1 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
+- [ ] Andrei Klimovich — create the Teams chat for Elizabeth's Georgia set-up questions (Khamin, Pavel, Chudinov, Irina) — due before Oct 1 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]] — *Oct 1 2026: "я вчера отписался в тимсе с Элизабет" — he wrote to her in Teams; whether that is the four-member chat is not said; the folder move, the spare-parts email and the MVP 2 scope items were not mentioned* — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [ ] Andrei Klimovich — start the email to Genadi Peari and Val to update the Minsk spare-parts set (including the monitor-or-panel question), with Pavel and Irina copied — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [ ] Andrei Klimovich — put Flex IQ sound feedback and the FlexPay slim LED language into the MVP 2 scope — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 
+## Oct 1 2026 (8:02 AM) — the October-1 slice, the SAS-command question, Elizabeth pinged for a date, the KORE SIM request picked up, away until October 13 and no sync Tuesday to Thursday
+
+On the [[wiki/meetings/2026-10-01-transactional-mvp1-status-slice-and-sas-command-logging.md|Oct-1 8:02 AM MVP 1 call]] (Russian), which he chaired [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]:
+
+- **The slice.** "Сегодня, 1 октября, я думаю, что мы можем сделать срез. Того, где мы находимся, с [MVP] один. С разработкой с тестированием." He feared the board mixed MVP 1 and MVP 2 (it did not); asked about the due dates "22 октября 23" (the autotests); and on the SAS-command logging — "Правильно ли я понимаю, что нам не все команды нужны для MVP один?" — took Chudinov's and Pavel's answer: "Понял, хорошо." Close: "по [IQ] и по портовому клиентам всё будет готово по разработке… к понедельнику… спасибо за [бред]" (garbled). See [[wiki/decisions/2026-09-28-october-15-replaces-october-1-as-the-mvp1-date.md]] (Oct-1 update).
+- **The gaps document.** It goes as a new email to the distribution list "которую Андрей создавал… транзакн" (Bosik, by context); "я свой клод прогонял на расхождение между [мокапами] и требованиями… но наверняка там не всё удалось отловить". See [[wiki/decisions/2026-09-10-requirements-come-first-and-the-recycler-is-out-of-both-mvps.md]] (Oct-1 update).
+- **SIMs.** "Павел, ты инициировал вопрос кору о том, чтобы они выслали нам в Минск дополнительную партию симок, и они сказали no problem. Ну дальше дальше конкретика не пошла"; "Договор на USA на все Штаты там ограничения нету по Штатам. Если иностранные государства хороший вопрос"; "Давай я подхвачу эту беседу… запрос на симки в Минск, давайте я подниму". See [[wiki/decisions/2026-09-04-north-america-modem-variant-and-ask-kore-for-the-apn.md]] (Oct-1 update).
+- **Elizabeth.** "я вчера отписался в тимсе с Элизабет. Как бы задачу она получила… Она вчера никак не прокомментировала. Это я сегодня её снова попингую… чтобы хотя бы от неё получить дату". See [[wiki/decisions/2026-09-30-elizabeths-georgia-set-up-questions-go-to-a-shared-teams-chat-not-one-person.md]] (Oct-1 update).
+- **Away.** "до своего возвращения до 13 октября реально не смогу ничего толком писать. И Более того, на следующей неделе со вторника по четверг исключительно я даже на дейликах не смогу быть"; Biratka's MVP 2 method is "оптимальный подход" — [[wiki/decisions/2026-10-01-mvp2-capabilities-biratka-ports-flex-iqs-to-flexpay-and-writes-no-new-ones-until-klimovich-defines-the-flows.md]]. The MVP syncs: "Если эти [дейлики] сейчас нужны только мне… то нет"; "вопрос к валу… может ли он присутствовать на ваших синках" (he is); "как минимум вторник тире четверг я не буду создавать митинг в понедельник встретимся и завтра встретимся, а там видно будет". *(Recorded as a working-schedule fact; where he is and why is not recorded.)*
+
+## Open commitments (Oct 1 2026, 8:02 AM)
+
+- [ ] Andrei Klimovich — ping Elizabeth again and get a date from her for the Georgia test set-up — due Oct 1 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
+- [ ] Andrei Klimovich — pick up the stalled request to KORE for an extra batch of SIM cards for Minsk — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
+- [ ] Andrei Klimovich — read Chudinov's gaps document and update the requirements where the mock-ups and requirements diverge — due after Oct 13 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
+- [ ] Andrei Klimovich — think through the MVP 2 user and administrator flows so new capabilities can be written — due after Oct 13 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
 

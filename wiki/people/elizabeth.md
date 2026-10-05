@@ -3,7 +3,7 @@ type: person
 title: Elizabeth
 date: 2025-04-28
 aliases: [Elizabeth, Elizabeth Palomino, Элизабет]
-source-count: 24
+source-count: 27
 open-commitments: 4
 disambiguation: "JVL engineering technician (full engineer by degree) handling Georgia service/parts; ex-Colombian-operation technician; Spanish-speaking. Surname Palomino (per the Jun-11-2026 passport/dsKey source). Distinct from Eliana, the Colombian EDS principal (wiki/people/eliana.md)."
 ---
@@ -107,11 +107,25 @@ On the [[wiki/meetings/2026-09-30-github-to-msbc-bom-flat-list-bridge.md|Sept-30
 
 ## Open commitments (Sept 30 2026, in absentia)
 
-- [ ] Elizabeth (as stated by Klimovich) — start the test set-up in Georgia from the three instructions — due from Oct 1 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
+- [ ] Elizabeth (as stated by Klimovich) — start the test set-up in Georgia from the three instructions — due from Oct 1 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]] — *Oct 1 2026: not started — she had the task in Teams since Sept 30 and "никак не прокомментировала"; Klimovich pings her for a date* — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
+
+## Oct 1 2026 (in absentia) — she has the Georgia task in Teams and has not answered; Klimovich asks her for a date
+
+On the [[wiki/meetings/2026-10-01-transactional-mvp1-status-slice-and-sas-command-logging.md|Oct-1 8:02 AM MVP 1 call]] (Russian; she was not present) [[wiki/people/andrei-klimovich.md|Klimovich]]: "вот этот тестовый запуск я вчера отписался в тимсе с Элизабет. Как бы задачу она получила, она может начинать действовать. Она вчера никак не прокомментировала. Это я сегодня её снова попингую там, чтобы хотя бы от неё получить дату, когда она готова взяться за это… мы уже всё на руках у нас есть чтобы. Проверить всю сборку хотя бы с нашей машиной." His closing list: "Тестовую сборку в [Джорджии] проверить нужна Элизабет." See [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] and [[wiki/decisions/2026-09-30-elizabeths-georgia-set-up-questions-go-to-a-shared-teams-chat-not-one-person.md]] (Oct-1 updates) [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]. *(Recorded as a task-status fact; nothing about her is inferred from the silence — §15.8.)*
+
+## Oct 1 2026 (afternoon, in absentia) — the July physical count was hers; she rechecked one line and corrected BC to 29
+
+- On the [[wiki/meetings/2026-10-01-lev-rudky-missed-inventory-adjustments.md|3:54 PM call with Lev Rudky]] Val named her as the counter: "На 1 августа… после физического пересчёта Элизабет. То есть на физически пошла и пересчитала." Lev's explanation — one block of her count data never posted to BC — is on [[wiki/topics/business-central-erp-implementation.md]] (Oct 1 2026) [[raw/Meeting_Transcript_Lev_Rudky_Missed_Inventory_Adjustments-October-1-2026.md]].
+- On the [[wiki/meetings/2026-10-01-mikhail-perelman-po-cut-to-100-units-and-stock-count.md|3:44 PM call with Mikhail Perelman]] the counter is only "она": at Mikhail's request she rechecked the line that read 233 ("Она пошла проверять, сказала, что нет нигде, ничего нет") and "уже внесла изменения в BC, там 29 штук числятся". Read as Elizabeth by the Lev call's naming — **inference** [[raw/Meeting_Transcript_Mikhail_Perelman_PO_Cut_to_100_Units_and_Stock_Count-October-1-2026.md]].
+
+**§15.8:** the count and the correction are recorded as facts about the data; Val's remark on whether the counter could have erred is withheld.
 
 ## Sources
 
+- [[raw/Meeting_Transcript_Lev_Rudky_Missed_Inventory_Adjustments-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Mikhail_Perelman_PO_Cut_to_100_Units_and_Stock_Count-October-1-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]]

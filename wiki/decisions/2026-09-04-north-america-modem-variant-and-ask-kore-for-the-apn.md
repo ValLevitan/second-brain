@@ -3,10 +3,10 @@ type: decision
 title: The Georgia LTE modem failure is treated as a source-and-firmware mismatch — buy the North-America variant and, in parallel, ask KORE for the recommended modems and the APN
 date: 2026-09-04
 aliases: [7455 modem, firmware-update USB stick, 5G module, LTE hard to buy, modem firmware mismatch, North America modem variant, KORE APN, ask KORE which modems, AliExpress modem Minsk, $16 Amazon modem, two antennas on the module, antenna in an opening]
-source-count: 8
+source-count: 10
 status: active
-open-commitments: 9
-open-questions: 4
+open-commitments: 10
+open-questions: 5
 ---
 
 # The Georgia modem failure is a source-and-firmware mismatch — buy the North-America variant, and ask KORE for the APN
@@ -85,6 +85,25 @@ This continues the Sept-24 line that LTE is hard to buy and Genadi researches th
 
 - Which modem model goes forward, and will a device carry one or two? Nobody knows; Genadi is with the suppliers; Bosik's code targets the one model Pavel named — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 
+## Update, Oct 1 2026 — one SIM for the whole Minsk team; KORE said "no problem" to more and nothing followed; the contract covers every US state; Klimovich picks it up
+
+At the [[wiki/meetings/2026-10-01-transactional-mvp1-status-slice-and-sas-command-logging.md|Oct-1 8:02 AM MVP 1 call]] (Russian) the SIM, not the modem, was the shortage [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]:
+
+- **One SIM.** [[wiki/people/andrey-bosik.md|Bosik]] needs a SIM in a terminal to test his firewall change; [[wiki/people/pavel.md|Pavel]]: "Симка сейчас у Ивана… тестируется. Как работает [gom в 3] с модемом" — not today. [[wiki/people/dmitri-chudinov.md|Chudinov]]: "может мы както подымем себе тему и заведём ещё симки, а то живём с большой семьёй на одну."
+- **The KORE request.** [[wiki/people/andrei-klimovich.md|Klimovich]]: "Павел, ты инициировал вопрос кору о том, чтобы они выслали нам в Минск дополнительную партию симок, и они сказали no problem. Ну дальше дальше конкретика не пошла." Pavel: "Да… с с нашей стороны мы должны запросить там, пришлите нам или что?" Klimovich: "Давай я подхвачу эту беседу… запрос на симки в Минск, давайте я подниму." Bosik: his own unanswered email on it "не актуально" — Klimovich will not chase it.
+- **Where the SIMs may be used.** Pavel: "С ними же договор только на работу в штате Джорджия правильно или?" Klimovich: "**Договор на USA на все Штаты там ограничения нету по Штатам. Если иностранные государства хороший вопрос.**" Bosik: ideally test with a KORE SIM ("коровскую"), "а здесь коровская симка или здесь нашего местного" — whether Minsk's SIM is KORE's or a local one is not answered.
+- **Traffic.** Pavel offered his own modem's SIM "ненадолго, а то чтоб там большой трафик не уходил на неё"; "трафик, он должен быть копеечный, за исключением кейсов, когда идёт обновление прошивок." Bosik will wait for Ivan's.
+
+("кору" / "коровская" is read as KORE — the derived notes read it the same way [[raw/Meeting_Notes_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]. Val's Sept-4 commitment to email KORE on modems and the APN is a different thread and was not mentioned.)
+
+### Open commitments (Oct 1 2026)
+
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — pick up the request to KORE for an extra batch of SIM cards for Minsk, which stalled after KORE's "no problem" — due unspecified ("подниму") — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
+
+### Open questions (Oct 1 2026)
+
+- Can KORE SIMs be used outside the United States (in Minsk)? The contract covers all US states; abroad is "хороший вопрос" — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
+
 ## Open commitments (Sept 14 2026)
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — order modems from KORE now: two samples, M.2 and mini-PCIe — due as soon as possible; nothing deploys until the modem works — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
@@ -119,3 +138,5 @@ Val's own undertaking from this call — to check his message history for when h
 - [[raw/Meeting_Notes_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
