@@ -1,7 +1,7 @@
 ---
 type: overview
 title: Second Brain — Overview
-updated: 2026-10-05
+updated: 2026-10-14
 ---
 
 # Overview — state of the wiki
@@ -10,26 +10,25 @@ A short, plain-language snapshot for the owner. Refreshed at each lint pass.
 
 ## What's in here now
 
-The wiki holds **1,495 content pages** built from **1,521 raw source files** — the complete backlog (2025-01-01 through mid-2026) plus weekly steady-state intake, now current **through Monday October 5 2026** (the 4:54 AM Minsk stand-up of that morning). Everything traces to a source with an inline citation. The 2026-10-05 run (batches 253–257) absorbed **33 recordings = 24 meeting events** from Sept 28 to Oct 5: the Sept 28–30 investor / joint-venture arc with Larry Sharon and his partners and the Alan Litwack calls, the Minsk stand-ups and the daily Transactional MVP 1 calls, the "Design_AI-PM" meetings about an AI project manager and a company second brain, the GitHub → Business Central bill-of-materials thread with Genadi, Nathan and Lev, and the Oct-1 purchase-order / inventory calls. September 2026 is closed with a month-close manifest; October is open.
+The wiki holds **1,590 content pages** built from **1,582 raw source files** — the complete backlog (2025-01-01 through mid-2026) plus weekly steady-state intake, now current **through Wednesday October 14 2026** (the 4:47 AM Minsk stand-up of that morning). Everything traces to a source with an inline citation. The 2026-10-14 run (batches 258–262) absorbed **30 recordings = 30 meeting events** from Oct 2 to Oct 14, plus the first monthly **South Dakota VLT performance story** (September 2026) under the Oct-7 scope exception: the daily Minsk stand-ups and Transactional MVP 1 calls, the RIS MVP 1 / MVP 2 planning, the Rage-to-NOVA game conversions (Dragon Pays accepted, Dutch Mill next), the AI project manager going live in Jira on Oct 12, the GitHub↔MSBC bill-of-materials thread with Genadi and Nathan, Larry Sharon's rental pricing, and a busy Oct 13 of outside meetings — Intralot, InComm, ARC Gaming and Bank of America.
 
-By kind (lint pass, 2026-10-05):
-- **People — 141.** Val, the Minsk engineering team, commercial/field, corporate officers, contractors, and external operators/counterparties (new this run: Larry Sharon — surname from recording labels only, never spoken). The six owner-ruled same-name clusters plus the provisional ones all carry a shared `disambiguation:` block, **mechanically checked** this pass.
-- **Organizations — 59.**
+By kind (lint pass, 2026-10-14):
+- **People — 146** (new this run: Bill Avgeris and Christos Tzoumaras of Intralot — surnames from the notes only; Chris Boncek of the Georgia Lottery — provisional; Byron Booth of ARC). Two new provisional same-name clusters ("Bill", "Chris") carry a shared `disambiguation:` block; all clusters **mechanically checked** this pass.
+- **Organizations — 61** (new: **Intralot**, at last its own page; Fontana Amusement).
 - **Topics & Concepts — 59**, grouped in the index under 6 sub-headings.
-- **Projects — 12** (new this run: the investor-funded transactional-equipment "depreciation deal", and the AI project manager / company second brain).
-- **Decisions — 296**, grouped in the index under 5 sub-headings (27 new this run).
-- **Meetings — 928.** Thin stubs, grouped by month, complete through **Oct 5 2026**; a new `### October 2026` heading was opened.
-- **Open items (frontmatter totals):** 1,966 open commitments and 949 open questions across all pages (7 lines quarantined as `blocked-on-*`). The rollup lists below this block are the historical early-batch rollup; the live per-page lists are authoritative.
+- **Projects — 12.** South Dakota VLT now carries a monthly performance section and timeline.
+- **Decisions — 354**, grouped in the index under 5 sub-headings (58 new this run).
+- **Meetings — 958.** Thin stubs, grouped by month, complete through **Oct 14 2026**.
+- **Open items (frontmatter totals):** 2,223 open commitments and 1,054 open questions across all pages (7 lines quarantined as `blocked-on-*`). The rollup lists below this block are the historical early-batch rollup; the live per-page lists are authoritative.
 
 ## Health
 
-- **Run of 2026-10-05 (batches 253–257):** every batch passed the ≥9/10 gate. **250 facts checked across 5 batches — 250/250 held**, 183 of them against Russian source strings. One paraphrased alias (not a fact) was removed. Regression drift-guard: 12 numeric facts re-checked from 2025 pages — **12/12 hold** (two needed the source read: a "11 85" garble, and a notes-vs-transcript cite).
-- **Structure (this pass):** index=disk bijection **exact (1,495 = 1,495 = 1,495)**, zero duplicate catalog lines, index "(N sources)" tails match every page, zero dangling links in content pages, artifact-tag scan clean, every raw cited by its page is in that page's Sources list, **0 orphans**. Every raw file is either cited by a page (1,492) or ledgered in `skipped.md` (5 §12-skipped twins) — nothing staged and forgotten. The seven pages whose `source-count` exceeds their raw-link count do so by design (they also count Corporate-Registry / Constitution documents).
-- **Same-name clusters:** all owner-ruled clusters (Dima 3, Zhenya 3, Anton 3, Igor 5, Andrei 3, Misha 2) and all provisional ones (Alexander 3, Patel 3, Joe 2, Irina 2, Pavel 2, Salim 2, Kyle 2) **pass the mechanical shared-block diff — 1 distinct block each.**
-- **GitHub is behind — one owner action needed.** The 28 September privacy cleanup rewrote the local history (personal passages purged) but that rewrite was never pushed; the remote still holds the old history. A lease-guarded force push is the only correct remedy (a plain pull-and-push would put the personal passages back into GitHub's history). The scheduled run's permission policy declined the force push, so **all of this run's commits are local only** until the owner runs it once. Nothing is lost.
-- **Privacy:** at staging the run cut 5 passing family remarks from 5 new raws; the writers found 10 more (a counterparty's new baby, a partner's house and lease, an adviser's divorce, Val's health wish, an engineer's family phone story) — all replaced by the marker line before commit. §15 #9 identifier scan clean on all 66 new files.
-- **Open contradictions are held open, not resolved** (32 pages carry an `## Open contradictions` section). New this run: is there a printer in the street machine at all (Val's Sept-25 "deeper so the printer fits" vs Genadi's Oct-1 "принтера не будут никогда стоять"). Still open: the Passport switch-off vs "a great feature"; single-SAS share; the video deck on the basic street machine; Texas net win; Clayton's build time; Nebraska first-install date; the 2011-680 balance.
-- **The standing data-quality finding** stands: the derived notes keep altering their source (this run: notes splitting one call into "two meetings", a notes-only "booked for 12:00 PM", vendor names "Quectel / Sierra Wireless" read into garbles). The transcript remains the fact.
+- **Run of 2026-10-14 (batches 258–262):** every batch passed the ≥9/10 gate. **138 facts checked across 5 batches — 138/138 held** (26 + 24 + 29 + 23 + 36), 73 of them against Russian source strings. Regression drift-guard: 10 numeric facts re-checked from 2025 pages — **10/10 hold**.
+- **Structure (this pass):** index=disk bijection **exact (1,590 = 1,590 = 1,590)**, zero duplicate catalog lines, index "(N sources)" tails match every page, zero dangling links in content pages, artifact-tag scan clean, every raw cited by a page is in that page's Sources list, **0 orphans** (the new Oct-2 ball-recycling decision is reached only from its own meeting stub — no topic page fits it yet). Every raw file is either cited by a page or ledgered in `skipped.md` — nothing staged and forgotten.
+- **Same-name clusters:** all owner-ruled clusters and all provisional ones (now incl. "Bill" and "Chris") **pass the mechanical shared-block diff — 1 distinct shared block each** (Kyle and Mauricio pages add page-specific text after an identical block).
+- **Privacy:** at staging the run cut family, travel and health small talk from 6 new raws (outside guests at the ARC and Intralot lunches, a banker's illness, a candidate's family); a writer then flagged one more (Val's own age/health remark at Intralot), cut the same way. §15 #9 identifier scan clean on all 61 new files. *Lint finding (owner):* an older page (sean-fellows) quotes a speaker's age ("I'm 63") inside a years-in-business note — under the Sept-28 ruling ages are personal; suggest trimming.
+- **Open contradictions are held open, not resolved** (34 pages carry an `## Open contradictions` section). New this run: SAS logs to Grafana by default or not (Oct 2 vs Oct 5); a printer and acceptor in the low-cost street machine (Sept 25 vs Val to Intralot Oct 13); Primero's up-front Class A fee ($1,000 / $1,150–1,250 / $1,500); Kyle Shepherd's yes-then-no.
+- **The standing data-quality finding** stands: the derived notes keep altering their source (this run: "RAID" for Rage, "Peach 1+2" where Felipe corrected it, VP8 vs VP9). The transcript remains the fact.
 
 
 ### Audit #3 (batch 30, 2026-07-15) — SOUND-WITH-FIXES
@@ -103,6 +102,22 @@ Rolled up from every page at each lint pass. Each traces to a raw source.
 ### LIVE OPEN (count: ~27; #29 fully closed 2026-09-01) — refreshed lint 14 (2026-07-20, batch 93 / November close; +Ian Myers batch 150; +Kamin batch 157; +Dima-Kovalchuk-backend batch 158; +hardware-Andrei #19 & Chris-vs-Cris #20 batch 224; +prose-"Andrei" #25, Gamora #26, MSBC #27, Aug-21 split #28 batch 229; +first-NOVA-release-reopened #29 batch 230)
 
 *This is the single authoritative list of genuinely-open owner items. Recurring items live here ONCE, updated in place — NOT re-appended per batch. The per-batch subsections further below are the append-only journal, not the live set.*
+
+**ADDED by the 2026-10-14 run (batches 258–262) — for the owner's ruling.** *(Tier A first; details and sources on each named page.)*
+
+*Dates and decisions — please rule:*
+- A11. **Which MVP 1 moved to about Nov 8–9?** On Oct 14 Pavel extended "MVP 1" to about Nov 8 or 9 with the MVP 2-marked tasks inside it. The wiki reads this as the **RIS** MVP 1 (it came in Kharetski's RIS turn; Felipe's Oct-12 plan put a release at about Nov 9–10) and kept the **transactional** Oct-15 date active. If it was the transactional MVP 1, that decision should be superseded instead. Related: the RIS team waits for you on "lab now, or release together with MVP 2". — [[wiki/decisions/2026-10-14-mvp1-is-extended-to-about-november-8-or-9-and-the-mvp2-marked-tasks-are-done-inside-it.md]]
+- A12. **Larry Sharon, Oct 7 — decided or still proposals?** No term under 3 years except a cash sale; $199 a month for 3 years plus a 5-year option, all costs included; financing on $14,000 plus interest; you and Larry fund the 100 test units together from Nov 1. Recorded as proposals (no decision page) per your Oct-5 ruling. — [[wiki/meetings/2026-10-07-larry-sharon-hardware-rental-pricing-and-november-pilot.md]]
+- A13. **Mikhail Perelman leaves from January; Mary takes over ordering** (training from Oct 19 through mid-December). Recorded as your proposal with a schedule, and "Mery" resolved to the existing Mary page (likely Mery Villavicencio) — confirm both. — [[wiki/decisions/2026-10-08-mary-takes-over-mikhail-perelmans-ordering-role-with-training-from-october-19.md]]
+- A14. **ARC: are the "65 machines before Christmas" the Oct-6 "all ARC machines in 2026" batch?** The Oct-6 decision was marked superseded on that reading. — [[wiki/decisions/2026-10-13-arc-finishes-the-current-deal-first-and-buys-at-full-price-after-the-promotion.md]]
+- A15. **Georgia: no outreach to locations.** Recorded as you said it (federal restrictions; the target is inbound calls to JVL's AI voice). An unlabelled line narrows the bar to *automated* contact, and your remark about a third party reaching locations is held (legal). Keep as recorded? — [[wiki/decisions/2026-10-05-jvl-does-not-reach-out-to-georgia-locations-and-aims-for-inbound-calls-to-its-ai-voice.md]]
+- A16. **Compliance view:** at the ARC lunch George Zazanis suggested a $500 gift card for an Intralot QA tester. Recorded neutrally as an open question only. — [[wiki/organizations/arc-gaming.md]]
+- A17. **Felipe's one-Peach-pack-or-three decision (due Oct 11) is overdue** — not settled in any source through Oct 14. — [[wiki/decisions/2026-10-05-felipe-decides-by-october-11-one-18-game-peach-pack-or-three-separate-sticks.md]]
+
+*Identities (safe defaults taken; one word settles each):*
+- C13. Intralot names come from the derived notes only: Speaker 4 = **Christos Tzoumaras**; "Bill" = **Bill Avgeris**; the Lottery "Chris" = **Chris Boncek** (provisional page). "Joe Kim is not longer around" fits John Houseal better — unresolved. — [[wiki/organizations/intralot.md]]
+- C14. Oct-2 ball-recycling talk names nobody — who, which site, which product? "Count dark" = CountR? — [[wiki/meetings/2026-10-02-manual-ball-recycling-pilot-vs-automated-changer.md]]
+- C15. "Rao and Mohammed" (a hoped-for 10-machine deal); "Shawn" who stopped answering (read as Sean Fellows); "Dima and Serge" on the RIS server side; Bank of America "Lenin / Linda Fernandez / Lennon" (with C5). Daniil Stauskiy — now in about ten stand-ups, still no page.
 
 **ADDED by the 2026-10-05 run (batches 253–257) — for the owner's ruling.** *(Tier A first; details and sources on each named page.)*
 
