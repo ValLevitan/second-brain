@@ -3,8 +3,8 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, eighty percent of the general functionality, requirements are step two, a hole automated tests will not cover, acceptance criteria in general terms, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction, Figma to React, Vite, Claude Code review loop, acceptance criteria, two test warehouses, frozen test cases, test harness, test registry, no E2E tests for MVP 1, E2E micro-step, telnet hook test, 60 to 70 percent acceptance criteria, symlink to dev null, eight connection tests, money-crediting autotest]
-source-count: 63
-open-commitments: 37
+source-count: 65
+open-commitments: 40
 open-questions: 7
 ---
 
@@ -732,7 +732,7 @@ The derived notes record the same [[raw/Meeting_Notes_Daily_Standup_Autotest_Sta
 
 ### Open commitments (Oct 5 2026, 4:54 AM)
 
-- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — finish the test rules today, spend one day on prose, then start writing the tests from Oct 7 — due Oct 7 2026 — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — finish the test rules today, spend one day on prose, then start writing the tests from Oct 7 — due Oct 7 2026 — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]] — *Oct 7 2026: rules done and prose "90 плюс"; tests not yet started — he first finishes the manual-run step (Pavel: tests first, the CI hardware runs wait) — still open* — [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
 - [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — rework the vague wallet-creation requirements (what records appear when there is no wallet) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 
 ## Oct 5 2026 (7:01 AM) — the Dragon Pays port tests: geometry first, then scenarios; mutation testing; "graphic contracts"; tests only from acceptance criteria
@@ -744,6 +744,25 @@ At the [[wiki/meetings/2026-10-05-rage-nova-port-autotests-and-horizontal-to-ver
 - **Mutation testing.** Plant known defects in code or data and check that the tests find them. Claude says it wrote the script; not yet checked.
 - **Rulings.** Val approved the approach for same-format ports; the geometry checks will be called "графические контракты" — [[wiki/decisions/2026-10-05-geometry-first-port-autotests-accepted-and-geometry-checks-named-graphic-contracts.md]].
 - **Tests only from acceptance criteria.** Val: "Тесты пишутся после Того, что сделан написан эксцептом критериев рекларамент"; Igor's "universal scripts" look to him like unwritten non-functional requirements. Evgeny: conversion tests belong to the conversion project, game scenarios to the NOVA integration repository (no structure yet). Pavel: 80–100% of the tests end there, by reference. For now everything goes into Igor's current repository — [[wiki/decisions/2026-10-05-conversion-tools-and-tests-leave-the-local-computer-now-and-claude-proposes-the-repository-layout.md]].
+
+## Oct 7 2026 (4:52 AM) — tests first; prose at 90%+; Daniil's contract check on every pull request; Irina's TIN-19 and TIN-16; Vladimir's reruns; Ivan back on South Dakota
+
+At the [[wiki/meetings/2026-10-07-daily-standup-test-coverage-first-and-ai-task-numbers.md|Oct-7 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]:
+
+- **[[wiki/people/alexei-khamin.md|Khamin]] — tests first.** Repository rules done; prose "90 плюс точно процентов"; CI at the report stage. He asked whether to start the hardware runs (by IP address) and the product-repository hookup now. Pavel: "лучше сейчас покрытие сделать тестами в первую очередь"; Irina: the team is behind on test count. He finishes the manual-run step, then writes tests — [[wiki/decisions/2026-10-07-cover-the-code-with-tests-first-and-the-ci-hardware-runs-and-product-repository-hookup-wait.md]]. Pavel also asked him to check TINT-5 and TINT-6 and keep anything useful; otherwise Pavel deletes them.
+- **[[wiki/people/anton-seregin.md|Seregin]].** Cleaned his Jira; took three repositories for prose and contracts ("Взял 3 оппозитория"), most of it done; emulator fixes in parallel. Khamin suggested the emulator fixes may matter more than prose ("проза не такая [приоритетная]"); Seregin does both in parallel, and a story from Khamin (and maybe Vladimir) is still to do.
+- **Daniil Stauskiy.** Wrote prose for "новопора" (Novaport — the notes' reading); contracts for the SDK repository "который со звуком"; rewrote the framework contracts and added a check on every pull request "на соответствие контрактам". Pavel: "я тебе дам плату… померить перформанс" — a new board to measure performance.
+- **[[wiki/people/irina-shishko.md|Irina]].** Today "тин 19, потом будет тин 16". Pavel asked everyone to name tests by number or capability, "для записи".
+- **[[wiki/people/vladimir-samusenko.md|Vladimir]].** Reruns tasks 40 and 41 on a freshly installed Flexport; logs defects if confirmed.
+- **[[wiki/people/ivan.md|Ivan]].** Puts South Dakota back on to look at yesterday's issue ("Ни бак я не знаю"), then hands South Dakota over; next priority "с батарейкой разобраться". He told Pavel to ignore Wi-Fi items in his story, as Wi-Fi is still in development.
+
+The derived notes record the same [[raw/Meeting_Notes_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]].
+
+### Open commitments (Oct 7 2026, 4:52 AM)
+
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — check TINT-5 and TINT-6 for anything useful (Pavel deletes them if not) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — give Daniil Stauskiy a new board to measure performance ("это с меня") — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
+- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — run tests TIN-19, then TIN-16 — due Oct 7 2026 — [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
 
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -810,3 +829,5 @@ At the [[wiki/meetings/2026-10-05-rage-nova-port-autotests-and-horizontal-to-ver
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]

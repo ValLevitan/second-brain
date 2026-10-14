@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 116
+source-count: 119
 open-commitments: 50
 ---
 
@@ -596,7 +596,16 @@ Discharged by this: his Sept-29 architecture-design and transcript-collection it
 
 At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-reopen-rules.md|Oct-5 Minsk stand-up]] (Russian; he was not on it) "Андрей" was named throughout the stand argument — [[wiki/people/dmitri-chudinov.md|Chudinov]]: "Надо надо открывать система вместе с Андреем и думать, как всё это будет разворачиваться"; "Я с Андреем говорил. Он был несколько против, потому что отдельный [environment] поднимать… Ктото захочет одну ветку… перепроверить, Андрей запретит на это разворачивает отдельные [environments]"; [[wiki/people/pavel.md|Pavel]]: "гдето поднять на нашем внутреннем сервере? На виртуальном Андрей же это сможет сделать, да?"; [[wiki/people/sergey-tsymanov.md|Tsymanov]]: "просто Андрею отдать, чтобы он сказал там вот наша репозитория разверни гдето на отдельной машине"; Chudinov: "отдельный митинг, и туда Андрея надо" [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]. Resolved to him **by context** (environments, deployment, what may be stood up — inference). Ruling: [[wiki/decisions/2026-10-05-the-payment-hub-autotest-stand-is-not-mvp1-and-a-separate-meeting-with-andrei-designs-it.md]]; the meeting is Pavel's commitment there.
 
+## Oct 6 2026 — the branch report
+
+At the [[wiki/meetings/2026-10-06-daily-standup-ris-georgia-branch-and-critical-error-text.md|Oct-6 Minsk stand-up]] (Russian; speaker label) [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]: Pavel asked him about a branch a report flags every day. Bosik: "ол это все, а в актив, наверное, те, которые сейчас ещё активны"; Chudinov added that "active" likely means commits in the last three or four months. Then he left the call.
+
+## Oct 7 2026 (in absentia) — the Jira Hierarchy report is his to explain
+
+At the [[wiki/meetings/2026-10-07-daily-standup-test-coverage-first-and-ai-task-numbers.md|Oct-7 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]] Irina said the Jira Hierarchy report sends her 44 regulations, assigned to no one, with "Репортер босик". Kovalchuk: "Иерархия это… Андрея спрашивать"; Pavel: "Давайте к Андрею просто подойти… Может быть Андрей, чтото знает, чего не знаем мы." Irina: "он сейчас придёт ко мне и расскажет." Earlier, Irina said Andrei had moved the TINT repository from Chudinov to Khamin (by context Bosik — **inference**). See [[wiki/decisions/2026-09-17-planning-comes-off-pavel-and-goes-to-an-application-administrator.md]] (Oct-7 update).
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Transcript_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]]
@@ -717,3 +726,5 @@ At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-r
 - [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]

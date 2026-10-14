@@ -3,7 +3,7 @@ type: decision
 title: RIS improvement MVP1 is the top Jira capabilities (CAP-252, 255, 246, 250, 254) grouped into one release, due October 19 — no non-functional requirements, no LTE modem, and the lottery lock left out
 date: 2026-10-05
 aliases: [RIS improvement MVP1, RIS improvement release MVP1, MVP1 RIS release, three capabilities in two weeks, CAP-252, CAP-255, CAP-246, CAP-250, CAP-254, release date set for 19th, no LTE modem, add four days]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 4
 open-questions: 2
@@ -56,6 +56,10 @@ On Sept 25 Val asked for one to three fixes that remove most factory-reset pain 
 
 The derived notes match the transcript here, except that they list five capabilities where Pavel spoke of "4" [[raw/Meeting_Notes_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]].
 
+## Oct 6 2026 — the work goes to Kharetski, for Georgia only
+
+At the [[wiki/meetings/2026-10-06-daily-standup-ris-georgia-branch-and-critical-error-text.md|Oct-6 Minsk stand-up]] (Russian) Pavel gave Kharetski "252 255 246. 254" first, with "258" as the build, in "2 недели даже наверное чуть меньше" [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]. CAP-250 was not named. The branch is Georgia only, on the 1.14 line, with nothing else added — see [[wiki/decisions/2026-10-06-the-ris-mvp1-changes-are-built-for-georgia-only-on-the-1-14-svn-line-with-nothing-else-added.md]]. This is the first step of carrying out this release (**evolution**, no conflict).
+
 ## Open commitments
 
 - [ ] Pavel Frolov — check whether CAP-246 is already implemented — due unspecified — [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
@@ -72,5 +76,6 @@ The derived notes match the transcript here, except that they list five capabili
 
 ## Sources
 
+- [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
 - [[raw/Meeting_Notes_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]

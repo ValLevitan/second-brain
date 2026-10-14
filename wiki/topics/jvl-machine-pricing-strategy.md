@@ -3,7 +3,7 @@ type: topic
 title: JVL machine pricing and commercial strategy
 date: 2025-09-23
 aliases: [machine pricing, fifteen seven fifty, $15750, free hardware instead of discount, retail price, price list, Dennis one number, CFO-to-CFO credit, market pricing, list price, dollars not discounts, JVL Dollars pricing lever, show special pricing, Georgia machine price, D43 price, D27 trade-in, South Dakota premium, twelve eight twenty, two nine thirty, $795 port, $895 IQ, $7950 Flex-Slim, kill the market, fifty-seven fifty, topper eight hundred to one thousand, ten dollars per machine, value almost as much as this machine is, ninety to one fifty, one hundred months, $150 minimum, lease pricing, fourteen dollars per machine per month]
-source-count: 35
+source-count: 37
 ---
 
 # JVL machine pricing and commercial strategy
@@ -271,6 +271,18 @@ On the [[wiki/meetings/2026-09-29-larry-sharon-lease-pricing-problem-b-and-the-c
 
 **This is the first source that puts a number on the gap between the customer-facing "$90 per location" of Sept 2–17 and the "$150" of the Sept-28 investor model** — and Val's own account of why the two cannot both stand. The $15,750 machine price is not mentioned on this call; "$15,000" here is the price of the transactional set bought outright.
 
+## Oct 7 2026 — cash, three-year financing, or rent; $199 a month for three years; nothing shorter than three years (a proposal)
+
+On the [[wiki/meetings/2026-10-07-larry-sharon-hardware-rental-pricing-and-november-pilot.md|Oct-7 4:19 PM call]] with [[wiki/people/larry-sharon.md|Larry Sharon]], [[wiki/people/val-levitan.md|Val]] priced the transactional equipment again [[raw/Meeting_Transcript_Larry_Hardware_Rental_Pricing_and_November_Pilot-October-7-2026.md]]:
+
+- **Three paths.** Cash; financing "Say three years for them to buy it out… roughly fifteen thousand dollars divided by thirty-six months"; and rent, "the most attractive way".
+- **The cost under the price.** Larry: "the machine costing four K, not fifteen." Val: "four thousand dollars divided by thirty six months is hundred eleven dollars per month… You want to recapture more."
+- **The customer's arithmetic, again.** "150 times 60 months, 9 тысяч долларов… is not четырнадцать" — the same gap Val named on Sept 29 above.
+- **The numbers on the table.** Rent: three years at $199 a month ("Just short of seventy-two hundred") and a five-year option, all costs included (management, updates, upgrades); nothing shorter than three years except a cash sale. Buy: cash, or three years of financing on $14,000 plus interest (Val's rough example, about 11% a year, "one thousand five hundred forty"; the monthly "three sixty-two" does not follow from the stated numbers — **inference**). Larry's earlier model: $150–180 for five-to-nine-year terms, $205–225 for three years.
+- **Status.** Both men said they can live with it. Under the owner's 2026-10-05 ruling, prices worked out on these calls are **proposals until the owner decides** — see [[wiki/decisions/2026-09-29-pitch-the-transactional-equipment-as-a-lease-with-set-terms-and-a-buy-out-or-return-not-as-free.md]] (Oct-7 update).
+
+Against Sept 29: the $150 floor stays as the five-year example; the three-year price is now a number ($199); and the equipment's outright price is spoken as $14,000–15,000 ($14,000 in the financing example) [[raw/Meeting_Transcript_Larry_Hardware_Rental_Pricing_and_November_Pilot-October-7-2026.md]] [[raw/Meeting_Notes_Larry_Hardware_Rental_Pricing_and_November_Pilot-October-7-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]]
@@ -308,3 +320,5 @@ On the [[wiki/meetings/2026-09-29-larry-sharon-lease-pricing-problem-b-and-the-c
 - [[raw/Meeting_Transcript_Rich_Winley_Kiosk_Delay_and_Tribal_Casino_Trial-March-4-2026.md]]
 - [[raw/Meeting_Transcript_Epic_Amusement_Kenny_Patel_Visit-August-25-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]]
+- [[raw/Meeting_Transcript_Larry_Hardware_Rental_Pricing_and_November_Pilot-October-7-2026.md]]
+- [[raw/Meeting_Notes_Larry_Hardware_Rental_Pricing_and_November_Pilot-October-7-2026.md]]

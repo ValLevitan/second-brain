@@ -4,8 +4,8 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 204
-open-commitments: 101
+source-count: 207
+open-commitments: 105
 open-questions: 0
 ---
 
@@ -1159,7 +1159,39 @@ At the [[wiki/meetings/2026-10-05-ris-mvp1-scope-and-peach-packaging.md|Oct-5 11
 - **18 games.** "We have one package for 18 games… It's already done; it's supported anytime." See [[wiki/decisions/2026-10-05-felipe-decides-by-october-11-one-18-game-peach-pack-or-three-separate-sticks.md]]. [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
 - **MVP 2.** Before estimating some MVP 2 capabilities he must talk to the server side. (Commitments held on [[wiki/decisions/2026-10-05-ris-improvement-mvp1-is-five-jira-capabilities-in-one-release-due-october-19.md]].) [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
 
+## Oct 6 2026 — the RIS branch for Georgia, the critical-error text, and three battery tests
+
+At the [[wiki/meetings/2026-10-06-daily-standup-ris-georgia-branch-and-critical-error-text.md|Oct-6 Minsk stand-up]] (Russian; speaker label) [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]:
+
+- He gave Kharetski the urgent RIS work (CAP-252, 255, 246, 254) for Georgia only on the 1.14 line — [[wiki/decisions/2026-10-06-the-ris-mvp1-changes-are-built-for-georgia-only-on-the-1-14-svn-line-with-nothing-else-added.md]].
+- He described the critical-error text ("Даллас не могу прочитать… Не просто джава ресепшн") — [[wiki/decisions/2026-10-05-the-critical-error-screen-shows-the-cause-and-fix-in-words-and-keeps-the-qr-code-in-mvp1.md]].
+- He agreed to a session on built capabilities without requirements — [[wiki/decisions/2026-10-06-built-capabilities-without-requirements-get-a-review-session-and-the-developer-adds-missing-texts-for-andrei-to-approve.md]]; ruled on the front-end contract — [[wiki/decisions/2026-09-04-data-contracts-closed-every-repository-by-september-11.md]]; kept the Jira warning triangle.
+- On PORT-91, which blocks Vladimir's task 34: "Я, я с ним работаю". He moved Vladimir's FIT-127 to the backlog.
+- He set three battery tests for Ivan and will look for a USB device that sets the voltage.
+
+### Open commitments (Oct 6 2026)
+
+- [ ] Pavel Frolov — finish PORT-91 (blocks Vladimir Samusenko's task 34) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
+- [ ] Pavel Frolov — create a Dragon Pays feature so Igor Metelski can open a separate branch — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
+- [ ] Pavel Frolov — find an adjustable-voltage (USB) device for Ivan's battery tests — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
+
+## Oct 7 2026 — tests before CI, stories not bugs, MVP 1 items to To Do, the timer restarts, and "take it to Andrei"
+
+At the [[wiki/meetings/2026-10-07-daily-standup-test-coverage-first-and-ai-task-numbers.md|Oct-7 Minsk stand-up]] (Russian; speaker label) [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]:
+
+- To Khamin's question on the next CI steps: "лучше сейчас покрытие сделать тестами в первую очередь" — [[wiki/decisions/2026-10-07-cover-the-code-with-tests-first-and-the-ci-hardware-runs-and-product-repository-hookup-wait.md]].
+- To Biratka's Claude-opened bugs: "баги это будет что то, пришедшее из извне. Пока идет разработка это просто… стория" — [[wiki/decisions/2026-10-01-completed-is-the-developers-last-step-and-a-found-problem-sends-the-feature-from-completed-back-to-to-do-as-a-story.md]] (Oct-7 update).
+- "нам надо в MVP один, вы сразу ставьте его в туду, даже если у него срок не будет" — [[wiki/decisions/2026-09-11-accepted-means-reviewed-taken-into-work-is-the-move-to-to-do.md]] (Oct-7 update).
+- The Flexport 30-second timer restarts on a touch, "исходя из здравого смысла" — [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 7).
+- The 44-regulation Jira Hierarchy message: "Давайте к Андрею просто подойти" — [[wiki/decisions/2026-09-17-planning-comes-off-pavel-and-goes-to-an-application-administrator.md]] (Oct-7 update). He asked Khamin to check TINT-5 and TINT-6, or he deletes them.
+- On the AI pilot: say needs at the meeting; "Этот ассистент. Умный, возможно, будет предлагать варианты" — [[wiki/projects/ai-project-manager-and-company-second-brain.md]] (Oct 7).
+
+### Open commitments (Oct 7 2026)
+
+- [ ] Pavel Frolov — give Daniil Stauskiy a new board to measure performance ("Хорошо это с меня") — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
@@ -1368,3 +1400,5 @@ At the [[wiki/meetings/2026-10-05-ris-mvp1-scope-and-peach-packaging.md|Oct-5 11
 - [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]
 - [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]

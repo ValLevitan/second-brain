@@ -4,8 +4,8 @@ title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka, Alex Baratka, Alex Beratka, Alexander Berankov, Biratko, Alexander Biratko]
 disambiguation: "Alexander cluster (provisional — owner ruling pending): distinct JVL people sharing the given name Alexander. [[wiki/people/alexander-biratka.md|Alexander Biratka]] = Omni/Pixi framework & build engineer (aka Sasha; garbles Beratko/Baratka); [[wiki/people/alexander-korochkin.md|Alexander Korochkin]] = LGS QA-automation engineer (GitHub Alexander_K@JVL, read-only; aka Alexander K); [[wiki/people/alexander-tumanov.md|Alexander Tumanov]] = Minsk QA / data-center knowledge-capture hire (surname unverified). Resolve by context: Omni framework / Pixi / build → Biratka; LGS QA automation / read-only build consumer → Korochkin; manual-tester onboarding / data-center interviews → Tumanov. A further name 'Alexander Derok' (back-end build-integration / Java, per Val on Feb-6-2026) is unconfirmed — queued, not a page. Not [[wiki/people/alexei-khamin.md|Alexei Khamin]] (different name). Queue anything fitting none; never force-match."
-source-count: 80
-open-commitments: 19
+source-count: 83
+open-commitments: 20
 open-questions: 0
 ---
 
@@ -384,7 +384,24 @@ At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-ne
 
 At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-reopen-rules.md|Oct-5 Minsk stand-up]] (Russian) he was absent — Pavel: "А саши сегодня нет" (the reason word is garbled; only the absence is recorded). Pavel relayed his point to Daniil: "то, что саша. Говорил про оптимизацию загрузки. Этих иконок игр. Это же это сделано или ещё нет?" — the order he had asked for ("сначала пробегается по всем играм, загружается сами картинки… на сцену [game select screen] и только потом начинает грузиться остальная часть игр") is in place: Daniil, "Да, так и есть" [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]. See [[wiki/topics/nova-platform-architecture.md]] (Oct 5). His Oct-2 LED-strip item above was not mentioned.
 
+## Oct 6 2026 — Wi-Fi on Flex, the BOM validator, and the last repositories
+
+At the [[wiki/meetings/2026-10-06-daily-standup-ris-georgia-branch-and-critical-error-text.md|Oct-6 Minsk stand-up]] (Russian; speaker label) [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]:
+
+- He works under capability 143 (the Wi-Fi module on Flex): FP-1324, 1325, and 1330 (the SSH connection); some are in review.
+- Capability 5, the BOM validator: errors are still being fixed.
+- He handed most of his repository list for prose, contracts and ADRs to Daniil and Igor; about five repositories are not finished. He asked how prose coverage is measured — [[wiki/decisions/2026-09-04-data-contracts-closed-every-repository-by-september-11.md]].
+
+## Oct 7 2026 — Wi-Fi capability 143, 14 tasks in progress, about 17 overdue, and stories instead of bugs
+
+At the [[wiki/meetings/2026-10-07-daily-standup-test-coverage-first-and-ai-task-numbers.md|Oct-7 Minsk stand-up]] (Russian; label "Alexander Biratko") [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]: still on Wi-Fi, "капобилити 143", tasks "13, 28" and "13, 31" (the notes read 1328 and 1331). Pavel: "14 задач им прогресс"; Kovalchuk: about 17 overdue. His reason: while he builds a feature, Claude opens bugs for what it finds, and they close with the feature; "очень много закроется" today. Pavel: during development these are stories, not bugs; Biratka: "буду говорить, чтоб истории заводились" — [[wiki/decisions/2026-10-01-completed-is-the-developers-last-step-and-a-found-problem-sends-the-feature-from-completed-back-to-to-do-as-a-story.md]] (Oct-7 update).
+
+### Open commitments (Oct 7 2026)
+
+- [ ] Alexander Biratka — close the finished Wi-Fi tasks and have Claude open stories, not bugs, for problems found during development — due Oct 7 2026 (the notes' date) — [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
@@ -467,3 +484,5 @@ At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-r
 - [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]

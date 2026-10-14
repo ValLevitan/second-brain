@@ -3,7 +3,7 @@ type: person
 title: Felipe Miranda
 date: 2026-07-13
 aliases: [Felipe Miranda, Felipe, Filippo, Filipa, Philippe, Felipe Miranda Giorgi, Филипп, Филипп Н, Filipp N]
-source-count: 83
+source-count: 84
 open-commitments: 23
 open-questions: 0
 ---
@@ -393,7 +393,18 @@ At the [[wiki/meetings/2026-10-05-ris-mvp1-scope-and-peach-packaging.md|Oct-5 11
 - **MVP 2.** Val: "Felipe, set up a meeting a week from now. Same time… planning for Mvp 2." — "Okay, will do." (Commitments held on the decision pages.) [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
 - **§15.8:** Val's personal remarks on how Felipe answers questions are not recorded.
 
+## Oct 6 2026 (1:41 PM) — delivery numbers, ARC, trials and the modem notice
+
+On the [[wiki/meetings/2026-10-06-felipe-delivery-forecast-arc-release-and-modem-notice.md|Oct-6 1:41 PM call]] with Val [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]:
+
+- He confirmed "16 in my records" delivered against 31 scheduled, and about 55 machines in manufacturing for October. Details: [[wiki/projects/georgia-market-rollout.md]].
+- He asked to release ten machines to ARC this week (yes) and must reforecast so all ARC machines ship this year — [[wiki/decisions/2026-10-06-the-ten-arc-machines-are-released-this-week-with-modems.md]] · [[wiki/decisions/2026-10-06-all-arc-machines-are-delivered-in-2026.md]].
+- He made Rizwan of [[wiki/organizations/fontana-amusement.md|Fontana Amusement]] a six-port offer; he invoices AKS and Epic now — [[wiki/decisions/2026-10-06-trial-customers-who-do-not-respond-are-invoiced-now.md]].
+- He brought Padma, a mini distributor — [[wiki/decisions/2026-10-06-a-mini-distributor-tier-gets-about-8-percent-against-20-percent-for-a-full-distributor.md]].
+- He will tell customers about the standard modem and the opt-out — [[wiki/decisions/2026-10-06-every-machine-ships-with-a-modem-and-customers-are-told-reports-are-free-for-a-limited-time-with-an-opt-out.md]].
+
 ## Sources
+- [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]
 
 - [[raw/Meeting_Transcript_Inamax_Ray_Cosentino_Georgia_Market_and_Trial_Agreement-February-11-2026.md]]

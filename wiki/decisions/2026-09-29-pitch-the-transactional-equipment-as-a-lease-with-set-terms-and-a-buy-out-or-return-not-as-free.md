@@ -3,7 +3,7 @@ type: decision
 title: PROPOSAL (no decision yet — owner ruling 2026-10-05): The transactional equipment is pitched as a lease with set terms and a buy-out or return at the end — "we do nothing for free; $150 minimum" — and 3/4/5/7/10-year terms get modelled
 date: 2026-09-29
 aliases: [lease not free, we do nothing for free, $150 minimum, BMW lease, car lease framing, return in good working condition or buy it out, predetermined buy-out price, three four five seven ten years, lease term scale, let them choose, I got stuck on my own bullshit, shove it down their throats as a lease, lifetime contract with exit fee]
-source-count: 3
+source-count: 5
 status: active
 open-commitments: 1
 open-questions: 2
@@ -43,13 +43,24 @@ Proposed by [[wiki/people/larry-sharon.md|Larry Sharon]] and adopted by [[wiki/p
 
 On the [[wiki/meetings/2026-09-30-larry-sharon-single-entity-jv-and-100-machine-pilot.md|Sept-30 8:42 AM call]] Larry confirmed the instrument by name — "the Excel tables showing three, five, seven, and ten year terms on the leases that we'd be. Let's call them leases from from from now on. On the leases that we're gonna be providing to… the distributors" — and said he would send the tables "today". The **4-year** term of the Sept-29 list is not mentioned; recorded as a change in the list, not an error. The investor structure behind the lease changed the same morning (one JV entity; JVL invoices the real $4,000) — see [[wiki/decisions/2026-09-30-one-jv-entity-a-florida-llc-50-50-with-a-special-allocation-of-depreciation-and-jvl-invoices-the-real-4000.md]] [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]].
 
+## Oct 7 2026 update — "rental", nothing under three years, $199 for three years and a five-year option (still a proposal)
+
+On the [[wiki/meetings/2026-10-07-larry-sharon-hardware-rental-pricing-and-november-pilot.md|Oct-7 4:19 PM call]] Val and [[wiki/people/larry-sharon.md|Larry]] priced the terms on the equipment's real cost of about $4,000 [[raw/Meeting_Transcript_Larry_Hardware_Rental_Pricing_and_November_Pilot-October-7-2026.md]]:
+
+- **The word.** Val now says "rent" / "rental" ("the most attractive way, which is something that we should embrace, is a rent"); Larry: "I like the idea of the rental, because that's what we had to call it anyway." The set-term, monthly instrument is the same as above.
+- **No term under three years.** Larry: "one year makes no sense whatsoever. Three years, you're on the borderline… somewhere between three and seven, which probably five"; "I don't think that we should offer any solution less than three years, unless they want to buy it for cash." Val: "Right. I would. I support." Val's hypothetical $450 a month for one year was the case that prompted it.
+- **Prices.** Val: "We can do three years, one ninety-nine… Just short of seventy-two hundred." Larry: "I can live with that." Val: "So I think our plan should be three years, one ninety-nine and five years… Of the rental." All costs are included: "we're gonna manage it… updates and upgrades" — "All costs, rental, all costs included." The five-year monthly price was not restated (Val's earlier example: $150 × 60 months = $9,000).
+- **Buy-out by finance, separately.** A buyer can take "three years of financing" on $14,000 plus interest.
+
+This partly answers the open question below on the price per term (three years: $199) and narrows the Sept-29 list of 3/4/5/7/10 years to three and five years named, with nothing shorter than three; seven and ten years are not mentioned (**evolution**). **Still a proposal** under the owner's 2026-10-05 ruling — the two men "can live with" it; the owner has not said it is decided. Whole arc on [[wiki/projects/transactional-equipment-depreciation-investor-deal.md]] (Oct 7). The derived notes list these as decisions [[raw/Meeting_Notes_Larry_Hardware_Rental_Pricing_and_November_Pilot-October-7-2026.md]].
+
 ## Open commitments
 
 - [ ] Larry Sharon — build and send the pricing models for the 3, 4, 5, 7 and 10-year terms ("I'll build out all of those models… later tonight I'll send you the models across the different yearly amounts") — due later Sept 29 or Sept 30 2026 — [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]] *(Sept 30, 8:42 AM: restated as tables for "three, five, seven, and ten year terms", with the structure, "I'm sending everything to you today" — still open [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]])*
 
 ## Open questions
 
-- What is the monthly price per term — stay at $150, or $175 / $200 (which "will bring it down from nine years to… five or six"), or $199 for a three-year lease? — [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]]
+- What is the monthly price per term — stay at $150, or $175 / $200 (which "will bring it down from nine years to… five or six"), or $199 for a three-year lease? — [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]] *(Oct 7: three years at $199 proposed and accepted by both on the call; the five-year price not restated — still open as a ruling [[raw/Meeting_Transcript_Larry_Hardware_Rental_Pricing_and_November_Pilot-October-7-2026.md]])*
 - What is the "predetermined" buy-out price at the end of a term, and what are the fees for pulling returned equipment? Not stated — [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]]
 
 **§15.8:** clear — lease pricing and deal economics only. **Personal matters not recorded.** **§15 #9:** none.
@@ -58,3 +69,5 @@ On the [[wiki/meetings/2026-09-30-larry-sharon-single-entity-jv-and-100-machine-
 - [[raw/Meeting_Notes_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Larry_Hardware_Rental_Pricing_and_November_Pilot-October-7-2026.md]]
+- [[raw/Meeting_Notes_Larry_Hardware_Rental_Pricing_and_November_Pilot-October-7-2026.md]]

@@ -3,7 +3,7 @@ type: person
 title: Georgios "Zaza" Zazanis
 date: 2026-08-31
 aliases: [George Zazanis, Georgios Zazanis, Zaza, Zazanis, George]
-source-count: 8
+source-count: 9
 open-commitments: 0
 open-questions: 0
 disambiguation: "COO of the Georgia operator ARC Gaming — resolve by the Georgia-COAM / operator / Class-A context. He goes by 'Zaza' precisely because 'George' is ambiguous in his own circle; do not attach a bare 'George' in another context to this page without contextual support."
@@ -69,8 +69,13 @@ The three items he took away — the Class A location address, the Class A + DC 
 
 **§15.8:** clear — no compensation of any kind recorded for this person.
 
+## Oct 6 2026 — ARC's check "ready for pickup next week"
+
+Felipe told Val: "I talked to Georgios about the check from Arc… He said that he reached out to accounting and it should be ready for pickup next week." [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]] On that basis Val approved releasing ten machines to ARC — [[wiki/decisions/2026-10-06-the-ten-arc-machines-are-released-this-week-with-modems.md]].
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
 - [[raw/Meeting_Notes_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Gaming_Vertical_Screen_Bundle_Offer_and_David_Intro-September-8-2026.md]]

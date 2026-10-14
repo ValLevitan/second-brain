@@ -3,7 +3,7 @@ type: person
 title: Kenny Patel (Epic Amusement)
 date: 2026-08-25
 aliases: [Kenny Patel, Kenny, Kenny at Epic, Kitty]
-source-count: 6
+source-count: 7
 disambiguation: "Patel is a very common surname among Georgia COAM operators and this corpus already carries several unrelated Patels — Vishal Patel (Narayani Amusements, [[wiki/people/vishal-patel.md]]), Yash Patel (Halcyon Amusements, [[wiki/people/yash-patel.md]]), Kenny Patel (Epic Amusement, [[wiki/people/kenny-patel.md]]), and, in prose only, Mike Patel (GAMOA) and Alex Patel (Sonatype). Distinct people; resolve by context. Provisional — owner ruling pending."
 ---
 
@@ -35,8 +35,13 @@ Full account on [[wiki/organizations/epic-amusement.md]] and [[wiki/meetings/202
 
 **§15.8:** a family matter mentioned in the Jun-24 notes is not recorded. No pay or personal judgements recorded.
 
+## Oct 6 2026 — no answer, and Epic is invoiced
+
+Felipe called Kenny about Epic's trial: "He didn't pick up the phone, left him a message, no response so far." Val: send the invoice now. [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]] See [[wiki/decisions/2026-10-06-trial-customers-who-do-not-respond-are-invoiced-now.md]] and [[wiki/organizations/epic-amusement.md]].
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Epic_Amusement_Kenny_Patel_Visit-August-25-2026.md]]
 - [[raw/Meeting_Notes_Epic_Amusement_Kenny_Patel_Visit-August-25-2026.md]]
 - [[raw/To-Do_Georgia_meetings-February-18-2026.md]]

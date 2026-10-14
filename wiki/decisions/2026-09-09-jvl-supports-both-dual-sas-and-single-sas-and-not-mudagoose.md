@@ -4,7 +4,7 @@ title: JVL will support both dual SAS and single SAS — decided in a customer m
 date: 2026-09-09
 status: active
 aliases: [dual plus single, we're going with both, you just made up our decision, definitely not going with MudaGoose, dual saws or single saws, no final decision on SAS, ten thousand machines with no secondary SAS, secondary sats, AFT through the bill acceptor, MVP1 dual SAS only, MVP1 locations fully equipped with dual SAS]
-source-count: 6
+source-count: 7
 open-commitments: 0
 open-questions: 0
 ---
@@ -47,6 +47,10 @@ At the [[wiki/meetings/2026-09-18-transactional-mvp1-capability-cleanup-and-the-
 
 **Recorded as a dated data point of a different kind.** Sept 7, 8, 9 and 15 are statements about what *JVL the product company* supports; Sept 18 is a statement about what the *first release* covers. They are not the same claim, so this neither contradicts nor confirms any of them — but it is the first time a JVL decision has deliberately excluded the single-SAS half of the market with a date attached, and a reader tracking the argument should have it here. **The contradiction below stays open.**
 
+## Oct 6 2026 — MudaGoose comes out of the code
+
+At the [[wiki/meetings/2026-10-06-daily-standup-ris-georgia-branch-and-critical-error-text.md|Oct-6 Minsk stand-up]] Chudinov said he will remove MudaGoose ("мутагусь") from the code entirely — screens, the mode, tests, likely the old Payment Hub parts, the activation protocol. Pavel confirmed "у нас уже есть решение о том, что нам не нужен он вообще"; git history is the way back if it is ever needed. Irina: it still appears in requirements and Claude has to be stopped from using it [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]. See [[wiki/decisions/2026-10-06-mudagoose-is-removed-from-the-code-entirely-and-git-history-is-the-way-back.md]]. This carries out the "not MudaGoose" half of this decision; the dual-versus-single-SAS question below is untouched.
+
 ## Open contradictions
 
 **Whether JVL supports single-SAS machines at all (Sept 7/8 vs Sept 9 2026).** Three statements inside three days point in opposite directions. Recorded, **not resolved**.
@@ -61,6 +65,7 @@ At the [[wiki/meetings/2026-09-18-transactional-mvp1-capability-cleanup-and-the-
 
 ## Sources
 
+- [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Notes_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
 - [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
 - [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]

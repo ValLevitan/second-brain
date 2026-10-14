@@ -3,8 +3,8 @@ type: person
 title: Ivan
 date: 2025-02-19
 aliases: [Ivan, Ivan Shpakov, Иван Шпаков, Ivan Shpak, Ваня]
-source-count: 27
-open-commitments: 9
+source-count: 30
+open-commitments: 11
 disambiguation: "JVL release manager (GLI submittals, release-candidate marks). Not the bank representative Ivan of the Sept-25-2026 CIBC call (surname Lucic per the notes) — see wiki/meetings/2026-09-25-cibc-ivan-lucic-600k-transfer-post-dated.md. Resolve by context: releases/GLI → this page."
 ---
 
@@ -191,7 +191,28 @@ At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-r
 
 - [ ] Ivan — put the new build on the stick, test it, then continue the autotests in parallel — due Oct 5 2026 — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 
+## Oct 6 2026 — South Dakota overnight, the critical error to re-check, and three battery cases
+
+At the [[wiki/meetings/2026-10-06-daily-standup-ris-georgia-branch-and-critical-error-text.md|Oct-6 Minsk stand-up]] (Russian; speaker label) [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]:
+
+- South Dakota production minimum bets ran fine overnight; Igor's crash did not repeat ("Он один раз словился и всё"). If South Dakota holds for an hour, he will ask Kharetski to release the DC.
+- He must first confirm whether the critical error still repeats — [[wiki/decisions/2026-10-05-the-critical-error-screen-shows-the-cause-and-fix-in-words-and-keeps-the-qr-code-in-mvp1.md]].
+- Pavel set three battery cases with the machine off (see [[wiki/topics/ris-remote-install-and-machine-states.md]]). Ivan needs a device that sets the voltage; he has only a battery of about 3.2 V and a good one.
+
+### Open commitments (Oct 6 2026)
+
+- [ ] Ivan — run the three battery-swap cases with the machine off — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
+
+## Oct 7 2026 — yesterday's South Dakota issue, then hand over; the battery next
+
+At the [[wiki/meetings/2026-10-07-daily-standup-test-coverage-first-and-ai-task-numbers.md|Oct-7 Minsk stand-up]] (Russian; label "Ivan Shpak") [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]: he puts South Dakota back on to look at yesterday's issue ("Ни бак я не знаю теперь что это недочёт" — not sure it is a bug), then hands South Dakota over; "приоритет 2 это с батарейкой разобраться" — the battery next. He told Pavel that Wi-Fi items in his story can be ignored, since Wi-Fi is still in development. See [[wiki/topics/test-automation-strategy.md]] (Oct 7).
+
+### Open commitments (Oct 7 2026)
+
+- [ ] Ivan — check yesterday's South Dakota issue and hand South Dakota over, then the battery work — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
@@ -220,3 +241,5 @@ At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-r
 - [[raw/Meeting_Transcript_CIBC_Ivan_Lucic_840914_600K_Transfer-September-25-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]

@@ -3,7 +3,7 @@ type: organization
 title: Epic Amusement (Georgia master licensee — Kenny Patel)
 date: 2026-08-25
 aliases: [Epic Amusement, Epic Amusements, Epic, Epic Amusement Kenny Patel]
-source-count: 9
+source-count: 10
 open-commitments: 3
 open-questions: 2
 disambiguation: "Three different 'Epic's in this corpus. (1) Epic Amusement = the Georgia COAM master licensee run by Kenny Patel (this page). (2) The Epic game-development company that J&J bought (see [[wiki/organizations/jj-operator.md]]) — a different company. (3) The Transact Epic 950 / Epic Edge printers used in South Dakota (see [[wiki/projects/south-dakota-vlt-market.md]]) — a product, not a company. Resolve by context: Georgia master / Kenny / Dustin → this page."
@@ -61,8 +61,13 @@ The account below is from the recording. The derived notes differ in several pla
 
 **§15.8:** company, machine and market economics only; no named person's pay.
 
+## Oct 6 2026 — Kenny does not answer; invoiced now
+
+On the [[wiki/meetings/2026-10-06-felipe-delivery-forecast-arc-release-and-modem-notice.md|Oct-6 1:41 PM call]] Felipe: "And Epic, I reached out to Kenny. He didn't pick up the phone, left him a message, no response so far." Val told him not to wait for Friday; Felipe will send the invoice "today". [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]] See [[wiki/decisions/2026-10-06-trial-customers-who-do-not-respond-are-invoiced-now.md]].
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Epic_Amusement_Kenny_Patel_Visit-August-25-2026.md]]
 - [[raw/Meeting_Notes_Epic_Amusement_Kenny_Patel_Visit-August-25-2026.md]]
 - [[raw/GACOAM_trade_show_recap.md]]

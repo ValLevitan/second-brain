@@ -3,10 +3,10 @@ type: decision
 title: Data contracts are not up for debate — every repository carries its own contract beside its code by September 11, and the maths server is opened up and gets one too
 date: 2026-09-04
 aliases: [data contracts closed, contracts by September 11, every repository carries its data contract, maths server opened up, zero trust input contract, eighty percent is fine]
-source-count: 5
+source-count: 6
 status: active
-open-commitments: 3
-open-questions: 4
+open-commitments: 4
+open-questions: 5
 ---
 
 # Data contracts are not up for debate — one per repository, by September 11
@@ -45,6 +45,22 @@ His wider point: "есть задача сделать даты контракт
 
 On the [[wiki/meetings/2026-09-30-repo-standards-walkthrough-with-efim.md|Sept-30 repo-standards call]] with Val, [[wiki/people/efim-podvoiski.md|Efim Podvoiski]] said, in a near-unreadable transcript, "Repository mass engine. There is a more last quote on real in their data contract. But the robot is Nova" — the maths-engine repository, a data contract, NOVA — and Val's own run of subjects included "data contract repository" [[raw/Meeting_Transcript_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]. The notes confirm only the words: "Efim mentioned a math engine repository, a data contract, NOVA" [[raw/Meeting_Notes_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]. Whether the maths-server contract is written, or where, cannot be read; the commitment below stays open.
 
+## Update, Oct 6 2026 — prose coverage 46% → 87%, the front-end contract, and the last repositories
+
+At the [[wiki/meetings/2026-10-06-daily-standup-ris-georgia-branch-and-critical-error-text.md|Oct-6 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]:
+
+- **Prose coverage.** Khamin: after Val's email asking to raise prose in the repositories, it was "46%"; by evening "87". Val "хотел 85 хотя бы". A rule now has Claude check prose presence and coverage in pull requests. His percentages matched Val's; he will share how Val calculates them. Pavel doubted a commit-based measure can reach 100% for repositories where prose was added afterwards in one or a few commits.
+- **The front-end contract.** Seregin asked what a contract means for a front-end app that only uses other components and back-end contracts. Pavel: the contract can say it offers no interfaces outward "Кроме как юзерфлоу", and refer to the contracts it implements in the other repository. Contracts are written by hand, or Claude is asked to write or update them when they change.
+- **What remains.** Biratka handed most of his repository list to Daniil and Igor; "гдето ещё, наверное, 5 репозиторий" lack full prose and contracts. Seregin added prose and ADRs to the SDK UI kit ("всё по нулям" before) and to the Flex IQ Pay dispensers repository. Daniil is writing contracts and prose for repositories that had none. Metelski will merge the Dragon Pays prose into main.
+
+### Open commitments (Oct 6 2026)
+
+- [ ] Alexei Khamin — share how Val's prose-coverage percentage is calculated — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
+
+### Open questions (Oct 6 2026)
+
+- How exactly is Val's prose-coverage percentage computed, and can a repository whose prose came later ever reach 100%? — [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
+
 ## Open commitments
 
 - [ ] All repository owners — place a data contract beside the code in every repository they are responsible for — due **September 11 2026** (80% acceptable) — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
@@ -59,6 +75,7 @@ On the [[wiki/meetings/2026-09-30-repo-standards-walkthrough-with-efim.md|Sept-3
 - How a data contract is to be written in practice. Vladimir: "как их делать никто не знает"; two parallel efforts gave two results (Sept 22 2026) — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
 
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]

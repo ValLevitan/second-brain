@@ -3,8 +3,8 @@ type: person
 title: Val Levitan
 date: 2026-07-12
 aliases: [Val, Val Levitan]
-source-count: 411
-open-commitments: 76
+source-count: 415
+open-commitments: 77
 open-questions: 1
 ---
 
@@ -1607,7 +1607,22 @@ At the [[wiki/meetings/2026-10-05-ris-mvp1-scope-and-peach-packaging.md|Oct-5 11
 
 - [ ] Val Levitan — send Nathan the Oct-5 call transcript — due Oct 5 2026 — [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]] *(the notes say an attachment was posted in the chat at 2:43 PM; not confirmed as the transcript [[raw/Meeting_Notes_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]])*
 
+## Oct 6 2026 — two rulings for Georgia sales, and a delegated RIS branch
+
+- **With Felipe (1:41 PM).** Val approved releasing ten machines to ARC, ruled that all ARC machines ship in 2026, told Felipe to invoice non-responding trial customers now, agreed a mini-distributor tier (about 8% against 20%), and made the modem standard with free reports for a limited time and an opt-out [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]. Pages: [[wiki/meetings/2026-10-06-felipe-delivery-forecast-arc-release-and-modem-notice.md]].
+- **In absentia (4:54 AM stand-up).** The Minsk team cited Val's ruling that MudaGoose is gone and his email asking for at least 85% prose coverage [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]. See [[wiki/meetings/2026-10-06-daily-standup-ris-georgia-branch-and-critical-error-text.md]].
+
+## Oct 7 2026 (4:19 PM) — rental pricing with Larry, and a pilot from November 1
+
+On a phone call with [[wiki/people/larry-sharon.md|Larry Sharon]] ([[wiki/meetings/2026-10-07-larry-sharon-hardware-rental-pricing-and-november-pilot.md]]) he set out three paths for operators — cash, three-year financing, or rent ("the most attractive way") — and proposed three years at $199 a month and a five-year option, all costs included; Larry: "I can live with that." His pilot: "put test units on locations… starting first of November… between fifty and a hundred locations" in November–December, more in Q1 2027; the money for 100 units is "prepared", and he accepted Larry's offer to fund it together. Still a proposal under the owner's 2026-10-05 ruling. Detail on [[wiki/projects/transactional-equipment-depreciation-investor-deal.md]] (Oct 7) [[raw/Meeting_Transcript_Larry_Hardware_Rental_Pricing_and_November_Pilot-October-7-2026.md]].
+
+### Open commitments (Oct 7 2026)
+
+- [ ] Val Levitan — put test units on locations from November 1 2026 (50–100 locations in November–December), and tell Larry when it starts — due Nov 1 2026 — [[raw/Meeting_Transcript_Larry_Hardware_Rental_Pricing_and_November_Pilot-October-7-2026.md]]
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
+- [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
 - [[raw/Meeting_Notes_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
@@ -2027,3 +2042,5 @@ At the [[wiki/meetings/2026-10-05-ris-mvp1-scope-and-peach-packaging.md|Oct-5 11
 - [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]
 - [[raw/Meeting_Notes_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]
 - [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
+- [[raw/Meeting_Transcript_Larry_Hardware_Rental_Pricing_and_November_Pilot-October-7-2026.md]]
+- [[raw/Meeting_Notes_Larry_Hardware_Rental_Pricing_and_November_Pilot-October-7-2026.md]]

@@ -3,10 +3,10 @@ type: decision
 title: In RIS improvement MVP1 the critical-error screen shows the real cause and the fix in words and keeps the QR code; the QR data goes to JVL's database, and real-time data for technicians is a later MVP
 date: 2026-10-05
 aliases: [critical error screen, we adding the description along the QR code, the QR code is for JVL, technician will not get anything by scanning, for class 3 we need it, Mvp 27, real cause of a critical error]
-source-count: 2
+source-count: 3
 status: active
-open-commitments: 1
-open-questions: 1
+open-commitments: 2
+open-questions: 2
 ---
 
 # The critical-error screen: cause and fix in words, plus the QR code (MVP1)
@@ -35,6 +35,22 @@ Pavel's Sept-28 doubt — "In most cases, we do not know beforehand… what was 
 
 The derived notes match the transcript [[raw/Meeting_Notes_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]].
 
+## Oct 6 2026 — plain words a technician understands; first check that the error still repeats
+
+At the [[wiki/meetings/2026-10-06-daily-standup-ris-georgia-branch-and-critical-error-text.md|Oct-6 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]:
+
+- **What the text says.** Pavel: find which errors cause a critical error and show them "на жёлтом экране" as text — the cause. "если у тебя эксепшен произошёл в модуле, который читает Даллас, ну значит написать что вот Даллас не могу прочитать там. Не просто джава ресепшн." Irina: "Техник должен понять, что написано." This matches the Oct-5 ruling.
+- **First, does it still happen?** Pavel: "сначала надо, чтобы иван. Подтвердил, что это у нас повторяется, потому что может быть, это на какомто старом печь один только было такое поведение."
+- **How to know all causes are covered.** Kharetski: "как я пойму, что клод действительно нашёл все места", and some places cannot be reproduced. Irina: what cannot be reproduced stays for the field. Pavel: one Claude does it, a second checks; handle the errors at a higher level. He left the method for when the task starts.
+
+### Open commitments (Oct 6 2026)
+
+- [ ] Ivan — confirm whether the critical error still repeats, before the error-text work — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
+
+### Open questions (Oct 6 2026)
+
+- How will the team check that every source of a critical error is covered? Asked by Kharetski; left for when the task starts — [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
+
 ## Open commitments
 
 - [ ] Sebastian Cortes, with Pavel Frolov — review and rewrite the capability descriptions, including the critical-error QR text (the technician gets nothing from scanning in MVP1) — due unspecified — [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
@@ -47,5 +63,6 @@ The derived notes match the transcript [[raw/Meeting_Notes_RIS_MVP1_Scope_and_Pe
 
 ## Sources
 
+- [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
 - [[raw/Meeting_Notes_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]

@@ -3,8 +3,8 @@ type: person
 title: Vladimir Samusenko
 date: 2026-02-04
 aliases: [Vladimir Samusenko, Vladimir, Vlad, Владимир, Самусенко]
-source-count: 28
-open-commitments: 12
+source-count: 31
+open-commitments: 13
 ---
 
 # Vladimir Samusenko
@@ -178,7 +178,23 @@ At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-ne
 
 At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-reopen-rules.md|Oct-5 Minsk stand-up]] (Russian; speaker label) [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]: "Занимаюсь это тестами сейчас 7 69. Там задача с проверкой экранов и текстов. Там задача будет на меня [подработки — unclear] сравнивать правильно. Ну и там всё в принципе." Task 34, task 41 and the stories under Tsymanov's feature were not mentioned; Tsymanov named "Владимира" in a garbled line about a task of his. His commitments above stand. See [[wiki/topics/test-automation-strategy.md]] (Oct 5).
 
+## Oct 6 2026 — test 69, missing texts, and built work without requirements
+
+At the [[wiki/meetings/2026-10-06-daily-standup-ris-georgia-branch-and-critical-error-text.md|Oct-6 Minsk stand-up]] (Russian; speaker label) [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]:
+
+- Text gaps are easy; missing design and translations are the problem. For test 69 he will add the missing texts himself and open a ticket for "Andrei" to approve. He will list built items that lack requirements for a review session — [[wiki/decisions/2026-10-06-built-capabilities-without-requirements-get-a-review-session-and-the-developer-adds-missing-texts-for-andrei-to-approve.md]].
+- He asked Seregin to look at FQ-112 and Pavel at PORT-91, which blocks his task 34. Pavel moved his FIT-127 to the backlog.
+
+## Oct 7 2026 — tasks 40 and 41 rerun on a fresh Flexport
+
+At the [[wiki/meetings/2026-10-07-daily-standup-test-coverage-first-and-ai-task-numbers.md|Oct-7 Minsk stand-up]] (Russian; speaker label) [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]: he rechecked tasks "41, 40" where the blockers were removed; installed Flexport that morning; will rerun everything and log defects if they are confirmed, then look for other tasks freed from blockers or take something new. See [[wiki/topics/test-automation-strategy.md]] (Oct 7).
+
+### Open commitments (Oct 7 2026)
+
+- [ ] Vladimir Samusenko — rerun tasks 40 and 41 on Flexport and log defects if confirmed — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
@@ -208,3 +224,5 @@ At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-r
 - [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]

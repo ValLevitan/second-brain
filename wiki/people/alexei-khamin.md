@@ -3,8 +3,8 @@ type: person
 title: Alexei Khamin
 date: 2025-04-22
 aliases: [Alexei Khamin, Aliaksey Khamin, Alexey Khamin, Khamin, Хамин, Khanin, Ханин, Kamin, Alexey Kamin, Lyosha, Лёша]
-source-count: 31
-open-commitments: 17
+source-count: 34
+open-commitments: 20
 ---
 
 # Alexei Khamin
@@ -212,14 +212,35 @@ At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-r
 
 ### Open commitments (Oct 5 2026)
 
-- [ ] Alexei Khamin — finish the test rules today, one day on prose, then start writing the tests from Oct 7 — due Oct 7 2026 — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+- [ ] Alexei Khamin — finish the test rules today, one day on prose, then start writing the tests from Oct 7 — due Oct 7 2026 — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]] — *Oct 7 2026: rules done and prose "90 плюс"; tests not yet started — he first finishes the manual-run step (Pavel: tests first, the CI hardware runs wait) — still open* — [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
 - [ ] Alexei Khamin — look at the emulator's repository scripts and parameters and build it to match the main application's code — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 
 ## Oct 5 2026 (8:01 AM) — two gaps the autotests found: no supported-printer list, and a ticket that does not print while the printer is busy
 
 On the [[wiki/meetings/2026-10-05-transactional-mvp1-port-screens-unclaimed-money-and-printer-models.md|Oct-5 8:01 AM MVP 1 call]] (Russian) [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]: he asked that the supported printer models be written into the requirements, since emulators already exist — [[wiki/decisions/2026-10-05-epic-950-is-the-terminal-printer-tested-first-and-all-models-stay-supported.md]]; and whether a print queue is needed when a Flex-Port asks for a ticket while the last one is still in the printer — [[wiki/decisions/2026-10-05-mvp1-has-no-print-queue-and-tickets-print-or-reprint-from-records.md]] (no queue in MVP 1).
 
+## Oct 6 2026 — prose coverage from 46% to 87%
+
+At the [[wiki/meetings/2026-10-06-daily-standup-ris-georgia-branch-and-critical-error-text.md|Oct-6 Minsk stand-up]] (Russian; speaker label) [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]:
+
+- Repository rules look done; he will recheck and close task 61.
+- After Val's email he raised prose coverage from "46%" to "87" (Val wanted at least 85); Claude now checks prose in pull requests. He will share how Val's percentage is calculated — [[wiki/decisions/2026-09-04-data-contracts-closed-every-repository-by-september-11.md]].
+
+### Open commitments (Oct 6 2026)
+
+- [ ] Alexei Khamin — recheck the repository rules and close task 61 — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
+
+## Oct 7 2026 — rules done, prose 90%+, and tests before the next CI steps
+
+At the [[wiki/meetings/2026-10-07-daily-standup-test-coverage-first-and-ai-task-numbers.md|Oct-7 Minsk stand-up]] (Russian; label "Alexey Khamin") [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]: repository rules "закончил в целом"; prose "90 плюс точно процентов"; CI at the report stage. He asked whether to start the hardware runs by IP address and the product-repository hookup now. Pavel: tests first. He will finish the manual-run step, then write tests — [[wiki/decisions/2026-10-07-cover-the-code-with-tests-first-and-the-ci-hardware-runs-and-product-repository-hookup-wait.md]]. He suggested that Seregin's emulator fixes may matter more than prose ("проза не такая [приоритетная]"); Seregin does both in parallel. Pavel asked him to check TINT-5 and TINT-6 — "Хорошо". See [[wiki/topics/test-automation-strategy.md]] (Oct 7).
+
+### Open commitments (Oct 7 2026)
+
+- [ ] Alexei Khamin — finish the manual-run step, then move to writing tests — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
+- [ ] Alexei Khamin — check TINT-5 and TINT-6 for anything useful (Pavel deletes them if not) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
@@ -252,3 +273,5 @@ On the [[wiki/meetings/2026-10-05-transactional-mvp1-port-screens-unclaimed-mone
 - [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]

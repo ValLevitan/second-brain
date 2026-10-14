@@ -3,8 +3,8 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, COAM Hearing Room, Georgia Lottery Corporation, Tracy Warren, HB 353, Intralot lab, Bill at Intralot, three fifty-eight nine, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing, GAMOA, ILERS, ILAS report, Eilers, Eiler report, show special, Mega Hit Blaze, sales channel report, Bulldog Gaming, ARC, ARC Gaming, Class A, C-Store Connect, GACS, route consolidation, gift-card cash-back notice, Chris Plonic, Double Down Gaming, Ryan O'Donnell, Billy Liu, Play Payments, PlayPay, banking licence moat, 7455 modem, KORE, KORE SIM, APN, GACS October 21, Pay Slim, over-drive, Rao, Narasimha Rao Namburi, David Milani, September 2 letter, 5500 PAX locations, Lucky Coin service burden, Lucky Bucks is ARC, the market is literally bottomless, backend displacement, David Sloan, Dave Sloan, Bill the kiosk vendor, the wording is in the same location, guidance is not the law, Digital Cash Processing, DCP, ICP Inc., Gen Mega, Andrew Cashin, Rick Beer, seventy four hundred locations forty seven thousand machines, Unlimited Amusement, Mega Hit Blaze V3, program the rollout, Swanee, Johns Creek, Singleton, SurfNote, Debbie Alford, eighteen thousand connected, Mike Mackey, five hundred dollars per unit per machine, WSS protocol, not even one installation, Georgia Lazy, Skyriser, Cardinal, outside looking in, Rich Winley briefing, 18 games in one pack, one USB stick for all Peach, Peach 1 2 3 combined]
-source-count: 233
-open-commitments: 74
+source-count: 235
+open-commitments: 75
 open-questions: 36
 ---
 
@@ -1739,8 +1739,25 @@ At the [[wiki/meetings/2026-10-05-ris-mvp1-scope-and-peach-packaging.md|Oct-5 11
 
 - How can operators compare Peach 1, 2 and 3 in lottery reports if all three ship under one software number? — [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
 
+## Oct 6 2026 (1:41 PM) — Felipe's delivery numbers, ARC, the trial customers and the modem notice
+
+From the [[wiki/meetings/2026-10-06-felipe-delivery-forecast-arc-release-and-modem-notice.md|Oct-6 call]] between Val and [[wiki/people/felipe-miranda.md|Felipe]] (English) [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]:
+
+- **Deliveries.** Val's recap: "we scheduled 31 machines. Out of 31 machines, we delivered only 16, which leaves approximately 15". The next month "was around 40 machines plus the 15… around 55 machines… In line in the manufacturing." Touch screens "are being shipped by air now" and "modems are trickling in a few per day". Val: "we should be able to deliver 55 machines for the month of October." November: "approximately Fourteen machines so far, take or give, of which 10 are for Arc." (Val said "October" for both months; the notes flag this [[raw/Meeting_Notes_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]].)
+- **ARC.** Ten machines released this week, with modems — [[wiki/decisions/2026-10-06-the-ten-arc-machines-are-released-this-week-with-modems.md]]. All ARC machines this year — [[wiki/decisions/2026-10-06-all-arc-machines-are-delivered-in-2026.md]]. Felipe is meeting "Rao and Mohammed" the next day and hopes for "another bulk deal… for hopefully another 10 machines" for November or December (who they are is not resolved).
+- **Build 4333.** Earlier machines get a modem and "build 4333", approved "on Monday"; Felipe is telling customers.
+- **A mini distributor.** Padma — [[wiki/decisions/2026-10-06-a-mini-distributor-tier-gets-about-8-percent-against-20-percent-for-a-full-distributor.md]].
+- **Trials.** [[wiki/organizations/fontana-amusement.md|Fontana Amusement]] (Rizwan, one machine) has a six-port offer and a decision due Monday. AKS and Epic do not answer and are invoiced now — [[wiki/decisions/2026-10-06-trial-customers-who-do-not-respond-are-invoiced-now.md]]. "Shawn" has not delivered "what he promised to give us" and does not answer Felipe or Val.
+- **The modem.** Standard on every machine; free reports for a limited time; opt-out by message — [[wiki/decisions/2026-10-06-every-machine-ships-with-a-modem-and-customers-are-told-reports-are-free-for-a-limited-time-with-an-opt-out.md]].
+
+### Open commitments (Oct 6 2026, 1:41 PM)
+
+- [ ] Felipe Miranda — meet "Rao and Mohammed" and try for another bulk deal of about 10 machines for November or December — due Oct 7 2026 ("tomorrow") — [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
+- [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Equipment_Depreciation_Investor_Pitch-September-28-2026.md]]
 - [[raw/Meeting_Transcript_GA_Trip_Recap_Kiosk_Intel-May-18-2026.md]]

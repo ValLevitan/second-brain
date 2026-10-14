@@ -3,7 +3,7 @@ type: organization
 title: ARC Gaming
 date: 2026-08-31
 aliases: [ARC, Arc, ARC Gaming, намберту, number two company in Georgia, two machines a week, five machines a week, Art, ARC Gaming DC, ARC Gaming & Technologies, Lucky Bucks, Lucky Bugs, Lucky Box, Arc Luck]
-source-count: 19
+source-count: 20
 open-commitments: 6
 open-questions: 5
 disambiguation: "The Georgia COAM master/route operator whose COO is Georgios 'Zaza' Zazanis and whose CEO is David Sloan. **Lucky Bucks is its FORMER NAME** — one company, renamed (Val's ruling, 2026-09-10). The corpus's earlier bare 'Arc' mentions in a *kiosk-vendor* sense are a separate, still-unresolved thread — see the §4 name note below. Resolve by context."
@@ -231,6 +231,16 @@ The [[wiki/meetings/2026-09-16-street-machine-board-spec-and-georgia-class-a-ord
 
 At the [[wiki/meetings/2026-10-05-ris-mvp1-scope-and-peach-packaging.md|Oct-5 11:00 AM RIS review]] Val said the 12-game Peach 2 pack was his own decision for this company under its former name: "I silently made a decision to include 12 games for lucky bucks… as a specific favor to them. And it was never documented. It was tribal knowledge." Felipe: "Twelfth, yeah. Oh, right, right, yes." See [[wiki/projects/georgia-market-rollout.md]] (Oct 5, 11:00 AM) [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]].
 
+## Oct 6 2026 (in absentia) — ten machines released, the check next week, all machines this year
+
+On the [[wiki/meetings/2026-10-06-felipe-delivery-forecast-arc-release-and-modem-notice.md|Oct-6 1:41 PM call]] between Val and Felipe [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]:
+
+- **The check.** Georgios told Felipe ARC's accounting has the check, and "it should be ready for pickup next week."
+- **Ten machines this week,** all with modems and already tested — [[wiki/decisions/2026-10-06-the-ten-arc-machines-are-released-this-week-with-modems.md]].
+- **All ARC machines in 2026.** Felipe's forecast had them running to February; Val wants them all this year, which means about 16 more cabinets this year — [[wiki/decisions/2026-10-06-all-arc-machines-are-delivered-in-2026.md]].
+- **The modem discount.** Felipe: "we did an agreement and a discount for Arc for the… For the modem, right?" The terms are not stated.
+- **November.** Of about 14 machines forecast, "10 are for Arc". Felipe hopes for another bulk deal of about 10 machines with "Rao and Mohammed"; the notes put this under ARC, but the transcript does not tie these two to ARC clearly (not resolved).
+
 ## History
 
 - [x] ARC (Speaker 4, possibly Zazanis) — come to JVL's office on Monday to see the entry-level product demo ("I'll stop by at the office Monday"; "I might bring Byron with me"), set Aug 27 — **discharged: the Aug-31 transactional demo with Zazanis took place on that Monday** (its sources do not state the room) — [[raw/Meeting_Transcript_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]] [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
@@ -240,6 +250,7 @@ At the [[wiki/meetings/2026-10-05-ris-mvp1-scope-and-peach-packaging.md|Oct-5 11
 
 ## Sources
 
+- [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
 - [[raw/Meeting_Notes_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
 - [[raw/Meeting_Notes_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]

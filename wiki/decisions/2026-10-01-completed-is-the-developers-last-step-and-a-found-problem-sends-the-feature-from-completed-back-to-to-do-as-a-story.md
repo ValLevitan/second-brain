@@ -3,7 +3,7 @@ type: decision
 title: "Completed" is the developer's last step on a feature; a problem found while development is still going sends the feature from Completed back to To Do (not In Progress) with a Story, not a Bug — and every feature links to the requirements it covers
 date: 2026-10-01
 aliases: [Completed to To Do, из комплект в туду, Completed is the developer's final step, финальной степ для разработчика, story not bug, пока ты разрабатываешь нет бага, Request Review was for Lena's team, реквест ревью был только для лениных, FP-85 story under a closed feature, feature linked to requirements, autotests are written on requirements, мы пишем на требования, Kovalchuk adds the transition, Хорошо я добавлю, reopen a Completed feature]
-source-count: 5
+source-count: 7
 status: active
 open-commitments: 2
 open-questions: 1
@@ -53,6 +53,10 @@ So the Oct-1 flow gains a step: **a feature that comes back from Completed to To
 
 At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-reopen-rules.md|Oct-5 Minsk stand-up]] (Russian) [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] reported four weekend automations — "если все дочерние фичи в статусе. Комплект то [капабилити] должна будет автоматически перевестись [в] реквист ревью" — and [[wiki/people/dmitri-chudinov.md|Chudinov]] asked for the mirror of this rule one level up: a story created under a Completed feature should send "в туду и тот и тот" — the feature and its capability. Irina: "пускай будет всё в [туду] и сам переведёшь в [In Progress], когда возьмёшь эту сторию в работу"; Kovalchuk: "[фичу] из комплитов в [To Do] переводим… Из [Request Review] туда" [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]. Ruling and quotes: [[wiki/decisions/2026-10-05-a-capability-moves-itself-to-request-review-when-all-its-features-are-completed-and-a-new-story-sends-feature-and-capability-back-to-to-do.md]]. The Oct-1 feature rule stands unchanged inside it (**evolution**, not contradiction). Chudinov's "Как минимум фичу я могу в туду сам перевести" suggests the Oct-1 transition is already in the workflow — **inference**; nobody said so.
 
+## Update, Oct 7 2026 — Claude was opening bugs during development; Pavel: those are stories
+
+At the [[wiki/meetings/2026-10-07-daily-standup-test-coverage-first-and-ai-task-numbers.md|Oct-7 Minsk stand-up]] (Russian) Pavel asked [[wiki/people/alexander-biratka.md|Biratka]] why he has "уже вообще 14 задач им прогресс". Biratka: while he builds a feature, "находится там какойто бак… клод говорит… бак заводит", so one feature collects several bugs, and they close when the feature closes. Pavel: "нет смысла это заводить как баги, потому что сейчас баги это будет что то, пришедшее из извне. Пока идет разработка это просто… какая то стория. Подработки." Biratka: "По типу таска тогда буду говорить, чтоб истории заводились" — he will tell Claude to open stories [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]. The derived notes record it as Pavel's decision [[raw/Meeting_Notes_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]. This restates the Oct-1 rule (and the Aug-4 principle) for problems Claude itself finds — **no change to the rule**.
+
 ## Open commitments
 
 - [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — add the Completed → To Do transition to the feature workflow in Jira — due unspecified ("Хорошо, я добавлю") — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]] — *Oct 2 2026: not mentioned* — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]] — *Oct 5 2026: Chudinov can already move a feature to To Do himself (so the transition seems in place — inference); the automated version, with the capability, is his new commitment on the Oct-5 decision page* — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -70,3 +74,5 @@ At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-r
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]

@@ -2,9 +2,9 @@
 type: person
 title: Larry Sharon (investor partner — the railcar-depreciation group)
 date: 2026-09-28
-aliases: [Larry, Larry Sharon, Speaker 5 at the Sept-28 lunch, Larry_John, Val+Larry_financial_engineering, Speaker 2 on the Sept-29 3:40 PM segment, Speaker 1 on the Sept-29 6:40 PM segment, Bell Bank and Sea Coast railcar banker, one entity not two]
-source-count: 13
-open-commitments: 5
+aliases: [Larry, Larry Sharon, Speaker 5 at the Sept-28 lunch, Larry_John, Val+Larry_financial_engineering, Speaker 2 on the Sept-29 3:40 PM segment, Speaker 1 on the Sept-29 6:40 PM segment, Bell Bank and Sea Coast railcar banker, one entity not two, Speaker 1 on the Oct-7 4:19 PM call]
+source-count: 15
+open-commitments: 7
 open-questions: 0
 disambiguation: "Not the Atlanta partner 'Larry Simmons' of Sean Fellows's 1990s history, and not 'Larry Hilimire' of Stanton Automatics (ECHO video). This Larry is Val's investor friend who proposed the Entity A / Entity B depreciation deal on Sept 28 2026."
 ---
@@ -61,6 +61,22 @@ He called the next morning ([[wiki/meetings/2026-09-30-larry-sharon-single-entit
 - **The toll booth still tempts him.** "not only is the business good all by itself, even without the possibility of becoming a financial toll booth. I think that… the mere possibility that we can become the financial toll booth is insane."
 - **Next from him.** "When I get into my office, I'm gonna send you the structure… and… the Excel tables showing three, five, seven, and ten year terms on the leases… Let's call them leases from now on"; "once we agree, I'll have Gabe open up a Florida LLC and start drawing up a partnership agreement." Who Gabe is, he did not say.
 
+## Oct 7 2026, 4:19 PM — "the sweet spot… probably five", $199 for three years, and "let's do it together"
+
+A phone call ([[wiki/meetings/2026-10-07-larry-sharon-hardware-rental-pricing-and-november-pilot.md]]; Val greets "Speaker 1" as "Larry"). In short, all from [[raw/Meeting_Transcript_Larry_Hardware_Rental_Pricing_and_November_Pilot-October-7-2026.md]]; full detail on [[wiki/projects/transactional-equipment-depreciation-investor-deal.md]] (Oct 7):
+
+- **His math, on the real cost.** "I'm talking about the machine costing four K, not fifteen." Below three years the cost is not recaptured unless the monthly price is very high; at $150 less the 10% operation fee, "you're at 135".
+- **Against short terms.** Operators "did not become operators by being idiots"; "one year makes no sense whatsoever. Three years, you're on the borderline"; the sweet spot is "between three and seven, which probably five"; rentals "are going to be sticky". "I don't think that we should offer any solution less than three years, unless they want to buy it for cash."
+- **On price.** His earlier model: "between one fifty and one eighty" for five-to-nine-year terms, and for three years "two twenty-five or two zero-five". On Val's $199: "at two hundred bucks on a three-year term, seventy-two hundred, I can live with that" — with management, updates and upgrades included. Money back "in two years", then recurring revenue "for three to eight years after that".
+- **On the pilot.** He asked what happens to the test units; to Val's offer to fund 100 units alone or together: "let's just do it together. We're already doing it." He will "calculate both options" (which two is unclear).
+
+Per the owner's 2026-10-05 ruling these points are a working proposal, not decisions.
+
+### Open commitments (Oct 7 2026)
+
+- [ ] Larry Sharon — "We'll calculate both options" (which two is unclear) — due unspecified — [[raw/Meeting_Transcript_Larry_Hardware_Rental_Pricing_and_November_Pilot-October-7-2026.md]]
+- [ ] Larry Sharon, with Val — process the documents for funding the test units together — due unspecified — [[raw/Meeting_Transcript_Larry_Hardware_Rental_Pricing_and_November_Pilot-October-7-2026.md]]
+
 ## Open commitments
 
 - [ ] Larry Sharon — send Val the structure and the Excel tables for the 3, 5, 7 and 10-year lease terms ("I'm sending everything to you today") — due Sept 30 2026 — [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]] *(restates the Sept-29 promise of 3/4/5/7/10-year models; the 4-year term is not mentioned today [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]])*
@@ -92,3 +108,5 @@ He called the next morning ([[wiki/meetings/2026-09-30-larry-sharon-single-entit
 - [[raw/Meeting_Transcript_Pricing_Pivot_to_Cash_and_Revenue_Share-September-29-2026.md]]
 - [[raw/Meeting_Notes_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Larry_Hardware_Rental_Pricing_and_November_Pilot-October-7-2026.md]]
+- [[raw/Meeting_Notes_Larry_Hardware_Rental_Pricing_and_November_Pilot-October-7-2026.md]]

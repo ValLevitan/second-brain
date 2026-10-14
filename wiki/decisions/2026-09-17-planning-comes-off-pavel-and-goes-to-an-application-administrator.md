@@ -3,7 +3,7 @@ type: decision
 title: Planning comes off Pavel Frolov and goes to an "application administrator" — Dmitri Kovalchuk proposed, not yet agreed
 date: 2026-09-17
 aliases: [planning comes off Pavel, application administrator, аппликейщен администратор, Dima Kovalchuk administrator, Зиму Ковальчука, planning handover, полный трансперация, Pavel comes to Atlanta]
-source-count: 13
+source-count: 15
 status: active
 open-commitments: 4
 open-questions: 2
@@ -141,6 +141,16 @@ At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-ne
 
 At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-reopen-rules.md|Oct-5 Minsk stand-up]] (Russian) [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]]: "Я и [из отчёта] убрал сегодняшнюю дату, чтобы вас не мучило что? То задачи сегодня стекают. А на выходных ещё написал 4 автоматизации, которые должны. Немножко помогать с очередями" — the one he described: all child features Completed → the capability moves itself to Request Review; "если кого то что то не будет работать, пожалуйста, сообщайте." The reopen cascade asked for by Chudinov and ruled by Irina is on [[wiki/decisions/2026-10-05-a-capability-moves-itself-to-request-review-when-all-its-features-are-completed-and-a-new-story-sends-feature-and-capability-back-to-to-do.md]] [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]. *(He is writing workflow automation and running the report; whether this is the "application administrator" role is still an **inference**.)*
 
+## Update, Oct 7 2026 — "не забывайте про сроки", and the Jira Hierarchy report sends Irina 44 regulations
+
+At the [[wiki/meetings/2026-10-07-daily-standup-test-coverage-first-and-ai-task-numbers.md|Oct-7 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]:
+
+- **Overdue.** [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]]: "не забывайте про сроки просроченных сдач, но у саши много накопилось порядка 17" — about 17 overdue for [[wiki/people/alexander-biratka.md|Biratka]]. In the same breath he announced that the stand-ups are now read by an AI pilot (see [[wiki/projects/ai-project-manager-and-company-second-brain.md]], Oct 7).
+- **The Jira Hierarchy report.** [[wiki/people/irina-shishko.md|Irina]]: a message about "44 рекламенса, которые я чтото с ними должна сделать. Почему?" Kovalchuk: the hierarchy report — "Иерархия это… Андрея спрашивать. Это по MP один он подскажет." His first guess was regulations in archive status; Irina: they are "в активном". Reading the comments, Kovalchuk: "этот регламент активная, но они не опубликованы. Именно он на это ругается." Irina: "Репортер босик заосанина ни на кого. А ответить за это требование должна я." [[wiki/people/dmitri-chudinov.md|Chudinov]] had a similar case on the TINT project (a mailing that decided an old branch was his). [[wiki/people/pavel.md|Pavel]]: "Давайте к Андрею просто подойти… Может быть Андрей, чтото знает, чего не знаем мы." Irina: "он сейчас придёт ко мне и расскажет." "Андрей" = [[wiki/people/andrey-bosik.md|Andrey Bosik]] (the report's reporter is "босик").
+- **TINT-5 and TINT-6.** Pavel: "Лёша… посмотри тинт 5 тинт 6 ну если там чтото полезное если нет, я просто… удалю." Khamin: "Хорошо."
+
+So two reports now meet the team: Kovalchuk's discipline report (dates and statuses) and a Jira Hierarchy report whose rules Bosik owns (**inference** from "Андрея спрашивать" and the reporter field). The derived notes record the same [[raw/Meeting_Notes_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]].
+
 ## Open commitments
 
 - [x] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — take the red highlight on today's date out of his report, and read whether Jira itself can stop highlighting the current day — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]] — *Oct 5 2026: done in the report ("убрал сегодняшнюю дату"); whether Jira itself can be changed was not said* — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -174,3 +184,5 @@ At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-r
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]

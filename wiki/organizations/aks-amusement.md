@@ -3,7 +3,7 @@ type: organization
 title: AKS Amusement
 date: 2026-07-27
 aliases: [AKS Amusement LLC, AKS Amusement, AKS, AKS Amusements]
-source-count: 4
+source-count: 5
 open-commitments: 5
 open-questions: 2
 disambiguation: "§4 name note — two distinct Karims. **This** Karim is AKS Amusement's technical/operations lead, reporting to AKS's CEO Zahir. A **different** Karim is the sole owner of [[wiki/organizations/air-gaming-group.md|Air Gaming Group]], a separate multi-state operator with a large Texas footprint, who was named as such on Sept 1 2026. Different companies, different roles; neither has a person page and nothing has been merged. Resolve by context. Provisional — owner ruling pending. (Note also that AKS and **Akshar Gaming** are unrelated companies whose names happen to look alike — see [[wiki/organizations/akshar-gaming.md]].) Page note: AKS's data lead **Jay** (Feb 10 2026) is a third person, not [[wiki/people/jai.md|Jai]] of Akshar Gaming and not the Texas consultant Jay; he has no page."
@@ -93,8 +93,13 @@ On a ~42-minute [[wiki/meetings/2026-02-10-aks-amusements-performance-data-colla
 
 On **September 1 2026** an operator called **Air Gaming Group** visited the JVL Georgia office, and its decision maker was identified in the room as "**Karim**… **the only owner**," who "has partners in different companies, but he remains the decision." That is a different man from AKS's Karim, who is AKS's technical/operations lead under CEO Zahir. No source connects the two, neither has a person page, and nothing has been merged — resolve by context. See [[wiki/organizations/air-gaming-group.md]]. [[raw/Meeting_Transcript_Air_Gaming_Group_Transactional_Walkthrough-September-1-2026.md]]
 
+## Oct 6 2026 — not answering; invoiced now
+
+On the [[wiki/meetings/2026-10-06-felipe-delivery-forecast-arc-release-and-modem-notice.md|Oct-6 1:41 PM call]] Felipe said about AKS: "I have tried to reach out, but he's not responding." He planned to invoice if there was no reply by Friday. Val: do not wait — "They're a non-responding party… I have doubts about their cooperation." Felipe: "I'll send an invoice today." [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]] See [[wiki/decisions/2026-10-06-trial-customers-who-do-not-respond-are-invoiced-now.md]]. (Felipe first said "Dixie", then "Well, AKS".)
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
 - [[raw/georgia_operator_briefing_AKS.md]]
 - [[raw/Meeting_Transcript_Air_Gaming_Group_Transactional_Walkthrough-September-1-2026.md]]
 - [[raw/Meeting_Notes_AKS_Amusements_Jay_Performance_Data_Collaboration-February-10-2026.md]]

@@ -4,8 +4,9 @@ title: Igor Metelski
 date: 2026-07-14
 aliases: [Igor Metelski, Igar Miatselski, Miatselski, Igor, Igor Mitelsky, Мительский, Mitsierski, Igor Mitsierski]
 disambiguation: "RGS engineer on Efim Podvoiski codebase (= payroll Igar Miatselski). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
-source-count: 30
-open-commitments: 27
+source-count: 31
+open-commitments: 28
+open-questions: 1
 ---
 
 # Igor Metelski
@@ -195,8 +196,25 @@ At the [[wiki/meetings/2026-10-05-rage-nova-port-autotests-and-horizontal-to-ver
 - [ ] Igor Metelski — experiment with converting Dragon Pays from horizontal to vertical and back, using the existing vertical template, in parallel — due Thu Oct 8 2026 review (progress) — [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]] [[raw/Meeting_Notes_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]
 - [ ] Igor Metelski — move the local conversion tools, test scripts and game scenarios into his current repository — due unspecified ("чем скорее") — [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]
 
+## Oct 6 2026 — NOVA games, Dragon Pays tests and prose
+
+At the [[wiki/meetings/2026-10-06-daily-standup-ris-georgia-branch-and-critical-error-text.md|Oct-6 Minsk stand-up]] (Russian; speaker label) [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]:
+
+- He works on two NOVA games (the notes' reading "NOVA 2"), integrating the maths ("с Антоном ефимовскую" — **unclear**; the notes say "Anton Efimovsky's math") and moving skill features from the earlier NOVA.
+- Later the NOVA center (notes' reading) will need new progressive products, with Nebraska named; "нам не горит" — not urgent.
+- He continues Dragon Pays tests and is trying to build a vertical scene from existing resources. He will merge the Dragon Pays prose from his branch into main "сегодня". He needs a Dragon Pays feature from Pavel to open a separate branch.
+
+### Open commitments (Oct 6 2026)
+
+- [ ] Igor Metelski — merge the Dragon Pays prose into main — due Oct 6 2026 ("сегодня") — [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
+
+### Open questions (Oct 6 2026)
+
+- When will the NOVA center products for the new progressives be planned? Raised by Metelski — [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
 - [[raw/Meeting_Transcript_Game_Conversion_Vertical_Scene_Progress-September-17-2026.md]]
 - [[raw/Meeting_Notes_Game_Conversion_Vertical_Scene_Progress-September-17-2026.md]]

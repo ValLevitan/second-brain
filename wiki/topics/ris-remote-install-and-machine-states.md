@@ -3,7 +3,7 @@ type: topic
 title: RIS (remote install/setup system) and machine states
 date: 2026-02-06
 aliases: [RIS, component allow-listing, portal access, give you access to the portal, reload after component change, born on the manufacturing floor, birth certificate, validator swap fraud, remote initial setup, remote install system, remote setup, RIS modernization, machine states, sold-machine RIS, RIS subscription, manual override screens, participation financed debt-free, the Passport, passport lock, passcode key, jugular of the whole operating system, peripheral lock, it's in the center not on the side, the passport must not be killed, do not confuse RIS and passport, the bindings are good we use them wrongly, unit 17 changed its bill acceptor, operator nominates who may update the passport, a technician to me is a business owner, hard reset, passport is a symptom not a root cause, eight hard-reset cases, factory reset, decommission and recommission, error code 2, boot loop, three kinds of factory reset, restore the last RIS, file store of every RIS, soft reset, use case 11, who scans the passport, one USB for the whole bank, MVP1 release of the RIS rework, RIS rework, soft factory reset, silent reset, reuse lastly applied RIS, one RIS and a list of machines, RIS inside the cabinet, RIS improvement MVP1, RIS improvements component, RIS changes review]
-source-count: 25
+source-count: 26
 open-questions: 17
 ---
 
@@ -352,6 +352,15 @@ At the [[wiki/meetings/2026-10-05-ris-mvp1-scope-and-peach-packaging.md|Oct-5 11
 - **Printer.** Sept-28 capability 4 was "Add or remove the printer without a hard reset"; Oct-5 CAP-250 is "enable or disable printer during initial setup" — related but not stated to be the same.
 - *(The derived notes match the transcript, except that they list five capabilities where Pavel said "For this particular 4 capabilities" [[raw/Meeting_Notes_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]].)*
 
+## Oct 6 2026 (4:54 AM) — the RIS work goes to Kharetski, Georgia only; three battery cases
+
+At the [[wiki/meetings/2026-10-06-daily-standup-ris-georgia-branch-and-critical-error-text.md|Oct-6 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]:
+
+- **The branch.** CAP-252, 255, 246 and 254 go to Kharetski before his own work, for Georgia only, on the 1.14 line ("продолжение. По сути пич 3"), with nothing else added; the statistics carousel is dropped for this branch — [[wiki/decisions/2026-10-06-the-ris-mvp1-changes-are-built-for-georgia-only-on-the-1-14-svn-line-with-nothing-else-added.md]].
+- **Next in line.** Reusing the RIS saved in non-volatile memory after a factory reset ("Применить старый рис") will likely join.
+- **Critical-error text.** Plain words a technician understands; Ivan first checks the error still repeats — [[wiki/decisions/2026-10-05-the-critical-error-screen-shows-the-cause-and-fix-in-words-and-keeps-the-qr-code-in-mvp1.md]].
+- **Battery cases.** Pavel set three tests with the machine off: swap a 3 V battery for a charged one; the same with a battery at about 2.8–2.86 V; the same with a battery the machine reports as a problem (that voltage is garbled). Ivan needs a device that sets the voltage; Pavel will look for a USB one. This bears on the open battery question below; no result yet.
+
 ## Open questions
 
 - Whether Val's **Sept-23 proposal** — a release for the current machines with every Passport and RIS reference disabled except an unrestricted initial load — replaces the **Sept-11 "preserve the Passport, no changes in RAGE Studio"** ruling, or sits beside it. The Sept-23 source does not mention Sept 11; Pavel was to answer after a case-by-case review. **Sept-24 update:** the engineers planned to switch the passport check off for Georgia builds (5:41 AM, Val absent); at 7:02 AM Val defended the passport scan as "a great feature". **Sept-28 data point:** Felipe's capabilities 5 and 6 aim for a lease that "does not depend on passport scan" and parts replaced "without passport updates or to update automatically"; Pavel called them clear; Val did not rule. Still open. [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]] [[raw/Meeting_Transcript_RIS_and_Passport_Hard_Reset_Burden-September-23-2026.md]] [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]] [[raw/Meeting_Transcript_Georgia_Hard_Reset_Remedies_and_Passport_Removal-September-24-2026.md]] [[raw/Meeting_Transcript_RIS_Serial_Binding_and_Factory_Reset_Focus-September-24-2026.md]]
@@ -374,6 +383,7 @@ At the [[wiki/meetings/2026-10-05-ris-mvp1-scope-and-peach-packaging.md|Oct-5 11
 
 ## Sources
 
+- [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/RIS Modernization & Operator Flexibility Alignment.md]]
 - [[raw/ris_business_central_integration-april-3-2025.md]]
 - [[raw/set_up_screen_omni-apr-24-2025.md]]

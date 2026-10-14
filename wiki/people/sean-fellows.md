@@ -3,7 +3,7 @@ type: person
 title: Sean Fellows
 date: 2026-07-23
 aliases: [Sean Fellows, Shawn Fellows, Sean Phillips, Sean, Shonfellows, Shonfello, Sonfellows, "shunned fellows", I'm not going to upgrade 74 games, I'm not going to be a reseller, arms-length relationship, everything we do is data]
-source-count: 10
+source-count: 11
 disambiguation: "Sean Fellows = CEO/owner of the Georgia operator Diamond Amusement — resolve by the Georgia-COAM / operator / market-data context. Distinct from Sean Riley (JVL's external chartered accountant, finance/tax context) and from the still-unresolved batch-32 FlexPay-enclosure 'Sean' (surname unknown). Never merge these; decide by context, not the name string."
 ---
 
@@ -83,8 +83,13 @@ On the [[wiki/meetings/2026-09-25-incomm-john-exit-and-blue-card-hold.md|Sept-25
 
 The name "Sean" appears for three different people in this wiki — see the `disambiguation` field above. Sean Fellows is the operator/Diamond-Amusement Sean; he is **not** [[wiki/people/sean-riley.md|Sean Riley]] (JVL's external accountant) nor the unresolved FlexPay-enclosure "Sean."
 
+## Oct 6 2026 — "Shawn" has not answered (by context)
+
+On the [[wiki/meetings/2026-10-06-felipe-delivery-forecast-arc-release-and-modem-notice.md|Oct-6 1:41 PM call]] Felipe: "I have also reached out to Shawn a couple of times about what he promised to give us, no response so far." Val: "I also sent them a message and no response." [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]] *(Inference: this "Shawn" is Sean Fellows — the source gives no surname or company. What was promised is not said; on Sept 10 he had undertaken to send a per-game breakdown and to buy two pilot machines.)*
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
 - [[raw/Diamond_Shawn_Fellows_interview-February-9-2026.md]]
 - [[raw/Exec_recap_Diamond_Amusement-February-9-2026.md]]
 - [[raw/felipe_georgia_market_update-may-29-2025.md]]

@@ -4,8 +4,8 @@ title: Anton Seregin
 date: 2026-07-13
 aliases: [Anton Seregin, Seregin, Anton Seryogin, Серёги, Серёгин]
 disambiguation: "Minsk payroll / React-TS front-end dev, this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 21
-open-commitments: 6
+source-count: 24
+open-commitments: 7
 ---
 
 # Anton Seregin
@@ -122,7 +122,25 @@ At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-r
 - [ ] Anton Seregin — run the printer scenarios (success, paper jam, printer failure, disconnect) and the barcode-scanner ones on a real device, compare the two paths, then mark them verified — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [ ] Anton Seregin ("ну поправимся"; not assigned by name) — change "kiosk" to "terminal" in the Jira feature names and descriptions, not in commits — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 
+## Oct 6 2026 — FQ-67 done, prose for the SDK UI kit, and the front-end contract question
+
+At the [[wiki/meetings/2026-10-06-daily-standup-ris-georgia-branch-and-critical-error-text.md|Oct-6 Minsk stand-up]] (Russian; speaker label) [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]:
+
+- FQ-67 accuracy work is done; he needs a terminal for a few hours to check it.
+- He added prose and ADRs to the SDK UI kit (it was at zero) and to the Flex IQ Pay dispensers repository.
+- He asked what a contract means for a front-end app; Pavel's answer is on [[wiki/decisions/2026-09-04-data-contracts-closed-every-repository-by-september-11.md]].
+- Vladimir asked him to look at FQ-112 (bringing Anton Leshkevich's daemon change into the emulator). He will tidy his Jira.
+
+### Open commitments (Oct 6 2026)
+
+- [ ] Anton Seregin — look at FQ-112 (Anton Leshkevich's daemon change into the emulator) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
+
+## Oct 7 2026 — Jira cleaned, three repositories for prose and contracts, emulator fixes in parallel
+
+At the [[wiki/meetings/2026-10-07-daily-standup-test-coverage-first-and-ai-task-numbers.md|Oct-7 Minsk stand-up]] (Russian; speaker label) [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]: he cleaned his Jira and closed one item and its story (the number is garbled); took three repositories for prose and contracts, most of it done; works on emulator fixes in parallel ("я и так это делаю параллельно"); a story from Khamin, and maybe one from Vladimir, is still to do. See [[wiki/topics/test-automation-strategy.md]] (Oct 7).
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
@@ -145,3 +163,5 @@ At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-r
 - [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]

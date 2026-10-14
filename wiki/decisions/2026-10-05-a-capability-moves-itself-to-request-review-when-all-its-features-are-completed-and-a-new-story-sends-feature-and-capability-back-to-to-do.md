@@ -3,7 +3,7 @@ type: decision
 title: A capability moves itself to Request Review when all its child features are Completed (Kovalchuk's weekend automations), and a story added under a Completed feature sends the feature to To Do and its capability from Request Review to To Do — Kovalchuk automates it, the developer moves it to In Progress when he takes the story; every story must hang under a parent
 date: 2026-10-05
 aliases: [Jira reopen rules, four automations, 4 автоматизации, capability to Request Review automatically, все дочерние фичи комплект капабилити реквест ревью, story reopens feature and capability, фичу из комплитов в туду, капабилити в туду, пускай будет всё в туду, open story hiding inside a done tree, внутри сидит открытая история, stories without a parent, ряд оказались ни к кому, today's date no longer red, убрал сегодняшнюю дату]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 1
 open-questions: 1
@@ -33,6 +33,14 @@ In one line: **all child features Completed → the capability goes to Request R
 - **Request Review now has a use for capabilities.** On Oct 1 Kovalchuk said the status "был только для лениных"; the new automation parks a capability there once its features are done. Whether Request Review stays in the *feature* workflow is still the Oct-1 open question (annotated there).
 - It rides on Kovalchuk's report and discipline cadence ([[wiki/decisions/2026-09-17-planning-comes-off-pavel-and-goes-to-an-application-administrator.md]], Oct-5 update) and on the capability-requires-requirement chain of [[wiki/decisions/2026-09-15-capability-requires-requirement-and-dates-sit-on-the-lowest-level.md]] (link is context, not a citation).
 
+## Oct 6 2026 — the warning triangle stays, and so does the status flow
+
+At the [[wiki/meetings/2026-10-06-daily-standup-ris-georgia-branch-and-critical-error-text.md|Oct-6 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]:
+
+- **The triangle.** Kovalchuk: when all features are Completed but the capability is still blue (In Progress or Request Review), Jira shows a warning triangle, because Jira reads only colours (grey, blue, green). He asked whether Request Review should be grey. Pavel: grey is bad and green is bad; "пусть лучше показывает жёлтый треугольник. Мы, по крайней мере будем это открывать, смотреть, почему она в инпрогрессе не закрыта? Надо ли тесты какието, если не надо будем закрывать."
+- **The flow.** Kovalchuk asked whether Proposed, Accepted and To Do are all needed. Irina: Accepted means features will now be created. Pavel: To Do means planning has started and rough dates are set. Kovalchuk: "Но все тогда оставляем как есть."
+- **Due dates.** Kovalchuk: watch your due dates. For closed items with no due date, Pavel: "закрыто, наверное уже не стоит"; Kovalchuk: if the report keeps flagging them, better fill them.
+
 ## Open commitments
 
 - [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — automate the reopen: a story created under a Completed feature moves the feature Completed → To Do and its capability Request Review → To Do — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -44,5 +52,6 @@ In one line: **all child features Completed → the capability goes to Request R
 **§15.8:** clear — Jira process only. Who left open stories under closed features was asked and deliberately not named ("у нас фамилии не называются"); nothing is recorded. **§15 #9:** none.
 
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]

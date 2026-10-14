@@ -3,10 +3,10 @@ type: decision
 title: PROPOSAL (no decision yet — owner ruling 2026-10-05): A 100-machine trial is the proof of concept; after it Larry takes the business to his banks (Bell Bank, Seacoast) and possibly to InComm with a first right of refusal
 date: 2026-09-30
 aliases: [100 machine trial, hundred machines is a good proof of concept, small test small run, proof of concept then bank, Bell Bank, Sea Coast, Seacoast, traditional financing like my rail cars, thirty-three percent down, the note is repaid from inside the company, first right of refusal, InComm as financier, financial toll booth, the business will finance itself past one thousand installations, we don't even need a handshake agreement, the faster we move the better we look]
-source-count: 2
+source-count: 4
 status: active
 open-commitments: 2
-open-questions: 2
+open-questions: 1
 ---
 
 # A 100-machine trial first; then the banks, and possibly InComm (Sept 30 2026)
@@ -37,14 +37,24 @@ The derived notes record "100-machine trial as the proof of concept; more if JVL
 - The Sept-28 whole-market arithmetic (7,000 locations; a 20% target of about 2,000) on [[wiki/projects/transactional-equipment-depreciation-investor-deal.md]] is unchanged as a ratio; this decision sets the first step at about 100 machines.
 - "Let's call them leases from from from now on" — the customer-facing instrument stays the lease of [[wiki/decisions/2026-09-29-pitch-the-transactional-equipment-as-a-lease-with-set-terms-and-a-buy-out-or-return-not-as-free.md]] [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]].
 
+## Oct 7 2026 update — test units from November 1, and Val and Larry fund the 100 units together (still a proposal)
+
+On the [[wiki/meetings/2026-10-07-larry-sharon-hardware-rental-pricing-and-november-pilot.md|Oct-7 4:19 PM call]] [[raw/Meeting_Transcript_Larry_Hardware_Rental_Pricing_and_November_Pilot-October-7-2026.md]]:
+
+- **The start.** Val: "the goal is to put test units on locations. Which is starting first of November… November and December we're starting between fifty and a hundred locations"; then "maybe the first quarter of 27… rolling out something more substantial" (that line carries the Plaud label "Clarence"; Val by context — **inference**).
+- **Who pays.** Larry asked what happens to the test units. Val: "100 [units], I don't care, I can put the money myself, you can put it together with me." Larry: "let's just do it together. We're already doing it, let's do it together." Val: "Good. Everything is prepared, ready money for 100 [units]. When the movement starts, I will tell you." The documents can be processed in the meantime; "If it doesn't go anywhere, then I don't need the money"; fifty a month would be "Also good." ("yuan" read as "units" — the notes' reading.)
+- **Not answered:** what happens to the test units after the test.
+
+That these test units are this page's 100-machine trial is an **inference** (both are about 100 units as the first step; nobody tied them on tape). It answers the open question below on the time frame. **Still a proposal** under the owner's 2026-10-05 ruling. The derived notes list "Val and Larry fund the 100-unit pilot together" as a decision [[raw/Meeting_Notes_Larry_Hardware_Rental_Pricing_and_November_Pilot-October-7-2026.md]].
+
 ## Open commitments
 
-- [ ] Val Levitan (JVL) — put out the 100-machine trial ("We have a handshake agreement. We're ready to go"), or more if able — due unspecified — [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]]
+- [ ] Val Levitan (JVL) — put out the 100-machine trial ("We have a handshake agreement. We're ready to go"), or more if able — due unspecified — [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]] *(Oct 7: start planned for November 1; the 100 units to be funded by Val and Larry together; Val to tell Larry when it starts [[raw/Meeting_Transcript_Larry_Hardware_Rental_Pricing_and_November_Pilot-October-7-2026.md]])*
 - [ ] Larry Sharon — after the proof of concept, present the business to Bell Bank / Seacoast for traditional financing, and possibly to InComm with a first right of refusal — due after the trial — [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]]
 
 ## Open questions
 
-- What is the time frame for the 100 machines? None was given — [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]]
+- ~~What is the time frame for the 100 machines? None was given — [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]]~~ **Answered Oct 7 2026 (as a plan):** test units from November 1, 50–100 locations in November–December, more in Q1 2027 — [[raw/Meeting_Transcript_Larry_Hardware_Rental_Pricing_and_November_Pilot-October-7-2026.md]]
 - Who are InComm's competitors Val means? One he could not name ("Blackwater… I might be misquoting"), and "NCR", which he says "is being purchased right now by Brinks" (not checked) — [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]]
 
 **§15.8:** clear — deal and financing economics only. **Personal matters not recorded.** **§15 #9:** none.
@@ -52,3 +62,5 @@ The derived notes record "100-machine trial as the proof of concept; more if JVL
 ## Sources
 - [[raw/Meeting_Notes_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Larry_Hardware_Rental_Pricing_and_November_Pilot-October-7-2026.md]]
+- [[raw/Meeting_Notes_Larry_Hardware_Rental_Pricing_and_November_Pilot-October-7-2026.md]]

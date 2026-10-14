@@ -3,9 +3,10 @@ type: person
 title: Sergey Tsymanov
 date: 2026-07-14
 aliases: [Sergey Tsymanov, Siarhei Tsymanau, Sergey Tsimanov, Tsymanau, Tsimanov, Sergei Tsyganov, Tsyganov, Цыганов, Sergei, Sergey]
-source-count: 24
-open-commitments: 12
+source-count: 27
+open-commitments: 14
 disambiguation: "Minsk engineer who drafts CMS requirements with the backend 'Dima' (Chudinov). OWNER-CONFIRMED 2026-07-14 = the payroll 'Siarhei Tsymanau' (Belarusian) and the IT-records 'Sergey Tsimanov' — same person; Tsymanov canonical, Tsymanau/Tsimanov aliases. Distinct from other 'Sergei/Sergey' names (e.g. Sergei Novitsky the advanced-setup technician; Sergey Vysotsky the outside digital-growth specialist, wiki/people/sergey-vysotsky.md); resolve by context."
+open-questions: 1
 ---
 
 # Sergey Tsymanov
@@ -167,7 +168,32 @@ At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-r
 
 **§15.8:** clear. **§15 #9:** none.
 
+## Oct 6 2026 — Flex IQ alerts, and a terminal that ran out of memory after an update
+
+At the [[wiki/meetings/2026-10-06-daily-standup-ris-georgia-branch-and-critical-error-text.md|Oct-6 Minsk stand-up]] (Russian; speaker label) [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]:
+
+- He took feature 55: alerts on the Flex IQ screens.
+- After an update that day a terminal ran out of memory and came up badly. Cause: log sizes are set differently per log type and can reach "почти до 2 гигабайт", while the partition used for updates is "по моему 3 и 9 гигабайт". It can happen again. He will write a feature; who does it, he or "дима", is not decided.
+- Irina asked him to link FIX-135 to the right feature.
+
+### Open commitments (Oct 6 2026)
+
+- [ ] Sergey Tsymanov — write the feature for the log-size / update-partition memory problem, and link FIX-135 — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
+
+### Open questions (Oct 6 2026)
+
+- Who carries out the memory-problem feature — Tsymanov or "дима"? — [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
+
+## Oct 7 2026 — a capability for the Flex memory problems; printer statuses today
+
+At the [[wiki/meetings/2026-10-07-daily-standup-test-coverage-first-and-ai-task-numbers.md|Oct-7 Minsk stand-up]] (Russian; label "Sergey Tsimanov") [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]: "разбирался с проблемами по памяти на флик, там создал каппобилити пару фич под них" — a capability and a couple of features for the memory problems on Flex. Today he finishes the printer statuses, then "перейду наверное к этому, который вчера создал" — the new work he created. This answers the Oct-6 "write the feature" item and, by his own words, suggests he takes the work himself (**inference**). See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 7).
+
+### Open commitments (Oct 7 2026)
+
+- [ ] Sergey Tsymanov — finish the printer statuses, then the Flex memory features — due Oct 7 2026 for the printer statuses — [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
+
 ## Sources
+- [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
@@ -193,3 +219,5 @@ At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-r
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]

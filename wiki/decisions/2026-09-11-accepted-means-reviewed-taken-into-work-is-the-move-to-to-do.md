@@ -3,7 +3,7 @@ type: decision
 title: "Accepted" on a capability means reviewed and accepted, not taken into work — taken into work is the move to To Do when the release scope is set, and the transition will be automated from feature status
 date: 2026-09-11
 aliases: [the green status in the middle misleads, accepted is not taken into work, move to To Do when we say we are doing MVP 1, automate capability status from feature status, a feature going In Progress moves its capability, move all MVP 1 capabilities into To Do, green Accepted looks done, change the colour, only not In Progress]
-source-count: 8
+source-count: 10
 status: active
 open-commitments: 5
 open-questions: 2
@@ -77,6 +77,10 @@ At the [[wiki/meetings/2026-09-24-daily-standup-firmware-delivery-and-capability
 
 At the [[wiki/meetings/2026-10-01-daily-standup-sas-mode-flag-and-feature-status-rules.md|Oct-1 Minsk stand-up]] (Russian) the Sept-24 "Completed versus Closed" question came back through a discipline email on a closed feature with a story under it. [[wiki/people/dmitri-chudinov.md|Chudinov]]: "Мы говорили, что разработчик делает комплект, но не делает клоуз… всё было в голос, сказали клоус. Нельзя надо комплитат". [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]]: "Реквист ревью вроде только для ковапелити обсуждали", and later "этот рекластью был только для лениных… у нас для разработчиков такое не использовалось" — the feature-level Request Review was made for [[wiki/people/lena.md|Lena]]'s team. [[wiki/people/pavel.md|Pavel]]: "пусть будут комплиты тогда всётаки типа финальной степ для разработчика"; [[wiki/people/irina-shishko.md|Irina]]: "Только из комплект в туду"; Kovalchuk: "Хорошо, я добавлю." Full ruling on [[wiki/decisions/2026-10-01-completed-is-the-developers-last-step-and-a-found-problem-sends-the-feature-from-completed-back-to-to-do-as-a-story.md]] [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]. The capability-level flow above (Accepted → To Do → In Progress → Req Review) is not changed; the Sept-24 Kovalchuk commitments below were not mentioned.
 
+## Update, Oct 7 2026 — anything created for MVP 1 goes straight to To Do, even with no due date
+
+At the [[wiki/meetings/2026-10-07-daily-standup-test-coverage-first-and-ai-task-numbers.md|Oct-7 Minsk stand-up]] (Russian) [[wiki/people/irina-shishko.md|Irina]] asked that stories be pulled up "чтоб у нас не… стояли блоками, блокирующие фича". [[wiki/people/pavel.md|Pavel]]: "если вы создаете это, нам надо в MVP один, вы сразу ставьте его в туду, даже если у него срок не будет, чтоб мы видели его вот здесь. Вот в рамках задач для туду." Irina: "вроде уже это все говорили" — said before; she already pulls up stories created by others "чтоб не валялась, потому что знаю, что иначе пропадёт" [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]. The derived notes record it as Pavel's decision [[raw/Meeting_Notes_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]. It extends the Sept-11 "move all MVP 1 capabilities into To Do" to new MVP 1 items of any level (**evolution**, no conflict).
+
 ## Open commitments
 
 - [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — automate the capability status transition from feature status (a feature going In Progress moves its capability To Do → In Progress, and back), after testing it — due after Monday Sept 14 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
@@ -105,3 +109,5 @@ At the [[wiki/meetings/2026-10-01-daily-standup-sas-mode-flag-and-feature-status
 - [[raw/Meeting_Notes_MVP1_Requirements_Cleanup_and_Autotests-September-23-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
