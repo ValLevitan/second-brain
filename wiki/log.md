@@ -5481,3 +5481,6 @@ Progress: steady-state run of 2026-10-14 **COMPLETE — batches 258–262 (5 bat
 **Owner Decisions queue:** overview.md LIVE OPEN gained A11–A17 and C13–C15 (this run). **overview.md refreshed** (counts by kind, health, privacy note incl. one older age mention on sean-fellows flagged for the owner).
 **Verification totals for the run:** 138 facts / 138 held across 5 batches (26 + 24 + 29 + 23 + 36); 73 against Russian strings; 0 quarantines.
 Lint only diagnosed; content pages were not edited by lint. `skipped.md` gained the run's ledger block (no new out-of-scope files; the two Clayton-Aaron vault spelling edits noted).
+
+## [2026-10-14] note | weekly report written — steady-state run of 2026-10-14 complete
+Report file overwritten (30 recordings Oct 2 – Oct 14 + the September SD VLT story; 138/138 verified; owner items A11–A17, C13–C15). Pushed to GitHub (ValLevitan) before the report commit; this commit pushed too. qmd update + embed run after the push.
