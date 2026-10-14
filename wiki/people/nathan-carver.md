@@ -3,8 +3,8 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 47
-open-commitments: 11
+source-count: 48
+open-commitments: 12
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
 
@@ -195,6 +195,14 @@ This answers the Oct-1 question whether his experiments go on: they become this 
 - [ ] Nathan Carver — experiment with the GitHub-to-MSBC bridge in phases, items first, then bills of material, using the development MSBC instances; trace an existing MSBC BOM back to its items and work out what it would look like in GitHub — due unspecified — [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]] *(Oct 1: Val says he will build the first structure himself with Claude Code; whether this item stands beside it is unclear on tape [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]])* *(Oct 5: it becomes the Flex Pay Slim reverse spike above [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]])*
 - [ ] Nathan Carver — check how others handle an engineering-to-BC item/BOM sync before the deep investigation — due unspecified — [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]
 
+## Oct 8 2026 (in absentia) — "show something on Monday"
+
+On the [[wiki/meetings/2026-10-08-genadi-bom-standard-flex-slim-metal-mikhail-hand-over-and-data-contracts.md|Oct 8 3:59 PM alignment call]] Val told Genadi he works closely with Nathan ("И он меня понимает") and that "Он должен показать… чтото в понедельник" (Oct 12). Val wants the week of Oct 12–20 spent finishing Nathan's BOM work, with Genadi testing it, so JVL can order without Mikhail Perelman; and Val will practise a Hangzhou quote himself to understand the nuances "когда со мной нэйтан" [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]. See [[wiki/decisions/2026-10-08-msbc-stops-being-the-bom-source-and-the-week-of-october-12-goes-to-ordering-without-mikhail.md]] and [[wiki/decisions/2026-10-05-nathan-carver-runs-the-flex-pay-slim-bom-reverse-spike-and-flex-port-follows.md]] (Oct-8 update). Whether he is away that week is open on the Oct-8 decision page.
+
+## Open commitments (Oct 8 2026)
+
+- [ ] Nathan Carver — show progress on the BOM system — due Monday Oct 12 2026 (stated by Val; Nathan absent) — [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
 - [[raw/Meeting_Notes_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
@@ -244,3 +252,4 @@ This answers the Oct-1 question whether his experiments go on: they become this 
 - [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
 - [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+- [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]

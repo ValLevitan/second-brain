@@ -4,8 +4,8 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 82
-open-commitments: 45
+source-count: 84
+open-commitments: 47
 open-questions: 0
 ---
 
@@ -595,6 +595,20 @@ At the [[wiki/meetings/2026-10-06-daily-standup-ris-georgia-branch-and-critical-
 
 At the [[wiki/meetings/2026-10-07-daily-standup-test-coverage-first-and-ai-task-numbers.md|Oct-7 Minsk stand-up]] (Russian; label "Dzmitry Chudzinau") [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]: PORT-82 (two SAS connections) closed; the MudaGoose removal is being deployed to dev and stage, to close if the tests pass; he created a couple of stories. Pavel saw his pull requests, no remarks; the Claude review was done and fixed — [[wiki/decisions/2026-10-06-mudagoose-is-removed-from-the-code-entirely-and-git-history-is-the-way-back.md]] (Oct-7 update). He also had a Jira-mailing case like Irina's on the TINT project.
 
+## Oct 8 2026 — the lease works only by date; faster card activation; a SAS fix in the machine emulator; versions on QA stories
+
+At the [[wiki/meetings/2026-10-08-daily-standup-lease-expiry-scenarios-and-flex-signal-quality.md|Oct-8 Minsk stand-up]] (Russian; label "Dzmitry Chudzinau") [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]:
+
+- **Lease.** The server works only with the lease date; there is no way yet to switch off a location. The lease on the test terminals expired that morning and all Flexports stopped. The scenarios he sent must be reviewed with "Андрей" (Klimovich by context — inference) — [[wiki/decisions/2026-09-11-lease-blocking-reaches-the-flex-ports-and-is-never-automatic.md]] (Oct-8 update).
+- **Card tests.** Run them on the real hardware with the real white cards, or bring up all transaction services in Docker as one local stand, with a setting for real or emulated InComm — [[wiki/decisions/2026-10-05-the-payment-hub-autotest-stand-is-not-mvp1-and-a-separate-meeting-with-andrei-designs-it.md]] (Oct-8 update).
+- **His work.** He refactored card activation (fewer hops, visibly faster); found why a transaction to a machine failed — the machine emulator's SAS handling needs fixes; current task F-52 (screens), no gaps against the mock-ups; plans a traffic-log review. Port firmware review: not before the 15th; Irina and Pavel: not MVP 1 — [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 8).
+- **Versions.** He asked QA to name the Flex IQ, port OS and firmware versions on every finding — [[wiki/decisions/2026-10-05-a-release-bakes-a-file-of-the-component-versions-it-contains-into-the-artifact.md]] (Oct-8 update).
+
+### Open commitments (Oct 8 2026)
+
+- [ ] Dmitri Chudinov — fix SAS handling in the machine emulator; review the traffic logs — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+- [ ] Dmitri Chudinov, with Andrei Klimovich (by context) — review the lease and location scenarios against the requirements — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -679,3 +693,5 @@ At the [[wiki/meetings/2026-10-07-daily-standup-test-coverage-first-and-ai-task-
 - [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]

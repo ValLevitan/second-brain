@@ -4,8 +4,8 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "IT (GitHub-admin, infrastructure, secrets/Azure, AI-tool accounts) — the IT-context "Dima". Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 52
-open-commitments: 15
+source-count: 55
+open-commitments: 16
 open-questions: 3
 ---
 
@@ -306,6 +306,21 @@ At the [[wiki/meetings/2026-10-07-daily-standup-test-coverage-first-and-ai-task-
 - "митинги уже будут уже пилот обрабатываются искусственным интеллектом и должны будут создаваться задачи… Желательно с номерами" — [[wiki/projects/ai-project-manager-and-company-second-brain.md]] (Oct 7).
 - On Irina's 44 regulations: the hierarchy report is Andrei's ("Андрея спрашивать"); the comments say the regulations are "активная, но они не опубликованы" — [[wiki/decisions/2026-09-17-planning-comes-off-pavel-and-goes-to-an-application-administrator.md]] (Oct-7 update).
 
+## Oct 8 2026 — watch your dates; a glossary of Jira codes for the PM agent
+
+At the close of the [[wiki/meetings/2026-10-08-daily-standup-lease-expiry-scenarios-and-flex-signal-quality.md|Oct-8 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]: "все молодцы, что следите за сроками", keep watching them. For the PM agent, a glossary of the Russian pronunciation of Jira project codes is needed, "Потому что, скорее всего, он их не поймет" — [[wiki/projects/ai-project-manager-and-company-second-brain.md]] (Oct 8). No owner was named.
+
+
+## Oct 8 2026 (8:31 AM) — working on the second brain; the AI Draft window
+
+- At the [[wiki/meetings/2026-10-08-ai-pm-listener-scope-draft-lifetime-and-october-12-go-live.md|Oct-8 AI-PM review]] Bosik reported that Kovalchuk ("Дима") has started work on the company second brain [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]].
+- He showed the feature the agent created from the Oct 6 meeting, linked to capability 259 [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]].
+- On the "AI Draft" lifetime he argued one day is too short: a meeting at 19:00 Minsk time will not be seen by morning, so the agent would delete what nobody has looked at. He also suggested a rule that people must review the created items within a set time. The window was not ruled — see [[wiki/decisions/2026-10-08-the-ai-pm-goes-live-in-real-jira-projects-on-october-12-on-its-current-architecture-without-lenas-meetings.md]] [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]].
+
+## Open commitments (Oct 8 2026)
+
+- [ ] Dmitri Kovalchuk — continue building the company second brain — due unspecified — [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]] [[raw/Meeting_Notes_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -360,3 +375,6 @@ At the [[wiki/meetings/2026-10-07-daily-standup-test-coverage-first-and-ai-task-
 - [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+- [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
+- [[raw/Meeting_Notes_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]

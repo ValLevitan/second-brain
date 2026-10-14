@@ -3,7 +3,7 @@ type: decision
 title: The urgent RIS changes (CAP-252, 255, 246, 254) are built for Georgia only, on the 1.14 SVN line, with nothing else added — Kharetski does them before his own work, and the statistics carousel is dropped for this branch
 date: 2026-10-06
 aliases: [RIS Georgia branch, Georgia only 1.14 branch, 1.14 plus these changes and nothing else, continuation of Peach 3, carousel for Liza dropped, карусель для лизы, statistics only when scanned, срочные задачи о доработке рис и паспорта]
-source-count: 4
+source-count: 6
 status: active
 open-commitments: 3
 open-questions: 1
@@ -33,6 +33,14 @@ The Oct-5 release was cut to what fits about two weeks ([[wiki/decisions/2026-10
 
 At the [[wiki/meetings/2026-10-07-daily-standup-test-coverage-first-and-ai-task-numbers.md|Oct-7 Minsk stand-up]] (Russian) Kharetski: he went over the tasks he was given with Claude, which "решил, что разумнее начинается обработки ошибок" — error handling is, in principle, done. The task numbers he read are garbled ("12 40", "2", "39"). Next, by Pavel's summary: "типа выпили кюар и статистике" — remove the QR and the statistics (by context the statistics-QR item of Oct 6 above — **inference**). He also mentioned the release made the day before and a question from Ivan to be handled later [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]].
 
+## Update, Oct 8 2026 — task 1239, a new lease for the old GA COAM; the old release cannot move to Git
+
+At the [[wiki/meetings/2026-10-08-daily-standup-lease-expiry-scenarios-and-flex-signal-quality.md|Oct-8 Minsk stand-up]] (Russian) [[wiki/people/evgeny-kharetski.md|Kharetski]]: he is on "12:39" (the notes read task 1239) — "Новая лиза для гаккуан старого" (the notes: a new lease for the old GA COAM). The version is old and there are old and new protocols, so the server side had questions; "вчера уже там… Решения приняли". He had hoped to move the release of this version to Git, "но не получится, потому что… старая там всё на некс завязано" (the notes: it depends on Nexus). He also fixed a bug where a tab did not show, and re-released [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]].
+
+Whether 1239 is one of the CAP items above is not stated. Pavel's Oct-6 offer to move the branch to git is the nearest context; Oct 8 says that move does not work for the old release (**inference** that the two refer to the same release line).
+
+*On the open question below:* in this thread "лиза" is read by the notes as "lease" on Oct 8. The Oct-6 "карусель для лизы" may also mean lease, not a person — **inference only**; the question stays open.
+
 ## Open commitments
 
 - [ ] Evgeny Kharetski — do CAP-252, 255, 246 and 254 for Georgia on the 1.14 line before his other work — due about the end of next week (notes: about Oct 16 2026) — [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
@@ -49,3 +57,5 @@ At the [[wiki/meetings/2026-10-07-daily-standup-test-coverage-first-and-ai-task-
 - [[raw/Meeting_Notes_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]

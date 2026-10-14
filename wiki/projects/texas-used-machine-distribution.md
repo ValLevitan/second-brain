@@ -3,7 +3,7 @@ type: project
 title: Texas used-machine distribution (via EDS)
 date: 2025-03-22
 aliases: [Texas market, JAMMA pinboard, Fusion Game Group, Omega cabinets, Torch Amusements, Missouri decal fee, Beaumont, Texas distribution, Texas EDS plan, Texas content prohibition, Texas branch, reconditioned machines, wild boar theme, WPU, PTI, PTI Sentry, Jordan Barberio, Joe Hollow, Joe Hello, Hello Games, Barberio Amusement, Capitol Amusement, Texas recycler test, pure skill state, Fannin County, Stephen Fenoglio, county patchwork, Texas net win, Ken Paxton opinion letter, AMOT, Dennis Bonnen, Texas lobbying, Bob Hall, Texas own locations, Texas front operator, Dannettee Hickman, Texas gas station displacement, recycler against Banilla]
-source-count: 63
+source-count: 64
 open-commitments: 18
 open-questions: 9
 ---
@@ -327,7 +327,7 @@ A nine-minute phone call ([[wiki/meetings/2026-09-12-halcyon-amusements-texas-ne
 The [[wiki/meetings/2026-09-14-texas-vertical-conversion-and-georgia-game-base.md|Sept-14 6:38 AM ET engineering session]] (Russian; [[wiki/people/val-levitan.md|Val]], [[wiki/people/igor-metelski.md|Igor Metelski]], [[wiki/people/irina-shishko.md|Irina Shishko]], [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/anton-leshkevich.md|Anton Leshkevich]]) is the first source on this page about the **Texas game content itself** rather than the market, the machines or the transactional rollout. Full ruling on [[wiki/decisions/2026-09-14-vertical-texas-starts-from-the-georgia-coam-vertical-games.md]]. [[raw/Meeting_Notes_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
 
 - **The problem being solved:** JVL's Texas games are **horizontal** (two Full HD screens); a vertical Texas product needs a single portrait screen. Igor's experiments converting the existing horizontal games — on **Spicy Fruits**, **Midnight Money** and the 3×3 **Dutch Mill** — showed the scene conversion works mechanically but the composition and art break every time, and "с существующим ар[то]м эта задача не решим[а]". [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
-- **The route adopted:** take the **vertical Georgia COAM games** and convert them into vertical Texas games — Pavel's proposal, "может быть нам логичнее взять вертикальную игру для джорджии и её конвертировать в вертикальную игру для Техаса… будет гораздо дешевле" — with everything in them adapted, **including the maths**, on Val's direction. [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+- **The route adopted (superseded Oct 8 2026 — see the Oct-8 section below):** take the **vertical Georgia COAM games** and convert them into vertical Texas games — Pavel's proposal, "может быть нам логичнее взять вертикальную игру для джорджии и её конвертировать в вертикальную игру для Техаса… будет гораздо дешевле" — with everything in them adapted, **including the maths**, on Val's direction. [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
 - **Texas and Nebraska are described in the room as the same thing.** Val asked [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] "Антон, вы занимались техасом, да? Ну небраской" and confirmed it on RAGE ("На реййд, да"); Anton: "Техаса наверное уже нет, но [не]брас[кой] точно занимался". Irina then said "Техас из небраски" and Val answered "Да, это одно [и] то же." This matches the existing record that the Nebraska six-game set is the Texas set ([[wiki/projects/nebraska-skill-market.md]], and the Jul-17 scoping on [[wiki/topics/nova-platform-architecture.md]]), and the [[#sept-18-2025--san-antonio-rollout-scaled-to-23-machines|Sept-18-2025 note]] above that Texas activity is the Nebraska skill product adapted for Texas. [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
 - **Who built the last Georgia COAM, asked because it is now the donor:** Val — "а кто занимался Джорджия коам вот этой последней?"; Igor — "Мы вдвоём с Антоном" (Igor Metelski with Anton Leshkevich). [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
 - **What the source does NOT say:** no cabinet, platform, date, game count or release for a vertical Texas product; no link to the transactional Texas work above; and no statement that a vertical Texas product is scheduled at all. The decision is about *where the content comes from* if one is built. [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
@@ -414,6 +414,12 @@ That evening, on a two-minute [[wiki/meetings/2026-09-17-texas-gas-station-displ
 The buyer is not named. The same afternoon the [[wiki/organizations/dynamic-gaming.md|Dynamic Gaming]] master described a close cousin of this plan (section above), and Val mentioned another, unnamed San Antonio buyer of traded-in machines with a recycler. **Whether this buyer is either of them is not said** — not linked. The $12,000 recycler figure sits inside Val's own "between twelve and fifteen thousand" from 3:17 PM. [[raw/Meeting_Transcript_Texas_Gas_Station_Displacement_with_Recycler_and_Ports-September-17-2026.md]] [[raw/Meeting_Transcript_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]
 
 *(The derived notes turn "two of your ports" into "two ports in each machine"; the transcript is followed [[raw/Meeting_Notes_Texas_Gas_Station_Displacement_with_Recycler_and_Ports-September-17-2026.md]].)*
+
+## Oct 8 2026 — the vertical Texas product: the horizontal Texas games are converted after all
+
+At the [[wiki/meetings/2026-10-08-dragon-pays-vertical-accepted-and-dutch-mill-port-plan.md|Oct-8 10:02 AM session]] (Russian) Val reversed the Sept-14 route. Igor Metelski's vertical Dragon Pays, with symbols stretched about 20%, was accepted, and Val ruled that the Texas games now horizontal on RAGE are moved to vertical NOVA games with that method, with no change to maths or function. Dutch Mill is the first game; Igor ports it, with a target of Mon Oct 19 2026. The work is to stay confidential inside the group [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]. Full record: [[wiki/decisions/2026-10-08-texas-rage-games-convert-to-vertical-nova-unchanged-and-igor-ports-dutch-mill-first.md]]
+
+Still not stated: a cabinet, a release date or a market date for the vertical Texas product.
 
 ## Open contradictions
 
@@ -540,3 +546,4 @@ The buyer is not named. The same afternoon the [[wiki/organizations/dynamic-gami
 - [[raw/Meeting_Transcript_Really_Killer_Systems_Operator_Vetting-August-25-2026.md]]
 - [[raw/Meeting_Transcript_Epic_Amusement_Kenny_Patel_Visit-August-25-2026.md]]
 - [[raw/Meeting_Transcript_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]
+- [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]

@@ -2,9 +2,9 @@
 type: person
 title: Sergey Kleimenychev
 date: 2025-11-20
-aliases: [Sergey Kleimenychev, Kleimenychev Sergey, Sergey, Sergei, Sergey Kleimenich, Сергей Клемёныч, Клемёныч, кремёнычев, Kremyonychev, климеч, Klimech, клименвича, клименничева, Sergey Klimenchuk]
-source-count: 5
-open-commitments: 3
+aliases: [Sergey Kleimenychev, Kleimenychev Sergey, Sergey, Sergei, Sergey Kleimenich, Сергей Клемёныч, Клемёныч, кремёнычев, Kremyonychev, климеч, Klimech, клименвича, клименничева, Sergey Klimenchuk, клемёнычев, Лимёныч, Sergei Klemenchev]
+source-count: 6
+open-commitments: 4
 open-questions: 1
 disambiguation: "One of several 'Sergey/Sergei' at JVL. This Sergey = the graphics-team design generalist (artist + a bit of a programmer) who owns the artists' Git/LFS workflow. Distinct from Sergey Tsymanov (Minsk CMS-requirements engineer) and Sergei Novitsky (advanced-setup technician). Resolve by context."
 ---
@@ -63,6 +63,15 @@ Three renderings appear in seven minutes: Pavel says "**кремёнычев**",
 
 At the [[wiki/meetings/2026-09-20-vertical-geometry-standard-and-adr-consolidation.md|Sunday Sept-20 7:04 AM ET session]], rejecting any use of the game designers, Val said: "**Нам лучше взять этого Сергея [клименвича клименничева], чтоб он нам создал чтото новое, если мы хотим**". Read as this Sergey by context: the day before his Monday start on the Texas work, and a Minsk graphics generalist. The derived notes write the name "**Sergey Klimenchuk**" — a surname that exists nowhere in the corpus; the transcript is followed. Full ruling on [[wiki/decisions/2026-09-20-the-vertical-geometry-standard-glossary-and-adrs-go-to-github-outside-any-framework.md]]. [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
 
+
+## Oct 8 2026 (10:02 AM, in absentia) — his first named task: a looping topper video for Dutch Mill
+
+At the [[wiki/meetings/2026-10-08-dragon-pays-vertical-accepted-and-dutch-mill-port-plan.md|10:02 AM "Games convert horizontal to vertical" session]] (Russian) Val first wanted him to convert the Texas games to vertical NOVA himself with Igor Metelski's method and to measure the time. Pavel answered that he should only prepare video for now, needs training on Igor's scripts, and has limited working time (the stated hours are not recorded, §15.8). Val agreed that Igor ports the first game. His task: from Friday, make a looping video (about 10 seconds) from the static Dutch Mill topper, using AI; Igor writes him a technical task. Pavel spoke of him as working for JVL ("он работает, будет работать у нас"), which suggests the Sept-17 hire went ahead — an inference; the open hire item above is left for a source that states it [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]. The work is to stay confidential inside the group. Full record: [[wiki/decisions/2026-10-08-texas-rage-games-convert-to-vertical-nova-unchanged-and-igor-ports-dutch-mill-first.md]]
+
+### Open commitments (Oct 8 2026)
+
+- [ ] Sergey Kleimenychev — make a looping video from the static Dutch Mill topper, about 10 seconds — due Mon Oct 12 2026 (assigned in absentia) — [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
@@ -70,3 +79,4 @@ At the [[wiki/meetings/2026-09-20-vertical-geometry-standard-and-adr-consolidati
 - [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
 - [[raw/Meeting_Notes_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]

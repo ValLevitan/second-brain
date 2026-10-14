@@ -3,9 +3,9 @@ type: decision
 title: Signal quality in MVP 1 means remote visibility — periodic metrics into the logs, buffered offline, surfaced through Grafana
 date: 2026-09-17
 aliases: [log traffic, 120 MB a day, three gigabytes a month, junk logs, TPT-INT Grafana dashboard task, signal quality, decibels, signal to noise, SNR, jammer, глушилка, антенки, remote diagnostics, periodic metrics, log buffering, Grafana alerts, modem telemetry, удалённо мы должны видеть децибелы]
-source-count: 5
+source-count: 7
 status: active
-open-commitments: 4
+open-commitments: 5
 open-questions: 2
 ---
 
@@ -72,6 +72,12 @@ At the [[wiki/meetings/2026-09-28-daily-standup-log-traffic-and-nova-rename.md|S
 
 At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-new-arm-boards.md|Oct-2 Minsk stand-up]] (Russian) the traffic worry of Sept 28 decided the shape of a new log stream: [[wiki/people/dmitri-chudinov.md|Chudinov]] planned to pass the SAS command logs from the machines to Grafana ("Графа она, наверное будет все это передавать"); [[wiki/people/pavel.md|Pavel]] — "не будем сейчас передавать логи команд на графану… Избирательно… чтоб их по умолчанию они были выключены… потому что мы будем очень сильно засорять канал через [—] модем"; Chudinov — "пускай это будет лучше не на порте, а на IQ. Пускай он лучше не шлёт, но собирает… всегда можешь подключиться и посмотреть"; Pavel — "Да да, всё верно." Chudinov will "делать ревью трафика… на выходных… Суммарно на весь трафик" with collections and door open / close on the running firmware. Ruling: [[wiki/decisions/2026-10-02-sas-command-logs-are-collected-on-the-flex-iq-and-not-sent-to-grafana-by-default.md]] [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]. This is the first stream where "task 2" (display) is switched off by design rather than left for later. Chudinov's Sept-28 junk-log commitment below is not mentioned; the weekend traffic review is its nearest follow-up.
 
+## Update, Oct 8 2026 — the Flexport's own signal quality does not reach the kiosk; that is MVP 2 work
+
+At the [[wiki/meetings/2026-10-08-daily-standup-lease-expiry-scenarios-and-flex-signal-quality.md|Oct-8 Minsk stand-up]] (Russian) [[wiki/people/alexander-biratka.md|Biratka]], working on Wi-Fi and the Flexport link, asked whether the Flexport now sends its signal level and quality to the kiosk side. [[wiki/people/dmitri-chudinov.md|Chudinov]]: "Нет." Biratka: his requirements speak of the network in general, not Wi-Fi or LAN — dropouts, or pings that are too long. [[wiki/people/pavel.md|Pavel]]: "Вайфай это был как MVP 2"; Biratka works only on MVP 2. Pavel, for the record: tasks are needed on Flexport and Flex IQ for MVP 2, so that the Flexport sends the data and Flex IQ catches it and passes it on. Biratka named an existing port task ("спорт 106" — read as 106) and a Flex IQ task ("13, 28" — the notes read 1328) [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]].
+
+This matches the Sept-22 line above that Wi-Fi is "точно не VP один". It is about the Flexport's own network link, not the modem metrics of MVP 1. Evolution, not contradiction.
+
 ## Open commitments
 
 - [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — remove junk logs (caching repeat messages or sending them every 5 minutes) to cut the traffic, and tell Andrei about the ~3 GB a month so he can judge if it is critical — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
@@ -79,6 +85,7 @@ At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-ne
 
 - [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — as owner of the request, make sure a requirement exists for remote visibility of signal quality (decibels and signal-to-noise), and add it if it does not — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — find or create the Jira capability covering logging to the cloud server; nothing was found on the call — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
+- [ ] Unassigned (Pavel asked; Biratka named port task 106 and Flex IQ task 1328) — plan MVP 2 tasks for the Flexport to send its signal quality and for Flex IQ to catch and forward it — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
 
 ## Open questions
 
@@ -94,3 +101,5 @@ At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-ne
 - [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]

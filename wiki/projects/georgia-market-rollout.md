@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, COAM Hearing Room, Georgia Lottery Corporation, Tracy Warren, HB 353, Intralot lab, Bill at Intralot, three fifty-eight nine, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing, GAMOA, ILERS, ILAS report, Eilers, Eiler report, show special, Mega Hit Blaze, sales channel report, Bulldog Gaming, ARC, ARC Gaming, Class A, C-Store Connect, GACS, route consolidation, gift-card cash-back notice, Chris Plonic, Double Down Gaming, Ryan O'Donnell, Billy Liu, Play Payments, PlayPay, banking licence moat, 7455 modem, KORE, KORE SIM, APN, GACS October 21, Pay Slim, over-drive, Rao, Narasimha Rao Namburi, David Milani, September 2 letter, 5500 PAX locations, Lucky Coin service burden, Lucky Bucks is ARC, the market is literally bottomless, backend displacement, David Sloan, Dave Sloan, Bill the kiosk vendor, the wording is in the same location, guidance is not the law, Digital Cash Processing, DCP, ICP Inc., Gen Mega, Andrew Cashin, Rick Beer, seventy four hundred locations forty seven thousand machines, Unlimited Amusement, Mega Hit Blaze V3, program the rollout, Swanee, Johns Creek, Singleton, SurfNote, Debbie Alford, eighteen thousand connected, Mike Mackey, five hundred dollars per unit per machine, WSS protocol, not even one installation, Georgia Lazy, Skyriser, Cardinal, outside looking in, Rich Winley briefing, 18 games in one pack, one USB stick for all Peach, Peach 1 2 3 combined]
-source-count: 235
+source-count: 236
 open-commitments: 75
 open-questions: 36
 ---
@@ -1754,6 +1754,14 @@ From the [[wiki/meetings/2026-10-06-felipe-delivery-forecast-arc-release-and-mod
 
 - [ ] Felipe Miranda — meet "Rao and Mohammed" and try for another bulk deal of about 10 machines for November or December — due Oct 7 2026 ("tomorrow") — [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
 
+## Oct 8 2026 — Georgia V4: a preliminary game list, and the dual box for 5-reel games
+
+At the [[wiki/meetings/2026-10-08-game-design-class-a-party-time-and-dual-box.md|Oct-8 12:00 PM game-design meeting]] (English) [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]:
+
+- **V4 has a placeholder.** [[wiki/people/michael-gottlieb.md|Michael]]: under IP-535 "I've already blocked in a placeholder, IP 222. That is going to be Georgia coam V43 V4. This doesn't have a schedule." He took many notes on his Georgia trip and will document the ideas and start abstracts.
+- **Preliminary list.** Aaron's Pub, Wild Fire Ranch, Wolf Pack ("the wolf variant of Twin Bison"), Disco Spins, Fly Me to the Moon, and perhaps Treasure Island, "which will be perceived persistence". For Fiery Ice: La Rosa and Dragons of Rain. "it can all change"; "Class A is the priority right now".
+- **Dual box.** Georgia will get the dual box; 5-reel games will use it; whether 3-reel games keep nudge is open — [[wiki/decisions/2026-10-08-dual-box-for-nebraska-class-a-and-georgia-five-reel-and-no-smaller-touch-area-for-the-wrong-coin.md]].
+
 ## Sources
 
 - [[raw/Meeting_Notes_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
@@ -1993,3 +2001,4 @@ From the [[wiki/meetings/2026-10-06-felipe-delivery-forecast-arc-release-and-mod
 - [[raw/Meeting_Notes_Sergei_Vysotski_Georgia_Location_Opt_In_List_and_Research_Spikes-October-5-2026.md]]
 - [[raw/Meeting_Notes_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
 - [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
+- [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]

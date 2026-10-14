@@ -3,7 +3,7 @@ type: topic
 title: GitHub release management and the CI/CD release pipeline
 date: 2025-10-21
 aliases: [release management, release pipeline, CI/CD, GitHub Actions pipeline, release artifacts, ISO image release, release manager role, continuous delivery, flex os installer, manifest, release candidate, single source of truth, feature branch discipline, sprints vs kanban, Jira GitHub link, FlexPos IP 902, FP 519, IP 89 dashboard grooming, bulk archive automation, Jira resolutions cleanup, Flex-POS Transition to Production, alpha build release tracking, knowledge repository, prose pending folder, prose merge action, docs contracts folder, integration repository, Knowledge Base repository, Standards folder, 39 accesses, hardware GitHub standard, hardware-components repo, hardware-manufacturing repo, BOM sync robot, category first manufacturer second]
-source-count: 109
+source-count: 110
 open-commitments: 1
 open-questions: 10
 ---
@@ -836,6 +836,16 @@ At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-r
 
 Val took the software repo model to the BOM: to Genadi at 1:19 PM — "Each repository. Is equal to a Project in Jira… has zero trust state… Date the contract… in a dot MD file", from which Claude Code assembles and tests the whole product [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]; and to Nathan Carver at 1:58 PM, where Nathan's monorepo idea was refused ("if we have one monorepo, then JIRA doesn't work… Project is described by capabilities") and Nathan added that each repo should tell the agent how best to search it [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]. GitHub keeps a flat list of parts; the BOM is generated like a build (GitHub Actions → ISO → Azure, in Val's comparison). The Flex Pay Slim reverse spike tests it. Rulings: [[wiki/decisions/2026-10-05-hardware-follows-the-developer-repo-model-one-jira-project-one-repo-zero-trust-data-contracts-no-monorepo.md]] · [[wiki/decisions/2026-10-05-nathan-carver-runs-the-flex-pay-slim-bom-reverse-spike-and-flex-port-follows.md]].
 
+## Oct 8 2026 — hardware: drawings in the hardware-manufacturing repo, a BOM standard by pull request, the 13-repo table, and "132 repos" in development
+
+On the [[wiki/meetings/2026-10-08-genadi-bom-standard-flex-slim-metal-mikhail-hand-over-and-data-contracts.md|Oct 8 3:59 PM alignment call]] (Russian; Val and Genadi) [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]:
+
+- Genadi: all drawings are in the hardware-manufacturing repo (the notes: under JVL-Core); a part number pulls drawings, revisions and the BOM. He sent Val a BOM standard as a pull request and committed the Flex Pay Slim BOM with a table.
+- Val's table: 13 hardware repos, one per Jira project, fasteners and labels included; folders inside one repo are not enough. Data contracts are Genadi's job. Names need a standard — the "Defrend" folder and the harnesses under the Flex Pay peripherals will be redone.
+- Val's proof from software: "у нас сегодня в девелопменте находится 132 репозитора", each with prose and a data contract, and tests written automatically.
+
+Detail on [[wiki/decisions/2026-10-05-hardware-follows-the-developer-repo-model-one-jira-project-one-repo-zero-trust-data-contracts-no-monorepo.md]] (Oct-8 update).
+
 ## Sources
 - [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
@@ -948,3 +958,4 @@ Val took the software repo model to the BOM: to Genadi at 1:19 PM — "Each repo
 - [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
 - [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]]
+- [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]

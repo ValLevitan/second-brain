@@ -3,10 +3,10 @@ type: decision
 title: The autotest stand for card tests — a real InComm or a fake one, local or in the cloud — is not MVP 1 and goes to a separate meeting with "Andrei"; the quick option is a Flex IQ build variant that fakes card issuance; the sides (cloud vs the office, a stand close to production vs "on whose machine") are recorded as positions
 date: 2026-10-05
 aliases: [autotest stand debate, стенд для автотестов, real or fake InComm, с реальным инкламом либо с фейковым, InComm emulator, эмулятор инкома, не MVP 1 иначе все будем заниматься подъёмом инкома, separate meeting with Andrei, отдельный митинг и туда Андрея надо, Flex IQ build variant fakes card issued, фейковые данные о том что карточка выпущена, stand eats 15 to 20 GB, 15 20 гигов памяти, cloud vs local stand, не согласен что нам надо это в облаке, dev staging stand, Payment Hub autotests, special white cards, беленькие карты, FP-94 FP-59 not here]
-source-count: 2
+source-count: 4
 status: active
-open-commitments: 1
-open-questions: 3
+open-commitments: 2
+open-questions: 4
 ---
 
 # The autotest stand is not MVP 1; a separate meeting with "Andrei" designs it
@@ -36,18 +36,35 @@ Only two things: **it is not MVP 1** (Pavel's "это не [MVP] один", unop
 - The "no E2E tests for MVP 1" line of [[wiki/decisions/2026-09-22-autotests-go-inside-the-existing-capabilities-and-the-first-e2e-test-is-a-one-hour-micro-step.md]] and the dual-SAS-only scope of [[wiki/decisions/2026-09-18-mvp1-supports-dual-sas-only-and-locations-are-chosen-to-match.md]] (which already deferred a second test environment) are the same instinct: keep MVP 1 narrow — link is context, not a citation.
 - The real InComm's own limits (no failure injection, specific credentials even in the sandbox) are a new data point beside [[wiki/decisions/2026-09-16-incomm-returns-no-daily-cap-error-so-the-call-comes-to-jvl-first.md]] — link is context, not a citation.
 
+## Update, Oct 8 2026 — the card tests reach Khamin; Irina: "there are no card dispensers in MVP 1", and the meeting never happened
+
+At the [[wiki/meetings/2026-10-08-daily-standup-lease-expiry-scenarios-and-flex-signal-quality.md|Oct-8 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]:
+
+- **Khamin's remaining tests are the card tests.** "Там касается, касается кордиспенсеров… Какие то вы договаривались, как это будет происходить?" — for card issuing, the exchange with InComm. Without an emulator or something in the cloud, "Эти тесты както не пройдутся точно."
+- **Irina — not in MVP 1, and still not discussed.** "У нас нет кордиспенсеров в этой в это в MVP один." She raised the question earlier ("14:00 назад" in the transcript; the notes read "about 14 days ago"), was told everyone would meet and talk, "и не поговорили. Надо говорить надо чтото делать. Потому что сейчас будет вот ступор."
+- **Chudinov — real hardware or a local stand.** Run the tests on the real hardware with the real white cards; or, as he said before, bring up all the transaction services in Docker as one local stand and point the terminal at it.
+- **Pavel — a GitHub action.** It can be an action on GitHub using the internal self-hosted runner, which sits in the internal network. Khamin: that is how it will work; he is wiring it so the emulator deploys.
+- **Chudinov — one switch.** The difference: a parameter to choose a real InComm or an emulated one.
+- **Irina to Khamin:** if he hits a wall anywhere, raise it at once — "критично". Pavel: less than a week to the 15th.
+
+The separate meeting set on Oct 5 is not mentioned as held. The notes record the question as "How should MVP1 tests that touch card dispensers / InComm run, when MVP1 has no card dispensers?" [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+
 ## Open commitments
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — call a separate meeting on the autotest / InComm stand with "Andrei" (Bosik by context), Chudinov, Tsymanov and Irina — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — raise any blocker on the card tests to Irina at once — due before Oct 15 2026 — [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
 
 ## Open questions
 
 - Real InComm (real white cards and fixed credentials, no failure cases) or a fake InComm (an emulator stand with hang / no-answer scenarios) for the card autotests — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - Where the stand lives — Chudinov: "по правильному… в облаке"; Pavel: local, on an internal virtual server, because third-party services must be simulated and updates can be left out; Tsymanov: a separate dev-staging-like stand, close to production, not on anyone's machine — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - Whether Pavel's quick option — a Flex IQ build variant that fakes "card issued" or "card not issued" — is built at all, and whether it carries the bigger checks Irina expects — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+- How should MVP 1 tests that touch card dispensers and InComm run, when MVP 1 has no card dispensers? Irina says it was raised before and never discussed — [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
 
 **§15.8:** clear — test infrastructure only. Tsymanov's "на чьей мы ставим на моей над [диминой]" is about machines, not people. **§15 #9:** none. InComm's test cards and credentials are mentioned as a fact; no values appear.
 
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]

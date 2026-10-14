@@ -3,7 +3,7 @@ type: decision
 title: Hardware follows the developer repo model — one Jira project equals one repo, repos have zero trust, each holds prose, ADRs and a data contract; GitHub keeps a flat list of parts and the BOM is generated from it like a build; no monorepo
 date: 2026-10-05
 aliases: [developer model for hardware, zero trust repos for hardware, data contracts for hardware, one project one repo, no monorepo, a project is described by capabilities, flat list not a BOM, BOM generated like an ISO, ISO image analogy, 70% sure, the repo tells the agent how to search, displays repo, harnesses repo]
-source-count: 4
+source-count: 6
 status: active
 open-commitments: 0
 open-questions: 1
@@ -31,6 +31,21 @@ He did not reject it, but did not accept it either: "Окей мало. Хоро
 
 It restates the Sept-23 to Oct-1 line — GitHub is the source of truth, one flat list, only the finished BOM goes into MSBC ([[wiki/decisions/2026-09-23-the-bom-source-of-truth-is-the-latest-design-in-github-and-sync-runs-one-way.md]], [[wiki/decisions/2026-10-01-only-the-finished-bom-goes-into-msbc-the-configurator-is-ai-logic-outside-it-no-hybrid-and-the-pilot-is-the-flex-pay-slim.md]]). What is new on Oct 5 is the **form** of the Oct-1 "configurator": not a separate tool, but zero-trust repos with data contracts that agents assemble, as in software (inference from the two sources).
 
+## Oct 8 2026 update — the 13-repo table, data contracts on Genadi, fasteners and labels as projects, and a naming standard
+
+On the [[wiki/meetings/2026-10-08-genadi-bom-standard-flex-slim-metal-mikhail-hand-over-and-data-contracts.md|Oct 8 3:59 PM alignment call]] (Russian; Val and Genadi only) Val came back to the model. All quotations [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]:
+
+- **Data contracts are Genadi's job.** "Одна из самых больших работ… В гетхабе. И то, что сегодня не готово и которая ложится полностью на вас. Это так называемые data [contracts]." Genadi said he had not understood Val's email on it ("Честно говоря, я не понял"): first two revisions were agreed, then components were to be split by project.
+- **Three systems, one rule.** Val: the company works with three applications — Atlassian (Jira and Confluence), GitHub and MSBC — "как 3 разные кастрюли" cooking for one dinner. "Каждый репозиторий… соответствует проектам, которые находятся в джиро": project "123" in Jira means repo "123" in GitHub.
+- **The table: 13 repos.** Val's table lists "13 репозиторов": monitors; touchscreens and controllers; 5G modems, antennas, Wi-Fi routers and networking; power supplies; and among the names he read out, harnesses, sheet metal, plastic, mechanical and labels; PC boards were named earlier as their own repo. Bought components get repos too, "потому что на каждой может быть своя релизия."
+- **What a data contract holds.** For a monitor: connector, the signal it takes, resolution, size. For an enclosure: for example "4 monting stad" and the thread type. Then AI catches the wrong screw (metric versus imperial thread, too short), the wrong harness for an HDMI port, or a machine asked to carry "18 телевизорами". Most of it is already in suppliers' datasheets: "Сам эй в основном всегда строит свои data [contracts], смотря на инженерные [datasheets]" — "работы в этом совсем немного."
+- **Proof from development.** "у нас сегодня в девелопменте находится 132 репозитора. В каждом репозиторе есть проза. Есть [data contract]"; tests are now written automatically from the prose and contracts, checked against acceptance criteria.
+- **Folders are not enough.** Genadi asked whether folders inside one repo would do. Val: "Нет… Каждый. Проект это репозиторы." Genadi: there is no fasteners project; Val: "Есть проект [fasteners]. Он должен быть" — rivets, screws, self-tappers, each with suppliers; labels too.
+- **Names need a standard.** Val found a folder "Defrend" in the hardware-manufacturing repo and could not tell what it was; Genadi: his old name for decals, labels and everything outside metal, plastic and harnesses ("Это раньше я раньше назначал"). The Flex Pay harnesses sit under "Flex pay [peripherals]". Val: "Но это неправильно переделаем это"; "На название тоже должны быть свои стандарты. Потому что никто не в состоянии вещи запомнить." Genadi: "Хорошо."
+- **Genadi's reaction.** First: even if it works, "компания вперёд не… продвинется за счёт этого." Then, on writing his BOM standard with AI that day: "Он очень умный, умнее меня намного… здесь эти контракты… Со временем да, наверное, это будут бенефиции."
+
+**Evolution:** Oct 5 set the model; Oct 8 names the repo list, puts data-contract writing on Genadi, and adds fasteners and labels as projects. The derived notes record the same ruling [[raw/Meeting_Notes_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]].
+
 ## Open questions
 
 - Will it work for hardware at all? Val puts it at "70% sure" and calls it untried ("I haven't tried it yet") — the spike is the test — [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
@@ -40,3 +55,5 @@ It restates the Sept-23 to Oct-1 line — GitHub is the source of truth, one fla
 - [[raw/Meeting_Notes_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
 - [[raw/Meeting_Notes_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
+- [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
+- [[raw/Meeting_Notes_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]

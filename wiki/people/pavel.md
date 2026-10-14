@@ -4,8 +4,8 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 207
-open-commitments: 105
+source-count: 215
+open-commitments: 107
 open-questions: 0
 ---
 
@@ -1190,6 +1190,27 @@ At the [[wiki/meetings/2026-10-07-daily-standup-test-coverage-first-and-ai-task-
 
 - [ ] Pavel Frolov — give Daniil Stauskiy a new board to measure performance ("Хорошо это с меня") — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
 
+## Oct 8 2026 — lease screens, card tests on a GitHub action, signal quality is MVP 2, port firmware is not MVP 1; and the Dragon Pays review
+
+- **Stand-up (4:58 AM).** He ran the [[wiki/meetings/2026-10-08-daily-standup-lease-expiry-scenarios-and-flex-signal-quality.md|Oct-8 Minsk stand-up]] (Russian): less than a week to the 15th. He said Wi-Fi is MVP 2 and asked for MVP 2 tasks on Flexport and Flex IQ for signal quality — [[wiki/decisions/2026-09-17-signal-quality-in-mvp1-means-remote-visibility-not-a-screen.md]] (Oct-8 update). He suggested the card-test stand could run as a GitHub action on the internal self-hosted runner — [[wiki/decisions/2026-10-05-the-payment-hub-autotest-stand-is-not-mvp1-and-a-separate-meeting-with-andrei-designs-it.md]] (Oct-8 update). He noted that Claude-built port firmware shows zeros as its version — [[wiki/decisions/2026-10-05-a-release-bakes-a-file-of-the-component-versions-it-contains-into-the-artifact.md]] (Oct-8 update). He asked Chudinov to review the port firmware; with Irina he agreed it is not MVP 1 [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]].
+- **Rage-to-Nova review (7:04 AM).** At the [[wiki/meetings/2026-10-08-rage-nova-dragon-pays-vertical-port-and-symbol-distortion.md|Oct-8 7:04 AM Rage-to-Nova review]] he said cropping a master video at build time is simple, even by script; designers will ask how to deliver resources without seeing the whole scene; and Lena draws the comp for the target screen resolution. He agreed with Val on Claude-built scenes — [[wiki/decisions/2026-10-08-game-scenes-are-assembled-by-developers-with-claude-from-designer-resources-not-by-designers.md]] [[raw/Meeting_Transcript_Rage_Nova_Dragon_Pays_Vertical_Port_and_Symbol_Distortion-October-8-2026.md]].
+
+
+## Oct 8 2026 — the AI PM review (8:31 AM) and the AI Chief System Architect task (11:35 AM)
+
+- **AI PM review.** At the [[wiki/meetings/2026-10-08-ai-pm-listener-scope-draft-lifetime-and-october-12-go-live.md|Oct-8 AI-PM review]] he defended the one-flow Listener design: the task had been to build it in a week, and it copies a person who listens, then reads repositories and Jira, then writes tasks. He wanted the "AI Draft" window longer than one day, as a margin for force majeure, and asked that weekends not count. He suggested a filtered Jira link per person in the morning report and a separate run over the internal draft document. See [[wiki/decisions/2026-10-08-the-ai-pm-goes-live-in-real-jira-projects-on-october-12-on-its-current-architecture-without-lenas-meetings.md]] [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]].
+- **AI Chief System Architect.** At the [[wiki/meetings/2026-10-08-ai-chief-system-architect-gap-finding-task.md|Oct-8 "AI-Chief System Architect" call]] with Val he agreed Claude can build the architecture from code, prose and data contracts. He proposed starting from positive use cases (Transactional: FlexPort, Flex IQ and the server as one closed system), turning it into a quality check of prose and contracts across the dependent repositories, and including the integration tests. He expects a near 100% match, but is not sure prose is updated in every repository — he has seen it in two. See [[wiki/decisions/2026-10-08-an-ai-chief-system-architect-maps-galaxy-and-nova-from-code-prose-and-data-contracts-to-find-gaps-as-bosiks-next-objective.md]] [[raw/Meeting_Transcript_AI_Chief_System_Architect_Gap_Finding_Task-October-8-2026.md]].
+
+
+## Oct 8 2026 (10:02 AM) — the 20% vertical Dragon Pays "looks much better"; Igor ports Dutch Mill first
+
+At the [[wiki/meetings/2026-10-08-dragon-pays-vertical-accepted-and-dutch-mill-port-plan.md|10:02 AM "Games convert horizontal to vertical" session]] (Russian) he judged Igor's 20% vertical Dragon Pays "значительно лучше" than the 40% try. He proposed giving the topper videos to Anton Leshkevich with Sergey Kleimenychev, set the video brief (loop, first frame equals last, about 10 seconds), and argued with Irina that Igor, not Sergey, should port the first game, because Igor can fix the game code. Val agreed. He picked Dutch Mill. On Igor's estimate: "мы для этого и хотим сделать замер" [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]. Full record: [[wiki/decisions/2026-10-08-texas-rage-games-convert-to-vertical-nova-unchanged-and-igor-ports-dutch-mill-first.md]]
+
+### Open commitments (Oct 8 2026, 10:02 AM)
+
+- [ ] Pavel Frolov — tell Val whether graphics for any Texas game came from Sergey Kleimenychev — due Mon Oct 12 2026 — [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]
+- [ ] Pavel Frolov — check with Efim how to build the container that supports the Texas maths — due unspecified — [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]
@@ -1402,3 +1423,11 @@ At the [[wiki/meetings/2026-10-07-daily-standup-test-coverage-first-and-ai-task-
 - [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Rage_Nova_Dragon_Pays_Vertical_Port_and_Symbol_Distortion-October-8-2026.md]]
+- [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
+- [[raw/Meeting_Notes_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
+- [[raw/Meeting_Transcript_AI_Chief_System_Architect_Gap_Finding_Task-October-8-2026.md]]
+- [[raw/Meeting_Notes_AI_Chief_System_Architect_Gap_Finding_Task-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]

@@ -3,9 +3,9 @@ type: decision
 title: A release bakes a file listing the component versions it contains into the release artifact, so it can be traced later — the integration repository's manifest need not pin release versions (artists and autotests need snapshots), and Kharetski plans a GitHub Page with a "release" tick to pick versions
 date: 2026-10-05
 aliases: [release bakes component versions, релиз должен в файле запекать какие версии были включены, versions file in the release artifact, в виде отдельного файла класть в артефакт, integration repository manifest, манифест версии компонентов, GitHub Page release tick, Китха Пейдж галочка релиз, snapshots for artists and autotests, не обязательно на релизных версиях, traceability of releases, CC Talk integration, another separate service]
-source-count: 2
+source-count: 4
 status: active
-open-commitments: 1
+open-commitments: 2
 open-questions: 2
 ---
 
@@ -36,9 +36,16 @@ In one line: **every release carries, as a separate file inside its artifact, th
 - It fills in the machine-side integration repository of Sept 3 ([[wiki/decisions/2026-09-03-module-contracts-and-nova-integration-repository.md]], Oct-5 update): module links as technical files, now with versions and sources, and a baked version list per release.
 - It is the NOVA counterpart of the release-artifact and manifest ideas on [[wiki/topics/github-release-management-pipeline.md]] (Oct 5) and of the May-27 "manifest registry" where each piece of machine software publishes what it is ([[wiki/topics/nova-platform-architecture.md]], May 27 2026) — links are context, not citations.
 
+## Update, Oct 8 2026 — QA stories must name the versions they were found on; Claude-built firmware has no real version
+
+At the [[wiki/meetings/2026-10-08-daily-standup-lease-expiry-scenarios-and-flex-signal-quality.md|Oct-8 Minsk stand-up]] (Russian) [[wiki/people/dmitri-chudinov.md|Chudinov]] asked QA: stories are being opened for all kinds of findings, so add the versions used — "в i qпорта. Версия операционки а. П п прошивки" (the notes: Flex IQ, port OS and firmware) — "потому что приходит стори, а с чем вы работали, бог их знает"; it may already be fixed. [[wiki/people/pavel.md|Pavel]]: if the port firmware was built by the GitHub action it has a real version; if it was built by Claude, the version is uninformative — "Вот нолики это было." Chudinov: preferably build through the action. He added that the environment could also be listed later, when emulators replace real hardware [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]].
+
+This is the same traceability idea as the release's baked version file above, applied to test findings.
+
 ## Open commitments
 
 - [ ] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — make the release bake a file of the included component versions into the artifact; later, the GitHub Page with release / snapshot selection ("До этого ещё… далековато") — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+- [ ] QA team — add the Flex IQ, port OS and firmware versions to every story opened for a finding — due ongoing — [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
 
 ## Open questions
 
@@ -50,3 +57,5 @@ In one line: **every release carries, as a separate file inside its artifact, th
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]

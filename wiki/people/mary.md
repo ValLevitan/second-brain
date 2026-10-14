@@ -3,7 +3,7 @@ type: person
 title: Mary
 date: 2026-07-12
 aliases: [Mary, Mery]
-source-count: 8
+source-count: 10
 ---
 
 # Mary
@@ -33,6 +33,10 @@ On the BC status call ([[wiki/meetings/2025-04-28-business-central-labs-tariffs-
 
 On the [[wiki/meetings/2025-06-26-procurement-manufacturing-transfer-alignment.md|manufacturing-transfer alignment]] Val confirmed **incoming and outgoing logistics stay on Mary** (not moved to Elizabeth, who owns warehousing/inventory/scheduling). Mary in Peru **advised [[wiki/people/anibal.md|Anibal]] he's moving to Georgia** (Atlanta) to assemble Echo machines. On the accounting side she is one of "the same team" (with Hector) working the Georgia system. See [[wiki/decisions/2025-06-24-move-manufacturing-from-canada-to-georgia.md]]. [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
 
+## Oct 8 2026 (in absentia) — proposed to take over Mikhail Perelman's ordering role
+
+At the [[wiki/meetings/2026-10-08-genadi-bom-standard-flex-slim-metal-mikhail-hand-over-and-data-contracts.md|Oct 8 3:59 PM call]] Val told Genadi: "Я на его место предлагаю, чтобы взял на себя эта меры" — in place of [[wiki/people/mikhail-perelman.md|Mikhail Perelman]], who leaves from January. Training starts Oct 19 and runs "ноябрь и половину декабря" [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]. The notes write the name "Mery (name as heard)" [[raw/Meeting_Notes_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]. Read as this page **by context** (alias "Mery"; her earlier PO and logistics work) — inference, queued for the owner. See [[wiki/decisions/2026-10-08-mary-takes-over-mikhail-perelmans-ordering-role-with-training-from-october-19.md]].
+
 ## Sources
 
 - [[raw/shipment_of_machines_from_mexico_january_8_2025.md]]
@@ -43,3 +47,5 @@ On the [[wiki/meetings/2025-06-26-procurement-manufacturing-transfer-alignment.m
 - [[raw/finance_update-apr-15-2025.md]]
 - [[raw/business_central_update-apr-28-2025.md]]
 - [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
+- [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
+- [[raw/Meeting_Notes_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]

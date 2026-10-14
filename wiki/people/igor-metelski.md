@@ -4,8 +4,8 @@ title: Igor Metelski
 date: 2026-07-14
 aliases: [Igor Metelski, Igar Miatselski, Miatselski, Igor, Igor Mitelsky, Мительский, Mitsierski, Igor Mitsierski]
 disambiguation: "RGS engineer on Efim Podvoiski codebase (= payroll Igar Miatselski). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
-source-count: 31
-open-commitments: 28
+source-count: 34
+open-commitments: 31
 open-questions: 1
 ---
 
@@ -193,7 +193,7 @@ At the [[wiki/meetings/2026-10-05-rage-nova-port-autotests-and-horizontal-to-ver
 ## Open commitments (Oct 5 2026)
 
 - [ ] Igor Metelski — continue the Dragon Pays port autotests, get a test that catches the wrong free-spins transition, and check Claude's mutation script — due Thu Oct 8 2026 review — [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]
-- [ ] Igor Metelski — experiment with converting Dragon Pays from horizontal to vertical and back, using the existing vertical template, in parallel — due Thu Oct 8 2026 review (progress) — [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]] [[raw/Meeting_Notes_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]
+- [x] Igor Metelski — experiment with converting Dragon Pays from horizontal to vertical and back, using the existing vertical template, in parallel — due Thu Oct 8 2026 review (progress) — [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]] [[raw/Meeting_Notes_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]] — **discharged Oct 8 2026:** he showed a working vertical Dragon Pays at the review [[raw/Meeting_Transcript_Rage_Nova_Dragon_Pays_Vertical_Port_and_Symbol_Distortion-October-8-2026.md]]
 - [ ] Igor Metelski — move the local conversion tools, test scripts and game scenarios into his current repository — due unspecified ("чем скорее") — [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]
 
 ## Oct 6 2026 — NOVA games, Dragon Pays tests and prose
@@ -211,6 +211,35 @@ At the [[wiki/meetings/2026-10-06-daily-standup-ris-georgia-branch-and-critical-
 ### Open questions (Oct 6 2026)
 
 - When will the NOVA center products for the new progressives be planned? Raised by Metelski — [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
+
+## Oct 8 2026 — a working vertical Dragon Pays with stretched symbols, a one-resource-set spec, and a no-distortion retry
+
+At the [[wiki/meetings/2026-10-08-rage-nova-dragon-pays-vertical-port-and-symbol-distortion.md|Oct-8 7:04 AM Rage-to-Nova review]] (Russian) he presented the vertical version of Dragon Pays [[raw/Meeting_Transcript_Rage_Nova_Dragon_Pays_Vertical_Port_and_Symbol_Distortion-October-8-2026.md]]:
+
+- **The result.** A generated vertical scene plugged into his horizontal port; base game, messages, transition and free spins all work. The symbols came out slightly taller than wide. His own verdict: it looks like a game, but nobody would sell it; horizontal art fits direct conversion poorly — [[wiki/decisions/2026-10-05-horizontal-to-vertical-conversion-runs-in-parallel-with-the-port-autotests.md]] (Oct-8 update) [[raw/Meeting_Transcript_Rage_Nova_Dragon_Pays_Vertical_Port_and_Symbol_Distortion-October-8-2026.md]].
+- **The proposal.** One resource set for both layouts (a 1920×2160 master video and fixed placement rules), and scenes assembled by developers with Claude from designer resources and the comp. Val insisted on the second point — [[wiki/decisions/2026-10-08-game-scenes-are-assembled-by-developers-with-claude-from-designer-resources-not-by-designers.md]] [[raw/Meeting_Transcript_Rage_Nova_Dragon_Pays_Vertical_Port_and_Symbol_Distortion-October-8-2026.md]].
+- **The retry.** Asked by Val for a mathematical fit, he said the symbol art has some slack and Claude can be asked to fill the most area without significant distortion; about half an hour for art only. He would not guarantee a good-looking result. He said what he can guarantee is that scenes can be generated [[raw/Meeting_Transcript_Rage_Nova_Dragon_Pays_Vertical_Port_and_Symbol_Distortion-October-8-2026.md]].
+- **Speaking pace.** Pavel and Irina again asked him to slow down and pause after each sentence [[raw/Meeting_Transcript_Rage_Nova_Dragon_Pays_Vertical_Port_and_Symbol_Distortion-October-8-2026.md]].
+
+### Open commitments (Oct 8 2026)
+
+- [x] Igor Metelski — ask Claude to fit Dragon Pays to vertical, filling the most area without significant symbol distortion (art first) — due Oct 8 2026 (follow-up "через 02:00") — [[raw/Meeting_Transcript_Rage_Nova_Dragon_Pays_Vertical_Port_and_Symbol_Distortion-October-8-2026.md]] [[raw/Meeting_Notes_Rage_Nova_Dragon_Pays_Vertical_Port_and_Symbol_Distortion-October-8-2026.md]] — **discharged Oct 8 2026, 10:02 AM** (20% vertical stretch shown and accepted) [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]
+
+
+## Oct 8 2026 (10:02 AM) — the 20% vertical Dragon Pays is accepted; he ports Dutch Mill first
+
+At the [[wiki/meetings/2026-10-08-dragon-pays-vertical-accepted-and-dutch-mill-port-plan.md|10:02 AM follow-up]] (Russian) he showed the retry: symbols about 20% taller than wide, matching the 20% sideways stretch of the approved horizontal version (the morning try was 40%). Pavel and Val accepted it. Val then ruled that the horizontal Texas games on RAGE go to vertical NOVA with his method, maths unchanged, and — on Pavel's and Irina's advice — that Igor ports the first game, Dutch Mill, himself [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]. Full record: [[wiki/decisions/2026-10-08-texas-rage-games-convert-to-vertical-nova-unchanged-and-igor-ports-dutch-mill-first.md]]
+
+- **Estimate.** About two weeks for one game with tests, because hardware testing is not finished; about a week if the tests were ready. Val did not accept that the work itself needs a week [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]].
+- **LGS.** He added mystery-progressive support to LGS on his own machine only; it is not production code, and he does not want to commit to LGS, which is not his project [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]].
+- Val closed: "Игорь молодец. Ещё раз хорошая работа." [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]
+
+### Open commitments (Oct 8 2026, 10:02 AM)
+
+- [ ] Igor Metelski — technical task for Sergey Kleimenychev (resources, sizes, steps) — due Fri Oct 9 2026 — [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]
+- [ ] Igor Metelski — send resources or links and a list of games with their bonuses and videos — due unspecified — [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]
+- [ ] Igor Metelski — finish the testing work and report its status — due Thu Oct 15 2026 — [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]
+- [ ] Igor Metelski — port Dutch Mill to vertical NOVA — due Mon Oct 19 2026 — [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]
 
 ## Sources
 
@@ -245,3 +274,6 @@ At the [[wiki/meetings/2026-10-06-daily-standup-ris-georgia-branch-and-critical-
 - [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]
 - [[raw/Meeting_Notes_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]
+- [[raw/Meeting_Transcript_Rage_Nova_Dragon_Pays_Vertical_Port_and_Symbol_Distortion-October-8-2026.md]]
+- [[raw/Meeting_Notes_Rage_Nova_Dragon_Pays_Vertical_Port_and_Symbol_Distortion-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]

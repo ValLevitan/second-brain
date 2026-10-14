@@ -3,7 +3,7 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention, installment payments, aged receivables, Customer Ledger Entries, category-based terms, subscription module, parts vs machines terms, Black Horse Entertainment, Sales Watch, import duties tax category, landed cost, tax category, assembly BOM, production BOM, BOM history, BOM sync robot, tag stamp on item card]
-source-count: 79
+source-count: 80
 open-questions: 5
 ---
 
@@ -463,6 +463,18 @@ The derived notes record the same split of roles [[raw/Meeting_Notes_Flat_BOM_in
 - **1:58 PM (Val–Nathan).** Nathan: "MSBC has a specific structure for their bill of material… We should be able to programmatically build it"; GitHub holds text data files that get "compiled into a VC bomb [BC BOM]." Supplier finances stay on the administrative side (MSBC). The spike: pull the Flex Pay Slim BOM from MSBC, flatten it, rebuild it with agents, push the result back into MSBC and compare. Jira home: DTP-1083 (under IP-964) or IP-965, "Business Central application". [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
 - Rulings: [[wiki/decisions/2026-10-05-hardware-follows-the-developer-repo-model-one-jira-project-one-repo-zero-trust-data-contracts-no-monorepo.md]] · [[wiki/decisions/2026-10-05-nathan-carver-runs-the-flex-pay-slim-bom-reverse-spike-and-flex-port-follows.md]].
 
+## Oct 8 2026 — MSBC stops being the BOM source and keeps each vendor's financial and administrative data; prices from quotes go into BC; the Texas BOM was missing
+
+On the [[wiki/meetings/2026-10-08-genadi-bom-standard-flex-slim-metal-mikhail-hand-over-and-data-contracts.md|Oct 8 3:59 PM alignment call]] (Russian; Val and Genadi) [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]:
+
+- **End state.** Val: "Потом мы вычистим мсбиси… Мы перестанем пользоваться им как сорсов для Белов материал. Мы туда загоним… Административно финансовые детали. Каждого из бендокс."
+- **Not now with the BOM in BC.** Genadi said ordering could run automatically today if the BOM stays in BC; Val: "мы не оставим. Это неправильно."
+- **Prices.** Quote prices go into BC, not GitHub (Genadi, recalling Val's rule).
+- **Texas.** The Texas BOM did not exist in BC; Genadi will add it ("10 минут").
+- **Mikhail Perelman's report** (product number and quantity in; flat structure with on hand, on order, in shipment and shortage out) is the tool ordering runs on today, per Genadi.
+
+Ruling: [[wiki/decisions/2026-10-08-msbc-stops-being-the-bom-source-and-the-week-of-october-12-goes-to-ordering-without-mikhail.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
@@ -545,3 +557,4 @@ The derived notes record the same split of roles [[raw/Meeting_Notes_Flat_BOM_in
 - [[raw/Meeting_Transcript_Hardware_GitHub_Standard_and_BC_Sync_Design-August-12-2026.md]]
 - [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
+- [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]

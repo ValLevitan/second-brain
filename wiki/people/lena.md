@@ -3,8 +3,8 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna, Selena, Elena]
-source-count: 72
-open-commitments: 14
+source-count: 76
+open-commitments: 16
 ---
 
 # Lena
@@ -314,7 +314,7 @@ At the [[wiki/meetings/2026-09-25-georgia-progressives-and-class-a-lions-riches.
 
 ## Open commitments (Sept 25 2026)
 
-- [ ] Lena Zhukova — close the graphical-adaptation feature and create all the Class A storyboards so the engineers understand the flow — due unspecified — [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- [ ] Lena Zhukova — close the graphical-adaptation feature and create all the Class A storyboards so the engineers understand the flow — due unspecified — [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]] — **Oct 8 2026:** the Lions Riches storyboard (about 16 screens) is in progress — [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
 
 ## Sept 29 2026 (in absentia) — her glossary is the AI PM's vocabulary; her old transcript repository no longer works
 
@@ -323,6 +323,30 @@ At the [[wiki/meetings/2026-09-29-ai-pm-architecture-and-second-brain-plan.md|Se
 ## Oct 1 2026 (in absentia) — the feature-level "Request Review" status was made for her team
 
 At the [[wiki/meetings/2026-10-01-daily-standup-sas-mode-flag-and-feature-status-rules.md|Oct-1 Minsk stand-up]] (Russian; she was not present) [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]], asked why the feature workflow carries both Completed and Request Review: "Вообще этот рекластью был только для лениных. Это это как бы перенеслось, потому что для для лены создавался у них там есть такая штука, когда Майкл проверял. То, что нарисовали и переводил дальше, то есть у нас для разработчиков такое не использовалось" — the status exists for her design team's flow, where Michael (read as [[wiki/people/michael-gottlieb.md|Michael Gottlieb]] — inference) reviews what was drawn and moves it on; it was never meant for the developers. The developers' rule that came out of it is on [[wiki/decisions/2026-10-01-completed-is-the-developers-last-step-and-a-found-problem-sends-the-feature-from-completed-back-to-to-do-as-a-story.md]] [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]. (Her Feb-12-2026 note above that Request Review hides schedule dates is the same status.)
+
+## Oct 8 2026 (in absentia) — she draws the comp for the target resolution
+
+At the [[wiki/meetings/2026-10-08-rage-nova-dragon-pays-vertical-port-and-symbol-distortion.md|Oct-8 7:04 AM Rage-to-Nova review]] Pavel said "компарт Лена рисует уже исходя из целевой целевого разрешения экранов", and Kharetski named "Майкл Лена" as the people who must approve a converted layout. Val insisted that scenes be assembled by developers with Claude from designer resources, not by designers — [[wiki/decisions/2026-10-08-game-scenes-are-assembled-by-developers-with-claude-from-designer-resources-not-by-designers.md]] [[raw/Meeting_Transcript_Rage_Nova_Dragon_Pays_Vertical_Port_and_Symbol_Distortion-October-8-2026.md]].
+
+
+## Oct 8 2026 (in absentia) — her meetings come out of the AI PM pilot
+
+At the [[wiki/meetings/2026-10-08-ai-pm-listener-scope-draft-lifetime-and-october-12-go-live.md|Oct-8 AI-PM review]] Bosik listed her among the six people whose meetings the AI PM collects. Val asked to remove her for now and bring her team in at a second stage, once the tool has proved itself; Bosik agreed — [[wiki/decisions/2026-10-08-the-ai-pm-goes-live-in-real-jira-projects-on-october-12-on-its-current-architecture-without-lenas-meetings.md]] [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]].
+
+
+## Oct 8 2026 — the 16-screen Class A storyboard, Aaron's Pub done, Solar Keno in progress
+
+At the [[wiki/meetings/2026-10-08-game-design-class-a-party-time-and-dual-box.md|Oct-8 12:00 PM game-design meeting]] (English) [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]:
+
+- **Class A storyboard.** A detailed storyboard of about 16 screens for Lions Riches, "with all like proper numbers and all like meters or values" for programmers (GD-979). It shows, for example, that changing the bet level disables party time — [[wiki/decisions/2026-10-08-class-a-party-time-may-start-on-the-paid-spin-after-free-spins-and-lions-riches-is-the-single-target.md]]
+- **South Dakota.** Aaron's Pub design is "done and closed"; Solar Keno is in progress; Queen of Luxor Keno is next — [[wiki/projects/south-dakota-vlt-market.md]].
+- **Nebraska (IP-1143) in production.** Lions Riches, Wild Fire Ranch, a Match 3 bonus, Sapphire Star as the first horizontal dual-screen game, the home screen, and Dragon Pays starting — [[wiki/projects/nebraska-skill-market.md]].
+- **Dual box.** She reminded the room that Nebraska keeps its current panel; the small lower panel is for Class A — [[wiki/decisions/2026-10-08-dual-box-for-nebraska-class-a-and-georgia-five-reel-and-no-smaller-touch-area-for-the-wrong-coin.md]]
+
+### Open commitments (Oct 8 2026)
+
+- [ ] Lena Zhukova — finish the detailed Lions Riches Class A storyboard (GD-979) — due unspecified — [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
+- [ ] Lena Zhukova — finish the Solar Keno design for South Dakota — due unspecified — [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
 
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
@@ -399,3 +423,7 @@ At the [[wiki/meetings/2026-10-01-daily-standup-sas-mode-flag-and-feature-status
 - [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
 - [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
 - [[raw/Meeting_Notes_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- [[raw/Meeting_Transcript_Rage_Nova_Dragon_Pays_Vertical_Port_and_Symbol_Distortion-October-8-2026.md]]
+- [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
+- [[raw/Meeting_Notes_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]

@@ -4,12 +4,14 @@ title: Georgia V4 direction — replace the V-deck with a mechanical button deck
 date: 2026-09-04
 aliases: [V4 direction, mechanical button deck, drop the V-deck, default to a dollar, bet up bet down on dashboard, dual box replaces nudge, V-deck is a piano, fifteen games on the selection screen]
 status: active
-source-count: 3
+source-count: 4
 open-commitments: 2
-open-questions: 2
+open-questions: 3
 ---
 
 # Georgia V4 — mechanical button deck, bet up/down defaulting to a dollar, dual box in place of nudge
+
+> **Status note (Oct 8 2026):** the dual-box item is refined — confirmed for 5-reel games, reopened for 3-reel games (nudge may stay there). See the Oct-8 update below.
 
 Worked out in the second block of the [[wiki/meetings/2026-09-04-naming-convention-standards-and-nova-conversion.md|Sept 4 2026 afternoon game-development meeting]], after [[wiki/people/juan-martinez.md|Juan Martinez]] asked whether JVL keeps the V-deck long term ("Primero has a mechanical button deck. Are we going to keep the V deck long term…?"). Val: "this provokes another conversation… many conversations, they're not easy, they're difficult conversations. But I'm glad you asked." [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 
@@ -65,7 +67,14 @@ Five days later, at the [[wiki/meetings/2026-09-09-lucky-coin-service-burden-and
 
 **§15.8:** clear — component cost and service-frequency content only; no named-person compensation.
 
+## Oct 8 2026 — dual box confirmed for Georgia 5-reel games; 3-reel nudge reopened
+
+At the [[wiki/meetings/2026-10-08-game-design-class-a-party-time-and-dual-box.md|Oct-8 12:00 PM game-design meeting]] (English) Val asked whether the dual box would come to Georgia. Michael: "We are, absolutely… We are going to do it." But he reopened the 3-reel case: "whether we do 5 reel dual box, three reel nudge, or whether we just do dual box across the map", because competitors still nudge on 3-reel games; "we know out the gate that the five reels are going to be dual box." Val favours dual box; Michael agreed but will revisit the 3-reel choice later. This refines the "dual box in place of the nudge arrows" item above — evolution, not reversal. He also placed Georgia V4 in Jira as a placeholder, IP-222 under IP-535, with no schedule [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]. Full record: [[wiki/decisions/2026-10-08-dual-box-for-nebraska-class-a-and-georgia-five-reel-and-no-smaller-touch-area-for-the-wrong-coin.md]]
+
+**Open question added (Oct 8):** Georgia 3-reel games — dual box or nudge? — [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Notes_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
+- [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]

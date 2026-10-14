@@ -3,7 +3,7 @@ type: decision
 title: Nathan Carver runs the Flex Pay Slim BOM reverse spike — flatten the MSBC BOM into GitHub, rebuild it through projects, repos, data contracts and agents, push it back and compare; freehand; the Flex Port is spiked next; the work sits under DTP-1083 (or IP-965)
 date: 2026-10-05
 aliases: [Flex Pay Slim reverse spike, BOM reverse spike, reverse engineer the bill of material, freehand spike, compile the BOM, Nathan implements the concept, hardware sync DTP-1083, IP-964, IP-965, Flexport second spike, Flex Port second spike, pretend this was not our starting point]
-source-count: 4
+source-count: 5
 status: active
 open-commitments: 6
 open-questions: 2
@@ -36,6 +36,10 @@ Before the hand-over, Genadi asked that the earlier agreement not be lost: "Оч
 
 On Oct 1 Val said he would build the first GitHub structure himself with Claude Code from the Flex Pay Slim part number, then spend about two hours on it with Genadi; whether Nathan's Sept-30 experiments still stood was garbled on tape ([[wiki/decisions/2026-10-01-only-the-finished-bom-goes-into-msbc-the-configurator-is-ai-logic-outside-it-no-hybrid-and-the-pilot-is-the-flex-pay-slim.md]]). **Oct 5 answers it:** the same Flex Pay Slim pilot goes to Nathan, Genadi reviews the demo. The product and the "work backward from the BOM" method are unchanged; the doer changes. **Evolution, not contradiction.** [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]] [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
 
+## Oct 8 2026 update — "show something on Monday", and Genadi tests
+
+At the [[wiki/meetings/2026-10-08-genadi-bom-standard-flex-slim-metal-mikhail-hand-over-and-data-contracts.md|Oct 8 3:59 PM call]] with Genadi (Nathan absent), Val: "я в принципе близко работаю с нейтаном. И он меня понимает… Он должен показать… чтото в понедельник" — Monday Oct 12. Val wants the week of Oct 12–20 spent "чтобы закончить с нейтоном", with Genadi testing: "нужно тестировать то, что нэйтан делает… И потом нужно найти, что не работает." Genadi: as soon as Nathan has something, "я буду хэппи потестировать с ним." The goal is ordering without Mikhail Perelman — see [[wiki/decisions/2026-10-08-msbc-stops-being-the-bom-source-and-the-week-of-october-12-goes-to-ordering-without-mikhail.md]] [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]. Whether Nathan is away that week (the Oct-5 notes) is open on that page.
+
 ## Open commitments
 
 - [ ] [[wiki/people/nathan-carver.md|Nathan Carver]] — break the work into a project and capabilities in Jira, under DTP-1083 (IP-964) or IP-965, and start implementing — due unspecified — [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
@@ -43,7 +47,7 @@ On Oct 1 Val said he would build the first GitHub structure himself with Claude 
 - [ ] Nathan Carver — then spike the Flex Port on its own and compare it with the Slim result — due after the first spike — [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
 - [ ] Nathan Carver — turn some of this over before his week off ("Just one week next week, so I'll try to turn some of this… over this week") — due the week of Oct 5 2026 — [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
 - [ ] [[wiki/people/val-levitan.md|Val Levitan]] — send Nathan the call transcript, so he has "your objectives and your undertakings from it" — due Oct 5 2026 — [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]] *(the notes say an attachment was posted in the chat at 2:43 PM; that it was the transcript is not confirmed [[raw/Meeting_Notes_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]])*
-- [ ] Owner not named — build the GitHub flat list of parts first: numbering that continues JVL's system, clear rules, and set places to pull revisions and drawings from (Genadi's condition; Val: "очень просто делается") — due unspecified — [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
+- [ ] Owner not named — build the GitHub flat list of parts first: numbering that continues JVL's system, clear rules, and set places to pull revisions and drawings from (Genadi's condition; Val: "очень просто делается") — due unspecified — [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]] *(Oct 8: Genadi says all drawings are in the hardware-manufacturing repo, a part number pulls drawings, revisions and BOM, and he committed the Flex Pay Slim BOM with a table that day; a part-number release standard is still to be written [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]])*
 
 ## History
 
@@ -51,7 +55,7 @@ On Oct 1 Val said he would build the first GitHub structure himself with Claude 
 
 ## Open questions
 
-- Which product categories become projects (and repos)? Val named peripheral devices, monitors, PC boards, sheet metal, plastics and harnesses, thought Genadi's part-number categories may already be the projects, and asked Nathan to "help me think it through". Not settled — [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
+- Which product categories become projects (and repos)? Val named peripheral devices, monitors, PC boards, sheet metal, plastics and harnesses, thought Genadi's part-number categories may already be the projects, and asked Nathan to "help me think it through". Not settled — [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]] *Oct 8: Val's table now lists 13 repos, with fasteners and labels as projects too (see the repo-model page); not confirmed with Nathan [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]*
 - Does building the BC BOM need an agent at all? Nathan: "Once we know the structure, once we know the input. We wouldn't even need an agent, I don't think… We should be able to programmatically build it." Val's answer was that the assembly logic should come from data contracts, handled by AI. Not settled — [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
 
 **§15.8:** clear — no rate or hours are stated. Val stepped out twice for other calls; nothing from them is recorded. **§15 #9:** clear — DTP-1083, IP-964 and IP-965 are Jira work items, not corporate identifiers; no MSBC part number is spoken.
@@ -61,3 +65,4 @@ On Oct 1 Val said he would build the first GitHub structure himself with Claude 
 - [[raw/Meeting_Notes_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
 - [[raw/Meeting_Notes_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
+- [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]

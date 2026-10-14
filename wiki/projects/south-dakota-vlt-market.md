@@ -3,7 +3,7 @@ type: project
 title: South Dakota VLT market entry
 date: 2025-01-22
 aliases: [South Dakota, SD VLT, South Dakota VLT 3, VLT3, South Dakota D2703, IP1180, IP887, IP1131, IP1137, GD918, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950, V43, D27, SD cap, Bioliches, Gypsy Spirit, Crazy Colt, Queen of Luxor, Liberty Spin, Rodeo Spin, South Dakota vertical, MG Oil report, VLT2, Cool Cat, Black Hills Kino, Dragon Pace, Dakota Bison, Solar Keno, Keno Deluxe, IP459, IP1063, SD VLT performance story, Wild Colt, Lion Riches, Liberty Spins, Dutch Mill]
-source-count: 54
+source-count: 55
 open-commitments: 5
 open-questions: 2
 ---
@@ -357,6 +357,15 @@ At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-ne
 
 - [ ] [[wiki/people/ivan.md|Ivan]] — create a RIS with the 40-cent minimum bet for South Dakota per Efim's note and check that the machine comes up; no rebuild — due Oct 2 2026 ("после обеда") — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 
+## Oct 8 2026 — the D27 03 NOVA release: four Keno games, Fiery Ice and Jackpot Rush, two new games
+
+At the [[wiki/meetings/2026-10-08-game-design-class-a-party-time-and-dual-box.md|Oct-8 12:00 PM game-design meeting]] (English) [[wiki/people/michael-gottlieb.md|Michael Gottlieb]] described **IP-1164, "South Dakota D2703 Nova"** [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]:
+
+- **Content.** Solar Keno and Queen of Luxor Keno are added, "so we'll have 4 Keno games in total for South Dakota 3". Fiery Ice and Jackpot Rush come to South Dakota — "something similar to what we've done in Georgia". Two new games: Aaron's Pub and Wild Fire Ranch. "So it's a pretty substantial release."
+- **Abstracts are moving.** Val asked if it was unchanged from two weeks ago. Michael: Sapphire Star done on the 6th, Sparkle Sevens on the 7th; Calle Ocho in work on the 8th; Rodeo Queen planned for the 9th. Queen of Luxor Keno is "a completely new design", "about another week, week and a half out".
+- **Design state.** [[wiki/people/lena.md|Lena]]: South Dakota VLT 27 "will be developed in Nova"; Aaron's Pub game design "is done and closed"; Solar Keno is in progress; Queen of Luxor Keno is next, with Michael on the concept.
+- **Configuration.** The one-page configuration requirements (buttons, progressive resets, Jackpot Rush and Fiery Ice link settings) were done for South Dakota first, then Nebraska — see [[wiki/projects/nebraska-skill-market.md]] (Oct 8).
+
 ## Open questions
 
 - Is the Oct-2 South Dakota hand-over ("сдавать надо") the RAGE VLT-2 submission or the NOVA release, and does Efim's 40-cent minimum apply to one or both? — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
@@ -437,3 +446,4 @@ At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-ne
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/SD_VLT_performance_story-September-2026.md]]
+- [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]

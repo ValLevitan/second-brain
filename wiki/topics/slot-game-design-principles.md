@@ -3,7 +3,7 @@ type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
 aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus, $20 test, twenty dollar test, Twin Bison, Wolfpack, Clover Fortune, Liberty Spins, peek-to-be-in bonus, locking bison, Rodeo Spins, multi-progressive, Multi-Progressive initiative, three-level progressive, three progressive styles, bet-dependent progressive, symbol-driven progressive, time on device, jackpot reset value, RTP parity, Pyre Island, dual box skill feature, Lions Riches, Primero, Piggy, attraction loop, credits vs dollars, default to a dollar, first three rankings, the ice maker, settings not the report, no secret between us, Anchor Gaming, Wheel of Fortune, sickly sweet, two RTP versions, too many options]
-source-count: 94
+source-count: 95
 open-questions: 12
 ---
 
@@ -947,6 +947,15 @@ From the [[wiki/meetings/2026-09-25-georgia-progressives-and-class-a-lions-riche
 
 **§15.8:** clear — design and settings content only.
 
+## Oct 8 2026 — dual box above the button panel, no trick touch areas, nudge vs dual box, and "do no harm" on progressive resets
+
+At the [[wiki/meetings/2026-10-08-game-design-class-a-party-time-and-dual-box.md|Oct-8 12:00 PM game-design meeting]] (English) [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]:
+
+- **Do not shrink the wrong coin's touch area.** Efim suggested it; Michael refused: "we're already on the edge of what is appropriate, and I wouldn't want to give anybody any reason to make a video that they could post on YouTube." Players already know how to play — [[wiki/decisions/2026-10-08-dual-box-for-nebraska-class-a-and-georgia-five-reel-and-no-smaller-touch-area-for-the-wrong-coin.md]].
+- **Place the dual box low, right above the button panel.** Val's idea; Michael: the movement is more natural and less tiring, "especially if you're elderly". Used for Class A; Nebraska keeps its current panel.
+- **Nudge on 3-reel, dual box on 5-reel?** Competitors still nudge on 3-reel games. Michael's guess: with only 9 symbols on screen, a nudge feels like completion. On 5-reel games the dual box lets hold-and-respin games and Jackpot Rush play like their Class 3 versions. Still open for Georgia.
+- **Progressive reset levels: "do no harm".** Set without competitor data; rise with each bet level but not drastically; lighter on minis because a small dollar change does not move players.
+
 ## Open questions (Sept 22 2026)
 
 - Discrete or cumulative releases? Michael laid out Juan's blended approach; Val made no ruling — [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
@@ -1065,3 +1074,4 @@ From the [[wiki/meetings/2026-09-25-georgia-progressives-and-class-a-lions-riche
 - [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
 - [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
 - [[raw/Meeting_Notes_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]

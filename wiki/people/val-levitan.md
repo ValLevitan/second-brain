@@ -3,7 +3,7 @@ type: person
 title: Val Levitan
 date: 2026-07-12
 aliases: [Val, Val Levitan]
-source-count: 415
+source-count: 422
 open-commitments: 77
 open-questions: 1
 ---
@@ -1620,6 +1620,27 @@ On a phone call with [[wiki/people/larry-sharon.md|Larry Sharon]] ([[wiki/meetin
 
 - [ ] Val Levitan — put test units on locations from November 1 2026 (50–100 locations in November–December), and tell Larry when it starts — due Nov 1 2026 — [[raw/Meeting_Transcript_Larry_Hardware_Rental_Pricing_and_November_Pilot-October-7-2026.md]]
 
+## Oct 8 2026 (7:04 AM) — "I insist" on Claude-built scenes; but the conversion task "не достигнуто"
+
+At the [[wiki/meetings/2026-10-08-rage-nova-dragon-pays-vertical-port-and-symbol-distortion.md|Oct-8 7:04 AM Rage-to-Nova review]] (Russian) he fully agreed with Igor's proposal that developers assemble scenes with Claude from designer resources, and went further — "я даже настаиваю" — because Claude's speed beats any designer; his estimate was about 2 weeks to a final comp and 3 months of production for designers, against hours for Claude — [[wiki/decisions/2026-10-08-game-scenes-are-assembled-by-developers-with-claude-from-designer-resources-not-by-designers.md]] [[raw/Meeting_Transcript_Rage_Nova_Dragon_Pays_Vertical_Port_and_Symbol_Distortion-October-8-2026.md]]. He then said the team had drifted from the task: converting existing horizontal games to vertical is "не достигнуто" because the symbols are distorted, asked whether a mathematical fit could avoid it, and gave Igor time to try. He set a follow-up with Igor about two hours later — [[wiki/decisions/2026-10-05-horizontal-to-vertical-conversion-runs-in-parallel-with-the-port-autotests.md]] (Oct-8 update) [[raw/Meeting_Transcript_Rage_Nova_Dragon_Pays_Vertical_Port_and_Symbol_Distortion-October-8-2026.md]].
+
+
+## Oct 8 2026 — the AI PM go-live, the "no watered-down soup" principle, and an AI Chief System Architect
+
+- **AI PM review (8:31 AM).** At the [[wiki/meetings/2026-10-08-ai-pm-listener-scope-draft-lifetime-and-october-12-go-live.md|Oct-8 AI-PM review]] he challenged the Listener design: one agent that listens, judges, writes features, improves and audits itself will not carry a real-time agent; he proposed a Listener that only listens and builds the vocabulary, with a separate agent for processing. He said he had seen a demo the day before of a system that works in real time. He then agreed to launch on the current design and change it if needed; live in real Jira projects from Monday Oct 12. He asked to keep Lena's meetings out of the pilot until the tool has a track record, and ruled that the agent is not genderless and gets a name ("Dasha" proposed). Rulings: [[wiki/decisions/2026-10-08-the-ai-pm-goes-live-in-real-jira-projects-on-october-12-on-its-current-architecture-without-lenas-meetings.md]] [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]].
+- **His principle on group decisions.** In the AI Draft lifetime debate he said a team that seeks the middle of all opinions makes "разжижению бульона"; he prefers one owner's clear position, even if wrong, because the mistakes can then be found and fixed — "не надо делать жидкий бульон" [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]].
+- **AI Chief System Architect (11:35 AM).** At the [[wiki/meetings/2026-10-08-ai-chief-system-architect-gap-finding-task.md|Oct-8 "AI-Chief System Architect" call]] he proposed, with Pavel, a persona that builds the whole Galaxy and Nova architecture from code, prose and data contracts only, to show where the code differs from what the team intended; output as HTML block diagrams with the harness links and the prose per block. He will enter it as Bosik's next objectives — [[wiki/decisions/2026-10-08-an-ai-chief-system-architect-maps-galaxy-and-nova-from-code-prose-and-data-contracts-to-find-gaps-as-bosiks-next-objective.md]] [[raw/Meeting_Transcript_AI_Chief_System_Architect_Gap_Finding_Task-October-8-2026.md]].
+
+
+## Oct 8 2026 (10:02 AM) — "всё получилось": Texas games go to vertical NOVA, blind and unchanged
+
+At the [[wiki/meetings/2026-10-08-dragon-pays-vertical-accepted-and-dutch-mill-port-plan.md|10:02 AM "Games convert horizontal to vertical" session]] (Russian) he accepted Igor's 20% vertical Dragon Pays and ruled that the horizontal Texas games on RAGE are moved to vertical NOVA with that method: "Мы ничего не меняем, ни математику, ни функционал… в тупую слепую." He wanted Sergey Kleimenychev to do the conversions with little help from Igor, then agreed with Pavel and Irina that Igor ports the first game (Dutch Mill). He did not accept Igor's one-week estimate for the work itself, set the dates (Oct 12, Oct 15, Oct 19) and told the group to keep it confidential "чтобы не было никаких испугов" [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]. Full record: [[wiki/decisions/2026-10-08-texas-rage-games-convert-to-vertical-nova-unchanged-and-igor-ports-dutch-mill-first.md]]
+
+
+## Oct 8 2026 (12:00 PM) — the $50 is a cap, and the dual box goes lower
+
+At the [[wiki/meetings/2026-10-08-game-design-class-a-party-time-and-dual-box.md|Oct-8 12:00 PM game-design meeting]] (English) he asked where Class A legislative requirements could be found (none were), pointed out that a party-time win "could be less than 50. It cannot be more than 50", and asked whether the requirements would really be ready by October 16. Michael credited him with placing the dual box lower, above the button panel; he asked for the dual box in Georgia too and said he favours it — [[wiki/decisions/2026-10-08-class-a-party-time-may-start-on-the-paid-spin-after-free-spins-and-lions-riches-is-the-single-target.md]] [[wiki/decisions/2026-10-08-dual-box-for-nebraska-class-a-and-georgia-five-reel-and-no-smaller-touch-area-for-the-wrong-coin.md]] [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
@@ -2044,3 +2065,10 @@ On a phone call with [[wiki/people/larry-sharon.md|Larry Sharon]] ([[wiki/meetin
 - [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Larry_Hardware_Rental_Pricing_and_November_Pilot-October-7-2026.md]]
 - [[raw/Meeting_Notes_Larry_Hardware_Rental_Pricing_and_November_Pilot-October-7-2026.md]]
+- [[raw/Meeting_Transcript_Rage_Nova_Dragon_Pays_Vertical_Port_and_Symbol_Distortion-October-8-2026.md]]
+- [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
+- [[raw/Meeting_Notes_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
+- [[raw/Meeting_Transcript_AI_Chief_System_Architect_Gap_Finding_Task-October-8-2026.md]]
+- [[raw/Meeting_Notes_AI_Chief_System_Architect_Gap_Finding_Task-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]

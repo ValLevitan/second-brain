@@ -3,8 +3,8 @@ type: person
 title: Efim Podvoiski
 date: 2026-07-13
 aliases: [Efim Podvoiski, Efim, Yefim, Ifim, EFIM, Podvoiski, Athim, Athene, Athena, Ethan, Epheme, Afim]
-source-count: 70
-open-commitments: 10
+source-count: 71
+open-commitments: 11
 open-questions: 0
 ---
 
@@ -273,7 +273,7 @@ At the [[wiki/meetings/2026-09-25-georgia-progressives-and-class-a-lions-riches.
 
 ## Open commitments (Sept 25 2026)
 
-- [ ] Efim Podvoiski — work out the Class A Lions Riches math without nudge ($50 cap, free spins, party time) — due unspecified — [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- [ ] Efim Podvoiski — work out the Class A Lions Riches math without nudge ($50 cap, free spins, party time) — due unspecified — [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]] — **Oct 8 2026:** one free-spins answer agreed with Michael (party time may follow on the next paid spin); whether payouts below $50 are used is still to be checked in the maths — [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
 
 ## Sept 30 2026 (11:07 AM) — walked through the repo standards by Val; topic words only
 
@@ -288,6 +288,19 @@ A 13-minute one-on-one with Val ([[wiki/meetings/2026-09-30-repo-standards-walkt
 ## Oct 2 2026 (in absentia) — his written note on the South Dakota maths: the minimum bet from 50 cents to 40
 
 At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-new-arm-boards.md|Oct-2 Minsk stand-up]] (Russian; he was not on it) [[wiki/people/ivan.md|Ivan]]: "у меня ефим вчера много чего писал я Ирине перекидывал. Это касательно [South Dakota]… Я так понимаю для математики?… где было 50 центов. Минимальная ставка сделали 40" — a written note from "ефим" (this page, by context — the South Dakota maths; inference) on Oct 1 changing the minimum bet from 50 cents to 40, handled by Irina and Ivan as a RIS with the 40-cent minimum and no rebuild. See [[wiki/projects/south-dakota-vlt-market.md]] (Oct 2) [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]. The note itself is not in the corpus.
+
+
+## Oct 8 2026 — party time after free spins, the Nebraska configuration review, and a touch-area idea turned down
+
+At the [[wiki/meetings/2026-10-08-game-design-class-a-party-time-and-dual-box.md|Oct-8 12:00 PM game-design meeting]] (English) [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]:
+
+- **Class A.** With Michael he came up with the rule that the paid spin after free spins may trigger party time; he will explain Class A behaviour to the developers in Russian at the kickoff — [[wiki/decisions/2026-10-08-class-a-party-time-may-start-on-the-paid-spin-after-free-spins-and-lions-riches-is-the-single-target.md]]
+- **Nebraska.** His review of the configuration page found "a couple of things that needed to get adjusted"; he and Michael argued out the progressive reset levels to a baseline — [[wiki/projects/nebraska-skill-market.md]].
+- **Select-a-coin.** He suggested a smaller touch box for the wrong coin; Michael refused — [[wiki/decisions/2026-10-08-dual-box-for-nebraska-class-a-and-georgia-five-reel-and-no-smaller-touch-area-for-the-wrong-coin.md]]
+
+### Open commitments (Oct 8 2026)
+
+- [ ] Efim Podvoiski — explain Class A behaviour to the developers in Russian at the Class A kickoff — due kickoff (date not set) — [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
 
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
@@ -362,3 +375,4 @@ At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-ne
 - [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
 - [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
 - [[raw/Meeting_Notes_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]

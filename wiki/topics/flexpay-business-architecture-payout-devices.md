@@ -3,8 +3,8 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, floating FlexPort, FlexPort on posts, флори дизайн, recycling cassette, drop cassette, two-tape reel, refill cycle, IQ point of sale, promo credit on SAS 2, validator emulation, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS, ATM registration, slim ATM, Flex-Port-Mini, Flex Port Mini, Flex-Slim first ten, brackets from China, twelve eight twenty, eVoucher, wrapped gift card, EasyLynx, second SAS port, ATM Recycler, PTI Sentry, MudaGoose, Lego bricks, closed loop ATM, promo meter, technology agnostic, player is the king, tap to fund, the magic is in speed, Pay Slim, cannibalise MudaGoose, zero-balance wallet, wallet lifetime, one TITO printer, splitting, AFT device, AFT window, emulate an AFT device, no cash dispensing, eWallet TTL, collect fork, unclaimed transaction, reissue versus reprint, print new carrier, balance snapshot, daily cap and velocity, SAS 6.02, Gaming Standards Association, audit report one button, dual balance deposited and playable, Total Playable only Redeemable, balance naming ADR, playable only, unclaimed money, maintenance versus lockout, always-on scanner, LTE modem per device, capability requires requirement, printer tilts, preventive supply telemetry, vault server, incremental five, five dollars of promotional credit for a phone number, clearance network prohibits proceeds from gambling, business way agnostic, they are not your customer they are mine, offline operation, twenty-four hour offline window, lease expiry versus internet loss, be honest with yourselves, no cash on FlexPay, de-enrolled from a location never from the cloud, fifteen Flex-Ports design for 99, no daily cap error, pending transaction, one-time redemption PIN, synchronisation point, metal mesh on standoffs, Flex-Pay-Slim lid, service bay cover, taut string stopper, roll forward only, no rollback to a previous build, MVP1 dual SAS only, capability 144 cloned, nothing is closed, Monday scope freeze, receipt format still not given, balance display game agnostic, stackable recycler, cash box capacity, standalone TITO printer topology, four swimlanes seven columns, language button top left, 854 by 480, status icons on error screens, asset number, серийный номер машины, engineering menu QR, machine performance report MVP2, feature lock slips, capability 229, TouchGFX Designer, two-stage screen redraw, HTML mock-up versus Figma, design tokens, the kiosk is FlexPay, player gets two dollars less, blank not empty, texts compiled at build, October 2 end date, E2E micro-step, KORE SIM in the IQ, capability 234, capability 235, forfeit wallet, no PIN lockout, nine Flex-Ports default twenty]
-source-count: 299
-open-commitments: 130
+source-count: 302
+open-commitments: 133
 open-questions: 35
 ---
 
@@ -2956,6 +2956,26 @@ The derived notes record the same, with the timer rule as Pavel's decision and "
 
 - Will the "touch restarts the 30-second timer" rule be written into the Flexport requirement? Irina says it is unclear now — [[raw/Meeting_Notes_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
 
+## Oct 8 2026 (4:58 AM stand-up) — the lease expired on the test terminals and the Flexports stopped; Flexport signal quality is MVP 2; Chudinov's faster card activation and a SAS fix in the machine emulator; port firmware review is not MVP 1; Tsymanov on the Flex memory leak
+
+At the [[wiki/meetings/2026-10-08-daily-standup-lease-expiry-scenarios-and-flex-signal-quality.md|Oct-8 Minsk stand-up]] (Russian), with "less than a week" to the 15th [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]:
+
+- **Lease expiry.** The lease on the test terminals expired that morning and all Flexports stopped; which out-of-service screen shows for expired, revoked or unlinked is not settled — [[wiki/decisions/2026-09-11-lease-blocking-reaches-the-flex-ports-and-is-never-automatic.md]] (Oct-8 update).
+- **Signal quality.** The Flexport does not send its own network signal quality to the kiosk; Wi-Fi is MVP 2, and MVP 2 tasks are needed on Flexport and Flex IQ — [[wiki/decisions/2026-09-17-signal-quality-in-mvp1-means-remote-visibility-not-a-screen.md]] (Oct-8 update). [[wiki/people/alexander-biratka.md|Biratka]] groomed his tasks (6 in progress) and fixed dates; he is moving the screen of tiles showing the connected ports.
+- **[[wiki/people/dmitri-chudinov.md|Chudinov]].** He refactored card activation: fewer hops between services, "На глаз ощутимо быстрее". He found why a transaction to a machine failed: the machine emulator needs fixes so that it handles SAS properly. Current task "ф 52" (the notes: F-52), the screens: no gaps against the mock-ups found; he asked "Антоха" (Seregin) for a couple of edits. He plans to review the traffic logs for junk or repeats ("возможно, с flex pay перетянул звуки" — **unclear**).
+- **Port firmware review — not MVP 1.** Pavel asked whether Chudinov could review the port firmware. Chudinov: not before the 15th, maybe next week. Irina: "Это не было на VPE один." Pavel: "Нет, нет, нет." The notes record "Port firmware review is not MVP1" as a decision of Irina and Pavel [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]].
+- **[[wiki/people/sergey-tsymanov.md|Tsymanov]].** The printer-status task (ticket printing through the port, with a record if it cannot print). He took log-memory optimisation after the incident "Позавчера" (the day before yesterday). Now on the Flex memory leak; Pavel: "Фи ай кью 140 да" — FIQ-140.
+
+### Open commitments (Oct 8 2026, 4:58 AM)
+
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — fix SAS handling in the machine emulator; review the traffic logs — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — make a couple of edits for Chudinov's screen task F-52 — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+- [ ] [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] — fix the Flex memory leak (FIQ-140) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+
+## Oct 8 2026 (3:59 PM) — the FlexPort back cover for Aristocrat: one large round hole for the wires
+
+On the [[wiki/meetings/2026-10-08-genadi-bom-standard-flex-slim-metal-mikhail-hand-over-and-data-contracts.md|Oct 8 3:59 PM alignment call]] (Russian; Val and [[wiki/people/genadi-peari.md|Genadi]]) Genadi said he will make the FlexPort for Aristocrat — "не проблема" — and send the back cover: "просто одно отверстие посередине надо круглое… одно отверстие большое сделал оттуда все провода протащил." Val: "Да." [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]] This follows the Oct-1 stand-off rear cover above. Commitment on [[wiki/people/genadi-peari.md]] (Oct 8). **§15.8:** clear.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -3260,3 +3280,6 @@ The derived notes record the same, with the timer rule as Pavel's decision and "
 - [[raw/Meeting_Notes_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]

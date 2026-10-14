@@ -3,8 +3,8 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий, Kenadi]
-source-count: 115
-open-commitments: 36
+source-count: 117
+open-commitments: 43
 ---
 
 # Genadi Peari
@@ -575,6 +575,30 @@ On the [[wiki/meetings/2026-10-05-design-to-msbc-zero-trust-repos-and-data-contr
 
 His Oct-1 commitment to post the Flex Pay Slim part number in the chat is not mentioned on Oct 5.
 
+## Oct 8 2026 (3:59 PM) — the BOM standard, metal not ordered, the Hangzhou method, and data contracts "fully on you"
+
+On the [[wiki/meetings/2026-10-08-genadi-bom-standard-flex-slim-metal-mikhail-hand-over-and-data-contracts.md|Oct 8 3:59 PM alignment call]] (Russian; Val and Genadi only) [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]:
+
+- **Standards.** He wrote a standard for building product BOMs and sent Val a pull request; next he wants one for releasing new part numbers.
+- **Drawings and BOM in GitHub.** All drawings are in the hardware-manufacturing repo; a part number pulls drawings, revisions and BOM; he committed the Flex Pay Slim BOM with a table that day. His old folder name "Defrend" (decals, labels, other items) and the harnesses under the Flex Pay peripherals are to be redone — see [[wiki/decisions/2026-10-05-hardware-follows-the-developer-repo-model-one-jira-project-one-repo-zero-trust-data-contracts-no-monorepo.md]] (Oct-8 update).
+- **Supply status he gave.** The validator bought in China and sent to Minsk has a tracking number that does not work yet; the supplier says it will show in a few days. Flex Slim: brackets for the Georgia retrofit are in, the full metal for 100 not started, 10 sets on hand; IQ: about 25 on hand, 100 needed; modems ordered ("100 150 штук или сколько это?") — see [[wiki/decisions/2026-09-04-brackets-and-harnesses-from-china-and-a-metal-order-for-one-hundred.md]] (Oct-8 update).
+- **The Hangzhou method.** Quantities first, two BOM numbers into the system for a flat list, quotes for 100, 300 and 1,000, hinges to another supplier, prices into BC — see [[wiki/decisions/2026-10-08-msbc-stops-being-the-bom-source-and-the-week-of-october-12-goes-to-ordering-without-mikhail.md]].
+- **BOM in BC.** He offered to run ordering now with the BOM left in BC; Val refused. He will add the Texas BOM to BC ("это мне 10 минут").
+- **Data contracts are his.** Val: the biggest GitHub job "ложится полностью на вас." He had not understood Val's email on it. He doubted the company would move forward because of it, then said of the AI "Он очень умный, умнее меня намного" and that the contracts will bring benefits "Со временем".
+- **FlexPort for Aristocrat.** He will make the back cover with one large round hole in the middle for all wires — see [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 8).
+- **Street cabinet.** He reminded Val it is on hold — see [[wiki/topics/low-cost-street-machine.md]] (Oct 8).
+- **Week of Oct 12–20.** He will test Nathan Carver's work as soon as it is ready.
+
+## Open commitments (Oct 8 2026)
+
+- [ ] Genadi Peari — chase the tracking number for the validator shipped from China to Minsk — due unspecified — [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
+- [ ] Genadi Peari — write the standard for releasing / assigning new part numbers — due unspecified — [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
+- [ ] Genadi Peari — add the Texas BOM to BC — due Oct 8 2026 — [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
+- [ ] Genadi Peari — send Val the link to the Flex Pay Slim in the hardware-manufacturing repo — due Oct 8 2026 — [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
+- [ ] Genadi Peari — make the FlexPort back cover for Aristocrat (one large round hole for the wires) and send it — due unspecified — [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
+- [ ] Genadi Peari — test Nathan Carver's BOM work as soon as it is ready — due week of Oct 12–20 2026 — [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
+- [ ] Genadi Peari — write data contracts for each hardware repository, per Val's 13-repo table — due unspecified — [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]] [[raw/Meeting_Notes_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
 - [[raw/Meeting_Notes_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
@@ -692,3 +716,5 @@ His Oct-1 commitment to post the Flex Pay Slim part number in the chat is not me
 - [[raw/Meeting_Transcript_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]]
 - [[raw/Meeting_Transcript_RIS_MVP1_Factory_Reset_Reduction_Plan-September-25-2026.md]]
 - [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
+- [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
+- [[raw/Meeting_Notes_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]

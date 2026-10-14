@@ -4,8 +4,8 @@ title: Michael Gottlieb
 date: 2026-07-13
 aliases: [Michael Gottlieb, Michael, Mike]
 disambiguation: "Senior VP of Game Design (works with Juan). Misha/Michael cluster (2, owner-ruled): [[wiki/people/michael-gottlieb.md|Michael Gottlieb]]=Senior VP Game Design / [[wiki/people/mikhail-perelman.md|Mikhail Perelman]]=Procurement Manager (the "retrofit Misha"). Resolve by context; queue if none."
-source-count: 68
-open-commitments: 11
+source-count: 70
+open-commitments: 15
 ---
 
 # Michael Gottlieb
@@ -319,7 +319,7 @@ At the [[wiki/meetings/2026-09-22-multi-game-screen-layout-and-game-count.md|Sep
 
 ## Open commitments (Sept 22 2026)
 
-- [ ] Michael Gottlieb — set the Nebraska progressive levels and bet levels and give Efim answers — due unspecified — [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
+- [ ] Michael Gottlieb — set the Nebraska progressive levels and bet levels and give Efim answers — due unspecified — [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]] — **Oct 8 2026:** progressive reset levels now set as a baseline on the Nebraska configuration page after a debate with Efim; bet levels not mentioned, so left open — [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
 
 ## Sept 25 2026 — he brings the progressive values, reports the 96.5% mistake, and leads Class A on Lions Riches
 
@@ -337,8 +337,30 @@ At the [[wiki/meetings/2026-09-25-georgia-progressives-and-class-a-lions-riches.
 ## Open commitments (Sept 25 2026)
 
 - [ ] Michael Gottlieb — tell Val how many buttons the Flex-S button panel needs (Val: "probably 8") — due unspecified — [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
-- [ ] Michael Gottlieb — the Lions Riches Class A abstract in Jira (IP-1190) — due Oct 9 2026 ("conceivably, we have to see") — [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- [ ] Michael Gottlieb — the Lions Riches Class A abstract in Jira (IP-1190) — due Oct 9 2026 ("conceivably, we have to see") — [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]] — **Oct 8 2026:** the focus moved to the Class A requirements document (IP-1220), which shows "ready by October 16th"; Michael: "We'll see" — [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
 - [ ] Michael Gottlieb — work with Lena on the storyboard pieces and the time they will take — due week of Sept 28 2026 ("next week") — [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+
+## Oct 8 2026 (in absentia) — named as an approver of converted layouts
+
+At the [[wiki/meetings/2026-10-08-rage-nova-dragon-pays-vertical-port-and-symbol-distortion.md|Oct-8 7:04 AM Rage-to-Nova review]] Kharetski said a horizontal-to-vertical conversion must be approved by the people who own the games — "Майкл Лена" — or Michael may later reject it. He described the comp being shown to Michael, who may ask for elements to move — [[wiki/decisions/2026-10-08-game-scenes-are-assembled-by-developers-with-claude-from-designer-resources-not-by-designers.md]] [[raw/Meeting_Transcript_Rage_Nova_Dragon_Pays_Vertical_Port_and_Symbol_Distortion-October-8-2026.md]].
+
+
+## Oct 8 2026 — Class A rules by reverse engineering, party time after free spins, the release lists, and dual box
+
+He led the [[wiki/meetings/2026-10-08-game-design-class-a-party-time-and-dual-box.md|Oct-8 12:00 PM game-design meeting]] (English) [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]:
+
+- **Class A.** He wrote the Class A requirements document (IP-1220) by deconstructing Primero's game, with one change he and Efim made: after free spins, the next paid spin may trigger party time. Lions Riches is the single target game. On "ready by October 16th": "We'll see." — [[wiki/decisions/2026-10-08-class-a-party-time-may-start-on-the-paid-spin-after-free-spins-and-lions-riches-is-the-single-target.md]]
+- **South Dakota D27 03 (IP-1164).** Doing the abstracts: Sapphire Star (6th), Sparkle Sevens (7th), Calle Ocho (8th, in work), Rodeo Queen (9th); Queen of Luxor Keno is a new design, about 1–1.5 weeks out — [[wiki/projects/south-dakota-vlt-market.md]].
+- **Georgia V4 (IP-222).** A preliminary list after his trip — [[wiki/projects/georgia-market-rollout.md]].
+- **Nebraska.** The configuration page (IP-1221) and the progressive reset baseline, "do no harm" — [[wiki/projects/nebraska-skill-market.md]].
+- **Dual box.** Rejected Efim's smaller touch area for the wrong coin; credited Val with placing the dual box lower; dual box for Nebraska, Class A and Georgia 5-reel — [[wiki/decisions/2026-10-08-dual-box-for-nebraska-class-a-and-georgia-five-reel-and-no-smaller-touch-area-for-the-wrong-coin.md]]
+
+### Open commitments (Oct 8 2026)
+
+- [ ] Michael Gottlieb (with Efim Podvoiski) — check in the maths whether party-time payouts below $50 meet the goals — due unspecified — [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
+- [ ] Michael Gottlieb — finish the South Dakota D27 03 abstracts (Calle Ocho, then Rodeo Queen) — due Oct 8–9 2026 — [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
+- [ ] Michael Gottlieb — concept for Queen of Luxor Keno — due about 1–1.5 weeks from Oct 8 2026 — [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
+- [ ] Michael Gottlieb — document the Georgia V4 ideas and start abstracts — due unspecified — [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
 
 ## Sources
 
@@ -410,3 +432,5 @@ At the [[wiki/meetings/2026-09-25-georgia-progressives-and-class-a-lions-riches.
 - [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
 - [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
 - [[raw/Meeting_Notes_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- [[raw/Meeting_Transcript_Rage_Nova_Dragon_Pays_Vertical_Port_and_Symbol_Distortion-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]

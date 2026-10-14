@@ -3,10 +3,10 @@ type: decision
 title: Build no further games on RAGE — switch straight to NOVA, and do Texas on NOVA
 date: 2026-09-17
 aliases: [no more games on Rage, не делать никаких игр в речь, switch straight to Nova, Texas on Nova, сразу переключиться на нового, Техас сделать на ново, no time for debate, время на полемику]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 0
-open-questions: 1
+open-questions: 0
 ---
 
 # Build no further games on RAGE — switch straight to NOVA, and do Texas on NOVA
@@ -50,7 +50,7 @@ Pavel's observation was practical: the experiment under way converts a **horizon
 
 ## Open questions
 
-- **What becomes of the RAGE horizontal→vertical conversion experiment now in progress?** Pavel raised it as the reason for the ruling; Val ruled on future games without saying whether the running experiment continues, is redirected onto NOVA, or stops. Nobody asked. [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+- ~~**What becomes of the RAGE horizontal→vertical conversion experiment now in progress?**~~ **Answered Oct 8 2026:** it continues, aimed at NOVA. Igor asked whether the conversion is for RAGE or NOVA; Val: "На новый." The horizontal Texas games on RAGE are moved to vertical NOVA games, maths and function unchanged — [[wiki/decisions/2026-10-08-texas-rage-games-convert-to-vertical-nova-unchanged-and-igor-ports-dutch-mill-first.md]] [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]] — earlier: Pavel raised it as the reason for the ruling; Val ruled on future games without saying whether the running experiment continues, is redirected onto NOVA, or stops. Nobody asked. [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
 
 ## §15.8 / §15.9
 
@@ -60,3 +60,4 @@ Pavel's observation was practical: the experiment under way converts a **horizon
 
 - [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
 - [[raw/Meeting_Notes_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
+- [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]

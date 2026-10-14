@@ -3,7 +3,7 @@ type: topic
 title: Game art & animation production pipeline (comp art → Miranda)
 date: 2025-03-12
 aliases: [animation production, comp art pipeline, CompArt, storyboards, Spine, Blender, After Effects, placeholder build, Miranda scene assembly, art production stages, spike, sorting, symbol containers, Glorosa, Havana Noches, Fiery Ice Link, Rodeo Spin, vertical geometry standard, liquid glass shader, screen zones]
-source-count: 23
+source-count: 25
 ---
 
 # Game art & animation production pipeline (comp art → Miranda)
@@ -218,6 +218,24 @@ At the [[wiki/meetings/2026-09-20-vertical-geometry-standard-and-adr-consolidati
 
 At the [[wiki/meetings/2026-10-05-rage-nova-port-autotests-and-horizontal-to-vertical-layout.md|Oct-5 7:01 AM Rage-to-Nova review]] (Russian) Val said he has no doubt there is a relative dependency between horizontal and vertical layouts. Pavel proposed scaling each horizontal screen down and stacking them; Igor said that was tried and the reels came out "очень маленькие". Irina proposed fitting symbols, not the whole field, into vertical cells. Igor prefers fixed templates per format (for example 5×3 horizontal and 5×3 vertical) with two resource sets in the game repository, and warned that themed transitions — like the Dragon Pays lantern — cannot be forced into strict maths without making all games look the same. Irina: a transition is 4 seconds in every game; only the dissolve start differs. Val gave Igor the conversion work in parallel with the autotests — [[wiki/decisions/2026-10-05-horizontal-to-vertical-conversion-runs-in-parallel-with-the-port-autotests.md]] [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]].
 
+## Oct 8 2026 — vertical Dragon Pays with stretched symbols, one resource set for both layouts, and scenes built by developers with Claude
+
+At the [[wiki/meetings/2026-10-08-rage-nova-dragon-pays-vertical-port-and-symbol-distortion.md|Oct-8 7:04 AM Rage-to-Nova review]] (Russian) [[wiki/people/igor-metelski.md|Igor]] showed a working vertical Dragon Pays built from horizontal resources. The symbols came out slightly taller than wide; fitting the reel frame to undistorted symbols instead leaves empty areas, which he filled by extending the art (sky, a tree, lanterns). His view: horizontal art in its current form fits direct conversion poorly — the Sept-14 finding again. Val said the conversion task is not reached and asked for a no-distortion fit — [[wiki/decisions/2026-10-05-horizontal-to-vertical-conversion-runs-in-parallel-with-the-port-autotests.md]] (Oct-8 update) [[raw/Meeting_Transcript_Rage_Nova_Dragon_Pays_Vertical_Port_and_Symbol_Distortion-October-8-2026.md]].
+
+For future games Igor proposed one resource set for both layouts: a 1920×2160 master background video (two Full HD screens stacked), cut in half for horizontal or cut to a strip and scaled to 1080×1920 for vertical; transition accents that fit inside the vertical strip; fixed rules for the pay table and progressive meters. He also proposed that developers, with Claude, assemble the scenes from designer resources, following the designer's comp, instead of designers assembling them in 3ds Max. Val insisted on it — [[wiki/decisions/2026-10-08-game-scenes-are-assembled-by-developers-with-claude-from-designer-resources-not-by-designers.md]] [[raw/Meeting_Transcript_Rage_Nova_Dragon_Pays_Vertical_Port_and_Symbol_Distortion-October-8-2026.md]].
+
+Two production facts stated in the room: designers take "может быть 2 недели" to a final comp and "3 месяца" for production (Val's estimate); and Lena draws the comp for the target screen resolution (Pavel). Igor added that every game has a clean topper, a good source for the main character's art; Claude can extend such art ("это не задача нарисуй мне по новой это задача дорисуй") [[raw/Meeting_Transcript_Rage_Nova_Dragon_Pays_Vertical_Port_and_Symbol_Distortion-October-8-2026.md]].
+
+
+## Oct 8 2026 (10:02 AM) — a 20% stretch is accepted, and static toppers become looping AI videos
+
+At the [[wiki/meetings/2026-10-08-dragon-pays-vertical-accepted-and-dutch-mill-port-plan.md|10:02 AM follow-up]] (Russian) the vertical method was settled and an art step was added [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]:
+
+- **Symbols may be stretched 20%.** The approved horizontal Dragon Pays already had symbols about 20% wider than tall; the vertical one gets symbols about 20% taller than wide. The reel frame spans the full screen width and is three symbols high. A single symbol the team dislikes (the turtle) can be kept square with the rest filled by transparency. Igor took about one and a half hours, 40 minutes of it generating two videos.
+- **Empty sky is filled by extrapolation.** Igor says the Dakota games all have an empty sky area with no active elements, so they can go vertical.
+- **Static toppers become videos.** Some older games have a static topper picture and no video (Dutch Mill among them). Val: have Claude or ChatGPT make a video from the static picture. Pavel: it must loop — the first frame equals the last — about 10 seconds. The game title should be a separate video, not baked into the topper. A "liquid glass" reel frame can come later; plain video first.
+- **Who.** Sergey Kleimenychev prepares the videos; Igor writes him a technical task with sizes and steps, and ports the game himself. Full record: [[wiki/decisions/2026-10-08-texas-rage-games-convert-to-vertical-nova-unchanged-and-igor-ports-dutch-mill-first.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
@@ -243,3 +261,5 @@ At the [[wiki/meetings/2026-10-05-rage-nova-port-autotests-and-horizontal-to-ver
 - [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]
+- [[raw/Meeting_Transcript_Rage_Nova_Dragon_Pays_Vertical_Port_and_Symbol_Distortion-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]

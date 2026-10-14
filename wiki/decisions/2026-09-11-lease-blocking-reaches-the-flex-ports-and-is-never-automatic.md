@@ -3,10 +3,10 @@ type: decision
 title: Lease blocking must reach the Flex-Ports as well as the terminal, so players cannot play — and blocking is never automatic, only manual through the hub
 date: 2026-09-11
 aliases: [block the flex ports too, players cannot play, never block automatically, expired lease in the hub stops everything, lease feature written in so it gets tested, disable the bill acceptor through SAS, we can block Flex IQ FlexPay and the Flex Ports, lease expiry blocks offline too, lease versus internet loss, fresh lease date at start-up]
-source-count: 4
+source-count: 6
 status: active
-open-commitments: 3
-open-questions: 1
+open-commitments: 4
+open-questions: 2
 ---
 
 # Lease blocking reaches the Flex-Ports — and is never automatic
@@ -58,15 +58,31 @@ The meeting then established that **lease expiry and loss of internet are two di
 
 **Nothing on this page is superseded** — manual-only blocking and the reach into the ports both stand. What is added is that the *lease* block survives disconnection, and that an internet outage on its own is not a block.
 
+## Update, Oct 8 2026 — the lease expired on the test terminals and every Flexport stopped; which screen shows is not settled
+
+At the [[wiki/meetings/2026-10-08-daily-standup-lease-expiry-scenarios-and-flex-signal-quality.md|Oct-8 Minsk stand-up]] (Russian) [[wiki/people/irina-shishko.md|Irina]] asked when the "out of service — lease expired" screen shows: only when the lease runs out by itself, or also when JVL switches a location off for some reason [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]].
+
+- **Today the server works only with the date.** [[wiki/people/dmitri-chudinov.md|Chudinov]]: "По текущей работе мы работаем только с датой" — the date can be moved forward or back. There is no function yet to switch off a location ("у нас нет функционала отключения лакейшена"). He described the idea of a button that stops time without touching the date, as for the current machines; whether it exists on the server is unclear. [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+- **It worked this morning.** Chudinov: "сегодня лиза за их спарилась. Все феликспроте остановились" — the lease on the test terminals expired today and all the Flexports stopped. Irina: so for now only expiry exists. Chudinov: yes. [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+- **What the regulation says.** [[wiki/people/vladimir-samusenko.md|Vladimir]]: when a lease expired, show out of service with the reason "lease expired"; when a lease was revoked, show out of service with no reason; "судя по тому, что говорит клод, так оно реализовано". [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+- **A terminal unlinked from its location.** [[wiki/people/alexei-khamin.md|Khamin]] asked. Chudinov: it should be handled, "Но надо проверять". Pavel: a different screen shows; Chudinov: the terminal has no location of its own, it is assigned to nobody. [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+- **Two scenarios.** Vladimir: the scenario should become two — lease expired (for any reason, shortened or run out) and terminal unlinked from the location. Chudinov: he sent all these scenarios in files and they must be reviewed with "Андрей", because what was in the requirements is not enough; either leave it as it is and watch how it works, or reopen the discussion. Nothing was settled. [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+
+"Андрей" who wrote the requirements is [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] by context — he took the Flex-Port blocked-screen requirements on Sept 11 above (**inference**). The notes record the same two open questions [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]].
+
+**Nothing above is superseded.** Manual-only blocking and the reach into the ports stand; Oct 8 shows the lease block working on the test terminals.
+
 ## Open commitments
 
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — add requirements for the Flex-Port screens so they show adequate states when a location is blocked — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — establish whether the bill validator can actually be disabled through SAS when a location is blocked; he took it as weekend work — due Sept 12–13 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — write the lease feature into the MVP 1 scope so it is tested rather than assumed; he said during the call "всё[,] я добавил" but the test coverage was Val's stated reason — due Sept 11 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] and [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] (by context) — review the lease-expired, lease-revoked and terminal-unlinked scenarios against the requirements — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
 
 ## Open questions
 
 - **What state is the machine left in when its Flex-Port is blocked?** Cash-out is agreed to be impossible; whether the player can still feed bills in depends on whether the bill acceptor can be disabled over SAS, which Val asked to be tested rather than assumed — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- **Which out-of-service screen shows for lease expired, lease revoked, and a terminal unlinked from its location?** The regulation (per Vladimir) gives two screens; unlinking is untested; switching a location off does not exist yet on the server — [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
 
 *(The derived notes summarise the same two parts — blocking must cover the FlexPorts "so players cannot play", and the standing rule that blocking is never automatic but manual expiry of a location's lease "stops everything".)* [[raw/Meeting_Notes_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 
@@ -77,3 +93,5 @@ The meeting then established that **lease expiry and loss of internet are two di
 - [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]

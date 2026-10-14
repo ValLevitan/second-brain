@@ -3,7 +3,7 @@ type: decision
 title: Brackets and harnesses are the critical path for the first ten Flex-Slims — make them in China through Mikhail Perelman on a rush, then order metal for 100 units at 14 gauge
 date: 2026-09-04
 aliases: [first ten Flex-Slims, three brackets, brackets in China, rush the Chinese shop, metal order for 100, 14 gauge, no decent shop in America, Flex-Slim critical path]
-source-count: 3
+source-count: 5
 status: active
 open-commitments: 5
 open-questions: 2
@@ -46,11 +46,23 @@ Separately, the eight in-transit Slims surfaced in the same meeting as the one t
 
 A related but distinct bracket task was created that day: getting the **bracket drawings for other makers' machines** released by Light & Wonder, IGT, Banilla and Aristocrat and passed to Genadi — see [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]].
 
+## Update — Oct 8 2026: the brackets are in; the full metal for 100 is not ordered
+
+At the [[wiki/meetings/2026-10-08-genadi-bom-standard-flex-slim-metal-mikhail-hand-over-and-data-contracts.md|Oct 8 3:59 PM call]] Val asked: "На флекс [слим] весь металл заказан, правильно?" Genadi: "Нет." What he described [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]:
+
+- **Brackets: in.** "Пока мы привезли бракеты внутри на ретрофетинг… по Джорджия… Под кардиспенсером" — the inner brackets for the Georgia retrofit, under the card dispenser.
+- **The full cabinet metal for 100: not started.** Val asked whether "metal" meant only the inner brackets; Genadi: "Нет полностью… Вот у нас есть 10… А 100 штука или сколько вы хотели, он не начинал." JVL has 10 sets.
+- **Metal is the bottleneck.** "самое ботлнек… металл на… слим. Его же не пошлешь самолетом? Вот, а все остальное можно быстро привести."
+- **Val:** "Я не ожидал, что это не заказана." Genadi: "Надо проверить, что они заказаны эти детали."
+- **Peripherals.** About 20 sets on hand; something has been ordered for 100, "включая сканеры, мониторы." The next step is a quote from Hangzhou, which Val will prepare himself — see [[wiki/decisions/2026-10-08-msbc-stops-being-the-bom-source-and-the-week-of-october-12-goes-to-ordering-without-mikhail.md]].
+
+The derived notes record the same [[raw/Meeting_Notes_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]. Remarks judging anyone's work on the order are not recorded (§15.8).
+
 ## Open commitments
 
 - [x] [[wiki/people/genadi-peari.md|Genadi Peari]] — release the drawings for the three brackets — **discharged by Sept 9 2026**: "already done today and sent to the manufacturer" — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]] [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
-- [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — get the brackets and two or three harnesses made in China through [[wiki/people/mikhail-perelman.md|Mikhail Perelman]] with a rush request, landed within a week — due about one week — [[raw/Meeting_Notes_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]] [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
-- [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — place the metal order for 100 units once the brackets are finalised, at 14 gauge — due after the brackets — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
+- [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — get the brackets and two or three harnesses made in China through [[wiki/people/mikhail-perelman.md|Mikhail Perelman]] with a rush request, landed within a week — due about one week — [[raw/Meeting_Notes_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]] [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]] *(Oct 8: the inner brackets for the Georgia retrofit have arrived; the harnesses are not mentioned [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]])*
+- [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — place the metal order for 100 units once the brackets are finalised, at 14 gauge — due after the brackets — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]] *(Oct 8: **not placed** — the full cabinet metal for 100 had not been started; 10 sets on hand; Val will first ask Hangzhou for a quote [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]])*
 - [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — establish where the eight in-transit Slims are and when they land — ongoing — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
 - [ ] [[wiki/people/elizabeth.md|Elizabeth Palomino]] — physically locate the six remaining card dispensers in stock, matching the item installed in the Flex-Pay units — due immediately — [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
 - [ ] [[wiki/people/elizabeth.md|Elizabeth Palomino]] — enter the twenty received plastics into the system — due unspecified — [[raw/Meeting_Notes_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]] [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
@@ -66,3 +78,5 @@ A related but distinct bracket task was created that day: getting the **bracket 
 - [[raw/Meeting_Notes_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Flex_Slim_First_Ten_Build_and_FlexPort_SAS-September-4-2026.md]]
 - [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
+- [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
+- [[raw/Meeting_Notes_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]

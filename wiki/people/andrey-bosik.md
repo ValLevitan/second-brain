@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 119
+source-count: 123
 open-commitments: 50
 ---
 
@@ -604,6 +604,13 @@ At the [[wiki/meetings/2026-10-06-daily-standup-ris-georgia-branch-and-critical-
 
 At the [[wiki/meetings/2026-10-07-daily-standup-test-coverage-first-and-ai-task-numbers.md|Oct-7 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]] Irina said the Jira Hierarchy report sends her 44 regulations, assigned to no one, with "Репортер босик". Kovalchuk: "Иерархия это… Андрея спрашивать"; Pavel: "Давайте к Андрею просто подойти… Может быть Андрей, чтото знает, чего не знаем мы." Irina: "он сейчас придёт ко мне и расскажет." Earlier, Irina said Andrei had moved the TINT repository from Chudinov to Khamin (by context Bosik — **inference**). See [[wiki/decisions/2026-09-17-planning-comes-off-pavel-and-goes-to-an-application-administrator.md]] (Oct-7 update).
 
+
+## Oct 8 2026 — the AI PM review (8:31 AM), and a new objective set in his absence (11:35 AM)
+
+- **AI PM review.** At the [[wiki/meetings/2026-10-08-ai-pm-listener-scope-draft-lifetime-and-october-12-go-live.md|Oct-8 AI-PM review]] he reported: the previous meeting's changes are in; transcripts are collected and cleaned every 15 minutes by GitHub Actions scripts; the Listener creates "AI Draft" features in a test Jira project; unsure items go to an internal draft document; the agent deletes only items it created and only comments on others; prompts optimised to about $1 per meeting once on the Anthropic API; a Teams agent with a Microsoft account is up but answered nothing useful in its first test [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]].
+- **Val's challenge.** Val said one Listener does too much and will not carry a real-time agent; Bosik answered that he built a frame for MVP 1 in a week and it can be split later. Val agreed to launch and change the architecture if needed. Live mode in real Jira projects is set for Monday Oct 12 2026; Lena's meetings come out of the pilot. Rulings and his six commitments from this call: [[wiki/decisions/2026-10-08-the-ai-pm-goes-live-in-real-jira-projects-on-october-12-on-its-current-architecture-without-lenas-meetings.md]] [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]].
+- **The next objective (in absentia).** The same day Val and Pavel set an "AI Chief System Architect" task — the Galaxy and Nova architecture built from code, prose and data contracts, to find gaps — and Val said he will enter it as Bosik's next objectives: [[wiki/decisions/2026-10-08-an-ai-chief-system-architect-maps-galaxy-and-nova-from-code-prose-and-data-contracts-to-find-gaps-as-bosiks-next-objective.md]] ([[wiki/meetings/2026-10-08-ai-chief-system-architect-gap-finding-task.md|Oct-8 "AI-Chief System Architect" call]]) [[raw/Meeting_Transcript_AI_Chief_System_Architect_Gap_Finding_Task-October-8-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -728,3 +735,7 @@ At the [[wiki/meetings/2026-10-07-daily-standup-test-coverage-first-and-ai-task-
 - [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
+- [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
+- [[raw/Meeting_Notes_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
+- [[raw/Meeting_Transcript_AI_Chief_System_Architect_Gap_Finding_Task-October-8-2026.md]]
+- [[raw/Meeting_Notes_AI_Chief_System_Architect_Gap_Finding_Task-October-8-2026.md]]

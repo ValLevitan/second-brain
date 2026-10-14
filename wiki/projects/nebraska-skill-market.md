@@ -5,7 +5,7 @@ date: 2025-03-14
 aliases: [Nebraska, Nebraska skill market, TNT, TNT Enterprises, NTN, T&T, Wagner, Whitey Tolliver, Mike Kotab, Michael Kotab, Miko, Nebraska nudge, Nebraska Department of Revenue, Georgia 1, Georgia 2, no-hands version, Golden Husk, corn bonus, power slider, power meter, Lucky Rainbow, Bullseye, Bonilla Games, Banila, Vanilla, Thistle, Swift bonus, Simon game, secondary skill, Brittany Waters, Malibu, Eclipse, Intralot, Texas skill]
 open-commitments: 10
 open-questions: 12
-source-count: 66
+source-count: 67
 ---
 
 # Nebraska skill-gaming market entry
@@ -444,6 +444,17 @@ The notes record the same outcome as a decision by Michael, accepted by Val [[ra
 
 - [ ] [[wiki/people/michael-gottlieb.md|Michael Gottlieb]] — decide the Nebraska progressive levels and bet levels (and the 40-or-50-line count) and give Efim answers, without waiting for Juan — due unspecified — [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
 
+## Oct 8 2026 — D27 production, one configuration page per market, and the progressive resets set as a baseline
+
+At the [[wiki/meetings/2026-10-08-game-design-class-a-party-time-and-dual-box.md|Oct-8 12:00 PM game-design meeting]] (English) [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]:
+
+- **In production (IP-1143, Nebraska D27).** [[wiki/people/lena.md|Lena]]: Lions Riches; Wild Fire Ranch, a new game; a Match 3 bonus for the lines and ways games; Sapphire Star, "first game for horizontal for [dual] screen"; the Nebraska home screen; and Dragon Pays is starting.
+- **One configuration page.** [[wiki/people/michael-gottlieb.md|Michael]]: a new Jira task, **IP-1221**, "configuration requirements", tied to a Confluence page with the buttons, "progressive reset levels for match 3, settings for jackpot rush, and settings for fiery ice link" — "everything lives in one place, in one document", a "single source of truth". Done for South Dakota first, now Nebraska. When [[wiki/people/efim-podvoiski.md|Efim]] went through it, "there were a couple of things that needed to get adjusted".
+- **Progressive resets without data.** "we don't really have a lot of data in Nebraska as to what our competitors are doing". Michael and Efim argued it out and reached "a baseline": "first rule of medicine is do no harm". The aim is to make the values rise with each bet level without big jumps; they went "lighter on the minis because the dollar amount is so small that the difference from 5 to 10 is really not going to move" the needle. "more data would always be helpful."
+- **Dual box stays as it is here.** Nebraska keeps its current dual-box panel; the lower, smaller panel is for Class A — [[wiki/decisions/2026-10-08-dual-box-for-nebraska-class-a-and-georgia-five-reel-and-no-smaller-touch-area-for-the-wrong-coin.md]].
+
+**Michael's Sept-22 commitment, partly met.** The progressive reset levels now exist as a baseline on the configuration page. Bet levels and the 40-or-50-line count are not mentioned, so the item stays open.
+
 ## History
 
 - **Jan 8 2026 — a market-size figure Val gave a Texas prospect.** Asked how JVL chooses between markets, [[wiki/people/val-levitan.md|Val]] told [[wiki/people/rich-winley.md|Rich Winley]]: "**Nebraska today has 4,000 machines and growing at 40% per year.** And Texas has… godly amount." He also said Nebraska's operators "used to be my customer for amusement machines, so I don't need to do any selling of the brand". *(Val's own figures, said at lunch; they sit beside the ~4,000–5,000 games in the field noted for June 2025 above.)* See [[wiki/meetings/2026-01-08-rich-winley-miami-lunch-texas-distribution-pitch.md]]. [[raw/Meeting_Transcript_Rich_Winley_Miami_Lunch_Texas_Distribution_Pitch-January-8-2026.md]]
@@ -563,3 +574,4 @@ The notes record the same outcome as a decision by Michael, accepted by Val [[ra
 - [[raw/Meeting_Transcript_Allenson_Malik_Market_Review_and_Data_Partnership-February-16-2026.md]]
 - [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
 - [[raw/Meeting_Notes_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]

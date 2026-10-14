@@ -1,15 +1,17 @@
 ---
 type: decision
-title: A vertical Texas product starts from the vertical Georgia COAM games, not from converting the horizontal Texas games
+title: "SUPERSEDED Oct 8 2026 — A vertical Texas product starts from the vertical Georgia COAM games, not from converting the horizontal Texas games (now: the horizontal Texas games are converted directly, maths unchanged)"
 date: 2026-09-14
 aliases: [Texas vertical conversion, days not weeks, измеряется в днях не в неделях, generate background video from description, two AI conversion experiments, склад код, graphic assets stretch will shrink, horizontal to vertical Texas, Georgia COAM as the Texas base, vertical Texas product, конвертация горизонтального Техаса в вертикальный, Rage-Nova_conversion]
-source-count: 7
-status: active
+source-count: 8
+status: superseded
 open-commitments: 2
-open-questions: 4
+open-questions: 2
 ---
 
 # A vertical Texas product starts from the vertical Georgia COAM games
+
+> **Status: superseded (Oct 8 2026).** Val ruled that the horizontal Texas games on RAGE are converted directly to vertical NOVA games with Igor's 20% method, with no change to maths or function. The Georgia-COAM starting material and the maths redo below no longer hold. See [[wiki/decisions/2026-10-08-texas-rage-games-convert-to-vertical-nova-unchanged-and-igor-ports-dutch-mill-first.md]] and the Oct-8 section at the end. [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]
 
 Taken by [[wiki/people/val-levitan.md|Val Levitan]] at the [[wiki/meetings/2026-09-14-texas-vertical-conversion-and-georgia-game-base.md|Sept 14 2026 6:38 AM ET working session]] (held in **Russian**), after [[wiki/people/igor-metelski.md|Igor Metelski]] demonstrated that the direct route — turning JVL's existing **horizontal** Texas games into vertical ones — breaks on the art. [[wiki/people/pavel.md|Pavel Frolov]] proposed the alternative, Val adopted it, Igor agreed it is the more workable scheme. [[raw/Meeting_Notes_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
 
@@ -77,8 +79,8 @@ No other firm commitment was made. Igor's offer to try further layouts was condi
 ## Open questions
 
 - **Who assembles the background video?** Igor needs a person who can build it; after that he can fit it to element positions with Claude. No name was proposed. **Sept 16 update:** Pavel is testing whether the background video can be *generated* from a written description instead of assembled by a person — see the Sept-16 section above. The experiment is running; the question is not answered. **Sept 17 update:** the first such video exists and is running inside a playable vertical game — Anton Leshkevich generated it on Sept 16 and Igor built the scene from it on Sept 17 [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]. That answers *whether* it can be generated rather than assembled. It does **not** answer who does this as a standing job: no role or name was assigned, and the day's ruling points at a single "universal graphic designer" who has not been identified or hired. [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
-- **Which progressive does a vertical Texas product carry?** Set aside by Val, not answered; Igor's "mystery" read is an inference off a jackpot frame, not knowledge. [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
-- **How big is the maths rework?** Val directed that the maths be redone ("Математику другую"); nobody sized it. [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+- ~~**Which progressive does a vertical Texas product carry?**~~ **Answered Oct 8 2026:** its own. Val: "Мы ничего не меняем, ни математику, ни функционал"; Igor named the Texas progressive as a mystery progressive ("мистери gold no или как он там назывался"), which LGS does not yet support — [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]] — earlier: Set aside by Val, not answered; Igor's "mystery" read is an inference off a jackpot frame, not knowledge. [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
+- ~~**How big is the maths rework?**~~ **Moot from Oct 8 2026:** under the new route the maths is not changed; the port starts from the existing Texas maths — [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]] — earlier: Val directed that the maths be redone ("Математику другую"); nobody sized it. [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
 - **What was cut out of the Georgia games, and what merely hidden?** Pavel: "мы выпиливали хенс, например, тогда… из Джорджия"; Irina: "Но мы его скрыли" — we cut *[hens/hands — garbled, not recoverable]* out of Georgia / no, we hid it. Recorded as spoken; not interpreted. [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
 
 ## Sept 16 2026 — two experiments are running, and Val puts a unit on "fast"
@@ -134,6 +136,15 @@ Two minutes after the 12:19 PM session above ended, on the [[wiki/meetings/2026-
 
 **A new question comes with it:** what becomes of the RAGE horizontal→vertical conversion experiment already running — Val ruled on future games without saying whether the work in flight continues, is redirected or stops, and nobody asked. It is recorded on the Sept-17 decision page, not duplicated here.
 
+
+## Oct 8 2026 — superseded: the horizontal Texas games are converted directly
+
+At the [[wiki/meetings/2026-10-08-dragon-pays-vertical-accepted-and-dutch-mill-port-plan.md|Oct-8 10:02 AM session]] (Russian), after Igor showed an accepted vertical Dragon Pays with symbols about 20% taller than wide, Val ruled: "Мы берем текст игры, которые сейчас на рейч они горизонтальные… Пользуясь вашим подходом… Перевозим их на нова вертикальные", and "Мы ничего не меняем, ни математику, ни функционал… в тупую слепую." Dutch Mill is the first game, ported by Igor [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]].
+
+This reverses the core of this page: the starting material is now the horizontal Texas games, not the vertical Georgia COAM games, and the maths stays. Evolution, not contradiction — a later ruling on the same question. Full record on [[wiki/decisions/2026-10-08-texas-rage-games-convert-to-vertical-nova-unchanged-and-igor-ports-dutch-mill-first.md]].
+
+**Pavel's Sept-16 commitment stays open.** He would confirm conversion speed only after a first game is finished. On Oct 8 he said the Dutch Mill port is meant to make exactly that measurement ("мы для этого и хотим сделать замер") [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
@@ -143,3 +154,4 @@ Two minutes after the 12:19 PM session above ended, on the [[wiki/meetings/2026-
 - [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
 - [[raw/Meeting_Notes_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
+- [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]

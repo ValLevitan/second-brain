@@ -3,8 +3,8 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, eighty percent of the general functionality, requirements are step two, a hole automated tests will not cover, acceptance criteria in general terms, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction, Figma to React, Vite, Claude Code review loop, acceptance criteria, two test warehouses, frozen test cases, test harness, test registry, no E2E tests for MVP 1, E2E micro-step, telnet hook test, 60 to 70 percent acceptance criteria, symlink to dev null, eight connection tests, money-crediting autotest]
-source-count: 65
-open-commitments: 40
+source-count: 67
+open-commitments: 44
 open-questions: 7
 ---
 
@@ -764,6 +764,27 @@ The derived notes record the same [[raw/Meeting_Notes_Daily_Standup_Test_Coverag
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — give Daniil Stauskiy a new board to measure performance ("это с меня") — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
 - [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — run tests TIN-19, then TIN-16 — due Oct 7 2026 — [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
 
+## Oct 8 2026 (4:58 AM) — Khamin's TIN-61 waits on the manual hardware run; the card tests have no answer; QA stories carry versions; Irina's TIN-16 / TIN-19; Ivan's TIN-13; Daniil on 1343 and 1057
+
+At the [[wiki/meetings/2026-10-08-daily-standup-lease-expiry-scenarios-and-flex-signal-quality.md|Oct-8 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]:
+
+- **[[wiki/people/alexei-khamin.md|Khamin]].** He cannot close TIN-61 yet: he is making the CI run on real hardware startable by hand. In parallel, rules task 76 grows with each pull-request review; Irina ruled it stays open in To Do — [[wiki/decisions/2026-09-11-accepted-means-reviewed-taken-into-work-is-the-move-to-to-do.md]] (Oct-8 update). His remaining tests touch card dispensers and InComm — [[wiki/decisions/2026-10-05-the-payment-hub-autotest-stand-is-not-mvp1-and-a-separate-meeting-with-andrei-designs-it.md]] (Oct-8 update). The autotests already run against simulators; the terminal is an emulator.
+- **[[wiki/people/anton-seregin.md|Seregin]].** He closed the rest of feature "67"; three stories remain that need a real terminal, done today if he can get one. Prose and contracts are generated and in pull-request review; the same for Flex Pay; Flex IQ prose and contracts finished yesterday. He set dates on closed items "чтобы… Отчет совпадал".
+- **Daniil Stauskiy.** Feature 1343: the game is installed on the board, but "чтото с процессором ну не очень много ф п с выдаёт" — he is investigating. The bugs filed on him are already fixed. On "10 57" he wants someone to look and confirm the result is right, because he did not fully understand what it should be.
+- **[[wiki/people/irina-shishko.md|Irina]].** Autotests TIN-16 and TIN-19 are not written. She will run tests and fix the autotests after rewriting the requirements that came from Dima, herself and Vladimir.
+- **[[wiki/people/ivan.md|Ivan]].** Rebuilding the version a third time, hopefully the last, today. Then autotest TIN-13, "уже который день". Then the battery: he will come for the equipment in the afternoon; Pavel: the feature may be with "Жени" (which Zhenya is **unclear**), and a story for the experiment is probably needed.
+- **[[wiki/people/vladimir-samusenko.md|Vladimir]].** On task 62, where he found "Небольшое противоречие в требованиях". Tasks that were blocked, and 42, are moving; others waited on actions, a test API ("тестолапи" — reading) and emulator work; the rest had requirement problems partly resolved yesterday.
+- **Versions on QA stories.** Chudinov asked QA to name the Flex IQ, port OS and firmware versions on every finding — [[wiki/decisions/2026-10-05-a-release-bakes-a-file-of-the-component-versions-it-contains-into-the-artifact.md]] (Oct-8 update).
+
+The notes record the same round [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]].
+
+### Open commitments (Oct 8 2026, 4:58 AM)
+
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — make the CI run on real hardware startable by hand, so TIN-61 can close — due before Oct 15 2026 (notes) — [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — run tests and fix autotests TIN-16 and TIN-19 after the requirement rewrite — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+- [ ] [[wiki/people/ivan.md|Ivan]] — finish the rebuild, then TIN-13, then the battery work — due Oct 8 2026 for the rebuild ("сегодня") — [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — run the three remaining stories on a real terminal — due Oct 8 2026, if a terminal is free — [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -831,3 +852,5 @@ The derived notes record the same [[raw/Meeting_Notes_Daily_Standup_Test_Coverag
 - [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]

@@ -3,9 +3,9 @@ type: decision
 title: "Accepted" on a capability means reviewed and accepted, not taken into work — taken into work is the move to To Do when the release scope is set, and the transition will be automated from feature status
 date: 2026-09-11
 aliases: [the green status in the middle misleads, accepted is not taken into work, move to To Do when we say we are doing MVP 1, automate capability status from feature status, a feature going In Progress moves its capability, move all MVP 1 capabilities into To Do, green Accepted looks done, change the colour, only not In Progress]
-source-count: 10
+source-count: 12
 status: active
-open-commitments: 5
+open-commitments: 6
 open-questions: 2
 ---
 
@@ -81,6 +81,10 @@ At the [[wiki/meetings/2026-10-01-daily-standup-sas-mode-flag-and-feature-status
 
 At the [[wiki/meetings/2026-10-07-daily-standup-test-coverage-first-and-ai-task-numbers.md|Oct-7 Minsk stand-up]] (Russian) [[wiki/people/irina-shishko.md|Irina]] asked that stories be pulled up "чтоб у нас не… стояли блоками, блокирующие фича". [[wiki/people/pavel.md|Pavel]]: "если вы создаете это, нам надо в MVP один, вы сразу ставьте его в туду, даже если у него срок не будет, чтоб мы видели его вот здесь. Вот в рамках задач для туду." Irina: "вроде уже это все говорили" — said before; she already pulls up stories created by others "чтоб не валялась, потому что знаю, что иначе пропадёт" [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]. The derived notes record it as Pavel's decision [[raw/Meeting_Notes_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]. It extends the Sept-11 "move all MVP 1 capabilities into To Do" to new MVP 1 items of any level (**evolution**, no conflict).
 
+## Update, Oct 8 2026 — an open-ended task stays open in To Do; do not close it and open a new one for the same work
+
+At the [[wiki/meetings/2026-10-08-daily-standup-lease-expiry-scenarios-and-flex-signal-quality.md|Oct-8 Minsk stand-up]] (Russian) [[wiki/people/alexei-khamin.md|Khamin]] said his rules task (76, alongside TIN-61) keeps growing: as he reviews pull requests, the same points pile up and need to be added to the rules, "процесс такой, который может затянуться". He offered to close it and open a fresh one. [[wiki/people/irina-shishko.md|Irina]]: "Нет… я бы это не закрывала, я бы её сейчас поставила в туда. И просто по мере необходимости её туда добавляла, а потом уже закроется смысл 2 заводить 3, 5, 10 если про то же самое." Khamin asked whether the branch can stay open that long; Irina: she sees no sense in pulling it back and forth [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]. The notes record it as Irina's decision: the task stays open in To Do and rules are added as needed [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — automate the capability status transition from feature status (a feature going In Progress moves its capability To Do → In Progress, and back), after testing it — due after Monday Sept 14 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
@@ -89,6 +93,7 @@ At the [[wiki/meetings/2026-10-07-daily-standup-test-coverage-first-and-ai-task-
 - [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — check why a story cannot move from Request Review to Complete in the "h fm" project settings — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
 - [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — build the rule that moves a capability from In Progress to Req Review when all its features and stories are green — due Sept 24 2026 — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
 - [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — check how the auto-rule behaves when a capability closes, so a parent never closes before its children — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Delivery_and_Capability_Statuses-September-24-2026.md]]
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — move rules task 76 to To Do and keep adding rules to it, instead of opening new tasks — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
 
 ## Open questions
 
@@ -111,3 +116,5 @@ At the [[wiki/meetings/2026-10-07-daily-standup-test-coverage-first-and-ai-task-
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
