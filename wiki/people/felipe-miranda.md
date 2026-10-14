@@ -3,8 +3,8 @@ type: person
 title: Felipe Miranda
 date: 2026-07-13
 aliases: [Felipe Miranda, Felipe, Filippo, Filipa, Philippe, Felipe Miranda Giorgi, Филипп, Филипп Н, Filipp N]
-source-count: 86
-open-commitments: 23
+source-count: 88
+open-commitments: 24
 open-questions: 0
 ---
 
@@ -411,6 +411,14 @@ On the [[wiki/meetings/2026-10-09-transactional-mvp1-test-machines-and-unclaimed
 
 At the [[wiki/meetings/2026-10-12-ris-mvp2-scope-and-release-timing.md|Oct-12 RIS MVP 2 call]] (Val absent): he prefers sending one release with the MVP 2 fixes (about November 9–10) over sending MVP 1 to the lab now, and wants Val's input — [[wiki/decisions/2026-10-05-ris-improvement-mvp1-is-five-jira-capabilities-in-one-release-due-october-19.md]] (Oct-12 update), [[wiki/topics/ris-remote-install-and-machine-states.md]] (Oct 12); he named the hard reset, the passport scan and software mismatch as the customers' biggest pains; he asked for a cash-out-only log page — [[wiki/decisions/2026-10-12-sebastian-writes-a-cash-out-only-log-capability-for-ris-mvp2.md]]; he described the Intralot lock, will test build 4333 on the office SAS simulator and meets Val at Intralot on Oct 13 — [[wiki/decisions/2026-10-12-build-4333-is-tested-in-the-office-on-the-sas-simulator-for-the-intralot-lock-unlock-problem.md]]. His Oct-11 Peach answer is not in this source — [[wiki/decisions/2026-10-05-felipe-decides-by-october-11-one-18-game-peach-pack-or-three-separate-sticks.md]] (Oct-12 note) [[raw/Meeting_Transcript_RIS_MVP2_Scope_and_Release_Timing-October-12-2026.md]].
 
+## Oct 13 2026 (9:54 AM) — at Intralot: the field side of the lock
+
+At the [[wiki/meetings/2026-10-13-intralot-machine-lockouts-test-lab-and-route-partnership.md|Oct-13 meeting at Intralot]] (Plaud Speaker 2, per the notes) he gave the field account of the lock. A technician finds a machine locked; the call center "**normally what they tell him is that he has the wrong software**"; he hard-resets or decommissions, "**But all they need to do is simply manually take the machine out of service and operational again**". Masters and technicians "**have learned how to deal with it**", so JVL hears of few cases. He dated it to [[wiki/organizations/intralot.md|Intralot]]'s new site controller: "**It's been three years.**" He also raised that a call-center fix "**could be made ten hours after the machine's down**". Detail on [[wiki/decisions/2026-10-12-build-4333-is-tested-in-the-office-on-the-sas-simulator-for-the-intralot-lock-unlock-problem.md]] (Oct-13 update) [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]. He confirmed JVL is signed up for the GACS convenience-store show on "**The 22nd**" — see [[wiki/projects/georgia-market-rollout.md]] [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]].
+
+## Open commitments (Oct 13 2026, Intralot)
+
+- [ ] Felipe Miranda — forward the email that documents the unlock steps, so the Intralot call center can be taught (who asked is unclear on the tape) — due unspecified — [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]] [[raw/Meeting_Notes_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]
@@ -499,3 +507,5 @@ At the [[wiki/meetings/2026-10-12-ris-mvp2-scope-and-release-timing.md|Oct-12 RI
 - [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
 - [[raw/Meeting_Transcript_RIS_MVP2_Scope_and_Release_Timing-October-12-2026.md]]
+- [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
+- [[raw/Meeting_Notes_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]

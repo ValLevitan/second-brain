@@ -3,8 +3,8 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 51
-open-commitments: 11
+source-count: 55
+open-commitments: 13
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
 
@@ -224,6 +224,16 @@ This discharges his Oct-5 spike, his Sept-30 experiment and the Oct-8 "show some
 
 At the [[wiki/meetings/2026-10-12-daily-standup-flexport-emulator-and-jira-auto-progress-rule.md|Oct-12 stand-up]], Chudinov said Nathan had not finished all of location billing; Pavel: roll out "То, что есть". Tsymanov asked whether Nathan added the location-billing API discussed long ago; not answered — [[wiki/decisions/2026-10-09-all-web-services-go-to-production-before-the-weekend-instead-of-waiting-for-georgia.md]] (Oct-12 update) [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]].
 
+## Oct 13 2026 (in absentia) — the Bank of America call he missed, and the MCP link for MSBC reports
+
+- **Bank of America (3:32 PM).** Invited, did not join [[raw/Meeting_Notes_Bank_of_America_CashPro_Business_Central_Source_of_Truth_and_Customer_ACH_Portal-October-13-2026.md]]. Brooks said "he was playing around with the sandbox and kind of ready to get started" (read as Nathan) and "I think Nathan said that's how he'd be doing it" — uploading NACHA files by hand; Val confirmed that is how JVL starts. Val: "My cost on Nathan is much greater than the cost of the platform." See [[wiki/decisions/2026-10-13-business-central-is-the-only-source-of-truth-for-vendor-bank-details-and-wires-take-them-from-it-every-time.md]] [[raw/Meeting_Transcript_Bank_of_America_CashPro_Business_Central_Source_of_Truth_and_Customer_ACH_Portal-October-13-2026.md]].
+- **GitHub-MSBC (4:32 PM).** Val: Nathan knows the API and can pull any endpoint, but must be told what to pull; the MSBC consultant builds the reports and names the endpoints, and Nathan links them "через API в MCP" — he does not build the report inside MSBC. Genadi is to talk to him after Lev about getting the missing data, and to agree with him the format for vendor data and how repository files are tagged. Val wants to hand the BOM architecture to Genadi and Nathan. See [[wiki/decisions/2026-10-13-procurement-reports-come-only-from-msbc-and-the-excel-export-report-goes-away.md]] and [[wiki/decisions/2026-10-13-the-agent-builds-the-bom-as-a-control-gate-taught-by-data-contracts-not-cad-and-genadi-finds-why-it-is-wrong.md]] [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]].
+
+## Open commitments (Oct 13 2026)
+
+- [ ] Nathan Carver — link the MSBC endpoints named by the consultant through the API into MCP — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
+- [ ] Nathan Carver, with Genadi Peari — agree the vendor administrative/financial data format into MSBC and how repository files are organised or tagged — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
@@ -277,3 +287,7 @@ At the [[wiki/meetings/2026-10-12-daily-standup-flexport-emulator-and-jira-auto-
 - [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
 - [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
+- [[raw/Meeting_Transcript_Bank_of_America_CashPro_Business_Central_Source_of_Truth_and_Customer_ACH_Portal-October-13-2026.md]]
+- [[raw/Meeting_Notes_Bank_of_America_CashPro_Business_Central_Source_of_Truth_and_Customer_ACH_Portal-October-13-2026.md]]
+- [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
+- [[raw/Meeting_Notes_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]

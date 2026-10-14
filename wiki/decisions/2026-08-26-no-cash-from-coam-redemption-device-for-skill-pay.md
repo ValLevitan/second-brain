@@ -3,7 +3,7 @@ type: decision
 title: InComm's ruling — no cash out of a COAM redemption device for a Skill Pay card, and no coordinated kiosk+ATM pair from the same entity
 date: 2026-08-26
 aliases: [no cash from redemption device, InComm ATM posture, coordinated kiosk and ATM pair, Skill Pay cash-out rule, separate device rule, ten steps away, partnership would struggle]
-source-count: 3
+source-count: 4
 status: active
 open-commitments: 0
 open-questions: 2
@@ -44,6 +44,10 @@ What changed [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_S
 - **The unlock is named for the first time: something from the Lottery in writing.** "**If the lottery were to say something to clarify that point and say no, there's no problem here**… we should **see what Joe [Kim] respond[s] in writing**." The horizon offered was "maybe three years from now"; "This year, no."
 - **Val accepted it** — "it leaves me with no choice but not to do it" — **and refused to put that in writing**, which is the new dispute recorded on the Sept-2 page.
 
+## Update — Oct 13 2026: the same line, held by InComm's Jason; JVL launches on Prize Play
+
+On the [[wiki/meetings/2026-10-13-incomm-prize-play-reset-agreement-scope-and-cash-dispense.md|Oct-13 InComm call]] Jason of InComm (read as Jason Hall — **inference**) kept the line: "the sensitive point is a device that is dispensing cash… I just can't let that be associated with my products", and "I don't expect there to be a path where the COAM kiosk can dispense cash… in any capacity". He allowed that "six months from now, maybe it changes". Val said the dispenser capability is removed for now. Both sides agreed to launch on Prize Play first — [[wiki/decisions/2026-10-13-incomm-and-jvl-reset-the-relationship-and-launch-on-prize-play-first.md]] [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]].
+
 ## Open questions
 
 - When, if ever, will the Georgia Lottery ([[wiki/people/joe-kim.md|Joe Kim]]) issue guidance clear enough to permit ATM/cash-out tied to COAM redemption? InComm gave no single horizon — Jason Hall "three to five years from now, who knows", Adam Harlow "Two years from now, they may see things differently" — and both were firm it holds for 2026–27 — [[raw/Meeting_Notes_InComm_Skill_Pay_ATM_Guidance-August-26-2026.md]] [[raw/Meeting_Transcript_InComm_Skill_Pay_ATM_Guidance-August-26-2026.md]]
@@ -53,3 +57,4 @@ What changed [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_S
 - [[raw/Meeting_Notes_InComm_Skill_Pay_ATM_Guidance-August-26-2026.md]]
 - [[raw/Meeting_Transcript_InComm_Skill_Pay_ATM_Guidance-August-26-2026.md]]
 - [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]]
+- [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]

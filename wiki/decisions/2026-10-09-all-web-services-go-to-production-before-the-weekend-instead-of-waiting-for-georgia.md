@@ -3,7 +3,7 @@ type: decision
 title: All web services go to production now, before the weekend, instead of waiting until Elizabeth starts bringing machines up in Georgia — Chudinov deploys the production web service over the weekend and tries a terminal against it
 date: 2026-10-09
 aliases: [roll out web services before the weekend, раскатить веб сервисы все, production web service over the weekend, продакшн вебсервис, dev stacks only, дэвенные стеки, it is time, пора, no bot task for this, пометка для бота не создавай]
-source-count: 6
+source-count: 7
 status: active
 open-commitments: 5
 open-questions: 0
@@ -50,6 +50,10 @@ The derived notes record "Roll location billing to prod as it is now" as Pavel's
 - [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — with Andrei, roll the web services and location billing (as it is) to production — due Oct 12 2026 — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
 - [ ] Unassigned (Pavel, Tsymanov) — check what Nathan added for the location-billing API and whether JVL needs a button — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
 
+## Update, Oct 13 2026 — web services are on STG, DEV and production
+
+At the [[wiki/meetings/2026-10-13-daily-standup-video-decode-memory-and-release-task-type.md|Oct-13 Minsk stand-up]] (Russian) [[wiki/people/dmitri-chudinov.md|Chudinov]]: "На вебсервисах сейчас всё привёл в актуальное создание. Это состояние из деплоя уже и на с т г и надев и напрот" — the web services are deployed on STG, DEV and production [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]. This answers the web-services part of the commitments above. Location billing and a try of the production environment are not mentioned, so those commitments stay open.
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
@@ -57,3 +61,4 @@ The derived notes record "Roll location billing to prod as it is now" as Pavel's
 - [[raw/Meeting_Notes_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]

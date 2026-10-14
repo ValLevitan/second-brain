@@ -3,7 +3,7 @@ type: person
 title: Kyle Shepherd (Lucky Coin)
 date: 2026-09-02
 aliases: [Kyle Shepherd, Kyle Shepard, Kyle, Lucky Coin Kyle, pitchforks and lanterns]
-source-count: 9
+source-count: 10
 open-commitments: 2
 open-questions: 0
 disambiguation: "Kyle cluster (2): Kyle Shepherd [[wiki/people/kyle-shepherd.md]] — Lucky Coin (Georgia operator); Kyle Johnson [[wiki/people/kyle-johnson.md]] — embedded-engineer candidate (event recorder). Resolve a bare 'Kyle' by context; queue if neither fits. Georgia COAM operator who runs Lucky Coin — not a JVL employee. The transcript spelling 'Shepard' and the calendar spelling 'Shepherd' are the same person."
@@ -63,6 +63,14 @@ He rang Val on **Wednesday Sept 16 at 2:42 PM**, a day after the deadline ([[wik
 
 **Corroborated from a second recording made five minutes later.** On [[wiki/meetings/2026-09-16-jvl-transactional-ecosystem-and-class-a-market-strategy.md|the 2:53 PM strategy session]] Val told a JVL colleague: "**Also, one more news. Kyle Shepard is back online. He called me. He's afraid of exclusivity. Everything else works.**" He called Kyle's counter "**a smaller, smaller portion, test it, try it… absolutely civilized and frugal approach**", repeated the apology he had made on the call — "**I said I was a little bit aggressive in my offering**" — and added, unprompted, "**I actually appreciate the fact that he called and had a very decent conversation.**" An hour later he generalised from it: "**at the end a decision is made, just like Kyle made a decision. You could give any deal you want, but first they'll try it**" [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]].
 
+## Oct 13 2026 (in absentia) — Val's later account of the exclusivity offer
+
+At the [[wiki/meetings/2026-10-13-arc-zazanis-lunch-trade-in-and-2027-volume.md|Oct-13 lunch]] with ARC's COO, Val asked about "Kyle" (read as Kyle Shepherd — **inference**, from the whole-business offer). Val: "**I gave him a very good aggressive deal, and I asked for all of his business, and he said yes. And then he got cold feet… I said, Kyle, don't worry about it… Forget our deal.**" [[wiki/people/georgios-zazanis.md|George Zazanis]] called Kyle "**very nice guy**", and said Kyle and **Mark Brooks** are friends and "**very similar**" in size [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]].
+
+## Open contradictions
+
+- **Did Kyle say yes before he said no?** Oct 13 2026, Val: "**he said yes. And then he got cold feet**" [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]. Sept 16 2026, Kyle: "**I probably would have given you this. Answer when we met last week**" — that is, no — and on Sept 9 he asked for time rather than agreeing [[raw/Meeting_Transcript_Lucky_Coin_Exclusivity_Declined_and_Pilot_Opening-September-16-2026.md]]. Not resolved.
+
 ## Open commitments
 
 - [ ] Kyle Shepherd — come back to Val with the details of a **non-exclusive** arrangement — more JVL machines on the route plus a kiosk trial in one or two locations: "**I will let you know**… [as] **soon as we come up with all the details**" — due at his own pace, no date given — [[raw/Meeting_Transcript_Lucky_Coin_Exclusivity_Declined_and_Pilot_Opening-September-16-2026.md]]
@@ -79,6 +87,7 @@ He rang Val on **Wednesday Sept 16 at 2:42 PM**, a day after the deadline ([[wik
 
 ## Sources
 
+- [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
 - [[raw/Meeting_Notes_Lucky_Coin_Exclusivity_Declined_and_Pilot_Opening-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Lucky_Coin_Exclusivity_Declined_and_Pilot_Opening-September-16-2026.md]]
 - [[raw/Meeting_Notes_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]

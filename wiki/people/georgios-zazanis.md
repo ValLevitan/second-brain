@@ -3,7 +3,7 @@ type: person
 title: Georgios "Zaza" Zazanis
 date: 2026-08-31
 aliases: [George Zazanis, Georgios Zazanis, Zaza, Zazanis, George]
-source-count: 9
+source-count: 11
 open-commitments: 0
 open-questions: 0
 disambiguation: "COO of the Georgia operator ARC Gaming — resolve by the Georgia-COAM / operator / Class-A context. He goes by 'Zaza' precisely because 'George' is ambiguous in his own circle; do not attach a bare 'George' in another context to this page without contextual support."
@@ -32,7 +32,7 @@ The single most useful thing this meeting establishes about him is the shape of 
 
 ## Background
 
-- **He previously worked at "Intelec."** "when I used to work at Intelec, he was bringing the staff of the office from the governor." The corpus carries **Intralot** as Georgia's central-system operator; whether "Intelec" is that company or a different one is **not determinable from this source** and is left uncorrected. [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
+- **He previously worked at [[wiki/organizations/intralot.md|Intralot]]** — Georgia's central-system operator. On Oct 13 2026 he said it plainly: "**When I was at Intralot**", "**when I was in Intralot, I met him**", and "**I knew everybody from Intralot**". Val calls Christos, who joins the Nov 9 game, "**your ex-colleague**" [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]. *(History: on Aug 31 the transcript had "when I used to work at Intelec", and whether "Intelec" was Intralot was left open. The Oct-13 source answers it: the reading as Intralot is now well supported.)* [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 - **He joined ARC after the kiosk agreement was signed** and after the PAX agreement was made: "There is an agreement there. Very nice agreement. I made before I came, just when I joined the company," and on the Primero partnership, "I have no idea, by the way, why it was before me." [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 - **He knows the competitive field selectively:** "Some of them very well. Some others I've never seen in my life." [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 
@@ -65,7 +65,7 @@ Zazanis was also the reference point Val used to establish that he was talking t
 
 ## Open commitments
 
-The three items he took away — the Class A location address, the Class A + DC regulations, and the invoice/agreement for the remaining five units — are held once, as checkbox lines on [[wiki/organizations/arc-gaming.md]], and are deliberately not duplicated (or re-counted) here.
+The three items he took away — the Class A location address, the Class A + DC regulations, and the invoice/agreement for the remaining five units — are held once, as checkbox lines on [[wiki/organizations/arc-gaming.md]], and are deliberately not duplicated (or re-counted) here. The same goes for his Oct-13 items: the Byron Booth number and operator referrals (on [[wiki/organizations/arc-gaming.md]]), the demo and test location (on [[wiki/decisions/2026-10-13-arc-tests-the-jvl-transactional-set-at-one-non-kiosk-location.md]]), and the trade-in count (on [[wiki/decisions/2026-10-13-arc-trades-in-old-machines-for-texas-as-credit-on-2027-purchases.md]]).
 
 **§15.8:** clear — no compensation of any kind recorded for this person.
 
@@ -73,8 +73,20 @@ The three items he took away — the Class A location address, the Class A + DC 
 
 Felipe told Val: "I talked to Georgios about the check from Arc… He said that he reached out to accounting and it should be ready for pickup next week." [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]] On that basis Val approved releasing ten machines to ARC — [[wiki/decisions/2026-10-06-the-ten-arc-machines-are-released-this-week-with-modems.md]].
 
+## Oct 13 2026 — lunch with Val: the test, the trade-in, the volume, and his read of the field
+
+A long lunch ([[wiki/meetings/2026-10-13-arc-zazanis-lunch-trade-in-and-2027-volume.md|Oct 13, 1:00–2:39 PM]]). What ARC agreed is on [[wiki/organizations/arc-gaming.md]] (Oct 13) and three decision pages: [[wiki/decisions/2026-10-13-arc-tests-the-jvl-transactional-set-at-one-non-kiosk-location.md]], [[wiki/decisions/2026-10-13-arc-trades-in-old-machines-for-texas-as-credit-on-2027-purchases.md]], [[wiki/decisions/2026-10-13-arc-finishes-the-current-deal-first-and-buys-at-full-price-after-the-promotion.md]]. What it adds about him:
+
+- **He no longer places the machines.** "**before I was responsible of putting the deciding the locations that the machines go. Now there is a different team that decides this, and they do it slower than me.**" [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
+- **He says he would buy from JVL on merit.** "**even I didn't like you, we still have done business… Your price and overall the services are very good.**" [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
+- **He knows the operators.** "**everybody that has 50, 60 plus, I've met them more than 10 times.**" He dislikes one company: "**I don't like Inamax**" (see [[wiki/organizations/inamax-ultra.md]]). He named Kyle and Mark Brooks as friends of similar size (Kyle read as [[wiki/people/kyle-shepherd.md|Kyle Shepherd]], inference) [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]].
+- **His advice on Intralot.** The Lottery will not hand JVL a site controller, because COAM revenue keeps rising; ask Intralot for a Nebraska one instead — see [[wiki/organizations/intralot.md]] (Oct 13, ARC lunch) [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]].
+- **He links Val to the ARC board.** He will ask [[wiki/people/byron-booth.md|Byron Booth]] whether Val may have his number [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]].
+
 ## Sources
 
+- [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
+- [[raw/Meeting_Notes_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
 - [[raw/Meeting_Notes_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]

@@ -3,9 +3,9 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, eighty percent of the general functionality, requirements are step two, a hole automated tests will not cover, acceptance criteria in general terms, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction, Figma to React, Vite, Claude Code review loop, acceptance criteria, two test warehouses, frozen test cases, test harness, test registry, no E2E tests for MVP 1, E2E micro-step, telnet hook test, 60 to 70 percent acceptance criteria, symlink to dev null, eight connection tests, money-crediting autotest]
-source-count: 71
-open-commitments: 56
-open-questions: 8
+source-count: 75
+open-commitments: 65
+open-questions: 9
 ---
 
 # Test-automation strategy and testing architecture
@@ -828,11 +828,57 @@ At the [[wiki/meetings/2026-10-12-daily-standup-flexport-emulator-and-jira-auto-
 
 - [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — get the bank's answer on the refused Claude bot top-ups — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
 - [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — make the test sets pass on pull requests and real hardware; add the CI-parameters rule — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
-- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — re-check and close 150 and 151 — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
+- [x] [[wiki/people/anton-seregin.md|Anton Seregin]] — re-check and close 150 and 151 — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]] — **discharged Oct 13 2026**: "Как вчера закрыла 150 151" [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — build one more terminal for Seregin — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
 - [ ] [[wiki/people/ivan.md|Ivan]] and [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] — write autotests, one a day each — due Oct 15 2026 — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
 - [ ] [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] — review tasks 118–122 with Claude and rewrite them clearly in Russian — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
 - [ ] [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] — review all blocked tasks and move as many as possible — due Oct 12 2026 — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
+
+## Oct 13 2026 (5:05 AM) — Khamin narrows the pull-request tests; Seregin's firmware and flash-boot trouble; a 17-minute smoke test; Kharetski tests MVP 1 himself; Ivan waits on TIN-26
+
+At the [[wiki/meetings/2026-10-13-daily-standup-video-decode-memory-and-release-task-type.md|Oct-13 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]:
+
+- **[[wiki/people/alexei-khamin.md|Khamin]].** He narrowed the tests that run on each pull request, because the checks had taken "более получаса" on every change; "вроде поправился, надо будет наблюдать". In parallel: the tests that can pass on the kiosk simulator should pass in every pull request, and on real hardware all should pass on a manual GitHub Action run.
+- **[[wiki/people/anton-seregin.md|Seregin]].** Closed 150 and 151. On a firmware try he could not create cards — maybe a hardware problem. Booting from a flash drive: the drive is seen, but the boot order seems to be overwritten on reboot. He opened a story for Pavel; its number is garbled ("аркад 35 60. 68. Чис 29"). Pavel: "Хорошо, я посмотрю."
+- **[[wiki/people/dmitri-chudinov.md|Chudinov]]** — the emulator smoke test takes 17 minutes on every pull request ("17 минут ждать каждый"); he will make it run faster.
+- **[[wiki/people/evgeny-kharetski.md|Kharetski]].** Preparing to test MVP 1; 54 and 344 are set up; he will close 1241 now. While [[wiki/people/ivan.md|Ivan]] is busy he tests it himself, so fewer bugs reach Ivan. Asked whether to do it inside some task, Pavel: while the feature is not closed, open stories under it for the specific tests.
+- **[[wiki/people/irina-shishko.md|Irina]].** Testing items Pavel read out (the numbers are garbled; the notes read "53"); she will move the others forward if she does not touch them today. She updated requirements "для Андрея" after Vladimir's notes (which Andrei is **not identified**), and deleted two features that were not needed: "фикс 163 и фикс 165".
+- **[[wiki/people/ivan.md|Ivan]].** TIN-17 is done but not merged — there is an error in main. He waits on TIN-26 and sent Pavel at least four questions ("Хотя бы на 4 вопроса надо какието мне ответы"); the link is in Teams. He is starting task 89.
+- **[[wiki/people/vladimir-samusenko.md|Vladimir]].** Still on the unblocked tasks, fixing what Irina adds and adding tests; taking nothing new. He asked why GUI port tasks 122 and 52 are on him. Irina: the evening before she gave the stories to the owner of each feature; if that is wrong, pass them on — "Никто не заставляет это насильно фиксить то, что не должен."
+
+### Open commitments (Oct 13 2026, 5:05 AM)
+
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — make the emulator smoke test run faster than 17 minutes per pull request — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — look at Seregin's flash-boot story (number garbled) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — answer Ivan's questions on TIN-26 (at least four) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
+- [ ] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — test MVP 1 and open stories under the feature for each test — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
+- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — test the items read out; move the rest forward if not touched — due Oct 13 2026 — [[raw/Meeting_Notes_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
+- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] and [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] — check GUI port tasks 122 and 52 and reassign them if they are on the wrong person — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
+
+## Oct 14 2026 (4:47 AM) — Khamin's real-hardware run before the 15th; who has a Flex IQ; Seregin's installer; Ivan's task 128 not reproduced; "one-line requirements work badly"
+
+At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-library.md|Oct-14 Minsk stand-up]] (Russian), the day before the 15th [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]:
+
+- **[[wiki/people/alexei-khamin.md|Khamin]].** Working on the autotests of the transactional repository. It is hard to set up all the runs at once: many tests depend on simulators — the terminal hub, the Flex-Port, the emulator in the repository. He will create a task to run on real hardware, "у нас тогда хотя бы какойто будет прогонку ближе к MP один окончанию". Pavel: "Куда уже куда уже ближе завтра 15 число." Irina: "Ну уже ближе лучше."
+- **The Flex IQ device.** Irina asked Khamin to take the Flex IQ; he agreed — but she still needs it to finish her Flex IQ tests. Pavel: Chudinov works on the Flex IQ for a last day and goes on vacation tomorrow, so his device may free up; and "ещё один новый флекс iq у нас у Антона" (which Anton is **not identified**) may appear after his experiments, giving "3 отдельных потока". Irina: "Ладно, давай подумаем." Nothing was settled.
+- **The Flex-Port update by USB stick** is to be checked first thing on the 15th, "это больше для лёши" — see [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Oct-14 update).
+- **[[wiki/people/anton-seregin.md|Seregin]].** His Flex IQ tasks ("67… все 3 задачи") all wait on the terminal. He now has access rights; he changed the installer, will build an image and try to install it.
+- **[[wiki/people/irina-shishko.md|Irina]].** Three autotests in progress; then she moves on ("65, ну неважно").
+- **[[wiki/people/ivan.md|Ivan]].** Pavel reached Ivan's tasks only "в районе там 21:00" and closed some. On **128** Claude "запустил там 400 последовательных операций там транзакций" overnight and could not reproduce the problem; recent commits may have fixed it. Ivan will rebuild the port, install it and run again; if questions remain he will meet Pavel. Irina: "Ваня это надо срочно." Two more of his tasks are almost done; then he takes autotests from Irina ("Вот 66 ваня").
+- **[[wiki/people/sergey-tsymanov.md|Tsymanov]].** Closed stories and studied a task heard as "бип 35 22"; after the last discussion a plan for building it must be agreed.
+- **[[wiki/people/vladimir-samusenko.md|Vladimir]].** Part of the autotests moved to Done. Requirement blocks remain only on 31: "очень много нужно цифрами определиться в требованиях, потому что авто тест не хватает критериев". 71 and 72 wait for the port, which cannot reach some screens. In progress: 27 and 32 (a third number is garbled); tests are written, but requirements or tickets need work, and some scenarios fail.
+- **Too strict, or too vague?** Pavel: some non-functional requirements "мы сами себе… жёсткие… написали"; softer ones would be easier to live with. Irina: "Проще бы не было." Vladimir: "требования в формате одной строчки очень плохо работают" — they lack criteria, for example how big a log should be, when a repeat starts, what to do with lost entries; some scenarios take very long to check. Irina: "Теперь и будем требовать" — the team will now ask for detailed requirements.
+
+### Open commitments (Oct 14 2026, 4:47 AM)
+
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — create a task to run the autotests on real hardware, and take the Flex IQ device — due Oct 14 2026 — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — build the image with the changed installer and try to install it — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [ ] [[wiki/people/ivan.md|Ivan]] — rebuild the port, install it and rerun task 128; meet Pavel if questions remain — due unspecified (Irina: urgent) — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [ ] [[wiki/people/ivan.md|Ivan]] — then take autotest 66 from Irina — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+
+### Open questions (Oct 14 2026, 4:47 AM)
+
+- Which Flex IQ device does Khamin use while Irina still needs one for her tests — Chudinov's after his vacation starts, or the new one? — [[raw/Meeting_Notes_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
 
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -907,3 +953,7 @@ At the [[wiki/meetings/2026-10-12-daily-standup-flexport-emulator-and-jira-auto-
 - [[raw/Meeting_Notes_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]

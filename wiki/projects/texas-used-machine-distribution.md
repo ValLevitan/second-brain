@@ -2,8 +2,8 @@
 type: project
 title: Texas used-machine distribution (via EDS)
 date: 2025-03-22
-aliases: [Texas market, JAMMA pinboard, Fusion Game Group, Omega cabinets, Torch Amusements, Missouri decal fee, Beaumont, Texas distribution, Texas EDS plan, Texas content prohibition, Texas branch, reconditioned machines, wild boar theme, WPU, PTI, PTI Sentry, Jordan Barberio, Joe Hollow, Joe Hello, Hello Games, Barberio Amusement, Capitol Amusement, Texas recycler test, pure skill state, Fannin County, Stephen Fenoglio, county patchwork, Texas net win, Ken Paxton opinion letter, AMOT, Dennis Bonnen, Texas lobbying, Bob Hall, Texas own locations, Texas front operator, Dannettee Hickman, Texas gas station displacement, recycler against Banilla]
-source-count: 64
+aliases: [Texas market, JAMMA pinboard, Fusion Game Group, Omega cabinets, Torch Amusements, Missouri decal fee, Beaumont, Texas distribution, Texas EDS plan, Texas content prohibition, Texas branch, reconditioned machines, wild boar theme, WPU, PTI, PTI Sentry, Jordan Barberio, Joe Hollow, Joe Hello, Hello Games, Barberio Amusement, Capitol Amusement, Texas recycler test, pure skill state, Fannin County, Stephen Fenoglio, county patchwork, Texas net win, Ken Paxton opinion letter, AMOT, Dennis Bonnen, Texas lobbying, Bob Hall, Texas own locations, Texas front operator, Dannettee Hickman, Texas gas station displacement, recycler against Banilla, ARC trade-in, Austin warehouse, bottomless pit]
+source-count: 65
 open-commitments: 18
 open-questions: 9
 ---
@@ -421,6 +421,13 @@ At the [[wiki/meetings/2026-10-08-dragon-pays-vertical-accepted-and-dutch-mill-p
 
 Still not stated: a cabinet, a release date or a market date for the vertical Texas product.
 
+## Oct 13 2026 — a Georgia master's old fleet as Texas supply: the ARC trade-in
+
+At the [[wiki/meetings/2026-10-13-arc-zazanis-lunch-trade-in-and-2027-volume.md|Oct-13 lunch]] Val offered [[wiki/organizations/arc-gaming.md|ARC]] to take its old IGT and other machines, fit JVL boards, and sell them to an operator with a Texas route, paid to ARC as a credit on its 2027 JVL purchases. Agreed in principle as a handshake; quantity (60 to about 275) and price ($1,500 "give or take" against Texas buyers paying at most $3,000–4,000) are open. Machines go straight to "**a warehouse in Austin, Texas**". Full record: [[wiki/decisions/2026-10-13-arc-trades-in-old-machines-for-texas-as-credit-on-2027-purchases.md]] [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]].
+
+- **Val's view of Texas today:** "**Texas today, is a bottomless pit**", but "**I heard that legislation will change in March… To make them illegal**", with "**200,000 machines in Texas**" now. So "**we need to work the deal very quickly**", in batches of five or ten [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]].
+- **ARC sells into Texas too.** George: "**I sell stuff in Texas too**", and his old game boards "**go to Texas, but through somebody else**" [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]].
+
 ## Open contradictions
 
 **Texas net win per device per day, Sept 2026 — $250 against $15, and Val's own $250-against-$25.** Operators running machines in Texas have given figures that differ by more than an order of magnitude. Nothing reconciles them, and they are recorded every way they were said.
@@ -482,6 +489,7 @@ Still not stated: a cabinet, a release date or a market date for the vertical Te
 - **Was the first Capitol Amusement call June 23 or June 24, and were Jordan and Joe on one call or two?** The Jun-10 derived notes say the Jun-17 introductions "produced a scheduled discovery call with Capitol on June 24"; the transcript the wiki holds is dated **June 23** and has both Jordan and Joe on it. No source reconciles the two. [[raw/Meeting_Notes_Stephen_Fenoglio_Texas_Skill_Gaming_Counsel-June-10-2026.md]] [[raw/Transcript_Texas_Operators_Reach_Out-June-23-2026.md]]
 
 ## Sources
+- [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Texas_Gas_Station_Displacement_with_Recycler_and_Ports-September-17-2026.md]]
 - [[raw/Meeting_Notes_Texas_Gas_Station_Displacement_with_Recycler_and_Ports-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Pyramid_Tomislav_Jeras_NDA_Scope_and_QR_Prior_Art-January-22-2026.md]]

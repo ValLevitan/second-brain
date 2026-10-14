@@ -3,7 +3,7 @@ type: project
 title: South Dakota VLT market entry
 date: 2025-01-22
 aliases: [South Dakota, SD VLT, South Dakota VLT 3, VLT3, South Dakota D2703, IP1180, IP887, IP1131, IP1137, GD918, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950, V43, D27, SD cap, Bioliches, Gypsy Spirit, Crazy Colt, Queen of Luxor, Liberty Spin, Rodeo Spin, South Dakota vertical, MG Oil report, VLT2, Cool Cat, Black Hills Kino, Dragon Pace, Dakota Bison, Solar Keno, Keno Deluxe, IP459, IP1063, SD VLT performance story, Wild Colt, Lion Riches, Liberty Spins, Dutch Mill]
-source-count: 55
+source-count: 56
 open-commitments: 5
 open-questions: 2
 ---
@@ -366,6 +366,10 @@ At the [[wiki/meetings/2026-10-08-game-design-class-a-party-time-and-dual-box.md
 - **Design state.** [[wiki/people/lena.md|Lena]]: South Dakota VLT 27 "will be developed in Nova"; Aaron's Pub game design "is done and closed"; Solar Keno is in progress; Queen of Luxor Keno is next, with Michael on the concept.
 - **Configuration.** The one-page configuration requirements (buttons, progressive resets, Jackpot Rush and Fiery Ice link settings) were done for South Dakota first, then Nebraska — see [[wiki/projects/nebraska-skill-market.md]] (Oct 8).
 
+## Oct 14 2026 — the cheap street board, and South Dakota games converted for it
+
+At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-library.md|Oct-14 Minsk stand-up]] (Russian) [[wiki/people/pavel.md|Pavel]] described the RK3576 ARM board as cheap, compact and low-power, for the machines "то, что вал называет стрит" — "saus do cota" (South Dakota) and Texas, outside casinos. The next try: take the South Dakota games now on Rage, convert them with AI into NOVA vertical games, and fit a library of about 5 on the board [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]. Detail on [[wiki/topics/nova-platform-architecture.md]] (Oct 14) and [[wiki/decisions/2026-09-14-the-street-cabinet-board-is-the-rk3576-not-the-rk3568.md]]. *(How this sits beside the South Dakota VLT-2 product and its cabinet is not said on the call.)*
+
 ## Open questions
 
 - Is the Oct-2 South Dakota hand-over ("сдавать надо") the RAGE VLT-2 submission or the NOVA release, and does Efim's 40-cent minimum apply to one or both? — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
@@ -447,3 +451,4 @@ At the [[wiki/meetings/2026-10-08-game-design-class-a-party-time-and-dual-box.md
 - [[raw/Meeting_Notes_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/SD_VLT_performance_story-September-2026.md]]
 - [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]

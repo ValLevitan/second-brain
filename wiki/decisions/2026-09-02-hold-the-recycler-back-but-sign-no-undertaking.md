@@ -3,9 +3,9 @@ type: decision
 title: Hold the cash recycler back from anything InComm-associated — but sign no undertaking not to build it
 date: 2026-09-02
 aliases: [recycler standoff, cash recycler red line, no letter, the note InComm asked for, it leaves me with no choice, ten steps away, partnership would struggle, it's not gonna fit, a second piece of equipment beside it, I don't think it should be an ATM]
-source-count: 7
+source-count: 9
 status: active
-open-commitments: 3
+open-commitments: 2
 open-questions: 4
 ---
 
@@ -94,10 +94,22 @@ On a **12:50 PM phone call** with [[wiki/people/jamie-boyden.md|Jamie Boyden]] (
 
 **Nothing here changes the decision.** No source shows Val acting on the advice; the Sept-2 hold stands, and the new question it raises is recorded below rather than resolved.
 
+## Update, Oct 13 2026 — "I have removed the capability of the dispenser"; the reset
+
+On the [[wiki/meetings/2026-10-13-incomm-prize-play-reset-agreement-scope-and-cash-dispense.md|Oct-13 InComm call]] [[wiki/people/val-levitan.md|Val]] told Jason of InComm [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]:
+
+- "**Right now at this stage, I have removed the capability of the dispenser. I removed it not to comply with you, but to comply with legislative interpretation at this point in time. I intend to comply with further legislation.**"
+- Earlier on the call: Andrei had already told Jason "that we do not provide this feature", and Val had told Chris at the GLC "that we are removing this feature".
+- But the hold is not for good: "the moment that Skill Pay card is back in the market, I would be introducing that feature because I want to be in the market." Jason: InComm can pull its card from a solution it thinks is not compliant.
+
+Earlier the same day, at the [[wiki/meetings/2026-10-13-intralot-machine-lockouts-test-lab-and-route-partnership.md|Oct-13 meeting at Intralot]] ([[wiki/organizations/intralot.md|Intralot]], 9:54 AM, before the InComm call), Val said it to the Georgia Lottery's representative too: "**We're not offering recycling.**" The answer: "**I think that's a sigh of relief for many of the folks out there.**" Val's reason, as he put it there: InComm had said "**two years ago that they're coming out with an ATM card**" and is no longer offering it, so "**if I offer a recycler and they do not offer an ATM card, what can I do with my recycler? Nothing.**" [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
+
+So the Sept-2 hold now has a stated state (removed) and a stated reason (the current legal reading, not InComm). This is **evolution**, not contradiction. It still does not say whether development stopped — the open question below stays. The relationship side is on [[wiki/decisions/2026-10-13-incomm-and-jvl-reset-the-relationship-and-launch-on-prize-play-first.md]].
+
 ## Open commitments
 
-- [ ] [[wiki/people/val-levitan.md|Val Levitan]] — decide whether to keep holding the recycler back or push it into the market against the Lottery's and InComm's requests — due **open**; raised by [[wiki/people/jamie-boyden.md|Jamie Boyden]] on Sept 16 2026 and left unanswered on the call — [[raw/Meeting_Notes_Jamie_Georgia_Class_A_Opportunity_and_Market_Outlook-September-16-2026.md]] [[raw/Meeting_Transcript_Jamie_Georgia_Class_A_Opportunity_and_Market_Outlook-September-16-2026.md]]
-- [ ] **InComm** — write to Val asking him to confirm that the features seen on the show floor are not associated with the Skill Pay solution (the agreed substitute for Val writing a note) — due unspecified — [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]] [[raw/Meeting_Notes_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]]
+- [x] [[wiki/people/val-levitan.md|Val Levitan]] — decide whether to keep holding the recycler back or push it into the market against the Lottery's and InComm's requests — due **open**; raised by [[wiki/people/jamie-boyden.md|Jamie Boyden]] on Sept 16 2026 and left unanswered on the call — [[raw/Meeting_Notes_Jamie_Georgia_Class_A_Opportunity_and_Market_Outlook-September-16-2026.md]] [[raw/Meeting_Transcript_Jamie_Georgia_Class_A_Opportunity_and_Market_Outlook-September-16-2026.md]] — **answered for now on Oct 13 2026**: Val told InComm he has removed the dispenser capability, to comply with the current legal reading, and would add it back once a Skill Pay card with ATM access returns (see the Oct-13 update) [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]
+- [ ] **InComm** — write to Val asking him to confirm that the features seen on the show floor are not associated with the Skill Pay solution (the agreed substitute for Val writing a note) — due unspecified — [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]] [[raw/Meeting_Notes_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]] — *Oct 13 note:* Val quoted an InComm request, "tell me for sure that you are not going to provide this capability", and said Andrei had already replied that JVL does not provide the feature. Whether that request is this letter is **unclear**; kept open [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]
 - [ ] [[wiki/people/val-levitan.md|Val Levitan]] — decide how to answer that letter when it arrives, with JVL's in-house counsel involved — due on receipt — [[raw/Meeting_Notes_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]]
 
 ## Open questions
@@ -118,3 +130,5 @@ On a **12:50 PM phone call** with [[wiki/people/jamie-boyden.md|Jamie Boyden]] (
 - [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
 - [[raw/Meeting_Transcript_Jamie_Georgia_Class_A_Opportunity_and_Market_Outlook-September-16-2026.md]]
 - [[raw/Meeting_Notes_Jamie_Georgia_Class_A_Opportunity_and_Market_Outlook-September-16-2026.md]]
+- [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]
+- [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]

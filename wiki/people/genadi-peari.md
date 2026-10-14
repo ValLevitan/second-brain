@@ -3,8 +3,8 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий, Kenadi]
-source-count: 121
-open-commitments: 44
+source-count: 123
+open-commitments: 48
 ---
 
 # Genadi Peari
@@ -618,6 +618,22 @@ At the [[wiki/meetings/2026-10-09-github-msbc-agent-bom-assembly-and-pay-slim-fi
 
 - [ ] Genadi Peari — send Nathan Carver the GitHub link for the Pay Slim product source — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
 
+## Oct 13 2026 (4:32 PM) — "a locked BOM" for every configuration; the control BOM; Lev first, then Nathan
+
+At the [[wiki/meetings/2026-10-13-github-msbc-ai-bom-control-gate-and-msbc-only-reports.md|Oct 13 "GitHub-MSBC" meeting]] (Russian; with Val only) [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]:
+
+- **His position.** He fully supports the agent taking files from GitHub to manufacturing, quotes and orders; his one point is a locked, exact BOM for every configuration of every product ("на 10 конфигураций флексов или там 30"). BOMs can be in GitHub too. He does not lock a BOM alone — purchasing and production decide together.
+- **His proposals.** Export designs from SolidWorks so the AI sees the structure (Flex two layers of sub-assemblies, Slim three) — Val said no, data contracts instead, and Genadi agreed. Tell the AI business choices such as ordering a monitor assembly in China as a separate sub-assembly. Have the AI compare part drawings and prices.
+- **His role.** Val asked him to build the control BOM the agent's BOM is checked against, and to find why the agent is wrong rather than fix it ([[wiki/decisions/2026-10-13-the-agent-builds-the-bom-as-a-control-gate-taught-by-data-contracts-not-cad-and-genadi-finds-why-it-is-wrong.md]]). This week he works with Lev on what the procurement reports need and what is missing in MSBC, then with Nathan on how to get it ([[wiki/decisions/2026-10-13-procurement-reports-come-only-from-msbc-and-the-excel-export-report-goes-away.md]]).
+- **Availability.** He asked for time off for part of the week; Val agreed and told him to take full days.
+
+## Open commitments (Oct 13 2026)
+
+- [ ] Genadi Peari — work with Lev Rudky on what the procurement reports need and what administrative data is missing in MSBC; list the gaps so Mary gets concrete work — due week of Oct 13 2026 — [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
+- [ ] Genadi Peari — after Lev, discuss with Nathan Carver how to get the missing data (endpoints, MCP) — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
+- [ ] Genadi Peari, with Nathan Carver — agree the vendor administrative/financial data format into MSBC and how repository files are organised or tagged — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
+- [ ] Genadi Peari — build a control BOM as the template the agent's BOM is checked against — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
@@ -741,3 +757,5 @@ At the [[wiki/meetings/2026-10-09-github-msbc-agent-bom-assembly-and-pay-slim-fi
 - [[raw/Meeting_Notes_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
+- [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
+- [[raw/Meeting_Notes_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]

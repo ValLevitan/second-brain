@@ -3,7 +3,7 @@ type: person
 title: Inna Levitan
 date: 2026-07-13
 aliases: [Inna Levitan, Inna, Ina, Ina Levitan, Ena, Enaville]
-source-count: 13
+source-count: 15
 ---
 
 # Inna Levitan
@@ -65,6 +65,10 @@ On the [[wiki/meetings/2026-09-07-departure-tax-trust-and-bad-debt.md|Sept-7 202
 
 On the [[wiki/meetings/2026-09-23-cash-position-and-vendor-payment-plan.md|Sept-23 cash-position call]], Igor Donis said this week's Bank of America payments (payroll and the credit card) would be processed "maybe today or tomorrow… by yourself and maybe Inna" — Val or Inna. [[raw/Meeting_Transcript_Cash_Position_and_Vendor_Payment_Plan-September-23-2026.md]]
 
+## Oct 13 2026 (in absentia) — the company car loan is left with her
+
+On the [[wiki/meetings/2026-10-13-bank-of-america-cashpro-business-central-source-of-truth-and-customer-ach-portal.md|Oct 13 Bank of America call]] Val said Inna had an approval for a "$60,000 car purchase, company car purchase" for JVL and asked whether it could rise to one hundred thousand without a new application. Lenin Hernandez said the application had lapsed and JVL must reapply, with credit run again. Val: "I will leave it with Ina. I don't want to touch it." Lenin will message her. Whether to reapply is open; see [[wiki/organizations/bank-of-america.md]] (Oct 13) [[raw/Meeting_Transcript_Bank_of_America_CashPro_Business_Central_Source_of_Truth_and_Customer_ACH_Portal-October-13-2026.md]]. She was invited to the call and did not join [[raw/Meeting_Notes_Bank_of_America_CashPro_Business_Central_Source_of_Truth_and_Customer_ACH_Portal-October-13-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Cash_Position_and_Vendor_Payment_Plan-September-23-2026.md]]
@@ -81,3 +85,5 @@ On the [[wiki/meetings/2026-09-23-cash-position-and-vendor-payment-plan.md|Sept-
 - [[raw/Meeting_Transcript_JV_Documentation_Review_2022_Invoice_Gap-July-1-2026.md]]
 - [[raw/Meeting_Transcript_RD_Credit_Claim_Timing_Strategy-July-1-2026.md]]
 - [[raw/Meeting_Transcript_Intercompany_Labs_Systems_Software_Charge-July-21-2026.md]]
+- [[raw/Meeting_Transcript_Bank_of_America_CashPro_Business_Central_Source_of_Truth_and_Customer_ACH_Portal-October-13-2026.md]]
+- [[raw/Meeting_Notes_Bank_of_America_CashPro_Business_Central_Source_of_Truth_and_Customer_ACH_Portal-October-13-2026.md]]

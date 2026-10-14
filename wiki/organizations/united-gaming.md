@@ -3,7 +3,7 @@ type: organization
 title: United Gaming (Georgia's largest master operator)
 date: 2026-09-02
 aliases: [United, United Gaming, Bunty's company, the largest Georgia master]
-source-count: 8
+source-count: 10
 open-commitments: 1
 open-questions: 1
 ---
@@ -65,6 +65,12 @@ On the [[wiki/meetings/2026-09-22-billy-liu-playpay-virtual-wallet-pay-tag-plan.
 - **Read as United Gaming** because Billy calls it the biggest competitor "in the state", in talk of the Lottery and location licence holders that fits Georgia — an inference; the call names neither the state nor the full company name [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]. The derived notes say the same: "the biggest operator in the state" [[raw/Meeting_Notes_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]].
 - Wider context on [[wiki/organizations/incom.md]] (Sept 22).
 
+## Oct 13 2026 — "Banilla is out starting January", and the fund behind United
+
+At the [[wiki/meetings/2026-10-13-arc-zazanis-lunch-trade-in-and-2027-volume.md|Oct-13 ARC lunch]] Val asked whether to pursue United now. [[wiki/people/georgios-zazanis.md|George Zazanis]] of ARC: "**I don't know. Everybody says that Banilla is out starting January**" (transcribed "vanilla"; the notes correct it). Val: "**Somebody there runs the show. If it's not Banilla, who is?**" George said the fund behind ARC is the same fund behind United, and that [[wiki/people/byron-booth.md|Byron Booth]], on that board, could introduce Val; he will ask Byron for leave to pass on his number [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]] [[raw/Meeting_Notes_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]].
+
+*(What "Banilla is out" means for United — a supplier leaving, or something else — is not said. Recorded as rumour: "everybody says".)*
+
 ## History
 
 - **Jan 27 2026 — the earliest mention.** Former Georgia route operator [[wiki/people/rich-winley.md|Rich Winley]] used United as the example of a big buyer: "if they go to a United, yeah, he's going to put everything, but if they go to a Mike Patel, Mike only has 20 locations". [[wiki/meetings/2026-01-27-rich-winley-georgia-coam-market-intel.md]] [[raw/Meeting_Transcript_Rich_Winley_Georgia_COAM_Market_Intel-January-27-2026.md]]
@@ -88,6 +94,8 @@ On the [[wiki/meetings/2026-09-22-billy-liu-playpay-virtual-wallet-pay-tag-plan.
 
 ## Sources
 
+- [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
+- [[raw/Meeting_Notes_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
 - [[raw/Meeting_Notes_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]]
 - [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]]
 - [[raw/To-Do_Georgia_meetings-February-18-2026.md]]

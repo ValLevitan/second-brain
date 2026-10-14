@@ -4,7 +4,7 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich, Andre]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 107
+source-count: 109
 open-commitments: 107
 open-questions: 0
 ---
@@ -831,6 +831,14 @@ At the [[wiki/meetings/2026-10-08-ai-pm-listener-scope-draft-lifetime-and-octobe
 
 On the [[wiki/meetings/2026-10-09-transactional-mvp1-test-machines-and-unclaimed-funds.md|Oct-9 Transactional MVP 1 call]] he decided the first borrowed operator machines for Oct 15–16 with Felipe ([[wiki/decisions/2026-10-09-first-borrowed-operator-machines-are-arranged-for-october-15-16.md]]), the red section on the secrets wipe ([[wiki/decisions/2026-10-09-a-terminal-registered-before-must-wipe-its-secrets-and-the-install-instruction-says-so-in-red.md]]), a real transaction in production before the first location ([[wiki/decisions/2026-10-09-a-real-transaction-is-run-in-production-on-the-new-version-before-the-first-real-location.md]]) and unclaimed as the MVP 1 home for port-crash collect money ([[wiki/decisions/2026-09-24-a-flex-port-that-dies-holding-money-sends-it-to-unclaimed-and-one-without-a-gateway-goes-out-of-service.md]], Oct-9 update). He returns Monday and expects to be in Georgia from Tuesday, full time; first he rebuilds the environment and tests the IQ on all main flows. He revives the KORE SIM thread for Minsk, chases InComm's broker approval ([[wiki/organizations/incom.md]], Oct 9), and goes with Sebastian to the show "21 и 22 гдето там" [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]. Commitments are on those pages and on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 9, 8:01 AM).
 
+## Oct 13 2026 (in absentia) — his reply to InComm on the cash feature; Prize Play certification comes back to him
+
+On the [[wiki/meetings/2026-10-13-incomm-prize-play-reset-agreement-scope-and-cash-dispense.md|Oct-13 InComm call]] Val said "Andrei has already replied to you… that we do not provide this feature" (cash dispense), and Jason of InComm said "I intend to reply back to Andrei and just work through normal progression of getting that product certified and deployed" — [[wiki/decisions/2026-10-13-incomm-and-jvl-reset-the-relationship-and-launch-on-prize-play-first.md]]. Reading this "Andrei" as Klimovich is an **inference** from his InComm role [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]].
+
+## Oct 14 2026 (in absentia) — a production Flex IQ brought up with Chudinov
+
+At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-library.md|Oct-14 stand-up]] [[wiki/people/dmitri-chudinov.md|Chudinov]] said that the night before, with "Андреем климовичем", he brought up a production Flex IQ and re-registered an old one; the update ran at about 6 Mbit/s, and they will check the ping to the terminal together — [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 14) [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
@@ -941,3 +949,5 @@ On the [[wiki/meetings/2026-10-09-transactional-mvp1-test-machines-and-unclaimed
 - [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
 - [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
+- [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]

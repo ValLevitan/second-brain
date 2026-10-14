@@ -3,9 +3,9 @@ type: organization
 title: Incom (payment processor)
 date: 2025-02-27
 aliases: [Incom, InComm, SkillPay launch email, hold off for two years, we will take the card away from you, Intum, they totally misled me, InComm's credit, that shift in opinion has only happened recently, black prize play card, white card ATM functionality, replace InComm on the back end, backend displacement, Incomm, Income, NCOM, Incom Payments, wrapped card rule, PAX, PAX 80, reloadable gift cards, Nathan Carver, cash-back commission, barcode activation, Mastercard rules, ABA number, MLH fee sharing, kicked to the curb, InComm doesn't offer any profit sharing, they've ignored us before during and after the show, sponsor bank behind InComm, 120 million a year, the easy living guys, daily cap five k, velocity calculated on the fly, it still says soon, InComm is the master guy, sub accounts, they actually buy bonds, biggest issuer, blue card, black card, billion-dollar gorilla, two dollars to load]
-source-count: 86
+source-count: 88
 open-commitments: 17
-open-questions: 12
+open-questions: 14
 ---
 
 # Incom (payment processor)
@@ -751,6 +751,27 @@ On the [[wiki/meetings/2026-09-30-larry-sharon-single-entity-jv-and-100-machine-
 
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — read InComm's reply and push for official approval of JVL as a broker — due Oct 9 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
 
+## Oct 13 2026 — Jason calls Val: "press a reset button", Prize Play first, the dispenser removed, and the paper agreement with its $300,000 cap
+
+On the [[wiki/meetings/2026-10-13-incomm-prize-play-reset-agreement-scope-and-cash-dispense.md|Oct-13 phone call]] (12:15 PM, about 26 minutes) Jason of InComm — read as **Jason Hall** by context (**inference**; no surname on the tape) — called [[wiki/people/val-levitan.md|Val]]. He wants to "establish our partnership. Get you out in locations with our product", but was worried by "all the unknowns you indicated on your email" [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]].
+
+- **The outcome.** The past is parked, JVL's product goes through normal certification and launch on Prize Play, and Skill Pay with ATM access waits for the lottery rule — [[wiki/decisions/2026-10-13-incomm-and-jvl-reset-the-relationship-and-launch-on-prize-play-first.md]]. New terms go onto the existing written agreement — [[wiki/decisions/2026-10-13-new-incomm-terms-go-onto-the-existing-written-agreement.md]].
+- **Val's frame.** JVL is "a technology, hardware technology provider… being confused with a clearinghouse". In the last "30 days or 60 days" the market moved to debit cards only, so JVL cannot dispense cash through InComm's card. Jason: "It's impossible. I think that's right." [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]
+- **InComm's line on cash, unchanged.** "I just can't let that be associated with my products" — the cash-dispensing device. "I don't see a path where the product I saw in August… Is seen as compliance." See [[wiki/decisions/2026-08-26-no-cash-from-coam-redemption-device-for-skill-pay.md]] (Oct-13 update). [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]
+- **Who may restrict whom.** Val: "You can't restrict me from the market." Jason: "I can pull my card from a solution that we think is not compliant", and InComm must "retain the ability to certify a solution". Val will follow the law but not a limit set by another private company. Not settled. [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]
+- **The rule and InComm's lobbying.** Jason: the lottery will introduce a rule that week; InComm has given the GLC "our opinion on what that rule is", in favour of keeping "products like Skill Pay with ATM access in some capacity"; "we're on Prize Play currently". See [[wiki/organizations/georgia-lottery-corporation.md]] (Oct 13). [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]
+- **What Jason has seen.** "a video that you had previously submitted to InComm, of the function of a cash recycler", and the devices on the show floor. For any Skill Pay talk he wants the actual steps and transactions in writing, sent to him directly: "I don't have that material." [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]
+- **Val's commercial items.** InComm guaranteeing unpaid transactions and paying half a percent on funds held in accounts (from John — [[wiki/people/john-houseal.md]], Oct 13); private family offices "lined up to buy the market" and renting equipment to operators with no money up front (Jason: "That would be great"); taking over "the five and a half thousand accounts that you guys are currently suffering through". Jason: to do business at a broker's location JVL "would need to acquire the contract. Otherwise, there's a 12-month cooling period". See [[wiki/topics/georgia-prize-card-processor-economics.md]] (Oct 13). [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]
+- **A sale floated.** Val: if he succeeds and the Skill Pay card comes in, "You could buy me. I will sell you the company." Jason did not answer it. [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]
+- **Who leads InComm's side now.** This bears on the Sept-25 open question below: Val proposed to "park everything that Joe Kim told me and start new conversations with you guys, with you directly", and Jason asked for material to be shared "with me directly". This is **inference** that Jason is now Val's main InComm contact; no source says so outright. [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]
+
+### Open questions (Oct 13 2026)
+
+- Can JVL take over the about 5,500 accounts, and on what terms — acquire the brokers' location contracts, or wait out the 12-month cooling period? — [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]
+- Who closed JVL's ATM-certification path — InComm or Joe Kim? Val: "I'm just going to reserve my judgment right now" — [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]
+
+**§15.8:** clear — company-to-company terms only. **§15 #9:** clear. The derived notes also list the 5,500 accounts and the ATM-certification path as open [[raw/Meeting_Notes_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
@@ -839,3 +860,5 @@ On the [[wiki/meetings/2026-09-30-larry-sharon-single-entity-jv-and-100-machine-
 - [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+- [[raw/Meeting_Notes_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]
+- [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]

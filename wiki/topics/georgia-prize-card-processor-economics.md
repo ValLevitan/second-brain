@@ -3,7 +3,7 @@ type: topic
 title: Georgia prize-card processor economics — the fee sheet, the float, and who actually captures the money
 date: 2026-08-31
 aliases: [prize card economics, cannot be exchanged for currency at the location, where the prize is won, welcome to our world, three fifty-eight nine, HB 353, white card ATM functionality, black prize play card, should I be working on ATMs, Avshad Patel, Ready Credit Corporation, the card puzzle, why pay cash without issuing a card, average load per card, two hundred eighty dollars per card, InComm takes the risk, program manager not provider, Fiserv, breakage zero point three, card to machine fee, MoneyPass, fifty basis points, PAX A80 two hundred dollars, gift card float, dormancy fee, card fee structure, 9.6 percent per year, I'm in the wrong business, free PAX, breakage, five billion in payouts, multi-provider manipulation, reloadable cards, Mastercard rules, gift card policy intent, half a percent, front fees to the store, two dollars per push, PlayPay fees, eight percent on the back end, FBO account, holding that money, B with the B, seventy four hundred locations forty seven thousand machines, InComm doesn't offer any profit sharing, a card solution is not useful if it doesn't lead to cash, thirteenth month after activation, pre-fund, ten thousand dollar pre-fund, twenty four thousand dollars over the weekend, half a percent is my percentage, that's my agreement with Visa, secret document that Visa does not divulge, I can turn my AFT off, GDL is the only company that gives it away, mute them for now, anti money laundering, house bill three fifty three, I faked that, pass to cash, self checkout counter, escheat, easement, sub accounts, they actually buy bonds]
-source-count: 35
+source-count: 37
 open-commitments: 0
 open-questions: 18
 ---
@@ -688,6 +688,26 @@ Larry: "I think we only do the deal if we agree that the backend may never happe
 
 **§15.8:** clear — market, card and deal economics only. **Personal matters not recorded.**
 
+## Oct 13 2026 — what Val asked InComm for, and the $300,000 cap in JVL's own agreement
+
+On the [[wiki/meetings/2026-10-13-incomm-prize-play-reset-agreement-scope-and-cash-dispense.md|Oct-13 InComm call]] with Jason of InComm (read as Jason Hall — **inference**) [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]:
+
+- **JVL as hardware, not clearing.** Val: "we don't provide the capability of clearing transactions. We simply provide the hardware capability of transact whatever the market has established". Yet he also expects to clear: the guarantee is time sensitive "because I'm going to be clearing a lot of transactions". Both lines are his, on the same call; how they fit is not explained (compare "whoever owns the equipment clears the transactions", Sept 28 above).
+- **A guarantee of unpaid transactions, and half a percent on held funds.** Val said John had told him "InComm will guarantee the those transactions that have not been paid" and "InComm would pay me half a percent of all the money being held in accounts". Jason: "I know about that last one." Neither is confirmed. *(The Sept-28 telling put the half percent on "the entire five billion" of transactions; here it is on money held in accounts. Recorded, not reconciled — see the open question on back-end profit below. The guarantee bears on the open question on who absorbs a broker's loss.)*
+- **The $300,000 daily cap.** In JVL's agreement with InComm, JVL wires InComm "as soon as you have three hundred thousand dollars or more outstanding"; Jason expects JVL to hit it "pretty quickly" across many locations. See [[wiki/decisions/2026-10-13-new-incomm-terms-go-onto-the-existing-written-agreement.md]].
+- **Buying the market, and renting equipment.** Val: "I have a couple of family offices, private family offices, lined up to buy the market, literally to buy the market. So we're thinking that we will be renting our equipment… At a very attractive price, where operators don't have to dish out any money." Jason: "That would be great." *(This may be the investor work on [[wiki/projects/transactional-equipment-depreciation-investor-deal.md]] — **inference**; the call names no one.)*
+- **The 5,500 accounts.** Val wants to take over "the five and a half thousand accounts that you guys are currently suffering through". Jason: a broker's agreements with its locations differ; to do business there JVL "would need to acquire the contract. Otherwise, there's a 12-month cooling period". Val: "none of them are making money."
+
+**§15.8:** clear — company-to-company terms only.
+
+## Oct 13 2026 (afternoon) — the same pitch told to ARC, and what a broker earns per redemption
+
+At the [[wiki/meetings/2026-10-13-arc-zazanis-lunch-trade-in-and-2027-volume.md|Oct-13 ARC lunch]] Val repeated the morning's InComm pitch to [[wiki/people/georgios-zazanis.md|George Zazanis]] of [[wiki/organizations/arc-gaming.md|ARC]] [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]:
+
+- **What ARC, a broker, gets from InComm.** George: "**I receive a percentage for the gift card redemptions from their portion… I think it's fifty cents or one dollar.**" Val: "**One dollar is nothing.**"
+- **Val's guess at InComm's take.** "**I speculate they make between one and eight percent on the entire amount. That's a lot on five billion dollars.**" Then: "**So I want half a percent**" (a Val line under a George label; the notes flag the labels as swapped here).
+- **The plan, as Val told it.** "**I've lined up a private family office capital**" to fund equipment so "**the operator doesn't have to pay**" — "**We will probably offer just a rental**" — and talks with InComm "**to take over their five and a half thousand locations**". The end state: "**me, with technology, the fund… and two or three operators like you, we can get majority of the market… and then sell the company to InComm. Or sell the company to NCR**" (he said NCR's division was just bought by Brink's; see [[wiki/organizations/ncr-atleos.md]]). Val himself: "**This is my fantasy. It's a fantasy.**" George committed to nothing.
+
 ## Open questions
 
 - Who is the "physicist" offering Val, on a handshake, 50% of the banking transactions through him, and who is the second offer? Neither is named (Sept 28) — [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]]
@@ -714,6 +734,7 @@ Larry: "I think we only do the deal if we agree that the backend may never happe
 
 ## Sources
 
+- [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
 - [[raw/Meeting_Notes_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
 - [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
 - [[raw/Meeting_Transcript_Continental_Bifurcated_Operations_Texas_and_Virginia-September-2-2026.md]]
@@ -749,3 +770,4 @@ Larry: "I think we only do the deal if we agree that the backend may never happe
 - [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Equipment_Depreciation_Investor_Pitch-September-28-2026.md]]
+- [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]

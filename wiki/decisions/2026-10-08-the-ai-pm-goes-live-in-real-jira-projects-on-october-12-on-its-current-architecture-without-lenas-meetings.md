@@ -3,9 +3,9 @@ type: decision
 title: The AI PM goes live in real Jira projects on Monday Oct 12 on its current architecture (change it later if needed); Lena's meetings leave the pilot; the agent deletes only what it created and only comments on the rest; the agent is not genderless and gets a name
 date: 2026-10-08
 aliases: [AI PM live October 12, боевой режим, launch with current architecture, Lena out of the AI PM pilot, agent deletes only its own items, AI Draft status, AI Draft lifetime, Dasha, the AI PM is not genderless, two kinds of draft]
-source-count: 5
+source-count: 9
 status: active
-open-commitments: 4
+open-commitments: 5
 open-questions: 3
 ---
 
@@ -80,9 +80,38 @@ At the [[wiki/meetings/2026-10-12-daily-standup-flexport-emulator-and-jira-auto-
 
 So the Oct-12 go-live date held (**evolution** from the Oct-9 "если мы все успеем"). The draft lifetime question below is not touched. The derived notes date the review "From October 13" [[raw/Meeting_Notes_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]].
 
+## Update, Oct 13 2026 — the PM agent's questions are merged and discussed the next day
+
+At the [[wiki/meetings/2026-10-13-daily-standup-video-decode-memory-and-release-task-type.md|Oct-13 Minsk stand-up]] (Russian) [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] asked whether to discuss what the PM agent wrote that morning: it had marked the tasks discussed, "но это не совсем фичи", more like questions, "что бы оно не потерялось". Pavel: "Давайте тогда для нашего IPM попросим все вопросы, которые на вчерашний митинг он собрал[,] консолидировать с вопросами сегодняшнего митинга и завтра мы их обсудим." [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
+
+The notes leave the person who asks the agent **unassigned** [[raw/Meeting_Notes_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]].
+
+### Open commitments (Oct 13 2026)
+
+- [x] Unassigned — ask the PM agent to merge the Oct-12 and Oct-13 questions; the team discusses them on Oct 14 — due Oct 14 2026 — [[raw/Meeting_Notes_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]] — **discharged Oct 14 2026**: Kovalchuk — "агент объединит вчерашние задачи. Сегодняшние, собственно, он это и сделал"; the list was gone through at the stand-up — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+
+## Update, Oct 14 2026 — the merged list is reviewed; the agent mixes up people with the same name; "посмотреть, к чему это приведёт"
+
+At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-library.md|Oct-14 Minsk stand-up]] (Russian) [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] shared the chat where the agent posts [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]:
+
+- **The daily digest.** "Андрей настроил то, что он присылает нам каждое утро в 11:30" — a list of what did not get into Jira. The Andrei is likely [[wiki/people/andrey-bosik.md|Bosik]], who owns the AI PM (**inference**). The team should say for each item whether it belongs in Jira, is only for understanding, or is not needed. Pavel: "можем обсуждать, посмотреть, к чему это приведёт на самом деле." The notes record this as a decision: keep reviewing the digest [[raw/Meeting_Notes_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]].
+- **The merge worked.** The agent merged the Oct-13 and Oct-14 items, as asked, and created the leak task on Daniil (see [[wiki/topics/nova-platform-architecture.md]] (Oct 14)).
+- **Same-name mix-ups.** It "не всегда понимает про какого, например, Андрей идёт речь" — Andrey Bosik or Andrei Klimovich — or which Dima, Kovalchuk or Chudinov; it sometimes confuses them.
+- **Items it listed:** how to free, load and decode bonus video; how to treat a release branch (see [[wiki/decisions/2026-10-05-a-capability-moves-itself-to-request-review-when-all-its-features-are-completed-and-a-new-story-sends-feature-and-capability-back-to-to-do.md]], Oct-14 update); an emulator smoke test on each commit (garbled); the Flex IQ not scanning tickets in the dark room (Chudinov had not checked yet).
+- **Cautious.** Kovalchuk: "у него сейчас гайки закручены" — it hesitates a lot before creating anything in Jira.
+- **A gap.** Pavel: the two-hour meeting the day before with Sergey, Dima and Ira is not in the list. Kovalchuk thought it was a call without transcript access; Pavel: it was a full meeting scheduled at 4:30. Kovalchuk then said this digest may cover only this stand-up's topic; he will ask Andrei. Irina asked whether the transcript can be fed to the agent; Kovalchuk: yes, post it in the chat.
+
+### Open commitments (Oct 14 2026)
+
+- [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — ask Andrei (Bosik likely — inference) why the two-hour Oct-13 meeting is not in the AI digest — due Oct 14 2026 — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
 - [[raw/Meeting_Notes_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]

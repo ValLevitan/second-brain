@@ -3,7 +3,7 @@ type: person
 title: David Sloan (CEO, ARC Gaming)
 date: 2026-09-08
 aliases: [David Sloan, David, The Sloan, Sloan, Dave Sloan, Dave, ARC CEO, CEO of Lucky Bucks, Dave Sloan (Bill's partner in crime) — provisional, not asserted]
-source-count: 11
+source-count: 12
 open-commitments: 4
 open-questions: 3
 disambiguation: "Chief executive of the Georgia COAM operator ARC Gaming — resolve by the ARC / Georgia-operator / kiosk-vendor-routing context. The corpus contains other bare 'David' mentions in unrelated engineering and vendor contexts; do not attach one to this page without contextual support."
@@ -78,10 +78,18 @@ The pairing — a Dave Sloan who is a "partner in crime" of a Bill who sells kio
 - **His diary, which sets the next date:** he leaves **Saturday for G2E**, then **away for two weeks from Wednesday**, back on **the 13th** and wanting "**a couple days to get my**[desk in order]" — hence **October 15** [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]].
 - **Nothing was said about [[wiki/people/bill.md|Bill]], the kiosk vendor, the board swap or the InComm disclosure** — the whole Sept-9 back-end thread went unmentioned [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]].
 
+## Oct 13 2026 (in absentia) — the CEO as his COO and Val discussed him at lunch
+
+At the [[wiki/meetings/2026-10-13-arc-zazanis-lunch-trade-in-and-2027-volume.md|Oct-13 lunch]] between [[wiki/people/val-levitan.md|Val]] and [[wiki/people/georgios-zazanis.md|George Zazanis]] [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]:
+
+- **He is back on the 14th.** Val: "**David's coming back tomorrow.**" And: "**David is supposed to bring his technicians to show us the equipment**" — George did not know what was meant: "**I'll talk to him.**"
+- **He signs off the transactional test.** George will pick the location and "**get the buy-in from David**" — [[wiki/decisions/2026-10-13-arc-tests-the-jvl-transactional-set-at-one-non-kiosk-location.md]].
+- **He offered Val a Class A revenue share.** Val: "**He offered it to me.**" George: "**because he did it with Primero, so for him it makes sense to do exactly the same thing**" — a share of machine revenue, not location revenue. See [[wiki/topics/georgia-class-a-machines.md]] (Oct 13).
+
 ## Open commitments
 
 - [ ] [[wiki/people/david-sloan.md|David Sloan]] — decide on JVL's cabinet-swap offer ($2,500 plus 20% for a new complete cabinet, JVL scrapping his own) — due **open**; "Let me just think on that" — [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
-- [ ] [[wiki/people/david-sloan.md|David Sloan]] — send ARC staff to see the transactional equipment, or come himself — due **Friday Sept 18 2026** — [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
+- [ ] [[wiki/people/david-sloan.md|David Sloan]] — send ARC staff to see the transactional equipment, or come himself — due **Friday Sept 18 2026** — [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]] — *Oct 13: still pending by Val's account ("David is supposed to bring his technicians")* [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
 - [ ] [[wiki/people/david-sloan.md|David Sloan]] + [[wiki/people/val-levitan.md|Val Levitan]] — reconnect — due **October 15 2026** — [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
 - [ ] [[wiki/people/david-sloan.md|David Sloan]] — establish whether [[wiki/people/bill.md|Bill]] is working on a back-end solution of the same nature as JVL's intent — due unspecified; **not mentioned on Sept 16** — [[raw/Meeting_Notes_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
 
@@ -99,6 +107,7 @@ The pairing — a Dave Sloan who is a "partner in crime" of a Bill who sells kio
 
 ## Sources
 
+- [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
 - [[raw/Meeting_Notes_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]

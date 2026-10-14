@@ -3,7 +3,7 @@ type: decision
 title: Bank of America scope — prior-day reporting by API; ACH debits can only go by NACHA file
 date: 2026-09-08
 aliases: [prior-day reporting only, no ACH debit API, hybrid API-and-file payments, CashPro gating]
-source-count: 2
+source-count: 4
 status: active
 open-questions: 1
 ---
@@ -27,6 +27,10 @@ Two consequences follow from the missing debit API. First, JVL cannot fire an AP
 
 Nothing here is committed yet: the whole path is downstream of Val approving Brooks Darnell's pricing proposal, and Val said there was no urgency. Full detail on [[wiki/organizations/bank-of-america.md]] (Sept 8). [[raw/Meeting_Transcript_Bank_of_America_CashPro_API_Integration-September-8-2026.md]]
 
+## Oct 13 2026 update — ACH starts with manual NACHA file upload
+
+On the [[wiki/meetings/2026-10-13-bank-of-america-cashpro-business-central-source-of-truth-and-customer-ach-portal.md|Oct 13 CashPro call]] Brooks Darnell restated the order of work from Connie — CashPro first, then the sandbox, then the API team gives next steps — and that the main priority from Sept 8 is still API reporting of "prior day balances and transactions" [[raw/Meeting_Transcript_Bank_of_America_CashPro_Business_Central_Source_of_Truth_and_Customer_ACH_Portal-October-13-2026.md]]. On ACH he gave the choices: import a NACHA file from the accounting software, upload it into CashPro and approve it there; or transmit files over a secure connection, which costs more. Val: "that's exactly how we're planning to start" — the manual upload. Brooks: "We can always change that" if volume grows [[raw/Meeting_Transcript_Bank_of_America_CashPro_Business_Central_Source_of_Truth_and_Customer_ACH_Portal-October-13-2026.md]]. The notes record it as decided by Val [[raw/Meeting_Notes_Bank_of_America_CashPro_Business_Central_Source_of_Truth_and_Customer_ACH_Portal-October-13-2026.md]]. **Evolution, not contradiction:** Sept 8 left the file route open between SFTP and manual upload; Oct 13 picks manual upload to start. Wires and the vendor-data rule are on [[wiki/decisions/2026-10-13-business-central-is-the-only-source-of-truth-for-vendor-bank-details-and-wires-take-them-from-it-every-time.md]].
+
 ## Open questions
 
 - Whether JVL brings ACH debits in-house to Bank of America **at all** was explicitly not decided — Nathan called it "worth exploring… as the future, future possibilities." The third party currently absorbs the NACHA work while JVL stays "accountable for all the Notch [NACHA] rules." [[raw/Meeting_Transcript_Bank_of_America_CashPro_API_Integration-September-8-2026.md]]
@@ -35,3 +39,5 @@ Nothing here is committed yet: the whole path is downstream of Val approving Bro
 
 - [[raw/Meeting_Notes_Bank_of_America_CashPro_API_Integration-September-8-2026.md]]
 - [[raw/Meeting_Transcript_Bank_of_America_CashPro_API_Integration-September-8-2026.md]]
+- [[raw/Meeting_Notes_Bank_of_America_CashPro_Business_Central_Source_of_Truth_and_Customer_ACH_Portal-October-13-2026.md]]
+- [[raw/Meeting_Transcript_Bank_of_America_CashPro_Business_Central_Source_of_Truth_and_Customer_ACH_Portal-October-13-2026.md]]

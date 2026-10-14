@@ -3,9 +3,9 @@ type: topic
 title: NOVA platform architecture (JVL land-based gaming platform)
 date: 2026-05-12
 aliases: [NOVA, NOVA platform, NOVA gaming platform, land-based platform, land-based gaming platform, services architecture, library-to-service decomposition, Chief Architect NOVA, Unix-socket services, per-service repositories, packaged games, AMQP CMS protocol, capabilities from prose, prose standard, LGS prose, repo to Jira linkage, module contracts, NOVA integration repository, knowledge repository]
-source-count: 77
-open-commitments: 54
-open-questions: 31
+source-count: 81
+open-commitments: 58
+open-questions: 32
 disambiguation: "NOVA is the named successor of the 'Omni' land-based platform code-word — do not conflate NOVA (this on-cabinet services platform) with the Omni game-templating / Rage→Omni content transition tracked on [[wiki/topics/omni-core-advancement-and-game-templating.md]]."
 ---
 
@@ -655,6 +655,46 @@ This continues the Oct-9 try above. The VP8-versus-VP9 question stays open.
 - [ ] Daniil Stauskiy — measure frame rate and memory on feature 1343 and send a report; find the fastest alpha method — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] and [[wiki/people/alexander-biratka.md|Alexander Biratka]] — ask Igor ([[wiki/people/igor-metelski.md|Igor Metelski]] by context — inference) how alpha and blend modes were solved in the Rage games — due Oct 12 2026 — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
 
+## Oct 13 2026 — the 8-game board needs about 10 GB; free the decoded video or keep it; a memory leak found overnight
+
+At the [[wiki/meetings/2026-10-13-daily-standup-video-decode-memory-and-release-task-type.md|Oct-13 Minsk stand-up]] (Russian) Daniil Stauskiy (no page) said he left a report in the comments of feature "343" (the notes' reading; probably the same feature 1343 as on Oct 9 and Oct 12 — **inference**) [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]:
+
+- **The board and 8 games.** "Я бы не сказал, что эта плата прям очень подходит, особенно для 8 игр" — for 8 games the memory need is "около 10 гигабайт".
+- **Hardware or processor decoding** is still to be decided. If hardware, the team must decide how to free decoded bonus and free-spin videos, which are "почти что по 2 гигабайта". Not freed: about "плюс около трёх гигабайт" per game. Freed: a small freeze ("небольшой зависание") on the first entry into a feature.
+- **A memory leak.** He left a game running overnight and found places where memory leaks; "я уже нашёл где утекает". Pavel: work on the leak now; how to optimise decoding needs a separate sit-down.
+- **Smooth play comes first** ([[wiki/people/alexander-biratka.md|Biratka]]): a small delay when entering a game can be tolerated if there is no other way; "с тормозами в самой игре мы не можем терпеть".
+- **The Rage way** ([[wiki/people/igor-metelski.md|Igor Metelski]]): in Rage they create the video decoders before an animation starts and destroy them when it ends — a micro-freeze, then smooth play. Daniil: the same approach works now, but memory is not freed after the feature ends. His idea: decode the chosen game's videos at the select screen ("порог вот 8 гигабайт, может и хватит для одной игры") and free everything on return to the select screen.
+- Pavel: "возможно, что надо на это отдельно какуюто инвестигейшн tass сделать, как освобождать и как оптимально загружать" — possibly a separate investigation task. No one was assigned [[raw/Meeting_Notes_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]].
+
+This continues the Oct-12 item above: the memory report Daniil owed is now in the feature's comments; the fastest alpha method is not reported.
+
+### Open commitments (Oct 13 2026)
+
+- [ ] Daniil Stauskiy — fix the memory leaks found in the overnight run — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]] — *Oct 14 2026: "закрывал… утечки памяти" (the notes: he fixed them); an AI-created Jira task for the leaks is on him, so it is left open until that task closes* — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+
+### Open questions (Oct 13 2026)
+
+- On the 8-game board: hardware or processor decoding, and free decoded feature video after each feature (a small freeze) or keep it (about 3 GB more per game)? Pavel spoke of a possible investigation task; none was opened on the call — [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]] — *Oct 14 2026: the freeze part is answered — keep the video, decoded at game entry ([[wiki/decisions/2026-10-14-no-freeze-inside-a-game-so-a-games-videos-are-decoded-when-the-game-is-entered.md]]); hardware or processor decoding is not discussed again, so the question stays open* — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+
+## Oct 14 2026 — leaks fixed and Pixi 8.22; two Jira tasks; videos decoded at game entry; about 5 South Dakota games for the RK3576
+
+At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-library.md|Oct-14 Minsk stand-up]] (Russian) Daniil Stauskiy (no page) [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]:
+
+- **Leaks and Pixi.** "Занимался оптимизацией, закрывал… утечки памяти"; along the way he found the Pixi version could be raised and moved it to "8 22" (the notes: version 8.22). He asked for a separate task for the version upgrade.
+- **Two Jira tasks.** Pavel: after the talk the day before, the AI had already opened a task for the leaks, in a Jira project whose key is garbled ("ne… Анси один"); it is not on the team's dashboard, and "надо будет, чтобы дима добавил" — [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] by context (the notes say so). A second task covers the Pixi upgrade. The notes list both tasks as Pavel's decision [[raw/Meeting_Notes_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]].
+- **What the board is for.** Pavel explained it for [[wiki/people/anton-leshkevich.md|Anton Leshkevich]]: the ARM platform "р к 35 76" is "относительно дешёвая, компактная, малопотребляющая", for cheap machines — "то, что вал называет стрит"; "saus do cota" (South Dakota) and Texas. Leshkevich: "Это, которые вне казино ставится." Pavel: yes. One expected limit is 8 GB of memory. See [[wiki/decisions/2026-09-14-the-street-cabinet-board-is-the-rk3576-not-the-rk3568.md]] (Oct-14 update).
+- **Video.** The decoder did not support VP8, so Daniil re-encoded to VP9 with alpha built in. When to decode is now ruled: at game entry, never on the way into a feature — [[wiki/decisions/2026-10-14-no-freeze-inside-a-game-so-a-games-videos-are-decoded-when-the-game-is-entered.md]]. About 5 games may fit in 8 GB; 8 may not.
+- **The next step — a library of about 5 games.** Pavel wants to talk with "Игорь" and split the work among Igor, Anton and Daniil: take the games "которые сейчас на реййд" for South Dakota (the Rage platform by context; the notes read "RAID"), "конвертировать их с помощью искусственного интеллекта, включая ресурсы, включая видео в нова вертикальные игры", and "пробовать вот сделать хотя бы какуюто библиотеку из 5 игр" on this processor. Anton must look at which South Dakota game he can take now. Pavel may call Igor later that day so Igor explains the scripts he uses to convert horizontal games to the other platform. Igor = [[wiki/people/igor-metelski.md|Igor Metelski]] by context, since he ports Rage games to NOVA (**inference**). The Anton is likely Leshkevich, whom Pavel had just briefed (**inference**; the notes ask Val to confirm).
+- **Close.** Pavel: "Антону надо сегодня подобрать какуюто игру"; tasks for that game follow.
+
+This continues the Oct-13 item above. The Oct-13 question on freeing or keeping decoded video is answered for the freeze part: keep it, decoded at game entry. Hardware versus processor decoding was not discussed again.
+
+### Open commitments (Oct 14 2026)
+
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — talk with Igor (Metelski by context — inference) and split the RK3576 game conversion among Igor, Anton and Daniil; have Igor explain his conversion scripts — due Oct 14 2026 ("сегодня чуть попозже", maybe) — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [ ] Anton (Leshkevich likely — inference; the notes ask Val to confirm) — pick the South Dakota game to convert and try on the RK3576; tasks for that game follow — due Oct 14 2026 — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — add the AI-created leak task to the team dashboard — due unspecified — [[raw/Meeting_Notes_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]
@@ -735,3 +775,7 @@ This continues the Oct-9 try above. The VP8-versus-VP9 question stays open.
 - [[raw/Meeting_Notes_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]

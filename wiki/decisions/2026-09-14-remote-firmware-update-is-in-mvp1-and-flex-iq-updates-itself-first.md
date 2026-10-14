@@ -3,9 +3,9 @@ type: decision
 title: Remote firmware update is in MVP 1 — Flex IQ and FlexPay update themselves first; distributing firmware to the Flex-Ports left MVP 1 on Sept 17 and came BACK into MVP 1 on Sept 28, when the date moved to October 15
 date: 2026-09-14
 aliases: [firmware upgrade in MVP1, capability 146, PORT-13, remote FlexPort update back in MVP1, remote firmware update, OTA firmware, приоритет номер один это чтобы обновлялся флекс ай кю, flash the FlexPorts, Flex IQ to FlexPort protocol, доперфек, priority two deferred, FlexPort firmware by USB stick, capability 144 to MVP2, capability 144 cloned, no rollback, roll forward only, requirement 1367]
-source-count: 20
+source-count: 22
 status: active — priority two (remote update of the Flex-Ports) left MVP 1 on Sept 17 2026 and RETURNED to MVP 1 on Sept 28 2026 (capability 146); rolling BACK to a previous build stays out of MVP 1 (Sept 18 2026); the delivery design is still open as of Oct 1 2026 (parked "to tomorrow" on Sept 30 and not taken up on Oct 1); see the dated updates below
-open-commitments: 6
+open-commitments: 8
 open-questions: 3
 ---
 
@@ -182,6 +182,17 @@ At the [[wiki/meetings/2026-10-05-transactional-mvp1-port-screens-unclaimed-mone
 - **Secrets wipe.** On the [[wiki/meetings/2026-10-09-transactional-mvp1-test-machines-and-unclaimed-funds.md|8:01 AM call]] Chudinov: a terminal registered before keeps its old secrets, so "мы не создадим новые сертификаты для. Обновление через облако" — see [[wiki/decisions/2026-10-09-a-terminal-registered-before-must-wipe-its-secrets-and-the-install-instruction-says-so-in-red.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]].
 - **The bootloader on new boards.** Khamin: "На новых платах ничего не работает"; the fix from the firmware memory changes is not in the repository. Pavel will write to the developer ("алексеевым" — Alekseev by context, **inference**) [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]].
 
+## Update, Oct 14 2026 — for the 15th the Flex-Port update must work at least by USB stick; Alekseev promised a build that evening
+
+At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-library.md|Oct-14 Minsk stand-up]] (Russian) [[wiki/people/pavel.md|Pavel]] said he had caught [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] two days before ("От Евгения Алексеева я его всётаки выловил. Позавчера") and reminded him: "у нас к релизу 15 числа надо, чтобы работало обновление софта на flex портах хотя бы через ю с бстик." Alekseev "обещал выкатиться версию сегодня вечером." The first thing on the morning of the 15th is to check that the port firmware goes by USB — "это больше для лёши" ([[wiki/people/alexei-khamin.md|Khamin]]). Without it "мы вообще как бы обновлять порты не в состоянии будем. Только он там кабелем прошивать" [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]].
+
+This fits the Sept-17 fallback above (a USB stick when remote update is not ready) and the Oct-9 RAUC route. Whether the Oct-14 build is the bootloader fix for the new boards (Oct 9) is **not said**.
+
+### Open commitments (Oct 14 2026)
+
+- [ ] [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] — release the Flex-Port build that updates firmware by USB stick — due Oct 14 2026 (evening), as promised to Pavel — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] and [[wiki/people/pavel.md|Pavel Frolov]] — first thing in the morning, check that the Flex-Port firmware update works by USB stick — due Oct 15 2026 — [[raw/Meeting_Notes_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
@@ -204,3 +215,5 @@ At the [[wiki/meetings/2026-10-05-transactional-mvp1-port-screens-unclaimed-mone
 - [[raw/Meeting_Notes_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]

@@ -3,7 +3,7 @@ type: decision
 title: The urgent RIS changes (CAP-252, 255, 246, 254) are built for Georgia only, on the 1.14 SVN line, with nothing else added — Kharetski does them before his own work, and the statistics carousel is dropped for this branch
 date: 2026-10-06
 aliases: [RIS Georgia branch, Georgia only 1.14 branch, 1.14 plus these changes and nothing else, continuation of Peach 3, carousel for Liza dropped, карусель для лизы, statistics only when scanned, срочные задачи о доработке рис и паспорта]
-source-count: 10
+source-count: 13
 status: active
 open-commitments: 5
 open-questions: 1
@@ -75,6 +75,27 @@ Which release "до 22" names is **unclear** (the object is garbled). Reading ta
 
 - [ ] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — finish 1241 (number unclear) and test it himself — due before Oct 22 2026 — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
 
+## Update, Oct 13 2026 — Kharetski closes "1241"; why "RIS" is in the release name; a separate meeting after lunch
+
+At the [[wiki/meetings/2026-10-13-daily-standup-video-decode-memory-and-release-task-type.md|Oct-13 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]:
+
+- **[[wiki/people/evgeny-kharetski.md|Kharetski]]:** "12 41 я закрою сейчас" — he will close 1241 now and test while Ivan is busy. Whether it is closed is not in this source, so the Oct-12 commitment above stays open.
+- **The evening topic goes to its own meeting.** [[wiki/people/irina-shishko.md|Irina]] asked whether Kharetski should wait, since what was discussed the evening before might change things. Pavel: "то, что мы вчера вечером обсуждали, мы это отдельно соберёмся после обеда."
+- **[[wiki/people/sergey-tsymanov.md|Tsymanov]]** took the task discussed the evening before and said it needs a separate meeting. He does not see "при чём здесь рис ну конкретно в данной задаче". Pavel: "так повелось, что этот релиз назвали там рисом… только по этой причине." Reading this release as the RIS MVP 1 line on this page is an **inference**; the transcript does not name the line. What the evening topic was is not said.
+
+### Open commitments (Oct 13 2026)
+
+- [x] [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]], [[wiki/people/irina-shishko.md|Irina Shishko]], [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — a separate meeting on the evening-before task, with Tsymanov's questions as a list — due Oct 13 2026 (after lunch) — [[raw/Meeting_Notes_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]] — **discharged Oct 13 2026, as reported on Oct 14**: Pavel spoke of "вчера… двухчасовой митинг с Сергеем Димой и ирой", "назначен в 04:30"; that it is this meeting is an **inference** from the people named — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+
+## Update, Oct 14 2026 — Kharetski finishes the passport work and tests the battery (task 246); MVP 1 to about November 8–9; the two-hour meeting was held
+
+At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-library.md|Oct-14 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]:
+
+- **[[wiki/people/evgeny-kharetski.md|Kharetski]].** He finished the passport work the day before ("закончил вчера… паспорта"; the verb is garbled). That this is work on this branch is an **inference** from his assignment here. He tested it on a real machine himself: all devices report. One problem: some devices are detected as missing at once, others only after work; in some places it is a hardware limit, in others the library. With little time, he left the device logic as it is — changing it "достаточно серьёзная вещь". Today he tests the battery — task 246 — with a sub-task for the test. Then MVP 2 tasks.
+- **The date.** Pavel extended MVP 1 to about November 8 or 9, with the MVP 2-marked tasks inside it; the team still delivers the old version, the one first cut — [[wiki/decisions/2026-10-14-mvp1-is-extended-to-about-november-8-or-9-and-the-mvp2-marked-tasks-are-done-inside-it.md]] (read as this RIS line — **inference**). The Georgia-only, 1.14-line scope of this page is not changed.
+- **The separate meeting.** Pavel spoke of a two-hour meeting the day before with Sergey, Dima and Ira, scheduled at 4:30 — read as the Oct-13 "after lunch" meeting (**inference**). Tsymanov: after "последних нашего обсуждения" a plan for building his task (heard as "бип 35 22") must be discussed. The meeting itself is not in the corpus.
+- **1241** is not mentioned; the Oct-12 commitment stays open.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
@@ -87,3 +108,6 @@ Which release "до 22" names is **unclear** (the object is garbled). Reading ta
 - [[raw/Meeting_Notes_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]

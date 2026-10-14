@@ -3,7 +3,7 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention, installment payments, aged receivables, Customer Ledger Entries, category-based terms, subscription module, parts vs machines terms, Black Horse Entertainment, Sales Watch, import duties tax category, landed cost, tax category, assembly BOM, production BOM, BOM history, BOM sync robot, tag stamp on item card]
-source-count: 82
+source-count: 86
 open-questions: 5
 ---
 
@@ -486,6 +486,22 @@ At the [[wiki/meetings/2026-10-09-github-msbc-agent-bom-assembly-and-pay-slim-fi
 
 Ruling: [[wiki/decisions/2026-10-09-the-georgia-flex-pay-slim-bom-is-built-forward-from-genadis-github-source-by-agent-and-script-with-human-approval-by-end-of-october.md]].
 
+## Oct 13 2026 (3:32 PM) — Business Central is the source of truth for vendor bank details
+
+On the [[wiki/meetings/2026-10-13-bank-of-america-cashpro-business-central-source-of-truth-and-customer-ach-portal.md|Oct 13 Bank of America CashPro call]] Val ruled that vendor bank data for wires comes from Business Central every time: "the source of truth. For vendors is residing in Business Central." Today staff change a supplier's bank details in the bank template and leave BC unchanged; he wants "Business Central to drive… The the template", with no template living at the bank and no manual entry. Brooks Darnell doubted the bank can pull from BC and will ask its specialist. ACH starts with a NACHA file exported from the accounting software and uploaded into CashPro. Rulings: [[wiki/decisions/2026-10-13-business-central-is-the-only-source-of-truth-for-vendor-bank-details-and-wires-take-them-from-it-every-time.md]] and [[wiki/decisions/2026-09-08-bofa-scope-prior-day-reporting-ach-debits-by-file.md]] (Oct-13 update); the customer payment portal is on [[wiki/decisions/2026-10-13-customers-start-their-own-recurring-ach-payments-through-a-portal-against-a-signed-agreement.md]] [[raw/Meeting_Transcript_Bank_of_America_CashPro_Business_Central_Source_of_Truth_and_Customer_ACH_Portal-October-13-2026.md]].
+
+## Oct 13 2026 (4:32 PM) — procurement reports only from MSBC; consultant builds, Nathan links endpoints into MCP
+
+On the [[wiki/meetings/2026-10-13-github-msbc-ai-bom-control-gate-and-msbc-only-reports.md|Oct 13 "GitHub-MSBC" meeting]] (Russian) [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]:
+
+- **One source for reports.** Val: the only source of truth for procurement is MSBC — prices, quantities, the physical count; reports come "Только из MSBC не из гетхаба. Ниоткуда." The Excel-export report Lev built for Mikhail Perelman must go.
+- **What MSBC lacks.** Vendors do not send a transport invoice when they ship, because JVL does not ask, so MSBC does not know transit time and JVL does not know when to order. Genadi listed revision, shipping date and transit duration as fields a good report needs.
+- **Who builds.** The MSBC consultant builds "академически правильно" reports and names the endpoints; Nathan links them "через API в MCP". Val is "На 70%" sure a report inside MSBC will still be needed.
+- **Vendor data.** Each vendor's administrative and financial data should come from the vendor into MSBC in a loadable format; joining it with the technical data from GitHub is what does not work today.
+- **Cost of the platform.** Val: "Microsoft нам стоит $100 на на юзерах"; leaving Microsoft is "через какието годы", not now.
+
+Rulings: [[wiki/decisions/2026-10-13-procurement-reports-come-only-from-msbc-and-the-excel-export-report-goes-away.md]] and [[wiki/decisions/2026-10-13-the-agent-builds-the-bom-as-a-control-gate-taught-by-data-contracts-not-cad-and-genadi-finds-why-it-is-wrong.md]] (the BOM stream, kept separate).
+
 ## Sources
 - [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
@@ -571,3 +587,7 @@ Ruling: [[wiki/decisions/2026-10-09-the-georgia-flex-pay-slim-bom-is-built-forwa
 - [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
 - [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Bank_of_America_CashPro_Business_Central_Source_of_Truth_and_Customer_ACH_Portal-October-13-2026.md]]
+- [[raw/Meeting_Notes_Bank_of_America_CashPro_Business_Central_Source_of_Truth_and_Customer_ACH_Portal-October-13-2026.md]]
+- [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
+- [[raw/Meeting_Notes_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]

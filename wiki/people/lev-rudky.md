@@ -3,7 +3,7 @@ type: person
 title: Lev Rudky
 date: 2024-01-01
 aliases: [Lev Rudky, Lev, Lev Rudki, Лёва Рудки, Лёва, лева]
-source-count: 19
+source-count: 21
 open-commitments: 1
 ---
 
@@ -73,6 +73,10 @@ Full record on [[wiki/topics/business-central-erp-implementation.md]] (Oct 1 202
 
 - [ ] Lev Rudky — find every item in the missed block of July count data, post the missing inventory adjustments in Business Central (skipping items recounted since July), and send Mikhail the file — due Oct 1 2026 ("закончить сегодня") — [[raw/Meeting_Transcript_Lev_Rudky_Missed_Inventory_Adjustments-October-1-2026.md]]
 
+## Oct 13 2026 (in absentia) — the Excel report goes; he and his consultant are the report side
+
+At the [[wiki/meetings/2026-10-13-github-msbc-ai-bom-control-gate-and-msbc-only-reports.md|Oct 13 "GitHub-MSBC" meeting]] Val said Lev had made Mikhail Perelman a report exported from MSBC to Excel, against Val's wish, and that this report must go — reports come only from MSBC. Val: "лёва знает, какую информацию недостаточно" and "лёва очень хорошо разбирается, что административно… у нас не хватает". Genadi is to sit with him this week to define the procurement reports and list the gaps; the consultant Lev works with builds the reports in MSBC and names the endpoints — Val thinks Lev may know most of it himself. See [[wiki/decisions/2026-10-13-procurement-reports-come-only-from-msbc-and-the-excel-export-report-goes-away.md]] [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Lev_Rudky_Missed_Inventory_Adjustments-October-1-2026.md]]
@@ -95,3 +99,5 @@ Full record on [[wiki/topics/business-central-erp-implementation.md]] (Oct 1 202
 - [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
 - [[raw/Business Central Migration Update.md]]
 - [[raw/BC-JVL_Labs-November-28-2025.md]]
+- [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
+- [[raw/Meeting_Notes_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]

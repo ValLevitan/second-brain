@@ -6,7 +6,7 @@ aliases: [Bill, ARC kiosk vendor, the kiosk guy, Bill's kiosk, Bill Nader (provi
 source-count: 4
 open-commitments: 0
 open-questions: 4
-disambiguation: "The kiosk-company owner who supplies ARC Gaming's kiosks and is a long-standing partner and friend of ARC CEO David Sloan — resolve by the ARC / Georgia-kiosk-vendor context. He is NOT [[wiki/people/billy-liu.md|Billy Liu]] (Play Payments) and not [[wiki/people/will-jones.md|Will Jones]]; no surname appears anywhere in the corpus. A candidate surname — "Bill Nader" of Gaming Solutions Corporation, from the 2026-09-11 Digital Cash Processing call — matches on four points and is recorded in the Sept-11 section below, but is NOT asserted and NOT merged; owner ruling pending."
+disambiguation: "PROVISIONAL (owner ruling pending) — 'Bill' cluster: Bill Avgeris [[wiki/people/bill-avgeris.md]] (Intralot) · Bill [[wiki/people/bill.md]] (ARC kiosk vendor). Resolve by context: Intralot / site controller / lab / Lottery testing → Bill Avgeris; ARC kiosks / David Sloan → the kiosk vendor; a 'Bill' fitting neither stays unresolved and is queued. Page note: The kiosk-company owner who supplies ARC Gaming's kiosks and is a long-standing partner and friend of ARC CEO David Sloan — resolve by the ARC / Georgia-kiosk-vendor context. He is NOT [[wiki/people/billy-liu.md|Billy Liu]] (Play Payments) and not [[wiki/people/will-jones.md|Will Jones]]; no surname appears anywhere in the corpus. A candidate surname — "Bill Nader" of Gaming Solutions Corporation, from the 2026-09-11 Digital Cash Processing call — matches on four points and is recorded in the Sept-11 section below, but is NOT asserted and NOT merged; owner ruling pending."
 ---
 
 # Bill (ARC's kiosk vendor)

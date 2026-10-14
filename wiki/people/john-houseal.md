@@ -2,8 +2,8 @@
 type: person
 title: John Houseal
 date: 2025-07-01
-aliases: [John Houseal, John, "John of InComm", head of the Coin Card division, "John from Income", "John from InComm", "John Hasil", Housel, "John Hassel"]
-source-count: 12
+aliases: [John Houseal, John, "John of InComm", head of the Coin Card division, "John from Income", "John from InComm", "John Hasil", Housel, "John Hassel", John Hauser]
+source-count: 14
 open-questions: 1
 disambiguation: "InComm's product-development / route-gaming lead — the 'John' who leads the InComm↔JVL relationship (gift-card / COAM payment products). Distinct from Allen Lee (the InComm 'Alan', technical/API contact) and other InComm reps (Adam, Jared, Billy, Susanne). Resolve by context: InComm product strategy / market / roadmap → Houseal."
 ---
@@ -69,12 +69,21 @@ Val phoned him after hearing he had left. All from [[raw/Meeting_Transcript_InCo
 
 **§15.8 exclusion:** the personal reason John gave for leaving concerns his pay and is **not recorded** here [[raw/Meeting_Notes_InComm_John_Exit_and_Blue_Card_Hold-September-25-2026.md]].
 
+## Oct 13 2026 (in absentia) — his offers, put back to InComm
+
+On the [[wiki/meetings/2026-10-13-incomm-prize-play-reset-agreement-scope-and-cash-dispense.md|Oct-13 InComm call]] Val told Jason of InComm: "I had conversations with John that InComm will guarantee the those transactions that have not been paid… The other conversation was that InComm would pay me half a percent of all the money being held in accounts." Jason: "I know about that last one." Val wants both put on the written agreement — [[wiki/decisions/2026-10-13-new-incomm-terms-go-onto-the-existing-written-agreement.md]]. Reading this "John" as Houseal is an **inference** (InComm, the half-percent offer). Val's "Joe Kim" lines on the same call may also be meant for him — see [[wiki/people/joe-kim.md]] (Oct 13) [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]].
+
+## Oct 13 2026 (in absentia) — "he gave his notice one year ago"
+
+At the [[wiki/meetings/2026-10-13-arc-zazanis-lunch-trade-in-and-2027-volume.md|Oct-13 ARC lunch]], [[wiki/people/georgios-zazanis.md|George Zazanis]] asked whether "John Hauser" (read as Houseal — **inference**) quit or was pushed out. Val: "**He told me he quit… he gave his notice one year ago**", and "**I think he is focusing on making his own money.**" George had lunch with him "**maybe two or three times**" and met him "**when I was in Intralot**" [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]].
+
 ## Open questions
 
 - **Where did John Houseal go after InComm?** *(Updated Sept 25: the exit itself is now confirmed first-hand — his last day was Sept 25 [[raw/Meeting_Transcript_InComm_John_Exit_and_Blue_Card_Hold-September-25-2026.md]].)* Only Billy's second-hand Sept-22 account names Bulldog; John said he could share his new role "in the next week" — [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]] [[raw/Meeting_Transcript_InComm_John_Exit_and_Blue_Card_Hold-September-25-2026.md]]
 
 ## Sources
 
+- [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
 - [[raw/Meeting_Notes_Bill_Recycler_ATM_Registration-July-9-2026.md]]
 - [[raw/Flex-Port-use_case-August-6-2025.md]]
@@ -87,3 +96,4 @@ Val phoned him after hearing he had left. All from [[raw/Meeting_Transcript_InCo
 - [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]
 - [[raw/Meeting_Notes_InComm_John_Exit_and_Blue_Card_Hold-September-25-2026.md]]
 - [[raw/Meeting_Transcript_InComm_John_Exit_and_Blue_Card_Hold-September-25-2026.md]]
+- [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]

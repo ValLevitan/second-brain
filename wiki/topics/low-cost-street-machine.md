@@ -3,7 +3,7 @@ type: topic
 title: Low-cost street machine (sub-$2,000 street cabinet program)
 date: 2026-06-09
 aliases: [street machine, machine-width video deck, 10-degree play panel, golden mark, Light and Wonder panel on an arm, pull-out electronics shelf, street cabinet, Sept 16 board spec, ID003 and ccTalk, eye level electronics, halo light, plywood cabinet, cup holders, low-cost street machine, low-cost street cabinet, street slot machine, sub-$2000 street machine, RK3588 street machine, stripped street cabinet, Flex S, флекс эс, стрит машина, RK3576 street machine, wooden monolithic body, wood or metal, price both then decide, three containers, 7000 square feet, deeper cabinet, fixed dashboard, slide-down panel, fold-down door, plastic is out, kitchen-cabinet makers, pedestal split, devices onto the panel, dashboard halved, 27-inch panel, electronics drawer, why the FlexPort at all, too early for Igor]
-source-count: 29
+source-count: 32
 open-commitments: 6
 open-questions: 6
 ---
@@ -289,6 +289,20 @@ The derived notes carry the same points and leave Val's one-device word blank [[
 
 On the [[wiki/meetings/2026-10-08-genadi-bom-standard-flex-slim-metal-mikhail-hand-over-and-data-contracts.md|Oct 8 3:59 PM alignment call]] Genadi raised the street cabinet: "вы сказали жди." He said a hinged door and a drop-down one can both be made, and reminded Val that the pictures with Igor (read as [[wiki/people/igor-starovoytov.md|Igor Starovoytov]], inference) wait on Val's call on the configuration — printer, its fitting, "кабинет [more] слим или нет?" — "вы сказали, холдон." Val did not reopen it; he moved the week's focus to the BOM work [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]. The notes list it as still on hold [[raw/Meeting_Notes_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]].
 
+## Oct 13 2026 — the street machine as Val described it to Intralot
+
+At the [[wiki/meetings/2026-10-13-intralot-machine-lockouts-test-lab-and-route-partnership.md|Oct-13 meeting at Intralot]], pitching to [[wiki/organizations/intralot.md|Intralot]]'s route plans, Val said: "**We're manufacturing a machine, a budget machine, strictly for street operation. No bells and whistles. Yeah. No bill acceptor. No printer. Just one player system. Screen panel. Very very budget. But something that will allow us to, with, sell modems inside, that we could download the software.**" [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
+
+This is an outside sales description, not a design meeting. It does not match the Sept-25 ruling that the cabinet carries a printer and a TITO front-load bill acceptor — see the open contradiction below.
+
+## Oct 13 2026 (afternoon) — the same idea pitched to ARC as a $3,000 Class A machine
+
+At the [[wiki/meetings/2026-10-13-arc-zazanis-lunch-trade-in-and-2027-volume.md|Oct-13 ARC lunch]], Val described a "**slim machine that nothing really breaks, that has a modem built in. You could upload new games**", with no bill acceptor and no printer, "**because it needs to be a very cheap machine. Bill acceptor and printer is expensive**". His target: "**three thousand dollars plus portion of the revenue**" for Class A. ARC's COO was not sure it would work. Whether this is the same cabinet as this page's street machine is an **inference** from the matching description; see [[wiki/topics/georgia-class-a-machines.md]] (Oct 13) [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]].
+
+## Oct 14 2026 — the board's software: a library of about 5 converted South Dakota games, and no freeze inside a game
+
+At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-library.md|Oct-14 Minsk stand-up]] (Russian) [[wiki/people/pavel.md|Pavel]] described the RK3576 as cheap, compact and low-power, for "то, что вал называет стрит" — South Dakota and Texas, outside casinos. Daniil has been running the new games on it; the limit is 8 GB. The next try is to convert South Dakota games now on Rage into NOVA vertical games with AI and fit a library of about 5 [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]. Videos are decoded at game entry so nothing freezes inside a game — [[wiki/decisions/2026-10-14-no-freeze-inside-a-game-so-a-games-videos-are-decoded-when-the-game-is-entered.md]]. Detail on [[wiki/topics/nova-platform-architecture.md]] (Oct 14). The cabinet itself was not discussed.
+
 ## Open commitments
 
 - [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — review the market for a long, machine-width touchscreen for the video deck — due unspecified ("я должен ребеью маркет") — [[raw/Meeting_Transcript_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]] — *Sept 25: first prices reported (~$100 at ~30 cm, ~$180 at 21.5 length); he will talk to the supplier again* [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
@@ -311,12 +325,14 @@ On the [[wiki/meetings/2026-10-08-genadi-bom-standard-flex-slim-metal-mikhail-ha
 
 ## Open contradictions
 
+- **Printer and bill acceptor — in or out?** Sept 25 2026 (Russian, to Genadi): keep the cabinet deep "чтобы влез принтер", with a TITO front-load acceptor — [[wiki/decisions/2026-09-25-the-street-cabinet-goes-deeper-so-the-printer-and-a-tito-front-load-acceptor-sit-on-a-fixed-dashboard.md]] [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]. Oct 13 2026 (English, to Intralot): "**No bill acceptor. No printer.**" [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]. It may be a base model against an option, but no source says so. Recorded, not resolved.
 - **Video deck in the basic machine — two statements on the same day.** Sept 25, 2:32 PM (English, to the game team): "**the basic machine will go without**", with "a provision just in case we source the right screen" [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]. Sept 25, 3:16 PM (Russian, to Genadi): "Авидок стоит нам $120. То, скорее всего, мы пойдем на вида" [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]. The later one may follow from Genadi's prices, but the source does not say so. Both recorded; not resolved.
 
 *§15.8: board, component, cabinet and build-cost economics only; one comparative remark about a named colleague's board work was excluded. No named-person compensation.*
 
 ## Sources
 
+- [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
 - [[raw/Meeting_Notes_Low_Cost_Street_Machine_Design-June-8-2026.md]]
 - [[raw/Meeting_Notes_Low_Cost_Street_Cabinet_Platform-June-9-2026.md]]
 - [[raw/Meeting_Notes_Street_Machine_Industrial_Design-June-9-2026.md]]
@@ -346,3 +362,5 @@ On the [[wiki/meetings/2026-10-08-genadi-bom-standard-flex-slim-metal-mikhail-ha
 - [[raw/Meeting_Transcript_IO_Board_Memory_Chip_Removal_and_Redesign-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
 - [[raw/Meeting_Notes_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]

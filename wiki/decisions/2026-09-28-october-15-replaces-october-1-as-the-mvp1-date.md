@@ -3,7 +3,7 @@ type: decision
 title: October 15 replaces October 1 as the working MVP 1 date — Val asks for the final state by then "if possible", while the autotest estimate runs to October 23
 date: 2026-09-28
 aliases: [October 15 MVP1, MVP1 moves to October 15, сдвигаем на 15 октября, 15 число это реальная дата, final state October 15, 95 percent is fine, autotests until October 23, trial batch of ten locations, пробную партию 10, все остальные вопросы придерживаем, hold all other questions]
-source-count: 9
+source-count: 10
 status: active
 open-commitments: 3
 open-questions: 1
@@ -70,6 +70,15 @@ October 15 is restated as the aim, still with "если это получитс�
 - **Tests.** At the 4:46 AM stand-up Pavel: tests "к 15 числу по большому закроются"; Irina: "На 80 может быть" — under the rule of [[wiki/decisions/2026-10-09-tests-to-october-15-follow-80-20-and-port-machine-and-iq-tests-come-before-cloud-tests.md]] [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]].
 - **First borrowed machines** Oct 15–16: [[wiki/decisions/2026-10-09-first-borrowed-operator-machines-are-arranged-for-october-15-16.md]].
 
+## Note, Oct 14 2026 — the 15th still stands for the transactional release; the "MVP 1 extension" heard the same morning is read as the RIS MVP 1
+
+At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-library.md|Oct-14 Minsk stand-up]] (Russian), the day before the date:
+
+- Khamin wants a real-hardware test run "ближе к MP один окончанию"; [[wiki/people/pavel.md|Pavel]]: "Куда уже куда уже ближе завтра 15 число." Pavel also spoke of "релизу 15 числа", for which the Flex-Port update must work at least by USB stick — [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Oct-14 update) [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]].
+- Later in the same stand-up Pavel said MVP 1 is extended "до 8 наверное да или до 9 ноября", with the MVP 2-marked tasks inside it. It was said to Kharetski about the old-version branch, so it is read as the **RIS improvement** MVP 1, not this one (**inference**) — [[wiki/decisions/2026-10-14-mvp1-is-extended-to-about-november-8-or-9-and-the-mvp2-marked-tasks-are-done-inside-it.md]]. If the owner rules otherwise, this decision is superseded.
+
+So this source does **not** move October 15. Its status stays active.
+
 ## Sources
 - [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
@@ -80,3 +89,4 @@ October 15 is restated as the aim, still with "если это получитс�
 - [[raw/Meeting_Notes_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]

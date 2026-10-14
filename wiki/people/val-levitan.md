@@ -3,8 +3,8 @@ type: person
 title: Val Levitan
 date: 2026-07-12
 aliases: [Val, Val Levitan]
-source-count: 422
-open-commitments: 77
+source-count: 424
+open-commitments: 79
 open-questions: 1
 ---
 
@@ -1641,6 +1641,26 @@ At the [[wiki/meetings/2026-10-08-dragon-pays-vertical-accepted-and-dutch-mill-p
 
 At the [[wiki/meetings/2026-10-08-game-design-class-a-party-time-and-dual-box.md|Oct-8 12:00 PM game-design meeting]] (English) he asked where Class A legislative requirements could be found (none were), pointed out that a party-time win "could be less than 50. It cannot be more than 50", and asked whether the requirements would really be ready by October 16. Michael credited him with placing the dual box lower, above the button panel; he asked for the dual box in Georgia too and said he favours it — [[wiki/decisions/2026-10-08-class-a-party-time-may-start-on-the-paid-spin-after-free-spins-and-lions-riches-is-the-single-target.md]] [[wiki/decisions/2026-10-08-dual-box-for-nebraska-class-a-and-georgia-five-reel-and-no-smaller-touch-area-for-the-wrong-coin.md]] [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
 
+## Oct 13 2026 (9:54 AM) — first face-to-face at Intralot: "technically out of service"; ten machines to the lab; a route partner
+
+At the [[wiki/meetings/2026-10-13-intralot-machine-lockouts-test-lab-and-route-partnership.md|Oct-13 meeting at Intralot]] — his first visit there — he said JVL's problem is technical, not the games: "**My software does make money. It is a good software. What I am now putting my finger on is that machines get. I'm going to call it technically out of service.**" He was careful not to blame Intralot: "**I'm not blaming anybody… I'm blaming only myself.**" He put JVL's machine sales as falling "**from consistently, I don't know, six seven hundred machines a year to almost zero**". What set off the visit: a business developer for **Dreams** (a Chilean group studying the Georgia market) sent him photos of JVL machines out of service at location after location [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]].
+
+- He got a ten-machine test in Intralot's lab, starting now — [[wiki/decisions/2026-10-13-ten-jvl-machines-go-into-intralots-lab-now-without-waiting-for-the-lottery.md]].
+- He will write to the Lottery for a site controller or lab testing — [[wiki/decisions/2026-10-13-val-asks-the-lottery-in-one-letter-for-a-site-controller-or-testing-at-intralot.md]].
+- He said JVL's RTP, "**roughly at ninety - five percent**", is too high and "**We'll adjust it**" — [[wiki/decisions/2026-09-25-georgia-machines-go-out-at-92-percent-and-the-progressive-tops-are-2400-2400-1500.md]] (Oct-13 note).
+- He told the Lottery "**We're not offering recycling**" — [[wiki/decisions/2026-09-02-hold-the-recycler-back-but-sign-no-undertaking.md]].
+- He learned for the first time that the million-dollar report spikes stay out of the averages: "**I thought it goes inside of the calculation. This is something that I'm learning now.**" — [[wiki/topics/machine-data-repurchase-program.md]].
+- Told of Intralot's route plans, he said "**we're trying to do the same thing**" and "**I will happily participate with you in meetings**"; Wyoming interests him most. Nothing is signed — [[wiki/organizations/intralot.md]].
+
+## Open commitments (Oct 13 2026, Intralot)
+
+- [ ] Val Levitan — send the Georgia Lottery the formal letter with two options: a site controller in JVL's possession, or testing at Intralot's lab — due unspecified — [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
+- [ ] Val Levitan / JVL — send ten machines to Intralot's lab to fill its ten ports — due unspecified — [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
+
+## Oct 13 2026 (12:15 PM) — "press a reset button" with InComm; the dispenser removed; new terms on the paper agreement
+
+On the [[wiki/meetings/2026-10-13-incomm-prize-play-reset-agreement-scope-and-cash-dispense.md|Oct-13 InComm call]] with Jason of InComm, Val parked the past disputes, said JVL is "a technology, hardware technology provider" and not a clearinghouse, and said "I have removed the capability of the dispenser… to comply with legislative interpretation". He also said he would add the feature back once the Skill Pay card returns, and would fight any limit set by another private company rather than by law. They agreed to launch on Prize Play first — [[wiki/decisions/2026-10-13-incomm-and-jvl-reset-the-relationship-and-launch-on-prize-play-first.md]]. He asked for the written agreement so both work from one template, and wants InComm's guarantee and half percent put on it — [[wiki/decisions/2026-10-13-new-incomm-terms-go-onto-the-existing-written-agreement.md]] [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
@@ -2072,3 +2092,5 @@ At the [[wiki/meetings/2026-10-08-game-design-class-a-party-time-and-dual-box.md
 - [[raw/Meeting_Notes_AI_Chief_System_Architect_Gap_Finding_Task-October-8-2026.md]]
 - [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]
 - [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
+- [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]
+- [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]

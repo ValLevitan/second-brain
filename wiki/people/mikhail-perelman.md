@@ -4,7 +4,7 @@ title: Mikhail Perelman
 date: 2026-07-13
 aliases: [Mikhail Perelman, Misha, Миша, Mikhail, Michael]
 disambiguation: "Procurement Manager (parts/vendors/shipments; the retrofit-lead "Misha"). Misha/Michael cluster (2, owner-ruled): [[wiki/people/michael-gottlieb.md|Michael Gottlieb]]=Senior VP Game Design / [[wiki/people/mikhail-perelman.md|Mikhail Perelman]]=Procurement Manager (the "retrofit Misha"). Resolve by context; queue if none."
-source-count: 22
+source-count: 24
 open-commitments: 5
 open-questions: 3
 ---
@@ -149,6 +149,10 @@ Named throughout the [[wiki/meetings/2026-10-08-genadi-bom-standard-flex-slim-me
 
 **§15.8 / §15 #1:** no reason for leaving was given and none is recorded; remarks judging his work and any personal detail are not recorded.
 
+## Oct 13 2026 (in absentia) — his Excel report must go; off the BOM work from next week
+
+At the [[wiki/meetings/2026-10-13-github-msbc-ai-bom-control-gate-and-msbc-only-reports.md|Oct 13 "GitHub-MSBC" meeting]] Val said the report Mikhail works from — MSBC data exported to Excel and worked in a pivot table, made for him by Lev — freezes the facts (for example once a month) and must disappear: procurement reports come only from MSBC. Arrival dates are taken roughly from him because vendors are not asked for transport invoices. Val repeated that Mikhail is leaving and said he is to come off this work from next week. See [[wiki/decisions/2026-10-13-procurement-reports-come-only-from-msbc-and-the-excel-export-report-goes-away.md]] and [[wiki/decisions/2026-10-13-the-agent-builds-the-bom-as-a-control-gate-taught-by-data-contracts-not-cad-and-genadi-finds-why-it-is-wrong.md]] [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]. Val's personal remarks about him are not recorded.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
@@ -175,3 +179,5 @@ Named throughout the [[wiki/meetings/2026-10-08-genadi-bom-standard-flex-slim-me
 - [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
 - [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
 - [[raw/Meeting_Notes_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
+- [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
+- [[raw/Meeting_Notes_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]

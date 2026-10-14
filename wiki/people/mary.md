@@ -3,7 +3,8 @@ type: person
 title: Mary
 date: 2026-07-12
 aliases: [Mary, Mery]
-source-count: 10
+source-count: 12
+open-commitments: 1
 ---
 
 # Mary
@@ -37,6 +38,14 @@ On the [[wiki/meetings/2025-06-26-procurement-manufacturing-transfer-alignment.m
 
 At the [[wiki/meetings/2026-10-08-genadi-bom-standard-flex-slim-metal-mikhail-hand-over-and-data-contracts.md|Oct 8 3:59 PM call]] Val told Genadi: "Я на его место предлагаю, чтобы взял на себя эта меры" — in place of [[wiki/people/mikhail-perelman.md|Mikhail Perelman]], who leaves from January. Training starts Oct 19 and runs "ноябрь и половину декабря" [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]. The notes write the name "Mery (name as heard)" [[raw/Meeting_Notes_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]. Read as this page **by context** (alias "Mery"; her earlier PO and logistics work) — inference, queued for the owner. See [[wiki/decisions/2026-10-08-mary-takes-over-mikhail-perelmans-ordering-role-with-training-from-october-19.md]].
 
+## Oct 13 2026 (in absentia) — concrete MSBC work from next week
+
+At the [[wiki/meetings/2026-10-13-github-msbc-ai-bom-control-gate-and-msbc-only-reports.md|Oct 13 "GitHub-MSBC" meeting]] Val said she is back next week and proposed she enter the missing information into MSBC as directed (for example vendor transport invoices); Genadi is to list the gaps with Lev first so she gets concrete work. Read as this Mary by context ("мэри"/"мэрой"), as on Oct 8 — inference. See [[wiki/decisions/2026-10-13-procurement-reports-come-only-from-msbc-and-the-excel-export-report-goes-away.md]] [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]].
+
+## Open commitments (Oct 13 2026)
+
+- [ ] Mary — enter the missing information into MSBC as directed (e.g. vendor transport invoices) — due from the week of Oct 19 2026 (proposed by Val; not confirmed) — [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
+
 ## Sources
 
 - [[raw/shipment_of_machines_from_mexico_january_8_2025.md]]
@@ -49,3 +58,5 @@ At the [[wiki/meetings/2026-10-08-genadi-bom-standard-flex-slim-metal-mikhail-ha
 - [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
 - [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
 - [[raw/Meeting_Notes_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
+- [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
+- [[raw/Meeting_Notes_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]

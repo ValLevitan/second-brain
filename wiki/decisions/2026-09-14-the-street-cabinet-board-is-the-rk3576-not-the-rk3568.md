@@ -3,10 +3,10 @@ type: decision
 title: The street cabinet's board is the RK3576, not the RK3568 — the 3568 renders badly on a vertical screen
 date: 2026-09-14
 aliases: [RK3576, RK3568 vertical screen, 3576 target board, аркеи на горизонтальном телевизоре, именно 35 68, Touch Intelligent, RK3576 shipment to Minsk, 8 gigabytes, тач интеллигент, два борта]
-source-count: 10
+source-count: 11
 status: active
-open-commitments: 2
-open-questions: 2
+open-commitments: 1
+open-questions: 1
 ---
 
 # The street cabinet's board is the RK3576, not the RK3568
@@ -77,16 +77,24 @@ At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-r
 
 ## Open commitments
 
-- [ ] [[wiki/people/mikhail-perelman.md|Mikhail Perelman]] — push the RK3576 delivery to Minsk (2 samples, ~$300 plus ~$65 freight) — due urgently, Val's word was "срочно". *(Val names him as the person who **controls** the supply; the transcript does not record the instruction being given to him or accepted, and the derived notes flag the same gap as "[Needs Val's confirmation]".)* — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]] [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+- [x] [[wiki/people/mikhail-perelman.md|Mikhail Perelman]] — push the RK3576 delivery to Minsk (2 samples, ~$300 plus ~$65 freight) — due urgently, Val's word was "срочно". *(Val names him as the person who **controls** the supply; the transcript does not record the instruction being given to him or accepted, and the derived notes flag the same gap as "[Needs Val's confirmation]".)* — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]] [[raw/Meeting_Notes_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]] — **discharged by Oct 14 2026**: Pavel names the board Daniil runs games on in Minsk as the RK3576 ("армовская платформа р к 35 76"); who pushed the delivery is not stated — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
 - [x] [[wiki/people/pavel.md|Pavel Frolov]] — on arrival of the RK3576, get at least one game running and report memory use — due on arrival — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]] — *Oct 2 2026: boards "35 67" with 8 GB have arrived (most likely these — inference); "можно будет потом запланировать. Тестирование новой игры" in a browser, one monitor first — planned, not done* — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]] — *Oct 5 2026: handed to Daniil as his next task (the memory measurement with the select screen and stubs); held on [[wiki/topics/nova-platform-architecture.md]] (Oct 5)* — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — rework the SDK for the 3576 board and build the integration repository — due unspecified — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 
 ## Open questions
 
-- **Where does the RK3576 order actually stand?** Genadi did not know whether the invoice had gone out — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]] — *Oct 2 2026: boards "35 67" with 8 GB "приехали" and are with Pavel; whether they are the RK3576 is an inference from the number and the memory, so the question is not closed* — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
-- **Does 8 GB carry the game count this machine needs?** Unmeasured on the 3576, and the July-29 measurement on a different board points the other way (above) — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
+- ~~**Where does the RK3576 order actually stand?**~~ **Answered Oct 14 2026:** the board is in Minsk; Pavel names it as the RK3576 — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]] — Genadi did not know whether the invoice had gone out — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]] — *Oct 2 2026: boards "35 67" with 8 GB "приехали" and are with Pavel; whether they are the RK3576 is an inference from the number and the memory, so the question is not closed* — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+- **Does 8 GB carry the game count this machine needs?** Unmeasured on the 3576, and the July-29 measurement on a different board points the other way (above) — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]] — *Oct 14 2026: Daniil's estimate — about 5 games fit in 8 GB, 8 may not, with all video decoded at game entry; not a measurement* — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
 
 **§15.8:** clear — board, component and freight economics only; no named-person compensation appears in either Sept-14 12:04 file.
+
+## Update, Oct 14 2026 — Pavel names Daniil's board as the RK3576; a library of about 5 South Dakota games is the next try
+
+At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-library.md|Oct-14 Minsk stand-up]] (Russian) [[wiki/people/pavel.md|Pavel]] explained Daniil's work to Anton Leshkevich: "у нас есть армовская платформа р к 35 76" — "относительно дешёвая, компактная, малопотребляющая", for cheap machines, "то, что вал называет стрит", for South Dakota and Texas; Leshkevich: the ones placed outside casinos. Daniil has spent the last days trying to run the new games on it; one limit is "8 гигабайт памяти" [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]].
+
+- **The board is in Minsk.** This is the first time a source names the board Daniil uses as the RK3576 in words. It supports the Oct-2 reading that the "35 67" boards were the RK3576 (**inference**, now with a spoken name).
+- **Game count.** Daniil: with each game's video decoded at game entry, 8 games may not fit in 8 GB, but about 5 probably will — [[wiki/decisions/2026-10-14-no-freeze-inside-a-game-so-a-games-videos-are-decoded-when-the-game-is-entered.md]].
+- **Next.** Convert South Dakota games now on Rage into NOVA vertical games with AI and try to fit a library of about 5 on the board — [[wiki/topics/nova-platform-architecture.md]] (Oct 14).
 
 ## Sources
 
@@ -100,3 +108,4 @@ At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-r
 - [[raw/Meeting_Transcript_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]

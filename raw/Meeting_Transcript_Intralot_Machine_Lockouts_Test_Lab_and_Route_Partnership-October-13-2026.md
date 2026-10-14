@@ -702,7 +702,7 @@ You always. So the ninth, the ninth, the ninth, at yeah, at the stadium. Yep. Le
 01:14:58 Speaker 5
 Uh, if I get anybody at the office, you know, that's interested, I'll I'll put some feelers out. But more than likely, yeah.
 01:15:08 Speaker 3
-Okay, perfect. Yeah, yeah, yeah. Just, just let me know as soon as possible, so I know that. Absolutely. Yeah, yeah. I can. Yeah. I'm going to use the restroom. Why not? I'm 63. My prostate is not as good as it used to be.
+Okay, perfect. Yeah, yeah, yeah. Just, just let me know as soon as possible, so I know that. Absolutely. Yeah, yeah. I can. Yeah. [Personal passage removed — owner ruling 2026-09-28: the JVL brain holds JVL matters only. Original kept in the source vault.]
 01:17:28 Speaker 2
 माया ने साथ में दे चूमी है।.
 01:18:22 Speaker 3

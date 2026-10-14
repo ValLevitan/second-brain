@@ -3,10 +3,10 @@ type: decision
 title: A capability moves itself to Request Review when all its child features are Completed (Kovalchuk's weekend automations), and a story added under a Completed feature sends the feature to To Do and its capability from Request Review to To Do — Kovalchuk automates it, the developer moves it to In Progress when he takes the story; every story must hang under a parent
 date: 2026-10-05
 aliases: [Jira reopen rules, four automations, 4 автоматизации, capability to Request Review automatically, все дочерние фичи комплект капабилити реквест ревью, story reopens feature and capability, фичу из комплитов в туду, капабилити в туду, пускай будет всё в туду, open story hiding inside a done tree, внутри сидит открытая история, stories without a parent, ряд оказались ни к кому, today's date no longer red, убрал сегодняшнюю дату]
-source-count: 5
+source-count: 8
 status: active
-open-commitments: 1
-open-questions: 2
+open-commitments: 2
+open-questions: 3
 ---
 
 # A capability moves itself to Request Review when its features are Completed; a new story sends feature and capability back to To Do
@@ -65,9 +65,36 @@ This automation is a new item beside Kovalchuk's Oct-5 rules above; the sources 
 
 - Should the Jira automation that moves a task to In Progress on any branch, commit or pull-request mention be turned off, or narrowed? Kovalchuk proposed turning it off; not confirmed — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
 
+## Update, Oct 13 2026 — an issue type for release work that has no code branches; not settled
+
+At the [[wiki/meetings/2026-10-13-daily-standup-video-decode-memory-and-release-task-type.md|Oct-13 Minsk stand-up]] (Russian) [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] raised a gap [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]:
+
+- **The problem.** "у димы чудинова сейчас ситуация, когда он делает релизные фичи… но на эти фичи не будет веток никаких. На это отчет будет ругаться что? Нету веток." Release work such as a deploy ([[wiki/people/dmitri-chudinov.md|Chudinov]]) has no code branch, so the report flags it.
+- **Kovalchuk's options:** "либо ввести какойто тип задач, либо сделать это task, но task тогда надо будет поднять выше в иерархии, чтобы он цеплялся [к] капбилити."
+- **Pavel:** "мне нравится идея иметь отдельный там ищи" (issue) "который по своему будет обрабатываться".
+- **Tsymanov** asked why not cut a release branch. Pavel: "у тебя камитов не будет"; Chudinov: "Мы пока не режем их."
+- **Kovalchuk** added that such a type might also serve tasks the PM agent creates, but asked whether it would become clutter ("не будет ли… это мусора какого нибудь"). Pavel: "над этим подумать". Nothing was decided.
+
+### Open commitments (Oct 13 2026)
+
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] and [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — think through an issue type for release work with no code branches — due unspecified — [[raw/Meeting_Notes_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
+
+### Open questions (Oct 13 2026)
+
+- Which issue type should release work with no code branches use — a new type, or a Task raised in the hierarchy to link to a capability — and would PM-agent tasks of that type become clutter? — [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]] — *Oct 14 2026: Kovalchuk and "Дима" agree Tsymanov was right that a release branch is likely, cut and marked as such; not ruled* — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+
+## Update, Oct 14 2026 — a release branch is likely after all
+
+At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-library.md|Oct-14 Minsk stand-up]] (Russian), going through the AI digest, [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] read the release-branch item and said: "Мы обсудили с Димой, что Сергей был прав, наверно, если наверно будет какаято заводиться всётаки ветка под релиз но всё равно должна както отрезаться это всё и помечаться что это релизная ветка." The "Дима" is likely [[wiki/people/dmitri-chudinov.md|Chudinov]], who had said "Мы пока не режем их" on Oct 13 (**inference**); "Сергей" = [[wiki/people/sergey-tsymanov.md|Tsymanov]], who asked on Oct 13 why not cut a release branch [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]].
+
+This leans toward Tsymanov's release branch, but no ruling was made and Pavel did not speak to it. The Oct-13 question below stays open.
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]

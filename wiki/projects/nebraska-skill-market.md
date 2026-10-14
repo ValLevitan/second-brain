@@ -5,7 +5,7 @@ date: 2025-03-14
 aliases: [Nebraska, Nebraska skill market, TNT, TNT Enterprises, NTN, T&T, Wagner, Whitey Tolliver, Mike Kotab, Michael Kotab, Miko, Nebraska nudge, Nebraska Department of Revenue, Georgia 1, Georgia 2, no-hands version, Golden Husk, corn bonus, power slider, power meter, Lucky Rainbow, Bullseye, Bonilla Games, Banila, Vanilla, Thistle, Swift bonus, Simon game, secondary skill, Brittany Waters, Malibu, Eclipse, Intralot, Texas skill]
 open-commitments: 10
 open-questions: 12
-source-count: 67
+source-count: 68
 ---
 
 # Nebraska skill-gaming market entry
@@ -455,6 +455,15 @@ At the [[wiki/meetings/2026-10-08-game-design-class-a-party-time-and-dual-box.md
 
 **Michael's Sept-22 commitment, partly met.** The progressive reset levels now exist as a baseline on the configuration page. Bet levels and the 40-or-50-line count are not mentioned, so the item stays open.
 
+## Oct 13 2026 (in absentia) — Intralot's Nebraska route idea, and JVL's Nebraska machines "not making money"
+
+At the [[wiki/meetings/2026-10-13-intralot-machine-lockouts-test-lab-and-route-partnership.md|Oct-13 meeting at Intralot]] [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]:
+
+- **Intralot runs the Nebraska system.** [[wiki/people/christos-tzoumaras.md|Chris]] of [[wiki/organizations/intralot.md|Intralot]]: "**There are thirty operators there. We have the system with the lottery.**" This fits the 2025 expectation that Intralot would supply Nebraska's central system and go live on July 1 2025 (see above).
+- **His idea: the lottery as route operator.** He put it to the Nebraska Lottery and the Tax Commissioner — "**what if the lottery is the route operator?**" with "**lottery branded machines**" — and "**the lottery says, 'Oh, I love this idea.'**" Of "**2, 000 locations, maybe**", "**We pick 500**". He thinks "**this is going to happen in 2027**". Intralot wants a machine partner; JVL is a candidate. Nothing is signed.
+- **Val on JVL's own Nebraska position:** "**We have Nebraska license. We have Nebraska machines. But our machines have not been tested, have not been testing well. We're not making money.**" And: "**it's just a matter of time until we find the proper recipe**."
+- **Promo.** Chris floated cross-selling on lottery-branded machines; Val: "**Promo promo is the key.**"
+
 ## History
 
 - **Jan 8 2026 — a market-size figure Val gave a Texas prospect.** Asked how JVL chooses between markets, [[wiki/people/val-levitan.md|Val]] told [[wiki/people/rich-winley.md|Rich Winley]]: "**Nebraska today has 4,000 machines and growing at 40% per year.** And Texas has… godly amount." He also said Nebraska's operators "used to be my customer for amusement machines, so I don't need to do any selling of the brand". *(Val's own figures, said at lunch; they sit beside the ~4,000–5,000 games in the field noted for June 2025 above.)* See [[wiki/meetings/2026-01-08-rich-winley-miami-lunch-texas-distribution-pitch.md]]. [[raw/Meeting_Transcript_Rich_Winley_Miami_Lunch_Texas_Distribution_Pitch-January-8-2026.md]]
@@ -575,3 +584,4 @@ At the [[wiki/meetings/2026-10-08-game-design-class-a-party-time-and-dual-box.md
 - [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
 - [[raw/Meeting_Notes_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]

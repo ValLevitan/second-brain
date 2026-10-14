@@ -3,7 +3,7 @@ type: decision
 title: Val commits to a Georgia Class A deal with ARC within three months — "January. We're gonna do business."
 date: 2026-08-31
 aliases: [Class A deal within three months, January means a decision not a deal, I doubt very much that I can do anything until January, ARC Class A commitment, January Class A deal, three-month Class A promise]
-source-count: 7
+source-count: 8
 status: active
 open-commitments: 2
 open-questions: 1
@@ -71,6 +71,10 @@ At the [[wiki/meetings/2026-09-16-arc-gaming-cashless-suite-demo-and-class-a-cab
 
 **The Aug-31 / Sept-10 strain above is neither resolved nor deepened by this.** "New Year" is a hardware-redesign date, not the deal date of Aug 31 nor the hear-the-legislation decision point of Sept 10. All three are left standing side by side.
 
+## Oct 13 2026 — the January date, restated to the COO
+
+At the [[wiki/meetings/2026-10-13-arc-zazanis-lunch-trade-in-and-2027-volume.md|Oct-13 lunch]] Val told [[wiki/people/georgios-zazanis.md|George Zazanis]]: "**I'm making the Class A machine for you. I told you I will have it in January.**" George later: "**When do you say this will be ready? End of the year? January.**" This is a **machine** date, like Sept 16's "New Year", not a signed deal. George was unsure about Val's cheap no-bill-acceptor, no-printer design, and Val said [[wiki/people/david-sloan.md|David Sloan]] has offered him a share of machine revenue, as with Primero. Still no handshake. Detail on [[wiki/topics/georgia-class-a-machines.md]] (Oct 13) [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/val-levitan.md|Val]] — bring ARC a Class A partnership deal — due "three months / January" as stated. **Still open at Sept 16 2026: an offer was made and not accepted, and no handshake was sought.** **Strained as of Sept 10 2026**: to the regulator Val said he doubts he can do anything before January and will hear the legislation first. Not discharged, not withdrawn — [[raw/Meeting_Notes_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]] [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
@@ -84,6 +88,7 @@ At the [[wiki/meetings/2026-09-16-arc-gaming-cashless-suite-demo-and-class-a-cab
 
 ## Sources
 
+- [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
 - [[raw/Meeting_Notes_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]
 - [[raw/Meeting_Notes_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]

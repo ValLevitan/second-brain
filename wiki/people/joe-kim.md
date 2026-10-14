@@ -3,9 +3,9 @@ type: person
 title: Joe Kim (Georgia Lottery general counsel, COAM)
 date: 2026-08-26
 aliases: [Joe Kim, Joe Kemp, Joe, Joel, Joe's recent letter, the letter from last week, we directed it to an appropriate department, Joakim, Joe can, lottery council, Georgia Lottery general counsel, GLC general counsel, chief legal counsel of the Georgia lottery, he brushed it off, a stupid letter, bipolar regulator, addressed to John Household, he's kind of redacting what he had said, he did not come by my booth]
-source-count: 14
+source-count: 17
 open-commitments: 0
-open-questions: 4
+open-questions: 5
 disambiguation: "PROVISIONAL (owner ruling pending) — 'Joe' cluster: Joe Kim [[wiki/people/joe-kim.md]] (Georgia Lottery general counsel) · Joe Hello [[wiki/people/joe-hello.md]] (Texas operator). Resolve by context: Georgia Lottery / COAM regulation → Joe Kim; Texas operator / AMOT / Capitol Amusement / Texas test placement → Joe Hello; a 'Joe' fitting neither stays unresolved and is queued."
 ---
 
@@ -97,6 +97,23 @@ On the [[wiki/meetings/2026-09-16-jamie-boyden-call-recycler-advice-and-class-a-
 
 The consequence side of this — both InComm **and** the Georgia Lottery asking Val after the fact not to put the recycler in the market — is on [[wiki/decisions/2026-09-02-hold-the-recycler-back-but-sign-no-undertaking.md]].
 
+## Oct 13 2026 — InComm's account of what he reacted to; and three uses of his name, one or two possibly meant for John
+
+On the [[wiki/meetings/2026-10-13-incomm-prize-play-reset-agreement-scope-and-cash-dispense.md|Oct-13 InComm call]] his name came up three times [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]:
+
+- **Jason of InComm (read as Jason Hall — inference):** "Joe Kim saw your solution and may not have fully understood all the steps, but he was very keyed into the fact that a COAM related device was dispensing cash." This matches the other accounts of his August-show reaction above.
+- **Val, on the ATM-certification path:** "I don't know who closed that road for me, either InComm or Joe Kim… I'm just going to reserve my judgment right now."
+- **Val, on InComm's offers and the broker contracts:** right after naming John's offers he said "I know that Joe Kim is not longer around"; later, "Joe Kim told me that contracts are, you know, you you guys are not planning to fight them… maybe we should park everything that Joe Kim told me and start new conversations with you guys". Both lines fit [[wiki/people/john-houseal.md|John Houseal]], who left InComm on Sept 25 and spoke for InComm, better than the Lottery's counsel. **Possibly a slip for John — not resolved.** The notes flag the "not longer around" line as Val's statement, not verified [[raw/Meeting_Notes_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]].
+
+## Oct 13 2026 (9:54 AM, in absentia) — at Intralot: still no meeting; "one of the two or three that Joe saw"
+
+At the [[wiki/meetings/2026-10-13-intralot-machine-lockouts-test-lab-and-route-partnership.md|Oct-13 meeting at Intralot]], with a Georgia Lottery representative in the room (read as [[wiki/people/chris-boncek.md|Chris Boncek]] — **inference**), "Joe" came up several times. Reading this "Joe" as Joe Kim is an **inference** from the Lottery-legal context [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]:
+
+- **Still no meeting.** Val: "**I offered to meet with Joe.**" The reply on the tape is garbled ("You still haven't got him. No, he didn't."); it reads as no meeting yet.
+- **JVL's show demo was one of a few he saw.** [[wiki/people/christos-tzoumaras.md|Chris]] of [[wiki/organizations/intralot.md|Intralot]]: "**So your solution was one of the two or three that Joe saw at the show at the GAMOA.**" Val: "**Right.**"
+- **The Lottery representative on his change of line:** "**a lot of folks started a design of a solution based on his initial commentary. You know, now that's completely different**", and "**I don't know if we'll have some litigation against us**".
+- **Promo credits.** Asked whether promo credits are "**a conversation with Joe**", the representative: "**I would say, yeah. Our legal representatives will probably give you some more clarity on that, but it's not entirely just up to them**".
+
 ## Open contradictions
 
 **Did Val show the recycler to Kim himself?** The Sept-16 telling reads that way — "**I reached out to Joe Kim. I showed all the cards**… **When Joe Kim saw it**" — while everything else in the corpus has Kim seeing JVL's equipment **on the show floor in August**, reaching JVL only through InComm and [[wiki/people/andrei-klimovich.md|Andrei Klimovich]], and Val stating on Sept 10 that he asked for a meeting and was brushed off. **Both stand; the phone-call wording is loose and no source settles whether "showed" means a meeting, a booth, or the product simply being seen.** Not resolved [[raw/Meeting_Transcript_Jamie_Georgia_Class_A_Opportunity_and_Market_Outlook-September-16-2026.md]] [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]] [[raw/Meeting_Transcript_InComm_Skill_Pay_ATM_Guidance-August-26-2026.md]]
@@ -112,9 +129,10 @@ The two may be compatible if "noticed" means something looser than a booth visit
 
 ## Open questions
 
+- On Oct 13, did Val mean [[wiki/people/john-houseal.md|John Houseal]] when he said "Joe Kim is not longer around" and "Joe Kim told me that contracts… you guys are not planning to fight them"? — [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]
 - **Is the letter Billy describes on Sept 15 the same one Val read on Sept 10, or a further one?** Billy contradicts himself inside a sentence and the source settles nothing — [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
 - **Does the letter bar the ATM-enabled card or only hint at it?** Billy asserts both within ten minutes of the same conversation; nobody in the corpus has quoted the letter's own words — [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]]
-- Will Val get the one-on-one he has asked for three times? The Lottery staff undertook to supply a direct number and email; nothing in this source records it arriving — [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
+- Will Val get the one-on-one he has asked for three times? The Lottery staff undertook to supply a direct number and email; nothing in this source records it arriving — [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]] — *Oct 13:* still no meeting on the record [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
 - When, if ever, will he issue the sharpened guidance, and will it permit ATM/cash-out tied to COAM redemption? InComm treats its posture as time-bound but does not give one figure — Jason Hall said "three to five years from now, who knows", Adam Harlow said "Two years from now, they may see things differently"; both were firm that it holds for 2026–27 — [[raw/Meeting_Transcript_InComm_Skill_Pay_ATM_Guidance-August-26-2026.md]]
 
 ## Sources
@@ -132,3 +150,6 @@ The two may be compatible if "noticed" means something looser than a booth visit
 - [[raw/Meeting_Transcript_Jamie_Georgia_Class_A_Opportunity_and_Market_Outlook-September-16-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]]
 - [[raw/Meeting_Transcript_BofA_Treasury_MS_Dynamics_Integration-August-27-2026.md]]
+- [[raw/Meeting_Notes_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]
+- [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]
+- [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]

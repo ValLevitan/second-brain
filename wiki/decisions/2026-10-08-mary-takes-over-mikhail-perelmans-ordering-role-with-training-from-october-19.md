@@ -3,7 +3,7 @@ type: decision
 title: Mikhail Perelman leaves from January; Val proposes Mary (Mery) takes over his ordering role, with training from Oct 19 through November and half of December
 date: 2026-10-08
 aliases: [Misha leaves, Mery takes over, Mary takes over procurement, Mikhail Perelman hand-over, procurement hand-over, training from October 19]
-source-count: 4
+source-count: 6
 status: active
 open-commitments: 1
 open-questions: 1
@@ -26,6 +26,10 @@ Genadi did not object on tape. Status: **proposed by Val**; the notes list it as
 
 The transcript renders the name "меры" / "мерой". The wiki already has [[wiki/people/mary.md|Mary]], with the alias "Mery", who in 2025 was given POs for non-BOM items [[raw/business_central_update-apr-28-2025.md]] and kept incoming and outgoing logistics [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]; the 2026 contractor roster lists a "Mery Villavicencio Alvarado" as the likely match (see [[wiki/topics/jvl-contractor-roster.md]]). The fit is by context; no surname is spoken. Queued for the owner to confirm.
 
+## Oct 13 2026 update — concrete work for Mary from next week; Mikhail off the BOM work
+
+On the [[wiki/meetings/2026-10-13-github-msbc-ai-bom-control-gate-and-msbc-only-reports.md|Oct 13 "GitHub-MSBC" meeting]] Val said Mary is back next week ("со следующей недели") and proposed she enter the missing information into MSBC "без всякой интерпретации", as directed. Genadi is to work out the gaps with Lev this week so she gets concrete work. Val also said Mikhail Perelman is to come off this work from next week, and that the Excel report he uses must go — see [[wiki/decisions/2026-10-13-procurement-reports-come-only-from-msbc-and-the-excel-export-report-goes-away.md]] [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]. The name is "мэрой"/"мэри" in the transcript; read as this Mary by context, as on Oct 8.
+
 ## Open commitments
 
 - [ ] [[wiki/people/val-levitan.md|Val Levitan]] — start training Mary on ordering — due Oct 19 2026, running through November and half of December — [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
@@ -41,3 +45,5 @@ The transcript renders the name "меры" / "мерой". The wiki already has 
 - [[raw/Meeting_Notes_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
 - [[raw/business_central_update-apr-28-2025.md]]
 - [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
+- [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
+- [[raw/Meeting_Notes_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]

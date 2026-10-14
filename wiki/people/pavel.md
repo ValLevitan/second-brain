@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 219
+source-count: 221
 open-commitments: 107
 open-questions: 0
 ---
@@ -1221,6 +1221,26 @@ At the [[wiki/meetings/2026-10-08-dragon-pays-vertical-accepted-and-dutch-mill-p
 - At the [[wiki/meetings/2026-10-12-daily-standup-flexport-emulator-and-jira-auto-progress-rule.md|Oct-12 stand-up]] he ran the round: the port is tested on real ports through the internal runner, an STM32 simulator study is not MVP 1 and likely not MVP 2 — [[wiki/decisions/2026-10-12-flexport-ci-tests-run-on-real-ports-through-the-internal-runner-and-no-port-emulator-is-built-for-now.md]]; separate Flex IQ version numbers per environment are "нехорошо" but wait until after MVP 1 — [[wiki/decisions/2026-10-12-separate-flex-iq-version-numbers-per-environment-are-not-an-mvp1-blocker-and-a-fix-comes-after-mvp1.md]]; location billing goes to production as it is — [[wiki/decisions/2026-10-09-all-web-services-go-to-production-before-the-weekend-instead-of-waiting-for-georgia.md]] (Oct-12 update); he proposed counting only the first word of a commit message for the Jira automation — [[wiki/decisions/2026-10-05-a-capability-moves-itself-to-request-review-when-all-its-features-are-completed-and-a-new-story-sends-feature-and-capability-back-to-to-do.md]] (Oct-12 update); he announced the AI PM "с сегодняшнего дня" — [[wiki/decisions/2026-10-08-the-ai-pm-goes-live-in-real-jira-projects-on-october-12-on-its-current-architecture-without-lenas-meetings.md]] (Oct-12 update). His pull request 169 on port 111 — [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 12) [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]].
 - At the [[wiki/meetings/2026-10-12-ris-mvp2-scope-and-release-timing.md|Oct-12 RIS MVP 2 call]] he went through the RIS capabilities and gave the timeline: most MVP 2 work in "two weeks, approximately", "plus one week for testing", the boot loop unknown — [[wiki/topics/ris-remote-install-and-machine-states.md]] (Oct 12). He will investigate the Intralot lock — [[wiki/decisions/2026-10-12-build-4333-is-tested-in-the-office-on-the-sas-simulator-for-the-intralot-lock-unlock-problem.md]]; his working position on a RIS that needs a printer — [[wiki/decisions/2026-10-12-a-ris-that-needs-a-printer-still-installs-on-a-machine-without-one-and-the-machine-tilts-until-a-printer-is-added-or-unchecked.md]] [[raw/Meeting_Transcript_RIS_MVP2_Scope_and_Release_Timing-October-12-2026.md]].
 
+## Oct 13 2026 — PM-agent questions to the next day; the memory leak first; the scanner backlight; a separate issue type for release work
+
+At the [[wiki/meetings/2026-10-13-daily-standup-video-decode-memory-and-release-task-type.md|Oct-13 stand-up]] he ran the round and left early [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]:
+- The PM agent's questions from Oct 12 and Oct 13 are merged and discussed on Oct 14 — [[wiki/decisions/2026-10-08-the-ai-pm-goes-live-in-real-jira-projects-on-october-12-on-its-current-architecture-without-lenas-meetings.md]] (Oct-13 update).
+- Daniil works on the memory leak first; video decoding on the 8-game board needs a separate talk, maybe an investigation task — [[wiki/topics/nova-platform-architecture.md]] (Oct 13).
+- The barcode scanner in the dark: perhaps the backlight should stay on — [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 13, 5:05 AM).
+- He liked a separate issue type for release work with no branches; "подумать" — [[wiki/decisions/2026-10-05-a-capability-moves-itself-to-request-review-when-all-its-features-are-completed-and-a-new-story-sends-feature-and-capability-back-to-to-do.md]] (Oct-13 update).
+- The evening topic goes to a separate meeting after lunch; "RIS" is in the release name only by habit — [[wiki/decisions/2026-10-06-the-ris-mvp1-changes-are-built-for-georgia-only-on-the-1-14-svn-line-with-nothing-else-added.md]] (Oct-13 update).
+- He will look at Seregin's flash-boot story and owes Ivan answers on TIN-26 — [[wiki/topics/test-automation-strategy.md]] (Oct 13).
+
+## Oct 14 2026 — MVP 1 to about November 8–9; no freeze inside a game; a 5-game library for the RK3576; the USB update for the 15th
+
+At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-library.md|Oct-14 stand-up]] he ran the round [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]:
+- He extended MVP 1 to about November 8 or 9, with the MVP 2-marked tasks inside it (read as the RIS MVP 1 — inference) — [[wiki/decisions/2026-10-14-mvp1-is-extended-to-about-november-8-or-9-and-the-mvp2-marked-tasks-are-done-inside-it.md]].
+- No freeze inside one game: a game's videos are decoded at game entry — [[wiki/decisions/2026-10-14-no-freeze-inside-a-game-so-a-games-videos-are-decoded-when-the-game-is-entered.md]].
+- He will talk with Igor and split the conversion of South Dakota Rage games into NOVA vertical games for the RK3576 — [[wiki/topics/nova-platform-architecture.md]] (Oct 14).
+- He reminded Alekseev that for the release on the 15th the Flex-Port update must work at least by USB stick — [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Oct-14 update).
+- Remote RIS protocol versioning went to a separate talk; boot-loop recovery is not in MVP 1 and not approved — [[wiki/topics/ris-remote-install-and-machine-states.md]] (Oct 14).
+- His Claude ran about 400 transactions overnight on Ivan's task 128 without reproducing the problem — [[wiki/topics/test-automation-strategy.md]] (Oct 14).
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]
@@ -1445,3 +1465,5 @@ At the [[wiki/meetings/2026-10-08-dragon-pays-vertical-accepted-and-dutch-mill-p
 - [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
 - [[raw/Meeting_Transcript_RIS_MVP2_Scope_and_Release_Timing-October-12-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]

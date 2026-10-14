@@ -3,9 +3,9 @@ type: topic
 title: Georgia Class A machines
 date: 2026-08-31
 aliases: [Class A, Class A machines, Alan Powell, twenty five seventy five, twenty eighty, one game suite, forty bucks per day, намберту, в принципе дали мне заказ, two machines a week, five machines a week, the same machines go to Texas, Class A on Nova, Class A V43, party time feature, awards cannot be bet, for now yes, playing within the rules, no book of Class A regulations, if you had a pulse you get a license, not hooked up to a central accounting system, hang our hat on one supplier, slinging them out and seeing what sticks, it's predominantly the meters, Class A licence easier than B, Georgia Class A, Class A licence, amusement machines Georgia, two-bucket win system, $50 per spin cap, $50 per hand, Primero Class A, play bucket, redemption bucket, Hope Scholarship, class eight]
-source-count: 31
+source-count: 34
 open-commitments: 0
-open-questions: 14
+open-questions: 15
 ---
 
 # Georgia Class A machines
@@ -461,7 +461,33 @@ At the [[wiki/meetings/2026-10-08-game-design-class-a-party-time-and-dual-box.md
 - **The dual box sits lower** for Class A, right above the button panel — [[wiki/decisions/2026-10-08-dual-box-for-nebraska-class-a-and-georgia-five-reel-and-no-smaller-touch-area-for-the-wrong-coin.md]]
 - **Schedule.** The requirements show "ready by October 16th"; Michael: "We'll see"; the maths will keep evolving.
 
+## Oct 13 2026 — Intralot wants Class A regulated; the Lottery names Alan Powell again
+
+At the [[wiki/meetings/2026-10-13-intralot-machine-lockouts-test-lab-and-route-partnership.md|Oct-13 meeting at Intralot]] [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]:
+
+- **Intralot's interest.** [[wiki/people/christos-tzoumaras.md|Chris]] of [[wiki/organizations/intralot.md|Intralot]]: "**I want Class A to be successful here, so I can say to the lottery company, 'Let's put the system now.'**" His view: once regulated, makers "**build better machines, better games**".
+- **Ohio as a Class A route.** Chris would partner with a large Class A operator in Ohio if that state regulates — see [[wiki/organizations/intralot.md]].
+- **Who to watch.** The Georgia Lottery's representative: "**Alan Powell is a very influential representative**", "**heavily involved with GAX**" (read as the GACS show), and the "**regulated industries**" committees. This is the same Powell recorded above as sponsor of last session's ban bill.
+
+## Oct 13 2026 (afternoon) — ARC's COO on Class A: a count, a board price, and doubts about Val's $3,000 machine
+
+At the [[wiki/meetings/2026-10-13-arc-zazanis-lunch-trade-in-and-2027-volume.md|Oct-13 lunch]], [[wiki/people/val-levitan.md|Val]] and [[wiki/people/georgios-zazanis.md|George Zazanis]] of [[wiki/organizations/arc-gaming.md|ARC]] talked Class A [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]:
+
+- **Val's date.** "**I'm making the Class A machine for you. I told you I will have it in January.**" See [[wiki/decisions/2026-08-31-class-a-deal-with-arc-within-three-months.md]] (Oct 13).
+- **ARC's count.** "**We are close to 35 locations now. We have to close a few, but it didn't work very well.**" The notes read this as ARC's Class A locations [[raw/Meeting_Notes_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]. ARC is "**putting two, let's say, average per week**" and "**going back to retrieve a few**". George: "**We have locations the class A do more than class B**".
+- **What ARC pays Primero for the board.** "**We pay one thousand two hundred fifty dollars for one thousand one hundred fifty dollars. They give us three hundred dollars, three hundred fifty dollars discount… For the PCB. For the game board**", and ARC uses "**our own cabinets that we refurbish**". Val had recalled Sloan saying the PC board is "**fifteen hundred**". See Open contradictions below.
+- **Val's target machine.** "**My goal is to bring the machine for three thousand dollars plus portion of the revenue**", with no bill acceptor and no printer, a modem, downloadable games, and promo credits (his example: $2 extra on $20, from Canada in 1986). George: "**I don't know. I just don't know**". Val then took it back in part: "**I'm not so sure. But. It's worth trying.**" Related: [[wiki/topics/low-cost-street-machine.md]].
+- **George's objection: two kiosks in one location.** "**we cannot have two kiosks in one location… How the player knows this kiosk goes with this machine**".
+- **What George does want: a progressive.** "**what Primero tried to do: progressive zapping**" (as transcribed) — "**GLC didn't allow them. They said it's too aggressive.**" This matches the Aug-31 account above (built, then pulled).
+- **A revenue share is on offer.** Val said [[wiki/people/david-sloan.md|David Sloan]] offered him a share of machine revenue, as with Primero; George confirmed the logic.
+
+## Open contradictions
+
+- **What does ARC pay Primero up front for a Class A game?** Sept 16 2026, ARC's CEO: "**I pay a thousand dollars for the software**" [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]. Oct 13 2026, ARC's COO: "**one thousand two hundred fifty dollars for one thousand one hundred fifty dollars**… For the PCB. For the game board", after a $300–350 discount; Val, the same day, recalled the CEO saying "**fifteen hundred**" [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]. Same period, same deal, different figures. Not resolved.
+
 ## Open questions
+
+- **Would a $3,000 Class A machine with no bill acceptor and no printer, using promo credits, work for ARC?** George was not sure; Val said "maybe not" but "worth trying" — [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
 
 - **Are Primero's Class A terms categorical or deal-by-deal?** Two operators now describe **different structures**: ARC (Sept 16) pays **$1,000 for the software plus 10%/20%** depending on whose cabinet; Halcyon (Sept 17) was offered **25% financed / 20% paid up front with no software fee**, on hardware of "$2,500… 25 or 3,500". Neither source knows of the other. [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]] [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
 - **How does the Alan Powell ban bill sit against the January-session expectation?** A sponsored bill that "almost got the votes" last session is a stronger signal than anything else on this page, and **no other source in the corpus mentions it** — not the Georgia Lottery on Sept 10, not ARC, not the JVL engineering calls. [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
@@ -487,6 +513,8 @@ At the [[wiki/meetings/2026-10-08-game-design-class-a-party-time-and-dual-box.md
 
 ## Sources
 
+- [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
+- [[raw/Meeting_Notes_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Jamie_Georgia_Class_A_Opportunity_and_Market_Outlook-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]]
 - [[raw/Meeting_Transcript_JVL_Transactional_Ecosystem_and_Class_A_Market_Strategy-September-16-2026.md]]
@@ -519,3 +547,4 @@ At the [[wiki/meetings/2026-10-08-game-design-class-a-party-time-and-dual-box.md
 - [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
 - [[raw/Meeting_Notes_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
 - [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]

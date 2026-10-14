@@ -3,7 +3,7 @@ type: topic
 title: Machine data repurchase program ($337 per year per machine)
 date: 2026-08-26
 aliases: [data repurchase, validator acceptance rate, data purchase contract, buy back our own data, $337 per year per machine, three-year data contract, data-sharing agreement, data sharing discount, data discount]
-source-count: 18
+source-count: 19
 open-commitments: 1
 open-questions: 2
 ---
@@ -81,6 +81,16 @@ At the [[wiki/meetings/2026-09-02-lucky-coin-service-and-upgrade-offer.md|Sept-2
 ## What the data is meant to tell JVL
 
 Val's Aug-27 description of the reporting he wants back: "Here's your **geo positioning** of that machine. We don't even know where it is… This **net win**. This **gross**. This **payout**. This how much a machine made. These games are popular. These games are not popular. You gotta replace the games. **This is your setting. You're being killed because 25 cents is being overused. 80 percent of your games is played in 25 cents mode.**" The derived notes summarise it as "real geo-positioned net win, popularity, and settings data." This makes the program the evidence base for the peak-hour / minimum-bet argument on [[wiki/topics/slot-game-design-principles.md]]. [[raw/Meeting_Transcript_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]] [[raw/Meeting_Notes_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]]
+
+## Oct 13 2026 — Intralot explains the million-dollar payouts
+
+At the [[wiki/meetings/2026-10-13-intralot-machine-lockouts-test-lab-and-route-partnership.md|Oct-13 meeting at Intralot]], Val raised the spikes with Intralot itself: "**How could one week my counter be a million - dollar payout?**" [[wiki/people/bill-avgeris.md|Bill]] of [[wiki/organizations/intralot.md|Intralot]] answered [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]:
+
+- **Cause:** "**The million dollar is when people are ram clearing the machines without telling us.**" It happens to "**Any type of machine**", not only JVL's; the system "**automatically believes it's a rollover**".
+- **It does not reach the averages:** "**This is not calculated in the average or anywhere, or at the amounts that the operators are paying for the location. This is staying pending until we have corrected with the correct amount and authorized by the lottery, which is taking like two to three days.**"
+- **Val:** "**I thought it goes inside of the calculation. This is something that I'm learning now.**"
+
+This **narrows** Val's earlier case that the reports are wrong: the million-dollar spikes are a known, temporary, corrected artifact. It does **not** touch the other report problems recorded here (pay-table-ID mixing, masked serials). Val's Sept-10 explanation — someone "changed the configuration… and didn't commission" — and Bill's RAM-clear explanation are different accounts of the same spikes; recorded side by side, not resolved.
 
 ## Open contradictions
 
@@ -164,3 +174,4 @@ At the [[wiki/meetings/2026-09-24-v-1000-modem-current-use-cases.md|Sept-24 11:4
 - [[raw/Meeting_Transcript_Epic_Amusement_Kenny_Patel_Visit-August-25-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]]
 - [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]]
+- [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]

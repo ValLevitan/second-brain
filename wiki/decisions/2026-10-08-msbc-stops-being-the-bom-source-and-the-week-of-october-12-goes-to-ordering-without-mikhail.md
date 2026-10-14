@@ -3,9 +3,9 @@ type: decision
 title: The BOM will not stay in MSBC — MSBC keeps only financial and administrative data per vendor; the week of Oct 12–20 goes to making Nathan's BOM system work so JVL can order without Mikhail Perelman; the Texas BOM goes into BC now
 date: 2026-10-08
 aliases: [we will not leave it, MSBC stops being the BOM source, clean out MSBC, ordering without Misha, week of October 12, Texas BOM in BC, ten minutes, Hangzhou quote 100 300 1000, BOM standard pull request, part-number release standard]
-source-count: 5
+source-count: 7
 status: active
-open-commitments: 6
+open-commitments: 7
 open-questions: 3
 ---
 
@@ -54,6 +54,10 @@ At the [[wiki/meetings/2026-10-09-github-msbc-agent-bom-assembly-and-pay-slim-fi
 - **The week moves.** Nathan: "I am out next week, but then that Val, you want this done. End of month, so I will… Jump on that when I'm back." So the Oct 12–20 push does not run with Nathan; his Georgia Flex Pay Slim BOM is due end of October (the notes: October 31) [[raw/Meeting_Notes_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]].
 - **The ordering actions are downstream.** Genadi said the five actions Val texted (placing orders, connecting the suppliers and others; the full text is not on tape) "all comes from Msbc" and could be done "tomorrow"; Nathan: they work "with the existing BOM… current inventory in… BC and the list of suppliers in BC." This is the "ordering without Mikhail" goal from today, now framed as downstream of a solid BOM.
 
+## Oct 13 2026 update — vendor data in MSBC, and the report split from the BOM
+
+On the [[wiki/meetings/2026-10-13-github-msbc-ai-bom-control-gate-and-msbc-only-reports.md|Oct 13 "GitHub-MSBC" meeting]] Val restated the MSBC end state from the vendor side: "Административнофинансовая Информация на каждого вендера" — bank, contacts, administration — should come from the vendor itself into MSBC in a format that can be loaded directly, while the parts, semi-finished goods, products or services bought from that vendor come from GitHub. "Что сегодня не работает это совмещение" of the two for the same vendor. Genadi: the format must be worked out with Nathan; he stores files in the repositories by project today, and Nathan should say how to organise or tag them [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]. Val also said the GitHub–MSBC BOM sync and the MSBC report are "2 разные вещи" — see [[wiki/decisions/2026-10-13-procurement-reports-come-only-from-msbc-and-the-excel-export-report-goes-away.md]] and [[wiki/decisions/2026-10-13-the-agent-builds-the-bom-as-a-control-gate-taught-by-data-contracts-not-cad-and-genadi-finds-why-it-is-wrong.md]] [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — test Nathan's work as soon as it is ready, and find what does not work — due week of Oct 12–20 2026 — [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]] *(Oct 9: Nathan is out that week; the work to test is now the Georgia Flex Pay Slim BOM, due end of October [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]])*
@@ -62,6 +66,8 @@ At the [[wiki/meetings/2026-10-09-github-msbc-agent-bom-assembly-and-pay-slim-fi
 - [ ] Genadi Peari — send Val the link to the Flex Pay Slim in the hardware-manufacturing repo — due Oct 8 2026 — [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]] *(Oct 9: he said he will send Nathan the Pay Slim link; whether Val got his is not said [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]])*
 - [ ] [[wiki/people/val-levitan.md|Val Levitan]] — prepare a quote request to Hangzhou for the Flex Slim sheet metal, Georgia and Texas, himself — due unspecified — [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
 - [ ] Owner not named ("[Needs Val's confirmation]" in the notes) — order the IQ parts and boards to reach 100 units — due unspecified (Val: "Порты на IQ это всё нужно заказывать") — [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]] [[raw/Meeting_Notes_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
+
+- [ ] Genadi Peari and [[wiki/people/nathan-carver.md|Nathan Carver]] — agree the format for each vendor's administrative and financial data into MSBC, and how files in the repositories are organised or tagged — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
 
 ## Open questions
 
@@ -82,3 +88,5 @@ At the [[wiki/meetings/2026-10-09-github-msbc-agent-bom-assembly-and-pay-slim-fi
 - [[raw/Meeting_Notes_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
+- [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
+- [[raw/Meeting_Notes_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]

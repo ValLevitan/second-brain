@@ -3,9 +3,9 @@ type: organization
 title: Georgia Lottery Corporation (COAM regulator)
 date: 2026-09-10
 aliases: [Georgia Lottery, Georgia Lottery Corporation, GLC, COAM staff, the Lottery, COAM division, COAM Hearing Room, Georgia Lottery COAM, guidance is not the law, they're coming out with the draft, the general counsel had a negative reaction]
-source-count: 11
+source-count: 15
 open-commitments: 2
-open-questions: 3
+open-questions: 4
 ---
 
 # Georgia Lottery Corporation (COAM regulator)
@@ -117,6 +117,29 @@ At the [[wiki/meetings/2026-10-12-ris-mvp2-scope-and-release-timing.md|Oct-12 RI
 
 Here the transcript says "Intralot" plainly, which supports the Oct-5 reading of "the interlod" as Intralot (**inference** still, for Oct 5).
 
+## Oct 13 2026 (in absentia) — a rule expected that week, InComm's opinion given, and JVL's word to "Chris"
+
+On the [[wiki/meetings/2026-10-13-incomm-prize-play-reset-agreement-scope-and-cash-dispense.md|Oct-13 InComm call]] Jason of InComm (read as Jason Hall — **inference**) said [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]:
+
+- "**tomorrow, the lottery is going to introduce a rule**" (he first said "Wednesday, tomorrow"), and later "what gets introduced on Thursday" and "the lottery meeting on Thursday". Which day is **unclear**.
+- "**we've given the GLC our opinion on what that rule is. Whether or not they adopt it or don't, I don't know… I think they'll find a middle ground**." InComm and JVL will each have their own legal reading; "What we need to do is… get the clarity from the regulator."
+- Jason told Val to have operators who want the product get "some kind of response" from the lottery.
+
+Val said: "I already spoke to GLC about it to Chris, and I said that we are removing this feature" (the cash dispense). "Chris" ("Chris Bonsec" later on the tape) is read as the **Chris Boncek** on the Sept-10 meeting invitation above — **inference** [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]. The notes do not verify the surname [[raw/Meeting_Notes_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]].
+
+## Oct 13 2026 — in the room at Intralot: the site controller, promo credits, HB 353 and enforcement
+
+A Lottery representative addressed as "Chris" (read as [[wiki/people/chris-boncek.md|Chris Boncek]] — **inference**) sat in on the first part of Val's [[wiki/meetings/2026-10-13-intralot-machine-lockouts-test-lab-and-route-partnership.md|Oct-13 meeting at Intralot]]; the notes say he is "most likely Chris Boncek" and ask Val to confirm [[raw/Meeting_Notes_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]. Quotes from [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]].
+
+- **Testing access is the Lottery's call.** Intralot gives its test environment only to the certification labs and the Lottery. The site controller is proprietary and has not been issued to a manufacturer before, but a loan is "**maybe… a possibility**". He advised Val to ask for a site controller and for testing at Intralot in one letter, and said "**we are probably having more of an appetite to do it in house**" — [[wiki/decisions/2026-10-13-val-asks-the-lottery-in-one-letter-for-a-site-controller-or-testing-at-intralot.md]]. Meanwhile he agreed to the ten-machine lab test now — [[wiki/decisions/2026-10-13-ten-jvl-machines-go-into-intralots-lab-now-without-waiting-for-the-lottery.md]].
+- **Transactional equipment is outside the game.** No testing at Intralot is needed for Flex-IQ, the kiosk or Flexport — [[wiki/decisions/2026-09-10-the-transactional-equipment-demonstration-goes-to-intralot.md]] (Oct-13 update).
+- **Promo credits are not allowed today.** "**Promo meters are not part of the current SaaS**" (= SAS) requirements; anything must fit what "**version 1. 8 is right now**". Allowing them would need "**an update to those requirements**" and a wider talk about inducements when money comes "**from… manufacturer to a player**".
+- **HB 353 and the spring session.** Gift-card cash access will be "**a hot topic in the spring at the dome**"; "**they're probably going to fine tune HB 353 in the spring**". Today "**digital. Gift cards are okay**", but rails may stop a gift card becoming "**a conduit for the cash**". "**HB 353, House Bill three fifty three is the latest**". He also pointed Val to "**the regulated industries**" committees and to Representative **Alan Powell**.
+- **Joe's earlier guidance.** "**a lot of folks started a design of a solution based on his initial commentary… now that's completely different**", and "**I don't know if we'll have some litigation against us**" — see [[wiki/people/joe-kim.md]].
+- **Enforcement.** If a location is found "**not compliant with either offering gift cards or lottery tickets**": "**we have to give them a warning by law initially**", then a violation if it does not comply.
+- **No reporting duty on JVL's transactional system:** "**that's up to you**".
+- **The million-dollar meter spikes** stay pending until corrected with Lottery authorization; calling in meters before a hard reset makes the correction easier — see [[wiki/organizations/intralot.md]].
+
 ## Open commitments
 
 - [ ] Georgia Lottery staff — connect Val with the right people at InComm and give him a direct phone number and email address for [[wiki/people/joe-kim.md|Joe Kim]]: "**We can call. We'll be glad to give you a phone number and… email address**", and at the close "**Let me get you some contacts, and I'll email them to you, and we'll go from there**" — due unspecified — [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
@@ -127,6 +150,8 @@ Here the transcript says "Intralot" plainly, which supports the Oct-5 reading of
 - **Should JVL develop ATM or cash-out capability?** Val asked the room directly — "**So, should I be working on ATMs, or should I not be**" — and the conversation moved to InComm without an answer — [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
 - **Will the Lottery's prize-card position shift again?** Its counsel's stance changed recently and the staff said openly that the same meeting held two weeks earlier would have produced a different answer — [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
 - **Will the January 2027 session restrict Class A?** Nobody in the room would predict it; the staff expect it to be addressed and warned a crowded bill could make it worse — [[raw/Meeting_Notes_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]] [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
+
+- **Will promo credits ever be allowed in Georgia, and who decides?** Not in the current requirements (version 1.8); the Lottery's legal people, the operators and the legislature were all named — [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
 
 **§15.8:** clear — regulatory and market content only; no named-person compensation.
 
@@ -142,3 +167,7 @@ Here the transcript says "Intralot" plainly, which supports the Oct-5 reading of
 - [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]]
 - [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
 - [[raw/Meeting_Transcript_RIS_MVP2_Scope_and_Release_Timing-October-12-2026.md]]
+- [[raw/Meeting_Notes_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]
+- [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]
+- [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
+- [[raw/Meeting_Notes_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]

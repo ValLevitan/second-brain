@@ -1,15 +1,17 @@
 ---
 type: decision
-title: RIS improvement MVP1 is the top Jira capabilities (CAP-252, 255, 246, 250, 254) grouped into one release, due October 19 — no non-functional requirements, no LTE modem, and the lottery lock left out
+title: RIS improvement MVP1 is the top Jira capabilities (CAP-252, 255, 246, 250, 254) grouped into one release, due October 19 (date moved Oct 14 to about November 8–9, MVP 2 tasks folded in — inference, see update) — no non-functional requirements, no LTE modem, and the lottery lock left out
 date: 2026-10-05
 aliases: [RIS improvement MVP1, RIS improvement release MVP1, MVP1 RIS release, three capabilities in two weeks, CAP-252, CAP-255, CAP-246, CAP-250, CAP-254, release date set for 19th, no LTE modem, add four days]
-source-count: 4
+source-count: 5
 status: active
 open-commitments: 3
 open-questions: 2
 ---
 
 # RIS improvement MVP1: five Jira capabilities, one release, October 19
+
+> **Status note (Oct 14 2026):** the October-19 date no longer holds if the Oct-14 reading is right — Pavel extended "MVP 1" to about November 8 or 9 and put the MVP 2-marked tasks into it, in Kharetski's turn about the old-version branch. Which MVP 1 he meant is an **inference**; see [[wiki/decisions/2026-10-14-mvp1-is-extended-to-about-november-8-or-9-and-the-mvp2-marked-tasks-are-done-inside-it.md]] and the Oct-14 update below. The rest of this decision (the capability list, no LTE modem, the lottery lock left out) is not changed.
 
 Ruled by [[wiki/people/val-levitan.md|Val Levitan]], with [[wiki/people/pavel.md|Pavel Frolov]] agreeing, at the [[wiki/meetings/2026-10-05-ris-mvp1-scope-and-peach-packaging.md|Oct-5 11:00 AM "RIS changes review"]]. Quotations from [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]] unless marked.
 
@@ -85,9 +87,18 @@ The MVP 2 planning call took place on [[wiki/meetings/2026-10-12-ris-mvp2-scope-
 
 - [x] Felipe Miranda — set up the RIS improvement MVP 2 planning meeting a week out, same time, everyone invited — due about Oct 12 2026 — [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]] — discharged: the "RIS MSVP2 Meeting" took place on Oct 12 at 11:29 AM (who sent the invitation is not stated; Val did not attend) [[raw/Meeting_Transcript_RIS_MVP2_Scope_and_Release_Timing-October-12-2026.md]]
 
+## Update, Oct 14 2026 — MVP 1 to about November 8–9, with the MVP 2 tasks inside (read as this release — inference)
+
+At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-library.md|Oct-14 Minsk stand-up]] (Russian) [[wiki/people/evgeny-kharetski.md|Kharetski]] reported the passport work done and the battery test (task 246) under way, then: "я как понимаю у нас VP он превратился в MB 2". [[wiki/people/pavel.md|Pavel]]: "надо будет MVP один расширить дату до… 8 наверное да или до 9 ноября. И это то, что там помечены задачи MVP 2 их сделать MVVP один на самом деле." Irina agreed. Kharetski checked that the team still delivers "старую версию"; Pavel and Irina: yes — the one first cut, with more time [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]].
+
+- **Evolution.** On Oct 12 the Oct-19 release was in question. On Oct 14 Pavel moves the date to about November 8 or 9 and folds in the MVP 2 tasks — close to Felipe's Oct-12 "release would be like November 9th, 10th". This is **evolution**, if the reading holds — [[wiki/decisions/2026-10-14-mvp1-is-extended-to-about-november-8-or-9-and-the-mvp2-marked-tasks-are-done-inside-it.md]].
+- **Val.** Whether Val agreed is not in this source.
+- **CAP-246.** Kharetski is testing the battery under task 246, with a sub-task for the test. Whether 246 was "already implemented" (Oct-5 question below) is not said.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
 - [[raw/Meeting_Notes_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
 - [[raw/Meeting_Transcript_RIS_MVP2_Scope_and_Release_Timing-October-12-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]

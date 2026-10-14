@@ -3,9 +3,9 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, floating FlexPort, FlexPort on posts, флори дизайн, recycling cassette, drop cassette, two-tape reel, refill cycle, IQ point of sale, promo credit on SAS 2, validator emulation, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS, ATM registration, slim ATM, Flex-Port-Mini, Flex Port Mini, Flex-Slim first ten, brackets from China, twelve eight twenty, eVoucher, wrapped gift card, EasyLynx, second SAS port, ATM Recycler, PTI Sentry, MudaGoose, Lego bricks, closed loop ATM, promo meter, technology agnostic, player is the king, tap to fund, the magic is in speed, Pay Slim, cannibalise MudaGoose, zero-balance wallet, wallet lifetime, one TITO printer, splitting, AFT device, AFT window, emulate an AFT device, no cash dispensing, eWallet TTL, collect fork, unclaimed transaction, reissue versus reprint, print new carrier, balance snapshot, daily cap and velocity, SAS 6.02, Gaming Standards Association, audit report one button, dual balance deposited and playable, Total Playable only Redeemable, balance naming ADR, playable only, unclaimed money, maintenance versus lockout, always-on scanner, LTE modem per device, capability requires requirement, printer tilts, preventive supply telemetry, vault server, incremental five, five dollars of promotional credit for a phone number, clearance network prohibits proceeds from gambling, business way agnostic, they are not your customer they are mine, offline operation, twenty-four hour offline window, lease expiry versus internet loss, be honest with yourselves, no cash on FlexPay, de-enrolled from a location never from the cloud, fifteen Flex-Ports design for 99, no daily cap error, pending transaction, one-time redemption PIN, synchronisation point, metal mesh on standoffs, Flex-Pay-Slim lid, service bay cover, taut string stopper, roll forward only, no rollback to a previous build, MVP1 dual SAS only, capability 144 cloned, nothing is closed, Monday scope freeze, receipt format still not given, balance display game agnostic, stackable recycler, cash box capacity, standalone TITO printer topology, four swimlanes seven columns, language button top left, 854 by 480, status icons on error screens, asset number, серийный номер машины, engineering menu QR, machine performance report MVP2, feature lock slips, capability 229, TouchGFX Designer, two-stage screen redraw, HTML mock-up versus Figma, design tokens, the kiosk is FlexPay, player gets two dollars less, blank not empty, texts compiled at build, October 2 end date, E2E micro-step, KORE SIM in the IQ, capability 234, capability 235, forfeit wallet, no PIN lockout, nine Flex-Ports default twenty]
-source-count: 308
-open-commitments: 144
-open-questions: 40
+source-count: 313
+open-commitments: 148
+open-questions: 42
 ---
 
 # FlexPay business architecture and the payout-device catalog
@@ -3053,6 +3053,48 @@ At the [[wiki/meetings/2026-10-12-daily-standup-flexport-emulator-and-jira-auto-
 
 - Is the Flex IQ SD-card install problem really fixed? It did not repeat in about twenty installs; Chudinov: "не факт, что решили" (someone says) — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
 
+## Oct 13 2026 (5:05 AM stand-up) — capability 117 finished, 134 next; wallet dates, Payment Hub reports and web services on STG, DEV and PROD; the barcode scanner in the dark
+
+At the [[wiki/meetings/2026-10-13-daily-standup-video-decode-memory-and-release-task-type.md|Oct-13 Minsk stand-up]] (Russian, a Tuesday) [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]:
+
+- **[[wiki/people/alexander-biratka.md|Biratka]].** "Я завершил каполить 117" (capability 117) — card issuing through the Payment Hub; it issues on the STG server; field fixes may still come. Now finishing capability 134, tied to open task 1287: card-dispenser errors, such as a card held, pulled out late or not taken in time.
+- **[[wiki/people/dmitri-chudinov.md|Chudinov]].** Went through all the wallet screens so the date format is the same everywhere (the Spanish locale had broken it). Some Payment Hub fixes for the online reports. Web services are now deployed "и на с т г и надев и напрот" (STG, DEV and production) — see [[wiki/decisions/2026-10-09-all-web-services-go-to-production-before-the-weekend-instead-of-waiting-for-georgia.md]] (Oct-13 update). The Records tab had become slow with many records; the front end recalculated dates for each row; fixed.
+- **The barcode scanner in the dark.** That morning a terminal's barcode scanner seemed to "вслип уходить" (go to sleep). Pavel's view: it is the dark — the scanner works by noticing a change in the picture and does not turn on its backlight; "может быть нам надо всё время включенную подсветку держать… придумать что то надо с этим". Chudinov will check again the next morning. The notes read the same: "Dzmitry will check again tomorrow morning" [[raw/Meeting_Notes_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]].
+
+### Open commitments (Oct 13 2026, 5:05 AM)
+
+- [x] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — finish capability 134 (card-dispenser error cases; task 1287) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]] — **discharged Oct 14 2026**: "я завершил capoits 134, которые занимался вчера" — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — check the barcode scanner again in the dark — due Oct 14 2026 (morning) — [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]] — *Oct 14 2026: not done yet — "Это сегодня в темной комнате я еще не был"; the AI digest listed the item* — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+
+### Open questions (Oct 13 2026, 5:05 AM)
+
+- How to keep the terminal's barcode scanner working in the dark — keep the backlight on all the time? — [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
+
+## Oct 13 2026 (12:15 PM) — on the InComm call: the dispenser is removed, and Prize Play comes first
+
+On the [[wiki/meetings/2026-10-13-incomm-prize-play-reset-agreement-scope-and-cash-dispense.md|Oct-13 InComm call]] [[wiki/people/val-levitan.md|Val]] told InComm: "Right now at this stage, I have removed the capability of the dispenser. I removed it not to comply with you, but to comply with legislative interpretation at this point in time." He also said that once the Skill Pay card is back "I would be introducing that feature". InComm will take JVL's product through certification and launch on Prize Play first [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]. See [[wiki/decisions/2026-10-13-incomm-and-jvl-reset-the-relationship-and-launch-on-prize-play-first.md]].
+
+## Oct 14 2026 (4:47 AM stand-up) — capability 134 done, 135 and 116 next; Chudinov's FlexPort 124–126; a slow update on a production Flex IQ; web services to the prose-and-contracts standard
+
+At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-library.md|Oct-14 Minsk stand-up]] (Russian, a Wednesday) [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]:
+
+- **[[wiki/people/alexander-biratka.md|Biratka]].** Finished capability 134. Finishing capability 135: the check with pulled-out cables on the validator, which was missing on his validator. Next is capability 116: partly done, but the checks on the link with the terminal hub are missing ("отключение включение лицензии там и так далее"). Pavel asked him to set a start date on "ф п 12 09" (as heard), because without it the board shows a gradient.
+- **[[wiki/people/dmitri-chudinov.md|Chudinov]] — FlexPort tasks.** "124 125 126 все в работе"; he will close them today (the notes read them as FlexPort tasks). Someone again said they do not match the mock-ups; he will answer in the comments.
+- **A production Flex IQ.** The night before, with [[wiki/people/andrei-klimovich.md|Andrei Klimovich]], he brought up a production Flex IQ and re-registered an old one: "он зарегистрировался хорошо". It got the first version, then he pushed an update. It installed, but much slower than in the office: by the logs about "6 мегабит", "раза в 2–3" less than here. Pavel: it may be because their building is "по сути, ангар металлические" (in fact a metal hangar). Chudinov: the logs show a good signal level. He will remove junk logs and add useful ones, push one more update, and then — with Pavel, who he thinks has the production keys — connect over the local network to check the ping to the terminal, together with Klimovich.
+- **Web services to the standard.** Chudinov brought the transactional web services in line with the standards "которые Андрей писал" (which Andrei is **not identified**). Pavel: meaning the projects hold prose and contracts? Chudinov: "Всё всё проза всё, что там Андрей заводил всё с зелеными галочками." Two remain — the notes read them as FlexPay and RIS, with Sergey; the transcript words are garbled ("люкспей и ресатка") [[raw/Meeting_Notes_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]].
+- **Availability.** Chudinov is on vacation from Oct 15 but stays reachable in writing ("пишите").
+- **The barcode scanner in the dark** — not yet checked ("в темной комнате я еще не был").
+
+### Open commitments (Oct 14 2026, 4:47 AM)
+
+- [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — finish capability 135 (the pulled-cable check on the validator), then capability 116 (terminal-hub link checks); set the start date on "FP 12 09" — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — close tasks 124, 125 and 126 and answer the mock-up remarks in comments — due Oct 14 2026 (his last day before vacation) — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — improve the update logs, push another update to the production Flex IQ, and check the ping to the terminal over the local network with Pavel and Klimovich — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+
+### Open questions (Oct 14 2026, 4:47 AM)
+
+- Why does the production Flex IQ update at only about 6 Mbit/s, 2–3 times slower than in the office, when the logs show a good signal? — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -3366,3 +3408,8 @@ At the [[wiki/meetings/2026-10-12-daily-standup-flexport-emulator-and-jira-auto-
 - [[raw/Meeting_Notes_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
+- [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
