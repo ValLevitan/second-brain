@@ -3,7 +3,7 @@ type: project
 title: The AI project manager and the company second brain — Val's direction (Sept 25 2026), the design and plan of work (Sept 29 2026), owned by Andrey Bosik
 date: 2026-09-25
 aliases: [AI PM, PM agent glossary, Jira project codes pronunciation, словарь глоссарий, AI project manager, AIPM, AI проджект менеджер, Design_AI-PM, company second brain, JVL second brain, одна компании секунд брейн, second brain for JVL, Karpathy method at JVL, AI draft tasks in Jira, meeting bot, AI PM persona, transcript collection, глоссарий Лены, Listener, листонер, 318 transcripts, AI Draft status, Teams agent, боевой режим, live mode October 12]
-source-count: 18
+source-count: 20
 open-commitments: 0
 open-questions: 0
 ---
@@ -107,6 +107,16 @@ Against the Sept-29 order of work: step 1 (collect) is done; step 2 (build the s
 
 [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
 
+## Oct 9 2026 — "Dasha" in test mode, production Monday; the team already talks to the bot
+
+At the [[wiki/meetings/2026-10-09-daily-standup-weekend-service-rollout-and-stats-blocking.md|Oct-9 Minsk stand-up]] (Russian) [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] said the agent runs in test mode, called "Dasha" for now; production is planned for Monday if ready; its tasks arrive as drafts to accept or reject, likely with a link to the meeting. Chudinov, the same morning: "пометка для бота не создавай на этой задачи" [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]. Detail on [[wiki/decisions/2026-10-08-the-ai-pm-goes-live-in-real-jira-projects-on-october-12-on-its-current-architecture-without-lenas-meetings.md]] (Oct-9 update).
+
+## Oct 12 2026 — live from today; "AI Draft" review from the next morning
+
+At the [[wiki/meetings/2026-10-12-daily-standup-flexport-emulator-and-jira-auto-progress-rule.md|Oct-12 Minsk stand-up]] (Russian) Pavel announced that "всё с сегодняшнего дня начинается"; [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] explained the routine: from the next morning each person reviews the agent's tasks in status "AI Draft" by a filter, and rejects unneeded ones with a resolution and an optional comment [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]. Detail: [[wiki/decisions/2026-10-08-the-ai-pm-goes-live-in-real-jira-projects-on-october-12-on-its-current-architecture-without-lenas-meetings.md]] (Oct-12 update).
+
+The same morning [[wiki/people/irina-shishko.md|Irina]] described four tasks (about 118–122) opened the day before from Vladimir's long list of questions after "сначала его клод посмотрел, потом мой клод посмотрел" — Claude-reviewed tasks that people must now confirm or reject [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]. That is a separate, hand-run use of Claude, not the agent (**inference**).
+
 ## Open items
 
 Commitments and open questions are held on the decision pages, not duplicated here: [[wiki/decisions/2026-10-08-the-ai-pm-goes-live-in-real-jira-projects-on-october-12-on-its-current-architecture-without-lenas-meetings.md]] (go-live, the Teams agent, the draft lifetime), [[wiki/decisions/2026-09-29-bosik-owns-the-ai-pm-the-meeting-bot-waits-and-the-second-brain-is-built-first.md]] (Bosik's remaining work items, the dry run, the Oct-6 status; where it runs, output length, timing), [[wiki/decisions/2026-10-02-ai-pm-mvp1-uses-the-teams-transcripts-as-they-are-and-whisper-re-transcription-waits-for-mvp2.md]] (processing and storing the 318 transcripts; when the store moves to a database) and [[wiki/decisions/2026-09-25-one-company-second-brain-feeds-an-ai-project-manager-for-jira.md]] (Val's offer to have Claude write up his set-up; approvals/versions; cost).
@@ -140,3 +150,5 @@ Commitments and open questions are held on the decision pages, not duplicated he
 - [[raw/Meeting_Notes_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
 - [[raw/Meeting_Transcript_AI_Chief_System_Architect_Gap_Finding_Task-October-8-2026.md]]
 - [[raw/Meeting_Notes_AI_Chief_System_Architect_Gap_Finding_Task-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]

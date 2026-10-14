@@ -4,7 +4,7 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 84
+source-count: 87
 open-commitments: 47
 open-questions: 0
 ---
@@ -609,6 +609,15 @@ At the [[wiki/meetings/2026-10-08-daily-standup-lease-expiry-scenarios-and-flex-
 - [ ] Dmitri Chudinov — fix SAS handling in the machine emulator; review the traffic logs — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
 - [ ] Dmitri Chudinov, with Andrei Klimovich (by context) — review the lease and location scenarios against the requirements — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
 
+## Oct 9 2026 — production over the weekend; the statistics host; device tests first; Payment Hub answers, the SAS emulator, the lease after reboot; "MVP 1 development is formally finished"; the secrets wipe; port-crash money to unclaimed
+
+- At the [[wiki/meetings/2026-10-09-daily-standup-weekend-service-rollout-and-stats-blocking.md|Oct-9 stand-up]] he proposed rolling out all web services before the weekend — [[wiki/decisions/2026-10-09-all-web-services-go-to-production-before-the-weekend-instead-of-waiting-for-georgia.md]]; raised the blocked statistics host — [[wiki/decisions/2026-10-09-one-machines-bad-statistics-must-stop-blocking-the-statistics-host-and-a-task-is-opened.md]]; and asked that port, machine and IQ tests come first — [[wiki/decisions/2026-10-09-tests-to-october-15-follow-80-20-and-port-machine-and-iq-tests-come-before-cloud-tests.md]]. His own work (odd dev-InComm answers, a screen watchdog, SAS emulator fixes, the lease lost after reboot, TIN-19) is on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] and [[wiki/topics/test-automation-strategy.md]] (Oct 9) [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]].
+- On the [[wiki/meetings/2026-10-09-transactional-mvp1-test-machines-and-unclaimed-funds.md|Oct-9 Transactional MVP 1 call]]: "Формальное MVP один с точки зрения разработки закончен" — [[wiki/decisions/2026-10-09-first-borrowed-operator-machines-are-arranged-for-october-15-16.md]]; the secrets-wipe hack, already in the instruction — [[wiki/decisions/2026-10-09-a-terminal-registered-before-must-wipe-its-secrets-and-the-install-instruction-says-so-in-red.md]]; port-crash collect money parked as unclaimed, autotests aimed at it — [[wiki/decisions/2026-09-24-a-flex-port-that-dies-holding-money-sends-it-to-unclaimed-and-one-without-a-gateway-goes-out-of-service.md]] (Oct-9 update) [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]].
+
+## Oct 12 2026 — STG and production with Andrei; location billing as it is; separate version numbers; the EGM emulator to the SAS standard
+
+At the [[wiki/meetings/2026-10-12-daily-standup-flexport-emulator-and-jira-auto-progress-rule.md|Oct-12 stand-up]]: mass deploy on STG and production prep (certificate, fresh build, web services today), location billing rolled as it is — [[wiki/decisions/2026-10-09-all-web-services-go-to-production-before-the-weekend-instead-of-waiting-for-georgia.md]] (Oct-12 update); each environment counts its own Flex IQ versions, not an MVP 1 blocker — [[wiki/decisions/2026-10-12-separate-flex-iq-version-numbers-per-environment-are-not-an-mvp1-blocker-and-a-fix-comes-after-mvp1.md]]; EGM emulator, SD-card install, fewer InComm requests, PR 169 to review — [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 12) [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -695,3 +704,6 @@ At the [[wiki/meetings/2026-10-08-daily-standup-lease-expiry-scenarios-and-flex-
 - [[raw/Meeting_Notes_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]

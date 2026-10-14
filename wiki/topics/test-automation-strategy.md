@@ -3,9 +3,9 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, eighty percent of the general functionality, requirements are step two, a hole automated tests will not cover, acceptance criteria in general terms, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction, Figma to React, Vite, Claude Code review loop, acceptance criteria, two test warehouses, frozen test cases, test harness, test registry, no E2E tests for MVP 1, E2E micro-step, telnet hook test, 60 to 70 percent acceptance criteria, symlink to dev null, eight connection tests, money-crediting autotest]
-source-count: 67
-open-commitments: 44
-open-questions: 7
+source-count: 71
+open-commitments: 56
+open-questions: 8
 ---
 
 # Test-automation strategy and testing architecture
@@ -785,6 +785,55 @@ The notes record the same round [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_S
 - [ ] [[wiki/people/ivan.md|Ivan]] — finish the rebuild, then TIN-13, then the battery work — due Oct 8 2026 for the rebuild ("сегодня") — [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
 - [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — run the three remaining stories on a real terminal — due Oct 8 2026, if a terminal is free — [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
 
+## Oct 9 2026 (4:46 AM) — 80/20 to the 15th with device tests first; a 12:45 meeting on testing with cloud services; Khamin's CI on real hardware and TIN-76; Seregin's emulator tasks 146 and 147; Irina's TIN-16 and TIN-19; Ivan's installation, TIN-11 and 1250; Vladimir's closed autotests and the 33-versus-32 screens of requirement 1813
+
+At the [[wiki/meetings/2026-10-09-daily-standup-weekend-service-rollout-and-stats-blocking.md|Oct-9 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]:
+
+- **The rule to the 15th:** [[wiki/decisions/2026-10-09-tests-to-october-15-follow-80-20-and-port-machine-and-iq-tests-come-before-cloud-tests.md]]. **The cloud-test meeting** at 12:45: [[wiki/decisions/2026-10-05-the-payment-hub-autotest-stand-is-not-mvp1-and-a-separate-meeting-with-andrei-designs-it.md]] (Oct-9 update).
+- **[[wiki/people/alexei-khamin.md|Khamin]].** CI on real hardware still cannot be set up so the tests really run; he works on TIN-76 (rules) in parallel. He asked when it is decided how services come up for autotests.
+- **[[wiki/people/anton-seregin.md|Seregin]].** Made emulator task 146 the day before ("Там можно задавать. Пинкоды. [серийники] для [technician]"). Now on 147, so the terminal can run in emulator mode against real services — registration and card operations "на реальном с реальным сервисом". He plans to close it today.
+- **[[wiki/people/irina-shishko.md|Irina]].** One test is blocked by TIN-19, which Chudinov will look into. TIN-16 she will split as discussed for MVP 2, then close. Next maybe 17 and 18.
+- **[[wiki/people/ivan.md|Ivan]].** He found the machine they worked on (no number was given to him) and will create and send the installation. He closed one TIN yesterday; TIN-11's test is being written; he is looking at 1250; then the battery.
+- **[[wiki/people/vladimir-samusenko.md|Vladimir]].** Closed autotests 42, 23 and 62; 21 went to Khamin for review. On 73 he is unsure whether it is blocked (the link with the Payment Hub during the operation); he checks the current version. The emulator needs a version stub; he may add it himself and send it to Seregin for review. Then 30, 60 and 70 — "Надеюсь, там сегодня к вечеру… или на ревью отправлено или [блокеры] какие то завезены."
+- **769 and requirement 1813.** Irina asked why 769 is a blocker. Vladimir: the credit screen requirement "18, 13" — the design has 33 screens, "Как будто бы надо 32"; is the screen a bug to add, or should it leave the requirement? Not answered.
+
+The derived notes read the round the same way [[raw/Meeting_Notes_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]].
+
+### Open commitments (Oct 9 2026, 4:46 AM)
+
+- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — finish emulator task 147 (terminal in emulator mode against real services) — due Oct 9 2026 — [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — split TIN-16 and close it — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — look into TIN-19, which blocks one of Irina's tests — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+- [ ] [[wiki/people/ivan.md|Ivan]] — create and send the installation for the machine they worked on; continue TIN-11 and 1250, then the battery — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+- [ ] [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] — add the emulator version stub (review by Seregin); then 30, 60 and 70 to review or blockers — due Oct 9 2026 evening — [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+
+### Open questions (Oct 9 2026, 4:46 AM)
+
+- Is the 33rd credit screen of requirement 1813 (test 769) a bug to add, or should it leave the requirement? — [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+
+## Oct 12 2026 (4:56 AM) — Flexport CI on real ports; Khamin's tests on pull requests; the Claude bot runs low; Seregin wants a terminal; one autotest a day to the 15th; tasks 118–122
+
+At the [[wiki/meetings/2026-10-12-daily-standup-flexport-emulator-and-jira-auto-progress-rule.md|Oct-12 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]:
+
+- **The port route:** [[wiki/decisions/2026-10-12-flexport-ci-tests-run-on-real-ports-through-the-internal-runner-and-no-port-emulator-is-built-for-now.md]]. **The pace to the 15th:** [[wiki/decisions/2026-10-09-tests-to-october-15-follow-80-20-and-port-machine-and-iq-tests-come-before-cloud-tests.md]] (Oct-12 update).
+- **[[wiki/people/alexei-khamin.md|Khamin]].** Bringing the tests up on pull requests and on real hardware; two sets pass on pull requests; a rule for the CI parameters today. He misses the Claude review bot most. Irina has taken all but one of his test features onto herself; he cannot take more "сегодня, завтра".
+- **The Claude bot balance.** [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]]: almost 300 Canadian dollars on the balance; of his $100 top-ups some were refused and some went through, "какая то несистемная штука" — probably the bank's security. He could use a Canadian card "но я не могу это сделать без какогото одобрения"; Irina: "без разрешения не делай". About 20 pull requests' worth, "Меньше 20"; Khamin: pull requests are checked "В среднем 23 раза" (read as 2–3 times); over the weekend "порядка семиста скушали буквально за полдня". Pavel: Andrei had written the day before that the card had no money to extend it.
+- **[[wiki/people/anton-seregin.md|Seregin]].** Closed 147 on Friday — the STG cloud profile, so the emulator registers as a normal terminal. Closed 150 and 151 (Vladimir's); will re-check. Wants a free terminal to run a scenario; Pavel: build one more, "должно хватать всех компонентов", and half its parts could be 3D-printed.
+- **[[wiki/people/irina-shishko.md|Irina]].** One autotest a day each for Ivan and Vladimir to fit by the 15th; flag cloud-only and manual-only tests at once.
+- **[[wiki/people/vladimir-samusenko.md|Vladimir]].** On autotests; answers came back on questions (the word reads "лотерея" — **unclear**); all blocked tasks are being reviewed today to move as many as possible.
+- **Tasks 118–122.** Irina: four tasks opened the day before from Vladimir's long list of questions, after two Claude reviews; people must now say whether they are needed. All sit on [[wiki/people/sergey-tsymanov.md|Tsymanov]]; Pavel: review them with his Claude and rewrite them in clear Russian.
+- **[[wiki/people/ivan.md|Ivan]]** is on autotests, so he does not test Kharetski's work — see [[wiki/decisions/2026-10-06-the-ris-mvp1-changes-are-built-for-georgia-only-on-the-1-14-svn-line-with-nothing-else-added.md]] (Oct-12 update).
+
+### Open commitments (Oct 12 2026, 4:56 AM)
+
+- [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — get the bank's answer on the refused Claude bot top-ups — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — make the test sets pass on pull requests and real hardware; add the CI-parameters rule — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
+- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — re-check and close 150 and 151 — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — build one more terminal for Seregin — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
+- [ ] [[wiki/people/ivan.md|Ivan]] and [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] — write autotests, one a day each — due Oct 15 2026 — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
+- [ ] [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] — review tasks 118–122 with Claude and rewrite them clearly in Russian — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
+- [ ] [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] — review all blocked tasks and move as many as possible — due Oct 12 2026 — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -854,3 +903,7 @@ The notes record the same round [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_S
 - [[raw/Meeting_Notes_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]

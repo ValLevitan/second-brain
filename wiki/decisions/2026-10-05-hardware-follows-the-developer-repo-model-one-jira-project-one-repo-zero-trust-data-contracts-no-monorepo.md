@@ -3,7 +3,7 @@ type: decision
 title: Hardware follows the developer repo model — one Jira project equals one repo, repos have zero trust, each holds prose, ADRs and a data contract; GitHub keeps a flat list of parts and the BOM is generated from it like a build; no monorepo
 date: 2026-10-05
 aliases: [developer model for hardware, zero trust repos for hardware, data contracts for hardware, one project one repo, no monorepo, a project is described by capabilities, flat list not a BOM, BOM generated like an ISO, ISO image analogy, 70% sure, the repo tells the agent how to search, displays repo, harnesses repo]
-source-count: 6
+source-count: 8
 status: active
 open-commitments: 0
 open-questions: 1
@@ -46,9 +46,22 @@ On the [[wiki/meetings/2026-10-08-genadi-bom-standard-flex-slim-metal-mikhail-ha
 
 **Evolution:** Oct 5 set the model; Oct 8 names the repo list, puts data-contract writing on Genadi, and adds fasteners and labels as projects. The derived notes record the same ruling [[raw/Meeting_Notes_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]].
 
+## Oct 9 2026 update — the first try: folders for future repos, a parts CSV and a structured contract per part
+
+At the [[wiki/meetings/2026-10-09-github-msbc-agent-bom-assembly-and-pay-slim-first-test.md|Oct 9 11:37 AM "GitHub-MSBC" meeting]] Nathan showed how his experiment laid out the model. All quotations [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]:
+
+- **Folders first, repos later.** "before creating any repositories… I just created folders that represent what those repositories would look like in the future… The vision is they would be separate repos. They could have their own tag and versioning."
+- **What each one holds.** "an overview of how… the parts in the repo are structured", "this parts CSV. That's just a general description of the part", and contracts: "an example of a structured contract for the part and its purpose is to define… essentially the interface. what it provides, what it accepts." A simpler one, for a label, has "the inputs, the outputs, and then notes are metadata for the agent."
+- **A "standard" for the agent.** "this is the standard. So this is where the agent's going to get its instructions and understanding of how this works."
+- **How the agent chooses.** "what part satisfies this contract?" Genadi: "if a PC board has four holes, so it needs to find the four screws, right? This is the logic." Nathan: "Correct. That's the idea."
+- **The highest assembly point.** From Val's email of the day before, Nathan started "a concept of the highest assembly point, so the actual product", with its own structure "inside the main hardware manufacturing repo"; that product is what goes into MSBC.
+- **Genadi on repos.** "I understand the idea of having the repositories and the contracts, it makes sense"; he offered to reshuffle the repositories ("Maybe you need to shuffle it in the repository"; later "I need to do some work with shuffling repositories").
+
+The derived notes record the same layout [[raw/Meeting_Notes_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]. Next step: [[wiki/decisions/2026-10-09-the-georgia-flex-pay-slim-bom-is-built-forward-from-genadis-github-source-by-agent-and-script-with-human-approval-by-end-of-october.md]].
+
 ## Open questions
 
-- Will it work for hardware at all? Val puts it at "70% sure" and calls it untried ("I haven't tried it yet") — the spike is the test — [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
+- Will it work for hardware at all? Val puts it at "70% sure" and calls it untried ("I haven't tried it yet") — the spike is the test — [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]] *Oct 9: first evidence — the rebuilt BOM came close to the original, with "outlier parts that we're going to have to settle on"; Genadi expects an agent BOM to be about "90% correct". The forward test on the Georgia Flex Pay Slim is next. Still open [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]*
 
 ## Sources
 - [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
@@ -57,3 +70,5 @@ On the [[wiki/meetings/2026-10-08-genadi-bom-standard-flex-slim-metal-mikhail-ha
 - [[raw/Meeting_Notes_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
 - [[raw/Meeting_Notes_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
+- [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
+- [[raw/Meeting_Notes_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]

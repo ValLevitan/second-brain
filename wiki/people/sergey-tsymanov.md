@@ -3,7 +3,7 @@ type: person
 title: Sergey Tsymanov
 date: 2026-07-14
 aliases: [Sergey Tsymanov, Siarhei Tsymanau, Sergey Tsimanov, Tsymanau, Tsimanov, Sergei Tsyganov, Tsyganov, Цыганов, Sergei, Sergey]
-source-count: 28
+source-count: 30
 open-commitments: 15
 disambiguation: "Minsk engineer who drafts CMS requirements with the backend 'Dima' (Chudinov). OWNER-CONFIRMED 2026-07-14 = the payroll 'Siarhei Tsymanau' (Belarusian) and the IT-records 'Sergey Tsimanov' — same person; Tsymanov canonical, Tsymanau/Tsimanov aliases. Distinct from other 'Sergei/Sergey' names (e.g. Sergei Novitsky the advanced-setup technician; Sergey Vysotsky the outside digital-growth specialist, wiki/people/sergey-vysotsky.md); resolve by context."
 open-questions: 1
@@ -200,6 +200,14 @@ At the [[wiki/meetings/2026-10-08-daily-standup-lease-expiry-scenarios-and-flex-
 
 - [ ] Sergey Tsymanov — fix the Flex memory leak (FIQ-140) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
 
+## Oct 9 2026 — memory work done; fatal errors go out of service with a clear message; the urgent lease-code task; how to spot a test machine
+
+At the [[wiki/meetings/2026-10-09-daily-standup-weekend-service-rollout-and-stats-blocking.md|Oct-9 stand-up]]: memory optimisation finished, with a separate process reporting remaining memory; last task: fatal cases show a clear critical error with a description in the statistics and go out of service — [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 9, 4:46 AM). Pavel gave him the lease-code task as urgent for the middle of next week — [[wiki/decisions/2026-10-06-the-ris-mvp1-changes-are-built-for-georgia-only-on-the-1-14-svn-line-with-nothing-else-added.md]] (Oct-9 update). On the blocked statistics host he asked how to tell a registered test machine, and warned the resend chain is "не такая простая" — [[wiki/decisions/2026-10-09-one-machines-bad-statistics-must-stop-blocking-the-statistics-host-and-a-task-is-opened.md]] [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]].
+
+## Oct 12 2026 — port 118 moved itself to In Progress; tasks 118–122 on him; location billing API
+
+At the [[wiki/meetings/2026-10-12-daily-standup-flexport-emulator-and-jira-auto-progress-rule.md|Oct-12 stand-up]]: he asked why port task 118 went to In Progress without him — [[wiki/decisions/2026-10-05-a-capability-moves-itself-to-request-review-when-all-its-features-are-completed-and-a-new-story-sends-feature-and-capability-back-to-to-do.md]] (Oct-12 update); four Claude-reviewed tasks (about 118–122) sit on him to review and rewrite clearly — [[wiki/topics/test-automation-strategy.md]] (Oct 12); he asked whether Nathan added the location-billing API — [[wiki/decisions/2026-10-09-all-web-services-go-to-production-before-the-weekend-instead-of-waiting-for-georgia.md]] (Oct-12 update); he is finishing the STG deploy with the CMS changes [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -230,3 +238,5 @@ At the [[wiki/meetings/2026-10-08-daily-standup-lease-expiry-scenarios-and-flex-
 - [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]

@@ -3,8 +3,8 @@ type: organization
 title: Incom (payment processor)
 date: 2025-02-27
 aliases: [Incom, InComm, SkillPay launch email, hold off for two years, we will take the card away from you, Intum, they totally misled me, InComm's credit, that shift in opinion has only happened recently, black prize play card, white card ATM functionality, replace InComm on the back end, backend displacement, Incomm, Income, NCOM, Incom Payments, wrapped card rule, PAX, PAX 80, reloadable gift cards, Nathan Carver, cash-back commission, barcode activation, Mastercard rules, ABA number, MLH fee sharing, kicked to the curb, InComm doesn't offer any profit sharing, they've ignored us before during and after the show, sponsor bank behind InComm, 120 million a year, the easy living guys, daily cap five k, velocity calculated on the fly, it still says soon, InComm is the master guy, sub accounts, they actually buy bonds, biggest issuer, blue card, black card, billion-dollar gorilla, two dollars to load]
-source-count: 84
-open-commitments: 16
+source-count: 86
+open-commitments: 17
 open-questions: 12
 ---
 
@@ -742,6 +742,15 @@ On the [[wiki/meetings/2026-09-30-larry-sharon-single-entity-jv-and-100-machine-
 - [ ] **InComm / [[wiki/people/val-levitan.md|Val]]** — work out the bounty and the net-new-location arrangement offered in place of InComm buying JVL hardware — due unspecified — [[raw/Meeting_Notes_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]] [[raw/Meeting_Transcript_InComm_Machine_Payments_and_ATM_Recycler_Standoff-September-2-2026.md]]
 - The remaining Sept-2 commitments — the product deck to Andrei, the "JVL as processor" path, the broker introductions, the letter InComm will write and Val's answer to it — are held once on [[wiki/decisions/2026-09-02-card-to-machine-launches-with-the-location-as-merchant-of-record.md]] and [[wiki/decisions/2026-09-02-hold-the-recycler-back-but-sign-no-undertaking.md]] and are deliberately not duplicated here.
 
+## Oct 9 2026 — still waiting for approval of JVL as a broker; odd Payment Hub answers on the dev InComm
+
+- **Broker approval.** On the [[wiki/meetings/2026-10-09-transactional-mvp1-test-machines-and-unclaimed-funds.md|Oct-9 Transactional MVP 1 call]] (Russian) [[wiki/people/andrei-klimovich.md|Klimovich]]: "насчёт инкома самого. Мы всё ещё ждём от них. Официального утверждения нас как брокеров, чтобы мы могли выпускать карточки для них, я их утром сегодня пинганул. Вот только что во время нашего разговора пришёл от них ответ." He had not read it — maybe more questions on documents. "ИНКОМ нам надо дожать" [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]].
+- **Dev InComm answers.** At the 4:46 AM stand-up [[wiki/people/dmitri-chudinov.md|Chudinov]] said that, tested on the real dev InComm, the Payment Hub sometimes does not issue the card, returns a "suspect"-type status, and once answered only after about half an hour (negative), while JVL held the funds on the wallet; he guesses a partly matching product code and will investigate — [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 9, 4:46 AM) [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]].
+
+### Open commitments (Oct 9 2026)
+
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — read InComm's reply and push for official approval of JVL as a broker — due Oct 9 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
@@ -828,3 +837,5 @@ On the [[wiki/meetings/2026-09-30-larry-sharon-single-entity-jv-and-100-machine-
 - [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Equipment_Depreciation_Investor_Pitch-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Larry_Sharon_Single_Entity_JV_and_100_Machine_Pilot-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]

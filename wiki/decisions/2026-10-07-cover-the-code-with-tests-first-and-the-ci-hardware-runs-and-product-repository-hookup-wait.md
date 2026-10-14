@@ -3,7 +3,7 @@ type: decision
 title: Cover the code with tests first — the next CI steps (runs on real hardware by IP address, and hooking the test system into the product repositories) wait
 date: 2026-10-07
 aliases: [test coverage first, покрытие сделать тестами в первую очередь, CI hardware runs wait, прогоны с железом, product repository hookup waits, подключение этой системы на других репозиториях, Khamin moves to writing tests, behind on test count, отстаём]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 1
 open-questions: 1
@@ -44,6 +44,11 @@ The derived notes record the same ruling, decided by Pavel and Irina [[raw/Meeti
 
 **§15.8:** clear — work priorities only. **§15 #9:** none.
 
+## Update, Oct 12 2026 — Khamin is bringing the tests up on pull requests and on real hardware; the port route is set
+
+At the [[wiki/meetings/2026-10-12-daily-standup-flexport-emulator-and-jira-auto-progress-rule.md|Oct-12 Minsk stand-up]] (Russian) [[wiki/people/alexei-khamin.md|Khamin]]: "оживляю тесты, чтобы они прогонялись на. При создании пиар и на. При запуске на железы на реальном"; "Что то они пока все дохлые"; two sets now pass on pull requests. He will add a rule so the needed CI parameters are written at once [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]. For the Flexport the route is now fixed — CI on real ports through the internal runner: [[wiki/decisions/2026-10-12-flexport-ci-tests-run-on-real-ports-through-the-internal-runner-and-no-port-emulator-is-built-for-now.md]]. This takes up the step deferred above (**evolution**). The open question below is partly answered: the hardware runs are under way for the port; the product-repository hookup is not mentioned.
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]

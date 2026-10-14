@@ -3,7 +3,7 @@ type: person
 title: Sebastian
 date: 2025-02-19
 aliases: [Sebastian, Sebastian Cortes, the engineer I brought in from Miami]
-source-count: 17
+source-count: 20
 open-commitments: 1
 open-questions: 1
 ---
@@ -99,6 +99,15 @@ At the [[wiki/meetings/2026-09-24-ris-serial-binding-and-factory-reset-focus.md|
 
 At the [[wiki/meetings/2026-10-05-ris-mvp1-scope-and-peach-packaging.md|Oct-5 11:00 AM "RIS changes review"]] (label "Sebastian Cortes") Pavel showed the capabilities "Created by Sebastian", which Pavel had reviewed. Sebastian confirmed they have acceptance criteria ("Yes, we do"). Val asked whether he wrote the descriptions: "Yes, with with uh Pavel support, yes, I will review it with review them and modify some things." Val: "That's exactly how it should be done." See [[wiki/decisions/2026-10-05-ris-improvement-mvp1-is-five-jira-capabilities-in-one-release-due-october-19.md]] and [[wiki/decisions/2026-10-05-the-critical-error-screen-shows-the-cause-and-fix-in-words-and-keeps-the-qr-code-in-mvp1.md]] (his commitment is held there). His Sept-28 Jira commitment is closed on [[wiki/decisions/2026-09-28-sebastian-takes-the-ris-mvp1-capabilities-into-jira-and-felipe-steps-back.md]]. [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
 
+## Oct 9 2026 (in absentia) — the lease lost after reboot (inference); to the Georgia show with Klimovich
+
+- At the [[wiki/meetings/2026-10-09-daily-standup-weekend-service-rollout-and-stats-blocking.md|Oct-9 stand-up]] Chudinov said "кортез" wrote in the chat that a machine does not keep its lease after a reboot — Sebastian (alias Sebastian Cortes) by name and field context, **inference** — [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 9, 4:46 AM) [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]].
+- On the [[wiki/meetings/2026-10-09-transactional-mvp1-test-machines-and-unclaimed-funds.md|Oct-9 Transactional MVP 1 call]] Klimovich: "мы туда с себастьяном поедем" — the short Georgia show around Oct 21–22 [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]].
+
+## Oct 12 2026 (11:29 AM) — agrees on the pain points; raises the no-printer RIS case; writes the cash-out capability
+
+At the [[wiki/meetings/2026-10-12-ris-mvp2-scope-and-release-timing.md|Oct-12 RIS MVP 2 call]]: he agreed the hard reset, the passport scan and software mismatch are the biggest pains; he asked what happens when a RIS with a printer is applied on a machine without one — [[wiki/decisions/2026-10-12-a-ris-that-needs-a-printer-still-installs-on-a-machine-without-one-and-the-machine-tilts-until-a-printer-is-added-or-unchecked.md]]; Pavel gave him the cash-out-only log capability to write — [[wiki/decisions/2026-10-12-sebastian-writes-a-cash-out-only-log-capability-for-ris-mvp2.md]] [[raw/Meeting_Transcript_RIS_MVP2_Scope_and_Release_Timing-October-12-2026.md]].
+
 ## Sources
 
 - [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
@@ -118,3 +127,6 @@ At the [[wiki/meetings/2026-10-05-ris-mvp1-scope-and-peach-packaging.md|Oct-5 11
 - [[raw/Meeting_Transcript_RIS_Battery_Replacement_Capability_Framing-September-28-2026.md]]
 - [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]
 - [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
+- [[raw/Meeting_Transcript_RIS_MVP2_Scope_and_Release_Timing-October-12-2026.md]]

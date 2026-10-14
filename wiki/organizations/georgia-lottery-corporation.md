@@ -3,7 +3,7 @@ type: organization
 title: Georgia Lottery Corporation (COAM regulator)
 date: 2026-09-10
 aliases: [Georgia Lottery, Georgia Lottery Corporation, GLC, COAM staff, the Lottery, COAM division, COAM Hearing Room, Georgia Lottery COAM, guidance is not the law, they're coming out with the draft, the general counsel had a negative reaction]
-source-count: 10
+source-count: 11
 open-commitments: 2
 open-questions: 3
 ---
@@ -106,6 +106,17 @@ Two field points from [[wiki/people/felipe-miranda.md|Felipe]] at the [[wiki/mee
 - **Reports by software number.** Operators see "this Jvl 1.2.xg coam. That's all they see and the performance numbers" — one approved software number per package, so a 12-game pack ("1919") cannot be split into Peach 1 and Peach 2. "I don't know if they get the buy game report. I don't think they do, but buy game is very, very horrible report." Pavel thought the lottery "can produce report related to by games". This drives the open packaging choice on [[wiki/decisions/2026-10-05-felipe-decides-by-october-11-one-18-game-peach-pack-or-three-separate-sticks.md]].
 - **The accounting-system lock.** Felipe: a machine is sometimes "locked by accounting system from the lottery because sometimes it's stuck and out of service and locked until someone manually does it." Val: not for RIS MVP1; he will discuss it separately ("the interlod" — possibly Intralot, **inference**). Felipe will share his email thread with Val.
 
+## Oct 12 2026 (in absentia) — the lock in detail: the lottery cannot unlock, and a fix to test in build 4333
+
+At the [[wiki/meetings/2026-10-12-ris-mvp2-scope-and-release-timing.md|Oct-12 RIS MVP 2 call]] [[wiki/people/felipe-miranda.md|Felipe]] described the Oct-5 lock more fully [[raw/Meeting_Transcript_RIS_MVP2_Scope_and_Release_Timing-October-12-2026.md]]:
+
+- Machines sometimes lose the link to Intralot "from their SAS, RS232 port". When they come back they "stay locked by accounting system until someone manually goes out of service, operational… exit", and in that time "the lottery is not able to unlock the machine from their server".
+- The lottery's view, as Felipe relayed it: "when they are locked by the lottery, you are not supposed to unlock it manually… If it's locked, it's locked."
+- Felipe has logs, sent to the lottery and to Juan. He and Val have "a meeting… tomorrow at Intralot in the morning" (Oct 13), where Val wants to raise it.
+- JVL's next step: test build 4333, which has a lock/unlock fix, on the office SAS simulator — [[wiki/decisions/2026-10-12-build-4333-is-tested-in-the-office-on-the-sas-simulator-for-the-intralot-lock-unlock-problem.md]].
+
+Here the transcript says "Intralot" plainly, which supports the Oct-5 reading of "the interlod" as Intralot (**inference** still, for Oct 5).
+
 ## Open commitments
 
 - [ ] Georgia Lottery staff — connect Val with the right people at InComm and give him a direct phone number and email address for [[wiki/people/joe-kim.md|Joe Kim]]: "**We can call. We'll be glad to give you a phone number and… email address**", and at the close "**Let me get you some contacts, and I'll email them to you, and we'll go from there**" — due unspecified — [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
@@ -130,3 +141,4 @@ Two field points from [[wiki/people/felipe-miranda.md|Felipe]] at the [[wiki/mee
 - [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]]
 - [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
+- [[raw/Meeting_Transcript_RIS_MVP2_Scope_and_Release_Timing-October-12-2026.md]]

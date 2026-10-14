@@ -3,9 +3,9 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, floating FlexPort, FlexPort on posts, флори дизайн, recycling cassette, drop cassette, two-tape reel, refill cycle, IQ point of sale, promo credit on SAS 2, validator emulation, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS, ATM registration, slim ATM, Flex-Port-Mini, Flex Port Mini, Flex-Slim first ten, brackets from China, twelve eight twenty, eVoucher, wrapped gift card, EasyLynx, second SAS port, ATM Recycler, PTI Sentry, MudaGoose, Lego bricks, closed loop ATM, promo meter, technology agnostic, player is the king, tap to fund, the magic is in speed, Pay Slim, cannibalise MudaGoose, zero-balance wallet, wallet lifetime, one TITO printer, splitting, AFT device, AFT window, emulate an AFT device, no cash dispensing, eWallet TTL, collect fork, unclaimed transaction, reissue versus reprint, print new carrier, balance snapshot, daily cap and velocity, SAS 6.02, Gaming Standards Association, audit report one button, dual balance deposited and playable, Total Playable only Redeemable, balance naming ADR, playable only, unclaimed money, maintenance versus lockout, always-on scanner, LTE modem per device, capability requires requirement, printer tilts, preventive supply telemetry, vault server, incremental five, five dollars of promotional credit for a phone number, clearance network prohibits proceeds from gambling, business way agnostic, they are not your customer they are mine, offline operation, twenty-four hour offline window, lease expiry versus internet loss, be honest with yourselves, no cash on FlexPay, de-enrolled from a location never from the cloud, fifteen Flex-Ports design for 99, no daily cap error, pending transaction, one-time redemption PIN, synchronisation point, metal mesh on standoffs, Flex-Pay-Slim lid, service bay cover, taut string stopper, roll forward only, no rollback to a previous build, MVP1 dual SAS only, capability 144 cloned, nothing is closed, Monday scope freeze, receipt format still not given, balance display game agnostic, stackable recycler, cash box capacity, standalone TITO printer topology, four swimlanes seven columns, language button top left, 854 by 480, status icons on error screens, asset number, серийный номер машины, engineering menu QR, machine performance report MVP2, feature lock slips, capability 229, TouchGFX Designer, two-stage screen redraw, HTML mock-up versus Figma, design tokens, the kiosk is FlexPay, player gets two dollars less, blank not empty, texts compiled at build, October 2 end date, E2E micro-step, KORE SIM in the IQ, capability 234, capability 235, forfeit wallet, no PIN lockout, nine Flex-Ports default twenty]
-source-count: 302
-open-commitments: 133
-open-questions: 35
+source-count: 308
+open-commitments: 144
+open-questions: 40
 ---
 
 # FlexPay business architecture and the payout-device catalog
@@ -2976,6 +2976,83 @@ At the [[wiki/meetings/2026-10-08-daily-standup-lease-expiry-scenarios-and-flex-
 
 On the [[wiki/meetings/2026-10-08-genadi-bom-standard-flex-slim-metal-mikhail-hand-over-and-data-contracts.md|Oct 8 3:59 PM alignment call]] (Russian; Val and [[wiki/people/genadi-peari.md|Genadi]]) Genadi said he will make the FlexPort for Aristocrat — "не проблема" — and send the back cover: "просто одно отверстие посередине надо круглое… одно отверстие большое сделал оттуда все провода протащил." Val: "Да." [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]] This follows the Oct-1 stand-off rear cover above. Commitment on [[wiki/people/genadi-peari.md]] (Oct 8). **§15.8:** clear.
 
+## Oct 9 2026 (4:46 AM stand-up) — web services to production before the weekend; the statistics host blocked again; Chudinov's odd Payment Hub answers on dev InComm, a screen watchdog, the SAS emulator and a lease lost after reboot; DB9 or the 4-pin SAS connector; Tsymanov's fatal-error handling; Biratka's capabilities 133, 143 and 117
+
+At the [[wiki/meetings/2026-10-09-daily-standup-weekend-service-rollout-and-stats-blocking.md|Oct-9 Minsk stand-up]] (Russian, a Friday) [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]:
+
+- **Production before the weekend:** [[wiki/decisions/2026-10-09-all-web-services-go-to-production-before-the-weekend-instead-of-waiting-for-georgia.md]].
+- **The statistics host:** [[wiki/decisions/2026-10-09-one-machines-bad-statistics-must-stop-blocking-the-statistics-host-and-a-task-is-opened.md]].
+- **[[wiki/people/dmitri-chudinov.md|Chudinov]] — MVP 1 features closed, sounds added.** "Закрыл все. Старый фич, которые были по [MVP] один… сделал звуки. Я раскатил."
+- **Odd Payment Hub answers on the real dev InComm.** Testing "не на стенде на реальном инкоме. На дэовском", it sometimes does not issue the card and returns a "[suspect] статус"; one request was answered only after about half an hour, negative, while he held the funds on the wallet. His guess: a product code that partly matches JVL's. "стенд, понятное дело, такое не сделает." He will investigate. See [[wiki/organizations/incom.md]] (Oct 9).
+- **A stuck screen.** A terminal — "Терминал, который сегодня 84 автотестами попал" (the notes read "after 84 autotests"; it may be terminal 84, a test terminal named on Oct 1 — **unclear**) — was driven by autotests into a screen state it could not leave, from a race when switching apps. He may add a watchdog that returns to a valid screen. Tsymanov asked whether this overlaps his fatal-error task; Chudinov: here the UI landed in the browser state, "не горящее".
+- **The SAS emulator.** He suspects the issue [[wiki/people/irina-shishko.md|Irina]] logged on Flexport comes from the SAS emulator, "у него очень много несоответствий буду, наверное, править" — today or tomorrow; some working autotests may break. This continues his Oct-8 emulator fix below.
+- **The lease lost after reboot.** "кортез" ([[wiki/people/sebastian.md|Sebastian]] by context — **inference**) wrote that a machine does not keep the lease: the screen shows the lease accepted "до 30 года", and after a reboot it expires again. "на сервере всё корректно"; he will check what software the machine runs. See [[wiki/decisions/2026-09-11-lease-blocking-reaches-the-flex-ports-and-is-never-automatic.md]].
+- **The SAS connector.** Pavel, for information: Genadi and "этот Алексей" (**unclear** which) routed SAS on the Flexport board to "четырёхконтактные чёрные разъёмы", while all ports now use DB9 for SAS. "в релиз надо будет зафиксировать какойто вариант. Я наверное, сегодня с Геннадием поговорю." He prefers DB9 — "это стандарт… скорее всего, на всех машинах такой стоять"; the other needs a special cable. See [[wiki/people/genadi-peari.md]] (Oct 9).
+- **[[wiki/people/sergey-tsymanov.md|Tsymanov]].** Memory optimisation done; a separate process now reports remaining memory. Last task: on fatal cases — for example the printer client failing to unpack its driver, or out of memory — show a clear critical error ("принтер фаут") with a description in the statistics, and go out of service. Then MVP work, "там уже особо ничего нету". Pavel added the urgent lease-code task — [[wiki/decisions/2026-10-06-the-ris-mvp1-changes-are-built-for-georgia-only-on-the-1-14-svn-line-with-nothing-else-added.md]] (Oct-9 update).
+- **[[wiki/people/alexander-biratka.md|Biratka]].** Capability 133 (validator) finished; finishing 143 (Wi-Fi), checks on the stand; next 117 — card checks on the Payment Hub and card issue through the card dispenser; "много… задач по кардиспенсеру… Открыты остались". The old updater: [[wiki/decisions/2026-10-09-the-old-usb-updater-repository-is-archived-because-rauc-now-does-usb-updates.md]].
+- **Elizabeth.** [[wiki/people/ivan.md|Ivan]] helped her get SAS working the night before; Pavel: tell her that "fords" (**unclear**) get no updates for now — [[wiki/projects/georgia-market-rollout.md]] (Oct 9).
+
+The derived notes read the round the same way [[raw/Meeting_Notes_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]].
+
+### Open commitments (Oct 9 2026, 4:46 AM)
+
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — investigate the odd Payment Hub answers on dev InComm (no card, "suspect", a 30-minute answer, funds held) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — fix the SAS emulator mismatches — due Oct 9–10 2026 — [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — check what software the machine runs that loses its lease after reboot — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — talk to Genadi about the SAS connector for the release (DB9 or the 4-pin) — due Oct 9 2026 — [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+- [ ] [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] — finish fatal-error handling (clear critical error with a description, out of service) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+- [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — finish capability 143, start 117, close the open card-dispenser tasks — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+
+### Open questions (Oct 9 2026, 4:46 AM)
+
+- Which SAS connector goes into the release — DB9 or the 4-pin connector? — [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+- Why does the Payment Hub on dev InComm sometimes not issue a card and answer only after about 30 minutes? — [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+
+## Oct 9 2026 (8:01 AM) — day sixteen: Elizabeth's SAS works, borrowed machines for October 15–16, re-used terminals wipe their secrets, production over the weekend and a real transaction before the first location, Klimovich in Georgia from Tuesday, Flex Pay Slim for the show, the bootloader on new boards, and port-crash collect money to unclaimed
+
+The [[wiki/meetings/2026-10-09-transactional-mvp1-test-machines-and-unclaimed-funds.md|sixteenth morning call]] (Russian, 8:01–8:25), Val not present [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]:
+
+- **Georgia SAS set-up** — works since the evening before: [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] (Oct-9 update).
+- **Borrowed operator machines** for Oct 15–16; Chudinov: MVP 1 development "formally" finished: [[wiki/decisions/2026-10-09-first-borrowed-operator-machines-are-arranged-for-october-15-16.md]].
+- **Secrets wipe** for re-used terminals, red section in the instruction: [[wiki/decisions/2026-10-09-a-terminal-registered-before-must-wipe-its-secrets-and-the-install-instruction-says-so-in-red.md]].
+- **Production** over the weekend, then a real transaction: [[wiki/decisions/2026-10-09-all-web-services-go-to-production-before-the-weekend-instead-of-waiting-for-georgia.md]] and [[wiki/decisions/2026-10-09-a-real-transaction-is-run-in-production-on-the-new-version-before-the-first-real-location.md]].
+- **Klimovich's return.** "я вернусь в понедельник… я рассчитываю на то, что со вторника я уже в джорджии." First priority: rebuild the whole environment and test the IQ from the product side, "прогнать все основные флоу", and review Chudinov's gaps document. [[wiki/people/irina-shishko.md|Irina]] already put the team's changes and Chudinov's documents ("с кладом прогнали") into the requirements, marked in red, and tagged him: "ты открываешь [requirements] либо соглашаешься, либо не соглашаешься". Klimovich: "Супер." He will be "в полном доступе фуллтайм" [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]].
+- **KORE SIMs, InComm, payments.** The KORE SIM payment problem is fixed; the Minsk SIM thread is revived — [[wiki/decisions/2026-09-04-north-america-modem-variant-and-ask-kore-for-the-apn.md]] (Oct-9 update). InComm: still waiting for broker approval — [[wiki/organizations/incom.md]] (Oct 9). On the "нейтона" side (Nathan's payment hub by earlier context — **inference**) "все инвойсы выпускаются, деньги переводятся."
+- **The show and Flex Pay Slim.** A short show in Georgia "21 и 22 гдето там" with Sebastian — [[wiki/projects/georgia-market-rollout.md]] (Oct 9). Klimovich wants to show the IQ working with ports and "payslim" with its card dispenser. [[wiki/people/alexander-biratka.md|Biratka]] works on Flex Pay — "у нас же повёрнутый экран сейчас" for the Slim — and asks Klimovich to review all screens and the main flow, "пока делался flex pay уже у нас много чего изменилось". If no Slim hardware exists, he can build a version that runs on a PC on virtual devices. Klimovich will ask [[wiki/people/genadi-peari.md|Genadi]] about the hardware — the dispenser in the cabinet and new wiring in the door: "Я почти уверен, что мы там не продвинули"; revisit "во вторник в среду".
+- **The bootloader on new boards.** Pavel: the last firmware changes for different memory sizes were made "алексеевым" ([[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] by context — **inference**); does the bootloader still work, for example installing from a stick? [[wiki/people/alexei-khamin.md|Khamin]]: "На новых платах ничего не работает"; the fix is not in the repository — "Он пишет, что у него работает… это всё у него локально." Pavel: "значит я напишу". Chudinov asked Pavel to also look at an old item "висит на порте" (garbled).
+- **Collect money after a port crash** — unclaimed in MVP 1: [[wiki/decisions/2026-09-24-a-flex-port-that-dies-holding-money-sends-it-to-unclaimed-and-one-without-a-gateway-goes-out-of-service.md]] (Oct-9 update).
+
+The derived notes read the call the same way [[raw/Meeting_Notes_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]].
+
+### Open commitments (Oct 9 2026, 8:01 AM)
+
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — on his return, rebuild the environment in Georgia, test the Flex IQ on all main flows, and review Chudinov's gaps document and Irina's red-marked requirements — due from Tuesday Oct 13 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — ask Genadi about the Flex Pay Slim hardware (dispenser in the cabinet, door wiring) and revisit the show content — due Oct 13–14 2026 ("во вторник в среду") — [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — write to the developer of the firmware memory changes about the bootloader on the new boards — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
+
+### Open questions (Oct 9 2026, 8:01 AM)
+
+- Does the bootloader work on the new boards after the memory changes? Khamin: nothing works; the fix is only local — [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
+- Is at least one Flex Pay Slim with a card dispenser built for the show? — [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
+
+## Oct 12 2026 (4:56 AM stand-up) — card issue through the Payment Hub works; Chudinov's EGM emulator, the SD-card install, STG, fewer InComm requests and production; separate version numbers; PR 169 on port 111
+
+At the [[wiki/meetings/2026-10-12-daily-standup-flexport-emulator-and-jira-auto-progress-rule.md|Oct-12 Minsk stand-up]] (Russian, a Monday) [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]:
+
+- **[[wiki/people/alexander-biratka.md|Biratka]] — capability 117.** Over the weekend card activation and issue through the Payment Hub "Вроде работает"; one task is left, on refusals and failed answers. The card-dispenser code had wrong codes — perhaps because FlexPay used a different dispenser before ("2 кардиспансера", Pavel); "всё исправлено". He will open questions, since MVP 2 will soon need specific flows.
+- **[[wiki/people/dmitri-chudinov.md|Chudinov]].** Closed all the stories on mock-up gaps. Brought the machine emulator to the SAS standard rather than to JVL's machine; real machines differ. The Flex IQ SD-card install problem did not come back in about twenty installs ("2 десятка установок"); he rewrote the error text and prepared logging in case it returns. STG, production and location billing: [[wiki/decisions/2026-10-09-all-web-services-go-to-production-before-the-weekend-instead-of-waiting-for-georgia.md]] (Oct-12 update). Small Payment Hub changes cut extra requests to InComm and send fewer to "Гонконг" (Hong Kong). The version numbers: [[wiki/decisions/2026-10-12-separate-flex-iq-version-numbers-per-environment-are-not-an-mvp1-blocker-and-a-fix-comes-after-mvp1.md]].
+- **[[wiki/people/sergey-tsymanov.md|Tsymanov]].** Finishing the STG deploy with the CMS changes; closing story tasks. Port task 118 and the Jira automation: [[wiki/decisions/2026-10-05-a-capability-moves-itself-to-request-review-when-all-its-features-are-completed-and-a-new-story-sends-feature-and-capability-back-to-to-do.md]] (Oct-12 update).
+- **[[wiki/people/pavel.md|Pavel]].** Worked on port 111; pull request 169 touches Flex IQ — what is sent, and whether it reaches Flex IQ, when the port loses its registration. He asked Chudinov and Irina to check it from their side before merging. He took port 110; port 117 he has looked at but not taken.
+
+### Open commitments (Oct 12 2026, 4:56 AM)
+
+- [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — finish the card failure-answer task; open questions for the MVP 2 flows — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] and [[wiki/people/irina-shishko.md|Irina Shishko]] — review pull request 169 (port 111) for its effect on Flex IQ — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
+
+### Open questions (Oct 12 2026, 4:56 AM)
+
+- Is the Flex IQ SD-card install problem really fixed? It did not repeat in about twenty installs; Chudinov: "не факт, что решили" (someone says) — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -3283,3 +3360,9 @@ On the [[wiki/meetings/2026-10-08-genadi-bom-standard-flex-slim-metal-mikhail-ha
 - [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
 - [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]

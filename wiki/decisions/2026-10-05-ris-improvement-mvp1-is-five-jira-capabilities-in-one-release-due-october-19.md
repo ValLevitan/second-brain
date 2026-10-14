@@ -3,9 +3,9 @@ type: decision
 title: RIS improvement MVP1 is the top Jira capabilities (CAP-252, 255, 246, 250, 254) grouped into one release, due October 19 — no non-functional requirements, no LTE modem, and the lottery lock left out
 date: 2026-10-05
 aliases: [RIS improvement MVP1, RIS improvement release MVP1, MVP1 RIS release, three capabilities in two weeks, CAP-252, CAP-255, CAP-246, CAP-250, CAP-254, release date set for 19th, no LTE modem, add four days]
-source-count: 3
+source-count: 4
 status: active
-open-commitments: 4
+open-commitments: 3
 open-questions: 2
 ---
 
@@ -64,7 +64,6 @@ At the [[wiki/meetings/2026-10-06-daily-standup-ris-georgia-branch-and-critical-
 
 - [ ] Pavel Frolov — check whether CAP-246 is already implemented — due unspecified — [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
 - [ ] Pavel Frolov — talk to the server side (Dima, Serge) about MVP 2 capabilities before estimating — due before the MVP 2 meeting (about Oct 12) — [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
-- [ ] Felipe Miranda — set up the RIS improvement MVP 2 planning meeting a week out, same time, everyone invited — due about Oct 12 2026 — [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
 - [ ] Felipe Miranda — share his email thread on lottery-locked machines with Val — due unspecified — [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
 
 ## Open questions
@@ -74,8 +73,21 @@ At the [[wiki/meetings/2026-10-06-daily-standup-ris-georgia-branch-and-critical-
 
 **§15.8:** clear.
 
+## Update, Oct 12 2026 — the MVP 2 meeting is held; whether MVP 1 goes to the lab at all now waits for Val
+
+The MVP 2 planning call took place on [[wiki/meetings/2026-10-12-ris-mvp2-scope-and-release-timing.md|Oct 12 at 11:29 AM]] (Felipe, Pavel, Irina, Sebastian; Val absent) [[raw/Meeting_Transcript_RIS_MVP2_Scope_and_Release_Timing-October-12-2026.md]]:
+
+- Pavel and Irina asked whether MVP 1 is worth sending to the lab, since changes go into three builds (Peach 1, 2, 3). Felipe: MVP 1 does not touch the biggest pain points, and another customer upgrade "maybe a month later" would be "complicated"; "I don't know what Val wants". Pavel: "I will save this for now." Felipe closed: "We still need Val input on. Do we want to send Mvp 1 to the lab and not wait for Mvp 2 or add the changes possible to Mvp 1".
+- Pavel on timing: "we are going to release Mvp one. In 2 weeks, probably, with testing. If we add in one more week, probably we can release Mvp 2." MVP 2 work to about November 1 (Irina), then about five days at Eclipse — a release around November 9–10 (Felipe).
+- So the Oct-19 MVP 1 release is **in question**, not cancelled: no one ruled. This is **evolution** (a newer plan under discussion), not a contradiction. Detail: [[wiki/topics/ris-remote-install-and-machine-states.md]] (Oct 12).
+
+## History
+
+- [x] Felipe Miranda — set up the RIS improvement MVP 2 planning meeting a week out, same time, everyone invited — due about Oct 12 2026 — [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]] — discharged: the "RIS MSVP2 Meeting" took place on Oct 12 at 11:29 AM (who sent the invitation is not stated; Val did not attend) [[raw/Meeting_Transcript_RIS_MVP2_Scope_and_Release_Timing-October-12-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
 - [[raw/Meeting_Notes_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
+- [[raw/Meeting_Transcript_RIS_MVP2_Scope_and_Release_Timing-October-12-2026.md]]

@@ -3,7 +3,7 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention, installment payments, aged receivables, Customer Ledger Entries, category-based terms, subscription module, parts vs machines terms, Black Horse Entertainment, Sales Watch, import duties tax category, landed cost, tax category, assembly BOM, production BOM, BOM history, BOM sync robot, tag stamp on item card]
-source-count: 80
+source-count: 82
 open-questions: 5
 ---
 
@@ -475,7 +475,20 @@ On the [[wiki/meetings/2026-10-08-genadi-bom-standard-flex-slim-metal-mikhail-ha
 
 Ruling: [[wiki/decisions/2026-10-08-msbc-stops-being-the-bom-source-and-the-week-of-october-12-goes-to-ordering-without-mikhail.md]].
 
+## Oct 9 2026 — MSBC is not the starting point; BOMs are exported into it from GitHub, one revision per change
+
+At the [[wiki/meetings/2026-10-09-github-msbc-agent-bom-assembly-and-pay-slim-first-test.md|Oct 9 11:37 AM "GitHub-MSBC" meeting]] (English) [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]:
+
+- **The experiment ran on the dev instance.** Nathan: "using our dev instance of Msbc, it took an existing… Bom" and an agent plus a script created a new BOM in MSBC.
+- **The direction.** Reading Val's chat: "Val doesn't want Msbc as a starting point." Genadi: "Github provides the bill of material, you export it into Msbc… if there is a change, it exports another bill of material, new revision."
+- **What stays in BC.** The ordering actions Val texted work "with the existing BOM… current inventory in… BC and the list of suppliers in BC" (Nathan); Genadi: "the placing orders, connecting the suppliers, this all comes from Msbc."
+- **Variants are separate BOMs.** A one-part difference for a customer or jurisdiction is a new top part number and "a whole new bill of material in Msbc" (Nathan's question; Genadi: "Yes, yes").
+
+Ruling: [[wiki/decisions/2026-10-09-the-georgia-flex-pay-slim-bom-is-built-forward-from-genadis-github-source-by-agent-and-script-with-human-approval-by-end-of-october.md]].
+
 ## Sources
+- [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
+- [[raw/Meeting_Notes_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
 - [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]

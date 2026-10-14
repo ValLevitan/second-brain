@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 123
+source-count: 125
 open-commitments: 50
 ---
 
@@ -611,6 +611,11 @@ At the [[wiki/meetings/2026-10-07-daily-standup-test-coverage-first-and-ai-task-
 - **Val's challenge.** Val said one Listener does too much and will not carry a real-time agent; Bosik answered that he built a frame for MVP 1 in a week and it can be split later. Val agreed to launch and change the architecture if needed. Live mode in real Jira projects is set for Monday Oct 12 2026; Lena's meetings come out of the pilot. Rulings and his six commitments from this call: [[wiki/decisions/2026-10-08-the-ai-pm-goes-live-in-real-jira-projects-on-october-12-on-its-current-architecture-without-lenas-meetings.md]] [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]].
 - **The next objective (in absentia).** The same day Val and Pavel set an "AI Chief System Architect" task — the Galaxy and Nova architecture built from code, prose and data contracts, to find gaps — and Val said he will enter it as Bosik's next objectives: [[wiki/decisions/2026-10-08-an-ai-chief-system-architect-maps-galaxy-and-nova-from-code-prose-and-data-contracts-to-find-gaps-as-bosiks-next-objective.md]] ([[wiki/meetings/2026-10-08-ai-chief-system-architect-gap-finding-task.md|Oct-8 "AI-Chief System Architect" call]]) [[raw/Meeting_Transcript_AI_Chief_System_Architect_Gap_Finding_Task-October-8-2026.md]].
 
+## Oct 9 2026 — a real transaction in production before the first location; the updater repo to archive (inference)
+
+- On the [[wiki/meetings/2026-10-09-transactional-mvp1-test-machines-and-unclaimed-funds.md|Oct-9 Transactional MVP 1 call]] he said that once one terminal registers in production on the new version, a real transaction must be run — [[wiki/decisions/2026-10-09-a-real-transaction-is-run-in-production-on-the-new-version-before-the-first-real-location.md]]; on the secrets wipe he noted "Терминал, а не машины тут" [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]].
+- At the [[wiki/meetings/2026-10-09-daily-standup-weekend-service-rollout-and-stats-blocking.md|Oct-9 stand-up]] (in absentia) Biratka will ask "Андрей" to archive the old updater repository — Bosik by context, **inference** — [[wiki/decisions/2026-10-09-the-old-usb-updater-repository-is-archived-because-rauc-now-does-usb-updates.md]] [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -739,3 +744,5 @@ At the [[wiki/meetings/2026-10-07-daily-standup-test-coverage-first-and-ai-task-
 - [[raw/Meeting_Notes_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
 - [[raw/Meeting_Transcript_AI_Chief_System_Architect_Gap_Finding_Task-October-8-2026.md]]
 - [[raw/Meeting_Notes_AI_Chief_System_Architect_Gap_Finding_Task-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]

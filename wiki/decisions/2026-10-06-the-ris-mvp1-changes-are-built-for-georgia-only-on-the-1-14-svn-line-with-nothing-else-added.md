@@ -3,9 +3,9 @@ type: decision
 title: The urgent RIS changes (CAP-252, 255, 246, 254) are built for Georgia only, on the 1.14 SVN line, with nothing else added — Kharetski does them before his own work, and the statistics carousel is dropped for this branch
 date: 2026-10-06
 aliases: [RIS Georgia branch, Georgia only 1.14 branch, 1.14 plus these changes and nothing else, continuation of Peach 3, carousel for Liza dropped, карусель для лизы, statistics only when scanned, срочные задачи о доработке рис и паспорта]
-source-count: 6
+source-count: 10
 status: active
-open-commitments: 3
+open-commitments: 5
 open-questions: 1
 ---
 
@@ -51,6 +51,30 @@ Whether 1239 is one of the CAP items above is not stated. Pavel's Oct-6 offer to
 
 - Who is "Лиза", for whom the carousel was made? Not resolved — [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 
+## Update, Oct 9 2026 — Kharetski on 1238; the server side is Tsymanov's; the lease code without a full statistics scan is urgent for the middle of next week; the old RIS at factory reset is planned, not scheduled
+
+At the [[wiki/meetings/2026-10-09-daily-standup-weekend-service-rollout-and-stats-blocking.md|Oct-9 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]:
+
+- **[[wiki/people/evgeny-kharetski.md|Kharetski]].** On "12 38" (the notes: task 1238, lease work for the old software). Pavel asked whether the fixes for "этого старого софта" need server work; Kharetski: "Ну а Сергей стоят задачей, я куда контракт описывает" — [[wiki/people/sergey-tsymanov.md|Tsymanov]] has the task, with the contract described.
+- **The urgent lease-code task.** Pavel to Tsymanov: "там задачи есть, которые для жени по лизам… когда обновление лиза, чтобы разрешать машине применять код, если она не отсканировала? Всю статистику" — let a machine apply the lease code even if not all statistics were scanned. Tsymanov: "Это это ж в другом проекте, да?" Pavel: "Да… Это тоже срочно… надо, чтобы к середине следующей недели было сделано." Tsymanov: "Приоритетно. Хорошо." *(This matches the Oct-6 server item above — passing a code so not all statistics QR codes must be scanned — **inference**.)*
+- **The old RIS at factory reset.** Pavel offered Kharetski the next piece: "Использование… старого риса. Сохранённого на жёстком диске. При [фактори ресет]." Kharetski: "да какомто планах." Pavel: "он в планах. Просто он сейчас не… запланирован." Kharetski does not load his plan far ahead "изза Того, что я могу напланировать… потом вы мне говорите, что нужно делать другое."
+
+*On the open question below:* here "лиза" again reads as lease ("по лизам", "обновление лиза"). Still **inference only**; the question stays open.
+
+### Open commitments (Oct 9 2026)
+
+- [ ] [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] — the server side: let a machine apply the lease code without a full statistics scan — due the middle of the week of Oct 12 2026 ("к середине следующей недели"; the notes: about Oct 14) — [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+
+## Update, Oct 12 2026 — Kharetski near the end of "1241"; he tests it himself; "до 22"
+
+At the [[wiki/meetings/2026-10-12-daily-standup-flexport-emulator-and-jira-auto-progress-rule.md|Oct-12 Minsk stand-up]] (Russian) [[wiki/people/evgeny-kharetski.md|Kharetski]]: "я сейчас в 12:41 лжай закончу… последние… работке" (the notes read task 1241, "number unclear"). "в целом все запросы, которые были [—] джоджи выполнена" — the garbled word may be Georgia (**inference**); "наверное, там серёга доделает" (Tsymanov — **inference**). "можно будет… Тестировать, начинать." [[wiki/people/irina-shishko.md|Irina]]: Ivan is on autotests to the 15th and cannot test it; "Можешь сам потестировать". Kharetski: "И при этом до 22 мы хотим выпустить этот." Irina: "Да." [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
+
+Which release "до 22" names is **unclear** (the object is garbled). Reading task 1241 as part of this Georgia RIS branch is an **inference** from Kharetski's assignment here. If it is, the Oct-22 aim sits three days after the Oct-19 Jira date on [[wiki/decisions/2026-10-05-ris-improvement-mvp1-is-five-jira-capabilities-in-one-release-due-october-19.md]] — not recorded as a contradiction, since the link is not stated.
+
+### Open commitments (Oct 12 2026)
+
+- [ ] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — finish 1241 (number unclear) and test it himself — due before Oct 22 2026 — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
@@ -59,3 +83,7 @@ Whether 1239 is one of the CAP items above is not stated. Pavel's Oct-6 offer to
 - [[raw/Meeting_Notes_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]

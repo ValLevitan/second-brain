@@ -3,8 +3,8 @@ type: topic
 title: NOVA platform architecture (JVL land-based gaming platform)
 date: 2026-05-12
 aliases: [NOVA, NOVA platform, NOVA gaming platform, land-based platform, land-based gaming platform, services architecture, library-to-service decomposition, Chief Architect NOVA, Unix-socket services, per-service repositories, packaged games, AMQP CMS protocol, capabilities from prose, prose standard, LGS prose, repo to Jira linkage, module contracts, NOVA integration repository, knowledge repository]
-source-count: 73
-open-commitments: 51
+source-count: 77
+open-commitments: 54
 open-questions: 31
 disambiguation: "NOVA is the named successor of the 'Omni' land-based platform code-word — do not conflate NOVA (this on-cabinet services platform) with the Omni game-templating / Rage→Omni content transition tracked on [[wiki/topics/omni-core-advancement-and-game-templating.md]]."
 ---
@@ -625,6 +625,36 @@ At the [[wiki/meetings/2026-10-05-rage-nova-port-autotests-and-horizontal-to-ver
 
 At the [[wiki/meetings/2026-10-08-ai-chief-system-architect-gap-finding-task.md|Oct-8 "AI-Chief System Architect" call]] Val and Pavel set a task for an AI persona that builds the whole Galaxy and Nova architecture from the code, the prose and the data contracts only, to find where the code differs from what the team intended. Pavel sees it as a quality check of the prose and contracts across the dependent repositories, with the integration tests included; he is not sure the prose is updated in every repository. Output: HTML block diagrams, the harness links between blocks, and the prose behind each block. Andrey Bosik's next objective — [[wiki/decisions/2026-10-08-an-ai-chief-system-architect-maps-galaxy-and-nova-from-code-prose-and-data-contracts-to-find-gaps-as-bosiks-next-objective.md]] [[raw/Meeting_Transcript_AI_Chief_System_Architect_Gap_Finding_Task-October-8-2026.md]]. (This is an AI role; the human Chief Architect appointment of May 12 2026 above is separate.)
 
+## Oct 9 2026 — feature 1343: the board has no hardware VP8 decoder; Daniil tries VP9 with alpha for the select screen
+
+At the [[wiki/meetings/2026-10-09-daily-standup-weekend-service-rollout-and-stats-blocking.md|Oct-9 Minsk stand-up]] (Russian) Daniil Stauskiy (no page) [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]:
+
+- **Bug 1057** is almost fixed; commit and pull request today.
+- **Feature 1343.** "у нас нету… аппаратного декодера 8"; what works, in his words: "только аж 256 и вот в по 9 и аж 264" (garbled codec names; VP9 is among them). Nearly all game videos are VP8. The select screen has 11 videos with an alpha channel; the browser cannot give him the alpha, so the processor decodes it, at about 20 FPS — "немного не справляется". The board's processor "не особо сильный".
+- **The try.** He will re-encode the select-screen videos to VP9 with the alpha built into the video, and see. Pavel: "ну хорошо попробуй… вроде как искусственный интеллект тебе может [помочь] и если надо альфо добавить."
+
+This bears on the Oct-2 open question above (VP9 against VP8): on this board VP9 is hardware-decoded and VP8 is not. The question is **not closed** — the try is not done.
+
+### Open commitments (Oct 9 2026)
+
+- [ ] Daniil Stauskiy — re-encode the select-screen videos to VP9 with alpha and check the frame rate — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+
+## Oct 12 2026 — feature 1343: frame rate holds at 55–59; alpha inside the video stream, or one video plus a light shader
+
+At the [[wiki/meetings/2026-10-12-daily-standup-flexport-emulator-and-jira-auto-progress-rule.md|Oct-12 Minsk stand-up]] (Russian) Daniil Stauskiy (no page) [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]:
+
+- **Bug 1057** is finished.
+- **Feature 1343.** He re-encoded all the videos so the hardware decoder works; "ф п с 55 с 59 держится почти на всех сценах". He will measure memory and send a report. The codec is **unclear**: the notes say VP8, the transcript's word is garbled, and his later line reads "я его по 9" (VP9 by context — **inference**) [[raw/Meeting_Notes_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]].
+- **Why alpha was slow.** When alpha came as a separate parameter, Chromium decoded it on the processor — "он не может ее отдать" to the decoder. On his cabinet the frame rate was 60; "на платье у меня до 25 30 просаживается" (on the board). Now the alpha is built into the video stream.
+- **The fastest way, whatever it is** ([[wiki/people/alexander-biratka.md|Biratka]]): "неважно там будет это в потоке будет не в потоке. Главное, чтоб это работало быстро". The old Rage system used one video plus a light shader — a colour channel carried a blend/multiply mode — which was faster than two stacked videos. Pavel recalled an old problem with the minimum or maximum alpha value; Biratka: that came from mixing the old shader way with the new one. They will ask "Игорь" today how alpha and blend modes were solved in the Rage games he ported ("Ну игры же както решил эти вопросы") — [[wiki/people/igor-metelski.md|Igor Metelski]] by context, since he ports the Rage games to NOVA (Oct 8) — **inference**; the designers may be asked too.
+
+This continues the Oct-9 try above. The VP8-versus-VP9 question stays open.
+
+### Open commitments (Oct 12 2026)
+
+- [ ] Daniil Stauskiy — measure frame rate and memory on feature 1343 and send a report; find the fastest alpha method — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] and [[wiki/people/alexander-biratka.md|Alexander Biratka]] — ask Igor ([[wiki/people/igor-metelski.md|Igor Metelski]] by context — inference) how alpha and blend modes were solved in the Rage games — due Oct 12 2026 — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]
@@ -701,3 +731,7 @@ At the [[wiki/meetings/2026-10-08-ai-chief-system-architect-gap-finding-task.md|
 - [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]
 - [[raw/Meeting_Transcript_AI_Chief_System_Architect_Gap_Finding_Task-October-8-2026.md]]
 - [[raw/Meeting_Notes_AI_Chief_System_Architect_Gap_Finding_Task-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]

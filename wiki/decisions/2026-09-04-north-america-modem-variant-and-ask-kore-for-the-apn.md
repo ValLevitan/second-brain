@@ -3,7 +3,7 @@ type: decision
 title: The Georgia LTE modem failure is treated as a source-and-firmware mismatch — buy the North-America variant and, in parallel, ask KORE for the recommended modems and the APN
 date: 2026-09-04
 aliases: [7455 modem, firmware-update USB stick, 5G module, LTE hard to buy, modem firmware mismatch, North America modem variant, KORE APN, ask KORE which modems, AliExpress modem Minsk, $16 Amazon modem, two antennas on the module, antenna in an opening]
-source-count: 10
+source-count: 12
 status: active
 open-commitments: 10
 open-questions: 5
@@ -129,6 +129,10 @@ Val's own undertaking from this call — to check his message history for when h
 
 **§15.8:** clear — component pricing (~$16 per modem) and vendor/carrier economics only; no named-person compensation.
 
+## Update, Oct 9 2026 — the KORE SIM payment problem is fixed; the Minsk SIM thread was dropped and Klimovich revives it today
+
+On the [[wiki/meetings/2026-10-09-transactional-mvp1-test-machines-and-unclaimed-funds.md|Oct-9 Transactional MVP 1 call]] (Russian) [[wiki/people/andrei-klimovich.md|Klimovich]]: "по поводу симкарт коровских у нас там была проблема с оплатой вроде по фикселе, то есть всё работать должно насчёт заказа карточек для Минска что то у нас там мы уронили эту переписку. Я сегодня подниму его" [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]. The "cards for Minsk" are read as the KORE SIM batch of Oct 1 — **inference**; the notes list it as "ordering cards for Minsk" [[raw/Meeting_Notes_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]. His Oct-1 commitment above stays open; the new date is Oct 9.
+
 ## Sources
 - [[raw/Meeting_Notes_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]]
 - [[raw/Meeting_Transcript_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]]
@@ -140,3 +144,5 @@ Val's own undertaking from this call — to check his message history for when h
 - [[raw/Meeting_Notes_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]

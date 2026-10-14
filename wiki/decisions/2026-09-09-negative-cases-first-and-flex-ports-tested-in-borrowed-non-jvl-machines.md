@@ -3,7 +3,7 @@ type: decision
 title: Testing starts September 15 with the negative cases first, and Flex-Ports must be proved in borrowed non-JVL machines — fake-commissioned, tracked as a separate Jira item from JVL-machine testing
 date: 2026-09-09
 aliases: [negative cases first, door open, borrow a machine fake commission it, Aristocrat and Light and Wonder, at least one or two machines, two separate records, two different router manufacturers, no Chinese manufacturer, stay away from Cisco, ten port router, storm through the test, bracket drawings to Genadi]
-source-count: 12
+source-count: 14
 status: active
 open-commitments: 5
 open-questions: 2
@@ -82,7 +82,7 @@ At the [[wiki/meetings/2026-09-25-transactional-mvp1-flexport-third-party-egm-co
 
 - [x] [[wiki/people/ivan.md|Ivan]] — write the set-up instruction for the compatibility test (hardware, cables, COM port, SAS emulator) and attach the emulator and the SAS commands document — due Mon Sept 28 2026 ("постараюсь") — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]] — **discharged Sept 29 2026:** written the day before and sent that morning (Klimovich: "этот документ, который ты сегодня прислал"); walked through on the call; the SAS tool zip went to Elizabeth by email. Putting it in Confluence is the new commitment below — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — create the capability for Flex-Port working with other makers' machines, from the transcript — due unspecified — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
-- [ ] Klimovich and the local team — once the set-up arrives, contact operators, borrow machines, bring them to the office and connect them to the MikroTik — due after October 1 — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
+- [ ] Klimovich and the local team — once the set-up arrives, contact operators, borrow machines, bring them to the office and connect them to the MikroTik — due after October 1 — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]] *(Oct 9: the first borrowed machines are now aimed at Oct 15–16, Klimovich with Felipe — [[wiki/decisions/2026-10-09-first-borrowed-operator-machines-are-arranged-for-october-15-16.md]])*
 
 ### Open questions (Sept 25 2026)
 
@@ -133,6 +133,15 @@ At the [[wiki/meetings/2026-10-01-transactional-mvp1-status-slice-and-sas-comman
 
 At the [[wiki/meetings/2026-10-05-transactional-mvp1-port-screens-unclaimed-money-and-printer-models.md|Oct-5 8:01 AM MVP 1 call]] (Russian) [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]: [[wiki/people/andrei-klimovich.md|Klimovich]] asked whether the test terminals had ever been linked with Georgia. [[wiki/people/dmitri-chudinov.md|Chudinov]]: "никаких отписок не было". Klimovich will ping [[wiki/people/elizabeth.md|Elizabeth]] that day. Chudinov: over the weekend all SAS commands from machine to port to IQ started to be logged, so "можно смотреть по своим по чужим машинам, что к нам приходит из сассы". Klimovich set the order: "задача добиться от Джорджия сейчас, чтобы там настройку эту сделали. Сетап протестировали это с нашими машинами и дальше уже планировать. Машины других производителей." Chudinov: so they try it "на наших на чужих машинах", which may bring changes [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]].
 
+## Update, Oct 9 2026 — Elizabeth's SAS works after long work with Ivan (and Claude); first borrowed operator machines for October 15–16
+
+On the [[wiki/meetings/2026-10-09-transactional-mvp1-test-machines-and-unclaimed-funds.md|Oct-9 Transactional MVP 1 call]] (Russian) [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]:
+
+- **The SAS set-up in Georgia works.** [[wiki/people/ivan.md|Ivan]]: "мы 15:00 боролись с этим со всем" (garbled; a long time). Early on the cable did not suit "конкретно этого эмулятор"; [[wiki/people/elizabeth.md|Elizabeth]] bought another and it got better, but did not start. Then "Клуб [Claude] сделан по факту те же самые действия, что и я, и у него прокатил" — Ivan had opened Claude on his work laptop and asked it why it would not come up. He does not know what made the difference; he thinks the port was restarted "подкапотный". All was done "вчера в 9 по нашему вечеру". Pavel: she likely did nothing more, "потому что мы потом с ней работали ещё там до до 02:00. Модемы подымали на машинах."
+- **Next.** The decision on other makers' machines: [[wiki/decisions/2026-10-09-first-borrowed-operator-machines-are-arranged-for-october-15-16.md]]. Before that, Elizabeth installs the latest builds on the Flex IQ with the secrets wipe: [[wiki/decisions/2026-10-09-a-terminal-registered-before-must-wipe-its-secrets-and-the-install-instruction-says-so-in-red.md]].
+
+At the [[wiki/meetings/2026-10-09-daily-standup-weekend-service-rollout-and-stats-blocking.md|4:46 AM stand-up]] the same day, Ivan said he helped her from home "чтобы сас сработал наши [SAS] тестула" — link up and pings [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 - [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
@@ -146,3 +155,5 @@ At the [[wiki/meetings/2026-10-05-transactional-mvp1-port-screens-unclaimed-mone
 - [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]

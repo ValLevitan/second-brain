@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 215
+source-count: 219
 open-commitments: 107
 open-questions: 0
 ---
@@ -1211,6 +1211,16 @@ At the [[wiki/meetings/2026-10-08-dragon-pays-vertical-accepted-and-dutch-mill-p
 - [ ] Pavel Frolov — tell Val whether graphics for any Texas game came from Sergey Kleimenychev — due Mon Oct 12 2026 — [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]
 - [ ] Pavel Frolov — check with Efim how to build the container that supports the Texas maths — due unspecified — [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]
 
+## Oct 9 2026 — ran the stand-up; web services to production now; "a task is needed" for the statistics host; 80/20 to the 15th; the 12:45 cloud-test meeting; DB9 for SAS; the updater repo archived; the bootloader on new boards
+
+- At the [[wiki/meetings/2026-10-09-daily-standup-weekend-service-rollout-and-stats-blocking.md|Oct-9 stand-up]] he agreed to roll out all web services before the weekend ("Типа да пора") — [[wiki/decisions/2026-10-09-all-web-services-go-to-production-before-the-weekend-instead-of-waiting-for-georgia.md]]; asked for a task so one machine's bad statistics stop blocking the host, proposing to drop the bad packet and alert — [[wiki/decisions/2026-10-09-one-machines-bad-statistics-must-stop-blocking-the-statistics-host-and-a-task-is-opened.md]]; set 80/20 for the tests — [[wiki/decisions/2026-10-09-tests-to-october-15-follow-80-20-and-port-machine-and-iq-tests-come-before-cloud-tests.md]]; set the cloud-test meeting for 12:45; ruled the old updater repo archived — [[wiki/decisions/2026-10-09-the-old-usb-updater-repository-is-archived-because-rauc-now-does-usb-updates.md]]; and gave Tsymanov the urgent lease-code task for the middle of next week. He prefers DB9 for SAS and will talk to Genadi [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]].
+- On the [[wiki/meetings/2026-10-09-transactional-mvp1-test-machines-and-unclaimed-funds.md|Oct-9 Transactional MVP 1 call]] he backed taking other makers' machines ("Основной воркфлоу… уже… можем смотреть"), said he worked with Elizabeth until about 2:00 on modems, and will write to the developer about the bootloader on new boards [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]. Commitments are held on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 9).
+
+## Oct 12 2026 — no Flexport emulator; version numbers after MVP 1; RIS MVP 2 in about two weeks plus a week of tests
+
+- At the [[wiki/meetings/2026-10-12-daily-standup-flexport-emulator-and-jira-auto-progress-rule.md|Oct-12 stand-up]] he ran the round: the port is tested on real ports through the internal runner, an STM32 simulator study is not MVP 1 and likely not MVP 2 — [[wiki/decisions/2026-10-12-flexport-ci-tests-run-on-real-ports-through-the-internal-runner-and-no-port-emulator-is-built-for-now.md]]; separate Flex IQ version numbers per environment are "нехорошо" but wait until after MVP 1 — [[wiki/decisions/2026-10-12-separate-flex-iq-version-numbers-per-environment-are-not-an-mvp1-blocker-and-a-fix-comes-after-mvp1.md]]; location billing goes to production as it is — [[wiki/decisions/2026-10-09-all-web-services-go-to-production-before-the-weekend-instead-of-waiting-for-georgia.md]] (Oct-12 update); he proposed counting only the first word of a commit message for the Jira automation — [[wiki/decisions/2026-10-05-a-capability-moves-itself-to-request-review-when-all-its-features-are-completed-and-a-new-story-sends-feature-and-capability-back-to-to-do.md]] (Oct-12 update); he announced the AI PM "с сегодняшнего дня" — [[wiki/decisions/2026-10-08-the-ai-pm-goes-live-in-real-jira-projects-on-october-12-on-its-current-architecture-without-lenas-meetings.md]] (Oct-12 update). His pull request 169 on port 111 — [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 12) [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]].
+- At the [[wiki/meetings/2026-10-12-ris-mvp2-scope-and-release-timing.md|Oct-12 RIS MVP 2 call]] he went through the RIS capabilities and gave the timeline: most MVP 2 work in "two weeks, approximately", "plus one week for testing", the boot loop unknown — [[wiki/topics/ris-remote-install-and-machine-states.md]] (Oct 12). He will investigate the Intralot lock — [[wiki/decisions/2026-10-12-build-4333-is-tested-in-the-office-on-the-sas-simulator-for-the-intralot-lock-unlock-problem.md]]; his working position on a RIS that needs a printer — [[wiki/decisions/2026-10-12-a-ris-that-needs-a-printer-still-installs-on-a-machine-without-one-and-the-machine-tilts-until-a-printer-is-added-or-unchecked.md]] [[raw/Meeting_Transcript_RIS_MVP2_Scope_and_Release_Timing-October-12-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]
@@ -1431,3 +1441,7 @@ At the [[wiki/meetings/2026-10-08-dragon-pays-vertical-accepted-and-dutch-mill-p
 - [[raw/Meeting_Transcript_AI_Chief_System_Architect_Gap_Finding_Task-October-8-2026.md]]
 - [[raw/Meeting_Notes_AI_Chief_System_Architect_Gap_Finding_Task-October-8-2026.md]]
 - [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
+- [[raw/Meeting_Transcript_RIS_MVP2_Scope_and_Release_Timing-October-12-2026.md]]

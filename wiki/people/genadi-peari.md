@@ -3,8 +3,8 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий, Kenadi]
-source-count: 117
-open-commitments: 43
+source-count: 121
+open-commitments: 44
 ---
 
 # Genadi Peari
@@ -596,10 +596,31 @@ On the [[wiki/meetings/2026-10-08-genadi-bom-standard-flex-slim-metal-mikhail-ha
 - [ ] Genadi Peari — add the Texas BOM to BC — due Oct 8 2026 — [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
 - [ ] Genadi Peari — send Val the link to the Flex Pay Slim in the hardware-manufacturing repo — due Oct 8 2026 — [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
 - [ ] Genadi Peari — make the FlexPort back cover for Aristocrat (one large round hole for the wires) and send it — due unspecified — [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
-- [ ] Genadi Peari — test Nathan Carver's BOM work as soon as it is ready — due week of Oct 12–20 2026 — [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
+- [ ] Genadi Peari — test Nathan Carver's BOM work as soon as it is ready — due week of Oct 12–20 2026 — [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]] *(Oct 9: Nathan is out that week; the work is now the Georgia Flex Pay Slim BOM, due end of October [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]])*
 - [ ] Genadi Peari — write data contracts for each hardware repository, per Val's 13-repo table — due unspecified — [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]] [[raw/Meeting_Notes_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
 
+## Oct 9 2026 (in absentia) — the SAS connector on the Flexport board; Flex Pay Slim hardware for the show
+
+- At the [[wiki/meetings/2026-10-09-daily-standup-weekend-service-rollout-and-stats-blocking.md|Oct-9 stand-up]] Pavel said Genadi and "этот Алексей" (**unclear**) routed SAS on the Flexport board to small black four-pin connectors, while all ports use DB9; he will talk to Genadi that day and prefers DB9 as the standard — [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 9, 4:46 AM) [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]].
+- On the [[wiki/meetings/2026-10-09-transactional-mvp1-test-machines-and-unclaimed-funds.md|Oct-9 Transactional MVP 1 call]] Klimovich will ask him about the Flex Pay Slim hardware for the Georgia show — the dispenser in the cabinet and new wiring in the door; "Я почти уверен, что мы там не продвинули" [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]].
+
+## Oct 9 2026 (11:37 AM) — "not a time-consuming part", then the Georgia Pay Slim as the real test
+
+At the [[wiki/meetings/2026-10-09-github-msbc-agent-bom-assembly-and-pay-slim-first-test.md|Oct 9 "GitHub-MSBC" meeting]] (English; with Nathan Carver, Val mostly by chat) [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]:
+
+- **On the agent BOM.** "it might not never be perfect… It will be 90% correct", so a solid reference "adjusted manually" must stay; "the building bill of material is not a time-consuming part"; levels follow "how production is working", and some exist only for procurement convenience. He does not "see the whole picture", though the repos and contracts make sense to him.
+- **On what matters downstream.** Once the BOM is solid, ordering "can be fully automated" — RFQs from instance counts and a daily need-versus-stock report; he called Val's five texted actions "very important" and saw no reason "we won't have it tomorrow."
+- **On variants.** Near-identical BOMs per jurisdiction or customer need a new top part number in MSBC; the change may come from sales; a final product has about five modules and "Six, 7, 10" final part numbers.
+- **The test he asked for.** A flat parts list, the agent builds the BOM "without giving him the structure"; product: the Pay Slim, "the product we go into deploy soon". He will send Nathan the GitHub link and offered to reshuffle repositories. Ruling: [[wiki/decisions/2026-10-09-the-georgia-flex-pay-slim-bom-is-built-forward-from-genadis-github-source-by-agent-and-script-with-human-approval-by-end-of-october.md]].
+- **Reminder to Nathan.** "please don't forget… all requirements to the CO… we need to keep them in mind."
+
+## Open commitments (Oct 9 2026)
+
+- [ ] Genadi Peari — send Nathan Carver the GitHub link for the Pay Slim product source — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
+
 ## Sources
+- [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
+- [[raw/Meeting_Notes_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
 - [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
 - [[raw/Meeting_Notes_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
@@ -718,3 +739,5 @@ On the [[wiki/meetings/2026-10-08-genadi-bom-standard-flex-slim-metal-mikhail-ha
 - [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
 - [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
 - [[raw/Meeting_Notes_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]

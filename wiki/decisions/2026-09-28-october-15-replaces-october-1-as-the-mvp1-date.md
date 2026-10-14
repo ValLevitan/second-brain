@@ -3,7 +3,7 @@ type: decision
 title: October 15 replaces October 1 as the working MVP 1 date — Val asks for the final state by then "if possible", while the autotest estimate runs to October 23
 date: 2026-09-28
 aliases: [October 15 MVP1, MVP1 moves to October 15, сдвигаем на 15 октября, 15 число это реальная дата, final state October 15, 95 percent is fine, autotests until October 23, trial batch of ten locations, пробную партию 10, все остальные вопросы придерживаем, hold all other questions]
-source-count: 7
+source-count: 9
 status: active
 open-commitments: 3
 open-questions: 1
@@ -64,6 +64,12 @@ October 15 is restated as the aim, still with "если это получитс�
 
 **§15.8:** clear. **§15 #9:** none.
 
+## Update, Oct 9 2026 — development "formally" finished; tests maybe 80% by the 15th, under 80/20
+
+- **Development.** [[wiki/people/dmitri-chudinov.md|Chudinov]] on the 8:01 AM call: "Формальное MVP один с точки зрения разработки закончен то, что мы планировали"; what is found now are cases not discussed before [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]].
+- **Tests.** At the 4:46 AM stand-up Pavel: tests "к 15 числу по большому закроются"; Irina: "На 80 может быть" — under the rule of [[wiki/decisions/2026-10-09-tests-to-october-15-follow-80-20-and-port-machine-and-iq-tests-come-before-cloud-tests.md]] [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]].
+- **First borrowed machines** Oct 15–16: [[wiki/decisions/2026-10-09-first-borrowed-operator-machines-are-arranged-for-october-15-16.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
@@ -72,3 +78,5 @@ October 15 is restated as the aim, still with "если это получитс�
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]

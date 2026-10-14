@@ -3,7 +3,7 @@ type: person
 title: Felipe Miranda
 date: 2026-07-13
 aliases: [Felipe Miranda, Felipe, Filippo, Filipa, Philippe, Felipe Miranda Giorgi, Филипп, Филипп Н, Filipp N]
-source-count: 84
+source-count: 86
 open-commitments: 23
 open-questions: 0
 ---
@@ -403,6 +403,14 @@ On the [[wiki/meetings/2026-10-06-felipe-delivery-forecast-arc-release-and-modem
 - He brought Padma, a mini distributor — [[wiki/decisions/2026-10-06-a-mini-distributor-tier-gets-about-8-percent-against-20-percent-for-a-full-distributor.md]].
 - He will tell customers about the standard modem and the opt-out — [[wiki/decisions/2026-10-06-every-machine-ships-with-a-modem-and-customers-are-told-reports-are-free-for-a-limited-time-with-an-opt-out.md]].
 
+## Oct 9 2026 (in absentia, inference) — the first borrowed operator machines for October 15–16
+
+On the [[wiki/meetings/2026-10-09-transactional-mvp1-test-machines-and-unclaimed-funds.md|Oct-9 Transactional MVP 1 call]] Klimovich: "мы займёмся с Филипп, и это начнём организовывать" — borrowing the first operator machines into the office for Oct 15–16. "Филипп" = Felipe by alias and context — **inference** — [[wiki/decisions/2026-10-09-first-borrowed-operator-machines-are-arranged-for-october-15-16.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]].
+
+## Oct 12 2026 (11:29 AM) — RIS MVP 2: wait for MVP 2 rather than send MVP 1; the cash-out page; the Intralot lock
+
+At the [[wiki/meetings/2026-10-12-ris-mvp2-scope-and-release-timing.md|Oct-12 RIS MVP 2 call]] (Val absent): he prefers sending one release with the MVP 2 fixes (about November 9–10) over sending MVP 1 to the lab now, and wants Val's input — [[wiki/decisions/2026-10-05-ris-improvement-mvp1-is-five-jira-capabilities-in-one-release-due-october-19.md]] (Oct-12 update), [[wiki/topics/ris-remote-install-and-machine-states.md]] (Oct 12); he named the hard reset, the passport scan and software mismatch as the customers' biggest pains; he asked for a cash-out-only log page — [[wiki/decisions/2026-10-12-sebastian-writes-a-cash-out-only-log-capability-for-ris-mvp2.md]]; he described the Intralot lock, will test build 4333 on the office SAS simulator and meets Val at Intralot on Oct 13 — [[wiki/decisions/2026-10-12-build-4333-is-tested-in-the-office-on-the-sas-simulator-for-the-intralot-lock-unlock-problem.md]]. His Oct-11 Peach answer is not in this source — [[wiki/decisions/2026-10-05-felipe-decides-by-october-11-one-18-game-peach-pack-or-three-separate-sticks.md]] (Oct-12 note) [[raw/Meeting_Transcript_RIS_MVP2_Scope_and_Release_Timing-October-12-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]
@@ -489,3 +497,5 @@ On the [[wiki/meetings/2026-10-06-felipe-delivery-forecast-arc-release-and-modem
 - [[raw/Meeting_Transcript_RIS_Battery_Replacement_Capability_Framing-September-28-2026.md]]
 - [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]
 - [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
+- [[raw/Meeting_Transcript_RIS_MVP2_Scope_and_Release_Timing-October-12-2026.md]]

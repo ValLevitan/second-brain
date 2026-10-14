@@ -3,7 +3,7 @@ type: decision
 title: The autotest stand for card tests — a real InComm or a fake one, local or in the cloud — is not MVP 1 and goes to a separate meeting with "Andrei"; the quick option is a Flex IQ build variant that fakes card issuance; the sides (cloud vs the office, a stand close to production vs "on whose machine") are recorded as positions
 date: 2026-10-05
 aliases: [autotest stand debate, стенд для автотестов, real or fake InComm, с реальным инкламом либо с фейковым, InComm emulator, эмулятор инкома, не MVP 1 иначе все будем заниматься подъёмом инкома, separate meeting with Andrei, отдельный митинг и туда Андрея надо, Flex IQ build variant fakes card issued, фейковые данные о том что карточка выпущена, stand eats 15 to 20 GB, 15 20 гигов памяти, cloud vs local stand, не согласен что нам надо это в облаке, dev staging stand, Payment Hub autotests, special white cards, беленькие карты, FP-94 FP-59 not here]
-source-count: 4
+source-count: 5
 status: active
 open-commitments: 2
 open-questions: 4
@@ -51,7 +51,7 @@ The separate meeting set on Oct 5 is not mentioned as held. The notes record the
 
 ## Open commitments
 
-- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — call a separate meeting on the autotest / InComm stand with "Andrei" (Bosik by context), Chudinov, Tsymanov and Irina — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — call a separate meeting on the autotest / InComm stand with "Andrei" (Bosik by context), Chudinov, Tsymanov and Irina — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]] *(Oct 9: Pavel sets it for 12:45 that day, open to all interested — [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]])*
 - [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — raise any blocker on the card tests to Irina at once — due before Oct 15 2026 — [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
 
 ## Open questions
@@ -63,8 +63,19 @@ The separate meeting set on Oct 5 is not mentioned as held. The notes record the
 
 **§15.8:** clear — test infrastructure only. Tsymanov's "на чьей мы ставим на моей над [диминой]" is about machines, not people. **§15 #9:** none. InComm's test cards and credentials are mentioned as a fact; no values appear.
 
+## Update, Oct 9 2026 — Pavel sets the meeting for 12:45 that day: how to run autotests that use cloud services, especially payment services
+
+At the [[wiki/meetings/2026-10-09-daily-standup-weekend-service-rollout-and-stats-blocking.md|Oct-9 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]:
+
+- **Why it came up.** Under the 80/20 rule cloud tests wait ([[wiki/decisions/2026-10-09-tests-to-october-15-follow-80-20-and-port-machine-and-iq-tests-come-before-cloud-tests.md]]). [[wiki/people/alexei-khamin.md|Khamin]]: then there are no automatic runs, no emulators, no automatic set-up of the environment. Pavel: "это то, что мы сейчас будем обсуждать на следующем митинге про то, как симулировать клаудсервис. Особенно платежные."
+- **Who.** Pavel: as agreed the day before, right after the stand-up "мы с Андреем с Димой… с Сергеем… с тобой [Irina] соберёмся". Chudinov: "я бы подключил всех заинтересованных". Irina: "ты не назначал ничего или надо?" Pavel: "давайте в 12:45 я сейчас назначу." No time zone was stated.
+- **The topic**, at Tsymanov's request: "каким образом нам проводить автоматическое тестирование? Которое задействует. Клауд сервиса. Для этого нам надо, скорее всего, какой то [environment]… чтобы ну можно было влиять на этот [environment], говорить, какие ошибки. 2 сторона, например, эмулирует."
+
+Whether the 12:45 meeting was held is not in these sources. Pavel's commitment below stays open until a source shows it held.
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]

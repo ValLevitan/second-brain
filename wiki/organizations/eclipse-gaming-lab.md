@@ -3,7 +3,7 @@ type: organization
 title: Eclipse (gaming test lab)
 date: 2025-03-14
 aliases: [Eclipse, Eclipse Compliance Testing, Eclipse lab, клипс, клипсе, always wanted a local box for the electronics, Nebraska parameters, Xlibs, эклипс, a week for Eclipse to issue certificates, only the machine]
-source-count: 18
+source-count: 19
 open-commitments: 2
 open-questions: 1
 ---
@@ -118,6 +118,10 @@ At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-ne
 
 **§15.8:** clear. **§15 #9:** none — a build number is a work reference, not a corporate identifier.
 
+## Oct 12 2026 — about five days at Eclipse in the RIS MVP 2 timeline
+
+At the [[wiki/meetings/2026-10-12-ris-mvp2-scope-and-release-timing.md|Oct-12 RIS MVP 2 call]] Felipe planned the lab step for RIS MVP 2: "November 1st, we finished, then we send to Eclipse one more week, five days. So the release would be like November 9th, 10th." Paying the lab for an MVP 1 build first is part of why he prefers to wait for MVP 2 ("paying the lab and getting this new build") [[raw/Meeting_Transcript_RIS_MVP2_Scope_and_Release_Timing-October-12-2026.md]]. See [[wiki/topics/ris-remote-install-and-machine-states.md]] (Oct 12).
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
@@ -138,3 +142,4 @@ At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-ne
 - [[raw/Meeting_Transcript_Eclipse_Compliance_Testing_South_Dakota_VLT_Approval_Inquiry-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Eclipse_Nick_Farley_South_Dakota_VLT_Answer-September-23-2026.md]]
 - [[raw/Meeting_Notes_Eclipse_Nick_Farley_South_Dakota_VLT_Answer-September-23-2026.md]]
+- [[raw/Meeting_Transcript_RIS_MVP2_Scope_and_Release_Timing-October-12-2026.md]]

@@ -3,8 +3,8 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 48
-open-commitments: 12
+source-count: 51
+open-commitments: 11
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
 
@@ -186,24 +186,47 @@ This answers the Oct-1 question whether his experiments go on: they become this 
 ## Open commitments (Oct 5 2026)
 
 - [ ] Nathan Carver — break the work into a project and capabilities in Jira, under DTP-1083 (IP-964) or IP-965, and start implementing — due unspecified — [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
-- [ ] Nathan Carver — run the Flex Pay Slim reverse spike: pull and flatten the MSBC BOM into GitHub, projects, repos and data contracts, agents build the BOM, push to MSBC, compare — due unspecified — [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
 - [ ] Nathan Carver — spike the Flex Port on its own afterwards and compare — due after the first spike — [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
-- [ ] Nathan Carver — turn some of this over before his week off — due the week of Oct 5 2026 — [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
 
 ## Open commitments (Sept 30 2026)
 
-- [ ] Nathan Carver — experiment with the GitHub-to-MSBC bridge in phases, items first, then bills of material, using the development MSBC instances; trace an existing MSBC BOM back to its items and work out what it would look like in GitHub — due unspecified — [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]] *(Oct 1: Val says he will build the first structure himself with Claude Code; whether this item stands beside it is unclear on tape [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]])* *(Oct 5: it becomes the Flex Pay Slim reverse spike above [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]])*
 - [ ] Nathan Carver — check how others handle an engineering-to-BC item/BOM sync before the deep investigation — due unspecified — [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]
 
 ## Oct 8 2026 (in absentia) — "show something on Monday"
 
 On the [[wiki/meetings/2026-10-08-genadi-bom-standard-flex-slim-metal-mikhail-hand-over-and-data-contracts.md|Oct 8 3:59 PM alignment call]] Val told Genadi he works closely with Nathan ("И он меня понимает") and that "Он должен показать… чтото в понедельник" (Oct 12). Val wants the week of Oct 12–20 spent finishing Nathan's BOM work, with Genadi testing it, so JVL can order without Mikhail Perelman; and Val will practise a Hangzhou quote himself to understand the nuances "когда со мной нэйтан" [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]. See [[wiki/decisions/2026-10-08-msbc-stops-being-the-bom-source-and-the-week-of-october-12-goes-to-ordering-without-mikhail.md]] and [[wiki/decisions/2026-10-05-nathan-carver-runs-the-flex-pay-slim-bom-reverse-spike-and-flex-port-follows.md]] (Oct-8 update). Whether he is away that week is open on the Oct-8 decision page.
 
-## Open commitments (Oct 8 2026)
+## Oct 9 2026 — shows the agent BOM experiment; takes the Georgia Flex Pay Slim BOM, forward from GitHub, by end of October
 
-- [ ] Nathan Carver — show progress on the BOM system — due Monday Oct 12 2026 (stated by Val; Nathan absent) — [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
+At the [[wiki/meetings/2026-10-09-github-msbc-agent-bom-assembly-and-pay-slim-first-test.md|Oct 9 11:37 AM "GitHub-MSBC" meeting]] (English; with Genadi, Val mostly by chat) [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]:
+
+- **The demo.** He showed a PR of "just the exploratory work": a script pulled an existing BOM from the dev MSBC instance and broke it into folders standing for future repos, each with an overview, a parts CSV and structured contracts; a new agent, following a written "standard", picked parts by contract and a script built a new BOM in MSBC. It came close, with "outlier parts that we're going to have to settle on", and wrote a trace report of its reasoning and rejected parts. Detail: [[wiki/decisions/2026-10-05-hardware-follows-the-developer-repo-model-one-jira-project-one-repo-zero-trust-data-contracts-no-monorepo.md]] (Oct-9 update).
+- **His view on checking it.** "It's a… trust and verify": the agent picks parts, a script flags interfaces that "don't line up" and sends them back to the agent in a loop, perhaps an audit agent on "a totally different model", and a final human review; "The script… audit will be the most consistent." Confidence comes after "30 consecutive bombs that need no corrections."
+- **His honesty about the gap.** "I don't fully understand all of Val's vision"; he asked for "real world examples of… how we're doing it now, and… how we can measure success."
+- **Next.** Reading Val's chat ("Val doesn't want Msbc as a starting point"), he took the Georgia Flex Pay Slim from Genadi's GitHub source; he is out the week after Oct 9 and will do it when back, by end of month. Ruling: [[wiki/decisions/2026-10-09-the-georgia-flex-pay-slim-bom-is-built-forward-from-genadis-github-source-by-agent-and-script-with-human-approval-by-end-of-october.md]].
+
+This discharges his Oct-5 spike, his Sept-30 experiment and the Oct-8 "show something on Monday" item (see History).
+
+## Open commitments (Oct 9 2026)
+
+- [ ] Nathan Carver — build the Georgia Flex Pay Slim BOM from Genadi's GitHub source with the agent and script workflow, push it to MSBC, keeping Val's chat requirements for the "CO" agent in mind — due end of October 2026 (the notes: Oct 31) — [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
+- [ ] Nathan Carver — find a file format a human can review efficiently for BOM approval (maybe CSV for Excel) — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
+- [ ] Nathan Carver — set up time with Genadi on reshuffling the repositories, as needed — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
+
+## History
+
+- [x] Nathan Carver — experiment with the GitHub-to-MSBC bridge in phases, items first, then bills of material, using the development MSBC instances; trace an existing MSBC BOM back to its items and work out what it would look like in GitHub — due unspecified — [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]] *(Oct 1: Val says he will build the first structure himself with Claude Code; whether this item stands beside it is unclear on tape [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]])* *(Oct 5: it becomes the Flex Pay Slim reverse spike above [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]])* — **discharged Oct 9 2026:** shown as the agent BOM experiment above [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
+- [x] Nathan Carver — run the Flex Pay Slim reverse spike: pull and flatten the MSBC BOM into GitHub, projects, repos and data contracts, agents build the BOM, push to MSBC, compare — due unspecified — [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]] — **discharged Oct 9 2026 in exploratory form** (which product's BOM is not named on tape) [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
+- [x] Nathan Carver — turn some of this over before his week off — due the week of Oct 5 2026 — [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]] — **discharged Oct 9 2026:** he showed the PR before his week off [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
+- [x] Nathan Carver — show progress on the BOM system — due Monday Oct 12 2026 (stated by Val; Nathan absent) — [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]] — **discharged Oct 9 2026**, ahead of Monday [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
+
+## Oct 12 2026 (in absentia) — location billing goes to production as it is
+
+At the [[wiki/meetings/2026-10-12-daily-standup-flexport-emulator-and-jira-auto-progress-rule.md|Oct-12 stand-up]], Chudinov said Nathan had not finished all of location billing; Pavel: roll out "То, что есть". Tsymanov asked whether Nathan added the location-billing API discussed long ago; not answered — [[wiki/decisions/2026-10-09-all-web-services-go-to-production-before-the-weekend-instead-of-waiting-for-georgia.md]] (Oct-12 update) [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]].
 
 ## Sources
+- [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
+- [[raw/Meeting_Notes_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
 - [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
 - [[raw/Meeting_Notes_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
@@ -253,3 +276,4 @@ On the [[wiki/meetings/2026-10-08-genadi-bom-standard-flex-slim-metal-mikhail-ha
 - [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_Repo_BOM_Source_of_Truth-September-24-2026.md]]
 - [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]

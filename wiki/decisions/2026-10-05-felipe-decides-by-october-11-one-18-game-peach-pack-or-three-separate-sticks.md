@@ -3,7 +3,7 @@ type: decision
 title: Felipe owns the call — by Sunday October 11 he tells Val whether Peach 1, 2 and 3 ship as one 18-game release or as three separate USB sticks
 date: 2026-10-05
 aliases: [one release or three separate USB sticks, 18 games in one pack, compact all Peach in one USB stick, you take the ownership, you have until the 11th, 18-game bundle, one dongle]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 1
 open-questions: 1
@@ -53,7 +53,12 @@ The derived notes match the transcript, except that they describe the 12-game me
 
 **§15.8:** Val's personal remarks about how Felipe answers questions are withheld; the assignment of ownership is recorded.
 
+## Note, Oct 12 2026 — the deadline has passed; this source does not record Felipe's answer
+
+At the [[wiki/meetings/2026-10-12-ris-mvp2-scope-and-release-timing.md|Oct-12 RIS MVP 2 call]] (Val absent) the one-pack question was not raised. The only related words: Pavel, "we are making changes for actually three different versions, for pitch one, pitch two, and…", and Felipe, "we're going to have three different builds, correct, for page one, two, and three" [[raw/Meeting_Transcript_RIS_MVP2_Scope_and_Release_Timing-October-12-2026.md]]. That reads as the team still planning three separate builds (**inference**). It does not show what Felipe told Val, or whether he did. The commitment below stays open and is past its Oct-11 date.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
 - [[raw/Meeting_Notes_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
+- [[raw/Meeting_Transcript_RIS_MVP2_Scope_and_Release_Timing-October-12-2026.md]]

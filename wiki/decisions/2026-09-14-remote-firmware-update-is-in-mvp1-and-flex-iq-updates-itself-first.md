@@ -3,7 +3,7 @@ type: decision
 title: Remote firmware update is in MVP 1 — Flex IQ and FlexPay update themselves first; distributing firmware to the Flex-Ports left MVP 1 on Sept 17 and came BACK into MVP 1 on Sept 28, when the date moved to October 15
 date: 2026-09-14
 aliases: [firmware upgrade in MVP1, capability 146, PORT-13, remote FlexPort update back in MVP1, remote firmware update, OTA firmware, приоритет номер один это чтобы обновлялся флекс ай кю, flash the FlexPorts, Flex IQ to FlexPort protocol, доперфек, priority two deferred, FlexPort firmware by USB stick, capability 144 to MVP2, capability 144 cloned, no rollback, roll forward only, requirement 1367]
-source-count: 18
+source-count: 20
 status: active — priority two (remote update of the Flex-Ports) left MVP 1 on Sept 17 2026 and RETURNED to MVP 1 on Sept 28 2026 (capability 146); rolling BACK to a previous build stays out of MVP 1 (Sept 18 2026); the delivery design is still open as of Oct 1 2026 (parked "to tomorrow" on Sept 30 and not taken up on Oct 1); see the dated updates below
 open-commitments: 6
 open-questions: 3
@@ -176,6 +176,12 @@ At the [[wiki/meetings/2026-10-05-transactional-mvp1-port-screens-unclaimed-mone
 
 **§15.8:** clear — product scope and task assignment only; no compensation or performance judgement for any named person.
 
+## Update, Oct 9 2026 — USB-stick updates run through RAUC and the old updater repo is archived; a re-used terminal must wipe its secrets to get new cloud-update certificates; the bootloader does not work on the new boards
+
+- **USB and RAUC.** At the [[wiki/meetings/2026-10-09-daily-standup-weekend-service-rollout-and-stats-blocking.md|Oct-9 stand-up]] Biratka said the update from a USB stick works the same way as the remote update, through RAUC, checked on Flex Pay hardware; a full reinstall is by micro-SD. Chudinov did not build bundle download for the stick — bundles roll out remotely. See [[wiki/decisions/2026-10-09-the-old-usb-updater-repository-is-archived-because-rauc-now-does-usb-updates.md]] [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]].
+- **Secrets wipe.** On the [[wiki/meetings/2026-10-09-transactional-mvp1-test-machines-and-unclaimed-funds.md|8:01 AM call]] Chudinov: a terminal registered before keeps its old secrets, so "мы не создадим новые сертификаты для. Обновление через облако" — see [[wiki/decisions/2026-10-09-a-terminal-registered-before-must-wipe-its-secrets-and-the-install-instruction-says-so-in-red.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]].
+- **The bootloader on new boards.** Khamin: "На новых платах ничего не работает"; the fix from the firmware memory changes is not in the repository. Pavel will write to the developer ("алексеевым" — Alekseev by context, **inference**) [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
@@ -196,3 +202,5 @@ At the [[wiki/meetings/2026-10-05-transactional-mvp1-port-screens-unclaimed-mone
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]

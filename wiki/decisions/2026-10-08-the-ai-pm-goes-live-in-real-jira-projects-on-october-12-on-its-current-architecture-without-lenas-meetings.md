@@ -3,9 +3,9 @@ type: decision
 title: The AI PM goes live in real Jira projects on Monday Oct 12 on its current architecture (change it later if needed); Lena's meetings leave the pilot; the agent deletes only what it created and only comments on the rest; the agent is not genderless and gets a name
 date: 2026-10-08
 aliases: [AI PM live October 12, боевой режим, launch with current architecture, Lena out of the AI PM pilot, agent deletes only its own items, AI Draft status, AI Draft lifetime, Dasha, the AI PM is not genderless, two kinds of draft]
-source-count: 2
+source-count: 5
 status: active
-open-commitments: 6
+open-commitments: 4
 open-questions: 3
 ---
 
@@ -48,11 +48,9 @@ No value was ruled. Later in the call Bosik twice described deletion "на 2 д�
 ## Open commitments
 
 - [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — remove Lena from the list of people whose meetings the agent collects — due unspecified — [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
-- [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — switch on live mode so features are created in the real Jira projects — due Monday Oct 12 2026 — [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
 - [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — improve the Teams agent so it gives real answers (Val: "в понедельник посмотрим") — due Monday Oct 12 2026 — [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
 - [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — make the AI Draft deletion skip weekends (planned, not built) — due unspecified — [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
 - [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — add an "AI Draft" column per person to the morning report (Pavel: include a Jira link filtered by person) — due unspecified — [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]] [[raw/Meeting_Notes_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
-- [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — give the agent a name ("Dasha" proposed) — due unspecified — [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
 
 ## Open questions
 
@@ -62,6 +60,29 @@ No value was ruled. Later in the call Bosik twice described deletion "на 2 д�
 
 **§15.8 / personal:** remarks about the character of named people and personal remarks are not recorded. No pay matters. **§15 #9:** none.
 
+## Update, Oct 9 2026 — "Dasha" runs in test mode; production on Monday "if we make it"; tasks arrive as drafts to accept or reject
+
+At the [[wiki/meetings/2026-10-09-daily-standup-weekend-service-rollout-and-stats-blocking.md|Oct-9 Minsk stand-up]] (Russian) [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]: "Мы запускаем в тестовом режиме вот этот вот агент её будут звать пока что даша, возможно потом переименуем" — tasks may appear in the test project, "не пугайтесь". "Планируется запуск уже в работу в прод в понедельник… если мы все успеем." Pavel: each person gets it in the daily email report, with links to the tasks on them. Kovalchuk: the tasks will have a draft status ("статус айдрафт") and must be accepted or rejected; there will likely be a link to the meeting where it was discussed [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]].
+
+The same morning Chudinov told the bot not to create a task from his weekend roll-out remark ("пометка для бота не создавай") — the team already speaks to the agent in meetings [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]].
+
+## History
+
+- [x] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — switch on live mode so features are created in the real Jira projects — due Monday Oct 12 2026 — [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]] — discharged on the day, as reported: at the Oct-12 stand-up Pavel said "у нас всё с сегодняшнего дня начинается" and Kovalchuk that it has started; that the items land in the real projects is not said in words (**inference**) [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
+- [x] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — give the agent a name ("Dasha" proposed) — discharged: on Oct 9 Kovalchuk said it is called "Dasha" for now, maybe renamed later — [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]] [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+
+## Update, Oct 12 2026 — it starts on the day; the team reviews "AI Draft" tasks from the next morning
+
+At the [[wiki/meetings/2026-10-12-daily-standup-flexport-emulator-and-jira-auto-progress-rule.md|Oct-12 Minsk stand-up]] (Russian) Pavel asked [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] to tell the team "что у нас всё с сегодняшнего дня начинается". Kovalchuk: "Ну вот оно уже всплыл, да с сегодняшнего дня тестов запускаем. Мы смотрим, как оно всё будет работать." [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
+
+- **The routine.** Pavel: "нам надо будет с завтрашнего утра брать по какомуто фильтру задачи" — from tomorrow morning (Oct 13) everyone takes the tasks by a filter. Kovalchuk: tasks "со статусом [AI Draft]", to judge whether the agent proposes something true or not.
+- **How to say no.** Chudinov asked how to close one that is not needed. Kovalchuk: "Ты выбираешь реджект и выбираешь в резолюшн, почему то реджект. Там некоторые варианты есть и можно еще текстом комментарии написать." "Пока что так, если этого будет недостаточно, то будем изменять."
+
+So the Oct-12 go-live date held (**evolution** from the Oct-9 "если мы все успеем"). The draft lifetime question below is not touched. The derived notes date the review "From October 13" [[raw/Meeting_Notes_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
 - [[raw/Meeting_Notes_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]

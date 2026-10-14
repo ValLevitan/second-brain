@@ -3,10 +3,10 @@ type: decision
 title: A capability moves itself to Request Review when all its child features are Completed (Kovalchuk's weekend automations), and a story added under a Completed feature sends the feature to To Do and its capability from Request Review to To Do — Kovalchuk automates it, the developer moves it to In Progress when he takes the story; every story must hang under a parent
 date: 2026-10-05
 aliases: [Jira reopen rules, four automations, 4 автоматизации, capability to Request Review automatically, все дочерние фичи комплект капабилити реквест ревью, story reopens feature and capability, фичу из комплитов в туду, капабилити в туду, пускай будет всё в туду, open story hiding inside a done tree, внутри сидит открытая история, stories without a parent, ряд оказались ни к кому, today's date no longer red, убрал сегодняшнюю дату]
-source-count: 3
+source-count: 5
 status: active
 open-commitments: 1
-open-questions: 1
+open-questions: 2
 ---
 
 # A capability moves itself to Request Review when its features are Completed; a new story sends feature and capability back to To Do
@@ -51,7 +51,23 @@ At the [[wiki/meetings/2026-10-06-daily-standup-ris-georgia-branch-and-critical-
 
 **§15.8:** clear — Jira process only. Who left open stories under closed features was asked and deliberately not named ("у нас фамилии не называются"); nothing is recorded. **§15 #9:** none.
 
+## Update, Oct 12 2026 — the "In Progress" automation fires on any mention of a task key; "turn it off" is not confirmed
+
+At the [[wiki/meetings/2026-10-12-daily-standup-flexport-emulator-and-jira-auto-progress-rule.md|Oct-12 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]:
+
+- **What happened.** [[wiki/people/sergey-tsymanov.md|Tsymanov]]: port task 118, assigned to him, moved itself to In Progress though "Я её не переводил". [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]]: "сейчас настроен автоматизация. Если создана ветка, создан фулриквест либо comit, то задача автоматически открывается." The commit was [[wiki/people/vladimir-samusenko.md|Vladimir]]'s; Pavel: "указал он тинт 30. Он никак с этим не связан" (TIN-30).
+- **Why.** Vladimir: "жиро ищет ключи задач" anywhere — even if the commit belongs to another task and is in another branch, a key named in its text links it. "в комментарии к комиту нельзя указывать задачи, не относящиеся к… тому, куда ты комидишь."
+- **Fixes proposed.** Pavel: only the first word of the commit message, up to the first space, should count. Irina: match the task's project to the repository (a port task only from the port repository). Kovalchuk: "там, к сожалению, нету таких гибких правил" and "Давайте отключим это правило тогда." No one confirmed; the stand-up moved on.
+
+This automation is a new item beside Kovalchuk's Oct-5 rules above; the sources do not say whether it was one of his four weekend automations. The derived notes list it as an open question [[raw/Meeting_Notes_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]].
+
+### Open questions (Oct 12 2026)
+
+- Should the Jira automation that moves a task to In Progress on any branch, commit or pull-request mention be turned off, or narrowed? Kovalchuk proposed turning it off; not confirmed — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]

@@ -3,10 +3,10 @@ type: decision
 title: Two lost-money bugs get simple MVP 1 rules — a Flex-Port that dies while holding money keeps the transaction and sends it to unclaimed when it comes back; a Flex-Port with no gateway link goes out of service and the money stays on the machine; what a cashier may do with unclaimed money is moved to MVP 2
 date: 2026-09-24
 aliases: [bug 349, bug 354, 349 баг, 354 бак, Flex-Port dies holding money, Flex-Port reboot money lost, power loss on the Flex-Port, quick blink, быстрый блинк, clever cashier, хитрый кассир, no gateway no collect, Flex-Port out of service without gateway, cashier redirect of unclaimed money, unclaimed handling MVP 2, nearest wallet matching, PIN-bound wallet idea]
-source-count: 6
+source-count: 8
 status: active
 open-commitments: 4
-open-questions: 3
+open-questions: 4
 ---
 
 # Two lost-money bugs get simple MVP 1 rules
@@ -100,6 +100,21 @@ This keeps the Sept-24 ruling: cashier action on unclaimed money stays in MVP 2.
 
 **§15.8:** clear — product logic only. **§15 #9:** none; 349 and 354 are bug numbers.
 
+## Update, Oct 9 2026 — collect money that does not reach the scanned wallet after a port crash goes to unclaimed in MVP 1; sending it to the known wallet is for later
+
+On the [[wiki/meetings/2026-10-09-transactional-mvp1-test-machines-and-unclaimed-funds.md|Oct-9 Transactional MVP 1 call]] (Russian) [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]:
+
+- **Irina's case.** A player collects money from the machine and scans a wallet; before the money reaches the wallet, the port reboots. The money does not go to the scanned wallet. [[wiki/people/dmitri-chudinov.md|Chudinov]]: "Это это уже анклей." [[wiki/people/andrei-klimovich.md|Klimovich]]: "мы с Димой говорили на эту тему приняли пока такое решение." Pavel: money taken off the machine "Назад они уже вернутся не могут, поэтому они только либо на кошелек, либо в анклы всё."
+- **Could it go to the scanned wallet?** Chudinov: "Теоретически, если человек отсканировал кошелёк… флик спорт может сохранить, на какой кошелёк планировала сумма? И если произошёл ребут при поднятии эти деньги отправить на кошелёк." Irina: today it does not. A case that breaks this: the Flex Port is connected to another master, "например, заменили IQ". Pavel: if the Flexport loses power, the money stays on it until power returns; and "вдруг уже игрок выбросил этот кошелек?" Chudinov: "Неважно… Главное, что мы их не потеряли."
+- **The MVP 1 rule.** Klimovich: "в рамках м випи один мы сделаем так что всё в ант[клейм] лежит. Мы ещё мы воспринимаем этот статус как с охранный." Auto-sending to a known wallet is "идея хорошая", but all cases need thought. Chudinov: "Хорошо." — "запаркуем как анкэйм ты пускай авто тесты на это будут заточены."
+- **A later idea.** Pavel: "возможно, в будущем в какомнибудь 3" — the cashier sees a saved wallet on an unclaimed item; the player shows the ticket, the cashier presses a button and the money appears on the player's wallet. *(The notes read "3" as MVP 3 [[raw/Meeting_Notes_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]].)*
+
+This repeats, for one more case, the Sept-24 rule above (money a Flex Port holds goes to unclaimed). It is **evolution**, not a contradiction.
+
+### Open questions (Oct 9 2026)
+
+- Later: should unclaimed money go to the known saved wallet automatically, or by a cashier's action (Pavel's MVP 3 idea)? — [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
 - [[raw/Meeting_Notes_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
@@ -107,3 +122,5 @@ This keeps the Sept-24 ruling: cashier action on unclaimed money stays in MVP 2.
 - [[raw/Meeting_Notes_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
