@@ -3,7 +3,7 @@ type: person
 title: Felipe Miranda
 date: 2026-07-13
 aliases: [Felipe Miranda, Felipe, Filippo, Filipa, Philippe, Felipe Miranda Giorgi, Филипп, Филипп Н, Filipp N]
-source-count: 82
+source-count: 83
 open-commitments: 23
 open-questions: 0
 ---
@@ -384,6 +384,15 @@ At the [[wiki/meetings/2026-09-25-georgia-progressives-and-class-a-lions-riches.
 
 On the [[wiki/meetings/2026-10-02-diagnostic-tool-on-the-install-stick-for-nova-fp7-and-rk.md|Oct-2 9:01 AM "EGMs diagnostic tool" call]] (Russian; he was not on it) Pavel tied the install-stick diagnostic tool to "той теме, которая озвучивал недавно [Филипп]? Что там какието ошибки вылетают на этапе инсталляции с непонятным описанием", and named him with Val and "Андрей" as a source of modem use cases ("Филиппа" = Felipe by context — the RIS thread of Sept 23–28 above) [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]. See [[wiki/decisions/2026-10-02-the-diagnostic-tool-goes-onto-the-installation-stick-and-lives-in-the-sdk-repository-both-rk-and-fp7-are-worked-out.md]] and [[wiki/topics/ris-remote-install-and-machine-states.md]] (Oct 2, 9:01 AM).
 
+## Oct 5 2026 (11:00 AM) — questions on the critical-error screen, one stick for all Peach games, and a deadline of Oct 11
+
+At the [[wiki/meetings/2026-10-05-ris-mvp1-scope-and-peach-packaging.md|Oct-5 11:00 AM "RIS changes review"]]:
+- **Lottery lock.** He raised machines left "out of service and locked" by the lottery accounting system; Val kept it out of MVP1. He will share his email thread with Val. See [[wiki/decisions/2026-10-05-ris-improvement-mvp1-is-five-jira-capabilities-in-one-release-due-october-19.md]]. [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
+- **The critical-error screen.** He asked who at JVL gets the QR data, and why a technician would scan it if the screen already shows the cause. Outcome: words on the screen plus the QR; the technician gets nothing from scanning in MVP1. "there needs to be a modification in the text". See [[wiki/decisions/2026-10-05-the-critical-error-screen-shows-the-cause-and-fix-in-words-and-keeps-the-qr-code-in-mvp1.md]]. [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
+- **One Peach stick.** He proposed Peach 1, 2 and 3 on one USB stick (about 80% of installed machines), then raised that lottery reports could no longer tell the three apart. Val asked for his recommendation, not a question, and gave him until **Sunday Oct 11**: "one release or three separate USB sticks." See [[wiki/decisions/2026-10-05-felipe-decides-by-october-11-one-18-game-peach-pack-or-three-separate-sticks.md]]. [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
+- **MVP 2.** Val: "Felipe, set up a meeting a week from now. Same time… planning for Mvp 2." — "Okay, will do." (Commitments held on the decision pages.) [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
+- **§15.8:** Val's personal remarks on how Felipe answers questions are not recorded.
+
 ## Sources
 - [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]
 
@@ -468,3 +477,4 @@ On the [[wiki/meetings/2026-10-02-diagnostic-tool-on-the-install-stick-for-nova-
 - [[raw/Meeting_Transcript_RIS_MVP1_Factory_Reset_Reduction_Plan-September-25-2026.md]]
 - [[raw/Meeting_Transcript_RIS_Battery_Replacement_Capability_Framing-September-28-2026.md]]
 - [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]
+- [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]

@@ -3,7 +3,7 @@ type: organization
 title: Georgia Lottery Corporation (COAM regulator)
 date: 2026-09-10
 aliases: [Georgia Lottery, Georgia Lottery Corporation, GLC, COAM staff, the Lottery, COAM division, COAM Hearing Room, Georgia Lottery COAM, guidance is not the law, they're coming out with the draft, the general counsel had a negative reaction]
-source-count: 9
+source-count: 10
 open-commitments: 2
 open-questions: 3
 ---
@@ -99,6 +99,13 @@ Klimovich holds an example of the same report produced by one of JVL's competito
 
 At the [[wiki/meetings/2026-09-28-larry-john-eddie-lunch-transactional-equipment-investment-structure.md|Sept-28 lunch]] Val gave outsiders his version of the Lottery's August reaction, sharper than the Sept-10/11 wording above: "Georgia Lottery Corporation… flipped… They said our legislation, and we are overseeing the legislation. The legislation calls for no cash, and here at the machine in front of us, you cash me out. This cannot happen. So the head lawyer for Georgia Lottery Corporation flipped. He issued a statement that this is illegal. The operators association said we are going to sue anybody who pursues that." He also told them the Lottery's share of the net win: "GLC I believe gets slightly under twenty percent. I think eighteen percent", and that the Lottery "has always been afraid of inducement or money laundering… so they prohibit any form of participation on the gaming machine" — while "there is not even a regulation for transactional equipment" [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]]. (Val's own account; the statement itself is not in the corpus. The InComm side of the same story is on [[wiki/organizations/incom.md]], Sept 28.)
 
+## Oct 5 2026 (in absentia) — what the lottery's reports show, and the lock that strands machines
+
+Two field points from [[wiki/people/felipe-miranda.md|Felipe]] at the [[wiki/meetings/2026-10-05-ris-mvp1-scope-and-peach-packaging.md|Oct-5 11:00 AM RIS review]] [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]:
+
+- **Reports by software number.** Operators see "this Jvl 1.2.xg coam. That's all they see and the performance numbers" — one approved software number per package, so a 12-game pack ("1919") cannot be split into Peach 1 and Peach 2. "I don't know if they get the buy game report. I don't think they do, but buy game is very, very horrible report." Pavel thought the lottery "can produce report related to by games". This drives the open packaging choice on [[wiki/decisions/2026-10-05-felipe-decides-by-october-11-one-18-game-peach-pack-or-three-separate-sticks.md]].
+- **The accounting-system lock.** Felipe: a machine is sometimes "locked by accounting system from the lottery because sometimes it's stuck and out of service and locked until someone manually does it." Val: not for RIS MVP1; he will discuss it separately ("the interlod" — possibly Intralot, **inference**). Felipe will share his email thread with Val.
+
 ## Open commitments
 
 - [ ] Georgia Lottery staff — connect Val with the right people at InComm and give him a direct phone number and email address for [[wiki/people/joe-kim.md|Joe Kim]]: "**We can call. We'll be glad to give you a phone number and… email address**", and at the close "**Let me get you some contacts, and I'll email them to you, and we'll go from there**" — due unspecified — [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
@@ -122,3 +129,4 @@ At the [[wiki/meetings/2026-09-28-larry-john-eddie-lunch-transactional-equipment
 - [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Digital_Cash_Processing_Card_Solution_and_Cash_Float_Partnership-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]]
+- [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]

@@ -3,9 +3,9 @@ type: decision
 title: Sebastian takes over the RIS MVP1 capabilities in Jira, with requirements linked, under Pavel's direction; Felipe helps in the background, Pavel creates features and schedules the work, Irina manages acceptance criteria — and no automated tests are made for it
 date: 2026-09-28
 aliases: [it's on you, you're taking over from now, free up Felipe for other things, capabilities entered in Jira, requirements linked to the capabilities, Irina will manage acceptance criteria, the automated testing will not be created on this]
-source-count: 2
+source-count: 3
 status: active
-open-commitments: 4
+open-commitments: 3
 open-questions: 0
 ---
 
@@ -31,10 +31,17 @@ The derived notes record the hand-over and the no-autotest correction as decisio
 
 ## Open commitments
 
-- [ ] Sebastian Cortes — enter the RIS MVP1 capabilities in Jira and link the requirements to them, working directly with Pavel — due unspecified — [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]
 - [ ] Felipe Miranda — help Sebastian in the background — due unspecified — [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]
 - [ ] Pavel Frolov — create the features and schedule resources and work for the RIS MVP1 capabilities — due unspecified — [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]
 - [ ] Irina Shishko — manage the acceptance criteria for the RIS MVP1 capabilities — due unspecified — [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]
+
+## Update — Oct 5 2026
+
+At the [[wiki/meetings/2026-10-05-ris-mvp1-scope-and-peach-packaging.md|Oct-5 11:00 AM RIS review]] Pavel showed the list: the capabilities were "Created by Sebastian, I reviewed them, changed the description. And market them with component RIS improvements." Asked whether they all have acceptance criteria, Sebastian: "Yes, we do." Pavel then grouped the chosen ones into one Jira release — [[wiki/decisions/2026-10-05-ris-improvement-mvp1-is-five-jira-capabilities-in-one-release-due-october-19.md]]. Pavel also said "currently we don't have any test cases or test execution created" [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]].
+
+## History
+
+- [x] Sebastian Cortes — enter the RIS MVP1 capabilities in Jira and link the requirements to them, working directly with Pavel — due unspecified — [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]] — *discharged Oct 5: the capabilities are in Jira under the "RIS improvements" component and have acceptance criteria* [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
 
 **§15.8:** clear. Role assignment only; no judgement of anyone's performance.
 
@@ -42,3 +49,4 @@ The derived notes record the hand-over and the no-autotest correction as decisio
 
 - [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]
 - [[raw/Meeting_Notes_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]
+- [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]

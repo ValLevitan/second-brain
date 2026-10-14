@@ -4,7 +4,7 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 123
+source-count: 125
 open-commitments: 35
 ---
 
@@ -637,6 +637,24 @@ At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-r
 
 - [ ] Irina Shishko — rework the vague wallet-creation requirements (what records appear when there is no wallet) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 
+## Oct 5 2026 (7:01 AM) — Test 360 vs the new tests, "fit the symbols, not the field", and pay-table templates by symbol count
+
+At the [[wiki/meetings/2026-10-05-rage-nova-port-autotests-and-horizontal-to-vertical-layout.md|Oct-5 7:01 AM Rage-to-Nova review]] (Russian) [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]:
+
+- She explained to Pavel how Igor's tests differ from Test 360: Test 360 used element names wherever they appeared; Igor first checks that everything is in place, then that it works — [[wiki/decisions/2026-10-05-geometry-first-port-autotests-accepted-and-geometry-checks-named-graphic-contracts.md]].
+- **Horizontal to vertical:** "почему нам нужно полностью всё поле брать, а не отдельные символы" — fit each symbol into the vertical cells — [[wiki/decisions/2026-10-05-horizontal-to-vertical-conversion-runs-in-parallel-with-the-port-autotests.md]].
+- **Pay tables:** templates by symbol count, as with 3×3 and 3×5 fields; "У нас не будет миллион шаблонов", because the number of symbols is limited.
+- **Transitions:** "транзишн как был 4 секунды в каждой игре, так он и есть 4 секунды"; only the start of the dissolve differs.
+- She saw Igor's universal scripts more as "хуки". She left at about the 59-minute mark, when Val asked her to join another meeting.
+
+## Oct 5 2026 (11:00 AM) — the RIS MVP1 review: Peach 1 contents, no LTE modem, and testing the 18-game pack
+
+At the [[wiki/meetings/2026-10-05-ris-mvp1-scope-and-peach-packaging.md|Oct-5 11:00 AM "RIS changes review"]] (some Russian):
+- **Peach 1.** She confirmed the skill-stop redesign is already in Peach 1 ("Yes, yes, yes"). [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
+- **LTE modem.** "Паша, если мы туда Добавим л т модем, мы значит, переключаемся на новую диссиверсию, и там очень много всего получится" — adding it means a new version with many changes; Val: no LTE modem. See [[wiki/decisions/2026-10-05-ris-improvement-mvp1-is-five-jira-capabilities-in-one-release-due-october-19.md]]. [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
+- **Testing a combined pack.** Build the 18 games "и просто проверить, что каждый отдельный пак рисом устанавливается". See [[wiki/decisions/2026-10-05-felipe-decides-by-october-11-one-18-game-peach-pack-or-three-separate-sticks.md]]. [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
+- **Who writes the tests.** Pavel asked to give her time to prepare; her answer is garbled on the recording. [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
@@ -762,3 +780,5 @@ At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-r
 - [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
 - [[raw/Meeting_Transcript_RIS_Battery_Replacement_Capability_Framing-September-28-2026.md]]
 - [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]
+- [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]

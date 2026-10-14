@@ -4,8 +4,8 @@ title: Igor Metelski
 date: 2026-07-14
 aliases: [Igor Metelski, Igar Miatselski, Miatselski, Igor, Igor Mitelsky, Мительский, Mitsierski, Igor Mitsierski]
 disambiguation: "RGS engineer on Efim Podvoiski codebase (= payroll Igar Miatselski). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
-source-count: 28
-open-commitments: 24
+source-count: 30
+open-commitments: 27
 ---
 
 # Igor Metelski
@@ -178,6 +178,23 @@ All on [[wiki/decisions/2026-09-25-the-conversion-experiment-closes-and-the-conv
 - [ ] Igor Metelski — write prose in each repository next to the code — due Wed Sept 30 2026 — [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]
 - [ ] Igor Metelski — put the updated capabilities in Jira with requirements and acceptance criteria, close them retroactively, and finish the flow to E2E tests — due Wed Sept 30 2026 — [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]
 
+## Oct 5 2026 (7:01 AM) — two tool repositories done, geometry-first autotests on Dragon Pays, a transition defect the tests miss, and a second task: horizontal↔vertical
+
+At the [[wiki/meetings/2026-10-05-rage-nova-port-autotests-and-horizontal-to-vertical-layout.md|Oct-5 7:01 AM Rage-to-Nova review]] (Russian) he presented, as on Sept 25 [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]:
+
+- **The two tool repositories are done** and set up to the standard: a NOVA scene generator and a Rage-to-NOVA scene converter. A new employee (not named) already used the converter to build a NOVA game-select screen. This partly meets his Sept-25 prose commitment, for these two repositories ([[wiki/decisions/2026-10-05-conversion-tools-and-tests-leave-the-local-computer-now-and-claude-proposes-the-repository-layout.md]]) [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]].
+- **The autotests.** He measured the geometry and timings of the original Rage Dragon Pays and wrote them as MD for Claude and HTML for people, in Russian and English. The tests check geometry first, then run game scenarios. Val approved this for same-format ports — [[wiki/decisions/2026-10-05-geometry-first-port-autotests-accepted-and-geometry-checks-named-graphic-contracts.md]] [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]].
+- **What the tests miss.** He sees by eye that the ported free-spins transition is wrong (the alpha fades faster than the lantern animation); the tests do not catch it. He wants mutation testing, and has not yet checked the script Claude says it wrote. One real defect was caught: an epic big-win animation started with the transition out of the bonus [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]].
+- **Horizontal↔vertical.** He prefers fixed templates per format over a transform, and warned that themed transitions do not fit strict maths. Val gave him the conversion work in parallel, on Dragon Pays — [[wiki/decisions/2026-10-05-horizontal-to-vertical-conversion-runs-in-parallel-with-the-port-autotests.md]] [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]].
+- **Everything else is local.** The rest of the conversion procedure and the test scripts are only on his computer; Val ruled they go into his current repository now — [[wiki/decisions/2026-10-05-conversion-tools-and-tests-leave-the-local-computer-now-and-claude-proposes-the-repository-layout.md]] [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]].
+- **Working style.** Val asked him to speak "на процентов 30 медленнее", and said he cannot read every document from everyone who works for him [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]].
+
+## Open commitments (Oct 5 2026)
+
+- [ ] Igor Metelski — continue the Dragon Pays port autotests, get a test that catches the wrong free-spins transition, and check Claude's mutation script — due Thu Oct 8 2026 review — [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]
+- [ ] Igor Metelski — experiment with converting Dragon Pays from horizontal to vertical and back, using the existing vertical template, in parallel — due Thu Oct 8 2026 review (progress) — [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]] [[raw/Meeting_Notes_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]
+- [ ] Igor Metelski — move the local conversion tools, test scripts and game scenarios into his current repository — due unspecified ("чем скорее") — [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
@@ -208,3 +225,5 @@ All on [[wiki/decisions/2026-09-25-the-conversion-experiment-closes-and-the-conv
 - [[raw/daily_omni_progress-april-16-2025 (Val Levitan's conflicted copy).md]]
 - [[raw/omni_calle_ocho_scheduling-apr-22-2025.md]]
 - [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]
+- [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]
+- [[raw/Meeting_Notes_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]

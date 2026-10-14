@@ -3,7 +3,7 @@ type: topic
 title: Game art & animation production pipeline (comp art → Miranda)
 date: 2025-03-12
 aliases: [animation production, comp art pipeline, CompArt, storyboards, Spine, Blender, After Effects, placeholder build, Miranda scene assembly, art production stages, spike, sorting, symbol containers, Glorosa, Havana Noches, Fiery Ice Link, Rodeo Spin, vertical geometry standard, liquid glass shader, screen zones]
-source-count: 22
+source-count: 23
 ---
 
 # Game art & animation production pipeline (comp art → Miranda)
@@ -214,6 +214,10 @@ At the [[wiki/meetings/2026-09-20-vertical-geometry-standard-and-adr-consolidati
 
 **Re-cutting the Dutch Mill background.** Val thinks Claude Code can move the horizon point of a flat horizontal picture into a vertical one. Igor said maybe, but with the existing art he cannot split it; for a new game the art could be built for both layouts from the start. He offered to try it as cheap background work. Pavel suggested using only the **raw houses video without frames** — "**лучше иметь голое сырое видео только домиков**" — since the frames would pollute any AI description. Igor noted Claude has no video or image generator of its own; third-party services are needed, and [[wiki/people/anton-leshkevich.md|Anton]] (by context, Anton Leshkevich) had found a good method: break the animation down frame by frame and write a prompt for such a service from it. [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
 
+## Oct 5 2026 — horizontal↔vertical again: scale-and-stack vs templates per format, and themed transitions
+
+At the [[wiki/meetings/2026-10-05-rage-nova-port-autotests-and-horizontal-to-vertical-layout.md|Oct-5 7:01 AM Rage-to-Nova review]] (Russian) Val said he has no doubt there is a relative dependency between horizontal and vertical layouts. Pavel proposed scaling each horizontal screen down and stacking them; Igor said that was tried and the reels came out "очень маленькие". Irina proposed fitting symbols, not the whole field, into vertical cells. Igor prefers fixed templates per format (for example 5×3 horizontal and 5×3 vertical) with two resource sets in the game repository, and warned that themed transitions — like the Dragon Pays lantern — cannot be forced into strict maths without making all games look the same. Irina: a transition is 4 seconds in every game; only the dissolve start differs. Val gave Igor the conversion work in parallel with the autotests — [[wiki/decisions/2026-10-05-horizontal-to-vertical-conversion-runs-in-parallel-with-the-port-autotests.md]] [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
@@ -238,3 +242,4 @@ At the [[wiki/meetings/2026-09-20-vertical-geometry-standard-and-adr-consolidati
 - [[raw/Meeting_Notes_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]
+- [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]

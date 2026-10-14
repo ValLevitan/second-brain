@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий, Kenadi]
-source-count: 112
+source-count: 115
 open-commitments: 36
 ---
 
@@ -563,7 +563,22 @@ The third segment [[raw/Meeting_Transcript_Street_Machine_Cabinet_Dashboard_and_
 
 On the [[wiki/meetings/2026-10-02-diagnostic-tool-on-the-install-stick-for-nova-fp7-and-rk.md|Oct-2 9:01 AM "EGMs diagnostic tool" call]] (Russian; label "Genadi Peari") he was Pavel's one questioner [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]: "если это диагностика тул попадает неправильным людям. [В] плане что то они могут украсть наши?… мы и так даём техникам да на чужим это диагностику или мы не даём?" — Pavel: a read-only tool is "абсолютно безопасен"; Genadi: "Да или оно рабочее… Тот же [IO board] проверить?" On the modem: "ты запустил диагностик [тул] у тебя машина в принципе уже. Способна. Создать, наверное, и логи можно какието можно физически отослать, её поднял к ней можно даже подключиться, наверное… следующим шагом… Рассмотреть, как решать проблемы, Кроме диагностирования." Asked for concerns or proposals: "это хорошо"; at the close: "Очень хорошо. Спасибо." Ruling: [[wiki/decisions/2026-10-02-the-diagnostic-tool-goes-onto-the-installation-stick-and-lives-in-the-sdk-repository-both-rk-and-fp7-are-worked-out.md]]. His Oct-1 commitments above were not mentioned.
 
+## Oct 5 2026 (1:19 PM) — the repo model for the BOM: "Может быть", "оторваны от реальности", and his condition for the flat list
+
+On the [[wiki/meetings/2026-10-05-design-to-msbc-zero-trust-repos-and-data-contracts.md|Oct-5 1:19 PM meeting]] (English, then Russian; Val and Genadi only) Val explained the developer repo model for the BOM (see [[wiki/decisions/2026-10-05-hardware-follows-the-developer-repo-model-one-jira-project-one-repo-zero-trust-data-contracts-no-monorepo.md]]) [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]:
+
+- **His question.** Why regenerate a BOM already pushed to MSBC? "Every time, every time they go in to build monitor, Github will generate the bill of material. Why? It's already in Msbc. We pushed it already once." Then whether the build comes out the same each time ("абсолютно одинаково, каждый раз или по разному") — Val: the same, signed with checksums. Genadi: "Окей мало. Хорошо, я не знаю. Может быть."
+- **His doubts.** Between two jurisdictions the difference "может быть в 3 харнеса. Которые. Меняются за 4 минуты"; "мы немножко оторваны от реальности. У миши до сих пор нету репорта" (see [[wiki/people/mikhail-perelman.md]], Oct 5); and he asked to break it into "более простые степс".
+- **His condition.** "давайте мы не упустим очень важные важные вещи… Очень важно правильно сделать флат… флат лист. В партс. С правильным нумеровацией, чтоб можно было намберс по нашей системе продолжить… откуда pol ревижнс? Откуда pol droings?… как кирпичики… И потом идти апп." Then it can be used for orders. Val: "очень просто делается."
+- **The outcome.** Val agreed he cannot build it alone and handed it to Nathan Carver, to demo on the Flex Pay Slim for Genadi to review: [[wiki/decisions/2026-10-05-nathan-carver-runs-the-flex-pay-slim-bom-reverse-spike-and-flex-port-follows.md]]. The derived notes: "Genadi said 'OK' but still has doubts" [[raw/Meeting_Notes_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]].
+- **In absentia at 1:58 PM.** Val to Nathan: "his design time is 30% of the time. 70% of the time is building the assembly manual… bill of material, descriptions… filing names" — the work Val wants Claude to take over [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]].
+
+His Oct-1 commitment to post the Flex Pay Slim part number in the chat is not mentioned on Oct 5.
+
 ## Sources
+- [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
+- [[raw/Meeting_Notes_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
+- [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]
 
 - [[raw/Meeting_Transcript_IO_Board_Memory_Chip_Removal_and_Redesign-October-1-2026.md]]

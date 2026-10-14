@@ -3,10 +3,10 @@ type: decision
 title: Two lost-money bugs get simple MVP 1 rules — a Flex-Port that dies while holding money keeps the transaction and sends it to unclaimed when it comes back; a Flex-Port with no gateway link goes out of service and the money stays on the machine; what a cashier may do with unclaimed money is moved to MVP 2
 date: 2026-09-24
 aliases: [bug 349, bug 354, 349 баг, 354 бак, Flex-Port dies holding money, Flex-Port reboot money lost, power loss on the Flex-Port, quick blink, быстрый блинк, clever cashier, хитрый кассир, no gateway no collect, Flex-Port out of service without gateway, cashier redirect of unclaimed money, unclaimed handling MVP 2, nearest wallet matching, PIN-bound wallet idea]
-source-count: 4
+source-count: 6
 status: active
-open-commitments: 2
-open-questions: 4
+open-commitments: 4
+open-questions: 3
 ---
 
 # Two lost-money bugs get simple MVP 1 rules
@@ -68,6 +68,21 @@ The derived notes record the same exchange and list the three open points [[raw/
 - Should a machine with **no bill validator** lock when its Flex-Port is out of service? Irina: yes; Pavel: a short outage is expected, why lock — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - Should the "fault if SAS link down" checkbox be set? Nobody has asked for it; nobody forbids it — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 
+## Update, Oct 5 2026 — unclaimed money is shown in cashier Records; the cashier sees it and cannot pay it out
+
+At the [[wiki/meetings/2026-10-05-transactional-mvp1-port-screens-unclaimed-money-and-printer-models.md|Oct-5 8:01 AM MVP 1 call]] (Russian) [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]:
+
+- **The gap.** [[wiki/people/dmitri-chudinov.md|Chudinov]], now on capability 141: money that does not reach the machine is not lost — it is passed to the IQ — "Но кассиры то посмотреть не сможет, нету дошбардак, где можно посмотреть анкл деньги" (the port screens are admin-only — [[wiki/decisions/2026-10-05-flex-port-and-connection-settings-screens-live-under-the-admin-role-not-the-cashier.md]]).
+- **The answer.** [[wiki/people/andrei-klimovich.md|Klimovich]]: the cashier's IQ screen with all transactions already has an unclaimed status. Chudinov: "Сделать это в рекордах… хорошо я туда помечу… мы сейчас этими деньгами ничего не делаем, ничего не пересоздаём". [[wiki/people/irina-shishko.md|Irina]]: "Это будет в записях, но их нельзя сейчас отдать игроку." Klimovich: "мы пока не решили, что делать с этими записями, но сам факт наличия записи уже создаёт как бы защиту, что это не потеряно и пускай кассир видит"; to the player, "условно говоря, позвоните дживи эль".
+- **Machine-to-port transactions in Records.** Klimovich said they should already be there as their own types, "Депозит и коллект"; Chudinov: "клод сказал что нема… посмотрим повнимательнее".
+
+This keeps the Sept-24 ruling: cashier action on unclaimed money stays in MVP 2. The derived notes record "Unclaimed money is shown in cashier Records; no action on it for now" as decided by Klimovich and Chudinov [[raw/Meeting_Notes_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]].
+
+### Open commitments (Oct 5 2026)
+
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — flag unclaimed money in the cashier Records screen (visible, no action) — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — check that the deposit and collect transaction types between machine and port appear in Records — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]
+
 ## Open commitments
 
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — add the two logic changes from bugs 349 and 354 to the MVP 1 requirements — due Sept 24 2026 ("2 изменения, которые будут добавлены сегодня") — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
@@ -75,8 +90,11 @@ The derived notes record the same exchange and list the three open points [[raw/
 
 ## Open questions
 
-- **How will locations deal with unclaimed money in MVP 1, when the cashier has no action to release it?** Pavel asked; Chudinov: "Ваши деньги… я их вижу, но я вам их не отдам. Моя кнопочки нет." Klimovich asked back how locations handle it today. No answer — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
 - **Does the Flex-Port save a pending transaction in its own memory today?** Khamin and Irina said it is not built that way now; the rule needs it — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
+
+## History (answered questions)
+
+- ~~How will locations deal with unclaimed money in MVP 1, when the cashier has no action to release it?~~ Pavel asked; Chudinov: "Ваши деньги… я их вижу, но я вам их не отдам. Моя кнопочки нет." — [[raw/Meeting_Transcript_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]] — **answered Oct 5 2026:** the cashier sees it in Records and cannot pay it out; the player is, "условно говоря", told to call JVL — [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]
 
 **Notes vs transcript.** The notes' account of both rules matches the transcript [[raw/Meeting_Notes_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]. They leave out Chudinov's first time-based proposal, Klimovich's one-minute option and Val's praise of Pavel's nearest-wallet idea.
 
@@ -87,3 +105,5 @@ The derived notes record the same exchange and list the three open points [[raw/
 - [[raw/Meeting_Notes_MVP1_FlexPort_Money_Loss_Bugs_and_Release_Date-September-24-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]

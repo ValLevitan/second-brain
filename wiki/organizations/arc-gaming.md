@@ -3,7 +3,7 @@ type: organization
 title: ARC Gaming
 date: 2026-08-31
 aliases: [ARC, Arc, ARC Gaming, намберту, number two company in Georgia, two machines a week, five machines a week, Art, ARC Gaming DC, ARC Gaming & Technologies, Lucky Bucks, Lucky Bugs, Lucky Box, Arc Luck]
-source-count: 18
+source-count: 19
 open-commitments: 6
 open-questions: 5
 disambiguation: "The Georgia COAM master/route operator whose COO is Georgios 'Zaza' Zazanis and whose CEO is David Sloan. **Lucky Bucks is its FORMER NAME** — one company, renamed (Val's ruling, 2026-09-10). The corpus's earlier bare 'Arc' mentions in a *kiosk-vendor* sense are a separate, still-unresolved thread — see the §4 name note below. Resolve by context."
@@ -227,6 +227,10 @@ The [[wiki/meetings/2026-09-16-street-machine-board-spec-and-georgia-class-a-ord
 
 *(The queued **Lucky Bucks → ARC reconciliation sweep** across the older pages is **still not started** — deliberately, as before.)*
 
+## Oct 5 2026 (in absentia) — the 12-game Peach 2 was a favor to Lucky Bucks
+
+At the [[wiki/meetings/2026-10-05-ris-mvp1-scope-and-peach-packaging.md|Oct-5 11:00 AM RIS review]] Val said the 12-game Peach 2 pack was his own decision for this company under its former name: "I silently made a decision to include 12 games for lucky bucks… as a specific favor to them. And it was never documented. It was tribal knowledge." Felipe: "Twelfth, yeah. Oh, right, right, yes." See [[wiki/projects/georgia-market-rollout.md]] (Oct 5, 11:00 AM) [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]].
+
 ## History
 
 - [x] ARC (Speaker 4, possibly Zazanis) — come to JVL's office on Monday to see the entry-level product demo ("I'll stop by at the office Monday"; "I might bring Byron with me"), set Aug 27 — **discharged: the Aug-31 transactional demo with Zazanis took place on that Monday** (its sources do not state the room) — [[raw/Meeting_Transcript_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]] [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
@@ -254,3 +258,4 @@ The [[wiki/meetings/2026-09-16-street-machine-board-spec-and-georgia-class-a-ord
 - [[raw/Meeting_Notes_Jamie_Georgia_Class_A_Opportunity_and_Market_Outlook-September-16-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]]
 - [[raw/Meeting_Notes_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]]
+- [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]

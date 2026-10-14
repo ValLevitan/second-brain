@@ -3,10 +3,10 @@ type: decision
 title: Only the finished bill of materials goes into MSBC; the "configurator" that builds it is AI logic outside MSBC, with the versions in GitHub; no hybrid; and the pilot is the Flex Pay Slim BOM, pulled flat by Claude Code in a two-hour session with Genadi
 date: 2026-10-01
 aliases: [AI configurator, конфигуратор, configurator as AI logic, туда нужно загнать только готовый билов материи, only the finished BOM into MSBC, no hybrid, я не хочу делать гибрид, flat BOM pilot, Flex Pay Slim pilot, two hours on one flat BOM, не займёт больше чем 02:00, Claude Code builds the structure, pull the part number flat with all suppliers, пойдём обратным путём, sources of truth lead time physical count forecast, MSBC is not built for this, SAP Salesforce offer nothing, supplier history leaves Genadi's head, quotations not in GitHub, item cards in GitHub]
-source-count: 2
+source-count: 4
 status: active
-open-commitments: 3
-open-questions: 3
+open-commitments: 1
+open-questions: 2
 ---
 
 # Only the finished BOM goes into MSBC; the configurator is AI logic outside it; no hybrid; the pilot is the Flex Pay Slim (Oct 1 2026)
@@ -52,16 +52,23 @@ The derived notes record the same two decisions ("Only the finished BOM goes int
 
 Sept 23: GitHub is the BOM's source of truth, contested. Sept 24: the BOM is built in BC automatically from GitHub data. Sept 30: one flat list in GitHub agreed; the grouping into assemblies contested; Nathan to experiment items-first. **Oct 1 adds the name and place of the grouping step — a "configurator" that is AI logic, outside MSBC — rules out the hybrid Genadi proposed, and replaces the Sept-24 "fake BOM on the new Slim" idea with a dated pilot method (Claude Code pulls the Slim part number flat with suppliers; a two-hour session).** Genadi's objection is unchanged in substance ("I cannot comprehend" on Sept 30; "Я не вижу логики" on Oct 1), so the Sept-23 decision's "contested by Genadi" status stands. Evolution, not contradiction.
 
+## Oct 5 2026 update — the pilot goes to Nathan
+
+Four days later Val met Genadi again ([[wiki/meetings/2026-10-05-design-to-msbc-zero-trust-repos-and-data-contracts.md|Oct 5, 1:19 PM]]), explained the developer repo model, agreed Genadi "сами это не подтянете", and handed the Flex Pay Slim pilot to Nathan Carver, to be shown to Genadi when done [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]. At 1:58 PM Nathan took it as a reverse spike: flatten the MSBC BOM into GitHub, rebuild it through repos, data contracts and agents, push it back and compare [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]. The ruling here stands; the pilot's doer and form change — see [[wiki/decisions/2026-10-05-nathan-carver-runs-the-flex-pay-slim-bom-reverse-spike-and-flex-port-follows.md]]. The Val-builds-it-himself and two-hour-session items move to History below.
+
 ## Open commitments
 
 - [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — put the exact MSBC part number of the Flex Pay Slim BOM in the chat — due Oct 1 2026 ("Поставьте сюда в чат, пожалуйста"); Genadi said he had already given a number — [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
-- [ ] [[wiki/people/val-levitan.md|Val Levitan]] — take the transcript and the part number and have Claude Code build the GitHub structure: the Flex Pay Slim as a flat list with all suppliers for every part, then work backward — due unspecified — [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
-- [ ] [[wiki/people/val-levitan.md|Val Levitan]] and [[wiki/people/genadi-peari.md|Genadi Peari]] — a working session of about two hours on the flat BOM, Val working it in front of Genadi — due unspecified — [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
+
+## History
+
+- [x] [[wiki/people/val-levitan.md|Val Levitan]] — take the transcript and the part number and have Claude Code build the GitHub structure: the Flex Pay Slim as a flat list with all suppliers for every part, then work backward — due unspecified — [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]] — **handed over Oct 5 2026, not done by Val:** the build goes to Nathan Carver as the Flex Pay Slim reverse spike [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]] [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
+- [x] [[wiki/people/val-levitan.md|Val Levitan]] and [[wiki/people/genadi-peari.md|Genadi Peari]] — a working session of about two hours on the flat BOM, Val working it in front of Genadi — due unspecified — [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]] — **replaced Oct 5 2026:** Nathan demonstrates the spike and Genadi reviews it [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
+- *Answered Oct 5 2026:* "Is Nathan Carver's Sept-30 experiment still wanted?" — yes; the pilot itself goes to him [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
 
 ## Open questions
 
 - How are multi-level BOM trees and production-order sub-assemblies produced from a flat GitHub list, when parts and kits change on the fly? Genadi's question, unchanged since Sept 23; Val's answer is "you will not understand it until you work with it" and the pilot — [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
-- Is Nathan Carver's Sept-30 experiment still wanted, now that Val says he can build the structure himself with Claude Code? The line is garbled either way — [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]] [[raw/Meeting_Notes_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
 - Genadi's offer of item cards in GitHub now for every bought item, and of a small module in GitHub replacing BOM-building in MSBC — neither answered — [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
 
 **§15.8:** Val's sharper remarks at Genadi, and an exchange about who is "smart" or "dumb", are held generically; the substance is recorded. Personal matters not recorded (a marked passage and the lines after it). **§15 #9:** none — the part number is not spoken.
@@ -69,3 +76,5 @@ Sept 23: GitHub is the BOM's source of truth, contested. Sept 24: the BOM is bui
 ## Sources
 - [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
 - [[raw/Meeting_Notes_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
+- [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]

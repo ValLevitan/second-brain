@@ -3,7 +3,7 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, floating FlexPort, FlexPort on posts, флори дизайн, recycling cassette, drop cassette, two-tape reel, refill cycle, IQ point of sale, promo credit on SAS 2, validator emulation, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS, ATM registration, slim ATM, Flex-Port-Mini, Flex Port Mini, Flex-Slim first ten, brackets from China, twelve eight twenty, eVoucher, wrapped gift card, EasyLynx, second SAS port, ATM Recycler, PTI Sentry, MudaGoose, Lego bricks, closed loop ATM, promo meter, technology agnostic, player is the king, tap to fund, the magic is in speed, Pay Slim, cannibalise MudaGoose, zero-balance wallet, wallet lifetime, one TITO printer, splitting, AFT device, AFT window, emulate an AFT device, no cash dispensing, eWallet TTL, collect fork, unclaimed transaction, reissue versus reprint, print new carrier, balance snapshot, daily cap and velocity, SAS 6.02, Gaming Standards Association, audit report one button, dual balance deposited and playable, Total Playable only Redeemable, balance naming ADR, playable only, unclaimed money, maintenance versus lockout, always-on scanner, LTE modem per device, capability requires requirement, printer tilts, preventive supply telemetry, vault server, incremental five, five dollars of promotional credit for a phone number, clearance network prohibits proceeds from gambling, business way agnostic, they are not your customer they are mine, offline operation, twenty-four hour offline window, lease expiry versus internet loss, be honest with yourselves, no cash on FlexPay, de-enrolled from a location never from the cloud, fifteen Flex-Ports design for 99, no daily cap error, pending transaction, one-time redemption PIN, synchronisation point, metal mesh on standoffs, Flex-Pay-Slim lid, service bay cover, taut string stopper, roll forward only, no rollback to a previous build, MVP1 dual SAS only, capability 144 cloned, nothing is closed, Monday scope freeze, receipt format still not given, balance display game agnostic, stackable recycler, cash box capacity, standalone TITO printer topology, four swimlanes seven columns, language button top left, 854 by 480, status icons on error screens, asset number, серийный номер машины, engineering menu QR, machine performance report MVP2, feature lock slips, capability 229, TouchGFX Designer, two-stage screen redraw, HTML mock-up versus Figma, design tokens, the kiosk is FlexPay, player gets two dollars less, blank not empty, texts compiled at build, October 2 end date, E2E micro-step, KORE SIM in the IQ, capability 234, capability 235, forfeit wallet, no PIN lockout, nine Flex-Ports default twenty]
-source-count: 295
+source-count: 297
 open-commitments: 130
 open-questions: 34
 ---
@@ -2921,6 +2921,25 @@ At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-r
 
 - What the MVP 1 Port task with two SAS channels requires — Chudinov: "даже не знаю как подходить" — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 
+## Oct 5 2026 (8:01 AM) — day fifteen: port screens under the admin role, unclaimed money visible in Records, no print queue, Epic 950 first, a TITO printer that stops, Georgia still silent, and Val's "hold everything else"
+
+The [[wiki/meetings/2026-10-05-transactional-mvp1-port-screens-unclaimed-money-and-printer-models.md|fifteenth morning call]] (Russian, 8:01–8:22), Val present [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]:
+
+- **Chudinov's gaps documents.** A set of documents on gaps between requirements and mock-ups: decisions he and Claude made where the requirements were silent, a full set of tilts, and all negative card-activation cases (servers down, time-outs) — "Потом на основании тех могут делать автотесты". No blockers: "Нет, нет [блокеров]". [[wiki/people/andrei-klimovich.md|Klimovich]] has not read them: "я постараюсь сегодня час найти" [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]].
+- **Capability 141 screens** — admin role, the Recycler as model: [[wiki/decisions/2026-10-05-flex-port-and-connection-settings-screens-live-under-the-admin-role-not-the-cashier.md]].
+- **Unclaimed money** in cashier Records, no action, "позвоните [JVL]": [[wiki/decisions/2026-09-24-a-flex-port-that-dies-holding-money-sends-it-to-unclaimed-and-one-without-a-gateway-goes-out-of-service.md]] (Oct-5 update).
+- **Progress.** [[wiki/people/dmitri-chudinov.md|Chudinov]]: unclaimed is the last core task, likely done that day; the rest are small, "день 2" [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]].
+- **Remote update and the TITO printer:** [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Oct-5 update).
+- **Georgia** still silent; SAS commands of any machine now visible: [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] (Oct-5 update). Whether they go to Grafana conflicts with the Oct-2 rule: [[wiki/decisions/2026-10-02-sas-command-logs-are-collected-on-the-flex-iq-and-not-sent-to-grafana-by-default.md]] (open contradiction).
+- **Printer models** — Epic 950 first, all supported, [[wiki/people/pavel.md|Pavel]] writes the requirement: [[wiki/decisions/2026-10-05-epic-950-is-the-terminal-printer-tested-first-and-all-models-stay-supported.md]].
+- **Print queue** — none in MVP 1; print and reprint from Records; FlexPay self-service printing "не MVP один": [[wiki/decisions/2026-10-05-mvp1-has-no-print-queue-and-tickets-print-or-reprint-from-records.md]].
+- **Val's direction** — release the MVP 1 machines, MVP 2 writing when Klimovich is back, all other questions held, "желательно 15 октября": [[wiki/decisions/2026-09-28-october-15-replaces-october-1-as-the-mvp1-date.md]] (Oct-5 update).
+- **Klimovich away.** "меня не будет вторник среда четверг… со мной мы можем синкануться в пятницу я кину инвайт" [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]. *(A schedule fact; where he goes is not recorded.)*
+
+The derived notes read the call the same way [[raw/Meeting_Notes_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]].
+
+**§15.8:** clear. **§15 #9:** none.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -3221,3 +3240,5 @@ At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-r
 - [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]

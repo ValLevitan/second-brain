@@ -2,10 +2,10 @@
 type: decision
 title: October 15 replaces October 1 as the working MVP 1 date — Val asks for the final state by then "if possible", while the autotest estimate runs to October 23
 date: 2026-09-28
-aliases: [October 15 MVP1, MVP1 moves to October 15, сдвигаем на 15 октября, 15 число это реальная дата, final state October 15, 95 percent is fine, autotests until October 23, trial batch of ten locations, пробную партию 10]
-source-count: 5
+aliases: [October 15 MVP1, MVP1 moves to October 15, сдвигаем на 15 октября, 15 число это реальная дата, final state October 15, 95 percent is fine, autotests until October 23, trial batch of ten locations, пробную партию 10, все остальные вопросы придерживаем, hold all other questions]
+source-count: 7
 status: active
-open-commitments: 2
+open-commitments: 3
 open-questions: 1
 ---
 
@@ -42,9 +42,20 @@ On October 1 — the date this decision replaced — [[wiki/people/andrei-klimov
 
 The derived notes record the slice the same way [[raw/Meeting_Notes_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]. October 15 was not mentioned on the call; nothing here moves it.
 
+## Update, Oct 5 2026 — Val holds every other question: test and release MVP 1, "желательно 15 октября"
+
+At the [[wiki/meetings/2026-10-05-transactional-mvp1-port-screens-unclaimed-money-and-printer-models.md|Oct-5 8:01 AM MVP 1 call]] (Russian) [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]:
+
+- **Val's direction.** "Мне нужно выпустить машины MVP один"; "Когда Андрей выйдет из отпуска, тогда он начнет писаться мвпи 2"; "Все остальные вопросы придерживаем, пока концентрируемся на тестировании, чтобы выпустить продукт, желательно 15 октября, если это получится." [[wiki/people/irina-shishko.md|Irina]]: "К этому стремимся." Val asked that the next meetings focus on MVP 1 [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]].
+- **Where development stands.** [[wiki/people/andrei-klimovich.md|Klimovich]] asked whether October 15 holds or problems are visible. [[wiki/people/dmitri-chudinov.md|Chudinov]]: "Сегодня с большой вероятностью заканчиваем [unclaimed]. Как самое сложное… из такого ядра задач. Все остальные точечные, мелкие… завтра послезавтра." No blocker was named [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]].
+- The derived notes record Val's hold as a decision: "Other questions are held; the team focuses on testing for an October 15 release" [[raw/Meeting_Notes_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]].
+
+October 15 is restated as the aim, still with "если это получится". The October-23 autotest estimate was not raised on this call.
+
 ## Open commitments
 
 - [ ] The autotest team ([[wiki/people/alexei-khamin.md|Khamin]], [[wiki/people/ivan.md|Ivan]], Vladimir Samusenko) — finish the autotests and reach the final state by October 15 if possible; 95% done is acceptable — due Oct 15 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — finish the unclaimed-money core task (capability 141), then the remaining small tasks — due Oct 5 2026 for unclaimed ("сегодня с большой вероятностью"), Oct 6–7 for the rest ("завтра послезавтра") — [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]
 - [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — re-judge the autotest finish date after a couple of days of real progress — due about Sept 30 2026 ("пару дней") — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]] — *Sept 30 2026: her status was "с тестами получается, на мой взгляд, неплохо. Все подтянулись, пишут… тесты проходят"; no new date was given, so October 23 stands* — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]] — *Oct 1 2026: "Тестирование моё завтра… по тестированию мы будем обновляться завтра" — her update is due Oct 2* — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]] — *Oct 2 2026 (stand-up): no new date — she asked Vladimir, Khamin and Ivan to mark their done items in Jira "потому что нужно как бы переобновить расписание, чтобы понимать до когда это будет сделано"; the Oct-2 MVP 1 sync, if held, is not in the corpus* — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 
 ## Open questions
@@ -59,3 +70,5 @@ The derived notes record the slice the same way [[raw/Meeting_Notes_Transactiona
 - [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]

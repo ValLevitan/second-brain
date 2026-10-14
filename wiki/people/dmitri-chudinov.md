@@ -4,7 +4,7 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 78
+source-count: 79
 open-commitments: 45
 open-questions: 0
 ---
@@ -571,6 +571,18 @@ At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-r
 
 - [ ] Dmitri Chudinov — look at the "94" merge conflict so Pavel can approve — due Oct 5 2026 — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 
+## Oct 5 2026 (8:01 AM) — gaps documents with no blockers, the capability-141 screens without mock-ups, unclaimed into Records, a TITO printer that stops, and "printers do differ"
+
+On the [[wiki/meetings/2026-10-05-transactional-mvp1-port-screens-unclaimed-money-and-printer-models.md|Oct-5 8:01 AM MVP 1 call]] (Russian) [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]:
+
+- **Gaps documents.** Requirement/mock-up gaps, decisions taken with Claude, a full set of tilts, and all negative card-activation cases — a base for autotests; "Нет, нет [блокеров]".
+- **Capability 141.** He designs the port and transaction screens himself; the transaction screen that day — [[wiki/decisions/2026-10-05-flex-port-and-connection-settings-screens-live-under-the-admin-role-not-the-cashier.md]].
+- **Unclaimed** flagged in Records; deposit/collect types to check — [[wiki/decisions/2026-09-24-a-flex-port-that-dies-holding-money-sends-it-to-unclaimed-and-one-without-a-gateway-goes-out-of-service.md]] (Oct-5 update). The core task likely done that day, the rest "завтра послезавтра" — [[wiki/decisions/2026-09-28-october-15-replaces-october-1-as-the-mvp1-date.md]] (Oct-5 update).
+- **Remote update** works; a TITO printer stops on one terminal — [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Oct-5 update).
+- **Printers.** The richer Flex IQ ticket slowed printing and the 5-second timeout was raised — [[wiki/decisions/2026-10-05-epic-950-is-the-terminal-printer-tested-first-and-all-models-stay-supported.md]]. A print queue "сильно усложнить" — [[wiki/decisions/2026-10-05-mvp1-has-no-print-queue-and-tickets-print-or-reprint-from-records.md]].
+
+His commitments from this call are on those decision pages.
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
@@ -651,3 +663,4 @@ At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-r
 - [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]

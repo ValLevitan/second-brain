@@ -3,7 +3,7 @@ type: person
 title: Sebastian
 date: 2025-02-19
 aliases: [Sebastian, Sebastian Cortes, the engineer I brought in from Miami]
-source-count: 16
+source-count: 17
 open-commitments: 1
 open-questions: 1
 ---
@@ -95,6 +95,10 @@ At the [[wiki/meetings/2026-09-24-ris-serial-binding-and-factory-reset-focus.md|
 
 - *(Answered Sept 25)* Open question "What is the assignment, and when exactly does he arrive?" (from [[raw/Meeting_Transcript_Georgia_Exclusivity_Bet_and_Sebastian_Reassignment-September-9-2026.md]]) — on Sept 25 he was driving and about to reach Georgia, and Val set his job as helping upgrade the machines and managing the RIS rework in the field [[raw/Meeting_Transcript_RIS_Pre_Meeting_Travel_Productivity_Chat-September-25-2026.md]] [[raw/Meeting_Transcript_RIS_MVP1_Factory_Reset_Reduction_Plan-September-25-2026.md]].
 
+## Oct 5 2026 (11:00 AM) — his Jira capabilities become the MVP1 list, and he rewrites the descriptions
+
+At the [[wiki/meetings/2026-10-05-ris-mvp1-scope-and-peach-packaging.md|Oct-5 11:00 AM "RIS changes review"]] (label "Sebastian Cortes") Pavel showed the capabilities "Created by Sebastian", which Pavel had reviewed. Sebastian confirmed they have acceptance criteria ("Yes, we do"). Val asked whether he wrote the descriptions: "Yes, with with uh Pavel support, yes, I will review it with review them and modify some things." Val: "That's exactly how it should be done." See [[wiki/decisions/2026-10-05-ris-improvement-mvp1-is-five-jira-capabilities-in-one-release-due-october-19.md]] and [[wiki/decisions/2026-10-05-the-critical-error-screen-shows-the-cause-and-fix-in-words-and-keeps-the-qr-code-in-mvp1.md]] (his commitment is held there). His Sept-28 Jira commitment is closed on [[wiki/decisions/2026-09-28-sebastian-takes-the-ris-mvp1-capabilities-into-jira-and-felipe-steps-back.md]]. [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
+
 ## Sources
 
 - [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
@@ -113,3 +117,4 @@ At the [[wiki/meetings/2026-09-24-ris-serial-binding-and-factory-reset-focus.md|
 - [[raw/Meeting_Transcript_RIS_MVP1_Factory_Reset_Reduction_Plan-September-25-2026.md]]
 - [[raw/Meeting_Transcript_RIS_Battery_Replacement_Capability_Framing-September-28-2026.md]]
 - [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]
+- [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]

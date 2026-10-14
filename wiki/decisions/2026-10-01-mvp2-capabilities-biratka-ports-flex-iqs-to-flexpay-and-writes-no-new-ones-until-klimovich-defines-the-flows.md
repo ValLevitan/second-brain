@@ -3,7 +3,7 @@ type: decision
 title: For MVP 2, Biratka reviews the existing capabilities, drops the outdated or wrong ones and ports Flex IQ's to FlexPay by analogy — but writes no new ones until Klimovich, back on October 13, has thought through the user and administrator flows
 date: 2026-10-01
 aliases: [MVP 2 capabilities method, Biratka ports Flex IQ capabilities to FlexPay, по аналогии с флекса IQ, no new capabilities without business confirmation, user and admin flows, со стороны юзера и администратора, Klimovich back October 13, до 13 октября, оптимальный подход, Biratka MVP 2 cleanup]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 2
 open-questions: 1
@@ -32,6 +32,10 @@ Agreed between [[wiki/people/alexander-biratka.md|Alexander Biratka]] and [[wiki
 - The "no capability without business requirements" line is Chudinov's Sept-10 objection on [[wiki/decisions/2026-09-10-requirements-come-first-and-the-recycler-is-out-of-both-mvps.md]], now applied by Biratka to his own work.
 - The derived notes record the same decision and attribute it to Biratka, "endorsed by Andrei Klimovich" [[raw/Meeting_Notes_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]].
 
+## Update, Oct 5 2026 — Val: MVP 2 writing starts when Klimovich is back
+
+At the [[wiki/meetings/2026-10-05-transactional-mvp1-port-screens-unclaimed-money-and-printer-models.md|Oct-5 8:01 AM MVP 1 call]] (Russian), [[wiki/people/val-levitan.md|Val]]: "Когда Андрей выйдет из отпуска, тогда он начнет писаться мвпи 2. Все остальные вопросы придерживаем" — consistent with this decision. [[wiki/people/andrei-klimovich.md|Klimovich]]: "Я 12 прилетаю только я мог бы 13" [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — go through the MVP 2 capabilities: drop the outdated or wrong ones, port the Flex IQ capabilities that apply to FlexPay by analogy, write no new ones — due while Klimovich is away (until Oct 13 2026) — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
@@ -46,3 +50,4 @@ Agreed between [[wiki/people/alexander-biratka.md|Alexander Biratka]] and [[wiki
 ## Sources
 - [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]

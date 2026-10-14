@@ -3,7 +3,7 @@ type: decision
 title: The RIS rework MVP 1 (fewer factory resets) is for Flex machines only — "Altera is done"
 date: 2026-09-25
 aliases: [only Flex machines, Altera is done, MVP1 release of the RIS rework, RIS rework MVP1 scope, we're upgrading only Flex machines]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 0
 open-questions: 2
@@ -28,7 +28,7 @@ Ruled by [[wiki/people/val-levitan.md|Val Levitan]] at the [[wiki/meetings/2026-
 
 ## Open questions
 
-- Fix each field version (about 20 approvals), or move all Flex machines to the latest software in two upgrades (about 2 approvals, with game changes), or one 18-game bundle? Not decided on Sept 25 [[raw/Meeting_Transcript_RIS_MVP1_Factory_Reset_Reduction_Plan-September-25-2026.md]].
+- Fix each field version (about 20 approvals), or move all Flex machines to the latest software in two upgrades (about 2 approvals, with game changes), or one 18-game bundle? Not decided on Sept 25 [[raw/Meeting_Transcript_RIS_MVP1_Factory_Reset_Reduction_Plan-September-25-2026.md]]. **Oct-5 update:** Pavel said one package for 18 games "It's already done; it's supported anytime"; Felipe raised that lottery reports could then not tell Peach 1, 2 and 3 apart; Val gave Felipe until Sunday Oct 11 to choose one release or three USB sticks — [[wiki/decisions/2026-10-05-felipe-decides-by-october-11-one-18-game-peach-pack-or-three-separate-sticks.md]] [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]. Still open.
 - Which of Pavel's six points go into MVP 1 or into V3, and how long each takes — Val asked for this at the start; no dates or percentages per point were given [[raw/Meeting_Transcript_RIS_MVP1_Factory_Reset_Reduction_Plan-September-25-2026.md]] [[raw/Meeting_Notes_RIS_MVP1_Factory_Reset_Reduction_Plan-September-25-2026.md]].
 
 The six points are on [[wiki/topics/ris-remote-install-and-machine-states.md]] (Sept 25, 10:34 AM). The next step is [[wiki/decisions/2026-09-25-felipe-acts-as-product-owner-for-the-ris-rework.md]].
@@ -39,3 +39,4 @@ The six points are on [[wiki/topics/ris-remote-install-and-machine-states.md]] (
 
 - [[raw/Meeting_Notes_RIS_MVP1_Factory_Reset_Reduction_Plan-September-25-2026.md]]
 - [[raw/Meeting_Transcript_RIS_MVP1_Factory_Reset_Reduction_Plan-September-25-2026.md]]
+- [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]

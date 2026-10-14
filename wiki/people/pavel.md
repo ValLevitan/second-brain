@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 201
+source-count: 204
 open-commitments: 101
 open-questions: 0
 ---
@@ -1132,6 +1132,33 @@ At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-r
 - [ ] Pavel Frolov — meet Chudinov, Tsymanov and Irina after the stand-up ("в час", or earlier) to triage the MVP 1 Port tasks assigned to him, including the two-SAS-channel one — due Oct 5 2026 — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [ ] Pavel Frolov — review and merge "94" once its conflict is cleared ("сейчас я ревью") — due Oct 5 2026 — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 
+## Oct 5 2026 (7:01 AM) — "what is geometry?", scale-and-stack for vertical, "most of this is non-functional", and a Jira project for the conversion
+
+At the [[wiki/meetings/2026-10-05-rage-nova-port-autotests-and-horizontal-to-vertical-layout.md|Oct-5 7:01 AM Rage-to-Nova review]] (Russian) [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]:
+
+- He asked what "geometry" means; Igor: the relative position and size of screen elements. He did not see how the new tests differ from Test 360 until Irina explained — [[wiki/decisions/2026-10-05-geometry-first-port-autotests-accepted-and-geometry-checks-named-graphic-contracts.md]].
+- **His horizontal-to-vertical idea:** scale each horizontal screen down by one factor, keep the proportions, and stack the main field and the pay-table screen on the vertical screen; about a third stays free. Igor said this was tried and the reels came out too small — [[wiki/decisions/2026-10-05-horizontal-to-vertical-conversion-runs-in-parallel-with-the-port-autotests.md]].
+- On pay tables he asked whether a clone game shares its original's template.
+- "большинство Того, что мы здесь обсуждаем, это и будет нон факшнал рекларамент."
+- **Where the tests go:** to him this is a project with a Jira project and a repository; "на 80% или на 100%" of the tests end up in the integration repository, by reference rather than copy. He disagreed with Igor that geometry need not be checked at release. He proposed, for now, a Jira project and Igor's current repository for all tools and tests — [[wiki/decisions/2026-10-05-conversion-tools-and-tests-leave-the-local-computer-now-and-claude-proposes-the-repository-layout.md]].
+
+## Oct 5 2026 (8:01 AM) — the Epic 950 first and every model supported, the printer requirement is his, and SAS logs in Grafana
+
+On the [[wiki/meetings/2026-10-05-transactional-mvp1-port-screens-unclaimed-money-and-printer-models.md|Oct-5 8:01 AM MVP 1 call]] (Russian) [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]:
+
+- **Printers.** Genadi contacted the TransAct makers; their housed printer has the Epic 950 inside, "приоритет номер один"; "Я за то, чтобы все все поддерживать, но просто сейчас не активно не тестировать это." Val: "Павел должен сделать [requirement]" — "Окей." See [[wiki/decisions/2026-10-05-epic-950-is-the-terminal-printer-tested-first-and-all-models-stay-supported.md]] (his commitment is there).
+- **Print queue.** With five players and five tickets, ask "на какой ты машине был" and print by machine number — [[wiki/decisions/2026-10-05-mvp1-has-no-print-queue-and-tickets-print-or-reprint-from-records.md]].
+- **SAS logs.** He asked whether they go to Grafana; Chudinov said yes — [[wiki/decisions/2026-10-02-sas-command-logs-are-collected-on-the-flex-iq-and-not-sent-to-grafana-by-default.md]] (open contradiction).
+
+## Oct 5 2026 (11:00 AM) — the RIS improvement MVP1 cut, "release date set for 19th", and "one package for 18 games"
+
+At the [[wiki/meetings/2026-10-05-ris-mvp1-scope-and-peach-packaging.md|Oct-5 11:00 AM "RIS changes review"]]:
+- **The cut.** He showed the "RIS improvements" capabilities (under IP 90 and IP 747) and agreed to CAP-252, 255, 246 (to check — "Looks like it's already implemented"), 250 and 254, then grouped them into one Jira release. Only Evgeny Kharetski is free now; "Dima and Serge" are not. See [[wiki/decisions/2026-10-05-ris-improvement-mvp1-is-five-jira-capabilities-in-one-release-due-october-19.md]]. [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
+- **No non-functional requirements** for "this particular 4 capabilities"; Claude's suggestions "not applicable". He corrected Val's date: "release date set for 19th." "currently we don't have any test cases or test execution created." [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
+- **Critical error.** The QR is "just to send this information to to our server"; he expects the critical messages to be split into useful ones such as "Passport can't be read or data storage corruption". See [[wiki/decisions/2026-10-05-the-critical-error-screen-shows-the-cause-and-fix-in-words-and-keeps-the-qr-code-in-mvp1.md]]. [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
+- **18 games.** "We have one package for 18 games… It's already done; it's supported anytime." See [[wiki/decisions/2026-10-05-felipe-decides-by-october-11-one-18-game-peach-pack-or-three-separate-sticks.md]]. [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
+- **MVP 2.** Before estimating some MVP 2 capabilities he must talk to the server side. (Commitments held on [[wiki/decisions/2026-10-05-ris-improvement-mvp1-is-five-jira-capabilities-in-one-release-due-october-19.md]].) [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -1338,3 +1365,6 @@ At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-r
 - [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
 - [[raw/Meeting_Transcript_RIS_Battery_Replacement_Capability_Framing-September-28-2026.md]]
 - [[raw/Meeting_Transcript_RIS_MVP1_Capabilities_Walkthrough_and_Jira_Handover-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]
+- [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]

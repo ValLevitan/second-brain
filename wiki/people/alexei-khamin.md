@@ -3,7 +3,7 @@ type: person
 title: Alexei Khamin
 date: 2025-04-22
 aliases: [Alexei Khamin, Aliaksey Khamin, Alexey Khamin, Khamin, Хамин, Khanin, Ханин, Kamin, Alexey Kamin, Lyosha, Лёша]
-source-count: 30
+source-count: 31
 open-commitments: 17
 ---
 
@@ -215,6 +215,10 @@ At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-r
 - [ ] Alexei Khamin — finish the test rules today, one day on prose, then start writing the tests from Oct 7 — due Oct 7 2026 — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [ ] Alexei Khamin — look at the emulator's repository scripts and parameters and build it to match the main application's code — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 
+## Oct 5 2026 (8:01 AM) — two gaps the autotests found: no supported-printer list, and a ticket that does not print while the printer is busy
+
+On the [[wiki/meetings/2026-10-05-transactional-mvp1-port-screens-unclaimed-money-and-printer-models.md|Oct-5 8:01 AM MVP 1 call]] (Russian) [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]: he asked that the supported printer models be written into the requirements, since emulators already exist — [[wiki/decisions/2026-10-05-epic-950-is-the-terminal-printer-tested-first-and-all-models-stay-supported.md]]; and whether a print queue is needed when a Flex-Port asks for a ticket while the last one is still in the printer — [[wiki/decisions/2026-10-05-mvp1-has-no-print-queue-and-tickets-print-or-reprint-from-records.md]] (no queue in MVP 1).
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
@@ -247,3 +251,4 @@ At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-r
 - [[raw/Meeting_Transcript_FlexPort_Telnet_Console_and_GUI_Harness-September-26-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]

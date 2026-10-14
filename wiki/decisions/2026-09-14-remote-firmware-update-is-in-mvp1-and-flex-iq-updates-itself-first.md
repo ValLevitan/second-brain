@@ -3,10 +3,10 @@ type: decision
 title: Remote firmware update is in MVP 1 — Flex IQ and FlexPay update themselves first; distributing firmware to the Flex-Ports left MVP 1 on Sept 17 and came BACK into MVP 1 on Sept 28, when the date moved to October 15
 date: 2026-09-14
 aliases: [firmware upgrade in MVP1, capability 146, PORT-13, remote FlexPort update back in MVP1, remote firmware update, OTA firmware, приоритет номер один это чтобы обновлялся флекс ай кю, flash the FlexPorts, Flex IQ to FlexPort protocol, доперфек, priority two deferred, FlexPort firmware by USB stick, capability 144 to MVP2, capability 144 cloned, no rollback, roll forward only, requirement 1367]
-source-count: 16
+source-count: 18
 status: active — priority two (remote update of the Flex-Ports) left MVP 1 on Sept 17 2026 and RETURNED to MVP 1 on Sept 28 2026 (capability 146); rolling BACK to a previous build stays out of MVP 1 (Sept 18 2026); the delivery design is still open as of Oct 1 2026 (parked "to tomorrow" on Sept 30 and not taken up on Oct 1); see the dated updates below
 open-commitments: 6
-open-questions: 2
+open-questions: 3
 ---
 
 # Remote firmware update is in MVP 1, and Flex IQ updates itself before it updates anything else
@@ -151,6 +151,10 @@ At the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-m
 
 The notes match [[raw/Meeting_Notes_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]].
 
+## Update, Oct 5 2026 — the remote update works and is rolled out to a terminal; one terminal's TITO printer stops printing, cause unknown
+
+At the [[wiki/meetings/2026-10-05-transactional-mvp1-port-screens-unclaimed-money-and-printer-models.md|Oct-5 8:01 AM MVP 1 call]] (Russian), [[wiki/people/andrei-klimovich.md|Klimovich]] asked [[wiki/people/dmitri-chudinov.md|Chudinov]] for the status of the remote update. Chudinov: "Работает пока… выкатываем, накатывается на терминал есть один момент". On one terminal the TITO printer stops printing: "не могу сказать, связанных с апдейтом, либо нет… это просто он, потому что через сутки демон поток засыпает, не просыпается, либо связано с апдейтом. Не получается пока словить причину. Она 2 раза воспроизвелась… с прошлой недели больше не воспроизводилось" [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]. *Which update is meant (Flex IQ's own, or the Flex-Ports' through it) is not said; "накатывается на терминал" suggests the terminal (Flex IQ) — inference.* The derived notes read it the same way [[raw/Meeting_Notes_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] and [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — continue the Flex-Port firmware-delivery discussion: the delivery method first, then who triggers an update and how the ports report back — due Oct 1 2026 ("поговорим завтра") — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]] — *Oct 1 2026: not taken up at the stand-up; the Pavel–Chudinov exchange that morning was the SAS-mode flag ([[wiki/decisions/2026-10-01-sas-or-no-sas-is-set-per-flex-port-on-the-flex-iq-set-up-screen-and-sent-at-registration-with-the-pin-code.md]]), and Chudinov's next item is capability 241 (machine information and command-log forwarding), not delivery* — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
@@ -162,6 +166,8 @@ The notes match [[raw/Meeting_Notes_Transactional_MVP1_Instructions_Complete_and
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — deliver firmware update in MVP 1 to a production standard, with pings, verification and a timer — due with MVP 1 — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
 
 ## Open questions
+
+- **Why does the TITO printer on one terminal stop printing — the remote update, or a print daemon that sleeps after a day and does not wake?** Seen twice, not since the week before Oct 5 — [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]
 
 - **How does Flex-Port firmware delivery work in business terms?** Who decides which version a port takes (server command per location, or always the latest), whether the server shows each port's current firmware, when an update applies, who presses "apply" (operator or JVL remotely), and how the ports report back — argued on Sept 30, not decided — [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
 - **Where does the January-2025 remote-firmware protocol document belong?** Left for the next revision — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
@@ -188,3 +194,5 @@ The notes match [[raw/Meeting_Notes_Transactional_MVP1_Instructions_Complete_and
 - [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]

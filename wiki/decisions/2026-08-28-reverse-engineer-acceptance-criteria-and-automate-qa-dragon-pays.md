@@ -3,7 +3,7 @@ type: decision
 title: Reverse-engineer requirements and acceptance criteria from the ported Dragon Pays game and try to automate its QA (one to two weeks)
 date: 2026-08-28
 aliases: [Dragon Pays QA experiment, no-hands QA experiment, reverse-engineer acceptance criteria, automate QA Rage to Nova, second game port in parallel]
-source-count: 5
+source-count: 6
 status: active
 open-commitments: 3
 open-questions: 2
@@ -54,9 +54,14 @@ Ruled by Val at the end of the [[wiki/meetings/2026-08-28-dragon-pays-nova-conve
 
 At the [[wiki/meetings/2026-09-25-games-conversion-repos-jira-capabilities.md|Sept-25 9:02 AM games-conversion session]] (Russian), Igor said the question was raised "как только у нас был готов порт" (transcript "порт до RM pса", read as the Dragon Pays port — **inference**), and the capabilities exist "локально в виде черновиков" and are not yet in Jira; later work (such as the geometry standard) means they need updating. Val: write prose for the code, go back to the capabilities, attach requirements with acceptance criteria, and close them "задним числом" on today's code and prose. Igor: "Мы хотим это честно сделать в джире." Val: acceptance criteria are the only basis for automated E2E tests [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]. Detail on [[wiki/decisions/2026-09-25-the-conversion-experiment-closes-and-the-converter-gets-its-own-project-and-repository.md]].
 
+## Update, Oct 5 2026 — geometry-first autotests accepted; the animation question narrows to transitions
+
+At the [[wiki/meetings/2026-10-05-rage-nova-port-autotests-and-horizontal-to-vertical-layout.md|Oct-5 7:01 AM Rage-to-Nova review]] (Russian) Igor showed the tests built on the Dragon Pays port: measured geometry and timings of the original Rage game, a geometry check, then game scenarios. Val approved the approach for same-format ports. On the open animation question: the tests caught one real port defect (an epic big-win animation started with the transition out of the bonus), but missed a free-spins transition where the alpha fades faster than the lantern animation. Igor plans mutation testing to prove the tests find planted defects. Moving between games and sound have no test approach yet. Detail on [[wiki/decisions/2026-10-05-geometry-first-port-autotests-accepted-and-geometry-checks-named-graphic-contracts.md]] [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Notes_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
 - [[raw/Meeting_Transcript_Dragon_Pays_Nova_Conversion_Review-August-28-2026.md]]
 - [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]
+- [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]

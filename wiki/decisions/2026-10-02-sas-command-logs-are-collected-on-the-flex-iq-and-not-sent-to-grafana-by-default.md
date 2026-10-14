@@ -3,7 +3,7 @@ type: decision
 title: The SAS command logs from the machines are collected on the Flex IQ and not sent to Grafana by default — off unless switched on, read on demand by connecting to the IQ — because sending them would clog the modem channel; Chudinov reviews the weekend's total traffic
 date: 2026-10-02
 aliases: [SAS command logs collect do not send, SAS logs off by default, логи с машины саскоманд, пускай он лучше не шлёт но собирает, не на порте а на IQ, selective per machine, засорять канал через модем, SAS command logs on the Flex IQ, review total traffic over the weekend, collections door open close]
-source-count: 4
+source-count: 5
 status: active
 open-commitments: 2
 open-questions: 2
@@ -37,6 +37,10 @@ In one line: **the Flex IQ collects the SAS command logs and does not send them;
 
 At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-reopen-rules.md|Oct-5 Minsk stand-up]] (Russian) [[wiki/people/dmitri-chudinov.md|Chudinov]]: "Вот основное садиться, смотреть, что там машина по сассу шлёт. Вот эти вот [поединг] 51 этот хэндпэй. Чтото он там сильно мусорит, надо разбираться нормально, ненормально женя скажет ваня, я не знаю." [[wiki/people/pavel.md|Pavel]]: "Ну на 1 взгляд выглядит, что ненормально." ("51" sits between "polling" and "handpay"; the derived notes read "polling, handpay 51" [[raw/Meeting_Notes_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]].) Whether the total weekend traffic was measured, and whether the collect-not-send build exists, was not said [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]].
 
+## Open contradictions
+
+- **Are the SAS command logs sent to Grafana or not?** Oct 2 2026 (stand-up): the ruling above — the Flex IQ collects them and does not send by default — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]. Oct 5 2026 (8:01 AM call): [[wiki/people/dmitri-chudinov.md|Chudinov]] said that over the weekend the function was built and "теперь получаем все [SAS] команды с машины на порт на IQ и вклады в графа"; to [[wiki/people/pavel.md|Pavel]]'s "логи саса… собираются на флекс айтю и дальше они както отправляются кудато в графану или" he answered "Да да да, в графана" — [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]. Not resolved here: it may be the test set-up with sending switched on, or the rule not yet built. Recorded, not resolved.
+
 ## Open commitments
 
 - [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — build the SAS-command logging so the Flex IQ collects and does not send, with sending off by default and switchable per machine — due unspecified (his next item after 175) — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
@@ -54,3 +58,4 @@ At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-r
 - [[raw/Meeting_Notes_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]

@@ -3,7 +3,7 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, eighty percent of the general functionality, requirements are step two, a hole automated tests will not cover, acceptance criteria in general terms, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction, Figma to React, Vite, Claude Code review loop, acceptance criteria, two test warehouses, frozen test cases, test harness, test registry, no E2E tests for MVP 1, E2E micro-step, telnet hook test, 60 to 70 percent acceptance criteria, symlink to dev null, eight connection tests, money-crediting autotest]
-source-count: 62
+source-count: 63
 open-commitments: 37
 open-questions: 7
 ---
@@ -735,6 +735,16 @@ The derived notes record the same [[raw/Meeting_Notes_Daily_Standup_Autotest_Sta
 - [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — finish the test rules today, spend one day on prose, then start writing the tests from Oct 7 — due Oct 7 2026 — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — rework the vague wallet-creation requirements (what records appear when there is no wallet) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 
+## Oct 5 2026 (7:01 AM) — the Dragon Pays port tests: geometry first, then scenarios; mutation testing; "graphic contracts"; tests only from acceptance criteria
+
+At the [[wiki/meetings/2026-10-05-rage-nova-port-autotests-and-horizontal-to-vertical-layout.md|Oct-5 7:01 AM Rage-to-Nova review]] (Russian) [[wiki/people/igor-metelski.md|Igor Metelski]] showed the port autotests [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]:
+
+- **Method.** Measured geometry and timings of the original Rage game, stored as MD (for Claude) and HTML (for people). Tests check that each element sits in its screen area, then run scenarios: add credit, spin, buttons disabled during the spin, then balance, win, tickers and pay-line highlights. Unlike Test 360, which found elements by their scene names, the tests look at what a person sees.
+- **Gaps.** Moving between games and sound have no approach yet. A free-spins transition defect is visible by eye but not caught. One real defect was caught (an epic big-win animation with the transition out of the bonus).
+- **Mutation testing.** Plant known defects in code or data and check that the tests find them. Claude says it wrote the script; not yet checked.
+- **Rulings.** Val approved the approach for same-format ports; the geometry checks will be called "графические контракты" — [[wiki/decisions/2026-10-05-geometry-first-port-autotests-accepted-and-geometry-checks-named-graphic-contracts.md]].
+- **Tests only from acceptance criteria.** Val: "Тесты пишутся после Того, что сделан написан эксцептом критериев рекларамент"; Igor's "universal scripts" look to him like unwritten non-functional requirements. Evgeny: conversion tests belong to the conversion project, game scenarios to the NOVA integration repository (no structure yet). Pavel: 80–100% of the tests end there, by reference. For now everything goes into Igor's current repository — [[wiki/decisions/2026-10-05-conversion-tools-and-tests-leave-the-local-computer-now-and-claude-proposes-the-repository-layout.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -799,3 +809,4 @@ The derived notes record the same [[raw/Meeting_Notes_Daily_Standup_Autotest_Sta
 - [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+- [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]

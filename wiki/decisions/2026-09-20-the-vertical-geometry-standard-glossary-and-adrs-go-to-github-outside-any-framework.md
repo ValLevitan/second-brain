@@ -3,7 +3,7 @@ type: decision
 title: The vertical geometry standard, glossary and ADRs go into GitHub, outside any framework — then end-to-end tests, then a timed conversion
 date: 2026-09-20
 aliases: [geometry standard to GitHub, vertical geometry standard, ADR consolidation, glossary standards ADRs, experiment in a vacuum, эксперимент в вакууме, стандарты глоссари ADR, stopwatch experiment, секундомер, frameless integration, безрамочная интеграция, Pantone to Pantone, three stages GitHub then e2e then conversion]
-source-count: 3
+source-count: 4
 status: active
 open-commitments: 7
 open-questions: 4
@@ -108,8 +108,13 @@ At the [[wiki/meetings/2026-09-25-games-conversion-repos-jira-capabilities.md|Se
 
 **Evolution, not contradiction.** Sept 20 set "in a vacuum, outside any framework"; Sept 25, a later source, puts framework-related ADRs into the NOVA framework repository. The Sept-20 line that ADRs belong "В репозитории" with the code already pointed this way (**inference**). The deadline moved from Thu Sept 24 to Wed Sept 30.
 
+## Update, Oct 5 2026 — end-to-end testing under way; horizontal↔vertical now runs in parallel
+
+At the [[wiki/meetings/2026-10-05-rage-nova-port-autotests-and-horizontal-to-vertical-layout.md|Oct-5 7:01 AM Rage-to-Nova review]] (Russian) Igor showed the end-to-end autotests for the Dragon Pays port (geometry first, then game scenarios), with gaps: transitions between games, sound, and a free-spins transition defect the tests miss — [[wiki/decisions/2026-10-05-geometry-first-port-autotests-accepted-and-geometry-checks-named-graphic-contracts.md]] [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]. Val then gave Igor horizontal↔vertical conversion work **in parallel** with the tests, on Dragon Pays — [[wiki/decisions/2026-10-05-horizontal-to-vertical-conversion-runs-in-parallel-with-the-port-autotests.md]] [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]. This changes the Sept-20 order (tests first, then the conversion): evolution, not contradiction. Whether it replaces the stage-3 timed conversion is not stated.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
 - [[raw/Meeting_Notes_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
 - [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]
+- [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]

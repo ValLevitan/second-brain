@@ -4,8 +4,8 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich, Andre]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 101
-open-commitments: 105
+source-count: 103
+open-commitments: 106
 open-questions: 0
 ---
 
@@ -638,7 +638,7 @@ On the [[wiki/meetings/2026-09-22-digital-marketing-lead-and-georgia-demand-camp
 ## Open commitments (Sept 22 2026)
 
 - [x] Andrei Klimovich — pass the task context to Sergey Vysotsky in writing (not the recording) — due Sept 22 2026 ("я контекст ему сегодня передам") — [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]] — **discharged Sept 25 2026, by his own report:** "по поводу Сергея, я ему в среду переслал" (Wednesday, Sept 23); what he forwarded is not stated — [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]]
-- [ ] Andrei Klimovich — if Sergey takes the task, set up a call so Val can brief him and hear it played back — due ~Sept 23 2026 ("он завтра уже точно будет готов") — [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]] — *Sept 25 2026: Sergey will think over the weekend (Sept 26–27) and answer; if he is ready, they meet the week of Sept 28 — "если готов пообщаться, мы сразу встретимся на следующей неделе"; still open* — [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]]
+- [x] Andrei Klimovich — if Sergey takes the task, set up a call so Val can brief him and hear it played back — due ~Sept 23 2026 ("он завтра уже точно будет готов") — [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]] — *Sept 25 2026: Sergey will think over the weekend (Sept 26–27) and answer; if he is ready, they meet the week of Sept 28 — "если готов пообщаться, мы сразу встретимся на следующей неделе"; still open* — [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]] — **discharged Oct 5 2026:** Val and Sergey met at 10:06 AM; Val briefed him and Sergey said back how he understood the task (the calendar slot was organised by Sergey, per the notes) — [[raw/Meeting_Transcript_Sergei_Vysotski_Georgia_Location_Opt_In_List_and_Research_Spikes-October-5-2026.md]]
 - [ ] Andrei Klimovich — send Val the next version of the presentation, from Val's written comments — due Sept 22–23 2026 ("сегодня завтра не затягивать") — [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]]
 
 ## Sept 22 2026 (8:01 AM) — Val takes his requirements "as dogma", and he owes the design, 178 and a change list
@@ -787,10 +787,32 @@ On the [[wiki/meetings/2026-10-01-transactional-mvp1-status-slice-and-sas-comman
 
 ## Open commitments (Oct 1 2026, 8:02 AM)
 
-- [ ] Andrei Klimovich — ping Elizabeth again and get a date from her for the Georgia test set-up — due Oct 1 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
+- [ ] Andrei Klimovich — ping Elizabeth again and get a date from her for the Georgia test set-up — due Oct 1 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]] — *Oct 5 2026: still "тишина"; he pings her again that day* — [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]
 - [ ] Andrei Klimovich — pick up the stalled request to KORE for an extra batch of SIM cards for Minsk — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
-- [ ] Andrei Klimovich — read Chudinov's gaps document and update the requirements where the mock-ups and requirements diverge — due after Oct 13 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
+- [ ] Andrei Klimovich — read Chudinov's gaps document and update the requirements where the mock-ups and requirements diverge — due after Oct 13 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]] — *Oct 5 2026: not yet read — "У меня не было возможности… я постараюсь сегодня час найти"; Chudinov: no blockers in it* — [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]
 - [ ] Andrei Klimovich — think through the MVP 2 user and administrator flows so new capabilities can be written — due after Oct 13 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
+
+## Oct 5 2026 (8:01 AM) — he rules the port screens to the admin role, keeps unclaimed in Records, takes MVP 1 without a print queue, and leaves for three days
+
+On the [[wiki/meetings/2026-10-05-transactional-mvp1-port-screens-unclaimed-money-and-printer-models.md|Oct-5 8:01 AM MVP 1 call]] (Russian), which he chaired [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]:
+
+- **Port screens.** "пускай оно живёт под ролью админа да не у кассира"; the Recycler's port display as the model — [[wiki/decisions/2026-10-05-flex-port-and-connection-settings-screens-live-under-the-admin-role-not-the-cashier.md]].
+- **Unclaimed money.** He recalled the unclaimed status in the cashier's Records; "пускай кассир видит" — [[wiki/decisions/2026-09-24-a-flex-port-that-dies-holding-money-sends-it-to-unclaimed-and-one-without-a-gateway-goes-out-of-service.md]] (Oct-5 update).
+- **Print queue.** Val asked him to pick; "Я вполне окей для MVP один без очереди двигаться" — [[wiki/decisions/2026-10-05-mvp1-has-no-print-queue-and-tickets-print-or-reprint-from-records.md]].
+- **Georgia.** "задача добиться от Джорджия сейчас, чтобы там настройку эту сделали" with JVL machines first — [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] (Oct-5 update).
+- **Away Tuesday to Thursday (Oct 6–8).** The regular meetings go on without him; a Friday sync with him. "Я 12 прилетаю только я мог бы 13." *(Schedule fact only.)*
+
+## Open commitments (Oct 5 2026, 8:01 AM)
+
+- [ ] Andrei Klimovich — send the invite for a Friday sync with the MVP 1 team — due Oct 9 2026 ("в пятницу я кину инвайт") — [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]
+
+## Oct 5 2026 (10:06 AM, in absentia) — Sergey Vysotsky's results come to him first
+
+On Val's [[wiki/meetings/2026-10-05-sergey-vysotsky-georgia-location-opt-in-list-and-research-spikes.md|Oct-5 call]] with [[wiki/people/sergey-vysotsky.md|Sergey Vysotsky]] ("Andrei" by context; not present): Sergey works in short spikes agreed with Klimovich, and Val asked that Sergey's research go through Klimovich first — [[wiki/decisions/2026-10-05-sergey-vysotskys-georgia-work-is-research-not-sales-in-short-spikes-reported-through-klimovich.md]] [[raw/Meeting_Transcript_Sergei_Vysotski_Georgia_Location_Opt_In_List_and_Research_Spikes-October-5-2026.md]].
+
+## Open commitments (Oct 5 2026, 10:06 AM)
+
+- [ ] Andrei Klimovich — review Sergey Vysotsky's research after each spike and bring Val what is useful — due after each spike — [[raw/Meeting_Transcript_Sergei_Vysotski_Georgia_Location_Opt_In_List_and_Research_Spikes-October-5-2026.md]]
 
 ## Sources
 
@@ -896,3 +918,5 @@ On the [[wiki/meetings/2026-10-01-transactional-mvp1-status-slice-and-sas-comman
 - [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
 - [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]
+- [[raw/Meeting_Transcript_Sergei_Vysotski_Georgia_Location_Opt_In_List_and_Research_Spikes-October-5-2026.md]]

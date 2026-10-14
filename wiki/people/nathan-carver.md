@@ -3,8 +3,8 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 44
-open-commitments: 7
+source-count: 47
+open-commitments: 11
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
 
@@ -172,12 +172,33 @@ Rulings on [[wiki/decisions/2026-09-30-engineers-never-change-msbc-and-administr
 
 On the [[wiki/meetings/2026-10-01-genadi-io-board-chips-flat-bom-pilot-and-street-cabinet-panel.md|Oct 1 5:02 PM call]] (Russian; Val and Genadi) Genadi asked, "Я так понимаю, что нэйтан сделает какие-то эксперименты?" Val: "Да мне давно это нэйтане нужен, я сам могу это сделать" — **unclear** whether "I have long needed this from Nathan" (the derived notes' reading [[raw/Meeting_Notes_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]) or "I don't need Nathan for this"; the second half, that Val can do it himself with Claude Code on the Flex Pay Slim BOM, is clear. Later Val allowed "может быть куча вещей, которые нам или нейтану нужно будет подтянуть". Nathan's two Sept-30 items below are not withdrawn on tape; the question is recorded on [[wiki/decisions/2026-10-01-only-the-finished-bom-goes-into-msbc-the-configurator-is-ai-logic-outside-it-no-hybrid-and-the-pilot-is-the-flex-pay-slim.md]] [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]].
 
+## Oct 5 2026 — handed the Flex Pay Slim BOM reverse spike
+
+At 1:19 PM, with Genadi, Val said "Этот концерт легко подхватит. Нейтан. Ему будет очень легко с этим работать" and that he would call him right away [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]. On the [[wiki/meetings/2026-10-05-nathan-carver-flex-pay-slim-bom-reverse-spike.md|1:58 PM call]] (English; Val and Nathan) [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]:
+
+- **His read of the model.** "MSBC has a specific structure for their bill of material… Once we know the structure, once we know the input. We wouldn't even need an agent, I don't think… We should be able to programmatically build it." The GitHub side needs "an organized structure of data files that are just text because people edit them… It is source code in that sense… it gets compiled into a VC bomb [BC BOM]." On data contracts: "there's terminology gaps between Genadi's world and GitHub and BC, but it's all the same."
+- **Monorepo proposed, refused.** He suggested a monorepo to keep the repo count down; Val: "if we have one monorepo, then JIRA doesn't work"; Nathan: "Okay. That makes sense to me." His addition: each repo carries a spec and tells the agent how best to search it. See [[wiki/decisions/2026-10-05-hardware-follows-the-developer-repo-model-one-jira-project-one-repo-zero-trust-data-contracts-no-monorepo.md]].
+- **The spike.** He took the Flex Pay Slim reverse spike and proposed a second product spiked independently afterwards (Val named the Flex Port). He offered the Jira home: his existing "hardware sync" item DTP-1083 under IP-964; Val also allowed IP-965. Ruling and commitments: [[wiki/decisions/2026-10-05-nathan-carver-runs-the-flex-pay-slim-bom-reverse-spike-and-flex-port-follows.md]].
+- **Timing.** "Just one week next week, so I'll try to turn some of this… over this week, so you have it before I go." The notes date the week off from an Oct-1 chat; that date is not in this call [[raw/Meeting_Notes_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]].
+
+This answers the Oct-1 question whether his experiments go on: they become this spike.
+
+## Open commitments (Oct 5 2026)
+
+- [ ] Nathan Carver — break the work into a project and capabilities in Jira, under DTP-1083 (IP-964) or IP-965, and start implementing — due unspecified — [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
+- [ ] Nathan Carver — run the Flex Pay Slim reverse spike: pull and flatten the MSBC BOM into GitHub, projects, repos and data contracts, agents build the BOM, push to MSBC, compare — due unspecified — [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
+- [ ] Nathan Carver — spike the Flex Port on its own afterwards and compare — due after the first spike — [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
+- [ ] Nathan Carver — turn some of this over before his week off — due the week of Oct 5 2026 — [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
+
 ## Open commitments (Sept 30 2026)
 
-- [ ] Nathan Carver — experiment with the GitHub-to-MSBC bridge in phases, items first, then bills of material, using the development MSBC instances; trace an existing MSBC BOM back to its items and work out what it would look like in GitHub — due unspecified — [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]] *(Oct 1: Val says he will build the first structure himself with Claude Code; whether this item stands beside it is unclear on tape [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]])*
+- [ ] Nathan Carver — experiment with the GitHub-to-MSBC bridge in phases, items first, then bills of material, using the development MSBC instances; trace an existing MSBC BOM back to its items and work out what it would look like in GitHub — due unspecified — [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]] *(Oct 1: Val says he will build the first structure himself with Claude Code; whether this item stands beside it is unclear on tape [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]])* *(Oct 5: it becomes the Flex Pay Slim reverse spike above [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]])*
 - [ ] Nathan Carver — check how others handle an engineering-to-BC item/BOM sync before the deep investigation — due unspecified — [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]
 
 ## Sources
+- [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
+- [[raw/Meeting_Notes_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
+- [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
 - [[raw/Meeting_Notes_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]

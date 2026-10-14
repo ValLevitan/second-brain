@@ -3,7 +3,7 @@ type: topic
 title: GitHub release management and the CI/CD release pipeline
 date: 2025-10-21
 aliases: [release management, release pipeline, CI/CD, GitHub Actions pipeline, release artifacts, ISO image release, release manager role, continuous delivery, flex os installer, manifest, release candidate, single source of truth, feature branch discipline, sprints vs kanban, Jira GitHub link, FlexPos IP 902, FP 519, IP 89 dashboard grooming, bulk archive automation, Jira resolutions cleanup, Flex-POS Transition to Production, alpha build release tracking, knowledge repository, prose pending folder, prose merge action, docs contracts folder, integration repository, Knowledge Base repository, Standards folder, 39 accesses, hardware GitHub standard, hardware-components repo, hardware-manufacturing repo, BOM sync robot, category first manufacturer second]
-source-count: 107
+source-count: 109
 open-commitments: 1
 open-questions: 10
 ---
@@ -832,7 +832,13 @@ At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-r
 
 **§15.8:** clear. **§15 #9:** none.
 
+## Oct 5 2026 (afternoon) — the repo model reaches hardware: one Jira project per repo, zero trust, data contracts, no monorepo
+
+Val took the software repo model to the BOM: to Genadi at 1:19 PM — "Each repository. Is equal to a Project in Jira… has zero trust state… Date the contract… in a dot MD file", from which Claude Code assembles and tests the whole product [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]; and to Nathan Carver at 1:58 PM, where Nathan's monorepo idea was refused ("if we have one monorepo, then JIRA doesn't work… Project is described by capabilities") and Nathan added that each repo should tell the agent how best to search it [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]. GitHub keeps a flat list of parts; the BOM is generated like a build (GitHub Actions → ISO → Azure, in Val's comparison). The Flex Pay Slim reverse spike tests it. Rulings: [[wiki/decisions/2026-10-05-hardware-follows-the-developer-repo-model-one-jira-project-one-repo-zero-trust-data-contracts-no-monorepo.md]] · [[wiki/decisions/2026-10-05-nathan-carver-runs-the-flex-pay-slim-bom-reverse-spike-and-flex-port-follows.md]].
+
 ## Sources
+- [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
+- [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 
 - [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]

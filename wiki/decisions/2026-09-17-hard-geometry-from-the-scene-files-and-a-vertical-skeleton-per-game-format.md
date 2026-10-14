@@ -3,7 +3,7 @@ type: decision
 title: Hard geometry comes out of the scene files, and every game format gets a fixed vertical skeleton
 date: 2026-09-17
 aliases: [vertical skeleton, жёсткий скелет, hard geometry and motion physics, жёсткая геометрия и физика, skeleton per game format, one universal graphic designer, reference layout is another vertical game, за эталон другую вертикальную игру, 3x3 3x5 4x5 skeletons, game scene is a folder]
-source-count: 3
+source-count: 4
 status: active
 open-commitments: 3
 open-questions: 2
@@ -93,6 +93,10 @@ Nothing was settled between these positions. Val did not rule on the pay table.
 
 **What Val ruled next** is recorded on [[wiki/decisions/2026-09-20-the-vertical-geometry-standard-glossary-and-adrs-go-to-github-outside-any-framework.md]]: the standard, a glossary and ADRs go into GitHub outside any framework; then end-to-end tests; then a timed RAGE-to-NOVA conversion.
 
+## Oct 5 2026 update — the pay-table question comes back; a vertical template exists
+
+At the [[wiki/meetings/2026-10-05-rage-nova-port-autotests-and-horizontal-to-vertical-layout.md|Oct-5 7:01 AM Rage-to-Nova review]] (Russian) the pay-table argument returned. Pavel: designers place pay-table elements differently in each game. Igor: tell them to work inside a template; he first feared "миллион этих шаблонов", then said one template or two is "неважно". Irina: templates by symbol count, and the symbol count is limited. Still not ruled [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]. Igor also said a vertical template "У нас есть, мы его подготовили уже" in earlier months; whether the six-game skeleton set is complete is not stated, so the commitments stay open [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]. Detail on [[wiki/decisions/2026-10-05-horizontal-to-vertical-conversion-runs-in-parallel-with-the-port-autotests.md]].
+
 ## History
 
 - [x] [[wiki/people/igor-metelski.md|Igor Metelski]] — write to Val on Friday Sept 18 with the day he prefers to meet — **overtaken by events**: the meeting took place Sunday Sept 20 — [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]] [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
@@ -109,3 +113,4 @@ No product, release date, market or cabinet is named for a vertical product anyw
 - [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
 - [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
 - [[raw/Meeting_Notes_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
+- [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]

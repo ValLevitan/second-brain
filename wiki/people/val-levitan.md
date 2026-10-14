@@ -3,7 +3,7 @@ type: person
 title: Val Levitan
 date: 2026-07-12
 aliases: [Val, Val Levitan]
-source-count: 404
+source-count: 411
 open-commitments: 76
 open-questions: 1
 ---
@@ -1556,8 +1556,8 @@ One sitting, three recordings ([[wiki/meetings/2026-10-01-genadi-io-board-chips-
 
 ## Open commitments (Oct 1 2026)
 
-- [ ] Val Levitan — take the Oct-1 transcript and the Flex Pay Slim part number and have Claude Code build the GitHub structure: the Slim as a flat list with all suppliers for every part, then work backward — due unspecified — [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
-- [ ] Val Levitan and Genadi Peari — a working session of about two hours on the flat BOM, Val working it in front of Genadi — due unspecified — [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
+- [x] Val Levitan — take the Oct-1 transcript and the Flex Pay Slim part number and have Claude Code build the GitHub structure: the Slim as a flat list with all suppliers for every part, then work backward — due unspecified — [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]] — **handed over Oct 5 2026:** the pilot goes to Nathan Carver as a reverse spike, and Genadi reviews his demo [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]] [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
+- [x] Val Levitan and Genadi Peari — a working session of about two hours on the flat BOM, Val working it in front of Genadi — due unspecified — [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]] — **handed over Oct 5 2026:** the pilot goes to Nathan Carver as a reverse spike, and Genadi reviews his demo [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]] [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
 - [ ] Val Levitan — think over whether the street machine needs a FlexPort at all, or one scanner with the interface on the machine's touch screen; blocks the hand-over of the model to Igor — due unspecified — [[raw/Meeting_Transcript_Street_Machine_Cabinet_Dashboard_and_Printer_Access-October-1-2026.md]]
 
 ## Oct 2 2026 (4:50 AM, in absentia) — his written message to put the repositories in order, and his note to Tsymanov about a GitHub branch
@@ -1578,7 +1578,40 @@ On the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-m
 
 On the [[wiki/meetings/2026-10-02-diagnostic-tool-on-the-install-stick-for-nova-fp7-and-rk.md|Oct-2 9:01 AM "EGMs diagnostic tool" call]] (Russian) he was present but spoke only in the chat; Pavel relayed: "Вал спрашивает, можем ли мы использовать sell mode? Для Того, чтобы в процессе инсталляции… Если если чтото идёт не так. Сделать диагностику и отправить это через модем" ("sell mode" read as the cell modem — **inference**) — Pavel: in theory yes, but a server side is needed; and "Вал если ну вопросов да пишите, мы сразу же их. Запишем озвучим." Pavel named him, "Андрей" (unresolved) and Felipe as sources of modem use cases, and answered a chat remark of his about Claude ("всё правильно с клодом"). His chat text is not in the transcript [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]. Ruling: [[wiki/decisions/2026-10-02-the-diagnostic-tool-goes-onto-the-installation-stick-and-lives-in-the-sdk-repository-both-rk-and-fp7-are-worked-out.md]].
 
+## Oct 5 2026 (7:01 AM) — approves geometry-first port tests, adds horizontal↔vertical in parallel, "graphic contracts", and no files kept locally
+
+At the [[wiki/meetings/2026-10-05-rage-nova-port-autotests-and-horizontal-to-vertical-layout.md|Oct-5 7:01 AM Rage-to-Nova review]] (Russian), which he organized [[raw/Meeting_Notes_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]:
+
+- **Approved Igor's geometry-first tests** for horizontal-to-horizontal and vertical-to-vertical ports: "никаких замечаний у меня нету… я очень рад". He likes turning the artist's eye into maths — [[wiki/decisions/2026-10-05-geometry-first-port-autotests-accepted-and-geometry-checks-named-graphic-contracts.md]] [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]].
+- **Still sure of a horizontal↔vertical dependency:** "то, что есть зависимость, у меня нет сомнения. Можем ли мы? Я не знаю." He told Igor to keep the autotests and, in parallel, learn to convert games between the formats — [[wiki/decisions/2026-10-05-horizontal-to-vertical-conversion-runs-in-parallel-with-the-port-autotests.md]] [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]].
+- **Named the geometry checks** "графические контракты", after Evgeny's phrase [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]].
+- **Tests only from acceptance criteria.** He read Igor's "universal scripts" as unwritten non-functional requirements, and explained functional (from the market) vs non-functional (from the engineers). He called the conversion work a "Спайк" — [[wiki/decisions/2026-10-05-conversion-tools-and-tests-leave-the-local-computer-now-and-claude-proposes-the-repository-layout.md]] [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]].
+- **No files on a local computer:** "Я, я против, чтобы они лежали локально"; put things somewhere now and move them later. He liked Evgeny's idea to ask Claude for a repository proposal [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]].
+- **Working style.** He asked Igor to speak about 30% slower and said he cannot read long documents from everyone who works for him. He sent Irina to another meeting at about the 59-minute mark [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]].
+
+## Open commitments (Oct 5 2026)
+
+- [ ] Val Levitan — send the invite for the Thursday 7:00 follow-up on the Rage-to-NOVA work — due before Thu Oct 8 2026 — [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]] [[raw/Meeting_Notes_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]
+
+## Oct 5 2026 (11:00 AM) — RIS improvement MVP1: "3 capabilities… in two weeks", the critical-error screen, and Felipe owns the Peach-pack call
+
+At the [[wiki/meetings/2026-10-05-ris-mvp1-scope-and-peach-packaging.md|Oct-5 11:00 AM "RIS changes review"]] he set the brief ("A reasonable time to me is 2 weeks"), had Pavel rank and cut the Jira list into one release (date Oct 19), kept the lottery lock and the LTE modem out, and said the critical-error screen shows the cause in words plus the QR ("for class 3 we need it"). He said the 12-game Peach 2 was his own undocumented decision for Lucky Bucks ("It was tribal knowledge") and gave Felipe until Oct 11 to choose one Peach release or three sticks. See [[wiki/decisions/2026-10-05-ris-improvement-mvp1-is-five-jira-capabilities-in-one-release-due-october-19.md]], [[wiki/decisions/2026-10-05-the-critical-error-screen-shows-the-cause-and-fix-in-words-and-keeps-the-qr-code-in-mvp1.md]], [[wiki/decisions/2026-10-05-felipe-decides-by-october-11-one-18-game-peach-pack-or-three-separate-sticks.md]]. [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
+
+## Oct 5 2026 (1:19 PM and 1:58 PM) — the developer repo model for the BOM, and the Flex Pay Slim pilot handed to Nathan
+
+- **1:19 PM, with Genadi** ([[wiki/meetings/2026-10-05-design-to-msbc-zero-trust-repos-and-data-contracts.md]]). He explained the developer model — one Jira project per repo, zero trust, prose, ADRs and a data contract in an .md file — "because I think this is what you were missing. In figuring out how a bill of material will work." "100%… it works in development. I, I am 70% sure. that it will work for electromechanical design." GitHub holds "flat list of parts", not a BOM; the BOM is generated from it, like an ISO built by GitHub Actions that lives in Azure. When Genadi asked for simpler steps: "Я согласен, вы сами это не подтянете… Я позвоню ему сейчас." His close: what he describes is "двухгодичной давности в лучшем случае… 90% компаний про это не говорят." [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
+- **1:58 PM, with Nathan** ([[wiki/meetings/2026-10-05-nathan-carver-flex-pay-slim-bom-reverse-spike.md]]). He set the Flex Pay Slim reverse spike ("freehand… I don't want to be bound to what's created"), refused a monorepo ("then JIRA doesn't work"), named the Flex Port as the second product, and accepted DTP-1083 under IP-964 or IP-965 as the Jira home. "A human doesn't touch anything. A human only describes in words what is it that the human wants." [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
+- Rulings: [[wiki/decisions/2026-10-05-hardware-follows-the-developer-repo-model-one-jira-project-one-repo-zero-trust-data-contracts-no-monorepo.md]] and [[wiki/decisions/2026-10-05-nathan-carver-runs-the-flex-pay-slim-bom-reverse-spike-and-flex-port-follows.md]]. His Oct-1 plan to build the structure himself with Claude Code is handed over (above). The notes record the same two decisions per meeting [[raw/Meeting_Notes_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]] [[raw/Meeting_Notes_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]].
+
+## Open commitments (Oct 5 2026, afternoon)
+
+- [ ] Val Levitan — send Nathan the Oct-5 call transcript — due Oct 5 2026 — [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]] *(the notes say an attachment was posted in the chat at 2:43 PM; not confirmed as the transcript [[raw/Meeting_Notes_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]])*
+
 ## Sources
+- [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
+- [[raw/Meeting_Notes_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
+- [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
+- [[raw/Meeting_Notes_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]
 - [[raw/Meeting_Transcript_IO_Board_Memory_Chip_Removal_and_Redesign-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
@@ -1991,3 +2024,6 @@ On the [[wiki/meetings/2026-10-02-diagnostic-tool-on-the-install-stick-for-nova-
 - [[raw/Meeting_Transcript_Pricing_Pivot_to_Cash_and_Revenue_Share-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Transcript_AI_PM_Status_Listener_Core_and_318_Transcripts-October-2-2026.md]]
+- [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]
+- [[raw/Meeting_Notes_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]
+- [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]

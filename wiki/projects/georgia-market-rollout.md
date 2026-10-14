@@ -2,10 +2,10 @@
 type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
-aliases: [Georgia, Georgia co-op, COAM Hearing Room, Georgia Lottery Corporation, Tracy Warren, HB 353, Intralot lab, Bill at Intralot, three fifty-eight nine, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing, GAMOA, ILERS, ILAS report, Eilers, Eiler report, show special, Mega Hit Blaze, sales channel report, Bulldog Gaming, ARC, ARC Gaming, Class A, C-Store Connect, GACS, route consolidation, gift-card cash-back notice, Chris Plonic, Double Down Gaming, Ryan O'Donnell, Billy Liu, Play Payments, PlayPay, banking licence moat, 7455 modem, KORE, KORE SIM, APN, GACS October 21, Pay Slim, over-drive, Rao, Narasimha Rao Namburi, David Milani, September 2 letter, 5500 PAX locations, Lucky Coin service burden, Lucky Bucks is ARC, the market is literally bottomless, backend displacement, David Sloan, Dave Sloan, Bill the kiosk vendor, the wording is in the same location, guidance is not the law, Digital Cash Processing, DCP, ICP Inc., Gen Mega, Andrew Cashin, Rick Beer, seventy four hundred locations forty seven thousand machines, Unlimited Amusement, Mega Hit Blaze V3, program the rollout, Swanee, Johns Creek, Singleton, SurfNote, Debbie Alford, eighteen thousand connected, Mike Mackey, five hundred dollars per unit per machine, WSS protocol, not even one installation, Georgia Lazy, Skyriser, Cardinal, outside looking in, Rich Winley briefing]
-source-count: 229
-open-commitments: 73
-open-questions: 31
+aliases: [Georgia, Georgia co-op, COAM Hearing Room, Georgia Lottery Corporation, Tracy Warren, HB 353, Intralot lab, Bill at Intralot, three fifty-eight nine, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing, GAMOA, ILERS, ILAS report, Eilers, Eiler report, show special, Mega Hit Blaze, sales channel report, Bulldog Gaming, ARC, ARC Gaming, Class A, C-Store Connect, GACS, route consolidation, gift-card cash-back notice, Chris Plonic, Double Down Gaming, Ryan O'Donnell, Billy Liu, Play Payments, PlayPay, banking licence moat, 7455 modem, KORE, KORE SIM, APN, GACS October 21, Pay Slim, over-drive, Rao, Narasimha Rao Namburi, David Milani, September 2 letter, 5500 PAX locations, Lucky Coin service burden, Lucky Bucks is ARC, the market is literally bottomless, backend displacement, David Sloan, Dave Sloan, Bill the kiosk vendor, the wording is in the same location, guidance is not the law, Digital Cash Processing, DCP, ICP Inc., Gen Mega, Andrew Cashin, Rick Beer, seventy four hundred locations forty seven thousand machines, Unlimited Amusement, Mega Hit Blaze V3, program the rollout, Swanee, Johns Creek, Singleton, SurfNote, Debbie Alford, eighteen thousand connected, Mike Mackey, five hundred dollars per unit per machine, WSS protocol, not even one installation, Georgia Lazy, Skyriser, Cardinal, outside looking in, Rich Winley briefing, 18 games in one pack, one USB stick for all Peach, Peach 1 2 3 combined]
+source-count: 233
+open-commitments: 74
+open-questions: 36
 ---
 
 # Georgia market rollout (Peach1234 / DLKG)
@@ -1556,7 +1556,7 @@ From the [[wiki/meetings/2026-09-22-digital-marketing-lead-and-georgia-demand-ca
 ### Open questions (Sept 22 2026)
 
 - Whether Meta and Google will accept a creative that does not name gambling. Klimovich raised it as a creative task still to be worked — [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]]
-- **Tier A (held, §15 #8):** how the location-owner calls are placed lawfully. Val's instructions on this passage are held for owner review and not recorded — [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]]
+- **Tier A (held, §15 #8):** how the location-owner calls are placed lawfully. Val's instructions on this passage are held for owner review and not recorded — [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]] — *Oct 5 2026: Val said JVL cannot do outreach itself or in its name, citing federal restrictions (recorded on [[wiki/decisions/2026-10-05-jvl-does-not-reach-out-to-georgia-locations-and-aims-for-inbound-calls-to-its-ai-voice.md]]); his description of how a third party might do it stays held* — [[raw/Meeting_Transcript_Sergei_Vysotski_Georgia_Location_Opt_In_List_and_Research_Spikes-October-5-2026.md]]
 
 ## Sept 22 2026 (8:01 AM) — the IQ goes on the KORE SIM in the Georgia office, and the office router keeps dropping
 
@@ -1701,6 +1701,43 @@ Twice on Sept 28 Val described the market to outsiders who had never heard of it
 - **Other states, to both audiences.** Nebraska: "a very small market, but it's new" (lunch); "Nebraska just opened up in late 2024 and vast territory, and it's filling" (afternoon). Texas: "poorly regulated… county by county… I wouldn't want you to be in Texas right now." The adviser claimed "Massachusetts just recently passed legislation… now allows gaming" — his claim, unverified; Val: "I'm looking for street gaming… I cannot make money in casinos" [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]] [[raw/Meeting_Transcript_Equipment_Depreciation_Investor_Pitch-September-28-2026.md]].
 
 **§15.8:** company head-count and value are company facts; no named person's pay or performance. **Personal matters not recorded.** **§15 #9:** none.
+
+## Oct 5 2026 — the location list meets the rules: Sergey Vysotsky does research only, JVL does no outreach, and the goal is an opt-in list plus likely players
+
+From Val's [[wiki/meetings/2026-10-05-sergey-vysotsky-georgia-location-opt-in-list-and-research-spikes.md|Oct-5 call]] with [[wiki/people/sergey-vysotsky.md|Sergey Vysotsky]] (10:06 AM, Russian; no speaker labels — attribution per the notes [[raw/Meeting_Notes_Sergei_Vysotski_Georgia_Location_Opt_In_List_and_Research_Spikes-October-5-2026.md]]):
+
+- **The list so far.** [[wiki/people/andrei-klimovich.md|Klimovich]] gave Sergey a list of "около семи тысяч, даже более локаций". Sergey found a phone or email for "около пятидесяти процентов" of them — mostly not decision-makers, often a gas station's Google Maps number [[raw/Meeting_Transcript_Sergei_Vysotski_Georgia_Location_Opt_In_List_and_Research_Spikes-October-5-2026.md]].
+- **Who does what.** Sergey does data research, not sales; the work runs in short spikes reported through Klimovich — [[wiki/decisions/2026-10-05-sergey-vysotskys-georgia-work-is-research-not-sales-in-short-spikes-reported-through-klimovich.md]].
+- **The rules and the end state.** No outreach by JVL or in its name ("федеральные restrictions"); not even after an opt-in; the end state is inbound calls answered by JVL's AI voice — [[wiki/decisions/2026-10-05-jvl-does-not-reach-out-to-georgia-locations-and-aims-for-inbound-calls-to-its-ai-voice.md]].
+- **The goal now.** "reliable opt-in list. Of locations", then the people "most likely" to play at those locations, by geography or other means [[raw/Meeting_Transcript_Sergei_Vysotski_Georgia_Location_Opt_In_List_and_Research_Spikes-October-5-2026.md]].
+- **Class A / Class B.** Sergey asked whether Class A machines are the market machines. Val: in Georgia there are Class A and Class B; "класс А немножко неправильная формулировка, ну хотя intent ваш… правильный", and he did not want to go deep into the legislation [[raw/Meeting_Transcript_Sergei_Vysotski_Georgia_Location_Opt_In_List_and_Research_Spikes-October-5-2026.md]]. See [[wiki/topics/georgia-class-a-machines.md]].
+
+### Open questions (Oct 5 2026)
+
+- How to get location opt-ins at all when JVL cannot do outreach itself. Val and Sergey both said they have no clear plan yet — [[raw/Meeting_Transcript_Sergei_Vysotski_Georgia_Location_Opt_In_List_and_Research_Spikes-October-5-2026.md]]
+- Which service or AI engine could do outreach without being tied to JVL. None was named — [[raw/Meeting_Notes_Sergei_Vysotski_Georgia_Location_Opt_In_List_and_Research_Spikes-October-5-2026.md]]
+- What to do with the contacts Sergey already found (about half of the 7,000+ locations, mostly not decision-makers): "Что дальше делать с этой информацией? Тут вопрос дискуссионный" — [[raw/Meeting_Transcript_Sergei_Vysotski_Georgia_Location_Opt_In_List_and_Research_Spikes-October-5-2026.md]]
+- Can a location work with only one operator? Sergey asked; no answer on the recording — [[raw/Meeting_Transcript_Sergei_Vysotski_Georgia_Location_Opt_In_List_and_Research_Spikes-October-5-2026.md]]
+
+## Oct 5 2026 (11:00 AM) — one USB stick for Peach 1, 2 and 3? Felipe owns the answer by Oct 11
+
+At the [[wiki/meetings/2026-10-05-ris-mvp1-scope-and-peach-packaging.md|Oct-5 11:00 AM RIS review]] (Val, [[wiki/people/felipe-miranda.md|Felipe]], [[wiki/people/pavel.md|Pavel]], [[wiki/people/irina-shishko.md|Irina]], [[wiki/people/sebastian.md|Sebastian]]) the Peach packs came up when Pavel asked which game-pack release gets the new RIS features first [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]].
+
+- **The idea.** Felipe: put Peach 1, 2 and 3 — "18 games in one pack" — on one USB stick, so masters no longer carry "either this or that or this USB stick, depending on the version". It would cover "At least, what, 80% of them? Current machines installed." (Compare the Mar-2025 note above that Peach 1 and 2 were ~80% of the field.) [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
+- **Already possible.** Pavel: "We have one package for 18 games… It's already done; it's supported anytime." [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
+- **How Peach 2 became 12 games.** Felipe: "Peach 2 has the 12 games, but Peach 3 is 6 games". Val: "I silently made a decision to include 12 games for lucky bucks… as a specific favor to them. And it was never documented. It was tribal knowledge." Lucky Bucks = [[wiki/organizations/arc-gaming.md|ARC Gaming]]. Val wants it recorded as a closed capability, but "the code needs to be combined." [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
+- **The reporting catch.** In lottery reports a pack shows as one software number — "1919 is pitch one, pitch two, the 12 game pack" — so operators could not compare Peach 1, 2 and 3 if all 18 games share one number. Felipe named "4333" as "the new version, the V3 new version" he had seen online. See [[wiki/organizations/georgia-lottery-corporation.md]]. [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
+- **Who decides.** Val gave Felipe until **Sunday Oct 11** to say "one release or three separate USB sticks" — [[wiki/decisions/2026-10-05-felipe-decides-by-october-11-one-18-game-peach-pack-or-three-separate-sticks.md]]. [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
+- **Already in Peach 1.** The timer, Linux and the skill-stop redesign (Pavel and Irina: yes). No LTE modem in this release. [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
+- **The lottery lock.** Felipe raised machines left "out of service and locked" by the lottery accounting system until someone acts by hand; Val: "It cannot be Mvp one right now", for a separate meeting. Felipe will share his email thread. [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
+
+### Open commitments (Oct 5 2026, 11:00 AM)
+
+- [ ] Felipe Miranda — tell Val: one combined 18-game Peach release or three separate USB sticks — due Sun Oct 11 2026 — [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
+
+### Open questions (Oct 5 2026, 11:00 AM)
+
+- How can operators compare Peach 1, 2 and 3 in lottery reports if all three ship under one software number? — [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
 
 ## Sources
 
@@ -1935,3 +1972,7 @@ Twice on Sept 28 Val described the market to outsiders who had never heard of it
 - [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]]
 - [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
 - [[raw/Meeting_Notes_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- [[raw/Meeting_Transcript_Sergei_Vysotski_Georgia_Location_Opt_In_List_and_Research_Spikes-October-5-2026.md]]
+- [[raw/Meeting_Notes_Sergei_Vysotski_Georgia_Location_Opt_In_List_and_Research_Spikes-October-5-2026.md]]
+- [[raw/Meeting_Notes_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
+- [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]

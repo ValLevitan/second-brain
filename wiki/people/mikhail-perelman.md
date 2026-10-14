@@ -4,9 +4,9 @@ title: Mikhail Perelman
 date: 2026-07-13
 aliases: [Mikhail Perelman, Misha, Миша, Mikhail, Michael]
 disambiguation: "Procurement Manager (parts/vendors/shipments; the retrofit-lead "Misha"). Misha/Michael cluster (2, owner-ruled): [[wiki/people/michael-gottlieb.md|Michael Gottlieb]]=Senior VP Game Design / [[wiki/people/mikhail-perelman.md|Mikhail Perelman]]=Procurement Manager (the "retrofit Misha"). Resolve by context; queue if none."
-source-count: 18
+source-count: 20
 open-commitments: 5
-open-questions: 2
+open-questions: 3
 ---
 
 # Mikhail Perelman
@@ -94,6 +94,7 @@ On the [[wiki/meetings/2026-09-23-open-purchase-order-payment-walkthrough.md|Sep
 
 ## Open questions
 
+- What report or BOM does Mikhail need to place orders from, and who gives it to him? Genadi says he still has none; Val says it is a parallel problem; not settled — [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]] [[raw/Meeting_Notes_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
 - General Touch PO 446 (100 touchscreens, $6,700, no stock, unsigned a long time): pay now, fly part, or hold? The talk moved to weight and packaging and did not come back to it. — [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]]
 - Part 346 runs out after October (87 on hand). No reorder was stated. — [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]]
 
@@ -125,7 +126,20 @@ The derived notes carry the same decision and two undertakings [[raw/Meeting_Not
 - [ ] Mikhail Perelman — redo the purchase order for 100 units (not 300) and send it — due unspecified — [[raw/Meeting_Transcript_Mikhail_Perelman_PO_Cut_to_100_Units_and_Stock_Count-October-1-2026.md]]
 - [ ] Mikhail Perelman — send Val the names of the supplier contacts and introduce him to them — due unspecified — [[raw/Meeting_Transcript_Mikhail_Perelman_PO_Cut_to_100_Units_and_Stock_Count-October-1-2026.md]]
 
+## Oct 5 2026 (in absentia) — "no report to work with yet", and the 57-versus-65 monitor count
+
+On the [[wiki/meetings/2026-10-05-design-to-msbc-zero-trust-repos-and-data-contracts.md|Oct-5 1:19 PM Val–Genadi meeting]] on the GitHub-to-MSBC BOM (Russian part), Genadi pushed back on the plan: "У меня просто есть чувство, что мы немножко оторваны от реальности. У миши до сих пор нету репорта, с которым он работает." Later: "А миша говорит, а я не могу ничего делать с этим. У меня нет репорта. Убилов материал." [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
+
+- **Val: a real problem, but a parallel one.** "Мишина проблема существует изза друг изза других вещей, которые да нужно адресовывать. Также важно, как и это, но совершенно идёт параллельно." Fixing it does not fix stock or the inventory report; and the cause may be Mikhail, Lev ("лёвы") or the physical count — he is not sure [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]].
+- **The example from that day.** "сколько мониторов? 57 или 65? Компьютер показывает 65. Она посчитала 57, когда миша сказал… у меня компьютер показывает 65, она пошла и посчитала да 65." The person who counted is not named. Val said an AI COO persona he is setting up will push weekly spot checks of part numbers (the notes' reading of a garbled line) [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]] [[raw/Meeting_Notes_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]].
+- "миша" = Mikhail Perelman by the report/stock context (§4); the notes name him in full [[raw/Meeting_Notes_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]].
+
+**§15.8:** Val's evaluative words about Mikhail's stance are held; the facts above are company procurement and inventory.
+
 ## Sources
+
+- [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
+- [[raw/Meeting_Notes_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
 
 - [[raw/Meeting_Transcript_Mikhail_Perelman_PO_Cut_to_100_Units_and_Stock_Count-October-1-2026.md]]
 - [[raw/Meeting_Notes_Mikhail_Perelman_PO_Cut_to_100_Units_and_Stock_Count-October-1-2026.md]]

@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, truth as code, knowledge work framework, keep Jira current, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, Copilot Studio, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest, LaTeX, printer tool, Ollama, llama.cpp, local inference, Code Llama, Hugging Face, Claude Code, AI sandwich, developer experience, think like a data scientist, sub-agents, verbose output, compiler layer, ways vs skills, ADR, cross-examination, Python Vulture, intelligence center, Waze system, ways framework, compiler stack diagram, module federation, Aaron ways system, Ways ADR, Ways capabilities catalog, regulatory provenance chain, JVL Ways pipeline, ways branch architecture, trusted stage users, clean environment lesson, engagement auditor agent, translation service, terminology override table, GitHub Enterprise fork, JVL GitHub Ways architecture guide, Capability Ticket, Jira hierarchy restructure, engineering guides, architecture black hole, Piratka, prose standard, code to prose, capability extraction, 29 capabilities, AI flattery caution, agent setup, prose initialization skill, prose skill, dependency-tree mapping, prose pending folder, contracts written by Claude, development pipeline end to end, clean-session evaluation, naming by Claude]
-source-count: 173
+source-count: 176
 ---
 
 # AI-assisted development adoption
@@ -1025,7 +1025,16 @@ At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-ne
 
 **§15.8:** clear. **§15 #9:** none.
 
+## Oct 5 2026 (afternoon) — "70% sure" Claude can assemble a BOM from data contracts; "a human only describes in words"
+
+- **To Genadi (1:19 PM).** Claude Code, given zero-trust repos, prose and data contracts, "is able to put things together into entire code of the product… run end-to-end testing. This is how smart Cloud Code is." For hardware: "I haven't tried it yet, but I'm 70% sure." He expects it may later "start doing the actual hardware development". He said he is setting up a persona that will push people to weekly spot checks (the notes read it as an AI COO). His close: this is at most two years old and "90% компаний про это не говорят." [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]] [[raw/Meeting_Notes_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
+- **To Nathan (1:58 PM).** "I basically want to hand over the logic to AI… the agents are the logical. Uh, executors… A human doesn't touch anything. A human only describes in words what is it that the human wants." Nathan doubted an agent is even needed for the final BC BOM step ("We should be able to programmatically build it"). [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
+- Rulings: [[wiki/decisions/2026-10-05-hardware-follows-the-developer-repo-model-one-jira-project-one-repo-zero-trust-data-contracts-no-monorepo.md]] · [[wiki/decisions/2026-10-05-nathan-carver-runs-the-flex-pay-slim-bom-reverse-spike-and-flex-port-follows.md]].
+
 ## Sources
+- [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
+- [[raw/Meeting_Notes_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
+- [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Notes_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]

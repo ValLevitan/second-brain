@@ -2,10 +2,10 @@
 type: person
 title: Sergey Vysotsky
 date: 2026-09-22
-aliases: [Sergey Vysotsky, Сергей Высоцкий, Sergey (digital growth), Vysotski]
-source-count: 2
+aliases: [Sergey Vysotsky, Сергей Высоцкий, Sergey (digital growth), Vysotski, Sergei Vysotski, Sergei, Сергей]
+source-count: 4
 open-commitments: 0
-open-questions: 1
+open-questions: 0
 disambiguation: "Outside digital-growth specialist working with Andrei Klimovich (ECHO growth; proposed for the Georgia location-owner task). Not Sergey Tsymanov (Minsk CMS/backend engineer, wiki/people/sergey-tsymanov.md), not Sergey Kleimenychev (wiki/people/sergey-kleimenychev.md), not Sergei Novitsky (technician, wiki/people/sergei-novitsky.md). Resolve by context: digital marketing / growth strategy → this page."
 ---
 
@@ -34,12 +34,29 @@ Klimovich recommended him for the first part of Val's Georgia demand plan — bu
 
 On a [[wiki/meetings/2026-09-25-promo-flier-review-and-sergey-vysotsky-wait.md|Sept-25 call]] (session title "…Vysotski deployment") Klimovich told Val: "по поводу Сергея, я ему в среду переслал. Он посмотрел, сказал, что он подумает на выходных и ответит." The weekend is Saturday–Sunday Sept 26–27. Val: "значит мы ждём". If Sergey is ready to talk, they meet the following week. The transcript says only "Сергей"; he is this Sergey by the session title and the Sept-22 plan. What was forwarded is not stated [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]].
 
+## Oct 5 2026 — he takes the data part of the Georgia task, not the sales part, and meets Val
+
+On his [[wiki/meetings/2026-10-05-sergey-vysotsky-georgia-location-opt-in-list-and-research-spikes.md|Oct-5 call with Val]] (10:06 AM, Russian; first meeting with Val) [[raw/Meeting_Transcript_Sergei_Vysotski_Georgia_Location_Opt_In_List_and_Research_Spikes-October-5-2026.md]]:
+
+- **He took the task as research.** From [[wiki/people/andrei-klimovich.md|Klimovich]]'s list of 7,000+ Georgia locations he found a phone or email for about half — mostly not decision-makers. He will not do calls, outreach or networking; his strengths, as he put it, are data, analysis, automation and AI tools. He said he is not a specialist in COAM operators.
+- **How he works now.** Short research "spikes" agreed with Klimovich; results go to Klimovich first, who brings Val what is useful — [[wiki/decisions/2026-10-05-sergey-vysotskys-georgia-work-is-research-not-sales-in-short-spikes-reported-through-klimovich.md]] (his commitments are there).
+- **The goal Val gave him.** A reliable opt-in list of locations and a way to find likely players near them; no outreach by JVL or in its name — [[wiki/decisions/2026-10-05-jvl-does-not-reach-out-to-georgia-locations-and-aims-for-inbound-calls-to-its-ai-voice.md]].
+- **Who brought him in:** Klimovich, as on Sept 22. The derived notes call him "a contractor brought in by Andrei" [[raw/Meeting_Notes_Sergei_Vysotski_Georgia_Location_Opt_In_List_and_Research_Spikes-October-5-2026.md]].
+
+**§15.8 — compensation terms discussed, not recorded.** On Oct 5 he stated his hours and billing terms; none is recorded. Personal matters not recorded.
+
+## History (answered questions)
+
+- ~~Whether Sergey takes the Georgia location-owner task.~~ Klimovich expected him to be ready to talk "завтра" (Sept 23) — [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]] — Sept 25: still open; he was to answer after the weekend of Sept 26–27 — [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]] — **answered Oct 5 2026:** he took the data part (contacts found for about half the locations) and declined the sales part; Val agreed he does no sales work — [[raw/Meeting_Transcript_Sergei_Vysotski_Georgia_Location_Opt_In_List_and_Research_Spikes-October-5-2026.md]]
+
 ## Open questions
 
-- Whether Sergey takes the Georgia location-owner task. Klimovich expected him to be ready to talk "завтра" (Sept 23) — [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]] — *Sept 25: still open; he is to answer after the weekend of Sept 26–27* — [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]]
+(none open)
 
 **§15.8 exclusion:** Val asked about his age, how Klimovich knows him and whether he is reliable. The answers — his age, a family connection, the state of his private business, and Klimovich's personal assessment of him — are **not recorded**. Val's own reaction is also a personal judgement and is not recorded. No pay or rate was spoken.
 
 ## Sources
 - [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]]
+- [[raw/Meeting_Transcript_Sergei_Vysotski_Georgia_Location_Opt_In_List_and_Research_Spikes-October-5-2026.md]]
+- [[raw/Meeting_Notes_Sergei_Vysotski_Georgia_Location_Opt_In_List_and_Research_Spikes-October-5-2026.md]]

@@ -3,7 +3,7 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention, installment payments, aged receivables, Customer Ledger Entries, category-based terms, subscription module, parts vs machines terms, Black Horse Entertainment, Sales Watch, import duties tax category, landed cost, tax category, assembly BOM, production BOM, BOM history, BOM sync robot, tag stamp on item card]
-source-count: 77
+source-count: 79
 open-questions: 5
 ---
 
@@ -457,7 +457,15 @@ The day after the Sept-30 meeting, on the [[wiki/meetings/2026-10-01-genadi-io-b
 
 The derived notes record the same split of roles [[raw/Meeting_Notes_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]. The thread is sequenced on [[wiki/decisions/2026-09-23-the-bom-source-of-truth-is-the-latest-design-in-github-and-sync-runs-one-way.md]] (Oct-1 update). **§15.8:** Val's sharper remarks at Genadi are held. **§15 #9:** none — the part number is not spoken.
 
+## Oct 5 2026 — the BOM in MSBC as the "compiled" output of GitHub; the Flex Pay Slim spike pushes one back in to compare
+
+- **1:19 PM (Val–Genadi).** Genadi asked why a BOM already pushed to MSBC should be regenerated: "It's already in Msbc. We pushed it already once." Val: GitHub keeps "flat list of parts"; the BOM is generated from it, the way an ISO built by GitHub Actions lives in Azure — "Где он живёт или вазур потом или в эсбиси. Это уже мало что значит?" [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
+- **1:58 PM (Val–Nathan).** Nathan: "MSBC has a specific structure for their bill of material… We should be able to programmatically build it"; GitHub holds text data files that get "compiled into a VC bomb [BC BOM]." Supplier finances stay on the administrative side (MSBC). The spike: pull the Flex Pay Slim BOM from MSBC, flatten it, rebuild it with agents, push the result back into MSBC and compare. Jira home: DTP-1083 (under IP-964) or IP-965, "Business Central application". [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
+- Rulings: [[wiki/decisions/2026-10-05-hardware-follows-the-developer-repo-model-one-jira-project-one-repo-zero-trust-data-contracts-no-monorepo.md]] · [[wiki/decisions/2026-10-05-nathan-carver-runs-the-flex-pay-slim-bom-reverse-spike-and-flex-port-follows.md]].
+
 ## Sources
+- [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
+- [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
 - [[raw/Meeting_Notes_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Lev_Rudky_Missed_Inventory_Adjustments-October-1-2026.md]]

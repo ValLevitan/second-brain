@@ -3,7 +3,7 @@ type: decision
 title: Testing starts September 15 with the negative cases first, and Flex-Ports must be proved in borrowed non-JVL machines — fake-commissioned, tracked as a separate Jira item from JVL-machine testing
 date: 2026-09-09
 aliases: [negative cases first, door open, borrow a machine fake commission it, Aristocrat and Light and Wonder, at least one or two machines, two separate records, two different router manufacturers, no Chinese manufacturer, stay away from Cisco, ten port router, storm through the test, bracket drawings to Genadi]
-source-count: 11
+source-count: 12
 status: active
 open-commitments: 5
 open-questions: 2
@@ -129,6 +129,10 @@ At the [[wiki/meetings/2026-10-01-transactional-mvp1-status-slice-and-sas-comman
 
 **Against the rule above.** The "tomorrow" of Sept 30 did not happen; the Georgia set-up now waits on a date from [[wiki/people/elizabeth.md|Elizabeth]]. Other makers' machines are not mentioned. The derived notes read it the same way [[raw/Meeting_Notes_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]. The ping commitment sits on [[wiki/decisions/2026-09-30-elizabeths-georgia-set-up-questions-go-to-a-shared-teams-chat-not-one-person.md]].
 
+## Update, Oct 5 2026 — still no word from Georgia; the SAS commands of any machine can now be watched; JVL machines first, then other makers'
+
+At the [[wiki/meetings/2026-10-05-transactional-mvp1-port-screens-unclaimed-money-and-printer-models.md|Oct-5 8:01 AM MVP 1 call]] (Russian) [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]: [[wiki/people/andrei-klimovich.md|Klimovich]] asked whether the test terminals had ever been linked with Georgia. [[wiki/people/dmitri-chudinov.md|Chudinov]]: "никаких отписок не было". Klimovich will ping [[wiki/people/elizabeth.md|Elizabeth]] that day. Chudinov: over the weekend all SAS commands from machine to port to IQ started to be logged, so "можно смотреть по своим по чужим машинам, что к нам приходит из сассы". Klimovich set the order: "задача добиться от Джорджия сейчас, чтобы там настройку эту сделали. Сетап протестировали это с нашими машинами и дальше уже планировать. Машины других производителей." Chudinov: so they try it "на наших на чужих машинах", which may bring changes [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 - [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
@@ -141,3 +145,4 @@ At the [[wiki/meetings/2026-10-01-transactional-mvp1-status-slice-and-sas-comman
 - [[raw/Meeting_Notes_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]

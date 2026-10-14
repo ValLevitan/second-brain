@@ -3,7 +3,7 @@ type: topic
 title: NOVA platform architecture (JVL land-based gaming platform)
 date: 2026-05-12
 aliases: [NOVA, NOVA platform, NOVA gaming platform, land-based platform, land-based gaming platform, services architecture, library-to-service decomposition, Chief Architect NOVA, Unix-socket services, per-service repositories, packaged games, AMQP CMS protocol, capabilities from prose, prose standard, LGS prose, repo to Jira linkage, module contracts, NOVA integration repository, knowledge repository]
-source-count: 70
+source-count: 71
 open-commitments: 51
 open-questions: 31
 disambiguation: "NOVA is the named successor of the 'Omni' land-based platform code-word — do not conflate NOVA (this on-cabinet services platform) with the Omni game-templating / Rage→Omni content transition tracked on [[wiki/topics/omni-core-advancement-and-game-templating.md]]."
@@ -616,6 +616,10 @@ At the [[wiki/meetings/2026-09-29-dev-environments-rk3568-sdk-amd-spike-and-ai-p
 
 The derived notes read the same way [[raw/Meeting_Notes_Dev_Environments_RK3568_SDK_and_Pavel_Bottleneck-September-29-2026.md]] [[raw/Meeting_Notes_Dev_Environments_AMD_SDK_Spike_and_RK3576_Plan-September-29-2026.md]]; where they diverge (FlexPay vs "Flex" as the repository's first purpose; "Debian"; the month of "the 8th") the stub records it.
 
+## Oct 5 2026 (7:01 AM) — the scene generator and the Rage-to-NOVA scene converter have their own repositories; the NOVA integration repository has no structure yet
+
+At the [[wiki/meetings/2026-10-05-rage-nova-port-autotests-and-horizontal-to-vertical-layout.md|Oct-5 7:01 AM Rage-to-Nova review]] (Russian) [[wiki/people/igor-metelski.md|Igor Metelski]] said two experiment tools now have their own repositories, set up to the standard: a NOVA scene generator and a Rage-to-NOVA scene converter; a new employee used the converter for a NOVA game-select screen [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]. [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]]: the NOVA integration repository exists but "структура нет, ничего нет" yet; game test scenarios will go there once it has one [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]. The Dragon Pays NOVA port runs horizontal on four Full HD screens [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]. Decisions: [[wiki/decisions/2026-10-05-geometry-first-port-autotests-accepted-and-geometry-checks-named-graphic-contracts.md]] · [[wiki/decisions/2026-10-05-horizontal-to-vertical-conversion-runs-in-parallel-with-the-port-autotests.md]] · [[wiki/decisions/2026-10-05-conversion-tools-and-tests-leave-the-local-computer-now-and-claude-proposes-the-repository-layout.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]
@@ -689,3 +693,4 @@ The derived notes read the same way [[raw/Meeting_Notes_Dev_Environments_RK3568_
 - [[raw/Meeting_Notes_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+- [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]

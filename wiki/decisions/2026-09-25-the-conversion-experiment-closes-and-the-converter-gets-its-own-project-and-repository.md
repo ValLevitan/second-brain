@@ -3,7 +3,7 @@ type: decision
 title: The games-conversion experiment closes in a couple of days — standards go to the knowledge repository, ADRs sit with the code, and the converter gets its own Jira project and repository
 date: 2026-09-25
 aliases: [experiment closes, свернуть законсервировать, converter own repository, конвертер имеет файнайт срок жизни, finite life converter, tools folder, каталог тулз, ADRs next to code, standards folder in knowledge, RAGE to NOVA conversion capability, NOVA Gaming Platform Land-based initiative, two projects game conversion and geometry standard, repositories first then Jira project, раньше яйца потом куры, retroactive capabilities, acceptance criteria only basis for E2E tests, zero trust autonomous repository, data contract, Wednesday Sept 30 7:00]
-source-count: 3
+source-count: 4
 status: active
 open-commitments: 7
 open-questions: 3
@@ -59,10 +59,14 @@ From the experiments he made a glossary, a list of ADRs, and a document of art r
 
 At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-reopen-rules.md|Oct-5 Minsk stand-up]] (Russian) Daniil Stauskiy (no page) asked where to put his next change: "В репозитории это которые [Rage] конвертер… Я в эту же ветку получается, вот это делать… и нужно ли отдельная ветка под лгс?" Pavel: "можешь завести ветку и там и там можно даже с одним описанием этой ветки, да только они будут в разных репозиториях" [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]. Daniil speaks of the converter repository as something that exists — so the repository commitment below is likely met (**inference**; nobody said it was created). Detail on [[wiki/topics/nova-platform-architecture.md]] (Oct 5).
 
+## Oct 5 2026 (7:01 AM) — update: the two tool repositories exist; the rest of the tools are still local; a Jira project is still needed
+
+At the [[wiki/meetings/2026-10-05-rage-nova-port-autotests-and-horizontal-to-vertical-layout.md|Oct-5 7:01 AM Rage-to-Nova review]] (Russian) Igor said two tools "оба репозитория были созданы, оформлены согласно стандарту": a NOVA scene generator and the Rage-to-NOVA scene converter. A new employee used the converter for a NOVA game-select screen. The rest of the conversion procedure and the test scripts are still only on his computer. Pavel: "нам надо сейчас сделать проект в giry". Val: conversion is "Спайк" to him, but they agreed last time it needs its own project; nothing may stay local. Full account on [[wiki/decisions/2026-10-05-conversion-tools-and-tests-leave-the-local-computer-now-and-claude-proposes-the-repository-layout.md]] [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]].
+
 ## Open commitments
 
-- [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] (by context) — create the repositories for the two projects, including the converter's — due before Wed Sept 30 2026 — [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]] — *Oct 5 2026: Daniil refers to the converter repository as existing (inference that it was created); not stated outright* — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
-- [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — open the two Jira projects under the RAGE-to-NOVA conversion capability, named to match the repositories — due after the repositories exist — [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]
+- [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] (by context) — create the repositories for the two projects, including the converter's — due before Wed Sept 30 2026 — [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]] — *Oct 5 2026: Daniil refers to the converter repository as existing (inference that it was created); not stated outright* — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]] — *Oct 5 (7:01 AM): Igor states the scene-converter and scene-generator repositories "были созданы"; who created them is not said, and the geometry-standard project's repository is not mentioned* — [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]
+- [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — open the two Jira projects under the RAGE-to-NOVA conversion capability, named to match the repositories — due after the repositories exist — [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]] — *Oct 5 (7:01 AM): still not done; Pavel: "нам надо сейчас сделать проект в giry", no owner named* — [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]
 - [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — split his one ADR list by topic (tools, framework, specific game) and commit each part to its repository — due Wed Sept 30 2026 — [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]
 - [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — commit the glossary and standards, including the geometry standard with its graphics in Markdown, to the `knowledge` standards folder — due Wed Sept 30 2026 — [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]
 - [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — write prose in each repository next to the code — due Wed Sept 30 2026 — [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]
@@ -84,3 +88,4 @@ At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-r
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]
 - [[raw/Meeting_Notes_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]
+- [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]
