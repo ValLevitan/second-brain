@@ -30,7 +30,7 @@ Stated by [[wiki/people/georgios-zazanis.md|George Zazanis]], COO of [[wiki/orga
 
 ## What this changes
 
-- **It supersedes [[wiki/decisions/2026-10-06-all-arc-machines-are-delivered-in-2026.md]]**, where Val ruled on Oct 6 to deliver all ARC machines this year. That the "65 machines" here are the same batch is an **inference** from the timing; the source does not say so.
+- **It supersedes [[wiki/decisions/2026-10-06-all-arc-machines-are-delivered-in-2026.md]]**, where Val ruled on Oct 6 to deliver all ARC machines this year. **Owner ruling 2026-10-15:** Val confirmed ARC cannot take 65 machines before Christmas; the Oct-6 plan is superseded.
 - **The size of "the current deal" varies by source.** Aug 27: "**sixty three**" machines in the exchange (see [[wiki/organizations/arc-gaming.md]]). Oct 13: "**that 60**" and "**sixty-five machines**". Recorded as spoken; not treated as a contradiction because each figure is loose ("let's say 60") [[raw/Meeting_Transcript_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]] [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]].
 
 ## Open questions

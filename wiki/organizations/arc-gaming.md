@@ -5,7 +5,7 @@ date: 2026-08-31
 aliases: [ARC, Arc, Ark, ARC Gaming, намберту, number two company in Georgia, two machines a week, five machines a week, Art, ARC Gaming DC, ARC Gaming & Technologies, Lucky Bucks, Lucky Bugs, Lucky Box, Arc Luck]
 source-count: 22
 open-commitments: 8
-open-questions: 7
+open-questions: 6
 disambiguation: "The Georgia COAM master/route operator whose COO is Georgios 'Zaza' Zazanis and whose CEO is David Sloan. **Lucky Bucks is its FORMER NAME** — one company, renamed (Val's ruling, 2026-09-10). The corpus's earlier bare 'Arc' mentions in a *kiosk-vendor* sense are a separate, still-unresolved thread — see the §4 name note below. Resolve by context."
 ---
 
@@ -231,7 +231,6 @@ Hours after the CEO meeting above, on [[wiki/meetings/2026-09-16-jvl-transaction
 - **Does Val proceed at all, given the Sloan–[[wiki/people/bill.md|Bill]] relationship?** He twice offered to withdraw and said he was not convinced either way; nothing was settled. [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
 
 - **Will ARC's TITO-as-gift-card plan get its two legal opinions, and what do they say?** — [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
-- **George's idea about the Intralot lab.** He suggested Val could offer the Intralot QA tester a $500 gift card for test work, said "only to Chris"; Val asked whether he gives money to Chris and George said no. Val did not commit. The notes say this needs a compliance view before anything is done — [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]] [[raw/Meeting_Notes_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
 
 ## Sept 16 2026 (12:35 PM) — how Val described this account to his own engineers, two hours after the meeting
 

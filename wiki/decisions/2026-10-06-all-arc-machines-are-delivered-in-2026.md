@@ -11,7 +11,7 @@ open-questions: 0
 
 # All ARC machines are delivered in 2026 — superseded
 
-> **Status: superseded on Oct 13 2026 (§3).** At the [[wiki/meetings/2026-10-13-arc-zazanis-lunch-trade-in-and-2027-volume.md|Oct-13 lunch]] Val asked ARC's COO "**can you take the sixty-five machines before Christmas or not?**" and got "**No, we don't have the locations to put them. No way.**" ARC will finish the current deal first. See [[wiki/decisions/2026-10-13-arc-finishes-the-current-deal-first-and-buys-at-full-price-after-the-promotion.md]]. That the 65 machines are the batch this decision covers is an **inference** from timing; reverse this flag if the owner says otherwise [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]].
+> **Status: superseded on Oct 13 2026 (§3).** At the [[wiki/meetings/2026-10-13-arc-zazanis-lunch-trade-in-and-2027-volume.md|Oct-13 lunch]] Val asked ARC's COO "**can you take the sixty-five machines before Christmas or not?**" and got "**No, we don't have the locations to put them. No way.**" ARC will finish the current deal first. See [[wiki/decisions/2026-10-13-arc-finishes-the-current-deal-first-and-buys-at-full-price-after-the-promotion.md]]. **Owner ruling 2026-10-15:** Val confirmed ARC's answer: they cannot take 65 machines before Christmas, so this plan does not hold [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]].
 
 Ruled by [[wiki/people/val-levitan.md|Val Levitan]], with [[wiki/people/felipe-miranda.md|Felipe Miranda]] agreeing, at the [[wiki/meetings/2026-10-06-felipe-delivery-forecast-arc-release-and-modem-notice.md|Oct-6 1:41 PM call]]. The customer is [[wiki/organizations/arc-gaming.md|ARC Gaming]].
 

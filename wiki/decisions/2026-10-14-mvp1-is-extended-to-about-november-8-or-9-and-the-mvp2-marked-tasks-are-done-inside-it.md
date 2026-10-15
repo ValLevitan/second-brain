@@ -1,12 +1,12 @@
 ---
 type: decision
-title: The MVP 1 date is extended to about November 8 or 9, and the tasks marked MVP 2 are done inside MVP 1 — said in Kharetski's turn about the old-version branch, so read as the RIS improvement MVP 1 (inference)
+title: The MVP 1 date is extended to about November 8 or 9, and the tasks marked MVP 2 are done inside MVP 1 — said in Kharetski's turn about the old-version branch, the RIS improvement MVP 1 (owner-confirmed 2026-10-15)
 date: 2026-10-14
 aliases: [MVP1 extension, MVP 1 extended to November 8 or 9, расширить дату до 8 или 9 ноября, MVP 2 tasks done in MVP 1, MVP turned into MVP 2, same scope longer time, больший срок, RIS MVP1 moves to November]
 source-count: 3
 status: active
 open-commitments: 1
-open-questions: 2
+open-questions: 1
 ---
 
 # MVP 1 moves to about November 8 or 9, with the MVP 2 tasks inside it
@@ -20,7 +20,9 @@ Set by [[wiki/people/pavel.md|Pavel Frolov]] at the [[wiki/meetings/2026-10-14-d
 - **Scope.** Kharetski asked: "раз мы расширим, мы все равно же отдаём… старую версию, правильно?" Pavel: "Да да да." Irina: "Ту, которую вот первоначально ты отрезал, просто всё становится… И больший срок." So the team still delivers the old version, with more time [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]].
 - **The notes** record it as a decision: "Extend the MVP1 date to about November 8 or 9; tasks marked MVP2 are done inside MVP1. Scope stays the version that was first cut, with more time." They name Pavel as the one who decided and Irina as the one who confirmed [[raw/Meeting_Notes_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]].
 
-## Which MVP 1 — read as the RIS improvement MVP 1 (inference)
+## Which MVP 1 — the RIS improvement MVP 1 (owner-confirmed)
+
+**Owner ruling 2026-10-15:** Val confirmed the reading below — this is the **RIS improvement MVP 1**; the transactional Oct-15 date is unaffected.
 
 The source says only "MVP один". It does not name the product. Four things point to the **RIS improvement MVP 1** (the Georgia branch on the old 1.14 line), not the transactional MVP 1. This is an **inference**:
 
@@ -43,7 +45,6 @@ So this source does **not** move the transactional October-15 date ([[wiki/decis
 
 ## Open questions
 
-- Which MVP 1 is extended — the RIS improvement MVP 1 (the reading here, an inference) or another? The source says only "MVP один" — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
 - Is the new date November 8 or November 9, and has Val agreed to fold MVP 2 into MVP 1? — [[raw/Meeting_Notes_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
 
 **§15.8:** clear. **§15 #9:** none; the numbers are Jira task numbers.

@@ -5484,3 +5484,12 @@ Lint only diagnosed; content pages were not edited by lint. `skipped.md` gained 
 
 ## [2026-10-14] note | weekly report written — steady-state run of 2026-10-14 complete
 Report file overwritten (30 recordings Oct 2 – Oct 14 + the September SD VLT story; 138/138 verified; owner items A11–A17, C13–C15). Pushed to GitHub (ValLevitan) before the report commit; this commit pushed too. qmd update + embed run after the push.
+
+## [2026-10-15] schema | OWNER RULINGS — answers to the 2026-10-14 weekly report
+- **A11 — RIS MVP 1:** Val confirmed the Oct-14 "MVP 1 extension" (to about Nov 8–9) is the **RIS improvement MVP 1**. "Inference" flags removed from the Oct-14 decision and the Oct-5 RIS decision; the transactional Oct-15 date is unaffected.
+- **A12 — Larry Sharon, Oct 7:** **still a proposal.** Nothing changed (already recorded as proposals, no decision page).
+- **A14 — ARC:** ARC cannot take 65 machines before Christmas. The Oct-6 "all ARC machines in 2026" decision stays superseded; inference flags on it and on the Oct-13 ARC decision replaced by the ruling.
+- **A16 — the $500 gift-card remark:** "a reference, not a true proposal — ignore." The open-question line removed from arc-gaming (open-questions 7→6).
+- **A17 — Felipe's one-Peach-pack-or-three:** "done now; no longer important." The Oct-5 decision marked superseded/closed as moot; its commitment moved to History ([x]) and its reporting question struck; the matching commitment on georgia-market-rollout closed. How it was settled is not recorded in any source.
+- **A13 (Mikhail → Mary) and C13–C15 (names):** not answered — stay open.
+Owner corrections are their own citation (§16); no raw source fabricated. Bijection 1590=1590; 0 dangling.
