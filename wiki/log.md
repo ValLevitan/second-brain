@@ -5493,3 +5493,6 @@ Report file overwritten (30 recordings Oct 2 – Oct 14 + the September SD VLT s
 - **A17 — Felipe's one-Peach-pack-or-three:** "done now; no longer important." The Oct-5 decision marked superseded/closed as moot; its commitment moved to History ([x]) and its reporting question struck; the matching commitment on georgia-market-rollout closed. How it was settled is not recorded in any source.
 - **A13 (Mikhail → Mary) and C13–C15 (names):** not answered — stay open.
 Owner corrections are their own citation (§16); no raw source fabricated. Bijection 1590=1590; 0 dangling.
+
+## [2026-10-15] schema | OWNER RULING — Mikhail Perelman leaves from January, Mary takes over ordering: decided for now
+Val: "for now it is decided. it may change in the future." The Oct-8 decision retitled from "Val proposes" to "decided for now", with a ruling note; Mary and Mikhail Perelman section headings updated; overview A13 marked RULED. Still open: whether this "Mery" is the wiki's Mary (Mery Villavicencio). Bijection unchanged.

@@ -1,6 +1,6 @@
 ---
 type: decision
-title: Mikhail Perelman leaves from January; Val proposes Mary (Mery) takes over his ordering role, with training from Oct 19 through November and half of December
+title: Mikhail Perelman leaves from January; Mary (Mery) takes over his ordering role — decided for now (owner ruling 2026-10-15), with training from Oct 19 through November and half of December
 date: 2026-10-08
 aliases: [Misha leaves, Mery takes over, Mary takes over procurement, Mikhail Perelman hand-over, procurement hand-over, training from October 19]
 source-count: 6
@@ -9,7 +9,9 @@ open-commitments: 1
 open-questions: 1
 ---
 
-# Mary takes over Mikhail Perelman's ordering role (proposed Oct 8 2026)
+# Mary takes over Mikhail Perelman's ordering role (Oct 8 2026 — decided for now)
+
+> **Owner ruling 2026-10-15:** Val confirmed this is decided "for now" — it may change in the future. The Oct-8 call recorded it as his proposal; it now stands as the current decision. Whether this "Mery" is the wiki's Mary (Mery Villavicencio) is still unconfirmed (open question below).
 
 Stated by [[wiki/people/val-levitan.md|Val Levitan]] to [[wiki/people/genadi-peari.md|Genadi Peari]] at the [[wiki/meetings/2026-10-08-genadi-bom-standard-flex-slim-metal-mikhail-hand-over-and-data-contracts.md|Oct 8 2026 3:59 PM alignment call]] (Russian). Neither [[wiki/people/mikhail-perelman.md|Mikhail Perelman]] nor [[wiki/people/mary.md|Mary]] was on the call.
 

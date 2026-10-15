@@ -136,7 +136,7 @@ On the [[wiki/meetings/2026-10-05-design-to-msbc-zero-trust-repos-and-data-contr
 
 **§15.8:** Val's evaluative words about Mikhail's stance are held; the facts above are company procurement and inventory.
 
-## Oct 8 2026 (in absentia) — leaving from January; Mary proposed to take over; his report and how ordering runs today
+## Oct 8 2026 (in absentia) — leaving from January; Mary takes over (decided for now — owner ruling 2026-10-15); his report and how ordering runs today
 
 Named throughout the [[wiki/meetings/2026-10-08-genadi-bom-standard-flex-slim-metal-mikhail-hand-over-and-data-contracts.md|Oct 8 3:59 PM call]] between Val and Genadi ("Миша" = Mikhail Perelman by the procurement context, §4) [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]:
 
