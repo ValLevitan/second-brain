@@ -2,7 +2,7 @@
 type: person
 title: Mary
 date: 2026-07-12
-aliases: [Mary, Mery]
+aliases: [Mary, Mery, Mery Villavicencio, Мэри]
 source-count: 12
 open-commitments: 1
 ---
@@ -20,7 +20,7 @@ Mary coordinates JVL's Mexico and international operations and translates betwee
 - On the Anibal call, "Mery" is credited with suggesting Anibal's relocation from Peru to Puerto Rico. [[raw/anibal_call_011325_meeting_notes_2025-01-14.md]]
 - **Feb 2025 (Alka task-map call, date inferred):** with the Peru office closing she stays on remotely (moving to subcontract; see [[wiki/topics/jvl-finance-back-office.md]]); Val's target load for her is **~15–20 h/week of finance** plus logistics, deliberately keeping slack — "Mary is the type of a girl that you could throw her at anything … eager to learn … she doesn't say no. And she's responsive" (she answered a units query instantly, with pictures). She is also the suggested conduit for notifying Floor (Peru) of her termination. [[raw/Finance - Alka.md]]
 
-The retrofit transcript spells her name "Мэри" (Mary); she is also spelled "Mery" elsewhere. Her last name is not stated (the 2026 contractor roster's **Mery Villavicencio** is the likely match — see [[wiki/topics/jvl-contractor-roster.md]]).
+The retrofit transcript spells her name "Мэри" (Mary); she is also spelled "Mery" elsewhere. She is **Mery Villavicencio** of the 2026 contractor roster — see [[wiki/topics/jvl-contractor-roster.md]] (owner ruling 2026-10-15: the "Mery" of the Oct-8 hand-over is this Mary; the surname itself is never spoken in the transcripts).
 
 ## Apr 15 2025 (scope sheet)
 

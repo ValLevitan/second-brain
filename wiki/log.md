@@ -5496,3 +5496,6 @@ Owner corrections are their own citation (§16); no raw source fabricated. Bijec
 
 ## [2026-10-15] schema | OWNER RULING — Mikhail Perelman leaves from January, Mary takes over ordering: decided for now
 Val: "for now it is decided. it may change in the future." The Oct-8 decision retitled from "Val proposes" to "decided for now", with a ruling note; Mary and Mikhail Perelman section headings updated; overview A13 marked RULED. Still open: whether this "Mery" is the wiki's Mary (Mery Villavicencio). Bijection unchanged.
+
+## [2026-10-15] schema | OWNER RULING — "Mery" = Mary = Mery Villavicencio
+Val confirmed the "Mery" who takes over ordering (Oct 8) is the wiki's Mary, Mery Villavicencio of the contractor roster. mary.md: aliases + identity line updated (likely match → confirmed); the Oct-8 decision's identity open question removed (open-questions −1); overview A13 fully closed. The surname is never spoken in transcripts — recorded as an owner ruling (§16), no raw source fabricated.

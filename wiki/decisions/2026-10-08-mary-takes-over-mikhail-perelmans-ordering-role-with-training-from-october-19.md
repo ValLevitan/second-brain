@@ -6,12 +6,12 @@ aliases: [Misha leaves, Mery takes over, Mary takes over procurement, Mikhail Pe
 source-count: 6
 status: active
 open-commitments: 1
-open-questions: 1
+open-questions: 0
 ---
 
 # Mary takes over Mikhail Perelman's ordering role (Oct 8 2026 — decided for now)
 
-> **Owner ruling 2026-10-15:** Val confirmed this is decided "for now" — it may change in the future. The Oct-8 call recorded it as his proposal; it now stands as the current decision. Whether this "Mery" is the wiki's Mary (Mery Villavicencio) is still unconfirmed (open question below).
+> **Owner ruling 2026-10-15:** Val confirmed this is decided "for now" — it may change in the future. The Oct-8 call recorded it as his proposal; it now stands as the current decision. Val also confirmed this "Mery" is the wiki's Mary (Mery Villavicencio).
 
 Stated by [[wiki/people/val-levitan.md|Val Levitan]] to [[wiki/people/genadi-peari.md|Genadi Peari]] at the [[wiki/meetings/2026-10-08-genadi-bom-standard-flex-slim-metal-mikhail-hand-over-and-data-contracts.md|Oct 8 2026 3:59 PM alignment call]] (Russian). Neither [[wiki/people/mikhail-perelman.md|Mikhail Perelman]] nor [[wiki/people/mary.md|Mary]] was on the call.
 
@@ -38,7 +38,6 @@ On the [[wiki/meetings/2026-10-13-github-msbc-ai-bom-control-gate-and-msbc-only-
 
 ## Open questions
 
-- Is "Mery" here the same person as the wiki's Mary (Mery Villavicencio)? By context yes; not confirmed — [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
 
 **Not recorded (§15.8 / §15 #1):** no pay or contract terms were discussed. Any personal detail about either person, judgments of either person's work, and Genadi's reaction to the news are left out. Personal matters not recorded.
 
