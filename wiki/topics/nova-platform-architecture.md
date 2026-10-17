@@ -3,8 +3,8 @@ type: topic
 title: NOVA platform architecture (JVL land-based gaming platform)
 date: 2026-05-12
 aliases: [NOVA, NOVA platform, NOVA gaming platform, land-based platform, land-based gaming platform, services architecture, library-to-service decomposition, Chief Architect NOVA, Unix-socket services, per-service repositories, packaged games, AMQP CMS protocol, capabilities from prose, prose standard, LGS prose, repo to Jira linkage, module contracts, NOVA integration repository, knowledge repository]
-source-count: 83
-open-commitments: 60
+source-count: 85
+open-commitments: 63
 open-questions: 35
 disambiguation: "NOVA is the named successor of the 'Omni' land-based platform code-word — do not conflate NOVA (this on-cabinet services platform) with the Omni game-templating / Rage→Omni content transition tracked on [[wiki/topics/omni-core-advancement-and-game-templating.md]]."
 ---
@@ -720,6 +720,23 @@ At the [[wiki/meetings/2026-10-15-daily-standup-offline-ris-fallback-and-nova-ga
 - Do the Nebraska progressives need changes on the controller side? — [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
 - Does the AI digest's "NC1" decision fit Daniil's work, given video decoding is set at board and browser level? — [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
 
+## Oct 16 2026 — Clover Fortune's vertical layout; a Georgia game into "Nebraska 2"; NAD 2 games; the vertical Dutch Mill and its maths container; the blocked video account; Daniil's board
+
+At the [[wiki/meetings/2026-10-16-daily-standup-mvp2-wi-fi-scope-and-modem-mac-rollback.md|Oct-16 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]:
+
+- **[[wiki/people/anton-leshkevich.md|Leshkevich]] — Clover Fortune.** He continues the port ("отлор форча"; Clover Fortune per the notes [[raw/Meeting_Notes_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]). Yesterday he generated the vertical layout and fixed resource problems that came up in the port; today he tests and hopes to finish.
+- **Leshkevich — a Georgia game into a new project.** He ported "калёчо из джорджии в новый проект" (Calle Ocho by sound — **inference**; the notes say only "a Georgia game"). Many resources are missing because they are not ready yet; one or two more games are left to port. Pavel: those resources are what "Лена с дизайнерами" ([[wiki/people/lena.md|Lena]]) are making now. Leshkevich: "это не браска 2"; Pavel: "Теперь небраска 2… это тоже будет горизонтальная небраска да?" — "Да."
+- **NAD 2.** [[wiki/people/igor-metelski.md|Igor Metelski]] and Leshkevich work "над надом 2" in parallel, putting in games and resources: Igor did one "gpra" game, Anton one "фил" game; they may swap next. *What "NAD 2" names is still not said. On the same morning the new project Leshkevich ports into is called "Nebraska 2"; that NAD 2 and Nebraska 2 are the same is an **inference** only.*
+- **The vertical Dutch Mill.** Igor: "у меня все сцены игры созданы по большому счёту". [[wiki/people/efim-podvoiski.md|Efim]] packed the Dutch Mill maths in a container "для о мни короче формата"; Igor expects to run that server locally himself. Igor made generated art with programmatic animation instead of background video and offered to show it. Detail: [[wiki/decisions/2026-10-08-texas-rage-games-convert-to-vertical-nova-unchanged-and-igor-ports-dutch-mill-first.md]] (Oct-16 update).
+- **Background videos.** Pavel: what holds things back is that there are no background videos for the scenes, asked of [[wiki/people/sergey-kleimenychev.md|Sergey Kleimenychev]] ("Сергея льёныча"). His account is blocked — "он не может на там на на банане работать или ещё на каких то там". Pavel: in parallel, write a request for the video needed. For the AI PM: clarify with [[wiki/people/andrey-bosik.md|Andrei Bosik]] the access to video-generation AI tools for Sergey ("Сергея климёновича").
+- **Daniil.** He left a board running overnight; no more leaks seen, and it works a bit better. Next he gets two screens from Pavel. Pavel: last time the backlight on two screens would not turn on without pressing buttons — it would be good to fix that; they will prepare a stand for further tests. The Chinese maker of this board has written more than once asking how the tests go and whether help is needed.
+
+### Open commitments (Oct 16 2026)
+
+- [ ] [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — finish testing the Clover Fortune port; port the remaining one or two games into the new Nebraska 2 project — due Oct 16 2026 (Clover Fortune, "надеюсь") — [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — give Daniil two screens, fix the backlight that needs button presses, and prepare a test stand — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]] [[raw/Meeting_Notes_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+- [ ] the AI PM (Pavel's "для пим") — clarify with Andrei Bosik the access to video-generation AI tools for Sergey Kleimenychev — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]
@@ -806,3 +823,5 @@ At the [[wiki/meetings/2026-10-15-daily-standup-offline-ris-fallback-and-nova-ga
 - [[raw/Meeting_Notes_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]

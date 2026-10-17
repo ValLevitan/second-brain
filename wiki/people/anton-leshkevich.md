@@ -4,7 +4,7 @@ title: Anton Leshkevich
 date: 2025-01-21
 aliases: [Anton Leshkevich, Anton, Antoine, Anton Dmishkevich, Дмишкевич, Дмишкевичем, Liashkevich, Anton Liashkevich, Lishkevich, Anton Lishkevich, Лишкевич, Rishkevich, Anton Rishkevich, ришкевич, Vishkevich, вишкевич, брижке]
 disambiguation: "Minsk engineer (Omni/RGS), this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 40
+source-count: 41
 open-commitments: 4
 open-questions: 0
 ---
@@ -170,6 +170,10 @@ At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-l
 
 At the [[wiki/meetings/2026-10-15-daily-standup-offline-ris-fallback-and-nova-game-conversion.md|Oct-15 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]: with "тулы Игоря" he started converting Clover Fortune (the notes' name, from the 22 Megahit set [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]); the horizontal layout already runs on the new platform, on real data from the maths server; vertical next, by the end of the week. He has no task yet; Pavel asked for a feature under capability 240 — [[wiki/topics/nova-platform-architecture.md]] (Oct 15). He asked whether the team tests with scripts or agents — [[wiki/topics/test-automation-strategy.md]] (Oct 15).
 
+## Oct 16 2026 — Clover Fortune vertical; a Georgia game into Nebraska 2; NAD 2 with Igor
+
+At the [[wiki/meetings/2026-10-16-daily-standup-mvp2-wi-fi-scope-and-modem-mac-rollback.md|Oct-16 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]] he generated Clover Fortune's vertical layout and fixed resource problems from the port, testing today; he ported a Georgia game ("калёчо", Calle Ocho by sound — **inference**) into the new Nebraska 2 project, where many resources are not ready yet; one or two more games remain. He works with Igor on NAD 2. Detail: [[wiki/topics/nova-platform-architecture.md]] (Oct 16).
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
@@ -213,3 +217,4 @@ At the [[wiki/meetings/2026-10-15-daily-standup-offline-ris-fallback-and-nova-ga
 - [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]

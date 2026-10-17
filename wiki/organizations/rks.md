@@ -2,8 +2,8 @@
 type: organization
 title: RKS (Mother Goose board maker)
 date: 2025-07-09
-aliases: [RKS, Really Killer Systems, RTS, Mother Goose, Mutha Goose, MudaGoose, Mutagoose, Muda Goose, Mutable, Mutabus, Jim RKS, Escape POS printer, Janka Labs, Mutha Goose maker]
-source-count: 8
+aliases: [RKS, Really Killer Systems, RTS, Mother Goose, Mutha Goose, MudaGoose, Mutagoose, Muda Goose, Mutable, Mutabus, Jim RKS, Jim Beck, Escape POS printer, Janka Labs, Mutha Goose maker]
+source-count: 10
 open-questions: 2
 ---
 
@@ -73,9 +73,16 @@ The continuation at the shop ([[wiki/meetings/2026-08-25-really-killer-systems-o
 - **An RKS product in Puerto Rico.** "we've got a unit that does online bookkeeping. And that's what they were using" — detail on [[wiki/projects/puerto-rico-expansion.md]]. [[raw/Meeting_Transcript_Really_Killer_Systems_Operator_Vetting-August-25-2026.md]]
 - **Open to selling to JVL.** At the close: "anytime you want to buy uh our cash[…]" (sentence cut off). [[raw/Meeting_Transcript_Really_Killer_Systems_Operator_Vetting-August-25-2026.md]]
 
+## Oct 16 2026 — a competitor names "Jim Beck over at RKS" as its Fiery Pay partner
+
+At the [[wiki/meetings/2026-10-16-david-villari-zephyr-puerto-rico-distribution-and-beta-test.md|Oct-16 breakfast]], [[wiki/people/david-villari.md|David Villari]] of [[wiki/organizations/bad-dog-zephyr.md|Bad Dog / Zephyr]] said Bad Dog built the Fiery Pay back end and "partnered with RKS, Jim Beck over at RKS, who makes the MudaGoose… we made it digital. We just built the backend." Bad Dog will also sell the Fiery Pay kiosk hardware. [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+
+- **Fits the Aug-18 account (inference).** The maker said on Aug 18 that he did the Fiery Pay hardware except the prebuilt POS and that others build the back ends (above). Bad Dog doing the back end fits that.
+- **A surname for Jim.** This is the first source to say "Jim Beck" and "RKS" together. With the Aug-25 calendar name "JVL-Jim and Mary Beck", it supports reading the Mutha Goose maker as Jim of RKS — still **inference**, not a ruling. [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+
 ## Open questions
 
-- Is the Aug-18 dinner host the same man as the RKS "Jim" of July 2025 and the Aug-13 "Jim" call? (inference only; queued) — [[raw/Meeting_Transcript_Mutha_Goose_Supplier_Dinner_Intel-August-18-2026.md]] *(Aug-25 evidence, not a ruling: the notes pair the Aug-25 shop visit with a calendar event "JVL-Jim and Mary Beck", and the maker's partner is called "Mary" in both the Aug-18 and Aug-25 recordings.)* [[raw/Meeting_Notes_Really_Killer_Systems_Operator_Vetting-August-25-2026.md]]
+- Is the Aug-18 dinner host the same man as the RKS "Jim" of July 2025 and the Aug-13 "Jim" call? (inference only; queued) — [[raw/Meeting_Transcript_Mutha_Goose_Supplier_Dinner_Intel-August-18-2026.md]] *(Aug-25 evidence, not a ruling: the notes pair the Aug-25 shop visit with a calendar event "JVL-Jim and Mary Beck", and the maker's partner is called "Mary" in both the Aug-18 and Aug-25 recordings.)* [[raw/Meeting_Notes_Really_Killer_Systems_Operator_Vetting-August-25-2026.md]] *(Oct-16 evidence, also not a ruling: a competitor calls him "Jim Beck over at RKS, who makes the MudaGoose".)* [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
 - Did the promised list of ~two dozen masters arrive? — [[raw/Meeting_Transcript_Really_Killer_Systems_Operator_Vetting-August-25-2026.md]]
 
 ## Sources
@@ -88,3 +95,5 @@ The continuation at the shop ([[wiki/meetings/2026-08-25-really-killer-systems-o
 - [[raw/Meeting_Transcript_Epic_Amusement_Kenny_Patel_Visit-August-25-2026.md]]
 - [[raw/Meeting_Transcript_Really_Killer_Systems_Operator_Vetting-August-25-2026.md]]
 - [[raw/Meeting_Notes_Really_Killer_Systems_Operator_Vetting-August-25-2026.md]]
+- [[raw/Meeting_Notes_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+- [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]

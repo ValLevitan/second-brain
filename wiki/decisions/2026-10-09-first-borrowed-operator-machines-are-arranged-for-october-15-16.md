@@ -3,7 +3,7 @@ type: decision
 title: The first machines borrowed from operators for Flex testing can be arranged for October 15–16 — Klimovich and Felipe organise it; Chudinov says MVP 1 development is formally finished, while Irina wanted more testing first
 date: 2026-10-09
 aliases: [borrowed machines October 15-16, на 15 16 число, первые машины позаимствовать, other makers' machines, машины у других производителей, MVP1 formally finished, Формальное MVP один закончен, take them for a day or two, на день 2, main workflow ready]
-source-count: 3
+source-count: 5
 status: active
 open-commitments: 0
 open-questions: 0
@@ -33,7 +33,13 @@ open-questions: 0
 
 - [x] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] with [[wiki/people/felipe-miranda.md|Felipe Miranda]] — arrange the first test machines borrowed from operators into the office — due Oct 15–16 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]] — **discharged by Oct 14 2026:** Klimovich, "Мы сейчас получили эти машины, завтра мы туда подключим порты", said of the other makers' machines (that these are the borrowed operator machines is **inference**) — at the [[wiki/meetings/2026-10-14-transactional-mvp1-launch-plan-brackets-daily-caps-and-mvp2-scope.md|Oct-14 3:49 PM meeting]] — [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
 
+## Update, Oct 16 2026 (10:01 AM) — the machines are connected and go back on Wednesday
+
+At the [[wiki/meetings/2026-10-16-third-party-egm-flex-port-sas-connection-tests.md|Oct-16 10:01 AM third-party EGM call]] [[wiki/people/andrei-klimovich.md|Klimovich]] said the other makers' machines are connected to one router Minsk reaches by VPN, with a Flex IQ, and since the day before "все порты активны". "у нас эти машины до среды в среду, нам их надо вернуть" — Wednesday Oct 21 2026 per the notes. Results by maker and the next steps: [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] (Oct-16 update) [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]] [[raw/Meeting_Notes_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
+- [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
+- [[raw/Meeting_Notes_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]

@@ -3,7 +3,7 @@ type: person
 title: Felipe Miranda
 date: 2026-07-13
 aliases: [Felipe Miranda, Felipe, Filippo, Filipa, Philippe, Felipe Miranda Giorgi, Филипп, Филипп Н, Filipp N]
-source-count: 97
+source-count: 99
 open-commitments: 24
 open-questions: 0
 ---
@@ -445,6 +445,10 @@ On the [[wiki/meetings/2026-10-14-returns-triage-sebastian-and-support-calls.md|
 
 At the [[wiki/meetings/2026-10-15-blue-sky-gold-rush-refurbished-machines-offer-and-transactional-demo.md|Oct-15 Blue Sky / Gold Rush meeting]] (mostly Speaker 3, per the notes [[raw/Meeting_Notes_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]) he showed the V43 cabinet and its progressives, advised against JCM bill acceptors because of the new $10 bill, and put the show special — Val corrected his "six ports" to "one port plus five more" — see [[wiki/decisions/2026-09-02-free-ports-and-pos-with-every-machine-bought.md]] (Oct 15). He said "Ninety dollars fixed, no variable", priced nine ports with a kiosk and Flex-IQ at "close to eighteen thousand dollars", and told the operator a deal needs a credit check. He brought up the refurbished machines ("You wanted to talk about the refurbish") — [[wiki/decisions/2026-10-15-refurbished-trade-in-machines-are-sold-apart-from-the-show-special-and-show-special-machines-are-not-financed.md]]. His open items from this meeting (the price-and-terms answer with Val, videos for the operator's locations, a talk with Raj) are held on [[wiki/organizations/blue-sky-gold-rush.md]] [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]].
 
+## Oct 16 2026 (7:57 AM) — breakfast with Bad Dog / Zephyr's sales lead about Puerto Rico
+
+He set up the meeting — the notes pair the recording with a calendar event "Meeting with David Villari", organizer Felipe [[raw/Meeting_Notes_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]] — and sat in while [[wiki/people/david-villari.md|David Villari]] of [[wiki/organizations/bad-dog-zephyr.md|Bad Dog / Zephyr]] described Puerto Rico and offered a distributor contact. David will connect "both of you" — Val and Felipe — with the right partner. Val's terms are on [[wiki/decisions/2026-10-16-puerto-rico-goes-through-one-distributor-at-twenty-percent-with-no-jvl-financing.md]]; the market detail on [[wiki/projects/puerto-rico-expansion.md]]. [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Notes_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
 - [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
@@ -544,3 +548,5 @@ At the [[wiki/meetings/2026-10-15-blue-sky-gold-rush-refurbished-machines-offer-
 - [[raw/Meeting_Transcript_RIS_MVP2_Scope_and_Release_Timing-October-12-2026.md]]
 - [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
 - [[raw/Meeting_Notes_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
+- [[raw/Meeting_Notes_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+- [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]

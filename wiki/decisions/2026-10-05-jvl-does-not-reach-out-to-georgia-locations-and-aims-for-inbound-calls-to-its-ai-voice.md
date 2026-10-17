@@ -3,7 +3,7 @@ type: decision
 title: JVL does not run outreach to Georgia locations, citing federal restrictions, and would not call them even after an opt-in — the target is inbound, where locations call JVL and JVL's AI voice qualifies and closes them; what Val wants now is a reliable opt-in list and the likely players near those locations
 date: 2026-10-05
 aliases: [no outreach in JVL's name, федеральные restrictions, federal restrictions, inbound model, звонки шли нам, наш AI голос, AI voice qualifies and closes, reliable opt-in list, opt-in list of locations, most likely players, four parties location operator player manufacturer]
-source-count: 2
+source-count: 4
 status: active
 open-commitments: 0
 open-questions: 0
@@ -34,6 +34,14 @@ On Sept 22 Val's plan was that AI calls would reach location owners and get thei
 
 **Tier A hold (§15 #8 — legal material).** Val's description of how a third party might reach locations without naming JVL is **held for owner review** and not recorded, as the Sept-22 passage on lawful calling was held. **§15.8:** clear on this page. **§15 #9:** none.
 
+## Note, Oct 16 2026 (2:00 PM) — the consent question is still open; calls would go through a bought voice bot
+
+At the [[wiki/meetings/2026-10-16-klimovich-recap-of-the-vysotsky-call-location-owner-outreach.md|Oct-16 2:00 PM recap of the Vysotsky call]] Val asked how, once the list is reliable enough, to get owners' "Согласие на то, чтобы их можно было контактировать". [[wiki/people/andrei-klimovich.md|Klimovich]]: "Здесь финального решения еще нет." He thought that at this first stage the company's name ("имя Davey" as transcribed — JVL by context, **inference**) should not appear [[raw/Meeting_Transcript_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]]. The contact itself would go through a bought voice-bot service — [[wiki/decisions/2026-10-16-location-owner-calls-would-use-a-bought-voice-bot-service-not-one-jvl-builds.md]]. The wording of the story under which owners would be approached is **held** (Tier A, the same class as the hold above) [[raw/Meeting_Transcript_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]].
+
+*(Inference:)* keeping JVL's name out fits the ruling above. Whether a voice bot calling owners fits Val's Oct-5 line that JVL "не можем автоматом" contact locations is not discussed; it is an open question on the voice-bot page, for the owner.
+
 ## Sources
 - [[raw/Meeting_Transcript_Sergei_Vysotski_Georgia_Location_Opt_In_List_and_Research_Spikes-October-5-2026.md]]
 - [[raw/Meeting_Notes_Sergei_Vysotski_Georgia_Location_Opt_In_List_and_Research_Spikes-October-5-2026.md]]
+- [[raw/Meeting_Transcript_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]]
+- [[raw/Meeting_Notes_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]]

@@ -4,7 +4,7 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "IT (GitHub-admin, infrastructure, secrets/Azure, AI-tool accounts) — the IT-context "Dima". Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 62
+source-count: 63
 open-commitments: 16
 open-questions: 3
 ---
@@ -345,6 +345,10 @@ On the [[wiki/meetings/2026-10-14-ai-pm-keep-the-0-80-threshold-and-meeting-rigo
 
 At the [[wiki/meetings/2026-10-15-daily-standup-offline-ris-fallback-and-nova-game-conversion.md|Oct-15 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]: he told Khamin the agent creates something only when asked directly and ignores items below its threshold; the team found "Dasha" a bad name; he read the previous day's digest (MVP 1 to the 8th–9th of November as a comment on AIP-744) and explained that decisions go in as comments, not tasks — [[wiki/projects/ai-project-manager-and-company-second-brain.md]] (Oct 15). He is already adding the board filters so Daniil's task shows — [[wiki/topics/nova-platform-architecture.md]] (Oct 15).
 
+## Oct 16 2026 — AI Draft lasts 24 hours; AI Draft on the dashboard; LGS 1226 / 1228; closed parents with open children
+
+At the [[wiki/meetings/2026-10-16-daily-standup-mvp2-wi-fi-scope-and-modem-mac-rollback.md|Oct-16 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]] he told the team an AI Draft task must be moved to To Do or Reject within 24 hours or it disappears, agreed to show AI Draft in the dashboard's To Do column, reported the agent's three tasks and its LGS 1226 / 1228 links for checking, and raised closed parents with children in Backlog — [[wiki/decisions/2026-10-08-the-ai-pm-goes-live-in-real-jira-projects-on-october-12-on-its-current-architecture-without-lenas-meetings.md]] (Oct-16 update).
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -409,3 +413,4 @@ At the [[wiki/meetings/2026-10-15-daily-standup-offline-ris-fallback-and-nova-ga
 - [[raw/Meeting_Transcript_AI_PM_Keep_080_Threshold_and_Meeting_Rigor-October-14-2026.md]]
 - [[raw/Meeting_Notes_AI_PM_Keep_080_Threshold_and_Meeting_Rigor-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]

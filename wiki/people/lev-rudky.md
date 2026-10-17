@@ -3,8 +3,8 @@ type: person
 title: Lev Rudky
 date: 2024-01-01
 aliases: [Lev Rudky, Lev, Lev Rudki, Лёва Рудки, Лёва, лева]
-source-count: 21
-open-commitments: 1
+source-count: 23
+open-commitments: 2
 ---
 
 # Lev Rudky
@@ -69,13 +69,27 @@ Val released him and Nathan before the end ("I'm just burning their hours"). Rec
 
 Full record on [[wiki/topics/business-central-erp-implementation.md]] (Oct 1 2026). The derived notes agree on the cause, the method and the one undertaking [[raw/Meeting_Notes_Lev_Rudky_Missed_Inventory_Adjustments-October-1-2026.md]]. **§15.8:** recorded as the cause of a data gap and its fix only; Val's remarks on how it could have been missed, and a remark of his about a staffing consequence, are withheld.
 
-## Open commitments (Oct 1 2026)
+## Open commitments (Oct 1 and Oct 16 2026)
 
+- [ ] Val Levitan + Lev Rudky — work together to fix inventory control so Mary can run it alone — due unspecified (Oct 16 2026) — [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]
 - [ ] Lev Rudky — find every item in the missed block of July count data, post the missing inventory adjustments in Business Central (skipping items recounted since July), and send Mikhail the file — due Oct 1 2026 ("закончить сегодня") — [[raw/Meeting_Transcript_Lev_Rudky_Missed_Inventory_Adjustments-October-1-2026.md]]
 
 ## Oct 13 2026 (in absentia) — the Excel report goes; he and his consultant are the report side
 
 At the [[wiki/meetings/2026-10-13-github-msbc-ai-bom-control-gate-and-msbc-only-reports.md|Oct 13 "GitHub-MSBC" meeting]] Val said Lev had made Mikhail Perelman a report exported from MSBC to Excel, against Val's wish, and that this report must go — reports come only from MSBC. Val: "лёва знает, какую информацию недостаточно" and "лёва очень хорошо разбирается, что административно… у нас не хватает". Genadi is to sit with him this week to define the procurement reports and list the gaps; the consultant Lev works with builds the reports in MSBC and names the endpoints — Val thinks Lev may know most of it himself. See [[wiki/decisions/2026-10-13-procurement-reports-come-only-from-msbc-and-the-excel-export-report-goes-away.md]] [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]].
+
+## Oct 16 2026 — his load is 70–80% with spikes; inventory control is the root; he and Val will fix it together
+
+On his [[wiki/meetings/2026-10-16-lev-rudky-workload-inventory-control-and-mery-replacing-misha.md|1:34 PM call with Val]] (Russian) [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]:
+
+- **The hand-over.** Val told him [[wiki/people/mikhail-perelman.md|Mikhail Perelman]] is leaving; Lev already knew ("Да я я знаю"). Mary takes his place — see [[wiki/decisions/2026-10-08-mary-takes-over-mikhail-perelmans-ordering-role-with-training-from-october-19.md]].
+- **His load.** "70 80 но бывают рывки"; Val summed it up as about 80% on average.
+- **What fills it.** The engineering BOM not matching production; about 40 returned Flex units that need a diagnosis each before refurbishing; assembly lists, inventory, scrap and per-customer part pricing that came to him from "Толик" ([[wiki/people/anatol-strekalov.md|Anatol Strekalov]] per the notes [[raw/Meeting_Notes_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]); the BC customization that lets [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]'s team in without seeing other people's sales, which he "начал с консультантом и закончил сам"; and spikes — urgent shipments for [[wiki/people/elizabeth.md|Elizabeth]], wrong tax figures, how-to questions he must first learn himself. Full list on [[wiki/topics/business-central-erp-implementation.md]] (Oct 16).
+- **His view of the root.** Recounts must follow strict rules (all receipts received, all shipments posted, nothing moving during the count); parts must not be used before they are received; a second Georgia warehouse he did not know about has no clean split. "Это всё всё входит под inventalitrol."
+- **Where Val wants his time.** Standards ("как что вносить, как делать") and automation, like [[wiki/people/nathan-carver.md|Nathan]]'s work. Val and Lev will focus together on inventory control first — [[wiki/decisions/2026-10-16-val-and-lev-focus-together-on-inventory-control-so-mary-can-run-ordering-alone.md]]. Asked whether that would free most of his time, his short answer was yes, with doubt that it can be achieved.
+- **An offer.** He offered to send Val more examples of the requests he gets ("Прислать всё больше примеров"); the passage is broken, so it is kept as an offer, not a commitment.
+
+**§15.8:** no pay was discussed. Remarks judging his work are left out. Personal matters not recorded.
 
 ## Sources
 
@@ -101,3 +115,5 @@ At the [[wiki/meetings/2026-10-13-github-msbc-ai-bom-control-gate-and-msbc-only-
 - [[raw/BC-JVL_Labs-November-28-2025.md]]
 - [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
+- [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]
+- [[raw/Meeting_Notes_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]

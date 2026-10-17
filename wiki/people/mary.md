@@ -3,8 +3,8 @@ type: person
 title: Mary
 date: 2026-07-12
 aliases: [Mary, Mery, Mery Villavicencio, Мэри]
-source-count: 12
-open-commitments: 1
+source-count: 14
+open-commitments: 2
 ---
 
 # Mary
@@ -42,8 +42,13 @@ At the [[wiki/meetings/2026-10-08-genadi-bom-standard-flex-slim-metal-mikhail-ha
 
 At the [[wiki/meetings/2026-10-13-github-msbc-ai-bom-control-gate-and-msbc-only-reports.md|Oct 13 "GitHub-MSBC" meeting]] Val said she is back next week and proposed she enter the missing information into MSBC as directed (for example vendor transport invoices); Genadi is to list the gaps with Lev first so she gets concrete work. Read as this Mary by context ("мэри"/"мэрой"), as on Oct 8 — inference. See [[wiki/decisions/2026-10-13-procurement-reports-come-only-from-msbc-and-the-excel-export-report-goes-away.md]] [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]].
 
-## Open commitments (Oct 13 2026)
+## Oct 16 2026 (in absentia) — Val tells Lev she takes Mikhail's place; the open purchase order on Monday
 
+On the [[wiki/meetings/2026-10-16-lev-rudky-workload-inventory-control-and-mery-replacing-misha.md|Oct 16 1:34 PM call with Lev Rudky]] (Russian) Val told Lev that Mikhail is leaving and "на его место… Мы будем брать эту меры", adding "пока вот в данную минуту я никого другого не могу придумать", and tied the hand-over to the "автоматикой, которую мы… с ринадой обсуждаем" ("ринада" unresolved) [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]. Val and Lev are to fix inventory control so she can run the work on her own — [[wiki/decisions/2026-10-16-val-and-lev-focus-together-on-inventory-control-so-mary-can-run-ordering-alone.md]]. Lev had seen a purchase order she issued (vendor garbled, "делай") with several threads about amendments; Val: "Меры уже выходят в понедельник, и она это сделает" [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]. The notes put her return on Monday Oct 19 [[raw/Meeting_Notes_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]].
+
+## Open commitments (Oct 13 and Oct 16 2026)
+
+- [ ] Mary — set the amount and the purchase lines for the open purchase order Lev asked about (vendor garbled) — due Monday Oct 19 2026 (notes' date; transcript "в понедельник") — [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]] [[raw/Meeting_Notes_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]
 - [ ] Mary — enter the missing information into MSBC as directed (e.g. vendor transport invoices) — due from the week of Oct 19 2026 (proposed by Val; not confirmed) — [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
 
 ## Sources
@@ -60,3 +65,5 @@ At the [[wiki/meetings/2026-10-13-github-msbc-ai-bom-control-gate-and-msbc-only-
 - [[raw/Meeting_Notes_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
+- [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]
+- [[raw/Meeting_Notes_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]

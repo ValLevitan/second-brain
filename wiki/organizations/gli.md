@@ -2,8 +2,8 @@
 type: organization
 title: GLI (Gaming Laboratories International)
 date: 2026-07-12
-aliases: [GLI, Gaming Laboratories International, GLC, start with GLI, they are the most savvy, they will ask for a payment]
-source-count: 4
+aliases: [GLI, Gaming Laboratories International, GLC, start with GLI, they are the most savvy, they will ask for a payment, Puerto Rico Gaming Board, light certificate]
+source-count: 6
 ---
 
 # GLI (Gaming Laboratories International)
@@ -52,9 +52,19 @@ A new use of the relationship, ruled by [[wiki/people/val-levitan.md|Val]] at th
 
 **This is an advisory engagement, not a submission.** It carries no certification date for any product, and in particular none for NOVA — see [[wiki/decisions/2026-09-11-the-game-change-question-goes-to-gli-as-a-paid-consultation.md]] and [[wiki/topics/nova-platform-architecture.md]].
 
+## Oct 16 2026 — GLI as the door to Puerto Rico
+
+At the [[wiki/meetings/2026-10-16-david-villari-zephyr-puerto-rico-distribution-and-beta-test.md|Oct-16 breakfast]], [[wiki/people/david-villari.md|David Villari]] of [[wiki/organizations/bad-dog-zephyr.md|Bad Dog / Zephyr]] described the Puerto Rico route. [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+
+- **The step.** "you got to get the certification, send it to the Puerto Rico Gaming Board, and then you're fine." Val: "You need certification from GLI. Yeah, it's a light certificate. It's an easy certificate." David: "If you're already class three certified, which you guys are". [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+- **A competitor's first GLI work.** Zephyr had "never been Gli certified before" (it used another lab for Georgia), got GLI certification for Puerto Rico, and says that "Kickstarted the class three for us". [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+- **No date or product** for a JVL submission was set. See [[wiki/projects/puerto-rico-expansion.md]].
+
 ## Sources
 
 - [[raw/gli_visit-jan-7-2025.md]]
 - [[raw/Meeting_Transcript_GLI_Omni_Platform_Certification_Kickoff-January-28-2026.md]]
 - [[raw/Meeting_Notes_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]]
 - [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]]
+- [[raw/Meeting_Notes_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+- [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]

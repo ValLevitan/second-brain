@@ -3,10 +3,10 @@ type: decision
 title: Testing starts September 15 with the negative cases first, and Flex-Ports must be proved in borrowed non-JVL machines — fake-commissioned, tracked as a separate Jira item from JVL-machine testing
 date: 2026-09-09
 aliases: [negative cases first, door open, borrow a machine fake commission it, Aristocrat and Light and Wonder, at least one or two machines, two separate records, two different router manufacturers, no Chinese manufacturer, stay away from Cisco, ten port router, storm through the test, bracket drawings to Genadi]
-source-count: 15
+source-count: 17
 status: active
-open-commitments: 5
-open-questions: 2
+open-commitments: 10
+open-questions: 5
 ---
 
 # Negative cases first, in borrowed non-JVL machines, from September 15
@@ -82,7 +82,7 @@ At the [[wiki/meetings/2026-09-25-transactional-mvp1-flexport-third-party-egm-co
 
 - [x] [[wiki/people/ivan.md|Ivan]] — write the set-up instruction for the compatibility test (hardware, cables, COM port, SAS emulator) and attach the emulator and the SAS commands document — due Mon Sept 28 2026 ("постараюсь") — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]] — **discharged Sept 29 2026:** written the day before and sent that morning (Klimovich: "этот документ, который ты сегодня прислал"); walked through on the call; the SAS tool zip went to Elizabeth by email. Putting it in Confluence is the new commitment below — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — create the capability for Flex-Port working with other makers' machines, from the transcript — due unspecified — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]]
-- [ ] Klimovich and the local team — once the set-up arrives, contact operators, borrow machines, bring them to the office and connect them to the MikroTik — due after October 1 — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]] *(Oct 9: the first borrowed machines are now aimed at Oct 15–16, Klimovich with Felipe — [[wiki/decisions/2026-10-09-first-borrowed-operator-machines-are-arranged-for-october-15-16.md]])*
+- [x] Klimovich and the local team — once the set-up arrives, contact operators, borrow machines, bring them to the office and connect them to the MikroTik — due after October 1 — [[raw/Meeting_Transcript_MVP1_FlexPort_EGM_Compatibility_Testing-September-25-2026.md]] *(Oct 9: the first borrowed machines are now aimed at Oct 15–16, Klimovich with Felipe — [[wiki/decisions/2026-10-09-first-borrowed-operator-machines-are-arranged-for-october-15-16.md]])* — **discharged by Oct 16 2026:** the other makers' machines are in, each connected to one router Minsk reaches by VPN, and "все порты активны" since Oct 15 (Klimovich, at the [[wiki/meetings/2026-10-16-third-party-egm-flex-port-sas-connection-tests.md|Oct-16 10:01 AM third-party EGM call]]) — [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
 
 ### Open questions (Sept 25 2026)
 
@@ -149,6 +149,39 @@ At the [[wiki/meetings/2026-10-14-transactional-mvp1-launch-plan-brackets-daily-
 - **The machines.** [[wiki/people/andrei-klimovich.md|Klimovich]]: "Мы сейчас получили эти машины, завтра мы туда подключим порты, соберем все вместе и посмотрим". [[wiki/people/val-levitan.md|Val]]: "На девяносто пять процентов я уверен" it passes.
 - **The brackets.** Val first said retrofit brackets are the masters' job and JVL should only release its drawings; then, for the first location, JVL makes them. He thinks IGT and Aristocrat brackets exist, Light & Wonder not. Order for ten locations; [[wiki/people/sebastian.md|Sebastian]] finds a local distributor, Genadi in copy. Detail and owners: [[wiki/decisions/2026-10-14-the-first-ten-transactional-locations-go-in-from-november-1-on-stock-monitors-ports-without-wi-fi-and-hand-made-harnesses.md]]. The unowned Sept-9 drawings task below now has a path; it is left open until the brackets exist.
 
+## Update, Oct 16 2026 (10:01 AM) — the borrowed machines are connected; load works on some, cash-out fails on most; a debug build next; the machines go back Wednesday
+
+At the [[wiki/meetings/2026-10-16-third-party-egm-flex-port-sas-connection-tests.md|Oct-16 10:01 AM third-party EGM call]] (Russian, about 7 minutes; only [[wiki/people/andrei-klimovich.md|Klimovich]] and [[wiki/people/pavel.md|Pavel]]) [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]:
+
+- **The set-up.** Each machine is connected to one router that Minsk reaches by VPN, and a Flex IQ "на стейдже" is connected to the same set-up. Klimovich: "вчера мы добились Того, что все порты активны, они видят IQ, они видят машину, которые они подключены." On some machines money was loaded through the port "и даже вывести с машины" [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]].
+- **Results by maker** (Klimovich) [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]:
+  - "на баниле" — neither load nor cash-out worked. Read as Banilla (**inference**: Banilla is on the Sept-9 bracket list above; the notes heard it as "Bally" [[raw/Meeting_Notes_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]).
+  - Aristocrat ("на аристократии"): load always works. Cash-out is "какой то плавающий бак": it may work "23 раза" (read as two or three times), then it locks, and only a reboot of the whole machine clears it; then the bug can come back.
+  - IGT ("на ig t"): load seems to work; cash-out "ни разу не получилось".
+  - Light & Wonder ("Лайтен вандер"): "не помню, честно говоря, чем закончилось".
+- **What the failure looks like.** On a collect the money does not show on the port, which does not even change state to "scan a ticket". The IQ does receive it, as a failed cash-out attempt with an extra status heard as "риф Хьюстон" (meaning **unclear**) [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]].
+- **SAS settings.** Klimovich: "мы допускаем, что ещё не все настройки сасовские" are understood; [[wiki/people/sebastian.md|Sebastian]] will spend time on them that day [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]].
+- **Pavel's plan.** The router link alone gives Minsk no "бенефит", "потому что мы про эти машины ничего не знаем" and likely cannot connect to them. (1) Put the debug Flex-Port build on every port: it has a console through which, with AI, they can pull much more data and emulate events — send or accept money remotely "без Того, чтобы реально сканировать тикет". (2) Write each port's IP address on it, so every case is tied to a port and a machine; the Flex IQ's IP too. Then read the SAS logs machine by machine. A "Дима" had earlier turned on logging of all SAS commands "для чужих вот этих машин", best viewed on the debug build [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]. ("Дима" = [[wiki/people/dmitri-chudinov.md|Chudinov]] by context — **inference**: on Oct 5 he reported that all SAS commands were now logged, above.)
+- **Who does what.** The debug build is flashed with ST-Link ("сталинком"); [[wiki/people/elizabeth.md|Elizabeth]] knows how. Klimovich asked for the link by email "с копией на Элизабет". The Flex IQ stays in the set-up: "IQ не отключать, не убирать. Он нужен для тестирования всех." Pavel can emulate a ticket held to the port, "но я не смогу нажать на машине cashаут"; Klimovich: "я, Себастьян, мы на подхвате" [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]].
+- **The deadline.** "у нас эти машины до среды в среду, нам их надо вернуть" — the notes date it Wednesday Oct 21 2026 [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]] [[raw/Meeting_Notes_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]].
+
+**Against the rule above.** This is the first recorded run of Flex-Ports in other makers' machines — the Sept-9 rule now in practice. Pavel's Sept-9 expectation of problems "сразу же" with others' machines shows up on cash-out (**inference**). The Sept-25 local-team commitment is discharged. Felipe's Sept-9 machine commitment is not mentioned; the machines came through Klimovich (see the Oct-9 page). Pavel's two-records commitment is not mentioned.
+
+### Open commitments (Oct 16 2026, 10:01 AM)
+
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — email the link to the debug Flex-Port build, with Elizabeth in copy — due Oct 16 2026 ("сейчас") — [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] with [[wiki/people/elizabeth.md|Elizabeth]] — flash the debug build onto every Flex-Port in the set-up (ST-Link) — due before the machines go back on Oct 21 2026 — [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]] [[raw/Meeting_Notes_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — once the builds are on, send the list of port IP addresses with the machine each belongs to, plus the current Flex IQ IP — due before Oct 21 2026 — [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
+- [ ] [[wiki/people/sebastian.md|Sebastian]] — spend time on the machines' SAS settings — due Oct 16 2026 ("сегодня") — [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] (Minsk) — read the SAS logs machine by machine on the debug build — due before Oct 21 2026 — [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]] [[raw/Meeting_Notes_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] and [[wiki/people/sebastian.md|Sebastian]] — be on hand for the physical steps on the machines (such as pressing cash-out) during remote tests — due until Oct 21 2026 — [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
+
+### Open questions (Oct 16 2026, 10:01 AM)
+
+- Why does cash-out lock after two or three tries on Aristocrat, never work on IGT, and why does neither load nor cash-out work on the "баниле" machine? — [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
+- What does the extra failure status heard as "риф Хьюстон" mean? — [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
+- What was the Light & Wonder result? Klimovich did not remember — [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 - [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
@@ -165,3 +198,5 @@ At the [[wiki/meetings/2026-10-14-transactional-mvp1-launch-plan-brackets-daily-
 - [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
+- [[raw/Meeting_Notes_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
+- [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]

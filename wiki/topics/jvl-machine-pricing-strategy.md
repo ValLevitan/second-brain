@@ -3,7 +3,7 @@ type: topic
 title: JVL machine pricing and commercial strategy
 date: 2025-09-23
 aliases: [machine pricing, fifteen seven fifty, $15750, free hardware instead of discount, retail price, price list, Dennis one number, CFO-to-CFO credit, market pricing, list price, dollars not discounts, JVL Dollars pricing lever, show special pricing, Georgia machine price, D43 price, D27 trade-in, South Dakota premium, twelve eight twenty, two nine thirty, $795 port, $895 IQ, $7950 Flex-Slim, kill the market, fifty-seven fifty, topper eight hundred to one thousand, ten dollars per machine, value almost as much as this machine is, ninety to one fifty, one hundred months, $150 minimum, lease pricing, fourteen dollars per machine per month]
-source-count: 41
+source-count: 43
 ---
 
 # JVL machine pricing and commercial strategy
@@ -312,6 +312,14 @@ At the [[wiki/meetings/2026-10-15-blue-sky-gold-rush-refurbished-machines-offer-
 - **Texas is priced differently.** Val: "in Texas, we're going with cheaper cabinets and a cheaper solution. We also go with a participation model, and here we cannot participate." [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
 - **Why not cheap overseas game design.** Val: "Our senior VP of game design is ex-Bali employee… You cannot have a guy in Russia or in India or in China designing your games." ("Bali" reads as Bally — **inference**; see [[wiki/people/michael-gottlieb.md]].) [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
 
+## Oct 16 2026 — a Puerto Rico price: about $9,000, less 20%; and the transactional pieces priced one by one
+
+At the [[wiki/meetings/2026-10-16-david-villari-zephyr-puerto-rico-distribution-and-beta-test.md|Oct-16 breakfast]] with [[wiki/people/david-villari.md|David Villari]] of [[wiki/organizations/bad-dog-zephyr.md|Bad Dog / Zephyr]]. [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+
+- **The island's price band.** David: "To sell in Puerto Rico, nine thousand nine, about nine. We sell ours for around eight, so we need to be in under ten for sure." Val: "Let's call it nine thousand." It is the "American price" — before shipping to the island. Against $15,750 in Georgia (above), this is a much lower band (**inference** from the two figures). [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+- **Val's terms.** "I will pay twenty percent commission… I want to get nine thousand dollars here minus twenty percent. I don't want to finance." See [[wiki/decisions/2026-10-16-puerto-rico-goes-through-one-distributor-at-twenty-percent-with-no-jvl-financing.md]]. [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+- **The transactional pieces, priced separately.** Val: "The port is roughly a thousand, just under a thousand. The POS system, the table mount POS, is roughly a thousand, just under. And I think the kiosk is eight and a half." The kiosk price depends on "what's inside the kiosk"; "I'm giving you approximate numbers. But I am extremely flexible." David: kiosks there "need to be around five" thousand, and most places pay by hand at the counter. [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
@@ -355,3 +363,5 @@ At the [[wiki/meetings/2026-10-15-blue-sky-gold-rush-refurbished-machines-offer-
 - [[raw/Meeting_Transcript_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]]
 - [[raw/Meeting_Transcript_Larry_Hardware_Rental_Pricing_and_November_Pilot-October-7-2026.md]]
 - [[raw/Meeting_Notes_Larry_Hardware_Rental_Pricing_and_November_Pilot-October-7-2026.md]]
+- [[raw/Meeting_Notes_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+- [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]

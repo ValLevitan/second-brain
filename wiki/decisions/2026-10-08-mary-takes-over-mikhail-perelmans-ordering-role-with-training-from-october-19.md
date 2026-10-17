@@ -3,7 +3,7 @@ type: decision
 title: Mikhail Perelman leaves from January; Mary (Mery) takes over his ordering role — decided for now (owner ruling 2026-10-15), with training from Oct 19 through November and half of December
 date: 2026-10-08
 aliases: [Misha leaves, Mery takes over, Mary takes over procurement, Mikhail Perelman hand-over, procurement hand-over, training from October 19]
-source-count: 6
+source-count: 8
 status: active
 open-commitments: 1
 open-questions: 0
@@ -32,6 +32,10 @@ The transcript renders the name "меры" / "мерой". The wiki already has 
 
 On the [[wiki/meetings/2026-10-13-github-msbc-ai-bom-control-gate-and-msbc-only-reports.md|Oct 13 "GitHub-MSBC" meeting]] Val said Mary is back next week ("со следующей недели") and proposed she enter the missing information into MSBC "без всякой интерпретации", as directed. Genadi is to work out the gaps with Lev this week so she gets concrete work. Val also said Mikhail Perelman is to come off this work from next week, and that the Excel report he uses must go — see [[wiki/decisions/2026-10-13-procurement-reports-come-only-from-msbc-and-the-excel-export-report-goes-away.md]] [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]. The name is "мэрой"/"мэри" in the transcript; read as this Mary by context, as on Oct 8.
 
+## Oct 16 2026 update — Val repeats it to Lev Rudky; inventory control is to be fixed so Mary can work alone
+
+On the [[wiki/meetings/2026-10-16-lev-rudky-workload-inventory-control-and-mery-replacing-misha.md|Oct 16 1:34 PM call with Lev Rudky]] (Russian) Val told [[wiki/people/lev-rudky.md|Lev Rudky]] that Mikhail is leaving (Lev already knew) and that Mary takes his place — "пока вот в данную минуту я никого другого не могу придумать" [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]. The notes list it as decided by Val [[raw/Meeting_Notes_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]. To make it work Val and Lev will focus together on inventory control, "для Того, чтобы мерой смогла сама заработать" — [[wiki/decisions/2026-10-16-val-and-lev-focus-together-on-inventory-control-so-mary-can-run-ordering-alone.md]] [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]. Val also said Mary is back on Monday and will handle an open purchase order Lev asked about [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]. Nothing here changes the Oct 19 training start or the January leaving date.
+
 ## Open commitments
 
 - [ ] [[wiki/people/val-levitan.md|Val Levitan]] — start training Mary on ordering — due Oct 19 2026, running through November and half of December — [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
@@ -48,3 +52,5 @@ On the [[wiki/meetings/2026-10-13-github-msbc-ai-bom-control-gate-and-msbc-only-
 - [[raw/Alignment_procurement_manufacturing_transfer-june-26-2025.md]]
 - [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
+- [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]
+- [[raw/Meeting_Notes_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]

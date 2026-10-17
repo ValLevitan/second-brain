@@ -3,9 +3,9 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, floating FlexPort, FlexPort on posts, флори дизайн, recycling cassette, drop cassette, two-tape reel, refill cycle, IQ point of sale, promo credit on SAS 2, validator emulation, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS, ATM registration, slim ATM, Flex-Port-Mini, Flex Port Mini, Flex-Slim first ten, brackets from China, twelve eight twenty, eVoucher, wrapped gift card, EasyLynx, second SAS port, ATM Recycler, PTI Sentry, MudaGoose, Lego bricks, closed loop ATM, promo meter, technology agnostic, player is the king, tap to fund, the magic is in speed, Pay Slim, cannibalise MudaGoose, zero-balance wallet, wallet lifetime, one TITO printer, splitting, AFT device, AFT window, emulate an AFT device, no cash dispensing, eWallet TTL, collect fork, unclaimed transaction, reissue versus reprint, print new carrier, balance snapshot, daily cap and velocity, SAS 6.02, Gaming Standards Association, audit report one button, dual balance deposited and playable, Total Playable only Redeemable, balance naming ADR, playable only, unclaimed money, maintenance versus lockout, always-on scanner, LTE modem per device, capability requires requirement, printer tilts, preventive supply telemetry, vault server, incremental five, five dollars of promotional credit for a phone number, clearance network prohibits proceeds from gambling, business way agnostic, they are not your customer they are mine, offline operation, twenty-four hour offline window, lease expiry versus internet loss, be honest with yourselves, no cash on FlexPay, de-enrolled from a location never from the cloud, fifteen Flex-Ports design for 99, no daily cap error, pending transaction, one-time redemption PIN, synchronisation point, metal mesh on standoffs, Flex-Pay-Slim lid, service bay cover, taut string stopper, roll forward only, no rollback to a previous build, MVP1 dual SAS only, capability 144 cloned, nothing is closed, Monday scope freeze, receipt format still not given, balance display game agnostic, stackable recycler, cash box capacity, standalone TITO printer topology, four swimlanes seven columns, language button top left, 854 by 480, status icons on error screens, asset number, серийный номер машины, engineering menu QR, machine performance report MVP2, feature lock slips, capability 229, TouchGFX Designer, two-stage screen redraw, HTML mock-up versus Figma, design tokens, the kiosk is FlexPay, player gets two dollars less, blank not empty, texts compiled at build, October 2 end date, E2E micro-step, KORE SIM in the IQ, capability 234, capability 235, forfeit wallet, no PIN lockout, nine Flex-Ports default twenty]
-source-count: 320
-open-commitments: 154
-open-questions: 43
+source-count: 323
+open-commitments: 155
+open-questions: 45
 ---
 
 # FlexPay business architecture and the payout-device catalog
@@ -3173,6 +3173,30 @@ At the [[wiki/meetings/2026-10-15-daily-standup-offline-ris-fallback-and-nova-ga
 - **The Fiery Pay card argument.** The operator described a card system (heard as "the Axcess system") where money on a card is scanned back into a machine with "No charge. No processing charge", while "when customer wants to load money in there, there's two dollar charge" — then: "Fiery Pay cards; they have their own Mastercard… It is Fiery Pay Mastercard". The notes read the whole claim as Fiery Pay's. Val did not accept it: "your cash is sitting with Mastercard… In order for you to move this cash out of Mastercard anywhere, you must have a merchant number, a registered merchant number." The operator will send a video within a week (open item on [[wiki/organizations/blue-sky-gold-rush.md]]). Val added that such features feed JVL's pipeline: "today you told us about this feature with Fiery Pay. I had no idea about this feature." [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
 - **The offer and the fee** are on [[wiki/decisions/2026-09-02-free-ports-and-pos-with-every-machine-bought.md]] (Oct 15). [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
 
+## Oct 16 2026 (4:46 AM stand-up) — Biratka's loader task FP 1335 and the bezel lights (capability 138); Flex Pay updates through the Terminal Hub; "was yesterday's release Flex IQ too?"
+
+At the [[wiki/meetings/2026-10-16-daily-standup-mvp2-wi-fi-scope-and-modem-mac-rollback.md|Oct-16 Minsk stand-up]] (Russian, a Friday) [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]:
+
+- **[[wiki/people/alexander-biratka.md|Biratka]] — FP 1335.** A loader ("Этот лодер для ivда"; the notes: board name unclear [[raw/Meeting_Notes_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]); he needs at least read access to that board's firmware repository and will request it. Detail and the link to the Oct-15 IO-board requirement (**inference**): [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Oct-16 update).
+- **Biratka — capability 138, the bezels.** Most of its ports were already closed. Open point: where the bezel lights for the validator and the printer connect. Pavel had "немножко подзабыл"; he thinks they go into "наша плата, которая с 2. Компортаме" — the same board the printer uses now — which has more connectors for the short coloured LED strips. For the card dispenser they will use its own built-in light; Biratka: "он моргает когда карта выплюнута". Both agreed to put the question to "гений" ([[wiki/people/genadi-peari.md|Genadi]]).
+- **Flex Pay updates through the hub.** Biratka must add parameters to the Terminal Hub so that Flex Pay can be updated through it; Pavel: he creates the task and gets git access to that project.
+- **[[wiki/people/sergey-tsymanov.md|Tsymanov]] — the payment hub.** His Stripe card-payment experiment is to be built later; it waits until the RIS work is mostly done — [[wiki/decisions/2026-10-15-mvp2-is-flex-iq-wi-fi-remote-update-diagnostics-and-galaxy-reporting-and-flex-pay-moves-to-mvp3.md]] (Oct-16 update).
+- **The release.** Pavel: "мы вчера отдавали релиз только флекспорта или флекса тоже?" [[wiki/people/ivan.md|Ivan]]: "Я не отдавал, я не знаю кто отдавал."
+- **The modem MAC.** See [[wiki/decisions/2026-10-16-the-flex-iq-commit-that-sets-the-modem-mac-at-boot-is-rolled-back-and-the-shared-mac-stays.md]].
+
+### Open commitments (Oct 16 2026, 4:46 AM)
+
+- [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — ask Genadi where the validator and printer bezel lights connect (capability 138) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]] [[raw/Meeting_Notes_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+
+### Open questions (Oct 16 2026, 4:46 AM)
+
+- Where exactly do the validator and printer bezel lights connect — the two-COM-port board, as Pavel thinks? — [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+- Was the release given out on Oct 15 FlexPort only, or Flex IQ too? — [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+
+## Oct 16 2026 (10:01 AM) — the Flex-Port in other makers' machines: load on some, cash-out fails on most
+
+At the [[wiki/meetings/2026-10-16-third-party-egm-flex-port-sas-connection-tests.md|Oct-16 10:01 AM third-party EGM call]] (Russian) [[wiki/people/andrei-klimovich.md|Klimovich]] reported that Flex-Ports in the borrowed machines are all active and see the IQ and the machine. Load works on Aristocrat and seems to on IGT; cash-out locks after a few tries on Aristocrat and never worked on IGT; on the "баниле" machine (Banilla — **inference**) neither worked. When cash-out fails the port does not change state; the IQ gets a failed-cash-out status [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]. Detail and next steps (debug build, port IP labels, SAS logs): [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] (Oct-16 update).
+
 ## Sources
 
 - [[raw/Meeting_Notes_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
@@ -3498,3 +3522,6 @@ At the [[wiki/meetings/2026-10-15-daily-standup-offline-ris-fallback-and-nova-ga
 - [[raw/Meeting_Notes_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+- [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]

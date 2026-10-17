@@ -3,9 +3,9 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, COAM Hearing Room, Georgia Lottery Corporation, Tracy Warren, HB 353, Intralot lab, Bill at Intralot, three fifty-eight nine, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing, GAMOA, ILERS, ILAS report, Eilers, Eiler report, show special, Mega Hit Blaze, sales channel report, Bulldog Gaming, ARC, ARC Gaming, Class A, C-Store Connect, GACS, route consolidation, gift-card cash-back notice, Chris Plonic, Double Down Gaming, Ryan O'Donnell, Billy Liu, Play Payments, PlayPay, banking licence moat, 7455 modem, KORE, KORE SIM, APN, GACS October 21, Pay Slim, over-drive, Rao, Narasimha Rao Namburi, David Milani, September 2 letter, 5500 PAX locations, Lucky Coin service burden, Lucky Bucks is ARC, the market is literally bottomless, backend displacement, David Sloan, Dave Sloan, Bill the kiosk vendor, the wording is in the same location, guidance is not the law, Digital Cash Processing, DCP, ICP Inc., Gen Mega, Andrew Cashin, Rick Beer, seventy four hundred locations forty seven thousand machines, Unlimited Amusement, Mega Hit Blaze V3, program the rollout, Swanee, Johns Creek, Singleton, SurfNote, Debbie Alford, eighteen thousand connected, Mike Mackey, five hundred dollars per unit per machine, WSS protocol, not even one installation, Georgia Lazy, Skyriser, Cardinal, outside looking in, Rich Winley briefing, 18 games in one pack, one USB stick for all Peach, Peach 1 2 3 combined]
-source-count: 250
-open-commitments: 75
-open-questions: 36
+source-count: 254
+open-commitments: 74
+open-questions: 38
 ---
 
 # Georgia market rollout (Peach1234 / DLKG)
@@ -1277,7 +1277,7 @@ The same day the engineering dates above were set, Val ran two counterparty meet
 - **The saturation warning, from a man who put 350 locations in this year:** "it would have come here like **two years ago**. It would have been nice. **It's already almost saturated. If we start now, by the time we pick up, it's saturated.**" Val agreed on timing, declined the conclusion, and pointed at **Texas** — "**Texas, for example, is booming**" — adding that he has "**a building in Austin… with a vacant unit**" where an office could open. [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
 - **Rao's own "200 locations lined up" for Access turn out not to be new business** — "**Those masters have access already previously**" — which is the route-consolidation pattern already on this page seen from the installer's side. [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
 - **InComm is expected to welcome JVL's hardware, per Val:** "**[InComm] will happily do it because they don't want to be involved in it. They want somebody like us to come in and put our equipment… They want to clear cards. They don't want to bother with equipment.**" Consistent with what InComm has said about itself since 2025; see [[wiki/organizations/incom.md]]. [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
-- **A sales lead and a market contact:** JVL is "**taking… 65 machines on trad[e]**" from an operator (Rao could not use them — he sells only in Georgia); and Val asked for a direct line to **David Milani** (also said as "Vilari"), a younger **Bad Dog** salesman distinguished from an older "Greg" — Rao's warning: "**very close to [Access]**." *(The surrounding employment history is garbled — "Bandel", "Raikon security" — and nothing is inferred from it. "Bad Dog" remains unresolved to any corpus entity.)* [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+- **A sales lead and a market contact:** JVL is "**taking… 65 machines on trad[e]**" from an operator (Rao could not use them — he sells only in Georgia); and Val asked for a direct line to **David Milani** (also said as "Vilari"), a younger **Bad Dog** salesman distinguished from an older "Greg" — Rao's warning: "**very close to [Access]**." *(The surrounding employment history is garbled — "Bandel", "Raikon security". **Oct-16 update:** Bad Dog now has its own page, [[wiki/organizations/bad-dog-zephyr.md]], and this salesman is read as [[wiki/people/david-villari.md|David Villari]] (inference; his own account of Banilla and Riken fits the garbles).)* [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
 - **Val also flagged Puerto Rico as a topic to take up with him:** "**I'd like to speak to you about Puerto Rico.**" No content followed. See [[wiki/projects/puerto-rico-expansion.md]]. [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
 
 ### The September-2 letter, read aloud and dismissed
@@ -1404,7 +1404,7 @@ Val gave an outside payment processor — [[wiki/organizations/digital-cash-proc
 ## Open commitments (Sept 9 2026)
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — have a working Flex-Port prototype running in Georgia over SAS, including on other suppliers' machines — due Sept 15 2026 — [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
-- [ ] [[wiki/people/val-levitan.md|Val Levitan]] — get a direct line to **David Milani** (Bad Dog sales) and speak to him, knowing he is close to Access — due unspecified — [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+- [x] [[wiki/people/val-levitan.md|Val Levitan]] — get a direct line to **David Milani** (Bad Dog sales) and speak to him, knowing he is close to Access — due unspecified — [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]] — **discharged Oct 16 2026** (inference: "Milani"/"Vilari" = [[wiki/people/david-villari.md|David Villari]]): Val and Felipe met him over breakfast — [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
 - [ ] [[wiki/people/val-levitan.md|Val Levitan]] — raise **Puerto Rico** with [[wiki/people/narasimha-rao-namburi.md|Rao]] — due unspecified — [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
 - [ ] [[wiki/people/val-levitan.md|Val Levitan]] + [[wiki/people/david-sloan.md|David Sloan]] — meet at Sloan's place to continue the ARC negotiation — due **Wednesday September 16 2026** — [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
 - [ ] [[wiki/people/david-sloan.md|David Sloan]] — establish whether [[wiki/people/bill.md|Bill]] is working on a back-end solution of the same nature as JVL's intent — due unspecified — [[raw/Meeting_Notes_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
@@ -1836,6 +1836,32 @@ At the end of the day, [[wiki/people/val-levitan.md|Val]] and [[wiki/people/feli
 - **The deal.** The operator wants JVL's 20 refurbished trade-in machines at about $9,000 on twelve months as a trial before new machines, and plans to upgrade 65 machines across its locations in 2027 — [[wiki/organizations/blue-sky-gold-rush.md]] and [[wiki/decisions/2026-10-15-refurbished-trade-in-machines-are-sold-apart-from-the-show-special-and-show-special-machines-are-not-financed.md]]. [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
 - **Val's next visit.** "I try to come here at least once every two weeks, but next time I'm here it will probably be the first week of November… Felipe and I will discuss it tomorrow. I'm leaving tomorrow night." [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
 
+## Oct 16 2026 (7:57 AM) — the market as told by a competitor's sales lead
+
+At a breakfast with [[wiki/people/david-villari.md|David Villari]] of [[wiki/organizations/bad-dog-zephyr.md|Bad Dog / Zephyr]] ([[wiki/meetings/2026-10-16-david-villari-zephyr-puerto-rico-distribution-and-beta-test.md]]), mainly about Puerto Rico, David also gave his view of the Georgia-area makers. These are one competitor's claims, not checked. [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+
+- **Banilla is losing share,** he says: "they're losing market share in Georgia. Any regulated market, they're losing big time." Missouri "shut down" (its largest buyer, "33% of their business"), and Pennsylvania equipment must be out of locations "as of October 13". He expects the displaced machines to go to Texas. [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+- **Banilla's model** is the board, not the cabinet: an "agnostic" computer board on a "36-pin harness" that fits any cabinet, sold for "five thousand dollars each", with the software tailored to each market. [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+- **Grover → Light & Wonder → Palisades.** Grover was sold to Light & Wonder; its owner Garrett Blackwell "started a new company called Palisades", which is "registered here in the state" and "going to start selling skill games here". [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+- **Hold.** Banilla's "hold percentage… is 25 to 30 percent"; Zephyr's games are "sixteen percent… about ninety four" RTP. [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+- **Cabinets.** "nobody plays duals anymore except for Aristocrat and IGT… verticals still play better than duals." [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+- **Bad Dog in Georgia.** Zephyr sells boards only in Georgia ("Sell a lot of them"). [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+- **Val's Sept-9 ask is met.** The Sept-9 commitment to reach "David Milani" of Bad Dog is marked discharged above (inference on the name). [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+
+## Oct 16 2026 (2:00 PM) — the location-owner list: owner contact for some, "Sirius" next week, a bought voice bot, and Sergey with less time
+
+At the [[wiki/meetings/2026-10-16-klimovich-recap-of-the-vysotsky-call-location-owner-outreach.md|Oct-16 2:00 PM recap of the Vysotsky call]] (Russian) [[raw/Meeting_Transcript_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]]:
+
+- **Where the list stands.** Sergey Vysotsky's latest spike tied locations to the businesses that run them through registration data and ranked those businesses by number of locations; for "семьдесят процентов" no owner-level contact was found yet — [[wiki/decisions/2026-10-05-sergey-vysotskys-georgia-work-is-research-not-sales-in-short-spikes-reported-through-klimovich.md]] (Oct-16 update).
+- **Val's preferred path.** Contact "Sirius" (as transcribed; **unclear**) at next week's conference — "самая потенциальная дорога" — same page.
+- **Scale and method.** Val: of about seven thousand accounts, perhaps half can be made reliable — "три тысячи аккаунтов". They would be called by a bought voice-bot service, not one JVL builds — [[wiki/decisions/2026-10-16-location-owner-calls-would-use-a-bought-voice-bot-service-not-one-jvl-builds.md]].
+- **Sergey's time.** He must cut his load on the project sharply; Klimovich will introduce the group of people he could hand it to — [[wiki/people/sergey-vysotsky.md]] (Oct 16).
+
+### Open questions (Oct 16 2026, 2:00 PM)
+
+- How to get owners' consent to be contacted, and in what words. "Здесь финального решения еще нет." (Detail held, Tier A) — [[raw/Meeting_Transcript_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]]
+- Plan B if the voice bot does not work: a call center is "отдельная история"; no decision — [[raw/Meeting_Transcript_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
@@ -2090,3 +2116,7 @@ At the end of the day, [[wiki/people/val-levitan.md|Val]] and [[wiki/people/feli
 - [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
 - [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
 - [[raw/Meeting_Notes_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
+- [[raw/Meeting_Notes_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+- [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+- [[raw/Meeting_Transcript_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]]
+- [[raw/Meeting_Notes_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]]

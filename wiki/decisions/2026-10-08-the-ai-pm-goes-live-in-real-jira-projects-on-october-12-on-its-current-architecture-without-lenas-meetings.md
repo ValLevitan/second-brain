@@ -3,9 +3,9 @@ type: decision
 title: The AI PM goes live in real Jira projects on Monday Oct 12 on its current architecture (change it later if needed); Lena's meetings leave the pilot; the agent deletes only what it created and only comments on the rest; the agent is not genderless and gets a name
 date: 2026-10-08
 aliases: [AI PM live October 12, боевой режим, launch with current architecture, Lena out of the AI PM pilot, agent deletes only its own items, AI Draft status, AI Draft lifetime, Dasha, the AI PM is not genderless, two kinds of draft]
-source-count: 11
+source-count: 13
 status: active
-open-commitments: 4
+open-commitments: 6
 open-questions: 4
 ---
 
@@ -37,7 +37,7 @@ Bosik: the agent may delete a feature or story only "при условии, чт
 
 The image prompt had said genderless; the generated face came out female. Val: "я настаиваю в нашей компании такого я не позволю, чтоб бесполый был… дайте ей имя". After Irina named "Даша", Val: "назовите её дашу" [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]. The notes record "Dasha" as proposed, not final [[raw/Meeting_Notes_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]].
 
-## Not settled — how long an "AI Draft" item lives
+## How long an "AI Draft" item lives — not settled on Oct 8; 24 hours in practice by Oct 16 (see the Oct-16 update)
 
 Everything the agent creates in Jira has the status "AI Draft"; a person must move it to To Do or reject it. Untouched items are deleted after a set time "чтобы не накапливать мусор". The previous meeting set one day (Bosik: "на прошлом митинге решили один день у меня было 3 написано"). Kovalchuk: a meeting at 19:00 Minsk time will not be seen by morning. Bosik: the morning report comes in the morning, so the window must be more than one day — "Давайте хотя бы 2 сделаем". Pavel and Kovalchuk agreed with more than one day. Pavel: weekends must not count — a Friday item must not be deleted before Monday; Bosik had planned this but not built it [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]].
 
@@ -53,7 +53,6 @@ No value was ruled. Later in the call Bosik twice described deletion "на 2 д�
 
 ## Open questions
 
-- How long does an AI Draft item live before deletion — one day (the previous meeting) or two or more days (Bosik, Pavel, Kovalchuk)? Not ruled — [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
 - Will one Listener that does everything scale to a real-time agent in MVP 2 and later? (Val) — [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
 - When does the agent get access to the second brain? Val asked; Bosik answered only with today's four sources — [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
 - What may launch on Friday Oct 16? On Oct 14 Speaker 2 said "в пятницу может и запустим" about work by "Дима" at its final stage, without naming it — [[raw/Meeting_Transcript_AI_PM_Keep_080_Threshold_and_Meeting_Rigor-October-14-2026.md]] [[raw/Meeting_Notes_AI_PM_Keep_080_Threshold_and_Meeting_Rigor-October-14-2026.md]]
@@ -67,6 +66,8 @@ At the [[wiki/meetings/2026-10-09-daily-standup-weekend-service-rollout-and-stat
 The same morning Chudinov told the bot not to create a task from his weekend roll-out remark ("пометка для бота не создавай") — the team already speaks to the agent in meetings [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]].
 
 ## History
+
+- *(Open question, answered Oct 16 2026)* How long does an AI Draft item live before deletion — one day or two or more days? Not ruled on Oct 8 — [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]] — *Oct 16 2026: Kovalchuk said a task must be handled within 24 hours or it disappears (stated as current practice, not a ruling; weekends not mentioned)* — [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
 
 - [x] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — improve the Teams agent so it gives real answers (Val: "в понедельник посмотрим") — due Monday Oct 12 2026 — [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]] — discharged as reported on Oct 14 (10:03 AM): "в Teams теперь достаточно хорошо отвечает по вопросам прошедшего митинга" (Speaker 2; speaker not marked, Bosik likely — **inference**). Val did not test it on the call — [[raw/Meeting_Transcript_AI_PM_Keep_080_Threshold_and_Meeting_Rigor-October-14-2026.md]]
 - [x] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — switch on live mode so features are created in the real Jira projects — due Monday Oct 12 2026 — [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]] — discharged on the day, as reported: at the Oct-12 stand-up Pavel said "у нас всё с сегодняшнего дня начинается" and Kovalchuk that it has started; that the items land in the real projects is not said in words (**inference**) [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
@@ -110,6 +111,24 @@ At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-l
 
 At the [[wiki/meetings/2026-10-14-ai-pm-keep-the-0-80-threshold-and-meeting-rigor.md|Oct-14 AI PM update]] (Russian; Val with Kovalchuk and Bosik, speakers not marked) Speaker 2 said the agent runs "как мы и договорились"; in Teams it now answers questions about past meetings well; each morning before a meeting it posts a link in the chat to what was agreed at the last meeting; in Jira it has only commented and created one task [[raw/Meeting_Transcript_AI_PM_Keep_080_Threshold_and_Meeting_Rigor-October-14-2026.md]]. The team's idea of lowering the threshold was turned down by Val — [[wiki/decisions/2026-10-14-the-ai-pm-keeps-its-0-80-confidence-threshold-and-meetings-get-more-concrete-instead.md]]. The draft lifetime question was not touched.
 
+## Update, Oct 16 2026 — an AI Draft task must be handled within 24 hours or it disappears; AI Draft goes into the dashboard's To Do column; tasks with no parent need a grooming step
+
+At the close of the [[wiki/meetings/2026-10-16-daily-standup-mvp2-wi-fi-scope-and-modem-mac-rollback.md|Oct-16 Minsk stand-up]] (Russian; Val absent) [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] spoke [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]:
+
+- **The draft lifetime, as now run.** "Если на вас агент назначает задачу, то её нужно обработать в в течение 20 04:00, иначе она пропадёт" — heard as "20 04:00", read by the notes as 24 hours [[raw/Meeting_Notes_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]. To handle it means moving it from AI Draft to another status, "Либо реджект, либо в тудо." This answers the open question from Oct 8 as a statement of how it works now; nobody ruled on it at this meeting, and weekends were not mentioned.
+- **AI Draft on the dashboard.** Pavel: "Давай вот этот вот аи драфт Добавим, чтобы он у нас отображался… В душбарде в колонке туду", "Потому что иначе будем упускать." Kovalchuk: "Да хорошо я сделаю."
+- **The previous day's output.** Three tasks — two for "Лёша" ([[wiki/people/alexei-khamin.md|Khamin]]) and one for "Антон", who has already taken it into work. Khamin confirmed his ("Эй создал у меня один 93… я в работу взял"; the notes: "193" as heard). The agent also commented on "НАТО 2" (the notes: NAD 2) and found tasks LGS 1226 and LGS 1228; someone must check they really belong to what was discussed. No one was named.
+- **Parents in Jira.** A report shows parents closed while some children sit in Backlog. Pavel: "Это похоже на ошибку". [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] proposed allowing tasks with no parent, for items nobody is sure will be done; Kovalchuk: "Звучит логично." Pavel: then "нам нужна процедура груминга" — daily review of new tasks with no parent; such tasks are created "чуть ли не каждый день" and are seldom looked at. No owner or rule was set.
+
+### Open commitments (Oct 16 2026)
+
+- [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — show the AI Draft status in the dashboard's To Do column — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+- [ ] Unassigned — check that LGS 1226 and LGS 1228 are the right tasks for the agent's NAD 2 comments — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]] [[raw/Meeting_Notes_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+
+### Open questions (Oct 16 2026)
+
+- Should Jira allow tasks with no parent, and who runs the regular grooming of them? (Vladimir, Pavel) — [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]] [[raw/Meeting_Notes_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
 - [[raw/Meeting_Notes_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
@@ -122,3 +141,5 @@ At the [[wiki/meetings/2026-10-14-ai-pm-keep-the-0-80-threshold-and-meeting-rigo
 - [[raw/Meeting_Notes_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
 - [[raw/Meeting_Transcript_AI_PM_Keep_080_Threshold_and_Meeting_Rigor-October-14-2026.md]]
 - [[raw/Meeting_Notes_AI_PM_Keep_080_Threshold_and_Meeting_Rigor-October-14-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]

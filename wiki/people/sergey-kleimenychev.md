@@ -2,8 +2,8 @@
 type: person
 title: Sergey Kleimenychev
 date: 2025-11-20
-aliases: [Sergey Kleimenychev, Kleimenychev Sergey, Sergey, Sergei, Sergey Kleimenich, Сергей Клемёныч, Клемёныч, кремёнычев, Kremyonychev, климеч, Klimech, клименвича, клименничева, Sergey Klimenchuk, клемёнычев, Лимёныч, Sergei Klemenchev]
-source-count: 6
+aliases: [Sergey Kleimenychev, Kleimenychev Sergey, Sergey, Sergei, Sergey Kleimenich, Сергей Клемёныч, Клемёныч, кремёнычев, Kremyonychev, климеч, Klimech, клименвича, клименничева, Sergey Klimenchuk, клемёнычев, Лимёныч, Sergei Klemenchev, Sergey Klimenovich, Сергей климёнович, Сергей льёныч]
+source-count: 8
 open-commitments: 4
 open-questions: 1
 disambiguation: "One of several 'Sergey/Sergei' at JVL. This Sergey = the graphics-team design generalist (artist + a bit of a programmer) who owns the artists' Git/LFS workflow. Distinct from Sergey Tsymanov (Minsk CMS-requirements engineer) and Sergei Novitsky (advanced-setup technician). Resolve by context."
@@ -72,6 +72,10 @@ At the [[wiki/meetings/2026-10-08-dragon-pays-vertical-accepted-and-dutch-mill-p
 
 - [ ] Sergey Kleimenychev — make a looping video from the static Dutch Mill topper, about 10 seconds — due Mon Oct 12 2026 (assigned in absentia) — [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]
 
+## Oct 16 2026 (in absentia) — the background video is stuck: his video-tool account is blocked
+
+At the [[wiki/meetings/2026-10-16-daily-standup-mvp2-wi-fi-scope-and-modem-mac-rollback.md|Oct-16 stand-up]] Pavel said the vertical games are held back by the background videos asked of "Сергея льёныча"; "у него там заблокировался аккаунт, почему то он не может на там на на банане работать или ещё на каких то там". Pavel's item for the AI PM: clarify with Andrei Bosik the video-AI access "для Сергея климёновича" [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]. The notes write "Sergey Klimenovich" [[raw/Meeting_Notes_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]. His looping Dutch Mill video (due Oct 12) is therefore not delivered — [[wiki/decisions/2026-10-08-texas-rage-games-convert-to-vertical-nova-unchanged-and-igor-ports-dutch-mill-first.md]] (Oct-16 update).
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
@@ -80,3 +84,5 @@ At the [[wiki/meetings/2026-10-08-dragon-pays-vertical-accepted-and-dutch-mill-p
 - [[raw/Meeting_Notes_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Street_Machine_Board_Spec_and_Georgia_Class_A_Order-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]

@@ -3,7 +3,7 @@ type: topic
 title: RIS (remote install/setup system) and machine states
 date: 2026-02-06
 aliases: [RIS, component allow-listing, portal access, give you access to the portal, reload after component change, born on the manufacturing floor, birth certificate, validator swap fraud, remote initial setup, remote install system, remote setup, RIS modernization, machine states, sold-machine RIS, RIS subscription, manual override screens, participation financed debt-free, the Passport, passport lock, passcode key, jugular of the whole operating system, peripheral lock, it's in the center not on the side, the passport must not be killed, do not confuse RIS and passport, the bindings are good we use them wrongly, unit 17 changed its bill acceptor, operator nominates who may update the passport, a technician to me is a business owner, hard reset, passport is a symptom not a root cause, eight hard-reset cases, factory reset, decommission and recommission, error code 2, boot loop, three kinds of factory reset, restore the last RIS, file store of every RIS, soft reset, use case 11, who scans the passport, one USB for the whole bank, MVP1 release of the RIS rework, RIS rework, soft factory reset, silent reset, reuse lastly applied RIS, one RIS and a list of machines, RIS inside the cabinet, RIS improvement MVP1, RIS improvements component, RIS changes review, offline RIS fallback, saved RIS on the machine, сколько угодно нет ограничений, BB 3521]
-source-count: 32
+source-count: 33
 open-questions: 20
 open-commitments: 3
 ---
@@ -437,6 +437,14 @@ This continues the "apply the old RIS" thread: Oct 6 (reuse the RIS saved after 
 - Whether **participation** machines (Florida, Colombia) fit the invoice/licensing model — carried over unresolved from the Apr-3-2025 session. [[raw/ris_business_central_integration-april-3-2025.md]]
 - Whether **location personnel** (and tips) can influence a sold machine's RIS configuration, or whether full control passes to the operator once the machine is sold — flagged undecided Jul-8-2026. [[raw/Meeting_Notes_RIS_Persona_Roles_Engineering_Review-July-8-2026.md]]
 
+## Oct 16 2026 (4:46 AM) — Kharetski analyses RIS; Tsymanov's RIS task; RIS before the payment hub
+
+At the [[wiki/meetings/2026-10-16-daily-standup-mvp2-wi-fi-scope-and-modem-mac-rollback.md|Oct-16 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]:
+
+- **[[wiki/people/evgeny-kharetski.md|Kharetski]]** began analysing RIS the day before ("рис буду вчера начал анализировать"). He settled the question he had with [[wiki/people/sergey-tsymanov.md|Tsymanov]]; they had meant to call but did not. Pavel: if there is no "Стопроцентной уверенности в ответе", meet all together and discuss.
+- **Tsymanov** finishes his first rework task today, then the task "По обновлению получению риса. Ну хотя вроде как там ничего делать не надо", then three report tasks (he named 35 and 21): one report that fires when an event happens, one with statistics over a number of days. Pavel: "Да можно так."
+- **RIS first.** On the payment hub Pavel told Tsymanov: "Давай сначала вот рисом занимаемся"; it is talked over once most of the RIS work is done — [[wiki/decisions/2026-10-15-mvp2-is-flex-iq-wi-fi-remote-update-diagnostics-and-galaxy-reporting-and-flex-pay-moves-to-mvp3.md]] (Oct-16 update).
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
@@ -471,3 +479,4 @@ This continues the "apply the old RIS" thread: Oct 6 (reuse the RIS saved after 
 - [[raw/Meeting_Notes_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]

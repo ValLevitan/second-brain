@@ -3,9 +3,9 @@ type: decision
 title: Val's MVP 2 — no Flex Pay; Flex IQ, Wi-Fi configuration, remote update for the Flexports and Flex IQ, diagnostics, Galaxy transactional brought up to reporting and dashboards, and the location's bank shortfall paid by card with the operator as guarantor — Flex Pay is retagged MVP 3, and each MVP takes two to three weeks with testing alongside development
 date: 2026-10-15
 aliases: [MVP 2 scope Oct 15, no Flex Pay in MVP 2, Flex Pay to MVP 3, retag Flex Pay MVP 3, гвоздь программы это вай фай, Wi-Fi is the centrepiece of MVP 2, remote update of Flexports moves to MVP 2, Galaxy transactional reporting and dashboards, location shortfall paid by card, Stripe on the location page, operator as guarantor, two to three weeks per MVP, desirably two weeks, development in parallel with testing, Andrei writes only functional requirements]
-source-count: 2
-status: active — Val's view, subject to the final MVP 2 list he is polishing with Andrei (Klimovich, by context — inference)
-open-commitments: 4
+source-count: 4
+status: active — Val's view, subject to the final MVP 2 list he is polishing with Andrei (Klimovich, by context — inference); Oct 16 2026: Pavel reported MVP 2 as only Wi-Fi and remote port update through Flex IQ, with Flex Pay renamed MVP 3 — the width of MVP 2 is an open contradiction (see the Oct-16 update)
+open-commitments: 6
 open-questions: 2
 ---
 
@@ -48,8 +48,8 @@ Pavel: for at least the next two weeks [[wiki/people/dmitri-chudinov.md|Dmitri C
 
 ## Open commitments
 
-- [ ] [[wiki/people/val-levitan.md|Val Levitan]] and [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] (by context — inference) — finish the MVP 2 list; then Andrei starts work with the team — due unspecified — [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]] [[raw/Meeting_Notes_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
-- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — go through the MVP 1 / MVP 2 items tomorrow; take the MVP 2 mark off Flex Pay and relabel it MVP 3 (he said "из flexпорта"; Irina: "С флекс пэя ты ими хотел сказать") — due Oct 16 2026 — [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
+- [ ] [[wiki/people/val-levitan.md|Val Levitan]] and [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] (by context — inference) — finish the MVP 2 list; then Andrei starts work with the team — due unspecified — [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]] [[raw/Meeting_Notes_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]] — *Oct 16 2026: Pavel reported a two-task MVP 2 from "yesterday's coordination meeting"; whether that was the finished list is not said* — [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — go through the MVP 1 / MVP 2 items tomorrow; take the MVP 2 mark off Flex Pay and relabel it MVP 3 (he said "из flexпорта"; Irina: "С флекс пэя ты ими хотел сказать") — due Oct 16 2026 — [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]] — *Oct 16 2026: Pavel told the stand-up that Flex Pay, until now MVP 2, "Переименован в 3"; whether the Jira marks were changed is not said, so left open* — [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] / [[wiki/people/irina-shishko.md|Irina Shishko]] — tell Andrei (Klimovich, by context — inference) the MVP 1 release date; he asked Val the day before and Val did not know what to say — due Oct 16 2026 (Irina: "наверное, мы завтра сможем") — [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
 - [ ] [[wiki/people/andrey-bosik.md|Andrei Bosik]] — review and update the Wi-Fi requirements already written, for MVP 2 — due unspecified (the notes mark the assignment "implied") — [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]] [[raw/Meeting_Notes_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
 
@@ -60,6 +60,30 @@ Pavel: for at least the next two weeks [[wiki/people/dmitri-chudinov.md|Dmitri C
 
 **§15.8:** clear — scope, dates and staffing only; vacations are availability facts. **§15 #9:** none.
 
+## Update, Oct 16 2026 — Pavel to the Minsk stand-up: MVP 2 is "only" two tasks; Flex Pay is renamed MVP 3; three weeks
+
+At the [[wiki/meetings/2026-10-16-daily-standup-mvp2-wi-fi-scope-and-modem-mac-rollback.md|Oct-16 Minsk stand-up]] (Russian; Val absent), after Irina asked about the MVP 2 capabilities, [[wiki/people/pavel.md|Pavel]] reported on "вчера был митинг координационный по поводу транзакшного продуктов" [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]:
+
+- **The rename.** "то, что до сих пор называлось MVP 2, то есть флекс пэй. Переименован в 3."
+- **The scope.** "в мвп 2 попадает исключительно там 2 задачи это поднятие вай фай. На flex спартах вайфай на флекс IQ. И ремонт апдейт портов через fex IQ." (The notes read "ремонт апдейт" as remote update [[raw/Meeting_Notes_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]].)
+- **Why.** "вал не хочет миксовать всё вместе. Это будет потому что сложно всё параллельно и проверять, и. Там запускать".
+- **How long.** "ближайшие 3 недели это будет вот какието улучшательства по флекс ай q портам включая вайфай. И включая ремонт апдейт". With Chudinov back from vacation only in a week, Pavel will see whether to reshape the work, for example by giving Sergey some tasks.
+- **Requirements.** Check which capabilities and requirements exist and create the missing ones: "Большинство из этих требований… не функциональное. Поэтому мы сами можем отгенерировать." [[wiki/people/irina-shishko.md|Irina]] will finish the tests she started, then look at the MVP 2 capabilities.
+- **The payment hub, not in this list.** Pavel said the payment hub came up "вчера" too: [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]]'s experiment with Stripe and card payment "тоже надо будет делать", but no timeline was set, and "нейтану чтото надо будет доделать" ([[wiki/people/nathan-carver.md|Nathan]]). Sergey: it runs through the billing service; the open part is the UI — pay one unpaid invoice, a list of unpaid ones, part-payment. Pavel: "давай пока не будем фокусироваться. Давай сначала вот рисом занимаемся"; later, have Claude draw the screens from existing ones and show them "валу, показать Андрею" (this Andrei is not identified — Klimovich is likely, **inference**). Sergey has looked only at Stripe; fees differ by vendor. Pavel: Stripe "один из самых самых крупных по Америке". Which MVP this belongs to was not said. This bears on the location shortfall paid by card, above.
+
+The notes record the scope as "Decided by Val, reported by Pavel Frolov", and the payment-hub wait as Pavel's decision [[raw/Meeting_Notes_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]].
+
+### Open contradictions (Oct 16 2026)
+
+- **How wide MVP 2 is.** On Oct 15 Val listed Flex IQ, Wi-Fi configuration, remote update of the Flex-Ports and Flex IQ, diagnostics, Galaxy transactional reporting and dashboards, and the location shortfall paid by card [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]. On Oct 16 Pavel reported that MVP 2 holds "исключительно" two tasks, Wi-Fi and remote port update through Flex IQ [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]. Pavel's "coordination meeting" may be a later session that narrowed the list (for example Val's session with Andrei), or the same Oct-15 talk retold — not said. Both are kept; nothing resolved.
+
+### Open commitments (Oct 16 2026)
+
+- [ ] The Minsk team (Pavel) — check the MVP 2 capabilities and requirements and create the missing ones, mostly non-functional — due within the next three weeks — [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]] [[raw/Meeting_Notes_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — finish her open tests, then review the MVP 2 capabilities — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
 - [[raw/Meeting_Notes_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]

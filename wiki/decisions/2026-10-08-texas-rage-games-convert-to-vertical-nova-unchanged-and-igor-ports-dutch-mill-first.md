@@ -3,9 +3,9 @@ type: decision
 title: The horizontal Texas games on RAGE are converted to vertical NOVA games with Igor's 20% method, with no change to maths or function; Igor ports Dutch Mill first and Sergey Kleimenychev only makes the video (Oct 8 2026)
 date: 2026-10-08
 aliases: [Texas blind conversion, в тупую слепую, Texas Rage to Nova vertical, перевозим их на нова вертикальные, 20 percent stretch, symbols 20% taller than wide, Dutch Mill first port, дач мил, Kleimenychev video only, looping topper video, keep it confidential, держим конфиденцию, Games convert horizontal to vertical, one feature per game under capability 240, рейчту новым migration]
-source-count: 4
+source-count: 6
 status: active
-open-commitments: 7
+open-commitments: 8
 open-questions: 3
 ---
 
@@ -87,8 +87,24 @@ At the [[wiki/meetings/2026-10-15-daily-standup-offline-ris-fallback-and-nova-ga
 - **"над" again.** Igor called the games the designers are now drawing "текущий над 2", not Dakota. What "над" names is still **unclear**; see the open question above on the older games.
 - **Not reported here:** the Dutch Mill port or Igor's testing status (due "Thu Oct 15" per the commitment above). The stand-up is not that meeting; status unknown.
 
+## Update, Oct 16 2026 — the vertical Dutch Mill has all its scenes; Efim's maths container; the background video is stuck on a blocked account
+
+At the [[wiki/meetings/2026-10-16-daily-standup-mvp2-wi-fi-scope-and-modem-mac-rollback.md|Oct-16 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]:
+
+- **Dutch Mill.** [[wiki/people/igor-metelski.md|Igor]] continues the vertical version: "в принципе, у меня как бы всё готово… все сцены игры созданы по большому счёту". He asked whether to call and agree on the next steps. [[wiki/people/efim-podvoiski.md|Efim]] packed the Dutch Mill maths in a container for the OMNI format ("для о мни короче формата"); Igor asked him for one game only and has not yet looked at what is inside; he expects to run that server locally. Nothing else blocks him: "У нас ничего больше не сдерживает. Ну у меня всё есть, я всё сделал."
+- **The topper video.** Pavel: what holds things back is the background videos asked of [[wiki/people/sergey-kleimenychev.md|Sergey Kleimenychev]]; his account on the video-generation tools is blocked, and "Андрей" looked into accounts the day before (Bosik, by context — **inference**). Igor tried free video tools and found them limited; he made generated art with programmatic animation instead and offered to show it. Pavel: in parallel, write a request for the video needed and try from the static start screen.
+- **A meeting with Val.** Igor: "надо нам с валом собираться типа"; Pavel: "Похорошему надо, я думаю". No date was set.
+
+On the commitments above: the Dutch Mill port (due Oct 19) is near done but not reported finished; Sergey's looping video (due Oct 12) is not delivered — his account is blocked; Pavel's check with Efim about the Texas-maths container now has a Dutch Mill container from Efim — whether that settles it is not said. All stay open.
+
+### Open commitments (Oct 16 2026)
+
+- [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — show Pavel the generated art with programmatic animation; set up a meeting with Val on the next steps — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]] [[raw/Meeting_Notes_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]
 - [[raw/Meeting_Notes_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]

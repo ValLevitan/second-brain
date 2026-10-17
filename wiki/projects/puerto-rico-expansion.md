@@ -2,8 +2,10 @@
 type: project
 title: Puerto Rico expansion
 date: 2026-07-12
-aliases: [Puerto Rico expansion, Puerto Rico office, PR route market, gaming license, resident agent, FYC Consulting, Ruta license, IGS, vertical machines, Chinese copies]
-source-count: 12
+aliases: [Puerto Rico expansion, Puerto Rico office, PR route market, gaming license, resident agent, FYC Consulting, Ruta license, IGS, vertical machines, Chinese copies, Puerto Rico distributor, Puerto Rico beta test, Camineros, Puerto Rico Gaming Board, Christian (PR distributor), Jaime, Royal Gaming Logistics, Michael Snyder, Latm Solutions]
+source-count: 14
+open-commitments: 2
+open-questions: 2
 ---
 
 # Puerto Rico expansion
@@ -113,6 +115,44 @@ At the [[wiki/meetings/2026-08-25-really-killer-systems-operator-vetting.md|Aug-
 - **Still unregulated in practice.** "They're still operating independently." Asked if still grey: "they keep trying to make it more like Georgia. But then it falls apart. I don't think the right people are getting greased." [[raw/Meeting_Transcript_Really_Killer_Systems_Operator_Vetting-August-25-2026.md]]
 - **The interlock that never came.** The authorities announced "a state one to come in and do like an interlock style setup" twice ("No, for real this time"), and "they didn't. So… it's an unknown there." Meanwhile operators "were still using ours" — RKS's "unit that does online bookkeeping". [[raw/Meeting_Transcript_Really_Killer_Systems_Operator_Vetting-August-25-2026.md]]
 
+## Oct 16 2026 — a competitor's sales lead offers a distributor, and Val sets terms
+
+Over breakfast, [[wiki/people/david-villari.md|David Villari]], sales lead at [[wiki/organizations/bad-dog-zephyr.md|Bad Dog / Zephyr]], described the island and offered to connect JVL with a distributor; [[wiki/people/val-levitan.md|Val]] and [[wiki/people/felipe-miranda.md|Felipe]] attended ([[wiki/meetings/2026-10-16-david-villari-zephyr-puerto-rico-distribution-and-beta-test.md]]). The market figures are David's own; none is checked against another source. [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+
+### The market, in David's words
+
+- **Size.** "There's 120,000 illegal machines, and there's only about five to six thousand legitimate connected approved machines… the market has a cap of 20,000 regulated machines… so they're nowhere near capacity." [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+- **Games.** "there's no good games down there. The best game they have is an old Novomatic"; many "copies from China" on the street; old grandfathered single-screen machines that can no longer be added. "There's only three games right now that actually make money": Novomatic, Zephyr/Bad Dog and EGT. [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+- **Rules.** Class III. "you can only have a hundred machines per license. But you can have multiple licenses." The state tax is "twenty-two percent… higher than Georgia by eight percent." "There's twenty-two casinos on the islands". [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+- **Certification.** Get GLI certification, "send it to the Puerto Rico Gaming Board, and then you're fine." Val called it "a light certificate… an easy certificate"; David: "If you're already class three certified, which you guys are". See [[wiki/organizations/gli.md]]. [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+- **Payout.** Machines need "a bill acceptor or a printer. Everybody's using a ticket redemption system". Kiosks "need to be around five" thousand; most places pay by hand at the counter: "They don't need a kiosk." [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+- **How business is done.** "They spend the money before they get the money, so you have to give them terms." Zephyr sells FOB Miami / Fort Lauderdale; the distributor pays truck, shipping, duties and fees, and gets "six month terms". An ocean container holds about 70 machines ("we ship 72 at a time"). [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+- **The OTB side.** The OTB business (heard "Camineros") is "owned by IGT right now… it's for sale", with offers of "45 million and 65 million"; "a guy in Georgia" with outside capital is bidding, and David says he introduced the parties. [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+
+**Set against earlier figures on this page (not reconciled).** In March 2025 Val estimated 70,000–100,000 illegal route machines, 21 casinos, a first regulated tranche of 25,000, and an OTB contract held by [[wiki/organizations/scientific-games.md|Scientific Games]] [[raw/games_markets-march-24-2025.md]]. David's October 2026 figures are 120,000, twenty-two casinos, a cap of 20,000, and IGT. These come from different people at different dates; which is right is **unclear**.
+
+### The people David named
+
+- **Christian** — Zephyr's distributor, "We got three licenses", partnered with a large local property owner; "Christian would be the guy" to push JVL's product. [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+- **Jaime** ("Jamie") — "He's looking for a new manufacturer." There are two Jaimes; David will text to check which (the name "Royal Gaming Logistics" came up). Val said he knows a Jaime whose family did business with him through an earlier contact (garbled). Whether either is the Jan-2025 **Jaime Rivera** of FYC Consulting (above) is **not stated**. [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+- **Michael Snyder** — "out of Vegas", runs a company heard as "Latm Solutions"; a "placer" who tests games in Vegas and places them in Latin America (Panama, Colombia, Argentina named). [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+
+### Val's terms and the next step
+
+- **Terms:** one reliable distributor; 20% commission on a ~$9,000 machine; no financing or collecting by JVL; JVL's transactional equipment offered too. Full detail on [[wiki/decisions/2026-10-16-puerto-rico-goes-through-one-distributor-at-twenty-percent-with-no-jvl-financing.md]]. [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+- **A small beta first.** David: "get a machine… Place it in the location. Let it run for ninety days… Maybe one, maybe three machines… Small beta test." Christian "will try them… They'll show numbers." Who pays for the test machines was left open: "I don't know what you want to do about the one or two machines that you're going to send down there. Good faith, try them out." [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+- **Val's history on the island.** "I actually done so much business in Puerto Rico through the bill acceptor business… and through some eight-line machines that we used to manufacture in the '80s and horse racing machines." The notes add CashCode bill acceptors. [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]] [[raw/Meeting_Notes_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+
+## Open commitments
+
+- [ ] [[wiki/people/david-villari.md|David Villari]] — call Christian and Jaime on his drive and put Val and Felipe in contact with the right Puerto Rico partner — due Oct 16 2026 — [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+- [ ] [[wiki/people/david-villari.md|David Villari]] — text to check which Jaime is meant — due unspecified — [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+
+## Open questions
+
+- Will JVL send one to three machines for a 90-day beta, and on what terms (who pays for them)? — [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+- If a partner is found, who at JVL files the GLI certificate with the Puerto Rico Gaming Board? The notes leave this unassigned — [[raw/Meeting_Notes_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+
 ## Sources
 
 - [[raw/games_performance_review_juan_martinez-may-30-2025.md]]
@@ -127,3 +167,5 @@ At the [[wiki/meetings/2026-08-25-really-killer-systems-operator-vetting.md|Aug-
 - [[raw/evolution_flex_pay-april-11-2025.md]]
 - [[raw/estrella_engagement_agreement_negotiations-may-5-2025.md]]
 - [[raw/Meeting_Transcript_Really_Killer_Systems_Operator_Vetting-August-25-2026.md]]
+- [[raw/Meeting_Notes_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+- [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]

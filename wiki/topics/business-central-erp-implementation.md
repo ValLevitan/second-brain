@@ -3,8 +3,8 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention, installment payments, aged receivables, Customer Ledger Entries, category-based terms, subscription module, parts vs machines terms, Black Horse Entertainment, Sales Watch, import duties tax category, landed cost, tax category, assembly BOM, production BOM, BOM history, BOM sync robot, tag stamp on item card]
-source-count: 86
-open-questions: 5
+source-count: 88
+open-questions: 7
 ---
 
 # Business Central ERP implementation (JVL's Dynamics 365 rollout)
@@ -62,6 +62,8 @@ An earlier Apr-3 use of BC: it is the intended data source for **software-licens
 - Is each of the ~147 GL accounts fully mapped for the specific **dimensions** it will need? (Val: still to be assessed account by account.) (Aug-11 2026.) [[raw/Meeting_Notes_COA_Tracer_GL_Account_Review-August-11-2026.md]]
 - Sequencing of the **auxiliaries/sub-ledgers and posting-group** combinations after the chart of accounts is set — Igor's "what is next" concern, acknowledged but not resolved. (Aug-11 2026.) [[raw/Meeting_Notes_COA_Tracer_GL_Account_Review-August-11-2026.md]]
 - Which other items, beyond the one that showed 233 instead of 29, carry the same missed adjustment from the July count load? Lev could not say during the call; he was still going through the block. (Oct 1 2026.) [[raw/Meeting_Transcript_Lev_Rudky_Missed_Inventory_Adjustments-October-1-2026.md]]
+- How is the second Georgia warehouse (semi-finished goods, old machines) kept apart from main stock? Lev: "Хорошего разделения нету"; no fix was agreed. (Oct 16 2026.) [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]
+- Can the inventory work be taken off Lev for good? He agreed in short but was not sure it can be achieved. (Oct 16 2026.) [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]
 
 ## Apr 28 2025 — deeper status: Systems solid, Labs plan, tariffs, software sales, PO roles
 
@@ -502,6 +504,29 @@ On the [[wiki/meetings/2026-10-13-github-msbc-ai-bom-control-gate-and-msbc-only-
 
 Rulings: [[wiki/decisions/2026-10-13-procurement-reports-come-only-from-msbc-and-the-excel-export-report-goes-away.md]] and [[wiki/decisions/2026-10-13-the-agent-builds-the-bom-as-a-control-gate-taught-by-data-contracts-not-cad-and-genadi-finds-why-it-is-wrong.md]] (the BOM stream, kept separate).
 
+## Oct 16 2026 — Lev's load and what fills it; inventory control is the root problem
+
+On the [[wiki/meetings/2026-10-16-lev-rudky-workload-inventory-control-and-mery-replacing-misha.md|Oct 16 1:34 PM call]] (Russian; Val and Lev only) Val asked how much BC work Lev carries now. Lev: about "70 80 но бывают рывки" [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]. What he listed:
+
+- **The engineering BOM does not match production.** "Бил инженерный било материал… Он не всегда соответствует… Потому что происходит на производстве." About "Гдето 40?… 45 наименований" of small parts ("кулёчки, какие то пластиковые") have no practical value but disrupt the assembly process ("Но это сбивает… Процесс сборки"). Other surprises show up only during assembly ("Оно выходит во время сборки") [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]].
+- **Returned Flex units.** About 40 Flex units came back recently, against which credit will be given on future sales ("40 флексов… За которой будет выдан кредит. На будущих продажах"). They will be refurbished into new machines, so Lev needs a concrete diagnosis for each one ("Какой конкретный диагноз?") [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]].
+- **Work that came over from Tolik.** Building assembly lists, inventory, scrap ("скрепенс"), and working out a price per part per customer — "Пришло ко мне" [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]. Tolik = [[wiki/people/anatol-strekalov.md|Anatol Strekalov]] per the notes [[raw/Meeting_Notes_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]].
+- **The sales-rep access customization — done.** Access to the system for [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]'s team, without access to other people's sales. Lev: it is not just about invoices, since other sales can be seen through other transactions and items; blocking that "Берет много времени". He "начал с консультантом и закончил сам" [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]. *(This updates the Apr 15 2026 state above, where the sales-person data segregation was "still not working (parked)". Inference: this is the same piece of work — both are about reps not seeing other reps' sales.)*
+- **Spikes.** [[wiki/people/elizabeth.md|Elizabeth]] calls to ship something urgently, so he must assemble it urgently; a tax is calculated wrong; "Лора" asks how to do something he has never done, so he must learn it first, then show her ("Лора" = [[wiki/people/laura.md|Laura]] — inference); questions on the general chart of accounts. Lev: "Обычно это проблема в наших данных" [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]].
+
+**Inventory control — Lev's rules for a recount** [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]:
+
+- A recount must keep "Довольно жёстких параметров": everything that came in must be received, everything shipped must be posted, and "во время пересчёта… Ничего не должно двигаться".
+- In practice the count period ends early and movement starts again before all the items are done.
+- Parts not yet fully received must not be used. Today he consumes a part in assembly, then the receipt adds the quantity again: "Получается, что у нас есть в инвенторе то чего нету."
+- Movements not registered in the system, or registered late, overlap ("Накладываются").
+
+**A second warehouse in Georgia.** Lev: "Мы в джорджии… Открыли… 2 скоро"; Val: "Мы открыли 2 склад вещей, которые мы никогда не пользуемся" — mostly semi-finished goods and old machines. Lev did not know it had been opened: "Хорошего разделения нету." He calls it a secondary problem that does not hit his daily work directly, but fast-moving parts posted to the wrong warehouse also cause problems [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]].
+
+**Val's summary and the ruling.** Val: the sorest point is manufacturing, inventory, and receipts against vendor orders; it is all inventory control, down to how invoices are issued. Lev agreed that everything starts there. They will fix it together so [[wiki/people/mary.md|Mary]] can run the work alone — [[wiki/decisions/2026-10-16-val-and-lev-focus-together-on-inventory-control-so-mary-can-run-ordering-alone.md]] [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]] [[raw/Meeting_Notes_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]].
+
+**An open purchase order.** Lev saw that Mary issued a purchase order (vendor garbled, "делай") with several threads about amendments, and asked what amount and which purchase lines to use. Val: "Меры уже выходят в понедельник, и она это сделает" [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
@@ -591,3 +616,5 @@ Rulings: [[wiki/decisions/2026-10-13-procurement-reports-come-only-from-msbc-and
 - [[raw/Meeting_Notes_Bank_of_America_CashPro_Business_Central_Source_of_Truth_and_Customer_ACH_Portal-October-13-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
+- [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]
+- [[raw/Meeting_Notes_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]

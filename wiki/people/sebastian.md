@@ -3,7 +3,7 @@ type: person
 title: Sebastian
 date: 2025-02-19
 aliases: [Sebastian, Sebastian Cortes, the engineer I brought in from Miami]
-source-count: 23
+source-count: 24
 open-commitments: 3
 open-questions: 2
 ---
@@ -137,6 +137,10 @@ From the [[wiki/meetings/2026-10-14-returns-triage-sebastian-and-support-calls.m
 
 - Will JVL buy the hard-drive and RAM test equipment Sebastian asked for? — [[raw/Meeting_Transcript_Returns_Triage_Sebastian_and_Support_Calls-October-14-2026.md]]
 
+## Oct 16 2026 (10:01 AM, in absentia) — SAS settings on the borrowed machines
+
+At the [[wiki/meetings/2026-10-16-third-party-egm-flex-port-sas-connection-tests.md|Oct-16 10:01 AM third-party EGM call]] Klimovich said Sebastian would spend that day on the machines' SAS settings, and that he and Sebastian are on hand for physical steps such as pressing cash-out during Minsk's remote tests — [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] (Oct-16 update, with the commitments) [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
@@ -162,3 +166,4 @@ From the [[wiki/meetings/2026-10-14-returns-triage-sebastian-and-support-calls.m
 - [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
 - [[raw/Meeting_Transcript_RIS_MVP2_Scope_and_Release_Timing-October-12-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
+- [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]

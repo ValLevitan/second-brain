@@ -3,9 +3,9 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, eighty percent of the general functionality, requirements are step two, a hole automated tests will not cover, acceptance criteria in general terms, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction, Figma to React, Vite, Claude Code review loop, acceptance criteria, two test warehouses, frozen test cases, test harness, test registry, no E2E tests for MVP 1, E2E micro-step, telnet hook test, 60 to 70 percent acceptance criteria, symlink to dev null, eight connection tests, money-crediting autotest]
-source-count: 77
-open-commitments: 69
-open-questions: 10
+source-count: 80
+open-commitments: 72
+open-questions: 11
 ---
 
 # Test-automation strategy and testing architecture
@@ -902,6 +902,35 @@ At the [[wiki/meetings/2026-10-15-daily-standup-offline-ris-fallback-and-nova-ga
 
 - Where did Claude get the rule that a printed ticket not taken within about 10 minutes becomes invalid? — [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
 
+## Oct 16 2026 (4:46 AM) — Khamin's hardware CI and the AI's task; Seregin finds a paper jam shows only at the next print; Ivan's 0x89 case is likely not real; Vladimir's Galaxy autotests and a modem bug
+
+At the [[wiki/meetings/2026-10-16-daily-standup-mvp2-wi-fi-scope-and-modem-mac-rollback.md|Oct-16 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]:
+
+- **[[wiki/people/alexei-khamin.md|Khamin]].** Still fighting to run the CI tests on real hardware. The AI agent created a task for this ("один 93"; the notes: "193" as heard [[raw/Meeting_Notes_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]); he took it into work. He reviews, and fixes incoming tests one by one so that those that can run on the emulators do.
+- **[[wiki/people/anton-seregin.md|Seregin]].** He will close "102 103 129" today. He moved to a terminal where the scanner and the printer work together, to cover simultaneous scanning and printing, reprints of lost or torn tickets, printer connection and paper jams. Finding: a jam is known "только при следующей печати не сразу" — the screen stays "Как будто всё нормально". [[wiki/people/sergey-tsymanov.md|Tsymanov]]: alerts show only on certain screens — by the requirements, on Home — so from that screen it is not seen, "но по сути он распечатался". Seregin: such cases "в эмуляторных сценариях. Невозможно было узнать." He finishes the printer scenarios today.
+- **[[wiki/people/ivan.md|Ivan]] — the 0x89 case.** In a test where the machine's IP changed by DHCP, a transaction made right after failed with "ноль икс 89", because the port had not yet registered with the machine. He made himself a task, to fix with Claude and have Pavel review. Pavel: "скорее всего, это нереальный кейс" — a Flex-Port moved to another machine loses power and then registers on its own. Ivan will ask what the fix involves; if it is not needed, they skip it. He also left comments on PR 226 (Khamin's, "лёша"), has another PR waiting, works on 66, then "тинт 80".
+- **[[wiki/people/vladimir-samusenko.md|Vladimir]] — Galaxy autotests.** Closed 71 and 72; 71 and 31 wait for a run on hardware; a pull request on 33. He opened a backlog story: after a change of connection priority the modem does not come up until a reboot — Pavel: it must be fixed ([[wiki/decisions/2026-10-16-the-flex-iq-commit-that-sets-the-modem-mac-at-boot-is-rolled-back-and-the-shared-mac-stays.md]]). Next 57 and 63, perhaps over the weekend.
+
+### Open commitments (Oct 16 2026, 4:46 AM)
+
+- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — close 102, 103 and 129 and finish the printer scenarios — due Oct 16 2026 — [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+- [ ] [[wiki/people/ivan.md|Ivan]] — find out what the 0x89 fix after a DHCP change involves, and fix it only if needed (Pavel to review) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+- [ ] [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] — finish 71, 31 and 33, then 57 and 63 — due unspecified (perhaps the weekend) — [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+
+### Open questions (Oct 16 2026, 4:46 AM)
+
+- Should a paper jam be shown at once rather than at the next print, given alerts show only on the Home screen by the requirements? Raised by Seregin's test; not ruled — [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+
+## Oct 16 2026 (10:01 AM) — testing other makers' machines from Minsk: a debug build with a console, AI over the data, and emulated events
+
+At the [[wiki/meetings/2026-10-16-third-party-egm-flex-port-sas-connection-tests.md|Oct-16 10:01 AM third-party EGM call]] (Russian) [[wiki/people/pavel.md|Pavel]] said the router link to the borrowed machines alone gives Minsk nothing, "потому что мы про эти машины ничего не знаем". His method [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]:
+
+- **A debug Flex-Port build on every port.** It has a console "через которую мы можем с искусственным интеллектом доставать гораздо больше информации", on the fly, and emulate events — send or accept money remotely "без Того, чтобы реально сканировать тикет".
+- **Each port labelled with its IP address,** so each case is tied to a port and a machine; then the SAS logs are read machine by machine.
+- **The limit.** On the debug build he can emulate a ticket held to the port, "но я не смогу нажать на машине cashаут" — people on site are needed ([[wiki/people/andrei-klimovich.md|Klimovich]] and [[wiki/people/sebastian.md|Sebastian]]).
+
+Results, commitments and the Oct-21 return date: [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] (Oct-16 update).
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -981,3 +1010,6 @@ At the [[wiki/meetings/2026-10-15-daily-standup-offline-ris-fallback-and-nova-ga
 - [[raw/Meeting_Notes_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+- [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]

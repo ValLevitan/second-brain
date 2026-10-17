@@ -3,7 +3,7 @@ type: person
 title: Anatol Strekalov
 date: 2024-01-01
 aliases: [Anatol Strekalov, Anatoly, Anatole, Анатолий]
-source-count: 8
+source-count: 10
 open-questions: 1
 ---
 
@@ -19,6 +19,8 @@ In that call Val addresses him as "Anatole" and "Anatoly". [[raw/Meeting_Transcr
 
 - **May 7 2026 — "Anatoly" has left.** On the cloud-migration call, the Tableau licence renewal is one seat smaller: "поскольку Анатолий ушёл. Его лицензия больше не учитывается." See [[wiki/topics/docs-as-code-and-atlassian-exit.md]] (May 7 2026). [[raw/CAS_Cloud_Migration_ex-CMS_Grooming_Follow-up-May-7-2026.md]] *(Inference: this fits him — an Excel/reporting person who left after the March 2 notice — but the source gives no surname.)*
 - **May 21 2026 — "Toli".** Val proposed asking "Anatoly (Toli)", a "former JVL employee, no longer working for the company" who "built the legacy Navision reports", to extract Navision cost data as a paid contractor. See [[wiki/topics/business-central-erp-implementation.md]] (May 21 2026). [[raw/Meeting_Notes_bom_cost_extraction_msbc_mcp-May-21-2026.md]] [[raw/Meeting_Transcript_bom_cost_extraction_msbc_mcp-May-21-2026.md]] *(Not force-matched; see Open questions.)*
+
+- **Oct 16 2026 — "Толик": his work came to Lev.** On the [[wiki/meetings/2026-10-16-lev-rudky-workload-inventory-control-and-mery-replacing-misha.md|Oct 16 1:34 PM call with Lev Rudky]] Lev said work that "Толик" did came to him: assembly lists, inventory, scrap, and per-customer part pricing ("Пришло ко мне") [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]. The notes name him "Tolik (Anatol Strekalov, a former JVL employee — confirmed by Val 2026-10-16)" [[raw/Meeting_Notes_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]. Detail on [[wiki/people/lev-rudky.md]] (Oct 16).
 
 ## History
 
@@ -40,3 +42,5 @@ In that call Val addresses him as "Anatole" and "Anatoly". [[raw/Meeting_Transcr
 - [[raw/CAS_Cloud_Migration_ex-CMS_Grooming_Follow-up-May-7-2026.md]]
 - [[raw/Meeting_Notes_bom_cost_extraction_msbc_mcp-May-21-2026.md]]
 - [[raw/Meeting_Transcript_bom_cost_extraction_msbc_mcp-May-21-2026.md]]
+- [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]
+- [[raw/Meeting_Notes_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]

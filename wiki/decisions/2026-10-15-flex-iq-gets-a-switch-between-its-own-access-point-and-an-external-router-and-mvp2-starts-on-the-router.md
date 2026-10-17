@@ -3,7 +3,7 @@ type: decision
 title: Flex IQ gets a switch — its own Wi-Fi access point or an external router; MVP 2 starts with the switch and an external router, and the router moves inside JVL hardware in MVP 3 or later
 date: 2026-10-15
 aliases: [router or Flex IQ access point, Flex IQ as access point, свой точка доступа или внешняя, переключатель режим роутера, router mode or client mode, switch between access point and router, router moves inside in MVP 3, MVP 3 4 or 5 router inside, soldered Wi-Fi chip on the RK3568, not industrial grade Wi-Fi chip, antenna in the plastic cover, Bosik Wi-Fi spike, separate JVL Wi-Fi unit, Wi-Fi always included]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 2
 open-questions: 4
@@ -68,6 +68,11 @@ Val asked, "не в своём амплуа", whether JVL should leave the on-bo
 
 **§15.8:** clear — product design and equipment only. **§15 #9:** clear — Wi-Fi names and passwords are discussed as a design matter; no value was spoken.
 
+## Note, Oct 16 2026 — Wi-Fi is half of MVP 2
+
+At the [[wiki/meetings/2026-10-16-daily-standup-mvp2-wi-fi-scope-and-modem-mac-rollback.md|Oct-16 Minsk stand-up]] (Russian) [[wiki/people/pavel.md|Pavel]] said MVP 2 holds two tasks, the first "поднятие вай фай. На flex спартах вайфай на флекс IQ", and that the next three weeks go to Flex IQ and port improvements "включая вайфай" [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]. Nothing was said about the switch, the router or Bosik's antenna spike. See [[wiki/decisions/2026-10-15-mvp2-is-flex-iq-wi-fi-remote-update-diagnostics-and-galaxy-reporting-and-flex-pay-moves-to-mvp3.md]] (Oct-16 update).
+
 ## Sources
 - [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
 - [[raw/Meeting_Notes_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]

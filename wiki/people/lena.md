@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna, Selena, Elena]
-source-count: 76
+source-count: 77
 open-commitments: 16
 ---
 
@@ -348,6 +348,10 @@ At the [[wiki/meetings/2026-10-08-game-design-class-a-party-time-and-dual-box.md
 - [ ] Lena Zhukova — finish the detailed Lions Riches Class A storyboard (GD-979) — due unspecified — [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
 - [ ] Lena Zhukova — finish the Solar Keno design for South Dakota — due unspecified — [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
 
+## Oct 16 2026 (in absentia) — Nebraska 2 resources
+
+At the [[wiki/meetings/2026-10-16-daily-standup-mvp2-wi-fi-scope-and-modem-mac-rollback.md|Oct-16 stand-up]] Pavel said the resources missing from Leshkevich's port into the new project are what "Лена с дизайнерами" are making now; it is "небраска 2", a horizontal Nebraska [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]] — [[wiki/topics/nova-platform-architecture.md]] (Oct 16).
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 - [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
@@ -427,3 +431,4 @@ At the [[wiki/meetings/2026-10-08-game-design-class-a-party-time-and-dual-box.md
 - [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
 - [[raw/Meeting_Notes_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
 - [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]

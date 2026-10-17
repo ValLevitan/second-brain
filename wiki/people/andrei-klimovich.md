@@ -4,8 +4,8 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich, Andre]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 118
-open-commitments: 110
+source-count: 122
+open-commitments: 114
 open-questions: 0
 ---
 
@@ -879,6 +879,24 @@ At the [[wiki/meetings/2026-10-15-wi-fi-router-switch-power-loss-battery-and-mvp
 
 At the [[wiki/meetings/2026-10-15-blue-sky-gold-rush-refurbished-machines-offer-and-transactional-demo.md|Oct-15 Blue Sky / Gold Rush meeting]] he gave the transactional demo (part of Speaker 1, per the notes [[raw/Meeting_Notes_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]): the Flex-IQ at the counter, the kiosks, wallets, split redemption, and the Flexport. Val built on it ("I also would like to qualify one thing that Andrei was saying about the POS system"), and Felipe referred to "As Andrei Klimovich said, simple connections" — detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 15) [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]].
 
+## Oct 16 2026 (10:01 AM) — the other makers' machines: results by maker, and the debug-build plan
+
+At the [[wiki/meetings/2026-10-16-third-party-egm-flex-port-sas-connection-tests.md|Oct-16 10:01 AM third-party EGM call]] (Russian; he organised it, per the notes [[raw/Meeting_Notes_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]) he reported that all ports in the borrowed machines are active since the day before; load works on some, cash-out fails on most (Aristocrat locks after a few tries, IGT never, the "баниле" machine neither); he did not remember the Light & Wonder result. The machines go back on Wednesday. Pavel set the next steps — [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] (Oct-16 update) [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]].
+
+## Open commitments (Oct 16 2026, 10:01 AM)
+
+- [ ] Andrei Klimovich with Elizabeth — flash the debug build onto every Flex-Port in the set-up (ST-Link) — due before Oct 21 2026 — [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]] [[raw/Meeting_Notes_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
+- [ ] Andrei Klimovich — send the list of port IP addresses with their machines, plus the current Flex IQ IP — due before Oct 21 2026 — [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
+- [ ] Andrei Klimovich, with Sebastian — be on hand for physical steps on the machines (such as cash-out) during remote tests — due until Oct 21 2026 — [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
+
+## Oct 16 2026 (2:00 PM) — recap of the Vysotsky call to Val
+
+At the [[wiki/meetings/2026-10-16-klimovich-recap-of-the-vysotsky-call-location-owner-outreach.md|Oct-16 2:00 PM recap of the Vysotsky call]] (Russian; Speaker 1, confirmed by Val per the notes [[raw/Meeting_Notes_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]]) he reported Sergey Vysotsky's spike, the "Sirius" path for next week's conference, and that no final decision exists on how to get owners' consent — [[wiki/decisions/2026-10-05-sergey-vysotskys-georgia-work-is-research-not-sales-in-short-spikes-reported-through-klimovich.md]] (Oct-16 update). He confirmed the bot would be a bought voice-bot service that Sergey can set up — [[wiki/decisions/2026-10-16-location-owner-calls-would-use-a-bought-voice-bot-service-not-one-jvl-builds.md]]. On Sergey cutting his time: he did not know the details, and will at least make an introduction to Sergey's group of people [[raw/Meeting_Transcript_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]].
+
+## Open commitments (Oct 16 2026, 2:00 PM)
+
+- [ ] Andrei Klimovich — make an introduction to the group of people Sergey Vysotsky could hand the work to — due unspecified — [[raw/Meeting_Transcript_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
@@ -1000,3 +1018,7 @@ At the [[wiki/meetings/2026-10-15-blue-sky-gold-rush-refurbished-machines-offer-
 - [[raw/Meeting_Notes_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
 - [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
+- [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
+- [[raw/Meeting_Notes_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
+- [[raw/Meeting_Transcript_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]]
+- [[raw/Meeting_Notes_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]]

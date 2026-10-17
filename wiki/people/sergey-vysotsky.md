@@ -3,7 +3,7 @@ type: person
 title: Sergey Vysotsky
 date: 2026-09-22
 aliases: [Sergey Vysotsky, Сергей Высоцкий, Sergey (digital growth), Vysotski, Sergei Vysotski, Sergei, Сергей]
-source-count: 5
+source-count: 7
 open-commitments: 0
 open-questions: 0
 disambiguation: "Outside digital-growth specialist working with Andrei Klimovich (ECHO growth; proposed for the Georgia location-owner task). Not Sergey Tsymanov (Minsk CMS/backend engineer, wiki/people/sergey-tsymanov.md), not Sergey Kleimenychev (wiki/people/sergey-kleimenychev.md), not Sergei Novitsky (technician, wiki/people/sergei-novitsky.md). Resolve by context: digital marketing / growth strategy → this page."
@@ -60,9 +60,21 @@ On his [[wiki/meetings/2026-10-05-sergey-vysotsky-georgia-location-opt-in-list-a
 
 At the [[wiki/meetings/2026-10-14-transactional-mvp1-launch-plan-brackets-daily-caps-and-mvp2-scope.md|Oct-14 3:49 PM launch-plan meeting]] (Russian) Klimovich reported that Sergey has the full list of about seven thousand Georgia locations, is running AI over it for contact data, and is to propose a bot that contacts locations presenting itself as a marketing agency. Val suggested buying c-store show visitor databases, and said he would hire him — [[wiki/decisions/2026-10-05-sergey-vysotskys-georgia-work-is-research-not-sales-in-short-spikes-reported-through-klimovich.md]] (Oct-14 update) [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]].
 
+## Oct 16 2026 (in absentia) — the spike's results, the "Sirius" path, the voice bot, and less time for JVL
+
+At the [[wiki/meetings/2026-10-16-klimovich-recap-of-the-vysotsky-call-location-owner-outreach.md|Oct-16 2:00 PM recap of the Vysotsky call]] (Klimovich and Val; Russian) [[raw/Meeting_Transcript_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]]:
+
+- **Results.** Klimovich reported Sergey's spike: business-registration data ties locations to the businesses that run them; businesses ranked by number of locations; no owner-level contact yet for about seventy percent — [[wiki/decisions/2026-10-05-sergey-vysotskys-georgia-work-is-research-not-sales-in-short-spikes-reported-through-klimovich.md]] (Oct-16 update).
+- **"Sirius".** Klimovich: Sergey passed on all the information; the "Sirius" contact is for next week's conference (the notes: Sergey handles it). Val called it "самая потенциальная дорога" — same page.
+- **The voice bot.** Klimovich said Sergey can choose and set up a bought voice-bot service when that step comes — [[wiki/decisions/2026-10-16-location-owner-calls-would-use-a-bought-voice-bot-service-not-one-jvl-builds.md]].
+- **Less time.** Val said Sergey must "существенно снизить его загрузку с нашим проектом". Sergey once mentioned a group of people he could hand the work to; Klimovich will at least make an introduction. The reason is not recorded.
+- **Status per the notes.** The notes call him a JVL Systems consultant who bills monthly [[raw/Meeting_Notes_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]]. (No amount is recorded — §15.8.)
+
 ## Sources
 - [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]]
 - [[raw/Meeting_Transcript_Sergei_Vysotski_Georgia_Location_Opt_In_List_and_Research_Spikes-October-5-2026.md]]
 - [[raw/Meeting_Notes_Sergei_Vysotski_Georgia_Location_Opt_In_List_and_Research_Spikes-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
+- [[raw/Meeting_Transcript_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]]
+- [[raw/Meeting_Notes_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]]

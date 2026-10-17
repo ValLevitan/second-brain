@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 223
+source-count: 225
 open-commitments: 107
 open-questions: 0
 ---
@@ -1260,6 +1260,14 @@ At the [[wiki/meetings/2026-10-15-wi-fi-router-switch-power-loss-battery-and-mvp
 - MVP 1 lacks only the Flex-Port USB-stick update; remote port update moves to MVP 2; he will update prose and contracts for Alekseev's code — [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Oct-15 11:04 AM update).
 - He will retag Flex Pay from MVP 2 to MVP 3 and, with Irina, tell Andrei the release date; the location shortfall can be paid by card on the location page (Stripe as an example) — [[wiki/decisions/2026-10-15-mvp2-is-flex-iq-wi-fi-remote-update-diagnostics-and-galaxy-reporting-and-flex-pay-moves-to-mvp3.md]].
 
+## Oct 16 2026 — MVP 2 is two tasks; the modem-MAC commit is rolled back; RIS before the payment hub
+
+At the [[wiki/meetings/2026-10-16-daily-standup-mvp2-wi-fi-scope-and-modem-mac-rollback.md|Oct-16 stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]] he passed on that Flex Pay, until now MVP 2, is renamed MVP 3 and MVP 2 holds only Wi-Fi and remote port update through Flex IQ, for the next three weeks — [[wiki/decisions/2026-10-15-mvp2-is-flex-iq-wi-fi-remote-update-diagnostics-and-galaxy-reporting-and-flex-pay-moves-to-mvp3.md]] (Oct-16 update). He takes the rollback of the Flex IQ commit, made with "Дима", that set a MAC address on the modem at boot — [[wiki/decisions/2026-10-16-the-flex-iq-commit-that-sets-the-modem-mac-at-boot-is-rolled-back-and-the-shared-mac-stays.md]]. He told Tsymanov to do RIS before the payment-hub UI, asked Kovalchuk to show AI Draft in the dashboard's To Do column, called for a grooming step for tasks with no parent, judged Ivan's 0x89 case "нереальный", and asked whether the previous day's release was FlexPort only or Flex IQ too.
+
+## Oct 16 2026 (10:01 AM) — the other makers' machines: a debug build, port IP labels, then SAS logs
+
+At the [[wiki/meetings/2026-10-16-third-party-egm-flex-port-sas-connection-tests.md|Oct-16 10:01 AM third-party EGM call]] (Russian) he set the next steps after Klimovich's results: the debug Flex-Port build on every port, each port labelled with its IP, then the SAS logs machine by machine. He will email the build link with Elizabeth in copy. He can emulate a ticket at the port but not press cash-out — [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] (Oct-16 update, with his commitments) [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]
@@ -1488,3 +1496,5 @@ At the [[wiki/meetings/2026-10-15-wi-fi-router-switch-power-loss-battery-and-mvp
 - [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
 - [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+- [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]

@@ -3,10 +3,10 @@ type: decision
 title: Sergey Vysotsky's Georgia work is data research, not sales — no calls or outreach for him; it runs as short R&D "spikes" agreed with Klimovich, who reviews the results and brings Val only what is useful
 date: 2026-10-05
 aliases: [Sergey no sales work, Вам ничего такого делать не надо, spikes, research spikes, R&D spikes, short iterations, итерациями, report through Andrei, сначала вы пройдите через Andrei, Sergey Georgia research, Sergei Vysotski work plan]
-source-count: 3
+source-count: 5
 status: active
-open-commitments: 3
-open-questions: 0
+open-commitments: 5
+open-questions: 1
 ---
 
 # Sergey's Georgia work is research in short spikes, reported through Klimovich
@@ -49,7 +49,30 @@ At the [[wiki/meetings/2026-10-14-transactional-mvp1-launch-plan-brackets-daily-
 
 **§15.8 — compensation terms discussed, not recorded.** Hours, rate and billing were spoken on the call; none is recorded. Personal matters not recorded. **§15 #9:** none.
 
+## Update, Oct 16 2026 (2:00 PM) — what the spike found, the "Sirius" path, and Sergey cutting his time
+
+At the [[wiki/meetings/2026-10-16-klimovich-recap-of-the-vysotsky-call-location-owner-outreach.md|Oct-16 2:00 PM recap of the Vysotsky call]] (Russian; Klimovich = Speaker 1, Val = Speaker 2, per the notes [[raw/Meeting_Notes_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]]) [[wiki/people/andrei-klimovich.md|Klimovich]] reported to [[wiki/people/val-levitan.md|Val]] — the reporting route ruled above [[raw/Meeting_Transcript_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]]:
+
+- **Owner data.** Business-registration databases show which business runs a given location — "конкретная заправка, какой бизнес ею управляет". Through those businesses some contacts were found, "но не все из них актуальны"; some data may be old ("еще не за 2019 год" as transcribed; the notes: "may be from 2019"). The businesses and names were ranked by number of registered locations, giving "топ списках бизнесов, которые потенциально владеют большим количеством локаций" [[raw/Meeting_Transcript_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]].
+- **The rest.** For "Остальные семьдесят процентов, где не удалось найти второго уровня контактов" there are a couple more ideas "на что направить AI"; otherwise someone will have to contact the location itself and ask which business runs it [[raw/Meeting_Transcript_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]].
+- **The "Sirius" path.** Val: "А почему не за пойти? Той дорогой, то что я предложил, связаться с Sirius." Klimovich: Sirius is part of the conference "как мы ездим на следующей неделе"; "Сергей весь информацию передал, он займется" — the transcript does not make clear who "он" is; the notes read it as Sergey. Val: "я думаю, что это самая потенциальная дорога" [[raw/Meeting_Transcript_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]] [[raw/Meeting_Notes_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]]. Who or what "Sirius" is, is **unclear** (name as transcribed). *(Inference: the conference may be the show of Oct 21–22 that Klimovich and Sebastian attend — see [[wiki/projects/georgia-market-rollout.md]], Oct 9; not stated.)*
+- **The voice bot.** A bought service, set up by Sergey when the step comes — [[wiki/decisions/2026-10-16-location-owner-calls-would-use-a-bought-voice-bot-service-not-one-jvl-builds.md]].
+- **Sergey must cut his time.** Val: "за неделю произошли изменения, которые ведут к тому, что ему надо существенно снизить его загрузку с нашим проектом." Klimovich: "я не знаю детали." Sergey once said he has a group of people he could pass the work to. Klimovich: that "ничего не гарантирует", the work is specific, but "как минимум сделаю introduction, а дальше будет видно" [[raw/Meeting_Transcript_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]]. The reason given is not recorded (his own affairs outside JVL).
+
+**Against the rulings above.** The research-through-Klimovich route works as ruled. The spike structure is not mentioned. Sergey's Oct-5 "message Klimovich after the call" commitment is not directly evidenced but they have plainly kept working together (Oct 14, Oct 16); it is left open for the owner (Tier B). How much of the work Sergey can still do is now open.
+
+### Open commitments (Oct 16 2026, 2:00 PM)
+
+- [ ] [[wiki/people/sergey-vysotsky.md|Sergey Vysotsky]] — take up the "Sirius" contact at next week's conference (the notes; the transcript's "он займется" does not name him) — due week of Oct 19 2026 — [[raw/Meeting_Transcript_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]] [[raw/Meeting_Notes_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]]
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — make an introduction to the group of people Sergey could hand the work to — due unspecified — [[raw/Meeting_Transcript_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]] [[raw/Meeting_Notes_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]]
+
+### Open questions (Oct 16 2026, 2:00 PM)
+
+- Can Sergey's group of people take over his work? Klimovich: no guarantee — [[raw/Meeting_Transcript_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Sergei_Vysotski_Georgia_Location_Opt_In_List_and_Research_Spikes-October-5-2026.md]]
 - [[raw/Meeting_Notes_Sergei_Vysotski_Georgia_Location_Opt_In_List_and_Research_Spikes-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
+- [[raw/Meeting_Transcript_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]]
+- [[raw/Meeting_Notes_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]]

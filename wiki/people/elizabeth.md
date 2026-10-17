@@ -3,7 +3,7 @@ type: person
 title: Elizabeth
 date: 2025-04-28
 aliases: [Elizabeth, Elizabeth Palomino, Элизабет]
-source-count: 30
+source-count: 33
 open-commitments: 4
 disambiguation: "JVL engineering technician (full engineer by degree) handling Georgia service/parts; ex-Colombian-operation technician; Spanish-speaking. Surname Palomino (per the Jun-11-2026 passport/dsKey source). Distinct from Eliana, the Colombian EDS principal (wiki/people/eliana.md)."
 ---
@@ -129,6 +129,14 @@ On the [[wiki/meetings/2026-10-01-transactional-mvp1-status-slice-and-sas-comman
 
 At the [[wiki/meetings/2026-10-15-daily-standup-offline-ris-fallback-and-nova-game-conversion.md|Oct-15 stand-up]] Khamin named "Андрей или Элизабет" as the ones who may have registered locations with their own mobile numbers, which would print on the e-wallet ticket. That this is Elizabeth is an **inference** by context — [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 15) [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]].
 
+## Oct 16 2026 (10:01 AM, in absentia) — the debug build on the borrowed machines' ports
+
+At the [[wiki/meetings/2026-10-16-third-party-egm-flex-port-sas-connection-tests.md|Oct-16 10:01 AM third-party EGM call]] Pavel said the debug Flex-Port build is flashed with ST-Link and "она это знает"; Klimovich asked for the build link by email "с копией на Элизабет" so she can download it herself. The flashing commitment (Klimovich with her) is on [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] (Oct-16 update) [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]].
+
+## Oct 16 2026 (1:34 PM, in absentia) — urgent shipments that Lev must assemble for
+
+On the [[wiki/meetings/2026-10-16-lev-rudky-workload-inventory-control-and-mery-replacing-misha.md|Oct 16 1:34 PM call with Lev Rudky]] Lev named her calls as one cause of spikes in his work: "Элизабет звонит. Что надо срочно чтото отправить, значит, я должен чтото срочно собрать" [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]. Detail on [[wiki/topics/business-central-erp-implementation.md]] (Oct 16).
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Lev_Rudky_Missed_Inventory_Adjustments-October-1-2026.md]]
@@ -161,3 +169,6 @@ At the [[wiki/meetings/2026-10-15-daily-standup-offline-ris-fallback-and-nova-ga
 - [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
+- [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]
+- [[raw/Meeting_Notes_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]
