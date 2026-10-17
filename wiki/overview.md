@@ -1,7 +1,7 @@
 ---
 type: overview
 title: Second Brain — Overview
-updated: 2026-10-14
+updated: 2026-10-17
 ---
 
 # Overview — state of the wiki
@@ -10,19 +10,20 @@ A short, plain-language snapshot for the owner. Refreshed at each lint pass.
 
 ## What's in here now
 
-The wiki holds **1,590 content pages** built from **1,582 raw source files** — the complete backlog (2025-01-01 through mid-2026) plus weekly steady-state intake, now current **through Wednesday October 14 2026** (the 4:47 AM Minsk stand-up of that morning). Everything traces to a source with an inline citation. The 2026-10-14 run (batches 258–262) absorbed **30 recordings = 30 meeting events** from Oct 2 to Oct 14, plus the first monthly **South Dakota VLT performance story** (September 2026) under the Oct-7 scope exception: the daily Minsk stand-ups and Transactional MVP 1 calls, the RIS MVP 1 / MVP 2 planning, the Rage-to-NOVA game conversions (Dragon Pays accepted, Dutch Mill next), the AI project manager going live in Jira on Oct 12, the GitHub↔MSBC bill-of-materials thread with Genadi and Nathan, Larry Sharon's rental pricing, and a busy Oct 13 of outside meetings — Intralot, InComm, ARC Gaming and Bank of America.
+The wiki holds **1,630 content pages** built from **1,616 raw source files** — the complete backlog (2025-01-01 through mid-2026) plus weekly steady-state intake, now current **through Friday October 16 2026** (the 2:00 PM Klimovich recap of that afternoon). Everything traces to a source with an inline citation. The 2026-10-14 run (batches 258–262) absorbed **30 recordings = 30 meeting events** from Oct 2 to Oct 14, plus the first monthly **South Dakota VLT performance story** (September 2026) under the Oct-7 scope exception: the daily Minsk stand-ups and Transactional MVP 1 calls, the RIS MVP 1 / MVP 2 planning, the Rage-to-NOVA game conversions (Dragon Pays accepted, Dutch Mill next), the AI project manager going live in Jira on Oct 12, the GitHub↔MSBC bill-of-materials thread with Genadi and Nathan, Larry Sharon's rental pricing, and a busy Oct 13 of outside meetings — Intralot, InComm, ARC Gaming and Bank of America.
 
-By kind (lint pass, 2026-10-14):
-- **People — 146** (new this run: Bill Avgeris and Christos Tzoumaras of Intralot — surnames from the notes only; Chris Boncek of the Georgia Lottery — provisional; Byron Booth of ARC). Two new provisional same-name clusters ("Bill", "Chris") carry a shared `disambiguation:` block; all clusters **mechanically checked** this pass.
-- **Organizations — 61** (new: **Intralot**, at last its own page; Fontana Amusement).
+By kind (lint pass, 2026-10-17):
+- **People — 147** (new this run: David Villari of Bad Dog / Zephyr). New provisional same-name cluster "David" (David Sloan / David Villari) carries a shared `disambiguation:` block; all clusters pass the mechanical diff.
+- **Organizations — 65** (new: Renova — the Gwinnett repair depot; ATL COAM; Blue Sky / Gold Rush; Bad Dog / Zephyr).
 - **Topics & Concepts — 59**, grouped in the index under 6 sub-headings.
 - **Projects — 12.** South Dakota VLT now carries a monthly performance section and timeline.
-- **Decisions — 354**, grouped in the index under 5 sub-headings (58 new this run).
-- **Meetings — 958.** Thin stubs, grouped by month, complete through **Oct 14 2026**.
-- **Open items (frontmatter totals):** 2,223 open commitments and 1,054 open questions across all pages (7 lines quarantined as `blocked-on-*`). The rollup lists below this block are the historical early-batch rollup; the live per-page lists are authoritative.
+- **Decisions — 373**, grouped in the index under 5 sub-headings (19 new this run).
+- **Meetings — 974.** Thin stubs, grouped by month, complete through **Oct 16 2026**.
+- **Open items (frontmatter totals):** 2,313 open commitments and 1,110 open questions across all pages (7 lines quarantined as `blocked-on-*`). The rollup lists below this block are the historical early-batch rollup; the live per-page lists are authoritative.
 
 ## Health
 
+- **Run of 2026-10-17 (batches 263–266):** 17 recordings → 16 meetings (Oct 13 evening – Oct 16). Every batch passed the ≥9/10 gate. **80 facts checked across 4 batches — 80/80 held** (19 + 20 + 21 + 20), 36 against Russian source strings. Regression drift-guard: 12 quoted facts re-checked from 2025 pages — **12/12 hold** after reading the source (five are cleaned-up garbles, translations or close paraphrases of the source words, not verbatim). Structure: bijection **exact (1,630 = 1,630 = 1,630)**, 0 dangling, 0 orphans among new pages, index tails match, artifact scan clean. Privacy: family, health, age, home and private-purchase passages cut from 11 raws at staging; two compensation items (a distributor contact's personal commission offer; a guest's past pay) kept out of the wiki.
 - **Run of 2026-10-14 (batches 258–262):** every batch passed the ≥9/10 gate. **138 facts checked across 5 batches — 138/138 held** (26 + 24 + 29 + 23 + 36), 73 of them against Russian source strings. Regression drift-guard: 10 numeric facts re-checked from 2025 pages — **10/10 hold**.
 - **Structure (this pass):** index=disk bijection **exact (1,590 = 1,590 = 1,590)**, zero duplicate catalog lines, index "(N sources)" tails match every page, zero dangling links in content pages, artifact-tag scan clean, every raw cited by a page is in that page's Sources list, **0 orphans** (the new Oct-2 ball-recycling decision is reached only from its own meeting stub — no topic page fits it yet). Every raw file is either cited by a page or ledgered in `skipped.md` — nothing staged and forgotten.
 - **Same-name clusters:** all owner-ruled clusters and all provisional ones (now incl. "Bill" and "Chris") **pass the mechanical shared-block diff — 1 distinct shared block each** (Kyle and Mauricio pages add page-specific text after an identical block).
@@ -102,6 +103,26 @@ Rolled up from every page at each lint pass. Each traces to a raw source.
 ### LIVE OPEN (count: ~27; #29 fully closed 2026-09-01) — refreshed lint 14 (2026-07-20, batch 93 / November close; +Ian Myers batch 150; +Kamin batch 157; +Dima-Kovalchuk-backend batch 158; +hardware-Andrei #19 & Chris-vs-Cris #20 batch 224; +prose-"Andrei" #25, Gamora #26, MSBC #27, Aug-21 split #28 batch 229; +first-NOVA-release-reopened #29 batch 230)
 
 *This is the single authoritative list of genuinely-open owner items. Recurring items live here ONCE, updated in place — NOT re-appended per batch. The per-batch subsections further below are the append-only journal, not the live set.*
+
+**ADDED by the 2026-10-17 run (batches 263–266) — for the owner's ruling.** *(Tier A first; details and sources on each named page.)*
+
+*Sensitive holds and scope — please rule:*
+- A18. **The Lawrenceville / Capital Circle building purchase.** Val told Intralot and AKS "we're buying this building". Held, not recorded: is it JVL business or a personal / holding-company matter? — [[wiki/meetings/2026-10-13-intralot-christos-tzoumaras-dinner-route-partnership-and-repair-depot.md]], [[wiki/meetings/2026-10-14-aks-amusements-transactional-demo-two-location-test-and-financing.md]]
+- A19. **"Split entry" (ATL COAM, Oct 14).** Val described reporting part of a cash win as lottery tickets for an inspector. Recorded neutrally on the FlexPay topic — confirm it belongs in the brain. — [[wiki/meetings/2026-10-14-atl-coam-transactional-demo-show-special-and-daily-caps.md]]
+- A20. **Voice bot for owner calls.** On Oct 16 a bought voice-bot service (run by a third party, without JVL's name) was planned for calling Georgia location owners. Does that fit your Oct-5 "no automated outreach" line? The outreach cover-story remarks are held, as on Oct 5. — [[wiki/decisions/2026-10-16-location-owner-calls-would-use-a-bought-voice-bot-service-not-one-jvl-builds.md]]
+- A21. **Mini-distributor terms.** Commission tiers restated on Oct 14 differ from the Oct-6 mini-distributor decision; held under §15.8 (a named contact's personal offer). Revise the Oct-6 page? — [[wiki/decisions/2026-10-06-a-mini-distributor-tier-gets-about-8-percent-against-20-percent-for-a-full-distributor.md]]
+
+*Dates and decisions — please rule:*
+- A22. **Transactional MVP 1 "released".** On Oct 14 Val tied "released" to passing the end-to-end tests and half-remembered "November 9" — retitle the Oct-15 date decision? Did he carry over the RIS date (A11) by mistake? — [[wiki/decisions/2026-10-14-transactional-mvp1-counts-as-released-only-when-the-end-to-end-acceptance-tests-pass.md]]
+- A23. **Lease blocking "never automatic" (Sept 11) vs the automatic location block planned as "MVP 1.5" (Oct 14).** Retitle the Sept-11 decision? — [[wiki/decisions/2026-10-14-jvl-sets-the-location-daily-cap-backs-it-with-a-guarantor-account-and-a-card-and-the-automatic-location-block-is-mvp-1-5.md]]
+- A24. **MVP 2 scope.** Your Oct-15 list (Flex IQ, Wi-Fi, remote update, diagnostics, Galaxy reporting) vs Pavel's Oct-16 "only two tasks" (Wi-Fi and remote port update). Held as a contradiction. — [[wiki/decisions/2026-10-15-mvp2-is-flex-iq-wi-fi-remote-update-diagnostics-and-galaxy-reporting-and-flex-pay-moves-to-mvp3.md]]
+- A25. **Financing.** Oct 14 to AKS: "no problem with twelve months"; Oct 15 to Blue Sky: "not receptive to financing" on show-special machines. Held as a contradiction. — [[wiki/decisions/2026-10-15-refurbished-trade-in-machines-are-sold-apart-from-the-show-special-and-show-special-machines-are-not-financed.md]]
+- A26. **Who sets a location's daily cap** — Klimovich (Sept 14): InComm; Val (Oct 14, twice): JVL as broker. Held as a contradiction on the InComm page. — [[wiki/organizations/incom.md]]
+
+*Identities (safe defaults taken; one word settles each):*
+- C16. The dinner's "Louis" = the morning's "Louis with Renova"; David Villari = the Sept-9 "David Milani"; Forest Park test = the Sept-17 Halcyon November install (kept as a separate decision) — all read by inference.
+- C17. Which "Андрей" argued for Flex Pay in MVP 2 (read as Klimovich); which "Дима" made the modem-MAC commit, put RBAC live and turned on SAS logs (read as Chudinov, who is on leave); "ринада" (automation contact) unknown; Tolik = Anatol Strekalov (the notes say you confirmed) — does that settle the May "Anatoly / Toli" question?; who is "Andrea" (Felipe: "Val will not bring in Andrea")?
+- C18. The Oct-2 stand-up was renamed in the vault from "RK3567" to "RK3576" boards — confirm RK3576 is right (the wiki's Oct-2 pages still say RK3567, as the original source did).
 
 **ADDED by the 2026-10-14 run (batches 258–262) — for the owner's ruling.** *(Tier A first; details and sources on each named page.)*
 

@@ -4,7 +4,7 @@ title: David Villari
 date: 2026-10-16
 aliases: [David Villari, David Vilari, Vilari, David Milani, Milani, David (Bad Dog sales), David (Zephyr)]
 source-count: 4
-disambiguation: "Bad Dog / Zephyr sales lead. Not David Sloan (ARC Gaming) — see [[wiki/people/david-sloan.md]]. The Sept-9 'David Milani' / 'Vilari' is read as this man by inference (owner to confirm)."
+disambiguation: "PROVISIONAL (owner ruling pending) — 'David' cluster: David Sloan [[wiki/people/david-sloan.md]] (ARC Gaming) · David Villari [[wiki/people/david-villari.md]] (Bad Dog / Zephyr sales). Resolve by context: ARC Gaming / Georgia COAM operator / kiosk-vendor routing → David Sloan; Bad Dog / Zephyr / Banilla sales / Puerto Rico distribution → David Villari; a 'David' fitting neither stays unresolved and is queued. Page note: the Sept-9 'David Milani' / 'Vilari' is read as this man by inference (owner to confirm)."
 ---
 
 # David Villari

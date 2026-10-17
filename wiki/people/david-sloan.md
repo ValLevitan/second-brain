@@ -6,7 +6,7 @@ aliases: [David Sloan, David, The Sloan, Sloan, Dave Sloan, Dave, ARC CEO, CEO o
 source-count: 12
 open-commitments: 4
 open-questions: 3
-disambiguation: "Chief executive of the Georgia COAM operator ARC Gaming — resolve by the ARC / Georgia-operator / kiosk-vendor-routing context. The corpus contains other bare 'David' mentions in unrelated engineering and vendor contexts; do not attach one to this page without contextual support."
+disambiguation: "PROVISIONAL (owner ruling pending) — 'David' cluster: David Sloan [[wiki/people/david-sloan.md]] (ARC Gaming) · David Villari [[wiki/people/david-villari.md]] (Bad Dog / Zephyr sales). Resolve by context: ARC Gaming / Georgia COAM operator / kiosk-vendor routing → David Sloan; Bad Dog / Zephyr / Banilla sales / Puerto Rico distribution → David Villari; a 'David' fitting neither stays unresolved and is queued. Page note: chief executive of ARC Gaming; other bare 'David' mentions in engineering and vendor contexts are not attached without contextual support."
 ---
 
 # David Sloan (CEO, ARC Gaming)
