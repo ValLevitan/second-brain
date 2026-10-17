@@ -3,7 +3,7 @@ type: person
 title: Felipe Miranda
 date: 2026-07-13
 aliases: [Felipe Miranda, Felipe, Filippo, Filipa, Philippe, Felipe Miranda Giorgi, Филипп, Филипп Н, Filipp N]
-source-count: 95
+source-count: 97
 open-commitments: 24
 open-questions: 0
 ---
@@ -441,7 +441,13 @@ On the [[wiki/meetings/2026-10-14-sales-q4-trade-in-plan-and-transactional-momen
 
 On the [[wiki/meetings/2026-10-14-returns-triage-sebastian-and-support-calls.md|two-minute 6:02 PM follow-on]] he reported on [[wiki/people/sebastian.md|Sebastian]]'s returns work and said Adam takes almost all calls, passing the hard ones to Sebastian (detail on Sebastian's page). He asked Val: "**Are you not moving forward, bringing Andrea after all?**" Val said he does not want to; his reasons are not recorded. Who Andrea is, and for what role, is not stated [[raw/Meeting_Transcript_Returns_Triage_Sebastian_and_Support_Calls-October-14-2026.md]] [[raw/Meeting_Notes_Returns_Triage_Sebastian_and_Support_Calls-October-14-2026.md]].
 
+## Oct 15 2026 (5:18 PM) — Blue Sky / Gold Rush: the V43, the show special, and the refurbished machines
+
+At the [[wiki/meetings/2026-10-15-blue-sky-gold-rush-refurbished-machines-offer-and-transactional-demo.md|Oct-15 Blue Sky / Gold Rush meeting]] (mostly Speaker 3, per the notes [[raw/Meeting_Notes_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]) he showed the V43 cabinet and its progressives, advised against JCM bill acceptors because of the new $10 bill, and put the show special — Val corrected his "six ports" to "one port plus five more" — see [[wiki/decisions/2026-09-02-free-ports-and-pos-with-every-machine-bought.md]] (Oct 15). He said "Ninety dollars fixed, no variable", priced nine ports with a kiosk and Flex-IQ at "close to eighteen thousand dollars", and told the operator a deal needs a credit check. He brought up the refurbished machines ("You wanted to talk about the refurbish") — [[wiki/decisions/2026-10-15-refurbished-trade-in-machines-are-sold-apart-from-the-show-special-and-show-special-machines-are-not-financed.md]]. His open items from this meeting (the price-and-terms answer with Val, videos for the operator's locations, a talk with Raj) are held on [[wiki/organizations/blue-sky-gold-rush.md]] [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]].
+
 ## Sources
+- [[raw/Meeting_Notes_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
+- [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
 - [[raw/Meeting_Notes_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
 - [[raw/Meeting_Notes_Returns_Triage_Sebastian_and_Support_Calls-October-14-2026.md]]

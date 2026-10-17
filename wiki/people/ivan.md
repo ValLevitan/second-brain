@@ -3,7 +3,7 @@ type: person
 title: Ivan
 date: 2025-02-19
 aliases: [Ivan, Ivan Shpakov, Иван Шпаков, Ivan Shpak, Ваня]
-source-count: 36
+source-count: 37
 open-commitments: 12
 disambiguation: "JVL release manager (GLI submittals, release-candidate marks). Not the bank representative Ivan of the Sept-25-2026 CIBC call (surname Lucic per the notes) — see wiki/meetings/2026-09-25-cibc-ivan-lucic-600k-transfer-post-dated.md. Resolve by context: releases/GLI → this page."
 ---
@@ -236,6 +236,10 @@ At the [[wiki/meetings/2026-10-13-daily-standup-video-decode-memory-and-release-
 
 At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-library.md|Oct-14 stand-up]] Pavel said his Claude ran about 400 transactions overnight on task 128 without reproducing the problem; Ivan will rebuild the port, install it and rerun (Irina: urgent), then take autotest 66 from Irina — [[wiki/topics/test-automation-strategy.md]] (Oct 14) [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]].
 
+## Oct 15 2026 — no direct network access to the production FlexPort firmware; the test feature to Blocked
+
+At the [[wiki/meetings/2026-10-15-daily-standup-offline-ris-fallback-and-nova-game-conversion.md|Oct-15 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]: Claude's port scan found no direct network access to the production FlexPort firmware; he will try himself. After Vladimir he checks Pavel's experimental build; Irina asked him to move the waiting test feature to Blocked — "Сейчас переведу" — [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 15). Kharetski sent the battery plan back to him for a hands-on check — [[wiki/topics/nova-platform-architecture.md]] (Oct 15).
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -274,3 +278,4 @@ At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-l
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]

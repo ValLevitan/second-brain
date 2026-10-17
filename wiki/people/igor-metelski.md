@@ -4,7 +4,7 @@ title: Igor Metelski
 date: 2026-07-14
 aliases: [Igor Metelski, Igar Miatselski, Miatselski, Igor, Igor Mitelsky, Мительский, Mitsierski, Igor Mitsierski]
 disambiguation: "RGS engineer on Efim Podvoiski codebase (= payroll Igar Miatselski). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
-source-count: 36
+source-count: 37
 open-commitments: 31
 open-questions: 1
 ---
@@ -249,6 +249,10 @@ At the [[wiki/meetings/2026-10-13-daily-standup-video-decode-memory-and-release-
 
 At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-library.md|Oct-14 stand-up]] Pavel said he wants to talk with "Игорь" — this page by context, since he ports Rage games to NOVA (**inference**) — to split the conversion of South Dakota Rage games into NOVA vertical games among Igor, Anton and Daniil, and to have Igor explain the scripts he uses to convert horizontal games — [[wiki/topics/nova-platform-architecture.md]] (Oct 14) [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]].
 
+## Oct 15 2026 — Dragon Pays as one universal layout; designer tasks mislabelled NOVA; NAD 2 in the data center is not a priority
+
+At the [[wiki/meetings/2026-10-15-daily-standup-offline-ris-fallback-and-nova-game-conversion.md|Oct-15 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]: Dragon Pays picks vertical or horizontal resources by the cabinet type in the URL; its vertical may not be merged into main yet. He thinks the designers' "NOVA" tasks are the current NAD 2 games, not Dakota; he reminded the team that the data center still needs NAD 2 product-code support and asked about controller changes for Nebraska progressives, but said NAD 2 is not a priority now — [[wiki/topics/nova-platform-architecture.md]] (Oct 15). He proposed a separate talk on Claude-run test scenarios — [[wiki/topics/test-automation-strategy.md]] (Oct 15).
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
@@ -287,3 +291,4 @@ At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-l
 - [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]

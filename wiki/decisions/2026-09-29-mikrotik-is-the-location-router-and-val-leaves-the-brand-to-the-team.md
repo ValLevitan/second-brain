@@ -3,7 +3,7 @@ type: decision
 title: MikroTik is the location router — Linksys will not boot without internet, Netgear cannot be tested in Belarus, and Val leaves the brand to the team under his "no Chinese equipment" rule
 date: 2026-09-29
 aliases: [MikroTik router, микротик, Linksys does not boot without internet, Netgear not in Belarus, TP-Link routers used now, no Chinese equipment, китайским оборудованием, everything is made in China today, $40 to $100 router, router plus switch, switch brand, PoE switch, power over Ethernet for the ports, можем с микротиком дальше двигаться, они в состоянии решать эти вопросы, router brand decision]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 1
 open-questions: 2
@@ -52,6 +52,10 @@ Pavel raised PoE switches ("коммутаторы, с которые разда
 - The Sept-25 plan to connect borrowed machines "to the MikroTik" in the office (Klimovich) is consistent with this; the Georgia office router whose drops Bosik saw in his logs on Sept 22 is not named here.
 - Capability 145 (Flex-Port Wi-Fi link) stays MVP 2 ([[wiki/decisions/2026-09-07-wi-fi-module-on-flex-port-with-an-external-router.md]], Sept-28 update); nothing here moves it.
 
+## Update, Oct 15 2026 — the router stays for MVP 2; a MikroTik could raise events, but the router has no internet
+
+At the [[wiki/meetings/2026-10-15-wi-fi-router-switch-power-loss-battery-and-mvp2-scope.md|Oct-15 11:04 AM Wi-Fi meeting]] (Russian) Val questioned the router at each location. The ruling keeps an external router for MVP 2, with a switch on Flex IQ for its own access point, and plans to move the router inside JVL hardware in MVP 3 or later — [[wiki/decisions/2026-10-15-flex-iq-gets-a-switch-between-its-own-access-point-and-an-external-router-and-mvp2-starts-on-the-router.md]] [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]. On power loss, [[wiki/people/andrey-bosik.md|Bosik]]: "микротик я могу, допустим, добавлять скрипты… создавать события", but the routers have no internet — the terminals carry it through their own modems — so the alert goes into the payment terminals instead ([[wiki/decisions/2026-10-15-payment-terminals-get-a-swappable-backup-battery-and-report-power-loss-so-service-can-be-called.md]]) [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]. Nothing here changes the brand. Bosik's model-and-test commitment below is not reported done.
+
 ## Open commitments
 
 - [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — go ahead with MikroTik: pick a model, buy and test it in Minsk, and prepare a config that can be rolled out — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
@@ -66,3 +70,4 @@ Pavel raised PoE switches ("коммутаторы, с которые разда
 ## Sources
 - [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
+- [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]

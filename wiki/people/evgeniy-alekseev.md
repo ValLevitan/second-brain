@@ -4,7 +4,7 @@ title: Evgeniy Alekseev
 date: 2025-03-11
 aliases: [Evgeniy Alekseev, Evgeny Alekseev, Zhenya Alekseev, Женя Алексеев, Alekseev]
 disambiguation: "Owner of the main embedded code branch, this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
-source-count: 50
+source-count: 52
 open-commitments: 11
 ---
 
@@ -251,6 +251,14 @@ On the [[wiki/meetings/2026-10-09-transactional-mvp1-test-machines-and-unclaimed
 
 At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-library.md|Oct-14 stand-up]] Pavel said he had caught "Евгения Алексеева" two days before and reminded him that for the release on the 15th the Flex-Port software update must work at least by USB stick; Alekseev "обещал выкатиться версию сегодня вечером" — [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Oct-14 update) [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]].
 
+## Oct 15 2026 (in absentia) — his FlexPort branch with the new memory chips does not build on GitHub
+
+At the [[wiki/meetings/2026-10-15-daily-standup-offline-ris-fallback-and-nova-game-conversion.md|Oct-15 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]: Khamin said Alekseev told the team to build and test his branch themselves; it was cut long ago and does not build on GitHub. Irina: he sent it on the night of the 15th and said "проверяйте". Pavel: branch from fresh main and pull in his memory-chip changes — [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 15); [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Oct-15 update).
+
+## Oct 15 2026 (11:04 AM, in absentia) — merge main into his branch; the USB-stick update is MVP 1's only gap
+
+At the [[wiki/meetings/2026-10-15-wi-fi-router-switch-power-loss-battery-and-mvp2-scope.md|Oct-15 11:04 AM Wi-Fi meeting]] (Russian) [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]: Pavel named "Евгения Алексеев, Евгений яворский" as the authors of the Flex-Port software; the new-chip changes are not checked. His PR's branch is red, and Lyosha's attempt from fresh main failed. He must merge main into his branch, fix conflicts, check that the USB-stick update works and stays active, and make it build on GitHub Actions; Val: 3 to 5 days, Pavel: the weekend should do — [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Oct-15 11:04 AM update). Val also said he has laid out Wi-Fi on the port boards, not yet tested — [[wiki/decisions/2026-10-15-flex-iq-gets-a-switch-between-its-own-access-point-and-an-external-router-and-mvp2-starts-on-the-router.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
@@ -304,3 +312,5 @@ At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-l
 - [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]

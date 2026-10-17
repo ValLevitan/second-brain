@@ -3,8 +3,8 @@ type: decision
 title: Wi-Fi credentials are entered once on Flex-Pay and handed to each Flex-Port by an encrypted QR code — and the connection/installation event is captured and sent home, buffered when there is no internet
 date: 2026-09-07
 aliases: [encrypted QR provisioning, QR handoff to Flex-Ports, no password screen on the Flex-Port, install telemetry, who connected what and when, offline buffering, cloud logging server, Grafana section]
-source-count: 2
-status: active
+source-count: 4
+status: active — Oct 15 2026: for Flex IQ's own access point the credentials are set on the location's dashboard page and the QR is generated there, not typed on Flex-Pay; the QR hand-off to each port stands (see the Oct-15 update)
 open-commitments: 2
 open-questions: 0
 ---
@@ -31,6 +31,13 @@ Pavel said the pipe already exists: "есть логирование данны�
 
 **The offline case is the part that costs.** Bosik: "это при условии, что… устройство в момент подключения имело доступ к интернету. А если интернета не было?… он где то должн[о] записать[,] прихоронить до момента выхода к интернету." Pavel agreed and said so plainly: "бесплатно это не получится, то[ —] все равно надо дорабатывать передачу" [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]].
 
+## Update, Oct 15 2026 — the credentials now come from the location's dashboard page, and the QR is made there
+
+At the [[wiki/meetings/2026-10-15-wi-fi-router-switch-power-loss-battery-and-mvp2-scope.md|Oct-15 11:04 AM Wi-Fi meeting]] (Russian) [[wiki/people/pavel.md|Pavel]] described the flow differently: the access-point name and password are set on the location's page in the dashboard, beside the cashier and master PIN codes; Flex IQ, as its own access point, receives them from the cloud by modem; from a phone the installer generates a QR on that page and scans it on every Flexport, which binds the ports to that Flex IQ and sets the Wi-Fi. [[wiki/people/val-levitan.md|Val]] approved it and added registered installers, a test walk-through by phone and a first set-up record with date and time (the "location map") [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]] [[raw/Meeting_Notes_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]. Full record: [[wiki/decisions/2026-10-15-installers-set-up-a-location-by-phone-with-a-qr-code-from-the-location-dashboard-the-location-map.md]].
+
+- **Against the title.** "Entered once on Flex-Pay" is replaced, for the own-access-point mode, by "set on the location dashboard". The QR hand-off to each port survives. Whether the QR is still encrypted was not discussed. With an external router Pavel still sees a manual step at the router's web interface — as on Sept 7.
+- **Val's telemetry requirement** (who connected what, when, where) returns as the first set-up record. Pavel's Sept-7 commitments below are not reported done.
+
 ## Open commitments
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — build the Wi-Fi provisioning screens on Flex-Pay and Flex-IQ and the encrypted-QR handoff to the Flex-Ports, diagnostic screens included — due unspecified — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]] [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
@@ -41,3 +48,5 @@ Pavel said the pipe already exists: "есть логирование данны�
 ## Sources
 - [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
 - [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
+- [[raw/Meeting_Notes_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]

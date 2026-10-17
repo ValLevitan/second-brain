@@ -3,8 +3,8 @@ type: decision
 title: October 15 replaces October 1 as the working MVP 1 date — Val asks for the final state by then "if possible", while the autotest estimate runs to October 23
 date: 2026-09-28
 aliases: [October 15 MVP1, MVP1 moves to October 15, сдвигаем на 15 октября, 15 число это реальная дата, final state October 15, 95 percent is fine, autotests until October 23, trial batch of ten locations, пробную партию 10, все остальные вопросы придерживаем, hold all other questions]
-source-count: 11
-status: active — Oct 14 2026 (3:49 PM): Val defined the release as the end-to-end tests passing (date half-remembered as about November 9) and set first locations for November 1; see the Oct-14 3:49 PM update
+source-count: 13
+status: active — Oct 14 2026 (3:49 PM): Val defined the release as the end-to-end tests passing (date half-remembered as about November 9) and set first locations for November 1; see the Oct-14 3:49 PM update; Oct 15 2026 (11:04 AM): on the day, the only gap left is the Flex-Port USB-stick update, about 3 to 5 days (see the Oct-15 update)
 open-commitments: 3
 open-questions: 1
 ---
@@ -89,6 +89,10 @@ At the [[wiki/meetings/2026-10-14-transactional-mvp1-launch-plan-brackets-daily-
 
 *(Inference:)* October 15 now reads as the aim for the developers' final state, not the release; the release waits on the end-to-end tests, and the first installs are set for November 1. No one said "October 15 is dropped", so the status is left active; the owner may wish to retitle once the real release date is known.
 
+## Update, Oct 15 2026 (11:04 AM) — on the day itself: the end-to-end autotests finish tomorrow, and only the Flex-Port USB-stick update is missing
+
+At the [[wiki/meetings/2026-10-15-wi-fi-router-switch-power-loss-battery-and-mvp2-scope.md|Oct-15 11:04 AM Wi-Fi meeting]] (Russian) — on the working date itself — Irina said the autotests for Flex IQ, the port, the machine and card issue finish tomorrow and the bugs found are fixed. Val: everything planned for MVP 1 is covered except the USB-stick update for the Flexports, "от трёх до 5 дней"; remote update of the Flexports moves to MVP 2. Andrei had asked Val for the release date the day before and Val "не знал, что ему сказать"; Pavel and Irina are to tell him [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]] [[raw/Meeting_Notes_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]. See [[wiki/decisions/2026-10-14-transactional-mvp1-counts-as-released-only-when-the-end-to-end-acceptance-tests-pass.md]] (Oct-15 update) and [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Oct-15 11:04 AM update). *(Inference: October 15 passes without a release; the new working point is the USB-stick fix plus the tests, roughly Oct 18–20.)*
+
 ## Sources
 - [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
@@ -101,3 +105,5 @@ At the [[wiki/meetings/2026-10-14-transactional-mvp1-launch-plan-brackets-daily-
 - [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
+- [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
+- [[raw/Meeting_Notes_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]

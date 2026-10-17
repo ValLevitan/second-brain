@@ -1,11 +1,11 @@
 ---
 type: decision
-title: Remote firmware update is in MVP 1 — Flex IQ and FlexPay update themselves first; distributing firmware to the Flex-Ports left MVP 1 on Sept 17 and came BACK into MVP 1 on Sept 28, when the date moved to October 15
+title: Remote firmware update is in MVP 1 — Flex IQ and FlexPay update themselves first; distributing firmware to the Flex-Ports left MVP 1 on Sept 17, came back on Sept 28, and left again on Oct 15 — MVP 1 keeps only the Flex-Port update by USB stick, and remote Flex-Port update is MVP 2
 date: 2026-09-14
-aliases: [firmware upgrade in MVP1, capability 146, PORT-13, remote FlexPort update back in MVP1, remote firmware update, OTA firmware, приоритет номер один это чтобы обновлялся флекс ай кю, flash the FlexPorts, Flex IQ to FlexPort protocol, доперфек, priority two deferred, FlexPort firmware by USB stick, capability 144 to MVP2, capability 144 cloned, no rollback, roll forward only, requirement 1367]
-source-count: 22
-status: active — priority two (remote update of the Flex-Ports) left MVP 1 on Sept 17 2026 and RETURNED to MVP 1 on Sept 28 2026 (capability 146); rolling BACK to a previous build stays out of MVP 1 (Sept 18 2026); the delivery design is still open as of Oct 1 2026 (parked "to tomorrow" on Sept 30 and not taken up on Oct 1); see the dated updates below
-open-commitments: 8
+aliases: [firmware upgrade in MVP1, remote FlexPort update moves to MVP2 again, USB-stick update is the only MVP1 gap, capability 146, PORT-13, remote FlexPort update back in MVP1, remote firmware update, OTA firmware, приоритет номер один это чтобы обновлялся флекс ай кю, flash the FlexPorts, Flex IQ to FlexPort protocol, доперфек, priority two deferred, FlexPort firmware by USB stick, capability 144 to MVP2, capability 144 cloned, no rollback, roll forward only, requirement 1367, IO board update on the fly, обновление ио барда]
+source-count: 26
+status: active — priority two (remote update of the Flex-Ports) left MVP 1 on Sept 17 2026 and RETURNED to MVP 1 on Sept 28 2026 (capability 146); rolling BACK to a previous build stays out of MVP 1 (Sept 18 2026); the delivery design is still open as of Oct 1 2026 (parked "to tomorrow" on Sept 30 and not taken up on Oct 1); see the dated updates below; Oct 15 2026: the IO board is to be updated along with Flex Pay and Flex IQ firmware; Oct 15 2026 (11:04 AM): remote update of the Flex-Ports moved to MVP 2 again — MVP 1 keeps only the USB-stick update, its one remaining gap (see the Oct-15 11:04 AM update)
+open-commitments: 10
 open-questions: 3
 ---
 
@@ -190,8 +190,34 @@ This fits the Sept-17 fallback above (a USB stick when remote update is not read
 
 ### Open commitments (Oct 14 2026)
 
-- [ ] [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] — release the Flex-Port build that updates firmware by USB stick — due Oct 14 2026 (evening), as promised to Pavel — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
-- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] and [[wiki/people/pavel.md|Pavel Frolov]] — first thing in the morning, check that the Flex-Port firmware update works by USB stick — due Oct 15 2026 — [[raw/Meeting_Notes_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [x] [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] — release the Flex-Port build that updates firmware by USB stick — due Oct 14 2026 (evening), as promised to Pavel — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]] — *Oct 15 2026: Alekseev sent his branch on the night of the 15th and said to test it; it does not build on GitHub, so Khamin rebuilds from fresh main with his memory-chip changes. That this is the promised USB-update build is an **inference** (Irina tied it to the check due on the 15th); left open until a source shows the USB update working* — [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]] — *Oct 15 2026 (11:04 AM): still not working; the branch is red and could not be merged from fresh main; closed as superseded (not discharged) by his Oct-15 commitment to merge main into his branch (below)* — [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
+- [x] [[wiki/people/alexei-khamin.md|Alexei Khamin]] and [[wiki/people/pavel.md|Pavel Frolov]] — first thing in the morning, check that the Flex-Port firmware update works by USB stick — due Oct 15 2026 — [[raw/Meeting_Notes_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]] — *Oct 15 2026 (11:04 AM): could not be done — no buildable branch; closed as superseded (not done) by the Oct-16 check below* — [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
+
+## Update, Oct 15 2026 — the IO board is to be updated too, along with the Flex Pay and Flex IQ firmware; Alekseev's branch does not build
+
+At the [[wiki/meetings/2026-10-15-daily-standup-offline-ris-fallback-and-nova-game-conversion.md|Oct-15 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]:
+
+- **The IO board.** [[wiki/people/alexander-biratka.md|Biratka]] asked how the IO board is meant to be updated. [[wiki/people/pavel.md|Pavel]]: before, it was flashed at installation and not touched on the fly afterwards. For the payment terminal there is no obligation not to change firmware on the fly, "поэтому, наверное, надо поддержать… Наряду с с прошивкой флекса pay флекса IQ иметь возможность ещё и платы обновлять, если они так умеют." The notes record it as Pavel's decision: "Support IO board firmware updates together with Flex Pay and Flex IQ firmware" [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]. It sits in capability 135; the requirement exists but needs refining (detail: [[wiki/topics/flexpay-business-architecture-payout-devices.md]], Oct 15). This widens the remote-update scope from Flex IQ, FlexPay and the Flex-Ports to the IO board as well, "if the boards allow it" — **evolution**, not a contradiction.
+- **Alekseev's delivery.** Pavel had told Alekseev on Monday that the function must be checked on the 15th; Irina: he sent it on the night of the 15th and said "проверяйте". His branch was cut long ago and does not build on GitHub; Pavel: branch from fresh main and pull in his memory-chip changes; [[wiki/people/alexei-khamin.md|Khamin]] does it. Separately, Khamin built and installed the production FlexPort firmware; cash-out and crediting work. Whether either build updates by USB stick is **not said**.
+
+## Update, Oct 15 2026 (11:04 AM) — remote Flex-Port update leaves MVP 1 again; the USB-stick update is MVP 1's one gap, and Alekseev must merge main into his branch
+
+At the [[wiki/meetings/2026-10-15-wi-fi-router-switch-power-loss-battery-and-mvp2-scope.md|Oct-15 11:04 AM Wi-Fi meeting]] (Russian) [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]:
+
+- **The state.** [[wiki/people/pavel.md|Pavel]]: the Flexports are flashed with a programmer and work, "но у нас нет возможности обновить прошивку не через флэшку, не [remote]". The software was written by "Евгения Алексеев, Евгений яворский", and the changes for the new chips are not checked. [[wiki/people/irina-shishko.md|Irina]]: "мы и проверить не можем, потому что его нет у нас." Val: because the code is not in the repository.
+- **The move.** Pavel: "наверно нам надо будет тогда планировать [remote] апдейт портов на следующий MVP". Val: "То есть [remote] апдейт портов мы переключаем на MVP 2." Irina: "да." Pavel: "Но оно и было у нас так" (it was already like that). Until then, JVL comes physically with a stick. [[wiki/people/andrey-bosik.md|Bosik]]: a visit with a stick is needed anyway, to add the update function to the ports; Irina: once at production, then a second time.
+- **What MVP 1 lacks.** Val: "всё, что сейчас не хватает в [MVP] один это… [USB] апдейт на флекспорты. А в MVP 2 мы включим уже [remote] апдейт [на] flex порты." Pavel: "Да." Val's recap: "в течение… трёх до 5 дней должно закончиться."
+- **What Alekseev must do.** Pavel: merge his branch into main correctly — no conflicts; the processor boots into bootloader mode, takes the update from a USB stick, flashes, the new version comes up and the update function stays active, so it can be updated again; and the build must run on GitHub Actions, "не у него на компьютере". Prose and contracts: "Прозу мы сами обновим… Тоже не проблема". Irina: his PR exists but the branch status is red; "Лёша" ([[wiki/people/alexei-khamin.md|Khamin]], by context — **inference**) tried to merge it from fresh main and failed — "ветка отрезана чёрти когда тысячу лет назад"; so Alekseev must take main into his branch, check it and fix conflicts. This replaces the morning plan for Khamin to rebuild it.
+- **Then.** Pavel: Lyosha syncs the capability (now on Alekseev; it speaks of fewer memory chips) with a requirement that USB-stick flashing still works after the chip change, and tests by hand: "здесь авто тесты не работают, здесь надо реальные тесты с реальной флешкой." Val: push Alekseev, then Lyosha. Pavel: Alekseev should manage it over the weekend; if he marks it ready to merge, they check "завтра с утра".
+
+The derived notes record: "MVP1 lacks only the FlexPort USB-stick update; remote update for FlexPorts moves to MVP2. (Val, Pavel, Irina)" [[raw/Meeting_Notes_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]. **Against the title:** the Sept-28 return of remote Flex-Port update to MVP 1 is undone — the title is updated. Flex IQ's own remote update is not affected. The MVP 2 list is on [[wiki/decisions/2026-10-15-mvp2-is-flex-iq-wi-fi-remote-update-diagnostics-and-galaxy-reporting-and-flex-pay-moves-to-mvp3.md]].
+
+### Open commitments (Oct 15 2026, 11:04 AM)
+
+- [ ] [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] — merge main into his Flex-Port memory-chip branch, fix the conflicts, check that the USB-stick update works and stays active after an update, and make it build on GitHub Actions — due about Oct 18–20 (Val: 3 to 5 days) — [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]] [[raw/Meeting_Notes_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] / [[wiki/people/alexei-khamin.md|Alexei Khamin]] (inference) — check Alekseev's work if it is ready to merge — due Oct 16 2026 (morning) — [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] (inference) — sync the Flex-Port capability with the requirement that USB-stick flashing still works after the chip change, and test it by hand with a real stick — due after Alekseev's merge — [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — update the prose and contracts for Alekseev's code — due after Alekseev's merge — [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
 
 ## Sources
 
@@ -217,3 +243,7 @@ This fits the Sept-17 fallback above (a USB stick when remote update is not read
 - [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
+- [[raw/Meeting_Notes_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]

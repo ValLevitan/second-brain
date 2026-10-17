@@ -3,7 +3,7 @@ type: person
 title: Efim Podvoiski
 date: 2026-07-13
 aliases: [Efim Podvoiski, Efim, Yefim, Ifim, EFIM, Podvoiski, Athim, Athene, Athena, Ethan, Epheme, Afim]
-source-count: 71
+source-count: 73
 open-commitments: 11
 open-questions: 0
 ---
@@ -302,6 +302,10 @@ At the [[wiki/meetings/2026-10-08-game-design-class-a-party-time-and-dual-box.md
 
 - [ ] Efim Podvoiski — explain Class A behaviour to the developers in Russian at the Class A kickoff — due kickoff (date not set) — [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
 
+## Oct 15 2026 (in absentia) — Clover Fortune added to the maths server
+
+At the [[wiki/meetings/2026-10-15-daily-standup-offline-ris-fallback-and-nova-game-conversion.md|Oct-15 stand-up]] Leshkevich said he had asked "ефима" to add Clover Fortune to the maths server "который сейчас л джи смотрит" (the notes: GLI [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]), so the converted game runs on real data — [[wiki/topics/nova-platform-architecture.md]] (Oct 15) [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Notes_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]
@@ -376,3 +380,5 @@ At the [[wiki/meetings/2026-10-08-game-design-class-a-party-time-and-dual-box.md
 - [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
 - [[raw/Meeting_Notes_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
 - [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]

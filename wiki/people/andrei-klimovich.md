@@ -4,7 +4,7 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich, Andre]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 114
+source-count: 118
 open-commitments: 110
 open-questions: 0
 ---
@@ -867,8 +867,22 @@ At the [[wiki/meetings/2026-10-14-transactional-mvp1-launch-plan-brackets-daily-
 - [ ] Andrei Klimovich — send the action-point emails to Val, Genadi and Mikhail — due Oct 15 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]] [[raw/Meeting_Notes_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
 - [ ] Andrei Klimovich — get the exact machine models and buy the switch, Cat6 spool, crimping tool and connectors — see [[wiki/decisions/2026-10-14-the-first-ten-transactional-locations-go-in-from-november-1-on-stock-monitors-ports-without-wi-fi-and-hand-made-harnesses.md]] — due unspecified — [[raw/Meeting_Notes_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
 
+## Oct 15 2026 (in absentia, inference) — the contact number at location set-up
+
+At the [[wiki/meetings/2026-10-15-daily-standup-offline-ris-fallback-and-nova-game-conversion.md|Oct-15 stand-up]] Khamin worried that "Андрей или Элизабет" registered locations on the Galaxy pay site with their own mobiles, which would print on every e-wallet ticket. Pavel: tell Andrei the field is the contact person called when there is a problem. That this Andrei is Klimovich is an **inference** (as on Oct 1) — [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 15) [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]].
+
+## Oct 15 2026 (11:04 AM, in absentia, inference) — the MVP 2 list with Val, and the release date he asked for
+
+At the [[wiki/meetings/2026-10-15-wi-fi-router-switch-power-loss-battery-and-mvp2-scope.md|Oct-15 11:04 AM Wi-Fi meeting]] (Russian) "Андрей" in the MVP 2 talk is Klimovich by context (**inference**; the notes flag it): Val said "Андрей считал, что нужно делать [F]lex pay", but he would leave Flex Pay out; he and Andrei are still polishing the MVP 2 list, after which Andrei starts with the team; Andrei "может написать только [функциональные requirements]"; Andrei asked Val for the release date "вчера", and Pavel and Irina are to tell him — [[wiki/decisions/2026-10-15-mvp2-is-flex-iq-wi-fi-remote-update-diagnostics-and-galaxy-reporting-and-flex-pay-moves-to-mvp3.md]] [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]. Val also mentioned listening to how "филиппе и Андрей" talk with customers — [[wiki/decisions/2026-10-15-installers-set-up-a-location-by-phone-with-a-qr-code-from-the-location-dashboard-the-location-map.md]].
+
+## Oct 15 2026 (5:18 PM) — the demo to Blue Sky / Gold Rush
+
+At the [[wiki/meetings/2026-10-15-blue-sky-gold-rush-refurbished-machines-offer-and-transactional-demo.md|Oct-15 Blue Sky / Gold Rush meeting]] he gave the transactional demo (part of Speaker 1, per the notes [[raw/Meeting_Notes_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]): the Flex-IQ at the counter, the kiosks, wallets, split redemption, and the Flexport. Val built on it ("I also would like to qualify one thing that Andrei was saying about the POS system"), and Felipe referred to "As Andrei Klimovich said, simple connections" — detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 15) [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]].
+
 ## Sources
 
+- [[raw/Meeting_Notes_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
+- [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
 - [[raw/Meeting_Notes_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
 - [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
 - [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]
@@ -984,3 +998,5 @@ At the [[wiki/meetings/2026-10-14-transactional-mvp1-launch-plan-brackets-daily-
 - [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]

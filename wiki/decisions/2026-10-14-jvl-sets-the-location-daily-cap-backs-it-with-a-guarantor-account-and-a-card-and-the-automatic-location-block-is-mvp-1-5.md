@@ -3,7 +3,7 @@ type: decision
 title: JVL sets each location's daily cap because it guarantees the money to InComm — every location needs a back-up account and a card, low funds escalate by SMS and email to the secondary account and the master, and the automatic location block at the end of that chain moves to "MVP 1.5"
 date: 2026-10-14
 aliases: [Daily Cap устанавливаем мы, JVL sets the daily cap, we are the guarantor for InComm, guarantor account and credit card, balance checks every hour, secondary account then master then auto-block, automatic location block, автоблокировка локации, MVP 1.5, MVP один с половиной, a couple of locations without auto-block, operator and location contracts, sign-up master then locations, five-day payment window with InComm]
-source-count: 2
+source-count: 4
 status: active
 open-commitments: 1
 open-questions: 3
@@ -47,6 +47,10 @@ Val has started talks with InComm to widen it: "Сейчас, по-моему, �
 - **Sign-up model (Klimovich).** A master account with basic data and ACH or card details; locations linked to it, each with its own financial details and a secondary card. "Мастер… будет видеть свои локации, а локации будут видеть только себя." For now done by hand [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]].
 - **Reports.** Val: the accounting reports may need to extend to masters and locations [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]].
 
+## Update, Oct 15 2026 — the shortfall paid by card on the location page, and the operator as guarantor
+
+At the [[wiki/meetings/2026-10-15-wi-fi-router-switch-power-loss-battery-and-mvp2-scope.md|Oct-15 11:04 AM Wi-Fi meeting]] (Russian) [[wiki/people/val-levitan.md|Val]] put the location's bank shortfall on his MVP 2 list: if a location has too little money for JVL to draw, charge a credit card. [[wiki/people/pavel.md|Pavel]]: this does not need Nathan's module — show it on the location's own dashboard page, where the operator presses pay and uses his card through a service "там страйп" (an example), then notify [[wiki/people/nathan-carver.md|Nathan]]'s module so the invoices show it. Val: "мы хотим самого оператора сделать гарантёром за этот перевод" — if the location does not pay and the card fails, JVL draws from the operator automatically, backed by accounting reports; Pavel: reports tied to MSBC [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]] [[raw/Meeting_Notes_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]. This reads as the "master" step of the chain above, now planned for MVP 2 (**inference**) — [[wiki/decisions/2026-10-15-mvp2-is-flex-iq-wi-fi-remote-update-diagnostics-and-galaxy-reporting-and-flex-pay-moves-to-mvp3.md]]. The automatic block and the contract work are not mentioned.
+
 ## Open commitments
 
 - [ ] [[wiki/people/val-levitan.md|Val Levitan]] — the contract architecture and templates (operator, location), with Klimovich reviewing — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]] [[raw/Meeting_Notes_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
@@ -62,3 +66,5 @@ Val has started talks with InComm to widen it: "Сейчас, по-моему, �
 ## Sources
 - [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
+- [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
+- [[raw/Meeting_Notes_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]

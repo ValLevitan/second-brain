@@ -3,10 +3,10 @@ type: decision
 title: Transactional MVP 1 counts as released only when the end-to-end tests on the acceptance criteria pass — no separate product-team test pass now; field and beta tests come after
 date: 2026-10-14
 aliases: [MVP1 released only after end-to-end tests, end-to-end tests on acceptance criteria, end-to-end тесты согласно acceptance criteria, только после этого можно считать продукт выпущенным, no product-team test pass, waste of time, field tests after end-to-end, user experience is minutes not days]
-source-count: 2
+source-count: 4
 status: active
 open-commitments: 0
-open-questions: 1
+open-questions: 0
 ---
 
 # Transactional MVP 1 counts as released only when the end-to-end acceptance tests pass
@@ -39,12 +39,20 @@ Val had seen "девятого ноября" that morning at five as the end dat
 - The first-location date of November 1 was held in the same meeting — [[wiki/decisions/2026-10-14-the-first-ten-transactional-locations-go-in-from-november-1-on-stock-monitors-ports-without-wi-fi-and-hand-made-harnesses.md]]. How the two fit (Nov 1 installs against a possible Nov 9 end of tests) was not settled in words. *(Inference: Val's "в идеале" may mean the rule bends for the first locations.)*
 - It follows the e2e-test line of [[wiki/decisions/2026-09-22-autotests-go-inside-the-existing-capabilities-and-the-first-e2e-test-is-a-one-hour-micro-step.md]].
 
+## Update, Oct 15 2026 — the end-to-end autotests finish "tomorrow"; the one gap is the Flex-Port USB-stick update
+
+At the [[wiki/meetings/2026-10-15-wi-fi-router-switch-power-loss-battery-and-mvp2-scope.md|Oct-15 11:04 AM Wi-Fi meeting]] (Russian) [[wiki/people/irina-shishko.md|Irina]] reported the autotests for Flex IQ, the port, the machine and card issue: "мы закончим завтра писать"; they are run all the time as they are written. Val checked: autotests "на базе [acceptance criteria]", end-to-end — Irina and Pavel: "Да." Val: "если протестировано. Значит можно выпускать." Irina: "У нас апдейта нет" — the Flex-Port update. Val's recap: the autotests are done and run, the bugs found are fixed (Irina: "в общемто да можно сказать так"); this covers the capabilities planned for MVP 1 except the USB-stick update for the Flexports, which should take "от трёх до 5 дней" [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]. The count Irina gave first ("3 из 70… фичи не тронута") is garbled and not used. Detail of the USB gap: [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Oct-15 11:04 AM update) [[raw/Meeting_Notes_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]].
+
+**On the open question below:** answered — not about November 9; the end-to-end tests on the acceptance criteria were due to finish on Oct 16, and release then waits only on the USB-stick update (about 3 to 5 days, Val's estimate). Andrei Klimovich had asked Val for the release date the day before; Pavel and Irina are to tell him — see [[wiki/decisions/2026-10-15-mvp2-is-flex-iq-wi-fi-remote-update-diagnostics-and-galaxy-reporting-and-flex-pay-moves-to-mvp3.md]].
+
 ## Open questions
 
-- When do the end-to-end tests on the acceptance criteria finish — about November 9, as Val half-remembered? — [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]] [[raw/Meeting_Notes_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
+- ~~When do the end-to-end tests on the acceptance criteria finish — about November 9, as Val half-remembered?~~ **Answered Oct 15 2026:** writing finishes Oct 16; the only gap is the Flex-Port USB-stick update, about 3 to 5 days — [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]] — — [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]] [[raw/Meeting_Notes_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
 
 **§15.8:** clear. **§15 #9:** none.
 
 ## Sources
 - [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
+- [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
+- [[raw/Meeting_Notes_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]

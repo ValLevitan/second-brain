@@ -4,7 +4,7 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 140
+source-count: 142
 open-commitments: 38
 ---
 
@@ -719,6 +719,14 @@ At the [[wiki/meetings/2026-10-13-daily-standup-video-decode-memory-and-release-
 
 At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-library.md|Oct-14 stand-up]] she confirmed Pavel's MVP 1 extension to about November 8 or 9 — "Ту, которую вот первоначально ты отрезал… И больший срок" — [[wiki/decisions/2026-10-14-mvp1-is-extended-to-about-november-8-or-9-and-the-mvp2-marked-tasks-are-done-inside-it.md]]. She still needs the Flex IQ for her own tests while Khamin takes it; three autotests in progress; she passes autotest 66 to Ivan; on vague requirements: "Теперь и будем требовать" — [[wiki/topics/test-automation-strategy.md]] (Oct 14). She asked whether a meeting transcript can be fed to the AI agent — [[wiki/decisions/2026-10-08-the-ai-pm-goes-live-in-real-jira-projects-on-october-12-on-its-current-architecture-without-lenas-meetings.md]] (Oct-14 update) [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]].
 
+## Oct 15 2026 — "discuss it again from the machine side"; 117 passed; 90% autotests; TIN 88 out of MVP 1
+
+At the [[wiki/meetings/2026-10-15-daily-standup-offline-ris-fallback-and-nova-game-conversion.md|Oct-15 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]: on the offline RIS fallback she asked how many saved RIS the machine keeps and wanted it discussed again from the machine side, "иначе у нас это начнутся конфликты" — [[wiki/topics/ris-remote-install-and-machine-states.md]] (Oct 15). Her test on Pavel's experimental build passed, so FlexPort 117 can merge; she asked Ivan to move the waiting test feature to Blocked — [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 15). She aims to bring the autotests to 90% and to take TIN 88 out of MVP 1 — [[wiki/topics/test-automation-strategy.md]] (Oct 15).
+
+## Oct 15 2026 (11:04 AM) — autotests finish tomorrow; "I will be alone"; requirements first for MVP 2
+
+At the [[wiki/meetings/2026-10-15-wi-fi-router-switch-power-loss-battery-and-mvp2-scope.md|Oct-15 11:04 AM Wi-Fi meeting]] (Russian) [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]: the autotests for Flex IQ, the port, the machine and card issue finish tomorrow; the gap is the Flex-Port update — [[wiki/decisions/2026-10-14-transactional-mvp1-counts-as-released-only-when-the-end-to-end-acceptance-tests-pass.md]] (Oct-15 update). Alekseev's branch is red and Lyosha's merge from fresh main failed, so Alekseev must merge main himself — [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Oct-15 11:04 AM update). She asked whether MVP 2 is Flex IQ or Flex Pay, and said requirements and capabilities must come first; with Chudinov and Samusenko away and Lyosha on the RIS re-issue, "я остаюсь я одна" — [[wiki/decisions/2026-10-15-mvp2-is-flex-iq-wi-fi-remote-update-diagnostics-and-galaxy-reporting-and-flex-pay-moves-to-mvp3.md]]. On the router she pushed back on Bosik's "под потолком": he has not seen the rooms; a ceiling router needs permission — [[wiki/decisions/2026-10-15-flex-iq-gets-a-switch-between-its-own-access-point-and-an-external-router-and-mvp2-starts-on-the-router.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -861,3 +869,5 @@ At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-l
 - [[raw/Meeting_Transcript_RIS_MVP2_Scope_and_Release_Timing-October-12-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]

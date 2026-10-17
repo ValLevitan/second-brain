@@ -3,7 +3,7 @@ type: person
 title: Val Levitan
 date: 2026-07-12
 aliases: [Val, Val Levitan]
-source-count: 431
+source-count: 433
 open-commitments: 81
 open-questions: 1
 ---
@@ -1700,7 +1700,20 @@ At the [[wiki/meetings/2026-10-14-transactional-mvp1-launch-plan-brackets-daily-
 - [ ] Val Levitan — settle the monitor question for the last ten machines before Black Friday — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]] [[raw/Meeting_Notes_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
 - *(His bracket, harness, modem and contract commitments from this meeting sit on [[wiki/decisions/2026-10-14-the-first-ten-transactional-locations-go-in-from-november-1-on-stock-monitors-ports-without-wi-fi-and-hand-made-harnesses.md]] and [[wiki/decisions/2026-10-14-jvl-sets-the-location-daily-cap-backs-it-with-a-guarantor-account-and-a-card-and-the-automatic-location-block-is-mvp-1-5.md]].)*
 
+## Oct 15 2026 (5:18 PM) — Blue Sky / Gold Rush: nine categories, "buying the market", no financing on top of the discount, and "nine thousand dollars is ridiculously small"
+
+At the [[wiki/meetings/2026-10-15-blue-sky-gold-rush-refurbished-machines-offer-and-transactional-demo.md|Oct-15 Blue Sky / Gold Rush meeting]] (mostly Speaker 2, per the notes [[raw/Meeting_Notes_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]) [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]:
+
+- **The product.** He told the operator JVL is building nine wallet categories a location owner defines, explained the plastic case for machines without a casino-grade cutout, and argued that a Fiery Pay Mastercard cannot move money into a machine without a merchant number — [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 15).
+- **The offer.** He corrected the port count, named a 9% price increase from December 31, and said "We're simply buying the market right now" — [[wiki/decisions/2026-09-02-free-ports-and-pos-with-every-machine-bought.md]] (Oct 15) and [[wiki/topics/jvl-machine-pricing-strategy.md]] (Oct 15).
+- **Two rules.** No financing on a machine already discounted by half; refurbished machines do not get the show special — [[wiki/decisions/2026-10-15-refurbished-trade-in-machines-are-sold-apart-from-the-show-special-and-show-special-machines-are-not-financed.md]]. This sits in open contradiction with his "I don't see a problem with twelve months" to AKS on Oct 14 (recorded there).
+- **The refurbished bid.** On $9,000 for 20 machines: "I just nine thousand dollars is ridiculously small… I don't think I can make nine thousand, but I'm thinking in the direction of maybe fourteen months or sixteen months payment." His and Felipe's answer is due Oct 19–20 — held on [[wiki/organizations/blue-sky-gold-rush.md]].
+- **Why JVL costs what it costs.** Soft cost of about $6,500 per machine; GLI and Georgia Lottery approval costs; the 12-of-14 test result — [[wiki/topics/jvl-machine-pricing-strategy.md]] (Oct 15) and [[wiki/projects/georgia-market-rollout.md]] (Oct 15).
+- **Next visit.** "next time I'm here it will probably be the first week of November… Felipe and I will discuss it tomorrow. I'm leaving tomorrow night."
+
 ## Sources
+- [[raw/Meeting_Notes_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
+- [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
 - [[raw/Meeting_Notes_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
 - [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]

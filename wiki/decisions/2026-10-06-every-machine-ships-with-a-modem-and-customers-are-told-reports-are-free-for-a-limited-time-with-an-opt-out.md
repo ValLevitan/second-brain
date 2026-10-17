@@ -3,7 +3,7 @@ type: decision
 title: The modem is standard on every machine — customers are told the machines now come with modems, the reports are free for a limited time, and they can opt out of the service by sending a message
 date: 2026-10-06
 aliases: [modem is standard packaging, everything's coming out with the modem, reports free for a limited period, opt out of the modem service, modem notice to customers, we're evolving]
-source-count: 4
+source-count: 5
 status: active
 open-commitments: 1
 open-questions: 1
@@ -30,6 +30,8 @@ How the free reports sit with the $337-per-year data buy-back ([[wiki/topics/mac
 
 **Oct 14 2026 — the notice given in person to AKS.** At the [[wiki/meetings/2026-10-14-aks-amusements-transactional-demo-two-location-test-and-financing.md|Oct-14 AKS meeting]] Val: "we installed here in the new machine, and you will have it in yours, is cellular modem with the data plan. I mean, we pay for it." JVL will see which games are popular and drop weak ones in later versions. Asked about automatic updates: "The law prohibits us to do anything automatic with the machine… We can only collect data one way. We cannot talk to the machine." Felipe: "For a period of time, it will be at no cost… you will be able to receive these reports." Val: "You could opt out if you want." This carries out the Oct-6 notice for one customer, face to face; the length of the free period is still not given [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]].
 
+**Oct 15 2026 — the zero-revenue alert, and used machines without a modem.** At the [[wiki/meetings/2026-10-15-blue-sky-gold-rush-refurbished-machines-offer-and-transactional-demo.md|Oct-15 Blue Sky / Gold Rush meeting]] Felipe said "we're adding an LTE modem", and Val put the main benefit as an alert: "It will tell you that nobody puts money that day in the machine… We could say this machine has zero revenue." How often is up to the customer — "You could do it hourly. You could do it daily" — "And we pay for the data." Val on the 20 refurbished trade-in machines: "The used machines don't have it." Opt-out and the free period were not mentioned [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]].
+
 ## Open commitments
 
 - [ ] Felipe Miranda — notify customers that machines now come with modems, reports are free for a limited time, and they can opt out by sending a message — due unspecified — [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
@@ -40,6 +42,7 @@ How the free reports sit with the $337-per-year data buy-back ([[wiki/topics/mac
 
 ## Sources
 
+- [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
 - [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
 - [[raw/Meeting_Notes_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]

@@ -3,7 +3,7 @@ type: decision
 title: Every device at a location carries its own LTE modem and SIM and is self-sufficient — the location router is not the shared modem — and Val asks the team to work out whether the spare modems can back each other up when Wi-Fi fails
 date: 2026-09-15
 aliases: [LTE modem per device, own SIM per device, no shared router modem, self-sufficient devices, modem failover map, mesh network, Wi-Fi resilience, two communication channels, каждое устройство свой модем]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 1
 open-questions: 1
@@ -36,6 +36,10 @@ Having put a modem in every box, Val asked whether the redundancy can be used: "
 
 This sits directly under the non-functional-requirements demand Val made minutes later — how a device reconnects, how JVL finds out, how the alarm is raised ([[wiki/decisions/2026-09-15-the-week-goes-to-non-functional-requirements-and-monday-september-21-is-the-deadline.md]]).
 
+## Update, Oct 15 2026 — the per-device modem restated; a modem in the router called redundant
+
+At the [[wiki/meetings/2026-10-15-wi-fi-router-switch-power-loss-battery-and-mvp2-scope.md|Oct-15 11:04 AM Wi-Fi meeting]] (Russian) Val asked whether to put a modem in the router. [[wiki/people/andrey-bosik.md|Bosik]]: "Тоже мне кажется избыточно" — the team decided "что модемы будут стоять в каждом терминале, поскольку это всё таки работа с денежными операциями", and with the wallet going to the cloud ("Волят будет находиться в клауде", read as wallet — inference) "сам бог велел в терминале иметь модем"; then no outside link can drop between terminal and cloud. Pavel: the terminals go out "через [LTE] модем", not the router; the router is only the Wi-Fi access point [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]. On the commitment below: whether a separate access point is still worth installing got a working answer — Flex IQ gets a switch between its own access point and an external router ([[wiki/decisions/2026-10-15-flex-iq-gets-a-switch-between-its-own-access-point-and-an-external-router-and-mvp2-starts-on-the-router.md]]); the modem failover map was not discussed, so it stays open.
+
 ## Open commitments
 
 - [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] and [[wiki/people/pavel.md|Pavel Frolov]] — work out whether the per-device modems can be used as a failover map for each other when Wi-Fi drops, and whether a separate Wi-Fi access point is still worth installing — due unspecified; Val asked them to think it through — [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
@@ -49,3 +53,4 @@ This sits directly under the non-functional-requirements demand Val made minutes
 ## Sources
 - [[raw/Meeting_Notes_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
+- [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]

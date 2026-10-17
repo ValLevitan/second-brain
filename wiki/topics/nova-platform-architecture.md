@@ -3,9 +3,9 @@ type: topic
 title: NOVA platform architecture (JVL land-based gaming platform)
 date: 2026-05-12
 aliases: [NOVA, NOVA platform, NOVA gaming platform, land-based platform, land-based gaming platform, services architecture, library-to-service decomposition, Chief Architect NOVA, Unix-socket services, per-service repositories, packaged games, AMQP CMS protocol, capabilities from prose, prose standard, LGS prose, repo to Jira linkage, module contracts, NOVA integration repository, knowledge repository]
-source-count: 81
-open-commitments: 58
-open-questions: 32
+source-count: 83
+open-commitments: 60
+open-questions: 35
 disambiguation: "NOVA is the named successor of the 'Omni' land-based platform code-word — do not conflate NOVA (this on-cabinet services platform) with the Omni game-templating / Rage→Omni content transition tracked on [[wiki/topics/omni-core-advancement-and-game-templating.md]]."
 ---
 
@@ -691,9 +691,34 @@ This continues the Oct-13 item above. The Oct-13 question on freeing or keeping 
 
 ### Open commitments (Oct 14 2026)
 
-- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — talk with Igor (Metelski by context — inference) and split the RK3576 game conversion among Igor, Anton and Daniil; have Igor explain his conversion scripts — due Oct 14 2026 ("сегодня чуть попозже", maybe) — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
-- [ ] Anton (Leshkevich likely — inference; the notes ask Val to confirm) — pick the South Dakota game to convert and try on the RK3576; tasks for that game follow — due Oct 14 2026 — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
-- [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — add the AI-created leak task to the team dashboard — due unspecified — [[raw/Meeting_Notes_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — talk with Igor (Metelski by context — inference) and split the RK3576 game conversion among Igor, Anton and Daniil; have Igor explain his conversion scripts — due Oct 14 2026 ("сегодня чуть попозже", maybe) — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]] — *Oct 15 2026: Leshkevich used "тулы Игоря" for his conversion, so the hand-over seems to have happened (**inference**); whether Pavel's split was made is not said* — [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [x] Anton (Leshkevich likely — inference; the notes ask Val to confirm) — pick the South Dakota game to convert and try on the RK3576; tasks for that game follow — due Oct 14 2026 — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]] — **discharged Oct 15 2026**: [[wiki/people/anton-leshkevich.md|Leshkevich]] reported he had started converting Clover Fortune — [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — add the AI-created leak task to the team dashboard — due unspecified — [[raw/Meeting_Notes_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]] — *Oct 15 2026: Pavel asked again for display filters, since Daniil's task "н д один" still does not show; Kovalchuk: "я уже делаю"* — [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+
+## Oct 15 2026 — Clover Fortune runs on NOVA; one feature per game under capability 240; designer resources labelled NOVA; NAD 2 in the data center; the Nebraska progressives
+
+At the [[wiki/meetings/2026-10-15-daily-standup-offline-ris-fallback-and-nova-game-conversion.md|Oct-15 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]:
+
+- **[[wiki/people/anton-leshkevich.md|Leshkevich]] — the first game.** "Я, в общем, использовал тулы Игоря, чтобы конвертировать, я начал конвертировать форчун из один 22 мегахита." The notes name it Clover Fortune, from the 22 Megahit set, "name confirmed by Val 2026-10-15" [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]. He did the horizontal layout first, "потому что это просто проще было начать". It already starts on the new platform. He asked [[wiki/people/efim-podvoiski.md|Efim]] to add the game to the maths server "на, который сейчас л джи смотрит" (the notes: GLI), so it runs on real data; some symbols are still simulated wrong. A full test is not run yet. Next is the vertical layout; he expects to finish "до конца недели… если не возникнет никаких других проблем". He commits the work, but "таску не делал пока ещё". Irina: every task must have its branches and commits.
+- **One feature per game (Pavel).** Under "capolity 240 рейчту новым migration" (capability 240, Rage-to-NOVA migration as heard) "надо просто завести фичу по конкретной игре", like the existing Dragon Pays conversion — "для нашего p ma автоматического" (for the AI PM). For Leshkevich: a feature under 240 for converting Clover Fortune. See [[wiki/decisions/2026-10-08-texas-rage-games-convert-to-vertical-nova-unchanged-and-igor-ports-dutch-mill-first.md]] (Oct-15 update).
+- **One universal layout.** Pavel thought Igor does only vertical. [[wiki/people/igor-metelski.md|Igor Metelski]]: the Dragon Pays game in the repository has vertical and horizontal; "в урле передаётся тип кабинет и по типу кабинета она уже выбирает" the resources. Pavel: "То есть по по факту 2 лоялов поддержка." Igor: the Dragon Pays vertical is probably not merged into main yet.
+- **Designer resources labelled NOVA.** Pavel: designers are making "куча ресурсов" for "сдвл нова", and the tasks are all marked NOVA. Igor: "это не до котта это текущий над 2" — by the list of games they are the current NAD 2 games, not Dakota; "надо с дизайнерами разобраться… почему тут ново написано". Irina: in capability 240, NOVA is right. Who sorts it out was not named. What "NAD 2" names is **unclear** (on Oct 8 Igor's "над" was also unclear).
+- **NAD 2 in the data center.** Igor reminded the team that the data center needs tasks to add NAD 2, "потому что сейчас он у нас всё ещё г к м 2" (the notes: GKM2) — support for its product code; some things depend on the jurisdiction, which he does not know. He also asked whether the controller needs changes for progressives in Nebraska (heard as "джек потраш не браска", "фари is link не праска", "мачеты небраска", and a fourth, "на 4 небраска"; the notes: Jackpot Rush, Safari Link, Machete, "NA4"). Pavel, "для записи для p mos": one task for the NAD 2 product code, a second for the progressives — "это тоже по сути новый код… этого прогрессива". [[wiki/people/evgeny-kharetski.md|Kharetski]] corrected "кода игры" to "кода продукта".
+- **Not a priority.** Kharetski asked which comes first, his LGS task or NAD 2. Igor: "На 2 не приоритетней" — the team can work with what exists now; data-center support is needed nearer the release; NAD 2 work runs "как минимум точно до конца осени", and most of the designer games are not there yet. Kharetski could do it in parallel. Igor added that bet-button values may also need changes to match each game's bets. Pavel: wait and see which tasks get created and assigned. The notes record "NAD 2 data center support is not a priority now" as a decision by Igor, with Kharetski agreeing [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]].
+- **Daniil.** He closed and merged his branch and moved to the new Pixi version; he goes on with performance and memory leaks.
+- **The AI digest's "NC1" item.** Daniil: the decision recorded for "н ц один" "наверное, не очень подходит" — how videos are decoded, kept and cleared is set per board and browser, through something like GStreamer, not in that code. Nothing was changed at the meeting.
+
+### Open commitments (Oct 15 2026)
+
+- [ ] [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — create a feature under capability 240 for the Clover Fortune conversion and finish the vertical layout — due end of the week (stated "до конца недели") — [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [ ] unassigned — sort out with the designers why the NAD 2 resource tasks carry the NOVA label — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [ ] the AI PM (Pavel's "для записи") — create two tasks: NAD 2 product-code support in the data center, and the Nebraska progressives — due unspecified (not a priority) — [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+
+### Open questions (Oct 15 2026)
+
+- Why are the designers' NAD 2 resource tasks labelled NOVA, and what does "NAD 2" name? — [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- Do the Nebraska progressives need changes on the controller side? — [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- Does the AI digest's "NC1" decision fit Daniil's work, given video decoding is set at board and browser level? — [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
 
 ## Sources
 
@@ -779,3 +804,5 @@ This continues the Oct-13 item above. The Oct-13 question on freeing or keeping 
 - [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]

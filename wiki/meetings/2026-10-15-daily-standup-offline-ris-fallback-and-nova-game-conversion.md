@@ -1,0 +1,45 @@
+---
+type: meeting
+title: Daily stand-up — offline RIS fallback goes to an after-lunch meeting; Clover Fortune conversion to NOVA tracked under capability 240; NAD 2 and the Nebraska progressives as AI-PM tasks; IO board firmware updates; FlexPort 117 can merge; the ticket contact number; the AI digest (Oct 15 2026, 4:46–5:37 AM)
+date: 2026-10-15
+aliases: [Daily Standup meeting Oct 15 2026, Daily Standup Offline RIS Fallback and NOVA Game Conversion, Oct 15 stand-up, offline RIS fallback, saved RIS on the machine, capability 240, capability 242, BB 3521, BB 3522, FlexPort 117, TIN 88, AIP-744, NAD 2, Clover Fortune NOVA conversion]
+source-count: 2
+open-commitments: 0
+open-questions: 0
+---
+
+# Daily stand-up — offline RIS fallback and the NOVA game conversion (Oct 15 2026)
+
+**Date/time:** October 15 2026 (a Thursday), **4:46 – 5:37 AM Eastern**, from the `**Date:**` header line. Teams session "Daily Standup meeting". **Language: Russian.** The Minsk team's morning stand-up, run by Pavel. The previous stand-up is [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-library.md|Oct 14]] [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]].
+
+**Who spoke** (speaker labels): [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/irina-shishko.md|Irina Shishko]], [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]], [[wiki/people/alexander-biratka.md|Alexander Biratka]] (label "Alexander Biratko"), [[wiki/people/alexei-khamin.md|Alexei Khamin]] (label "Alexey Khamin"), [[wiki/people/anton-leshkevich.md|Anton Leshkevich]], [[wiki/people/anton-seregin.md|Anton Seregin]], Daniil Stauskiy (no page), [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]], [[wiki/people/igor-metelski.md|Igor Metelski]], [[wiki/people/ivan.md|Ivan]] (label "Ivan Shpak"), [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] (label "Sergey Tsimanov"), [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]]. Val was not present. [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] was on vacation [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]] [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]].
+
+**Purpose.** Thursday round-the-table status. One topic — what a machine does when it has no RIS and cannot get one — was cut short and moved to a separate meeting after lunch [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]].
+
+## Where the substance lives
+
+- [[wiki/topics/ris-remote-install-and-machine-states.md]] (Oct 15) — the offline RIS fallback argument between Kharetski and Tsymanov; how many saved RIS a machine keeps; Tsymanov's tasks BB 3520–3522.
+- [[wiki/topics/nova-platform-architecture.md]] (Oct 15) — Leshkevich's Clover Fortune conversion; one feature per game under capability 240; Dragon Pays as one universal layout; designer resources labelled NOVA; NAD 2 product code in the data center; the Nebraska progressives; Daniil's merge and the "NC1" decision.
+- [[wiki/decisions/2026-10-08-texas-rage-games-convert-to-vertical-nova-unchanged-and-igor-ports-dutch-mill-first.md]] — Oct-15 update: how each converted game is tracked in Jira.
+- [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 15) — Biratka's capabilities 135 and 116; the production FlexPort firmware; Alekseev's branch; Pavel's experimental FlexPort build and 117; the contact number on the e-wallet ticket.
+- [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] — Oct-15 update: IO board firmware to be updated along with Flex Pay and Flex IQ firmware; Alekseev's delivery.
+- [[wiki/topics/test-automation-strategy.md]] (Oct 15) — Khamin's hardware CI (capability 242); Seregin's printer scenarios and the "10-minute" ticket rule; Irina's 90% target and TIN 88; Vladimir's TIN tasks; scripts or agents for tests.
+- [[wiki/decisions/2026-10-14-mvp1-is-extended-to-about-november-8-or-9-and-the-mvp2-marked-tasks-are-done-inside-it.md]] — Oct-15 note: the AI digest logged the move as a Jira comment.
+- [[wiki/projects/ai-project-manager-and-company-second-brain.md]] (Oct 15) and [[wiki/decisions/2026-10-14-the-ai-pm-keeps-its-0-80-confidence-threshold-and-meetings-get-more-concrete-instead.md]] — the agent must be addressed directly; "Dasha" is a bad name; decisions go in as comments.
+- People: [[wiki/people/pavel.md]] · [[wiki/people/irina-shishko.md]] · [[wiki/people/dmitri-kovalchuk.md]] · [[wiki/people/alexander-biratka.md]] · [[wiki/people/alexei-khamin.md]] · [[wiki/people/anton-leshkevich.md]] · [[wiki/people/anton-seregin.md]] · [[wiki/people/evgeny-kharetski.md]] · [[wiki/people/igor-metelski.md]] · [[wiki/people/ivan.md]] · [[wiki/people/sergey-tsymanov.md]] · [[wiki/people/vladimir-samusenko.md]] · [[wiki/people/evgeniy-alekseev.md]] (in absentia) · [[wiki/people/efim-podvoiski.md]] (in absentia) · [[wiki/people/andrei-klimovich.md]] (in absentia, inference)
+
+## Notes on the sources
+
+- **§12 — new meeting.** The notes and the transcript share the date, time and title and link each other. A corpus-wide search for both filenames, "October-15-2026", "2026-10-15", "offline RIS", "capability 240", "TIN 88" and "AIP-744" found no page citing either file and no stub for this session. The other Oct-15 raws (Blue Sky / Gold Rush; Wi-Fi router and MVP 2 scope) have different titles and content. The after-lunch RIS meeting is not among this unit's files.
+- **§4 name calls.** "Саша" = Biratka (he answers). "Алексей"/"Лёша" = Khamin. The first "Антон" (game conversion) = Leshkevich and the second (Flex IQ, printer) = Seregin — both by speaker label. "Даниил" = Daniil Stauskiy. "дима" asked to add board filters = Kovalchuk (he answers); the "Дима" who reads the AI digest = Kovalchuk (speaker label). "Тима у нас уже в отпуске" = Chudinov, a garble of "Дима" (the notes say Chudinov is on vacation; he left on Oct 15 per the Oct-14 stand-up). "Женя" = Kharetski (he answers; LGS work fits him). "Алексеев", whose FlexPort branch has new memory chips = [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] (embedded/hardware — fits the registry). "Игорь" = Metelski (speaker label). "ефим" = [[wiki/people/efim-podvoiski.md|Efim Podvoiski]] (the maths server). "ваня" = Ivan; "вова" = Vladimir; "Паша" = Pavel; "Ира" = Irina; "Сергей" = Tsymanov [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]].
+- **Not resolved.** The "Андрей" who "должен был… поговорить" with Alekseev about the team's processes is **not identified**. The "Андрей", with "Элизабет", who registered locations on the Galaxy pay site and to whom Pavel will explain the contact field is likely [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] (**inference**, as on Oct 1); "Элизабет" = [[wiki/people/elizabeth.md|Elizabeth]] by context (**inference**) [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]].
+- **The game name.** The transcript has "форчун из один 22 мегахита", "Клавр порчин", "Лавр фочин"; the notes write "Clover Fortune (from the 22 Megahit set; name confirmed by Val 2026-10-15)" [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]].
+- **Where the notes and the transcript differ.** Irina's autotest target is "до 900%" in the transcript; the notes read 90%. Kovalchuk's agent threshold is "порога в 00:08"; the notes read 0.80. Ivan's port count is "65, 61 тысячу"; the notes read about 65,000. The math-server viewer is "л джи"; the notes read GLI. The progressives are garbled ("джек потраш не браска", "фари is link не праска", "мачеты небраска", "на 4 небраска"); the notes read Jackpot Rush, Safari Link, Machete and "NA4" Nebraska [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]] [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]].
+- **Garbled numbers kept as heard.** "м 08 40 08" (the IO board), "рука 35 68 тире 29" (Seregin's closed task), "н д один" and "н ц один" (Daniil's tasks), "ф п 12 09", "тинт capity 242", "л j с 12:43" (LGS 1243 per the notes) [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]].
+- **Skipped as chatter.** Greetings, the weather, the office location. One passage was cut at staging: personal matters not recorded.
+- **§15.8:** clear. Nobody's pay. Chudinov's vacation is an availability fact only. Leshkevich's cost of about one cent per test with another AI model is tool economics. **§15 #9:** clear; the numbers are Jira keys, task numbers and versions.
+
+## Sources
+
+- [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]

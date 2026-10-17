@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 127
+source-count: 128
 open-commitments: 50
 ---
 
@@ -620,6 +620,16 @@ At the [[wiki/meetings/2026-10-07-daily-standup-test-coverage-first-and-ai-task-
 
 On the [[wiki/meetings/2026-10-14-ai-pm-keep-the-0-80-threshold-and-meeting-rigor.md|Oct-14 AI PM update]] (Russian) with Val and Kovalchuk; the notes confirm both names but do not mark who is Speaker 2, 3 or 4 [[raw/Meeting_Notes_AI_PM_Keep_080_Threshold_and_Meeting_Rigor-October-14-2026.md]]. Speaker 2 — likely Bosik, who owns the agent (**inference**) — said "я его запустил"; Teams now answers questions about past meetings well; a morning link to the last meeting's agreements is posted in the chat; in Jira only comments and one task so far; the team thought of lowering the threshold. The threshold is 0.80 (Speaker 4). Val asked to keep it and make meetings more concrete; Speaker 2 agreed — [[wiki/decisions/2026-10-14-the-ai-pm-keeps-its-0-80-confidence-threshold-and-meetings-get-more-concrete-instead.md]] [[raw/Meeting_Transcript_AI_PM_Keep_080_Threshold_and_Meeting_Rigor-October-14-2026.md]].
 
+## Oct 15 2026 (11:04 AM) — the Wi-Fi spike, the router-or-client switch, a battery in every payment terminal, RBAC in production
+
+At the [[wiki/meetings/2026-10-15-wi-fi-router-switch-power-loss-battery-and-mvp2-scope.md|Oct-15 11:04 AM Wi-Fi meeting]] (Russian) [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]:
+- He defended the router (simpler, ready-made), then proposed the form of the ruling — "Переключатель… режим роутера, либо режим этого"; Flex IQ as access point needs NAT and DHCP (and, he said, DNS) in the OS and app. Pavel gave him a spike of about a week: an antenna on the current module, several Flexports and phones, range and signal — [[wiki/decisions/2026-10-15-flex-iq-gets-a-switch-between-its-own-access-point-and-an-external-router-and-mvp2-starts-on-the-router.md]].
+- He argued against Val's separate Wi-Fi unit: it raises the customer's cost; a module in the existing terminal is much cheaper — same page.
+- Modems stay in every terminal because it handles money — [[wiki/decisions/2026-09-15-every-device-carries-its-own-lte-modem-and-sim.md]] (Oct-15 update).
+- Battery: add it to all payment terminals; swappable, about three years' life — [[wiki/decisions/2026-10-15-payment-terminals-get-a-swappable-backup-battery-and-report-power-loss-so-service-can-be-called.md]]. He asked what JVL does when a power-loss alert comes.
+- RBAC: Tsymanov built part of it, and "мы с Димой позавчера выкатили на прод" — [[wiki/decisions/2026-10-15-service-diagnostics-go-to-the-cloud-with-role-based-access-not-to-the-local-screen.md]].
+- Most Wi-Fi requirements are already written and need review — [[wiki/decisions/2026-10-15-mvp2-is-flex-iq-wi-fi-remote-update-diagnostics-and-galaxy-reporting-and-flex-pay-moves-to-mvp3.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -752,3 +762,4 @@ On the [[wiki/meetings/2026-10-14-ai-pm-keep-the-0-80-threshold-and-meeting-rigo
 - [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
 - [[raw/Meeting_Transcript_AI_PM_Keep_080_Threshold_and_Meeting_Rigor-October-14-2026.md]]
 - [[raw/Meeting_Notes_AI_PM_Keep_080_Threshold_and_Meeting_Rigor-October-14-2026.md]]
+- [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]

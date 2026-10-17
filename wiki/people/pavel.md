@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 221
+source-count: 223
 open-commitments: 107
 open-questions: 0
 ---
@@ -1241,6 +1241,25 @@ At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-l
 - Remote RIS protocol versioning went to a separate talk; boot-loop recovery is not in MVP 1 and not approved — [[wiki/topics/ris-remote-install-and-machine-states.md]] (Oct 14).
 - His Claude ran about 400 transactions overnight on Ivan's task 128 without reproducing the problem — [[wiki/topics/test-automation-strategy.md]] (Oct 14).
 
+## Oct 15 2026 — offline RIS to an after-lunch meeting; one feature per game under capability 240; IO board updates on the fly; 117 can merge
+
+At the [[wiki/meetings/2026-10-15-daily-standup-offline-ris-fallback-and-nova-game-conversion.md|Oct-15 stand-up]] he ran the round [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]:
+- He moved the offline RIS fallback (how many saved RIS a machine keeps — he thinks the last one is enough) to a separate meeting after lunch — [[wiki/topics/ris-remote-install-and-machine-states.md]] (Oct 15).
+- Each NOVA game conversion gets its own feature under capability 240; tasks "для записи" for the AI PM on NAD 2 in the data center and the Nebraska progressives — [[wiki/topics/nova-platform-architecture.md]] (Oct 15).
+- For the payment terminal there is no rule against updating firmware on the fly, so the IO board should be updatable along with Flex Pay and Flex IQ firmware — [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Oct-15 update).
+- Alekseev's FlexPort branch: cut a new branch from fresh main and pull his changes in; FlexPort 117 can be merged; he expects 128 to fail and collect more data — [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 15).
+- Tests stay as scripts: Claude "очень хорошо… протестирует, но потом это не попадёт никуда в историю" — [[wiki/topics/test-automation-strategy.md]] (Oct 15).
+
+## Oct 15 2026 (11:04 AM) — a switch for Flex IQ's Wi-Fi; the battery needs Genadi; the QR "location map"; Flex Pay to MVP 3
+
+At the [[wiki/meetings/2026-10-15-wi-fi-router-switch-power-loss-battery-and-mvp2-scope.md|Oct-15 11:04 AM Wi-Fi meeting]] (Russian) he opened on the Wi-Fi work [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]:
+- Flex IQ can be its own access point, but its soldered RK3568 chip is not industrial grade; he would keep both options — a switch, own access point or external router. Val ruled the switch plus a router for MVP 2 and the router inside later; Pavel: "Согласен"; he suggested building the own access point in parallel in MVP 2, not confirmed — [[wiki/decisions/2026-10-15-flex-iq-gets-a-switch-between-its-own-access-point-and-an-external-router-and-mvp2-starts-on-the-router.md]].
+- A battery in the Flex IQ stand with a BMS the main processor reads; payment terminals = Flex Pay, recycler, Flex dispenser; "тут нам нужен уже Геннадий"; Flexports already go red "out of service" about 2 seconds after losing the host and recover by themselves — [[wiki/decisions/2026-10-15-payment-terminals-get-a-swappable-backup-battery-and-report-power-loss-so-service-can-be-called.md]].
+- Critical events already go to Grafana; his MVP 3 idea is SSH access to any terminal from the firmware-management tool — [[wiki/decisions/2026-10-15-service-diagnostics-go-to-the-cloud-with-role-based-access-not-to-the-local-screen.md]].
+- His plan, approved by Val: the Wi-Fi name and password on the location's dashboard page, a QR generated there and scanned on each Flexport; he named it "location map" — [[wiki/decisions/2026-10-15-installers-set-up-a-location-by-phone-with-a-qr-code-from-the-location-dashboard-the-location-map.md]].
+- MVP 1 lacks only the Flex-Port USB-stick update; remote port update moves to MVP 2; he will update prose and contracts for Alekseev's code — [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Oct-15 11:04 AM update).
+- He will retag Flex Pay from MVP 2 to MVP 3 and, with Irina, tell Andrei the release date; the location shortfall can be paid by card on the location page (Stripe as an example) — [[wiki/decisions/2026-10-15-mvp2-is-flex-iq-wi-fi-remote-update-diagnostics-and-galaxy-reporting-and-flex-pay-moves-to-mvp3.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]
@@ -1467,3 +1486,5 @@ At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-l
 - [[raw/Meeting_Transcript_RIS_MVP2_Scope_and_Release_Timing-October-12-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]

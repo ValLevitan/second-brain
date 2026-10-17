@@ -3,7 +3,7 @@ type: decision
 title: For Dynamic Gaming, the $90 a month is drafted from each location by voided cheque, not paid by the master — no equipment contract, the post-show price for everyone, and service off if a location stops paying
 date: 2026-09-17
 aliases: [ninety dollars drafted from the location, voided check draft, the master will not pay the ninety dollars, you turn off the machine, no contract no lock-in, we can't offer discounts post show, Dynamic Gaming fee settlement]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 0
 open-questions: 2
@@ -37,6 +37,8 @@ The derived notes record the same terms in their decisions list ("JVL bills the 
 - **No exclusivity was asked.** On Sept 9 Val asked Rao for JVL exclusivity in the location and a three-year location contract ([[wiki/decisions/2026-09-09-rao-takes-the-bundle-with-jvl-exclusive-in-the-location.md]]); the Aug-31 ruling ties transactional equipment to location exclusivity ([[wiki/decisions/2026-08-31-transactional-equipment-only-with-location-exclusivity.md]]). **Nothing in this meeting mentions exclusivity**, and "no contract" was said without any condition. Recorded side by side; nothing reconciles them.
 - **Credit per location.** Earlier in the meeting Andrei said JVL "**can set up a cap per location**", and the example given was "**Fifteen thousand**"; the master said he would stand behind a location only when he asks JVL to extend it more credit. [[raw/Meeting_Transcript_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]
 
+**Oct 15 2026 — another master, the same pattern.** At the [[wiki/meetings/2026-10-15-blue-sky-gold-rush-refurbished-machines-offer-and-transactional-demo.md|Oct-15 Blue Sky / Gold Rush meeting]] the operator asked whether the $90 is charged "directly to the customers"; the JVL answer: "We charge whoever you want us to charge that money." [[wiki/people/felipe-miranda.md|Felipe]]: "They have to know that they must have the money for us to draft it." The operator said the other vendors "are all charging the locations", and that he lets each location choose, "Because the draft has come out of their account." [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]] No new terms were set; this is the Sept-17 arrangement offered again to a different master. Detail on [[wiki/organizations/blue-sky-gold-rush.md]].
+
 ## Open questions
 
 - **Does "no contract" override the location-exclusivity condition** set on Aug 31 and asked of Rao on Sept 9? Not addressed in this source — [[raw/Meeting_Transcript_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]
@@ -46,5 +48,6 @@ The derived notes record the same terms in their decisions list ("JVL bills the 
 
 ## Sources
 
+- [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
 - [[raw/Meeting_Notes_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]

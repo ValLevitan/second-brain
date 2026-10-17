@@ -3,8 +3,8 @@ type: decision
 title: For MVP 2, Biratka reviews the existing capabilities, drops the outdated or wrong ones and ports Flex IQ's to FlexPay by analogy — but writes no new ones until Klimovich, back on October 13, has thought through the user and administrator flows
 date: 2026-10-01
 aliases: [MVP 2 capabilities method, Biratka ports Flex IQ capabilities to FlexPay, по аналогии с флекса IQ, no new capabilities without business confirmation, user and admin flows, со стороны юзера и администратора, Klimovich back October 13, до 13 октября, оптимальный подход, Biratka MVP 2 cleanup]
-source-count: 5
-status: active
+source-count: 7
+status: active — Oct 15 2026: Val takes Flex Pay out of MVP 2 (to be retagged MVP 3), so the Flex Pay porting serves MVP 3; see the Oct-15 update
 open-commitments: 2
 open-questions: 1
 ---
@@ -47,6 +47,12 @@ At the [[wiki/meetings/2026-10-14-transactional-mvp1-launch-plan-brackets-daily-
 
 The derived notes list the same items under "MVP2 scope (discussed)" [[raw/Meeting_Notes_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]. *(This is a priority list from Val, not yet written capabilities; it gives Klimovich's Oct-1 flows work its starting content — **inference**.)* A per-unit cloud backup was agreed in the same talk — [[wiki/decisions/2026-10-14-the-first-cloud-step-is-a-backup-of-each-flex-iq.md]].
 
+## Update, Oct 15 2026 — Val takes Flex Pay out of MVP 2
+
+At the [[wiki/meetings/2026-10-15-wi-fi-router-switch-power-loss-battery-and-mvp2-scope.md|Oct-15 11:04 AM Wi-Fi meeting]] (Russian), asked by Irina whether MVP 2 is Flex IQ or Flex Pay ("flex pay идёт как [MVP] 2"), [[wiki/people/val-levitan.md|Val]] said "Андрей" (Klimovich, by context — **inference**) had argued for Flex Pay, but he would leave it out: MVP 2 = Flex IQ, Wi-Fi configuration, remote update for the Flexports and Flex IQ, diagnostics, and Galaxy transactional brought up to reporting and dashboards, plus the location shortfall paid by card. Pavel will take the MVP 2 mark off Flex Pay and relabel it MVP 3. Val is still polishing the list "с Андреем", after which Andrei starts with the team; "Андрей может написать только [функциональные requirements]" — the rest must come from the engineers. Full record: [[wiki/decisions/2026-10-15-mvp2-is-flex-iq-wi-fi-remote-update-diagnostics-and-galaxy-reporting-and-flex-pay-moves-to-mvp3.md]] [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]] [[raw/Meeting_Notes_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]].
+
+**What it means here (inference).** Biratka's Oct-1 work of porting Flex IQ capabilities to Flex Pay now serves MVP 3, not MVP 2. Klimovich's flows commitment below stays open; its subject is now Val's MVP 2 list.
+
 ## Open commitments
 
 - [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — go through the MVP 2 capabilities: drop the outdated or wrong ones, port the Flex IQ capabilities that apply to FlexPay by analogy, write no new ones — due while Klimovich is away (until Oct 13 2026) — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
@@ -64,3 +70,5 @@ The derived notes list the same items under "MVP2 scope (discussed)" [[raw/Meeti
 - [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
+- [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
+- [[raw/Meeting_Notes_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]

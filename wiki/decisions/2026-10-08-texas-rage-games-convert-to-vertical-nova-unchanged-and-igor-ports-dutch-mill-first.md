@@ -2,8 +2,8 @@
 type: decision
 title: The horizontal Texas games on RAGE are converted to vertical NOVA games with Igor's 20% method, with no change to maths or function; Igor ports Dutch Mill first and Sergey Kleimenychev only makes the video (Oct 8 2026)
 date: 2026-10-08
-aliases: [Texas blind conversion, в тупую слепую, Texas Rage to Nova vertical, перевозим их на нова вертикальные, 20 percent stretch, symbols 20% taller than wide, Dutch Mill first port, дач мил, Kleimenychev video only, looping topper video, keep it confidential, держим конфиденцию, Games convert horizontal to vertical]
-source-count: 2
+aliases: [Texas blind conversion, в тупую слепую, Texas Rage to Nova vertical, перевозим их на нова вертикальные, 20 percent stretch, symbols 20% taller than wide, Dutch Mill first port, дач мил, Kleimenychev video only, looping topper video, keep it confidential, держим конфиденцию, Games convert horizontal to vertical, one feature per game under capability 240, рейчту новым migration]
+source-count: 4
 status: active
 open-commitments: 7
 open-questions: 3
@@ -77,6 +77,18 @@ Igor: about two weeks for one game with the port and its tests ("недели 2"
 
 **§15.8:** Pavel's statement of how many hours a day Sergey works is engagement detail and is not recorded. No pay or rate appears. **§15 #9:** none.
 
+## Update, Oct 15 2026 — one Jira feature per converted game; a second converter; Dragon Pays serves both layouts
+
+At the [[wiki/meetings/2026-10-15-daily-standup-offline-ris-fallback-and-nova-game-conversion.md|Oct-15 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]:
+
+- **A second person converts.** [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] used Igor's tools to start on Clover Fortune (the notes' name [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]); horizontal first, then vertical, by the end of the week. This is the RK3576 game-library work Pavel set on Oct 14 ([[wiki/topics/nova-platform-architecture.md]], Oct 15), not the Texas list — the link to this page is the method and the Jira rule below.
+- **Tracking rule (Pavel).** Each conversion gets its own feature under capability 240 ("рейчту новым migration" as heard), like the Dragon Pays conversion, so the AI PM can follow it. The notes list it as Pavel's decision: "NOVA conversions: one feature per game under capability 240" [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]].
+- **Both layouts in one game.** [[wiki/people/igor-metelski.md|Igor]]: Dragon Pays picks vertical or horizontal resources by the cabinet type passed in the URL. Its vertical is probably not merged into main yet.
+- **"над" again.** Igor called the games the designers are now drawing "текущий над 2", not Dakota. What "над" names is still **unclear**; see the open question above on the older games.
+- **Not reported here:** the Dutch Mill port or Igor's testing status (due "Thu Oct 15" per the commitment above). The stand-up is not that meeting; status unknown.
+
 ## Sources
 - [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]
 - [[raw/Meeting_Notes_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]

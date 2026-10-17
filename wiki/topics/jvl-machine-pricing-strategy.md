@@ -3,7 +3,7 @@ type: topic
 title: JVL machine pricing and commercial strategy
 date: 2025-09-23
 aliases: [machine pricing, fifteen seven fifty, $15750, free hardware instead of discount, retail price, price list, Dennis one number, CFO-to-CFO credit, market pricing, list price, dollars not discounts, JVL Dollars pricing lever, show special pricing, Georgia machine price, D43 price, D27 trade-in, South Dakota premium, twelve eight twenty, two nine thirty, $795 port, $895 IQ, $7950 Flex-Slim, kill the market, fifty-seven fifty, topper eight hundred to one thousand, ten dollars per machine, value almost as much as this machine is, ninety to one fifty, one hundred months, $150 minimum, lease pricing, fourteen dollars per machine per month]
-source-count: 39
+source-count: 41
 ---
 
 # JVL machine pricing and commercial strategy
@@ -298,8 +298,24 @@ At the [[wiki/meetings/2026-10-14-atl-coam-transactional-demo-show-special-and-d
 
 **§15.8:** clear — machine and equipment pricing only.
 
+## Oct 15 2026 (5:18 PM) — to Blue Sky / Gold Rush: $15,750 said plainly, a 9% increase from December 31, refurbished machines, and what a machine really costs JVL
+
+At the [[wiki/meetings/2026-10-15-blue-sky-gold-rush-refurbished-machines-offer-and-transactional-demo.md|Oct-15 meeting]] with [[wiki/organizations/blue-sky-gold-rush.md|Blue Sky / Gold Rush]] [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]:
+
+- **The machine price.** Felipe: "this one retail fifteen seventy. Fifteen seventy." Val: "The 15,750 does not include the topper." This fits the reading of the Oct-14 "three thousand seven hundred and fifty" above as a clipped $15,750 (still **inference** for Oct 14; the Oct-14 words stay as heard). [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
+- **The topper.** Felipe: "Topper is around 800. I really advise you to get the topper." Val: "when you show a progressive, people from far away grab it because they see it from far away." [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
+- **The increase now has a size and a date.** Val: "as of December thirty-first, we have a nine percent price increase." Earlier quotes gave January 1 and no size (Oct 14, above, and [[wiki/organizations/aks-amusement.md]]). December 31 and January 1 are read as the same change (**inference**). [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
+- **Bill acceptors.** Felipe advised against JCM: "They're coming out with a new ten dollar bill… there won't be an upgrade for JCM UBA." Options named: "JCM, UBA, or high mission" (the last as heard). [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
+- **Refurbished trade-in machines.** The operator's ask was about $9,000 each over twelve months for 20 machines; Val did not think $9,000 possible and spoke of fourteen or sixteen months instead — [[wiki/decisions/2026-10-15-refurbished-trade-in-machines-are-sold-apart-from-the-show-special-and-show-special-machines-are-not-financed.md]]. [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
+- **Soft cost.** Val: "Our soft cost… per machine is roughly six and a half thousand dollars per machine." A JVL speaker (label mixed; the notes give the soft-cost point to Val): "The bill of material on the machine is let's say five thousand dollars. You need to add six and a half thousand dollars in soft cost per machine, and this is nobody counts it." [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]] [[raw/Meeting_Notes_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
+- **Approval costs.** Val: "the GLI approval for a game, let's say in South Dakota, is nine thousand dollars" — South Dakota has "nine thousand six hundred machines" and replaces "roughly a thousand machines per year", against "forty-seven thousand" in Georgia. "The approval through Georgia Lottery costs approximately ten thousand dollars per cabinet. If you make a mistake and have to re-approve, that's another ten thousand", possibly less for a minor error, and "fifteen hundred dollars" for a compliance letter to the lottery. "every time we make a software mistake… we basically burn money." [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
+- **Texas is priced differently.** Val: "in Texas, we're going with cheaper cabinets and a cheaper solution. We also go with a participation model, and here we cannot participate." [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
+- **Why not cheap overseas game design.** Val: "Our senior VP of game design is ex-Bali employee… You cannot have a guy in Russia or in India or in China designing your games." ("Bali" reads as Bally — **inference**; see [[wiki/people/michael-gottlieb.md]].) [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
+- [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
 - [[raw/Meeting_Notes_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
 - [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]]

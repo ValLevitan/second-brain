@@ -3,7 +3,7 @@ type: decision
 title: November and December sales go to trade-ins — a $6,500 credit for old JVL machines against a new one, and Banilla and IGT machines taken for Texas; parts from incoming machines are crushed
 date: 2026-10-14
 aliases: [marching orders, Q4 trade-in plan, $6,500 trade-in, sixty-five hundred trade, JVL trade-in credit, Banilla and IGT for Texas, trade and deals, crush the validators, two packages, clean up our own market]
-source-count: 2
+source-count: 4
 status: active
 open-commitments: 1
 open-questions: 2
@@ -34,6 +34,14 @@ Agreed by [[wiki/people/val-levitan.md|Val Levitan]] and [[wiki/people/felipe-mi
 - **Narayani (Aug 26).** An earlier, smaller trade-in of three D27 machines — [[wiki/decisions/2026-08-26-narayani-three-machine-d27-trade-in-pilot.md]].
 - *(Inference: the $6,500 JVL trade-in and the Texas trade-in are two separate offers — one for JVL's own machines, one for other makers' machines. The source treats them as two lines of the same plan.)*
 
+## Oct 15 2026 — the other end of the trade-in flow: 20 refurbished machines offered to an operator
+
+The next evening, at the [[wiki/meetings/2026-10-15-blue-sky-gold-rush-refurbished-machines-offer-and-transactional-demo.md|Blue Sky / Gold Rush meeting]], Val described what JVL does with machines it takes in: "From other operators, let's say somebody wants to upgrade to this machine, they bring us this machine… We take it in, we fully refurbish it here, put the new software in, and yes, we can sell it cheaper. But it's a very limited quantity. Right now we have 20 machines." They carry "a ninety-day warranty" and come without a topper [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]].
+
+- **The bid.** The operator asked for all 20 at "Around the nine thousand mark" over "twelve months". Val: "I don't think that I can meet 9,000" — some units "Have broken monitors, have broken touchscreens… burnt out PC boards" — and he floated fourteen or sixteen monthly payments instead. JVL is to check the machines one by one and answer by Oct 19–20 (commitment held on [[wiki/organizations/blue-sky-gold-rush.md]]) [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]] [[raw/Meeting_Notes_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]].
+- **The rules Val set:** refurbished machines do not get the show special, and show-special machines are not financed — [[wiki/decisions/2026-10-15-refurbished-trade-in-machines-are-sold-apart-from-the-show-special-and-show-special-machines-are-not-financed.md]].
+- *Inference:* the Oct-14 plan's "refurbish them… package the deal and send them to South Dakota or to Nebraska" and this Georgia offer are two outlets for the same kind of stock. Whether the 20 machines here are JVL machines taken at $6,500 is not said.
+
 ## Open commitments
 
 - [ ] [[wiki/people/felipe-miranda.md|Felipe Miranda]] — start a priority list of who to approach for trade-ins ("I'll start working on that tomorrow. I'll start putting a list together of priorities") — due Oct 15 2026 — [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
@@ -47,5 +55,7 @@ Agreed by [[wiki/people/val-levitan.md|Val Levitan]] and [[wiki/people/felipe-mi
 
 ## Sources
 
+- [[raw/Meeting_Notes_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
+- [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
 - [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
 - [[raw/Meeting_Notes_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]

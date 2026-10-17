@@ -3,7 +3,7 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 55
+source-count: 56
 open-commitments: 13
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
@@ -234,6 +234,10 @@ At the [[wiki/meetings/2026-10-12-daily-standup-flexport-emulator-and-jira-auto-
 - [ ] Nathan Carver — link the MSBC endpoints named by the consultant through the API into MCP — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
 - [ ] Nathan Carver, with Genadi Peari — agree the vendor administrative/financial data format into MSBC and how repository files are organised or tagged — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
 
+## Oct 15 2026 (11:04 AM, in absentia) — the location shortfall: a card payment notifies his module
+
+At the [[wiki/meetings/2026-10-15-wi-fi-router-switch-power-loss-battery-and-mvp2-scope.md|Oct-15 11:04 AM Wi-Fi meeting]] (Russian) Val first said the location's bank shortfall is work "для [Nathan]"; Pavel: it can be paid by card on the location's dashboard page, with a notification to Nathan's module so it shows in the invoices — [[wiki/decisions/2026-10-15-mvp2-is-flex-iq-wi-fi-remote-update-diagnostics-and-galaxy-reporting-and-flex-pay-moves-to-mvp3.md]] [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
@@ -291,3 +295,4 @@ At the [[wiki/meetings/2026-10-12-daily-standup-flexport-emulator-and-jira-auto-
 - [[raw/Meeting_Notes_Bank_of_America_CashPro_Business_Central_Source_of_Truth_and_Customer_ACH_Portal-October-13-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
+- [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]

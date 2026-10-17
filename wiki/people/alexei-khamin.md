@@ -3,7 +3,7 @@ type: person
 title: Alexei Khamin
 date: 2025-04-22
 aliases: [Alexei Khamin, Aliaksey Khamin, Alexey Khamin, Khamin, Хамин, Khanin, Ханин, Kamin, Alexey Kamin, Lyosha, Лёша]
-source-count: 41
+source-count: 43
 open-commitments: 22
 ---
 
@@ -265,6 +265,14 @@ At the [[wiki/meetings/2026-10-13-daily-standup-video-decode-memory-and-release-
 
 At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-library.md|Oct-14 stand-up]] he said many transactional autotests depend on simulators and he will create a task to run on real hardware; he takes the Flex IQ device — [[wiki/topics/test-automation-strategy.md]] (Oct 14). The USB-stick firmware check on the morning of the 15th is "больше для лёши" — [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Oct-14 update) [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]].
 
+## Oct 15 2026 — a feature under capability 242; Alekseev's branch from fresh main; the production FlexPort build
+
+At the [[wiki/meetings/2026-10-15-daily-standup-offline-ris-fallback-and-nova-game-conversion.md|Oct-15 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]: he continues CI for tests on real hardware and needs a feature under capability 242, which the agent did not create — [[wiki/topics/test-automation-strategy.md]] (Oct 15). Alekseev's branch does not build on GitHub; Pavel told him to branch from fresh main and pull the changes in. He built and installed the production FlexPort firmware — cash-out and crediting work. He asked whether a personal mobile entered at location set-up prints on every ticket — [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 15).
+
+## Oct 15 2026 (11:04 AM, in absentia, inference) — the merge from fresh main failed; next, the capability sync and a hand test with a real stick
+
+At the [[wiki/meetings/2026-10-15-wi-fi-router-switch-power-loss-battery-and-mvp2-scope.md|Oct-15 11:04 AM Wi-Fi meeting]] (Russian) "Лёша" — Khamin by context (**inference**) — is named [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]: Irina said he tried to merge Alekseev's branch from fresh main and failed, because the branch was cut long ago; Alekseev must do the merge. Then Lyosha syncs the Flex-Port capability with the USB-flashing requirement and tests by hand with a real stick — [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Oct-15 11:04 AM update). Irina: he must also work on the RIS re-issue ("перевыпуск… рис", garbled) — [[wiki/decisions/2026-10-15-mvp2-is-flex-iq-wi-fi-remote-update-diagnostics-and-galaxy-reporting-and-flex-pay-moves-to-mvp3.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -308,3 +316,5 @@ At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-l
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]

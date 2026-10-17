@@ -3,9 +3,9 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, eighty percent of the general functionality, requirements are step two, a hole automated tests will not cover, acceptance criteria in general terms, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction, Figma to React, Vite, Claude Code review loop, acceptance criteria, two test warehouses, frozen test cases, test harness, test registry, no E2E tests for MVP 1, E2E micro-step, telnet hook test, 60 to 70 percent acceptance criteria, symlink to dev null, eight connection tests, money-crediting autotest]
-source-count: 75
-open-commitments: 65
-open-questions: 9
+source-count: 77
+open-commitments: 69
+open-questions: 10
 ---
 
 # Test-automation strategy and testing architecture
@@ -871,14 +871,36 @@ At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-l
 
 ### Open commitments (Oct 14 2026, 4:47 AM)
 
-- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — create a task to run the autotests on real hardware, and take the Flex IQ device — due Oct 14 2026 — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
-- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — build the image with the changed installer and try to install it — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
-- [ ] [[wiki/people/ivan.md|Ivan]] — rebuild the port, install it and rerun task 128; meet Pavel if questions remain — due unspecified (Irina: urgent) — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — create a task to run the autotests on real hardware, and take the Flex IQ device — due Oct 14 2026 — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]] — *Oct 15 2026: still open — Khamin says a feature under capability 242 is needed for hardware scenario tests through the runner; he said so the day before, but the AI agent did not create it* — [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — build the image with the changed installer and try to install it — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]] — *Oct 15 2026: he closed the USB-stick loading task and split out the installer; a boot-order change waits in a pull request, not applied* — [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [ ] [[wiki/people/ivan.md|Ivan]] — rebuild the port, install it and rerun task 128; meet Pavel if questions remain — due unspecified (Irina: urgent) — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]] — *Oct 15 2026: 128 is in Pavel's experimental build with extra debug output; Pavel expects it to fail and collect more data* — [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
 - [ ] [[wiki/people/ivan.md|Ivan]] — then take autotest 66 from Irina — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
 
 ### Open questions (Oct 14 2026, 4:47 AM)
 
 - Which Flex IQ device does Khamin use while Irina still needs one for her tests — Chudinov's after his vacation starts, or the new one? — [[raw/Meeting_Notes_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+
+## Oct 15 2026 (4:46 AM) — Khamin's hardware CI needs a feature under capability 242; Seregin's printer scenarios and a "10-minute" rule nobody knows; Irina aims at 90%; TIN 88 leaves MVP 1; scripts or agents
+
+At the [[wiki/meetings/2026-10-15-daily-standup-offline-ris-fallback-and-nova-game-conversion.md|Oct-15 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]:
+
+- **[[wiki/people/alexei-khamin.md|Khamin]].** He continues CI for tests on real hardware. A feature must be created under capability 242 ("тинт capity 242") to run scenario tests on hardware through the runner; he said it the day before, but the agent "походу не не решила заводить". [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]]: to make the agent create something, address it directly — see [[wiki/projects/ai-project-manager-and-company-second-brain.md]] (Oct 15).
+- **[[wiki/people/anton-seregin.md|Seregin]].** He closed "рука 35 68 тире 29" — USB-stick loading — and split out the installer. A change to the boot priority sits in a pull request: the SD card on his board does not work, and Claude said there is a risk the board will not boot, so he did not apply it. The scanner scenarios all passed. Printer scenarios are in progress. In one, Claude took "от какихто регламентов" a rule that a ticket not taken physically within some time — "скажем, 10 минут" — is marked invalid; "сейчас такого нет". Pavel: the first time he hears of such a requirement. Irina: let it say where it found it — "может, из какойто прошлой… жизнью". Printing a ticket and then a receipt in a row shows odd timeouts.
+- **[[wiki/people/irina-shishko.md|Irina]].** She hopes to bring the autotests to at least 90% today (the transcript: "900%"; the notes: 90%); only 4 features are untouched, the rest are in progress or blocked. Pavel: TIN 88 is dated October 12 and needs a new date; Irina: it is no longer in MVP 1 — "её нужно вообще убрать". The notes list "TIN 88 comes out of MVP1" as her decision [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]].
+- **[[wiki/people/vladimir-samusenko.md|Vladimir]].** TIN 32 closed. He took 71 and 72 out of Blocked with the port fixes; they are running. 27 waits for review. 33 has questions about how the terminal and port reach the network and the internet — "требования очень интересно написано"; he will ask Pavel. He hopes to close all four today, then take 57, 63 and 56. One of these is not MVP 1 (the notes: 56); Pavel: "Как минимум убрать из него 15 октября."
+- **[[wiki/people/ivan.md|Ivan]].** No direct network access to the production FlexPort firmware, by Claude's port scan; he will try himself; after Vladimir he checks Pavel's build — detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 15).
+- **Scripts or agents?** [[wiki/people/anton-leshkevich.md|Leshkevich]] asked whether the team writes tests as scripts or lets agents test. Pavel: "Скриптами" — Claude tests very well, "но потом это не попадёт никуда в историю и повторно повторить его будет невозможно." Khamin: Claude may test differently each time, "и токенов будет ужас"; CI picks tests by what a pull request changes, and there may be many pull requests a day. Leshkevich had tried DeepSeek (heard "дипсика") and found a test cost about one cent. [[wiki/people/igor-metelski.md|Igor]]: a universal approach is needed — scripts for Claude, which it writes as it goes and then reuses; for NOVA he keeps scripts and test scenarios in near-human language and has Claude run them; he proposed a separate talk. Irina: tests committed to one place, written by Claude — "это самое идеальный вариант". Pavel: with a set of ready tests you can still give them to Claude and ask it to invent new ones; "одно другого не исключает", and the reports and tests match each other. Nothing new was decided.
+
+### Open commitments (Oct 15 2026, 4:46 AM)
+
+- [ ] unassigned (the agent did not create it) — create a feature under capability 242 for hardware scenario tests through the runner — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — finish the printer scenarios and find where the "10-minute invalid ticket" rule came from — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — bring the autotests to 90%; remove TIN 88 from MVP 1 — due Oct 15 2026 — [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [ ] [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] — close TIN 71, 72, 27 and 33 (ask Pavel on 33); then take 57, 63 and 56; at least remove the Oct 15 date from 56 — due Oct 15 2026 (the four) — [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+
+### Open questions (Oct 15 2026, 4:46 AM)
+
+- Where did Claude get the rule that a printed ticket not taken within about 10 minutes becomes invalid? — [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
 
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -957,3 +979,5 @@ At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-l
 - [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]

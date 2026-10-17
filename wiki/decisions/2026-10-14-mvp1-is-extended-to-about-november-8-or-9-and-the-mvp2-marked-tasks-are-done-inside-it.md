@@ -2,8 +2,8 @@
 type: decision
 title: The MVP 1 date is extended to about November 8 or 9, and the tasks marked MVP 2 are done inside MVP 1 — said in Kharetski's turn about the old-version branch, the RIS improvement MVP 1 (owner-confirmed 2026-10-15)
 date: 2026-10-14
-aliases: [MVP1 extension, MVP 1 extended to November 8 or 9, расширить дату до 8 или 9 ноября, MVP 2 tasks done in MVP 1, MVP turned into MVP 2, same scope longer time, больший срок, RIS MVP1 moves to November]
-source-count: 4
+aliases: [MVP1 extension, MVP 1 extended to November 8 or 9, расширить дату до 8 или 9 ноября, MVP 2 tasks done in MVP 1, MVP turned into MVP 2, same scope longer time, больший срок, RIS MVP1 moves to November, AIP-744]
+source-count: 6
 status: active
 open-commitments: 1
 open-questions: 1
@@ -41,7 +41,7 @@ So this source does **not** move the transactional October-15 date ([[wiki/decis
 
 ## Open commitments
 
-- [ ] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — finish the battery test (task 246), then take the tasks marked MVP 2 — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [ ] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — finish the battery test (task 246), then take the tasks marked MVP 2 — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]] — *Oct 15 2026: battery check done ("батарейку проверил… в целом всё ок"; a new event is logged when the battery is replaced); next is LGS 1243; the MVP 2 part stays open* — [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
 
 ## Open questions
 
@@ -55,9 +55,15 @@ At the [[wiki/meetings/2026-10-14-transactional-mvp1-launch-plan-brackets-daily-
 
 **§15.8:** clear.
 
+## Note, Oct 15 2026 — the AI digest logs the move as a Jira comment on AIP-744
+
+At the [[wiki/meetings/2026-10-15-daily-standup-offline-ris-fallback-and-nova-game-conversion.md|Oct-15 Minsk stand-up]] [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] read the AI digest of the day before: "Принос MVP один на восьмоедевятого ноября. Ну это добавлено как комментарий к айпи 744" (the notes: AIP-744) [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]. The digest still gives "the eighth–ninth", so the exact day stays open. Nobody restated or changed the plan. Kharetski reported the battery check (task 246) done and named LGS 1243 as his next task; whether that is one of the MVP 2-marked tasks is **not said** [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
 - [[raw/Meeting_Transcript_RIS_MVP2_Scope_and_Release_Timing-October-12-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]

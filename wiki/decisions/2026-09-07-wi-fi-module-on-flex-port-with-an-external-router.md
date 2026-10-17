@@ -3,8 +3,8 @@ type: decision
 title: Wi-Fi goes onto the Flex-Port board as a soldered module and an external commercial router stays the access point — mesh rejected, cable stays supported, router brands must be American or allied
 date: 2026-09-07
 aliases: [Wi-Fi module on Flex-Port, soldered Wi-Fi module, $4-5 per board, mesh rejected, external router stays, Val's dumb idea withdrawn, American routers only, Cisco Linksys Nokia MikroTik, certified antenna, one serial connector, jamming a location]
-source-count: 8
-status: active
+source-count: 10
+status: active — Oct 15 2026: the external router stays for MVP 2, but Flex IQ gets a switch for its own access point and the router is planned to move inside JVL hardware in MVP 3 or later (see the Oct-15 update)
 open-commitments: 3
 open-questions: 3
 ---
@@ -80,6 +80,15 @@ At the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-m
 
 At the [[wiki/meetings/2026-10-14-transactional-mvp1-launch-plan-brackets-daily-caps-and-mvp2-scope.md|Oct-14 3:49 PM launch-plan meeting]] (Russian), [[wiki/people/val-levitan.md|Val]] ruled that the first release is sold with the current ports, "Без Wi - Fi capabilities", and no ports are replaced; about 100 more ports reworked for Wi-Fi arrive in about two weeks — [[wiki/decisions/2026-10-14-the-first-ten-transactional-locations-go-in-from-november-1-on-stock-monitors-ports-without-wi-fi-and-hand-made-harnesses.md]]. For MVP 2: "я бы на MPP2 обязательно бы сделал бы Wi-Fi" [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]].
 
+## Update, Oct 15 2026 — Val questions the router; Flex IQ gets a switch, and the router moves inside later
+
+At the [[wiki/meetings/2026-10-15-wi-fi-router-switch-power-loss-battery-and-mvp2-scope.md|Oct-15 11:04 AM Wi-Fi meeting]] (Russian) Pavel opened by recalling this decision — a router at each location, because its antennas give a better signal. [[wiki/people/val-levitan.md|Val]] questioned it: a router costs money, needs installing, permission, a power cable and a good spot on the ceiling. [[wiki/people/pavel.md|Pavel]]: Flex IQ can be the access point itself, but its Wi-Fi chip is soldered on the ready-made RK3568 board and is "не индастриал грейд" — the same point Alekseev made on Sept 7 ("он очень слабый") [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]].
+
+- **Ruling.** Pavel would not drop either option; Flex IQ gets a setting to choose its own access point or an external one. Val: in MVP 2 build the switch first and use the external router; in MVP 3, 4 or 5 the router moves inside. Pavel: "Согласен." Full record: [[wiki/decisions/2026-10-15-flex-iq-gets-a-switch-between-its-own-access-point-and-an-external-router-and-mvp2-starts-on-the-router.md]] [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]] [[raw/Meeting_Notes_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]].
+- **The antenna question returns** in a new place: Val proposed an antenna inside Flex IQ's plastic cover where the second screen was removed; Bosik, around the screen inside the frame [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]].
+- **Ports.** Val: Alekseev has laid out Wi-Fi on the port boards; the ports are not tested yet [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]].
+- **Evolution, not a reversal.** The external router stays the MVP 2 path. On Sept 7 Val withdrew his own "use our device" idea; on Oct 15 it comes back as a planned later step, with a fallback router for hard locations.
+
 ## Open commitments
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — finish the Flex-Port Wi-Fi software (about 90% done by his estimate), under MVP 2 capability 145 — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
@@ -106,3 +115,5 @@ At the [[wiki/meetings/2026-10-14-transactional-mvp1-launch-plan-brackets-daily-
 - [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
+- [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
+- [[raw/Meeting_Notes_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]

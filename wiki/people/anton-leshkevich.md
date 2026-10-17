@@ -4,7 +4,7 @@ title: Anton Leshkevich
 date: 2025-01-21
 aliases: [Anton Leshkevich, Anton, Antoine, Anton Dmishkevich, Дмишкевич, Дмишкевичем, Liashkevich, Anton Liashkevich, Lishkevich, Anton Lishkevich, Лишкевич, Rishkevich, Anton Rishkevich, ришкевич, Vishkevich, вишкевич, брижке]
 disambiguation: "Minsk engineer (Omni/RGS), this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 38
+source-count: 40
 open-commitments: 4
 open-questions: 0
 ---
@@ -166,6 +166,10 @@ At the [[wiki/meetings/2026-10-08-dragon-pays-vertical-accepted-and-dutch-mill-p
 
 At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-library.md|Oct-14 stand-up]] Pavel said Anton had asked the day before to join ("возьмите меня к себе"), and he added him. Pavel briefed him on Daniil's work on the cheap RK3576 ARM board for street machines (South Dakota, Texas); Leshkevich: "Это, которые вне казино ставится." Pavel then said "Антону" should pick a South Dakota game to convert for the board — likely Leshkevich (**inference**; the notes ask Val to confirm which Anton) — [[wiki/topics/nova-platform-architecture.md]] (Oct 14) [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]].
 
+## Oct 15 2026 — starts converting Clover Fortune to NOVA with Igor's tools
+
+At the [[wiki/meetings/2026-10-15-daily-standup-offline-ris-fallback-and-nova-game-conversion.md|Oct-15 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]: with "тулы Игоря" he started converting Clover Fortune (the notes' name, from the 22 Megahit set [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]); the horizontal layout already runs on the new platform, on real data from the maths server; vertical next, by the end of the week. He has no task yet; Pavel asked for a feature under capability 240 — [[wiki/topics/nova-platform-architecture.md]] (Oct 15). He asked whether the team tests with scripts or agents — [[wiki/topics/test-automation-strategy.md]] (Oct 15).
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
@@ -207,3 +211,5 @@ At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-l
 - [[raw/Meeting_Transcript_Texas_Vertical_Conversion_and_Georgia_Game_Base-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]

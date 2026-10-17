@@ -3,8 +3,8 @@ type: decision
 title: In the first iteration a location gets either FlexPay or Flex-IQ, never both — multiple units per location were to arrive in the second iteration with Wi-Fi; on Sept 30 2026 Pavel placed them in a probable MVP 3, with Wi-Fi staying MVP 2
 date: 2026-09-09
 aliases: [either Pay or IQ not both, one unit per location, serious engineering fork, single copy per location, second iteration with WiFi, the bundle delivered in stages, machine port IQ or machine port Pay, two devices per location MVP 3, MVP 2 is exclusively adding FlexPay, исключительно добавление флекспэя]
-source-count: 6
-status: active — the one-unit limit stands; the "second iteration with Wi-Fi" timing for multiple units was moved to a probable MVP 3 on Sept 30 2026 (see update)
+source-count: 8
+status: active — the one-unit limit stands; the "second iteration with Wi-Fi" timing for multiple units was moved to a probable MVP 3 on Sept 30 2026 (see update); Oct 15 2026: Val takes Flex Pay itself out of MVP 2 into MVP 3, so the Sept-30 "MVP 2 is exclusively adding FlexPay" no longer holds
 open-commitments: 1
 open-questions: 0
 ---
@@ -38,6 +38,10 @@ At the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-m
 
 **Against the title.** The titular "multiple units per location arrive in the second iteration together with Wi-Fi" is now split: Wi-Fi stays MVP 2 ([[wiki/decisions/2026-09-07-wi-fi-module-on-flex-port-with-an-external-router.md]], Sept-30 update); multiple units per location go to a probable MVP 3 ("наверное"). Klimovich's "Окей" is acceptance, not a ruling. Recorded as evolution; the one-unit limit itself is unchanged. The derived notes read it the same way [[raw/Meeting_Notes_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]].
 
+## Update, Oct 15 2026 — Flex Pay itself leaves MVP 2
+
+At the [[wiki/meetings/2026-10-15-wi-fi-router-switch-power-loss-battery-and-mvp2-scope.md|Oct-15 11:04 AM Wi-Fi meeting]] (Russian) [[wiki/people/val-levitan.md|Val]] took Flex Pay out of MVP 2; Pavel will retag it MVP 3 — [[wiki/decisions/2026-10-15-mvp2-is-flex-iq-wi-fi-remote-update-diagnostics-and-galaxy-reporting-and-flex-pay-moves-to-mvp3.md]] [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]] [[raw/Meeting_Notes_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]. So the Sept-30 "MVP 2 is exclusively adding FlexPay" is replaced (Val's view, pending his final list with Andrei). Wi-Fi stays MVP 2. Pavel also noted that in MVP 3, with Flex Pay and Flex IQ at one location each carrying a modem and an access point, they must agree "кто главный"; Bosik: the router-or-client switch handles it [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]. The one-unit limit itself is not touched.
+
 ## Open commitments
 
 - [ ] [[wiki/people/val-levitan.md|Val Levitan]] — pre-run the parallel wiring for the WSU protocol at locations so the second unit can be added later — due unspecified — [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
@@ -51,3 +55,5 @@ At the [[wiki/meetings/2026-09-30-transactional-mvp1-instructions-complete-and-m
 - [[raw/Meeting_Transcript_October_Rollout_Staging_and_Unit_Ramp-September-9-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
+- [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
+- [[raw/Meeting_Notes_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]

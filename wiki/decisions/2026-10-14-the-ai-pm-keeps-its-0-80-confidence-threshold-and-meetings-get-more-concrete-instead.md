@@ -3,7 +3,7 @@ type: decision
 title: The AI PM keeps its 0.80 confidence threshold for creating Jira tasks; instead of lowering it, meetings must get more concrete and give the PM clear instructions (Val, Oct 14 2026)
 date: 2026-10-14
 aliases: [keep the 0.80 threshold, порог 0.80, порог 0,80, не понижать порог, AI PM confidence threshold, meeting rigor over a lower threshold, Keep 0.80 Threshold and Meeting Rigor, more concrete meetings for the AI PM]
-source-count: 4
+source-count: 6
 status: active
 open-commitments: 2
 open-questions: 0
@@ -47,8 +47,14 @@ Speaker 2 reported that so far, in Jira, the agent had only written comments and
 
 **§15.8:** clear — no pay matters. **§15 #9:** none.
 
+## Note, Oct 15 2026 — at the stand-up: address the agent directly
+
+At the [[wiki/meetings/2026-10-15-daily-standup-offline-ris-fallback-and-nova-game-conversion.md|Oct-15 Minsk stand-up]] Khamin said the feature he had asked for the day before was not created by the agent. [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]]: "чтобы агент чтото создавал, его нужно напрямую спросить" — say "создай мне вот это". Asked whether the agent ignores a need it only notices in passing, he said it scores how true each statement is "и всё, что ниже порога в 00:08 он не не воспринимает" — "это никуда не попадает" [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]. The notes read the threshold as 0.80 [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]; that it is the same bar as this decision is an **inference**. This matches Val's line here: the meetings, not the bar, must change.
+
 ## Sources
 - [[raw/Meeting_Transcript_AI_PM_Keep_080_Threshold_and_Meeting_Rigor-October-14-2026.md]]
 - [[raw/Meeting_Notes_AI_PM_Keep_080_Threshold_and_Meeting_Rigor-October-14-2026.md]]
 - [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]

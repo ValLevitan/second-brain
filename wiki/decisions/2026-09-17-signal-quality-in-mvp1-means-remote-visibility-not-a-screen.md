@@ -3,7 +3,7 @@ type: decision
 title: Signal quality in MVP 1 means remote visibility — periodic metrics into the logs, buffered offline, surfaced through Grafana
 date: 2026-09-17
 aliases: [log traffic, 120 MB a day, three gigabytes a month, junk logs, TPT-INT Grafana dashboard task, signal quality, decibels, signal to noise, SNR, jammer, глушилка, антенки, remote diagnostics, periodic metrics, log buffering, Grafana alerts, modem telemetry, удалённо мы должны видеть децибелы]
-source-count: 7
+source-count: 9
 status: active
 open-commitments: 5
 open-questions: 2
@@ -78,6 +78,10 @@ At the [[wiki/meetings/2026-10-08-daily-standup-lease-expiry-scenarios-and-flex-
 
 This matches the Sept-22 line above that Wi-Fi is "точно не VP один". It is about the Flexport's own network link, not the modem metrics of MVP 1. Evolution, not contradiction.
 
+## Update, Oct 15 2026 — Val: all service diagnostics go to the cloud in MVP 2, with role-based access
+
+At the [[wiki/meetings/2026-10-15-wi-fi-router-switch-power-loss-battery-and-mvp2-scope.md|Oct-15 11:04 AM Wi-Fi meeting]] (Russian) [[wiki/people/val-levitan.md|Val]] ruled that service and diagnostic data are made available in MVP 2 "обязательно в клауд", not on the local screen, with access by role (RBAC). Bosik: Grafana dashboards today are for staff only; RBAC is partly built by Tsymanov and went to production two days earlier — [[wiki/decisions/2026-10-15-service-diagnostics-go-to-the-cloud-with-role-based-access-not-to-the-local-screen.md]] [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]] [[raw/Meeting_Notes_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]. **On the open question below** ("whether the numbers ever reach a person in MVP 1"): not answered for MVP 1, but for MVP 2 the direction is now set — the data must reach people in the cloud, by role. The question stays open for MVP 1.
+
 ## Open commitments
 
 - [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — remove junk logs (caching repeat messages or sending them every 5 minutes) to cut the traffic, and tell Andrei about the ~3 GB a month so he can judge if it is critical — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Log_Traffic_and_NOVA_Rename-September-28-2026.md]]
@@ -103,3 +107,5 @@ This matches the Sept-22 line above that Wi-Fi is "точно не VP один".
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+- [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
+- [[raw/Meeting_Notes_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]

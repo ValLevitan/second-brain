@@ -3,7 +3,7 @@ type: decision
 title: Six Flex ports and a terminal free with every machine bought, at $90 a month per location — "I am buying my way in"
 date: 2026-09-02
 aliases: [buying my way in, ninety dollars a month, value almost as much as this machine is, zero cost except a monthly maintenance fee, six ports plus a terminal free, $15,750 machine, seven thousand dollars of discounts, ninety dollars per location, guinea pig offer, Lucky Coin offer, sixteen thousand dollar machine, rent or lease the units]
-source-count: 26
+source-count: 28
 status: active
 open-commitments: 1
 open-questions: 5
@@ -236,6 +236,21 @@ Three hours after AKS, the offer went to Arpit of [[wiki/organizations/atl-coam.
 
 *(Status: unchanged — the Oct-14 afternoon quote is again the Sept-2 offer, now named a "show special". It adds another explicit "per location… not per device", which bears on the open per-location-or-per-machine question below; that question stays open because the Sept-15 conflict is not explained. The machine-bundle condition holds here — the free set comes "with the machine" — unlike Val's "doesn't have to be our machine" to AKS that morning. Both are sales remarks, not rulings.)*
 
+## Oct 15 2026 (5:18 PM) — to Blue Sky / Gold Rush: the show special again, "one port plus five more", $90 "fixed, no variable", and a 9% increase from December 31
+
+The next day the offer went to [[wiki/organizations/blue-sky-gold-rush.md|Blue Sky / Gold Rush]] at the [[wiki/meetings/2026-10-15-blue-sky-gold-rush-refurbished-machines-offer-and-transactional-demo.md|Oct-15 5:18 PM meeting]] [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]:
+
+- **Felipe's version.** "You buy one of these cabinets. I'm going to give you the Flex-IQ, the Flex Slim, a Slim, and six of these ports, absolutely free. That's fifteen thousand dollars worth of equipment". Later: "we're giving a show special thirty-something thousand-dollar value, and you're only paying for the cap… all you're paying is fifteen, seven, fifty". [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
+- **Val's correction.** "One flex port is included in the machine. Felipe Miranda Giorgi said six ports, but what he meant to say is that one port plus five more… If you calculate the total value of this, you will be at fifteen thousand dollars. This machine is fifteen seven fifty without the topper." And: "We're not gonna have it for too long. We're simply buying the market right now." [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
+- **A deadline.** Val: "as of December thirty-first, we have a nine percent price increase." See [[wiki/topics/jvl-machine-pricing-strategy.md]] (Oct 15). [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
+- **The monthly fee.** Val: "Plus ninety dollars per month." Felipe: "Ninety dollars fixed, no variable." No unit (location or machine) was said this time. [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
+- **Bought without a machine, for nine machines.** Felipe: "Seventeen thousand dollars with kiosks… Flex-IQ and nine of these ports. Actually, close to eighteen thousand dollars." Val's "roughly one thousand dollars per month" in the same exchange is unclear. [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
+- **JVL installs the first location.** Felipe: "We will install for the first location… we're happy to send our engineers and technicians". [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
+- **Who pays the $90.** The operator asked whether JVL charges the fee "directly to the customers"; the answer: "We charge whoever you want us to charge". Felipe: "They have to know that they must have the money for us to draft it." See [[wiki/decisions/2026-09-17-the-ninety-dollar-fee-is-drafted-from-the-location-not-paid-by-the-master.md]] (Oct 15). [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
+- **Not with refurbished machines, and no financing on top.** [[wiki/decisions/2026-10-15-refurbished-trade-in-machines-are-sold-apart-from-the-show-special-and-show-special-machines-are-not-financed.md]]. [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]] [[raw/Meeting_Notes_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
+
+*(Status: unchanged — again the Sept-2 offer under the "show special" name, tied to buying a cabinet. The "fixed, no variable" fee is said without a unit, so the open per-location-or-per-machine question below stays open. Sales remarks, not a ruling.)*
+
 ## Open commitments
 
 - [ ] [[wiki/people/kyle-shepherd.md|Kyle Shepherd]] — decide on the offer. Val did not press for an answer on Sept 2 ("You don't have to give me the answer right now. You can consult your brother") and expected it at the Sept-9 visit. **At that visit Kyle still did not answer**, asked for a couple of hours, and agreed a date with Val — so this now runs against the larger [[wiki/decisions/2026-09-09-val-asks-lucky-coin-for-its-entire-business.md|Sept-9 offer]] — due **Tuesday Sept 15 2026** (was ~Sept 9) — [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]] [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
@@ -252,6 +267,8 @@ Three hours after AKS, the offer went to Arpit of [[wiki/organizations/atl-coam.
 
 ## Sources
 
+- [[raw/Meeting_Notes_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
+- [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
 - [[raw/Meeting_Notes_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
 - [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
 - [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]
