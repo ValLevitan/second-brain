@@ -3,7 +3,7 @@ type: decision
 title: Six Flex ports and a terminal free with every machine bought, at $90 a month per location — "I am buying my way in"
 date: 2026-09-02
 aliases: [buying my way in, ninety dollars a month, value almost as much as this machine is, zero cost except a monthly maintenance fee, six ports plus a terminal free, $15,750 machine, seven thousand dollars of discounts, ninety dollars per location, guinea pig offer, Lucky Coin offer, sixteen thousand dollar machine, rent or lease the units]
-source-count: 23
+source-count: 24
 status: active
 open-commitments: 1
 open-questions: 5
@@ -210,6 +210,18 @@ The next evening, on the [[wiki/meetings/2026-09-29-larry-sharon-lease-pricing-p
 
 *(Evolution, not contradiction: the Sept-2 offer was the pitch then; the lease is the pitch agreed on Sept 29. What the "with every machine bought" condition becomes under the lease is not stated — the Sept-9 "does the deal have to be packaged at all?" question below stays open. Title annotated accordingly; the Sept-2 "I may even rent these or lease these" line above is the first hint of this framing.)*
 
+## Oct 14 2026 — the offer as quoted to AKS: still free, still $90 per location, and "it doesn't have to be our machine"
+
+At the [[wiki/meetings/2026-10-14-aks-amusements-transactional-demo-two-location-test-and-financing.md|Oct-14 AKS meeting]] [[wiki/people/felipe-miranda.md|Felipe]] put the offer to [[wiki/organizations/aks-amusement.md|AKS]] in the Sept-2 form, two weeks after the Sept-29 "$150 minimum" idea [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]:
+
+- **Free, per location, for a limited time.** "for each of the cabinets, we're going to give you one set of FlexPay or Slim, the Flex-IQ, and six of these per location at no cost. That is something that we're doing right now for a limited period of time." [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]
+- **$90, and this time the unit is spoken.** "we're charging ninety dollars. Ninety. Per location. Per location." [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]: "Ninety dollar monthly per location." Felipe: the fee "makes sure that your system is up and running… covered support wise" and pays for the updates. Andrei added that AI-generated reports may later come as an extra subscription [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]].
+- **Bought separately:** "roughly around fifteen thousand dollars with the six ports", printer included; a later line ("roughly fifty") is garbled [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]].
+- **Not tied to a JVL machine.** Val: "it doesn't have to be our machine in the location. You could still take advantage of the transaction equipment", and "It's a post show promotion. We're not sure that it's gonna last long… take the transactional equipment, put it somewhere else, even if it's not with our machine, with somebody else's machine." [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]
+- **Val tied it to price.** When AKS asked for twelve months' financing: "if we're selling you a machine and we have to package fifteen thousand dollars worth of free equipment, then it's like discounting the machine by fifty percent… either a discount or financing." [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]
+
+*(Status: this page stays active — the Oct-14 quote is the Sept-2 offer, and the owner's Oct-5 ruling above stands. Val's "doesn't have to be our machine" is a data point on the open question "Does the deal have to be packaged at all?" below; it is a sales remark at one meeting, not a ruling, so the question stays open. Inference: the "per location" wording on Oct 14 also bears on the per-location-or-per-machine question, which stays open because the Sept-15 conflict is not explained.)*
+
 ## Open commitments
 
 - [ ] [[wiki/people/kyle-shepherd.md|Kyle Shepherd]] — decide on the offer. Val did not press for an answer on Sept 2 ("You don't have to give me the answer right now. You can consult your brother") and expected it at the Sept-9 visit. **At that visit Kyle still did not answer**, asked for a couple of hours, and agreed a date with Val — so this now runs against the larger [[wiki/decisions/2026-09-09-val-asks-lucky-coin-for-its-entire-business.md|Sept-9 offer]] — due **Tuesday Sept 15 2026** (was ~Sept 9) — [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]] [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
@@ -226,6 +238,7 @@ The next evening, on the [[wiki/meetings/2026-09-29-larry-sharon-lease-pricing-p
 
 ## Sources
 
+- [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]
 - [[raw/Meeting_Notes_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]
 - [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]

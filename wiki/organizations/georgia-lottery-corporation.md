@@ -3,9 +3,9 @@ type: organization
 title: Georgia Lottery Corporation (COAM regulator)
 date: 2026-09-10
 aliases: [Georgia Lottery, Georgia Lottery Corporation, GLC, COAM staff, the Lottery, COAM division, COAM Hearing Room, Georgia Lottery COAM, guidance is not the law, they're coming out with the draft, the general counsel had a negative reaction]
-source-count: 15
+source-count: 19
 open-commitments: 2
-open-questions: 4
+open-questions: 5
 ---
 
 # Georgia Lottery Corporation (COAM regulator)
@@ -140,6 +140,28 @@ A Lottery representative addressed as "Chris" (read as [[wiki/people/chris-bonce
 - **No reporting duty on JVL's transactional system:** "**that's up to you**".
 - **The million-dollar meter spikes** stay pending until corrected with Lottery authorization; calling in meters before a hard reset makes the correction easier — see [[wiki/organizations/intralot.md]].
 
+## Oct 13 2026 (evening, in absentia) — Intralot's view at dinner: proposed rules, win limits, jackpots
+
+At the [[wiki/meetings/2026-10-13-intralot-christos-tzoumaras-dinner-route-partnership-and-repair-depot.md|6:10 PM dinner]] [[wiki/people/christos-tzoumaras.md|Christos Tzoumaras]] of [[wiki/organizations/intralot.md|Intralot]] said [[raw/Meeting_Transcript_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]:
+
+- **The proposed rules.** At an advisory board meeting the week before, "**the lottery did announce their new rules, their new proposed rules**", "**hundreds of pages**". "**I don't think they're going… to allow ATM cards because it's very very close to cash.**" The notes say the same [[raw/Meeting_Notes_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]].
+- **The InComm ATM card was stopped.** Of the card InComm did with Bulldog: "**The lottery found out maybe two three months ago, and then the lottery stopped it.**" Val's dating differs ("**Two weeks ago, they stopped the ATM cards with Bulldog**"); both as said. Val also expected an announcement: "**you will see something in publication tomorrow**". See [[wiki/organizations/incom.md]] (Oct 13, dinner).
+- **Win limits raised.** Through talks with [[wiki/organizations/gamoa.md|GAMOA]], the limit above which a win needs Lottery approval was raised: "**if the winnings are more than ten thousand**" it could not be paid at the location; "**we increased limits. We convinced the lotteries**", "**so less adjustments and approvals are needed**".
+- **Linked jackpots refused.** Operators asked for jackpots across machines; Intralot offered to do it through the system; "**The lottery told us no**".
+- **The advisory board.** "**We have this very big advisory board once every three months**", which advises the Lottery; Christos wants masters to attend.
+- **Promo credits.** Val's idea: "**maybe this promo credit… Should go towards winning a lottery ticket.**" Val also said, about the Lottery's view of promo credits, "**they don't have to approve because it's not against the law. It's not an inducement from an operator**". Whether that was the Lottery's reply or Val's own reading is **unclear** on the tape; in the morning the Lottery representative said promo credits are not in the current requirements (above).
+
+## Oct 14 2026 (in absentia) — an operator's view of the cash-redemption proposal, and the "COAM Trucker" loophole
+
+At the [[wiki/meetings/2026-10-14-yash-patel-halcyon-2027-plan-forest-park-test-and-texas-profit-share.md|Oct-14 breakfast]] [[wiki/people/yash-patel.md|Yash Patel]] of [[wiki/organizations/halcyon-amusements.md|Halcyon]] described the Lottery's latest move. Quotes from [[raw/Meeting_Transcript_Yash_Patel_Halcyon_2027_Plan_Forest_Park_Pilot_and_Texas_Profit_Share-October-14-2026.md]].
+
+- **The proposal.** "the new proposal that the lottery put in week before last" is "about the cash redemption model". He sits on the board — "we had a COAM call yesterday because I'm on the board of COAM" — and his read: "nothing really new… They're just kind of codifying everything that they already have." *(On Sept 17 he said he is on the GAMOA board; **inference** that "the board of COAM" is the same body.)* Val said he has "a very tight relationship with the lottery" and "had dinner with him yesterday".
+- **"COAM Trucker".** A website and tablet sold straight to locations. The clerk redeems the player's voucher onto a Georgia Lottery-approved gift card through "the terminal that InComm provides"; the tablet turns it into a **store gift card**; the store then rings up "Store merchandise" and pays cash. Its "redemption tracker" prints a report to show an inspector. Locations then ask, "Why the hell do I want any of this shit?" Who is behind it is **not recoverable** from the recording ("Correct is again in Tehran"); the man is described as "the head of HRA, which is a Canadian store association" — unknown to Val, left as heard [[raw/Meeting_Notes_Yash_Patel_Halcyon_2027_Plan_Forest_Park_Pilot_and_Texas_Profit_Share-October-14-2026.md]].
+- **His forecast.** "everybody's saying nobody's going to do it, but secretly everybody's going to do it… as soon as you say cash payments aren't going to be allowed, people are going to start looking for loopholes." Val: "it creates black market." Yash would simply "let them… pay cash"; changing that needs a new bill, so "I don't think anybody's going to touch that… this year." A line under Val's label says "the lottery corporation is saying March of next year" — what it refers to is **unclear**.
+- **Criminal offence.** Yash: the updated rules make converting a gift card to cash "a criminal offense… Not only for the location, but also for the customer." Val: "it is criminal offense now."
+- **Val's view of enforcement.** Although the Lottery says it can send inspectors and involve police, "None of them, including the lottery corporation, including the Intralot, none of them want any of it", because "they're afraid to lose their jobs" and revenue; operators too "just want to… calm down the market."
+- **Digital wallets.** Yash asked whether the Lottery will keep allowing digital wallets. Val: "they don't regulate this. They don't want to regulate." The notes call this no clear answer [[raw/Meeting_Notes_Yash_Patel_Halcyon_2027_Plan_Forest_Park_Pilot_and_Texas_Profit_Share-October-14-2026.md]].
+
 ## Open commitments
 
 - [ ] Georgia Lottery staff — connect Val with the right people at InComm and give him a direct phone number and email address for [[wiki/people/joe-kim.md|Joe Kim]]: "**We can call. We'll be glad to give you a phone number and… email address**", and at the close "**Let me get you some contacts, and I'll email them to you, and we'll go from there**" — due unspecified — [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
@@ -152,10 +174,13 @@ A Lottery representative addressed as "Chris" (read as [[wiki/people/chris-bonce
 - **Will the January 2027 session restrict Class A?** Nobody in the room would predict it; the staff expect it to be addressed and warned a crowded bill could make it worse — [[raw/Meeting_Notes_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]] [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
 
 - **Will promo credits ever be allowed in Georgia, and who decides?** Not in the current requirements (version 1.8); the Lottery's legal people, the operators and the legislature were all named — [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
+- **Will the Lottery act on store-gift-card loopholes like "COAM Trucker", and will it keep allowing digital wallets?** An operator expects quiet, wide use; Val expects nobody wants enforcement. No Lottery answer is recorded — [[raw/Meeting_Transcript_Yash_Patel_Halcyon_2027_Plan_Forest_Park_Pilot_and_Texas_Profit_Share-October-14-2026.md]]
 
 **§15.8:** clear — regulatory and market content only; no named-person compensation.
 
 ## Sources
+- [[raw/Meeting_Transcript_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]
+- [[raw/Meeting_Notes_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - [[raw/Meeting_Notes_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
@@ -171,3 +196,5 @@ A Lottery representative addressed as "Chris" (read as [[wiki/people/chris-bonce
 - [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
 - [[raw/Meeting_Notes_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
+- [[raw/Meeting_Notes_Yash_Patel_Halcyon_2027_Plan_Forest_Park_Pilot_and_Texas_Profit_Share-October-14-2026.md]]
+- [[raw/Meeting_Transcript_Yash_Patel_Halcyon_2027_Plan_Forest_Park_Pilot_and_Texas_Profit_Share-October-14-2026.md]]

@@ -3,7 +3,7 @@ type: organization
 title: Incom (payment processor)
 date: 2025-02-27
 aliases: [Incom, InComm, SkillPay launch email, hold off for two years, we will take the card away from you, Intum, they totally misled me, InComm's credit, that shift in opinion has only happened recently, black prize play card, white card ATM functionality, replace InComm on the back end, backend displacement, Incomm, Income, NCOM, Incom Payments, wrapped card rule, PAX, PAX 80, reloadable gift cards, Nathan Carver, cash-back commission, barcode activation, Mastercard rules, ABA number, MLH fee sharing, kicked to the curb, InComm doesn't offer any profit sharing, they've ignored us before during and after the show, sponsor bank behind InComm, 120 million a year, the easy living guys, daily cap five k, velocity calculated on the fly, it still says soon, InComm is the master guy, sub accounts, they actually buy bonds, biggest issuer, blue card, black card, billion-dollar gorilla, two dollars to load]
-source-count: 88
+source-count: 90
 open-commitments: 17
 open-questions: 14
 ---
@@ -772,8 +772,22 @@ On the [[wiki/meetings/2026-10-13-incomm-prize-play-reset-agreement-scope-and-ca
 
 **§15.8:** clear — company-to-company terms only. **§15 #9:** clear. The derived notes also list the 5,500 accounts and the ATM-certification path as open [[raw/Meeting_Notes_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]].
 
+## Oct 13 2026 (evening, in absentia) — Val's account at the Intralot dinner: the ATM card, the lawsuit warning, "they took the card out"
+
+At the [[wiki/meetings/2026-10-13-intralot-christos-tzoumaras-dinner-route-partnership-and-repair-depot.md|6:10 PM dinner]] with [[wiki/people/christos-tzoumaras.md|Christos Tzoumaras]] of Intralot, [[wiki/people/val-levitan.md|Val]] told the story from his side. This is Val's account, hours after the [[wiki/meetings/2026-10-13-incomm-prize-play-reset-agreement-scope-and-cash-dispense.md|12:15 PM call]] above. Quotes from [[raw/Meeting_Transcript_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]].
+
+- **How it began.** "**Two years ago, John came to me and he told me about the whole thing that they will have the card, the ATM card.**" Val offered a bill-to-bill unit in the self-checkout counter; "**We shook hands.**" "John" is read as [[wiki/people/john-houseal.md|John Houseal]] (**inference**; the notes list "John Howsel" as a garble) [[raw/Meeting_Notes_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]].
+- **The card was done with Bulldog.** Christos: "**The ATM card. He did it with Bulldog.**" Val: "**I didn't know that he did it with Bulldog.**"
+- **After the August show.** "**the dispensing unit was ours. We showed it at the show right now in August.**" InComm "**called me two days after the show. You cannot do it.**" — "**If you do it, we're not going to give you the card.**"
+- **Val's warning.** "**if you don't give me the card, you will have the biggest lawsuit on your hands that you've ever had**". His position: "**If you have the card, I have the ATM. If you don't have the card, then I don't need the ATM.**"
+- **"As of today."** "**So as of today, they took the card out. Yes. So they told me. No more cards.**" But "**they said we don't know if it's the final, but you will see something in publication tomorrow**". This fits Jason's "**we're on Prize Play currently**" at noon (above) — **inference**.
+- **Christos's view.** InComm has "**95 percent, I think, of… any type of gift card… that we see for gaming**" in Georgia, and "**Income will lobby, you know, to change**" (InComm by context). He expects the new rules not to allow ATM cards — see [[wiki/organizations/georgia-lottery-corporation.md]] (Oct 13, dinner).
+- **Gift cards and the black market.** Val: "**The existing the gift card, the gift cards. Goes directly… into the black market.**" Christos: "**they sell it back to the store for less.**"
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]
+- [[raw/Meeting_Notes_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
 - [[raw/Meeting_Notes_Continental_Vendor_Lock_In_Dead_End-September-2-2026.md]]

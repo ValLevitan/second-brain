@@ -31,6 +31,7 @@ open-questions: 0
 - [[wiki/topics/machine-data-repurchase-program.md]] (Oct 13) — why the reports show million-dollar payouts.
 - [[wiki/topics/low-cost-street-machine.md]] (Oct 13) — Val's outside description of the budget street machine.
 - [[wiki/topics/georgia-class-a-machines.md]] (Oct 13) — Intralot wants Class A regulated; Alan Powell.
+- **Later that day:** the talk went on at the [[wiki/meetings/2026-10-13-intralot-christos-tzoumaras-dinner-route-partnership-and-repair-depot.md|6:10 PM dinner]] with Christos and Louis of the repair depot ([[wiki/organizations/renova.md]]).
 - People: [[wiki/people/val-levitan.md]] · [[wiki/people/felipe-miranda.md]] · [[wiki/people/bill-avgeris.md]] · [[wiki/people/christos-tzoumaras.md]] · [[wiki/people/chris-boncek.md]] · [[wiki/people/joe-kim.md]] (in absentia)
 
 ## Notes on the sources

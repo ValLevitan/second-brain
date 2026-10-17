@@ -4,7 +4,7 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich, Andre]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 109
+source-count: 110
 open-commitments: 107
 open-questions: 0
 ---
@@ -839,8 +839,13 @@ On the [[wiki/meetings/2026-10-13-incomm-prize-play-reset-agreement-scope-and-ca
 
 At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-library.md|Oct-14 stand-up]] [[wiki/people/dmitri-chudinov.md|Chudinov]] said that the night before, with "Андреем климовичем", he brought up a production Flex IQ and re-registered an old one; the update ran at about 6 Mbit/s, and they will check the ping to the terminal together — [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 14) [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]].
 
+## Oct 14 2026 (11:09 AM) — the transactional demo to AKS
+
+At the [[wiki/meetings/2026-10-14-aks-amusements-transactional-demo-two-location-test-and-financing.md|Oct-14 AKS meeting]] (Speaker 6, per the notes; Felipe introduced him as "our product development") he gave AKS the transactional demo and said production features are finalized "this Friday", with enclosures "next week or the week after" — detail and his two commitments on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 14, 11:09 AM). Felipe said he would be at AKS's first installation with Sebastian — [[wiki/decisions/2026-10-14-aks-tests-the-full-jvl-transactional-system-at-two-new-locations-before-year-end-and-jvl-installs-the-first.md]] [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]. A personal remark is not recorded.
+
 ## Sources
 
+- [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]

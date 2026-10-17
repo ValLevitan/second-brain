@@ -3,7 +3,7 @@ type: topic
 title: Low-cost street machine (sub-$2,000 street cabinet program)
 date: 2026-06-09
 aliases: [street machine, machine-width video deck, 10-degree play panel, golden mark, Light and Wonder panel on an arm, pull-out electronics shelf, street cabinet, Sept 16 board spec, ID003 and ccTalk, eye level electronics, halo light, plywood cabinet, cup holders, low-cost street machine, low-cost street cabinet, street slot machine, sub-$2000 street machine, RK3588 street machine, stripped street cabinet, Flex S, флекс эс, стрит машина, RK3576 street machine, wooden monolithic body, wood or metal, price both then decide, three containers, 7000 square feet, deeper cabinet, fixed dashboard, slide-down panel, fold-down door, plastic is out, kitchen-cabinet makers, pedestal split, devices onto the panel, dashboard halved, 27-inch panel, electronics drawer, why the FlexPort at all, too early for Igor]
-source-count: 32
+source-count: 34
 open-commitments: 6
 open-questions: 6
 ---
@@ -303,6 +303,13 @@ At the [[wiki/meetings/2026-10-13-arc-zazanis-lunch-trade-in-and-2027-volume.md|
 
 At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-library.md|Oct-14 Minsk stand-up]] (Russian) [[wiki/people/pavel.md|Pavel]] described the RK3576 as cheap, compact and low-power, for "то, что вал называет стрит" — South Dakota and Texas, outside casinos. Daniil has been running the new games on it; the limit is 8 GB. The next try is to convert South Dakota games now on Rage into NOVA vertical games with AI and fit a library of about 5 [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]. Videos are decoded at game entry so nothing freezes inside a game — [[wiki/decisions/2026-10-14-no-freeze-inside-a-game-so-a-games-videos-are-decoded-when-the-game-is-entered.md]]. Detail on [[wiki/topics/nova-platform-architecture.md]] (Oct 14). The cabinet itself was not discussed.
 
+## Oct 13 2026 (evening) — the street machine as Val described it at the Intralot dinner
+
+At the [[wiki/meetings/2026-10-13-intralot-christos-tzoumaras-dinner-route-partnership-and-repair-depot.md|6:10 PM dinner]] with Intralot, [[wiki/people/val-levitan.md|Val]] said [[raw/Meeting_Transcript_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]:
+
+- "**We're designing new cabinets for street market**".
+- "**For street market, we're thinking of moving away from printer and bill acceptor inside of the machine. We only want to put the AFT on the machine.**" The AFT is Flexport: "**We call it Flexport**". Printing would happen "**at the back at the clerk**" through JVL's own POS, or at a slim self-checkout counter that "**fits between the machines**". See the open contradiction below. The notes say the same [[raw/Meeting_Notes_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — review the market for a long, machine-width touchscreen for the video deck — due unspecified ("я должен ребеью маркет") — [[raw/Meeting_Transcript_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]] — *Sept 25: first prices reported (~$100 at ~30 cm, ~$180 at 21.5 length); he will talk to the supplier again* [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
@@ -325,13 +332,15 @@ At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-l
 
 ## Open contradictions
 
-- **Printer and bill acceptor — in or out?** Sept 25 2026 (Russian, to Genadi): keep the cabinet deep "чтобы влез принтер", with a TITO front-load acceptor — [[wiki/decisions/2026-09-25-the-street-cabinet-goes-deeper-so-the-printer-and-a-tito-front-load-acceptor-sit-on-a-fixed-dashboard.md]] [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]. Oct 13 2026 (English, to Intralot): "**No bill acceptor. No printer.**" [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]. It may be a base model against an option, but no source says so. Recorded, not resolved.
+- **Printer and bill acceptor — in or out?** Sept 25 2026 (Russian, to Genadi): keep the cabinet deep "чтобы влез принтер", with a TITO front-load acceptor — [[wiki/decisions/2026-09-25-the-street-cabinet-goes-deeper-so-the-printer-and-a-tito-front-load-acceptor-sit-on-a-fixed-dashboard.md]] [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]. Oct 13 2026 (English, to Intralot): "**No bill acceptor. No printer.**" [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]. Oct 13 2026 evening (English, at the Intralot dinner): "**we're thinking of moving away from printer and bill acceptor inside of the machine**" [[raw/Meeting_Transcript_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]. It may be a base model against an option, but no source says so. Recorded, not resolved.
 - **Video deck in the basic machine — two statements on the same day.** Sept 25, 2:32 PM (English, to the game team): "**the basic machine will go without**", with "a provision just in case we source the right screen" [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]. Sept 25, 3:16 PM (Russian, to Genadi): "Авидок стоит нам $120. То, скорее всего, мы пойдем на вида" [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]. The later one may follow from Genadi's prices, but the source does not say so. Both recorded; not resolved.
 
 *§15.8: board, component, cabinet and build-cost economics only; one comparative remark about a named colleague's board work was excluded. No named-person compensation.*
 
 ## Sources
 
+- [[raw/Meeting_Transcript_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]
+- [[raw/Meeting_Notes_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
 - [[raw/Meeting_Notes_Low_Cost_Street_Machine_Design-June-8-2026.md]]
 - [[raw/Meeting_Notes_Low_Cost_Street_Cabinet_Platform-June-9-2026.md]]

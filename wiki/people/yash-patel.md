@@ -3,8 +3,8 @@ type: person
 title: Yash Patel
 date: 2026-08-27
 aliases: [Yash Patel, Halcyon Amusements operator, Halcyon Amusements LLC contact, indecision is the worst decision, think twice before spending a lot of money, JAMMA pinboard, Java board, seventy thirty, by a COAM location, save your fucking money]
-source-count: 6
-open-commitments: 4
+source-count: 8
+open-commitments: 3
 open-questions: 3
 disambiguation: "Patel is a very common surname among Georgia COAM operators and this corpus already carries several unrelated Patels — Vishal Patel (Narayani Amusements, [[wiki/people/vishal-patel.md]]), Yash Patel (Halcyon Amusements, [[wiki/people/yash-patel.md]]), Kenny Patel (Epic Amusement, [[wiki/people/kenny-patel.md]]), and, in prose only, Mike Patel (GAMOA) and Alex Patel (Sonatype). Distinct people; resolve by context. Provisional — owner ruling pending."
 ---
@@ -109,12 +109,34 @@ He gave Val the background on the state's big names. It is second-hand industry 
 
 **§15.8 on this meeting:** operator, licence, machine and market economics only. **One thing in the source was deliberately excluded** — an ethnic generalisation Yash makes about people in the industry; it falls under prohibition #8. **§15.9:** clear — the OCGA citation is a statute reference, not an identifier, and no licence, registration, tax or account number appears.
 
+## Oct 14 2026 — breakfast: his 2027 plan, and two tests with JVL
+
+Val asked for the [[wiki/meetings/2026-10-14-yash-patel-halcyon-2027-plan-forest-park-test-and-texas-profit-share.md|Oct-14 breakfast]] (8:13–9:32 AM ET) to learn "what your plan for 2027 is". The recording never says his name; Val confirmed the calendar pairing [[raw/Meeting_Notes_Yash_Patel_Halcyon_2027_Plan_Forest_Park_Pilot_and_Texas_Profit_Share-October-14-2026.md]]. Route and Axcess detail is on [[wiki/organizations/halcyon-amusements.md]] (Oct 14). Quotes from [[raw/Meeting_Transcript_Yash_Patel_Halcyon_2027_Plan_Forest_Park_Pilot_and_Texas_Profit_Share-October-14-2026.md]].
+
+- **His 2027 plan:** "at least about 20 locations coming online. So that'll be at least 20 games I'll be buying from JVL." Quantities and finance terms he works out with [[wiki/people/felipe-miranda.md|Felipe]].
+- **How he buys transactional systems:** "It's a location by location deal. I'm not committed to anybody full time." He is open to JVL but will buy nothing until his Axcess sites have run about three more months.
+- **He offered his sites for testing.** "I've got some legacy locations that I can test stuff out at… happy to help however I can." That became the November test — [[wiki/decisions/2026-10-14-halcyons-november-test-is-one-tight-setup-with-pos-and-kiosk-at-forest-park-with-macon-as-fallback.md]].
+- **He took Val's Texas profit-share idea to his partners.** "I've got two other partners. You met one of them… And then my brother's the other one. I can talk to him this Friday." His stance: "I'm not a greedy guy"; "Nobody pitches pennies." Terms on [[wiki/decisions/2026-10-14-halcyon-texas-trial-two-jvl-machines-and-a-recycler-operator-fronts-the-cost-profit-split-50-50.md]].
+- **His Bangalore tech team.** He runs his own software in his locations and asked for JVL's tech side to work with "my tech team in Bangalore", with hardware samples sent there for QA.
+- **His board seat.** "I'm on the board of COAM"; the board had a call the day before on the Lottery's cash-redemption proposal, which he called "codifying everything that they already have". *(Inference: the same board as the GAMOA seat he named on Sept 17.)* His account of the "COAM Trucker" loophole is on [[wiki/organizations/georgia-lottery-corporation.md]] (Oct 14).
+- **On a competitor's launch.** A competitor's first games in Georgia were in his "top ten locations", but physical faults made him pull all five; remote data would have shown "what the issue is". He welcomed JVL's modems — "That's fantastic idea."
+- **Texas views:** players are "stuck in the Banilla"; an acquaintance buying bootleg Aristocrat copies for gas stations is "inviting trouble"; JVL games are "more polished", so "people will flock to it".
+
+## Open contradictions
+
+- **Did he take Primero units?** Sept 17 2026: he "committed to them up to… 25, 30" and never took the deal, because "Nobody plays" and there is one game suite. Oct 14 2026: "I ordered I think 30 or 40 Primero", doing badly in **Texas**. The two may be different products (Class A in Georgia against Texas games) — **not stated**; both kept. [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]] [[raw/Meeting_Transcript_Yash_Patel_Halcyon_2027_Plan_Forest_Park_Pilot_and_Texas_Profit_Share-October-14-2026.md]]
+
 ## Open commitments
 
 - [ ] Yash Patel — name the **town outside San Antonio** where the police settled the enforcement at **$50 per device** — due unspecified ("I can't remember the exact name, but when I remember, I'll tell you what it is") — **still open after the Sept-17 breakfast.** He told an enforcement story that morning, but it is a different one: a location "**somewhere close to Austin, not in… Lufkin County, but somewhere close to it**", where the counter clerk was arrested and the gaming charge sat third on the docket behind a controlled-substance charge. **No $50-per-device settlement and no town name appear anywhere in the Sept-17 sources.** — [[raw/Meeting_Transcript_Halcyon_Amusements_Texas_Net_Win_and_Industry_Lobbying-September-12-2026.md]] [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
-- [ ] Yash Patel — text Val the **San Antonio address and details** for the October 2 2026 route visit, from his second phone ("I'll text you the address and everything… I'll probably text it to you from my other phone") — due immediately (Sept 17 2026) — [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
 - [ ] Yash Patel — send Val the **Georgia Lottery gift-card notice** letter — due unspecified ("I'll send it to you… I'll send you that letter over") — [[raw/Meeting_Notes_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]]
 - [ ] Yash Patel — send Val a picture of his **DJI two-way mic model** — due unspecified — [[raw/Meeting_Notes_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]]
+
+*(His Oct-14 undertakings — the Forest Park licence update, talking to his partners on Fri Oct 16, and scouting Texas locations in November — are held on the two Oct-14 decision pages.)*
+
+## History
+
+- [x] Yash Patel — text Val the **San Antonio address and details** for the October 2 2026 route visit — **discharged (inference):** on Oct 14 he refers to "the location that we looked at, Hackberry" and to what Val saw "in San Antonio", so the visit took place; the text itself is not in any source. [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]] [[raw/Meeting_Transcript_Yash_Patel_Halcyon_2027_Plan_Forest_Park_Pilot_and_Texas_Profit_Share-October-14-2026.md]]
 
 ## Open questions
 
@@ -132,3 +154,5 @@ He gave Val the background on the state's big names. It is second-hand industry 
 - [[raw/Meeting_Transcript_Halcyon_Amusements_Texas_Net_Win_and_Industry_Lobbying-September-12-2026.md]]
 - [[raw/Meeting_Notes_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+- [[raw/Meeting_Notes_Yash_Patel_Halcyon_2027_Plan_Forest_Park_Pilot_and_Texas_Profit_Share-October-14-2026.md]]
+- [[raw/Meeting_Transcript_Yash_Patel_Halcyon_2027_Plan_Forest_Park_Pilot_and_Texas_Profit_Share-October-14-2026.md]]

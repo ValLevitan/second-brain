@@ -3,7 +3,7 @@ type: decision
 title: Georgia machines go out at 92% — the 96.5% V2 deployment was a mistake — and the progressive top awards are $2,400 / $2,400 / $1,500
 date: 2026-09-25
 aliases: [92 percent is good enough, 96.5 percent mistake, 92 plus 4.5, Georgia RTP 92, progressive top awards Sept 25, Match 3 2400, Fiery Ice 2400, Jackpot Rush 1500, do no harm, three horse race]
-source-count: 3
+source-count: 4
 status: active
 open-commitments: 0
 open-questions: 2
@@ -51,6 +51,12 @@ At the [[wiki/meetings/2026-10-13-intralot-machine-lockouts-test-lab-and-route-p
 
 This fits the Sept-25 ruling (move down toward 92%); it is **not** a new figure for the fleet. "Roughly ninety-five" is a spoken round number, against 96.5% deployed on Sept 25 — recorded side by side, not resolved.
 
+## Oct 14 2026 — "by mistake… 95 percent", told to a customer
+
+At the [[wiki/meetings/2026-10-14-aks-amusements-transactional-demo-two-location-test-and-financing.md|Oct-14 AKS meeting]] Val told AKS: "by mistake, in another revision of games, we set our RTP to 95 percent, where competitors were between 90 and 92 percent", so that in "seven hours a day… our game had to play almost double the amount of time" for the same net win. "We fix the RTP problem." [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]
+
+Like Oct 13, this is a spoken round number (95) against the 96.5% recorded on Sept 25; it is new only in calling the setting a mistake to a customer and in saying it is already fixed. Whether the fleet is now at 92% is not stated.
+
 ## Open questions
 
 - **How did the Georgia V2 machines get to 96.5%?** Nobody on the call knew. [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
@@ -59,6 +65,7 @@ This fits the Sept-25 ruling (move down toward 92%); it is **not** a new figure 
 **§15.8:** clear — machine settings and market economics only.
 
 ## Sources
+- [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]
 - [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
 - [[raw/Meeting_Notes_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
 - [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]

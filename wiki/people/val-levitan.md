@@ -3,8 +3,8 @@ type: person
 title: Val Levitan
 date: 2026-07-12
 aliases: [Val, Val Levitan]
-source-count: 424
-open-commitments: 79
+source-count: 427
+open-commitments: 80
 open-questions: 1
 ---
 
@@ -1661,7 +1661,27 @@ At the [[wiki/meetings/2026-10-13-intralot-machine-lockouts-test-lab-and-route-p
 
 On the [[wiki/meetings/2026-10-13-incomm-prize-play-reset-agreement-scope-and-cash-dispense.md|Oct-13 InComm call]] with Jason of InComm, Val parked the past disputes, said JVL is "a technology, hardware technology provider" and not a clearinghouse, and said "I have removed the capability of the dispenser… to comply with legislative interpretation". He also said he would add the feature back once the Skill Pay card returns, and would fight any limit set by another private company rather than by law. They agreed to launch on Prize Play first — [[wiki/decisions/2026-10-13-incomm-and-jvl-reset-the-relationship-and-launch-on-prize-play-first.md]]. He asked for the written agreement so both work from one template, and wants InComm's guarantee and half percent put on it — [[wiki/decisions/2026-10-13-new-incomm-terms-go-onto-the-existing-written-agreement.md]] [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]].
 
+## Oct 13 2026 (6:10 PM) — dinner with Intralot's Christos and a repair depot: "To be partners with Intralot"
+
+At the [[wiki/meetings/2026-10-13-intralot-christos-tzoumaras-dinner-route-partnership-and-repair-depot.md|6:10 PM dinner]] with [[wiki/people/christos-tzoumaras.md|Christos Tzoumaras]] of [[wiki/organizations/intralot.md|Intralot]] and Louis of a repair depot ([[wiki/organizations/renova.md]]) [[raw/Meeting_Transcript_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]:
+
+- **He wants Intralot as a partner, not only a system supplier.** "**The whole point for me is for Intralot. To be partners with Intralot.**" He is "**very interested in in operation**". JVL is already named as a potential partner in Christos's internal plan — see [[wiki/organizations/intralot.md]] (Oct 13, dinner).
+- **How JVL moved to Georgia.** "**when tariffs came about. We only had three months to react**"; JVL moved from Canada to Georgia. The Lawrenceville building is "**ten thousand square feet**"; whether to keep it as "**just an office or to start manufacturing**" is not decided. Parts are "**mainly from China and South Korea**"; "**our power supplies are in the U.S.**"; "**Cabinets we're starting to make in the U.S.**" South American operations are supplied directly, because of tariffs.
+- **Street machines without a printer or bill acceptor** — see [[wiki/topics/low-cost-street-machine.md]] (Oct 13, dinner).
+- **InComm and the ATM card** — his account and his lawsuit warning are on [[wiki/organizations/incom.md]] (Oct 13, dinner).
+- **How he entered Georgia** — through Lucky Bucks during COVID; see [[wiki/people/jamie-boyden.md]] (History).
+- **His idea:** promo credits that go toward a lottery ticket — see [[wiki/organizations/georgia-lottery-corporation.md]] (Oct 13, dinner).
+
+## Open commitments (Oct 13 2026, dinner)
+
+- [ ] Val Levitan — visit Louis's repair depot ("**I will come and visit you**") — due on or after Nov 9 2026 — [[raw/Meeting_Transcript_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]
+
+## Oct 14 2026 (10:03 AM) — "оставим порог там, где он есть": keep the AI PM's bar, fix the meetings
+
+On the [[wiki/meetings/2026-10-14-ai-pm-keep-the-0-80-threshold-and-meeting-rigor.md|Oct-14 AI PM update]] (Russian) with Kovalchuk and Bosik [[raw/Meeting_Notes_AI_PM_Keep_080_Threshold_and_Meeting_Rigor-October-14-2026.md]], he asked for a spoken status because "не все можно в тексте легко осознать". When he heard the team wanted to lower the agent's 0.80 threshold, he said no: even a good human PM must be told "мы решаем, что вот это нужно сделать"; he has listened to some recordings and finds the meetings "размыто и неподготовленно и без определенного фокуса"; keeping the bar may push people to prepare more deeply. "Мне лично не нравится, как проходят митинги." Ruling: [[wiki/decisions/2026-10-14-the-ai-pm-keeps-its-0-80-confidence-threshold-and-meetings-get-more-concrete-instead.md]] [[raw/Meeting_Transcript_AI_PM_Keep_080_Threshold_and_Meeting_Rigor-October-14-2026.md]].
+
 ## Sources
+- [[raw/Meeting_Transcript_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
@@ -2094,3 +2114,5 @@ On the [[wiki/meetings/2026-10-13-incomm-prize-play-reset-agreement-scope-and-ca
 - [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
 - [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
+- [[raw/Meeting_Transcript_AI_PM_Keep_080_Threshold_and_Meeting_Rigor-October-14-2026.md]]
+- [[raw/Meeting_Notes_AI_PM_Keep_080_Threshold_and_Meeting_Rigor-October-14-2026.md]]

@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, COAM Hearing Room, Georgia Lottery Corporation, Tracy Warren, HB 353, Intralot lab, Bill at Intralot, three fifty-eight nine, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing, GAMOA, ILERS, ILAS report, Eilers, Eiler report, show special, Mega Hit Blaze, sales channel report, Bulldog Gaming, ARC, ARC Gaming, Class A, C-Store Connect, GACS, route consolidation, gift-card cash-back notice, Chris Plonic, Double Down Gaming, Ryan O'Donnell, Billy Liu, Play Payments, PlayPay, banking licence moat, 7455 modem, KORE, KORE SIM, APN, GACS October 21, Pay Slim, over-drive, Rao, Narasimha Rao Namburi, David Milani, September 2 letter, 5500 PAX locations, Lucky Coin service burden, Lucky Bucks is ARC, the market is literally bottomless, backend displacement, David Sloan, Dave Sloan, Bill the kiosk vendor, the wording is in the same location, guidance is not the law, Digital Cash Processing, DCP, ICP Inc., Gen Mega, Andrew Cashin, Rick Beer, seventy four hundred locations forty seven thousand machines, Unlimited Amusement, Mega Hit Blaze V3, program the rollout, Swanee, Johns Creek, Singleton, SurfNote, Debbie Alford, eighteen thousand connected, Mike Mackey, five hundred dollars per unit per machine, WSS protocol, not even one installation, Georgia Lazy, Skyriser, Cardinal, outside looking in, Rich Winley briefing, 18 games in one pack, one USB stick for all Peach, Peach 1 2 3 combined]
-source-count: 242
+source-count: 244
 open-commitments: 74
 open-questions: 36
 ---
@@ -1783,8 +1783,21 @@ Val and Felipe's first face-to-face meeting at [[wiki/organizations/intralot.md|
 - **The regulator's view** (site controller, promo credits, HB 353 in the spring, enforcement) is on [[wiki/organizations/georgia-lottery-corporation.md]] (Oct 13). JVL's transactional equipment needs no testing at Intralot — [[wiki/decisions/2026-09-10-the-transactional-equipment-demonstration-goes-to-intralot.md]] (Oct-13 update).
 - **Where machines sit.** Chris of Intralot asked whether operators put JVL in their best locations or "**on TRB and C**"; Val: "**what we're not getting is the comparative analysis from the same location**", a problem he has to take up "**with each operator separately**".
 
+## Oct 14 2026 (11:09 AM) — to AKS: the sales fall in four steps, a two-location test, and the 15-game cabinet
+
+At the [[wiki/meetings/2026-10-14-aks-amusements-transactional-demo-two-location-test-and-financing.md|Oct-14 AKS meeting]] at the JVL office (Val, Felipe, Andrei Klimovich) [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]:
+
+- **The sales fall, as Val told a customer the next day.** "about a year and a half ago, all of a sudden, net wins started dropping." Step 1: competitors had made a skill feature simpler, JVL did "the same thing", and revenue "didn't" go up. Step 2: "over a year and a half, introduced about four. New packs of games. Don't quote, don't quote me. But and it still didn't go up." Step 3: "the Linux. Operating system and the advanced AMD processor type that we use here were not compatible, and it created a frozen state of the screen" (see [[wiki/topics/egm-freezing-investigation.md]], Oct 14). Step 4: "by mistake, in another revision of games, we set our RTP to 95 percent, where competitors were between 90 and 92 percent", so a game "had to play almost double the amount of time" (see [[wiki/decisions/2026-09-25-georgia-machines-go-out-at-92-percent-and-the-progressive-tops-are-2400-2400-1500.md]], Oct 14). "So now we fix the processor problem. We fix the RTP problem… I am very bullish." [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]
+  - *Against Oct 13:* at Intralot the day before, Val put the slump down to machines "technically out of service" (the lock). On Oct 14 he does not mention the lock. Not a contradiction — different causes named to different audiences — but no source joins the two accounts.
+- **The three-progressive product is selling.** In the intro: "The three progressive… we ran it, and the market performs very well", and AKS's two trial machines are being bought (speaker unclear) [[raw/Meeting_Transcript_AKS_Intro_Three_Progressive_Trial_and_Cabinet_Swap-October-14-2026.md]].
+- **The 15-game cabinet.** Felipe: "This one is 15… With no topper." Val: "this is the only game that will have 15 games in it. And now that we have the modem, we will tell you to go and switch the games." Felipe: "The customers can only see 10… 10 at a time, but the other ones are standing by." [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]
+- **AKS tests the transactional system at two new locations; JVL installs the first** — [[wiki/decisions/2026-10-14-aks-tests-the-full-jvl-transactional-system-at-two-new-locations-before-year-end-and-jvl-installs-the-first.md]]. Price increase from January 1 and financing: [[wiki/organizations/aks-amusement.md]] (Oct 14).
+- **Val's pitch on staying power.** "we're making commitments to the state of Georgia to accompany you in the market… We're settling here." [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]
+- [[raw/Meeting_Transcript_AKS_Intro_Three_Progressive_Trial_and_Cabinet_Swap-October-14-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
 - [[raw/Meeting_Notes_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]

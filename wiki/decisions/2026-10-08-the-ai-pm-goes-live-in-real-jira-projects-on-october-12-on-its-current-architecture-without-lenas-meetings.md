@@ -3,10 +3,10 @@ type: decision
 title: The AI PM goes live in real Jira projects on Monday Oct 12 on its current architecture (change it later if needed); Lena's meetings leave the pilot; the agent deletes only what it created and only comments on the rest; the agent is not genderless and gets a name
 date: 2026-10-08
 aliases: [AI PM live October 12, боевой режим, launch with current architecture, Lena out of the AI PM pilot, agent deletes only its own items, AI Draft status, AI Draft lifetime, Dasha, the AI PM is not genderless, two kinds of draft]
-source-count: 9
+source-count: 11
 status: active
-open-commitments: 5
-open-questions: 3
+open-commitments: 4
+open-questions: 4
 ---
 
 # The AI PM goes live on Oct 12 on its current architecture
@@ -48,7 +48,6 @@ No value was ruled. Later in the call Bosik twice described deletion "на 2 д�
 ## Open commitments
 
 - [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — remove Lena from the list of people whose meetings the agent collects — due unspecified — [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
-- [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — improve the Teams agent so it gives real answers (Val: "в понедельник посмотрим") — due Monday Oct 12 2026 — [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
 - [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — make the AI Draft deletion skip weekends (planned, not built) — due unspecified — [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
 - [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — add an "AI Draft" column per person to the morning report (Pavel: include a Jira link filtered by person) — due unspecified — [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]] [[raw/Meeting_Notes_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
 
@@ -57,6 +56,7 @@ No value was ruled. Later in the call Bosik twice described deletion "на 2 д�
 - How long does an AI Draft item live before deletion — one day (the previous meeting) or two or more days (Bosik, Pavel, Kovalchuk)? Not ruled — [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
 - Will one Listener that does everything scale to a real-time agent in MVP 2 and later? (Val) — [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
 - When does the agent get access to the second brain? Val asked; Bosik answered only with today's four sources — [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
+- What may launch on Friday Oct 16? On Oct 14 Speaker 2 said "в пятницу может и запустим" about work by "Дима" at its final stage, without naming it — [[raw/Meeting_Transcript_AI_PM_Keep_080_Threshold_and_Meeting_Rigor-October-14-2026.md]] [[raw/Meeting_Notes_AI_PM_Keep_080_Threshold_and_Meeting_Rigor-October-14-2026.md]]
 
 **§15.8 / personal:** remarks about the character of named people and personal remarks are not recorded. No pay matters. **§15 #9:** none.
 
@@ -68,6 +68,7 @@ The same morning Chudinov told the bot not to create a task from his weekend rol
 
 ## History
 
+- [x] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — improve the Teams agent so it gives real answers (Val: "в понедельник посмотрим") — due Monday Oct 12 2026 — [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]] — discharged as reported on Oct 14 (10:03 AM): "в Teams теперь достаточно хорошо отвечает по вопросам прошедшего митинга" (Speaker 2; speaker not marked, Bosik likely — **inference**). Val did not test it on the call — [[raw/Meeting_Transcript_AI_PM_Keep_080_Threshold_and_Meeting_Rigor-October-14-2026.md]]
 - [x] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — switch on live mode so features are created in the real Jira projects — due Monday Oct 12 2026 — [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]] — discharged on the day, as reported: at the Oct-12 stand-up Pavel said "у нас всё с сегодняшнего дня начинается" and Kovalchuk that it has started; that the items land in the real projects is not said in words (**inference**) [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Emulator_and_Jira_Auto_Progress_Rule-October-12-2026.md]]
 - [x] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — give the agent a name ("Dasha" proposed) — discharged: on Oct 9 Kovalchuk said it is called "Dasha" for now, maybe renamed later — [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]] [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
 
@@ -105,6 +106,10 @@ At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-l
 
 - [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — ask Andrei (Bosik likely — inference) why the two-hour Oct-13 meeting is not in the AI digest — due Oct 14 2026 — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
 
+## Update, Oct 14 2026 (10:03 AM) — Teams answers improved; a morning link to past agreements; the threshold is kept
+
+At the [[wiki/meetings/2026-10-14-ai-pm-keep-the-0-80-threshold-and-meeting-rigor.md|Oct-14 AI PM update]] (Russian; Val with Kovalchuk and Bosik, speakers not marked) Speaker 2 said the agent runs "как мы и договорились"; in Teams it now answers questions about past meetings well; each morning before a meeting it posts a link in the chat to what was agreed at the last meeting; in Jira it has only commented and created one task [[raw/Meeting_Transcript_AI_PM_Keep_080_Threshold_and_Meeting_Rigor-October-14-2026.md]]. The team's idea of lowering the threshold was turned down by Val — [[wiki/decisions/2026-10-14-the-ai-pm-keeps-its-0-80-confidence-threshold-and-meetings-get-more-concrete-instead.md]]. The draft lifetime question was not touched.
+
 ## Sources
 - [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
 - [[raw/Meeting_Notes_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
@@ -115,3 +120,5 @@ At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-l
 - [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [[raw/Meeting_Transcript_AI_PM_Keep_080_Threshold_and_Meeting_Rigor-October-14-2026.md]]
+- [[raw/Meeting_Notes_AI_PM_Keep_080_Threshold_and_Meeting_Rigor-October-14-2026.md]]

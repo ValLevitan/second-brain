@@ -3,7 +3,7 @@ type: person
 title: Felipe Miranda
 date: 2026-07-13
 aliases: [Felipe Miranda, Felipe, Filippo, Filipa, Philippe, Felipe Miranda Giorgi, Филипп, Филипп Н, Filipp N]
-source-count: 88
+source-count: 89
 open-commitments: 24
 open-questions: 0
 ---
@@ -419,7 +419,12 @@ At the [[wiki/meetings/2026-10-13-intralot-machine-lockouts-test-lab-and-route-p
 
 - [ ] Felipe Miranda — forward the email that documents the unlock steps, so the Intralot call center can be taught (who asked is unclear on the tape) — due unspecified — [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]] [[raw/Meeting_Notes_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
 
+## Oct 14 2026 (11:09 AM) — AKS at the office: build 4333, the free-equipment offer, price increase and financing
+
+At the [[wiki/meetings/2026-10-14-aks-amusements-transactional-demo-two-location-test-and-financing.md|Oct-14 AKS meeting]] (Speaker 3, per the notes) he told AKS its two machines get build 4333 with Lion's Riches and Twin Bison; put the offer — one FlexPay or Slim, a Flex-IQ and six ports per location at no cost, $90 a month per location — see [[wiki/decisions/2026-09-02-free-ports-and-pos-with-every-machine-bought.md]] (Oct 14); reminded AKS of the price increase from January 1 ("tariffs") and said "the most we give is twelve months" of financing, with a credit check; and asked for the cabinet models at the test sites "ASAP" for the brackets — [[wiki/decisions/2026-10-14-aks-tests-the-full-jvl-transactional-system-at-two-new-locations-before-year-end-and-jvl-installs-the-first.md]]. His open item (the 4333 upgrade) is on [[wiki/organizations/aks-amusement.md]] [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]].
+
 ## Sources
+- [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]
 

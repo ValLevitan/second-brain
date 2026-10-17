@@ -3,7 +3,7 @@ type: person
 title: Jamie Boyden (Illinois route operator; Val's route into Georgia)
 date: 2026-09-16
 aliases: [Jamie, Jamie Boyden, the Jamie connection, through Lucky Bucks through Jamie, Speaker 2 on the Sept-16 12:50 call]
-source-count: 4
+source-count: 6
 open-commitments: 1
 open-questions: 3
 disambiguation: "The only 'Jamie' in this corpus. Named on three Sept-16 2026 sources — twice in the third person by [[wiki/people/david-sloan.md|David Sloan]] and [[wiki/people/val-levitan.md|Val]], and once as Val's counterparty on a phone call — and, by context, at the Jan-8-2026 Rich Winley lunch. Not to be confused with [[wiki/organizations/lucky-coin.md|Lucky Coin]] (a different Georgia operator); he is connected to **Lucky Bucks**, the former name of [[wiki/organizations/arc-gaming.md|ARC Gaming]]."
@@ -63,6 +63,7 @@ He asked twice whether JVL would have a booth at **G2E** and was disappointed by
 
 ## History
 
+- **COVID era — how the Lucky Bucks order began (Val's account, told Oct 13 2026).** At the Oct-13 [[wiki/meetings/2026-10-13-intralot-christos-tzoumaras-dinner-route-partnership-and-repair-depot.md|6:10 PM dinner]] with Intralot, Val said that when COVID stopped his business he looked for new work, and a man at Lucky Bucks — "**either C O O or C E O of Lucky Bucks at that time**" — who "**knew me from 20 years back**" gave him the chance: "**If you can manufacture… A machine that makes money. I will give you an order.**" Val: "**Give me three months.**" The machine tested well, and "**Gave me an order of a container a month**". Asked the man's name, Val and Christos settled on "**Jamie, Jamie, Jamie Boyden**" ("**he's in Illinois… running a very successful operation**"). The notes say JVL got into Georgia "through Lucky Bucks during COVID" [[raw/Meeting_Transcript_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]] [[raw/Meeting_Notes_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]].
 - **Jan 8 2026 — Val names him as his character reference.** At lunch with Texas operator [[wiki/people/rich-winley.md|Rich Winley]] ([[wiki/meetings/2026-01-08-rich-winley-miami-lunch-texas-distribution-pitch.md]]), a "Jamie" is discussed. Rich met him through a board he sat on ("the mullet board" as transcribed; the derived notes guess a GAMOA board — an inference) and while trying to become "sophisticated operators inside of Georgia"; Rich called him "a good model. He's done in Illinois". Val: "**I've known Jamie for 20 years, maybe more, 30 years**", and told Rich twice to call him — "You should ask Jamie about me." *(Identification with this page is by context — an Illinois operator with Georgia ties, and the only Jamie in the corpus — an inference; no surname is spoken.)* [[raw/Meeting_Transcript_Rich_Winley_Miami_Lunch_Texas_Distribution_Pitch-January-8-2026.md]]
 
 ## Open commitments
@@ -81,6 +82,8 @@ He asked twice whether JVL would have a booth at **G2E** and was disappointed by
 
 ## Sources
 
+- [[raw/Meeting_Transcript_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]
+- [[raw/Meeting_Notes_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Jamie_Georgia_Class_A_Opportunity_and_Market_Outlook-September-16-2026.md]]
 - [[raw/Meeting_Notes_Jamie_Georgia_Class_A_Opportunity_and_Market_Outlook-September-16-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]

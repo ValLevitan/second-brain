@@ -3,9 +3,9 @@ type: organization
 title: Intralot (Georgia's central-system operator; route ambitions)
 date: 2026-10-14
 aliases: [Intralot, Intralot Georgia, Bally Intralot, the new Bally Intralot, intra lot, intraday, the interlod, Interlock, Intralock, Interlot, Interloch, Interlord, IntraLa, intro, Intro lap, Incelot, InfraLott, Intellicom, intralight, Intralot lab, Intralot site controller, the site controller, set controller, side controller, Intralot reports, Georgia central monitoring system, state monitoring system]
-source-count: 9
+source-count: 11
 open-commitments: 3
-open-questions: 3
+open-questions: 4
 ---
 
 # Intralot
@@ -77,6 +77,26 @@ At the [[wiki/meetings/2026-10-13-arc-zazanis-lunch-trade-in-and-2027-volume.md|
 - **Who decides in the Georgia lab: "Chris".** "**Chris is the guy… You don't need to go to 50 people… Chris will delegate the work. Let Chris bring Bill.**" Reading this Chris as [[wiki/people/christos-tzoumaras.md|Christos Tzoumaras]] and Bill as [[wiki/people/bill-avgeris.md|Bill Avgeris]] is an **inference**; the notes flag several Chrises as unclear [[raw/Meeting_Notes_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]].
 - **Montana.** "**Intralot has the lottery there**" (George).
 
+## Oct 13 2026 (evening) — the dinner: a 2027 route plan, JVL named in it, and a repair depot
+
+At the [[wiki/meetings/2026-10-13-intralot-christos-tzoumaras-dinner-route-partnership-and-repair-depot.md|6:10 PM dinner]] [[wiki/people/christos-tzoumaras.md|Christos]] went further than in the morning, with Louis of a repair depot at the table (see [[wiki/organizations/renova.md]]). Quotes from [[raw/Meeting_Transcript_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]].
+
+- **The group he is building.** "**I wanted to create at least a group of partners, so we can go… to the lotteries**", with masters, a repair depot and a manufacturer: "**I have approached manufacturers. You are the first one, to be honest.**" The aim is to do routes "**different and better**" than "**J&J, for example, and Excel**" (the notes read J&J and Accel).
+- **Two out of ten.** "**I have ten things you know in my head. I hope we land two**", "**within 2027**".
+- **Who pays the capex.** Asked who pays: "**I think we do. Bally's, Bally's, Central.**" Revenue share would be "**different**". His numbers: a lottery system for a big state is "**two fifty**" million and a small one like Idaho "**twenty five**"; Ohio was "**180 million capex**", paid back "**after four years**". A route, by his figures, pays back "**In two, two and a half**" years, "**so I think Bali's will, will fund**" (Bally's by context). Not agreed; the notes list funding as open [[raw/Meeting_Notes_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]].
+- **The three likeliest states.** Val: "**the most realistic is Wyoming and Idaho. And Nebraska**"; Christos: "**I believe so.**" Who would run them — "**these are thoughts**":
+  - **Nebraska:** "**I want Georgia Master to be the partner**" — see [[wiki/projects/nebraska-skill-market.md]] (Oct 13, dinner). "**In Nebraska, we only have the system**".
+  - **Idaho:** "**I want a lot of security**", "**because I think there's more gray and illegal**".
+  - **Wyoming:** his route general manager, "**Vlad**": "**He's already there. He's my general manager for the route business**". Intralot is "**in 500 stores in Wyoming**" with lottery machines; he would pick the ones that suit, in bars. Val's sum: "**out of 500… 200… At three machines each… That's about 600 machines**"; Christos agreed. Today Wyoming machines are grey: "**It's legal, but not with the system**".
+- **Val wants to partner with Intralot itself.** Christos said Intralot's only gain might be "**the increase of revenues from the central system fees**". Val: "**The whole point for me is for Intralot. To be partners with Intralot.**" Christos: "**Even better.**" Val is "**very interested in in operation**", and named "**Sean Fellows**" (as transcribed) as "**a great operator**" — read as [[wiki/people/sean-fellows.md|Sean Fellows]], **inference**; the notes flag the name.
+- **JVL is already in his plan.** He is presenting a 2027–2028 plan to "**our new president of lottery division**" and the "**Group CEO of Intralot**", who start in January. "**in this presentation, I'm also putting potential partners… I have JVL there already.**" Next: a meeting "**within the next two months**" with people "**higher than me**", for example "**the U.S. CEO**", then "**One level up every… month**"; "**I think we need three, four months to… finalize something**". Nothing is signed [[raw/Meeting_Notes_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]].
+- **A longer vision.** Lottery-branded route machines first ("**brand them Nebraska Lottery machines**"), later "**Nebraska Lottery powered by Bally's**", tied to Bally's casinos and i-gaming through loyalty. He also pitches lotteries one route each for Powerball, scratch tickets and slot-type games under the lottery.
+- **Ohio.** Intralot lost the casino side "**like a year ago**" to IGT and the lottery side to Scientific Games, which goes live "**Between March and June, the year twenty twenty seven**". "**in 2027 we're going to lose 30 million of EBITDA, 25 EBITDA from Ohio**". Intralot plans to bid for the Ohio route system, though he thinks IGT has the edge, and to partner with a Class A operator with jukeboxes.
+- **Texas, Puerto Rico, the Dominican Republic.** "**We already have the Texas Lottery visiting now, as Intralot to find information about the operation here in Georgia**" (about "**three, four months ago**"). Puerto Rico: "**I want to operate there**"; it is in his presentation "**as a potential**". The Dominican Republic: a friend holds a licence for "**eight thousand shops**" and wants a very cheap screen; "**Intralot is not saying yes easily**".
+- **Wyoming lottery revenue.** "**Fifteen million a year revenues. From Wyoming, seven million a year**" — the figures are garbled together; **unclear** which is which.
+- **History he gave.** Intralot's first US lottery was Nebraska — "**2003, let's say 2004, went live**".
+- **His next step with JVL.** "**Let's say we have a deal in place. It's not a bad idea to see some lotteries. I will gladly come with you.**" See [[wiki/people/christos-tzoumaras.md]] (open commitments).
+
 ## History
 
 - **2014.** "**Back in twenty fourteen, Intralot won the bid to become the central monitoring system**" (Billy Liu's account) [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]].
@@ -93,14 +113,17 @@ At the [[wiki/meetings/2026-10-13-arc-zazanis-lunch-trade-in-and-2027-volume.md|
 
 ## Open questions
 
+- Who pays the route capex — Intralot / Bally's, or a revenue share? Christos thinks Bally's would fund it; not agreed — [[raw/Meeting_Notes_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]
 - Why do JVL machines lock — a site-controller signal, a timing issue, or the machine itself? Val: "**I don't know whether my machine locks up on its own or whether your controller sends a signal to lock it up**" — [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
 - JVL says many cases, Intralot sees two or three. Is the gap because Intralot does not see the lockout? Chris: "**it's more than what is reported… to us**" — [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
-- Will JVL and Intralot partner on routes — which states, revenue share, cap or equity, and when? Nothing is signed — [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
+- Will JVL and Intralot partner on routes — which states, revenue share, cap or equity, and when? Nothing is signed — [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]] (Oct 13 evening: JVL is named as a potential partner in Christos's internal plan; he expects three to four months to finalize; still nothing signed [[raw/Meeting_Transcript_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]] [[raw/Meeting_Notes_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]])
 
 **§15.8:** clear — company and market figures only; no named-person compensation. **Personal matters:** not recorded. Gossip about a third party's finances was not recorded.
 
 ## Sources
 
+- [[raw/Meeting_Transcript_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]
+- [[raw/Meeting_Notes_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
 - [[raw/Meeting_Notes_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]

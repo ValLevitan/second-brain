@@ -4,7 +4,7 @@ title: Halcyon takes one JVL machine plus the free transactional package, first 
 date: 2026-09-17
 aliases: [Halcyon first installation, first week of November, buy one machine get the equipment free, ninety dollars per month per location, let's try a couple, Axcess locations, high volume locations for the data]
 status: active
-source-count: 3
+source-count: 4
 open-commitments: 3
 open-questions: 2
 ---
@@ -48,6 +48,12 @@ And the contents, from earlier in the meeting: "**you buy one machine, and with 
 
 Val's price claim — "**I don't think anybody could beat my price**", answered with "No, he can't" — did **not** move the objection; the Axcess estate did not go away. What landed was the **AFT**, argued in three parts, each recorded on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] and [[wiki/organizations/halcyon-amusements.md]]: promo credits that build the **operator's** customer database rather than the location's; promo credits that under SAS rules sit in the promo meter and **cannot be cashed out**; and **partial redemption** off the eWallet, which Val called "**a killer application**" for Georgia. Yash's reply to the customer-database argument: "**That's perfect. I was looking for a solution like that.**" [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
 
+## Oct 14 2026 update — a named site for a November test
+
+At the [[wiki/meetings/2026-10-14-yash-patel-halcyon-2027-plan-forest-park-test-and-texas-profit-share.md|Oct-14 breakfast]] Val and Yash agreed one tightly scoped JVL test in November, "with the POS and the kiosk", at a new **Forest Park** location (south of the airport), with **Macon** as the fallback. Yash again said "I'll have to buy a new game for that location anyway." Full record: [[wiki/decisions/2026-10-14-halcyons-november-test-is-one-tight-setup-with-pos-and-kiosk-at-forest-park-with-macon-as-fallback.md]] [[raw/Meeting_Transcript_Yash_Patel_Halcyon_2027_Plan_Forest_Park_Pilot_and_Texas_Profit_Share-October-14-2026.md]].
+
+**Inference:** this is the same November install, now placed in Georgia. Neither source links them, and the Oct-14 talk does not restate the free-equipment or $90 terms. This page stays active; the title still holds (November, a new location).
+
 ## Open commitments
 
 - [ ] [[wiki/people/val-levitan.md|Val]] / JVL — deliver one machine plus the full transactional package to a Halcyon location — due **first week of November 2026** — [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
@@ -56,7 +62,7 @@ Val's price claim — "**I don't think anybody could beat my price**", answered 
 
 ## Open questions
 
-- **Georgia or Texas?** The conversation runs across both states and **neither man names the state of the November location.** The Axcess estate discussed immediately before it is his **Georgia** equipment in context ("How can I bring you on board with my transactional equipment? To Georgia?"), and Val sells only the kiosk and payment solution in Georgia — but the location is **not named** and is not inferred here. [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+- **Georgia or Texas?** The conversation runs across both states and **neither man names the state of the November location.** The Axcess estate discussed immediately before it is his **Georgia** equipment in context ("How can I bring you on board with my transactional equipment? To Georgia?"), and Val sells only the kiosk and payment solution in Georgia — but the location is **not named** and is not inferred here. [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]] *(Oct 14 2026: the November test agreed that day is at Forest Park, Georgia, with Macon as fallback. If it is the same install — inference only — the answer is Georgia. Left open until a source links the two.)* [[raw/Meeting_Transcript_Yash_Patel_Halcyon_2027_Plan_Forest_Park_Pilot_and_Texas_Profit_Share-October-14-2026.md]]
 - **Does this supersede or sit beside the Aug-27 Texas test** agreed in principle — one machine in October, one in November? **Neither source mentions the other**, the Aug-27 item is a recycler/machine test in Texas and this one is a machine-plus-transactional install of unstated state. Recorded side by side on [[wiki/organizations/halcyon-amusements.md]]; not reconciled. [[raw/Meeting_Notes_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]] [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
 
 **§15.8:** clear — equipment, subscription and placement economics only; no named-person compensation. **§15.9:** clear — no licence, registration or account numbers appear.
@@ -66,3 +72,4 @@ Val's price claim — "**I don't think anybody could beat my price**", answered 
 - [[raw/Meeting_Notes_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
 - [[raw/Meeting_Notes_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]] *(cited only for the Aug-27 Texas test this decision sits beside)*
+- [[raw/Meeting_Transcript_Yash_Patel_Halcyon_2027_Plan_Forest_Park_Pilot_and_Texas_Profit_Share-October-14-2026.md]]

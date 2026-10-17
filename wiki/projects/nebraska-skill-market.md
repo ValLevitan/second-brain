@@ -5,7 +5,7 @@ date: 2025-03-14
 aliases: [Nebraska, Nebraska skill market, TNT, TNT Enterprises, NTN, T&T, Wagner, Whitey Tolliver, Mike Kotab, Michael Kotab, Miko, Nebraska nudge, Nebraska Department of Revenue, Georgia 1, Georgia 2, no-hands version, Golden Husk, corn bonus, power slider, power meter, Lucky Rainbow, Bullseye, Bonilla Games, Banila, Vanilla, Thistle, Swift bonus, Simon game, secondary skill, Brittany Waters, Malibu, Eclipse, Intralot, Texas skill]
 open-commitments: 10
 open-questions: 12
-source-count: 68
+source-count: 70
 ---
 
 # Nebraska skill-gaming market entry
@@ -464,6 +464,14 @@ At the [[wiki/meetings/2026-10-13-intralot-machine-lockouts-test-lab-and-route-p
 - **Val on JVL's own Nebraska position:** "**We have Nebraska license. We have Nebraska machines. But our machines have not been tested, have not been testing well. We're not making money.**" And: "**it's just a matter of time until we find the proper recipe**."
 - **Promo.** Chris floated cross-selling on lottery-branded machines; Val: "**Promo promo is the key.**"
 
+## Oct 13 2026 (evening, in absentia) — a Georgia master as Intralot's Nebraska partner
+
+At the [[wiki/meetings/2026-10-13-intralot-christos-tzoumaras-dinner-route-partnership-and-repair-depot.md|6:10 PM dinner]] [[wiki/people/christos-tzoumaras.md|Christos Tzoumaras]] of [[wiki/organizations/intralot.md|Intralot]] named Nebraska as one of the three likeliest route states for 2027, with Wyoming and Idaho [[raw/Meeting_Transcript_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]:
+
+- **Who would run it.** "**In Nebraska, I want Georgia Master to be the partner**" — he named someone heard as "**Diamond, Diamond and Newman**", who "**has also a license as an operator. He has not started**". Who that is, is **unclear**; the notes list it as an open question [[raw/Meeting_Notes_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]].
+- **Intralot's role there.** "**In Nebraska, we only have the system, but we operate**" (Val: "**Everything remotely from here**"). Intralot's first US lottery was Nebraska, "**2003, let's say 2004, went live**".
+- **Branding.** First "**Nebraska Lottery machines**", later perhaps "**Nebraska Lottery powered by Bally's**".
+
 ## History
 
 - **Jan 8 2026 — a market-size figure Val gave a Texas prospect.** Asked how JVL chooses between markets, [[wiki/people/val-levitan.md|Val]] told [[wiki/people/rich-winley.md|Rich Winley]]: "**Nebraska today has 4,000 machines and growing at 40% per year.** And Texas has… godly amount." He also said Nebraska's operators "used to be my customer for amusement machines, so I don't need to do any selling of the brand". *(Val's own figures, said at lunch; they sit beside the ~4,000–5,000 games in the field noted for June 2025 above.)* See [[wiki/meetings/2026-01-08-rich-winley-miami-lunch-texas-distribution-pitch.md]]. [[raw/Meeting_Transcript_Rich_Winley_Miami_Lunch_Texas_Distribution_Pitch-January-8-2026.md]]
@@ -516,6 +524,8 @@ At the [[wiki/meetings/2026-10-13-intralot-machine-lockouts-test-lab-and-route-p
 
 ## Sources
 
+- [[raw/Meeting_Transcript_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]
+- [[raw/Meeting_Notes_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Inamax_Ray_Cosentino_Georgia_Market_and_Trial_Agreement-February-11-2026.md]]
 - [[raw/Meeting_Notes_MG_Oil_Dana_Giesey_South_Dakota_Visit-June-18-2026.md]]
 - [[raw/Meeting_Transcript_MG_Oil_Dana_Giesey_South_Dakota_Visit-June-18-2026.md]]

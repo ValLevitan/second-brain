@@ -3,7 +3,7 @@ type: topic
 title: EGM freezing investigation (Georgia field fleet)
 date: 2026-07-29
 aliases: [GA freezing, Georgia freezing, machine freezing, EGM freeze, GA Freezing Issue, freezing investigation, JVL silent killer, nudge animation freeze, kernel-panic freeze]
-source-count: 24
+source-count: 25
 open-questions: 12
 ---
 
@@ -238,6 +238,10 @@ At the [[wiki/meetings/2026-09-09-lucky-coin-service-burden-and-exclusive-partne
 
 **§15.8:** clear — field-reliability and service content only; no named-person compensation.
 
+## Oct 14 2026 — retold to AKS as one of four causes of the sales fall
+
+At the [[wiki/meetings/2026-10-14-aks-amusements-transactional-demo-two-location-test-and-financing.md|Oct-14 AKS meeting]] Val told the freeze again, now as the third of four causes (after a copied skill feature and about four new game packs, and before the RTP mistake): "we discovered that the Linux. Operating system and the advanced AMD processor type that we use here were not compatible, and it created a frozen state of the screen. So, for the player, it appears that—sorry, for the attendant, it appears that the game is on, but for the player, the machine is dead." And: "if machine is dead for the day, it usually gets reset overnight because they turn off all the machines overnight. In the morning, it goes up, then it freezes again." "So we fix that problem." No version number and no watchdog this time. Full account: [[wiki/projects/georgia-market-rollout.md]] (Oct 14) [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]].
+
 ## Open questions
 
 - Why do ~250 Altera machines in Georgia (same motherboard/adapter config) **not** freeze? [[raw/GA_Machine_Freezing_Summary-March-9-2026.md]]
@@ -255,6 +259,7 @@ At the [[wiki/meetings/2026-09-09-lucky-coin-service-burden-and-exclusive-partne
 
 ## Sources
 
+- [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]
 - [[raw/GA_Machine_Freezing_Summary-March-9-2026.md]] — *derived/secondary:* AI summary of the Mar-9 freezing meeting (Juan, Felipe, Genadi, Pavel).
 - [[raw/GA_Freezing_Issue_Executive_Summary.md]] — *derived/secondary:* AI executive summary of the "GA Freezing Issue" Teams chat (~Mar 9–24).
 - [[raw/GA_Freezing_Issue_Segment_1_Initial_Investigation.md]] — *derived/secondary:* AI summary of the Teams chat, Segment 1 (initial investigation).

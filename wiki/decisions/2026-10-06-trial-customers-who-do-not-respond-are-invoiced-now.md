@@ -3,7 +3,7 @@ type: decision
 title: Trial customers who do not respond (AKS, Epic) are invoiced now, not after Friday
 date: 2026-10-06
 aliases: [invoice the non-responding trial customers, don't wait for Friday, send an invoice today, trial expired invoicing, non-responding party]
-source-count: 2
+source-count: 4
 status: active
 open-commitments: 1
 open-questions: 0
@@ -23,11 +23,17 @@ Felipe first said "Dixie", then "Well, AKS"; the notes write "AKS (Dixie)" [[raw
 
 **A different case — Fontana.** For the expired trial at [[wiki/organizations/fontana-amusement.md|Fontana Amusement]] (Rizwan, one machine) Felipe made an offer instead and asked for a decision by Monday; Val did not change that. [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
 
+## Oct 14 2026 — AKS: the two machines are bought
+
+At the [[wiki/meetings/2026-10-14-aks-amusements-transactional-demo-two-location-test-and-financing.md|Oct-14 AKS meeting]] an AKS speaker said "we already bought the two machines from you" [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]; in the intro someone said of the two trial machines "they're buying" [[raw/Meeting_Transcript_AKS_Intro_Three_Progressive_Trial_and_Cabinet_Swap-October-14-2026.md]]. So the AKS half of this ruling has moved on: AKS answered and is buying. Neither recording mentions the invoice, so the commitment below is not marked discharged. Epic is not mentioned.
+
 ## Open commitments
 
 - [ ] Felipe Miranda — send invoices to AKS and Epic for the trial machines — due Oct 6 2026 ("today") — [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
 
 ## Sources
 
+- [[raw/Meeting_Transcript_AKS_Intro_Three_Progressive_Trial_and_Cabinet_Swap-October-14-2026.md]]
+- [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
 - [[raw/Meeting_Notes_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]

@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 125
+source-count: 127
 open-commitments: 50
 ---
 
@@ -616,6 +616,10 @@ At the [[wiki/meetings/2026-10-07-daily-standup-test-coverage-first-and-ai-task-
 - On the [[wiki/meetings/2026-10-09-transactional-mvp1-test-machines-and-unclaimed-funds.md|Oct-9 Transactional MVP 1 call]] he said that once one terminal registers in production on the new version, a real transaction must be run — [[wiki/decisions/2026-10-09-a-real-transaction-is-run-in-production-on-the-new-version-before-the-first-real-location.md]]; on the secrets wipe he noted "Терминал, а не машины тут" [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]].
 - At the [[wiki/meetings/2026-10-09-daily-standup-weekend-service-rollout-and-stats-blocking.md|Oct-9 stand-up]] (in absentia) Biratka will ask "Андрей" to archive the old updater repository — Bosik by context, **inference** — [[wiki/decisions/2026-10-09-the-old-usb-updater-repository-is-archived-because-rauc-now-does-usb-updates.md]] [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]].
 
+## Oct 14 2026 (10:03 AM) — the AI PM runs; the 0.80 threshold stays
+
+On the [[wiki/meetings/2026-10-14-ai-pm-keep-the-0-80-threshold-and-meeting-rigor.md|Oct-14 AI PM update]] (Russian) with Val and Kovalchuk; the notes confirm both names but do not mark who is Speaker 2, 3 or 4 [[raw/Meeting_Notes_AI_PM_Keep_080_Threshold_and_Meeting_Rigor-October-14-2026.md]]. Speaker 2 — likely Bosik, who owns the agent (**inference**) — said "я его запустил"; Teams now answers questions about past meetings well; a morning link to the last meeting's agreements is posted in the chat; in Jira only comments and one task so far; the team thought of lowering the threshold. The threshold is 0.80 (Speaker 4). Val asked to keep it and make meetings more concrete; Speaker 2 agreed — [[wiki/decisions/2026-10-14-the-ai-pm-keeps-its-0-80-confidence-threshold-and-meetings-get-more-concrete-instead.md]] [[raw/Meeting_Transcript_AI_PM_Keep_080_Threshold_and_Meeting_Rigor-October-14-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -746,3 +750,5 @@ At the [[wiki/meetings/2026-10-07-daily-standup-test-coverage-first-and-ai-task-
 - [[raw/Meeting_Notes_AI_Chief_System_Architect_Gap_Finding_Task-October-8-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+- [[raw/Meeting_Transcript_AI_PM_Keep_080_Threshold_and_Meeting_Rigor-October-14-2026.md]]
+- [[raw/Meeting_Notes_AI_PM_Keep_080_Threshold_and_Meeting_Rigor-October-14-2026.md]]

@@ -3,7 +3,7 @@ type: organization
 title: GAMOA — the Georgia coin-operated amusement machine operators' association
 date: 2026-09-01
 aliases: [GAMOA, GOAM, Demola, Gamal, seventy thirty, you are ostracized, indecision is the worst decision, GMUA, Gamua, Gamboa, Gomoa, Gomorrah, Georgia operators association, the state association, the association, GAMOA board, GAMOA show, GAMOA expo, gift-card lobbying]
-source-count: 14
+source-count: 16
 open-commitments: 0
 open-questions: 2
 ---
@@ -126,8 +126,18 @@ On the [[wiki/meetings/2026-09-25-incomm-john-exit-and-blue-card-hold.md|Sept-25
 
 On the [[wiki/meetings/2026-05-18-ga-trip-recap-kiosk-intel.md|May-18 GA trip recap]] [[wiki/people/felipe-miranda.md|Felipe]] reported that, after [[wiki/people/john-houseal.md|John Houseal]] presented InComm's gift-card-to-ATM pilot at the meeting they attended, "Mike Patel then took the stage and they say, 'Listen, we are not endorsing this product.'" Felipe's reason: fear it will "trigger more investigation". Val's reading: Patel "doesn't want to bring spotlights to the business." Separately, Felipe said that at "the Kamau meeting" (read as GAMOA — inference) an operator told him a request to the Georgia Lottery to extend the July-1 deadline by "at least another year" was denied. Whether the pilot presentation was the same meeting is not stated. [[raw/Meeting_Transcript_GA_Trip_Recap_Kiosk_Intel-May-18-2026.md]]
 
+## Oct 13 2026 (in absentia) — Intralot's account: the win-limit change and the jackpot ask
+
+At the [[wiki/meetings/2026-10-13-intralot-christos-tzoumaras-dinner-route-partnership-and-repair-depot.md|6:10 PM dinner]] [[wiki/people/christos-tzoumaras.md|Christos Tzoumaras]] of [[wiki/organizations/intralot.md|Intralot]] described his talks with GAMOA [[raw/Meeting_Transcript_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]:
+
+- **Who it covers.** GAMOA has "**Fifty masters. Let's say one third, one, a little bit more than one third of them.**"
+- **What he asks them.** "**what they need… for revenues to go up**", and that the association should "**provide something to their members**" — for example, "**because JVL is selling machines… with 20 percent discount for their members**". This was his example of a member benefit; nothing was offered or agreed.
+- **One result: higher win limits.** From these talks, the limit at which a win needs Lottery approval was raised ("**if the winnings are more than ten thousand**"…"**we increased limits**"). A second ask, linked jackpots, the Lottery refused. See [[wiki/organizations/georgia-lottery-corporation.md]] (Oct 13, dinner). The notes say the same [[raw/Meeting_Notes_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]].
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]
+- [[raw/Meeting_Notes_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]
 - [[raw/Meeting_Notes_Double_Down_Gaming_Venue_Selection-September-1-2026.md]]
 - [[raw/Meeting_Transcript_Double_Down_Gaming_Venue_Selection-September-1-2026.md]]
 - [[raw/Meeting_Notes_Double_Down_Gaming_Operations_Review-September-1-2026.md]]

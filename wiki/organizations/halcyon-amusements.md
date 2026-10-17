@@ -2,10 +2,10 @@
 type: organization
 title: Halcyon Amusements
 date: 2026-08-27
-aliases: [Halcyon Amusements, Halcyon Amusements LLC, Halcyon, San Antonio to Beaumont, six fifty, Hackberry, Oranthis, Nix, Axcess locations, three hundred cabinets in two weeks]
-source-count: 8
-open-commitments: 4
-open-questions: 3
+aliases: [Halcyon Amusements, Halcyon Amusements LLC, Halcyon, San Antonio to Beaumont, six fifty, Hackberry, Oranthis, Nix, Axcess locations, three hundred cabinets in two weeks, Bangalore tech team, Forest Park, at least 20 locations in 2027]
+source-count: 9
+open-commitments: 3
+open-questions: 5
 ---
 
 # Halcyon Amusements
@@ -97,6 +97,39 @@ Price did not. Val's "**I don't think anybody could beat my price**" was agreed 
 
 **§15.8:** clear — route, machine, placement and net-win economics only; no named-person compensation. **§15.9:** clear — no licence or registration numbers.
 
+## Oct 14 2026 — the 2027 plan, the Axcess economics, and two tests
+
+At the [[wiki/meetings/2026-10-14-yash-patel-halcyon-2027-plan-forest-park-test-and-texas-profit-share.md|Oct-14 breakfast]] (8:13–9:32 AM ET) Val asked Yash for Halcyon's 2027 plan. The two outcomes are [[wiki/decisions/2026-10-14-halcyons-november-test-is-one-tight-setup-with-pos-and-kiosk-at-forest-park-with-macon-as-fallback.md]] and [[wiki/decisions/2026-10-14-halcyon-texas-trial-two-jvl-machines-and-a-recycler-operator-fronts-the-cost-profit-split-50-50.md]]. Quotes from [[raw/Meeting_Transcript_Yash_Patel_Halcyon_2027_Plan_Forest_Park_Pilot_and_Texas_Profit_Share-October-14-2026.md]].
+
+### The 2027 machine plan
+
+- **At least 20 new locations, so at least 20 JVL games.** "I know I've got at least about 20 locations coming online. So that'll be at least 20 games I'll be buying from JVL… in all my locations, I have at least one, two JVL."
+- **Bought in batches, financed through Felipe.** Val: "That's approximately two machines a month." Yash: "sometimes… I might pick up ten at once", and "when I'm with Felipe… I can buy X amount… and then figure out what the finance terms are." See [[wiki/people/felipe-miranda.md]].
+- **The route is changing.** "I just sold more locations recently… I obviously sold the inventory as well. Now I'm adding more locations." He keeps no stock: "I don't believe in keeping inventory."
+- **Banilla goes to Texas.** "all the Banilla games I have here, nobody wants them here. So I'm just repairing them… and sending them all to Texas."
+- **He has not tried the new vertical yet.** Asked about it: "I haven't yet. I need to buy some." Val: "you gotta go with vertical, and you gotta go with version three", and took on converting Halcyon's existing JVL verticals ("Not many") to the current version — see Open commitments.
+
+### Transactional today: Axcess, and what hurts
+
+Val asked for all of Halcyon's transactional business, "exclusively", offering "something very special" in return, and said plainly the product "has not been tested". The answer:
+
+- **Axcess at basically every existing site.** Asked how much is committed to competitors: "Basically, all the existing ones, because all my retailers were blowing me up and they want the system."
+- **No new buying for about three months.** "I'm not buying anything until I've got everything installed and tested for at least, you know, another three months, and I'm obviously open to moving to another solution that's better."
+- **Location by location, never locked in.** "I'm not committed to anybody full time", because if someone innovates "I'm stuck with half a million dollars of the shit".
+- **The cost.** Equipment "about six thousand per location", not counting a kiosk; installation is extra and done in-house; a fee of about "a dollar a day per device". With about seven devices Val worked it to "Two ten" a month. Yash: "That's the best deal I can get for the quality of equipment available." He said EasyLink is "about the same".
+- **The pain points.** Install time "at least three to four hours" per location — "three to four hours of revenue that I'm not making"; parts from many suppliers (a Light & Wonder game is hard to support on an EasyLink system); retailers want what the neighbour has — "The guy has EasyLink now, I need this." What he wants: "a system… that just works every day", and data at a "CCL level" ("Even if it costs me a little bit more" — the term is a garble, left as heard). Ideal terms: "a monthly fee with a nominal equipment cost, or I just pay a monthly fee and the maintenance… headache is gone."
+- **Kiosks only in calmer sites.** In nicer locations a recycler "works fine"; in rougher ones players "jam the card into the wrong spot", the clerk calls, "my tech has to go down there, and everything's always emergency."
+
+### Bangalore tech team
+
+Halcyon runs its own software in its locations and has a tech office in **Bangalore**. Yash asked for JVL's tech side "to kind of interface with my tech team in Bangalore" and to "Send some of the hardware samples to the Bangalore office" for QA. Val: "it's just SAS protocol"; "my port just makes a harness from my port into your second" SAS. Val also offered: "your machines could join mine. But you would have to install the Flexport."
+
+### Texas notes from this meeting
+
+- **Val toured part of the Texas route.** Yash: "You saw the location that we looked at, Hackberry", and "like you saw in San Antonio". **Nix was not visited**: "one store we didn't go to was Nix, which is also owned by Margaret Green that you met" — "a really heavy volume location… I think we've got eight games in there right now." The date of the tour is not said; it fits (inference) the Oct-2 trip planned on Sept 17.
+- **The route:** "from San Antonio all the way, almost about an hour away from the Louisiana border"; stores get bigger toward Louisiana.
+- **Players are "stuck in the Banilla"**; "Primero's getting their asses beat… in Texas", having ordered "30 or 40"; about "fifty" cheap games bought as "filler games". Yash will be "in Texas in November for about ten days".
+
 ## Open contradictions
 
 - **Halcyon's Texas net win per device per day — three figures, none preferred.** All three are in the corpus and each is recorded with its date:
@@ -107,16 +140,16 @@ Price did not. Val's "**I don't think anybody could beat my price**" was agreed 
 
 ## History
 
+- [x] [[wiki/people/val-levitan.md|Val]] — fly to **San Antonio on October 2 2026** for the route tour (warehouse, Hackberry, Oranthis, Nix, lunch) — **DISCHARGED (Oct 14 2026 evidence):** Yash refers to "the location that we looked at, Hackberry" and to what Val saw "in San Antonio"; **Nix was not visited**. The tour's date is not stated. The related check on private landings is moot once the trip happened (inference). [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]] [[raw/Meeting_Transcript_Yash_Patel_Halcyon_2027_Plan_Forest_Park_Pilot_and_Texas_Profit_Share-October-14-2026.md]]
 - **Aug 21 2026 — already on JVL's October pipeline.** "Halcyon" appears in Felipe's **Wave 4 — October** prospect list (~29 companies at 2 machines each) in the sales-channel report walked through at the post-GAMOA recap, six days before this visit. [[raw/Meeting_Notes_Georgia_Machine_Sales_Strategy_Post_GOAM-August-21-2026.md]]
 
 ## Open commitments
 
 - [ ] [[wiki/people/val-levitan.md|Val]] — call him next week to line up the Texas test location (one machine Oct, one Nov) — due next week (week of Aug 31 2026) — [[raw/Meeting_Notes_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]]
 - [ ] Val / JVL — send numbers on the recycler for his ~400 Texas locations — due unspecified — [[raw/Meeting_Notes_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]]
-- [ ] [[wiki/people/val-levitan.md|Val]] — fly to **San Antonio on October 2 2026** for the route tour: warehouse, Hackberry, Oranthis, Nix, then lunch; about four hours, no pickup — due 2026-10-02 — [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
-- [ ] [[wiki/people/val-levitan.md|Val]] — check whether San Antonio takes private landings, else Austin — due before Oct 2 2026 — [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+- [ ] [[wiki/people/val-levitan.md|Val]] — convert all of Halcyon's JVL vertical games (in locations) to the current version: "that's going to be my undertaking to convert all your verticals to the current version" — due unspecified — [[raw/Meeting_Transcript_Yash_Patel_Halcyon_2027_Plan_Forest_Park_Pilot_and_Texas_Profit_Share-October-14-2026.md]]
 
-(The November installation and the Axcess placement rule are held once, on [[wiki/decisions/2026-09-17-halcyon-takes-one-machine-plus-the-free-transactional-package-first-week-of-november.md]]; Yash's own undertakings are held once, on [[wiki/people/yash-patel.md]].)
+(The November installation and the Axcess placement rule are held once, on [[wiki/decisions/2026-09-17-halcyon-takes-one-machine-plus-the-free-transactional-package-first-week-of-november.md]]; Yash's own undertakings are held once, on [[wiki/people/yash-patel.md]]. The Oct-14 Forest Park test and Texas trial commitments are held on their decision pages: [[wiki/decisions/2026-10-14-halcyons-november-test-is-one-tight-setup-with-pos-and-kiosk-at-forest-park-with-macon-as-fallback.md]] and [[wiki/decisions/2026-10-14-halcyon-texas-trial-two-jvl-machines-and-a-recycler-operator-fronts-the-cost-profit-split-50-50.md]].)
 
 (The two commitments owed by the operator — sending the Georgia Lottery notice letter and the DJI mic model — are held once, on [[wiki/people/yash-patel.md]].)
 
@@ -124,6 +157,8 @@ Price did not. Val's "**I don't think anybody could beat my price**" was agreed 
 
 - **Which state is the November installation in?** Neither man names it — see the decision page. [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
 - **How do 650 machines square with 400 locations?** The two counts come from the same man three weeks apart and are in different units; his own stated practice is two to three machines per location. Not reconciled. [[raw/Meeting_Transcript_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]] [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+- **Will Halcyon move its transactional business from Axcess to JVL, and on what terms?** Val asked for exclusivity; Yash stays location by location and buys nothing for about three months. (Oct 14 2026.) [[raw/Meeting_Transcript_Yash_Patel_Halcyon_2027_Plan_Forest_Park_Pilot_and_Texas_Profit_Share-October-14-2026.md]]
+- **Will JVL's tech team work with Halcyon's Bangalore team and send hardware samples there?** Asked by Yash; Val answered only that it is SAS plus a harness. (Oct 14 2026.) [[raw/Meeting_Transcript_Yash_Patel_Halcyon_2027_Plan_Forest_Park_Pilot_and_Texas_Profit_Share-October-14-2026.md]]
 - Does the free three-month Flex-IQ pilot at **Lilburn** go ahead? Offered and verbally welcomed in the room, but no date, no owner and no confirmation appear in either source, and the derived notes omit it entirely. [[raw/Meeting_Transcript_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]] [[raw/Meeting_Notes_Halcyon_Amusements_Recycler_Pitch_and_Lottery_Notice-August-27-2026.md]]
 
 **§15.8:** clear — machine prices, location counts, net-win and cash-handling economics only; no named-person compensation. **§15.9:** no licence or registration numbers appear in any of these sources.
@@ -138,3 +173,4 @@ Price did not. Val's "**I don't think anybody could beat my price**" was agreed 
 - [[raw/Meeting_Transcript_Continental_Vendor_Lock_In_Dead_End-September-2-2026.md]]
 - [[raw/Meeting_Notes_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Halcyon_Amusements_Georgia_Class_A_and_Texas_Route_Partnership-September-17-2026.md]]
+- [[raw/Meeting_Transcript_Yash_Patel_Halcyon_2027_Plan_Forest_Park_Pilot_and_Texas_Profit_Share-October-14-2026.md]]

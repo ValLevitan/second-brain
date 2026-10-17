@@ -3,9 +3,9 @@ type: organization
 title: AKS Amusement
 date: 2026-07-27
 aliases: [AKS Amusement LLC, AKS Amusement, AKS, AKS Amusements]
-source-count: 5
-open-commitments: 5
-open-questions: 2
+source-count: 9
+open-commitments: 8
+open-questions: 4
 disambiguation: "§4 name note — two distinct Karims. **This** Karim is AKS Amusement's technical/operations lead, reporting to AKS's CEO Zahir. A **different** Karim is the sole owner of [[wiki/organizations/air-gaming-group.md|Air Gaming Group]], a separate multi-state operator with a large Texas footprint, who was named as such on Sept 1 2026. Different companies, different roles; neither has a person page and nothing has been merged. Resolve by context. Provisional — owner ruling pending. (Note also that AKS and **Akshar Gaming** are unrelated companies whose names happen to look alike — see [[wiki/organizations/akshar-gaming.md]].) Page note: AKS's data lead **Jay** (Feb 10 2026) is a third person, not [[wiki/people/jai.md|Jai]] of Akshar Gaming and not the Texas consultant Jay; he has no page."
 ---
 
@@ -82,12 +82,19 @@ On a ~42-minute [[wiki/meetings/2026-02-10-aks-amusements-performance-data-colla
 - [ ] Jay (AKS) — get Zaire's approval for the data exchange, then produce an anonymised report of AKS's top JVL locations versus the number-one machine in each — due unspecified — [[raw/Meeting_Transcript_AKS_Amusements_Jay_Performance_Data_Collaboration-February-10-2026.md]]
 - [ ] AKS (Kareem) — scan JVL machines' QR / game screens during location visits, or let JVL do it — due unspecified — [[raw/Meeting_Transcript_AKS_Amusements_Jay_Performance_Data_Collaboration-February-10-2026.md]]
 - [ ] JVL (Juan) — provide the offered support in exchange for data: upgrade-kit help, dual-SAS software for the EasyLink rollout, and a local tech training session — due unspecified — [[raw/Meeting_Transcript_AKS_Amusements_Jay_Performance_Data_Collaboration-February-10-2026.md]]
-- [ ] Felipe — organise a local demo of JVL's transactional products for AKS when ready (Val gave ~May 2026) — due ~May 2026 — [[raw/Meeting_Transcript_AKS_Amusements_Jay_Performance_Data_Collaboration-February-10-2026.md]]
+- [ ] Felipe Miranda — upgrade AKS's two installed JVL machines to build 4333 with the new games — due unspecified — [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]
+- [ ] JVL (who is unclear; the notes say unassigned) — change the game cabinet that had problems on one of the two trial machines — due unspecified — [[raw/Meeting_Transcript_AKS_Intro_Three_Progressive_Trial_and_Cabinet_Swap-October-14-2026.md]] [[raw/Meeting_Notes_AKS_Intro_Three_Progressive_Trial_and_Cabinet_Swap-October-14-2026.md]]
+- [ ] JVL — borrow and test AKS's IGT dual-SAS machine (second SAS needs IGT's daughter board) before installing on it — due unspecified — [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]
+- [ ] AKS Amusement — tell Val the price it wants to trade in its IGT COAM machines ("you tell me what you want") — due unspecified — [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]
+
+*(Commitments from the two-location test are on [[wiki/decisions/2026-10-14-aks-tests-the-full-jvl-transactional-system-at-two-new-locations-before-year-end-and-jvl-installs-the-first.md]].)*
 
 ## Open questions
 
 - Is the ~45% lower net with all JVL machines included just machines that ran part of the period, or real under-performance? Jay said it was not "apples to apples" and offered to "crunch the numbers" — [[raw/Meeting_Transcript_AKS_Amusements_Jay_Performance_Data_Collaboration-February-10-2026.md]]
 - How do Jay's counts (19 active JVL machines, about 30 with disabled/deleted) fit the briefing's 29 Flex D27 + 9 Flex V43 direct purchases? Different measures, not reconciled by any source — [[raw/Meeting_Transcript_AKS_Amusements_Jay_Performance_Data_Collaboration-February-10-2026.md]] [[raw/georgia_operator_briefing_AKS.md]]
+- Financing or discount for AKS: AKS asked for twelve months same as cash; Val said "either a discount or financing", then "I don't see a problem with twelve months" for a credible company. No terms fixed — [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]
+- Trade-in price for AKS's IGT COAM machines: Val's "probably a thousand bucks" (what Texas buyers pay) against AKS's "two thousand". Open — [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]
 
 ## Name note (§4) — the other Karim
 
@@ -97,8 +104,31 @@ On **September 1 2026** an operator called **Air Gaming Group** visited the JVL 
 
 On the [[wiki/meetings/2026-10-06-felipe-delivery-forecast-arc-release-and-modem-notice.md|Oct-6 1:41 PM call]] Felipe said about AKS: "I have tried to reach out, but he's not responding." He planned to invoice if there was no reply by Friday. Val: do not wait — "They're a non-responding party… I have doubts about their cooperation." Felipe: "I'll send an invoice today." [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]] See [[wiki/decisions/2026-10-06-trial-customers-who-do-not-respond-are-invoiced-now.md]]. (Felipe first said "Dixie", then "Well, AKS".)
 
+## Oct 14 2026 — AKS at the JVL office: the trial machines are bought, a two-location test, trade-in and financing
+
+AKS came to the JVL Georgia office for a transactional demo — [[wiki/meetings/2026-10-14-aks-amusements-transactional-demo-two-location-test-and-financing.md]] (two recordings, 11:02 AM and 11:09 AM–12:17 PM). JVL: [[wiki/people/val-levitan.md|Val]], [[wiki/people/felipe-miranda.md|Felipe]], [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]. AKS speakers are not named on the tape; the notes say Jay, Zaire and Kareem were expected, and that Val confirmed the "Z" who greeted him is Zaire [[raw/Meeting_Notes_AKS_Intro_Three_Progressive_Trial_and_Cabinet_Swap-October-14-2026.md]] [[raw/Meeting_Notes_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]].
+
+- **The two trial machines are now a purchase.** In the intro: "The three progressive… we ran it, and the market performs very well. So they got two of them. Yeah, we got two of them to try it, and they're buying. I just need to change one of the game cabinets because they had problems with them." Who said it is unclear (one speaker label) [[raw/Meeting_Transcript_AKS_Intro_Three_Progressive_Trial_and_Cabinet_Swap-October-14-2026.md]]. Later an AKS speaker: "we already bought the two machines from you" [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]. This updates the Oct-6 "non-responding" picture above (evolution).
+- **Upgrade of the two machines.** Felipe: they will get "4333… Build", with the new games, to "upgrade those two locations". The new build carries **Lion's Riches** ("from Peach One… to vertical") and **Twin Bison** ("a brand new game… a Bison Ways game, three by three") [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]].
+- **A topper.** A speaker quoted "2, 800 dollars, and it gives a better effect"; Val: "I think it's very inexpensive. I think you should go for it." [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]
+- **What AKS uses today for payments.** An AKS speaker: "We have the IFS kiosk in a handful of locations, and then we have Fiery Pay… Mixed bag", with "technical challenges that we've had with reliability. Frankly… with all of them"; the IFS side runs "through Easy Links". AKS now tests "out location before we agree to roll it out to every location" ("fire day" is read as Fiery Pay by the notes) [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]] [[raw/Meeting_Notes_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]].
+- **An IGT machine JVL has not tested.** AKS has an IGT machine that is dual-SAS, but "the second SAS protocol not enabled until you buy the daughter board" (sold by IGT). Felipe: "I have not done that test… If you have a machine… that we could borrow, we could test." [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]
+- **The two-location test.** AKS wants the full transactional system in two new locations, with 30+ days of data before year end; JVL installs the first one — [[wiki/decisions/2026-10-14-aks-tests-the-full-jvl-transactional-system-at-two-new-locations-before-year-end-and-jvl-installs-the-first.md]]. The free-equipment offer and the $90 fee are on [[wiki/decisions/2026-09-02-free-ports-and-pos-with-every-machine-bought.md]] (Oct 14).
+- **Trade-in for Texas.** Val asked about AKS's IGT COAM machines ("Would you con — consider trading it in"). Texas buyers pay "probably a thousand bucks"; an AKS speaker answered "I got two thousand"; Val: "you tell me what you want". Detail on [[wiki/projects/texas-used-machine-distribution.md]] (Oct 14) [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]].
+- **Price increase and financing.** Felipe: "We sent an email about a price increase starting January first… that's tariffs", and asked how many games AKS can take before year end. Financing: "the most we give is twelve months", with a credit check, "and/or you can get a… third party option". AKS asked for "Twelve months, same as cash", noting "we have fifty something" JVL machines at "twenty-five thousand dollars or twenty-two thousand dollars each". Val: with $15,000 of free equipment "it's like discounting the machine by fifty percent… either a discount or financing" — then: "I understand that you're a very credible company. I don't see a problem with twelve months." No terms were fixed [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]].
+- **Machine count.** "Fifty something" JVL machines (Oct 14) sits beside Jay's 19 active / about 30 (Feb 10) and the briefing's 29 + 9 direct purchases above. Different dates and measures; not reconciled [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]] [[raw/Meeting_Transcript_AKS_Amusements_Jay_Performance_Data_Collaboration-February-10-2026.md]] [[raw/georgia_operator_briefing_AKS.md]].
+- **Val's close.** "we're making commitments to the state of Georgia to accompany you in the market… We're settling here. We're bringing transactional equipment. Your transactional product right now is very raw. You would need a manufacturer that stays with you" [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]].
+
+## History
+
+- [x] Felipe — organise a local demo of JVL's transactional products for AKS when ready (Val gave ~May 2026) — due ~May 2026 — **DISCHARGED Oct 14 2026:** Andrei Klimovich gave AKS the demo at the JVL office, with Felipe present — [[raw/Meeting_Transcript_AKS_Amusements_Jay_Performance_Data_Collaboration-February-10-2026.md]] [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_AKS_Intro_Three_Progressive_Trial_and_Cabinet_Swap-October-14-2026.md]]
+- [[raw/Meeting_Transcript_AKS_Intro_Three_Progressive_Trial_and_Cabinet_Swap-October-14-2026.md]]
+- [[raw/Meeting_Notes_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]
+- [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
 - [[raw/georgia_operator_briefing_AKS.md]]
 - [[raw/Meeting_Transcript_Air_Gaming_Group_Transactional_Walkthrough-September-1-2026.md]]

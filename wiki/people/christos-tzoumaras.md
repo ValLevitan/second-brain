@@ -3,8 +3,8 @@ type: person
 title: Christos "Chris" Tzoumaras (Intralot executive) — name from the notes
 date: 2026-10-14
 aliases: [Chris, Christos, Christos Tzoumaras, Chris (Intralot), the Intralot executive]
-source-count: 4
-open-commitments: 0
+source-count: 6
+open-commitments: 2
 open-questions: 1
 disambiguation: "PROVISIONAL (owner ruling pending) — 'Chris' cluster: Christos Tzoumaras [[wiki/people/christos-tzoumaras.md]] (Intralot executive) · Chris Boncek [[wiki/people/chris-boncek.md]] (Georgia Lottery). Resolve by context: Intralot route plans / Intralot group / the Oct-13 dinner → Christos Tzoumaras; Georgia Lottery COAM staff / site-controller request / prize-card rules → Chris Boncek; other Chrises named in the corpus (e.g. Chris Foss on the Sept-10 invitation) have no page; a 'Chris' fitting neither stays unresolved and is queued."
 ---
@@ -40,14 +40,33 @@ At the [[wiki/meetings/2026-10-13-arc-zazanis-lunch-trade-in-and-2027-volume.md|
 - **The man who decides in Intralot's Georgia lab.** George: "**Chris is the guy… Chris will delegate the work. Let Chris bring Bill.**" See [[wiki/organizations/intralot.md]] (Oct 13, ARC lunch) [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]].
 - **Once at United.** George: "**Northern Chris knows them fifty times more than I do, because he used to be in United**" (transcribed so) (about Kyle and Mark Brooks). This fits his own "**I was with Banti with United**" above [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]].
 
+## Oct 13 2026 (evening) — the dinner at Frankie's
+
+Speaker 2 at the [[wiki/meetings/2026-10-13-intralot-christos-tzoumaras-dinner-route-partnership-and-repair-depot.md|6:10 PM dinner]], per the notes. The notes pair the recording to a calendar entry titled "**Dinner with Christos Tzoumaras (Intralot) at Frankie's**" — more support for the name, but still not said on the tape [[raw/Meeting_Notes_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]. The route plan itself is on [[wiki/organizations/intralot.md]] (Oct 13, dinner). Quotes from [[raw/Meeting_Transcript_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]].
+
+- **His role.** He runs Intralot's push into routes: "**what I wanted to do is to do routes, big routes, basically with Intralot**". He said he was with Bally and with United before going back to Intralot ("**I was with United, but going back to Intralot**").
+- **He brought a repair depot.** Louis's family company has repaired Intralot equipment for "**ten, fifteen years**"; he wants it in his partner group — see [[wiki/organizations/renova.md]].
+- **JVL is in his internal plan.** "**I have JVL there already.**" He will take it up the chain, "**One level up every… month**", with "**three, four months**" to finalize.
+- **His advice on kiosks.** Build something "**that the lottery would love to promote**" — for example, "**advertise lottery products in the big screen**" — so that "**at one point of time we see one kiosk in Georgia. So the player recognizes that this is the redemption terminal.**" He would rather operators spend on games than on inducements to locations: "**Let's spend the money and put more games**".
+- **On cash.** "**I prefer your kiosks to dispense cash**", and "**I think we all need to push for this market to be a cash market, like the casino.**" But he expects the Lottery's new rules not to allow ATM cards — see [[wiki/organizations/georgia-lottery-corporation.md]] (Oct 13, dinner).
+- **Intralot's stance on the payment devices.** "**We as intra lot, we are neutral… we don't connect with ATMs, with the kiosk**"; "**We just don't want the revenues to go down**".
+- **Showing the Lottery that partners stand together.** He said he invited the Lottery official to the morning meeting on purpose, to show that Intralot works "**together with manufacturers and masters**". He urged masters to come to the Lottery's advisory board meetings: "**Be present. Show your face.**"
+
+## Open commitments
+
+- [ ] Christos Tzoumaras — present the 2027 route plan with JVL as a potential partner, and set the next meeting with more senior Intralot people (e.g. "**the U.S. CEO**") — due within about two months of Oct 13 2026 — [[raw/Meeting_Transcript_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]
+- [ ] Christos Tzoumaras — go with Val to visit lotteries once a deal is in place ("**I will gladly come with you**") — due once a deal exists — [[raw/Meeting_Transcript_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]
+
 ## Open questions
 
-- Is Speaker 4 really Christos Tzoumaras? Only the notes say so; the recording says "Chris" — [[raw/Meeting_Notes_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
+- Is Speaker 4 really Christos Tzoumaras? Only the notes say so (Oct-13 evening: the calendar title they quote says so too); the recording says "Chris" — [[raw/Meeting_Notes_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
 
 **§15.8:** clear. **Personal matters:** not recorded.
 
 ## Sources
 
+- [[raw/Meeting_Transcript_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]
+- [[raw/Meeting_Notes_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
 - [[raw/Meeting_Notes_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
