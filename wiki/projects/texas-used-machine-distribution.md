@@ -3,7 +3,7 @@ type: project
 title: Texas used-machine distribution (via EDS)
 date: 2025-03-22
 aliases: [Texas market, JAMMA pinboard, Fusion Game Group, Omega cabinets, Torch Amusements, Missouri decal fee, Beaumont, Texas distribution, Texas EDS plan, Texas content prohibition, Texas branch, reconditioned machines, wild boar theme, WPU, PTI, PTI Sentry, Jordan Barberio, Joe Hollow, Joe Hello, Hello Games, Barberio Amusement, Capitol Amusement, Texas recycler test, pure skill state, Fannin County, Stephen Fenoglio, county patchwork, Texas net win, Ken Paxton opinion letter, AMOT, Dennis Bonnen, Texas lobbying, Bob Hall, Texas own locations, Texas front operator, Dannettee Hickman, Texas gas station displacement, recycler against Banilla, ARC trade-in, Austin warehouse, bottomless pit, Halcyon Texas trial, Texas profit share, two machines and a recycler]
-source-count: 67
+source-count: 69
 open-commitments: 17
 open-questions: 9
 ---
@@ -446,6 +446,17 @@ Hours after the Halcyon breakfast, at the [[wiki/meetings/2026-10-14-aks-amuseme
 - **Price.** What Texas buyers pay: "They buy probably a thousand bucks… Nothing is expensive in Texas. Plus, they have to pay us for our for our box." An AKS speaker: "I got two thousand"; Val: "Well, you tell me what you want." No deal; the open item is on the AKS page [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]].
 - *Against Oct 13:* to ARC Val put the trade-in at about $1,500 "give or take" against Texas buyers paying at most $3,000–4,000; to AKS he says Texas buyers pay "probably a thousand". Different deals and machines; recorded side by side, not reconciled [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]] [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]].
 
+## Oct 14 2026 (5:33 PM) — Banilla and IGT trade-ins for Texas become part of Felipe's November–December orders
+
+That evening, alone with [[wiki/people/felipe-miranda.md|Felipe]], Val made the Texas trade a standing line of the sales plan — [[wiki/decisions/2026-10-14-november-and-december-sales-go-to-trade-ins-a-6500-credit-for-jvl-machines-and-banilla-and-igt-machines-for-texas.md]] ([[wiki/meetings/2026-10-14-sales-q4-trade-in-plan-and-transactional-momentum.md|stub]]) [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]:
+
+- **How Val prices it.** "**I'm going to take your machine. I'm going to ship it to Texas, and I'm going to send my [kits] for conversion. So my [kits] are twenty five hundred. So your machine is roughly fifteen hundred dollars.**" The notes: about $1,500 per machine plus a $2,500 JVL conversion kit [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]] [[raw/Meeting_Notes_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]].
+- **ARC in these terms.** "**Arc, for example, is thinking of trading in approximately two hundred IGTs… at fifteen hundred dollars.**" Val's pitch to the seller: IGT wants "**sixty five hundred dollars**" for its own upgrade kit, so taking $1,500 instead is "**eight thousand dollars perceived value**". Felipe: the reason is "**there are no parts to fix them**". See [[wiki/decisions/2026-10-13-arc-trades-in-old-machines-for-texas-as-credit-on-2027-purchases.md]] (Oct-14 note) [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]].
+- **What is kept.** Validators, printers and monitors from incoming machines are taken out and crushed; no boards are needed [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]].
+- **The scrapping story is a front.** Val: "**I'm using it as a front, so people feel good about selling it to Texas.**" [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
+- **Dual cabinets.** Val: "**My plan is to convert dual to vertical and either sell it here as vertical or send it to Texas.**" [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
+- *Against Oct 13 and Oct 14 (11:09 AM):* the ~$1,500 figure matches what Val put to ARC; to AKS he said Texas buyers pay "probably a thousand". Recorded side by side, not reconciled.
+
 ## Open contradictions
 
 **Texas net win per device per day, Sept 2026 — $250 against $15, and Val's own $250-against-$25.** Operators running machines in Texas have given figures that differ by more than an order of magnitude. Nothing reconciles them, and they are recorded every way they were said.
@@ -507,6 +518,8 @@ Hours after the Halcyon breakfast, at the [[wiki/meetings/2026-10-14-aks-amuseme
 - **Was the first Capitol Amusement call June 23 or June 24, and were Jordan and Joe on one call or two?** The Jun-10 derived notes say the Jun-17 introductions "produced a scheduled discovery call with Capitol on June 24"; the transcript the wiki holds is dated **June 23** and has both Jordan and Joe on it. No source reconciles the two. [[raw/Meeting_Notes_Stephen_Fenoglio_Texas_Skill_Gaming_Counsel-June-10-2026.md]] [[raw/Transcript_Texas_Operators_Reach_Out-June-23-2026.md]]
 
 ## Sources
+- [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
+- [[raw/Meeting_Notes_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
 - [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Yash_Patel_Halcyon_2027_Plan_Forest_Park_Pilot_and_Texas_Profit_Share-October-14-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]

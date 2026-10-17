@@ -3,9 +3,9 @@ type: topic
 title: Georgia prize-card processor economics — the fee sheet, the float, and who actually captures the money
 date: 2026-08-31
 aliases: [prize card economics, cannot be exchanged for currency at the location, where the prize is won, welcome to our world, three fifty-eight nine, HB 353, white card ATM functionality, black prize play card, should I be working on ATMs, Avshad Patel, Ready Credit Corporation, the card puzzle, why pay cash without issuing a card, average load per card, two hundred eighty dollars per card, InComm takes the risk, program manager not provider, Fiserv, breakage zero point three, card to machine fee, MoneyPass, fifty basis points, PAX A80 two hundred dollars, gift card float, dormancy fee, card fee structure, 9.6 percent per year, I'm in the wrong business, free PAX, breakage, five billion in payouts, multi-provider manipulation, reloadable cards, Mastercard rules, gift card policy intent, half a percent, front fees to the store, two dollars per push, PlayPay fees, eight percent on the back end, FBO account, holding that money, B with the B, seventy four hundred locations forty seven thousand machines, InComm doesn't offer any profit sharing, a card solution is not useful if it doesn't lead to cash, thirteenth month after activation, pre-fund, ten thousand dollar pre-fund, twenty four thousand dollars over the weekend, half a percent is my percentage, that's my agreement with Visa, secret document that Visa does not divulge, I can turn my AFT off, GDL is the only company that gives it away, mute them for now, anti money laundering, house bill three fifty three, I faked that, pass to cash, self checkout counter, escheat, easement, sub accounts, they actually buy bonds]
-source-count: 37
+source-count: 40
 open-commitments: 0
-open-questions: 18
+open-questions: 19
 ---
 
 # Georgia prize-card processor economics
@@ -708,8 +708,26 @@ At the [[wiki/meetings/2026-10-13-arc-zazanis-lunch-trade-in-and-2027-volume.md|
 - **Val's guess at InComm's take.** "**I speculate they make between one and eight percent on the entire amount. That's a lot on five billion dollars.**" Then: "**So I want half a percent**" (a Val line under a George label; the notes flag the labels as swapped here).
 - **The plan, as Val told it.** "**I've lined up a private family office capital**" to fund equipment so "**the operator doesn't have to pay**" — "**We will probably offer just a rental**" — and talks with InComm "**to take over their five and a half thousand locations**". The end state: "**me, with technology, the fund… and two or three operators like you, we can get majority of the market… and then sell the company to InComm. Or sell the company to NCR**" (he said NCR's division was just bought by Brink's; see [[wiki/organizations/ncr-atleos.md]]). Val himself: "**This is my fantasy. It's a fantasy.**" George committed to nothing.
 
+## Oct 14 2026 (2:26 PM) — daily caps from a master's side, and Val's answer: a positive balance, a card on file
+
+At the [[wiki/meetings/2026-10-14-atl-coam-transactional-demo-show-special-and-daily-caps.md|ATL COAM meeting]] the master, Arpit of [[wiki/organizations/atl-coam.md|ATL COAM]], raised the card limits himself [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]:
+
+- **The complaint.** Processors "have certain limits, and all customers get frustrated… a lot of stores are out by two p." One provider gives "a lot of my locations ten thousand per day. That includes Friday, Saturday, Sunday, Monday". To get more, locations "either have to call them and get them to release more, or… make the deposit", and some run "multiple providers just for the gift cards". [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
+- **Val's rule: a positive balance means no interruption.** "If there is a positive balance, we will have no issue with any sort of transaction." But when the balance is "considerably less than what we already committed to withdraw… we're gonna shut down the operation." [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
+- **Automatic checks.** "We can automatically check it multiple times a day. So we silently check the account balance. Each check costs us something, but it's not a lot of money." [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
+- **The weekend is the risk.** "we become very sensitive on Friday night… It's nearly four days… And those are the most productive days". Compare the Sept-10 weekend window above. [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
+- **The fix he offered: a credit card or a guarantor account on file.** Example: balance $10,000, withdrawal $11,000 — "We will withdraw ten thousand from the account, and we will immediately charge your credit card. We will notify you". And: "put your credit card on, so we can always pre-authorize the credit card, and then we will go to the bank. We will withdraw from the bank, and we will release your credit card." "The way to work this deal is to put either a guarantor's account or a credit card on file." The master could "guarantee for all your locations". [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
+- **A text when the balance is low.** "we can actually send a quick SMS automatically. Your account balances below, deposit the money." [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
+- **The master's answer.** "They always keep a positive balance… None of them have ever had any issues with EFTs". [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
+- **Why JVL can do this, in Val's telling:** JVL is the broker and sets the limit, not InComm — see [[wiki/organizations/incom.md]] (Oct 14, 2:26 PM), where this is recorded against Klimovich's Sept-14 account as an open contradiction.
+
+## Oct 14 2026 (3:49 PM) — the afternoon pitch turned into a design
+
+An hour later, at the [[wiki/meetings/2026-10-14-transactional-mvp1-launch-plan-brackets-daily-caps-and-mvp2-scope.md|launch-plan meeting]] (Russian), Val told Klimovich the ATL COAM answer had been "экспроптом", and set it out to be built: JVL sets the cap as InComm's guarantor; each location (or operator) gives a guarantor account and a card; balance checks every hour or two when funds are short, at a small fee per check (he said fifty cents, later twenty); SMS and email notices, then the secondary account, then the master, then an automatic block planned for "MVP 1.5" — [[wiki/decisions/2026-10-14-jvl-sets-the-location-daily-cap-backs-it-with-a-guarantor-account-and-a-card-and-the-automatic-location-block-is-mvp-1-5.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]. He also seeks a five-day payment window from InComm — [[wiki/organizations/incom.md]] (Oct 14, 3:49 PM).
+
 ## Open questions
 
+- Can JVL see a card holder's credit-card limit when a card is the back-up for a low balance? Raised later the same day, per the notes; not answered in this source (Oct 14) — [[raw/Meeting_Notes_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]] — *Oct 14 (3:49 PM): Klimovich asked; Val: "По моему, по моему, мы не можем"; still not settled* — [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
 - Who is the "physicist" offering Val, on a handshake, 50% of the banking transactions through him, and who is the second offer? Neither is named (Sept 28) — [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]]
 
 - What would a cardless ATM payout really cost? NCR Atleos gave only a $2.75 withdrawal ballpark and two different deposit ranges (Sept 22) — [[raw/Meeting_Transcript_NCR_Atleos_ReadyCode_Cardless_ATM_Payout_Architecture-September-22-2026.md]]
@@ -734,6 +752,8 @@ At the [[wiki/meetings/2026-10-13-arc-zazanis-lunch-trade-in-and-2027-volume.md|
 
 ## Sources
 
+- [[raw/Meeting_Notes_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
+- [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
 - [[raw/Meeting_Notes_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
 - [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
@@ -771,3 +791,4 @@ At the [[wiki/meetings/2026-10-13-arc-zazanis-lunch-trade-in-and-2027-volume.md|
 - [[raw/Meeting_Transcript_Larry_Transactional_Equipment_Investment_Structure-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Equipment_Depreciation_Investor_Pitch-September-28-2026.md]]
 - [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]

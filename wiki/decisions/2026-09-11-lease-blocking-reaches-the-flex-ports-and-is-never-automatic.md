@@ -3,8 +3,8 @@ type: decision
 title: Lease blocking must reach the Flex-Ports as well as the terminal, so players cannot play — and blocking is never automatic, only manual through the hub
 date: 2026-09-11
 aliases: [block the flex ports too, players cannot play, never block automatically, expired lease in the hub stops everything, lease feature written in so it gets tested, disable the bill acceptor through SAS, we can block Flex IQ FlexPay and the Flex Ports, lease expiry blocks offline too, lease versus internet loss, fresh lease date at start-up]
-source-count: 6
-status: active
+source-count: 9
+status: active — the reach into the Flex-Ports stands, and for MVP 1 blocking stays manual; on Oct 14 2026 Val planned an automatic location block on unpaid funds for "MVP 1.5" (see the Oct-14 update)
 open-commitments: 4
 open-questions: 2
 ---
@@ -72,6 +72,18 @@ At the [[wiki/meetings/2026-10-08-daily-standup-lease-expiry-scenarios-and-flex-
 
 **Nothing above is superseded.** Manual-only blocking and the reach into the ports stand; Oct 8 shows the lease block working on the test terminals.
 
+## Update, Oct 14 2026 (3:49 PM) — an automatic location block is planned for "MVP 1.5", at the end of a funds chain
+
+At the [[wiki/meetings/2026-10-14-transactional-mvp1-launch-plan-brackets-daily-caps-and-mvp2-scope.md|Oct-14 3:49 PM launch-plan meeting]] (Russian), [[wiki/people/andrei-klimovich.md|Klimovich]] described a chain for a location that cannot pay: primary account, then secondary, then the master, "дальше идет автоблокировка локейшн". [[wiki/people/val-levitan.md|Val]] wanted notices and a chance to recover first, and said the block reaches the Flexports: "Локации, это значит и флекс порты тоже." [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
+
+Klimovich reminded him: "Мы договорились, что автор блокировки пока у нас не будет." Val: "давайте назовем это MVP один из половины… Пару машин можно поставить без этого. Извиняюсь, пару лакейшнок." [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]] The notes: "Location auto-block moves to 'MVP 1.5'; a couple of locations may start without it." [[raw/Meeting_Notes_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
+
+So: **for MVP 1 the manual-only rule stands**; an automatic block on unpaid funds is now planned for "MVP 1.5". This is **evolution** of the Sept-11 "никогда" — a planned change, not yet built. Detail: [[wiki/decisions/2026-10-14-jvl-sets-the-location-daily-cap-backs-it-with-a-guarantor-account-and-a-card-and-the-automatic-location-block-is-mvp-1-5.md]].
+
+## Update, Oct 14 2026 (5:33 PM) — the lockout lease in sales practice: 90 days, 30 for risky accounts, rarely used
+
+On the [[wiki/meetings/2026-10-14-sales-q4-trade-in-plan-and-transactional-momentum.md|Oct-14 5:33 PM sales call]] Val asked about machines that "**have leases on them**". Felipe: "**If they're not fully paid, they all have these.**" — "**We do ninety days unless it's a risky account, which I do one month at thirty days.**" He has used it "**Maybe twice with [one customer] and once with another customer. That was it.**" Val: "**I prefer to do everything in my power not to use it.**" When a machine is locked, Felipe talks the owner into paying on a promised date and then unlocks it [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]. *(This is the existing machine lease, run by people — consistent with "never automatic" above. Customer name not recorded.)*
+
 ## Open commitments
 
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — add requirements for the Flex-Port screens so they show adequate states when a location is blocked — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
@@ -89,9 +101,13 @@ At the [[wiki/meetings/2026-10-08-daily-standup-lease-expiry-scenarios-and-flex-
 **§15.8:** clear — product behaviour and operating policy only.
 
 ## Sources
+
+- [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]

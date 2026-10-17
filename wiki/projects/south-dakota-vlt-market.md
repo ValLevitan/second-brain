@@ -3,7 +3,7 @@ type: project
 title: South Dakota VLT market entry
 date: 2025-01-22
 aliases: [South Dakota, SD VLT, South Dakota VLT 3, VLT3, South Dakota D2703, IP1180, IP887, IP1131, IP1137, GD918, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950, V43, D27, SD cap, Bioliches, Gypsy Spirit, Crazy Colt, Queen of Luxor, Liberty Spin, Rodeo Spin, South Dakota vertical, MG Oil report, VLT2, Cool Cat, Black Hills Kino, Dragon Pace, Dakota Bison, Solar Keno, Keno Deluxe, IP459, IP1063, SD VLT performance story, Wild Colt, Lion Riches, Liberty Spins, Dutch Mill]
-source-count: 56
+source-count: 57
 open-commitments: 5
 open-questions: 2
 ---
@@ -370,6 +370,13 @@ At the [[wiki/meetings/2026-10-08-game-design-class-a-party-time-and-dual-box.md
 
 At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-library.md|Oct-14 Minsk stand-up]] (Russian) [[wiki/people/pavel.md|Pavel]] described the RK3576 ARM board as cheap, compact and low-power, for the machines "то, что вал называет стрит" — "saus do cota" (South Dakota) and Texas, outside casinos. The next try: take the South Dakota games now on Rage, convert them with AI into NOVA vertical games, and fit a library of about 5 on the board [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]. Detail on [[wiki/topics/nova-platform-architecture.md]] (Oct 14) and [[wiki/decisions/2026-09-14-the-street-cabinet-board-is-the-rk3576-not-the-rk3568.md]]. *(How this sits beside the South Dakota VLT-2 product and its cabinet is not said on the call.)*
 
+## Oct 14 2026 (5:33 PM) — a hoped-for market for dual cabinets, and "it's right now at the lab"
+
+On the [[wiki/meetings/2026-10-14-sales-q4-trade-in-plan-and-transactional-momentum.md|Oct-14 5:33 PM call]] between Val and Felipe [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]:
+
+- **Dual cabinets.** Val: "**We're gonna have market in South Dakota. I'm hoping that starting February, March, we're gonna get orders from South [Dakota].**" Old JVL machines taken in trade can also be packaged "**and send them to South Dakota or to Nebraska**" — [[wiki/decisions/2026-10-14-november-and-december-sales-go-to-trade-ins-a-6500-credit-for-jvl-machines-and-banilla-and-igt-machines-for-texas.md]].
+- **What Felipe tells customers.** Asked when the new South Dakota software will be ready, he said: "**it's ready. It was already tested by the lottery. It's right now at the lab.**" Which customer asked is unclear. *(This is Felipe's customer message; it does not settle which lab, an open question below.)*
+
 ## Open questions
 
 - Is the Oct-2 South Dakota hand-over ("сдавать надо") the RAGE VLT-2 submission or the NOVA release, and does Efim's 40-cent minimum apply to one or both? — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
@@ -395,6 +402,8 @@ At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-l
 - Driven by [[wiki/people/val-levitan.md|Val]] with [[wiki/people/juan-martinez.md|Juan]] (regulator/operator relationship, field side) and [[wiki/people/pavel.md|Pavel]] (Minsk software); [[wiki/people/irina-shishko.md|Irina]] on printer testing and GLI diffs, [[wiki/people/sebastian.md|Sebastian]] on field service, [[wiki/people/ivan.md|Ivan]] on GLI scheduling. **Lonnie** is the SD lottery-lab tester; **"Alani"** appears as the SD lottery (supplied the SAS adapter, requested the permit-number rename) — whether Alani is the lottery entity or a person there is unclear (see Owner Decisions). [[raw/sd_vlt_recap-jan-22-2025.md]] [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 
 ## Sources
+
+- [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
 
 - [[raw/Meeting_Notes_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]

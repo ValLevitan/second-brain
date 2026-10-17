@@ -3,7 +3,7 @@ type: organization
 title: ARC Gaming
 date: 2026-08-31
 aliases: [ARC, Arc, Ark, ARC Gaming, намберту, number two company in Georgia, two machines a week, five machines a week, Art, ARC Gaming DC, ARC Gaming & Technologies, Lucky Bucks, Lucky Bugs, Lucky Box, Arc Luck]
-source-count: 22
+source-count: 23
 open-commitments: 8
 open-questions: 6
 disambiguation: "The Georgia COAM master/route operator whose COO is Georgios 'Zaza' Zazanis and whose CEO is David Sloan. **Lucky Bucks is its FORMER NAME** — one company, renamed (Val's ruling, 2026-09-10). The corpus's earlier bare 'Arc' mentions in a *kiosk-vendor* sense are a separate, still-unresolved thread — see the §4 name note below. Resolve by context."
@@ -272,6 +272,10 @@ A long lunch between [[wiki/people/val-levitan.md|Val]] and [[wiki/people/georgi
 - **United.** George: "**Everybody says that Banilla is out starting January.**" The fund behind ARC is also behind United; ARC board member [[wiki/people/byron-booth.md|Byron Booth]] sits on that board — see [[wiki/organizations/united-gaming.md]] (Oct 13) [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]].
 - **Former name, in numbers.** Val: "**Lucky Bucks used to give me forty machines a month**"; George: "**They had six hundred plus location**". Val first said "for two years", then "Maybe a year" — see History below [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]].
 
+## Oct 14 2026 (in absentia) — Val's figures for the IGT trade-in
+
+On the [[wiki/meetings/2026-10-14-sales-q4-trade-in-plan-and-transactional-momentum.md|Oct-14 5:33 PM call]] Val told Felipe ARC "**is thinking of trading in approximately two hundred IGTs**" at about $1,500, against IGT's $6,500 upgrade kit — see [[wiki/decisions/2026-10-13-arc-trades-in-old-machines-for-texas-as-credit-on-2027-purchases.md]] (Oct-14 note). Felipe also mentioned a connected machine "**from Art**" with almost $5,000 played; reading "Art" as ARC is **inference** (see [[wiki/projects/georgia-market-rollout.md]], Oct 14, 5:33 PM) [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]].
+
 ## History
 
 - **Under its former name, Lucky Bucks** (date not given): Val says it took about **40 machines a month** from him, for "two years. Maybe a year", when it had "six hundred plus" locations [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]].
@@ -282,6 +286,7 @@ A long lunch between [[wiki/people/val-levitan.md|Val]] and [[wiki/people/georgi
 
 ## Sources
 
+- [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
 - [[raw/Meeting_Notes_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]

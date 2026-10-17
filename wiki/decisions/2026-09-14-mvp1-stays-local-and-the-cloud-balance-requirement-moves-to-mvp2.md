@@ -3,7 +3,7 @@ type: decision
 title: MVP 1 keeps wallet balances on the terminal — requirement 1538 comes off capability 158 and moves to a new MVP 2 cloud capability, and the MVP 1 dashboard shows activated cards only
 date: 2026-09-14
 aliases: [requirement 1538, MVP1 cloud scope is two things, device online status, issued cards dashboard, operations dashboard specification, machine statistics premium tier, capability 158, cloud balance moves to MVP2, local terminal storage, dashboard shows activated cards only, eWallet movement reporting deferred, Claude closing a capability wrong, рекламент 1538, requirement 1436, data retention, factory reset wipes everything, capability 177]
-source-count: 9
+source-count: 10
 status: active
 open-commitments: 3
 open-questions: 2
@@ -87,6 +87,10 @@ At the [[wiki/meetings/2026-09-17-transactional-mvp1-skillpay-multi-product-and-
 - **Capability 158 still carried cloud wording.** On the [[wiki/meetings/2026-09-21-transactional-mvp1-flexport-and-iq-ux-design.md|Sept-21 call]] Klimovich found requirements 1514, 1515, 1516 and 1543 under 158 still referring to the payment hub for wallets, and rewrote them so wallets stay local. Details on [[wiki/decisions/2026-09-16-anything-that-depends-on-the-cloud-leaves-mvp1.md]] [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]].
 - **A report built on per-machine data goes to MVP 2.** Klimovich had looked at competitors' reports: "они все базируются на. Достаточно подробных данных. У перформансу каждой отдельной машины", plus the machine maker and model. So "это мы можем из MP один убрать в MP 2", where the SAS data work is done properly. Pavel: "Согласен… то есть отдельный проект" [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]. *(Which report this is, is not named on the recording; the derived notes call it the "machine performance report". It is the same machine-statistics-over-SAS area as the open question below.)* [[raw/Meeting_Notes_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
 
+## Update, Oct 14 2026 — the first cloud step is a backup of each unit
+
+At the [[wiki/meetings/2026-10-14-transactional-mvp1-launch-plan-brackets-daily-caps-and-mvp2-scope.md|Oct-14 3:49 PM launch-plan meeting]] (Russian), [[wiki/people/andrei-klimovich.md|Klimovich]] warned that every transaction lives only inside the Flex IQ, so a burnt unit zeroes the location's history. [[wiki/people/val-levitan.md|Val]] proposed, and Klimovich accepted, a backup of each unit to the cloud, "Два дня бэкап на каждый юнит", as the first cloud step — [[wiki/decisions/2026-10-14-the-first-cloud-step-is-a-backup-of-each-flex-iq.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]. Nothing here moves the cloud into MVP 1 in words.
+
 ## Open commitments
 
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — move requirement 1538 onto the MVP 2 cloud capability, off capability 158 — restated Sept 15 2026 as due **that day**. **Partially discharged Sept 16 2026**: the MVP 2 cloud capability was created on Sept 15; the move of 1538 is still unconfirmed — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
@@ -110,3 +114,4 @@ At the [[wiki/meetings/2026-09-17-transactional-mvp1-skillpay-multi-product-and-
 - [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [[raw/Meeting_Notes_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]

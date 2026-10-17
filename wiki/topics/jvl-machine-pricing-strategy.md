@@ -3,7 +3,7 @@ type: topic
 title: JVL machine pricing and commercial strategy
 date: 2025-09-23
 aliases: [machine pricing, fifteen seven fifty, $15750, free hardware instead of discount, retail price, price list, Dennis one number, CFO-to-CFO credit, market pricing, list price, dollars not discounts, JVL Dollars pricing lever, show special pricing, Georgia machine price, D43 price, D27 trade-in, South Dakota premium, twelve eight twenty, two nine thirty, $795 port, $895 IQ, $7950 Flex-Slim, kill the market, fifty-seven fifty, topper eight hundred to one thousand, ten dollars per machine, value almost as much as this machine is, ninety to one fifty, one hundred months, $150 minimum, lease pricing, fourteen dollars per machine per month]
-source-count: 37
+source-count: 39
 ---
 
 # JVL machine pricing and commercial strategy
@@ -283,8 +283,25 @@ On the [[wiki/meetings/2026-10-07-larry-sharon-hardware-rental-pricing-and-novem
 
 Against Sept 29: the $150 floor stays as the five-year example; the three-year price is now a number ($199); and the equipment's outright price is spoken as $14,000–15,000 ($14,000 in the financing example) [[raw/Meeting_Transcript_Larry_Hardware_Rental_Pricing_and_November_Pilot-October-7-2026.md]] [[raw/Meeting_Notes_Larry_Hardware_Rental_Pricing_and_November_Pilot-October-7-2026.md]].
 
+## Oct 14 2026 (2:26 PM) — the show special to ATL COAM: a machine price that is heard wrong, the topper, $250 a game, and January 1
+
+At the [[wiki/meetings/2026-10-14-atl-coam-transactional-demo-show-special-and-daily-caps.md|ATL COAM meeting]] [[wiki/people/felipe-miranda.md|Felipe]] and [[wiki/people/val-levitan.md|Val]] priced the machine for a Georgia master [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]:
+
+- **The machine.** Felipe: "This family gets with the fifteen games, the ten UC, plus the five in the" [bank]; "We're selling it without the top… Without the top, three thousand seven hundred and fifty dollars". The notes write it as **$3,750** [[raw/Meeting_Notes_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]. **Unclear:** the same meeting has Val's "All of it for under sixteen thousand dollars", and the September quotes recorded above are $15,750. The most likely reading is a clipped "fifteen thousand seven hundred and fifty" — **inference**, the same pattern as the Sept-15 "Fifty-seven fifty" above. The words are left as heard.
+- **The topper.** Val: "add another eight hundred dollars for the… Top." Felipe: "I strongly recommend you add the top." [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
+- **Extra games.** Val: "I think we charge only two hundred fifty dollars per game here, which is peanuts… We should be charging thousands". [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
+- **The free set's value, as spoken.** Val: "we're giving away additional fifteen thousand dollars worth of equipment"; Felipe, earlier: "Additional fifty thousand dollars worth of equipment" — probably "fifteen" (**inference**). [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
+- **A price change on January 1.** Felipe asked for a commitment on test locations "as of January first… Will be there, but it will not be under the current price. There will be a difference." [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
+- **The monthly fee:** $90 per location, "Not per device", against competitors' "one dollar to dollar fifty per day per device" — see [[wiki/decisions/2026-09-02-free-ports-and-pos-with-every-machine-bought.md]] (Oct 14, 2:26 PM). [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
+
+*(Under the owner's 2026-10-05 ruling the free-and-$90 offer stands; these are sales quotes at one meeting.)*
+
+**§15.8:** clear — machine and equipment pricing only.
+
 ## Sources
 
+- [[raw/Meeting_Notes_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
+- [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Larry_Sharon_Lease_Pricing_and_Profit_Repatriation-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Machine_Life_and_Operating_Cost_Baseline-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Inamax_Ray_Cosentino_Georgia_Market_and_Trial_Agreement-February-11-2026.md]]

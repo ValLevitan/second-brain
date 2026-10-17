@@ -3,7 +3,7 @@ type: decision
 title: For MVP 2, Biratka reviews the existing capabilities, drops the outdated or wrong ones and ports Flex IQ's to FlexPay by analogy — but writes no new ones until Klimovich, back on October 13, has thought through the user and administrator flows
 date: 2026-10-01
 aliases: [MVP 2 capabilities method, Biratka ports Flex IQ capabilities to FlexPay, по аналогии с флекса IQ, no new capabilities without business confirmation, user and admin flows, со стороны юзера и администратора, Klimovich back October 13, до 13 октября, оптимальный подход, Biratka MVP 2 cleanup]
-source-count: 3
+source-count: 5
 status: active
 open-commitments: 2
 open-questions: 1
@@ -36,6 +36,17 @@ Agreed between [[wiki/people/alexander-biratka.md|Alexander Biratka]] and [[wiki
 
 At the [[wiki/meetings/2026-10-05-transactional-mvp1-port-screens-unclaimed-money-and-printer-models.md|Oct-5 8:01 AM MVP 1 call]] (Russian), [[wiki/people/val-levitan.md|Val]]: "Когда Андрей выйдет из отпуска, тогда он начнет писаться мвпи 2. Все остальные вопросы придерживаем" — consistent with this decision. [[wiki/people/andrei-klimovich.md|Klimovich]]: "Я 12 прилетаю только я мог бы 13" [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]].
 
+## Update, Oct 14 2026 — Klimovich, back, starts the MVP 2 talk with Val; Val's priority list
+
+At the [[wiki/meetings/2026-10-14-transactional-mvp1-launch-plan-brackets-daily-caps-and-mvp2-scope.md|Oct-14 3:49 PM launch-plan meeting]] (Russian), [[wiki/people/andrei-klimovich.md|Klimovich]] opened MVP 2 "высокоуровнево" [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]:
+
+- **His frame.** MVP 2 means slim dispensers working together with the Flex IQ, at a location that has a Flex IQ and a display. The slim's interface logic is "большая работа, которая от меня сейчас зависит", and must go to the developers.
+- **[[wiki/people/val-levitan.md|Val]]'s list.** "я бы на MPP2 обязательно бы сделал бы Wi-Fi"; finish connection and diagnostics, with a screen where the location sees what does not connect; a basic inspector report (Klimovich: there is none now); cash-out split into up to nine categories the location defines — "Ларовые тикет, бензин, гросериз" — "Почему девять? Потому что это самое большое однозначное число"; remote update and reconnection "отполировано" for Flexport and Flex IQ, first in line if one more improvement fits; optional features made configurable (the TIN code is the example); low-funds notices to operators by SMS; and signing of all contracts through DocuSign, Dropbox or similar — Klimovich named PandaDoc — from templates, with tracking of each contract's stage and reminders.
+- **Not now.** "Я бы пока другую интеграцию не трогал" — no new card integrations.
+- **Pace.** Val: MVP 1, 1.5 and 2 together, the first fifty locations will take "Месяца три".
+
+The derived notes list the same items under "MVP2 scope (discussed)" [[raw/Meeting_Notes_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]. *(This is a priority list from Val, not yet written capabilities; it gives Klimovich's Oct-1 flows work its starting content — **inference**.)* A per-unit cloud backup was agreed in the same talk — [[wiki/decisions/2026-10-14-the-first-cloud-step-is-a-backup-of-each-flex-iq.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — go through the MVP 2 capabilities: drop the outdated or wrong ones, port the Flex IQ capabilities that apply to FlexPay by analogy, write no new ones — due while Klimovich is away (until Oct 13 2026) — [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
@@ -51,3 +62,5 @@ At the [[wiki/meetings/2026-10-05-transactional-mvp1-port-screens-unclaimed-mone
 - [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]

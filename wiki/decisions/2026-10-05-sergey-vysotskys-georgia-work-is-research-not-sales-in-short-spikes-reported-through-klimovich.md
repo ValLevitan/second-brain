@@ -3,7 +3,7 @@ type: decision
 title: Sergey Vysotsky's Georgia work is data research, not sales — no calls or outreach for him; it runs as short R&D "spikes" agreed with Klimovich, who reviews the results and brings Val only what is useful
 date: 2026-10-05
 aliases: [Sergey no sales work, Вам ничего такого делать не надо, spikes, research spikes, R&D spikes, short iterations, итерациями, report through Andrei, сначала вы пройдите через Andrei, Sergey Georgia research, Sergei Vysotski work plan]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 3
 open-questions: 0
@@ -30,6 +30,17 @@ Both sides said they have no clear plan yet. Val: "Я как-то вижу не�
 
 The derived notes record the same four decisions (no sales work; no outreach in JVL's name; short spikes reviewed with Andrei; reporting through Andrei) [[raw/Meeting_Notes_Sergei_Vysotski_Georgia_Location_Opt_In_List_and_Research_Spikes-October-5-2026.md]].
 
+## Update, Oct 14 2026 — the 7,000-location list, AI for contacts, and a bot idea; Val suggests buying show visitor lists
+
+At the [[wiki/meetings/2026-10-14-transactional-mvp1-launch-plan-brackets-daily-caps-and-mvp2-scope.md|Oct-14 3:49 PM launch-plan meeting]] (Russian), [[wiki/people/andrei-klimovich.md|Klimovich]] reported [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]:
+
+- He gave Sergey "всю коллекцию из семи тысяч локаций", and Sergey ran AI over it to gather contact data.
+- Sergey said most contacts are just the gas station's phone. He is to come back with how he sees **a bot that could start contacting the locations, presenting itself as some marketing agency** ("представляясь каким-то маркетинговым агентством"). Klimovich: what JVL needs from him now is the next level of contact.
+- [[wiki/people/val-levitan.md|Val]] suggested also checking the c-store show registrations: their visitor databases are sold, "так как они продают database на G2E".
+- Val said he would hire him: "Я бы его взял на работу." No step toward that was set.
+
+*(Inference:)* a bot that contacts locations sits near the Oct-5 rulings above (no outreach work for Sergey; no outreach in JVL's name — [[wiki/decisions/2026-10-05-jvl-does-not-reach-out-to-georgia-locations-and-aims-for-inbound-calls-to-its-ai-voice.md]]). It is only a proposal still to come; Val did not rule on it. Not recorded as a contradiction.
+
 ## Open commitments
 
 - [ ] [[wiki/people/sergey-vysotsky.md|Sergey Vysotsky]] — message Klimovich after the call and agree the next steps — due Oct 5 2026 — [[raw/Meeting_Transcript_Sergei_Vysotski_Georgia_Location_Opt_In_List_and_Research_Spikes-October-5-2026.md]]
@@ -41,3 +52,4 @@ The derived notes record the same four decisions (no sales work; no outreach in 
 ## Sources
 - [[raw/Meeting_Transcript_Sergei_Vysotski_Georgia_Location_Opt_In_List_and_Research_Spikes-October-5-2026.md]]
 - [[raw/Meeting_Notes_Sergei_Vysotski_Georgia_Location_Opt_In_List_and_Research_Spikes-October-5-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]

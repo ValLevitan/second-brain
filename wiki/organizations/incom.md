@@ -3,7 +3,7 @@ type: organization
 title: Incom (payment processor)
 date: 2025-02-27
 aliases: [Incom, InComm, SkillPay launch email, hold off for two years, we will take the card away from you, Intum, they totally misled me, InComm's credit, that shift in opinion has only happened recently, black prize play card, white card ATM functionality, replace InComm on the back end, backend displacement, Incomm, Income, NCOM, Incom Payments, wrapped card rule, PAX, PAX 80, reloadable gift cards, Nathan Carver, cash-back commission, barcode activation, Mastercard rules, ABA number, MLH fee sharing, kicked to the curb, InComm doesn't offer any profit sharing, they've ignored us before during and after the show, sponsor bank behind InComm, 120 million a year, the easy living guys, daily cap five k, velocity calculated on the fly, it still says soon, InComm is the master guy, sub accounts, they actually buy bonds, biggest issuer, blue card, black card, billion-dollar gorilla, two dollars to load]
-source-count: 90
+source-count: 93
 open-commitments: 17
 open-questions: 14
 ---
@@ -106,6 +106,7 @@ The market/solution meeting Val committed to on the Apr 2 SMIB call — owner Va
 On the [[wiki/meetings/2025-05-20-bdc-flexport-ga-coam-financing.md|BDC financing call]] Val characterised Incom (transcribed "**Income**") as a **monopoly sanctioned by the Georgia Lottery Corporation (GLC)** — "a six-billion-dollar U.S. company" doing the **last-mile conversion of fiat money to digital money and depositing it on a MasterCard**. JVL's equipment sits between the player and Incom, connected to three points (JVL's platform, the GLC/JLC platform, and Incom's platform), earning revenue from hardware sales and from **processing the fiat→digital conversion**. Consistent with the payment-processor role documented above. [[raw/bdc_intro_to_flex-port_ga-coam-may-20-2025.md]]
 
 ## Open contradictions
+- **Who sets a location's daily cap — InComm or JVL?** On Sept 14 [[wiki/people/andrei-klimovich.md|Klimovich]] told the engineers that velocity and a daily cap are held per location by InComm and that JVL does not manage them or even know the values ("Мы этим не управляем") [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]. On Oct 14 [[wiki/people/val-levitan.md|Val]] told a master the opposite: "InComm does not impose limitations on us. We act as a broker… So we impose limitations" [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]. Both describe JVL's set-up as broker; neither source mentions the other. Not resolved. Later on Oct 14 (3:49 PM) Val said it again to Klimovich: "Daily Cap устанавливаем мы… InComm doesn't care" [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]. (Inference: there may be two layers — InComm's cap on JVL and JVL's cap on each location, as ARC described on Aug 31 — but no JVL source says so.)
 - ~~InComm COAM gift-card meeting date: Apr 3 vs Apr 7.~~ **RESOLVED BY OWNER (2026-07-15): it was a two-day meeting** — Apr 3 (first session, Teams recording) and Apr 7 (second session, derived notes) are BOTH genuine session dates of one meeting. Recorded on one stub [[wiki/meetings/2025-04-03-incomm-coam-gift-card-solutions.md]] (Apr-3 primary, Apr-7 second session; facts attributed per session where distinguishable). This **supersedes** the earlier §11 auto-resolution to Apr-3-only — a derived-notes date can also be a real second-session date.
 
 ## May 30 2025 — the live test cycle at Felipe's office ([[wiki/meetings/2025-05-30-qa-flexport-flexpay-plan.md]])
@@ -784,8 +785,27 @@ At the [[wiki/meetings/2026-10-13-intralot-christos-tzoumaras-dinner-route-partn
 - **Christos's view.** InComm has "**95 percent, I think, of… any type of gift card… that we see for gaming**" in Georgia, and "**Income will lobby, you know, to change**" (InComm by context). He expects the new rules not to allow ATM cards — see [[wiki/organizations/georgia-lottery-corporation.md]] (Oct 13, dinner).
 - **Gift cards and the black market.** Val: "**The existing the gift card, the gift cards. Goes directly… into the black market.**" Christos: "**they sell it back to the store for less.**"
 
+## Oct 14 2026 (2:26 PM) — a master's daily-cap complaint, and Val: "InComm does not impose limitations on us"
+
+At the [[wiki/meetings/2026-10-14-atl-coam-transactional-demo-show-special-and-daily-caps.md|ATL COAM meeting]] Arpit of [[wiki/organizations/atl-coam.md|ATL COAM]] named the processors' limits as his biggest worry ("a lot of stores are out by two p."). The operator side and Val's balance-and-credit-card answer are on [[wiki/topics/georgia-prize-card-processor-economics.md]] (Oct 14). What belongs here [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]:
+
+- **Val: JVL, as broker, sets the limit.** "When you're saying InComm imposes limitations on you, InComm does not impose limitations on us. We act as a broker. We are in between you and InComm. So we impose limitations. InComm is not gonna have your second account or credit card. They only reference one account. We can reference multiple accounts… It's our judgment how much we wanna put." [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
+- **Sign-up, as a JVL speaker described it** (the label is mixed; Andrei by content — **inference**). A web form with "their address of the location, license number, master license number… including their bank account. We do the pre-authorization… we send the authorization notification to InComm. They need to approve this location. Once done within forty-eight hours, we are ready to go." [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
+- **Other card providers at the counter.** "If you run out of InComm, you can pick up a Fiery Pay"; a kiosk "is limited by the card dispenser. One card dispenser can be loaded only with one type." Val: "But we're starting with only one provider." [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
+- **InComm's sign-off on JVL as broker** is still the open Oct-9 item above; this meeting does not mention it.
+
+## Oct 14 2026 (3:49 PM, in absentia) — "мы являемся гарантом для InComm", and a five-day payment window sought
+
+At the [[wiki/meetings/2026-10-14-transactional-mvp1-launch-plan-brackets-daily-caps-and-mvp2-scope.md|Oct-14 3:49 PM launch-plan meeting]] (Russian) [[wiki/people/val-levitan.md|Val]] told [[wiki/people/andrei-klimovich.md|Klimovich]] [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]:
+
+- **Who sets the cap.** "Daily Cap устанавливаем мы, потому что мы responsible for InComm, мы являемся гарантом для InComm в деньгах. InComm doesn't care." And: "Неважно, кто устанавливает дейли лимит. К примеру, мы согласуемся с Инком на один и тот же дейли лимит." This is a second Val statement on JVL's side of the open contradiction below.
+- **The payment window.** Val has begun talks with InComm on when JVL must pay: "Сейчас, по-моему, мы согласились на три дня, а в контракте у нас стоит, по-моему, один день. Но нам нужно это сделать на пять дней." (Both current figures are his recollection.) Compare the $300,000 wire trigger on [[wiki/decisions/2026-10-13-new-incomm-terms-go-onto-the-existing-written-agreement.md]].
+- How JVL will back each location's cap: [[wiki/decisions/2026-10-14-jvl-sets-the-location-daily-cap-backs-it-with-a-guarantor-account-and-a-card-and-the-automatic-location-block-is-mvp-1-5.md]].
+
 ## Sources
 
+- [[raw/Meeting_Notes_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
+- [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]
 - [[raw/Meeting_Notes_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]]
@@ -876,3 +896,4 @@ At the [[wiki/meetings/2026-10-13-intralot-christos-tzoumaras-dinner-route-partn
 - [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
 - [[raw/Meeting_Notes_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]
 - [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]

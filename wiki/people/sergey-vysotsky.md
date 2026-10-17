@@ -3,7 +3,7 @@ type: person
 title: Sergey Vysotsky
 date: 2026-09-22
 aliases: [Sergey Vysotsky, Сергей Высоцкий, Sergey (digital growth), Vysotski, Sergei Vysotski, Sergei, Сергей]
-source-count: 4
+source-count: 5
 open-commitments: 0
 open-questions: 0
 disambiguation: "Outside digital-growth specialist working with Andrei Klimovich (ECHO growth; proposed for the Georgia location-owner task). Not Sergey Tsymanov (Minsk CMS/backend engineer, wiki/people/sergey-tsymanov.md), not Sergey Kleimenychev (wiki/people/sergey-kleimenychev.md), not Sergei Novitsky (technician, wiki/people/sergei-novitsky.md). Resolve by context: digital marketing / growth strategy → this page."
@@ -55,8 +55,14 @@ On his [[wiki/meetings/2026-10-05-sergey-vysotsky-georgia-location-opt-in-list-a
 
 **§15.8 exclusion:** Val asked about his age, how Klimovich knows him and whether he is reliable. The answers — his age, a family connection, the state of his private business, and Klimovich's personal assessment of him — are **not recorded**. Val's own reaction is also a personal judgement and is not recorded. No pay or rate was spoken.
 
+
+## Oct 14 2026 (in absentia) — AI over the 7,000-location list, and a bot idea
+
+At the [[wiki/meetings/2026-10-14-transactional-mvp1-launch-plan-brackets-daily-caps-and-mvp2-scope.md|Oct-14 3:49 PM launch-plan meeting]] (Russian) Klimovich reported that Sergey has the full list of about seven thousand Georgia locations, is running AI over it for contact data, and is to propose a bot that contacts locations presenting itself as a marketing agency. Val suggested buying c-store show visitor databases, and said he would hire him — [[wiki/decisions/2026-10-05-sergey-vysotskys-georgia-work-is-research-not-sales-in-short-spikes-reported-through-klimovich.md]] (Oct-14 update) [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]]
 - [[raw/Meeting_Transcript_Sergei_Vysotski_Georgia_Location_Opt_In_List_and_Research_Spikes-October-5-2026.md]]
 - [[raw/Meeting_Notes_Sergei_Vysotski_Georgia_Location_Opt_In_List_and_Research_Spikes-October-5-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]

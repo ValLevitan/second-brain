@@ -3,7 +3,7 @@ type: person
 title: Felipe Miranda
 date: 2026-07-13
 aliases: [Felipe Miranda, Felipe, Filippo, Filipa, Philippe, Felipe Miranda Giorgi, Филипп, Филипп Н, Filipp N]
-source-count: 89
+source-count: 95
 open-commitments: 24
 open-questions: 0
 ---
@@ -423,7 +423,31 @@ At the [[wiki/meetings/2026-10-13-intralot-machine-lockouts-test-lab-and-route-p
 
 At the [[wiki/meetings/2026-10-14-aks-amusements-transactional-demo-two-location-test-and-financing.md|Oct-14 AKS meeting]] (Speaker 3, per the notes) he told AKS its two machines get build 4333 with Lion's Riches and Twin Bison; put the offer — one FlexPay or Slim, a Flex-IQ and six ports per location at no cost, $90 a month per location — see [[wiki/decisions/2026-09-02-free-ports-and-pos-with-every-machine-bought.md]] (Oct 14); reminded AKS of the price increase from January 1 ("tariffs") and said "the most we give is twelve months" of financing, with a credit check; and asked for the cabinet models at the test sites "ASAP" for the brackets — [[wiki/decisions/2026-10-14-aks-tests-the-full-jvl-transactional-system-at-two-new-locations-before-year-end-and-jvl-installs-the-first.md]]. His open item (the 4333 upgrade) is on [[wiki/organizations/aks-amusement.md]] [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]].
 
+## Oct 14 2026 (2:26 PM) — ATL COAM: the show special, a January 1 deadline, "the first time I actually see it work"
+
+At the [[wiki/meetings/2026-10-14-atl-coam-transactional-demo-show-special-and-daily-caps.md|Oct-14 ATL COAM meeting]] (mostly Speaker 1, per the notes [[raw/Meeting_Notes_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]) he organised the visit, introduced Val as JVL's president, and asked Arpit for his biggest pain. He put the show special — the machine with free FlexPay, Flex-IQ and six Flexports — and asked for a commitment on test locations before prices change after January 1; he offered to place a game before November 1 under a signed agreement — see [[wiki/decisions/2026-09-02-free-ports-and-pos-with-every-machine-bought.md]] (Oct 14, 2:26 PM) and [[wiki/organizations/atl-coam.md]]. Afterwards: "This is the first time I actually see it work on SaaS [SAS] and the whole flow. I feel so positive" [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]].
+
+## Oct 14 2026 (5:33 PM) — the trade-in "marching orders", and he is now sure of the transactional system
+
+On the [[wiki/meetings/2026-10-14-sales-q4-trade-in-plan-and-transactional-momentum.md|Oct-14 5:33 PM call]] with Val (Speaker 1, per the notes [[raw/Meeting_Notes_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]) [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]:
+
+- **His orders for November and December: trade-ins** — [[wiki/decisions/2026-10-14-november-and-december-sales-go-to-trade-ins-a-6500-credit-for-jvl-machines-and-banilla-and-igt-machines-for-texas.md]] (his priority list is held there). He raised the risk of a January price rise straight after.
+- **The forecast, two prospects, a $25-max-bet location and the lottery report** — [[wiki/projects/georgia-market-rollout.md]] (Oct 14, 5:33 PM; his open items are held there).
+- **The lockout lease** he sets on machines not fully paid — [[wiki/decisions/2026-09-11-lease-blocking-reaches-the-flex-ports-and-is-never-automatic.md]] (Oct-14 note).
+- **Commission terms** he put to a distributor contact were discussed — not recorded (§15.8). See [[wiki/decisions/2026-10-06-a-mini-distributor-tier-gets-about-8-percent-against-20-percent-for-a-full-distributor.md]] (Oct-14 note).
+- **His view of the system now.** He had worried about "**not having the ability to move from machine to machine**", but "**with all the modifications that I see now, and how fast it is**" he is sure. He compared a Fiery Pay demo: "**It's so slow. It takes forever for the signal to drop in**". Val: "**So you see now that what we have is a great system.**" — "**I do.**" [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
+
+## Oct 14 2026 (6:02 PM) — Sebastian, the calls, and a staffing question
+
+On the [[wiki/meetings/2026-10-14-returns-triage-sebastian-and-support-calls.md|two-minute 6:02 PM follow-on]] he reported on [[wiki/people/sebastian.md|Sebastian]]'s returns work and said Adam takes almost all calls, passing the hard ones to Sebastian (detail on Sebastian's page). He asked Val: "**Are you not moving forward, bringing Andrea after all?**" Val said he does not want to; his reasons are not recorded. Who Andrea is, and for what role, is not stated [[raw/Meeting_Transcript_Returns_Triage_Sebastian_and_Support_Calls-October-14-2026.md]] [[raw/Meeting_Notes_Returns_Triage_Sebastian_and_Support_Calls-October-14-2026.md]].
+
 ## Sources
+- [[raw/Meeting_Notes_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
+- [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
+- [[raw/Meeting_Notes_Returns_Triage_Sebastian_and_Support_Calls-October-14-2026.md]]
+- [[raw/Meeting_Transcript_Returns_Triage_Sebastian_and_Support_Calls-October-14-2026.md]]
+- [[raw/Meeting_Notes_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
+- [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
 - [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]

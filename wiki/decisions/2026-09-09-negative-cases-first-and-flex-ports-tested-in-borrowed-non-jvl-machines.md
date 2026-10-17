@@ -3,7 +3,7 @@ type: decision
 title: Testing starts September 15 with the negative cases first, and Flex-Ports must be proved in borrowed non-JVL machines — fake-commissioned, tracked as a separate Jira item from JVL-machine testing
 date: 2026-09-09
 aliases: [negative cases first, door open, borrow a machine fake commission it, Aristocrat and Light and Wonder, at least one or two machines, two separate records, two different router manufacturers, no Chinese manufacturer, stay away from Cisco, ten port router, storm through the test, bracket drawings to Genadi]
-source-count: 14
+source-count: 15
 status: active
 open-commitments: 5
 open-questions: 2
@@ -142,6 +142,13 @@ On the [[wiki/meetings/2026-10-09-transactional-mvp1-test-machines-and-unclaimed
 
 At the [[wiki/meetings/2026-10-09-daily-standup-weekend-service-rollout-and-stats-blocking.md|4:46 AM stand-up]] the same day, Ivan said he helped her from home "чтобы сас сработал наши [SAS] тестула" — link up and pings [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]].
 
+## Update, Oct 14 2026 (3:49 PM) — the other makers' machines are in; ports go on tomorrow; brackets get owners
+
+At the [[wiki/meetings/2026-10-14-transactional-mvp1-launch-plan-brackets-daily-caps-and-mvp2-scope.md|Oct-14 3:49 PM launch-plan meeting]] (Russian) [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]:
+
+- **The machines.** [[wiki/people/andrei-klimovich.md|Klimovich]]: "Мы сейчас получили эти машины, завтра мы туда подключим порты, соберем все вместе и посмотрим". [[wiki/people/val-levitan.md|Val]]: "На девяносто пять процентов я уверен" it passes.
+- **The brackets.** Val first said retrofit brackets are the masters' job and JVL should only release its drawings; then, for the first location, JVL makes them. He thinks IGT and Aristocrat brackets exist, Light & Wonder not. Order for ten locations; [[wiki/people/sebastian.md|Sebastian]] finds a local distributor, Genadi in copy. Detail and owners: [[wiki/decisions/2026-10-14-the-first-ten-transactional-locations-go-in-from-november-1-on-stock-monitors-ports-without-wi-fi-and-hand-made-harnesses.md]]. The unowned Sept-9 drawings task below now has a path; it is left open until the brackets exist.
+
 ## Sources
 - [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
 - [[raw/Meeting_Transcript_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
@@ -157,3 +164,4 @@ At the [[wiki/meetings/2026-10-09-daily-standup-weekend-service-rollout-and-stat
 - [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]

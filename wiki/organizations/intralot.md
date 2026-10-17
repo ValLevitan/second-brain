@@ -3,7 +3,7 @@ type: organization
 title: Intralot (Georgia's central-system operator; route ambitions)
 date: 2026-10-14
 aliases: [Intralot, Intralot Georgia, Bally Intralot, the new Bally Intralot, intra lot, intraday, the interlod, Interlock, Intralock, Interlot, Interloch, Interlord, IntraLa, intro, Intro lap, Incelot, InfraLott, Intellicom, intralight, Intralot lab, Intralot site controller, the site controller, set controller, side controller, Intralot reports, Georgia central monitoring system, state monitoring system]
-source-count: 11
+source-count: 13
 open-commitments: 3
 open-questions: 4
 ---
@@ -97,6 +97,10 @@ At the [[wiki/meetings/2026-10-13-intralot-christos-tzoumaras-dinner-route-partn
 - **History he gave.** Intralot's first US lottery was Nebraska — "**2003, let's say 2004, went live**".
 - **His next step with JVL.** "**Let's say we have a deal in place. It's not a bad idea to see some lotteries. I will gladly come with you.**" See [[wiki/people/christos-tzoumaras.md]] (open commitments).
 
+## Oct 14 2026 (in absentia, inference) — a tech training on November 2
+
+On the [[wiki/meetings/2026-10-14-sales-q4-trade-in-plan-and-transactional-momentum.md|Oct-14 5:33 PM call]] Felipe: "**Tech training event happening on November second at InComm where were yesterday, not InComm, Angelock where were yesterday.**" On Oct 13 Val and Felipe were at Intralot, so "Angelock" is read as Intralot — **inference**; the notes give only "heard 'Angelock', not InComm" [[raw/Meeting_Notes_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]. Felipe asked "Christina" whether a JVL technician could attend; the answer was to talk to "Zach", who gives tips on different manufacturers. The notes: [[wiki/people/sebastian.md|Sebastian]] should attend "so JVL is presented correctly" [[raw/Meeting_Notes_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]] [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]].
+
 ## History
 
 - **2014.** "**Back in twenty fourteen, Intralot won the bid to become the central monitoring system**" (Billy Liu's account) [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]].
@@ -122,6 +126,8 @@ At the [[wiki/meetings/2026-10-13-intralot-christos-tzoumaras-dinner-route-partn
 
 ## Sources
 
+- [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
+- [[raw/Meeting_Notes_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]
 - [[raw/Meeting_Notes_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]

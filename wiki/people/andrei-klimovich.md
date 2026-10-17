@@ -4,8 +4,8 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich, Andre]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 110
-open-commitments: 107
+source-count: 114
+open-commitments: 110
 open-questions: 0
 ---
 
@@ -843,8 +843,34 @@ At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-l
 
 At the [[wiki/meetings/2026-10-14-aks-amusements-transactional-demo-two-location-test-and-financing.md|Oct-14 AKS meeting]] (Speaker 6, per the notes; Felipe introduced him as "our product development") he gave AKS the transactional demo and said production features are finalized "this Friday", with enclosures "next week or the week after" — detail and his two commitments on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 14, 11:09 AM). Felipe said he would be at AKS's first installation with Sebastian — [[wiki/decisions/2026-10-14-aks-tests-the-full-jvl-transactional-system-at-two-new-locations-before-year-end-and-jvl-installs-the-first.md]] [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]. A personal remark is not recorded.
 
+## Oct 14 2026 (2:26 PM) — the demo to ATL COAM, and "I'm a little concerned"
+
+At the [[wiki/meetings/2026-10-14-atl-coam-transactional-demo-show-special-and-daily-caps.md|Oct-14 ATL COAM meeting]] he gave the transactional demo (Speaker 2 in the first half, per the notes [[raw/Meeting_Notes_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]) — detail on [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 14, 2:26 PM). He offered to join JVL's technicians at ATL COAM's first install — [[wiki/organizations/atl-coam.md]]. After the visitor left he said: "I'm a little concerned about the amount of work we still have to do before actually going into production… We need to give some time frames", and asked to sit down that day on what is missing; Val: "I think your concerns are valid" [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]].
+
+
+## Oct 14 2026 (3:49 PM) — the launch-plan walk-through with Val: release test, first ten locations, caps, MVP 2, the ad
+
+At the [[wiki/meetings/2026-10-14-transactional-mvp1-launch-plan-brackets-daily-caps-and-mvp2-scope.md|Oct-14 3:49 PM launch-plan meeting]] (Russian; Speaker 1, confirmed by Val per the notes [[raw/Meeting_Notes_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]) he walked Val through what is missing before the first locations [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]:
+
+- **Testing.** He wanted the product team to run the main cases on Flex IQ (about a day and a half); Val ruled it a waste of time now — [[wiki/decisions/2026-10-14-transactional-mvp1-counts-as-released-only-when-the-end-to-end-acceptance-tests-pass.md]].
+- **First ten locations.** He took the list item by item: covers, printers, Wi-Fi ports, other makers' machines ("Мы сейчас получили эти машины"), brackets, harnesses, ports, switch, modems — [[wiki/decisions/2026-10-14-the-first-ten-transactional-locations-go-in-from-november-1-on-stock-monitors-ports-without-wi-fi-and-hand-made-harnesses.md]].
+- **Caps and contracts.** He laid out the chain primary → secondary → master → auto-block and reminded Val that auto-block was left out of MVP 1; he set out the master-then-locations sign-up model and will review Val's contract architecture — [[wiki/decisions/2026-10-14-jvl-sets-the-location-daily-cap-backs-it-with-a-guarantor-account-and-a-card-and-the-automatic-location-block-is-mvp-1-5.md]].
+- **MVP 2 and the cloud.** He opened MVP 2 (slim dispensers with Flex IQ) — [[wiki/decisions/2026-10-01-mvp2-capabilities-biratka-ports-flex-iqs-to-flexpay-and-writes-no-new-ones-until-klimovich-defines-the-flows.md]] (Oct-14 update) — and raised the risk that all transactions live only in the Flex IQ; he accepted Val's per-unit backup — [[wiki/decisions/2026-10-14-the-first-cloud-step-is-a-backup-of-each-flex-iq.md]].
+- **The magazine ad.** JVL pays for a page each month. Val wants it redone around the transactional equipment and the machine, made by subcontractors, in the November issue; "этот Андрей Тейкин" is his. Klimovich: "ни один из этих сафетраторов не сделает эту рекламу без брифа" — he will write the brief and check the deadline with a contact heard as "Феррик". Val: the magazine's main readers are locations, per its owner. One ad or two is open.
+- **The show.** Val goes "с Убачем" (as heard) on Monday the 22nd (as heard). Klimovich had wanted to show the Flex IQ, but parts are stuck; they may go "с текущим статусом". Val: "Давайте не будем загадывать".
+- **Capacity.** "как будто команда разработчиков ждет нас… И я оказываюсь в узком горлышке. Но тут или ещё продукт-менеджера искать, или учитывать это." Val: "Учитывается ограничение."
+- **Action points.** "Ждите от меня много писем на вас, там Геннадия, Михайло… ближайший там завтра."
+
+## Open commitments (Oct 14 2026, 3:49 PM)
+
+- [ ] Andrei Klimovich — write the brief for the magazine ad and check the deadline for the November issue — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]] [[raw/Meeting_Notes_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
+- [ ] Andrei Klimovich — send the action-point emails to Val, Genadi and Mikhail — due Oct 15 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]] [[raw/Meeting_Notes_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
+- [ ] Andrei Klimovich — get the exact machine models and buy the switch, Cat6 spool, crimping tool and connectors — see [[wiki/decisions/2026-10-14-the-first-ten-transactional-locations-go-in-from-november-1-on-stock-monitors-ports-without-wi-fi-and-hand-made-harnesses.md]] — due unspecified — [[raw/Meeting_Notes_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
+- [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
 - [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
@@ -956,3 +982,5 @@ At the [[wiki/meetings/2026-10-14-aks-amusements-transactional-demo-two-location
 - [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
 - [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]

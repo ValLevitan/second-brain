@@ -3,7 +3,7 @@ type: decision
 title: JVL's distribution taxonomy gets a "mini distributor" tier — about 8% discount, against 20% for a full distributor
 date: 2026-10-06
 aliases: [mini distributor, mini-distributor tier, 8% discount, 20% full distributor discount, distribution taxonomy, Padma mini distributor]
-source-count: 4
+source-count: 5
 status: active
 open-commitments: 1
 open-questions: 0
@@ -27,12 +27,17 @@ Val: "You also said that you have Padma. who is a mini distributor, and we agree
 - **Earlier commission idea.** At the Aug-2025 GA COAM show recap, Val floated making technicians official distributors, with "let's say 20%" going to the person who signed up a location — a commission on an equipment fee, not a purchase discount [[raw/GACOAM_trade_show_recap.md]]. See [[wiki/projects/georgia-market-rollout.md]].
 - *(Inference: the mini tier gives a name and a figure to the "slight discount" idea; no source links them.)*
 
+## Oct-14 note — commission terms discussed again
+
+On the [[wiki/meetings/2026-10-14-sales-q4-trade-in-plan-and-transactional-momentum.md|Oct-14 5:33 PM call]] Felipe told Val what commission he had offered a named distributor contact on transactional sales, and restated the tiers they had talked about. **Commission terms discussed, not recorded (§15.8).** Whether this changes the tier on this page is not stated; flagged for the owner. Felipe said the contact had already sent two people, "**one with Raj**" [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]].
+
 ## Open commitments
 
 - [ ] Owner not named (notes: needs Val's confirmation) — add "mini distributor" to the distribution taxonomy — due unspecified — [[raw/Meeting_Notes_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
 
 ## Sources
 
+- [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
 - [[raw/Meeting_Notes_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Georgia_Machine_Sales_Strategy_Post_GOAM-August-21-2026.md]]

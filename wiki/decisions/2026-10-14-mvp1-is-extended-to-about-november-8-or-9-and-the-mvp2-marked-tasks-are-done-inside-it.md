@@ -3,7 +3,7 @@ type: decision
 title: The MVP 1 date is extended to about November 8 or 9, and the tasks marked MVP 2 are done inside MVP 1 — said in Kharetski's turn about the old-version branch, the RIS improvement MVP 1 (owner-confirmed 2026-10-15)
 date: 2026-10-14
 aliases: [MVP1 extension, MVP 1 extended to November 8 or 9, расширить дату до 8 или 9 ноября, MVP 2 tasks done in MVP 1, MVP turned into MVP 2, same scope longer time, больший срок, RIS MVP1 moves to November]
-source-count: 3
+source-count: 4
 status: active
 open-commitments: 1
 open-questions: 1
@@ -49,8 +49,15 @@ So this source does **not** move the transactional October-15 date ([[wiki/decis
 
 **§15.8:** clear. **§15 #9:** none; the numbers are Jira task numbers.
 
+## Note, Oct 14 2026 (3:49 PM) — Val names "November 9" for the transactional end-to-end tests, unsure
+
+At the [[wiki/meetings/2026-10-14-transactional-mvp1-launch-plan-brackets-daily-caps-and-mvp2-scope.md|Oct-14 3:49 PM transactional launch-plan meeting]] (Russian), [[wiki/people/val-levitan.md|Val]] said he saw that morning at five that "проскочило девятого ноября" as the end date, "но я у них не спрашивал… я могу быть не прав"; later, about the end-to-end tests on the acceptance criteria: "сегодня это индекей где-то на девятом ноября" [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]. He spoke of it in the transactional context. Whether he took the RIS date from this stand-up for the transactional tests, or the transactional tests really end near November 9, is **unclear**. The owner ruling above (RIS MVP 1) is not changed by this; see [[wiki/decisions/2026-10-14-transactional-mvp1-counts-as-released-only-when-the-end-to-end-acceptance-tests-pass.md]].
+
+**§15.8:** clear.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
 - [[raw/Meeting_Transcript_RIS_MVP2_Scope_and_Release_Timing-October-12-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]

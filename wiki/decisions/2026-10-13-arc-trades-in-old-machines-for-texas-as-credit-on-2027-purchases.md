@@ -3,7 +3,7 @@ type: decision
 title: ARC trades in its old machines (IGT and others) for Texas, as a credit on its 2027 JVL purchases — handshake deal in principle; quantity and price open
 date: 2026-10-13
 aliases: [ARC trade-in, Texas trade-in, IGT trade-in, credit for 2027 buys, one year credit, handshake deal, Austin warehouse, board could be garbage, fifteen hundred sounds logical, sixty to two hundred seventy-five]
-source-count: 3
+source-count: 4
 status: active
 open-commitments: 2
 open-questions: 3
@@ -34,6 +34,12 @@ Agreed in principle at the [[wiki/meetings/2026-10-13-arc-zazanis-lunch-trade-in
 - **Texas risk.** Val: "**I heard that legislation will change in March… To make them illegal**", and "**right now there is 200,000 machines in Texas**". The wider Texas plan is on [[wiki/projects/texas-used-machine-distribution.md]] [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]].
 - **An earlier swap.** On Aug 27 ARC described a one-to-one exchange of old machines at $6,000 each, which Val accepted — see [[wiki/organizations/arc-gaming.md]] (Aug 27). This trade-in is a separate, later deal, paid as credit [[raw/Meeting_Transcript_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]].
 
+## Oct-14 note — how Val described the deal to Felipe the next day
+
+On the [[wiki/meetings/2026-10-14-sales-q4-trade-in-plan-and-transactional-momentum.md|Oct-14 5:33 PM call]] Val: "**Arc, for example, is thinking of trading in approximately two hundred IGTs. For twenty-seven, at fifteen hundred dollars.**" ("For twenty-seven" is unclear.) His argument for the seller: IGT wants "**sixty five hundred dollars**" for its kit, so "**That's eight thousand dollars perceived value that they get up front**", and "**I think that Arc will trade actually will trade with you about two hundred machines.**" The Banilla and IGT trade for Texas is now part of Felipe's November–December plan — [[wiki/decisions/2026-10-14-november-and-december-sales-go-to-trade-ins-a-6500-credit-for-jvl-machines-and-banilla-and-igt-machines-for-texas.md]] [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]].
+
+- *Not a contradiction:* "about two hundred" sits inside George's Oct-13 range of 60 to about 275; the open quantity question below stays open.
+
 ## Open commitments
 
 - [ ] [[wiki/people/georgios-zazanis.md|George Zazanis]] — count the old machines in ARC's warehouses and in the field; send Val the number and the trade-in he wants — due "a couple of days, a few days" — [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
@@ -49,6 +55,7 @@ Agreed in principle at the [[wiki/meetings/2026-10-13-arc-zazanis-lunch-trade-in
 
 ## Sources
 
+- [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
 - [[raw/Meeting_Notes_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Coffee_Fleet_Swap_and_Transactional_Pitch-August-27-2026.md]]

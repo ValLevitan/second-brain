@@ -3,8 +3,8 @@ type: person
 title: Val Levitan
 date: 2026-07-12
 aliases: [Val, Val Levitan]
-source-count: 427
-open-commitments: 80
+source-count: 431
+open-commitments: 81
 open-questions: 1
 ---
 
@@ -1680,7 +1680,29 @@ At the [[wiki/meetings/2026-10-13-intralot-christos-tzoumaras-dinner-route-partn
 
 On the [[wiki/meetings/2026-10-14-ai-pm-keep-the-0-80-threshold-and-meeting-rigor.md|Oct-14 AI PM update]] (Russian) with Kovalchuk and Bosik [[raw/Meeting_Notes_AI_PM_Keep_080_Threshold_and_Meeting_Rigor-October-14-2026.md]], he asked for a spoken status because "не все можно в тексте легко осознать". When he heard the team wanted to lower the agent's 0.80 threshold, he said no: even a good human PM must be told "мы решаем, что вот это нужно сделать"; he has listened to some recordings and finds the meetings "размыто и неподготовленно и без определенного фокуса"; keeping the bar may push people to prepare more deeply. "Мне лично не нравится, как проходят митинги." Ruling: [[wiki/decisions/2026-10-14-the-ai-pm-keeps-its-0-80-confidence-threshold-and-meetings-get-more-concrete-instead.md]] [[raw/Meeting_Transcript_AI_PM_Keep_080_Threshold_and_Meeting_Rigor-October-14-2026.md]].
 
+## Oct 14 2026 (2:26 PM) — ATL COAM: "we impose limitations", a card on file, and "start with one location"
+
+At the [[wiki/meetings/2026-10-14-atl-coam-transactional-demo-show-special-and-daily-caps.md|Oct-14 ATL COAM meeting]] (mostly Speaker 3, per the notes [[raw/Meeting_Notes_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]) he answered the master's daily-cap complaint: JVL is the broker and sets the limit, not InComm; keep a positive balance; put a credit card or guarantor account on file — [[wiki/topics/georgia-prize-card-processor-economics.md]] (Oct 14) and [[wiki/organizations/incom.md]] (Oct 14, 2:26 PM, with an open contradiction). He described split entry and the surface-mount Flexport — [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 14, 2:26 PM) — and priced the show special "under sixteen thousand dollars" — [[wiki/decisions/2026-09-02-free-ports-and-pos-with-every-machine-bought.md]] (Oct 14, 2:26 PM). His advice to the master: "Start with one location. Don't do any more… and then when you feel comfortable, roll out more." Afterwards: "I feel very, very positive about the whole thing." [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
+
+
+## Oct 14 2026 (3:49 PM) — with Klimovich: "только после этого можно считать продукт выпущенным"; November 1 stays; the cap is ours
+
+At the [[wiki/meetings/2026-10-14-transactional-mvp1-launch-plan-brackets-daily-caps-and-mvp2-scope.md|Oct-14 3:49 PM launch-plan meeting]] (Russian; Speaker 2) [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]:
+
+- **Release.** MVP 1 is released only when the end-to-end tests on the acceptance criteria pass; a product-team test pass now is "waste of time" — [[wiki/decisions/2026-10-14-transactional-mvp1-counts-as-released-only-when-the-end-to-end-acceptance-tests-pass.md]].
+- **First locations.** "Первое ноября у нас решено… Ничего не меняется": stock monitors with "JVL We Take Our Games Seriously", ports without Wi-Fi, brackets for the first location, ten harness sets by hand, at most two installs a day — [[wiki/decisions/2026-10-14-the-first-ten-transactional-locations-go-in-from-november-1-on-stock-monitors-ports-without-wi-fi-and-hand-made-harnesses.md]].
+- **Caps, funding, contracts.** "Daily Cap устанавливаем мы"; a guarantor account and a card per location; the automatic block becomes "MVP один из половины"; he takes the contract architecture himself — [[wiki/decisions/2026-10-14-jvl-sets-the-location-daily-cap-backs-it-with-a-guarantor-account-and-a-card-and-the-automatic-location-block-is-mvp-1-5.md]].
+- **MVP 2 and the cloud.** His MVP 2 list (Wi-Fi first) — [[wiki/decisions/2026-10-01-mvp2-capabilities-biratka-ports-flex-iqs-to-flexpay-and-writes-no-new-ones-until-klimovich-defines-the-flows.md]] (Oct-14 update); a two-day backup of each unit — [[wiki/decisions/2026-10-14-the-first-cloud-step-is-a-backup-of-each-flex-iq.md]].
+- **The last machines.** Klimovich: ten machines left and Black Friday ahead, with no answer yet on monitors. Val: "Я полностью упустил этот момент. Давайте я возьму на себя… выяснить вопрос мониторами." Sales this year are a little below last year's — heard as "Девяносто, плюс" last year. Klimovich credited the website work and Google Merchant for slow growth.
+
+## Open commitments (Oct 14 2026, 3:49 PM)
+
+- [ ] Val Levitan — settle the monitor question for the last ten machines before Black Friday — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]] [[raw/Meeting_Notes_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
+- *(His bracket, harness, modem and contract commitments from this meeting sit on [[wiki/decisions/2026-10-14-the-first-ten-transactional-locations-go-in-from-november-1-on-stock-monitors-ports-without-wi-fi-and-hand-made-harnesses.md]] and [[wiki/decisions/2026-10-14-jvl-sets-the-location-daily-cap-backs-it-with-a-guarantor-account-and-a-card-and-the-automatic-location-block-is-mvp-1-5.md]].)*
+
 ## Sources
+- [[raw/Meeting_Notes_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
+- [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
@@ -2116,3 +2138,5 @@ On the [[wiki/meetings/2026-10-14-ai-pm-keep-the-0-80-threshold-and-meeting-rigo
 - [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
 - [[raw/Meeting_Transcript_AI_PM_Keep_080_Threshold_and_Meeting_Rigor-October-14-2026.md]]
 - [[raw/Meeting_Notes_AI_PM_Keep_080_Threshold_and_Meeting_Rigor-October-14-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
+- [[raw/Meeting_Notes_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]

@@ -3,9 +3,9 @@ type: person
 title: Sebastian
 date: 2025-02-19
 aliases: [Sebastian, Sebastian Cortes, the engineer I brought in from Miami]
-source-count: 20
-open-commitments: 1
-open-questions: 1
+source-count: 23
+open-commitments: 3
+open-questions: 2
 ---
 
 # Sebastian
@@ -108,8 +108,39 @@ At the [[wiki/meetings/2026-10-05-ris-mvp1-scope-and-peach-packaging.md|Oct-5 11
 
 At the [[wiki/meetings/2026-10-12-ris-mvp2-scope-and-release-timing.md|Oct-12 RIS MVP 2 call]]: he agreed the hard reset, the passport scan and software mismatch are the biggest pains; he asked what happens when a RIS with a printer is applied on a machine without one — [[wiki/decisions/2026-10-12-a-ris-that-needs-a-printer-still-installs-on-a-machine-without-one-and-the-machine-tilts-until-a-printer-is-added-or-unchecked.md]]; Pavel gave him the cash-out-only log capability to write — [[wiki/decisions/2026-10-12-sebastian-writes-a-cash-out-only-log-capability-for-ris-mvp2.md]] [[raw/Meeting_Transcript_RIS_MVP2_Scope_and_Release_Timing-October-12-2026.md]].
 
+
+## Oct 14 2026 (3:49 PM, in absentia) — he finds the bracket distributor
+
+At the [[wiki/meetings/2026-10-14-transactional-mvp1-launch-plan-brackets-daily-caps-and-mvp2-scope.md|Oct-14 3:49 PM launch-plan meeting]] (Russian) Val moved the bracket job away from Mikhail: "давайте лучше это дадим в руки Сыбашину, чтобы он нашёл правильного дистрибьютера, и Геннадия поставим в копию" ("Сыбашин" read as Sebastian — **inference** from the Georgia field role). Val also named him, with Anibal, among those who can make the first harnesses by hand — [[wiki/decisions/2026-10-14-the-first-ten-transactional-locations-go-in-from-november-1-on-stock-monitors-ports-without-wi-fi-and-hand-made-harnesses.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]].
+
+## Open commitments (Oct 14 2026)
+
+- [ ] Sebastian — find a local distributor that keeps brackets for other makers' machines; order for ten locations — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
+
+## Oct 14 2026 (5:33 PM, in absentia) — to the Nov-2 tech training
+
+On the [[wiki/meetings/2026-10-14-sales-q4-trade-in-plan-and-transactional-momentum.md|Oct-14 5:33 PM sales call]] Felipe said a tech training is held on **November 2**, and "**I think Sebastian should probably go, but I asked. He's like, yes. He's going to go to the tech training. He's actually pushing.**" The aim: someone there called Zach gives tips on different manufacturers, "**But for JVL, I would like Sebastian to be there because I don't want Zach to say something that might convey the wrong idea.**" Venue: see [[wiki/organizations/intralot.md]] (Oct 14) [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]].
+
+## Oct 14 2026 (6:02 PM, in absentia) — returned equipment, harder support calls, and his English
+
+From the [[wiki/meetings/2026-10-14-returns-triage-sebastian-and-support-calls.md|Oct-14 6:02 PM follow-on]] between Felipe and Val [[raw/Meeting_Transcript_Returns_Triage_Sebastian_and_Support_Calls-October-14-2026.md]]:
+
+- **Returns.** Felipe: "**He has been very active, trying to see what the problem is with the equipment we have at return. So he asked me to buy some equipment to test the hard drives, take the RAMs, and make sure everything is working before it actually goes out. And what we got back, see if it's really bad or if it's something that could be fixed.**" No decision on buying it.
+- **Calls.** Felipe: "**Adam takes most, almost all calls. But if it's something complicated, he passes them on to Sebastian.**" Customers who need attention are sent to him too. Felipe does not want to keep him busy with calls all the time.
+- **Background.** Felipe: "**he worked with me in Northcross for a while… he's very smart. He learns very fast.**" Val: "**He's an engineer.**" His English is "**much better**". *(This fits the open question above — "an engineer by education" — but still does not settle it.)*
+
+## Open commitments (Oct 14 2026, 5:33 PM)
+
+- [ ] Sebastian — attend the November 2 tech training so JVL is presented correctly — due Nov 2 2026 — [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
+
+## Open questions (Oct 14 2026)
+
+- Will JVL buy the hard-drive and RAM test equipment Sebastian asked for? — [[raw/Meeting_Transcript_Returns_Triage_Sebastian_and_Support_Calls-October-14-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
+- [[raw/Meeting_Transcript_Returns_Triage_Sebastian_and_Support_Calls-October-14-2026.md]]
 - [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 - [[raw/meeting_with_julian_puerta_texas_eds.md]]
 - [[raw/tech_and_settings_issues-juan_martinez-april-3-2025.md]]
@@ -130,3 +161,4 @@ At the [[wiki/meetings/2026-10-12-ris-mvp2-scope-and-release-timing.md|Oct-12 RI
 - [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
 - [[raw/Meeting_Transcript_RIS_MVP2_Scope_and_Release_Timing-October-12-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]

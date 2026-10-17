@@ -3,8 +3,8 @@ type: decision
 title: October 15 replaces October 1 as the working MVP 1 date — Val asks for the final state by then "if possible", while the autotest estimate runs to October 23
 date: 2026-09-28
 aliases: [October 15 MVP1, MVP1 moves to October 15, сдвигаем на 15 октября, 15 число это реальная дата, final state October 15, 95 percent is fine, autotests until October 23, trial batch of ten locations, пробную партию 10, все остальные вопросы придерживаем, hold all other questions]
-source-count: 10
-status: active
+source-count: 11
+status: active — Oct 14 2026 (3:49 PM): Val defined the release as the end-to-end tests passing (date half-remembered as about November 9) and set first locations for November 1; see the Oct-14 3:49 PM update
 open-commitments: 3
 open-questions: 1
 ---
@@ -79,6 +79,16 @@ At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-l
 
 So this source does **not** move October 15. Its status stays active.
 
+## Update, Oct 14 2026 (3:49 PM) — Val: "released" means the end-to-end tests pass; first locations from November 1
+
+At the [[wiki/meetings/2026-10-14-transactional-mvp1-launch-plan-brackets-daily-caps-and-mvp2-scope.md|Oct-14 3:49 PM launch-plan meeting]] (Russian), the afternoon before the date, [[wiki/people/val-levitan.md|Val]] and [[wiki/people/andrei-klimovich.md|Klimovich]] [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]:
+
+- **Release is a test result, not a day.** Val: "Нам нужно пройти end - to - end тесты согласно acceptance criteria… Только после этого можно считать продукт выпущенным" — [[wiki/decisions/2026-10-14-transactional-mvp1-counts-as-released-only-when-the-end-to-end-acceptance-tests-pass.md]].
+- **A later date, half-remembered.** He had seen "девятого ноября" that morning as the end date, "но я у них не спрашивал… я могу быть не прав". October 15 was not named in the meeting.
+- **First locations.** "Первое ноября у нас решено… Ничего не меняется" — ten locations, then a pause — [[wiki/decisions/2026-10-14-the-first-ten-transactional-locations-go-in-from-november-1-on-stock-monitors-ports-without-wi-fi-and-hand-made-harnesses.md]].
+
+*(Inference:)* October 15 now reads as the aim for the developers' final state, not the release; the release waits on the end-to-end tests, and the first installs are set for November 1. No one said "October 15 is dropped", so the status is left active; the owner may wish to retitle once the real release date is known.
+
 ## Sources
 - [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
@@ -90,3 +100,4 @@ So this source does **not** move October 15. Its status stays active.
 - [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]

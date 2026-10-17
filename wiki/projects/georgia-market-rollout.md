@@ -3,8 +3,8 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, COAM Hearing Room, Georgia Lottery Corporation, Tracy Warren, HB 353, Intralot lab, Bill at Intralot, three fifty-eight nine, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing, GAMOA, ILERS, ILAS report, Eilers, Eiler report, show special, Mega Hit Blaze, sales channel report, Bulldog Gaming, ARC, ARC Gaming, Class A, C-Store Connect, GACS, route consolidation, gift-card cash-back notice, Chris Plonic, Double Down Gaming, Ryan O'Donnell, Billy Liu, Play Payments, PlayPay, banking licence moat, 7455 modem, KORE, KORE SIM, APN, GACS October 21, Pay Slim, over-drive, Rao, Narasimha Rao Namburi, David Milani, September 2 letter, 5500 PAX locations, Lucky Coin service burden, Lucky Bucks is ARC, the market is literally bottomless, backend displacement, David Sloan, Dave Sloan, Bill the kiosk vendor, the wording is in the same location, guidance is not the law, Digital Cash Processing, DCP, ICP Inc., Gen Mega, Andrew Cashin, Rick Beer, seventy four hundred locations forty seven thousand machines, Unlimited Amusement, Mega Hit Blaze V3, program the rollout, Swanee, Johns Creek, Singleton, SurfNote, Debbie Alford, eighteen thousand connected, Mike Mackey, five hundred dollars per unit per machine, WSS protocol, not even one installation, Georgia Lazy, Skyriser, Cardinal, outside looking in, Rich Winley briefing, 18 games in one pack, one USB stick for all Peach, Peach 1 2 3 combined]
-source-count: 244
-open-commitments: 74
+source-count: 248
+open-commitments: 75
 open-questions: 36
 ---
 
@@ -1754,7 +1754,7 @@ From the [[wiki/meetings/2026-10-06-felipe-delivery-forecast-arc-release-and-mod
 
 ### Open commitments (Oct 6 2026, 1:41 PM)
 
-- [ ] Felipe Miranda — meet "Rao and Mohammed" and try for another bulk deal of about 10 machines for November or December — due Oct 7 2026 ("tomorrow") — [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
+- [x] Felipe Miranda — meet "Rao and Mohammed" and try for another bulk deal of about 10 machines for November or December — due Oct 7 2026 ("tomorrow") — **DISCHARGED (Oct 14 evidence, inference that "Raoul and Muhammad" are the same pair):** "I met with them last week"; Mohammed installs his first machines that week; Raoul has no pipeline; no bulk deal stated — [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]] — [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
 
 ## Oct 8 2026 — Georgia V4: a preliminary game list, and the dual box for 5-reel games
 
@@ -1794,8 +1794,42 @@ At the [[wiki/meetings/2026-10-14-aks-amusements-transactional-demo-two-location
 - **AKS tests the transactional system at two new locations; JVL installs the first** — [[wiki/decisions/2026-10-14-aks-tests-the-full-jvl-transactional-system-at-two-new-locations-before-year-end-and-jvl-installs-the-first.md]]. Price increase from January 1 and financing: [[wiki/organizations/aks-amusement.md]] (Oct 14).
 - **Val's pitch on staying power.** "we're making commitments to the state of Georgia to accompany you in the market… We're settling here." [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]
 
+## Oct 14 2026 (2:26 PM) — another master at the office: ATL COAM, about fifty locations, one location first
+
+The same afternoon as AKS, [[wiki/organizations/atl-coam.md|ATL COAM]] (Arpit; about fifty locations, mostly Metro Atlanta, fewer than ten JVL machines) came for the transactional demo — [[wiki/meetings/2026-10-14-atl-coam-transactional-demo-show-special-and-daily-caps.md]] [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]].
+
+- **The linked-progressive game, as shown.** Val: "This is a linked family games… So this has three different categories of progressives" — a "bet level progressive", a "high roller progressive" that "pushes people to bet more", and "mystery progressives". Two machines linked side by side "create very loyal clientele". The family name is heard as "Diamond Name" — unclear. Ten games visible, five more in the bank. [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
+- **Game advice, not remote switching.** Val: the modem tells JVL "which games are not popular… We cannot command the machine". Felipe: "we are not allowed to do it remotely, but… We will be able to tell you with the figures." [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
+- **No commitment yet; Val's advice was one location first.** See [[wiki/organizations/atl-coam.md]]. [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]] [[raw/Meeting_Notes_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
+
+## Oct 14 2026 (5:33 PM) — after the demos: the forecast, trade-ins for November–December, and a $25-max-bet location
+
+At the end of the day, [[wiki/people/val-levitan.md|Val]] and [[wiki/people/felipe-miranda.md|Felipe]] talked alone — [[wiki/meetings/2026-10-14-sales-q4-trade-in-plan-and-transactional-momentum.md]] [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]].
+
+- **Interest is spreading.** Felipe: "**I've been getting questions about our our transactional equipment.**" A man who "**got a master license**" and is starting his own business "**was recommending our game and our transactional equipment.**" [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
+- **An early number.** Felipe looked at "**one machine connected to one from Art that I saw yesterday… It's too early, but four thousand, almost five thousand dollar, play inserted seven hundred twenty one dollars.**" ("Art" is unclear; it is an existing alias of [[wiki/organizations/arc-gaming.md|ARC]], but that reading is **inference**.) [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
+- **The forecast — month unclear.** Val asked for "**the forecast for October**". Felipe: "**Forty-four machines.**" then "**Just the tenth of so, forty-four. In November. So far, fifteen in December, twelfth in January.**" The notes read this as 44 machines, 15 in November and 12 in December; the transcript can also be read as 44 in November, 15 in December and 12 in January. **Unclear** [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]] [[raw/Meeting_Notes_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]].
+- **Two prospects.** Val: "**where you could get quantity for November is Raoul and Muhammad.**" Felipe met them last week; "**Mohammed will install his first machines towards the end of this week**" and wants companies he talks to (heard "Diamond 80" and "Goldenate") to see them first; Raoul "**doesn't have any day of the pipeline right now**" [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]. *(Probably the "Rao and Mohammed" of Oct 6 — **inference**; still not resolved who they are.)*
+- **Marching orders: trade-ins** — [[wiki/decisions/2026-10-14-november-and-december-sales-go-to-trade-ins-a-6500-credit-for-jvl-machines-and-banilla-and-igt-machines-for-texas.md]].
+- **The price-increase email.** Felipe: a customer "**replied to Eric's email about the price increase**"; Val said it went wider than he meant ("**To all eco… but I don't care**"; the notes: to all customers) [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]] [[raw/Meeting_Notes_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]. See [[wiki/organizations/aks-amusement.md]] (Oct 14) for the January 1 increase.
+- **The lockout lease.** Machines not fully paid carry a lease — 90 days, or 30 for a risky account; Val prefers never to use it — [[wiki/decisions/2026-09-11-lease-blocking-reaches-the-flex-ports-and-is-never-automatic.md]] (Oct-14 note).
+- **Show the self-configuring install.** Val: "**Wait until you show them Wi-Fi configuration. You install everything, nothing is configured. You turn on the switch and everything finds each other.**" Run it live at the office: about "**Half an hour**" to install, and "**Within five minutes, it will configure itself**", with the RIS set-up "**Downloaded through a modem**" [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]. See [[wiki/topics/ris-remote-install-and-machine-states.md]].
+- **A tech training on November 2.** Felipe: "**Tech training event happening on November second at… where [we] were yesterday**" — venue read as [[wiki/organizations/intralot.md|Intralot]] (**inference**; see that page, Oct 14). [[wiki/people/sebastian.md|Sebastian]] is to go [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]].
+- **A commission offer to a distributor contact** was discussed; terms not recorded (§15.8). Felipe said the contact had already sent two people, "**one with Raj**" [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]].
+- **$25 max bet at top locations.** A contact (not named in the notes; by order of the talk possibly the same distributor contact — **unclear**) told Felipe he sets Aristocrat and Light & Wonder or IGT at a $25 max bet, and that "**many locations top tier locations prestige and a few others are setting max bet at twenty five dollar**." He offered: "**if you can bring a machine to my location, I'll help promote it there, and I'll ask my masters to come to my location and look at the JVL machine.**" Val: "**We should definitely do. Take the V3.**" Felipe: "**The V3 with Topper… Maybe we can do a three-month trial**" [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]] [[raw/Meeting_Notes_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]. The location is "down south"; Felipe has not been yet.
+- **The lottery report.** Felipe does not know whether he must ask "Dmitri" for the lottery report each time; Val: "**They should update it daily. I think they update it daily.**" (Which Dmitri is not resolved.) [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
+
+### Open commitments (Oct 14 2026, 5:33 PM)
+
+- [ ] Felipe Miranda — arrange a V3 with topper at the $25-max-bet contact's location, possibly as a three-month trial — due unspecified — [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
+- [ ] Felipe Miranda — find out how to get the daily lottery report without asking each time ("We'll find out from them") — due unspecified — [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
+
 ## Sources
 
+- [[raw/Meeting_Notes_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
+- [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
+- [[raw/Meeting_Notes_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
+- [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
 - [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]
 - [[raw/Meeting_Transcript_AKS_Intro_Three_Progressive_Trial_and_Cabinet_Swap-October-14-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]

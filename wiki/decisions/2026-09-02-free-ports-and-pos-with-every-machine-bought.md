@@ -3,7 +3,7 @@ type: decision
 title: Six Flex ports and a terminal free with every machine bought, at $90 a month per location — "I am buying my way in"
 date: 2026-09-02
 aliases: [buying my way in, ninety dollars a month, value almost as much as this machine is, zero cost except a monthly maintenance fee, six ports plus a terminal free, $15,750 machine, seven thousand dollars of discounts, ninety dollars per location, guinea pig offer, Lucky Coin offer, sixteen thousand dollar machine, rent or lease the units]
-source-count: 24
+source-count: 26
 status: active
 open-commitments: 1
 open-questions: 5
@@ -222,6 +222,20 @@ At the [[wiki/meetings/2026-10-14-aks-amusements-transactional-demo-two-location
 
 *(Status: this page stays active — the Oct-14 quote is the Sept-2 offer, and the owner's Oct-5 ruling above stands. Val's "doesn't have to be our machine" is a data point on the open question "Does the deal have to be packaged at all?" below; it is a sales remark at one meeting, not a ruling, so the question stays open. Inference: the "per location" wording on Oct 14 also bears on the per-location-or-per-machine question, which stays open because the Sept-15 conflict is not explained.)*
 
+## Oct 14 2026 (2:26 PM) — the same afternoon, to ATL COAM: a "show special", eight items, $90 per location, and a January 1 deadline
+
+Three hours after AKS, the offer went to Arpit of [[wiki/organizations/atl-coam.md|ATL COAM]] (about fifty locations) at the [[wiki/meetings/2026-10-14-atl-coam-transactional-demo-show-special-and-daily-caps.md|2:26 PM meeting]] [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]:
+
+- **Called a "show special".** Felipe: "we have a show special right now… We're throwing all this in for free. You can take the flex paint. You can take the flex IQ, and six of the ports" ("flex paint" reads as FlexPay — **inference**). "the Flexport, five of these comes with the machine at no cost. One plus five, exactly." [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
+- **Val's count and price.** "You're getting a nice printer. One, two, three, eight ports. So eight. You're getting eight items" — "That's the deal. All of it for under sixteen thousand dollars. Or add another eight hundred dollars for the… Top." He put the value at "approximately thirty - two thousand dollars" (garbled). The machine price as heard is on [[wiki/topics/jvl-machine-pricing-strategy.md]] (Oct 14). [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
+- **Bought separately** (Felipe): "the Flex Slim, the Flex-IQ, six points, six on average. It costs you around fifteen thousand." [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
+- **Why now.** Val: "we're using the show special to irrevocably secure the deals with operators, where we bind the market." Felipe: after January 1 "it will not be under the current price." [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
+- **$90 per location, said three ways.** "We charge ninety dollars per" — "Per location" — "Not per device" — "It's one device or nine devices. It doesn't matter to us." The notes date it from November 1, collected by ACH [[raw/Meeting_Notes_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]. Val set it against the market: "competition charges between one dollar to dollar fifty per day per device." [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
+- **Who pays, and what happens if nobody does.** Arpit plans to pass fees on to his locations. Val: "If we don't collect the fee, the equipment is not going to work… Collections are done automatically… it's an ACH swipe… We could collect from anybody as long as they pay. We're not gonna chase them." Compare [[wiki/decisions/2026-09-17-the-ninety-dollar-fee-is-drafted-from-the-location-not-paid-by-the-master.md]]. [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
+- **What the $90 covers, added here:** the LTE data — "all of the equipment we have LTE modems installed… and we pay for data pack. That's part of your ninety bucks." [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
+
+*(Status: unchanged — the Oct-14 afternoon quote is again the Sept-2 offer, now named a "show special". It adds another explicit "per location… not per device", which bears on the open per-location-or-per-machine question below; that question stays open because the Sept-15 conflict is not explained. The machine-bundle condition holds here — the free set comes "with the machine" — unlike Val's "doesn't have to be our machine" to AKS that morning. Both are sales remarks, not rulings.)*
+
 ## Open commitments
 
 - [ ] [[wiki/people/kyle-shepherd.md|Kyle Shepherd]] — decide on the offer. Val did not press for an answer on Sept 2 ("You don't have to give me the answer right now. You can consult your brother") and expected it at the Sept-9 visit. **At that visit Kyle still did not answer**, asked for a couple of hours, and agreed a date with Val — so this now runs against the larger [[wiki/decisions/2026-09-09-val-asks-lucky-coin-for-its-entire-business.md|Sept-9 offer]] — due **Tuesday Sept 15 2026** (was ~Sept 9) — [[raw/Meeting_Transcript_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]] [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
@@ -238,6 +252,8 @@ At the [[wiki/meetings/2026-10-14-aks-amusements-transactional-demo-two-location
 
 ## Sources
 
+- [[raw/Meeting_Notes_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
+- [[raw/Meeting_Transcript_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
 - [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]
 - [[raw/Meeting_Notes_Lucky_Coin_Service_and_Upgrade_Offer-September-2-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Gaming_Backend_Displacement_Negotiation-September-9-2026.md]]

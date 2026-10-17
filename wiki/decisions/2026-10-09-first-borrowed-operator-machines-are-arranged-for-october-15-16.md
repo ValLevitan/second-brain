@@ -3,9 +3,9 @@ type: decision
 title: The first machines borrowed from operators for Flex testing can be arranged for October 15–16 — Klimovich and Felipe organise it; Chudinov says MVP 1 development is formally finished, while Irina wanted more testing first
 date: 2026-10-09
 aliases: [borrowed machines October 15-16, на 15 16 число, первые машины позаимствовать, other makers' machines, машины у других производителей, MVP1 formally finished, Формальное MVP один закончен, take them for a day or two, на день 2, main workflow ready]
-source-count: 2
+source-count: 3
 status: active
-open-commitments: 1
+open-commitments: 0
 open-questions: 0
 ---
 
@@ -25,10 +25,15 @@ open-questions: 0
 
 ## Open commitments
 
-- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] with [[wiki/people/felipe-miranda.md|Felipe Miranda]] — arrange the first test machines borrowed from operators into the office — due Oct 15–16 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
+*(none open)*
 
 **§15.8:** clear. **§15 #9:** none.
+
+## History
+
+- [x] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] with [[wiki/people/felipe-miranda.md|Felipe Miranda]] — arrange the first test machines borrowed from operators into the office — due Oct 15–16 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]] — **discharged by Oct 14 2026:** Klimovich, "Мы сейчас получили эти машины, завтра мы туда подключим порты", said of the other makers' machines (that these are the borrowed operator machines is **inference**) — at the [[wiki/meetings/2026-10-14-transactional-mvp1-launch-plan-brackets-daily-caps-and-mvp2-scope.md|Oct-14 3:49 PM meeting]] — [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
 
 ## Sources
 - [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
+- [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
