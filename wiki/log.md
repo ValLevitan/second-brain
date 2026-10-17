@@ -5566,3 +5566,6 @@ Progress: steady-state run of 2026-10-17 **COMPLETE — batches 263–266 (4 bat
 **Owner Decisions queue:** overview LIVE OPEN gained A18–A26 and C16–C18 (this run). overview.md refreshed (counts, health, run line).
 **Category / type fit:** no change. Standing note repeated: transactional/RIS decisions still split between "Games & Design" (past practice) and "Markets & Product" — the split proposal ("Transactional & RIS") stays for the monthly lint. No month boundary this run (October still open), so no month-close manifest.
 Lint only diagnosed; the one edit was the §9 registry sweep for the new "David" block (catalog-level hygiene done in the ingest pass).
+
+## [2026-10-17] note | weekly report written — steady-state run of 2026-10-17 complete
+Report file overwritten (17 recordings / 16 meetings, Oct 13 evening – Oct 16; 80/80 verified; owner items A18–A26, C16–C18). Pushed to GitHub (ValLevitan). qmd update run; qmd embed started after the push.
