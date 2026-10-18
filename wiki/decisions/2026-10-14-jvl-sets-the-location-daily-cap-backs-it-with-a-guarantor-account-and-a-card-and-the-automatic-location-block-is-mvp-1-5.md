@@ -11,6 +11,8 @@ open-questions: 3
 
 # JVL sets the daily cap and backs it; the automatic location block is "MVP 1.5"
 
+**Owner ruling 2026-10-18:** this page is the right reading — it sets the rules of engagement for the payment-processing flow. Caveat: a customer who does not pay for a Flex gaming machine they bought is blocked **by hand** (the Sept-11 manual rule) — [[wiki/decisions/2026-09-11-lease-blocking-reaches-the-flex-ports-and-is-never-automatic.md]].
+
 Worked out at the [[wiki/meetings/2026-10-14-transactional-mvp1-launch-plan-brackets-daily-caps-and-mvp2-scope.md|Oct-14 3:49 PM launch-plan meeting]] (Russian) between [[wiki/people/val-levitan.md|Val]] and [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]. Val said he had pitched this "экспроптом и free ball" to a customer that afternoon; now "нужно… продумать и сделать это системно" [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]. The afternoon pitch is on [[wiki/topics/georgia-prize-card-processor-economics.md]] (Oct 14, 2:26 PM).
 
 ## Who sets the cap
@@ -38,7 +40,7 @@ Val has started talks with InComm to widen it: "Сейчас, по-моему, �
 
 - Klimovich: "Помните… когда планировали МВП один… Мы договорились, что автор блокировки пока у нас не будет." Val: "давайте назовем это MVP один из половины. Да, конечно… Пару машин можно поставить без этого. Извиняюсь, пару лакейшнок." [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
 - The derived notes: "Location auto-block moves to 'MVP 1.5'; a couple of locations may start without it." [[raw/Meeting_Notes_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
-- This plans a change to Val's Sept-11 rule "автоматически мы никогда не блокируем" — see [[wiki/decisions/2026-09-11-lease-blocking-reaches-the-flex-ports-and-is-never-automatic.md]] (Oct-14 update). For MVP 1 the manual-only rule still holds.
+- This plans a change to Val's Sept-11 rule "автоматически мы никогда не блокируем" — see [[wiki/decisions/2026-09-11-lease-blocking-reaches-the-flex-ports-and-is-never-automatic.md]] (Oct-14 update). For MVP 1 the manual-only rule still holds. **Owner ruling 2026-10-18:** the automatic block applies to the payment-processing flow; unpaid machine sales stay manual.
 
 ## Contracts and sign-up
 

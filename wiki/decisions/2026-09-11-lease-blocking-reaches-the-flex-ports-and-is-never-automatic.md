@@ -1,15 +1,17 @@
 ---
 type: decision
-title: Lease blocking must reach the Flex-Ports as well as the terminal, so players cannot play — and blocking is never automatic, only manual through the hub
+title: Lease blocking must reach the Flex-Ports as well as the terminal, so players cannot play — blocking a sold machine for non-payment stays manual; in the payment-processing flow the Oct-14 automatic location block applies (owner ruling 2026-10-18)
 date: 2026-09-11
 aliases: [block the flex ports too, players cannot play, never block automatically, expired lease in the hub stops everything, lease feature written in so it gets tested, disable the bill acceptor through SAS, we can block Flex IQ FlexPay and the Flex Ports, lease expiry blocks offline too, lease versus internet loss, fresh lease date at start-up]
 source-count: 9
-status: active — the reach into the Flex-Ports stands, and for MVP 1 blocking stays manual; on Oct 14 2026 Val planned an automatic location block on unpaid funds for "MVP 1.5" (see the Oct-14 update)
+status: active, narrowed by owner ruling 2026-10-18 — "never automatic" now applies only to machine sales (a customer who does not pay for a Flex gaming machine is blocked by hand); for the payment-processing flow the Oct-14 rules apply (automatic location block, MVP 1.5). The reach into the Flex-Ports stands.
 open-commitments: 4
 open-questions: 2
 ---
 
-# Lease blocking reaches the Flex-Ports — and is never automatic
+# Lease blocking reaches the Flex-Ports — manual for unpaid machine sales, automatic in the payment flow
+
+**Owner ruling 2026-10-18:** the Oct-14 interpretation is right — [[wiki/decisions/2026-10-14-jvl-sets-the-location-daily-cap-backs-it-with-a-guarantor-account-and-a-card-and-the-automatic-location-block-is-mvp-1-5.md]] sets the rules of engagement for the **payment-processing flow** (warnings, then the backup account, then an automatic location block). One caveat: when a customer does not pay for a **Flex gaming machine they bought**, the machine is blocked **by hand**. The Sept-11 "never automatic" rule below now applies to that case.
 
 Ruled by [[wiki/people/val-levitan.md|Val]] at the [[wiki/meetings/2026-09-11-transactional-mvp1-scope-and-priorities.md|Sept 11 2026 8:04 AM call]], in two connected parts: the **scope** of a block, and the **trigger** for one.
 

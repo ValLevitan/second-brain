@@ -5576,3 +5576,9 @@ Report file overwritten (17 recordings / 16 meetings, Oct 13 evening – Oct 16;
 - **A22 — "about 9 November":** "RIS-MVP-1." Recorded on the Oct-14 transactional-release decision (the "unclear" replaced by the ruling) and its index summary. Whether to retitle the Oct-15 date decision stays open.
 - **A19 (split entry), A21 (distributor commission), A23 (lease blocking):** Val asked for more detail — explanations sent; no change yet.
 Owner rulings are their own citation (§16); no raw source fabricated. Bijection unchanged.
+
+## [2026-10-18] schema | OWNER RULINGS — follow-up answers (A19, A21, A23)
+- **A19 — split entry:** "keep it." Stays on the FlexPay topic as recorded; no change.
+- **A21 — distributor percentages:** "the exact percentage is still being discussed… place holders — for discussion only. No final decision yet." The Oct-6 mini-distributor decision retitled as a proposal (status annotated); the ruling covers the Oct-6 8%/20%, Felipe's Oct-14 9%/20%, and the figure offered to a named contact (still not recorded, §15.8). Index summary updated.
+- **A23 — lease blocking:** "October 14 is the right interpretation" — it sets the rules of engagement for the payment-processing flow (automatic location block, MVP 1.5). Caveat: when a customer does not pay for a Flex gaming machine they bought, the machine is blocked by hand. The Sept-11 decision retitled and its status narrowed to that case; ruling notes on both decision pages; index summary updated.
+Owner rulings are their own citation (§16). All six A-items from the 2026-10-17 report are now ruled (A22's retitle question on the Oct-15 date decision stays open).

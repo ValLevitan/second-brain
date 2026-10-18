@@ -1,15 +1,17 @@
 ---
 type: decision
-title: JVL's distribution taxonomy gets a "mini distributor" tier — about 8% discount, against 20% for a full distributor
+title: A "mini distributor" tier is proposed for JVL's distribution taxonomy — the percentages (about 8% against 20% for a full distributor) are placeholders for discussion, not decided (owner ruling 2026-10-18)
 date: 2026-10-06
 aliases: [mini distributor, mini-distributor tier, 8% discount, 20% full distributor discount, distribution taxonomy, Padma mini distributor]
 source-count: 5
-status: active
+status: active as a proposal — no final percentages (owner ruling 2026-10-18)
 open-commitments: 1
 open-questions: 0
 ---
 
-# A mini-distributor tier: about 8%, against 20% for a full distributor
+# A mini-distributor tier — percentages not yet decided
+
+**Owner ruling 2026-10-18:** "the exact percentage is still being discussed. These percentages are just place holders — for discussion only. No final decision yet." This covers the Oct-6 figures (about 8% / 20%), the 9% / 20% Felipe recalled on Oct 14, and the figure he offered a distributor contact. None is a decided rate.
 
 Agreed by [[wiki/people/val-levitan.md|Val Levitan]] and [[wiki/people/felipe-miranda.md|Felipe Miranda]], before the recording started, and restated by Val at the start of the [[wiki/meetings/2026-10-06-felipe-delivery-forecast-arc-release-and-modem-notice.md|Oct-6 1:41 PM call]].
 
