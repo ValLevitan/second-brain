@@ -11,6 +11,8 @@ open-questions: 2
 
 # The first ten transactional locations go in from November 1
 
+**Owner ruling 2026-10-18:** November 1, 2026 is also the transactional MVP 1 **release date** (Val).
+
 Worked out item by item at the [[wiki/meetings/2026-10-14-transactional-mvp1-launch-plan-brackets-daily-caps-and-mvp2-scope.md|Oct-14 3:49 PM launch-plan meeting]] (Russian). [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] walked the list of what is missing "чтобы выйти на первую локацию"; [[wiki/people/val-levitan.md|Val]] answered each item [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]].
 
 ## The date

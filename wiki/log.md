@@ -5585,3 +5585,6 @@ Owner rulings are their own citation (§16). All six A-items from the 2026-10-17
 
 ## [2026-10-18] schema | correction — Oct-15 MVP 1 date decision status line
 The status line no longer ties "about November 9" to the transactional MVP 1; it now says that date is the RIS MVP 1 (owner ruling 2026-10-18, A22). Title unchanged pending the owner's answer.
+
+## [2026-10-18] schema | OWNER RULING — transactional MVP 1 release date is November 1 2026
+Val: "Release date for Transactional-MVP-1 has moved to November 1st, 2026. Document it as such." The Sept-28 "October 15 replaces October 1" decision is SUPERSEDED (§3): retitled and status flipped, with the ruling at the top. Ruling notes added on the Oct-14 "released only when the end-to-end tests pass" decision and the Oct-14 first-ten-locations decision (Nov 1 = release date and first installs). Index summary and overview A22 updated — A22 closed; all owner items from the 2026-10-17 report are now ruled. RIS MVP 1 (about Nov 8–9) stays separate.

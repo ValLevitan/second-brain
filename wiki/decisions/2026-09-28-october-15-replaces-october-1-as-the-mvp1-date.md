@@ -1,15 +1,17 @@
 ---
 type: decision
-title: October 15 replaces October 1 as the working MVP 1 date — Val asks for the final state by then "if possible", while the autotest estimate runs to October 23
+title: October 15 replaced October 1 as the working transactional MVP 1 date — SUPERSEDED: the release date is now November 1 2026 (owner ruling 2026-10-18)
 date: 2026-09-28
 aliases: [October 15 MVP1, MVP1 moves to October 15, сдвигаем на 15 октября, 15 число это реальная дата, final state October 15, 95 percent is fine, autotests until October 23, trial batch of ten locations, пробную партию 10, все остальные вопросы придерживаем, hold all other questions]
 source-count: 13
-status: active — Oct 14 2026 (3:49 PM): Val defined the release as the end-to-end tests passing (the "about November 9" he half-remembered is the RIS MVP 1 date — owner ruling 2026-10-18) and set first locations for November 1; see the Oct-14 3:49 PM update; Oct 15 2026 (11:04 AM): on the day, the only gap left is the Flex-Port USB-stick update, about 3 to 5 days (see the Oct-15 update)
+status: superseded — owner ruling 2026-10-18: the transactional MVP 1 release date is November 1 2026. History: Oct 14 2026 (3:49 PM): Val defined the release as the end-to-end tests passing (the "about November 9" he half-remembered is the RIS MVP 1 date — owner ruling 2026-10-18) and set first locations for November 1; see the Oct-14 3:49 PM update; Oct 15 2026 (11:04 AM): on the day, the only gap left is the Flex-Port USB-stick update, about 3 to 5 days (see the Oct-15 update)
 open-commitments: 3
 open-questions: 1
 ---
 
-# October 15 replaces October 1 as the working MVP 1 date
+# October 15 replaced October 1 as the working MVP 1 date — now superseded by November 1
+
+**Owner ruling 2026-10-18:** the release date for **transactional MVP 1** has moved to **November 1, 2026** (Val). The October 15 date below is history. November 1 is also the day the first transactional locations go in — [[wiki/decisions/2026-10-14-the-first-ten-transactional-locations-go-in-from-november-1-on-stock-monitors-ports-without-wi-fi-and-hand-made-harnesses.md]]. The RIS MVP 1 date (about November 8–9) is separate.
 
 Reached at the [[wiki/meetings/2026-09-28-transactional-mvp1-remote-updates-and-october-15-target.md|Sept-28 8:02 AM MVP 1 call]] (Russian). No one said "the date is changed" in one sentence. The three people who set the date all spoke to October 15, and no one argued for October 1 [[raw/Meeting_Transcript_Transactional_MVP1_Remote_Updates_and_October_15_Target-September-28-2026.md]].
 
