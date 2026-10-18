@@ -4,7 +4,7 @@ title: October 15 replaces October 1 as the working MVP 1 date — Val asks for 
 date: 2026-09-28
 aliases: [October 15 MVP1, MVP1 moves to October 15, сдвигаем на 15 октября, 15 число это реальная дата, final state October 15, 95 percent is fine, autotests until October 23, trial batch of ten locations, пробную партию 10, все остальные вопросы придерживаем, hold all other questions]
 source-count: 13
-status: active — Oct 14 2026 (3:49 PM): Val defined the release as the end-to-end tests passing (date half-remembered as about November 9) and set first locations for November 1; see the Oct-14 3:49 PM update; Oct 15 2026 (11:04 AM): on the day, the only gap left is the Flex-Port USB-stick update, about 3 to 5 days (see the Oct-15 update)
+status: active — Oct 14 2026 (3:49 PM): Val defined the release as the end-to-end tests passing (the "about November 9" he half-remembered is the RIS MVP 1 date — owner ruling 2026-10-18) and set first locations for November 1; see the Oct-14 3:49 PM update; Oct 15 2026 (11:04 AM): on the day, the only gap left is the Flex-Port USB-stick update, about 3 to 5 days (see the Oct-15 update)
 open-commitments: 3
 open-questions: 1
 ---
