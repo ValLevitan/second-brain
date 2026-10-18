@@ -40,6 +40,10 @@ At the [[wiki/meetings/2026-10-16-klimovich-recap-of-the-vysotsky-call-location-
 
 *(Inference:)* keeping JVL's name out fits the ruling above. Whether a voice bot calling owners fits Val's Oct-5 line that JVL "не можем автоматом" contact locations is not discussed; it is an open question on the voice-bot page, for the owner.
 
+## Owner ruling 2026-10-18 — the voice bot
+
+The Oct-16 plan for a bought voice-bot service is for use **only after JVL has a qualified list of leads** (Val) — [[wiki/decisions/2026-10-16-location-owner-calls-would-use-a-bought-voice-bot-service-not-one-jvl-builds.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Sergei_Vysotski_Georgia_Location_Opt_In_List_and_Research_Spikes-October-5-2026.md]]
 - [[raw/Meeting_Notes_Sergei_Vysotski_Georgia_Location_Opt_In_List_and_Research_Spikes-October-5-2026.md]]

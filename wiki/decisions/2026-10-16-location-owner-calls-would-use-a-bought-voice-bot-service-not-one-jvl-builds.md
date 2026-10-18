@@ -6,12 +6,16 @@ aliases: [bought voice bot, voice-bot service, мы не будем строит
 source-count: 2
 status: active
 open-commitments: 1
-open-questions: 1
+open-questions: 0
 ---
 
 # Location-owner calls would use a bought voice-bot service
 
 Settled between [[wiki/people/val-levitan.md|Val]] (Speaker 2) and [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] (Speaker 1) at the [[wiki/meetings/2026-10-16-klimovich-recap-of-the-vysotsky-call-location-owner-outreach.md|Oct-16 2:00 PM recap of the Vysotsky call]] (Russian). Speakers per the notes [[raw/Meeting_Notes_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]].
+
+## Owner ruling (2026-10-18)
+
+Val: the voice bot is intended for use **after JVL has received a qualified list of leads**. It calls owners already qualified, not a cold list. This is how it fits the Oct-5 "no outreach to locations" line — [[wiki/decisions/2026-10-05-jvl-does-not-reach-out-to-georgia-locations-and-aims-for-inbound-calls-to-its-ai-voice.md]].
 
 ## What was said
 
@@ -32,7 +36,7 @@ Settled between [[wiki/people/val-levitan.md|Val]] (Speaker 2) and [[wiki/people
 
 ## Open questions
 
-- Does a voice bot calling owners, run by a third party without JVL's name, fit the Oct-5 restriction on automated contact? Not raised on Oct 16 — **inference** from the two pages; for the owner — [[raw/Meeting_Transcript_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]]
+- ~~Does a voice bot calling owners fit the Oct-5 restriction on automated contact?~~ **Owner ruling 2026-10-18:** the voice bot is meant to be used **only after JVL has a qualified list of leads** — it is not cold outreach. — [[raw/Meeting_Transcript_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]]
 
 **Tier A hold (§15 #8 — legal material, same class as the Oct-5 hold).** The story under which owners would be approached, and the call-center matching of callers, are not recorded. **§15.8:** clear. **§15 #9:** none.
 

@@ -5569,3 +5569,10 @@ Lint only diagnosed; the one edit was the §9 registry sweep for the new "David"
 
 ## [2026-10-17] note | weekly report written — steady-state run of 2026-10-17 complete
 Report file overwritten (17 recordings / 16 meetings, Oct 13 evening – Oct 16; 80/80 verified; owner items A18–A26, C16–C18). Pushed to GitHub (ValLevitan). qmd update run; qmd embed started after the push.
+
+## [2026-10-18] schema | OWNER RULINGS — answers to the 2026-10-17 weekly report
+- **A18 — building purchase:** "we are buying it through a separate Real Estate Venture." Not a JVL matter; JVL is the tenant. The purchase stays outside the brain (§15 personal / real-estate rule) — no venture details recorded. Ruling notes added on organizations/jvl (Georgia office section) and people/val-levitan (Lawrenceville building item); the AKS stub's "property remark held" line updated.
+- **A20 — voice bot:** "intended after we received a qualified list of leads." Recorded on the Oct-16 voice-bot decision (open question closed, open-questions 1→0) and as a note on the Oct-5 no-outreach decision.
+- **A22 — "about 9 November":** "RIS-MVP-1." Recorded on the Oct-14 transactional-release decision (the "unclear" replaced by the ruling) and its index summary. Whether to retitle the Oct-15 date decision stays open.
+- **A19 (split entry), A21 (distributor commission), A23 (lease blocking):** Val asked for more detail — explanations sent; no change yet.
+Owner rulings are their own citation (§16); no raw source fabricated. Bijection unchanged.

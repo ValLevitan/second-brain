@@ -31,7 +31,7 @@ The derived notes record it as a decision: "MVP1 is released only when the end-t
 
 ## The date Val half-remembered
 
-Val had seen "девятого ноября" that morning at five as the end date, but "я у них не спрашивал… поэтому я могу быть не прав"; later: "сегодня это индекей где-то на девятом ноября" [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]. The same morning the Minsk stand-up moved an MVP 1 to about November 8 or 9; the owner ruled on Oct 15 that this was the RIS improvement MVP 1, not the transactional one — [[wiki/decisions/2026-10-14-mvp1-is-extended-to-about-november-8-or-9-and-the-mvp2-marked-tasks-are-done-inside-it.md]]. Whether Val's "November 9" here is the same date carried over is **unclear**.
+Val had seen "девятого ноября" that morning at five as the end date, but "я у них не спрашивал… поэтому я могу быть не прав"; later: "сегодня это индекей где-то на девятом ноября" [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]. The same morning the Minsk stand-up moved an MVP 1 to about November 8 or 9; the owner ruled on Oct 15 that this was the RIS improvement MVP 1, not the transactional one — [[wiki/decisions/2026-10-14-mvp1-is-extended-to-about-november-8-or-9-and-the-mvp2-marked-tasks-are-done-inside-it.md]]. **Owner ruling 2026-10-18:** the "November 9" Val half-remembered here is the **RIS MVP 1** date, not a transactional date. No transactional release date was set in this meeting.
 
 ## Where it sits
 
