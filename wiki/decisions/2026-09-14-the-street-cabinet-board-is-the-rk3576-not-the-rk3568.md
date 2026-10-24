@@ -3,9 +3,9 @@ type: decision
 title: The street cabinet's board is the RK3576, not the RK3568 — the 3568 renders badly on a vertical screen
 date: 2026-09-14
 aliases: [RK3576, RK3568 vertical screen, 3576 target board, аркеи на горизонтальном телевизоре, именно 35 68, Touch Intelligent, RK3576 shipment to Minsk, 8 gigabytes, тач интеллигент, два борта]
-source-count: 11
+source-count: 13
 status: active
-open-commitments: 1
+open-commitments: 2
 open-questions: 1
 ---
 
@@ -84,7 +84,7 @@ At the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-r
 ## Open questions
 
 - ~~**Where does the RK3576 order actually stand?**~~ **Answered Oct 14 2026:** the board is in Minsk; Pavel names it as the RK3576 — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]] — Genadi did not know whether the invoice had gone out — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]] — *Oct 2 2026: boards "35 67" with 8 GB "приехали" and are with Pavel; whether they are the RK3576 is an inference from the number and the memory, so the question is not closed* — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
-- **Does 8 GB carry the game count this machine needs?** Unmeasured on the 3576, and the July-29 measurement on a different board points the other way (above) — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]] — *Oct 14 2026: Daniil's estimate — about 5 games fit in 8 GB, 8 may not, with all video decoded at game entry; not a measurement* — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- **Does 8 GB carry the game count this machine needs?** Unmeasured on the 3576, and the July-29 measurement on a different board points the other way (above) — [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]] — *Oct 14 2026: Daniil's estimate — about 5 games fit in 8 GB, 8 may not, with all video decoded at game entry; not a measurement* — [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]] — *Oct 22 2026: Daniil — maybe 6 games if the decoders are freed, more with compressed textures; still not a measurement* — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
 
 **§15.8:** clear — board, component and freight economics only; no named-person compensation appears in either Sept-14 12:04 file.
 
@@ -95,6 +95,18 @@ At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-l
 - **The board is in Minsk.** This is the first time a source names the board Daniil uses as the RK3576 in words. It supports the Oct-2 reading that the "35 67" boards were the RK3576 (**inference**, now with a spoken name).
 - **Game count.** Daniil: with each game's video decoded at game entry, 8 games may not fit in 8 GB, but about 5 probably will — [[wiki/decisions/2026-10-14-no-freeze-inside-a-game-so-a-games-videos-are-decoded-when-the-game-is-entered.md]].
 - **Next.** Convert South Dakota games now on Rage into NOVA vertical games with AI and try to fit a library of about 5 on the board — [[wiki/topics/nova-platform-architecture.md]] (Oct 14).
+
+## Update, Oct 22 2026 — of three boards the team stops on the RK3576; Genadi is to send boards; Daniil thinks about six games may fit in 8 GB
+
+At the [[wiki/meetings/2026-10-22-daily-standup-flex-port-cashout-screens-and-native-engine.md|Oct-22 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]:
+
+- **Three boards.** [[wiki/people/pavel.md|Pavel]]: "у нас сейчас 3 разных платы" — the 3568, the 3576 and the 3588. The 3588 is the most powerful and the most expensive; the 3576 is in between in price; "решили, что вот всё мы останавливаемся именно пытаться на ней запустить игры 76." This restates the ruling above [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]].
+- **Boards from Genadi.** Pavel to [[wiki/people/anton-leshkevich.md|Leshkevich]]: [[wiki/people/genadi-peari.md|Genadi]] should have started sending boards the day before; in the end a message from Val (as heard) reached him to send "обе платы". Which two is not clear: Genadi had a 3568 in stock, "более слабая, на которые мы делаем наши эти терминалы", and Pavel thinks he will send that one [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]. That the boards are meant for Leshkevich follows from Val's Oct-21 "Я уже заказал" — [[wiki/decisions/2026-10-21-nova-drops-the-browser-for-a-native-engine-no-code-before-capabilities-and-mvp1-is-a-stable-nova-releasing-six-texas-games.md]] (**inference**).
+- **Game count.** Daniil Stauskiy now runs two games on his board (the RK3576 per Oct 14 — **inference**) and thinks that if each game frees its video decoders "может и 6 игр сейчас уже влезть", more with compressed textures — an estimate, not a measurement; see [[wiki/topics/nova-platform-architecture.md]] (Oct 22) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]].
+
+### Open commitments (Oct 22 2026)
+
+- [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — send the boards Val asked for ("обе платы"; which ones is unclear — probably the 3568 he has in stock, per Pavel) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
 
 ## Sources
 
@@ -109,3 +121,5 @@ At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-l
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]

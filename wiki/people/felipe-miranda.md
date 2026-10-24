@@ -3,7 +3,7 @@ type: person
 title: Felipe Miranda
 date: 2026-07-13
 aliases: [Felipe Miranda, Felipe, Filippo, Filipa, Philippe, Felipe Miranda Giorgi, Филипп, Филипп Н, Filipp N]
-source-count: 103
+source-count: 109
 open-commitments: 24
 open-questions: 0
 ---
@@ -454,6 +454,18 @@ He set up the meeting — the notes pair the recording with a calendar event "Me
 - **10:49 AM.** At the [[wiki/meetings/2026-10-20-ris-improvements-release-notes-review.md|release-notes review]] [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]] he read out Intralot's replies on resets (no restriction on a hard reset; no decommissioning after a soft reset), asked whether the printer switch works any time before a hard reset (Pavel: yes, even with money on the machine), raised the missed-machine case and proposed one more lease interval with an upgrade warning — his paragraph became point 6 — suggested a QR page with likely causes for critical errors, and kept the cash-out paragraph because the log is overwritten within about two hours of play. Val asked him to print the clean draft — [[wiki/decisions/2026-10-20-the-ris-improvements-release-notes-are-settled-point-by-point-and-the-tasks-are-to-be-rewritten-to-match-them.md]] [[raw/Meeting_Notes_RIS_Improvements_Release_Notes_Review-October-20-2026.md]].
 - **1:11 PM.** At [[wiki/organizations/diamond-amusement.md|Diamond]] [[raw/Meeting_Transcript_Diamond_Amusement_RIS_Improvements_Release_Preview-October-20-2026.md]] he walked the customer through the points and the rollout (P1–P3 first, end of November; decommission and recommission "only this time"). The day before, a Diamond tech had called him about a machine whose lease had expired — [[wiki/decisions/2026-10-20-diamond-gets-the-ris-improvements-first-on-p1-p2-and-p3-at-the-end-of-november-and-the-two-machine-trial-is-extended.md]] [[raw/Meeting_Notes_Diamond_Amusement_RIS_Improvements_Release_Preview-October-20-2026.md]].
 
+## Oct 21 2026 (11:55 AM) — refocus on the Eighty-List; bring ideas as ideas
+
+On a [[wiki/meetings/2026-10-21-val-felipe-sales-refocus-on-the-eighty-list.md|seven-minute call]] with Val (Speaker 1, per the notes [[raw/Meeting_Notes_Sales_Outbound_Targeting_Mid_Tier_Operators-October-21-2026.md]]):
+
+- **How to bring ideas.** Val asked him to put an idea forward clearly and in full — "Look, I have an idea. Let's try this" — rather than in short questions Val must turn into an idea; he said this makes remote talks hard [[raw/Meeting_Transcript_Sales_Outbound_Targeting_Mid_Tier_Operators-October-21-2026.md]].
+- **His market view.** Smaller operators may want a cheaper upgrade or "what's hot in the market"; everyone gets terms from makers; IGT and Light & Wonder are selling poorly. Val called it a hypothesis still to be proven [[raw/Meeting_Transcript_Sales_Outbound_Targeting_Mid_Tier_Operators-October-21-2026.md]].
+- **His orders.** Refocus outbound sales on the Eighty-List of second-tier Georgia master operators, not the top 20 — [[wiki/decisions/2026-10-21-georgia-sales-refocus-on-the-eighty-list-of-second-tier-master-operators-not-the-top-20.md]] (his open item is held there).
+
+## Oct 22 2026 (10:58 AM and 11:11 AM) — a countertop trial request, checked with the customer
+
+He read Val a customer's request for a 60-day countertop trial on TITO; Val thought it meant Flex IQ and asked him to call and check. Nine minutes later he reported: George means the Echo, for a new bar location; Class B, TITO to a kiosk, a bill acceptor and printer in one enclosure. Val asked him to "say the least amount of words" and took the request away — [[wiki/topics/echo-home-gaming-device.md]] (Oct 22) [[raw/Meeting_Transcript_Felipe_Miranda_Countertop_Trial_Request_Echo_or_Flex_IQ-October-22-2026.md]] [[raw/Meeting_Transcript_Felipe_Miranda_Echo_Countertop_for_Bar_Location-October-22-2026.md]]. The notes record his call to the customer as done the same morning [[raw/Meeting_Notes_Felipe_Miranda_Countertop_Trial_Request_Echo_or_Flex_IQ-October-22-2026.md]] [[raw/Meeting_Notes_Felipe_Miranda_Echo_Countertop_for_Bar_Location-October-22-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Notes_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
 - [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
@@ -559,3 +571,9 @@ He set up the meeting — the notes pair the recording with a calendar event "Me
 - [[raw/Meeting_Notes_RIS_Improvements_Release_Notes_Review-October-20-2026.md]]
 - [[raw/Meeting_Transcript_Diamond_Amusement_RIS_Improvements_Release_Preview-October-20-2026.md]]
 - [[raw/Meeting_Notes_Diamond_Amusement_RIS_Improvements_Release_Preview-October-20-2026.md]]
+- [[raw/Meeting_Notes_Sales_Outbound_Targeting_Mid_Tier_Operators-October-21-2026.md]]
+- [[raw/Meeting_Transcript_Sales_Outbound_Targeting_Mid_Tier_Operators-October-21-2026.md]]
+- [[raw/Meeting_Notes_Felipe_Miranda_Countertop_Trial_Request_Echo_or_Flex_IQ-October-22-2026.md]]
+- [[raw/Meeting_Transcript_Felipe_Miranda_Countertop_Trial_Request_Echo_or_Flex_IQ-October-22-2026.md]]
+- [[raw/Meeting_Notes_Felipe_Miranda_Echo_Countertop_for_Bar_Location-October-22-2026.md]]
+- [[raw/Meeting_Transcript_Felipe_Miranda_Echo_Countertop_for_Bar_Location-October-22-2026.md]]

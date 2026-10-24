@@ -3,10 +3,10 @@ type: decision
 title: The Georgia LTE modem failure is treated as a source-and-firmware mismatch — buy the North-America variant and, in parallel, ask KORE for the recommended modems and the APN
 date: 2026-09-04
 aliases: [7455 modem, firmware-update USB stick, 5G module, LTE hard to buy, modem firmware mismatch, North America modem variant, KORE APN, ask KORE which modems, AliExpress modem Minsk, $16 Amazon modem, two antennas on the module, antenna in an opening]
-source-count: 12
+source-count: 14
 status: active
-open-commitments: 10
-open-questions: 5
+open-commitments: 11
+open-questions: 7
 ---
 
 # The Georgia modem failure is a source-and-firmware mismatch — buy the North-America variant, and ask KORE for the APN
@@ -133,6 +133,26 @@ Val's own undertaking from this call — to check his message history for when h
 
 On the [[wiki/meetings/2026-10-09-transactional-mvp1-test-machines-and-unclaimed-funds.md|Oct-9 Transactional MVP 1 call]] (Russian) [[wiki/people/andrei-klimovich.md|Klimovich]]: "по поводу симкарт коровских у нас там была проблема с оплатой вроде по фикселе, то есть всё работать должно насчёт заказа карточек для Минска что то у нас там мы уронили эту переписку. Я сегодня подниму его" [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]. The "cards for Minsk" are read as the KORE SIM batch of Oct 1 — **inference**; the notes list it as "ordering cards for Minsk" [[raw/Meeting_Notes_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]. His Oct-1 commitment above stays open; the new date is Oct 9.
 
+## Update, Oct 21 2026 — 50 modems ordered in China at $15 are not paid for; 100 more on Amazon, whereabouts unknown
+
+On a [[wiki/meetings/2026-10-21-genadi-peari-china-modems-payment-not-sent.md|two-minute call]] with Val (Russian) [[raw/Meeting_Transcript_Genadi_Peari_China_LTE_Modems_Payment-October-21-2026.md]]:
+
+- **Not paid.** Val: "Мы еще не отослали пеймен за модами." [[wiki/people/genadi-peari.md|Genadi]]: "Мы заказали в Китае 50 модомов", "по $15". He asked in the chat whether payment was made; "крис сказала, что чтото она посылала не посылала моники не было" — Cris (read as [[wiki/people/cris-nacarino.md|Cris Nacarino]], **inference**) said something about sending, but no money arrived [[raw/Meeting_Transcript_Genadi_Peari_China_LTE_Modems_Payment-October-21-2026.md]].
+- **Antennas.** Genadi first said "150 антенн", then "50 модомов и 300 антенн". The count is **unclear** [[raw/Meeting_Transcript_Genadi_Peari_China_LTE_Modems_Payment-October-21-2026.md]] [[raw/Meeting_Notes_Genadi_Peari_China_LTE_Modems_Payment-October-21-2026.md]].
+- **What was needed.** "эти 50 все, что надо было сделать ему или карточкой… либо … на сайте заказать на завтра же они вышлют их" — pay by card or order on the website, and the supplier ships the next day [[raw/Meeting_Transcript_Genadi_Peari_China_LTE_Modems_Payment-October-21-2026.md]].
+- **A second order.** Val: "мы ещё заказали какихто 100 модово." Genadi: "100 модов он заказал на амазоне" — "he" is not named — "Я не знаю. Где, где они и будут ли они работать?" The team had agreed that Amazon items "мы можем всегда вернуть" [[raw/Meeting_Transcript_Genadi_Peari_China_LTE_Modems_Payment-October-21-2026.md]].
+
+These may be the "100 … on order" Val named on Oct 14 — [[wiki/decisions/2026-10-14-the-first-ten-transactional-locations-go-in-from-november-1-on-stock-monitors-ports-without-wi-fi-and-hand-made-harnesses.md]] (**inference**; neither call ties them).
+
+### Open commitments (Oct 21 2026)
+
+- [ ] Unassigned (the notes: "needs clarification") — pay the China supplier for the 50 modems, by card or website order — due unspecified — [[raw/Meeting_Notes_Genadi_Peari_China_LTE_Modems_Payment-October-21-2026.md]] [[raw/Meeting_Transcript_Genadi_Peari_China_LTE_Modems_Payment-October-21-2026.md]]
+
+### Open questions (Oct 21 2026)
+
+- Who ordered the 100 Amazon modems, where are they, and will they work? Genadi does not know — [[raw/Meeting_Transcript_Genadi_Peari_China_LTE_Modems_Payment-October-21-2026.md]]
+- How many antennas were ordered with the 50 China modems — 150 or 300? — [[raw/Meeting_Transcript_Genadi_Peari_China_LTE_Modems_Payment-October-21-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Notes_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]]
 - [[raw/Meeting_Transcript_LTE_Modem_Firmware_Mismatch_and_KORE_Settings-September-4-2026.md]]
@@ -146,3 +166,5 @@ On the [[wiki/meetings/2026-10-09-transactional-mvp1-test-machines-and-unclaimed
 - [[raw/Meeting_Notes_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Test_Machines_and_Unclaimed_Funds-October-9-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_Peari_China_LTE_Modems_Payment-October-21-2026.md]]
+- [[raw/Meeting_Notes_Genadi_Peari_China_LTE_Modems_Payment-October-21-2026.md]]

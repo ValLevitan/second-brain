@@ -3,7 +3,7 @@ type: person
 title: Cris Nacarino
 date: 2026-08-05
 aliases: [Cris Nacarino, Cris, Chris, Cristina Nacarino]
-source-count: 8
+source-count: 9
 ---
 
 # Cris Nacarino
@@ -16,6 +16,7 @@ Part of the Peru-based staff kept on after the Peru office closure (moved to rem
 
 - **Aug 3 2026 (GL working session):** Cris explained that most JVL Labs *purchases* were done in Business Central (by "Michael"), but most Labs *payments* — to contractors/vendors, from the Canadian bank — were recorded in Navision, so there is more sitting in Navision than Val had assumed. [[raw/Meeting_Notes_GL_Accounts_Systems_Labs-August-3-2026.md]]
 - **Aug 5 2026 (chart-of-accounts alignment):** one of the three finance people (with Igor and Laura) whose joint agreement is now required before any proposed account change is accepted. Val also asked her to show progress on the **EDS reconciliation** received from Sandra Carmona. [[raw/Meeting_Notes_Chart_of_Accounts_Alignment_Systems_Labs-August-5-2026.md]]
+- **Oct 21 2026 (in absentia):** on a [[wiki/meetings/2026-10-21-genadi-peari-china-modems-payment-not-sent.md|call with Val]], [[wiki/people/genadi-peari.md|Genadi Peari]] said "крис" said something about sending the payment for 50 modems ordered in China, but no money arrived. "крис" is read as Cris by the payment context (**inference**). [[raw/Meeting_Transcript_Genadi_Peari_China_LTE_Modems_Payment-October-21-2026.md]]
 
 ## History
 
@@ -35,3 +36,4 @@ Part of the Peru-based staff kept on after the Peru office closure (moved to rem
 - [[raw/Meeting_Notes_GL_Accounts_Systems_Labs-August-3-2026.md]]
 - [[raw/Meeting_Notes_Chart_of_Accounts_Alignment_Systems_Labs-August-5-2026.md]]
 - [[raw/Meeting_Transcript_Andrei_Klimovich_Ecommerce_Fraud_Loss_and_Marketplace_Expansion-January-21-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_Peari_China_LTE_Modems_Payment-October-21-2026.md]]

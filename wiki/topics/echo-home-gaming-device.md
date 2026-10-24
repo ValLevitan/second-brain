@@ -3,8 +3,9 @@ type: topic
 title: ECHO home gaming device and Amazon go-to-market
 date: 2025-02-01
 aliases: [Echo, ECHO, Echo home device, Amazon device, man-cave device, home solution, 149 games]
-source-count: 39
-open-questions: 2
+source-count: 43
+open-commitments: 1
+open-questions: 4
 ---
 
 # ECHO home gaming device and Amazon go-to-market
@@ -345,6 +346,25 @@ Telling [[wiki/people/howard-tikka.md|Howard Tikka]] about JVL on a [[wiki/meeti
 
 On the [[wiki/meetings/2026-09-23-open-purchase-order-payment-walkthrough.md|Sept-23 purchase-order walkthrough]] Val put one Chinese vendor's payment on hold ("Это можно подождать"; name garbled, "гвангдонг… praysteknologie"). [[wiki/people/mikhail-perelman.md|Mikhail Perelman]] agreed and gave the history: the vendor "на 3 месяца задержали поставку 1 релиза" in the spring, so "Мы задерживаем получение следующего… релиса." [[wiki/people/genadi-peari.md|Genadi]]: "Это плата на эхо мазербор." Mikhail: it is the Echo motherboard, and the vendor could not find the processor, which is made to special order. *(Which Echo — the home device or the gaming-cabinet Echo — is not said.)* [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]]
 
+## Oct 22 2026 — a customer asks for an Echo countertop trial for a bar
+
+Two short calls between [[wiki/people/val-levitan.md|Val]] and [[wiki/people/felipe-miranda.md|Felipe Miranda]], 10:58 AM and 11:11 AM — [[wiki/meetings/2026-10-22-felipe-miranda-echo-countertop-trial-for-a-bar.md]].
+
+- **The request.** Felipe read a customer message: "We would like to test one of your countertop machines to evaluate its performance. And compare it with our existing countertop devices." It "will be a Vivo kiosk location, so the machine will also need to include a compatible printer", and "If the machine performs well and meets our operational expectations, we will proceed with the purchase." Felipe: a "60 day period trial, but it must work with Tito" [[raw/Meeting_Transcript_Felipe_Miranda_Countertop_Trial_Request_Echo_or_Flex_IQ-October-22-2026.md]].
+- **Echo or Flex IQ?** Felipe read it as the Echo. Val: "90% sure that he's talking about Flex IQ" — "I've heard them refer to Flex IQ as a countertop" — and "I don't even think that he is aware of the … Echo countertop." He sent Felipe to ask what countertop the customer means, the location type, Type A or Type B, and whether the game must be horizontal [[raw/Meeting_Transcript_Felipe_Miranda_Countertop_Trial_Request_Echo_or_Flex_IQ-October-22-2026.md]] [[raw/Meeting_Notes_Felipe_Miranda_Countertop_Trial_Request_Echo_or_Flex_IQ-October-22-2026.md]].
+- **The answer: the Echo.** Felipe: "I spoke to George and yes, he is referring in fact to the Echo." George is signing a new location, a bar, whose owner asked for countertops. The bar already uses a countertop "made by Dean Martin" (as transcribed; the maker is unclear) with "Bad Dog or Primero games"; George wants more options. Who George is is not stated [[raw/Meeting_Transcript_Felipe_Miranda_Echo_Countertop_for_Bar_Location-October-22-2026.md]].
+- **The needs.** "It is a Class B game." "Whether it's dual or horizontal, is irrelevant, but it must connect to a kiosk via ticket in or Tito. It must have a printer." Val checked: "Does the echo machine have to enclose in the same enclosure a bill acceptor and a printer?" — Felipe: "Yes, it does." Val had named the printer as "the T2 printer" [[raw/Meeting_Transcript_Felipe_Miranda_Echo_Countertop_for_Bar_Location-October-22-2026.md]].
+- **Next.** Val: "Leave it with me for a little bit of time. I will get right to you." [[raw/Meeting_Transcript_Felipe_Miranda_Echo_Countertop_for_Bar_Location-October-22-2026.md]]
+
+### Open commitments (Oct 22 2026)
+
+- [ ] [[wiki/people/val-levitan.md|Val Levitan]] — get back to Felipe on George's request for an Echo countertop with a bill acceptor and a T2 printer in one enclosure — due unspecified — [[raw/Meeting_Transcript_Felipe_Miranda_Echo_Countertop_for_Bar_Location-October-22-2026.md]] [[raw/Meeting_Notes_Felipe_Miranda_Echo_Countertop_for_Bar_Location-October-22-2026.md]]
+
+### Open questions (Oct 22 2026)
+
+- Does JVL's newest software (dual SAS, with the game changes) work on the Echo? Felipe: "this is something we would have to ask" — [[raw/Meeting_Transcript_Felipe_Miranda_Countertop_Trial_Request_Echo_or_Flex_IQ-October-22-2026.md]]
+- Can JVL offer an Echo countertop with a bill acceptor and a printer in one enclosure, on TITO to a kiosk? — [[raw/Meeting_Notes_Felipe_Miranda_Echo_Countertop_for_Bar_Location-October-22-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]]
 - [[raw/Meeting_Notes_Georgia_Production_Ramp_Forecast-July-30-2026.md]]
@@ -386,3 +406,7 @@ On the [[wiki/meetings/2026-09-23-open-purchase-order-payment-walkthrough.md|Sep
 - [[raw/Meeting_Transcript_Gilmore_GameWorks_US_Tax_and_Labs_Filing-June-30-2026.md]]
 - [[raw/Meeting_Transcript_Digital_Marketing_Lead_and_GA_Demand_Campaign-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Howard_Tikka_Brand_Realignment_and_Collateral-September-22-2026.md]]
+- [[raw/Meeting_Notes_Felipe_Miranda_Countertop_Trial_Request_Echo_or_Flex_IQ-October-22-2026.md]]
+- [[raw/Meeting_Transcript_Felipe_Miranda_Countertop_Trial_Request_Echo_or_Flex_IQ-October-22-2026.md]]
+- [[raw/Meeting_Notes_Felipe_Miranda_Echo_Countertop_for_Bar_Location-October-22-2026.md]]
+- [[raw/Meeting_Transcript_Felipe_Miranda_Echo_Countertop_for_Bar_Location-October-22-2026.md]]

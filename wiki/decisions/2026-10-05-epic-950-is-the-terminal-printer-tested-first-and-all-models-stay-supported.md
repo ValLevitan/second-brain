@@ -3,7 +3,7 @@ type: decision
 title: The Epic 950 is the priority printer for the terminal and the only one tested actively for now; other models, the Epic Edge included, stay supported; Pavel writes the supported-printer requirement
 date: 2026-10-05
 aliases: [Epic 950 priority, эпик 950, Epic Edge, эпик eдж, supported printer models, какие принтеры мы поддерживаем, printer requirement, Pavel writes the printer requirement, Павел должен сделать, printers differ, 5-second print timeout, тайминг 5 секунд, TransAct housed printer]
-source-count: 4
+source-count: 6
 status: active
 open-commitments: 1
 open-questions: 0
@@ -45,8 +45,14 @@ In one line, as the derived notes read it: **the Epic 950 is the priority and th
 
 At the [[wiki/meetings/2026-10-21-daily-standup-flex-port-mode-switch-and-sas-crc-fix.md|Oct-21 Minsk stand-up]] (Russian; Val absent) [[wiki/people/sergey-tsymanov.md|Tsymanov]] said he plans to close his printer task that day; Pavel asked whether its problems were on epic 950, and Tsymanov said yes [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]].
 
+## Note, Oct 22 2026
+
+At the [[wiki/meetings/2026-10-22-daily-standup-flex-port-cashout-screens-and-native-engine.md|Oct-22 Minsk stand-up]] (Russian; Val absent) [[wiki/people/sergey-tsymanov.md|Tsymanov]] said he is still finishing the printer problem — why the form is not saved; his Oct-21 plan to close the printer task that day is not reported done. [[wiki/people/irina-shishko.md|Irina]]'s requirement 1838 for printers in Georgia is final after Felipe's review — [[wiki/topics/ris-remote-install-and-machine-states.md]] (Oct 22) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]. Whether 1838 is the supported-models requirement Pavel owes above is not said.
+
 ## Sources
 - [[raw/Meeting_Transcript_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Port_Screens_Unclaimed_Money_and_Printer_Models-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]

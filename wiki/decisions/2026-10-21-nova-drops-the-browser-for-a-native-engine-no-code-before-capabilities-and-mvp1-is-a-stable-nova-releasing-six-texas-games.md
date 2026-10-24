@@ -3,9 +3,9 @@ type: decision
 title: NOVA drops the browser (and Pixi) for JVL's own native engine, with no browser build kept; no code before capabilities, requirements, acceptance criteria and an architecture Val can read; MVP1 is a stable NOVA on which JVL releases six Texas games, reached step by step (Val, Oct 21 2026)
 date: 2026-10-21
 aliases: [drop the browser, native engine, NOVA native engine, Rust engine prototype, Leshkevich Rust prototype, убрать браузер, no code before capabilities, никто не начинает строчить код, rule before code, MVP1 six Texas games, стабильное ново MVP один, NOVA 2, Super NOVA, супер нова, remove browser and Pixi, download flow with GLI signature check]
-source-count: 3
+source-count: 5
 status: active
-open-commitments: 4
+open-commitments: 5
 open-questions: 5
 ---
 
@@ -74,6 +74,7 @@ Decided at the [[wiki/meetings/2026-10-21-dutch-mill-on-nova-and-native-engine.m
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — write the capabilities and requirements for the game-update part — due unspecified — [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
 - [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — build a chatbot that deals with Intralot (Val's wish; not present) — due unspecified — [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] *(9:57 AM the same day: Val formally made Bosik the developer of a Georgia commissioning chatbot, with Pavel Frolov as product owner — tracked on [[wiki/decisions/2026-10-21-pavel-frolov-is-product-owner-of-the-georgia-commissioning-chatbot-and-andrey-bosik-develops-it.md]] [[raw/Meeting_Transcript_Pavel_Frolov_Commissioning_Chatbot_Product_Owner-October-21-2026.md]])*
 - [ ] Team (no single owner named) — have the new NOVA ready ("это будет готово"; the notes place it under MVP1) — due within 10 days of Oct 21 (Val's "максимум"; Leshkevich called it optimistic) — [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
+- [ ] [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — optimize his variant, which runs slow — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
 
 ## Open questions
 
@@ -85,8 +86,18 @@ Decided at the [[wiki/meetings/2026-10-21-dutch-mill-on-nova-and-native-engine.m
 
 **§15.8:** clear. **§15 #9:** clear.
 
+## Note, Oct 22 2026 — Pavel restates the ruling to the team; Leshkevich's variant runs slow
+
+At the [[wiki/meetings/2026-10-22-daily-standup-flex-port-cashout-screens-and-native-engine.md|Oct-22 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]:
+
+- [[wiki/people/pavel.md|Pavel]] told the stand-up that at the previous day's meeting "Антон предложил отказаться от браузера, написать свой angen" in Rust ("На нарасте"; the notes: Rust, heard). It is "новая такая идея, которая будет прорабатываться", and the team will now decide its requirements; it saves about half the memory, maybe other resources too — "глобальный переворот"; "для этой платформы наверно другого пути и не будет" [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]].
+- Pavel ran "твой вариант" ([[wiki/people/anton-leshkevich.md|Leshkevich]]'s) that morning: "Тормозит, короче, тебе придётся там посмотреть, как его оптимизировать." Which build and on what hardware is not said [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]. (Val had declined a separate board test in Minsk; whether this run was one is **unclear**.)
+- Leshkevich said he is writing release notes for Gennadiy (as heard, "рекларс для genadingo"; the notes: release notes, heard) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]. Board shipments: [[wiki/decisions/2026-09-14-the-street-cabinet-board-is-the-rk3576-not-the-rk3568.md]] (Oct-22 update).
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
 - [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
 - [[raw/Meeting_Transcript_Pavel_Frolov_Commissioning_Chatbot_Product_Owner-October-21-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]

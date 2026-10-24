@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий, Kenadi]
-source-count: 138
+source-count: 144
 open-commitments: 59
 ---
 
@@ -691,6 +691,18 @@ With Val, in Russian, at the [[wiki/meetings/2026-10-20-github-msbc-repo-tags-an
 
 At Val's [[wiki/meetings/2026-10-21-hardware-parts-single-repo-and-bom-spike.md|call with Andrei Bosik]] the hardware parts went into one repository with subfolders, partly because many repositories would be hard for Genadi to work with. Val does not want Genadi to build the power-supply BOM by hand in Excel as he does today — Genadi should only discuss the logic — and does not want Andrei and Genadi to agree things without him: "Генадий сделает посвоему, он сделает хорошо, но не сделает так я хочу." Andrei thinks Genadi should read the data contracts Claude writes; Val would read them only when a BOM fails — [[wiki/decisions/2026-10-21-hardware-parts-go-into-one-repository-with-subfolders-and-the-first-spike-builds-the-power-supply-bom-automatically.md]] [[raw/Meeting_Transcript_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]] [[raw/Meeting_Notes_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]].
 
+## Oct 21 2026 (1:23 PM) — the China modems are not paid for
+
+On a [[wiki/meetings/2026-10-21-genadi-peari-china-modems-payment-not-sent.md|two-minute call]] with Val (Russian) he said JVL ordered 50 modems in China at $15 with antennas (150, then 300 — unclear); payment was not seen although Cris said something about sending; paying by card or ordering on the website would have had them shipped the next day. Of 100 modems someone ordered on Amazon he said: "Я не знаю. Где, где они и будут ли они работать?" — [[wiki/decisions/2026-09-04-north-america-modem-variant-and-ask-kore-for-the-apn.md]] (Oct-21 update) [[raw/Meeting_Transcript_Genadi_Peari_China_LTE_Modems_Payment-October-21-2026.md]] [[raw/Meeting_Notes_Genadi_Peari_China_LTE_Modems_Payment-October-21-2026.md]].
+
+## Oct 22 2026 (in absentia) — to send boards
+
+At the [[wiki/meetings/2026-10-22-daily-standup-flex-port-cashout-screens-and-native-engine.md|Oct-22 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] Pavel said a message from Val (as heard) reached him to send "обе платы"; he had a 3568 in stock and will probably send that — [[wiki/decisions/2026-09-14-the-street-cabinet-board-is-the-rk3576-not-the-rk3568.md]] (Oct-22 update).
+
+## Oct 22 2026 (10:22 AM) — bill acceptor harness and data contracts; not readable
+
+A 31-minute [[wiki/meetings/2026-10-22-genadi-peari-bill-acceptor-harness-and-data-contracts.md|call with Val]]. Teams wrote the speech down as English words and almost nothing can be read [[raw/Meeting_Notes_Genadi_Peari_Bill_Acceptor_Harness_and_Data_Contracts-October-22-2026.md]]. Readable terms: the bill acceptor ("innovative technology", "JCM"), "existing harness", "monster harness", "shield connector", "vision" next to "connector"; and data contracts for part numbers, vendors and "part number substitutes different brands, different part numbers". He said "I didn't connect the bill acceptor", and of Sebastian: "He is responsive, he is very responsive" [[raw/Meeting_Transcript_Genadi_Peari_Bill_Acceptor_Harness_and_Data_Contracts-October-22-2026.md]]. No decision or undertaking can be taken from it.
+
 ## Sources
 - [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
@@ -831,3 +843,9 @@ At Val's [[wiki/meetings/2026-10-21-hardware-parts-single-repo-and-bom-spike.md|
 - [[raw/Meeting_Notes_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]
 - [[raw/Meeting_Notes_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_Peari_China_LTE_Modems_Payment-October-21-2026.md]]
+- [[raw/Meeting_Notes_Genadi_Peari_China_LTE_Modems_Payment-October-21-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
+- [[raw/Meeting_Notes_Genadi_Peari_Bill_Acceptor_Harness_and_Data_Contracts-October-22-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_Peari_Bill_Acceptor_Harness_and_Data_Contracts-October-22-2026.md]]

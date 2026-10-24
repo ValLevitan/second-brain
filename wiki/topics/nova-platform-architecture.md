@@ -3,7 +3,7 @@ type: topic
 title: NOVA platform architecture (JVL land-based gaming platform)
 date: 2026-05-12
 aliases: [NOVA, NOVA platform, NOVA gaming platform, land-based platform, land-based gaming platform, services architecture, library-to-service decomposition, Chief Architect NOVA, Unix-socket services, per-service repositories, packaged games, AMQP CMS protocol, capabilities from prose, prose standard, LGS prose, repo to Jira linkage, module contracts, NOVA integration repository, knowledge repository]
-source-count: 95
+source-count: 97
 open-commitments: 71
 open-questions: 38
 disambiguation: "NOVA is the named successor of the 'Omni' land-based platform code-word — do not conflate NOVA (this on-cabinet services platform) with the Omni game-templating / Rage→Omni content transition tracked on [[wiki/topics/omni-core-advancement-and-game-templating.md]]."
@@ -797,7 +797,7 @@ At the [[wiki/meetings/2026-10-21-daily-standup-flex-port-mode-switch-and-sas-cr
 
 ### Open commitments (Oct 21 2026)
 
-- [ ] Daniil Stauskiy — load two games onto the board, check memory and its release, and call Pavel to see it — due Oct 21 2026 — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
+- [x] Daniil Stauskiy — load two games onto the board, check memory and its release, and call Pavel to see it — due Oct 21 2026 — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]] — **done Oct 22 2026**: two games load, play and switch on the board; memory is not yet freed, because the video decoders are not released — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
 - [x] [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — share the RAM-reduction findings — due Oct 21 2026, 8:00 meeting (maybe) — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]] — **done Oct 21 2026 (8:02 AM)**: he showed his Rust prototype's memory numbers at the review [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
 
 ## Oct 21 2026 (8:02 AM) — NOVA drops the browser for a native engine; engine layers, scenes, shaders and AI self-debugging
@@ -813,6 +813,19 @@ At the [[wiki/meetings/2026-10-21-dutch-mill-on-nova-and-native-engine.md|Oct-21
 - **Shaders instead of video.** Biratka: a still image with a shader on top could replace heavy background video and be much lighter; AI could point out which elements to make dynamic this way and which to keep as video (leaves, wind, many small details). Igor: do not commit to it before a test — many shaders and constant GPU traffic may hurt; it can be tried independently in Pixi. Igor also found programmatic animation looks poor on real-world objects but good on solid ones, like the Dutch Mill mill [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]].
 - **What must be drawn.** Skeletal animation, images, video, text and fonts; later particles (Biratka) [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]].
 - **On earlier commitments.** Leshkevich's RAM findings (due at this meeting) — shown; marked done above.
+
+## Oct 22 2026 — Daniil runs two games on one board; the video decoders hold the memory; Leshkevich's variant is slow
+
+At the [[wiki/meetings/2026-10-22-daily-standup-flex-port-cashout-screens-and-native-engine.md|Oct-22 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]:
+
+- **Daniil Stauskiy** closed PNC-4 and NGCO-1 the day before (as heard: "он ц 4 и анжицо один"). Two games now load on the board, play, and switch between each other. He is freeing the video decoders "чтобы хватало р м" — there is not enough yet. Two games, not counting the decoders and the drawing itself, weigh "около трёхста мегабайт"; he will try compressing textures and see how they look and how much RAM they then take [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]].
+- **How many fit.** Pavel: so two games barely fit in 8 GB? Daniil: "Нет… они влазят трудом, потому что эдакоды не освобождающие" — an amount heard as "гигабайт 100" is held there (**unclear**); "Если я буду в каждой игре освобождать, мне кажется, может и 6 игр сейчас уже влезть", and with compressed textures "скорее всего больше" [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]. The notes: "maybe 6 games could fit in 8 GB" [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]. Board choice: [[wiki/decisions/2026-09-14-the-street-cabinet-board-is-the-rk3576-not-the-rk3568.md]] (Oct-22 update).
+- **The native engine, restated.** [[wiki/people/pavel.md|Pavel]] told the team that at the previous day's meeting Anton proposed to drop the browser and write JVL's own engine in Rust — about half the memory, maybe other resources too; "для этой платформы наверно другого пути и не будет". He ran [[wiki/people/anton-leshkevich.md|Leshkevich]]'s variant that morning; it is slow and must be optimized — [[wiki/decisions/2026-10-21-nova-drops-the-browser-for-a-native-engine-no-code-before-capabilities-and-mvp1-is-a-stable-nova-releasing-six-texas-games.md]] (Oct-22 note) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]].
+- **On earlier commitments.** Daniil's Oct-21 two-games check — done (marked in the Oct-21 list): two games run and switch; memory is not yet released, because the decoders are not freed.
+
+### Open commitments (Oct 22 2026)
+
+- [ ] Daniil Stauskiy — free the video decoders in each game and try texture compression to cut RAM use — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
 
 ## Sources
 
@@ -912,3 +925,5 @@ At the [[wiki/meetings/2026-10-21-dutch-mill-on-nova-and-native-engine.md|Oct-21
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
 - [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
 - [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]

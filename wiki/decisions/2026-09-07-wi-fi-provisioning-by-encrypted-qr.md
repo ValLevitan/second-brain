@@ -3,10 +3,10 @@ type: decision
 title: Wi-Fi credentials are entered once on Flex-Pay and handed to each Flex-Port by an encrypted QR code — and the connection/installation event is captured and sent home, buffered when there is no internet
 date: 2026-09-07
 aliases: [encrypted QR provisioning, QR handoff to Flex-Ports, no password screen on the Flex-Port, install telemetry, who connected what and when, offline buffering, cloud logging server, Grafana section]
-source-count: 10
+source-count: 12
 status: active — Oct 15 2026: for Flex IQ's own access point the credentials are set on the location's dashboard page and the QR is generated there, not typed on Flex-Pay; the QR hand-off to each port stands (see the Oct-15 update); Oct 19 2026: Pavel confirmed the QR is encrypted, now with a key personal to each location, and carries all settings, not only Wi-Fi (see the Oct-19 update); Oct 20 2026: the spike exists and Pavel restated the requirement (Location Manager makes the QR; Flex IQ, Flex Pay and the Flex-Ports decode it) for the AI PM (see the Oct-20 update); Oct 21 2026: Pavel said the Flex Pay Wi-Fi QR is temporary and asked Seregin for one registration-and-settings design across Flex-Port, Flex Pay and Flex IQ (see the Oct-21 update)
-open-commitments: 3
-open-questions: 0
+open-commitments: 4
+open-questions: 1
 ---
 
 # Wi-Fi provisioning by encrypted QR, and the install event gets sent home
@@ -72,11 +72,25 @@ At the [[wiki/meetings/2026-10-21-daily-standup-flex-port-mode-switch-and-sas-cr
 - **The hard part is the Flex-Port.** Pavel: write the user flow very carefully. Everything now assumes internet (new keys arrive over it); how does one enter set-up, for example to see whether the internet is connected? Kiosks are easier; the Flex-Port has no screens and no service modes, so how to bind it to a location and tell it the Wi-Fi network and password "это сложный вопрос" [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]].
 - **One design, then a joint review.** Pavel asked Seregin to work toward "архитектурного решения комплексного", touching Flex-Port, Flex Pay and Flex IQ — the more questions the better — and then discuss it with Pavel, Sasha ([[wiki/people/alexander-biratka.md|Biratka]]) and Ira ([[wiki/people/irina-shishko.md|Irina]]). A partial answer for Flex Pay alone is possible, but the need is system-wide. Seregin: "Хорошо… подготовлю" [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]].
 
+## Update, Oct 22 2026 — Seregin's four registration scenarios; architecture first, then the capabilities
+
+At the [[wiki/meetings/2026-10-22-daily-standup-flex-port-cashout-screens-and-native-engine.md|Oct-22 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]:
+
+- **The scenarios.** [[wiki/people/anton-seregin.md|Anton Seregin]] wrote the spike's scenarios in the documentation — "где то 4 помоему сценария": registration without internet, a mini router, and a change of location (moving to another place) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]].
+- **MVP 2 or MVP 3.** He wants them reviewed with everyone involved, to decide what is really done in MVP 2 and what moves to MVP 3. His example: a terminal with no registration and no connection, where Wi-Fi will be used — is a screen needed that comes up with Wi-Fi, so a hotspot can be connected for registration? "таких вот вопросов там много". Some parts can be reused from "leshke"'s work (who is **unclear**; the notes: "Lesha", heard) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]].
+- **Pavel: architecture first.** "архитектуру на основе этого", agree on it, and from it see which capabilities are really needed. The present capability — "богатый механизм применения… настроек вайфай сети на всех возможных устройствах" — may need splitting into smaller ones [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]].
+- **Review today.** [[wiki/people/pavel.md|Pavel]]: with Ira at least, maybe Sergey; Seregin wants Sergey and Sasha ([[wiki/people/alexander-biratka.md|Biratka]]) too [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — build the Wi-Fi provisioning screens on Flex-Pay and Flex-IQ and the encrypted-QR handoff to the Flex-Ports, diagnostic screens included — due unspecified — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]] [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — extend the cloud logging to record connection and installation telemetry (time, date, location, port serial numbers, what was installed where), including store-and-forward when there is no internet at the moment of connection — due unspecified — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
-- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — prepare the questions, a careful user flow and one registration-and-settings architecture across Flex-Port, Flex Pay and Flex IQ, then review it with Pavel, Biratka and Irina — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
+- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — prepare the questions, a careful user flow and one registration-and-settings architecture across Flex-Port, Flex Pay and Flex IQ, then review it with Pavel, Biratka and Irina — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]] — *Oct 22 2026: the scenarios are written (about four); the architecture and the review are next — left open* — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — review Seregin's registration scenarios with Irina (maybe Tsymanov and Biratka) — due Oct 22 2026 — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
+
+## Open questions
+
+- Which registration scenarios go in MVP 2, and which move to MVP 3? — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
 
 ## History
 
@@ -95,3 +109,5 @@ At the [[wiki/meetings/2026-10-21-daily-standup-flex-port-mode-switch-and-sas-cr
 - [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]

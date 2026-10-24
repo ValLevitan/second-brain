@@ -3,7 +3,7 @@ type: decision
 title: A voice AI "Game Design Assistant" that questions the head of game design and produces a creative direction document to Igor's spec — Evgeny Kharetski owns it with Igor; new Jira project and repository; first pass (voice to text, text to voice) reviewed Sunday Oct 25 (Val, Oct 18 2026)
 date: 2026-10-18
 aliases: [Game Design Assistant, AI Game Design Assistant, геймдизайн IS astond, creative direction design assistant, кредит в дирекшен дизайн assistend, voice to voice AI assistant, войс ту войс эй ассистент, AI design assistant, ai дизайна asisnate]
-source-count: 4
+source-count: 6
 status: active
 open-commitments: 3
 open-questions: 1
@@ -40,6 +40,10 @@ Set by [[wiki/people/val-levitan.md|Val Levitan]] at the [[wiki/meetings/2026-10
 
 At the [[wiki/meetings/2026-10-19-daily-standup-clover-fortune-on-nova-and-encrypted-settings-qr.md|Oct-19 Minsk stand-up]] (Russian) [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] said he is starting "этот новый проджект… агент дизайнера" (the notes: the AI game designer agent [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]). [[wiki/people/pavel.md|Pavel]]: "это нам надо ещё в джире завести проекты для него." Evgeny: "Своем репозитории да всё, как полагается". Evgeny will work three directions at once: NOVA, Ivan's tests and the agent [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]. The notes list creating the Jira project as unassigned [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]; it stays on Evgeny here, as set on Oct 18.
 
+## Note, Oct 22 2026 — the agent takes images and maths files
+
+At the [[wiki/meetings/2026-10-22-daily-standup-flex-port-cashout-screens-and-native-engine.md|Oct-22 Minsk stand-up]] (Russian; Val absent) [[wiki/people/evgeny-kharetski.md|Kharetski]] reported much progress on his agent ("GT agent", as heard; the game-design agent by context — **inference**). It now takes images as references; it takes maths as files, saves them to OneDrive and ties the maths to specific games, so one can ask about a game — for example "что там по RTP". The first version only answered questions on scripts; now it is "полноценное общение с агентом": it can help develop an idea, offer options and then give a final output. The maths file format he named is **unclear**. [[wiki/people/pavel.md|Pavel]]: "Очень многообещающе" [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]. Nothing here says the voice part, the Jira project or the repository is done, so the commitments stay open.
+
 ## Open commitments
 
 - [ ] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] (with [[wiki/people/igor-metelski.md|Igor Metelski]] checking the output) — first pass of the Game Design Assistant, voice to text and text to voice — due Sun Oct 25 2026 review — [[raw/Meeting_Transcript_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]] [[raw/Meeting_Notes_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]]
@@ -58,3 +62,5 @@ At the [[wiki/meetings/2026-10-19-daily-standup-clover-fortune-on-nova-and-encry
 - [[raw/Meeting_Notes_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]

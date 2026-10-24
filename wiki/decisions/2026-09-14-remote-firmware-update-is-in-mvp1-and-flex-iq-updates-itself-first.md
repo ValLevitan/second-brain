@@ -3,9 +3,9 @@ type: decision
 title: Remote firmware update is in MVP 1 — Flex IQ and FlexPay update themselves first; distributing firmware to the Flex-Ports left MVP 1 on Sept 17, came back on Sept 28, and left again on Oct 15 — MVP 1 keeps only the Flex-Port update by USB stick, and remote Flex-Port update is MVP 2
 date: 2026-09-14
 aliases: [firmware upgrade in MVP1, remote FlexPort update moves to MVP2 again, USB-stick update is the only MVP1 gap, capability 146, PORT-13, remote FlexPort update back in MVP1, remote firmware update, OTA firmware, приоритет номер один это чтобы обновлялся флекс ай кю, flash the FlexPorts, Flex IQ to FlexPort protocol, доперфек, priority two deferred, FlexPort firmware by USB stick, capability 144 to MVP2, capability 144 cloned, no rollback, roll forward only, requirement 1367, IO board update on the fly, обновление ио барда]
-source-count: 35
+source-count: 37
 status: active — priority two (remote update of the Flex-Ports) left MVP 1 on Sept 17 2026 and RETURNED to MVP 1 on Sept 28 2026 (capability 146); rolling BACK to a previous build stays out of MVP 1 (Sept 18 2026); the delivery design is still open as of Oct 1 2026 (parked "to tomorrow" on Sept 30 and not taken up on Oct 1); see the dated updates below; Oct 15 2026: the IO board is to be updated along with Flex Pay and Flex IQ firmware; Oct 15 2026 (11:04 AM): remote update of the Flex-Ports moved to MVP 2 again — MVP 1 keeps only the USB-stick update, its one remaining gap (see the Oct-15 11:04 AM update); Oct 16 2026: remote update of the ports through Flex IQ confirmed as one of MVP 2's two tasks; Oct 20 2026: restated — MVP 1 is released only when the Flex-Port updates by USB stick, remote update is MVP 2; capabilities 137, 122 and 146 get the MVP 2 mark (see the Oct-20 update); Oct 20 2026 (7:01 AM): Alekseev's branch HFM-663 builds a release and the USB-stick update passed on the second try, but the application hard-faults and keeps beeping; Val: MVP 1 needs only the easy release build and the USB update (see the Oct-20 7:01 AM update)
-open-commitments: 12
+open-commitments: 13
 open-questions: 3
 ---
 
@@ -271,6 +271,18 @@ At the [[wiki/meetings/2026-10-20-flex-port-mvp1-usb-update-and-build-standards.
 
 Full detail and the seven commitments: [[wiki/decisions/2026-10-20-flex-port-mvp1-needs-only-an-easy-release-build-and-the-usb-update-and-alekseev-writes-stm32-freertos-rules-for-claude-review.md]] [[raw/Meeting_Notes_Flex-Port_MVP1_USB_Update_and_Build_Standards-October-20-2026.md]]. The same morning at 8:31 AM Val set the MVP 1 release for a Wednesday once Alekseev's build is production-ready — [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]] [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]].
 
+## Update, Oct 22 2026 — Tsymanov takes the port-update research now, without waiting for "Dima"
+
+At the [[wiki/meetings/2026-10-22-daily-standup-flex-port-cashout-screens-and-native-engine.md|Oct-22 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]:
+
+- **Take it now.** [[wiki/people/sergey-tsymanov.md|Tsymanov]] asked whether he should take "исследовательскую задачу по апдейту порта", since others work on it. [[wiki/people/pavel.md|Pavel]]: yes — "у нас есть время до понедельника, пока дима придёт… нет смысла ждать". Which Dima is not said; on Oct 20 the returning "дима" was read as Chudinov (**inference**). Pavel thought "до 26"; [[wiki/people/irina-shishko.md|Irina]]: he wrote 14 days from a Thursday, so he is back on Monday (Oct 26) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]].
+- **What to expect.** Pavel: study what is done and try it with the port; "наверняка будут изменения в IP в протоколах передач", maybe other ideas too. When Pavel himself tried "протокол передачи файла с flexper на fleexport, он не работал почемуто". Tsymanov will try it on his own set-up in the office [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]].
+- **Flex Pay in the update.** [[wiki/people/alexander-biratka.md|Biratka]] must talk to an Andrei (not named in full) about including Flex Pay in the update — [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 22) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]].
+
+### Open commitments (Oct 22 2026)
+
+- [ ] [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] — after the printer form issue, study the port-update research task and try it with the port — due before Mon Oct 26 2026 ("Dima" back) — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
@@ -308,3 +320,5 @@ Full detail and the seven commitments: [[wiki/decisions/2026-10-20-flex-port-mvp
 - [[raw/Meeting_Transcript_Flex-Port_MVP1_USB_Update_and_Build_Standards-October-20-2026.md]]
 - [[raw/Meeting_Notes_Flex-Port_MVP1_USB_Update_and_Build_Standards-October-20-2026.md]]
 - [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]

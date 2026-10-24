@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 248
+source-count: 252
 open-commitments: 108
 open-questions: 0
 ---
@@ -1322,6 +1322,14 @@ At the [[wiki/meetings/2026-10-21-dutch-mill-on-nova-and-native-engine.md|Oct-21
 
 On an [[wiki/meetings/2026-10-21-pavel-frolov-use-case-docs-and-commissioning-chatbot.md|ad-hoc call with Val]] (Russian, two segments) he told Val that product owners should work from use cases, not interfaces; OpenAPI / Swagger suit only front-end/back-end data contracts; and he proposed interactive HTML documents that people can read and Claude can keep working with — [[wiki/topics/docs-as-code-and-atlassian-exit.md]] (Oct 21) [[raw/Meeting_Transcript_Pavel_Frolov_Use_Case_Docs_and_Commissioning_Chatbot-October-21-2026.md]]. On the commissioning chatbot he first suggested collecting 40–100 call recordings (JVL cannot, it is not on those calls), then sketched a cloud voice-over-IP service with a simple API to the machine [[raw/Meeting_Transcript_Pavel_Frolov_Use_Case_Docs_and_Commissioning_Chatbot-October-21-2026.md]]. Val then made him **product owner** of the chatbot, with [[wiki/people/andrey-bosik.md|Andrey Bosik]] as developer; he may define spikes for Bosik and will write the capabilities (user screens, Galaxy functions). "Хорошо да подходит." — [[wiki/decisions/2026-10-21-pavel-frolov-is-product-owner-of-the-georgia-commissioning-chatbot-and-andrey-bosik-develops-it.md]] [[raw/Meeting_Transcript_Pavel_Frolov_Commissioning_Chatbot_Product_Owner-October-21-2026.md]] [[raw/Meeting_Notes_Pavel_Frolov_Commissioning_Chatbot_Product_Owner-October-21-2026.md]].
 
+## Oct 22 2026 — cash-out faults in bill-validator mode; three boards; the native engine restated; stuck and overdue tasks
+
+At the [[wiki/meetings/2026-10-22-daily-standup-flex-port-cashout-screens-and-native-engine.md|Oct-22 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] he described the cash-out faults seen with the Flex-Port in bill-validator mode and put the fixes, in project "fort" (as heard), on Biratka; he goes through the Flex-Port tasks with Irina; he said Elizabeth must set BV mode on the Flex IQ and ask Irina and Khamin for the latest build; he will send Khamin his supported-SAS-command artifacts — [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]] (Oct-22 update). He said the team stops on the RK3576 among three boards — [[wiki/decisions/2026-09-14-the-street-cabinet-board-is-the-rk3576-not-the-rk3568.md]] (Oct-22 update) — and restated the native engine, adding that Leshkevich's variant runs slow — [[wiki/decisions/2026-10-21-nova-drops-the-browser-for-a-native-engine-no-code-before-capabilities-and-mvp1-is-a-stable-nova-releasing-six-texas-games.md]] (Oct-22 note). He asked Seregin for an architecture before capabilities — [[wiki/decisions/2026-09-07-wi-fi-provisioning-by-encrypted-qr.md]] (Oct-22 update) — and told Tsymanov to take the port-update research now — [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Oct-22 update). He told Ivan the stand-up is written for the PM; Kovalchuk counted nine overdue tasks on him — [[wiki/decisions/2026-10-08-the-ai-pm-goes-live-in-real-jira-projects-on-october-12-on-its-current-architecture-without-lenas-meetings.md]] (Oct-22 update).
+
+## Oct 22 2026 (11:03 AM) — reliable code, standards and a knowledge repository; not readable
+
+An 8-minute [[wiki/meetings/2026-10-22-pavel-frolov-code-standards-and-knowledge-repo.md|call with Val]]. Teams wrote the speech down as English words; only single terms can be read [[raw/Meeting_Notes_Pavel_Frolov_Code_Standards_and_Knowledge_Repo-October-22-2026.md]]. His readable terms: "Alekseev", "Kovalchuk reliable code. Standard.", "Best practices", "The repository knowledge is standards". Val said "yes, just do it" and he said "Yeah" [[raw/Meeting_Transcript_Pavel_Frolov_Code_Standards_and_Knowledge_Repo-October-22-2026.md]]. What he is to do is not readable, so no commitment is recorded.
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]
@@ -1575,3 +1583,7 @@ On an [[wiki/meetings/2026-10-21-pavel-frolov-use-case-docs-and-commissioning-ch
 - [[raw/Meeting_Transcript_Pavel_Frolov_Use_Case_Docs_and_Commissioning_Chatbot-October-21-2026.md]]
 - [[raw/Meeting_Transcript_Pavel_Frolov_Commissioning_Chatbot_Product_Owner-October-21-2026.md]]
 - [[raw/Meeting_Notes_Pavel_Frolov_Commissioning_Chatbot_Product_Owner-October-21-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
+- [[raw/Meeting_Notes_Pavel_Frolov_Code_Standards_and_Knowledge_Repo-October-22-2026.md]]
+- [[raw/Meeting_Transcript_Pavel_Frolov_Code_Standards_and_Knowledge_Repo-October-22-2026.md]]

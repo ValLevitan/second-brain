@@ -3,7 +3,7 @@ type: decision
 title: Hardware parts start from Nathan's folder list (harness, display and sheet metal first) with free-form content plus readme, Prose and data contracts, and the agent generates the data contracts from the data sheets and drawings Genadi has vetted — the "one repository per project, three repositories first" element was reversed Oct 21 (one repository with subfolders)
 date: 2026-10-19
 aliases: [first three hardware repos, harness display sheet metal, repository equals project, one repository per project, free-form repository, readme Prose data contracts, data contracts are generated not hand-written, a release is a bill of material, only vetted items go in, 13 repositories, about 15 repositories, hardware manufacturing repo name, Andrei opens repos Dima opens projects, repositories or tags, Andrei does not want fifteen repositories, tags are bad]
-source-count: 8
+source-count: 10
 status: active   # the separate-repositories element is superseded by the Oct-21 one-repository ruling; the data-contract part stands
 open-commitments: 4
 open-questions: 1
@@ -81,6 +81,10 @@ At the [[wiki/meetings/2026-10-21-hardware-parts-single-repo-and-bom-spike.md|Oc
 
 **§15.8:** clear. **§15 #9:** clear.
 
+## Note, Oct 22 2026 — data contracts again; not readable
+
+At an [[wiki/meetings/2026-10-22-genadi-peari-bill-acceptor-harness-and-data-contracts.md|Oct-22 10:22 AM call]] Val and Genadi spoke about data contracts again. Teams wrote the speech down as English words; only terms can be read: "part number", "manufacturers", "vendor", "part number substitutes different brands, different part numbers", "category"; Val: "Can you put in my data contract?" [[raw/Meeting_Transcript_Genadi_Peari_Bill_Acceptor_Harness_and_Data_Contracts-October-22-2026.md]] [[raw/Meeting_Notes_Genadi_Peari_Bill_Acceptor_Harness_and_Data_Contracts-October-22-2026.md]]. Nothing here changes the ruling or its open items.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]
@@ -91,3 +95,5 @@ At the [[wiki/meetings/2026-10-21-hardware-parts-single-repo-and-bom-spike.md|Oc
 - [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]
 - [[raw/Meeting_Notes_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]
+- [[raw/Meeting_Notes_Genadi_Peari_Bill_Acceptor_Harness_and_Data_Contracts-October-22-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_Peari_Bill_Acceptor_Harness_and_Data_Contracts-October-22-2026.md]]

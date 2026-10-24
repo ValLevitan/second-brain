@@ -3,7 +3,7 @@ type: decision
 title: The first ten transactional locations go in from November 1 — stock monitors instead of covers, Flexports without Wi-Fi, JVL-made brackets for the first location, ten harness sets made by hand, at most two installs a day, then a pause
 date: 2026-10-14
 aliases: [path to the first ten locations, November 1 stays, Первое ноября у нас решено, first ten locations then a pause, десять локаций нам сделаем паузу, monitors instead of covers, JVL We Take Our Games Seriously on the monitor, first release without Wi-Fi, no port replacement, brackets for the first location, order brackets for ten locations, hand-made harnesses, ten sets of harness by hand, two installs a day, sixty ports for ten locations]
-source-count: 8
+source-count: 9
 status: active
 open-commitments: 7
 open-questions: 2
@@ -50,7 +50,7 @@ The derived notes record the decisions the same way: November 1 stands; stock mo
 - [ ] [[wiki/people/val-levitan.md|Val Levitan]] — talk with Genadi and Elizabeth so the harness drawings are done and 10 sets are made by hand — due before Nov 1 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
 - [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — harness drawings; order the harnesses from the China supplier, shipped by air — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — buy the MikroTik switch, a Cat6 spool, a good crimping tool and connectors — due unspecified — [[raw/Meeting_Notes_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
-- [ ] [[wiki/people/val-levitan.md|Val Levitan]] — find the tracking link for the 100 modems on order — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
+- [ ] [[wiki/people/val-levitan.md|Val Levitan]] — find the tracking link for the 100 modems on order — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]] — *Oct 21 2026: still open. On a [[wiki/meetings/2026-10-21-genadi-peari-china-modems-payment-not-sent.md|call with Val]] Genadi said 100 modems were ordered on Amazon by someone not named and he does not know where they are; whether these are the same 100 is not stated. See [[wiki/decisions/2026-09-04-north-america-modem-variant-and-ask-kore-for-the-apn.md]] (Oct-21 update)* [[raw/Meeting_Transcript_Genadi_Peari_China_LTE_Modems_Payment-October-21-2026.md]]
 
 The notes list running AI over the November-1 MVP in Jira as unassigned [[raw/Meeting_Notes_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]].
 
@@ -82,3 +82,4 @@ At the [[wiki/meetings/2026-10-20-third-party-egm-bv-emulation-mode-and-sas-data
 - [[raw/Meeting_Notes_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]
 - [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]
 - [[raw/Meeting_Notes_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_Peari_China_LTE_Modems_Payment-October-21-2026.md]]

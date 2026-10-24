@@ -3,7 +3,7 @@ type: decision
 title: The AI PM goes live in real Jira projects on Monday Oct 12 on its current architecture (change it later if needed); Lena's meetings leave the pilot; the agent deletes only what it created and only comments on the rest; the agent is not genderless and gets a name
 date: 2026-10-08
 aliases: [AI PM live October 12, боевой режим, launch with current architecture, Lena out of the AI PM pilot, agent deletes only its own items, AI Draft status, AI Draft lifetime, Dasha, the AI PM is not genderless, two kinds of draft]
-source-count: 19
+source-count: 21
 status: active
 open-commitments: 8
 open-questions: 5
@@ -163,6 +163,15 @@ At the [[wiki/meetings/2026-10-21-daily-standup-flex-port-mode-switch-and-sas-cr
 - **The AI Draft on Pavel.** Kovalchuk: Pavel should have an AI Draft. Pavel: under that draft he had already created a story for the SAS fix ([[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]], Oct-21 update); he will close the task and attach the report on supported SAS commands [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]].
 - Whether Biratka's Oct-19 AI Draft (above) was handled is not said.
 
+## Update, Oct 22 2026 — the stand-up is spoken for the PM; overdue and undated tasks; two LGS tasks unlinked
+
+At the [[wiki/meetings/2026-10-22-daily-standup-flex-port-cashout-screens-and-native-engine.md|Oct-22 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]:
+
+- **Speak for the PM.** [[wiki/people/ivan.md|Ivan]] first said "без изменений". [[wiki/people/pavel.md|Pavel]]: "Это ж пишется для пиема" — if he says no change, the PM will conclude "можно Ивана подгрузить дополнительные работы" [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]].
+- **Who creates the cash-out tasks.** [[wiki/people/alexander-biratka.md|Biratka]] asked whether the PM would create the tasks for the Flex-Port cash-out fixes; [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]]: "посмотрим, что… создаст" — [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]] (Oct-22 update) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]].
+- **Undated and overdue.** Kovalchuk: many tasks have no due dates; Pavel has nine overdue. Pavel had already reviewed some that morning and closed part; he sorts out the stuck and overdue Flex-Port tasks today, and [[wiki/people/irina-shishko.md|Irina]] checks that nothing is lost [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]].
+- **LGS-1040 and LGS-1042** (as heard) are open, but their parents are closed. Pavel: probably set-up-screen tasks for LGS that Vladimir ([[wiki/people/vladimir-samusenko.md|Samusenko]], who owns the set-up screens — **inference**) moved to him because the LGS side was not built. Irina: the parents closed "потому что это омни". Pavel proposed unlinking them, keeping them in the backlog and later giving them to Kharetski; Irina unlinked them and said they will come back to it after the capabilities work, when they return to NOVA in detail ("к ново", as heard) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
 - [[raw/Meeting_Notes_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
@@ -183,3 +192,5 @@ At the [[wiki/meetings/2026-10-21-daily-standup-flex-port-mode-switch-and-sas-cr
 - [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
