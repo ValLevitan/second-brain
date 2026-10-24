@@ -5684,3 +5684,6 @@ The run total is **30 recordings → 27 meeting events** (not "34 → 29"): thre
 **Owner Decisions queue:** overview LIVE OPEN gained A27–A36 and C19–C20. overview.md refreshed (counts, health, run line).
 **Category / type fit:** no change. Standing note: transactional/RIS/Flex-Port decisions still split between "Games & Design" and "Markets & Product" — the "Transactional & RIS" split proposal stays for the monthly lint. No month boundary this run (October still open), so no month-close manifest.
 Lint only diagnosed; edits were catalog housekeeping (index summaries for the superseded Sept-4 decision and the two retitled repo decisions).
+
+## [2026-10-24] note | weekly report written and sent — steady-state run of 2026-10-24 complete
+Report file overwritten (30 recordings / 27 meetings, Oct 18 – Oct 23; 279/279 verified; owner items A27–A36, C19–C20). Bonus send to val@jvl.ca done (§17.1 authorized). Pushed to GitHub (ValLevitan). qmd update run; qmd embed started after the push.
