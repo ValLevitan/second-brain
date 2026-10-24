@@ -3,9 +3,9 @@ type: decision
 title: The RIS improvements release notes are settled point by point with Val (nine points) — settings kept through an upgrade, the lease period stays unaltered, a peripheral registers on its own, a missed machine runs on with an upgrade warning (Felipe's paragraph), the error screen names the cause (no new error-code list now), the cash-out paragraph stays — and the team is asked to rewrite the tasks, capability and acceptance criteria to match (Oct 20 2026)
 date: 2026-10-20
 aliases: [RIS improvements release notes, refinement of RIS improvement Pros, release notes review, nine points, clean draft, the current lease period will remain unaltered, peripheral such as a bill acceptor, currently instead of today, Felipe's paragraph, point 6, machines missed during an upgrade, upgrade pending, one more lease interval, the screen will name the cause of the error, no bank in street operation, 81 pages of 20 records, fix the description in the actual tasks, Intralot replies on hard and soft reset]
-source-count: 7
+source-count: 9
 status: active
-open-commitments: 1
+open-commitments: 3
 open-questions: 3
 ---
 
@@ -77,6 +77,15 @@ At the [[wiki/meetings/2026-10-21-daily-standup-flex-port-mode-switch-and-sas-cr
 
 At the [[wiki/meetings/2026-10-22-daily-standup-flex-port-cashout-screens-and-native-engine.md|Oct-22 Minsk stand-up]] (Russian; Val absent) [[wiki/people/irina-shishko.md|Irina]] said she sent the rule requirements to Felipe the day before; he has reviewed only requirement 1838 (printers, Georgia), which is now final; he may still add to or rewrite others, especially those tied to RIS and the lease (lease is an **inference**) — [[wiki/topics/ris-remote-install-and-machine-states.md]] (Oct 22) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]. The commitment above is still in work.
 
+## Note, Oct 23 2026
+
+At the [[wiki/meetings/2026-10-23-daily-standup-bill-validator-lockout-and-atlanta-port-test.md|Oct-23 Minsk stand-up]] (Russian; Val absent) [[wiki/people/irina-shishko.md|Irina]] said [[wiki/people/felipe-miranda.md|Felipe]] went quiet again after reviewing one requirement, but all the other requirements are rewritten too; she expects any change from Felipe to be small. [[wiki/people/evgeny-kharetski.md|Kharetski]] should re-check that everything is done to the latest state of the requirements — "сколько 6 ка побилити" (about six capabilities) — "чтобы мы не теряли время и не ждали Филиппа". She will ping Felipe that day. [[wiki/people/ivan.md|Ivan]] continues on RIS; Pavel asked him to update the end dates of overdue tests, and Irina asked him to recount the test plans against the latest requirements, as more scenarios may need checking [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]. The rewrite commitment above is close to done but not reported closed.
+
+### Open commitments (Oct 23 2026)
+
+- [ ] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — check that all RIS release capabilities (about six) are built to the latest requirements, without waiting for Felipe — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
+- [ ] [[wiki/people/ivan.md|Ivan]] — update the end dates of overdue tests and recount the test plans against the latest requirements — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]]
@@ -86,3 +95,5 @@ At the [[wiki/meetings/2026-10-22-daily-standup-flex-port-cashout-screens-and-na
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]

@@ -3,9 +3,9 @@ type: project
 title: Nebraska skill-gaming market entry
 date: 2025-03-14
 aliases: [Nebraska, Nebraska skill market, TNT, TNT Enterprises, NTN, T&T, Wagner, Whitey Tolliver, Mike Kotab, Michael Kotab, Miko, Nebraska nudge, Nebraska Department of Revenue, Georgia 1, Georgia 2, no-hands version, Golden Husk, corn bonus, power slider, power meter, Lucky Rainbow, Bullseye, Bonilla Games, Banila, Vanilla, Thistle, Swift bonus, Simon game, secondary skill, Brittany Waters, Malibu, Eclipse, Intralot, Texas skill]
-open-commitments: 10
+open-commitments: 8
 open-questions: 12
-source-count: 70
+source-count: 72
 ---
 
 # Nebraska skill-gaming market entry
@@ -472,7 +472,19 @@ At the [[wiki/meetings/2026-10-13-intralot-christos-tzoumaras-dinner-route-partn
 - **Intralot's role there.** "**In Nebraska, we only have the system, but we operate**" (Val: "**Everything remotely from here**"). Intralot's first US lottery was Nebraska, "**2003, let's say 2004, went live**".
 - **Branding.** First "**Nebraska Lottery machines**", later perhaps "**Nebraska Lottery powered by Bally's**".
 
+## Oct 23 2026 — the build is playing, about ten machines, a new dual box rule, and production to December 21
+
+At the [[wiki/meetings/2026-10-23-game-development-dual-box-rule-and-colombia-class-3.md|Oct-23 2:00 PM game-development meeting]] (English) [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]] [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]:
+
+- **The Nebraska build is "up and playing"** (Michael). Asked how many machines JVL has deployed in Nebraska, [[wiki/people/val-levitan.md|Val]] said "Ten", so changing the mechanic is "Not a factor". [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- **The dual box comes before the rack.** On a line win the box comes up, the player picks, then the win is racked; on a Match 3 progressive or free-spins trigger the box reads "to access bonus" — [[wiki/decisions/2026-10-23-nebraska-dual-box-comes-before-the-rack-and-reads-to-access-bonus-when-a-bonus-is-triggered.md]]. Nebraska keeps its larger dual box, because Nebraska competitors use one — [[wiki/decisions/2026-10-08-dual-box-for-nebraska-class-a-and-georgia-five-reel-and-no-smaller-touch-area-for-the-wrong-coin.md]] (Oct-23 update).
+- **Aaron's Pub goes to the next Nebraska release**, "not this one" (Lena) [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]; **Wildfire Ranch** art was shown — Michael's "aspirational wealth" for Nebraska and South Dakota players. Details on [[wiki/topics/slot-game-design-principles.md]] (Oct 23).
+- **Only Nebraska is in production**, and the schedule runs to "December 21st" (Lena; year not said — 2026 by context, **inference**). After it, Class A is the first NOVA project — [[wiki/decisions/2026-10-23-class-a-is-the-first-nova-game-project-ahead-of-south-dakota-d27-and-val-keeps-that-priority.md]] [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+
 ## History
+
+- [x] Michael Gottlieb — finish the **Wildfire Ranch** abstract (new "Nebraska aspirational" game, aiming for D2702) — due TBD — [[raw/Meeting_Notes_NOVA_Capability_Wishlist-August-14-2026.md]] — **discharged by Oct 23 2026:** the game's art was shown, built on his "aspirational wealth" concept; he said the concept and mechanics are defined [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- [x] Lena Zhukova — start the **Wildfire Ranch** comp art (follows Michael's abstract) — due TBD — [[raw/Meeting_Notes_NOVA_Capability_Wishlist-August-14-2026.md]] — **discharged by Oct 23 2026:** Lena showed the current Wildfire Ranch art [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
 
 - **Jan 8 2026 — a market-size figure Val gave a Texas prospect.** Asked how JVL chooses between markets, [[wiki/people/val-levitan.md|Val]] told [[wiki/people/rich-winley.md|Rich Winley]]: "**Nebraska today has 4,000 machines and growing at 40% per year.** And Texas has… godly amount." He also said Nebraska's operators "used to be my customer for amusement machines, so I don't need to do any selling of the brand". *(Val's own figures, said at lunch; they sit beside the ~4,000–5,000 games in the field noted for June 2025 above.)* See [[wiki/meetings/2026-01-08-rich-winley-miami-lunch-texas-distribution-pitch.md]]. [[raw/Meeting_Transcript_Rich_Winley_Miami_Lunch_Texas_Distribution_Pitch-January-8-2026.md]]
 
@@ -496,8 +508,6 @@ At the [[wiki/meetings/2026-10-13-intralot-christos-tzoumaras-dinner-route-partn
 
 ## Open commitments
 
-- [ ] Michael Gottlieb — finish the **Wildfire Ranch** abstract (new "Nebraska aspirational" game, aiming for D2702) — due TBD — [[raw/Meeting_Notes_NOVA_Capability_Wishlist-August-14-2026.md]]
-- [ ] Lena Zhukova — start the **Wildfire Ranch** comp art (follows Michael's abstract) — due TBD — [[raw/Meeting_Notes_NOVA_Capability_Wishlist-August-14-2026.md]]
 - [ ] Efim Podvoiski — build the **Match-3 progressive for Nebraska** (replacing Golden Husk) and create the Jira task described as a capability — due ~3 weeks (before his Sept-15 absence) — [[raw/Meeting_Notes_Multiplayer_Cabinet_Concepts_NOVA_Strategy-August-21-2026.md]]
 - [ ] Juan Martinez — create the Jira **product-capability / requirement** entry for the Match-3-to-Nebraska work — due TBD — [[raw/Meeting_Notes_Multiplayer_Cabinet_Concepts_NOVA_Strategy-August-21-2026.md]]
 - [ ] Val — answer Rick Rees's question: **can a JVL machine capture a W-9 at the terminal** the way Easy Links' "casino software" does — due unspecified — [[raw/Meeting_Notes_JJ_Gaming_Bank_Shot_and_Nebraska_Withholding-June-16-2026.md]] [[raw/Meeting_Transcript_JJ_Gaming_Bank_Shot_and_Nebraska_Withholding-June-16-2026.md]]
@@ -595,3 +605,5 @@ At the [[wiki/meetings/2026-10-13-intralot-christos-tzoumaras-dinner-route-partn
 - [[raw/Meeting_Notes_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
 - [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
+- [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]

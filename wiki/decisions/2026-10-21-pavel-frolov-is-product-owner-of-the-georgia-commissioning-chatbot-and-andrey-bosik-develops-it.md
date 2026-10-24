@@ -3,9 +3,9 @@ type: decision
 title: Pavel Frolov is product owner of the Georgia commissioning chatbot and Andrey Bosik develops it — the machine itself calls Intralot and a chatbot answers the commissioning questions, every call is recorded, and a failed call goes to a live technician (Val, Oct 21 2026)
 date: 2026-10-21
 aliases: [commissioning chatbot, Georgia commissioning chatbot, chatbot for commissioning machines, комиссия чат бот, чат бот для комиссии машин, commission machine button, machine calls Intralot, Pavel product owner of the chatbot, Bosik develops the chatbot, voice over IP in the cloud]
-source-count: 4
+source-count: 6
 status: active
-open-commitments: 3
+open-commitments: 4
 open-questions: 2
 ---
 
@@ -39,6 +39,7 @@ Decided by [[wiki/people/val-levitan.md|Val Levitan]] on an ad-hoc Teams call wi
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — define spikes for Andrey Bosik on the commissioning chatbot, if needed — due unspecified — [[raw/Meeting_Transcript_Pavel_Frolov_Commissioning_Chatbot_Product_Owner-October-21-2026.md]] [[raw/Meeting_Notes_Pavel_Frolov_Commissioning_Chatbot_Product_Owner-October-21-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — write the capability set for the chatbot build (user screens, Galaxy functions) while the spikes run — due unspecified — [[raw/Meeting_Transcript_Pavel_Frolov_Commissioning_Chatbot_Product_Owner-October-21-2026.md]] [[raw/Meeting_Notes_Pavel_Frolov_Commissioning_Chatbot_Product_Owner-October-21-2026.md]]
 - [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — develop the commissioning chatbot (assigned by Val; not on the call) — due unspecified — [[raw/Meeting_Transcript_Pavel_Frolov_Commissioning_Chatbot_Product_Owner-October-21-2026.md]] [[raw/Meeting_Notes_Pavel_Frolov_Commissioning_Chatbot_Product_Owner-October-21-2026.md]]
+- [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — review Pavel's workflow document for the voice assistant that arranges decommissioning and commissioning — due unspecified — [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]] [[raw/Meeting_Notes_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 
 ## Open questions
 
@@ -47,7 +48,13 @@ Decided by [[wiki/people/val-levitan.md|Val Levitan]] on an ad-hoc Teams call wi
 
 **§15.8:** clear. **§15 #9:** clear — no machine, location or licence numbers were given.
 
+## Note, Oct 23 2026 — Pavel's workflow document goes to Bosik; the bot does not shorten the wait
+
+At the [[wiki/meetings/2026-10-23-technician-loyalty-and-developers-as-product-owners.md|Oct-23 "coffee machine" chat]] (Russian) [[wiki/people/pavel.md|Pavel]] said that the day before he prepared "документ, описывающий воркфлум в целом. И какие там есть нюансы" for the automatic assistant that calls and arranges decommissioning and commissioning, and sent it to Andrey to look at; Val: "Андрею босику" — Pavel: "Да да да" [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]. The notes list Bosik's review of it as an undertaking [[raw/Meeting_Notes_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]. Later [[wiki/people/andrey-bosik.md|Bosik]] said a voice bot calling the regulator "не сократит время декамишин" — the technician still has to wait on site; Pavel: the key is to take re-commissioning out of every case that does not need it [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]. The wider plan: [[wiki/decisions/2026-10-23-to-sell-in-georgia-jvl-must-win-back-the-operators-technicians-by-making-its-machines-easier-to-service-starting-with-the-lighter-ris-in-november.md]]. Nothing here says spikes are defined or capabilities written, so Pavel's commitments stay open.
+
 ## Sources
+- [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
+- [[raw/Meeting_Notes_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 
 - [[raw/Meeting_Transcript_Pavel_Frolov_Use_Case_Docs_and_Commissioning_Chatbot-October-21-2026.md]]
 - [[raw/Meeting_Notes_Pavel_Frolov_Use_Case_Docs_and_Commissioning_Chatbot-October-21-2026.md]]

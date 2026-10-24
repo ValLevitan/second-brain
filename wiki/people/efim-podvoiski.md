@@ -3,7 +3,7 @@ type: person
 title: Efim Podvoiski
 date: 2026-07-13
 aliases: [Efim Podvoiski, Efim, Yefim, Ifim, EFIM, Podvoiski, Athim, Athene, Athena, Ethan, Epheme, Afim]
-source-count: 75
+source-count: 79
 open-commitments: 11
 open-questions: 0
 ---
@@ -314,6 +314,19 @@ At the [[wiki/meetings/2026-10-16-daily-standup-mvp2-wi-fi-scope-and-modem-mac-r
 
 At the [[wiki/meetings/2026-10-19-daily-standup-clover-fortune-on-nova-and-encrypted-settings-qr.md|Oct-19 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] Leshkevich said Efim made the maths container for Clover Fortune almost in one day. Whether he made it for all six games or one is open; Igor is to be asked — [[wiki/decisions/2026-10-18-rage-is-closed-dutch-mill-reaches-nova-by-wednesday-and-a-reskin-from-a-new-theme-tests-the-tools.md]] (Oct-19 update).
 
+## Oct 23 2026 — his maths Excel files stay on GitHub, undocumented for now
+
+On the [[wiki/meetings/2026-10-23-math-excel-files-stay-on-github.md|Oct-23 9:02 AM call with Val and Bosik]] (Russian) [[raw/Meeting_Transcript_Math_Excel_Files_Stay_on_GitHub-October-23-2026.md]] [[raw/Meeting_Notes_Math_Excel_Files_Stay_on_GitHub-October-23-2026.md]] he explained the large Excel files Val's Claude flags as undocumented: they calculate RTP and hold the reels and other maths settings; he changes the reels, a macro exports them, and he puts the result into the game config, which goes to production — by hand. The files are not part of the build. He sees no simple way to document them now and does not think Claude can yet; he builds a game by changing an earlier one. He needs the files kept for similar games, and they stay on GitHub. He hopes Claude will learn to work with Excel directly, and asked whether the folders could be left out of the scan (Val: later) — [[wiki/decisions/2026-10-23-the-math-excel-files-stay-on-github-no-prose-is-forced-on-them-and-val-ignores-the-not-documented-report.md]].
+
+## Oct 23 2026 (2:00 PM) — the dual box rule, Class A maths "totally new", and churn explained
+
+At the [[wiki/meetings/2026-10-23-game-development-dual-box-rule-and-colombia-class-3.md|Oct-23 2:00 PM game-development meeting]] (English) [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]:
+
+- **Dual box.** He pushed for one rule for every bonus — Match 3, free spins, Fiery Ice — as "more consistent"; Michael agreed. On Igor's request for written requirements: "We just want to decide first." — [[wiki/decisions/2026-10-23-nebraska-dual-box-comes-before-the-rack-and-reads-to-access-bonus-when-a-bonus-is-triggered.md]]
+- **Class A.** Wild Colt with Match 3 is not started, "because first we have to do class A"; for Class A "the masses [maths is] totally new" — [[wiki/decisions/2026-10-23-class-a-is-the-first-nova-game-project-ahead-of-south-dakota-d27-and-val-keeps-that-priority.md]]
+- **Churn.** He explained it to Val: total bet divided by the money brought in; it depends first on RTP, and higher volatility gives lower churn — [[wiki/topics/slot-game-design-principles.md]] (Oct 23).
+- **Colombia.** He asked whether JVL has new cabinets there — [[wiki/decisions/2026-10-23-jvl-stays-out-of-casino-class-3-and-a-colombia-refresh-on-nova-starts-from-what-earns-there-now.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Notes_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]
@@ -392,3 +405,7 @@ At the [[wiki/meetings/2026-10-19-daily-standup-clover-fortune-on-nova-and-encry
 - [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
+- [[raw/Meeting_Transcript_Math_Excel_Files_Stay_on_GitHub-October-23-2026.md]]
+- [[raw/Meeting_Notes_Math_Excel_Files_Stay_on_GitHub-October-23-2026.md]]
+- [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]

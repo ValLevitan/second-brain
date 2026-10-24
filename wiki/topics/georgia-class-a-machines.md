@@ -3,7 +3,7 @@ type: topic
 title: Georgia Class A machines
 date: 2026-08-31
 aliases: [Class A, Class A machines, Alan Powell, twenty five seventy five, twenty eighty, one game suite, forty bucks per day, намберту, в принципе дали мне заказ, two machines a week, five machines a week, the same machines go to Texas, Class A on Nova, Class A V43, party time feature, awards cannot be bet, for now yes, playing within the rules, no book of Class A regulations, if you had a pulse you get a license, not hooked up to a central accounting system, hang our hat on one supplier, slinging them out and seeing what sticks, it's predominantly the meters, Class A licence easier than B, Georgia Class A, Class A licence, amusement machines Georgia, two-bucket win system, $50 per spin cap, $50 per hand, Primero Class A, play bucket, redemption bucket, Hope Scholarship, class eight]
-source-count: 34
+source-count: 36
 open-commitments: 0
 open-questions: 15
 ---
@@ -481,6 +481,15 @@ At the [[wiki/meetings/2026-10-13-arc-zazanis-lunch-trade-in-and-2027-volume.md|
 - **What George does want: a progressive.** "**what Primero tried to do: progressive zapping**" (as transcribed) — "**GLC didn't allow them. They said it's too aggressive.**" This matches the Aug-31 account above (built, then pulled).
 - **A revenue share is on offer.** Val said [[wiki/people/david-sloan.md|David Sloan]] offered him a share of machine revenue, as with Primero; George confirmed the logic.
 
+## Oct 23 2026 — Class A becomes the first NOVA game project; a real glass shader; the dual box rule carries over
+
+At the [[wiki/meetings/2026-10-23-game-development-dual-box-rule-and-colombia-class-3.md|Oct-23 2:00 PM game-development meeting]] (English) [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]] [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]:
+
+- **First on NOVA, after Nebraska.** Lena: "our first project in Nova is going to be Class A". Michael: Class A goes "in front of South Dakota D27". Val: "I'm not changing the priority." — [[wiki/decisions/2026-10-23-class-a-is-the-first-nova-game-project-ahead-of-south-dakota-d27-and-val-keeps-that-priority.md]]
+- **Status.** "Class A requirements are done"; Lions Riches, the test bed, is done in design; Michael expects all Class A concept and abstract work done by the end of the next week. The maths is "totally new" (Efim). [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- **Liquid Glass, done for real.** Today the glass effect is "fake"; the new framework gets a shader so the reels move under semi-transparent dialog boxes. Michael: this look "is in alignment with what class A looks like… in that market". [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- **Dual box timing.** The new Nebraska rule (box first, then rack; "to access bonus" on a bonus trigger) is "how we're going to be doing it for Class A as well" (Michael) — [[wiki/decisions/2026-10-23-nebraska-dual-box-comes-before-the-rack-and-reads-to-access-bonus-when-a-bonus-is-triggered.md]]
+
 ## Open contradictions
 
 - **What does ARC pay Primero up front for a Class A game?** Sept 16 2026, ARC's CEO: "**I pay a thousand dollars for the software**" [[raw/Meeting_Transcript_ARC_Gaming_Cashless_Suite_Demo_and_Class_A_Cabinet_Counter_Offer-September-16-2026.md]]. Oct 13 2026, ARC's COO: "**one thousand two hundred fifty dollars for one thousand one hundred fifty dollars**… For the PCB. For the game board", after a $300–350 discount; Val, the same day, recalled the CEO saying "**fifteen hundred**" [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]. Same period, same deal, different figures. Not resolved.
@@ -548,3 +557,5 @@ At the [[wiki/meetings/2026-10-13-arc-zazanis-lunch-trade-in-and-2027-volume.md|
 - [[raw/Meeting_Notes_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
 - [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
 - [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
+- [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]

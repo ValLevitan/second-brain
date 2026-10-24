@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, COAM Hearing Room, Georgia Lottery Corporation, Tracy Warren, HB 353, Intralot lab, Bill at Intralot, three fifty-eight nine, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing, GAMOA, ILERS, ILAS report, Eilers, Eiler report, show special, Mega Hit Blaze, sales channel report, Bulldog Gaming, ARC, ARC Gaming, Class A, C-Store Connect, GACS, route consolidation, gift-card cash-back notice, Chris Plonic, Double Down Gaming, Ryan O'Donnell, Billy Liu, Play Payments, PlayPay, banking licence moat, 7455 modem, KORE, KORE SIM, APN, GACS October 21, Pay Slim, over-drive, Rao, Narasimha Rao Namburi, David Milani, September 2 letter, 5500 PAX locations, Lucky Coin service burden, Lucky Bucks is ARC, the market is literally bottomless, backend displacement, David Sloan, Dave Sloan, Bill the kiosk vendor, the wording is in the same location, guidance is not the law, Digital Cash Processing, DCP, ICP Inc., Gen Mega, Andrew Cashin, Rick Beer, seventy four hundred locations forty seven thousand machines, Unlimited Amusement, Mega Hit Blaze V3, program the rollout, Swanee, Johns Creek, Singleton, SurfNote, Debbie Alford, eighteen thousand connected, Mike Mackey, five hundred dollars per unit per machine, WSS protocol, not even one installation, Georgia Lazy, Skyriser, Cardinal, outside looking in, Rich Winley briefing, 18 games in one pack, one USB stick for all Peach, Peach 1 2 3 combined]
-source-count: 258
+source-count: 260
 open-commitments: 74
 open-questions: 38
 ---
@@ -1870,7 +1870,13 @@ Val and Felipe presented the RIS improvements release notes at [[wiki/organizati
 
 On a [[wiki/meetings/2026-10-21-val-felipe-sales-refocus-on-the-eighty-list.md|short call]] with [[wiki/people/felipe-miranda.md|Felipe]], Val said he sees no way out without refocusing JVL's efforts on the "Eighty-List" — the registered second-tier Georgia master operators, each about 20 locations or about 100 machines (definition per the notes) — and not on the top 20. He put Aristocrat as what is hot, at about $25,000 a machine for a small operator, and doubted Felipe's view that small operators get terms from makers — [[wiki/decisions/2026-10-21-georgia-sales-refocus-on-the-eighty-list-of-second-tier-master-operators-not-the-top-20.md]] [[raw/Meeting_Transcript_Sales_Outbound_Targeting_Mid_Tier_Operators-October-21-2026.md]] [[raw/Meeting_Notes_Sales_Outbound_Targeting_Mid_Tier_Operators-October-21-2026.md]].
 
+## Oct 23 2026 (11:02 AM) — Val's new diagnosis: the technicians, not the payout
+
+At an [[wiki/meetings/2026-10-23-technician-loyalty-and-developers-as-product-owners.md|informal chat]] with the Minsk leads, Val said the two-year chase of payout was only part of it: JVL's average RTP in the last release was about 95.5% against competitors' 90–92%, so its machines would need about 40% more play to make the same money, which he called impossible; but the real problem is that the operators' technicians have learned to hate the JVL machine, because of long commissioning calls and frequent factory resets, and owners listen to them. JVL now aims to win them back — the lighter RIS in November first, then tools for technicians — [[wiki/decisions/2026-10-23-to-sell-in-georgia-jvl-must-win-back-the-operators-technicians-by-making-its-machines-easier-to-service-starting-with-the-lighter-ris-in-november.md]] [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]] [[raw/Meeting_Notes_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]].
+
 ## Sources
+- [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
+- [[raw/Meeting_Notes_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 
 - [[raw/Meeting_Notes_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
 - [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]

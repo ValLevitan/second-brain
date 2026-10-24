@@ -3,7 +3,7 @@ type: decision
 title: No freeze is allowed inside a game — a game's bonus and feature videos are decoded when the game is entered and kept, not on the way into a feature
 date: 2026-10-14
 aliases: [no stutter inside a game, decode videos at game entry, в пределах одной игры подтормаживание не должно быть, bonus video micro-freeze, half-second micro-freeze, decode at game entry and keep, 5 games in 8 GB]
-source-count: 3
+source-count: 5
 status: active
 open-commitments: 0
 open-questions: 1
@@ -40,8 +40,14 @@ On Oct 13 the question was whether to free decoded feature video after each feat
 
 **§15.8:** clear.
 
+## Note, Oct 23 2026 — entering a game takes about 2 seconds for one game and about 10 for another
+
+At the [[wiki/meetings/2026-10-23-daily-standup-bill-validator-lockout-and-atlanta-port-test.md|Oct-23 Minsk stand-up]] (Russian; Val absent) Daniil Stauskiy checked a game's start when only that game's videos are decoded on entry: "ковер фортуна около 2 секунд, а вот колле еще около 10 секунд, что как я понимаю слишком долго для входа" ("ковер фортуна" read as Clover Fortune and "колле" as Calle Ocho — both **inference**). On memory: "рам будет хватать уже под даже наверное игр 8", and the processor and GPU will be the limit — how fast a game loads and whether it freezes. [[wiki/people/pavel.md|Pavel]]: the game ran on a board with 4 GB, with a large reserve; "Наверное, 4 игры запустятся" even on that board. Which board is not said [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]. This bears on the open question below (Daniil's Oct-14 estimate was about 5 games in 8 GB); it does not settle it.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]

@@ -3,7 +3,7 @@ type: decision
 title: First NOVA product = South Dakota VLT-2 (owner ruling, 2026-09-01) — supersedes the Aug-14 "South Dakota Vertical 01 first" sequencing
 date: 2026-09-01
 aliases: [first NOVA product, South Dakota VLT 3, VLT3 vs VLT-2, first Nova release, SD VLT-2 first on NOVA, South Dakota VLT-2 first NOVA product, NOVA release sequencing ruling]
-source-count: 4
+source-count: 5
 status: active
 open-commitments: 0
 open-questions: 0
@@ -68,6 +68,12 @@ The [[wiki/meetings/2026-09-11-rage-sunset-and-class-a-on-nova.md|Sept-11 1:00 P
 - **But the room calls that product "South Dakota VLT 3", not VLT-2.** Lena: "**we are planning on 1st Nova is South Dakota V[LT]3**" and "**IP 1180, it's for South Dakota VLT 3, which will be designed in Nova**"; Val used the same term back to her. **Recorded, not resolved** — the owner's ruling names the first NOVA product **South Dakota VLT-2**, and this source names it VLT 3. Two readings are possible (same product, different digit; or genuinely successive releases), and the wiki asserts neither. The full note is on [[wiki/projects/south-dakota-vlt-market.md]] (Sept 11, 1:00 PM). **Queued for the owner.** [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
 - **A second RAGE South Dakota track is confirmed dead**, which is consistent with everything above: Michael, "**One's the Nova D27 and the other one's the Rage V43, which we just recently decided we're not going to pursue**", with its games migrating into the D27 NOVA product. [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
 
+## Oct 23 2026 — the game team puts Class A ahead of South Dakota D27 on NOVA
+
+At the [[wiki/meetings/2026-10-23-game-development-dual-box-rule-and-colombia-class-3.md|Oct-23 2:00 PM game-development meeting]] — **a source, not an owner ruling** — Val asked whether South Dakota D27 is "the first release of Nova or in Nova". Michael: "we were under the impression that Class A was a higher priority. So we were going to put Class A in front of South Dakota D27." Val: "No, no, I'm not changing the priority. The priority is fine." Lena: "our first project in Nova is going to be Class A." South Dakota has no date [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]] [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]].
+
+This speaks of the order of **game work**, not of which product is released first, and it does not mention this ruling. The ruling above is left standing; whether Oct 23 replaces it is **queued for the owner** (Tier A). Record: [[wiki/decisions/2026-10-23-class-a-is-the-first-nova-game-project-ahead-of-south-dakota-d27-and-val-keeps-that-priority.md]]. GLI is not mentioned on Oct 23 — NOVA → GLI stays unscheduled.
+
 ## Carry-forward
 
 - Acknowledge the **~2-day slip on the September-1 RAGE-based SD VLT-2 GLI submission (actual ≈ Sept 3 2026)** in the next weekly update — owner's explicit instruction, 2026-09-01. *(Written for the Friday 4 September 2026 run, which did not fire; carries forward to whichever run happens next.)*
@@ -77,5 +83,7 @@ The [[wiki/meetings/2026-09-11-rage-sunset-and-class-a-on-nova.md|Sept-11 1:00 P
 - [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 - [[raw/Meeting_Notes_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
+- [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
 
-*(The owner rulings above carry no `[[raw/…]]` source and none should be fabricated — §16. The sources listed here back only the Sept-4 and Sept-11 corroboration sections.)*
+*(The owner rulings above carry no `[[raw/…]]` source and none should be fabricated — §16. The sources listed here back only the Sept-4, Sept-11 and Oct-23 sections.)*

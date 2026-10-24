@@ -3,7 +3,7 @@ type: project
 title: South Dakota VLT market entry
 date: 2025-01-22
 aliases: [South Dakota, SD VLT, South Dakota VLT 3, VLT3, South Dakota D2703, IP1180, IP887, IP1131, IP1137, GD918, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950, V43, D27, SD cap, Bioliches, Gypsy Spirit, Crazy Colt, Queen of Luxor, Liberty Spin, Rodeo Spin, South Dakota vertical, MG Oil report, VLT2, Cool Cat, Black Hills Kino, Dragon Pace, Dakota Bison, Solar Keno, Keno Deluxe, IP459, IP1063, SD VLT performance story, Wild Colt, Lion Riches, Liberty Spins, Dutch Mill]
-source-count: 57
+source-count: 59
 open-commitments: 5
 open-questions: 2
 ---
@@ -377,6 +377,20 @@ On the [[wiki/meetings/2026-10-14-sales-q4-trade-in-plan-and-transactional-momen
 - **Dual cabinets.** Val: "**We're gonna have market in South Dakota. I'm hoping that starting February, March, we're gonna get orders from South [Dakota].**" Old JVL machines taken in trade can also be packaged "**and send them to South Dakota or to Nebraska**" — [[wiki/decisions/2026-10-14-november-and-december-sales-go-to-trade-ins-a-6500-credit-for-jvl-machines-and-banilla-and-igt-machines-for-texas.md]].
 - **What Felipe tells customers.** Asked when the new South Dakota software will be ready, he said: "**it's ready. It was already tested by the lottery. It's right now at the lab.**" Which customer asked is unclear. *(This is Felipe's customer message; it does not settle which lab, an open question below.)*
 
+## Oct 23 2026 — all D27 03 concepts done, four Kenos, no date, and Class A goes first on NOVA
+
+At the [[wiki/meetings/2026-10-23-game-development-dual-box-rule-and-colombia-class-3.md|Oct-23 2:00 PM game-development meeting]] (English) [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]] [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]:
+
+- **Concepts complete.** [[wiki/people/michael-gottlieb.md|Michael]]: "under IP 531, game concepts, if you expand 1164, all of the South Dakota D2703 Nova concepts are complete." [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- **Maths not done for every game.** "the basic concept of the math construct and the mechanics are defined", but Aaron's Pub and Wildfire Ranch need builds "up and playing" so he and [[wiki/people/efim-podvoiski.md|Efim]] can play-test them; the two new Kenos too, because they are "not skins" — "Completely different mechanics, completely different choreography, timings." [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- **Four Kenos in all.** Michael: South Dakota 2 has **Black Hills Keno Deluxe** and **Cool Cat Keno**; South Dakota 3 adds **Solar Keno** and **Queen of Luxor Keno** ("we're just getting started on now"). [[wiki/people/lena.md|Lena]] is on the Queen of Luxor design — an Egyptian theme. [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- **Rodeo Queen** is the Georgia game in a dual-screen version: different maths; the same look, but different proportions, and some background areas must be drawn new because a horizontal screen shows more than a vertical one. [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- **Wild Colt with Match 3:** "nothing is even started"; not in the pipeline, because Class A comes first (Efim). [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- **Design stage.** Lena: done for some games; those images are final, "ready to be given to production". [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- **No date.** Val asked for the tentative date. Lena: "We don't know yet"; maybe decide after Class A on NOVA, and maybe a new Georgia release on NOVA first (curved monitor, August). [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- **Class A goes ahead of South Dakota D27 on NOVA.** Val: "I'm not changing the priority." This changes the Sept-11 order above ("first we're going to release South Dakota") — [[wiki/decisions/2026-10-23-class-a-is-the-first-nova-game-project-ahead-of-south-dakota-d27-and-val-keeps-that-priority.md]]. The owner ruling that the first NOVA product is South Dakota VLT-2 is not overwritten; the question is queued — [[wiki/decisions/2026-09-01-first-nova-product-south-dakota-vlt-2.md]] (Oct-23 note).
+- **Aaron's Pub — which market?** On Oct 23 Michael said "we're bringing this one to Nebraska", and Lena clarified "next Nebraska release". It was recorded on Oct 8 as a South Dakota design. Both may hold; **unclear**. [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+
 ## Open questions
 
 - Is the Oct-2 South Dakota hand-over ("сдавать надо") the RAGE VLT-2 submission or the NOVA release, and does Efim's 40-cent minimum apply to one or both? — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
@@ -461,3 +475,5 @@ On the [[wiki/meetings/2026-10-14-sales-q4-trade-in-plan-and-transactional-momen
 - [[raw/SD_VLT_performance_story-September-2026.md]]
 - [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]

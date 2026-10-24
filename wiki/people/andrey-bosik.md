@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 141
+source-count: 145
 open-commitments: 50
 ---
 
@@ -664,7 +664,17 @@ Val named him developer of the chatbot that commissions machines with Intralot, 
 
 At an [[wiki/meetings/2026-10-21-hardware-parts-single-repo-and-bom-spike.md|18-minute call with Val]] (Russian) he argued that hardware parts need one repository with subfolders, not many repositories: a repository is only a storage level, an Action can read subfolders, parts overlap, and "Мы можем всегда разделить гораздо сложнее соединять". Val accepted and closed the question. He says he is the one who answered the email on repositories, so the Oct-20 "Andrei" who questioned some fifteen repositories is him. He takes the power-supply BOM spike with this transcript as the spec, for a meeting on Tue Oct 27; Thu–Fri he is busy with the PM agent and helping "Женя" with autotests (which Zhenya is not resolved) — [[wiki/decisions/2026-10-21-hardware-parts-go-into-one-repository-with-subfolders-and-the-first-spike-builds-the-power-supply-bom-automatically.md]] [[raw/Meeting_Transcript_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]] [[raw/Meeting_Notes_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]].
 
+## Oct 23 2026 (9:02 AM) — GitHub, not SharePoint, for Efim's maths Excel files
+
+On an [[wiki/meetings/2026-10-23-math-excel-files-stay-on-github.md|18-minute call with Val and Efim]] (Russian) [[raw/Meeting_Transcript_Math_Excel_Files_Stay_on_GitHub-October-23-2026.md]] [[raw/Meeting_Notes_Math_Excel_Files_Stay_on_GitHub-October-23-2026.md]] he restated Efim's process to check it, proposed moving the files into the maths-engine repository so its prose covers both (not settled), and asked whether they need keeping at all. Once Efim said yes, he weighed Microsoft SharePoint against GitHub and chose GitHub, as it is easier if the files are automated later. He asked what any prose for them would hold — maybe a good README or Claude files — and noted the repository is in no tests today — [[wiki/decisions/2026-10-23-the-math-excel-files-stay-on-github-no-prose-is-forced-on-them-and-val-ignores-the-not-documented-report.md]].
+
+## Oct 23 2026 (11:02 AM) — the monthly cloud maintenance window; a modem opens many tools; Galaxy built by two
+
+At the [[wiki/meetings/2026-10-23-technician-loyalty-and-developers-as-product-owners.md|Oct-23 "coffee machine" chat]] [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]] he said the cloud services need about 25–30 minutes of maintenance once a month for Amazon updates; Val set it at night, 2–4 AM Eastern, and Bosik said he had planned that — [[wiki/decisions/2026-10-23-monthly-cloud-maintenance-runs-at-night-between-2-and-4-am-eastern.md]]. He received Pavel's workflow document for the commissioning voice assistant to review, and said such a bot would not shorten the technician's wait — [[wiki/decisions/2026-10-21-pavel-frolov-is-product-owner-of-the-georgia-commissioning-chatbot-and-andrey-bosik-develops-it.md]] (Oct-23 note). He said a modem mode in the machines would open many tools for technicians — [[wiki/decisions/2026-10-23-to-sell-in-georgia-jvl-must-win-back-the-operators-technicians-by-making-its-machines-easier-to-service-starting-with-the-lighter-ris-in-november.md]] — and that he removed his hand-made agents, and that Galaxy was built by two people, "Дима" and himself — [[wiki/topics/ai-assisted-development.md]] (Oct 23). Kharetski's agent was built on his base — [[wiki/decisions/2026-10-18-evgeny-kharetski-owns-a-voice-ai-game-design-assistant-with-a-first-pass-reviewed-oct-25.md]] (Oct-23 note).
+
 ## Sources
+- [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
+- [[raw/Meeting_Notes_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
@@ -810,3 +820,5 @@ At an [[wiki/meetings/2026-10-21-hardware-parts-single-repo-and-bom-spike.md|18-
 - [[raw/Meeting_Notes_Pavel_Frolov_Commissioning_Chatbot_Product_Owner-October-21-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]
 - [[raw/Meeting_Notes_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]
+- [[raw/Meeting_Transcript_Math_Excel_Files_Stay_on_GitHub-October-23-2026.md]]
+- [[raw/Meeting_Notes_Math_Excel_Files_Stay_on_GitHub-October-23-2026.md]]

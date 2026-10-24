@@ -3,7 +3,7 @@ type: topic
 title: Slot game-design principles and the progressive-bet-incentive debate
 date: 2025-02-21
 aliases: [game design principles, progressive incentive, perceived persistence, help screens, caban coin, progressive eligibility, bet incentive, V-Deck design, VDEC, jackpot rush, minimum bet, dimming, attract mode, denomination RTP, hot hotter hottest, flame buttons, per-denomination RTP, nudge feature, conservative nudge, enhanced nudge, hands, nudge animation freeze, recycling, conceptual continuity, reskin, power slider, Lucky Rainbow, Bullseye, Bonilla Games, Vanilla, skill overlay, Swift bonus, $20 test, twenty dollar test, Twin Bison, Wolfpack, Clover Fortune, Liberty Spins, peek-to-be-in bonus, locking bison, Rodeo Spins, multi-progressive, Multi-Progressive initiative, three-level progressive, three progressive styles, bet-dependent progressive, symbol-driven progressive, time on device, jackpot reset value, RTP parity, Pyre Island, dual box skill feature, Lions Riches, Primero, Piggy, attraction loop, credits vs dollars, default to a dollar, first three rankings, the ice maker, settings not the report, no secret between us, Anchor Gaming, Wheel of Fortune, sickly sweet, two RTP versions, too many options]
-source-count: 95
+source-count: 97
 open-questions: 12
 ---
 
@@ -956,6 +956,16 @@ At the [[wiki/meetings/2026-10-08-game-design-class-a-party-time-and-dual-box.md
 - **Nudge on 3-reel, dual box on 5-reel?** Competitors still nudge on 3-reel games. Michael's guess: with only 9 symbols on screen, a nudge feels like completion. On 5-reel games the dual box lets hold-and-respin games and Jackpot Rush play like their Class 3 versions. Still open for Georgia.
 - **Progressive reset levels: "do no harm".** Set without competitor data; rise with each bet level but not drastically; lighter on minis because a small dollar change does not move players.
 
+## Oct 23 2026 — Aaron's Pub and Wildfire Ranch art, the box before the rack, and what "churn" means
+
+At the [[wiki/meetings/2026-10-23-game-development-dual-box-rule-and-colombia-class-3.md|Oct-23 2:00 PM game-development meeting]] (English) [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]] [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]:
+
+- **Dual box timing.** On a win the dual box comes up first and the rack follows the choice; on a bonus trigger the box reads "to access bonus" — [[wiki/decisions/2026-10-23-nebraska-dual-box-comes-before-the-rack-and-reads-to-access-bonus-when-a-bonus-is-triggered.md]]. Nebraska keeps the larger box; Class A gets semi-transparent Liquid Glass boxes — "market appropriate implementations" (Michael).
+- **Aaron's Pub — a symbol hierarchy.** Two women are two different symbols; the redhead "is worth more, and she triggers the bonus". The pint is golden: "Technically, it should be Guinness, but Guinness is too dark" (Michael); Lena: golden "is much better, especially for… the symbol, which is special". The Topper and the second screen together form the pub front. Val found the hierarchy not clear at first sight and suggested making the redhead more dominant (arms crossed, no beer), and said beer on both women is "too repetitive" — but "Those are not significant comments if you don't want to take them." Michael wants the image "inviting as opposed to having too much attitude" [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]].
+- **Reuse the three-segment screen?** Val liked how the dual screen is split into three segments: "I would love to adopt it for other games." Michael will "make a note of it". Lena: not every theme suits it — for Wildfire Ranch the ranch, the girl and the sky must already be on the second screen, because without a Topper the scene would not show properly [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]].
+- **Wildfire Ranch — "aspirational wealth".** Michael: "not everything in aspirational wealth is Hollywood or Miami nightclubs… Aspirational wealth in a place like Nebraska or South Dakota is this. Who's got the biggest ranch?" — an expensive horse, a mansion symbol inspired by a real home (Lena: inspired, not copied), a dog breed popular in that market, a local owl as the cheapest symbol. "people can smell when something is phoned in or fake." He builds a theme from reference art he finds and works with Lena; there is no written description of each image. He sees it as "a game we can bring to all of the markets". Val dislikes repeated screens; Lena: the bonus always shows on the Topper [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]].
+- **Churn, as Efim explained it.** Churn is the total amount bet divided by the money the player brought. His example: with an RTP of about 90%, a player brings $20 to a $1 game and keeps replaying wins, so "before you lose all your money… your total bet is not $20, but probably 50"; "your turn [churn] is 2 1/2". It depends first on RTP. Asked if a higher churn means better maths, Efim: better "for players who look for time on the machine", but it may be a "dribbling game" with no action; "the highest volatility is the lower the chart [churn]". In the field it is measured roughly as total bet divided by money in — "not exactly because sometimes people take money out before they use everything" [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]].
+
 ## Open questions (Sept 22 2026)
 
 - Discrete or cumulative releases? Michael laid out Juan's blended approach; Val made no ruling — [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
@@ -1075,3 +1085,5 @@ At the [[wiki/meetings/2026-10-08-game-design-class-a-party-time-and-dual-box.md
 - [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
 - [[raw/Meeting_Notes_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
 - [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]

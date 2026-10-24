@@ -3,9 +3,9 @@ type: decision
 title: NOVA drops the browser (and Pixi) for JVL's own native engine, with no browser build kept; no code before capabilities, requirements, acceptance criteria and an architecture Val can read; MVP1 is a stable NOVA on which JVL releases six Texas games, reached step by step (Val, Oct 21 2026)
 date: 2026-10-21
 aliases: [drop the browser, native engine, NOVA native engine, Rust engine prototype, Leshkevich Rust prototype, убрать браузер, no code before capabilities, никто не начинает строчить код, rule before code, MVP1 six Texas games, стабильное ново MVP один, NOVA 2, Super NOVA, супер нова, remove browser and Pixi, download flow with GLI signature check]
-source-count: 5
+source-count: 7
 status: active
-open-commitments: 5
+open-commitments: 7
 open-questions: 5
 ---
 
@@ -94,6 +94,20 @@ At the [[wiki/meetings/2026-10-22-daily-standup-flex-port-cashout-screens-and-na
 - Pavel ran "твой вариант" ([[wiki/people/anton-leshkevich.md|Leshkevich]]'s) that morning: "Тормозит, короче, тебе придётся там посмотреть, как его оптимизировать." Which build and on what hardware is not said [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]. (Val had declined a separate board test in Minsk; whether this run was one is **unclear**.)
 - Leshkevich said he is writing release notes for Gennadiy (as heard, "рекларс для genadingo"; the notes: release notes, heard) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]. Board shipments: [[wiki/decisions/2026-09-14-the-street-cabinet-board-is-the-rk3576-not-the-rk3568.md]] (Oct-22 update).
 
+## Note, Oct 23 2026 — Daniil's place in the new engine; the Rust improvements list
+
+At the [[wiki/meetings/2026-10-23-daily-standup-bill-validator-lockout-and-atlanta-port-test.md|Oct-23 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]:
+
+- **Daniil.** Daniil Stauskiy updates dependency versions and converts textures, and asked whether the browser work still makes sense. [[wiki/people/alexander-biratka.md|Biratka]]: decide whether Daniil goes on with the browser version and, if not, what tasks he gets in the new project. [[wiki/people/pavel.md|Pavel]] agreed; the team is preparing the capability list — "требования к новому фреймворку" — and Daniil can take part in what the new engine should have [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]].
+- **Context for him.** Pavel: give Daniil the transcript of the earlier meeting "с тобой с Антоном. С Женей ивалом" (Biratka, Leshkevich, Kharetski and Val — the [[wiki/meetings/2026-10-21-dutch-mill-on-nova-and-native-engine.md|Oct-21 meeting]], by **inference**) so he knows what was discussed [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]].
+- **Rust notes.** Pavel collected "все им прувменты, которые сделались для раст имплементации" the day before, sent them only to Anton so far, and will share them in the chat [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]].
+- Game-entry timings and memory: [[wiki/decisions/2026-10-14-no-freeze-inside-a-game-so-a-games-videos-are-decoded-when-the-game-is-entered.md]] (Oct-23 note).
+
+### Open commitments (Oct 23 2026)
+
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — share the list of improvements made for the Rust implementation in the team chat — due Oct 23 2026 — [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
+- [ ] Owner not named — give Daniil Stauskiy the transcript of the earlier engine meeting and decide his next tasks (browser version or the new engine) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
@@ -101,3 +115,5 @@ At the [[wiki/meetings/2026-10-22-daily-standup-flex-port-cashout-screens-and-na
 - [[raw/Meeting_Transcript_Pavel_Frolov_Commissioning_Chatbot_Product_Owner-October-21-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]

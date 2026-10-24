@@ -3,7 +3,7 @@ type: organization
 title: EDS (Colombian gaming operation)
 date: 2025-03-29
 aliases: [EDS, EDS PAPS, PAPS, EDS Colombia, EDS USA]
-source-count: 7
+source-count: 9
 open-questions: 3
 disambiguation: "A Colombian gaming company/operation running JVL machines — 'EDS' now looks like the real corporate name, not a garble (Val dictates proposal language 'EDS is a Colombian company'). NOT the same as EDC (Export Development Canada, wiki/organizations/edc.md), whose page carries 'EDS' as a transcript-garble alias. Also distinct (pending owner ruling) from En Grande, Julian's Medellín Ruta operation (wiki/organizations/en-grande.md). Resolve by context: Canadian export financing → EDC; Ruta/Echo/Coljuegos/Medellín → En Grande; Eliana's company / Julian's retainer / Texas distributor → this page."
 ---
@@ -58,6 +58,10 @@ On the [[wiki/meetings/2026-09-23-cash-position-and-vendor-payment-plan.md|Sept-
 - **The offset.** Igor is waiting for Laura and Marta to send "the position between a compensation EDS versus Columbia." Then he will ask Colombia to send its cash to JVL — about **$25,000** (Igor "Forty, $40,000"; Val "30,000, yeah, 25"; Igor "25"). Colombia had about **$41,000** in its account on Monday's report. [[raw/Meeting_Transcript_Cash_Position_and_Vendor_Payment_Plan-September-23-2026.md]]
 - **How this relates to earlier pages (evolution, not contradiction).** In July 2025 the Colombian share was paid in cash by [[wiki/people/marta.md|Marta]] and had to keep flowing from Colombia [[raw/finance_eds_jvl_alignment-july-1-2025.md]]. On Mar 4 2026 Val asked how much EDS owes JVL Colombia [[raw/Financial_review_March-4-2026.md]]. By Sept 23 2026 the Colombian share is being settled against money EDS withheld from JVL, so no cash goes from Colombia to EDS this time. *(Linking the Mar-4 question to this offset is an inference.)* [[raw/Meeting_Transcript_Cash_Position_and_Vendor_Payment_Plan-September-23-2026.md]]
 
+## Oct 23 2026 — Val on the Colombia installed base (link to EDS is an inference)
+
+At the [[wiki/meetings/2026-10-23-game-development-dual-box-rule-and-colombia-class-3.md|Oct-23 game-development meeting]] Val said JVL is "very well established in Columbia", its business there "ran by a very reliable individual", with an installed base "We haven't touched" — "that cow that keeps on giving milk" — that will be lost without "something for the end of 2027". The machines are first-version Flex, "our own machine by participating", to be upgraded on NOVA. First step: ask what is making money in Colombia now [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]] [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]. **The source does not name EDS, JVL Colombia SAS or the person**; whether this is the EDS operation is an **inference** queued for the owner. Record: [[wiki/decisions/2026-10-23-jvl-stays-out-of-casino-class-3-and-a-colombia-refresh-on-nova-starts-from-what-earns-there-now.md]].
+
 ## Open questions
 
 - ~~Is "EDS" the operation's real name or a transcription artifact?~~ **Substantially answered by the Texas call:** Val fluently dictates "EDS is a Colombian company … EDS becomes a distributor … there could be an EDS USA" — strong evidence "EDS" is the real corporate name. Owner confirmation still queued (Tier A) because of the standing EDS→EDC garble alias. [[raw/meeting_with_julian_puerta_texas_eds.md]]
@@ -74,3 +78,5 @@ On the [[wiki/meetings/2026-09-23-cash-position-and-vendor-payment-plan.md|Sept-
 - [[raw/finance_eds_jvl_alignment-july-1-2025.md]]
 - [[raw/Financial_review_March-4-2026.md]]
 - [[raw/Meeting_Transcript_Cash_Position_and_Vendor_Payment_Plan-September-23-2026.md]]
+- [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]

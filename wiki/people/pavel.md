@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 252
+source-count: 256
 open-commitments: 108
 open-questions: 0
 ---
@@ -1330,7 +1330,17 @@ At the [[wiki/meetings/2026-10-22-daily-standup-flex-port-cashout-screens-and-na
 
 An 8-minute [[wiki/meetings/2026-10-22-pavel-frolov-code-standards-and-knowledge-repo.md|call with Val]]. Teams wrote the speech down as English words; only single terms can be read [[raw/Meeting_Notes_Pavel_Frolov_Code_Standards_and_Knowledge_Repo-October-22-2026.md]]. His readable terms: "Alekseev", "Kovalchuk reliable code. Standard.", "Best practices", "The repository knowledge is standards". Val said "yes, just do it" and he said "Yeah" [[raw/Meeting_Transcript_Pavel_Frolov_Code_Standards_and_Knowledge_Repo-October-22-2026.md]]. What he is to do is not readable, so no commitment is recorded.
 
+## Oct 23 2026 — Flex IQ modem fixes in main; the BV lockout question; ports first
+
+At the [[wiki/meetings/2026-10-23-daily-standup-bill-validator-lockout-and-atlanta-port-test.md|Oct-23 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]] he said he finished the Flex IQ fixes the night before, mostly modem and network cases that Vladimir found (ticket "35 608" as heard; which Vladimir is not resolved), all committed to main; today he closes the overdue Flex-Port tasks. He raised whether a lost connection should block the bill validator and accepted the requirements' answer — [[wiki/decisions/2026-10-23-in-bill-validator-mode-the-bill-validator-is-blocked-only-when-the-host-locks-the-port-and-a-lost-connection-shows-out-of-service-with-cash-in-still-open.md]]. He set the borrowed machines in Atlanta as priority one — [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]] (Oct-23 update) — split the firmware-delivery work in three — [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Oct-23 update) — and doubted a two-minute checksum is the cause in an Intralot email — [[wiki/organizations/intralot.md]] (Oct 23).
+
+## Oct 23 2026 (11:02 AM) — the chatbot workflow document; a diagnostic-tool draft; developers as product owners
+
+At the [[wiki/meetings/2026-10-23-technician-loyalty-and-developers-as-product-owners.md|Oct-23 "coffee machine" chat]] [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]] he said the team is finishing Flex-Port work and discussing MVP 1 and 2; he wrote the workflow document for the commissioning voice assistant and sent it to Bosik — [[wiki/decisions/2026-10-21-pavel-frolov-is-product-owner-of-the-georgia-commissioning-chatbot-and-andrey-bosik-develops-it.md]] (Oct-23 note) — and drafted the diagnostic tool with Claude — [[wiki/decisions/2026-10-02-the-diagnostic-tool-goes-onto-the-installation-stick-and-lives-in-the-sdk-repository-both-rk-and-fp7-are-worked-out.md]] (Oct-23 note). On Georgia he said the key is to remove re-commissioning from every case that does not need it, such as a printer change, and proposed SMART checks of the SSD so a failing disk is swapped early without re-commissioning — [[wiki/decisions/2026-10-23-to-sell-in-georgia-jvl-must-win-back-the-operators-technicians-by-making-its-machines-easier-to-service-starting-with-the-lighter-ris-in-november.md]]. He said Claude now picks its own agents, and that the developers Val named would gladly take more responsibility — [[wiki/topics/ai-assisted-development.md]] (Oct 23).
+
 ## Sources
+- [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
+- [[raw/Meeting_Notes_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -1587,3 +1597,5 @@ An 8-minute [[wiki/meetings/2026-10-22-pavel-frolov-code-standards-and-knowledge
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
 - [[raw/Meeting_Notes_Pavel_Frolov_Code_Standards_and_Knowledge_Repo-October-22-2026.md]]
 - [[raw/Meeting_Transcript_Pavel_Frolov_Code_Standards_and_Knowledge_Repo-October-22-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]

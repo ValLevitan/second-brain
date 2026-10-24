@@ -3,7 +3,7 @@ type: decision
 title: Georgia COAM Class A (V43) is built on NOVA, not RAGE — Nebraska keeps precedence and February 1 is a goal, not a commitment
 date: 2026-09-11
 aliases: [Class A on Nova, Georgia Class A V43 Nova, Class A V43 Nova, do not do it on Rage, Rage needs to end, let's just now park it, Nebraska takes the precedence, February 1st is a goal, Line Switches test bed, six lines and ways games to Nova]
-source-count: 5
+source-count: 7
 status: active
 open-commitments: 6
 open-questions: 3
@@ -113,6 +113,14 @@ At the [[wiki/meetings/2026-09-25-georgia-progressives-and-class-a-lions-riches.
 - **The February-1 goal is not mentioned.** A December/January production start sits beside it; the source does not say whether February 1 still holds.
 - **The cabinet.** Val: Class A goes into the **Flex-S** street machine. See [[wiki/topics/low-cost-street-machine.md]] (Sept 25).
 
+## Update — Oct 23 2026: Class A becomes the first NOVA game project, ahead of South Dakota D27
+
+At the [[wiki/meetings/2026-10-23-game-development-dual-box-rule-and-colombia-class-3.md|Oct-23 2:00 PM game-development meeting]] [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]:
+
+- **Nebraska still comes first, then Class A.** Lena: "when we finish Nebraska, we plan to start with Class A project"; "our first project in Nova is going to be Class A". Michael: "we were going to put Class A in front of South Dakota D27." Val: "I'm not changing the priority. The priority is fine." On Sept 11 Lena had said South Dakota would release first on NOVA and Class A after; that order is now history — [[wiki/decisions/2026-10-23-class-a-is-the-first-nova-game-project-ahead-of-south-dakota-d27-and-val-keeps-that-priority.md]].
+- **Lions Riches, restated.** It "took a while because that was the test bed"; its Class A design stage is "completely done". Michael expects all Class A concept and abstract work done "by end of next week".
+- **The February-1 goal is not mentioned** on Oct 23.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
@@ -120,3 +128,5 @@ At the [[wiki/meetings/2026-09-25-georgia-progressives-and-class-a-lions-riches.
 - [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
 - [[raw/Meeting_Transcript_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
 - [[raw/Meeting_Notes_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
+- [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]

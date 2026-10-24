@@ -3,7 +3,7 @@ type: person
 title: Val Levitan
 date: 2026-07-12
 aliases: [Val, Val Levitan]
-source-count: 450
+source-count: 456
 open-commitments: 83
 open-questions: 1
 ---
@@ -1748,11 +1748,25 @@ At the [[wiki/meetings/2026-10-19-github-msbc-repositories-per-project-mery-purc
 
 At the [[wiki/meetings/2026-10-21-dutch-mill-on-nova-and-native-engine.md|Oct-21 Dutch Mill review]] he backed Leshkevich in dropping the browser ("Это была ошибочная… Сейчас время поправить"), made everyone agree out loud that nobody writes code before capabilities, requirements, acceptance criteria and an architecture he can read, set MVP1 as a stable NOVA that releases six Texas games, step by step, and gave at most 10 days. He wants designers who describe a game in words, Unity/Miranda dropped, a layer that breaks down competitor games, CI/CD to the machine with audit, and field upgrades proven correct — [[wiki/decisions/2026-10-21-nova-drops-the-browser-for-a-native-engine-no-code-before-capabilities-and-mvp1-is-a-stable-nova-releasing-six-texas-games.md]]. He chose Vladimir Samusenko as product owner and accepted Pavel's one-file-per-person capability method — [[wiki/decisions/2026-10-21-vladimir-samusenko-is-invited-as-nova-product-owner-and-capabilities-are-drafted-one-file-per-person-before-grooming.md]]. He called it the most pleasant meeting he had taken part in over JVL's years [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]].
 
+## Oct 23 2026 (9:02 AM) — no forced prose on Efim's maths Excel files
+
+On an [[wiki/meetings/2026-10-23-math-excel-files-stay-on-github.md|18-minute call with Efim and Bosik]] (Russian) [[raw/Meeting_Transcript_Math_Excel_Files_Stay_on_GitHub-October-23-2026.md]] [[raw/Meeting_Notes_Math_Excel_Files_Stay_on_GitHub-October-23-2026.md]] he raised Claude's report that Efim's large maths Excel files are undocumented. He said prose matters for end-to-end tests built on the acceptance criteria in the requirements, and that game mechanics will later be described in requirements to help test the maths; but he does not want prose written "через силу". Excel is fine for now; the team waits for Claude, Grok or another AI to handle it. He will ignore the report and set up an exclusion later — [[wiki/decisions/2026-10-23-the-math-excel-files-stay-on-github-no-prose-is-forced-on-them-and-val-ignores-the-not-documented-report.md]].
+
 ## History (closed Oct 21 2026)
 
 - [x] Val Levitan — find his earlier note on why tags do not work — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]] — *no longer needed: tags were dropped on Oct 21 (one repository with subfolders); Val still did not remember why tags were rejected in development [[raw/Meeting_Transcript_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]*
 
+## Oct 23 2026 (11:02 AM) — win back Georgia's technicians; developers grow into product owners; cloud maintenance at night
+
+At the [[wiki/meetings/2026-10-23-technician-loyalty-and-developers-as-product-owners.md|Oct-23 "coffee machine" chat]] [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]] [[raw/Meeting_Notes_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]] he said Georgia sales are hard less because of payout than because the operators' technicians have learned to hate the JVL machine; the lighter RIS in November is step one, then tools for technicians, and he invited all of Minsk to think as technicians — [[wiki/decisions/2026-10-23-to-sell-in-georgia-jvl-must-win-back-the-operators-technicians-by-making-its-machines-easier-to-service-starting-with-the-lighter-ris-in-november.md]]. He did not decide on the money-on-the-machine setup lock. He set monthly cloud maintenance at 2–4 AM Eastern — [[wiki/decisions/2026-10-23-monthly-cloud-maintenance-runs-at-night-between-2-and-4-am-eastern.md]]. He said developers are growing into product owners, coordinated by a council of product owners, and that Minsk now costs JVL about 25% more — [[wiki/topics/ai-assisted-development.md]] (Oct 23).
+
+## Oct 23 2026 (2:00 PM) — keeps Class A first on NOVA; Colombia Class 3 starts from what earns there now
+
+At the [[wiki/meetings/2026-10-23-game-development-dual-box-rule-and-colombia-class-3.md|Oct-23 2:00 PM game-development meeting]] (English) [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]] he told the game team JVL has about ten machines in Nebraska, so changing the dual box is "Not a factor" — [[wiki/decisions/2026-10-23-nebraska-dual-box-comes-before-the-rack-and-reads-to-access-bonus-when-a-bonus-is-triggered.md]]. He gave optional art comments on Aaron's Pub and wants to reuse its three-segment screen in other games. He confirmed Class A goes ahead of South Dakota D27 on NOVA: "I'm not changing the priority" — [[wiki/decisions/2026-10-23-class-a-is-the-first-nova-game-project-ahead-of-south-dakota-d27-and-val-keeps-that-priority.md]]. He raised Class 3 for Colombia on NOVA, agreed that casino Class 3 is not for JVL, and said the untouched Colombia installed base needs "something for the end of 2027" or "we will lose that cow"; first ask what earns in Colombia now, and he will open the dialogue — [[wiki/decisions/2026-10-23-jvl-stays-out-of-casino-class-3-and-a-colombia-refresh-on-nova-starts-from-what-earns-there-now.md]]. He asked Efim to explain churn.
+
 ## Sources
+- [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
+- [[raw/Meeting_Notes_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 - [[raw/Meeting_Notes_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
 - [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
 - [[raw/Meeting_Notes_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
@@ -2211,3 +2225,7 @@ At the [[wiki/meetings/2026-10-21-dutch-mill-on-nova-and-native-engine.md|Oct-21
 - [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
 - [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]
+- [[raw/Meeting_Transcript_Math_Excel_Files_Stay_on_GitHub-October-23-2026.md]]
+- [[raw/Meeting_Notes_Math_Excel_Files_Stay_on_GitHub-October-23-2026.md]]
+- [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]

@@ -3,9 +3,9 @@ type: organization
 title: Intralot (Georgia's central-system operator; route ambitions)
 date: 2026-10-14
 aliases: [Intralot, Intralot Georgia, Bally Intralot, the new Bally Intralot, intra lot, intraday, the interlod, Interlock, Intralock, Interlot, Interloch, Interlord, IntraLa, intro, Intro lap, Incelot, InfraLott, Intellicom, intralight, Intralot lab, Intralot site controller, the site controller, set controller, side controller, Intralot reports, Georgia central monitoring system, state monitoring system]
-source-count: 19
-open-commitments: 3
-open-questions: 4
+source-count: 21
+open-commitments: 6
+open-questions: 5
 ---
 
 # Intralot
@@ -113,6 +113,15 @@ At the [[wiki/meetings/2026-10-21-dutch-mill-on-nova-and-native-engine.md|Oct-21
 
 On an [[wiki/meetings/2026-10-21-pavel-frolov-use-case-docs-and-commissioning-chatbot.md|ad-hoc call with Pavel Frolov]] (Russian) [[wiki/people/val-levitan.md|Val]] described how he wants Georgia commissioning to work. Today it is a voice call made by the machine owner or the technician. Val's plan: the machine has a phone module and a "commission machine" button; "Машина набирает номер телефона интерлот"; a live person at Intralot asks for the machine number, the location number and other data, and a JVL chatbot answers. JVL records the call; a failed commissioning is forwarded to a live technician, and the chatbot is improved and tried again on another machine [[raw/Meeting_Transcript_Pavel_Frolov_Use_Case_Docs_and_Commissioning_Chatbot-October-21-2026.md]] [[raw/Meeting_Notes_Pavel_Frolov_Use_Case_Docs_and_Commissioning_Chatbot-October-21-2026.md]]. Minutes later Val made [[wiki/people/pavel.md|Pavel]] its product owner and [[wiki/people/andrey-bosik.md|Andrey Bosik]] its developer [[raw/Meeting_Transcript_Pavel_Frolov_Commissioning_Chatbot_Product_Owner-October-21-2026.md]]. See [[wiki/decisions/2026-10-21-pavel-frolov-is-product-owner-of-the-georgia-commissioning-chatbot-and-andrey-bosik-develops-it.md]]. This is the use behind the 8:02 AM wish above. Whether Intralot knows of or accepts a chatbot on the line is not stated.
 
+## Oct 23 2026 (in absentia) — an email on Georgia machines and a checksum that may take too long
+
+At the [[wiki/meetings/2026-10-23-daily-standup-bill-validator-lockout-and-atlanta-port-test.md|Oct-23 Minsk stand-up]] (Russian) [[wiki/people/irina-shishko.md|Irina]] raised an email about Georgia: "Периодически машина отправляет" something wrong; it also mentions the bill validator and handpay. Pavel: it speaks "с точки зрения интролог" (from Intralot's side); who sent it is not said. Irina: even if they allow "4 минуты вместо 2 минут", it will not help if the root cause is not fixed; [[wiki/people/sebastian.md|Sebastian]] should open a ticket [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]].
+
+- **Pavel's guess.** When Intralot asks for a checksum while a game is busy, "мы не укладываемся в 2 минуты на то, чтобы посчитать контрольную сумму" [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]].
+- **The team doubts it.** [[wiki/people/ivan.md|Ivan]]: the only such request he knows is SAS 21, the ROM signature; it takes "микросекунду, даже если человек играет… это мы уже смотрели, это работает". [[wiki/people/evgeny-kharetski.md|Kharetski]] also knows only 21, but recalls once waiting up to about a minute for it. Pavel: that was when a whole partition was hashed; now only one binary file is — "тогда я вообще не представляю, где это может быть, у них проблема" [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]].
+- **Next steps.** Irina sent the email to Kharetski, Ivan and [[wiki/people/sergey-tsymanov.md|Tsymanov]]; Tsymanov will try to find which machine stands at the given address (by coordinates). Pavel will re-read the email; whether he or Kharetski owns it is not decided [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]].
+- Whether this is the lock problem raised with Intralot on Oct 13 is not said.
+
 ## History
 
 - **2014.** "**Back in twenty fourteen, Intralot won the bid to become the central monitoring system**" (Billy Liu's account) [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]].
@@ -126,6 +135,9 @@ On an [[wiki/meetings/2026-10-21-pavel-frolov-use-case-docs-and-commissioning-ch
 - [ ] Bill (Intralot) — investigate the JVL lock case and get back to JVL: "**We get the case. We will get back to you by Friday**" — due Fri Oct 16 2026 — [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
 - [ ] Intralot engineers — scan the whole field for JVL machines that lock or are disabled — due unspecified — [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
 - [ ] [[wiki/people/val-levitan.md|Val Levitan]] — ask Intralot (Bill / Chris) for a site controller for Nebraska, on George Zazanis's tip — due unspecified ("So I will ask Bill") — [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
+- [ ] [[wiki/people/sebastian.md|Sebastian]] — open a ticket for the Intralot email on Georgia machines (checksum, bill validator, handpay) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — re-read the Intralot email and settle who handles it (he or Kharetski) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
+- [ ] [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] — find which machine stands at the address in the Intralot email — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
 
 ## Open questions
 
@@ -133,6 +145,7 @@ On an [[wiki/meetings/2026-10-21-pavel-frolov-use-case-docs-and-commissioning-ch
 - Why do JVL machines lock — a site-controller signal, a timing issue, or the machine itself? Val: "**I don't know whether my machine locks up on its own or whether your controller sends a signal to lock it up**" — [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
 - JVL says many cases, Intralot sees two or three. Is the gap because Intralot does not see the lockout? Chris: "**it's more than what is reported… to us**" — [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
 - Will JVL and Intralot partner on routes — which states, revenue share, cap or equity, and when? Nothing is signed — [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]] (Oct 13 evening: JVL is named as a potential partner in Christos's internal plan; he expects three to four months to finalize; still nothing signed [[raw/Meeting_Transcript_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]] [[raw/Meeting_Notes_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]])
+- What is wrong on the Georgia machines in the Oct-23 email? SAS 21 answers fast, so the two-minute checksum theory does not fit — [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
 
 **§15.8:** clear — company and market figures only; no named-person compensation. **Personal matters:** not recorded. Gossip about a third party's finances was not recorded.
 
@@ -157,3 +170,5 @@ On an [[wiki/meetings/2026-10-21-pavel-frolov-use-case-docs-and-commissioning-ch
 - [[raw/Meeting_Transcript_Pavel_Frolov_Use_Case_Docs_and_Commissioning_Chatbot-October-21-2026.md]]
 - [[raw/Meeting_Notes_Pavel_Frolov_Use_Case_Docs_and_Commissioning_Chatbot-October-21-2026.md]]
 - [[raw/Meeting_Transcript_Pavel_Frolov_Commissioning_Chatbot_Product_Owner-October-21-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]

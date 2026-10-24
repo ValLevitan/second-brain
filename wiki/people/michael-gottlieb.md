@@ -4,8 +4,8 @@ title: Michael Gottlieb
 date: 2026-07-13
 aliases: [Michael Gottlieb, Michael, Mike]
 disambiguation: "Senior VP of Game Design (works with Juan). Misha/Michael cluster (2, owner-ruled): [[wiki/people/michael-gottlieb.md|Michael Gottlieb]]=Senior VP Game Design / [[wiki/people/mikhail-perelman.md|Mikhail Perelman]]=Procurement Manager (the "retrofit Misha"). Resolve by context; queue if none."
-source-count: 71
-open-commitments: 15
+source-count: 73
+open-commitments: 16
 ---
 
 # Michael Gottlieb
@@ -358,14 +358,29 @@ He led the [[wiki/meetings/2026-10-08-game-design-class-a-party-time-and-dual-bo
 ### Open commitments (Oct 8 2026)
 
 - [ ] Michael Gottlieb (with Efim Podvoiski) — check in the maths whether party-time payouts below $50 meet the goals — due unspecified — [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
-- [ ] Michael Gottlieb — finish the South Dakota D27 03 abstracts (Calle Ocho, then Rodeo Queen) — due Oct 8–9 2026 — [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
-- [ ] Michael Gottlieb — concept for Queen of Luxor Keno — due about 1–1.5 weeks from Oct 8 2026 — [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
+- [x] Michael Gottlieb — finish the South Dakota D27 03 abstracts (Calle Ocho, then Rodeo Queen) — due Oct 8–9 2026 — [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]] — **discharged by Oct 23 2026:** "all of the South Dakota D2703 Nova concepts are complete" [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- [ ] Michael Gottlieb — concept for Queen of Luxor Keno — due about 1–1.5 weeks from Oct 8 2026 — [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]] — *Oct 23: all D2703 concepts are "complete", yet he also calls Queen of Luxor Keno one "we're just getting started on now"; Lena is on its design. Whether the concept is done is **unclear**, so the item stays open* [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
 - [ ] Michael Gottlieb — document the Georgia V4 ideas and start abstracts — due unspecified — [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
 
 
 ## Oct 18 2026 (in absentia, inference) — to write a theme abstract for a Dutch Mill re-skin
 
 At the [[wiki/meetings/2026-10-18-dutch-mill-rage-to-nova-conversion-and-reskin-plan.md|Oct-18 8:04 AM Dutch Mill session]] Val said he will ask "Майкла" to create a new theme to replace Dutch Mill — the abstract only — based on Igor Metelski's technical spec of scenes and placeholders. Pavel warned Michael may feel the process is "с ног на голову"; Val said he would manage it. Read as Michael Gottlieb by context (game design) — **inference** [[raw/Meeting_Transcript_Dutch_Mill_Rage_to_NOVA_Conversion_and_Reskin_Plan-October-18-2026.md]]. Record: [[wiki/decisions/2026-10-18-rage-is-closed-dutch-mill-reaches-nova-by-wednesday-and-a-reskin-from-a-new-theme-tests-the-tools.md]].
+
+## Oct 23 2026 — the dual box rule, Class A first, Aaron's Pub and Wildfire Ranch, and "casino Class 3 is suicide"
+
+He led the [[wiki/meetings/2026-10-23-game-development-dual-box-rule-and-colombia-class-3.md|Oct-23 2:00 PM game-development meeting]] (English) [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]:
+
+- **Dual box.** With Efim he moved the dual box to the outcome of the spin: box first, then the rack; "to access bonus" on a bonus trigger; the same for Class A — [[wiki/decisions/2026-10-23-nebraska-dual-box-comes-before-the-rack-and-reads-to-access-bonus-when-a-bonus-is-triggered.md]]
+- **Schedule.** All South Dakota D2703 NOVA concepts are complete; the maths for Aaron's Pub, Wildfire Ranch and the two new Kenos waits for builds he and Efim can play-test. Class A goes ahead of South Dakota D27 on NOVA; he expects all Class A concept work done by the end of the next week. He prefers Nebraska's larger dual box for that market — [[wiki/decisions/2026-10-23-class-a-is-the-first-nova-game-project-ahead-of-south-dakota-d27-and-val-keeps-that-priority.md]]
+- **Art.** He wants Aaron's Pub "inviting" rather than confrontational, and explained Wildfire Ranch as "aspirational wealth" for Nebraska and South Dakota — [[wiki/topics/slot-game-design-principles.md]] (Oct 23).
+- **Class 3.** "Regular" casino Class 3 is "suicide"; regional and street gaming will keep growing. For Colombia he wants to learn first what earns there now, and will write the questions — [[wiki/decisions/2026-10-23-jvl-stays-out-of-casino-class-3-and-a-colombia-refresh-on-nova-starts-from-what-earns-there-now.md]]
+
+### Open commitments (Oct 23 2026)
+
+- [ ] Michael Gottlieb — note Val's idea to reuse the three-segment pub screen layout in other games — due unspecified — [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]] [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- [ ] Michael Gottlieb (with Efim Podvoiski) — play-test the Aaron's Pub, Wildfire Ranch, Solar Keno and Queen of Luxor Keno builds to set the maths — due unspecified (once builds are up) — [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]] [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- Also owed, recorded on the decision pages: the dual box requirements (with Efim), all Class A concept work by about Oct 30, and the Colombia questions.
 
 ## Sources
 
@@ -440,3 +455,5 @@ At the [[wiki/meetings/2026-10-18-dutch-mill-rage-to-nova-conversion-and-reskin-
 - [[raw/Meeting_Transcript_Rage_Nova_Dragon_Pays_Vertical_Port_and_Symbol_Distortion-October-8-2026.md]]
 - [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
 - [[raw/Meeting_Transcript_Dutch_Mill_Rage_to_NOVA_Conversion_and_Reskin_Plan-October-18-2026.md]]
+- [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]

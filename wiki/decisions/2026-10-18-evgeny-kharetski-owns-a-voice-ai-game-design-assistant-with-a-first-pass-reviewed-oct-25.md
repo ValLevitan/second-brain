@@ -3,7 +3,7 @@ type: decision
 title: A voice AI "Game Design Assistant" that questions the head of game design and produces a creative direction document to Igor's spec — Evgeny Kharetski owns it with Igor; new Jira project and repository; first pass (voice to text, text to voice) reviewed Sunday Oct 25 (Val, Oct 18 2026)
 date: 2026-10-18
 aliases: [Game Design Assistant, AI Game Design Assistant, геймдизайн IS astond, creative direction design assistant, кредит в дирекшен дизайн assistend, voice to voice AI assistant, войс ту войс эй ассистент, AI design assistant, ai дизайна asisnate]
-source-count: 6
+source-count: 9
 status: active
 open-commitments: 3
 open-questions: 1
@@ -56,7 +56,16 @@ At the [[wiki/meetings/2026-10-22-daily-standup-flex-port-cashout-screens-and-na
 
 **§15.8:** clear. **§15 #9:** none.
 
+## Note, Oct 23 2026 — "by Saturday"
+
+At the [[wiki/meetings/2026-10-23-daily-standup-bill-validator-lockout-and-atlanta-port-test.md|Oct-23 Minsk stand-up]] (Russian; Val absent) [[wiki/people/evgeny-kharetski.md|Kharetski]]: "с агентом в принципе, в субботу я готов. Даже больше." It is not just an agent but a game assistant: one can ask any questions on the game documents ("п д д", read as GDD — **inference**) and the maths, and create game briefs. He is waiting for information from Irina on a tab ("вкладки Титов", **unclear**) [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]. Saturday is Oct 24, a day before the Oct-25 review; the first-pass commitment stays open until it is shown.
+
+## Note, Oct 23 2026 (11:02 AM) — the agent works, on Bosik's base, in Teams
+
+At the [[wiki/meetings/2026-10-23-technician-loyalty-and-developers-as-product-owners.md|Oct-23 "coffee machine" chat]] (Russian) Val asked how things stand with "корецкого" (read as [[wiki/people/evgeny-kharetski.md|Kharetski]] — **inference**). [[wiki/people/pavel.md|Pavel]]: he did everything, "Даже уже больше, чем то, что хотел сделать." [[wiki/people/andrey-bosik.md|Bosik]]: "он базу с моего взял, получается агента, чтобы там teams уже работал… и логику заложил свою и агент. В принципе нормально уже общается там." [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]] That this is the Game Design Assistant is an **inference** from Kharetski's Oct-22 and Oct-23 reports. The first-pass commitment stays open until the Oct-25 review.
+
 ## Sources
+- [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 
 - [[raw/Meeting_Transcript_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]]
 - [[raw/Meeting_Notes_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]]
@@ -64,3 +73,5 @@ At the [[wiki/meetings/2026-10-22-daily-standup-flex-port-cashout-screens-and-na
 - [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]

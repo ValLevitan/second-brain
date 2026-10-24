@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna, Selena, Elena]
-source-count: 77
+source-count: 79
 open-commitments: 16
 ---
 
@@ -352,6 +352,16 @@ At the [[wiki/meetings/2026-10-08-game-design-class-a-party-time-and-dual-box.md
 
 At the [[wiki/meetings/2026-10-16-daily-standup-mvp2-wi-fi-scope-and-modem-mac-rollback.md|Oct-16 stand-up]] Pavel said the resources missing from Leshkevich's port into the new project are what "Лена с дизайнерами" are making now; it is "небраска 2", a horizontal Nebraska [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]] — [[wiki/topics/nova-platform-architecture.md]] (Oct 16).
 
+## Oct 23 2026 — Aaron's Pub and Wildfire Ranch art, Class A as the first NOVA project, and a real Liquid Glass shader
+
+At the [[wiki/meetings/2026-10-23-game-development-dual-box-rule-and-colombia-class-3.md|Oct-23 2:00 PM game-development meeting]] (English) [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]:
+
+- **Art shown.** Aaron's Pub — the Topper and second screen form the pub front; golden beer instead of Guinness — and Wildfire Ranch. Aaron's Pub goes to the "next Nebraska release". She told Val the three-segment layout does not suit every theme — [[wiki/topics/slot-game-design-principles.md]] (Oct 23).
+- **Dual box change.** Michael asked her to rack only after the dual box choice and to show "to access bonus" on a bonus trigger. She passed on Igor's request for written requirements — [[wiki/decisions/2026-10-23-nebraska-dual-box-comes-before-the-rack-and-reads-to-access-bonus-when-a-bonus-is-triggered.md]]
+- **Class A first on NOVA.** She asked Val to confirm that Class A comes first after Nebraska; Lions Riches design is done; Class A will get a real Liquid Glass shader with semi-transparent dialog boxes — [[wiki/decisions/2026-10-23-class-a-is-the-first-nova-game-project-ahead-of-south-dakota-d27-and-val-keeps-that-priority.md]]
+- **South Dakota.** She is on the design of Queen of Luxor Keno; South Dakota has no date, and she suggested perhaps a new Georgia NOVA release first (curved monitor, August) — [[wiki/projects/south-dakota-vlt-market.md]] (Oct 23).
+- **Nebraska** is the only project in production, scheduled to December 21 — [[wiki/projects/nebraska-skill-market.md]] (Oct 23).
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 - [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
@@ -432,3 +442,5 @@ At the [[wiki/meetings/2026-10-16-daily-standup-mvp2-wi-fi-scope-and-modem-mac-r
 - [[raw/Meeting_Notes_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
 - [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+- [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
